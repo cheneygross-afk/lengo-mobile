@@ -1,24 +1,21 @@
-import { useCallback, useState } from "react";
-import { View, Text, FlatList, Pressable, StyleSheet } from "react-native";
+import { useCallback, useMemo, useState } from "react";
+import { View, Text, SectionList, Pressable, StyleSheet } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { A1_LESSONS } from "@/lib/lessons/a1";
+import { A1_MODULES, groupLessonsByModule } from "@/lib/lessons/modules";
 import { getCompletedMap } from "@/lib/lessons/completion";
+import { parseDurationMinutes, formatMinutes } from "@/lib/duration";
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonList">;
 
-// MVP ships A1 only -- the other levels (a2.ts, b1.ts, ...) are the exact
-// same shape and can be copied over from the web repo (src/lib/lessons/)
-// and added here the same way once there's a level picker.
+// MVP ships A1 only -- see README for how to add A2-C2 the same way.
 const LEVEL_PATH = "a1";
 
 export default function LessonListScreen({ navigation }: Props) {
   const [completed, setCompleted] = useState<Record<string, boolean>>({});
 
-  // Re-read completion state every time this screen gains focus (e.g.
-  // coming back from finishing a lesson), same as the web app re-reading
-  // localStorage on mount.
   useFocusEffect(
     useCallback(() => {
       let cancelled = false;
@@ -31,6 +28,7 @@ export default function LessonListScreen({ navigation }: Props) {
     }, [])
   );
 
+  const sections = useMemo(() => groupLessonsByModule(A1_LESSONS, A1_MODULES), []);
   const completedCount = A1_LESSONS.filter((l) => completed[l.slug]).length;
 
   return (
@@ -38,11 +36,27 @@ export default function LessonListScreen({ navigation }: Props) {
       <Text style={styles.header}>
         {completedCount} of {A1_LESSONS.length} completed
       </Text>
-      <FlatList
-        data={A1_LESSONS}
+      <SectionList
+        sections={sections}
         keyExtractor={(item) => item.slug}
         contentContainerStyle={styles.list}
-        renderItem={({ item, index }) => {
+        stickySectionHeadersEnabled={false}
+        renderSectionHeader={({ section }) => {
+          const doneInSection = section.data.filter((l) => completed[l.slug]).length;
+          const sectionMinutes = section.data.reduce(
+            (sum, l) => sum + parseDurationMinutes(l.duration),
+            0
+          );
+          return (
+            <View style={styles.sectionHeader}>
+              <Text style={styles.sectionTitle}>{section.title}</Text>
+              <Text style={styles.sectionMeta}>
+                {doneInSection}/{section.data.length} · {formatMinutes(sectionMinutes)}
+              </Text>
+            </View>
+          );
+        }}
+        renderItem={({ item }) => {
           const done = !!completed[item.slug];
           return (
             <Pressable
@@ -51,7 +65,7 @@ export default function LessonListScreen({ navigation }: Props) {
             >
               <View style={[styles.badge, done && styles.badgeDone]}>
                 <Text style={[styles.badgeText, done && styles.badgeTextDone]}>
-                  {done ? "✓" : index + 1}
+                  {done ? "✓" : item.number}
                 </Text>
               </View>
               <View style={styles.rowBody}>
@@ -60,6 +74,7 @@ export default function LessonListScreen({ navigation }: Props) {
                   {item.summary}
                 </Text>
               </View>
+              <Text style={styles.duration}>{item.duration}</Text>
             </Pressable>
           );
         }}
@@ -72,12 +87,22 @@ const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: "#FAF6F1" },
   header: {
     padding: 16,
+    paddingBottom: 4,
     fontSize: 13,
     color: "#00000099",
     textTransform: "uppercase",
     letterSpacing: 0.5,
   },
-  list: { paddingHorizontal: 16, paddingBottom: 24, gap: 10 },
+  list: { paddingHorizontal: 16, paddingBottom: 24 },
+  sectionHeader: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "flex-end",
+    paddingTop: 20,
+    paddingBottom: 8,
+  },
+  sectionTitle: { fontSize: 15, fontWeight: "700", color: "#7A1F1F" },
+  sectionMeta: { fontSize: 12, color: "#00000066" },
   row: {
     flexDirection: "row",
     gap: 12,
@@ -87,6 +112,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#00000012",
     alignItems: "center",
+    marginBottom: 10,
   },
   badge: {
     width: 32,
@@ -97,9 +123,10 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   badgeDone: { backgroundColor: "#7A1F1F" },
-  badgeText: { fontWeight: "700", color: "#000" },
+  badgeText: { fontWeight: "700", color: "#000", fontSize: 13 },
   badgeTextDone: { color: "#fff" },
   rowBody: { flex: 1 },
   rowTitle: { fontSize: 16, fontWeight: "600", color: "#000" },
   rowSummary: { fontSize: 13, color: "#00000099", marginTop: 2 },
+  duration: { fontSize: 12, color: "#00000066", alignSelf: "flex-start", marginTop: 2 },
 });
