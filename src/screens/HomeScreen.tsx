@@ -23,6 +23,11 @@ export default function HomeScreen({ navigation }: Props) {
         <Text style={styles.cardBody}>Review vocabulary due today.</Text>
       </Pressable>
 
+      <Pressable style={styles.card} onPress={() => navigation.navigate("ReadingsList")}>
+        <Text style={styles.cardTitle}>Readings</Text>
+        <Text style={styles.cardBody}>Free short stories and book picks -- any length.</Text>
+      </Pressable>
+
       <Pressable style={styles.signOut} onPress={signOut}>
         <Text style={styles.signOutText}>Log out</Text>
       </Pressable>

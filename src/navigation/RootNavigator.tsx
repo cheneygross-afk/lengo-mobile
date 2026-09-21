@@ -8,6 +8,8 @@ import HomeScreen from "@/screens/HomeScreen";
 import LessonListScreen from "@/screens/LessonListScreen";
 import LessonRunnerScreen from "@/screens/LessonRunnerScreen";
 import FlashcardsScreen from "@/screens/FlashcardsScreen";
+import ReadingsListScreen from "@/screens/ReadingsListScreen";
+import StoryReaderScreen from "@/screens/StoryReaderScreen";
 
 const AuthStack = createNativeStackNavigator<AuthStackParamList>();
 const AppStack = createNativeStackNavigator<AppStackParamList>();
@@ -37,6 +39,8 @@ function AppNavigator() {
         options={{ title: "" }}
       />
       <AppStack.Screen name="Flashcards" component={FlashcardsScreen} options={{ title: "Flashcards" }} />
+      <AppStack.Screen name="ReadingsList" component={ReadingsListScreen} options={{ title: "Readings" }} />
+      <AppStack.Screen name="StoryReader" component={StoryReaderScreen} options={{ title: "" }} />
     </AppStack.Navigator>
   );
 }
