@@ -11,54 +11,62 @@ import {
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { A1_LESSONS } from "@/lib/lessons/a1";
-import type { Exercise, LessonSection } from "@/lib/lessons/types";
+import type { Exercise } from "@/lib/lessons/types";
+import { generateVocabDrills } from "@/lib/lessons/drill";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import { markLessonCompleted } from "@/lib/lessons/completion";
+import { addToReview } from "@/lib/lessons/review";
 import { autoEnrollLessonVocabulary } from "@/lib/flashcards/store";
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonRunner">;
 
 const LEVEL_PATH = "a1";
+const MIN_DRILL_QUESTIONS = 15;
 
-// A lesson used to render as one long ScrollView -- every section's
-// reading, every checkpoint question, and the whole review block, all
-// visible at once. That's what made even a "10-minute" lesson feel like
-// a wall. This screen instead walks the same lesson content one step at
-// a time: a teaching card, or a single question, never both at once --
-// with a progress bar that advances on every step (reading included, not
-// just questions) so there's constant, visible forward motion.
+// Screen 4's lesson player: the whole concept goes on one screen up front
+// (every section's reading, however long that runs), then every
+// successive screen is a single independent drill question -- no more
+// interleaving reading and checkpoints section by section. Each lesson's
+// hand-authored checkpoint + review exercises are padded with generated
+// vocabulary drills (see lib/lessons/drill.ts) so every lesson drills at
+// least MIN_DRILL_QUESTIONS questions.
 type Step =
-  | { kind: "teach"; section: LessonSection; sectionIndex: number }
-  | { kind: "exercise"; exercise: Exercise; key: string; badge: string }
+  | { kind: "intro" }
+  | { kind: "exercise"; exercise: Exercise; key: string; number: number }
   | { kind: "complete" };
 
 export default function LessonRunnerScreen({ route, navigation }: Props) {
   const { slug } = route.params;
   const lesson = useMemo(() => A1_LESSONS.find((l) => l.slug === slug), [slug]);
 
+  const drill = useMemo<Exercise[]>(() => {
+    if (!lesson) return [];
+    const authored: Exercise[] = [];
+    lesson.sections.forEach((section) => {
+      section.checkpoint?.forEach((ex) => authored.push(ex));
+    });
+    lesson.exercises.forEach((ex) => authored.push(ex));
+    const generated = generateVocabDrills(lesson, MIN_DRILL_QUESTIONS - authored.length);
+    return [...authored, ...generated];
+  }, [lesson]);
+
   const steps = useMemo<Step[]>(() => {
     if (!lesson) return [];
-    const out: Step[] = [];
-    lesson.sections.forEach((section, si) => {
-      out.push({ kind: "teach", section, sectionIndex: si });
-      section.checkpoint?.forEach((exercise, ei) => {
-        out.push({ kind: "exercise", exercise, key: `cp-${si}-${ei}`, badge: "Checkpoint" });
-      });
-    });
-    lesson.exercises.forEach((exercise, ei) => {
-      out.push({ kind: "exercise", exercise, key: `ex-${ei}`, badge: "Review" });
+    const out: Step[] = [{ kind: "intro" }];
+    drill.forEach((exercise, i) => {
+      out.push({ kind: "exercise", exercise, key: `drill-${i}`, number: i + 1 });
     });
     out.push({ kind: "complete" });
     return out;
-  }, [lesson]);
+  }, [lesson, drill]);
 
   const [stepIndex, setStepIndex] = useState(0);
   const [feedback, setFeedback] = useState<{ correct: boolean; explanation: string } | null>(null);
   const [correctCount, setCorrectCount] = useState(0);
   const [finishing, setFinishing] = useState(false);
+  const [addedToReview, setAddedToReview] = useState(false);
   const finishedRef = useRef(false);
   const startedAt = useRef(Date.now());
-  const totalExercises = useMemo(() => steps.filter((s) => s.kind === "exercise").length, [steps]);
 
   const progressAnim = useRef(new Animated.Value(0)).current;
   const sheetAnim = useRef(new Animated.Value(0)).current;
@@ -121,6 +129,21 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     setStepIndex((i) => Math.min(i + 1, steps.length - 1));
   }
 
+  function handleRedo() {
+    finishedRef.current = false;
+    setCorrectCount(0);
+    setFeedback(null);
+    setAddedToReview(false);
+    startedAt.current = Date.now();
+    setStepIndex(0);
+  }
+
+  async function handleAddToReview() {
+    if (!lesson) return;
+    setAddedToReview(true);
+    await addToReview(LEVEL_PATH, lesson.slug);
+  }
+
   function handleExit() {
     if (stepIndex === 0 || currentStep?.kind === "complete") {
       navigation.goBack();
@@ -147,17 +170,13 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       </View>
 
       <ScrollView style={s.stepArea} contentContainerStyle={s.stepContent} keyboardShouldPersistTaps="handled">
-        {currentStep?.kind === "teach" && (
-          <TeachStep
-            lesson={lesson}
-            section={currentStep.section}
-            onContinue={goNext}
-          />
-        )}
+        {currentStep?.kind === "intro" && <IntroStep lesson={lesson} onContinue={goNext} />}
 
         {currentStep?.kind === "exercise" && (
           <View>
-            <Text style={s.badge}>{currentStep.badge}</Text>
+            <Text style={s.badge}>
+              Question {currentStep.number} of {drill.length}
+            </Text>
             <ExerciseBlock
               key={currentStep.key}
               exercise={currentStep.exercise}
@@ -176,10 +195,13 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
           <CompleteStep
             lessonTitle={lesson.title}
             correctCount={correctCount}
-            totalExercises={totalExercises}
+            totalExercises={drill.length}
             elapsedMs={Date.now() - startedAt.current}
             finishing={finishing}
+            addedToReview={addedToReview}
             onDone={() => navigation.goBack()}
+            onRedo={handleRedo}
+            onAddToReview={handleAddToReview}
           />
         )}
       </ScrollView>
@@ -208,13 +230,11 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   );
 }
 
-function TeachStep({
+function IntroStep({
   lesson,
-  section,
   onContinue,
 }: {
-  lesson: { level: string; number: number };
-  section: LessonSection;
+  lesson: { level: string; number: number; title: string; sections: { heading: string; body: string[]; examples?: { es: string; en?: string }[] }[] };
   onContinue: () => void;
 }) {
   return (
@@ -222,39 +242,27 @@ function TeachStep({
       <Text style={s.kicker}>
         {lesson.level} · Lesson {lesson.number}
       </Text>
-      <Text style={s.teachHeading}>{section.heading}</Text>
-      {section.body.map((p, pi) => (
-        <Text key={pi} style={s.teachBody}>
-          {p}
-        </Text>
-      ))}
-      {section.examples?.map((ex, ei) => (
-        <FadeInCard key={ei} delay={ei * 70}>
-          <Text style={s.exampleEs}>{ex.es}</Text>
-          {ex.en ? <Text style={s.exampleEn}>{ex.en}</Text> : null}
-        </FadeInCard>
+      <Text style={s.introTitle}>{lesson.title}</Text>
+      {lesson.sections.map((section, si) => (
+        <View key={si} style={s.introSection}>
+          <Text style={s.teachHeading}>{section.heading}</Text>
+          {section.body.map((p, pi) => (
+            <Text key={pi} style={s.teachBody}>
+              {p}
+            </Text>
+          ))}
+          {section.examples?.map((ex, ei) => (
+            <View key={ei} style={s.example}>
+              <Text style={s.exampleEs}>{ex.es}</Text>
+              {ex.en ? <Text style={s.exampleEn}>{ex.en}</Text> : null}
+            </View>
+          ))}
+        </View>
       ))}
       <Pressable style={s.bigBtn} onPress={onContinue}>
-        <Text style={s.bigBtnText}>Continue</Text>
+        <Text style={s.bigBtnText}>Start drill</Text>
       </Pressable>
     </View>
-  );
-}
-
-function FadeInCard({ children, delay }: { children: React.ReactNode; delay: number }) {
-  const anim = useRef(new Animated.Value(0)).current;
-  useEffect(() => {
-    Animated.timing(anim, { toValue: 1, duration: 280, delay, useNativeDriver: true }).start();
-  }, [anim, delay]);
-  return (
-    <Animated.View
-      style={[
-        s.example,
-        { opacity: anim, transform: [{ translateY: anim.interpolate({ inputRange: [0, 1], outputRange: [6, 0] }) }] },
-      ]}
-    >
-      {children}
-    </Animated.View>
   );
 }
 
@@ -264,14 +272,20 @@ function CompleteStep({
   totalExercises,
   elapsedMs,
   finishing,
+  addedToReview,
   onDone,
+  onRedo,
+  onAddToReview,
 }: {
   lessonTitle: string;
   correctCount: number;
   totalExercises: number;
   elapsedMs: number;
   finishing: boolean;
+  addedToReview: boolean;
   onDone: () => void;
+  onRedo: () => void;
+  onAddToReview: () => void;
 }) {
   const totalSeconds = Math.max(1, Math.round(elapsedMs / 1000));
   const minutes = Math.floor(totalSeconds / 60);
@@ -297,6 +311,16 @@ function CompleteStep({
           <Text style={s.statLabel}>Time</Text>
         </View>
       </View>
+
+      <View style={s.secondaryRow}>
+        <Pressable style={s.secondaryBtn} onPress={onRedo}>
+          <Text style={s.secondaryBtnText}>↻ Redo lesson</Text>
+        </Pressable>
+        <Pressable style={s.secondaryBtn} onPress={onAddToReview} disabled={addedToReview}>
+          <Text style={s.secondaryBtnText}>{addedToReview ? "✓ Added to review" : "+ Add to review"}</Text>
+        </Pressable>
+      </View>
+
       <Pressable style={[s.bigBtn, s.completeBtn]} disabled={finishing} onPress={onDone}>
         <Text style={s.bigBtnText}>{finishing ? "Saving…" : "Back to lessons"}</Text>
       </Pressable>
@@ -316,8 +340,10 @@ const s = StyleSheet.create({
   stepContent: { padding: 20, paddingBottom: 40 },
 
   kicker: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#7A1F1F", marginBottom: 6 },
-  teachHeading: { fontSize: 22, fontWeight: "800", color: "#000", marginBottom: 10 },
-  teachBody: { fontSize: 15, lineHeight: 22, color: "#000000dd", marginBottom: 14 },
+  introTitle: { fontSize: 24, fontWeight: "800", color: "#000", marginBottom: 18 },
+  introSection: { marginBottom: 22 },
+  teachHeading: { fontSize: 18, fontWeight: "700", color: "#000", marginBottom: 8 },
+  teachBody: { fontSize: 15, lineHeight: 22, color: "#000000dd", marginBottom: 10 },
   example: {
     backgroundColor: "#fff",
     borderRadius: 12,
@@ -363,9 +389,18 @@ const s = StyleSheet.create({
   },
   completeTitle: { fontSize: 22, fontWeight: "800", color: "#000", marginBottom: 6 },
   completeSub: { fontSize: 14, color: "#00000099", marginBottom: 22, textAlign: "center" },
-  statsRow: { flexDirection: "row", gap: 10, marginBottom: 8 },
+  statsRow: { flexDirection: "row", gap: 10, marginBottom: 20 },
   statPill: { backgroundColor: "#fff", borderWidth: 1, borderColor: "#00000012", borderRadius: 12, paddingVertical: 10, paddingHorizontal: 18, alignItems: "center" },
   statNum: { fontSize: 18, fontWeight: "800", color: "#7A1F1F" },
   statLabel: { fontSize: 11, color: "#00000066", textTransform: "uppercase", marginTop: 2 },
+  secondaryRow: { flexDirection: "row", gap: 10, marginBottom: 4 },
+  secondaryBtn: {
+    borderWidth: 1.5,
+    borderColor: "#7A1F1F",
+    borderRadius: 999,
+    paddingVertical: 10,
+    paddingHorizontal: 16,
+  },
+  secondaryBtnText: { color: "#7A1F1F", fontWeight: "700", fontSize: 13 },
   completeBtn: { width: 220 },
 });
