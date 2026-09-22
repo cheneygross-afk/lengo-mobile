@@ -31,6 +31,11 @@ export default function HomeScreen({ navigation }: Props) {
             <Text style={styles.cardTitle}>Readings</Text>
             <Text style={styles.cardBody}>Free short stories and book picks -- any length.</Text>
           </Pressable>
+
+          <Pressable style={styles.card} onPress={() => navigation.navigate("Review")}>
+            <Text style={styles.cardTitle}>Review</Text>
+            <Text style={styles.cardBody}>Lessons you saved to try again.</Text>
+          </Pressable>
         </View>
       </View>
 

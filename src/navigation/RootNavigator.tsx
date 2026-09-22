@@ -10,6 +10,7 @@ import SignupScreen from "@/screens/SignupScreen";
 import HomeScreen from "@/screens/HomeScreen";
 import LessonListScreen from "@/screens/LessonListScreen";
 import LessonRunnerScreen from "@/screens/LessonRunnerScreen";
+import ReviewListScreen from "@/screens/ReviewListScreen";
 import FlashcardsScreen from "@/screens/FlashcardsScreen";
 import ReadingsListScreen from "@/screens/ReadingsListScreen";
 import StoryReaderScreen from "@/screens/StoryReaderScreen";
@@ -42,6 +43,7 @@ function AppNavigator() {
         component={LessonRunnerScreen}
         options={{ title: "" }}
       />
+      <AppStack.Screen name="Review" component={ReviewListScreen} options={{ title: "Review" }} />
       <AppStack.Screen name="Flashcards" component={FlashcardsScreen} options={{ title: "Flashcards" }} />
       <AppStack.Screen name="ReadingsList" component={ReadingsListScreen} options={{ title: "Readings" }} />
       <AppStack.Screen name="StoryReader" component={StoryReaderScreen} options={{ title: "" }} />
