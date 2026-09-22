@@ -6,6 +6,7 @@ import type { AppStackParamList } from "@/navigation/types";
 import { LESSON_SOURCES, type LessonModuleKey } from "@/lib/lessons/registry";
 import { A1_MODULES, A1_MAX_DRILL_LESSON_NUMBER, groupLessonsByModule, type LessonSection } from "@/lib/lessons/modules";
 import { getCompletedMap } from "@/lib/lessons/completion";
+import { getPendingReviewBatch, type PendingReviewBatch } from "@/lib/lessons/reviewCadence";
 import { parseDurationMinutes, formatMinutes } from "@/lib/duration";
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonList">;
@@ -20,12 +21,16 @@ export default function LessonListScreen({ navigation, route }: Props) {
   const moduleKey: LessonModuleKey = route.params?.moduleKey ?? "a1";
   const source = LESSON_SOURCES[moduleKey];
   const [completed, setCompleted] = useState<Record<string, boolean>>({});
+  const [pendingReview, setPendingReview] = useState<PendingReviewBatch | null>(null);
 
   useFocusEffect(
     useCallback(() => {
       let cancelled = false;
       getCompletedMap(source.levelPath).then((map) => {
         if (!cancelled) setCompleted(map);
+      });
+      getPendingReviewBatch(source.levelPath).then((batch) => {
+        if (!cancelled) setPendingReview(batch);
       });
       return () => {
         cancelled = true;
@@ -51,6 +56,22 @@ export default function LessonListScreen({ navigation, route }: Props) {
       <Text style={styles.header}>
         {completedCount} of {visibleLessons.length} completed
       </Text>
+      {pendingReview && (
+        <Pressable
+          style={styles.reviewCard}
+          onPress={() =>
+            navigation.navigate("ReviewDrill", {
+              levelPath: source.levelPath,
+              batch: pendingReview.batch,
+              slugs: pendingReview.slugs,
+            })
+          }
+        >
+          <Text style={styles.reviewCardKicker}>Time for a check-in</Text>
+          <Text style={styles.reviewCardTitle}>Review your last 4 lessons</Text>
+          <Text style={styles.reviewCardBody}>Quick drill of anything you missed or flagged.</Text>
+        </Pressable>
+      )}
       <SectionList
         sections={sections}
         keyExtractor={(item) => item.slug}
@@ -109,6 +130,16 @@ const styles = StyleSheet.create({
     letterSpacing: 0.5,
   },
   list: { paddingHorizontal: 16, paddingBottom: 24 },
+  reviewCard: {
+    marginHorizontal: 16,
+    marginTop: 8,
+    backgroundColor: "#7A1F1F",
+    borderRadius: 14,
+    padding: 16,
+  },
+  reviewCardKicker: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#ffffffaa" },
+  reviewCardTitle: { fontSize: 17, fontWeight: "800", color: "#fff", marginTop: 4 },
+  reviewCardBody: { fontSize: 13, color: "#ffffffcc", marginTop: 4 },
   sectionHeader: {
     flexDirection: "row",
     justifyContent: "space-between",

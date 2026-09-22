@@ -16,6 +16,7 @@ import { generateVocabDrills } from "@/lib/lessons/drill";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import { markLessonCompleted } from "@/lib/lessons/completion";
 import { addToReview } from "@/lib/lessons/review";
+import { addMissedQuestion } from "@/lib/lessons/missedQuestions";
 import { autoEnrollLessonVocabulary } from "@/lib/flashcards/store";
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonRunner">;
@@ -31,7 +32,7 @@ const MIN_DRILL_QUESTIONS = 15;
 // least MIN_DRILL_QUESTIONS questions.
 type Step =
   | { kind: "intro" }
-  | { kind: "exercise"; exercise: Exercise; key: string; number: number }
+  | { kind: "exercise"; exercise: Exercise; id: string; key: string; number: number }
   | { kind: "complete" };
 
 export default function LessonRunnerScreen({ route, navigation }: Props) {
@@ -62,7 +63,10 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     if (!lesson) return [];
     const out: Step[] = [{ kind: "intro" }];
     drill.forEach((exercise, i) => {
-      out.push({ kind: "exercise", exercise, key: `drill-${i}`, number: i + 1 });
+      // Stable per-question id -- see missedQuestions.ts for why it's
+      // built this way and where the "generated questions can shift
+      // across runs" caveat comes from.
+      out.push({ kind: "exercise", exercise, id: `${lesson.slug}#${i}`, key: `drill-${i}`, number: i + 1 });
     });
     out.push({ kind: "complete" });
     return out;
@@ -73,6 +77,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   const [correctCount, setCorrectCount] = useState(0);
   const [finishing, setFinishing] = useState(false);
   const [addedToReview, setAddedToReview] = useState(false);
+  const [flaggedIds, setFlaggedIds] = useState<Set<string>>(new Set());
   const finishedRef = useRef(false);
   const startedAt = useRef(Date.now());
 
@@ -116,7 +121,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   async function finish() {
     if (!lesson) return;
     setFinishing(true);
-    const { wasAlreadyDone } = await markLessonCompleted(levelPath, lesson.slug);
+    const { wasAlreadyDone } = await markLessonCompleted(levelPath, lesson.slug, lesson.number);
     if (!wasAlreadyDone) {
       const examples = lesson.sections.flatMap((sec) => sec.examples ?? []);
       if (examples.length > 0) {
@@ -142,6 +147,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     setCorrectCount(0);
     setFeedback(null);
     setAddedToReview(false);
+    setFlaggedIds(new Set());
     startedAt.current = Date.now();
     setStepIndex(0);
   }
@@ -150,6 +156,24 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     if (!lesson) return;
     setAddedToReview(true);
     await addToReview(levelPath, lesson.slug);
+  }
+
+  // The little flag under each question -- sends just THIS question to
+  // the missed-questions pool (missedQuestions.ts), independent of
+  // whether it was answered right or wrong. That pool is also what
+  // wrong answers feed automatically (see the exercise step's
+  // onChecked below); either way in, the every-4th-lesson Review Drill
+  // is what surfaces it again.
+  async function handleFlagQuestion(step: Extract<Step, { kind: "exercise" }>) {
+    if (!lesson) return;
+    setFlaggedIds((prev) => new Set(prev).add(step.id));
+    await addMissedQuestion(levelPath, {
+      id: step.id,
+      lessonSlug: lesson.slug,
+      lessonNumber: lesson.number,
+      lessonTitle: lesson.title,
+      exercise: step.exercise,
+    });
   }
 
   function handleExit() {
@@ -193,9 +217,20 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
               showInlineFeedback={false}
               onChecked={(correct, explanation) => {
                 if (correct) setCorrectCount((c) => c + 1);
+                else void handleFlagQuestion(currentStep);
                 setFeedback({ correct, explanation });
               }}
             />
+            <Pressable
+              style={s.flagBtn}
+              hitSlop={8}
+              disabled={flaggedIds.has(currentStep.id)}
+              onPress={() => handleFlagQuestion(currentStep)}
+            >
+              <Text style={s.flagBtnText}>
+                {flaggedIds.has(currentStep.id) ? "🚩 Sent to review" : "🏳 Send to review"}
+              </Text>
+            </Pressable>
           </View>
         )}
 
@@ -364,6 +399,8 @@ const s = StyleSheet.create({
   exampleEn: { fontSize: 13, color: "#00000099", marginTop: 2 },
 
   badge: { fontSize: 12, color: "#00000066", textTransform: "uppercase", marginBottom: 4, fontWeight: "600" },
+  flagBtn: { alignSelf: "flex-start", marginTop: 22, paddingVertical: 6, paddingHorizontal: 4 },
+  flagBtnText: { fontSize: 12.5, color: "#00000066", fontWeight: "600" },
 
   bigBtn: { backgroundColor: "#7A1F1F", borderRadius: 999, paddingVertical: 15, alignItems: "center", marginTop: 18 },
   bigBtnText: { color: "#fff", fontWeight: "700", fontSize: 16 },

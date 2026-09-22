@@ -15,6 +15,11 @@ export type AppStackParamList = {
   // account has japanese_beta_access.
   JapaneseLevels: undefined;
   Settings: undefined;
+  // Every-4th-lesson catch-up drill -- see reviewCadence.ts and
+  // ReviewDrillScreen. `levelPath` + `slugs` are enough on their own to
+  // pull the right questions; `batch` is only needed to mark that batch
+  // done afterwards.
+  ReviewDrill: { levelPath: string; batch: number; slugs: string[] };
 };
 
 export type AuthStackParamList = {
