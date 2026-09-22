@@ -5,7 +5,7 @@ import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { LESSON_SOURCES, type LessonModuleKey } from "@/lib/lessons/registry";
 import { A1_MODULES, A1_MAX_DRILL_LESSON_NUMBER, groupLessonsByModule, type LessonSection } from "@/lib/lessons/modules";
-import { getCompletedMap } from "@/lib/lessons/completion";
+import { getCompletedMap, syncCompletedMapFromCloud } from "@/lib/lessons/completion";
 import { getPendingReviewBatch, type PendingReviewBatch } from "@/lib/lessons/reviewCadence";
 import { parseDurationMinutes, formatMinutes } from "@/lib/duration";
 
@@ -27,6 +27,13 @@ export default function LessonListScreen({ navigation, route }: Props) {
     useCallback(() => {
       let cancelled = false;
       getCompletedMap(source.levelPath).then((map) => {
+        if (!cancelled) setCompleted(map);
+      });
+      // Pulls in anything completed on the website (or another device)
+      // and re-renders once the merge lands -- getCompletedMap above
+      // already painted the local state immediately, so this just
+      // reconciles shortly after rather than blocking the list.
+      syncCompletedMapFromCloud(source.levelPath).then((map) => {
         if (!cancelled) setCompleted(map);
       });
       getPendingReviewBatch(source.levelPath).then((batch) => {

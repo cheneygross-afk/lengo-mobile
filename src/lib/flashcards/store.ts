@@ -4,6 +4,7 @@
 // AsyncStorage is inherently async, where the web version's localStorage
 // calls are synchronous, so every read/write here is a Promise.
 import { readJSON, writeJSON } from "@/lib/storage/asyncStore";
+import { pushFlashcardsToCloud, mergeFlashcardsFromCloud } from "./sync";
 
 export type FlashcardEntry = {
   id: string;
@@ -120,6 +121,20 @@ export async function loadFlashcards(): Promise<Record<string, FlashcardEntry>> 
 
 export async function saveFlashcards(map: Record<string, FlashcardEntry>): Promise<void> {
   await writeJSON(FLASHCARDS_STORAGE_KEY, map);
+  void pushFlashcardsToCloud(map);
+}
+
+// Called once per app session (see AuthContext, right after a session is
+// established) -- pulls this account's cards down from Supabase, merges
+// them into whatever's already stored locally, and saves the result, so
+// progress made on the other platform shows up here without the learner
+// having to do anything. Safe to call again later (e.g. pull-to-refresh
+// on Flashcards); it's just a merge, never a wipe.
+export async function syncFlashcardsFromCloud(): Promise<void> {
+  const local = await loadFlashcards();
+  const merged = await mergeFlashcardsFromCloud(local);
+  await writeJSON(FLASHCARDS_STORAGE_KEY, merged);
+  void pushFlashcardsToCloud(merged);
 }
 
 /**

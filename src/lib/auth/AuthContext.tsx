@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import type { Session } from "@supabase/supabase-js";
 import { supabase } from "@/lib/supabase/client";
+import { syncFlashcardsFromCloud } from "@/lib/flashcards/store";
 
 // Mobile equivalent of the web app's server-side getCurrentUserAndRole --
 // there's no server component / cookie middleware here, so session state
@@ -55,6 +56,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         const isStaff = profile?.role === "instructor" || profile?.role === "admin";
         setHasJapaneseBetaAccess(isStaff || !!profile?.japanese_beta_access);
       });
+    // Once per session, as soon as a user is known -- pulls this
+    // account's flashcards down from the website (or a previous app
+    // session on another device) and merges them into the local store.
+    // Lesson-completion sync happens per-track instead, from
+    // LessonListScreen, since it needs a levelPath.
+    void syncFlashcardsFromCloud();
     return () => {
       cancelled = true;
     };

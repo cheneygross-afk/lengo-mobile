@@ -2,6 +2,7 @@
 // do on the web app (`deepend-${levelPath}-completed` in localStorage) --
 // same key format, AsyncStorage instead of localStorage.
 import { readJSON, writeJSON } from "@/lib/storage/asyncStore";
+import { pushCompletionToCloud, mergeCompletionsFromCloud } from "./completionSync";
 
 function storageKey(levelPath: string): string {
   return `deepend-${levelPath}-completed`;
@@ -42,5 +43,17 @@ export async function markLessonCompleted(
     const log = await getCompletionLog(levelPath);
     await writeJSON(logKey(levelPath), [...log, { slug, number, completedAt: Date.now() }]);
   }
+  void pushCompletionToCloud(levelPath, slug, number);
   return { wasAlreadyDone };
+}
+
+// Called when a lesson list loads (see LessonListScreen) -- pulls this
+// track's completions from Supabase, merges them into the local map,
+// and persists the merge, so a lesson finished on the website shows up
+// as done here too.
+export async function syncCompletedMapFromCloud(levelPath: string): Promise<Record<string, boolean>> {
+  const local = await getCompletedMap(levelPath);
+  const merged = await mergeCompletionsFromCloud(levelPath, local);
+  await writeJSON(storageKey(levelPath), merged);
+  return merged;
 }
