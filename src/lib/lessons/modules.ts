@@ -20,12 +20,25 @@ export type LessonModule = {
   range: [number, number];
 };
 
+// "Reading Practice" (lessons 60-119: a Spanish story passage followed by
+// English-only comprehension questions) is deliberately left out of the
+// Lessons module list. It's the same content shape as the dedicated
+// Readings feature's stories (src/lib/stories/a1.ts) -- a Spanish
+// narrative plus English comprehension questions -- so it duplicates that
+// feature rather than drilling grammar/vocab the way every other lesson
+// here does, and its questions aren't independent of one another (they
+// all depend on the same passage). See LessonListScreen, which filters
+// A1_LESSONS down to this module's total range before grouping.
 export const A1_MODULES: LessonModule[] = [
   { title: "The Basics", range: [1, 13] },
   { title: "Everyday Essentials", range: [14, 28] },
   { title: "Extra Practice", range: [29, 59] },
-  { title: "Reading Practice", range: [60, 119] },
 ];
+
+// Highest lesson `number` that belongs to a real drill/grammar module
+// (i.e. everything covered by A1_MODULES above). Lessons numbered past
+// this are the excluded Reading Practice block.
+export const A1_MAX_DRILL_LESSON_NUMBER = 59;
 
 export type LessonSection = {
   title: string;

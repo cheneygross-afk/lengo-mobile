@@ -4,7 +4,7 @@ import { useFocusEffect } from "@react-navigation/native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { A1_LESSONS } from "@/lib/lessons/a1";
-import { A1_MODULES, groupLessonsByModule } from "@/lib/lessons/modules";
+import { A1_MODULES, A1_MAX_DRILL_LESSON_NUMBER, groupLessonsByModule } from "@/lib/lessons/modules";
 import { getCompletedMap } from "@/lib/lessons/completion";
 import { parseDurationMinutes, formatMinutes } from "@/lib/duration";
 
@@ -28,13 +28,19 @@ export default function LessonListScreen({ navigation }: Props) {
     }, [])
   );
 
-  const sections = useMemo(() => groupLessonsByModule(A1_LESSONS, A1_MODULES), []);
-  const completedCount = A1_LESSONS.filter((l) => completed[l.slug]).length;
+  // Reading Practice (the Spanish-story + English-quiz lessons) is left
+  // out of the Lessons tab entirely -- see the comment on A1_MODULES.
+  const drillLessons = useMemo(
+    () => A1_LESSONS.filter((l) => l.number <= A1_MAX_DRILL_LESSON_NUMBER),
+    []
+  );
+  const sections = useMemo(() => groupLessonsByModule(drillLessons, A1_MODULES), [drillLessons]);
+  const completedCount = drillLessons.filter((l) => completed[l.slug]).length;
 
   return (
     <View style={styles.container}>
       <Text style={styles.header}>
-        {completedCount} of {A1_LESSONS.length} completed
+        {completedCount} of {drillLessons.length} completed
       </Text>
       <SectionList
         sections={sections}
