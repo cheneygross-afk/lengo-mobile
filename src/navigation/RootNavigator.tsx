@@ -1,8 +1,10 @@
+import { useState } from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { View, ActivityIndicator } from "react-native";
 import { useAuth } from "@/lib/auth/AuthContext";
 import type { AppStackParamList, AuthStackParamList } from "@/navigation/types";
+import IntroScreen from "@/screens/IntroScreen";
 import LoginScreen from "@/screens/LoginScreen";
 import HomeScreen from "@/screens/HomeScreen";
 import LessonListScreen from "@/screens/LessonListScreen";
@@ -46,7 +48,14 @@ function AppNavigator() {
 }
 
 export default function RootNavigator() {
+  // The shark-bite intro plays once per cold launch, ahead of even the
+  // session check -- it doesn't wait on auth to resolve.
+  const [introDone, setIntroDone] = useState(false);
   const { session, loading } = useAuth();
+
+  if (!introDone) {
+    return <IntroScreen onFinish={() => setIntroDone(true)} />;
+  }
 
   if (loading) {
     return (
