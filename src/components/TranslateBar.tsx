@@ -8,7 +8,9 @@ import {
   ScrollView,
   Keyboard,
   ActivityIndicator,
+  useWindowDimensions,
 } from "react-native";
+import { toHiragana } from "wanakana";
 import {
   detectDirection,
   swapDirection,
@@ -34,11 +36,50 @@ import { buildCustomFlashcardEntry, loadFlashcards, saveFlashcards } from "@/lib
 // website's TranslateSearch picks en-ja/ja-en on /lessons/ja pages
 // instead of en-es/es-en everywhere else. The swap button still reverses
 // direction *within* that pair; it never crosses to the other language.
+
+// RN can't switch the OS keyboard into a Japanese IME, so JA->EN input
+// works the way most web IMEs do: the student types romaji on the
+// ordinary keyboard and it's converted to hiragana live, using wanakana.
+// The conversion is driven off a raw-keystroke buffer kept separately
+// from what's shown in the box (`jaRawBufferRef`), not by re-parsing the
+// already-converted kana on screen -- recomputing from the real romaji
+// is what keeps multi-character combinations (digraphs like "sha",
+// doubled consonants like "kk", backspacing mid-syllable) converting
+// correctly. wanakana's own IMEMode option was tried first and rejected:
+// it mis-converts some sequences (e.g. "konni" drops the ん), where a
+// plain toHiragana() over the tracked raw buffer does not.
+function convertJapaneseInput(
+  rawBufferRef: React.MutableRefObject<string>,
+  newText: string,
+  prevDisplayed: string
+): string {
+  let raw = rawBufferRef.current;
+  if (newText.length > prevDisplayed.length && newText.startsWith(prevDisplayed)) {
+    // Appended at the end -- the normal case while typing.
+    raw += newText.slice(prevDisplayed.length);
+  } else if (newText.length < prevDisplayed.length && prevDisplayed.startsWith(newText)) {
+    // Backspaced from the end -- drop raw characters one at a time until
+    // the displayed conversion actually shrinks by what was deleted,
+    // since one visible kana character can be 1-3 raw letters.
+    while (raw.length > 0 && toHiragana(raw).length > newText.length) {
+      raw = raw.slice(0, -1);
+    }
+  } else {
+    // Paste, autocomplete, or an edit in the middle of the text -- no
+    // reliable way to diff this against a raw buffer, so treat the new
+    // text as the raw buffer going forward.
+    raw = newText;
+  }
+  rawBufferRef.current = raw;
+  return toHiragana(raw);
+}
+
 export default function TranslateBar({ language }: { language: "es" | "ja" }) {
   const [query, setQuery] = useState("");
   const [manualOverride, setManualOverride] = useState<Direction | null>(null);
   const direction = manualOverride ?? detectDirection(query, language === "ja");
   const [open, setOpen] = useState(false);
+  const [focused, setFocused] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [result, setResult] = useState<TranslationResult | null>(null);
@@ -46,6 +87,9 @@ export default function TranslateBar({ language }: { language: "es" | "ja" }) {
 
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const requestIdRef = useRef(0);
+  const inputRef = useRef<TextInput>(null);
+  const jaRawBufferRef = useRef("");
+  const { height: windowHeight } = useWindowDimensions();
 
   useEffect(() => {
     setManualOverride(null);
@@ -53,6 +97,7 @@ export default function TranslateBar({ language }: { language: "es" | "ja" }) {
     setResult(null);
     setError(null);
     setOpen(false);
+    jaRawBufferRef.current = "";
   }, [language]);
 
   useEffect(() => {
@@ -114,13 +159,37 @@ export default function TranslateBar({ language }: { language: "es" | "ja" }) {
     setSavedIndexes((prev) => new Set(prev).add(index));
   }
 
+  // Closes the results panel AND dismisses the keyboard -- used both by
+  // the panel's own close button and by tapping anywhere outside the bar
+  // (the backdrop below), so either one behaves the same way.
   function close() {
     setOpen(false);
+    setFocused(false);
+    inputRef.current?.blur();
     Keyboard.dismiss();
+  }
+
+  // Reverses direction AND swaps what's on screen -- the current
+  // translation becomes the new input, same as the web app's swap
+  // button. With no result yet (still loading, or nothing looked up),
+  // there's nothing to swap in, so only the direction flips.
+  function swap() {
+    const next = swapDirection(direction);
+    setManualOverride(next);
+    const topTranslation = result?.senses[0]?.translation;
+    const nextQuery = topTranslation ?? query;
+    if (topTranslation) setQuery(topTranslation);
+    // Keep the romaji-conversion buffer in step with whatever ends up in
+    // the box: swapping into JA->EN with a (already-kana) translation
+    // now showing means further typing should build on that kana, and
+    // swapping away from JA->EN makes the buffer irrelevant either way.
+    jaRawBufferRef.current = next === "ja-en" ? nextQuery : "";
   }
 
   return (
     <View style={s.wrap}>
+      {focused && <Pressable style={[s.backdrop, { height: windowHeight }]} onPress={close} />}
+
       {open && query.trim() && (
         <View style={s.panel}>
           <View style={s.panelHeader}>
@@ -182,19 +251,29 @@ export default function TranslateBar({ language }: { language: "es" | "ja" }) {
           <Text style={s.pillText}>{directionPillLabel(direction)}</Text>
         </View>
         <TextInput
+          ref={inputRef}
           value={query}
           onChangeText={(value) => {
-            setQuery(value);
+            const isJapaneseInput = direction === "ja-en";
+            const next = isJapaneseInput ? convertJapaneseInput(jaRawBufferRef, value, query) : value;
+            setQuery(next);
             setOpen(true);
-            if (!value.trim()) setManualOverride(null);
+            if (!next.trim()) {
+              setManualOverride(null);
+              jaRawBufferRef.current = "";
+            }
           }}
-          onFocus={() => query.trim() && setOpen(true)}
+          onFocus={() => {
+            setFocused(true);
+            if (query.trim()) setOpen(true);
+          }}
+          onBlur={() => setFocused(false)}
           placeholder="Translate…"
           placeholderTextColor="#00000040"
           style={s.input}
         />
         {query.trim().length > 0 && (
-          <Pressable style={s.swapBtn} onPress={() => setManualOverride(swapDirection(direction))} hitSlop={8}>
+          <Pressable style={s.swapBtn} onPress={swap} hitSlop={8}>
             <Text style={s.swapBtnText}>⇄</Text>
           </Pressable>
         )}
@@ -205,6 +284,17 @@ export default function TranslateBar({ language }: { language: "es" | "ja" }) {
 
 const s = StyleSheet.create({
   wrap: { backgroundColor: "#FAF6F1" },
+  // Full-height, tap-anywhere-else scrim: only shown while the input has
+  // focus, sits behind the bar/panel (they're declared after it, so they
+  // paint on top), and closing on press is what makes "tap outside the
+  // keyboard/bar to dismiss" work regardless of what's showing above this
+  // bar in the rest of the screen.
+  backdrop: {
+    position: "absolute",
+    left: 0,
+    right: 0,
+    bottom: 0,
+  },
   bar: {
     flexDirection: "row",
     alignItems: "center",
