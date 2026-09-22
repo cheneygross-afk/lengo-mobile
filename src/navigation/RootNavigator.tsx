@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { View, ActivityIndicator } from "react-native";
+import { View, ActivityIndicator, KeyboardAvoidingView, Platform } from "react-native";
 import { useAuth } from "@/lib/auth/AuthContext";
 import type { AppStackParamList, AuthStackParamList } from "@/navigation/types";
 import IntroScreen from "@/screens/IntroScreen";
@@ -14,6 +14,7 @@ import ReviewListScreen from "@/screens/ReviewListScreen";
 import FlashcardsScreen from "@/screens/FlashcardsScreen";
 import ReadingsListScreen from "@/screens/ReadingsListScreen";
 import StoryReaderScreen from "@/screens/StoryReaderScreen";
+import TranslateBar from "@/components/TranslateBar";
 
 const AuthStack = createNativeStackNavigator<AuthStackParamList>();
 const AppStack = createNativeStackNavigator<AppStackParamList>();
@@ -28,26 +29,37 @@ function AuthNavigator() {
 }
 
 function AppNavigator() {
+  // The translate bar (mobile port of the web app's nav-bar translate
+  // search, see components/TranslateBar) lives here, outside the stack,
+  // so it's pinned to the bottom of every screen in the app the same way
+  // it sits on every page of the website. KeyboardAvoidingView lets it
+  // ride up above the keyboard instead of being covered by it.
   return (
-    <AppStack.Navigator
-      screenOptions={{
-        headerStyle: { backgroundColor: "#FAF6F1" },
-        headerTintColor: "#000",
-        headerShadowVisible: false,
-      }}
+    <KeyboardAvoidingView
+      style={{ flex: 1 }}
+      behavior={Platform.OS === "ios" ? "padding" : undefined}
     >
-      <AppStack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
-      <AppStack.Screen name="LessonList" component={LessonListScreen} options={{ title: "Lessons" }} />
-      <AppStack.Screen
-        name="LessonRunner"
-        component={LessonRunnerScreen}
-        options={{ title: "" }}
-      />
-      <AppStack.Screen name="Review" component={ReviewListScreen} options={{ title: "Review" }} />
-      <AppStack.Screen name="Flashcards" component={FlashcardsScreen} options={{ title: "Flashcards" }} />
-      <AppStack.Screen name="ReadingsList" component={ReadingsListScreen} options={{ title: "Readings" }} />
-      <AppStack.Screen name="StoryReader" component={StoryReaderScreen} options={{ title: "" }} />
-    </AppStack.Navigator>
+      <AppStack.Navigator
+        screenOptions={{
+          headerStyle: { backgroundColor: "#FAF6F1" },
+          headerTintColor: "#000",
+          headerShadowVisible: false,
+        }}
+      >
+        <AppStack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
+        <AppStack.Screen name="LessonList" component={LessonListScreen} options={{ title: "Lessons" }} />
+        <AppStack.Screen
+          name="LessonRunner"
+          component={LessonRunnerScreen}
+          options={{ title: "" }}
+        />
+        <AppStack.Screen name="Review" component={ReviewListScreen} options={{ title: "Review" }} />
+        <AppStack.Screen name="Flashcards" component={FlashcardsScreen} options={{ title: "Flashcards" }} />
+        <AppStack.Screen name="ReadingsList" component={ReadingsListScreen} options={{ title: "Readings" }} />
+        <AppStack.Screen name="StoryReader" component={StoryReaderScreen} options={{ title: "" }} />
+      </AppStack.Navigator>
+      <TranslateBar />
+    </KeyboardAvoidingView>
   );
 }
 

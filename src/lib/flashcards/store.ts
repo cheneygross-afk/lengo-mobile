@@ -60,6 +60,10 @@ export function makeFlashcardId(lessonSlug: string, es: string): string {
   return `${lessonSlug}::${es.trim().toLowerCase()}`;
 }
 
+export function makeCustomFlashcardId(): string {
+  return `custom::${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
+}
+
 export function buildFlashcardEntry(params: {
   lessonSlug: string;
   es: string;
@@ -80,6 +84,33 @@ export function buildFlashcardEntry(params: {
     lessonTitle: params.lessonTitle,
     addedAt: Date.now(),
     source: params.source ?? "lesson",
+  };
+}
+
+/**
+ * Builds a flashcard entry the learner saved themselves (e.g. from the
+ * translate bar), rather than one pulled from a lesson. Port of the web
+ * app's buildCustomFlashcardEntry -- see there for the full rationale.
+ */
+export function buildCustomFlashcardEntry(params: {
+  es: string;
+  en: string;
+  level?: string;
+  note?: string;
+  levelPath?: string;
+  guessPos?: boolean;
+}): FlashcardEntry {
+  return {
+    id: makeCustomFlashcardId(),
+    es: params.es,
+    en: params.en,
+    pos: params.guessPos === false ? "" : guessPartOfSpeech(params.es, params.en),
+    level: params.level ?? "",
+    levelPath: params.levelPath ?? "",
+    lessonSlug: "",
+    lessonTitle: params.note ?? "",
+    addedAt: Date.now(),
+    source: "custom",
   };
 }
 
