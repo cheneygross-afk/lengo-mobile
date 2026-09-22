@@ -50,7 +50,11 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       section.checkpoint?.forEach((ex) => authored.push(ex));
     });
     lesson.exercises.forEach((ex) => authored.push(ex));
-    const generated = generateVocabDrills(lesson, MIN_DRILL_QUESTIONS - authored.length);
+    // Pads from the rest of this lesson's own module (registry.ts) when
+    // the lesson's own vocabulary isn't enough to reach the minimum on
+    // its own -- see generateVocabDrills.
+    const trackLessons = LESSON_SOURCES[moduleKeyForLesson(lesson)].lessons;
+    const generated = generateVocabDrills(lesson, MIN_DRILL_QUESTIONS - authored.length, trackLessons);
     return [...authored, ...generated];
   }, [lesson]);
 
