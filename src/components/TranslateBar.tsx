@@ -125,7 +125,7 @@ export default function TranslateBar({ language }: { language: "es" | "ja" }) {
         <View style={s.panel}>
           <View style={s.panelHeader}>
             <Text style={s.panelHeading}>{directionHeading(direction)}</Text>
-            <Pressable onPress={close} hitSlop={8}>
+            <Pressable style={s.panelCloseBtn} onPress={close} hitSlop={8}>
               <Text style={s.panelClose}>✕</Text>
             </Pressable>
           </View>
@@ -178,7 +178,9 @@ export default function TranslateBar({ language }: { language: "es" | "ja" }) {
       )}
 
       <View style={s.bar}>
-        <Text style={s.pill}>{directionPillLabel(direction)}</Text>
+        <View style={s.pill}>
+          <Text style={s.pillText}>{directionPillLabel(direction)}</Text>
+        </View>
         <TextInput
           value={query}
           onChangeText={(value) => {
@@ -188,12 +190,12 @@ export default function TranslateBar({ language }: { language: "es" | "ja" }) {
           }}
           onFocus={() => query.trim() && setOpen(true)}
           placeholder="Translate…"
-          placeholderTextColor="#00000055"
+          placeholderTextColor="#00000040"
           style={s.input}
         />
         {query.trim().length > 0 && (
-          <Pressable onPress={() => setManualOverride(swapDirection(direction))} hitSlop={8}>
-            <Text style={s.swapBtn}>⇄</Text>
+          <Pressable style={s.swapBtn} onPress={() => setManualOverride(swapDirection(direction))} hitSlop={8}>
+            <Text style={s.swapBtnText}>⇄</Text>
           </Pressable>
         )}
       </View>
@@ -206,59 +208,82 @@ const s = StyleSheet.create({
   bar: {
     flexDirection: "row",
     alignItems: "center",
-    gap: 8,
+    gap: 10,
     marginHorizontal: 14,
-    marginBottom: 10,
+    marginBottom: 12,
     marginTop: 2,
-    paddingHorizontal: 14,
-    paddingVertical: 10,
+    paddingVertical: 6,
+    paddingRight: 6,
+    paddingLeft: 6,
     backgroundColor: "#fff",
-    borderRadius: 999,
-    borderWidth: 1,
-    borderColor: "#00000018",
+    borderRadius: 22,
+    shadowColor: "#1C140C",
+    shadowOpacity: 0.1,
+    shadowRadius: 16,
+    shadowOffset: { width: 0, height: 6 },
+    elevation: 4,
   },
-  pill: { fontSize: 10, fontWeight: "700", color: "#00000066" },
-  input: { flex: 1, fontSize: 14, color: "#000", padding: 0 },
-  swapBtn: { fontSize: 16, color: "#00000066", paddingHorizontal: 2 },
+  pill: {
+    backgroundColor: "#7A1F1F",
+    borderRadius: 16,
+    paddingVertical: 8,
+    paddingHorizontal: 12,
+  },
+  pillText: { fontSize: 11, fontWeight: "700", letterSpacing: 0.3, color: "#fff" },
+  input: { flex: 1, fontSize: 15, color: "#1A1512", padding: 0 },
+  swapBtn: {
+    width: 34,
+    height: 34,
+    borderRadius: 17,
+    backgroundColor: "#F1EBE3",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  swapBtnText: { fontSize: 15, color: "#7A1F1F" },
 
   panel: {
     marginHorizontal: 14,
-    marginBottom: 8,
+    marginBottom: 10,
     maxHeight: 320,
     backgroundColor: "#fff",
-    borderRadius: 14,
-    borderWidth: 1,
-    borderColor: "#00000018",
-    padding: 14,
-    shadowColor: "#000",
+    borderRadius: 20,
+    padding: 16,
+    shadowColor: "#1C140C",
     shadowOpacity: 0.12,
-    shadowRadius: 12,
-    shadowOffset: { width: 0, height: -2 },
+    shadowRadius: 24,
+    shadowOffset: { width: 0, height: 8 },
     elevation: 6,
   },
-  panelHeader: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginBottom: 8 },
-  panelHeading: { fontSize: 10, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#00000066" },
-  panelClose: { fontSize: 14, color: "#00000055", padding: 2 },
+  panelHeader: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginBottom: 10 },
+  panelHeading: { fontSize: 11, fontWeight: "700", letterSpacing: 0.6, textTransform: "uppercase", color: "#7A1F1F", opacity: 0.8 },
+  panelCloseBtn: {
+    width: 22,
+    height: 22,
+    borderRadius: 11,
+    backgroundColor: "#F1EBE3",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  panelClose: { fontSize: 11, color: "#00000066" },
   panelScroll: { maxHeight: 260 },
   panelMuted: { color: "#00000066", fontSize: 14, paddingVertical: 4 },
 
-  sense: { paddingVertical: 8 },
-  senseDivider: { borderTopWidth: 1, borderTopColor: "#00000010" },
+  sense: { paddingVertical: 10 },
+  senseDivider: { borderTopWidth: 1, borderTopColor: "#F1EBE3" },
   senseTop: { flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start", gap: 10 },
   senseTextWrap: { flex: 1 },
-  senseTranslation: { fontSize: 17, fontWeight: "700", color: "#000" },
-  senseMeta: { fontSize: 12, color: "#00000066", marginTop: 2 },
-  senseExample: { fontSize: 12, color: "#00000099", marginTop: 6, fontStyle: "italic" },
+  senseTranslation: { fontSize: 18, fontWeight: "700", color: "#1A1512" },
+  senseMeta: { fontSize: 12, color: "#00000066", marginTop: 3 },
+  senseExample: { fontSize: 12.5, color: "#00000090", marginTop: 8, fontStyle: "italic" },
   senseExampleArrow: { color: "#00000055", fontStyle: "normal" },
   saveBtn: {
-    borderWidth: 1,
-    borderColor: "#00000022",
+    backgroundColor: "rgba(122,31,31,0.08)",
     borderRadius: 999,
-    paddingVertical: 5,
-    paddingHorizontal: 10,
+    paddingVertical: 6,
+    paddingHorizontal: 12,
   },
-  saveBtnSaved: { borderColor: "#00000012" },
-  saveBtnText: { fontSize: 11, color: "#00000099", fontWeight: "600" },
+  saveBtnSaved: { backgroundColor: "#F1EBE3" },
+  saveBtnText: { fontSize: 11, color: "#7A1F1F", fontWeight: "700" },
   saveBtnTextSaved: { color: "#00000044" },
-  sourceLabel: { fontSize: 10, color: "#00000044", marginTop: 10, paddingTop: 10, borderTopWidth: 1, borderTopColor: "#00000010" },
+  sourceLabel: { fontSize: 10.5, color: "#00000045", marginTop: 12, paddingTop: 12, borderTopWidth: 1, borderTopColor: "#F1EBE3" },
 });
