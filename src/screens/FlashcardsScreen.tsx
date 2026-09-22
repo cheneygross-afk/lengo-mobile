@@ -1,10 +1,21 @@
 import { useCallback, useState } from "react";
 import { View, Text, Pressable, StyleSheet } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
+import type { NativeStackScreenProps } from "@react-navigation/native-stack";
+import type { AppStackParamList } from "@/navigation/types";
 import { loadFlashcards, saveFlashcards, type FlashcardEntry } from "@/lib/flashcards/store";
+import { seedJapaneseAlphabetDecks } from "@/lib/lessons/ja-alphabet-decks";
 import { getDueCards, gradeCard, type ReviewGrade } from "@/lib/srs";
 
-export default function FlashcardsScreen() {
+type Props = NativeStackScreenProps<AppStackParamList, "Flashcards">;
+
+// lang defaults to "es" (Spanish) so the Home screen's existing
+// navigation call, and every card already in a learner's deck (their
+// levelPath is "a1", never "ja*"), keep working unchanged. Japanese
+// cards are a separate deck, same as the website's own /lessons/ja/
+// flashcards page filters to card.levelPath.startsWith("ja").
+export default function FlashcardsScreen({ route }: Props) {
+  const lang = route.params?.lang ?? "es";
   const [all, setAll] = useState<Record<string, FlashcardEntry>>({});
   const [due, setDue] = useState<FlashcardEntry[]>([]);
   const [index, setIndex] = useState(0);
@@ -15,18 +26,23 @@ export default function FlashcardsScreen() {
     useCallback(() => {
       let cancelled = false;
       setLoading(true);
-      loadFlashcards().then((map) => {
+      (async () => {
+        if (lang === "ja") await seedJapaneseAlphabetDecks();
+        const map = await loadFlashcards();
         if (cancelled) return;
-        setAll(map);
-        setDue(getDueCards(Object.values(map)));
+        const scoped = Object.fromEntries(
+          Object.entries(map).filter(([, card]) => (lang === "ja" ? card.levelPath.startsWith("ja") : !card.levelPath.startsWith("ja")))
+        );
+        setAll(scoped);
+        setDue(getDueCards(Object.values(scoped)));
         setIndex(0);
         setRevealed(false);
         setLoading(false);
-      });
+      })();
       return () => {
         cancelled = true;
       };
-    }, [])
+    }, [lang])
   );
 
   async function grade(g: ReviewGrade) {
@@ -35,7 +51,12 @@ export default function FlashcardsScreen() {
     const updated = gradeCard(card, g);
     const nextAll = { ...all, [updated.id]: updated };
     setAll(nextAll);
-    await saveFlashcards(nextAll);
+    // Merge into the real store instead of writing `nextAll` directly --
+    // `all` here only holds this screen's language-scoped slice, and a
+    // plain overwrite would drop every card from the other language.
+    const fullStore = await loadFlashcards();
+    fullStore[updated.id] = updated;
+    await saveFlashcards(fullStore);
     setRevealed(false);
     setIndex((i) => i + 1);
   }

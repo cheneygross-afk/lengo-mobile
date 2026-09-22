@@ -1,5 +1,13 @@
 import type { Lesson, Exercise, LessonExample } from "./types";
 
+// Question/explanation text names the target language -- every level
+// except the Japanese beta's three grammar modules (the alphabets module
+// has too few clean example pairs of its own to ever reach here) is
+// Spanish.
+function targetLanguageName(lesson: Lesson): string {
+  return lesson.level.startsWith("JA") ? "Japanese" : "Spanish";
+}
+
 // Deterministic shuffle so the same lesson always generates the same
 // drill questions in the same order (no re-fetch flicker, and two
 // learners comparing notes see the same thing) -- same algorithm as
@@ -40,6 +48,7 @@ function isCleanEntry(text: string): boolean {
  */
 export function generateVocabDrills(lesson: Lesson, need: number): Exercise[] {
   if (need <= 0) return [];
+  const targetLanguage = targetLanguageName(lesson);
 
   const pairs: LessonExample[] = [];
   lesson.sections.forEach((section) => {
@@ -87,13 +96,13 @@ export function generateVocabDrills(lesson: Lesson, need: number): Exercise[] {
     out.push({
       type: "multiple-choice",
       question:
-        direction === "es-en" ? `What does "${prompt}" mean?` : `How do you say "${prompt}" in Spanish?`,
+        direction === "es-en" ? `What does "${prompt}" mean?` : `How do you say "${prompt}" in ${targetLanguage}?`,
       options,
       correctIndex: options.indexOf(answer),
       explanation:
         direction === "es-en"
           ? `"${pair.es}" means "${pair.en}".`
-          : `"${pair.en}" is "${pair.es}" in Spanish.`,
+          : `"${pair.en}" is "${pair.es}" in ${targetLanguage}.`,
     });
     i++;
   }

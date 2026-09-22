@@ -10,7 +10,7 @@ import {
 } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
-import { A1_LESSONS } from "@/lib/lessons/a1";
+import { findLessonBySlug, moduleKeyForLesson, LESSON_SOURCES } from "@/lib/lessons/registry";
 import type { Exercise } from "@/lib/lessons/types";
 import { generateVocabDrills } from "@/lib/lessons/drill";
 import ExerciseBlock from "@/components/ExerciseBlock";
@@ -20,7 +20,6 @@ import { autoEnrollLessonVocabulary } from "@/lib/flashcards/store";
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonRunner">;
 
-const LEVEL_PATH = "a1";
 const MIN_DRILL_QUESTIONS = 15;
 
 // Screen 4's lesson player: the whole concept goes on one screen up front
@@ -37,7 +36,12 @@ type Step =
 
 export default function LessonRunnerScreen({ route, navigation }: Props) {
   const { slug } = route.params;
-  const lesson = useMemo(() => A1_LESSONS.find((l) => l.slug === slug), [slug]);
+  // Slugs are unique across every track (Spanish A1 + the Japanese
+  // beta's modules), so this resolves regardless of which one the
+  // learner came from -- LessonList, Review, or the Japanese level
+  // picker.
+  const lesson = useMemo(() => findLessonBySlug(slug), [slug]);
+  const levelPath = useMemo(() => (lesson ? LESSON_SOURCES[moduleKeyForLesson(lesson)].levelPath : "a1"), [lesson]);
 
   const drill = useMemo<Exercise[]>(() => {
     if (!lesson) return [];
@@ -108,14 +112,14 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   async function finish() {
     if (!lesson) return;
     setFinishing(true);
-    const { wasAlreadyDone } = await markLessonCompleted(LEVEL_PATH, lesson.slug);
+    const { wasAlreadyDone } = await markLessonCompleted(levelPath, lesson.slug);
     if (!wasAlreadyDone) {
       const examples = lesson.sections.flatMap((sec) => sec.examples ?? []);
       if (examples.length > 0) {
         await autoEnrollLessonVocabulary({
           lessonSlug: lesson.slug,
           level: lesson.level,
-          levelPath: LEVEL_PATH,
+          levelPath,
           lessonTitle: lesson.title,
           examples,
         });
@@ -141,7 +145,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   async function handleAddToReview() {
     if (!lesson) return;
     setAddedToReview(true);
-    await addToReview(LEVEL_PATH, lesson.slug);
+    await addToReview(levelPath, lesson.slug);
   }
 
   function handleExit() {

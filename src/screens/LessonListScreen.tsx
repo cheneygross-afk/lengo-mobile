@@ -3,44 +3,53 @@ import { View, Text, SectionList, Pressable, StyleSheet } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
-import { A1_LESSONS } from "@/lib/lessons/a1";
-import { A1_MODULES, A1_MAX_DRILL_LESSON_NUMBER, groupLessonsByModule } from "@/lib/lessons/modules";
+import { LESSON_SOURCES, type LessonModuleKey } from "@/lib/lessons/registry";
+import { A1_MODULES, A1_MAX_DRILL_LESSON_NUMBER, groupLessonsByModule, type LessonSection } from "@/lib/lessons/modules";
 import { getCompletedMap } from "@/lib/lessons/completion";
 import { parseDurationMinutes, formatMinutes } from "@/lib/duration";
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonList">;
 
-// MVP ships A1 only -- see README for how to add A2-C2 the same way.
-const LEVEL_PATH = "a1";
-
-export default function LessonListScreen({ navigation }: Props) {
+// Screen 4. Spanish's only wired-up level (A1) is the default when no
+// moduleKey is passed, so every existing "Lessons" navigation call keeps
+// working unchanged. The Japanese beta's four modules (see
+// JapaneseLevelsScreen) navigate here too, each with its own moduleKey --
+// same screen, same LessonRunner, same completion/review machinery,
+// just a different lesson source.
+export default function LessonListScreen({ navigation, route }: Props) {
+  const moduleKey: LessonModuleKey = route.params?.moduleKey ?? "a1";
+  const source = LESSON_SOURCES[moduleKey];
   const [completed, setCompleted] = useState<Record<string, boolean>>({});
 
   useFocusEffect(
     useCallback(() => {
       let cancelled = false;
-      getCompletedMap(LEVEL_PATH).then((map) => {
+      getCompletedMap(source.levelPath).then((map) => {
         if (!cancelled) setCompleted(map);
       });
       return () => {
         cancelled = true;
       };
-    }, [])
+    }, [source.levelPath])
   );
 
-  // Reading Practice (the Spanish-story + English-quiz lessons) is left
-  // out of the Lessons tab entirely -- see the comment on A1_MODULES.
-  const drillLessons = useMemo(
-    () => A1_LESSONS.filter((l) => l.number <= A1_MAX_DRILL_LESSON_NUMBER),
-    []
+  // Reading Practice is left out of A1's list entirely -- see the comment
+  // on A1_MODULES. Every other module (the Japanese tracks) has no such
+  // duplicate-content block, so it's shown flat, ungrouped.
+  const visibleLessons = useMemo(
+    () => (moduleKey === "a1" ? source.lessons.filter((l) => l.number <= A1_MAX_DRILL_LESSON_NUMBER) : source.lessons),
+    [moduleKey, source.lessons]
   );
-  const sections = useMemo(() => groupLessonsByModule(drillLessons, A1_MODULES), [drillLessons]);
-  const completedCount = drillLessons.filter((l) => completed[l.slug]).length;
+  const sections: LessonSection[] = useMemo(
+    () => (moduleKey === "a1" ? groupLessonsByModule(visibleLessons, A1_MODULES) : [{ title: source.title, data: visibleLessons }]),
+    [moduleKey, visibleLessons, source.title]
+  );
+  const completedCount = visibleLessons.filter((l) => completed[l.slug]).length;
 
   return (
     <View style={styles.container}>
       <Text style={styles.header}>
-        {completedCount} of {drillLessons.length} completed
+        {completedCount} of {visibleLessons.length} completed
       </Text>
       <SectionList
         sections={sections}

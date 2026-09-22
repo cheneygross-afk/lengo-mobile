@@ -1,26 +1,33 @@
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useState } from "react";
 import { View, Text, FlatList, Pressable, StyleSheet } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
-import { A1_LESSONS } from "@/lib/lessons/a1";
+import type { Lesson } from "@/lib/lessons/types";
+import { ALL_LEVEL_PATHS, LESSON_SOURCES, findLessonBySlug, moduleKeyForLesson } from "@/lib/lessons/registry";
 import { getReviewSlugs, removeFromReview } from "@/lib/lessons/review";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Review">;
 
-const LEVEL_PATH = "a1";
-
 // Screen 7: lessons a learner added to review from the lesson-complete
 // screen, so they can find and retry them later without hunting through
-// the full lesson list.
+// the full lesson list. One shared screen across every track (Spanish +
+// the Japanese beta's modules) -- review is stored per levelPath (see
+// lessons/review.ts), so this reads every track's list and merges them
+// into one, rather than showing only Spanish's.
 export default function ReviewListScreen({ navigation }: Props) {
-  const [slugs, setSlugs] = useState<string[]>([]);
+  const [lessons, setLessons] = useState<Lesson[]>([]);
 
   useFocusEffect(
     useCallback(() => {
       let cancelled = false;
-      getReviewSlugs(LEVEL_PATH).then((list) => {
-        if (!cancelled) setSlugs(list);
+      Promise.all(ALL_LEVEL_PATHS.map((key) => getReviewSlugs(LESSON_SOURCES[key].levelPath))).then((lists) => {
+        if (cancelled) return;
+        const found = lists
+          .flat()
+          .map((slug) => findLessonBySlug(slug))
+          .filter((l): l is Lesson => !!l);
+        setLessons(found);
       });
       return () => {
         cancelled = true;
@@ -28,14 +35,9 @@ export default function ReviewListScreen({ navigation }: Props) {
     }, [])
   );
 
-  const lessons = useMemo(
-    () => slugs.map((slug) => A1_LESSONS.find((l) => l.slug === slug)).filter((l): l is (typeof A1_LESSONS)[number] => !!l),
-    [slugs]
-  );
-
-  async function handleRemove(slug: string) {
-    setSlugs((prev) => prev.filter((s) => s !== slug));
-    await removeFromReview(LEVEL_PATH, slug);
+  async function handleRemove(slug: string, lesson: Lesson) {
+    setLessons((prev) => prev.filter((l) => l.slug !== slug));
+    await removeFromReview(LESSON_SOURCES[moduleKeyForLesson(lesson)].levelPath, slug);
   }
 
   if (lessons.length === 0) {
@@ -67,7 +69,7 @@ export default function ReviewListScreen({ navigation }: Props) {
                 {item.summary}
               </Text>
             </Pressable>
-            <Pressable style={styles.removeBtn} onPress={() => handleRemove(item.slug)} hitSlop={8}>
+            <Pressable style={styles.removeBtn} onPress={() => handleRemove(item.slug, item)} hitSlop={8}>
               <Text style={styles.removeBtnText}>Remove</Text>
             </Pressable>
           </View>
