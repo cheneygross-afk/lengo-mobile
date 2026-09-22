@@ -28,10 +28,16 @@ import { buildCustomFlashcardEntry, loadFlashcards, saveFlashcards } from "@/lib
 // way of whatever screen is showing above it. Rendered once, outside the
 // navigation stack, so it's available everywhere in the app the same way
 // it is on every page of the website.
-export default function TranslateBar() {
+//
+// `language` is whichever track is selected on Home -- it picks the
+// active pair (Spanish<->English or Japanese<->English), same as the
+// website's TranslateSearch picks en-ja/ja-en on /lessons/ja pages
+// instead of en-es/es-en everywhere else. The swap button still reverses
+// direction *within* that pair; it never crosses to the other language.
+export default function TranslateBar({ language }: { language: "es" | "ja" }) {
   const [query, setQuery] = useState("");
   const [manualOverride, setManualOverride] = useState<Direction | null>(null);
-  const direction = manualOverride ?? detectDirection(query);
+  const direction = manualOverride ?? detectDirection(query, language === "ja");
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -40,6 +46,14 @@ export default function TranslateBar() {
 
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const requestIdRef = useRef(0);
+
+  useEffect(() => {
+    setManualOverride(null);
+    setQuery("");
+    setResult(null);
+    setError(null);
+    setOpen(false);
+  }, [language]);
 
   useEffect(() => {
     const trimmed = query.trim();
@@ -76,10 +90,24 @@ export default function TranslateBar() {
 
   async function saveSenseToFlashcards(sense: TranslationResult["senses"][number], index: number) {
     if (!result) return;
-    const foreignIsTranslation = result.direction === "en-es";
+    const isJapanese = result.direction === "en-ja" || result.direction === "ja-en";
+    // The flashcards store's "es" field always holds the foreign-language
+    // term (Spanish or Japanese) and "en" holds the English side,
+    // regardless of which direction this lookup ran in -- same
+    // convention the website's TranslateSearch uses.
+    const foreignIsTranslation = result.direction === "en-es" || result.direction === "en-ja";
     const [es, en] = foreignIsTranslation ? [sense.translation, result.input] : [result.input, sense.translation];
     const note = sense.example ? `e.g. "${sense.example.source}"` : sense.note;
-    const entry = buildCustomFlashcardEntry({ es, en, note });
+    const entry = buildCustomFlashcardEntry({
+      es,
+      en,
+      note,
+      // guessPartOfSpeech()'s heuristics only make sense for Spanish, and
+      // a Japanese-sourced card belongs in the Japanese Flashcards deck,
+      // same as one typed there directly (see levelPath / FlashcardsScreen).
+      levelPath: isJapanese ? "ja" : undefined,
+      guessPos: !isJapanese,
+    });
     const map = await loadFlashcards();
     map[entry.id] = entry;
     await saveFlashcards(map);

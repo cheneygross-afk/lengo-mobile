@@ -14,7 +14,7 @@ type Language = "es" | "ja";
 const LANGUAGE_STORAGE_KEY = "deepend-selected-language";
 
 export default function HomeScreen({ navigation }: Props) {
-  const { session, signOut, hasJapaneseBetaAccess } = useAuth();
+  const { session, hasJapaneseBetaAccess } = useAuth();
   const [language, setLanguage] = useState<Language>("es");
 
   useFocusEffect(
@@ -97,14 +97,14 @@ export default function HomeScreen({ navigation }: Props) {
           </View>
         </View>
 
-        <Pressable style={styles.signOut} onPress={signOut}>
-          <Text style={styles.signOutText}>Log out</Text>
+        <Pressable style={styles.settingsLink} onPress={() => navigation.navigate("Settings")}>
+          <Text style={styles.settingsLinkText}>Settings</Text>
         </Pressable>
       </View>
 
       {/* Only on Home (screen 3) -- not globally across the app, and not
           on the lesson player (screen 4). See components/TranslateBar. */}
-      <TranslateBar />
+      <TranslateBar language={language} />
     </KeyboardAvoidingView>
   );
 }
@@ -150,6 +150,6 @@ const styles = StyleSheet.create({
   },
   cardTitle: { fontSize: 18, fontWeight: "700", color: "#000", marginBottom: 4 },
   cardBody: { fontSize: 14, color: "#00000099" },
-  signOut: { alignItems: "center", paddingVertical: 12 },
-  signOutText: { color: "#00000066", fontSize: 14, textDecorationLine: "underline" },
+  settingsLink: { alignItems: "center", paddingVertical: 12 },
+  settingsLinkText: { color: "#00000066", fontSize: 14, textDecorationLine: "underline" },
 });

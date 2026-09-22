@@ -14,6 +14,7 @@ export type AppStackParamList = {
   // JapaneseLevelsScreen. Only reachable from Home when the signed-in
   // account has japanese_beta_access.
   JapaneseLevels: undefined;
+  Settings: undefined;
 };
 
 export type AuthStackParamList = {

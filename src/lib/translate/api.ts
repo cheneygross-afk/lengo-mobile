@@ -1,15 +1,17 @@
 import { supabase } from "@/lib/supabase/client";
 
 // Mobile port of the web app's TranslateSearch direction-detection and
-// fetch logic (src/components/TranslateSearch.tsx), scoped to just the
-// Spanish directions -- the mobile app doesn't have the Japanese track
-// wired up yet, unlike the website.
-export type Direction = "en-es" | "es-en";
+// fetch logic (src/components/TranslateSearch.tsx). Now covers both
+// tracks the app offers -- Spanish and the Japanese beta -- same as the
+// website: which pair is active follows whichever language is selected
+// on Home, not a fixed Spanish/English pair.
+export type Direction = "en-es" | "es-en" | "en-ja" | "ja-en";
 
 export type TranslationSense = {
   translation: string;
   partOfSpeech?: string;
   gender?: "m" | "f" | null;
+  reading?: string;
   note?: string;
   example?: { source: string; target: string } | null;
   source: "lesson" | "claude" | "mymemory";
@@ -34,23 +36,58 @@ const COMMON_SPANISH_WORDS = new Set([
   "tengo", "tiene", "quiero", "puedo", "vamos", "hacer", "ser", "estar",
 ]);
 
-export function detectDirection(text: string): Direction {
+// Hiragana, katakana, and kanji ranges -- any of these in the query is an
+// unambiguous signal the input is Japanese.
+const JAPANESE_SCRIPT = /[぀-ヿ一-鿿]/;
+
+// `japaneseContext` is which language is selected on Home -- absent any
+// script/vocabulary signal (plain ASCII, nothing recognized as Spanish),
+// this decides whether typing falls back to "en-es" or "en-ja".
+export function detectDirection(text: string, japaneseContext: boolean): Direction {
+  if (JAPANESE_SCRIPT.test(text)) return "ja-en";
   if (/[áéíóúñü¿¡]/i.test(text)) return "es-en";
   const firstWord = text.trim().split(/\s+/)[0]?.toLowerCase() ?? "";
   if (COMMON_SPANISH_WORDS.has(firstWord)) return "es-en";
-  return "en-es";
+  return japaneseContext ? "en-ja" : "en-es";
 }
 
 export function swapDirection(direction: Direction): Direction {
-  return direction === "en-es" ? "es-en" : "en-es";
+  switch (direction) {
+    case "en-es":
+      return "es-en";
+    case "es-en":
+      return "en-es";
+    case "en-ja":
+      return "ja-en";
+    case "ja-en":
+      return "en-ja";
+  }
 }
 
 export function directionPillLabel(direction: Direction): string {
-  return direction === "en-es" ? "EN→ES" : "ES→EN";
+  switch (direction) {
+    case "en-es":
+      return "EN→ES";
+    case "es-en":
+      return "ES→EN";
+    case "en-ja":
+      return "EN→JA";
+    case "ja-en":
+      return "JA→EN";
+  }
 }
 
 export function directionHeading(direction: Direction): string {
-  return direction === "en-es" ? "English → Spanish" : "Spanish → English";
+  switch (direction) {
+    case "en-es":
+      return "English → Spanish";
+    case "es-en":
+      return "Spanish → English";
+    case "en-ja":
+      return "English → Japanese";
+    case "ja-en":
+      return "Japanese → English";
+  }
 }
 
 export function sourceLabel(senses: TranslationSense[]): string {
