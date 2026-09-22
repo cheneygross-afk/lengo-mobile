@@ -13,26 +13,63 @@ import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AuthStackParamList } from "@/navigation/types";
 import { supabase } from "@/lib/supabase/client";
 
-type Props = NativeStackScreenProps<AuthStackParamList, "Login">;
+type Props = NativeStackScreenProps<AuthStackParamList, "Signup">;
 
-// Mobile port of the web app's /login page. Same call
-// (supabase.auth.signInWithPassword) and the same account -- logging in
-// here and on deependspanish.com just authenticate the same Supabase user
-// through two different session stores (AsyncStorage vs. cookies).
-export default function LoginScreen({ navigation }: Props) {
+// Same Supabase project/account as the web app and LoginScreen --
+// supabase.auth.signUp creates the user and (depending on the project's
+// email-confirmation setting) either signs them straight in or leaves
+// them to confirm via email first, in which case we tell them to check
+// their inbox and drop them back on Login.
+export default function SignupScreen({ navigation }: Props) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
+  const [checkEmail, setCheckEmail] = useState(false);
 
   async function handleSubmit() {
     setError(null);
+    if (password !== confirmPassword) {
+      setError("Passwords don't match.");
+      return;
+    }
+    if (password.length < 6) {
+      setError("Password must be at least 6 characters.");
+      return;
+    }
     setSubmitting(true);
-    const { error } = await supabase.auth.signInWithPassword({ email, password });
+    const { data, error } = await supabase.auth.signUp({ email, password });
     setSubmitting(false);
-    if (error) setError(error.message);
-    // On success, AuthProvider's onAuthStateChange picks up the new
-    // session and RootNavigator swaps to the app stack automatically.
+    if (error) {
+      setError(error.message);
+      return;
+    }
+    // If email confirmation is required, signUp succeeds but returns no
+    // session -- AuthProvider won't see a session change, so tell the
+    // user to confirm and send them back to Login. If confirmation is
+    // off, a session comes back immediately and AuthProvider's
+    // onAuthStateChange picks it up on its own, same as LoginScreen.
+    if (!data.session) {
+      setCheckEmail(true);
+    }
+  }
+
+  if (checkEmail) {
+    return (
+      <View style={styles.container}>
+        <View style={styles.brand}>
+          <Text style={styles.wordmark}>Deep End</Text>
+        </View>
+        <Text style={styles.confirmTitle}>Check your email</Text>
+        <Text style={styles.confirmBody}>
+          We sent a confirmation link to {email}. Tap it, then come back and log in.
+        </Text>
+        <Pressable style={styles.button} onPress={() => navigation.navigate("Login")}>
+          <Text style={styles.buttonText}>Back to log in</Text>
+        </Pressable>
+      </View>
+    );
   }
 
   return (
@@ -40,7 +77,7 @@ export default function LoginScreen({ navigation }: Props) {
       <View style={styles.container}>
         <View style={styles.brand}>
           <Text style={styles.wordmark}>Deep End</Text>
-          <Text style={styles.tagline}>Log in to keep going.</Text>
+          <Text style={styles.tagline}>Create an account to get started.</Text>
         </View>
 
         <View style={styles.form}>
@@ -58,10 +95,19 @@ export default function LoginScreen({ navigation }: Props) {
             style={styles.input}
             placeholder="Password"
             placeholderTextColor="#00000055"
-            autoComplete="current-password"
+            autoComplete="new-password"
             secureTextEntry
             value={password}
             onChangeText={setPassword}
+          />
+          <TextInput
+            style={styles.input}
+            placeholder="Confirm password"
+            placeholderTextColor="#00000055"
+            autoComplete="new-password"
+            secureTextEntry
+            value={confirmPassword}
+            onChangeText={setConfirmPassword}
           />
           {error ? <Text style={styles.error}>{error}</Text> : null}
           <Pressable
@@ -71,18 +117,18 @@ export default function LoginScreen({ navigation }: Props) {
               submitting && styles.buttonDisabled,
             ]}
             onPress={handleSubmit}
-            disabled={submitting || !email || !password}
+            disabled={submitting || !email || !password || !confirmPassword}
           >
             {submitting ? (
               <ActivityIndicator color="#fff" />
             ) : (
-              <Text style={styles.buttonText}>Log in</Text>
+              <Text style={styles.buttonText}>Sign up</Text>
             )}
           </Pressable>
         </View>
 
-        <Pressable onPress={() => navigation.navigate("Signup")}>
-          <Text style={styles.footer}>Don't have an account? Sign up</Text>
+        <Pressable onPress={() => navigation.navigate("Login")}>
+          <Text style={styles.footer}>Already have an account? Log in</Text>
         </Pressable>
       </View>
     </KeyboardAvoidingView>
@@ -118,4 +164,6 @@ const styles = StyleSheet.create({
   buttonDisabled: { opacity: 0.6 },
   buttonText: { color: "#fff", fontWeight: "600", fontSize: 16 },
   footer: { textAlign: "center", color: "#7A1F1F", fontSize: 13, marginTop: 28, fontWeight: "600" },
+  confirmTitle: { fontSize: 20, fontWeight: "800", color: "#000", textAlign: "center", marginBottom: 10 },
+  confirmBody: { fontSize: 14, color: "#00000099", textAlign: "center", lineHeight: 20, marginBottom: 24 },
 });

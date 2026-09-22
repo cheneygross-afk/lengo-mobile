@@ -59,10 +59,21 @@ export default function ExerciseBlock({
   exercise,
   index,
   onAnswered,
+  showInlineFeedback = true,
+  onChecked,
+  hideIndexLabel = false,
 }: {
   exercise: Exercise;
   index: number;
   onAnswered?: (correct: boolean) => void;
+  // The new step-by-step lesson player shows feedback as a bottom sheet
+  // instead of an inline box (and doesn't want the "Question N" label,
+  // since its own step header already says "Checkpoint"/"Review"). Both
+  // default to the original inline behavior so StoryReaderScreen, which
+  // doesn't pass these, is unaffected.
+  showInlineFeedback?: boolean;
+  onChecked?: (correct: boolean, explanation: string) => void;
+  hideIndexLabel?: boolean;
 }) {
   const [checked, setChecked] = useState(false);
   const [correct, setCorrect] = useState(false);
@@ -71,11 +82,12 @@ export default function ExerciseBlock({
     setCorrect(isCorrect);
     setChecked(true);
     onAnswered?.(isCorrect);
+    onChecked?.(isCorrect, (exercise as { explanation: string }).explanation);
   }
 
   return (
     <View style={s.container}>
-      <Text style={s.index}>Question {index + 1}</Text>
+      {!hideIndexLabel && <Text style={s.index}>Question {index + 1}</Text>}
       {exercise.type === "multiple-choice" && (
         <MultipleChoice exercise={exercise} checked={checked} correct={correct} onSubmit={report} />
       )}
@@ -94,7 +106,9 @@ export default function ExerciseBlock({
       {exercise.type === "matching" && (
         <Matching exercise={exercise} checked={checked} correct={correct} onSubmit={report} />
       )}
-      {checked && <Feedback correct={correct} explanation={(exercise as { explanation: string }).explanation} />}
+      {checked && showInlineFeedback && (
+        <Feedback correct={correct} explanation={(exercise as { explanation: string }).explanation} />
+      )}
     </View>
   );
 }

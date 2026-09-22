@@ -6,6 +6,7 @@ import { useAuth } from "@/lib/auth/AuthContext";
 import type { AppStackParamList, AuthStackParamList } from "@/navigation/types";
 import IntroScreen from "@/screens/IntroScreen";
 import LoginScreen from "@/screens/LoginScreen";
+import SignupScreen from "@/screens/SignupScreen";
 import HomeScreen from "@/screens/HomeScreen";
 import LessonListScreen from "@/screens/LessonListScreen";
 import LessonRunnerScreen from "@/screens/LessonRunnerScreen";
@@ -20,6 +21,7 @@ function AuthNavigator() {
   return (
     <AuthStack.Navigator screenOptions={{ headerShown: false }}>
       <AuthStack.Screen name="Login" component={LoginScreen} />
+      <AuthStack.Screen name="Signup" component={SignupScreen} />
     </AuthStack.Navigator>
   );
 }
