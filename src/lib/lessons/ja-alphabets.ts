@@ -60,30 +60,9 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
           "Romaji is Japanese written with Latin letters -- exactly what's in parentheses throughout this module. It's a pronunciation aid for learners. Real Japanese text doesn't use it.",
           "Treat every romaji spelling here as a temporary reference, not something to memorize instead of the character itself. The goal each lesson is to read the kana on sight, romaji-free.",
         ],
-        checkpoint: [
-          {
-            type: "multiple-choice",
-            question: "How should you treat romaji while working through this module?",
-            options: [
-              "As a temporary pronunciation reference, not a replacement for reading the kana",
-              "As the primary writing system to memorize instead of hiragana",
-              "As something only used in formal writing",
-              "As identical to English spelling rules",
-            ],
-            correctIndex: 0,
-            explanation: "Romaji is scaffolding. The actual goal is reading hiragana directly.",
-          },
-        ],
       },
     ],
     exercises: [
-      {
-        type: "multiple-choice",
-        question: "How many base hiragana characters make up the full set you'll learn in this module?",
-        options: ["46", "26", "100", "12"],
-        correctIndex: 0,
-        explanation: "46 base characters cover every native Japanese sound (plus voiced and combination variants built from them later).",
-      },
       {
         type: "multiple-choice",
         question: "True or false: once you know a hiragana character's sound, it's ever pronounced differently depending on context.",

@@ -164,7 +164,7 @@ export const JA_A1_LESSONS: Lesson[] = [
           },
           {
             "type": "multiple-choice",
-            "question": "What is the fixed three-part pattern for introducing yourself in this lesson?",
+            "question": "What is the fixed three-part pattern for introducing yourself in Japanese?",
             "options": [
               "はじめまして。[name]です。よろしくおねがいします。",
               "こんにちは。[name]です。さようなら。",
@@ -1446,7 +1446,7 @@ export const JA_A1_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "What's the key difference between は and が as covered in this lesson?",
+        "question": "What's the key difference between は and が?",
         "options": [
           "は marks a general topic; が tends to introduce new information or add emphasis",
           "は is used only in questions; が is used only in statements",
@@ -2808,7 +2808,7 @@ export const JA_A1_LESSONS: Lesson[] = [
       },
       {
         "type": "matching",
-        "instructions": "Match each grammar point to what module it came from in this A1 course.",
+        "instructions": "Match each grammar point to its category.",
         "pairs": [
           {
             "left": "は, が, を, に, で, と",
@@ -2840,18 +2840,6 @@ export const JA_A1_LESSONS: Lesson[] = [
         ],
         "translation": "I wake up at 7 every morning.",
         "explanation": "毎朝七時に起きます places the time expression (毎朝七時に) before the verb (起きます), following standard Japanese word order."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "According to this lesson, what typically comes after this A1 foundation in a Japanese course?",
-        "options": [
-          "The て-form, more particles, and casual/plain speech alongside polite ます/です",
-          "Kanji exclusively, with no further grammar",
-          "A return to the Alphabets module",
-          "Nothing -- A1 is considered complete fluency"
-        ],
-        "correctIndex": 0,
-        "explanation": "The て-form (unlocking requests, ongoing actions, and more), additional particles, and casual speech are the natural next steps beyond this A1 foundation."
       }
     ]
   },

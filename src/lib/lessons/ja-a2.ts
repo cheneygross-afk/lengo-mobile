@@ -43,7 +43,7 @@ export const JA_A2_LESSONS: Lesson[] = [
         },
         {
           "type": "multi-select",
-          "question": "Which of the following are uses of the て-form covered in this lesson? (Select all that apply)",
+          "question": "Which of the following are common uses of the て-form? (Select all that apply)",
           "options": [
             "Making polite requests with ください",
             "Linking two actions in one sentence",
@@ -684,7 +684,7 @@ export const JA_A2_LESSONS: Lesson[] = [
     },
     {
       "type": "matching",
-      "instructions": "Match each dictionary-form verb to its て-form used in this lesson.",
+      "instructions": "Match each dictionary-form verb to its て-form.",
       "pairs": [
         { "left": "開ける", "right": "開けて" },
         { "left": "吸う", "right": "吸って" },
@@ -1295,7 +1295,7 @@ export const JA_A2_LESSONS: Lesson[] = [
         },
         {
           "type": "multiple-choice",
-          "question": "Which use of the plain たい form is correct without extra grammar not covered in this lesson?",
+          "question": "Which use of the plain たい form is grammatically correct as-is?",
           "options": ["Saying what a stranger on the train wants to eat", "Saying what you yourself want to do", "Saying what your friend's sister wants to buy", "Saying what a character in a story wants"],
           "correctIndex": 1,
           "explanation": "Plain たい is for the speaker's own desires, or asking the listener directly -- describing a third person's want needs a different form not taught in this lesson."
