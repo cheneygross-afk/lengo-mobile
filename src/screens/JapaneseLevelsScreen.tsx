@@ -48,6 +48,12 @@ const MODULES: { key: LessonModuleKey; code: string; name: string; description: 
     name: "Advanced",
     description: "Business keigo nuance, classical grammar remnants, yojijukugo, de-aru style, advanced connectives and evidentiality, and rhetorical technique.",
   },
+  {
+    key: "ja-c2",
+    code: "C2",
+    name: "Mastery",
+    description: "Classical conjugation, literary and poetic register, dialects, pragmatics and irony, humor mechanics, culturally-bound concepts, academic writing, and authentic native text.",
+  },
 ];
 
 export default function JapaneseLevelsScreen({ navigation }: Props) {
@@ -65,6 +71,7 @@ export default function JapaneseLevelsScreen({ navigation }: Props) {
     "ja-b1": 0,
     "ja-b2": 0,
     "ja-c1": 0,
+    "ja-c2": 0,
   });
 
   useFocusEffect(
