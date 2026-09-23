@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { View, Text, TextInput, Pressable, StyleSheet, Linking, ActivityIndicator } from "react-native";
+import { View, Text, TextInput, Pressable, StyleSheet, Linking, ActivityIndicator, ScrollView } from "react-native";
 import { useAuth } from "@/lib/auth/AuthContext";
 import { supabase } from "@/lib/supabase/client";
 import { HIGHLIGHT_COLORS, DEFAULT_HIGHLIGHT_COLOR, type HighlightColor } from "@/lib/highlightColors";
@@ -176,7 +176,7 @@ export default function SettingsScreen() {
   }
 
   return (
-    <View style={s.container}>
+    <ScrollView style={s.container} contentContainerStyle={s.content} keyboardShouldPersistTaps="handled">
       <View style={s.section}>
         <Text style={s.sectionTitle}>Personal info</Text>
 
@@ -316,12 +316,13 @@ export default function SettingsScreen() {
       <Pressable style={s.logoutBtn} onPress={signOut}>
         <Text style={s.logoutBtnText}>Log out</Text>
       </Pressable>
-    </View>
+    </ScrollView>
   );
 }
 
 const s = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#FAF6F1", padding: 24, gap: 16 },
+  container: { flex: 1, backgroundColor: "#FAF6F1" },
+  content: { padding: 24, paddingBottom: 48, gap: 16 },
   premiumBtn: {
     backgroundColor: "#7A1F1F",
     borderRadius: 14,
