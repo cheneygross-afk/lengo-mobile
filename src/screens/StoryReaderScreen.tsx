@@ -1,27 +1,113 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { View, Text, ScrollView, Pressable, StyleSheet } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { A1_STORIES } from "@/lib/stories/a1";
 import { toExercises } from "@/lib/stories/types";
 import ExerciseBlock from "@/components/ExerciseBlock";
+import HighlightableText from "@/components/HighlightableText";
+import { useAuth } from "@/lib/auth/AuthContext";
+import { supabase } from "@/lib/supabase/client";
+import {
+  deleteLessonHighlight,
+  loadLessonHighlights,
+  saveLessonHighlight,
+  type LessonHighlight,
+} from "@/lib/highlights";
+import { highlightMarkColor } from "@/lib/highlightColors";
 
 type Props = NativeStackScreenProps<AppStackParamList, "StoryReader">;
 
 // Mobile port of the web app's StoryReader -- no length cap (stories can
 // run however long they run, unlike lessons), same comprehension-check
 // pattern reusing ExerciseBlock in multiple-choice mode.
+//
+// The website's StoryReader doesn't have highlighting yet, so there's no
+// existing blockKey scheme to match here the way LessonRunnerScreen
+// matches LessonRunner.tsx -- paragraphs are keyed simply as `p${i}`.
+// lesson_highlights doesn't care whether lessonSlug names a lesson or a
+// story, so this reuses it exactly as-is (same table, same columns).
 export default function StoryReaderScreen({ route, navigation }: Props) {
   const { slug } = route.params;
   const index = useMemo(() => A1_STORIES.findIndex((s) => s.slug === slug), [slug]);
   const story = A1_STORIES[index];
   const nextStory = A1_STORIES[index + 1];
   const exercises = useMemo(() => (story ? toExercises(story.questions) : []), [story]);
+  // Mirrors the folder names the website's readings routes use
+  // (/readings/a1, /readings/c1c2, ...) -- "A1" -> "a1", "C1/C2" -> "c1c2".
+  const levelPath = useMemo(() => (story ? story.level.toLowerCase().replace("/", "") : "a1"), [story]);
 
   const [answered, setAnswered] = useState<Record<number, boolean>>({});
   const answeredCount = Object.keys(answered).length;
   const correctCount = Object.values(answered).filter(Boolean).length;
   const allAnswered = answeredCount === exercises.length && exercises.length > 0;
+
+  // Same highlighting account feature as LessonRunnerScreen (see
+  // src/lib/highlights.ts) -- read the learner's chosen color once per
+  // account, and this story's saved highlights whenever the story or
+  // login state changes.
+  const { session } = useAuth();
+  const loggedIn = !!session?.user?.id;
+  const [highlightColor, setHighlightColor] = useState<string | null>(null);
+  const [highlights, setHighlights] = useState<LessonHighlight[]>([]);
+  const highlightMark = highlightMarkColor(highlightColor);
+
+  useEffect(() => {
+    const userId = session?.user?.id;
+    if (!userId) {
+      setHighlightColor(null);
+      return;
+    }
+    let cancelled = false;
+    supabase
+      .from("profiles")
+      .select("highlight_color")
+      .eq("id", userId)
+      .single()
+      .then(({ data }) => {
+        if (!cancelled) setHighlightColor(data?.highlight_color ?? null);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [session?.user?.id]);
+
+  useEffect(() => {
+    if (!loggedIn || !story) {
+      setHighlights([]);
+      return;
+    }
+    loadLessonHighlights(story.slug).then(setHighlights);
+  }, [story?.slug, loggedIn]);
+
+  function highlightsFor(blockKey: string): LessonHighlight[] {
+    return highlights.filter((h) => h.blockKey === blockKey);
+  }
+
+  async function addHighlight(blockKey: string, blockText: string, start: number, end: number, text: string) {
+    if (!story) return;
+    const saved = await saveLessonHighlight({
+      lessonSlug: story.slug,
+      levelPath,
+      blockKey,
+      start,
+      end,
+      text,
+      blockText,
+      existing: highlightsFor(blockKey),
+    });
+    if (saved) {
+      const fresh = await loadLessonHighlights(story.slug);
+      setHighlights(fresh);
+    }
+  }
+
+  async function removeHighlight(id: string) {
+    const ok = await deleteLessonHighlight(id);
+    if (ok) {
+      setHighlights((prev) => prev.filter((h) => h.id !== id));
+    }
+  }
 
   if (!story) {
     return (
@@ -38,11 +124,22 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
       <Text style={s.subtitle}>{story.subtitle}</Text>
 
       <View style={s.paragraphs}>
-        {story.paragraphs.map((p, i) => (
-          <Text key={i} style={s.paragraph}>
-            {p}
-          </Text>
-        ))}
+        {story.paragraphs.map((p, i) => {
+          const blockKey = `p${i}`;
+          return (
+            <HighlightableText
+              key={i}
+              text={p}
+              blockKey={blockKey}
+              highlights={highlightsFor(blockKey)}
+              enabled={loggedIn}
+              markColor={highlightMark}
+              textStyle={s.paragraph}
+              onAdd={(start, end, selected) => addHighlight(blockKey, p, start, end, selected)}
+              onRemove={removeHighlight}
+            />
+          );
+        })}
       </View>
 
       <View style={s.divider} />

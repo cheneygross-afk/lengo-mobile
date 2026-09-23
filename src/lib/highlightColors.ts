@@ -13,3 +13,14 @@ export const HIGHLIGHT_COLORS = [
 export type HighlightColor = (typeof HIGHLIGHT_COLORS)[number]["value"];
 
 export const DEFAULT_HIGHLIGHT_COLOR: HighlightColor = "amber";
+
+// Mobile counterpart of the web app's highlightMarkClass -- same
+// fallback-to-amber behavior, but returns a hex color (for a Text
+// backgroundColor style) instead of a Tailwind class string, since
+// HighlightableText has no stylesheet to pull a class from.
+export function highlightMarkColor(color: string | null | undefined): string {
+  return (
+    HIGHLIGHT_COLORS.find((c) => c.value === color)?.swatch ??
+    HIGHLIGHT_COLORS.find((c) => c.value === DEFAULT_HIGHLIGHT_COLOR)!.swatch
+  );
+}

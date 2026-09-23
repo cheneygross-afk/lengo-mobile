@@ -14,10 +14,20 @@ import { findLessonBySlug, moduleKeyForLesson, LESSON_SOURCES } from "@/lib/less
 import type { Exercise } from "@/lib/lessons/types";
 import { generateVocabDrills } from "@/lib/lessons/drill";
 import ExerciseBlock from "@/components/ExerciseBlock";
+import HighlightableText from "@/components/HighlightableText";
 import { markLessonCompleted } from "@/lib/lessons/completion";
 import { addToReview } from "@/lib/lessons/review";
 import { addMissedQuestion } from "@/lib/lessons/missedQuestions";
 import { autoEnrollLessonVocabulary } from "@/lib/flashcards/store";
+import { useAuth } from "@/lib/auth/AuthContext";
+import { supabase } from "@/lib/supabase/client";
+import {
+  deleteLessonHighlight,
+  loadLessonHighlights,
+  saveLessonHighlight,
+  type LessonHighlight,
+} from "@/lib/highlights";
+import { highlightMarkColor } from "@/lib/highlightColors";
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonRunner">;
 
@@ -83,6 +93,77 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
 
   const progressAnim = useRef(new Animated.Value(0)).current;
   const sheetAnim = useRef(new Animated.Value(0)).current;
+
+  // Highlighting is an account feature (see src/lib/highlights.ts) --
+  // mirrors the website's LessonRunner.tsx: the learner's chosen color
+  // is read from profiles.highlight_color once per session/account (same
+  // table+column SettingsScreen writes to), and this lesson's saved
+  // highlights are (re)loaded whenever the lesson or login state changes.
+  const { session } = useAuth();
+  const loggedIn = !!session?.user?.id;
+  const [highlightColor, setHighlightColor] = useState<string | null>(null);
+  const [highlights, setHighlights] = useState<LessonHighlight[]>([]);
+  const highlightMark = highlightMarkColor(highlightColor);
+
+  useEffect(() => {
+    const userId = session?.user?.id;
+    if (!userId) {
+      setHighlightColor(null);
+      return;
+    }
+    let cancelled = false;
+    supabase
+      .from("profiles")
+      .select("highlight_color")
+      .eq("id", userId)
+      .single()
+      .then(({ data }) => {
+        if (!cancelled) setHighlightColor(data?.highlight_color ?? null);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [session?.user?.id]);
+
+  useEffect(() => {
+    if (!loggedIn || !lesson) {
+      setHighlights([]);
+      return;
+    }
+    loadLessonHighlights(lesson.slug).then(setHighlights);
+  }, [lesson?.slug, loggedIn]);
+
+  function highlightsFor(blockKey: string): LessonHighlight[] {
+    return highlights.filter((h) => h.blockKey === blockKey);
+  }
+
+  async function addHighlight(blockKey: string, blockText: string, start: number, end: number, text: string) {
+    if (!lesson) return;
+    const saved = await saveLessonHighlight({
+      lessonSlug: lesson.slug,
+      levelPath,
+      blockKey,
+      start,
+      end,
+      text,
+      blockText,
+      existing: highlightsFor(blockKey),
+    });
+    if (saved) {
+      // Re-fetch rather than patch local state -- a save can merge with
+      // and delete other overlapping rows server-side, and re-fetching is
+      // the simplest way to stay in sync with what actually landed.
+      const fresh = await loadLessonHighlights(lesson.slug);
+      setHighlights(fresh);
+    }
+  }
+
+  async function removeHighlight(id: string) {
+    const ok = await deleteLessonHighlight(id);
+    if (ok) {
+      setHighlights((prev) => prev.filter((h) => h.id !== id));
+    }
+  }
 
   useEffect(() => {
     Animated.timing(progressAnim, {
@@ -202,7 +283,17 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       </View>
 
       <ScrollView style={s.stepArea} contentContainerStyle={s.stepContent} keyboardShouldPersistTaps="handled">
-        {currentStep?.kind === "intro" && <IntroStep lesson={lesson} onContinue={goNext} />}
+        {currentStep?.kind === "intro" && (
+          <IntroStep
+            lesson={lesson}
+            onContinue={goNext}
+            highlightsFor={highlightsFor}
+            onAddHighlight={addHighlight}
+            onRemoveHighlight={removeHighlight}
+            highlightsEnabled={loggedIn}
+            markColor={highlightMark}
+          />
+        )}
 
         {currentStep?.kind === "exercise" && (
           <View>
@@ -276,9 +367,19 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
 function IntroStep({
   lesson,
   onContinue,
+  highlightsFor,
+  onAddHighlight,
+  onRemoveHighlight,
+  highlightsEnabled,
+  markColor,
 }: {
   lesson: { level: string; number: number; title: string; sections: { heading: string; body: string[]; examples?: { es: string; en?: string }[] }[] };
   onContinue: () => void;
+  highlightsFor: (blockKey: string) => LessonHighlight[];
+  onAddHighlight: (blockKey: string, blockText: string, start: number, end: number, text: string) => void;
+  onRemoveHighlight: (id: string) => void;
+  highlightsEnabled: boolean;
+  markColor: string;
 }) {
   return (
     <View>
@@ -289,17 +390,58 @@ function IntroStep({
       {lesson.sections.map((section, si) => (
         <View key={si} style={s.introSection}>
           <Text style={s.teachHeading}>{section.heading}</Text>
-          {section.body.map((p, pi) => (
-            <Text key={pi} style={s.teachBody}>
-              {p}
-            </Text>
-          ))}
-          {section.examples?.map((ex, ei) => (
-            <View key={ei} style={s.example}>
-              <Text style={s.exampleEs}>{ex.es}</Text>
-              {ex.en ? <Text style={s.exampleEn}>{ex.en}</Text> : null}
-            </View>
-          ))}
+          {section.body.map((p, pi) => {
+            // Same blockKey scheme as the website's LessonRunner.tsx
+            // (`sec${i}-body${j}`) -- highlights saved here read back
+            // correctly on deependspanish.com and vice versa.
+            const blockKey = `sec${si}-body${pi}`;
+            return (
+              <HighlightableText
+                key={pi}
+                text={p}
+                blockKey={blockKey}
+                highlights={highlightsFor(blockKey)}
+                enabled={highlightsEnabled}
+                markColor={markColor}
+                textStyle={s.teachBody}
+                style={s.teachBodyBlock}
+                onAdd={(start, end, selected) => onAddHighlight(blockKey, p, start, end, selected)}
+                onRemove={onRemoveHighlight}
+              />
+            );
+          })}
+          {section.examples?.map((ex, ei) => {
+            // Matches the website's `sec${i}-ex${k}-es` / `-en` keys.
+            const esKey = `sec${si}-ex${ei}-es`;
+            const enKey = `sec${si}-ex${ei}-en`;
+            return (
+              <View key={ei} style={s.example}>
+                <HighlightableText
+                  text={ex.es}
+                  blockKey={esKey}
+                  highlights={highlightsFor(esKey)}
+                  enabled={highlightsEnabled}
+                  markColor={markColor}
+                  textStyle={s.exampleEs}
+                  onAdd={(start, end, selected) => onAddHighlight(esKey, ex.es, start, end, selected)}
+                  onRemove={onRemoveHighlight}
+                />
+                {ex.en ? (
+                  <HighlightableText
+                    text={ex.en}
+                    blockKey={enKey}
+                    highlights={highlightsFor(enKey)}
+                    enabled={highlightsEnabled}
+                    markColor={markColor}
+                    textStyle={s.exampleEn}
+                    style={s.exampleEnBlock}
+                    onAdd={(start, end, selected) => onAddHighlight(enKey, ex.en ?? "", start, end, selected)}
+                    onRemove={onRemoveHighlight}
+                  />
+                ) : null}
+              </View>
+            );
+          })}
         </View>
       ))}
       <Pressable style={s.bigBtn} onPress={onContinue}>
@@ -386,7 +528,12 @@ const s = StyleSheet.create({
   introTitle: { fontSize: 24, fontWeight: "800", color: "#000", marginBottom: 18 },
   introSection: { marginBottom: 22 },
   teachHeading: { fontSize: 18, fontWeight: "700", color: "#000", marginBottom: 8 },
-  teachBody: { fontSize: 15, lineHeight: 22, color: "#000000dd", marginBottom: 10 },
+  // Split from a single Text style so HighlightableText can apply the
+  // font styling per word (teachBody) while the paragraph spacing lives
+  // on the block's own container (teachBodyBlock) instead of repeating
+  // on every word.
+  teachBody: { fontSize: 15, lineHeight: 22, color: "#000000dd" },
+  teachBodyBlock: { marginBottom: 10 },
   example: {
     backgroundColor: "#fff",
     borderRadius: 12,
@@ -396,7 +543,8 @@ const s = StyleSheet.create({
     borderColor: "#00000012",
   },
   exampleEs: { fontSize: 15, fontWeight: "700", color: "#000" },
-  exampleEn: { fontSize: 13, color: "#00000099", marginTop: 2 },
+  exampleEn: { fontSize: 13, color: "#00000099" },
+  exampleEnBlock: { marginTop: 2 },
 
   badge: { fontSize: 12, color: "#00000066", textTransform: "uppercase", marginBottom: 4, fontWeight: "600" },
   flagBtn: { alignSelf: "flex-start", marginTop: 22, paddingVertical: 6, paddingHorizontal: 4 },
