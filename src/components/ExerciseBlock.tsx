@@ -298,6 +298,14 @@ function MultiSelect({
   );
 }
 
+// Neither input below lets the OS "help": autoCorrect can silently swap a
+// correctly-typed (or near-miss) Spanish word for an English dictionary
+// suggestion before gradeFreeText ever sees it (especially likely when the
+// device's keyboard has no Spanish dictionary loaded), which would make an
+// answer that should pass -- exactly or via the typo/accent tolerance above
+// -- look wrong for reasons that have nothing to do with the student's
+// Spanish. autoCapitalize="none" is belt-and-suspenders (normalize() already
+// lowercases), kept mainly so the student sees exactly what they typed.
 function FillBlank({
   exercise,
   checked,
@@ -315,6 +323,10 @@ function FillBlank({
           value={checked ? exercise.answer : value}
           onChangeText={setValue}
           editable={!checked}
+          autoCapitalize="none"
+          autoCorrect={false}
+          autoComplete="off"
+          textContentType="none"
           style={[s.blankInput, checked && (correct ? s.inputCorrect : s.inputWrong)]}
           placeholder="..."
         />
@@ -349,6 +361,10 @@ function Translate({
         value={checked ? exercise.answer : value}
         onChangeText={setValue}
         editable={!checked}
+        autoCapitalize="none"
+        autoCorrect={false}
+        autoComplete="off"
+        textContentType="none"
         style={[s.textInput, checked && (correct ? s.inputCorrect : s.inputWrong)]}
         placeholder={exercise.direction === "es-en" ? "Translate to English…" : "Traduce al español…"}
       />
