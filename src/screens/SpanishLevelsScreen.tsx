@@ -137,9 +137,9 @@ const styles = StyleSheet.create({
     padding: 18,
     backgroundColor: "#fff",
   },
-  cardTop: { flexDirection: "row", alignItems: "baseline", gap: 8, marginBottom: 6 },
-  cardCode: { fontSize: 18, fontWeight: "800", color: "#7A1F1F" },
-  cardName: { fontSize: 14, color: "#00000099" },
+  cardTop: { flexDirection: "row", flexWrap: "wrap", alignItems: "baseline", gap: 8, marginBottom: 6 },
+  cardCode: { fontSize: 18, fontWeight: "800", color: "#7A1F1F", flexShrink: 1 },
+  cardName: { fontSize: 14, color: "#00000099", flexShrink: 1 },
   cardDescription: { fontSize: 14, color: "#000000cc", lineHeight: 19, marginBottom: 10 },
   cardMeta: { fontSize: 12, color: "#00000066", textTransform: "uppercase" },
 });
