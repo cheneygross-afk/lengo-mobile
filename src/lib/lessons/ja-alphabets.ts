@@ -1,2019 +1,2905 @@
 import type { Lesson } from "./types";
 
-// The hidden Japanese track's pre-A1 module: hiragana and katakana, the two
-// phonetic scripts every other Japanese lesson will assume you can already
-// read. Kept in its own file (mirroring how Cosas Coloquiales is its own
-// file for Spanish) so it's a clean, removable unit. Reuses the same
-// Lesson/Exercise/LessonSection shape as the Spanish content -- see the
-// "JA-Alphabets" branch on Lesson["level"] in ./types.ts -- so LessonRunner,
-// LessonList, ExerciseBlock, and LessonPreview all work unchanged. No
-// "translate" exercises are used here (that exercise type hardcodes
-// Spanish/English direction text), only multiple-choice, multi-select,
-// fill-blank, matching, and word-order.
-//
-// Deliberately light on prose, heavy on repetition: each lesson that
-// introduces new characters teaches them fast and then drills them hard,
-// and every couple of lessons is followed by an `optional: true` lesson
-// that teaches nothing new -- it exists purely to force spaced repetition
-// of everything so far, via fill-blank (typed recall, not just
-// recognition) and large matching sets rather than more multiple-choice.
-// Fill-blank answers are always plain ASCII romaji (no macrons) so they're
-// actually typeable -- macrons are fine in prose/example glosses, never in
-// an `answer` field.
 export const JA_ALPHABETS_LESSONS: Lesson[] = [
   {
-    slug: "how-hiragana-works",
-    level: "JA-Alphabets",
-    number: 1,
-    title: "How Hiragana Works",
-    summary: "The essentials before you learn a single character: what hiragana is for, and why romaji is a crutch, not a destination.",
-    duration: "6 min",
-    sections: [
+    "slug": "how-hiragana-works",
+    "level": "JA-Alphabets",
+    "number": 1,
+    "title": "How Hiragana Works",
+    "summary": "The essentials before you learn a single character: what hiragana is for, and why romaji is a crutch, not a destination.",
+    "duration": "6 min",
+    "sections": [
       {
-        heading: "A phonetic alphabet, not a puzzle",
-        body: [
+        "heading": "A phonetic alphabet, not a puzzle",
+        "body": [
           "Hiragana (ひらがな) is one of Japanese's writing systems, and unlike English spelling, it's perfectly phonetic: each character is always pronounced exactly one way. Learn the sound once and you know it everywhere.",
-          "There are 46 base characters. That's the whole target of this module -- once they're automatic, you can read and write any native Japanese word.",
+          "There are 46 base characters. That's the whole target of this module -- once they're automatic, you can read and write any native Japanese word."
         ],
-        examples: [
-          { es: "ひらがな", en: "hiragana" },
-          { es: "あ", en: "a -- always \"a,\" no exceptions" },
-        ],
-        checkpoint: [
+        "examples": [
           {
-            type: "multiple-choice",
-            question: "What makes hiragana easier than English spelling?",
-            options: [
+            "es": "ひらがな",
+            "en": "hiragana"
+          },
+          {
+            "es": "あ",
+            "en": "a -- always \"a,\" no exceptions"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "What makes hiragana easier than English spelling?",
+            "options": [
               "Each character has exactly one pronunciation, always",
               "It only has 10 characters total",
               "It's identical to the Latin alphabet",
-              "It has no vowel sounds",
+              "It has no vowel sounds"
             ],
-            correctIndex: 0,
-            explanation: "Hiragana is perfectly phonetic -- one character, one sound, every time.",
-          },
-        ],
+            "correctIndex": 0,
+            "explanation": "Hiragana is perfectly phonetic -- one character, one sound, every time."
+          }
+        ]
       },
       {
-        heading: "Romaji is a crutch, not the goal",
-        body: [
+        "heading": "Romaji is a crutch, not the goal",
+        "body": [
           "Romaji is Japanese written with Latin letters -- exactly what's in parentheses throughout this module. It's a pronunciation aid for learners. Real Japanese text doesn't use it.",
-          "Treat every romaji spelling here as a temporary reference, not something to memorize instead of the character itself. The goal each lesson is to read the kana on sight, romaji-free.",
-        ],
-      },
+          "Treat every romaji spelling here as a temporary reference, not something to memorize instead of the character itself. The goal each lesson is to read the kana on sight, romaji-free."
+        ]
+      }
     ],
-    exercises: [
+    "exercises": [
       {
-        type: "multiple-choice",
-        question: "True or false: once you know a hiragana character's sound, it's ever pronounced differently depending on context.",
-        options: ["False -- hiragana is always pronounced the same way", "True -- context always changes the sound", "True, but only at the start of a word", "False, but only for vowels"],
-        correctIndex: 0,
-        explanation: "Hiragana is fully phonetic: no context-dependent pronunciation shifts.",
-      },
-    ],
+        "type": "multiple-choice",
+        "question": "True or false: once you know a hiragana character's sound, it's ever pronounced differently depending on context.",
+        "options": [
+          "False -- hiragana is always pronounced the same way",
+          "True -- context always changes the sound",
+          "True, but only at the start of a word",
+          "False, but only for vowels"
+        ],
+        "correctIndex": 0,
+        "explanation": "Hiragana is fully phonetic: no context-dependent pronunciation shifts."
+      }
+    ]
   },
   {
-    slug: "hiragana-vowels",
-    level: "JA-Alphabets",
-    number: 2,
-    title: "Hiragana Vowels: あ い う え お",
-    summary: "The five vowel sounds everything else in hiragana is built from. Learn them cold before moving on.",
-    duration: "10 min",
-    sections: [
+    "slug": "hiragana-vowels",
+    "level": "JA-Alphabets",
+    "number": 2,
+    "title": "Hiragana Vowels: あ い う え お",
+    "summary": "The five vowel sounds everything else in hiragana is built from. Learn them cold before moving on.",
+    "duration": "10 min",
+    "sections": [
       {
-        heading: "あ い う え お",
-        body: [
+        "heading": "あ い う え お",
+        "body": [
           "あ = a (\"father\"). い = i (\"see,\" short). う = u (clipped \"oo,\" less rounded than English). え = e (\"bed\"). お = o (\"more,\" no glide into \"w\").",
-          "Say them in order a few times: a-i-u-e-o. Every other hiragana character is a consonant fused onto one of these five.",
+          "Say them in order a few times: a-i-u-e-o. Every other hiragana character is a consonant fused onto one of these five."
         ],
-        examples: [
-          { es: "あい", en: "ai -- love" },
-          { es: "うえ", en: "ue -- above" },
-          { es: "いえ", en: "ie -- house" },
-          { es: "あお", en: "ao -- blue" },
+        "examples": [
+          {
+            "es": "あい",
+            "en": "ai -- love"
+          },
+          {
+            "es": "うえ",
+            "en": "ue -- above"
+          },
+          {
+            "es": "いえ",
+            "en": "ie -- house"
+          },
+          {
+            "es": "あお",
+            "en": "ao -- blue"
+          }
         ],
-        checkpoint: [
+        "checkpoint": [
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for あ.",
-            sentence: "あ is read ___.",
-            answer: "a",
-            explanation: "あ = a.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for あ.",
+            "sentence": "あ is read ___.",
+            "answer": "a",
+            "explanation": "あ = a."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for い.",
-            sentence: "い is read ___.",
-            answer: "i",
-            explanation: "い = i.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for い.",
+            "sentence": "い is read ___.",
+            "answer": "i",
+            "explanation": "い = i."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for う.",
-            sentence: "う is read ___.",
-            answer: "u",
-            explanation: "う = u.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for う.",
+            "sentence": "う is read ___.",
+            "answer": "u",
+            "explanation": "う = u."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for え.",
-            sentence: "え is read ___.",
-            answer: "e",
-            explanation: "え = e.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for え.",
+            "sentence": "え is read ___.",
+            "answer": "e",
+            "explanation": "え = e."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for お.",
-            sentence: "お is read ___.",
-            answer: "o",
-            explanation: "お = o.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for お.",
+            "sentence": "お is read ___.",
+            "answer": "o",
+            "explanation": "お = o."
           },
           {
-            type: "matching",
-            instructions: "Match each vowel to its romaji.",
-            pairs: [
-              { left: "あ", right: "a" },
-              { left: "い", right: "i" },
-              { left: "う", right: "u" },
-              { left: "え", right: "e" },
-              { left: "お", right: "o" },
+            "type": "matching",
+            "instructions": "Match each vowel to its romaji.",
+            "pairs": [
+              {
+                "left": "あ",
+                "right": "a"
+              },
+              {
+                "left": "い",
+                "right": "i"
+              },
+              {
+                "left": "う",
+                "right": "u"
+              },
+              {
+                "left": "え",
+                "right": "e"
+              },
+              {
+                "left": "お",
+                "right": "o"
+              }
             ],
-            explanation: "あ い う え お = a i u e o, the five base vowel sounds.",
+            "explanation": "あ い う え お = a i u e o, the five base vowel sounds."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for あい, a word meaning \"love.\"",
-            sentence: "あい means \"love\" and is read ___.",
-            answer: "ai",
-            explanation: "あ (a) + い (i) = ai.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for あい, a word meaning \"love.\"",
+            "sentence": "あい means \"love\" and is read ___.",
+            "answer": "ai",
+            "explanation": "あ (a) + い (i) = ai."
           },
           {
-            type: "word-order",
-            prompt: "Arrange these tiles to spell うえ (ue, \"above\").",
-            words: ["う", "え"],
-            translation: "above",
-            explanation: "う (u) + え (e) = うえ.",
+            "type": "word-order",
+            "prompt": "Arrange these tiles to spell うえ (ue, \"above\").",
+            "words": [
+              "う",
+              "え"
+            ],
+            "translation": "above",
+            "explanation": "う (u) + え (e) = うえ."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for いえ, a word meaning \"house.\"",
+        "sentence": "いえ means \"house\" and is read ___.",
+        "answer": "ie",
+        "explanation": "い (i) + え (e) = ie."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for あお, a word meaning \"blue.\"",
+        "sentence": "あお means \"blue\" and is read ___.",
+        "answer": "ao",
+        "explanation": "あ (a) + お (o) = ao."
+      },
+      {
+        "type": "matching",
+        "instructions": "Match each vowel to its romaji, one more time.",
+        "pairs": [
+          {
+            "left": "え",
+            "right": "e"
           },
+          {
+            "left": "あ",
+            "right": "a"
+          },
+          {
+            "left": "お",
+            "right": "o"
+          },
+          {
+            "left": "い",
+            "right": "i"
+          },
+          {
+            "left": "う",
+            "right": "u"
+          }
         ],
-      },
-    ],
-    exercises: [
-      {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for いえ, a word meaning \"house.\"",
-        sentence: "いえ means \"house\" and is read ___.",
-        answer: "ie",
-        explanation: "い (i) + え (e) = ie.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for あお, a word meaning \"blue.\"",
-        sentence: "あお means \"blue\" and is read ___.",
-        answer: "ao",
-        explanation: "あ (a) + お (o) = ao.",
-      },
-      {
-        type: "matching",
-        instructions: "Match each vowel to its romaji, one more time.",
-        pairs: [
-          { left: "え", right: "e" },
-          { left: "あ", right: "a" },
-          { left: "お", right: "o" },
-          { left: "い", right: "i" },
-          { left: "う", right: "u" },
-        ],
-        explanation: "Repetition is the point -- these five sounds need to be automatic.",
-      },
-    ],
+        "explanation": "Repetition is the point -- these five sounds need to be automatic."
+      }
+    ]
   },
   {
-    slug: "vowel-drill",
-    level: "JA-Alphabets",
-    number: 3,
-    title: "Vowel Speed Drill",
-    optional: true,
-    summary: "No new characters. Pure repetition of あ い う え お until they're automatic -- skip this if the previous lesson already felt easy.",
-    duration: "8 min",
-    sections: [
+    "slug": "vowel-drill",
+    "level": "JA-Alphabets",
+    "number": 3,
+    "title": "Vowel Speed Drill",
+    "optional": true,
+    "summary": "No new characters. Pure repetition of あ い う え お until they're automatic -- skip this if the previous lesson already felt easy.",
+    "duration": "8 min",
+    "sections": [
       {
-        heading: "Just repetition",
-        body: [
-          "Nothing new here -- every item below reuses あ い う え お. The goal is speed: read each one without having to think about it.",
+        "heading": "Just repetition",
+        "body": [
+          "Nothing new here -- every item below reuses あ い う え お. The goal is speed: read each one without having to think about it."
         ],
-        checkpoint: [
+        "checkpoint": [
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for う.",
-            sentence: "う is read ___.",
-            answer: "u",
-            explanation: "う = u.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for う.",
+            "sentence": "う is read ___.",
+            "answer": "u",
+            "explanation": "う = u."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for お.",
-            sentence: "お is read ___.",
-            answer: "o",
-            explanation: "お = o.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for お.",
+            "sentence": "お is read ___.",
+            "answer": "o",
+            "explanation": "お = o."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for え.",
-            sentence: "え is read ___.",
-            answer: "e",
-            explanation: "え = e.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for え.",
+            "sentence": "え is read ___.",
+            "answer": "e",
+            "explanation": "え = e."
           },
           {
-            type: "matching",
-            instructions: "Match each vowel to its romaji.",
-            pairs: [
-              { left: "い", right: "i" },
-              { left: "う", right: "u" },
-              { left: "あ", right: "a" },
-              { left: "え", right: "e" },
-              { left: "お", right: "o" },
+            "type": "matching",
+            "instructions": "Match each vowel to its romaji.",
+            "pairs": [
+              {
+                "left": "い",
+                "right": "i"
+              },
+              {
+                "left": "う",
+                "right": "u"
+              },
+              {
+                "left": "あ",
+                "right": "a"
+              },
+              {
+                "left": "え",
+                "right": "e"
+              },
+              {
+                "left": "お",
+                "right": "o"
+              }
             ],
-            explanation: "あ い う え お = a i u e o.",
+            "explanation": "あ い う え お = a i u e o."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for いい, a word meaning \"good.\"",
-            sentence: "いい means \"good\" and is read ___.",
-            answer: "ii",
-            explanation: "い repeated = ii, a long \"ee\" sound.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for いい, a word meaning \"good.\"",
+            "sentence": "いい means \"good\" and is read ___.",
+            "answer": "ii",
+            "explanation": "い repeated = ii, a long \"ee\" sound."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for あお, a word meaning \"blue.\"",
-            sentence: "あお means \"blue\" and is read ___.",
-            answer: "ao",
-            explanation: "あ (a) + お (o) = ao.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for あお, a word meaning \"blue.\"",
+            "sentence": "あお means \"blue\" and is read ___.",
+            "answer": "ao",
+            "explanation": "あ (a) + お (o) = ao."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for うえ, a word meaning \"above.\"",
-            sentence: "うえ means \"above\" and is read ___.",
-            answer: "ue",
-            explanation: "う (u) + え (e) = ue.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for うえ, a word meaning \"above.\"",
+            "sentence": "うえ means \"above\" and is read ___.",
+            "answer": "ue",
+            "explanation": "う (u) + え (e) = ue."
           },
           {
-            type: "word-order",
-            prompt: "Arrange these tiles to spell あい (ai, \"love\").",
-            words: ["あ", "い"],
-            translation: "love",
-            explanation: "あ (a) + い (i) = あい.",
-          },
-        ],
-      },
+            "type": "word-order",
+            "prompt": "Arrange these tiles to spell あい (ai, \"love\").",
+            "words": [
+              "あ",
+              "い"
+            ],
+            "translation": "love",
+            "explanation": "あ (a) + い (i) = あい."
+          }
+        ]
+      }
     ],
-    exercises: [
+    "exercises": [
       {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for い.",
-        sentence: "い is read ___.",
-        answer: "i",
-        explanation: "い = i.",
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for い.",
+        "sentence": "い is read ___.",
+        "answer": "i",
+        "explanation": "い = i."
       },
       {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for あ.",
-        sentence: "あ is read ___.",
-        answer: "a",
-        explanation: "あ = a.",
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for あ.",
+        "sentence": "あ is read ___.",
+        "answer": "a",
+        "explanation": "あ = a."
       },
       {
-        type: "matching",
-        instructions: "One last full pass -- match every vowel to its romaji.",
-        pairs: [
-          { left: "お", right: "o" },
-          { left: "あ", right: "a" },
-          { left: "う", right: "u" },
-          { left: "い", right: "i" },
-          { left: "え", right: "e" },
+        "type": "matching",
+        "instructions": "One last full pass -- match every vowel to its romaji.",
+        "pairs": [
+          {
+            "left": "お",
+            "right": "o"
+          },
+          {
+            "left": "あ",
+            "right": "a"
+          },
+          {
+            "left": "う",
+            "right": "u"
+          },
+          {
+            "left": "い",
+            "right": "i"
+          },
+          {
+            "left": "え",
+            "right": "e"
+          }
         ],
-        explanation: "If this felt fast, you're ready for the next lesson.",
+        "explanation": "If this felt fast, you're ready for the next lesson."
       },
       {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for いえ, a word meaning \"house.\"",
-        sentence: "いえ means \"house\" and is read ___.",
-        answer: "ie",
-        explanation: "い (i) + え (e) = ie.",
-      },
-    ],
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for いえ, a word meaning \"house.\"",
+        "sentence": "いえ means \"house\" and is read ___.",
+        "answer": "ie",
+        "explanation": "い (i) + え (e) = ie."
+      }
+    ]
   },
   {
-    slug: "hiragana-k-s-rows",
-    level: "JA-Alphabets",
-    number: 4,
-    title: "Hiragana: K & S Rows",
-    summary: "か き く け こ and さ し す せ そ -- ten characters, one irregular reading to watch for.",
-    duration: "12 min",
-    sections: [
+    "slug": "hiragana-k-s-rows-1",
+    "level": "JA-Alphabets",
+    "number": 4,
+    "title": "Hiragana: K & S Rows, Part 1 of 2",
+    "summary": "か き く け こ and さ し す せ そ -- ten characters, one irregular reading to watch for.",
+    "duration": "6 min",
+    "sections": [
       {
-        heading: "K row: か き く け こ",
-        body: [
-          "Each is \"k\" fused onto a vowel: か=ka, き=ki, く=ku, け=ke, こ=ko. Fully regular.",
+        "heading": "K row: か き く け こ",
+        "body": [
+          "Each is \"k\" fused onto a vowel: か=ka, き=ki, く=ku, け=ke, こ=ko. Fully regular."
         ],
-        examples: [
-          { es: "かき", en: "kaki -- persimmon" },
-          { es: "いけ", en: "ike -- pond" },
-          { es: "あき", en: "aki -- autumn" },
+        "examples": [
+          {
+            "es": "かき",
+            "en": "kaki -- persimmon"
+          },
+          {
+            "es": "いけ",
+            "en": "ike -- pond"
+          },
+          {
+            "es": "あき",
+            "en": "aki -- autumn"
+          }
         ],
-        checkpoint: [
+        "checkpoint": [
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for か.",
-            sentence: "か is read ___.",
-            answer: "ka",
-            explanation: "か = ka.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for か.",
+            "sentence": "か is read ___.",
+            "answer": "ka",
+            "explanation": "か = ka."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for き.",
-            sentence: "き is read ___.",
-            answer: "ki",
-            explanation: "き = ki.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for き.",
+            "sentence": "き is read ___.",
+            "answer": "ki",
+            "explanation": "き = ki."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for く.",
-            sentence: "く is read ___.",
-            answer: "ku",
-            explanation: "く = ku.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for く.",
+            "sentence": "く is read ___.",
+            "answer": "ku",
+            "explanation": "く = ku."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for け.",
-            sentence: "け is read ___.",
-            answer: "ke",
-            explanation: "け = ke.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for け.",
+            "sentence": "け is read ___.",
+            "answer": "ke",
+            "explanation": "け = ke."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for こ.",
-            sentence: "こ is read ___.",
-            answer: "ko",
-            explanation: "こ = ko.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for こ.",
+            "sentence": "こ is read ___.",
+            "answer": "ko",
+            "explanation": "こ = ko."
           },
           {
-            type: "matching",
-            instructions: "Match each K-row character to its romaji.",
-            pairs: [
-              { left: "か", right: "ka" },
-              { left: "き", right: "ki" },
-              { left: "く", right: "ku" },
-              { left: "け", right: "ke" },
-              { left: "こ", right: "ko" },
+            "type": "matching",
+            "instructions": "Match each K-row character to its romaji.",
+            "pairs": [
+              {
+                "left": "か",
+                "right": "ka"
+              },
+              {
+                "left": "き",
+                "right": "ki"
+              },
+              {
+                "left": "く",
+                "right": "ku"
+              },
+              {
+                "left": "け",
+                "right": "ke"
+              },
+              {
+                "left": "こ",
+                "right": "ko"
+              }
             ],
-            explanation: "か き く け こ = ka ki ku ke ko.",
-          },
-        ],
-      },
-      {
-        heading: "S row: さ し す せ そ",
-        body: [
-          "さ=sa, す=su, せ=se, そ=so follow the pattern -- but し is \"shi,\" not \"si.\" The first irregularity you'll meet.",
-        ],
-        examples: [
-          { es: "すし", en: "sushi" },
-          { es: "あさ", en: "asa -- morning" },
-          { es: "せかい", en: "sekai -- world" },
-        ],
-        checkpoint: [
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for さ.",
-            sentence: "さ is read ___.",
-            answer: "sa",
-            explanation: "さ = sa.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for し.",
-            sentence: "し is read ___.",
-            answer: "shi",
-            explanation: "し is irregular: \"shi,\" not \"si.\"",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for す.",
-            sentence: "す is read ___.",
-            answer: "su",
-            explanation: "す = su.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for せ.",
-            sentence: "せ is read ___.",
-            answer: "se",
-            explanation: "せ = se.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for そ.",
-            sentence: "そ is read ___.",
-            answer: "so",
-            explanation: "そ = so.",
-          },
-          {
-            type: "matching",
-            instructions: "Match each S-row character to its romaji.",
-            pairs: [
-              { left: "さ", right: "sa" },
-              { left: "し", right: "shi" },
-              { left: "す", right: "su" },
-              { left: "せ", right: "se" },
-              { left: "そ", right: "so" },
-            ],
-            explanation: "さ し す せ そ = sa shi su se so.",
-          },
-          {
-            type: "word-order",
-            prompt: "Arrange these tiles to spell すし (sushi).",
-            words: ["す", "し"],
-            translation: "sushi",
-            explanation: "す (su) + し (shi) = すし.",
-          },
-        ],
-      },
+            "explanation": "か き く け こ = ka ki ku ke ko."
+          }
+        ]
+      }
     ],
-    exercises: [
+    "exercises": [
       {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for かき, a word meaning \"persimmon.\"",
-        sentence: "かき means \"persimmon\" and is read ___.",
-        answer: "kaki",
-        explanation: "か (ka) + き (ki) = kaki.",
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for かき, a word meaning \"persimmon.\"",
+        "sentence": "かき means \"persimmon\" and is read ___.",
+        "answer": "kaki",
+        "explanation": "か (ka) + き (ki) = kaki."
       },
       {
-        type: "multiple-choice",
-        question: "How is し pronounced?",
-        options: ["shi", "si", "chi", "shu"],
-        correctIndex: 0,
-        explanation: "し is irregular: \"shi,\" not the expected \"si.\"",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for あさ, a word meaning \"morning.\"",
-        sentence: "あさ means \"morning\" and is read ___.",
-        answer: "asa",
-        explanation: "あ (a) + さ (sa) = asa.",
-      },
-      {
-        type: "matching",
-        instructions: "Match each K/S-row character to its romaji.",
-        pairs: [
-          { left: "こ", right: "ko" },
-          { left: "す", right: "su" },
-          { left: "き", right: "ki" },
-          { left: "そ", right: "so" },
+        "type": "multiple-choice",
+        "question": "How is し pronounced?",
+        "options": [
+          "shi",
+          "si",
+          "chi",
+          "shu"
         ],
-        explanation: "Ten characters down, thirty-six to go.",
-      },
-    ],
+        "correctIndex": 0,
+        "explanation": "し is irregular: \"shi,\" not the expected \"si.\""
+      }
+    ]
   },
   {
-    slug: "hiragana-t-n-rows",
-    level: "JA-Alphabets",
-    number: 5,
-    title: "Hiragana: T & N Rows",
-    summary: "た ち つ て と and な に ぬ ね の -- completes the first 25 characters, half the syllabary.",
-    duration: "12 min",
-    sections: [
+    "slug": "hiragana-k-s-rows-2",
+    "level": "JA-Alphabets",
+    "number": 5,
+    "title": "Hiragana: K & S Rows, Part 2 of 2",
+    "summary": "か き く け こ and さ し す せ そ -- ten characters, one irregular reading to watch for.",
+    "duration": "6 min",
+    "sections": [
       {
-        heading: "T row: た ち つ て と",
-        body: [
-          "た=ta, て=te, と=to are regular. ち=chi and つ=tsu are irregular, following the same pattern as し=shi.",
+        "heading": "S row: さ し す せ そ",
+        "body": [
+          "さ=sa, す=su, せ=se, そ=so follow the pattern -- but し is \"shi,\" not \"si.\" The first irregularity you'll meet."
         ],
-        examples: [
-          { es: "とけい", en: "tokei -- clock" },
-          { es: "つき", en: "tsuki -- moon" },
+        "examples": [
+          {
+            "es": "すし",
+            "en": "sushi"
+          },
+          {
+            "es": "あさ",
+            "en": "asa -- morning"
+          },
+          {
+            "es": "せかい",
+            "en": "sekai -- world"
+          }
         ],
-        checkpoint: [
+        "checkpoint": [
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for た.",
-            sentence: "た is read ___.",
-            answer: "ta",
-            explanation: "た = ta.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for さ.",
+            "sentence": "さ is read ___.",
+            "answer": "sa",
+            "explanation": "さ = sa."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ち.",
-            sentence: "ち is read ___.",
-            answer: "chi",
-            explanation: "ち is irregular: \"chi,\" not \"ti.\"",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for し.",
+            "sentence": "し is read ___.",
+            "answer": "shi",
+            "explanation": "し is irregular: \"shi,\" not \"si.\""
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for つ.",
-            sentence: "つ is read ___.",
-            answer: "tsu",
-            explanation: "つ is irregular: \"tsu,\" not \"tu.\"",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for す.",
+            "sentence": "す is read ___.",
+            "answer": "su",
+            "explanation": "す = su."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for て.",
-            sentence: "て is read ___.",
-            answer: "te",
-            explanation: "て = te.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for せ.",
+            "sentence": "せ is read ___.",
+            "answer": "se",
+            "explanation": "せ = se."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for と.",
-            sentence: "と is read ___.",
-            answer: "to",
-            explanation: "と = to.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for そ.",
+            "sentence": "そ is read ___.",
+            "answer": "so",
+            "explanation": "そ = so."
           },
           {
-            type: "matching",
-            instructions: "Match each T-row character to its romaji.",
-            pairs: [
-              { left: "た", right: "ta" },
-              { left: "ち", right: "chi" },
-              { left: "つ", right: "tsu" },
-              { left: "て", right: "te" },
-              { left: "と", right: "to" },
+            "type": "matching",
+            "instructions": "Match each S-row character to its romaji.",
+            "pairs": [
+              {
+                "left": "さ",
+                "right": "sa"
+              },
+              {
+                "left": "し",
+                "right": "shi"
+              },
+              {
+                "left": "す",
+                "right": "su"
+              },
+              {
+                "left": "せ",
+                "right": "se"
+              },
+              {
+                "left": "そ",
+                "right": "so"
+              }
             ],
-            explanation: "た ち つ て と = ta chi tsu te to.",
-          },
-        ],
-      },
-      {
-        heading: "N row: な に ぬ ね の",
-        body: [
-          "な=na, に=ni, ぬ=nu, ね=ne, の=no -- fully regular, no exceptions.",
-        ],
-        examples: [
-          { es: "いぬ", en: "inu -- dog" },
-          { es: "ねこ", en: "neko -- cat" },
-        ],
-        checkpoint: [
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for な.",
-            sentence: "な is read ___.",
-            answer: "na",
-            explanation: "な = na.",
+            "explanation": "さ し す せ そ = sa shi su se so."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for に.",
-            sentence: "に is read ___.",
-            answer: "ni",
-            explanation: "に = ni.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ぬ.",
-            sentence: "ぬ is read ___.",
-            answer: "nu",
-            explanation: "ぬ = nu.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ね.",
-            sentence: "ね is read ___.",
-            answer: "ne",
-            explanation: "ね = ne.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for の.",
-            sentence: "の is read ___.",
-            answer: "no",
-            explanation: "の = no.",
-          },
-          {
-            type: "matching",
-            instructions: "Match each N-row character to its romaji.",
-            pairs: [
-              { left: "な", right: "na" },
-              { left: "に", right: "ni" },
-              { left: "ぬ", right: "nu" },
-              { left: "ね", right: "ne" },
-              { left: "の", right: "no" },
+            "type": "word-order",
+            "prompt": "Arrange these tiles to spell すし (sushi).",
+            "words": [
+              "す",
+              "し"
             ],
-            explanation: "な に ぬ ね の = na ni nu ne no.",
+            "translation": "sushi",
+            "explanation": "す (su) + し (shi) = すし."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for あさ, a word meaning \"morning.\"",
+        "sentence": "あさ means \"morning\" and is read ___.",
+        "answer": "asa",
+        "explanation": "あ (a) + さ (sa) = asa."
+      },
+      {
+        "type": "matching",
+        "instructions": "Match each K/S-row character to its romaji.",
+        "pairs": [
+          {
+            "left": "こ",
+            "right": "ko"
           },
           {
-            type: "word-order",
-            prompt: "Arrange these tiles to spell いぬ (inu, \"dog\").",
-            words: ["い", "ぬ"],
-            translation: "dog",
-            explanation: "い (i) + ぬ (nu) = いぬ.",
+            "left": "す",
+            "right": "su"
           },
+          {
+            "left": "き",
+            "right": "ki"
+          },
+          {
+            "left": "そ",
+            "right": "so"
+          }
         ],
-      },
-    ],
-    exercises: [
-      {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for ねこ, a word meaning \"cat.\"",
-        sentence: "ねこ means \"cat\" and is read ___.",
-        answer: "neko",
-        explanation: "ね (ne) + こ (ko) = neko.",
-      },
-      {
-        type: "multi-select",
-        question: "Which of these hiragana have irregular romaji readings (not simply consonant + vowel)?",
-        options: ["し (si -> shi)", "ち (ti -> chi)", "た (ta)", "つ (tu -> tsu)"],
-        correctIndexes: [0, 1, 3],
-        explanation: "し, ち, and つ are irregular. た is fully regular.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for とけい, a word meaning \"clock.\"",
-        sentence: "とけい means \"clock\" and is read ___.",
-        answer: "tokei",
-        explanation: "と (to) + け (ke) + い (i) = tokei.",
-      },
-      {
-        type: "matching",
-        instructions: "Mixed review: match each character to its romaji.",
-        pairs: [
-          { left: "つ", right: "tsu" },
-          { left: "の", right: "no" },
-          { left: "ち", right: "chi" },
-          { left: "ぬ", right: "nu" },
-        ],
-        explanation: "That's 25 characters -- exactly half of hiragana.",
-      },
-    ],
+        "explanation": "Ten characters down, thirty-six to go."
+      }
+    ]
   },
   {
-    slug: "vowels-through-n-drill",
-    level: "JA-Alphabets",
-    number: 6,
-    title: "Vowels–N Row Speed Drill",
-    optional: true,
-    summary: "No new characters. Every hiragana from あ through の, drilled together -- the first 25 characters, half the syllabary.",
-    duration: "12 min",
-    sections: [
+    "slug": "hiragana-t-n-rows-1",
+    "level": "JA-Alphabets",
+    "number": 6,
+    "title": "Hiragana: T & N Rows, Part 1 of 2",
+    "summary": "た ち つ て と and な に ぬ ね の -- completes the first 25 characters, half the syllabary.",
+    "duration": "6 min",
+    "sections": [
       {
-        heading: "Vowels and K row",
-        body: ["Reviewing あ-お and か-こ."],
-        checkpoint: [
-          {
-            type: "matching",
-            instructions: "Match each character to its romaji.",
-            pairs: [
-              { left: "あ", right: "a" },
-              { left: "き", right: "ki" },
-              { left: "う", right: "u" },
-              { left: "こ", right: "ko" },
-              { left: "え", right: "e" },
-            ],
-            explanation: "Vowels plus the K row.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for かき, a word meaning \"persimmon.\"",
-            sentence: "かき means \"persimmon\" and is read ___.",
-            answer: "kaki",
-            explanation: "か (ka) + き (ki) = kaki.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for いけ, a word meaning \"pond.\"",
-            sentence: "いけ means \"pond\" and is read ___.",
-            answer: "ike",
-            explanation: "い (i) + け (ke) = ike.",
-          },
+        "heading": "T row: た ち つ て と",
+        "body": [
+          "た=ta, て=te, と=to are regular. ち=chi and つ=tsu are irregular, following the same pattern as し=shi."
         ],
-      },
-      {
-        heading: "S row",
-        body: ["Reviewing さ-そ, including irregular し."],
-        checkpoint: [
+        "examples": [
           {
-            type: "matching",
-            instructions: "Match each S-row character to its romaji.",
-            pairs: [
-              { left: "さ", right: "sa" },
-              { left: "し", right: "shi" },
-              { left: "す", right: "su" },
-              { left: "せ", right: "se" },
-              { left: "そ", right: "so" },
-            ],
-            explanation: "さ し す せ そ = sa shi su se so.",
+            "es": "とけい",
+            "en": "tokei -- clock"
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for あさ, a word meaning \"morning.\"",
-            sentence: "あさ means \"morning\" and is read ___.",
-            answer: "asa",
-            explanation: "あ (a) + さ (sa) = asa.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for すし.",
-            sentence: "すし is read ___.",
-            answer: "sushi",
-            explanation: "す (su) + し (shi) = sushi.",
-          },
+            "es": "つき",
+            "en": "tsuki -- moon"
+          }
         ],
-      },
-      {
-        heading: "T row and N row",
-        body: ["Reviewing た-と, including irregular ち and つ, and な-の."],
-        checkpoint: [
+        "checkpoint": [
           {
-            type: "matching",
-            instructions: "Match each T/N-row character to its romaji.",
-            pairs: [
-              { left: "た", right: "ta" },
-              { left: "ち", right: "chi" },
-              { left: "つ", right: "tsu" },
-              { left: "な", right: "na" },
-              { left: "の", right: "no" },
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for た.",
+            "sentence": "た is read ___.",
+            "answer": "ta",
+            "explanation": "た = ta."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ち.",
+            "sentence": "ち is read ___.",
+            "answer": "chi",
+            "explanation": "ち is irregular: \"chi,\" not \"ti.\""
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for つ.",
+            "sentence": "つ is read ___.",
+            "answer": "tsu",
+            "explanation": "つ is irregular: \"tsu,\" not \"tu.\""
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for て.",
+            "sentence": "て is read ___.",
+            "answer": "te",
+            "explanation": "て = te."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for と.",
+            "sentence": "と is read ___.",
+            "answer": "to",
+            "explanation": "と = to."
+          },
+          {
+            "type": "matching",
+            "instructions": "Match each T-row character to its romaji.",
+            "pairs": [
+              {
+                "left": "た",
+                "right": "ta"
+              },
+              {
+                "left": "ち",
+                "right": "chi"
+              },
+              {
+                "left": "つ",
+                "right": "tsu"
+              },
+              {
+                "left": "て",
+                "right": "te"
+              },
+              {
+                "left": "と",
+                "right": "to"
+              }
             ],
-            explanation: "た ち つ て と / な に ぬ ね の.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for いぬ, a word meaning \"dog.\"",
-            sentence: "いぬ means \"dog\" and is read ___.",
-            answer: "inu",
-            explanation: "い (i) + ぬ (nu) = inu.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ねこ, a word meaning \"cat.\"",
-            sentence: "ねこ means \"cat\" and is read ___.",
-            answer: "neko",
-            explanation: "ね (ne) + こ (ko) = neko.",
-          },
-          {
-            type: "word-order",
-            prompt: "Arrange these tiles to spell さかな (sakana, \"fish\").",
-            words: ["さ", "か", "な"],
-            translation: "fish",
-            explanation: "さ (sa) + か (ka) + な (na) = さかな.",
-          },
-        ],
-      },
+            "explanation": "た ち つ て と = ta chi tsu te to."
+          }
+        ]
+      }
     ],
-    exercises: [
+    "exercises": [
       {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for たこ, a word meaning \"octopus.\"",
-        sentence: "たこ means \"octopus\" and is read ___.",
-        answer: "tako",
-        explanation: "た (ta) + こ (ko) = tako.",
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for ねこ, a word meaning \"cat.\"",
+        "sentence": "ねこ means \"cat\" and is read ___.",
+        "answer": "neko",
+        "explanation": "ね (ne) + こ (ko) = neko."
       },
       {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for にく, a word meaning \"meat.\"",
-        sentence: "にく means \"meat\" and is read ___.",
-        answer: "niku",
-        explanation: "に (ni) + く (ku) = niku.",
-      },
-      {
-        type: "matching",
-        instructions: "Full mixed review: all 25 characters so far, sampled.",
-        pairs: [
-          { left: "す", right: "su" },
-          { left: "ち", right: "chi" },
-          { left: "お", right: "o" },
-          { left: "ぬ", right: "nu" },
-          { left: "そ", right: "so" },
+        "type": "multi-select",
+        "question": "Which of these hiragana have irregular romaji readings (not simply consonant + vowel)?",
+        "options": [
+          "し (si -> shi)",
+          "ち (ti -> chi)",
+          "た (ta)",
+          "つ (tu -> tsu)"
         ],
-        explanation: "If this felt easy, the next lessons will go quickly.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for せかい, a word meaning \"world.\"",
-        sentence: "せかい means \"world\" and is read ___.",
-        answer: "sekai",
-        explanation: "せ (se) + か (ka) + い (i) = sekai.",
-      },
-    ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "し, ち, and つ are irregular. た is fully regular."
+      }
+    ]
   },
   {
-    slug: "hiragana-h-m-rows",
-    level: "JA-Alphabets",
-    number: 7,
-    title: "Hiragana: H & M Rows",
-    summary: "は ひ ふ へ ほ and ま み む め も -- one more irregular reading, then a fully regular row.",
-    duration: "12 min",
-    sections: [
+    "slug": "hiragana-t-n-rows-2",
+    "level": "JA-Alphabets",
+    "number": 7,
+    "title": "Hiragana: T & N Rows, Part 2 of 2",
+    "summary": "た ち つ て と and な に ぬ ね の -- completes the first 25 characters, half the syllabary.",
+    "duration": "6 min",
+    "sections": [
       {
-        heading: "H row: は ひ ふ へ ほ",
-        body: [
-          "は=ha, ひ=hi, へ=he, ほ=ho are regular. ふ is \"fu,\" a softer sound than English \"hu\" or \"foo.\"",
+        "heading": "N row: な に ぬ ね の",
+        "body": [
+          "な=na, に=ni, ぬ=nu, ね=ne, の=no -- fully regular, no exceptions."
         ],
-        examples: [
-          { es: "はな", en: "hana -- flower" },
-          { es: "ほし", en: "hoshi -- star" },
+        "examples": [
+          {
+            "es": "いぬ",
+            "en": "inu -- dog"
+          },
+          {
+            "es": "ねこ",
+            "en": "neko -- cat"
+          }
         ],
-        checkpoint: [
+        "checkpoint": [
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for は.",
-            sentence: "は is read ___.",
-            answer: "ha",
-            explanation: "は = ha.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for な.",
+            "sentence": "な is read ___.",
+            "answer": "na",
+            "explanation": "な = na."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ひ.",
-            sentence: "ひ is read ___.",
-            answer: "hi",
-            explanation: "ひ = hi.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for に.",
+            "sentence": "に is read ___.",
+            "answer": "ni",
+            "explanation": "に = ni."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ふ.",
-            sentence: "ふ is read ___.",
-            answer: "fu",
-            explanation: "ふ = fu, softer than English \"foo.\"",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ぬ.",
+            "sentence": "ぬ is read ___.",
+            "answer": "nu",
+            "explanation": "ぬ = nu."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for へ.",
-            sentence: "へ is read ___.",
-            answer: "he",
-            explanation: "へ = he.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ね.",
+            "sentence": "ね is read ___.",
+            "answer": "ne",
+            "explanation": "ね = ne."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ほ.",
-            sentence: "ほ is read ___.",
-            answer: "ho",
-            explanation: "ほ = ho.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for の.",
+            "sentence": "の is read ___.",
+            "answer": "no",
+            "explanation": "の = no."
           },
           {
-            type: "matching",
-            instructions: "Match each H-row character to its romaji.",
-            pairs: [
-              { left: "は", right: "ha" },
-              { left: "ひ", right: "hi" },
-              { left: "ふ", right: "fu" },
-              { left: "へ", right: "he" },
-              { left: "ほ", right: "ho" },
+            "type": "matching",
+            "instructions": "Match each N-row character to its romaji.",
+            "pairs": [
+              {
+                "left": "な",
+                "right": "na"
+              },
+              {
+                "left": "に",
+                "right": "ni"
+              },
+              {
+                "left": "ぬ",
+                "right": "nu"
+              },
+              {
+                "left": "ね",
+                "right": "ne"
+              },
+              {
+                "left": "の",
+                "right": "no"
+              }
             ],
-            explanation: "は ひ ふ へ ほ = ha hi fu he ho.",
-          },
-        ],
-      },
-      {
-        heading: "M row: ま み む め も",
-        body: [
-          "ま=ma, み=mi, む=mu, め=me, も=mo -- fully regular, no exceptions.",
-        ],
-        examples: [
-          { es: "あめ", en: "ame -- rain" },
-          { es: "みみ", en: "mimi -- ear" },
-        ],
-        checkpoint: [
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ま.",
-            sentence: "ま is read ___.",
-            answer: "ma",
-            explanation: "ま = ma.",
+            "explanation": "な に ぬ ね の = na ni nu ne no."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for み.",
-            sentence: "み is read ___.",
-            answer: "mi",
-            explanation: "み = mi.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for む.",
-            sentence: "む is read ___.",
-            answer: "mu",
-            explanation: "む = mu.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for め.",
-            sentence: "め is read ___.",
-            answer: "me",
-            explanation: "め = me.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for も.",
-            sentence: "も is read ___.",
-            answer: "mo",
-            explanation: "も = mo.",
-          },
-          {
-            type: "matching",
-            instructions: "Match each M-row character to its romaji.",
-            pairs: [
-              { left: "ま", right: "ma" },
-              { left: "み", right: "mi" },
-              { left: "む", right: "mu" },
-              { left: "め", right: "me" },
-              { left: "も", right: "mo" },
+            "type": "word-order",
+            "prompt": "Arrange these tiles to spell いぬ (inu, \"dog\").",
+            "words": [
+              "い",
+              "ぬ"
             ],
-            explanation: "ま み む め も = ma mi mu me mo.",
+            "translation": "dog",
+            "explanation": "い (i) + ぬ (nu) = いぬ."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for とけい, a word meaning \"clock.\"",
+        "sentence": "とけい means \"clock\" and is read ___.",
+        "answer": "tokei",
+        "explanation": "と (to) + け (ke) + い (i) = tokei."
+      },
+      {
+        "type": "matching",
+        "instructions": "Mixed review: match each character to its romaji.",
+        "pairs": [
+          {
+            "left": "つ",
+            "right": "tsu"
           },
           {
-            type: "word-order",
-            prompt: "Arrange these tiles to spell みみ (mimi, \"ear\").",
-            words: ["み", "み"],
-            translation: "ear",
-            explanation: "み (mi) + み (mi) = みみ.",
+            "left": "の",
+            "right": "no"
           },
+          {
+            "left": "ち",
+            "right": "chi"
+          },
+          {
+            "left": "ぬ",
+            "right": "nu"
+          }
         ],
-      },
-    ],
-    exercises: [
-      {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for はな, a word meaning \"flower.\"",
-        sentence: "はな means \"flower\" and is read ___.",
-        answer: "hana",
-        explanation: "は (ha) + な (na) = hana.",
-      },
-      {
-        type: "multiple-choice",
-        question: "How is ふ pronounced?",
-        options: ["fu -- softer than English \"foo\"", "hu, exactly like English", "fo", "bu"],
-        correctIndex: 0,
-        explanation: "ふ is a soft \"fu,\" distinct from both English \"hu\" and \"foo.\"",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for あめ, a word meaning \"rain.\"",
-        sentence: "あめ means \"rain\" and is read ___.",
-        answer: "ame",
-        explanation: "あ (a) + め (me) = ame.",
-      },
-      {
-        type: "matching",
-        instructions: "Mixed review: match each character to its romaji.",
-        pairs: [
-          { left: "ほ", right: "ho" },
-          { left: "む", right: "mu" },
-          { left: "ひ", right: "hi" },
-          { left: "も", right: "mo" },
-        ],
-        explanation: "35 characters down, 11 to go.",
-      },
-    ],
+        "explanation": "That's 25 characters -- exactly half of hiragana."
+      }
+    ]
   },
   {
-    slug: "hiragana-y-r-w-rows",
-    level: "JA-Alphabets",
-    number: 8,
-    title: "Hiragana: Y, R, W Rows & ん",
-    summary: "や ゆ よ, ら り る れ ろ, わ を ん -- the last 11 characters complete the base 46.",
-    duration: "12 min",
-    sections: [
+    "slug": "vowels-through-n-drill-1",
+    "level": "JA-Alphabets",
+    "number": 8,
+    "title": "Vowels–N Row Speed Drill, Part 1 of 2",
+    "summary": "No new characters. Every hiragana from あ through の, drilled together -- the first 25 characters, half the syllabary.",
+    "duration": "7 min",
+    "sections": [
       {
-        heading: "Y row: や ゆ よ",
-        body: [
-          "Only three characters -- the Y row skips \"yi\" and \"ye,\" which don't exist as distinct sounds in Japanese. や=ya, ゆ=yu, よ=yo.",
+        "heading": "Vowels and K row",
+        "body": [
+          "Reviewing あ-お and か-こ."
         ],
-        examples: [
-          { es: "やま", en: "yama -- mountain" },
-          { es: "ゆき", en: "yuki -- snow" },
-        ],
-        checkpoint: [
+        "checkpoint": [
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for や.",
-            sentence: "や is read ___.",
-            answer: "ya",
-            explanation: "や = ya.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ゆ.",
-            sentence: "ゆ is read ___.",
-            answer: "yu",
-            explanation: "ゆ = yu.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for よ.",
-            sentence: "よ is read ___.",
-            answer: "yo",
-            explanation: "よ = yo.",
-          },
-          {
-            type: "matching",
-            instructions: "Match each Y-row character to its romaji.",
-            pairs: [
-              { left: "や", right: "ya" },
-              { left: "ゆ", right: "yu" },
-              { left: "よ", right: "yo" },
+            "type": "matching",
+            "instructions": "Match each character to its romaji.",
+            "pairs": [
+              {
+                "left": "あ",
+                "right": "a"
+              },
+              {
+                "left": "き",
+                "right": "ki"
+              },
+              {
+                "left": "う",
+                "right": "u"
+              },
+              {
+                "left": "こ",
+                "right": "ko"
+              },
+              {
+                "left": "え",
+                "right": "e"
+              }
             ],
-            explanation: "や ゆ よ = ya yu yo -- only three, since yi and ye aren't distinct sounds.",
+            "explanation": "Vowels plus the K row."
           },
-        ],
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for かき, a word meaning \"persimmon.\"",
+            "sentence": "かき means \"persimmon\" and is read ___.",
+            "answer": "kaki",
+            "explanation": "か (ka) + き (ki) = kaki."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for いけ, a word meaning \"pond.\"",
+            "sentence": "いけ means \"pond\" and is read ___.",
+            "answer": "ike",
+            "explanation": "い (i) + け (ke) = ike."
+          }
+        ]
       },
       {
-        heading: "R row: ら り る れ ろ",
-        body: [
-          "The Japanese R is a quick flap, between an English \"r\" and \"d.\" ら=ra, り=ri, る=ru, れ=re, ろ=ro.",
+        "heading": "S row",
+        "body": [
+          "Reviewing さ-そ, including irregular し."
         ],
-        examples: [
-          { es: "さくら", en: "sakura -- cherry blossom" },
-          { es: "とり", en: "tori -- bird" },
-        ],
-        checkpoint: [
+        "checkpoint": [
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ら.",
-            sentence: "ら is read ___.",
-            answer: "ra",
-            explanation: "ら = ra.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for り.",
-            sentence: "り is read ___.",
-            answer: "ri",
-            explanation: "り = ri.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for る.",
-            sentence: "る is read ___.",
-            answer: "ru",
-            explanation: "る = ru.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for れ.",
-            sentence: "れ is read ___.",
-            answer: "re",
-            explanation: "れ = re.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ろ.",
-            sentence: "ろ is read ___.",
-            answer: "ro",
-            explanation: "ろ = ro.",
-          },
-          {
-            type: "matching",
-            instructions: "Match each R-row character to its romaji.",
-            pairs: [
-              { left: "ら", right: "ra" },
-              { left: "り", right: "ri" },
-              { left: "る", right: "ru" },
-              { left: "れ", right: "re" },
-              { left: "ろ", right: "ro" },
+            "type": "matching",
+            "instructions": "Match each S-row character to its romaji.",
+            "pairs": [
+              {
+                "left": "さ",
+                "right": "sa"
+              },
+              {
+                "left": "し",
+                "right": "shi"
+              },
+              {
+                "left": "す",
+                "right": "su"
+              },
+              {
+                "left": "せ",
+                "right": "se"
+              },
+              {
+                "left": "そ",
+                "right": "so"
+              }
             ],
-            explanation: "ら り る れ ろ = ra ri ru re ro.",
-          },
-        ],
-      },
-      {
-        heading: "W row and ん: わ を ん",
-        body: [
-          "わ=wa is common. を is pronounced \"o\" (not \"wo\") and is used almost exclusively as the object-marking particle. ん is a standalone \"n\" -- the one hiragana that isn't consonant + vowel.",
-        ],
-        examples: [
-          { es: "にほん", en: "nihon -- Japan" },
-          { es: "せんせい", en: "sensei -- teacher" },
-        ],
-        checkpoint: [
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for わ.",
-            sentence: "わ is read ___.",
-            answer: "wa",
-            explanation: "わ = wa.",
+            "explanation": "さ し す せ そ = sa shi su se so."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ん.",
-            sentence: "ん is read ___.",
-            answer: "n",
-            explanation: "ん is a standalone \"n\" sound.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for あさ, a word meaning \"morning.\"",
+            "sentence": "あさ means \"morning\" and is read ___.",
+            "answer": "asa",
+            "explanation": "あ (a) + さ (sa) = asa."
           },
           {
-            type: "multiple-choice",
-            question: "How is を actually pronounced in modern Japanese?",
-            options: ["o, the same as お", "wo, exactly as written", "vo", "It's silent"],
-            correctIndex: 0,
-            explanation: "を is pronounced \"o,\" identical to お -- it survives almost only as the object particle.",
-          },
-          {
-            type: "word-order",
-            prompt: "Arrange these tiles to spell にほん (nihon, \"Japan\").",
-            words: ["に", "ほ", "ん"],
-            translation: "Japan",
-            explanation: "に (ni) + ほ (ho) + ん (n) = にほん.",
-          },
-        ],
-      },
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for すし.",
+            "sentence": "すし is read ___.",
+            "answer": "sushi",
+            "explanation": "す (su) + し (shi) = sushi."
+          }
+        ]
+      }
     ],
-    exercises: [
+    "exercises": [
       {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for やま, a word meaning \"mountain.\"",
-        sentence: "やま means \"mountain\" and is read ___.",
-        answer: "yama",
-        explanation: "や (ya) + ま (ma) = yama.",
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for たこ, a word meaning \"octopus.\"",
+        "sentence": "たこ means \"octopus\" and is read ___.",
+        "answer": "tako",
+        "explanation": "た (ta) + こ (ko) = tako."
       },
       {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for とり, a word meaning \"bird.\"",
-        sentence: "とり means \"bird\" and is read ___.",
-        answer: "tori",
-        explanation: "と (to) + り (ri) = tori.",
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for にく, a word meaning \"meat.\"",
+        "sentence": "にく means \"meat\" and is read ___.",
+        "answer": "niku",
+        "explanation": "に (ni) + く (ku) = niku."
+      }
+    ],
+    "optional": true
+  },
+  {
+    "slug": "vowels-through-n-drill-2",
+    "level": "JA-Alphabets",
+    "number": 9,
+    "title": "Vowels–N Row Speed Drill, Part 2 of 2",
+    "summary": "No new characters. Every hiragana from あ through の, drilled together -- the first 25 characters, half the syllabary.",
+    "duration": "5 min",
+    "sections": [
+      {
+        "heading": "T row and N row",
+        "body": [
+          "Reviewing た-と, including irregular ち and つ, and な-の."
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Match each T/N-row character to its romaji.",
+            "pairs": [
+              {
+                "left": "た",
+                "right": "ta"
+              },
+              {
+                "left": "ち",
+                "right": "chi"
+              },
+              {
+                "left": "つ",
+                "right": "tsu"
+              },
+              {
+                "left": "な",
+                "right": "na"
+              },
+              {
+                "left": "の",
+                "right": "no"
+              }
+            ],
+            "explanation": "た ち つ て と / な に ぬ ね の."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for いぬ, a word meaning \"dog.\"",
+            "sentence": "いぬ means \"dog\" and is read ___.",
+            "answer": "inu",
+            "explanation": "い (i) + ぬ (nu) = inu."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ねこ, a word meaning \"cat.\"",
+            "sentence": "ねこ means \"cat\" and is read ___.",
+            "answer": "neko",
+            "explanation": "ね (ne) + こ (ko) = neko."
+          },
+          {
+            "type": "word-order",
+            "prompt": "Arrange these tiles to spell さかな (sakana, \"fish\").",
+            "words": [
+              "さ",
+              "か",
+              "な"
+            ],
+            "translation": "fish",
+            "explanation": "さ (sa) + か (ka) + な (na) = さかな."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Full mixed review: all 25 characters so far, sampled.",
+        "pairs": [
+          {
+            "left": "す",
+            "right": "su"
+          },
+          {
+            "left": "ち",
+            "right": "chi"
+          },
+          {
+            "left": "お",
+            "right": "o"
+          },
+          {
+            "left": "ぬ",
+            "right": "nu"
+          },
+          {
+            "left": "そ",
+            "right": "so"
+          }
+        ],
+        "explanation": "If this felt easy, the next lessons will go quickly."
       },
       {
-        type: "multiple-choice",
-        question: "What's unusual about ん compared to every other hiragana you've learned?",
-        options: [
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for せかい, a word meaning \"world.\"",
+        "sentence": "せかい means \"world\" and is read ___.",
+        "answer": "sekai",
+        "explanation": "せ (se) + か (ka) + い (i) = sekai."
+      }
+    ],
+    "optional": true
+  },
+  {
+    "slug": "hiragana-h-m-rows-1",
+    "level": "JA-Alphabets",
+    "number": 10,
+    "title": "Hiragana: H & M Rows, Part 1 of 2",
+    "summary": "は ひ ふ へ ほ and ま み む め も -- one more irregular reading, then a fully regular row.",
+    "duration": "6 min",
+    "sections": [
+      {
+        "heading": "H row: は ひ ふ へ ほ",
+        "body": [
+          "は=ha, ひ=hi, へ=he, ほ=ho are regular. ふ is \"fu,\" a softer sound than English \"hu\" or \"foo.\""
+        ],
+        "examples": [
+          {
+            "es": "はな",
+            "en": "hana -- flower"
+          },
+          {
+            "es": "ほし",
+            "en": "hoshi -- star"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for は.",
+            "sentence": "は is read ___.",
+            "answer": "ha",
+            "explanation": "は = ha."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ひ.",
+            "sentence": "ひ is read ___.",
+            "answer": "hi",
+            "explanation": "ひ = hi."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ふ.",
+            "sentence": "ふ is read ___.",
+            "answer": "fu",
+            "explanation": "ふ = fu, softer than English \"foo.\""
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for へ.",
+            "sentence": "へ is read ___.",
+            "answer": "he",
+            "explanation": "へ = he."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ほ.",
+            "sentence": "ほ is read ___.",
+            "answer": "ho",
+            "explanation": "ほ = ho."
+          },
+          {
+            "type": "matching",
+            "instructions": "Match each H-row character to its romaji.",
+            "pairs": [
+              {
+                "left": "は",
+                "right": "ha"
+              },
+              {
+                "left": "ひ",
+                "right": "hi"
+              },
+              {
+                "left": "ふ",
+                "right": "fu"
+              },
+              {
+                "left": "へ",
+                "right": "he"
+              },
+              {
+                "left": "ほ",
+                "right": "ho"
+              }
+            ],
+            "explanation": "は ひ ふ へ ほ = ha hi fu he ho."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for はな, a word meaning \"flower.\"",
+        "sentence": "はな means \"flower\" and is read ___.",
+        "answer": "hana",
+        "explanation": "は (ha) + な (na) = hana."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "How is ふ pronounced?",
+        "options": [
+          "fu -- softer than English \"foo\"",
+          "hu, exactly like English",
+          "fo",
+          "bu"
+        ],
+        "correctIndex": 0,
+        "explanation": "ふ is a soft \"fu,\" distinct from both English \"hu\" and \"foo.\""
+      }
+    ]
+  },
+  {
+    "slug": "hiragana-h-m-rows-2",
+    "level": "JA-Alphabets",
+    "number": 11,
+    "title": "Hiragana: H & M Rows, Part 2 of 2",
+    "summary": "は ひ ふ へ ほ and ま み む め も -- one more irregular reading, then a fully regular row.",
+    "duration": "6 min",
+    "sections": [
+      {
+        "heading": "M row: ま み む め も",
+        "body": [
+          "ま=ma, み=mi, む=mu, め=me, も=mo -- fully regular, no exceptions."
+        ],
+        "examples": [
+          {
+            "es": "あめ",
+            "en": "ame -- rain"
+          },
+          {
+            "es": "みみ",
+            "en": "mimi -- ear"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ま.",
+            "sentence": "ま is read ___.",
+            "answer": "ma",
+            "explanation": "ま = ma."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for み.",
+            "sentence": "み is read ___.",
+            "answer": "mi",
+            "explanation": "み = mi."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for む.",
+            "sentence": "む is read ___.",
+            "answer": "mu",
+            "explanation": "む = mu."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for め.",
+            "sentence": "め is read ___.",
+            "answer": "me",
+            "explanation": "め = me."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for も.",
+            "sentence": "も is read ___.",
+            "answer": "mo",
+            "explanation": "も = mo."
+          },
+          {
+            "type": "matching",
+            "instructions": "Match each M-row character to its romaji.",
+            "pairs": [
+              {
+                "left": "ま",
+                "right": "ma"
+              },
+              {
+                "left": "み",
+                "right": "mi"
+              },
+              {
+                "left": "む",
+                "right": "mu"
+              },
+              {
+                "left": "め",
+                "right": "me"
+              },
+              {
+                "left": "も",
+                "right": "mo"
+              }
+            ],
+            "explanation": "ま み む め も = ma mi mu me mo."
+          },
+          {
+            "type": "word-order",
+            "prompt": "Arrange these tiles to spell みみ (mimi, \"ear\").",
+            "words": [
+              "み",
+              "み"
+            ],
+            "translation": "ear",
+            "explanation": "み (mi) + み (mi) = みみ."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for あめ, a word meaning \"rain.\"",
+        "sentence": "あめ means \"rain\" and is read ___.",
+        "answer": "ame",
+        "explanation": "あ (a) + め (me) = ame."
+      },
+      {
+        "type": "matching",
+        "instructions": "Mixed review: match each character to its romaji.",
+        "pairs": [
+          {
+            "left": "ほ",
+            "right": "ho"
+          },
+          {
+            "left": "む",
+            "right": "mu"
+          },
+          {
+            "left": "ひ",
+            "right": "hi"
+          },
+          {
+            "left": "も",
+            "right": "mo"
+          }
+        ],
+        "explanation": "35 characters down, 11 to go."
+      }
+    ]
+  },
+  {
+    "slug": "hiragana-y-r-w-rows-1",
+    "level": "JA-Alphabets",
+    "number": 12,
+    "title": "Hiragana: Y, R, W Rows & ん, Part 1 of 2",
+    "summary": "や ゆ よ, ら り る れ ろ, わ を ん -- the last 11 characters complete the base 46.",
+    "duration": "7 min",
+    "sections": [
+      {
+        "heading": "Y row: や ゆ よ",
+        "body": [
+          "Only three characters -- the Y row skips \"yi\" and \"ye,\" which don't exist as distinct sounds in Japanese. や=ya, ゆ=yu, よ=yo."
+        ],
+        "examples": [
+          {
+            "es": "やま",
+            "en": "yama -- mountain"
+          },
+          {
+            "es": "ゆき",
+            "en": "yuki -- snow"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for や.",
+            "sentence": "や is read ___.",
+            "answer": "ya",
+            "explanation": "や = ya."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ゆ.",
+            "sentence": "ゆ is read ___.",
+            "answer": "yu",
+            "explanation": "ゆ = yu."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for よ.",
+            "sentence": "よ is read ___.",
+            "answer": "yo",
+            "explanation": "よ = yo."
+          },
+          {
+            "type": "matching",
+            "instructions": "Match each Y-row character to its romaji.",
+            "pairs": [
+              {
+                "left": "や",
+                "right": "ya"
+              },
+              {
+                "left": "ゆ",
+                "right": "yu"
+              },
+              {
+                "left": "よ",
+                "right": "yo"
+              }
+            ],
+            "explanation": "や ゆ よ = ya yu yo -- only three, since yi and ye aren't distinct sounds."
+          }
+        ]
+      },
+      {
+        "heading": "R row: ら り る れ ろ",
+        "body": [
+          "The Japanese R is a quick flap, between an English \"r\" and \"d.\" ら=ra, り=ri, る=ru, れ=re, ろ=ro."
+        ],
+        "examples": [
+          {
+            "es": "さくら",
+            "en": "sakura -- cherry blossom"
+          },
+          {
+            "es": "とり",
+            "en": "tori -- bird"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ら.",
+            "sentence": "ら is read ___.",
+            "answer": "ra",
+            "explanation": "ら = ra."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for り.",
+            "sentence": "り is read ___.",
+            "answer": "ri",
+            "explanation": "り = ri."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for る.",
+            "sentence": "る is read ___.",
+            "answer": "ru",
+            "explanation": "る = ru."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for れ.",
+            "sentence": "れ is read ___.",
+            "answer": "re",
+            "explanation": "れ = re."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ろ.",
+            "sentence": "ろ is read ___.",
+            "answer": "ro",
+            "explanation": "ろ = ro."
+          },
+          {
+            "type": "matching",
+            "instructions": "Match each R-row character to its romaji.",
+            "pairs": [
+              {
+                "left": "ら",
+                "right": "ra"
+              },
+              {
+                "left": "り",
+                "right": "ri"
+              },
+              {
+                "left": "る",
+                "right": "ru"
+              },
+              {
+                "left": "れ",
+                "right": "re"
+              },
+              {
+                "left": "ろ",
+                "right": "ro"
+              }
+            ],
+            "explanation": "ら り る れ ろ = ra ri ru re ro."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for やま, a word meaning \"mountain.\"",
+        "sentence": "やま means \"mountain\" and is read ___.",
+        "answer": "yama",
+        "explanation": "や (ya) + ま (ma) = yama."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for とり, a word meaning \"bird.\"",
+        "sentence": "とり means \"bird\" and is read ___.",
+        "answer": "tori",
+        "explanation": "と (to) + り (ri) = tori."
+      }
+    ]
+  },
+  {
+    "slug": "hiragana-y-r-w-rows-2",
+    "level": "JA-Alphabets",
+    "number": 13,
+    "title": "Hiragana: Y, R, W Rows & ん, Part 2 of 2",
+    "summary": "や ゆ よ, ら り る れ ろ, わ を ん -- the last 11 characters complete the base 46.",
+    "duration": "5 min",
+    "sections": [
+      {
+        "heading": "W row and ん: わ を ん",
+        "body": [
+          "わ=wa is common. を is pronounced \"o\" (not \"wo\") and is used almost exclusively as the object-marking particle. ん is a standalone \"n\" -- the one hiragana that isn't consonant + vowel."
+        ],
+        "examples": [
+          {
+            "es": "にほん",
+            "en": "nihon -- Japan"
+          },
+          {
+            "es": "せんせい",
+            "en": "sensei -- teacher"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for わ.",
+            "sentence": "わ is read ___.",
+            "answer": "wa",
+            "explanation": "わ = wa."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ん.",
+            "sentence": "ん is read ___.",
+            "answer": "n",
+            "explanation": "ん is a standalone \"n\" sound."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "How is を actually pronounced in modern Japanese?",
+            "options": [
+              "o, the same as お",
+              "wo, exactly as written",
+              "vo",
+              "It's silent"
+            ],
+            "correctIndex": 0,
+            "explanation": "を is pronounced \"o,\" identical to お -- it survives almost only as the object particle."
+          },
+          {
+            "type": "word-order",
+            "prompt": "Arrange these tiles to spell にほん (nihon, \"Japan\").",
+            "words": [
+              "に",
+              "ほ",
+              "ん"
+            ],
+            "translation": "Japan",
+            "explanation": "に (ni) + ほ (ho) + ん (n) = にほん."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "What's unusual about ん compared to every other hiragana you've learned?",
+        "options": [
           "It's the only one that isn't a consonant fused with a vowel",
           "It's the only vowel-only character",
           "It's only used in katakana",
-          "It has two different pronunciations",
+          "It has two different pronunciations"
         ],
-        correctIndex: 0,
-        explanation: "Every other hiragana is consonant + vowel (or a bare vowel). ん stands alone.",
+        "correctIndex": 0,
+        "explanation": "Every other hiragana is consonant + vowel (or a bare vowel). ん stands alone."
       },
       {
-        type: "matching",
-        instructions: "Full syllabary check: match each character to its romaji.",
-        pairs: [
-          { left: "せ", right: "se" },
-          { left: "り", right: "ri" },
-          { left: "ゆ", right: "yu" },
-          { left: "ん", right: "n" },
-          { left: "を", right: "o" },
+        "type": "matching",
+        "instructions": "Full syllabary check: match each character to its romaji.",
+        "pairs": [
+          {
+            "left": "せ",
+            "right": "se"
+          },
+          {
+            "left": "り",
+            "right": "ri"
+          },
+          {
+            "left": "ゆ",
+            "right": "yu"
+          },
+          {
+            "left": "ん",
+            "right": "n"
+          },
+          {
+            "left": "を",
+            "right": "o"
+          }
         ],
-        explanation: "That's all 46 base hiragana characters.",
-      },
-    ],
+        "explanation": "That's all 46 base hiragana characters."
+      }
+    ]
   },
   {
-    slug: "hiragana-base-drill",
-    level: "JA-Alphabets",
-    number: 9,
-    title: "Full Hiragana Base Speed Drill",
-    optional: true,
-    summary: "No new characters. All 46 base hiragana, mixed together -- the real test of whether they're automatic yet.",
-    duration: "15 min",
-    sections: [
+    "slug": "hiragana-base-drill-1",
+    "level": "JA-Alphabets",
+    "number": 14,
+    "title": "Full Hiragana Base Speed Drill, Part 1 of 2",
+    "summary": "No new characters. All 46 base hiragana, mixed together -- the real test of whether they're automatic yet.",
+    "duration": "6 min",
+    "sections": [
       {
-        heading: "H, M, Y, R, W rows and ん",
-        body: ["Reviewing the second half of the syllabary."],
-        checkpoint: [
-          {
-            type: "matching",
-            instructions: "Match each character to its romaji.",
-            pairs: [
-              { left: "は", right: "ha" },
-              { left: "み", right: "mi" },
-              { left: "や", right: "ya" },
-              { left: "る", right: "ru" },
-              { left: "わ", right: "wa" },
-            ],
-            explanation: "H, M, Y, R, W rows.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for はな, a word meaning \"flower.\"",
-            sentence: "はな means \"flower\" and is read ___.",
-            answer: "hana",
-            explanation: "は (ha) + な (na) = hana.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for さくら, a word meaning \"cherry blossom.\"",
-            sentence: "さくら means \"cherry blossom\" and is read ___.",
-            answer: "sakura",
-            explanation: "さ (sa) + く (ku) + ら (ra) = sakura.",
-          },
+        "heading": "H, M, Y, R, W rows and ん",
+        "body": [
+          "Reviewing the second half of the syllabary."
         ],
-      },
-      {
-        heading: "Whole syllabary, mixed",
-        body: ["Every row, sampled together at random -- this is the real drill."],
-        checkpoint: [
+        "checkpoint": [
           {
-            type: "matching",
-            instructions: "Match each character to its romaji.",
-            pairs: [
-              { left: "つ", right: "tsu" },
-              { left: "め", right: "me" },
-              { left: "そ", right: "so" },
-              { left: "ろ", right: "ro" },
-              { left: "ぬ", right: "nu" },
+            "type": "matching",
+            "instructions": "Match each character to its romaji.",
+            "pairs": [
+              {
+                "left": "は",
+                "right": "ha"
+              },
+              {
+                "left": "み",
+                "right": "mi"
+              },
+              {
+                "left": "や",
+                "right": "ya"
+              },
+              {
+                "left": "る",
+                "right": "ru"
+              },
+              {
+                "left": "わ",
+                "right": "wa"
+              }
             ],
-            explanation: "Mixed rows: T, M, S, R, N.",
+            "explanation": "H, M, Y, R, W rows."
           },
           {
-            type: "matching",
-            instructions: "Match each character to its romaji.",
-            pairs: [
-              { left: "き", right: "ki" },
-              { left: "ほ", right: "ho" },
-              { left: "ゆ", right: "yu" },
-              { left: "え", right: "e" },
-              { left: "し", right: "shi" },
-            ],
-            explanation: "Mixed rows: K, H, Y, vowel, S.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for はな, a word meaning \"flower.\"",
+            "sentence": "はな means \"flower\" and is read ___.",
+            "answer": "hana",
+            "explanation": "は (ha) + な (na) = hana."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for せんせい, a word meaning \"teacher.\"",
-            sentence: "せんせい means \"teacher\" and is read ___.",
-            answer: "sensei",
-            explanation: "せ (se) + ん (n) + せ (se) + い (i) = sensei.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for にほん, a word meaning \"Japan.\"",
-            sentence: "にほん means \"Japan\" and is read ___.",
-            answer: "nihon",
-            explanation: "に (ni) + ほ (ho) + ん (n) = nihon.",
-          },
-          {
-            type: "word-order",
-            prompt: "Arrange these tiles to spell とけい (tokei, \"clock\").",
-            words: ["と", "け", "い"],
-            translation: "clock",
-            explanation: "と (to) + け (ke) + い (i) = とけい.",
-          },
-        ],
-      },
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for さくら, a word meaning \"cherry blossom.\"",
+            "sentence": "さくら means \"cherry blossom\" and is read ___.",
+            "answer": "sakura",
+            "explanation": "さ (sa) + く (ku) + ら (ra) = sakura."
+          }
+        ]
+      }
     ],
-    exercises: [
+    "exercises": [
       {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for ゆき, a word meaning \"snow.\"",
-        sentence: "ゆき means \"snow\" and is read ___.",
-        answer: "yuki",
-        explanation: "ゆ (yu) + き (ki) = yuki.",
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for ゆき, a word meaning \"snow.\"",
+        "sentence": "ゆき means \"snow\" and is read ___.",
+        "answer": "yuki",
+        "explanation": "ゆ (yu) + き (ki) = yuki."
       },
       {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for やま, a word meaning \"mountain.\"",
-        sentence: "やま means \"mountain\" and is read ___.",
-        answer: "yama",
-        explanation: "や (ya) + ま (ma) = yama.",
-      },
-      {
-        type: "matching",
-        instructions: "Final full-syllabary check.",
-        pairs: [
-          { left: "な", right: "na" },
-          { left: "ふ", right: "fu" },
-          { left: "れ", right: "re" },
-          { left: "ち", right: "chi" },
-          { left: "も", right: "mo" },
-        ],
-        explanation: "If this all felt automatic, you've mastered the base 46.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for みみ, a word meaning \"ear.\"",
-        sentence: "みみ means \"ear\" and is read ___.",
-        answer: "mimi",
-        explanation: "み (mi) + み (mi) = mimi.",
-      },
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for やま, a word meaning \"mountain.\"",
+        "sentence": "やま means \"mountain\" and is read ___.",
+        "answer": "yama",
+        "explanation": "や (ya) + ま (ma) = yama."
+      }
     ],
+    "optional": true
   },
   {
-    slug: "hiragana-voiced-and-combination-sounds",
-    level: "JA-Alphabets",
-    number: 10,
-    title: "Hiragana: Voiced Sounds & Combinations",
-    summary: "Four small marks and tricks that extend the base 46 into every remaining hiragana sound: dakuten, handakuten, combination sounds, long vowels, and the small っ.",
-    duration: "16 min",
-    sections: [
+    "slug": "hiragana-base-drill-2",
+    "level": "JA-Alphabets",
+    "number": 15,
+    "title": "Full Hiragana Base Speed Drill, Part 2 of 2",
+    "summary": "No new characters. All 46 base hiragana, mixed together -- the real test of whether they're automatic yet.",
+    "duration": "9 min",
+    "sections": [
       {
-        heading: "Dakuten (゛): voiced consonants",
-        body: [
-          "Two small marks in the upper-right corner turn k/s/t/h into their voiced equivalents: か→が (ka→ga), さ→ざ (sa→za), た→だ (ta→da), は→ば (ha→ba). Same shapes you already know, plus dakuten.",
+        "heading": "Whole syllabary, mixed",
+        "body": [
+          "Every row, sampled together at random -- this is the real drill."
         ],
-        examples: [
-          { es: "かばん", en: "kaban -- bag" },
-          { es: "でんわ", en: "denwa -- phone" },
-        ],
-        checkpoint: [
+        "checkpoint": [
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for が.",
-            sentence: "が is read ___.",
-            answer: "ga",
-            explanation: "が = か + dakuten = ga.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ざ.",
-            sentence: "ざ is read ___.",
-            answer: "za",
-            explanation: "ざ = さ + dakuten = za.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for だ.",
-            sentence: "だ is read ___.",
-            answer: "da",
-            explanation: "だ = た + dakuten = da.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ば.",
-            sentence: "ば is read ___.",
-            answer: "ba",
-            explanation: "ば = は + dakuten = ba.",
-          },
-          {
-            type: "matching",
-            instructions: "Match each voiced character to its romaji.",
-            pairs: [
-              { left: "が", right: "ga" },
-              { left: "ざ", right: "za" },
-              { left: "だ", right: "da" },
-              { left: "ば", right: "ba" },
+            "type": "matching",
+            "instructions": "Match each character to its romaji.",
+            "pairs": [
+              {
+                "left": "つ",
+                "right": "tsu"
+              },
+              {
+                "left": "め",
+                "right": "me"
+              },
+              {
+                "left": "そ",
+                "right": "so"
+              },
+              {
+                "left": "ろ",
+                "right": "ro"
+              },
+              {
+                "left": "ぬ",
+                "right": "nu"
+              }
             ],
-            explanation: "Dakuten voices か/さ/た/は into が/ざ/だ/ば.",
+            "explanation": "Mixed rows: T, M, S, R, N."
           },
+          {
+            "type": "matching",
+            "instructions": "Match each character to its romaji.",
+            "pairs": [
+              {
+                "left": "き",
+                "right": "ki"
+              },
+              {
+                "left": "ほ",
+                "right": "ho"
+              },
+              {
+                "left": "ゆ",
+                "right": "yu"
+              },
+              {
+                "left": "え",
+                "right": "e"
+              },
+              {
+                "left": "し",
+                "right": "shi"
+              }
+            ],
+            "explanation": "Mixed rows: K, H, Y, vowel, S."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for せんせい, a word meaning \"teacher.\"",
+            "sentence": "せんせい means \"teacher\" and is read ___.",
+            "answer": "sensei",
+            "explanation": "せ (se) + ん (n) + せ (se) + い (i) = sensei."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for にほん, a word meaning \"Japan.\"",
+            "sentence": "にほん means \"Japan\" and is read ___.",
+            "answer": "nihon",
+            "explanation": "に (ni) + ほ (ho) + ん (n) = nihon."
+          },
+          {
+            "type": "word-order",
+            "prompt": "Arrange these tiles to spell とけい (tokei, \"clock\").",
+            "words": [
+              "と",
+              "け",
+              "い"
+            ],
+            "translation": "clock",
+            "explanation": "と (to) + け (ke) + い (i) = とけい."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Final full-syllabary check.",
+        "pairs": [
+          {
+            "left": "な",
+            "right": "na"
+          },
+          {
+            "left": "ふ",
+            "right": "fu"
+          },
+          {
+            "left": "れ",
+            "right": "re"
+          },
+          {
+            "left": "ち",
+            "right": "chi"
+          },
+          {
+            "left": "も",
+            "right": "mo"
+          }
         ],
+        "explanation": "If this all felt automatic, you've mastered the base 46."
       },
       {
-        heading: "Handakuten (゜): the P sounds",
-        body: [
-          "A small circle instead of two strokes turns は into ぱ -- the only row this happens to: は→ぱ (ha→pa).",
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for みみ, a word meaning \"ear.\"",
+        "sentence": "みみ means \"ear\" and is read ___.",
+        "answer": "mimi",
+        "explanation": "み (mi) + み (mi) = mimi."
+      }
+    ],
+    "optional": true
+  },
+  {
+    "slug": "hiragana-voiced-and-combination-sounds-1",
+    "level": "JA-Alphabets",
+    "number": 16,
+    "title": "Hiragana: Voiced Sounds & Combinations, Part 1 of 2",
+    "summary": "Four small marks and tricks that extend the base 46 into every remaining hiragana sound: dakuten, handakuten, combination sounds, long vowels, and the small っ.",
+    "duration": "7 min",
+    "sections": [
+      {
+        "heading": "Dakuten (゛): voiced consonants",
+        "body": [
+          "Two small marks in the upper-right corner turn k/s/t/h into their voiced equivalents: か→が (ka→ga), さ→ざ (sa→za), た→だ (ta→da), は→ば (ha→ba). Same shapes you already know, plus dakuten."
         ],
-        examples: [
-          { es: "えんぴつ", en: "enpitsu -- pencil" },
-        ],
-        checkpoint: [
+        "examples": [
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ぱ.",
-            sentence: "ぱ is read ___.",
-            answer: "pa",
-            explanation: "ぱ = は + handakuten (a small circle) = pa.",
+            "es": "かばん",
+            "en": "kaban -- bag"
           },
           {
-            type: "multiple-choice",
-            question: "Which mark turns は into ぱ?",
-            options: ["Handakuten -- a small circle", "Dakuten -- two small strokes", "A long-vowel bar", "It can't be marked; ぱ is unrelated to は"],
-            correctIndex: 0,
-            explanation: "Handakuten (a small circle, ゜) is unique to the H row and produces the P sounds.",
-          },
+            "es": "でんわ",
+            "en": "denwa -- phone"
+          }
         ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for が.",
+            "sentence": "が is read ___.",
+            "answer": "ga",
+            "explanation": "が = か + dakuten = ga."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ざ.",
+            "sentence": "ざ is read ___.",
+            "answer": "za",
+            "explanation": "ざ = さ + dakuten = za."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for だ.",
+            "sentence": "だ is read ___.",
+            "answer": "da",
+            "explanation": "だ = た + dakuten = da."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ば.",
+            "sentence": "ば is read ___.",
+            "answer": "ba",
+            "explanation": "ば = は + dakuten = ba."
+          },
+          {
+            "type": "matching",
+            "instructions": "Match each voiced character to its romaji.",
+            "pairs": [
+              {
+                "left": "が",
+                "right": "ga"
+              },
+              {
+                "left": "ざ",
+                "right": "za"
+              },
+              {
+                "left": "だ",
+                "right": "da"
+              },
+              {
+                "left": "ば",
+                "right": "ba"
+              }
+            ],
+            "explanation": "Dakuten voices か/さ/た/は into が/ざ/だ/ば."
+          }
+        ]
       },
       {
-        heading: "Combination sounds: きゃ しゃ etc.",
-        body: [
-          "A full-size character plus a small や/ゆ/よ fuses into one syllable: き + small ゃ = きゃ (kya), not \"kiya.\" This pattern applies across most consonant rows.",
+        "heading": "Handakuten (゜): the P sounds",
+        "body": [
+          "A small circle instead of two strokes turns は into ぱ -- the only row this happens to: は→ぱ (ha→pa)."
         ],
-        examples: [
-          { es: "きょう", en: "kyou -- today" },
-          { es: "しゃしん", en: "shashin -- photo" },
+        "examples": [
+          {
+            "es": "えんぴつ",
+            "en": "enpitsu -- pencil"
+          }
         ],
-        checkpoint: [
+        "checkpoint": [
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for きゃ.",
-            sentence: "きゃ is read ___.",
-            answer: "kya",
-            explanation: "き + small ゃ = kya, one syllable.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ぱ.",
+            "sentence": "ぱ is read ___.",
+            "answer": "pa",
+            "explanation": "ぱ = は + handakuten (a small circle) = pa."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for しゃ.",
-            sentence: "しゃ is read ___.",
-            answer: "sha",
-            explanation: "し + small ゃ = sha.",
+            "type": "multiple-choice",
+            "question": "Which mark turns は into ぱ?",
+            "options": [
+              "Handakuten -- a small circle",
+              "Dakuten -- two small strokes",
+              "A long-vowel bar",
+              "It can't be marked; ぱ is unrelated to は"
+            ],
+            "correctIndex": 0,
+            "explanation": "Handakuten (a small circle, ゜) is unique to the H row and produces the P sounds."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for でんわ, a word meaning \"phone.\"",
+        "sentence": "でんわ means \"phone\" and is read ___.",
+        "answer": "denwa",
+        "explanation": "で (de) + ん (n) + わ (wa) = denwa."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for しゃしん, a word meaning \"photo.\"",
+        "sentence": "しゃしん means \"photo\" and is read ___.",
+        "answer": "shashin",
+        "explanation": "しゃ (sha) + し (shi) + ん (n) = shashin."
+      }
+    ]
+  },
+  {
+    "slug": "hiragana-voiced-and-combination-sounds-2",
+    "level": "JA-Alphabets",
+    "number": 17,
+    "title": "Hiragana: Voiced Sounds & Combinations, Part 2 of 2",
+    "summary": "Four small marks and tricks that extend the base 46 into every remaining hiragana sound: dakuten, handakuten, combination sounds, long vowels, and the small っ.",
+    "duration": "9 min",
+    "sections": [
+      {
+        "heading": "Combination sounds: きゃ しゃ etc.",
+        "body": [
+          "A full-size character plus a small や/ゆ/よ fuses into one syllable: き + small ゃ = きゃ (kya), not \"kiya.\" This pattern applies across most consonant rows."
+        ],
+        "examples": [
+          {
+            "es": "きょう",
+            "en": "kyou -- today"
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for きょう, a word meaning \"today.\"",
-            sentence: "きょう means \"today\" and is read ___.",
-            answer: "kyou",
-            explanation: "き + small ょ = kyo, plus う to lengthen it: kyou.",
+            "es": "しゃしん",
+            "en": "shashin -- photo"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for きゃ.",
+            "sentence": "きゃ is read ___.",
+            "answer": "kya",
+            "explanation": "き + small ゃ = kya, one syllable."
           },
           {
-            type: "multiple-choice",
-            question: "What's the difference between きゃ (small ゃ) and きや (full-size や)?",
-            options: [
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for しゃ.",
+            "sentence": "しゃ is read ___.",
+            "answer": "sha",
+            "explanation": "し + small ゃ = sha."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for きょう, a word meaning \"today.\"",
+            "sentence": "きょう means \"today\" and is read ___.",
+            "answer": "kyou",
+            "explanation": "き + small ょ = kyo, plus う to lengthen it: kyou."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "What's the difference between きゃ (small ゃ) and きや (full-size や)?",
+            "options": [
               "きゃ is one syllable (kya); きや is two (ki-ya)",
               "There's no difference -- they're pronounced identically",
               "きゃ is only used in katakana",
-              "きや is the formal version of きゃ",
+              "きや is the formal version of きゃ"
             ],
-            correctIndex: 0,
-            explanation: "Size matters: the small ゃ/ゅ/ょ fuses with the previous consonant into one syllable.",
-          },
-        ],
+            "correctIndex": 0,
+            "explanation": "Size matters: the small ゃ/ゅ/ょ fuses with the previous consonant into one syllable."
+          }
+        ]
       },
       {
-        heading: "Long vowels and the small っ",
-        body: [
-          "A long vowel is usually written by adding another vowel character (せんせい, sensei) rather than doubling by hand -- doubling the vowel through い is common after e-sounds specifically. A small っ before a consonant means: hold that consonant briefly before releasing it -- がっこう (gakkou, school) vs がこう (a different word).",
+        "heading": "Long vowels and the small っ",
+        "body": [
+          "A long vowel is usually written by adding another vowel character (せんせい, sensei) rather than doubling by hand -- doubling the vowel through い is common after e-sounds specifically. A small っ before a consonant means: hold that consonant briefly before releasing it -- がっこう (gakkou, school) vs がこう (a different word)."
         ],
-        examples: [
-          { es: "がっこう", en: "gakkou -- school" },
-          { es: "きって", en: "kitte -- postage stamp" },
-        ],
-        checkpoint: [
+        "examples": [
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for きって, a word meaning \"postage stamp.\"",
-            sentence: "きって means \"postage stamp\" and is read ___.",
-            answer: "kitte",
-            explanation: "The small っ signals a brief held pause before the following consonant: ki-(pause)-te = kitte.",
+            "es": "がっこう",
+            "en": "gakkou -- school"
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for がっこう, a word meaning \"school.\"",
-            sentence: "がっこう means \"school\" and is read ___.",
-            answer: "gakkou",
-            explanation: "が (ga) + small っ (held pause) + こ (ko) + う (lengthens it) = gakkou.",
+            "es": "きって",
+            "en": "kitte -- postage stamp"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for きって, a word meaning \"postage stamp.\"",
+            "sentence": "きって means \"postage stamp\" and is read ___.",
+            "answer": "kitte",
+            "explanation": "The small っ signals a brief held pause before the following consonant: ki-(pause)-te = kitte."
           },
           {
-            type: "multiple-choice",
-            question: "What does a small っ signal before a consonant?",
-            options: [
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for がっこう, a word meaning \"school.\"",
+            "sentence": "がっこう means \"school\" and is read ___.",
+            "answer": "gakkou",
+            "explanation": "が (ga) + small っ (held pause) + こ (ko) + う (lengthens it) = gakkou."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "What does a small っ signal before a consonant?",
+            "options": [
               "A brief held pause before releasing that consonant",
               "That the previous vowel is silent",
               "That the word is a loanword",
-              "Nothing -- it's purely decorative",
+              "Nothing -- it's purely decorative"
             ],
-            correctIndex: 0,
-            explanation: "Sokuon (small っ) doubles the following consonant's duration -- a real, meaningful pause.",
+            "correctIndex": 0,
+            "explanation": "Sokuon (small っ) doubles the following consonant's duration -- a real, meaningful pause."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Match each character to its romaji.",
+        "pairs": [
+          {
+            "left": "ぎ",
+            "right": "gi"
           },
+          {
+            "left": "じ",
+            "right": "ji"
+          },
+          {
+            "left": "ぷ",
+            "right": "pu"
+          },
+          {
+            "left": "りゃ",
+            "right": "rya"
+          }
         ],
-      },
-    ],
-    exercises: [
-      {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for でんわ, a word meaning \"phone.\"",
-        sentence: "でんわ means \"phone\" and is read ___.",
-        answer: "denwa",
-        explanation: "で (de) + ん (n) + わ (wa) = denwa.",
+        "explanation": "The same dakuten/handakuten/combination rules apply across every row."
       },
       {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for しゃしん, a word meaning \"photo.\"",
-        sentence: "しゃしん means \"photo\" and is read ___.",
-        answer: "shashin",
-        explanation: "しゃ (sha) + し (shi) + ん (n) = shashin.",
-      },
-      {
-        type: "matching",
-        instructions: "Match each character to its romaji.",
-        pairs: [
-          { left: "ぎ", right: "gi" },
-          { left: "じ", right: "ji" },
-          { left: "ぷ", right: "pu" },
-          { left: "りゃ", right: "rya" },
-        ],
-        explanation: "The same dakuten/handakuten/combination rules apply across every row.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for かばん, a word meaning \"bag.\"",
-        sentence: "かばん means \"bag\" and is read ___.",
-        answer: "kaban",
-        explanation: "か (ka) + ば (ba) + ん (n) = kaban.",
-      },
-    ],
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for かばん, a word meaning \"bag.\"",
+        "sentence": "かばん means \"bag\" and is read ___.",
+        "answer": "kaban",
+        "explanation": "か (ka) + ば (ba) + ん (n) = kaban."
+      }
+    ]
   },
   {
-    slug: "hiragana-mastery-drill",
-    level: "JA-Alphabets",
-    number: 11,
-    title: "Hiragana Mastery Drill",
-    optional: true,
-    summary: "No new characters. Base rows, voiced sounds, combinations, long vowels, and the small っ -- all mixed together, the last hiragana checkpoint before katakana.",
-    duration: "15 min",
-    sections: [
+    "slug": "hiragana-mastery-drill-1",
+    "level": "JA-Alphabets",
+    "number": 18,
+    "title": "Hiragana Mastery Drill, Part 1 of 2",
+    "summary": "No new characters. Base rows, voiced sounds, combinations, long vowels, and the small っ -- all mixed together, the last hiragana checkpoint before katakana.",
+    "duration": "8 min",
+    "sections": [
       {
-        heading: "Base characters, one more time",
-        body: ["A last fast pass over the base 46 before mixing in the variants."],
-        checkpoint: [
+        "heading": "Base characters, one more time",
+        "body": [
+          "A last fast pass over the base 46 before mixing in the variants."
+        ],
+        "checkpoint": [
           {
-            type: "matching",
-            instructions: "Match each character to its romaji.",
-            pairs: [
-              { left: "ぬ", right: "nu" },
-              { left: "ろ", right: "ro" },
-              { left: "せ", right: "se" },
-              { left: "ひ", right: "hi" },
-              { left: "ゆ", right: "yu" },
+            "type": "matching",
+            "instructions": "Match each character to its romaji.",
+            "pairs": [
+              {
+                "left": "ぬ",
+                "right": "nu"
+              },
+              {
+                "left": "ろ",
+                "right": "ro"
+              },
+              {
+                "left": "せ",
+                "right": "se"
+              },
+              {
+                "left": "ひ",
+                "right": "hi"
+              },
+              {
+                "left": "ゆ",
+                "right": "yu"
+              }
             ],
-            explanation: "Mixed rows from across the whole base syllabary.",
-          },
-        ],
+            "explanation": "Mixed rows from across the whole base syllabary."
+          }
+        ]
       },
       {
-        heading: "Voiced, handakuten, and combinations",
-        body: ["Everything built on top of the base 46."],
-        checkpoint: [
+        "heading": "Voiced, handakuten, and combinations",
+        "body": [
+          "Everything built on top of the base 46."
+        ],
+        "checkpoint": [
           {
-            type: "matching",
-            instructions: "Match each character to its romaji.",
-            pairs: [
-              { left: "だ", right: "da" },
-              { left: "ぽ", right: "po" },
-              { left: "びゃ", right: "bya" },
-              { left: "じゅ", right: "ju" },
+            "type": "matching",
+            "instructions": "Match each character to its romaji.",
+            "pairs": [
+              {
+                "left": "だ",
+                "right": "da"
+              },
+              {
+                "left": "ぽ",
+                "right": "po"
+              },
+              {
+                "left": "びゃ",
+                "right": "bya"
+              },
+              {
+                "left": "じゅ",
+                "right": "ju"
+              }
             ],
-            explanation: "Dakuten, handakuten, and combination sounds together.",
+            "explanation": "Dakuten, handakuten, and combination sounds together."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for えんぴつ, a word meaning \"pencil.\"",
-            sentence: "えんぴつ means \"pencil\" and is read ___.",
-            answer: "enpitsu",
-            explanation: "え (e) + ん (n) + ぴ (pi) + つ (tsu) = enpitsu.",
-          },
-        ],
-      },
-      {
-        heading: "Long vowels and small っ, in real words",
-        body: ["The trickiest part to hear -- so it gets the most repetition."],
-        checkpoint: [
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for きって, a word meaning \"postage stamp.\"",
-            sentence: "きって means \"postage stamp\" and is read ___.",
-            answer: "kitte",
-            explanation: "Small っ = a held pause before te: kitte.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for がっこう, a word meaning \"school.\"",
-            sentence: "がっこう means \"school\" and is read ___.",
-            answer: "gakkou",
-            explanation: "Small っ before k, plus う lengthening こ: gakkou.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for せんせい, a word meaning \"teacher.\"",
-            sentence: "せんせい means \"teacher\" and is read ___.",
-            answer: "sensei",
-            explanation: "い lengthens the final え sound: sensei.",
-          },
-          {
-            type: "word-order",
-            prompt: "Arrange these tiles to spell がっこう (gakkou, \"school\").",
-            words: ["が", "っ", "こ", "う"],
-            translation: "school",
-            explanation: "が + small っ + こ + う = がっこう.",
-          },
-        ],
-      },
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for えんぴつ, a word meaning \"pencil.\"",
+            "sentence": "えんぴつ means \"pencil\" and is read ___.",
+            "answer": "enpitsu",
+            "explanation": "え (e) + ん (n) + ぴ (pi) + つ (tsu) = enpitsu."
+          }
+        ]
+      }
     ],
-    exercises: [
+    "exercises": [
       {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for きょう, a word meaning \"today.\"",
-        sentence: "きょう means \"today\" and is read ___.",
-        answer: "kyou",
-        explanation: "き + small ょ = kyo, lengthened by う: kyou.",
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for きょう, a word meaning \"today.\"",
+        "sentence": "きょう means \"today\" and is read ___.",
+        "answer": "kyou",
+        "explanation": "き + small ょ = kyo, lengthened by う: kyou."
       },
       {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for でんわ, a word meaning \"phone.\"",
-        sentence: "でんわ means \"phone\" and is read ___.",
-        answer: "denwa",
-        explanation: "で (de) + ん (n) + わ (wa) = denwa.",
-      },
-      {
-        type: "matching",
-        instructions: "One last mixed review before katakana.",
-        pairs: [
-          { left: "ざ", right: "za" },
-          { left: "ぴ", right: "pi" },
-          { left: "にゃ", right: "nya" },
-          { left: "ぐ", right: "gu" },
-        ],
-        explanation: "If this all felt readable, hiragana is done -- katakana reuses every sound you already know.",
-      },
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for でんわ, a word meaning \"phone.\"",
+        "sentence": "でんわ means \"phone\" and is read ___.",
+        "answer": "denwa",
+        "explanation": "で (de) + ん (n) + わ (wa) = denwa."
+      }
     ],
+    "optional": true
   },
   {
-    slug: "katakana-the-complete-syllabary",
-    level: "JA-Alphabets",
-    number: 12,
-    title: "Katakana: The Complete Syllabary",
-    summary: "Same 46+ sounds you already know, new shapes. Katakana moves fast precisely because you're not learning new pronunciation -- just new symbols for it.",
-    duration: "16 min",
-    sections: [
+    "slug": "hiragana-mastery-drill-2",
+    "level": "JA-Alphabets",
+    "number": 19,
+    "title": "Hiragana Mastery Drill, Part 2 of 2",
+    "summary": "No new characters. Base rows, voiced sounds, combinations, long vowels, and the small っ -- all mixed together, the last hiragana checkpoint before katakana.",
+    "duration": "7 min",
+    "sections": [
       {
-        heading: "Same sounds, different shapes",
-        body: [
-          "Every katakana character maps to a hiragana character you already know, sound for sound: ア is あ (a), カ is か (ka), and so on through voiced sounds and combinations. Katakana is mainly used for loanwords, onomatopoeia, and emphasis.",
+        "heading": "Long vowels and small っ, in real words",
+        "body": [
+          "The trickiest part to hear -- so it gets the most repetition."
         ],
-        examples: [
-          { es: "ア = あ", en: "a" },
-          { es: "カ = か", en: "ka" },
-        ],
-        checkpoint: [
+        "checkpoint": [
           {
-            type: "multiple-choice",
-            question: "What's the relationship between katakana and hiragana?",
-            options: [
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for きって, a word meaning \"postage stamp.\"",
+            "sentence": "きって means \"postage stamp\" and is read ___.",
+            "answer": "kitte",
+            "explanation": "Small っ = a held pause before te: kitte."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for がっこう, a word meaning \"school.\"",
+            "sentence": "がっこう means \"school\" and is read ___.",
+            "answer": "gakkou",
+            "explanation": "Small っ before k, plus う lengthening こ: gakkou."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for せんせい, a word meaning \"teacher.\"",
+            "sentence": "せんせい means \"teacher\" and is read ___.",
+            "answer": "sensei",
+            "explanation": "い lengthens the final え sound: sensei."
+          },
+          {
+            "type": "word-order",
+            "prompt": "Arrange these tiles to spell がっこう (gakkou, \"school\").",
+            "words": [
+              "が",
+              "っ",
+              "こ",
+              "う"
+            ],
+            "translation": "school",
+            "explanation": "が + small っ + こ + う = がっこう."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "One last mixed review before katakana.",
+        "pairs": [
+          {
+            "left": "ざ",
+            "right": "za"
+          },
+          {
+            "left": "ぴ",
+            "right": "pi"
+          },
+          {
+            "left": "にゃ",
+            "right": "nya"
+          },
+          {
+            "left": "ぐ",
+            "right": "gu"
+          }
+        ],
+        "explanation": "If this all felt readable, hiragana is done -- katakana reuses every sound you already know."
+      }
+    ],
+    "optional": true
+  },
+  {
+    "slug": "katakana-the-complete-syllabary-1",
+    "level": "JA-Alphabets",
+    "number": 20,
+    "title": "Katakana: The Complete Syllabary, Part 1 of 2",
+    "summary": "Same 46+ sounds you already know, new shapes. Katakana moves fast precisely because you're not learning new pronunciation -- just new symbols for it.",
+    "duration": "8 min",
+    "sections": [
+      {
+        "heading": "Same sounds, different shapes",
+        "body": [
+          "Every katakana character maps to a hiragana character you already know, sound for sound: ア is あ (a), カ is か (ka), and so on through voiced sounds and combinations. Katakana is mainly used for loanwords, onomatopoeia, and emphasis."
+        ],
+        "examples": [
+          {
+            "es": "ア = あ",
+            "en": "a"
+          },
+          {
+            "es": "カ = か",
+            "en": "ka"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "What's the relationship between katakana and hiragana?",
+            "options": [
               "Same sounds, different symbols -- there's no new pronunciation to learn",
               "Katakana has entirely different sounds from hiragana",
               "Katakana is only used for numbers",
-              "Katakana replaced hiragana in modern Japanese",
+              "Katakana replaced hiragana in modern Japanese"
             ],
-            correctIndex: 0,
-            explanation: "Katakana is a 1:1 sound match to hiragana -- just new shapes for sounds you already know.",
-          },
-        ],
+            "correctIndex": 0,
+            "explanation": "Katakana is a 1:1 sound match to hiragana -- just new shapes for sounds you already know."
+          }
+        ]
       },
       {
-        heading: "Vowels and K, S, T, N rows",
-        body: ["ア イ ウ エ オ / カ キ ク ケ コ / サ シ ス セ ソ / タ チ ツ テ ト / ナ ニ ヌ ネ ノ"],
-        checkpoint: [
+        "heading": "Vowels and K, S, T, N rows",
+        "body": [
+          "ア イ ウ エ オ / カ キ ク ケ コ / サ シ ス セ ソ / タ チ ツ テ ト / ナ ニ ヌ ネ ノ"
+        ],
+        "checkpoint": [
           {
-            type: "matching",
-            instructions: "Match each katakana character to its romaji.",
-            pairs: [
-              { left: "ア", right: "a" },
-              { left: "カ", right: "ka" },
-              { left: "シ", right: "shi" },
-              { left: "ツ", right: "tsu" },
-              { left: "ノ", right: "no" },
+            "type": "matching",
+            "instructions": "Match each katakana character to its romaji.",
+            "pairs": [
+              {
+                "left": "ア",
+                "right": "a"
+              },
+              {
+                "left": "カ",
+                "right": "ka"
+              },
+              {
+                "left": "シ",
+                "right": "shi"
+              },
+              {
+                "left": "ツ",
+                "right": "tsu"
+              },
+              {
+                "left": "ノ",
+                "right": "no"
+              }
             ],
-            explanation: "Same irregular readings carry over: シ = shi, ツ = tsu, チ = chi.",
+            "explanation": "Same irregular readings carry over: シ = shi, ツ = tsu, チ = chi."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ス.",
-            sentence: "ス is read ___.",
-            answer: "su",
-            explanation: "ス = す = su.",
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ス.",
+            "sentence": "ス is read ___.",
+            "answer": "su",
+            "explanation": "ス = す = su."
           },
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for テ.",
-            sentence: "テ is read ___.",
-            answer: "te",
-            explanation: "テ = て = te.",
-          },
-        ],
-      },
-      {
-        heading: "H, M, Y, R, W rows and ン",
-        body: ["ハ ヒ フ ヘ ホ / マ ミ ム メ モ / ヤ ユ ヨ / ラ リ ル レ ロ / ワ ヲ ン"],
-        checkpoint: [
-          {
-            type: "matching",
-            instructions: "Match each katakana character to its romaji.",
-            pairs: [
-              { left: "ハ", right: "ha" },
-              { left: "ミ", right: "mi" },
-              { left: "ユ", right: "yu" },
-              { left: "リ", right: "ri" },
-              { left: "ン", right: "n" },
-            ],
-            explanation: "ン (katakana n) is one of the most common characters in loanwords.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ワ.",
-            sentence: "ワ is read ___.",
-            answer: "wa",
-            explanation: "ワ = わ = wa.",
-          },
-          {
-            type: "word-order",
-            prompt: "Arrange these tiles to spell テレビ (terebi, \"TV\").",
-            words: ["テ", "レ", "ビ"],
-            translation: "TV",
-            explanation: "テ (te) + レ (re) + ビ (bi) = テレビ.",
-          },
-        ],
-      },
-      {
-        heading: "Voiced sounds and combinations, same rules as hiragana",
-        body: [
-          "Dakuten, handakuten, and small ャ/ュ/ョ combinations work exactly like hiragana: カ→ガ, ハ→パ, キャ (kya).",
-        ],
-        examples: [
-          { es: "ベッド", en: "beddo -- bed" },
-        ],
-        checkpoint: [
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ガ.",
-            sentence: "ガ is read ___.",
-            answer: "ga",
-            explanation: "ガ = が = ga.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ベッド, a word meaning \"bed.\"",
-            sentence: "ベッド means \"bed\" and is read ___.",
-            answer: "beddo",
-            explanation: "べ (be) + small ッ (held pause) + ド (do) = beddo.",
-          },
-          {
-            type: "matching",
-            instructions: "Match each character to its romaji.",
-            pairs: [
-              { left: "パ", right: "pa" },
-              { left: "ジ", right: "ji" },
-              { left: "キャ", right: "kya" },
-              { left: "ショ", right: "sho" },
-            ],
-            explanation: "Every hiragana rule you learned applies unchanged to katakana.",
-          },
-        ],
-      },
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for テ.",
+            "sentence": "テ is read ___.",
+            "answer": "te",
+            "explanation": "テ = て = te."
+          }
+        ]
+      }
     ],
-    exercises: [
+    "exercises": [
       {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for カメラ, a word meaning \"camera.\"",
-        sentence: "カメラ means \"camera\" and is read ___.",
-        answer: "kamera",
-        explanation: "カ (ka) + メ (me) + ラ (ra) = kamera.",
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for カメラ, a word meaning \"camera.\"",
+        "sentence": "カメラ means \"camera\" and is read ___.",
+        "answer": "kamera",
+        "explanation": "カ (ka) + メ (me) + ラ (ra) = kamera."
       },
       {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for テレビ, a word meaning \"TV.\"",
-        sentence: "テレビ means \"TV\" and is read ___.",
-        answer: "terebi",
-        explanation: "テ (te) + レ (re) + ビ (bi) = terebi.",
-      },
-      {
-        type: "matching",
-        instructions: "Full katakana review: match each character to its romaji.",
-        pairs: [
-          { left: "ソ", right: "so" },
-          { left: "ヌ", right: "nu" },
-          { left: "ヘ", right: "he" },
-          { left: "ロ", right: "ro" },
-          { left: "ヲ", right: "o" },
-        ],
-        explanation: "That's the full katakana syllabary -- every shape maps to a sound you already know.",
-      },
-    ],
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for テレビ, a word meaning \"TV.\"",
+        "sentence": "テレビ means \"TV\" and is read ___.",
+        "answer": "terebi",
+        "explanation": "テ (te) + レ (re) + ビ (bi) = terebi."
+      }
+    ]
   },
   {
-    slug: "katakana-drill",
-    level: "JA-Alphabets",
-    number: 13,
-    title: "Katakana Speed Drill",
-    optional: true,
-    summary: "No new sounds. Every katakana shape, drilled -- plus cross-checks against the hiragana you already know, since the sounds are identical.",
-    duration: "12 min",
-    sections: [
+    "slug": "katakana-the-complete-syllabary-2",
+    "level": "JA-Alphabets",
+    "number": 21,
+    "title": "Katakana: The Complete Syllabary, Part 2 of 2",
+    "summary": "Same 46+ sounds you already know, new shapes. Katakana moves fast precisely because you're not learning new pronunciation -- just new symbols for it.",
+    "duration": "8 min",
+    "sections": [
       {
-        heading: "Katakana shapes, mixed",
-        body: ["Reading katakana quickly is mostly shape recognition -- the sounds are already automatic."],
-        checkpoint: [
-          {
-            type: "matching",
-            instructions: "Match each katakana character to its romaji.",
-            pairs: [
-              { left: "サ", right: "sa" },
-              { left: "ケ", right: "ke" },
-              { left: "ト", right: "to" },
-              { left: "モ", right: "mo" },
-              { left: "ル", right: "ru" },
-            ],
-            explanation: "Mixed rows across the full katakana syllabary.",
-          },
-          {
-            type: "matching",
-            instructions: "Match each katakana character to its romaji.",
-            pairs: [
-              { left: "ネ", right: "ne" },
-              { left: "フ", right: "fu" },
-              { left: "ヨ", right: "yo" },
-              { left: "エ", right: "e" },
-              { left: "チ", right: "chi" },
-            ],
-            explanation: "More mixed rows.",
-          },
+        "heading": "H, M, Y, R, W rows and ン",
+        "body": [
+          "ハ ヒ フ ヘ ホ / マ ミ ム メ モ / ヤ ユ ヨ / ラ リ ル レ ロ / ワ ヲ ン"
         ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Match each katakana character to its romaji.",
+            "pairs": [
+              {
+                "left": "ハ",
+                "right": "ha"
+              },
+              {
+                "left": "ミ",
+                "right": "mi"
+              },
+              {
+                "left": "ユ",
+                "right": "yu"
+              },
+              {
+                "left": "リ",
+                "right": "ri"
+              },
+              {
+                "left": "ン",
+                "right": "n"
+              }
+            ],
+            "explanation": "ン (katakana n) is one of the most common characters in loanwords."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ワ.",
+            "sentence": "ワ is read ___.",
+            "answer": "wa",
+            "explanation": "ワ = わ = wa."
+          },
+          {
+            "type": "word-order",
+            "prompt": "Arrange these tiles to spell テレビ (terebi, \"TV\").",
+            "words": [
+              "テ",
+              "レ",
+              "ビ"
+            ],
+            "translation": "TV",
+            "explanation": "テ (te) + レ (re) + ビ (bi) = テレビ."
+          }
+        ]
       },
       {
-        heading: "Hiragana vs. katakana, same sound",
-        body: ["The same word, both scripts -- proving the sounds really are identical."],
-        checkpoint: [
-          {
-            type: "matching",
-            instructions: "Match each katakana character to the hiragana character with the same sound.",
-            pairs: [
-              { left: "タ", right: "た" },
-              { left: "ミ", right: "み" },
-              { left: "ヨ", right: "よ" },
-              { left: "レ", right: "れ" },
-            ],
-            explanation: "Same sound, two different shapes -- ア/あ, カ/か, and so on across the whole syllabary.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ラジオ, a word meaning \"radio.\"",
-            sentence: "ラジオ means \"radio\" and is read ___.",
-            answer: "rajio",
-            explanation: "ラ (ra) + ジ (ji) + オ (o) = rajio.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for バス, a word meaning \"bus.\"",
-            sentence: "バス means \"bus\" and is read ___.",
-            answer: "basu",
-            explanation: "バ (ba) + ス (su) = basu.",
-          },
-          {
-            type: "word-order",
-            prompt: "Arrange these tiles to spell カメラ (kamera, \"camera\").",
-            words: ["カ", "メ", "ラ"],
-            translation: "camera",
-            explanation: "カ (ka) + メ (me) + ラ (ra) = カメラ.",
-          },
+        "heading": "Voiced sounds and combinations, same rules as hiragana",
+        "body": [
+          "Dakuten, handakuten, and small ャ/ュ/ョ combinations work exactly like hiragana: カ→ガ, ハ→パ, キャ (kya)."
         ],
-      },
+        "examples": [
+          {
+            "es": "ベッド",
+            "en": "beddo -- bed"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ガ.",
+            "sentence": "ガ is read ___.",
+            "answer": "ga",
+            "explanation": "ガ = が = ga."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ベッド, a word meaning \"bed.\"",
+            "sentence": "ベッド means \"bed\" and is read ___.",
+            "answer": "beddo",
+            "explanation": "べ (be) + small ッ (held pause) + ド (do) = beddo."
+          },
+          {
+            "type": "matching",
+            "instructions": "Match each character to its romaji.",
+            "pairs": [
+              {
+                "left": "パ",
+                "right": "pa"
+              },
+              {
+                "left": "ジ",
+                "right": "ji"
+              },
+              {
+                "left": "キャ",
+                "right": "kya"
+              },
+              {
+                "left": "ショ",
+                "right": "sho"
+              }
+            ],
+            "explanation": "Every hiragana rule you learned applies unchanged to katakana."
+          }
+        ]
+      }
     ],
-    exercises: [
+    "exercises": [
       {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for ホテル, a word meaning \"hotel.\"",
-        sentence: "ホテル means \"hotel\" and is read ___.",
-        answer: "hoteru",
-        explanation: "ホ (ho) + テ (te) + ル (ru) = hoteru.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for タクシー, a word meaning \"taxi.\"",
-        sentence: "タクシー means \"taxi\" and is read ___.",
-        answer: "takushii",
-        explanation: "タ (ta) + ク (ku) + シ (shi) + ー (lengthens it) = takushii.",
-      },
-      {
-        type: "matching",
-        instructions: "Last full mixed review.",
-        pairs: [
-          { left: "ゲ", right: "ge" },
-          { left: "ピ", right: "pi" },
-          { left: "リュ", right: "ryu" },
-          { left: "ゾ", right: "zo" },
+        "type": "matching",
+        "instructions": "Full katakana review: match each character to its romaji.",
+        "pairs": [
+          {
+            "left": "ソ",
+            "right": "so"
+          },
+          {
+            "left": "ヌ",
+            "right": "nu"
+          },
+          {
+            "left": "ヘ",
+            "right": "he"
+          },
+          {
+            "left": "ロ",
+            "right": "ro"
+          },
+          {
+            "left": "ヲ",
+            "right": "o"
+          }
         ],
-        explanation: "One more required lesson to go: reading real loanwords.",
-      },
-    ],
+        "explanation": "That's the full katakana syllabary -- every shape maps to a sound you already know."
+      }
+    ]
   },
   {
-    slug: "katakana-in-practice",
-    level: "JA-Alphabets",
-    number: 14,
-    title: "Katakana in Practice: Loanwords & Reading",
-    summary: "The long-vowel mark, extended sounds for foreign words, and real loanword reading practice -- the module's capstone.",
-    duration: "14 min",
-    sections: [
+    "slug": "katakana-drill-1",
+    "level": "JA-Alphabets",
+    "number": 22,
+    "title": "Katakana Speed Drill, Part 1 of 2",
+    "summary": "No new sounds. Every katakana shape, drilled -- plus cross-checks against the hiragana you already know, since the sounds are identical.",
+    "duration": "4 min",
+    "sections": [
       {
-        heading: "The long-vowel mark: ー",
-        body: [
-          "Katakana marks a long vowel with a dash (ー) instead of repeating a vowel character. コーヒー (kōhī, coffee) has two: one after コ, one after ヒ.",
+        "heading": "Katakana shapes, mixed",
+        "body": [
+          "Reading katakana quickly is mostly shape recognition -- the sounds are already automatic."
         ],
-        examples: [
-          { es: "コーヒー", en: "koohii -- coffee" },
-          { es: "スーパー", en: "suupaa -- supermarket" },
-        ],
-        checkpoint: [
+        "checkpoint": [
           {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for コーヒー, a word meaning \"coffee.\"",
-            sentence: "コーヒー means \"coffee\" and is read ___.",
-            answer: "koohii",
-            explanation: "コ (ko) + ー (lengthens it) + ヒ (hi) + ー (lengthens it) = koohii.",
+            "type": "matching",
+            "instructions": "Match each katakana character to its romaji.",
+            "pairs": [
+              {
+                "left": "サ",
+                "right": "sa"
+              },
+              {
+                "left": "ケ",
+                "right": "ke"
+              },
+              {
+                "left": "ト",
+                "right": "to"
+              },
+              {
+                "left": "モ",
+                "right": "mo"
+              },
+              {
+                "left": "ル",
+                "right": "ru"
+              }
+            ],
+            "explanation": "Mixed rows across the full katakana syllabary."
           },
           {
-            type: "multiple-choice",
-            question: "How does katakana usually mark a long vowel?",
-            options: ["With a dash: ー", "By writing the vowel twice, like hiragana", "It doesn't mark long vowels at all", "With a small circle"],
-            correctIndex: 0,
-            explanation: "ー (chōonpu) is katakana's long-vowel mark, used instead of hiragana's doubled-vowel convention.",
-          },
-        ],
-      },
-      {
-        heading: "Extended katakana for foreign sounds",
-        body: [
-          "A few combinations exist only in katakana, for sounds foreign words need that the base syllabary can't make: ファ (fa), ティ (ti), ウィ (wi), ヴ (v).",
-        ],
-        examples: [
-          { es: "ファイル", en: "fairu -- file" },
-          { es: "パーティー", en: "paateii -- party" },
-        ],
-        checkpoint: [
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ファ.",
-            sentence: "ファ is read ___.",
-            answer: "fa",
-            explanation: "ファ is an extended katakana combination for the \"fa\" sound, absent from hiragana.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for ファイル, a word meaning \"file.\"",
-            sentence: "ファイル means \"file\" and is read ___.",
-            answer: "fairu",
-            explanation: "ファ (fa) + イ (i) + ル (ru) = fairu.",
-          },
-        ],
-      },
-      {
-        heading: "Reading practice: real loanwords",
-        body: [
-          "Everything below is a real, everyday katakana word. If you can read these without sounding them out letter by letter, this module has done its job.",
-        ],
-        examples: [
-          { es: "レストラン", en: "resutoran -- restaurant" },
-          { es: "インターネット", en: "intaanetto -- internet" },
-        ],
-        checkpoint: [
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for レストラン, a word meaning \"restaurant.\"",
-            sentence: "レストラン means \"restaurant\" and is read ___.",
-            answer: "resutoran",
-            explanation: "レ (re) + ス (su) + ト (to) + ラ (ra) + ン (n) = resutoran.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for インターネット, a word meaning \"internet.\"",
-            sentence: "インターネット means \"internet\" and is read ___.",
-            answer: "intaanetto",
-            explanation: "イン (in) + ター (taa) + ネッ (ne, held) + ト (to) = intaanetto.",
-          },
-          {
-            type: "word-order",
-            prompt: "Arrange these tiles to spell スーパー (suupaa, \"supermarket\").",
-            words: ["ス", "ー", "パ", "ー"],
-            translation: "supermarket",
-            explanation: "ス (su) + ー (lengthens it) + パ (pa) + ー (lengthens it) = スーパー.",
-          },
-        ],
-      },
-      {
-        heading: "Module review: hiragana and katakana together",
-        body: [
-          "You now have every character needed to read native Japanese words and loanwords alike. Kanji comes next, once these are second nature.",
-        ],
-        checkpoint: [
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for がっこう, a word meaning \"school\" (hiragana).",
-            sentence: "がっこう means \"school\" and is read ___.",
-            answer: "gakkou",
-            explanation: "Hiragana review: small っ = a held pause.",
-          },
-          {
-            type: "fill-blank",
-            prompt: "Give the romaji reading for カメラ, a word meaning \"camera\" (katakana).",
-            sentence: "カメラ means \"camera\" and is read ___.",
-            answer: "kamera",
-            explanation: "Katakana review: same sounds, different shapes.",
-          },
-        ],
-      },
+            "type": "matching",
+            "instructions": "Match each katakana character to its romaji.",
+            "pairs": [
+              {
+                "left": "ネ",
+                "right": "ne"
+              },
+              {
+                "left": "フ",
+                "right": "fu"
+              },
+              {
+                "left": "ヨ",
+                "right": "yo"
+              },
+              {
+                "left": "エ",
+                "right": "e"
+              },
+              {
+                "left": "チ",
+                "right": "chi"
+              }
+            ],
+            "explanation": "More mixed rows."
+          }
+        ]
+      }
     ],
-    exercises: [
+    "exercises": [
       {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for パーティー, a word meaning \"party.\"",
-        sentence: "パーティー means \"party\" and is read ___.",
-        answer: "paateii",
-        explanation: "パ (pa) + ー (lengthens it) + ティ (ti) + ー (lengthens it) = paateii.",
-      },
-      {
-        type: "fill-blank",
-        prompt: "Give the romaji reading for すし, a word meaning \"sushi\" (hiragana).",
-        sentence: "すし means \"sushi\" and is read ___.",
-        answer: "sushi",
-        explanation: "One final hiragana check: す (su) + し (shi) = sushi.",
-      },
-      {
-        type: "multiple-choice",
-        question: "What comes after hiragana and katakana in a full Japanese literacy path?",
-        options: ["Kanji -- the meaning-based characters borrowed from Chinese", "Nothing -- kana alone is sufficient for all written Japanese", "A fourth phonetic script", "Returning to romaji as the primary writing system"],
-        correctIndex: 0,
-        explanation: "Kanji is next. Kana literacy -- what this module covers -- is the prerequisite for it.",
-      },
-      {
-        type: "matching",
-        instructions: "Final mixed review: hiragana and katakana together.",
-        pairs: [
-          { left: "ねこ", right: "neko" },
-          { left: "テレビ", right: "terebi" },
-          { left: "やま", right: "yama" },
-          { left: "ホテル", right: "hoteru" },
-        ],
-        explanation: "Module complete -- both scripts, fully readable.",
-      },
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for ホテル, a word meaning \"hotel.\"",
+        "sentence": "ホテル means \"hotel\" and is read ___.",
+        "answer": "hoteru",
+        "explanation": "ホ (ho) + テ (te) + ル (ru) = hoteru."
+      }
     ],
+    "optional": true
   },
+  {
+    "slug": "katakana-drill-2",
+    "level": "JA-Alphabets",
+    "number": 23,
+    "title": "Katakana Speed Drill, Part 2 of 2",
+    "summary": "No new sounds. Every katakana shape, drilled -- plus cross-checks against the hiragana you already know, since the sounds are identical.",
+    "duration": "8 min",
+    "sections": [
+      {
+        "heading": "Hiragana vs. katakana, same sound",
+        "body": [
+          "The same word, both scripts -- proving the sounds really are identical."
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Match each katakana character to the hiragana character with the same sound.",
+            "pairs": [
+              {
+                "left": "タ",
+                "right": "た"
+              },
+              {
+                "left": "ミ",
+                "right": "み"
+              },
+              {
+                "left": "ヨ",
+                "right": "よ"
+              },
+              {
+                "left": "レ",
+                "right": "れ"
+              }
+            ],
+            "explanation": "Same sound, two different shapes -- ア/あ, カ/か, and so on across the whole syllabary."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ラジオ, a word meaning \"radio.\"",
+            "sentence": "ラジオ means \"radio\" and is read ___.",
+            "answer": "rajio",
+            "explanation": "ラ (ra) + ジ (ji) + オ (o) = rajio."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for バス, a word meaning \"bus.\"",
+            "sentence": "バス means \"bus\" and is read ___.",
+            "answer": "basu",
+            "explanation": "バ (ba) + ス (su) = basu."
+          },
+          {
+            "type": "word-order",
+            "prompt": "Arrange these tiles to spell カメラ (kamera, \"camera\").",
+            "words": [
+              "カ",
+              "メ",
+              "ラ"
+            ],
+            "translation": "camera",
+            "explanation": "カ (ka) + メ (me) + ラ (ra) = カメラ."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for タクシー, a word meaning \"taxi.\"",
+        "sentence": "タクシー means \"taxi\" and is read ___.",
+        "answer": "takushii",
+        "explanation": "タ (ta) + ク (ku) + シ (shi) + ー (lengthens it) = takushii."
+      },
+      {
+        "type": "matching",
+        "instructions": "Last full mixed review.",
+        "pairs": [
+          {
+            "left": "ゲ",
+            "right": "ge"
+          },
+          {
+            "left": "ピ",
+            "right": "pi"
+          },
+          {
+            "left": "リュ",
+            "right": "ryu"
+          },
+          {
+            "left": "ゾ",
+            "right": "zo"
+          }
+        ],
+        "explanation": "One more required lesson to go: reading real loanwords."
+      }
+    ],
+    "optional": true
+  },
+  {
+    "slug": "katakana-in-practice-1",
+    "level": "JA-Alphabets",
+    "number": 24,
+    "title": "Katakana in Practice: Loanwords & Reading, Part 1 of 2",
+    "summary": "The long-vowel mark, extended sounds for foreign words, and real loanword reading practice -- the module's capstone.",
+    "duration": "7 min",
+    "sections": [
+      {
+        "heading": "The long-vowel mark: ー",
+        "body": [
+          "Katakana marks a long vowel with a dash (ー) instead of repeating a vowel character. コーヒー (kōhī, coffee) has two: one after コ, one after ヒ."
+        ],
+        "examples": [
+          {
+            "es": "コーヒー",
+            "en": "koohii -- coffee"
+          },
+          {
+            "es": "スーパー",
+            "en": "suupaa -- supermarket"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for コーヒー, a word meaning \"coffee.\"",
+            "sentence": "コーヒー means \"coffee\" and is read ___.",
+            "answer": "koohii",
+            "explanation": "コ (ko) + ー (lengthens it) + ヒ (hi) + ー (lengthens it) = koohii."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "How does katakana usually mark a long vowel?",
+            "options": [
+              "With a dash: ー",
+              "By writing the vowel twice, like hiragana",
+              "It doesn't mark long vowels at all",
+              "With a small circle"
+            ],
+            "correctIndex": 0,
+            "explanation": "ー (chōonpu) is katakana's long-vowel mark, used instead of hiragana's doubled-vowel convention."
+          }
+        ]
+      },
+      {
+        "heading": "Extended katakana for foreign sounds",
+        "body": [
+          "A few combinations exist only in katakana, for sounds foreign words need that the base syllabary can't make: ファ (fa), ティ (ti), ウィ (wi), ヴ (v)."
+        ],
+        "examples": [
+          {
+            "es": "ファイル",
+            "en": "fairu -- file"
+          },
+          {
+            "es": "パーティー",
+            "en": "paateii -- party"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ファ.",
+            "sentence": "ファ is read ___.",
+            "answer": "fa",
+            "explanation": "ファ is an extended katakana combination for the \"fa\" sound, absent from hiragana."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for ファイル, a word meaning \"file.\"",
+            "sentence": "ファイル means \"file\" and is read ___.",
+            "answer": "fairu",
+            "explanation": "ファ (fa) + イ (i) + ル (ru) = fairu."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for パーティー, a word meaning \"party.\"",
+        "sentence": "パーティー means \"party\" and is read ___.",
+        "answer": "paateii",
+        "explanation": "パ (pa) + ー (lengthens it) + ティ (ti) + ー (lengthens it) = paateii."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Give the romaji reading for すし, a word meaning \"sushi\" (hiragana).",
+        "sentence": "すし means \"sushi\" and is read ___.",
+        "answer": "sushi",
+        "explanation": "One final hiragana check: す (su) + し (shi) = sushi."
+      }
+    ]
+  },
+  {
+    "slug": "katakana-in-practice-2",
+    "level": "JA-Alphabets",
+    "number": 25,
+    "title": "Katakana in Practice: Loanwords & Reading, Part 2 of 2",
+    "summary": "The long-vowel mark, extended sounds for foreign words, and real loanword reading practice -- the module's capstone.",
+    "duration": "7 min",
+    "sections": [
+      {
+        "heading": "Reading practice: real loanwords",
+        "body": [
+          "Everything below is a real, everyday katakana word. If you can read these without sounding them out letter by letter, this module has done its job."
+        ],
+        "examples": [
+          {
+            "es": "レストラン",
+            "en": "resutoran -- restaurant"
+          },
+          {
+            "es": "インターネット",
+            "en": "intaanetto -- internet"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for レストラン, a word meaning \"restaurant.\"",
+            "sentence": "レストラン means \"restaurant\" and is read ___.",
+            "answer": "resutoran",
+            "explanation": "レ (re) + ス (su) + ト (to) + ラ (ra) + ン (n) = resutoran."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for インターネット, a word meaning \"internet.\"",
+            "sentence": "インターネット means \"internet\" and is read ___.",
+            "answer": "intaanetto",
+            "explanation": "イン (in) + ター (taa) + ネッ (ne, held) + ト (to) = intaanetto."
+          },
+          {
+            "type": "word-order",
+            "prompt": "Arrange these tiles to spell スーパー (suupaa, \"supermarket\").",
+            "words": [
+              "ス",
+              "ー",
+              "パ",
+              "ー"
+            ],
+            "translation": "supermarket",
+            "explanation": "ス (su) + ー (lengthens it) + パ (pa) + ー (lengthens it) = スーパー."
+          }
+        ]
+      },
+      {
+        "heading": "Module review: hiragana and katakana together",
+        "body": [
+          "You now have every character needed to read native Japanese words and loanwords alike. Kanji comes next, once these are second nature."
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for がっこう, a word meaning \"school\" (hiragana).",
+            "sentence": "がっこう means \"school\" and is read ___.",
+            "answer": "gakkou",
+            "explanation": "Hiragana review: small っ = a held pause."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Give the romaji reading for カメラ, a word meaning \"camera\" (katakana).",
+            "sentence": "カメラ means \"camera\" and is read ___.",
+            "answer": "kamera",
+            "explanation": "Katakana review: same sounds, different shapes."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "What comes after hiragana and katakana in a full Japanese literacy path?",
+        "options": [
+          "Kanji -- the meaning-based characters borrowed from Chinese",
+          "Nothing -- kana alone is sufficient for all written Japanese",
+          "A fourth phonetic script",
+          "Returning to romaji as the primary writing system"
+        ],
+        "correctIndex": 0,
+        "explanation": "Kanji is next. Kana literacy -- what this module covers -- is the prerequisite for it."
+      },
+      {
+        "type": "matching",
+        "instructions": "Final mixed review: hiragana and katakana together.",
+        "pairs": [
+          {
+            "left": "ねこ",
+            "right": "neko"
+          },
+          {
+            "left": "テレビ",
+            "right": "terebi"
+          },
+          {
+            "left": "やま",
+            "right": "yama"
+          },
+          {
+            "left": "ホテル",
+            "right": "hoteru"
+          }
+        ],
+        "explanation": "Module complete -- both scripts, fully readable."
+      }
+    ]
+  }
 ];

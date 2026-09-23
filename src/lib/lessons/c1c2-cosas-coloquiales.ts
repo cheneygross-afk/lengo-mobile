@@ -1,18 +1,13 @@
 import type { Lesson } from "./types";
 
-// Cosas Coloquiales: a standalone module of lessons on colloquial phrases,
-// customs, and everyday culture across the Hispanic world -- festivals,
-// food culture, sports, music, folk beliefs, and social etiquette. It's its
-// own module (own route at /lessons/cosas-coloquiales, own lesson list, own
-// numbering) rather than part of the core C1/C2 sequence in c1c2.ts.
 export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
   {
-    "slug": "festivals-traditions-hispanic-world",
+    "slug": "festivals-traditions-hispanic-world-1",
     "level": "C1/C2",
     "number": 1,
-    "title": "Fiestas y Tradiciones del Mundo Hispano",
+    "title": "Fiestas y Tradiciones del Mundo Hispano, Part 1 of 3",
     "summary": "Un recorrido por las celebraciones que marcan el calendario cultural hispano -- su origen, sus rituales y el lenguaje coloquial que las acompaña -- para entender no solo qué se festeja, sino por qué importa tanto.",
-    "duration": "21 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "El calendario festivo como mapa cultural",
@@ -87,7 +82,38 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
             "explanation": "La ofrenda es el altar tradicional del Día de los Muertos, montado con fotos, flores de cempasúchil y los platillos preferidos del difunto."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué elemento del Día de los Muertos refleja mejor la idea de que la muerte se recibe con humor en lugar de miedo?",
+        "options": [
+          "la calavera literaria",
+          "el paso",
+          "las doce uvas",
+          "el santo patrón"
+        ],
+        "correctIndex": 0,
+        "explanation": "La calavera literaria es un poema satírico que imagina en broma la muerte de alguien vivo, y encarna la actitud de humor frente a la muerte típica de esta celebración."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la expresión que describe gastar sin límite para celebrar algo por todo lo alto.",
+        "sentence": "Para la graduación de su hija, decidieron ___ y alquilaron un salón enorme.",
+        "answer": "echar la casa por la ventana",
+        "explanation": "Echar la casa por la ventana significa gastar sin límite para celebrar algo con generosidad, tal como describe la situación de alquilar un salón enorme."
+      }
+    ]
+  },
+  {
+    "slug": "festivals-traditions-hispanic-world-2",
+    "level": "C1/C2",
+    "number": 2,
+    "title": "Fiestas y Tradiciones del Mundo Hispano, Part 2 of 3",
+    "summary": "Un recorrido por las celebraciones que marcan el calendario cultural hispano -- su origen, sus rituales y el lenguaje coloquial que las acompaña -- para entender no solo qué se festeja, sino por qué importa tanto.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "Semana Santa: fe, procesión y comunidad",
         "body": [
@@ -168,7 +194,57 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
             "explanation": "Echar la casa por la ventana y ponerse las botas describen ambas un exceso festivo -- gastar sin límite y comer o disfrutar en abundancia. Las otras dos expresiones no tienen relación con la generosidad festiva."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes celebraciones están asociadas principalmente con honrar a los difuntos o con la fe religiosa, más que con el cierre de un ciclo anual?",
+        "options": [
+          "el Día de los Muertos",
+          "la Semana Santa",
+          "la Nochevieja",
+          "el carnaval"
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "El Día de los Muertos honra a los difuntos y la Semana Santa conmemora un ciclo religioso; la Nochevieja y el carnaval están más asociados al cierre de año y a la inversión temporal del orden social."
       },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada expresión con su significado.",
+        "pairs": [
+          {
+            "left": "ponerse las botas",
+            "right": "comer o disfrutar de algo en abundancia"
+          },
+          {
+            "left": "la procesión va por dentro",
+            "right": "sufrir o preocuparse sin mostrarlo"
+          },
+          {
+            "left": "el santo patrón",
+            "right": "figura religiosa protectora de un pueblo"
+          },
+          {
+            "left": "disfrazarse",
+            "right": "vestirse con un traje que oculta la identidad"
+          }
+        ],
+        "explanation": "Cada expresión conserva un significado fijo ligado a su origen festivo, aunque hoy se use también fuera del contexto de la celebración original."
+      }
+    ]
+  },
+  {
+    "slug": "festivals-traditions-hispanic-world-3",
+    "level": "C1/C2",
+    "number": 3,
+    "title": "Fiestas y Tradiciones del Mundo Hispano, Part 3 of 3",
+    "summary": "Un recorrido por las celebraciones que marcan el calendario cultural hispano -- su origen, sus rituales y el lenguaje coloquial que las acompaña -- para entender no solo qué se festeja, sino por qué importa tanto.",
+    "duration": "5 min",
+    "sections": [
       {
         "heading": "En la práctica",
         "body": [
@@ -252,63 +328,6 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "¿Qué elemento del Día de los Muertos refleja mejor la idea de que la muerte se recibe con humor en lugar de miedo?",
-        "options": [
-          "la calavera literaria",
-          "el paso",
-          "las doce uvas",
-          "el santo patrón"
-        ],
-        "correctIndex": 0,
-        "explanation": "La calavera literaria es un poema satírico que imagina en broma la muerte de alguien vivo, y encarna la actitud de humor frente a la muerte típica de esta celebración."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la expresión que describe gastar sin límite para celebrar algo por todo lo alto.",
-        "sentence": "Para la graduación de su hija, decidieron ___ y alquilaron un salón enorme.",
-        "answer": "echar la casa por la ventana",
-        "explanation": "Echar la casa por la ventana significa gastar sin límite para celebrar algo con generosidad, tal como describe la situación de alquilar un salón enorme."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de las siguientes celebraciones están asociadas principalmente con honrar a los difuntos o con la fe religiosa, más que con el cierre de un ciclo anual?",
-        "options": [
-          "el Día de los Muertos",
-          "la Semana Santa",
-          "la Nochevieja",
-          "el carnaval"
-        ],
-        "correctIndexes": [
-          0,
-          1
-        ],
-        "explanation": "El Día de los Muertos honra a los difuntos y la Semana Santa conmemora un ciclo religioso; la Nochevieja y el carnaval están más asociados al cierre de año y a la inversión temporal del orden social."
-      },
-      {
-        "type": "matching",
-        "instructions": "Relaciona cada expresión con su significado.",
-        "pairs": [
-          {
-            "left": "ponerse las botas",
-            "right": "comer o disfrutar de algo en abundancia"
-          },
-          {
-            "left": "la procesión va por dentro",
-            "right": "sufrir o preocuparse sin mostrarlo"
-          },
-          {
-            "left": "el santo patrón",
-            "right": "figura religiosa protectora de un pueblo"
-          },
-          {
-            "left": "disfrazarse",
-            "right": "vestirse con un traje que oculta la identidad"
-          }
-        ],
-        "explanation": "Cada expresión conserva un significado fijo ligado a su origen festivo, aunque hoy se use también fuera del contexto de la celebración original."
-      },
-      {
         "type": "word-order",
         "prompt": "Ordena las palabras para formar la frase correcta.",
         "words": [
@@ -340,12 +359,12 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "food-culture-sobremesa",
+    "slug": "food-culture-sobremesa-1",
     "level": "C1/C2",
-    "number": 2,
-    "title": "La Sobremesa y la Cultura de la Comida",
+    "number": 4,
+    "title": "La Sobremesa y la Cultura de la Comida, Part 1 of 3",
     "summary": "La comida en el mundo hispano es tanto un ritual social como un idioma propio: explora la sobremesa, los horarios, las normas tácitas de la mesa y las expresiones coloquiales que nacen de comer en compañía.",
-    "duration": "20 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "La sobremesa: cuando la comida termina pero la mesa no se levanta",
@@ -420,7 +439,38 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
             "explanation": "Irse de tapas describe la costumbre de recorrer distintos bares comiendo pequeñas raciones, muy propia de la vida social española."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Un amigo lleva semanas callado sobre un problema que, de repente, explota en una discusión enorme. ¿Qué expresión describe mejor ese proceso?",
+        "options": [
+          "cocerse a fuego lento",
+          "ser pan comido",
+          "hacer sobremesa",
+          "no caber ni un alfiler"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cocerse a fuego lento describe un problema que se desarrolla gradualmente antes de estallar, justo como el conflicto que llevaba semanas gestándose."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la expresión que describe estar completamente lleno después de comer.",
+        "sentence": "No puedo comer ni un bocado más, estoy que ___.",
+        "answer": "revienta",
+        "explanation": "Estar que revienta describe haber comido tanto que ya no cabe nada más, encajando con la situación de no poder comer un bocado más."
+      }
+    ]
+  },
+  {
+    "slug": "food-culture-sobremesa-2",
+    "level": "C1/C2",
+    "number": 5,
+    "title": "La Sobremesa y la Cultura de la Comida, Part 2 of 3",
+    "summary": "La comida en el mundo hispano es tanto un ritual social como un idioma propio: explora la sobremesa, los horarios, las normas tácitas de la mesa y las expresiones coloquiales que nacen de comer en compañía.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "Normas tácitas de la mesa",
         "body": [
@@ -503,7 +553,57 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
             "explanation": "El orden correcto es «este examen va a ser pan comido», usando la expresión que significa que algo será muy fácil."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes expresiones están relacionadas con el tiempo que se pasa en la mesa después de comer?",
+        "options": [
+          "hacer sobremesa",
+          "alargar la sobremesa",
+          "irse de tapas",
+          "picar algo"
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "Hacer sobremesa y alargar la sobremesa se refieren ambas al tiempo de conversación después de comer; irse de tapas y picar algo describen otras formas distintas de comer."
       },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada expresión con su significado.",
+        "pairs": [
+          {
+            "left": "ser pan comido",
+            "right": "ser algo muy fácil de hacer"
+          },
+          {
+            "left": "no tener ni media naranja",
+            "right": "no tener pareja sentimental"
+          },
+          {
+            "left": "el aperitivo",
+            "right": "bebida o tapa ligera antes de comer"
+          },
+          {
+            "left": "llevarse las sobras",
+            "right": "guardar la comida que sobró"
+          }
+        ],
+        "explanation": "Cada expresión conserva un significado propio, muchas veces alejado del sentido literal de sus palabras relacionadas con la comida."
+      }
+    ]
+  },
+  {
+    "slug": "food-culture-sobremesa-3",
+    "level": "C1/C2",
+    "number": 6,
+    "title": "La Sobremesa y la Cultura de la Comida, Part 3 of 3",
+    "summary": "La comida en el mundo hispano es tanto un ritual social como un idioma propio: explora la sobremesa, los horarios, las normas tácitas de la mesa y las expresiones coloquiales que nacen de comer en compañía.",
+    "duration": "6 min",
+    "sections": [
       {
         "heading": "En la práctica",
         "body": [
@@ -588,63 +688,6 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "Un amigo lleva semanas callado sobre un problema que, de repente, explota en una discusión enorme. ¿Qué expresión describe mejor ese proceso?",
-        "options": [
-          "cocerse a fuego lento",
-          "ser pan comido",
-          "hacer sobremesa",
-          "no caber ni un alfiler"
-        ],
-        "correctIndex": 0,
-        "explanation": "Cocerse a fuego lento describe un problema que se desarrolla gradualmente antes de estallar, justo como el conflicto que llevaba semanas gestándose."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la expresión que describe estar completamente lleno después de comer.",
-        "sentence": "No puedo comer ni un bocado más, estoy que ___.",
-        "answer": "revienta",
-        "explanation": "Estar que revienta describe haber comido tanto que ya no cabe nada más, encajando con la situación de no poder comer un bocado más."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de las siguientes expresiones están relacionadas con el tiempo que se pasa en la mesa después de comer?",
-        "options": [
-          "hacer sobremesa",
-          "alargar la sobremesa",
-          "irse de tapas",
-          "picar algo"
-        ],
-        "correctIndexes": [
-          0,
-          1
-        ],
-        "explanation": "Hacer sobremesa y alargar la sobremesa se refieren ambas al tiempo de conversación después de comer; irse de tapas y picar algo describen otras formas distintas de comer."
-      },
-      {
-        "type": "matching",
-        "instructions": "Relaciona cada expresión con su significado.",
-        "pairs": [
-          {
-            "left": "ser pan comido",
-            "right": "ser algo muy fácil de hacer"
-          },
-          {
-            "left": "no tener ni media naranja",
-            "right": "no tener pareja sentimental"
-          },
-          {
-            "left": "el aperitivo",
-            "right": "bebida o tapa ligera antes de comer"
-          },
-          {
-            "left": "llevarse las sobras",
-            "right": "guardar la comida que sobró"
-          }
-        ],
-        "explanation": "Cada expresión conserva un significado propio, muchas veces alejado del sentido literal de sus palabras relacionadas con la comida."
-      },
-      {
         "type": "translate",
         "direction": "en-es",
         "prompt": "Traduce la frase al español usando una expresión coloquial de la lección.",
@@ -676,12 +719,12 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "soccer-popular-passion",
+    "slug": "soccer-popular-passion-1",
     "level": "C1/C2",
-    "number": 3,
-    "title": "Fútbol y Pasión Popular: El Lenguaje del Deporte",
+    "number": 7,
+    "title": "Fútbol y Pasión Popular: El Lenguaje del Deporte, Part 1 of 2",
     "summary": "El fútbol desborda el estadio y se instala en el lenguaje cotidiano del mundo hispano: descubre cómo sus metáforas explican política, trabajo y vida social, mucho más allá del marcador.",
-    "duration": "19 min",
+    "duration": "9 min",
     "sections": [
       {
         "heading": "Un idioma que se juega en el campo y se habla en la calle",
@@ -756,7 +799,53 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
             "explanation": "El clásico designa el partido entre los dos equipos más importantes o rivales de una liga, el enfrentamiento más esperado del calendario."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Una empresa estaba a punto de quebrar, pero cambió de estrategia y terminó el año con ganancias récord. ¿Qué expresión futbolística describe mejor ese cambio?",
+        "options": [
+          "remontar",
+          "quedarse en el banquillo",
+          "pasar la pelota",
+          "picarse con alguien"
+        ],
+        "correctIndex": 0,
+        "explanation": "Remontar describe revertir una situación desfavorable hasta lograr el resultado contrario, exactamente lo que hizo la empresa al pasar de estar en quiebra a ganancias récord."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la expresión que describe tener un nivel muy superior al de los demás.",
+        "sentence": "Después de tanto entrenar, ahora juega ___ comparado con sus compañeros de equipo.",
+        "answer": "en otra liga",
+        "explanation": "Jugar en otra liga significa tener un nivel muy superior a los demás en algún ámbito, encajando con la mejora notable del jugador."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes expresiones están relacionadas con la identidad y el apoyo hacia un equipo, más que con el desarrollo del juego en sí?",
+        "options": [
+          "la hinchada",
+          "ser hincha de",
+          "remontar",
+          "un partido de infarto"
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "La hinchada y ser hincha de se refieren a la identidad y devoción hacia un equipo; remontar y un partido de infarto describen el desarrollo o la tensión del juego mismo."
+      }
+    ]
+  },
+  {
+    "slug": "soccer-popular-passion-2",
+    "level": "C1/C2",
+    "number": 8,
+    "title": "Fútbol y Pasión Popular: El Lenguaje del Deporte, Part 2 of 2",
+    "summary": "El fútbol desborda el estadio y se instala en el lenguaje cotidiano del mundo hispano: descubre cómo sus metáforas explican política, trabajo y vida social, mucho más allá del marcador.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Del comentarista al político: metáforas prestadas",
         "body": [
@@ -883,40 +972,6 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "Una empresa estaba a punto de quebrar, pero cambió de estrategia y terminó el año con ganancias récord. ¿Qué expresión futbolística describe mejor ese cambio?",
-        "options": [
-          "remontar",
-          "quedarse en el banquillo",
-          "pasar la pelota",
-          "picarse con alguien"
-        ],
-        "correctIndex": 0,
-        "explanation": "Remontar describe revertir una situación desfavorable hasta lograr el resultado contrario, exactamente lo que hizo la empresa al pasar de estar en quiebra a ganancias récord."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la expresión que describe tener un nivel muy superior al de los demás.",
-        "sentence": "Después de tanto entrenar, ahora juega ___ comparado con sus compañeros de equipo.",
-        "answer": "en otra liga",
-        "explanation": "Jugar en otra liga significa tener un nivel muy superior a los demás en algún ámbito, encajando con la mejora notable del jugador."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de las siguientes expresiones están relacionadas con la identidad y el apoyo hacia un equipo, más que con el desarrollo del juego en sí?",
-        "options": [
-          "la hinchada",
-          "ser hincha de",
-          "remontar",
-          "un partido de infarto"
-        ],
-        "correctIndexes": [
-          0,
-          1
-        ],
-        "explanation": "La hinchada y ser hincha de se refieren a la identidad y devoción hacia un equipo; remontar y un partido de infarto describen el desarrollo o la tensión del juego mismo."
-      },
-      {
         "type": "matching",
         "instructions": "Relaciona cada expresión con su significado.",
         "pairs": [
@@ -969,12 +1024,12 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "music-dance-regional-identity",
+    "slug": "music-dance-regional-identity-1",
     "level": "C1/C2",
-    "number": 4,
-    "title": "Música, Baile e Identidad Regional",
+    "number": 9,
+    "title": "Música, Baile e Identidad Regional, Part 1 of 2",
     "summary": "Del tango al reguetón, cada ritmo del mundo hispano cuenta la historia de la región que lo creó. Explora esos géneros, su vocabulario y las expresiones coloquiales que han pasado del baile al habla cotidiana.",
-    "duration": "20 min",
+    "duration": "10 min",
     "sections": [
       {
         "heading": "Ritmos que son mapas y también son historia",
@@ -1049,7 +1104,53 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
             "explanation": "El lunfardo es el argot popular rioplatense nacido de la inmigración, históricamente asociado al tango y muy presente en sus letras."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "En la boda, la banda tocó una canción y todo el mundo se levantó de golpe a bailar con entusiasmo. ¿Qué expresión describe mejor lo que hizo la banda?",
+        "options": [
+          "prender la fiesta",
+          "no tener oído",
+          "tanguear",
+          "el arrabal"
+        ],
+        "correctIndex": 0,
+        "explanation": "Prender la fiesta significa animar o intensificar el ambiente festivo, exactamente lo que logró la banda al hacer que todos se levantaran a bailar."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la expresión que describe perder la timidez y disfrutar plenamente al bailar.",
+        "sentence": "Al principio no quería bailar, pero después de un rato se ___ y no paró en toda la noche.",
+        "answer": "soltó el pelo",
+        "explanation": "Soltarse el pelo significa perder la timidez y disfrutar plenamente, especialmente al bailar, tal como describe la situación."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes palabras o expresiones están directamente relacionadas con el origen histórico del tango?",
+        "options": [
+          "el lunfardo",
+          "el arrabal",
+          "el perreo",
+          "prender la fiesta"
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "El lunfardo y el arrabal están asociados históricamente al origen del tango en Buenos Aires y Montevideo; el perreo y prender la fiesta están relacionados con otros géneros y con el ambiente festivo en general."
+      }
+    ]
+  },
+  {
+    "slug": "music-dance-regional-identity-2",
+    "level": "C1/C2",
+    "number": 10,
+    "title": "Música, Baile e Identidad Regional, Part 2 of 2",
+    "summary": "Del tango al reguetón, cada ritmo del mundo hispano cuenta la historia de la región que lo creó. Explora esos géneros, su vocabulario y las expresiones coloquiales que han pasado del baile al habla cotidiana.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Salsa, cumbia y reguetón: del Caribe al mundo",
         "body": [
@@ -1176,40 +1277,6 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "En la boda, la banda tocó una canción y todo el mundo se levantó de golpe a bailar con entusiasmo. ¿Qué expresión describe mejor lo que hizo la banda?",
-        "options": [
-          "prender la fiesta",
-          "no tener oído",
-          "tanguear",
-          "el arrabal"
-        ],
-        "correctIndex": 0,
-        "explanation": "Prender la fiesta significa animar o intensificar el ambiente festivo, exactamente lo que logró la banda al hacer que todos se levantaran a bailar."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la expresión que describe perder la timidez y disfrutar plenamente al bailar.",
-        "sentence": "Al principio no quería bailar, pero después de un rato se ___ y no paró en toda la noche.",
-        "answer": "soltó el pelo",
-        "explanation": "Soltarse el pelo significa perder la timidez y disfrutar plenamente, especialmente al bailar, tal como describe la situación."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de las siguientes palabras o expresiones están directamente relacionadas con el origen histórico del tango?",
-        "options": [
-          "el lunfardo",
-          "el arrabal",
-          "el perreo",
-          "prender la fiesta"
-        ],
-        "correctIndexes": [
-          0,
-          1
-        ],
-        "explanation": "El lunfardo y el arrabal están asociados históricamente al origen del tango en Buenos Aires y Montevideo; el perreo y prender la fiesta están relacionados con otros géneros y con el ambiente festivo en general."
-      },
-      {
         "type": "matching",
         "instructions": "Relaciona cada expresión con su significado.",
         "pairs": [
@@ -1262,12 +1329,12 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "superstitions-folk-beliefs",
+    "slug": "superstitions-folk-beliefs-1",
     "level": "C1/C2",
-    "number": 5,
-    "title": "Supersticiones y Creencias Populares",
+    "number": 11,
+    "title": "Supersticiones y Creencias Populares, Part 1 of 2",
     "summary": "Desde tocar madera hasta la mala sombra del martes trece, recorre las supersticiones más extendidas del mundo hispano y las expresiones coloquiales que revelan cuánto siguen vivas en el habla diaria.",
-    "duration": "19 min",
+    "duration": "9 min",
     "sections": [
       {
         "heading": "Creer sin creer del todo",
@@ -1342,7 +1409,53 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
             "explanation": "Ni te cases ni te embarques es el refrán tradicional que advierte contra tomar decisiones importantes en martes trece, considerado de mala suerte."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Cada vez que tu primo organiza un viaje, algo sale mal: se cancela el vuelo, pierde el equipaje o se enferma. ¿Qué palabra describe esa reputación?",
+        "options": [
+          "ser gafe",
+          "de buen agüero",
+          "tener mano de santo",
+          "cruzar los dedos"
+        ],
+        "correctIndex": 0,
+        "explanation": "Ser gafe describe atraer mala suerte de forma habitual, exactamente la reputación que tiene tu primo con sus viajes."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la expresión que se usa como precaución ante una posibilidad remota de mala suerte.",
+        "sentence": "No creo que llueva, pero llevo el paraguas ___.",
+        "answer": "por si las moscas",
+        "explanation": "Por si las moscas significa por precaución, ante la posibilidad remota de algo, encajando con llevar el paraguas sin estar seguro de que va a llover."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes expresiones están relacionadas con desear o esperar buena suerte?",
+        "options": [
+          "cruzar los dedos",
+          "de buen agüero",
+          "ser gafe",
+          "de mal agüero"
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "Cruzar los dedos y de buen agüero están asociadas a desear o esperar buena suerte; ser gafe y de mal agüero se refieren, en cambio, a la mala suerte."
+      }
+    ]
+  },
+  {
+    "slug": "superstitions-folk-beliefs-2",
+    "level": "C1/C2",
+    "number": 12,
+    "title": "Supersticiones y Creencias Populares, Part 2 of 2",
+    "summary": "Desde tocar madera hasta la mala sombra del martes trece, recorre las supersticiones más extendidas del mundo hispano y las expresiones coloquiales que revelan cuánto siguen vivas en el habla diaria.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Rituales de protección y buena fortuna",
         "body": [
@@ -1469,40 +1582,6 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "Cada vez que tu primo organiza un viaje, algo sale mal: se cancela el vuelo, pierde el equipaje o se enferma. ¿Qué palabra describe esa reputación?",
-        "options": [
-          "ser gafe",
-          "de buen agüero",
-          "tener mano de santo",
-          "cruzar los dedos"
-        ],
-        "correctIndex": 0,
-        "explanation": "Ser gafe describe atraer mala suerte de forma habitual, exactamente la reputación que tiene tu primo con sus viajes."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la expresión que se usa como precaución ante una posibilidad remota de mala suerte.",
-        "sentence": "No creo que llueva, pero llevo el paraguas ___.",
-        "answer": "por si las moscas",
-        "explanation": "Por si las moscas significa por precaución, ante la posibilidad remota de algo, encajando con llevar el paraguas sin estar seguro de que va a llover."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de las siguientes expresiones están relacionadas con desear o esperar buena suerte?",
-        "options": [
-          "cruzar los dedos",
-          "de buen agüero",
-          "ser gafe",
-          "de mal agüero"
-        ],
-        "correctIndexes": [
-          0,
-          1
-        ],
-        "explanation": "Cruzar los dedos y de buen agüero están asociadas a desear o esperar buena suerte; ser gafe y de mal agüero se refieren, en cambio, a la mala suerte."
-      },
-      {
         "type": "matching",
         "instructions": "Relaciona cada expresión con su significado.",
         "pairs": [
@@ -1555,12 +1634,12 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "piropos-cortesia-trato-social",
+    "slug": "piropos-cortesia-trato-social-1",
     "level": "C1/C2",
-    "number": 6,
-    "title": "Piropos, Cortesía y Trato Social",
+    "number": 13,
+    "title": "Piropos, Cortesía y Trato Social, Part 1 of 2",
     "summary": "Explora las normas de cortesía, los piropos y las formas de trato en el mundo hispanohablante: cómo saludar, halagar, pedir favores y comportarse como invitado.",
-    "duration": "19 min",
+    "duration": "10 min",
     "sections": [
       {
         "heading": "El arte del piropo",
@@ -1640,7 +1719,58 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
             "en": "Come on, help yourself to a bit more, there's plenty of food."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué significa el piropo 'Está hecho un pincel'?",
+        "options": [
+          "Que se ve muy elegante",
+          "Que pinta cuadros",
+          "Que está cansado",
+          "Que es artista"
+        ],
+        "correctIndex": 0,
+        "explanation": "\"Estar hecho un pincel\" es una forma coloquial de decir que alguien se ve muy arreglado o elegante."
       },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de estas son formas de suavizar una petición?",
+        "options": [
+          "Si no es mucha molestia",
+          "Quería pedirte un favor",
+          "Hazlo ahora mismo",
+          "Cuando tengas un segundo"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "Las frases colchón y el imperfecto de cortesía suavizan la petición; el imperativo directo no."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce la frase al español usando una expresión coloquial de la lección.",
+        "source": "I don't know if you could give me a hand with this.",
+        "answer": "No sé si podrías echarme una manita con esto.",
+        "altAnswers": [
+          "No sé si podrías echarme una mano con esto."
+        ],
+        "explanation": "\"Echar una manita\" es una forma coloquial de decir 'ayudar'."
+      }
+    ]
+  },
+  {
+    "slug": "piropos-cortesia-trato-social-2",
+    "level": "C1/C2",
+    "number": 14,
+    "title": "Piropos, Cortesía y Trato Social, Part 2 of 2",
+    "summary": "Explora las normas de cortesía, los piropos y las formas de trato en el mundo hispanohablante: cómo saludar, halagar, pedir favores y comportarse como invitado.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Cumplidos y respuestas: el ping-pong de la cortesía",
         "body": [
@@ -1715,45 +1845,6 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "¿Qué significa el piropo 'Está hecho un pincel'?",
-        "options": [
-          "Que se ve muy elegante",
-          "Que pinta cuadros",
-          "Que está cansado",
-          "Que es artista"
-        ],
-        "correctIndex": 0,
-        "explanation": "\"Estar hecho un pincel\" es una forma coloquial de decir que alguien se ve muy arreglado o elegante."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de estas son formas de suavizar una petición?",
-        "options": [
-          "Si no es mucha molestia",
-          "Quería pedirte un favor",
-          "Hazlo ahora mismo",
-          "Cuando tengas un segundo"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          3
-        ],
-        "explanation": "Las frases colchón y el imperfecto de cortesía suavizan la petición; el imperativo directo no."
-      },
-      {
-        "type": "translate",
-        "direction": "en-es",
-        "prompt": "Traduce la frase al español usando una expresión coloquial de la lección.",
-        "source": "I don't know if you could give me a hand with this.",
-        "answer": "No sé si podrías echarme una manita con esto.",
-        "altAnswers": [
-          "No sé si podrías echarme una mano con esto."
-        ],
-        "explanation": "\"Echar una manita\" es una forma coloquial de decir 'ayudar'."
-      },
-      {
         "type": "fill-blank",
         "prompt": "Completa la expresión de modestia ante un cumplido.",
         "sentence": "Ay, no, ___ va, cualquiera lo hace.",
@@ -1797,5 +1888,5 @@ export const COSAS_COLOQUIALES_LESSONS: Lesson[] = [
         "explanation": "\"Bueno, ya me voy yendo\" es la forma típica de anunciar que uno se va, antes de seguir conversando unos minutos más."
       }
     ]
-  },
+  }
 ];

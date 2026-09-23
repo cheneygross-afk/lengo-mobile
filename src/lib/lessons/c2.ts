@@ -2,12 +2,12 @@ import type { Lesson } from "./types";
 
 export const C2_LESSONS: Lesson[] = [
   {
-    "slug": "legal-administrative-spanish-part-1",
+    "slug": "legal-administrative-spanish-part-1-1",
     "level": "C2",
     "number": 1,
-    "title": "Español Jurídico y Administrativo (Parte 1 de 2)",
+    "title": "Español Jurídico y Administrativo (Parte 1 de 2), Part 1 of 3",
     "summary": "Familiarízate con el vocabulario y las fórmulas fijas de los documentos legales y administrativos, desde el suscrito y el compareciente hasta la sentencia y el poder notarial.",
-    "duration": "24 min",
+    "duration": "9 min",
     "sections": [
       {
         "heading": "El estilo jurídico: arcaísmo, precisión y fórmulas fijas",
@@ -55,7 +55,31 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "El texto explica que estas fórmulas cumplen una función de precisión legal, no estética, al fijar con claridad la declaración y su alcance."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué función cumple, según el texto, una fórmula como en virtud de dentro de un documento jurídico?",
+        "options": [
+          "Añadir un adorno estilístico sin ninguna función práctica",
+          "Indicar el fundamento o la autoridad que justifica una acción",
+          "Sustituir por completo la firma del documento",
+          "Acortar la extensión del texto legal"
+        ],
+        "correctIndex": 1,
+        "explanation": "La expresión en virtud de indica precisamente el fundamento o la autoridad que respalda una acción o una declaración dentro de un documento jurídico."
+      }
+    ]
+  },
+  {
+    "slug": "legal-administrative-spanish-part-1-2",
+    "level": "C2",
+    "number": 2,
+    "title": "Español Jurídico y Administrativo (Parte 1 de 2), Part 2 of 3",
+    "summary": "Familiarízate con el vocabulario y las fórmulas fijas de los documentos legales y administrativos, desde el suscrito y el compareciente hasta la sentencia y el poder notarial.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "Los sujetos del documento: el suscrito, el compareciente y el otorgante",
         "body": [
@@ -98,7 +122,26 @@ export const C2_LESSONS: Lesson[] = [
             "hint": "Piensa en el término que describe a quien comparece, es decir, a quien se presenta ante alguien."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término que designa a quien firma un documento y asume su contenido.",
+        "sentence": "El ___ declara bajo su responsabilidad que la información proporcionada es veraz.",
+        "answer": "suscrito",
+        "explanation": "El suscrito designa a la persona que firma un documento y asume la responsabilidad de lo declarado en él."
+      }
+    ]
+  },
+  {
+    "slug": "legal-administrative-spanish-part-1-3",
+    "level": "C2",
+    "number": 3,
+    "title": "Español Jurídico y Administrativo (Parte 1 de 2), Part 3 of 3",
+    "summary": "Familiarízate con el vocabulario y las fórmulas fijas de los documentos legales y administrativos, desde el suscrito y el compareciente hasta la sentencia y el poder notarial.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "El aparato del proceso judicial y la resolución administrativa",
         "body": [
@@ -153,25 +196,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "¿Qué función cumple, según el texto, una fórmula como en virtud de dentro de un documento jurídico?",
-        "options": [
-          "Añadir un adorno estilístico sin ninguna función práctica",
-          "Indicar el fundamento o la autoridad que justifica una acción",
-          "Sustituir por completo la firma del documento",
-          "Acortar la extensión del texto legal"
-        ],
-        "correctIndex": 1,
-        "explanation": "La expresión en virtud de indica precisamente el fundamento o la autoridad que respalda una acción o una declaración dentro de un documento jurídico."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la oración con el término que designa a quien firma un documento y asume su contenido.",
-        "sentence": "El ___ declara bajo su responsabilidad que la información proporcionada es veraz.",
-        "answer": "suscrito",
-        "explanation": "El suscrito designa a la persona que firma un documento y asume la responsabilidad de lo declarado en él."
-      },
-      {
         "type": "multi-select",
         "question": "¿Cuáles de los siguientes términos corresponden al ámbito judicial según lo estudiado?",
         "options": [
@@ -192,7 +216,7 @@ export const C2_LESSONS: Lesson[] = [
   {
     "slug": "legal-administrative-spanish-part-1-mastery-check",
     "level": "C2",
-    "number": 2,
+    "number": 4,
     "title": "Prueba de Dominio: Español Jurídico y Administrativo (Parte 1)",
     "summary": "Una prueba rigurosa sobre el vocabulario de los sujetos del documento jurídico y del proceso judicial y administrativo, aplicada a fragmentos legales enteramente nuevos.",
     "duration": "10 min",
@@ -249,7 +273,12 @@ export const C2_LESSONS: Lesson[] = [
       {
         "type": "multiple-choice",
         "question": "En un litigio por incumplimiento de contrato, ¿qué término designa a la parte que inicia la acción legal contra la otra?",
-        "options": ["el demandado", "el demandante", "el compareciente", "el otorgante"],
+        "options": [
+          "el demandado",
+          "el demandante",
+          "el compareciente",
+          "el otorgante"
+        ],
         "correctIndex": 1,
         "explanation": "El demandante es quien inicia una acción legal contra otra persona, denominada esta última demandado; ninguno de los otros dos términos designa a una parte de un litigio judicial."
       },
@@ -302,20 +331,48 @@ export const C2_LESSONS: Lesson[] = [
           "El notario dio fe de la identidad de los comparecientes antes de autorizar la escritura.",
           "La otorgante compareció personalmente para conceder el poder a su representante."
         ],
-        "correctIndexes": [0, 2, 3],
+        "correctIndexes": [
+          0,
+          2,
+          3
+        ],
         "explanation": "Las opciones primera, tercera y cuarta emplean correctamente el vocabulario y las funciones descritas; la segunda es contradictoria, porque precisamente dar fe de la identidad de los comparecientes es la función esencial que define al fedatario."
       },
       {
         "type": "word-order",
         "prompt": "Ordena las palabras para describir un acto notarial de compraventa.",
-        "words": ["el", "compareciente", "ratificó", "ante", "el", "notario", "su", "voluntad", "de", "vender", "el", "inmueble"],
+        "words": [
+          "el",
+          "compareciente",
+          "ratificó",
+          "ante",
+          "el",
+          "notario",
+          "su",
+          "voluntad",
+          "de",
+          "vender",
+          "el",
+          "inmueble"
+        ],
         "translation": "The appearing party confirmed before the notary their wish to sell the property.",
         "explanation": "«El compareciente» designa a quien se presenta físicamente ante el notario, en este caso para ratificar su voluntad de vender el inmueble descrito en la escritura."
       },
       {
         "type": "word-order",
         "prompt": "Ordena las palabras para describir el carácter definitivo de una resolución judicial.",
-        "words": ["la", "sentencia", "dictada", "por", "el", "tribunal", "es", "firme", "y", "definitiva"],
+        "words": [
+          "la",
+          "sentencia",
+          "dictada",
+          "por",
+          "el",
+          "tribunal",
+          "es",
+          "firme",
+          "y",
+          "definitiva"
+        ],
         "translation": "The judgment issued by the court is final and binding.",
         "explanation": "Una sentencia firme es aquella contra la que ya no cabe recurso alguno, y por tanto pone fin de manera definitiva al litigio entre las partes."
       },
@@ -325,7 +382,9 @@ export const C2_LESSONS: Lesson[] = [
         "prompt": "Traduce empleando el vocabulario formal propio de una declaración jurada.",
         "source": "The undersigned hereby declares that all information provided is true and accurate.",
         "answer": "El suscrito declara por la presente que toda la información proporcionada es veraz y exacta.",
-        "altAnswers": ["El suscrito declara, por medio de la presente, que la información proporcionada es veraz y exacta."],
+        "altAnswers": [
+          "El suscrito declara, por medio de la presente, que la información proporcionada es veraz y exacta."
+        ],
         "explanation": "«El suscrito» y «por la presente» son fórmulas fijas del registro jurídico y administrativo, ambas estudiadas en esta lección, que sustituyen con precisión formal a expresiones más coloquiales del inglés como «the undersigned» y «hereby»."
       },
       {
@@ -334,7 +393,9 @@ export const C2_LESSONS: Lesson[] = [
         "prompt": "Traduce al inglés reconociendo el vocabulario administrativo empleado.",
         "source": "El plazo perentorio para presentar el recurso vence el próximo viernes, sin posibilidad de prórroga.",
         "answer": "The deadline for filing the appeal expires next Friday, with no possibility of an extension.",
-        "altAnswers": ["The strict deadline to file the appeal runs out next Friday, and no extension will be granted."],
+        "altAnswers": [
+          "The strict deadline to file the appeal runs out next Friday, and no extension will be granted."
+        ],
         "explanation": "«Plazo perentorio» designa un límite temporal cuyo vencimiento extingue el derecho a actuar, y «prórroga» designa precisamente la ampliación de ese límite que aquí se descarta expresamente."
       },
       {
@@ -352,12 +413,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "legal-administrative-spanish-part-2",
+    "slug": "legal-administrative-spanish-part-2-1",
     "level": "C2",
-    "number": 3,
-    "title": "Español Jurídico y Administrativo (Parte 2 de 2)",
+    "number": 5,
+    "title": "Español Jurídico y Administrativo (Parte 2 de 2), Part 1 of 4",
     "summary": "Familiarízate con el vocabulario y las fórmulas fijas de los documentos legales y administrativos, desde el suscrito y el compareciente hasta la sentencia y el poder notarial.",
-    "duration": "26 min",
+    "duration": "6 min",
     "sections": [
       {
         "heading": "Contratos, cláusulas y responsabilidad: el vocabulario de las obligaciones",
@@ -377,7 +438,42 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "la responsabilidad solidaria",
             "en": "la obligación que permite exigir el cumplimiento íntegro a cualquiera de los obligados"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración sobre la función del notario.",
+        "words": [
+          "el",
+          "notario",
+          "da",
+          "fe",
+          "de",
+          "la",
+          "identidad",
+          "de",
+          "los",
+          "comparecientes"
+        ],
+        "explanation": "La oración resultante describe una de las funciones esenciales del notario: 'El notario da fe de la identidad de los comparecientes'."
+      }
+    ]
+  },
+  {
+    "slug": "legal-administrative-spanish-part-2-2",
+    "level": "C2",
+    "number": 6,
+    "title": "Español Jurídico y Administrativo (Parte 2 de 2), Part 2 of 4",
+    "summary": "Familiarízate con el vocabulario y las fórmulas fijas de los documentos legales y administrativos, desde el suscrito y el compareciente hasta la sentencia y el poder notarial.",
+    "duration": "9 min",
+    "sections": [
+      {
+        "heading": "Contratos, cláusulas y responsabilidad: el vocabulario de las obligaciones (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "el apoderado",
             "en": "la persona que actúa en representación de otra gracias a un poder notarial"
@@ -416,7 +512,42 @@ export const C2_LESSONS: Lesson[] = [
           "Que cualquier incumplimiento contractual derivado del presente instrumento dará lugar a la responsabilidad solidaria de los obligados, conforme a la normativa vigente.",
           "En prueba de conformidad, firman los comparecientes en presencia del notario, quien procede a la legalización de las firmas correspondientes."
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término jurídico con su definición.",
+        "pairs": [
+          {
+            "left": "el otorgante",
+            "right": "quien concede algo mediante un documento"
+          },
+          {
+            "left": "el compareciente",
+            "right": "quien se presenta ante una autoridad o un notario"
+          },
+          {
+            "left": "el fedatario",
+            "right": "quien certifica la validez de un acto"
+          },
+          {
+            "left": "el apoderado",
+            "right": "quien actúa en representación de otra persona"
+          }
+        ],
+        "explanation": "Cada uno de estos términos designa un papel jurídico específico dentro de un acto o un documento formal."
+      }
+    ]
+  },
+  {
+    "slug": "legal-administrative-spanish-part-2-3",
+    "level": "C2",
+    "number": 7,
+    "title": "Español Jurídico y Administrativo (Parte 2 de 2), Part 3 of 4",
+    "summary": "Familiarízate con el vocabulario y las fórmulas fijas de los documentos legales y administrativos, desde el suscrito y el compareciente hasta la sentencia y el poder notarial.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "Vocabulario: el español jurídico y administrativo",
         "body": [
@@ -494,7 +625,37 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "el demandado",
             "en": "la persona contra quien se dirige una acción legal"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué consecuencia tiene, según el texto, el vencimiento de un plazo perentorio sin que se conceda una prórroga?",
+        "options": [
+          "El derecho a actuar se extingue",
+          "El plazo se renueva automáticamente sin necesidad de solicitud",
+          "El trámite queda suspendido de forma indefinida sin consecuencias",
+          "La resolución administrativa pierde toda validez legal"
+        ],
+        "correctIndex": 0,
+        "explanation": "El texto explica que, una vez vencido un plazo perentorio, el derecho a actuar se extingue, salvo que se conceda una prórroga expresa."
+      }
+    ]
+  },
+  {
+    "slug": "legal-administrative-spanish-part-2-4",
+    "level": "C2",
+    "number": 8,
+    "title": "Español Jurídico y Administrativo (Parte 2 de 2), Part 4 of 4",
+    "summary": "Familiarízate con el vocabulario y las fórmulas fijas de los documentos legales y administrativos, desde el suscrito y el compareciente hasta la sentencia y el poder notarial.",
+    "duration": "4 min",
+    "sections": [
+      {
+        "heading": "Vocabulario: el español jurídico y administrativo (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "el demandante",
             "en": "la persona que inicia una acción legal contra otra"
@@ -566,65 +727,12 @@ export const C2_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": [
-      {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre la función del notario.",
-        "words": [
-          "el",
-          "notario",
-          "da",
-          "fe",
-          "de",
-          "la",
-          "identidad",
-          "de",
-          "los",
-          "comparecientes"
-        ],
-        "explanation": "La oración resultante describe una de las funciones esenciales del notario: 'El notario da fe de la identidad de los comparecientes'."
-      },
-      {
-        "type": "matching",
-        "instructions": "Relaciona cada término jurídico con su definición.",
-        "pairs": [
-          {
-            "left": "el otorgante",
-            "right": "quien concede algo mediante un documento"
-          },
-          {
-            "left": "el compareciente",
-            "right": "quien se presenta ante una autoridad o un notario"
-          },
-          {
-            "left": "el fedatario",
-            "right": "quien certifica la validez de un acto"
-          },
-          {
-            "left": "el apoderado",
-            "right": "quien actúa en representación de otra persona"
-          }
-        ],
-        "explanation": "Cada uno de estos términos designa un papel jurídico específico dentro de un acto o un documento formal."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "¿Qué consecuencia tiene, según el texto, el vencimiento de un plazo perentorio sin que se conceda una prórroga?",
-        "options": [
-          "El derecho a actuar se extingue",
-          "El plazo se renueva automáticamente sin necesidad de solicitud",
-          "El trámite queda suspendido de forma indefinida sin consecuencias",
-          "La resolución administrativa pierde toda validez legal"
-        ],
-        "correctIndex": 0,
-        "explanation": "El texto explica que, una vez vencido un plazo perentorio, el derecho a actuar se extingue, salvo que se conceda una prórroga expresa."
-      }
-    ]
+    "exercises": []
   },
   {
     "slug": "legal-administrative-spanish-part-2-mastery-check",
     "level": "C2",
-    "number": 4,
+    "number": 9,
     "title": "Prueba de Dominio: Español Jurídico y Administrativo (Parte 2)",
     "summary": "Una prueba centrada en el vocabulario de los contratos, las cláusulas, la responsabilidad solidaria y la representación mediante poder notarial, aplicada a situaciones jurídicas enteramente nuevas.",
     "duration": "10 min",
@@ -699,20 +807,48 @@ export const C2_LESSONS: Lesson[] = [
           "El incumplimiento de una cláusula puede dar lugar a responsabilidad solidaria entre los obligados.",
           "La legalización de firma certifica el contenido íntegro y la veracidad de un contrato."
         ],
-        "correctIndexes": [0, 2],
+        "correctIndexes": [
+          0,
+          2
+        ],
         "explanation": "La primera y la tercera oración emplean correctamente el vocabulario; la segunda invierte los papeles, ya que el otorgante es quien concede el poder, no quien lo recibe, y la cuarta atribuye a la legalización de firma una función que no le corresponde."
       },
       {
         "type": "word-order",
         "prompt": "Ordena las palabras para describir la actuación de un representante legal.",
-        "words": ["el", "apoderado", "actuó", "en", "representación", "del", "otorgante", "ante", "el", "banco"],
+        "words": [
+          "el",
+          "apoderado",
+          "actuó",
+          "en",
+          "representación",
+          "del",
+          "otorgante",
+          "ante",
+          "el",
+          "banco"
+        ],
         "translation": "The attorney-in-fact acted on behalf of the grantor before the bank.",
         "explanation": "El apoderado actúa en representación del otorgante, la persona que le concedió el poder notarial correspondiente, en este caso frente a una entidad bancaria."
       },
       {
         "type": "word-order",
         "prompt": "Ordena las palabras para describir el alcance de la responsabilidad solidaria.",
-        "words": ["la", "responsabilidad", "solidaria", "permite", "exigir", "el", "pago", "íntegro", "a", "cualquiera", "de", "los", "deudores"],
+        "words": [
+          "la",
+          "responsabilidad",
+          "solidaria",
+          "permite",
+          "exigir",
+          "el",
+          "pago",
+          "íntegro",
+          "a",
+          "cualquiera",
+          "de",
+          "los",
+          "deudores"
+        ],
         "translation": "Joint and several liability allows the full payment to be demanded from any of the debtors.",
         "explanation": "La responsabilidad solidaria permite reclamar la totalidad de una deuda a cualquiera de los obligados, sin necesidad de dividir la exigencia entre todos ellos."
       },
@@ -722,7 +858,9 @@ export const C2_LESSONS: Lesson[] = [
         "prompt": "Traduce empleando el vocabulario contractual formal estudiado.",
         "source": "Any breach of this clause will result in the immediate termination of the contract.",
         "answer": "Cualquier incumplimiento de esta cláusula dará lugar a la resolución inmediata del contrato.",
-        "altAnswers": ["Todo incumplimiento de esta cláusula dará lugar a la resolución inmediata del contrato."],
+        "altAnswers": [
+          "Todo incumplimiento de esta cláusula dará lugar a la resolución inmediata del contrato."
+        ],
         "explanation": "«Incumplimiento» traduce con precisión «breach» dentro del registro contractual formal, y «dar lugar a» es la fórmula habitual para introducir la consecuencia jurídica de dicho incumplimiento."
       },
       {
@@ -731,17 +869,31 @@ export const C2_LESSONS: Lesson[] = [
         "prompt": "Traduce al inglés reconociendo el vocabulario de representación legal.",
         "source": "El apoderado, en virtud del poder notarial otorgado, firmó el contrato de arrendamiento en nombre de la empresa.",
         "answer": "The attorney-in-fact, by virtue of the notarial power of attorney granted, signed the lease agreement on behalf of the company.",
-        "altAnswers": ["The proxy holder, under the notarial power of attorney granted to him, signed the lease contract on behalf of the company."],
+        "altAnswers": [
+          "The proxy holder, under the notarial power of attorney granted to him, signed the lease contract on behalf of the company."
+        ],
         "explanation": "«Apoderado» equivale al «attorney-in-fact» o «proxy holder» del inglés jurídico, y «en virtud de» introduce aquí el fundamento —el poder notarial— que legitima su actuación en representación de la empresa."
       },
       {
         "type": "matching",
         "instructions": "Relaciona cada término jurídico con su definición correspondiente.",
         "pairs": [
-          { "left": "el litigio", "right": "una controversia entre partes que se somete a la decisión de un tribunal" },
-          { "left": "el ordenamiento jurídico", "right": "el conjunto de normas que regulan la vida social de un país" },
-          { "left": "la jurisdicción competente", "right": "el ámbito de autoridad legal facultado para conocer un asunto determinado" },
-          { "left": "el trámite burocrático", "right": "una gestión administrativa que sigue un procedimiento formal establecido" }
+          {
+            "left": "el litigio",
+            "right": "una controversia entre partes que se somete a la decisión de un tribunal"
+          },
+          {
+            "left": "el ordenamiento jurídico",
+            "right": "el conjunto de normas que regulan la vida social de un país"
+          },
+          {
+            "left": "la jurisdicción competente",
+            "right": "el ámbito de autoridad legal facultado para conocer un asunto determinado"
+          },
+          {
+            "left": "el trámite burocrático",
+            "right": "una gestión administrativa que sigue un procedimiento formal establecido"
+          }
         ],
         "explanation": "Este vocabulario técnico, propio del ámbito jurídico y administrativo, permite describir con precisión tanto los procesos judiciales como las gestiones ante la administración pública."
       },
@@ -774,7 +926,11 @@ export const C2_LESSONS: Lesson[] = [
           "El fedatario es siempre la misma persona que el apoderado en cualquier acto notarial.",
           "La legalización de firma certifica que una firma corresponde a la persona que la estampó."
         ],
-        "correctIndexes": [0, 1, 3],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
         "explanation": "El otorgante concede el poder y el apoderado actúa en su representación; ambas son funciones distintas y no equivalen a la del fedatario, que certifica la validez del acto sin ser parte de la representación."
       },
       {
@@ -792,12 +948,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "medical-health-spanish-part-1",
+    "slug": "medical-health-spanish-1",
     "level": "C2",
-    "number": 5,
-    "title": "Español Médico y de la Salud (Parte 1 de 2)",
+    "number": 10,
+    "title": "Español Médico y de la Salud, Part 1 of 6",
     "summary": "Aprende a describir síntomas, antecedentes y tratamientos con precisión clínica, y a comprender el registro técnico que emplean los profesionales de la salud más allá de las fórmulas básicas.",
-    "duration": "22 min",
+    "duration": "9 min",
     "sections": [
       {
         "heading": "Más allá de 'me duele': describir la sintomatología con precisión",
@@ -845,7 +1001,31 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "El texto explica que una descripción precisa exige detallar cualidad, intensidad, duración y evolución, información que una fórmula básica no aporta."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué distingue, según el texto, a un dolor punzante de uno sordo?",
+        "options": [
+          "Ambos términos significan exactamente lo mismo",
+          "El dolor punzante es agudo y repentino; el sordo es continuo y de intensidad moderada",
+          "El dolor sordo solo aparece durante el sueño",
+          "El dolor punzante nunca requiere atención médica"
+        ],
+        "correctIndex": 1,
+        "explanation": "El texto distingue el dolor punzante, agudo y repentino, del dolor sordo, continuo y de intensidad moderada."
+      }
+    ]
+  },
+  {
+    "slug": "medical-health-spanish-2",
+    "level": "C2",
+    "number": 11,
+    "title": "Español Médico y de la Salud, Part 2 of 6",
+    "summary": "Aprende a describir síntomas, antecedentes y tratamientos con precisión clínica, y a comprender el registro técnico que emplean los profesionales de la salud más allá de las fórmulas básicas.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "La anamnesis: el relato ordenado del historial clínico",
         "body": [
@@ -888,7 +1068,26 @@ export const C2_LESSONS: Lesson[] = [
             "hint": "Piensa en el término técnico que designa esta entrevista clínica ordenada."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término que designa el proceso de recuperación tras una cirugía.",
+        "sentence": "Durante la ___, el paciente debe evitar esfuerzos físicos intensos.",
+        "answer": "convalecencia",
+        "explanation": "La convalecencia es el proceso de recuperación gradual tras una enfermedad o una intervención quirúrgica."
+      }
+    ]
+  },
+  {
+    "slug": "medical-health-spanish-3",
+    "level": "C2",
+    "number": 12,
+    "title": "Español Médico y de la Salud, Part 3 of 6",
+    "summary": "Aprende a describir síntomas, antecedentes y tratamientos con precisión clínica, y a comprender el registro técnico que emplean los profesionales de la salud más allá de las fórmulas básicas.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "La exploración física y las pruebas complementarias",
         "body": [
@@ -942,25 +1141,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "¿Qué distingue, según el texto, a un dolor punzante de uno sordo?",
-        "options": [
-          "Ambos términos significan exactamente lo mismo",
-          "El dolor punzante es agudo y repentino; el sordo es continuo y de intensidad moderada",
-          "El dolor sordo solo aparece durante el sueño",
-          "El dolor punzante nunca requiere atención médica"
-        ],
-        "correctIndex": 1,
-        "explanation": "El texto distingue el dolor punzante, agudo y repentino, del dolor sordo, continuo y de intensidad moderada."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la oración con el término que designa el proceso de recuperación tras una cirugía.",
-        "sentence": "Durante la ___, el paciente debe evitar esfuerzos físicos intensos.",
-        "answer": "convalecencia",
-        "explanation": "La convalecencia es el proceso de recuperación gradual tras una enfermedad o una intervención quirúrgica."
-      },
-      {
         "type": "multi-select",
         "question": "¿Cuáles de los siguientes datos forma parte de una anamnesis completa, según lo estudiado?",
         "options": [
@@ -979,12 +1159,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "medical-health-spanish-part-2",
+    "slug": "medical-health-spanish-4",
     "level": "C2",
-    "number": 6,
-    "title": "Español Médico y de la Salud (Parte 2 de 2)",
+    "number": 13,
+    "title": "Español Médico y de la Salud, Part 4 of 6",
     "summary": "Aprende a describir síntomas, antecedentes y tratamientos con precisión clínica, y a comprender el registro técnico que emplean los profesionales de la salud más allá de las fórmulas básicas.",
-    "duration": "25 min",
+    "duration": "7 min",
     "sections": [
       {
         "heading": "El tratamiento, la posología y el registro técnico del especialista",
@@ -1032,7 +1212,36 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "El consentimiento informado es el documento que certifica que el paciente comprende los riesgos y beneficios del procedimiento antes de someterse a él."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración sobre la exploración física.",
+        "words": [
+          "el",
+          "médico",
+          "realizó",
+          "una",
+          "palpación",
+          "cuidadosa",
+          "de",
+          "la",
+          "zona",
+          "afectada"
+        ],
+        "explanation": "La oración resultante describe una técnica habitual de exploración física: 'El médico realizó una palpación cuidadosa de la zona afectada'."
+      }
+    ]
+  },
+  {
+    "slug": "medical-health-spanish-5",
+    "level": "C2",
+    "number": 14,
+    "title": "Español Médico y de la Salud, Part 5 of 6",
+    "summary": "Aprende a describir síntomas, antecedentes y tratamientos con precisión clínica, y a comprender el registro técnico que emplean los profesionales de la salud más allá de las fórmulas básicas.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "En la práctica",
         "body": [
@@ -1120,7 +1329,48 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "el antecedente familiar",
             "en": "una enfermedad o condición presente en los familiares directos de un paciente"
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término médico con su definición.",
+        "pairs": [
+          {
+            "left": "la posología",
+            "right": "la dosis y frecuencia de un medicamento"
           },
+          {
+            "left": "la auscultación",
+            "right": "escuchar los sonidos internos del cuerpo"
+          },
+          {
+            "left": "la recaída",
+            "right": "la reaparición de un síntoma tras la mejoría"
+          },
+          {
+            "left": "el consentimiento informado",
+            "right": "el documento que certifica la comprensión de riesgos antes de una cirugía"
+          }
+        ],
+        "explanation": "Cada término médico designa un concepto preciso dentro de la práctica clínica."
+      }
+    ]
+  },
+  {
+    "slug": "medical-health-spanish-6",
+    "level": "C2",
+    "number": 15,
+    "title": "Español Médico y de la Salud, Part 6 of 6",
+    "summary": "Aprende a describir síntomas, antecedentes y tratamientos con precisión clínica, y a comprender el registro técnico que emplean los profesionales de la salud más allá de las fórmulas básicas.",
+    "duration": "6 min",
+    "sections": [
+      {
+        "heading": "Vocabulario: el español médico (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "el antecedente patológico",
             "en": "una enfermedad o condición médica previa sufrida por el propio paciente"
@@ -1194,46 +1444,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre la exploración física.",
-        "words": [
-          "el",
-          "médico",
-          "realizó",
-          "una",
-          "palpación",
-          "cuidadosa",
-          "de",
-          "la",
-          "zona",
-          "afectada"
-        ],
-        "explanation": "La oración resultante describe una técnica habitual de exploración física: 'El médico realizó una palpación cuidadosa de la zona afectada'."
-      },
-      {
-        "type": "matching",
-        "instructions": "Relaciona cada término médico con su definición.",
-        "pairs": [
-          {
-            "left": "la posología",
-            "right": "la dosis y frecuencia de un medicamento"
-          },
-          {
-            "left": "la auscultación",
-            "right": "escuchar los sonidos internos del cuerpo"
-          },
-          {
-            "left": "la recaída",
-            "right": "la reaparición de un síntoma tras la mejoría"
-          },
-          {
-            "left": "el consentimiento informado",
-            "right": "el documento que certifica la comprensión de riesgos antes de una cirugía"
-          }
-        ],
-        "explanation": "Cada término médico designa un concepto preciso dentro de la práctica clínica."
-      },
-      {
         "type": "multiple-choice",
         "question": "Según el texto, ¿qué se entiende por una patología subyacente?",
         "options": [
@@ -1248,12 +1458,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "everyday-idioms",
+    "slug": "everyday-idioms-1",
     "level": "C2",
-    "number": 7,
-    "title": "Modismos y Expresiones Idiomáticas",
+    "number": 16,
+    "title": "Modismos y Expresiones Idiomáticas, Part 1 of 2",
     "summary": "Un recorrido por los modismos cotidianos más usados por hablantes nativos: su registro, la imagen figurada que los sostiene, las familias verbales que los organizan y los errores más comunes al emplearlos.",
-    "duration": "19 min",
+    "duration": "10 min",
     "sections": [
       {
         "heading": "El registro y el matiz de los modismos cotidianos",
@@ -1382,7 +1592,53 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Estar hasta las narices y estar hasta la coronilla comparten esa estructura y ambos expresan haber llegado al límite de la paciencia; las otras dos opciones tienen significados distintos."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "En una fiesta, alguien te cuenta una anécdota falsa solo para ver tu reacción y luego confiesa que era broma. ¿Qué modismo describe esa acción?",
+        "options": [
+          "tomar el pelo a alguien",
+          "hacer la vista gorda",
+          "costar un ojo de la cara",
+          "dar en el clavo"
+        ],
+        "correctIndex": 0,
+        "explanation": "Tomar el pelo a alguien describe hacerle creer algo falso con intención de broma; las demás opciones tienen significados distintos."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa el modismo que indica que algo tiene un precio excesivo.",
+        "sentence": "Ese abrigo de diseñador ___, así que mejor busco otra opción.",
+        "answer": "cuesta un ojo de la cara",
+        "explanation": "Costar un ojo de la cara significa tener un precio desmesurado; encaja perfectamente con la queja sobre el precio del abrigo."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes expresiones significan estar distraído o con la mente en otro lugar?",
+        "options": [
+          "estar en las nubes",
+          "estar en la luna",
+          "estar hasta las narices",
+          "ponerse las pilas"
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "Estar en las nubes y estar en la luna comparten el significado de estar distraído; las otras dos expresiones se refieren a la paciencia agotada y a espabilarse, respectivamente."
+      }
+    ]
+  },
+  {
+    "slug": "everyday-idioms-2",
+    "level": "C2",
+    "number": 17,
+    "title": "Modismos y Expresiones Idiomáticas, Part 2 of 2",
+    "summary": "Un recorrido por los modismos cotidianos más usados por hablantes nativos: su registro, la imagen figurada que los sostiene, las familias verbales que los organizan y los errores más comunes al emplearlos.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Errores frecuentes: traducción literal y mezcla de modismos",
         "body": [
@@ -1594,40 +1850,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "En una fiesta, alguien te cuenta una anécdota falsa solo para ver tu reacción y luego confiesa que era broma. ¿Qué modismo describe esa acción?",
-        "options": [
-          "tomar el pelo a alguien",
-          "hacer la vista gorda",
-          "costar un ojo de la cara",
-          "dar en el clavo"
-        ],
-        "correctIndex": 0,
-        "explanation": "Tomar el pelo a alguien describe hacerle creer algo falso con intención de broma; las demás opciones tienen significados distintos."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa el modismo que indica que algo tiene un precio excesivo.",
-        "sentence": "Ese abrigo de diseñador ___, así que mejor busco otra opción.",
-        "answer": "cuesta un ojo de la cara",
-        "explanation": "Costar un ojo de la cara significa tener un precio desmesurado; encaja perfectamente con la queja sobre el precio del abrigo."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de las siguientes expresiones significan estar distraído o con la mente en otro lugar?",
-        "options": [
-          "estar en las nubes",
-          "estar en la luna",
-          "estar hasta las narices",
-          "ponerse las pilas"
-        ],
-        "correctIndexes": [
-          0,
-          1
-        ],
-        "explanation": "Estar en las nubes y estar en la luna comparten el significado de estar distraído; las otras dos expresiones se refieren a la paciencia agotada y a espabilarse, respectivamente."
-      },
-      {
         "type": "matching",
         "instructions": "Relaciona cada modismo con su significado.",
         "pairs": [
@@ -1679,12 +1901,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "proverbs-sayings",
+    "slug": "proverbs-sayings-1",
     "level": "C2",
-    "number": 8,
-    "title": "Refranes y Dichos Populares",
+    "number": 18,
+    "title": "Refranes y Dichos Populares, Part 1 of 3",
     "summary": "Un estudio de los refranes clásicos del español: sus diferencias con el proverbio y el dicho, su estructura poética, sus aparentes contradicciones y las claves para citarlos con naturalidad en la conversación.",
-    "duration": "21 min",
+    "duration": "7 min",
     "sections": [
       {
         "heading": "Refrán, proverbio y dicho: tres formas de sabiduría condensada",
@@ -1767,7 +1989,38 @@ export const C2_LESSONS: Lesson[] = [
             "hint": "Piensa en lo contrario de mantenerse despierto y alerta."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Un amigo insiste en que dos personas muy distintas en carácter jamás podrían llevarse bien en pareja. ¿Qué refrán resume esa idea?",
+        "options": [
+          "cada oveja con su pareja",
+          "más vale tarde que nunca",
+          "las paredes oyen",
+          "a lo hecho, pecho"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cada oveja con su pareja expresa que cada quien encaja mejor con alguien de condición o gustos semejantes; las demás opciones no encajan con esa idea."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa el refrán que aconseja actuar con rapidez y diligencia.",
+        "sentence": "A quien madruga, ___, así que más vale empezar temprano.",
+        "answer": "Dios le ayuda",
+        "explanation": "El refrán completo es «a quien madruga, Dios le ayuda», y aconseja la diligencia y la prontitud."
+      }
+    ]
+  },
+  {
+    "slug": "proverbs-sayings-2",
+    "level": "C2",
+    "number": 19,
+    "title": "Refranes y Dichos Populares, Part 2 of 3",
+    "summary": "Un estudio de los refranes clásicos del español: sus diferencias con el proverbio y el dicho, su estructura poética, sus aparentes contradicciones y las claves para citarlos con naturalidad en la conversación.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "Refranes aparentemente contradictorios: la sabiduría situacional",
         "body": [
@@ -1861,7 +2114,57 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "El refrán completo es «no hay peor sordo que el que no quiere oír», y señala que algunas personas se niegan a entender algo de forma deliberada."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de los siguientes refranes tratan sobre las consecuencias negativas de hablar de más o de forma imprudente?",
+        "options": [
+          "en boca cerrada no entran moscas",
+          "el que mucho habla, mucho yerra",
+          "no hay atajo sin trabajo",
+          "quien calla otorga"
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "En boca cerrada no entran moscas y el que mucho habla, mucho yerra advierten sobre los riesgos de hablar demasiado; los otros dos refranes tratan temas distintos."
       },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada refrán con su enseñanza.",
+        "pairs": [
+          {
+            "left": "no es oro todo lo que reluce",
+            "right": "las apariencias favorables no siempre corresponden a la realidad"
+          },
+          {
+            "left": "más vale prevenir que curar",
+            "right": "es mejor evitar un problema de antemano que resolverlo después"
+          },
+          {
+            "left": "de tal palo, tal astilla",
+            "right": "los hijos suelen parecerse a sus padres en carácter o costumbres"
+          },
+          {
+            "left": "cuando el río suena, agua lleva",
+            "right": "si circula un rumor persistente, suele haber algo de verdad detrás"
+          }
+        ],
+        "explanation": "Cada refrán condensa una observación sobre la experiencia humana que se transmite de generación en generación con esa forma fija y memorable."
+      }
+    ]
+  },
+  {
+    "slug": "proverbs-sayings-3",
+    "level": "C2",
+    "number": 20,
+    "title": "Refranes y Dichos Populares, Part 3 of 3",
+    "summary": "Un estudio de los refranes clásicos del español: sus diferencias con el proverbio y el dicho, su estructura poética, sus aparentes contradicciones y las claves para citarlos con naturalidad en la conversación.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "En la práctica",
         "body": [
@@ -2027,63 +2330,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "Un amigo insiste en que dos personas muy distintas en carácter jamás podrían llevarse bien en pareja. ¿Qué refrán resume esa idea?",
-        "options": [
-          "cada oveja con su pareja",
-          "más vale tarde que nunca",
-          "las paredes oyen",
-          "a lo hecho, pecho"
-        ],
-        "correctIndex": 0,
-        "explanation": "Cada oveja con su pareja expresa que cada quien encaja mejor con alguien de condición o gustos semejantes; las demás opciones no encajan con esa idea."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa el refrán que aconseja actuar con rapidez y diligencia.",
-        "sentence": "A quien madruga, ___, así que más vale empezar temprano.",
-        "answer": "Dios le ayuda",
-        "explanation": "El refrán completo es «a quien madruga, Dios le ayuda», y aconseja la diligencia y la prontitud."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de los siguientes refranes tratan sobre las consecuencias negativas de hablar de más o de forma imprudente?",
-        "options": [
-          "en boca cerrada no entran moscas",
-          "el que mucho habla, mucho yerra",
-          "no hay atajo sin trabajo",
-          "quien calla otorga"
-        ],
-        "correctIndexes": [
-          0,
-          1
-        ],
-        "explanation": "En boca cerrada no entran moscas y el que mucho habla, mucho yerra advierten sobre los riesgos de hablar demasiado; los otros dos refranes tratan temas distintos."
-      },
-      {
-        "type": "matching",
-        "instructions": "Relaciona cada refrán con su enseñanza.",
-        "pairs": [
-          {
-            "left": "no es oro todo lo que reluce",
-            "right": "las apariencias favorables no siempre corresponden a la realidad"
-          },
-          {
-            "left": "más vale prevenir que curar",
-            "right": "es mejor evitar un problema de antemano que resolverlo después"
-          },
-          {
-            "left": "de tal palo, tal astilla",
-            "right": "los hijos suelen parecerse a sus padres en carácter o costumbres"
-          },
-          {
-            "left": "cuando el río suena, agua lleva",
-            "right": "si circula un rumor persistente, suele haber algo de verdad detrás"
-          }
-        ],
-        "explanation": "Cada refrán condensa una observación sobre la experiencia humana que se transmite de generación en generación con esa forma fija y memorable."
-      },
-      {
         "type": "word-order",
         "prompt": "Ordena las palabras para formar el refrán correcto.",
         "words": [
@@ -2110,12 +2356,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "humor-wordplay",
+    "slug": "humor-wordplay-1",
     "level": "C2",
-    "number": 9,
-    "title": "Humor y Juegos de Palabras",
+    "number": 21,
+    "title": "Humor y Juegos de Palabras, Part 1 of 3",
     "summary": "Un análisis de los mecanismos del humor verbal en español: el doble sentido, la ironía y sus variantes regionales, el humor absurdo y las diferencias de estilo cómico entre los distintos países hispanohablantes.",
-    "duration": "21 min",
+    "duration": "7 min",
     "sections": [
       {
         "heading": "El doble sentido y la ambigüedad como motor del humor",
@@ -2198,7 +2444,38 @@ export const C2_LESSONS: Lesson[] = [
             "hint": "Es una palabra derivada de un verbo que significa burlarse con humor."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Un comentario disfrazado de elogio en realidad busca ridiculizar a la persona a la que se dirige. ¿Qué figura describe mejor ese recurso?",
+        "options": [
+          "el sarcasmo",
+          "el humor blanco",
+          "el trabalenguas",
+          "la carcajada"
+        ],
+        "correctIndex": 0,
+        "explanation": "El sarcasmo es la ironía marcada por un tono mordaz que busca herir o ridiculizar; las demás opciones no corresponden a esa intención."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa el término que designa la imitación exagerada de un estilo con fines cómicos o críticos.",
+        "sentence": "El programa hizo una ___ tan exagerada del discurso del político que todos reconocieron enseguida a quién se refería.",
+        "answer": "parodia",
+        "explanation": "La parodia es la imitación exagerada de una obra o estilo con fines cómicos o críticos."
+      }
+    ]
+  },
+  {
+    "slug": "humor-wordplay-2",
+    "level": "C2",
+    "number": 22,
+    "title": "Humor y Juegos de Palabras, Part 2 of 3",
+    "summary": "Un análisis de los mecanismos del humor verbal en español: el doble sentido, la ironía y sus variantes regionales, el humor absurdo y las diferencias de estilo cómico entre los distintos países hispanohablantes.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "El humor absurdo y la exageración cómica",
         "body": [
@@ -2298,7 +2575,58 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Cada estilo de humor tiene un tono y una función social distintos, y reconocerlos ayuda a interpretar correctamente la intención de quien los usa."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de los siguientes términos designan estilos de humor asociados a una región concreta del mundo hispanohablante?",
+        "options": [
+          "el albur",
+          "la retranca",
+          "el choteo",
+          "el humor blanco"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          2
+        ],
+        "explanation": "El albur, la retranca y el choteo son estilos de humor asociados respectivamente a México, Galicia y Cuba; el humor blanco es una categoría general sin marca regional específica."
       },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su descripción.",
+        "pairs": [
+          {
+            "left": "el remate",
+            "right": "frase final de un chiste que provoca el efecto cómico buscado"
+          },
+          {
+            "left": "el escarnio",
+            "right": "burla pública y humillante dirigida contra alguien"
+          },
+          {
+            "left": "la ocurrencia ingeniosa",
+            "right": "comentario inesperado y gracioso que sorprende por su agudeza"
+          },
+          {
+            "left": "el ingenio",
+            "right": "habilidad mental para idear soluciones o respuestas originales"
+          }
+        ],
+        "explanation": "Cada uno de estos términos describe un mecanismo o una cualidad distinta dentro del amplio terreno del humor verbal."
+      }
+    ]
+  },
+  {
+    "slug": "humor-wordplay-3",
+    "level": "C2",
+    "number": 23,
+    "title": "Humor y Juegos de Palabras, Part 3 of 3",
+    "summary": "Un análisis de los mecanismos del humor verbal en español: el doble sentido, la ironía y sus variantes regionales, el humor absurdo y las diferencias de estilo cómico entre los distintos países hispanohablantes.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "En la práctica",
         "body": [
@@ -2463,64 +2791,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "Un comentario disfrazado de elogio en realidad busca ridiculizar a la persona a la que se dirige. ¿Qué figura describe mejor ese recurso?",
-        "options": [
-          "el sarcasmo",
-          "el humor blanco",
-          "el trabalenguas",
-          "la carcajada"
-        ],
-        "correctIndex": 0,
-        "explanation": "El sarcasmo es la ironía marcada por un tono mordaz que busca herir o ridiculizar; las demás opciones no corresponden a esa intención."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa el término que designa la imitación exagerada de un estilo con fines cómicos o críticos.",
-        "sentence": "El programa hizo una ___ tan exagerada del discurso del político que todos reconocieron enseguida a quién se refería.",
-        "answer": "parodia",
-        "explanation": "La parodia es la imitación exagerada de una obra o estilo con fines cómicos o críticos."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de los siguientes términos designan estilos de humor asociados a una región concreta del mundo hispanohablante?",
-        "options": [
-          "el albur",
-          "la retranca",
-          "el choteo",
-          "el humor blanco"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          2
-        ],
-        "explanation": "El albur, la retranca y el choteo son estilos de humor asociados respectivamente a México, Galicia y Cuba; el humor blanco es una categoría general sin marca regional específica."
-      },
-      {
-        "type": "matching",
-        "instructions": "Relaciona cada término con su descripción.",
-        "pairs": [
-          {
-            "left": "el remate",
-            "right": "frase final de un chiste que provoca el efecto cómico buscado"
-          },
-          {
-            "left": "el escarnio",
-            "right": "burla pública y humillante dirigida contra alguien"
-          },
-          {
-            "left": "la ocurrencia ingeniosa",
-            "right": "comentario inesperado y gracioso que sorprende por su agudeza"
-          },
-          {
-            "left": "el ingenio",
-            "right": "habilidad mental para idear soluciones o respuestas originales"
-          }
-        ],
-        "explanation": "Cada uno de estos términos describe un mecanismo o una cualidad distinta dentro del amplio terreno del humor verbal."
-      },
-      {
         "type": "word-order",
         "prompt": "Ordena las palabras para formar la frase correcta.",
         "words": [
@@ -2550,12 +2820,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "figurative-language",
+    "slug": "figurative-language-1",
     "level": "C2",
-    "number": 10,
-    "title": "Metáforas y Lenguaje Figurado",
+    "number": 24,
+    "title": "Metáforas y Lenguaje Figurado, Part 1 of 3",
     "summary": "Un mapa detallado de las principales figuras retóricas del español: metáfora, símil, personificación, hipérbole, metonimia y sinécdoque, junto con los recursos que intensifican el lenguaje literario frente al uso cotidiano.",
-    "duration": "22 min",
+    "duration": "7 min",
     "sections": [
       {
         "heading": "La metáfora: identidad sin partícula comparativa",
@@ -2638,7 +2908,38 @@ export const C2_LESSONS: Lesson[] = [
             "hint": "Piensa en la figura que da vida humana a lo que no la tiene."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Cuál de las siguientes opciones es un ejemplo de hipérbole?",
+        "options": [
+          "te lo he dicho un millón de veces",
+          "el tiempo es oro",
+          "el Palacio anunció una reforma",
+          "hay que ganarse el pan"
+        ],
+        "correctIndex": 0,
+        "explanation": "Te lo he dicho un millón de veces es una exageración deliberada, característica de la hipérbole; las demás opciones son metáfora, metonimia y sinécdoque respectivamente."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la figura que consiste en atribuir un significado adicional y subjetivo a una palabra más allá de su definición literal.",
+        "sentence": "La palabra hogar tiene una fuerte carga de ___ relacionada con la calidez y la pertenencia.",
+        "answer": "connotación",
+        "explanation": "La connotación es el significado adicional y subjetivo que una palabra adquiere más allá de su definición literal, como ocurre con hogar frente a casa."
+      }
+    ]
+  },
+  {
+    "slug": "figurative-language-2",
+    "level": "C2",
+    "number": 25,
+    "title": "Metáforas y Lenguaje Figurado, Part 2 of 3",
+    "summary": "Un mapa detallado de las principales figuras retóricas del español: metáfora, símil, personificación, hipérbole, metonimia y sinécdoque, junto con los recursos que intensifican el lenguaje literario frente al uso cotidiano.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "La hipérbole, la metonimia y la sinécdoque",
         "body": [
@@ -2741,7 +3042,58 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Estas cuatro figuras se apoyan en la repetición, el orden o la combinación sensorial para intensificar el efecto expresivo del texto."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes figuras se basan en la repetición de un elemento lingüístico?",
+        "options": [
+          "la anáfora",
+          "la aliteración",
+          "el oxímoron",
+          "el polisíndeton"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "La anáfora, la aliteración y el polisíndeton se construyen mediante distintos tipos de repetición; el oxímoron, en cambio, combina dos términos contradictorios sin repetición."
       },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada figura con su ejemplo correspondiente.",
+        "pairs": [
+          {
+            "left": "la paradoja retórica",
+            "right": "afirmación que parece contradictoria pero encierra una verdad más profunda"
+          },
+          {
+            "left": "la paradoja",
+            "right": "cuanto menos tengo, más feliz me siento"
+          },
+          {
+            "left": "la antítesis",
+            "right": "eres mi luz y mi sombra al mismo tiempo"
+          },
+          {
+            "left": "la onomatopeya",
+            "right": "el reloj hacía tictac en la pared"
+          }
+        ],
+        "explanation": "Cada figura tiene un mecanismo distinto: el oxímoron combina dos términos contradictorios, la paradoja encierra una verdad bajo una apariencia contradictoria, la antítesis contrapone ideas opuestas y la onomatopeya imita un sonido."
+      }
+    ]
+  },
+  {
+    "slug": "figurative-language-3",
+    "level": "C2",
+    "number": 26,
+    "title": "Metáforas y Lenguaje Figurado, Part 3 of 3",
+    "summary": "Un mapa detallado de las principales figuras retóricas del español: metáfora, símil, personificación, hipérbole, metonimia y sinécdoque, junto con los recursos que intensifican el lenguaje literario frente al uso cotidiano.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "En la práctica",
         "body": [
@@ -2907,64 +3259,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "¿Cuál de las siguientes opciones es un ejemplo de hipérbole?",
-        "options": [
-          "te lo he dicho un millón de veces",
-          "el tiempo es oro",
-          "el Palacio anunció una reforma",
-          "hay que ganarse el pan"
-        ],
-        "correctIndex": 0,
-        "explanation": "Te lo he dicho un millón de veces es una exageración deliberada, característica de la hipérbole; las demás opciones son metáfora, metonimia y sinécdoque respectivamente."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la figura que consiste en atribuir un significado adicional y subjetivo a una palabra más allá de su definición literal.",
-        "sentence": "La palabra hogar tiene una fuerte carga de ___ relacionada con la calidez y la pertenencia.",
-        "answer": "connotación",
-        "explanation": "La connotación es el significado adicional y subjetivo que una palabra adquiere más allá de su definición literal, como ocurre con hogar frente a casa."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de las siguientes figuras se basan en la repetición de un elemento lingüístico?",
-        "options": [
-          "la anáfora",
-          "la aliteración",
-          "el oxímoron",
-          "el polisíndeton"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          3
-        ],
-        "explanation": "La anáfora, la aliteración y el polisíndeton se construyen mediante distintos tipos de repetición; el oxímoron, en cambio, combina dos términos contradictorios sin repetición."
-      },
-      {
-        "type": "matching",
-        "instructions": "Relaciona cada figura con su ejemplo correspondiente.",
-        "pairs": [
-          {
-            "left": "la paradoja retórica",
-            "right": "afirmación que parece contradictoria pero encierra una verdad más profunda"
-          },
-          {
-            "left": "la paradoja",
-            "right": "cuanto menos tengo, más feliz me siento"
-          },
-          {
-            "left": "la antítesis",
-            "right": "eres mi luz y mi sombra al mismo tiempo"
-          },
-          {
-            "left": "la onomatopeya",
-            "right": "el reloj hacía tictac en la pared"
-          }
-        ],
-        "explanation": "Cada figura tiene un mecanismo distinto: el oxímoron combina dos términos contradictorios, la paradoja encierra una verdad bajo una apariencia contradictoria, la antítesis contrapone ideas opuestas y la onomatopeya imita un sonido."
-      },
-      {
         "type": "word-order",
         "prompt": "Ordena las palabras para formar la frase correcta.",
         "words": [
@@ -2994,12 +3288,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "euphemisms-indirect",
+    "slug": "euphemisms-indirect-1",
     "level": "C2",
-    "number": 11,
-    "title": "Eufemismos y Lenguaje Indirecto",
+    "number": 27,
+    "title": "Eufemismos y Lenguaje Indirecto, Part 1 of 3",
     "summary": "Un análisis de cómo el español suaviza temas delicados como la muerte, el dinero y el despido laboral mediante el eufemismo, y de las claves para reconocer lo que realmente se comunica detrás del lenguaje indirecto.",
-    "duration": "21 min",
+    "duration": "7 min",
     "sections": [
       {
         "heading": "La función social del eufemismo: proteger la imagen y evitar el conflicto",
@@ -3082,7 +3376,38 @@ export const C2_LESSONS: Lesson[] = [
             "hint": "Piensa en el color que suele asociarse con las pérdidas en un balance financiero."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Una empresa anuncia que llevará a cabo una reestructuración empresarial. ¿Qué suele encubrir habitualmente esta expresión?",
+        "options": [
+          "cambios organizativos que a menudo incluyen despidos",
+          "un aumento generalizado de sueldos",
+          "la apertura de nuevas oficinas",
+          "una celebración interna de la empresa"
+        ],
+        "correctIndex": 0,
+        "explanation": "La reestructuración empresarial es un eufemismo que suele encubrir cambios organizativos que incluyen despidos, aunque se presente con un tono neutro."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa el eufemismo que se usa para referirse de forma respetuosa a alguien de edad avanzada.",
+        "sentence": "El centro cultural organiza actividades específicas para las ___ de la zona.",
+        "answer": "personas de la tercera edad",
+        "explanation": "La persona de la tercera edad es la expresión respetuosa y suavizada para referirse a alguien de edad avanzada."
+      }
+    ]
+  },
+  {
+    "slug": "euphemisms-indirect-2",
+    "level": "C2",
+    "number": 28,
+    "title": "Eufemismos y Lenguaje Indirecto, Part 2 of 3",
+    "summary": "Un análisis de cómo el español suaviza temas delicados como la muerte, el dinero y el despido laboral mediante el eufemismo, y de las claves para reconocer lo que realmente se comunica detrás del lenguaje indirecto.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "Eufemismos laborales: despedir sin decir «despedir»",
         "body": [
@@ -3176,7 +3501,58 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "La frase ordenada es «prefirió no llamar a las cosas por su nombre», expresión que describe evitar la palabra directa para referirse a algo incómodo."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes expresiones son eufemismos relacionados con la muerte?",
+        "options": [
+          "pasar a mejor vida",
+          "irse de este mundo",
+          "estar en números rojos",
+          "descansar en paz"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "Pasar a mejor vida, irse de este mundo y descansar en paz son eufemismos relacionados con la muerte; estar en números rojos se refiere a una situación económica de deuda."
       },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada expresión con el tema delicado que suaviza.",
+        "pairs": [
+          {
+            "left": "apretarse el cinturón",
+            "right": "una situación económica difícil"
+          },
+          {
+            "left": "desvincular a un empleado",
+            "right": "el despido de un trabajador"
+          },
+          {
+            "left": "la persona en situación de calle",
+            "right": "la falta de vivienda"
+          },
+          {
+            "left": "estar delicado de salud",
+            "right": "una enfermedad grave"
+          }
+        ],
+        "explanation": "Cada eufemismo sustituye una expresión más directa para suavizar un tema considerado socialmente delicado."
+      }
+    ]
+  },
+  {
+    "slug": "euphemisms-indirect-3",
+    "level": "C2",
+    "number": 29,
+    "title": "Eufemismos y Lenguaje Indirecto, Part 3 of 3",
+    "summary": "Un análisis de cómo el español suaviza temas delicados como la muerte, el dinero y el despido laboral mediante el eufemismo, y de las claves para reconocer lo que realmente se comunica detrás del lenguaje indirecto.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "En la práctica",
         "body": [
@@ -3342,64 +3718,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "Una empresa anuncia que llevará a cabo una reestructuración empresarial. ¿Qué suele encubrir habitualmente esta expresión?",
-        "options": [
-          "cambios organizativos que a menudo incluyen despidos",
-          "un aumento generalizado de sueldos",
-          "la apertura de nuevas oficinas",
-          "una celebración interna de la empresa"
-        ],
-        "correctIndex": 0,
-        "explanation": "La reestructuración empresarial es un eufemismo que suele encubrir cambios organizativos que incluyen despidos, aunque se presente con un tono neutro."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa el eufemismo que se usa para referirse de forma respetuosa a alguien de edad avanzada.",
-        "sentence": "El centro cultural organiza actividades específicas para las ___ de la zona.",
-        "answer": "personas de la tercera edad",
-        "explanation": "La persona de la tercera edad es la expresión respetuosa y suavizada para referirse a alguien de edad avanzada."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de las siguientes expresiones son eufemismos relacionados con la muerte?",
-        "options": [
-          "pasar a mejor vida",
-          "irse de este mundo",
-          "estar en números rojos",
-          "descansar en paz"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          3
-        ],
-        "explanation": "Pasar a mejor vida, irse de este mundo y descansar en paz son eufemismos relacionados con la muerte; estar en números rojos se refiere a una situación económica de deuda."
-      },
-      {
-        "type": "matching",
-        "instructions": "Relaciona cada expresión con el tema delicado que suaviza.",
-        "pairs": [
-          {
-            "left": "apretarse el cinturón",
-            "right": "una situación económica difícil"
-          },
-          {
-            "left": "desvincular a un empleado",
-            "right": "el despido de un trabajador"
-          },
-          {
-            "left": "la persona en situación de calle",
-            "right": "la falta de vivienda"
-          },
-          {
-            "left": "estar delicado de salud",
-            "right": "una enfermedad grave"
-          }
-        ],
-        "explanation": "Cada eufemismo sustituye una expresión más directa para suavizar un tema considerado socialmente delicado."
-      },
-      {
         "type": "word-order",
         "prompt": "Ordena las palabras para formar la frase correcta.",
         "words": [
@@ -3428,12 +3746,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "exclamations-emphasis",
+    "slug": "exclamations-emphasis-1",
     "level": "C2",
-    "number": 12,
-    "title": "Expresiones de Sorpresa y Énfasis",
+    "number": 30,
+    "title": "Expresiones de Sorpresa y Énfasis, Part 1 of 2",
     "summary": "Un repaso de las exclamaciones coloquiales que los hablantes nativos usan de verdad para negar con firmeza, mostrar sorpresa, reforzar una afirmación o expresar fastidio resignado, más allá de las fórmulas básicas de manual.",
-    "duration": "19 min",
+    "duration": "9 min",
     "sections": [
       {
         "heading": "Negación enfática: cuando «no» no basta",
@@ -3562,7 +3880,53 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "¡Ya te digo! y ¡y que lo digas! refuerzan un acuerdo entusiasta; las otras dos expresiones corresponden a la negación y a la sorpresa, respectivamente."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Un amigo te cuenta que ganó la lotería y tú reaccionas con total incredulidad. ¿Qué exclamación encaja mejor?",
+        "options": [
+          "¡no me lo puedo creer!",
+          "¡qué remedio!",
+          "¡faltaría más!",
+          "¡ojo!"
+        ],
+        "correctIndex": 0,
+        "explanation": "No me lo puedo creer expresa incredulidad genuina ante algo difícil de aceptar como cierto, adecuado para esa situación."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la exclamación que se usa para advertir a alguien con firmeza que no haga algo.",
+        "sentence": "¡___ decir nada de esto delante de tu jefe, podría meterte en problemas!",
+        "answer": "ni se te ocurra",
+        "explanation": "Ni se te ocurra es una prohibición tajante ante la posibilidad de que alguien haga algo, adecuada para advertir sobre las consecuencias de hablar de más."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes exclamaciones expresan una negación firme y rotunda?",
+        "options": [
+          "¡ni hablar!",
+          "¡de ninguna manera!",
+          "¡ya era hora!",
+          "¡qué me dices!"
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "Ni hablar y de ninguna manera son negaciones firmes y rotundas; las otras dos exclamaciones expresan alivio y sorpresa, respectivamente."
+      }
+    ]
+  },
+  {
+    "slug": "exclamations-emphasis-2",
+    "level": "C2",
+    "number": 31,
+    "title": "Expresiones de Sorpresa y Énfasis, Part 2 of 2",
+    "summary": "Un repaso de las exclamaciones coloquiales que los hablantes nativos usan de verdad para negar con firmeza, mostrar sorpresa, reforzar una afirmación o expresar fastidio resignado, más allá de las fórmulas básicas de manual.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Exclamaciones de fastidio y resignación",
         "body": [
@@ -3774,40 +4138,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "Un amigo te cuenta que ganó la lotería y tú reaccionas con total incredulidad. ¿Qué exclamación encaja mejor?",
-        "options": [
-          "¡no me lo puedo creer!",
-          "¡qué remedio!",
-          "¡faltaría más!",
-          "¡ojo!"
-        ],
-        "correctIndex": 0,
-        "explanation": "No me lo puedo creer expresa incredulidad genuina ante algo difícil de aceptar como cierto, adecuado para esa situación."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la exclamación que se usa para advertir a alguien con firmeza que no haga algo.",
-        "sentence": "¡___ decir nada de esto delante de tu jefe, podría meterte en problemas!",
-        "answer": "ni se te ocurra",
-        "explanation": "Ni se te ocurra es una prohibición tajante ante la posibilidad de que alguien haga algo, adecuada para advertir sobre las consecuencias de hablar de más."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de las siguientes exclamaciones expresan una negación firme y rotunda?",
-        "options": [
-          "¡ni hablar!",
-          "¡de ninguna manera!",
-          "¡ya era hora!",
-          "¡qué me dices!"
-        ],
-        "correctIndexes": [
-          0,
-          1
-        ],
-        "explanation": "Ni hablar y de ninguna manera son negaciones firmes y rotundas; las otras dos exclamaciones expresan alivio y sorpresa, respectivamente."
-      },
-      {
         "type": "matching",
         "instructions": "Relaciona cada exclamación con la actitud que expresa.",
         "pairs": [
@@ -3859,12 +4189,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "diminutives-augmentatives",
+    "slug": "diminutives-augmentatives-1",
     "level": "C2",
-    "number": 13,
-    "title": "Diminutivos, Aumentativos y su Valor Expresivo",
+    "number": 32,
+    "title": "Diminutivos, Aumentativos y su Valor Expresivo, Part 1 of 2",
     "summary": "Un estudio del valor expresivo de los sufijos -ito, -ísimo, -ón y -azo más allá del tamaño literal: afecto, ironía, torpeza, admiración y las preferencias regionales que determinan su uso.",
-    "duration": "20 min",
+    "duration": "10 min",
     "sections": [
       {
         "heading": "Más allá del tamaño: el diminutivo afectivo",
@@ -3993,7 +4323,53 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Manazas y el bocazas tienen un matiz despectivo relacionado con la torpeza y la indiscreción, respectivamente; un golazo y un exitazo expresan admiración por algo positivo."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Alguien comenta que un compañero hizo un papelón en la reunión al equivocarse de presentación delante de todos. ¿Qué connotación tiene esa palabra?",
+        "options": [
+          "una situación vergonzosa o ridícula",
+          "una situación de gran éxito",
+          "una tarea sencilla",
+          "una muestra de cariño"
+        ],
+        "correctIndex": 0,
+        "explanation": "El papelón describe una situación vergonzosa o ridícula que alguien protagoniza, en este caso el error durante la presentación."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa el aumentativo despectivo que designa a quien habla más de la cuenta y revela secretos.",
+        "sentence": "No le cuentes nada a Pablo, que es un ___ y se lo dirá a todo el mundo.",
+        "answer": "bocazas",
+        "explanation": "El bocazas es el aumentativo despectivo que designa a quien habla más de la cuenta o revela secretos."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes formas expresan afecto o ternura mediante el diminutivo, más allá de indicar un tamaño reducido?",
+        "options": [
+          "un cafecito",
+          "pobrecito",
+          "el bocazas",
+          "el problemón"
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "Un cafecito y pobrecito expresan afecto o compasión mediante el diminutivo; el bocazas y el problemón son aumentativos con matices despectivos o intensificadores distintos."
+      }
+    ]
+  },
+  {
+    "slug": "diminutives-augmentatives-2",
+    "level": "C2",
+    "number": 33,
+    "title": "Diminutivos, Aumentativos y su Valor Expresivo, Part 2 of 2",
+    "summary": "Un estudio del valor expresivo de los sufijos -ito, -ísimo, -ón y -azo más allá del tamaño literal: afecto, ironía, torpeza, admiración y las preferencias regionales que determinan su uso.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Preferencias regionales y registro: -ico, -ito, -ete",
         "body": [
@@ -4213,40 +4589,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "Alguien comenta que un compañero hizo un papelón en la reunión al equivocarse de presentación delante de todos. ¿Qué connotación tiene esa palabra?",
-        "options": [
-          "una situación vergonzosa o ridícula",
-          "una situación de gran éxito",
-          "una tarea sencilla",
-          "una muestra de cariño"
-        ],
-        "correctIndex": 0,
-        "explanation": "El papelón describe una situación vergonzosa o ridícula que alguien protagoniza, en este caso el error durante la presentación."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa el aumentativo despectivo que designa a quien habla más de la cuenta y revela secretos.",
-        "sentence": "No le cuentes nada a Pablo, que es un ___ y se lo dirá a todo el mundo.",
-        "answer": "bocazas",
-        "explanation": "El bocazas es el aumentativo despectivo que designa a quien habla más de la cuenta o revela secretos."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de las siguientes formas expresan afecto o ternura mediante el diminutivo, más allá de indicar un tamaño reducido?",
-        "options": [
-          "un cafecito",
-          "pobrecito",
-          "el bocazas",
-          "el problemón"
-        ],
-        "correctIndexes": [
-          0,
-          1
-        ],
-        "explanation": "Un cafecito y pobrecito expresan afecto o compasión mediante el diminutivo; el bocazas y el problemón son aumentativos con matices despectivos o intensificadores distintos."
-      },
-      {
         "type": "matching",
         "instructions": "Relaciona cada palabra con el matiz expresivo que transmite.",
         "pairs": [
@@ -4298,12 +4640,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "business-idioms",
+    "slug": "business-idioms-1",
     "level": "C2",
-    "number": 14,
-    "title": "Modismos del Mundo de los Negocios",
+    "number": 34,
+    "title": "Modismos del Mundo de los Negocios, Part 1 of 2",
     "summary": "Un repertorio de modismos idiomáticos del español profesional para negociar, aprobar proyectos, asumir riesgos y gestionar momentos de crisis con la naturalidad de un hablante nativo del mundo empresarial.",
-    "duration": "20 min",
+    "duration": "10 min",
     "sections": [
       {
         "heading": "Modismos de negociación: mostrar las intenciones sin rodeos",
@@ -4432,7 +4774,53 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Poner toda la carne en el asador y jugarse el todo por el todo describen un compromiso total sin reservas; tantear el terreno implica cautela y dar el visto bueno se refiere a una aprobación formal."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Un ejecutivo decide finalmente comenzar a trabajar en un proyecto que llevaba meses postergando. ¿Qué modismo describe mejor esa decisión?",
+        "options": [
+          "hincar el diente a un proyecto",
+          "dar carpetazo a algo",
+          "tantear el terreno",
+          "quedarse con el puesto"
+        ],
+        "correctIndex": 0,
+        "explanation": "Hincar el diente a un proyecto describe empezar a trabajar en él con determinación tras haberlo pospuesto; las demás opciones tienen significados distintos."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa el modismo que indica llegar a un acuerdo definitivo entre las partes de una negociación.",
+        "sentence": "Después de meses de reuniones, por fin lograron ___ con el proveedor.",
+        "answer": "cerrar un trato",
+        "explanation": "Cerrar un trato significa llegar a un acuerdo definitivo entre las partes de una negociación, adecuado para el resultado final de las reuniones."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de los siguientes modismos implican asumir un riesgo considerable en una decisión de negocios?",
+        "options": [
+          "jugársela",
+          "apostar fuerte",
+          "tener mano izquierda",
+          "hacer números"
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "Jugársela y apostar fuerte implican asumir un riesgo considerable; tener mano izquierda se refiere a la diplomacia y hacer números a un cálculo financiero detallado."
+      }
+    ]
+  },
+  {
+    "slug": "business-idioms-2",
+    "level": "C2",
+    "number": 35,
+    "title": "Modismos del Mundo de los Negocios, Part 2 of 2",
+    "summary": "Un repertorio de modismos idiomáticos del español profesional para negociar, aprobar proyectos, asumir riesgos y gestionar momentos de crisis con la naturalidad de un hablante nativo del mundo empresarial.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Modismos de crisis, cambio de rumbo y transparencia",
         "body": [
@@ -4642,40 +5030,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "Un ejecutivo decide finalmente comenzar a trabajar en un proyecto que llevaba meses postergando. ¿Qué modismo describe mejor esa decisión?",
-        "options": [
-          "hincar el diente a un proyecto",
-          "dar carpetazo a algo",
-          "tantear el terreno",
-          "quedarse con el puesto"
-        ],
-        "correctIndex": 0,
-        "explanation": "Hincar el diente a un proyecto describe empezar a trabajar en él con determinación tras haberlo pospuesto; las demás opciones tienen significados distintos."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa el modismo que indica llegar a un acuerdo definitivo entre las partes de una negociación.",
-        "sentence": "Después de meses de reuniones, por fin lograron ___ con el proveedor.",
-        "answer": "cerrar un trato",
-        "explanation": "Cerrar un trato significa llegar a un acuerdo definitivo entre las partes de una negociación, adecuado para el resultado final de las reuniones."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de los siguientes modismos implican asumir un riesgo considerable en una decisión de negocios?",
-        "options": [
-          "jugársela",
-          "apostar fuerte",
-          "tener mano izquierda",
-          "hacer números"
-        ],
-        "correctIndexes": [
-          0,
-          1
-        ],
-        "explanation": "Jugársela y apostar fuerte implican asumir un riesgo considerable; tener mano izquierda se refiere a la diplomacia y hacer números a un cálculo financiero detallado."
-      },
-      {
         "type": "matching",
         "instructions": "Relaciona cada modismo con su significado.",
         "pairs": [
@@ -4728,12 +5082,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "listening-reading-strategies-part-1",
+    "slug": "listening-reading-strategies-1",
     "level": "C2",
-    "number": 15,
-    "title": "Estrategias de Comprensión Auditiva y Lectora (Parte 1 de 2)",
+    "number": 36,
+    "title": "Estrategias de Comprensión Auditiva y Lectora, Part 1 of 8",
     "summary": "Aprende a inferir significado del contexto, reconocer cambios de registro y seguir conexiones lógicas implícitas en el español hablado a gran velocidad y en los textos escritos más densos.",
-    "duration": "28 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "Inferir significado a partir del contexto",
@@ -4754,7 +5108,37 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "a pesar de",
             "en": "un conector que anuncia una relación de contraste inminente"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué caracteriza a un lector o un oyente avanzado frente a uno de nivel intermedio?",
+        "options": [
+          "Necesita traducir cada palabra desconocida antes de continuar",
+          "Puede inferir significado a partir del contexto sin detenerse ante cada laguna léxica",
+          "Evita cualquier texto que contenga tecnicismos",
+          "Solo comprende el español cuando se habla despacio"
+        ],
+        "correctIndex": 1,
+        "explanation": "La comprensión avanzada se distingue por la capacidad de inferir sentido a partir del contexto en lugar de depender del reconocimiento palabra por palabra."
+      }
+    ]
+  },
+  {
+    "slug": "listening-reading-strategies-2",
+    "level": "C2",
+    "number": 37,
+    "title": "Estrategias de Comprensión Auditiva y Lectora, Part 2 of 8",
+    "summary": "Aprende a inferir significado del contexto, reconocer cambios de registro y seguir conexiones lógicas implícitas en el español hablado a gran velocidad y en los textos escritos más densos.",
+    "duration": "5 min",
+    "sections": [
+      {
+        "heading": "Inferir significado a partir del contexto (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "dejar la interpretación abierta",
             "en": "no resolver una ambigüedad porque el propio autor la introdujo a propósito"
@@ -4778,7 +5162,35 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "La lectura avanzada se apoya en la inferencia contextual: detenerse ante cada término desconocido rompe la comprensión global del texto."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de los siguientes fenómenos dificultan la comprensión del habla nativa rápida?",
+        "options": [
+          "La sinalefa entre palabras",
+          "La reducción de sílabas átonas",
+          "El uso de conectores explícitos",
+          "La fusión de dos palabras en una sola unidad fónica"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "La sinalefa, la reducción de sílabas átonas y la fusión de palabras son fenómenos propios del habla espontánea que exigen entrenamiento auditivo específico."
+      }
+    ]
+  },
+  {
+    "slug": "listening-reading-strategies-3",
+    "level": "C2",
+    "number": 38,
+    "title": "Estrategias de Comprensión Auditiva y Lectora, Part 3 of 8",
+    "summary": "Aprende a inferir significado del contexto, reconocer cambios de registro y seguir conexiones lógicas implícitas en el español hablado a gran velocidad y en los textos escritos más densos.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "Los cambios de registro dentro de un mismo discurso",
         "body": [
@@ -4798,7 +5210,33 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "bajar el registro para generar cercanía",
             "en": "adoptar un tono informal con el fin de estrechar la relación con el oyente"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase sobre la lectura de textos densos.",
+        "sentence": "Un texto avanzado suele omitir los conectores explícitos y confiar en que el lector ___ por sí mismo la relación lógica entre las ideas.",
+        "answer": "reconstruya",
+        "explanation": "La prosa madura confía en la capacidad del lector de reconstruir las conexiones lógicas implícitas.",
+        "hint": "forma del subjuntivo de un verbo que significa recomponer algo"
+      }
+    ]
+  },
+  {
+    "slug": "listening-reading-strategies-4",
+    "level": "C2",
+    "number": 39,
+    "title": "Estrategias de Comprensión Auditiva y Lectora, Part 4 of 8",
+    "summary": "Aprende a inferir significado del contexto, reconocer cambios de registro y seguir conexiones lógicas implícitas en el español hablado a gran velocidad y en los textos escritos más densos.",
+    "duration": "9 min",
+    "sections": [
+      {
+        "heading": "Los cambios de registro dentro de un mismo discurso (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "un quiebre de tono deliberado",
             "en": "un cambio de registro introducido a propósito para provocar un efecto"
@@ -4842,7 +5280,42 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "tender un puente lógico",
             "en": "reconstruir mentalmente la relación entre dos ideas que el texto no explicita"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración coherente sobre la inferencia.",
+        "words": [
+          "El",
+          "contexto",
+          "permite",
+          "inferir",
+          "el",
+          "sentido",
+          "de",
+          "una",
+          "palabra",
+          "desconocida"
+        ],
+        "explanation": "El orden natural sitúa el sujeto (El contexto) antes del verbo (permite) y del infinitivo con su complemento."
+      }
+    ]
+  },
+  {
+    "slug": "listening-reading-strategies-5",
+    "level": "C2",
+    "number": 40,
+    "title": "Estrategias de Comprensión Auditiva y Lectora, Part 5 of 8",
+    "summary": "Aprende a inferir significado del contexto, reconocer cambios de registro y seguir conexiones lógicas implícitas en el español hablado a gran velocidad y en los textos escritos más densos.",
+    "duration": "10 min",
+    "sections": [
+      {
+        "heading": "Conexiones lógicas implícitas en el texto escrito (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "la economía de conectores",
             "en": "el uso deliberadamente escaso de enlaces explícitos en la prosa madura"
@@ -4862,55 +5335,7 @@ export const C2_LESSONS: Lesson[] = [
             "hint": "verbo que significa recomponer algo a partir de indicios"
           }
         ]
-      }
-    ],
-    "exercises": [
-      {
-        "type": "multiple-choice",
-        "question": "¿Qué caracteriza a un lector o un oyente avanzado frente a uno de nivel intermedio?",
-        "options": [
-          "Necesita traducir cada palabra desconocida antes de continuar",
-          "Puede inferir significado a partir del contexto sin detenerse ante cada laguna léxica",
-          "Evita cualquier texto que contenga tecnicismos",
-          "Solo comprende el español cuando se habla despacio"
-        ],
-        "correctIndex": 1,
-        "explanation": "La comprensión avanzada se distingue por la capacidad de inferir sentido a partir del contexto en lugar de depender del reconocimiento palabra por palabra."
       },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de los siguientes fenómenos dificultan la comprensión del habla nativa rápida?",
-        "options": [
-          "La sinalefa entre palabras",
-          "La reducción de sílabas átonas",
-          "El uso de conectores explícitos",
-          "La fusión de dos palabras en una sola unidad fónica"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          3
-        ],
-        "explanation": "La sinalefa, la reducción de sílabas átonas y la fusión de palabras son fenómenos propios del habla espontánea que exigen entrenamiento auditivo específico."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la frase sobre la lectura de textos densos.",
-        "sentence": "Un texto avanzado suele omitir los conectores explícitos y confiar en que el lector ___ por sí mismo la relación lógica entre las ideas.",
-        "answer": "reconstruya",
-        "explanation": "La prosa madura confía en la capacidad del lector de reconstruir las conexiones lógicas implícitas.",
-        "hint": "forma del subjuntivo de un verbo que significa recomponer algo"
-      }
-    ]
-  },
-  {
-    "slug": "listening-reading-strategies-part-2",
-    "level": "C2",
-    "number": 16,
-    "title": "Estrategias de Comprensión Auditiva y Lectora (Parte 2 de 2)",
-    "summary": "Aprende a inferir significado del contexto, reconocer cambios de registro y seguir conexiones lógicas implícitas en el español hablado a gran velocidad y en los textos escritos más densos.",
-    "duration": "29 min",
-    "sections": [
       {
         "heading": "La velocidad del habla nativa y las estrategias auditivas",
         "body": [
@@ -4930,7 +5355,48 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "una forma átona apenas perceptible",
             "en": "un elemento gramatical pronunciado con tan poca fuerza que resulta difícil de captar"
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "el subtexto",
+            "right": "el significado implícito que subyace bajo las palabras literales"
           },
+          {
+            "left": "el trasfondo implícito",
+            "right": "significado no dicho abiertamente que se percibe detrás de un mensaje"
+          },
+          {
+            "left": "la escucha activa",
+            "right": "la atención plena y consciente a lo que dice el interlocutor"
+          },
+          {
+            "left": "el sobreentendido",
+            "right": "la idea que se da por supuesta sin expresarla de forma directa"
+          }
+        ],
+        "explanation": "Estos cuatro conceptos son herramientas centrales para describir cómo se construye y se percibe el significado implícito en la comunicación avanzada."
+      }
+    ]
+  },
+  {
+    "slug": "listening-reading-strategies-6",
+    "level": "C2",
+    "number": 41,
+    "title": "Estrategias de Comprensión Auditiva y Lectora, Part 6 of 8",
+    "summary": "Aprende a inferir significado del contexto, reconocer cambios de registro y seguir conexiones lógicas implícitas en el español hablado a gran velocidad y en los textos escritos más densos.",
+    "duration": "10 min",
+    "sections": [
+      {
+        "heading": "La velocidad del habla nativa y las estrategias auditivas (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "acostumbrar el oído a varios acentos",
             "en": "entrenar la comprensión auditiva con distintas variedades regionales del idioma"
@@ -4972,7 +5438,31 @@ export const C2_LESSONS: Lesson[] = [
           "Locutora: Un tema fascinante. Muchas gracias por acompañarnos.",
           "Socióloga: Gracias a ustedes por el espacio."
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Por qué los cambios de registro dentro de un mismo discurso suelen ser significativos?",
+        "options": [
+          "Porque revelan errores gramaticales del hablante",
+          "Porque casi siempre llevan una intención comunicativa concreta",
+          "Porque indican que el hablante ha perdido el hilo argumental",
+          "Porque solo ocurren en los textos escritos, nunca en el habla"
+        ],
+        "correctIndex": 1,
+        "explanation": "Un cambio de registro suele marcar una intención deliberada: generar cercanía, introducir ironía, citar a otra persona con un matiz distinto, entre otras posibilidades."
+      }
+    ]
+  },
+  {
+    "slug": "listening-reading-strategies-7",
+    "level": "C2",
+    "number": 42,
+    "title": "Estrategias de Comprensión Auditiva y Lectora, Part 7 of 8",
+    "summary": "Aprende a inferir significado del contexto, reconocer cambios de registro y seguir conexiones lógicas implícitas en el español hablado a gran velocidad y en los textos escritos más densos.",
+    "duration": "5 min",
+    "sections": [
       {
         "heading": "Vocabulario: la comprensión avanzada",
         "body": [
@@ -5050,7 +5540,24 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "la denotación",
             "en": "el significado literal y objetivo de una palabra"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "listening-reading-strategies-8",
+    "level": "C2",
+    "number": 43,
+    "title": "Estrategias de Comprensión Auditiva y Lectora, Part 8 of 8",
+    "summary": "Aprende a inferir significado del contexto, reconocer cambios de registro y seguir conexiones lógicas implícitas en el español hablado a gran velocidad y en los textos escritos más densos.",
+    "duration": "4 min",
+    "sections": [
+      {
+        "heading": "Vocabulario: la comprensión avanzada (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "el registro discursivo",
             "en": "nivel de formalidad que emplea un texto o un hablante"
@@ -5122,68 +5629,15 @@ export const C2_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": [
-      {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración coherente sobre la inferencia.",
-        "words": [
-          "El",
-          "contexto",
-          "permite",
-          "inferir",
-          "el",
-          "sentido",
-          "de",
-          "una",
-          "palabra",
-          "desconocida"
-        ],
-        "explanation": "El orden natural sitúa el sujeto (El contexto) antes del verbo (permite) y del infinitivo con su complemento."
-      },
-      {
-        "type": "matching",
-        "instructions": "Relaciona cada término con su definición.",
-        "pairs": [
-          {
-            "left": "el subtexto",
-            "right": "el significado implícito que subyace bajo las palabras literales"
-          },
-          {
-            "left": "el trasfondo implícito",
-            "right": "significado no dicho abiertamente que se percibe detrás de un mensaje"
-          },
-          {
-            "left": "la escucha activa",
-            "right": "la atención plena y consciente a lo que dice el interlocutor"
-          },
-          {
-            "left": "el sobreentendido",
-            "right": "la idea que se da por supuesta sin expresarla de forma directa"
-          }
-        ],
-        "explanation": "Estos cuatro conceptos son herramientas centrales para describir cómo se construye y se percibe el significado implícito en la comunicación avanzada."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "¿Por qué los cambios de registro dentro de un mismo discurso suelen ser significativos?",
-        "options": [
-          "Porque revelan errores gramaticales del hablante",
-          "Porque casi siempre llevan una intención comunicativa concreta",
-          "Porque indican que el hablante ha perdido el hilo argumental",
-          "Porque solo ocurren en los textos escritos, nunca en el habla"
-        ],
-        "correctIndex": 1,
-        "explanation": "Un cambio de registro suele marcar una intención deliberada: generar cercanía, introducir ironía, citar a otra persona con un matiz distinto, entre otras posibilidades."
-      }
-    ]
+    "exercises": []
   },
   {
-    "slug": "debate-persuasion-part-1",
+    "slug": "debate-persuasion-1",
     "level": "C2",
-    "number": 17,
-    "title": "El Debate y la Argumentación Persuasiva (Parte 1 de 2)",
+    "number": 44,
+    "title": "El Debate y la Argumentación Persuasiva, Part 1 of 9",
     "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
-    "duration": "29 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "Conceder antes de refutar: la estrategia de la concesión",
@@ -5204,7 +5658,37 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "ceder en lo periférico",
             "en": "conceder un punto secundario sin comprometer el núcleo del propio argumento"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Por qué conceder un punto secundario al adversario puede fortalecer la propia argumentación?",
+        "options": [
+          "Porque demuestra que se carece de argumentos sólidos",
+          "Porque transmite honestidad intelectual y refuerza la credibilidad del contraargumento posterior",
+          "Porque obliga al adversario a abandonar el debate",
+          "Porque sustituye la necesidad de aportar evidencia empírica"
+        ],
+        "correctIndex": 1,
+        "explanation": "La concesión estratégica en un punto periférico refuerza, en vez de debilitar, la autoridad del argumento principal que se defiende después."
+      }
+    ]
+  },
+  {
+    "slug": "debate-persuasion-2",
+    "level": "C2",
+    "number": 45,
+    "title": "El Debate y la Argumentación Persuasiva, Part 2 of 9",
+    "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
+    "duration": "4 min",
+    "sections": [
+      {
+        "heading": "Conceder antes de refutar: la estrategia de la concesión (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "la concesión estratégica",
             "en": "una admisión calculada que refuerza, en vez de debilitar, la propia postura"
@@ -5228,7 +5712,35 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "La concesión estratégica desarma la actitud defensiva del interlocutor y otorga mayor credibilidad al contraargumento que se presenta a continuación."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes son falacias argumentativas?",
+        "options": [
+          "La falacia ad hominem",
+          "La concesión estratégica",
+          "El argumento circular",
+          "La falacia del hombre de paja"
+        ],
+        "correctIndexes": [
+          0,
+          2,
+          3
+        ],
+        "explanation": "La falacia ad hominem, el argumento circular y la falacia del hombre de paja son razonamientos defectuosos; la concesión estratégica, en cambio, es una técnica argumentativa legítima."
+      }
+    ]
+  },
+  {
+    "slug": "debate-persuasion-3",
+    "level": "C2",
+    "number": 46,
+    "title": "El Debate y la Argumentación Persuasiva, Part 3 of 9",
+    "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "Reconocer y evitar las falacias más frecuentes",
         "body": [
@@ -5248,7 +5760,33 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "invocar un prestigio sin pruebas",
             "en": "apoyarse en una falacia de autoridad en lugar de aportar evidencia empírica"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la fórmula de desacuerdo respetuoso.",
+        "sentence": "No comparto del todo esa ___, aunque entiendo de dónde parte.",
+        "answer": "lectura",
+        "explanation": "«No comparto del todo esa lectura» es una fórmula que matiza un desacuerdo sin resultar hostil hacia el interlocutor.",
+        "hint": "sinónimo de interpretación"
+      }
+    ]
+  },
+  {
+    "slug": "debate-persuasion-4",
+    "level": "C2",
+    "number": 47,
+    "title": "El Debate y la Argumentación Persuasiva, Part 4 of 9",
+    "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
+    "duration": "4 min",
+    "sections": [
+      {
+        "heading": "Reconocer y evitar las falacias más frecuentes (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "encadenar consecuencias extremas",
             "en": "recurrir a la falacia de la pendiente resbaladiza sin justificar cada paso"
@@ -5276,7 +5814,34 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Atacar a la persona, deformar su postura y dar por probado lo que se pretende demostrar son falacias reconocidas; conceder un punto válido es, en cambio, una estrategia argumentativa legítima."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración sobre la concesión retórica.",
+        "words": [
+          "Conceder",
+          "un",
+          "punto",
+          "secundario",
+          "refuerza",
+          "el",
+          "argumento",
+          "principal"
+        ],
+        "explanation": "El sujeto (Conceder un punto secundario) precede al verbo (refuerza) y a su complemento (el argumento principal)."
+      }
+    ]
+  },
+  {
+    "slug": "debate-persuasion-5",
+    "level": "C2",
+    "number": 48,
+    "title": "El Debate y la Argumentación Persuasiva, Part 5 of 9",
+    "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Discrepar con respeto: fórmulas para el desacuerdo",
         "body": [
@@ -5320,50 +5885,37 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "¿Por qué conceder un punto secundario al adversario puede fortalecer la propia argumentación?",
-        "options": [
-          "Porque demuestra que se carece de argumentos sólidos",
-          "Porque transmite honestidad intelectual y refuerza la credibilidad del contraargumento posterior",
-          "Porque obliga al adversario a abandonar el debate",
-          "Porque sustituye la necesidad de aportar evidencia empírica"
+        "type": "matching",
+        "instructions": "Relaciona cada falacia con su definición.",
+        "pairs": [
+          {
+            "left": "la falacia ad hominem",
+            "right": "un ataque dirigido a la persona en vez de a su argumento"
+          },
+          {
+            "left": "la falacia del hombre de paja",
+            "right": "deformar el argumento ajeno para poder refutarlo con más facilidad"
+          },
+          {
+            "left": "la falacia de autoridad",
+            "right": "apelar a una autoridad para validar un argumento sin más pruebas"
+          },
+          {
+            "left": "la petición de principio",
+            "right": "error de razonamiento que da por probado precisamente lo que se debe demostrar"
+          }
         ],
-        "correctIndex": 1,
-        "explanation": "La concesión estratégica en un punto periférico refuerza, en vez de debilitar, la autoridad del argumento principal que se defiende después."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de las siguientes son falacias argumentativas?",
-        "options": [
-          "La falacia ad hominem",
-          "La concesión estratégica",
-          "El argumento circular",
-          "La falacia del hombre de paja"
-        ],
-        "correctIndexes": [
-          0,
-          2,
-          3
-        ],
-        "explanation": "La falacia ad hominem, el argumento circular y la falacia del hombre de paja son razonamientos defectuosos; la concesión estratégica, en cambio, es una técnica argumentativa legítima."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la fórmula de desacuerdo respetuoso.",
-        "sentence": "No comparto del todo esa ___, aunque entiendo de dónde parte.",
-        "answer": "lectura",
-        "explanation": "«No comparto del todo esa lectura» es una fórmula que matiza un desacuerdo sin resultar hostil hacia el interlocutor.",
-        "hint": "sinónimo de interpretación"
+        "explanation": "Reconocer estas cuatro falacias con precisión permite señalarlas durante un debate y desmontar argumentos que solo parecen sólidos."
       }
     ]
   },
   {
-    "slug": "debate-persuasion-part-2",
+    "slug": "debate-persuasion-6",
     "level": "C2",
-    "number": 18,
-    "title": "El Debate y la Argumentación Persuasiva (Parte 2 de 2)",
+    "number": 49,
+    "title": "El Debate y la Argumentación Persuasiva, Part 6 of 9",
     "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
-    "duration": "29 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "Recursos retóricos para reforzar un argumento",
@@ -5384,7 +5936,37 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "apelar a los valores compartidos",
             "en": "emplear un llamamiento emocional que complementa la evidencia empírica"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Cuál es el riesgo principal de un discurso que abusa de la hipérbole y del llamamiento emocional?",
+        "options": [
+          "Que resulte demasiado corto para el público",
+          "Que pierda credibilidad ante un oyente que detecta la falta de solidez lógica",
+          "Que el moderador del debate lo interrumpa de inmediato",
+          "Que el adversario no pueda responder"
+        ],
+        "correctIndex": 1,
+        "explanation": "Un oyente avanzado distingue entre el efecto retórico y la solidez argumental; el abuso de recursos emocionales sin respaldo debilita la credibilidad del discurso."
+      }
+    ]
+  },
+  {
+    "slug": "debate-persuasion-7",
+    "level": "C2",
+    "number": 50,
+    "title": "El Debate y la Argumentación Persuasiva, Part 7 of 9",
+    "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
+    "duration": "8 min",
+    "sections": [
+      {
+        "heading": "Recursos retóricos para reforzar un argumento (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "repetir una idea central con variaciones",
             "en": "fijar un argumento en la memoria del auditorio mediante la reiteración matizada"
@@ -5422,7 +6004,18 @@ export const C2_LESSONS: Lesson[] = [
           "Doctora Salas: Sin duda. Los dos coincidimos en que la transparencia del sistema es indispensable, discrepamos solo en el mecanismo para lograrla.",
           "Doctor Ibarra: De acuerdo con eso. Ese consenso parcial ya es un buen punto de partida."
         ]
-      },
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "debate-persuasion-8",
+    "level": "C2",
+    "number": 51,
+    "title": "El Debate y la Argumentación Persuasiva, Part 8 of 9",
+    "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
+    "duration": "5 min",
+    "sections": [
       {
         "heading": "Vocabulario: el debate y la persuasión",
         "body": [
@@ -5500,7 +6093,24 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "el matiz condescendiente",
             "en": "un tono que sugiere superioridad hacia el interlocutor"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "debate-persuasion-9",
+    "level": "C2",
+    "number": 52,
+    "title": "El Debate y la Argumentación Persuasiva, Part 9 of 9",
+    "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
+    "duration": "4 min",
+    "sections": [
+      {
+        "heading": "Vocabulario: el debate y la persuasión (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "la respuesta contundente",
             "en": "reacción firme y bien fundamentada frente a un argumento"
@@ -5572,66 +6182,15 @@ export const C2_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": [
-      {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre la concesión retórica.",
-        "words": [
-          "Conceder",
-          "un",
-          "punto",
-          "secundario",
-          "refuerza",
-          "el",
-          "argumento",
-          "principal"
-        ],
-        "explanation": "El sujeto (Conceder un punto secundario) precede al verbo (refuerza) y a su complemento (el argumento principal)."
-      },
-      {
-        "type": "matching",
-        "instructions": "Relaciona cada falacia con su definición.",
-        "pairs": [
-          {
-            "left": "la falacia ad hominem",
-            "right": "un ataque dirigido a la persona en vez de a su argumento"
-          },
-          {
-            "left": "la falacia del hombre de paja",
-            "right": "deformar el argumento ajeno para poder refutarlo con más facilidad"
-          },
-          {
-            "left": "la falacia de autoridad",
-            "right": "apelar a una autoridad para validar un argumento sin más pruebas"
-          },
-          {
-            "left": "la petición de principio",
-            "right": "error de razonamiento que da por probado precisamente lo que se debe demostrar"
-          }
-        ],
-        "explanation": "Reconocer estas cuatro falacias con precisión permite señalarlas durante un debate y desmontar argumentos que solo parecen sólidos."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "¿Cuál es el riesgo principal de un discurso que abusa de la hipérbole y del llamamiento emocional?",
-        "options": [
-          "Que resulte demasiado corto para el público",
-          "Que pierda credibilidad ante un oyente que detecta la falta de solidez lógica",
-          "Que el moderador del debate lo interrumpa de inmediato",
-          "Que el adversario no pueda responder"
-        ],
-        "correctIndex": 1,
-        "explanation": "Un oyente avanzado distingue entre el efecto retórico y la solidez argumental; el abuso de recursos emocionales sin respaldo debilita la credibilidad del discurso."
-      }
-    ]
+    "exercises": []
   },
   {
-    "slug": "presentations-negotiation-part-1",
+    "slug": "presentations-negotiation-1",
     "level": "C2",
-    "number": 19,
-    "title": "Presentaciones Orales y Negociación (Parte 1 de 2)",
+    "number": 53,
+    "title": "Presentaciones Orales y Negociación, Part 1 of 8",
     "summary": "Estructura una presentación profesional memorable y domina el vocabulario y las tácticas de la negociación: proponer contraofertas, ceder terreno con inteligencia y llegar a acuerdos beneficiosos.",
-    "duration": "28 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "La estructura de una presentación oral de alto nivel",
@@ -5652,7 +6211,37 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "apoyarse en la diapositiva sin leerla",
             "en": "emplear el apoyo visual como complemento y no como sustituto de la palabra hablada"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué función cumple el cierre de una presentación oral de alto nivel?",
+        "options": [
+          "Repetir literalmente el preámbulo inicial",
+          "Dejar una impresión memorable mediante un argumento de cierre contundente",
+          "Evitar cualquier pregunta del auditorio",
+          "Introducir el tema por primera vez"
+        ],
+        "correctIndex": 1,
+        "explanation": "Un cierre bien construido, con un argumento de cierre sólido, refuerza la idea central y deja una impresión mucho más duradera en el auditorio."
+      }
+    ]
+  },
+  {
+    "slug": "presentations-negotiation-2",
+    "level": "C2",
+    "number": 54,
+    "title": "Presentaciones Orales y Negociación, Part 2 of 8",
+    "summary": "Estructura una presentación profesional memorable y domina el vocabulario y las tácticas de la negociación: proponer contraofertas, ceder terreno con inteligencia y llegar a acuerdos beneficiosos.",
+    "duration": "5 min",
+    "sections": [
+      {
+        "heading": "La estructura de una presentación oral de alto nivel (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "un cierre memorable",
             "en": "una conclusión contundente que refuerza la idea central antes de terminar"
@@ -5676,7 +6265,35 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "El preámbulo debe ser breve y funcional: sitúa el tema, anticipa la estructura y capta la atención del auditorio en los primeros segundos."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes son tácticas propias de una negociación eficaz?",
+        "options": [
+          "Ceder en aspectos secundarios sin comprometer lo esencial",
+          "Ignorar por completo las intenciones reales de la otra parte",
+          "Sondear las intenciones detrás de las posturas declaradas",
+          "Fraccionar el acuerdo en cláusulas independientes"
+        ],
+        "correctIndexes": [
+          0,
+          2,
+          3
+        ],
+        "explanation": "Ceder de forma estratégica, sondear intenciones y fraccionar el acuerdo son tácticas que facilitan superar un punto muerto en la negociación."
+      }
+    ]
+  },
+  {
+    "slug": "presentations-negotiation-3",
+    "level": "C2",
+    "number": 55,
+    "title": "Presentaciones Orales y Negociación, Part 3 of 8",
+    "summary": "Estructura una presentación profesional memorable y domina el vocabulario y las tácticas de la negociación: proponer contraofertas, ceder terreno con inteligencia y llegar a acuerdos beneficiosos.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "La contraoferta y el arte de ceder terreno con inteligencia",
         "body": [
@@ -5716,7 +6333,27 @@ export const C2_LESSONS: Lesson[] = [
             "hint": "adjetivo opuesto a accesorio"
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase sobre la negociación.",
+        "sentence": "Tras varias rondas de cesión mutua, ambas partes lograron ___ un acuerdo satisfactorio.",
+        "answer": "llegar a",
+        "explanation": "«Llegar a un acuerdo» es la fórmula habitual para describir la conclusión exitosa de una negociación.",
+        "hint": "expresión verbal seguida de la preposición «a»"
+      }
+    ]
+  },
+  {
+    "slug": "presentations-negotiation-4",
+    "level": "C2",
+    "number": 56,
+    "title": "Presentaciones Orales y Negociación, Part 4 of 8",
+    "summary": "Estructura una presentación profesional memorable y domina el vocabulario y las tácticas de la negociación: proponer contraofertas, ceder terreno con inteligencia y llegar a acuerdos beneficiosos.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Superar el punto muerto y llegar a un acuerdo",
         "body": [
@@ -5736,7 +6373,13 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "fraccionar el acuerdo en cláusulas",
             "en": "dividir la negociación en partes independientes para facilitar el consenso"
-          },
+          }
+        ]
+      },
+      {
+        "heading": "Superar el punto muerto y llegar a un acuerdo (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "formalizar el acuerdo con precisión",
             "en": "especificar con claridad las condiciones y el plazo de vigencia de un pacto"
@@ -5764,50 +6407,30 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "¿Qué función cumple el cierre de una presentación oral de alto nivel?",
-        "options": [
-          "Repetir literalmente el preámbulo inicial",
-          "Dejar una impresión memorable mediante un argumento de cierre contundente",
-          "Evitar cualquier pregunta del auditorio",
-          "Introducir el tema por primera vez"
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración sobre la negociación.",
+        "words": [
+          "La",
+          "contraoferta",
+          "debe",
+          "reflejar",
+          "un",
+          "margen",
+          "de",
+          "maniobra",
+          "realista"
         ],
-        "correctIndex": 1,
-        "explanation": "Un cierre bien construido, con un argumento de cierre sólido, refuerza la idea central y deja una impresión mucho más duradera en el auditorio."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de las siguientes son tácticas propias de una negociación eficaz?",
-        "options": [
-          "Ceder en aspectos secundarios sin comprometer lo esencial",
-          "Ignorar por completo las intenciones reales de la otra parte",
-          "Sondear las intenciones detrás de las posturas declaradas",
-          "Fraccionar el acuerdo en cláusulas independientes"
-        ],
-        "correctIndexes": [
-          0,
-          2,
-          3
-        ],
-        "explanation": "Ceder de forma estratégica, sondear intenciones y fraccionar el acuerdo son tácticas que facilitan superar un punto muerto en la negociación."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la frase sobre la negociación.",
-        "sentence": "Tras varias rondas de cesión mutua, ambas partes lograron ___ un acuerdo satisfactorio.",
-        "answer": "llegar a",
-        "explanation": "«Llegar a un acuerdo» es la fórmula habitual para describir la conclusión exitosa de una negociación.",
-        "hint": "expresión verbal seguida de la preposición «a»"
+        "explanation": "El sujeto (La contraoferta) precede al verbo modal (debe) más el infinitivo (reflejar) y su complemento."
       }
     ]
   },
   {
-    "slug": "presentations-negotiation-part-2",
+    "slug": "presentations-negotiation-5",
     "level": "C2",
-    "number": 20,
-    "title": "Presentaciones Orales y Negociación (Parte 2 de 2)",
+    "number": 57,
+    "title": "Presentaciones Orales y Negociación, Part 5 of 8",
     "summary": "Estructura una presentación profesional memorable y domina el vocabulario y las tácticas de la negociación: proponer contraofertas, ceder terreno con inteligencia y llegar a acuerdos beneficiosos.",
-    "duration": "29 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "El lenguaje corporal y la seguridad al negociar y exponer",
@@ -5828,7 +6451,48 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "mostrarse flexible sin parecer débil",
             "en": "adaptar la propia postura ante buenos argumentos sin perder autoridad"
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "el punto muerto",
+            "right": "una fase de la negociación en la que no se produce ningún avance"
           },
+          {
+            "left": "la estrategia de anclaje",
+            "right": "la táctica de fijar una cifra inicial para condicionar el resto de la negociación"
+          },
+          {
+            "left": "el as bajo la manga",
+            "right": "un recurso que se reserva para emplearlo en un momento decisivo"
+          },
+          {
+            "left": "la cesión mutua",
+            "right": "la renuncia parcial que ambas partes aceptan para avanzar hacia un acuerdo"
+          }
+        ],
+        "explanation": "Estos conceptos describen dinámicas centrales de cualquier negociación avanzada, desde el bloqueo inicial hasta las tácticas para superarlo."
+      }
+    ]
+  },
+  {
+    "slug": "presentations-negotiation-6",
+    "level": "C2",
+    "number": 58,
+    "title": "Presentaciones Orales y Negociación, Part 6 of 8",
+    "summary": "Estructura una presentación profesional memorable y domina el vocabulario y las tácticas de la negociación: proponer contraofertas, ceder terreno con inteligencia y llegar a acuerdos beneficiosos.",
+    "duration": "9 min",
+    "sections": [
+      {
+        "heading": "El lenguaje corporal y la seguridad al negociar y exponer (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "reservar un as bajo la manga",
             "en": "guardar un recurso decisivo para emplearlo en el momento más oportuno"
@@ -5870,7 +6534,31 @@ export const C2_LESSONS: Lesson[] = [
           "Proveedor: Por supuesto. Quedamos a la espera de su respuesta para cerrar la negociación cuanto antes.",
           "Directora comercial: De acuerdo. Si mantenemos ese toma y daca, creo que podemos llegar a un acuerdo hoy mismo."
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Por qué resulta importante formalizar con precisión el cierre de una negociación?",
+        "options": [
+          "Porque así se evita cualquier ronda de preguntas posterior",
+          "Porque las ambigüedades en las cláusulas suelen generar conflictos futuros",
+          "Porque un acuerdo formal nunca necesita plazo de vigencia",
+          "Porque solo así se puede emplear la estrategia de anclaje"
+        ],
+        "correctIndex": 1,
+        "explanation": "Un cierre ambiguo, con cláusulas mal definidas, suele dar lugar a nuevos desacuerdos una vez pasado el entusiasmo inicial del acuerdo."
+      }
+    ]
+  },
+  {
+    "slug": "presentations-negotiation-7",
+    "level": "C2",
+    "number": 59,
+    "title": "Presentaciones Orales y Negociación, Part 7 of 8",
+    "summary": "Estructura una presentación profesional memorable y domina el vocabulario y las tácticas de la negociación: proponer contraofertas, ceder terreno con inteligencia y llegar a acuerdos beneficiosos.",
+    "duration": "5 min",
+    "sections": [
       {
         "heading": "Vocabulario: las presentaciones y la negociación",
         "body": [
@@ -5948,7 +6636,24 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "el punto muerto",
             "en": "una fase de la negociación en la que no se produce ningún avance"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "presentations-negotiation-8",
+    "level": "C2",
+    "number": 60,
+    "title": "Presentaciones Orales y Negociación, Part 8 of 8",
+    "summary": "Estructura una presentación profesional memorable y domina el vocabulario y las tácticas de la negociación: proponer contraofertas, ceder terreno con inteligencia y llegar a acuerdos beneficiosos.",
+    "duration": "4 min",
+    "sections": [
+      {
+        "heading": "Vocabulario: las presentaciones y la negociación (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "negociar de buena fe",
             "en": "negociar con la intención honesta de llegar a un acuerdo"
@@ -6020,67 +6725,15 @@ export const C2_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": [
-      {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre la negociación.",
-        "words": [
-          "La",
-          "contraoferta",
-          "debe",
-          "reflejar",
-          "un",
-          "margen",
-          "de",
-          "maniobra",
-          "realista"
-        ],
-        "explanation": "El sujeto (La contraoferta) precede al verbo modal (debe) más el infinitivo (reflejar) y su complemento."
-      },
-      {
-        "type": "matching",
-        "instructions": "Relaciona cada término con su definición.",
-        "pairs": [
-          {
-            "left": "el punto muerto",
-            "right": "una fase de la negociación en la que no se produce ningún avance"
-          },
-          {
-            "left": "la estrategia de anclaje",
-            "right": "la táctica de fijar una cifra inicial para condicionar el resto de la negociación"
-          },
-          {
-            "left": "el as bajo la manga",
-            "right": "un recurso que se reserva para emplearlo en un momento decisivo"
-          },
-          {
-            "left": "la cesión mutua",
-            "right": "la renuncia parcial que ambas partes aceptan para avanzar hacia un acuerdo"
-          }
-        ],
-        "explanation": "Estos conceptos describen dinámicas centrales de cualquier negociación avanzada, desde el bloqueo inicial hasta las tácticas para superarlo."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "¿Por qué resulta importante formalizar con precisión el cierre de una negociación?",
-        "options": [
-          "Porque así se evita cualquier ronda de preguntas posterior",
-          "Porque las ambigüedades en las cláusulas suelen generar conflictos futuros",
-          "Porque un acuerdo formal nunca necesita plazo de vigencia",
-          "Porque solo así se puede emplear la estrategia de anclaje"
-        ],
-        "correctIndex": 1,
-        "explanation": "Un cierre ambiguo, con cláusulas mal definidas, suele dar lugar a nuevos desacuerdos una vez pasado el entusiasmo inicial del acuerdo."
-      }
-    ]
+    "exercises": []
   },
   {
-    "slug": "citations-references-part-1",
+    "slug": "citations-references-1",
     "level": "C2",
-    "number": 21,
-    "title": "Citas, Referencias y Estilo de Citación (Parte 1 de 2)",
+    "number": 61,
+    "title": "Citas, Referencias y Estilo de Citación, Part 1 of 8",
     "summary": "Domina las convenciones de la cita textual y la paráfrasis, las fórmulas de atribución más habituales y los límites entre una reformulación legítima y el plagio en la escritura formal.",
-    "duration": "28 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "Cita textual frente a cita indirecta",
@@ -6101,7 +6754,37 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "una paráfrasis demasiado cercana al original",
             "en": "una reformulación insuficiente que compromete la fidelidad textual"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Cuál es la diferencia esencial entre una cita textual y una cita indirecta?",
+        "options": [
+          "La cita textual nunca necesita atribución",
+          "La cita textual reproduce las palabras originales; la cita indirecta las reformula con fidelidad al sentido",
+          "La cita indirecta siempre es más larga que la textual",
+          "No existe diferencia relevante entre ambas"
+        ],
+        "correctIndex": 1,
+        "explanation": "La cita textual reproduce literalmente las palabras del autor entre comillas; la cita indirecta traslada el contenido mediante una paráfrasis fiel al sentido original."
+      }
+    ]
+  },
+  {
+    "slug": "citations-references-2",
+    "level": "C2",
+    "number": 62,
+    "title": "Citas, Referencias y Estilo de Citación, Part 2 of 8",
+    "summary": "Domina las convenciones de la cita textual y la paráfrasis, las fórmulas de atribución más habituales y los límites entre una reformulación legítima y el plagio en la escritura formal.",
+    "duration": "5 min",
+    "sections": [
+      {
+        "heading": "Cita textual frente a cita indirecta (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "marcar el entrecomillado con precisión",
             "en": "señalar con claridad dónde comienza y termina una cita textual"
@@ -6125,7 +6808,35 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "La cita textual se justifica cuando parafrasear supondría perder un matiz de precisión o de estilo que solo las palabras originales del autor transmiten."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Qué elementos componen el aparato crítico de un texto académico?",
+        "options": [
+          "Las notas al pie",
+          "Las referencias cruzadas",
+          "La estrategia de anclaje",
+          "La bibliografía final"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "El aparato crítico incluye notas al pie, referencias cruzadas y bibliografía; la estrategia de anclaje pertenece al ámbito de la negociación, no de la citación."
+      }
+    ]
+  },
+  {
+    "slug": "citations-references-3",
+    "level": "C2",
+    "number": 63,
+    "title": "Citas, Referencias y Estilo de Citación, Part 3 of 8",
+    "summary": "Domina las convenciones de la cita textual y la paráfrasis, las fórmulas de atribución más habituales y los límites entre una reformulación legítima y el plagio en la escritura formal.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "Fórmulas de atribución en la prosa formal",
         "body": [
@@ -6145,7 +6856,33 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "variar la posición de la atribución",
             "en": "situar la referencia a la fuente en distintos puntos de la oración para evitar la monotonía"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la fórmula de atribución.",
+        "sentence": "___ bien señala la investigadora, el fenómeno afecta a varias regiones por igual.",
+        "answer": "Como",
+        "explanation": "«Como bien señala» es una fórmula que atribuye una idea a una fuente sugiriendo adhesión a su contenido.",
+        "hint": "conjunción breve seguida de «bien»"
+      }
+    ]
+  },
+  {
+    "slug": "citations-references-4",
+    "level": "C2",
+    "number": 64,
+    "title": "Citas, Referencias y Estilo de Citación, Part 4 of 8",
+    "summary": "Domina las convenciones de la cita textual y la paráfrasis, las fórmulas de atribución más habituales y los límites entre una reformulación legítima y el plagio en la escritura formal.",
+    "duration": "9 min",
+    "sections": [
+      {
+        "heading": "Fórmulas de atribución en la prosa formal (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "cabe citar a este respecto",
             "en": "fórmula que introduce una referencia especialmente pertinente para el argumento"
@@ -6185,7 +6922,40 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "detectar un vacío de cita",
             "en": "notar la ausencia de una referencia necesaria en un punto del texto"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración sobre el plagio.",
+        "words": [
+          "Una",
+          "paráfrasis",
+          "fiel",
+          "reorganiza",
+          "la",
+          "estructura",
+          "sintáctica",
+          "original"
+        ],
+        "explanation": "El sujeto (Una paráfrasis fiel) precede al verbo (reorganiza) y a su complemento directo."
+      }
+    ]
+  },
+  {
+    "slug": "citations-references-5",
+    "level": "C2",
+    "number": 65,
+    "title": "Citas, Referencias y Estilo de Citación, Part 5 of 8",
+    "summary": "Domina las convenciones de la cita textual y la paráfrasis, las fórmulas de atribución más habituales y los límites entre una reformulación legítima y el plagio en la escritura formal.",
+    "duration": "10 min",
+    "sections": [
+      {
+        "heading": "El corpus documental y el aparato crítico (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "señalar una cita de segunda mano",
             "en": "advertir explícitamente que una fuente se conoce solo a través de otra"
@@ -6213,55 +6983,7 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "El aparato crítico está formado por notas al pie, referencias cruzadas y bibliografía; el entrecomillado, en cambio, es un recurso tipográfico distinto."
           }
         ]
-      }
-    ],
-    "exercises": [
-      {
-        "type": "multiple-choice",
-        "question": "¿Cuál es la diferencia esencial entre una cita textual y una cita indirecta?",
-        "options": [
-          "La cita textual nunca necesita atribución",
-          "La cita textual reproduce las palabras originales; la cita indirecta las reformula con fidelidad al sentido",
-          "La cita indirecta siempre es más larga que la textual",
-          "No existe diferencia relevante entre ambas"
-        ],
-        "correctIndex": 1,
-        "explanation": "La cita textual reproduce literalmente las palabras del autor entre comillas; la cita indirecta traslada el contenido mediante una paráfrasis fiel al sentido original."
       },
-      {
-        "type": "multi-select",
-        "question": "¿Qué elementos componen el aparato crítico de un texto académico?",
-        "options": [
-          "Las notas al pie",
-          "Las referencias cruzadas",
-          "La estrategia de anclaje",
-          "La bibliografía final"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          3
-        ],
-        "explanation": "El aparato crítico incluye notas al pie, referencias cruzadas y bibliografía; la estrategia de anclaje pertenece al ámbito de la negociación, no de la citación."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la fórmula de atribución.",
-        "sentence": "___ bien señala la investigadora, el fenómeno afecta a varias regiones por igual.",
-        "answer": "Como",
-        "explanation": "«Como bien señala» es una fórmula que atribuye una idea a una fuente sugiriendo adhesión a su contenido.",
-        "hint": "conjunción breve seguida de «bien»"
-      }
-    ]
-  },
-  {
-    "slug": "citations-references-part-2",
-    "level": "C2",
-    "number": 22,
-    "title": "Citas, Referencias y Estilo de Citación (Parte 2 de 2)",
-    "summary": "Domina las convenciones de la cita textual y la paráfrasis, las fórmulas de atribución más habituales y los límites entre una reformulación legítima y el plagio en la escritura formal.",
-    "duration": "28 min",
-    "sections": [
       {
         "heading": "El plagio y los límites de la reformulación",
         "body": [
@@ -6281,7 +7003,48 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "reorganizar la estructura sintáctica",
             "en": "modificar el orden y la construcción de una oración al parafrasearla con fidelidad"
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "la fuente primaria",
+            "right": "un documento original que aporta información de primera mano"
           },
+          {
+            "left": "la fuente secundaria",
+            "right": "un texto que interpreta o comenta una fuente primaria"
+          },
+          {
+            "left": "el vacío de cita",
+            "right": "la ausencia indebida de una referencia necesaria dentro de un texto"
+          },
+          {
+            "left": "la cita de segunda mano",
+            "right": "la referencia a una fuente conocida únicamente a través de otra"
+          }
+        ],
+        "explanation": "Distinguir con precisión estos cuatro conceptos es indispensable para construir un corpus documental sólido y honesto."
+      }
+    ]
+  },
+  {
+    "slug": "citations-references-6",
+    "level": "C2",
+    "number": 66,
+    "title": "Citas, Referencias y Estilo de Citación, Part 6 of 8",
+    "summary": "Domina las convenciones de la cita textual y la paráfrasis, las fórmulas de atribución más habituales y los límites entre una reformulación legítima y el plagio en la escritura formal.",
+    "duration": "10 min",
+    "sections": [
+      {
+        "heading": "El plagio y los límites de la reformulación (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "una cita textual encubierta",
             "en": "una reformulación tan próxima al original que equivale a una cita no reconocida como tal"
@@ -6319,7 +7082,31 @@ export const C2_LESSONS: Lesson[] = [
           "Estudiante: Perfecto, lo corrijo ahora mismo. ¿El resto del aparato crítico te parece completo?",
           "Tutora: Casi. Añade una referencia cruzada al capítulo tres, donde ya habías tratado ese mismo dato."
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Por qué una paráfrasis demasiado cercana al texto original puede considerarse una forma de plagio?",
+        "options": [
+          "Porque emplea un estilo de citación distinto al habitual",
+          "Porque carece de aportación propia y no reconoce el crédito intelectual del autor original",
+          "Porque siempre incluye una nota al pie innecesaria",
+          "Porque cita más de una fuente en el mismo párrafo"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cuando la reformulación apenas se distingue del original y no atribuye la idea a su autor, se compromete la fidelidad textual y se roza el plagio."
+      }
+    ]
+  },
+  {
+    "slug": "citations-references-7",
+    "level": "C2",
+    "number": 67,
+    "title": "Citas, Referencias y Estilo de Citación, Part 7 of 8",
+    "summary": "Domina las convenciones de la cita textual y la paráfrasis, las fórmulas de atribución más habituales y los límites entre una reformulación legítima y el plagio en la escritura formal.",
+    "duration": "5 min",
+    "sections": [
       {
         "heading": "Vocabulario: las citas y referencias",
         "body": [
@@ -6397,7 +7184,24 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "remitir al lector a",
             "en": "indicar dónde puede ampliarse una información dentro de otra fuente"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "citations-references-8",
+    "level": "C2",
+    "number": 68,
+    "title": "Citas, Referencias y Estilo de Citación, Part 8 of 8",
+    "summary": "Domina las convenciones de la cita textual y la paráfrasis, las fórmulas de atribución más habituales y los límites entre una reformulación legítima y el plagio en la escritura formal.",
+    "duration": "4 min",
+    "sections": [
+      {
+        "heading": "Vocabulario: las citas y referencias (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "la referencia cruzada",
             "en": "la remisión de una parte de un texto a otra parte relacionada"
@@ -6469,66 +7273,15 @@ export const C2_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": [
-      {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre el plagio.",
-        "words": [
-          "Una",
-          "paráfrasis",
-          "fiel",
-          "reorganiza",
-          "la",
-          "estructura",
-          "sintáctica",
-          "original"
-        ],
-        "explanation": "El sujeto (Una paráfrasis fiel) precede al verbo (reorganiza) y a su complemento directo."
-      },
-      {
-        "type": "matching",
-        "instructions": "Relaciona cada término con su definición.",
-        "pairs": [
-          {
-            "left": "la fuente primaria",
-            "right": "un documento original que aporta información de primera mano"
-          },
-          {
-            "left": "la fuente secundaria",
-            "right": "un texto que interpreta o comenta una fuente primaria"
-          },
-          {
-            "left": "el vacío de cita",
-            "right": "la ausencia indebida de una referencia necesaria dentro de un texto"
-          },
-          {
-            "left": "la cita de segunda mano",
-            "right": "la referencia a una fuente conocida únicamente a través de otra"
-          }
-        ],
-        "explanation": "Distinguir con precisión estos cuatro conceptos es indispensable para construir un corpus documental sólido y honesto."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "¿Por qué una paráfrasis demasiado cercana al texto original puede considerarse una forma de plagio?",
-        "options": [
-          "Porque emplea un estilo de citación distinto al habitual",
-          "Porque carece de aportación propia y no reconoce el crédito intelectual del autor original",
-          "Porque siempre incluye una nota al pie innecesaria",
-          "Porque cita más de una fuente en el mismo párrafo"
-        ],
-        "correctIndex": 1,
-        "explanation": "Cuando la reformulación apenas se distingue del original y no atribuye la idea a su autor, se compromete la fidelidad textual y se roza el plagio."
-      }
-    ]
+    "exercises": []
   },
   {
-    "slug": "rhetorical-questions-part-1",
+    "slug": "rhetorical-questions-1",
     "level": "C2",
-    "number": 23,
-    "title": "Preguntas Retóricas y Estructuras de Énfasis (Parte 1 de 2)",
+    "number": 69,
+    "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 1 of 7",
     "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipofora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
-    "duration": "29 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "La función persuasiva de la pregunta retórica",
@@ -6549,7 +7302,37 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "involucrar al oyente en el razonamiento",
             "en": "hacer que el público sienta que llega por sí mismo a la conclusión propuesta"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Cuál es la función esencial de una pregunta retórica?",
+        "options": [
+          "Obtener información nueva de manera indirecta",
+          "Presentar una afirmación disfrazada de pregunta, sin esperar respuesta real",
+          "Iniciar siempre un diálogo formal con el interlocutor",
+          "Sustituir por completo la necesidad de argumentar"
+        ],
+        "correctIndex": 1,
+        "explanation": "La pregunta retórica funciona como una afirmación encubierta: da por sentada la respuesta y no busca información real del oyente."
+      }
+    ]
+  },
+  {
+    "slug": "rhetorical-questions-2",
+    "level": "C2",
+    "number": 70,
+    "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 2 of 7",
+    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipofora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "duration": "10 min",
+    "sections": [
+      {
+        "heading": "La función persuasiva de la pregunta retórica (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "una pregunta capciosa bien calculada",
             "en": "una interrogación que induce al interlocutor hacia una respuesta comprometedora"
@@ -6593,7 +7376,41 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "marcar una transición temática",
             "en": "emplear la hipofora como recurso estructural para introducir un nuevo bloque del discurso"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Qué recursos emplean preguntas con fines persuasivos más que informativos?",
+        "options": [
+          "La hipofora",
+          "La cita textual",
+          "La interpelación",
+          "La anáfora interrogativa"
+        ],
+        "correctIndexes": [
+          0,
+          2,
+          3
+        ],
+        "explanation": "La hipofora, la interpelación y la anáfora interrogativa son recursos que emplean la pregunta con fines persuasivos; la cita textual pertenece a otro ámbito, el de las referencias."
+      }
+    ]
+  },
+  {
+    "slug": "rhetorical-questions-3",
+    "level": "C2",
+    "number": 71,
+    "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 3 of 7",
+    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipofora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "duration": "10 min",
+    "sections": [
+      {
+        "heading": "La hipofora: preguntar y responder uno mismo (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "una sucesión mecánica de preguntas",
             "en": "el riesgo de emplear la hipofora en exceso sin variar el recurso discursivo"
@@ -6633,7 +7450,33 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "un ritmo acelerado de preguntas",
             "en": "una estructura interrogativa enfática que transmite urgencia e indignación"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la definición del recurso retórico.",
+        "sentence": "La ___ dirige una pregunta directamente a una persona o a un colectivo para comprometerlo emocionalmente con el argumento.",
+        "answer": "interpelación",
+        "explanation": "La interpelación es una pregunta directa que busca implicar emocionalmente al oyente con el razonamiento planteado.",
+        "hint": "sustantivo derivado del verbo interpelar"
+      }
+    ]
+  },
+  {
+    "slug": "rhetorical-questions-4",
+    "level": "C2",
+    "number": 72,
+    "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 4 of 7",
+    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipofora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "duration": "10 min",
+    "sections": [
+      {
+        "heading": "La anáfora y la reiteración interrogativa (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "diluir el efecto por exceso",
             "en": "perder fuerza persuasiva al repetir en exceso la misma estructura interrogativa"
@@ -6661,55 +7504,7 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "La anáfora interrogativa intensifica el efecto persuasivo mediante la acumulación de tensión, la urgencia emocional y la memorabilidad del mensaje, no mediante información nueva."
           }
         ]
-      }
-    ],
-    "exercises": [
-      {
-        "type": "multiple-choice",
-        "question": "¿Cuál es la función esencial de una pregunta retórica?",
-        "options": [
-          "Obtener información nueva de manera indirecta",
-          "Presentar una afirmación disfrazada de pregunta, sin esperar respuesta real",
-          "Iniciar siempre un diálogo formal con el interlocutor",
-          "Sustituir por completo la necesidad de argumentar"
-        ],
-        "correctIndex": 1,
-        "explanation": "La pregunta retórica funciona como una afirmación encubierta: da por sentada la respuesta y no busca información real del oyente."
       },
-      {
-        "type": "multi-select",
-        "question": "¿Qué recursos emplean preguntas con fines persuasivos más que informativos?",
-        "options": [
-          "La hipofora",
-          "La cita textual",
-          "La interpelación",
-          "La anáfora interrogativa"
-        ],
-        "correctIndexes": [
-          0,
-          2,
-          3
-        ],
-        "explanation": "La hipofora, la interpelación y la anáfora interrogativa son recursos que emplean la pregunta con fines persuasivos; la cita textual pertenece a otro ámbito, el de las referencias."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la definición del recurso retórico.",
-        "sentence": "La ___ dirige una pregunta directamente a una persona o a un colectivo para comprometerlo emocionalmente con el argumento.",
-        "answer": "interpelación",
-        "explanation": "La interpelación es una pregunta directa que busca implicar emocionalmente al oyente con el razonamiento planteado.",
-        "hint": "sustantivo derivado del verbo interpelar"
-      }
-    ]
-  },
-  {
-    "slug": "rhetorical-questions-part-2",
-    "level": "C2",
-    "number": 24,
-    "title": "Preguntas Retóricas y Estructuras de Énfasis (Parte 2 de 2)",
-    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipofora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
-    "duration": "29 min",
-    "sections": [
       {
         "heading": "Otras estructuras de énfasis: la interpelación y la duda fingida",
         "body": [
@@ -6729,7 +7524,40 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "repetir las palabras del interlocutor con otro tono",
             "en": "emplear una pregunta ecoica para exponer una contradicción sin una réplica frontal"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración sobre la pregunta retórica.",
+        "words": [
+          "La",
+          "pregunta",
+          "retórica",
+          "no",
+          "busca",
+          "una",
+          "respuesta",
+          "real"
+        ],
+        "explanation": "El sujeto (La pregunta retórica) precede a la negación (no) y al verbo (busca) con su complemento."
+      }
+    ]
+  },
+  {
+    "slug": "rhetorical-questions-5",
+    "level": "C2",
+    "number": 73,
+    "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 5 of 7",
+    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipofora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "duration": "9 min",
+    "sections": [
+      {
+        "heading": "Otras estructuras de énfasis: la interpelación y la duda fingida (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "suavizar una afirmación tajante",
             "en": "recurrir a la duda retórica para expresar una crítica sin formularla de manera directa"
@@ -6766,7 +7594,42 @@ export const C2_LESSONS: Lesson[] = [
           "Orador: Exactamente. ¿Será posible que sigamos posponiendo lo evidente una vez más? Yo, al menos, no pienso hacerlo.",
           "Moderador: Un cierre que, desde luego, deja pensando a más de uno."
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada recurso con su definición.",
+        "pairs": [
+          {
+            "left": "la hipofora",
+            "right": "la figura en la que se formula una pregunta y se responde de inmediato"
+          },
+          {
+            "left": "la duda retórica",
+            "right": "una pregunta que expresa incertidumbre fingida con fines expresivos"
+          },
+          {
+            "left": "la pregunta ecoica",
+            "right": "la que repite parte de lo dicho por el interlocutor con una intención concreta"
+          },
+          {
+            "left": "el paralelismo sintáctico",
+            "right": "repetición de una misma estructura gramatical para reforzar un mensaje"
+          }
+        ],
+        "explanation": "Estos cuatro recursos ilustran distintas maneras en que la estructura interrogativa se pone al servicio del énfasis y de la persuasión."
+      }
+    ]
+  },
+  {
+    "slug": "rhetorical-questions-6",
+    "level": "C2",
+    "number": 74,
+    "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 6 of 7",
+    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipofora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "Vocabulario: las preguntas retóricas",
         "body": [
@@ -6844,7 +7707,37 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "la estructura interrogativa enfática",
             "en": "una construcción que emplea preguntas para reforzar una idea"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Por qué el uso excesivo de la hipofora puede debilitar un discurso?",
+        "options": [
+          "Porque el público espera siempre una respuesta escrita",
+          "Porque su repetición mecánica genera monotonía y agota al oyente",
+          "Porque solo se emplea en textos académicos",
+          "Porque impide formular ninguna pregunta retórica adicional"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cuando la hipofora se repite sin variación, el discurso adquiere un ritmo previsible que reduce su fuerza persuasiva en lugar de reforzarla."
+      }
+    ]
+  },
+  {
+    "slug": "rhetorical-questions-7",
+    "level": "C2",
+    "number": 75,
+    "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 7 of 7",
+    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipofora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "duration": "4 min",
+    "sections": [
+      {
+        "heading": "Vocabulario: las preguntas retóricas (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "la evidencia implícita",
             "en": "la conclusión que se deja entrever sin declararla de forma abierta"
@@ -6916,66 +7809,15 @@ export const C2_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": [
-      {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre la pregunta retórica.",
-        "words": [
-          "La",
-          "pregunta",
-          "retórica",
-          "no",
-          "busca",
-          "una",
-          "respuesta",
-          "real"
-        ],
-        "explanation": "El sujeto (La pregunta retórica) precede a la negación (no) y al verbo (busca) con su complemento."
-      },
-      {
-        "type": "matching",
-        "instructions": "Relaciona cada recurso con su definición.",
-        "pairs": [
-          {
-            "left": "la hipofora",
-            "right": "la figura en la que se formula una pregunta y se responde de inmediato"
-          },
-          {
-            "left": "la duda retórica",
-            "right": "una pregunta que expresa incertidumbre fingida con fines expresivos"
-          },
-          {
-            "left": "la pregunta ecoica",
-            "right": "la que repite parte de lo dicho por el interlocutor con una intención concreta"
-          },
-          {
-            "left": "el paralelismo sintáctico",
-            "right": "repetición de una misma estructura gramatical para reforzar un mensaje"
-          }
-        ],
-        "explanation": "Estos cuatro recursos ilustran distintas maneras en que la estructura interrogativa se pone al servicio del énfasis y de la persuasión."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "¿Por qué el uso excesivo de la hipofora puede debilitar un discurso?",
-        "options": [
-          "Porque el público espera siempre una respuesta escrita",
-          "Porque su repetición mecánica genera monotonía y agota al oyente",
-          "Porque solo se emplea en textos académicos",
-          "Porque impide formular ninguna pregunta retórica adicional"
-        ],
-        "correctIndex": 1,
-        "explanation": "Cuando la hipofora se repite sin variación, el discurso adquiere un ritmo previsible que reduce su fuerza persuasiva en lugar de reforzarla."
-      }
-    ]
+    "exercises": []
   },
   {
-    "slug": "job-interview-spanish-part-1",
+    "slug": "job-interview-spanish-1",
     "level": "C2",
-    "number": 25,
-    "title": "Español para Entrevistas de Trabajo (Parte 1 de 2)",
+    "number": 76,
+    "title": "Español para Entrevistas de Trabajo, Part 1 of 7",
     "summary": "Aprende a describir fortalezas, puntos de mejora y logros profesionales con el registro natural, confiable y apropiadamente formal que exige una entrevista de trabajo en español.",
-    "duration": "28 min",
+    "duration": "10 min",
     "sections": [
       {
         "heading": "Describir fortalezas sin caer en la fanfarronería",
@@ -6996,7 +7838,13 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "vincular la fortaleza con el puesto",
             "en": "relacionar explícitamente una cualidad propia con las exigencias del cargo solicitado"
-          },
+          }
+        ]
+      },
+      {
+        "heading": "Describir fortalezas sin caer en la fanfarronería (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "sonar hueco por vaguedad",
             "en": "resultar poco convincente al afirmar una cualidad sin ningún ejemplo que la sustente"
@@ -7020,7 +7868,31 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Una fortaleza resulta convincente cuando se ilustra con un ejemplo concreto y verificable, en lugar de quedarse en una afirmación genérica."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué estrategia hace más convincente la mención de una fortaleza profesional?",
+        "options": [
+          "Enumerar cualidades sin ningún ejemplo concreto",
+          "Respaldar la fortaleza con un logro profesional verificable",
+          "Repetir textualmente el anuncio de empleo",
+          "Evitar mencionar cualquier fortaleza para parecer modesto"
+        ],
+        "correctIndex": 1,
+        "explanation": "Una fortaleza resulta persuasiva cuando se ilustra con un ejemplo concreto de la trayectoria laboral, no cuando queda como una afirmación genérica."
+      }
+    ]
+  },
+  {
+    "slug": "job-interview-spanish-2",
+    "level": "C2",
+    "number": 77,
+    "title": "Español para Entrevistas de Trabajo, Part 2 of 7",
+    "summary": "Aprende a describir fortalezas, puntos de mejora y logros profesionales con el registro natural, confiable y apropiadamente formal que exige una entrevista de trabajo en español.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Hablar de un punto de mejora con honestidad estratégica",
         "body": [
@@ -7040,7 +7912,13 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "disfrazar una fortaleza como debilidad",
             "en": "recurrir a una respuesta evasiva que los entrevistadores experimentados detectan con facilidad"
-          },
+          }
+        ]
+      },
+      {
+        "heading": "Hablar de un punto de mejora con honestidad estratégica (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "reconocer con sinceridad",
             "en": "admitir abiertamente un aspecto susceptible de mejora sin restarle importancia"
@@ -7060,7 +7938,35 @@ export const C2_LESSONS: Lesson[] = [
             "hint": "verbo en pretérito que significa poner en práctica"
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Qué elementos forman parte de una respuesta bien estructurada en una entrevista por competencias?",
+        "options": [
+          "La situación de partida",
+          "Las acciones concretas emprendidas",
+          "Una lista genérica de virtudes personales",
+          "El resultado obtenido"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "La estructura eficaz combina situación, acciones concretas y resultado; una lista genérica de virtudes no aporta el ejemplo verificable que este tipo de pregunta exige."
+      }
+    ]
+  },
+  {
+    "slug": "job-interview-spanish-3",
+    "level": "C2",
+    "number": 78,
+    "title": "Español para Entrevistas de Trabajo, Part 3 of 7",
+    "summary": "Aprende a describir fortalezas, puntos de mejora y logros profesionales con el registro natural, confiable y apropiadamente formal que exige una entrevista de trabajo en español.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "La entrevista por competencias y el relato estructurado",
         "body": [
@@ -7112,34 +8018,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "¿Qué estrategia hace más convincente la mención de una fortaleza profesional?",
-        "options": [
-          "Enumerar cualidades sin ningún ejemplo concreto",
-          "Respaldar la fortaleza con un logro profesional verificable",
-          "Repetir textualmente el anuncio de empleo",
-          "Evitar mencionar cualquier fortaleza para parecer modesto"
-        ],
-        "correctIndex": 1,
-        "explanation": "Una fortaleza resulta persuasiva cuando se ilustra con un ejemplo concreto de la trayectoria laboral, no cuando queda como una afirmación genérica."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Qué elementos forman parte de una respuesta bien estructurada en una entrevista por competencias?",
-        "options": [
-          "La situación de partida",
-          "Las acciones concretas emprendidas",
-          "Una lista genérica de virtudes personales",
-          "El resultado obtenido"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          3
-        ],
-        "explanation": "La estructura eficaz combina situación, acciones concretas y resultado; una lista genérica de virtudes no aporta el ejemplo verificable que este tipo de pregunta exige."
-      },
-      {
         "type": "fill-blank",
         "prompt": "Completa la frase sobre el cierre de una entrevista.",
         "sentence": "Preguntar por el margen de crecimiento demuestra una ___ que va más allá del interés económico.",
@@ -7150,12 +8028,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "job-interview-spanish-part-2",
+    "slug": "job-interview-spanish-4",
     "level": "C2",
-    "number": 26,
-    "title": "Español para Entrevistas de Trabajo (Parte 2 de 2)",
+    "number": 79,
+    "title": "Español para Entrevistas de Trabajo, Part 4 of 7",
     "summary": "Aprende a describir fortalezas, puntos de mejora y logros profesionales con el registro natural, confiable y apropiadamente formal que exige una entrevista de trabajo en español.",
-    "duration": "29 min",
+    "duration": "9 min",
     "sections": [
       {
         "heading": "Cerrar la entrevista: preguntas propias y pretensión salarial",
@@ -7176,7 +8054,13 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "reiterar el compromiso laboral",
             "en": "reforzar, al cerrar la entrevista, la implicación seria con el puesto solicitado"
-          },
+          }
+        ]
+      },
+      {
+        "heading": "Cerrar la entrevista: preguntas propias y pretensión salarial (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "un cierre conciso y seguro",
             "en": "una despedida breve y firme que deja una impresión final sólida"
@@ -7200,7 +8084,34 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Formular preguntas sobre el desarrollo profesional demuestra un interés genuino que va más allá del aspecto económico del puesto."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración sobre el punto de mejora.",
+        "words": [
+          "Reconocer",
+          "un",
+          "punto",
+          "de",
+          "mejora",
+          "exige",
+          "honestidad",
+          "estratégica"
+        ],
+        "explanation": "El sujeto (Reconocer un punto de mejora) precede al verbo (exige) y a su complemento directo."
+      }
+    ]
+  },
+  {
+    "slug": "job-interview-spanish-5",
+    "level": "C2",
+    "number": 80,
+    "title": "Español para Entrevistas de Trabajo, Part 5 of 7",
+    "summary": "Aprende a describir fortalezas, puntos de mejora y logros profesionales con el registro natural, confiable y apropiadamente formal que exige una entrevista de trabajo en español.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "En la práctica",
         "body": [
@@ -7214,7 +8125,42 @@ export const C2_LESSONS: Lesson[] = [
           "Candidata: Sí, me gustaría saber qué margen de crecimiento ofrece la empresa y qué tipo de formación continua reciben los nuevos integrantes del equipo.",
           "Entrevistador: Buena pregunta. Se lo explico con gusto antes de cerrar la conversación."
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "la trayectoria laboral",
+            "right": "el conjunto de experiencias profesionales acumuladas a lo largo del tiempo"
+          },
+          {
+            "left": "la proactividad",
+            "right": "la disposición a actuar por iniciativa propia sin esperar instrucciones"
+          },
+          {
+            "left": "el valor añadido",
+            "right": "la aportación distintiva que alguien ofrece más allá de lo esperado"
+          },
+          {
+            "left": "la entrevista por competencias",
+            "right": "un tipo de entrevista centrada en ejemplos concretos de comportamiento pasado"
+          }
+        ],
+        "explanation": "Estos conceptos son centrales para describir con precisión el perfil y el desempeño de un candidato durante una entrevista de trabajo."
+      }
+    ]
+  },
+  {
+    "slug": "job-interview-spanish-6",
+    "level": "C2",
+    "number": 81,
+    "title": "Español para Entrevistas de Trabajo, Part 6 of 7",
+    "summary": "Aprende a describir fortalezas, puntos de mejora y logros profesionales con el registro natural, confiable y apropiadamente formal que exige una entrevista de trabajo en español.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "Vocabulario: las entrevistas de trabajo",
         "body": [
@@ -7292,7 +8238,37 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "el currículo",
             "en": "el documento que resume la formación y la experiencia de una persona"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Por qué disfrazar una fortaleza como debilidad —por ejemplo, «soy demasiado perfeccionista»— suele fallar en una entrevista?",
+        "options": [
+          "Porque los entrevistadores experimentados reconocen esa estrategia como una respuesta evasiva",
+          "Porque está prohibido mencionar cualidades positivas",
+          "Porque siempre exige una pretensión salarial más alta",
+          "Porque solo se permite en la entrevista por competencias"
+        ],
+        "correctIndex": 0,
+        "explanation": "Los entrevistadores con experiencia identifican rápidamente esa fórmula trillada y la interpretan como una falta de honestidad estratégica."
+      }
+    ]
+  },
+  {
+    "slug": "job-interview-spanish-7",
+    "level": "C2",
+    "number": 82,
+    "title": "Español para Entrevistas de Trabajo, Part 7 of 7",
+    "summary": "Aprende a describir fortalezas, puntos de mejora y logros profesionales con el registro natural, confiable y apropiadamente formal que exige una entrevista de trabajo en español.",
+    "duration": "4 min",
+    "sections": [
+      {
+        "heading": "Vocabulario: las entrevistas de trabajo (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "la referencia laboral",
             "en": "la persona que puede avalar el desempeño previo de un candidato"
@@ -7364,66 +8340,15 @@ export const C2_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": [
-      {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre el punto de mejora.",
-        "words": [
-          "Reconocer",
-          "un",
-          "punto",
-          "de",
-          "mejora",
-          "exige",
-          "honestidad",
-          "estratégica"
-        ],
-        "explanation": "El sujeto (Reconocer un punto de mejora) precede al verbo (exige) y a su complemento directo."
-      },
-      {
-        "type": "matching",
-        "instructions": "Relaciona cada término con su definición.",
-        "pairs": [
-          {
-            "left": "la trayectoria laboral",
-            "right": "el conjunto de experiencias profesionales acumuladas a lo largo del tiempo"
-          },
-          {
-            "left": "la proactividad",
-            "right": "la disposición a actuar por iniciativa propia sin esperar instrucciones"
-          },
-          {
-            "left": "el valor añadido",
-            "right": "la aportación distintiva que alguien ofrece más allá de lo esperado"
-          },
-          {
-            "left": "la entrevista por competencias",
-            "right": "un tipo de entrevista centrada en ejemplos concretos de comportamiento pasado"
-          }
-        ],
-        "explanation": "Estos conceptos son centrales para describir con precisión el perfil y el desempeño de un candidato durante una entrevista de trabajo."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "¿Por qué disfrazar una fortaleza como debilidad —por ejemplo, «soy demasiado perfeccionista»— suele fallar en una entrevista?",
-        "options": [
-          "Porque los entrevistadores experimentados reconocen esa estrategia como una respuesta evasiva",
-          "Porque está prohibido mencionar cualidades positivas",
-          "Porque siempre exige una pretensión salarial más alta",
-          "Porque solo se permite en la entrevista por competencias"
-        ],
-        "correctIndex": 0,
-        "explanation": "Los entrevistadores con experiencia identifican rápidamente esa fórmula trillada y la interpretan como una falta de honestidad estratégica."
-      }
-    ]
+    "exercises": []
   },
   {
-    "slug": "conflict-resolution-part-1",
+    "slug": "conflict-resolution-1",
     "level": "C2",
-    "number": 27,
-    "title": "Resolución de Conflictos y Mediación Verbal (Parte 1 de 2)",
+    "number": 83,
+    "title": "Resolución de Conflictos y Mediación Verbal, Part 1 of 7",
     "summary": "Aprende a desactivar la tensión, reconocer la perspectiva ajena y proponer acuerdos que restauren la relación en una disputa verbal, con las herramientas propias de la mediación.",
-    "duration": "28 min",
+    "duration": "10 min",
     "sections": [
       {
         "heading": "Desactivar la tensión antes de abordar el fondo",
@@ -7444,7 +8369,13 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "procesar peor los argumentos racionales",
             "en": "la dificultad que experimenta una persona alterada para razonar con calma"
-          },
+          }
+        ]
+      },
+      {
+        "heading": "Desactivar la tensión antes de abordar el fondo (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "bajar el tono de la conversación",
             "en": "reducir la intensidad emocional del intercambio antes de continuar el diálogo"
@@ -7468,7 +8399,31 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Cuando los ánimos están alterados, abordar el fondo del conflicto de inmediato suele reavivar la disputa en lugar de resolverla."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Por qué conviene desactivar la tensión emocional antes de discutir el fondo de un conflicto?",
+        "options": [
+          "Porque el fondo del conflicto pierde toda relevancia una vez calmados los ánimos",
+          "Porque una persona alterada procesa peor los argumentos racionales",
+          "Porque desactivar la tensión sustituye la necesidad de llegar a un acuerdo",
+          "Porque así se evita cualquier disculpa posterior"
+        ],
+        "correctIndex": 1,
+        "explanation": "Abordar el fondo de un conflicto con los ánimos alterados suele reavivar la disputa en lugar de resolverla; primero conviene suavizar el tono."
+      }
+    ]
+  },
+  {
+    "slug": "conflict-resolution-2",
+    "level": "C2",
+    "number": 84,
+    "title": "Resolución de Conflictos y Mediación Verbal, Part 2 of 7",
+    "summary": "Aprende a desactivar la tensión, reconocer la perspectiva ajena y proponer acuerdos que restauren la relación en una disputa verbal, con las herramientas propias de la mediación.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Reconocer la perspectiva ajena sin renunciar a la propia",
         "body": [
@@ -7508,7 +8463,35 @@ export const C2_LESSONS: Lesson[] = [
             "hint": "verbo que significa entender algo a fondo"
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Qué caracteriza a la negociación colaborativa en la resolución de conflictos?",
+        "options": [
+          "Se concentra en los intereses subyacentes de ambas partes",
+          "Busca que ambas partes salgan beneficiadas del acuerdo",
+          "Exige que una parte ceda por completo sin contrapartida",
+          "Tiende puentes entre posturas aparentemente irreconciliables"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "La negociación colaborativa busca beneficios mutuos centrándose en los intereses de fondo, no en que una parte ceda unilateralmente."
+      }
+    ]
+  },
+  {
+    "slug": "conflict-resolution-3",
+    "level": "C2",
+    "number": 85,
+    "title": "Resolución de Conflictos y Mediación Verbal, Part 3 of 7",
+    "summary": "Aprende a desactivar la tensión, reconocer la perspectiva ajena y proponer acuerdos que restauren la relación en una disputa verbal, con las herramientas propias de la mediación.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "Buscar el término medio y el acuerdo mutuo",
         "body": [
@@ -7528,7 +8511,33 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "tender puentes entre posturas",
             "en": "crear vías de entendimiento que acerquen posiciones aparentemente irreconciliables"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase sobre la reconciliación.",
+        "sentence": "Una disculpa sincera reconoce el daño causado sin ___ que lo diluyan.",
+        "answer": "condicionantes",
+        "explanation": "Una disculpa condicionada por justificaciones adicionales pierde buena parte de su valor reparador.",
+        "hint": "sustantivo plural relacionado con condicionar algo"
+      }
+    ]
+  },
+  {
+    "slug": "conflict-resolution-4",
+    "level": "C2",
+    "number": 86,
+    "title": "Resolución de Conflictos y Mediación Verbal, Part 4 of 7",
+    "summary": "Aprende a desactivar la tensión, reconocer la perspectiva ajena y proponer acuerdos que restauren la relación en una disputa verbal, con las herramientas propias de la mediación.",
+    "duration": "9 min",
+    "sections": [
+      {
+        "heading": "Buscar el término medio y el acuerdo mutuo (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "formular el acuerdo con claridad",
             "en": "evitar la ambigüedad que podría reabrir la disputa una vez alcanzado el pacto"
@@ -7555,55 +8564,7 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "La negociación colaborativa se centra en los intereses de fondo y busca beneficios mutuos, a diferencia de un enfoque puramente competitivo."
           }
         ]
-      }
-    ],
-    "exercises": [
-      {
-        "type": "multiple-choice",
-        "question": "¿Por qué conviene desactivar la tensión emocional antes de discutir el fondo de un conflicto?",
-        "options": [
-          "Porque el fondo del conflicto pierde toda relevancia una vez calmados los ánimos",
-          "Porque una persona alterada procesa peor los argumentos racionales",
-          "Porque desactivar la tensión sustituye la necesidad de llegar a un acuerdo",
-          "Porque así se evita cualquier disculpa posterior"
-        ],
-        "correctIndex": 1,
-        "explanation": "Abordar el fondo de un conflicto con los ánimos alterados suele reavivar la disputa en lugar de resolverla; primero conviene suavizar el tono."
       },
-      {
-        "type": "multi-select",
-        "question": "¿Qué caracteriza a la negociación colaborativa en la resolución de conflictos?",
-        "options": [
-          "Se concentra en los intereses subyacentes de ambas partes",
-          "Busca que ambas partes salgan beneficiadas del acuerdo",
-          "Exige que una parte ceda por completo sin contrapartida",
-          "Tiende puentes entre posturas aparentemente irreconciliables"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          3
-        ],
-        "explanation": "La negociación colaborativa busca beneficios mutuos centrándose en los intereses de fondo, no en que una parte ceda unilateralmente."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la frase sobre la reconciliación.",
-        "sentence": "Una disculpa sincera reconoce el daño causado sin ___ que lo diluyan.",
-        "answer": "condicionantes",
-        "explanation": "Una disculpa condicionada por justificaciones adicionales pierde buena parte de su valor reparador.",
-        "hint": "sustantivo plural relacionado con condicionar algo"
-      }
-    ]
-  },
-  {
-    "slug": "conflict-resolution-part-2",
-    "level": "C2",
-    "number": 28,
-    "title": "Resolución de Conflictos y Mediación Verbal (Parte 2 de 2)",
-    "summary": "Aprende a desactivar la tensión, reconocer la perspectiva ajena y proponer acuerdos que restauren la relación en una disputa verbal, con las herramientas propias de la mediación.",
-    "duration": "28 min",
-    "sections": [
       {
         "heading": "La disculpa sincera y la restauración de la relación",
         "body": [
@@ -7623,7 +8584,42 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "romper la dinámica de atribuirse la culpa mutuamente",
             "en": "el efecto positivo de reconocer la propia responsabilidad en una disputa"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración sobre la mediación.",
+        "words": [
+          "Reconocer",
+          "la",
+          "perspectiva",
+          "ajena",
+          "no",
+          "exige",
+          "renunciar",
+          "a",
+          "la",
+          "propia"
+        ],
+        "explanation": "El sujeto (Reconocer la perspectiva ajena) precede a la negación (no) y al verbo (exige) con su complemento."
+      }
+    ]
+  },
+  {
+    "slug": "conflict-resolution-5",
+    "level": "C2",
+    "number": 87,
+    "title": "Resolución de Conflictos y Mediación Verbal, Part 5 of 7",
+    "summary": "Aprende a desactivar la tensión, reconocer la perspectiva ajena y proponer acuerdos que restauren la relación en una disputa verbal, con las herramientas propias de la mediación.",
+    "duration": "10 min",
+    "sections": [
+      {
+        "heading": "La disculpa sincera y la restauración de la relación (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "bajar la guardia tras el conflicto",
             "en": "asumir cierta vulnerabilidad para permitir que la relación se restaure genuinamente"
@@ -7662,7 +8658,42 @@ export const C2_LESSONS: Lesson[] = [
           "Persona A: Me parece un término medio razonable. Acepto esa parte del acuerdo.",
           "Mediadora: Excelente. Dejemos entonces por escrito este pacto de convivencia para que ambos lo tengan claro."
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "el malentendido",
+            "right": "una confusión que surge de una interpretación equivocada"
+          },
+          {
+            "left": "la escucha empática",
+            "right": "la atención genuina a los sentimientos del interlocutor"
+          },
+          {
+            "left": "asumir responsabilidad compartida",
+            "right": "reconocer que ambas partes contribuyeron a un conflicto"
+          },
+          {
+            "left": "tender puentes",
+            "right": "crear vías de entendimiento entre posturas enfrentadas"
+          }
+        ],
+        "explanation": "Estos conceptos describen las herramientas centrales de la mediación verbal, desde la escucha inicial hasta la construcción del acuerdo final."
+      }
+    ]
+  },
+  {
+    "slug": "conflict-resolution-6",
+    "level": "C2",
+    "number": 88,
+    "title": "Resolución de Conflictos y Mediación Verbal, Part 6 of 7",
+    "summary": "Aprende a desactivar la tensión, reconocer la perspectiva ajena y proponer acuerdos que restauren la relación en una disputa verbal, con las herramientas propias de la mediación.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "Vocabulario: la resolución de conflictos",
         "body": [
@@ -7740,7 +8771,37 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "el reproche",
             "en": "una queja que atribuye responsabilidad de algo a otra persona"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué efecto tiene reconocer la propia responsabilidad compartida en un conflicto?",
+        "options": [
+          "Agrava la disputa al admitir una culpa innecesaria",
+          "Rompe la dinámica de atribuirse mutuamente toda la culpa y facilita la reconciliación",
+          "Sustituye por completo la necesidad de una disculpa",
+          "Solo resulta útil en conflictos mediados formalmente"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cuando una parte reconoce su propia contribución al conflicto, invita a la otra a hacer lo mismo, lo que suele facilitar la reconciliación."
+      }
+    ]
+  },
+  {
+    "slug": "conflict-resolution-7",
+    "level": "C2",
+    "number": 89,
+    "title": "Resolución de Conflictos y Mediación Verbal, Part 7 of 7",
+    "summary": "Aprende a desactivar la tensión, reconocer la perspectiva ajena y proponer acuerdos que restauren la relación en una disputa verbal, con las herramientas propias de la mediación.",
+    "duration": "4 min",
+    "sections": [
+      {
+        "heading": "Vocabulario: la resolución de conflictos (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "moderar la discusión",
             "en": "conducir un intercambio de opiniones evitando que se agrave"
@@ -7812,68 +8873,15 @@ export const C2_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": [
-      {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre la mediación.",
-        "words": [
-          "Reconocer",
-          "la",
-          "perspectiva",
-          "ajena",
-          "no",
-          "exige",
-          "renunciar",
-          "a",
-          "la",
-          "propia"
-        ],
-        "explanation": "El sujeto (Reconocer la perspectiva ajena) precede a la negación (no) y al verbo (exige) con su complemento."
-      },
-      {
-        "type": "matching",
-        "instructions": "Relaciona cada término con su definición.",
-        "pairs": [
-          {
-            "left": "el malentendido",
-            "right": "una confusión que surge de una interpretación equivocada"
-          },
-          {
-            "left": "la escucha empática",
-            "right": "la atención genuina a los sentimientos del interlocutor"
-          },
-          {
-            "left": "asumir responsabilidad compartida",
-            "right": "reconocer que ambas partes contribuyeron a un conflicto"
-          },
-          {
-            "left": "tender puentes",
-            "right": "crear vías de entendimiento entre posturas enfrentadas"
-          }
-        ],
-        "explanation": "Estos conceptos describen las herramientas centrales de la mediación verbal, desde la escucha inicial hasta la construcción del acuerdo final."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "¿Qué efecto tiene reconocer la propia responsabilidad compartida en un conflicto?",
-        "options": [
-          "Agrava la disputa al admitir una culpa innecesaria",
-          "Rompe la dinámica de atribuirse mutuamente toda la culpa y facilita la reconciliación",
-          "Sustituye por completo la necesidad de una disculpa",
-          "Solo resulta útil en conflictos mediados formalmente"
-        ],
-        "correctIndex": 1,
-        "explanation": "Cuando una parte reconoce su propia contribución al conflicto, invita a la otra a hacer lo mismo, lo que suele facilitar la reconciliación."
-      }
-    ]
+    "exercises": []
   },
   {
-    "slug": "historical-narrative-part-1",
+    "slug": "historical-narrative-1",
     "level": "C2",
-    "number": 29,
-    "title": "Narrativa Histórica: Tiempos Verbales y Estructura (Parte 1 de 2)",
+    "number": 90,
+    "title": "Narrativa Histórica: Tiempos Verbales y Estructura, Part 1 of 10",
     "summary": "Domina el reparto de funciones entre el pretérito indefinido, el imperfecto y el pluscuamperfecto en la narrativa histórica, y aprende cómo los historiadores organizan líneas temporales complejas.",
-    "duration": "32 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "El reparto de funciones entre el indefinido y el imperfecto",
@@ -7894,7 +8902,37 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "alternar ambos tiempos con naturalidad",
             "en": "combinar indefinido e imperfecto dentro de un mismo párrafo narrativo"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué función cumple el pretérito indefinido en la narrativa histórica?",
+        "options": [
+          "Describir el trasfondo continuo de una época",
+          "Narrar los hechos puntuales que hacen avanzar el relato",
+          "Expresar siempre una acción anterior a otra pasada",
+          "Introducir digresiones históricas extensas"
+        ],
+        "correctIndex": 1,
+        "explanation": "El indefinido narra los hechos puntuales y concluidos que hacen avanzar la acción del relato histórico."
+      }
+    ]
+  },
+  {
+    "slug": "historical-narrative-2",
+    "level": "C2",
+    "number": 91,
+    "title": "Narrativa Histórica: Tiempos Verbales y Estructura, Part 2 of 10",
+    "summary": "Domina el reparto de funciones entre el pretérito indefinido, el imperfecto y el pluscuamperfecto en la narrativa histórica, y aprende cómo los historiadores organizan líneas temporales complejas.",
+    "duration": "5 min",
+    "sections": [
+      {
+        "heading": "El reparto de funciones entre el indefinido y el imperfecto (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "un relato entrecortado",
             "en": "el efecto de emplear el indefinido para describir circunstancias de fondo en lugar de hechos puntuales"
@@ -7918,7 +8956,34 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "El imperfecto instala el trasfondo estático —costumbres, clima social, estados de ánimo— mientras el indefinido narra los hechos puntuales que rompen ese trasfondo."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Qué logra el uso correcto del pluscuamperfecto en un relato histórico?",
+        "options": [
+          "Establece una jerarquía clara entre distintos momentos del pasado",
+          "Sustituye por completo al pretérito imperfecto",
+          "Permite un salto hacia atrás sin abrir una digresión extensa",
+          "Confunde deliberadamente el orden de los hechos"
+        ],
+        "correctIndexes": [
+          0,
+          2
+        ],
+        "explanation": "El pluscuamperfecto aporta profundidad temporal al relato, situando con precisión un hecho anterior sin necesidad de una digresión completa."
+      }
+    ]
+  },
+  {
+    "slug": "historical-narrative-3",
+    "level": "C2",
+    "number": 92,
+    "title": "Narrativa Histórica: Tiempos Verbales y Estructura, Part 3 of 10",
+    "summary": "Domina el reparto de funciones entre el pretérito indefinido, el imperfecto y el pluscuamperfecto en la narrativa histórica, y aprende cómo los historiadores organizan líneas temporales complejas.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "El pluscuamperfecto y la profundidad temporal del relato",
         "body": [
@@ -7938,7 +9003,33 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "un salto hacia atrás económico",
             "en": "recurrir al pluscuamperfecto en una sola cláusula en lugar de abrir una digresión extensa"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con el tiempo verbal correcto.",
+        "sentence": "Mientras la ciudad ___ años de calma, en la frontera ya se gestaba el conflicto.",
+        "answer": "vivía",
+        "explanation": "El imperfecto describe el trasfondo continuo —la calma de la ciudad— sobre el que se desarrolla el hecho puntual narrado a continuación.",
+        "hint": "forma del imperfecto del verbo «vivir»"
+      }
+    ]
+  },
+  {
+    "slug": "historical-narrative-4",
+    "level": "C2",
+    "number": 93,
+    "title": "Narrativa Histórica: Tiempos Verbales y Estructura, Part 4 of 10",
+    "summary": "Domina el reparto de funciones entre el pretérito indefinido, el imperfecto y el pluscuamperfecto en la narrativa histórica, y aprende cómo los historiadores organizan líneas temporales complejas.",
+    "duration": "4 min",
+    "sections": [
+      {
+        "heading": "El pluscuamperfecto y la profundidad temporal del relato (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "aplanar la jerarquía temporal",
             "en": "el efecto de omitir el pluscuamperfecto y confundir el orden real de los hechos"
@@ -7958,7 +9049,34 @@ export const C2_LESSONS: Lesson[] = [
             "hint": "forma compuesta con «había» más el participio de «tomar»"
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración sobre la narrativa histórica.",
+        "words": [
+          "El",
+          "indefinido",
+          "narra",
+          "los",
+          "hechos",
+          "puntuales",
+          "del",
+          "relato"
+        ],
+        "explanation": "El sujeto (El indefinido) precede al verbo (narra) y a su complemento directo."
+      }
+    ]
+  },
+  {
+    "slug": "historical-narrative-5",
+    "level": "C2",
+    "number": 94,
+    "title": "Narrativa Histórica: Tiempos Verbales y Estructura, Part 5 of 10",
+    "summary": "Domina el reparto de funciones entre el pretérito indefinido, el imperfecto y el pluscuamperfecto en la narrativa histórica, y aprende cómo los historiadores organizan líneas temporales complejas.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Cómo organizan los historiadores las líneas temporales complejas",
         "body": [
@@ -7978,7 +9096,48 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "distinguir el detonante de la causa de fondo",
             "en": "separar el hecho inmediato que desencadena un proceso de sus raíces más profundas"
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "el detonante histórico",
+            "right": "el hecho concreto que desencadena un proceso histórico mayor"
           },
+          {
+            "left": "la periodización",
+            "right": "la división de la historia en etapas delimitadas"
+          },
+          {
+            "left": "el pluscuamperfecto",
+            "right": "el tiempo verbal que expresa una acción anterior a otra ya pasada"
+          },
+          {
+            "left": "narrar en retrospectiva",
+            "right": "contar un hecho pasado desde una perspectiva posterior a él"
+          }
+        ],
+        "explanation": "Estos conceptos son herramientas centrales para estructurar y narrar procesos históricos con precisión y rigor."
+      }
+    ]
+  },
+  {
+    "slug": "historical-narrative-6",
+    "level": "C2",
+    "number": 95,
+    "title": "Narrativa Histórica: Tiempos Verbales y Estructura, Part 6 of 10",
+    "summary": "Domina el reparto de funciones entre el pretérito indefinido, el imperfecto y el pluscuamperfecto en la narrativa histórica, y aprende cómo los historiadores organizan líneas temporales complejas.",
+    "duration": "5 min",
+    "sections": [
+      {
+        "heading": "Cómo organizan los historiadores las líneas temporales complejas (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "una coyuntura que se venía gestando",
             "en": "un conjunto de circunstancias previas que explican, en el fondo, un acontecimiento histórico"
@@ -8011,48 +9170,25 @@ export const C2_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Qué función cumple el pretérito indefinido en la narrativa histórica?",
+        "question": "¿Por qué narrar con perspectiva exige evitar juzgar el pasado únicamente con los valores del presente?",
         "options": [
-          "Describir el trasfondo continuo de una época",
-          "Narrar los hechos puntuales que hacen avanzar el relato",
-          "Expresar siempre una acción anterior a otra pasada",
-          "Introducir digresiones históricas extensas"
+          "Porque la historia no admite ninguna mirada crítica",
+          "Porque hacerlo sin advertirlo constituye una simplificación anacrónica del relato",
+          "Porque los valores del presente nunca son relevantes para un historiador",
+          "Porque el pretérito imperfecto prohíbe cualquier juicio de valor"
         ],
         "correctIndex": 1,
-        "explanation": "El indefinido narra los hechos puntuales y concluidos que hacen avanzar la acción del relato histórico."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Qué logra el uso correcto del pluscuamperfecto en un relato histórico?",
-        "options": [
-          "Establece una jerarquía clara entre distintos momentos del pasado",
-          "Sustituye por completo al pretérito imperfecto",
-          "Permite un salto hacia atrás sin abrir una digresión extensa",
-          "Confunde deliberadamente el orden de los hechos"
-        ],
-        "correctIndexes": [
-          0,
-          2
-        ],
-        "explanation": "El pluscuamperfecto aporta profundidad temporal al relato, situando con precisión un hecho anterior sin necesidad de una digresión completa."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la frase con el tiempo verbal correcto.",
-        "sentence": "Mientras la ciudad ___ años de calma, en la frontera ya se gestaba el conflicto.",
-        "answer": "vivía",
-        "explanation": "El imperfecto describe el trasfondo continuo —la calma de la ciudad— sobre el que se desarrolla el hecho puntual narrado a continuación.",
-        "hint": "forma del imperfecto del verbo «vivir»"
+        "explanation": "La narrativa histórica madura contextualiza cada acontecimiento según su propia época, evitando el anacronismo de imponerle sin más los valores actuales."
       }
     ]
   },
   {
-    "slug": "historical-narrative-part-2",
+    "slug": "historical-narrative-7",
     "level": "C2",
-    "number": 30,
-    "title": "Narrativa Histórica: Tiempos Verbales y Estructura (Parte 2 de 2)",
+    "number": 96,
+    "title": "Narrativa Histórica: Tiempos Verbales y Estructura, Part 7 of 10",
     "summary": "Domina el reparto de funciones entre el pretérito indefinido, el imperfecto y el pluscuamperfecto en la narrativa histórica, y aprende cómo los historiadores organizan líneas temporales complejas.",
-    "duration": "30 min",
+    "duration": "6 min",
     "sections": [
       {
         "heading": "Narrar con perspectiva: el punto de vista del historiador",
@@ -8073,7 +9209,24 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "juzgar el pasado con los valores del presente",
             "en": "un riesgo anacrónico que la narrativa histórica madura evita o, al menos, advierte con claridad"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "historical-narrative-8",
+    "level": "C2",
+    "number": 97,
+    "title": "Narrativa Histórica: Tiempos Verbales y Estructura, Part 8 of 10",
+    "summary": "Domina el reparto de funciones entre el pretérito indefinido, el imperfecto y el pluscuamperfecto en la narrativa histórica, y aprende cómo los historiadores organizan líneas temporales complejas.",
+    "duration": "8 min",
+    "sections": [
+      {
+        "heading": "Narrar con perspectiva: el punto de vista del historiador (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "situar un hecho según los códigos de su propia época",
             "en": "contextualizar un acontecimiento sin imponerle valores ajenos a su marco temporal"
@@ -8111,7 +9264,18 @@ export const C2_LESSONS: Lesson[] = [
           "Estudiante: Entonces, para narrar con perspectiva, hay que planear con cuidado qué tiempo verbal corresponde a cada capa del relato.",
           "Profesor: Así es. La sucesión cronológica de los hechos exige esa precisión gramatical, no solo un buen conocimiento de las fuentes."
         ]
-      },
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "historical-narrative-9",
+    "level": "C2",
+    "number": 98,
+    "title": "Narrativa Histórica: Tiempos Verbales y Estructura, Part 9 of 10",
+    "summary": "Domina el reparto de funciones entre el pretérito indefinido, el imperfecto y el pluscuamperfecto en la narrativa histórica, y aprende cómo los historiadores organizan líneas temporales complejas.",
+    "duration": "5 min",
+    "sections": [
       {
         "heading": "Vocabulario: la narrativa histórica",
         "body": [
@@ -8185,7 +9349,24 @@ export const C2_LESSONS: Lesson[] = [
           {
             "es": "la consecuencia histórica",
             "en": "el efecto derivado de un acontecimiento pasado"
-          },
+          }
+        ]
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "historical-narrative-10",
+    "level": "C2",
+    "number": 99,
+    "title": "Narrativa Histórica: Tiempos Verbales y Estructura, Part 10 of 10",
+    "summary": "Domina el reparto de funciones entre el pretérito indefinido, el imperfecto y el pluscuamperfecto en la narrativa histórica, y aprende cómo los historiadores organizan líneas temporales complejas.",
+    "duration": "4 min",
+    "sections": [
+      {
+        "heading": "Vocabulario: la narrativa histórica (cont'd)",
+        "body": [],
+        "examples": [
           {
             "es": "narrar en retrospectiva",
             "en": "contar un hecho pasado desde una perspectiva posterior a él"
@@ -8257,66 +9438,15 @@ export const C2_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": [
-      {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre la narrativa histórica.",
-        "words": [
-          "El",
-          "indefinido",
-          "narra",
-          "los",
-          "hechos",
-          "puntuales",
-          "del",
-          "relato"
-        ],
-        "explanation": "El sujeto (El indefinido) precede al verbo (narra) y a su complemento directo."
-      },
-      {
-        "type": "matching",
-        "instructions": "Relaciona cada término con su definición.",
-        "pairs": [
-          {
-            "left": "el detonante histórico",
-            "right": "el hecho concreto que desencadena un proceso histórico mayor"
-          },
-          {
-            "left": "la periodización",
-            "right": "la división de la historia en etapas delimitadas"
-          },
-          {
-            "left": "el pluscuamperfecto",
-            "right": "el tiempo verbal que expresa una acción anterior a otra ya pasada"
-          },
-          {
-            "left": "narrar en retrospectiva",
-            "right": "contar un hecho pasado desde una perspectiva posterior a él"
-          }
-        ],
-        "explanation": "Estos conceptos son herramientas centrales para estructurar y narrar procesos históricos con precisión y rigor."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "¿Por qué narrar con perspectiva exige evitar juzgar el pasado únicamente con los valores del presente?",
-        "options": [
-          "Porque la historia no admite ninguna mirada crítica",
-          "Porque hacerlo sin advertirlo constituye una simplificación anacrónica del relato",
-          "Porque los valores del presente nunca son relevantes para un historiador",
-          "Porque el pretérito imperfecto prohíbe cualquier juicio de valor"
-        ],
-        "correctIndex": 1,
-        "explanation": "La narrativa histórica madura contextualiza cada acontecimiento según su propia época, evitando el anacronismo de imponerle sin más los valores actuales."
-      }
-    ]
+    "exercises": []
   },
   {
-    "slug": "science-technology-spanish",
+    "slug": "science-technology-spanish-1",
     "level": "C2",
-    "number": 31,
-    "title": "Español para las Ciencias y la Tecnología",
+    "number": 100,
+    "title": "Español para las Ciencias y la Tecnología, Part 1 of 3",
     "summary": "Explora el vocabulario y el registro necesarios para hablar de hipótesis, experimentos e innovación tecnológica con la precisión de una publicación científica o un reportaje especializado.",
-    "duration": "25 min",
+    "duration": "9 min",
     "sections": [
       {
         "heading": "La formulación de hipótesis y el rigor del método científico",
@@ -8424,7 +9554,39 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "El diseño experimental exige distinguir con claridad estas tres nociones para poder interpretar correctamente los resultados obtenidos."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué distingue a una hipótesis científicamente útil de una que no lo es?",
+        "options": [
+          "Que resulte imposible de refutar",
+          "Que sea falsable, es decir, que pueda demostrarse errónea",
+          "Que provenga de una autoridad reconocida",
+          "Que confirme siempre la intuición inicial"
+        ],
+        "correctIndex": 1,
+        "explanation": "La falsabilidad es el criterio central que separa una hipótesis científica de una mera especulación irrefutable."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con el término adecuado.",
+        "sentence": "El ___ de control permite comparar los resultados con y sin la intervención estudiada.",
+        "answer": "grupo",
+        "explanation": "El grupo de control es el conjunto de sujetos que no recibe la intervención, usado como referencia comparativa.",
+        "hint": "Es el conjunto de sujetos que no recibe el tratamiento experimental."
+      }
+    ]
+  },
+  {
+    "slug": "science-technology-spanish-2",
+    "level": "C2",
+    "number": 101,
+    "title": "Español para las Ciencias y la Tecnología, Part 2 of 3",
+    "summary": "Explora el vocabulario y el registro necesarios para hablar de hipótesis, experimentos e innovación tecnológica con la precisión de una publicación científica o un reportaje especializado.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "La innovación tecnológica y la lógica de la disrupción",
         "body": [
@@ -8516,7 +9678,52 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "El texto plantea el sesgo algorítmico, la falta de explicabilidad y la difusa atribución de responsabilidad como problemas éticos centrales; en ningún momento afirma que los algoritmos sean más justos que las personas."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de estos elementos forman parte de un diseño experimental riguroso?",
+        "options": [
+          "La variable independiente",
+          "El grupo de control",
+          "La ausencia total de registro de otras variables",
+          "La distinción entre validez interna y externa"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "Un diseño riguroso identifica la variable independiente, incluye un grupo de control y distingue entre validez interna y externa; ignorar otras variables relevantes debilitaría el estudio."
       },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración coherente sobre la innovación.",
+        "words": [
+          "La",
+          "innovación",
+          "disruptiva",
+          "redefine",
+          "las",
+          "reglas",
+          "de",
+          "un",
+          "mercado",
+          "entero"
+        ],
+        "explanation": "La oración describe cómo una innovación disruptiva no mejora simplemente un producto, sino que transforma las reglas de todo un mercado."
+      }
+    ]
+  },
+  {
+    "slug": "science-technology-spanish-3",
+    "level": "C2",
+    "number": 102,
+    "title": "Español para las Ciencias y la Tecnología, Part 3 of 3",
+    "summary": "Explora el vocabulario y el registro necesarios para hablar de hipótesis, experimentos e innovación tecnológica con la precisión de una publicación científica o un reportaje especializado.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "En la práctica",
         "body": [
@@ -8681,59 +9888,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "¿Qué distingue a una hipótesis científicamente útil de una que no lo es?",
-        "options": [
-          "Que resulte imposible de refutar",
-          "Que sea falsable, es decir, que pueda demostrarse errónea",
-          "Que provenga de una autoridad reconocida",
-          "Que confirme siempre la intuición inicial"
-        ],
-        "correctIndex": 1,
-        "explanation": "La falsabilidad es el criterio central que separa una hipótesis científica de una mera especulación irrefutable."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la frase con el término adecuado.",
-        "sentence": "El ___ de control permite comparar los resultados con y sin la intervención estudiada.",
-        "answer": "grupo",
-        "explanation": "El grupo de control es el conjunto de sujetos que no recibe la intervención, usado como referencia comparativa.",
-        "hint": "Es el conjunto de sujetos que no recibe el tratamiento experimental."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de estos elementos forman parte de un diseño experimental riguroso?",
-        "options": [
-          "La variable independiente",
-          "El grupo de control",
-          "La ausencia total de registro de otras variables",
-          "La distinción entre validez interna y externa"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          3
-        ],
-        "explanation": "Un diseño riguroso identifica la variable independiente, incluye un grupo de control y distingue entre validez interna y externa; ignorar otras variables relevantes debilitaría el estudio."
-      },
-      {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración coherente sobre la innovación.",
-        "words": [
-          "La",
-          "innovación",
-          "disruptiva",
-          "redefine",
-          "las",
-          "reglas",
-          "de",
-          "un",
-          "mercado",
-          "entero"
-        ],
-        "explanation": "La oración describe cómo una innovación disruptiva no mejora simplemente un producto, sino que transforma las reglas de todo un mercado."
-      },
-      {
         "type": "matching",
         "instructions": "Relaciona cada concepto tecnológico con su definición.",
         "pairs": [
@@ -8767,12 +9921,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "environment-politics-spanish",
+    "slug": "environment-politics-spanish-1",
     "level": "C2",
-    "number": 32,
-    "title": "Español para el Medio Ambiente y la Política",
+    "number": 103,
+    "title": "Español para el Medio Ambiente y la Política, Part 1 of 3",
     "summary": "Domina el vocabulario y los matices necesarios para debatir el cambio climático, la política medioambiental y la vida institucional con la sofisticación de un análisis periodístico serio.",
-    "duration": "23 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "El cambio climático y la responsabilidad compartida",
@@ -8857,7 +10011,47 @@ export const C2_LESSONS: Lesson[] = [
             "hint": "Es el modelo de crecimiento que equilibra el presente y el futuro."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué asimetría señala el texto respecto al cambio climático?",
+        "options": [
+          "Todos los países contaminan y sufren por igual",
+          "Quienes más han contaminado históricamente no siempre son quienes más sufren las consecuencias",
+          "Solo los países pobres emiten gases de efecto invernadero",
+          "La deforestación no afecta a la biodiversidad"
+        ],
+        "correctIndex": 1,
+        "explanation": "El texto describe una asimetría entre la responsabilidad histórica en las emisiones y quién sufre hoy con mayor crudeza sus efectos."
       },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de los siguientes son mecanismos o fenómenos políticos discutidos en la lección?",
+        "options": [
+          "El clientelismo político",
+          "La captura regulatoria",
+          "El referéndum",
+          "La fotosíntesis"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          2
+        ],
+        "explanation": "El clientelismo, la captura regulatoria y el referéndum son fenómenos políticos tratados en la lección; la fotosíntesis no pertenece a este dominio temático."
+      }
+    ]
+  },
+  {
+    "slug": "environment-politics-spanish-2",
+    "level": "C2",
+    "number": 104,
+    "title": "Español para el Medio Ambiente y la Política, Part 2 of 3",
+    "summary": "Domina el vocabulario y los matices necesarios para debatir el cambio climático, la política medioambiental y la vida institucional con la sofisticación de un análisis periodístico serio.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "La polarización política y el deterioro del discurso público",
         "body": [
@@ -8952,7 +10146,43 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "El texto menciona el clientelismo político y la captura regulatoria como formas sutiles de corrupción; el sufragio y la rendición de cuentas son, en cambio, mecanismos democráticos deseables."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase.",
+        "sentence": "El ___ de presión ejerce una influencia que rara vez resulta visible para el ciudadano común.",
+        "answer": "grupo",
+        "explanation": "Un grupo de presión es un colectivo que busca influir en las decisiones políticas defendiendo intereses particulares.",
+        "hint": "Es el colectivo que defiende intereses particulares ante quienes legislan."
       },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración sobre la gobernanza.",
+        "words": [
+          "La",
+          "gobernanza",
+          "de",
+          "calidad",
+          "exige",
+          "rendición",
+          "de",
+          "cuentas",
+          "continua"
+        ],
+        "explanation": "La oración resume la idea de que gobernar bien implica rendir cuentas de manera constante, no solo durante las elecciones."
+      }
+    ]
+  },
+  {
+    "slug": "environment-politics-spanish-3",
+    "level": "C2",
+    "number": 105,
+    "title": "Español para el Medio Ambiente y la Política, Part 3 of 3",
+    "summary": "Domina el vocabulario y los matices necesarios para debatir el cambio climático, la política medioambiental y la vida institucional con la sofisticación de un análisis periodístico serio.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "En la práctica",
         "body": [
@@ -9115,58 +10345,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "¿Qué asimetría señala el texto respecto al cambio climático?",
-        "options": [
-          "Todos los países contaminan y sufren por igual",
-          "Quienes más han contaminado históricamente no siempre son quienes más sufren las consecuencias",
-          "Solo los países pobres emiten gases de efecto invernadero",
-          "La deforestación no afecta a la biodiversidad"
-        ],
-        "correctIndex": 1,
-        "explanation": "El texto describe una asimetría entre la responsabilidad histórica en las emisiones y quién sufre hoy con mayor crudeza sus efectos."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de los siguientes son mecanismos o fenómenos políticos discutidos en la lección?",
-        "options": [
-          "El clientelismo político",
-          "La captura regulatoria",
-          "El referéndum",
-          "La fotosíntesis"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          2
-        ],
-        "explanation": "El clientelismo, la captura regulatoria y el referéndum son fenómenos políticos tratados en la lección; la fotosíntesis no pertenece a este dominio temático."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la frase.",
-        "sentence": "El ___ de presión ejerce una influencia que rara vez resulta visible para el ciudadano común.",
-        "answer": "grupo",
-        "explanation": "Un grupo de presión es un colectivo que busca influir en las decisiones políticas defendiendo intereses particulares.",
-        "hint": "Es el colectivo que defiende intereses particulares ante quienes legislan."
-      },
-      {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre la gobernanza.",
-        "words": [
-          "La",
-          "gobernanza",
-          "de",
-          "calidad",
-          "exige",
-          "rendición",
-          "de",
-          "cuentas",
-          "continua"
-        ],
-        "explanation": "La oración resume la idea de que gobernar bien implica rendir cuentas de manera constante, no solo durante las elecciones."
-      },
-      {
         "type": "matching",
         "instructions": "Relaciona cada concepto con su definición.",
         "pairs": [
@@ -9200,12 +10378,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "philosophy-abstract-concepts",
+    "slug": "philosophy-abstract-concepts-1",
     "level": "C2",
-    "number": 33,
-    "title": "Español para la Filosofía y los Conceptos Abstractos",
+    "number": 106,
+    "title": "Español para la Filosofía y los Conceptos Abstractos, Part 1 of 3",
     "summary": "Adquiere el vocabulario abstracto necesario para razonar en español sobre el libre albedrío, la ética, la naturaleza de la realidad y la estructura de un buen argumento.",
-    "duration": "24 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "El libre albedrío frente al determinismo",
@@ -9290,7 +10468,39 @@ export const C2_LESSONS: Lesson[] = [
             "hint": "Es la disciplina que somete las costumbres a un examen racional."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué sostiene el compatibilismo respecto a la libertad?",
+        "options": [
+          "Que la libertad exige un universo completamente indeterminado",
+          "Que la libertad consiste en actuar según los propios deseos y razones, sin coacción externa",
+          "Que la libertad y el determinismo son directamente incompatibles",
+          "Que nadie es jamás responsable de sus actos"
+        ],
+        "correctIndex": 1,
+        "explanation": "El compatibilismo concilia el determinismo con la libertad al definir esta última como ausencia de coacción externa, no como ausencia de causas."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con el término filosófico adecuado.",
+        "sentence": "Un argumento puede ser lógicamente ___ y, sin embargo, partir de premisas falsas.",
+        "answer": "válido",
+        "explanation": "La validez concierne a la forma del razonamiento, no a la verdad de sus premisas.",
+        "hint": "Es la propiedad de un argumento cuya conclusión se sigue necesariamente de sus premisas."
+      }
+    ]
+  },
+  {
+    "slug": "philosophy-abstract-concepts-2",
+    "level": "C2",
+    "number": 107,
+    "title": "Español para la Filosofía y los Conceptos Abstractos, Part 2 of 3",
+    "summary": "Adquiere el vocabulario abstracto necesario para razonar en español sobre el libre albedrío, la ética, la naturaleza de la realidad y la estructura de un buen argumento.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "El idealismo y el materialismo en la comprensión de la realidad",
         "body": [
@@ -9397,7 +10607,52 @@ export const C2_LESSONS: Lesson[] = [
             "hint": "Es un error de razonamiento que suele resultar persuasivo pese a ser inválido."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes posturas se refieren a la naturaleza última de la realidad?",
+        "options": [
+          "El materialismo",
+          "El idealismo",
+          "El dualismo",
+          "El silogismo"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          2
+        ],
+        "explanation": "El materialismo, el idealismo y el dualismo son posturas sobre la naturaleza última de la realidad; el silogismo es, en cambio, una forma de razonamiento."
       },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración sobre la ética.",
+        "words": [
+          "La",
+          "ética",
+          "examina",
+          "críticamente",
+          "los",
+          "fundamentos",
+          "de",
+          "las",
+          "normas",
+          "morales"
+        ],
+        "explanation": "La oración resume la distinción entre la moral, como conjunto de costumbres vigentes, y la ética, como reflexión crítica sobre ellas."
+      }
+    ]
+  },
+  {
+    "slug": "philosophy-abstract-concepts-3",
+    "level": "C2",
+    "number": 108,
+    "title": "Español para la Filosofía y los Conceptos Abstractos, Part 3 of 3",
+    "summary": "Adquiere el vocabulario abstracto necesario para razonar en español sobre el libre albedrío, la ética, la naturaleza de la realidad y la estructura de un buen argumento.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "En la práctica",
         "body": [
@@ -9562,59 +10817,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "¿Qué sostiene el compatibilismo respecto a la libertad?",
-        "options": [
-          "Que la libertad exige un universo completamente indeterminado",
-          "Que la libertad consiste en actuar según los propios deseos y razones, sin coacción externa",
-          "Que la libertad y el determinismo son directamente incompatibles",
-          "Que nadie es jamás responsable de sus actos"
-        ],
-        "correctIndex": 1,
-        "explanation": "El compatibilismo concilia el determinismo con la libertad al definir esta última como ausencia de coacción externa, no como ausencia de causas."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la frase con el término filosófico adecuado.",
-        "sentence": "Un argumento puede ser lógicamente ___ y, sin embargo, partir de premisas falsas.",
-        "answer": "válido",
-        "explanation": "La validez concierne a la forma del razonamiento, no a la verdad de sus premisas.",
-        "hint": "Es la propiedad de un argumento cuya conclusión se sigue necesariamente de sus premisas."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de las siguientes posturas se refieren a la naturaleza última de la realidad?",
-        "options": [
-          "El materialismo",
-          "El idealismo",
-          "El dualismo",
-          "El silogismo"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          2
-        ],
-        "explanation": "El materialismo, el idealismo y el dualismo son posturas sobre la naturaleza última de la realidad; el silogismo es, en cambio, una forma de razonamiento."
-      },
-      {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre la ética.",
-        "words": [
-          "La",
-          "ética",
-          "examina",
-          "críticamente",
-          "los",
-          "fundamentos",
-          "de",
-          "las",
-          "normas",
-          "morales"
-        ],
-        "explanation": "La oración resume la distinción entre la moral, como conjunto de costumbres vigentes, y la ética, como reflexión crítica sobre ellas."
-      },
-      {
         "type": "matching",
         "instructions": "Relaciona cada término con su definición.",
         "pairs": [
@@ -9648,12 +10850,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "psychology-emotions",
+    "slug": "psychology-emotions-1",
     "level": "C2",
-    "number": 34,
-    "title": "Español para la Psicología y las Emociones Complejas",
+    "number": 109,
+    "title": "Español para la Psicología y las Emociones Complejas, Part 1 of 3",
     "summary": "Aprende a nombrar con precisión los estados emocionales y psicológicos más matizados, desde la ambivalencia hasta la resiliencia, con el vocabulario propio de la introspección madura.",
-    "duration": "23 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "La ambivalencia y la disonancia cognitiva",
@@ -9749,7 +10951,39 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Estos tres mecanismos comparten la función de proteger a la persona de un conflicto psicológico intolerable."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué es la disonancia cognitiva según el texto?",
+        "options": [
+          "La ausencia total de creencias sobre uno mismo",
+          "El malestar que surge al sostener dos creencias, o una creencia y una conducta, incompatibles entre sí",
+          "Un sinónimo exacto de la ambivalencia",
+          "La incapacidad de sentir empatía"
+        ],
+        "correctIndex": 1,
+        "explanation": "La disonancia cognitiva es el malestar psicológico que surge de sostener elementos mutuamente incompatibles."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con el mecanismo de defensa adecuado.",
+        "sentence": "La ___ atribuye a otra persona un impulso propio que resulta inaceptable reconocer.",
+        "answer": "proyección",
+        "explanation": "La proyección psicológica es el mecanismo que traslada a otra persona un impulso propio inaceptable.",
+        "hint": "Es un mecanismo de defensa que traslada un impulso propio a otra persona."
+      }
+    ]
+  },
+  {
+    "slug": "psychology-emotions-2",
+    "level": "C2",
+    "number": 110,
+    "title": "Español para la Psicología y las Emociones Complejas, Part 2 of 3",
+    "summary": "Aprende a nombrar con precisión los estados emocionales y psicológicos más matizados, desde la ambivalencia hasta la resiliencia, con el vocabulario propio de la introspección madura.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "La melancolía, la nostalgia y el anhelo: matices del duelo emocional",
         "body": [
@@ -9841,7 +11075,51 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "El texto sostiene que la vulnerabilidad, aunque implica un riesgo emocional, es a la vez la puerta de entrada indispensable para la intimidad genuina."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de los siguientes son mecanismos de defensa mencionados en la lección?",
+        "options": [
+          "La represión",
+          "La proyección psicológica",
+          "El autoengaño",
+          "La plenitud"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          2
+        ],
+        "explanation": "La represión, la proyección y el autoengaño son mecanismos de defensa; la plenitud es, en cambio, un estado de satisfacción vital."
       },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración sobre la resiliencia.",
+        "words": [
+          "La",
+          "resiliencia",
+          "no",
+          "consiste",
+          "en",
+          "la",
+          "ausencia",
+          "de",
+          "sufrimiento"
+        ],
+        "explanation": "La oración resume la idea central de que la resiliencia no elimina el sufrimiento, sino que permite reorganizarse después de él."
+      }
+    ]
+  },
+  {
+    "slug": "psychology-emotions-3",
+    "level": "C2",
+    "number": 111,
+    "title": "Español para la Psicología y las Emociones Complejas, Part 3 of 3",
+    "summary": "Aprende a nombrar con precisión los estados emocionales y psicológicos más matizados, desde la ambivalencia hasta la resiliencia, con el vocabulario propio de la introspección madura.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "En la práctica",
         "body": [
@@ -10006,58 +11284,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "¿Qué es la disonancia cognitiva según el texto?",
-        "options": [
-          "La ausencia total de creencias sobre uno mismo",
-          "El malestar que surge al sostener dos creencias, o una creencia y una conducta, incompatibles entre sí",
-          "Un sinónimo exacto de la ambivalencia",
-          "La incapacidad de sentir empatía"
-        ],
-        "correctIndex": 1,
-        "explanation": "La disonancia cognitiva es el malestar psicológico que surge de sostener elementos mutuamente incompatibles."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la frase con el mecanismo de defensa adecuado.",
-        "sentence": "La ___ atribuye a otra persona un impulso propio que resulta inaceptable reconocer.",
-        "answer": "proyección",
-        "explanation": "La proyección psicológica es el mecanismo que traslada a otra persona un impulso propio inaceptable.",
-        "hint": "Es un mecanismo de defensa que traslada un impulso propio a otra persona."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de los siguientes son mecanismos de defensa mencionados en la lección?",
-        "options": [
-          "La represión",
-          "La proyección psicológica",
-          "El autoengaño",
-          "La plenitud"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          2
-        ],
-        "explanation": "La represión, la proyección y el autoengaño son mecanismos de defensa; la plenitud es, en cambio, un estado de satisfacción vital."
-      },
-      {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre la resiliencia.",
-        "words": [
-          "La",
-          "resiliencia",
-          "no",
-          "consiste",
-          "en",
-          "la",
-          "ausencia",
-          "de",
-          "sufrimiento"
-        ],
-        "explanation": "La oración resume la idea central de que la resiliencia no elimina el sufrimiento, sino que permite reorganizarse después de él."
-      },
-      {
         "type": "matching",
         "instructions": "Relaciona cada emoción con su matiz distintivo.",
         "pairs": [
@@ -10091,12 +11317,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "art-film-literature-criticism",
+    "slug": "art-film-literature-criticism-1",
     "level": "C2",
-    "number": 35,
-    "title": "Crítica de Arte, Cine y Literatura",
+    "number": 112,
+    "title": "Crítica de Arte, Cine y Literatura, Part 1 of 3",
     "summary": "Adopta el registro y el vocabulario de la crítica cultural para analizar con precisión la trama, la puesta en escena y la composición visual de una obra.",
-    "duration": "24 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "La trama, el personaje y la verosimilitud",
@@ -10181,7 +11407,39 @@ export const C2_LESSONS: Lesson[] = [
             "hint": "Es el recurso que dota a un objeto de un significado adicional."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué exige la verosimilitud narrativa según la lección?",
+        "options": [
+          "Que la obra sea completamente realista y sin elementos fantásticos",
+          "Que la obra respete de manera consistente las reglas de su propio mundo narrativo",
+          "Que la trama carezca de cualquier sorpresa",
+          "Que el personaje nunca evolucione a lo largo de la obra"
+        ],
+        "correctIndex": 1,
+        "explanation": "La verosimilitud es coherencia interna respecto a las propias reglas de la obra, no un requisito de realismo estricto."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con el término adecuado.",
+        "sentence": "La ___ engloba todo lo que el director dispone deliberadamente frente a la cámara.",
+        "answer": "puesta en escena",
+        "explanation": "La puesta en escena incluye la posición de los actores, la iluminación, el vestuario y la ambientación.",
+        "hint": "Es el conjunto de decisiones visuales y espaciales del director."
+      }
+    ]
+  },
+  {
+    "slug": "art-film-literature-criticism-2",
+    "level": "C2",
+    "number": 113,
+    "title": "Crítica de Arte, Cine y Literatura, Part 2 of 3",
+    "summary": "Adopta el registro y el vocabulario de la crítica cultural para analizar con precisión la trama, la puesta en escena y la composición visual de una obra.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "La crítica cinematográfica: de la fotografía a la puesta en escena",
         "body": [
@@ -10280,7 +11538,53 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "El texto advierte contra sobrevalorar la originalidad como criterio único y señala que puede coexistir con la superficialidad, así como que obras con recursos conocidos sí pueden alcanzar una hondura genuina."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de los siguientes son recursos o conceptos propios de la crítica literaria y cinematográfica?",
+        "options": [
+          "El simbolismo",
+          "La intertextualidad",
+          "La puesta en escena",
+          "El superávit"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          2
+        ],
+        "explanation": "El simbolismo, la intertextualidad y la puesta en escena pertenecen al dominio de la crítica cultural; el superávit pertenece, en cambio, al dominio económico."
       },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración sobre la composición.",
+        "words": [
+          "La",
+          "composición",
+          "guía",
+          "la",
+          "mirada",
+          "del",
+          "espectador",
+          "hacia",
+          "puntos",
+          "de",
+          "tensión"
+        ],
+        "explanation": "La oración describe cómo la composición visual organiza los elementos de una obra para dirigir la atención de quien la observa."
+      }
+    ]
+  },
+  {
+    "slug": "art-film-literature-criticism-3",
+    "level": "C2",
+    "number": 114,
+    "title": "Crítica de Arte, Cine y Literatura, Part 3 of 3",
+    "summary": "Adopta el registro y el vocabulario de la crítica cultural para analizar con precisión la trama, la puesta en escena y la composición visual de una obra.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "En la práctica",
         "body": [
@@ -10445,60 +11749,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "¿Qué exige la verosimilitud narrativa según la lección?",
-        "options": [
-          "Que la obra sea completamente realista y sin elementos fantásticos",
-          "Que la obra respete de manera consistente las reglas de su propio mundo narrativo",
-          "Que la trama carezca de cualquier sorpresa",
-          "Que el personaje nunca evolucione a lo largo de la obra"
-        ],
-        "correctIndex": 1,
-        "explanation": "La verosimilitud es coherencia interna respecto a las propias reglas de la obra, no un requisito de realismo estricto."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la frase con el término adecuado.",
-        "sentence": "La ___ engloba todo lo que el director dispone deliberadamente frente a la cámara.",
-        "answer": "puesta en escena",
-        "explanation": "La puesta en escena incluye la posición de los actores, la iluminación, el vestuario y la ambientación.",
-        "hint": "Es el conjunto de decisiones visuales y espaciales del director."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de los siguientes son recursos o conceptos propios de la crítica literaria y cinematográfica?",
-        "options": [
-          "El simbolismo",
-          "La intertextualidad",
-          "La puesta en escena",
-          "El superávit"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          2
-        ],
-        "explanation": "El simbolismo, la intertextualidad y la puesta en escena pertenecen al dominio de la crítica cultural; el superávit pertenece, en cambio, al dominio económico."
-      },
-      {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre la composición.",
-        "words": [
-          "La",
-          "composición",
-          "guía",
-          "la",
-          "mirada",
-          "del",
-          "espectador",
-          "hacia",
-          "puntos",
-          "de",
-          "tensión"
-        ],
-        "explanation": "La oración describe cómo la composición visual organiza los elementos de una obra para dirigir la atención de quien la observa."
-      },
-      {
         "type": "matching",
         "instructions": "Relaciona cada término con su definición.",
         "pairs": [
@@ -10532,12 +11782,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "business-economics-spanish",
+    "slug": "business-economics-spanish-1",
     "level": "C2",
-    "number": 36,
-    "title": "Español para los Negocios y la Economía",
+    "number": 115,
+    "title": "Español para los Negocios y la Economía, Part 1 of 3",
     "summary": "Domina el vocabulario estratégico y macroeconómico que emplea el periodismo financiero para analizar fusiones, inflación y comercio internacional.",
-    "duration": "25 min",
+    "duration": "9 min",
     "sections": [
       {
         "heading": "La oferta y la demanda: el motor del mercado",
@@ -10637,7 +11887,39 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Estos tres términos son fundamentales para describir con precisión las operaciones corporativas más habituales."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué ocurre cuando la oferta de un bien supera a la demanda existente?",
+        "options": [
+          "Los precios tienden a subir de manera indefinida",
+          "Los precios tienden a bajar hasta alcanzar un nuevo punto de equilibrio",
+          "El bien desaparece por completo del mercado",
+          "La demanda se vuelve automáticamente inelástica"
+        ],
+        "correctIndex": 1,
+        "explanation": "Según el mecanismo básico del mercado, un exceso de oferta sobre la demanda presiona los precios a la baja."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con el término adecuado.",
+        "sentence": "Una ___ empresarial combina dos compañías en una entidad nueva.",
+        "answer": "fusión",
+        "explanation": "Una fusión empresarial es la combinación de dos compañías en una sola entidad nueva.",
+        "hint": "Se distingue de la adquisición, en la que una empresa compra a otra."
+      }
+    ]
+  },
+  {
+    "slug": "business-economics-spanish-2",
+    "level": "C2",
+    "number": 116,
+    "title": "Español para los Negocios y la Economía, Part 2 of 3",
+    "summary": "Domina el vocabulario estratégico y macroeconómico que emplea el periodismo financiero para analizar fusiones, inflación y comercio internacional.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "La inflación y la política monetaria",
         "body": [
@@ -10729,7 +12011,52 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "El texto sostiene que el arancel puede proteger industrias y responder a prácticas desleales, pero también advierte que tiende a encarecer los productos; en ningún caso afirma que carezca de efecto sobre los precios."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de los siguientes son instrumentos o conceptos de política económica mencionados en la lección?",
+        "options": [
+          "La tasa de interés",
+          "El arancel",
+          "La devaluación",
+          "El leitmotiv"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          2
+        ],
+        "explanation": "La tasa de interés, el arancel y la devaluación son instrumentos de política económica; el leitmotiv pertenece, en cambio, al ámbito literario."
       },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración sobre la inflación.",
+        "words": [
+          "La",
+          "inflación",
+          "erosiona",
+          "el",
+          "poder",
+          "adquisitivo",
+          "de",
+          "los",
+          "ingresos",
+          "fijos"
+        ],
+        "explanation": "La oración resume cómo el aumento sostenido de precios reduce la capacidad de compra de quienes perciben ingresos fijos."
+      }
+    ]
+  },
+  {
+    "slug": "business-economics-spanish-3",
+    "level": "C2",
+    "number": 117,
+    "title": "Español para los Negocios y la Economía, Part 3 of 3",
+    "summary": "Domina el vocabulario estratégico y macroeconómico que emplea el periodismo financiero para analizar fusiones, inflación y comercio internacional.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "En la práctica",
         "body": [
@@ -10894,59 +12221,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "¿Qué ocurre cuando la oferta de un bien supera a la demanda existente?",
-        "options": [
-          "Los precios tienden a subir de manera indefinida",
-          "Los precios tienden a bajar hasta alcanzar un nuevo punto de equilibrio",
-          "El bien desaparece por completo del mercado",
-          "La demanda se vuelve automáticamente inelástica"
-        ],
-        "correctIndex": 1,
-        "explanation": "Según el mecanismo básico del mercado, un exceso de oferta sobre la demanda presiona los precios a la baja."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la frase con el término adecuado.",
-        "sentence": "Una ___ empresarial combina dos compañías en una entidad nueva.",
-        "answer": "fusión",
-        "explanation": "Una fusión empresarial es la combinación de dos compañías en una sola entidad nueva.",
-        "hint": "Se distingue de la adquisición, en la que una empresa compra a otra."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de los siguientes son instrumentos o conceptos de política económica mencionados en la lección?",
-        "options": [
-          "La tasa de interés",
-          "El arancel",
-          "La devaluación",
-          "El leitmotiv"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          2
-        ],
-        "explanation": "La tasa de interés, el arancel y la devaluación son instrumentos de política económica; el leitmotiv pertenece, en cambio, al ámbito literario."
-      },
-      {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre la inflación.",
-        "words": [
-          "La",
-          "inflación",
-          "erosiona",
-          "el",
-          "poder",
-          "adquisitivo",
-          "de",
-          "los",
-          "ingresos",
-          "fijos"
-        ],
-        "explanation": "La oración resume cómo el aumento sostenido de precios reduce la capacidad de compra de quienes perciben ingresos fijos."
-      },
-      {
         "type": "matching",
         "instructions": "Relaciona cada concepto con su definición.",
         "pairs": [
@@ -10980,12 +12254,12 @@ export const C2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "creative-writing-techniques",
+    "slug": "creative-writing-techniques-1",
     "level": "C2",
-    "number": 37,
-    "title": "Escritura Creativa: Técnicas Literarias Avanzadas",
+    "number": 118,
+    "title": "Escritura Creativa: Técnicas Literarias Avanzadas, Part 1 of 3",
     "summary": "Domina las herramientas del oficio literario, desde la prefiguración hasta el clímax narrativo, con el vocabulario preciso que emplea un escritor para hablar de su propio oficio.",
-    "duration": "24 min",
+    "duration": "9 min",
     "sections": [
       {
         "heading": "La prefiguración y la tensión narrativa",
@@ -11081,7 +12355,39 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Estos conceptos permiten analizar con precisión cómo una obra construye su relación de confianza o de distancia con el lector."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿En qué consiste la prefiguración según la lección?",
+        "options": [
+          "En revelar de inmediato todos los acontecimientos futuros de la obra",
+          "En sembrar de manera discreta indicios que anticipan un acontecimiento posterior",
+          "En eliminar por completo cualquier tensión narrativa",
+          "En repetir literalmente una escena anterior sin ninguna variación"
+        ],
+        "correctIndex": 1,
+        "explanation": "La prefiguración siembra indicios discretos que cobran pleno significado más adelante en el relato."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con el término adecuado.",
+        "sentence": "Un narrador poco ___ obliga al lector a interpretar con sospecha lo que se cuenta.",
+        "answer": "confiable",
+        "explanation": "Un narrador poco confiable introduce una distancia crítica que exige al lector una lectura más activa y desconfiada.",
+        "hint": "Se opone al narrador cuyo relato el lector puede aceptar sin sospecha."
+      }
+    ]
+  },
+  {
+    "slug": "creative-writing-techniques-2",
+    "level": "C2",
+    "number": 119,
+    "title": "Escritura Creativa: Técnicas Literarias Avanzadas, Part 2 of 3",
+    "summary": "Domina las herramientas del oficio literario, desde la prefiguración hasta el clímax narrativo, con el vocabulario preciso que emplea un escritor para hablar de su propio oficio.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "Las figuras retóricas al servicio de la imagen literaria",
         "body": [
@@ -11169,7 +12475,51 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "El texto sostiene que un clímax eficaz culmina, de manera lógica, una tensión que el relato ha ido acumulando previamente."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes son figuras retóricas mencionadas en la lección?",
+        "options": [
+          "El símil",
+          "La sinestesia",
+          "La hipérbole",
+          "El arco narrativo"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          2
+        ],
+        "explanation": "El símil, la sinestesia y la hipérbole son figuras retóricas; el arco narrativo pertenece, en cambio, a la estructura de la obra."
       },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración sobre el clímax narrativo.",
+        "words": [
+          "El",
+          "clímax",
+          "narrativo",
+          "concentra",
+          "el",
+          "punto",
+          "de",
+          "máxima",
+          "tensión"
+        ],
+        "explanation": "La oración describe la función central del clímax dentro de la estructura de una obra narrativa."
+      }
+    ]
+  },
+  {
+    "slug": "creative-writing-techniques-3",
+    "level": "C2",
+    "number": 120,
+    "title": "Escritura Creativa: Técnicas Literarias Avanzadas, Part 3 of 3",
+    "summary": "Domina las herramientas del oficio literario, desde la prefiguración hasta el clímax narrativo, con el vocabulario preciso que emplea un escritor para hablar de su propio oficio.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "En la práctica",
         "body": [
@@ -11330,58 +12680,6 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "¿En qué consiste la prefiguración según la lección?",
-        "options": [
-          "En revelar de inmediato todos los acontecimientos futuros de la obra",
-          "En sembrar de manera discreta indicios que anticipan un acontecimiento posterior",
-          "En eliminar por completo cualquier tensión narrativa",
-          "En repetir literalmente una escena anterior sin ninguna variación"
-        ],
-        "correctIndex": 1,
-        "explanation": "La prefiguración siembra indicios discretos que cobran pleno significado más adelante en el relato."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa la frase con el término adecuado.",
-        "sentence": "Un narrador poco ___ obliga al lector a interpretar con sospecha lo que se cuenta.",
-        "answer": "confiable",
-        "explanation": "Un narrador poco confiable introduce una distancia crítica que exige al lector una lectura más activa y desconfiada.",
-        "hint": "Se opone al narrador cuyo relato el lector puede aceptar sin sospecha."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles de las siguientes son figuras retóricas mencionadas en la lección?",
-        "options": [
-          "El símil",
-          "La sinestesia",
-          "La hipérbole",
-          "El arco narrativo"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          2
-        ],
-        "explanation": "El símil, la sinestesia y la hipérbole son figuras retóricas; el arco narrativo pertenece, en cambio, a la estructura de la obra."
-      },
-      {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre el clímax narrativo.",
-        "words": [
-          "El",
-          "clímax",
-          "narrativo",
-          "concentra",
-          "el",
-          "punto",
-          "de",
-          "máxima",
-          "tensión"
-        ],
-        "explanation": "La oración describe la función central del clímax dentro de la estructura de una obra narrativa."
-      },
-      {
         "type": "matching",
         "instructions": "Relaciona cada recurso narrativo con su definición.",
         "pairs": [
@@ -11414,2465 +12712,4161 @@ export const C2_LESSONS: Lesson[] = [
       }
     ]
   },
-{
-  slug: "modismos-expresiones-idiomaticas-drill",
-  level: "C2",
-  number: 38,
-  title: "Modismos y Expresiones Idiomáticas — Repaso Intensivo",
-  summary: "Práctica de refuerzo espaciado para modismos y expresiones idiomáticas de uso cotidiano entre hablantes nativos. Este drill asume que ya conoces el significado de estas expresiones y se centra en fijarlas mediante repetición y recombinación.",
-  duration: "24 min",
-  sections: [
-    {
-      heading: "Tomar el pelo",
-      body: [
-        "Recuerda que 'tomar el pelo a alguien' significa burlarse de esa persona o engañarla en broma, no jalarle el cabello literalmente."
-      ],
-      examples: [
-        { es: "No te enfades, solo te estoy tomando el pelo.", en: "Don't get upset, I'm just pulling your leg." },
-        { es: "¿En serio ganaste la lotería o me estás tomando el pelo?", en: "Did you really win the lottery or are you pulling my leg?" },
-        { es: "Siempre le toma el pelo a su hermano menor por cualquier tontería.", en: "He's always teasing his little brother about anything." }
-      ],
-      checkpoint: [
-        {
-          type: "multiple-choice",
-          question: "¿Qué significa 'tomarle el pelo a alguien'?",
-          options: [
-            "Cortarle el cabello a alguien",
-            "Burlarse de alguien o engañarlo en tono de broma",
-            "Peinar a alguien con cuidado",
-            "Elogiar a alguien exageradamente"
-          ],
-          correctIndex: 1,
-          explanation: "'Tomar el pelo' es una expresión idiomática que significa burlarse de alguien o gastarle una broma, sin relación literal con el cabello."
-        }
-      ]
-    },
-    {
-      heading: "No tener pelos en la lengua",
-      body: [
-        "Esta expresión describe a alguien que dice las cosas de forma directa y sin filtros, incluso si resultan incómodas."
-      ],
-      examples: [
-        { es: "Mi abuela no tiene pelos en la lengua: te dice lo que piensa sin rodeos.", en: "My grandmother doesn't mince words: she tells you what she thinks without beating around the bush." },
-        { es: "El crítico no tuvo pelos en la lengua al hablar de la película.", en: "The critic didn't hold back when talking about the movie." }
-      ],
-      checkpoint: [
-        {
-          type: "fill-blank",
-          prompt: "Completa con la expresión adecuada.",
-          sentence: "Mi jefa no tiene ___ ___ ___ ___: si algo está mal, te lo dice a la cara.",
-          answer: "pelos en la lengua",
-          hint: "Se refiere a hablar sin filtros.",
-          explanation: "'No tener pelos en la lengua' significa hablar con total franqueza, sin suavizar las palabras."
-        }
-      ]
-    },
-    {
-      heading: "Meter la pata / no dar pie con bola",
-      body: [
-        "Ambas expresiones se usan para hablar de errores: 'meter la pata' es cometer un desliz puntual, y 'no dar pie con bola' es equivocarse repetidamente en algo."
-      ],
-      examples: [
-        { es: "Metí la pata al mencionar su divorcio delante de todos.", en: "I put my foot in it by mentioning her divorce in front of everyone." },
-        { es: "Hoy no doy pie con bola: se me ha olvidado todo lo que tenía que hacer.", en: "I can't get anything right today: I've forgotten everything I had to do." },
-        { es: "Perdona, metí la pata otra vez con las fechas de la reunión.", en: "Sorry, I messed up again with the meeting dates." }
-      ],
-      checkpoint: [
-        {
-          type: "multiple-choice",
-          question: "¿Cuál de estas frases usa correctamente 'meter la pata'?",
-          options: [
-            "Metí la pata y llegué justo a tiempo.",
-            "Metí la pata al contarle a mi jefe un secreto que no debía revelar.",
-            "Metí la pata en el examen porque estudié muchísimo.",
-            "Metí la pata para ayudar a mi amigo con la mudanza."
-          ],
-          correctIndex: 1,
-          explanation: "'Meter la pata' implica cometer un error o indiscreción, como revelar algo que no se debía decir."
-        },
-        {
-          type: "translate",
-          direction: "en-es",
-          prompt: "Traduce la frase al español usando un modismo.",
-          source: "I don't know what's wrong with me today, I can't get anything right.",
-          answer: "No sé qué me pasa hoy, no doy pie con bola.",
-          altAnswers: ["No sé qué me pasa hoy, no doy pie con bola.", "No sé qué me pasa hoy no doy pie con bola"],
-          explanation: "'No dar pie con bola' expresa que alguien se equivoca reiteradamente en lo que hace."
-        }
-      ]
-    },
-    {
-      heading: "Estar en las nubes / estar hecho polvo",
-      body: [
-        "'Estar en las nubes' describe a alguien distraído o soñando despierto, mientras que 'estar hecho polvo' indica agotamiento físico o emocional extremo."
-      ],
-      examples: [
-        { es: "Perdona, estaba en las nubes y no escuché lo que dijiste.", en: "Sorry, I was daydreaming and didn't hear what you said." },
-        { es: "Después de la maratón, quedé hecho polvo durante dos días.", en: "After the marathon, I was wiped out for two days." },
-        { es: "Últimamente está en las nubes, seguro que anda enamorada.", en: "Lately she's been off in the clouds, she must be in love." }
-      ],
-      checkpoint: [
-        {
-          type: "multi-select",
-          question: "¿Qué frases describen correctamente el significado de 'estar hecho polvo'?",
-          options: [
-            "Estar completamente agotado.",
-            "Estar muy distraído pensando en otra cosa.",
-            "Sentirse física o emocionalmente exhausto.",
-            "Estar de excelente humor."
-          ],
-          correctIndexes: [0, 2],
-          explanation: "'Estar hecho polvo' significa estar muy cansado o abatido, ya sea física o emocionalmente."
-        }
-      ]
-    },
-    {
-      heading: "Costar un ojo de la cara",
-      body: [
-        "Se usa para decir que algo es extremadamente caro, exagerando el precio como si costara un órgano del cuerpo."
-      ],
-      examples: [
-        { es: "Ese apartamento en el centro le costó un ojo de la cara.", en: "That apartment downtown cost him an arm and a leg." },
-        { es: "Arreglar el coche me va a costar un ojo de la cara.", en: "Fixing the car is going to cost me an arm and a leg." },
-        { es: "Las entradas para el concierto cuestan un ojo de la cara este año.", en: "Concert tickets cost a fortune this year." }
-      ],
-      checkpoint: [
-        {
-          type: "word-order",
-          prompt: "Ordena las palabras para formar una oración correcta.",
-          words: ["Esa", "boda", "les", "costó", "un", "ojo", "de", "la", "cara"],
-          translation: "That wedding cost them an arm and a leg.",
-          explanation: "El orden natural es sujeto + verbo + expresión idiomática completa: 'costó un ojo de la cara'."
-        }
-      ]
-    },
-    {
-      heading: "Dar en el clavo / irse por las ramas",
-      body: [
-        "'Dar en el clavo' es acertar exactamente en un diagnóstico o comentario, mientras que 'irse por las ramas' es desviarse del tema principal sin ir al grano."
-      ],
-      examples: [
-        { es: "El consultor dio en el clavo al identificar el problema real de la empresa.", en: "The consultant hit the nail on the head by identifying the company's real problem." },
-        { es: "Deja de irte por las ramas y contesta la pregunta.", en: "Stop beating around the bush and answer the question." },
-        { es: "Cuando le pregunté por qué llegó tarde, se fue por las ramas.", en: "When I asked him why he was late, he beat around the bush." }
-      ],
-      checkpoint: [
-        {
-          type: "matching",
-          instructions: "Une cada expresión con su significado correcto.",
-          pairs: [
-            { left: "Dar en el clavo", right: "Acertar exactamente en algo" },
-            { left: "Irse por las ramas", right: "Desviarse del tema sin ir al grano" }
-          ],
-          explanation: "'Dar en el clavo' implica precisión y acierto; 'irse por las ramas' implica evasión o falta de concreción."
-        }
-      ]
-    },
-    {
-      heading: "Ser pan comido / tirar la toalla",
-      body: [
-        "'Ser pan comido' significa que algo es muy fácil de hacer, y 'tirar la toalla' significa rendirse ante una dificultad."
-      ],
-      examples: [
-        { es: "El examen de conducir fue pan comido para ella.", en: "The driving test was a piece of cake for her." },
-        { es: "No tires la toalla ahora, ya casi terminas el proyecto.", en: "Don't throw in the towel now, you're almost done with the project." },
-        { es: "Después de tres intentos fallidos, decidió tirar la toalla.", en: "After three failed attempts, he decided to give up." }
-      ],
-      checkpoint: [
-        {
-          type: "fill-blank",
-          prompt: "Completa la oración con la expresión adecuada.",
-          sentence: "Aprender a usar este programa fue ___ ___ para el equipo técnico.",
-          answer: "pan comido",
-          hint: "Significa que algo resultó muy fácil.",
-          explanation: "'Ser pan comido' se usa para describir tareas que resultan sencillas de realizar."
-        }
-      ]
-    },
-    {
-      heading: "Ponerse las pilas, tomar el toro por los cuernos, estar como pez en el agua, hablar por los codos, matar dos pájaros de un tiro",
-      body: [
-        "Este grupo reúne expresiones de acción y actitud muy frecuentes en el habla cotidiana; conviene repasarlas juntas por su uso similar en contextos de trabajo y vida diaria."
-      ],
-      examples: [
-        { es: "Si quieres aprobar el curso, tienes que ponerte las pilas.", en: "If you want to pass the course, you need to get your act together." },
-        { es: "En vez de quejarse, tomó el toro por los cuernos y resolvió el conflicto.", en: "Instead of complaining, he took the bull by the horns and solved the conflict." },
-        { es: "Desde que empezó en ventas, está como pez en el agua.", en: "Since she started in sales, she's been in her element." },
-        { es: "Mi tía habla por los codos, es imposible interrumpirla.", en: "My aunt talks nonstop, it's impossible to interrupt her." },
-        { es: "Si vamos al súper de camino al trabajo, matamos dos pájaros de un tiro.", en: "If we go to the supermarket on the way to work, we kill two birds with one stone." }
-      ],
-      checkpoint: [
-        {
-          type: "multi-select",
-          question: "¿Qué expresiones transmiten una actitud proactiva o de acción decidida?",
-          options: [
-            "Ponerse las pilas",
-            "Tomar el toro por los cuernos",
-            "Hablar por los codos",
-            "Estar en las nubes"
-          ],
-          correctIndexes: [0, 1],
-          explanation: "'Ponerse las pilas' y 'tomar el toro por los cuernos' implican actuar con energía y decisión, a diferencia de 'hablar por los codos' (hablar mucho) o 'estar en las nubes' (estar distraído)."
-        },
-        {
-          type: "translate",
-          direction: "es-en",
-          prompt: "Traduce la siguiente oración al inglés.",
-          source: "Aprovechemos el viaje para visitar a tu tía y firmar el contrato: matamos dos pájaros de un tiro.",
-          answer: "Let's take advantage of the trip to visit your aunt and sign the contract: we'll kill two birds with one stone.",
-          altAnswers: [
-            "Let's use the trip to visit your aunt and sign the contract, killing two birds with one stone.",
-            "We can visit your aunt and sign the contract during the trip, two birds with one stone."
-          ],
-          explanation: "'Matar dos pájaros de un tiro' equivale a 'kill two birds with one stone': lograr dos objetivos con una sola acción."
-        }
-      ]
-    }
-  ],
-  exercises: [
-    {
-      type: "multiple-choice",
-      question: "Tu compañero se equivocó tres veces seguidas al presentar el informe. ¿Qué expresión describe mejor su situación?",
-      options: ["Estar como pez en el agua", "No dar pie con bola", "Dar en el clavo", "Ser pan comido"],
-      correctIndex: 1,
-      explanation: "'No dar pie con bola' se usa cuando alguien comete errores repetidamente en lo que hace."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la expresión idiomática que falta.",
-      sentence: "No puedo creer el precio de este restaurante, la cena nos va a costar ___ ___ ___ ___ ___.",
-      answer: "un ojo de la cara",
-      hint: "Se refiere a algo excesivamente caro.",
-      explanation: "'Costar un ojo de la cara' se usa para exagerar lo caro que resulta algo."
-    },
-    {
-      type: "multi-select",
-      question: "¿Cuáles de las siguientes expresiones tienen un significado negativo o de fracaso?",
-      options: ["Tirar la toalla", "Meter la pata", "Dar en el clavo", "No dar pie con bola"],
-      correctIndexes: [0, 1, 3],
-      explanation: "'Tirar la toalla', 'meter la pata' y 'no dar pie con bola' implican rendirse o cometer errores; 'dar en el clavo' es acertar."
-    },
-    {
-      type: "translate",
-      direction: "en-es",
-      prompt: "Traduce la frase usando el modismo correspondiente.",
-      source: "Stop teasing your sister, she's about to cry.",
-      answer: "Deja de tomarle el pelo a tu hermana, está a punto de llorar.",
-      altAnswers: ["Deja de tomarle el pelo a tu hermana está a punto de llorar."],
-      explanation: "'Tomar el pelo' equivale a 'to tease' o 'to pull someone's leg' en inglés."
-    },
-    {
-      type: "word-order",
-      prompt: "Ordena las palabras para formar la oración correcta.",
-      words: ["Ella", "no", "tiene", "pelos", "en", "la", "lengua", "cuando", "opina"],
-      translation: "She doesn't mince words when she gives her opinion.",
-      explanation: "El orden correcto respeta la estructura fija de la expresión: 'no tiene pelos en la lengua'."
-    },
-    {
-      type: "matching",
-      instructions: "Relaciona cada modismo con su significado.",
-      pairs: [
-        { left: "Ser pan comido", right: "Algo muy fácil de hacer" },
-        { left: "Tirar la toalla", right: "Rendirse ante una dificultad" },
-        { left: "Ponerse las pilas", right: "Empezar a esforzarse con energía" },
-        { left: "Hablar por los codos", right: "Hablar demasiado y sin parar" }
-      ],
-      explanation: "Estas cuatro expresiones son de uso muy frecuente en contextos informales y de trabajo."
-    },
-    {
-      type: "multiple-choice",
-      question: "Un colega identifica perfectamente la causa de un problema en la reunión. ¿Qué expresión usarías?",
-      options: ["Se fue por las ramas", "Dio en el clavo", "Metió la pata", "Está en las nubes"],
-      correctIndex: 1,
-      explanation: "'Dar en el clavo' se usa cuando alguien acierta exactamente en un diagnóstico o comentario."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la oración con la expresión adecuada.",
-      sentence: "Siempre que le pregunto algo directo, mi primo se ___ ___ ___ ___ y nunca contesta claro.",
-      answer: "va por las ramas",
-      hint: "Significa evitar ir directamente al tema.",
-      explanation: "'Irse por las ramas' describe a alguien que evita responder de forma directa."
-    },
-    {
-      type: "translate",
-      direction: "es-en",
-      prompt: "Traduce la oración al inglés.",
-      source: "Después de mudarnos, estuvimos hechos polvo durante toda la semana.",
-      answer: "After moving, we were exhausted all week.",
-      altAnswers: ["After we moved, we were wiped out for the whole week.", "After the move, we were completely worn out all week."],
-      explanation: "'Estar hecho polvo' se traduce como 'to be exhausted' o 'to be wiped out'."
-    },
-    {
-      type: "multi-select",
-      question: "¿Qué expresiones se refieren a hablar de forma directa o sin control, respectivamente?",
-      options: ["No tener pelos en la lengua", "Hablar por los codos", "Dar en el clavo", "Estar en las nubes"],
-      correctIndexes: [0, 1],
-      explanation: "'No tener pelos en la lengua' es hablar con franqueza, y 'hablar por los codos' es hablar sin parar."
-    },
-    {
-      type: "word-order",
-      prompt: "Ordena las palabras para formar la oración correcta.",
-      words: ["Si", "organizamos", "bien", "el", "viaje", "matamos", "dos", "pájaros", "de", "un", "tiro"],
-      translation: "If we plan the trip well, we'll kill two birds with one stone.",
-      explanation: "La expresión completa 'matar dos pájaros de un tiro' va al final, tras la cláusula condicional."
-    },
-    {
-      type: "multiple-choice",
-      question: "Elige la opción que completa correctamente: 'Este ejercicio de matemáticas fue ___ para los estudiantes avanzados.'",
-      options: ["pan comido", "un ojo de la cara", "hecho polvo", "pelos en la lengua"],
-      correctIndex: 0,
-      explanation: "'Ser pan comido' indica que algo resultó muy fácil, como en este contexto académico."
-    },
-    {
-      type: "translate",
-      direction: "en-es",
-      prompt: "Traduce la frase al español usando un modismo.",
-      source: "He took the bull by the horns and finally talked to his boss about the problem.",
-      answer: "Tomó el toro por los cuernos y por fin habló con su jefe sobre el problema.",
-      altAnswers: ["Él tomó el toro por los cuernos y finalmente habló con su jefe sobre el problema."],
-      explanation: "'Tomar el toro por los cuernos' equivale a enfrentar una situación difícil con decisión."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la expresión que falta en la oración.",
-      sentence: "Desde que empezó a trabajar en el hospital, está como ___ ___ ___ ___: se nota que es su vocación.",
-      answer: "pez en el agua",
-      hint: "Se refiere a sentirse cómodo y capaz en un entorno.",
-      explanation: "'Estar como pez en el agua' significa sentirse totalmente cómodo y competente en una situación o entorno."
-    },
-    {
-      type: "multi-select",
-      question: "¿Qué expresiones podrían usarse para describir a alguien que necesita mejorar su actitud o desempeño?",
-      options: ["Ponerse las pilas", "No dar pie con bola", "Dar en el clavo", "Meter la pata"],
-      correctIndexes: [0, 1, 3],
-      explanation: "'Ponerse las pilas', 'no dar pie con bola' y 'meter la pata' se relacionan con la necesidad de mejorar o con errores cometidos."
-    },
-    {
-      type: "matching",
-      instructions: "Relaciona cada modismo con la situación que mejor lo ejemplifica.",
-      pairs: [
-        { left: "Costar un ojo de la cara", right: "Un viaje internacional muy caro" },
-        { left: "Estar en las nubes", right: "No prestar atención en clase" },
-        { left: "Tomar el pelo", right: "Gastar una broma a un amigo" },
-        { left: "Dar en el clavo", right: "Adivinar exactamente lo que pasó" }
-      ],
-      explanation: "Cada modismo se asocia naturalmente con un contexto específico según su significado idiomático."
-    },
-    {
-      type: "translate",
-      direction: "es-en",
-      prompt: "Traduce la oración al inglés.",
-      source: "No tires la toalla todavía, todavía puedes dar en el clavo con la solución correcta.",
-      answer: "Don't give up yet, you can still hit the nail on the head with the right solution.",
-      altAnswers: ["Don't throw in the towel yet, you can still get it exactly right with the correct solution."],
-      explanation: "Esta oración combina dos modismos: 'tirar la toalla' (rendirse) y 'dar en el clavo' (acertar)."
-    }
-  ]
-},
-{
-  slug: "refranes-dichos-populares-drill",
-  level: "C2",
-  number: 39,
-  title: "Refranes y Dichos Populares",
-  summary: "Práctica intensiva de refranes españoles de uso cotidiano: identificación, traducción y producción en contexto para consolidar dichos ya estudiados.",
-  duration: "24 min",
-  sections: [
-    {
-      heading: "La puntualidad y la constancia",
-      body: ["Estos refranes valoran actuar aunque sea tarde y reconocen el esfuerzo de quien empieza temprano."],
-      examples: [
-        { es: "Empezó la carrera de derecho a los cuarenta años; como dicen, más vale tarde que nunca.", en: "She started law school at forty; as they say, better late than never." },
-        { es: "Se levanta a las cinco todos los días para entrenar: a quien madruga, Dios le ayuda.", en: "He gets up at five every day to train: the early bird catches the worm." },
-        { es: "Por fin le pedí perdón después de tantos años; más vale tarde que nunca.", en: "I finally apologized after all these years; better late than never." }
-      ],
-      checkpoint: [
-        {
-          type: "multiple-choice",
-          question: "¿Qué actitud describe mejor el refrán 'a quien madruga, Dios le ayuda'?",
-          options: ["La pereza trae recompensas", "El esfuerzo temprano suele dar buenos resultados", "Nunca es tarde para disculparse", "El tiempo cura todas las heridas"],
-          correctIndex: 1,
-          explanation: "El refrán premia el esfuerzo y la iniciativa temprana, no la pereza ni otras ideas relacionadas con el tiempo."
-        },
-        {
-          type: "fill-blank",
-          prompt: "Completa el refrán con la palabra que falta.",
-          sentence: "Más vale ___ que nunca.",
-          answer: "tarde",
-          hint: "Se refiere a hacer algo aunque no sea en el momento ideal.",
-          explanation: "'Más vale tarde que nunca' anima a actuar aunque haya pasado el momento óptimo."
-        }
-      ]
-    },
-    {
-      heading: "El optimismo y la actitud",
-      body: ["Frente a las dificultades, estos dichos animan a buscar el lado positivo y mantener una actitud serena."],
-      examples: [
-        { es: "Perdí el vuelo, pero conocí a mi futura socia en el aeropuerto: no hay mal que por bien no venga.", en: "I missed the flight, but I met my future business partner at the airport: every cloud has a silver lining." },
-        { es: "La empresa quebró, pero no hay mal que por bien no venga, porque ahora tiene un negocio propio.", en: "The company went bankrupt, but every cloud has a silver lining, because now she has her own business." },
-        { es: "A pesar de la lluvia en la boda, pusieron al mal tiempo, buena cara.", en: "Despite the rain at the wedding, they put on a brave face." }
-      ],
-      checkpoint: [
-        {
-          type: "translate",
-          direction: "en-es",
-          prompt: "Traduce la frase al español usando el refrán adecuado.",
-          source: "Every cloud has a silver lining.",
-          answer: "No hay mal que por bien no venga.",
-          altAnswers: ["No hay mal que por bien no venga"],
-          explanation: "Este refrán expresa que de las situaciones negativas puede surgir algo positivo."
-        },
-        {
-          type: "multiple-choice",
-          question: "¿Cuándo se usaría 'al mal tiempo, buena cara'?",
-          options: ["Cuando alguien se rinde ante un problema", "Cuando alguien enfrenta una dificultad con buen ánimo", "Cuando el clima mejora de repente", "Cuando se evita hablar de algo"],
-          correctIndex: 1,
-          explanation: "El dicho anima a mantener una actitud positiva incluso en circunstancias adversas."
-        }
-      ]
-    },
-    {
-      heading: "La discreción",
-      body: ["Este refrán aconseja callar para evitar problemas o malentendidos innecesarios."],
-      examples: [
-        { es: "No opines sobre la vida amorosa de tu jefe; en boca cerrada no entran moscas.", en: "Don't comment on your boss's love life; silence is golden." },
-        { es: "Prefiero no mencionar el error en la reunión: en boca cerrada no entran moscas.", en: "I'd rather not mention the mistake in the meeting: silence is golden." }
-      ],
-      checkpoint: [
-        {
-          type: "word-order",
-          prompt: "Ordena las palabras para formar el refrán completo.",
-          words: ["En", "boca", "cerrada", "no", "entran", "moscas"],
-          translation: "Silence is golden.",
-          explanation: "El orden correcto respeta la estructura fija del refrán tradicional."
-        }
-      ]
-    },
-    {
-      heading: "La prudencia y el exceso",
-      body: ["Estos refranes advierten contra abarcar demasiado y recomiendan anticiparse a los problemas."],
-      examples: [
-        { es: "Aceptó tres proyectos a la vez y no terminó ninguno: el que mucho abarca poco aprieta.", en: "He took on three projects at once and finished none: don't spread yourself too thin." },
-        { es: "Revisamos los frenos antes del viaje porque más vale prevenir que curar.", en: "We checked the brakes before the trip because prevention is better than cure." },
-        { es: "El médico insiste en los chequeos anuales: más vale prevenir que curar.", en: "The doctor insists on annual checkups: prevention is better than cure." }
-      ],
-      checkpoint: [
-        {
-          type: "fill-blank",
-          prompt: "Completa el refrán con la palabra que falta.",
-          sentence: "El que mucho abarca poco ___.",
-          answer: "aprieta",
-          hint: "Verbo relacionado con sujetar algo con fuerza.",
-          explanation: "'Aprieta' completa el refrán que advierte contra intentar hacer demasiadas cosas a la vez."
-        },
-        {
-          type: "multiple-choice",
-          question: "Una amiga se apunta a cinco cursos a la vez y abandona todos a las dos semanas. ¿Qué refrán aplica?",
-          options: ["Más vale prevenir que curar", "El que mucho abarca poco aprieta", "Perro que ladra no muerde", "Más vale pájaro en mano que ciento volando"],
-          correctIndex: 1,
-          explanation: "La situación ilustra directamente el refrán sobre abarcar demasiado y no lograr nada bien."
-        }
-      ]
-    },
-    {
-      heading: "Las apariencias engañan",
-      body: ["Estos dichos recuerdan que las apariencias y las amenazas no siempre corresponden con la realidad."],
-      examples: [
-        { es: "Mi vecino grita mucho, pero es inofensivo; perro que ladra no muerde.", en: "My neighbor shouts a lot, but he's harmless; his bark is worse than his bite." },
-        { es: "El anillo parecía carísimo, pero era bisutería: no todo lo que brilla es oro.", en: "The ring looked very expensive, but it was costume jewelry: all that glitters is not gold." },
-        { es: "Ese político promete mucho, pero perro que ladra no muerde.", en: "That politician talks big, but his bark is worse than his bite." }
-      ],
-      checkpoint: [
-        {
-          type: "multi-select",
-          question: "¿Qué refranes advierten sobre confiar en las primeras impresiones o apariencias?",
-          options: ["Perro que ladra no muerde", "No todo lo que brilla es oro", "Más vale tarde que nunca", "En boca cerrada no entran moscas"],
-          correctIndexes: [0, 1],
-          explanation: "Ambos refranes seleccionados tratan sobre no dejarse engañar por apariencias o amenazas superficiales."
-        },
-        {
-          type: "translate",
-          direction: "es-en",
-          prompt: "Traduce la frase al inglés de forma natural.",
-          source: "No todo lo que brilla es oro.",
-          answer: "All that glitters is not gold.",
-          altAnswers: ["Not everything that glitters is gold", "All that glisters is not gold"],
-          explanation: "Es el equivalente inglés más común de este refrán sobre las apariencias engañosas."
-        }
-      ]
-    },
-    {
-      heading: "La gratitud y las críticas",
-      body: ["Estos refranes tratan sobre aceptar lo que se nos da y las consecuencias de malcriar a quienes dependen de nosotros."],
-      examples: [
-        { es: "Le regalaron una bicicleta usada y se quejó del color: a caballo regalado no le mires el diente.", en: "They gave him a used bike and he complained about the color: don't look a gift horse in the mouth." },
-        { es: "Consintió tanto a su empleado que este terminó traicionándolo: cría cuervos y te sacarán los ojos.", en: "He spoiled his employee so much that the man ended up betraying him: no good deed goes unpunished." }
-      ],
-      checkpoint: [
-        {
-          type: "matching",
-          instructions: "Une cada refrán con el consejo que transmite.",
-          pairs: [
-            { left: "A caballo regalado no le mires el diente", right: "Acepta con gratitud lo que te regalan, sin criticarlo" },
-            { left: "Cría cuervos y te sacarán los ojos", right: "Malcriar a alguien puede volverse en tu contra" }
-          ],
-          explanation: "Ambos refranes tratan sobre las consecuencias de nuestro trato hacia los demás: la gratitud y la crianza excesiva."
-        },
-        {
-          type: "fill-blank",
-          prompt: "Completa el refrán con la palabra que falta.",
-          sentence: "Cría cuervos y te sacarán los ___.",
-          answer: "ojos",
-          hint: "Parte del cuerpo relacionada con la vista.",
-          explanation: "El refrán advierte que criar mal a alguien puede resultar en traición o daño hacia uno mismo."
-        }
-      ]
-    },
-    {
-      heading: "Las amistades y la simplicidad",
-      body: ["Estos dichos hablan de cómo nuestras compañías nos definen y de no complicar las cosas más de lo necesario."],
-      examples: [
-        { es: "Dejó de juntarse con ese grupo problemático; dime con quién andas y te diré quién eres.", en: "She stopped hanging out with that troublesome group; you're known by the company you keep." },
-        { es: "No hay que buscarle tres pies al gato: la solución es sencilla.", en: "There's no need to overanalyze it: the solution is simple." }
-      ],
-      checkpoint: [
-        {
-          type: "multiple-choice",
-          question: "¿Qué idea transmite 'dime con quién andas y te diré quién eres'?",
-          options: ["Las amistades no influyen en nuestro carácter", "Nuestras compañías reflejan cómo somos", "Es mejor estar solo que mal acompañado", "Hay que desconfiar de todo el mundo"],
-          correctIndex: 1,
-          explanation: "El refrán sugiere que el tipo de personas con las que nos relacionamos dice mucho sobre nuestra propia personalidad."
-        },
-        {
-          type: "word-order",
-          prompt: "Ordena las palabras para formar el refrán completo.",
-          words: ["No", "hay", "que", "buscarle", "tres", "pies", "al", "gato"],
-          translation: "There's no need to overcomplicate things.",
-          explanation: "El refrán aconseja no complicar innecesariamente algo que en realidad es sencillo."
-        }
-      ]
-    },
-    {
-      heading: "El riesgo y la certeza",
-      body: ["Estos refranes contrastan el valor de arriesgarse con la seguridad de conformarse con lo que ya se tiene."],
-      examples: [
-        { es: "Dejó su trabajo estable para fundar su empresa: quien no arriesga, no gana.", en: "He left his stable job to start his company: nothing ventured, nothing gained." },
-        { es: "Prefirió quedarse con la oferta segura: más vale pájaro en mano que ciento volando.", en: "She preferred to stick with the safe offer: a bird in the hand is worth two in the bush." }
-      ],
-      checkpoint: [
-        {
-          type: "translate",
-          direction: "en-es",
-          prompt: "Traduce la frase al español usando el refrán adecuado.",
-          source: "A bird in the hand is worth two in the bush.",
-          answer: "Más vale pájaro en mano que ciento volando.",
-          altAnswers: ["Más vale pájaro en mano que ciento volando."],
-          explanation: "Este refrán valora la seguridad de lo que ya se tiene frente a la incertidumbre de lo posible."
-        },
-        {
-          type: "multiple-choice",
-          question: "Un inversor decide arriesgar sus ahorros en una startup prometedora. ¿Qué refrán resume su filosofía?",
-          options: ["Más vale pájaro en mano que ciento volando", "Quien no arriesga, no gana", "Más vale prevenir que curar", "No hay que buscarle tres pies al gato"],
-          correctIndex: 1,
-          explanation: "El refrán 'quien no arriesga, no gana' celebra la disposición a tomar riesgos para obtener beneficios."
-        }
-      ]
-    }
-  ],
-  exercises: [
-    {
-      type: "multiple-choice",
-      question: "¿Qué refrán se usa cuando alguien actúa correctamente, aunque con mucho retraso?",
-      options: ["A quien madruga, Dios le ayuda", "Más vale tarde que nunca", "No hay mal que por bien no venga", "Más vale prevenir que curar"],
-      correctIndex: 1,
-      explanation: "'Más vale tarde que nunca' se refiere específicamente a hacer algo con retraso pero de todos modos."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa el refrán con la palabra que falta.",
-      sentence: "A quien ___, Dios le ayuda.",
-      answer: "madruga",
-      hint: "Se refiere a levantarse temprano.",
-      explanation: "El refrán premia a quienes se levantan y actúan temprano."
-    },
-    {
-      type: "translate",
-      direction: "es-en",
-      prompt: "Traduce la frase al inglés de forma natural.",
-      source: "No hay mal que por bien no venga.",
-      answer: "Every cloud has a silver lining.",
-      altAnswers: ["There is nothing bad that doesn't come for a reason", "Something good comes out of everything bad"],
-      explanation: "Este refrán expresa que de una situación mala puede surgir algo bueno."
-    },
-    {
-      type: "translate",
-      direction: "en-es",
-      prompt: "Traduce la frase al español usando el refrán adecuado.",
-      source: "Better safe than sorry.",
-      answer: "Más vale prevenir que curar.",
-      altAnswers: ["Más vale prevenir que curar."],
-      explanation: "Ambas expresiones aconsejan tomar precauciones antes de que ocurra un problema."
-    },
-    {
-      type: "word-order",
-      prompt: "Ordena las palabras para formar el refrán completo.",
-      words: ["El", "que", "mucho", "abarca", "poco", "aprieta"],
-      translation: "Don't spread yourself too thin.",
-      explanation: "El refrán advierte contra intentar controlar o hacer demasiadas cosas a la vez."
-    },
-    {
-      type: "multi-select",
-      question: "¿Qué refranes tratan sobre la prudencia y evitar problemas futuros?",
-      options: ["Más vale prevenir que curar", "El que mucho abarca poco aprieta", "Perro que ladra no muerde", "Dime con quién andas y te diré quién eres"],
-      correctIndexes: [0, 1],
-      explanation: "Ambos refranes seleccionados aconsejan actuar con cuidado y moderación para evitar problemas."
-    },
-    {
-      type: "matching",
-      instructions: "Une cada refrán español con su equivalente aproximado en inglés.",
-      pairs: [
-        { left: "Perro que ladra no muerde", right: "His bark is worse than his bite" },
-        { left: "No todo lo que brilla es oro", right: "All that glitters is not gold" },
-        { left: "Más vale pájaro en mano que ciento volando", right: "A bird in the hand is worth two in the bush" },
-        { left: "A caballo regalado no le mires el diente", right: "Don't look a gift horse in the mouth" }
-      ],
-      explanation: "Estos refranes tienen equivalentes muy conocidos en inglés que transmiten la misma idea central."
-    },
-    {
-      type: "multiple-choice",
-      question: "¿Qué significa 'cría cuervos y te sacarán los ojos'?",
-      options: ["Cuidar demasiado a alguien puede traer buenas consecuencias", "Tratar mal a alguien siempre trae beneficios", "Malcriar o favorecer en exceso a alguien puede volverse en tu contra", "Los animales salvajes son peligrosos"],
-      correctIndex: 2,
-      explanation: "El refrán advierte que consentir o malcriar demasiado a alguien puede resultar en traición o ingratitud."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa el refrán con la palabra que falta.",
-      sentence: "En boca cerrada no entran ___.",
-      answer: "moscas",
-      hint: "Insectos pequeños que suelen molestar.",
-      explanation: "El refrán aconseja callar para evitar problemas innecesarios."
-    },
-    {
-      type: "translate",
-      direction: "en-es",
-      prompt: "Traduce la frase al español usando el refrán adecuado.",
-      source: "You're known by the company you keep.",
-      answer: "Dime con quién andas y te diré quién eres.",
-      altAnswers: ["Dime con quién andas y te diré quién eres."],
-      explanation: "El refrán sugiere que nuestras amistades reflejan nuestro propio carácter."
-    },
-    {
-      type: "word-order",
-      prompt: "Ordena las palabras para formar el refrán completo.",
-      words: ["Más", "vale", "pájaro", "en", "mano", "que", "ciento", "volando"],
-      translation: "A bird in the hand is worth two in the bush.",
-      explanation: "El refrán valora la seguridad de algo concreto frente a posibilidades inciertas."
-    },
-    {
-      type: "multiple-choice",
-      question: "Un emprendedor duda entre mantener su empleo fijo o lanzar su propio negocio, y finalmente decide arriesgarse. ¿Qué refrán describe su decisión?",
-      options: ["Más vale pájaro en mano que ciento volando", "Quien no arriesga, no gana", "No hay que buscarle tres pies al gato", "Cría cuervos y te sacarán los ojos"],
-      correctIndex: 1,
-      explanation: "El refrán 'quien no arriesga, no gana' celebra la disposición a asumir riesgos para conseguir algo mejor."
-    },
-    {
-      type: "multi-select",
-      question: "¿Qué refranes advierten sobre no dejarse engañar por las apariencias?",
-      options: ["No todo lo que brilla es oro", "Perro que ladra no muerde", "Al mal tiempo, buena cara", "A quien madruga, Dios le ayuda"],
-      correctIndexes: [0, 1],
-      explanation: "Ambos refranes seleccionados advierten que las apariencias externas no siempre reflejan la realidad."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa el refrán con la palabra que falta.",
-      sentence: "A caballo regalado no le mires el ___.",
-      answer: "diente",
-      hint: "Parte de la boca que se usa para masticar.",
-      explanation: "El refrán aconseja no criticar ni buscar defectos en algo que se recibe como regalo."
-    },
-    {
-      type: "translate",
-      direction: "es-en",
-      prompt: "Traduce la frase al inglés de forma natural.",
-      source: "No hay que buscarle tres pies al gato.",
-      answer: "There's no need to overanalyze it.",
-      altAnswers: ["Don't overcomplicate things", "Don't make a simple thing complicated"],
-      explanation: "El refrán aconseja no complicar innecesariamente algo que en el fondo es sencillo."
-    },
-    {
-      type: "matching",
-      instructions: "Une cada refrán con la situación en la que se aplicaría mejor.",
-      pairs: [
-        { left: "Más vale tarde que nunca", right: "Alguien termina un proyecto con mucho retraso, pero lo termina" },
-        { left: "No hay mal que por bien no venga", right: "Un despido inesperado lleva a encontrar un trabajo mejor" },
-        { left: "El que mucho abarca poco aprieta", right: "Alguien se compromete a demasiadas tareas y no cumple ninguna bien" }
-      ],
-      explanation: "Cada refrán encaja con una situación cotidiana que ilustra claramente su significado."
-    },
-    {
-      type: "multiple-choice",
-      question: "Tras perder el tren, alguien conoce a un antiguo amigo en la estación y retoman el contacto. ¿Qué refrán aplica mejor?",
-      options: ["No hay mal que por bien no venga", "Perro que ladra no muerde", "Más vale prevenir que curar", "En boca cerrada no entran moscas"],
-      correctIndex: 0,
-      explanation: "La situación negativa (perder el tren) da lugar a algo positivo, justo lo que describe este refrán."
-    },
-    {
-      type: "word-order",
-      prompt: "Ordena las palabras para formar el refrán completo.",
-      words: ["No", "todo", "lo", "que", "brilla", "es", "oro"],
-      translation: "All that glitters is not gold.",
-      explanation: "El refrán advierte que las cosas atractivas por fuera no siempre tienen igual valor por dentro."
-    }
-  ]
-},
-{
-  slug: "espanol-juridico-administrativo-drill",
-  level: "C2",
-  number: 40,
-  title: "Español Jurídico y Administrativo",
-  summary: "Repaso intensivo de vocabulario jurídico y administrativo de nivel C2: partes del proceso, terminología de tribunales, figuras notariales, cláusulas contractuales y fórmulas fijas de la redacción oficial.",
-  duration: "24 min",
-  sections: [
-    {
-      heading: "Las partes del proceso judicial",
-      body: ["Recuerda que 'demandante' es quien inicia la acción judicial y 'demandado' es la parte contra la que se dirige."],
-      examples: [
-        { es: "El demandante presentó la denuncia ante el juzgado de lo civil.", en: "The plaintiff filed the complaint before the civil court." },
-        { es: "La parte demandada alegó falta de pruebas en su defensa.", en: "The defendant party argued lack of evidence in its defense." },
-        { es: "El abogado del demandante solicitó una indemnización por daños y perjuicios.", en: "The plaintiff's lawyer requested compensation for damages." }
-      ],
-      checkpoint: [
-        {
-          type: "multiple-choice",
-          question: "¿Quién es la parte que inicia una acción judicial contra otra?",
-          options: ["El demandado", "El demandante", "El notario", "El fedatario"],
-          correctIndex: 1,
-          explanation: "El 'demandante' es quien interpone la demanda; el 'demandado' es contra quien se dirige."
-        }
-      ]
-    },
-    {
-      heading: "Instancias, recursos y sentencias",
-      body: ["El fallo dictado en primera instancia puede impugnarse mediante un recurso de apelación ante una instancia superior."],
-      examples: [
-        { es: "El tribunal dictó sentencia condenatoria en primera instancia.", en: "The court issued a conviction ruling in the first instance." },
-        { es: "Su abogado interpuso un recurso de apelación ante la Audiencia Provincial.", en: "His lawyer filed an appeal before the Provincial Court." },
-        { es: "La sentencia fue confirmada por la instancia superior.", en: "The ruling was upheld by the higher court." }
-      ],
-      checkpoint: [
-        {
-          type: "fill-blank",
-          prompt: "Completa con el término jurídico adecuado.",
-          sentence: "Si no está de acuerdo con el fallo, puede presentar un ___ de apelación en el plazo establecido.",
-          answer: "recurso",
-          hint: "Mecanismo procesal para impugnar una sentencia.",
-          explanation: "Un 'recurso de apelación' es el mecanismo procesal para impugnar una sentencia ante una instancia superior."
-        }
-      ]
-    },
-    {
-      heading: "La jurisdicción competente",
-      body: ["La jurisdicción determina qué órgano judicial tiene competencia para conocer de un asunto concreto."],
-      examples: [
-        { es: "Este litigio corresponde a la jurisdicción mercantil, no a la civil.", en: "This dispute falls under commercial jurisdiction, not civil." },
-        { es: "El juez se declaró incompetente por falta de jurisdicción territorial.", en: "The judge declared itself incompetent due to lack of territorial jurisdiction." }
-      ],
-      checkpoint: [
-        {
-          type: "multiple-choice",
-          question: "¿Qué significa que un tribunal 'carece de jurisdicción' sobre un asunto?",
-          options: [
-            "Que el tribunal no tiene competencia legal para juzgarlo",
-            "Que el tribunal ha resuelto el caso a favor del demandado",
-            "Que el caso ha prescrito por el paso del tiempo",
-            "Que el notario debe intervenir en su lugar"
-          ],
-          correctIndex: 0,
-          explanation: "'Carecer de jurisdicción' significa que el órgano judicial no es competente para conocer de ese asunto concreto."
-        }
-      ]
-    },
-    {
-      heading: "Notariado y representación",
-      body: ["El notario da fe pública de los actos y contratos, y el poder notarial autoriza a un tercero a actuar en nombre de otra persona."],
-      examples: [
-        { es: "Otorgó un poder notarial a su hermano para vender la vivienda.", en: "He granted a notarial power of attorney to his brother to sell the house." },
-        { es: "El notario dio fe de que las firmas eran auténticas.", en: "The notary certified that the signatures were authentic." },
-        { es: "Es necesario acudir ante notario para formalizar la escritura pública.", en: "It is necessary to go before a notary to formalize the public deed." }
-      ],
-      checkpoint: [
-        {
-          type: "matching",
-          instructions: "Une cada término con su definición correspondiente.",
-          pairs: [
-            { left: "notario", right: "fedatario público que autentica documentos y actos" },
-            { left: "poder notarial", right: "documento que autoriza a alguien a actuar en representación de otro" }
-          ],
-          explanation: "El notario es el fedatario público; el poder notarial es el documento de representación que este autoriza."
-        }
-      ]
-    },
-    {
-      heading: "Derecho contractual: cláusulas y cumplimiento",
-      body: ["Todo contrato vinculante contiene cláusulas cuyo incumplimiento puede dar lugar a consecuencias legales."],
-      examples: [
-        { es: "La cláusula tercera establece las condiciones de pago.", en: "The third clause establishes the payment conditions." },
-        { es: "El incumplimiento del contrato dio lugar a una demanda por daños.", en: "Breach of contract led to a lawsuit for damages." },
-        { es: "Ambas partes firmaron un contrato vinculante ante notario.", en: "Both parties signed a binding contract before a notary." }
-      ],
-      checkpoint: [
-        {
-          type: "multi-select",
-          question: "¿Cuáles de los siguientes términos están relacionados con el derecho contractual?",
-          options: ["cláusula", "incumplimiento", "poder notarial", "contrato vinculante", "jurisdicción"],
-          correctIndexes: [0, 1, 3],
-          explanation: "'Cláusula', 'incumplimiento' y 'contrato vinculante' pertenecen directamente al ámbito contractual, a diferencia de 'poder notarial' y 'jurisdicción'."
-        }
-      ]
-    },
-    {
-      heading: "Fórmulas fijas de la redacción jurídico-administrativa",
-      body: ["Los textos jurídicos y administrativos emplean fórmulas fijas y estereotipadas propias de su registro formal."],
-      examples: [
-        { es: "Por la presente se hace constar que el solicitante cumple todos los requisitos.", en: "This document hereby certifies that the applicant meets all the requirements." },
-        { es: "En virtud de lo dispuesto en el artículo 24, se procede a la apertura del expediente.", en: "Pursuant to the provisions of article 24, the file is hereby opened." },
-        { es: "Se adjunta la documentación pertinente a los efectos oportunos.", en: "The relevant documentation is attached for the appropriate purposes." }
-      ],
-      checkpoint: [
-        {
-          type: "word-order",
-          prompt: "Ordena las palabras para formar una fórmula jurídica fija.",
-          words: ["Por", "la", "presente", "se", "hace", "constar", "que"],
-          translation: "This document hereby certifies that...",
-          explanation: "'Por la presente se hace constar que...' es una fórmula introductoria muy habitual en certificados y documentos oficiales."
-        },
-        {
-          type: "translate",
-          direction: "en-es",
-          prompt: "Traduce la siguiente frase jurídica al español.",
-          source: "Pursuant to the provisions set forth herein...",
-          answer: "En virtud de lo dispuesto en el presente documento...",
-          altAnswers: ["En virtud de lo dispuesto en el presente...", "En virtud de lo establecido en el presente documento..."],
-          explanation: "'En virtud de lo dispuesto en...' introduce la base legal que fundamenta una decisión o disposición."
-        }
-      ]
-    },
-    {
-      heading: "Trámites y expedientes administrativos",
-      body: ["Todo trámite administrativo genera un expediente y debe resolverse dentro del plazo legalmente establecido."],
-      examples: [
-        { es: "El trámite de solicitud tarda unas seis semanas en resolverse.", en: "The application procedure takes about six weeks to be resolved." },
-        { es: "El expediente fue archivado por falta de documentación.", en: "The file was closed due to lack of documentation." },
-        { es: "El plazo para presentar alegaciones vence mañana.", en: "The deadline to submit objections expires tomorrow." }
-      ],
-      checkpoint: [
-        {
-          type: "fill-blank",
-          prompt: "Completa la frase con el término administrativo adecuado.",
-          sentence: "Todos los documentos relativos a la solicitud se incorporan al ___.",
-          answer: "expediente",
-          hint: "Conjunto ordenado de documentos de un procedimiento administrativo.",
-          explanation: "El 'expediente' es el conjunto de documentos que conforman un procedimiento administrativo."
-        }
-      ]
-    },
-    {
-      heading: "Repaso combinado de registro formal",
-      body: ["El registro jurídico-administrativo combina vocabulario técnico preciso con fórmulas fijas de cortesía institucional."],
-      examples: [
-        { es: "A tenor de lo expuesto, se desestima el recurso de apelación.", en: "In light of the above, the appeal is dismissed." },
-        { es: "El demandado incumplió una cláusula esencial del contrato vinculante.", en: "The defendant breached an essential clause of the binding contract." }
-      ],
-      checkpoint: [
-        {
-          type: "multiple-choice",
-          question: "¿Qué fórmula es más apropiada para cerrar una solicitud administrativa formal?",
-          options: [
-            "Nos vemos pronto, gracias por todo",
-            "Se adjunta la documentación pertinente a los efectos oportunos",
-            "Espero tu respuesta cuanto antes",
-            "Un saludo y hasta luego"
-          ],
-          correctIndex: 1,
-          explanation: "'A los efectos oportunos' es una fórmula fija propia del registro administrativo formal para cerrar solicitudes o adjuntar documentación."
-        }
-      ]
-    }
-  ],
-  exercises: [
-    {
-      type: "multiple-choice",
-      question: "¿Cuál es la parte que responde a una acción judicial iniciada por otra?",
-      options: ["El demandante", "El demandado", "El notario", "El fedatario"],
-      correctIndex: 1,
-      explanation: "El 'demandado' es la parte contra la que se dirige la demanda interpuesta por el demandante."
-    },
-    {
-      type: "multiple-choice",
-      question: "¿Qué documento otorga a otra persona la facultad de actuar en tu representación?",
-      options: ["Una cláusula", "Un expediente", "Un poder notarial", "Un recurso de apelación"],
-      correctIndex: 2,
-      explanation: "El 'poder notarial' es el documento por el cual una persona autoriza a otra a actuar en su nombre."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la frase con el término procesal adecuado.",
-      sentence: "El tribunal de primera ___ dictó sentencia condenatoria contra el demandado.",
-      answer: "instancia",
-      hint: "Cada uno de los grados por los que puede pasar un proceso judicial.",
-      explanation: "'Instancia' designa cada uno de los grados jurisdiccionales por los que puede pasar un proceso."
-    },
-    {
-      type: "translate",
-      direction: "es-en",
-      prompt: "Traduce la siguiente frase al inglés.",
-      source: "El incumplimiento de la cláusula dio lugar a una indemnización.",
-      answer: "The breach of the clause led to compensation.",
-      altAnswers: ["Breach of the clause resulted in compensation.", "The failure to comply with the clause led to compensation."],
-      explanation: "'Incumplimiento' se traduce como 'breach' o 'failure to comply', y 'cláusula' como 'clause'."
-    },
-    {
-      type: "multi-select",
-      question: "¿Cuáles de estos términos están relacionados con el proceso judicial y sus recursos?",
-      options: ["sentencia", "recurso de apelación", "poder notarial", "instancia", "trámite"],
-      correctIndexes: [0, 1, 3],
-      explanation: "'Sentencia', 'recurso de apelación' e 'instancia' pertenecen al proceso judicial; 'poder notarial' es notarial y 'trámite' es administrativo."
-    },
-    {
-      type: "word-order",
-      prompt: "Ordena las palabras para formar una frase jurídica correcta.",
-      words: ["El", "demandante", "solicitó", "una", "indemnización", "por", "incumplimiento", "de", "contrato"],
-      translation: "The plaintiff requested compensation for breach of contract.",
-      explanation: "El orden habitual en español coloca el sujeto, el verbo y después el complemento directo con sus modificadores."
-    },
-    {
-      type: "matching",
-      instructions: "Une cada término jurídico con su significado.",
-      pairs: [
-        { left: "sentencia", right: "resolución judicial que pone fin a un proceso" },
-        { left: "jurisdicción", right: "ámbito de competencia de un órgano judicial" },
-        { left: "expediente", right: "conjunto de documentos de un procedimiento" },
-        { left: "plazo", right: "período de tiempo establecido para un trámite" }
-      ],
-      explanation: "Cada término corresponde a un concepto clave del ámbito jurídico-administrativo estudiado en las secciones anteriores."
-    },
-    {
-      type: "multiple-choice",
-      question: "¿Qué fórmula se usa habitualmente para introducir la base legal de una decisión administrativa?",
-      options: [
-        "A los efectos oportunos",
-        "Por la presente se hace constar que",
-        "En virtud de lo dispuesto en",
-        "Un cordial saludo"
-      ],
-      correctIndex: 2,
-      explanation: "'En virtud de lo dispuesto en...' introduce la normativa o disposición legal en que se fundamenta una decisión."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la frase con la fórmula jurídica adecuada.",
-      sentence: "___ que el interesado ha presentado toda la documentación requerida.",
-      answer: "Por la presente se hace constar",
-      hint: "Fórmula introductoria típica de certificados oficiales.",
-      explanation: "'Por la presente se hace constar que...' certifica formalmente un hecho en documentos oficiales."
-    },
-    {
-      type: "translate",
-      direction: "en-es",
-      prompt: "Traduce la siguiente frase administrativa al español.",
-      source: "The application procedure must be resolved within the established deadline.",
-      answer: "El trámite de solicitud debe resolverse dentro del plazo establecido.",
-      altAnswers: ["El trámite debe resolverse en el plazo establecido."],
-      explanation: "'Trámite' equivale a 'procedure', y 'plazo establecido' a 'established deadline'."
-    },
-    {
-      type: "multiple-choice",
-      question: "¿Cuál es la función principal del notario?",
-      options: [
-        "Representar al demandante ante el tribunal",
-        "Dar fe pública de actos y contratos",
-        "Dictar sentencia en primera instancia",
-        "Presentar el recurso de apelación"
-      ],
-      correctIndex: 1,
-      explanation: "El notario es un fedatario público cuya función es dar fe de la autenticidad de actos y contratos."
-    },
-    {
-      type: "multi-select",
-      question: "¿Cuáles de las siguientes son fórmulas fijas propias de la redacción jurídico-administrativa?",
-      options: [
-        "a los efectos oportunos",
-        "espero que estés muy bien",
-        "en virtud de lo dispuesto en",
-        "por la presente se hace constar que",
-        "nos vemos el lunes"
-      ],
-      correctIndexes: [0, 2, 3],
-      explanation: "Las tres primeras son fórmulas estereotipadas del registro formal; las otras dos pertenecen a un registro coloquial."
-    },
-    {
-      type: "word-order",
-      prompt: "Ordena las palabras para formar una fórmula de cierre administrativa.",
-      words: ["Se", "adjunta", "la", "documentación", "pertinente", "a", "los", "efectos", "oportunos"],
-      translation: "The relevant documentation is attached for the appropriate purposes.",
-      explanation: "Esta fórmula se emplea al final de solicitudes o comunicaciones oficiales para justificar el envío de documentos."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la frase con el término jurídico correcto.",
-      sentence: "El juez confirmó el ___ dictado en primera instancia.",
-      answer: "fallo",
-      hint: "Sinónimo de 'sentencia' o resolución judicial.",
-      explanation: "'Fallo' es sinónimo de 'sentencia': la resolución final dictada por un tribunal."
-    },
-    {
-      type: "multiple-choice",
-      question: "¿Qué significa que un contrato sea 'vinculante'?",
-      options: [
-        "Que puede modificarse libremente por una sola parte",
-        "Que obliga jurídicamente a las partes que lo firman",
-        "Que solo tiene valor si lo autentica un notario",
-        "Que carece de validez legal"
-      ],
-      correctIndex: 1,
-      explanation: "Un contrato 'vinculante' genera obligaciones jurídicas exigibles para todas las partes firmantes."
-    },
-    {
-      type: "matching",
-      instructions: "Une cada expresión formal con su equivalente en inglés.",
-      pairs: [
-        { left: "por la presente se hace constar que", right: "this document hereby certifies that" },
-        { left: "en virtud de lo dispuesto en", right: "pursuant to the provisions of" },
-        { left: "a los efectos oportunos", right: "for the appropriate purposes" }
-      ],
-      explanation: "Estas tres fórmulas fijas son equivalentes funcionales de expresiones típicas del inglés jurídico-administrativo."
-    },
-    {
-      type: "translate",
-      direction: "es-en",
-      prompt: "Traduce la siguiente frase al inglés.",
-      source: "El demandado interpuso un recurso de apelación contra la sentencia.",
-      answer: "The defendant filed an appeal against the ruling.",
-      altAnswers: ["The defendant lodged an appeal against the judgment.", "The defendant filed an appeal against the sentence."],
-      explanation: "'Interponer un recurso de apelación' se traduce como 'to file/lodge an appeal', y 'sentencia' como 'ruling' o 'judgment'."
-    },
-    {
-      type: "multiple-choice",
-      question: "¿Qué elemento de un contrato regula un aspecto concreto de las obligaciones de las partes?",
-      options: ["El expediente", "La cláusula", "El plazo", "La jurisdicción"],
-      correctIndex: 1,
-      explanation: "La 'cláusula' es cada una de las disposiciones concretas dentro de un contrato que regula obligaciones o condiciones específicas."
-    }
-  ]
-},
-{
-  slug: "espanol-medico-drill",
-  level: "C2",
-  number: 41,
-  title: "Español Médico",
-  summary: "Practica de repaso intensivo del vocabulario y las fórmulas típicas de la consulta médica: síntomas, diagnóstico, recetas, pruebas, citas y urgencias.",
-  duration: "24 min",
-  sections: [
-    {
-      heading: "Describir síntomas y molestias",
-      body: [
-        "Recuerda que 'molestia' es un término más suave que 'dolor' y se usa mucho en el registro médico para preguntar de forma general."
-      ],
-      examples: [
-        { es: "Tengo un dolor de cabeza muy fuerte desde ayer.", en: "I've had a very bad headache since yesterday." },
-        { es: "Noto molestias en el pecho cuando respiro hondo.", en: "I feel discomfort in my chest when I breathe deeply." },
-        { es: "Llevo tres días con fiebre y tos seca.", en: "I've had a fever and a dry cough for three days." }
-      ],
-      checkpoint: [
-        {
-          type: "multiple-choice",
-          question: "¿Cuál de estas palabras significa 'discomfort' en un contexto médico?",
-          options: ["molestia", "receta", "urgencias", "seguro"],
-          correctIndex: 0,
-          explanation: "'Molestia' es el término habitual para describir una sensación incómoda o dolor leve en la consulta médica."
-        },
-        {
-          type: "fill-blank",
-          prompt: "Completa la frase con la palabra adecuada.",
-          sentence: "Llevo dos semanas con esta ___ en la rodilla.",
-          answer: "molestia",
-          hint: "sinónimo suave de 'dolor'",
-          explanation: "'Molestia' encaja en este contexto porque describe una sensación incómoda pero no necesariamente un dolor intenso."
-        }
-      ]
-    },
-    {
-      heading: "Preguntas típicas del médico",
-      body: [
-        "Estas preguntas siguen un orden fijo: primero el síntoma, luego la duración y después los antecedentes."
-      ],
-      examples: [
-        { es: "¿Qué molestias tiene?", en: "What symptoms are you experiencing?" },
-        { es: "¿Desde cuándo tiene estos síntomas?", en: "Since when have you had these symptoms?" },
-        { es: "¿Es usted alérgico a algún medicamento?", en: "Are you allergic to any medication?" }
-      ],
-      checkpoint: [
-        {
-          type: "word-order",
-          prompt: "Ordena las palabras para formar la pregunta del médico.",
-          words: ["¿Desde", "cuándo", "tiene", "estos", "síntomas?"],
-          translation: "Since when have you had these symptoms?",
-          explanation: "El orden natural en español coloca el marcador temporal '¿Desde cuándo...?' al inicio de la pregunta."
-        },
-        {
-          type: "translate",
-          direction: "en-es",
-          prompt: "Traduce la pregunta al español.",
-          source: "What symptoms are you experiencing?",
-          answer: "¿Qué molestias tiene?",
-          altAnswers: ["¿Qué síntomas tiene?"],
-          explanation: "En la consulta se prefiere 'molestias' sobre 'síntomas' porque suena menos alarmante, aunque ambas formas son correctas."
-        }
-      ]
-    },
-    {
-      heading: "Diagnóstico e historial clínico",
-      body: [
-        "El 'historial clínico' reúne toda la información médica previa del paciente y se consulta antes de dar un diagnóstico."
-      ],
-      examples: [
-        { es: "Después de revisar las pruebas, el médico confirmó el diagnóstico.", en: "After reviewing the tests, the doctor confirmed the diagnosis." },
-        { es: "¿Podría enviarme su historial clínico completo?", en: "Could you send me your complete medical history?" },
-        { es: "El diagnóstico definitivo tardará unos días.", en: "The final diagnosis will take a few days." }
-      ],
-      checkpoint: [
-        {
-          type: "multiple-choice",
-          question: "¿Qué significa 'historial clínico'?",
-          options: ["Receta médica", "Registro de la información médica previa del paciente", "Sala de espera", "Efecto secundario"],
-          correctIndex: 1,
-          explanation: "El 'historial clínico' es el documento que reúne los antecedentes y datos médicos de un paciente."
-        }
-      ]
-    },
-    {
-      heading: "Recetas y medicamentos",
-      body: [
-        "Cuando el médico 'receta' un medicamento, entrega una 'receta médica' que se presenta en la farmacia."
-      ],
-      examples: [
-        { es: "Le voy a recetar un antibiótico para la infección.", en: "I'm going to prescribe you an antibiotic for the infection." },
-        { es: "Este medicamento puede tener efectos secundarios como somnolencia.", en: "This medication can have side effects such as drowsiness." },
-        { es: "¿Es usted alérgico a la penicilina?", en: "Are you allergic to penicillin?" }
-      ],
-      checkpoint: [
-        {
-          type: "multi-select",
-          question: "¿Cuáles de estas palabras se relacionan con los medicamentos?",
-          options: ["receta médica", "efectos secundarios", "sala de espera", "alergia", "seguro médico"],
-          correctIndexes: [0, 1, 3],
-          explanation: "'Receta médica', 'efectos secundarios' y 'alergia' son términos directamente ligados al uso de medicamentos."
-        },
-        {
-          type: "fill-blank",
-          prompt: "Completa la frase con la forma verbal adecuada.",
-          sentence: "El médico me ___ un jarabe para la tos.",
-          answer: "recetó",
-          hint: "verbo relacionado con 'receta', en pasado",
-          explanation: "'Recetó' es el pretérito de 'recetar', el verbo que se usa cuando el médico indica un medicamento."
-        }
-      ]
-    },
-    {
-      heading: "Pruebas, análisis y resultados",
-      body: [
-        "Los 'análisis' y las 'pruebas' se piden para confirmar un diagnóstico, y sus 'resultados' se entregan después."
-      ],
-      examples: [
-        { es: "Necesito pedirle un análisis de sangre.", en: "I need to order a blood test for you." },
-        { es: "Su presión arterial está un poco alta.", en: "Your blood pressure is a bit high." },
-        { es: "Los resultados de las pruebas estarán listos el jueves.", en: "The test results will be ready on Thursday." }
-      ],
-      checkpoint: [
-        {
-          type: "matching",
-          instructions: "Relaciona cada término con su significado.",
-          pairs: [
-            { left: "análisis de sangre", right: "prueba que examina los componentes de la sangre" },
-            { left: "presión arterial", right: "medida de la fuerza de la sangre contra las arterias" },
-            { left: "resultados", right: "información obtenida tras una prueba" }
-          ],
-          explanation: "Estos tres términos aparecen juntos con frecuencia cuando se habla de pruebas médicas y su interpretación."
-        }
-      ]
-    },
-    {
-      heading: "Citas y trámites administrativos",
-      body: [
-        "Pedir 'cita médica' y esperar en la 'sala de espera' son parte del trámite antes de ver al 'especialista'."
-      ],
-      examples: [
-        { es: "Quisiera pedir una cita médica para la próxima semana.", en: "I'd like to make a doctor's appointment for next week." },
-        { es: "El especialista la atenderá en quince minutos.", en: "The specialist will see you in fifteen minutes." },
-        { es: "¿Su seguro médico cubre esta consulta?", en: "Does your health insurance cover this visit?" }
-      ],
-      checkpoint: [
-        {
-          type: "translate",
-          direction: "es-en",
-          prompt: "Traduce la frase al inglés.",
-          source: "Quisiera pedir una cita médica.",
-          answer: "I would like to make a doctor's appointment.",
-          altAnswers: ["I'd like to book a doctor's appointment.", "I would like to schedule a doctor's appointment."],
-          explanation: "'Pedir cita médica' se traduce como 'to make/book a doctor's appointment', una fórmula muy frecuente en el registro médico."
-        }
-      ]
-    },
-    {
-      heading: "Urgencias y reposo",
-      body: [
-        "En una emergencia se va a 'urgencias', y tras el tratamiento el médico puede indicar que hay que 'guardar reposo'."
-      ],
-      examples: [
-        { es: "Tuvimos que llevarla a urgencias a medianoche.", en: "We had to take her to the emergency room at midnight." },
-        { es: "Tiene que guardar reposo durante una semana.", en: "You need to rest for a week." },
-        { es: "La ambulancia llegó en pocos minutos.", en: "The ambulance arrived within a few minutes." }
-      ],
-      checkpoint: [
-        {
-          type: "word-order",
-          prompt: "Ordena las palabras para formar la recomendación del médico.",
-          words: ["Tiene", "que", "guardar", "reposo", "durante", "una", "semana."],
-          translation: "You have to rest for a week.",
-          explanation: "'Tener que + infinitivo' introduce una obligación, y 'guardar reposo' es la expresión fija para 'to rest / stay in bed'."
-        }
-      ]
-    },
-    {
-      heading: "Repaso: el registro formal de la consulta",
-      body: [
-        "En la consulta médica se combina vocabulario técnico con fórmulas de cortesía y preguntas estructuradas."
-      ],
-      examples: [
-        { es: "Buenos días, ¿qué molestias tiene hoy?", en: "Good morning, what symptoms are you having today?" },
-        { es: "Le voy a recetar algo para la presión arterial.", en: "I'm going to prescribe you something for your blood pressure." },
-        { es: "Vuelva a la consulta si los síntomas no mejoran.", en: "Come back to the clinic if the symptoms don't improve." }
-      ],
-      checkpoint: [
-        {
-          type: "multi-select",
-          question: "¿Cuáles de estas expresiones usaría un médico al final de una consulta?",
-          options: ["Vuelva si los síntomas no mejoran.", "¿Qué molestias tiene?", "Le voy a recetar un antiinflamatorio.", "Necesito pedirle un análisis de sangre."],
-          correctIndexes: [0, 2],
-          explanation: "Al cerrar la consulta el médico suele dar instrucciones de seguimiento y recetar tratamiento, no volver a preguntar por los síntomas iniciales."
-        }
-      ]
-    }
-  ],
-  exercises: [
-    {
-      type: "multiple-choice",
-      question: "¿Qué significa 'guardar reposo'?",
-      options: ["Ir a trabajar", "Descansar y evitar esfuerzo", "Tomar un medicamento", "Pedir cita"],
-      correctIndex: 1,
-      explanation: "'Guardar reposo' significa descansar, generalmente en cama, evitando cualquier esfuerzo físico."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la frase con el término adecuado.",
-      sentence: "El médico revisó mi ___ antes de darme el diagnóstico.",
-      answer: "historial clínico",
-      hint: "conjunto de datos médicos previos del paciente",
-      explanation: "'Historial clínico' es el registro de antecedentes médicos que el médico consulta antes de diagnosticar."
-    },
-    {
-      type: "translate",
-      direction: "en-es",
-      prompt: "Traduce la frase al español.",
-      source: "I am allergic to penicillin.",
-      answer: "Soy alérgico a la penicilina.",
-      altAnswers: ["Soy alérgica a la penicilina."],
-      explanation: "'Ser alérgico/a a' es la construcción fija para expresar alergias en español."
-    },
-    {
-      type: "word-order",
-      prompt: "Ordena las palabras para formar la pregunta.",
-      words: ["¿Es", "usted", "alérgico", "a", "algún", "medicamento?"],
-      translation: "Are you allergic to any medication?",
-      explanation: "El adjetivo 'alérgico' va después del verbo 'ser', seguido de la preposición 'a' y el objeto de la alergia."
-    },
-    {
-      type: "multi-select",
-      question: "¿Cuáles de estos términos se refieren a un lugar o a un trámite administrativo?",
-      options: ["sala de espera", "cita médica", "efectos secundarios", "seguro médico", "análisis de sangre"],
-      correctIndexes: [0, 1, 3],
-      explanation: "'Sala de espera', 'cita médica' y 'seguro médico' pertenecen al ámbito administrativo, no al clínico."
-    },
-    {
-      type: "matching",
-      instructions: "Une cada expresión con su traducción al inglés.",
-      pairs: [
-        { left: "efectos secundarios", right: "side effects" },
-        { left: "presión arterial", right: "blood pressure" },
-        { left: "urgencias", right: "emergency room" },
-        { left: "cita médica", right: "doctor's appointment" }
-      ],
-      explanation: "Estos cuatro términos son de los más frecuentes en cualquier conversación médica cotidiana."
-    },
-    {
-      type: "multiple-choice",
-      question: "¿Cuál es la mejor traducción de 'receta médica'?",
-      options: ["medical prescription", "medical history", "blood test", "emergency room"],
-      correctIndex: 0,
-      explanation: "'Receta médica' equivale a 'medical prescription', el documento que permite comprar un medicamento."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la frase con el término adecuado.",
-      sentence: "La enfermera me tomó la ___ y estaba un poco alta.",
-      answer: "presión arterial",
-      hint: "medida relacionada con el funcionamiento del corazón",
-      explanation: "'Tomar la presión arterial' es la expresión habitual para medir este indicador."
-    },
-    {
-      type: "translate",
-      direction: "es-en",
-      prompt: "Traduce la pregunta al inglés.",
-      source: "¿Desde cuándo tiene estos síntomas?",
-      answer: "Since when have you had these symptoms?",
-      altAnswers: ["How long have you had these symptoms?"],
-      explanation: "Esta es una de las preguntas más comunes que hace un médico al inicio de la consulta."
-    },
-    {
-      type: "multiple-choice",
-      question: "En la consulta, ¿qué frase usaría el médico para recetar algo?",
-      options: ["Le voy a recetar un antibiótico.", "Voy a guardar reposo.", "Necesito pedir cita.", "Tengo alergia."],
-      correctIndex: 0,
-      explanation: "'Le voy a recetar...' es la fórmula que usa el médico, en primera persona, para indicar un medicamento al paciente."
-    },
-    {
-      type: "word-order",
-      prompt: "Ordena las palabras para formar la pregunta del médico.",
-      words: ["¿Qué", "molestias", "tiene", "usted?"],
-      translation: "What symptoms are you experiencing?",
-      explanation: "Esta pregunta abre casi siempre la consulta médica y sigue el orden interrogativo habitual del español."
-    },
-    {
-      type: "multi-select",
-      question: "¿Cuáles de estas palabras están relacionadas con las pruebas médicas?",
-      options: ["análisis de sangre", "resultados", "especialista", "presión arterial", "sala de espera"],
-      correctIndexes: [0, 1, 3],
-      explanation: "'Análisis de sangre', 'resultados' y 'presión arterial' forman parte del proceso de realizar y evaluar pruebas."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la frase con el término adecuado.",
-      sentence: "Tuvieron que llevarlo a ___ porque tenía mucho dolor en el pecho.",
-      answer: "urgencias",
-      hint: "servicio del hospital para emergencias",
-      explanation: "'Urgencias' es el servicio hospitalario al que se acude en casos graves o repentinos."
-    },
-    {
-      type: "translate",
-      direction: "en-es",
-      prompt: "Traduce la frase al español.",
-      source: "The results will be ready tomorrow.",
-      answer: "Los resultados estarán listos mañana.",
-      altAnswers: ["Los resultados van a estar listos mañana."],
-      explanation: "'Estar listo' es la construcción habitual para indicar que algo (como unos resultados) está disponible."
-    },
-    {
-      type: "matching",
-      instructions: "Relaciona cada palabra con su definición.",
-      pairs: [
-        { left: "especialista", right: "médico con formación en un área concreta" },
-        { left: "seguro médico", right: "servicio que cubre los gastos médicos" },
-        { left: "diagnóstico", right: "identificación de una enfermedad o problema de salud" },
-        { left: "ambulancia", right: "vehículo que traslada a los pacientes con urgencia" }
-      ],
-      explanation: "Estos cuatro términos aparecen con frecuencia en el vocabulario general del ámbito sanitario."
-    },
-    {
-      type: "multiple-choice",
-      question: "¿Qué palabra completa correctamente: 'Voy a pedir una ___ para el próximo lunes'?",
-      options: ["cita médica", "receta médica", "alergia", "ambulancia"],
-      correctIndex: 0,
-      explanation: "'Pedir una cita médica' es la expresión fija para solicitar una hora de consulta con el médico."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la frase con el término adecuado.",
-      sentence: "Este medicamento puede provocar ___ como mareos o somnolencia.",
-      answer: "efectos secundarios",
-      hint: "reacciones no deseadas de un medicamento",
-      explanation: "'Efectos secundarios' son las reacciones adversas que puede causar un medicamento además de su efecto principal."
-    }
-  ]
-},
-{
-  slug: "metaforas-eufemismos-lenguaje-figurado-drill",
-  level: "C2",
-  number: 42,
-  title: "Metáforas, Eufemismos y Lenguaje Figurado: Práctica Intensiva",
-  summary: "Repaso a fondo de metáforas cotidianas y periodísticas, eufemismos frecuentes y otras figuras retóricas (hipérbole, litotes, personificación e ironía) propias del español culto, con ejercicios variados de reconocimiento y producción.",
-  duration: "24 min",
-  sections: [
-    {
-      heading: "Eufemismos: la muerte y la vejez",
-      body: ["En español culto, la muerte y la vejez rara vez se nombran de forma directa; se recurre a fórmulas indirectas para suavizar el impacto."],
-      examples: [
-        { es: "Don Alberto pasó a mejor vida rodeado de su familia.", en: "Don Alberto passed away surrounded by his family." },
-        { es: "Mi abuela pertenece ya a la tercera edad, pero sigue muy activa.", en: "My grandmother is now a senior citizen, but she's still very active." },
-        { es: "Se fue al otro barrio sin previo aviso.", en: "He kicked the bucket without any warning." }
-      ],
-      checkpoint: [
-        {
-          type: "multiple-choice",
-          question: "¿Qué significa la expresión 'pasar a mejor vida'?",
-          options: ["Mudarse a otro país", "Morir", "Jubilarse", "Cambiar de trabajo"],
-          correctIndex: 1,
-          explanation: "'Pasar a mejor vida' es un eufemismo culto para decir que alguien ha muerto."
-        },
-        {
-          type: "fill-blank",
-          prompt: "Completa el eufemismo para referirse a las personas mayores.",
-          sentence: "Mi tío ya pertenece a la ___ ___, pero todavía juega al tenis cada semana.",
-          answer: "tercera edad",
-          hint: "Dos palabras; eufemismo para 'vejez'.",
-          explanation: "'La tercera edad' es la forma habitual y respetuosa de referirse a la vejez en español."
-        }
-      ]
-    },
-    {
-      heading: "Eufemismos: dinero y economía",
-      body: ["Los apuros económicos también se disfrazan con expresiones que evitan la crudeza de decir 'no tener dinero' o 'estar endeudado'."],
-      examples: [
-        { es: "La empresa cerró el año en números rojos.", en: "The company closed the year in the red." },
-        { es: "Tuvimos que apretarnos el cinturón tras la crisis.", en: "We had to tighten our belts after the crisis." },
-        { es: "Muchas familias no llegan a fin de mes.", en: "Many families can't make ends meet." }
-      ],
-      checkpoint: [
-        {
-          type: "multi-select",
-          question: "¿Qué expresiones indican dificultades económicas? Selecciona todas las correctas.",
-          options: ["Estar en números rojos", "Nadar en la abundancia", "No llegar a fin de mes", "Apretarse el cinturón", "Vivir a cuerpo de rey"],
-          correctIndexes: [0, 2, 3],
-          explanation: "'Estar en números rojos', 'no llegar a fin de mes' y 'apretarse el cinturón' son eufemismos y metáforas de estrechez económica; las otras dos expresan justo lo contrario, abundancia."
-        },
-        {
-          type: "translate",
-          direction: "en-es",
-          prompt: "Traduce la siguiente frase al español usando un eufemismo económico.",
-          source: "The company closed the year in the red.",
-          answer: "La empresa cerró el año en números rojos.",
-          altAnswers: ["La empresa terminó el año en números rojos."],
-          explanation: "'En números rojos' es el eufemismo estándar para 'con pérdidas' o 'endeudado'."
-        }
-      ]
-    },
-    {
-      heading: "Metáforas cotidianas y periodísticas",
-      body: ["El lenguaje periodístico y cotidiano está lleno de metáforas que comparan ideas abstractas con fenómenos naturales o mecánicos."],
-      examples: [
-        { es: "Tuvo un torrente de ideas durante la reunión.", en: "She had a flood of ideas during the meeting." },
-        { es: "La noticia sembró el pánico entre los vecinos.", en: "The news sowed panic among the neighbors." },
-        { es: "El turismo es el motor de la economía local.", en: "Tourism is the engine of the local economy." }
-      ],
-      checkpoint: [
-        {
-          type: "matching",
-          instructions: "Relaciona cada metáfora con su significado.",
-          pairs: [
-            { left: "un torrente de ideas", right: "una gran cantidad de ideas que surgen rápidamente" },
-            { left: "sembrar el pánico", right: "provocar miedo generalizado" },
-            { left: "el motor de la economía", right: "el sector que más la impulsa" }
-          ],
-          explanation: "Estas metáforas comparan procesos abstractos con fuerzas naturales o mecánicas: agua que fluye, semillas que germinan, un motor que mueve."
-        },
-        {
-          type: "multiple-choice",
-          question: "En 'la noticia sembró el pánico entre los vecinos', ¿qué imagen evoca el verbo 'sembrar'?",
-          options: ["Recolectar una cosecha", "Plantar algo que luego se propaga y crece", "Regar un jardín", "Cortar la hierba"],
-          correctIndex: 1,
-          explanation: "'Sembrar' compara el pánico con una semilla que, una vez plantada, se extiende y crece entre la gente."
-        }
-      ]
-    },
-    {
-      heading: "Hipérbole: la exageración expresiva",
-      body: ["La hipérbole exagera deliberadamente la realidad para enfatizar una emoción o característica, sin pretender ser tomada al pie de la letra."],
-      examples: [
-        { es: "Me muero de hambre, no he comido nada en todo el día.", en: "I'm starving, I haven't eaten all day." },
-        { es: "Te lo he repetido un millón de veces.", en: "I've told you a million times." },
-        { es: "Esta maleta pesa una tonelada.", en: "This suitcase weighs a ton." }
-      ],
-      checkpoint: [
-        {
-          type: "fill-blank",
-          prompt: "Completa la hipérbole.",
-          sentence: "No he comido nada en todo el día, me ___ de hambre.",
-          answer: "muero",
-          hint: "Presente de indicativo, verbo 'morir(se)'.",
-          explanation: "'Morirse de hambre' es una exageración deliberada para expresar mucha hambre, no una muerte real."
-        },
-        {
-          type: "word-order",
-          prompt: "Ordena las palabras para formar una hipérbole común.",
-          words: ["Te", "lo", "he", "dicho", "un", "millón", "de", "veces"],
-          translation: "I've told you a million times.",
-          explanation: "La hipérbole exagera la cantidad de veces con un número imposible de tomar literalmente, para enfatizar la frustración."
-        }
-      ]
-    },
-    {
-      heading: "Litotes: la atenuación irónica",
-      body: ["El litotes afirma algo negando su contrario, produciendo un efecto de moderación o ironía sutil muy típico del registro culto."],
-      examples: [
-        { es: "La propuesta no está nada mal.", en: "The proposal isn't bad at all." },
-        { es: "No le falta razón cuando se queja.", en: "He's not wrong to complain." },
-        { es: "No es el fin del mundo si perdemos este partido.", en: "It's not the end of the world if we lose this match." }
-      ],
-      checkpoint: [
-        {
-          type: "multiple-choice",
-          question: "¿Qué quiere decir realmente alguien que afirma 'esta propuesta no está nada mal'?",
-          options: ["Que la propuesta es pésima", "Que la propuesta es bastante buena", "Que no tiene opinión", "Que la propuesta ha sido rechazada"],
-          correctIndex: 1,
-          explanation: "El litotes niega el término negativo ('mal') para afirmar, con matiz de moderación, algo positivo."
-        },
-        {
-          type: "translate",
-          direction: "es-en",
-          prompt: "Traduce esta frase al inglés conservando el matiz del litotes.",
-          source: "No le falta razón cuando se queja del servicio.",
-          answer: "He's not wrong to complain about the service.",
-          altAnswers: ["She has a point when she complains about the service.", "He has a point when he complains about the service."],
-          explanation: "'No le falta razón' es un litotes que equivale a decir 'tiene razón', pero con un tono más atenuado."
-        }
-      ]
-    },
-    {
-      heading: "Personificación",
-      body: ["La personificación atribuye cualidades o acciones humanas a objetos, ideas o entidades abstractas para darles vida y fuerza expresiva."],
-      examples: [
-        { es: "Esta ciudad nunca duerme.", en: "This city never sleeps." },
-        { es: "El tiempo vuela cuando estás de vacaciones.", en: "Time flies when you're on vacation." },
-        { es: "Las paredes oyen, así que baja la voz.", en: "The walls have ears, so lower your voice." }
-      ],
-      checkpoint: [
-        {
-          type: "multi-select",
-          question: "¿Cuáles de las siguientes frases son ejemplos de personificación?",
-          options: ["Esta ciudad nunca duerme.", "El coche es rojo.", "El tiempo vuela cuando te diviertes.", "Las paredes oyen.", "El libro tiene 300 páginas."],
-          correctIndexes: [0, 2, 3],
-          explanation: "Dormir, volar y oír son acciones humanas atribuidas a una ciudad, al tiempo y a las paredes; las otras dos frases son descripciones literales."
-        },
-        {
-          type: "fill-blank",
-          prompt: "Completa la personificación.",
-          sentence: "El tiempo ___ cuando estás de vacaciones con amigos.",
-          answer: "vuela",
-          hint: "Verbo relacionado con las aves.",
-          explanation: "'El tiempo vuela' personifica el tiempo dándole la capacidad de volar, como si fuera un ave."
-        }
-      ]
-    },
-    {
-      heading: "Marcadores de ironía y sarcasmo",
-      body: ["La ironía dice lo contrario de lo que se piensa, y ciertas fórmulas fijas en el texto escrito señalan que el enunciado no debe interpretarse literalmente."],
-      examples: [
-        { es: "¡Qué bien, justo lo que necesitaba, que se rompa el coche hoy!", en: "Great, just what I needed, the car breaking down today!" },
-        { es: "Vaya, qué suerte la mía, perder el tren por dos minutos.", en: "Wow, what luck, missing the train by two minutes." },
-        { es: "Lo que me faltaba: otra reunión a las seis de la tarde.", en: "Just what I needed: another meeting at six in the evening." }
-      ],
-      checkpoint: [
-        {
-          type: "multiple-choice",
-          question: "Un compañero llega empapado y dice: '¡Qué bien, justo lo que necesitaba, llover el día de la excursión!'. ¿Cómo debe interpretarse?",
-          options: ["Literalmente: está feliz de que llueva", "Como ironía: en realidad está molesto", "Como un cumplido al clima", "Como una petición de paraguas"],
-          correctIndex: 1,
-          explanation: "El tono irónico invierte el sentido literal de '¡qué bien!'; el hablante expresa fastidio, no alegría."
-        },
-        {
-          type: "word-order",
-          prompt: "Ordena las palabras para formar una expresión irónica de fastidio.",
-          words: ["Lo", "que", "me", "faltaba", "otra", "reunión", "a", "las", "seis"],
-          translation: "Just what I needed, another meeting at six.",
-          explanation: "'Lo que me faltaba' es una fórmula fija que expresa, con ironía, fastidio ante un contratiempo añadido."
-        }
-      ]
-    },
-    {
-      heading: "Perífrasis eufemísticas del cuerpo y la condición social",
-      body: ["Ciertas condiciones físicas o sociales delicadas se describen mediante perífrasis que buscan un tono más respetuoso o menos directo."],
-      examples: [
-        { es: "Es una persona invidente, no ciega.", en: "He is visually impaired, not blind." },
-        { es: "Está en estado de buena esperanza.", en: "She is expecting." },
-        { es: "Es una persona con diversidad funcional.", en: "He is a person with functional diversity (a disability)." }
-      ],
-      checkpoint: [
-        {
-          type: "matching",
-          instructions: "Relaciona cada perífrasis eufemística con lo que realmente designa.",
-          pairs: [
-            { left: "persona invidente", right: "persona ciega" },
-            { left: "estado de buena esperanza", right: "embarazo" },
-            { left: "persona con diversidad funcional", right: "persona con discapacidad" }
-          ],
-          explanation: "Estas perífrasis suavizan términos considerados directos o estigmatizantes en el registro formal."
-        },
-        {
-          type: "multiple-choice",
-          question: "¿Qué significa que una mujer está 'en estado de buena esperanza'?",
-          options: ["Que tiene buen carácter", "Que está embarazada", "Que ha aprobado un examen", "Que está de vacaciones"],
-          correctIndex: 1,
-          explanation: "'Estado de buena esperanza' es una perífrasis anticuada pero aún usada para decir 'embarazada'."
-        }
-      ]
-    }
-  ],
-  exercises: [
-    {
-      type: "multiple-choice",
-      question: "¿Cuál de estas expresiones es un eufemismo para 'morir'?",
-      options: ["Pasar a mejor vida", "Sembrar el pánico", "No estar nada mal", "El tiempo vuela"],
-      correctIndex: 0,
-      explanation: "'Pasar a mejor vida' sustituye de forma respetuosa al verbo 'morir'."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la frase con el eufemismo adecuado para 'con pérdidas'.",
-      sentence: "Tras la pandemia, muchas pequeñas empresas quedaron en números ___.",
-      answer: "rojos",
-      hint: "Color asociado con las pérdidas contables.",
-      explanation: "'Números rojos' se refiere a un balance económico negativo."
-    },
-    {
-      type: "translate",
-      direction: "en-es",
-      prompt: "Traduce usando una metáfora periodística típica.",
-      source: "The construction sector is the engine of this region's economy.",
-      answer: "El sector de la construcción es el motor de la economía de esta región.",
-      explanation: "'El motor de la economía' es la metáfora habitual para el sector que más la impulsa."
-    },
-    {
-      type: "word-order",
-      prompt: "Ordena las palabras para formar una hipérbole coloquial.",
-      words: ["Esta", "maleta", "pesa", "una", "tonelada"],
-      translation: "This suitcase weighs a ton.",
-      explanation: "'Pesar una tonelada' exagera el peso real de algo para enfatizar lo pesado que resulta."
-    },
-    {
-      type: "multi-select",
-      question: "¿Cuáles de las siguientes son perífrasis eufemísticas relacionadas con el cuerpo o la salud?",
-      options: ["Persona invidente", "El motor de la economía", "Persona con diversidad funcional", "No está nada mal", "Estado de buena esperanza"],
-      correctIndexes: [0, 2, 4],
-      explanation: "Las tres primeras suavizan referencias a la ceguera, la discapacidad y el embarazo; las otras dos son una metáfora y un litotes sin relación con el cuerpo."
-    },
-    {
-      type: "matching",
-      instructions: "Relaciona cada expresión con la figura retórica a la que pertenece.",
-      pairs: [
-        { left: "me muero de hambre", right: "hipérbole" },
-        { left: "no está nada mal", right: "litotes" },
-        { left: "las paredes oyen", right: "personificación" },
-        { left: "un torrente de ideas", right: "metáfora" }
-      ],
-      explanation: "Cada expresión ejemplifica una figura distinta: exageración, atenuación irónica, atribución humana y comparación implícita."
-    },
-    {
-      type: "multiple-choice",
-      question: "¿Qué figura retórica se usa en '¡qué bien, justo lo que necesitaba, que se rompa el coche hoy!'?",
-      options: ["Metáfora", "Ironía", "Personificación", "Litotes"],
-      correctIndex: 1,
-      explanation: "La frase dice literalmente lo contrario de lo que el hablante siente; eso es ironía."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa el litotes.",
-      sentence: "No le ___ razón cuando dice que el examen fue muy difícil.",
-      answer: "falta",
-      hint: "Verbo 'faltar' en presente.",
-      explanation: "'No faltarle razón a alguien' equivale a decir que 'tiene razón', pero de forma atenuada."
-    },
-    {
-      type: "translate",
-      direction: "es-en",
-      prompt: "Traduce esta frase conservando su sentido eufemístico.",
-      source: "Mi abuelo ya pertenece a la tercera edad.",
-      answer: "My grandfather is already a senior citizen.",
-      altAnswers: ["My grandfather already belongs to the older generation."],
-      explanation: "'La tercera edad' se traduce por expresiones igualmente suaves en inglés, como 'senior citizen'."
-    },
-    {
-      type: "word-order",
-      prompt: "Ordena las palabras para formar una personificación.",
-      words: ["Esta", "ciudad", "nunca", "duerme"],
-      translation: "This city never sleeps.",
-      explanation: "Se atribuye a la ciudad la capacidad humana de dormir, o de no hacerlo nunca."
-    },
-    {
-      type: "multiple-choice",
-      question: "¿Cuál de estas frases contiene un litotes?",
-      options: ["El examen no fue nada fácil.", "El examen fue facilísimo.", "El examen me pareció un torrente de dudas.", "El examen duró una eternidad."],
-      correctIndex: 0,
-      explanation: "'No fue nada fácil' niega lo contrario ('fácil') para afirmar, de forma atenuada, que fue difícil."
-    },
-    {
-      type: "multi-select",
-      question: "¿Cuáles de estas expresiones son metáforas relacionadas con el ámbito económico o periodístico?",
-      options: ["Un torrente de ideas", "El motor de la economía", "Sembrar el pánico", "No está nada mal", "En números rojos"],
-      correctIndexes: [0, 1, 2],
-      explanation: "'Un torrente de ideas', 'el motor de la economía' y 'sembrar el pánico' son metáforas; las otras dos son un litotes y un eufemismo, no metáforas propiamente dichas."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la expresión irónica de fastidio.",
-      sentence: "Lo que me ___: otra reunión a las seis de la tarde.",
-      answer: "faltaba",
-      hint: "Imperfecto de 'faltar'.",
-      explanation: "'Lo que me faltaba' es una fórmula fija que expresa, con ironía, fastidio ante un nuevo contratiempo."
-    },
-    {
-      type: "matching",
-      instructions: "Relaciona cada eufemismo con su significado directo.",
-      pairs: [
-        { left: "pasar a mejor vida", right: "morir" },
-        { left: "en números rojos", right: "con deudas o pérdidas" },
-        { left: "estado de buena esperanza", right: "embarazo" },
-        { left: "no llegar a fin de mes", right: "tener problemas económicos" }
-      ],
-      explanation: "Todos estos eufemismos evitan nombrar directamente la muerte, las deudas o el embarazo."
-    },
-    {
-      type: "translate",
-      direction: "en-es",
-      prompt: "Traduce usando una hipérbole equivalente en español.",
-      source: "I've told you a million times to close the door.",
-      answer: "Te he dicho un millón de veces que cierres la puerta.",
-      explanation: "'Un millón de veces' es la hipérbole estándar en español para expresar repetición exagerada."
-    },
-    {
-      type: "multiple-choice",
-      question: "En el registro formal, ¿cuál es la opción más adecuada para referirse a una persona ciega?",
-      options: ["Persona invidente", "Persona ciega a secas", "Persona sin vista", "Persona oscura"],
-      correctIndex: 0,
-      explanation: "'Persona invidente' es la perífrasis eufemística habitual en contextos formales o institucionales."
-    },
-    {
-      type: "word-order",
-      prompt: "Ordena las palabras para formar una metáfora periodística.",
-      words: ["La", "noticia", "sembró", "el", "pánico", "entre", "los", "vecinos"],
-      translation: "The news sowed panic among the neighbors.",
-      explanation: "La metáfora compara la propagación del miedo con la siembra de una semilla."
-    },
-    {
-      type: "multi-select",
-      question: "¿Cuáles de las siguientes frases son hipérboles?",
-      options: ["Me muero de hambre.", "No está nada mal.", "Te lo he dicho un millón de veces.", "Esta maleta pesa una tonelada.", "Las paredes oyen."],
-      correctIndexes: [0, 2, 3],
-      explanation: "Las tres frases exageran deliberadamente una realidad (hambre, repetición, peso); la segunda es un litotes y la última una personificación."
-    }
-  ]
-},
-{
-  slug: "registro-argumentacion-debate-negociacion-drill",
-  level: "C2",
-  number: 43,
-  title: "Registro y Argumentación: Debate y Negociación",
-  summary: "Práctica intensiva de conectores formales, concesión, propuestas de compromiso y atenuación de afirmaciones para debates y negociaciones de alto nivel.",
-  duration: "24 min",
-  sections: [
-    {
-      heading: "Conectores contrastivos de registro formal",
-      body: ["Estos conectores marcan un contraste entre dos ideas con un tono más formal que 'pero', apropiado para debates serios."],
-      examples: [
-        { es: "El proyecto es ambicioso; no obstante, carece de financiación suficiente.", en: "The project is ambitious; however, it lacks sufficient funding." },
-        { es: "Entendemos sus preocupaciones. Dicho esto, mantenemos nuestra postura inicial.", en: "We understand your concerns. That said, we maintain our initial position." },
-        { es: "Sin embargo, cabe matizar que los datos no son concluyentes.", en: "However, it should be qualified that the data are not conclusive." }
-      ],
-      checkpoint: [
-        {
-          type: "multiple-choice",
-          question: "¿Qué conector introduce un matiz formal después de haber reconocido un punto?",
-          options: ["o sea", "dicho esto", "total, que"],
-          correctIndex: 1,
-          explanation: "'Dicho esto' introduce un giro formal tras haber concedido algo previamente."
-        }
-      ]
-    },
-    {
-      heading: "Conceder un punto sin perder terreno",
-      body: ["Reconocer parcialmente el argumento contrario antes de reafirmar el propio suaviza el debate sin debilitar la postura."],
-      examples: [
-        { es: "Hasta cierto punto tienes razón, sin embargo, no podemos ignorar los riesgos.", en: "You're right up to a point, however, we can't ignore the risks." },
-        { es: "No le falta razón a mi colega, pero la situación es más compleja de lo que parece.", en: "My colleague isn't wrong, but the situation is more complex than it seems." },
-        { es: "Reconozco que su propuesta tiene mérito; aun así, prefiero explorar otras opciones.", en: "I acknowledge that your proposal has merit; even so, I prefer to explore other options." }
-      ],
-      checkpoint: [
-        {
-          type: "multi-select",
-          question: "¿Cuáles de estas expresiones sirven para conceder un punto antes de contraargumentar?",
-          options: ["hasta cierto punto tienes razón, sin embargo...", "cabe destacar que...", "no le falta razón a..., pero..."],
-          correctIndexes: [0, 2],
-          explanation: "Ambas reconocen parcialmente el argumento ajeno antes de introducir una objeción; 'cabe destacar que' simplemente resalta un dato."
-        }
-      ]
-    },
-    {
-      heading: "Proponer un punto medio",
-      body: ["En una negociación, proponer una solución intermedia con cortesía facilita el consenso sin sonar débil."],
-      examples: [
-        { es: "¿Qué tal si llegamos a un punto medio entre ambas propuestas?", en: "What if we meet in the middle between both proposals?" },
-        { es: "Estamos dispuestos a ceder terreno en el plazo si ustedes ceden en el precio.", en: "We're willing to give ground on the deadline if you give ground on the price." },
-        { es: "Propongo que negociemos un término medio antes de cerrar la reunión.", en: "I propose we negotiate a middle ground before closing the meeting." }
-      ],
-      checkpoint: [
-        {
-          type: "word-order",
-          prompt: "Ordena las palabras para formar una propuesta de compromiso.",
-          words: ["¿Qué", "tal", "si", "llegamos", "a", "un", "punto", "medio?"],
-          translation: "What if we meet in the middle?",
-          explanation: "'¿Qué tal si...?' es una fórmula cortés para proponer un compromiso en una negociación."
-        }
-      ]
-    },
-    {
-      heading: "Atenuar afirmaciones (hedging)",
-      body: ["Suavizar las afirmaciones evita sonar categórico y deja espacio abierto al diálogo."],
-      examples: [
-        { es: "Podría decirse que la reforma ha beneficiado, en cierta medida, a las pequeñas empresas.", en: "It could be said that the reform has benefited small businesses to some extent." },
-        { es: "Hasta cierto punto, el fracaso se debió a una mala planificación.", en: "To a certain extent, the failure was due to poor planning." },
-        { es: "En cierta medida, ambas partes comparten la responsabilidad.", en: "To some extent, both parties share the responsibility." }
-      ],
-      checkpoint: [
-        {
-          type: "fill-blank",
-          prompt: "Completa la expresión atenuadora.",
-          sentence: "En cierta ____, ambas partes comparten la responsabilidad.",
-          answer: "medida",
-          hint: "Sustantivo que acompaña a 'cierta' para suavizar una afirmación.",
-          explanation: "'En cierta medida' atenúa la afirmación indicando que es parcialmente cierta."
-        }
-      ]
-    },
-    {
-      heading: "Destacar un argumento con formalidad",
-      body: ["Estas fórmulas introducen un punto clave con un tono impersonal, típico de debates y textos académicos."],
-      examples: [
-        { es: "Cabe destacar que ningún estudio ha confirmado esa hipótesis.", en: "It should be noted that no study has confirmed that hypothesis." },
-        { es: "Es preciso subrayar que las cifras oficiales difieren de las independientes.", en: "It must be emphasized that the official figures differ from the independent ones." },
-        { es: "Cabe señalar que el acuerdo anterior nunca se cumplió del todo.", en: "It should be pointed out that the previous agreement was never fully honored." }
-      ],
-      checkpoint: [
-        {
-          type: "multiple-choice",
-          question: "¿Qué expresión es la más formal para introducir un dato relevante en un debate?",
-          options: ["o sea que...", "cabe destacar que...", "total, que..."],
-          correctIndex: 1,
-          explanation: "'Cabe destacar que' es una fórmula formal e impersonal típica de la argumentación académica o política."
-        }
-      ]
-    },
-    {
-      heading: "Justificar una postura formalmente",
-      body: ["Estas construcciones introducen la razón o el objetivo que sostiene un argumento en un debate."],
-      examples: [
-        { es: "En aras de la transparencia, publicaremos todos los informes.", en: "In the interest of transparency, we will publish all the reports." },
-        { es: "Dado que no hay consenso, propongo posponer la votación.", en: "Given that there is no consensus, I propose postponing the vote." },
-        { es: "Con el fin de agilizar el proceso, sugiero fijar un plazo límite.", en: "In order to speed up the process, I suggest setting a deadline." }
-      ],
-      checkpoint: [
-        {
-          type: "translate",
-          direction: "en-es",
-          prompt: "Traduce al español usando una construcción formal de finalidad.",
-          source: "In the interest of transparency, we will publish the report.",
-          answer: "En aras de la transparencia, publicaremos el informe.",
-          altAnswers: ["En aras de la transparencia, vamos a publicar el informe."],
-          explanation: "'En aras de' es una locución formal que introduce el objetivo que justifica una acción."
-        }
-      ]
-    },
-    {
-      heading: "Concesión doble: si bien es cierto que... no es menos cierto que...",
-      body: ["Esta estructura reconoce plenamente un argumento contrario antes de introducir, con el mismo peso, el argumento propio."],
-      examples: [
-        { es: "Si bien es cierto que el plan reduce costes, no es menos cierto que afecta la calidad del servicio.", en: "While it is true that the plan reduces costs, it is equally true that it affects the quality of service." },
-        { es: "Si bien es cierto que hemos avanzado, no es menos cierto que queda mucho por hacer.", en: "While it's true that we've made progress, it's equally true that much remains to be done." }
-      ],
-      checkpoint: [
-        {
-          type: "fill-blank",
-          prompt: "Completa la estructura concesiva doble.",
-          sentence: "____ es cierto que subieron los precios, no es menos cierto que la calidad mejoró.",
-          answer: "Si bien",
-          hint: "Dos palabras que introducen la primera parte de la concesión.",
-          explanation: "'Si bien es cierto que... no es menos cierto que...' concede un argumento y contrapone otro con el mismo peso."
-        }
-      ]
-    },
-    {
-      heading: "Cambiar de registro: formal frente a informal",
-      body: ["Un hablante de nivel C2 alterna entre un registro coloquial y uno formal según el contexto de la conversación o negociación."],
-      examples: [
-        { es: "Registro informal: 'O sea, para mí esto no tiene sentido.' Registro formal: 'Es decir, desde mi punto de vista, esto carece de sentido.'", en: "Informal register: 'I mean, to me this doesn't make sense.' Formal register: 'That is to say, from my point of view, this makes no sense.'" },
-        { es: "Total, que no llegamos a nada. → En definitiva, no alcanzamos ningún acuerdo.", en: "So basically, we got nowhere. → In short, we did not reach any agreement." }
-      ],
-      checkpoint: [
-        {
-          type: "matching",
-          instructions: "Empareja cada expresión informal con su equivalente formal.",
-          pairs: [
-            { left: "o sea", right: "es decir" },
-            { left: "total, que", right: "en definitiva" },
-            { left: "para mí", right: "desde mi punto de vista" },
-            { left: "un montón de", right: "numerosos" }
-          ],
-          explanation: "Un mismo contenido puede expresarse en registro informal o formal según el contexto de la negociación."
-        }
-      ]
-    }
-  ],
-  exercises: [
-    {
-      type: "multiple-choice",
-      question: "¿Cuál de estas opciones es la más adecuada para un debate formal?",
-      options: ["pero", "no obstante", "o sea"],
-      correctIndex: 1,
-      explanation: "'No obstante' es el conector contrastivo apropiado para el registro formal de un debate."
-    },
-    {
-      type: "multi-select",
-      question: "¿Cuáles de estas expresiones sirven para conceder un punto al interlocutor?",
-      options: ["hasta cierto punto tienes razón, sin embargo...", "no le falta razón a..., pero...", "en aras de..."],
-      correctIndexes: [0, 1],
-      explanation: "Ambas reconocen parcialmente el argumento contrario antes de matizarlo; 'en aras de' justifica una acción, no concede un punto."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la estructura concesiva doble.",
-      sentence: "____ es cierto que subieron los precios, no es menos cierto que la calidad mejoró.",
-      answer: "Si bien",
-      hint: "Dos palabras.",
-      explanation: "'Si bien es cierto que... no es menos cierto que...' concede y contrapone con el mismo peso argumentativo."
-    },
-    {
-      type: "translate",
-      direction: "es-en",
-      prompt: "Traduce al inglés.",
-      source: "Cabe destacar que ningún estudio ha confirmado esa hipótesis.",
-      answer: "It should be noted that no study has confirmed that hypothesis.",
-      altAnswers: ["It's worth noting that no study has confirmed that hypothesis."],
-      explanation: "'Cabe destacar que' equivale a 'it should be noted that' en registro formal."
-    },
-    {
-      type: "translate",
-      direction: "en-es",
-      prompt: "Traduce al español con una construcción formal.",
-      source: "In the interest of transparency, we will publish the report.",
-      answer: "En aras de la transparencia, publicaremos el informe.",
-      altAnswers: ["En aras de la transparencia, vamos a publicar el informe."],
-      explanation: "'En aras de' introduce formalmente la razón que justifica una acción."
-    },
-    {
-      type: "word-order",
-      prompt: "Ordena las palabras para formar una propuesta de compromiso.",
-      words: ["¿Qué", "tal", "si", "llegamos", "a", "un", "punto", "medio?"],
-      translation: "What if we meet in the middle?",
-      explanation: "'¿Qué tal si...?' propone una solución intermedia de forma cortés."
-    },
-    {
-      type: "matching",
-      instructions: "Empareja cada expresión informal con su equivalente formal.",
-      pairs: [
-        { left: "o sea", right: "es decir" },
-        { left: "total, que", right: "en definitiva" },
-        { left: "para mí", right: "desde mi punto de vista" }
-      ],
-      explanation: "El registro cambia según el contexto, pero el contenido semántico se mantiene."
-    },
-    {
-      type: "multiple-choice",
-      question: "¿Qué función cumple 'podría decirse que' en un argumento?",
-      options: ["Refuerza una afirmación categórica", "Atenúa una afirmación", "Introduce una cita textual"],
-      correctIndex: 1,
-      explanation: "'Podría decirse que' suaviza la afirmación, dejando espacio para el matiz o el desacuerdo."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la expresión atenuadora.",
-      sentence: "En cierta ____, ambas partes comparten la responsabilidad.",
-      answer: "medida",
-      hint: "Sustantivo femenino.",
-      explanation: "'En cierta medida' matiza una afirmación indicando que es solo parcialmente cierta."
-    },
-    {
-      type: "multi-select",
-      question: "¿Cuáles de estas expresiones justifican formalmente una postura?",
-      options: ["en aras de...", "con el fin de...", "o sea que..."],
-      correctIndexes: [0, 1],
-      explanation: "'En aras de' y 'con el fin de' introducen la finalidad que justifica una acción; 'o sea que' es un conector informal."
-    },
-    {
-      type: "translate",
-      direction: "es-en",
-      prompt: "Traduce al inglés.",
-      source: "Si bien es cierto que el plan reduce costes, no es menos cierto que afecta la calidad.",
-      answer: "While it is true that the plan reduces costs, it is equally true that it affects the quality.",
-      altAnswers: ["Although it's true the plan cuts costs, it's just as true that it affects quality."],
-      explanation: "La estructura concesiva doble se traduce con 'while it is true that... it is equally true that...'."
-    },
-    {
-      type: "word-order",
-      prompt: "Ordena las palabras para formar una concesión de compromiso.",
-      words: ["Estamos", "dispuestos", "a", "ceder", "terreno", "en", "el", "plazo."],
-      translation: "We're willing to give ground on the deadline.",
-      explanation: "'Ceder terreno' es una expresión clave en el lenguaje de negociación."
-    },
-    {
-      type: "multiple-choice",
-      question: "En una negociación tensa, ¿qué expresión propone mejor una solución intermedia sin ceder del todo?",
-      options: ["Tienes toda la razón.", "¿Qué tal si llegamos a un punto medio?", "Eso es imposible."],
-      correctIndex: 1,
-      explanation: "Proponer un punto medio mantiene la negociación abierta sin rechazar ni aceptar por completo la postura contraria."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la fórmula formal para destacar un argumento.",
-      sentence: "____ destacar que las cifras oficiales difieren de las independientes.",
-      answer: "Cabe",
-      hint: "Verbo en tercera persona del singular, presente de indicativo.",
-      explanation: "'Cabe destacar que' introduce formalmente un dato relevante en el debate."
-    },
-    {
-      type: "matching",
-      instructions: "Empareja cada expresión con su función argumentativa.",
-      pairs: [
-        { left: "hasta cierto punto tienes razón, sin embargo...", right: "conceder un punto" },
-        { left: "¿qué tal si llegamos a un punto medio?", right: "proponer un compromiso" },
-        { left: "podría decirse que...", right: "atenuar una afirmación" },
-        { left: "cabe destacar que...", right: "resaltar un argumento con formalidad" }
-      ],
-      explanation: "Cada fórmula cumple una función específica dentro de la argumentación y la negociación formales."
-    },
-    {
-      type: "translate",
-      direction: "en-es",
-      prompt: "Traduce al español usando una expresión atenuadora.",
-      source: "It could be said that the reform has helped, to some extent.",
-      answer: "Podría decirse que la reforma ha ayudado, en cierta medida.",
-      altAnswers: ["Podría decirse que la reforma ha ayudado, hasta cierto punto."],
-      explanation: "'Podría decirse que' y 'en cierta medida' combinan dos recursos de atenuación en el mismo enunciado."
-    },
-    {
-      type: "multi-select",
-      question: "¿Cuáles de estas expresiones pertenecen a un registro formal?",
-      options: ["dicho esto", "total, que", "es preciso subrayar que"],
-      correctIndexes: [0, 2],
-      explanation: "'Dicho esto' y 'es preciso subrayar que' son propias del registro formal; 'total, que' es coloquial."
-    },
-    {
-      type: "word-order",
-      prompt: "Ordena las palabras para formar una concesión seguida de matiz.",
-      words: ["No", "le", "falta", "razón", "a", "mi", "colega,", "pero", "la", "situación", "es", "compleja."],
-      translation: "My colleague isn't wrong, but the situation is complex.",
-      explanation: "'No le falta razón a...' concede el punto antes de introducir un matiz con 'pero'."
-    }
-  ]
-},
-{
-  slug: "negocios-economia-drill",
-  level: "C2",
-  number: 44,
-  title: "Negocios y Economía: repaso intensivo",
-  summary: "Un simulacro de práctica espaciada centrado en vocabulario y registro de negocios y economía en español: estructura corporativa, resultados financieros, inversiones, negociación de contratos, logística y correspondencia comercial formal.",
-  duration: "24 min",
-  sections: [
-    {
-      heading: "Estructura corporativa y gobierno",
-      body: ["Recuerda el vocabulario sobre la dirección y la propiedad de una empresa."],
-      examples: [
-        { es: "La junta directiva se reunirá el jueves para aprobar el nuevo presupuesto.", en: "The board of directors will meet on Thursday to approve the new budget." },
-        { es: "Los accionistas exigieron mayor transparencia en la gestión de la empresa.", en: "The shareholders demanded greater transparency in the company's management." },
-        { es: "El consejo de administración nombró a una nueva directora ejecutiva.", en: "The board of directors appointed a new CEO." }
-      ],
-      checkpoint: [
-        {
-          type: "multiple-choice",
-          question: "¿Qué es un 'accionista'?",
-          options: [
-            "Una persona que trabaja en el departamento de contabilidad",
-            "Una persona o entidad que posee acciones de una empresa",
-            "El director general de una empresa",
-            "Un proveedor externo de materias primas"
-          ],
-          correctIndex: 1,
-          explanation: "Un accionista es propietario de una o varias acciones de una sociedad, lo que le otorga derechos sobre sus beneficios y decisiones."
-        },
-        {
-          type: "fill-blank",
-          prompt: "Completa la frase con el término adecuado.",
-          sentence: "La ___ se reunió para debatir la fusión con la empresa rival.",
-          answer: "junta directiva",
-          hint: "Grupo de personas que dirige y supervisa una empresa.",
-          explanation: "'Junta directiva' designa al órgano que dirige y supervisa la gestión de una empresa."
-        }
-      ]
-    },
-    {
-      heading: "Resultados financieros",
-      body: ["Repasa los términos para describir el desempeño financiero de una empresa."],
-      examples: [
-        { es: "La empresa registró beneficios récord a pesar de la crisis.", en: "The company recorded record profits despite the crisis." },
-        { es: "Las pérdidas del segundo trimestre superaron las previsiones.", en: "The second-quarter losses exceeded forecasts." },
-        { es: "La facturación anual creció un doce por ciento.", en: "Annual turnover grew twelve percent." }
-      ],
-      checkpoint: [
-        {
-          type: "multi-select",
-          question: "¿Cuáles de los siguientes términos se refieren a resultados financieros negativos?",
-          options: ["pérdidas", "beneficios", "déficit", "ingresos", "facturación"],
-          correctIndexes: [0, 2],
-          explanation: "'Pérdidas' y 'déficit' describen situaciones en las que los gastos superan a los ingresos; los demás términos son neutros o positivos."
-        },
-        {
-          type: "translate",
-          direction: "en-es",
-          prompt: "Traduce la frase al español.",
-          source: "Profitability improved despite lower revenue.",
-          answer: "La rentabilidad mejoró a pesar de los menores ingresos.",
-          altAnswers: ["La rentabilidad mejoró pese a la caída de los ingresos."],
-          explanation: "'Rentabilidad' es la capacidad de generar beneficio en relación con la inversión realizada."
-        }
-      ]
-    },
-    {
-      heading: "Inversión y operaciones corporativas",
-      body: ["Practica el vocabulario relacionado con inversiones y operaciones entre empresas."],
-      examples: [
-        { es: "La fusión y adquisición de la startup se cerró en tiempo récord.", en: "The merger and acquisition of the startup closed in record time." },
-        { es: "Necesitamos atraer más inversión extranjera para expandir la planta.", en: "We need to attract more foreign investment to expand the plant." },
-        { es: "El capital social de la empresa se duplicó tras la ampliación.", en: "The company's share capital doubled after the capital increase." }
-      ],
-      checkpoint: [
-        {
-          type: "word-order",
-          prompt: "Ordena las palabras para formar una frase correcta.",
-          words: ["La", "fusión", "y", "adquisición", "requiere", "la", "aprobación", "de", "los", "accionistas", "."],
-          translation: "The merger and acquisition requires shareholder approval.",
-          explanation: "El orden habitual es sujeto + verbo + complemento: 'La fusión y adquisición requiere la aprobación de los accionistas.'"
-        }
-      ]
-    },
-    {
-      heading: "Negociación de contratos",
-      body: ["Domina las expresiones clave para negociar y redactar contratos comerciales."],
-      examples: [
-        { es: "Vamos a negociar un contrato más favorable con el proveedor.", en: "We're going to negotiate a more favorable contract with the supplier." },
-        { es: "El plazo de entrega se fijó en treinta días naturales.", en: "The delivery deadline was set at thirty calendar days." },
-        { es: "Esa cláusula de rescisión nos protege en caso de incumplimiento.", en: "That termination clause protects us in case of breach." }
-      ],
-      checkpoint: [
-        {
-          type: "multiple-choice",
-          question: "En el contexto de un contrato, ¿qué es una 'cláusula'?",
-          options: [
-            "El precio total del contrato",
-            "Una disposición o condición específica dentro del contrato",
-            "La firma de las dos partes",
-            "El plazo de entrega del pedido"
-          ],
-          correctIndex: 1,
-          explanation: "Una cláusula es cada una de las disposiciones particulares que regulan una parte concreta del contrato."
-        },
-        {
-          type: "fill-blank",
-          prompt: "Completa la frase con el término adecuado.",
-          sentence: "El ___ se fijó en treinta días naturales desde la firma del pedido.",
-          answer: "plazo de entrega",
-          hint: "Tiempo acordado para que un pedido llegue a su destino.",
-          explanation: "'Plazo de entrega' es el período de tiempo pactado para completar una entrega."
-        }
-      ]
-    },
-    {
-      heading: "Cadena de suministro y logística",
-      body: ["Refuerza el vocabulario logístico relacionado con proveedores y distribución."],
-      examples: [
-        { es: "La cadena de suministro sufrió retrasos por la escasez de materias primas.", en: "The supply chain suffered delays due to a shortage of raw materials." },
-        { es: "Cambiamos de proveedor porque no cumplía los plazos acordados.", en: "We changed suppliers because they weren't meeting the agreed deadlines." },
-        { es: "Es imprescindible diversificar la cadena de suministro para reducir riesgos.", en: "It's essential to diversify the supply chain to reduce risks." }
-      ],
-      checkpoint: [
-        {
-          type: "translate",
-          direction: "es-en",
-          prompt: "Traduce la frase al inglés.",
-          source: "Tuvimos que cambiar de proveedor por los retrasos constantes.",
-          answer: "We had to change suppliers due to the constant delays.",
-          altAnswers: ["We had to switch suppliers because of the constant delays."],
-          explanation: "'Proveedor' se traduce como 'supplier', la empresa que suministra bienes o servicios."
-        },
-        {
-          type: "multiple-choice",
-          question: "¿Cuál es la mejor definición de 'cadena de suministro'?",
-          options: [
-            "El conjunto de accionistas de una empresa",
-            "El proceso completo desde la producción hasta la entrega al cliente",
-            "El presupuesto anual de una empresa",
-            "El acta de una reunión de negocios"
-          ],
-          correctIndex: 1,
-          explanation: "La cadena de suministro abarca todas las etapas, desde la obtención de materias primas hasta la entrega del producto final."
-        }
-      ]
-    },
-    {
-      heading: "Correspondencia comercial formal",
-      body: ["Repasa las fórmulas fijas típicas de la correspondencia comercial formal en español."],
-      examples: [
-        { es: "En relación con su propuesta del pasado lunes, le informamos que ha sido aceptada.", en: "Regarding your proposal from last Monday, we inform you that it has been accepted." },
-        { es: "Adjunto encontrará el presupuesto detallado que nos solicitó.", en: "Please find attached the detailed budget you requested." },
-        { es: "Quedamos a la espera de sus noticias.", en: "We look forward to hearing from you." }
-      ],
-      checkpoint: [
-        {
-          type: "matching",
-          instructions: "Relaciona cada expresión formal con su función en una carta comercial.",
-          pairs: [
-            { left: "En relación con su propuesta...", right: "Introducir el tema principal de la carta" },
-            { left: "Adjunto encontrará...", right: "Indicar que se envía un documento adjunto" },
-            { left: "Quedamos a la espera de sus noticias.", right: "Cerrar la carta pidiendo una respuesta" },
-            { left: "Sin otro particular, le saluda atentamente.", right: "Despedida formal antes de la firma" }
-          ],
-          explanation: "Estas fórmulas fijas estructuran la carta comercial formal: apertura del tema, referencia a adjuntos y cierre cortés."
-        }
-      ]
-    },
-    {
-      heading: "Reuniones e informes",
-      body: ["Aprende el vocabulario para organizar y documentar reuniones de negocios."],
-      examples: [
-        { es: "El primer punto del orden del día es la revisión del informe trimestral.", en: "The first item on the agenda is the review of the quarterly report." },
-        { es: "La previsión de ventas para el próximo semestre es optimista.", en: "The sales forecast for next semester is optimistic." },
-        { es: "Redactaré el acta de la reunión y la enviaré por correo mañana.", en: "I'll draft the minutes of the meeting and send them by email tomorrow." }
-      ],
-      checkpoint: [
-        {
-          type: "multi-select",
-          question: "¿Qué elementos suelen aparecer en el orden del día de una reunión de negocios?",
-          options: [
-            "Revisión del informe trimestral",
-            "La previsión de ventas",
-            "El plazo de entrega de un pedido personal",
-            "Aprobación del presupuesto",
-            "Recetas de cocina"
-          ],
-          correctIndexes: [0, 1, 3],
-          explanation: "El orden del día suele incluir puntos relacionados con la gestión de la empresa, como informes, previsiones y presupuestos."
-        },
-        {
-          type: "word-order",
-          prompt: "Ordena las palabras para formar una frase correcta.",
-          words: ["Redactaré", "el", "acta", "de", "la", "reunión", "mañana", "."],
-          translation: "I'll draft the minutes of the meeting tomorrow.",
-          explanation: "El orden habitual en español es verbo + complemento directo + complemento circunstancial de tiempo."
-        }
-      ]
-    },
-    {
-      heading: "Presupuestos y expresiones económicas",
-      body: ["Consolida expresiones sobre presupuestos, plazos y márgenes en el ámbito económico."],
-      examples: [
-        { es: "El presupuesto anual se aprobó sin cambios significativos.", en: "The annual budget was approved without significant changes." },
-        { es: "A largo plazo, la inversión en tecnología resultará más rentable.", en: "In the long term, investment in technology will prove more profitable." },
-        { es: "Los márgenes de beneficio se han reducido debido a la competencia.", en: "Profit margins have shrunk due to competition." }
-      ],
-      checkpoint: [
-        {
-          type: "fill-blank",
-          prompt: "Completa la frase con el término adecuado.",
-          sentence: "El consejo de administración aprobó un nuevo ___ anual.",
-          answer: "presupuesto",
-          hint: "Plan económico que estima ingresos y gastos futuros.",
-          explanation: "'Presupuesto' es la estimación planificada de ingresos y gastos para un período determinado."
-        },
-        {
-          type: "multi-select",
-          question: "¿Cuáles de las siguientes expresiones se relacionan con el tiempo en el ámbito económico?",
-          options: ["a corto plazo", "a largo plazo", "cadena de suministro", "el plazo de entrega", "el consejo de administración"],
-          correctIndexes: [0, 1, 3],
-          explanation: "'A corto/largo plazo' y 'el plazo de entrega' hacen referencia a marcos temporales, a diferencia de los otros términos."
-        }
-      ]
-    }
-  ],
-  exercises: [
-    {
-      type: "multiple-choice",
-      question: "¿Qué significa 'facturación' en el contexto empresarial?",
-      options: ["La rentabilidad de la empresa", "Los ingresos totales generados por las ventas", "El beneficio neto tras impuestos", "El presupuesto anual"],
-      correctIndex: 1,
-      explanation: "'Facturación' se refiere al total de ingresos que genera una empresa por sus ventas en un período determinado."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la frase con el término adecuado.",
-      sentence: "La ___ se reunió para debatir la fusión con la empresa rival.",
-      answer: "junta directiva",
-      hint: "Grupo de personas que dirige una empresa.",
-      explanation: "'Junta directiva' es el órgano que dirige y supervisa la gestión de una empresa."
-    },
-    {
-      type: "translate",
-      direction: "es-en",
-      prompt: "Traduce la frase al inglés.",
-      source: "Quedamos a la espera de sus noticias.",
-      answer: "We look forward to hearing from you.",
-      altAnswers: ["We remain awaiting your reply.", "We await your response."],
-      explanation: "Esta es una fórmula fija de cierre en la correspondencia comercial formal en español."
-    },
-    {
-      type: "translate",
-      direction: "en-es",
-      prompt: "Traduce la frase al español.",
-      source: "Please find attached the quarterly report.",
-      answer: "Adjunto encontrará el informe trimestral.",
-      altAnswers: ["Le adjunto el informe trimestral."],
-      explanation: "'Adjunto encontrará...' es una fórmula habitual para indicar que se envía un documento junto con la carta o el correo."
-    },
-    {
-      type: "multi-select",
-      question: "¿Cuáles de los siguientes términos se refieren a resultados financieros negativos?",
-      options: ["pérdidas", "beneficios", "déficit", "ingresos", "facturación"],
-      correctIndexes: [0, 2],
-      explanation: "'Pérdidas' y 'déficit' indican que los gastos superan a los ingresos, a diferencia de los demás términos."
-    },
-    {
-      type: "word-order",
-      prompt: "Ordena las palabras para formar una frase correcta.",
-      words: ["El", "plazo", "de", "entrega", "vence", "el", "viernes", "."],
-      translation: "The delivery deadline expires on Friday.",
-      explanation: "El orden habitual es sujeto + verbo + complemento circunstancial de tiempo."
-    },
-    {
-      type: "matching",
-      instructions: "Relaciona cada expresión formal con su función en una carta comercial.",
-      pairs: [
-        { left: "En relación con su propuesta...", right: "Introducir el tema principal de la carta" },
-        { left: "Adjunto encontrará...", right: "Indicar que se envía un documento adjunto" },
-        { left: "Quedamos a la espera de sus noticias.", right: "Cerrar la carta pidiendo una respuesta" },
-        { left: "Sin otro particular, le saluda atentamente.", right: "Despedida formal antes de la firma" }
-      ],
-      explanation: "Cada fórmula cumple una función concreta dentro de la estructura de una carta comercial formal."
-    },
-    {
-      type: "multiple-choice",
-      question: "¿Cuál es la mejor definición de 'cadena de suministro'?",
-      options: [
-        "El conjunto de accionistas de una empresa",
-        "El proceso completo desde la producción hasta la entrega al cliente",
-        "El presupuesto anual de una empresa",
-        "El acta de una reunión de negocios"
-      ],
-      correctIndex: 1,
-      explanation: "La cadena de suministro abarca todas las etapas, desde la obtención de materias primas hasta la entrega del producto final."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la frase con el término adecuado.",
-      sentence: "Tuvimos que cambiar de ___ porque no cumplía los plazos de entrega.",
-      answer: "proveedor",
-      hint: "Empresa que suministra bienes o servicios a otra.",
-      explanation: "'Proveedor' es la empresa o persona que suministra bienes o servicios a otra empresa."
-    },
-    {
-      type: "translate",
-      direction: "es-en",
-      prompt: "Traduce la frase al inglés.",
-      source: "Los accionistas votarán la fusión y adquisición en la próxima junta.",
-      answer: "The shareholders will vote on the merger and acquisition at the next meeting.",
-      altAnswers: ["Shareholders will vote on the merger and acquisition at the next general meeting."],
-      explanation: "'Fusión y adquisición' equivale al término inglés 'merger and acquisition' (M&A)."
-    },
-    {
-      type: "multi-select",
-      question: "¿Qué elementos suelen aparecer en el orden del día de una reunión de negocios?",
-      options: [
-        "Revisión del informe trimestral",
-        "La previsión de ventas",
-        "El plazo de entrega de un pedido personal",
-        "Aprobación del presupuesto",
-        "Recetas de cocina"
-      ],
-      correctIndexes: [0, 1, 3],
-      explanation: "El orden del día incluye normalmente asuntos relacionados con la gestión y las finanzas de la empresa."
-    },
-    {
-      type: "word-order",
-      prompt: "Ordena las palabras para formar una frase correcta.",
-      words: ["Los", "márgenes", "de", "beneficio", "se", "han", "reducido", "."],
-      translation: "Profit margins have shrunk.",
-      explanation: "El pronombre reflexivo 'se' precede al verbo auxiliar 'han' en esta construcción con voz pasiva refleja."
-    },
-    {
-      type: "multiple-choice",
-      question: "En el contexto de un contrato, ¿qué es una 'cláusula'?",
-      options: [
-        "El precio total del contrato",
-        "Una disposición o condición específica dentro del contrato",
-        "La firma de las dos partes",
-        "El plazo de entrega del pedido"
-      ],
-      correctIndex: 1,
-      explanation: "Una cláusula es cada disposición particular que regula un aspecto concreto de un contrato."
-    },
-    {
-      type: "translate",
-      direction: "en-es",
-      prompt: "Traduce la frase al español.",
-      source: "We need more capital to fund the long-term investment.",
-      answer: "Necesitamos más capital para financiar la inversión a largo plazo.",
-      altAnswers: ["Necesitamos más capital para financiar la inversión a largo plazo de la empresa."],
-      explanation: "'Capital' y 'a largo plazo' son términos clave en el ámbito de las inversiones."
-    },
-    {
-      type: "fill-blank",
-      prompt: "Completa la frase con el término adecuado.",
-      sentence: "El consejo de administración aprobó un nuevo ___ anual.",
-      answer: "presupuesto",
-      hint: "Plan económico que estima ingresos y gastos futuros.",
-      explanation: "'Presupuesto' es la estimación planificada de ingresos y gastos para un período determinado."
-    },
-    {
-      type: "matching",
-      instructions: "Relaciona cada término financiero con su definición.",
-      pairs: [
-        { left: "beneficios", right: "Ganancias que obtiene una empresa" },
-        { left: "pérdidas", right: "Dinero perdido cuando los gastos superan a los ingresos" },
-        { left: "rentabilidad", right: "Capacidad de generar beneficio en relación con la inversión" },
-        { left: "ingresos", right: "Dinero que entra en la empresa por sus actividades" }
-      ],
-      explanation: "Estos cuatro términos son fundamentales para describir el desempeño financiero de una empresa."
-    },
-    {
-      type: "multiple-choice",
-      question: "¿Cuál de las siguientes frases es apropiada para cerrar un correo comercial formal?",
-      options: [
-        "Nos vemos pronto, ¡un abrazo!",
-        "Sin otro particular, le saluda atentamente.",
-        "Chao, hasta luego",
-        "Bueno, eso es todo"
-      ],
-      correctIndex: 1,
-      explanation: "'Sin otro particular, le saluda atentamente' es una fórmula de despedida propia del registro formal y comercial."
-    }
-  ]
-},
   {
-    "slug": "c1c2-vocabulary-practice-part-1",
+    "slug": "modismos-expresiones-idiomaticas-drill-1",
     "level": "C2",
-    "number": 45,
-    "title": "C1/C2 Vocabulary Practice (Part 1 of 6)",
+    "number": 121,
+    "title": "Modismos y Expresiones Idiomáticas — Repaso Intensivo, Part 1 of 3",
+    "summary": "Práctica de refuerzo espaciado para modismos y expresiones idiomáticas de uso cotidiano entre hablantes nativos. Este drill asume que ya conoces el significado de estas expresiones y se centra en fijarlas mediante repetición y recombinación.",
+    "duration": "9 min",
+    "sections": [
+      {
+        "heading": "Tomar el pelo",
+        "body": [
+          "Recuerda que 'tomar el pelo a alguien' significa burlarse de esa persona o engañarla en broma, no jalarle el cabello literalmente."
+        ],
+        "examples": [
+          {
+            "es": "No te enfades, solo te estoy tomando el pelo.",
+            "en": "Don't get upset, I'm just pulling your leg."
+          },
+          {
+            "es": "¿En serio ganaste la lotería o me estás tomando el pelo?",
+            "en": "Did you really win the lottery or are you pulling my leg?"
+          },
+          {
+            "es": "Siempre le toma el pelo a su hermano menor por cualquier tontería.",
+            "en": "He's always teasing his little brother about anything."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué significa 'tomarle el pelo a alguien'?",
+            "options": [
+              "Cortarle el cabello a alguien",
+              "Burlarse de alguien o engañarlo en tono de broma",
+              "Peinar a alguien con cuidado",
+              "Elogiar a alguien exageradamente"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Tomar el pelo' es una expresión idiomática que significa burlarse de alguien o gastarle una broma, sin relación literal con el cabello."
+          }
+        ]
+      },
+      {
+        "heading": "No tener pelos en la lengua",
+        "body": [
+          "Esta expresión describe a alguien que dice las cosas de forma directa y sin filtros, incluso si resultan incómodas."
+        ],
+        "examples": [
+          {
+            "es": "Mi abuela no tiene pelos en la lengua: te dice lo que piensa sin rodeos.",
+            "en": "My grandmother doesn't mince words: she tells you what she thinks without beating around the bush."
+          },
+          {
+            "es": "El crítico no tuvo pelos en la lengua al hablar de la película.",
+            "en": "The critic didn't hold back when talking about the movie."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa con la expresión adecuada.",
+            "sentence": "Mi jefa no tiene ___ ___ ___ ___: si algo está mal, te lo dice a la cara.",
+            "answer": "pelos en la lengua",
+            "hint": "Se refiere a hablar sin filtros.",
+            "explanation": "'No tener pelos en la lengua' significa hablar con total franqueza, sin suavizar las palabras."
+          }
+        ]
+      },
+      {
+        "heading": "Meter la pata / no dar pie con bola",
+        "body": [
+          "Ambas expresiones se usan para hablar de errores: 'meter la pata' es cometer un desliz puntual, y 'no dar pie con bola' es equivocarse repetidamente en algo."
+        ],
+        "examples": [
+          {
+            "es": "Metí la pata al mencionar su divorcio delante de todos.",
+            "en": "I put my foot in it by mentioning her divorce in front of everyone."
+          },
+          {
+            "es": "Hoy no doy pie con bola: se me ha olvidado todo lo que tenía que hacer.",
+            "en": "I can't get anything right today: I've forgotten everything I had to do."
+          },
+          {
+            "es": "Perdona, metí la pata otra vez con las fechas de la reunión.",
+            "en": "Sorry, I messed up again with the meeting dates."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuál de estas frases usa correctamente 'meter la pata'?",
+            "options": [
+              "Metí la pata y llegué justo a tiempo.",
+              "Metí la pata al contarle a mi jefe un secreto que no debía revelar.",
+              "Metí la pata en el examen porque estudié muchísimo.",
+              "Metí la pata para ayudar a mi amigo con la mudanza."
+            ],
+            "correctIndex": 1,
+            "explanation": "'Meter la pata' implica cometer un error o indiscreción, como revelar algo que no se debía decir."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Traduce la frase al español usando un modismo.",
+            "source": "I don't know what's wrong with me today, I can't get anything right.",
+            "answer": "No sé qué me pasa hoy, no doy pie con bola.",
+            "altAnswers": [
+              "No sé qué me pasa hoy, no doy pie con bola.",
+              "No sé qué me pasa hoy no doy pie con bola"
+            ],
+            "explanation": "'No dar pie con bola' expresa que alguien se equivoca reiteradamente en lo que hace."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Tu compañero se equivocó tres veces seguidas al presentar el informe. ¿Qué expresión describe mejor su situación?",
+        "options": [
+          "Estar como pez en el agua",
+          "No dar pie con bola",
+          "Dar en el clavo",
+          "Ser pan comido"
+        ],
+        "correctIndex": 1,
+        "explanation": "'No dar pie con bola' se usa cuando alguien comete errores repetidamente en lo que hace."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la expresión idiomática que falta.",
+        "sentence": "No puedo creer el precio de este restaurante, la cena nos va a costar ___ ___ ___ ___ ___.",
+        "answer": "un ojo de la cara",
+        "hint": "Se refiere a algo excesivamente caro.",
+        "explanation": "'Costar un ojo de la cara' se usa para exagerar lo caro que resulta algo."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes expresiones tienen un significado negativo o de fracaso?",
+        "options": [
+          "Tirar la toalla",
+          "Meter la pata",
+          "Dar en el clavo",
+          "No dar pie con bola"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "'Tirar la toalla', 'meter la pata' y 'no dar pie con bola' implican rendirse o cometer errores; 'dar en el clavo' es acertar."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce la frase usando el modismo correspondiente.",
+        "source": "Stop teasing your sister, she's about to cry.",
+        "answer": "Deja de tomarle el pelo a tu hermana, está a punto de llorar.",
+        "altAnswers": [
+          "Deja de tomarle el pelo a tu hermana está a punto de llorar."
+        ],
+        "explanation": "'Tomar el pelo' equivale a 'to tease' o 'to pull someone's leg' en inglés."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar la oración correcta.",
+        "words": [
+          "Ella",
+          "no",
+          "tiene",
+          "pelos",
+          "en",
+          "la",
+          "lengua",
+          "cuando",
+          "opina"
+        ],
+        "translation": "She doesn't mince words when she gives her opinion.",
+        "explanation": "El orden correcto respeta la estructura fija de la expresión: 'no tiene pelos en la lengua'."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada modismo con su significado.",
+        "pairs": [
+          {
+            "left": "Ser pan comido",
+            "right": "Algo muy fácil de hacer"
+          },
+          {
+            "left": "Tirar la toalla",
+            "right": "Rendirse ante una dificultad"
+          },
+          {
+            "left": "Ponerse las pilas",
+            "right": "Empezar a esforzarse con energía"
+          },
+          {
+            "left": "Hablar por los codos",
+            "right": "Hablar demasiado y sin parar"
+          }
+        ],
+        "explanation": "Estas cuatro expresiones son de uso muy frecuente en contextos informales y de trabajo."
+      }
+    ]
+  },
+  {
+    "slug": "modismos-expresiones-idiomaticas-drill-2",
+    "level": "C2",
+    "number": 122,
+    "title": "Modismos y Expresiones Idiomáticas — Repaso Intensivo, Part 2 of 3",
+    "summary": "Práctica de refuerzo espaciado para modismos y expresiones idiomáticas de uso cotidiano entre hablantes nativos. Este drill asume que ya conoces el significado de estas expresiones y se centra en fijarlas mediante repetición y recombinación.",
+    "duration": "9 min",
+    "sections": [
+      {
+        "heading": "Estar en las nubes / estar hecho polvo",
+        "body": [
+          "'Estar en las nubes' describe a alguien distraído o soñando despierto, mientras que 'estar hecho polvo' indica agotamiento físico o emocional extremo."
+        ],
+        "examples": [
+          {
+            "es": "Perdona, estaba en las nubes y no escuché lo que dijiste.",
+            "en": "Sorry, I was daydreaming and didn't hear what you said."
+          },
+          {
+            "es": "Después de la maratón, quedé hecho polvo durante dos días.",
+            "en": "After the marathon, I was wiped out for two days."
+          },
+          {
+            "es": "Últimamente está en las nubes, seguro que anda enamorada.",
+            "en": "Lately she's been off in the clouds, she must be in love."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Qué frases describen correctamente el significado de 'estar hecho polvo'?",
+            "options": [
+              "Estar completamente agotado.",
+              "Estar muy distraído pensando en otra cosa.",
+              "Sentirse física o emocionalmente exhausto.",
+              "Estar de excelente humor."
+            ],
+            "correctIndexes": [
+              0,
+              2
+            ],
+            "explanation": "'Estar hecho polvo' significa estar muy cansado o abatido, ya sea física o emocionalmente."
+          }
+        ]
+      },
+      {
+        "heading": "Costar un ojo de la cara",
+        "body": [
+          "Se usa para decir que algo es extremadamente caro, exagerando el precio como si costara un órgano del cuerpo."
+        ],
+        "examples": [
+          {
+            "es": "Ese apartamento en el centro le costó un ojo de la cara.",
+            "en": "That apartment downtown cost him an arm and a leg."
+          },
+          {
+            "es": "Arreglar el coche me va a costar un ojo de la cara.",
+            "en": "Fixing the car is going to cost me an arm and a leg."
+          },
+          {
+            "es": "Las entradas para el concierto cuestan un ojo de la cara este año.",
+            "en": "Concert tickets cost a fortune this year."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "word-order",
+            "prompt": "Ordena las palabras para formar una oración correcta.",
+            "words": [
+              "Esa",
+              "boda",
+              "les",
+              "costó",
+              "un",
+              "ojo",
+              "de",
+              "la",
+              "cara"
+            ],
+            "translation": "That wedding cost them an arm and a leg.",
+            "explanation": "El orden natural es sujeto + verbo + expresión idiomática completa: 'costó un ojo de la cara'."
+          }
+        ]
+      },
+      {
+        "heading": "Dar en el clavo / irse por las ramas",
+        "body": [
+          "'Dar en el clavo' es acertar exactamente en un diagnóstico o comentario, mientras que 'irse por las ramas' es desviarse del tema principal sin ir al grano."
+        ],
+        "examples": [
+          {
+            "es": "El consultor dio en el clavo al identificar el problema real de la empresa.",
+            "en": "The consultant hit the nail on the head by identifying the company's real problem."
+          },
+          {
+            "es": "Deja de irte por las ramas y contesta la pregunta.",
+            "en": "Stop beating around the bush and answer the question."
+          },
+          {
+            "es": "Cuando le pregunté por qué llegó tarde, se fue por las ramas.",
+            "en": "When I asked him why he was late, he beat around the bush."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Une cada expresión con su significado correcto.",
+            "pairs": [
+              {
+                "left": "Dar en el clavo",
+                "right": "Acertar exactamente en algo"
+              },
+              {
+                "left": "Irse por las ramas",
+                "right": "Desviarse del tema sin ir al grano"
+              }
+            ],
+            "explanation": "'Dar en el clavo' implica precisión y acierto; 'irse por las ramas' implica evasión o falta de concreción."
+          }
+        ]
+      },
+      {
+        "heading": "Ser pan comido / tirar la toalla",
+        "body": [
+          "'Ser pan comido' significa que algo es muy fácil de hacer, y 'tirar la toalla' significa rendirse ante una dificultad."
+        ],
+        "examples": [
+          {
+            "es": "El examen de conducir fue pan comido para ella.",
+            "en": "The driving test was a piece of cake for her."
+          },
+          {
+            "es": "No tires la toalla ahora, ya casi terminas el proyecto.",
+            "en": "Don't throw in the towel now, you're almost done with the project."
+          },
+          {
+            "es": "Después de tres intentos fallidos, decidió tirar la toalla.",
+            "en": "After three failed attempts, he decided to give up."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la oración con la expresión adecuada.",
+            "sentence": "Aprender a usar este programa fue ___ ___ para el equipo técnico.",
+            "answer": "pan comido",
+            "hint": "Significa que algo resultó muy fácil.",
+            "explanation": "'Ser pan comido' se usa para describir tareas que resultan sencillas de realizar."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Un colega identifica perfectamente la causa de un problema en la reunión. ¿Qué expresión usarías?",
+        "options": [
+          "Se fue por las ramas",
+          "Dio en el clavo",
+          "Metió la pata",
+          "Está en las nubes"
+        ],
+        "correctIndex": 1,
+        "explanation": "'Dar en el clavo' se usa cuando alguien acierta exactamente en un diagnóstico o comentario."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con la expresión adecuada.",
+        "sentence": "Siempre que le pregunto algo directo, mi primo se ___ ___ ___ ___ y nunca contesta claro.",
+        "answer": "va por las ramas",
+        "hint": "Significa evitar ir directamente al tema.",
+        "explanation": "'Irse por las ramas' describe a alguien que evita responder de forma directa."
+      },
+      {
+        "type": "translate",
+        "direction": "es-en",
+        "prompt": "Traduce la oración al inglés.",
+        "source": "Después de mudarnos, estuvimos hechos polvo durante toda la semana.",
+        "answer": "After moving, we were exhausted all week.",
+        "altAnswers": [
+          "After we moved, we were wiped out for the whole week.",
+          "After the move, we were completely worn out all week."
+        ],
+        "explanation": "'Estar hecho polvo' se traduce como 'to be exhausted' o 'to be wiped out'."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Qué expresiones se refieren a hablar de forma directa o sin control, respectivamente?",
+        "options": [
+          "No tener pelos en la lengua",
+          "Hablar por los codos",
+          "Dar en el clavo",
+          "Estar en las nubes"
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "'No tener pelos en la lengua' es hablar con franqueza, y 'hablar por los codos' es hablar sin parar."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar la oración correcta.",
+        "words": [
+          "Si",
+          "organizamos",
+          "bien",
+          "el",
+          "viaje",
+          "matamos",
+          "dos",
+          "pájaros",
+          "de",
+          "un",
+          "tiro"
+        ],
+        "translation": "If we plan the trip well, we'll kill two birds with one stone.",
+        "explanation": "La expresión completa 'matar dos pájaros de un tiro' va al final, tras la cláusula condicional."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Elige la opción que completa correctamente: 'Este ejercicio de matemáticas fue ___ para los estudiantes avanzados.'",
+        "options": [
+          "pan comido",
+          "un ojo de la cara",
+          "hecho polvo",
+          "pelos en la lengua"
+        ],
+        "correctIndex": 0,
+        "explanation": "'Ser pan comido' indica que algo resultó muy fácil, como en este contexto académico."
+      }
+    ]
+  },
+  {
+    "slug": "modismos-expresiones-idiomaticas-drill-3",
+    "level": "C2",
+    "number": 123,
+    "title": "Modismos y Expresiones Idiomáticas — Repaso Intensivo, Part 3 of 3",
+    "summary": "Práctica de refuerzo espaciado para modismos y expresiones idiomáticas de uso cotidiano entre hablantes nativos. Este drill asume que ya conoces el significado de estas expresiones y se centra en fijarlas mediante repetición y recombinación.",
+    "duration": "7 min",
+    "sections": [
+      {
+        "heading": "Ponerse las pilas, tomar el toro por los cuernos, estar como pez en el agua, hablar por los codos, matar dos pájaros de un tiro",
+        "body": [
+          "Este grupo reúne expresiones de acción y actitud muy frecuentes en el habla cotidiana; conviene repasarlas juntas por su uso similar en contextos de trabajo y vida diaria."
+        ],
+        "examples": [
+          {
+            "es": "Si quieres aprobar el curso, tienes que ponerte las pilas.",
+            "en": "If you want to pass the course, you need to get your act together."
+          },
+          {
+            "es": "En vez de quejarse, tomó el toro por los cuernos y resolvió el conflicto.",
+            "en": "Instead of complaining, he took the bull by the horns and solved the conflict."
+          },
+          {
+            "es": "Desde que empezó en ventas, está como pez en el agua.",
+            "en": "Since she started in sales, she's been in her element."
+          },
+          {
+            "es": "Mi tía habla por los codos, es imposible interrumpirla.",
+            "en": "My aunt talks nonstop, it's impossible to interrupt her."
+          },
+          {
+            "es": "Si vamos al súper de camino al trabajo, matamos dos pájaros de un tiro.",
+            "en": "If we go to the supermarket on the way to work, we kill two birds with one stone."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Qué expresiones transmiten una actitud proactiva o de acción decidida?",
+            "options": [
+              "Ponerse las pilas",
+              "Tomar el toro por los cuernos",
+              "Hablar por los codos",
+              "Estar en las nubes"
+            ],
+            "correctIndexes": [
+              0,
+              1
+            ],
+            "explanation": "'Ponerse las pilas' y 'tomar el toro por los cuernos' implican actuar con energía y decisión, a diferencia de 'hablar por los codos' (hablar mucho) o 'estar en las nubes' (estar distraído)."
+          },
+          {
+            "type": "translate",
+            "direction": "es-en",
+            "prompt": "Traduce la siguiente oración al inglés.",
+            "source": "Aprovechemos el viaje para visitar a tu tía y firmar el contrato: matamos dos pájaros de un tiro.",
+            "answer": "Let's take advantage of the trip to visit your aunt and sign the contract: we'll kill two birds with one stone.",
+            "altAnswers": [
+              "Let's use the trip to visit your aunt and sign the contract, killing two birds with one stone.",
+              "We can visit your aunt and sign the contract during the trip, two birds with one stone."
+            ],
+            "explanation": "'Matar dos pájaros de un tiro' equivale a 'kill two birds with one stone': lograr dos objetivos con una sola acción."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce la frase al español usando un modismo.",
+        "source": "He took the bull by the horns and finally talked to his boss about the problem.",
+        "answer": "Tomó el toro por los cuernos y por fin habló con su jefe sobre el problema.",
+        "altAnswers": [
+          "Él tomó el toro por los cuernos y finalmente habló con su jefe sobre el problema."
+        ],
+        "explanation": "'Tomar el toro por los cuernos' equivale a enfrentar una situación difícil con decisión."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la expresión que falta en la oración.",
+        "sentence": "Desde que empezó a trabajar en el hospital, está como ___ ___ ___ ___: se nota que es su vocación.",
+        "answer": "pez en el agua",
+        "hint": "Se refiere a sentirse cómodo y capaz en un entorno.",
+        "explanation": "'Estar como pez en el agua' significa sentirse totalmente cómodo y competente en una situación o entorno."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Qué expresiones podrían usarse para describir a alguien que necesita mejorar su actitud o desempeño?",
+        "options": [
+          "Ponerse las pilas",
+          "No dar pie con bola",
+          "Dar en el clavo",
+          "Meter la pata"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "'Ponerse las pilas', 'no dar pie con bola' y 'meter la pata' se relacionan con la necesidad de mejorar o con errores cometidos."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada modismo con la situación que mejor lo ejemplifica.",
+        "pairs": [
+          {
+            "left": "Costar un ojo de la cara",
+            "right": "Un viaje internacional muy caro"
+          },
+          {
+            "left": "Estar en las nubes",
+            "right": "No prestar atención en clase"
+          },
+          {
+            "left": "Tomar el pelo",
+            "right": "Gastar una broma a un amigo"
+          },
+          {
+            "left": "Dar en el clavo",
+            "right": "Adivinar exactamente lo que pasó"
+          }
+        ],
+        "explanation": "Cada modismo se asocia naturalmente con un contexto específico según su significado idiomático."
+      },
+      {
+        "type": "translate",
+        "direction": "es-en",
+        "prompt": "Traduce la oración al inglés.",
+        "source": "No tires la toalla todavía, todavía puedes dar en el clavo con la solución correcta.",
+        "answer": "Don't give up yet, you can still hit the nail on the head with the right solution.",
+        "altAnswers": [
+          "Don't throw in the towel yet, you can still get it exactly right with the correct solution."
+        ],
+        "explanation": "Esta oración combina dos modismos: 'tirar la toalla' (rendirse) y 'dar en el clavo' (acertar)."
+      }
+    ]
+  },
+  {
+    "slug": "refranes-dichos-populares-drill-1",
+    "level": "C2",
+    "number": 124,
+    "title": "Refranes y Dichos Populares, Part 1 of 3",
+    "summary": "Práctica intensiva de refranes españoles de uso cotidiano: identificación, traducción y producción en contexto para consolidar dichos ya estudiados.",
+    "duration": "7 min",
+    "sections": [
+      {
+        "heading": "La puntualidad y la constancia",
+        "body": [
+          "Estos refranes valoran actuar aunque sea tarde y reconocen el esfuerzo de quien empieza temprano."
+        ],
+        "examples": [
+          {
+            "es": "Empezó la carrera de derecho a los cuarenta años; como dicen, más vale tarde que nunca.",
+            "en": "She started law school at forty; as they say, better late than never."
+          },
+          {
+            "es": "Se levanta a las cinco todos los días para entrenar: a quien madruga, Dios le ayuda.",
+            "en": "He gets up at five every day to train: the early bird catches the worm."
+          },
+          {
+            "es": "Por fin le pedí perdón después de tantos años; más vale tarde que nunca.",
+            "en": "I finally apologized after all these years; better late than never."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué actitud describe mejor el refrán 'a quien madruga, Dios le ayuda'?",
+            "options": [
+              "La pereza trae recompensas",
+              "El esfuerzo temprano suele dar buenos resultados",
+              "Nunca es tarde para disculparse",
+              "El tiempo cura todas las heridas"
+            ],
+            "correctIndex": 1,
+            "explanation": "El refrán premia el esfuerzo y la iniciativa temprana, no la pereza ni otras ideas relacionadas con el tiempo."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa el refrán con la palabra que falta.",
+            "sentence": "Más vale ___ que nunca.",
+            "answer": "tarde",
+            "hint": "Se refiere a hacer algo aunque no sea en el momento ideal.",
+            "explanation": "'Más vale tarde que nunca' anima a actuar aunque haya pasado el momento óptimo."
+          }
+        ]
+      },
+      {
+        "heading": "El optimismo y la actitud",
+        "body": [
+          "Frente a las dificultades, estos dichos animan a buscar el lado positivo y mantener una actitud serena."
+        ],
+        "examples": [
+          {
+            "es": "Perdí el vuelo, pero conocí a mi futura socia en el aeropuerto: no hay mal que por bien no venga.",
+            "en": "I missed the flight, but I met my future business partner at the airport: every cloud has a silver lining."
+          },
+          {
+            "es": "La empresa quebró, pero no hay mal que por bien no venga, porque ahora tiene un negocio propio.",
+            "en": "The company went bankrupt, but every cloud has a silver lining, because now she has her own business."
+          },
+          {
+            "es": "A pesar de la lluvia en la boda, pusieron al mal tiempo, buena cara.",
+            "en": "Despite the rain at the wedding, they put on a brave face."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Traduce la frase al español usando el refrán adecuado.",
+            "source": "Every cloud has a silver lining.",
+            "answer": "No hay mal que por bien no venga.",
+            "altAnswers": [
+              "No hay mal que por bien no venga"
+            ],
+            "explanation": "Este refrán expresa que de las situaciones negativas puede surgir algo positivo."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuándo se usaría 'al mal tiempo, buena cara'?",
+            "options": [
+              "Cuando alguien se rinde ante un problema",
+              "Cuando alguien enfrenta una dificultad con buen ánimo",
+              "Cuando el clima mejora de repente",
+              "Cuando se evita hablar de algo"
+            ],
+            "correctIndex": 1,
+            "explanation": "El dicho anima a mantener una actitud positiva incluso en circunstancias adversas."
+          }
+        ]
+      },
+      {
+        "heading": "La discreción",
+        "body": [
+          "Este refrán aconseja callar para evitar problemas o malentendidos innecesarios."
+        ],
+        "examples": [
+          {
+            "es": "No opines sobre la vida amorosa de tu jefe; en boca cerrada no entran moscas.",
+            "en": "Don't comment on your boss's love life; silence is golden."
+          },
+          {
+            "es": "Prefiero no mencionar el error en la reunión: en boca cerrada no entran moscas.",
+            "en": "I'd rather not mention the mistake in the meeting: silence is golden."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "word-order",
+            "prompt": "Ordena las palabras para formar el refrán completo.",
+            "words": [
+              "En",
+              "boca",
+              "cerrada",
+              "no",
+              "entran",
+              "moscas"
+            ],
+            "translation": "Silence is golden.",
+            "explanation": "El orden correcto respeta la estructura fija del refrán tradicional."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué refrán se usa cuando alguien actúa correctamente, aunque con mucho retraso?",
+        "options": [
+          "A quien madruga, Dios le ayuda",
+          "Más vale tarde que nunca",
+          "No hay mal que por bien no venga",
+          "Más vale prevenir que curar"
+        ],
+        "correctIndex": 1,
+        "explanation": "'Más vale tarde que nunca' se refiere específicamente a hacer algo con retraso pero de todos modos."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa el refrán con la palabra que falta.",
+        "sentence": "A quien ___, Dios le ayuda.",
+        "answer": "madruga",
+        "hint": "Se refiere a levantarse temprano.",
+        "explanation": "El refrán premia a quienes se levantan y actúan temprano."
+      },
+      {
+        "type": "translate",
+        "direction": "es-en",
+        "prompt": "Traduce la frase al inglés de forma natural.",
+        "source": "No hay mal que por bien no venga.",
+        "answer": "Every cloud has a silver lining.",
+        "altAnswers": [
+          "There is nothing bad that doesn't come for a reason",
+          "Something good comes out of everything bad"
+        ],
+        "explanation": "Este refrán expresa que de una situación mala puede surgir algo bueno."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce la frase al español usando el refrán adecuado.",
+        "source": "Better safe than sorry.",
+        "answer": "Más vale prevenir que curar.",
+        "altAnswers": [
+          "Más vale prevenir que curar."
+        ],
+        "explanation": "Ambas expresiones aconsejan tomar precauciones antes de que ocurra un problema."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar el refrán completo.",
+        "words": [
+          "El",
+          "que",
+          "mucho",
+          "abarca",
+          "poco",
+          "aprieta"
+        ],
+        "translation": "Don't spread yourself too thin.",
+        "explanation": "El refrán advierte contra intentar controlar o hacer demasiadas cosas a la vez."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Qué refranes tratan sobre la prudencia y evitar problemas futuros?",
+        "options": [
+          "Más vale prevenir que curar",
+          "El que mucho abarca poco aprieta",
+          "Perro que ladra no muerde",
+          "Dime con quién andas y te diré quién eres"
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "Ambos refranes seleccionados aconsejan actuar con cuidado y moderación para evitar problemas."
+      }
+    ]
+  },
+  {
+    "slug": "refranes-dichos-populares-drill-2",
+    "level": "C2",
+    "number": 125,
+    "title": "Refranes y Dichos Populares, Part 2 of 3",
+    "summary": "Práctica intensiva de refranes españoles de uso cotidiano: identificación, traducción y producción en contexto para consolidar dichos ya estudiados.",
+    "duration": "9 min",
+    "sections": [
+      {
+        "heading": "La prudencia y el exceso",
+        "body": [
+          "Estos refranes advierten contra abarcar demasiado y recomiendan anticiparse a los problemas."
+        ],
+        "examples": [
+          {
+            "es": "Aceptó tres proyectos a la vez y no terminó ninguno: el que mucho abarca poco aprieta.",
+            "en": "He took on three projects at once and finished none: don't spread yourself too thin."
+          },
+          {
+            "es": "Revisamos los frenos antes del viaje porque más vale prevenir que curar.",
+            "en": "We checked the brakes before the trip because prevention is better than cure."
+          },
+          {
+            "es": "El médico insiste en los chequeos anuales: más vale prevenir que curar.",
+            "en": "The doctor insists on annual checkups: prevention is better than cure."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa el refrán con la palabra que falta.",
+            "sentence": "El que mucho abarca poco ___.",
+            "answer": "aprieta",
+            "hint": "Verbo relacionado con sujetar algo con fuerza.",
+            "explanation": "'Aprieta' completa el refrán que advierte contra intentar hacer demasiadas cosas a la vez."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Una amiga se apunta a cinco cursos a la vez y abandona todos a las dos semanas. ¿Qué refrán aplica?",
+            "options": [
+              "Más vale prevenir que curar",
+              "El que mucho abarca poco aprieta",
+              "Perro que ladra no muerde",
+              "Más vale pájaro en mano que ciento volando"
+            ],
+            "correctIndex": 1,
+            "explanation": "La situación ilustra directamente el refrán sobre abarcar demasiado y no lograr nada bien."
+          }
+        ]
+      },
+      {
+        "heading": "Las apariencias engañan",
+        "body": [
+          "Estos dichos recuerdan que las apariencias y las amenazas no siempre corresponden con la realidad."
+        ],
+        "examples": [
+          {
+            "es": "Mi vecino grita mucho, pero es inofensivo; perro que ladra no muerde.",
+            "en": "My neighbor shouts a lot, but he's harmless; his bark is worse than his bite."
+          },
+          {
+            "es": "El anillo parecía carísimo, pero era bisutería: no todo lo que brilla es oro.",
+            "en": "The ring looked very expensive, but it was costume jewelry: all that glitters is not gold."
+          },
+          {
+            "es": "Ese político promete mucho, pero perro que ladra no muerde.",
+            "en": "That politician talks big, but his bark is worse than his bite."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Qué refranes advierten sobre confiar en las primeras impresiones o apariencias?",
+            "options": [
+              "Perro que ladra no muerde",
+              "No todo lo que brilla es oro",
+              "Más vale tarde que nunca",
+              "En boca cerrada no entran moscas"
+            ],
+            "correctIndexes": [
+              0,
+              1
+            ],
+            "explanation": "Ambos refranes seleccionados tratan sobre no dejarse engañar por apariencias o amenazas superficiales."
+          },
+          {
+            "type": "translate",
+            "direction": "es-en",
+            "prompt": "Traduce la frase al inglés de forma natural.",
+            "source": "No todo lo que brilla es oro.",
+            "answer": "All that glitters is not gold.",
+            "altAnswers": [
+              "Not everything that glitters is gold",
+              "All that glisters is not gold"
+            ],
+            "explanation": "Es el equivalente inglés más común de este refrán sobre las apariencias engañosas."
+          }
+        ]
+      },
+      {
+        "heading": "La gratitud y las críticas",
+        "body": [
+          "Estos refranes tratan sobre aceptar lo que se nos da y las consecuencias de malcriar a quienes dependen de nosotros."
+        ],
+        "examples": [
+          {
+            "es": "Le regalaron una bicicleta usada y se quejó del color: a caballo regalado no le mires el diente.",
+            "en": "They gave him a used bike and he complained about the color: don't look a gift horse in the mouth."
+          },
+          {
+            "es": "Consintió tanto a su empleado que este terminó traicionándolo: cría cuervos y te sacarán los ojos.",
+            "en": "He spoiled his employee so much that the man ended up betraying him: no good deed goes unpunished."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Une cada refrán con el consejo que transmite.",
+            "pairs": [
+              {
+                "left": "A caballo regalado no le mires el diente",
+                "right": "Acepta con gratitud lo que te regalan, sin criticarlo"
+              },
+              {
+                "left": "Cría cuervos y te sacarán los ojos",
+                "right": "Malcriar a alguien puede volverse en tu contra"
+              }
+            ],
+            "explanation": "Ambos refranes tratan sobre las consecuencias de nuestro trato hacia los demás: la gratitud y la crianza excesiva."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa el refrán con la palabra que falta.",
+            "sentence": "Cría cuervos y te sacarán los ___.",
+            "answer": "ojos",
+            "hint": "Parte del cuerpo relacionada con la vista.",
+            "explanation": "El refrán advierte que criar mal a alguien puede resultar en traición o daño hacia uno mismo."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Une cada refrán español con su equivalente aproximado en inglés.",
+        "pairs": [
+          {
+            "left": "Perro que ladra no muerde",
+            "right": "His bark is worse than his bite"
+          },
+          {
+            "left": "No todo lo que brilla es oro",
+            "right": "All that glitters is not gold"
+          },
+          {
+            "left": "Más vale pájaro en mano que ciento volando",
+            "right": "A bird in the hand is worth two in the bush"
+          },
+          {
+            "left": "A caballo regalado no le mires el diente",
+            "right": "Don't look a gift horse in the mouth"
+          }
+        ],
+        "explanation": "Estos refranes tienen equivalentes muy conocidos en inglés que transmiten la misma idea central."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué significa 'cría cuervos y te sacarán los ojos'?",
+        "options": [
+          "Cuidar demasiado a alguien puede traer buenas consecuencias",
+          "Tratar mal a alguien siempre trae beneficios",
+          "Malcriar o favorecer en exceso a alguien puede volverse en tu contra",
+          "Los animales salvajes son peligrosos"
+        ],
+        "correctIndex": 2,
+        "explanation": "El refrán advierte que consentir o malcriar demasiado a alguien puede resultar en traición o ingratitud."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa el refrán con la palabra que falta.",
+        "sentence": "En boca cerrada no entran ___.",
+        "answer": "moscas",
+        "hint": "Insectos pequeños que suelen molestar.",
+        "explanation": "El refrán aconseja callar para evitar problemas innecesarios."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce la frase al español usando el refrán adecuado.",
+        "source": "You're known by the company you keep.",
+        "answer": "Dime con quién andas y te diré quién eres.",
+        "altAnswers": [
+          "Dime con quién andas y te diré quién eres."
+        ],
+        "explanation": "El refrán sugiere que nuestras amistades reflejan nuestro propio carácter."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar el refrán completo.",
+        "words": [
+          "Más",
+          "vale",
+          "pájaro",
+          "en",
+          "mano",
+          "que",
+          "ciento",
+          "volando"
+        ],
+        "translation": "A bird in the hand is worth two in the bush.",
+        "explanation": "El refrán valora la seguridad de algo concreto frente a posibilidades inciertas."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Un emprendedor duda entre mantener su empleo fijo o lanzar su propio negocio, y finalmente decide arriesgarse. ¿Qué refrán describe su decisión?",
+        "options": [
+          "Más vale pájaro en mano que ciento volando",
+          "Quien no arriesga, no gana",
+          "No hay que buscarle tres pies al gato",
+          "Cría cuervos y te sacarán los ojos"
+        ],
+        "correctIndex": 1,
+        "explanation": "El refrán 'quien no arriesga, no gana' celebra la disposición a asumir riesgos para conseguir algo mejor."
+      }
+    ]
+  },
+  {
+    "slug": "refranes-dichos-populares-drill-3",
+    "level": "C2",
+    "number": 126,
+    "title": "Refranes y Dichos Populares, Part 3 of 3",
+    "summary": "Práctica intensiva de refranes españoles de uso cotidiano: identificación, traducción y producción en contexto para consolidar dichos ya estudiados.",
+    "duration": "7 min",
+    "sections": [
+      {
+        "heading": "Las amistades y la simplicidad",
+        "body": [
+          "Estos dichos hablan de cómo nuestras compañías nos definen y de no complicar las cosas más de lo necesario."
+        ],
+        "examples": [
+          {
+            "es": "Dejó de juntarse con ese grupo problemático; dime con quién andas y te diré quién eres.",
+            "en": "She stopped hanging out with that troublesome group; you're known by the company you keep."
+          },
+          {
+            "es": "No hay que buscarle tres pies al gato: la solución es sencilla.",
+            "en": "There's no need to overanalyze it: the solution is simple."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué idea transmite 'dime con quién andas y te diré quién eres'?",
+            "options": [
+              "Las amistades no influyen en nuestro carácter",
+              "Nuestras compañías reflejan cómo somos",
+              "Es mejor estar solo que mal acompañado",
+              "Hay que desconfiar de todo el mundo"
+            ],
+            "correctIndex": 1,
+            "explanation": "El refrán sugiere que el tipo de personas con las que nos relacionamos dice mucho sobre nuestra propia personalidad."
+          },
+          {
+            "type": "word-order",
+            "prompt": "Ordena las palabras para formar el refrán completo.",
+            "words": [
+              "No",
+              "hay",
+              "que",
+              "buscarle",
+              "tres",
+              "pies",
+              "al",
+              "gato"
+            ],
+            "translation": "There's no need to overcomplicate things.",
+            "explanation": "El refrán aconseja no complicar innecesariamente algo que en realidad es sencillo."
+          }
+        ]
+      },
+      {
+        "heading": "El riesgo y la certeza",
+        "body": [
+          "Estos refranes contrastan el valor de arriesgarse con la seguridad de conformarse con lo que ya se tiene."
+        ],
+        "examples": [
+          {
+            "es": "Dejó su trabajo estable para fundar su empresa: quien no arriesga, no gana.",
+            "en": "He left his stable job to start his company: nothing ventured, nothing gained."
+          },
+          {
+            "es": "Prefirió quedarse con la oferta segura: más vale pájaro en mano que ciento volando.",
+            "en": "She preferred to stick with the safe offer: a bird in the hand is worth two in the bush."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Traduce la frase al español usando el refrán adecuado.",
+            "source": "A bird in the hand is worth two in the bush.",
+            "answer": "Más vale pájaro en mano que ciento volando.",
+            "altAnswers": [
+              "Más vale pájaro en mano que ciento volando."
+            ],
+            "explanation": "Este refrán valora la seguridad de lo que ya se tiene frente a la incertidumbre de lo posible."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "Un inversor decide arriesgar sus ahorros en una startup prometedora. ¿Qué refrán resume su filosofía?",
+            "options": [
+              "Más vale pájaro en mano que ciento volando",
+              "Quien no arriesga, no gana",
+              "Más vale prevenir que curar",
+              "No hay que buscarle tres pies al gato"
+            ],
+            "correctIndex": 1,
+            "explanation": "El refrán 'quien no arriesga, no gana' celebra la disposición a tomar riesgos para obtener beneficios."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Qué refranes advierten sobre no dejarse engañar por las apariencias?",
+        "options": [
+          "No todo lo que brilla es oro",
+          "Perro que ladra no muerde",
+          "Al mal tiempo, buena cara",
+          "A quien madruga, Dios le ayuda"
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "Ambos refranes seleccionados advierten que las apariencias externas no siempre reflejan la realidad."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa el refrán con la palabra que falta.",
+        "sentence": "A caballo regalado no le mires el ___.",
+        "answer": "diente",
+        "hint": "Parte de la boca que se usa para masticar.",
+        "explanation": "El refrán aconseja no criticar ni buscar defectos en algo que se recibe como regalo."
+      },
+      {
+        "type": "translate",
+        "direction": "es-en",
+        "prompt": "Traduce la frase al inglés de forma natural.",
+        "source": "No hay que buscarle tres pies al gato.",
+        "answer": "There's no need to overanalyze it.",
+        "altAnswers": [
+          "Don't overcomplicate things",
+          "Don't make a simple thing complicated"
+        ],
+        "explanation": "El refrán aconseja no complicar innecesariamente algo que en el fondo es sencillo."
+      },
+      {
+        "type": "matching",
+        "instructions": "Une cada refrán con la situación en la que se aplicaría mejor.",
+        "pairs": [
+          {
+            "left": "Más vale tarde que nunca",
+            "right": "Alguien termina un proyecto con mucho retraso, pero lo termina"
+          },
+          {
+            "left": "No hay mal que por bien no venga",
+            "right": "Un despido inesperado lleva a encontrar un trabajo mejor"
+          },
+          {
+            "left": "El que mucho abarca poco aprieta",
+            "right": "Alguien se compromete a demasiadas tareas y no cumple ninguna bien"
+          }
+        ],
+        "explanation": "Cada refrán encaja con una situación cotidiana que ilustra claramente su significado."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Tras perder el tren, alguien conoce a un antiguo amigo en la estación y retoman el contacto. ¿Qué refrán aplica mejor?",
+        "options": [
+          "No hay mal que por bien no venga",
+          "Perro que ladra no muerde",
+          "Más vale prevenir que curar",
+          "En boca cerrada no entran moscas"
+        ],
+        "correctIndex": 0,
+        "explanation": "La situación negativa (perder el tren) da lugar a algo positivo, justo lo que describe este refrán."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar el refrán completo.",
+        "words": [
+          "No",
+          "todo",
+          "lo",
+          "que",
+          "brilla",
+          "es",
+          "oro"
+        ],
+        "translation": "All that glitters is not gold.",
+        "explanation": "El refrán advierte que las cosas atractivas por fuera no siempre tienen igual valor por dentro."
+      }
+    ]
+  },
+  {
+    "slug": "espanol-juridico-administrativo-drill-1",
+    "level": "C2",
+    "number": 127,
+    "title": "Español Jurídico y Administrativo, Part 1 of 3",
+    "summary": "Repaso intensivo de vocabulario jurídico y administrativo de nivel C2: partes del proceso, terminología de tribunales, figuras notariales, cláusulas contractuales y fórmulas fijas de la redacción oficial.",
+    "duration": "8 min",
+    "sections": [
+      {
+        "heading": "Las partes del proceso judicial",
+        "body": [
+          "Recuerda que 'demandante' es quien inicia la acción judicial y 'demandado' es la parte contra la que se dirige."
+        ],
+        "examples": [
+          {
+            "es": "El demandante presentó la denuncia ante el juzgado de lo civil.",
+            "en": "The plaintiff filed the complaint before the civil court."
+          },
+          {
+            "es": "La parte demandada alegó falta de pruebas en su defensa.",
+            "en": "The defendant party argued lack of evidence in its defense."
+          },
+          {
+            "es": "El abogado del demandante solicitó una indemnización por daños y perjuicios.",
+            "en": "The plaintiff's lawyer requested compensation for damages."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Quién es la parte que inicia una acción judicial contra otra?",
+            "options": [
+              "El demandado",
+              "El demandante",
+              "El notario",
+              "El fedatario"
+            ],
+            "correctIndex": 1,
+            "explanation": "El 'demandante' es quien interpone la demanda; el 'demandado' es contra quien se dirige."
+          }
+        ]
+      },
+      {
+        "heading": "Instancias, recursos y sentencias",
+        "body": [
+          "El fallo dictado en primera instancia puede impugnarse mediante un recurso de apelación ante una instancia superior."
+        ],
+        "examples": [
+          {
+            "es": "El tribunal dictó sentencia condenatoria en primera instancia.",
+            "en": "The court issued a conviction ruling in the first instance."
+          },
+          {
+            "es": "Su abogado interpuso un recurso de apelación ante la Audiencia Provincial.",
+            "en": "His lawyer filed an appeal before the Provincial Court."
+          },
+          {
+            "es": "La sentencia fue confirmada por la instancia superior.",
+            "en": "The ruling was upheld by the higher court."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa con el término jurídico adecuado.",
+            "sentence": "Si no está de acuerdo con el fallo, puede presentar un ___ de apelación en el plazo establecido.",
+            "answer": "recurso",
+            "hint": "Mecanismo procesal para impugnar una sentencia.",
+            "explanation": "Un 'recurso de apelación' es el mecanismo procesal para impugnar una sentencia ante una instancia superior."
+          }
+        ]
+      },
+      {
+        "heading": "La jurisdicción competente",
+        "body": [
+          "La jurisdicción determina qué órgano judicial tiene competencia para conocer de un asunto concreto."
+        ],
+        "examples": [
+          {
+            "es": "Este litigio corresponde a la jurisdicción mercantil, no a la civil.",
+            "en": "This dispute falls under commercial jurisdiction, not civil."
+          },
+          {
+            "es": "El juez se declaró incompetente por falta de jurisdicción territorial.",
+            "en": "The judge declared itself incompetent due to lack of territorial jurisdiction."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué significa que un tribunal 'carece de jurisdicción' sobre un asunto?",
+            "options": [
+              "Que el tribunal no tiene competencia legal para juzgarlo",
+              "Que el tribunal ha resuelto el caso a favor del demandado",
+              "Que el caso ha prescrito por el paso del tiempo",
+              "Que el notario debe intervenir en su lugar"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Carecer de jurisdicción' significa que el órgano judicial no es competente para conocer de ese asunto concreto."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Cuál es la parte que responde a una acción judicial iniciada por otra?",
+        "options": [
+          "El demandante",
+          "El demandado",
+          "El notario",
+          "El fedatario"
+        ],
+        "correctIndex": 1,
+        "explanation": "El 'demandado' es la parte contra la que se dirige la demanda interpuesta por el demandante."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué documento otorga a otra persona la facultad de actuar en tu representación?",
+        "options": [
+          "Una cláusula",
+          "Un expediente",
+          "Un poder notarial",
+          "Un recurso de apelación"
+        ],
+        "correctIndex": 2,
+        "explanation": "El 'poder notarial' es el documento por el cual una persona autoriza a otra a actuar en su nombre."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con el término procesal adecuado.",
+        "sentence": "El tribunal de primera ___ dictó sentencia condenatoria contra el demandado.",
+        "answer": "instancia",
+        "hint": "Cada uno de los grados por los que puede pasar un proceso judicial.",
+        "explanation": "'Instancia' designa cada uno de los grados jurisdiccionales por los que puede pasar un proceso."
+      },
+      {
+        "type": "translate",
+        "direction": "es-en",
+        "prompt": "Traduce la siguiente frase al inglés.",
+        "source": "El incumplimiento de la cláusula dio lugar a una indemnización.",
+        "answer": "The breach of the clause led to compensation.",
+        "altAnswers": [
+          "Breach of the clause resulted in compensation.",
+          "The failure to comply with the clause led to compensation."
+        ],
+        "explanation": "'Incumplimiento' se traduce como 'breach' o 'failure to comply', y 'cláusula' como 'clause'."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de estos términos están relacionados con el proceso judicial y sus recursos?",
+        "options": [
+          "sentencia",
+          "recurso de apelación",
+          "poder notarial",
+          "instancia",
+          "trámite"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "'Sentencia', 'recurso de apelación' e 'instancia' pertenecen al proceso judicial; 'poder notarial' es notarial y 'trámite' es administrativo."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una frase jurídica correcta.",
+        "words": [
+          "El",
+          "demandante",
+          "solicitó",
+          "una",
+          "indemnización",
+          "por",
+          "incumplimiento",
+          "de",
+          "contrato"
+        ],
+        "translation": "The plaintiff requested compensation for breach of contract.",
+        "explanation": "El orden habitual en español coloca el sujeto, el verbo y después el complemento directo con sus modificadores."
+      }
+    ]
+  },
+  {
+    "slug": "espanol-juridico-administrativo-drill-2",
+    "level": "C2",
+    "number": 128,
+    "title": "Español Jurídico y Administrativo, Part 2 of 3",
+    "summary": "Repaso intensivo de vocabulario jurídico y administrativo de nivel C2: partes del proceso, terminología de tribunales, figuras notariales, cláusulas contractuales y fórmulas fijas de la redacción oficial.",
+    "duration": "7 min",
+    "sections": [
+      {
+        "heading": "Notariado y representación",
+        "body": [
+          "El notario da fe pública de los actos y contratos, y el poder notarial autoriza a un tercero a actuar en nombre de otra persona."
+        ],
+        "examples": [
+          {
+            "es": "Otorgó un poder notarial a su hermano para vender la vivienda.",
+            "en": "He granted a notarial power of attorney to his brother to sell the house."
+          },
+          {
+            "es": "El notario dio fe de que las firmas eran auténticas.",
+            "en": "The notary certified that the signatures were authentic."
+          },
+          {
+            "es": "Es necesario acudir ante notario para formalizar la escritura pública.",
+            "en": "It is necessary to go before a notary to formalize the public deed."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Une cada término con su definición correspondiente.",
+            "pairs": [
+              {
+                "left": "notario",
+                "right": "fedatario público que autentica documentos y actos"
+              },
+              {
+                "left": "poder notarial",
+                "right": "documento que autoriza a alguien a actuar en representación de otro"
+              }
+            ],
+            "explanation": "El notario es el fedatario público; el poder notarial es el documento de representación que este autoriza."
+          }
+        ]
+      },
+      {
+        "heading": "Derecho contractual: cláusulas y cumplimiento",
+        "body": [
+          "Todo contrato vinculante contiene cláusulas cuyo incumplimiento puede dar lugar a consecuencias legales."
+        ],
+        "examples": [
+          {
+            "es": "La cláusula tercera establece las condiciones de pago.",
+            "en": "The third clause establishes the payment conditions."
+          },
+          {
+            "es": "El incumplimiento del contrato dio lugar a una demanda por daños.",
+            "en": "Breach of contract led to a lawsuit for damages."
+          },
+          {
+            "es": "Ambas partes firmaron un contrato vinculante ante notario.",
+            "en": "Both parties signed a binding contract before a notary."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Cuáles de los siguientes términos están relacionados con el derecho contractual?",
+            "options": [
+              "cláusula",
+              "incumplimiento",
+              "poder notarial",
+              "contrato vinculante",
+              "jurisdicción"
+            ],
+            "correctIndexes": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "'Cláusula', 'incumplimiento' y 'contrato vinculante' pertenecen directamente al ámbito contractual, a diferencia de 'poder notarial' y 'jurisdicción'."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Une cada término jurídico con su significado.",
+        "pairs": [
+          {
+            "left": "sentencia",
+            "right": "resolución judicial que pone fin a un proceso"
+          },
+          {
+            "left": "jurisdicción",
+            "right": "ámbito de competencia de un órgano judicial"
+          },
+          {
+            "left": "expediente",
+            "right": "conjunto de documentos de un procedimiento"
+          },
+          {
+            "left": "plazo",
+            "right": "período de tiempo establecido para un trámite"
+          }
+        ],
+        "explanation": "Cada término corresponde a un concepto clave del ámbito jurídico-administrativo estudiado en las secciones anteriores."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué fórmula se usa habitualmente para introducir la base legal de una decisión administrativa?",
+        "options": [
+          "A los efectos oportunos",
+          "Por la presente se hace constar que",
+          "En virtud de lo dispuesto en",
+          "Un cordial saludo"
+        ],
+        "correctIndex": 2,
+        "explanation": "'En virtud de lo dispuesto en...' introduce la normativa o disposición legal en que se fundamenta una decisión."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con la fórmula jurídica adecuada.",
+        "sentence": "___ que el interesado ha presentado toda la documentación requerida.",
+        "answer": "Por la presente se hace constar",
+        "hint": "Fórmula introductoria típica de certificados oficiales.",
+        "explanation": "'Por la presente se hace constar que...' certifica formalmente un hecho en documentos oficiales."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce la siguiente frase administrativa al español.",
+        "source": "The application procedure must be resolved within the established deadline.",
+        "answer": "El trámite de solicitud debe resolverse dentro del plazo establecido.",
+        "altAnswers": [
+          "El trámite debe resolverse en el plazo establecido."
+        ],
+        "explanation": "'Trámite' equivale a 'procedure', y 'plazo establecido' a 'established deadline'."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Cuál es la función principal del notario?",
+        "options": [
+          "Representar al demandante ante el tribunal",
+          "Dar fe pública de actos y contratos",
+          "Dictar sentencia en primera instancia",
+          "Presentar el recurso de apelación"
+        ],
+        "correctIndex": 1,
+        "explanation": "El notario es un fedatario público cuya función es dar fe de la autenticidad de actos y contratos."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes son fórmulas fijas propias de la redacción jurídico-administrativa?",
+        "options": [
+          "a los efectos oportunos",
+          "espero que estés muy bien",
+          "en virtud de lo dispuesto en",
+          "por la presente se hace constar que",
+          "nos vemos el lunes"
+        ],
+        "correctIndexes": [
+          0,
+          2,
+          3
+        ],
+        "explanation": "Las tres primeras son fórmulas estereotipadas del registro formal; las otras dos pertenecen a un registro coloquial."
+      }
+    ]
+  },
+  {
+    "slug": "espanol-juridico-administrativo-drill-3",
+    "level": "C2",
+    "number": 129,
+    "title": "Español Jurídico y Administrativo, Part 3 of 3",
+    "summary": "Repaso intensivo de vocabulario jurídico y administrativo de nivel C2: partes del proceso, terminología de tribunales, figuras notariales, cláusulas contractuales y fórmulas fijas de la redacción oficial.",
+    "duration": "9 min",
+    "sections": [
+      {
+        "heading": "Fórmulas fijas de la redacción jurídico-administrativa",
+        "body": [
+          "Los textos jurídicos y administrativos emplean fórmulas fijas y estereotipadas propias de su registro formal."
+        ],
+        "examples": [
+          {
+            "es": "Por la presente se hace constar que el solicitante cumple todos los requisitos.",
+            "en": "This document hereby certifies that the applicant meets all the requirements."
+          },
+          {
+            "es": "En virtud de lo dispuesto en el artículo 24, se procede a la apertura del expediente.",
+            "en": "Pursuant to the provisions of article 24, the file is hereby opened."
+          },
+          {
+            "es": "Se adjunta la documentación pertinente a los efectos oportunos.",
+            "en": "The relevant documentation is attached for the appropriate purposes."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "word-order",
+            "prompt": "Ordena las palabras para formar una fórmula jurídica fija.",
+            "words": [
+              "Por",
+              "la",
+              "presente",
+              "se",
+              "hace",
+              "constar",
+              "que"
+            ],
+            "translation": "This document hereby certifies that...",
+            "explanation": "'Por la presente se hace constar que...' es una fórmula introductoria muy habitual en certificados y documentos oficiales."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Traduce la siguiente frase jurídica al español.",
+            "source": "Pursuant to the provisions set forth herein...",
+            "answer": "En virtud de lo dispuesto en el presente documento...",
+            "altAnswers": [
+              "En virtud de lo dispuesto en el presente...",
+              "En virtud de lo establecido en el presente documento..."
+            ],
+            "explanation": "'En virtud de lo dispuesto en...' introduce la base legal que fundamenta una decisión o disposición."
+          }
+        ]
+      },
+      {
+        "heading": "Trámites y expedientes administrativos",
+        "body": [
+          "Todo trámite administrativo genera un expediente y debe resolverse dentro del plazo legalmente establecido."
+        ],
+        "examples": [
+          {
+            "es": "El trámite de solicitud tarda unas seis semanas en resolverse.",
+            "en": "The application procedure takes about six weeks to be resolved."
+          },
+          {
+            "es": "El expediente fue archivado por falta de documentación.",
+            "en": "The file was closed due to lack of documentation."
+          },
+          {
+            "es": "El plazo para presentar alegaciones vence mañana.",
+            "en": "The deadline to submit objections expires tomorrow."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la frase con el término administrativo adecuado.",
+            "sentence": "Todos los documentos relativos a la solicitud se incorporan al ___.",
+            "answer": "expediente",
+            "hint": "Conjunto ordenado de documentos de un procedimiento administrativo.",
+            "explanation": "El 'expediente' es el conjunto de documentos que conforman un procedimiento administrativo."
+          }
+        ]
+      },
+      {
+        "heading": "Repaso combinado de registro formal",
+        "body": [
+          "El registro jurídico-administrativo combina vocabulario técnico preciso con fórmulas fijas de cortesía institucional."
+        ],
+        "examples": [
+          {
+            "es": "A tenor de lo expuesto, se desestima el recurso de apelación.",
+            "en": "In light of the above, the appeal is dismissed."
+          },
+          {
+            "es": "El demandado incumplió una cláusula esencial del contrato vinculante.",
+            "en": "The defendant breached an essential clause of the binding contract."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué fórmula es más apropiada para cerrar una solicitud administrativa formal?",
+            "options": [
+              "Nos vemos pronto, gracias por todo",
+              "Se adjunta la documentación pertinente a los efectos oportunos",
+              "Espero tu respuesta cuanto antes",
+              "Un saludo y hasta luego"
+            ],
+            "correctIndex": 1,
+            "explanation": "'A los efectos oportunos' es una fórmula fija propia del registro administrativo formal para cerrar solicitudes o adjuntar documentación."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una fórmula de cierre administrativa.",
+        "words": [
+          "Se",
+          "adjunta",
+          "la",
+          "documentación",
+          "pertinente",
+          "a",
+          "los",
+          "efectos",
+          "oportunos"
+        ],
+        "translation": "The relevant documentation is attached for the appropriate purposes.",
+        "explanation": "Esta fórmula se emplea al final de solicitudes o comunicaciones oficiales para justificar el envío de documentos."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con el término jurídico correcto.",
+        "sentence": "El juez confirmó el ___ dictado en primera instancia.",
+        "answer": "fallo",
+        "hint": "Sinónimo de 'sentencia' o resolución judicial.",
+        "explanation": "'Fallo' es sinónimo de 'sentencia': la resolución final dictada por un tribunal."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué significa que un contrato sea 'vinculante'?",
+        "options": [
+          "Que puede modificarse libremente por una sola parte",
+          "Que obliga jurídicamente a las partes que lo firman",
+          "Que solo tiene valor si lo autentica un notario",
+          "Que carece de validez legal"
+        ],
+        "correctIndex": 1,
+        "explanation": "Un contrato 'vinculante' genera obligaciones jurídicas exigibles para todas las partes firmantes."
+      },
+      {
+        "type": "matching",
+        "instructions": "Une cada expresión formal con su equivalente en inglés.",
+        "pairs": [
+          {
+            "left": "por la presente se hace constar que",
+            "right": "this document hereby certifies that"
+          },
+          {
+            "left": "en virtud de lo dispuesto en",
+            "right": "pursuant to the provisions of"
+          },
+          {
+            "left": "a los efectos oportunos",
+            "right": "for the appropriate purposes"
+          }
+        ],
+        "explanation": "Estas tres fórmulas fijas son equivalentes funcionales de expresiones típicas del inglés jurídico-administrativo."
+      },
+      {
+        "type": "translate",
+        "direction": "es-en",
+        "prompt": "Traduce la siguiente frase al inglés.",
+        "source": "El demandado interpuso un recurso de apelación contra la sentencia.",
+        "answer": "The defendant filed an appeal against the ruling.",
+        "altAnswers": [
+          "The defendant lodged an appeal against the judgment.",
+          "The defendant filed an appeal against the sentence."
+        ],
+        "explanation": "'Interponer un recurso de apelación' se traduce como 'to file/lodge an appeal', y 'sentencia' como 'ruling' o 'judgment'."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué elemento de un contrato regula un aspecto concreto de las obligaciones de las partes?",
+        "options": [
+          "El expediente",
+          "La cláusula",
+          "El plazo",
+          "La jurisdicción"
+        ],
+        "correctIndex": 1,
+        "explanation": "La 'cláusula' es cada una de las disposiciones concretas dentro de un contrato que regula obligaciones o condiciones específicas."
+      }
+    ]
+  },
+  {
+    "slug": "espanol-medico-drill-1",
+    "level": "C2",
+    "number": 130,
+    "title": "Español Médico, Part 1 of 3",
+    "summary": "Practica de repaso intensivo del vocabulario y las fórmulas típicas de la consulta médica: síntomas, diagnóstico, recetas, pruebas, citas y urgencias.",
+    "duration": "8 min",
+    "sections": [
+      {
+        "heading": "Describir síntomas y molestias",
+        "body": [
+          "Recuerda que 'molestia' es un término más suave que 'dolor' y se usa mucho en el registro médico para preguntar de forma general."
+        ],
+        "examples": [
+          {
+            "es": "Tengo un dolor de cabeza muy fuerte desde ayer.",
+            "en": "I've had a very bad headache since yesterday."
+          },
+          {
+            "es": "Noto molestias en el pecho cuando respiro hondo.",
+            "en": "I feel discomfort in my chest when I breathe deeply."
+          },
+          {
+            "es": "Llevo tres días con fiebre y tos seca.",
+            "en": "I've had a fever and a dry cough for three days."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuál de estas palabras significa 'discomfort' en un contexto médico?",
+            "options": [
+              "molestia",
+              "receta",
+              "urgencias",
+              "seguro"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Molestia' es el término habitual para describir una sensación incómoda o dolor leve en la consulta médica."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la frase con la palabra adecuada.",
+            "sentence": "Llevo dos semanas con esta ___ en la rodilla.",
+            "answer": "molestia",
+            "hint": "sinónimo suave de 'dolor'",
+            "explanation": "'Molestia' encaja en este contexto porque describe una sensación incómoda pero no necesariamente un dolor intenso."
+          }
+        ]
+      },
+      {
+        "heading": "Preguntas típicas del médico",
+        "body": [
+          "Estas preguntas siguen un orden fijo: primero el síntoma, luego la duración y después los antecedentes."
+        ],
+        "examples": [
+          {
+            "es": "¿Qué molestias tiene?",
+            "en": "What symptoms are you experiencing?"
+          },
+          {
+            "es": "¿Desde cuándo tiene estos síntomas?",
+            "en": "Since when have you had these symptoms?"
+          },
+          {
+            "es": "¿Es usted alérgico a algún medicamento?",
+            "en": "Are you allergic to any medication?"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "word-order",
+            "prompt": "Ordena las palabras para formar la pregunta del médico.",
+            "words": [
+              "¿Desde",
+              "cuándo",
+              "tiene",
+              "estos",
+              "síntomas?"
+            ],
+            "translation": "Since when have you had these symptoms?",
+            "explanation": "El orden natural en español coloca el marcador temporal '¿Desde cuándo...?' al inicio de la pregunta."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Traduce la pregunta al español.",
+            "source": "What symptoms are you experiencing?",
+            "answer": "¿Qué molestias tiene?",
+            "altAnswers": [
+              "¿Qué síntomas tiene?"
+            ],
+            "explanation": "En la consulta se prefiere 'molestias' sobre 'síntomas' porque suena menos alarmante, aunque ambas formas son correctas."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué significa 'guardar reposo'?",
+        "options": [
+          "Ir a trabajar",
+          "Descansar y evitar esfuerzo",
+          "Tomar un medicamento",
+          "Pedir cita"
+        ],
+        "correctIndex": 1,
+        "explanation": "'Guardar reposo' significa descansar, generalmente en cama, evitando cualquier esfuerzo físico."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con el término adecuado.",
+        "sentence": "El médico revisó mi ___ antes de darme el diagnóstico.",
+        "answer": "historial clínico",
+        "hint": "conjunto de datos médicos previos del paciente",
+        "explanation": "'Historial clínico' es el registro de antecedentes médicos que el médico consulta antes de diagnosticar."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce la frase al español.",
+        "source": "I am allergic to penicillin.",
+        "answer": "Soy alérgico a la penicilina.",
+        "altAnswers": [
+          "Soy alérgica a la penicilina."
+        ],
+        "explanation": "'Ser alérgico/a a' es la construcción fija para expresar alergias en español."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar la pregunta.",
+        "words": [
+          "¿Es",
+          "usted",
+          "alérgico",
+          "a",
+          "algún",
+          "medicamento?"
+        ],
+        "translation": "Are you allergic to any medication?",
+        "explanation": "El adjetivo 'alérgico' va después del verbo 'ser', seguido de la preposición 'a' y el objeto de la alergia."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de estos términos se refieren a un lugar o a un trámite administrativo?",
+        "options": [
+          "sala de espera",
+          "cita médica",
+          "efectos secundarios",
+          "seguro médico",
+          "análisis de sangre"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "'Sala de espera', 'cita médica' y 'seguro médico' pertenecen al ámbito administrativo, no al clínico."
+      },
+      {
+        "type": "matching",
+        "instructions": "Une cada expresión con su traducción al inglés.",
+        "pairs": [
+          {
+            "left": "efectos secundarios",
+            "right": "side effects"
+          },
+          {
+            "left": "presión arterial",
+            "right": "blood pressure"
+          },
+          {
+            "left": "urgencias",
+            "right": "emergency room"
+          },
+          {
+            "left": "cita médica",
+            "right": "doctor's appointment"
+          }
+        ],
+        "explanation": "Estos cuatro términos son de los más frecuentes en cualquier conversación médica cotidiana."
+      }
+    ]
+  },
+  {
+    "slug": "espanol-medico-drill-2",
+    "level": "C2",
+    "number": 131,
+    "title": "Español Médico, Part 2 of 3",
+    "summary": "Practica de repaso intensivo del vocabulario y las fórmulas típicas de la consulta médica: síntomas, diagnóstico, recetas, pruebas, citas y urgencias.",
+    "duration": "9 min",
+    "sections": [
+      {
+        "heading": "Diagnóstico e historial clínico",
+        "body": [
+          "El 'historial clínico' reúne toda la información médica previa del paciente y se consulta antes de dar un diagnóstico."
+        ],
+        "examples": [
+          {
+            "es": "Después de revisar las pruebas, el médico confirmó el diagnóstico.",
+            "en": "After reviewing the tests, the doctor confirmed the diagnosis."
+          },
+          {
+            "es": "¿Podría enviarme su historial clínico completo?",
+            "en": "Could you send me your complete medical history?"
+          },
+          {
+            "es": "El diagnóstico definitivo tardará unos días.",
+            "en": "The final diagnosis will take a few days."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué significa 'historial clínico'?",
+            "options": [
+              "Receta médica",
+              "Registro de la información médica previa del paciente",
+              "Sala de espera",
+              "Efecto secundario"
+            ],
+            "correctIndex": 1,
+            "explanation": "El 'historial clínico' es el documento que reúne los antecedentes y datos médicos de un paciente."
+          }
+        ]
+      },
+      {
+        "heading": "Recetas y medicamentos",
+        "body": [
+          "Cuando el médico 'receta' un medicamento, entrega una 'receta médica' que se presenta en la farmacia."
+        ],
+        "examples": [
+          {
+            "es": "Le voy a recetar un antibiótico para la infección.",
+            "en": "I'm going to prescribe you an antibiotic for the infection."
+          },
+          {
+            "es": "Este medicamento puede tener efectos secundarios como somnolencia.",
+            "en": "This medication can have side effects such as drowsiness."
+          },
+          {
+            "es": "¿Es usted alérgico a la penicilina?",
+            "en": "Are you allergic to penicillin?"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Cuáles de estas palabras se relacionan con los medicamentos?",
+            "options": [
+              "receta médica",
+              "efectos secundarios",
+              "sala de espera",
+              "alergia",
+              "seguro médico"
+            ],
+            "correctIndexes": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "'Receta médica', 'efectos secundarios' y 'alergia' son términos directamente ligados al uso de medicamentos."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la frase con la forma verbal adecuada.",
+            "sentence": "El médico me ___ un jarabe para la tos.",
+            "answer": "recetó",
+            "hint": "verbo relacionado con 'receta', en pasado",
+            "explanation": "'Recetó' es el pretérito de 'recetar', el verbo que se usa cuando el médico indica un medicamento."
+          }
+        ]
+      },
+      {
+        "heading": "Pruebas, análisis y resultados",
+        "body": [
+          "Los 'análisis' y las 'pruebas' se piden para confirmar un diagnóstico, y sus 'resultados' se entregan después."
+        ],
+        "examples": [
+          {
+            "es": "Necesito pedirle un análisis de sangre.",
+            "en": "I need to order a blood test for you."
+          },
+          {
+            "es": "Su presión arterial está un poco alta.",
+            "en": "Your blood pressure is a bit high."
+          },
+          {
+            "es": "Los resultados de las pruebas estarán listos el jueves.",
+            "en": "The test results will be ready on Thursday."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Relaciona cada término con su significado.",
+            "pairs": [
+              {
+                "left": "análisis de sangre",
+                "right": "prueba que examina los componentes de la sangre"
+              },
+              {
+                "left": "presión arterial",
+                "right": "medida de la fuerza de la sangre contra las arterias"
+              },
+              {
+                "left": "resultados",
+                "right": "información obtenida tras una prueba"
+              }
+            ],
+            "explanation": "Estos tres términos aparecen juntos con frecuencia cuando se habla de pruebas médicas y su interpretación."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Cuál es la mejor traducción de 'receta médica'?",
+        "options": [
+          "medical prescription",
+          "medical history",
+          "blood test",
+          "emergency room"
+        ],
+        "correctIndex": 0,
+        "explanation": "'Receta médica' equivale a 'medical prescription', el documento que permite comprar un medicamento."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con el término adecuado.",
+        "sentence": "La enfermera me tomó la ___ y estaba un poco alta.",
+        "answer": "presión arterial",
+        "hint": "medida relacionada con el funcionamiento del corazón",
+        "explanation": "'Tomar la presión arterial' es la expresión habitual para medir este indicador."
+      },
+      {
+        "type": "translate",
+        "direction": "es-en",
+        "prompt": "Traduce la pregunta al inglés.",
+        "source": "¿Desde cuándo tiene estos síntomas?",
+        "answer": "Since when have you had these symptoms?",
+        "altAnswers": [
+          "How long have you had these symptoms?"
+        ],
+        "explanation": "Esta es una de las preguntas más comunes que hace un médico al inicio de la consulta."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "En la consulta, ¿qué frase usaría el médico para recetar algo?",
+        "options": [
+          "Le voy a recetar un antibiótico.",
+          "Voy a guardar reposo.",
+          "Necesito pedir cita.",
+          "Tengo alergia."
+        ],
+        "correctIndex": 0,
+        "explanation": "'Le voy a recetar...' es la fórmula que usa el médico, en primera persona, para indicar un medicamento al paciente."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar la pregunta del médico.",
+        "words": [
+          "¿Qué",
+          "molestias",
+          "tiene",
+          "usted?"
+        ],
+        "translation": "What symptoms are you experiencing?",
+        "explanation": "Esta pregunta abre casi siempre la consulta médica y sigue el orden interrogativo habitual del español."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de estas palabras están relacionadas con las pruebas médicas?",
+        "options": [
+          "análisis de sangre",
+          "resultados",
+          "especialista",
+          "presión arterial",
+          "sala de espera"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "'Análisis de sangre', 'resultados' y 'presión arterial' forman parte del proceso de realizar y evaluar pruebas."
+      }
+    ]
+  },
+  {
+    "slug": "espanol-medico-drill-3",
+    "level": "C2",
+    "number": 132,
+    "title": "Español Médico, Part 3 of 3",
+    "summary": "Practica de repaso intensivo del vocabulario y las fórmulas típicas de la consulta médica: síntomas, diagnóstico, recetas, pruebas, citas y urgencias.",
+    "duration": "8 min",
+    "sections": [
+      {
+        "heading": "Citas y trámites administrativos",
+        "body": [
+          "Pedir 'cita médica' y esperar en la 'sala de espera' son parte del trámite antes de ver al 'especialista'."
+        ],
+        "examples": [
+          {
+            "es": "Quisiera pedir una cita médica para la próxima semana.",
+            "en": "I'd like to make a doctor's appointment for next week."
+          },
+          {
+            "es": "El especialista la atenderá en quince minutos.",
+            "en": "The specialist will see you in fifteen minutes."
+          },
+          {
+            "es": "¿Su seguro médico cubre esta consulta?",
+            "en": "Does your health insurance cover this visit?"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "translate",
+            "direction": "es-en",
+            "prompt": "Traduce la frase al inglés.",
+            "source": "Quisiera pedir una cita médica.",
+            "answer": "I would like to make a doctor's appointment.",
+            "altAnswers": [
+              "I'd like to book a doctor's appointment.",
+              "I would like to schedule a doctor's appointment."
+            ],
+            "explanation": "'Pedir cita médica' se traduce como 'to make/book a doctor's appointment', una fórmula muy frecuente en el registro médico."
+          }
+        ]
+      },
+      {
+        "heading": "Urgencias y reposo",
+        "body": [
+          "En una emergencia se va a 'urgencias', y tras el tratamiento el médico puede indicar que hay que 'guardar reposo'."
+        ],
+        "examples": [
+          {
+            "es": "Tuvimos que llevarla a urgencias a medianoche.",
+            "en": "We had to take her to the emergency room at midnight."
+          },
+          {
+            "es": "Tiene que guardar reposo durante una semana.",
+            "en": "You need to rest for a week."
+          },
+          {
+            "es": "La ambulancia llegó en pocos minutos.",
+            "en": "The ambulance arrived within a few minutes."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "word-order",
+            "prompt": "Ordena las palabras para formar la recomendación del médico.",
+            "words": [
+              "Tiene",
+              "que",
+              "guardar",
+              "reposo",
+              "durante",
+              "una",
+              "semana."
+            ],
+            "translation": "You have to rest for a week.",
+            "explanation": "'Tener que + infinitivo' introduce una obligación, y 'guardar reposo' es la expresión fija para 'to rest / stay in bed'."
+          }
+        ]
+      },
+      {
+        "heading": "Repaso: el registro formal de la consulta",
+        "body": [
+          "En la consulta médica se combina vocabulario técnico con fórmulas de cortesía y preguntas estructuradas."
+        ],
+        "examples": [
+          {
+            "es": "Buenos días, ¿qué molestias tiene hoy?",
+            "en": "Good morning, what symptoms are you having today?"
+          },
+          {
+            "es": "Le voy a recetar algo para la presión arterial.",
+            "en": "I'm going to prescribe you something for your blood pressure."
+          },
+          {
+            "es": "Vuelva a la consulta si los síntomas no mejoran.",
+            "en": "Come back to the clinic if the symptoms don't improve."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Cuáles de estas expresiones usaría un médico al final de una consulta?",
+            "options": [
+              "Vuelva si los síntomas no mejoran.",
+              "¿Qué molestias tiene?",
+              "Le voy a recetar un antiinflamatorio.",
+              "Necesito pedirle un análisis de sangre."
+            ],
+            "correctIndexes": [
+              0,
+              2
+            ],
+            "explanation": "Al cerrar la consulta el médico suele dar instrucciones de seguimiento y recetar tratamiento, no volver a preguntar por los síntomas iniciales."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con el término adecuado.",
+        "sentence": "Tuvieron que llevarlo a ___ porque tenía mucho dolor en el pecho.",
+        "answer": "urgencias",
+        "hint": "servicio del hospital para emergencias",
+        "explanation": "'Urgencias' es el servicio hospitalario al que se acude en casos graves o repentinos."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce la frase al español.",
+        "source": "The results will be ready tomorrow.",
+        "answer": "Los resultados estarán listos mañana.",
+        "altAnswers": [
+          "Los resultados van a estar listos mañana."
+        ],
+        "explanation": "'Estar listo' es la construcción habitual para indicar que algo (como unos resultados) está disponible."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada palabra con su definición.",
+        "pairs": [
+          {
+            "left": "especialista",
+            "right": "médico con formación en un área concreta"
+          },
+          {
+            "left": "seguro médico",
+            "right": "servicio que cubre los gastos médicos"
+          },
+          {
+            "left": "diagnóstico",
+            "right": "identificación de una enfermedad o problema de salud"
+          },
+          {
+            "left": "ambulancia",
+            "right": "vehículo que traslada a los pacientes con urgencia"
+          }
+        ],
+        "explanation": "Estos cuatro términos aparecen con frecuencia en el vocabulario general del ámbito sanitario."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué palabra completa correctamente: 'Voy a pedir una ___ para el próximo lunes'?",
+        "options": [
+          "cita médica",
+          "receta médica",
+          "alergia",
+          "ambulancia"
+        ],
+        "correctIndex": 0,
+        "explanation": "'Pedir una cita médica' es la expresión fija para solicitar una hora de consulta con el médico."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con el término adecuado.",
+        "sentence": "Este medicamento puede provocar ___ como mareos o somnolencia.",
+        "answer": "efectos secundarios",
+        "hint": "reacciones no deseadas de un medicamento",
+        "explanation": "'Efectos secundarios' son las reacciones adversas que puede causar un medicamento además de su efecto principal."
+      }
+    ]
+  },
+  {
+    "slug": "metaforas-eufemismos-lenguaje-figurado-drill-1",
+    "level": "C2",
+    "number": 133,
+    "title": "Metáforas, Eufemismos y Lenguaje Figurado: Práctica Intensiva, Part 1 of 3",
+    "summary": "Repaso a fondo de metáforas cotidianas y periodísticas, eufemismos frecuentes y otras figuras retóricas (hipérbole, litotes, personificación e ironía) propias del español culto, con ejercicios variados de reconocimiento y producción.",
+    "duration": "9 min",
+    "sections": [
+      {
+        "heading": "Eufemismos: la muerte y la vejez",
+        "body": [
+          "En español culto, la muerte y la vejez rara vez se nombran de forma directa; se recurre a fórmulas indirectas para suavizar el impacto."
+        ],
+        "examples": [
+          {
+            "es": "Don Alberto pasó a mejor vida rodeado de su familia.",
+            "en": "Don Alberto passed away surrounded by his family."
+          },
+          {
+            "es": "Mi abuela pertenece ya a la tercera edad, pero sigue muy activa.",
+            "en": "My grandmother is now a senior citizen, but she's still very active."
+          },
+          {
+            "es": "Se fue al otro barrio sin previo aviso.",
+            "en": "He kicked the bucket without any warning."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué significa la expresión 'pasar a mejor vida'?",
+            "options": [
+              "Mudarse a otro país",
+              "Morir",
+              "Jubilarse",
+              "Cambiar de trabajo"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Pasar a mejor vida' es un eufemismo culto para decir que alguien ha muerto."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa el eufemismo para referirse a las personas mayores.",
+            "sentence": "Mi tío ya pertenece a la ___ ___, pero todavía juega al tenis cada semana.",
+            "answer": "tercera edad",
+            "hint": "Dos palabras; eufemismo para 'vejez'.",
+            "explanation": "'La tercera edad' es la forma habitual y respetuosa de referirse a la vejez en español."
+          }
+        ]
+      },
+      {
+        "heading": "Eufemismos: dinero y economía",
+        "body": [
+          "Los apuros económicos también se disfrazan con expresiones que evitan la crudeza de decir 'no tener dinero' o 'estar endeudado'."
+        ],
+        "examples": [
+          {
+            "es": "La empresa cerró el año en números rojos.",
+            "en": "The company closed the year in the red."
+          },
+          {
+            "es": "Tuvimos que apretarnos el cinturón tras la crisis.",
+            "en": "We had to tighten our belts after the crisis."
+          },
+          {
+            "es": "Muchas familias no llegan a fin de mes.",
+            "en": "Many families can't make ends meet."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Qué expresiones indican dificultades económicas? Selecciona todas las correctas.",
+            "options": [
+              "Estar en números rojos",
+              "Nadar en la abundancia",
+              "No llegar a fin de mes",
+              "Apretarse el cinturón",
+              "Vivir a cuerpo de rey"
+            ],
+            "correctIndexes": [
+              0,
+              2,
+              3
+            ],
+            "explanation": "'Estar en números rojos', 'no llegar a fin de mes' y 'apretarse el cinturón' son eufemismos y metáforas de estrechez económica; las otras dos expresan justo lo contrario, abundancia."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Traduce la siguiente frase al español usando un eufemismo económico.",
+            "source": "The company closed the year in the red.",
+            "answer": "La empresa cerró el año en números rojos.",
+            "altAnswers": [
+              "La empresa terminó el año en números rojos."
+            ],
+            "explanation": "'En números rojos' es el eufemismo estándar para 'con pérdidas' o 'endeudado'."
+          }
+        ]
+      },
+      {
+        "heading": "Metáforas cotidianas y periodísticas",
+        "body": [
+          "El lenguaje periodístico y cotidiano está lleno de metáforas que comparan ideas abstractas con fenómenos naturales o mecánicos."
+        ],
+        "examples": [
+          {
+            "es": "Tuvo un torrente de ideas durante la reunión.",
+            "en": "She had a flood of ideas during the meeting."
+          },
+          {
+            "es": "La noticia sembró el pánico entre los vecinos.",
+            "en": "The news sowed panic among the neighbors."
+          },
+          {
+            "es": "El turismo es el motor de la economía local.",
+            "en": "Tourism is the engine of the local economy."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Relaciona cada metáfora con su significado.",
+            "pairs": [
+              {
+                "left": "un torrente de ideas",
+                "right": "una gran cantidad de ideas que surgen rápidamente"
+              },
+              {
+                "left": "sembrar el pánico",
+                "right": "provocar miedo generalizado"
+              },
+              {
+                "left": "el motor de la economía",
+                "right": "el sector que más la impulsa"
+              }
+            ],
+            "explanation": "Estas metáforas comparan procesos abstractos con fuerzas naturales o mecánicas: agua que fluye, semillas que germinan, un motor que mueve."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "En 'la noticia sembró el pánico entre los vecinos', ¿qué imagen evoca el verbo 'sembrar'?",
+            "options": [
+              "Recolectar una cosecha",
+              "Plantar algo que luego se propaga y crece",
+              "Regar un jardín",
+              "Cortar la hierba"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Sembrar' compara el pánico con una semilla que, una vez plantada, se extiende y crece entre la gente."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Cuál de estas expresiones es un eufemismo para 'morir'?",
+        "options": [
+          "Pasar a mejor vida",
+          "Sembrar el pánico",
+          "No estar nada mal",
+          "El tiempo vuela"
+        ],
+        "correctIndex": 0,
+        "explanation": "'Pasar a mejor vida' sustituye de forma respetuosa al verbo 'morir'."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con el eufemismo adecuado para 'con pérdidas'.",
+        "sentence": "Tras la pandemia, muchas pequeñas empresas quedaron en números ___.",
+        "answer": "rojos",
+        "hint": "Color asociado con las pérdidas contables.",
+        "explanation": "'Números rojos' se refiere a un balance económico negativo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce usando una metáfora periodística típica.",
+        "source": "The construction sector is the engine of this region's economy.",
+        "answer": "El sector de la construcción es el motor de la economía de esta región.",
+        "explanation": "'El motor de la economía' es la metáfora habitual para el sector que más la impulsa."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una hipérbole coloquial.",
+        "words": [
+          "Esta",
+          "maleta",
+          "pesa",
+          "una",
+          "tonelada"
+        ],
+        "translation": "This suitcase weighs a ton.",
+        "explanation": "'Pesar una tonelada' exagera el peso real de algo para enfatizar lo pesado que resulta."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes son perífrasis eufemísticas relacionadas con el cuerpo o la salud?",
+        "options": [
+          "Persona invidente",
+          "El motor de la economía",
+          "Persona con diversidad funcional",
+          "No está nada mal",
+          "Estado de buena esperanza"
+        ],
+        "correctIndexes": [
+          0,
+          2,
+          4
+        ],
+        "explanation": "Las tres primeras suavizan referencias a la ceguera, la discapacidad y el embarazo; las otras dos son una metáfora y un litotes sin relación con el cuerpo."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada expresión con la figura retórica a la que pertenece.",
+        "pairs": [
+          {
+            "left": "me muero de hambre",
+            "right": "hipérbole"
+          },
+          {
+            "left": "no está nada mal",
+            "right": "litotes"
+          },
+          {
+            "left": "las paredes oyen",
+            "right": "personificación"
+          },
+          {
+            "left": "un torrente de ideas",
+            "right": "metáfora"
+          }
+        ],
+        "explanation": "Cada expresión ejemplifica una figura distinta: exageración, atenuación irónica, atribución humana y comparación implícita."
+      }
+    ]
+  },
+  {
+    "slug": "metaforas-eufemismos-lenguaje-figurado-drill-2",
+    "level": "C2",
+    "number": 134,
+    "title": "Metáforas, Eufemismos y Lenguaje Figurado: Práctica Intensiva, Part 2 of 3",
+    "summary": "Repaso a fondo de metáforas cotidianas y periodísticas, eufemismos frecuentes y otras figuras retóricas (hipérbole, litotes, personificación e ironía) propias del español culto, con ejercicios variados de reconocimiento y producción.",
+    "duration": "9 min",
+    "sections": [
+      {
+        "heading": "Hipérbole: la exageración expresiva",
+        "body": [
+          "La hipérbole exagera deliberadamente la realidad para enfatizar una emoción o característica, sin pretender ser tomada al pie de la letra."
+        ],
+        "examples": [
+          {
+            "es": "Me muero de hambre, no he comido nada en todo el día.",
+            "en": "I'm starving, I haven't eaten all day."
+          },
+          {
+            "es": "Te lo he repetido un millón de veces.",
+            "en": "I've told you a million times."
+          },
+          {
+            "es": "Esta maleta pesa una tonelada.",
+            "en": "This suitcase weighs a ton."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la hipérbole.",
+            "sentence": "No he comido nada en todo el día, me ___ de hambre.",
+            "answer": "muero",
+            "hint": "Presente de indicativo, verbo 'morir(se)'.",
+            "explanation": "'Morirse de hambre' es una exageración deliberada para expresar mucha hambre, no una muerte real."
+          },
+          {
+            "type": "word-order",
+            "prompt": "Ordena las palabras para formar una hipérbole común.",
+            "words": [
+              "Te",
+              "lo",
+              "he",
+              "dicho",
+              "un",
+              "millón",
+              "de",
+              "veces"
+            ],
+            "translation": "I've told you a million times.",
+            "explanation": "La hipérbole exagera la cantidad de veces con un número imposible de tomar literalmente, para enfatizar la frustración."
+          }
+        ]
+      },
+      {
+        "heading": "Litotes: la atenuación irónica",
+        "body": [
+          "El litotes afirma algo negando su contrario, produciendo un efecto de moderación o ironía sutil muy típico del registro culto."
+        ],
+        "examples": [
+          {
+            "es": "La propuesta no está nada mal.",
+            "en": "The proposal isn't bad at all."
+          },
+          {
+            "es": "No le falta razón cuando se queja.",
+            "en": "He's not wrong to complain."
+          },
+          {
+            "es": "No es el fin del mundo si perdemos este partido.",
+            "en": "It's not the end of the world if we lose this match."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué quiere decir realmente alguien que afirma 'esta propuesta no está nada mal'?",
+            "options": [
+              "Que la propuesta es pésima",
+              "Que la propuesta es bastante buena",
+              "Que no tiene opinión",
+              "Que la propuesta ha sido rechazada"
+            ],
+            "correctIndex": 1,
+            "explanation": "El litotes niega el término negativo ('mal') para afirmar, con matiz de moderación, algo positivo."
+          },
+          {
+            "type": "translate",
+            "direction": "es-en",
+            "prompt": "Traduce esta frase al inglés conservando el matiz del litotes.",
+            "source": "No le falta razón cuando se queja del servicio.",
+            "answer": "He's not wrong to complain about the service.",
+            "altAnswers": [
+              "She has a point when she complains about the service.",
+              "He has a point when he complains about the service."
+            ],
+            "explanation": "'No le falta razón' es un litotes que equivale a decir 'tiene razón', pero con un tono más atenuado."
+          }
+        ]
+      },
+      {
+        "heading": "Personificación",
+        "body": [
+          "La personificación atribuye cualidades o acciones humanas a objetos, ideas o entidades abstractas para darles vida y fuerza expresiva."
+        ],
+        "examples": [
+          {
+            "es": "Esta ciudad nunca duerme.",
+            "en": "This city never sleeps."
+          },
+          {
+            "es": "El tiempo vuela cuando estás de vacaciones.",
+            "en": "Time flies when you're on vacation."
+          },
+          {
+            "es": "Las paredes oyen, así que baja la voz.",
+            "en": "The walls have ears, so lower your voice."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Cuáles de las siguientes frases son ejemplos de personificación?",
+            "options": [
+              "Esta ciudad nunca duerme.",
+              "El coche es rojo.",
+              "El tiempo vuela cuando te diviertes.",
+              "Las paredes oyen.",
+              "El libro tiene 300 páginas."
+            ],
+            "correctIndexes": [
+              0,
+              2,
+              3
+            ],
+            "explanation": "Dormir, volar y oír son acciones humanas atribuidas a una ciudad, al tiempo y a las paredes; las otras dos frases son descripciones literales."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la personificación.",
+            "sentence": "El tiempo ___ cuando estás de vacaciones con amigos.",
+            "answer": "vuela",
+            "hint": "Verbo relacionado con las aves.",
+            "explanation": "'El tiempo vuela' personifica el tiempo dándole la capacidad de volar, como si fuera un ave."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué figura retórica se usa en '¡qué bien, justo lo que necesitaba, que se rompa el coche hoy!'?",
+        "options": [
+          "Metáfora",
+          "Ironía",
+          "Personificación",
+          "Litotes"
+        ],
+        "correctIndex": 1,
+        "explanation": "La frase dice literalmente lo contrario de lo que el hablante siente; eso es ironía."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa el litotes.",
+        "sentence": "No le ___ razón cuando dice que el examen fue muy difícil.",
+        "answer": "falta",
+        "hint": "Verbo 'faltar' en presente.",
+        "explanation": "'No faltarle razón a alguien' equivale a decir que 'tiene razón', pero de forma atenuada."
+      },
+      {
+        "type": "translate",
+        "direction": "es-en",
+        "prompt": "Traduce esta frase conservando su sentido eufemístico.",
+        "source": "Mi abuelo ya pertenece a la tercera edad.",
+        "answer": "My grandfather is already a senior citizen.",
+        "altAnswers": [
+          "My grandfather already belongs to the older generation."
+        ],
+        "explanation": "'La tercera edad' se traduce por expresiones igualmente suaves en inglés, como 'senior citizen'."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una personificación.",
+        "words": [
+          "Esta",
+          "ciudad",
+          "nunca",
+          "duerme"
+        ],
+        "translation": "This city never sleeps.",
+        "explanation": "Se atribuye a la ciudad la capacidad humana de dormir, o de no hacerlo nunca."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Cuál de estas frases contiene un litotes?",
+        "options": [
+          "El examen no fue nada fácil.",
+          "El examen fue facilísimo.",
+          "El examen me pareció un torrente de dudas.",
+          "El examen duró una eternidad."
+        ],
+        "correctIndex": 0,
+        "explanation": "'No fue nada fácil' niega lo contrario ('fácil') para afirmar, de forma atenuada, que fue difícil."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de estas expresiones son metáforas relacionadas con el ámbito económico o periodístico?",
+        "options": [
+          "Un torrente de ideas",
+          "El motor de la economía",
+          "Sembrar el pánico",
+          "No está nada mal",
+          "En números rojos"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          2
+        ],
+        "explanation": "'Un torrente de ideas', 'el motor de la economía' y 'sembrar el pánico' son metáforas; las otras dos son un litotes y un eufemismo, no metáforas propiamente dichas."
+      }
+    ]
+  },
+  {
+    "slug": "metaforas-eufemismos-lenguaje-figurado-drill-3",
+    "level": "C2",
+    "number": 135,
+    "title": "Metáforas, Eufemismos y Lenguaje Figurado: Práctica Intensiva, Part 3 of 3",
+    "summary": "Repaso a fondo de metáforas cotidianas y periodísticas, eufemismos frecuentes y otras figuras retóricas (hipérbole, litotes, personificación e ironía) propias del español culto, con ejercicios variados de reconocimiento y producción.",
+    "duration": "7 min",
+    "sections": [
+      {
+        "heading": "Marcadores de ironía y sarcasmo",
+        "body": [
+          "La ironía dice lo contrario de lo que se piensa, y ciertas fórmulas fijas en el texto escrito señalan que el enunciado no debe interpretarse literalmente."
+        ],
+        "examples": [
+          {
+            "es": "¡Qué bien, justo lo que necesitaba, que se rompa el coche hoy!",
+            "en": "Great, just what I needed, the car breaking down today!"
+          },
+          {
+            "es": "Vaya, qué suerte la mía, perder el tren por dos minutos.",
+            "en": "Wow, what luck, missing the train by two minutes."
+          },
+          {
+            "es": "Lo que me faltaba: otra reunión a las seis de la tarde.",
+            "en": "Just what I needed: another meeting at six in the evening."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Un compañero llega empapado y dice: '¡Qué bien, justo lo que necesitaba, llover el día de la excursión!'. ¿Cómo debe interpretarse?",
+            "options": [
+              "Literalmente: está feliz de que llueva",
+              "Como ironía: en realidad está molesto",
+              "Como un cumplido al clima",
+              "Como una petición de paraguas"
+            ],
+            "correctIndex": 1,
+            "explanation": "El tono irónico invierte el sentido literal de '¡qué bien!'; el hablante expresa fastidio, no alegría."
+          },
+          {
+            "type": "word-order",
+            "prompt": "Ordena las palabras para formar una expresión irónica de fastidio.",
+            "words": [
+              "Lo",
+              "que",
+              "me",
+              "faltaba",
+              "otra",
+              "reunión",
+              "a",
+              "las",
+              "seis"
+            ],
+            "translation": "Just what I needed, another meeting at six.",
+            "explanation": "'Lo que me faltaba' es una fórmula fija que expresa, con ironía, fastidio ante un contratiempo añadido."
+          }
+        ]
+      },
+      {
+        "heading": "Perífrasis eufemísticas del cuerpo y la condición social",
+        "body": [
+          "Ciertas condiciones físicas o sociales delicadas se describen mediante perífrasis que buscan un tono más respetuoso o menos directo."
+        ],
+        "examples": [
+          {
+            "es": "Es una persona invidente, no ciega.",
+            "en": "He is visually impaired, not blind."
+          },
+          {
+            "es": "Está en estado de buena esperanza.",
+            "en": "She is expecting."
+          },
+          {
+            "es": "Es una persona con diversidad funcional.",
+            "en": "He is a person with functional diversity (a disability)."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Relaciona cada perífrasis eufemística con lo que realmente designa.",
+            "pairs": [
+              {
+                "left": "persona invidente",
+                "right": "persona ciega"
+              },
+              {
+                "left": "estado de buena esperanza",
+                "right": "embarazo"
+              },
+              {
+                "left": "persona con diversidad funcional",
+                "right": "persona con discapacidad"
+              }
+            ],
+            "explanation": "Estas perífrasis suavizan términos considerados directos o estigmatizantes en el registro formal."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué significa que una mujer está 'en estado de buena esperanza'?",
+            "options": [
+              "Que tiene buen carácter",
+              "Que está embarazada",
+              "Que ha aprobado un examen",
+              "Que está de vacaciones"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Estado de buena esperanza' es una perífrasis anticuada pero aún usada para decir 'embarazada'."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la expresión irónica de fastidio.",
+        "sentence": "Lo que me ___: otra reunión a las seis de la tarde.",
+        "answer": "faltaba",
+        "hint": "Imperfecto de 'faltar'.",
+        "explanation": "'Lo que me faltaba' es una fórmula fija que expresa, con ironía, fastidio ante un nuevo contratiempo."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada eufemismo con su significado directo.",
+        "pairs": [
+          {
+            "left": "pasar a mejor vida",
+            "right": "morir"
+          },
+          {
+            "left": "en números rojos",
+            "right": "con deudas o pérdidas"
+          },
+          {
+            "left": "estado de buena esperanza",
+            "right": "embarazo"
+          },
+          {
+            "left": "no llegar a fin de mes",
+            "right": "tener problemas económicos"
+          }
+        ],
+        "explanation": "Todos estos eufemismos evitan nombrar directamente la muerte, las deudas o el embarazo."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce usando una hipérbole equivalente en español.",
+        "source": "I've told you a million times to close the door.",
+        "answer": "Te he dicho un millón de veces que cierres la puerta.",
+        "explanation": "'Un millón de veces' es la hipérbole estándar en español para expresar repetición exagerada."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "En el registro formal, ¿cuál es la opción más adecuada para referirse a una persona ciega?",
+        "options": [
+          "Persona invidente",
+          "Persona ciega a secas",
+          "Persona sin vista",
+          "Persona oscura"
+        ],
+        "correctIndex": 0,
+        "explanation": "'Persona invidente' es la perífrasis eufemística habitual en contextos formales o institucionales."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una metáfora periodística.",
+        "words": [
+          "La",
+          "noticia",
+          "sembró",
+          "el",
+          "pánico",
+          "entre",
+          "los",
+          "vecinos"
+        ],
+        "translation": "The news sowed panic among the neighbors.",
+        "explanation": "La metáfora compara la propagación del miedo con la siembra de una semilla."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes frases son hipérboles?",
+        "options": [
+          "Me muero de hambre.",
+          "No está nada mal.",
+          "Te lo he dicho un millón de veces.",
+          "Esta maleta pesa una tonelada.",
+          "Las paredes oyen."
+        ],
+        "correctIndexes": [
+          0,
+          2,
+          3
+        ],
+        "explanation": "Las tres frases exageran deliberadamente una realidad (hambre, repetición, peso); la segunda es un litotes y la última una personificación."
+      }
+    ]
+  },
+  {
+    "slug": "registro-argumentacion-debate-negociacion-drill-1",
+    "level": "C2",
+    "number": 136,
+    "title": "Registro y Argumentación: Debate y Negociación, Part 1 of 3",
+    "summary": "Práctica intensiva de conectores formales, concesión, propuestas de compromiso y atenuación de afirmaciones para debates y negociaciones de alto nivel.",
+    "duration": "8 min",
+    "sections": [
+      {
+        "heading": "Conectores contrastivos de registro formal",
+        "body": [
+          "Estos conectores marcan un contraste entre dos ideas con un tono más formal que 'pero', apropiado para debates serios."
+        ],
+        "examples": [
+          {
+            "es": "El proyecto es ambicioso; no obstante, carece de financiación suficiente.",
+            "en": "The project is ambitious; however, it lacks sufficient funding."
+          },
+          {
+            "es": "Entendemos sus preocupaciones. Dicho esto, mantenemos nuestra postura inicial.",
+            "en": "We understand your concerns. That said, we maintain our initial position."
+          },
+          {
+            "es": "Sin embargo, cabe matizar que los datos no son concluyentes.",
+            "en": "However, it should be qualified that the data are not conclusive."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué conector introduce un matiz formal después de haber reconocido un punto?",
+            "options": [
+              "o sea",
+              "dicho esto",
+              "total, que"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Dicho esto' introduce un giro formal tras haber concedido algo previamente."
+          }
+        ]
+      },
+      {
+        "heading": "Conceder un punto sin perder terreno",
+        "body": [
+          "Reconocer parcialmente el argumento contrario antes de reafirmar el propio suaviza el debate sin debilitar la postura."
+        ],
+        "examples": [
+          {
+            "es": "Hasta cierto punto tienes razón, sin embargo, no podemos ignorar los riesgos.",
+            "en": "You're right up to a point, however, we can't ignore the risks."
+          },
+          {
+            "es": "No le falta razón a mi colega, pero la situación es más compleja de lo que parece.",
+            "en": "My colleague isn't wrong, but the situation is more complex than it seems."
+          },
+          {
+            "es": "Reconozco que su propuesta tiene mérito; aun así, prefiero explorar otras opciones.",
+            "en": "I acknowledge that your proposal has merit; even so, I prefer to explore other options."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Cuáles de estas expresiones sirven para conceder un punto antes de contraargumentar?",
+            "options": [
+              "hasta cierto punto tienes razón, sin embargo...",
+              "cabe destacar que...",
+              "no le falta razón a..., pero..."
+            ],
+            "correctIndexes": [
+              0,
+              2
+            ],
+            "explanation": "Ambas reconocen parcialmente el argumento ajeno antes de introducir una objeción; 'cabe destacar que' simplemente resalta un dato."
+          }
+        ]
+      },
+      {
+        "heading": "Proponer un punto medio",
+        "body": [
+          "En una negociación, proponer una solución intermedia con cortesía facilita el consenso sin sonar débil."
+        ],
+        "examples": [
+          {
+            "es": "¿Qué tal si llegamos a un punto medio entre ambas propuestas?",
+            "en": "What if we meet in the middle between both proposals?"
+          },
+          {
+            "es": "Estamos dispuestos a ceder terreno en el plazo si ustedes ceden en el precio.",
+            "en": "We're willing to give ground on the deadline if you give ground on the price."
+          },
+          {
+            "es": "Propongo que negociemos un término medio antes de cerrar la reunión.",
+            "en": "I propose we negotiate a middle ground before closing the meeting."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "word-order",
+            "prompt": "Ordena las palabras para formar una propuesta de compromiso.",
+            "words": [
+              "¿Qué",
+              "tal",
+              "si",
+              "llegamos",
+              "a",
+              "un",
+              "punto",
+              "medio?"
+            ],
+            "translation": "What if we meet in the middle?",
+            "explanation": "'¿Qué tal si...?' es una fórmula cortés para proponer un compromiso en una negociación."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Cuál de estas opciones es la más adecuada para un debate formal?",
+        "options": [
+          "pero",
+          "no obstante",
+          "o sea"
+        ],
+        "correctIndex": 1,
+        "explanation": "'No obstante' es el conector contrastivo apropiado para el registro formal de un debate."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de estas expresiones sirven para conceder un punto al interlocutor?",
+        "options": [
+          "hasta cierto punto tienes razón, sin embargo...",
+          "no le falta razón a..., pero...",
+          "en aras de..."
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "Ambas reconocen parcialmente el argumento contrario antes de matizarlo; 'en aras de' justifica una acción, no concede un punto."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la estructura concesiva doble.",
+        "sentence": "____ es cierto que subieron los precios, no es menos cierto que la calidad mejoró.",
+        "answer": "Si bien",
+        "hint": "Dos palabras.",
+        "explanation": "'Si bien es cierto que... no es menos cierto que...' concede y contrapone con el mismo peso argumentativo."
+      },
+      {
+        "type": "translate",
+        "direction": "es-en",
+        "prompt": "Traduce al inglés.",
+        "source": "Cabe destacar que ningún estudio ha confirmado esa hipótesis.",
+        "answer": "It should be noted that no study has confirmed that hypothesis.",
+        "altAnswers": [
+          "It's worth noting that no study has confirmed that hypothesis."
+        ],
+        "explanation": "'Cabe destacar que' equivale a 'it should be noted that' en registro formal."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español con una construcción formal.",
+        "source": "In the interest of transparency, we will publish the report.",
+        "answer": "En aras de la transparencia, publicaremos el informe.",
+        "altAnswers": [
+          "En aras de la transparencia, vamos a publicar el informe."
+        ],
+        "explanation": "'En aras de' introduce formalmente la razón que justifica una acción."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una propuesta de compromiso.",
+        "words": [
+          "¿Qué",
+          "tal",
+          "si",
+          "llegamos",
+          "a",
+          "un",
+          "punto",
+          "medio?"
+        ],
+        "translation": "What if we meet in the middle?",
+        "explanation": "'¿Qué tal si...?' propone una solución intermedia de forma cortés."
+      }
+    ]
+  },
+  {
+    "slug": "registro-argumentacion-debate-negociacion-drill-2",
+    "level": "C2",
+    "number": 137,
+    "title": "Registro y Argumentación: Debate y Negociación, Part 2 of 3",
+    "summary": "Práctica intensiva de conectores formales, concesión, propuestas de compromiso y atenuación de afirmaciones para debates y negociaciones de alto nivel.",
+    "duration": "8 min",
+    "sections": [
+      {
+        "heading": "Atenuar afirmaciones (hedging)",
+        "body": [
+          "Suavizar las afirmaciones evita sonar categórico y deja espacio abierto al diálogo."
+        ],
+        "examples": [
+          {
+            "es": "Podría decirse que la reforma ha beneficiado, en cierta medida, a las pequeñas empresas.",
+            "en": "It could be said that the reform has benefited small businesses to some extent."
+          },
+          {
+            "es": "Hasta cierto punto, el fracaso se debió a una mala planificación.",
+            "en": "To a certain extent, the failure was due to poor planning."
+          },
+          {
+            "es": "En cierta medida, ambas partes comparten la responsabilidad.",
+            "en": "To some extent, both parties share the responsibility."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la expresión atenuadora.",
+            "sentence": "En cierta ____, ambas partes comparten la responsabilidad.",
+            "answer": "medida",
+            "hint": "Sustantivo que acompaña a 'cierta' para suavizar una afirmación.",
+            "explanation": "'En cierta medida' atenúa la afirmación indicando que es parcialmente cierta."
+          }
+        ]
+      },
+      {
+        "heading": "Destacar un argumento con formalidad",
+        "body": [
+          "Estas fórmulas introducen un punto clave con un tono impersonal, típico de debates y textos académicos."
+        ],
+        "examples": [
+          {
+            "es": "Cabe destacar que ningún estudio ha confirmado esa hipótesis.",
+            "en": "It should be noted that no study has confirmed that hypothesis."
+          },
+          {
+            "es": "Es preciso subrayar que las cifras oficiales difieren de las independientes.",
+            "en": "It must be emphasized that the official figures differ from the independent ones."
+          },
+          {
+            "es": "Cabe señalar que el acuerdo anterior nunca se cumplió del todo.",
+            "en": "It should be pointed out that the previous agreement was never fully honored."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué expresión es la más formal para introducir un dato relevante en un debate?",
+            "options": [
+              "o sea que...",
+              "cabe destacar que...",
+              "total, que..."
+            ],
+            "correctIndex": 1,
+            "explanation": "'Cabe destacar que' es una fórmula formal e impersonal típica de la argumentación académica o política."
+          }
+        ]
+      },
+      {
+        "heading": "Justificar una postura formalmente",
+        "body": [
+          "Estas construcciones introducen la razón o el objetivo que sostiene un argumento en un debate."
+        ],
+        "examples": [
+          {
+            "es": "En aras de la transparencia, publicaremos todos los informes.",
+            "en": "In the interest of transparency, we will publish all the reports."
+          },
+          {
+            "es": "Dado que no hay consenso, propongo posponer la votación.",
+            "en": "Given that there is no consensus, I propose postponing the vote."
+          },
+          {
+            "es": "Con el fin de agilizar el proceso, sugiero fijar un plazo límite.",
+            "en": "In order to speed up the process, I suggest setting a deadline."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Traduce al español usando una construcción formal de finalidad.",
+            "source": "In the interest of transparency, we will publish the report.",
+            "answer": "En aras de la transparencia, publicaremos el informe.",
+            "altAnswers": [
+              "En aras de la transparencia, vamos a publicar el informe."
+            ],
+            "explanation": "'En aras de' es una locución formal que introduce el objetivo que justifica una acción."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Empareja cada expresión informal con su equivalente formal.",
+        "pairs": [
+          {
+            "left": "o sea",
+            "right": "es decir"
+          },
+          {
+            "left": "total, que",
+            "right": "en definitiva"
+          },
+          {
+            "left": "para mí",
+            "right": "desde mi punto de vista"
+          }
+        ],
+        "explanation": "El registro cambia según el contexto, pero el contenido semántico se mantiene."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué función cumple 'podría decirse que' en un argumento?",
+        "options": [
+          "Refuerza una afirmación categórica",
+          "Atenúa una afirmación",
+          "Introduce una cita textual"
+        ],
+        "correctIndex": 1,
+        "explanation": "'Podría decirse que' suaviza la afirmación, dejando espacio para el matiz o el desacuerdo."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la expresión atenuadora.",
+        "sentence": "En cierta ____, ambas partes comparten la responsabilidad.",
+        "answer": "medida",
+        "hint": "Sustantivo femenino.",
+        "explanation": "'En cierta medida' matiza una afirmación indicando que es solo parcialmente cierta."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de estas expresiones justifican formalmente una postura?",
+        "options": [
+          "en aras de...",
+          "con el fin de...",
+          "o sea que..."
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "'En aras de' y 'con el fin de' introducen la finalidad que justifica una acción; 'o sea que' es un conector informal."
+      },
+      {
+        "type": "translate",
+        "direction": "es-en",
+        "prompt": "Traduce al inglés.",
+        "source": "Si bien es cierto que el plan reduce costes, no es menos cierto que afecta la calidad.",
+        "answer": "While it is true that the plan reduces costs, it is equally true that it affects the quality.",
+        "altAnswers": [
+          "Although it's true the plan cuts costs, it's just as true that it affects quality."
+        ],
+        "explanation": "La estructura concesiva doble se traduce con 'while it is true that... it is equally true that...'."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una concesión de compromiso.",
+        "words": [
+          "Estamos",
+          "dispuestos",
+          "a",
+          "ceder",
+          "terreno",
+          "en",
+          "el",
+          "plazo."
+        ],
+        "translation": "We're willing to give ground on the deadline.",
+        "explanation": "'Ceder terreno' es una expresión clave en el lenguaje de negociación."
+      }
+    ]
+  },
+  {
+    "slug": "registro-argumentacion-debate-negociacion-drill-3",
+    "level": "C2",
+    "number": 138,
+    "title": "Registro y Argumentación: Debate y Negociación, Part 3 of 3",
+    "summary": "Práctica intensiva de conectores formales, concesión, propuestas de compromiso y atenuación de afirmaciones para debates y negociaciones de alto nivel.",
+    "duration": "7 min",
+    "sections": [
+      {
+        "heading": "Concesión doble: si bien es cierto que... no es menos cierto que...",
+        "body": [
+          "Esta estructura reconoce plenamente un argumento contrario antes de introducir, con el mismo peso, el argumento propio."
+        ],
+        "examples": [
+          {
+            "es": "Si bien es cierto que el plan reduce costes, no es menos cierto que afecta la calidad del servicio.",
+            "en": "While it is true that the plan reduces costs, it is equally true that it affects the quality of service."
+          },
+          {
+            "es": "Si bien es cierto que hemos avanzado, no es menos cierto que queda mucho por hacer.",
+            "en": "While it's true that we've made progress, it's equally true that much remains to be done."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la estructura concesiva doble.",
+            "sentence": "____ es cierto que subieron los precios, no es menos cierto que la calidad mejoró.",
+            "answer": "Si bien",
+            "hint": "Dos palabras que introducen la primera parte de la concesión.",
+            "explanation": "'Si bien es cierto que... no es menos cierto que...' concede un argumento y contrapone otro con el mismo peso."
+          }
+        ]
+      },
+      {
+        "heading": "Cambiar de registro: formal frente a informal",
+        "body": [
+          "Un hablante de nivel C2 alterna entre un registro coloquial y uno formal según el contexto de la conversación o negociación."
+        ],
+        "examples": [
+          {
+            "es": "Registro informal: 'O sea, para mí esto no tiene sentido.' Registro formal: 'Es decir, desde mi punto de vista, esto carece de sentido.'",
+            "en": "Informal register: 'I mean, to me this doesn't make sense.' Formal register: 'That is to say, from my point of view, this makes no sense.'"
+          },
+          {
+            "es": "Total, que no llegamos a nada. → En definitiva, no alcanzamos ningún acuerdo.",
+            "en": "So basically, we got nowhere. → In short, we did not reach any agreement."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Empareja cada expresión informal con su equivalente formal.",
+            "pairs": [
+              {
+                "left": "o sea",
+                "right": "es decir"
+              },
+              {
+                "left": "total, que",
+                "right": "en definitiva"
+              },
+              {
+                "left": "para mí",
+                "right": "desde mi punto de vista"
+              },
+              {
+                "left": "un montón de",
+                "right": "numerosos"
+              }
+            ],
+            "explanation": "Un mismo contenido puede expresarse en registro informal o formal según el contexto de la negociación."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "En una negociación tensa, ¿qué expresión propone mejor una solución intermedia sin ceder del todo?",
+        "options": [
+          "Tienes toda la razón.",
+          "¿Qué tal si llegamos a un punto medio?",
+          "Eso es imposible."
+        ],
+        "correctIndex": 1,
+        "explanation": "Proponer un punto medio mantiene la negociación abierta sin rechazar ni aceptar por completo la postura contraria."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la fórmula formal para destacar un argumento.",
+        "sentence": "____ destacar que las cifras oficiales difieren de las independientes.",
+        "answer": "Cabe",
+        "hint": "Verbo en tercera persona del singular, presente de indicativo.",
+        "explanation": "'Cabe destacar que' introduce formalmente un dato relevante en el debate."
+      },
+      {
+        "type": "matching",
+        "instructions": "Empareja cada expresión con su función argumentativa.",
+        "pairs": [
+          {
+            "left": "hasta cierto punto tienes razón, sin embargo...",
+            "right": "conceder un punto"
+          },
+          {
+            "left": "¿qué tal si llegamos a un punto medio?",
+            "right": "proponer un compromiso"
+          },
+          {
+            "left": "podría decirse que...",
+            "right": "atenuar una afirmación"
+          },
+          {
+            "left": "cabe destacar que...",
+            "right": "resaltar un argumento con formalidad"
+          }
+        ],
+        "explanation": "Cada fórmula cumple una función específica dentro de la argumentación y la negociación formales."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español usando una expresión atenuadora.",
+        "source": "It could be said that the reform has helped, to some extent.",
+        "answer": "Podría decirse que la reforma ha ayudado, en cierta medida.",
+        "altAnswers": [
+          "Podría decirse que la reforma ha ayudado, hasta cierto punto."
+        ],
+        "explanation": "'Podría decirse que' y 'en cierta medida' combinan dos recursos de atenuación en el mismo enunciado."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de estas expresiones pertenecen a un registro formal?",
+        "options": [
+          "dicho esto",
+          "total, que",
+          "es preciso subrayar que"
+        ],
+        "correctIndexes": [
+          0,
+          2
+        ],
+        "explanation": "'Dicho esto' y 'es preciso subrayar que' son propias del registro formal; 'total, que' es coloquial."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una concesión seguida de matiz.",
+        "words": [
+          "No",
+          "le",
+          "falta",
+          "razón",
+          "a",
+          "mi",
+          "colega,",
+          "pero",
+          "la",
+          "situación",
+          "es",
+          "compleja."
+        ],
+        "translation": "My colleague isn't wrong, but the situation is complex.",
+        "explanation": "'No le falta razón a...' concede el punto antes de introducir un matiz con 'pero'."
+      }
+    ]
+  },
+  {
+    "slug": "negocios-economia-drill-1",
+    "level": "C2",
+    "number": 139,
+    "title": "Negocios y Economía: repaso intensivo, Part 1 of 3",
+    "summary": "Un simulacro de práctica espaciada centrado en vocabulario y registro de negocios y economía en español: estructura corporativa, resultados financieros, inversiones, negociación de contratos, logística y correspondencia comercial formal.",
+    "duration": "8 min",
+    "sections": [
+      {
+        "heading": "Estructura corporativa y gobierno",
+        "body": [
+          "Recuerda el vocabulario sobre la dirección y la propiedad de una empresa."
+        ],
+        "examples": [
+          {
+            "es": "La junta directiva se reunirá el jueves para aprobar el nuevo presupuesto.",
+            "en": "The board of directors will meet on Thursday to approve the new budget."
+          },
+          {
+            "es": "Los accionistas exigieron mayor transparencia en la gestión de la empresa.",
+            "en": "The shareholders demanded greater transparency in the company's management."
+          },
+          {
+            "es": "El consejo de administración nombró a una nueva directora ejecutiva.",
+            "en": "The board of directors appointed a new CEO."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "¿Qué es un 'accionista'?",
+            "options": [
+              "Una persona que trabaja en el departamento de contabilidad",
+              "Una persona o entidad que posee acciones de una empresa",
+              "El director general de una empresa",
+              "Un proveedor externo de materias primas"
+            ],
+            "correctIndex": 1,
+            "explanation": "Un accionista es propietario de una o varias acciones de una sociedad, lo que le otorga derechos sobre sus beneficios y decisiones."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la frase con el término adecuado.",
+            "sentence": "La ___ se reunió para debatir la fusión con la empresa rival.",
+            "answer": "junta directiva",
+            "hint": "Grupo de personas que dirige y supervisa una empresa.",
+            "explanation": "'Junta directiva' designa al órgano que dirige y supervisa la gestión de una empresa."
+          }
+        ]
+      },
+      {
+        "heading": "Resultados financieros",
+        "body": [
+          "Repasa los términos para describir el desempeño financiero de una empresa."
+        ],
+        "examples": [
+          {
+            "es": "La empresa registró beneficios récord a pesar de la crisis.",
+            "en": "The company recorded record profits despite the crisis."
+          },
+          {
+            "es": "Las pérdidas del segundo trimestre superaron las previsiones.",
+            "en": "The second-quarter losses exceeded forecasts."
+          },
+          {
+            "es": "La facturación anual creció un doce por ciento.",
+            "en": "Annual turnover grew twelve percent."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Cuáles de los siguientes términos se refieren a resultados financieros negativos?",
+            "options": [
+              "pérdidas",
+              "beneficios",
+              "déficit",
+              "ingresos",
+              "facturación"
+            ],
+            "correctIndexes": [
+              0,
+              2
+            ],
+            "explanation": "'Pérdidas' y 'déficit' describen situaciones en las que los gastos superan a los ingresos; los demás términos son neutros o positivos."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Traduce la frase al español.",
+            "source": "Profitability improved despite lower revenue.",
+            "answer": "La rentabilidad mejoró a pesar de los menores ingresos.",
+            "altAnswers": [
+              "La rentabilidad mejoró pese a la caída de los ingresos."
+            ],
+            "explanation": "'Rentabilidad' es la capacidad de generar beneficio en relación con la inversión realizada."
+          }
+        ]
+      },
+      {
+        "heading": "Inversión y operaciones corporativas",
+        "body": [
+          "Practica el vocabulario relacionado con inversiones y operaciones entre empresas."
+        ],
+        "examples": [
+          {
+            "es": "La fusión y adquisición de la startup se cerró en tiempo récord.",
+            "en": "The merger and acquisition of the startup closed in record time."
+          },
+          {
+            "es": "Necesitamos atraer más inversión extranjera para expandir la planta.",
+            "en": "We need to attract more foreign investment to expand the plant."
+          },
+          {
+            "es": "El capital social de la empresa se duplicó tras la ampliación.",
+            "en": "The company's share capital doubled after the capital increase."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "word-order",
+            "prompt": "Ordena las palabras para formar una frase correcta.",
+            "words": [
+              "La",
+              "fusión",
+              "y",
+              "adquisición",
+              "requiere",
+              "la",
+              "aprobación",
+              "de",
+              "los",
+              "accionistas",
+              "."
+            ],
+            "translation": "The merger and acquisition requires shareholder approval.",
+            "explanation": "El orden habitual es sujeto + verbo + complemento: 'La fusión y adquisición requiere la aprobación de los accionistas.'"
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué significa 'facturación' en el contexto empresarial?",
+        "options": [
+          "La rentabilidad de la empresa",
+          "Los ingresos totales generados por las ventas",
+          "El beneficio neto tras impuestos",
+          "El presupuesto anual"
+        ],
+        "correctIndex": 1,
+        "explanation": "'Facturación' se refiere al total de ingresos que genera una empresa por sus ventas en un período determinado."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con el término adecuado.",
+        "sentence": "La ___ se reunió para debatir la fusión con la empresa rival.",
+        "answer": "junta directiva",
+        "hint": "Grupo de personas que dirige una empresa.",
+        "explanation": "'Junta directiva' es el órgano que dirige y supervisa la gestión de una empresa."
+      },
+      {
+        "type": "translate",
+        "direction": "es-en",
+        "prompt": "Traduce la frase al inglés.",
+        "source": "Quedamos a la espera de sus noticias.",
+        "answer": "We look forward to hearing from you.",
+        "altAnswers": [
+          "We remain awaiting your reply.",
+          "We await your response."
+        ],
+        "explanation": "Esta es una fórmula fija de cierre en la correspondencia comercial formal en español."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce la frase al español.",
+        "source": "Please find attached the quarterly report.",
+        "answer": "Adjunto encontrará el informe trimestral.",
+        "altAnswers": [
+          "Le adjunto el informe trimestral."
+        ],
+        "explanation": "'Adjunto encontrará...' es una fórmula habitual para indicar que se envía un documento junto con la carta o el correo."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de los siguientes términos se refieren a resultados financieros negativos?",
+        "options": [
+          "pérdidas",
+          "beneficios",
+          "déficit",
+          "ingresos",
+          "facturación"
+        ],
+        "correctIndexes": [
+          0,
+          2
+        ],
+        "explanation": "'Pérdidas' y 'déficit' indican que los gastos superan a los ingresos, a diferencia de los demás términos."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una frase correcta.",
+        "words": [
+          "El",
+          "plazo",
+          "de",
+          "entrega",
+          "vence",
+          "el",
+          "viernes",
+          "."
+        ],
+        "translation": "The delivery deadline expires on Friday.",
+        "explanation": "El orden habitual es sujeto + verbo + complemento circunstancial de tiempo."
+      }
+    ]
+  },
+  {
+    "slug": "negocios-economia-drill-2",
+    "level": "C2",
+    "number": 140,
+    "title": "Negocios y Economía: repaso intensivo, Part 2 of 3",
+    "summary": "Un simulacro de práctica espaciada centrado en vocabulario y registro de negocios y economía en español: estructura corporativa, resultados financieros, inversiones, negociación de contratos, logística y correspondencia comercial formal.",
+    "duration": "7 min",
+    "sections": [
+      {
+        "heading": "Negociación de contratos",
+        "body": [
+          "Domina las expresiones clave para negociar y redactar contratos comerciales."
+        ],
+        "examples": [
+          {
+            "es": "Vamos a negociar un contrato más favorable con el proveedor.",
+            "en": "We're going to negotiate a more favorable contract with the supplier."
+          },
+          {
+            "es": "El plazo de entrega se fijó en treinta días naturales.",
+            "en": "The delivery deadline was set at thirty calendar days."
+          },
+          {
+            "es": "Esa cláusula de rescisión nos protege en caso de incumplimiento.",
+            "en": "That termination clause protects us in case of breach."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "En el contexto de un contrato, ¿qué es una 'cláusula'?",
+            "options": [
+              "El precio total del contrato",
+              "Una disposición o condición específica dentro del contrato",
+              "La firma de las dos partes",
+              "El plazo de entrega del pedido"
+            ],
+            "correctIndex": 1,
+            "explanation": "Una cláusula es cada una de las disposiciones particulares que regulan una parte concreta del contrato."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la frase con el término adecuado.",
+            "sentence": "El ___ se fijó en treinta días naturales desde la firma del pedido.",
+            "answer": "plazo de entrega",
+            "hint": "Tiempo acordado para que un pedido llegue a su destino.",
+            "explanation": "'Plazo de entrega' es el período de tiempo pactado para completar una entrega."
+          }
+        ]
+      },
+      {
+        "heading": "Cadena de suministro y logística",
+        "body": [
+          "Refuerza el vocabulario logístico relacionado con proveedores y distribución."
+        ],
+        "examples": [
+          {
+            "es": "La cadena de suministro sufrió retrasos por la escasez de materias primas.",
+            "en": "The supply chain suffered delays due to a shortage of raw materials."
+          },
+          {
+            "es": "Cambiamos de proveedor porque no cumplía los plazos acordados.",
+            "en": "We changed suppliers because they weren't meeting the agreed deadlines."
+          },
+          {
+            "es": "Es imprescindible diversificar la cadena de suministro para reducir riesgos.",
+            "en": "It's essential to diversify the supply chain to reduce risks."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "translate",
+            "direction": "es-en",
+            "prompt": "Traduce la frase al inglés.",
+            "source": "Tuvimos que cambiar de proveedor por los retrasos constantes.",
+            "answer": "We had to change suppliers due to the constant delays.",
+            "altAnswers": [
+              "We had to switch suppliers because of the constant delays."
+            ],
+            "explanation": "'Proveedor' se traduce como 'supplier', la empresa que suministra bienes o servicios."
+          },
+          {
+            "type": "multiple-choice",
+            "question": "¿Cuál es la mejor definición de 'cadena de suministro'?",
+            "options": [
+              "El conjunto de accionistas de una empresa",
+              "El proceso completo desde la producción hasta la entrega al cliente",
+              "El presupuesto anual de una empresa",
+              "El acta de una reunión de negocios"
+            ],
+            "correctIndex": 1,
+            "explanation": "La cadena de suministro abarca todas las etapas, desde la obtención de materias primas hasta la entrega del producto final."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada expresión formal con su función en una carta comercial.",
+        "pairs": [
+          {
+            "left": "En relación con su propuesta...",
+            "right": "Introducir el tema principal de la carta"
+          },
+          {
+            "left": "Adjunto encontrará...",
+            "right": "Indicar que se envía un documento adjunto"
+          },
+          {
+            "left": "Quedamos a la espera de sus noticias.",
+            "right": "Cerrar la carta pidiendo una respuesta"
+          },
+          {
+            "left": "Sin otro particular, le saluda atentamente.",
+            "right": "Despedida formal antes de la firma"
+          }
+        ],
+        "explanation": "Cada fórmula cumple una función concreta dentro de la estructura de una carta comercial formal."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Cuál es la mejor definición de 'cadena de suministro'?",
+        "options": [
+          "El conjunto de accionistas de una empresa",
+          "El proceso completo desde la producción hasta la entrega al cliente",
+          "El presupuesto anual de una empresa",
+          "El acta de una reunión de negocios"
+        ],
+        "correctIndex": 1,
+        "explanation": "La cadena de suministro abarca todas las etapas, desde la obtención de materias primas hasta la entrega del producto final."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con el término adecuado.",
+        "sentence": "Tuvimos que cambiar de ___ porque no cumplía los plazos de entrega.",
+        "answer": "proveedor",
+        "hint": "Empresa que suministra bienes o servicios a otra.",
+        "explanation": "'Proveedor' es la empresa o persona que suministra bienes o servicios a otra empresa."
+      },
+      {
+        "type": "translate",
+        "direction": "es-en",
+        "prompt": "Traduce la frase al inglés.",
+        "source": "Los accionistas votarán la fusión y adquisición en la próxima junta.",
+        "answer": "The shareholders will vote on the merger and acquisition at the next meeting.",
+        "altAnswers": [
+          "Shareholders will vote on the merger and acquisition at the next general meeting."
+        ],
+        "explanation": "'Fusión y adquisición' equivale al término inglés 'merger and acquisition' (M&A)."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Qué elementos suelen aparecer en el orden del día de una reunión de negocios?",
+        "options": [
+          "Revisión del informe trimestral",
+          "La previsión de ventas",
+          "El plazo de entrega de un pedido personal",
+          "Aprobación del presupuesto",
+          "Recetas de cocina"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "El orden del día incluye normalmente asuntos relacionados con la gestión y las finanzas de la empresa."
+      }
+    ]
+  },
+  {
+    "slug": "negocios-economia-drill-3",
+    "level": "C2",
+    "number": 141,
+    "title": "Negocios y Economía: repaso intensivo, Part 3 of 3",
+    "summary": "Un simulacro de práctica espaciada centrado en vocabulario y registro de negocios y economía en español: estructura corporativa, resultados financieros, inversiones, negociación de contratos, logística y correspondencia comercial formal.",
+    "duration": "9 min",
+    "sections": [
+      {
+        "heading": "Correspondencia comercial formal",
+        "body": [
+          "Repasa las fórmulas fijas típicas de la correspondencia comercial formal en español."
+        ],
+        "examples": [
+          {
+            "es": "En relación con su propuesta del pasado lunes, le informamos que ha sido aceptada.",
+            "en": "Regarding your proposal from last Monday, we inform you that it has been accepted."
+          },
+          {
+            "es": "Adjunto encontrará el presupuesto detallado que nos solicitó.",
+            "en": "Please find attached the detailed budget you requested."
+          },
+          {
+            "es": "Quedamos a la espera de sus noticias.",
+            "en": "We look forward to hearing from you."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "matching",
+            "instructions": "Relaciona cada expresión formal con su función en una carta comercial.",
+            "pairs": [
+              {
+                "left": "En relación con su propuesta...",
+                "right": "Introducir el tema principal de la carta"
+              },
+              {
+                "left": "Adjunto encontrará...",
+                "right": "Indicar que se envía un documento adjunto"
+              },
+              {
+                "left": "Quedamos a la espera de sus noticias.",
+                "right": "Cerrar la carta pidiendo una respuesta"
+              },
+              {
+                "left": "Sin otro particular, le saluda atentamente.",
+                "right": "Despedida formal antes de la firma"
+              }
+            ],
+            "explanation": "Estas fórmulas fijas estructuran la carta comercial formal: apertura del tema, referencia a adjuntos y cierre cortés."
+          }
+        ]
+      },
+      {
+        "heading": "Reuniones e informes",
+        "body": [
+          "Aprende el vocabulario para organizar y documentar reuniones de negocios."
+        ],
+        "examples": [
+          {
+            "es": "El primer punto del orden del día es la revisión del informe trimestral.",
+            "en": "The first item on the agenda is the review of the quarterly report."
+          },
+          {
+            "es": "La previsión de ventas para el próximo semestre es optimista.",
+            "en": "The sales forecast for next semester is optimistic."
+          },
+          {
+            "es": "Redactaré el acta de la reunión y la enviaré por correo mañana.",
+            "en": "I'll draft the minutes of the meeting and send them by email tomorrow."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multi-select",
+            "question": "¿Qué elementos suelen aparecer en el orden del día de una reunión de negocios?",
+            "options": [
+              "Revisión del informe trimestral",
+              "La previsión de ventas",
+              "El plazo de entrega de un pedido personal",
+              "Aprobación del presupuesto",
+              "Recetas de cocina"
+            ],
+            "correctIndexes": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "El orden del día suele incluir puntos relacionados con la gestión de la empresa, como informes, previsiones y presupuestos."
+          },
+          {
+            "type": "word-order",
+            "prompt": "Ordena las palabras para formar una frase correcta.",
+            "words": [
+              "Redactaré",
+              "el",
+              "acta",
+              "de",
+              "la",
+              "reunión",
+              "mañana",
+              "."
+            ],
+            "translation": "I'll draft the minutes of the meeting tomorrow.",
+            "explanation": "El orden habitual en español es verbo + complemento directo + complemento circunstancial de tiempo."
+          }
+        ]
+      },
+      {
+        "heading": "Presupuestos y expresiones económicas",
+        "body": [
+          "Consolida expresiones sobre presupuestos, plazos y márgenes en el ámbito económico."
+        ],
+        "examples": [
+          {
+            "es": "El presupuesto anual se aprobó sin cambios significativos.",
+            "en": "The annual budget was approved without significant changes."
+          },
+          {
+            "es": "A largo plazo, la inversión en tecnología resultará más rentable.",
+            "en": "In the long term, investment in technology will prove more profitable."
+          },
+          {
+            "es": "Los márgenes de beneficio se han reducido debido a la competencia.",
+            "en": "Profit margins have shrunk due to competition."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Completa la frase con el término adecuado.",
+            "sentence": "El consejo de administración aprobó un nuevo ___ anual.",
+            "answer": "presupuesto",
+            "hint": "Plan económico que estima ingresos y gastos futuros.",
+            "explanation": "'Presupuesto' es la estimación planificada de ingresos y gastos para un período determinado."
+          },
+          {
+            "type": "multi-select",
+            "question": "¿Cuáles de las siguientes expresiones se relacionan con el tiempo en el ámbito económico?",
+            "options": [
+              "a corto plazo",
+              "a largo plazo",
+              "cadena de suministro",
+              "el plazo de entrega",
+              "el consejo de administración"
+            ],
+            "correctIndexes": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "'A corto/largo plazo' y 'el plazo de entrega' hacen referencia a marcos temporales, a diferencia de los otros términos."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una frase correcta.",
+        "words": [
+          "Los",
+          "márgenes",
+          "de",
+          "beneficio",
+          "se",
+          "han",
+          "reducido",
+          "."
+        ],
+        "translation": "Profit margins have shrunk.",
+        "explanation": "El pronombre reflexivo 'se' precede al verbo auxiliar 'han' en esta construcción con voz pasiva refleja."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "En el contexto de un contrato, ¿qué es una 'cláusula'?",
+        "options": [
+          "El precio total del contrato",
+          "Una disposición o condición específica dentro del contrato",
+          "La firma de las dos partes",
+          "El plazo de entrega del pedido"
+        ],
+        "correctIndex": 1,
+        "explanation": "Una cláusula es cada disposición particular que regula un aspecto concreto de un contrato."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce la frase al español.",
+        "source": "We need more capital to fund the long-term investment.",
+        "answer": "Necesitamos más capital para financiar la inversión a largo plazo.",
+        "altAnswers": [
+          "Necesitamos más capital para financiar la inversión a largo plazo de la empresa."
+        ],
+        "explanation": "'Capital' y 'a largo plazo' son términos clave en el ámbito de las inversiones."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la frase con el término adecuado.",
+        "sentence": "El consejo de administración aprobó un nuevo ___ anual.",
+        "answer": "presupuesto",
+        "hint": "Plan económico que estima ingresos y gastos futuros.",
+        "explanation": "'Presupuesto' es la estimación planificada de ingresos y gastos para un período determinado."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término financiero con su definición.",
+        "pairs": [
+          {
+            "left": "beneficios",
+            "right": "Ganancias que obtiene una empresa"
+          },
+          {
+            "left": "pérdidas",
+            "right": "Dinero perdido cuando los gastos superan a los ingresos"
+          },
+          {
+            "left": "rentabilidad",
+            "right": "Capacidad de generar beneficio en relación con la inversión"
+          },
+          {
+            "left": "ingresos",
+            "right": "Dinero que entra en la empresa por sus actividades"
+          }
+        ],
+        "explanation": "Estos cuatro términos son fundamentales para describir el desempeño financiero de una empresa."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Cuál de las siguientes frases es apropiada para cerrar un correo comercial formal?",
+        "options": [
+          "Nos vemos pronto, ¡un abrazo!",
+          "Sin otro particular, le saluda atentamente.",
+          "Chao, hasta luego",
+          "Bueno, eso es todo"
+        ],
+        "correctIndex": 1,
+        "explanation": "'Sin otro particular, le saluda atentamente' es una fórmula de despedida propia del registro formal y comercial."
+      }
+    ]
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-1",
+    "level": "C2",
+    "number": 142,
+    "title": "C1/C2 Vocabulary Practice, Part 1 of 30",
     "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
-    "duration": "43 min",
+    "duration": "10 min",
     "sections": [
       {
         "heading": "Lección 1: Subjuntivo: Repaso y Matices Avanzados",
@@ -14225,7 +17219,34 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"El Subjuntivo con Aunque y Otras Concesivas\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles de estas palabras pertenecen al ámbito de la filosofía? (Elige todas las correctas)",
+        "options": [
+          "el postulado",
+          "el escrutinio",
+          "el determinismo",
+          "la vehemencia"
+        ],
+        "correctIndexes": [
+          0,
+          2
+        ],
+        "explanation": "\"El postulado\" y \"el determinismo\" son conceptos filosóficos; las otras dos pertenecen a la política y al debate."
+      }
+    ]
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-2",
+    "level": "C2",
+    "number": 143,
+    "title": "C1/C2 Vocabulary Practice, Part 2 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Lección 3: Nominalización y Sustantivación",
         "body": [
@@ -14577,7 +17598,26 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Gerundio vs. Infinitivo: Usos Avanzados\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Completa con la palabra correcta.",
+        "sentence": "El abogado presentó una ___ sólida para desestimar la demanda.",
+        "answer": "argumentación",
+        "explanation": "\"La argumentación\" es el conjunto de razones que sostienen una postura."
+      }
+    ]
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-3",
+    "level": "C2",
+    "number": 144,
+    "title": "C1/C2 Vocabulary Practice, Part 3 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "6 min",
+    "sections": [
       {
         "heading": "Lección 5: Voz Pasiva, Se Pasivo y Se Impersonal: Dominio Completo",
         "body": [
@@ -14753,7 +17793,46 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Voz Pasiva, Se Pasivo y Se Impersonal: Dominio Completo\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Empareja cada término académico con su significado.",
+        "pairs": [
+          {
+            "left": "el postulado",
+            "right": "idea que se acepta como punto de partida sin necesidad de demostrarla"
+          },
+          {
+            "left": "la apropiación indebida",
+            "right": "uso no autorizado de las ideas de otra persona como si fueran propias"
+          },
+          {
+            "left": "el corpus documental",
+            "right": "conjunto de textos y fuentes que se analizan en una investigación"
+          },
+          {
+            "left": "la desestimación",
+            "right": "acción de rechazar un argumento por considerarlo inválido"
+          },
+          {
+            "left": "glosar",
+            "right": "explicar o comentar un texto con palabras propias"
+          }
+        ],
+        "explanation": "Estos cinco términos aparecen con frecuencia en la escritura académica."
+      }
+    ]
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-4",
+    "level": "C2",
+    "number": 145,
+    "title": "C1/C2 Vocabulary Practice, Part 4 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "6 min",
+    "sections": [
       {
         "heading": "Lección 6: Estilo Indirecto Libre y Narración Literaria",
         "body": [
@@ -14929,7 +18008,31 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Estilo Indirecto Libre y Narración Literaria\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué palabra describe a alguien que duda sistemáticamente antes de aceptar una afirmación?",
+        "options": [
+          "el relativista",
+          "el escéptico",
+          "el idealista",
+          "el determinista"
+        ],
+        "correctIndex": 1,
+        "explanation": "\"El escéptico\" es quien mantiene una actitud de duda constante frente a las afirmaciones."
+      }
+    ]
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-5",
+    "level": "C2",
+    "number": 146,
+    "title": "C1/C2 Vocabulary Practice, Part 5 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Lección 7: Por y Para: Precisión Profesional",
         "body": [
@@ -15286,62 +18389,29 @@ export const C2_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Cuáles de estas palabras pertenecen al ámbito de la filosofía? (Elige todas las correctas)",
+        "question": "¿Cuáles palabras se relacionan con el registro formal y la cortesía? (Elige todas las correctas)",
         "options": [
-          "el postulado",
-          "el escrutinio",
-          "el determinismo",
-          "la vehemencia"
+          "la solemnidad",
+          "el chascarrillo",
+          "la atenuación",
+          "el circunloquio"
         ],
         "correctIndexes": [
           0,
-          2
+          2,
+          3
         ],
-        "explanation": "\"El postulado\" y \"el determinismo\" son conceptos filosóficos; las otras dos pertenecen a la política y al debate."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Completa con la palabra correcta.",
-        "sentence": "El abogado presentó una ___ sólida para desestimar la demanda.",
-        "answer": "argumentación",
-        "explanation": "\"La argumentación\" es el conjunto de razones que sostienen una postura."
-      },
-      {
-        "type": "matching",
-        "instructions": "Empareja cada término académico con su significado.",
-        "pairs": [
-          {
-            "left": "el postulado",
-            "right": "idea que se acepta como punto de partida sin necesidad de demostrarla"
-          },
-          {
-            "left": "la apropiación indebida",
-            "right": "uso no autorizado de las ideas de otra persona como si fueran propias"
-          },
-          {
-            "left": "el corpus documental",
-            "right": "conjunto de textos y fuentes que se analizan en una investigación"
-          },
-          {
-            "left": "la desestimación",
-            "right": "acción de rechazar un argumento por considerarlo inválido"
-          },
-          {
-            "left": "glosar",
-            "right": "explicar o comentar un texto con palabras propias"
-          }
-        ],
-        "explanation": "Estos cinco términos aparecen con frecuencia en la escritura académica."
+        "explanation": "\"El chascarrillo\" pertenece al humor coloquial, no al registro formal."
       }
     ]
   },
   {
-    "slug": "c1c2-vocabulary-practice-part-2",
+    "slug": "c1c2-vocabulary-practice-6",
     "level": "C2",
-    "number": 46,
-    "title": "C1/C2 Vocabulary Practice (Part 2 of 6)",
+    "number": 147,
+    "title": "C1/C2 Vocabulary Practice, Part 6 of 30",
     "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
-    "duration": "36 min",
+    "duration": "10 min",
     "sections": [
       {
         "heading": "Lección 9: Verbos Preposicionales y Régimen Verbal",
@@ -15694,7 +18764,26 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Conectores Discursivos Avanzados\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Completa con la palabra correcta.",
+        "sentence": "El crítico elogió la ___ de la película, capaz de sorprender hasta el final.",
+        "answer": "trama",
+        "explanation": "\"La trama\" es el conjunto de sucesos que conforman una narración."
+      }
+    ]
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-7",
+    "level": "C2",
+    "number": 148,
+    "title": "C1/C2 Vocabulary Practice, Part 7 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "6 min",
+    "sections": [
       {
         "heading": "Lección 11: Estructuras Enfáticas y Focalización",
         "body": [
@@ -15870,7 +18959,46 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Estructuras Enfáticas y Focalización\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Empareja cada figura retórica con su definición.",
+        "pairs": [
+          {
+            "left": "el tropo",
+            "right": "uso de una palabra en un sentido distinto del literal para crear un efecto expresivo"
+          },
+          {
+            "left": "la hipérbole",
+            "right": "exageración deliberada de una cualidad o una acción"
+          },
+          {
+            "left": "la anáfora",
+            "right": "repetición de una palabra al inicio de varias frases sucesivas"
+          },
+          {
+            "left": "la alegoría",
+            "right": "representación de una idea abstracta mediante símbolos concretos"
+          },
+          {
+            "left": "la personificación",
+            "right": "atribución de cualidades humanas a algo que no lo es"
+          }
+        ],
+        "explanation": "Estas cinco figuras retóricas enriquecen el lenguaje figurado."
+      }
+    ]
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-8",
+    "level": "C2",
+    "number": 149,
+    "title": "C1/C2 Vocabulary Practice, Part 8 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Lección 12: Futuro y Condicional para Conjetura",
         "body": [
@@ -16218,7 +19346,31 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Registro Formal vs. Informal: Tú, Usted y Vos\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué palabra describe una emoción de tristeza serena por algo ausente?",
+        "options": [
+          "la añoranza",
+          "el bochorno",
+          "la zozobra",
+          "el ansia"
+        ],
+        "correctIndex": 0,
+        "explanation": "\"La añoranza\" es la tristeza que se siente por la ausencia de algo o alguien querido."
+      }
+    ]
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-9",
+    "level": "C2",
+    "number": 150,
+    "title": "C1/C2 Vocabulary Practice, Part 9 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "6 min",
+    "sections": [
       {
         "heading": "Lección 14: El Voseo: Gramática y Uso",
         "body": [
@@ -16394,7 +19546,34 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"El Voseo: Gramática y Uso\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "¿Cuáles palabras pertenecen al vocabulario de la negociación? (Elige todas las correctas)",
+        "options": [
+          "el planteamiento inicial",
+          "el óleo",
+          "la contraparte",
+          "el libreto"
+        ],
+        "correctIndexes": [
+          0,
+          2
+        ],
+        "explanation": "\"El óleo\" y \"el libreto\" pertenecen al arte y al cine, no a la negociación."
+      }
+    ]
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-10",
+    "level": "C2",
+    "number": 151,
+    "title": "C1/C2 Vocabulary Practice, Part 10 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "6 min",
+    "sections": [
       {
         "heading": "Lección 15: Variación Léxica Regional",
         "body": [
@@ -16574,42 +19753,21 @@ export const C2_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "¿Qué palabra describe a alguien que duda sistemáticamente antes de aceptar una afirmación?",
-        "options": [
-          "el relativista",
-          "el escéptico",
-          "el idealista",
-          "el determinista"
-        ],
-        "correctIndex": 1,
-        "explanation": "\"El escéptico\" es quien mantiene una actitud de duda constante frente a las afirmaciones."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles palabras se relacionan con el registro formal y la cortesía? (Elige todas las correctas)",
-        "options": [
-          "la solemnidad",
-          "el chascarrillo",
-          "la atenuación",
-          "el circunloquio"
-        ],
-        "correctIndexes": [
-          0,
-          2,
-          3
-        ],
-        "explanation": "\"El chascarrillo\" pertenece al humor coloquial, no al registro formal."
+        "type": "fill-blank",
+        "prompt": "Completa con la palabra correcta.",
+        "sentence": "El gobierno anunció una nueva ___ para reducir la contaminación industrial.",
+        "answer": "legislación",
+        "explanation": "\"La legislación\" es el conjunto de leyes que regulan una materia determinada, en este caso la contaminación industrial."
       }
     ]
   },
   {
-    "slug": "c1c2-vocabulary-practice-part-3",
+    "slug": "c1c2-vocabulary-practice-11",
     "level": "C2",
-    "number": 47,
-    "title": "C1/C2 Vocabulary Practice (Part 3 of 6)",
+    "number": 152,
+    "title": "C1/C2 Vocabulary Practice, Part 11 of 30",
     "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
-    "duration": "37 min",
+    "duration": "10 min",
     "sections": [
       {
         "heading": "Lección 16: Español Neutro vs. Coloquial",
@@ -16962,7 +20120,31 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Cartas y Correos Formales\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué palabra describe el error lógico de asumir como prueba lo que se debe demostrar?",
+        "options": [
+          "el sofisma",
+          "la petición de principio",
+          "el paralogismo",
+          "la falacia"
+        ],
+        "correctIndex": 1,
+        "explanation": "\"La petición de principio\" es el nombre técnico de ese error de razonamiento circular."
+      }
+    ]
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-12",
+    "level": "C2",
+    "number": 153,
+    "title": "C1/C2 Vocabulary Practice, Part 12 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "6 min",
+    "sections": [
       {
         "heading": "Lección 18: Lenguaje Académico y Ensayos Argumentativos",
         "body": [
@@ -17138,7 +20320,46 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Lenguaje Académico y Ensayos Argumentativos\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Empareja cada término psicológico con su significado.",
+        "pairs": [
+          {
+            "left": "la entereza",
+            "right": "fortaleza interior para afrontar la adversidad sin derrumbarse"
+          },
+          {
+            "left": "la fragilidad emocional",
+            "right": "facilidad con la que alguien puede verse afectado emocionalmente"
+          },
+          {
+            "left": "la evitación emocional",
+            "right": "estrategia inconsciente para alejarse de un sentimiento doloroso"
+          },
+          {
+            "left": "la valía personal",
+            "right": "percepción que alguien tiene sobre su propio valor y capacidades"
+          },
+          {
+            "left": "el desapego emocional",
+            "right": "distancia afectiva que alguien mantiene frente a una persona o una situación"
+          }
+        ],
+        "explanation": "Estos cinco términos describen estados y estrategias psicológicas complejas."
+      }
+    ]
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-13",
+    "level": "C2",
+    "number": 154,
+    "title": "C1/C2 Vocabulary Practice, Part 13 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "6 min",
+    "sections": [
       {
         "heading": "Lección 19: Español Jurídico y Administrativo",
         "body": [
@@ -17314,7 +20535,31 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Español Jurídico y Administrativo\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué palabra significa dar un rodeo para no decir algo directamente?",
+        "options": [
+          "el circunloquio",
+          "la elocuencia",
+          "la vehemencia",
+          "el sofisma"
+        ],
+        "correctIndex": 0,
+        "explanation": "\"El circunloquio\" es la manera de expresar algo dando un rodeo en lugar de decirlo directamente."
+      }
+    ]
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-14",
+    "level": "C2",
+    "number": 155,
+    "title": "C1/C2 Vocabulary Practice, Part 14 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Lección 20: Español Médico y de la Salud",
         "body": [
@@ -17662,7 +20907,18 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Modismos y Expresiones Idiomáticas\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-15",
+    "level": "C2",
+    "number": 156,
+    "title": "C1/C2 Vocabulary Practice, Part 15 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "6 min",
+    "sections": [
       {
         "heading": "Lección 22: Refranes y Dichos Populares",
         "body": [
@@ -17840,50 +21096,15 @@ export const C2_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": [
-      {
-        "type": "fill-blank",
-        "prompt": "Completa con la palabra correcta.",
-        "sentence": "El crítico elogió la ___ de la película, capaz de sorprender hasta el final.",
-        "answer": "trama",
-        "explanation": "\"La trama\" es el conjunto de sucesos que conforman una narración."
-      },
-      {
-        "type": "matching",
-        "instructions": "Empareja cada figura retórica con su definición.",
-        "pairs": [
-          {
-            "left": "el tropo",
-            "right": "uso de una palabra en un sentido distinto del literal para crear un efecto expresivo"
-          },
-          {
-            "left": "la hipérbole",
-            "right": "exageración deliberada de una cualidad o una acción"
-          },
-          {
-            "left": "la anáfora",
-            "right": "repetición de una palabra al inicio de varias frases sucesivas"
-          },
-          {
-            "left": "la alegoría",
-            "right": "representación de una idea abstracta mediante símbolos concretos"
-          },
-          {
-            "left": "la personificación",
-            "right": "atribución de cualidades humanas a algo que no lo es"
-          }
-        ],
-        "explanation": "Estas cinco figuras retóricas enriquecen el lenguaje figurado."
-      }
-    ]
+    "exercises": []
   },
   {
-    "slug": "c1c2-vocabulary-practice-part-4",
+    "slug": "c1c2-vocabulary-practice-16",
     "level": "C2",
-    "number": 48,
-    "title": "C1/C2 Vocabulary Practice (Part 4 of 6)",
+    "number": 157,
+    "title": "C1/C2 Vocabulary Practice, Part 16 of 30",
     "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
-    "duration": "36 min",
+    "duration": "5 min",
     "sections": [
       {
         "heading": "Lección 23: Humor y Juegos de Palabras",
@@ -18060,7 +21281,18 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Humor y Juegos de Palabras\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-17",
+    "level": "C2",
+    "number": 158,
+    "title": "C1/C2 Vocabulary Practice, Part 17 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "5 min",
+    "sections": [
       {
         "heading": "Lección 24: Metáforas y Lenguaje Figurado",
         "body": [
@@ -18236,7 +21468,18 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Metáforas y Lenguaje Figurado\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-18",
+    "level": "C2",
+    "number": 159,
+    "title": "C1/C2 Vocabulary Practice, Part 18 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "5 min",
+    "sections": [
       {
         "heading": "Lección 25: Eufemismos y Lenguaje Indirecto",
         "body": [
@@ -18412,7 +21655,18 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Eufemismos y Lenguaje Indirecto\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-19",
+    "level": "C2",
+    "number": 160,
+    "title": "C1/C2 Vocabulary Practice, Part 19 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Lección 26: Expresiones de Sorpresa y Énfasis",
         "body": [
@@ -18764,7 +22018,18 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Diminutivos, Aumentativos y su Valor Expresivo\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-20",
+    "level": "C2",
+    "number": 161,
+    "title": "C1/C2 Vocabulary Practice, Part 20 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Lección 28: Modismos del Mundo de los Negocios",
         "body": [
@@ -19114,43 +22379,15 @@ export const C2_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": [
-      {
-        "type": "multiple-choice",
-        "question": "¿Qué palabra describe una emoción de tristeza serena por algo ausente?",
-        "options": [
-          "la añoranza",
-          "el bochorno",
-          "la zozobra",
-          "el ansia"
-        ],
-        "correctIndex": 0,
-        "explanation": "\"La añoranza\" es la tristeza que se siente por la ausencia de algo o alguien querido."
-      },
-      {
-        "type": "multi-select",
-        "question": "¿Cuáles palabras pertenecen al vocabulario de la negociación? (Elige todas las correctas)",
-        "options": [
-          "el planteamiento inicial",
-          "el óleo",
-          "la contraparte",
-          "el libreto"
-        ],
-        "correctIndexes": [
-          0,
-          2
-        ],
-        "explanation": "\"El óleo\" y \"el libreto\" pertenecen al arte y al cine, no a la negociación."
-      }
-    ]
+    "exercises": []
   },
   {
-    "slug": "c1c2-vocabulary-practice-part-5",
+    "slug": "c1c2-vocabulary-practice-21",
     "level": "C2",
-    "number": 49,
-    "title": "C1/C2 Vocabulary Practice (Part 5 of 6)",
+    "number": 162,
+    "title": "C1/C2 Vocabulary Practice, Part 21 of 30",
     "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
-    "duration": "36 min",
+    "duration": "10 min",
     "sections": [
       {
         "heading": "Lección 30: El Debate y la Argumentación Persuasiva",
@@ -19503,7 +22740,18 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Presentaciones Orales y Negociación\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-22",
+    "level": "C2",
+    "number": 163,
+    "title": "C1/C2 Vocabulary Practice, Part 22 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Lección 32: Citas, Referencias y Estilo de Citación",
         "body": [
@@ -19855,7 +23103,18 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Preguntas Retóricas y Estructuras de Énfasis\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-23",
+    "level": "C2",
+    "number": 164,
+    "title": "C1/C2 Vocabulary Practice, Part 23 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Lección 34: Español para Entrevistas de Trabajo",
         "body": [
@@ -20207,7 +23466,18 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Resolución de Conflictos y Mediación Verbal\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-24",
+    "level": "C2",
+    "number": 165,
+    "title": "C1/C2 Vocabulary Practice, Part 24 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Lección 36: Narrativa Histórica: Tiempos Verbales y Estructura",
         "body": [
@@ -20379,38 +23649,7 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Narrativa Histórica: Tiempos Verbales y Estructura\"."
           }
         ]
-      }
-    ],
-    "exercises": [
-      {
-        "type": "fill-blank",
-        "prompt": "Completa con la palabra correcta.",
-        "sentence": "El gobierno anunció una nueva ___ para reducir la contaminación industrial.",
-        "answer": "legislación",
-        "explanation": "\"La legislación\" es el conjunto de leyes que regulan una materia determinada, en este caso la contaminación industrial."
       },
-      {
-        "type": "multiple-choice",
-        "question": "¿Qué palabra describe el error lógico de asumir como prueba lo que se debe demostrar?",
-        "options": [
-          "el sofisma",
-          "la petición de principio",
-          "el paralogismo",
-          "la falacia"
-        ],
-        "correctIndex": 1,
-        "explanation": "\"La petición de principio\" es el nombre técnico de ese error de razonamiento circular."
-      }
-    ]
-  },
-  {
-    "slug": "c1c2-vocabulary-practice-part-6",
-    "level": "C2",
-    "number": 50,
-    "title": "C1/C2 Vocabulary Practice (Part 6 of 6)",
-    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
-    "duration": "37 min",
-    "sections": [
       {
         "heading": "Lección 37: Español para las Ciencias y la Tecnología",
         "body": [
@@ -20586,7 +23825,18 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Español para las Ciencias y la Tecnología\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-25",
+    "level": "C2",
+    "number": 166,
+    "title": "C1/C2 Vocabulary Practice, Part 25 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "5 min",
+    "sections": [
       {
         "heading": "Lección 38: Español para el Medio Ambiente y la Política",
         "body": [
@@ -20762,7 +24012,18 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Español para el Medio Ambiente y la Política\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-26",
+    "level": "C2",
+    "number": 167,
+    "title": "C1/C2 Vocabulary Practice, Part 26 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "6 min",
+    "sections": [
       {
         "heading": "Lección 39: Español para la Filosofía y los Conceptos Abstractos",
         "body": [
@@ -20938,7 +24199,18 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Español para la Filosofía y los Conceptos Abstractos\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-27",
+    "level": "C2",
+    "number": 168,
+    "title": "C1/C2 Vocabulary Practice, Part 27 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "5 min",
+    "sections": [
       {
         "heading": "Lección 40: Español para la Psicología y las Emociones Complejas",
         "body": [
@@ -21114,7 +24386,18 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Español para la Psicología y las Emociones Complejas\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-28",
+    "level": "C2",
+    "number": 169,
+    "title": "C1/C2 Vocabulary Practice, Part 28 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "5 min",
+    "sections": [
       {
         "heading": "Lección 41: Crítica de Arte, Cine y Literatura",
         "body": [
@@ -21290,7 +24573,18 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Crítica de Arte, Cine y Literatura\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-29",
+    "level": "C2",
+    "number": 170,
+    "title": "C1/C2 Vocabulary Practice, Part 29 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "6 min",
+    "sections": [
       {
         "heading": "Lección 42: Español para los Negocios y la Economía",
         "body": [
@@ -21466,7 +24760,18 @@ export const C2_LESSONS: Lesson[] = [
             "explanation": "Palabras del tema \"Español para los Negocios y la Economía\"."
           }
         ]
-      },
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "slug": "c1c2-vocabulary-practice-30",
+    "level": "C2",
+    "number": 171,
+    "title": "C1/C2 Vocabulary Practice, Part 30 of 30",
+    "summary": "Pon a prueba las 1500 palabras del vocabulario de C1/C2, organizadas por lección.",
+    "duration": "5 min",
+    "sections": [
       {
         "heading": "Lección 43: Escritura Creativa: Técnicas Literarias Avanzadas",
         "body": [
@@ -21640,55 +24945,15 @@ export const C2_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": [
-      {
-        "type": "matching",
-        "instructions": "Empareja cada término psicológico con su significado.",
-        "pairs": [
-          {
-            "left": "la entereza",
-            "right": "fortaleza interior para afrontar la adversidad sin derrumbarse"
-          },
-          {
-            "left": "la fragilidad emocional",
-            "right": "facilidad con la que alguien puede verse afectado emocionalmente"
-          },
-          {
-            "left": "la evitación emocional",
-            "right": "estrategia inconsciente para alejarse de un sentimiento doloroso"
-          },
-          {
-            "left": "la valía personal",
-            "right": "percepción que alguien tiene sobre su propio valor y capacidades"
-          },
-          {
-            "left": "el desapego emocional",
-            "right": "distancia afectiva que alguien mantiene frente a una persona o una situación"
-          }
-        ],
-        "explanation": "Estos cinco términos describen estados y estrategias psicológicas complejas."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "¿Qué palabra significa dar un rodeo para no decir algo directamente?",
-        "options": [
-          "el circunloquio",
-          "la elocuencia",
-          "la vehemencia",
-          "el sofisma"
-        ],
-        "correctIndex": 0,
-        "explanation": "\"El circunloquio\" es la manera de expresar algo dando un rodeo en lugar de decirlo directamente."
-      }
-    ]
+    "exercises": []
   },
   {
-    "slug": "c1c2-comprehensive-review",
+    "slug": "c1c2-comprehensive-review-1",
     "level": "C2",
-    "number": 51,
-    "title": "C1/C2 Comprehensive Review",
+    "number": 172,
+    "title": "C1/C2 Comprehensive Review, Part 1 of 3",
     "summary": "Repasa los 43 temas gramaticales y de registro de C1/C2, y realiza un examen final de preguntas.",
-    "duration": "30 min",
+    "duration": "10 min",
     "sections": [
       {
         "heading": "Subjuntivo: Repaso y Matices Avanzados",
@@ -21766,186 +25031,6 @@ export const C2_LESSONS: Lesson[] = [
         "heading": "Registro Formal vs. Informal",
         "body": [
           "La elección entre tú, usted y vos depende del contexto social, la edad, la jerarquía y la región. Un mismo trato puede resultar cercano en un país y ofensivo en otro."
-        ]
-      },
-      {
-        "heading": "El Voseo",
-        "body": [
-          "El voseo sustituye a \"tú\" por \"vos\" con conjugaciones propias (vos tenés, vos podés) en Argentina, Uruguay y partes de Centroamérica, y convive con sus propias normas de formalidad."
-        ]
-      },
-      {
-        "heading": "Variación Léxica Regional",
-        "body": [
-          "Una misma realidad puede tener varios nombres según el país (el carro, el coche, el auto), y reconocer estas variantes es clave para entender el español de distintas regiones."
-        ]
-      },
-      {
-        "heading": "Español Neutro vs. Coloquial",
-        "body": [
-          "El español neutro se usa en medios y contextos internacionales para minimizar marcas regionales; el coloquial refleja la variedad y la espontaneidad del habla cotidiana de una comunidad concreta."
-        ]
-      },
-      {
-        "heading": "Cartas y Correos Formales",
-        "body": [
-          "La correspondencia formal sigue fórmulas fijas de apertura y cierre (\"estimado/a\", \"quedo a la espera de su respuesta\", \"atentamente\") que estructuran el tono profesional del mensaje."
-        ]
-      },
-      {
-        "heading": "Lenguaje Académico y Ensayos Argumentativos",
-        "body": [
-          "Un ensayo argumentativo se organiza en torno a una tesis sostenida por premisas y evidencia, evitando la primera persona y empleando conectores que marcan la progresión lógica del razonamiento."
-        ]
-      },
-      {
-        "heading": "Español Jurídico y Administrativo",
-        "body": [
-          "El registro jurídico y burocrático emplea fórmulas fijas (\"por la presente\", \"en virtud de\", \"el suscrito\") que dan al texto una precisión y una formalidad propias de los documentos oficiales."
-        ]
-      },
-      {
-        "heading": "Español Médico y de la Salud",
-        "body": [
-          "El registro clínico exige precisión al describir síntomas, antecedentes y diagnósticos, yendo más allá de expresiones básicas como \"me duele\" hacia una terminología más técnica."
-        ]
-      },
-      {
-        "heading": "Modismos y Expresiones Idiomáticas",
-        "body": [
-          "Los modismos (\"tomar el pelo\", \"estar en las nubes\") no se interpretan literalmente; su significado se aprende como una unidad fija dentro de la cultura hispanohablante."
-        ]
-      },
-      {
-        "heading": "Refranes y Dichos Populares",
-        "body": [
-          "Los refranes condensan una enseñanza o una observación sobre la vida (\"más vale tarde que nunca\") transmitida de generación en generación."
-        ]
-      },
-      {
-        "heading": "Humor y Juegos de Palabras",
-        "body": [
-          "El humor en español se construye a menudo mediante el doble sentido, la ironía y el juego fonético entre palabras parecidas, variando considerablemente según la región."
-        ]
-      },
-      {
-        "heading": "Metáforas y Lenguaje Figurado",
-        "body": [
-          "El lenguaje figurado —metáforas, símiles, hipérboles— añade color y profundidad expresiva tanto al habla cotidiana como a la escritura literaria."
-        ]
-      },
-      {
-        "heading": "Eufemismos y Lenguaje Indirecto",
-        "body": [
-          "Los eufemismos suavizan temas delicados (la muerte, el dinero, un despido) sustituyendo una expresión directa por otra más aceptable socialmente."
-        ]
-      },
-      {
-        "heading": "Expresiones de Sorpresa y Énfasis",
-        "body": [
-          "Expresiones como \"¡qué va!\" o \"¡no me digas!\" transmiten sorpresa, incredulidad o énfasis de una manera mucho más natural que las fórmulas de manual."
-        ]
-      },
-      {
-        "heading": "Diminutivos, Aumentativos y su Valor Expresivo",
-        "body": [
-          "Sufijos como -ito, -ísimo o -ón no solo indican tamaño: también transmiten afecto, sarcasmo o intensidad, y su uso varía notablemente según el país."
-        ]
-      },
-      {
-        "heading": "Modismos del Mundo de los Negocios",
-        "body": [
-          "Expresiones como \"ir al grano\" o \"poner las cartas sobre la mesa\" son parte del registro profesional cotidiano en el mundo empresarial hispanohablante."
-        ]
-      },
-      {
-        "heading": "Estrategias de Comprensión Auditiva y Lectora",
-        "body": [
-          "Comprender un discurso rápido o un texto denso exige inferir significados a partir del contexto y reconocer los cambios de registro que un hablante nativo no siempre explicita."
-        ]
-      },
-      {
-        "heading": "El Debate y la Argumentación Persuasiva",
-        "body": [
-          "Un buen argumento persuasivo suele reconocer primero un punto válido del contrario antes de refutarlo, evitando así una confrontación directa poco eficaz."
-        ]
-      },
-      {
-        "heading": "Presentaciones Orales y Negociación",
-        "body": [
-          "El lenguaje de la negociación incluye fórmulas para proponer, ceder y llegar a acuerdos, equilibrando firmeza y flexibilidad según el momento de la conversación."
-        ]
-      },
-      {
-        "heading": "Citas, Referencias y Estilo de Citación",
-        "body": [
-          "Citar con precisión implica distinguir entre la cita textual y la paráfrasis, y documentar siempre el origen de la información con claridad."
-        ]
-      },
-      {
-        "heading": "Preguntas Retóricas y Estructuras de Énfasis",
-        "body": [
-          "Una pregunta retórica no busca respuesta, sino producir un efecto persuasivo o reflexivo en quien escucha o lee."
-        ]
-      },
-      {
-        "heading": "Español para Entrevistas de Trabajo",
-        "body": [
-          "Describir la propia trayectoria profesional en una entrevista exige un registro seguro, natural y apropiadamente formal, sin caer en la rigidez ni en la informalidad excesiva."
-        ]
-      },
-      {
-        "heading": "Resolución de Conflictos y Mediación Verbal",
-        "body": [
-          "Mediar un conflicto verbalmente implica reconocer la perspectiva de la otra parte antes de proponer una solución que ambas puedan aceptar."
-        ]
-      },
-      {
-        "heading": "Narrativa Histórica: Tiempos Verbales y Estructura",
-        "body": [
-          "El relato histórico combina el pretérito para los hechos puntuales, el imperfecto para el contexto y el pluscuamperfecto para lo ocurrido antes de esos hechos."
-        ]
-      },
-      {
-        "heading": "Español para las Ciencias y la Tecnología",
-        "body": [
-          "Explicar una idea científica o tecnológica en español exige un vocabulario preciso para describir hipótesis, métodos y hallazgos con el registro propio del periodismo especializado."
-        ]
-      },
-      {
-        "heading": "Español para el Medio Ambiente y la Política",
-        "body": [
-          "El discurso político y ambiental combina vocabulario técnico (la gobernanza, la degradación ambiental) con estructuras propias de la argumentación pública."
-        ]
-      },
-      {
-        "heading": "Español para la Filosofía y los Conceptos Abstractos",
-        "body": [
-          "Razonar filosóficamente en español requiere dominar el vocabulario abstracto necesario para contraponer posturas como el libre albedrío y el determinismo, o el idealismo y el materialismo."
-        ]
-      },
-      {
-        "heading": "Español para la Psicología y las Emociones Complejas",
-        "body": [
-          "Describir estados emocionales complejos —la ambivalencia, el desapego, la introspección— exige un vocabulario más preciso que el de las emociones básicas."
-        ]
-      },
-      {
-        "heading": "Crítica de Arte, Cine y Literatura",
-        "body": [
-          "Un crítico evalúa una obra atendiendo a su trama, su estilo y su impronta artística, empleando un vocabulario especializado propio del análisis cultural."
-        ]
-      },
-      {
-        "heading": "Español para los Negocios y la Economía",
-        "body": [
-          "El registro económico y empresarial describe estrategias, acuerdos y balances con una precisión terminológica propia del periodismo financiero."
-        ]
-      },
-      {
-        "heading": "Escritura Creativa: Técnicas Literarias Avanzadas",
-        "body": [
-          "Un escritor recurre conscientemente a técnicas como la analepsis, la prolepsis o el punto de vista narrativo para construir el efecto que busca en el lector."
         ]
       }
     ],
@@ -22037,7 +25122,103 @@ export const C2_LESSONS: Lesson[] = [
         ],
         "correctIndex": 0,
         "explanation": "\"Ser aburrido\" describe una cualidad permanente; \"estar aburrido\" describe un estado temporal — el mismo adjetivo cambia de sentido según el verbo."
+      }
+    ]
+  },
+  {
+    "slug": "c1c2-comprehensive-review-2",
+    "level": "C2",
+    "number": 173,
+    "title": "C1/C2 Comprehensive Review, Part 2 of 3",
+    "summary": "Repasa los 43 temas gramaticales y de registro de C1/C2, y realiza un examen final de preguntas.",
+    "duration": "10 min",
+    "sections": [
+      {
+        "heading": "El Voseo",
+        "body": [
+          "El voseo sustituye a \"tú\" por \"vos\" con conjugaciones propias (vos tenés, vos podés) en Argentina, Uruguay y partes de Centroamérica, y convive con sus propias normas de formalidad."
+        ]
       },
+      {
+        "heading": "Variación Léxica Regional",
+        "body": [
+          "Una misma realidad puede tener varios nombres según el país (el carro, el coche, el auto), y reconocer estas variantes es clave para entender el español de distintas regiones."
+        ]
+      },
+      {
+        "heading": "Español Neutro vs. Coloquial",
+        "body": [
+          "El español neutro se usa en medios y contextos internacionales para minimizar marcas regionales; el coloquial refleja la variedad y la espontaneidad del habla cotidiana de una comunidad concreta."
+        ]
+      },
+      {
+        "heading": "Cartas y Correos Formales",
+        "body": [
+          "La correspondencia formal sigue fórmulas fijas de apertura y cierre (\"estimado/a\", \"quedo a la espera de su respuesta\", \"atentamente\") que estructuran el tono profesional del mensaje."
+        ]
+      },
+      {
+        "heading": "Lenguaje Académico y Ensayos Argumentativos",
+        "body": [
+          "Un ensayo argumentativo se organiza en torno a una tesis sostenida por premisas y evidencia, evitando la primera persona y empleando conectores que marcan la progresión lógica del razonamiento."
+        ]
+      },
+      {
+        "heading": "Español Jurídico y Administrativo",
+        "body": [
+          "El registro jurídico y burocrático emplea fórmulas fijas (\"por la presente\", \"en virtud de\", \"el suscrito\") que dan al texto una precisión y una formalidad propias de los documentos oficiales."
+        ]
+      },
+      {
+        "heading": "Español Médico y de la Salud",
+        "body": [
+          "El registro clínico exige precisión al describir síntomas, antecedentes y diagnósticos, yendo más allá de expresiones básicas como \"me duele\" hacia una terminología más técnica."
+        ]
+      },
+      {
+        "heading": "Modismos y Expresiones Idiomáticas",
+        "body": [
+          "Los modismos (\"tomar el pelo\", \"estar en las nubes\") no se interpretan literalmente; su significado se aprende como una unidad fija dentro de la cultura hispanohablante."
+        ]
+      },
+      {
+        "heading": "Refranes y Dichos Populares",
+        "body": [
+          "Los refranes condensan una enseñanza o una observación sobre la vida (\"más vale tarde que nunca\") transmitida de generación en generación."
+        ]
+      },
+      {
+        "heading": "Humor y Juegos de Palabras",
+        "body": [
+          "El humor en español se construye a menudo mediante el doble sentido, la ironía y el juego fonético entre palabras parecidas, variando considerablemente según la región."
+        ]
+      },
+      {
+        "heading": "Metáforas y Lenguaje Figurado",
+        "body": [
+          "El lenguaje figurado —metáforas, símiles, hipérboles— añade color y profundidad expresiva tanto al habla cotidiana como a la escritura literaria."
+        ]
+      },
+      {
+        "heading": "Eufemismos y Lenguaje Indirecto",
+        "body": [
+          "Los eufemismos suavizan temas delicados (la muerte, el dinero, un despido) sustituyendo una expresión directa por otra más aceptable socialmente."
+        ]
+      },
+      {
+        "heading": "Expresiones de Sorpresa y Énfasis",
+        "body": [
+          "Expresiones como \"¡qué va!\" o \"¡no me digas!\" transmiten sorpresa, incredulidad o énfasis de una manera mucho más natural que las fórmulas de manual."
+        ]
+      },
+      {
+        "heading": "Diminutivos, Aumentativos y su Valor Expresivo",
+        "body": [
+          "Sufijos como -ito, -ísimo o -ón no solo indican tamaño: también transmiten afecto, sarcasmo o intensidad, y su uso varía notablemente según el país."
+        ]
+      }
+    ],
+    "exercises": [
       {
         "type": "fill-blank",
         "prompt": "Completa con la preposición correcta.",
@@ -22137,7 +25318,115 @@ export const C2_LESSONS: Lesson[] = [
         "sentence": "___ la presente, se notifica al interesado de la resolución adoptada.",
         "answer": "Por medio de",
         "explanation": "\"Por medio de la presente\" es una fórmula fija del registro administrativo y jurídico."
+      }
+    ]
+  },
+  {
+    "slug": "c1c2-comprehensive-review-3",
+    "level": "C2",
+    "number": 174,
+    "title": "C1/C2 Comprehensive Review, Part 3 of 3",
+    "summary": "Repasa los 43 temas gramaticales y de registro de C1/C2, y realiza un examen final de preguntas.",
+    "duration": "10 min",
+    "sections": [
+      {
+        "heading": "Modismos del Mundo de los Negocios",
+        "body": [
+          "Expresiones como \"ir al grano\" o \"poner las cartas sobre la mesa\" son parte del registro profesional cotidiano en el mundo empresarial hispanohablante."
+        ]
       },
+      {
+        "heading": "Estrategias de Comprensión Auditiva y Lectora",
+        "body": [
+          "Comprender un discurso rápido o un texto denso exige inferir significados a partir del contexto y reconocer los cambios de registro que un hablante nativo no siempre explicita."
+        ]
+      },
+      {
+        "heading": "El Debate y la Argumentación Persuasiva",
+        "body": [
+          "Un buen argumento persuasivo suele reconocer primero un punto válido del contrario antes de refutarlo, evitando así una confrontación directa poco eficaz."
+        ]
+      },
+      {
+        "heading": "Presentaciones Orales y Negociación",
+        "body": [
+          "El lenguaje de la negociación incluye fórmulas para proponer, ceder y llegar a acuerdos, equilibrando firmeza y flexibilidad según el momento de la conversación."
+        ]
+      },
+      {
+        "heading": "Citas, Referencias y Estilo de Citación",
+        "body": [
+          "Citar con precisión implica distinguir entre la cita textual y la paráfrasis, y documentar siempre el origen de la información con claridad."
+        ]
+      },
+      {
+        "heading": "Preguntas Retóricas y Estructuras de Énfasis",
+        "body": [
+          "Una pregunta retórica no busca respuesta, sino producir un efecto persuasivo o reflexivo en quien escucha o lee."
+        ]
+      },
+      {
+        "heading": "Español para Entrevistas de Trabajo",
+        "body": [
+          "Describir la propia trayectoria profesional en una entrevista exige un registro seguro, natural y apropiadamente formal, sin caer en la rigidez ni en la informalidad excesiva."
+        ]
+      },
+      {
+        "heading": "Resolución de Conflictos y Mediación Verbal",
+        "body": [
+          "Mediar un conflicto verbalmente implica reconocer la perspectiva de la otra parte antes de proponer una solución que ambas puedan aceptar."
+        ]
+      },
+      {
+        "heading": "Narrativa Histórica: Tiempos Verbales y Estructura",
+        "body": [
+          "El relato histórico combina el pretérito para los hechos puntuales, el imperfecto para el contexto y el pluscuamperfecto para lo ocurrido antes de esos hechos."
+        ]
+      },
+      {
+        "heading": "Español para las Ciencias y la Tecnología",
+        "body": [
+          "Explicar una idea científica o tecnológica en español exige un vocabulario preciso para describir hipótesis, métodos y hallazgos con el registro propio del periodismo especializado."
+        ]
+      },
+      {
+        "heading": "Español para el Medio Ambiente y la Política",
+        "body": [
+          "El discurso político y ambiental combina vocabulario técnico (la gobernanza, la degradación ambiental) con estructuras propias de la argumentación pública."
+        ]
+      },
+      {
+        "heading": "Español para la Filosofía y los Conceptos Abstractos",
+        "body": [
+          "Razonar filosóficamente en español requiere dominar el vocabulario abstracto necesario para contraponer posturas como el libre albedrío y el determinismo, o el idealismo y el materialismo."
+        ]
+      },
+      {
+        "heading": "Español para la Psicología y las Emociones Complejas",
+        "body": [
+          "Describir estados emocionales complejos —la ambivalencia, el desapego, la introspección— exige un vocabulario más preciso que el de las emociones básicas."
+        ]
+      },
+      {
+        "heading": "Crítica de Arte, Cine y Literatura",
+        "body": [
+          "Un crítico evalúa una obra atendiendo a su trama, su estilo y su impronta artística, empleando un vocabulario especializado propio del análisis cultural."
+        ]
+      },
+      {
+        "heading": "Español para los Negocios y la Economía",
+        "body": [
+          "El registro económico y empresarial describe estrategias, acuerdos y balances con una precisión terminológica propia del periodismo financiero."
+        ]
+      },
+      {
+        "heading": "Escritura Creativa: Técnicas Literarias Avanzadas",
+        "body": [
+          "Un escritor recurre conscientemente a técnicas como la analepsis, la prolepsis o el punto de vista narrativo para construir el efecto que busca en el lector."
+        ]
+      }
+    ],
+    "exercises": [
       {
         "type": "multiple-choice",
         "question": "¿Qué significa el modismo \"estar en las nubes\"?",

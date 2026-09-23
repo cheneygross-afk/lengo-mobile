@@ -1,23 +1,13 @@
 import type { Lesson } from "./types";
 
-// The hidden Japanese track's third grammar module: B1, building on ja-a2.ts's
-// 9 lessons (te-form, past tense, potential and たい, giving and receiving,
-// plain-form noun modification and casual register). Twelve lessons, one per
-// curriculum unit, each covering five patterns plus a dialogue, a reading, the
-// unit's kanji and key vocabulary, and speaking prompts. Kept in its own file
-// for the same reason as ja-a1.ts and ja-a2.ts -- a clean, removable unit
-// reusing the shared Lesson/Exercise/LessonSection shape (see the "JA-B1"
-// branch on Lesson["level"] in ./types.ts). No "translate" exercises here
-// either. The full kanji, vocabulary, checkpoint and grammar-reconciliation
-// data behind this module lives in data/ja-b1/.
 export const JA_B1_LESSONS: Lesson[] = [
   {
-    "slug": "changes-and-decisions",
+    "slug": "changes-and-decisions-1",
     "level": "JA-B1",
     "number": 1,
-    "title": "Changes and Decisions",
+    "title": "Changes and Decisions, Part 1 of 5",
     "summary": "Say how your abilities and habits have changed, what you decided yourself, and what was decided for you, with ようになる, ようにする, ことにする, ことになる and ことになっている.",
-    "duration": "45 min",
+    "duration": "9 min",
     "sections": [
       {
         "heading": "What This Lesson Covers",
@@ -90,7 +80,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "A change in ability over time takes ～ようになる."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "最近、テレビを（　）。 (I have stopped watching TV lately.)",
+        "options": [
+          "見ないことになりました",
+          "見ないことにしています",
+          "見なくなりました",
+          "見ないようにしました"
+        ],
+        "correctIndex": 2,
+        "explanation": "A change over time uses ～なくなる, not a decision or an effort."
       },
+      {
+        "type": "multiple-choice",
+        "question": "What does 決起 (けっき) mean?",
+        "options": [
+          "rising to action; standing up against",
+          "restoration; rehabilitation; recovery",
+          "desirable; hoped for",
+          "view; outlook"
+        ],
+        "correctIndex": 0,
+        "explanation": "決起 (けっき) means rising to action; standing up against."
+      }
+    ]
+  },
+  {
+    "slug": "changes-and-decisions-2",
+    "level": "JA-B1",
+    "number": 2,
+    "title": "Changes and Decisions, Part 2 of 5",
+    "summary": "Say how your abilities and habits have changed, what you decided yourself, and what was decided for you, with ようになる, ようにする, ことにする, ことになる and ことになっている.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "～ようにする: Make an effort to do something regularly",
         "body": [
@@ -186,7 +212,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "A decision made by others is ～ことになる."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "What does 主導 (しゅどう) mean?",
+        "options": [
+          "experience",
+          "leadership; initiative",
+          "moving forward; onward movement; advance",
+          "creation; generation"
+        ],
+        "correctIndex": 1,
+        "explanation": "主導 (しゅどう) means leadership; initiative."
       },
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 最近、朝六時に起きるようになりました。前は八時まで寝ていましたが、健康のために早く起きるようにしています。 — What has changed for the speaker?",
+        "options": [
+          "Moved to a new city",
+          "Started a night job",
+          "Gets up at six now",
+          "Sleeps until eight now"
+        ],
+        "correctIndex": 2,
+        "explanation": "The speaker now gets up at six."
+      }
+    ]
+  },
+  {
+    "slug": "changes-and-decisions-3",
+    "level": "JA-B1",
+    "number": 3,
+    "title": "Changes and Decisions, Part 3 of 5",
+    "summary": "Say how your abilities and habits have changed, what you decided yourself, and what was decided for you, with ようになる, ようにする, ことにする, ことになる and ことになっている.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "～ことになっている: A rule, custom or fixed plan",
         "body": [
@@ -304,7 +366,58 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "The text ends with the plan to teach a friend."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 来年から、東京で働くことになりました。会社の命令なので、引っ越さなければなりません。 — Who decided that the speaker will work in Tokyo?",
+        "options": [
+          "The company",
+          "The speaker's family",
+          "The speaker",
+          "The speaker's friend"
+        ],
+        "correctIndex": 0,
+        "explanation": "The phrase 会社の命令 shows the company decided."
       },
+      {
+        "type": "matching",
+        "instructions": "Match each word with its English meaning.",
+        "pairs": [
+          {
+            "left": "教育者",
+            "right": "educator"
+          },
+          {
+            "left": "大変",
+            "right": "very"
+          },
+          {
+            "left": "準ずる",
+            "right": "to apply correspondingly"
+          },
+          {
+            "left": "行き過ぎる",
+            "right": "to go too far"
+          },
+          {
+            "left": "決別",
+            "right": "separation"
+          }
+        ],
+        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
+      }
+    ]
+  },
+  {
+    "slug": "changes-and-decisions-4",
+    "level": "JA-B1",
+    "number": 4,
+    "title": "Changes and Decisions, Part 4 of 5",
+    "summary": "Say how your abilities and habits have changed, what you decided yourself, and what was decided for you, with ようになる, ようにする, ことにする, ことになる and ことになっている.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Core Kanji",
         "body": [
@@ -449,7 +562,46 @@ export const JA_B1_LESSONS: Lesson[] = [
             "en": "ka; su.giru, su.gosu -- overdo, exceed, go beyond. E.g. 経過 (keika): passage; elapsing; progress."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Match each word with its reading.",
+        "pairs": [
+          {
+            "left": "進退",
+            "right": "しんたい"
+          },
+          {
+            "left": "再建",
+            "right": "さいけん"
+          },
+          {
+            "left": "進行",
+            "right": "しんこう"
+          },
+          {
+            "left": "成人病",
+            "right": "せいじんびょう"
+          },
+          {
+            "left": "導入",
+            "right": "どうにゅう"
+          }
+        ],
+        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
+      }
+    ]
+  },
+  {
+    "slug": "changes-and-decisions-5",
+    "level": "JA-B1",
+    "number": 5,
+    "title": "Changes and Decisions, Part 5 of 5",
+    "summary": "Say how your abilities and habits have changed, what you decided yourself, and what was decided for you, with ようになる, ようにする, ことにする, ことになる and ことになっている.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Key Vocabulary",
         "body": [
@@ -588,120 +740,6 @@ export const JA_B1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "最近、テレビを（　）。 (I have stopped watching TV lately.)",
-        "options": [
-          "見ないことになりました",
-          "見ないことにしています",
-          "見なくなりました",
-          "見ないようにしました"
-        ],
-        "correctIndex": 2,
-        "explanation": "A change over time uses ～なくなる, not a decision or an effort."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 決起 (けっき) mean?",
-        "options": [
-          "rising to action; standing up against",
-          "restoration; rehabilitation; recovery",
-          "desirable; hoped for",
-          "view; outlook"
-        ],
-        "correctIndex": 0,
-        "explanation": "決起 (けっき) means rising to action; standing up against."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 主導 (しゅどう) mean?",
-        "options": [
-          "experience",
-          "leadership; initiative",
-          "moving forward; onward movement; advance",
-          "creation; generation"
-        ],
-        "correctIndex": 1,
-        "explanation": "主導 (しゅどう) means leadership; initiative."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 最近、朝六時に起きるようになりました。前は八時まで寝ていましたが、健康のために早く起きるようにしています。 — What has changed for the speaker?",
-        "options": [
-          "Moved to a new city",
-          "Started a night job",
-          "Gets up at six now",
-          "Sleeps until eight now"
-        ],
-        "correctIndex": 2,
-        "explanation": "The speaker now gets up at six."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 来年から、東京で働くことになりました。会社の命令なので、引っ越さなければなりません。 — Who decided that the speaker will work in Tokyo?",
-        "options": [
-          "The company",
-          "The speaker's family",
-          "The speaker",
-          "The speaker's friend"
-        ],
-        "correctIndex": 0,
-        "explanation": "The phrase 会社の命令 shows the company decided."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its English meaning.",
-        "pairs": [
-          {
-            "left": "教育者",
-            "right": "educator"
-          },
-          {
-            "left": "大変",
-            "right": "very"
-          },
-          {
-            "left": "準ずる",
-            "right": "to apply correspondingly"
-          },
-          {
-            "left": "行き過ぎる",
-            "right": "to go too far"
-          },
-          {
-            "left": "決別",
-            "right": "separation"
-          }
-        ],
-        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its reading.",
-        "pairs": [
-          {
-            "left": "進退",
-            "right": "しんたい"
-          },
-          {
-            "left": "再建",
-            "right": "さいけん"
-          },
-          {
-            "left": "進行",
-            "right": "しんこう"
-          },
-          {
-            "left": "成人病",
-            "right": "せいじんびょう"
-          },
-          {
-            "left": "導入",
-            "right": "どうにゅう"
-          }
-        ],
-        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
-      },
-      {
         "type": "matching",
         "instructions": "Match each pattern with its meaning.",
         "pairs": [
@@ -731,12 +769,12 @@ export const JA_B1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "news-hearsay-and-impressions",
+    "slug": "news-hearsay-and-impressions-1",
     "level": "JA-B1",
-    "number": 2,
-    "title": "News, Hearsay and Impressions",
+    "number": 6,
+    "title": "News, Hearsay and Impressions, Part 1 of 5",
     "summary": "Describe how things look and report what you have heard, with そうだ (two ways), らしい, ようだ and はずだ, and match each pattern to the kind of evidence behind it.",
-    "duration": "45 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "What This Lesson Covers",
@@ -801,7 +839,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "Appearance attaches ～そう to the verb stem."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "このケーキは、とても（　）。 (This cake looks delicious.)",
+        "options": [
+          "おいしいそうです",
+          "おいしいはずがありません",
+          "おいしそうです",
+          "おいしそうらしいです"
+        ],
+        "correctIndex": 2,
+        "explanation": "Appearance uses the い-adjective stem plus そう."
       },
+      {
+        "type": "multiple-choice",
+        "question": "What does 様変わり (さまがわり) mean?",
+        "options": [
+          "changing completely; transformation",
+          "to rank next to; to come after",
+          "front part; frontage; initial pledge",
+          "reporter; journalist"
+        ],
+        "correctIndex": 0,
+        "explanation": "様変わり (さまがわり) means changing completely; transformation."
+      }
+    ]
+  },
+  {
+    "slug": "news-hearsay-and-impressions-2",
+    "level": "JA-B1",
+    "number": 7,
+    "title": "News, Hearsay and Impressions, Part 2 of 5",
+    "summary": "Describe how things look and report what you have heard, with そうだ (two ways), らしい, ようだ and はずだ, and match each pattern to the kind of evidence behind it.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "～そうだ (hearsay): Reports what someone or something said",
         "body": [
@@ -897,7 +971,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "～ようだ is the speaker's inference from what they observe."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "What does 展示会 (てんじかい) mean?",
+        "options": [
+          "last year",
+          "common sense; good sense",
+          "record; minutes",
+          "exhibition"
+        ],
+        "correctIndex": 3,
+        "explanation": "展示会 (てんじかい) means exhibition."
       },
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 天気予報では、午後から雨が降るそうです。でも、今は空が明るいので、まだ大丈夫そうですよ。 — What does the speaker say about the weather now?",
+        "options": [
+          "A typhoon is coming",
+          "It looks fine for now",
+          "It is snowing",
+          "It is raining hard"
+        ],
+        "correctIndex": 1,
+        "explanation": "The speaker says it looks all right for now."
+      }
+    ]
+  },
+  {
+    "slug": "news-hearsay-and-impressions-3",
+    "level": "JA-B1",
+    "number": 8,
+    "title": "News, Hearsay and Impressions, Part 3 of 5",
+    "summary": "Describe how things look and report what you have heard, with そうだ (two ways), らしい, ようだ and はずだ, and match each pattern to the kind of evidence behind it.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "～はずだ: A logical expectation",
         "body": [
@@ -1003,7 +1113,58 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "Last year's attendance is the reason."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Passage: あの店、来月閉店するらしいですよ。 — What does the speaker say about the shop?",
+        "options": [
+          "It is moving",
+          "It is expanding",
+          "It opened last month",
+          "It seems to be closing next month"
+        ],
+        "correctIndex": 3,
+        "explanation": "らしい reports that it is closing."
       },
+      {
+        "type": "matching",
+        "instructions": "Match each word with its English meaning.",
+        "pairs": [
+          {
+            "left": "短編",
+            "right": "short"
+          },
+          {
+            "left": "多様化",
+            "right": "diversification"
+          },
+          {
+            "left": "深み",
+            "right": "depth"
+          },
+          {
+            "left": "次長",
+            "right": "vice-chief"
+          },
+          {
+            "left": "報道",
+            "right": "report"
+          }
+        ],
+        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
+      }
+    ]
+  },
+  {
+    "slug": "news-hearsay-and-impressions-4",
+    "level": "JA-B1",
+    "number": 9,
+    "title": "News, Hearsay and Impressions, Part 4 of 5",
+    "summary": "Describe how things look and report what you have heard, with そうだ (two ways), らしい, ようだ and はずだ, and match each pattern to the kind of evidence behind it.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Core Kanji",
         "body": [
@@ -1148,7 +1309,46 @@ export const JA_B1_LESSONS: Lesson[] = [
             "en": "gou; sake.bu, yobina -- nickname, number, item. E.g. 二号 (nigou): number two; mistress."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Match each word with its reading.",
+        "pairs": [
+          {
+            "left": "好況",
+            "right": "こうきょう"
+          },
+          {
+            "left": "手記",
+            "right": "しゅき"
+          },
+          {
+            "left": "知識",
+            "right": "ちしき"
+          },
+          {
+            "left": "示す",
+            "right": "しめす"
+          },
+          {
+            "left": "水面",
+            "right": "すいめん"
+          }
+        ],
+        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
+      }
+    ]
+  },
+  {
+    "slug": "news-hearsay-and-impressions-5",
+    "level": "JA-B1",
+    "number": 10,
+    "title": "News, Hearsay and Impressions, Part 5 of 5",
+    "summary": "Describe how things look and report what you have heard, with そうだ (two ways), らしい, ようだ and はずだ, and match each pattern to the kind of evidence behind it.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Key Vocabulary",
         "body": [
@@ -1287,120 +1487,6 @@ export const JA_B1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "このケーキは、とても（　）。 (This cake looks delicious.)",
-        "options": [
-          "おいしいそうです",
-          "おいしいはずがありません",
-          "おいしそうです",
-          "おいしそうらしいです"
-        ],
-        "correctIndex": 2,
-        "explanation": "Appearance uses the い-adjective stem plus そう."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 様変わり (さまがわり) mean?",
-        "options": [
-          "changing completely; transformation",
-          "to rank next to; to come after",
-          "front part; frontage; initial pledge",
-          "reporter; journalist"
-        ],
-        "correctIndex": 0,
-        "explanation": "様変わり (さまがわり) means changing completely; transformation."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 展示会 (てんじかい) mean?",
-        "options": [
-          "last year",
-          "common sense; good sense",
-          "record; minutes",
-          "exhibition"
-        ],
-        "correctIndex": 3,
-        "explanation": "展示会 (てんじかい) means exhibition."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 天気予報では、午後から雨が降るそうです。でも、今は空が明るいので、まだ大丈夫そうですよ。 — What does the speaker say about the weather now?",
-        "options": [
-          "A typhoon is coming",
-          "It looks fine for now",
-          "It is snowing",
-          "It is raining hard"
-        ],
-        "correctIndex": 1,
-        "explanation": "The speaker says it looks all right for now."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: あの店、来月閉店するらしいですよ。 — What does the speaker say about the shop?",
-        "options": [
-          "It is moving",
-          "It is expanding",
-          "It opened last month",
-          "It seems to be closing next month"
-        ],
-        "correctIndex": 3,
-        "explanation": "らしい reports that it is closing."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its English meaning.",
-        "pairs": [
-          {
-            "left": "短編",
-            "right": "short"
-          },
-          {
-            "left": "多様化",
-            "right": "diversification"
-          },
-          {
-            "left": "深み",
-            "right": "depth"
-          },
-          {
-            "left": "次長",
-            "right": "vice-chief"
-          },
-          {
-            "left": "報道",
-            "right": "report"
-          }
-        ],
-        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its reading.",
-        "pairs": [
-          {
-            "left": "好況",
-            "right": "こうきょう"
-          },
-          {
-            "left": "手記",
-            "right": "しゅき"
-          },
-          {
-            "left": "知識",
-            "right": "ちしき"
-          },
-          {
-            "left": "示す",
-            "right": "しめす"
-          },
-          {
-            "left": "水面",
-            "right": "すいめん"
-          }
-        ],
-        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
-      },
-      {
         "type": "matching",
         "instructions": "Match each pattern with its meaning.",
         "pairs": [
@@ -1430,12 +1516,12 @@ export const JA_B1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "favors-and-requests",
+    "slug": "favors-and-requests-1",
     "level": "JA-B1",
-    "number": 3,
-    "title": "Favors and Requests",
+    "number": 11,
+    "title": "Favors and Requests, Part 1 of 5",
     "summary": "Ask for, give and thank people for favors with てあげる, てくれる, てもらう, ていただく, てほしい, ておく and てしまう.",
-    "duration": "45 min",
+    "duration": "9 min",
     "sections": [
       {
         "heading": "What This Lesson Covers",
@@ -1504,7 +1590,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "When someone does something for me, use ～てくれる."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "私は友達に地図を書いて（　）。 (I drew a map for my friend.)",
+        "options": [
+          "いただきました",
+          "くれました",
+          "もらいました",
+          "あげました"
+        ],
+        "correctIndex": 3,
+        "explanation": "I do something for a friend: ～てあげる."
       },
+      {
+        "type": "multiple-choice",
+        "question": "What does 感知 (かんち) mean?",
+        "options": [
+          "brake; drag; restraint",
+          "perception; sensing",
+          "idle; dormant",
+          "visit; call; arrival"
+        ],
+        "correctIndex": 1,
+        "explanation": "感知 (かんち) means perception; sensing."
+      }
+    ]
+  },
+  {
+    "slug": "favors-and-requests-2",
+    "level": "JA-B1",
+    "number": 12,
+    "title": "Favors and Requests, Part 2 of 5",
+    "summary": "Ask for, give and thank people for favors with てあげる, てくれる, てもらう, ていただく, てほしい, ておく and てしまう.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "～ていただく・～てくださる: Polite forms for actions by a superior",
         "body": [
@@ -1600,7 +1722,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "～ておく means to do something in advance."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "What does 助力 (じょりょく) mean?",
+        "options": [
+          "white snow",
+          "to rely on; to depend on",
+          "collection and delivery",
+          "assistance; support"
+        ],
+        "correctIndex": 3,
+        "explanation": "助力 (じょりょく) means assistance; support."
       },
+      {
+        "type": "multiple-choice",
+        "question": "Passage: もしもし、リーです。来週引っ越しをするので、荷物を運ぶのを手伝ってもらえませんか。 — What does the caller ask for?",
+        "options": [
+          "Help carrying belongings",
+          "A car ride",
+          "A place to stay",
+          "A loan"
+        ],
+        "correctIndex": 0,
+        "explanation": "The caller asks for help with carrying things."
+      }
+    ]
+  },
+  {
+    "slug": "favors-and-requests-3",
+    "level": "JA-B1",
+    "number": 13,
+    "title": "Favors and Requests, Part 3 of 5",
+    "summary": "Ask for, give and thank people for favors with てあげる, てくれる, てもらう, ていただく, てほしい, ておく and てしまう.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "～てしまう: Completion, or regret",
         "body": [
@@ -1710,7 +1868,58 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "The writer will make the reservation."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 田中さんが、駅まで車で送ってくれたので、とても助かりました。 — What did Mr. Tanaka do?",
+        "options": [
+          "Cooked dinner",
+          "Bought a train ticket",
+          "Drove the speaker to the station",
+          "Carried the luggage upstairs"
+        ],
+        "correctIndex": 2,
+        "explanation": "くれた shows Tanaka did it for the speaker."
       },
+      {
+        "type": "matching",
+        "instructions": "Match each word with its English meaning.",
+        "pairs": [
+          {
+            "left": "会談",
+            "right": "conversation"
+          },
+          {
+            "left": "助力",
+            "right": "assistance"
+          },
+          {
+            "left": "助かる",
+            "right": "to be saved"
+          },
+          {
+            "left": "同窓会",
+            "right": "alumni association"
+          },
+          {
+            "left": "所感",
+            "right": "impressions"
+          }
+        ],
+        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
+      }
+    ]
+  },
+  {
+    "slug": "favors-and-requests-4",
+    "level": "JA-B1",
+    "number": 14,
+    "title": "Favors and Requests, Part 4 of 5",
+    "summary": "Ask for, give and thank people for favors with てあげる, てくれる, てもらう, ていただく, てほしい, ておく and てしまう.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Core Kanji",
         "body": [
@@ -1855,7 +2064,46 @@ export const JA_B1_LESSONS: Lesson[] = [
             "en": "sou, su; mado, tenmado -- window, pane. E.g. 窓 (mado): window."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Match each word with its reading.",
+        "pairs": [
+          {
+            "left": "談話室",
+            "right": "だんわしつ"
+          },
+          {
+            "left": "一助",
+            "right": "いちじょ"
+          },
+          {
+            "left": "涙声",
+            "right": "なみだごえ"
+          },
+          {
+            "left": "間一髪",
+            "right": "かんいっぱつ"
+          },
+          {
+            "left": "助っ人",
+            "right": "すけっと"
+          }
+        ],
+        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
+      }
+    ]
+  },
+  {
+    "slug": "favors-and-requests-5",
+    "level": "JA-B1",
+    "number": 15,
+    "title": "Favors and Requests, Part 5 of 5",
+    "summary": "Ask for, give and thank people for favors with てあげる, てくれる, てもらう, ていただく, てほしい, ておく and てしまう.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Key Vocabulary",
         "body": [
@@ -1994,120 +2242,6 @@ export const JA_B1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "私は友達に地図を書いて（　）。 (I drew a map for my friend.)",
-        "options": [
-          "いただきました",
-          "くれました",
-          "もらいました",
-          "あげました"
-        ],
-        "correctIndex": 3,
-        "explanation": "I do something for a friend: ～てあげる."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 感知 (かんち) mean?",
-        "options": [
-          "brake; drag; restraint",
-          "perception; sensing",
-          "idle; dormant",
-          "visit; call; arrival"
-        ],
-        "correctIndex": 1,
-        "explanation": "感知 (かんち) means perception; sensing."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 助力 (じょりょく) mean?",
-        "options": [
-          "white snow",
-          "to rely on; to depend on",
-          "collection and delivery",
-          "assistance; support"
-        ],
-        "correctIndex": 3,
-        "explanation": "助力 (じょりょく) means assistance; support."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: もしもし、リーです。来週引っ越しをするので、荷物を運ぶのを手伝ってもらえませんか。 — What does the caller ask for?",
-        "options": [
-          "Help carrying belongings",
-          "A car ride",
-          "A place to stay",
-          "A loan"
-        ],
-        "correctIndex": 0,
-        "explanation": "The caller asks for help with carrying things."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 田中さんが、駅まで車で送ってくれたので、とても助かりました。 — What did Mr. Tanaka do?",
-        "options": [
-          "Cooked dinner",
-          "Bought a train ticket",
-          "Drove the speaker to the station",
-          "Carried the luggage upstairs"
-        ],
-        "correctIndex": 2,
-        "explanation": "くれた shows Tanaka did it for the speaker."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its English meaning.",
-        "pairs": [
-          {
-            "left": "会談",
-            "right": "conversation"
-          },
-          {
-            "left": "助力",
-            "right": "assistance"
-          },
-          {
-            "left": "助かる",
-            "right": "to be saved"
-          },
-          {
-            "left": "同窓会",
-            "right": "alumni association"
-          },
-          {
-            "left": "所感",
-            "right": "impressions"
-          }
-        ],
-        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its reading.",
-        "pairs": [
-          {
-            "left": "談話室",
-            "right": "だんわしつ"
-          },
-          {
-            "left": "一助",
-            "right": "いちじょ"
-          },
-          {
-            "left": "涙声",
-            "right": "なみだごえ"
-          },
-          {
-            "left": "間一髪",
-            "right": "かんいっぱつ"
-          },
-          {
-            "left": "助っ人",
-            "right": "すけっと"
-          }
-        ],
-        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
-      },
-      {
         "type": "matching",
         "instructions": "Match each pattern with its meaning.",
         "pairs": [
@@ -2137,12 +2271,12 @@ export const JA_B1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "passive-and-causative",
+    "slug": "passive-and-causative-1",
     "level": "JA-B1",
-    "number": 4,
-    "title": "Passive and Causative: School and Work",
+    "number": 16,
+    "title": "Passive and Causative: School and Work, Part 1 of 5",
     "summary": "Understand and use the passive, causative and causative-passive, from being praised or troubled by others to being made to do things and asking to be allowed to.",
-    "duration": "45 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "What This Lesson Covers",
@@ -2207,7 +2341,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "The passive marks the person affected as the subject."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "部長は新しい社員に、毎日コピーを（　）。 (The manager has the new employees make copies every day.)",
+        "options": [
+          "させます",
+          "しておきます",
+          "させられます",
+          "されます"
+        ],
+        "correctIndex": 0,
+        "explanation": "The manager is the one who makes the others act."
       },
+      {
+        "type": "multiple-choice",
+        "question": "What does 用具 (ようぐ) mean?",
+        "options": [
+          "to levy; to charge",
+          "molding; moulding",
+          "tool; implement",
+          "duty; obligation"
+        ],
+        "correctIndex": 2,
+        "explanation": "用具 (ようぐ) means tool; implement."
+      }
+    ]
+  },
+  {
+    "slug": "passive-and-causative-2",
+    "level": "JA-B1",
+    "number": 17,
+    "title": "Passive and Causative: School and Work, Part 2 of 5",
+    "summary": "Understand and use the passive, causative and causative-passive, from being praised or troubled by others to being made to do things and asking to be allowed to.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Indirect passive: Another person's action troubles the subject",
         "body": [
@@ -2303,7 +2473,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "Made to do something is the causative-passive."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "What does 勤務 (きんむ) mean?",
+        "options": [
+          "service; duty",
+          "medical specialist",
+          "lesson; class work",
+          "retirement; resignation"
+        ],
+        "correctIndex": 0,
+        "explanation": "勤務 (きんむ) means service; duty."
       },
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 昨日は大変でした。部長に会議の資料を作らされて、家に帰るのが遅くなりました。 — Why did the speaker get home late?",
+        "options": [
+          "Missed the train",
+          "Was made to prepare meeting materials",
+          "Went shopping",
+          "Had dinner with a friend"
+        ],
+        "correctIndex": 1,
+        "explanation": "作らされて is the causative-passive."
+      }
+    ]
+  },
+  {
+    "slug": "passive-and-causative-3",
+    "level": "JA-B1",
+    "number": 18,
+    "title": "Passive and Causative: School and Work, Part 3 of 5",
+    "summary": "Understand and use the passive, causative and causative-passive, from being praised or troubled by others to being made to do things and asking to be allowed to.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "～(さ)せてください: Asking permission to do something",
         "body": [
@@ -2409,7 +2615,58 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "The writer is grateful and plays at weddings."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Passage: すみません、来週の金曜日、休ませていただけませんか。 — What does the speaker ask for?",
+        "options": [
+          "Permission to take Friday off",
+          "A new desk",
+          "A day to work from home",
+          "A raise"
+        ],
+        "correctIndex": 0,
+        "explanation": "休ませていただけませんか asks for permission."
       },
+      {
+        "type": "matching",
+        "instructions": "Match each word with its English meaning.",
+        "pairs": [
+          {
+            "left": "受け止める",
+            "right": "to catch"
+          },
+          {
+            "left": "専門学校",
+            "right": "vocational school"
+          },
+          {
+            "left": "工業",
+            "right": "industry"
+          },
+          {
+            "left": "責任感",
+            "right": "sense of responsibility"
+          },
+          {
+            "left": "専務",
+            "right": "special duty"
+          }
+        ],
+        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
+      }
+    ]
+  },
+  {
+    "slug": "passive-and-causative-4",
+    "level": "JA-B1",
+    "number": 19,
+    "title": "Passive and Causative: School and Work, Part 4 of 5",
+    "summary": "Understand and use the passive, causative and causative-passive, from being praised or troubled by others to being made to do things and asking to be allowed to.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Core Kanji",
         "body": [
@@ -2554,7 +2811,46 @@ export const JA_B1_LESSONS: Lesson[] = [
             "en": "ki; utsuwa -- utensil, vessel, receptacle. E.g. 器 (utsuwa): bowl; vessel; ability."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Match each word with its reading.",
+        "pairs": [
+          {
+            "left": "受給",
+            "right": "じゅきゅう"
+          },
+          {
+            "left": "業者",
+            "right": "ぎょうしゃ"
+          },
+          {
+            "left": "出席",
+            "right": "しゅっせき"
+          },
+          {
+            "left": "技術者",
+            "right": "ぎじゅつしゃ"
+          },
+          {
+            "left": "事務",
+            "right": "じむ"
+          }
+        ],
+        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
+      }
+    ]
+  },
+  {
+    "slug": "passive-and-causative-5",
+    "level": "JA-B1",
+    "number": 20,
+    "title": "Passive and Causative: School and Work, Part 5 of 5",
+    "summary": "Understand and use the passive, causative and causative-passive, from being praised or troubled by others to being made to do things and asking to be allowed to.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Key Vocabulary",
         "body": [
@@ -2693,120 +2989,6 @@ export const JA_B1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "部長は新しい社員に、毎日コピーを（　）。 (The manager has the new employees make copies every day.)",
-        "options": [
-          "させます",
-          "しておきます",
-          "させられます",
-          "されます"
-        ],
-        "correctIndex": 0,
-        "explanation": "The manager is the one who makes the others act."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 用具 (ようぐ) mean?",
-        "options": [
-          "to levy; to charge",
-          "molding; moulding",
-          "tool; implement",
-          "duty; obligation"
-        ],
-        "correctIndex": 2,
-        "explanation": "用具 (ようぐ) means tool; implement."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 勤務 (きんむ) mean?",
-        "options": [
-          "service; duty",
-          "medical specialist",
-          "lesson; class work",
-          "retirement; resignation"
-        ],
-        "correctIndex": 0,
-        "explanation": "勤務 (きんむ) means service; duty."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 昨日は大変でした。部長に会議の資料を作らされて、家に帰るのが遅くなりました。 — Why did the speaker get home late?",
-        "options": [
-          "Missed the train",
-          "Was made to prepare meeting materials",
-          "Went shopping",
-          "Had dinner with a friend"
-        ],
-        "correctIndex": 1,
-        "explanation": "作らされて is the causative-passive."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: すみません、来週の金曜日、休ませていただけませんか。 — What does the speaker ask for?",
-        "options": [
-          "Permission to take Friday off",
-          "A new desk",
-          "A day to work from home",
-          "A raise"
-        ],
-        "correctIndex": 0,
-        "explanation": "休ませていただけませんか asks for permission."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its English meaning.",
-        "pairs": [
-          {
-            "left": "受け止める",
-            "right": "to catch"
-          },
-          {
-            "left": "専門学校",
-            "right": "vocational school"
-          },
-          {
-            "left": "工業",
-            "right": "industry"
-          },
-          {
-            "left": "責任感",
-            "right": "sense of responsibility"
-          },
-          {
-            "left": "専務",
-            "right": "special duty"
-          }
-        ],
-        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its reading.",
-        "pairs": [
-          {
-            "left": "受給",
-            "right": "じゅきゅう"
-          },
-          {
-            "left": "業者",
-            "right": "ぎょうしゃ"
-          },
-          {
-            "left": "出席",
-            "right": "しゅっせき"
-          },
-          {
-            "left": "技術者",
-            "right": "ぎじゅつしゃ"
-          },
-          {
-            "left": "事務",
-            "right": "じむ"
-          }
-        ],
-        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
-      },
-      {
         "type": "matching",
         "instructions": "Match each pattern with its meaning.",
         "pairs": [
@@ -2836,12 +3018,12 @@ export const JA_B1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "timing-and-schedules",
+    "slug": "timing-and-schedules-1",
     "level": "JA-B1",
-    "number": 5,
-    "title": "Timing and Schedules",
+    "number": 21,
+    "title": "Timing and Schedules, Part 1 of 5",
     "summary": "Pinpoint the moment and the period of an action with ところだ, たばかり, うちに, 間に and たびに.",
-    "duration": "45 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "What This Lesson Covers",
@@ -2906,7 +3088,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "The dictionary form plus ところ means about to."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "今、駅を（　）。あと五分で着きます。 (I have just left the station. I will arrive in five minutes.)",
+        "options": [
+          "出ていたところです",
+          "出たところです",
+          "出ているばかりです",
+          "出るところです"
+        ],
+        "correctIndex": 1,
+        "explanation": "た plus ところ is the moment just after."
       },
+      {
+        "type": "multiple-choice",
+        "question": "What does 最前線 (さいぜんせん) mean?",
+        "options": [
+          "hypothesis; supposition",
+          "infrared rays; infrared radiation",
+          "front line; forefront",
+          "pursuit; search"
+        ],
+        "correctIndex": 2,
+        "explanation": "最前線 (さいぜんせん) means front line; forefront."
+      }
+    ]
+  },
+  {
+    "slug": "timing-and-schedules-2",
+    "level": "JA-B1",
+    "number": 22,
+    "title": "Timing and Schedules, Part 2 of 5",
+    "summary": "Pinpoint the moment and the period of an action with ところだ, たばかり, うちに, 間に and たびに.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "～たばかりだ: Just did, and it still feels recent",
         "body": [
@@ -3002,7 +3220,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "間に marks the period during which something happens."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "What does 最後 (さいご) mean?",
+        "options": [
+          "island country",
+          "air route; air lane; by air",
+          "end; conclusion; last",
+          "period; term"
+        ],
+        "correctIndex": 2,
+        "explanation": "最後 (さいご) means end; conclusion; last."
       },
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 今、会社を出たところです。あと十分で着きます。 — Where is the speaker now?",
+        "options": [
+          "Just left the office",
+          "Still at the office",
+          "At home",
+          "Already at the destination"
+        ],
+        "correctIndex": 0,
+        "explanation": "出たところ means just left."
+      }
+    ]
+  },
+  {
+    "slug": "timing-and-schedules-3",
+    "level": "JA-B1",
+    "number": 23,
+    "title": "Timing and Schedules, Part 3 of 5",
+    "summary": "Pinpoint the moment and the period of an action with ところだ, たばかり, うちに, 間に and たびに.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "～たびに: Every time",
         "body": [
@@ -3112,7 +3366,58 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "The writer plans to buy a Shinkansen ticket."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 先月、日本に来たばかりなので、まだわからないことが多いです。 — Why does the speaker not know many things yet?",
+        "options": [
+          "Has not studied",
+          "Arrived in Japan only last month",
+          "Lived in Japan for years",
+          "Is on vacation"
+        ],
+        "correctIndex": 1,
+        "explanation": "たばかり shows a recent arrival."
       },
+      {
+        "type": "matching",
+        "instructions": "Match each word with its English meaning.",
+        "pairs": [
+          {
+            "left": "第一声",
+            "right": "first words said"
+          },
+          {
+            "left": "飛び火",
+            "right": "leaping flames"
+          },
+          {
+            "left": "学期",
+            "right": "school term"
+          },
+          {
+            "left": "三味線",
+            "right": "shamisen"
+          },
+          {
+            "left": "始末",
+            "right": "management"
+          }
+        ],
+        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
+      }
+    ]
+  },
+  {
+    "slug": "timing-and-schedules-4",
+    "level": "JA-B1",
+    "number": 24,
+    "title": "Timing and Schedules, Part 4 of 5",
+    "summary": "Pinpoint the moment and the period of an action with ところだ, たばかり, うちに, 間に and たびに.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Core Kanji",
         "body": [
@@ -3257,7 +3562,46 @@ export const JA_B1_LESSONS: Lesson[] = [
             "en": "jo, ji; nozo.ku, yo.ke -- exclude, division (x/3), remove. E.g. 除去 (jokyo): removal; getting rid of."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Match each word with its reading.",
+        "pairs": [
+          {
+            "left": "追っかける",
+            "right": "おっかける"
+          },
+          {
+            "left": "周辺",
+            "right": "しゅうへん"
+          },
+          {
+            "left": "飛び火",
+            "right": "とびひ"
+          },
+          {
+            "left": "国際化",
+            "right": "こくさいか"
+          },
+          {
+            "left": "速やか",
+            "right": "すみやか"
+          }
+        ],
+        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
+      }
+    ]
+  },
+  {
+    "slug": "timing-and-schedules-5",
+    "level": "JA-B1",
+    "number": 25,
+    "title": "Timing and Schedules, Part 5 of 5",
+    "summary": "Pinpoint the moment and the period of an action with ところだ, たばかり, うちに, 間に and たびに.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Key Vocabulary",
         "body": [
@@ -3396,120 +3740,6 @@ export const JA_B1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "今、駅を（　）。あと五分で着きます。 (I have just left the station. I will arrive in five minutes.)",
-        "options": [
-          "出ていたところです",
-          "出たところです",
-          "出ているばかりです",
-          "出るところです"
-        ],
-        "correctIndex": 1,
-        "explanation": "た plus ところ is the moment just after."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 最前線 (さいぜんせん) mean?",
-        "options": [
-          "hypothesis; supposition",
-          "infrared rays; infrared radiation",
-          "front line; forefront",
-          "pursuit; search"
-        ],
-        "correctIndex": 2,
-        "explanation": "最前線 (さいぜんせん) means front line; forefront."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 最後 (さいご) mean?",
-        "options": [
-          "island country",
-          "air route; air lane; by air",
-          "end; conclusion; last",
-          "period; term"
-        ],
-        "correctIndex": 2,
-        "explanation": "最後 (さいご) means end; conclusion; last."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 今、会社を出たところです。あと十分で着きます。 — Where is the speaker now?",
-        "options": [
-          "Just left the office",
-          "Still at the office",
-          "At home",
-          "Already at the destination"
-        ],
-        "correctIndex": 0,
-        "explanation": "出たところ means just left."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 先月、日本に来たばかりなので、まだわからないことが多いです。 — Why does the speaker not know many things yet?",
-        "options": [
-          "Has not studied",
-          "Arrived in Japan only last month",
-          "Lived in Japan for years",
-          "Is on vacation"
-        ],
-        "correctIndex": 1,
-        "explanation": "たばかり shows a recent arrival."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its English meaning.",
-        "pairs": [
-          {
-            "left": "第一声",
-            "right": "first words said"
-          },
-          {
-            "left": "飛び火",
-            "right": "leaping flames"
-          },
-          {
-            "left": "学期",
-            "right": "school term"
-          },
-          {
-            "left": "三味線",
-            "right": "shamisen"
-          },
-          {
-            "left": "始末",
-            "right": "management"
-          }
-        ],
-        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its reading.",
-        "pairs": [
-          {
-            "left": "追っかける",
-            "right": "おっかける"
-          },
-          {
-            "left": "周辺",
-            "right": "しゅうへん"
-          },
-          {
-            "left": "飛び火",
-            "right": "とびひ"
-          },
-          {
-            "left": "国際化",
-            "right": "こくさいか"
-          },
-          {
-            "left": "速やか",
-            "right": "すみやか"
-          }
-        ],
-        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
-      },
-      {
         "type": "matching",
         "instructions": "Match each pattern with its meaning.",
         "pairs": [
@@ -3539,12 +3769,12 @@ export const JA_B1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "reasons-causes-and-purposes",
+    "slug": "reasons-causes-and-purposes-1",
     "level": "JA-B1",
-    "number": 6,
-    "title": "Reasons, Causes and Purposes",
+    "number": 26,
+    "title": "Reasons, Causes and Purposes, Part 1 of 5",
     "summary": "Explain why something happened and what you did it for, with せいで, おかげで, ために, ように and のに.",
-    "duration": "45 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "What This Lesson Covers",
@@ -3609,7 +3839,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "せいで gives a negative cause."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "雨が降った（　）、遠足が中止になりました。 (Because it rained (unfortunately), the field trip was cancelled.)",
+        "options": [
+          "ように",
+          "おかげで",
+          "のに",
+          "せいで"
+        ],
+        "correctIndex": 3,
+        "explanation": "A bad outcome caused by something takes せいで."
       },
+      {
+        "type": "multiple-choice",
+        "question": "What does 苦労 (くろう) mean?",
+        "options": [
+          "freedom; liberty",
+          "periodic; regular",
+          "trouble; hardship; anxiety",
+          "one cause; one reason"
+        ],
+        "correctIndex": 2,
+        "explanation": "苦労 (くろう) means trouble; hardship; anxiety."
+      }
+    ]
+  },
+  {
+    "slug": "reasons-causes-and-purposes-2",
+    "level": "JA-B1",
+    "number": 27,
+    "title": "Reasons, Causes and Purposes, Part 2 of 5",
+    "summary": "Explain why something happened and what you did it for, with せいで, おかげで, ために, ように and のに.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "～おかげで: A positive cause",
         "body": [
@@ -3705,7 +3971,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "A potential or state as the purpose takes ように."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "What does 経由 (けいゆ) mean?",
+        "options": [
+          "going through; going via",
+          "cooking; cookery; dealing with something",
+          "assailant; perpetrator",
+          "fruit and vegetables; produce"
+        ],
+        "correctIndex": 0,
+        "explanation": "経由 (けいゆ) means going through; going via."
       },
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 電車が止まったせいで、会議に遅れてしまいました。すみません。 — Why was the speaker late?",
+        "options": [
+          "The speaker overslept",
+          "The train stopped",
+          "The meeting time changed",
+          "The speaker was sick"
+        ],
+        "correctIndex": 1,
+        "explanation": "せいで gives the negative cause."
+      }
+    ]
+  },
+  {
+    "slug": "reasons-causes-and-purposes-3",
+    "level": "JA-B1",
+    "number": 28,
+    "title": "Reasons, Causes and Purposes, Part 3 of 5",
+    "summary": "Explain why something happened and what you did it for, with せいで, おかげで, ために, ように and のに.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "～のに: Contrast",
         "body": [
@@ -3819,7 +4121,58 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "The writer will take an earlier train."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 先生が教えてくれたおかげで、試験に合格しました。本当にありがとうございました。 — What is the speaker thanking the teacher for?",
+        "options": [
+          "Writing a reference",
+          "Giving a gift",
+          "Helping them pass the exam",
+          "Lending a book"
+        ],
+        "correctIndex": 2,
+        "explanation": "おかげで credits the teacher."
       },
+      {
+        "type": "matching",
+        "instructions": "Match each word with its English meaning.",
+        "pairs": [
+          {
+            "left": "高原",
+            "right": "tableland"
+          },
+          {
+            "left": "処理",
+            "right": "processing"
+          },
+          {
+            "left": "補給",
+            "right": "supply"
+          },
+          {
+            "left": "難色",
+            "right": "disapproval"
+          },
+          {
+            "left": "果て",
+            "right": "the end"
+          }
+        ],
+        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
+      }
+    ]
+  },
+  {
+    "slug": "reasons-causes-and-purposes-4",
+    "level": "JA-B1",
+    "number": 29,
+    "title": "Reasons, Causes and Purposes, Part 4 of 5",
+    "summary": "Explain why something happened and what you did it for, with せいで, おかげで, ために, ように and のに.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Core Kanji",
         "body": [
@@ -3964,7 +4317,46 @@ export const JA_B1_LESSONS: Lesson[] = [
             "en": "kai -- jammed in, shellfish, mediate. E.g. 介入 (kainyuu): intervention."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Match each word with its reading.",
+        "pairs": [
+          {
+            "left": "異変",
+            "right": "いへん"
+          },
+          {
+            "left": "経理",
+            "right": "けいり"
+          },
+          {
+            "left": "一因",
+            "right": "いちいん"
+          },
+          {
+            "left": "死因",
+            "right": "しいん"
+          },
+          {
+            "left": "自主的",
+            "right": "じしゅてき"
+          }
+        ],
+        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
+      }
+    ]
+  },
+  {
+    "slug": "reasons-causes-and-purposes-5",
+    "level": "JA-B1",
+    "number": 30,
+    "title": "Reasons, Causes and Purposes, Part 5 of 5",
+    "summary": "Explain why something happened and what you did it for, with せいで, おかげで, ために, ように and のに.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Key Vocabulary",
         "body": [
@@ -4103,120 +4495,6 @@ export const JA_B1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "雨が降った（　）、遠足が中止になりました。 (Because it rained (unfortunately), the field trip was cancelled.)",
-        "options": [
-          "ように",
-          "おかげで",
-          "のに",
-          "せいで"
-        ],
-        "correctIndex": 3,
-        "explanation": "A bad outcome caused by something takes せいで."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 苦労 (くろう) mean?",
-        "options": [
-          "freedom; liberty",
-          "periodic; regular",
-          "trouble; hardship; anxiety",
-          "one cause; one reason"
-        ],
-        "correctIndex": 2,
-        "explanation": "苦労 (くろう) means trouble; hardship; anxiety."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 経由 (けいゆ) mean?",
-        "options": [
-          "going through; going via",
-          "cooking; cookery; dealing with something",
-          "assailant; perpetrator",
-          "fruit and vegetables; produce"
-        ],
-        "correctIndex": 0,
-        "explanation": "経由 (けいゆ) means going through; going via."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 電車が止まったせいで、会議に遅れてしまいました。すみません。 — Why was the speaker late?",
-        "options": [
-          "The speaker overslept",
-          "The train stopped",
-          "The meeting time changed",
-          "The speaker was sick"
-        ],
-        "correctIndex": 1,
-        "explanation": "せいで gives the negative cause."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 先生が教えてくれたおかげで、試験に合格しました。本当にありがとうございました。 — What is the speaker thanking the teacher for?",
-        "options": [
-          "Writing a reference",
-          "Giving a gift",
-          "Helping them pass the exam",
-          "Lending a book"
-        ],
-        "correctIndex": 2,
-        "explanation": "おかげで credits the teacher."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its English meaning.",
-        "pairs": [
-          {
-            "left": "高原",
-            "right": "tableland"
-          },
-          {
-            "left": "処理",
-            "right": "processing"
-          },
-          {
-            "left": "補給",
-            "right": "supply"
-          },
-          {
-            "left": "難色",
-            "right": "disapproval"
-          },
-          {
-            "left": "果て",
-            "right": "the end"
-          }
-        ],
-        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its reading.",
-        "pairs": [
-          {
-            "left": "異変",
-            "right": "いへん"
-          },
-          {
-            "left": "経理",
-            "right": "けいり"
-          },
-          {
-            "left": "一因",
-            "right": "いちいん"
-          },
-          {
-            "left": "死因",
-            "right": "しいん"
-          },
-          {
-            "left": "自主的",
-            "right": "じしゅてき"
-          }
-        ],
-        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
-      },
-      {
         "type": "matching",
         "instructions": "Match each pattern with its meaning.",
         "pairs": [
@@ -4246,12 +4524,12 @@ export const JA_B1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "advice-and-conditions",
+    "slug": "advice-and-conditions-1",
     "level": "JA-B1",
-    "number": 7,
-    "title": "Advice and Conditions",
+    "number": 31,
+    "title": "Advice and Conditions, Part 1 of 5",
     "summary": "Give advice and talk about conditions with たら, と, ば, なら, ば～ほど, わけだ and わけがない.",
-    "duration": "45 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "What This Lesson Covers",
@@ -4320,7 +4598,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "～と cannot be followed by an invitation."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "このボタンを（　）、ドアが開きます。 (When you press this button, the door opens.)",
+        "options": [
+          "押すべき",
+          "押すなら",
+          "押すと",
+          "押すほど"
+        ],
+        "correctIndex": 2,
+        "explanation": "～と shows a natural result."
       },
+      {
+        "type": "multiple-choice",
+        "question": "What does 退場 (たいじょう) mean?",
+        "options": [
+          "approval; adoption",
+          "to satisfy; to meet; to fill",
+          "treaty; pact",
+          "exit; exeunt; leaving"
+        ],
+        "correctIndex": 3,
+        "explanation": "退場 (たいじょう) means exit; exeunt; leaving."
+      }
+    ]
+  },
+  {
+    "slug": "advice-and-conditions-2",
+    "level": "JA-B1",
+    "number": 32,
+    "title": "Advice and Conditions, Part 2 of 5",
+    "summary": "Give advice and talk about conditions with たら, と, ば, なら, ば～ほど, わけだ and わけがない.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "～ば vs ～なら",
         "body": [
@@ -4420,7 +4734,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "～わけだ draws a conclusion from a new fact."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "What does 完売 (かんばい) mean?",
+        "options": [
+          "theater closure; theatre closure",
+          "standing abreast",
+          "meeting; assembly; association",
+          "selling out; being sold out"
+        ],
+        "correctIndex": 3,
+        "explanation": "完売 (かんばい) means selling out; being sold out."
       },
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 日本語が上手になりたいなら、毎日話せばいいですよ。話せば話すほど、上手になります。 — What advice is given?",
+        "options": [
+          "Take a test",
+          "Read one book a week",
+          "Move abroad",
+          "Speak every day"
+        ],
+        "correctIndex": 3,
+        "explanation": "The advice is to speak every day."
+      }
+    ]
+  },
+  {
+    "slug": "advice-and-conditions-3",
+    "level": "JA-B1",
+    "number": 33,
+    "title": "Advice and Conditions, Part 3 of 5",
+    "summary": "Give advice and talk about conditions with たら, と, ば, なら, ば～ほど, わけだ and わけがない.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "～わけがない・～わけではない: Impossible, or not necessarily true",
         "body": [
@@ -4530,7 +4880,58 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "More talking leads to more natural speech."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 三年も日本にいたんですか。日本語が上手なわけですね。 — What does the speaker conclude?",
+        "options": [
+          "The listener will move soon",
+          "The listener is a teacher",
+          "The listener's Japanese is good because they lived in Japan",
+          "The listener never studied"
+        ],
+        "correctIndex": 2,
+        "explanation": "わけだ draws the conclusion."
       },
+      {
+        "type": "matching",
+        "instructions": "Match each word with its English meaning.",
+        "pairs": [
+          {
+            "left": "材料",
+            "right": "ingredients"
+          },
+          {
+            "left": "見積もり",
+            "right": "estimate"
+          },
+          {
+            "left": "円満",
+            "right": "harmonious"
+          },
+          {
+            "left": "百合",
+            "right": "lily"
+          },
+          {
+            "left": "合う",
+            "right": "to come together"
+          }
+        ],
+        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
+      }
+    ]
+  },
+  {
+    "slug": "advice-and-conditions-4",
+    "level": "JA-B1",
+    "number": 34,
+    "title": "Advice and Conditions, Part 4 of 5",
+    "summary": "Give advice and talk about conditions with たら, と, ば, なら, ば～ほど, わけだ and わけがない.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Core Kanji",
         "body": [
@@ -4675,7 +5076,46 @@ export const JA_B1_LESSONS: Lesson[] = [
             "en": "zai -- lumber, log, timber. E.g. 材料 (zairyou): ingredients; material."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Match each word with its reading.",
+        "pairs": [
+          {
+            "left": "役場",
+            "right": "やくば"
+          },
+          {
+            "left": "完結",
+            "right": "かんけつ"
+          },
+          {
+            "left": "要する",
+            "right": "ようする"
+          },
+          {
+            "left": "例外的",
+            "right": "れいがいてき"
+          },
+          {
+            "left": "不満",
+            "right": "ふまん"
+          }
+        ],
+        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
+      }
+    ]
+  },
+  {
+    "slug": "advice-and-conditions-5",
+    "level": "JA-B1",
+    "number": 35,
+    "title": "Advice and Conditions, Part 5 of 5",
+    "summary": "Give advice and talk about conditions with たら, と, ば, なら, ば～ほど, わけだ and わけがない.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Key Vocabulary",
         "body": [
@@ -4814,120 +5254,6 @@ export const JA_B1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "このボタンを（　）、ドアが開きます。 (When you press this button, the door opens.)",
-        "options": [
-          "押すべき",
-          "押すなら",
-          "押すと",
-          "押すほど"
-        ],
-        "correctIndex": 2,
-        "explanation": "～と shows a natural result."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 退場 (たいじょう) mean?",
-        "options": [
-          "approval; adoption",
-          "to satisfy; to meet; to fill",
-          "treaty; pact",
-          "exit; exeunt; leaving"
-        ],
-        "correctIndex": 3,
-        "explanation": "退場 (たいじょう) means exit; exeunt; leaving."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 完売 (かんばい) mean?",
-        "options": [
-          "theater closure; theatre closure",
-          "standing abreast",
-          "meeting; assembly; association",
-          "selling out; being sold out"
-        ],
-        "correctIndex": 3,
-        "explanation": "完売 (かんばい) means selling out; being sold out."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 日本語が上手になりたいなら、毎日話せばいいですよ。話せば話すほど、上手になります。 — What advice is given?",
-        "options": [
-          "Take a test",
-          "Read one book a week",
-          "Move abroad",
-          "Speak every day"
-        ],
-        "correctIndex": 3,
-        "explanation": "The advice is to speak every day."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 三年も日本にいたんですか。日本語が上手なわけですね。 — What does the speaker conclude?",
-        "options": [
-          "The listener will move soon",
-          "The listener is a teacher",
-          "The listener's Japanese is good because they lived in Japan",
-          "The listener never studied"
-        ],
-        "correctIndex": 2,
-        "explanation": "わけだ draws the conclusion."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its English meaning.",
-        "pairs": [
-          {
-            "left": "材料",
-            "right": "ingredients"
-          },
-          {
-            "left": "見積もり",
-            "right": "estimate"
-          },
-          {
-            "left": "円満",
-            "right": "harmonious"
-          },
-          {
-            "left": "百合",
-            "right": "lily"
-          },
-          {
-            "left": "合う",
-            "right": "to come together"
-          }
-        ],
-        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its reading.",
-        "pairs": [
-          {
-            "left": "役場",
-            "right": "やくば"
-          },
-          {
-            "left": "完結",
-            "right": "かんけつ"
-          },
-          {
-            "left": "要する",
-            "right": "ようする"
-          },
-          {
-            "left": "例外的",
-            "right": "れいがいてき"
-          },
-          {
-            "left": "不満",
-            "right": "ふまん"
-          }
-        ],
-        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
-      },
-      {
         "type": "matching",
         "instructions": "Match each pattern with its meaning.",
         "pairs": [
@@ -4957,12 +5283,12 @@ export const JA_B1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "comparing-and-degree",
+    "slug": "comparing-and-degree-1",
     "level": "JA-B1",
-    "number": 8,
-    "title": "Comparing and Degree",
+    "number": 36,
+    "title": "Comparing and Degree, Part 1 of 5",
     "summary": "Compare things and describe degree and point of view with ほど, くらい, にとって, に対して and によって.",
-    "duration": "45 min",
+    "duration": "10 min",
     "sections": [
       {
         "heading": "What This Lesson Covers",
@@ -5059,7 +5385,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "くらい gives the degree or extent."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "兄は静かなの（　）、弟はにぎやかです。 (My older brother is quiet, whereas my younger brother is lively.)",
+        "options": [
+          "くらい",
+          "によって",
+          "にとって",
+          "に対して"
+        ],
+        "correctIndex": 3,
+        "explanation": "に対して can set up a contrast."
       },
+      {
+        "type": "multiple-choice",
+        "question": "What does 個展 (こてん) mean?",
+        "options": [
+          "solo exhibition; one-man exhibition",
+          "success; passing",
+          "the whole world",
+          "healthy; sound"
+        ],
+        "correctIndex": 0,
+        "explanation": "個展 (こてん) means solo exhibition; one-man exhibition."
+      }
+    ]
+  },
+  {
+    "slug": "comparing-and-degree-2",
+    "level": "JA-B1",
+    "number": 37,
+    "title": "Comparing and Degree, Part 2 of 5",
+    "summary": "Compare things and describe degree and point of view with ほど, くらい, にとって, に対して and によって.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "～にとって: From the standpoint of",
         "body": [
@@ -5167,7 +5529,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "en": "ani wa shizuka na no ni taishite, otou to wa nigiyaka desu. -- My older brother is quiet, whereas my younger brother is lively."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "What does 一階 (いっかい) mean?",
+        "options": [
+          "rainfall",
+          "to cross over; to cross; to exceed",
+          "form; formality; method",
+          "first floor; ground floor; one floor"
+        ],
+        "correctIndex": 3,
+        "explanation": "一階 (いっかい) means first floor; ground floor; one floor."
       },
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 東京は大阪ほど食べ物が安くありません。でも、店によって値段が全然違います。 — How do food prices in Tokyo compare with Osaka?",
+        "options": [
+          "They are the same",
+          "It is not mentioned",
+          "Tokyo is more expensive",
+          "Tokyo is cheaper"
+        ],
+        "correctIndex": 2,
+        "explanation": "大阪ほど安くない means Tokyo is not as cheap."
+      }
+    ]
+  },
+  {
+    "slug": "comparing-and-degree-3",
+    "level": "JA-B1",
+    "number": 38,
+    "title": "Comparing and Degree, Part 3 of 5",
+    "summary": "Compare things and describe degree and point of view with ほど, くらい, にとって, に対して and によって.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Reading Practice",
         "body": [
@@ -5274,7 +5672,58 @@ export const JA_B1_LESSONS: Lesson[] = [
             "en": "han; naka.ba -- half, middle, odd number. E.g. 後半 (kouhan): second half; latter half."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 私にとって、一番大切なのは家族です。国によって考え方は違いますが、私は家族を大切にしたいです。 — What is most important to the speaker?",
+        "options": [
+          "Family",
+          "Money",
+          "Work",
+          "Travel"
+        ],
+        "correctIndex": 0,
+        "explanation": "にとって marks the speaker's view: family."
       },
+      {
+        "type": "matching",
+        "instructions": "Match each word with its English meaning.",
+        "pairs": [
+          {
+            "left": "人数",
+            "right": "the number of people"
+          },
+          {
+            "left": "候補",
+            "right": "candidate"
+          },
+          {
+            "left": "問題点",
+            "right": "the problem"
+          },
+          {
+            "left": "種目",
+            "right": "item"
+          },
+          {
+            "left": "単位",
+            "right": "unit"
+          }
+        ],
+        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
+      }
+    ]
+  },
+  {
+    "slug": "comparing-and-degree-4",
+    "level": "JA-B1",
+    "number": 39,
+    "title": "Comparing and Degree, Part 4 of 5",
+    "summary": "Compare things and describe degree and point of view with ほど, くらい, にとって, に対して and によって.",
+    "duration": "6 min",
+    "sections": [
       {
         "heading": "Kanji for Your Review Deck",
         "body": [
@@ -5378,7 +5827,46 @@ export const JA_B1_LESSONS: Lesson[] = [
             "en": "kou; sourou -- climate, season, weather. E.g. 候補 (kouho): candidate; contender; candidacy."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Match each word with its reading.",
+        "pairs": [
+          {
+            "left": "平日",
+            "right": "へいじつ"
+          },
+          {
+            "left": "全日",
+            "right": "ぜんじつ"
+          },
+          {
+            "left": "全土",
+            "right": "ぜんど"
+          },
+          {
+            "left": "総会屋",
+            "right": "そうかいや"
+          },
+          {
+            "left": "失点",
+            "right": "しってん"
+          }
+        ],
+        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
+      }
+    ]
+  },
+  {
+    "slug": "comparing-and-degree-5",
+    "level": "JA-B1",
+    "number": 40,
+    "title": "Comparing and Degree, Part 5 of 5",
+    "summary": "Compare things and describe degree and point of view with ほど, くらい, にとって, に対して and によって.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Key Vocabulary",
         "body": [
@@ -5517,120 +6005,6 @@ export const JA_B1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "兄は静かなの（　）、弟はにぎやかです。 (My older brother is quiet, whereas my younger brother is lively.)",
-        "options": [
-          "くらい",
-          "によって",
-          "にとって",
-          "に対して"
-        ],
-        "correctIndex": 3,
-        "explanation": "に対して can set up a contrast."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 個展 (こてん) mean?",
-        "options": [
-          "solo exhibition; one-man exhibition",
-          "success; passing",
-          "the whole world",
-          "healthy; sound"
-        ],
-        "correctIndex": 0,
-        "explanation": "個展 (こてん) means solo exhibition; one-man exhibition."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 一階 (いっかい) mean?",
-        "options": [
-          "rainfall",
-          "to cross over; to cross; to exceed",
-          "form; formality; method",
-          "first floor; ground floor; one floor"
-        ],
-        "correctIndex": 3,
-        "explanation": "一階 (いっかい) means first floor; ground floor; one floor."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 東京は大阪ほど食べ物が安くありません。でも、店によって値段が全然違います。 — How do food prices in Tokyo compare with Osaka?",
-        "options": [
-          "They are the same",
-          "It is not mentioned",
-          "Tokyo is more expensive",
-          "Tokyo is cheaper"
-        ],
-        "correctIndex": 2,
-        "explanation": "大阪ほど安くない means Tokyo is not as cheap."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 私にとって、一番大切なのは家族です。国によって考え方は違いますが、私は家族を大切にしたいです。 — What is most important to the speaker?",
-        "options": [
-          "Family",
-          "Money",
-          "Work",
-          "Travel"
-        ],
-        "correctIndex": 0,
-        "explanation": "にとって marks the speaker's view: family."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its English meaning.",
-        "pairs": [
-          {
-            "left": "人数",
-            "right": "the number of people"
-          },
-          {
-            "left": "候補",
-            "right": "candidate"
-          },
-          {
-            "left": "問題点",
-            "right": "the problem"
-          },
-          {
-            "left": "種目",
-            "right": "item"
-          },
-          {
-            "left": "単位",
-            "right": "unit"
-          }
-        ],
-        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its reading.",
-        "pairs": [
-          {
-            "left": "平日",
-            "right": "へいじつ"
-          },
-          {
-            "left": "全日",
-            "right": "ぜんじつ"
-          },
-          {
-            "left": "全土",
-            "right": "ぜんど"
-          },
-          {
-            "left": "総会屋",
-            "right": "そうかいや"
-          },
-          {
-            "left": "失点",
-            "right": "しってん"
-          }
-        ],
-        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
-      },
-      {
         "type": "matching",
         "instructions": "Match each pattern with its meaning.",
         "pairs": [
@@ -5660,12 +6034,12 @@ export const JA_B1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "polite-service-japanese-keigo",
+    "slug": "polite-service-japanese-keigo-1",
     "level": "JA-B1",
-    "number": 9,
-    "title": "Polite Service Japanese (Keigo I)",
+    "number": 41,
+    "title": "Polite Service Japanese (Keigo I), Part 1 of 5",
     "summary": "Handle phone calls and formal emails with honorific and humble keigo, and tell your own side (内) from the outside (外).",
-    "duration": "45 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "What This Lesson Covers",
@@ -5730,7 +6104,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "いらっしゃる is the honorific for いる."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "（To a customer） 部長の田中は、ただいま席を（　）。 (Manager Tanaka is away from his desk right now (said to an outside customer).)",
+        "options": [
+          "外しておられます",
+          "外されております",
+          "外していらっしゃいます",
+          "外しております"
+        ],
+        "correctIndex": 3,
+        "explanation": "Use the humble form for your own side when speaking to outsiders."
       },
+      {
+        "type": "multiple-choice",
+        "question": "What does 告別 (こくべつ) mean?",
+        "options": [
+          "farewell; leave-taking",
+          "conference; consultation",
+          "establishment; opening",
+          "newspaper company"
+        ],
+        "correctIndex": 0,
+        "explanation": "告別 (こくべつ) means farewell; leave-taking."
+      }
+    ]
+  },
+  {
+    "slug": "polite-service-japanese-keigo-2",
+    "level": "JA-B1",
+    "number": 42,
+    "title": "Polite Service Japanese (Keigo I), Part 2 of 5",
+    "summary": "Handle phone calls and formal emails with honorific and humble keigo, and tell your own side (内) from the outside (外).",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "お・ご～になる: Regular honorific form",
         "body": [
@@ -5826,7 +6236,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "お～する lowers the speaker."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "What does 参議院 (さんぎいん) mean?",
+        "options": [
+          "confidence; trust; credit",
+          "report",
+          "topic of discussion; agenda",
+          "House of Councillors"
+        ],
+        "correctIndex": 3,
+        "explanation": "参議院 (さんぎいん) means House of Councillors."
       },
+      {
+        "type": "multiple-choice",
+        "question": "Passage: お電話ありがとうございます。さくら旅行でございます。田中は、ただいま席を外しております。 — What does the staff member say about Tanaka?",
+        "options": [
+          "He is away from his desk",
+          "He is on vacation",
+          "He is in a meeting",
+          "He has retired"
+        ],
+        "correctIndex": 0,
+        "explanation": "外しております means away from the desk."
+      }
+    ]
+  },
+  {
+    "slug": "polite-service-japanese-keigo-3",
+    "level": "JA-B1",
+    "number": 43,
+    "title": "Polite Service Japanese (Keigo I), Part 3 of 5",
+    "summary": "Handle phone calls and formal emails with honorific and humble keigo, and tell your own side (内) from the outside (外).",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "～でございます・～と申します: Formal set phrases",
         "body": [
@@ -5944,7 +6390,58 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "The thanks are for the guidance."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 明日の三時に伺います。資料は、あとでお送りいたします。 — What will the speaker do later?",
+        "options": [
+          "Cancel the visit",
+          "Send the materials",
+          "Buy a gift",
+          "Call again"
+        ],
+        "correctIndex": 1,
+        "explanation": "お送りいたします is a humble form."
       },
+      {
+        "type": "matching",
+        "instructions": "Match each word with its English meaning.",
+        "pairs": [
+          {
+            "left": "側近",
+            "right": "close associate"
+          },
+          {
+            "left": "社会人",
+            "right": "working adult"
+          },
+          {
+            "left": "達成",
+            "right": "achievement"
+          },
+          {
+            "left": "呼ぶ",
+            "right": "to call out"
+          },
+          {
+            "left": "関心",
+            "right": "concern"
+          }
+        ],
+        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
+      }
+    ]
+  },
+  {
+    "slug": "polite-service-japanese-keigo-4",
+    "level": "JA-B1",
+    "number": 44,
+    "title": "Polite Service Japanese (Keigo I), Part 4 of 5",
+    "summary": "Handle phone calls and formal emails with honorific and humble keigo, and tell your own side (内) from the outside (外).",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Core Kanji",
         "body": [
@@ -6089,7 +6586,46 @@ export const JA_B1_LESSONS: Lesson[] = [
             "en": "fu; tsu.keru, tsu.keru -- adhere, attach, refer to. E.g. 付き合い (tsukiai): association; socializing."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Match each word with its reading.",
+        "pairs": [
+          {
+            "left": "集団",
+            "right": "しゅうだん"
+          },
+          {
+            "left": "自社",
+            "right": "じしゃ"
+          },
+          {
+            "left": "通信",
+            "right": "つうしん"
+          },
+          {
+            "left": "番組",
+            "right": "ばんぐみ"
+          },
+          {
+            "left": "告示",
+            "right": "こくじ"
+          }
+        ],
+        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
+      }
+    ]
+  },
+  {
+    "slug": "polite-service-japanese-keigo-5",
+    "level": "JA-B1",
+    "number": 45,
+    "title": "Polite Service Japanese (Keigo I), Part 5 of 5",
+    "summary": "Handle phone calls and formal emails with honorific and humble keigo, and tell your own side (内) from the outside (外).",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Key Vocabulary",
         "body": [
@@ -6228,120 +6764,6 @@ export const JA_B1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "（To a customer） 部長の田中は、ただいま席を（　）。 (Manager Tanaka is away from his desk right now (said to an outside customer).)",
-        "options": [
-          "外しておられます",
-          "外されております",
-          "外していらっしゃいます",
-          "外しております"
-        ],
-        "correctIndex": 3,
-        "explanation": "Use the humble form for your own side when speaking to outsiders."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 告別 (こくべつ) mean?",
-        "options": [
-          "farewell; leave-taking",
-          "conference; consultation",
-          "establishment; opening",
-          "newspaper company"
-        ],
-        "correctIndex": 0,
-        "explanation": "告別 (こくべつ) means farewell; leave-taking."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 参議院 (さんぎいん) mean?",
-        "options": [
-          "confidence; trust; credit",
-          "report",
-          "topic of discussion; agenda",
-          "House of Councillors"
-        ],
-        "correctIndex": 3,
-        "explanation": "参議院 (さんぎいん) means House of Councillors."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: お電話ありがとうございます。さくら旅行でございます。田中は、ただいま席を外しております。 — What does the staff member say about Tanaka?",
-        "options": [
-          "He is away from his desk",
-          "He is on vacation",
-          "He is in a meeting",
-          "He has retired"
-        ],
-        "correctIndex": 0,
-        "explanation": "外しております means away from the desk."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 明日の三時に伺います。資料は、あとでお送りいたします。 — What will the speaker do later?",
-        "options": [
-          "Cancel the visit",
-          "Send the materials",
-          "Buy a gift",
-          "Call again"
-        ],
-        "correctIndex": 1,
-        "explanation": "お送りいたします is a humble form."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its English meaning.",
-        "pairs": [
-          {
-            "left": "側近",
-            "right": "close associate"
-          },
-          {
-            "left": "社会人",
-            "right": "working adult"
-          },
-          {
-            "left": "達成",
-            "right": "achievement"
-          },
-          {
-            "left": "呼ぶ",
-            "right": "to call out"
-          },
-          {
-            "left": "関心",
-            "right": "concern"
-          }
-        ],
-        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its reading.",
-        "pairs": [
-          {
-            "left": "集団",
-            "right": "しゅうだん"
-          },
-          {
-            "left": "自社",
-            "right": "じしゃ"
-          },
-          {
-            "left": "通信",
-            "right": "つうしん"
-          },
-          {
-            "left": "番組",
-            "right": "ばんぐみ"
-          },
-          {
-            "left": "告示",
-            "right": "こくじ"
-          }
-        ],
-        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
-      },
-      {
         "type": "matching",
         "instructions": "Match each pattern with its meaning.",
         "pairs": [
@@ -6371,12 +6793,12 @@ export const JA_B1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "formal-writing-and-news",
+    "slug": "formal-writing-and-news-1",
     "level": "JA-B1",
-    "number": 10,
-    "title": "Formal Writing and News",
+    "number": 46,
+    "title": "Formal Writing and News, Part 1 of 5",
     "summary": "Read and write news-style Japanese with によると, ということだ, として, に関して and につれて.",
-    "duration": "45 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "What This Lesson Covers",
@@ -6441,7 +6863,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "によると names the source."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "市は来年から料金を上げる（　）。（Written news style） (The city will raise fares from next year, it is said.)",
+        "options": [
+          "ということでした",
+          "そうでございます",
+          "ということだ",
+          "ということです"
+        ],
+        "correctIndex": 2,
+        "explanation": "Plain written style uses だ, not です."
       },
+      {
+        "type": "multiple-choice",
+        "question": "What does 財産 (ざいさん) mean?",
+        "options": [
+          "method; process",
+          "wartime",
+          "property; fortune",
+          "crisis; critical situation"
+        ],
+        "correctIndex": 2,
+        "explanation": "財産 (ざいさん) means property; fortune."
+      }
+    ]
+  },
+  {
+    "slug": "formal-writing-and-news-2",
+    "level": "JA-B1",
+    "number": 47,
+    "title": "Formal Writing and News, Part 2 of 5",
+    "summary": "Read and write news-style Japanese with によると, ということだ, として, に関して and につれて.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "～ということだ: Formal reported speech",
         "body": [
@@ -6569,7 +7027,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "につれて links two changes."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "What does 法案 (ほうあん) mean?",
+        "options": [
+          "bill; measure",
+          "government worker; public servant",
+          "inhabitant; resident",
+          "critic; reviewer"
+        ],
+        "correctIndex": 0,
+        "explanation": "法案 (ほうあん) means bill; measure."
       },
+      {
+        "type": "multiple-choice",
+        "question": "Passage: ニュースによると、来月から電車の料金が上がるということです。 — What is the news?",
+        "options": [
+          "Train fares will drop",
+          "Trains will stop",
+          "Train fares will rise from next month",
+          "New trains will run"
+        ],
+        "correctIndex": 2,
+        "explanation": "ということです reports the news."
+      }
+    ]
+  },
+  {
+    "slug": "formal-writing-and-news-3",
+    "level": "JA-B1",
+    "number": 48,
+    "title": "Formal Writing and News, Part 3 of 5",
+    "summary": "Read and write news-style Japanese with によると, ということだ, として, に関して and につれて.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "Choosing Between the Patterns",
         "body": [
@@ -6647,7 +7141,58 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "The city will hear residents' views."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 留学生として日本に来て、一年がたちました。時間がたつにつれて、日本語に慣れてきました。 — What has changed as time passed?",
+        "options": [
+          "The speaker got used to Japanese",
+          "The speaker moved",
+          "The speaker lost interest",
+          "The speaker changed schools"
+        ],
+        "correctIndex": 0,
+        "explanation": "につれて links time passing to the change."
       },
+      {
+        "type": "matching",
+        "instructions": "Match each word with its English meaning.",
+        "pairs": [
+          {
+            "left": "飛行機",
+            "right": "aeroplane"
+          },
+          {
+            "left": "敗戦",
+            "right": "defeat"
+          },
+          {
+            "left": "県民",
+            "right": "citizen of a prefecture"
+          },
+          {
+            "left": "経済",
+            "right": "economy"
+          },
+          {
+            "left": "区内",
+            "right": "in the ward or borough"
+          }
+        ],
+        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
+      }
+    ]
+  },
+  {
+    "slug": "formal-writing-and-news-4",
+    "level": "JA-B1",
+    "number": 49,
+    "title": "Formal Writing and News, Part 4 of 5",
+    "summary": "Read and write news-style Japanese with によると, ということだ, として, に関して and につれて.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Core Kanji",
         "body": [
@@ -6792,7 +7337,46 @@ export const JA_B1_LESSONS: Lesson[] = [
             "en": "kou; maji.waru, maji.eru -- mingle, mixing, association. E.g. 外交 (gaikou): diplomacy; selling."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Match each word with its reading.",
+        "pairs": [
+          {
+            "left": "税制",
+            "right": "ぜいせい"
+          },
+          {
+            "left": "税率",
+            "right": "ぜいりつ"
+          },
+          {
+            "left": "生産",
+            "right": "せいさん"
+          },
+          {
+            "left": "規制",
+            "right": "きせい"
+          },
+          {
+            "left": "経済的",
+            "right": "けいざいてき"
+          }
+        ],
+        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
+      }
+    ]
+  },
+  {
+    "slug": "formal-writing-and-news-5",
+    "level": "JA-B1",
+    "number": 50,
+    "title": "Formal Writing and News, Part 5 of 5",
+    "summary": "Read and write news-style Japanese with によると, ということだ, として, に関して and につれて.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Key Vocabulary",
         "body": [
@@ -6931,120 +7515,6 @@ export const JA_B1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "市は来年から料金を上げる（　）。（Written news style） (The city will raise fares from next year, it is said.)",
-        "options": [
-          "ということでした",
-          "そうでございます",
-          "ということだ",
-          "ということです"
-        ],
-        "correctIndex": 2,
-        "explanation": "Plain written style uses だ, not です."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 財産 (ざいさん) mean?",
-        "options": [
-          "method; process",
-          "wartime",
-          "property; fortune",
-          "crisis; critical situation"
-        ],
-        "correctIndex": 2,
-        "explanation": "財産 (ざいさん) means property; fortune."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 法案 (ほうあん) mean?",
-        "options": [
-          "bill; measure",
-          "government worker; public servant",
-          "inhabitant; resident",
-          "critic; reviewer"
-        ],
-        "correctIndex": 0,
-        "explanation": "法案 (ほうあん) means bill; measure."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: ニュースによると、来月から電車の料金が上がるということです。 — What is the news?",
-        "options": [
-          "Train fares will drop",
-          "Trains will stop",
-          "Train fares will rise from next month",
-          "New trains will run"
-        ],
-        "correctIndex": 2,
-        "explanation": "ということです reports the news."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 留学生として日本に来て、一年がたちました。時間がたつにつれて、日本語に慣れてきました。 — What has changed as time passed?",
-        "options": [
-          "The speaker got used to Japanese",
-          "The speaker moved",
-          "The speaker lost interest",
-          "The speaker changed schools"
-        ],
-        "correctIndex": 0,
-        "explanation": "につれて links time passing to the change."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its English meaning.",
-        "pairs": [
-          {
-            "left": "飛行機",
-            "right": "aeroplane"
-          },
-          {
-            "left": "敗戦",
-            "right": "defeat"
-          },
-          {
-            "left": "県民",
-            "right": "citizen of a prefecture"
-          },
-          {
-            "left": "経済",
-            "right": "economy"
-          },
-          {
-            "left": "区内",
-            "right": "in the ward or borough"
-          }
-        ],
-        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its reading.",
-        "pairs": [
-          {
-            "left": "税制",
-            "right": "ぜいせい"
-          },
-          {
-            "left": "税率",
-            "right": "ぜいりつ"
-          },
-          {
-            "left": "生産",
-            "right": "せいさん"
-          },
-          {
-            "left": "規制",
-            "right": "きせい"
-          },
-          {
-            "left": "経済的",
-            "right": "けいざいてき"
-          }
-        ],
-        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
-      },
-      {
         "type": "matching",
         "instructions": "Match each pattern with its meaning.",
         "pairs": [
@@ -7074,12 +7544,12 @@ export const JA_B1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "opinions-and-debate",
+    "slug": "opinions-and-debate-1",
     "level": "JA-B1",
-    "number": 11,
-    "title": "Opinions and Debate",
+    "number": 51,
+    "title": "Opinions and Debate, Part 1 of 5",
     "summary": "Give opinions, push back and draw conclusions with べきだ, ことはない, わけにはいかない, というより and に違いない.",
-    "duration": "45 min",
+    "duration": "10 min",
     "sections": [
       {
         "heading": "What This Lesson Covers",
@@ -7176,7 +7646,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "～ことはない removes an obligation."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "ここでは、靴を脱ぐ（　）。 (There is no need to take off your shoes here.)",
+        "options": [
+          "に違いありません",
+          "ことはありません",
+          "わけにはいきません",
+          "べきです"
+        ],
+        "correctIndex": 1,
+        "explanation": "There is no need to: ～ことはない."
       },
+      {
+        "type": "multiple-choice",
+        "question": "What does 制球 (せいきゅう) mean?",
+        "options": [
+          "arrangement; deployment",
+          "business trip; official trip",
+          "control",
+          "to drain; to pour; to wash away"
+        ],
+        "correctIndex": 2,
+        "explanation": "制球 (せいきゅう) means control."
+      }
+    ]
+  },
+  {
+    "slug": "opinions-and-debate-2",
+    "level": "JA-B1",
+    "number": 52,
+    "title": "Opinions and Debate, Part 2 of 5",
+    "summary": "Give opinions, push back and draw conclusions with べきだ, ことはない, わけにはいかない, というより and に違いない.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "～わけにはいかない: Cannot, for practical or moral reasons",
         "body": [
@@ -7284,7 +7790,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "en": "koko de wa, kutsu o nugu koto wa arimasen. -- There is no need to take off your shoes here."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "What does 意図 (いと) mean?",
+        "options": [
+          "intention; aim",
+          "agreement; consent; same opinion",
+          "branch office",
+          "gender; distinction of sex"
+        ],
+        "correctIndex": 0,
+        "explanation": "意図 (いと) means intention; aim."
       },
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 私は、全部禁止するというより、ルールを作るほうがいいと思います。 — What does the speaker prefer?",
+        "options": [
+          "Making rules rather than banning everything",
+          "Letting everyone decide",
+          "Doing nothing",
+          "Banning everything"
+        ],
+        "correctIndex": 0,
+        "explanation": "というより sets up the preferred option."
+      }
+    ]
+  },
+  {
+    "slug": "opinions-and-debate-3",
+    "level": "JA-B1",
+    "number": 53,
+    "title": "Opinions and Debate, Part 3 of 5",
+    "summary": "Give opinions, push back and draw conclusions with べきだ, ことはない, わけにはいかない, というより and に違いない.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Reading Practice",
         "body": [
@@ -7399,7 +7941,58 @@ export const JA_B1_LESSONS: Lesson[] = [
             "en": "han, ban; waka.ru -- judgement, signature, stamp. E.g. 判断 (handan): judgment; judgement; divination."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Passage: あの二人は、顔がそっくりです。兄弟に違いありません。 — What does the speaker conclude?",
+        "options": [
+          "The two must be brothers",
+          "The two are teachers",
+          "The two are strangers",
+          "The two are twins by chance"
+        ],
+        "correctIndex": 0,
+        "explanation": "に違いありません is a strong conclusion."
       },
+      {
+        "type": "matching",
+        "instructions": "Match each word with its English meaning.",
+        "pairs": [
+          {
+            "left": "誤解",
+            "right": "misunderstanding"
+          },
+          {
+            "left": "可能性",
+            "right": "potentiality"
+          },
+          {
+            "left": "構成",
+            "right": "composition"
+          },
+          {
+            "left": "違反",
+            "right": "violation"
+          },
+          {
+            "left": "活動",
+            "right": "activity"
+          }
+        ],
+        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
+      }
+    ]
+  },
+  {
+    "slug": "opinions-and-debate-4",
+    "level": "JA-B1",
+    "number": 54,
+    "title": "Opinions and Debate, Part 4 of 5",
+    "summary": "Give opinions, push back and draw conclusions with べきだ, ことはない, わけにはいかない, というより and に違いない.",
+    "duration": "6 min",
+    "sections": [
       {
         "heading": "Kanji for Your Review Deck",
         "body": [
@@ -7503,7 +8096,46 @@ export const JA_B1_LESSONS: Lesson[] = [
             "en": "fuku -- blessing, fortune, luck. E.g. 福 (fuku): good fortune; happiness."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "matching",
+        "instructions": "Match each word with its reading.",
+        "pairs": [
+          {
+            "left": "指数",
+            "right": "しすう"
+          },
+          {
+            "left": "前身",
+            "right": "ぜんしん"
+          },
+          {
+            "left": "上演",
+            "right": "じょうえん"
+          },
+          {
+            "left": "違反",
+            "right": "いはん"
+          },
+          {
+            "left": "演説",
+            "right": "えんぜつ"
+          }
+        ],
+        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
+      }
+    ]
+  },
+  {
+    "slug": "opinions-and-debate-5",
+    "level": "JA-B1",
+    "number": 55,
+    "title": "Opinions and Debate, Part 5 of 5",
+    "summary": "Give opinions, push back and draw conclusions with べきだ, ことはない, わけにはいかない, というより and に違いない.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Key Vocabulary",
         "body": [
@@ -7642,120 +8274,6 @@ export const JA_B1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "ここでは、靴を脱ぐ（　）。 (There is no need to take off your shoes here.)",
-        "options": [
-          "に違いありません",
-          "ことはありません",
-          "わけにはいきません",
-          "べきです"
-        ],
-        "correctIndex": 1,
-        "explanation": "There is no need to: ～ことはない."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 制球 (せいきゅう) mean?",
-        "options": [
-          "arrangement; deployment",
-          "business trip; official trip",
-          "control",
-          "to drain; to pour; to wash away"
-        ],
-        "correctIndex": 2,
-        "explanation": "制球 (せいきゅう) means control."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 意図 (いと) mean?",
-        "options": [
-          "intention; aim",
-          "agreement; consent; same opinion",
-          "branch office",
-          "gender; distinction of sex"
-        ],
-        "correctIndex": 0,
-        "explanation": "意図 (いと) means intention; aim."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 私は、全部禁止するというより、ルールを作るほうがいいと思います。 — What does the speaker prefer?",
-        "options": [
-          "Making rules rather than banning everything",
-          "Letting everyone decide",
-          "Doing nothing",
-          "Banning everything"
-        ],
-        "correctIndex": 0,
-        "explanation": "というより sets up the preferred option."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: あの二人は、顔がそっくりです。兄弟に違いありません。 — What does the speaker conclude?",
-        "options": [
-          "The two must be brothers",
-          "The two are teachers",
-          "The two are strangers",
-          "The two are twins by chance"
-        ],
-        "correctIndex": 0,
-        "explanation": "に違いありません is a strong conclusion."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its English meaning.",
-        "pairs": [
-          {
-            "left": "誤解",
-            "right": "misunderstanding"
-          },
-          {
-            "left": "可能性",
-            "right": "potentiality"
-          },
-          {
-            "left": "構成",
-            "right": "composition"
-          },
-          {
-            "left": "違反",
-            "right": "violation"
-          },
-          {
-            "left": "活動",
-            "right": "activity"
-          }
-        ],
-        "explanation": "These words all belong to this unit's vocabulary. Check any you missed against the Key Vocabulary and Core Kanji sections."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each word with its reading.",
-        "pairs": [
-          {
-            "left": "指数",
-            "right": "しすう"
-          },
-          {
-            "left": "前身",
-            "right": "ぜんしん"
-          },
-          {
-            "left": "上演",
-            "right": "じょうえん"
-          },
-          {
-            "left": "違反",
-            "right": "いはん"
-          },
-          {
-            "left": "演説",
-            "right": "えんぜつ"
-          }
-        ],
-        "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
-      },
-      {
         "type": "matching",
         "instructions": "Match each pattern with its meaning.",
         "pairs": [
@@ -7785,12 +8303,12 @@ export const JA_B1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "consolidation-and-capstone",
+    "slug": "consolidation-and-capstone-1",
     "level": "JA-B1",
-    "number": 12,
-    "title": "Consolidation and Capstone",
+    "number": 56,
+    "title": "Consolidation and Capstone, Part 1 of 5",
     "summary": "Combine patterns from all twelve units in a capstone reading and talk, and add ものだ, たものだ, ばかり, っぱなし and ついでに.",
-    "duration": "45 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "What This Lesson Covers",
@@ -7823,7 +8341,55 @@ export const JA_B1_LESSONS: Lesson[] = [
             "en": "Lee: ima wa, kaimono ni iku tsuide ni, yasai mo kau you ni shite imasu. -- Lee: Now I make a point of buying vegetables too when I go shopping."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "私は昨日、宿題を（　）、遊びませんでした。 (Yesterday I only did homework and did not play (neutral).)",
+        "options": [
+          "したものの",
+          "したっぱなしで",
+          "したばかりで",
+          "しただけで"
+        ],
+        "correctIndex": 3,
+        "explanation": "だけ is neutral, while ばかり suggests too much."
       },
+      {
+        "type": "multiple-choice",
+        "question": "What is the reading of 心配?",
+        "options": [
+          "しんぱい",
+          "ゆうぼう",
+          "たよる",
+          "ちょくぜん"
+        ],
+        "correctIndex": 0,
+        "explanation": "心配 is read しんぱい (worry; concern; care)."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "What is the reading of 気負い?",
+        "options": [
+          "すうち",
+          "にっき",
+          "きおい",
+          "かんさつ"
+        ],
+        "correctIndex": 2,
+        "explanation": "気負い is read きおい (eagerness; enthusiasm)."
+      }
+    ]
+  },
+  {
+    "slug": "consolidation-and-capstone-2",
+    "level": "JA-B1",
+    "number": 57,
+    "title": "Consolidation and Capstone, Part 2 of 5",
+    "summary": "Combine patterns from all twelve units in a capstone reading and talk, and add ものだ, たものだ, ばかり, っぱなし and ついでに.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "～ものだ: A general truth or feeling",
         "body": [
@@ -7919,7 +8485,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "ばかり means only or too much of the same thing."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "What does 速球 (そっきゅう) mean?",
+        "options": [
+          "fastball",
+          "tactics; strategy; military operation",
+          "receiver",
+          "scoring; score"
+        ],
+        "correctIndex": 0,
+        "explanation": "速球 (そっきゅう) means fastball."
       },
+      {
+        "type": "multiple-choice",
+        "question": "What does 課題 (かだい) mean?",
+        "options": [
+          "shamisen; samisen",
+          "subject; theme; homework",
+          "preservation; integrity",
+          "number; series of digits"
+        ],
+        "correctIndex": 1,
+        "explanation": "課題 (かだい) means subject; theme; homework."
+      }
+    ]
+  },
+  {
+    "slug": "consolidation-and-capstone-3",
+    "level": "JA-B1",
+    "number": 58,
+    "title": "Consolidation and Capstone, Part 3 of 5",
+    "summary": "Combine patterns from all twelve units in a capstone reading and talk, and add ものだ, たものだ, ばかり, っぱなし and ついでに.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "～っぱなし: Left in a state",
         "body": [
@@ -7995,7 +8597,43 @@ export const JA_B1_LESSONS: Lesson[] = [
             "en": "watashi wa kinou, shukudai o shita dake de, asobimasen deshita. -- Yesterday I only did homework and did not play (neutral)."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 子どものころ、よくこの公園で遊んだものです。今は、忙しくて、なかなか来られません。 — What does the speaker say about their childhood?",
+        "options": [
+          "They often played in this park",
+          "They lived near the sea",
+          "They never came here",
+          "They studied here"
+        ],
+        "correctIndex": 0,
+        "explanation": "たものです looks back on a habit."
       },
+      {
+        "type": "multiple-choice",
+        "question": "Passage: 最近、コンビニの弁当ばかり食べているので、野菜も食べるようにしています。 — What has the speaker been eating lately?",
+        "options": [
+          "Restaurant meals",
+          "Only rice",
+          "Only vegetables",
+          "Mostly convenience-store lunches"
+        ],
+        "correctIndex": 3,
+        "explanation": "ばかり means mostly the same thing."
+      }
+    ]
+  },
+  {
+    "slug": "consolidation-and-capstone-4",
+    "level": "JA-B1",
+    "number": 59,
+    "title": "Consolidation and Capstone, Part 4 of 5",
+    "summary": "Combine patterns from all twelve units in a capstone reading and talk, and add ものだ, たものだ, ばかり, っぱなし and ついでに.",
+    "duration": "9 min",
+    "sections": [
       {
         "heading": "Reading Practice",
         "body": [
@@ -8069,131 +8707,9 @@ export const JA_B1_LESSONS: Lesson[] = [
             "explanation": "The plan is to travel alone in Japanese."
           }
         ]
-      },
-      {
-        "heading": "Patterns from Earlier Units",
-        "body": [
-          "This lesson adds no new kanji or vocabulary. Instead, use the reading and the review deck to bring back patterns from the whole level. As you read, name the unit each pattern came from.",
-          "Unit 1, Changes and Decisions: ～ようになる、～ようにする、～ことにする、～ことになる、～ことになっている",
-          "Unit 2, News, Hearsay and Impressions: ～そうだ (appearance)、～そうだ (hearsay)、～らしい、～ようだ・～みたい、～はずだ",
-          "Unit 3, Favors and Requests: ～てあげる・～てくれる・～てもらう、～ていただく・～てくださる、～てほしい、～ておく、～てしまう",
-          "Unit 4, Passive and Causative: School and Work: Direct passive、Indirect passive、Causative (～させる)、Causative-passive (～させられる)、～(さ)せてください",
-          "Unit 5, Timing and Schedules: ～ところだ、～たばかりだ、～うちに、～間に、～たびに",
-          "Unit 6, Reasons, Causes and Purposes: ～せいで、～おかげで、～ために、～ように (purpose)、～のに",
-          "Unit 7, Advice and Conditions: ～たら vs ～と、～ば vs ～なら、～ば～ほど、～わけだ、～わけがない・～わけではない",
-          "Unit 8, Comparing and Degree: ～ほど、～くらい・～ぐらい、～にとって、～に対して、～によって",
-          "Unit 9, Polite Service Japanese (Keigo I): Honorific special verbs、お・ご～になる、Humble special verbs、お・ご～する、～でございます・～と申します",
-          "Unit 10, Formal Writing and News: ～によると、～ということだ、～として、～に関して、～につれて",
-          "Unit 11, Opinions and Debate: ～べきだ、～ことはない、～わけにはいかない、～というより、～に違いない"
-        ]
-      },
-      {
-        "heading": "Speak About It",
-        "body": [
-          "Use these prompts for your 30-minute chat with a native speaker, or answer them aloud on your own in full sentences that use this lesson's patterns.",
-          "Writing challenge: Write a 500-character capstone essay on a topic of your choice, using at least six patterns from across the level."
-        ],
-        "examples": [
-          {
-            "es": "一年前と今で、変わったことは何ですか。",
-            "en": "ichi nen mae to ima de, kawatta koto wa nan desu ka. -- What has changed between a year ago and now?"
-          },
-          {
-            "es": "子どものころ、よくしたことを教えてください。",
-            "en": "kodomo no koro, yoku shita koto o oshiete kudasai. -- Tell me about something you often did as a child."
-          },
-          {
-            "es": "これから、どんなことをしたいですか。理由も教えてください。",
-            "en": "kore kara, donna koto o shitai desu ka. riyuu mo oshiete kudasai. -- What do you want to do from now on? Please tell me the reason too."
-          }
-        ]
       }
     ],
     "exercises": [
-      {
-        "type": "multiple-choice",
-        "question": "私は昨日、宿題を（　）、遊びませんでした。 (Yesterday I only did homework and did not play (neutral).)",
-        "options": [
-          "したものの",
-          "したっぱなしで",
-          "したばかりで",
-          "しただけで"
-        ],
-        "correctIndex": 3,
-        "explanation": "だけ is neutral, while ばかり suggests too much."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What is the reading of 心配?",
-        "options": [
-          "しんぱい",
-          "ゆうぼう",
-          "たよる",
-          "ちょくぜん"
-        ],
-        "correctIndex": 0,
-        "explanation": "心配 is read しんぱい (worry; concern; care)."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What is the reading of 気負い?",
-        "options": [
-          "すうち",
-          "にっき",
-          "きおい",
-          "かんさつ"
-        ],
-        "correctIndex": 2,
-        "explanation": "気負い is read きおい (eagerness; enthusiasm)."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 速球 (そっきゅう) mean?",
-        "options": [
-          "fastball",
-          "tactics; strategy; military operation",
-          "receiver",
-          "scoring; score"
-        ],
-        "correctIndex": 0,
-        "explanation": "速球 (そっきゅう) means fastball."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "What does 課題 (かだい) mean?",
-        "options": [
-          "shamisen; samisen",
-          "subject; theme; homework",
-          "preservation; integrity",
-          "number; series of digits"
-        ],
-        "correctIndex": 1,
-        "explanation": "課題 (かだい) means subject; theme; homework."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 子どものころ、よくこの公園で遊んだものです。今は、忙しくて、なかなか来られません。 — What does the speaker say about their childhood?",
-        "options": [
-          "They often played in this park",
-          "They lived near the sea",
-          "They never came here",
-          "They studied here"
-        ],
-        "correctIndex": 0,
-        "explanation": "たものです looks back on a habit."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Passage: 最近、コンビニの弁当ばかり食べているので、野菜も食べるようにしています。 — What has the speaker been eating lately?",
-        "options": [
-          "Restaurant meals",
-          "Only rice",
-          "Only vegetables",
-          "Mostly convenience-store lunches"
-        ],
-        "correctIndex": 3,
-        "explanation": "ばかり means mostly the same thing."
-      },
       {
         "type": "matching",
         "instructions": "Match each word with its English meaning.",
@@ -8247,7 +8763,57 @@ export const JA_B1_LESSONS: Lesson[] = [
           }
         ],
         "explanation": "Reading a kanji word correctly is what lets the vocabulary stick, so say each word aloud once you have the match."
+      }
+    ]
+  },
+  {
+    "slug": "consolidation-and-capstone-5",
+    "level": "JA-B1",
+    "number": 60,
+    "title": "Consolidation and Capstone, Part 5 of 5",
+    "summary": "Combine patterns from all twelve units in a capstone reading and talk, and add ものだ, たものだ, ばかり, っぱなし and ついでに.",
+    "duration": "8 min",
+    "sections": [
+      {
+        "heading": "Patterns from Earlier Units",
+        "body": [
+          "This lesson adds no new kanji or vocabulary. Instead, use the reading and the review deck to bring back patterns from the whole level. As you read, name the unit each pattern came from.",
+          "Unit 1, Changes and Decisions: ～ようになる、～ようにする、～ことにする、～ことになる、～ことになっている",
+          "Unit 2, News, Hearsay and Impressions: ～そうだ (appearance)、～そうだ (hearsay)、～らしい、～ようだ・～みたい、～はずだ",
+          "Unit 3, Favors and Requests: ～てあげる・～てくれる・～てもらう、～ていただく・～てくださる、～てほしい、～ておく、～てしまう",
+          "Unit 4, Passive and Causative: School and Work: Direct passive、Indirect passive、Causative (～させる)、Causative-passive (～させられる)、～(さ)せてください",
+          "Unit 5, Timing and Schedules: ～ところだ、～たばかりだ、～うちに、～間に、～たびに",
+          "Unit 6, Reasons, Causes and Purposes: ～せいで、～おかげで、～ために、～ように (purpose)、～のに",
+          "Unit 7, Advice and Conditions: ～たら vs ～と、～ば vs ～なら、～ば～ほど、～わけだ、～わけがない・～わけではない",
+          "Unit 8, Comparing and Degree: ～ほど、～くらい・～ぐらい、～にとって、～に対して、～によって",
+          "Unit 9, Polite Service Japanese (Keigo I): Honorific special verbs、お・ご～になる、Humble special verbs、お・ご～する、～でございます・～と申します",
+          "Unit 10, Formal Writing and News: ～によると、～ということだ、～として、～に関して、～につれて",
+          "Unit 11, Opinions and Debate: ～べきだ、～ことはない、～わけにはいかない、～というより、～に違いない"
+        ]
       },
+      {
+        "heading": "Speak About It",
+        "body": [
+          "Use these prompts for your 30-minute chat with a native speaker, or answer them aloud on your own in full sentences that use this lesson's patterns.",
+          "Writing challenge: Write a 500-character capstone essay on a topic of your choice, using at least six patterns from across the level."
+        ],
+        "examples": [
+          {
+            "es": "一年前と今で、変わったことは何ですか。",
+            "en": "ichi nen mae to ima de, kawatta koto wa nan desu ka. -- What has changed between a year ago and now?"
+          },
+          {
+            "es": "子どものころ、よくしたことを教えてください。",
+            "en": "kodomo no koro, yoku shita koto o oshiete kudasai. -- Tell me about something you often did as a child."
+          },
+          {
+            "es": "これから、どんなことをしたいですか。理由も教えてください。",
+            "en": "kore kara, donna koto o shitai desu ka. riyuu mo oshiete kudasai. -- What do you want to do from now on? Please tell me the reason too."
+          }
+        ]
+      }
+    ],
+    "exercises": [
       {
         "type": "matching",
         "instructions": "Match each pattern with its meaning.",

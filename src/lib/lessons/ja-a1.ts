@@ -1,19 +1,13 @@
 import type { Lesson } from "./types";
 
-// The hidden Japanese track's first real grammar module: A1 fundamentals,
-// assuming kana literacy from ja-alphabets.ts. Kept in its own file for the
-// same reason -- a clean, removable unit reusing the shared Lesson/
-// Exercise/LessonSection shape (see the "JA-A1" branch on Lesson["level"]
-// in ./types.ts). No "translate" exercises here either, for the same
-// reason as ja-alphabets.ts.
 export const JA_A1_LESSONS: Lesson[] = [
   {
-    "slug": "greetings-introductions-etiquette",
+    "slug": "greetings-introductions-etiquette-1",
     "level": "JA-A1",
     "number": 1,
-    "title": "Greetings, Introductions, and Basic Etiquette",
+    "title": "Greetings, Introductions, and Basic Etiquette, Part 1 of 2",
     "summary": "The first words you'll actually use: greetings for every time of day, thanks and apologies, and how to introduce yourself in Japanese.",
-    "duration": "18 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "Greetings for every time of day",
@@ -138,7 +132,55 @@ export const JA_A1_LESSONS: Lesson[] = [
             "explanation": "ごめん (gomen) is the casual shortening of ごめんなさい, used among close friends."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Which greeting is used specifically in the morning?",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "おやすみなさい"
+        ],
+        "correctIndex": 0,
+        "explanation": "おはようございます (ohayou gozaimasu) is the morning greeting; こんにちは covers daytime, こんばんは covers evening, and おやすみなさい is specifically \"good night\" before sleep."
       },
+      {
+        "type": "multi-select",
+        "question": "Which of these are true about はじめまして and よろしくおねがいします?",
+        "options": [
+          "はじめまして is said only at a first meeting",
+          "よろしくおねがいします has no single natural English translation",
+          "Both phrases are typically said together when introducing yourself",
+          "よろしくおねがいします means \"goodbye\""
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          2
+        ],
+        "explanation": "はじめまして and よろしくおねがいします form a fixed introduction pair -- the first for a first meeting, the second a set social phrase with no direct English equivalent."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Complete the polite way to ask someone's name.",
+        "sentence": "お___は？ (asking for someone's name politely)",
+        "answer": "なまえ",
+        "hint": "The お prefix attaches to this word for name.",
+        "explanation": "おなまえは？(O-namae wa?) is the standard polite way to ask someone's name."
+      }
+    ]
+  },
+  {
+    "slug": "greetings-introductions-etiquette-2",
+    "level": "JA-A1",
+    "number": 2,
+    "title": "Greetings, Introductions, and Basic Etiquette, Part 2 of 2",
+    "summary": "The first words you'll actually use: greetings for every time of day, thanks and apologies, and how to introduce yourself in Japanese.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "Introducing yourself: はじめまして",
         "body": [
@@ -288,42 +330,6 @@ export const JA_A1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "Which greeting is used specifically in the morning?",
-        "options": [
-          "おはようございます",
-          "こんにちは",
-          "こんばんは",
-          "おやすみなさい"
-        ],
-        "correctIndex": 0,
-        "explanation": "おはようございます (ohayou gozaimasu) is the morning greeting; こんにちは covers daytime, こんばんは covers evening, and おやすみなさい is specifically \"good night\" before sleep."
-      },
-      {
-        "type": "multi-select",
-        "question": "Which of these are true about はじめまして and よろしくおねがいします?",
-        "options": [
-          "はじめまして is said only at a first meeting",
-          "よろしくおねがいします has no single natural English translation",
-          "Both phrases are typically said together when introducing yourself",
-          "よろしくおねがいします means \"goodbye\""
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          2
-        ],
-        "explanation": "はじめまして and よろしくおねがいします form a fixed introduction pair -- the first for a first meeting, the second a set social phrase with no direct English equivalent."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Complete the polite way to ask someone's name.",
-        "sentence": "お___は？ (asking for someone's name politely)",
-        "answer": "なまえ",
-        "hint": "The お prefix attaches to this word for name.",
-        "explanation": "おなまえは？(O-namae wa?) is the standard polite way to ask someone's name."
-      },
-      {
         "type": "matching",
         "instructions": "Match each phrase to its meaning.",
         "pairs": [
@@ -371,12 +377,12 @@ export const JA_A1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "sentence-structure-desu",
+    "slug": "sentence-structure-desu-1",
     "level": "JA-A1",
-    "number": 2,
-    "title": "Sentence Structure and です: X は Y です",
+    "number": 3,
+    "title": "Sentence Structure and です: X は Y です, Part 1 of 3",
     "summary": "The single most important pattern in beginner Japanese: how です forms a sentence, how は marks the topic, and how to make it negative or a question.",
-    "duration": "20 min",
+    "duration": "5 min",
     "sections": [
       {
         "heading": "The basic pattern: X は Y です",
@@ -431,7 +437,46 @@ export const JA_A1_LESSONS: Lesson[] = [
             "explanation": "Both follow the X は Y です pattern: 私 (I) / これ (this) as topic, 学生 (student) / 本 (book) as what's being said about it."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "In 私は学生です, what role does は play?",
+        "options": [
+          "Marks 私 (\"I\") as the topic of the sentence",
+          "Means \"student\"",
+          "Makes the sentence a question",
+          "Is the verb"
+        ],
+        "correctIndex": 0,
+        "explanation": "は is the topic particle, marking what the sentence is \"about\" -- here, 私 (watashi, I)."
       },
+      {
+        "type": "multi-select",
+        "question": "Which of these correctly negate a です sentence?",
+        "options": [
+          "ではありません",
+          "じゃありません",
+          "ですか",
+          "でした"
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "ではありません and its casual contraction じゃありません both negate です; ですか forms a question, and でした is simple past (not negative)."
+      }
+    ]
+  },
+  {
+    "slug": "sentence-structure-desu-2",
+    "level": "JA-A1",
+    "number": 4,
+    "title": "Sentence Structure and です: X は Y です, Part 2 of 3",
+    "summary": "The single most important pattern in beginner Japanese: how です forms a sentence, how は marks the topic, and how to make it negative or a question.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "Making it negative",
         "body": [
@@ -520,7 +565,50 @@ export const JA_A1_LESSONS: Lesson[] = [
             "explanation": "か at the end of a sentence turns a statement into a yes/no question."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Complete the question asking what something is.",
+        "sentence": "これは___ですか？(What is this?)",
+        "answer": "何",
+        "hint": "The question word for \"what.\"",
+        "explanation": "これは何ですか？(Kore wa nan desu ka?) means \"What is this?\" -- 何 is \"what.\""
       },
+      {
+        "type": "matching",
+        "instructions": "Match each form of です to what it expresses.",
+        "pairs": [
+          {
+            "left": "です",
+            "right": "Present/future affirmative"
+          },
+          {
+            "left": "ではありません",
+            "right": "Present/future negative"
+          },
+          {
+            "left": "でした",
+            "right": "Past affirmative"
+          },
+          {
+            "left": "ではありませんでした",
+            "right": "Past negative"
+          }
+        ],
+        "explanation": "です conjugates as a single, closed set of four forms across tense and polarity -- much simpler than English's \"to be.\""
+      }
+    ]
+  },
+  {
+    "slug": "sentence-structure-desu-3",
+    "level": "JA-A1",
+    "number": 5,
+    "title": "Sentence Structure and です: X は Y です, Part 3 of 3",
+    "summary": "The single most important pattern in beginner Japanese: how です forms a sentence, how は marks the topic, and how to make it negative or a question.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "Putting は and です questions together",
         "body": [
@@ -618,64 +706,6 @@ export const JA_A1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "In 私は学生です, what role does は play?",
-        "options": [
-          "Marks 私 (\"I\") as the topic of the sentence",
-          "Means \"student\"",
-          "Makes the sentence a question",
-          "Is the verb"
-        ],
-        "correctIndex": 0,
-        "explanation": "は is the topic particle, marking what the sentence is \"about\" -- here, 私 (watashi, I)."
-      },
-      {
-        "type": "multi-select",
-        "question": "Which of these correctly negate a です sentence?",
-        "options": [
-          "ではありません",
-          "じゃありません",
-          "ですか",
-          "でした"
-        ],
-        "correctIndexes": [
-          0,
-          1
-        ],
-        "explanation": "ではありません and its casual contraction じゃありません both negate です; ですか forms a question, and でした is simple past (not negative)."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Complete the question asking what something is.",
-        "sentence": "これは___ですか？(What is this?)",
-        "answer": "何",
-        "hint": "The question word for \"what.\"",
-        "explanation": "これは何ですか？(Kore wa nan desu ka?) means \"What is this?\" -- 何 is \"what.\""
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each form of です to what it expresses.",
-        "pairs": [
-          {
-            "left": "です",
-            "right": "Present/future affirmative"
-          },
-          {
-            "left": "ではありません",
-            "right": "Present/future negative"
-          },
-          {
-            "left": "でした",
-            "right": "Past affirmative"
-          },
-          {
-            "left": "ではありませんでした",
-            "right": "Past negative"
-          }
-        ],
-        "explanation": "です conjugates as a single, closed set of four forms across tense and polarity -- much simpler than English's \"to be.\""
-      },
-      {
         "type": "word-order",
         "prompt": "Arrange these words/particles to form \"I am a student.\"",
         "words": [
@@ -702,12 +732,12 @@ export const JA_A1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "pronouns-demonstratives-question-words",
+    "slug": "pronouns-demonstratives-question-words-1",
     "level": "JA-A1",
-    "number": 3,
-    "title": "Pronouns, Demonstratives, and Question Words",
+    "number": 6,
+    "title": "Pronouns, Demonstratives, and Question Words, Part 1 of 2",
     "summary": "Fill in the X and Y slots of the sentences you just learned: personal pronouns, the これ/それ/あれ system, and the core question words.",
-    "duration": "19 min",
+    "duration": "9 min",
     "sections": [
       {
         "heading": "Personal pronouns -- used more sparingly than in English",
@@ -821,7 +851,54 @@ export const JA_A1_LESSONS: Lesson[] = [
             "explanation": "それ (sore) refers to something near the listener rather than the speaker."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Which demonstrative would you use for something close to you, the speaker?",
+        "options": [
+          "これ",
+          "それ",
+          "あれ",
+          "どれ"
+        ],
+        "correctIndex": 0,
+        "explanation": "これ (kore) marks something near the speaker; それ is near the listener, あれ is far from both."
       },
+      {
+        "type": "multi-select",
+        "question": "Which of these are true about Japanese pronoun usage?",
+        "options": [
+          "私 (I) is commonly used and safe for learners",
+          "あなた (you) is used far less often than English \"you\" -- names are preferred",
+          "Japanese frequently omits pronouns entirely when context makes the referent clear",
+          "彼女 (she) is the single most common way to refer to a woman in conversation"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          2
+        ],
+        "explanation": "私 is safe and common; あなた/彼/彼女 exist but are used far less than their English counterparts, since names (plus さん) and omission are both preferred."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Complete the noun-modifying form for \"this\" (used directly before a noun, unlike これ).",
+        "sentence": "___本 means \"this book\" (kono hon).",
+        "answer": "この",
+        "explanation": "この (kono) modifies a following noun directly -- これ cannot attach to a noun the same way."
+      }
+    ]
+  },
+  {
+    "slug": "pronouns-demonstratives-question-words-2",
+    "level": "JA-A1",
+    "number": 7,
+    "title": "Pronouns, Demonstratives, and Question Words, Part 2 of 2",
+    "summary": "Fill in the X and Y slots of the sentences you just learned: personal pronouns, the これ/それ/あれ system, and the core question words.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "この・その・あの + noun (and どれ/どの)",
         "body": [
@@ -1004,41 +1081,6 @@ export const JA_A1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "Which demonstrative would you use for something close to you, the speaker?",
-        "options": [
-          "これ",
-          "それ",
-          "あれ",
-          "どれ"
-        ],
-        "correctIndex": 0,
-        "explanation": "これ (kore) marks something near the speaker; それ is near the listener, あれ is far from both."
-      },
-      {
-        "type": "multi-select",
-        "question": "Which of these are true about Japanese pronoun usage?",
-        "options": [
-          "私 (I) is commonly used and safe for learners",
-          "あなた (you) is used far less often than English \"you\" -- names are preferred",
-          "Japanese frequently omits pronouns entirely when context makes the referent clear",
-          "彼女 (she) is the single most common way to refer to a woman in conversation"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          2
-        ],
-        "explanation": "私 is safe and common; あなた/彼/彼女 exist but are used far less than their English counterparts, since names (plus さん) and omission are both preferred."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Complete the noun-modifying form for \"this\" (used directly before a noun, unlike これ).",
-        "sentence": "___本 means \"this book\" (kono hon).",
-        "answer": "この",
-        "explanation": "この (kono) modifies a following noun directly -- これ cannot attach to a noun the same way."
-      },
-      {
         "type": "matching",
         "instructions": "Match each question word to its meaning.",
         "pairs": [
@@ -1089,12 +1131,12 @@ export const JA_A1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "core-particles",
+    "slug": "core-particles-1",
     "level": "JA-A1",
-    "number": 4,
-    "title": "Core Particles: は, が, を, に, で, と",
+    "number": 8,
+    "title": "Core Particles: は, が, を, に, で, と, Part 1 of 3",
     "summary": "Particles are what make Japanese word order flexible and precise at the same time -- the six most essential ones, and what job each one does.",
-    "duration": "22 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "Why particles matter more than word order",
@@ -1171,7 +1213,47 @@ export const JA_A1_LESSONS: Lesson[] = [
             "explanation": "が introduces new information, answers specific questions, and emphasizes -- marking an already-established general topic is は's job."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "In 本を読みます (\"[I] read a book\"), what does を mark?",
+        "options": [
+          "The direct object (本, the book being read)",
+          "The location of the action",
+          "The topic of the sentence",
+          "A question"
+        ],
+        "correctIndex": 0,
+        "explanation": "を marks the direct object -- 本 (hon, book) is the thing being read."
       },
+      {
+        "type": "multi-select",
+        "question": "Which of these are correct uses of に?",
+        "options": [
+          "Marking a specific time (7時に, \"at 7 o'clock\")",
+          "Marking a destination (日本に行きます, \"go to Japan\")",
+          "Marking the direct object of a verb",
+          "Marking where something exists (ここにいます, \"is here\")"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "に marks time, destination, and location of existence; marking the direct object is を's job, not に's."
+      }
+    ]
+  },
+  {
+    "slug": "core-particles-2",
+    "level": "JA-A1",
+    "number": 9,
+    "title": "Core Particles: は, が, を, に, で, と, Part 2 of 3",
+    "summary": "Particles are what make Japanese word order flexible and precise at the same time -- the six most essential ones, and what job each one does.",
+    "duration": "6 min",
+    "sections": [
       {
         "heading": "を: marking the direct object",
         "body": [
@@ -1255,7 +1337,49 @@ export const JA_A1_LESSONS: Lesson[] = [
             "explanation": "に marks fixed points in time, destinations of movement, and locations of existence."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Complete the particle for \"means\" or \"method\" in this sentence.",
+        "sentence": "バス___行きます。(I go by bus.)",
+        "answer": "で",
+        "explanation": "で marks the means by which something is done -- here, バス (bus) as the method of travel."
       },
+      {
+        "type": "matching",
+        "instructions": "Match each particle to its core job.",
+        "pairs": [
+          {
+            "left": "は",
+            "right": "Marks the topic"
+          },
+          {
+            "left": "を",
+            "right": "Marks the direct object"
+          },
+          {
+            "left": "と",
+            "right": "Connects nouns (\"and\") or marks a companion (\"with\")"
+          },
+          {
+            "left": "で",
+            "right": "Marks the location of an action, or the means"
+          }
+        ],
+        "explanation": "Each particle has one core, distinct grammatical job, even though most have secondary uses covered in later lessons."
+      }
+    ]
+  },
+  {
+    "slug": "core-particles-3",
+    "level": "JA-A1",
+    "number": 10,
+    "title": "Core Particles: は, が, を, に, で, と, Part 3 of 3",
+    "summary": "Particles are what make Japanese word order flexible and precise at the same time -- the six most essential ones, and what job each one does.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "で: the location of an action, and means",
         "body": [
@@ -1376,64 +1500,6 @@ export const JA_A1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "In 本を読みます (\"[I] read a book\"), what does を mark?",
-        "options": [
-          "The direct object (本, the book being read)",
-          "The location of the action",
-          "The topic of the sentence",
-          "A question"
-        ],
-        "correctIndex": 0,
-        "explanation": "を marks the direct object -- 本 (hon, book) is the thing being read."
-      },
-      {
-        "type": "multi-select",
-        "question": "Which of these are correct uses of に?",
-        "options": [
-          "Marking a specific time (7時に, \"at 7 o'clock\")",
-          "Marking a destination (日本に行きます, \"go to Japan\")",
-          "Marking the direct object of a verb",
-          "Marking where something exists (ここにいます, \"is here\")"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          3
-        ],
-        "explanation": "に marks time, destination, and location of existence; marking the direct object is を's job, not に's."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Complete the particle for \"means\" or \"method\" in this sentence.",
-        "sentence": "バス___行きます。(I go by bus.)",
-        "answer": "で",
-        "explanation": "で marks the means by which something is done -- here, バス (bus) as the method of travel."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each particle to its core job.",
-        "pairs": [
-          {
-            "left": "は",
-            "right": "Marks the topic"
-          },
-          {
-            "left": "を",
-            "right": "Marks the direct object"
-          },
-          {
-            "left": "と",
-            "right": "Connects nouns (\"and\") or marks a companion (\"with\")"
-          },
-          {
-            "left": "で",
-            "right": "Marks the location of an action, or the means"
-          }
-        ],
-        "explanation": "Each particle has one core, distinct grammatical job, even though most have secondary uses covered in later lessons."
-      },
-      {
         "type": "word-order",
         "prompt": "Arrange these words/particles to say \"I go to Japan.\"",
         "words": [
@@ -1459,12 +1525,12 @@ export const JA_A1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "numbers-counting-basic-counters",
+    "slug": "numbers-counting-basic-counters-1",
     "level": "JA-A1",
-    "number": 5,
-    "title": "Numbers, Counting, and Basic Counters",
+    "number": 11,
+    "title": "Numbers, Counting, and Basic Counters, Part 1 of 2",
     "summary": "Two overlapping number systems, and why Japanese can't just say \"three\" without also saying what kind of thing you're counting.",
-    "duration": "20 min",
+    "duration": "10 min",
     "sections": [
       {
         "heading": "Two number systems: Sino-Japanese and native",
@@ -1576,7 +1642,55 @@ export const JA_A1_LESSONS: Lesson[] = [
             "explanation": "A counter word attaches to the number based on what's being counted -- this is required, not optional, in standard Japanese."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Which counter is used for people?",
+        "options": [
+          "人 (にん)",
+          "個 (こ)",
+          "枚 (まい)",
+          "本 (ほん)"
+        ],
+        "correctIndex": 0,
+        "explanation": "人 (nin) is the counter for people -- with irregular readings for one (hitori) and two (futari)."
       },
+      {
+        "type": "multi-select",
+        "question": "Which of these are true about Japanese numbers and counters?",
+        "options": [
+          "The native ひとつ/ふたつ set only goes up to 10",
+          "一人 (\"one person\") and 二人 (\"two people\") have irregular readings",
+          "Every noun uses the exact same counter word",
+          "Sino-Japanese numbers build compositionally past 10 (じゅういち = 11)"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "The native number set stops at 10, 一人/二人 are irregular, and Sino-Japanese numbers combine compositionally -- but different nouns require different counters, not one universal counter."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Complete the counter for flat, thin objects like tickets or paper.",
+        "sentence": "きっぷを二___ (two tickets) uses the counter for flat objects.",
+        "answer": "枚",
+        "hint": "Also read \"mai.\"",
+        "explanation": "枚 (mai) counts flat, thin objects such as paper, tickets, and plates."
+      }
+    ]
+  },
+  {
+    "slug": "numbers-counting-basic-counters-2",
+    "level": "JA-A1",
+    "number": 12,
+    "title": "Numbers, Counting, and Basic Counters, Part 2 of 2",
+    "summary": "Two overlapping number systems, and why Japanese can't just say \"three\" without also saying what kind of thing you're counting.",
+    "duration": "10 min",
+    "sections": [
       {
         "heading": "The essential beginner counters",
         "body": [
@@ -1707,42 +1821,6 @@ export const JA_A1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "Which counter is used for people?",
-        "options": [
-          "人 (にん)",
-          "個 (こ)",
-          "枚 (まい)",
-          "本 (ほん)"
-        ],
-        "correctIndex": 0,
-        "explanation": "人 (nin) is the counter for people -- with irregular readings for one (hitori) and two (futari)."
-      },
-      {
-        "type": "multi-select",
-        "question": "Which of these are true about Japanese numbers and counters?",
-        "options": [
-          "The native ひとつ/ふたつ set only goes up to 10",
-          "一人 (\"one person\") and 二人 (\"two people\") have irregular readings",
-          "Every noun uses the exact same counter word",
-          "Sino-Japanese numbers build compositionally past 10 (じゅういち = 11)"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          3
-        ],
-        "explanation": "The native number set stops at 10, 一人/二人 are irregular, and Sino-Japanese numbers combine compositionally -- but different nouns require different counters, not one universal counter."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Complete the counter for flat, thin objects like tickets or paper.",
-        "sentence": "きっぷを二___ (two tickets) uses the counter for flat objects.",
-        "answer": "枚",
-        "hint": "Also read \"mai.\"",
-        "explanation": "枚 (mai) counts flat, thin objects such as paper, tickets, and plates."
-      },
-      {
         "type": "matching",
         "instructions": "Match each counter to what it counts.",
         "pairs": [
@@ -1792,12 +1870,12 @@ export const JA_A1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "verbs-masu-form",
+    "slug": "verbs-masu-form-1",
     "level": "JA-A1",
-    "number": 6,
-    "title": "Verbs in the ます Form: Present, Future, and Negative",
+    "number": 13,
+    "title": "Verbs in the ます Form: Present, Future, and Negative, Part 1 of 3",
     "summary": "Your first real Japanese verbs -- the polite ます form that covers present and future tense, its negative, and the handful of common verbs you'll use constantly.",
-    "duration": "22 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "Verbs come last, and ます is your polite default",
@@ -1899,7 +1977,47 @@ export const JA_A1_LESSONS: Lesson[] = [
             "explanation": "ません is a single, direct swap for every ます verb, unlike です's longer ではありません/じゃありません."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Which verb means \"there is/are,\" used specifically for inanimate objects?",
+        "options": [
+          "あります",
+          "います",
+          "します",
+          "行きます"
+        ],
+        "correctIndex": 0,
+        "explanation": "あります is for inanimate objects; います is the equivalent for animate beings (people, animals)."
       },
+      {
+        "type": "multi-select",
+        "question": "Which of these are true about the ます form?",
+        "options": [
+          "It doesn't distinguish present from future tense -- context does",
+          "Its negative is formed by swapping ます for ません",
+          "It changes form depending on who the subject is (like English \"am/is/are\")",
+          "It's the polite, default verb ending for everyday speech"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "ます covers present/future without changing form for tense, negates simply as ません, and is the standard polite verb ending -- unlike English \"to be,\" it doesn't change based on subject."
+      }
+    ]
+  },
+  {
+    "slug": "verbs-masu-form-2",
+    "level": "JA-A1",
+    "number": 14,
+    "title": "Verbs in the ます Form: Present, Future, and Negative, Part 2 of 3",
+    "summary": "Your first real Japanese verbs -- the polite ます form that covers present and future tense, its negative, and the handful of common verbs you'll use constantly.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "を with action verbs",
         "body": [
@@ -1970,7 +2088,60 @@ export const JA_A1_LESSONS: Lesson[] = [
             "explanation": "学校に行きます -- に marks 学校 (school) as the destination."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Complete the particle used with 行きます to mark a destination.",
+        "sentence": "学校___行きます。(I go to school.)",
+        "answer": "に",
+        "explanation": "に marks the destination of a motion verb like 行きます -- not を, which is reserved for direct objects."
       },
+      {
+        "type": "matching",
+        "instructions": "Match each verb to its meaning.",
+        "pairs": [
+          {
+            "left": "食べます",
+            "right": "eat"
+          },
+          {
+            "left": "飲みます",
+            "right": "drink"
+          },
+          {
+            "left": "見ます",
+            "right": "see / watch"
+          },
+          {
+            "left": "行きます",
+            "right": "go"
+          }
+        ],
+        "explanation": "These five ます verbs (with します from the lesson) form the core beginner action-verb toolkit."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Arrange these words/particles to say \"I drink water.\"",
+        "words": [
+          "水",
+          "を",
+          "飲みます"
+        ],
+        "translation": "I drink water.",
+        "explanation": "水を飲みます marks 水 (water) as the direct object with を, followed by the verb 飲みます (drink)."
+      }
+    ]
+  },
+  {
+    "slug": "verbs-masu-form-3",
+    "level": "JA-A1",
+    "number": 15,
+    "title": "Verbs in the ます Form: Present, Future, and Negative, Part 3 of 3",
+    "summary": "Your first real Japanese verbs -- the polite ます form that covers present and future tense, its negative, and the handful of common verbs you'll use constantly.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "あります and います: existence",
         "body": [
@@ -2058,75 +2229,6 @@ export const JA_A1_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Which verb means \"there is/are,\" used specifically for inanimate objects?",
-        "options": [
-          "あります",
-          "います",
-          "します",
-          "行きます"
-        ],
-        "correctIndex": 0,
-        "explanation": "あります is for inanimate objects; います is the equivalent for animate beings (people, animals)."
-      },
-      {
-        "type": "multi-select",
-        "question": "Which of these are true about the ます form?",
-        "options": [
-          "It doesn't distinguish present from future tense -- context does",
-          "Its negative is formed by swapping ます for ません",
-          "It changes form depending on who the subject is (like English \"am/is/are\")",
-          "It's the polite, default verb ending for everyday speech"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          3
-        ],
-        "explanation": "ます covers present/future without changing form for tense, negates simply as ません, and is the standard polite verb ending -- unlike English \"to be,\" it doesn't change based on subject."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Complete the particle used with 行きます to mark a destination.",
-        "sentence": "学校___行きます。(I go to school.)",
-        "answer": "に",
-        "explanation": "に marks the destination of a motion verb like 行きます -- not を, which is reserved for direct objects."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each verb to its meaning.",
-        "pairs": [
-          {
-            "left": "食べます",
-            "right": "eat"
-          },
-          {
-            "left": "飲みます",
-            "right": "drink"
-          },
-          {
-            "left": "見ます",
-            "right": "see / watch"
-          },
-          {
-            "left": "行きます",
-            "right": "go"
-          }
-        ],
-        "explanation": "These five ます verbs (with します from the lesson) form the core beginner action-verb toolkit."
-      },
-      {
-        "type": "word-order",
-        "prompt": "Arrange these words/particles to say \"I drink water.\"",
-        "words": [
-          "水",
-          "を",
-          "飲みます"
-        ],
-        "translation": "I drink water.",
-        "explanation": "水を飲みます marks 水 (water) as the direct object with を, followed by the verb 飲みます (drink)."
-      },
-      {
-        "type": "multiple-choice",
         "question": "Why do あります and います typically pair with が rather than は?",
         "options": [
           "Existence sentences usually introduce new information, which が tends to mark",
@@ -2140,12 +2242,12 @@ export const JA_A1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "adjectives-i-na",
+    "slug": "adjectives-i-na-1",
     "level": "JA-A1",
-    "number": 7,
-    "title": "Adjectives: い-Adjectives and な-Adjectives",
+    "number": 16,
+    "title": "Adjectives: い-Adjectives and な-Adjectives, Part 1 of 3",
     "summary": "Japanese splits adjectives into two grammatically distinct families -- learn to tell them apart and conjugate each one correctly.",
-    "duration": "21 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "Two families of adjectives",
@@ -2231,7 +2333,47 @@ export const JA_A1_LESSONS: Lesson[] = [
             "explanation": "い-adjectives attach directly before a noun with no extra word needed: 大きい本."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Which of these is an い-adjective?",
+        "options": [
+          "大きい (big)",
+          "静か (quiet)",
+          "きれい (pretty)",
+          "元気 (healthy)"
+        ],
+        "correctIndex": 0,
+        "explanation": "大きい ends in い and conjugates on its own (大きくない, 大きかった) -- a true い-adjective. きれい, despite ending in い, is actually a な-adjective."
       },
+      {
+        "type": "multi-select",
+        "question": "Which of these are true about な-adjectives?",
+        "options": [
+          "They need な inserted before directly modifying a noun",
+          "They negate and go to the past tense exactly like です does",
+          "They always end in い in their dictionary form",
+          "です functions as a real copula with them, unlike with い-adjectives"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "な-adjectives insert な before a noun and conjugate like です -- they do NOT reliably end in い (that's the い-adjective pattern, with some exceptions like きれい)."
+      }
+    ]
+  },
+  {
+    "slug": "adjectives-i-na-2",
+    "level": "JA-A1",
+    "number": 17,
+    "title": "Adjectives: い-Adjectives and な-Adjectives, Part 2 of 3",
+    "summary": "Japanese splits adjectives into two grammatically distinct families -- learn to tell them apart and conjugate each one correctly.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "い-adjective negation and past tense",
         "body": [
@@ -2320,7 +2462,49 @@ export const JA_A1_LESSONS: Lesson[] = [
             "explanation": "図書館は静かです -- な is dropped as a predicate, and です functions as a real copula, just like with nouns."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Complete the past-tense form of 大きい (big).",
+        "sentence": "大き___ means \"was big.\"",
+        "answer": "かった",
+        "explanation": "い-adjectives form the past by dropping い and adding かった -- 大きい becomes 大きかった."
       },
+      {
+        "type": "matching",
+        "instructions": "Match each adjective form to its meaning.",
+        "pairs": [
+          {
+            "left": "大きくない",
+            "right": "not big"
+          },
+          {
+            "left": "大きかった",
+            "right": "was big"
+          },
+          {
+            "left": "静かです",
+            "right": "is quiet"
+          },
+          {
+            "left": "静かでした",
+            "right": "was quiet"
+          }
+        ],
+        "explanation": "い-adjectives (大きい) and な-adjectives (静か) conjugate differently but predictably once you know which family a word belongs to."
+      }
+    ]
+  },
+  {
+    "slug": "adjectives-i-na-3",
+    "level": "JA-A1",
+    "number": 18,
+    "title": "Adjectives: い-Adjectives and な-Adjectives, Part 3 of 3",
+    "summary": "Japanese splits adjectives into two grammatically distinct families -- learn to tell them apart and conjugate each one correctly.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "な-adjective negation and past tense",
         "body": [
@@ -2429,64 +2613,6 @@ export const JA_A1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "Which of these is an い-adjective?",
-        "options": [
-          "大きい (big)",
-          "静か (quiet)",
-          "きれい (pretty)",
-          "元気 (healthy)"
-        ],
-        "correctIndex": 0,
-        "explanation": "大きい ends in い and conjugates on its own (大きくない, 大きかった) -- a true い-adjective. きれい, despite ending in い, is actually a な-adjective."
-      },
-      {
-        "type": "multi-select",
-        "question": "Which of these are true about な-adjectives?",
-        "options": [
-          "They need な inserted before directly modifying a noun",
-          "They negate and go to the past tense exactly like です does",
-          "They always end in い in their dictionary form",
-          "です functions as a real copula with them, unlike with い-adjectives"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          3
-        ],
-        "explanation": "な-adjectives insert な before a noun and conjugate like です -- they do NOT reliably end in い (that's the い-adjective pattern, with some exceptions like きれい)."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Complete the past-tense form of 大きい (big).",
-        "sentence": "大き___ means \"was big.\"",
-        "answer": "かった",
-        "explanation": "い-adjectives form the past by dropping い and adding かった -- 大きい becomes 大きかった."
-      },
-      {
-        "type": "matching",
-        "instructions": "Match each adjective form to its meaning.",
-        "pairs": [
-          {
-            "left": "大きくない",
-            "right": "not big"
-          },
-          {
-            "left": "大きかった",
-            "right": "was big"
-          },
-          {
-            "left": "静かです",
-            "right": "is quiet"
-          },
-          {
-            "left": "静かでした",
-            "right": "was quiet"
-          }
-        ],
-        "explanation": "い-adjectives (大きい) and な-adjectives (静か) conjugate differently but predictably once you know which family a word belongs to."
-      },
-      {
         "type": "word-order",
         "prompt": "Arrange these words to say \"The library is quiet.\"",
         "words": [
@@ -2513,12 +2639,12 @@ export const JA_A1_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "time-days-daily-routine-review",
+    "slug": "time-days-daily-routine-review-1",
     "level": "JA-A1",
-    "number": 8,
-    "title": "Time, Days, and Daily Routine (A1 Module Review)",
+    "number": 19,
+    "title": "Time, Days, and Daily Routine (A1 Module Review), Part 1 of 3",
     "summary": "Telling time, naming days of the week, describing a daily routine -- and a full review pulling together everything from this A1 module.",
-    "duration": "23 min",
+    "duration": "8 min",
     "sections": [
       {
         "heading": "Telling time: 時 and 分",
@@ -2620,7 +2746,31 @@ export const JA_A1_LESSONS: Lesson[] = [
             "explanation": "曜日 (youbi) is the shared ending for all seven days of the week."
           }
         ]
-      },
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "What does 何曜日ですか？ ask?",
+        "options": [
+          "What day of the week is it?",
+          "What time is it?",
+          "Where is it?",
+          "Who is it?"
+        ],
+        "correctIndex": 0,
+        "explanation": "何曜日ですか？(Nan youbi desu ka?) asks \"What day of the week is it?\""
+      }
+    ]
+  },
+  {
+    "slug": "time-days-daily-routine-review-2",
+    "level": "JA-A1",
+    "number": 20,
+    "title": "Time, Days, and Daily Routine (A1 Module Review), Part 2 of 3",
+    "summary": "Telling time, naming days of the week, describing a daily routine -- and a full review pulling together everything from this A1 module.",
+    "duration": "8 min",
+    "sections": [
       {
         "heading": "Daily routine vocabulary",
         "body": [
@@ -2709,7 +2859,42 @@ export const JA_A1_LESSONS: Lesson[] = [
             "explanation": "よく本を読みます -- よく (often) + 本 (books) + を (object marker) + 読みます (read)."
           }
         ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multi-select",
+        "question": "Which of these are true about telling time in Japanese?",
+        "options": [
+          "時 attaches to a number to mean \"o'clock\"",
+          "四時 (4 o'clock) is read \"yo-ji,\" not \"shi-ji\"",
+          "分 (minutes) never changes its pronunciation",
+          "半 means \"half,\" as in 三時半 (3:30)"
+        ],
+        "correctIndexes": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "時 means o'clock, 四時 avoids the し reading, and 半 means \"half\" -- but 分's pronunciation does shift (ippun, nifun, sanpun...) depending on the preceding number."
       },
+      {
+        "type": "fill-blank",
+        "prompt": "Complete the day of the week that means \"moon day.\"",
+        "sentence": "___曜日 means Monday (based on 月, moon).",
+        "answer": "月",
+        "explanation": "月曜日 (getsuyoubi) is Monday, named after 月 (moon)."
+      }
+    ]
+  },
+  {
+    "slug": "time-days-daily-routine-review-3",
+    "level": "JA-A1",
+    "number": 21,
+    "title": "Time, Days, and Daily Routine (A1 Module Review), Part 3 of 3",
+    "summary": "Telling time, naming days of the week, describing a daily routine -- and a full review pulling together everything from this A1 module.",
+    "duration": "7 min",
+    "sections": [
       {
         "heading": "Module review: what you've covered",
         "body": [
@@ -2772,41 +2957,6 @@ export const JA_A1_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multiple-choice",
-        "question": "What does 何曜日ですか？ ask?",
-        "options": [
-          "What day of the week is it?",
-          "What time is it?",
-          "Where is it?",
-          "Who is it?"
-        ],
-        "correctIndex": 0,
-        "explanation": "何曜日ですか？(Nan youbi desu ka?) asks \"What day of the week is it?\""
-      },
-      {
-        "type": "multi-select",
-        "question": "Which of these are true about telling time in Japanese?",
-        "options": [
-          "時 attaches to a number to mean \"o'clock\"",
-          "四時 (4 o'clock) is read \"yo-ji,\" not \"shi-ji\"",
-          "分 (minutes) never changes its pronunciation",
-          "半 means \"half,\" as in 三時半 (3:30)"
-        ],
-        "correctIndexes": [
-          0,
-          1,
-          3
-        ],
-        "explanation": "時 means o'clock, 四時 avoids the し reading, and 半 means \"half\" -- but 分's pronunciation does shift (ippun, nifun, sanpun...) depending on the preceding number."
-      },
-      {
-        "type": "fill-blank",
-        "prompt": "Complete the day of the week that means \"moon day.\"",
-        "sentence": "___曜日 means Monday (based on 月, moon).",
-        "answer": "月",
-        "explanation": "月曜日 (getsuyoubi) is Monday, named after 月 (moon)."
-      },
-      {
         "type": "matching",
         "instructions": "Match each grammar point to its category.",
         "pairs": [
@@ -2842,5 +2992,5 @@ export const JA_A1_LESSONS: Lesson[] = [
         "explanation": "毎朝七時に起きます places the time expression (毎朝七時に) before the verb (起きます), following standard Japanese word order."
       }
     ]
-  },
+  }
 ];
