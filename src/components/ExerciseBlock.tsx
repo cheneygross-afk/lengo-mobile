@@ -13,6 +13,8 @@ function splitOnBlank(sentence: string): [string, string] {
   return [sentence.slice(0, match.index), sentence.slice(match.index + match[0].length)];
 }
 
+// Case/punctuation-normalized, accents and n/ñ collapsed to their plain
+// letter -- the loose form used for the primary correct/incorrect check.
 function normalize(s: string) {
   return s
     .trim()
@@ -20,6 +22,88 @@ function normalize(s: string) {
     .replace(/[¿?¡!.,]/g, "")
     .normalize("NFD")
     .replace(/[̀-ͯ]/g, "");
+}
+
+// Same cleanup, but keeps accents/ñ -- used only to tell "this typed
+// answer is identical once you ignore an accent mark" apart from "this is
+// a different word/a real typo", so that distinction can be pointed out
+// instead of silently accepted or wrongly rejected.
+function normalizeKeepAccents(s: string) {
+  return s.trim().toLowerCase().replace(/[¿?¡!.,]/g, "");
+}
+
+// Damerau-Levenshtein edit distance (optimal-string-alignment variant) --
+// small pure-JS implementation, fine at the length of a single word or
+// short phrase. Counting an adjacent-letter swap ("camoin" for "camión")
+// as ONE edit rather than two, same as a plain insert/delete/substitute,
+// matters here: that's one of the single most common typing slips, and
+// plain Levenshtein would otherwise price it out of typoTolerance().
+function editDistance(a: string, b: string): number {
+  const dp: number[][] = Array.from({ length: a.length + 1 }, () => new Array(b.length + 1).fill(0));
+  for (let i = 0; i <= a.length; i++) dp[i][0] = i;
+  for (let j = 0; j <= b.length; j++) dp[0][j] = j;
+  for (let i = 1; i <= a.length; i++) {
+    for (let j = 1; j <= b.length; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      dp[i][j] = Math.min(dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1] + cost);
+      if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) {
+        dp[i][j] = Math.min(dp[i][j], dp[i - 2][j - 2] + 1);
+      }
+    }
+  }
+  return dp[a.length][b.length];
+}
+
+// How many edits still read as "just a typo" for a word/phrase this
+// long -- conservative on purpose. Very short answers get zero tolerance
+// (a 2-3 letter word off by one is often a genuinely different word --
+// "no"/"lo", "sí"/"si"), longer ones get a little more room.
+function typoTolerance(len: number): number {
+  if (len <= 3) return 0;
+  if (len <= 7) return 1;
+  return 2;
+}
+
+type GradeResult = { correct: boolean; note?: string };
+
+// Shared free-text grading for FillBlank/Translate. Grading was too
+// strict before this: any difference at all -- including a single typo,
+// a missing accent, or a plain "n" typed for "ñ" -- counted as wrong.
+// Now: an exact match (accents included) is correct with no note; a
+// difference that's ONLY accents/ñ is accepted but flagged, so the
+// gap is still pointed out rather than silently ignored; a small typo
+// within typoTolerance() is accepted the same way; anything further off
+// is still marked wrong.
+function gradeFreeText(value: string, candidatesRaw: string[]): GradeResult {
+  const typedLoose = normalize(value);
+  const typedAccented = normalizeKeepAccents(value);
+
+  let bestDistance = Infinity;
+  let bestAccented = "";
+
+  for (const raw of candidatesRaw) {
+    const candidateAccented = normalizeKeepAccents(raw);
+    if (typedAccented === candidateAccented) {
+      return { correct: true };
+    }
+    const candidateLoose = normalize(raw);
+    if (typedLoose === candidateLoose) {
+      // Identical once accents/ñ are ignored -- as close a match as this
+      // can get without being exact, so no need to keep checking others.
+      return { correct: true, note: `Correct -- just watch the accent mark: "${raw}".` };
+    }
+    const dist = editDistance(typedLoose, candidateLoose);
+    if (dist < bestDistance) {
+      bestDistance = dist;
+      bestAccented = raw;
+    }
+  }
+
+  const tolerance = typoTolerance(typedLoose.length);
+  if (bestDistance <= tolerance) {
+    return { correct: true, note: `Correct -- small typo, the answer is "${bestAccented}".` };
+  }
+  return { correct: false };
 }
 
 function seededShuffle<T>(arr: T[], seed: string): T[] {
@@ -77,12 +161,21 @@ export default function ExerciseBlock({
 }) {
   const [checked, setChecked] = useState(false);
   const [correct, setCorrect] = useState(false);
+  const [shownExplanation, setShownExplanation] = useState("");
 
-  function report(isCorrect: boolean) {
+  // `note` is only ever set by FillBlank/Translate's gradeFreeText() --
+  // e.g. "correct, but that's a typo" or "correct, but watch the accent"
+  // -- and gets folded into the explanation text shown below (both the
+  // inline Feedback box and whatever onChecked's caller does with it)
+  // rather than needing its own prop threaded through every caller.
+  function report(isCorrect: boolean, note?: string) {
     setCorrect(isCorrect);
     setChecked(true);
     onAnswered?.(isCorrect);
-    onChecked?.(isCorrect, (exercise as { explanation: string }).explanation);
+    const baseExplanation = (exercise as { explanation: string }).explanation;
+    const explanation = note ? `${note} ${baseExplanation}` : baseExplanation;
+    setShownExplanation(explanation);
+    onChecked?.(isCorrect, explanation);
   }
 
   return (
@@ -106,14 +199,12 @@ export default function ExerciseBlock({
       {exercise.type === "matching" && (
         <Matching exercise={exercise} checked={checked} correct={correct} onSubmit={report} />
       )}
-      {checked && showInlineFeedback && (
-        <Feedback correct={correct} explanation={(exercise as { explanation: string }).explanation} />
-      )}
+      {checked && showInlineFeedback && <Feedback correct={correct} explanation={shownExplanation} />}
     </View>
   );
 }
 
-type SubProps<E> = { exercise: E; checked: boolean; correct: boolean; onSubmit: (c: boolean) => void };
+type SubProps<E> = { exercise: E; checked: boolean; correct: boolean; onSubmit: (c: boolean, note?: string) => void };
 
 function MultipleChoice({
   exercise,
@@ -233,7 +324,10 @@ function FillBlank({
       {!checked && (
         <SubmitButton
           disabled={!value.trim()}
-          onPress={() => onSubmit(normalize(value) === normalize(exercise.answer))}
+          onPress={() => {
+            const result = gradeFreeText(value, [exercise.answer]);
+            onSubmit(result.correct, result.note);
+          }}
         />
       )}
     </View>
@@ -262,8 +356,8 @@ function Translate({
         <SubmitButton
           disabled={!value.trim()}
           onPress={() => {
-            const answers = [exercise.answer, ...(exercise.altAnswers ?? [])].map(normalize);
-            onSubmit(answers.includes(normalize(value)));
+            const result = gradeFreeText(value, [exercise.answer, ...(exercise.altAnswers ?? [])]);
+            onSubmit(result.correct, result.note);
           }}
         />
       )}
