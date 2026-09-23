@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import { View, Text, Pressable, StyleSheet, KeyboardAvoidingView, Platform } from "react-native";
+import { View, Text, Pressable, StyleSheet } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
@@ -16,11 +16,6 @@ const LANGUAGE_STORAGE_KEY = "deepend-selected-language";
 export default function HomeScreen({ navigation }: Props) {
   const { session, hasJapaneseBetaAccess } = useAuth();
   const [language, setLanguage] = useState<Language>("es");
-  // Hides the "Settings" link while the translate bar's results panel is
-  // open -- that panel grows in normal flex flow (see TranslateBar.tsx),
-  // which otherwise squeezes this screen's centered content and shoves
-  // "Settings" up into the Review card, looking disorganized.
-  const [dictionaryOpen, setDictionaryOpen] = useState(false);
 
   useFocusEffect(
     useCallback(() => {
@@ -45,10 +40,7 @@ export default function HomeScreen({ navigation }: Props) {
   }
 
   return (
-    <KeyboardAvoidingView
-      style={styles.flex}
-      behavior={Platform.OS === "ios" ? "padding" : undefined}
-    >
+    <View style={styles.flex}>
       <View style={styles.container}>
         <View style={styles.centerSection}>
           <View style={styles.heading}>
@@ -102,17 +94,20 @@ export default function HomeScreen({ navigation }: Props) {
           </View>
         </View>
 
-        {!dictionaryOpen && (
-          <Pressable style={styles.settingsLink} onPress={() => navigation.navigate("Settings")}>
-            <Text style={styles.settingsLinkText}>Settings</Text>
-          </Pressable>
-        )}
+        <Pressable style={styles.settingsLink} onPress={() => navigation.navigate("Settings")}>
+          <Text style={styles.settingsLinkText}>Settings</Text>
+        </Pressable>
       </View>
 
       {/* Only on Home (screen 3) -- not globally across the app, and not
-          on the lesson player (screen 4). See components/TranslateBar. */}
-      <TranslateBar language={language} onPanelVisibleChange={setDictionaryOpen} />
-    </KeyboardAvoidingView>
+          on the lesson player (screen 4). See components/TranslateBar.
+          It's a screen-pinned overlay (position: absolute in its own
+          styles) so opening it, or the keyboard coming up while typing
+          in it, covers whatever's behind it instead of shifting/
+          squeezing this screen's own layout -- nothing here needs to
+          react to it opening. */}
+      <TranslateBar language={language} />
+    </View>
   );
 }
 

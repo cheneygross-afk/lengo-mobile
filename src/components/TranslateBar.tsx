@@ -7,6 +7,8 @@ import {
   StyleSheet,
   ScrollView,
   Keyboard,
+  KeyboardAvoidingView,
+  Platform,
   ActivityIndicator,
   useWindowDimensions,
 } from "react-native";
@@ -74,17 +76,7 @@ function convertJapaneseInput(
   return toHiragana(raw);
 }
 
-export default function TranslateBar({
-  language,
-  onPanelVisibleChange,
-}: {
-  language: "es" | "ja";
-  // Lets the host screen react to the results panel opening/closing --
-  // e.g. HomeScreen hides its "Settings" link while it's open, since the
-  // panel grows in normal flex flow and would otherwise squeeze/shove
-  // whatever else is stacked in the same column (see HomeScreen.tsx).
-  onPanelVisibleChange?: (visible: boolean) => void;
-}) {
+export default function TranslateBar({ language }: { language: "es" | "ja" }) {
   const [query, setQuery] = useState("");
   const [manualOverride, setManualOverride] = useState<Direction | null>(null);
   const direction = manualOverride ?? detectDirection(query, language === "ja");
@@ -112,9 +104,6 @@ export default function TranslateBar({
 
   // Same visibility condition the panel itself renders on below.
   const panelVisible = open && !!query.trim();
-  useEffect(() => {
-    onPanelVisibleChange?.(panelVisible);
-  }, [panelVisible, onPanelVisibleChange]);
 
   useEffect(() => {
     const trimmed = query.trim();
@@ -203,7 +192,10 @@ export default function TranslateBar({
   }
 
   return (
-    <View style={s.wrap}>
+    <KeyboardAvoidingView
+      style={s.wrap}
+      behavior={Platform.OS === "ios" ? "padding" : undefined}
+    >
       {focused && <Pressable style={[s.backdrop, { height: windowHeight }]} onPress={close} />}
 
       {panelVisible && (
@@ -294,12 +286,24 @@ export default function TranslateBar({
           </Pressable>
         )}
       </View>
-    </View>
+    </KeyboardAvoidingView>
   );
 }
 
 const s = StyleSheet.create({
-  wrap: { backgroundColor: "#FAF6F1" },
+  // Pinned to the bottom of the screen and stacked above everything else
+  // (see HomeScreen.tsx, which no longer reacts to this opening at all).
+  // Height is intrinsic to content, so it grows *upward* from this fixed
+  // bottom edge as the results panel/keyboard appear, covering whatever
+  // is behind it instead of shifting or squeezing the rest of the
+  // screen's layout.
+  wrap: {
+    position: "absolute",
+    left: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: "#FAF6F1",
+  },
   // Full-height, tap-anywhere-else scrim: only shown while the input has
   // focus, sits behind the bar/panel (they're declared after it, so they
   // paint on top), and closing on press is what makes "tap outside the
