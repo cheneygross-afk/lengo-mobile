@@ -76,6 +76,7 @@ export default function SpanishLevelsScreen({ navigation }: Props) {
     "ja-a1": 0,
     "ja-a2": 0,
     "ja-b1": 0,
+    "ja-b2": 0,
   });
 
   useFocusEffect(

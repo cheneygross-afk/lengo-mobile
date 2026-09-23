@@ -86,7 +86,7 @@ export type Lesson = {
   // "C1/C2" is the separate, still-combined Cosas Coloquiales module
   // (see c1c2-cosas-coloquiales.ts) -- the core C1/C2 sequence itself
   // was split into standalone "C1" and "C2" modules (c1.ts / c2.ts).
-  level: "A1" | "A2" | "B1" | "B2" | "C1" | "C2" | "C1/C2" | "JA-Alphabets" | "JA-A1" | "JA-A2" | "JA-B1";
+  level: "A1" | "A2" | "B1" | "B2" | "C1" | "C2" | "C1/C2" | "JA-Alphabets" | "JA-A1" | "JA-A2" | "JA-B1" | "JA-B2";
   number: number;
   title: string;
   summary: string;

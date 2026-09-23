@@ -36,6 +36,12 @@ const MODULES: { key: LessonModuleKey; code: string; name: string; description: 
     name: "Independent Use",
     description: "Passive and causative, conditions, comparison, keigo, and reading real Japanese.",
   },
+  {
+    key: "ja-b2",
+    code: "B2",
+    name: "Upper Intermediate",
+    description: "Causative-passive, full sonkeigo/kenjougo honorifics, nuanced obligation and assumption, and formal written Japanese.",
+  },
 ];
 
 export default function JapaneseLevelsScreen({ navigation }: Props) {
@@ -51,6 +57,7 @@ export default function JapaneseLevelsScreen({ navigation }: Props) {
     "ja-a1": 0,
     "ja-a2": 0,
     "ja-b1": 0,
+    "ja-b2": 0,
   });
 
   useFocusEffect(

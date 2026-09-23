@@ -16,6 +16,7 @@ import { JA_ALPHABETS_LESSONS } from "./ja-alphabets";
 import { JA_A1_LESSONS } from "./ja-a1";
 import { JA_A2_LESSONS } from "./ja-a2";
 import { JA_B1_LESSONS } from "./ja-b1";
+import { JA_B2_LESSONS } from "./ja-b2";
 
 export type LessonModuleKey =
   | "a1"
@@ -28,7 +29,8 @@ export type LessonModuleKey =
   | "ja-alphabets"
   | "ja-a1"
   | "ja-a2"
-  | "ja-b1";
+  | "ja-b1"
+  | "ja-b2";
 
 export type LessonSource = {
   moduleKey: LessonModuleKey;
@@ -63,6 +65,7 @@ export const LESSON_SOURCES: Record<LessonModuleKey, LessonSource> = {
   "ja-a1": { moduleKey: "ja-a1", levelPath: "ja-a1", title: "Japanese · A1 Foundations", lessons: JA_A1_LESSONS },
   "ja-a2": { moduleKey: "ja-a2", levelPath: "ja-a2", title: "Japanese · A2 Building Fluency", lessons: JA_A2_LESSONS },
   "ja-b1": { moduleKey: "ja-b1", levelPath: "ja-b1", title: "Japanese · B1 Independent Use", lessons: JA_B1_LESSONS },
+  "ja-b2": { moduleKey: "ja-b2", levelPath: "ja-b2", title: "Japanese · B2 Upper Intermediate", lessons: JA_B2_LESSONS },
 };
 
 export const ALL_LEVEL_PATHS: LessonModuleKey[] = [
@@ -77,6 +80,7 @@ export const ALL_LEVEL_PATHS: LessonModuleKey[] = [
   "ja-a1",
   "ja-a2",
   "ja-b1",
+  "ja-b2",
 ];
 
 /** Which module a lesson belongs to, from its own `level` field -- lets a
@@ -104,6 +108,8 @@ export function moduleKeyForLesson(lesson: Lesson): LessonModuleKey {
       return "ja-a2";
     case "JA-B1":
       return "ja-b1";
+    case "JA-B2":
+      return "ja-b2";
     default:
       return "a1";
   }
