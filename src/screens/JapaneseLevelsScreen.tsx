@@ -42,6 +42,12 @@ const MODULES: { key: LessonModuleKey; code: string; name: string; description: 
     name: "Upper Intermediate",
     description: "Causative-passive, full sonkeigo/kenjougo honorifics, nuanced obligation and assumption, and formal written Japanese.",
   },
+  {
+    key: "ja-c1",
+    code: "C1",
+    name: "Advanced",
+    description: "Business keigo nuance, classical grammar remnants, yojijukugo, de-aru style, advanced connectives and evidentiality, and rhetorical technique.",
+  },
 ];
 
 export default function JapaneseLevelsScreen({ navigation }: Props) {
@@ -58,6 +64,7 @@ export default function JapaneseLevelsScreen({ navigation }: Props) {
     "ja-a2": 0,
     "ja-b1": 0,
     "ja-b2": 0,
+    "ja-c1": 0,
   });
 
   useFocusEffect(

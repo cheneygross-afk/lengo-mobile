@@ -76,17 +76,17 @@ export type Lesson = {
   // new characters. Shown as "Lesson N · (optional)" in LessonList and
   // LessonRunner. Never set means required, same as before this existed.
   optional?: boolean;
-  // "JA-Alphabets", "JA-A1", "JA-A2", and "JA-B1" are the hidden Japanese
-  // track's pre-A1 hiragana/katakana module and its first three real grammar
-  // modules (see src/lib/lessons/ja-alphabets.ts, ja-a1.ts, ja-a2.ts, and
-  // ja-b1.ts) -- not
+  // "JA-Alphabets", "JA-A1", "JA-A2", "JA-B1", "JA-B2", and "JA-C1" are the hidden
+  // Japanese track's pre-A1 hiragana/katakana module and its first four real
+  // grammar modules (see src/lib/lessons/ja-alphabets.ts, ja-a1.ts, ja-a2.ts,
+  // ja-b1.ts, ja-b2.ts, and ja-c1.ts) -- not
   // CEFR levels, kept in this same union so the shared Lesson/Exercise/
   // LessonRunner machinery works unchanged for them instead of forking a
   // parallel type.
   // "C1/C2" is the separate, still-combined Cosas Coloquiales module
   // (see c1c2-cosas-coloquiales.ts) -- the core C1/C2 sequence itself
   // was split into standalone "C1" and "C2" modules (c1.ts / c2.ts).
-  level: "A1" | "A2" | "B1" | "B2" | "C1" | "C2" | "C1/C2" | "JA-Alphabets" | "JA-A1" | "JA-A2" | "JA-B1" | "JA-B2";
+  level: "A1" | "A2" | "B1" | "B2" | "C1" | "C2" | "C1/C2" | "JA-Alphabets" | "JA-A1" | "JA-A2" | "JA-B1" | "JA-B2" | "JA-C1";
   number: number;
   title: string;
   summary: string;
