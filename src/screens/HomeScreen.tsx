@@ -16,6 +16,11 @@ const LANGUAGE_STORAGE_KEY = "deepend-selected-language";
 export default function HomeScreen({ navigation }: Props) {
   const { session, hasJapaneseBetaAccess } = useAuth();
   const [language, setLanguage] = useState<Language>("es");
+  // Hides the "Settings" link while the translate bar's results panel is
+  // open -- that panel grows in normal flex flow (see TranslateBar.tsx),
+  // which otherwise squeezes this screen's centered content and shoves
+  // "Settings" up into the Review card, looking disorganized.
+  const [dictionaryOpen, setDictionaryOpen] = useState(false);
 
   useFocusEffect(
     useCallback(() => {
@@ -97,14 +102,16 @@ export default function HomeScreen({ navigation }: Props) {
           </View>
         </View>
 
-        <Pressable style={styles.settingsLink} onPress={() => navigation.navigate("Settings")}>
-          <Text style={styles.settingsLinkText}>Settings</Text>
-        </Pressable>
+        {!dictionaryOpen && (
+          <Pressable style={styles.settingsLink} onPress={() => navigation.navigate("Settings")}>
+            <Text style={styles.settingsLinkText}>Settings</Text>
+          </Pressable>
+        )}
       </View>
 
       {/* Only on Home (screen 3) -- not globally across the app, and not
           on the lesson player (screen 4). See components/TranslateBar. */}
-      <TranslateBar language={language} />
+      <TranslateBar language={language} onPanelVisibleChange={setDictionaryOpen} />
     </KeyboardAvoidingView>
   );
 }

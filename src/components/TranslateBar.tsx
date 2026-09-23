@@ -74,7 +74,17 @@ function convertJapaneseInput(
   return toHiragana(raw);
 }
 
-export default function TranslateBar({ language }: { language: "es" | "ja" }) {
+export default function TranslateBar({
+  language,
+  onPanelVisibleChange,
+}: {
+  language: "es" | "ja";
+  // Lets the host screen react to the results panel opening/closing --
+  // e.g. HomeScreen hides its "Settings" link while it's open, since the
+  // panel grows in normal flex flow and would otherwise squeeze/shove
+  // whatever else is stacked in the same column (see HomeScreen.tsx).
+  onPanelVisibleChange?: (visible: boolean) => void;
+}) {
   const [query, setQuery] = useState("");
   const [manualOverride, setManualOverride] = useState<Direction | null>(null);
   const direction = manualOverride ?? detectDirection(query, language === "ja");
@@ -99,6 +109,12 @@ export default function TranslateBar({ language }: { language: "es" | "ja" }) {
     setOpen(false);
     jaRawBufferRef.current = "";
   }, [language]);
+
+  // Same visibility condition the panel itself renders on below.
+  const panelVisible = open && !!query.trim();
+  useEffect(() => {
+    onPanelVisibleChange?.(panelVisible);
+  }, [panelVisible, onPanelVisibleChange]);
 
   useEffect(() => {
     const trimmed = query.trim();
@@ -190,7 +206,7 @@ export default function TranslateBar({ language }: { language: "es" | "ja" }) {
     <View style={s.wrap}>
       {focused && <Pressable style={[s.backdrop, { height: windowHeight }]} onPress={close} />}
 
-      {open && query.trim() && (
+      {panelVisible && (
         <View style={s.panel}>
           <View style={s.panelHeader}>
             <Text style={s.panelHeading}>{directionHeading(direction)}</Text>
