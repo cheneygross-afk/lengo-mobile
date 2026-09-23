@@ -60,9 +60,9 @@ export default function HomeScreen({ navigation }: Props) {
 
           <View style={styles.cards}>
             {language === "es" ? (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("LessonList", { moduleKey: "a1" })}>
+              <Pressable style={styles.card} onPress={() => navigation.navigate("SpanishLevels")}>
                 <Text style={styles.cardTitle}>Lessons</Text>
-                <Text style={styles.cardBody}>Structured lessons, A1 and up.</Text>
+                <Text style={styles.cardBody}>Structured lessons, A1 through C2.</Text>
               </Pressable>
             ) : (
               <Pressable style={styles.card} onPress={() => navigation.navigate("JapaneseLevels")}>

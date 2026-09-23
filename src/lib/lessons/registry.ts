@@ -1,17 +1,34 @@
-// Central lookup across every lesson track the app ships -- Spanish A1
-// (the only Spanish level wired up so far -- see LessonListScreen) plus
-// the invite-only Japanese beta's four modules. Introduced so screens
-// that used to hardcode A1_LESSONS (LessonRunner, Review) work for any
-// track without knowing which one a given slug belongs to, now that the
-// app has more than one.
+// Central lookup across every lesson track the app ships -- the full
+// Spanish A1-C2 course (plus the standalone Cosas Coloquiales culture
+// module) and the invite-only Japanese beta's four modules. Introduced
+// so screens that used to hardcode A1_LESSONS (LessonRunner, Review)
+// work for any track without knowing which one a given slug belongs to,
+// now that the app has more than one.
 import type { Lesson } from "./types";
 import { A1_LESSONS } from "./a1";
+import { A2_LESSONS } from "./a2";
+import { B1_LESSONS } from "./b1";
+import { B2_LESSONS } from "./b2";
+import { C1_LESSONS } from "./c1";
+import { C2_LESSONS } from "./c2";
+import { COSAS_COLOQUIALES_LESSONS } from "./c1c2-cosas-coloquiales";
 import { JA_ALPHABETS_LESSONS } from "./ja-alphabets";
 import { JA_A1_LESSONS } from "./ja-a1";
 import { JA_A2_LESSONS } from "./ja-a2";
 import { JA_B1_LESSONS } from "./ja-b1";
 
-export type LessonModuleKey = "a1" | "ja-alphabets" | "ja-a1" | "ja-a2" | "ja-b1";
+export type LessonModuleKey =
+  | "a1"
+  | "a2"
+  | "b1"
+  | "b2"
+  | "c1"
+  | "c2"
+  | "cosas-coloquiales"
+  | "ja-alphabets"
+  | "ja-a1"
+  | "ja-a2"
+  | "ja-b1";
 
 export type LessonSource = {
   moduleKey: LessonModuleKey;
@@ -26,6 +43,17 @@ export type LessonSource = {
 
 export const LESSON_SOURCES: Record<LessonModuleKey, LessonSource> = {
   "a1": { moduleKey: "a1", levelPath: "a1", title: "Lessons", lessons: A1_LESSONS },
+  "a2": { moduleKey: "a2", levelPath: "a2", title: "Spanish · A2 Elementary", lessons: A2_LESSONS },
+  "b1": { moduleKey: "b1", levelPath: "b1", title: "Spanish · B1 Intermediate", lessons: B1_LESSONS },
+  "b2": { moduleKey: "b2", levelPath: "b2", title: "Spanish · B2 Upper Intermediate", lessons: B2_LESSONS },
+  "c1": { moduleKey: "c1", levelPath: "c1", title: "Spanish · C1 Advanced", lessons: C1_LESSONS },
+  "c2": { moduleKey: "c2", levelPath: "c2", title: "Spanish · C2 Mastery", lessons: C2_LESSONS },
+  "cosas-coloquiales": {
+    moduleKey: "cosas-coloquiales",
+    levelPath: "cosas-coloquiales",
+    title: "Cosas Coloquiales",
+    lessons: COSAS_COLOQUIALES_LESSONS,
+  },
   "ja-alphabets": {
     moduleKey: "ja-alphabets",
     levelPath: "ja-alphabets",
@@ -37,13 +65,37 @@ export const LESSON_SOURCES: Record<LessonModuleKey, LessonSource> = {
   "ja-b1": { moduleKey: "ja-b1", levelPath: "ja-b1", title: "Japanese · B1 Independent Use", lessons: JA_B1_LESSONS },
 };
 
-export const ALL_LEVEL_PATHS: LessonModuleKey[] = ["a1", "ja-alphabets", "ja-a1", "ja-a2", "ja-b1"];
+export const ALL_LEVEL_PATHS: LessonModuleKey[] = [
+  "a1",
+  "a2",
+  "b1",
+  "b2",
+  "c1",
+  "c2",
+  "cosas-coloquiales",
+  "ja-alphabets",
+  "ja-a1",
+  "ja-a2",
+  "ja-b1",
+];
 
 /** Which module a lesson belongs to, from its own `level` field -- lets a
  * caller that only has a Lesson object (not the moduleKey it came from,
  * e.g. after a review-list lookup) still find its levelPath. */
 export function moduleKeyForLesson(lesson: Lesson): LessonModuleKey {
   switch (lesson.level) {
+    case "A2":
+      return "a2";
+    case "B1":
+      return "b1";
+    case "B2":
+      return "b2";
+    case "C1":
+      return "c1";
+    case "C2":
+      return "c2";
+    case "C1/C2":
+      return "cosas-coloquiales";
     case "JA-Alphabets":
       return "ja-alphabets";
     case "JA-A1":

@@ -41,6 +41,12 @@ const MODULES: { key: LessonModuleKey; code: string; name: string; description: 
 export default function JapaneseLevelsScreen({ navigation }: Props) {
   const [completed, setCompleted] = useState<Record<LessonModuleKey, number>>({
     "a1": 0,
+    "a2": 0,
+    "b1": 0,
+    "b2": 0,
+    "c1": 0,
+    "c2": 0,
+    "cosas-coloquiales": 0,
     "ja-alphabets": 0,
     "ja-a1": 0,
     "ja-a2": 0,

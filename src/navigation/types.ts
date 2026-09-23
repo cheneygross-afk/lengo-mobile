@@ -2,6 +2,11 @@ import type { LessonModuleKey } from "@/lib/lessons/registry";
 
 export type AppStackParamList = {
   Home: undefined;
+  // Spanish's level picker (A1-C2 + Cosas Coloquiales) -- see
+  // SpanishLevelsScreen. Mirrors JapaneseLevels below; Home routes here
+  // instead of straight into LessonList so every level beyond A1 is
+  // actually reachable.
+  SpanishLevels: undefined;
   LessonList: { moduleKey?: LessonModuleKey } | undefined;
   LessonRunner: { slug: string };
   Review: undefined;
