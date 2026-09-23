@@ -6,6 +6,7 @@ import { A1_STORIES } from "@/lib/stories/a1";
 import { toExercises } from "@/lib/stories/types";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
+import { langForLevelPath } from "@/lib/speech";
 import { useAuth } from "@/lib/auth/AuthContext";
 import { supabase } from "@/lib/supabase/client";
 import {
@@ -134,6 +135,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
               highlights={highlightsFor(blockKey)}
               enabled={loggedIn}
               markColor={highlightMark}
+              lang={langForLevelPath(levelPath)}
               textStyle={s.paragraph}
               onAdd={(start, end, selected) => addHighlight(blockKey, p, start, end, selected)}
               onRemove={removeHighlight}
@@ -154,6 +156,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
           key={i}
           exercise={exercise}
           index={i}
+          lang={langForLevelPath(levelPath)}
           onAnswered={(correct) => setAnswered((prev) => ({ ...prev, [i]: correct }))}
         />
       ))}

@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { View, Text, Pressable, StyleSheet } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
@@ -6,6 +6,7 @@ import type { AppStackParamList } from "@/navigation/types";
 import { loadFlashcards, saveFlashcards, type FlashcardEntry } from "@/lib/flashcards/store";
 import { seedJapaneseAlphabetDecks } from "@/lib/lessons/ja-alphabet-decks";
 import { getDueCards, gradeCard, type ReviewGrade } from "@/lib/srs";
+import { langForLevelPath, speak, stopSpeaking } from "@/lib/speech";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Flashcards">;
 
@@ -71,6 +72,17 @@ export default function FlashcardsScreen({ route }: Props) {
 
   const card = due[index];
 
+  // Every card gets pronounced as soon as it's shown -- both the front
+  // (target-language) side, and, when the learner reveals it, the same
+  // word again isn't re-spoken (revealing shows the English side, which
+  // is silent by design; the speaker button below lets them replay the
+  // target-language word on demand).
+  useEffect(() => {
+    if (!card) return;
+    speak(card.es, langForLevelPath(card.levelPath));
+    return () => stopSpeaking();
+  }, [card?.id]);
+
   if (!card) {
     return (
       <View style={s.center}>
@@ -90,7 +102,19 @@ export default function FlashcardsScreen({ route }: Props) {
         {index + 1} of {due.length} due
       </Text>
       <Pressable style={s.card} onPress={() => setRevealed((r) => !r)}>
-        <Text style={s.es}>{card.es}</Text>
+        <View style={s.esRow}>
+          <Text style={s.es}>{card.es}</Text>
+          <Pressable
+            style={s.speakerBtn}
+            hitSlop={10}
+            onPress={(e) => {
+              e.stopPropagation();
+              speak(card.es, langForLevelPath(card.levelPath));
+            }}
+          >
+            <Text style={s.speakerIcon}>🔊</Text>
+          </Pressable>
+        </View>
         {revealed ? (
           <>
             <View style={s.divider} />
@@ -137,7 +161,10 @@ const s = StyleSheet.create({
     minHeight: 220,
     justifyContent: "center",
   },
+  esRow: { flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 10 },
   es: { fontSize: 26, fontWeight: "700", color: "#000", textAlign: "center" },
+  speakerBtn: { padding: 6 },
+  speakerIcon: { fontSize: 20 },
   divider: { width: 40, height: 1, backgroundColor: "#00000022", marginVertical: 16 },
   en: { fontSize: 18, color: "#000000cc", textAlign: "center" },
   pos: { fontSize: 13, color: "#00000066", marginTop: 6, fontStyle: "italic" },

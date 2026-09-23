@@ -1,6 +1,7 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { View, Text, Pressable, TextInput, StyleSheet } from "react-native";
 import type { Exercise } from "@/lib/lessons/types";
+import { speak, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
 
 // Mobile port of the web app's ExerciseBlock -- same matching/shuffle
 // logic (normalize(), seededShuffle()), same "check answer -> show
@@ -139,6 +140,25 @@ const fb = StyleSheet.create({
   body: { fontSize: 14, color: "#000000cc", marginTop: 2 },
 });
 
+// Small tap-to-hear button dropped next to already-visible target-language
+// text (an option, a word-order chip, a matching pair's left side...).
+// Never placed on anything that would still reveal a hidden answer -- see
+// each exercise type below for what's actually safe to attach this to.
+function SpeakerButton({ text, lang }: { text: string; lang: SpeechLang }) {
+  return (
+    <Pressable
+      hitSlop={8}
+      onPress={(e) => {
+        e.stopPropagation();
+        speak(text, lang);
+      }}
+      style={s.speakerBtn}
+    >
+      <Text style={s.speakerIcon}>🔊</Text>
+    </Pressable>
+  );
+}
+
 export default function ExerciseBlock({
   exercise,
   index,
@@ -146,6 +166,7 @@ export default function ExerciseBlock({
   showInlineFeedback = true,
   onChecked,
   hideIndexLabel = false,
+  lang = SPANISH_LANG,
 }: {
   exercise: Exercise;
   index: number;
@@ -158,6 +179,11 @@ export default function ExerciseBlock({
   showInlineFeedback?: boolean;
   onChecked?: (correct: boolean, explanation: string) => void;
   hideIndexLabel?: boolean;
+  // Target language for pronunciation (flashcards/highlighting already
+  // pronounce in this same language elsewhere -- see src/lib/speech.ts).
+  // Defaults to Spanish so any caller that hasn't been updated yet still
+  // gets correct (if not level-accurate) pronunciation rather than none.
+  lang?: SpeechLang;
 }) {
   const [checked, setChecked] = useState(false);
   const [correct, setCorrect] = useState(false);
@@ -182,29 +208,35 @@ export default function ExerciseBlock({
     <View style={s.container}>
       {!hideIndexLabel && <Text style={s.index}>Question {index + 1}</Text>}
       {exercise.type === "multiple-choice" && (
-        <MultipleChoice exercise={exercise} checked={checked} correct={correct} onSubmit={report} />
+        <MultipleChoice exercise={exercise} checked={checked} correct={correct} onSubmit={report} lang={lang} />
       )}
       {exercise.type === "multi-select" && (
-        <MultiSelect exercise={exercise} checked={checked} correct={correct} onSubmit={report} />
+        <MultiSelect exercise={exercise} checked={checked} correct={correct} onSubmit={report} lang={lang} />
       )}
       {exercise.type === "fill-blank" && (
-        <FillBlank exercise={exercise} checked={checked} correct={correct} onSubmit={report} />
+        <FillBlank exercise={exercise} checked={checked} correct={correct} onSubmit={report} lang={lang} />
       )}
       {exercise.type === "translate" && (
-        <Translate exercise={exercise} checked={checked} correct={correct} onSubmit={report} />
+        <Translate exercise={exercise} checked={checked} correct={correct} onSubmit={report} lang={lang} />
       )}
       {exercise.type === "word-order" && (
-        <WordOrder exercise={exercise} checked={checked} correct={correct} onSubmit={report} />
+        <WordOrder exercise={exercise} checked={checked} correct={correct} onSubmit={report} lang={lang} />
       )}
       {exercise.type === "matching" && (
-        <Matching exercise={exercise} checked={checked} correct={correct} onSubmit={report} />
+        <Matching exercise={exercise} checked={checked} correct={correct} onSubmit={report} lang={lang} />
       )}
       {checked && showInlineFeedback && <Feedback correct={correct} explanation={shownExplanation} />}
     </View>
   );
 }
 
-type SubProps<E> = { exercise: E; checked: boolean; correct: boolean; onSubmit: (c: boolean, note?: string) => void };
+type SubProps<E> = {
+  exercise: E;
+  checked: boolean;
+  correct: boolean;
+  onSubmit: (c: boolean, note?: string) => void;
+  lang: SpeechLang;
+};
 
 function MultipleChoice({
   exercise,
@@ -311,9 +343,19 @@ function FillBlank({
   checked,
   correct,
   onSubmit,
+  lang,
 }: SubProps<Extract<Exercise, { type: "fill-blank" }>>) {
   const [value, setValue] = useState("");
   const [before, after] = useMemo(() => splitOnBlank(exercise.sentence), [exercise.sentence]);
+
+  // The blank hides the answer, so this can't safely auto-play (or offer
+  // tap-to-hear on) the sentence until after checking -- only then is the
+  // completed sentence something the learner is allowed to have heard.
+  useEffect(() => {
+    if (checked) speak(`${before}${exercise.answer}${after}`, lang);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [checked]);
+
   return (
     <View>
       <Text style={s.question}>{exercise.prompt}</Text>
@@ -331,6 +373,7 @@ function FillBlank({
           placeholder="..."
         />
         <Text style={s.blankText}>{after}</Text>
+        {checked && <SpeakerButton text={`${before}${exercise.answer}${after}`} lang={lang} />}
       </View>
       {exercise.hint && !checked && <Text style={s.hint}>Hint: {exercise.hint}</Text>}
       {!checked && (
@@ -351,12 +394,35 @@ function Translate({
   checked,
   correct,
   onSubmit,
+  lang,
 }: SubProps<Extract<Exercise, { type: "translate" }>>) {
   const [value, setValue] = useState("");
+  const sourceIsTarget = exercise.direction === "es-en";
+
+  // es-en: `source` IS the target-language phrase this drill question is
+  // asking about, and it's on screen from the moment the question
+  // appears -- so this is the literal "phrase in the target language
+  // pronounced when a drill question is given" case. en-es: `source` is
+  // English (nothing to pronounce yet), and `answer` is the target-
+  // language phrase, but it stays hidden until checked -- speaking it
+  // early would just hand over the answer.
+  useEffect(() => {
+    if (sourceIsTarget) speak(exercise.source, lang);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    if (checked && !sourceIsTarget) speak(exercise.answer, lang);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [checked]);
+
   return (
     <View>
       <Text style={s.question}>{exercise.prompt}</Text>
-      <Text style={s.sourceText}>{exercise.source}</Text>
+      <View style={s.sourceRow}>
+        <Text style={s.sourceText}>{exercise.source}</Text>
+        {sourceIsTarget && <SpeakerButton text={exercise.source} lang={lang} />}
+      </View>
       <TextInput
         value={checked ? exercise.answer : value}
         onChangeText={setValue}
@@ -368,6 +434,11 @@ function Translate({
         style={[s.textInput, checked && (correct ? s.inputCorrect : s.inputWrong)]}
         placeholder={exercise.direction === "es-en" ? "Translate to English…" : "Traduce al español…"}
       />
+      {checked && !sourceIsTarget && (
+        <View style={s.answerAudioRow}>
+          <SpeakerButton text={exercise.answer} lang={lang} />
+        </View>
+      )}
       {!checked && (
         <SubmitButton
           disabled={!value.trim()}
@@ -385,6 +456,7 @@ function WordOrder({
   exercise,
   checked,
   onSubmit,
+  lang,
 }: SubProps<Extract<Exercise, { type: "word-order" }>>) {
   const shuffled = useMemo(
     () => seededShuffle(exercise.words, exercise.prompt),
@@ -392,6 +464,16 @@ function WordOrder({
   );
   const [used, setUsed] = useState<number[]>([]); // indexes into `shuffled`, in tap order
   const built = used.map((i) => shuffled[i]);
+  const correctSentence = exercise.words.join(" ");
+
+  // Each scrambled chip is already a real, fully-visible target-language
+  // word -- hearing one doesn't give away where it goes, so tap-to-hear
+  // is safe pre-check. The full sentence (in the right order) is the
+  // actual answer, so that only plays once checked.
+  useEffect(() => {
+    if (checked) speak(correctSentence, lang);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [checked]);
 
   return (
     <View>
@@ -415,6 +497,7 @@ function WordOrder({
               style={[s.chip, isUsed && s.chipUsed]}
             >
               <Text style={s.chipText}>{w}</Text>
+              <SpeakerButton text={w} lang={lang} />
             </Pressable>
           );
         })}
@@ -423,6 +506,11 @@ function WordOrder({
         <Pressable style={s.linkButton} onPress={() => setUsed([])}>
           <Text style={s.linkButtonText}>Clear</Text>
         </Pressable>
+      )}
+      {checked && (
+        <View style={s.answerAudioRow}>
+          <SpeakerButton text={correctSentence} lang={lang} />
+        </View>
       )}
       {!checked && (
         <SubmitButton
@@ -438,6 +526,7 @@ function Matching({
   exercise,
   checked,
   onSubmit,
+  lang,
 }: SubProps<Extract<Exercise, { type: "matching" }>>) {
   const rightShuffled = useMemo(
     () => seededShuffle(exercise.pairs.map((p) => p.right), exercise.instructions),
@@ -480,6 +569,11 @@ function Matching({
                   {pair.left}
                   {chosen ? ` → ${chosen}` : ""}
                 </Text>
+                {/* `left` is always target-language vocabulary (see
+                    lib/lessons/*.ts), already fully visible before a
+                    match is made -- hearing it doesn't give away which
+                    right-hand item it pairs with. */}
+                <SpeakerButton text={pair.left} lang={lang} />
               </Pressable>
             );
           })}
@@ -529,7 +623,11 @@ const s = StyleSheet.create({
   },
   index: { fontSize: 11, color: "#00000066", textTransform: "uppercase", marginBottom: 6 },
   question: { fontSize: 16, fontWeight: "600", color: "#000", marginBottom: 10 },
-  sourceText: { fontSize: 15, color: "#000", fontStyle: "italic", marginBottom: 10 },
+  sourceText: { fontSize: 15, color: "#000", fontStyle: "italic", flexShrink: 1 },
+  sourceRow: { flexDirection: "row", alignItems: "center", gap: 6, marginBottom: 10 },
+  answerAudioRow: { flexDirection: "row", marginTop: 8 },
+  speakerBtn: { padding: 4 },
+  speakerIcon: { fontSize: 15 },
   options: { flexDirection: "row", flexWrap: "wrap", gap: 8 },
   option: {
     borderWidth: 1,
@@ -567,6 +665,9 @@ const s = StyleSheet.create({
   hint: { fontSize: 13, color: "#00000066", marginTop: 6, fontStyle: "italic" },
   builtRow: { flexDirection: "row", flexWrap: "wrap", gap: 6, minHeight: 36, marginBottom: 10 },
   chip: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 4,
     borderWidth: 1,
     borderColor: "#00000022",
     borderRadius: 8,
@@ -588,6 +689,10 @@ const s = StyleSheet.create({
   matchingCols: { flexDirection: "row", gap: 10 },
   matchingCol: { flex: 1, gap: 8 },
   matchPill: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: 6,
     borderWidth: 1,
     borderColor: "#00000022",
     borderRadius: 8,

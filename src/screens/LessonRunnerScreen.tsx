@@ -15,6 +15,7 @@ import type { Exercise } from "@/lib/lessons/types";
 import { generateVocabDrills } from "@/lib/lessons/drill";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
+import { langForLevel, langForLevelPath, ENGLISH_LANG } from "@/lib/speech";
 import { markLessonCompleted } from "@/lib/lessons/completion";
 import { addToReview } from "@/lib/lessons/review";
 import { addMissedQuestion } from "@/lib/lessons/missedQuestions";
@@ -53,6 +54,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   // picker.
   const lesson = useMemo(() => findLessonBySlug(slug), [slug]);
   const levelPath = useMemo(() => (lesson ? LESSON_SOURCES[moduleKeyForLesson(lesson)].levelPath : "a1"), [lesson]);
+  const lang = useMemo(() => langForLevelPath(levelPath), [levelPath]);
 
   const drill = useMemo<Exercise[]>(() => {
     if (!lesson) return [];
@@ -306,6 +308,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
               index={0}
               hideIndexLabel
               showInlineFeedback={false}
+              lang={lang}
               onChecked={(correct, explanation) => {
                 if (correct) setCorrectCount((c) => c + 1);
                 else void handleFlagQuestion(currentStep);
@@ -381,6 +384,7 @@ function IntroStep({
   highlightsEnabled: boolean;
   markColor: string;
 }) {
+  const lang = langForLevel(lesson.level);
   return (
     <View>
       <Text style={s.kicker}>
@@ -403,6 +407,7 @@ function IntroStep({
                 highlights={highlightsFor(blockKey)}
                 enabled={highlightsEnabled}
                 markColor={markColor}
+                lang={lang}
                 textStyle={s.teachBody}
                 style={s.teachBodyBlock}
                 onAdd={(start, end, selected) => onAddHighlight(blockKey, p, start, end, selected)}
@@ -422,6 +427,7 @@ function IntroStep({
                   highlights={highlightsFor(esKey)}
                   enabled={highlightsEnabled}
                   markColor={markColor}
+                  lang={lang}
                   textStyle={s.exampleEs}
                   onAdd={(start, end, selected) => onAddHighlight(esKey, ex.es, start, end, selected)}
                   onRemove={onRemoveHighlight}
@@ -433,6 +439,7 @@ function IntroStep({
                     highlights={highlightsFor(enKey)}
                     enabled={highlightsEnabled}
                     markColor={markColor}
+                    lang={ENGLISH_LANG}
                     textStyle={s.exampleEn}
                     style={s.exampleEnBlock}
                     onAdd={(start, end, selected) => onAddHighlight(enKey, ex.en ?? "", start, end, selected)}

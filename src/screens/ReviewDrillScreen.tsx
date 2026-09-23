@@ -5,6 +5,7 @@ import type { AppStackParamList } from "@/navigation/types";
 import { getMissedQuestions, removeMissedQuestions, type MissedQuestion } from "@/lib/lessons/missedQuestions";
 import { markReviewBatchDone } from "@/lib/lessons/reviewCadence";
 import ExerciseBlock from "@/components/ExerciseBlock";
+import { langForLevelPath } from "@/lib/speech";
 
 type Props = NativeStackScreenProps<AppStackParamList, "ReviewDrill">;
 
@@ -144,6 +145,7 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
               index={0}
               hideIndexLabel
               showInlineFeedback={false}
+              lang={langForLevelPath(levelPath)}
               onChecked={(correct, explanation) => handleChecked(current, correct, explanation)}
             />
           </View>

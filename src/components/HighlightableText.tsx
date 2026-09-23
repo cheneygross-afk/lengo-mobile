@@ -12,6 +12,7 @@ import {
   type ViewStyle,
 } from "react-native";
 import type { LessonHighlight } from "@/lib/highlights";
+import { speak, type SpeechLang } from "@/lib/speech";
 
 // Mobile has no equivalent of the web app's window.getSelection() (see
 // src/components/lessons/HighlightableText.tsx there), so this builds
@@ -47,6 +48,11 @@ type Props = {
   // Hex background for a confirmed highlight, from the learner's chosen
   // highlight color (see src/lib/highlightColors.ts' highlightMarkColor).
   markColor: string;
+  // Language to pronounce a tapped word in (see @/lib/speech). Tapping a
+  // word that isn't already highlighted speaks it -- the lightweight
+  // "hear a word" gesture that sits alongside drag-to-highlight (which
+  // still requires the deliberate drag + confirm pill to actually save).
+  lang: SpeechLang;
 };
 
 // Splits into alternating runs of non-whitespace ("words", individually
@@ -89,6 +95,7 @@ export default function HighlightableText({
   textStyle,
   style,
   markColor,
+  lang,
 }: Props) {
   const rowRef = useRef<View>(null);
   const containerOrigin = useRef({ x: 0, y: 0 });
@@ -157,8 +164,13 @@ export default function HighlightableText({
     }
     // A tap that lands on plain (non-highlighted) text while a pending
     // pill is showing dismisses it, same as tapping away from web's
-    // selection popover.
-    if (pending) setPending(null);
+    // selection popover -- and doesn't also speak the word it happened
+    // to land on, since that tap's job was dismissing the pill.
+    if (pending) {
+      setPending(null);
+      return;
+    }
+    speak(word.value, lang);
   }
 
   const panResponder = useRef(
