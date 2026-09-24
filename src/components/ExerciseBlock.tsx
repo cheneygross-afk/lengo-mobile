@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
-import { View, Text, Pressable, TextInput, StyleSheet } from "react-native";
+import { View, Text, Pressable, TextInput, StyleSheet, type StyleProp, type TextStyle } from "react-native";
 import type { Exercise } from "@/lib/lessons/types";
 import { speak, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
+import { targetSpans } from "@/lib/targetSpans";
 
 // Mobile port of the web app's ExerciseBlock -- same matching/shuffle
 // logic (normalize(), seededShuffle()), same "check answer -> show
@@ -159,6 +160,38 @@ function SpeakerButton({ text, lang }: { text: string; lang: SpeechLang }) {
   );
 }
 
+// Wraps a block of text, making tappable-to-hear just its target-language
+// portions (see lib/targetSpans) rather than the whole English sentence
+// around them -- e.g. only the quoted Spanish word, or only the embedded
+// Japanese phrase, in an otherwise-English multiple-choice question.
+// Falls back to plain, non-interactive text when nothing in it reads as
+// target-language (most often a plain-English comprehension question).
+function SpeakableText({
+  text,
+  lang,
+  style,
+}: {
+  text: string;
+  lang: SpeechLang;
+  style?: StyleProp<TextStyle>;
+}) {
+  const spans = useMemo(() => targetSpans(text, lang), [text, lang]);
+  if (spans.length === 0) return <Text style={style}>{text}</Text>;
+  const nodes: React.ReactNode[] = [];
+  let pos = 0;
+  spans.forEach((sp, i) => {
+    if (sp.start > pos) nodes.push(<Text key={`t${i}`}>{text.slice(pos, sp.start)}</Text>);
+    nodes.push(
+      <Text key={`s${i}`} style={s.speakableSpan} onPress={() => speak(sp.text, lang)}>
+        {sp.text}
+      </Text>
+    );
+    pos = sp.end;
+  });
+  if (pos < text.length) nodes.push(<Text key="tail">{text.slice(pos)}</Text>);
+  return <Text style={style}>{nodes}</Text>;
+}
+
 export default function ExerciseBlock({
   exercise,
   index,
@@ -242,11 +275,12 @@ function MultipleChoice({
   exercise,
   checked,
   onSubmit,
+  lang,
 }: SubProps<Extract<Exercise, { type: "multiple-choice" }>>) {
   const [selected, setSelected] = useState<number | null>(null);
   return (
     <View>
-      <Text style={s.question}>{exercise.question}</Text>
+      <SpeakableText text={exercise.question} lang={lang} style={s.question} />
       <View style={s.options}>
         {exercise.options.map((opt, i) => {
           const isSelected = selected === i;
@@ -263,7 +297,14 @@ function MultipleChoice({
                 checked && i === exercise.correctIndex && s.optionCorrect,
               ]}
             >
-              <Text style={s.optionText}>{opt}</Text>
+              <View style={s.optionRow}>
+                <Text style={s.optionText}>{opt}</Text>
+                {/* Every option is the target-language vocabulary itself
+                    (same reasoning as Matching's pair.left below) --
+                    already fully visible before a choice is made, so
+                    hearing it doesn't give away the answer. */}
+                <SpeakerButton text={opt} lang={lang} />
+              </View>
             </Pressable>
           );
         })}
@@ -282,6 +323,7 @@ function MultiSelect({
   exercise,
   checked,
   onSubmit,
+  lang,
 }: SubProps<Extract<Exercise, { type: "multi-select" }>>) {
   const [selected, setSelected] = useState<Set<number>>(new Set());
   function toggle(i: number) {
@@ -293,7 +335,7 @@ function MultiSelect({
   }
   return (
     <View>
-      <Text style={s.question}>{exercise.question}</Text>
+      <SpeakableText text={exercise.question} lang={lang} style={s.question} />
       <View style={s.options}>
         {exercise.options.map((opt, i) => {
           const isSelected = selected.has(i);
@@ -310,7 +352,10 @@ function MultiSelect({
                 checked && isSelected && !shouldBeSelected && s.optionWrong,
               ]}
             >
-              <Text style={s.optionText}>{opt}</Text>
+              <View style={s.optionRow}>
+                <Text style={s.optionText}>{opt}</Text>
+                <SpeakerButton text={opt} lang={lang} />
+              </View>
             </Pressable>
           );
         })}
@@ -640,6 +685,8 @@ const s = StyleSheet.create({
   optionCorrect: { borderColor: "#16a34a", backgroundColor: "#16a34a1a" },
   optionWrong: { borderColor: "#dc2626", backgroundColor: "#dc26261a" },
   optionText: { fontSize: 15, color: "#000" },
+  optionRow: { flexDirection: "row", alignItems: "center", justifyContent: "space-between", gap: 6, flex: 1 },
+  speakableSpan: { textDecorationLine: "underline", color: "#7A1F1F" },
   blankRow: { flexDirection: "row", flexWrap: "wrap", alignItems: "center", gap: 4 },
   blankText: { fontSize: 16, color: "#000" },
   blankInput: {
