@@ -62,14 +62,6 @@ export default function FlashcardsScreen({ route }: Props) {
     setIndex((i) => i + 1);
   }
 
-  if (loading) {
-    return (
-      <View style={s.center}>
-        <Text>Loading…</Text>
-      </View>
-    );
-  }
-
   const card = due[index];
 
   // Every card gets pronounced as soon as it's shown -- both the front
@@ -77,11 +69,25 @@ export default function FlashcardsScreen({ route }: Props) {
   // word again isn't re-spoken (revealing shows the English side, which
   // is silent by design; the speaker button below lets them replay the
   // target-language word on demand).
+  //
+  // This effect (and every other hook) must run before any early return
+  // below -- React requires the same hooks, in the same order, on every
+  // render. Hoisting `card` and this effect above the `loading`/`!card`
+  // checks (rather than conditionally skipping the hook itself) is what
+  // keeps that invariant, and is guarded internally instead.
   useEffect(() => {
-    if (!card) return;
+    if (loading || !card) return;
     speak(card.es, langForLevelPath(card.levelPath));
     return () => stopSpeaking();
-  }, [card?.id]);
+  }, [loading, card?.id]);
+
+  if (loading) {
+    return (
+      <View style={s.center}>
+        <Text>Loading…</Text>
+      </View>
+    );
+  }
 
   if (!card) {
     return (
