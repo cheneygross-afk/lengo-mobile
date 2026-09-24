@@ -1,6 +1,8 @@
 import type { Lesson } from "./types";
+import { weaveLessons } from "./weave";
+import { C2_REINFORCEMENT } from "./c2-reinforcement";
 
-export const C2_LESSONS: Lesson[] = [
+const C2_BASE_LESSONS: Lesson[] = [
   {
     "slug": "legal-administrative-spanish-part-1-1",
     "level": "C2",
@@ -25534,3 +25536,8 @@ export const C2_LESSONS: Lesson[] = [
     ]
   }
 ];
+
+// The reinforcement lessons (c2-reinforcement.ts) are woven in right after
+// the lesson each one reinforces, and the whole level is renumbered -- see
+// weave.ts. Everything above this line is the original lesson data.
+export const C2_LESSONS: Lesson[] = weaveLessons(C2_BASE_LESSONS, C2_REINFORCEMENT);
