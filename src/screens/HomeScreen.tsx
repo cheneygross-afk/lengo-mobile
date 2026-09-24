@@ -87,7 +87,7 @@ export default function HomeScreen({ navigation }: Props) {
               </Pressable>
             )}
 
-            <Pressable style={styles.card} onPress={() => navigation.navigate("Review")}>
+            <Pressable style={styles.card} onPress={() => navigation.navigate("Review", { lang: language })}>
               <Text style={styles.cardTitle}>Review</Text>
               <Text style={styles.cardBody}>Lessons you saved to try again.</Text>
             </Pressable>

@@ -11,17 +11,21 @@ type Props = NativeStackScreenProps<AppStackParamList, "Review">;
 
 // Screen 7: lessons a learner added to review from the lesson-complete
 // screen, so they can find and retry them later without hunting through
-// the full lesson list. One shared screen across every track (Spanish +
-// the Japanese beta's modules) -- review is stored per levelPath (see
-// lessons/review.ts), so this reads every track's list and merges them
-// into one, rather than showing only Spanish's.
-export default function ReviewListScreen({ navigation }: Props) {
+// the full lesson list. Shared screen component across every track
+// (Spanish + the Japanese beta's modules), but each track's review list
+// is disjoint -- review is stored per levelPath (see lessons/review.ts),
+// and this only reads the level paths belonging to the language passed
+// in, the same "es"/"ja" split Flashcards and Home already use, rather
+// than merging Spanish and Japanese into one list.
+export default function ReviewListScreen({ navigation, route }: Props) {
+  const lang = route.params?.lang ?? "es";
   const [lessons, setLessons] = useState<Lesson[]>([]);
 
   useFocusEffect(
     useCallback(() => {
       let cancelled = false;
-      Promise.all(ALL_LEVEL_PATHS.map((key) => getReviewSlugs(LESSON_SOURCES[key].levelPath))).then((lists) => {
+      const keys = ALL_LEVEL_PATHS.filter((key) => (lang === "ja" ? key.startsWith("ja-") : !key.startsWith("ja-")));
+      Promise.all(keys.map((key) => getReviewSlugs(LESSON_SOURCES[key].levelPath))).then((lists) => {
         if (cancelled) return;
         const found = lists
           .flat()
@@ -32,7 +36,7 @@ export default function ReviewListScreen({ navigation }: Props) {
       return () => {
         cancelled = true;
       };
-    }, [])
+    }, [lang])
   );
 
   async function handleRemove(slug: string, lesson: Lesson) {

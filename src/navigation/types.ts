@@ -9,7 +9,11 @@ export type AppStackParamList = {
   SpanishLevels: undefined;
   LessonList: { moduleKey?: LessonModuleKey } | undefined;
   LessonRunner: { slug: string };
-  Review: undefined;
+  // lang defaults to "es" when omitted, so every existing "Review"
+  // navigation call (Spanish) keeps working unchanged -- see
+  // ReviewListScreen, which uses it to only show that language's own
+  // saved lessons, never both tracks merged together.
+  Review: { lang?: "es" | "ja" } | undefined;
   // lang defaults to "es" when omitted, so every existing "Flashcards"
   // navigation call (Spanish) keeps working unchanged.
   Flashcards: { lang?: "es" | "ja" } | undefined;
