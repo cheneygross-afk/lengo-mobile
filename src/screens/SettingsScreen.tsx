@@ -3,6 +3,8 @@ import { View, Text, TextInput, Pressable, StyleSheet, Linking, ActivityIndicato
 import { useAuth } from "@/lib/auth/AuthContext";
 import { supabase } from "@/lib/supabase/client";
 import { HIGHLIGHT_COLORS, DEFAULT_HIGHLIGHT_COLOR, type HighlightColor } from "@/lib/highlightColors";
+import { PRONUNCIATION_VOICES, DEFAULT_PRONUNCIATION_VOICE, type PronunciationVoice } from "@/lib/pronunciationVoice";
+import { setPreferredVoice } from "@/lib/speech";
 
 // Screen reached from Home's "Settings" link (previously a bare "Log
 // out" link there). "Get Premium" is a plain hyperlink out to the
@@ -26,6 +28,9 @@ export default function SettingsScreen() {
   const [highlightColor, setHighlightColor] = useState<HighlightColor>(DEFAULT_HIGHLIGHT_COLOR);
   const [saving, setSaving] = useState<HighlightColor | null>(null);
   const [openingPremium, setOpeningPremium] = useState(false);
+
+  const [pronunciationVoice, setPronunciationVoice] = useState<PronunciationVoice>(DEFAULT_PRONUNCIATION_VOICE);
+  const [savingVoice, setSavingVoice] = useState<PronunciationVoice | null>(null);
 
   // Personal info -- email is view-only (same "profiles.email" the web
   // app's PersonalInfoForm shows), "Username" in this UI maps onto
@@ -88,7 +93,7 @@ export default function SettingsScreen() {
     let cancelled = false;
     supabase
       .from("profiles")
-      .select("highlight_color, email, full_name")
+      .select("highlight_color, email, full_name, pronunciation_voice")
       .eq("id", userId)
       .single()
       .then(({ data }) => {
@@ -96,6 +101,7 @@ export default function SettingsScreen() {
         if (data.highlight_color) setHighlightColor(data.highlight_color as HighlightColor);
         setEmail(data.email ?? session?.user?.email ?? "");
         setFullName(data.full_name ?? "");
+        if (data.pronunciation_voice) setPronunciationVoice(data.pronunciation_voice as PronunciationVoice);
       });
     return () => {
       cancelled = true;
@@ -123,6 +129,19 @@ export default function SettingsScreen() {
     const { error } = await supabase.from("profiles").update({ highlight_color: next }).eq("id", userId);
     setSaving(null);
     if (!error) setHighlightColor(next);
+  }
+
+  async function pickPronunciationVoice(next: PronunciationVoice) {
+    if (!userId || next === pronunciationVoice || savingVoice) return;
+    setSavingVoice(next);
+    const { error } = await supabase.from("profiles").update({ pronunciation_voice: next }).eq("id", userId);
+    setSavingVoice(null);
+    if (!error) {
+      setPronunciationVoice(next);
+      // Takes effect immediately this session -- speak() reads this
+      // in-memory value rather than re-fetching the profile per tap.
+      setPreferredVoice(next);
+    }
   }
 
   // Mirrors PersonalInfoForm.tsx's save on the web app: same table,
@@ -313,6 +332,29 @@ export default function SettingsScreen() {
         </View>
       </View>
 
+      <View style={s.section}>
+        <Text style={s.sectionTitle}>Pronunciation voice</Text>
+        <Text style={s.sectionSub}>
+          Pick the voice used when you tap a word to hear it said aloud -- synced with your account on
+          the website too.
+        </Text>
+        <View style={s.voiceRow}>
+          {PRONUNCIATION_VOICES.map((v) => {
+            const active = pronunciationVoice === v.value;
+            return (
+              <Pressable
+                key={v.value}
+                disabled={!!savingVoice}
+                onPress={() => pickPronunciationVoice(v.value)}
+                style={[s.voicePill, active && s.voicePillActive]}
+              >
+                <Text style={[s.voicePillText, active && s.voicePillTextActive]}>{v.label}</Text>
+              </Pressable>
+            );
+          })}
+        </View>
+      </View>
+
       <Pressable style={s.logoutBtn} onPress={signOut}>
         <Text style={s.logoutBtnText}>Log out</Text>
       </Pressable>
@@ -385,6 +427,18 @@ const s = StyleSheet.create({
   },
   swatchActive: { borderWidth: 2, borderColor: "#000" },
   swatchCheck: { fontSize: 14, fontWeight: "800", color: "#000" },
+  voiceRow: { flexDirection: "row", gap: 10, marginTop: 14 },
+  voicePill: {
+    borderWidth: 1,
+    borderColor: "#00000022",
+    borderRadius: 999,
+    paddingVertical: 9,
+    paddingHorizontal: 18,
+    backgroundColor: "#fff",
+  },
+  voicePillActive: { backgroundColor: "#000", borderColor: "#000" },
+  voicePillText: { fontSize: 14, fontWeight: "600", color: "#000" },
+  voicePillTextActive: { color: "#fff" },
   logoutBtn: {
     borderWidth: 1,
     borderColor: "#00000018",

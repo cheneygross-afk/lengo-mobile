@@ -14,6 +14,7 @@
 import * as Speech from "expo-speech";
 import { createAudioPlayer, type AudioPlayer, type AudioStatus } from "expo-audio";
 import { supabase } from "@/lib/supabase/client";
+import { DEFAULT_PRONUNCIATION_VOICE, type PronunciationVoice } from "@/lib/pronunciationVoice";
 
 export type SpeechLang = "es-ES" | "ja-JP" | "en-US";
 
@@ -90,8 +91,8 @@ function fnv1a(str: string, seed: number): number {
   return h >>> 0;
 }
 
-function hashKey(text: string, lang: string): string {
-  const input = `${lang}\u0000${text.normalize("NFC")}`;
+function hashKey(text: string, lang: string, voice: PronunciationVoice): string {
+  const input = `${lang}\u0000${voice}\u0000${text.normalize("NFC")}`;
   const a = fnv1a(input, 0x811c9dc5);
   const b = fnv1a(input, 0x9e3779b9);
   return a.toString(16).padStart(8, "0") + b.toString(16).padStart(8, "0");
@@ -101,8 +102,48 @@ const SUPABASE_URL = process.env.EXPO_PUBLIC_SUPABASE_URL ?? "";
 const STORAGE_BASE = `${SUPABASE_URL}/storage/v1/object/public/pronunciation-audio`;
 const PRONOUNCE_API_URL = "https://deependspanish.com/api/pronounce";
 
-function audioUrl(text: string, lang: SpeechLang): string {
-  return `${STORAGE_BASE}/${lang}/${hashKey(text, lang)}.mp3`;
+function audioUrl(text: string, lang: SpeechLang, voice: PronunciationVoice): string {
+  return `${STORAGE_BASE}/${lang}/${hashKey(text, lang, voice)}.mp3`;
+}
+
+// In-memory cache of the signed-in learner's saved pronunciation voice
+// (profiles.pronunciation_voice). Loaded lazily -- the first speak() of
+// a session awaits it -- rather than threaded as a prop through every
+// screen that calls speak() (flashcards, exercises, tap-to-hear text),
+// since it's one account-level setting, not something any of those call
+// sites need to know about individually.
+let preferredVoice: PronunciationVoice = DEFAULT_PRONUNCIATION_VOICE;
+let voiceLoaded = false;
+let voiceLoadPromise: Promise<void> | null = null;
+
+// Called by SettingsScreen the instant the learner changes their pick,
+// so speak() reflects it immediately this session instead of waiting on
+// a fresh profile fetch.
+export function setPreferredVoice(voice: PronunciationVoice): void {
+  preferredVoice = voice;
+  voiceLoaded = true;
+}
+
+function loadPreferredVoice(): Promise<void> {
+  if (voiceLoaded) return Promise.resolve();
+  if (voiceLoadPromise) return voiceLoadPromise;
+  voiceLoadPromise = (async () => {
+    try {
+      const {
+        data: { user },
+      } = await supabase.auth.getUser();
+      if (!user) return;
+      const { data } = await supabase.from("profiles").select("pronunciation_voice").eq("id", user.id).single();
+      const v = data?.pronunciation_voice;
+      if (v === "male" || v === "female") preferredVoice = v;
+    } catch {
+      // Network hiccup or logged out -- stick with the default voice
+      // rather than block speech on this.
+    } finally {
+      voiceLoaded = true;
+    }
+  })();
+  return voiceLoadPromise;
 }
 
 // Only Spanish and Japanese get generated cloud audio -- English UI text
@@ -161,13 +202,13 @@ function tryPlayRemote(url: string): Promise<boolean> {
 // Requires the learner's own session (same auth model as the in-app
 // translator, src/lib/translate/api.ts) so this costed call isn't wide
 // open to anyone who isn't using the app.
-async function requestGeneration(text: string, lang: SpeechLang): Promise<string | null> {
+async function requestGeneration(text: string, lang: SpeechLang, voice: PronunciationVoice): Promise<string | null> {
   try {
     const { data } = await supabase.auth.getSession();
     const token = data.session?.access_token;
     if (!token) return null;
     const res = await fetch(
-      `${PRONOUNCE_API_URL}?text=${encodeURIComponent(text)}&lang=${encodeURIComponent(lang)}`,
+      `${PRONOUNCE_API_URL}?text=${encodeURIComponent(text)}&lang=${encodeURIComponent(lang)}&voice=${voice}`,
       { headers: { Authorization: `Bearer ${token}` } }
     );
     if (!res.ok) return null;
@@ -209,8 +250,10 @@ export function speak(text: string, lang: SpeechLang) {
   }
 
   void (async () => {
-    if (await tryPlayRemote(audioUrl(clean, lang))) return;
-    const generatedUrl = await requestGeneration(clean, lang);
+    await loadPreferredVoice();
+    const voice = preferredVoice;
+    if (await tryPlayRemote(audioUrl(clean, lang, voice))) return;
+    const generatedUrl = await requestGeneration(clean, lang, voice);
     if (generatedUrl && (await tryPlayRemote(generatedUrl))) return;
     speakOnDevice(clean, lang);
   })();
