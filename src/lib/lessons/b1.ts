@@ -1,6 +1,8 @@
 import type { Lesson } from "./types";
+import { weaveLessons } from "./weave";
+import { B1_REINFORCEMENT } from "./b1-reinforcement";
 
-export const B1_LESSONS: Lesson[] = [
+const B1_BASE_LESSONS: Lesson[] = [
   {
     "slug": "present-subjunctive-formation-1",
     "level": "B1",
@@ -18056,3 +18058,8 @@ export const B1_LESSONS: Lesson[] = [
     ]
   }
 ];
+
+// The reinforcement lessons (b1-reinforcement.ts) are woven in right after
+// the lesson each one reinforces, and the whole level is renumbered -- see
+// weave.ts. Everything above this line is the original lesson data.
+export const B1_LESSONS: Lesson[] = weaveLessons(B1_BASE_LESSONS, B1_REINFORCEMENT);
