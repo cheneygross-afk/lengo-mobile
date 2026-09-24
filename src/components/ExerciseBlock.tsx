@@ -141,25 +141,6 @@ const fb = StyleSheet.create({
   body: { fontSize: 14, color: "#000000cc", marginTop: 2 },
 });
 
-// Small tap-to-hear button dropped next to already-visible target-language
-// text (an option, a word-order chip, a matching pair's left side...).
-// Never placed on anything that would still reveal a hidden answer -- see
-// each exercise type below for what's actually safe to attach this to.
-function SpeakerButton({ text, lang }: { text: string; lang: SpeechLang }) {
-  return (
-    <Pressable
-      hitSlop={8}
-      onPress={(e) => {
-        e.stopPropagation();
-        speak(text, lang);
-      }}
-      style={s.speakerBtn}
-    >
-      <Text style={s.speakerIcon}>🔊</Text>
-    </Pressable>
-  );
-}
-
 // Wraps a block of text, making tappable-to-hear just its target-language
 // portions (see lib/targetSpans) rather than the whole English sentence
 // around them -- e.g. only the quoted Spanish word, or only the embedded
@@ -289,7 +270,16 @@ function MultipleChoice({
             <Pressable
               key={i}
               disabled={checked}
-              onPress={() => setSelected(i)}
+              onPress={() => {
+                // Every option is the target-language vocabulary itself
+                // (same reasoning as Matching's pair.left below) --
+                // already fully visible before a choice is made, so
+                // hearing it doesn't give away the answer. Speaking and
+                // selecting on the same tap means every word in a lesson
+                // is heard the same way: tap it.
+                speak(opt, lang);
+                setSelected(i);
+              }}
               style={[
                 s.option,
                 isSelected && s.optionSelected,
@@ -297,14 +287,7 @@ function MultipleChoice({
                 checked && i === exercise.correctIndex && s.optionCorrect,
               ]}
             >
-              <View style={s.optionRow}>
-                <Text style={s.optionText}>{opt}</Text>
-                {/* Every option is the target-language vocabulary itself
-                    (same reasoning as Matching's pair.left below) --
-                    already fully visible before a choice is made, so
-                    hearing it doesn't give away the answer. */}
-                <SpeakerButton text={opt} lang={lang} />
-              </View>
+              <Text style={s.optionText}>{opt}</Text>
             </Pressable>
           );
         })}
@@ -344,7 +327,10 @@ function MultiSelect({
             <Pressable
               key={i}
               disabled={checked}
-              onPress={() => toggle(i)}
+              onPress={() => {
+                speak(opt, lang);
+                toggle(i);
+              }}
               style={[
                 s.option,
                 isSelected && s.optionSelected,
@@ -352,10 +338,7 @@ function MultiSelect({
                 checked && isSelected && !shouldBeSelected && s.optionWrong,
               ]}
             >
-              <View style={s.optionRow}>
-                <Text style={s.optionText}>{opt}</Text>
-                <SpeakerButton text={opt} lang={lang} />
-              </View>
+              <Text style={s.optionText}>{opt}</Text>
             </Pressable>
           );
         })}
@@ -405,7 +388,16 @@ function FillBlank({
     <View>
       <Text style={s.question}>{exercise.prompt}</Text>
       <View style={s.blankRow}>
-        <Text style={s.blankText}>{before}</Text>
+        {checked ? (
+          <Text
+            style={[s.blankText, s.speakableSpan]}
+            onPress={() => speak(`${before}${exercise.answer}${after}`, lang)}
+          >
+            {before}
+          </Text>
+        ) : (
+          <Text style={s.blankText}>{before}</Text>
+        )}
         <TextInput
           value={checked ? exercise.answer : value}
           onChangeText={setValue}
@@ -417,8 +409,16 @@ function FillBlank({
           style={[s.blankInput, checked && (correct ? s.inputCorrect : s.inputWrong)]}
           placeholder="..."
         />
-        <Text style={s.blankText}>{after}</Text>
-        {checked && <SpeakerButton text={`${before}${exercise.answer}${after}`} lang={lang} />}
+        {checked ? (
+          <Text
+            style={[s.blankText, s.speakableSpan]}
+            onPress={() => speak(`${before}${exercise.answer}${after}`, lang)}
+          >
+            {after}
+          </Text>
+        ) : (
+          <Text style={s.blankText}>{after}</Text>
+        )}
       </View>
       {exercise.hint && !checked && <Text style={s.hint}>Hint: {exercise.hint}</Text>}
       {!checked && (
@@ -465,8 +465,16 @@ function Translate({
     <View>
       <Text style={s.question}>{exercise.prompt}</Text>
       <View style={s.sourceRow}>
-        <Text style={s.sourceText}>{exercise.source}</Text>
-        {sourceIsTarget && <SpeakerButton text={exercise.source} lang={lang} />}
+        {sourceIsTarget ? (
+          <Text
+            style={[s.sourceText, s.speakableSpan]}
+            onPress={() => speak(exercise.source, lang)}
+          >
+            {exercise.source}
+          </Text>
+        ) : (
+          <Text style={s.sourceText}>{exercise.source}</Text>
+        )}
       </View>
       <TextInput
         value={checked ? exercise.answer : value}
@@ -481,7 +489,12 @@ function Translate({
       />
       {checked && !sourceIsTarget && (
         <View style={s.answerAudioRow}>
-          <SpeakerButton text={exercise.answer} lang={lang} />
+          <Text
+            style={[s.optionText, s.speakableSpan]}
+            onPress={() => speak(exercise.answer, lang)}
+          >
+            {exercise.answer}
+          </Text>
         </View>
       )}
       {!checked && (
@@ -538,11 +551,13 @@ function WordOrder({
             <Pressable
               key={i}
               disabled={checked || isUsed}
-              onPress={() => setUsed((prev) => [...prev, i])}
+              onPress={() => {
+                speak(w, lang);
+                setUsed((prev) => [...prev, i]);
+              }}
               style={[s.chip, isUsed && s.chipUsed]}
             >
               <Text style={s.chipText}>{w}</Text>
-              <SpeakerButton text={w} lang={lang} />
             </Pressable>
           );
         })}
@@ -554,7 +569,12 @@ function WordOrder({
       )}
       {checked && (
         <View style={s.answerAudioRow}>
-          <SpeakerButton text={correctSentence} lang={lang} />
+          <Text
+            style={[s.optionText, s.speakableSpan]}
+            onPress={() => speak(correctSentence, lang)}
+          >
+            {correctSentence}
+          </Text>
         </View>
       )}
       {!checked && (
@@ -610,15 +630,22 @@ function Matching({
                   isWrong && s.optionWrong,
                 ]}
               >
-                <Text style={s.optionText}>
+                <Text
+                  style={s.optionText}
+                  onPress={(e) => {
+                    // `left` is always target-language vocabulary (see
+                    // lib/lessons/*.ts), already fully visible before a
+                    // match is made -- hearing it doesn't give away which
+                    // right-hand item it pairs with. Kept tappable even
+                    // after checking (stopPropagation so it doesn't also
+                    // re-trigger the now-disabled parent Pressable).
+                    e.stopPropagation();
+                    speak(pair.left, lang);
+                  }}
+                >
                   {pair.left}
                   {chosen ? ` → ${chosen}` : ""}
                 </Text>
-                {/* `left` is always target-language vocabulary (see
-                    lib/lessons/*.ts), already fully visible before a
-                    match is made -- hearing it doesn't give away which
-                    right-hand item it pairs with. */}
-                <SpeakerButton text={pair.left} lang={lang} />
               </Pressable>
             );
           })}
@@ -671,8 +698,6 @@ const s = StyleSheet.create({
   sourceText: { fontSize: 15, color: "#000", fontStyle: "italic", flexShrink: 1 },
   sourceRow: { flexDirection: "row", alignItems: "center", gap: 6, marginBottom: 10 },
   answerAudioRow: { flexDirection: "row", marginTop: 8 },
-  speakerBtn: { padding: 4 },
-  speakerIcon: { fontSize: 15 },
   options: { flexDirection: "row", flexWrap: "wrap", gap: 8 },
   option: {
     borderWidth: 1,
@@ -685,7 +710,6 @@ const s = StyleSheet.create({
   optionCorrect: { borderColor: "#16a34a", backgroundColor: "#16a34a1a" },
   optionWrong: { borderColor: "#dc2626", backgroundColor: "#dc26261a" },
   optionText: { fontSize: 15, color: "#000" },
-  optionRow: { flexDirection: "row", alignItems: "center", justifyContent: "space-between", gap: 6, flex: 1 },
   speakableSpan: { textDecorationLine: "underline", color: "#7A1F1F" },
   blankRow: { flexDirection: "row", flexWrap: "wrap", alignItems: "center", gap: 4 },
   blankText: { fontSize: 16, color: "#000" },

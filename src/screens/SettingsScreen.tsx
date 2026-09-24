@@ -1,10 +1,15 @@
 import { useEffect, useState } from "react";
-import { View, Text, TextInput, Pressable, StyleSheet, Linking, ActivityIndicator, ScrollView } from "react-native";
+import { View, Text, TextInput, Pressable, Switch, StyleSheet, Linking, ActivityIndicator, ScrollView } from "react-native";
 import { useAuth } from "@/lib/auth/AuthContext";
 import { supabase } from "@/lib/supabase/client";
 import { HIGHLIGHT_COLORS, DEFAULT_HIGHLIGHT_COLOR, type HighlightColor } from "@/lib/highlightColors";
-import { PRONUNCIATION_VOICES, DEFAULT_PRONUNCIATION_VOICE, type PronunciationVoice } from "@/lib/pronunciationVoice";
-import { setPreferredVoice } from "@/lib/speech";
+import {
+  PRONUNCIATION_VOICES,
+  DEFAULT_PRONUNCIATION_VOICE,
+  DEFAULT_PRONUNCIATION_ENABLED,
+  type PronunciationVoice,
+} from "@/lib/pronunciationVoice";
+import { setPreferredVoice, setPronunciationEnabled } from "@/lib/speech";
 
 // Screen reached from Home's "Settings" link (previously a bare "Log
 // out" link there). "Get Premium" is a plain hyperlink out to the
@@ -31,6 +36,8 @@ export default function SettingsScreen() {
 
   const [pronunciationVoice, setPronunciationVoice] = useState<PronunciationVoice>(DEFAULT_PRONUNCIATION_VOICE);
   const [savingVoice, setSavingVoice] = useState<PronunciationVoice | null>(null);
+  const [pronunciationEnabled, setPronunciationEnabledValue] = useState<boolean>(DEFAULT_PRONUNCIATION_ENABLED);
+  const [savingEnabled, setSavingEnabled] = useState(false);
 
   // Personal info -- email is view-only (same "profiles.email" the web
   // app's PersonalInfoForm shows), "Username" in this UI maps onto
@@ -93,7 +100,7 @@ export default function SettingsScreen() {
     let cancelled = false;
     supabase
       .from("profiles")
-      .select("highlight_color, email, full_name, pronunciation_voice")
+      .select("highlight_color, email, full_name, pronunciation_voice, pronunciation_enabled")
       .eq("id", userId)
       .single()
       .then(({ data }) => {
@@ -102,6 +109,7 @@ export default function SettingsScreen() {
         setEmail(data.email ?? session?.user?.email ?? "");
         setFullName(data.full_name ?? "");
         if (data.pronunciation_voice) setPronunciationVoice(data.pronunciation_voice as PronunciationVoice);
+        if (typeof data.pronunciation_enabled === "boolean") setPronunciationEnabledValue(data.pronunciation_enabled);
       });
     return () => {
       cancelled = true;
@@ -129,6 +137,20 @@ export default function SettingsScreen() {
     const { error } = await supabase.from("profiles").update({ highlight_color: next }).eq("id", userId);
     setSaving(null);
     if (!error) setHighlightColor(next);
+  }
+
+  async function togglePronunciationEnabled() {
+    if (!userId || savingEnabled) return;
+    const next = !pronunciationEnabled;
+    setSavingEnabled(true);
+    const { error } = await supabase.from("profiles").update({ pronunciation_enabled: next }).eq("id", userId);
+    setSavingEnabled(false);
+    if (!error) {
+      setPronunciationEnabledValue(next);
+      // Takes effect immediately this session -- also stops anything
+      // currently playing if turned off.
+      setPronunciationEnabled(next);
+    }
   }
 
   async function pickPronunciationVoice(next: PronunciationVoice) {
@@ -333,10 +355,20 @@ export default function SettingsScreen() {
       </View>
 
       <View style={s.section}>
-        <Text style={s.sectionTitle}>Pronunciation voice</Text>
+        <Text style={s.sectionTitle}>Pronunciation</Text>
+        <View style={s.enabledRow}>
+          <View style={s.enabledRowText}>
+            <Text style={s.enabledLabel}>Hear words when tapped</Text>
+            <Text style={s.sectionSub}>Tap any Spanish or Japanese word or phrase to hear it said aloud.</Text>
+          </View>
+          <Switch
+            value={pronunciationEnabled}
+            onValueChange={togglePronunciationEnabled}
+            disabled={savingEnabled}
+          />
+        </View>
         <Text style={s.sectionSub}>
-          Pick the voice used when you tap a word to hear it said aloud -- synced with your account on
-          the website too.
+          Pick the voice used -- synced with your account on the website too.
         </Text>
         <View style={s.voiceRow}>
           {PRONUNCIATION_VOICES.map((v) => {
@@ -427,6 +459,16 @@ const s = StyleSheet.create({
   },
   swatchActive: { borderWidth: 2, borderColor: "#000" },
   swatchCheck: { fontSize: 14, fontWeight: "800", color: "#000" },
+  enabledRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: 12,
+    marginTop: 4,
+    marginBottom: 14,
+  },
+  enabledRowText: { flex: 1 },
+  enabledLabel: { fontSize: 14, fontWeight: "600", color: "#000", marginBottom: 2 },
   voiceRow: { flexDirection: "row", gap: 10, marginTop: 14 },
   voicePill: {
     borderWidth: 1,

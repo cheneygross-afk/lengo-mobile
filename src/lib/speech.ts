@@ -14,7 +14,11 @@
 import * as Speech from "expo-speech";
 import { createAudioPlayer, type AudioPlayer, type AudioStatus } from "expo-audio";
 import { supabase } from "@/lib/supabase/client";
-import { DEFAULT_PRONUNCIATION_VOICE, type PronunciationVoice } from "@/lib/pronunciationVoice";
+import {
+  DEFAULT_PRONUNCIATION_VOICE,
+  DEFAULT_PRONUNCIATION_ENABLED,
+  type PronunciationVoice,
+} from "@/lib/pronunciationVoice";
 
 export type SpeechLang = "es-ES" | "ja-JP" | "en-US";
 
@@ -113,37 +117,56 @@ function audioUrl(text: string, lang: SpeechLang, voice: PronunciationVoice): st
 // since it's one account-level setting, not something any of those call
 // sites need to know about individually.
 let preferredVoice: PronunciationVoice = DEFAULT_PRONUNCIATION_VOICE;
-let voiceLoaded = false;
-let voiceLoadPromise: Promise<void> | null = null;
+let pronunciationEnabled: boolean = DEFAULT_PRONUNCIATION_ENABLED;
+let prefsLoaded = false;
+let prefsLoadPromise: Promise<void> | null = null;
 
 // Called by SettingsScreen the instant the learner changes their pick,
 // so speak() reflects it immediately this session instead of waiting on
 // a fresh profile fetch.
 export function setPreferredVoice(voice: PronunciationVoice): void {
   preferredVoice = voice;
-  voiceLoaded = true;
+  prefsLoaded = true;
 }
 
-function loadPreferredVoice(): Promise<void> {
-  if (voiceLoaded) return Promise.resolve();
-  if (voiceLoadPromise) return voiceLoadPromise;
-  voiceLoadPromise = (async () => {
+// Called by SettingsScreen the instant the learner flips pronunciation
+// off -- also stops anything already playing right away, rather than
+// waiting for the next tap to notice.
+export function setPronunciationEnabled(enabled: boolean): void {
+  pronunciationEnabled = enabled;
+  prefsLoaded = true;
+  if (!enabled) {
+    currentPlayer?.remove();
+    currentPlayer = null;
+    Speech.stop();
+  }
+}
+
+function loadPronunciationPrefs(): Promise<void> {
+  if (prefsLoaded) return Promise.resolve();
+  if (prefsLoadPromise) return prefsLoadPromise;
+  prefsLoadPromise = (async () => {
     try {
       const {
         data: { user },
       } = await supabase.auth.getUser();
       if (!user) return;
-      const { data } = await supabase.from("profiles").select("pronunciation_voice").eq("id", user.id).single();
+      const { data } = await supabase
+        .from("profiles")
+        .select("pronunciation_voice, pronunciation_enabled")
+        .eq("id", user.id)
+        .single();
       const v = data?.pronunciation_voice;
       if (v === "male" || v === "female") preferredVoice = v;
+      if (typeof data?.pronunciation_enabled === "boolean") pronunciationEnabled = data.pronunciation_enabled;
     } catch {
-      // Network hiccup or logged out -- stick with the default voice
-      // rather than block speech on this.
+      // Network hiccup or logged out -- stick with the defaults rather
+      // than block speech on this.
     } finally {
-      voiceLoaded = true;
+      prefsLoaded = true;
     }
   })();
-  return voiceLoadPromise;
+  return prefsLoadPromise;
 }
 
 // Only Spanish and Japanese get generated cloud audio -- English UI text
@@ -244,13 +267,15 @@ export function speak(text: string, lang: SpeechLang) {
   currentPlayer = null;
   Speech.stop();
 
-  if (!hasCloudVoice(lang)) {
-    speakOnDevice(clean, lang);
-    return;
-  }
-
   void (async () => {
-    await loadPreferredVoice();
+    await loadPronunciationPrefs();
+    if (!pronunciationEnabled) return;
+
+    if (!hasCloudVoice(lang)) {
+      speakOnDevice(clean, lang);
+      return;
+    }
+
     const voice = preferredVoice;
     if (await tryPlayRemote(audioUrl(clean, lang, voice))) return;
     const generatedUrl = await requestGeneration(clean, lang, voice);

@@ -35,9 +35,10 @@ type Props = {
   blockKey: string;
   highlights: LessonHighlight[];
   // Only logged-in learners can persist highlights (mirrors the
-  // website's lesson_highlights RLS). When false this renders plain,
-  // static text -- no PanResponder, no onPress -- so logged-out readers
-  // pay zero cost for the feature.
+  // website's lesson_highlights RLS). When false, drag-to-highlight
+  // (the PanResponder below) is off entirely -- but tap-to-hear (see
+  // `lang` below) still works regardless, since it's free and
+  // stateless, not a login-gated feature.
   enabled: boolean;
   onAdd: (start: number, end: number, text: string) => void;
   onRemove: (id: string) => void;
@@ -51,7 +52,9 @@ type Props = {
   // Language to pronounce a tapped word in (see @/lib/speech). Tapping a
   // word that isn't already highlighted speaks it -- the lightweight
   // "hear a word" gesture that sits alongside drag-to-highlight (which
-  // still requires the deliberate drag + confirm pill to actually save).
+  // still requires the deliberate drag + confirm pill to actually save)
+  // and works even for a logged-out learner or before `enabled` turns
+  // on, unlike highlighting.
   lang: SpeechLang;
 };
 
@@ -266,7 +269,7 @@ export default function HighlightableText({
               const { x, y, width, height } = e.nativeEvent.layout;
               wordRects.current.set(idx, { x, y, width, height });
             }}
-            onPress={enabled ? () => handleWordTap(token) : undefined}
+            onPress={() => handleWordTap(token)}
             style={[textStyle, styles.word, bg ? { backgroundColor: bg } : null]}
           >
             {token.value}

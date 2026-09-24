@@ -10,3 +10,7 @@ export const PRONUNCIATION_VOICES = [
 export type PronunciationVoice = (typeof PRONUNCIATION_VOICES)[number]["value"];
 
 export const DEFAULT_PRONUNCIATION_VOICE: PronunciationVoice = "female";
+
+// Whether tap-to-hear pronunciation is on at all -- a separate on/off
+// switch from which voice plays, for a learner who wants it silent.
+export const DEFAULT_PRONUNCIATION_ENABLED = true;
