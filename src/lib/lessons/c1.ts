@@ -1,6 +1,8 @@
 import type { Lesson } from "./types";
+import { weaveLessons } from "./weave";
+import { C1_REINFORCEMENT } from "./c1-reinforcement";
 
-export const C1_LESSONS: Lesson[] = [
+const C1_BASE_LESSONS: Lesson[] = [
   {
     "slug": "subjunctive-mastery-review-1",
     "level": "C1",
@@ -15820,3 +15822,8 @@ export const C1_LESSONS: Lesson[] = [
     ]
   }
 ];
+
+// The reinforcement lessons (c1-reinforcement.ts) are woven in right after
+// the lesson each one reinforces, and the whole level is renumbered -- see
+// weave.ts. Everything above this line is the original lesson data.
+export const C1_LESSONS: Lesson[] = weaveLessons(C1_BASE_LESSONS, C1_REINFORCEMENT);
