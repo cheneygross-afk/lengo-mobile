@@ -519,7 +519,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Answer the question.", "—¿Ustedes miran películas en español? —Sí, ___ muchas.", "miramos", "Ustedes question → nosotros answer: miramos."),
-      fb("Answer the question.", "—¿Tu hermana toca el piano? —Sí, ___ muy bien.", "toca", "Tu hermana = ella → toca."),
+      fb("Answer the question with tocar.", "—¿Tu hermana canta? —No, pero ___ el piano muy bien.", "toca", "Tu hermana = ella → toca. (Tocar = to play an instrument.)"),
       mc(
         "Which question would get the answer \"No, no fumo\"?",
         ["¿Fumas?", "¿Fuman ustedes?", "¿Fuma él?", "¿Fumamos?"],

@@ -1,6 +1,8 @@
 import type { Lesson } from "./types";
+import { weaveLessons } from "./weave";
+import { A2_REINFORCEMENT } from "./a2-reinforcement";
 
-export const A2_LESSONS: Lesson[] = [
+const A2_BASE_LESSONS: Lesson[] = [
   {
     "slug": "preterite-regular-verbs-1",
     "level": "A2",
@@ -17125,3 +17127,8 @@ export const A2_LESSONS: Lesson[] = [
     ]
   }
 ];
+
+// The reinforcement lessons (a2-reinforcement.ts) are woven in right after
+// the lesson each one reinforces, and the whole level is renumbered -- see
+// weave.ts. Everything above this line is the original lesson data.
+export const A2_LESSONS: Lesson[] = weaveLessons(A2_BASE_LESSONS, A2_REINFORCEMENT);
