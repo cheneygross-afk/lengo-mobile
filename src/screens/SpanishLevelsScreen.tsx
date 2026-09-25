@@ -38,20 +38,20 @@ const LEVELS: { key: LessonModuleKey; code: string; name: string; description: s
   {
     key: "b2",
     code: "B2",
-    name: "Upper Intermediate",
+    name: "Advanced",
     description: "Advanced subjunctive, reported speech, and nuanced connectors for fluent conversation.",
   },
   {
     key: "c1",
     code: "C1",
-    name: "Advanced",
+    name: "Mastery",
     description:
       "Advanced grammar mastery: subjunctive nuance, nominalization, gerund vs. infinitive, and native-level passive constructions.",
   },
   {
     key: "c2",
     code: "C2",
-    name: "Mastery",
+    name: "Professional & Academic",
     description: "Specialized registers, idiomatic fluency, and precision for professional and academic Spanish.",
   },
   {
@@ -101,7 +101,7 @@ export default function SpanishLevelsScreen({ navigation }: Props) {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-      <Text style={styles.subtitle}>Bite-sized, self-paced lessons organized by CEFR level.</Text>
+      <Text style={styles.subtitle}>Bite-sized, self-paced lessons organized by level.</Text>
       <View style={styles.cards}>
         {LEVELS.map((lvl) => {
           const source = LESSON_SOURCES[lvl.key];
@@ -113,7 +113,6 @@ export default function SpanishLevelsScreen({ navigation }: Props) {
               onPress={() => navigation.navigate("LessonList", { moduleKey: lvl.key })}
             >
               <View style={styles.cardTop}>
-                <Text style={styles.cardCode}>{lvl.code}</Text>
                 <Text style={styles.cardName}>{lvl.name}</Text>
               </View>
               <Text style={styles.cardDescription}>{lvl.description}</Text>
@@ -141,8 +140,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
   },
   cardTop: { flexDirection: "row", flexWrap: "wrap", alignItems: "baseline", gap: 8, marginBottom: 6 },
-  cardCode: { fontSize: 18, fontWeight: "800", color: "#7A1F1F", flexShrink: 1 },
-  cardName: { fontSize: 14, color: "#00000099", flexShrink: 1 },
+  cardName: { fontSize: 18, fontWeight: "800", color: "#7A1F1F", flexShrink: 1 },
   cardDescription: { fontSize: 14, color: "#000000cc", lineHeight: 19, marginBottom: 10 },
   cardMeta: { fontSize: 12, color: "#00000066", textTransform: "uppercase" },
 });
