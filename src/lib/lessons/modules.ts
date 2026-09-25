@@ -1,4 +1,6 @@
 import type { Lesson } from "@/lib/lessons/types";
+import { LESSON_SOURCES } from "@/lib/lessons/registry";
+import { lessonNumberOf } from "@/lib/lessons/weave";
 
 // The web app's Lesson data has no explicit "module" field -- lessons are
 // just a flat, numbered sequence per level (see a1.ts). But within a
@@ -6,15 +8,13 @@ import type { Lesson } from "@/lib/lessons/types";
 // lessons, then a "Review:"/"Mastery Check:" lesson; a block of "Extra
 // Practice" drills; a long tail of short reading stories) -- these
 // ranges group A1's lessons into that same shape for display, without
-// touching the shared lesson data files. Defined by lesson `number`
-// range (inclusive) rather than slug, so this can't drift out of sync
-// with a lesson being renamed.
-//
-// Ranges below reflect the post-10-minute-cap lesson numbering (every
-// lesson that used to run over 10 minutes was split into "Part N of M"
-// lessons, which shifted every number after it -- see the a1.ts commit
-// that did the split). If a1.ts changes again, re-derive these with the
-// same slug-boundary lookup used to generate them the first time.
+// touching the shared lesson data files. Each range (inclusive, by
+// lesson `number`) is derived from the slug of the lesson that opens the
+// module, looked up in the woven A1 list (see registry.ts / weave.ts) --
+// never hard-coded, since weaving in reinforcement lessons renumbers the
+// whole level. A reinforcement lesson anchored after a module's last
+// lesson lands before the next module's first lesson, so it stays in the
+// module it reinforces.
 export type LessonModule = {
   title: string;
   range: [number, number];
@@ -29,16 +29,19 @@ export type LessonModule = {
 // here does, and its questions aren't independent of one another (they
 // all depend on the same passage). See LessonListScreen, which filters
 // A1_LESSONS down to this module's total range before grouping.
-export const A1_MODULES: LessonModule[] = [
-  { title: "The Basics", range: [1, 13] },
-  { title: "Everyday Essentials", range: [14, 28] },
-  { title: "Extra Practice", range: [29, 59] },
-];
+const a1Number = (slug: string) => lessonNumberOf(LESSON_SOURCES.a1.lessons, slug);
 
 // Highest lesson `number` that belongs to a real drill/grammar module
-// (i.e. everything covered by A1_MODULES above). Lessons numbered past
-// this are the excluded Reading Practice block.
-export const A1_MAX_DRILL_LESSON_NUMBER = 59;
+// (i.e. everything covered by A1_MODULES below). Lessons numbered past
+// this are the excluded Reading Practice block, which opens with
+// "school-day-math-test".
+export const A1_MAX_DRILL_LESSON_NUMBER = a1Number("school-day-math-test") - 1;
+
+export const A1_MODULES: LessonModule[] = [
+  { title: "The Basics", range: [1, a1Number("possessives-prepositions") - 1] },
+  { title: "Everyday Essentials", range: [a1Number("possessives-prepositions"), a1Number("ser-vs-estar-drill-1") - 1] },
+  { title: "Extra Practice", range: [a1Number("ser-vs-estar-drill-1"), A1_MAX_DRILL_LESSON_NUMBER] },
+];
 
 export type LessonSection = {
   title: string;
