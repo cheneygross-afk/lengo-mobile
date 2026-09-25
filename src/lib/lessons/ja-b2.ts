@@ -4070,7 +4070,7 @@ export const JA_B2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "consolidation-and-capstone-1",
+    "slug": "ja-b2-consolidation-and-capstone-1",
     "level": "JA-B2",
     "number": 60,
     "title": "Consolidation and Capstone, Part 1 of 5",
@@ -4114,7 +4114,7 @@ export const JA_B2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "consolidation-and-capstone-2",
+    "slug": "ja-b2-consolidation-and-capstone-2",
     "level": "JA-B2",
     "number": 61,
     "title": "Consolidation and Capstone, Part 2 of 5",
@@ -4188,7 +4188,7 @@ export const JA_B2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "consolidation-and-capstone-3",
+    "slug": "ja-b2-consolidation-and-capstone-3",
     "level": "JA-B2",
     "number": 62,
     "title": "Consolidation and Capstone, Part 3 of 5",
@@ -4256,7 +4256,7 @@ export const JA_B2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "consolidation-and-capstone-4",
+    "slug": "ja-b2-consolidation-and-capstone-4",
     "level": "JA-B2",
     "number": 63,
     "title": "Consolidation and Capstone, Part 4 of 5",
@@ -4313,7 +4313,7 @@ export const JA_B2_LESSONS: Lesson[] = [
     ]
   },
   {
-    "slug": "consolidation-and-capstone-5",
+    "slug": "ja-b2-consolidation-and-capstone-5",
     "level": "JA-B2",
     "number": 64,
     "title": "Consolidation and Capstone, Part 5 of 5",
