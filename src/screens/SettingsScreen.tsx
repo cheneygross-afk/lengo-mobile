@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { View, Text, TextInput, Pressable, Switch, StyleSheet, Linking, ActivityIndicator, ScrollView } from "react-native";
+import { View, Text, TextInput, Pressable, Switch, StyleSheet, Linking, ActivityIndicator, ScrollView, Alert } from "react-native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useAuth } from "@/lib/auth/AuthContext";
 import { supabase } from "@/lib/supabase/client";
 import { HIGHLIGHT_COLORS, DEFAULT_HIGHLIGHT_COLOR, type HighlightColor } from "@/lib/highlightColors";
@@ -20,6 +21,10 @@ import { setPreferredVoice, setPronunciationEnabled } from "@/lib/speech";
 // this way.
 const PREMIUM_URL = "https://deependspanish.com/settings#plans";
 const HANDOFF_URL = "https://deependspanish.com/api/mobile/handoff";
+// Backs the "Delete account" link at the very bottom of this screen --
+// required by Apple for apps with sign-up (Guideline 5.1.1(v)). The
+// route cancels any Stripe subscription first, then deletes the user.
+const DELETE_ACCOUNT_URL = "https://deependspanish.com/api/account/delete";
 
 // Mirrors the minimum enforced on both SignupScreen and the web app's
 // /reset-password form -- there's no separate/stricter policy on the
@@ -33,6 +38,7 @@ export default function SettingsScreen() {
   const [highlightColor, setHighlightColor] = useState<HighlightColor>(DEFAULT_HIGHLIGHT_COLOR);
   const [saving, setSaving] = useState<HighlightColor | null>(null);
   const [openingPremium, setOpeningPremium] = useState(false);
+  const [deletingAccount, setDeletingAccount] = useState(false);
 
   const [pronunciationVoice, setPronunciationVoice] = useState<PronunciationVoice>(DEFAULT_PRONUNCIATION_VOICE);
   const [savingVoice, setSavingVoice] = useState<PronunciationVoice | null>(null);
@@ -130,6 +136,44 @@ export default function SettingsScreen() {
     const t = setTimeout(() => setPasswordJustChanged(false), 3000);
     return () => clearTimeout(t);
   }, [passwordJustChanged]);
+
+  function confirmDeleteAccount() {
+    if (deletingAccount) return;
+    Alert.alert(
+      "Delete your account?",
+      "This permanently deletes your account, lesson progress, flashcards, and highlights, and cancels any subscription. This can't be undone.",
+      [
+        { text: "Cancel", style: "cancel" },
+        { text: "Delete", style: "destructive", onPress: deleteAccount },
+      ]
+    );
+  }
+
+  async function deleteAccount() {
+    setDeletingAccount(true);
+    try {
+      const token = session?.access_token;
+      if (!token) throw new Error("Please log in again.");
+      const res = await fetch(DELETE_ACCOUNT_URL, {
+        method: "POST",
+        headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+        body: JSON.stringify({ confirm: "DELETE" }),
+      });
+      const json = (await res.json().catch(() => null)) as { ok?: boolean; error?: string } | null;
+      if (!res.ok || !json?.ok) throw new Error(json?.error ?? "Couldn't delete your account. Please try again.");
+      // The server user is gone. Clear this device too, so a later sign-up
+      // on the same phone doesn't inherit the deleted account's local
+      // flashcards/progress, then drop the session (scope "local": the
+      // server-side session no longer exists to revoke).
+      await AsyncStorage.clear().catch(() => {});
+      await supabase.auth.signOut({ scope: "local" }).catch(() => {});
+      Alert.alert("Account deleted", "Your account and data have been permanently deleted.");
+    } catch (err) {
+      Alert.alert("Couldn't delete account", err instanceof Error ? err.message : "Please try again.");
+    } finally {
+      setDeletingAccount(false);
+    }
+  }
 
   async function pickHighlightColor(next: HighlightColor) {
     if (!userId || next === highlightColor || saving) return;
@@ -390,6 +434,10 @@ export default function SettingsScreen() {
       <Pressable style={s.logoutBtn} onPress={signOut}>
         <Text style={s.logoutBtnText}>Log out</Text>
       </Pressable>
+
+      <Pressable onPress={confirmDeleteAccount} disabled={deletingAccount} style={s.deleteAccountLink} hitSlop={8}>
+        <Text style={s.deleteAccountText}>{deletingAccount ? "Deleting account…" : "Delete account"}</Text>
+      </Pressable>
     </ScrollView>
   );
 }
@@ -490,4 +538,8 @@ const s = StyleSheet.create({
     backgroundColor: "#fff",
   },
   logoutBtnText: { color: "#dc2626", fontWeight: "700", fontSize: 15 },
+  // Deliberately low-key: small, muted, below Log out -- present and easy
+  // to find in Settings (Apple requires that), but not a big red button.
+  deleteAccountLink: { alignSelf: "center", paddingVertical: 6, marginTop: 4 },
+  deleteAccountText: { color: "#00000059", fontSize: 12.5, textDecorationLine: "underline" },
 });
