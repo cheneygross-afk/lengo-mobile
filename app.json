@@ -29,6 +29,11 @@
     "plugins": [
       "expo-font",
       "expo-audio"
-    ]
+    ],
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#8B0000"
+    }
   }
 }
