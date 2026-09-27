@@ -71,4 +71,4 @@ Suggested review note:
 1. **App icon:** assets/icon.png is still Expo's default placeholder. Replace it with a 1024x1024 Deep End icon.
 2. ~~**Account deletion:**~~ Done: Settings > "Delete account" (bottom of the screen). Test it once with a throwaway account before submitting.
 3. **Payment:** "Get Premium" in Settings opens website checkout, a common rejection reason (Guideline 3.1.1). Decision pending: remove it from the iOS app or add in-app purchase.
-4. **Screenshots:** need 6.9" iPhone screenshots (1320x2868) at minimum; iPad screenshots too, because supportsTablet is true.
+4. **Screenshots:** need 6.9" iPhone screenshots (1320x2868) at minimum. iPad support is off for launch, so no iPad screenshots are needed.
