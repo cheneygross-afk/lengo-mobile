@@ -2601,4 +2601,1321 @@ export const A1_STORIES: Story[] = [
       },
     ],
   },
+  {
+    slug: "visit-to-the-dentist",
+    level: "A1",
+    title: "La visita al dentista",
+    subtitle:
+      "A boy is afraid of his first dentist appointment, but the dentist turns out to be kind and funny.",
+    paragraphs: [
+      "Diego tiene siete años. Hoy tiene una cita con el dentista por primera vez. Diego no quiere ir. Él piensa que el dentista es malo y que la visita duele mucho.",
+      "Su mamá lo lleva en el coche. En el camino, ella le dice: \"El dentista solo mira tus dientes. Es muy rápido.\" Diego no dice nada. Mira por la ventana y abraza a su perro de peluche.",
+      "La sala de espera es grande y bonita. Hay libros, juguetes y un acuario con peces de colores. Diego mira los peces y se siente un poco mejor. Un pez naranja es su favorito.",
+      "Después, una mujer con ropa azul dice su nombre. Es la doctora Rivas. Ella es alta y tiene una voz suave. \"Hola, Diego. ¿Cómo se llama tu perro?\", pregunta. \"Se llama Toby\", responde Diego.",
+      "La doctora Rivas mira primero los dientes de Toby. \"¡Qué dientes tan limpios tiene Toby!\", dice. Diego se ríe. Luego, él abre la boca. La doctora cuenta sus dientes con un espejo pequeño. No duele nada.",
+      "Al final, la doctora le da un cepillo de dientes verde y una pegatina de un león. \"Tienes dientes muy fuertes, Diego\", dice ella. Diego está muy contento.",
+      "En el coche, Diego le dice a su mamá: \"El dentista no es malo. ¡Es divertido!\" Ahora Diego se lava los dientes tres veces al día con su cepillo verde.",
+    ],
+    questions: [
+      {
+        question: "Why doesn't Diego want to go to the dentist?",
+        options: ["He is tired", "He thinks the visit hurts a lot", "He wants to play soccer", "He doesn't like his mom's car"],
+        correctIndex: 1,
+        explanation:
+          "The text says Diego thinks \"la visita duele mucho\" (the visit hurts a lot).",
+      },
+      {
+        question: "What helps Diego feel a little better in the waiting room?",
+        options: ["Watching the fish in the aquarium", "Eating a snack", "Talking on the phone", "Reading a comic"],
+        correctIndex: 0,
+        explanation:
+          "\"Diego mira los peces y se siente un poco mejor\" (Diego looks at the fish and feels a little better).",
+      },
+      {
+        question: "Whose teeth does the dentist look at first?",
+        options: ["Diego's mom's", "Her own", "Toby the stuffed dog's", "The fish's"],
+        correctIndex: 2,
+        explanation:
+          "\"La doctora Rivas mira primero los dientes de Toby\" -- Toby is Diego's stuffed dog.",
+      },
+      {
+        question: "What does Diego get at the end of the visit?",
+        options: ["A toy car and candy", "A book about fish", "A new stuffed animal", "A green toothbrush and a lion sticker"],
+        correctIndex: 3,
+        explanation:
+          "The dentist gives him \"un cepillo de dientes verde y una pegatina de un león.\"",
+      },
+    ],
+  },
+  {
+    slug: "moving-day",
+    level: "A1",
+    title: "El día de la mudanza",
+    subtitle:
+      "A girl is sad to leave her old house, until she sees her new bedroom and meets the girl next door.",
+    paragraphs: [
+      "Hoy es un día especial para la familia de Carla. Es el día de la mudanza. La familia va a vivir en una casa nueva en otra parte de la ciudad.",
+      "Hay muchas cajas en la casa vieja. Hay cajas en la cocina, en la sala y en los dormitorios. Carla pone sus libros, su ropa y sus juguetes en tres cajas grandes. En cada caja escribe: \"CARLA\".",
+      "Carla está triste. Ella ama su casa vieja. Su dormitorio es pequeño, pero tiene una ventana bonita. Desde la ventana, ella ve un árbol grande con pájaros.",
+      "Un camión grande llega a las nueve. Dos hombres fuertes llevan las cajas y los muebles al camión. Papá ayuda con el sofá. Mamá lleva las plantas en el coche.",
+      "La casa nueva es amarilla y tiene un jardín. El dormitorio nuevo de Carla es grande y tiene paredes azules. ¡El azul es su color favorito! Y en la ventana hay un árbol también.",
+      "Por la tarde, una niña llama a la puerta. Se llama Inés y vive en la casa de al lado. Tiene ocho años, como Carla. Inés trae un plato de galletas de su mamá.",
+      "Las dos niñas comen galletas en el jardín y hablan mucho. Esa noche, en su cama nueva, Carla sonríe. La casa nueva es diferente, pero ahora tiene una amiga nueva también.",
+    ],
+    questions: [
+      {
+        question: "What does Carla write on her boxes?",
+        options: ["\"BOOKS\"", "Her name, \"CARLA\"", "\"FRAGILE\"", "\"TOYS\""],
+        correctIndex: 1,
+        explanation:
+          "\"En cada caja escribe: 'CARLA'\" (On each box she writes: 'CARLA').",
+      },
+      {
+        question: "What does Carla love about her old bedroom?",
+        options: ["It is very big", "It has blue walls", "Its window, with a view of a big tree with birds", "It is next to the kitchen"],
+        correctIndex: 2,
+        explanation:
+          "Her old room \"tiene una ventana bonita\" and from it she sees \"un árbol grande con pájaros.\"",
+      },
+      {
+        question: "Why does Carla like her new bedroom?",
+        options: ["It has blue walls, her favorite color", "It has a TV", "It is very small and cozy", "It has two beds"],
+        correctIndex: 0,
+        explanation:
+          "The new room \"tiene paredes azules\" and \"el azul es su color favorito.\"",
+      },
+      {
+        question: "Who is Inés?",
+        options: ["Carla's cousin", "The truck driver's daughter", "Carla's new teacher", "The girl who lives next door"],
+        correctIndex: 3,
+        explanation:
+          "Inés \"vive en la casa de al lado\" (lives in the house next door).",
+      },
+    ],
+  },
+  {
+    slug: "picnic-by-the-river",
+    level: "A1",
+    title: "El picnic en el río",
+    subtitle:
+      "A family's picnic by the river gets a surprise visitor: a hungry duck.",
+    paragraphs: [
+      "Es domingo y hace sol. La familia Torres va de picnic al río. Mamá prepara sándwiches de queso. Papá lleva una manta roja y una cesta grande. Los niños, Leo y Ana, llevan una pelota.",
+      "El río está cerca de la casa. La familia camina veinte minutos por un camino con flores. Leo corre adelante. Ana camina con papá y canta una canción.",
+      "Cerca del río hay un árbol grande. Papá pone la manta debajo del árbol. Mamá abre la cesta. Hay sándwiches, fruta, agua y un pastel de chocolate.",
+      "Todos comen y hablan. De repente, Ana grita: \"¡Mira, un pato!\" Un pato blanco sale del agua y camina hacia la manta. El pato mira los sándwiches.",
+      "Leo quiere dar un sándwich al pato, pero papá dice que no. \"El pan no es bueno para los patos\", explica. Mamá tiene una idea. Ella le da al pato unos trozos de lechuga.",
+      "El pato come la lechuga muy rápido. Después, hace \"cuac, cuac\" y regresa al río. Los niños se ríen mucho.",
+      "Después de comer, la familia juega con la pelota. Por la tarde, regresan a casa cansados y contentos. Ana dice: \"El próximo domingo, ¡más lechuga para el pato!\"",
+    ],
+    questions: [
+      {
+        question: "What does Dad bring to the picnic?",
+        options: ["A ball", "A red blanket and a big basket", "Cheese sandwiches", "A fishing rod"],
+        correctIndex: 1,
+        explanation:
+          "\"Papá lleva una manta roja y una cesta grande\" (Dad carries a red blanket and a big basket).",
+      },
+      {
+        question: "Why doesn't Dad let Leo give a sandwich to the duck?",
+        options: ["Because bread is not good for ducks", "Because they need the sandwiches", "Because the duck is dangerous", "Because the sandwich has cheese"],
+        correctIndex: 0,
+        explanation:
+          "Dad explains, \"El pan no es bueno para los patos\" (Bread is not good for ducks).",
+      },
+      {
+        question: "What does the duck eat?",
+        options: ["Chocolate cake", "Fruit", "Pieces of lettuce", "Nothing"],
+        correctIndex: 2,
+        explanation:
+          "Mom gives the duck \"unos trozos de lechuga\" (some pieces of lettuce).",
+      },
+    ],
+  },
+  {
+    slug: "night-at-the-movies",
+    level: "A1",
+    title: "Una noche en el cine",
+    subtitle:
+      "Two brothers go to the movies with their aunt and learn that the best part isn't only the film.",
+    paragraphs: [
+      "Hugo y Mateo son hermanos. Hugo tiene nueve años y Mateo tiene seis. Hoy es viernes y su tía Lola los lleva al cine. Es la primera vez que Mateo va al cine.",
+      "El cine está en el centro de la ciudad. Es un edificio grande con muchas luces. Hay mucha gente en la puerta. Tía Lola compra tres entradas para una película de animales.",
+      "Antes de entrar, tía Lola compra palomitas y tres refrescos. Las palomitas están calientes y saladas. Mateo come muchas palomitas antes de entrar en la sala.",
+      "La sala es muy oscura y la pantalla es enorme. Mateo tiene un poco de miedo. Hugo le da la mano y le dice: \"Tranquilo, es solo una película.\"",
+      "La película es sobre un oso que busca a su familia en el bosque. Es divertida y un poco triste también. En una parte, el oso llora y Mateo llora también. Tía Lola le da un pañuelo.",
+      "Al final, el oso encuentra a su familia. Todos en la sala aplauden. Mateo aplaude muy fuerte y grita: \"¡Bravo, oso!\" Unas personas se ríen.",
+      "En la calle, tía Lola pregunta: \"¿Qué es lo mejor de la noche?\" Hugo dice: \"La película.\" Mateo piensa un momento y dice: \"Lo mejor es estar con ustedes.\" Tía Lola lo abraza.",
+    ],
+    questions: [
+      {
+        question: "Who takes the brothers to the movies?",
+        options: ["Their mom", "Their grandfather", "Their teacher", "Their aunt Lola"],
+        correctIndex: 3,
+        explanation:
+          "\"Su tía Lola los lleva al cine\" (Their aunt Lola takes them to the movies).",
+      },
+      {
+        question: "How does Hugo help Mateo in the dark theater?",
+        options: ["He holds his hand and tells him to relax", "He buys him more popcorn", "He takes him outside", "He turns on a flashlight"],
+        correctIndex: 0,
+        explanation:
+          "\"Hugo le da la mano y le dice: 'Tranquilo, es solo una película.'\"",
+      },
+      {
+        question: "What is the movie about?",
+        options: ["A dog that learns to swim", "A bear looking for its family in the forest", "Two brothers at the movies", "A cat in the city"],
+        correctIndex: 1,
+        explanation:
+          "\"La película es sobre un oso que busca a su familia en el bosque.\"",
+      },
+      {
+        question: "According to Mateo, what is the best part of the night?",
+        options: ["The popcorn", "The big screen", "Being with his brother and aunt", "The bear crying"],
+        correctIndex: 2,
+        explanation:
+          "Mateo says, \"Lo mejor es estar con ustedes\" (The best part is being with you all).",
+      },
+    ],
+  },
+  {
+    slug: "a-day-on-the-farm",
+    level: "A1",
+    title: "Un día en la granja",
+    subtitle:
+      "A city girl spends a day on her uncle's farm and discovers where her breakfast comes from.",
+    paragraphs: [
+      "Julia vive en un apartamento en la ciudad. Su tío Ramón vive en una granja en el campo. Hoy Julia visita la granja por primera vez. Ella está muy emocionada.",
+      "La granja es grande y verde. Hay vacas, cerdos, gallinas y un caballo marrón. El caballo se llama Canela. También hay un perro negro que corre por todas partes.",
+      "Tío Ramón se levanta muy temprano, a las seis de la mañana. Julia se levanta con él. Primero, van al gallinero. Julia busca huevos en la paja. ¡Encuentra ocho huevos!",
+      "Después, tío Ramón le enseña a dar leche a un ternero pequeño. El ternero bebe de una botella grande. Julia se ríe porque el ternero bebe muy rápido y hace mucho ruido.",
+      "Para el desayuno, tía Carmen cocina los huevos de las gallinas. También hay pan, leche fresca y queso de la granja. \"Todo es de aquí\", dice tía Carmen. Julia piensa que es el mejor desayuno de su vida.",
+      "Por la tarde, Julia monta a Canela con la ayuda de su tío. El caballo camina despacio por el campo. Julia ve las montañas y los árboles. Todo está muy tranquilo.",
+      "Por la noche, Julia está muy cansada. En la ciudad, ella compra los huevos en el supermercado. Ahora sabe que vienen de gallinas de verdad. \"Tío, ¿puedo volver en verano?\", pregunta. \"¡Claro que sí!\", responde él.",
+    ],
+    questions: [
+      {
+        question: "What is the name of the horse on the farm?",
+        options: ["Canela", "Ramón", "Carmen", "Negro"],
+        correctIndex: 0,
+        explanation:
+          "\"El caballo se llama Canela\" (The horse is called Canela).",
+      },
+      {
+        question: "How many eggs does Julia find?",
+        options: ["Two", "Six", "Ten", "Eight"],
+        correctIndex: 3,
+        explanation:
+          "\"¡Encuentra ocho huevos!\" (She finds eight eggs!).",
+      },
+      {
+        question: "Why does Julia laugh while feeding the calf?",
+        options: ["The calf is very big", "The calf drinks very fast and makes a lot of noise", "The calf runs away", "The dog chases the calf"],
+        correctIndex: 1,
+        explanation:
+          "\"El ternero bebe muy rápido y hace mucho ruido\" (The calf drinks very fast and makes a lot of noise).",
+      },
+      {
+        question: "What does Julia learn by the end of the day?",
+        options: ["That she doesn't like farms", "How to cook eggs", "That eggs come from real hens, not just the supermarket", "How to ride a horse fast"],
+        correctIndex: 2,
+        explanation:
+          "In the city she buys eggs at the supermarket, but \"ahora sabe que vienen de gallinas de verdad.\"",
+      },
+    ],
+  },
+  {
+    slug: "haircut-at-the-barber",
+    level: "A1",
+    title: "El corte de pelo",
+    subtitle:
+      "A boy with very long hair goes to the barber and worries about what his friends will say.",
+    paragraphs: [
+      "Tomás tiene el pelo muy largo. El pelo cubre sus ojos y no ve bien la pizarra en la escuela. Su papá dice: \"Tomás, necesitas un corte de pelo.\"",
+      "Tomás no quiere cortar su pelo. A él le gusta su pelo largo. También piensa que sus amigos van a reírse de él con el pelo corto.",
+      "El sábado, Tomás y su papá van a la peluquería del señor Paco. La peluquería es pequeña y antigua. Hay fotos de futbolistas en las paredes y música en la radio.",
+      "El señor Paco es simpático y habla mucho. Él pregunta: \"¿Cómo quieres el pelo?\" Tomás mira una foto de su futbolista favorito en la pared. \"Como él\", dice.",
+      "El señor Paco corta el pelo con unas tijeras y una máquina. Mucho pelo cae al suelo. Tomás cierra los ojos. Tiene un poco de miedo.",
+      "Cuando abre los ojos, Tomás se mira en el espejo. ¡Parece un futbolista! Ve bien y su cara está diferente. Él sonríe mucho.",
+      "El lunes, en la escuela, sus amigos no se ríen. \"¡Qué pelo tan bonito!\", dice su amiga Rosa. Ahora Tomás ve bien la pizarra y está muy contento con su pelo nuevo.",
+    ],
+    questions: [
+      {
+        question: "What problem does Tomás's long hair cause?",
+        options: ["It is too hot", "He can't see the board well at school", "It gets dirty", "His friends laugh at it"],
+        correctIndex: 1,
+        explanation:
+          "His hair covers his eyes and \"no ve bien la pizarra en la escuela.\"",
+      },
+      {
+        question: "What is on the walls of the barbershop?",
+        options: ["Photos of soccer players", "Mirrors only", "Paintings of animals", "Old maps"],
+        correctIndex: 0,
+        explanation:
+          "\"Hay fotos de futbolistas en las paredes\" (There are photos of soccer players on the walls).",
+      },
+      {
+        question: "What do Tomás's friends think of his new haircut?",
+        options: ["They laugh at him", "They don't notice", "They like it", "They want long hair"],
+        correctIndex: 2,
+        explanation:
+          "His friends don't laugh, and Rosa says, \"¡Qué pelo tan bonito!\" (What nice hair!).",
+      },
+    ],
+  },
+  {
+    slug: "letter-from-grandma",
+    level: "A1",
+    title: "La carta de la abuela",
+    subtitle:
+      "A girl receives a real letter in the mail from her grandmother and decides to write back.",
+    paragraphs: [
+      "Lucía tiene diez años. Todos los días, ella mira el buzón de su casa. Normalmente solo hay facturas y publicidad para sus padres. Pero hoy hay un sobre azul con su nombre.",
+      "La carta es de su abuela Elena. La abuela vive en un pueblo pequeño en el norte, muy lejos de la ciudad. No usa el teléfono móvil. Le gusta escribir cartas.",
+      "Lucía abre el sobre con cuidado. Dentro hay una carta larga y una foto. En la foto está la abuela con su gato gris, Bigotes, en el jardín de su casa.",
+      "En la carta, la abuela escribe sobre su vida. Escribe sobre sus flores, sobre el tiempo frío y sobre Bigotes, que duerme todo el día. Al final escribe: \"Te quiero mucho. ¿Cómo estás tú?\"",
+      "Lucía quiere responder. Busca papel bonito y un bolígrafo morado. Escribe sobre la escuela, sobre sus amigas y sobre su clase de natación. También hace un dibujo de Bigotes.",
+      "Su mamá le da un sello y las dos van a la oficina de correos. Lucía pone la carta en el buzón amarillo. \"¿Cuándo llega?\", pregunta. \"En tres o cuatro días\", responde su mamá.",
+      "Una semana después, hay otro sobre azul en el buzón. La abuela escribe: \"Tu dibujo está en mi cocina. ¡Bigotes también lo mira!\" Lucía se ríe. Ahora tiene una amiga por correspondencia muy especial.",
+    ],
+    questions: [
+      {
+        question: "Why does Grandma Elena write letters?",
+        options: ["She lives in the city", "Her phone is broken", "She doesn't use a cell phone and likes writing letters", "Lucía asks her to"],
+        correctIndex: 2,
+        explanation:
+          "\"No usa el teléfono móvil. Le gusta escribir cartas.\"",
+      },
+      {
+        question: "What is in the envelope besides the letter?",
+        options: ["Money", "A photo of Grandma with her cat", "A drawing", "A stamp"],
+        correctIndex: 1,
+        explanation:
+          "\"Dentro hay una carta larga y una foto\" of Grandma with her cat Bigotes.",
+      },
+      {
+        question: "What does Lucía include with her reply?",
+        options: ["A photo of her school", "Some flowers", "A drawing of Bigotes", "A purple pen"],
+        correctIndex: 2,
+        explanation:
+          "\"También hace un dibujo de Bigotes\" (She also makes a drawing of Bigotes).",
+      },
+      {
+        question: "Where does Grandma put Lucía's drawing?",
+        options: ["In her kitchen", "In a drawer", "In the garden", "Next to her bed"],
+        correctIndex: 0,
+        explanation:
+          "Grandma writes, \"Tu dibujo está en mi cocina\" (Your drawing is in my kitchen).",
+      },
+    ],
+  },
+  {
+    slug: "dinner-at-the-restaurant",
+    level: "A1",
+    title: "La cena en el restaurante",
+    subtitle:
+      "A girl orders her own food at a restaurant for the first time and gets something unexpected.",
+    paragraphs: [
+      "Hoy es el aniversario de los padres de Nora. Para celebrar, la familia va a cenar a un restaurante mexicano. Nora tiene ocho años y hoy quiere pedir su comida sola.",
+      "El restaurante es muy colorido. Hay piñatas en el techo y música alegre. Un camarero amable les da una mesa cerca de la ventana y cuatro menús.",
+      "Nora lee el menú con atención. Hay tacos, enchiladas, quesadillas y sopa. Ella no conoce todas las palabras. Hay una palabra nueva: \"mole\". A Nora le gusta el sonido de esa palabra.",
+      "El camarero vuelve con una libreta. \"¿Qué quieren comer?\", pregunta. Papá pide tacos. Mamá pide una sopa. El hermano de Nora pide una quesadilla. Nora dice con voz fuerte: \"Yo quiero el pollo con mole, por favor.\"",
+      "Veinte minutos después, llega la comida. El plato de Nora tiene pollo con una salsa marrón oscura. Nora mira el plato con sorpresa. \"¿Es chocolate?\", pregunta. \"Hay un poco de chocolate en el mole\", explica el camarero.",
+      "Nora prueba el pollo. La salsa es dulce, un poco picante y muy rica. \"¡Me encanta!\", dice. Su papá prueba también y dice que es mejor que sus tacos.",
+      "Al final, el camarero trae un postre con una vela para los padres. Todos cantan. Nora está orgullosa: hoy pide su comida sola y descubre su comida favorita.",
+    ],
+    questions: [
+      {
+        question: "Why does the family go to the restaurant?",
+        options: ["It is Nora's birthday", "To celebrate her parents' anniversary", "Because there is no food at home", "Because it is a holiday"],
+        correctIndex: 1,
+        explanation:
+          "\"Hoy es el aniversario de los padres de Nora. Para celebrar, la familia va a cenar a un restaurante.\"",
+      },
+      {
+        question: "Why does Nora choose the mole?",
+        options: ["It is the cheapest dish", "Her dad recommends it", "She likes the sound of the word", "She eats it every week"],
+        correctIndex: 2,
+        explanation:
+          "\"A Nora le gusta el sonido de esa palabra\" (Nora likes the sound of that word).",
+      },
+      {
+        question: "What surprising ingredient does the mole have?",
+        options: ["A little chocolate", "Strawberries", "Cheese", "Ice cream"],
+        correctIndex: 0,
+        explanation:
+          "The waiter explains, \"Hay un poco de chocolate en el mole.\"",
+      },
+      {
+        question: "How does the mole taste, according to Nora?",
+        options: ["Too spicy and bad", "Very salty", "Cold and boring", "Sweet, a little spicy and very good"],
+        correctIndex: 3,
+        explanation:
+          "\"La salsa es dulce, un poco picante y muy rica\" (The sauce is sweet, a little spicy and very tasty).",
+      },
+    ],
+  },
+  {
+    slug: "the-red-balloon",
+    level: "A1",
+    title: "El globo rojo",
+    subtitle:
+      "A little boy's red balloon flies away at the fair, but it brings him a surprise.",
+    paragraphs: [
+      "Hay una feria en el pueblo de Samuel. Samuel tiene cinco años. Va a la feria con su abuelo. Hay música, comida y muchos juegos.",
+      "Un hombre vende globos de muchos colores. Samuel quiere un globo rojo, el más grande. El abuelo compra el globo y ata la cuerda a la mano de Samuel.",
+      "Samuel camina muy contento con su globo. Mira los caballitos, come algodón de azúcar y saluda a los payasos. El globo rojo baila en el aire.",
+      "Pero después, Samuel quiere comer un helado y necesita las dos manos. Quita la cuerda de su mano. ¡Ay! El viento lleva el globo al cielo. Samuel llora.",
+      "El globo sube y sube. Pasa sobre la iglesia y los árboles. Al final, se queda en la rama de un árbol alto, en el jardín de una casa.",
+      "En el jardín, una niña ve el globo. Ella sube con cuidado por una escalera y toma el globo. Luego, camina a la feria con el globo rojo en la mano.",
+      "La niña ve a Samuel llorando y le da el globo. \"¿Es tuyo?\", pregunta. Samuel sonríe. La niña se llama Paula y vive en el pueblo. El resto de la tarde, Samuel, Paula y el globo rojo juegan juntos en la feria.",
+    ],
+    questions: [
+      {
+        question: "Who takes Samuel to the fair?",
+        options: ["His grandfather", "His mother", "His sister", "His teacher"],
+        correctIndex: 0,
+        explanation:
+          "\"Va a la feria con su abuelo\" (He goes to the fair with his grandfather).",
+      },
+      {
+        question: "Why does Samuel take the string off his hand?",
+        options: ["The balloon is too big", "He wants to give it to Paula", "He wants an ice cream and needs both hands", "His grandfather tells him to"],
+        correctIndex: 2,
+        explanation:
+          "\"Samuel quiere comer un helado y necesita las dos manos.\"",
+      },
+      {
+        question: "Where does the balloon stop?",
+        options: ["On the church roof", "In a river", "On a branch of a tall tree in a garden", "At the balloon seller's stand"],
+        correctIndex: 2,
+        explanation:
+          "\"Se queda en la rama de un árbol alto, en el jardín de una casa.\"",
+      },
+      {
+        question: "What does Paula do?",
+        options: ["She keeps the balloon", "She brings the balloon back to Samuel", "She buys a new balloon", "She pops the balloon"],
+        correctIndex: 1,
+        explanation:
+          "Paula takes the balloon to the fair and gives it to Samuel: \"¿Es tuyo?\"",
+      },
+    ],
+  },
+  {
+    slug: "strawberry-ice-cream",
+    level: "A1",
+    title: "El helado de fresa",
+    subtitle:
+      "On the hottest day of summer, a girl learns that sharing her ice cream is sweeter than eating it alone.",
+    paragraphs: [
+      "Es julio y hace mucho calor. Hay treinta y cinco grados. Valeria y su hermano pequeño, Nico, están en el parque. Los dos tienen mucha sed.",
+      "Cerca del parque hay una heladería. Valeria tiene dos euros en el bolsillo. Un helado cuesta dos euros. \"Solo tengo dinero para un helado\", dice ella.",
+      "Valeria entra en la heladería. Hay muchos sabores: chocolate, vainilla, limón, mango y fresa. Ella pide un helado de fresa, su sabor favorito.",
+      "Cuando sale, Nico está sentado en un banco. Él mira el helado con ojos grandes, pero no dice nada. Valeria come un poco. El helado está frío y delicioso.",
+      "Valeria mira a su hermano otra vez. Nico tiene la cara roja por el calor. Ella piensa un momento. Luego, se sienta al lado de él y le da el helado. \"Para los dos\", dice.",
+      "Los hermanos comen el helado juntos, una cucharada cada uno. El helado se derrite rápido y cae en sus manos. Los dos se ríen y tienen las manos rosadas.",
+      "En casa, mamá ve sus manos y pregunta: \"¿Helado de fresa?\" \"Sí, un helado para los dos\", responde Nico. Mamá sonríe y dice: \"Un helado compartido es el más dulce.\"",
+    ],
+    questions: [
+      {
+        question: "Why can Valeria buy only one ice cream?",
+        options: ["The shop has only one left", "She has only two euros, the price of one ice cream", "Nico doesn't want ice cream", "Her mom says only one"],
+        correctIndex: 1,
+        explanation:
+          "\"Valeria tiene dos euros\" and \"un helado cuesta dos euros.\"",
+      },
+      {
+        question: "How does Nico react when he sees the ice cream?",
+        options: ["He cries loudly", "He asks for it", "He looks at it with big eyes but says nothing", "He runs away"],
+        correctIndex: 2,
+        explanation:
+          "\"Él mira el helado con ojos grandes, pero no dice nada.\"",
+      },
+      {
+        question: "Why do the siblings have pink hands?",
+        options: ["The strawberry ice cream melts onto them", "They paint in the park", "They are cold", "They eat strawberries"],
+        correctIndex: 0,
+        explanation:
+          "\"El helado se derrite rápido y cae en sus manos\" -- and the ice cream is strawberry.",
+      },
+      {
+        question: "What does Mom say at the end?",
+        options: ["\"No more ice cream\"", "\"Wash your hands\"", "\"Next time buy chocolate\"", "\"A shared ice cream is the sweetest\""],
+        correctIndex: 3,
+        explanation:
+          "Mom says, \"Un helado compartido es el más dulce.\"",
+      },
+    ],
+  },
+  {
+    slug: "the-yellow-butterfly",
+    level: "A1",
+    title: "La mariposa amarilla",
+    subtitle:
+      "A boy tries to catch a butterfly in a jar, then decides it is happier flying free.",
+    paragraphs: [
+      "Andrés tiene seis años y le gustan mucho los insectos. Tiene libros de insectos y una lupa grande. Su insecto favorito es la mariposa.",
+      "Un día de primavera, Andrés juega en el jardín. De repente, ve una mariposa amarilla muy bonita. La mariposa vuela de flor en flor.",
+      "Andrés corre a la cocina y busca un frasco de cristal vacío. \"¡Quiero la mariposa para mi habitación!\", dice. Corre al jardín otra vez.",
+      "La mariposa está en una flor roja. Andrés camina muy despacio, sin hacer ruido. Pone el frasco sobre la flor y... ¡la mariposa está dentro! Andrés cierra el frasco con la tapa.",
+      "Andrés mira la mariposa con su lupa. Tiene alas amarillas con puntos negros. Pero la mariposa no vuela. Está quieta en el fondo del frasco. Andrés se pone triste.",
+      "Su abuela sale al jardín. \"La mariposa necesita flores, sol y aire\", explica. \"En el frasco no está contenta.\" Andrés piensa un momento. Él no quiere una mariposa triste.",
+      "Andrés abre el frasco. La mariposa sale y vuela alto, sobre las flores y los árboles. Andrés sonríe. Ahora, todos los días, él busca la mariposa amarilla en el jardín, pero solo para mirarla.",
+    ],
+    questions: [
+      {
+        question: "What does Andrés use to catch the butterfly?",
+        options: ["A net", "His hands", "An empty glass jar", "A box"],
+        correctIndex: 2,
+        explanation:
+          "He finds \"un frasco de cristal vacío\" (an empty glass jar).",
+      },
+      {
+        question: "What does the butterfly do inside the jar?",
+        options: ["It flies in circles", "It stays still at the bottom", "It eats a flower", "It escapes"],
+        correctIndex: 1,
+        explanation:
+          "\"La mariposa no vuela. Está quieta en el fondo del frasco.\"",
+      },
+      {
+        question: "What does Grandma say the butterfly needs?",
+        options: ["Flowers, sun and air", "Water and bread", "A bigger jar", "Another butterfly"],
+        correctIndex: 0,
+        explanation:
+          "\"La mariposa necesita flores, sol y aire.\"",
+      },
+    ],
+  },
+  {
+    slug: "treasure-map-in-the-attic",
+    level: "A1",
+    title: "El mapa del tesoro",
+    subtitle:
+      "Two cousins find an old treasure map at their grandparents' house and follow it to a surprise.",
+    paragraphs: [
+      "Olivia y su primo Marco pasan el verano en la casa de los abuelos. Un día llueve y no pueden jugar fuera. Suben al ático para buscar juegos viejos.",
+      "El ático está oscuro y tiene mucho polvo. Hay cajas, ropa vieja y un baúl de madera. Dentro del baúl, Marco encuentra un papel viejo y amarillo. ¡Es un mapa del tesoro!",
+      "El mapa tiene dibujos: la casa, un árbol grande, un pozo y una X roja. Debajo de la X hay unas palabras: \"El tesoro está aquí\".",
+      "Al día siguiente hace sol. Los primos salen al jardín con el mapa. Primero buscan el árbol grande. Es un roble viejo al lado de la casa. Después, cuentan diez pasos hasta el pozo.",
+      "Cerca del pozo hay una piedra grande y plana. Los niños mueven la piedra con mucho esfuerzo. Debajo hay una caja de metal. Olivia y Marco se miran. ¡Qué emoción!",
+      "Abren la caja. No hay oro ni joyas. Hay canicas de colores, una foto vieja y una nota. La nota dice: \"Tesoro de Pedro y Lola, 1975\". Pedro y Lola son los nombres de los abuelos.",
+      "Los primos corren a la cocina con la caja. El abuelo mira la foto y se ríe. \"¡Es nuestro tesoro de niños!\", dice la abuela. Esa tarde, los abuelos juegan a las canicas con sus nietos, como en 1975.",
+    ],
+    questions: [
+      {
+        question: "Why do the cousins go up to the attic?",
+        options: ["To look for old games because it is raining", "To hide from their grandparents", "To find the treasure map", "To sleep"],
+        correctIndex: 0,
+        explanation:
+          "\"Un día llueve y no pueden jugar fuera. Suben al ático para buscar juegos viejos.\"",
+      },
+      {
+        question: "Where is the metal box?",
+        options: ["Inside the old trunk", "In the kitchen", "Under a big flat stone near the well", "At the top of the oak tree"],
+        correctIndex: 2,
+        explanation:
+          "\"Cerca del pozo hay una piedra grande y plana... Debajo hay una caja de metal.\"",
+      },
+      {
+        question: "What is inside the box?",
+        options: ["Gold and jewels", "Colored marbles, an old photo and a note", "Money", "Another map"],
+        correctIndex: 1,
+        explanation:
+          "\"Hay canicas de colores, una foto vieja y una nota.\"",
+      },
+      {
+        question: "Whose treasure is it?",
+        options: ["A pirate's", "Marco's father's", "A neighbor's", "The grandparents', from when they were children"],
+        correctIndex: 3,
+        explanation:
+          "The note says \"Tesoro de Pedro y Lola, 1975,\" and Grandma says, \"¡Es nuestro tesoro de niños!\"",
+      },
+    ],
+  },
+  {
+    slug: "dads-new-job",
+    level: "A1",
+    title: "El trabajo nuevo de papá",
+    subtitle:
+      "A girl helps her father get ready for the first day of his new job as a bus driver.",
+    paragraphs: [
+      "El papá de Emma tiene un trabajo nuevo. Es conductor de autobús. Mañana es su primer día. Esta noche, papá está un poco nervioso.",
+      "Emma quiere ayudar. Ella prepara la ropa de papá: una camisa azul, un pantalón gris y zapatos negros. También limpia sus zapatos con un trapo.",
+      "Mamá prepara una comida para el trabajo: un sándwich, una manzana y un café. Emma escribe una nota pequeña y la pone en la bolsa de la comida. La nota dice: \"¡Tú puedes, papá!\"",
+      "Por la mañana, papá sale de casa muy temprano. Emma todavía duerme. Él lleva la bolsa de la comida y una gran sonrisa.",
+      "Por la tarde, Emma y su mamá van a la parada del autobús número doce. Esperan cinco minutos. Luego, llega un autobús grande y verde. ¡Papá es el conductor!",
+      "Emma sube al autobús y paga su billete. Papá le guiña un ojo. Emma se sienta delante y mira a su papá. Él conduce con cuidado y saluda a todas las personas.",
+      "Esa noche, papá cuenta su día. \"En la comida encuentro tu nota\", le dice a Emma. \"La tengo aquí, en mi bolsillo.\" Emma está muy orgullosa de su papá.",
+    ],
+    questions: [
+      {
+        question: "What is Dad's new job?",
+        options: ["Taxi driver", "Bus driver", "Teacher", "Cook"],
+        correctIndex: 1,
+        explanation:
+          "\"Es conductor de autobús\" (He is a bus driver).",
+      },
+      {
+        question: "What does Emma put in Dad's lunch bag?",
+        options: ["A note that says \"You can do it, Dad!\"", "An apple", "A drawing of a bus", "Money for the bus"],
+        correctIndex: 0,
+        explanation:
+          "Emma writes a note: \"¡Tú puedes, papá!\" and puts it in the lunch bag.",
+      },
+      {
+        question: "What does Dad do with Emma's note?",
+        options: ["He loses it", "He gives it to a passenger", "He keeps it in his pocket", "He puts it on the bus window"],
+        correctIndex: 2,
+        explanation:
+          "Dad says, \"La tengo aquí, en mi bolsillo\" (I have it here, in my pocket).",
+      },
+    ],
+  },
+  {
+    slug: "my-little-brother",
+    level: "A1",
+    title: "Mi hermano pequeño",
+    subtitle:
+      "An older sister is annoyed by her little brother, until he protects her drawing from the rain.",
+    paragraphs: [
+      "Me llamo Isabel y tengo once años. Tengo un hermano pequeño. Se llama Pablo y tiene cuatro años. Pablo es simpático, pero a veces es muy pesado.",
+      "Pablo entra en mi habitación sin llamar. Toma mis lápices de colores y juega con mis libros. Siempre quiere estar conmigo. Cuando hago la tarea, él canta canciones muy fuerte.",
+      "Esta semana, hago un dibujo grande para un concurso de la escuela. Es un dibujo del mar, con barcos, peces y un faro. Trabajo en el dibujo todos los días.",
+      "El viernes, pongo el dibujo en la mesa del jardín para mirarlo con luz natural. Después, entro en casa para beber agua. Mi mamá me llama por teléfono y hablo diez minutos.",
+      "De repente, empieza a llover. ¡Mi dibujo está fuera! Corro al jardín, muy preocupada. Pero el dibujo no está en la mesa.",
+      "En la puerta, está Pablo. Tiene el pelo mojado y la camiseta mojada. En sus manos tiene mi dibujo, seco y perfecto. \"Está lloviendo\", dice él. \"Tu dibujo, Isabel.\"",
+      "Le doy un abrazo muy grande a mi hermano. Mi dibujo gana el segundo premio en el concurso. Ahora, cuando Pablo entra en mi habitación, no me enfado. Le doy papel y lápices y dibujamos juntos.",
+    ],
+    questions: [
+      {
+        question: "What does Pablo do that annoys Isabel?",
+        options: ["He breaks her toys", "He comes into her room without knocking and sings loudly", "He eats her food", "He hides her shoes"],
+        correctIndex: 1,
+        explanation:
+          "\"Pablo entra en mi habitación sin llamar\" and \"canta canciones muy fuerte.\"",
+      },
+      {
+        question: "What is Isabel's drawing of?",
+        options: ["Her family", "A forest", "The sea, with boats, fish and a lighthouse", "Her school"],
+        correctIndex: 2,
+        explanation:
+          "\"Es un dibujo del mar, con barcos, peces y un faro.\"",
+      },
+      {
+        question: "Why is Pablo wet?",
+        options: ["He goes out in the rain to save the drawing", "He falls in the pool", "He takes a bath", "He plays with a hose"],
+        correctIndex: 0,
+        explanation:
+          "He comes in with wet hair and shirt, holding the drawing \"seco y perfecto\" -- he rescued it from the rain.",
+      },
+      {
+        question: "What does Isabel do now when Pablo comes into her room?",
+        options: ["She tells him to leave", "She closes the door", "She calls her mom", "She gives him paper and pencils and they draw together"],
+        correctIndex: 3,
+        explanation:
+          "\"Le doy papel y lápices y dibujamos juntos.\"",
+      },
+    ],
+  },
+  {
+    slug: "laundry-day",
+    level: "A1",
+    title: "El día de la ropa",
+    subtitle:
+      "A boy helps with the laundry and makes a colorful mistake with a red sock.",
+    paragraphs: [
+      "Es sábado por la mañana. Mamá dice: \"Hoy es el día de la ropa. Necesito ayuda.\" Gabriel tiene nueve años y quiere ayudar. Es la primera vez que usa la lavadora.",
+      "Mamá le explica todo. \"Primero, separa la ropa blanca y la ropa de color\", dice. Luego, mamá sale para comprar pan. Gabriel está solo con la ropa.",
+      "Gabriel pone las camisas blancas de papá en la lavadora. También pone las sábanas blancas y sus calcetines blancos del colegio. No ve un calcetín rojo pequeño dentro de una sábana.",
+      "Gabriel pone el jabón y aprieta el botón. La lavadora hace ruido y el agua da vueltas. Gabriel está orgulloso. \"¡Qué fácil!\", piensa.",
+      "Una hora después, Gabriel abre la lavadora. ¡Sorpresa! Toda la ropa es rosa. Las camisas de papá son rosas. Las sábanas son rosas. En el fondo, está el calcetín rojo.",
+      "Mamá regresa con el pan y ve la ropa rosa. Gabriel tiene miedo. Pero mamá se ríe mucho. \"El calcetín rojo, ¿verdad? A mí también me pasa una vez\", dice.",
+      "Papá vuelve a casa y ve sus camisas rosas. Se pone una y dice: \"¡Me gusta! Es un color alegre.\" Desde ese día, Gabriel siempre mira dentro de las sábanas antes de lavar la ropa.",
+    ],
+    questions: [
+      {
+        question: "What is the first rule Mom explains?",
+        options: ["Use a lot of soap", "Separate the white clothes and the colored clothes", "Wash everything together", "Use cold water only"],
+        correctIndex: 1,
+        explanation:
+          "\"Primero, separa la ropa blanca y la ropa de color.\"",
+      },
+      {
+        question: "Why does all the laundry turn pink?",
+        options: ["Gabriel uses red soap", "The machine is broken", "A small red sock is hidden in a sheet", "Mom buys pink clothes"],
+        correctIndex: 2,
+        explanation:
+          "\"No ve un calcetín rojo pequeño dentro de una sábana.\"",
+      },
+      {
+        question: "How does Dad react to his pink shirts?",
+        options: ["He puts one on and says he likes the cheerful color", "He is very angry", "He throws them away", "He asks Mom to buy new ones"],
+        correctIndex: 0,
+        explanation:
+          "Dad says, \"¡Me gusta! Es un color alegre.\"",
+      },
+    ],
+  },
+  {
+    slug: "painting-class-in-the-park",
+    level: "A1",
+    title: "La clase de pintura",
+    subtitle:
+      "A girl who thinks she can't paint joins an outdoor painting class and finds her own style.",
+    paragraphs: [
+      "Los sábados hay una clase de pintura en el parque. La profesora se llama Marina. Rocío tiene doce años y va a la clase por primera vez con su amiga Clara.",
+      "Rocío no pinta bien, o eso piensa ella. Clara pinta muy bien. Sus dibujos son perfectos. Rocío tiene miedo de pintar mal delante de las otras personas.",
+      "Marina da a cada estudiante un papel grande, pinceles y pinturas de colores. \"Hoy pintamos el lago\", dice. En el lago hay patos, árboles y un puente pequeño.",
+      "Clara pinta el lago exactamente como es. Rocío intenta pintar el puente, pero la línea no está recta. Ella está frustrada. Quiere romper el papel.",
+      "Entonces, Rocío tiene una idea. Pinta el agua de color morado y el cielo de color naranja. Pinta los patos grandes, con colores fuertes. No es un lago real. Es un lago de fantasía.",
+      "Marina camina entre los estudiantes y mira el papel de Rocío. Se queda allí un minuto. \"Este lago es muy especial\", dice. \"Tiene tu personalidad.\" Todos los estudiantes miran la pintura de Rocío.",
+      "En casa, Rocío pone su pintura en la pared de su habitación. Ahora va a la clase todos los sábados. No pinta como Clara. Pinta como Rocío, y eso está muy bien.",
+    ],
+    questions: [
+      {
+        question: "Why is Rocío afraid at the beginning?",
+        options: ["She is afraid of the ducks", "She thinks she paints badly and doesn't want to do it in front of others", "She doesn't know the teacher", "She forgot her paints"],
+        correctIndex: 1,
+        explanation:
+          "\"Rocío no pinta bien, o eso piensa ella... Tiene miedo de pintar mal delante de las otras personas.\"",
+      },
+      {
+        question: "What colors does Rocío use for the water and the sky?",
+        options: ["Blue and white", "Green and yellow", "Purple water and an orange sky", "Black and gray"],
+        correctIndex: 2,
+        explanation:
+          "\"Pinta el agua de color morado y el cielo de color naranja.\"",
+      },
+      {
+        question: "What does the teacher say about Rocío's painting?",
+        options: ["That it has Rocío's personality", "That it is wrong", "That it looks like Clara's", "That she needs to start again"],
+        correctIndex: 0,
+        explanation:
+          "Marina says, \"Tiene tu personalidad\" (It has your personality).",
+      },
+      {
+        question: "What does Rocío learn?",
+        options: ["To copy Clara", "That painting is boring", "To paint only real things", "That it is fine to paint in her own way"],
+        correctIndex: 3,
+        explanation:
+          "\"No pinta como Clara. Pinta como Rocío, y eso está muy bien.\"",
+      },
+    ],
+  },
+  {
+    slug: "used-book-sale",
+    level: "A1",
+    title: "La venta de libros usados",
+    subtitle:
+      "A boy spends his last coins on an old book and finds a message from its previous owner inside.",
+    paragraphs: [
+      "Cada mes, la biblioteca del barrio tiene una venta de libros usados. Los libros cuestan un euro. Javier tiene diez años y le encantan los libros de aventuras.",
+      "Hoy Javier tiene solo un euro. Él camina entre las mesas y mira muchos libros. Hay libros de cocina, libros de historia y libros para niños pequeños.",
+      "En una caja, Javier ve un libro viejo con una portada verde. El título es \"La isla de los piratas\". Las páginas son amarillas, pero el libro está en buenas condiciones. Javier paga su euro.",
+      "En casa, Javier empieza a leer en su cama. La historia es muy emocionante. En la página cincuenta, encuentra un papel pequeño y doblado.",
+      "Es una nota escrita a mano. Dice: \"Hola, lector. Este libro es mi favorito. Espero que te guste también. Si te gusta, escribe tu nombre aquí y pasa el libro a otra persona. Firma: Andrés, 1998.\"",
+      "Debajo del nombre de Andrés, hay otros nombres: \"Laura, 2005\", \"Samir, 2012\", \"Beatriz, 2019\". ¡Muchas personas leen este libro! Javier está muy sorprendido.",
+      "Javier termina el libro en tres días. Le encanta. Escribe con cuidado: \"Javier, 2026\". Luego, regala el libro a su amigo Hugo. \"Lee la nota en la página cincuenta\", le dice con una sonrisa.",
+    ],
+    questions: [
+      {
+        question: "How much does each book cost at the sale?",
+        options: ["Five euros", "One euro", "Ten euros", "They are free"],
+        correctIndex: 1,
+        explanation:
+          "\"Los libros cuestan un euro.\"",
+      },
+      {
+        question: "What does Javier find on page fifty?",
+        options: ["A photo", "Money", "A handwritten note", "A pirate map"],
+        correctIndex: 2,
+        explanation:
+          "\"Encuentra un papel pequeño y doblado. Es una nota escrita a mano.\"",
+      },
+      {
+        question: "What does the note ask the reader to do?",
+        options: ["Return the book to the library", "Write their name and pass the book to someone else", "Send a letter to Andrés", "Keep the book forever"],
+        correctIndex: 1,
+        explanation:
+          "\"Si te gusta, escribe tu nombre aquí y pasa el libro a otra persona.\"",
+      },
+      {
+        question: "What does Javier do when he finishes the book?",
+        options: ["He sells it again", "He keeps it on his shelf", "He writes his name and gives the book to his friend Hugo", "He throws away the note"],
+        correctIndex: 2,
+        explanation:
+          "He writes \"Javier, 2026\" and \"regala el libro a su amigo Hugo.\"",
+      },
+    ],
+  },
+  {
+    slug: "spider-in-the-bathroom",
+    level: "A1",
+    title: "La araña en el baño",
+    subtitle:
+      "Nobody in the family wants to deal with the spider in the bathroom, until the youngest has a plan.",
+    paragraphs: [
+      "Es de noche y toda la familia está en casa. De repente, mamá grita desde el baño: \"¡Hay una araña en la bañera!\" Todos corren al baño.",
+      "En la bañera hay una araña negra y grande. Tiene ocho patas largas. No se mueve. Mamá está en la puerta y no quiere entrar.",
+      "Papá mira la araña. \"Yo no, yo no\", dice. A papá tampoco le gustan las arañas. El hermano mayor, Rubén, dice: \"Yo tengo que estudiar\", y sale rápido.",
+      "Entonces, Elisa, de siete años, habla. \"Yo tengo un plan\", dice. Ella va a la cocina y vuelve con un vaso y una hoja de papel.",
+      "Elisa entra en el baño despacio. Pone el vaso sobre la araña. Luego, pasa el papel debajo del vaso con mucho cuidado. La araña está dentro del vaso.",
+      "Elisa camina a la puerta de la casa con el vaso y el papel. Abre la puerta y deja la araña en el jardín. \"Adiós, señora araña\", dice. La araña camina hacia las plantas.",
+      "Mamá, papá y Rubén aplauden. \"¿Dónde aprendes eso?\", pregunta papá. \"En la escuela\", responde Elisa. \"Las arañas comen mosquitos. Son buenas para el jardín.\" Ahora Elisa es la experta en arañas de la familia.",
+    ],
+    questions: [
+      {
+        question: "Where is the spider?",
+        options: ["In the kitchen", "On the bed", "In the bathtub", "In the garden"],
+        correctIndex: 2,
+        explanation:
+          "Mom shouts, \"¡Hay una araña en la bañera!\" (There's a spider in the bathtub!).",
+      },
+      {
+        question: "What excuse does Rubén give?",
+        options: ["He has to study", "He is sleeping", "He is hungry", "He is on the phone"],
+        correctIndex: 0,
+        explanation:
+          "Rubén says, \"Yo tengo que estudiar\" (I have to study).",
+      },
+      {
+        question: "What does Elisa use to catch the spider?",
+        options: ["A shoe", "A broom", "A glass and a sheet of paper", "Her hands"],
+        correctIndex: 2,
+        explanation:
+          "She comes back \"con un vaso y una hoja de papel.\"",
+      },
+      {
+        question: "Why does Elisa say spiders are good for the garden?",
+        options: ["They are pretty", "They eat mosquitoes", "They make flowers grow", "They scare birds"],
+        correctIndex: 1,
+        explanation:
+          "\"Las arañas comen mosquitos. Son buenas para el jardín.\"",
+      },
+    ],
+  },
+  {
+    slug: "a-night-of-stars",
+    level: "A1",
+    title: "La noche de estrellas",
+    subtitle:
+      "A girl and her grandfather stay up late to watch a meteor shower and each make a wish.",
+    paragraphs: [
+      "Esta noche es especial. En la televisión dicen que hay una lluvia de estrellas. Sara vive en la ciudad, pero hoy duerme en la casa de su abuelo, en el campo.",
+      "El abuelo dice: \"En la ciudad hay muchas luces y no ves bien las estrellas. Aquí, en el campo, todo está oscuro. Es perfecto.\"",
+      "A las once de la noche, Sara y su abuelo salen al jardín. Llevan dos sillas, una manta y chocolate caliente. Hace un poco de frío.",
+      "Sara mira el cielo. ¡Hay miles de estrellas! El abuelo le enseña algunas. \"Esa es la estrella polar\", dice. \"Y esas siete estrellas forman la Osa Mayor.\"",
+      "Esperan diez minutos. De repente, una luz cruza el cielo muy rápido. \"¡Una estrella fugaz!\", grita Sara. Después ven otra, y otra más. Sara cuenta doce estrellas fugaces.",
+      "\"Cuando ves una estrella fugaz, pides un deseo\", explica el abuelo. Sara cierra los ojos y pide un deseo en silencio. El abuelo también pide un deseo.",
+      "A medianoche, Sara tiene mucho sueño. En la cama, pregunta: \"Abuelo, ¿cuál es tu deseo?\" El abuelo sonríe. \"Mi deseo es ver más estrellas contigo\", dice. Sara sonríe también. Es el mismo deseo que ella tiene.",
+    ],
+    questions: [
+      {
+        question: "Why is the countryside better for seeing stars?",
+        options: ["It is higher", "It is dark, without many city lights", "It is warmer", "The sky is bigger"],
+        correctIndex: 1,
+        explanation:
+          "The grandfather says the city has many lights, but \"aquí, en el campo, todo está oscuro.\"",
+      },
+      {
+        question: "How many shooting stars does Sara count?",
+        options: ["Seven", "Ten", "Twelve", "One hundred"],
+        correctIndex: 2,
+        explanation:
+          "\"Sara cuenta doce estrellas fugaces.\"",
+      },
+      {
+        question: "What is Grandpa's wish?",
+        options: ["To see more stars with Sara", "To live in the city", "To have a telescope", "To sleep early"],
+        correctIndex: 0,
+        explanation:
+          "\"Mi deseo es ver más estrellas contigo\" -- and it is the same wish Sara has.",
+      },
+    ],
+  },
+  {
+    slug: "bird-nest-in-the-window",
+    level: "A1",
+    title: "El nido en la ventana",
+    subtitle:
+      "A family watches a pair of birds build a nest outside their kitchen window and raise their chicks.",
+    paragraphs: [
+      "En marzo, la familia de Martín ve dos pájaros pequeños en la ventana de la cocina. Los pájaros llevan palitos y hojas secas en el pico. Están construyendo un nido.",
+      "Martín tiene ocho años. Todas las mañanas, él desayuna y mira el nido. Poco a poco, el nido está más grande y más bonito. Tiene forma de taza.",
+      "Un día, Martín ve cuatro huevos azules en el nido. Son muy pequeños. La mamá pájaro está sentada sobre los huevos día y noche. El papá pájaro trae comida.",
+      "Papá dice: \"No abrimos esta ventana ahora. Los pájaros necesitan tranquilidad.\" Toda la familia habla en voz baja en la cocina.",
+      "Dos semanas después, Martín escucha un sonido: \"pío, pío, pío\". ¡Hay cuatro pajaritos en el nido! No tienen plumas y tienen la boca muy abierta. Siempre tienen hambre.",
+      "Los papás pájaro traen gusanos e insectos todo el día. Los pajaritos crecen rápido. Ahora tienen plumas grises. Martín hace dibujos de los pajaritos en un cuaderno.",
+      "Un día de abril, los pajaritos saltan del nido y vuelan. Primero vuelan mal, pero luego vuelan bien. El nido está vacío. Martín está un poco triste, pero su mamá dice: \"El año que viene, tal vez vuelven.\" Martín guarda su cuaderno para esperar la primavera.",
+    ],
+    questions: [
+      {
+        question: "What do the birds carry in their beaks in March?",
+        options: ["Worms", "Small sticks and dry leaves", "Seeds", "Flowers"],
+        correctIndex: 1,
+        explanation:
+          "\"Los pájaros llevan palitos y hojas secas en el pico.\"",
+      },
+      {
+        question: "What color are the eggs?",
+        options: ["White", "Brown", "Blue", "Green"],
+        correctIndex: 2,
+        explanation:
+          "\"Martín ve cuatro huevos azules en el nido.\"",
+      },
+      {
+        question: "Why does the family not open the kitchen window?",
+        options: ["It is cold outside", "The window is broken", "It is raining", "The birds need peace and quiet"],
+        correctIndex: 3,
+        explanation:
+          "Dad says, \"Los pájaros necesitan tranquilidad.\"",
+      },
+      {
+        question: "What does Martín do while the chicks grow?",
+        options: ["He draws them in a notebook", "He feeds them bread", "He takes them inside", "He builds another nest"],
+        correctIndex: 0,
+        explanation:
+          "\"Martín hace dibujos de los pajaritos en un cuaderno.\"",
+      },
+    ],
+  },
+  {
+    slug: "the-costume-party",
+    level: "A1",
+    title: "La fiesta de disfraces",
+    subtitle:
+      "A boy has no money for a store-bought costume, so he and his mom make one from cardboard boxes.",
+    paragraphs: [
+      "El viernes hay una fiesta de disfraces en la escuela de Álex. Todos sus amigos tienen disfraces nuevos de la tienda: un superhéroe, un pirata, una princesa y un dinosaurio.",
+      "Álex quiere un disfraz de astronauta, pero los disfraces de la tienda son muy caros. Su mamá dice: \"No tenemos mucho dinero este mes. Pero tengo una idea.\"",
+      "Mamá busca cajas de cartón en el garaje. Hay una caja grande y una caja pequeña. También hay papel de aluminio, pintura blanca y dos botellas de plástico vacías.",
+      "Álex y su mamá trabajan toda la tarde. La caja grande es el cuerpo del traje. La caja pequeña es el casco. Pintan todo de blanco y ponen papel de aluminio. Las botellas son los tanques de oxígeno.",
+      "El traje no es perfecto. Es un poco grande y hace ruido cuando Álex camina. Pero Álex se mira en el espejo y dice: \"¡Soy un astronauta de verdad!\"",
+      "El viernes, en la fiesta, todos los niños miran a Álex. \"¿Dónde compras ese disfraz?\", pregunta su amigo Iván. \"No lo compro. Lo hago con mi mamá\", responde Álex.",
+      "Al final de la fiesta, la profesora da un premio al disfraz más original. El premio es para Álex. Él está muy feliz. En casa, pone el casco en su estantería, al lado de la foto de su mamá.",
+    ],
+    questions: [
+      {
+        question: "Why doesn't Álex buy a costume at the store?",
+        options: ["The store is closed", "The costumes are very expensive and money is tight this month", "He doesn't like store costumes", "His friends make theirs"],
+        correctIndex: 1,
+        explanation:
+          "\"Los disfraces de la tienda son muy caros\" and Mom says, \"No tenemos mucho dinero este mes.\"",
+      },
+      {
+        question: "What are the two empty plastic bottles used for?",
+        options: ["The helmet", "The boots", "The oxygen tanks", "The gloves"],
+        correctIndex: 2,
+        explanation:
+          "\"Las botellas son los tanques de oxígeno.\"",
+      },
+      {
+        question: "What problem does the costume have?",
+        options: ["It is a little big and makes noise when he walks", "It is the wrong color", "It breaks at the party", "It is too small"],
+        correctIndex: 0,
+        explanation:
+          "\"Es un poco grande y hace ruido cuando Álex camina.\"",
+      },
+      {
+        question: "What prize does Álex win?",
+        options: ["The scariest costume", "The funniest costume", "The biggest costume", "The most original costume"],
+        correctIndex: 3,
+        explanation:
+          "\"La profesora da un premio al disfraz más original. El premio es para Álex.\"",
+      },
+    ],
+  },
+  {
+    slug: "the-forgotten-umbrella",
+    level: "A1",
+    title: "El paraguas olvidado",
+    subtitle:
+      "A girl forgets her umbrella on the bus, and an old man she has never met returns it the next day.",
+    paragraphs: [
+      "Marina va a la escuela en autobús todos los días. Hoy llueve mucho y ella lleva su paraguas favorito. Es amarillo con puntos blancos. Es un regalo de su tía.",
+      "En el autobús, Marina lee un libro. La historia es muy interesante. Cuando llega a su parada, baja muy rápido del autobús. ¡Su paraguas está en el asiento!",
+      "Marina corre a la escuela bajo la lluvia. Llega mojada y triste. \"Mi paraguas favorito\", dice a su amiga Lucía. \"No voy a verlo nunca más.\"",
+      "Al día siguiente, Marina sube al mismo autobús a la misma hora. Un señor mayor con sombrero está sentado delante. Tiene un paraguas amarillo con puntos blancos en la mano.",
+      "El señor mira a Marina y sonríe. \"¿Es tuyo este paraguas?\", pregunta. \"Ayer estoy en este autobús y veo que lo dejas en el asiento. Pienso que tomas el autobús todos los días.\"",
+      "Marina no puede creerlo. \"¡Sí, es mío! ¡Muchas gracias!\", dice. El señor se llama don Felipe. Él también toma el autobús todas las mañanas para ir al mercado.",
+      "Ahora, Marina y don Felipe hablan todos los días en el autobús. Él le cuenta historias de su juventud y ella le cuenta sobre sus libros. Marina nunca olvida su paraguas otra vez.",
+    ],
+    questions: [
+      {
+        question: "Who gave Marina her favorite umbrella?",
+        options: ["Her mother", "Her friend Lucía", "Her aunt", "Don Felipe"],
+        correctIndex: 2,
+        explanation:
+          "\"Es un regalo de su tía\" (It's a gift from her aunt).",
+      },
+      {
+        question: "Why does Marina forget her umbrella?",
+        options: ["She is reading an interesting book and gets off the bus quickly", "She is sleeping", "She is talking on the phone", "It stops raining"],
+        correctIndex: 0,
+        explanation:
+          "She is reading an interesting book, and \"baja muy rápido del autobús.\"",
+      },
+      {
+        question: "Why does don Felipe think he will see Marina again?",
+        options: ["She tells him", "He thinks she takes the bus every day", "He knows her mother", "He sees her school"],
+        correctIndex: 1,
+        explanation:
+          "He says, \"Pienso que tomas el autobús todos los días.\"",
+      },
+    ],
+  },
+  {
+    slug: "checkup-at-the-doctor",
+    level: "A1",
+    title: "La revisión médica",
+    subtitle:
+      "A boy goes to the doctor for his yearly checkup and learns how much he has grown.",
+    paragraphs: [
+      "Todos los años, en septiembre, Lucas va al médico para una revisión. Lucas tiene diez años. No está enfermo, pero su mamá dice que las revisiones son importantes.",
+      "El médico se llama doctor Gómez. Es un hombre alto con gafas y una bata blanca. Lucas lo conoce desde que es un bebé. \"¡Hola, Lucas! ¡Qué grande estás!\", dice el doctor.",
+      "Primero, el doctor mide a Lucas. Lucas se pone de pie contra la pared, sin zapatos. \"Un metro y cuarenta centímetros\", dice el doctor. ¡Lucas crece seis centímetros en un año!",
+      "Después, el doctor pesa a Lucas en una báscula. Luego, escucha su corazón con el estetoscopio. \"Respira profundo\", dice. Lucas respira. El estetoscopio está frío.",
+      "El doctor también mira sus ojos, sus oídos y su garganta. \"Di 'aaa'\", dice. Lucas abre la boca y dice \"aaa\" muy fuerte. El doctor se ríe.",
+      "Al final, el doctor habla con la mamá de Lucas. \"Lucas está muy sano\", dice. \"Pero necesita dormir más y comer más verduras.\" Lucas hace una cara triste. No le gustan las verduras.",
+      "En casa, Lucas marca su altura en la puerta de la cocina con un lápiz. Hay muchas marcas: tres años, cinco años, ocho años, y ahora diez años. Lucas mira las marcas y está orgulloso. Esa noche, come todas sus verduras.",
+    ],
+    questions: [
+      {
+        question: "Why does Lucas go to the doctor?",
+        options: ["He has a fever", "He hurts his arm", "For his yearly checkup", "He needs glasses"],
+        correctIndex: 2,
+        explanation:
+          "\"Todos los años, en septiembre, Lucas va al médico para una revisión. No está enfermo.\"",
+      },
+      {
+        question: "How much has Lucas grown in one year?",
+        options: ["Six centimeters", "One meter", "Forty centimeters", "Two centimeters"],
+        correctIndex: 0,
+        explanation:
+          "\"¡Lucas crece seis centímetros en un año!\"",
+      },
+      {
+        question: "What does the doctor say Lucas needs?",
+        options: ["More exercise and less TV", "Glasses and medicine", "More sleep and more vegetables", "More milk and fruit"],
+        correctIndex: 2,
+        explanation:
+          "\"Necesita dormir más y comer más verduras.\"",
+      },
+      {
+        question: "Where does Lucas mark his height at home?",
+        options: ["On his bedroom wall", "On the kitchen door", "In a notebook", "On the fridge"],
+        correctIndex: 1,
+        explanation:
+          "\"Lucas marca su altura en la puerta de la cocina con un lápiz.\"",
+      },
+    ],
+  },
+  {
+    slug: "the-neighbors-dog",
+    level: "A1",
+    title: "El perro de la vecina",
+    subtitle:
+      "A girl who is afraid of dogs agrees to walk her neighbor's old dog and changes her mind about dogs.",
+    paragraphs: [
+      "Laura tiene once años y tiene miedo de los perros. Cuando ve un perro en la calle, ella cruza al otro lado. Los perros grandes le dan mucho miedo.",
+      "La vecina de Laura se llama doña Rosa. Ella tiene ochenta años y un perro grande y marrón. El perro se llama Chocolate. Es viejo y camina despacio.",
+      "Un día, doña Rosa llama a la puerta. Tiene la pierna vendada. \"Laura, tengo un problema\", dice. \"No puedo caminar bien. ¿Puedes pasear a Chocolate esta semana?\"",
+      "Laura no quiere decir que no. Doña Rosa es muy simpática. \"Sí, está bien\", dice, pero tiene miedo. Su corazón late muy rápido.",
+      "El primer día, Laura toma la correa con la mano temblando. Chocolate la mira con ojos tranquilos. Luego, camina a su lado muy despacio. No salta, no ladra, no corre.",
+      "En el parque, Chocolate se sienta en la hierba y pone la cabeza en la pierna de Laura. Laura toca su cabeza con cuidado. El pelo es suave. Chocolate cierra los ojos, contento.",
+      "Después de una semana, la pierna de doña Rosa está mejor. Pero Laura pregunta: \"¿Puedo pasear a Chocolate los sábados?\" Doña Rosa sonríe. Laura todavía tiene un poco de miedo de otros perros, pero no de Chocolate. Chocolate es su amigo.",
+    ],
+    questions: [
+      {
+        question: "What does Laura do when she sees a dog in the street?",
+        options: ["She pets it", "She crosses to the other side", "She runs home", "She calls her mom"],
+        correctIndex: 1,
+        explanation:
+          "\"Cuando ve un perro en la calle, ella cruza al otro lado.\"",
+      },
+      {
+        question: "Why does doña Rosa need help?",
+        options: ["She is traveling", "She is very busy", "Her leg is hurt and she can't walk well", "Her dog is sick"],
+        correctIndex: 2,
+        explanation:
+          "She has \"la pierna vendada\" and says, \"No puedo caminar bien.\"",
+      },
+      {
+        question: "How does Chocolate behave on the first walk?",
+        options: ["He walks slowly and calmly next to her", "He runs and pulls the leash", "He barks at other dogs", "He jumps on Laura"],
+        correctIndex: 0,
+        explanation:
+          "\"Camina a su lado muy despacio. No salta, no ladra, no corre.\"",
+      },
+      {
+        question: "What does Laura ask at the end?",
+        options: ["If she can have her own dog", "If Chocolate can live with her", "If doña Rosa can walk him now", "If she can walk Chocolate on Saturdays"],
+        correctIndex: 3,
+        explanation:
+          "Laura asks, \"¿Puedo pasear a Chocolate los sábados?\"",
+      },
+    ],
+  },
+  {
+    slug: "saturday-house-cleaning",
+    level: "A1",
+    title: "La limpieza del sábado",
+    subtitle:
+      "A family turns boring Saturday chores into a game with music and a prize.",
+    paragraphs: [
+      "En la casa de la familia Ruiz, el sábado por la mañana es el día de limpieza. A nadie le gusta. Los niños, Carlos y Elena, siempre dicen: \"¡Qué aburrido!\"",
+      "Este sábado, papá tiene una idea nueva. Escribe las tareas en papeles pequeños: barrer la cocina, limpiar el baño, sacar la basura, ordenar la sala, regar las plantas y lavar los platos.",
+      "Cada persona toma dos papeles de una caja. Carlos tiene el baño y la basura. Elena tiene las plantas y la sala. Mamá tiene la cocina y papá tiene los platos.",
+      "Después, papá pone música muy alta en la sala. \"Tenemos una hora\", dice. \"La persona que termina primero elige la cena de esta noche.\" ¡Ahora es un juego!",
+      "Todos trabajan rápido. Elena baila mientras ordena los cojines del sofá. Carlos canta en el baño con la escoba en la mano. Mamá barre al ritmo de la música.",
+      "Elena termina primero, en cuarenta minutos. Pero luego ayuda a Carlos con la basura. Después, todos ayudan a papá con los platos. A las once, la casa está limpia y brillante.",
+      "Elena elige la cena: pizza casera. Por la tarde, toda la familia prepara la pizza junta. \"¿El próximo sábado jugamos otra vez?\", pregunta Carlos. Por primera vez, a los niños les gusta el día de limpieza.",
+    ],
+    questions: [
+      {
+        question: "How does the family decide who does each chore?",
+        options: ["Mom decides", "Each person picks two papers from a box", "They vote", "The oldest chooses first"],
+        correctIndex: 1,
+        explanation:
+          "\"Cada persona toma dos papeles de una caja.\"",
+      },
+      {
+        question: "What is the prize for finishing first?",
+        options: ["Money", "No chores next week", "Choosing tonight's dinner", "A new toy"],
+        correctIndex: 2,
+        explanation:
+          "\"La persona que termina primero elige la cena de esta noche.\"",
+      },
+      {
+        question: "What does Elena do after she finishes first?",
+        options: ["She helps Carlos with the trash", "She watches TV", "She goes to sleep", "She goes out with friends"],
+        correctIndex: 0,
+        explanation:
+          "\"Pero luego ayuda a Carlos con la basura.\"",
+      },
+    ],
+  },
+  {
+    slug: "the-new-backpack",
+    level: "A1",
+    title: "La mochila nueva",
+    subtitle:
+      "A boy wants a flashy new backpack like his classmates', but his grandfather's old one has a story to tell.",
+    paragraphs: [
+      "Es septiembre y empieza el colegio. Todos los compañeros de Raúl tienen mochilas nuevas. Son de colores y tienen dibujos de superhéroes y futbolistas.",
+      "La mochila de Raúl es vieja y marrón. Es de cuero y tiene muchos bolsillos. Era la mochila de su abuelo cuando él era estudiante. Raúl piensa que es fea.",
+      "Un compañero, Óscar, mira la mochila de Raúl y dice: \"¡Qué mochila tan antigua!\" Otros niños se ríen. Raúl está triste y un poco enfadado.",
+      "En casa, Raúl habla con su abuelo. \"Abuelo, quiero una mochila nueva\", dice. El abuelo toma la mochila vieja y abre un bolsillo pequeño y secreto. Raúl no conoce este bolsillo.",
+      "Dentro hay un papel viejo. Es un mapa dibujado a mano. \"Este es el mapa de mi pueblo\", dice el abuelo. \"Con esta mochila camino seis kilómetros todos los días para ir a la escuela.\"",
+      "El abuelo cuenta muchas historias: el río que cruza, el perro que lo acompaña, la maestra que le enseña a leer. Raúl escucha todo con mucha atención.",
+      "Al día siguiente, Raúl lleva la mochila vieja al colegio. Cuando Óscar se ríe, Raúl le enseña el bolsillo secreto y el mapa. Óscar dice: \"¡Qué pasada! Mi mochila no tiene secretos.\" Ahora Raúl está orgulloso de su mochila.",
+    ],
+    questions: [
+      {
+        question: "Whose backpack was it originally?",
+        options: ["Raúl's father's", "His grandfather's", "Óscar's", "His teacher's"],
+        correctIndex: 1,
+        explanation:
+          "\"Era la mochila de su abuelo cuando él era estudiante.\"",
+      },
+      {
+        question: "What is in the secret pocket?",
+        options: ["Money", "An old photo", "A hand-drawn map of Grandpa's village", "A letter"],
+        correctIndex: 2,
+        explanation:
+          "\"Dentro hay un papel viejo. Es un mapa dibujado a mano... el mapa de mi pueblo.\"",
+      },
+      {
+        question: "How far did Grandpa walk to school every day?",
+        options: ["One kilometer", "Six kilometers", "Ten kilometers", "Sixty kilometers"],
+        correctIndex: 1,
+        explanation:
+          "\"Camino seis kilómetros todos los días para ir a la escuela.\"",
+      },
+      {
+        question: "How does Óscar react to the secret pocket?",
+        options: ["He laughs more", "He takes the map", "He tells the teacher", "He thinks it's great and says his backpack has no secrets"],
+        correctIndex: 3,
+        explanation:
+          "Óscar says, \"¡Qué pasada! Mi mochila no tiene secretos.\"",
+      },
+    ],
+  },
+  {
+    slug: "aunt-rosas-piano",
+    level: "A1",
+    title: "El piano de la tía Rosa",
+    subtitle:
+      "A girl visits her aunt every Wednesday to learn piano and prepares a surprise concert for her family.",
+    paragraphs: [
+      "La tía Rosa vive en un apartamento pequeño en el centro. En su sala hay un piano negro muy viejo. La tía Rosa toca el piano muy bien. Es profesora de música.",
+      "Todos los miércoles, después del colegio, Ana visita a su tía. Ana tiene nueve años y quiere aprender a tocar el piano. La tía Rosa le enseña con mucha paciencia.",
+      "Al principio es difícil. Ana tiene que usar las dos manos a la vez. Sus dedos no van donde ella quiere. A veces, Ana está frustrada. \"¡No puedo!\", dice.",
+      "\"Poco a poco\", dice la tía Rosa. \"Cinco minutos todos los días es mejor que dos horas un día.\" Ana practica en un teclado pequeño en casa todos los días.",
+      "Después de tres meses, Ana toca una canción completa. Es una canción de cumpleaños. Ana tiene una idea: el domingo es el cumpleaños de su papá.",
+      "El domingo, toda la familia está en casa de la tía Rosa para comer. Después del pastel, Ana se sienta al piano. Todos están en silencio. Ana toca la canción de cumpleaños sin errores.",
+      "Papá tiene lágrimas en los ojos. Todos aplauden y cantan. \"¡Es el mejor regalo!\", dice papá. La tía Rosa abraza a Ana y le dice: \"El próximo miércoles, empezamos una canción nueva.\"",
+    ],
+    questions: [
+      {
+        question: "What is Aunt Rosa's job?",
+        options: ["Music teacher", "Doctor", "Cook", "Painter"],
+        correctIndex: 0,
+        explanation:
+          "\"Es profesora de música\" (She is a music teacher).",
+      },
+      {
+        question: "What is Aunt Rosa's advice about practicing?",
+        options: ["Practice two hours every Sunday", "Only practice with her", "Five minutes every day is better than two hours one day", "Don't practice at home"],
+        correctIndex: 2,
+        explanation:
+          "\"Cinco minutos todos los días es mejor que dos horas un día.\"",
+      },
+      {
+        question: "What surprise does Ana prepare?",
+        options: ["She bakes a cake", "She plays a birthday song for her dad", "She writes a poem", "She buys a piano"],
+        correctIndex: 1,
+        explanation:
+          "Ana plays \"la canción de cumpleaños\" for her dad's birthday.",
+      },
+    ],
+  },
+  {
+    slug: "field-trip-to-the-castle",
+    level: "A1",
+    title: "La excursión al castillo",
+    subtitle:
+      "A class visits a medieval castle, and a shy student surprises everyone with what he knows.",
+    paragraphs: [
+      "Hoy la clase de cuarto grado va de excursión a un castillo antiguo. El castillo está en una montaña, a una hora de la ciudad. Los niños van en autobús y cantan canciones.",
+      "El castillo es enorme. Tiene torres altas, muros de piedra y un puente sobre un foso. Una guía llamada Teresa espera a los niños en la puerta.",
+      "Teresa hace preguntas. \"¿Quién sabe cuántos años tiene este castillo?\" Nadie responde. Entonces, un niño levanta la mano. Es Hugo, el niño más tímido de la clase.",
+      "\"Tiene ochocientos años\", dice Hugo en voz baja. \"¡Correcto!\", dice Teresa. Todos miran a Hugo con sorpresa. Hugo nunca habla en clase.",
+      "Durante la visita, Hugo responde muchas preguntas. Sabe por qué las ventanas son pequeñas, para qué es el foso y cómo viven los caballeros. \"Leo muchos libros de castillos\", explica.",
+      "En la torre más alta, Teresa le da a Hugo una llave antigua y grande. \"Tú abres la última puerta\", dice. Hugo abre la puerta. Detrás hay una sala con armaduras y espadas. ¡Qué impresionante!",
+      "En el autobús de vuelta, muchos compañeros se sientan cerca de Hugo. Le hacen preguntas sobre castillos y caballeros. Hugo habla y habla. Ya no es el niño tímido de la clase. Es el experto en castillos.",
+    ],
+    questions: [
+      {
+        question: "How old is the castle?",
+        options: ["Eighty years", "Eight hundred years", "Eight thousand years", "One hundred years"],
+        correctIndex: 1,
+        explanation:
+          "Hugo says, \"Tiene ochocientos años\" and the guide says it's correct.",
+      },
+      {
+        question: "Why are the students surprised when Hugo answers?",
+        options: ["He is new at school", "He is the teacher's son", "He is very shy and never speaks in class", "He is wrong"],
+        correctIndex: 2,
+        explanation:
+          "Hugo is \"el niño más tímido de la clase\" and \"nunca habla en clase.\"",
+      },
+      {
+        question: "How does Hugo know so much about castles?",
+        options: ["He reads many books about castles", "He lives in a castle", "His father is a guide", "He watches movies"],
+        correctIndex: 0,
+        explanation:
+          "He explains, \"Leo muchos libros de castillos.\"",
+      },
+      {
+        question: "What is behind the last door?",
+        options: ["A library", "The guide's office", "A secret tunnel", "A room with armor and swords"],
+        correctIndex: 3,
+        explanation:
+          "\"Detrás hay una sala con armaduras y espadas.\"",
+      },
+    ],
+  },
+  {
+    slug: "grandpas-toy-train",
+    level: "A1",
+    title: "El tren de juguete",
+    subtitle:
+      "A boy and his grandfather repair an old toy train together over one winter.",
+    paragraphs: [
+      "En el garaje del abuelo hay una caja vieja. Un día de invierno, Pedro abre la caja. Dentro hay un tren de juguete muy antiguo: una locomotora negra, cuatro vagones rojos y muchas vías.",
+      "\"¡Mi tren!\", dice el abuelo con una sonrisa. \"Es un regalo de mi padre. Tengo este tren desde que tengo seis años.\" Pero el tren está roto. La locomotora no funciona.",
+      "\"¿Podemos arreglarlo?\", pregunta Pedro. El abuelo piensa un momento. \"Podemos intentarlo\", dice. \"Pero es un trabajo largo.\"",
+      "Todos los sábados de invierno, Pedro y su abuelo trabajan en el garaje. Limpian las vías, pintan los vagones y buscan piezas nuevas en una tienda de juguetes antiguos.",
+      "La locomotora es lo más difícil. Tiene un motor pequeño y muchos cables. El abuelo usa sus gafas y herramientas pequeñas. Pedro ayuda con una linterna.",
+      "Después de dos meses, llega el gran día. Ponen las vías en el suelo de la sala, en forma de círculo. El abuelo conecta el cable. Pedro aprieta el botón. La locomotora hace \"chu, chu\" y ¡el tren se mueve!",
+      "Toda la familia viene a mirar. El abuelo está muy emocionado. \"Ahora este tren es de los dos\", le dice a Pedro. Pedro sonríe. Ese tren es su juguete favorito, y el invierno con su abuelo es su mejor recuerdo.",
+    ],
+    questions: [
+      {
+        question: "Who gave the train to the grandfather?",
+        options: ["His father", "His brother", "Pedro", "A friend"],
+        correctIndex: 0,
+        explanation:
+          "\"Es un regalo de mi padre\" (It's a gift from my father).",
+      },
+      {
+        question: "What part of the train is the hardest to fix?",
+        options: ["The wagons", "The tracks", "The locomotive", "The box"],
+        correctIndex: 2,
+        explanation:
+          "\"La locomotora es lo más difícil. Tiene un motor pequeño y muchos cables.\"",
+      },
+      {
+        question: "How does Pedro help with the locomotive?",
+        options: ["He buys a new motor", "He holds a flashlight", "He paints it", "He reads the instructions"],
+        correctIndex: 1,
+        explanation:
+          "\"Pedro ayuda con una linterna\" (Pedro helps with a flashlight).",
+      },
+      {
+        question: "What does Grandpa say at the end?",
+        options: ["\"Now the train belongs to both of us\"", "\"Put it back in the box\"", "\"Let's sell it\"", "\"Now it's only yours\""],
+        correctIndex: 0,
+        explanation:
+          "He says, \"Ahora este tren es de los dos.\"",
+      },
+    ],
+  },
+  {
+    slug: "rainbow-after-the-storm",
+    level: "A1",
+    title: "El arcoíris",
+    subtitle:
+      "Two sisters are bored inside on a rainy afternoon, until the sun comes out and they learn a secret about rainbows.",
+    paragraphs: [
+      "Es domingo por la tarde y llueve mucho. Blanca y su hermana Luna están en casa. Están aburridas. No pueden ir al parque y no hay nada en la televisión.",
+      "Blanca mira por la ventana. Las gotas de lluvia bajan por el cristal. \"¿Cuándo termina la lluvia?\", pregunta Luna. \"No sé\", responde Blanca con un suspiro.",
+      "A las cinco, la lluvia para. Las nubes grises se mueven y el sol sale otra vez. De repente, Luna grita: \"¡Mira! ¡Un arcoíris!\"",
+      "En el cielo hay un arcoíris enorme con siete colores: rojo, naranja, amarillo, verde, azul, añil y violeta. Las niñas salen al balcón para mirarlo mejor.",
+      "Su papá sale al balcón también. \"¿Saben cómo se forma un arcoíris?\", pregunta. \"La luz del sol pasa por las gotas de agua en el aire. Las gotas separan la luz en colores.\"",
+      "Luego, papá busca un vaso de agua y lo pone en la ventana, al sol. En la pared blanca aparece un pequeño arcoíris. Las niñas no lo pueden creer. \"¡Tenemos un arcoíris en casa!\", dice Luna.",
+      "Esa tarde, las niñas hacen arcoíris con vasos de agua, un espejo y una linterna. Ya no están aburridas. Luna dice: \"Ahora me gustan los días de lluvia, porque después viene el arcoíris.\"",
+    ],
+    questions: [
+      {
+        question: "Why are the sisters bored?",
+        options: ["They are sick", "It is raining and they can't go to the park", "They have homework", "Their friends are away"],
+        correctIndex: 1,
+        explanation:
+          "\"Llueve mucho... No pueden ir al parque y no hay nada en la televisión.\"",
+      },
+      {
+        question: "How does Dad explain a rainbow?",
+        options: ["The clouds paint the sky", "The moon reflects on the rain", "Sunlight passes through water drops, which separate it into colors", "It comes from the sea"],
+        correctIndex: 2,
+        explanation:
+          "\"La luz del sol pasa por las gotas de agua... Las gotas separan la luz en colores.\"",
+      },
+      {
+        question: "How does Dad make a rainbow inside the house?",
+        options: ["With a glass of water in the sunny window", "With paint", "With a lamp and paper", "With the TV"],
+        correctIndex: 0,
+        explanation:
+          "He puts \"un vaso de agua... en la ventana, al sol\" and a small rainbow appears on the wall.",
+      },
+      {
+        question: "Why does Luna like rainy days now?",
+        options: ["Because she can stay in bed", "Because she likes the sound of rain", "Because there is no school", "Because a rainbow comes after the rain"],
+        correctIndex: 3,
+        explanation:
+          "Luna says, \"Ahora me gustan los días de lluvia, porque después viene el arcoíris.\"",
+      },
+    ],
+  },
 ];
