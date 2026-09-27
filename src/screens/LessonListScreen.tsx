@@ -4,10 +4,20 @@ import { useFocusEffect } from "@react-navigation/native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { LESSON_SOURCES, type LessonModuleKey } from "@/lib/lessons/registry";
-import { A1_MODULES, A1_MAX_DRILL_LESSON_NUMBER, groupLessonsByModule, type LessonSection } from "@/lib/lessons/modules";
+import {
+  A1_MODULES,
+  A1_MAX_DRILL_LESSON_NUMBER,
+  groupLessonsByModule,
+  groupLessonsByOptional,
+  type LessonSection,
+} from "@/lib/lessons/modules";
 import { getCompletedMap, syncCompletedMapFromCloud } from "@/lib/lessons/completion";
 import { getPendingReviewBatch, type PendingReviewBatch } from "@/lib/lessons/reviewCadence";
 import { parseDurationMinutes, formatMinutes } from "@/lib/duration";
+
+// Spanish levels whose order comes from sequencing.ts (A1 has its own
+// hand-defined modules in modules.ts).
+const SEQUENCED_LEVELS = new Set(["a2", "b1", "b2", "c1", "c2"]);
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonList">;
 
@@ -53,15 +63,23 @@ export default function LessonListScreen({ navigation, route }: Props) {
     [moduleKey, source.lessons]
   );
   const sections: LessonSection[] = useMemo(
-    () => (moduleKey === "a1" ? groupLessonsByModule(visibleLessons, A1_MODULES) : [{ title: source.title, data: visibleLessons }]),
+    () =>
+      moduleKey === "a1"
+        ? groupLessonsByModule(visibleLessons, A1_MODULES)
+        : SEQUENCED_LEVELS.has(moduleKey)
+          ? groupLessonsByOptional(visibleLessons, source.title)
+          : [{ title: source.title, data: visibleLessons }],
     [moduleKey, visibleLessons, source.title]
   );
-  const completedCount = visibleLessons.filter((l) => completed[l.slug]).length;
+  // Counts the required path only -- optional Extra Practice lessons (see
+  // sequencing.ts) are extra.
+  const requiredLessons = visibleLessons.filter((l) => !l.optional);
+  const completedCount = requiredLessons.filter((l) => completed[l.slug]).length;
 
   return (
     <View style={styles.container}>
       <Text style={styles.header}>
-        {completedCount} of {visibleLessons.length} completed
+        {completedCount} of {requiredLessons.length} required lessons completed
       </Text>
       {pendingReview && (
         <Pressable
@@ -75,8 +93,8 @@ export default function LessonListScreen({ navigation, route }: Props) {
           }
         >
           <Text style={styles.reviewCardKicker}>Time for a check-in</Text>
-          <Text style={styles.reviewCardTitle}>Review your last 4 lessons</Text>
-          <Text style={styles.reviewCardBody}>Quick drill of anything you missed or flagged.</Text>
+          <Text style={styles.reviewCardTitle}>Review what's due</Text>
+          <Text style={styles.reviewCardBody}>Quick drill of questions you missed or flagged, spaced out over days.</Text>
         </Pressable>
       )}
       <SectionList
