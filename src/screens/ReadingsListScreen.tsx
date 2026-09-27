@@ -2,35 +2,37 @@ import { useMemo } from "react";
 import { View, Text, SectionList, Pressable, Linking, StyleSheet } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
-import { A1_STORIES } from "@/lib/stories/a1";
-import { A1_READINGS } from "@/lib/readings/a1";
+import { getReadingLevel } from "@/lib/stories/registry";
 import type { Story } from "@/lib/stories/types";
 import type { Reading } from "@/lib/readings/types";
 
 type Props = NativeStackScreenProps<AppStackParamList, "ReadingsList">;
 
-// Mobile port of the web app's ReadingList: A1's free in-app stories
+// Mobile port of the web app's ReadingList: one level's free in-app stories
 // (unlimited length -- no 10-minute cap, unlike lessons) plus the
 // curated book recommendations, which open to an Amazon search rather
 // than a specific listing (see amazonSearchUrl in @/lib/readings/types).
 type Row = { kind: "story"; story: Story } | { kind: "book"; reading: Reading };
 
-export default function ReadingsListScreen({ navigation }: Props) {
-  const sections = useMemo(
-    () => [
+export default function ReadingsListScreen({ route, navigation }: Props) {
+  // levelPath defaults to "a1" so any older ReadingsList navigation with
+  // no params still lands on the A1 list it always showed.
+  const levelPath = route.params?.levelPath ?? "a1";
+  const sections = useMemo(() => {
+    const { stories, readings } = getReadingLevel(levelPath);
+    return [
       {
         title: "Short stories",
-        subtitle: `${A1_STORIES.length} free stories with comprehension questions`,
-        data: A1_STORIES.map((story): Row => ({ kind: "story", story })),
+        subtitle: `${stories.length} free stories with comprehension questions`,
+        data: stories.map((story): Row => ({ kind: "story", story })),
       },
       {
         title: "Books",
-        subtitle: `${A1_READINGS.length} books to buy and read at your own pace`,
-        data: A1_READINGS.map((reading): Row => ({ kind: "book", reading })),
+        subtitle: `${readings.length} books to buy and read at your own pace`,
+        data: readings.map((reading): Row => ({ kind: "book", reading })),
       },
-    ],
-    []
-  );
+    ];
+  }, [levelPath]);
 
   return (
     <SectionList

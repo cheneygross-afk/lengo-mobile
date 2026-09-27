@@ -14,8 +14,10 @@ import LessonRunnerScreen from "@/screens/LessonRunnerScreen";
 import ReviewListScreen from "@/screens/ReviewListScreen";
 import ReviewDrillScreen from "@/screens/ReviewDrillScreen";
 import FlashcardsScreen from "@/screens/FlashcardsScreen";
+import ReadingLevelsScreen from "@/screens/ReadingLevelsScreen";
 import ReadingsListScreen from "@/screens/ReadingsListScreen";
 import StoryReaderScreen from "@/screens/StoryReaderScreen";
+import { getReadingLevel } from "@/lib/stories/registry";
 
 const AuthStack = createNativeStackNavigator<AuthStackParamList>();
 const AppStack = createNativeStackNavigator<AppStackParamList>();
@@ -53,7 +55,14 @@ function AppNavigator() {
       <AppStack.Screen name="Review" component={ReviewListScreen} options={{ title: "Review" }} />
       <AppStack.Screen name="ReviewDrill" component={ReviewDrillScreen} options={{ title: "Review" }} />
       <AppStack.Screen name="Flashcards" component={FlashcardsScreen} options={{ title: "Flashcards" }} />
-      <AppStack.Screen name="ReadingsList" component={ReadingsListScreen} options={{ title: "Readings" }} />
+      <AppStack.Screen name="ReadingLevels" component={ReadingLevelsScreen} options={{ title: "Readings" }} />
+      <AppStack.Screen
+        name="ReadingsList"
+        component={ReadingsListScreen}
+        options={({ route }) => ({
+          title: `${getReadingLevel(route.params?.levelPath ?? "a1").code} Readings`,
+        })}
+      />
       <AppStack.Screen name="StoryReader" component={StoryReaderScreen} options={{ title: "" }} />
     </AppStack.Navigator>
   );

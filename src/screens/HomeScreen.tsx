@@ -81,7 +81,7 @@ export default function HomeScreen({ navigation }: Props) {
                 this card is Spanish-only rather than linking to an empty
                 screen. */}
             {language === "es" && (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("ReadingsList")}>
+              <Pressable style={styles.card} onPress={() => navigation.navigate("ReadingLevels")}>
                 <Text style={styles.cardTitle}>Readings</Text>
                 <Text style={styles.cardBody}>Free short stories and book picks -- any length.</Text>
               </Pressable>

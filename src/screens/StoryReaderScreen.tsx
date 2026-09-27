@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { View, Text, ScrollView, Pressable, StyleSheet } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
-import { A1_STORIES } from "@/lib/stories/a1";
+import { findStory } from "@/lib/stories/registry";
 import { toExercises } from "@/lib/stories/types";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
@@ -30,13 +30,15 @@ type Props = NativeStackScreenProps<AppStackParamList, "StoryReader">;
 // story, so this reuses it exactly as-is (same table, same columns).
 export default function StoryReaderScreen({ route, navigation }: Props) {
   const { slug } = route.params;
-  const index = useMemo(() => A1_STORIES.findIndex((s) => s.slug === slug), [slug]);
-  const story = A1_STORIES[index];
-  const nextStory = A1_STORIES[index + 1];
+  // Looks the slug up across every level (see stories/registry.ts); "Next"
+  // stays within the story's own level, same as the website's reader.
+  const found = useMemo(() => findStory(slug), [slug]);
+  const story = found?.story;
+  const nextStory = found?.next;
   const exercises = useMemo(() => (story ? toExercises(story.questions) : []), [story]);
   // Mirrors the folder names the website's readings routes use
-  // (/readings/a1, /readings/c1c2, ...) -- "A1" -> "a1", "C1/C2" -> "c1c2".
-  const levelPath = useMemo(() => (story ? story.level.toLowerCase().replace("/", "") : "a1"), [story]);
+  // (/readings/a1, /readings/c1c2, ...).
+  const levelPath = found?.level.levelPath ?? "a1";
 
   const [answered, setAnswered] = useState<Record<number, boolean>>({});
   const answeredCount = Object.keys(answered).length;
@@ -120,7 +122,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
 
   return (
     <ScrollView style={s.container} contentContainerStyle={s.content}>
-      <Text style={s.kicker}>Short story</Text>
+      <Text style={s.kicker}>{story.level} · Short story</Text>
       <Text style={s.title}>{story.title}</Text>
       <Text style={s.subtitle}>{story.subtitle}</Text>
 

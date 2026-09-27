@@ -1,4 +1,5 @@
 import type { LessonModuleKey } from "@/lib/lessons/registry";
+import type { ReadingLevelPath } from "@/lib/stories/registry";
 
 export type AppStackParamList = {
   Home: undefined;
@@ -17,7 +18,11 @@ export type AppStackParamList = {
   // lang defaults to "es" when omitted, so every existing "Flashcards"
   // navigation call (Spanish) keeps working unchanged.
   Flashcards: { lang?: "es" | "ja" } | undefined;
-  ReadingsList: undefined;
+  // Readings' level picker (A1-C1/C2) -- see ReadingLevelsScreen. Home
+  // routes here; each level opens ReadingsList for that level.
+  ReadingLevels: undefined;
+  // levelPath defaults to "a1" when omitted.
+  ReadingsList: { levelPath?: ReadingLevelPath } | undefined;
   StoryReader: { slug: string };
   // Japanese beta's level picker (Alphabets/A1/A2/B1) -- see
   // JapaneseLevelsScreen. Only reachable from Home when the signed-in
