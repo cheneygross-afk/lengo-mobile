@@ -40,13 +40,33 @@ export const A1_MAX_DRILL_LESSON_NUMBER = a1Number("school-day-math-test") - 1;
 export const A1_MODULES: LessonModule[] = [
   { title: "The Basics", range: [1, a1Number("possessives-prepositions") - 1] },
   { title: "Everyday Essentials", range: [a1Number("possessives-prepositions"), a1Number("ser-vs-estar-drill-1") - 1] },
-  { title: "Extra Practice", range: [a1Number("ser-vs-estar-drill-1"), A1_MAX_DRILL_LESSON_NUMBER] },
+  { title: "Extra Practice · optional", range: [a1Number("ser-vs-estar-drill-1"), a1Number("a1-final-review-1") - 1] },
+  { title: "Final Review", range: [a1Number("a1-final-review-1"), A1_MAX_DRILL_LESSON_NUMBER] },
 ];
 
 export type LessonSection = {
   title: string;
   data: Lesson[];
 };
+
+/** Groups a level with no hand-defined modules into runs of required and
+ * optional lessons (see sequencing.ts): the core lessons under the
+ * level's own title, the optional Extra Practice block, then whatever
+ * required lessons follow it (the level's final review). */
+export function groupLessonsByOptional(lessons: Lesson[], title: string): LessonSection[] {
+  const sections: LessonSection[] = [];
+  for (const lesson of lessons) {
+    const optional = !!lesson.optional;
+    const last = sections[sections.length - 1];
+    if (last && !!last.data[0].optional === optional) {
+      last.data.push(lesson);
+      continue;
+    }
+    const sectionTitle = optional ? "Extra Practice · optional" : sections.length === 0 ? title : "Final Review";
+    sections.push({ title: sectionTitle, data: [lesson] });
+  }
+  return sections;
+}
 
 /** Groups lessons into modules by lesson.number, in module order. Any
  * lesson that falls outside every defined range is dropped into a

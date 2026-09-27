@@ -12,13 +12,18 @@ import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { findLessonBySlug, moduleKeyForLesson, LESSON_SOURCES } from "@/lib/lessons/registry";
 import type { Exercise } from "@/lib/lessons/types";
-import { generateVocabDrills } from "@/lib/lessons/drill";
+import { authoredQuestions, buildReviewQuestions } from "@/lib/lessons/drill";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
 import { langForLevel, langForLevelPath, ENGLISH_LANG } from "@/lib/speech";
 import { markLessonCompleted } from "@/lib/lessons/completion";
 import { addToReview } from "@/lib/lessons/review";
-import { addMissedQuestion } from "@/lib/lessons/missedQuestions";
+import {
+  addMissedQuestion,
+  getDueMissedQuestions,
+  recordMissedQuestionReviews,
+  type MissedQuestion,
+} from "@/lib/lessons/missedQuestions";
 import { autoEnrollLessonVocabulary } from "@/lib/flashcards/store";
 import { useAuth } from "@/lib/auth/AuthContext";
 import { supabase } from "@/lib/supabase/client";
@@ -34,16 +39,26 @@ type Props = NativeStackScreenProps<AppStackParamList, "LessonRunner">;
 
 const MIN_DRILL_QUESTIONS = 15;
 
-// Screen 4's lesson player: the whole concept goes on one screen up front
-// (every section's reading, however long that runs), then every
-// successive screen is a single independent drill question -- no more
-// interleaving reading and checkpoints section by section. Each lesson's
-// hand-authored checkpoint + review exercises are padded with generated
-// vocabulary drills (see lib/lessons/drill.ts) so every lesson drills at
-// least MIN_DRILL_QUESTIONS questions.
+// Screen 4's lesson player, section by section like the website's
+// LessonRunner: each section's reading gets its own screen, followed by
+// that section's checkpoint questions one per screen, so a concept is
+// checked right after it's taught. Then come the lesson's end-of-lesson
+// exercises, then review questions from earlier lessons (see
+// lib/lessons/drill.ts) so every lesson drills at least
+// MIN_DRILL_QUESTIONS questions.
+type QuestionSource = { slug: string; number: number; title: string };
 type Step =
-  | { kind: "intro" }
-  | { kind: "exercise"; exercise: Exercise; id: string; key: string; number: number }
+  | { kind: "teach"; sectionIndex: number | null; first: boolean }
+  | {
+      kind: "exercise";
+      exercise: Exercise;
+      id: string;
+      key: string;
+      number: number;
+      source: QuestionSource;
+      // Set on review questions drawn from earlier lessons.
+      review?: { fromMissedPool: boolean };
+    }
   | { kind: "complete" };
 
 export default function LessonRunnerScreen({ route, navigation }: Props) {
@@ -56,33 +71,60 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   const levelPath = useMemo(() => (lesson ? LESSON_SOURCES[moduleKeyForLesson(lesson)].levelPath : "a1"), [lesson]);
   const lang = useMemo(() => langForLevelPath(levelPath), [levelPath]);
 
-  const drill = useMemo<Exercise[]>(() => {
-    if (!lesson) return [];
-    const authored: Exercise[] = [];
-    lesson.sections.forEach((section) => {
-      section.checkpoint?.forEach((ex) => authored.push(ex));
-    });
-    lesson.exercises.forEach((ex) => authored.push(ex));
-    // Pads from the rest of this lesson's own module (registry.ts) when
-    // the lesson's own vocabulary isn't enough to reach the minimum on
-    // its own -- see generateVocabDrills.
-    const trackLessons = LESSON_SOURCES[moduleKeyForLesson(lesson)].lessons;
-    const generated = generateVocabDrills(lesson, MIN_DRILL_QUESTIONS - authored.length, trackLessons);
-    return [...authored, ...generated];
-  }, [lesson]);
+  // Missed questions from this track that are due again, read once when
+  // the lesson opens so the review questions don't shift mid-lesson.
+  const [dueMissed, setDueMissed] = useState<MissedQuestion[] | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    setDueMissed(null);
+    getDueMissedQuestions(levelPath)
+      .catch(() => [] as MissedQuestion[])
+      .then((due) => {
+        if (!cancelled) setDueMissed(due);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [levelPath, slug]);
 
   const steps = useMemo<Step[]>(() => {
-    if (!lesson) return [];
-    const out: Step[] = [{ kind: "intro" }];
-    drill.forEach((exercise, i) => {
-      // Stable per-question id -- see missedQuestions.ts for why it's
-      // built this way and where the "generated questions can shift
-      // across runs" caveat comes from.
-      out.push({ kind: "exercise", exercise, id: `${lesson.slug}#${i}`, key: `drill-${i}`, number: i + 1 });
+    if (!lesson || dueMissed === null) return [];
+    const own: QuestionSource = { slug: lesson.slug, number: lesson.number, title: lesson.title };
+    const out: Step[] = [];
+    let q = 0;
+    const pushOwn = (exercise: Exercise) => {
+      // Stable per-question id -- same order as authoredQuestions(), see
+      // missedQuestions.ts.
+      out.push({ kind: "exercise", exercise, id: `${lesson.slug}#${q}`, key: `q-${q}`, number: q + 1, source: own });
+      q++;
+    };
+    if (lesson.sections.length === 0) out.push({ kind: "teach", sectionIndex: null, first: true });
+    lesson.sections.forEach((section, si) => {
+      out.push({ kind: "teach", sectionIndex: si, first: si === 0 });
+      section.checkpoint?.forEach(pushOwn);
+    });
+    lesson.exercises.forEach(pushOwn);
+    const trackLessons = LESSON_SOURCES[moduleKeyForLesson(lesson)].lessons;
+    const review = buildReviewQuestions(lesson, trackLessons, dueMissed, MIN_DRILL_QUESTIONS - authoredQuestions(lesson).length);
+    review.forEach((r, i) => {
+      out.push({
+        kind: "exercise",
+        exercise: r.exercise,
+        id: r.id,
+        key: `review-${i}`,
+        number: q + 1,
+        source: { slug: r.id.slice(0, r.id.lastIndexOf("#")), number: r.fromLessonNumber, title: r.fromLessonTitle },
+        review: { fromMissedPool: r.fromMissedPool },
+      });
+      q++;
     });
     out.push({ kind: "complete" });
     return out;
-  }, [lesson, drill]);
+  }, [lesson, dueMissed]);
+  const questionCount = steps.filter((st) => st.kind === "exercise").length;
+  // Answers to review questions that came from the missed-questions
+  // pool, written back in one go when the lesson finishes.
+  const poolResultsRef = useRef<Map<string, boolean>>(new Map());
 
   const [stepIndex, setStepIndex] = useState(0);
   const [feedback, setFeedback] = useState<{ correct: boolean; explanation: string } | null>(null);
@@ -200,10 +242,14 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       </View>
     );
   }
+  if (steps.length === 0) return <View style={s.screen} />;
 
   async function finish() {
     if (!lesson) return;
     setFinishing(true);
+    const poolResults = Array.from(poolResultsRef.current, ([id, correct]) => ({ id, correct }));
+    poolResultsRef.current = new Map();
+    await recordMissedQuestionReviews(levelPath, poolResults);
     const { wasAlreadyDone } = await markLessonCompleted(levelPath, lesson.slug, lesson.number);
     if (!wasAlreadyDone) {
       const examples = lesson.sections.flatMap((sec) => sec.examples ?? []);
@@ -231,6 +277,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     setFeedback(null);
     setAddedToReview(false);
     setFlaggedIds(new Set());
+    poolResultsRef.current = new Map();
     startedAt.current = Date.now();
     setStepIndex(0);
   }
@@ -250,11 +297,17 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   async function handleFlagQuestion(step: Extract<Step, { kind: "exercise" }>) {
     if (!lesson) return;
     setFlaggedIds((prev) => new Set(prev).add(step.id));
+    // A missed-pool review question is rescheduled at the end of the
+    // lesson instead (recordMissedQuestionReviews), not re-added here.
+    if (step.review?.fromMissedPool) {
+      poolResultsRef.current.set(step.id, false);
+      return;
+    }
     await addMissedQuestion(levelPath, {
       id: step.id,
-      lessonSlug: lesson.slug,
-      lessonNumber: lesson.number,
-      lessonTitle: lesson.title,
+      lessonSlug: step.source.slug,
+      lessonNumber: step.source.number,
+      lessonTitle: step.source.title,
       exercise: step.exercise,
     });
   }
@@ -285,9 +338,12 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       </View>
 
       <ScrollView style={s.stepArea} contentContainerStyle={s.stepContent} keyboardShouldPersistTaps="handled">
-        {currentStep?.kind === "intro" && (
-          <IntroStep
+        {currentStep?.kind === "teach" && (
+          <TeachStep
             lesson={lesson}
+            sectionIndex={currentStep.sectionIndex}
+            first={currentStep.first}
+            nextIsQuestion={steps[stepIndex + 1]?.kind === "exercise"}
             onContinue={goNext}
             highlightsFor={highlightsFor}
             onAddHighlight={addHighlight}
@@ -300,7 +356,8 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
         {currentStep?.kind === "exercise" && (
           <View>
             <Text style={s.badge}>
-              Question {currentStep.number} of {drill.length}
+              Question {currentStep.number} of {questionCount}
+              {currentStep.review ? ` · Review from lesson ${currentStep.source.number}` : ""}
             </Text>
             <ExerciseBlock
               key={currentStep.key}
@@ -311,7 +368,10 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
               lang={lang}
               onChecked={(correct, explanation) => {
                 if (correct) setCorrectCount((c) => c + 1);
-                else void handleFlagQuestion(currentStep);
+                if (correct && currentStep.review?.fromMissedPool && !poolResultsRef.current.has(currentStep.id)) {
+                  poolResultsRef.current.set(currentStep.id, true);
+                }
+                if (!correct) void handleFlagQuestion(currentStep);
                 setFeedback({ correct, explanation });
               }}
             />
@@ -332,7 +392,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
           <CompleteStep
             lessonTitle={lesson.title}
             correctCount={correctCount}
-            totalExercises={drill.length}
+            totalExercises={questionCount}
             elapsedMs={Date.now() - startedAt.current}
             finishing={finishing}
             addedToReview={addedToReview}
@@ -367,8 +427,11 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   );
 }
 
-function IntroStep({
+function TeachStep({
   lesson,
+  sectionIndex,
+  first,
+  nextIsQuestion,
   onContinue,
   highlightsFor,
   onAddHighlight,
@@ -376,7 +439,12 @@ function IntroStep({
   highlightsEnabled,
   markColor,
 }: {
-  lesson: { level: string; number: number; title: string; sections: { heading: string; body: string[]; examples?: { es: string; en?: string }[] }[] };
+  lesson: { level: string; number: number; title: string; optional?: boolean; sections: { heading: string; body: string[]; examples?: { es: string; en?: string }[] }[] };
+  // Which section this screen teaches; null for a lesson with no sections
+  // (a pure review), which just gets the title screen.
+  sectionIndex: number | null;
+  first: boolean;
+  nextIsQuestion: boolean;
   onContinue: () => void;
   highlightsFor: (blockKey: string) => LessonHighlight[];
   onAddHighlight: (blockKey: string, blockText: string, start: number, end: number, text: string) => void;
@@ -387,11 +455,18 @@ function IntroStep({
   const lang = langForLevel(lesson.level);
   return (
     <View>
-      <Text style={s.kicker}>
-        {lesson.level} · Lesson {lesson.number}
-      </Text>
-      <Text style={s.introTitle}>{lesson.title}</Text>
-      {lesson.sections.map((section, si) => (
+      {first ? (
+        <>
+          <Text style={s.kicker}>
+            {lesson.level} · Lesson {lesson.number}
+            {lesson.optional ? " · optional" : ""}
+          </Text>
+          <Text style={s.introTitle}>{lesson.title}</Text>
+        </>
+      ) : null}
+      {(sectionIndex === null ? [] : [sectionIndex]).map((si) => {
+        const section = lesson.sections[si];
+        return (
         <View key={si} style={s.introSection}>
           <Text style={s.teachHeading}>{section.heading}</Text>
           {section.body.map((p, pi) => {
@@ -450,9 +525,10 @@ function IntroStep({
             );
           })}
         </View>
-      ))}
+        );
+      })}
       <Pressable style={s.bigBtn} onPress={onContinue}>
-        <Text style={s.bigBtnText}>Start drill</Text>
+        <Text style={s.bigBtnText}>{nextIsQuestion ? "Check yourself" : "Continue"}</Text>
       </Pressable>
     </View>
   );

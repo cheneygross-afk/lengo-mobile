@@ -2,7 +2,13 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { View, Text, ScrollView, Pressable, StyleSheet, Animated } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
-import { getMissedQuestions, removeMissedQuestions, type MissedQuestion } from "@/lib/lessons/missedQuestions";
+import {
+  getMissedQuestions,
+  isMissedQuestionDue,
+  recordMissedQuestionReviews,
+  removeMissedQuestions,
+  type MissedQuestion,
+} from "@/lib/lessons/missedQuestions";
 import { markReviewBatchDone } from "@/lib/lessons/reviewCadence";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import { langForLevelPath } from "@/lib/speech";
@@ -18,14 +24,15 @@ type Phase = "loading" | "intro" | "drilling" | "complete";
 
 // Screen reached from LessonList when reviewCadence.ts says a batch is
 // due (every 4th completed lesson). Pulls every question the student
-// got wrong, or flagged, across those 4 lessons (missedQuestions.ts) and
-// drills them: a wrong answer sends the question to the back of the
-// queue to try again, right up until either it's answered correctly (it
-// leaves the pool for good) or it's been missed FORGET_AFTER_MISSES
-// times in this session (it also leaves the pool for good, just without
-// ever being gotten right -- "then just forget it").
+// got wrong, or flagged, across those 4 lessons, plus any older missed
+// question that's due again (missedQuestions.ts), and drills them: a
+// wrong answer sends the question to the back of the queue to try again,
+// right up until either it's answered correctly (it moves one step along
+// its spaced schedule and comes back in a few days) or it's been missed
+// FORGET_AFTER_MISSES times in this session (it leaves the pool for
+// good, without ever being gotten right -- "then just forget it").
 export default function ReviewDrillScreen({ route, navigation }: Props) {
-  const { levelPath, batch, slugs } = route.params;
+  const { levelPath, batch } = route.params;
 
   const [phase, setPhase] = useState<Phase>("loading");
   const [queue, setQueue] = useState<MissedQuestion[]>([]);
@@ -34,7 +41,8 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
   const [masteredCount, setMasteredCount] = useState(0);
   const [forgottenCount, setForgottenCount] = useState(0);
   const [feedback, setFeedback] = useState<{ correct: boolean; explanation: string; forgotten: boolean } | null>(null);
-  const resolvedIdsRef = useRef<Set<string>>(new Set());
+  const correctIdsRef = useRef<Set<string>>(new Set());
+  const forgottenIdsRef = useRef<Set<string>>(new Set());
 
   const sheetAnim = useRef(new Animated.Value(0)).current;
   useEffect(() => {
@@ -43,10 +51,12 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
 
   useEffect(() => {
     let cancelled = false;
-    const slugSet = new Set(slugs);
     getMissedQuestions(levelPath).then((all) => {
       if (cancelled) return;
-      const pool = all.filter((q) => slugSet.has(q.lessonSlug));
+      const now = Date.now();
+      // Everything due: new misses are due immediately, older ones come
+      // back on their spaced schedule.
+      const pool = all.filter((q) => isMissedQuestionDue(q, now));
       setQueue(pool);
       setTotalQuestions(pool.length);
       setPhase("intro");
@@ -58,7 +68,11 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
   }, [levelPath]);
 
   async function finishSession() {
-    await removeMissedQuestions(levelPath, Array.from(resolvedIdsRef.current));
+    await removeMissedQuestions(levelPath, Array.from(forgottenIdsRef.current));
+    await recordMissedQuestionReviews(
+      levelPath,
+      Array.from(correctIdsRef.current, (id) => ({ id, correct: true }))
+    );
     await markReviewBatchDone(levelPath, batch);
     setPhase("complete");
   }
@@ -73,7 +87,7 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
 
   function handleChecked(current: MissedQuestion, correct: boolean, explanation: string) {
     if (correct) {
-      resolvedIdsRef.current.add(current.id);
+      correctIdsRef.current.add(current.id);
       setMasteredCount((c) => c + 1);
       setFeedback({ correct: true, explanation, forgotten: false });
       return;
@@ -82,7 +96,7 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
     setMissCounts((prev) => ({ ...prev, [current.id]: nextMiss }));
     const forgotten = nextMiss >= FORGET_AFTER_MISSES;
     if (forgotten) {
-      resolvedIdsRef.current.add(current.id);
+      forgottenIdsRef.current.add(current.id);
       setForgottenCount((c) => c + 1);
     }
     setFeedback({ correct: false, explanation, forgotten });
@@ -119,16 +133,16 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
       <ScrollView contentContainerStyle={s.content} keyboardShouldPersistTaps="handled">
         {phase === "intro" && (
           <View>
-            <Text style={s.kicker}>Review · Lessons {batch * 4 - 3}–{batch * 4}</Text>
+            <Text style={s.kicker}>Review · {batch * 4} lessons done</Text>
             <Text style={s.title}>Catch-up drill</Text>
             {totalQuestions > 0 ? (
               <Text style={s.body}>
-                {totalQuestions} question{totalQuestions === 1 ? "" : "s"} from your last 4 lessons -- missed
-                answers or ones you flagged. Get one wrong and it comes back around; miss the same one 3 times
+                {totalQuestions} question{totalQuestions === 1 ? "" : "s"} to review -- ones you missed or
+                flagged recently, plus older ones that are due again. Get one wrong and it comes back around; miss the same one 3 times
                 and it's dropped so it stops repeating.
               </Text>
             ) : (
-              <Text style={s.body}>Nothing to review -- you got everything right in your last 4 lessons.</Text>
+              <Text style={s.body}>Nothing to review -- nothing you missed is due right now.</Text>
             )}
             <Pressable style={s.bigBtn} onPress={startDrilling}>
               <Text style={s.bigBtnText}>{totalQuestions > 0 ? "Start review" : "Continue"}</Text>

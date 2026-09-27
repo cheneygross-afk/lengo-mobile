@@ -6,6 +6,8 @@
 // now that the app has more than one.
 import type { Lesson } from "./types";
 import { weaveLessons } from "./weave";
+import { buildLevel } from "./sequencing";
+import { A1_ADDITIONS } from "./a1-additions";
 import { A1_LESSONS as A1_BASE_LESSONS } from "./a1";
 import { A2_LESSONS as A2_BASE_LESSONS } from "./a2";
 import { B1_LESSONS as B1_BASE_LESSONS } from "./b1";
@@ -65,12 +67,15 @@ export type LessonSource = {
 // at the bottom of each file); done here instead, in registry.ts, so the
 // base lesson files -- ported verbatim from the web repo, 15,000+ lines
 // each -- never need to be hand-edited or kept in sync line-for-line.
-const A1_LESSONS = weaveLessons(A1_BASE_LESSONS, A1_REINFORCEMENT);
-const A2_LESSONS = weaveLessons(A2_BASE_LESSONS, [...A2_REINFORCEMENT, ...A2_DRILLS]);
-const B1_LESSONS = weaveLessons(B1_BASE_LESSONS, [...B1_REINFORCEMENT, ...B1_DRILLS]);
-const B2_LESSONS = weaveLessons(B2_BASE_LESSONS, [...B2_REINFORCEMENT, ...B2_DRILLS]);
-const C1_LESSONS = weaveLessons(C1_BASE_LESSONS, C1_REINFORCEMENT);
-const C2_LESSONS = weaveLessons(C2_BASE_LESSONS, C2_REINFORCEMENT);
+// For the six core levels, buildLevel (sequencing.ts, shared verbatim
+// with the web repo) weaves and then applies the course order: moved
+// topics, spread-out vocabulary, and optional Extra Practice.
+const A1_LESSONS = buildLevel("A1", A1_BASE_LESSONS, [...A1_REINFORCEMENT, ...A1_ADDITIONS]);
+const A2_LESSONS = buildLevel("A2", A2_BASE_LESSONS, [...A2_REINFORCEMENT, ...A2_DRILLS]);
+const B1_LESSONS = buildLevel("B1", B1_BASE_LESSONS, [...B1_REINFORCEMENT, ...B1_DRILLS]);
+const B2_LESSONS = buildLevel("B2", B2_BASE_LESSONS, [...B2_REINFORCEMENT, ...B2_DRILLS]);
+const C1_LESSONS = buildLevel("C1", C1_BASE_LESSONS, C1_REINFORCEMENT);
+const C2_LESSONS = buildLevel("C2", C2_BASE_LESSONS, C2_REINFORCEMENT);
 const COSAS_COLOQUIALES_LESSONS = weaveLessons(COSAS_COLOQUIALES_BASE_LESSONS, COSAS_COLOQUIALES_REINFORCEMENT);
 
 export const LESSON_SOURCES: Record<LessonModuleKey, LessonSource> = {
