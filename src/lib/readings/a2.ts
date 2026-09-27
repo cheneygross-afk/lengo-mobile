@@ -1,3 +1,4 @@
+// Synced from cheneygross-afk/lengo:src/lib/readings/a2.ts by scripts/sync-content.mjs -- edit it there, not here.
 import { amazonSearchUrl, type Reading } from "./types";
 
 // Elementary (A2): a step up from pure graded readers.

@@ -1,0 +1,21 @@
+name: Synced content check
+
+# Lesson, story, and reading files under src/lib/{lessons,stories,readings}
+# are copies of the website repo's (cheneygross-afk/lengo). This fails if
+# one of them was edited here instead of on the website, since that edit
+# would be silently overwritten by the next sync -- or would leave the app
+# and the website teaching different things.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/sync-content.mjs --verify

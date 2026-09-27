@@ -1,3 +1,4 @@
+// Synced from cheneygross-afk/lengo:src/lib/readings/a1.ts by scripts/sync-content.mjs -- edit it there, not here.
 import { amazonSearchUrl, type Reading } from "./types";
 
 // Beginner (A1): graded readers and the simplest accessible originals.

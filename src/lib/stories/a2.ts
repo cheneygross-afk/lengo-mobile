@@ -1,3 +1,4 @@
+// Synced from cheneygross-afk/lengo:src/lib/stories/a2.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Story } from "./types";
 
 export const A2_STORIES: Story[] = [

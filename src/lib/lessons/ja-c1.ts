@@ -1,3 +1,4 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/ja-c1.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Lesson } from "./types";
 
 export const JA_C1_LESSONS: Lesson[] = [

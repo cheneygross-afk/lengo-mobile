@@ -1,3 +1,4 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/b1-reinforcement.ts by scripts/sync-content.mjs -- edit it there, not here.
 import { anchored, authoring } from "./authoring";
 import type { AnchoredLesson } from "./weave";
 

@@ -1,3 +1,4 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/types.ts by scripts/sync-content.mjs -- edit it there, not here.
 export type MultipleChoiceExercise = {
   type: "multiple-choice";
   question: string;

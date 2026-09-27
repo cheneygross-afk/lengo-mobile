@@ -1,3 +1,4 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/weave.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Lesson } from "./types";
 
 // A reinforcement lesson authored separately from its level's base file

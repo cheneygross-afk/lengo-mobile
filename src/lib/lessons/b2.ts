@@ -1,6 +1,10 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/b2.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Lesson } from "./types";
+import { buildLevel } from "./sequencing";
+import { B2_REINFORCEMENT } from "./b2-reinforcement";
+import { B2_DRILLS } from "./b2-drills";
 
-export const B2_LESSONS: Lesson[] = [
+const B2_BASE_LESSONS: Lesson[] = [
   {
     "slug": "subjunctive-adjective-clauses-1",
     "level": "B2",
@@ -17851,3 +17855,12 @@ export const B2_LESSONS: Lesson[] = [
     ]
   }
 ];
+
+// The reinforcement lessons (b2-reinforcement.ts) are woven in right after
+// the lesson each one reinforces, and the whole level is renumbered -- see
+// weave.ts. Everything above this line is the original lesson data.
+// The drill lessons (b2-drills.ts) are a second, drill-heavy layer woven in
+// the same way; at a shared anchor they follow the reinforcement lessons.
+// sequencing.ts applies the course order (moved topics, spread-out
+// vocabulary, optional Extra Practice) after weaving.
+export const B2_LESSONS: Lesson[] = buildLevel("B2", B2_BASE_LESSONS, [...B2_REINFORCEMENT, ...B2_DRILLS]);

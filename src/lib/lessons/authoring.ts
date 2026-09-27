@@ -1,3 +1,4 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/authoring.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type {
   Exercise,
   FillBlankExercise,

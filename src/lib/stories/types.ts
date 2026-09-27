@@ -1,3 +1,4 @@
+// Synced from cheneygross-afk/lengo:src/lib/stories/types.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { MultipleChoiceExercise } from "@/lib/lessons/types";
 
 export type StoryQuestion = {
