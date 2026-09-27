@@ -1,3 +1,4 @@
+// Synced from cheneygross-afk/lengo:src/lib/readings/c1c2.ts by scripts/sync-content.mjs -- edit it there, not here.
 import { amazonSearchUrl, type Reading } from "./types";
 
 // Advanced (C1/C2): dense literary Spanish.

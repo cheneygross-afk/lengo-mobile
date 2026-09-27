@@ -1,3 +1,4 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/sequencing.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Lesson } from "./types";
 import { weaveLessons, type AnchoredLesson } from "./weave";
 

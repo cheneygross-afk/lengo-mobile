@@ -1,3 +1,4 @@
+// Synced from cheneygross-afk/lengo:src/lib/readings/b2.ts by scripts/sync-content.mjs -- edit it there, not here.
 import { amazonSearchUrl, type Reading } from "./types";
 
 // Upper intermediate (B2): real, unabridged novels and collections.

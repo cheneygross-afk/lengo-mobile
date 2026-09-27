@@ -1,3 +1,4 @@
+// Synced from cheneygross-afk/lengo:src/lib/readings/b1.ts by scripts/sync-content.mjs -- edit it there, not here.
 import { amazonSearchUrl, type Reading } from "./types";
 
 // Intermediate (B1): full-length stories and plays.

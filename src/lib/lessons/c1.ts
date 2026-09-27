@@ -1,6 +1,9 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/c1.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Lesson } from "./types";
+import { buildLevel } from "./sequencing";
+import { C1_REINFORCEMENT } from "./c1-reinforcement";
 
-export const C1_LESSONS: Lesson[] = [
+const C1_BASE_LESSONS: Lesson[] = [
   {
     "slug": "subjunctive-mastery-review-1",
     "level": "C1",
@@ -15820,3 +15823,10 @@ export const C1_LESSONS: Lesson[] = [
     ]
   }
 ];
+
+// The reinforcement lessons (c1-reinforcement.ts) are woven in right after
+// the lesson each one reinforces, and the whole level is renumbered -- see
+// weave.ts. Everything above this line is the original lesson data.
+// sequencing.ts applies the course order (moved topics, spread-out
+// vocabulary, optional Extra Practice) after weaving.
+export const C1_LESSONS: Lesson[] = buildLevel("C1", C1_BASE_LESSONS, C1_REINFORCEMENT);

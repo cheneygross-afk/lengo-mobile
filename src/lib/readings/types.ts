@@ -1,3 +1,4 @@
+// Synced from cheneygross-afk/lengo:src/lib/readings/types.ts by scripts/sync-content.mjs -- edit it there, not here.
 export type Reading = {
   title: string;
   author: string;

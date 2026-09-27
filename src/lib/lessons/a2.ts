@@ -1,6 +1,10 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/a2.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Lesson } from "./types";
+import { buildLevel } from "./sequencing";
+import { A2_REINFORCEMENT } from "./a2-reinforcement";
+import { A2_DRILLS } from "./a2-drills";
 
-export const A2_LESSONS: Lesson[] = [
+const A2_BASE_LESSONS: Lesson[] = [
   {
     "slug": "preterite-regular-verbs-1",
     "level": "A2",
@@ -17125,3 +17129,12 @@ export const A2_LESSONS: Lesson[] = [
     ]
   }
 ];
+
+// The reinforcement lessons (a2-reinforcement.ts) are woven in right after
+// the lesson each one reinforces, and the whole level is renumbered -- see
+// weave.ts. Everything above this line is the original lesson data.
+// The drill lessons (a2-drills.ts) are a second, drill-heavy layer woven in
+// the same way; at a shared anchor they follow the reinforcement lessons.
+// sequencing.ts applies the course order (moved topics, spread-out
+// vocabulary, optional Extra Practice) after weaving.
+export const A2_LESSONS: Lesson[] = buildLevel("A2", A2_BASE_LESSONS, [...A2_REINFORCEMENT, ...A2_DRILLS]);
