@@ -3,6 +3,7 @@ import type { Lesson } from "./types";
 import { buildLevel } from "./sequencing";
 import { A2_REINFORCEMENT } from "./a2-reinforcement";
 import { A2_DRILLS } from "./a2-drills";
+import { A2_COMMON_WORDS } from "./a2-common-words";
 
 const A2_BASE_LESSONS: Lesson[] = [
   {
@@ -17137,4 +17138,4 @@ const A2_BASE_LESSONS: Lesson[] = [
 // the same way; at a shared anchor they follow the reinforcement lessons.
 // sequencing.ts applies the course order (moved topics, spread-out
 // vocabulary, optional Extra Practice) after weaving.
-export const A2_LESSONS: Lesson[] = buildLevel("A2", A2_BASE_LESSONS, [...A2_REINFORCEMENT, ...A2_DRILLS]);
+export const A2_LESSONS: Lesson[] = buildLevel("A2", A2_BASE_LESSONS, [...A2_REINFORCEMENT, ...A2_DRILLS, ...A2_COMMON_WORDS]);

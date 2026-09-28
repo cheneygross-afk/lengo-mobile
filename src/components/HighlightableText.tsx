@@ -56,6 +56,11 @@ type Props = {
   // and works even for a logged-out learner or before `enabled` turns
   // on, unlike highlighting.
   lang: SpeechLang;
+  // Optional: words to mark with a dotted underline (a story's glossed
+  // words, see StoryReaderScreen), and a callback for every plain word
+  // tap, alongside the usual tap-to-hear.
+  isMarked?: (word: string) => boolean;
+  onWordTap?: (word: string) => void;
 };
 
 // Splits into alternating runs of non-whitespace ("words", individually
@@ -99,6 +104,8 @@ export default function HighlightableText({
   style,
   markColor,
   lang,
+  isMarked,
+  onWordTap,
 }: Props) {
   const rowRef = useRef<View>(null);
   const containerOrigin = useRef({ x: 0, y: 0 });
@@ -174,6 +181,7 @@ export default function HighlightableText({
       return;
     }
     speak(word.value, lang);
+    onWordTap?.(word.value);
   }
 
   const panResponder = useRef(
@@ -270,7 +278,7 @@ export default function HighlightableText({
               wordRects.current.set(idx, { x, y, width, height });
             }}
             onPress={() => handleWordTap(token)}
-            style={[textStyle, styles.word, bg ? { backgroundColor: bg } : null]}
+            style={[textStyle, styles.word, isMarked?.(token.value) ? styles.marked : null, bg ? { backgroundColor: bg } : null]}
           >
             {token.value}
           </Text>
@@ -291,6 +299,7 @@ export default function HighlightableText({
 const styles = StyleSheet.create({
   row: { flexDirection: "row", flexWrap: "wrap", alignItems: "flex-start" },
   word: { borderRadius: 2 },
+  marked: { textDecorationLine: "underline", textDecorationStyle: "dotted", textDecorationColor: "#00000080" },
   pillWrap: {
     position: "absolute",
     transform: [{ translateX: -24 }, { translateY: -40 }],
