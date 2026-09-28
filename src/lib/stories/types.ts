@@ -19,6 +19,18 @@ export type Story = {
   questions: StoryQuestion[];
 };
 
+// A word or phrase a story explains in English because readers at its
+// level probably haven't met it yet in the lessons. `forms` are the exact
+// lowercase spellings used in the story text (a verb can appear as
+// "siguió" and "siguieron"), so readers can match a word in the text to
+// its gloss without a stemmer. Kept in the per-level *-glosses.ts files,
+// keyed by story slug, so the story files themselves stay untouched.
+export type StoryGloss = {
+  es: string; // dictionary form, e.g. "el arroyo", "despertarse"
+  en: string;
+  forms: string[];
+};
+
 // Adapts a story's plain question data into the shared Exercise format so
 // stories can reuse ExerciseBlock exactly like lesson exercises do.
 export function toExercises(questions: StoryQuestion[]): MultipleChoiceExercise[] {

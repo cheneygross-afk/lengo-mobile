@@ -263,6 +263,7 @@ export function speak(text: string, lang: SpeechLang) {
   const clean = stripForSpeech(text);
   if (!clean) return;
 
+  stopReadAloud();
   currentPlayer?.remove();
   currentPlayer = null;
   Speech.stop();
@@ -285,7 +286,168 @@ export function speak(text: string, lang: SpeechLang) {
 }
 
 export function stopSpeaking() {
+  stopReadAloud();
   currentPlayer?.remove();
   currentPlayer = null;
   Speech.stop();
+}
+
+// ---- Reading a whole text aloud ------------------------------------
+// Mirrors readAloud() in the website's src/lib/speech.ts.
+
+// /api/pronounce renders at most 200 characters per clip, and a clip per
+// sentence also lets a listener hear the story in natural pieces. Unlike
+// speak(), punctuation is kept: it's what gives the voice its pauses and
+// question intonation.
+const MAX_CLIP_CHARS = 200;
+
+/** Splits a paragraph into sentence-sized pieces for readAloud(). */
+export function speechChunks(paragraph: string): string[] {
+  const sentences = paragraph.match(/[^.!?…]+(?:[.!?…]+["”»')\]]*|$)/g) ?? [];
+  const chunks: string[] = [];
+  for (const raw of sentences) {
+    let rest = raw.trim();
+    while (rest.length > MAX_CLIP_CHARS) {
+      const window = rest.slice(0, MAX_CLIP_CHARS);
+      const cut = Math.max(window.lastIndexOf(", "), window.lastIndexOf("; "), window.lastIndexOf(": "));
+      const at = cut > 40 ? cut + 1 : window.lastIndexOf(" ");
+      chunks.push(rest.slice(0, at).trim());
+      rest = rest.slice(at).trim();
+    }
+    if (/[A-Za-zÁÉÍÓÚÜÑáéíóúüñ\u3040-\u30ff\u4e00-\u9fff]/.test(rest)) chunks.push(rest);
+  }
+  return chunks;
+}
+
+type ClipResult = "ended" | "failed" | "stopped";
+
+// Bumped by every new readAloud(), stopReadAloud(), speak() and
+// stopSpeaking(), so a read-aloud loop can tell it has been replaced.
+let readAloudRun = 0;
+// Resolves the clip that's playing right now as "stopped".
+let stopCurrentClip: (() => void) | null = null;
+
+export function stopReadAloud(): void {
+  readAloudRun++;
+  const stop = stopCurrentClip;
+  stopCurrentClip = null;
+  stop?.();
+}
+
+function playClipToEnd(url: string): Promise<ClipResult> {
+  return new Promise((resolve) => {
+    let settled = false;
+    let started = false;
+    let player: AudioPlayer | null = null;
+    const finish = (result: ClipResult) => {
+      if (settled) return;
+      settled = true;
+      if (stopCurrentClip === stop) stopCurrentClip = null;
+      player?.remove();
+      if (currentPlayer === player) currentPlayer = null;
+      resolve(result);
+    };
+    const stop = () => finish("stopped");
+    stopCurrentClip = stop;
+    try {
+      player = createAudioPlayer(url);
+    } catch {
+      finish("failed");
+      return;
+    }
+    currentPlayer = player;
+    player.addListener("playbackStatusUpdate", (status: AudioStatus) => {
+      if (status.error) {
+        finish(started ? "ended" : "failed");
+        return;
+      }
+      if (status.isLoaded && !started) {
+        started = true;
+        player?.play();
+      }
+      if (status.didJustFinish) finish("ended");
+    });
+    setTimeout(() => {
+      if (!started) finish("failed");
+    }, 4000);
+  });
+}
+
+function speakOnDeviceToEnd(text: string, lang: SpeechLang): Promise<ClipResult> {
+  return new Promise((resolve) => {
+    let settled = false;
+    const finish = (result: ClipResult) => {
+      if (settled) return;
+      settled = true;
+      if (stopCurrentClip === stop) stopCurrentClip = null;
+      resolve(result);
+    };
+    const stop = () => {
+      Speech.stop();
+      finish("stopped");
+    };
+    stopCurrentClip = stop;
+    Speech.stop();
+    Speech.speak(text, {
+      language: lang,
+      rate: lang === JAPANESE_LANG ? 0.85 : 0.95,
+      onDone: () => finish("ended"),
+      onError: () => finish("ended"),
+      onStopped: () => finish("stopped"),
+    });
+  });
+}
+
+// Makes sure the next clip is already generated and cached while the
+// current one plays, so there's no pause between sentences on a story
+// nobody has listened to before.
+function warmClip(text: string, lang: SpeechLang, voice: PronunciationVoice): void {
+  if (!hasCloudVoice(lang)) return;
+  void fetch(audioUrl(text, lang, voice), { method: "HEAD" })
+    .then((res) => (res.ok ? null : requestGeneration(text, lang, voice)))
+    .catch(() => null);
+}
+
+async function playChunk(text: string, lang: SpeechLang): Promise<ClipResult> {
+  if (!hasCloudVoice(lang)) return speakOnDeviceToEnd(text, lang);
+  const voice = preferredVoice;
+  let result = await playClipToEnd(audioUrl(text, lang, voice));
+  if (result !== "failed") return result;
+  const generatedUrl = await requestGeneration(text, lang, voice);
+  if (generatedUrl) {
+    result = await playClipToEnd(generatedUrl);
+    if (result !== "failed") return result;
+  }
+  return speakOnDeviceToEnd(text, lang);
+}
+
+/**
+ * Reads `chunks` aloud one after another (see speechChunks), with the
+ * same cached cloud voice speak() uses and the same device-voice
+ * fallback. Calls onChunk(i) as each chunk starts and onChunk(null) when
+ * it finishes. Any later speak(), readAloud(), stopReadAloud() or
+ * stopSpeaking() call stops it.
+ */
+export function readAloud(chunks: string[], lang: SpeechLang, onChunk: (index: number | null) => void): void {
+  stopReadAloud();
+  currentPlayer?.remove();
+  currentPlayer = null;
+  Speech.stop();
+  const run = readAloudRun;
+  void (async () => {
+    await loadPronunciationPrefs();
+    if (run !== readAloudRun) return;
+    if (!pronunciationEnabled) {
+      onChunk(null);
+      return;
+    }
+    for (let i = 0; i < chunks.length; i++) {
+      if (run !== readAloudRun) return;
+      onChunk(i);
+      if (i + 1 < chunks.length) warmClip(chunks[i + 1], lang, preferredVoice);
+      const result = await playChunk(chunks[i], lang);
+      if (result === "stopped" || run !== readAloudRun) return;
+    }
+    onChunk(null);
+  })();
 }

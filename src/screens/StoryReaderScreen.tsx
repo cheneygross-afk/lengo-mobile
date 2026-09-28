@@ -6,7 +6,9 @@ import { findStory } from "@/lib/stories/registry";
 import { toExercises } from "@/lib/stories/types";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
-import { langForLevelPath } from "@/lib/speech";
+import { langForLevelPath, readAloud, speechChunks, stopReadAloud } from "@/lib/speech";
+import { glossKey, glossLookup, storyGlosses } from "@/lib/stories/glosses";
+import type { StoryGloss } from "@/lib/stories/types";
 import { useAuth } from "@/lib/auth/AuthContext";
 import { supabase } from "@/lib/supabase/client";
 import {
@@ -39,6 +41,46 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
   // Mirrors the folder names the website's readings routes use
   // (/readings/a1, /readings/c1c2, ...).
   const levelPath = found?.level.levelPath ?? "a1";
+
+  // Reading aids, same as the website's StoryText: a Listen control that
+  // reads the story sentence by sentence (the paragraph being read is
+  // shaded), and dotted-underlined glossed words whose English meaning
+  // shows in a card when tapped.
+  const glosses = useMemo(() => (story ? storyGlosses(story.slug) : []), [story]);
+  const lookup = useMemo(() => glossLookup(glosses), [glosses]);
+  const chunks = useMemo(
+    () => (story ? story.paragraphs.flatMap((p, pi) => speechChunks(p).map((text) => ({ text, pi }))) : []),
+    [story]
+  );
+  const [playing, setPlaying] = useState<number | null>(null);
+  const [shownGloss, setShownGloss] = useState<StoryGloss | null>(null);
+  const [showWordList, setShowWordList] = useState(false);
+  const playingParagraph = playing == null ? null : chunks[playing]?.pi ?? null;
+
+  useEffect(() => {
+    setPlaying(null);
+    setShownGloss(null);
+    return stopReadAloud;
+  }, [slug]);
+
+  function listenFrom(paragraph: number) {
+    const start = chunks.findIndex((c) => c.pi === paragraph);
+    if (start === -1) return;
+    readAloud(
+      chunks.slice(start).map((c) => c.text),
+      langForLevelPath(levelPath),
+      (i) => setPlaying(i == null ? null : i + start)
+    );
+  }
+
+  function toggleListen() {
+    if (playing != null) {
+      stopReadAloud();
+      setPlaying(null);
+    } else {
+      listenFrom(0);
+    }
+  }
 
   const [answered, setAnswered] = useState<Record<number, boolean>>({});
   const answeredCount = Object.keys(answered).length;
@@ -121,69 +163,110 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
   }
 
   return (
-    <ScrollView style={s.container} contentContainerStyle={s.content}>
-      <Text style={s.kicker}>{story.level} · Short story</Text>
-      <Text style={s.title}>{story.title}</Text>
-      <Text style={s.subtitle}>{story.subtitle}</Text>
+    <View style={s.container}>
+      <ScrollView style={s.container} contentContainerStyle={s.content}>
+        <Text style={s.kicker}>{story.level} · Short story</Text>
+        <Text style={s.title}>{story.title}</Text>
+        <Text style={s.subtitle}>{story.subtitle}</Text>
 
-      <View style={s.paragraphs}>
-        {story.paragraphs.map((p, i) => {
-          const blockKey = `p${i}`;
-          return (
-            <HighlightableText
-              key={i}
-              text={p}
-              blockKey={blockKey}
-              highlights={highlightsFor(blockKey)}
-              enabled={loggedIn}
-              markColor={highlightMark}
-              lang={langForLevelPath(levelPath)}
-              textStyle={s.paragraph}
-              onAdd={(start, end, selected) => addHighlight(blockKey, p, start, end, selected)}
-              onRemove={removeHighlight}
-            />
-          );
-        })}
-      </View>
-
-      <View style={s.divider} />
-      <Text style={s.checkHeading}>Comprehension check</Text>
-      <Text style={s.checkMeta}>
-        {answeredCount}/{exercises.length} answered
-        {answeredCount > 0 ? ` · ${correctCount} correct` : ""}
-      </Text>
-
-      {exercises.map((exercise, i) => (
-        <ExerciseBlock
-          key={i}
-          exercise={exercise}
-          index={i}
-          lang={langForLevelPath(levelPath)}
-          onAnswered={(correct) => setAnswered((prev) => ({ ...prev, [i]: correct }))}
-        />
-      ))}
-
-      {allAnswered && (
-        <View style={s.doneBox}>
-          <Text style={s.doneTitle}>Nice work!</Text>
-          <Text style={s.doneBody}>
-            You got {correctCount} of {exercises.length} right.
-          </Text>
-          <Pressable
-            style={s.nextButton}
-            onPress={() =>
-              nextStory
-                ? navigation.replace("StoryReader", { slug: nextStory.slug })
-                : navigation.goBack()
-            }
-          >
-            <Text style={s.nextButtonText}>
-              {nextStory ? `Next: ${nextStory.title} →` : "Back to readings"}
-            </Text>
+        <View style={s.listenRow}>
+          <Pressable style={s.listenButton} onPress={toggleListen} accessibilityRole="button">
+            <Text style={s.listenButtonText}>{playing != null ? "■ Stop" : "▶ Listen to the story"}</Text>
           </Pressable>
         </View>
+
+        {glosses.length > 0 && (
+          <View style={s.wordBox}>
+            <Pressable onPress={() => setShowWordList((v) => !v)} accessibilityRole="button">
+              <Text style={s.wordBoxTitle}>
+                {showWordList ? "▾" : "▸"} Words to know ({glosses.length})
+              </Text>
+            </Pressable>
+            {showWordList &&
+              glosses.map((g) => (
+                <Text key={g.es + g.forms.join()} style={s.wordRow}>
+                  <Text style={s.wordEs}>{g.es}</Text> · {g.en}
+                </Text>
+              ))}
+            {!showWordList && <Text style={s.wordHint}>Tap a dotted word in the story for its meaning.</Text>}
+          </View>
+        )}
+
+        <View style={s.paragraphs}>
+          {story.paragraphs.map((p, i) => {
+            const blockKey = `p${i}`;
+            return (
+              <View key={i} style={playingParagraph === i ? s.playingParagraph : null}>
+                <HighlightableText
+                  text={p}
+                  blockKey={blockKey}
+                  highlights={highlightsFor(blockKey)}
+                  enabled={loggedIn}
+                  markColor={highlightMark}
+                  lang={langForLevelPath(levelPath)}
+                  textStyle={s.paragraph}
+                  onAdd={(start, end, selected) => addHighlight(blockKey, p, start, end, selected)}
+                  onRemove={removeHighlight}
+                  isMarked={(word) => lookup.has(glossKey(word))}
+                  onWordTap={(word) => setShownGloss(lookup.get(glossKey(word)) ?? null)}
+                />
+                <Pressable
+                  onPress={() => listenFrom(i)}
+                  accessibilityRole="button"
+                  accessibilityLabel={`Listen from paragraph ${i + 1}`}
+                >
+                  <Text style={s.fromHere}>▶ From here</Text>
+                </Pressable>
+              </View>
+            );
+          })}
+        </View>
+
+        <View style={s.divider} />
+        <Text style={s.checkHeading}>Comprehension check</Text>
+        <Text style={s.checkMeta}>
+          {answeredCount}/{exercises.length} answered
+          {answeredCount > 0 ? ` · ${correctCount} correct` : ""}
+        </Text>
+
+        {exercises.map((exercise, i) => (
+          <ExerciseBlock
+            key={i}
+            exercise={exercise}
+            index={i}
+            lang={langForLevelPath(levelPath)}
+            onAnswered={(correct) => setAnswered((prev) => ({ ...prev, [i]: correct }))}
+          />
+        ))}
+
+        {allAnswered && (
+          <View style={s.doneBox}>
+            <Text style={s.doneTitle}>Nice work!</Text>
+            <Text style={s.doneBody}>
+              You got {correctCount} of {exercises.length} right.
+            </Text>
+            <Pressable
+              style={s.nextButton}
+              onPress={() =>
+                nextStory
+                  ? navigation.replace("StoryReader", { slug: nextStory.slug })
+                  : navigation.goBack()
+              }
+            >
+              <Text style={s.nextButtonText}>
+                {nextStory ? `Next: ${nextStory.title} →` : "Back to readings"}
+              </Text>
+            </Pressable>
+          </View>
+        )}
+      </ScrollView>
+      {shownGloss && (
+        <Pressable style={s.glossCard} onPress={() => setShownGloss(null)} accessibilityRole="button">
+          <Text style={s.glossEs}>{shownGloss.es}</Text>
+          <Text style={s.glossEn}>{shownGloss.en}</Text>
+        </Pressable>
       )}
-    </ScrollView>
+    </View>
   );
 }
 
@@ -195,6 +278,28 @@ const s = StyleSheet.create({
   title: { fontSize: 22, fontWeight: "800", color: "#000", marginTop: 4 },
   subtitle: { fontSize: 14, color: "#00000099", marginTop: 6, marginBottom: 16 },
   paragraphs: { gap: 12, marginBottom: 20 },
+  playingParagraph: { backgroundColor: "#FDE68A99", borderRadius: 6, marginHorizontal: -6, paddingHorizontal: 6 },
+  fromHere: { fontSize: 12, color: "#00000066", marginTop: 4 },
+  listenRow: { flexDirection: "row", marginBottom: 12 },
+  listenButton: { borderWidth: 1, borderColor: "#00000033", borderRadius: 999, paddingVertical: 8, paddingHorizontal: 16 },
+  listenButtonText: { fontSize: 14, fontWeight: "600", color: "#000" },
+  wordBox: { borderWidth: 1, borderColor: "#00000022", borderRadius: 12, padding: 12, marginBottom: 16, gap: 4 },
+  wordBoxTitle: { fontSize: 14, fontWeight: "600", color: "#000" },
+  wordHint: { fontSize: 12, color: "#00000080" },
+  wordRow: { fontSize: 13, color: "#000000aa" },
+  wordEs: { fontWeight: "600", color: "#000" },
+  glossCard: {
+    position: "absolute",
+    left: 16,
+    right: 16,
+    bottom: 24,
+    backgroundColor: "#111",
+    borderRadius: 12,
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+  },
+  glossEs: { color: "#fff", fontWeight: "700", fontSize: 15 },
+  glossEn: { color: "#ffffffcc", fontSize: 14, marginTop: 2 },
   paragraph: { fontSize: 15, color: "#000000dd", lineHeight: 23 },
   divider: { height: 1, backgroundColor: "#00000018", marginBottom: 16 },
   checkHeading: { fontSize: 17, fontWeight: "700", color: "#000", marginBottom: 2 },
