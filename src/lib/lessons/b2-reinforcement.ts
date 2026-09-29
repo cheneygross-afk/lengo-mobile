@@ -334,9 +334,9 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Pasa al pasado.", "No hay nadie que lo sepa. → No había nadie que lo ___.", "supiera", "Supieron → supiera."),
       mc(
         "«Mi madre me dice que me ponga el abrigo.» → en pasado:",
-        ["Mi madre me dijo que me pusiera el abrigo.", "Mi madre me dijo que me ponga el abrigo.", "Mi madre me dijo que me ponía el abrigo.", "Mi madre me dijo que me pondría el abrigo ahora."],
+        ["Mi madre me dijo que me pusiera el abrigo.", "Mi madre me dijo que me puse el abrigo.", "Mi madre me dijo que me ponía el abrigo.", "Mi madre me dijo que me pondría el abrigo ahora."],
         0,
-        "Dijo (orden) → imperfecto de subjuntivo."
+        "Dijo (orden) → imperfecto de subjuntivo: que me pusiera. Si la orden sigue vigente en el momento de hablar, también es correcto «me dijo que me ponga el abrigo», muy frecuente en América y aceptado por la norma."
       ),
       mt(
         "Relaciona cada infinitivo con su imperfecto de subjuntivo (él).",
@@ -665,7 +665,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué frases mixtas son correctas?",
         ["Si hubiera dormido más, ahora no estaría cansado.", "Si fuera más organizado, no habría perdido el pasaporte.", "Si hubiera estudiado más, habría aprobado.", "Si hubiera estudiado más, apruebo."],
         [0, 1, 2],
-        "La última mezcla un pasado irreal con un presente real."
+        "«Si hubiera estudiado más, apruebo» mezcla un pasado irreal con un presente de indicativo; lo normativo es «habría aprobado» (el presente se oye en el habla coloquial de España, pero no en registro cuidado)."
       ),
       toEs("If I hadn't moved, I would still live with my parents.", "Si no me hubiera mudado, todavía viviría con mis padres.", "Mixta: pasado irreal → presente irreal.", ["Si no me hubiese mudado, todavía viviría con mis padres.", "Si no me hubiera mudado, aún viviría con mis padres."]),
       wo("Si no hubiera llovido aquel día, nunca nos habríamos conocido.", "Tipo 3 completo.", "If it hadn't rained that day, we'd never have met."),
@@ -1394,7 +1394,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "«The student whose parents are doctors…»",
         ["El alumno cuyos padres son médicos…", "El alumno cuyo padres son médicos…", "El alumno quien padres son médicos…", "El alumno que sus padres son médicos…"],
         0,
-        "Cuyos concuerda con padres. (La última forma se oye, pero es incorrecta en la norma.)"
+        "Cuyos concuerda con padres. («El alumno que sus padres…» se oye en el habla, pero es incorrecta en la norma.)"
       ),
       toEs("It's a country whose history I don't know well.", "Es un país cuya historia no conozco bien.", "Cuya concuerda con historia.", ["Es un país cuya historia no conozco muy bien."]),
       wo("La película, cuyo final nadie esperaba, ganó tres premios.", "Cuyo en una relativa explicativa.", "The film, whose ending nobody expected, won three awards."),
@@ -1745,7 +1745,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué frases son correctas?",
         ["Aunque no me creas, es verdad.", "Aunque estaba enfermo, fue a trabajar.", "Aunque tendría tiempo, no iría.", "Aunque me lo pidas de rodillas, no pienso ir."],
         [0, 1, 3],
-        "Nunca condicional tras aunque en ese sentido: aunque tuviera tiempo."
+        "Para una hipótesis, aunque + imperfecto de subjuntivo, no condicional: aunque tuviera tiempo, no iría. (El condicional de cortesía sí cabe con un hecho real: «Aunque me gustaría, no puedo».)"
       ),
       toEs("Even if you (tú) don't like it, you have to eat it.", "Aunque no te guste, tienes que comértelo.", "Aunque + subjuntivo (no importa si te gusta).", ["Aunque no te guste, te lo tienes que comer.", "Aunque no te guste, tienes que comerlo."]),
       wo("Aunque parezca mentira, nunca he visto el mar.", "Aunque parezca mentira = believe it or not.", "Believe it or not, I've never seen the sea."),
@@ -3907,9 +3907,9 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       ms(
         "¿Qué frases son correctas?",
-        ["Me pidieron que diera un discurso.", "Fue en este colegio donde di mi primera clase.", "Cuando me jubile, viajaré.", "Aunque me jubilo, seguiré enseñando si me necesitan mañana ayer."],
+        ["Me pidieron que diera un discurso.", "Fue en este colegio donde di mi primera clase.", "Cuando me jubile, viajaré.", "Aunque me jubile el año pasado, sigo enseñando."],
         [0, 1, 2],
-        "La última es incoherente."
+        "«Aunque me jubile el año pasado» es incorrecta: para un hecho pasado y real se usa indicativo (aunque me jubilé el año pasado, sigo enseñando)."
       ),
       toEs("If I had to choose again, I would be a teacher again.", "Si tuviera que elegir de nuevo, volvería a ser profesora.", "Tipo 2 + volver a.", ["Si tuviera que elegir otra vez, volvería a ser profesor.", "Si tuviera que elegir de nuevo, sería profesora otra vez."]),
       wo("No hay mayor recompensa que ver crecer a tus alumnos.", "No hay mayor… que + infinitivo.", "There's no greater reward than watching your students grow."),
@@ -3995,9 +3995,9 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       ms(
         "¿Qué frases son correctas?",
-        ["Por mucho que entrenes, necesitas descansar.", "Volvió a competir como si nada hubiera pasado.", "Cuando esté recuperada, lo intentaré.", "Hasta que no me recupere, no compito mañana ayer."],
+        ["Por mucho que entrenes, necesitas descansar.", "Volvió a competir como si nada hubiera pasado.", "Cuando esté recuperada, lo intentaré.", "Cuando estaré recuperada, lo intentaré."],
         [0, 1, 2],
-        "La última es incoherente."
+        "«Cuando estaré recuperada» es incorrecta: cuando + futuro lleva subjuntivo (cuando esté recuperada)."
       ),
       toEs("It was her patience that allowed her to return.", "Fue su paciencia lo que le permitió volver.", "Frase hendida con lo que.", ["Fue su paciencia la que le permitió volver."]),
       wo("Aunque tarde meses, volveré a remar con el equipo.", "Aunque + subjuntivo (hipótesis futura).", "Even if it takes months, I'll row with the team again."),
@@ -4208,7 +4208,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué frases son adecuadas en una negociación formal?",
         ["Les agradecería que reconsideraran su postura.", "¡Eso es una tontería!", "Estaríamos abiertos a nuevas propuestas.", "Siempre que haya reciprocidad, cederemos."],
         [0, 2, 3],
-        "La segunda es demasiado directa."
+        "«¡Eso es una tontería!» es demasiado directa para una negociación formal."
       ),
       toEs("Both governments stated that they would continue talking.", "Ambos gobiernos afirmaron que seguirían dialogando.", "Estilo indirecto con condicional.", ["Los dos gobiernos afirmaron que seguirían dialogando.", "Ambos gobiernos declararon que seguirían dialogando."]),
       wo("Fue gracias a la mediación de un tercer país como se llegó a un acuerdo.", "Frase hendida de modo con como.", "It was thanks to a third country's mediation that an agreement was reached."),
@@ -4292,7 +4292,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué frases son correctas?",
         ["Fue aquí donde mi padre aprendió el oficio.", "Me pidió que cuidara los árboles.", "Hay olivos cuya edad supera los quinientos años.", "Si hubiéramos venido más, lo sabríamos cuidar."],
         [0, 1, 2, 3],
-        "Las cuatro son correctas (la última es una mixta)."
+        "Las cuatro son correctas; «Si hubiéramos venido más, lo sabríamos cuidar» es una condicional mixta (pasado irreal → consecuencia presente)."
       ),
       toEs("We'll decide when we're all together.", "Decidiremos cuando estemos todos juntos.", "Cuando + subjuntivo (futuro).", ["Lo decidiremos cuando estemos todos juntos."]),
       wo("Hay cosas que se heredan y otras que hay que ganarse.", "Se pasivo + hay que + infinitivo reflexivo.", "Some things are inherited and others have to be earned."),
@@ -4554,9 +4554,9 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       ms(
         "¿Qué frases son correctas?",
-        ["Fue su hija quien decidió continuar.", "No hay nadie en el pueblo que siga haciéndolo.", "Ojalá los jóvenes valoraran más estas costumbres.", "El camino se hizo cada vez más difícil ayer mañana."],
+        ["Fue su hija quien decidió continuar.", "No hay nadie en el pueblo que siga haciéndolo.", "Ojalá los jóvenes valoraran más estas costumbres.", "Ojalá que no se pierde esta tradición."],
         [0, 1, 2],
-        "La última es incoherente."
+        "«Ojalá que no se pierde» es incorrecta: ojalá exige subjuntivo (ojalá que no se pierda)."
       ),
       toEs("She walked as if she had done it all her life.", "Caminaba como si lo hubiera hecho toda la vida.", "Como si + pluscuamperfecto de subjuntivo.", ["Caminaba como si lo hubiese hecho toda su vida.", "Caminaba como si lo hubiera hecho toda su vida."]),
       wo("Lo que su padre veía como una carga ella lo veía como un regalo.", "Lo que + anteposición + pronombre.", "What her father saw as a burden she saw as a gift."),

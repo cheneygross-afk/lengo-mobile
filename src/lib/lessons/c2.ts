@@ -339,7 +339,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "Las opciones primera, tercera y cuarta emplean correctamente el vocabulario y las funciones descritas; la segunda es contradictoria, porque precisamente dar fe de la identidad de los comparecientes es la función esencial que define al fedatario."
+        "explanation": "Las frases sobre el demandante, el notario y la otorgante emplean correctamente el vocabulario; la del fedatario es contradictoria, porque dar fe de la identidad de los comparecientes es precisamente la función esencial que define al fedatario."
       },
       {
         "type": "word-order",
@@ -474,8 +474,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Contratos, cláusulas y responsabilidad: el vocabulario de las obligaciones (cont'd)",
-        "body": [],
+        "heading": "Actuar en nombre de otro: el poder notarial",
+        "body": [
+          "Estos tres términos describen cómo una persona actúa en representación de otra: el poder notarial es el documento que lo autoriza, el apoderado es la persona autorizada y la legalización de firma certifica que la firma del documento es auténtica."
+        ],
         "examples": [
           {
             "es": "el apoderado",
@@ -656,8 +658,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "Vocabulario: el español jurídico y administrativo (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos del español jurídico",
+        "body": [
+          "Segunda tanda: el proceso judicial (el demandante, la sentencia, el fallo, la instancia, la diligencia judicial), los plazos (el plazo perentorio, la prórroga de plazo) y la representación y los trámites (el apoderado, el poder notarial, el timbre fiscal)."
+        ],
         "examples": [
           {
             "es": "el demandante",
@@ -730,7 +734,69 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": []
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Cómo se llama la persona que inicia una acción legal contra otra?",
+        "options": [
+          "el demandante",
+          "el demandado",
+          "el apoderado",
+          "el notario"
+        ],
+        "correctIndex": 0,
+        "explanation": "El demandante presenta la demanda; el demandado es la persona contra quien se dirige."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Si no presenta el recurso antes de que venza el plazo ___, perderá el derecho a hacerlo.",
+        "answer": "perentorio",
+        "explanation": "Un plazo perentorio es aquel cuyo vencimiento extingue el derecho a actuar."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Para que su hermano firme la compraventa en su nombre, usted necesita…",
+        "options": [
+          "un poder notarial",
+          "una sentencia judicial",
+          "un timbre fiscal",
+          "una diligencia judicial"
+        ],
+        "correctIndex": 0,
+        "explanation": "El poder notarial autoriza a otra persona (el apoderado) a actuar en nuestro nombre."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "el fallo judicial",
+            "right": "decisión final de un tribunal sobre un caso"
+          },
+          {
+            "left": "la prórroga de plazo",
+            "right": "ampliación de un límite temporal ya fijado"
+          },
+          {
+            "left": "la notificación fehaciente",
+            "right": "aviso cuya recepción queda acreditada sin duda"
+          },
+          {
+            "left": "la responsabilidad solidaria",
+            "right": "cualquiera de los obligados responde del total"
+          }
+        ],
+        "explanation": "Términos del proceso judicial y administrativo."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "La empresa recibió un requerimiento ___ para que pagara la deuda en diez días.",
+        "answer": "formal",
+        "explanation": "Un requerimiento formal es una exigencia oficial para que alguien cumpla una obligación."
+      }
+    ]
   },
   {
     "slug": "legal-administrative-spanish-part-2-mastery-check",
@@ -814,7 +880,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "La primera y la tercera oración emplean correctamente el vocabulario; la segunda invierte los papeles, ya que el otorgante es quien concede el poder, no quien lo recibe, y la cuarta atribuye a la legalización de firma una función que no le corresponde."
+        "explanation": "Las frases sobre el apoderado y sobre la responsabilidad solidaria son correctas; la del otorgante invierte los papeles (el otorgante concede el poder, no lo recibe) y la de la legalización de firma le atribuye una función que no tiene: solo certifica la autenticidad de la firma."
       },
       {
         "type": "word-order",
@@ -1371,8 +1437,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Vocabulario: el español médico (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos de la consulta médica",
+        "body": [
+          "Segunda tanda: la exploración (la auscultación, la palpación, el análisis de sangre, la biopsia), el tratamiento (la intervención quirúrgica, el postoperatorio, la convalecencia, la receta médica) y la relación con el paciente (la derivación a un especialista, el consentimiento informado)."
+        ],
         "examples": [
           {
             "es": "el antecedente patológico",
@@ -1554,19 +1622,19 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Familias idiomáticas construidas sobre un mismo verbo",
         "body": [
           "Verbos como tener, estar, dar y echar generan familias enteras de modismos, y el matiz de cada expresión depende tanto del verbo elegido como del sustantivo que lo acompaña. Confundir el verbo de un modismo suele producir una frase agramatical o, en el mejor de los casos, una expresión que un hispanohablante no reconocería como natural.",
-          "Conviene fijarse en que estos modismos son, en gran medida, invariables: no admiten sinónimos del verbo sin perder naturalidad. Sustituir tener por poseer en un modismo con enchufe suena forzado, aunque ambos verbos compartan un significado cercano fuera de la expresión fija."
+          "Conviene fijarse en que estos modismos son, en gran medida, invariables: no admiten sinónimos del verbo sin perder naturalidad. Sustituir tener por poseer en un modismo como tener enchufe (España) suena forzado, aunque ambos verbos compartan un significado cercano fuera de la expresión fija."
         ],
         "examples": [
           {
-            "es": "estar hasta las narices",
+            "es": "estar hasta las narices (España)",
             "en": "haber llegado al límite de la paciencia con algo"
           },
           {
-            "es": "tener enchufe",
+            "es": "tener enchufe (España; en gran parte de América: tener palanca)",
             "en": "contar con contactos influyentes que facilitan conseguir algo"
           },
           {
-            "es": "dar la lata",
+            "es": "dar la lata (España, México)",
             "en": "molestar de forma insistente y repetitiva"
           },
           {
@@ -1761,7 +1829,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "agravar con palabras o acciones una situación ya conflictiva"
           },
           {
-            "es": "estar hasta las narices",
+            "es": "estar hasta las narices (España)",
             "en": "haber llegado al límite de la paciencia con algo"
           },
           {
@@ -1781,7 +1849,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "provocar una confusión considerable"
           },
           {
-            "es": "dar la lata",
+            "es": "dar la lata (España, México)",
             "en": "molestar de forma insistente y repetitiva"
           },
           {
@@ -1821,7 +1889,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "suavizar una mala noticia para que resulte menos dolorosa"
           },
           {
-            "es": "tener enchufe",
+            "es": "tener enchufe (España; en gran parte de América: tener palanca)",
             "en": "contar con contactos influyentes que facilitan conseguir algo"
           },
           {
@@ -1861,7 +1929,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "no poder dormir en toda la noche"
           },
           {
-            "left": "tener enchufe",
+            "left": "tener enchufe (España)",
             "right": "contar con contactos que facilitan las cosas"
           },
           {
@@ -2869,7 +2937,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "el ala del edificio"
             ],
             "correctIndex": 1,
-            "explanation": "Sus ojos brillan como luceros es un símil porque usa la partícula comparativa como; la primera frase es una metáfora directa y las otras dos son ejemplos de catacresis."
+            "explanation": "«Sus ojos brillan como luceros» es un símil porque usa la partícula comparativa «como»; «sus ojos son dos luceros» es una metáfora directa, y «el pie de la mesa» y «el ala del edificio» son catacresis."
           }
         ]
       },
@@ -5139,8 +5207,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "5 min",
     "sections": [
       {
-        "heading": "Inferir significado a partir del contexto (cont'd)",
-        "body": [],
+        "heading": "Saber cuándo no resolver una duda",
+        "body": [
+          "Dos estrategias complementarias: si la ambigüedad es intencionada, conviene dejar la interpretación abierta; si solo se trata de una palabra desconocida, lo mejor es seguir leyendo sin detenerse para no perder el hilo."
+        ],
         "examples": [
           {
             "es": "dejar la interpretación abierta",
@@ -5237,8 +5307,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Los cambios de registro dentro de un mismo discurso (cont'd)",
-        "body": [],
+        "heading": "Detectar el cambio de tono intencionado",
+        "body": [
+          "Los ejemplos describen dos maniobras que conviene reconocer: el quiebre de tono deliberado (el hablante cambia de registro para provocar un efecto) y la máscara de neutralidad (un tono aparentemente objetivo que esconde una valoración)."
+        ],
         "examples": [
           {
             "es": "un quiebre de tono deliberado",
@@ -5316,8 +5388,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Conexiones lógicas implícitas en el texto escrito (cont'd)",
-        "body": [],
+        "heading": "Lo que el texto no dice: conectores ausentes y saber compartido",
+        "body": [
+          "La prosa madura usa pocos conectores explícitos y da por compartidos muchos conocimientos; el lector tiene que reponer esas relaciones lógicas y esos datos implícitos para entender el texto."
+        ],
         "examples": [
           {
             "es": "la economía de conectores",
@@ -5397,8 +5471,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "La velocidad del habla nativa y las estrategias auditivas (cont'd)",
-        "body": [],
+        "heading": "Entrenar el oído con distintas variedades",
+        "body": [
+          "Acostumbrar el oído a varios acentos es la mejor prevención contra el bloqueo que produce una variedad desconocida: cuanto más variadas son las fuentes de escucha, menos desconcierta un acento nuevo."
+        ],
         "examples": [
           {
             "es": "acostumbrar el oído a varios acentos",
@@ -5547,7 +5623,73 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": []
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "De sus evasivas se puede ___ que no piensa firmar el acuerdo.",
+        "answer": "colegir",
+        "altAnswers": [
+          "deducir",
+          "inferir"
+        ],
+        "explanation": "Colegir es llegar a una conclusión a partir de indicios, aunque no se diga de forma explícita."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "El significado literal y objetivo de una palabra es su…",
+        "options": [
+          "denotación",
+          "subtexto",
+          "entonación",
+          "redundancia"
+        ],
+        "correctIndex": 0,
+        "explanation": "La denotación es el significado literal; lo que se sugiere por debajo es el subtexto."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "el subtexto",
+            "right": "significado implícito bajo las palabras literales"
+          },
+          {
+            "left": "el eje temático",
+            "right": "idea central que organiza un texto"
+          },
+          {
+            "left": "la redundancia",
+            "right": "repetición innecesaria de una información"
+          },
+          {
+            "left": "la entonación",
+            "right": "patrón melódico de la voz"
+          }
+        ],
+        "explanation": "Conceptos clave de la comprensión."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Alguien dice «Sí, claro, qué gran idea» con evidente ironía. Para entenderlo, hay que atender sobre todo a…",
+        "options": [
+          "la entonación",
+          "la denotación",
+          "la redundancia",
+          "el eje temático"
+        ],
+        "correctIndex": 0,
+        "explanation": "La entonación revela que el sentido real es contrario al literal."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Palabras como «sin embargo» o «por tanto» son ___ que enlazan ideas.",
+        "answer": "conectores",
+        "explanation": "Un conector es la palabra o frase que enlaza ideas dentro de un discurso."
+      }
+    ]
   },
   {
     "slug": "listening-reading-strategies-8",
@@ -5558,8 +5700,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "Vocabulario: la comprensión avanzada (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos de la comprensión",
+        "body": [
+          "Segunda tanda: procesos de interpretación (la inferencia, la inferencia contextual, la pista contextual, el doble nivel de lectura), lo no dicho (el supuesto implícito, el sobrentendido, el trasfondo implícito) y rasgos de la escucha (la velocidad de habla, el acento regional, la escucha activa)."
+        ],
         "examples": [
           {
             "es": "el registro discursivo",
@@ -5632,7 +5776,69 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": []
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "«Anamnesis», en un informe médico, es un ejemplo de…",
+        "options": [
+          "tecnicismo",
+          "sobrentendido",
+          "énfasis prosódico",
+          "acento regional"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un tecnicismo es un término propio de un campo especializado."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "«Es decir» y «o sea» introducen una ___: la misma idea dicha con otras palabras.",
+        "answer": "reformulación",
+        "explanation": "La reformulación expresa una idea con otras palabras para facilitar su comprensión."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "la pista contextual",
+            "right": "elemento del entorno que ayuda a deducir un significado"
+          },
+          {
+            "left": "el énfasis prosódico",
+            "right": "realce que la voz da a ciertas palabras"
+          },
+          {
+            "left": "el doble nivel de lectura",
+            "right": "posibilidad de interpretar un texto de dos maneras"
+          },
+          {
+            "left": "la escucha activa",
+            "right": "atención plena a lo que dice el interlocutor"
+          }
+        ],
+        "explanation": "Estrategias y conceptos de la comprensión avanzada."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "«Echar una mano» es una ___: su sentido no se deduce de sus palabras sueltas.",
+        "options": [
+          "locución",
+          "inferencia",
+          "reformulación",
+          "tecnicismo"
+        ],
+        "correctIndex": 0,
+        "explanation": "Una locución es una expresión fija cuyo significado no se deduce de sus palabras por separado."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "No conocía la palabra, pero deduje su sentido gracias a una pista ___.",
+        "answer": "contextual",
+        "explanation": "La pista contextual es un elemento del entorno del texto que ayuda a deducir un significado."
+      }
+    ]
   },
   {
     "slug": "debate-persuasion-1",
@@ -5689,8 +5895,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "Conceder antes de refutar: la estrategia de la concesión (cont'd)",
-        "body": [],
+        "heading": "Conceder con estrategia, no rendirse",
+        "body": [
+          "Una concesión estratégica admite un punto menor para ganar credibilidad y reforzar la tesis propia; negarlo todo de raíz, en cambio, suele restar autoridad a quien argumenta."
+        ],
         "examples": [
           {
             "es": "la concesión estratégica",
@@ -5787,8 +5995,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "Reconocer y evitar las falacias más frecuentes (cont'd)",
-        "body": [],
+        "heading": "Dos falacias frecuentes: la pendiente resbaladiza y la petición de principio",
+        "body": [
+          "Encadenar consecuencias extremas sin justificar cada paso es la falacia de la pendiente resbaladiza; dar por probado lo que se pretende demostrar es la petición de principio, un argumento circular."
+        ],
         "examples": [
           {
             "es": "encadenar consecuencias extremas",
@@ -5967,8 +6177,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Recursos retóricos para reforzar un argumento (cont'd)",
-        "body": [],
+        "heading": "Reiterar sin cansar, persuadir sin perder crédito",
+        "body": [
+          "La repetición con variaciones ayuda a que el auditorio retenga la idea central, pero el exceso retórico sin datos que lo respalden hace perder credibilidad."
+        ],
         "examples": [
           {
             "es": "repetir una idea central con variaciones",
@@ -6100,7 +6312,76 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": []
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "«No hagas caso de su propuesta: ni siquiera terminó la carrera.» ¿Qué falacia es?",
+        "options": [
+          "ad hominem",
+          "de autoridad",
+          "del hombre de paja",
+          "de la pendiente resbaladiza"
+        ],
+        "correctIndex": 0,
+        "explanation": "Ataca a la persona en vez de a su argumento: falacia ad hominem."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "«Usted quiere bajar los impuestos, o sea, que le da igual que cierren los hospitales.» ¿Qué falacia es?",
+        "options": [
+          "del hombre de paja",
+          "ad hominem",
+          "de autoridad",
+          "petición de principio"
+        ],
+        "correctIndex": 0,
+        "explanation": "Deforma el argumento ajeno para refutarlo con más facilidad: falacia del hombre de paja."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Antes de rebatir, conviene ___ lo que el adversario tiene de razón.",
+        "answer": "conceder",
+        "altAnswers": [
+          "admitir",
+          "reconocer"
+        ],
+        "explanation": "Conceder es admitir como válido un punto antes de continuar con la propia postura."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "el sofisma",
+            "right": "argumento engañoso que parece válido"
+          },
+          {
+            "left": "la premisa mayor",
+            "right": "afirmación general de la que parte un silogismo"
+          },
+          {
+            "left": "la elocuencia",
+            "right": "capacidad de expresarse con fluidez y persuasión"
+          },
+          {
+            "left": "el dilema",
+            "right": "elección entre dos opciones con consecuencias importantes"
+          }
+        ],
+        "explanation": "Términos de la lógica y la retórica."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Presentó datos nuevos para ___ el efecto del argumento contrario.",
+        "answer": "contrarrestar",
+        "altAnswers": [
+          "neutralizar"
+        ],
+        "explanation": "Contrarrestar es oponer razones para debilitar el efecto de un argumento contrario."
+      }
+    ]
   },
   {
     "slug": "debate-persuasion-9",
@@ -6111,8 +6392,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "Vocabulario: el debate y la persuasión (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos del debate",
+        "body": [
+          "Segunda tanda: la réplica (la contrarréplica, el turno de réplica, la respuesta contundente, desmontar un argumento), las falacias (la pendiente resbaladiza, la petición de principio) y las actitudes (la intransigencia, la vehemencia, el matiz conciliador, la avenencia)."
+        ],
         "examples": [
           {
             "es": "la respuesta contundente",
@@ -6185,7 +6468,77 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": []
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "«Si permitimos esto, mañana lo permitiremos todo y acabaremos en el caos.» ¿Qué falacia es?",
+        "options": [
+          "la pendiente resbaladiza",
+          "la petición de principio",
+          "ad hominem",
+          "el hombre de paja"
+        ],
+        "correctIndex": 0,
+        "explanation": "Encadena consecuencias extremas sin justificar cada paso."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "«Este libro dice la verdad porque todo lo que contiene es verdadero.» ¿Qué falacia es?",
+        "options": [
+          "la petición de principio",
+          "la pendiente resbaladiza",
+          "ad hominem",
+          "de autoridad"
+        ],
+        "correctIndex": 0,
+        "explanation": "Da por probado precisamente lo que debería demostrar: es un argumento circular."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Señaló uno por uno sus fallos hasta ___ el argumento por completo.",
+        "answer": "desmontar",
+        "altAnswers": [
+          "rebatir",
+          "refutar",
+          "desbaratar"
+        ],
+        "explanation": "Desmontar un argumento es señalar sus fallos hasta anularlo."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "la contrarréplica",
+            "right": "respuesta a una réplica anterior"
+          },
+          {
+            "left": "la intransigencia",
+            "right": "negativa a ceder en una postura"
+          },
+          {
+            "left": "la avenencia",
+            "right": "acuerdo alcanzado tras un desacuerdo"
+          },
+          {
+            "left": "el dato contrastado",
+            "right": "información verificada que respalda un argumento"
+          }
+        ],
+        "explanation": "Vocabulario del debate."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Tras la intervención del ponente, el moderador abrió el turno de ___.",
+        "answer": "réplica",
+        "altAnswers": [
+          "réplicas"
+        ],
+        "explanation": "El turno de réplica es el momento reservado para responder al oponente."
+      }
+    ]
   },
   {
     "slug": "presentations-negotiation-1",
@@ -6242,8 +6595,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "5 min",
     "sections": [
       {
-        "heading": "La estructura de una presentación oral de alto nivel (cont'd)",
-        "body": [],
+        "heading": "El final de la presentación",
+        "body": [
+          "Una presentación de alto nivel no termina en la última diapositiva: el cierre memorable resume la idea central y la ronda de preguntas es una segunda ocasión para reforzar los puntos clave."
+        ],
         "examples": [
           {
             "es": "un cierre memorable",
@@ -6380,8 +6735,10 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Superar el punto muerto y llegar a un acuerdo (cont'd)",
-        "body": [],
+        "heading": "Cerrar bien el acuerdo",
+        "body": [
+          "Una vez desbloqueada la negociación, hay que formalizar el acuerdo con precisión (condiciones, plazos, vigencia); un cierre ambiguo deja abierta la puerta a futuros conflictos."
+        ],
         "examples": [
           {
             "es": "formalizar el acuerdo con precisión",
@@ -6493,8 +6850,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "El lenguaje corporal y la seguridad al negociar y exponer (cont'd)",
-        "body": [],
+        "heading": "Recursos de seguridad: el as bajo la manga y la escucha",
+        "body": [
+          "Reservar un as bajo la manga permite responder con fuerza en el momento oportuno, y escuchar de verdad los argumentos ajenos transmite más seguridad que interrumpir."
+        ],
         "examples": [
           {
             "es": "reservar un as bajo la manga",
@@ -6643,7 +7002,75 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": []
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Tras horas sin que ninguna de las partes cediera, la negociación llegó a…",
+        "options": [
+          "un punto muerto",
+          "un acuerdo marco",
+          "un hilo conductor",
+          "un toma y daca"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un punto muerto (o impasse) es una fase en la que no se produce ningún avance."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Rechazaron nuestra oferta y presentaron una ___ con un precio más bajo.",
+        "answer": "contraoferta",
+        "altAnswers": [
+          "contrapropuesta"
+        ],
+        "explanation": "La contraoferta es la propuesta alternativa que responde a una oferta inicial."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "zanjar",
+            "right": "resolver definitivamente una cuestión"
+          },
+          {
+            "left": "el hilo conductor",
+            "right": "idea central que da coherencia a una presentación"
+          },
+          {
+            "left": "el margen de maniobra",
+            "right": "espacio para negociar sin perder la propia posición"
+          },
+          {
+            "left": "el toma y daca",
+            "right": "intercambio de concesiones mutuas"
+          }
+        ],
+        "explanation": "Vocabulario de la presentación y la negociación."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "El principal ___ de la negociación fue el plazo de entrega: nadie quería ceder.",
+        "answer": "escollo",
+        "altAnswers": [
+          "obstáculo"
+        ],
+        "explanation": "Un escollo es un obstáculo que dificulta el avance de una negociación."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué debe conseguir un buen ponente en los primeros segundos de su exposición?",
+        "options": [
+          "captar la atención del auditorio",
+          "rematar la exposición",
+          "zanjar la cuestión",
+          "flexibilizar la postura"
+        ],
+        "correctIndex": 0,
+        "explanation": "La apertura debe captar la atención; rematar la exposición corresponde al final."
+      }
+    ]
   },
   {
     "slug": "presentations-negotiation-8",
@@ -6654,8 +7081,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "Vocabulario: las presentaciones y la negociación (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos de presentación y negociación",
+        "body": [
+          "Segunda tanda: la estructura de la exposición (el preámbulo, la exposición de motivos, el argumento de cierre, la ronda de preguntas) y la táctica negociadora (la estrategia de anclaje, la cesión mutua, el límite infranqueable, la contraparte)."
+        ],
         "examples": [
           {
             "es": "negociar de buena fe",
@@ -6728,7 +7157,69 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": []
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Pedir al principio un precio muy alto para condicionar el resto de la negociación es…",
+        "options": [
+          "la estrategia de anclaje",
+          "la cesión mutua",
+          "el preámbulo",
+          "la ronda de preguntas"
+        ],
+        "correctIndex": 0,
+        "explanation": "La estrategia de anclaje fija una cifra inicial que condiciona todo lo que viene después."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "El acuerdo tiene un plazo de ___ de dos años.",
+        "answer": "vigencia",
+        "explanation": "El plazo de vigencia es el período durante el cual un acuerdo permanece en vigor."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "la contraparte",
+            "right": "la otra parte de una negociación"
+          },
+          {
+            "left": "el límite infranqueable",
+            "right": "punto a partir del cual ya no se puede ceder"
+          },
+          {
+            "left": "el preámbulo",
+            "right": "introducción que precede al cuerpo de la exposición"
+          },
+          {
+            "left": "negociar de buena fe",
+            "right": "negociar con la intención honesta de llegar a un acuerdo"
+          }
+        ],
+        "explanation": "Vocabulario de la negociación."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Guardó un dato decisivo para usarlo solo cuando la otra parte ya no pudiera reaccionar. Ese dato era su…",
+        "options": [
+          "as bajo la manga",
+          "plazo de vigencia",
+          "preámbulo",
+          "límite infranqueable"
+        ],
+        "correctIndex": 0,
+        "explanation": "El as bajo la manga es un recurso que se reserva para el momento decisivo."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Ambas partes renunciaron a algo: el acuerdo fue posible gracias a una cesión ___.",
+        "answer": "mutua",
+        "explanation": "La cesión mutua es la renuncia parcial que las dos partes aceptan para avanzar."
+      }
+    ]
   },
   {
     "slug": "citations-references-1",
@@ -6785,8 +7276,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "5 min",
     "sections": [
       {
-        "heading": "Cita textual frente a cita indirecta (cont'd)",
-        "body": [],
+        "heading": "Cuándo y cómo citar literalmente",
+        "body": [
+          "La cita textual exige marcar con precisión dónde empieza y dónde acaba el entrecomillado, y se prefiere a la paráfrasis cuando la formulación exacta del autor es insustituible, por ejemplo por un término técnico."
+        ],
         "examples": [
           {
             "es": "marcar el entrecomillado con precisión",
@@ -6883,8 +7376,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Fórmulas de atribución en la prosa formal (cont'd)",
-        "body": [],
+        "heading": "La fórmula de atribución también opina",
+        "body": [
+          "Fórmulas como «cabe citar a este respecto» introducen una fuente especialmente pertinente, y la elección del verbo de atribución (señala, sostiene, pretende, admite) permite tomar posición ante la fuente sin decirlo abiertamente."
+        ],
         "examples": [
           {
             "es": "cabe citar a este respecto",
@@ -6956,8 +7451,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "El corpus documental y el aparato crítico (cont'd)",
-        "body": [],
+        "heading": "Fuentes indirectas y marco teórico",
+        "body": [
+          "Si solo conocemos una fuente a través de otra, hay que señalarlo (cita de segunda mano: «citado en…»); y un marco teórico sólido se apoya en un conjunto de referencias, no en una sola."
+        ],
         "examples": [
           {
             "es": "señalar una cita de segunda mano",
@@ -7045,8 +7542,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "El plagio y los límites de la reformulación (cont'd)",
-        "body": [],
+        "heading": "Riesgos de la reformulación y de la fuente única",
+        "body": [
+          "Una paráfrasis demasiado pegada al original funciona como una cita textual encubierta, es decir, como plagio; y apoyarse en una única referencia debilita cualquier tesis."
+        ],
         "examples": [
           {
             "es": "una cita textual encubierta",
@@ -7191,7 +7690,70 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": []
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Para un historiador, una carta escrita por Simón Bolívar en 1815 es una fuente…",
+        "options": [
+          "primaria",
+          "secundaria",
+          "de segunda mano",
+          "aclaratoria"
+        ],
+        "correctIndex": 0,
+        "explanation": "Una fuente primaria es un documento original que aporta información de primera mano."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Una cita textual debe ir entre ___.",
+        "answer": "comillas",
+        "explanation": "El entrecomillado marca dónde empieza y dónde acaba la cita textual."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "glosar",
+            "right": "comentar un texto con palabras propias"
+          },
+          {
+            "left": "la nota al pie",
+            "right": "aclaración o referencia al final de la página"
+          },
+          {
+            "left": "la cita indirecta",
+            "right": "reformulación del contenido sin copiar las palabras"
+          },
+          {
+            "left": "la autoría",
+            "right": "condición de creador original de una obra"
+          }
+        ],
+        "explanation": "Vocabulario de la citación."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Para un análisis más detallado, ___ al lector a la obra de Pérez (2010).",
+        "answer": "remito",
+        "altAnswers": [
+          "remitimos"
+        ],
+        "explanation": "Remitir al lector a otra obra es indicarle dónde puede ampliar la información."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "La ___ académica exige reconocer siempre el origen de las ideas ajenas.",
+        "answer": "integridad",
+        "altAnswers": [
+          "honestidad"
+        ],
+        "explanation": "La integridad académica es el compromiso de actuar con honestidad al investigar y escribir."
+      }
+    ]
   },
   {
     "slug": "citations-references-8",
@@ -7202,8 +7764,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "Vocabulario: las citas y referencias (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos de citación",
+        "body": [
+          "Segunda tanda: fórmulas de atribución (según lo expuesto por, según se desprende de), el formato (la norma de citación, el estilo de citación, la referencia bibliográfica, el aparato crítico) y la ética de la cita (el crédito intelectual, la fidelidad textual, cotejar fuentes)."
+        ],
         "examples": [
           {
             "es": "la referencia cruzada",
@@ -7276,7 +7840,73 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": []
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Citar a Platón a partir de lo que dice otro autor, sin haber consultado a Platón, es una…",
+        "options": [
+          "cita de segunda mano",
+          "paráfrasis fiel",
+          "referencia cruzada",
+          "nota aclaratoria"
+        ],
+        "correctIndex": 0,
+        "explanation": "La cita de segunda mano remite a una fuente conocida solo a través de otra; hay que indicarlo («citado en…»)."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Antes de publicar el dato, conviene ___ fuentes para verificarlo.",
+        "answer": "cotejar",
+        "altAnswers": [
+          "contrastar",
+          "comparar"
+        ],
+        "explanation": "Cotejar fuentes es compararlas para verificar la exactitud de una información."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "el aparato crítico",
+            "right": "conjunto de notas y referencias de un texto académico"
+          },
+          {
+            "left": "la referencia cruzada",
+            "right": "remisión a otra parte del mismo texto"
+          },
+          {
+            "left": "el vacío de cita",
+            "right": "falta de una referencia necesaria"
+          },
+          {
+            "left": "el crédito intelectual",
+            "right": "reconocimiento que merece el autor original"
+          }
+        ],
+        "explanation": "Vocabulario de las referencias."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "___ se desprende del informe, la inflación seguirá bajando este año.",
+        "answer": "Según",
+        "explanation": "«Según se desprende de» introduce una conclusión basada en el contenido de una fuente."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "APA, MLA y Chicago son distintos…",
+        "options": [
+          "estilos de citación",
+          "aparatos críticos",
+          "vacíos de cita",
+          "repertorios de fuentes"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un estilo de citación es el sistema normalizado que regula el formato de las referencias."
+      }
+    ]
   },
   {
     "slug": "rhetorical-questions-1",
@@ -7333,8 +7963,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "La función persuasiva de la pregunta retórica (cont'd)",
-        "body": [],
+        "heading": "Preguntas que comprometen o dan la respuesta por hecha",
+        "body": [
+          "La pregunta capciosa empuja al interlocutor hacia una respuesta que lo compromete; otras preguntas retóricas dan por sentada la respuesta y la presentan como obvia."
+        ],
         "examples": [
           {
             "es": "una pregunta capciosa bien calculada",
@@ -7411,8 +8043,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "La hipofora: preguntar y responder uno mismo (cont'd)",
-        "body": [],
+        "heading": "Usar la hipofora con medida",
+        "body": [
+          "La hipofora (preguntar y responder uno mismo) conduce al oyente hacia una conclusión preparada, pero si se encadena de forma mecánica pierde fuerza y resulta monótona."
+        ],
         "examples": [
           {
             "es": "una sucesión mecánica de preguntas",
@@ -7477,8 +8111,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "La anáfora y la reiteración interrogativa (cont'd)",
-        "body": [],
+        "heading": "El eco de la anáfora: memoria y exceso",
+        "body": [
+          "Repetir la misma estructura interrogativa ayuda al público a retener la idea central, pero un exceso de repeticiones diluye el efecto."
+        ],
         "examples": [
           {
             "es": "diluir el efecto por exceso",
@@ -7558,8 +8194,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Otras estructuras de énfasis: la interpelación y la duda fingida (cont'd)",
-        "body": [],
+        "heading": "Duda fingida e interpelación: para qué sirven",
+        "body": [
+          "La duda retórica permite suavizar una crítica sin formularla directamente, y la interpelación compromete emocionalmente al oyente al dirigirle la pregunta a él."
+        ],
         "examples": [
           {
             "es": "suavizar una afirmación tajante",
@@ -7738,8 +8376,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "Vocabulario: las preguntas retóricas (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos de la pregunta retórica",
+        "body": [
+          "Segunda tanda: tipos de pregunta (la pregunta introspectiva, la pregunta abierta con fin persuasivo, la ironía interrogativa) y conceptos para analizarlas (la fuerza ilocutiva, la modalidad interrogativa, el artificio retórico, el eco discursivo)."
+        ],
         "examples": [
           {
             "es": "la evidencia implícita",
@@ -7812,7 +8452,75 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": []
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "«¿Y tú eres el experto?», dicho a alguien que acaba de equivocarse, es un ejemplo de…",
+        "options": [
+          "ironía interrogativa",
+          "pregunta introspectiva",
+          "modalidad declarativa",
+          "pregunta de información"
+        ],
+        "correctIndex": 0,
+        "explanation": "La ironía interrogativa es una pregunta cuyo sentido real es contrario al literal."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Más que pedir información, la pregunta retórica sirve para ___ una idea.",
+        "answer": "subrayar",
+        "altAnswers": [
+          "resaltar",
+          "enfatizar",
+          "destacar",
+          "reforzar"
+        ],
+        "explanation": "Subrayar mediante la pregunta es resaltar una idea formulándola en forma interrogativa."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "la fuerza ilocutiva",
+            "right": "intención comunicativa real de un enunciado"
+          },
+          {
+            "left": "la insinuación",
+            "right": "idea sugerida de manera indirecta"
+          },
+          {
+            "left": "el eco discursivo",
+            "right": "repetición de una idea a lo largo del discurso"
+          },
+          {
+            "left": "la pregunta introspectiva",
+            "right": "pregunta dirigida a la propia reflexión"
+          }
+        ],
+        "explanation": "Conceptos para analizar las preguntas retóricas."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Una serie de preguntas retóricas seguidas con un mismo fin es una pregunta retórica ___.",
+        "answer": "encadenada",
+        "explanation": "La pregunta retórica encadenada es una sucesión de preguntas que persiguen el mismo efecto."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "«¿Quién no ha dudado alguna vez de sí mismo?» Esta pregunta…",
+        "options": [
+          "no espera respuesta: presenta la respuesta como obvia",
+          "pide un dato concreto al público",
+          "expresa ignorancia real del hablante",
+          "es una pregunta capciosa"
+        ],
+        "correctIndex": 0,
+        "explanation": "Es una pregunta sin respuesta esperada: todos hemos dudado alguna vez."
+      }
+    ]
   },
   {
     "slug": "job-interview-spanish-1",
@@ -7845,8 +8553,10 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Describir fortalezas sin caer en la fanfarronería (cont'd)",
-        "body": [],
+        "heading": "Evitar la vaguedad y ajustarse al puesto",
+        "body": [
+          "Una fortaleza sin ejemplo suena hueca; además, conviene elegir las cualidades que mejor encajan con el perfil que busca la empresa."
+        ],
         "examples": [
           {
             "es": "sonar hueco por vaguedad",
@@ -7919,8 +8629,10 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Hablar de un punto de mejora con honestidad estratégica (cont'd)",
-        "body": [],
+        "heading": "Sinceridad y resultados",
+        "body": [
+          "El punto de mejora convence cuando se reconoce con sinceridad y se acompaña de un resultado ya visible que demuestre el progreso."
+        ],
         "examples": [
           {
             "es": "reconocer con sinceridad",
@@ -8061,8 +8773,10 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Cerrar la entrevista: preguntas propias y pretensión salarial (cont'd)",
-        "body": [],
+        "heading": "Despedirse con seguridad",
+        "body": [
+          "Un cierre breve y firme deja una buena impresión final; no hacer ninguna pregunta al final, en cambio, se interpreta como falta de interés."
+        ],
         "examples": [
           {
             "es": "un cierre conciso y seguro",
@@ -8269,8 +8983,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "Vocabulario: las entrevistas de trabajo (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos de la entrevista",
+        "body": [
+          "Segunda tanda: cualidades del candidato (la proactividad, la iniciativa, la capacidad de negociación, gestionar el tiempo con eficacia), su recorrido (la trayectoria profesional, la formación continua, la referencia laboral) y el formato de la entrevista (la entrevista por competencias, la autoevaluación)."
+        ],
         "examples": [
           {
             "es": "la referencia laboral",
@@ -8343,7 +9059,77 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": []
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "En una entrevista te piden ejemplos concretos de cómo actuaste en situaciones pasadas. Es una entrevista…",
+        "options": [
+          "por competencias",
+          "de grupo",
+          "de salida",
+          "informativa"
+        ],
+        "correctIndex": 0,
+        "explanation": "La entrevista por competencias se centra en ejemplos reales de comportamiento pasado."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Adelantarse a los problemas sin esperar instrucciones es una muestra de ___.",
+        "answer": "proactividad",
+        "altAnswers": [
+          "iniciativa"
+        ],
+        "explanation": "La proactividad es la disposición a actuar por iniciativa propia."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "la referencia laboral",
+            "right": "persona que puede avalar tu desempeño previo"
+          },
+          {
+            "left": "el margen de crecimiento",
+            "right": "posibilidades de progresar en el puesto"
+          },
+          {
+            "left": "la formación continua",
+            "right": "actualización constante de conocimientos"
+          },
+          {
+            "left": "el valor añadido",
+            "right": "aportación distintiva más allá de lo esperado"
+          }
+        ],
+        "explanation": "Vocabulario de la entrevista de trabajo."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Cuando falló el proveedor, supe ___ el obstáculo buscando otro en veinticuatro horas.",
+        "answer": "sortear",
+        "altAnswers": [
+          "superar",
+          "salvar"
+        ],
+        "explanation": "Sortear un obstáculo es superarlo con habilidad e ingenio."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Traduce al español.",
+        "source": "I work well under pressure.",
+        "answer": "Trabajo bien bajo presión.",
+        "altAnswers": [
+          "Rindo bien bajo presión.",
+          "Sé trabajar bajo presión.",
+          "Trabajo bien bajo presión"
+        ],
+        "explanation": "Afrontar la presión: mantener un buen desempeño en circunstancias exigentes."
+      }
+    ]
   },
   {
     "slug": "conflict-resolution-1",
@@ -8376,8 +9162,10 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Desactivar la tensión antes de abordar el fondo (cont'd)",
-        "body": [],
+        "heading": "Primero, bajar el tono",
+        "body": [
+          "Bajar el tono reduce la carga emocional del intercambio; abordar el fondo demasiado pronto, en cambio, puede reavivar la disputa."
+        ],
         "examples": [
           {
             "es": "bajar el tono de la conversación",
@@ -8538,8 +9326,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Buscar el término medio y el acuerdo mutuo (cont'd)",
-        "body": [],
+        "heading": "Un acuerdo claro y percibido como justo",
+        "body": [
+          "Formular el acuerdo con claridad evita que la ambigüedad reabra el conflicto; el objetivo es una solución que ambas partes perciban como justa."
+        ],
         "examples": [
           {
             "es": "formular el acuerdo con claridad",
@@ -8620,8 +9410,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "La disculpa sincera y la restauración de la relación (cont'd)",
-        "body": [],
+        "heading": "La reconciliación lleva tiempo",
+        "body": [
+          "Restaurar la relación exige bajar la guardia y aceptar cierta vulnerabilidad, y asumir que el resentimiento no se supera de un día para otro."
+        ],
         "examples": [
           {
             "es": "bajar la guardia tras el conflicto",
@@ -8802,8 +9594,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "Vocabulario: la resolución de conflictos (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos de la mediación",
+        "body": [
+          "Segunda tanda: acciones del mediador (moderar la discusión, tender puentes, bajar el tono), actitudes (bajar la guardia, la voluntad de entendimiento, el desacuerdo constructivo) y resultados (el pacto de convivencia, restaurar la relación)."
+        ],
         "examples": [
           {
             "es": "moderar la discusión",
@@ -8876,7 +9670,69 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": []
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "Crear vías de entendimiento entre posturas enfrentadas es…",
+        "options": [
+          "tender puentes",
+          "bajar la guardia",
+          "el punto de fricción",
+          "el rencor"
+        ],
+        "correctIndex": 0,
+        "explanation": "Tender puentes es crear vías de entendimiento entre posturas enfrentadas."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Los dos reconocieron su parte de culpa: asumieron una responsabilidad ___.",
+        "answer": "compartida",
+        "explanation": "Asumir responsabilidad compartida es reconocer que ambas partes contribuyeron al conflicto."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "el punto de fricción",
+            "right": "aspecto concreto que provoca la tensión"
+          },
+          {
+            "left": "el rencor",
+            "right": "resentimiento que persiste tras un agravio"
+          },
+          {
+            "left": "el pacto de convivencia",
+            "right": "acuerdo que regula cómo convivir tras un conflicto"
+          },
+          {
+            "left": "el desacuerdo constructivo",
+            "right": "diferencia de opinión expresada con respeto"
+          }
+        ],
+        "explanation": "Vocabulario de la mediación."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Tras años de enfrentamiento, las dos familias decidieron deponer las ___.",
+        "answer": "hostilidades",
+        "explanation": "Deponer las hostilidades es dejar la confrontación para buscar el entendimiento."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Para calmar una discusión acalorada, lo primero que aconseja un mediador es…",
+        "options": [
+          "bajar el tono",
+          "reavivar la disputa",
+          "abordar el fondo cuanto antes",
+          "buscar un culpable"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bajar el tono reduce la carga emocional antes de tratar el fondo."
+      }
+    ]
   },
   {
     "slug": "historical-narrative-1",
@@ -8933,8 +9789,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "5 min",
     "sections": [
       {
-        "heading": "El reparto de funciones entre el indefinido y el imperfecto (cont'd)",
-        "body": [],
+        "heading": "Qué pasa si se invierte el reparto",
+        "body": [
+          "Los ejemplos describen los dos errores simétricos: el indefinido usado para el fondo entrecorta el relato, y el imperfecto usado para hechos puntuales diluye los momentos decisivos."
+        ],
         "examples": [
           {
             "es": "un relato entrecortado",
@@ -9030,8 +9888,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "El pluscuamperfecto y la profundidad temporal del relato (cont'd)",
-        "body": [],
+        "heading": "Profundidad temporal: riesgo y beneficio",
+        "body": [
+          "Sin pluscuamperfecto la jerarquía temporal se aplana y el lector confunde el orden de los hechos; con él, se puede explicar el antecedente de una decisión sin abandonar el relato principal."
+        ],
         "examples": [
           {
             "es": "aplanar la jerarquía temporal",
@@ -9138,8 +9998,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "5 min",
     "sections": [
       {
-        "heading": "Cómo organizan los historiadores las líneas temporales complejas (cont'd)",
-        "body": [],
+        "heading": "Causas de fondo y simultaneidad sin causalidad",
+        "body": [
+          "Una coyuntura que se venía gestando explica un hecho a partir de sus antecedentes; al narrar hechos simultáneos, en cambio, hay que evitar sugerir que uno causó necesariamente al otro."
+        ],
         "examples": [
           {
             "es": "una coyuntura que se venía gestando",
@@ -9216,7 +10078,64 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": []
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "¿Cuál es la asimetría propia de narrar la historia en retrospectiva?",
+        "options": [
+          "el narrador conoce un desenlace que los protagonistas ignoraban",
+          "el narrador no sabe cómo terminaron los hechos",
+          "los protagonistas conocían el futuro",
+          "no hay fuentes sobre el pasado"
+        ],
+        "correctIndex": 0,
+        "explanation": "Quien narra sabe cómo acabó todo; quienes lo vivieron no lo sabían."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "«Los médicos del siglo XVI eran unos irresponsables porque no se lavaban las manos.» ¿Qué riesgo ilustra esta frase?",
+        "options": [
+          "juzgar el pasado con los valores y conocimientos del presente",
+          "reconocer la pluralidad de interpretaciones",
+          "contextualizar un hecho en su época",
+          "introducir una digresión histórica"
+        ],
+        "correctIndex": 0,
+        "explanation": "Es un juicio anacrónico: aplica al pasado un conocimiento que entonces no existía."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Un relato histórico sofisticado reconoce que existen distintas ___ de un mismo hito histórico.",
+        "answer": "lecturas",
+        "altAnswers": [
+          "interpretaciones"
+        ],
+        "explanation": "Distintos historiadores pueden interpretar el mismo hecho enfatizando causas distintas."
+      },
+      {
+        "type": "multi-select",
+        "question": "¿Qué rasgos caracterizan una narrativa histórica madura?",
+        "options": [
+          "reconoce la pluralidad de interpretaciones",
+          "sitúa cada hecho en su propio marco temporal",
+          "deja claro en cada frase que ya conoce el final",
+          "presenta una única interpretación como indiscutible"
+        ],
+        "correctIndexes": [
+          0,
+          1
+        ],
+        "explanation": "La narrativa madura reconoce otras lecturas y contextualiza, sin delatar el desenlace a cada paso ni presentar una sola interpretación como hecho incuestionable."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Juzgar el pasado con los valores del presente sin advertirlo es caer en el ___.",
+        "answer": "anacronismo",
+        "explanation": "El anacronismo consiste en atribuir a una época ideas o valores de otra."
+      }
+    ]
   },
   {
     "slug": "historical-narrative-8",
@@ -9227,8 +10146,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Narrar con perspectiva: el punto de vista del historiador (cont'd)",
-        "body": [],
+        "heading": "Contextualizar sin renunciar a la crítica",
+        "body": [
+          "Situar un hecho según los códigos de su época no impide valorarlo: la narrativa histórica madura combina el contexto con una mirada crítica, sin anacronismos."
+        ],
         "examples": [
           {
             "es": "situar un hecho según los códigos de su propia época",
@@ -9356,7 +10277,72 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": []
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "«Cuando llegó la noticia, el rey ya había muerto.» ¿Qué tiempo verbal expresa la acción anterior?",
+        "options": [
+          "el pluscuamperfecto",
+          "el pretérito indefinido",
+          "el pretérito imperfecto",
+          "el condicional"
+        ],
+        "correctIndex": 0,
+        "explanation": "El pluscuamperfecto (había muerto) expresa una acción anterior a otra ya pasada (llegó)."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "¿Qué tiempo verbal describe el trasfondo o las circunstancias de un relato?",
+        "options": [
+          "el pretérito imperfecto",
+          "el pretérito indefinido",
+          "el pluscuamperfecto",
+          "el futuro"
+        ],
+        "correctIndex": 0,
+        "explanation": "El imperfecto pinta el fondo; el indefinido narra los hechos puntuales."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "La caída del Muro de Berlín fue un ___ histórico: marcó un antes y un después.",
+        "answer": "hito",
+        "altAnswers": [
+          "parteaguas"
+        ],
+        "explanation": "Un hito histórico es un acontecimiento de gran relevancia dentro de un proceso; si separa claramente dos etapas, también se llama parteaguas."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "el trasfondo histórico",
+            "right": "contexto general de un acontecimiento"
+          },
+          {
+            "left": "la periodización",
+            "right": "división de la historia en etapas"
+          },
+          {
+            "left": "el relato coetáneo",
+            "right": "testimonio de alguien que vivió los hechos"
+          },
+          {
+            "left": "el punto álgido",
+            "right": "momento de mayor tensión de un proceso"
+          }
+        ],
+        "explanation": "Vocabulario de la narrativa histórica."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "La ___ narra los hechos en orden cronológico, tal como se fueron produciendo.",
+        "answer": "crónica",
+        "explanation": "La crónica es el relato ordenado de hechos según su desarrollo cronológico."
+      }
+    ]
   },
   {
     "slug": "historical-narrative-10",
@@ -9367,8 +10353,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "Vocabulario: la narrativa histórica (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos de la narrativa histórica",
+        "body": [
+          "Segunda tanda: la organización del relato (la sucesión cronológica, el marco temporal, el relato encadenado, la digresión histórica), los procesos (el auge, el declive, la coyuntura, el detonante histórico) y las fuentes (el testimonio directo, la reconstrucción de los hechos)."
+        ],
         "examples": [
           {
             "es": "narrar en retrospectiva",
@@ -9441,7 +10429,78 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": []
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "El atentado de Sarajevo fue el ___ de la Primera Guerra Mundial.",
+        "answer": "detonante",
+        "altAnswers": [
+          "desencadenante"
+        ],
+        "explanation": "El detonante histórico es el hecho concreto que desencadena un proceso mayor."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "El momento de mayor esplendor de un proceso histórico es su…",
+        "options": [
+          "auge",
+          "declive",
+          "legado",
+          "marco temporal"
+        ],
+        "correctIndex": 0,
+        "explanation": "El auge es el momento de mayor esplendor; el declive, la decadencia gradual."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "el legado histórico",
+            "right": "herencia cultural o política de un proceso"
+          },
+          {
+            "left": "la simultaneidad de los hechos",
+            "right": "coincidencia temporal de varios sucesos"
+          },
+          {
+            "left": "el paralelismo histórico",
+            "right": "semejanza entre procesos de épocas distintas"
+          },
+          {
+            "left": "la digresión histórica",
+            "right": "pausa en el relato para aportar contexto"
+          }
+        ],
+        "explanation": "Vocabulario de la narrativa histórica."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "La revolución vino ___ de años de crisis económica.",
+        "answer": "precedida",
+        "explanation": "Venir precedido de: estar antecedido por un hecho relacionado; el participio concuerda con el sujeto (la revolución → precedida)."
+      },
+      {
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar la frase.",
+        "words": [
+          "El",
+          "historiador",
+          "reconstruye",
+          "los",
+          "hechos",
+          "a",
+          "partir",
+          "de",
+          "testimonios",
+          "directos"
+        ],
+        "translation": "The historian reconstructs the events from first-hand accounts.",
+        "explanation": "La reconstrucción de los hechos se apoya en testimonios directos."
+      }
+    ]
   },
   {
     "slug": "science-technology-spanish-1",
@@ -13356,7 +14415,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "The company went bankrupt, but every cloud has a silver lining, because now she has her own business."
           },
           {
-            "es": "A pesar de la lluvia en la boda, pusieron al mal tiempo, buena cara.",
+            "es": "A pesar de la lluvia en la boda, le pusieron al mal tiempo buena cara.",
             "en": "Despite the rain at the wedding, they put on a brave face."
           }
         ],
@@ -14251,7 +15310,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "Las tres primeras son fórmulas estereotipadas del registro formal; las otras dos pertenecen a un registro coloquial."
+        "explanation": "«A los efectos oportunos», «en virtud de lo dispuesto en» y «por la presente se hace constar que» son fórmulas estereotipadas del registro formal; «espero que estés muy bien» y «nos vemos el lunes» pertenecen a un registro coloquial."
       }
     ]
   },
@@ -15240,7 +16299,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           2,
           4
         ],
-        "explanation": "Las tres primeras suavizan referencias a la ceguera, la discapacidad y el embarazo; las otras dos son una metáfora y un litotes sin relación con el cuerpo."
+        "explanation": "«Persona invidente», «persona con diversidad funcional» y «estado de buena esperanza» suavizan referencias a la ceguera, la discapacidad y el embarazo; «el motor de la economía» es una metáfora y «no está nada mal», una lítote, sin relación con el cuerpo."
       },
       {
         "type": "matching",
@@ -15686,7 +16745,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "Las tres frases exageran deliberadamente una realidad (hambre, repetición, peso); la segunda es un litotes y la última una personificación."
+        "explanation": "Las tres hipérboles exageran deliberadamente una realidad (hambre, repetición, peso); «No está nada mal» es una lítote y «Las paredes oyen», una personificación."
       }
     ]
   },
@@ -20805,7 +21864,7 @@ const C2_BASE_LESSONS: Lesson[] = [
                 "right": "agravar con palabras o acciones una situación ya conflictiva"
               },
               {
-                "left": "estar hasta las narices",
+                "left": "estar hasta las narices (España)",
                 "right": "haber llegado al límite de la paciencia con algo"
               },
               {
@@ -20879,7 +21938,7 @@ const C2_BASE_LESSONS: Lesson[] = [
                 "right": "suavizar una mala noticia para que resulte menos dolorosa"
               },
               {
-                "left": "tener enchufe",
+                "left": "tener enchufe (España)",
                 "right": "contar con contactos influyentes que facilitan conseguir algo"
               },
               {
@@ -25294,7 +26353,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           1,
           2
         ],
-        "explanation": "Las tres primeras son variantes regionales de la misma palabra; \"la bicicleta\" designa un objeto distinto."
+        "explanation": "El carro, el coche y el auto son variantes regionales de la misma palabra; \"la bicicleta\" designa un objeto distinto."
       },
       {
         "type": "fill-blank",

@@ -190,7 +190,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
           ["No digo que tengas la culpa, sino que deberíamos hablarlo.", "I'm not saying it's your fault, but that we should talk about it."],
         ],
         [
-          fb("Suaviza.", "Quiero hablar con usted. → ___ hablar con usted.", "Quisiera", "Quisiera: condicional de cortesía."),
+          fb("Suaviza.", "Quiero hablar con usted. → ___ hablar con usted.", "Quisiera", "Quisiera: imperfecto de subjuntivo de cortesía (no condicional, aunque equivale a «querría»)."),
         ]
       ),
     ],
@@ -345,7 +345,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué frases son correctas y naturales?",
         ["Aunque me cueste admitirlo, tenías razón.", "Aunque estaba lloviendo, salimos a correr.", "Aunque habría tiempo, no iría.", "Aunque no lo creas, es cierto."],
         [0, 1, 3],
-        "Nunca condicional en la concesiva: aunque hubiera tiempo."
+        "Para una hipótesis, aunque va con imperfecto de subjuntivo, no con condicional: aunque hubiera tiempo, no iría. El condicional sí es correcto cuando la concesiva expresa un hecho real atenuado por cortesía: «Aunque me gustaría, no puedo»."
       ),
       toEs("Even though it may seem strange, I prefer winter.", "Aunque parezca raro, prefiero el invierno.", "Aunque + subjuntivo (hecho que se minimiza).", ["Aunque parezca extraño, prefiero el invierno.", "Aunque resulte raro, prefiero el invierno."]),
       wo("Aunque no lo reconozca, sé que me echa de menos.", "Aunque + subjuntivo (no importa que lo reconozca).", "Even if he won't admit it, I know he misses me."),
@@ -360,7 +360,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Errores frecuentes",
-        "(1) Condicional en la concesiva: ✗ aunque tendría → ✓ aunque tuviera. (2) A pesar de + verbo conjugado sin que: ✗ a pesar de llovía → ✓ a pesar de que llovía. (3) Por mucho que con futuro: ✗ por mucho que insistirás → ✓ por mucho que insistas.",
+        "(1) Condicional en una concesiva hipotética: ✗ aunque tendría más dinero, no lo compraría → ✓ aunque tuviera. (Ojo: el condicional de cortesía sí es correcto con aunque cuando se trata de un hecho real: «Aunque me gustaría, no puedo».) (2) A pesar de + verbo conjugado sin que: ✗ a pesar de llovía → ✓ a pesar de que llovía. (3) Por mucho que con futuro: ✗ por mucho que insistirás → ✓ por mucho que insistas.",
         [
           ["✗ Aunque sabría la respuesta, no la diría. → ✓ Aunque supiera la respuesta, no la diría.", "Even if I knew the answer, I wouldn't say it."],
         ],
@@ -375,9 +375,9 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
       fb("Corrige.", "El coche es caro y, por muy ___ que sea, no me convence. (bonito; el alumno escribió: bonita)", "bonito", "Concordancia con coche."),
       ms(
         "¿Qué frases tienen un error?",
-        ["Pese a que llovía, el partido siguió.", "Aun cuando lo supiera, no diría nada.", "Aunque lloverá mañana, iremos.", "Por más que lo intento, no me sale."],
+        ["Pese a que llovía, el partido siguió.", "Aun cuando lo supiera, no diría nada.", "Por mucho que insistirás, no cambiaré de idea.", "Por más que lo intento, no me sale."],
         [2],
-        "Con un futuro hipotético: aunque llueva mañana (o aunque va a llover, si se presenta como hecho previsto)."
+        "Por mucho que no admite futuro: por mucho que insistas, no cambiaré de idea."
       ),
       mc(
         "¿Cuál es correcta?",
@@ -536,7 +536,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("¿Condición o concesión?", "Lo haré ___ me paguen, porque me apetece. (even if)", "aunque", "Concesión."),
+      { ...fb("¿Condición o concesión?", "Lo haré ___ no me paguen, porque me apetece.", "aunque", "Aunque = even if: concesión (lo haré de todos modos)."), en: "I'll do it [even if] they don't pay me, because I feel like it." },
       fb("¿Condición o concesión?", "Lo haré ___ me paguen; si no, no. (only if)", "si", "Condición."),
       fb("Completa.", "Aun si ___ razón, no deberías hablarle así. (tener, tú)", "tuvieras", "Aun si + imperfecto de subjuntivo."),
       fb("Completa.", "No iremos a menos que ___ buen tiempo. (hacer)", "haga", "A menos que + subjuntivo."),
@@ -1055,9 +1055,9 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       ms(
         "¿Qué instrucciones son correctas?",
-        ["No sumergir en agua.", "Cargar la batería antes del primer uso.", "Volver a pulsar para apagar.", "Enchufándolo, funcionando."],
+        ["No sumergir en agua.", "Cargar la batería antes del primer uso.", "Volver a pulsar para apagar.", "Enchufando el aparato antes de limpiarlo."],
         [0, 1, 2],
-        "La última carece de sentido."
+        "En las instrucciones se usa el infinitivo (desenchufar el aparato antes de limpiarlo), no el gerundio; «enchufando el aparato…» no funciona como instrucción."
       ),
       toEs("Keep pressing until you hear a beep.", "Seguir pulsando hasta oír un pitido.", "Infinitivo de instrucción + seguir + gerundio + hasta + infinitivo.", ["Mantener pulsado hasta oír un pitido.", "Siga pulsando hasta que oiga un pitido."]),
       wo("Desconectar el aparato antes de limpiarlo.", "Infinitivo + antes de + infinitivo con pronombre.", "Unplug the device before cleaning it."),
@@ -2494,9 +2494,9 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       ms(
         "¿Qué frases son naturales?",
-        ["En definitiva, estamos ante una oportunidad única.", "Al fin y al cabo, el dinero no lo es todo.", "En última instancia, dependerá del presupuesto.", "Al fin y al cabo, primeramente."],
+        ["En definitiva, estamos ante una oportunidad única.", "Al fin y al cabo, el dinero no lo es todo.", "En última instancia, dependerá del presupuesto.", "En definitiva, para empezar, veamos el primer punto."],
         [0, 1, 2],
-        "La última no tiene sentido."
+        "«En definitiva» cierra o resume; no puede abrir una enumeración con «para empezar»."
       ),
       toEs("After all, it's only a game.", "Al fin y al cabo, solo es un juego.", "Al fin y al cabo.", ["A fin de cuentas, solo es un juego.", "Al fin y al cabo, no es más que un juego."]),
       wo("En definitiva, lo que está en juego es la confianza de los ciudadanos.", "En definitiva + lo que + estar en juego.", "In short, what's at stake is citizens' trust."),
@@ -2770,10 +2770,10 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Los fallos más comunes",
-        "1) «Que galicado»: ✗ «Es por eso que…» se admite en América, pero en registro cuidado se prefiere «Es por eso por lo que…» o «Por eso…». ✗ «Fue aquí que nos vimos» → ✓ «Fue aquí donde nos vimos». 2) Tiempo de ser: ✗ «Es en 1990 cuando nació» → ✓ «Fue en 1990 cuando nació». 3) Lo invariable: ✗ «la difícil que es» → ✓ «lo difícil que es».",
+        "1) «Que galicado»: «Es por eso que…», «Fue aquí que nos vimos» o «Fue entonces que lo supe» son muy frecuentes en América y no se consideran errores en el habla, pero en España y en registro cuidado se prefiere el relativo que concuerda: «Es por eso por lo que…» (o «Por eso…»), «Fue aquí donde nos vimos», «Fue entonces cuando lo supe». 2) Tiempo de ser: ✗ «Es en 1990 cuando nació» → ✓ «Fue en 1990 cuando nació». 3) Lo invariable: ✗ «la difícil que es» → ✓ «lo difícil que es».",
         [
-          ["✗ Fue entonces que lo supe. → ✓ Fue entonces cuando lo supe.", "That was when I found out."],
-          ["✗ Es a ti que busco. → ✓ Es a ti a quien busco.", "It's you I'm looking for."],
+          ["Fue entonces que lo supe (habla de América) → Fue entonces cuando lo supe (registro cuidado).", "That was when I found out."],
+          ["Es a ti que busco (habla de América) → Es a ti a quien busco (registro cuidado).", "It's you I'm looking for."],
         ],
         [
           mc(
@@ -2791,9 +2791,9 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
       fb("Corrige.", "¡No sabes ___ contenta que estoy! (el alumno puso: la)", "lo", "Lo es invariable."),
       ms(
         "¿Qué frases están bien?",
-        ["Es por esta razón por la que me voy.", "Fue así como lo descubrimos.", "Fue ayer que me lo dijo.", "Es de esto de lo que quería hablarte."],
+        ["Es por esta razón por la que me voy.", "Fue así como lo descubrimos.", "Fue ayer donde me lo dijo.", "Es de esto de lo que quería hablarte."],
         [0, 1, 3],
-        "«Fue ayer que» es el que galicado; mejor «fue ayer cuando»."
+        "Para un momento, el relativo es «cuando»: fue ayer cuando me lo dijo (en el habla de América también se oye «fue ayer que»). «Donde» solo vale para lugares."
       ),
       mc(
         "¿Dónde está el error? «Lo que me molestan son los ruidos.»",
@@ -3820,7 +3820,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Mismo término, otro sentido",
-        "Tinto: vino tinto (España) / café solo (Colombia). Guagua: autobús (Cuba, Canarias) / bebé (Chile, Andes). Pena: tristeza (España) / vergüenza (México, Centroamérica, Colombia). Coger: tomar (España) / término vulgar (gran parte de América): allí se prefiere tomar o agarrar.",
+        "Tinto: vino tinto (España) / café solo (Colombia). Guagua: autobús (Cuba, Canarias) / bebé (Chile, Andes). Pena: tristeza (España) / vergüenza (México, Centroamérica, Colombia). Coger: tomar, agarrar (neutro en España, Colombia y buena parte del Caribe) / término vulgar (México, Argentina, Uruguay, Venezuela y gran parte de Centroamérica): allí se dice tomar o agarrar.",
         [
           ["¿Te tomas un tinto? (Bogotá = café)", "Would you like a coffee?"],
           ["Me da pena hablar en público. (México = vergüenza)", "I'm embarrassed to speak in public."],
@@ -3842,7 +3842,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "En Argentina: tomar (no coger) + colectivo."
       ),
-      fb("Adapta a México.", "Voy a coger un taxi. → Voy a ___ un taxi.", "tomar", "En América se evita coger."),
+      fb("Adapta a México.", "Voy a coger un taxi. → Voy a ___ un taxi.", "tomar", "En México coger es vulgar; allí (y en Argentina, Uruguay o gran parte de Centroamérica) se dice tomar. En Colombia y el Caribe, en cambio, coger es neutro."),
       mt(
         "Relaciona la palabra con su sentido en el lugar indicado.",
         [
@@ -4020,7 +4020,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "El neutro usa ustedes y tú/usted."
       ),
-      toEs("Excuse me, sir, where can I catch a taxi? (América)", "Disculpe, señor, ¿dónde puedo tomar un taxi?", "Tomar (no coger) en América.", ["Disculpe, señor, ¿dónde tomo un taxi?", "Perdone, señor, ¿dónde puedo tomar un taxi?"]),
+      toEs("Excuse me, sir, where can I catch a taxi? (América)", "Disculpe, señor, ¿dónde puedo tomar un taxi?", "Tomar es la opción segura en toda América: coger es vulgar en México, Argentina y otros países (aunque neutro en Colombia y el Caribe).", ["Disculpe, señor, ¿dónde tomo un taxi?", "Perdone, señor, ¿dónde puedo tomar un taxi?"]),
       wo("Antes de hablar, piensa en la palabra, el tratamiento y el registro.", "Resumen de la lección.", "Before speaking, think about the word, the form of address and the register."),
     ]
   ),
@@ -4138,7 +4138,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Carga afectiva del registro",
-        "Metedura (Esp.) / metida (Am.) de pata → error: el coloquial añade complicidad o ironía. Estar hasta las narices → estar muy molesto. Costar un ojo de la cara → ser muy caro. Ponerse las pilas → esforzarse más. El registro formal es más distante y evaluativo.",
+        "Metedura (Esp.) / metida (Am.) de pata → error: el coloquial añade complicidad o ironía. Estar hasta las narices (España) → estar harto. Costar un ojo de la cara → ser muy caro. Ponerse las pilas → esforzarse más. El registro formal es más distante y evaluativo.",
         [
           ["El ministro metió la pata. / El ministro cometió un error.", "The minister blundered. / The minister made a mistake."],
           ["Me costó un ojo de la cara. / Resultó muy costoso.", "It cost me an arm and a leg. / It was very expensive."],
@@ -4158,7 +4158,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "Relaciona la expresión coloquial con su equivalente neutro.",
         [
           ["meter la pata", "equivocarse"],
-          ["estar hasta las narices", "estar harto"],
+          ["estar hasta las narices (España)", "estar harto"],
           ["costar un ojo de la cara", "ser muy caro"],
           ["no pegar ojo", "no dormir"],
         ],

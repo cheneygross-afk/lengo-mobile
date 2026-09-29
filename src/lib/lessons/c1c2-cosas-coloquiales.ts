@@ -461,8 +461,8 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "type": "fill-blank",
         "prompt": "Completa la expresión que describe estar completamente lleno después de comer.",
         "sentence": "No puedo comer ni un bocado más, estoy que ___.",
-        "answer": "revienta",
-        "explanation": "Estar que revienta describe haber comido tanto que ya no cabe nada más, encajando con la situación de no poder comer un bocado más."
+        "answer": "reviento",
+        "explanation": "«Estoy que reviento» (o «estoy a reventar») describe haber comido tanto que ya no cabe nada más. El verbo concuerda con el sujeto: yo estoy que reviento, él está que revienta."
       }
     ]
   },
@@ -482,12 +482,16 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "estar que revienta",
-            "en": "haber comido tanto que ya no cabe nada más"
+            "es": "estoy que reviento / estoy a reventar",
+            "en": "he comido tanto que ya no me cabe nada más"
+          },
+          {
+            "es": "no poder más",
+            "en": "estar tan lleno que no se puede comer nada más"
           },
           {
             "es": "no caber ni un alfiler",
-            "en": "estar completamente lleno, sin espacio para nada más"
+            "en": "estar un lugar abarrotado de gente, sin sitio para nadie más (no se dice de una persona que ha comido mucho)"
           },
           {
             "es": "repetir",
@@ -503,23 +507,23 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "type": "multi-select",
             "question": "¿Cuáles de las siguientes expresiones significan estar completamente lleno después de comer?",
             "options": [
-              "estar que revienta",
+              "estoy que reviento",
+              "no poder más",
               "no caber ni un alfiler",
-              "hacer sobremesa",
               "llevarse las sobras"
             ],
             "correctIndexes": [
               0,
               1
             ],
-            "explanation": "Estar que revienta y no caber ni un alfiler describen ambas el estar completamente lleno; las otras dos expresiones se refieren a la conversación tras la comida y a guardar lo sobrante."
+            "explanation": "«Estoy que reviento» y «no puedo más» describen haber comido hasta llenarse. «No caber ni un alfiler» se dice de un lugar abarrotado de gente (el bar estaba que no cabía ni un alfiler), y llevarse las sobras es guardar lo que ha quedado."
           }
         ]
       },
       {
         "heading": "La comida como metáfora de la vida diaria",
         "body": [
-          "El vocabulario de la cocina y la mesa se filtra constantemente al lenguaje cotidiano para describir situaciones que no tienen nada que ver con comer. Una persona puede ser \"pan comido\" (fácil) o estar \"como agua para chocolate\" (a punto de estallar de rabia o pasión); un problema puede \"cocerse a fuego lento\" (desarrollarse gradualmente) antes de estallar.",
+          "El vocabulario de la cocina y la mesa se filtra constantemente al lenguaje cotidiano para describir situaciones que no tienen nada que ver con comer. Una tarea puede ser \"pan comido\" (fácil); en México, alguien puede estar \"como agua para chocolate\" (a punto de estallar de rabia o pasión); un problema puede \"cocerse a fuego lento\" (desarrollarse gradualmente) antes de estallar.",
           "Reconocer estas metáforas culinarias no solo enriquece el vocabulario: revela cuánto peso cultural tiene la comida como referencia compartida, capaz de explicar emociones, ritmos y situaciones sociales que de otro modo requerirían explicaciones mucho más largas."
         ],
         "examples": [
@@ -528,7 +532,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "en": "ser algo muy fácil de hacer o conseguir"
           },
           {
-            "es": "estar como agua para chocolate",
+            "es": "estar como agua para chocolate (México)",
             "en": "estar a punto de estallar de rabia, pasión o emoción intensa"
           },
           {
@@ -536,8 +540,8 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "en": "desarrollarse un problema o situación de forma gradual antes de estallar"
           },
           {
-            "es": "no tener ni media naranja",
-            "en": "no tener pareja sentimental"
+            "es": "encontrar a su media naranja",
+            "en": "encontrar a la pareja ideal, la persona que complementa a otra"
           }
         ],
         "checkpoint": [
@@ -583,8 +587,8 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "right": "ser algo muy fácil de hacer"
           },
           {
-            "left": "no tener ni media naranja",
-            "right": "no tener pareja sentimental"
+            "left": "encontrar a su media naranja",
+            "right": "encontrar a la pareja ideal"
           },
           {
             "left": "el aperitivo",
@@ -617,7 +621,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "Camila: Jaja, sírvete lo que quieras, hay de sobra. Y llévate lo que no comas, no vamos a tirarlo.",
           "Bruno: Gracias, la verdad es que estoy que reviento, pero por probar el postre no se pierde nada.",
           "Camila: Así me gusta. El domingo que viene nos vamos de tapas todos juntos, ¿te apuntas?",
-          "Bruno: Cuenta conmigo, eso siempre es pan comido de aceptar."
+          "Bruno: Cuenta conmigo, a un plan así nunca digo que no."
         ]
       },
       {
@@ -651,12 +655,12 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "en": "salir a comer raciones pequeñas en varios bares"
           },
           {
-            "es": "estar que revienta",
-            "en": "haber comido tanto que ya no cabe nada más"
+            "es": "estoy que reviento",
+            "en": "he comido tanto que ya no me cabe nada más"
           },
           {
             "es": "no caber ni un alfiler",
-            "en": "estar completamente lleno"
+            "en": "estar un lugar abarrotado de gente"
           },
           {
             "es": "repetir",
@@ -671,7 +675,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "en": "ser algo muy fácil"
           },
           {
-            "es": "estar como agua para chocolate",
+            "es": "estar como agua para chocolate (México)",
             "en": "estar a punto de estallar de rabia o pasión"
           },
           {
@@ -679,8 +683,8 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "en": "desarrollarse algo gradualmente antes de estallar"
           },
           {
-            "es": "no tener ni media naranja",
-            "en": "no tener pareja sentimental"
+            "es": "encontrar a su media naranja",
+            "en": "encontrar a la pareja ideal"
           },
           {
             "es": "quedarse de sobremesa",
@@ -737,11 +741,11 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "meter un gol",
-            "en": "conseguir algo con gran éxito, a veces de forma inesperada"
+            "es": "meterle un gol a alguien",
+            "en": "engañar a alguien, colarle algo sin que se dé cuenta"
           },
           {
-            "es": "quedarse en el banquillo",
+            "es": "quedarse en el banquillo (en gran parte de América: en la banca)",
             "en": "quedar relegado o sin participación en algo importante"
           },
           {
@@ -759,7 +763,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "question": "El jefe le pidió a su asistente que tomara la decisión difícil en su lugar. ¿Qué expresión futbolística describe mejor esa acción?",
             "options": [
               "pasar la pelota",
-              "meter un gol",
+              "meterle un gol a alguien",
               "jugar en otra liga",
               "quedarse en el banquillo"
             ],
@@ -869,8 +873,8 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "en": "una situación de tensión extrema, con final incierto hasta el último momento"
           },
           {
-            "es": "estar en fuera de juego",
-            "en": "actuar sin darse cuenta de que la situación ya cambió, quedando desubicado"
+            "es": "estar en fuera de juego (en América también: estar en offside)",
+            "en": "no estar enterado de algo o actuar sin darse cuenta de que la situación ya cambió, quedando desubicado"
           }
         ],
         "checkpoint": [
@@ -899,7 +903,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "Gonzalo: Totalmente. El entrenador se jugó todo a una carta metiendo a los delanteros suplentes, y le salió perfecto.",
           "Valentina: Qué envidia, yo hubiera dado cualquier cosa por estar en el estadio con la hinchada.",
           "Gonzalo: Se armó una fiesta impresionante. Por cierto, ¿sigues siendo hincha del mismo equipo de siempre?",
-          "Valentina: Claro, eso no se cambia. Aunque este año, con lo mal que empezaron, pensé que se iban a quedar todo el torneo en el banquillo.",
+          "Valentina: Claro, eso no se cambia. Aunque este año, con lo mal que empezaron, pensé que iban a terminar últimos.",
           "Gonzalo: Bueno, parece que ahora están jugando en otra liga comparados con hace dos meses.",
           "Valentina: Ojalá dure. El próximo fin de semana es el clásico y no me lo quiero perder por nada del mundo."
         ]
@@ -911,11 +915,11 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "meter un gol",
-            "en": "conseguir algo con gran éxito"
+            "es": "meterle un gol a alguien",
+            "en": "engañar a alguien, colarle algo"
           },
           {
-            "es": "quedarse en el banquillo",
+            "es": "quedarse en el banquillo (América: en la banca)",
             "en": "quedar relegado o sin participación"
           },
           {
@@ -964,7 +968,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el delantero suplente",
-            "en": "jugador ofensivo que entra al partido desde el banco"
+            "en": "jugador ofensivo que entra al partido desde el banquillo (la banca)"
           },
           {
             "es": "el marcador",
@@ -1077,7 +1081,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "heading": "El tango: melancolía, orgullo y lunfardo",
         "body": [
           "Nacido en los arrabales de Buenos Aires y Montevideo a finales del siglo XIX, el tango mezcla nostalgia, orgullo herido y una filosofía casi trágica sobre el amor y el destino. Su letra tradicional emplea el lunfardo, un argot rioplatense nacido de la inmigración, que ha dejado palabras que hoy forman parte del habla cotidiana argentina y uruguaya mucho más allá del tango.",
-          "Frases como \"cortar por lo sano\" o el propio verbo \"tanguear\" (comportarse con la teatralidad melodramática típica del género) muestran cómo un estilo musical puede colonizar el lenguaje ordinario. Escuchar tango sin conocer algo de lunfardo es perderse buena parte de su significado real."
+          "Palabras lunfardas como \"laburo\" (trabajo, del italiano lavoro), \"mina\" (mujer), \"morfar\" (comer) o \"bacán\" (persona adinerada o elegante) pasaron por las letras de tango y hoy siguen vivas en el habla rioplatense. Escuchar tango sin conocer algo de lunfardo es perderse buena parte de su significado real."
         ],
         "examples": [
           {
@@ -1090,7 +1094,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "tanguear",
-            "en": "comportarse con la teatralidad melodramática típica del tango"
+            "en": "bailar o tocar tango"
           },
           {
             "es": "el bandoneón",
@@ -1166,7 +1170,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "en": "estilo de baile asociado al reguetón, de movimiento cercano y sensual"
           },
           {
-            "es": "prender la fiesta",
+            "es": "prender la fiesta (Latinoamérica; en España: animar la fiesta)",
             "en": "animar o intensificar el ambiente festivo de una celebración"
           },
           {
@@ -1174,7 +1178,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "en": "perder la timidez y disfrutar plenamente, especialmente al bailar"
           },
           {
-            "es": "estar pegado",
+            "es": "estar pegado (Latinoamérica; en España: pegar fuerte)",
             "en": "estar de moda o sonar constantemente, hablando de una canción"
           }
         ],
@@ -1241,7 +1245,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "tanguear",
-            "en": "comportarse con teatralidad melodramática"
+            "en": "bailar o tocar tango"
           },
           {
             "es": "el bandoneón",
@@ -1252,7 +1256,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "en": "estilo de baile asociado al reguetón"
           },
           {
-            "es": "prender la fiesta",
+            "es": "prender la fiesta (Latinoamérica)",
             "en": "animar el ambiente festivo de una celebración"
           },
           {
@@ -1260,7 +1264,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "en": "perder la timidez y disfrutar plenamente"
           },
           {
-            "es": "estar pegado",
+            "es": "estar pegado (Latinoamérica)",
             "en": "estar de moda o sonar constantemente, hablando de una canción"
           },
           {
@@ -1316,7 +1320,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "fiestas"
         ],
         "translation": "That song is all the rage at every party.",
-        "explanation": "El orden correcto es «esa canción está pegada en todas las fiestas», usando la expresión que significa estar de moda o sonar constantemente."
+        "explanation": "El orden correcto es «esa canción está pegada en todas las fiestas», usando la expresión latinoamericana que significa estar de moda o sonar constantemente (en España se diría más bien «esa canción está pegando fuerte»)."
       },
       {
         "type": "translate",
@@ -1355,11 +1359,11 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "en": "provocar, según la creencia popular, una racha de infortunio"
           },
           {
-            "es": "tener mano de santo",
-            "en": "tener buena suerte o efecto positivo casi milagroso en lo que se hace"
+            "es": "ser mano de santo",
+            "en": "(un remedio o una solución) funcionar de maravilla, tener un efecto casi milagroso: «Esta infusión es mano de santo para el resfriado»"
           },
           {
-            "es": "ser gafe",
+            "es": "ser gafe (España; en el Río de la Plata: ser mufa o yeta)",
             "en": "atraer mala suerte de forma habitual, según la creencia popular"
           }
         ],
@@ -1370,7 +1374,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "options": [
               "tocar madera",
               "ser gafe",
-              "tener mano de santo",
+              "ser mano de santo",
               "traer mala suerte"
             ],
             "correctIndex": 0,
@@ -1421,11 +1425,11 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "options": [
           "ser gafe",
           "de buen agüero",
-          "tener mano de santo",
+          "ser mano de santo",
           "cruzar los dedos"
         ],
         "correctIndex": 0,
-        "explanation": "Ser gafe describe atraer mala suerte de forma habitual, exactamente la reputación que tiene tu primo con sus viajes."
+        "explanation": "Ser gafe (España) describe atraer mala suerte de forma habitual, exactamente la reputación que tiene tu primo con sus viajes. En Argentina y Uruguay se diría que es mufa o yeta."
       },
       {
         "type": "fill-blank",
@@ -1489,15 +1493,15 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "question": "¿Cuáles de las siguientes palabras o expresiones están relacionadas con protegerse de la mala suerte o atraer la buena fortuna?",
             "options": [
               "el amuleto",
-              "el mal de ojo",
+              "pedir un deseo",
               "martes trece",
-              "estar de racha"
+              "ser gafe"
             ],
             "correctIndexes": [
               0,
               1
             ],
-            "explanation": "El amuleto y el mal de ojo están directamente relacionados con la protección frente a la mala suerte; martes trece y estar de racha describen fechas o períodos de fortuna, pero no objetos o creencias protectoras en sí."
+            "explanation": "El amuleto protege (por ejemplo, contra el mal de ojo) y pedir un deseo busca atraer la buena fortuna; el martes trece y ser gafe se asocian, al contrario, con la mala suerte."
           }
         ]
       },
@@ -1529,11 +1533,11 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "en": "provocar una racha de infortunio"
           },
           {
-            "es": "tener mano de santo",
-            "en": "tener buena suerte o efecto positivo casi milagroso"
+            "es": "ser mano de santo",
+            "en": "(un remedio) funcionar de maravilla, con un efecto casi milagroso"
           },
           {
-            "es": "ser gafe",
+            "es": "ser gafe (España)",
             "en": "atraer mala suerte de forma habitual"
           },
           {
@@ -1593,8 +1597,8 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "right": "creencia de que una mirada envidiosa puede causar daño"
           },
           {
-            "left": "tener mano de santo",
-            "right": "tener buena suerte o efecto casi milagroso"
+            "left": "ser mano de santo",
+            "right": "funcionar de maravilla, como un remedio milagroso"
           },
           {
             "left": "estar de racha",
@@ -1620,8 +1624,8 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "ten",
           "cuidado"
         ],
-        "translation": "Today is Friday the 13th, so be careful.",
-        "explanation": "El orden correcto es «hoy es martes trece, así que ten cuidado», refiriéndose a la fecha considerada de mala suerte en el mundo hispano."
+        "translation": "Today is Tuesday the 13th, so be careful.",
+        "explanation": "El orden correcto es «hoy es martes trece, así que ten cuidado». En el mundo hispano el día de mala suerte es el martes 13, no el viernes 13 de la tradición anglosajona, así que la traducción conserva el martes."
       },
       {
         "type": "translate",
@@ -1630,7 +1634,10 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "source": "Don't say that out loud, you're going to jinx it -- knock on wood.",
         "answer": "No lo digas en voz alta, vas a traer mala suerte -- toca madera.",
         "altAnswers": [
-          "No lo digas en voz alta, vas a traer mala suerte, toca madera"
+          "No lo digas en voz alta, vas a traer mala suerte, toca madera",
+          "No lo digas en voz alta, que lo vas a gafar, toca madera",
+          "No lo digas en voz alta, lo vas a gafar, toca madera",
+          "No lo digas en voz alta, que vas a traer mala suerte, toca madera"
         ],
         "explanation": "Traer mala suerte y tocar madera son las expresiones que corresponden a la idea de gafar algo en voz alta y al gesto tradicional para contrarrestarlo."
       }
@@ -1649,7 +1656,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "body": [
           "Un piropo es un comentario halagador, tradicionalmente dirigido a alguien por la calle, aunque hoy en día se usa también entre amigos, familiares y parejas de forma mucho más cotidiana y respetuosa.",
           "Los piropos callejeros de antaño (\"¡Qué guapa!\") han caído en desuso o son vistos como una forma de acoso en muchos países; el piropo moderno suele reservarse para el ámbito cercano: cumplidos sinceros entre conocidos.",
-          "Frases como \"Estás hecho un pincel\" (te ves muy elegante) o \"Eres un sol\" (eres una persona encantadora) muestran cómo el piropo se apoya en metáforas cotidianas más que en fórmulas fijas.",
+          "Frases como \"Estás hecho un pincel\" (España: te ves muy elegante) o \"Eres un sol\" (eres una persona encantadora) muestran cómo el piropo se apoya en metáforas cotidianas más que en fórmulas fijas.",
           "Saber recibir un piropo también tiene su ritual: un simple \"Qué amable, gracias\" evita la sobreactuación y mantiene la cortesía sin restarle valor al gesto."
         ],
         "examples": [
@@ -1691,9 +1698,9 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "question": "¿Qué expresión se usa para proponer pasar del trato de usted al de tú?",
             "options": [
               "¿Nos tuteamos?",
-              "¿Qué guapa?",
-              "Está hecho un pincel",
-              "Qué amable"
+              "¿Le importa que le hable de usted?",
+              "¿Nos vemos?",
+              "¿Qué tal le va?"
             ],
             "correctIndex": 0,
             "explanation": "\"¿Nos tuteamos?\" es la fórmula típica para proponer un trato más cercano y dejar el usted."
@@ -1832,7 +1839,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "La despedida hispana es famosa por alargarse: es común anunciar la salida (\"Bueno, ya me voy yendo\") y seguir conversando de pie durante varios minutos más antes de irse de verdad.",
           "Frases como \"Nos vemos\", \"Cualquier cosa me avisas\" o \"La próxima vez que vengas, avísame\" cierran la conversación dejando la puerta abierta a un próximo encuentro, aun cuando no haya planes concretos.",
           "Repetir la despedida varias veces (\"Bueno, chao, chao, nos vemos, chao\") no es redundancia sino parte del ritual social, sobre todo por teléfono.",
-          "Acompañar la despedida física con dos besos (España, gran parte de Latinoamérica) o un beso y un abrazo varía según el país y el grado de confianza -- observar lo que hace el grupo es la mejor guía."
+          "El saludo y la despedida con besos varían según el país: en España se dan dos besos (uno en cada mejilla), mientras que en la mayor parte de Latinoamérica se da uno solo, a veces acompañado de un abrazo; en Argentina y Uruguay el beso es habitual incluso entre hombres. El grado de confianza también cuenta, así que observar lo que hace el grupo es la mejor guía."
         ],
         "examples": [
           {

@@ -34,8 +34,10 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Presente vs. perfecto de subjuntivo: la cuestión aspectual (cont'd)",
-        "body": [],
+        "heading": "Valorar lo ya ocurrido: el perfecto de subjuntivo tras emoción y duda",
+        "body": [
+          "Estos pares muestran el mismo contraste con verbos de emoción (alegrarse) y de duda (no creer): con el presente (vengas, sepa) el hecho se ve como simultáneo o todavía por venir; con el perfecto (hayas venido, haya sabido) se presenta como ya cumplido en el momento en que hablamos."
+        ],
         "examples": [
           {
             "es": "Me alegra que hayas venido a la reunión.",
@@ -68,7 +70,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa con el tiempo de subjuntivo que exprese una acción ya concluida y valorada en retrospectiva.",
             "sentence": "Me sorprende que tú ___ (llegar) tan pronto ayer.",
             "answer": "hayas llegado",
-            "explanation": "El adverbio «ayer» exige el perfecto de subjuntivo, que marca la acción como cerrada antes del momento del habla.",
+            "altAnswers": ["llegaras"],
+            "explanation": "Con el verbo principal en presente (me sorprende), un hecho ya concluido va en perfecto de subjuntivo (hayas llegado), que lo presenta como cerrado antes del momento del habla. Con «ayer» también es perfectamente normal el imperfecto de subjuntivo (me sorprende que llegaras tan pronto ayer), que sitúa el hecho en un pasado ya desconectado del presente; ningún adverbio obliga a elegir uno u otro.",
             "hint": "Se trata de un hecho ya sucedido, no de algo que está por ocurrir."
           }
         ]
@@ -614,8 +617,10 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Aunque + subjuntivo: la concesión hipotética o minimizada (cont'd)",
-        "body": [],
+        "heading": "Conceder sin dar la razón",
+        "body": [
+          "En estos ejemplos el hablante acepta un hecho posible o incluso cierto (que tengas razón, que sea caro) y lo presenta como irrelevante para su conclusión: el subjuntivo le resta peso al dato concedido."
+        ],
         "examples": [
           {
             "es": "Aunque tengas razón, deberías haberlo dicho de otra forma.",
@@ -1096,8 +1101,10 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Lo + adjetivo: sustantivación de cualidades abstractas (cont'd)",
-        "body": [],
+        "heading": "Lo + adjetivo para enfocar un aspecto concreto",
+        "body": [
+          "Con «lo + adjetivo» se aísla la cualidad de algo concreto (lo complicado de este trámite) o se destaca un rasgo de la situación (lo curioso es que…). Es una forma muy natural de dirigir la atención sin buscar un sustantivo abstracto."
+        ],
         "examples": [
           {
             "es": "No entiendo lo complicado de este trámite.",
@@ -1351,7 +1358,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "La primera y la tercera oración emplean correctamente «el hecho de que» y «lo + adjetivo»; la segunda omite indebidamente el «que» tras «de», y la cuarta combina de forma agramatical «lo + adjetivo» con «de que», mezclando dos estructuras distintas."
+        "explanation": "«El hecho de que hayan cancelado…» y «Lo absurdo de la situación es que…» son correctas; «el hecho de insistan» omite indebidamente el «que» tras «de», y «lo absurdo de que la situación es que…» mezcla de forma agramatical «lo + adjetivo» con «de que»."
       },
       {
         "type": "word-order",
@@ -1655,8 +1662,10 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Vocabulario: la nominalización (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos para analizar el estilo nominal",
+        "body": [
+          "Segunda tanda de palabras de la lección: conceptos gramaticales (el sintagma, el núcleo nominal, la cláusula subordinada) y palabras para describir el estilo nominal y sus efectos (condensar, dosificar, lo opaco, la imparcialidad)."
+        ],
         "examples": [
           {
             "es": "la formalidad discursiva",
@@ -1734,9 +1743,9 @@ const C1_BASE_LESSONS: Lesson[] = [
         "type": "multiple-choice",
         "question": "¿Por qué un informe institucional preferiría «el incumplimiento de los plazos afectó al proyecto» sobre una versión con verbo personal y oración coordinada?",
         "options": [
-          "Porque la segunda opción es gramaticalmente incorrecta.",
+          "Porque la versión con verbo personal es gramaticalmente incorrecta.",
           "Porque la nominalización condensa la información y proyecta mayor objetividad, propia del registro institucional.",
-          "Porque la primera opción es más breve en número de letras.",
+          "Porque la versión nominal tiene menos letras.",
           "Porque los informes institucionales evitan cualquier sustantivo abstracto."
         ],
         "correctIndex": 1,
@@ -1770,8 +1779,10 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Gerundio de simultaneidad frente al gerundio de posterioridad (cont'd)",
-        "body": [],
+        "heading": "Consecuencia posterior frente a acción simultánea",
+        "body": [
+          "El primer ejemplo muestra el uso que la norma censura: el gerundio (clasificándose) presenta como simultáneo algo que ocurre después, como consecuencia. El segundo es correcto porque mirar y cruzar ocurren a la vez. Para expresar la consecuencia, lo natural es coordinar: ganó el partido y se clasificó para la final."
+        ],
         "examples": [
           {
             "es": "El equipo ganó el partido, clasificándose así para la final.",
@@ -1914,8 +1925,10 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Seguir/continuar + gerundio frente a terminar de/dejar de + infinitivo (cont'd)",
-        "body": [],
+        "heading": "Acabar de + infinitivo y continuar + gerundio",
+        "body": [
+          "«Acabar de + infinitivo» en presente o imperfecto expresa un pasado inmediato (acabo de terminar = lo he terminado hace un momento), distinto de «terminar de», que marca el final de una tarea. «Continuar + gerundio» equivale a «seguir + gerundio»: la acción no se ha interrumpido."
+        ],
         "examples": [
           {
             "es": "Acabo de terminar el informe.",
@@ -2192,7 +2205,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "Perífrasis progresivas con gerundio: estar, ir, venir y llevar",
         "body": [
           "Además de «estar + gerundio», que describe una acción en curso sin más matiz añadido, el español dispone de otras perífrasis de gerundio que aportan una capa de significado sobre cómo se desarrolla el proceso en el tiempo. «Ir + gerundio» añade un matiz de progresión gradual hacia un resultado: «va mejorando poco a poco» sugiere una evolución paulatina que «está mejorando» no comunica con la misma nitidez. «Venir + gerundio», por su parte, enfatiza la persistencia de una tendencia acumulada desde el pasado hasta el presente, con frecuencia con un matiz de queja.",
-          "«Llevar + gerundio», finalmente, mide explícitamente la duración de una acción en curso desde un punto de referencia hasta el presente, y siempre requiere una expresión temporal que cuantifique ese lapso: «llevo dos horas esperando» no podría formularse sin especificar el tiempo transcurrido. Dominar estas cuatro variantes y sus matices respectivos de neutralidad, progresión, acumulación y duración medida es lo que separa una descripción funcional de una expresión verdaderamente precisa."
+          "«Llevar + gerundio», finalmente, mide explícitamente la duración de una acción en curso desde un punto de referencia hasta el presente, y necesita una expresión temporal que delimite ese lapso, ya sea una duración (llevo dos horas esperando) o un punto de partida (llevo esperando desde las diez); sin ella, o sin un contexto que la aporte (¿cuánto llevas esperando?), la perífrasis queda incompleta. Dominar estas cuatro variantes y sus matices respectivos de neutralidad, progresión, acumulación y duración medida es lo que separa una descripción funcional de una expresión verdaderamente precisa."
         ],
         "examples": [
           {
@@ -2210,8 +2223,10 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Perífrasis progresivas con gerundio: estar, ir, venir y llevar (cont'd)",
-        "body": [],
+        "heading": "Estar + gerundio frente a ir + gerundio",
+        "body": [
+          "Estar + gerundio describe una acción en curso de forma neutra; ir + gerundio añade la idea de avance gradual hacia un resultado (el proyecto va tomando forma)."
+        ],
         "examples": [
           {
             "es": "Está lloviendo desde esta mañana.",
@@ -2401,8 +2416,10 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Vocabulario: el gerundio y el infinitivo (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos sobre tiempo, aspecto y registro",
+        "body": [
+          "Segunda tanda: palabras para hablar del desarrollo de una acción en el tiempo (el lapso, la evolución paulatina, el desarrollo temporal, la interrupción) y del registro (la variante estándar, el registro escrito normativo, la fórmula fija)."
+        ],
         "examples": [
           {
             "es": "el imperativo",
@@ -2525,7 +2542,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "sentence": "___ (llevar) tres horas esperando una respuesta del servicio técnico, y todavía nada.",
         "answer": "Llevo",
         "hint": "Se trata de la primera persona del singular, con una expresión temporal cuantificada.",
-        "explanation": "«Llevar + gerundio» mide explícitamente la duración de una acción en curso desde un punto de referencia hasta el presente, y por eso exige siempre una expresión temporal cuantificada como «tres horas»."
+        "explanation": "«Llevar + gerundio» mide explícitamente la duración de una acción en curso desde un punto de referencia hasta el presente, y por eso necesita un complemento temporal que marque ese tramo: una cantidad («tres horas») o un punto de partida («desde el lunes»)."
       },
       {
         "type": "multiple-choice",
@@ -2571,7 +2588,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "¿Cuál de las siguientes perífrasis de gerundio exige siempre una expresión temporal que cuantifique la duración de la acción?",
+        "question": "¿Cuál de las siguientes perífrasis de gerundio necesita una expresión temporal (una duración o un punto de partida) para delimitar la duración de la acción?",
         "options": [
           "llevar + gerundio",
           "ir + gerundio",
@@ -2581,7 +2598,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "correctIndexes": [
           0
         ],
-        "explanation": "Solo «llevar + gerundio» requiere de forma obligatoria una expresión temporal cuantificada; las demás perífrasis pueden emplearse sin especificar una duración exacta."
+        "explanation": "Solo «llevar + gerundio» necesita esa expresión temporal (llevo dos horas esperando, llevo esperando desde las diez); las demás perífrasis pueden emplearse sin especificar una duración exacta."
       },
       {
         "type": "matching",
@@ -2846,8 +2863,10 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Se impersonal: invariablemente singular y sin sujeto (cont'd)",
-        "body": [],
+        "heading": "Se impersonal con complemento de persona",
+        "body": [
+          "Cuando el complemento es de persona y lleva «a», el verbo va en singular aunque se refiera a muchas personas (se informó a los vecinos, se ayuda a quienes lo solicitan): no hay sujeto con el que concordar."
+        ],
         "examples": [
           {
             "es": "Se informó a los vecinos sobre las obras.",
@@ -3122,8 +3141,10 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Vocabulario: la voz pasiva y el se impersonal (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos para analizar y redactar",
+        "body": [
+          "Segunda tanda: palabras útiles para describir construcciones (la ambigüedad sintáctica, la marca gramatical, el análisis contrastivo) y para redactar informes y procedimientos (el procedimiento reglamentario, el informe técnico, el restablecimiento)."
+        ],
         "examples": [
           {
             "es": "el énfasis retórico",
@@ -3270,7 +3291,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "El personaje pensó en voz alta sobre el arrepentimiento."
         ],
         "correctIndex": 2,
-        "explanation": "La tercera oración funde la voz narrativa con el pensamiento del personaje, sin verbo introductor ni comillas, e incluye una interrogación retórica propia de su subjetividad."
+        "explanation": "«Ya era demasiado tarde…; ¿de qué habría servido, además?» funde la voz narrativa con el pensamiento del personaje, sin verbo introductor ni comillas, e incluye una interrogación retórica propia de su subjetividad."
       }
     ]
   },
@@ -3421,7 +3442,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "El personaje reflexionó largamente sobre el error que había cometido."
         ],
         "correctIndex": 2,
-        "explanation": "El tercer fragmento funde la voz narrativa con el pensamiento del personaje, sin verbo introductor ni comillas, e incluye una interrogación retórica propia de su subjetividad; los demás corresponden al estilo indirecto tradicional, al estilo directo y a la narración puramente objetiva."
+        "explanation": "«Había sido un error confiar en ellos; ¿de qué le había servido tanta lealtad?» funde la voz narrativa con el pensamiento del personaje, sin verbo introductor ni comillas; los demás fragmentos corresponden al estilo indirecto tradicional, al estilo directo y a la narración puramente objetiva."
       },
       {
         "type": "fill-blank",
@@ -3587,7 +3608,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Las dos primeras oraciones seleccionadas son descripciones neutras y objetivas, sin exclamaciones, interrogaciones retóricas ni adverbios de proximidad que delaten la conciencia de un personaje; las otras dos sí incorporan indicios claros de subjetividad."
+        "explanation": "Las frases sobre el avión y la fábrica son descripciones neutras y objetivas, sin exclamaciones, interrogaciones retóricas ni adverbios de proximidad que delaten la conciencia de un personaje; la exclamación de alivio y la pregunta sobre el disparate sí incorporan indicios claros de subjetividad."
       },
       {
         "type": "matching",
@@ -3652,8 +3673,10 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Diferencias con el estilo directo y el estilo indirecto tradicional (cont'd)",
-        "body": [],
+        "heading": "El estilo indirecto libre en acción",
+        "body": [
+          "El primer ejemplo transforma la cita anterior en estilo indirecto libre: conserva el imperfecto y los demostrativos del narrador (ese lugar), pero prescinde del verbo introductor y mantiene la expresividad del personaje (No, nunca más). El segundo resume el efecto: la voz interior se mezcla con la del narrador sin comillas ni guiones."
+        ],
         "examples": [
           {
             "es": "No, no pensaba volver a ese lugar, nunca más.",
@@ -3833,8 +3856,10 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Vocabulario: la narración y el estilo indirecto libre (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos de teoría narrativa",
+        "body": [
+          "Segunda tanda: conceptos para analizar la voz y el punto de vista (la voz narrativa, el ángulo narrativo, la distancia narrativa, la inmediatez psicológica) y la construcción del relato (el marco narrativo, la retrospección, el punto de inflexión narrativo)."
+        ],
         "examples": [
           {
             "es": "la hibridez",
@@ -3941,7 +3966,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "Mateo llevaba semanas soportando una situación muy difícil."
         ],
         "correctIndex": 2,
-        "explanation": "La tercera versión funde la voz narrativa con el pensamiento de Mateo, sin verbo introductor ni comillas, y conserva la energía expresiva de la exclamación interna «se acabó, hasta aquí había llegado»; las demás corresponden al indirecto tradicional, al directo y a una narración meramente resumida."
+        "explanation": "«No iba a soportar esa situación ni un día más; se acabó, hasta aquí había llegado» funde la voz narrativa con el pensamiento de Mateo, sin verbo introductor ni comillas, y conserva la energía expresiva de la exclamación interna; las demás versiones corresponden al indirecto tradicional, al directo y a una narración meramente resumida."
       },
       {
         "type": "fill-blank",
@@ -3976,7 +4001,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "El primer fragmento conserva la energía coloquial de un reproche directo («basta ya de mentiras») y el tercero incluye una interrogación retórica de fuerte carga emocional; ambos son propios de la viveza expresiva del estilo indirecto libre, ausente en las dos oraciones puramente informativas."
+        "explanation": "«Basta ya de mentiras…» conserva la energía coloquial de un reproche directo y «¿Es que nadie iba a decir la verdad…?» incluye una interrogación retórica de fuerte carga emocional; ambos son propios de la viveza expresiva del estilo indirecto libre, ausente en las dos oraciones puramente informativas."
       },
       {
         "type": "word-order",
@@ -4547,8 +4572,10 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Vocabulario: por y para en contextos profesionales (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos laborales y contractuales",
+        "body": [
+          "Segunda tanda: palabras de los contratos (la disposición contractual, la cláusula resolutoria, la redacción contractual, la interpretación legal) y de la organización del trabajo (el turno, la entrega, la fecha tope, la baja laboral)."
+        ],
         "examples": [
           {
             "es": "la confidencialidad",
@@ -4878,7 +4905,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "«Juicio» y «manifestación» son eventos y exigen «ser»; «ayuntamiento» es un edificio y exige «estar». La segunda oración es incorrecta porque localiza un edificio («juzgado») con «ser» en vez de «estar»."
+        "explanation": "«Juicio» y «manifestación» son eventos y exigen «ser»; «ayuntamiento» es un edificio y exige «estar». «El juzgado de lo penal es en la avenida central» es incorrecta porque localiza un edificio con «ser» en vez de «estar»."
       },
       {
         "type": "fill-blank",
@@ -5049,7 +5076,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           0,
           1
         ],
-        "explanation": "Las dos primeras oraciones respetan la regla: «hay» con sustantivo indeterminado («varios documentos») y «estar» con sustantivo ya identificado («los documentos que firmaste»); las otras dos combinan indebidamente un determinante definido con «hay» y uno indefinido con «estar»."
+        "explanation": "«Hay varios documentos…» y «Los documentos que firmaste… están…» respetan la regla: «hay» con sustantivo indeterminado y «estar» con sustantivo ya identificado; «Hay el documento…» y «Está un documento…» combinan indebidamente un determinante definido con «hay» y uno indefinido con «estar»."
       }
     ]
   },
@@ -5266,8 +5293,10 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Vocabulario: los casos límite de ser, estar y haber (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos para describir y valorar",
+        "body": [
+          "Segunda tanda: adjetivos y conceptos que ayudan a elegir entre ser y estar (inherente frente a circunstancial, el rasgo de carácter frente a la experiencia puntual) y términos gramaticales que explican las restricciones de haber (el determinante posesivo, el determinante demostrativo, la agramaticalidad)."
+        ],
         "examples": [
           {
             "es": "inherente",
@@ -6034,8 +6063,10 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Errores comunes: interferencia y analogía interna (cont'd)",
-        "body": [],
+        "heading": "Depender de, basarse en: regímenes que no se cruzan",
+        "body": [
+          "Estos ejemplos fijan la preposición de dos verbos que se confunden por analogía: depender de (no ✗ depender en, calco del inglés depend on) y basarse en (no ✗ basarse de)."
+        ],
         "examples": [
           {
             "es": "El resultado depende de varios factores externos.",
@@ -6216,8 +6247,10 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Vocabulario: los verbos preposicionales (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más sustantivos para los verbos preposicionales",
+        "body": [
+          "Segunda tanda: sustantivos que aparecen a menudo como complemento de estos verbos (el pacto, la petición, la condición, el fundamento, el parecer) y términos del ámbito laboral (el ausentismo, el trimestre, la estrategia sistemática)."
+        ],
         "examples": [
           {
             "es": "la confrontación dialéctica",
@@ -6336,7 +6369,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "En el uso exclusivo de verbos reflexivos en lugar de verbos preposicionales."
         ],
         "correctIndex": 1,
-        "explanation": "La analogía interna surge quando el hablante extiende la preposición de un verbo a otro verbo semánticamente vecino pero con un régimen distinto, como ocurre entre «depender de» y «basarse en»."
+        "explanation": "La analogía interna surge cuando el hablante extiende la preposición de un verbo a otro verbo semánticamente vecino pero con un régimen distinto, como ocurre entre «depender de» y «basarse en»."
       },
       {
         "type": "fill-blank",
@@ -6488,7 +6521,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "La primera y la tercera oración respetan el régimen fijo de cada verbo («contar con», «consistir en», «insistir en», «depender de»); la segunda y la cuarta invierten indebidamente las preposiciones por analogía interna."
+        "explanation": "«Contamos con tu ayuda… consiste en…» e «Insistió en que… depende de…» respetan el régimen fijo de cada verbo; las otras dos oraciones intercambian indebidamente las preposiciones por analogía interna."
       },
       {
         "type": "multiple-choice",
@@ -6587,7 +6620,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "Cabe destacar, cabe señalar y conviene precisar",
         "body": [
           "«Cabe destacar», «cabe señalar» y «conviene precisar» son fórmulas metadiscursivas propias del registro académico y periodístico que el hablante emplea para marcar explícitamente que va a introducir un dato o una idea que considera especialmente relevante. A diferencia de una simple enumeración de datos, estas fórmulas dirigen la atención del lector hacia un punto concreto, señalándolo como digno de una consideración especial.",
-          "La diferencia entre estas tres fórmulas es sutil: «cabe destacar» suele introducir un dato positivo o llamativo dentro de una serie; «cabe señalar» tiene un uso más neutro, apto tanto para datos positivos como negativos; y «conviene precisar» se reserva casi siempre para introducir una aclaración que evita una posible ambigüedad. El uso de estas fórmulas cumple una función real de organización textual: guía al lector a través de la jerarquía de importancia que el autor atribuye a cada idea."
+          "La diferencia entre estas tres fórmulas es sutil: «cabe destacar» resalta con más énfasis un dato que el hablante quiere poner en primer plano, sea positivo o negativo (cabe destacar que los costes son elevados); «cabe señalar» es algo más neutro y sirve para añadir una observación pertinente; y «conviene precisar» se reserva casi siempre para introducir una aclaración que evita una posible ambigüedad. El uso de estas fórmulas cumple una función real de organización textual: guía al lector a través de la jerarquía de importancia que el autor atribuye a cada idea."
         ],
         "examples": [
           {
@@ -6614,11 +6647,11 @@ const C1_BASE_LESSONS: Lesson[] = [
             "pairs": [
               {
                 "left": "cabe destacar",
-                "right": "introduce un dato positivo o llamativo dentro de una serie"
+                "right": "pone en primer plano un dato especialmente relevante"
               },
               {
                 "left": "cabe señalar",
-                "right": "introduce un dato relevante de forma neutra, positivo o negativo"
+                "right": "añade una observación pertinente, con menos énfasis"
               },
               {
                 "left": "conviene precisar",
@@ -6901,7 +6934,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "left": "cabe destacar",
-            "right": "introduce un dato positivo o llamativo dentro de la argumentación"
+            "right": "resalta un dato especialmente relevante dentro de la argumentación"
           }
         ],
         "explanation": "Cada conector cierra o resalta una idea con un matiz de contundencia y registro distinto."
@@ -6917,8 +6950,10 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Vocabulario: los conectores discursivos (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos de la argumentación",
+        "body": [
+          "Segunda tanda: palabras para describir cómo se construye un texto argumentativo (el desarrollo argumentativo, la enumeración, la aclaración, la ponderación, el desenlace argumentativo) y los contextos en que se usa (el panel, el ensayo argumentativo, institucional)."
+        ],
         "examples": [
           {
             "es": "el enfrentamiento dialéctico",
@@ -7401,8 +7436,10 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Vocabulario: las estructuras enfáticas (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos sobre el énfasis",
+        "body": [
+          "Segunda tanda: conceptos para describir cómo se resalta un elemento (la marcación sintáctica, la posición inicial marcada, la reduplicación, el realce expresivo) y qué funciones sintácticas pueden enfatizarse (el complemento indirecto, el complemento circunstancial)."
+        ],
         "examples": [
           {
             "es": "la intensificación",
@@ -7876,8 +7913,10 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Vocabulario: la conjetura y la probabilidad (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos sobre registro y certeza",
+        "body": [
+          "Segunda tanda: palabras para situar la conjetura en su registro (el registro oral espontáneo, el registro escrito formal, coloquial, literario) y para graduar la certeza (el matiz de certeza, la fiabilidad del indicio, la aproximación numérica, presuponer)."
+        ],
         "examples": [
           {
             "es": "la reconstrucción de un recuerdo",
@@ -9113,8 +9152,10 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Vocabulario: el voseo (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos de dialectología",
+        "body": [
+          "Segunda tanda: términos para describir el voseo como fenómeno dialectal (la variedad diatópica, el continuo dialectal, la extensión geográfica del voseo), su valoración social (el estigma lingüístico, el prestigio dialectal, la norma culta) y rasgos rioplatenses asociados (el yeísmo rehilado, la prosodia rioplatense, el lunfardo)."
+        ],
         "examples": [
           {
             "es": "la sílaba tónica",
@@ -9542,8 +9583,10 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "5 min",
     "sections": [
       {
-        "heading": "El vocabulario cotidiano: entre la anécdota y la trampa (cont'd)",
-        "body": [],
+        "heading": "Expresiones para comentar las diferencias léxicas",
+        "body": [
+          "Tres expresiones útiles para hablar de estos contrastes: algo resulta proverbial cuando todo el mundo lo cita como ejemplo; una atención fina es la que capta matices; y designar un objeto es nombrarlo con una palabra concreta, que puede cambiar de un país a otro."
+        ],
         "examples": [
           {
             "es": "resultar proverbial",
@@ -9598,7 +9641,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Falsos amigos dialectales y palabras con carga sensible",
         "body": [
-          "Un fenómeno particularmente delicado es el de las palabras que resultan neutras en un país y malsonantes o incluso vulgares en otro, sin que exista ninguna relación etimológica que lo explique de forma evidente. El verbo coger, por ejemplo, significa simplemente tomar o agarrar en España, pero en varios países de América Latina posee una connotación sexual explícita que lo vuelve inapropiado en el habla cotidiana, donde se prefiere agarrar o tomar.",
+          "Un fenómeno particularmente delicado es el de las palabras que resultan neutras en un país y malsonantes o incluso vulgares en otro, sin que exista ninguna relación etimológica que lo explique de forma evidente. El verbo coger, por ejemplo, significa simplemente tomar o agarrar en España, Colombia y buena parte del Caribe, pero en México, Argentina, Uruguay, Venezuela y gran parte de Centroamérica posee una connotación sexual explícita que lo vuelve inapropiado en el habla cotidiana, donde se prefiere agarrar o tomar.",
           "Este tipo de contraste no es anecdótico: puede generar situaciones incómodas para quien viaja o se comunica con hablantes de otra región sin conocer el matiz. La estrategia más prudente para quien domina el español a un nivel avanzado no consiste en memorizar una lista exhaustiva de palabras prohibidas, sino en desarrollar una actitud de escucha atenta y, ante la duda, optar por la variante más neutra y menos marcada regionalmente."
         ],
         "examples": [
@@ -9633,7 +9676,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con el verbo más neutro para evitar el matiz sensible que adquiere coger en varios países.",
             "sentence": "¿Me ayudas a ___ esa maleta del estante?",
             "answer": "agarrar",
-            "explanation": "En muchos países de América Latina se prefiere agarrar o tomar en lugar de coger, que allí posee una connotación sexual explícita.",
+            "altAnswers": ["tomar", "bajar"],
+            "explanation": "En México, Argentina y otros países de América se prefiere agarrar o tomar en lugar de coger, que allí posee una connotación sexual explícita (en España, Colombia o el Caribe coger es neutro).",
             "hint": "Piensa en un verbo neutro y ampliamente aceptado en toda Hispanoamérica."
           }
         ]
@@ -9724,11 +9768,11 @@ const C1_BASE_LESSONS: Lesson[] = [
             "right": "el bebé"
           },
           {
-            "left": "coger (en España)",
+            "left": "coger (en España o Colombia)",
             "right": "tomar o agarrar algo"
           },
           {
-            "left": "coger (en varios países de América)",
+            "left": "coger (en México o Argentina)",
             "right": "una palabra con connotación sexual explícita"
           }
         ],
@@ -9931,7 +9975,69 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": []
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "«Güey», usado como vocativo entre amigos, es una palabra típica de México. ¿Cómo se llama este tipo de palabra?",
+        "options": [
+          "un mexicanismo",
+          "un peninsularismo",
+          "un anglicismo adaptado",
+          "un indigenismo léxico"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un mexicanismo es una palabra o expresión propia del español de México."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "«Tomate», «chocolate» y «aguacate» proceden del náhuatl: son ___ léxicos.",
+        "answer": "indigenismos",
+        "explanation": "Un indigenismo léxico es una palabra del español que procede de una lengua indígena americana."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "«Guagua» significa «autobús» en Cuba y «bebé» en Chile: es un falso amigo ___.",
+        "answer": "dialectal",
+        "explanation": "Un falso amigo dialectal coincide en la forma con una palabra de otra región, pero cambia de significado."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "la sinonimia regional",
+            "right": "varias palabras equivalentes según la región"
+          },
+          {
+            "left": "el eufemismo regional",
+            "right": "expresión suavizada para evitar un término tosco"
+          },
+          {
+            "left": "la neutralización léxica",
+            "right": "elegir un término comprensible en varias regiones"
+          },
+          {
+            "left": "la connotación vulgar",
+            "right": "matiz grosero que adquiere una palabra en cierto contexto"
+          }
+        ],
+        "explanation": "Cuatro conceptos básicos para hablar de la variación léxica."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Una traductora escribe «computadora» en lugar de «ordenador» porque su texto se leerá en toda América. ¿Qué está haciendo?",
+        "options": [
+          "una neutralización léxica",
+          "una digresión",
+          "un falso amigo dialectal",
+          "un eufemismo regional"
+        ],
+        "correctIndex": 0,
+        "explanation": "Neutralizar es elegir la variante más comprensible en varias regiones a la vez."
+      }
+    ]
   },
   {
     "slug": "neutral-vs-colloquial-1",
@@ -10348,8 +10454,10 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Vocabulario: el español neutro y el coloquial (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos sobre el habla coloquial",
+        "body": [
+          "Segunda tanda: recursos típicos del registro coloquial (el diminutivo afectivo, el aumentativo despectivo, la hipérbole coloquial, la interjección coloquial, el relleno conversacional) y tipos de expresiones fijas (la fórmula hecha, la frase hecha, el refrán popular)."
+        ],
         "examples": [
           {
             "es": "la espontaneidad discursiva",
@@ -10538,8 +10646,10 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Las fórmulas fijas de saludo y despedida (cont'd)",
-        "body": [],
+        "heading": "Expresiones para valorar el tono de una carta",
+        "body": [
+          "Estas expresiones sirven para comentar el tono de un escrito: una nota de cortesía adicional suma amabilidad a una fórmula ya formal; un efecto de descuido aparece cuando se mezclan registros; y quedar a la espera de algo es la base de cierres como «Quedo a la espera de su respuesta»."
+        ],
         "examples": [
           {
             "es": "una nota de cortesía adicional",
@@ -10873,8 +10983,10 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Vocabulario: la correspondencia formal (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos de la correspondencia formal",
+        "body": [
+          "Segunda tanda: tipos de escrito (el oficio, la circular, el memorando, la instancia), elementos del documento (la firma, el sello institucional, la copia de cortesía) y cualidades de la redacción (la claridad expositiva, la concisión redaccional)."
+        ],
         "examples": [
           {
             "es": "la cortesía epistolar",
@@ -11626,8 +11738,10 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "4 min",
     "sections": [
       {
-        "heading": "Vocabulario: el lenguaje académico (cont'd)",
-        "body": [],
+        "heading": "Vocabulario: más términos del ensayo académico",
+        "body": [
+          "Segunda tanda: recursos de la impersonalidad académica (el verbo atenuador, la voz pasiva refleja, el se impersonal), partes del ensayo (el párrafo introductorio, el párrafo de cierre) y conceptos de la argumentación (la contraargumentación, el razonamiento deductivo, la falacia lógica)."
+        ],
         "examples": [
           {
             "es": "el verbo atenuador",
@@ -11700,7 +11814,69 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       }
     ],
-    "exercises": []
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "question": "En «Los datos parecen indicar que…», ¿qué recurso suaviza la afirmación?",
+        "options": [
+          "un verbo atenuador",
+          "una falacia lógica",
+          "un párrafo de cierre",
+          "una digresión"
+        ],
+        "correctIndex": 0,
+        "explanation": "Parecer, sugerir o apuntar son verbos atenuadores: rebajan el grado de certeza."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "Presentar como propias las ideas de otro autor es una apropiación ___.",
+        "answer": "indebida",
+        "explanation": "La apropiación indebida (el plagio) es usar ideas o palabras ajenas como si fueran propias."
+      },
+      {
+        "type": "matching",
+        "instructions": "Relaciona cada término con su definición.",
+        "pairs": [
+          {
+            "left": "el párrafo introductorio",
+            "right": "presenta el tema y la tesis"
+          },
+          {
+            "left": "el párrafo de cierre",
+            "right": "recapitula y concluye el argumento"
+          },
+          {
+            "left": "la digresión",
+            "right": "desvío hacia asuntos secundarios"
+          },
+          {
+            "left": "la paráfrasis",
+            "right": "reformulación con palabras propias de una idea ajena"
+          }
+        ],
+        "explanation": "Partes y recursos del ensayo académico."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "«Todos los metales conducen la electricidad; el cobre es un metal; por tanto, el cobre conduce la electricidad.» Es un ejemplo de…",
+        "options": [
+          "razonamiento deductivo",
+          "contraargumentación",
+          "digresión",
+          "voz pasiva refleja"
+        ],
+        "correctIndex": 0,
+        "explanation": "El razonamiento deductivo parte de una premisa general para llegar a una conclusión particular."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa la oración con el término de la lección.",
+        "sentence": "En «Se analizaron cien encuestas», el verbo está en voz pasiva ___.",
+        "answer": "refleja",
+        "explanation": "La pasiva refleja (se + verbo concordado con el sujeto: se analizaron cien encuestas) evita mencionar quién realiza la acción."
+      }
+    ]
   },
   {
     "slug": "subjunctive-advanced-nuances-drill-1",
@@ -13103,7 +13279,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "question": "¿Cuáles de las siguientes oraciones usan correctamente el gerundio o el infinitivo?",
             "options": [
               "Nadar es un ejercicio excelente.",
-              "Se rompió el brazo cayéndose de la bicicleta.",
+              "Se cayó de la bicicleta, rompiéndose el brazo.",
               "Al terminar el examen, entregó la hoja.",
               "Sigue viviendo con sus padres."
             ],
@@ -13112,7 +13288,7 @@ const C1_BASE_LESSONS: Lesson[] = [
               2,
               3
             ],
-            "explanation": "La oración 2 es incorrecta porque usa el gerundio de posterioridad; debería decir 'Se cayó de la bicicleta y se rompió el brazo'. Las demás son correctas: infinitivo como sujeto, infinitivo tras preposición y 'seguir' + gerundio."
+            "explanation": "«Se cayó de la bicicleta, rompiéndose el brazo» es incorrecta porque usa el gerundio de posterioridad (romperse el brazo ocurre después de caerse y es su consecuencia); debería decir 'Se cayó de la bicicleta y se rompió el brazo'. Las demás son correctas: infinitivo como sujeto, infinitivo tras preposición y 'seguir' + gerundio."
           }
         ]
       }
@@ -13507,7 +13683,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           1,
           2
         ],
-        "explanation": "Las tres primeras concuerdan correctamente: 'entradas' y 'asistentes' son plurales (pasiva refleja) e 'información' es singular. La cuarta es incorrecta porque 'se habla de ese tema' es impersonal y debe ir en singular, no 'se hablan'."
+        "explanation": "«Se vendieron todas las entradas», «Se necesita más información» y «Se buscan tres asistentes» concuerdan correctamente: 'entradas' y 'asistentes' son plurales (pasiva refleja) e 'información' es singular. «Se hablan de ese tema» es incorrecta: 'se habla de ese tema' es impersonal y va en singular."
       },
       {
         "type": "fill-blank",
@@ -13723,7 +13899,7 @@ const C1_BASE_LESSONS: Lesson[] = [
               "Pedro no fue a la fiesta."
             ],
             "correctIndex": 2,
-            "explanation": "La tercera opción funde el pensamiento de Pedro con la narración: no hay \"dijo que\" ni comillas, pero el verbo cambia a condicional (\"iría\"), señal típica del estilo indirecto libre."
+            "explanation": "«Pedro miró la invitación. No iría a esa fiesta.» funde el pensamiento de Pedro con la narración: no hay \"dijo que\" ni comillas, pero el verbo cambia a condicional (\"iría\"), señal típica del estilo indirecto libre."
           }
         ]
       },
@@ -13891,7 +14067,7 @@ const C1_BASE_LESSONS: Lesson[] = [
               1,
               3
             ],
-            "explanation": "Las opciones 2 y 4 fusionan narración y pensamiento sin verbo introductorio ni comillas, con verbos en condicional/imperfecto. La 1 usa \"explicó que\" (indirecto estándar), la 3 usa comillas/raya (directo) y la 5 usa \"sabía que\" (indirecto estándar)."
+            "explanation": "«Carla releyó la carta. Nada volvería a ser igual.» y «Miguel se quedó mirando la puerta. Ella no iba a volver.» fusionan narración y pensamiento sin verbo introductorio ni comillas. «El profesor explicó que…» y «Ana sabía que…» son estilo indirecto estándar, y la frase con raya es estilo directo."
           }
         ]
       },

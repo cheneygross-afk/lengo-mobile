@@ -1088,7 +1088,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
           ["Estoy dando clases de guitarra.", "I'm giving guitar lessons."],
         ],
         [
-          fb("Completa la frase.", "¿Qué ___ ayer en la reunión? Nadie me cuenta nada.", "ocurrió", "Ocurrir → ocurrió (pretérito): what happened."),
+          { ...fb("Completa la frase.", "¿Qué ___ ayer en la reunión? Nadie me cuenta nada.", "ocurrió", "Ocurrir → ocurrió (pretérito): what happened."), altAnswers: ["pasó"] },
         ]
       ),
     ],

@@ -888,7 +888,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["Si ves a Marta, dile que la llamo luego.", "If you see Marta, tell her I'll call her later."],
         ],
         [
-          fb("Completa la instrucción.", "Si tienes hambre, ___ algo de la nevera. (coger, tú)", "coge", "Mandato de tú: coge."),
+          fb("Completa la instrucción.", "Si tienes hambre, ___ algo de la nevera. (coger, tú)", "coge", "Mandato de tú: coge. Ojo: coger es neutro en España, pero en México, Argentina y buena parte de Latinoamérica es vulgar; allí se dice tomar o agarrar."),
         ]
       ),
     ],
@@ -1368,12 +1368,12 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["Es el pueblo. Nací en el pueblo. → Es el pueblo donde nací.", "It's the town where I was born."],
         ],
         [
-          fb("Une las frases.", "Es mi profesora. Aprendí mucho con ella. → Es la profesora con ___ aprendí mucho.", "quien", "Persona + preposición → quien (o la que)."),
+          { ...fb("Une las frases.", "Es mi profesora. Aprendí mucho con ella. → Es la profesora con ___ aprendí mucho.", "quien", "Persona + preposición → quien (o la que)."), altAnswers: ["la que", "la cual"] },
         ]
       ),
     ],
     [
-      fb("Une las frases.", "Visitamos un museo. En el museo hay obras de Goya. → Visitamos un museo ___ hay obras de Goya.", "donde", "Lugar → donde (o en el que)."),
+      { ...fb("Une las frases.", "Visitamos un museo. En el museo hay obras de Goya. → Visitamos un museo ___ hay obras de Goya.", "donde", "Lugar → donde (o en el que)."), altAnswers: ["en el que", "en el cual"] },
       fb("Une las frases.", "No entendí algo. Dijo algo. → No entendí ___ dijo.", "lo que", "Algo no específico → lo que."),
       fb("Une las frases.", "Son los amigos. Viajé con ellos a Perú. → Son los amigos con los ___ viajé a Perú.", "que", "Con los que (personas plurales con preposición)."),
       wo("La película que vimos anoche fue muy aburrida.", "Relativa con que dentro del sujeto.", "The movie we saw last night was very boring."),
@@ -1423,9 +1423,9 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Corrige.", "El chico ___ te presenté ayer es mi primo. (el alumno escribió: quien)", "que", "Sin preposición → que (o a quien, con la a personal)."),
+      { ...fb("Corrige.", "El chico ___ te presenté ayer es mi primo. (el alumno escribió: quien)", "que", "Sin preposición → que (o a quien, con la a personal)."), altAnswers: ["a quien", "al que"] },
       fb("Corrige.", "Perdió el tren, ___ significa que llegará tarde. (el alumno escribió: que)", "lo que", "Se refiere a toda la idea anterior → lo que."),
-      fb("Corrige.", "La empresa para ___ trabajo es alemana. (el alumno escribió: que)", "la que", "Tras preposición, con cosas → la que."),
+      { ...fb("Corrige.", "La empresa para ___ trabajo es alemana. (el alumno escribió: que)", "la que", "Tras preposición, con cosas → la que."), altAnswers: ["la cual"] },
       ms(
         "¿Qué frases son correctas?",
         ["Los amigos con quienes salgo son simpáticos.", "Es la ciudad donde me enamoré.", "El libro que me prestaste es genial.", "Haz lo cual quieras."],
@@ -1472,7 +1472,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["Es algo con lo que escribes.", "It's something you write with."],
         ],
         [
-          fb("Completa la definición de «biblioteca».", "Es un lugar ___ puedes leer y pedir libros prestados.", "donde", "Lugar → donde."),
+          { ...fb("Completa la definición de «biblioteca».", "Es un lugar ___ puedes leer y pedir libros prestados.", "donde", "Lugar → donde."), altAnswers: ["en el que", "en que"] },
         ]
       ),
     ],
@@ -1690,7 +1690,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Responde.", "—¿Nos traes las bebidas? —Sí, ahora ___ las traigo.", "os", "A vosotros → os."),
+      { ...fb("Responde.", "—¿Nos traes las bebidas? —Sí, ahora ___ las traigo.", "os", "A vosotros → os."), altAnswers: ["se"] },
       fb("Responde.", "—¿Les mandaste las fotos a tus padres? —Sí, ___ las mandé.", "se", "Les + las → se las."),
       fb("Responde.", "—¿Te han devuelto el dinero? —No, todavía no me ___ han devuelto.", "lo", "El dinero → lo."),
       mt(
@@ -3216,7 +3216,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Completa el anuncio.", "Chalet con jardín en el ___ pueden jugar los niños.", "que", "Preposición + el que."),
-      fb("Completa el anuncio.", "Zona ___ se puede aparcar fácilmente.", "donde", "Lugar → donde."),
+      { ...fb("Completa el anuncio.", "Zona ___ se puede aparcar fácilmente.", "donde", "Lugar → donde."), altAnswers: ["en la que", "en que"] },
       fb("Completa el anuncio.", "Todo ___ necesitas, a cinco minutos a pie.", "lo que", "Todo lo que = everything (that)."),
       mt(
         "Relaciona cada frase con su final.",
@@ -3308,7 +3308,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Completa.", "El chico con ___ baila mi prima es su novio.", "quien", "Preposición + persona → quien (o el que)."),
+      { ...fb("Completa.", "El chico con ___ baila mi prima es su novio.", "quien", "Preposición + persona → quien (o el que)."), altAnswers: ["el que", "el cual"] },
       fb("Completa.", "Las ___ están sentadas son mis abuelas.", "que", "Las que = the ones who."),
       fb("Completa.", "El señor ___ está al lado de la novia es su padre.", "que", "Persona sin preposición → que."),
       mt(
@@ -3846,7 +3846,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       mc("¿Cuál no encaja?", ["el semáforo", "la esquina", "la cuadra", "la almohada"], 3, "La almohada es de la cama."),
-      fb("Completa con un relativo.", "Es la plaza ___ nos conocimos.", "donde", "Lugar → donde."),
+      { ...fb("Completa con un relativo.", "Es la plaza ___ nos conocimos.", "donde", "Lugar → donde."), altAnswers: ["en la que", "en que"] },
       fb("Completa con un relativo.", "El puente ___ cruzamos es del siglo XV.", "que", "Que sin preposición."),
       fb("Completa.", "Cruza siempre por el ___ de peatones.", "paso", "El paso de peatones."),
       ms(
@@ -4081,7 +4081,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Mandato + que + subjuntivo (orden indirecta) + me lo."
       ),
-      fb("Termina la frase.", "El chico con ___ salgo se llama Diego.", "quien", "Con quien (persona tras preposición)."),
+      { ...fb("Termina la frase.", "El chico con ___ salgo se llama Diego.", "quien", "Con quien (persona tras preposición)."), altAnswers: ["el que", "el cual"] },
     ]
   ),
   L(
@@ -4182,7 +4182,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué frases son correctas?",
         ["Te lo explico luego.", "La casa en la que nací ya no existe.", "Esas llaves son suyas.", "Me los prestó quien lo conocí."],
         [0, 1, 2],
-        "La última no tiene sentido: «quien lo conocí»."
+        "«Me los prestó quien lo conocí» no tiene sentido: el verbo no concuerda con «quien»."
       ),
       mc(
         "«Give it (the book) to the woman who is at reception.» (tú)",
@@ -4878,7 +4878,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué frases son buenas para llegar a un acuerdo?",
         ["¿Qué os parece si dividimos las tareas?", "Yo haría la introducción, si os parece bien.", "Es mejor que todos participemos.", "Haz tú todo."],
         [0, 1, 2],
-        "La última es un mandato poco colaborativo."
+        "«Haz tú todo» es un mandato poco colaborativo."
       ),
       toEs("It's fair that everyone works the same.", "Es justo que todos trabajen lo mismo.", "Es justo que + subjuntivo.", ["Es justo que todo el mundo trabaje lo mismo.", "Es justo que todos trabajemos lo mismo."]),
       wo("Al final entregamos el proyecto que habíamos preparado juntos.", "Pretérito + relativa en pluscuamperfecto.", "In the end we handed in the project we had prepared together."),
@@ -5656,7 +5656,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Completa.", "Cada martes ___ la cena para cincuenta personas. (preparar, nosotros)", "preparamos", "Hábito presente."),
-      fb("Completa.", "El señor con ___ hablo siempre era profesor de historia.", "quien", "Con quien."),
+      { ...fb("Completa.", "El señor con ___ hablo siempre era profesor de historia.", "quien", "Con quien."), altAnswers: ["el que", "el cual"] },
       fb("Completa.", "Si quieres ayudar, ___ al comedor el martes. (venir, tú)", "ven", "Mandato irregular."),
       mt(
         "Relaciona cada tarea con su lugar.",

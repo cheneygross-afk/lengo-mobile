@@ -752,7 +752,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Familias de imágenes",
-        "Cuerpo: tomar el pelo (burlarse), no tener pelos en la lengua (hablar sin rodeos), costar un riñón (ser carísimo), echar una mano (ayudar). Comida: ser pan comido (muy fácil), importar un pimiento (no importar nada), dar calabazas (rechazar). Animales: estar como una cabra (loco), buscarle tres pies al gato (complicar las cosas).",
+        "Cuerpo: tomar el pelo (burlarse), no tener pelos en la lengua (hablar sin rodeos), costar un riñón (España: ser carísimo), echar una mano (ayudar). Comida: ser pan comido (muy fácil), importar un pimiento (España: no importar nada), dar calabazas (rechazar a un pretendiente). Animales: estar como una cabra (España: estar loco), buscarle tres pies al gato (complicar las cosas).",
         [
           ["Ese examen fue pan comido.", "That exam was a piece of cake."],
           ["No tiene pelos en la lengua.", "She doesn't mince words."],
@@ -922,7 +922,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Relaciona el modismo con su sentido.",
         [
           ["meter la pata", "equivocarse"],
-          ["dar la lata", "molestar"],
+          ["dar la lata (España, México)", "molestar"],
           ["hacer la vista gorda", "fingir no ver"],
         ],
         "Modismos cotidianos."
@@ -4053,7 +4053,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué respuestas suenan a fanfarronería?",
         ["Nadie trabaja mejor que yo.", "Soy un genio de la informática.", "Se me da bien analizar datos; mi último informe se adoptó como modelo.", "No tengo ningún defecto."],
         [0, 1, 3],
-        "La tercera equilibra fortaleza y prueba."
+        "«Se me da bien analizar datos; mi último informe se adoptó como modelo» es la única que equilibra fortaleza y prueba."
       ),
       toEs("I'd say my main strength is adaptability.", "Diría que mi principal fortaleza es la capacidad de adaptación.", "Condicional atenuador.", ["Diría que mi mayor fortaleza es la adaptabilidad.", "Diría que mi principal fortaleza es la adaptabilidad."]),
       wo("En mi último puesto coordiné un equipo de ocho personas.", "Evidencia concreta.", "In my last job I coordinated a team of eight people."),
@@ -4226,7 +4226,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué frases conviene evitar?",
         ["Mi anterior empresa era un desastre.", "Pues, no sé, lo que surja.", "Tío, ¿y cuánto se cobra aquí?", "Me motiva especialmente el proyecto de expansión."],
         [0, 1, 2],
-        "La última muestra interés."
+        "«Me motiva especialmente el proyecto de expansión» es la única adecuada: muestra interés; las demás critican, suenan vagas o demasiado informales."
       ),
       mc(
         "¿Qué respuesta a «¿Por qué quiere trabajar aquí?» es mejor?",
@@ -4362,7 +4362,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué expresiones suelen escalar un conflicto?",
         ["Tú siempre…", "Nunca…", "Cálmate.", "Entiendo lo que dices."],
         [0, 1, 2],
-        "La última valida."
+        "«Entiendo lo que dices» valida al otro y desescala; las generalizaciones (tú siempre, nunca) y el «cálmate» suelen encender más el conflicto."
       ),
       toEs("I feel frustrated when plans change at the last minute.", "Me siento frustrado cuando los planes cambian en el último momento.", "Mensaje yo.", ["Me siento frustrada cuando los planes cambian en el último momento.", "Me frustra que los planes cambien en el último momento."]),
       wo("Vamos a tomarnos un momento y hablarlo con calma.", "Bajar el ritmo.", "Let's take a moment and talk about it calmly."),
@@ -4710,7 +4710,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Corrige.", "Los criollos ___ excluidos de los altos cargos. (el alumno puso: fueron; es un marco)", "estaban", "Situación de fondo → imperfecto."),
+      fb("Corrige.", "Los criollos ___ excluidos de los altos cargos. (el alumno puso: fueron; es un marco)", "estaban", "Situación de fondo → imperfecto: estaban (o eran) excluidos. «Fueron excluidos» presentaría la exclusión como un acto puntual y cerrado, no como la situación estable de la época."),
       fb("Corrige.", "En 1821 México ___ su independencia. (el alumno puso: conseguía; hecho sin intención estilística)", "consiguió", "Hecho puntual → indefinido."),
       fb("Corrige.", "Cuando llegó la noticia, el virrey ya ___ huido. (el alumno puso: huyó)", "había", "Anterioridad → pluscuamperfecto."),
       mc(
@@ -5367,7 +5367,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué expresiones polarizan?",
         ["los enemigos del pueblo", "todos los de ese partido son iguales", "traidores", "discrepamos respetuosamente"],
         [0, 1, 2],
-        "La última es deliberativa."
+        "«Discrepamos respetuosamente» es deliberativa; las demás etiquetan y polarizan."
       ),
       mc(
         "«El electorado se agrupa en bandos cada vez más cerrados» describe…",
@@ -6400,7 +6400,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "De la situación al modismo",
-        "Alguien se equivoca en público → meter la pata. Alguien dice lo que piensa sin filtros → no tener pelos en la lengua. Algo es facilísimo → ser pan comido. Algo es carísimo → costar un ojo de la cara. Estás harto → estar hasta las narices. Alguien exagera un problema pequeño → ahogarse en un vaso de agua.",
+        "Alguien se equivoca en público → meter la pata. Alguien dice lo que piensa sin filtros → no tener pelos en la lengua. Algo es facilísimo → ser pan comido. Algo es carísimo → costar un ojo de la cara. Estás harto → estar hasta las narices (España). Alguien exagera un problema pequeño → ahogarse en un vaso de agua.",
         [
           ["No te ahogues en un vaso de agua: tiene solución.", "Don't make a mountain out of a molehill: it can be fixed."],
         ],
@@ -6666,7 +6666,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué réplicas rebaten un refrán?",
         ["El refranero también dice lo contrario.", "Los refranes no son datos.", "Eso depende del contexto.", "Totalmente de acuerdo."],
         [0, 1, 2],
-        "La última acepta."
+        "«Totalmente de acuerdo» acepta el refrán en vez de rebatirlo."
       ),
       toEs("Proverbs are not evidence.", "Los refranes no son pruebas.", "Límite del refrán.", ["Los refranes no son datos.", "Un refrán no es una prueba."]),
       wo("El refranero también dice lo contrario, así que no nos sirve de mucho.", "Rebatir un refrán.", "The proverbs also say the opposite, so it's not much help to us."),
@@ -7116,7 +7116,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué titulares usan metonimia?",
         ["Bruselas advierte a Madrid", "El Bernabéu enmudece", "La Casa Rosada responde", "Sube el precio del pan"],
         [0, 1, 2],
-        "El último es literal."
+        "«Sube el precio del pan» es literal; en los demás, un lugar (Bruselas, el Bernabéu, la Casa Rosada) nombra a la institución o a las personas asociadas a él."
       ),
       wo("Bruselas da luz verde al nuevo plan de ayudas.", "Metonimia + metáfora.", "Brussels gives the green light to the new aid plan."),
     ]
@@ -7217,7 +7217,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué fórmulas cierran una negociación?",
         ["Entonces, ¿cerramos el acuerdo así?", "Les enviaré el borrador mañana.", "¿Estamos de acuerdo en estos puntos?", "¿Qué margen tienen?"],
         [0, 1, 2],
-        "La última explora."
+        "«¿Qué margen tienen?» explora posiciones, todavía no cierra; las demás fórmulas confirman o formalizan el acuerdo."
       ),
       toEs("I'm afraid this is our final offer.", "Me temo que esta es nuestra última oferta.", "Presión cortés.", ["Me temo que esta es nuestra oferta final.", "Me temo que es nuestra última oferta."]),
       wo("Podríamos ceder en el precio siempre que ampliaran el pedido.", "Ceder condicionando.", "We could give way on price provided you increased the order."),
@@ -7803,7 +7803,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Prefijos productivos",
-        "Des- / in- (negación): deshacer, incapaz, irreal, ilegal. Re- (repetición o intensidad): releer, rebuscar. Sobre- (exceso): sobrecargar, sobrevalorar. Sub- (debajo / insuficiente): subestimar, subdesarrollo. Contra- (oposición): contraataque, contraproducente. Pre- / pos- (antes / después): prever, posguerra. Anti- (contra): antivirus. Ortografía: pre- se une sin guion (precampaña, exministro).",
+        "Des- / in- (negación): deshacer, incapaz, irreal, ilegal. Re- (repetición o intensidad): releer, rebuscar. Sobre- (exceso): sobrecargar, sobrevalorar. Sub- (debajo / insuficiente): subestimar, subdesarrollo. Contra- (oposición): contraataque, contraproducente. Pre- / pos- (antes / después): prever, posguerra. Anti- (contra): antivirus. Ortografía: los prefijos se escriben unidos a la palabra, sin guion (precampaña, exministro), y separados solo cuando afectan a varias palabras (ex primer ministro, pro derechos humanos).",
         [
           ["No subestimes a tu rival.", "Don't underestimate your opponent."],
           ["Esa medida resultó contraproducente.", "That measure turned out to be counterproductive."],
@@ -7820,7 +7820,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Deriva.", "Algo que produce el efecto contrario al buscado es ___.", "contraproducente", "Prefijo contra-: oposición."),
-      fb("Deriva.", "Valorar por debajo de lo que merece: ___.", "subestimar", "Prefijo sub-: por debajo."),
+      { ...fb("Deriva.", "Valorar por debajo de lo que merece: ___.", "subestimar", "Prefijo sub-: por debajo. También valen infravalorar, subvalorar y minusvalorar."), altAnswers: ["infravalorar", "subvalorar", "minusvalorar"] },
       fb("Deriva.", "El periodo después de una guerra es la ___.", "posguerra", "Prefijo pos-: después de."),
       fb("Deriva.", "Que no es legal: ___.", "ilegal", "Prefijo in- → il- ante l."),
       ms(
@@ -7831,9 +7831,9 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       mc(
         "Grafía correcta según la norma actual:",
-        ["exministro", "ex-ministro", "ex ministro de", "Ex-Ministro"],
+        ["el exministro de Economía", "el ex-ministro de Economía", "el exprimer ministro", "el ex-primer ministro"],
         0,
-        "Prefijo unido a una sola palabra."
+        "El prefijo se une a una sola palabra (exministro); ante varias palabras se escribe separado y sin guion: el ex primer ministro."
       ),
       wo("Los expertos advierten de que no conviene sobrecargar el sistema.", "Prefijo sobre-.", "Experts warn that the system should not be overloaded."),
     ]

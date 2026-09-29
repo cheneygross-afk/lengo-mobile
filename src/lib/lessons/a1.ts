@@ -626,87 +626,87 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulary: Around the house",
         "body": [
-          "Twenty household nouns to practice deciding el or la."
+          "Twenty household nouns, each with its article. Learn the article together with the noun: most -a nouns take la and most -o nouns take el, but watch la pared, el reloj, el sofá and el jardín, whose endings don't give the gender away."
         ],
         "examples": [
           {
-            "es": "ventana",
+            "es": "la ventana",
             "en": "window"
           },
           {
-            "es": "puerta",
+            "es": "la puerta",
             "en": "door"
           },
           {
-            "es": "pared",
+            "es": "la pared",
             "en": "wall"
           },
           {
-            "es": "techo",
+            "es": "el techo",
             "en": "ceiling / roof"
           },
           {
-            "es": "piso",
-            "en": "floor"
+            "es": "el piso",
+            "en": "floor (in Spain, also \"apartment\")"
           },
           {
-            "es": "lámpara",
+            "es": "la lámpara",
             "en": "lamp"
           },
           {
-            "es": "reloj",
+            "es": "el reloj",
             "en": "clock"
           },
           {
-            "es": "escritorio",
+            "es": "el escritorio",
             "en": "desk"
           },
           {
-            "es": "estante",
+            "es": "el estante",
             "en": "shelf"
           },
           {
-            "es": "armario",
+            "es": "el armario",
             "en": "closet / cabinet"
           },
           {
-            "es": "espejo",
+            "es": "el espejo",
             "en": "mirror"
           },
           {
-            "es": "alfombra",
+            "es": "la alfombra",
             "en": "rug"
           },
           {
-            "es": "sofá",
+            "es": "el sofá",
             "en": "sofa / couch"
           },
           {
-            "es": "cama",
+            "es": "la cama",
             "en": "bed"
           },
           {
-            "es": "almohada",
+            "es": "la almohada",
             "en": "pillow"
           },
           {
-            "es": "manta",
+            "es": "la manta",
             "en": "blanket"
           },
           {
-            "es": "cocina",
+            "es": "la cocina",
             "en": "kitchen"
           },
           {
-            "es": "baño",
+            "es": "el baño",
             "en": "bathroom"
           },
           {
-            "es": "dormitorio",
+            "es": "el dormitorio",
             "en": "bedroom"
           },
           {
-            "es": "jardín",
+            "es": "el jardín",
             "en": "garden / yard"
           }
         ],
@@ -716,23 +716,23 @@ const A1_BASE_LESSONS: Lesson[] = [
             "instructions": "Match each word to its meaning.",
             "pairs": [
               {
-                "left": "puerta",
+                "left": "la puerta",
                 "right": "door"
               },
               {
-                "left": "cama",
+                "left": "la cama",
                 "right": "bed"
               },
               {
-                "left": "cocina",
+                "left": "la cocina",
                 "right": "kitchen"
               },
               {
-                "left": "espejo",
+                "left": "el espejo",
                 "right": "mirror"
               }
             ],
-            "explanation": "Practice deciding el or la for each of these before you check your work."
+            "explanation": "Learn each noun with its article: la puerta, la cama, la cocina, el espejo."
           }
         ]
       }
@@ -1419,7 +1419,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "manejar",
-            "en": "to drive"
+            "en": "to drive (Latin America; in Spain: conducir)"
           },
           {
             "es": "ayudar",
@@ -2133,7 +2133,8 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "A quick way to decide",
         "body": [
-          "Ask: is this a lasting characteristic, or a temporary condition/location? Lasting → ser. Temporary or location → estar."
+          "A good first question: is this who or what something is (identity, origin, profession, basic traits), or how or where it is right now? Identity → usually ser. Condition or location → usually estar.",
+          "It's a rule of thumb, not a law. Some lasting things take estar (estar muerto, estar casado), and events take ser even for where they happen: La fiesta es en mi casa. You'll meet these one at a time."
         ],
         "checkpoint": [
           {
@@ -2148,7 +2149,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "aquí."
             ],
             "translation": "The store is near here.",
-            "explanation": "Location always uses estar: la tienda está cerca."
+            "explanation": "Where a place or thing is located → estar: la tienda está cerca."
           }
         ]
       }
@@ -2239,7 +2240,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulary: Feelings & states",
         "body": [
-          "Twenty words for how someone feels or is doing — prime territory for estar."
+          "Twenty words for how someone feels or is doing. Most of them go with estar; the notes flag the ones that usually go with ser instead."
         ],
         "examples": [
           {
@@ -2292,27 +2293,27 @@ const A1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "casado/a",
-            "en": "married"
+            "en": "married (estar casado and ser casado are both common)"
           },
           {
             "es": "soltero/a",
-            "en": "single"
+            "en": "single (usually ser: soy soltero; estar soltero also works)"
           },
           {
             "es": "rico/a",
-            "en": "rich"
+            "en": "rich (with ser: es rico); tasty (with estar, of food: está rico)"
           },
           {
             "es": "pobre",
-            "en": "poor"
+            "en": "poor (a situation described as a trait → usually ser: es pobre)"
           },
           {
             "es": "amable",
-            "en": "kind"
+            "en": "kind (a personality trait → ser: es amable)"
           },
           {
             "es": "cariñoso/a",
-            "en": "affectionate"
+            "en": "affectionate (usually a trait → ser: es cariñosa)"
           },
           {
             "es": "tranquilo/a",
@@ -2345,7 +2346,7 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "calm"
               }
             ],
-            "explanation": "Almost all of these pair with estar — they describe how someone feels, not who they are. Watch for listo and rico, though: with ser they can mean \"clever\" and \"rich\" instead (estar rico is what you'd say about tasty food)."
+            "explanation": "Most of these pair with estar — they describe how someone feels, not who they are. A few are usually traits and go with ser: es amable, es cariñoso, es rico, es pobre. And listo changes meaning: estar listo = ready, ser listo = clever (just as estar rico is what you'd say about tasty food)."
           }
         ]
       }
@@ -2455,7 +2456,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate to Spanish.",
         "source": "The museum is far from here.",
         "answer": "El museo está lejos de aquí.",
-        "explanation": "Location, however far or near, always takes estar: el museo está lejos."
+        "explanation": "Where a place or thing is located takes estar, however far or near: el museo está lejos. (Events are the exception: la fiesta es en mi casa.)"
       },
       {
         "type": "translate",
@@ -2497,7 +2498,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Location always takes estar, never ser."
+        "explanation": "Where a place or thing is located takes estar, not ser. (Only events use ser for where they happen: la fiesta es en el hotel.)"
       },
       {
         "type": "matching",
@@ -3317,10 +3318,10 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Fill in the correct form of \"one\" to complete this sentence about a feminine noun.",
-        "sentence": "Hay treinta y ___ estudiantes en la clase de español.",
+        "sentence": "Hay treinta y ___ chicas en la clase de español.",
         "answer": "una",
-        "hint": "\"Estudiantes\" here refers to a feminine group ending in -a — the number ends the phrase, agreeing with the noun",
-        "explanation": "When a compound number ending in uno comes before a feminine noun, it takes the feminine form: treinta y una estudiantes."
+        "hint": "Chicas is feminine plural",
+        "explanation": "When a compound number ending in uno comes before a feminine noun, it takes the feminine form: treinta y una chicas."
       }
     ]
   },
@@ -4045,7 +4046,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Fill in the preposition meaning \"behind\".",
         "sentence": "El perro está ___ la casa.",
         "answer": "detrás de",
-        "explanation": "\"Detrás de\" means \"behind\", and location always pairs with estar."
+        "explanation": "\"Detrás de\" means \"behind\", and where a thing is located pairs with estar."
       },
       {
         "type": "translate",
@@ -4420,7 +4421,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "jugo",
-            "en": "juice"
+            "en": "juice (Latin America; in Spain: el zumo)"
           },
           {
             "es": "fútbol",
@@ -5336,7 +5337,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el coche",
-            "en": "car"
+            "en": "car (Spain; in Latin America: el carro or el auto)"
           },
           {
             "es": "el perro",
@@ -5546,7 +5547,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Estar: location, right now",
         "body": [
-          "Quick reminder: estar always covers where something is, no exceptions."
+          "Quick reminder: estar covers where a person, place or thing is. One exception to know: events (a party, a concert, a class) use ser for where they take place — La fiesta es en mi casa."
         ],
         "examples": [
           {
@@ -5564,7 +5565,7 @@ const A1_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete with the correct form of estar.",
             "sentence": "Los niños ___ en el parque.",
             "answer": "están",
-            "explanation": "Location, always estar. Los niños → están."
+            "explanation": "Where people are → estar. Los niños → están."
           },
           {
             "type": "multiple-choice",
@@ -6960,7 +6961,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "options": [
           "gran",
           "grande",
-          "grande",
+          "grandes",
           "gran de"
         ],
         "correctIndex": 0,
@@ -7473,6 +7474,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate to Spanish.",
         "source": "Their car is far from our house.",
         "answer": "Su coche está lejos de nuestra casa.",
+        "altAnswers": ["Su carro está lejos de nuestra casa.", "Su auto está lejos de nuestra casa."],
         "explanation": "Su (their) doesn't change for gender; nuestra agrees with the feminine casa; lejos de expresses \"far from\"."
       },
       {

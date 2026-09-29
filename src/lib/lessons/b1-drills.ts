@@ -1566,7 +1566,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Responde.", "—¿Aprobarás? —Es probable que ___.", "apruebe", "o → ue."),
       fb("Responde.", "—¿Hay atasco? —Puede que ___ atasco a esta hora.", "haya", "Puede que + subjuntivo."),
       fb("Responde.", "—¿Está Luis en casa? —Es posible que ___ en el gimnasio.", "esté", "Estar → esté."),
-      fb("Responde (seguro).", "—¿Vendrás? —Sí, seguro que ___.", "vengo", "Seguro que → indicativo."),
+      { ...fb("Responde (seguro).", "—¿Vendrás? —Sí, seguro que ___.", "vengo", "Seguro que → indicativo."), altAnswers: ["vendré"] },
       fb("Responde.", "—¿Os mudáis este año? —Es probable que nos ___ en verano.", "mudemos", "Reflexivo en subjuntivo."),
       mc(
         "«—¿Saldréis esta noche? —Puede que ___.»",
@@ -2024,7 +2024,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
     ],
     [
       toEs("Buy a transport card.", "Compra un abono de transporte.", "Tú afirmativo.", ["Cómprate un abono de transporte."]),
-      toEs("Don't take taxis; they're very expensive.", "No cojas taxis, son carísimos.", "Negativo tú.", ["No tomes taxis, son carísimos.", "No cojas taxis; son muy caros."]),
+      toEs("Don't take taxis; they're very expensive.", "No cojas taxis, son carísimos.", "Negativo tú. Ojo: coger es neutro en España, pero en México, Argentina y buena parte de Latinoamérica es vulgar; allí se dice tomar o agarrar.", ["No tomes taxis, son carísimos.", "No cojas taxis; son muy caros.", "No tomes taxis, son muy caros."]),
       toEs("Try the local food.", "Prueba la comida local.", "Probar → prueba.", ["Prueba la comida típica."]),
       toEs("Don't miss the old town.", "No te pierdas el casco antiguo.", "No te + subjuntivo.", ["No te pierdas el centro histórico."]),
       fb("Completa.", "___ la aplicación del metro. (descargar + te)", "Descárgate", "Pegado + tilde."),
@@ -2855,7 +2855,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
     [
       toEs("If it's sunny, I'll go to the mountains.", "Si hace sol, iré a la montaña.", "Si + presente + futuro.", ["Si hace sol, voy a ir a la montaña."]),
       toEs("If I'm not tired, I'll go out with my friends.", "Si no estoy cansado, saldré con mis amigos.", "Si + presente + futuro.", ["Si no estoy cansada, saldré con mis amigos."]),
-      toEs("If I save enough, I'll buy a car.", "Si ahorro lo suficiente, me compraré un coche.", "Si + presente + futuro.", ["Si ahorro bastante, compraré un coche."]),
+      toEs("If I save enough, I'll buy a car.", "Si ahorro lo suficiente, me compraré un coche.", "Si + presente + futuro.", ["Si ahorro bastante, compraré un coche.", "Si ahorro lo suficiente, me compraré un carro.", "Si ahorro lo suficiente, compraré un coche.", "Si ahorro lo suficiente, compraré un carro."]),
       toEs("If you want, come with me.", "Si quieres, ven conmigo.", "Si + presente + imperativo.", []),
       fb("Completa.", "Si ___ el examen, lo celebraremos. (aprobar, yo)", "apruebo", "o → ue."),
       fb("Completa.", "Si no ___ nada que hacer, os llamo. (tener, yo)", "tengo", "Si + presente."),
@@ -3023,7 +3023,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Responde.", "—¿Qué harás si pierdes el tren? —Si lo pierdo, ___ el autobús. (coger)", "cogeré", "Futuro."),
+      fb("Responde.", "—¿Qué harás si pierdes el tren? —Si lo pierdo, ___ el autobús. (coger)", "cogeré", "Futuro. Ojo: coger es neutro en España, pero en México, Argentina y buena parte de Latinoamérica es vulgar; allí se dice tomar o agarrar."),
       fb("Responde.", "—¿Qué harás si hace buen tiempo? —Si hace buen tiempo, ___ en el jardín. (comer, nosotros)", "comeremos", "Futuro."),
       fb("Responde.", "—¿Y si no hay entradas? —Si no ___ entradas, veremos otra película.", "hay", "Si + presente."),
       fb("Responde.", "—¿Y si tu jefe se niega? —Si ___ que no, buscaré otro trabajo. (decir)", "dice", "Si + presente."),
@@ -3501,7 +3501,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         "¿Qué frases usan bien el pluscuamperfecto?",
         ["Cuando llegué, ya habían cenado.", "Nunca había visto el mar hasta ese verano.", "Ayer había ido al cine y volví a las diez.", "Me dijo que había perdido las llaves."],
         [0, 1, 3],
-        "En la tercera, «ayer había ido» no se refiere a nada anterior."
+        "En «Ayer había ido al cine y volví a las diez», el pluscuamperfecto no se refiere a nada anterior: lo normal es «Ayer fui al cine»."
       ),
       toEs("I was hungry because I hadn't eaten.", "Tenía hambre porque no había comido.", "Imperfecto + pluscuamperfecto.", []),
     ]
@@ -3935,16 +3935,16 @@ export const B1_DRILLS: AnchoredLesson[] = [
           ["La ciudad en la que nací es pequeña.", "The city I was born in is small."],
         ],
         [
-          fb("Completa.", "La empresa para ___ trabajo es alemana.", "la que", "Para + la que (empresa)."),
+          { ...fb("Completa.", "La empresa para ___ trabajo es alemana.", "la que", "Para + la que (empresa)."), altAnswers: ["la cual"] },
         ]
       ),
     ],
     [
-      fb("Completa.", "El chico con ___ sale mi hermana es simpático.", "el que", "Con + el que (o quien)."),
+      { ...fb("Completa.", "El chico con ___ sale mi hermana es simpático.", "el que", "Con + el que (o quien)."), altAnswers: ["quien", "el cual"] },
       fb("Completa.", "Las amigas con ___ viajé son de Chile. (solo personas)", "quienes", "Quienes, plural."),
-      fb("Completa.", "El pueblo en ___ crecí ya no existe.", "el que", "En + el que."),
-      fb("Completa.", "La razón por ___ me fui es personal.", "la que", "Por + la que."),
-      fb("Completa.", "Los compañeros a ___ invité no vinieron.", "los que", "A + los que."),
+      { ...fb("Completa.", "El pueblo en ___ crecí ya no existe.", "el que", "En + el que."), altAnswers: ["que", "el cual"] },
+      { ...fb("Completa.", "La razón por ___ me fui es personal.", "la que", "Por + la que."), altAnswers: ["la cual"] },
+      { ...fb("Completa.", "Los compañeros a ___ invité no vinieron.", "los que", "A + los que."), altAnswers: ["quienes", "los cuales"] },
       mc(
         "«La mesa ___ comemos es de mi abuelo.»",
         ["en la que", "que en", "quien", "en quien"],
@@ -4025,9 +4025,9 @@ export const B1_DRILLS: AnchoredLesson[] = [
     ],
     [
       fb("Completa.", "Vivo en un barrio ___ está cerca del río.", "que", "Que + antecedente."),
-      fb("Completa.", "La panadería en ___ compro el pan es antigua.", "la que", "En + la que."),
+      { ...fb("Completa.", "La panadería en ___ compro el pan es antigua.", "la que", "En + la que."), altAnswers: ["que", "la cual"] },
       fb("Completa.", "Es de una familia ___ lleva allí cincuenta años.", "que", "Relativo: Que."),
-      fb("Completa.", "Mi vecina, ___ es pintora, tiene un perro. (entre comas, persona)", "quien", "Quien entre comas."),
+      { ...fb("Completa.", "Mi vecina, ___ es pintora, tiene un perro. (entre comas, persona)", "quien", "Quien entre comas."), altAnswers: ["que", "la cual"] },
       fb("Completa.", "___ más me gusta es la tranquilidad.", "Lo que", "Lo que = what."),
       fb("Completa.", "El parque al ___ voy los domingos es enorme.", "que", "Al que (a + el que)."),
       toEs("The market where I buy fruit opens at eight.", "El mercado en el que compro fruta abre a las ocho.", "Relativo: En el que.", ["El mercado donde compro la fruta abre a las ocho."]),
@@ -4056,7 +4056,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Une.", "Esta es la llave. Abro la puerta con esta llave. → Esta es la llave con la ___ abro la puerta.", "que", "Con la que."),
       fb("Une.", "Vi a unos chicos. Los chicos jugaban al fútbol. → Vi a unos chicos ___ jugaban al fútbol.", "que", "Relativo: Que."),
       fb("Une.", "Llegó tarde. Eso enfadó al jefe. → Llegó tarde, lo ___ enfadó al jefe.", "que", "Lo que (toda la frase)."),
-      fb("Une.", "Es mi abuela. Pienso mucho en ella. → Es mi abuela, en ___ pienso mucho. (persona)", "quien", "En quien."),
+      { ...fb("Une.", "Es mi abuela. Pienso mucho en ella. → Es mi abuela, en ___ pienso mucho. (persona)", "quien", "En quien."), altAnswers: ["la que", "la cual"] },
       mc(
         "«Es la empresa ___ trabajé cinco años.»",
         ["en la que", "que", "lo que", "quien"],
@@ -4086,12 +4086,12 @@ export const B1_DRILLS: AnchoredLesson[] = [
     ],
     [
       fb("Rápido.", "___ me preocupa es el precio.", "Lo que", "Relativo: Idea."),
-      fb("Rápido.", "La chica con ___ bailé es argentina.", "la que", "Con + la que."),
+      { ...fb("Rápido.", "La chica con ___ bailé es argentina.", "la que", "Con + la que."), altAnswers: ["quien", "la cual"] },
       fb("Rápido.", "Los amigos ___ vinieron trajeron vino.", "que", "Sin preposición."),
-      fb("Rápido.", "Es la razón por ___ lo hice.", "la que", "Por + la que."),
+      { ...fb("Rápido.", "Es la razón por ___ lo hice.", "la que", "Por + la que."), altAnswers: ["la cual"] },
       fb("Rápido.", "Repite ___ has oído.", "lo que", "Lo que: no hay sustantivo antes."),
-      fb("Rápido.", "Mi tío, ___ es médico, me ayudó. (persona, entre comas)", "quien", "Quien entre comas."),
-      fb("Rápido.", "El edificio en ___ trabajo es muy moderno.", "el que", "En + el que."),
+      { ...fb("Rápido.", "Mi tío, ___ es médico, me ayudó. (persona, entre comas)", "quien", "Quien entre comas."), altAnswers: ["que", "el cual"] },
+      { ...fb("Rápido.", "El edificio en ___ trabajo es muy moderno.", "el que", "En + el que."), altAnswers: ["que", "el cual"] },
       mc(
         "«No sé ___ quieres decir.»",
         ["lo que", "que", "el que", "quien"],
@@ -4129,7 +4129,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       toEs("What I value most is honesty.", "Lo que más valoro es la honestidad.", "Relativo: Lo que.", ["Lo que más valoro es la sinceridad."]),
       toEs("She is the teacher I learned the most from.", "Es la profesora de la que más aprendí.", "De + la que.", ["Es la profesora de quien más aprendí."]),
       fb("Completa.", "Es el lugar al ___ siempre quiero volver.", "que", "Al que."),
-      fb("Completa.", "Mi padre, ___ es muy tranquilo, nunca grita. (persona, entre comas)", "quien", "Quien."),
+      { ...fb("Completa.", "Mi padre, ___ es muy tranquilo, nunca grita. (persona, entre comas)", "quien", "Quien."), altAnswers: ["que", "el cual"] },
       wo("Lo que más echo de menos de mi país es la comida.", "Lo que.", "What I miss most about my country is the food."),
     ]
   ),
@@ -4152,18 +4152,18 @@ export const B1_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Corrige.", "El barrio en ___ está es muy tranquilo. (el anuncio dice: que)", "el que", "Preposición + el que."),
+      { ...fb("Corrige.", "El barrio en ___ está es muy tranquilo. (el anuncio dice: que)", "el que", "Preposición + el que."), altAnswers: ["el cual"] },
       fb("Corrige.", "___ más gusta es la terraza. (el anuncio dice: Que)", "Lo que", "Idea → lo que."),
       fb("Corrige.", "La vecina con ___ comparte rellano es encantadora. (el anuncio dice: que; usa el artículo)", "la que", "Con + la que."),
       fb("Corrige.", "Hay un parque ___ tiene columpios. (el anuncio dice: lo que)", "que", "Antecedente: parque."),
-      fb("Corrige.", "El dueño, ___ vive abajo, es muy amable. (el anuncio dice: que cual)", "quien", "Persona entre comas."),
+      { ...fb("Corrige.", "El dueño, ___ vive abajo, es muy amable. (el anuncio dice: que cual)", "quien", "Persona entre comas."), altAnswers: ["que", "el cual"] },
       mc(
         "¿Cuál es correcta?",
         ["La cocina, que es nueva, tiene lavavajillas.", "La cocina, quien es nueva, tiene lavavajillas.", "La cocina, lo que es nueva, tiene lavavajillas.", "La cocina, la que es nueva, lavavajillas."],
         0,
         "Cosa → que."
       ),
-      toEs("The flat I rent is near the metro.", "El piso que alquilo está cerca del metro.", "Relativo: Que.", ["El piso que alquilo está al lado del metro."]),
+      toEs("The flat I rent is near the metro.", "El piso que alquilo está cerca del metro.", "Relativo: Que.", ["El piso que alquilo está al lado del metro.", "El apartamento que alquilo está cerca del metro.", "El departamento que alquilo está cerca del metro."]),
     ]
   ),
   L(
@@ -4208,9 +4208,9 @@ export const B1_DRILLS: AnchoredLesson[] = [
         0,
         "Sin preposición."
       ),
-      fb("Completa.", "La calle por ___ paseamos era preciosa.", "la que", "Por + la que."),
+      { ...fb("Completa.", "La calle por ___ paseamos era preciosa.", "la que", "Por + la que."), altAnswers: ["la cual", "donde"] },
       fb("Completa.", "No recuerdo ___ pagamos.", "lo que", "What we paid."),
-      toEs("The waiter who served us was from Colombia.", "El camarero que nos atendió era de Colombia.", "Relativo: Que.", ["El camarero que nos sirvió era colombiano."]),
+      toEs("The waiter who served us was from Colombia.", "El camarero que nos atendió era de Colombia.", "Relativo: Que.", ["El camarero que nos sirvió era colombiano.", "El mesero que nos atendió era de Colombia.", "El camarero que nos sirvió era de Colombia.", "El mesero que nos sirvió era de Colombia."]),
     ]
   ),
   L(
@@ -4299,7 +4299,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
     [
       fb("Une.", "Escribí a un amigo. El amigo vive en Cuba. → El amigo al ___ escribí vive en Cuba.", "que", "Al que."),
       fb("Une.", "Duermo en una cama. La cama es incómoda. → La cama en la ___ duermo es incómoda.", "que", "En la que."),
-      fb("Une.", "Trabajo con unos compañeros. Los compañeros son de México. → Los compañeros con ___ trabajo son de México.", "los que", "Con los que."),
+      { ...fb("Une.", "Trabajo con unos compañeros. Los compañeros son de México. → Los compañeros con ___ trabajo son de México.", "los que", "Con los que."), altAnswers: ["quienes", "los cuales"] },
       fb("Une.", "Perdí el tren. Eso me hizo llegar tarde. → Perdí el tren, ___ me hizo llegar tarde.", "lo que", "Relativo: Lo que."),
       fb("Une.", "Te presento a Juan. Juan es mi primo. → Te presento a Juan, ___ es mi primo.", "que", "Que entre comas (o quien)."),
       fb("Une.", "Siempre hablo de un tema. El tema es la música. → El tema del ___ siempre hablo es la música.", "que", "Del que."),
@@ -4320,17 +4320,17 @@ export const B1_DRILLS: AnchoredLesson[] = [
           ["Es la casa con la que siempre he soñado.", "It's the house I've always dreamed of."],
         ],
         [
-          fb("Rápido.", "Es el viaje con el ___ sueño desde niño. (soñar con)", "que", "Con el que."),
+          { ...fb("Rápido.", "Es el viaje con el ___ sueño desde niño. (soñar con)", "que", "Con el que."), altAnswers: ["cual"] },
         ]
       ),
     ],
     [
-      fb("Rápido.", "Es la persona en ___ más confío. (confiar en, persona)", "quien", "En quien."),
-      fb("Rápido.", "Es un tema del ___ no se habla. (hablar de)", "que", "Del que."),
-      fb("Rápido.", "Son los problemas en los ___ pienso cada noche. (pensar en)", "que", "En los que."),
-      fb("Rápido.", "Es la gente de la ___ dependo. (depender de)", "que", "De la que."),
+      { ...fb("Rápido.", "Es la persona en ___ más confío. (confiar en, persona)", "quien", "En quien."), altAnswers: ["la que", "la cual"] },
+      { ...fb("Rápido.", "Es un tema del ___ no se habla. (hablar de)", "que", "Del que."), altAnswers: ["cual"] },
+      { ...fb("Rápido.", "Son los problemas en los ___ pienso cada noche. (pensar en)", "que", "En los que."), altAnswers: ["cuales"] },
+      { ...fb("Rápido.", "Es la gente de la ___ dependo. (depender de)", "que", "De la que."), altAnswers: ["cual"] },
       fb("Rápido.", "Es el trabajo ___ el que me presenté. (presentarse a)", "al", "A + el → al."),
-      fb("Rápido.", "Es la chica de la ___ me enamoré. (enamorarse de)", "que", "De la que."),
+      { ...fb("Rápido.", "Es la chica de la ___ me enamoré. (enamorarse de)", "que", "De la que."), altAnswers: ["cual"] },
       mc(
         "«Es el equipo ___ juego desde hace años.» (jugar en)",
         ["en el que", "que", "del que", "lo que"],
@@ -4402,7 +4402,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Completa.", "La cocina, ___ es nueva, está equipada.", "que", "Que entre comas."),
       fb("Completa.", "El edificio en el ___ está tiene ascensor.", "que", "Relativo: En el que."),
       fb("Completa.", "___ más gusta es la luz.", "Lo que", "Relativo: Lo que."),
-      fb("Completa.", "El dueño, a ___ puedes llamar a cualquier hora, es muy amable. (persona)", "quien", "A quien."),
+      { ...fb("Completa.", "El dueño, a ___ puedes llamar a cualquier hora, es muy amable. (persona)", "quien", "A quien."), altAnswers: ["el que", "el cual"] },
       toEs("The bedroom I like most has a balcony.", "El dormitorio que más me gusta tiene balcón.", "Relativo: Que.", []),
     ]
   ),
@@ -4434,7 +4434,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       toEs("The box I keep my letters in is under my bed.", "La caja en la que guardo mis cartas está debajo de mi cama.", "En la que.", []),
       toEs("It's a song I always think about.", "Es una canción en la que siempre pienso.", "En la que.", []),
       toEs("What I like most about this ring is its story.", "Lo que más me gusta de este anillo es su historia.", "Relativo: Lo que.", []),
-      fb("Completa.", "Es la guitarra con ___ aprendí a tocar.", "la que", "Con la que."),
+      { ...fb("Completa.", "Es la guitarra con ___ aprendí a tocar.", "la que", "Con la que."), altAnswers: ["la cual"] },
       fb("Completa.", "Son las fotos de las ___ te hablé.", "que", "De las que."),
       wo("La bicicleta con la que fui al colegio sigue en el garaje.", "Con la que.", "The bike I rode to school is still in the garage."),
     ]
@@ -4490,12 +4490,12 @@ export const B1_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Completa.", "Es un amigo con ___ puedo contar siempre. (persona)", "quien", "Contar con → con quien."),
+      { ...fb("Completa.", "Es un amigo con ___ puedo contar siempre. (persona)", "quien", "Contar con → con quien."), altAnswers: ["el que", "el cual"] },
       fb("Completa.", "Los vecinos ___ viven arriba hacen mucho ruido.", "que", "Relativo: Que."),
       fb("Completa.", "No me gusta ___ estás haciendo.", "lo que", "Relativo: Lo que."),
-      fb("Completa.", "Es la película de la ___ todo el mundo habla.", "que", "Hablar de → de la que."),
-      fb("Completa.", "El jefe, ___ nunca sonríe, hoy estaba contento. (persona)", "quien", "Quien entre comas."),
-      fb("Completa.", "La silla en ___ estás sentado está rota.", "la que", "En la que."),
+      { ...fb("Completa.", "Es la película de la ___ todo el mundo habla.", "que", "Hablar de → de la que."), altAnswers: ["cual"] },
+      { ...fb("Completa.", "El jefe, ___ nunca sonríe, hoy estaba contento. (persona)", "quien", "Quien entre comas."), altAnswers: ["que", "el cual"] },
+      { ...fb("Completa.", "La silla en ___ estás sentado está rota.", "la que", "En la que."), altAnswers: ["que", "la cual"] },
       mc(
         "«Me regaló un libro, ___ me hizo mucha ilusión.»",
         ["lo que", "que", "el que", "quien"],
@@ -5175,7 +5175,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         "¿Qué frases son correctas?",
         ["Mi ordenador es más lento que el tuyo.", "Estas gafas son mías.", "Prefiero tuyo.", "La casa suya de ella es grande."],
         [0, 1],
-        "«Prefiero el tuyo» necesita artículo; la última mezcla dos formas."
+        "«Prefiero tuyo» necesita artículo (el tuyo); «La casa suya de ella» mezcla dos formas (su casa / la casa de ella)."
       ),
     ]
   ),
@@ -5346,7 +5346,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
     ],
     [
       fb("Responde.", "—¿Me dejas tu cargador? —Sí, ___ dejo.", "te lo", "Me → te en la respuesta."),
-      fb("Responde.", "—¿Nos traes la carta, por favor? —Ahora mismo ___ traigo.", "se la", "Nos (ustedes) → se la."),
+      { ...fb("Responde.", "—¿Nos traes la carta, por favor? —Ahora mismo ___ traigo.", "se la", "Nos (ustedes) → se la."), altAnswers: ["os la"] },
       fb("Responde.", "—¿Les contaste la noticia a tus padres? —No, todavía no ___ he contado.", "se la", "Les + la → se la."),
       fb("Responde.", "—¿Te regalaron esas botas? —Sí, ___ regaló mi tía.", "me las", "Te → me en la respuesta."),
       fb("Responde.", "—¿Le pediste permiso al director? —Sí, ___ pedí ayer.", "se lo", "Permiso → lo."),
@@ -5562,7 +5562,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         0,
         "Venir → venid."
       ),
-      toEs("Kids, open your books!", "¡Niños, abrid los libros!", "Abrir → abrid."),
+      toEs("Kids, open your books!", "¡Niños, abrid los libros!", "Abrir → abrid. (En Latinoamérica, con ustedes: ¡Niños, abran los libros!)", ["¡Niños, abran los libros!", "Niños, abrid los libros.", "Niños, abran los libros."]),
     ]
   ),
   L(
@@ -5616,10 +5616,10 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Tus instrucciones.", "___ a la estación a las ocho. (venir)", "Venid", "Venir → venid."),
       fb("Tus instrucciones.", "___ bocadillos para el mediodía. (preparar)", "Preparad", "Preparar → preparad."),
       fb("Tus instrucciones.", "___ el grupo de mensajes esta noche. (mirar)", "Mirad", "Mirar → mirad."),
-      fb("Tus instrucciones.", "___ una chaqueta, que por la tarde hace frío. (coger)", "Coged", "Coger → coged."),
+      fb("Tus instrucciones.", "___ una chaqueta, que por la tarde hace frío. (coger)", "Coged", "Coger → coged. Ojo: coger es neutro en España, pero en México, Argentina y buena parte de Latinoamérica es vulgar; allí se dice tomar o agarrar."),
       fb("Tus instrucciones.", "___ el billete de tren con tiempo. (comprar)", "Comprad", "Comprar → comprad."),
-      toEs("Call me if you have a problem (you all).", "Llamadme si tenéis un problema.", "Llamad + me.", ["Llamadme si tenéis algún problema."]),
-      toEs("Bring water and wear good shoes (you all).", "Traed agua y llevad buenos zapatos.", "Dos mandatos de vosotros.", ["Traed agua y poneos buenos zapatos.", "Traed agua y llevad zapatos buenos."]),
+      toEs("Call me if you have a problem (you all).", "Llamadme si tenéis un problema.", "Llamad + me.", ["Llamadme si tenéis algún problema.", "Llámenme si tienen un problema.", "Llámenme si tienen algún problema."]),
+      toEs("Bring water and wear good shoes (you all).", "Traed agua y llevad buenos zapatos.", "Dos mandatos de vosotros.", ["Traed agua y poneos buenos zapatos.", "Traed agua y llevad zapatos buenos.", "Traigan agua y lleven buenos zapatos.", "Traigan agua y pónganse buenos zapatos."]),
     ]
   ),
   L(
@@ -5654,7 +5654,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         0,
         "La única excepción: conserva la -d."
       ),
-      toEs("Sit down and don't get up without permission.", "Sentaos y no os levantéis sin permiso.", "Afirmativo + negativo."),
+      toEs("Sit down and don't get up without permission.", "Sentaos y no os levantéis sin permiso.", "Afirmativo + negativo. (Con ustedes: Siéntense y no se levanten sin permiso.)", ["Siéntense y no se levanten sin permiso."]),
     ]
   ),
   L(
@@ -5688,7 +5688,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         [0, 1],
         "Afirmativo sin -d; negativo con subjuntivo."
       ),
-      toEs("Hurry up and don't make noise (you all).", "Daos prisa y no hagáis ruido.", "Daos + negativo.", ["Daos prisa y no hagáis ruido, por favor."]),
+      toEs("Hurry up and don't make noise (you all).", "Daos prisa y no hagáis ruido.", "Daos + negativo.", ["Daos prisa y no hagáis ruido, por favor.", "Dense prisa y no hagan ruido.", "Apúrense y no hagan ruido."]),
     ]
   ),
   L(
@@ -6579,7 +6579,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Paso 1.", "Si ___ el tren, llegamos a las nueve. (coger, nosotros)", "cogemos", "Si + presente."),
+      fb("Paso 1.", "Si ___ el tren, llegamos a las nueve. (coger, nosotros)", "cogemos", "Si + presente. Ojo: coger es neutro en España, pero en México, Argentina y buena parte de Latinoamérica es vulgar; allí se dice tomar o agarrar."),
       fb("Paso 2.", "Si cogemos el tren, ___ a las nueve. (llegar, futuro)", "llegaremos", "Resultado en futuro."),
       fb("Paso 3.", "Si ves a Luis, ___ que me llame. (decir, mandato)", "dile", "Mandato de tú + le."),
       fb("Paso 1.", "Si no ___ prisa, damos un paseo. (tener, vosotros)", "tenéis", "Si + presente."),
@@ -6717,7 +6717,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
     [
       fb("Rápido.", "La película ___ vimos ayer era aburrida.", "que", "Sin preposición."),
       fb("Rápido.", "Apunta ___ ha dicho la profesora.", "lo que", "Idea completa."),
-      fb("Rápido.", "Mi tío, ___ vive en Lima, viene en mayo.", "quien", "Persona entre comas (también «que»)."),
+      { ...fb("Rápido.", "Mi tío, ___ vive en Lima, viene en mayo.", "quien", "Persona entre comas (también «que»)."), altAnswers: ["que", "el cual"] },
       fb("Rápido.", "La mesa ___ trabajo es de mi abuelo. (sobre)", "sobre la que", "Preposición + la que."),
       fb("Rápido.", "Los amigos ___ viajé son de Chile. (con)", "con los que", "Preposición + los que."),
       fb("Rápido.", "___ más me gusta de ti es tu humor.", "Lo que", "Idea → lo que."),
@@ -6828,7 +6828,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         0,
         "Irse → idos."
       ),
-      toEs("Wash your hands before dinner (you all).", "Lavaos las manos antes de cenar.", "Lavad + os → lavaos."),
+      toEs("Wash your hands before dinner (you all).", "Lavaos las manos antes de cenar.", "Lavad + os → lavaos. (Con ustedes: Lávense las manos.)", ["Lávense las manos antes de cenar."]),
     ]
   ),
   L(
@@ -7763,10 +7763,10 @@ export const B1_DRILLS: AnchoredLesson[] = [
     ],
     [
       fb("Completa.", "El señor ___ la lleva se llama Rafa.", "que", "Sujeto, sin preposición."),
-      fb("Completa.", "Rafa, ___ vino de Ecuador, es muy amable.", "quien", "Persona entre comas (también «que»)."),
-      fb("Completa.", "La estantería en ___ guarda los dulces es mi favorita.", "la que", "Preposición + la que."),
+      { ...fb("Completa.", "Rafa, ___ vino de Ecuador, es muy amable.", "quien", "Persona entre comas (también «que»)."), altAnswers: ["que", "el cual"] },
+      { ...fb("Completa.", "La estantería en ___ guarda los dulces es mi favorita.", "la que", "Preposición + la que."), altAnswers: ["que", "la cual"] },
       fb("Completa.", "___ más me gusta es que siempre sonríe.", "Lo que", "Idea → lo que."),
-      fb("Completa.", "Su hija, con ___ hablo a veces, estudia Medicina.", "quien", "Persona + preposición (también «la que»)."),
+      { ...fb("Completa.", "Su hija, con ___ hablo a veces, estudia Medicina.", "quien", "Persona + preposición (también «la que»)."), altAnswers: ["la que", "la cual"] },
       mc(
         "«Es la tienda ___ compro el pan.»",
         ["donde", "que", "lo que", "quien"],
@@ -8183,15 +8183,15 @@ export const B1_DRILLS: AnchoredLesson[] = [
           ["Un cartero es alguien que reparte cartas.", "A postman is someone who delivers letters."],
         ],
         [
-          fb("Define.", "Una panadería es una tienda ___ se vende pan.", "donde", "Lugar → donde / en la que."),
+          { ...fb("Define.", "Una panadería es una tienda ___ se vende pan.", "donde", "Lugar → donde / en la que."), altAnswers: ["en la que", "en que", "en la cual"] },
         ]
       ),
     ],
     [
       fb("Define.", "Un cocinero es una persona ___ prepara comida.", "que", "Sin preposición."),
-      fb("Define.", "Un vecino es alguien con ___ compartes el edificio.", "quien", "Persona + preposición (también «el que»)."),
-      fb("Define.", "Un hospital es un edificio en ___ se atiende a enfermos.", "el que", "Preposición + el que."),
-      fb("Define.", "Una llave es un objeto con ___ abres una puerta.", "el que", "Preposición + el que."),
+      { ...fb("Define.", "Un vecino es alguien con ___ compartes el edificio.", "quien", "Persona + preposición (también «el que»)."), altAnswers: ["el que"] },
+      { ...fb("Define.", "Un hospital es un edificio en ___ se atiende a enfermos.", "el que", "Preposición + el que."), altAnswers: ["que", "el cual"] },
+      { ...fb("Define.", "Una llave es un objeto con ___ abres una puerta.", "el que", "Preposición + el que."), altAnswers: ["el cual"] },
       fb("Define.", "___ más me cuesta del español es el subjuntivo.", "Lo que", "Idea → lo que."),
       mc(
         "«Un jefe es la persona para ___ trabajas.»",
@@ -8389,7 +8389,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Rápido.", "Yo que tú, ___ antes. (salir)", "saldría", "Condicional."),
       fb("Rápido.", "Si ___ frío, cierra la ventana. (tener, tú)", "tienes", "Si + presente."),
       fb("Rápido.", "¿___ alguna vez en Perú? (estar, tú)", "Has estado", "Experiencia."),
-      fb("Rápido.", "La ciudad en ___ vivo es pequeña.", "la que", "Preposición + la que."),
+      { ...fb("Rápido.", "La ciudad en ___ vivo es pequeña.", "la que", "Preposición + la que."), altAnswers: ["que", "la cual"] },
       fb("Rápido.", "Se ___ pisos. (alquilar)", "alquilan", "Plural."),
       fb("Rápido.", "¿El libro? ___ di a Luis.", "Se lo", "Le + lo."),
       fb("Rápido.", "(vosotros, sentarse) ___.", "Sentaos", "Sin -d."),
@@ -8515,8 +8515,8 @@ export const B1_DRILLS: AnchoredLesson[] = [
     ],
     [
       fb("Estación 1.", "Ojalá mi hermano ___ el carné de conducir. (sacar)", "saque", "c → qu."),
-      fb("Estación 2.", "Es raro que Ana no ___ el teléfono. (coger)", "coja", "g → j."),
-      fb("Estación 2.", "Es evidente que Ana no ___ el teléfono. (coger)", "coge", "Constatación."),
+      fb("Estación 2.", "Es raro que Ana no ___ el teléfono. (coger)", "coja", "g → j. Ojo: coger es neutro en España, pero en México, Argentina y buena parte de Latinoamérica es vulgar; allí se dice tomar o agarrar."),
+      fb("Estación 2.", "Es evidente que Ana no ___ el teléfono. (coger)", "coge", "Constatación. Ojo: coger es neutro en España, pero en México, Argentina y buena parte de Latinoamérica es vulgar; allí se dice tomar o agarrar."),
       fb("Estación 3.", "Es necesario que ___ los formularios hoy. (entregar, ustedes)", "entreguen", "g → gu."),
       fb("Estación 3.", "Es cierto que el plazo ___ hoy. (terminar)", "termina", "Constatación."),
       mc(
@@ -8552,7 +8552,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Tus reglas.", "Si sales, ___ las luces. (apagar)", "apaga", "Afirmativo."),
       fb("Tus reglas.", "___ cómodo. (ponerse)", "Ponte", "Pon + te."),
       fb("Tus reglas.", "No le ___ de comer al gato. (dar)", "des", "Negativo; dar → des."),
-      fb("Tus reglas.", "Si tienes hambre, ___ algo de la nevera. (coger)", "coge", "Afirmativo."),
+      fb("Tus reglas.", "Si tienes hambre, ___ algo de la nevera. (coger)", "coge", "Afirmativo. Ojo: coger es neutro en España, pero en México, Argentina y buena parte de Latinoamérica es vulgar; allí se dice tomar o agarrar."),
       fb("Tus reglas.", "___ la llave debajo del felpudo. (dejar + la)", "Déjala", "Deja + la, con tilde."),
       toEs("Make yourself at home and don't worry about anything.", "Estás en tu casa; no te preocupes por nada.", "Negativo + te.", ["Siéntete como en casa y no te preocupes por nada."]),
     ]
@@ -8706,7 +8706,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
     ],
     [
       fb("Completa.", "___ me dijiste no se lo he contado a nadie.", "Lo que", "Idea → lo que."),
-      fb("Completa.", "La persona con ___ hablé me lo explicó todo.", "la que", "Preposición + la que."),
+      { ...fb("Completa.", "La persona con ___ hablé me lo explicó todo.", "la que", "Preposición + la que."), altAnswers: ["quien", "la cual"] },
       fb("Completa.", "Lo que me dijiste no ___ he contado a nadie.", "se lo", "Le + lo."),
       fb("Completa.", "Las fotos ___ hiciste, ¿me las mandas?", "que", "Sin preposición."),
       fb("Completa.", "Las fotos que hiciste, ¿___ mandas?", "me las", "Me + las."),
@@ -8804,7 +8804,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Completa.", "La empresa en ___ trabajo está en el centro.", "la que", "Preposición + la que."),
+      { ...fb("Completa.", "La empresa en ___ trabajo está en el centro.", "la que", "Preposición + la que."), altAnswers: ["que", "la cual"] },
       fb("Completa.", "Mi jefa quiere que ___ alemán. (aprender, yo)", "aprenda", "Deseo."),
       fb("Completa.", "Yo que tú, ___ a verme en junio. (venir)", "vendría", "Condicional."),
       fb("Completa.", "Si vienes, te ___ la ciudad. (enseñar, yo)", "enseño", "Si + presente."),
@@ -8902,7 +8902,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Estación 3.", "Yo en tu lugar, no ___ nada. (decir)", "diría", "Condicional."),
       fb("Estación 3.", "Si ___ tiempo, pásate por casa. (tener, tú)", "tienes", "Si + presente."),
       fb("Estación 4.", "Cuando llegué, ya ___ la reunión. (empezar)", "había empezado", "Pluscuamperfecto."),
-      fb("Estación 5.", "La casa en ___ crecí ya no existe.", "la que", "Preposición + la que."),
+      { ...fb("Estación 5.", "La casa en ___ crecí ya no existe.", "la que", "Preposición + la que."), altAnswers: ["que", "la cual"] },
       fb("Estación 5.", "En este bar se ___ las mejores tapas. (servir)", "sirven", "Pasivo plural; e → i."),
       fb("Estación 6.", "¿Las llaves? Ya ___ he devuelto a la dueña.", "se las", "Le + las."),
     ]

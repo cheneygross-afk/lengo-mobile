@@ -114,7 +114,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "Las dos primeras describen antecedentes conocidos y específicos: llevan indicativo. Las otras dos describen antecedentes inciertos o inexistentes: subjuntivo."
+            "explanation": "«Busco un traductor que sepa japonés» y «No hay ningún traductor que sepa japonés» hablan de alguien incierto o inexistente: subjuntivo. «Tengo un traductor que sabe» y «Conozco al traductor que sabe» se refieren a una persona concreta y conocida: indicativo."
           }
         ]
       },
@@ -973,7 +973,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "\"Porque\" introduce una razón, no una condición temporal, y siempre lleva indicativo."
+        "explanation": "\"Porque\" introduce una causa, no un momento, así que no sigue el patrón de \"cuando\": normalmente lleva indicativo (salvo en la negación de la causa: no porque sea fácil, sino…)."
       },
       {
         "type": "word-order",
@@ -1576,7 +1576,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Como si: siempre imperfecto de subjuntivo",
         "body": [
-          "\"Como si\" (as if) siempre lleva imperfecto de subjuntivo, porque compara la realidad con algo que no es cierto."
+          "\"Como si\" (as if) lleva imperfecto de subjuntivo (o pluscuamperfecto, para algo anterior: como si no hubiera pasado nada), porque compara la realidad con algo que no es cierto."
         ],
         "examples": [
           {
@@ -2765,13 +2765,13 @@ const B2_BASE_LESSONS: Lesson[] = [
             "type": "multiple-choice",
             "question": "¿Cómo se reporta \"Terminaré el informe\"?",
             "options": [
-              "Dijo que terminará el informe.",
+              "Dijo que terminara el informe.",
               "Dijo que terminaría el informe.",
               "Dijo que termina el informe.",
               "Dijo que terminó el informe."
             ],
             "correctIndex": 1,
-            "explanation": "El futuro (terminaré) retrocede al condicional (terminaría) en el estilo indirecto."
+            "explanation": "El futuro (terminaré) pasa normalmente al condicional (terminaría) en el estilo indirecto. Si el hecho todavía está por ocurrir cuando lo contamos, también es correcto mantener el futuro («Dijo que terminará el informe mañana»), algo muy frecuente en América; el condicional es la opción más segura y la preferida en España."
           }
         ]
       },
@@ -4298,7 +4298,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Convertirse en siempre va seguido de \"en\" más un sustantivo, nunca directamente de un adjetivo (eso pide volverse) ni de una profesión sin \"en\" (eso pide hacerse en o llegar a ser)."
+        "explanation": "Convertirse en siempre va seguido de \"en\" más un sustantivo, nunca directamente de un adjetivo (eso pide volverse) ni de una profesión sin \"en\" (para eso: hacerse médico, llegar a ser médico o convertirse en médico)."
       },
       {
         "type": "translate",
@@ -4919,7 +4919,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Anteposición para dar énfasis",
         "body": [
-          "Mover un complemento al inicio de la oración, junto con un pronombre que lo retoma, da énfasis a ese elemento. Esta estructura es mucho más común en español que en muchos otros idiomas."
+          "Mover un complemento al inicio de la oración da énfasis a ese elemento. Si es un complemento directo, hay que retomarlo con un pronombre (Ese libro ya lo leí, no ✗ Ese libro ya leí). Con verbos como gustar o encantar el pronombre (me, te, le, nos…) es obligatorio siempre, se anteponga o no el complemento; «a mí», «a ella» solo añaden énfasis o contraste (A mí me encanta, pero a ella no)."
         ],
         "examples": [
           {
@@ -4935,7 +4935,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con énfasis.",
             "sentence": "A ella ___ (encantar) viajar sola.",
             "answer": "le encanta",
-            "explanation": "La anteposición de \"a ella\" requiere el pronombre \"le\" que la retoma."
+            "explanation": "Encantar siempre lleva el pronombre de objeto indirecto (le encanta), haya o no \"a ella\"; el \"a ella\" antepuesto solo enfatiza o contrasta a la persona."
           }
         ]
       },
@@ -4957,13 +4957,13 @@ const B2_BASE_LESSONS: Lesson[] = [
             "type": "multiple-choice",
             "question": "¿Cuál oración enfatiza correctamente \"el lugar\"?",
             "options": [
-              "Fue aquí que nos conocimos.",
+              "Fue aquí quien nos conocimos.",
               "Fue aquí donde nos conocimos.",
-              "Aquí fue que nos conocimos.",
+              "Fue aquí cuando nos conocimos.",
               "Fue donde nos conocimos aquí."
             ],
             "correctIndex": 1,
-            "explanation": "Para enfatizar un lugar, se usa \"fue aquí donde\", con \"donde\" en vez de \"que\"."
+            "explanation": "Para enfatizar un lugar, el relativo que concuerda es \"donde\": fue aquí donde nos conocimos. En gran parte de América también se oye \"fue aquí que nos conocimos\"; es habitual en el habla, pero en España y en la escritura formal se prefiere \"donde\"."
           }
         ]
       },
@@ -4991,9 +4991,9 @@ const B2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Inversión con adverbios",
+        "heading": "Adverbios enfáticos al inicio: jamás, nunca, apenas",
         "body": [
-          "Ciertos adverbios (apenas, difícilmente, jamás) al inicio de la oración provocan la inversión del sujeto y el verbo, en un registro más formal o literario."
+          "Adverbios como jamás, nunca, apenas o tampoco pueden ir al principio de la oración para darles relieve; en esa posición sustituyen a \"no\" (Jamás había visto algo así = No había visto jamás algo así). A diferencia del inglés (Never had I seen...), el español no exige ninguna inversión especial: el sujeto puede ir antes o después del verbo con el mismo adverbio (Yo jamás he dicho eso / Jamás he dicho yo eso)."
         ],
         "examples": [
           {
@@ -5001,6 +5001,9 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Jamás había visto algo tan hermoso."
+          },
+          {
+            "es": "No había visto jamás algo tan hermoso."
           }
         ],
         "checkpoint": [
@@ -5062,19 +5065,19 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con énfasis.",
         "sentence": "A nosotros ___ (gustar) mucho el teatro clásico.",
         "answer": "nos gusta",
-        "explanation": "La anteposición de \"a nosotros\" requiere el pronombre \"nos\" que la retoma."
+        "explanation": "Gustar siempre lleva el pronombre (nos gusta), con o sin \"a nosotros\"; el complemento antepuesto solo añade énfasis."
       },
       {
         "type": "multiple-choice",
         "question": "¿Cuál enfatiza correctamente \"el momento\"?",
         "options": [
-          "Fue entonces que decidí cambiar.",
+          "Fue entonces donde decidí cambiar.",
           "Fue entonces cuando decidí cambiar.",
-          "Entonces fue que decidí cambiar.",
+          "Fue entonces quien decidí cambiar.",
           "Fue cuando entonces decidí cambiar."
         ],
         "correctIndex": 1,
-        "explanation": "Para enfatizar un momento, se usa \"fue entonces cuando\"."
+        "explanation": "Para enfatizar un momento, el relativo que concuerda es \"cuando\": fue entonces cuando decidí cambiar. \"Fue entonces que...\" es frecuente en el habla de América, pero en España y en registro formal se prefiere \"cuando\"."
       },
       {
         "type": "fill-blank",
@@ -5522,7 +5525,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "\"Lo cual\" se usa en la primera y la tercera oración porque el pronombre retoma toda la acción anterior (no llegar a tiempo; cancelar la reunión), no un sustantivo específico. En la segunda y la cuarta, el pronombre se refiere a un sustantivo concreto (\"la decisión\", \"los documentos\"), así que corresponde \"la cual\" o \"que\", no \"lo cual\"."
+        "explanation": "«Lo cual» se usa con «No llegó a tiempo…» y «El jefe canceló la reunión…» porque el pronombre retoma toda la acción anterior (no llegar a tiempo; cancelar la reunión), no un sustantivo concreto. Con «La decisión…» y «Los documentos…», el relativo se refiere a un sustantivo y sin preposición corresponde «que»."
       }
     ]
   },
@@ -6438,7 +6441,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           1,
           2
         ],
-        "explanation": "La segunda oración usa subjuntivo correctamente para una acción futura (tenga) y la tercera para una situación hipotética (llueva). La primera describe un hábito y debe llevar indicativo; la cuarta usa 'para que', que siempre exige subjuntivo (entiendas), no indicativo."
+        "explanation": "«Cuando tenga hambre, comeré…» usa subjuntivo para una acción futura y «Aunque llueva mañana…» para una hipótesis. «Cuando tengo hambre, como…» describe un hábito y lleva indicativo (correcto, pero no es subjuntivo); «para que entiendes» es un error: para que exige subjuntivo (entiendas)."
       },
       {
         "type": "multiple-choice",
@@ -6645,7 +6648,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "La primera y la tercera describen rutinas o hábitos, por lo que usan indicativo (salgo, canso). La segunda y la cuarta se refieren a acciones futuras aún no realizadas y requieren subjuntivo (salga, termine)."
+        "explanation": "«Cuando salgo del trabajo…» y «Siempre estudio hasta que me canso» describen rutinas, por eso llevan indicativo. «Cuando salga…» y «hasta que termine…» se refieren a acciones futuras aún no realizadas y requieren subjuntivo."
       },
       {
         "type": "matching",
@@ -7594,7 +7597,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "Las opciones 1 y 3 usan imperfecto de subjuntivo + condicional (Tipo 2, hipotético presente). La segunda es Tipo 1 (presente + futuro) y la cuarta es Tipo 3 (pluscuamperfecto de subjuntivo + condicional perfecto)."
+            "explanation": "«Si tuviera más vacaciones, descansaría» y «Si fuéramos ricos, ayudaríamos» combinan imperfecto de subjuntivo y condicional (Tipo 2). «Si tengo…, descansaré» es Tipo 1 y «Si hubiéramos sido ricos, habríamos ayudado» es Tipo 3."
           }
         ]
       }
@@ -9490,7 +9493,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               0,
               1
             ],
-            "explanation": "Las dos primeras oraciones usan ponerse y volverse correctamente para cambios emocionales; las otras confunden hacerse (profesión) o la hora, que no se expresa con volverse."
+            "explanation": "«Se puso furioso» y «Se volvió loco» usan bien ponerse y volverse; «se puso abogado» confunde el verbo (una profesión pide hacerse) y la hora no se expresa con volverse (eran las cinco)."
           }
         ]
       }
@@ -9697,7 +9700,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           1,
           2
         ],
-        "explanation": "La primera oración usa mal hacerse (la hora no se expresa con este verbo) y la cuarta usa mal ponerse (las profesiones requieren hacerse, no ponerse)."
+        "explanation": "«Se volvió muy desconfiado» y «Llegó a ser directora» son correctas. En «se hizo las tres» falla la concordancia: con la hora se dice «se hicieron las tres» (o simplemente «eran las tres»); y «se puso abogado» es incorrecto porque una profesión pide hacerse."
       },
       {
         "type": "translate",
@@ -10066,7 +10069,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "type": "multiple-choice",
         "question": "¿Qué diferencia principal hay entre 'ya que' y 'puesto que' frente a 'porque'?",
         "options": [
-          "'Porque' nunca puede ir al principio de la oración, mientras que 'ya que' y 'puesto que' sí.",
+          "'Porque' rara vez encabeza la oración, mientras que 'ya que' y 'puesto que' se anteponen con naturalidad.",
           "No hay ninguna diferencia; son intercambiables en todos los contextos.",
           "'Ya que' y 'puesto que' solo se usan en preguntas.",
           "'Porque' expresa consecuencia y los otros expresan causa."
@@ -13265,7 +13268,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Énfasis y Orden de Palabras",
         "body": [
-          "El español permite invertir el orden habitual para dar énfasis: adverbios como apenas y nunca al inicio provocan la inversión sujeto-verbo. Estructuras como lo que... es y ser... quien también destacan un elemento de la oración."
+          "El español permite invertir el orden habitual para dar énfasis: adverbios como apenas o nunca pueden ir al inicio para darles relieve (Nunca he visto nada igual), sin la inversión obligatoria del inglés. Estructuras como lo que... es y ser... quien también destacan un elemento de la oración."
         ]
       }
     ],
