@@ -35,6 +35,7 @@ import {
   type LessonHighlight,
 } from "@/lib/highlights";
 import { highlightMarkColor } from "@/lib/highlightColors";
+import { LESSON_PASS_PERCENT, lessonPassed } from "@/lib/grading";
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonRunner">;
 
@@ -123,6 +124,14 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     return out;
   }, [lesson, dueMissed]);
   const questionCount = steps.filter((st) => st.kind === "exercise").length;
+  // The lesson after this one in its track, for "continue anyway" when
+  // the learner didn't reach the pass mark.
+  const nextLesson = useMemo(() => {
+    if (!lesson) return null;
+    const trackLessons = LESSON_SOURCES[moduleKeyForLesson(lesson)].lessons;
+    const i = trackLessons.findIndex((l) => l.slug === lesson.slug);
+    return i >= 0 ? trackLessons[i + 1] ?? null : null;
+  }, [lesson]);
   // Answers to review questions that came from the missed-questions
   // pool, written back in one go when the lesson finishes.
   const poolResultsRef = useRef<Map<string, boolean>>(new Map());
@@ -251,6 +260,12 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     const poolResults = Array.from(poolResultsRef.current, ([id, correct]) => ({ id, correct }));
     poolResultsRef.current = new Map();
     await recordMissedQuestionReviews(levelPath, poolResults);
+    // Each question is answered once per run, so this is the first-try
+    // score. Below the pass mark the lesson isn't marked complete.
+    if (!lessonPassed(correctCount, questionCount)) {
+      setFinishing(false);
+      return;
+    }
     const { wasAlreadyDone } = await markLessonCompleted(levelPath, lesson.slug, lesson.number);
     if (!wasAlreadyDone) {
       const examples = lesson.sections.flatMap((sec) => sec.examples ?? []);
@@ -394,6 +409,9 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
             lessonTitle={lesson.title}
             correctCount={correctCount}
             totalExercises={questionCount}
+            passed={lessonPassed(correctCount, questionCount)}
+            nextLessonTitle={nextLesson?.title ?? null}
+            onNextLesson={() => nextLesson && navigation.replace("LessonRunner", { slug: nextLesson.slug })}
             elapsedMs={Date.now() - startedAt.current}
             finishing={finishing}
             addedToReview={addedToReview}
@@ -542,6 +560,9 @@ function CompleteStep({
   lessonTitle,
   correctCount,
   totalExercises,
+  passed,
+  nextLessonTitle,
+  onNextLesson,
   elapsedMs,
   finishing,
   addedToReview,
@@ -552,6 +573,9 @@ function CompleteStep({
   lessonTitle: string;
   correctCount: number;
   totalExercises: number;
+  passed: boolean;
+  nextLessonTitle: string | null;
+  onNextLesson: () => void;
   elapsedMs: number;
   finishing: boolean;
   addedToReview: boolean;
@@ -566,11 +590,15 @@ function CompleteStep({
 
   return (
     <View style={s.completeWrap}>
-      <View style={s.completeBadge}>
-        <Text style={{ fontSize: 38 }}>🎉</Text>
+      <View style={[s.completeBadge, !passed && s.completeBadgeRetry]}>
+        <Text style={{ fontSize: 38 }}>{passed ? "🎉" : "💪"}</Text>
       </View>
-      <Text style={s.completeTitle}>Lesson complete!</Text>
-      <Text style={s.completeSub}>{lessonTitle}</Text>
+      <Text style={s.completeTitle}>{passed ? "Lesson complete!" : "Not quite there yet"}</Text>
+      <Text style={s.completeSub}>
+        {passed
+          ? lessonTitle
+          : `You need ${LESSON_PASS_PERCENT}% to complete ${lessonTitle}. Try it again, or move on and come back later.`}
+      </Text>
       <View style={s.statsRow}>
         <View style={s.statPill}>
           <Text style={s.statNum}>
@@ -584,18 +612,41 @@ function CompleteStep({
         </View>
       </View>
 
-      <View style={s.secondaryRow}>
-        <Pressable style={s.secondaryBtn} onPress={onRedo}>
-          <Text style={s.secondaryBtnText}>↻ Redo lesson</Text>
-        </Pressable>
-        <Pressable style={s.secondaryBtn} onPress={onAddToReview} disabled={addedToReview}>
-          <Text style={s.secondaryBtnText}>{addedToReview ? "✓ Added to review" : "+ Add to review"}</Text>
-        </Pressable>
-      </View>
+      {passed ? (
+        <>
+          <View style={s.secondaryRow}>
+            <Pressable style={s.secondaryBtn} onPress={onRedo}>
+              <Text style={s.secondaryBtnText}>↻ Redo lesson</Text>
+            </Pressable>
+            <Pressable style={s.secondaryBtn} onPress={onAddToReview} disabled={addedToReview}>
+              <Text style={s.secondaryBtnText}>{addedToReview ? "✓ Added to review" : "+ Add to review"}</Text>
+            </Pressable>
+          </View>
 
-      <Pressable style={[s.bigBtn, s.completeBtn]} disabled={finishing} onPress={onDone}>
-        <Text style={s.bigBtnText}>{finishing ? "Saving…" : "Back to lessons"}</Text>
-      </Pressable>
+          <Pressable style={[s.bigBtn, s.completeBtn]} disabled={finishing} onPress={onDone}>
+            <Text style={s.bigBtnText}>{finishing ? "Saving…" : "Back to lessons"}</Text>
+          </Pressable>
+        </>
+      ) : (
+        <>
+          <Pressable style={[s.bigBtn, s.completeBtn]} disabled={finishing} onPress={onRedo}>
+            <Text style={s.bigBtnText}>↻ Try again</Text>
+          </Pressable>
+          <View style={[s.secondaryRow, s.retryRow]}>
+            {nextLessonTitle ? (
+              <Pressable style={s.secondaryBtn} disabled={finishing} onPress={onNextLesson}>
+                <Text style={s.secondaryBtnText}>Continue to next lesson</Text>
+              </Pressable>
+            ) : null}
+            <Pressable style={s.secondaryBtn} disabled={finishing} onPress={onDone}>
+              <Text style={s.secondaryBtnText}>Back to lessons</Text>
+            </Pressable>
+          </View>
+          <Pressable onPress={onAddToReview} disabled={addedToReview} hitSlop={8}>
+            <Text style={s.retryLink}>{addedToReview ? "✓ Added to review" : "+ Add to review"}</Text>
+          </Pressable>
+        </>
+      )}
     </View>
   );
 }
@@ -667,6 +718,9 @@ const s = StyleSheet.create({
     justifyContent: "center",
     marginBottom: 18,
   },
+  completeBadgeRetry: { backgroundColor: "#00000022" },
+  retryRow: { marginTop: 14, flexWrap: "wrap", justifyContent: "center" },
+  retryLink: { color: "#00000066", fontSize: 13, textDecorationLine: "underline", marginTop: 14 },
   completeTitle: { fontSize: 22, fontWeight: "800", color: "#000", marginBottom: 6 },
   completeSub: { fontSize: 14, color: "#00000099", marginBottom: 22, textAlign: "center" },
   statsRow: { flexDirection: "row", gap: 10, marginBottom: 20 },
