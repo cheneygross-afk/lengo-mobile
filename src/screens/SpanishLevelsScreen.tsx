@@ -4,7 +4,8 @@ import { useFocusEffect } from "@react-navigation/native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { LESSON_SOURCES, type LessonModuleKey } from "@/lib/lessons/registry";
-import { getCompletedMap } from "@/lib/lessons/completion";
+import { getCompletedMap, syncCompletedMapFromCloud } from "@/lib/lessons/completion";
+import { SPANISH_LEVELS, requiredLessons } from "@/lib/lessons/levels";
 
 type Props = NativeStackScreenProps<AppStackParamList, "SpanishLevels">;
 
@@ -15,87 +16,47 @@ type Props = NativeStackScreenProps<AppStackParamList, "SpanishLevels">;
 // account, including full-access ones, was stuck on A1 with no way to
 // reach anything more advanced. This screen is the fix: same pattern as
 // JapaneseLevelsScreen, just for the Spanish track.
-const LEVELS: { key: LessonModuleKey; code: string; name: string; description: string }[] = [
-  {
-    key: "a1",
-    code: "A1",
-    name: "Beginner",
-    description:
-      "The building blocks: greetings, pronouns, ser vs. estar, present-tense verbs, questions, and everyday vocabulary.",
-  },
-  {
-    key: "a2",
-    code: "A2",
-    name: "Elementary",
-    description: "Past tenses, comparisons, direct/indirect object pronouns, and more everyday situations.",
-  },
-  {
-    key: "b1",
-    code: "B1",
-    name: "Intermediate",
-    description: "Subjunctive mood basics, future and conditional tenses, and more complex storytelling.",
-  },
-  {
-    key: "b2",
-    code: "B2",
-    name: "Advanced",
-    description: "Advanced subjunctive, reported speech, and nuanced connectors for fluent conversation.",
-  },
-  {
-    key: "c1",
-    code: "C1",
-    name: "Mastery",
-    description:
-      "Advanced grammar mastery: subjunctive nuance, nominalization, gerund vs. infinitive, and native-level passive constructions.",
-  },
-  {
-    key: "c2",
-    code: "C2",
-    name: "Professional & Academic",
-    description: "Specialized registers, idiomatic fluency, and precision for professional and academic Spanish.",
-  },
+type LevelCard = { key: LessonModuleKey; label: string; description: string };
+
+// A1-C2 with their CEFR codes (names shared with the website via the
+// synced levels.ts), then the standalone culture module.
+const LEVELS: LevelCard[] = [
+  ...SPANISH_LEVELS.map((level) => ({ key: level.levelPath, label: level.label, description: level.description })),
   {
     key: "cosas-coloquiales",
-    code: "Cosas Coloquiales",
-    name: "Colloquial Spanish & Culture",
+    label: "Colloquial Spanish & Culture",
     description:
       "Festivals and traditions, food culture, soccer, music and dance, folk beliefs, and social etiquette across the Hispanic world.",
   },
 ];
 
+// Done / required, counted exactly like each level's own list
+// (LessonListScreen): only required lessons, only ones in the level.
+function countDone(key: LessonModuleKey, map: Record<string, boolean>): number {
+  return requiredLessons(LESSON_SOURCES[key].lessons).filter((l) => map[l.slug]).length;
+}
+
 export default function SpanishLevelsScreen({ navigation }: Props) {
-  const [completed, setCompleted] = useState<Record<LessonModuleKey, number>>({
-    "a1": 0,
-    "a2": 0,
-    "b1": 0,
-    "b2": 0,
-    "c1": 0,
-    "c2": 0,
-    "cosas-coloquiales": 0,
-    "ja-alphabets": 0,
-    "ja-a1": 0,
-    "ja-a2": 0,
-    "ja-b1": 0,
-    "ja-b2": 0,
-    "ja-c1": 0,
-    "ja-c2": 0,
-  });
+  const [completed, setCompleted] = useState<Partial<Record<LessonModuleKey, number>>>({});
 
   useFocusEffect(
     useCallback(() => {
       let cancelled = false;
-      Promise.all(LEVELS.map((lvl) => getCompletedMap(LESSON_SOURCES[lvl.key].levelPath))).then((maps) => {
-        if (cancelled) return;
-        const next = { ...completed };
-        LEVELS.forEach((lvl, i) => {
-          next[lvl.key] = Object.keys(maps[i]).filter((slug) => maps[i][slug]).length;
+      const load = (read: (levelPath: string) => Promise<Record<string, boolean>>) =>
+        Promise.all(LEVELS.map((lvl) => read(LESSON_SOURCES[lvl.key].levelPath))).then((maps) => {
+          if (cancelled) return;
+          const next: Partial<Record<LessonModuleKey, number>> = {};
+          LEVELS.forEach((lvl, i) => {
+            next[lvl.key] = countDone(lvl.key, maps[i]);
+          });
+          setCompleted(next);
         });
-        setCompleted(next);
-      });
+      // Local first, then again once completions from the website (or
+      // another device) are merged in, as the lesson list does.
+      void load(getCompletedMap).then(() => load(syncCompletedMapFromCloud));
       return () => {
         cancelled = true;
       };
-      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
   );
 
@@ -105,7 +66,8 @@ export default function SpanishLevelsScreen({ navigation }: Props) {
       <View style={styles.cards}>
         {LEVELS.map((lvl) => {
           const source = LESSON_SOURCES[lvl.key];
-          const done = completed[lvl.key];
+          const done = completed[lvl.key] ?? 0;
+          const total = requiredLessons(source.lessons).length;
           return (
             <Pressable
               key={lvl.key}
@@ -113,11 +75,11 @@ export default function SpanishLevelsScreen({ navigation }: Props) {
               onPress={() => navigation.navigate("LessonList", { moduleKey: lvl.key })}
             >
               <View style={styles.cardTop}>
-                <Text style={styles.cardName}>{lvl.name}</Text>
+                <Text style={styles.cardName}>{lvl.label}</Text>
               </View>
               <Text style={styles.cardDescription}>{lvl.description}</Text>
               <Text style={styles.cardMeta}>
-                {done} of {source.lessons.length} completed
+                {done} of {total} required completed
               </Text>
             </Pressable>
           );

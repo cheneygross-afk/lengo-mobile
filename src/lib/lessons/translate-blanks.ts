@@ -1,5 +1,6 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/translate-blanks.ts by scripts/sync-content.mjs -- edit it there, not here.
 import { FILL_BLANK_ENGLISH, fillBlankKey } from "./fill-blank-english";
+import { FILL_BLANK_FIXES } from "./fill-blank-fixes";
 import type { Exercise, Lesson } from "./types";
 
 // A fill-blank that names the word to use -- "Ayer ___ a mi madre.
@@ -21,16 +22,22 @@ const PROMPT: Record<"en" | "es", string> = {
 };
 
 function translateBlank(e: Exercise, prompt: string): Exercise {
-  if (e.type !== "fill-blank" || e.en) return e;
-  const entry = FILL_BLANK_ENGLISH[fillBlankKey(e.sentence, e.answer)];
-  if (!entry) return e;
+  if (e.type !== "fill-blank") return e;
+  const key = fillBlankKey(e.sentence, e.answer);
+  const fix = FILL_BLANK_FIXES[key];
+  const altAnswers = [...(e.altAnswers ?? []), ...(fix?.alts ?? [])];
+  const withAlts = altAnswers.length ? { ...e, altAnswers } : e;
+  if (e.en) return fix?.en ? { ...withAlts, en: fix.en } : withAlts;
+  const entry = FILL_BLANK_ENGLISH[key];
+  if (!entry) return withAlts;
   const [en, note] = entry;
   return {
     type: "fill-blank",
     prompt,
     sentence: e.sentence.replace(/\s*\([^()]*\)/g, "").replace(/^\s*→\s*/, "").trim(),
     answer: e.answer,
-    en,
+    ...(altAnswers.length ? { altAnswers } : {}),
+    en: fix?.en ?? en,
     explanation: `${note.replace(/\.$/, "")}. ${e.explanation}`,
   };
 }

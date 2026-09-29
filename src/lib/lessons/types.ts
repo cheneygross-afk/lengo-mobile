@@ -26,6 +26,9 @@ export type FillBlankExercise = {
   // a translation ("say the bold words in Spanish") rather than a
   // conjugation drill, and the sentence carries no "(verb, person)" cue.
   en?: string;
+  // Other answers that are just as correct as `answer` (e.g. "Llevo" for
+  // "Estoy" in "___ trabajando desde esta mañana").
+  altAnswers?: string[];
   explanation: string;
 };
 
@@ -44,6 +47,9 @@ export type WordOrderExercise = {
   prompt: string;
   words: string[]; // the correct order; the UI shuffles for display
   translation?: string;
+  // Other word orders that are just as correct as `words`, each a
+  // rearrangement of the same words.
+  altOrders?: string[][];
   explanation: string;
 };
 

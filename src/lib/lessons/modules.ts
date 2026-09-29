@@ -6,7 +6,7 @@ import { lessonNumberOf } from "@/lib/lessons/weave";
 // just a flat, numbered sequence per level (see a1.ts). But within a
 // level they DO fall into clear thematic clusters (a run of new-content
 // lessons, then a "Review:"/"Mastery Check:" lesson; a block of "Extra
-// Practice" drills; a long tail of short reading stories) -- these
+// Practice" drills; then the final review) -- these
 // ranges group A1's lessons into that same shape for display, without
 // touching the shared lesson data files. Each range (inclusive, by
 // lesson `number`) is derived from the slug of the lesson that opens the
@@ -20,28 +20,17 @@ export type LessonModule = {
   range: [number, number];
 };
 
-// "Reading Practice" (lessons 60-119: a Spanish story passage followed by
-// English-only comprehension questions) is deliberately left out of the
-// Lessons module list. It's the same content shape as the dedicated
-// Readings feature's stories (src/lib/stories/a1.ts) -- a Spanish
-// narrative plus English comprehension questions -- so it duplicates that
-// feature rather than drilling grammar/vocab the way every other lesson
-// here does, and its questions aren't independent of one another (they
-// all depend on the same passage). See LessonListScreen, which filters
-// A1_LESSONS down to this module's total range before grouping.
+// A1's Reading Practice stories aren't lessons any more: sequencing.ts
+// drops them from the level (they're the same stories the Readings
+// feature serves from src/lib/stories), so the Final Review module runs
+// to the end of the level, ending with the exit test.
 const a1Number = (slug: string) => lessonNumberOf(LESSON_SOURCES.a1.lessons, slug);
-
-// Highest lesson `number` that belongs to a real drill/grammar module
-// (i.e. everything covered by A1_MODULES below). Lessons numbered past
-// this are the excluded Reading Practice block, which opens with
-// "school-day-math-test".
-export const A1_MAX_DRILL_LESSON_NUMBER = a1Number("school-day-math-test") - 1;
 
 export const A1_MODULES: LessonModule[] = [
   { title: "The Basics", range: [1, a1Number("possessives-prepositions") - 1] },
   { title: "Everyday Essentials", range: [a1Number("possessives-prepositions"), a1Number("ser-vs-estar-drill-1") - 1] },
   { title: "Extra Practice · optional", range: [a1Number("ser-vs-estar-drill-1"), a1Number("a1-final-review-1") - 1] },
-  { title: "Final Review", range: [a1Number("a1-final-review-1"), A1_MAX_DRILL_LESSON_NUMBER] },
+  { title: "Final Review", range: [a1Number("a1-final-review-1"), LESSON_SOURCES.a1.lessons.length] },
 ];
 
 export type LessonSection = {
