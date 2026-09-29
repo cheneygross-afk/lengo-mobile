@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "3a40b7ce3d398509370a14d9c5a975370d829f39",
+  "commit": "5c654b1f31cc9f4edfcc6ad2c9468da9dff177d8",
   "files": {
     "src/lib/lessons/a1-additions.ts": "02feed2dba6b78a088fdc41462cfcdfe17c73012715c0a51dce5ea0e8b947f70",
     "src/lib/lessons/a1-reinforcement.ts": "b639d1d6264906c805075985d515b7f8d099522902e31e734f978e023af133e7",
@@ -9,7 +9,7 @@
     "src/lib/lessons/a2-drills.ts": "35bcafdaffe386cfe7016357dfec8fcc8990b20468d1129c528baebfda6fb1d8",
     "src/lib/lessons/a2-reinforcement.ts": "8613d2aaeaa8a1b302fb271ff0902210a86aae8a8c145682de8738269ecd7032",
     "src/lib/lessons/a2.ts": "5f7619cbd93198265c2bb0816d0ce02f0cc3aca3be47a7b98fd1ef68e94edbb2",
-    "src/lib/lessons/authoring.ts": "8564b6aaf57246a2762b8db7f6906f34808440c3eb78ca06331f2d58b5e72944",
+    "src/lib/lessons/authoring.ts": "2bfc1a0613ed881df83372e7164e0b5295120e18923e85027baf002d9c2f32cf",
     "src/lib/lessons/b1-common-words.ts": "e0af3868659cf7a6d6f2fa93d3a59bd904dcc716b4e0c3db6e0f6998df0c9463",
     "src/lib/lessons/b1-drills.ts": "7b119563c7d129398b77eb7bb2f1ef1be127244f5105718b1ee30fabcd289da2",
     "src/lib/lessons/b1-reinforcement.ts": "680344bdd8459881c8642aea53d58f22f1cc00f25b7e9b7d103b7a35d318d5bf",
@@ -23,6 +23,7 @@
     "src/lib/lessons/c2-reinforcement.ts": "b244e816153a69d4d6ffa1517590ae69cf76b4b7fbc511ccabaaec6aa7b1dd15",
     "src/lib/lessons/c2.ts": "e2dfbe97830153827e071b6e7b0718a51a3b09d0dfd2e9e4daa3f10107a5293b",
     "src/lib/lessons/cosas-coloquiales-reinforcement.ts": "ac33910ed6b4002653e25b236e0c078bf2c5c3fa0ca495bde0e6feceef0bf10f",
+    "src/lib/lessons/fill-blank-english.ts": "3987a0ad6c24461750a33d6be5c7862687a9103b08c837e46139d3d6d8e71786",
     "src/lib/lessons/ja-a1.ts": "735547b120aa326a267fae5a3b9fdc9cb1af4a7f9e9d55d51dc19af9727cd446",
     "src/lib/lessons/ja-a2.ts": "bd696f4518f0ef07b7271bc0b5be8de6b07e029d71ec8b1bd77ae4c183120eeb",
     "src/lib/lessons/ja-alphabets.ts": "679bcd369fc5471f950a40b7fd2a72f88c3c268906f8868c972cde078ce22c16",
@@ -31,7 +32,7 @@
     "src/lib/lessons/ja-c1.ts": "ab3d887ba48be54dd744c975580165d9227880b2e0fd2c5434c5b102eee0f830",
     "src/lib/lessons/ja-c2.ts": "9488818886da246527e78a4c93cdc236613b283291e805c44797147c2f07095f",
     "src/lib/lessons/sequencing.ts": "d6b73bae8cca873823025fe3c6efdbc425b8ffd739a668ba6504059b21039845",
-    "src/lib/lessons/types.ts": "90c931a05b9323961a32f51a93f2e3c51f3fbba2072bd597fc85781339fbf395",
+    "src/lib/lessons/types.ts": "a568c66073227124795bb555353f8b0203a4059975eef27755b3aa462d15a026",
     "src/lib/lessons/weave.ts": "91275f29970dfaae6cfddd150cfd61107e25e012d17daf1149b4c183ea453425",
     "src/lib/stories/a1-glosses.ts": "ea342b757c920585acf89c08ae87f088b0cdd19fa0a6f798cd1697be33f41c3d",
     "src/lib/stories/a1.ts": "1e6dc2d783b4efb7191c6af16743dd9734393539ad8323097a74ba42893fb0f2",
@@ -41,6 +42,7 @@
     "src/lib/stories/b1.ts": "d9a3697c46ac021d397b3138b243b39bc9285bdd5fb50124c747fb009ace1142",
     "src/lib/stories/b2-glosses.ts": "204f0bc1fcd3a4f37cc3fdc376ad10e737b0286c153270bd11c0304d3ad8364f",
     "src/lib/stories/b2.ts": "db55ac475cf73e3dfc746384f99e20f234d79824c9ba6250bce5a0c3ea168e71",
+    "src/lib/stories/byLevel.ts": "b4cfbeaa4a9ed224e2e03b4e6a6d7f823bf536b53d514ceb3656c2e24a5b1ff2",
     "src/lib/stories/c1c2-glosses.ts": "c9914cd44ef1255fda7a17faa6765f7ff99227e18a926d4dd2e589e508c4232d",
     "src/lib/stories/c1c2.ts": "94ae4158edc98484a63ea9ed336e7f63970399e55a424d052eb31150b810c65d",
     "src/lib/stories/glosses.ts": "7511e4ea6d981d816c1f0b4c65b925249de439b929ec3c899b3075408781c25a",
@@ -51,6 +53,7 @@
     "src/lib/readings/b1.ts": "0b6af1b26fdf4b8f926d1b6edfe21a091e4a6e85f9b83a7d355d82fd2a973850",
     "src/lib/readings/b2.ts": "3af79d87c49c4afa7a92a2014c9fda28a1b059742aeeec688b47024d223aa7e2",
     "src/lib/readings/c1c2.ts": "dc6e69f6aca16ed445085175ef97a4438a0549ef7404bb81177c59dfda5fffef",
+    "src/lib/readings/levelIntros.ts": "c924db3d04bab2e3a7a46a0fee4d877c844539e4f2b150267f8f0753c818b14f",
     "src/lib/readings/types.ts": "482429ca0bd377c16a1e3d09fd78ef99bc788c7184ba1cf300d81be1cec2e053"
   }
 }

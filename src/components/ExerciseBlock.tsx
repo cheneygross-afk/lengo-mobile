@@ -366,6 +366,21 @@ function MultiSelect({
 // -- look wrong for reasons that have nothing to do with the student's
 // Spanish. autoCapitalize="none" is belt-and-suspenders (normalize() already
 // lowercases), kept mainly so the student sees exactly what they typed.
+// A fill-blank asked as a translation carries the English sentence with
+// [square brackets] around the words the blank stands for -- shown bold.
+function BracketedEnglish({ text }: { text: string }) {
+  const parts = text.split(/\[([^\]]*)\]/);
+  return (
+    <Text style={s.blankEnglish}>
+      {parts.map((part, i) => (
+        <Text key={i} style={i % 2 === 1 ? s.blankEnglishTarget : undefined}>
+          {part}
+        </Text>
+      ))}
+    </Text>
+  );
+}
+
 function FillBlank({
   exercise,
   checked,
@@ -387,6 +402,7 @@ function FillBlank({
   return (
     <View>
       <Text style={s.question}>{exercise.prompt}</Text>
+      {exercise.en && <BracketedEnglish text={exercise.en} />}
       <View style={s.blankRow}>
         {checked ? (
           <Text
@@ -734,6 +750,8 @@ const s = StyleSheet.create({
   inputCorrect: { borderColor: "#16a34a", backgroundColor: "#16a34a1a" },
   inputWrong: { borderColor: "#dc2626", backgroundColor: "#dc26261a" },
   hint: { fontSize: 13, color: "#00000066", marginTop: 6, fontStyle: "italic" },
+  blankEnglish: { fontSize: 16, color: "#000000cc", marginBottom: 10, lineHeight: 22 },
+  blankEnglishTarget: { fontWeight: "700", color: "#000" },
   builtRow: { flexDirection: "row", flexWrap: "wrap", gap: 6, minHeight: 36, marginBottom: 10 },
   chip: {
     flexDirection: "row",

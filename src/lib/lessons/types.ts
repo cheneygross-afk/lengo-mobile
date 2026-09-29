@@ -21,6 +21,11 @@ export type FillBlankExercise = {
   sentence: string; // use ___ as the blank placeholder
   answer: string;
   hint?: string;
+  // English meaning of the whole sentence, with [square brackets] around
+  // the words the blank stands for. When present the exercise is asked as
+  // a translation ("say the bold words in Spanish") rather than a
+  // conjugation drill, and the sentence carries no "(verb, person)" cue.
+  en?: string;
   explanation: string;
 };
 

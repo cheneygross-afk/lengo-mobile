@@ -93,7 +93,16 @@ const styles = StyleSheet.create({
   flex: { flex: 1, backgroundColor: "#FAF6F1" },
   container: { flex: 1, justifyContent: "center", paddingHorizontal: 28 },
   brand: { alignItems: "center", marginBottom: 40 },
-  wordmark: { fontFamily: "Pacifico_400Regular", fontSize: 44, color: "#7A1F1F" },
+  // Pacifico's script letters swing past the edges of the box iOS measures
+  // for them, which clipped the tail of the final "d". The side padding and
+  // taller line give the glyphs room to draw.
+  wordmark: {
+    fontFamily: "Pacifico_400Regular",
+    fontSize: 44,
+    lineHeight: 72,
+    paddingHorizontal: 12,
+    color: "#7A1F1F",
+  },
   tagline: { fontSize: 14, color: "#00000099", marginTop: 6 },
   form: { gap: 14 },
   input: {

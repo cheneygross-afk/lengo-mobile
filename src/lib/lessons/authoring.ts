@@ -11,6 +11,7 @@ import type {
   WordOrderExercise,
 } from "./types";
 import type { AnchoredLesson } from "./weave";
+import { FILL_BLANK_ENGLISH, fillBlankKey } from "./fill-blank-english";
 
 // Small constructors for the reinforcement-lesson files (a1-reinforcement.ts
 // and friends). They build the exact same Lesson/Exercise objects the base
@@ -25,10 +26,41 @@ import type { AnchoredLesson } from "./weave";
 
 type Lang = "en" | "es";
 
-const DEFAULT_PROMPTS: Record<Lang, { toEs: string; toEn: string; order: string }> = {
-  en: { toEs: "Translate to Spanish.", toEn: "Translate to English.", order: "Put the words in order." },
-  es: { toEs: "Traduce al español.", toEn: "Traduce al inglés.", order: "Ordena las palabras." },
+const DEFAULT_PROMPTS: Record<Lang, { toEs: string; toEn: string; order: string; blankToEs: string }> = {
+  en: {
+    toEs: "Translate to Spanish.",
+    toEn: "Translate to English.",
+    order: "Put the words in order.",
+    blankToEs: "How do you say the bold words in Spanish?",
+  },
+  es: {
+    toEs: "Traduce al español.",
+    toEn: "Traduce al inglés.",
+    order: "Ordena las palabras.",
+    blankToEs: "¿Cómo se dicen en español las palabras en negrita?",
+  },
 };
+
+// A fill-blank that names its verb in a trailing cue -- "Ayer ___ a mi
+// madre. (llamar)" -- reads as a conjugation table drill. Where
+// fill-blank-english.ts has an English version of the sentence, the
+// exercise is asked as a translation instead: the learner sees the English
+// with the target words in bold and the Spanish frame without the cue, and
+// the cue's information (verb, tense, person) moves into the explanation
+// they see after answering.
+function asTranslation(fb: FillBlankExercise, lang: Lang): FillBlankExercise {
+  const entry = FILL_BLANK_ENGLISH[fillBlankKey(fb.sentence, fb.answer)];
+  if (!entry) return fb;
+  const [en, note] = entry;
+  return {
+    type: "fill-blank",
+    prompt: DEFAULT_PROMPTS[lang].blankToEs,
+    sentence: fb.sentence.replace(/\s*\([^()]*\)\s*$/, ""),
+    answer: fb.answer,
+    en,
+    explanation: `${note.replace(/\.$/, "")}. ${fb.explanation}`,
+  };
+}
 
 export function authoring(lang: Lang) {
   const p = DEFAULT_PROMPTS[lang];
@@ -49,14 +81,18 @@ export function authoring(lang: Lang) {
     explanation,
   });
 
-  const fb = (prompt: string, sentence: string, answer: string, explanation: string, hint?: string): FillBlankExercise => ({
-    type: "fill-blank",
-    prompt,
-    sentence,
-    answer,
-    ...(hint ? { hint } : {}),
-    explanation,
-  });
+  const fb = (prompt: string, sentence: string, answer: string, explanation: string, hint?: string): FillBlankExercise =>
+    asTranslation(
+      {
+        type: "fill-blank",
+        prompt,
+        sentence,
+        answer,
+        ...(hint ? { hint } : {}),
+        explanation,
+      },
+      lang
+    );
 
   // English -> Spanish.
   const toEs = (source: string, answer: string, explanation: string, altAnswers?: string[], prompt?: string): TranslateExercise => ({
