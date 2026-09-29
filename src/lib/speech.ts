@@ -12,7 +12,7 @@
 // native enough -- Google's cloud voices are what actually solve that,
 // with expo-speech only as the safety net so nothing ever goes silent.
 import * as Speech from "expo-speech";
-import { createAudioPlayer, type AudioPlayer, type AudioStatus } from "expo-audio";
+import { createAudioPlayer, setAudioModeAsync, type AudioPlayer, type AudioStatus } from "expo-audio";
 import { supabase } from "@/lib/supabase/client";
 import {
   DEFAULT_PRONUNCIATION_VOICE,
@@ -178,6 +178,32 @@ function hasCloudVoice(lang: SpeechLang): boolean {
 
 let currentPlayer: AudioPlayer | null = null;
 
+// iOS mutes app audio while the ring/silent switch is on silent unless the
+// app opts out -- which left every Google clip silent on a phone in silent
+// mode (the device voice, which ignores the switch, still spoke). A
+// pronunciation tap is a deliberate request to hear something, so play
+// through the switch. Set once, before the first clip.
+let audioModePromise: Promise<void> | null = null;
+function ensureAudioMode(): Promise<void> {
+  if (!audioModePromise) {
+    audioModePromise = setAudioModeAsync({ playsInSilentMode: true, interruptionMode: "duckOthers" }).catch(() => {});
+  }
+  return audioModePromise;
+}
+
+// A quick HEAD request says whether a clip is cached at all. Without it, a
+// clip nobody has requested yet sat in the player until its 4-second
+// timeout before generation even started, so a first tap stayed silent
+// long enough to look broken.
+async function clipExists(url: string): Promise<boolean> {
+  try {
+    const res = await fetch(url, { method: "HEAD" });
+    return res.ok;
+  } catch {
+    return false;
+  }
+}
+
 // Tries to play a clip at `url`. Resolves true once playback has actually
 // started, false if it 404s, errors, or takes too long to load -- a
 // timeout rather than an indefinite wait, so a slow or dead connection
@@ -267,6 +293,9 @@ export function speak(text: string, lang: SpeechLang) {
   currentPlayer?.remove();
   currentPlayer = null;
   Speech.stop();
+  // stopReadAloud() just bumped this; a later tap bumps it again, so a
+  // tap still waiting on the network can tell it's been superseded.
+  const run = readAloudRun;
 
   void (async () => {
     await loadPronunciationPrefs();
@@ -277,10 +306,16 @@ export function speak(text: string, lang: SpeechLang) {
       return;
     }
 
+    await ensureAudioMode();
     const voice = preferredVoice;
-    if (await tryPlayRemote(audioUrl(clean, lang, voice))) return;
+    const cachedUrl = audioUrl(clean, lang, voice);
+    const cached = await clipExists(cachedUrl);
+    if (run !== readAloudRun) return;
+    if (cached && (await tryPlayRemote(cachedUrl))) return;
     const generatedUrl = await requestGeneration(clean, lang, voice);
+    if (run !== readAloudRun) return;
     if (generatedUrl && (await tryPlayRemote(generatedUrl))) return;
+    if (run !== readAloudRun) return;
     speakOnDevice(clean, lang);
   })();
 }
@@ -408,10 +443,14 @@ function warmClip(text: string, lang: SpeechLang, voice: PronunciationVoice): vo
     .catch(() => null);
 }
 
-async function playChunk(text: string, lang: SpeechLang): Promise<ClipResult> {
+async function playChunk(text: string, lang: SpeechLang, run: number): Promise<ClipResult> {
   if (!hasCloudVoice(lang)) return speakOnDeviceToEnd(text, lang);
+  await ensureAudioMode();
   const voice = preferredVoice;
-  let result = await playClipToEnd(audioUrl(text, lang, voice));
+  const cachedUrl = audioUrl(text, lang, voice);
+  const cached = await clipExists(cachedUrl);
+  if (run !== readAloudRun) return "stopped";
+  let result: ClipResult = cached ? await playClipToEnd(cachedUrl) : "failed";
   if (result !== "failed") return result;
   const generatedUrl = await requestGeneration(text, lang, voice);
   if (generatedUrl) {
@@ -445,7 +484,7 @@ export function readAloud(chunks: string[], lang: SpeechLang, onChunk: (index: n
       if (run !== readAloudRun) return;
       onChunk(i);
       if (i + 1 < chunks.length) warmClip(chunks[i + 1], lang, preferredVoice);
-      const result = await playChunk(chunks[i], lang);
+      const result = await playChunk(chunks[i], lang, run);
       if (result === "stopped" || run !== readAloudRun) return;
     }
     onChunk(null);
