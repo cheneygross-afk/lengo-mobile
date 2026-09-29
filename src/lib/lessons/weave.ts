@@ -1,4 +1,5 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/weave.ts by scripts/sync-content.mjs -- edit it there, not here.
+import { translateBlanks } from "./translate-blanks";
 import type { Lesson } from "./types";
 
 // A reinforcement lesson authored separately from its level's base file
@@ -34,9 +35,9 @@ export function weaveLessons(base: Lesson[], extras: AnchoredLesson[]): Lesson[]
 
   const out: Lesson[] = [];
   for (const lesson of base) {
-    out.push({ ...lesson, number: out.length + 1 });
+    out.push(translateBlanks({ ...lesson, number: out.length + 1 }));
     for (const extra of byAnchor.get(lesson.slug) ?? []) {
-      out.push({ ...extra, number: out.length + 1 } as Lesson);
+      out.push(translateBlanks({ ...extra, number: out.length + 1 } as Lesson));
     }
   }
   return out;
