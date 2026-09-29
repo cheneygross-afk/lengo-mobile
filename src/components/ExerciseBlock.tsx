@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { View, Text, Pressable, TextInput, StyleSheet, type StyleProp, type TextStyle } from "react-native";
 import type { Exercise } from "@/lib/lessons/types";
 import { speak, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
-import { targetSpans } from "@/lib/targetSpans";
+import TapText, { voiceFor } from "@/components/TapText";
 
 // Mobile port of the web app's ExerciseBlock -- same matching/shuffle
 // logic (normalize(), seededShuffle()), same "check answer -> show
@@ -120,13 +120,16 @@ function seededShuffle<T>(arr: T[], seed: string): T[] {
   return a;
 }
 
-function Feedback({ correct, explanation }: { correct: boolean; explanation: string }) {
+function Feedback({ correct, explanation, lang }: { correct: boolean; explanation: string; lang: SpeechLang }) {
   return (
     <View style={[fb.box, correct ? fb.boxCorrect : fb.boxWrong]}>
-      <Text style={[fb.title, correct ? fb.titleCorrect : fb.titleWrong]}>
-        {correct ? "Correct!" : "Not quite."}
-      </Text>
-      <Text style={fb.body}>{explanation}</Text>
+      <TapText
+        text={correct ? "Correct!" : "Not quite."}
+        lang={lang}
+        mode="english"
+        style={[fb.title, correct ? fb.titleCorrect : fb.titleWrong]}
+      />
+      <TapText text={explanation} lang={lang} style={fb.body} />
     </View>
   );
 }
@@ -141,12 +144,7 @@ const fb = StyleSheet.create({
   body: { fontSize: 14, color: "#000000cc", marginTop: 2 },
 });
 
-// Wraps a block of text, making tappable-to-hear just its target-language
-// portions (see lib/targetSpans) rather than the whole English sentence
-// around them -- e.g. only the quoted Spanish word, or only the embedded
-// Japanese phrase, in an otherwise-English multiple-choice question.
-// Falls back to plain, non-interactive text when nothing in it reads as
-// target-language (most often a plain-English comprehension question).
+// Every word of a question is tap-to-hear -- see TapText.
 function SpeakableText({
   text,
   lang,
@@ -156,21 +154,7 @@ function SpeakableText({
   lang: SpeechLang;
   style?: StyleProp<TextStyle>;
 }) {
-  const spans = useMemo(() => targetSpans(text, lang), [text, lang]);
-  if (spans.length === 0) return <Text style={style}>{text}</Text>;
-  const nodes: React.ReactNode[] = [];
-  let pos = 0;
-  spans.forEach((sp, i) => {
-    if (sp.start > pos) nodes.push(<Text key={`t${i}`}>{text.slice(pos, sp.start)}</Text>);
-    nodes.push(
-      <Text key={`s${i}`} style={s.speakableSpan} onPress={() => speak(sp.text, lang)}>
-        {sp.text}
-      </Text>
-    );
-    pos = sp.end;
-  });
-  if (pos < text.length) nodes.push(<Text key="tail">{text.slice(pos)}</Text>);
-  return <Text style={style}>{nodes}</Text>;
+  return <TapText text={text} lang={lang} style={style} />;
 }
 
 export default function ExerciseBlock({
@@ -239,7 +223,7 @@ export default function ExerciseBlock({
       {exercise.type === "matching" && (
         <Matching exercise={exercise} checked={checked} correct={correct} onSubmit={report} lang={lang} />
       )}
-      {checked && showInlineFeedback && <Feedback correct={correct} explanation={shownExplanation} />}
+      {checked && showInlineFeedback && <Feedback correct={correct} explanation={shownExplanation} lang={lang} />}
     </View>
   );
 }
@@ -277,7 +261,7 @@ function MultipleChoice({
                 // hearing it doesn't give away the answer. Speaking and
                 // selecting on the same tap means every word in a lesson
                 // is heard the same way: tap it.
-                speak(opt, lang);
+                speak(opt, voiceFor(opt, lang));
                 setSelected(i);
               }}
               style={[
@@ -328,7 +312,7 @@ function MultiSelect({
               key={i}
               disabled={checked}
               onPress={() => {
-                speak(opt, lang);
+                speak(opt, voiceFor(opt, lang));
                 toggle(i);
               }}
               style={[
@@ -366,21 +350,6 @@ function MultiSelect({
 // -- look wrong for reasons that have nothing to do with the student's
 // Spanish. autoCapitalize="none" is belt-and-suspenders (normalize() already
 // lowercases), kept mainly so the student sees exactly what they typed.
-// A fill-blank asked as a translation carries the English sentence with
-// [square brackets] around the words the blank stands for -- shown bold.
-function BracketedEnglish({ text }: { text: string }) {
-  const parts = text.split(/\[([^\]]*)\]/);
-  return (
-    <Text style={s.blankEnglish}>
-      {parts.map((part, i) => (
-        <Text key={i} style={i % 2 === 1 ? s.blankEnglishTarget : undefined}>
-          {part}
-        </Text>
-      ))}
-    </Text>
-  );
-}
-
 function FillBlank({
   exercise,
   checked,
@@ -401,8 +370,10 @@ function FillBlank({
 
   return (
     <View>
-      <Text style={s.question}>{exercise.prompt}</Text>
-      {exercise.en && <BracketedEnglish text={exercise.en} />}
+      <SpeakableText text={exercise.prompt} lang={lang} style={s.question} />
+      {exercise.en && (
+        <TapText text={exercise.en} lang={lang} mode="english" boldBrackets style={s.blankEnglish} />
+      )}
       <View style={s.blankRow}>
         {checked ? (
           <Text
@@ -412,7 +383,7 @@ function FillBlank({
             {before}
           </Text>
         ) : (
-          <Text style={s.blankText}>{before}</Text>
+          <TapText text={before} lang={lang} mode="target" style={s.blankText} />
         )}
         <TextInput
           value={checked ? exercise.answer : value}
@@ -433,10 +404,10 @@ function FillBlank({
             {after}
           </Text>
         ) : (
-          <Text style={s.blankText}>{after}</Text>
+          <TapText text={after} lang={lang} mode="target" style={s.blankText} />
         )}
       </View>
-      {exercise.hint && !checked && <Text style={s.hint}>Hint: {exercise.hint}</Text>}
+      {exercise.hint && !checked && <TapText text={`Hint: ${exercise.hint}`} lang={lang} style={s.hint} />}
       {!checked && (
         <SubmitButton
           disabled={!value.trim()}
@@ -479,7 +450,7 @@ function Translate({
 
   return (
     <View>
-      <Text style={s.question}>{exercise.prompt}</Text>
+      <SpeakableText text={exercise.prompt} lang={lang} style={s.question} />
       <View style={s.sourceRow}>
         {sourceIsTarget ? (
           <Text
@@ -489,7 +460,7 @@ function Translate({
             {exercise.source}
           </Text>
         ) : (
-          <Text style={s.sourceText}>{exercise.source}</Text>
+          <TapText text={exercise.source} lang={lang} mode="english" style={s.sourceText} />
         )}
       </View>
       <TextInput
@@ -551,12 +522,14 @@ function WordOrder({
 
   return (
     <View>
-      <Text style={s.question}>{exercise.prompt}</Text>
+      <SpeakableText text={exercise.prompt} lang={lang} style={s.question} />
       <View style={s.builtRow}>
         {built.length === 0 && <Text style={s.hint}>Tap the words below in order.</Text>}
         {built.map((w, i) => (
           <View key={i} style={s.chipBuilt}>
-            <Text style={s.chipText}>{w}</Text>
+            <Text style={s.chipText} onPress={() => speak(w, lang)}>
+              {w}
+            </Text>
           </View>
         ))}
       </View>
@@ -627,7 +600,7 @@ function Matching({
 
   return (
     <View>
-      <Text style={s.question}>{exercise.instructions}</Text>
+      <SpeakableText text={exercise.instructions} lang={lang} style={s.question} />
       <View style={s.matchingCols}>
         <View style={s.matchingCol}>
           {exercise.pairs.map((pair, i) => {
@@ -671,7 +644,10 @@ function Matching({
             <Pressable
               key={i}
               disabled={checked || usedRights.has(right)}
-              onPress={() => chooseRight(right)}
+              onPress={() => {
+                speak(right, voiceFor(right, lang));
+                chooseRight(right);
+              }}
               style={[s.matchPill, usedRights.has(right) && s.chipUsed]}
             >
               <Text style={s.optionText}>{right}</Text>
@@ -751,7 +727,6 @@ const s = StyleSheet.create({
   inputWrong: { borderColor: "#dc2626", backgroundColor: "#dc26261a" },
   hint: { fontSize: 13, color: "#00000066", marginTop: 6, fontStyle: "italic" },
   blankEnglish: { fontSize: 16, color: "#000000cc", marginBottom: 10, lineHeight: 22 },
-  blankEnglishTarget: { fontWeight: "700", color: "#000" },
   builtRow: { flexDirection: "row", flexWrap: "wrap", gap: 6, minHeight: 36, marginBottom: 10 },
   chip: {
     flexDirection: "row",

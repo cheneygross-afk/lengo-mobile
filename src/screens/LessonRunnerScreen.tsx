@@ -15,6 +15,7 @@ import type { Exercise } from "@/lib/lessons/types";
 import { authoredQuestions, buildReviewQuestions } from "@/lib/lessons/drill";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
+import TapText from "@/components/TapText";
 import { langForLevel, langForLevelPath, ENGLISH_LANG } from "@/lib/speech";
 import { markLessonCompleted } from "@/lib/lessons/completion";
 import { addToReview } from "@/lib/lessons/review";
@@ -411,10 +412,13 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
             { transform: [{ translateY: sheetTranslateY }] },
           ]}
         >
-          <Text style={[s.feedbackTitle, feedback.correct ? s.feedbackTitleCorrect : s.feedbackTitleWrong]}>
-            {feedback.correct ? "Correct!" : "Not quite."}
-          </Text>
-          <Text style={s.feedbackBody}>{feedback.explanation}</Text>
+          <TapText
+            text={feedback.correct ? "Correct!" : "Not quite."}
+            lang={lang}
+            mode="english"
+            style={[s.feedbackTitle, feedback.correct ? s.feedbackTitleCorrect : s.feedbackTitleWrong]}
+          />
+          <TapText text={feedback.explanation} lang={lang} style={s.feedbackBody} />
           <Pressable
             style={[s.bigBtn, { backgroundColor: feedback.correct ? "#16a34a" : "#dc2626" }]}
             onPress={goNext}
@@ -461,14 +465,14 @@ function TeachStep({
             {lesson.level} · Lesson {lesson.number}
             {lesson.optional ? " · optional" : ""}
           </Text>
-          <Text style={s.introTitle}>{lesson.title}</Text>
+          <TapText text={lesson.title} lang={lang} style={s.introTitle} />
         </>
       ) : null}
       {(sectionIndex === null ? [] : [sectionIndex]).map((si) => {
         const section = lesson.sections[si];
         return (
         <View key={si} style={s.introSection}>
-          <Text style={s.teachHeading}>{section.heading}</Text>
+          <TapText text={section.heading} lang={lang} style={s.teachHeading} />
           {section.body.map((p, pi) => {
             // Same blockKey scheme as the website's LessonRunner.tsx
             // (`sec${i}-body${j}`) -- highlights saved here read back
