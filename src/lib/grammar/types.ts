@@ -9,9 +9,18 @@ export type GrammarExample = {
   en: string;
 };
 
+// A small reference table (conjugations, pronoun charts). The first
+// column is usually the row label; cells are plain text.
+export type GrammarTable = {
+  headers: string[];
+  rows: string[][];
+};
+
 export type GrammarSection = {
   heading: string;
   body: string[];
+  // Shown after the body, before the examples.
+  table?: GrammarTable;
   examples?: GrammarExample[];
 };
 
@@ -33,7 +42,7 @@ export type GrammarGuide = {
   // <title> tag (slotted into the site's "%s — Deep End Spanish" template).
   metaTitle: string;
   description: string;
-  level: "A1" | "A2" | "B1" | "B2" | "C1";
+  level: "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
   // /readings/{readingLevelPath} -- where the "practice with a free story"
   // links point.
   readingLevelPath: "a1" | "a2" | "b1" | "b2" | "c1c2";
