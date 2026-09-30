@@ -1,6 +1,7 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/sequencing.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Lesson } from "./types";
 import { weaveLessons, type AnchoredLesson } from "./weave";
+import { SKILL_LESSONS, withSkills } from "./skills";
 
 // Course order on top of weave.ts. weaveLessons can only place a lesson
 // right after another one, so the reordering that came out of the
@@ -262,7 +263,7 @@ type Level = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
  * for the six core Spanish levels. */
 export function buildLevel(level: Level, base: Lesson[], extras: AnchoredLesson[]): Lesson[] {
   const baseSlugs = new Set(base.map((l) => l.slug));
-  const lessons = [...weaveLessons(base, extras)];
+  const lessons = [...weaveLessons(base, [...extras, ...SKILL_LESSONS[level]])];
 
   switch (level) {
     case "A1":
@@ -311,5 +312,6 @@ export function buildLevel(level: Level, base: Lesson[], extras: AnchoredLesson[
   }
 
   endWith(lessons, LEVEL_EXIT_SLUGS[level]);
-  return renumber(lessons);
+  // Listening, speaking and writing practice (skills.ts).
+  return withSkills(level, renumber(lessons));
 }
