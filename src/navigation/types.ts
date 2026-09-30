@@ -52,6 +52,11 @@ export type AppStackParamList = {
   // and the course glossary.
   Conjugation: { verb?: string } | undefined;
   Glossary: undefined;
+  // DELE practice exams (src/lib/exams, synced from the website): the
+  // list, one exam's overview and results, and one paper.
+  Exams: undefined;
+  Exam: { slug: string };
+  ExamPaper: { slug: string; paperId: string };
 };
 
 export type AuthStackParamList = {
