@@ -20,6 +20,21 @@ export async function pushCompletionToCloud(levelPath: string, slug: string, num
   }
 }
 
+// Many at once (see markLessonsCompletedBulk).
+export async function pushCompletionsToCloud(levelPath: string, lessons: { slug: string; number: number }[]): Promise<void> {
+  try {
+    const { data } = await supabase.auth.getSession();
+    const userId = data.session?.user?.id;
+    if (!userId || lessons.length === 0) return;
+    await supabase.from("lesson_completions").upsert(
+      lessons.map((l) => ({ user_id: userId, level_path: levelPath, lesson_slug: l.slug, lesson_number: l.number })),
+      { onConflict: "user_id,level_path,lesson_slug" }
+    );
+  } catch {
+    // ignore -- best-effort, local storage stays authoritative
+  }
+}
+
 // Pulls this track's completions down from Supabase and merges them
 // into the local map -- a lesson finished on the other platform shows
 // as done here too. Returns the merged map; the caller saves it.
