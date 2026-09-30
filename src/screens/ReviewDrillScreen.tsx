@@ -12,6 +12,8 @@ import {
 import { markReviewBatchDone } from "@/lib/lessons/reviewCadence";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import { langForLevelPath } from "@/lib/speech";
+import { getSpanishVariety, loadSpanishVariety } from "@/lib/spanishVariety";
+import { requiresVosotros } from "@/lib/vosotros";
 
 type Props = NativeStackScreenProps<AppStackParamList, "ReviewDrill">;
 
@@ -51,12 +53,19 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
 
   useEffect(() => {
     let cancelled = false;
-    getMissedQuestions(levelPath).then((all) => {
+    const variety = Promise.race([
+      loadSpanishVariety(),
+      new Promise<string>((resolve) => setTimeout(() => resolve(getSpanishVariety()), 1500)),
+    ]).catch(() => getSpanishVariety());
+    Promise.all([getMissedQuestions(levelPath), variety]).then(([all, v]) => {
       if (cancelled) return;
       const now = Date.now();
+      // Latin America learners aren't drilled on vosotros forms (see
+      // vosotros.ts); those questions stay in the pool, just unasked.
+      const skipVosotros = v === "latam" && !levelPath.startsWith("ja");
       // Everything due: new misses are due immediately, older ones come
       // back on their spaced schedule.
-      const pool = all.filter((q) => isMissedQuestionDue(q, now));
+      const pool = all.filter((q) => isMissedQuestionDue(q, now) && !(skipVosotros && requiresVosotros(q.exercise)));
       setQueue(pool);
       setTotalQuestions(pool.length);
       setPhase("intro");
