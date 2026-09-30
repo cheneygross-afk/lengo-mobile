@@ -11,6 +11,7 @@ import {
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { findLessonBySlug, moduleKeyForLesson, LESSON_SOURCES } from "@/lib/lessons/registry";
+import LessonNextSteps from "@/components/LessonNextSteps";
 import type { Exercise, Lesson } from "@/lib/lessons/types";
 import { authoredQuestions, buildReviewQuestions } from "@/lib/lessons/drill";
 import ExerciseBlock from "@/components/ExerciseBlock";
@@ -459,6 +460,13 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
             onDone={() => navigation.goBack()}
             onRedo={handleRedo}
             onAddToReview={handleAddToReview}
+            nextSteps={
+              <LessonNextSteps
+                levelPath={levelPath}
+                lessonNumber={lesson.number}
+                onOpenStory={(storySlug) => navigation.navigate("StoryReader", { slug: storySlug })}
+              />
+            }
           />
         )}
       </ScrollView>
@@ -619,6 +627,7 @@ function CompleteStep({
   onDone,
   onRedo,
   onAddToReview,
+  nextSteps,
 }: {
   lessonTitle: string;
   correctCount: number;
@@ -632,6 +641,8 @@ function CompleteStep({
   onDone: () => void;
   onRedo: () => void;
   onAddToReview: () => void;
+  // Links shown once the lesson is passed (see LessonNextSteps).
+  nextSteps?: React.ReactNode;
 }) {
   const totalSeconds = Math.max(1, Math.round(elapsedMs / 1000));
   const minutes = Math.floor(totalSeconds / 60);
@@ -664,6 +675,7 @@ function CompleteStep({
 
       {passed ? (
         <>
+          {nextSteps}
           <View style={s.secondaryRow}>
             <Pressable style={s.secondaryBtn} onPress={onRedo}>
               <Text style={s.secondaryBtnText}>↻ Redo lesson</Text>

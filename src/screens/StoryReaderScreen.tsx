@@ -18,6 +18,9 @@ import {
   type LessonHighlight,
 } from "@/lib/highlights";
 import { highlightMarkColor } from "@/lib/highlightColors";
+import { buildFlashcardEntry, loadFlashcards, makeFlashcardId, saveFlashcards } from "@/lib/flashcards/store";
+import { fetchTranslation } from "@/lib/translate/api";
+import { markStoryRead } from "@/lib/storiesRead";
 
 type Props = NativeStackScreenProps<AppStackParamList, "StoryReader">;
 
@@ -86,6 +89,52 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
   const answeredCount = Object.keys(answered).length;
   const correctCount = Object.values(answered).filter(Boolean).length;
   const allAnswered = answeredCount === exercises.length && exercises.length > 0;
+
+  // Finishing the comprehension check counts as reading the story, so the
+  // end of a lesson stops suggesting it (see LessonNextSteps).
+  useEffect(() => {
+    if (allAnswered && story) void markStoryRead(story.slug);
+  }, [allAnswered, story?.slug]);
+
+  // Long-pressing a word saves it to Flashcards, filed under this story the
+  // way a lesson's starred examples are filed under the lesson. The meaning
+  // comes from the story's gloss when there is one, otherwise from the same
+  // /api/translate lookup the translate bar uses.
+  const [saveNotice, setSaveNotice] = useState<{ es: string; message: string } | null>(null);
+
+  async function saveWord(es: string, en: string) {
+    if (!story) return;
+    const all = await loadFlashcards();
+    const id = makeFlashcardId(story.slug, es);
+    if (!all[id]) {
+      all[id] = buildFlashcardEntry({
+        lessonSlug: story.slug,
+        lessonTitle: story.title,
+        es,
+        en,
+        // Flashcards groups cards by lesson level, which has no "C1/C2".
+        level: story.level === "C1/C2" ? "C1" : story.level,
+        levelPath,
+      });
+      await saveFlashcards(all);
+    }
+    setSaveNotice({ es, message: `Saved to flashcards: ${en}` });
+  }
+
+  async function saveLongPressedWord(word: string) {
+    const key = glossKey(word);
+    if (!key) return;
+    setShownGloss(null);
+    const gloss = lookup.get(key);
+    if (gloss) {
+      await saveWord(gloss.es, gloss.en);
+      return;
+    }
+    setSaveNotice({ es: key, message: "Saving…" });
+    const outcome = await fetchTranslation(key, "es-en");
+    if (outcome.ok) await saveWord(key, outcome.result.senses[0].translation);
+    else setSaveNotice({ es: key, message: outcome.error });
+  }
 
   // Same highlighting account feature as LessonRunnerScreen (see
   // src/lib/highlights.ts) -- read the learner's chosen color once per
@@ -191,6 +240,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
             {!showWordList && <Text style={s.wordHint}>Tap a dotted word in the story for its meaning.</Text>}
           </View>
         )}
+        <Text style={s.saveHint}>Long-press any word to save it to your flashcards.</Text>
 
         <View style={s.paragraphs}>
           {story.paragraphs.map((p, i) => {
@@ -208,7 +258,11 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
                   onAdd={(start, end, selected) => addHighlight(blockKey, p, start, end, selected)}
                   onRemove={removeHighlight}
                   isMarked={(word) => lookup.has(glossKey(word))}
-                  onWordTap={(word) => setShownGloss(lookup.get(glossKey(word)) ?? null)}
+                  onWordTap={(word) => {
+                    setSaveNotice(null);
+                    setShownGloss(lookup.get(glossKey(word)) ?? null);
+                  }}
+                  onWordLongPress={saveLongPressedWord}
                 />
                 <Pressable
                   onPress={() => listenFrom(i)}
@@ -264,6 +318,23 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
         <Pressable style={s.glossCard} onPress={() => setShownGloss(null)} accessibilityRole="button">
           <Text style={s.glossEs}>{shownGloss.es}</Text>
           <Text style={s.glossEn}>{shownGloss.en}</Text>
+          <Pressable
+            onPress={() => {
+              const g = shownGloss;
+              setShownGloss(null);
+              void saveWord(g.es, g.en);
+            }}
+            accessibilityRole="button"
+            style={s.glossSave}
+          >
+            <Text style={s.glossSaveText}>+ Save to flashcards</Text>
+          </Pressable>
+        </Pressable>
+      )}
+      {saveNotice && !shownGloss && (
+        <Pressable style={s.glossCard} onPress={() => setSaveNotice(null)} accessibilityRole="button">
+          <Text style={s.glossEs}>{saveNotice.es}</Text>
+          <Text style={s.glossEn}>{saveNotice.message}</Text>
         </Pressable>
       )}
     </View>
@@ -300,6 +371,9 @@ const s = StyleSheet.create({
   },
   glossEs: { color: "#fff", fontWeight: "700", fontSize: 15 },
   glossEn: { color: "#ffffffcc", fontSize: 14, marginTop: 2 },
+  glossSave: { marginTop: 8, alignSelf: "flex-start" },
+  glossSaveText: { color: "#fff", fontWeight: "700", fontSize: 14, textDecorationLine: "underline" },
+  saveHint: { fontSize: 12, color: "#00000080", marginBottom: 12 },
   paragraph: { fontSize: 15, color: "#000000dd", lineHeight: 23 },
   divider: { height: 1, backgroundColor: "#00000018", marginBottom: 16 },
   checkHeading: { fontSize: 17, fontWeight: "700", color: "#000", marginBottom: 2 },
