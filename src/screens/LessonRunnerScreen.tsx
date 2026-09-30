@@ -12,6 +12,8 @@ import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { findLessonBySlug, moduleKeyForLesson, LESSON_SOURCES } from "@/lib/lessons/registry";
 import type { Exercise } from "@/lib/lessons/types";
+import { displayTitle } from "@/lib/lessons/levels";
+import { unitOf } from "@/lib/lessons/units";
 import { authoredQuestions, buildReviewQuestions } from "@/lib/lessons/drill";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
@@ -72,6 +74,13 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   const lesson = useMemo(() => findLessonBySlug(slug), [slug]);
   const levelPath = useMemo(() => (lesson ? LESSON_SOURCES[moduleKeyForLesson(lesson)].levelPath : "a1"), [lesson]);
   const lang = useMemo(() => langForLevelPath(levelPath), [levelPath]);
+  // The title as the lesson list shows it (one "Part X of Y", see
+  // levels.ts displayTitle), and the unit it belongs to.
+  const shownTitle = useMemo(
+    () => (lesson ? displayTitle(lesson, LESSON_SOURCES[moduleKeyForLesson(lesson)].lessons) : ""),
+    [lesson]
+  );
+  const unitLabel = useMemo(() => (lesson ? unitOf(levelPath, lesson.slug)?.label : undefined), [lesson, levelPath]);
 
   // Missed questions from this track that are due again, read once when
   // the lesson opens so the review questions don't shift mid-lesson.
@@ -356,7 +365,8 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       <ScrollView style={s.stepArea} contentContainerStyle={s.stepContent} keyboardShouldPersistTaps="handled">
         {currentStep?.kind === "teach" && (
           <TeachStep
-            lesson={lesson}
+            lesson={{ ...lesson, title: shownTitle }}
+            unitLabel={unitLabel}
             sectionIndex={currentStep.sectionIndex}
             first={currentStep.first}
             nextIsQuestion={steps[stepIndex + 1]?.kind === "exercise"}
@@ -406,11 +416,11 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
 
         {currentStep?.kind === "complete" && (
           <CompleteStep
-            lessonTitle={lesson.title}
+            lessonTitle={shownTitle}
             correctCount={correctCount}
             totalExercises={questionCount}
             passed={lessonPassed(correctCount, questionCount)}
-            nextLessonTitle={nextLesson?.title ?? null}
+            nextLessonTitle={nextLesson ? displayTitle(nextLesson, LESSON_SOURCES[moduleKeyForLesson(nextLesson)].lessons) : null}
             onNextLesson={() => nextLesson && navigation.replace("LessonRunner", { slug: nextLesson.slug })}
             elapsedMs={Date.now() - startedAt.current}
             finishing={finishing}
@@ -460,7 +470,9 @@ function TeachStep({
   onRemoveHighlight,
   highlightsEnabled,
   markColor,
+  unitLabel,
 }: {
+  unitLabel?: string;
   lesson: { level: string; number: number; title: string; optional?: boolean; sections: { heading: string; body: string[]; examples?: { es: string; en?: string }[] }[] };
   // Which section this screen teaches; null for a lesson with no sections
   // (a pure review), which just gets the title screen.
@@ -480,7 +492,7 @@ function TeachStep({
       {first ? (
         <>
           <Text style={s.kicker}>
-            {lesson.level} · Lesson {lesson.number}
+            {unitLabel ?? lesson.level} · Lesson {lesson.number}
             {lesson.optional ? " · optional" : ""}
           </Text>
           <TapText text={lesson.title} lang={lang} style={s.introTitle} />
