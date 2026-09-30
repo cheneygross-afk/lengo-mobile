@@ -7,6 +7,7 @@ import { SPANISH_LANG } from "@/lib/speech";
 import { GLOSSARY_ENTRIES, GLOSSARY_SOURCES } from "@/lib/glossary/data";
 import { makeGlossary, sourceLabel, type GlossaryHit } from "@/lib/glossary/search";
 import { specFor } from "@/lib/conjugation/conjugate";
+import { warmUpLookup } from "@/lib/conjugation/lookup";
 import {
   buildCustomFlashcardEntry,
   buildFlashcardEntry,
@@ -43,6 +44,10 @@ export default function GlossaryScreen({ navigation }: Props) {
 
   useEffect(() => {
     void loadFlashcards().then(setCards);
+    // Searching a conjugated verb ("tuvimos") uses the verb-form index; build
+    // it once the screen is up so the first search doesn't pause.
+    const t = setTimeout(warmUpLookup, 400);
+    return () => clearTimeout(t);
   }, []);
 
   const hits = useMemo(() => {

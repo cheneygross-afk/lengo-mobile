@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { View, Text, TextInput, Pressable, ScrollView, StyleSheet, Keyboard, InteractionManager } from "react-native";
+import { View, Text, TextInput, Pressable, ScrollView, StyleSheet, Keyboard } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import TapText from "@/components/TapText";
@@ -40,8 +40,8 @@ export default function ConjugationScreen({ route }: Props) {
   // Build the verb-form index once the screen has opened, so the first
   // search doesn't pause.
   useEffect(() => {
-    const task = InteractionManager.runAfterInteractions(() => warmUpLookup());
-    return () => task.cancel();
+    const t = setTimeout(warmUpLookup, 400);
+    return () => clearTimeout(t);
   }, []);
   return (
     <View style={s.flex}>
