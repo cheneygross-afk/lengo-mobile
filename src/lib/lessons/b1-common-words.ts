@@ -43,7 +43,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             0,
             "«Arma» es femenina, pero en singular usamos «el» (o «un») delante de la «a» tónica: el arma."
           ),
-          fb("Completa.", "El ladrón disparó una sola ___, pero no hirió a nadie.", "bala", "Una pistola dispara balas (bullets)."),
+          fb("Completa.", "El ladrón disparó una sola ___, pero no hirió a nadie.", "bala", "Una pistola dispara balas (bullets): una sola bala = one single shot."),
         ]
       ),
       sec(
@@ -66,7 +66,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "¿Cómo se dice «The victim was a woman»?",
             ["La víctima era una mujer.", "El víctima era una mujer.", "La víctimo era una mujer.", "El víctimo era una mujer."],
             0,
-            "«Víctima» es siempre femenina y no cambia: la víctima, para hombres y para mujeres."
+            "«Víctima» es siempre femenina, también para hombres: la víctima. «El víctima» cambia el artículo, y «víctimo» no existe."
           ),
           fb("Completa.", "Nos reímos tanto que nos dio un ___ de risa.", "ataque", "Un ataque de risa = a fit of laughter."),
         ]
@@ -93,7 +93,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "¿Qué significa «hacer trampa»?",
             ["to cheat", "to set a trap", "to make a mistake", "to play a trick"],
             0,
-            "«Hacer trampa» es no respetar las reglas de un juego o un examen: to cheat."
+            "«Hacer trampa» es no respetar las reglas de un juego o un examen: to cheat. «To set a trap» es tender una trampa, «to make a mistake» es equivocarse y «to play a trick» es gastar una broma."
           ),
         ]
       ),
@@ -117,7 +117,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "Completa: «El accidente de tren dejó tres ___.»",
         ["víctimas", "amenazas", "trampas", "drogas"],
         0,
-        "Las víctimas son las personas que sufren un accidente o un crimen."
+        "Las víctimas son las personas que sufren un accidente o un crimen. Amenazas (threats), trampas (traps) y drogas no encajan con «el accidente dejó…»."
       ),
       mc(
         "¿Qué frase es correcta?",
@@ -128,12 +128,12 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
           "Mi vecino recibió un amenazo anónimo.",
         ],
         0,
-        "«Amenaza» es femenina: una amenaza anónima."
+        "«Amenaza» es femenina y el adjetivo concuerda: una amenaza anónima. «Un amenaza anónimo» usa el masculino, y «amenazo» no existe como sustantivo."
       ),
-      fb("Completa.", "Dos jugadores empezaron una ___ y el árbitro los expulsó.", "pelea", "Una pelea = a fight."),
-      fb("Completa.", "El detective encontró una ___ en el suelo; era de la misma pistola.", "bala", "Una bala = a bullet."),
+      fb("Completa.", "Dos jugadores empezaron una ___ y el árbitro los expulsó.", "pelea", "Una pelea = a fight; por eso el árbitro los expulsó."),
+      fb("Completa.", "El detective encontró una ___ en el suelo; era de la misma pistola.", "bala", "Una bala = a bullet: sale de una pistola."),
       toEs("The police found the weapon in the river.", "La policía encontró el arma en el río.", "«Arma» es femenina, pero en singular lleva «el»: el arma.", ["La policía halló el arma en el río."]),
-      toEs("They found a bomb near the school.", "Encontraron una bomba cerca de la escuela.", "Bomb = bomba (femenina).", ["Encontraron una bomba cerca del colegio.", "Hallaron una bomba cerca de la escuela."]),
+      toEs("They found a bomb near the school.", "Encontraron una bomba cerca de la escuela.", "Bomb = bomba, femenina: una bomba; «cerca de» + lugar.", ["Encontraron una bomba cerca del colegio.", "Hallaron una bomba cerca de la escuela."]),
       toEn("La víctima no vio la cara del atacante.", "The victim didn't see the attacker's face.", "«La víctima» es femenina, aunque la persona sea un hombre.", ["The victim did not see the attacker's face."]),
       toEn("De golpe, todos empezaron a gritar.", "Suddenly, everyone started shouting.", "De golpe = suddenly, all of a sudden.", ["All of a sudden, everyone started shouting.", "Suddenly, everyone began to shout.", "Suddenly everyone started to shout."]),
       wo("La oferta parecía buena, pero era una trampa.", "Una trampa = a trap. Parecía (imperfecto) describe la situación.", "The offer looked good, but it was a trap."),
@@ -168,7 +168,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "¿Quién acusa al sospechoso en un juicio?",
             ["el fiscal", "el juez", "el abogado defensor", "el testigo"],
             0,
-            "El fiscal acusa (prosecutor); el juez decide; el abogado defensor defiende."
+            "El fiscal (prosecutor) es quien acusa. El juez decide, el abogado defensor defiende al acusado y el testigo cuenta lo que vio."
           ),
         ]
       ),
@@ -215,7 +215,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "¿Qué significa «pista» en «la policía encontró una pista»?",
             ["a clue", "a track", "a court", "a path"],
             0,
-            "En una investigación, una pista es una información que ayuda: a clue."
+            "En una investigación, una pista es una información que ayuda: a clue. «Pista» también puede ser una pista de tenis (court) o de atletismo (track), pero no en este contexto."
           ),
         ]
       ),
@@ -233,25 +233,25 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "Vocabulario básico de la justicia y la investigación."
       ),
       fb("Completa.", "El ___ de policía me pidió el pasaporte.", "agente", "Un agente de policía = a police officer."),
-      fb("Completa.", "La policía no pudo ___ quién era el hombre de la foto.", "averiguar", "Averiguar = to find out."),
-      fb("Completa.", "Nadie sabía el ___ para abrir la caja fuerte.", "código", "Un código = a code."),
-      fb("Completa.", "El abogado de la ___ habló con el juez.", "defensa", "La defensa = the defense."),
+      fb("Completa.", "La policía no pudo ___ quién era el hombre de la foto.", "averiguar", "Averiguar = to find out, descubrir una información."),
+      fb("Completa.", "Nadie sabía el ___ para abrir la caja fuerte.", "código", "Un código = a code: la combinación que abre la caja fuerte."),
+      fb("Completa.", "El abogado de la ___ habló con el juez.", "defensa", "La defensa = the defense: el abogado que defiende al acusado."),
       fb("Completa.", "Mi ___ es proteger al testigo hasta el día del juicio.", "misión", "Una misión = a mission. Lleva tilde: misión."),
       mc(
         "«El acusado no hizo nada malo.» Entonces es…",
         ["inocente", "culpable", "sospechoso", "peligroso"],
         0,
-        "Inocente = innocent; lo contrario es culpable."
+        "Si no hizo nada malo, es inocente (innocent). Culpable es lo contrario, sospechoso significa que se cree que pudo hacerlo y peligroso significa dangerous."
       ),
       mc(
         "¿Qué palabra suena más formal y aparece en las sentencias de los jueces?",
         ["prisión", "celda", "comisaría", "pista"],
         0,
-        "Se condena a alguien «a X años de prisión»."
+        "«Prisión» es la palabra formal de las sentencias: X años de prisión. La celda es el cuarto donde está el preso, la comisaría es la oficina de policía y una pista es una clue."
       ),
       toEs("The judge said that he was innocent.", "El juez dijo que era inocente.", "Judge = juez; innocent = inocente.", ["El juez dijo que él era inocente.", "La juez dijo que era inocente.", "La jueza dijo que era inocente."]),
       toEs("The search lasted all night.", "La búsqueda duró toda la noche.", "Search = búsqueda, con tilde en la «u».", []),
-      toEn("El agente secreto aceptó la misión.", "The secret agent accepted the mission.", "Agente secreto = secret agent.", ["The secret agent took the mission."]),
+      toEn("El agente secreto aceptó la misión.", "The secret agent accepted the mission.", "Agente secreto = secret agent; aceptar la misión = accept the mission.", ["The secret agent took the mission."]),
       toEn("La fiscal pidió diez años de prisión.", "The prosecutor asked for ten years in prison.", "La fiscal = the (female) prosecutor.", ["The prosecutor requested ten years in prison.", "The prosecutor asked for ten years of prison."]),
       wo("La policía descubrió el código del mensaje secreto.", "Descubrir un código = to crack a code.", "The police cracked the code of the secret message."),
       wo("Queremos justicia para todas las víctimas.", "Pedir / querer justicia = to demand justice.", "We want justice for all the victims."),
@@ -284,7 +284,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "¿Cuál es correcto?",
             ["San Pedro", "Santo Pedro", "Santa Pedro", "Sante Pedro"],
             0,
-            "«Santo» se acorta a «san» delante de casi todos los nombres masculinos. Excepciones: Santo Tomás, Santo Domingo."
+            "«Santo» se acorta a «san» delante de casi todos los nombres masculinos: San Pedro. Excepciones: Santo Tomás, Santo Domingo. «Santa» es para mujeres y «Sante» no existe."
           ),
           fb("Completa.", "Aunque todo va mal, no pierdo la ___.", "fe", "No perder la fe = not to lose faith."),
         ]
@@ -308,7 +308,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "Tu amiga te trae sopa cuando estás enfermo. Le dices:",
             ["¡Eres un ángel!", "¡Eres un demonio!", "¡Eres un diablo!", "¡Eres un infierno!"],
             0,
-            "«Eres un ángel» es un cumplido: eres muy buena y amable."
+            "«¡Eres un ángel!» es un cumplido: eres muy buena y amable. Demonio, diablo e infierno expresan maldad, no gratitud."
           ),
         ]
       ),
@@ -328,7 +328,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         ],
         [
           fb("Completa con el artículo.", "Dicen que en esta casa vive ___ fantasma.", "un", "«Fantasma» es masculino: un fantasma, el fantasma."),
-          fb("Completa.", "Mi hijo tiene miedo de un ___ verde que vive en el armario.", "monstruo", "Un monstruo = a monster."),
+          fb("Completa.", "Mi hijo tiene miedo de un ___ verde que vive en el armario.", "monstruo", "Un monstruo = a monster (ojo a la r después de la t: mons-truo)."),
         ]
       ),
     ],
@@ -344,7 +344,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         ],
         "Vocabulario de las leyendas y de lo sobrenatural."
       ),
-      fb("Completa.", "La ___ de este lugar es increíble: montañas, lagos y bosques.", "belleza", "La belleza = beauty."),
+      fb("Completa.", "La ___ de este lugar es increíble: montañas, lagos y bosques.", "belleza", "La belleza = beauty; es el sustantivo de «bello»."),
       fb("Completa.", "No sé cómo lo hizo; fue como por arte de ___.", "magia", "Como por arte de magia = as if by magic."),
       fb("Completa.", "Es difícil, pero hay que tener ___ en el futuro.", "fe", "Tener fe en algo = to have faith in something."),
       fb("Completa.", "Mi abuela se llama Teresa y celebra el día de ___ Teresa.", "Santa", "«Santa» nunca se acorta: Santa Teresa, Santa Ana."),
@@ -361,9 +361,9 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "Fantasma, demonio y ángel son seres sobrenaturales; la belleza es una cualidad."
       ),
       toEs("My grandmother believes in the Holy Spirit.", "Mi abuela cree en el Espíritu Santo.", "Holy Spirit = Espíritu Santo (el adjetivo va detrás).", ["Mi abuela cree en el espíritu santo."]),
-      toEs("They say there is a ghost in the hotel.", "Dicen que hay un fantasma en el hotel.", "«Fantasma» es masculino: un fantasma.", ["Dicen que en el hotel hay un fantasma."]),
+      toEs("They say there is a ghost in the hotel.", "Dicen que hay un fantasma en el hotel.", "«Fantasma» termina en -a pero es masculino: un fantasma. «Dicen que hay» = they say there is.", ["Dicen que en el hotel hay un fantasma."]),
       toEn("Esta semana ha sido un infierno.", "This week has been hell.", "Ser un infierno = to be hell, muy difícil o desagradable.", ["This week has been a nightmare.", "This week was hell."]),
-      toEn("En la leyenda, el diablo le ofrece dinero a un pobre hombre.", "In the legend, the devil offers money to a poor man.", "El diablo = the devil.", ["In the legend, the devil offers a poor man money."]),
+      toEn("En la leyenda, el diablo le ofrece dinero a un pobre hombre.", "In the legend, the devil offers money to a poor man.", "El diablo = the devil; «le ofrece» anticipa «a un pobre hombre».", ["In the legend, the devil offers a poor man money."]),
       toEn("La niña dibujó un ángel y un monstruo.", "The girl drew an angel and a monster.", "Un ángel, un monstruo: los dos son masculinos.", ["The little girl drew an angel and a monster."]),
       wo("El monstruo del lago es solo una leyenda.", "Del = de + el.", "The lake monster is just a legend."),
       wo("Mi hermano pequeño es un demonio cuando tiene hambre.", "Ser un demonio = portarse muy mal (en broma).", "My little brother is a little devil when he's hungry."),
@@ -396,7 +396,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "En la puerta del baño de hombres pone…",
             ["Caballeros", "Príncipes", "Héroes", "Enemigos"],
             0,
-            "«Caballeros» (gentlemen) es el cartel típico del baño de hombres; el de mujeres dice «Damas» o «Señoras»."
+            "«Caballeros» (gentlemen) es el cartel típico del baño de hombres; el de mujeres dice «Damas» o «Señoras». Príncipes, héroes y enemigos no se usan en carteles."
           ),
         ]
       ),
@@ -443,7 +443,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "¿Cómo se dice «spaceship»?",
             ["nave espacial", "barco espacial", "coche espacial", "avión espacial"],
             0,
-            "Spaceship = nave espacial."
+            "Spaceship = nave espacial. «Nave» se usa para barcos y vehículos del espacio; barco, coche o avión espacial no son las palabras que se usan."
           ),
         ]
       ),
@@ -462,19 +462,19 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
       ),
       fb("Completa.", "El ___ salvó a la princesa y todos lo aplaudieron.", "héroe", "El héroe = the hero (con tilde en la «e»)."),
       fb("Completa.", "El equipo celebró la ___ en la plaza.", "victoria", "La victoria = the victory, the win."),
-      fb("Completa.", "Los bomberos llegaron a tiempo para ___ a la familia.", "salvar", "Para + infinitivo: para salvar."),
-      fb("Completa.", "La ___ final fue en el valle, cerca del río.", "batalla", "La batalla = the battle."),
+      fb("Completa.", "Los bomberos llegaron a tiempo para ___ a la familia.", "salvar", "Para + infinitivo expresa finalidad; salvar = to save (a alguien de un peligro)."),
+      fb("Completa.", "La ___ final fue en el valle, cerca del río.", "batalla", "La batalla = the battle; es un sustantivo femenino."),
       mc(
         "¿Cuál es el contrario de «victoria»?",
         ["derrota", "batalla", "lucha", "libertad"],
         0,
-        "Victoria ↔ derrota (defeat)."
+        "Victoria ↔ derrota (defeat). La batalla y la lucha son el combate mismo, y la libertad es otro concepto."
       ),
       mc(
         "¿Qué frase significa «He was a real gentleman»?",
         ["Era un auténtico caballero.", "Era un auténtico príncipe.", "Era un auténtico héroe.", "Era un auténtico enemigo."],
         0,
-        "Caballero = knight, pero también gentleman."
+        "Caballero significa knight, pero también gentleman: un auténtico caballero. Príncipe (prince), héroe (hero) y enemigo (enemy) no significan gentleman."
       ),
       toEs("The knight fought against the dragon.", "El caballero luchó contra el dragón.", "Luchar contra = to fight against. Pretérito: luchó.", []),
       toEs("We have to fight for freedom.", "Tenemos que luchar por la libertad.", "Luchar por algo = to fight for something.", ["Hay que luchar por la libertad."]),
@@ -536,7 +536,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "¿Cuál es el contrario de «público»?",
             ["privado", "militar", "nacional", "central"],
             0,
-            "Público ↔ privado: un hospital público, un hospital privado."
+            "Público ↔ privado: un hospital público, un hospital privado. Militar, nacional y central no son contrarios de público."
           ),
         ]
       ),
@@ -555,7 +555,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
           ["El sol se pone por el oeste.", "The sun sets in the west."],
         ],
         [
-          fb("Completa.", "El sol sale por el este y se pone por el ___.", "oeste", "Este (east) ↔ oeste (west)."),
+          fb("Completa.", "El sol sale por el este y se pone por el ___.", "oeste", "Este (east) ↔ oeste (west): el sol sale por el este y se pone por el oeste."),
         ]
       ),
     ],
@@ -572,7 +572,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "Vocabulario frecuente de la política y la sociedad."
       ),
       fb("Completa.", "Mi madre es ___ de una asociación de vecinos.", "miembro", "Ser miembro de = to be a member of. Normalmente no cambia: ella es miembro."),
-      fb("Completa.", "Juntos y ___, somos más fuertes.", "unidos", "Unidos = united, together."),
+      fb("Completa.", "Juntos y ___, somos más fuertes.", "unidos", "Unidos = united, together; concuerda con el sujeto plural (nosotros)."),
       fb("Completa.", "La ___ de corazón fue un éxito y el paciente ya está en casa.", "operación", "Una operación (médica) = surgery, an operation."),
       fb("Completa.", "Hubo una ___ policial en el barrio anoche y detuvieron a cinco personas.", "operación", "Una operación policial = a police operation."),
       fb("Completa.", "California está en el ___ de Estados Unidos.", "oeste", "California está en la costa oeste: west."),
@@ -580,17 +580,17 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "Un hospital que no es del Estado es un hospital…",
         ["privado", "militar", "nacional", "central"],
         0,
-        "Privado = private; lo contrario es público."
+        "Un hospital que no es del Estado es privado (private). Militar, nacional y central no expresan quién es el dueño."
       ),
       mc(
         "Completa: «los Estados ___ de América»",
         ["Unidos", "Unidas", "Unido", "Juntos"],
         0,
-        "«Estados» es masculino plural, así que decimos Estados Unidos."
+        "«Estados» es masculino plural, así que el adjetivo concuerda: Estados Unidos. «Unidas» es femenino, «Unido» singular y «Juntos» no es el nombre del país."
       ),
       toEs("The minister resigned yesterday.", "El ministro dimitió ayer.", "Dimitir o renunciar = to resign.", ["El ministro renunció ayer.", "La ministra dimitió ayer.", "La ministra renunció ayer."]),
       toEs("The leader of the movement spoke on national television.", "El líder del movimiento habló en la televisión nacional.", "Líder no cambia: el líder, la líder.", ["La líder del movimiento habló en la televisión nacional."]),
-      toEn("Los estudiantes sienten mucha presión antes de los exámenes.", "Students feel a lot of pressure before exams.", "Presión = pressure.", ["The students feel a lot of pressure before the exams.", "Students feel a lot of pressure before their exams."]),
+      toEn("Los estudiantes sienten mucha presión antes de los exámenes.", "Students feel a lot of pressure before exams.", "Presión = pressure; «sentir presión» = to feel pressure.", ["The students feel a lot of pressure before the exams.", "Students feel a lot of pressure before their exams."]),
       toEn("La unidad militar llegó a la zona central del país.", "The military unit arrived in the central area of the country.", "Unidad militar = military unit; central = central.", ["The military unit reached the central part of the country.", "The military unit arrived in the central part of the country."]),
       wo("La sociedad de hoy es muy diferente a la de mis abuelos.", "La de mis abuelos = la sociedad de mis abuelos.", "Today's society is very different from my grandparents'."),
       wo("Es un asunto privado entre los dos.", "Un asunto privado = a private matter.", "It's a private matter between the two of them."),
@@ -624,7 +624,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "¿Qué significa «a base de» en «una salsa a base de tomate»?",
             ["made mainly from", "on top of", "served with", "instead of"],
             0,
-            "A base de = hecho principalmente con: a sauce made mainly from tomato."
+            "«A base de» = hecho principalmente con: a sauce made mainly from tomato. No significa «on top of» (encima de), «served with» (acompañado de) ni «instead of» (en lugar de)."
           ),
         ]
       ),
@@ -647,7 +647,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "«Ella tiene buen aspecto» significa…",
             ["She looks well.", "She has a good point.", "She has good manners.", "She has a good reputation."],
             0,
-            "Tener buen aspecto = parecer sano o estar guapo: to look well."
+            "«Tener buen aspecto» = parecer sano o estar guapo: to look well. No habla de tener razón, de buenos modales ni de reputación."
           ),
           fb("Completa la frase.", "En ___, el tren llega a las diez, pero siempre llega tarde.", "teoría", "En teoría = in theory (lo que debería pasar, no lo que pasa)."),
         ]
@@ -707,13 +707,13 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "Completa: «El ___ para conseguir el visado es muy largo: hay que hacer muchos pasos.»",
         ["proceso", "acceso", "aspecto", "nivel"],
         0,
-        "Una serie de pasos es un proceso."
+        "Una serie de pasos es un proceso. Acceso es la entrada, aspecto es la apariencia y nivel es el grado."
       ),
       mc(
         "Completa: «Esa casa de la playa es ___ de mis abuelos.»",
         ["propiedad", "cantidad", "base", "imagen"],
         0,
-        "Ser propiedad de alguien = to belong to someone, to be someone's property."
+        "«Ser propiedad de alguien» = to be someone's property. Cantidad, base e imagen no expresan de quién es algo."
       ),
       toEs("In theory, the machine works well.", "En teoría, la máquina funciona bien.", "En teoría = in theory; la máquina es femenino.", ["En teoría la máquina funciona bien."]),
       toEs("The show was a work of art.", "El espectáculo fue una obra de arte.", "Show = espectáculo; work of art = obra de arte.", ["El show fue una obra de arte."]),
@@ -725,7 +725,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "¿Qué significa «La carretera está en obras»?",
         ["The road is under construction.", "The road is full of artwork.", "The road is closed for a show.", "The road is working normally."],
         0,
-        "Estar en obras = estar en construcción o reparación."
+        "«Estar en obras» = estar en construcción o reparación: under construction. No tiene que ver con obras de arte, espectáculos ni con funcionar normalmente."
       ),
       fb("Completa la frase.", "El ___ de fin de año en la plaza fue increíble: música, luces y fuegos artificiales.", "espectáculo", "Música, luces y fuegos artificiales: es un espectáculo."),
     ]
@@ -753,7 +753,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
           ["El cuello de esta camisa me aprieta.", "The collar of this shirt is too tight."],
         ],
         [
-          mc("¿Dónde te pones una bufanda?", ["en el cuello", "en el pecho", "en la piel", "en el cabello"], 0, "La bufanda (scarf) va alrededor del cuello."),
+          mc("¿Dónde te pones una bufanda?", ["en el cuello", "en el pecho", "en la piel", "en el cabello"], 0, "La bufanda (scarf) va alrededor del cuello. El pecho, la piel y el cabello no son su sitio."),
           fb("Completa la frase.", "Me duele el ___ cuando respiro hondo.", "pecho", "Respiramos con los pulmones, dentro del pecho."),
         ]
       ),
@@ -775,9 +775,9 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "Una amiga te dice: «¡Estoy embarazada!». ¿Qué significa?",
             ["She's pregnant.", "She's embarrassed.", "She's sick.", "She's drunk."],
             0,
-            "Embarazada = pregnant. Es un falso amigo muy famoso."
+            "Embarazada = pregnant; es un falso amigo muy famoso. Embarrassed se dice «me da vergüenza», sick es enferma y drunk es borracha."
           ),
-          fb("Completa la frase.", "El médico dice que no es una ___ grave, solo un resfriado.", "enfermedad", "Una enfermedad = an illness."),
+          fb("Completa la frase.", "El médico dice que no es una ___ grave, solo un resfriado.", "enfermedad", "Una enfermedad = an illness; un resfriado es una enfermedad leve."),
         ]
       ),
       sec(
@@ -799,7 +799,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "¿Qué expresión NO significa «beber algo con amigos»?",
             ["tomar el pelo", "tomar una copa", "tomar un trago", "tomar una cerveza"],
             0,
-            "Tomar el pelo = to pull someone's leg (engañar en broma)."
+            "«Tomar el pelo» = to pull someone's leg, engañar en broma. Tomar una copa, un trago o una cerveza sí significan beber algo."
           ),
           fb("Completa la frase.", "No conduzcas, estás ___.", "borracho", "Estar borracho = to be drunk. Con estar, porque es un estado."),
         ]
@@ -824,7 +824,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "¿Qué frase puedes decir sin ofender a nadie?",
             ["Me sentí estúpida.", "Eres estúpida.", "Eres tonta.", "Estáis locos."],
             0,
-            "Hablar de ti mismo no ofende a nadie. Las otras tres son críticas directas a otra persona y pueden ser groseras."
+            "«Me sentí estúpida» habla de una misma, así que no ofende a nadie. «Eres estúpida», «Eres tonta» y «Estáis locos» critican directamente a otra persona."
           ),
         ]
       ),
@@ -841,17 +841,17 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "El cabello es un poco más formal que el pelo."
       ),
       fb("Completa la frase.", "Mi prima está ___ y el bebé nace en marzo.", "embarazada", "El bebé nace en marzo → está embarazada (pregnant)."),
-      fb("Completa la frase.", "Anoche Luis bebió demasiado y llegó a casa ___.", "borracho", "Beber demasiado → estar borracho."),
+      fb("Completa la frase.", "Anoche Luis bebió demasiado y llegó a casa ___.", "borracho", "Borracho = drunk: el estado de quien ha bebido demasiado (llegó borracho)."),
       fb("Completa la frase.", "Tengo que hablar con mi jefe: vamos a tener una ___ seria.", "conversación", "Tener una conversación = to have a conversation / talk."),
       mc(
         "¿Cómo se dice «I'm embarrassed»?",
         ["Me da vergüenza.", "Estoy embarazada.", "Estoy borracha.", "Estoy enferma."],
         0,
-        "Embarazada = pregnant. Para embarrassed: me da vergüenza."
+        "«I'm embarrassed» = me da vergüenza. «Estoy embarazada» es un falso amigo (pregnant); borracha es drunk y enferma es sick."
       ),
       toEs("Let's go and have a beer.", "Vamos a tomar una cerveza.", "Tomar una cerveza = to have a beer.", ["¿Tomamos una cerveza?", "Vamos a tomarnos una cerveza.", "Vamos a beber una cerveza."]),
       toEs("She has very soft skin.", "Ella tiene la piel muy suave.", "Con partes del cuerpo usamos el artículo: tiene la piel.", ["Tiene la piel muy suave."]),
-      toEn("No quiero hablar de mis sentimientos.", "I don't want to talk about my feelings.", "Los sentimientos = feelings.", ["I do not want to talk about my feelings."]),
+      toEn("No quiero hablar de mis sentimientos.", "I don't want to talk about my feelings.", "Los sentimientos = feelings; hablar de = to talk about.", ["I do not want to talk about my feelings."]),
       toEn("¿Te invito a una copa?", "Can I buy you a drink?", "Invitar a una copa = to buy someone a drink.", ["May I buy you a drink?", "Shall I buy you a drink?", "Can I get you a drink?"]),
       wo("Sin decir nada, se tomó el café de un trago.", "De un trago = in one gulp.", "Without saying a word, he drank the coffee in one gulp."),
       wo("La enfermedad no es peligrosa para una mujer embarazada.", "Una mujer embarazada = a pregnant woman.", "The illness isn't dangerous for a pregnant woman."),
@@ -865,7 +865,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
           "Está diciendo que está borracha.",
         ],
         0,
-        "Decir «qué tonta soy» sobre ti mismo es normal. Decirle «eres tonta» a otra persona puede ofender."
+        "«¡Qué tonta soy!» dicho sobre una misma es una autocrítica con humor y no ofende. No insulta a la amiga, ni dice que esté enferma o borracha."
       ),
       toEn("Me sentí estúpida en la conversación con mi jefe.", "I felt stupid in the conversation with my boss.", "Hablar de ti mismo con «estúpida» no ofende a nadie.", ["I felt stupid during the conversation with my boss."]),
     ]
@@ -898,7 +898,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "¿Qué significa «Anoche cayeron rayos en el bosque»?",
             ["Lightning struck the forest last night.", "Sunlight shone on the forest last night.", "Stones fell in the forest last night.", "Dust fell on the forest last night."],
             0,
-            "En una tormenta, caer un rayo = lightning strikes."
+            "En una tormenta, «caer un rayo» = lightning strikes. No son rayos de sol (sunlight), ni piedras, ni polvo."
           ),
         ]
       ),
@@ -920,7 +920,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "«Estoy hecho polvo» significa…",
             ["Estoy muy cansado.", "Estoy muy sucio.", "Estoy muy enfadado.", "Estoy muy contento."],
             0,
-            "Estar hecho polvo = estar agotado."
+            "«Estar hecho polvo» = estar agotado, muy cansado. No significa estar sucio, enfadado ni contento."
           ),
           fb("Completa la frase.", "Cuando me dieron la noticia, me quedé de ___.", "piedra", "Quedarse de piedra = to be stunned."),
         ]
@@ -972,24 +972,24 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         ],
         "Vocabulario básico del campo."
       ),
-      fb("Completa la frase.", "Mi calcetín tiene un ___ y se me ve el dedo.", "agujero", "Un agujero = a hole."),
+      fb("Completa la frase.", "Mi calcetín tiene un ___ y se me ve el dedo.", "agujero", "Un agujero = a hole; por él se ve el dedo."),
       fb("Completa la frase.", "Durante la tormenta, los ___ iluminaron todo el cielo.", "rayos", "En una tormenta hay rayos y truenos."),
       fb("Completa la frase.", "Llegamos al ___ justo antes de la noche y montamos las tiendas.", "campamento", "Donde montas las tiendas: el campamento."),
       mc(
         "Completa: «Los muebles están llenos de ___; hay que limpiar.»",
         ["polvo", "piedra", "agujero", "interior"],
         0,
-        "Lo que se acumula en los muebles es el polvo."
+        "Lo que se acumula en los muebles es el polvo (dust). Piedra, agujero e interior no tienen sentido aquí."
       ),
       mc(
         "«Me quedé de piedra» significa…",
         ["Me sorprendí muchísimo.", "Me quedé dormido.", "Me hice daño.", "Me aburrí mucho."],
         0,
-        "Quedarse de piedra = quedarse inmóvil de sorpresa."
+        "«Quedarse de piedra» = quedarse inmóvil de sorpresa: me sorprendí muchísimo. No significa dormirse, hacerse daño ni aburrirse."
       ),
       toEs("There's a hole in the tent.", "Hay un agujero en la tienda de campaña.", "Hole = agujero; tent = tienda de campaña.", ["Hay un agujero en la tienda.", "Hay un agujero en la carpa."]),
       toEs("The pig is eating in the mud.", "El cerdo está comiendo en el barro.", "Pig = cerdo; estar + gerundio para una acción en progreso.", ["El cerdo come en el barro."]),
-      toEn("El interior de la casa es muy moderno.", "The interior of the house is very modern.", "El interior = the inside.", ["The inside of the house is very modern.", "The house's interior is very modern."]),
+      toEn("El interior de la casa es muy moderno.", "The interior of the house is very modern.", "El interior = the inside / interior; lo contrario es el exterior.", ["The inside of the house is very modern.", "The house's interior is very modern."]),
       toEn("Las relaciones entre los vecinos son difíciles.", "Relations between the neighbors are difficult.", "Relaciones (en plural) = relations, relationships.", ["Relations between the neighbours are difficult.", "The relationships between the neighbors are difficult.", "Relations among the neighbors are difficult."]),
       wo("Hay muchos lugares interesantes en el interior del país.", "Lugares interesantes + en el interior del país.", "There are many interesting places inland."),
       wo("Tengo que resolver unos asuntos antes de volver al campamento.", "Resolver unos asuntos = to sort out some matters.", "I have to sort out a few matters before going back to the camp."),
@@ -1019,12 +1019,12 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
           ["Es una verdadera amiga.", "She's a true friend."],
         ],
         [
-          fb("Completa la frase.", "Estaba tan cansado que ___ podía abrir los ojos.", "apenas", "Apenas = casi no (barely)."),
+          fb("Completa la frase.", "Estaba tan cansado que ___ podía abrir los ojos.", "apenas", "Apenas = casi no (barely): apenas podía abrir los ojos."),
           mc(
             "«Nos mudamos a Lima definitivamente» significa…",
             ["Nos mudamos para siempre.", "Nos mudamos quizás.", "Nos mudamos por unos días.", "Nos mudamos otra vez."],
             0,
-            "Definitivamente = de forma definitiva, para siempre."
+            "Definitivamente = de forma definitiva, para siempre. Ojo: no significa «definitely» (seguro), ni «quizás», ni «por unos días», ni «otra vez»."
           ),
         ]
       ),
@@ -1047,7 +1047,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "En «Lo hizo a propósito», «a propósito» significa…",
             ["on purpose", "by the way", "for good", "as soon as"],
             0,
-            "Hacer algo a propósito = hacerlo con intención."
+            "«A propósito» = con intención: on purpose. También puede significar «by the way», pero no en «lo hizo a propósito». No significa «for good» ni «as soon as»."
           ),
           fb("Completa la frase.", "Antes de firmar, voy a echar un ___ al contrato.", "vistazo", "Echar un vistazo = to take a look."),
         ]
@@ -1105,22 +1105,22 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "Expresiones fijas muy frecuentes en la conversación."
       ),
       fb("Completa la frase.", "Llevamos una hora ___ vueltas y no encontramos la calle.", "dando", "Dar vueltas = to go around in circles; llevar + gerundio: llevamos una hora dando vueltas."),
-      fb("Completa la frase.", "Es una idea ___; seguro que al jefe le va a encantar.", "brillante", "Brillante = muy inteligente."),
+      fb("Completa la frase.", "Es una idea ___; seguro que al jefe le va a encantar.", "brillante", "Brillante, hablando de una idea, = muy inteligente (brilliant)."),
       fb("Completa la frase.", "Ir a una boda en pijama es ___.", "ridículo", "Ridículo = absurdo, que hace reír."),
       fb("Completa la frase.", "___ decirte la verdad desde el principio. Lo siento.", "Debí", "Debí + infinitivo = I should have (yo, pretérito)."),
       mc(
         "Tu amigo no ha llegado a la cena. ¿Qué frase expresa una suposición sobre el pasado?",
         ["Debió de perder el tren.", "Debía perder el tren.", "Debí perder el tren.", "Debe perder el tren."],
         0,
-        "Debió de + infinitivo = must have: supongo que perdió el tren."
+        "«Deber de» + infinitivo expresa suposición: debió de perder el tren = he must have missed the train. «Debía perder» y «debe perder» suenan a obligación, y «debí» es la forma de yo."
       ),
       mc(
         "Completa: «—¿No te gusta la película? —___, ¡me encanta!»",
         ["Al contrario", "A propósito", "Apenas", "Acto seguido"],
         0,
-        "Al contrario = justo lo opuesto de lo que dice la otra persona."
+        "«Al contrario» = justo lo opuesto de lo que dice la otra persona. «A propósito» es on purpose / by the way, «apenas» es barely y «acto seguido» es right after."
       ),
-      toEs("I bet you he doesn't come.", "Te apuesto que no viene.", "Apostar → apuesto.", ["Te apuesto a que no viene.", "Apuesto a que no viene.", "Apuesto que no viene.", "Te apuesto que no va a venir."]),
+      toEs("I bet you he doesn't come.", "Te apuesto que no viene.", "Apostar cambia o→ue en presente: apuesto; «I bet you» = te apuesto que.", ["Te apuesto a que no viene.", "Apuesto a que no viene.", "Apuesto que no viene.", "Te apuesto que no va a venir."]),
       toEs("Stop! There's a car coming.", "¡Detente! Viene un coche.", "¡Detente! = imperativo de detenerse para tú.", ["¡Detente, viene un coche!", "¡Detente! Viene un carro.", "¡Detente! Viene un auto."]),
       toEn("Apenas terminó la película, se fue.", "As soon as the movie ended, he left.", "Apenas al principio de la frase = en cuanto (as soon as).", ["As soon as the film ended, he left.", "As soon as the movie finished, he left.", "As soon as the film finished, he left.", "As soon as the movie ended, she left.", "As soon as the film ended, she left."]),
       toEn("Esta es la verdadera historia de lo que ocurrió.", "This is the true story of what happened.", "Verdadera = real, auténtica; ocurrió = pasó.", ["This is the real story of what happened."]),

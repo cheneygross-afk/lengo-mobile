@@ -55,7 +55,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Para acortar la extensión del documento"
             ],
             "correctIndex": 1,
-            "explanation": "El texto explica que estas fórmulas cumplen una función de precisión legal, no estética, al fijar con claridad la declaración y su alcance."
+            "explanation": "El texto explica que estas fórmulas cumplen una función de precisión legal, no estética, al fijar con claridad la declaración y su alcance. No tienen una finalidad estética, no son las únicas formas correctas del idioma y, lejos de acortar el texto, suelen alargarlo."
           }
         ]
       }
@@ -71,7 +71,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Acortar la extensión del texto legal"
         ],
         "correctIndex": 1,
-        "explanation": "La expresión en virtud de indica precisamente el fundamento o la autoridad que respalda una acción o una declaración dentro de un documento jurídico."
+        "explanation": "La expresión en virtud de indica precisamente el fundamento o la autoridad que respalda una acción o una declaración dentro de un documento jurídico. No es un adorno, no sustituye a la firma y no acorta el texto: aporta la base jurídica de lo que se declara."
       }
     ]
   },
@@ -235,7 +235,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Indica que el documento carece de validez legal."
         ],
         "correctIndex": 1,
-        "explanation": "«Por la presente» introduce una declaración formal dentro del propio documento al que hace referencia, cumpliendo una función de precisión y solemnidad, no meramente estética."
+        "explanation": "«Por la presente» introduce una declaración formal dentro del propio documento al que hace referencia, cumpliendo una función de precisión y solemnidad, no meramente estética. No es un mero adorno, no sustituye a la firma y no resta validez al documento; al contrario, lo formaliza."
       },
       {
         "type": "fill-blank",
@@ -263,7 +263,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Doña Marta es la demandada y su sobrino el demandante."
         ],
         "correctIndex": 1,
-        "explanation": "El otorgante es quien concede algo mediante un documento —en este caso, doña Marta concede el poder—, mientras que el compareciente es quien se presenta físicamente ante el notario para realizar el acto, función que aquí cumple el sobrino en representación de su tía."
+        "explanation": "El otorgante es quien concede algo mediante un documento —en este caso, doña Marta concede el poder—, mientras que el compareciente es quien se presenta físicamente ante el notario para realizar el acto, función que aquí cumple el sobrino en representación de su tía. La compareciente no es doña Marta, que no acude, y ninguno de los dos es fedatario (lo es el notario); «demandante» y «demandado» son términos de un litigio, no de un poder."
       },
       {
         "type": "fill-blank",
@@ -283,7 +283,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el otorgante"
         ],
         "correctIndex": 1,
-        "explanation": "El demandante es quien inicia una acción legal contra otra persona, denominada esta última demandado; ninguno de los otros dos términos designa a una parte de un litigio judicial."
+        "explanation": "El demandante es quien inicia una acción legal contra otra persona, denominada esta última demandado; ninguno de los otros dos términos designa a una parte de un litigio judicial. El demandado es la parte contra la que se dirige la acción, el compareciente es quien se presenta ante un notario o una autoridad y el otorgante es quien concede algo en un documento."
       },
       {
         "type": "fill-blank",
@@ -303,7 +303,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "La sentencia únicamente puede dictarla un notario, nunca un juez."
         ],
         "correctIndex": 1,
-        "explanation": "La sentencia es propia del ámbito judicial y pone fin a un litigio ante un tribunal; la resolución administrativa, en cambio, resuelve un trámite iniciado por un particular dentro de la administración pública, fuera del ámbito estrictamente judicial."
+        "explanation": "La sentencia es propia del ámbito judicial y pone fin a un litigio ante un tribunal; la resolución administrativa, en cambio, resuelve un trámite iniciado por un particular dentro de la administración pública, fuera del ámbito estrictamente judicial. Por eso no son intercambiables; la resolución administrativa no pertenece al ámbito penal y las sentencias las dictan jueces, no notarios."
       },
       {
         "type": "fill-blank",
@@ -323,7 +323,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "La resolución pierde toda validez legal de manera automática."
         ],
         "correctIndex": 1,
-        "explanation": "Un plazo perentorio indica un límite temporal que, una vez vencido, extingue el derecho a actuar, salvo que se conceda una prórroga expresa antes de su vencimiento."
+        "explanation": "Un plazo perentorio indica un límite temporal que, una vez vencido, extingue el derecho a actuar, salvo que se conceda una prórroga expresa antes de su vencimiento. El plazo no se renueva solo, el trámite no queda suspendido sin consecuencias y lo que se pierde es el derecho a actuar, no la validez de la resolución."
       },
       {
         "type": "multi-select",
@@ -411,7 +411,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Porque evita por completo el uso de fórmulas fijas."
         ],
         "correctIndex": 1,
-        "explanation": "El texto explica que, a pesar de su densidad formal y sintáctica, el lenguaje jurídico es notablemente sistemático y predecible una vez que el lector se familiariza con sus fórmulas recurrentes."
+        "explanation": "El texto explica que, a pesar de su densidad formal y sintáctica, el lenguaje jurídico es notablemente sistemático y predecible una vez que el lector se familiariza con sus fórmulas recurrentes. Está escrito en español, sigue patrones muy reconocibles y abunda en fórmulas fijas, justo lo contrario de evitarlas."
       }
     ]
   },
@@ -503,7 +503,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Eximir a todas las partes de cualquier responsabilidad"
             ],
             "correctIndex": 1,
-            "explanation": "La responsabilidad solidaria permite exigir el cumplimiento íntegro a cualquiera de los obligados, sin necesidad de repartir la exigencia entre todos."
+            "explanation": "La responsabilidad solidaria permite exigir el cumplimiento íntegro a cualquiera de los obligados, sin necesidad de repartir la exigencia entre todos. No obliga a repartir la deuda a partes iguales (eso sería la responsabilidad mancomunada), no anula el contrato y no exime a nadie."
           }
         ]
       },
@@ -645,7 +645,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "La resolución administrativa pierde toda validez legal"
         ],
         "correctIndex": 0,
-        "explanation": "El texto explica que, una vez vencido un plazo perentorio, el derecho a actuar se extingue, salvo que se conceda una prórroga expresa."
+        "explanation": "El texto explica que, una vez vencido un plazo perentorio, el derecho a actuar se extingue, salvo que se conceda una prórroga expresa. El plazo no se renueva automáticamente, el trámite no queda suspendido sin más y la resolución no pierde su validez."
       }
     ]
   },
@@ -764,7 +764,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "una diligencia judicial"
         ],
         "correctIndex": 0,
-        "explanation": "El poder notarial autoriza a otra persona (el apoderado) a actuar en nuestro nombre."
+        "explanation": "El poder notarial autoriza a otra persona (el apoderado) a actuar en nuestro nombre, por ejemplo para firmar una compraventa. Una sentencia la dicta un juez para resolver un litigio, un timbre fiscal acredita el pago de una tasa y una diligencia es una actuación dentro de un procedimiento judicial."
       },
       {
         "type": "matching",
@@ -817,7 +817,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "La firma que certifica la validez de todo el contrato."
         ],
         "correctIndex": 1,
-        "explanation": "Una cláusula contractual es una disposición concreta dentro de un contrato que establece derechos y obligaciones específicas para las partes que lo suscriben, y el conjunto de esas cláusulas conforma el acuerdo completo."
+        "explanation": "Una cláusula contractual es una disposición concreta dentro de un contrato que establece derechos y obligaciones específicas para las partes que lo suscriben, y el conjunto de esas cláusulas conforma el acuerdo completo. No es un comentario al margen sin valor, ni el título del documento, ni la firma que lo valida."
       },
       {
         "type": "fill-blank",
@@ -837,7 +837,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Pierde automáticamente el derecho a reclamar la deuda a cualquiera de ellos."
         ],
         "correctIndex": 1,
-        "explanation": "La responsabilidad solidaria permite exigir el cumplimiento íntegro de una obligación a cualquiera de los obligados, sin necesidad de repartir la exigencia proporcionalmente entre todos ellos."
+        "explanation": "La responsabilidad solidaria permite exigir el cumplimiento íntegro de una obligación a cualquiera de los obligados, sin necesidad de repartir la exigencia proporcionalmente entre todos ellos. Exigir solo la tercera parte correspondería a la responsabilidad mancomunada; el banco no tiene que esperar a ningún acuerdo y no pierde su derecho a reclamar."
       },
       {
         "type": "fill-blank",
@@ -865,7 +865,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Que el documento tiene una antigüedad superior a diez años."
         ],
         "correctIndex": 1,
-        "explanation": "La legalización de firma certifica ante una autoridad competente que una firma corresponde efectivamente a la persona que la estampó, sin pronunciarse sobre la veracidad del contenido del documento."
+        "explanation": "La legalización de firma certifica ante una autoridad competente que una firma corresponde efectivamente a la persona que la estampó, sin pronunciarse sobre la veracidad del contenido del documento. No acredita la veracidad del contenido, ni la situación fiscal del firmante, ni la antigüedad del documento."
       },
       {
         "type": "multi-select",
@@ -984,7 +984,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Que el tribunal solo puede dictar resoluciones administrativas, nunca sentencias."
         ],
         "correctIndex": 1,
-        "explanation": "La jurisdicción competente designa el ámbito de autoridad legal específicamente facultado para conocer un asunto determinado; un tribunal sin esa competencia no puede resolver válidamente el caso."
+        "explanation": "La jurisdicción competente designa el ámbito de autoridad legal específicamente facultado para conocer un asunto determinado; un tribunal sin esa competencia no puede resolver válidamente el caso. No significa que pueda intervenir en cualquier asunto sin límites, no depende de la experiencia del juez y un tribunal competente sí dicta sentencias."
       },
       {
         "type": "multi-select",
@@ -1012,7 +1012,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Puede redactar sentencias judiciales sin necesidad de formación jurídica adicional."
         ],
         "correctIndex": 1,
-        "explanation": "Comprender este vocabulario permite leer con criterio propio un contrato o un formulario oficial, evitando la situación, frecuente incluso entre hablantes cultos, de firmar documentos sin entender plenamente su alcance."
+        "explanation": "Comprender este vocabulario permite leer con criterio propio un contrato o un formulario oficial, evitando la situación, frecuente incluso entre hablantes cultos, de firmar documentos sin entender plenamente su alcance. No exime de firmar documentos, no habilita para ejercer de notario y no basta para redactar sentencias sin formación jurídica."
       }
     ]
   },
@@ -1067,7 +1067,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Porque resulta gramaticalmente incorrecta"
             ],
             "correctIndex": 1,
-            "explanation": "El texto explica que una descripción precisa exige detallar cualidad, intensidad, duración y evolución, información que una fórmula básica no aporta."
+            "explanation": "El texto explica que una descripción precisa exige detallar cualidad, intensidad, duración y evolución, información que una fórmula básica no aporta. Los médicos entienden perfectamente «doler», la fórmula no es académica sino cotidiana y es gramaticalmente correcta: simplemente es imprecisa."
           }
         ]
       }
@@ -1083,7 +1083,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "El dolor punzante nunca requiere atención médica"
         ],
         "correctIndex": 1,
-        "explanation": "El texto distingue el dolor punzante, agudo y repentino, del dolor sordo, continuo y de intensidad moderada."
+        "explanation": "El texto distingue el dolor punzante, agudo y repentino, del dolor sordo, continuo y de intensidad moderada. No son sinónimos, el dolor sordo no aparece solo durante el sueño y un dolor punzante puede requerir atención médica."
       }
     ]
   },
@@ -1278,7 +1278,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Una notificación fehaciente"
             ],
             "correctIndex": 1,
-            "explanation": "El consentimiento informado es el documento que certifica que el paciente comprende los riesgos y beneficios del procedimiento antes de someterse a él."
+            "explanation": "El consentimiento informado es el documento que certifica que el paciente comprende los riesgos y beneficios del procedimiento antes de someterse a él. Una receta médica prescribe un tratamiento, el historial clínico recoge los datos del paciente y una notificación fehaciente es un término jurídico, no sanitario."
           }
         ]
       }
@@ -1524,7 +1524,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Un procedimiento quirúrgico de urgencia"
         ],
         "correctIndex": 1,
-        "explanation": "La patología subyacente es precisamente la condición médica de fondo que puede explicar varios síntomas que, a primera vista, parecen inconexos."
+        "explanation": "La patología subyacente es precisamente la condición médica de fondo que puede explicar varios síntomas que, a primera vista, parecen inconexos. No es un síntoma pasajero sin causa, ni un efecto secundario de un fármaco, ni una intervención quirúrgica."
       }
     ]
   },
@@ -1575,7 +1575,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "costar un ojo de la cara"
             ],
             "correctIndex": 0,
-            "explanation": "Meter la pata describe precisamente cometer un error embarazoso por decir algo inoportuno en el momento equivocado; las demás opciones no encajan con esa situación."
+            "explanation": "«Meter la pata» significa cometer un error embarazoso, como soltar un chisme delante del jefe. «Estar en las nubes» es estar distraído, «hacer la vista gorda» es fingir no ver algo y «costar un ojo de la cara» es ser muy caro."
           }
         ]
       },
@@ -1660,7 +1660,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "Estar hasta las narices y estar hasta la coronilla comparten esa estructura y ambos expresan haber llegado al límite de la paciencia; las otras dos opciones tienen significados distintos."
+            "explanation": "«Estar hasta las narices» y «estar hasta la coronilla» comparten la estructura «estar + expresión fija» y significan haber llegado al límite de la paciencia. «Tener enchufe» es tener contactos influyentes y «dar en el clavo» es acertar."
           }
         ]
       }
@@ -1676,7 +1676,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "dar en el clavo"
         ],
         "correctIndex": 0,
-        "explanation": "Tomar el pelo a alguien describe hacerle creer algo falso con intención de broma; las demás opciones tienen significados distintos."
+        "explanation": "«Tomar el pelo a alguien» es hacerle creer algo falso en broma. «Hacer la vista gorda» es fingir no ver algo, «costar un ojo de la cara» es ser muy caro y «dar en el clavo» es acertar."
       },
       {
         "type": "fill-blank",
@@ -1967,7 +1967,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "echar una mano"
         ],
         "correctIndex": 0,
-        "explanation": "Írsele el santo al cielo a alguien describe olvidarse por completo de algo que se debía hacer; las demás opciones no coinciden con esa idea."
+        "explanation": "«Írsele el santo al cielo a alguien» es olvidarse por completo de algo que había que hacer. «Estar como pez en el agua» es sentirse cómodo, «cortar por lo sano» es zanjar un problema de forma drástica y «echar una mano» es ayudar."
       }
     ]
   },
@@ -2018,7 +2018,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "tener enchufe"
             ],
             "correctIndex": 0,
-            "explanation": "A quien madruga, Dios le ayuda es un refrán clásico que aconseja la diligencia; las demás opciones son modismos sin esa intención moralizante."
+            "explanation": "A quien madruga, Dios le ayuda es un refrán clásico que aconseja la diligencia; las demás opciones son modismos sin esa intención moralizante. «Meter la pata», «estar en las nubes» y «tener enchufe» describen situaciones, pero no dan ningún consejo."
           }
         ]
       },
@@ -2073,7 +2073,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "a lo hecho, pecho"
         ],
         "correctIndex": 0,
-        "explanation": "Cada oveja con su pareja expresa que cada quien encaja mejor con alguien de condición o gustos semejantes; las demás opciones no encajan con esa idea."
+        "explanation": "«Cada oveja con su pareja» expresa que cada cual encaja mejor con alguien de condición o gustos semejantes. «Más vale tarde que nunca» trata de la tardanza, «las paredes oyen» aconseja discreción y «a lo hecho, pecho» pide asumir las consecuencias."
       },
       {
         "type": "fill-blank",
@@ -2201,7 +2201,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           0,
           1
         ],
-        "explanation": "En boca cerrada no entran moscas y el que mucho habla, mucho yerra advierten sobre los riesgos de hablar demasiado; los otros dos refranes tratan temas distintos."
+        "explanation": "«En boca cerrada no entran moscas» y «el que mucho habla, mucho yerra» advierten del riesgo de hablar demasiado. «No hay atajo sin trabajo» habla del esfuerzo y «quien calla otorga» interpreta el silencio como consentimiento, no como prudencia."
       },
       {
         "type": "matching",
@@ -2422,7 +2422,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "genio y figura hasta la sepultura"
         ],
         "correctIndex": 0,
-        "explanation": "No hay mal que por bien no venga expresa que de una desgracia suele surgir, con el tiempo, algo positivo; las demás opciones no corresponden a esa idea."
+        "explanation": "«No hay mal que por bien no venga» expresa que de una desgracia puede surgir algo bueno. «Zapatero, a tus zapatos» pide no meterse en lo ajeno, «donde manda capitán…» habla de jerarquía y «genio y figura…» de que el carácter no cambia."
       }
     ]
   },
@@ -2473,7 +2473,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "la carcajada"
             ],
             "correctIndex": 0,
-            "explanation": "El doble sentido es precisamente el recurso que aprovecha una ambigüedad de significado con fines cómicos; las demás opciones designan otros conceptos relacionados con el humor."
+            "explanation": "El doble sentido aprovecha una ambigüedad de significado con fines cómicos. La caricatura exagera rasgos, el humor negro bromea sobre temas trágicos y la carcajada es la risa misma, no un recurso."
           }
         ]
       },
@@ -2528,7 +2528,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "la carcajada"
         ],
         "correctIndex": 0,
-        "explanation": "El sarcasmo es la ironía marcada por un tono mordaz que busca herir o ridiculizar; las demás opciones no corresponden a esa intención."
+        "explanation": "El sarcasmo es una ironía mordaz que busca herir o ridiculizar, a menudo disfrazada de elogio. El humor blanco es inofensivo, el trabalenguas es un juego de pronunciación y la carcajada es la risa."
       },
       {
         "type": "fill-blank",
@@ -2886,7 +2886,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el disparate"
         ],
         "correctIndex": 0,
-        "explanation": "El chascarrillo es precisamente una anécdota breve y graciosa de tono ligero; las demás opciones implican una intención crítica o absurda distinta."
+        "explanation": "El chascarrillo es una anécdota breve y graciosa de tono ligero. El escarnio es una burla humillante, la sátira critica ridiculizando y el disparate es un absurdo, no una anécdota."
       }
     ]
   },
@@ -3354,7 +3354,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el quiasmo"
         ],
         "correctIndex": 0,
-        "explanation": "La personificación atribuye a las montañas cualidades y una acción propia de los seres humanos, como contemplar; las demás opciones no corresponden a ese mecanismo."
+        "explanation": "La personificación atribuye a las montañas cualidades y una acción propia de los seres humanos, como contemplar; las demás opciones no corresponden a ese mecanismo. La sinécdoque nombra la parte por el todo, el pleonasmo añade palabras redundantes y el quiasmo cruza elementos en orden inverso."
       }
     ]
   },
@@ -3405,7 +3405,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "confundir al oyente sobre lo ocurrido"
             ],
             "correctIndex": 0,
-            "explanation": "Pasar a mejor vida es un eufemismo que suaviza la referencia directa a la muerte, protegiendo emocionalmente tanto a quien habla como a quien escucha."
+            "explanation": "Pasar a mejor vida es un eufemismo que suaviza la referencia directa a la muerte, protegiendo emocionalmente tanto a quien habla como a quien escucha. No exagera la noticia, no se burla de ella y no confunde al oyente: todos entienden que el abuelo ha muerto."
           }
         ]
       },
@@ -3460,7 +3460,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "una celebración interna de la empresa"
         ],
         "correctIndex": 0,
-        "explanation": "La reestructuración empresarial es un eufemismo que suele encubrir cambios organizativos que incluyen despidos, aunque se presente con un tono neutro."
+        "explanation": "La reestructuración empresarial es un eufemismo que suele encubrir cambios organizativos que incluyen despidos, aunque se presente con un tono neutro. No anuncia subidas de sueldo, aperturas de oficinas ni celebraciones: si fuera algo positivo, no haría falta un eufemismo."
       },
       {
         "type": "fill-blank",
@@ -3812,7 +3812,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "evitar cualquier tipo de comunicación"
         ],
         "correctIndex": 0,
-        "explanation": "Estar delicado de salud es un eufemismo que suaviza el impacto emocional de una noticia difícil sin dejar de comunicarla; las demás opciones no reflejan la función real del eufemismo."
+        "explanation": "«Estar delicado de salud» es un eufemismo que suaviza el impacto emocional de una noticia difícil sin dejar de comunicarla. No busca confundir ni exagerar la gravedad, y sí comunica."
       }
     ]
   },
@@ -3863,7 +3863,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "¡vaya tela!"
             ],
             "correctIndex": 0,
-            "explanation": "¡Ni hablar! comunica un rechazo tajante y sin lugar a discusión, adecuado para expresar una negativa absoluta ante una propuesta."
+            "explanation": "¡Ni hablar! comunica un rechazo tajante y sin lugar a discusión, adecuado para expresar una negativa absoluta ante una propuesta. «¡Qué va!» niega de forma coloquial pero menos tajante, «¡No me digas!» expresa sorpresa y «¡Vaya tela!» expresa asombro o fastidio."
           }
         ]
       },
@@ -3964,7 +3964,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "¡ojo!"
         ],
         "correctIndex": 0,
-        "explanation": "No me lo puedo creer expresa incredulidad genuina ante algo difícil de aceptar como cierto, adecuado para esa situación."
+        "explanation": "No me lo puedo creer expresa incredulidad genuina ante algo difícil de aceptar como cierto, adecuado para esa situación. «¡Qué remedio!» expresa resignación, «¡Faltaría más!» concede algo con cortesía y «¡Ojo!» es una advertencia."
       },
       {
         "type": "fill-blank",
@@ -4255,7 +4255,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "¡para nada!"
         ],
         "correctIndex": 0,
-        "explanation": "Ya era hora expresa alivio porque algo esperado por fin ha ocurrido, justo la reacción adecuada tras una espera larga."
+        "explanation": "Ya era hora expresa alivio porque algo esperado por fin ha ocurrido, justo la reacción adecuada tras una espera larga. «¡Ni hablar!» y «¡Para nada!» son negaciones, y «¡Qué horror!» expresa rechazo o espanto."
       }
     ]
   },
@@ -4306,7 +4306,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "mostrar sorpresa"
             ],
             "correctIndex": 0,
-            "explanation": "En este caso, el diminutivo casita no indica un tamaño reducido, sino que expresa cariño y cercanía hacia el lugar, una función afectiva típica de muchos diminutivos."
+            "explanation": "En este caso, el diminutivo casita no indica un tamaño reducido, sino que expresa cariño y cercanía hacia el lugar, una función afectiva típica de muchos diminutivos. No indica que la casa sea realmente pequeña, no hay ninguna orden que suavizar y no expresa sorpresa."
           }
         ]
       },
@@ -4407,7 +4407,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "una muestra de cariño"
         ],
         "correctIndex": 0,
-        "explanation": "El papelón describe una situación vergonzosa o ridícula que alguien protagoniza, en este caso el error durante la presentación."
+        "explanation": "El papelón describe una situación vergonzosa o ridícula que alguien protagoniza, en este caso el error durante la presentación. «Papelón» tiene connotación negativa: no se refiere a un éxito, ni a una tarea sencilla, ni a una muestra de cariño."
       },
       {
         "type": "fill-blank",
@@ -4706,7 +4706,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el bocazas"
         ],
         "correctIndex": 0,
-        "explanation": "Un golazo es el aumentativo que expresa admiración intensa hacia una jugada extraordinaria, adecuado para esa reacción entusiasta."
+        "explanation": "Un golazo es el aumentativo que expresa admiración intensa hacia una jugada extraordinaria, adecuado para esa reacción entusiasta. «Un problemón» es un problema grave, «carota» es un caradura y «el bocazas» es quien habla más de la cuenta."
       }
     ]
   },
@@ -4757,7 +4757,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "dar la cara"
             ],
             "correctIndex": 0,
-            "explanation": "Poner las cartas sobre la mesa describe precisamente exponer con claridad las intenciones o condiciones propias en una negociación; las demás opciones tienen matices distintos."
+            "explanation": "«Poner las cartas sobre la mesa» es exponer con claridad las propias intenciones o condiciones. «Tantear el terreno» es sondear con cautela antes de actuar, «jugársela» es arriesgarse y «dar la cara» es asumir responsabilidades."
           }
         ]
       },
@@ -4858,7 +4858,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "quedarse con el puesto"
         ],
         "correctIndex": 0,
-        "explanation": "Hincar el diente a un proyecto describe empezar a trabajar en él con determinación tras haberlo pospuesto; las demás opciones tienen significados distintos."
+        "explanation": "«Hincar el diente a un proyecto» es ponerse a trabajar en él con determinación. «Dar carpetazo» es archivarlo o darlo por terminado, «tantear el terreno» es sondear antes de actuar y «quedarse con el puesto» es conseguir un empleo."
       },
       {
         "type": "fill-blank",
@@ -5148,7 +5148,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "ganarse el pan"
         ],
         "correctIndex": 0,
-        "explanation": "A bombo y platillo describe anunciar algo con gran despliegue publicitario y ostentación, justo lo que ocurre con esa campaña."
+        "explanation": "A bombo y platillo describe anunciar algo con gran despliegue publicitario y ostentación, justo lo que ocurre con esa campaña. «Sobre la marcha» es improvisar mientras se hace algo, «dar carpetazo» es dar por cerrado un asunto y «ganarse el pan» es ganarse la vida."
       }
     ]
   },
@@ -5194,7 +5194,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Solo comprende el español cuando se habla despacio"
         ],
         "correctIndex": 1,
-        "explanation": "La comprensión avanzada se distingue por la capacidad de inferir sentido a partir del contexto en lugar de depender del reconocimiento palabra por palabra."
+        "explanation": "La comprensión avanzada se distingue por la capacidad de inferir sentido a partir del contexto en lugar de depender del reconocimiento palabra por palabra. Traducir cada palabra, evitar los tecnicismos o necesitar que se hable despacio son rasgos de un nivel menos avanzado."
       }
     ]
   },
@@ -5232,7 +5232,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Traducir mentalmente la oración palabra por palabra"
             ],
             "correctIndex": 1,
-            "explanation": "La lectura avanzada se apoya en la inferencia contextual: detenerse ante cada término desconocido rompe la comprensión global del texto."
+            "explanation": "La lectura avanzada se apoya en la inferencia contextual: detenerse ante cada término desconocido rompe la comprensión global del texto. Buscar cada palabra en el diccionario o traducir palabra por palabra interrumpe la lectura, e ignorar la frase entera hace perder información."
           }
         ]
       }
@@ -5252,7 +5252,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "La sinalefa, la reducción de sílabas átonas y la fusión de palabras son fenómenos propios del habla espontánea que exigen entrenamiento auditivo específico."
+        "explanation": "La sinalefa, la reducción de sílabas átonas y la fusión de palabras son fenómenos propios del habla espontánea que exigen entrenamiento auditivo específico. Los conectores explícitos, en cambio, facilitan la comprensión porque anuncian la estructura del discurso."
       }
     ]
   },
@@ -5332,7 +5332,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "El final definitivo de la conversación"
             ],
             "correctIndex": 1,
-            "explanation": "Los cambios de registro casi nunca son casuales: suelen marcar una intención, como generar cercanía, introducir ironía o citar a otra persona con un matiz distinto."
+            "explanation": "Los cambios de registro casi nunca son casuales: suelen marcar una intención, como generar cercanía, introducir ironía o citar a otra persona con un matiz distinto. No suele ser un error de pronunciación ni una falta de vocabulario, y no anuncia necesariamente el final de la conversación."
           }
         ]
       },
@@ -5499,7 +5499,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "La comprensión auditiva avanzada se apoya en captar las palabras clave y en familiarizarse con la variedad de acentos, no en perseguir cada sonido átono."
+            "explanation": "La comprensión auditiva avanzada se apoya en captar las palabras clave y en familiarizarse con la variedad de acentos, no en perseguir cada sonido átono. Intentar distinguir cada sonido átono es inútil en el habla rápida, y exigir que se repita cada frase no es una estrategia viable."
           }
         ]
       },
@@ -5530,7 +5530,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Porque solo ocurren en los textos escritos, nunca en el habla"
         ],
         "correctIndex": 1,
-        "explanation": "Un cambio de registro suele marcar una intención deliberada: generar cercanía, introducir ironía, citar a otra persona con un matiz distinto, entre otras posibilidades."
+        "explanation": "Un cambio de registro suele marcar una intención deliberada: generar cercanía, introducir ironía, citar a otra persona con un matiz distinto, entre otras posibilidades. No revelan errores gramaticales ni pérdida del hilo, y ocurren tanto en el habla como en la escritura."
       }
     ]
   },
@@ -5680,7 +5680,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el eje temático"
         ],
         "correctIndex": 0,
-        "explanation": "La entonación revela que el sentido real es contrario al literal."
+        "explanation": "La entonación revela que el sentido real es contrario al literal: es ironía. La denotación es precisamente el sentido literal, que aquí engaña; la redundancia y el eje temático no permiten detectar la ironía."
       },
       {
         "type": "fill-blank",
@@ -5787,7 +5787,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "acento regional"
         ],
         "correctIndex": 0,
-        "explanation": "Un tecnicismo es un término propio de un campo especializado."
+        "explanation": "«Anamnesis» es un tecnicismo: un término propio de un campo especializado (la medicina). Un sobrentendido es algo que se comunica sin decirlo, el énfasis prosódico depende de la entonación y un acento regional es un rasgo de pronunciación."
       },
       {
         "type": "fill-blank",
@@ -5829,7 +5829,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "tecnicismo"
         ],
         "correctIndex": 0,
-        "explanation": "Una locución es una expresión fija cuyo significado no se deduce de sus palabras por separado."
+        "explanation": "Una locución es una expresión fija cuyo significado no se deduce de sus palabras por separado: «echar una mano» es ayudar. Una inferencia es una deducción, una reformulación dice lo mismo con otras palabras y un tecnicismo es un término especializado."
       },
       {
         "type": "fill-blank",
@@ -5882,7 +5882,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Porque sustituye la necesidad de aportar evidencia empírica"
         ],
         "correctIndex": 1,
-        "explanation": "La concesión estratégica en un punto periférico refuerza, en vez de debilitar, la autoridad del argumento principal que se defiende después."
+        "explanation": "La concesión estratégica en un punto periférico refuerza, en vez de debilitar, la autoridad del argumento principal que se defiende después. No demuestra falta de argumentos, no obliga al adversario a retirarse y no sustituye la necesidad de aportar pruebas."
       }
     ]
   },
@@ -5920,7 +5920,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Evitar por completo cualquier confrontación"
             ],
             "correctIndex": 1,
-            "explanation": "La concesión estratégica desarma la actitud defensiva del interlocutor y otorga mayor credibilidad al contraargumento que se presenta a continuación."
+            "explanation": "La concesión estratégica desarma la actitud defensiva del interlocutor y otorga mayor credibilidad al contraargumento que se presenta a continuación. No indica falta de argumentos propios, no pretende acabar el debate y no evita la confrontación: la prepara."
           }
         ]
       }
@@ -6164,7 +6164,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Que el adversario no pueda responder"
         ],
         "correctIndex": 1,
-        "explanation": "Un oyente avanzado distingue entre el efecto retórico y la solidez argumental; el abuso de recursos emocionales sin respaldo debilita la credibilidad del discurso."
+        "explanation": "Un oyente avanzado distingue entre el efecto retórico y la solidez argumental; el abuso de recursos emocionales sin respaldo debilita la credibilidad del discurso. El problema no es la brevedad, ni una posible interrupción del moderador, ni que el adversario se quede sin respuesta."
       }
     ]
   },
@@ -6202,7 +6202,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Que el adversario conceda su postura de inmediato"
             ],
             "correctIndex": 1,
-            "explanation": "Cuando los recursos retóricos sustituyen a la evidencia y a la lógica, un oyente entrenado detecta la falta de solidez y el discurso pierde credibilidad."
+            "explanation": "Cuando los recursos retóricos sustituyen a la evidencia y a la lógica, un oyente entrenado detecta la falta de solidez y el discurso pierde credibilidad. No acorta ni alarga el discurso, y no hace que el adversario ceda: más bien le da argumentos."
           }
         ]
       },
@@ -6323,7 +6323,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "de la pendiente resbaladiza"
         ],
         "correctIndex": 0,
-        "explanation": "Ataca a la persona en vez de a su argumento: falacia ad hominem."
+        "explanation": "Ataca a la persona («ni siquiera terminó la carrera») en vez de a su argumento: falacia ad hominem. La de autoridad apela a un experto, la del hombre de paja deforma la postura contraria y la pendiente resbaladiza encadena consecuencias extremas."
       },
       {
         "type": "multiple-choice",
@@ -6335,7 +6335,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "petición de principio"
         ],
         "correctIndex": 0,
-        "explanation": "Deforma el argumento ajeno para refutarlo con más facilidad: falacia del hombre de paja."
+        "explanation": "Deforma el argumento ajeno para refutarlo más fácilmente: falacia del hombre de paja. No ataca a la persona (ad hominem), no invoca a ninguna autoridad y no es un razonamiento circular (petición de principio)."
       },
       {
         "type": "fill-blank",
@@ -6479,7 +6479,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el hombre de paja"
         ],
         "correctIndex": 0,
-        "explanation": "Encadena consecuencias extremas sin justificar cada paso."
+        "explanation": "Encadena consecuencias cada vez más extremas sin justificar cada paso: es la pendiente resbaladiza. La petición de principio es un razonamiento circular, el ad hominem ataca a la persona y el hombre de paja deforma la postura contraria."
       },
       {
         "type": "multiple-choice",
@@ -6491,7 +6491,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "de autoridad"
         ],
         "correctIndex": 0,
-        "explanation": "Da por probado precisamente lo que debería demostrar: es un argumento circular."
+        "explanation": "Da por probado precisamente lo que debería demostrar: es una petición de principio, un argumento circular. No encadena consecuencias (pendiente resbaladiza), no ataca a nadie (ad hominem) y no invoca a un experto (autoridad)."
       },
       {
         "type": "fill-blank",
@@ -6582,7 +6582,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Introducir el tema por primera vez"
         ],
         "correctIndex": 1,
-        "explanation": "Un cierre bien construido, con un argumento de cierre sólido, refuerza la idea central y deja una impresión mucho más duradera en el auditorio."
+        "explanation": "Un cierre bien construido, con un argumento de cierre sólido, refuerza la idea central y deja una impresión mucho más duradera en el auditorio. No consiste en repetir el preámbulo, ni en evitar preguntas, ni en presentar el tema, que es la función de la introducción."
       }
     ]
   },
@@ -6620,7 +6620,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Evitar cualquier pregunta por parte del público"
             ],
             "correctIndex": 1,
-            "explanation": "El preámbulo debe ser breve y funcional: sitúa el tema, anticipa la estructura y capta la atención del auditorio en los primeros segundos."
+            "explanation": "El preámbulo debe ser breve y funcional: sitúa el tema, anticipa la estructura y capta la atención del auditorio en los primeros segundos. No debe resumir todo el contenido, ni mostrar todas las diapositivas antes de empezar, ni cerrar la puerta a las preguntas."
           }
         ]
       }
@@ -6640,7 +6640,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "Ceder de forma estratégica, sondear intenciones y fraccionar el acuerdo son tácticas que facilitan superar un punto muerto en la negociación."
+        "explanation": "Ceder de forma estratégica, sondear intenciones y fraccionar el acuerdo son tácticas que facilitan superar un punto muerto en la negociación. Ignorar las intenciones reales de la otra parte, en cambio, dificulta cualquier acuerdo."
       }
     ]
   },
@@ -6760,7 +6760,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Ignorar por completo las cláusulas más difíciles"
             ],
             "correctIndex": 1,
-            "explanation": "Explorar los intereses reales que subyacen a las posturas declaradas suele revelar puntos de acuerdo que las posiciones formales ocultaban."
+            "explanation": "Explorar los intereses reales que subyacen a las posturas declaradas suele revelar puntos de acuerdo que las posiciones formales ocultaban. Insistir rígidamente en la postura inicial, abandonar la mesa o ignorar las cláusulas difíciles perpetúan el bloqueo."
           }
         ]
       }
@@ -6879,7 +6879,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               2,
               3
             ],
-            "explanation": "La seguridad se construye con un lenguaje corporal firme y con la disposición a escuchar sin ceder en lo esencial, no con una rigidez absoluta."
+            "explanation": "La seguridad se construye con un lenguaje corporal firme y con la disposición a escuchar sin ceder en lo esencial, no con una rigidez absoluta. Mostrarse inamovible desde el primer minuto transmite rigidez y bloquea la negociación."
           }
         ]
       },
@@ -6909,7 +6909,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Porque solo así se puede emplear la estrategia de anclaje"
         ],
         "correctIndex": 1,
-        "explanation": "Un cierre ambiguo, con cláusulas mal definidas, suele dar lugar a nuevos desacuerdos una vez pasado el entusiasmo inicial del acuerdo."
+        "explanation": "Un cierre ambiguo, con cláusulas mal definidas, suele dar lugar a nuevos desacuerdos una vez pasado el entusiasmo inicial del acuerdo. La precisión no busca evitar preguntas, un acuerdo sí necesita plazo de vigencia y el anclaje es una táctica de apertura, no de cierre."
       }
     ]
   },
@@ -7013,7 +7013,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "un toma y daca"
         ],
         "correctIndex": 0,
-        "explanation": "Un punto muerto (o impasse) es una fase en la que no se produce ningún avance."
+        "explanation": "Un punto muerto (o impasse) es una fase en la que no se produce ningún avance. Un acuerdo marco supone haber pactado ya las bases, el hilo conductor es la idea que da unidad a un discurso y el toma y daca es un intercambio de concesiones."
       },
       {
         "type": "fill-blank",
@@ -7168,7 +7168,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "la ronda de preguntas"
         ],
         "correctIndex": 0,
-        "explanation": "La estrategia de anclaje fija una cifra inicial que condiciona todo lo que viene después."
+        "explanation": "La estrategia de anclaje fija una cifra inicial que condiciona todo lo que viene después. La cesión mutua es un intercambio de concesiones, el preámbulo es la introducción de un discurso y la ronda de preguntas llega al final de una exposición."
       },
       {
         "type": "fill-blank",
@@ -7210,7 +7210,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "límite infranqueable"
         ],
         "correctIndex": 0,
-        "explanation": "El as bajo la manga es un recurso que se reserva para el momento decisivo."
+        "explanation": "El as bajo la manga es un recurso que se reserva en secreto para el momento decisivo. El plazo de vigencia es la duración de un acuerdo, el preámbulo es una introducción y el límite infranqueable es lo que no se está dispuesto a ceder."
       },
       {
         "type": "fill-blank",
@@ -7263,7 +7263,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "No existe diferencia relevante entre ambas"
         ],
         "correctIndex": 1,
-        "explanation": "La cita textual reproduce literalmente las palabras del autor entre comillas; la cita indirecta traslada el contenido mediante una paráfrasis fiel al sentido original."
+        "explanation": "La cita textual reproduce literalmente las palabras del autor entre comillas; la cita indirecta traslada el contenido mediante una paráfrasis fiel al sentido original. Por eso ambas son distintas, las dos requieren atribución y la longitud no es lo que las diferencia."
       }
     ]
   },
@@ -7301,7 +7301,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Cuando el autor citado es poco conocido"
             ],
             "correctIndex": 1,
-            "explanation": "La cita textual se justifica cuando parafrasear supondría perder un matiz de precisión o de estilo que solo las palabras originales del autor transmiten."
+            "explanation": "La cita textual se justifica cuando parafrasear supondría perder un matiz de precisión o de estilo que solo las palabras originales del autor transmiten. Un texto largo se parafrasea en vez de citarse literalmente, sin la fuente completa no se puede citar con exactitud y la fama del autor no es un criterio."
           }
         ]
       }
@@ -7480,7 +7480,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               2,
               3
             ],
-            "explanation": "El aparato crítico está formado por notas al pie, referencias cruzadas y bibliografía; el entrecomillado, en cambio, es un recurso tipográfico distinto."
+            "explanation": "El aparato crítico lo forman las notas al pie, las referencias cruzadas y la bibliografía. El entrecomillado de una cita textual es un recurso tipográfico, no parte del aparato crítico."
           }
         ]
       },
@@ -7567,7 +7567,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Que cita varias fuentes distintas para un mismo dato"
             ],
             "correctIndex": 1,
-            "explanation": "Una paráfrasis demasiado cercana al original, sin reorganización real ni atribución del crédito intelectual correspondiente, equivale en la práctica a un plagio encubierto."
+            "explanation": "Una paráfrasis demasiado cercana al original, sin reorganización real ni atribución del crédito intelectual correspondiente, equivale en la práctica a un plagio encubierto. Cambiar por completo la estructura es justo lo que la aleja del plagio; las comillas se usan en citas textuales, no en paráfrasis, y citar varias fuentes no tiene que ver con el plagio."
           }
         ]
       },
@@ -7597,7 +7597,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Porque cita más de una fuente en el mismo párrafo"
         ],
         "correctIndex": 1,
-        "explanation": "Cuando la reformulación apenas se distingue del original y no atribuye la idea a su autor, se compromete la fidelidad textual y se roza el plagio."
+        "explanation": "Cuando la reformulación apenas se distingue del original y no atribuye la idea a su autor, se compromete la fidelidad textual y se roza el plagio. No es cuestión de estilo de citación, de notas al pie innecesarias ni del número de fuentes citadas."
       }
     ]
   },
@@ -7701,7 +7701,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "aclaratoria"
         ],
         "correctIndex": 0,
-        "explanation": "Una fuente primaria es un documento original que aporta información de primera mano."
+        "explanation": "Una carta de Bolívar es una fuente primaria: un documento original de la época. Una fuente secundaria sería un estudio posterior sobre esa carta, una fuente de segunda mano se conoce a través de otra y «aclaratoria» se dice de una nota, no de una fuente."
       },
       {
         "type": "fill-blank",
@@ -7851,7 +7851,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "nota aclaratoria"
         ],
         "correctIndex": 0,
-        "explanation": "La cita de segunda mano remite a una fuente conocida solo a través de otra; hay que indicarlo («citado en…»)."
+        "explanation": "La cita de segunda mano remite a una fuente conocida solo a través de otra, y hay que indicarlo («citado en…»). Una paráfrasis fiel reformula un texto consultado directamente, una referencia cruzada remite a otra parte del mismo texto y una nota aclaratoria explica algo al margen."
       },
       {
         "type": "fill-blank",
@@ -7904,7 +7904,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "repertorios de fuentes"
         ],
         "correctIndex": 0,
-        "explanation": "Un estilo de citación es el sistema normalizado que regula el formato de las referencias."
+        "explanation": "APA, MLA y Chicago son estilos de citación: sistemas normalizados que regulan el formato de las referencias. El aparato crítico es el conjunto de notas y bibliografía de un texto, y «vacío de cita» o «repertorio de fuentes» no designan estos sistemas."
       }
     ]
   },
@@ -7950,7 +7950,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Sustituir por completo la necesidad de argumentar"
         ],
         "correctIndex": 1,
-        "explanation": "La pregunta retórica funciona como una afirmación encubierta: da por sentada la respuesta y no busca información real del oyente."
+        "explanation": "La pregunta retórica funciona como una afirmación encubierta: da por sentada la respuesta y no busca información real del oyente. No busca información, no inicia necesariamente un diálogo formal y no sustituye la argumentación: la refuerza."
       }
     ]
   },
@@ -7988,7 +7988,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Siempre va seguida de una respuesta explícita del propio hablante"
             ],
             "correctIndex": 1,
-            "explanation": "La pregunta retórica no busca información: bajo su forma interrogativa esconde una afirmación que el hablante da por sentada de antemano."
+            "explanation": "La pregunta retórica no busca información: bajo su forma interrogativa esconde una afirmación que el hablante da por sentada de antemano. No busca información, se usa también en el habla y en discursos orales, y no siempre la responde el propio hablante (eso sería hipofora)."
           }
         ]
       },
@@ -8140,7 +8140,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               1,
               3
             ],
-            "explanation": "La anáfora interrogativa intensifica el efecto persuasivo mediante la acumulación de tensión, la urgencia emocional y la memorabilidad del mensaje, no mediante información nueva."
+            "explanation": "La anáfora interrogativa intensifica el efecto persuasivo mediante la acumulación de tensión, la urgencia emocional y la memorabilidad del mensaje, no mediante información nueva. No aporta información nueva: su fuerza está en la repetición, no en el contenido."
           }
         ]
       },
@@ -8219,7 +8219,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "La interpelación no admite ningún matiz irónico"
             ],
             "correctIndex": 1,
-            "explanation": "La interpelación se caracteriza por dirigirse de forma directa a alguien concreto, buscando implicarlo emocionalmente con el argumento planteado."
+            "explanation": "La interpelación se caracteriza por dirigirse de forma directa a alguien concreto, buscando implicarlo emocionalmente con el argumento planteado. No exige respuesta escrita, es muy frecuente en discursos públicos y puede tener un tono irónico."
           }
         ]
       },
@@ -8363,7 +8363,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Porque impide formular ninguna pregunta retórica adicional"
         ],
         "correctIndex": 1,
-        "explanation": "Cuando la hipofora se repite sin variación, el discurso adquiere un ritmo previsible que reduce su fuerza persuasiva en lugar de reforzarla."
+        "explanation": "Cuando la hipofora se repite sin variación, el discurso adquiere un ritmo previsible que reduce su fuerza persuasiva en lugar de reforzarla. El público no espera respuestas escritas, la hipofora no es exclusiva de los textos académicos y no impide formular otras preguntas retóricas."
       }
     ]
   },
@@ -8463,7 +8463,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "pregunta de información"
         ],
         "correctIndex": 0,
-        "explanation": "La ironía interrogativa es una pregunta cuyo sentido real es contrario al literal."
+        "explanation": "La ironía interrogativa es una pregunta cuyo sentido real es contrario al literal: «¿Y tú eres el experto?» insinúa que no lo es. Una pregunta introspectiva se la hace uno a sí mismo, la modalidad declarativa afirma sin preguntar y una pregunta de información busca un dato."
       },
       {
         "type": "fill-blank",
@@ -8518,7 +8518,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "es una pregunta capciosa"
         ],
         "correctIndex": 0,
-        "explanation": "Es una pregunta sin respuesta esperada: todos hemos dudado alguna vez."
+        "explanation": "Es una pregunta retórica: no espera respuesta porque la presenta como obvia (todos hemos dudado alguna vez). No pide un dato, no expresa ignorancia real y no es capciosa, porque no intenta hacer caer al oyente en una trampa."
       }
     ]
   },
@@ -8578,7 +8578,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Repetir exactamente las palabras del anuncio de empleo"
             ],
             "correctIndex": 1,
-            "explanation": "Una fortaleza resulta convincente cuando se ilustra con un ejemplo concreto y verificable, en lugar de quedarse en una afirmación genérica."
+            "explanation": "Una fortaleza resulta convincente cuando se ilustra con un ejemplo concreto y verificable, en lugar de quedarse en una afirmación genérica. Enumerar muchas cualidades sin pruebas o repetir el anuncio parece genérico, y evitar los logros concretos quita credibilidad."
           }
         ]
       }
@@ -8594,7 +8594,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Evitar mencionar cualquier fortaleza para parecer modesto"
         ],
         "correctIndex": 1,
-        "explanation": "Una fortaleza resulta persuasiva cuando se ilustra con un ejemplo concreto de la trayectoria laboral, no cuando queda como una afirmación genérica."
+        "explanation": "Una fortaleza resulta persuasiva cuando se ilustra con un ejemplo concreto de la trayectoria laboral, no cuando queda como una afirmación genérica. Enumerar cualidades sin ejemplos o repetir el anuncio resulta genérico, y ocultar las fortalezas por modestia desaprovecha la entrevista."
       }
     ]
   },
@@ -8798,7 +8798,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Un desinterés general por el puesto"
             ],
             "correctIndex": 1,
-            "explanation": "Formular preguntas sobre el desarrollo profesional demuestra un interés genuino que va más allá del aspecto económico del puesto."
+            "explanation": "Formular preguntas sobre el desarrollo profesional demuestra un interés genuino que va más allá del aspecto económico del puesto. No muestra una preocupación exclusiva por el salario, ni falta de preparación, ni desinterés: al contrario, indica que se ve a largo plazo en la empresa."
           }
         ]
       }
@@ -8970,7 +8970,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Porque solo se permite en la entrevista por competencias"
         ],
         "correctIndex": 0,
-        "explanation": "Los entrevistadores con experiencia identifican rápidamente esa fórmula trillada y la interpretan como una falta de honestidad estratégica."
+        "explanation": "Los entrevistadores con experiencia identifican rápidamente esa fórmula trillada y la interpretan como una falta de honestidad estratégica. Mencionar cualidades positivas no está prohibido, no tiene relación con la pretensión salarial y no es exclusivo de la entrevista por competencias."
       }
     ]
   },
@@ -9070,7 +9070,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "informativa"
         ],
         "correctIndex": 0,
-        "explanation": "La entrevista por competencias se centra en ejemplos reales de comportamiento pasado."
+        "explanation": "La entrevista por competencias se centra en ejemplos reales de comportamiento pasado. Una entrevista de grupo reúne a varios candidatos, la de salida se hace a quien deja la empresa y la informativa sirve para conocer un sector o puesto sin proceso de selección."
       },
       {
         "type": "fill-blank",
@@ -9187,7 +9187,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Porque desactivar la tensión sustituye la necesidad de un acuerdo posterior"
             ],
             "correctIndex": 0,
-            "explanation": "Cuando los ánimos están alterados, abordar el fondo del conflicto de inmediato suele reavivar la disputa en lugar de resolverla."
+            "explanation": "Cuando los ánimos están alterados, abordar el fondo del conflicto de inmediato suele reavivar la disputa en lugar de resolverla. No se trata de evitar el tema ni de restarle importancia al fondo, y calmar los ánimos no sustituye el acuerdo: lo prepara."
           }
         ]
       }
@@ -9203,7 +9203,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Porque así se evita cualquier disculpa posterior"
         ],
         "correctIndex": 1,
-        "explanation": "Abordar el fondo de un conflicto con los ánimos alterados suele reavivar la disputa en lugar de resolverla; primero conviene suavizar el tono."
+        "explanation": "Abordar el fondo de un conflicto con los ánimos alterados suele reavivar la disputa en lugar de resolverla; primero conviene suavizar el tono. El fondo sigue siendo relevante, calmarse no sustituye el acuerdo y tampoco elimina la necesidad de disculparse."
       }
     ]
   },
@@ -9354,7 +9354,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "La negociación colaborativa se centra en los intereses de fondo y busca beneficios mutuos, a diferencia de un enfoque puramente competitivo."
+            "explanation": "La negociación colaborativa se centra en los intereses de fondo y busca beneficios mutuos, a diferencia de un enfoque puramente competitivo. Que una parte ceda sin contrapartida es propio de un enfoque competitivo, y un buen acuerdo colaborativo se formula con claridad."
           }
         ]
       },
@@ -9435,7 +9435,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Porque exige siempre una mediación formal"
             ],
             "correctIndex": 1,
-            "explanation": "Una disculpa condicionada por un reproche adicional diluye su valor reparador y traslada de nuevo la culpa hacia el otro."
+            "explanation": "Una disculpa condicionada por un reproche adicional diluye su valor reparador y traslada de nuevo la culpa hacia el otro. El problema no es la brevedad, sí se puede mencionar el conflicto y no requiere mediación formal: falla porque convierte la disculpa en un nuevo reproche."
           }
         ]
       },
@@ -9581,7 +9581,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Solo resulta útil en conflictos mediados formalmente"
         ],
         "correctIndex": 1,
-        "explanation": "Cuando una parte reconoce su propia contribución al conflicto, invita a la otra a hacer lo mismo, lo que suele facilitar la reconciliación."
+        "explanation": "Cuando una parte reconoce su propia contribución al conflicto, invita a la otra a hacer lo mismo, lo que suele facilitar la reconciliación. No agrava la disputa, no sustituye la disculpa (la acompaña) y es útil en cualquier conflicto, no solo en los mediados."
       }
     ]
   },
@@ -9681,7 +9681,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el rencor"
         ],
         "correctIndex": 0,
-        "explanation": "Tender puentes es crear vías de entendimiento entre posturas enfrentadas."
+        "explanation": "«Tender puentes» es crear vías de entendimiento entre posturas enfrentadas. «Bajar la guardia» es dejar de estar alerta, el punto de fricción es el motivo del choque y el rencor es el resentimiento que perpetúa el conflicto."
       },
       {
         "type": "fill-blank",
@@ -9730,7 +9730,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "buscar un culpable"
         ],
         "correctIndex": 0,
-        "explanation": "Bajar el tono reduce la carga emocional antes de tratar el fondo."
+        "explanation": "Bajar el tono reduce la carga emocional antes de tratar el fondo. Reavivar la disputa y buscar un culpable empeoran el conflicto, y abordar el fondo de inmediato, con los ánimos alterados, suele reavivarlo."
       }
     ]
   },
@@ -9776,7 +9776,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Introducir digresiones históricas extensas"
         ],
         "correctIndex": 1,
-        "explanation": "El indefinido narra los hechos puntuales y concluidos que hacen avanzar la acción del relato histórico."
+        "explanation": "El indefinido narra los hechos puntuales y concluidos que hacen avanzar la acción del relato histórico. El trasfondo continuo es tarea del imperfecto, la anterioridad a otro pasado es del pluscuamperfecto y las digresiones no dependen de un tiempo verbal."
       }
     ]
   },
@@ -9814,7 +9814,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Sustituir por completo al pretérito indefinido en cualquier relato"
             ],
             "correctIndex": 1,
-            "explanation": "El imperfecto instala el trasfondo estático —costumbres, clima social, estados de ánimo— mientras el indefinido narra los hechos puntuales que rompen ese trasfondo."
+            "explanation": "El imperfecto instala el trasfondo estático —costumbres, clima social, estados de ánimo— mientras el indefinido narra los hechos puntuales que rompen ese trasfondo. Los hechos puntuales se narran en indefinido, la anterioridad es propia del pluscuamperfecto y el imperfecto no sustituye al indefinido: se complementan."
           }
         ]
       }
@@ -9833,7 +9833,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "El pluscuamperfecto aporta profundidad temporal al relato, situando con precisión un hecho anterior sin necesidad de una digresión completa."
+        "explanation": "El pluscuamperfecto aporta profundidad temporal al relato, situando con precisión un hecho anterior sin necesidad de una digresión completa. No sustituye al imperfecto ni confunde el orden de los hechos; al contrario, lo aclara."
       }
     ]
   },
@@ -10027,7 +10027,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               1,
               3
             ],
-            "explanation": "Retomar hilos paralelos, periodizar y distinguir el detonante de las causas de fondo son herramientas propias de una narrativa histórica rigurosa."
+            "explanation": "Retomar hilos paralelos, periodizar y distinguir el detonante de las causas de fondo son herramientas propias de una narrativa histórica rigurosa. Confundir el detonante con la causa de fondo es justo el error que la narrativa rigurosa evita."
           }
         ]
       }
@@ -10043,7 +10043,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Porque el pretérito imperfecto prohíbe cualquier juicio de valor"
         ],
         "correctIndex": 1,
-        "explanation": "La narrativa histórica madura contextualiza cada acontecimiento según su propia época, evitando el anacronismo de imponerle sin más los valores actuales."
+        "explanation": "La narrativa histórica madura contextualiza cada acontecimiento según su propia época, evitando el anacronismo de imponerle sin más los valores actuales. No significa que la historia no admita crítica, ni que los valores actuales sean irrelevantes; y el imperfecto no tiene nada que ver con los juicios de valor."
       }
     ]
   },
@@ -10089,7 +10089,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "no hay fuentes sobre el pasado"
         ],
         "correctIndex": 0,
-        "explanation": "Quien narra sabe cómo acabó todo; quienes lo vivieron no lo sabían."
+        "explanation": "Quien narra sabe cómo acabó todo, pero quienes lo vivieron no lo sabían: esa es la asimetría. Lo contrario, que el narrador ignore el desenlace o que los protagonistas conocieran el futuro, no se da, y la falta de fuentes es otro problema distinto."
       },
       {
         "type": "multiple-choice",
@@ -10101,7 +10101,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "introducir una digresión histórica"
         ],
         "correctIndex": 0,
-        "explanation": "Es un juicio anacrónico: aplica al pasado un conocimiento que entonces no existía."
+        "explanation": "Es un juicio anacrónico: aplica al pasado un conocimiento (la higiene y los gérmenes) que entonces no existía. No reconoce otras interpretaciones, no contextualiza el hecho en su época y no es ninguna digresión."
       },
       {
         "type": "fill-blank",
@@ -10126,7 +10126,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           0,
           1
         ],
-        "explanation": "La narrativa madura reconoce otras lecturas y contextualiza, sin delatar el desenlace a cada paso ni presentar una sola interpretación como hecho incuestionable."
+        "explanation": "La narrativa madura reconoce otras lecturas y contextualiza, sin delatar el desenlace a cada paso ni presentar una sola interpretación como hecho incuestionable. Delatar el final en cada frase o imponer una única interpretación son rasgos de una narrativa poco madura."
       },
       {
         "type": "fill-blank",
@@ -10171,7 +10171,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Emplear siempre el pretérito imperfecto para todos los hechos narrados"
             ],
             "correctIndex": 0,
-            "explanation": "El narrador conoce el desenlace, mientras que los protagonistas históricos no; transmitir esa incertidumbre original sin traicionarla es uno de los grandes retos de la narrativa histórica."
+            "explanation": "El narrador conoce el desenlace, mientras que los protagonistas históricos no; transmitir esa incertidumbre original sin traicionarla es uno de los grandes retos de la narrativa histórica. No exige renunciar a interpretar, ni omitir el marco temporal, ni usar solo el imperfecto."
           }
         ]
       },
@@ -10288,7 +10288,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el condicional"
         ],
         "correctIndex": 0,
-        "explanation": "El pluscuamperfecto (había muerto) expresa una acción anterior a otra ya pasada (llegó)."
+        "explanation": "El pluscuamperfecto (había muerto) expresa una acción anterior a otra ya pasada (llegó). El indefinido («llegó») narra el hecho de referencia, el imperfecto describe un fondo y el condicional expresa un futuro del pasado."
       },
       {
         "type": "multiple-choice",
@@ -10300,7 +10300,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el futuro"
         ],
         "correctIndex": 0,
-        "explanation": "El imperfecto pinta el fondo; el indefinido narra los hechos puntuales."
+        "explanation": "El imperfecto pinta el fondo y las circunstancias; el indefinido narra los hechos puntuales que hacen avanzar la acción. El pluscuamperfecto expresa anterioridad a otro pasado y el futuro no se usa para el trasfondo de un relato pasado."
       },
       {
         "type": "fill-blank",
@@ -10550,7 +10550,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Que haya sido publicada en una revista de prestigio"
             ],
             "correctIndex": 1,
-            "explanation": "El texto sostiene que una hipótesis debe poder fallar; si se acomoda a cualquier resultado, carece de valor científico."
+            "explanation": "El texto sostiene que una hipótesis debe poder fallar; si se acomoda a cualquier resultado, carece de valor científico. Una hipótesis irrefutable no es científica, la intuición del investigador no es un criterio y publicar en una revista prestigiosa no la hace falsable."
           },
           {
             "type": "fill-blank",
@@ -10629,7 +10629,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Que confirme siempre la intuición inicial"
         ],
         "correctIndex": 1,
-        "explanation": "La falsabilidad es el criterio central que separa una hipótesis científica de una mera especulación irrefutable."
+        "explanation": "La falsabilidad es el criterio central que separa una hipótesis científica de una mera especulación irrefutable. Una hipótesis irrefutable no es útil, y ni la autoridad de quien la formula ni confirmar la intuición inicial la hacen científica."
       },
       {
         "type": "fill-blank",
@@ -10689,7 +10689,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "La radical nunca llega a tener aplicación comercial"
             ],
             "correctIndex": 1,
-            "explanation": "El texto define la innovación incremental como una mejora gradual y la radical como una ruptura con los paradigmas anteriores."
+            "explanation": "El texto define la innovación incremental como una mejora gradual y la radical como una ruptura con los paradigmas anteriores. El texto no dice que una sea siempre más cara, que ambas cuesten lo mismo ni que la radical nunca tenga aplicación comercial."
           }
         ]
       },
@@ -10737,7 +10737,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               1,
               3
             ],
-            "explanation": "El texto plantea el sesgo algorítmico, la falta de explicabilidad y la difusa atribución de responsabilidad como problemas éticos centrales; en ningún momento afirma que los algoritmos sean más justos que las personas."
+            "explanation": "El texto plantea el sesgo algorítmico, la falta de explicabilidad y la difusa atribución de responsabilidad como problemas éticos centrales; en ningún momento afirma que los algoritmos sean más justos que las personas. El texto no afirma que los algoritmos sean siempre más justos que las personas; precisamente advierte de sus sesgos."
           }
         ]
       }
@@ -10978,7 +10978,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Para acelerar la aplicación clínica sin más validación"
         ],
         "correctIndex": 1,
-        "explanation": "La doctora explica que publica los protocolos para permitir la reproducibilidad del hallazgo antes de sacar conclusiones apresuradas."
+        "explanation": "La doctora explica que publica los protocolos para permitir la reproducibilidad del hallazgo antes de sacar conclusiones apresuradas. No busca impedir que otros investiguen ni cumplir un requisito de patente, y tampoco acelerar la aplicación clínica sin validar."
       }
     ]
   },
@@ -11030,7 +11030,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Porque la deforestación no tiene relación con el calentamiento global"
             ],
             "correctIndex": 1,
-            "explanation": "El texto señala que existe una asimetría entre las naciones históricamente más contaminantes y aquellas que hoy padecen con más crudeza los efectos del cambio climático."
+            "explanation": "El texto señala que existe una asimetría entre las naciones históricamente más contaminantes y aquellas que hoy padecen con más crudeza los efectos del cambio climático. No todos emiten lo mismo, el clima no afecta solo a los que más contaminan y el texto sí relaciona la deforestación con el calentamiento."
           }
         ]
       },
@@ -11086,7 +11086,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "La deforestación no afecta a la biodiversidad"
         ],
         "correctIndex": 1,
-        "explanation": "El texto describe una asimetría entre la responsabilidad histórica en las emisiones y quién sufre hoy con mayor crudeza sus efectos."
+        "explanation": "El texto describe una asimetría entre la responsabilidad histórica en las emisiones y quién sufre hoy con mayor crudeza sus efectos. No todos contaminan y sufren por igual, los países pobres no son los únicos emisores y la deforestación sí afecta a la biodiversidad."
       },
       {
         "type": "multi-select",
@@ -11154,7 +11154,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Hace innecesario el activismo ciudadano"
             ],
             "correctIndex": 1,
-            "explanation": "El texto explica que, en un clima polarizado, el consenso deja de valorarse y llega a interpretarse como una traición a los propios principios."
+            "explanation": "El texto explica que, en un clima polarizado, el consenso deja de valorarse y llega a interpretarse como una traición a los propios principios. No fortalece el consenso (lo debilita), no elimina la influencia de los grupos de presión y no vuelve innecesario el activismo ciudadano."
           }
         ]
       },
@@ -11435,7 +11435,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "En que la huella de carbono no tiene relación con la política"
         ],
         "correctIndex": 1,
-        "explanation": "Ambos comentaristas terminan coincidiendo en que las reformas necesitan metas verificables, rendición de cuentas y cierto consenso para sobrevivir políticamente."
+        "explanation": "Ambos comentaristas terminan coincidiendo en que las reformas necesitan metas verificables, rendición de cuentas y cierto consenso para sobrevivir políticamente. Ninguno propone posponer la transición, despreciar al electorado ni desvincular la huella de carbono de la política."
       }
     ]
   },
@@ -11487,7 +11487,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Que el agente desconozca por completo las causas de su conducta"
             ],
             "correctIndex": 1,
-            "explanation": "El compatibilismo sostiene que la libertad consiste en actuar según los propios deseos y razones sin coacción, independientemente de si esos deseos tienen causas previas."
+            "explanation": "El compatibilismo sostiene que la libertad consiste en actuar según los propios deseos y razones sin coacción, independientemente de si esos deseos tienen causas previas. El compatibilismo no exige un universo indeterminado ni la ausencia de causas, y tampoco que el agente ignore por qué actúa."
           }
         ]
       },
@@ -11543,7 +11543,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Que nadie es jamás responsable de sus actos"
         ],
         "correctIndex": 1,
-        "explanation": "El compatibilismo concilia el determinismo con la libertad al definir esta última como ausencia de coacción externa, no como ausencia de causas."
+        "explanation": "El compatibilismo concilia el determinismo con la libertad al definir esta última como ausencia de coacción externa, no como ausencia de causas. No exige un universo indeterminado, no ve la libertad y el determinismo como incompatibles (eso sostiene el incompatibilismo) y no niega la responsabilidad."
       },
       {
         "type": "fill-blank",
@@ -11658,7 +11658,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "La validez depende únicamente del carácter de quien argumenta"
             ],
             "correctIndex": 1,
-            "explanation": "La validez lógica concierne a la forma del razonamiento, no a la verdad de sus premisas; un argumento válido puede partir de premisas falsas."
+            "explanation": "La validez lógica concierne a la forma del razonamiento, no a la verdad de sus premisas; un argumento válido puede partir de premisas falsas. No son lo mismo, la validez no garantiza que las premisas sean verdaderas y no depende de quién argumenta (eso sería una falacia ad hominem)."
           },
           {
             "type": "fill-blank",
@@ -11907,7 +11907,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Que el progreso moral es imposible"
         ],
         "correctIndex": 1,
-        "explanation": "Marcos acepta que la moral vigente no siempre resiste un examen ético riguroso, y Elena señala que en eso consiste precisamente el progreso moral."
+        "explanation": "Marcos acepta que la moral vigente no siempre resiste un examen ético riguroso, y Elena señala que en eso consiste precisamente el progreso moral. No afirma que la moral vigente resista siempre el examen, no identifica moral y ética y no niega el progreso moral."
       }
     ]
   },
@@ -11959,7 +11959,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "La resolución inmediata de cualquier conflicto emocional"
             ],
             "correctIndex": 1,
-            "explanation": "El texto define la ambivalencia como la coexistencia genuina de sentimientos opuestos, sin que se anulen ni se invaliden mutuamente."
+            "explanation": "El texto define la ambivalencia como la coexistencia genuina de sentimientos opuestos, sin que se anulen ni se invaliden mutuamente. No es la sustitución de un sentimiento por otro, ni la ausencia de sentimientos, ni la resolución inmediata de un conflicto."
           }
         ]
       },
@@ -12026,7 +12026,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "La incapacidad de sentir empatía"
         ],
         "correctIndex": 1,
-        "explanation": "La disonancia cognitiva es el malestar psicológico que surge de sostener elementos mutuamente incompatibles."
+        "explanation": "La disonancia cognitiva es el malestar psicológico que surge de sostener elementos mutuamente incompatibles. No es la ausencia de creencias ni la falta de empatía, y no equivale a la ambivalencia, que afecta a sentimientos, no a creencias."
       },
       {
         "type": "fill-blank",
@@ -12134,7 +12134,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Solo aparece en personas psicológicamente inmaduras"
             ],
             "correctIndex": 1,
-            "explanation": "El texto sostiene que la vulnerabilidad, aunque implica un riesgo emocional, es a la vez la puerta de entrada indispensable para la intimidad genuina."
+            "explanation": "El texto sostiene que la vulnerabilidad, aunque implica un riesgo emocional, es a la vez la puerta de entrada indispensable para la intimidad genuina. El texto no la presenta solo como una debilidad que ocultar, la vincula directamente con la intimidad y no la limita a personas inmaduras."
           }
         ]
       }
@@ -12374,7 +12374,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Que ese fenómeno no tiene nombre en psicología"
         ],
         "correctIndex": 1,
-        "explanation": "El terapeuta identifica la ambivalencia como el fenómeno que permite que dos sentimientos verdaderos coexistan sin contradicción moral."
+        "explanation": "El terapeuta identifica la ambivalencia como el fenómeno que permite que dos sentimientos verdaderos coexistan sin contradicción moral. El terapeuta no lo considera hipocresía, no le pide que elija un sentimiento y le da un nombre: ambivalencia."
       }
     ]
   },
@@ -12426,7 +12426,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Que los personajes nunca cambien a lo largo de la obra"
             ],
             "correctIndex": 1,
-            "explanation": "La verosimilitud, según el texto, es la coherencia interna respecto a las propias reglas del mundo narrativo, no un requisito de realismo literal."
+            "explanation": "La verosimilitud, según el texto, es la coherencia interna respecto a las propias reglas del mundo narrativo, no un requisito de realismo literal. No exige realismo literal ni prohíbe lo fantástico, las sorpresas o la evolución de los personajes."
           }
         ]
       },
@@ -12482,7 +12482,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Que el personaje nunca evolucione a lo largo de la obra"
         ],
         "correctIndex": 1,
-        "explanation": "La verosimilitud es coherencia interna respecto a las propias reglas de la obra, no un requisito de realismo estricto."
+        "explanation": "La verosimilitud es coherencia interna respecto a las propias reglas de la obra, no un requisito de realismo estricto. No exige realismo estricto ni prohíbe los elementos fantásticos, las sorpresas o la evolución del personaje."
       },
       {
         "type": "fill-blank",
@@ -12546,7 +12546,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Juzgar la fotografía sin considerar el resto de la película"
             ],
             "correctIndex": 1,
-            "explanation": "El texto señala que un crítico riguroso evalúa si la fotografía sirve realmente al sentido de la obra, más allá de su atractivo visual inmediato."
+            "explanation": "El texto señala que un crítico riguroso evalúa si la fotografía sirve realmente al sentido de la obra, más allá de su atractivo visual inmediato. No se limita a valorar colores vistosos ni juzga la fotografía aislada del guion y del resto de la película."
           }
         ]
       },
@@ -12597,7 +12597,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               1,
               2
             ],
-            "explanation": "El texto advierte contra sobrevalorar la originalidad como criterio único y señala que puede coexistir con la superficialidad, así como que obras con recursos conocidos sí pueden alcanzar una hondura genuina."
+            "explanation": "El texto advierte contra sobrevalorar la originalidad como criterio único y señala que puede coexistir con la superficialidad, así como que obras con recursos conocidos sí pueden alcanzar una hondura genuina. Por eso la originalidad no es el único criterio válido, y una obra con recursos conocidos sí puede alcanzar hondura."
           }
         ]
       }
@@ -12839,7 +12839,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Ambos coinciden en que el desenlace es completamente inverosímil"
         ],
         "correctIndex": 1,
-        "explanation": "El invitado critica el desenlace por depender de una casualidad conveniente, mientras que el crítico defiende su verosimilitud dentro de la lógica interna de la película."
+        "explanation": "El invitado critica el desenlace por depender de una casualidad conveniente, mientras que el crítico defiende su verosimilitud dentro de la lógica interna de la película. Ni coinciden en que sea perfecto, ni en que sea del todo inverosímil, y ambos sí lo comentan."
       }
     ]
   },
@@ -12891,7 +12891,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "El nivel de competencia desleal en un mercado"
             ],
             "correctIndex": 1,
-            "explanation": "La elasticidad de la demanda mide la sensibilidad del consumo de un bien frente a variaciones de su precio."
+            "explanation": "La elasticidad de la demanda mide la sensibilidad del consumo de un bien frente a variaciones de su precio. No mide el precio en un momento dado, ni la producción total de una economía, ni la competencia desleal."
           }
         ]
       },
@@ -12962,7 +12962,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "La demanda se vuelve automáticamente inelástica"
         ],
         "correctIndex": 1,
-        "explanation": "Según el mecanismo básico del mercado, un exceso de oferta sobre la demanda presiona los precios a la baja."
+        "explanation": "Según el mecanismo básico del mercado, un exceso de oferta sobre la demanda presiona los precios a la baja. Los precios no suben (eso ocurre cuando la demanda supera a la oferta), el bien no desaparece y la elasticidad no cambia automáticamente."
       },
       {
         "type": "fill-blank",
@@ -13311,7 +13311,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Que la inflación no tenga ninguna relación con la aviación"
         ],
         "correctIndex": 1,
-        "explanation": "La presentadora pregunta específicamente sobre el riesgo de monopolio que algunas críticas señalan en determinadas rutas tras la fusión."
+        "explanation": "La presentadora pregunta específicamente sobre el riesgo de monopolio que algunas críticas señalan en determinadas rutas tras la fusión. No le preocupa que bajen los precios (un monopolio tiende a subirlos), ni que desaparezca la cadena de suministro, ni la relación de la inflación con la aviación."
       }
     ]
   },
@@ -13363,7 +13363,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "El suspenso solo aparece en el desenlace de un relato"
             ],
             "correctIndex": 1,
-            "explanation": "El texto explica que el suspenso, a diferencia de la sorpresa, se apoya en que el lector anticipe conscientemente un peligro que el personaje todavía desconoce."
+            "explanation": "El texto explica que el suspenso, a diferencia de la sorpresa, se apoya en que el lector anticipe conscientemente un peligro que el personaje todavía desconoce. La sorpresa, no el suspenso, es la que depende de que el lector no anticipe nada; no son el mismo recurso y el suspenso puede aparecer en cualquier momento del relato."
           }
         ]
       },
@@ -13430,7 +13430,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "En repetir literalmente una escena anterior sin ninguna variación"
         ],
         "correctIndex": 1,
-        "explanation": "La prefiguración siembra indicios discretos que cobran pleno significado más adelante en el relato."
+        "explanation": "La prefiguración siembra indicios discretos que cobran pleno significado más adelante en el relato. No revela de inmediato lo que va a pasar, no elimina la tensión (la alimenta) y no repite escenas literalmente."
       },
       {
         "type": "fill-blank",
@@ -13534,7 +13534,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Nunca depende del arco narrativo de los personajes"
             ],
             "correctIndex": 1,
-            "explanation": "El texto sostiene que un clímax eficaz culmina, de manera lógica, una tensión que el relato ha ido acumulando previamente."
+            "explanation": "El texto sostiene que un clímax eficaz culmina, de manera lógica, una tensión que el relato ha ido acumulando previamente. No surge de repente sin conexión con lo anterior, no tiene que estar al final absoluto y suele depender del arco de los personajes."
           }
         ]
       }
@@ -13770,7 +13770,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Porque el escritor lo pidió sin ninguna justificación"
         ],
         "correctIndex": 1,
-        "explanation": "La editora sugiere ese tipo de narrador precisamente porque coincide con la psicología autoengañosa del protagonista."
+        "explanation": "La editora sugiere ese tipo de narrador precisamente porque coincide con la psicología autoengañosa del protagonista. No lo recomienda por ser más fácil ni porque lo pidiera el escritor, y no elimina la tensión: la aumenta."
       }
     ]
   },
@@ -13812,7 +13812,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Elogiar a alguien exageradamente"
             ],
             "correctIndex": 1,
-            "explanation": "'Tomar el pelo' es una expresión idiomática que significa burlarse de alguien o gastarle una broma, sin relación literal con el cabello."
+            "explanation": "'Tomar el pelo' es una expresión idiomática que significa burlarse de alguien o gastarle una broma, sin relación literal con el cabello. No tiene que ver con cortar o peinar el pelo, ni con elogiar a alguien."
           }
         ]
       },
@@ -13872,7 +13872,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Metí la pata para ayudar a mi amigo con la mudanza."
             ],
             "correctIndex": 1,
-            "explanation": "'Meter la pata' implica cometer un error o indiscreción, como revelar algo que no se debía decir."
+            "explanation": "'Meter la pata' implica cometer un error o indiscreción, como revelar algo que no se debía decir. Llegar a tiempo, estudiar mucho o ayudar en una mudanza no son errores, así que no encajan con la expresión."
           },
           {
             "type": "translate",
@@ -13900,7 +13900,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Ser pan comido"
         ],
         "correctIndex": 1,
-        "explanation": "'No dar pie con bola' se usa cuando alguien comete errores repetidamente en lo que hace."
+        "explanation": "'No dar pie con bola' se usa cuando alguien comete errores repetidamente en lo que hace. «Estar como pez en el agua» es sentirse cómodo, «dar en el clavo» es acertar y «ser pan comido» es ser muy fácil: justo lo contrario de equivocarse."
       },
       {
         "type": "fill-blank",
@@ -14020,7 +14020,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "'Estar hecho polvo' significa estar muy cansado o abatido, ya sea física o emocionalmente."
+            "explanation": "'Estar hecho polvo' significa estar muy cansado o abatido, ya sea física o emocionalmente. Estar distraído sería «estar en las nubes», y estar de excelente humor es lo contrario del agotamiento."
           }
         ]
       },
@@ -14142,7 +14142,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Está en las nubes"
         ],
         "correctIndex": 1,
-        "explanation": "'Dar en el clavo' se usa cuando alguien acierta exactamente en un diagnóstico o comentario."
+        "explanation": "'Dar en el clavo' se usa cuando alguien acierta exactamente en un diagnóstico o comentario. «Irse por las ramas» es divagar, «meter la pata» es equivocarse y «estar en las nubes» es estar distraído."
       },
       {
         "type": "fill-blank",
@@ -14177,7 +14177,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           0,
           1
         ],
-        "explanation": "'No tener pelos en la lengua' es hablar con franqueza, y 'hablar por los codos' es hablar sin parar."
+        "explanation": "'No tener pelos en la lengua' es hablar con franqueza, y 'hablar por los codos' es hablar sin parar. «Dar en el clavo» es acertar y «estar en las nubes» es estar distraído; ninguna describe una forma de hablar."
       },
       {
         "type": "word-order",
@@ -14208,7 +14208,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "pelos en la lengua"
         ],
         "correctIndex": 0,
-        "explanation": "'Ser pan comido' indica que algo resultó muy fácil, como en este contexto académico."
+        "explanation": "'Ser pan comido' indica que algo resultó muy fácil, como en este contexto académico. «Costar un ojo de la cara» es ser muy caro, «estar hecho polvo» es estar agotado y «no tener pelos en la lengua» es hablar con franqueza."
       }
     ]
   },
@@ -14312,7 +14312,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "'Ponerse las pilas', 'no dar pie con bola' y 'meter la pata' se relacionan con la necesidad de mejorar o con errores cometidos."
+        "explanation": "'Ponerse las pilas', 'no dar pie con bola' y 'meter la pata' se relacionan con la necesidad de mejorar o con errores cometidos. «Dar en el clavo» significa acertar, así que no describe a alguien que deba mejorar."
       },
       {
         "type": "matching",
@@ -14388,7 +14388,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "El tiempo cura todas las heridas"
             ],
             "correctIndex": 1,
-            "explanation": "El refrán premia el esfuerzo y la iniciativa temprana, no la pereza ni otras ideas relacionadas con el tiempo."
+            "explanation": "El refrán premia el esfuerzo y la iniciativa temprana, no la pereza ni otras ideas relacionadas con el tiempo. No premia la pereza, y las otras ideas corresponden a otros dichos: disculparse tarde («más vale tarde que nunca») y el paso del tiempo («el tiempo lo cura todo»)."
           },
           {
             "type": "fill-blank",
@@ -14441,7 +14441,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Cuando se evita hablar de algo"
             ],
             "correctIndex": 1,
-            "explanation": "El dicho anima a mantener una actitud positiva incluso en circunstancias adversas."
+            "explanation": "El dicho anima a mantener una actitud positiva incluso en circunstancias adversas. No se usa al rendirse ante un problema, ni cuando mejora el tiempo (es una metáfora), ni para evitar un tema."
           }
         ]
       },
@@ -14489,7 +14489,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Más vale prevenir que curar"
         ],
         "correctIndex": 1,
-        "explanation": "'Más vale tarde que nunca' se refiere específicamente a hacer algo con retraso pero de todos modos."
+        "explanation": "'Más vale tarde que nunca' se refiere específicamente a hacer algo con retraso pero de todos modos. «A quien madruga…» premia la diligencia temprana, «No hay mal que…» saca algo bueno de una desgracia y «Más vale prevenir…» aconseja anticiparse."
       },
       {
         "type": "fill-blank",
@@ -14549,7 +14549,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           0,
           1
         ],
-        "explanation": "Ambos refranes seleccionados aconsejan actuar con cuidado y moderación para evitar problemas."
+        "explanation": "«Más vale prevenir que curar» y «El que mucho abarca poco aprieta» aconsejan prudencia y moderación. «Perro que ladra no muerde» trata de las amenazas vacías y «Dime con quién andas…» de cómo las compañías reflejan a la persona."
       }
     ]
   },
@@ -14599,7 +14599,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Más vale pájaro en mano que ciento volando"
             ],
             "correctIndex": 1,
-            "explanation": "La situación ilustra directamente el refrán sobre abarcar demasiado y no lograr nada bien."
+            "explanation": "La situación ilustra el refrán sobre abarcar demasiado y no lograr nada bien. «Más vale prevenir…» aconseja anticiparse, «Perro que ladra…» habla de amenazas vacías y «Más vale pájaro en mano…» aconseja no arriesgar lo seguro."
           }
         ]
       },
@@ -14636,7 +14636,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               0,
               1
             ],
-            "explanation": "Ambos refranes seleccionados tratan sobre no dejarse engañar por apariencias o amenazas superficiales."
+            "explanation": "«Perro que ladra no muerde» y «No todo lo que brilla es oro» advierten de que las apariencias o las amenazas superficiales engañan. «Más vale tarde que nunca» trata de la tardanza y «En boca cerrada…» de la discreción."
           },
           {
             "type": "translate",
@@ -14728,7 +14728,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Los animales salvajes son peligrosos"
         ],
         "correctIndex": 2,
-        "explanation": "El refrán advierte que consentir o malcriar demasiado a alguien puede resultar en traición o ingratitud."
+        "explanation": "El refrán advierte que consentir o malcriar demasiado a alguien puede resultar en traición o ingratitud. No promete buenas consecuencias, no recomienda tratar mal a nadie y no habla literalmente de animales salvajes."
       },
       {
         "type": "fill-blank",
@@ -14775,7 +14775,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Cría cuervos y te sacarán los ojos"
         ],
         "correctIndex": 1,
-        "explanation": "El refrán 'quien no arriesga, no gana' celebra la disposición a asumir riesgos para conseguir algo mejor."
+        "explanation": "El refrán 'quien no arriesga, no gana' celebra la disposición a asumir riesgos para conseguir algo mejor. «Más vale pájaro en mano…» aconseja lo contrario (quedarse con lo seguro), «No hay que buscarle tres pies al gato» es no complicar las cosas y «Cría cuervos…» trata de la ingratitud."
       }
     ]
   },
@@ -14813,7 +14813,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Hay que desconfiar de todo el mundo"
             ],
             "correctIndex": 1,
-            "explanation": "El refrán sugiere que el tipo de personas con las que nos relacionamos dice mucho sobre nuestra propia personalidad."
+            "explanation": "El refrán sugiere que el tipo de personas con las que nos relacionamos dice mucho sobre nuestra propia personalidad. No dice que las amistades no influyan (dice lo contrario), ni que sea mejor estar solo, ni que haya que desconfiar de todos."
           },
           {
             "type": "word-order",
@@ -14870,7 +14870,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "No hay que buscarle tres pies al gato"
             ],
             "correctIndex": 1,
-            "explanation": "El refrán 'quien no arriesga, no gana' celebra la disposición a tomar riesgos para obtener beneficios."
+            "explanation": "El refrán 'quien no arriesga, no gana' celebra la disposición a tomar riesgos para obtener beneficios. «Más vale pájaro en mano…» y «Más vale prevenir…» aconsejan prudencia, justo lo contrario, y «No hay que buscarle tres pies al gato» es no complicar las cosas."
           }
         ]
       }
@@ -14889,7 +14889,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           0,
           1
         ],
-        "explanation": "Ambos refranes seleccionados advierten que las apariencias externas no siempre reflejan la realidad."
+        "explanation": "«No todo lo que brilla es oro» y «Perro que ladra no muerde» advierten de que las apariencias no siempre reflejan la realidad. «Al mal tiempo, buena cara» aconseja optimismo y «A quien madruga…», diligencia."
       },
       {
         "type": "fill-blank",
@@ -14940,7 +14940,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "En boca cerrada no entran moscas"
         ],
         "correctIndex": 0,
-        "explanation": "La situación negativa (perder el tren) da lugar a algo positivo, justo lo que describe este refrán."
+        "explanation": "La situación negativa (perder el tren) da lugar a algo positivo, justo lo que describe este refrán. «Perro que ladra…» trata de amenazas vacías, «Más vale prevenir…» de anticiparse y «En boca cerrada…» de la discreción."
       },
       {
         "type": "word-order",
@@ -14997,7 +14997,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "El fedatario"
             ],
             "correctIndex": 1,
-            "explanation": "El 'demandante' es quien interpone la demanda; el 'demandado' es contra quien se dirige."
+            "explanation": "El 'demandante' es quien interpone la demanda; el 'demandado' es contra quien se dirige. El notario es un fedatario público que da fe de actos y contratos; ninguno de los dos es parte de un juicio."
           }
         ]
       },
@@ -15057,7 +15057,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Que el notario debe intervenir en su lugar"
             ],
             "correctIndex": 0,
-            "explanation": "'Carecer de jurisdicción' significa que el órgano judicial no es competente para conocer de ese asunto concreto."
+            "explanation": "'Carecer de jurisdicción' significa que el órgano judicial no es competente para conocer de ese asunto concreto. No significa que haya fallado a favor del demandado, ni que el caso haya prescrito, ni que deba intervenir un notario."
           }
         ]
       }
@@ -15085,7 +15085,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Un recurso de apelación"
         ],
         "correctIndex": 2,
-        "explanation": "El 'poder notarial' es el documento por el cual una persona autoriza a otra a actuar en su nombre."
+        "explanation": "El 'poder notarial' es el documento por el cual una persona autoriza a otra a actuar en su nombre. Una cláusula es una disposición de un contrato, un expediente es el conjunto de documentos de un trámite y un recurso de apelación impugna una sentencia."
       },
       {
         "type": "fill-blank",
@@ -15262,7 +15262,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Un cordial saludo"
         ],
         "correctIndex": 2,
-        "explanation": "'En virtud de lo dispuesto en...' introduce la normativa o disposición legal en que se fundamenta una decisión."
+        "explanation": "'En virtud de lo dispuesto en...' introduce la normativa o disposición legal en que se fundamenta una decisión. «A los efectos oportunos» cierra una solicitud, «Por la presente se hace constar que» introduce una declaración y «Un cordial saludo» es una despedida."
       },
       {
         "type": "fill-blank",
@@ -15293,7 +15293,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Presentar el recurso de apelación"
         ],
         "correctIndex": 1,
-        "explanation": "El notario es un fedatario público cuya función es dar fe de la autenticidad de actos y contratos."
+        "explanation": "El notario es un fedatario público cuya función es dar fe de la autenticidad de actos y contratos. No representa a las partes (eso es tarea del abogado), no dicta sentencias (eso lo hace el juez) y no presenta recursos."
       },
       {
         "type": "multi-select",
@@ -15427,7 +15427,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Un saludo y hasta luego"
             ],
             "correctIndex": 1,
-            "explanation": "'A los efectos oportunos' es una fórmula fija propia del registro administrativo formal para cerrar solicitudes o adjuntar documentación."
+            "explanation": "'A los efectos oportunos' es una fórmula fija propia del registro administrativo formal para cerrar solicitudes o adjuntar documentación. «Nos vemos pronto», «Espero tu respuesta» (que además tutea) y «Un saludo y hasta luego» son informales."
           }
         ]
       }
@@ -15468,7 +15468,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Que carece de validez legal"
         ],
         "correctIndex": 1,
-        "explanation": "Un contrato 'vinculante' genera obligaciones jurídicas exigibles para todas las partes firmantes."
+        "explanation": "Un contrato 'vinculante' genera obligaciones jurídicas exigibles para todas las partes firmantes. No se puede modificar unilateralmente, no necesita siempre un notario para ser válido y, desde luego, no carece de validez."
       },
       {
         "type": "matching",
@@ -15511,7 +15511,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "La jurisdicción"
         ],
         "correctIndex": 1,
-        "explanation": "La 'cláusula' es cada una de las disposiciones concretas dentro de un contrato que regula obligaciones o condiciones específicas."
+        "explanation": "La 'cláusula' es cada una de las disposiciones concretas dentro de un contrato que regula obligaciones o condiciones específicas. El expediente reúne los documentos de un trámite, el plazo es un periodo de tiempo y la jurisdicción es la competencia de un tribunal."
       }
     ]
   },
@@ -15553,7 +15553,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "seguro"
             ],
             "correctIndex": 0,
-            "explanation": "'Molestia' es el término habitual para describir una sensación incómoda o dolor leve en la consulta médica."
+            "explanation": "'Molestia' es el término habitual para describir una sensación incómoda o dolor leve en la consulta médica. «Receta» es la prescripción (prescription), «urgencias» es el servicio de emergencias (ER) y «seguro» es la póliza (insurance)."
           },
           {
             "type": "fill-blank",
@@ -15623,7 +15623,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Pedir cita"
         ],
         "correctIndex": 1,
-        "explanation": "'Guardar reposo' significa descansar, generalmente en cama, evitando cualquier esfuerzo físico."
+        "explanation": "'Guardar reposo' significa descansar, generalmente en cama, evitando cualquier esfuerzo físico. No significa ir a trabajar (es lo contrario), tomar un medicamento ni pedir cita."
       },
       {
         "type": "fill-blank",
@@ -15673,7 +15673,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "'Sala de espera', 'cita médica' y 'seguro médico' pertenecen al ámbito administrativo, no al clínico."
+        "explanation": "'Sala de espera', 'cita médica' y 'seguro médico' pertenecen al ámbito administrativo, no al clínico. «Efectos secundarios» y «análisis de sangre» son términos clínicos, relacionados con el tratamiento y las pruebas."
       },
       {
         "type": "matching",
@@ -15738,7 +15738,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Efecto secundario"
             ],
             "correctIndex": 1,
-            "explanation": "El 'historial clínico' es el documento que reúne los antecedentes y datos médicos de un paciente."
+            "explanation": "El 'historial clínico' es el documento que reúne los antecedentes y datos médicos de un paciente. La receta prescribe un medicamento, la sala de espera es un lugar y un efecto secundario es una reacción a un fármaco."
           }
         ]
       },
@@ -15777,7 +15777,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               1,
               3
             ],
-            "explanation": "'Receta médica', 'efectos secundarios' y 'alergia' son términos directamente ligados al uso de medicamentos."
+            "explanation": "'Receta médica', 'efectos secundarios' y 'alergia' son términos directamente ligados al uso de medicamentos. «Sala de espera» es un lugar y «seguro médico» es un trámite administrativo, no tienen relación directa con los medicamentos."
           },
           {
             "type": "fill-blank",
@@ -15842,7 +15842,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "emergency room"
         ],
         "correctIndex": 0,
-        "explanation": "'Receta médica' equivale a 'medical prescription', el documento que permite comprar un medicamento."
+        "explanation": "'Receta médica' equivale a 'medical prescription', el documento que permite comprar un medicamento. «Medical history» es el historial clínico, «blood test» el análisis de sangre y «emergency room» (sala de) urgencias."
       },
       {
         "type": "fill-blank",
@@ -15873,7 +15873,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Tengo alergia."
         ],
         "correctIndex": 0,
-        "explanation": "'Le voy a recetar...' es la fórmula que usa el médico, en primera persona, para indicar un medicamento al paciente."
+        "explanation": "'Le voy a recetar...' es la fórmula que usa el médico, en primera persona, para indicar un medicamento al paciente. «Voy a guardar reposo», «Necesito pedir cita» y «Tengo alergia» son frases propias del paciente, no del médico."
       },
       {
         "type": "word-order",
@@ -15902,7 +15902,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "'Análisis de sangre', 'resultados' y 'presión arterial' forman parte del proceso de realizar y evaluar pruebas."
+        "explanation": "'Análisis de sangre', 'resultados' y 'presión arterial' forman parte del proceso de realizar y evaluar pruebas. «Especialista» es un profesional y «sala de espera» un lugar; ninguno forma parte de una prueba médica."
       }
     ]
   },
@@ -16018,7 +16018,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "Al cerrar la consulta el médico suele dar instrucciones de seguimiento y recetar tratamiento, no volver a preguntar por los síntomas iniciales."
+            "explanation": "Al cerrar la consulta el médico suele dar instrucciones de seguimiento y recetar tratamiento, no volver a preguntar por los síntomas iniciales. «¿Qué molestias tiene?» abre la consulta y «Necesito pedirle un análisis» corresponde a la fase de diagnóstico, antes del cierre."
           }
         ]
       }
@@ -16076,7 +16076,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "ambulancia"
         ],
         "correctIndex": 0,
-        "explanation": "'Pedir una cita médica' es la expresión fija para solicitar una hora de consulta con el médico."
+        "explanation": "'Pedir una cita médica' es la expresión fija para solicitar una hora de consulta con el médico. La receta la hace el médico (no se «pide para el lunes»), la alergia no se pide y una ambulancia se llama en una urgencia, no se reserva."
       },
       {
         "type": "fill-blank",
@@ -16126,7 +16126,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Cambiar de trabajo"
             ],
             "correctIndex": 1,
-            "explanation": "'Pasar a mejor vida' es un eufemismo culto para decir que alguien ha muerto."
+            "explanation": "'Pasar a mejor vida' es un eufemismo culto para decir que alguien ha muerto. No tiene que ver con mudarse, jubilarse o cambiar de trabajo, aunque también sean cambios de «vida»."
           },
           {
             "type": "fill-blank",
@@ -16237,7 +16237,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Cortar la hierba"
             ],
             "correctIndex": 1,
-            "explanation": "'Sembrar' compara el pánico con una semilla que, una vez plantada, se extiende y crece entre la gente."
+            "explanation": "'Sembrar' compara el pánico con una semilla que, una vez plantada, se extiende y crece entre la gente. No evoca recolectar (sería el resultado final), ni regar, ni cortar: «sembrar» es poner la semilla que se propaga."
           }
         ]
       }
@@ -16253,7 +16253,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "El tiempo vuela"
         ],
         "correctIndex": 0,
-        "explanation": "'Pasar a mejor vida' sustituye de forma respetuosa al verbo 'morir'."
+        "explanation": "'Pasar a mejor vida' sustituye de forma respetuosa al verbo 'morir'. «Sembrar el pánico» es una metáfora, «no estar nada mal» es una lítote y «el tiempo vuela» es una personificación."
       },
       {
         "type": "fill-blank",
@@ -16410,7 +16410,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Que la propuesta ha sido rechazada"
             ],
             "correctIndex": 1,
-            "explanation": "El litotes niega el término negativo ('mal') para afirmar, con matiz de moderación, algo positivo."
+            "explanation": "«No está nada mal» es una lítote: niega lo negativo («mal») para afirmar, con moderación, algo positivo; la propuesta es bastante buena. No significa que sea pésima, no es una falta de opinión y no indica que se haya rechazado."
           },
           {
             "type": "translate",
@@ -16422,7 +16422,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "She has a point when she complains about the service.",
               "He has a point when he complains about the service."
             ],
-            "explanation": "'No le falta razón' es un litotes que equivale a decir 'tiene razón', pero con un tono más atenuado."
+            "explanation": "'No le falta razón' es una lítote que equivale a decir 'tiene razón', pero con un tono más atenuado."
           }
         ]
       },
@@ -16485,7 +16485,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Litotes"
         ],
         "correctIndex": 1,
-        "explanation": "La frase dice literalmente lo contrario de lo que el hablante siente; eso es ironía."
+        "explanation": "La frase dice literalmente lo contrario de lo que el hablante siente; eso es ironía. No hay metáfora (no se compara nada), ni personificación (nada inanimado actúa como humano), ni lítote (no se niega lo contrario)."
       },
       {
         "type": "fill-blank",
@@ -16528,7 +16528,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "El examen duró una eternidad."
         ],
         "correctIndex": 0,
-        "explanation": "'No fue nada fácil' niega lo contrario ('fácil') para afirmar, de forma atenuada, que fue difícil."
+        "explanation": "«No fue nada fácil» es una lítote: niega lo contrario («fácil») para afirmar, de forma atenuada, que fue difícil. «Facilísimo» es una afirmación directa, «un torrente de dudas» es una metáfora y «duró una eternidad» es una hipérbole."
       },
       {
         "type": "multi-select",
@@ -16545,7 +16545,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           1,
           2
         ],
-        "explanation": "'Un torrente de ideas', 'el motor de la economía' y 'sembrar el pánico' son metáforas; las otras dos son un litotes y un eufemismo, no metáforas propiamente dichas."
+        "explanation": "'Un torrente de ideas', 'el motor de la economía' y 'sembrar el pánico' son metáforas; las otras dos son una lítote y un eufemismo, no metáforas propiamente dichas."
       }
     ]
   },
@@ -16587,7 +16587,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Como una petición de paraguas"
             ],
             "correctIndex": 1,
-            "explanation": "El tono irónico invierte el sentido literal de '¡qué bien!'; el hablante expresa fastidio, no alegría."
+            "explanation": "El tono irónico invierte el sentido literal de '¡qué bien!'; el hablante expresa fastidio, no alegría. No expresa alegría real, no es un cumplido al clima y no pide ningún paraguas."
           },
           {
             "type": "word-order",
@@ -16657,7 +16657,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Que está de vacaciones"
             ],
             "correctIndex": 1,
-            "explanation": "'Estado de buena esperanza' es una perífrasis anticuada pero aún usada para decir 'embarazada'."
+            "explanation": "'Estado de buena esperanza' es una perífrasis anticuada pero aún usada para decir 'embarazada'. No se refiere al carácter, a un examen aprobado ni a las vacaciones."
           }
         ]
       }
@@ -16712,7 +16712,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Persona oscura"
         ],
         "correctIndex": 0,
-        "explanation": "'Persona invidente' es la perífrasis eufemística habitual en contextos formales o institucionales."
+        "explanation": "'Persona invidente' es la perífrasis eufemística habitual en contextos formales o institucionales. «Ciega a secas» es correcto pero directo, «sin vista» suena torpe y «persona oscura» es un error de sentido."
       },
       {
         "type": "word-order",
@@ -16786,7 +16786,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "total, que"
             ],
             "correctIndex": 1,
-            "explanation": "'Dicho esto' introduce un giro formal tras haber concedido algo previamente."
+            "explanation": "'Dicho esto' introduce un giro formal tras haber concedido algo previamente. «O sea» reformula en registro coloquial y «total, que» resume de forma coloquial; ninguno encaja en un matiz formal."
           }
         ]
       },
@@ -16875,7 +16875,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "o sea"
         ],
         "correctIndex": 1,
-        "explanation": "'No obstante' es el conector contrastivo apropiado para el registro formal de un debate."
+        "explanation": "'No obstante' es el conector contrastivo apropiado para el registro formal de un debate. «Pero» es neutro y correcto, aunque menos formal; «o sea» es coloquial y reformula, no contrasta."
       },
       {
         "type": "multi-select",
@@ -17006,7 +17006,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "total, que..."
             ],
             "correctIndex": 1,
-            "explanation": "'Cabe destacar que' es una fórmula formal e impersonal típica de la argumentación académica o política."
+            "explanation": "'Cabe destacar que' es una fórmula formal e impersonal típica de la argumentación académica o política. «O sea que…» y «total, que…» son coloquiales y sirven para reformular o resumir, no para destacar un dato."
           }
         ]
       },
@@ -17073,7 +17073,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Introduce una cita textual"
         ],
         "correctIndex": 1,
-        "explanation": "'Podría decirse que' suaviza la afirmación, dejando espacio para el matiz o el desacuerdo."
+        "explanation": "'Podría decirse que' suaviza la afirmación, dejando espacio para el matiz o el desacuerdo. No refuerza una afirmación categórica (hace lo contrario) ni introduce una cita textual."
       },
       {
         "type": "fill-blank",
@@ -17212,7 +17212,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Eso es imposible."
         ],
         "correctIndex": 1,
-        "explanation": "Proponer un punto medio mantiene la negociación abierta sin rechazar ni aceptar por completo la postura contraria."
+        "explanation": "Proponer un punto medio mantiene la negociación abierta sin rechazar ni aceptar por completo la postura contraria. «Tienes toda la razón» cede por completo y «Eso es imposible» cierra la negociación."
       },
       {
         "type": "fill-blank",
@@ -17330,7 +17330,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Un proveedor externo de materias primas"
             ],
             "correctIndex": 1,
-            "explanation": "Un accionista es propietario de una o varias acciones de una sociedad, lo que le otorga derechos sobre sus beneficios y decisiones."
+            "explanation": "Un accionista es propietario de una o varias acciones de una sociedad, lo que le otorga derechos sobre sus beneficios y decisiones. No es un empleado de contabilidad, ni necesariamente el director general, ni un proveedor."
           },
           {
             "type": "fill-blank",
@@ -17444,7 +17444,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "El presupuesto anual"
         ],
         "correctIndex": 1,
-        "explanation": "'Facturación' se refiere al total de ingresos que genera una empresa por sus ventas en un período determinado."
+        "explanation": "'Facturación' se refiere al total de ingresos que genera una empresa por sus ventas en un período determinado. No es la rentabilidad ni el beneficio neto, que descuentan los gastos, y no es el presupuesto, que es una previsión."
       },
       {
         "type": "fill-blank",
@@ -17549,7 +17549,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "El plazo de entrega del pedido"
             ],
             "correctIndex": 1,
-            "explanation": "Una cláusula es cada una de las disposiciones particulares que regulan una parte concreta del contrato."
+            "explanation": "Una cláusula es cada una de las disposiciones particulares que regulan una parte concreta del contrato. El precio y el plazo pueden figurar en cláusulas, pero no son la cláusula en sí, y la firma es lo que formaliza el contrato."
           },
           {
             "type": "fill-blank",
@@ -17602,7 +17602,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "El acta de una reunión de negocios"
             ],
             "correctIndex": 1,
-            "explanation": "La cadena de suministro abarca todas las etapas, desde la obtención de materias primas hasta la entrega del producto final."
+            "explanation": "La cadena de suministro abarca todas las etapas, desde la obtención de materias primas hasta la entrega del producto final. Los accionistas son los propietarios, el presupuesto es una previsión económica y el acta recoge lo tratado en una reunión."
           }
         ]
       }
@@ -17641,7 +17641,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "El acta de una reunión de negocios"
         ],
         "correctIndex": 1,
-        "explanation": "La cadena de suministro abarca todas las etapas, desde la obtención de materias primas hasta la entrega del producto final."
+        "explanation": "La cadena de suministro abarca todas las etapas, desde la obtención de materias primas hasta la entrega del producto final. Los accionistas son los propietarios, el presupuesto es una previsión económica y el acta recoge lo tratado en una reunión."
       },
       {
         "type": "fill-blank",
@@ -17677,7 +17677,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "El orden del día incluye normalmente asuntos relacionados con la gestión y las finanzas de la empresa."
+        "explanation": "Revisar el informe trimestral, la previsión de ventas y la aprobación del presupuesto son asuntos típicos de gestión empresarial. Un pedido personal y las recetas de cocina no tienen cabida en el orden del día de una reunión de negocios."
       }
     ]
   },
@@ -17769,7 +17769,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               1,
               3
             ],
-            "explanation": "El orden del día suele incluir puntos relacionados con la gestión de la empresa, como informes, previsiones y presupuestos."
+            "explanation": "El orden del día suele incluir puntos relacionados con la gestión de la empresa, como informes, previsiones y presupuestos. Un pedido personal y las recetas de cocina, en cambio, no pertenecen a una reunión de negocios."
           },
           {
             "type": "word-order",
@@ -17832,7 +17832,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               1,
               3
             ],
-            "explanation": "'A corto/largo plazo' y 'el plazo de entrega' hacen referencia a marcos temporales, a diferencia de los otros términos."
+            "explanation": "'A corto/largo plazo' y 'el plazo de entrega' hacen referencia a marcos temporales, a diferencia de los otros términos. La cadena de suministro es un proceso logístico y el consejo de administración un órgano de gobierno; ninguno expresa tiempo."
           }
         ]
       }
@@ -17864,7 +17864,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "El plazo de entrega del pedido"
         ],
         "correctIndex": 1,
-        "explanation": "Una cláusula es cada disposición particular que regula un aspecto concreto de un contrato."
+        "explanation": "Una cláusula es cada disposición particular que regula un aspecto concreto de un contrato. El precio y el plazo pueden regularse en cláusulas, pero no lo son en sí mismos, y la firma formaliza el contrato completo."
       },
       {
         "type": "translate",
@@ -17918,7 +17918,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Bueno, eso es todo"
         ],
         "correctIndex": 1,
-        "explanation": "'Sin otro particular, le saluda atentamente' es una fórmula de despedida propia del registro formal y comercial."
+        "explanation": "'Sin otro particular, le saluda atentamente' es una fórmula de despedida propia del registro formal y comercial. «Nos vemos pronto, ¡un abrazo!» y «Chao, hasta luego» son informales, y «Bueno, eso es todo» es coloquial y abrupto."
       }
     ]
   },
@@ -18297,7 +18297,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "\"El postulado\" y \"el determinismo\" son conceptos filosóficos; las otras dos pertenecen a la política y al debate."
+        "explanation": "«El postulado» y «el determinismo» son conceptos filosóficos. «El escrutinio» (recuento o examen minucioso) pertenece a la política y «la vehemencia» (ímpetu al hablar) al debate."
       }
     ]
   },
@@ -19083,7 +19083,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el determinista"
         ],
         "correctIndex": 1,
-        "explanation": "\"El escéptico\" es quien mantiene una actitud de duda constante frente a las afirmaciones."
+        "explanation": "«El escéptico» es quien mantiene una actitud de duda sistemática ante las afirmaciones. El relativista cree que la verdad depende del punto de vista, el idealista antepone las ideas a la realidad y el determinista cree que todo está causado de antemano."
       }
     ]
   },
@@ -19463,7 +19463,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "\"El chascarrillo\" pertenece al humor coloquial, no al registro formal."
+        "explanation": "«La solemnidad», «la atenuación» y «el circunloquio» se asocian al registro formal y a la cortesía. «El chascarrillo» es una anécdota graciosa propia del humor coloquial."
       }
     ]
   },
@@ -20421,7 +20421,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el ansia"
         ],
         "correctIndex": 0,
-        "explanation": "\"La añoranza\" es la tristeza que se siente por la ausencia de algo o alguien querido."
+        "explanation": "«La añoranza» es la tristeza serena por la ausencia de algo o alguien querido. «El bochorno» es vergüenza (o calor sofocante), «la zozobra» es inquietud angustiosa y «el ansia» es un deseo intenso o angustia."
       }
     ]
   },
@@ -21195,7 +21195,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "la falacia"
         ],
         "correctIndex": 1,
-        "explanation": "\"La petición de principio\" es el nombre técnico de ese error de razonamiento circular."
+        "explanation": "«La petición de principio» es el nombre técnico del razonamiento circular que da por probado lo que debe demostrar. «Sofisma», «paralogismo» y «falacia» son términos generales para razonamientos defectuosos, no este error concreto."
       }
     ]
   },
@@ -21610,7 +21610,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el sofisma"
         ],
         "correctIndex": 0,
-        "explanation": "\"El circunloquio\" es la manera de expresar algo dando un rodeo en lugar de decirlo directamente."
+        "explanation": "«El circunloquio» es expresar algo dando un rodeo. La elocuencia es la capacidad de hablar con eficacia, la vehemencia es el ímpetu apasionado y el sofisma es un razonamiento engañoso."
       }
     ]
   },
@@ -26114,7 +26114,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Aunque tendría poco dinero, viajaré este año."
         ],
         "correctIndex": 1,
-        "explanation": "\"Tengo\" en indicativo presenta el hecho como cierto y conocido por el hablante."
+        "explanation": "«Aunque» + indicativo («tengo») presenta el hecho como cierto y conocido por el hablante. «Tenga» también sería gramatical, pero con subjuntivo, no con indicativo; «tuviera… viajaré» rompe la correlación de tiempos y «tendría» no va tras «aunque» en este uso."
       },
       {
         "type": "fill-blank",
@@ -26133,7 +26133,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Usar el gerundio como adjetivo"
         ],
         "correctIndex": 1,
-        "explanation": "El gerundio de posterioridad es un uso incorrecto y común: describir con gerundio una acción que en realidad ocurre después, no al mismo tiempo."
+        "explanation": "El gerundio de posterioridad es un uso incorrecto y común: describir con gerundio una acción que en realidad ocurre después, no al mismo tiempo. El gerundio de simultaneidad es correcto, el infinitivo como sujeto también, y el gerundio como adjetivo («agua hirviendo») es otro uso distinto."
       },
       {
         "type": "fill-blank",
@@ -26152,7 +26152,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Se alquilan apartamentos."
         ],
         "correctIndex": 1,
-        "explanation": "\"Se vive tranquilo\" no tiene sustantivo que determine el número: es se impersonal, siempre singular."
+        "explanation": "\"Se vive tranquilo\" no tiene sustantivo que determine el número: es se impersonal, siempre singular. «Se venden casas», «Se necesitan voluntarios» y «Se alquilan apartamentos» son pasivas reflejas: el verbo concuerda con el sustantivo plural."
       },
       {
         "type": "multiple-choice",
@@ -26164,7 +26164,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Requiere el subjuntivo obligatoriamente"
         ],
         "correctIndex": 1,
-        "explanation": "El estilo indirecto libre incorpora los pensamientos de un personaje a la narración en tercera persona sin un verbo como \"pensó que\"."
+        "explanation": "El estilo indirecto libre incorpora los pensamientos de un personaje a la narración en tercera persona sin un verbo como \"pensó que\". No usa comillas, no se limita a la primera persona (suele ir en tercera) y no exige el subjuntivo."
       },
       {
         "type": "fill-blank",
@@ -26183,7 +26183,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Estar contento / ser contento"
         ],
         "correctIndex": 0,
-        "explanation": "\"Ser aburrido\" describe una cualidad permanente; \"estar aburrido\" describe un estado temporal — el mismo adjetivo cambia de sentido según el verbo."
+        "explanation": "«Ser aburrido» describe una cualidad y «estar aburrido» un estado: el mismo adjetivo cambia de sentido según el verbo. «Estar alto» solo cambia el matiz (alguien ha crecido), «estar doctor» no se usa y «ser contento» es incorrecto."
       }
     ]
   },
@@ -26298,7 +26298,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "en cuanto"
         ],
         "correctIndex": 1,
-        "explanation": "\"Ahora bien\" introduce una precisión o un matiz sobre lo dicho anteriormente."
+        "explanation": "\"Ahora bien\" introduce una precisión o un matiz sobre lo dicho anteriormente. «Por consiguiente» introduce una consecuencia, «a pesar de» una concesión y «en cuanto» un valor temporal («en cuanto llegue»)."
       },
       {
         "type": "word-order",
@@ -26330,7 +26330,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "El tema de la conversación"
         ],
         "correctIndex": 1,
-        "explanation": "El tratamiento adecuado depende de una combinación de factores sociales, generacionales y geográficos."
+        "explanation": "El tratamiento adecuado depende de una combinación de factores sociales, generacionales y geográficos. No depende solo de la edad ni únicamente del país, y el tema de conversación no es el criterio."
       },
       {
         "type": "fill-blank",
@@ -26372,7 +26372,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "los conectores lógicos"
         ],
         "correctIndex": 1,
-        "explanation": "El registro académico formal evita la primera persona, prefiriendo construcciones impersonales."
+        "explanation": "El registro académico formal evita la primera persona, prefiriendo construcciones impersonales. La tesis, la evidencia empírica y los conectores lógicos son precisamente elementos esenciales de un ensayo."
       },
       {
         "type": "fill-blank",
@@ -26499,7 +26499,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Estar de acuerdo"
         ],
         "correctIndex": 1,
-        "explanation": "\"Estar en las nubes\" significa estar distraído o ensimismado, sin prestar atención a lo que ocurre alrededor."
+        "explanation": "\"Estar en las nubes\" significa estar distraído o ensimismado, sin prestar atención a lo que ocurre alrededor. No significa estar ocupado, enojado ni de acuerdo."
       },
       {
         "type": "fill-blank",
@@ -26518,7 +26518,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "la personificación"
         ],
         "correctIndex": 1,
-        "explanation": "El paralelismo sintáctico repite una misma estructura gramatical con fines expresivos."
+        "explanation": "El paralelismo sintáctico repite una misma estructura gramatical con fines expresivos. La metáfora identifica dos realidades, la hipérbole exagera y la personificación da rasgos humanos a lo inanimado; ninguna repite estructuras."
       },
       {
         "type": "fill-blank",
@@ -26541,7 +26541,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "\"Una casa\" no lleva ningún sufijo diminutivo o aumentativo."
+        "explanation": "«Un cochecito» y «un momentito» llevan diminutivo, y «un problemón», aumentativo. «Una casa» no lleva ningún sufijo apreciativo."
       },
       {
         "type": "multiple-choice",
@@ -26553,7 +26553,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "poner las cartas sobre la mesa"
         ],
         "correctIndex": 0,
-        "explanation": "\"Ir al grano\" significa hablar directamente sobre lo esencial, sin perder tiempo en detalles."
+        "explanation": "\"Ir al grano\" significa hablar directamente sobre lo esencial, sin perder tiempo en detalles. «Dar el visto bueno» es aprobar, «quemar etapas» es avanzar muy rápido y «poner las cartas sobre la mesa» es mostrar las intenciones, que se parece pero no significa ir directo a lo esencial."
       },
       {
         "type": "fill-blank",
@@ -26572,7 +26572,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Elevar el tono de voz"
         ],
         "correctIndex": 1,
-        "explanation": "Conceder un punto razonable antes de refutar el resto del argumento resulta más persuasivo y respetuoso."
+        "explanation": "Conceder un punto razonable antes de refutar el resto del argumento resulta más persuasivo y respetuoso. Ignorar los argumentos contrarios, repetir la misma idea o elevar el tono debilitan la argumentación."
       },
       {
         "type": "fill-blank",
@@ -26591,7 +26591,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "El libre albedrío solo existe en la religión"
         ],
         "correctIndex": 1,
-        "explanation": "Son posturas filosóficas opuestas sobre si las acciones humanas son libres o están completamente causadas por factores anteriores."
+        "explanation": "Son posturas filosóficas opuestas sobre si las acciones humanas son libres o están completamente causadas por factores anteriores. Sí hay diferencia, el determinismo es una postura filosófica (no una teoría científica exacta) y el libre albedrío no es exclusivo de la religión."
       }
     ]
   }
