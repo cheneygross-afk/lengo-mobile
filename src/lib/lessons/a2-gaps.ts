@@ -338,7 +338,7 @@ export const A2_GAPS: AnchoredLesson[] = [
         "The accent marks the pronoun or the verb; the unaccented twin is the possessive, the pronoun te/se, or a linking word."
       ),
       fe(
-        "¿___ quieres un café o un ___?",
+        "¿___ quieres un café o un té?",
         "Tú",
         "Do [you] want a coffee or a tea?",
         "Tú, the subject pronoun, takes an accent. Tu without one means \"your\" and needs a noun after it."

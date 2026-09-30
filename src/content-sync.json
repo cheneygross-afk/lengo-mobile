@@ -1,13 +1,13 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "e712df6e1e1f8f066e92dfc9d9b75a151c13932c",
+  "commit": "9eca3a9847e72a9283bc239b61893a82df038f8f",
   "files": {
     "src/lib/lessons/a1-additions.ts": "5e2de5cde5d685adaec5cd4c5c818ed420ecc224d408aeb2bf16fe5ed8321430",
     "src/lib/lessons/a1-reinforcement.ts": "99c5215b4e0e4254204b5202f632cee1a88643c71efb19e8070c26bb05871167",
     "src/lib/lessons/a1.ts": "7975987af9fa5a6cfa5f70415c269fe09b62ba08957b283a1520f7c52d360dd0",
     "src/lib/lessons/a2-common-words.ts": "c7750447c7f2853635f543df6e4f4b275dd82f5d2956f594c975684a619d7bfe",
     "src/lib/lessons/a2-drills.ts": "aa98872386c20326f4aec06525561ebe6e70a28a2278a072504d1a5f6843e3bb",
-    "src/lib/lessons/a2-gaps.ts": "5abe03450275d5d67a7082b7fdac41223cdedadf6dad94a34e28ec08a933d223",
+    "src/lib/lessons/a2-gaps.ts": "8e39b0ae1c971ff44745dd4ead9746fcdb685f968e5b6016ec54f30dd2f56be0",
     "src/lib/lessons/a2-reinforcement.ts": "0ddd52f07b6d4850126662707d791f2c35a320dad7d1b315d984089b283bd56d",
     "src/lib/lessons/a2.ts": "a91532a7b7fcf01cad99f495633f086aa2afb7b1f9465011ff2b4063680773ea",
     "src/lib/lessons/authoring.ts": "9712e58ab6a80b3434bac3df8367b8493541ad4d10bf2e9ea1916b455525c314",
