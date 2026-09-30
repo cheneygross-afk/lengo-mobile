@@ -87,7 +87,8 @@ export function buildReviewQuestions(
   );
   for (const c of seededShuffle(candidates, lesson.slug)) {
     if (out.length >= need) break;
-    if (used.has(c.id) || skip(c.exercise)) continue;
+    // Speaking and writing stay in their own lesson, not the review mix.
+    if (used.has(c.id) || skip(c.exercise) || c.exercise.type === "speak" || c.exercise.type === "write") continue;
     used.add(c.id);
     out.push(c);
   }

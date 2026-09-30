@@ -45,6 +45,7 @@ import { highlightMarkColor } from "@/lib/highlightColors";
 import { LESSON_PASS_PERCENT, lessonPassed } from "@/lib/grading";
 import { getSpanishVariety, loadSpanishVariety, type SpanishVariety } from "@/lib/spanishVariety";
 import { isVosotrosFocused, requiresVosotros, vosotrosNote } from "@/lib/vosotros";
+import { setListenFirst, useListenFirst } from "@/lib/listenFirstPref";
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonRunner">;
 
@@ -183,7 +184,10 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   const poolResultsRef = useRef<Map<string, boolean>>(new Map());
 
   const [stepIndex, setStepIndex] = useState(0);
-  const [feedback, setFeedback] = useState<{ correct: boolean; explanation: string } | null>(null);
+  const [feedback, setFeedback] = useState<{ correct: boolean; explanation: string; title?: string } | null>(null);
+  // Listen-first mode (Spanish only): questions play their Spanish instead
+  // of showing it until answered. Remembered on this device.
+  const listenFirstPref = useListenFirst();
   const [correctCount, setCorrectCount] = useState(0);
   const [finishing, setFinishing] = useState(false);
   const [addedToReview, setAddedToReview] = useState(false);
@@ -401,9 +405,21 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
         <View style={s.progressTrack}>
           <Animated.View style={[s.progressFill, { width: progressWidth }]} />
         </View>
+        {!lesson.level.startsWith("JA") && (
+          <Pressable
+            hitSlop={10}
+            onPress={() => void setListenFirst(!listenFirstPref)}
+            style={[s.listenToggle, listenFirstPref && s.listenToggleOn]}
+            accessibilityRole="switch"
+            accessibilityState={{ checked: listenFirstPref }}
+            accessibilityLabel="Listen first: hide the Spanish in questions and play it instead"
+          >
+            <Text style={[s.listenToggleText, listenFirstPref && s.listenToggleTextOn]}>🎧 Listen</Text>
+          </Pressable>
+        )}
       </View>
 
-      <ScrollView style={s.stepArea} contentContainerStyle={s.stepContent} keyboardShouldPersistTaps="handled">
+      <ScrollView style={s.stepArea} contentContainerStyle={[s.stepContent, feedback && s.stepContentUnderSheet]} keyboardShouldPersistTaps="handled">
         {currentStep?.kind === "teach" && (
           <TeachStep
             lesson={{ ...lesson, title: shownTitle }}
@@ -434,13 +450,15 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
               hideIndexLabel
               showInlineFeedback={false}
               lang={lang}
-              onChecked={(correct, explanation) => {
+              level={lesson.level}
+              listenFirst={listenFirstPref && !lesson.level.startsWith("JA")}
+              onChecked={(correct, explanation, title) => {
                 if (correct) setCorrectCount((c) => c + 1);
                 if (correct && currentStep.review?.fromMissedPool && !poolResultsRef.current.has(currentStep.id)) {
                   poolResultsRef.current.set(currentStep.id, true);
                 }
                 if (!correct) void handleFlagQuestion(currentStep);
-                setFeedback({ correct, explanation });
+                setFeedback({ correct, explanation, title });
               }}
             />
             <Pressable
@@ -492,7 +510,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
           ]}
         >
           <TapText
-            text={feedback.correct ? "Correct!" : "Not quite."}
+            text={feedback.title ?? (feedback.correct ? "Correct!" : "Not quite.")}
             lang={lang}
             mode="english"
             style={[s.feedbackTitle, feedback.correct ? s.feedbackTitleCorrect : s.feedbackTitleWrong]}
@@ -737,6 +755,8 @@ const s = StyleSheet.create({
 
   stepArea: { flex: 1 },
   stepContent: { padding: 20, paddingBottom: 40 },
+  // Room to scroll a long answer (writing feedback) clear of the sheet.
+  stepContentUnderSheet: { paddingBottom: 300 },
 
   kicker: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#7A1F1F", marginBottom: 6 },
   introTitle: { fontSize: 24, fontWeight: "800", color: "#000", marginBottom: 18 },
@@ -778,6 +798,17 @@ const s = StyleSheet.create({
   bigBtn: { backgroundColor: "#7A1F1F", borderRadius: 999, paddingVertical: 15, alignItems: "center", marginTop: 18 },
   bigBtnText: { color: "#fff", fontWeight: "700", fontSize: 16 },
 
+  listenToggle: {
+    marginLeft: 10,
+    borderWidth: 1,
+    borderColor: "#00000022",
+    borderRadius: 999,
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+  },
+  listenToggleOn: { backgroundColor: "#7A1F1F", borderColor: "#7A1F1F" },
+  listenToggleText: { fontSize: 14, opacity: 0.5 },
+  listenToggleTextOn: { opacity: 1 },
   feedbackSheet: {
     position: "absolute",
     left: 0,

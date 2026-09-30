@@ -51,6 +51,8 @@ export async function addMissedQuestion(
   levelPath: string,
   entry: Omit<MissedQuestion, "addedAt">
 ): Promise<void> {
+  // Speaking is self-assessed and writing isn't graded: nothing to drill.
+  if (entry.exercise.type === "speak" || entry.exercise.type === "write") return;
   const list = await getMissedQuestions(levelPath);
   const existing = list.find((q) => q.id === entry.id);
   if (existing) {
