@@ -468,8 +468,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "extender el alcance de una afirmación a todos los casos posibles sin excepción"
           },
           {
-            "es": "el énfasis modal",
-            "en": "refuerzo que un hablante da a su grado de certeza mediante recursos verbales"
+            "es": "recalcar",
+            "en": "subrayar o repetir algo para que quede claro («recalcó que era urgente»)"
           },
           {
             "es": "la confrontación",
@@ -480,8 +480,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la actitud de quien se aparta deliberadamente de una afirmación o postura"
           },
           {
-            "es": "lo consumado",
-            "en": "aquello que ya se ha completado o realizado por entero"
+            "es": "el hecho consumado",
+            "en": "algo ya realizado que no tiene vuelta atrás («nos lo presentaron como un hecho consumado»)"
           },
           {
             "es": "lo inminente",
@@ -492,8 +492,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el relato breve de un suceso particular, a menudo con valor ilustrativo"
           },
           {
-            "es": "la certeza relativa",
-            "en": "grado de seguridad que varía según el contexto o la fuente de información"
+            "es": "a ciencia cierta",
+            "en": "con total seguridad («no lo sé a ciencia cierta»)"
           },
           {
             "es": "la formulación",
@@ -508,8 +508,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "aquello que se plantea como supuesto y no como hecho comprobado"
           },
           {
-            "es": "la escala de probabilidad",
-            "en": "conjunto de grados que expresan desde la certeza hasta la duda"
+            "es": "cabe la posibilidad de que",
+            "en": "existe la posibilidad de que algo ocurra; va seguido de subjuntivo"
           }
         ]
       }
@@ -888,16 +888,16 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "anular el efecto o la fuerza de algo mediante una acción contraria"
           },
           {
-            "es": "el matiz argumentativo",
-            "en": "la sutileza que modifica el peso o el sentido de un argumento"
+            "es": "matizar",
+            "en": "precisar o suavizar una afirmación añadiendo detalles o salvedades"
           },
           {
             "es": "la pertinencia",
             "en": "la cualidad de resultar adecuado o relevante para el asunto tratado"
           },
           {
-            "es": "el viraje argumental",
-            "en": "giro inesperado en el desarrollo de un razonamiento o relato"
+            "es": "el viraje",
+            "en": "cambio brusco de orientación en una postura o un razonamiento («un viraje en su discurso»)"
           },
           {
             "es": "sobrentender",
@@ -928,8 +928,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la constancia con que alguien mantiene un esfuerzo o una postura"
           },
           {
-            "es": "el desacuerdo",
-            "en": "la falta de coincidencia entre dos opiniones o posturas"
+            "es": "la discrepancia",
+            "en": "diferencia de opinión entre personas o posturas"
           },
           {
             "es": "lo inamovible",
@@ -1550,7 +1550,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: la nominalización",
         "body": [
-          "35 palabras relacionadas con la nominalización."
+          "Primera tanda: 18 palabras relacionadas con la nominalización; las 17 restantes llegan en la lección siguiente."
         ],
         "examples": [
           {
@@ -1578,8 +1578,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la parte invariable de una palabra que porta su significado esencial"
           },
           {
-            "es": "la compactación",
-            "en": "la reducción de una expresión extensa a una forma más breve y densa"
+            "es": "sintetizar",
+            "en": "expresar algo de forma breve, reuniendo solo lo esencial"
           },
           {
             "es": "la despersonalización",
@@ -1606,8 +1606,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el estilo formal y a menudo impersonal propio de la administración"
           },
           {
-            "es": "la abstracción conceptual",
-            "en": "proceso de convertir una idea concreta en un concepto general"
+            "es": "el tecnicismo",
+            "en": "palabra propia del lenguaje de una ciencia, una técnica o una profesión"
           },
           {
             "es": "la productividad morfológica",
@@ -1618,8 +1618,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la limitación que impide combinar libremente ciertos morfemas"
           },
           {
-            "es": "la convención histórica",
-            "en": "el uso fijado por la costumbre a lo largo del tiempo, más que por una regla lógica"
+            "es": "consagrar",
+            "en": "fijar un uso de forma definitiva («el uso ha consagrado esta forma»)"
           },
           {
             "es": "el matiz estilístico",
@@ -1665,12 +1665,12 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos para analizar el estilo nominal",
         "body": [
-          "Segunda tanda de palabras de la lección: conceptos gramaticales (el sintagma, el núcleo nominal, la cláusula subordinada) y palabras para describir el estilo nominal y sus efectos (condensar, dosificar, lo opaco, la imparcialidad)."
+          "Segunda tanda de palabras de la lección: conceptos gramaticales (el sintagma, el núcleo nominal, la cláusula subordinada) y palabras para describir el estilo nominal y sus efectos (condensar, dosificar, farragoso, enrevesado, el circunloquio)."
         ],
         "examples": [
           {
-            "es": "la formalidad discursiva",
-            "en": "grado de rigor y protocolo que exige un tipo de texto o situación"
+            "es": "el circunloquio",
+            "en": "rodeo de palabras para decir algo que podría expresarse de forma más breve"
           },
           {
             "es": "lo opaco",
@@ -1697,16 +1697,16 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "intento de llevar a cabo una acción, sin garantía de éxito"
           },
           {
-            "es": "la transformación gramatical",
-            "en": "cambio de una estructura lingüística en otra que expresa un contenido semejante"
+            "es": "reformular",
+            "en": "volver a expresar una idea con otras palabras o de otra manera"
           },
           {
             "es": "dosificar",
             "en": "administrar algo con mesura y en la proporción adecuada"
           },
           {
-            "es": "el informe institucional",
-            "en": "el documento formal que expone datos o conclusiones en nombre de una entidad"
+            "es": "farragoso",
+            "en": "dicho de un texto, pesado y confuso por acumular demasiados elementos"
           },
           {
             "es": "la proposición",
@@ -1725,12 +1725,12 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el proceso mental de extraer una cualidad general a partir de casos particulares"
           },
           {
-            "es": "lo permanente",
-            "en": "aquello que se mantiene invariable a lo largo del tiempo"
+            "es": "enrevesado",
+            "en": "complicado y difícil de entender"
           },
           {
-            "es": "lo contextual",
-            "en": "aquello que depende de las circunstancias particulares de una situación dada"
+            "es": "rebuscado",
+            "en": "dicho del lenguaje, poco natural por exceso de afectación"
           },
           {
             "es": "la fijación léxica",
@@ -2304,7 +2304,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: el gerundio y el infinitivo",
         "body": [
-          "35 palabras relacionadas con el gerundio y el infinitivo."
+          "Primera tanda: 18 palabras relacionadas con el gerundio y el infinitivo; las 17 restantes llegan en la lección siguiente."
         ],
         "examples": [
           {
@@ -2320,8 +2320,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el avance paulatino y continuo de un proceso hacia un resultado"
           },
           {
-            "es": "la insistencia verbal",
-            "en": "repetición deliberada de una acción o una idea para darle énfasis"
+            "es": "a medida que",
+            "en": "conforme, al mismo tiempo que avanza otro proceso («a medida que pasa el tiempo»)"
           },
           {
             "es": "el cese",
@@ -2332,8 +2332,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la extensión de una acción más allá de su duración habitual"
           },
           {
-            "es": "la censura normativa",
-            "en": "el rechazo que la norma culta expresa hacia un uso considerado incorrecto"
+            "es": "desaconsejado",
+            "en": "que la norma o un especialista recomienda evitar («un uso desaconsejado»)"
           },
           {
             "es": "la economía sintáctica",
@@ -2368,16 +2368,16 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el acto de dejar o interrumpir definitivamente algo que se venía haciendo"
           },
           {
-            "es": "la conclusión natural",
-            "en": "el final que un proceso alcanza de forma esperada y coherente con su desarrollo"
+            "es": "paulatino",
+            "en": "que ocurre poco a poco, de forma lenta y gradual"
           },
           {
-            "es": "la instrucción impersonal",
-            "en": "la indicación formulada sin dirigirse a una persona concreta"
+            "es": "el rótulo",
+            "en": "letrero o cartel que da una indicación («el rótulo decía: \"No fumar\"»)"
           },
           {
-            "es": "el receptor",
-            "en": "persona que recibe un mensaje o una comunicación"
+            "es": "ininterrumpido",
+            "en": "que continúa sin pausas ni cortes («tres horas de lluvia ininterrumpida»)"
           }
         ]
       }
@@ -2419,7 +2419,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos sobre tiempo, aspecto y registro",
         "body": [
-          "Segunda tanda: palabras para hablar del desarrollo de una acción en el tiempo (el lapso, la evolución paulatina, el desarrollo temporal, la interrupción) y del registro (la variante estándar, el registro escrito normativo, la fórmula fija)."
+          "Segunda tanda: palabras para hablar del desarrollo de una acción en el tiempo (el lapso, a la larga, acentuarse, persistir, reanudar) y del registro de avisos y normas (la variante estándar, preceptivo, la fórmula fija)."
         ],
         "examples": [
           {
@@ -2447,48 +2447,48 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "expresar o determinar la cantidad exacta de algo"
           },
           {
-            "es": "la evolución paulatina",
-            "en": "el cambio que ocurre de manera lenta y progresiva"
+            "es": "acentuarse",
+            "en": "hacerse más marcado o intenso con el tiempo («la crisis se fue acentuando»)"
           },
           {
-            "es": "la queja",
-            "en": "la expresión de disgusto o malestar frente a una situación"
+            "es": "el hartazgo",
+            "en": "cansancio y fastidio de quien ha soportado algo durante demasiado tiempo"
           },
           {
-            "es": "la tendencia",
-            "en": "la inclinación o dirección general que sigue un proceso o un comportamiento"
+            "es": "persistir",
+            "en": "mantenerse o durar a lo largo del tiempo («persiste la lluvia»)"
           },
           {
-            "es": "el desarrollo temporal",
-            "en": "la manera en que una acción se despliega a lo largo del tiempo"
+            "es": "a la larga",
+            "en": "con el paso del tiempo, al final («a la larga, compensa»)"
           },
           {
             "es": "la nitidez",
             "en": "la claridad y precisión con que algo se percibe o se expresa"
           },
           {
-            "es": "el registro escrito normativo",
-            "en": "el estilo formal propio de los textos que fijan reglas o instrucciones"
+            "es": "preceptivo",
+            "en": "obligatorio por estar ordenado por una norma («el uso preceptivo del casco»)"
           },
           {
             "es": "la fórmula fija",
             "en": "la expresión cuya estructura permanece invariable por convención lingüística"
           },
           {
-            "es": "la interrupción",
-            "en": "el corte o la detención de un proceso que estaba en curso"
+            "es": "reanudar",
+            "en": "continuar algo que se había interrumpido"
           },
           {
-            "es": "previsto",
-            "en": "que se espera o se planea de antemano"
+            "es": "de antemano",
+            "en": "con anterioridad, antes de que ocurra algo"
           },
           {
-            "es": "el desenlace narrativo",
-            "en": "el punto final de una secuencia de acciones dentro de un relato"
+            "es": "el desenlace",
+            "en": "el final de un proceso o de una historia, que resuelve lo planteado"
           },
           {
-            "es": "la secuencia cronológica",
-            "en": "el orden en que ocurren los sucesos según el paso del tiempo"
+            "es": "el orden cronológico",
+            "en": "la disposición de los hechos según el momento en que ocurren"
           }
         ]
       }
@@ -3029,7 +3029,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: la voz pasiva y el se impersonal",
         "body": [
-          "35 palabras relacionadas con la voz pasiva y el se impersonal."
+          "Primera tanda: 18 palabras relacionadas con la voz pasiva y el se impersonal; las 17 restantes llegan en la lección siguiente."
         ],
         "examples": [
           {
@@ -3049,8 +3049,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la correspondencia obligatoria entre el número gramatical de dos elementos relacionados"
           },
           {
-            "es": "el complemento de persona",
-            "en": "el elemento que designa a una persona y que suele marcarse con la preposición «a»"
+            "es": "el complemento directo de persona",
+            "en": "el complemento directo que designa a una persona y va introducido por «a» («se busca a los testigos»)"
           },
           {
             "es": "el estado resultante",
@@ -3061,24 +3061,24 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la estructura formada por un verbo auxiliar y una forma no personal"
           },
           {
-            "es": "el calco estilístico",
-            "en": "la reproducción poco natural de una estructura propia de otra lengua"
+            "es": "el anglicismo sintáctico",
+            "en": "construcción copiada del inglés, como el abuso de la pasiva con «ser»"
           },
           {
             "es": "el registro periodístico",
             "en": "el estilo propio de la prensa escrita, formal pero accesible"
           },
           {
-            "es": "el texto legal",
-            "en": "el documento cuyo lenguaje sigue las convenciones formales del ámbito jurídico"
+            "es": "la normativa",
+            "en": "el conjunto de normas que regulan una actividad o un ámbito"
           },
           {
             "es": "el verbo transitivo",
             "en": "el verbo que exige un complemento directo para completar su significado"
           },
           {
-            "es": "la lectura gramatical",
-            "en": "la interpretación sintáctica que se da a una construcción ambigua"
+            "es": "inequívoco",
+            "en": "que no admite duda ni más de una interpretación"
           },
           {
             "es": "el pronombre reflexivo",
@@ -3093,12 +3093,12 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "que no cambia de forma ni de número bajo ninguna circunstancia"
           },
           {
-            "es": "el proceso narrado",
-            "en": "la secuencia de acciones que se relata como un evento con desarrollo"
+            "es": "el complemento agente",
+            "en": "el complemento introducido por «por» que indica quién realiza la acción en la pasiva"
           },
           {
-            "es": "la mención explícita",
-            "en": "la referencia directa y clara a un elemento dentro del discurso"
+            "es": "soslayar",
+            "en": "evitar mencionar o afrontar algo de forma directa («soslayar la responsabilidad»)"
           },
           {
             "es": "la omisión",
@@ -3144,12 +3144,12 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos para analizar y redactar",
         "body": [
-          "Segunda tanda: palabras útiles para describir construcciones (la ambigüedad sintáctica, la marca gramatical, el análisis contrastivo) y para redactar informes y procedimientos (el procedimiento reglamentario, el informe técnico, el restablecimiento)."
+          "Segunda tanda: palabras útiles para describir construcciones (la ambigüedad sintáctica, la marca gramatical, el análisis contrastivo) y para redactar informes y procedimientos (llevarse a cabo, reglamentario, el informe técnico, el restablecimiento)."
         ],
         "examples": [
           {
-            "es": "el énfasis retórico",
-            "en": "la importancia especial que se otorga a un elemento del discurso con fines expresivos"
+            "es": "poner de relieve",
+            "en": "destacar algo para que se note su importancia"
           },
           {
             "es": "el colectivo",
@@ -3168,8 +3168,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el elemento formal que señala una función o categoría dentro de la oración"
           },
           {
-            "es": "el desenlace del proceso",
-            "en": "el punto en que un proceso llega a su fin y produce un resultado"
+            "es": "llevarse a cabo",
+            "en": "realizarse, efectuarse («la reforma se llevó a cabo en 2020»)"
           },
           {
             "es": "sistemático",
@@ -3188,24 +3188,24 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el acuerdo total de todos los miembros de un grupo sobre una decisión"
           },
           {
-            "es": "el procedimiento reglamentario",
-            "en": "conjunto de pasos establecidos formalmente para resolver un asunto oficial"
+            "es": "reglamentario",
+            "en": "que se ajusta a lo que establece un reglamento o una norma"
           },
           {
             "es": "el informe técnico",
             "en": "el documento que expone datos y conclusiones especializadas sobre un tema concreto"
           },
           {
-            "es": "la red de opciones",
-            "en": "el conjunto de alternativas disponibles para expresar un mismo contenido"
+            "es": "el abanico",
+            "en": "conjunto amplio de opciones o posibilidades («un abanico de posibilidades»)"
           },
           {
-            "es": "la precisión comunicativa",
-            "en": "la exactitud con la que un mensaje transmite lo que el hablante pretende"
+            "es": "la vaguedad",
+            "en": "falta de precisión en lo que se dice o se escribe"
           },
           {
-            "es": "el vigilante",
-            "en": "la persona encargada de custodiar y proteger un lugar"
+            "es": "custodiar",
+            "en": "guardar y proteger algo con cuidado"
           },
           {
             "es": "paralizado",
@@ -3744,7 +3744,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: la narración y el estilo indirecto libre",
         "body": [
-          "35 palabras relacionadas con la narración y el estilo indirecto libre."
+          "Primera tanda: 18 palabras relacionadas con la narración y el estilo indirecto libre; las 17 restantes llegan en la lección siguiente."
         ],
         "examples": [
           {
@@ -3756,20 +3756,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "perspectiva desde la cual se cuenta una historia"
           },
           {
-            "es": "la interioridad del personaje",
-            "en": "mundo interno de pensamientos y emociones de un personaje literario"
+            "es": "el narrador omnisciente",
+            "en": "el narrador que lo sabe todo, incluidos los pensamientos de los personajes"
           },
           {
-            "es": "la introspección del narrador",
-            "en": "exploración de los pensamientos internos que hace quien narra la historia"
+            "es": "la introspección",
+            "en": "la observación que alguien hace de sus propios pensamientos y sentimientos"
           },
           {
             "es": "la interioridad",
             "en": "el conjunto de pensamientos, emociones y percepciones internas de una persona"
           },
           {
-            "es": "la fusión de voces",
-            "en": "la mezcla deliberada entre la voz narrativa y la voz de un personaje"
+            "es": "entremezclarse",
+            "en": "mezclarse dos o más cosas entre sí («las voces se entremezclan»)"
           },
           {
             "es": "el verbo introductor",
@@ -3788,36 +3788,36 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la representación directa e ininterrumpida del flujo de pensamiento de un personaje"
           },
           {
-            "es": "la marca tipográfica",
-            "en": "el signo gráfico, como las comillas, que señala una cita textual"
+            "es": "la raya",
+            "en": "el signo (—) que en español introduce las intervenciones de los personajes en un diálogo"
           },
           {
-            "es": "el indicio textual",
-            "en": "la señal presente en un texto que permite inferir un significado implícito"
+            "es": "el indicio",
+            "en": "la señal que permite deducir algo que no se dice"
           },
           {
-            "es": "la ambigüedad deliberada",
-            "en": "la falta de claridad buscada intencionalmente con un fin expresivo"
+            "es": "velado",
+            "en": "oculto o disimulado, no expresado abiertamente («un reproche velado»)"
           },
           {
             "es": "la deixis",
             "en": "el conjunto de elementos lingüísticos que señalan personas, lugares o momentos respecto al hablante"
           },
           {
-            "es": "el adverbio de proximidad",
-            "en": "la palabra que indica cercanía espacial o temporal respecto a un punto de referencia"
+            "es": "el deíctico",
+            "en": "la palabra, como «aquí» o «ahora», cuyo sentido depende de quién habla, dónde y cuándo"
           },
           {
             "es": "la interjección",
             "en": "la palabra o expresión breve que manifiesta una emoción o un estado de ánimo"
           },
           {
-            "es": "la ambigüedad enunciativa",
-            "en": "falta de claridad sobre quién es la voz que habla en un texto"
+            "es": "difuminar",
+            "en": "hacer menos claros los límites o los contornos de algo"
           },
           {
-            "es": "el reproche interno",
-            "en": "el juicio negativo que un personaje se dirige a sí mismo en su pensamiento"
+            "es": "reprocharse",
+            "en": "echarse en cara a uno mismo algo que ha hecho o ha dejado de hacer"
           }
         ]
       }
@@ -3859,7 +3859,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos de teoría narrativa",
         "body": [
-          "Segunda tanda: conceptos para analizar la voz y el punto de vista (la voz narrativa, el ángulo narrativo, la distancia narrativa, la inmediatez psicológica) y la construcción del relato (el marco narrativo, la retrospección, el punto de inflexión narrativo)."
+          "Segunda tanda: conceptos para analizar la voz y el punto de vista (la voz narrativa, la distancia narrativa, la inmediatez, el desapego) y la construcción del relato (el marco narrativo, la retrospección, el punto de inflexión)."
         ],
         "examples": [
           {
@@ -3871,16 +3871,16 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el grado de cercanía o lejanía entre el narrador y los hechos que relata"
           },
           {
-            "es": "la viveza expresiva",
-            "en": "la fuerza y el dinamismo con que se transmite una idea o una emoción"
+            "es": "la viveza",
+            "en": "la fuerza y animación con que se expresa algo"
           },
           {
-            "es": "la frialdad distanciadora",
-            "en": "el efecto de objetividad y desapego que produce cierto tipo de narración"
+            "es": "el desapego",
+            "en": "la falta de implicación afectiva con algo o con alguien"
           },
           {
-            "es": "la novela de conciencia",
-            "en": "el género narrativo centrado en representar el flujo mental de sus personajes"
+            "es": "la novela psicológica",
+            "en": "la novela centrada en la vida interior de sus personajes"
           },
           {
             "es": "la prosa",
@@ -3899,12 +3899,12 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "introducirse de manera sutil o gradual en un espacio o discurso ajeno"
           },
           {
-            "es": "el ángulo narrativo",
-            "en": "perspectiva desde la cual se presentan los hechos de una historia"
+            "es": "el trasunto",
+            "en": "el personaje que representa a una persona real, a menudo al propio autor"
           },
           {
-            "es": "el punto de inflexión narrativo",
-            "en": "el momento en que la trama de un relato cambia de dirección de forma decisiva"
+            "es": "el punto de inflexión",
+            "en": "el momento en que algo cambia de dirección de forma decisiva"
           },
           {
             "es": "la voz narrativa",
@@ -3923,12 +3923,12 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la figura hipotética a quien el texto parece dirigirse"
           },
           {
-            "es": "la inmediatez psicológica",
-            "en": "la sensación de acceso directo y sin mediación a la mente de un personaje"
+            "es": "la inmediatez",
+            "en": "la sensación de contacto directo, sin nada que medie"
           },
           {
-            "es": "la reconstrucción interpretativa",
-            "en": "el proceso mental mediante el cual el lector infiere un sentido no explícito"
+            "es": "entrever",
+            "en": "adivinar o intuir algo que no se muestra con claridad"
           }
         ]
       }
@@ -4027,7 +4027,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "right": "la combinación de elementos de distinta naturaleza dentro de una misma estructura"
           },
           {
-            "left": "la inmediatez psicológica",
+            "left": "la inmediatez",
             "right": "la sensación de acceso directo y sin mediación a la mente de un personaje"
           },
           {
@@ -4039,8 +4039,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "right": "el ajuste sistemático de los tiempos verbales según el marco narrativo"
           },
           {
-            "left": "la marca tipográfica",
-            "right": "el signo gráfico, como las comillas, que señala una cita textual"
+            "left": "la raya",
+            "right": "el signo (—) que en español introduce las intervenciones de los personajes en un diálogo"
           }
         ],
         "explanation": "Dominar este vocabulario técnico permite analizar con precisión cómo un fragmento narrativo funde o distingue la voz del narrador y la del personaje."
@@ -4460,7 +4460,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: por y para en contextos profesionales",
         "body": [
-          "35 palabras relacionadas con por y para en contextos profesionales."
+          "Primera tanda: 18 palabras relacionadas con por y para en contextos profesionales; las 17 restantes llegan en la lección siguiente."
         ],
         "examples": [
           {
@@ -4472,12 +4472,12 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la actuación en nombre de otra persona o entidad"
           },
           {
-            "es": "la dependencia laboral",
-            "en": "la relación de subordinación de un empleado respecto a su empleador"
+            "es": "en nombre de",
+            "en": "en representación de otra persona o entidad («firmó en nombre de la empresa»)"
           },
           {
-            "es": "el receptor del documento",
-            "en": "la persona o entidad a quien se dirige formalmente un documento"
+            "es": "a efectos de",
+            "en": "para los fines de algo concreto («a efectos fiscales»)"
           },
           {
             "es": "la cláusula",
@@ -4496,20 +4496,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "conjunto de normas que rigen un ámbito determinado"
           },
           {
-            "es": "la finalidad prospectiva",
-            "en": "el propósito orientado hacia el futuro que persigue una acción"
+            "es": "con vistas a",
+            "en": "con la intención de conseguir algo en el futuro («con vistas a la fusión»)"
           },
           {
-            "es": "la causa retrospectiva",
-            "en": "el motivo que explica un hecho ya ocurrido"
+            "es": "en virtud de",
+            "en": "como consecuencia de algo o de acuerdo con ello («en virtud del contrato»)"
           },
           {
-            "es": "el plazo límite",
-            "en": "la fecha tope hasta la cual debe completarse una acción"
+            "es": "prorrogar",
+            "en": "alargar la duración o el plazo de algo («prorrogar el contrato un año»)"
           },
           {
-            "es": "la duración aproximada",
-            "en": "el periodo estimado, sin precisión exacta, en que transcurre algo"
+            "es": "por espacio de",
+            "en": "durante un periodo determinado («por espacio de dos horas»)"
           },
           {
             "es": "el vínculo contractual",
@@ -4575,7 +4575,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos laborales y contractuales",
         "body": [
-          "Segunda tanda: palabras de los contratos (la disposición contractual, la cláusula resolutoria, la redacción contractual, la interpretación legal) y de la organización del trabajo (el turno, la entrega, la fecha tope, la baja laboral)."
+          "Segunda tanda: palabras de los contratos (la disposición contractual, la cláusula resolutoria, estipular, rescindir, vinculante) y de la organización del trabajo (la guardia, el preaviso, la fecha tope, la baja laboral)."
         ],
         "examples": [
           {
@@ -4595,20 +4595,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la condición o regla específica establecida dentro de un contrato"
           },
           {
-            "es": "la ambigüedad preposicional",
-            "en": "la falta de claridad que surge al elegir mal entre dos preposiciones similares"
+            "es": "rescindir",
+            "en": "dejar sin efecto un contrato o una obligación"
           },
           {
-            "es": "el matiz jurídico",
-            "en": "la sutileza de significado con consecuencias legales relevantes"
+            "es": "el finiquito",
+            "en": "la liquidación de lo que se le debe a un trabajador al terminar su contrato"
           },
           {
-            "es": "la redacción contractual",
-            "en": "el proceso de escribir con precisión las cláusulas de un contrato"
+            "es": "estipular",
+            "en": "establecer una condición en un contrato o un acuerdo"
           },
           {
-            "es": "la interpretación legal",
-            "en": "el proceso de determinar el significado y el alcance de una norma o cláusula"
+            "es": "vinculante",
+            "en": "que obliga legalmente a cumplir algo («un acuerdo vinculante»)"
           },
           {
             "es": "la cláusula resolutoria",
@@ -4619,32 +4619,32 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el periodo en que un empleado se ausenta de su puesto por motivos de salud"
           },
           {
-            "es": "el turno",
-            "en": "el periodo de tiempo asignado a una persona para realizar una tarea determinada"
+            "es": "la guardia",
+            "en": "el servicio que se presta fuera del horario normal («estar de guardia»)"
           },
           {
-            "es": "la entrega",
-            "en": "el acto de proporcionar o hacer llegar algo a su destinatario"
+            "es": "a más tardar",
+            "en": "como fecha u hora límite («a más tardar el viernes»)"
           },
           {
             "es": "la fecha tope",
             "en": "el último día posible para completar una acción o cumplir un compromiso"
           },
           {
-            "es": "la ambigüedad",
-            "en": "cualidad de lo que admite más de una interpretación"
+            "es": "en calidad de",
+            "en": "con el carácter o la función de («asistió en calidad de asesor»)"
           },
           {
-            "es": "la convencionalización",
-            "en": "el proceso por el cual una expresión fija su significado por uso repetido"
+            "es": "el preaviso",
+            "en": "el aviso que se da con antelación antes de poner fin a un contrato"
           },
           {
-            "es": "composicional",
-            "en": "que se puede deducir a partir de la suma del significado de sus partes"
+            "es": "el pliego de condiciones",
+            "en": "el documento que fija las condiciones de un contrato o un concurso"
           },
           {
-            "es": "la jerarquía laboral",
-            "en": "el orden de niveles de autoridad dentro de una organización"
+            "es": "el escalafón",
+            "en": "la lista de los empleados ordenada por categoría y antigüedad"
           }
         ]
       }
@@ -5181,7 +5181,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: los casos límite de ser, estar y haber",
         "body": [
-          "35 palabras relacionadas con los casos límite de ser, estar y haber."
+          "Primera tanda: 18 palabras relacionadas con los casos límite de ser, estar y haber; las 17 restantes llegan en la lección siguiente."
         ],
         "examples": [
           {
@@ -5189,20 +5189,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el lugar en el que algo o alguien se encuentra situado"
           },
           {
-            "es": "la distinción ontológica",
-            "en": "la diferencia relacionada con la naturaleza misma de las cosas, más allá de sus propiedades accesorias"
+            "es": "intrínseco",
+            "en": "que pertenece a la naturaleza misma de algo y no a sus circunstancias"
           },
           {
-            "es": "el evento",
-            "en": "el suceso que ocurre en un momento y un lugar determinados"
+            "es": "celebrarse",
+            "en": "tener lugar un acto o un evento («la boda se celebra en la catedral»)"
           },
           {
             "es": "transitorio",
             "en": "que dura poco tiempo y está destinado a cambiar"
           },
           {
-            "es": "permanente",
-            "en": "que se mantiene sin cambios a lo largo del tiempo"
+            "es": "pasajero",
+            "en": "que dura poco y no se mantiene («un malestar pasajero»)"
           },
           {
             "es": "la polisemia",
@@ -5213,12 +5213,12 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "que expresa una connotación negativa o despectiva"
           },
           {
-            "es": "la disposición estable",
-            "en": "la tendencia de carácter que se mantiene constante en una persona"
+            "es": "el talante",
+            "en": "el carácter o la disposición habitual de una persona («un talante conciliador»)"
           },
           {
-            "es": "la atracción puntual",
-            "en": "el interés momentáneo hacia algo o alguien en una circunstancia concreta"
+            "es": "puntual",
+            "en": "que se da una sola vez o en un momento concreto, no de forma habitual («un problema puntual»)"
           },
           {
             "es": "la determinación del sustantivo",
@@ -5237,24 +5237,24 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el elemento o la cosa que se considera existente dentro de un discurso"
           },
           {
-            "es": "la función introductoria",
-            "en": "el papel de presentar por primera vez algo dentro de un texto o una conversación"
+            "es": "presentativo",
+            "en": "dicho de una construcción, que introduce en el discurso algo nuevo, como «hay un…»"
           },
           {
-            "es": "la función localizadora",
-            "en": "el papel de indicar la posición de algo ya conocido"
+            "es": "hallarse",
+            "en": "estar en un lugar o en una situación; más formal que «estar»"
           },
           {
             "es": "la deducción lógica",
             "en": "la conclusión que se obtiene necesariamente a partir de unas premisas dadas"
           },
           {
-            "es": "la evidencia perceptible",
-            "en": "el hecho que resulta observable de manera directa e inmediata"
+            "es": "a simple vista",
+            "en": "sin necesidad de examinar algo con detenimiento"
           },
           {
-            "es": "el juicio evaluativo",
-            "en": "la valoración subjetiva u objetiva que se emite sobre algo"
+            "es": "calificar de",
+            "en": "atribuir a algo o a alguien una cualidad («calificó el plan de arriesgado»)"
           }
         ]
       }
@@ -5296,7 +5296,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos para describir y valorar",
         "body": [
-          "Segunda tanda: adjetivos y conceptos que ayudan a elegir entre ser y estar (inherente frente a circunstancial, el rasgo de carácter frente a la experiencia puntual) y términos gramaticales que explican las restricciones de haber (el determinante posesivo, el determinante demostrativo, la agramaticalidad)."
+          "Segunda tanda: adjetivos y conceptos que ayudan a elegir entre ser y estar (inherente frente a circunstancial, de por sí frente a coyuntural, el rasgo de carácter) y términos gramaticales que explican las restricciones de haber (el determinante posesivo, el determinante demostrativo, la agramaticalidad)."
         ],
         "examples": [
           {
@@ -5308,16 +5308,16 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "que depende de las circunstancias particulares de una situación concreta"
           },
           {
-            "es": "el alcance del juicio",
-            "en": "el grado de generalidad o de aplicabilidad de una valoración"
+            "es": "el alcance",
+            "en": "la extensión o la importancia de algo («el alcance de una afirmación»)"
           },
           {
-            "es": "la calidad constante",
-            "en": "la cualidad que se mantiene estable a lo largo del tiempo"
+            "es": "de por sí",
+            "en": "por su propia naturaleza, sin que influyan las circunstancias («es tímido de por sí»)"
           },
           {
-            "es": "la experiencia puntual",
-            "en": "la vivencia concreta y limitada a un momento específico"
+            "es": "coyuntural",
+            "en": "que depende de una situación concreta y pasajera («un problema coyuntural»)"
           },
           {
             "es": "el determinante posesivo",
@@ -5348,24 +5348,24 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "persona o cosa a la que remite una palabra o expresión"
           },
           {
-            "es": "la observación reciente",
-            "en": "la percepción de un hecho ocurrido poco tiempo antes del momento del habla"
+            "es": "constatar",
+            "en": "comprobar un hecho y dejar constancia de él"
           },
           {
-            "es": "la incomodidad",
-            "en": "la sensación de malestar o falta de soltura en una situación"
+            "es": "el desasosiego",
+            "en": "la falta de tranquilidad; inquietud"
           },
           {
             "es": "fiable",
             "en": "que merece confianza por su constancia y su buen funcionamiento"
           },
           {
-            "es": "la connotación negativa",
-            "en": "el matiz desfavorable que una palabra transmite además de su significado literal"
+            "es": "la connotación",
+            "en": "el significado añadido que una palabra evoca además del literal"
           },
           {
-            "es": "la naturaleza eventiva",
-            "en": "la cualidad de un sustantivo que designa un suceso, no un objeto o una persona"
+            "es": "acontecer",
+            "en": "suceder, ocurrir; es propio del registro culto"
           }
         ]
       }
@@ -6050,7 +6050,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "Errores comunes: interferencia y analogía interna",
         "body": [
           "Los errores más persistentes en el régimen verbal, incluso en hablantes de nivel avanzado, suelen originarse en dos fuentes distintas pero relacionadas: la interferencia de otra lengua, cuando el hablante calca la preposición que su idioma materno emplea con un verbo semánticamente equivalente, y la analogía interna dentro del propio español, cuando el hablante extiende la preposición de un verbo a otro verbo próximo en significado pero distinto en régimen. «Pensar en algo» contrasta con «pensar de algo», y confundir ambos regímenes altera sutilmente el sentido de la pregunta.",
-          "Otro foco frecuente de error surge entre verbos con un significado próximo pero un régimen distinto, como «depender de» frente a «basarse en»: ambos verbos relacionan una cosa con su fundamento, pero exigen preposiciones distintas e inintercambiables. Reconocer estos pares de riesgo —verbos semánticamente vecinos con régimen divergente— y practicarlos de forma sistemática es la única estrategia realmente eficaz para erradicar estos errores en el habla espontánea de un nivel avanzado."
+          "Otro foco frecuente de error surge entre verbos con un significado próximo pero un régimen distinto, como «depender de» frente a «basarse en»: ambos verbos relacionan una cosa con su fundamento, pero exigen preposiciones distintas y no intercambiables. Reconocer estos pares de riesgo —verbos semánticamente vecinos con régimen divergente— y practicarlos de forma sistemática es la única estrategia realmente eficaz para erradicar estos errores en el habla espontánea de un nivel avanzado."
         ],
         "examples": [
           {
@@ -6135,7 +6135,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: los verbos preposicionales",
         "body": [
-          "35 palabras relacionadas con los verbos preposicionales."
+          "Primera tanda: 18 palabras relacionadas con los verbos preposicionales; las 17 restantes llegan en la lección siguiente."
         ],
         "examples": [
           {
@@ -6151,8 +6151,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la falta de una razón lógica o predecible que explique una elección"
           },
           {
-            "es": "el uso consolidado",
-            "en": "la forma lingüística que se ha estabilizado firmemente mediante la repetición a lo largo del tiempo"
+            "es": "arraigado",
+            "en": "firmemente establecido por la costumbre («un uso muy arraigado entre los hablantes»)"
           },
           {
             "es": "la interferencia lingüística",
@@ -6163,52 +6163,52 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la reproducción literal de una estructura propia de otra lengua"
           },
           {
-            "es": "la lengua materna",
-            "en": "el idioma que una persona aprende de forma natural desde la infancia"
+            "es": "el desliz",
+            "en": "error leve que se comete por descuido al hablar o al actuar"
           },
           {
             "es": "la analogía interna",
             "en": "la extensión de un patrón de una estructura a otra dentro de la misma lengua"
           },
           {
-            "es": "el par de riesgo",
-            "en": "el conjunto de dos elementos semánticamente próximos que se confunden con frecuencia"
+            "es": "propenso a",
+            "en": "que tiene tendencia a algo, normalmente negativo («propenso a confundir preposiciones»)"
           },
           {
             "es": "divergente",
             "en": "que se aparta o se diferencia de algo con lo que guarda cierta semejanza"
           },
           {
-            "es": "inintercambiable",
-            "en": "que no puede sustituirse por otro elemento sin alterar el sentido"
+            "es": "subsanar",
+            "en": "corregir un error o reparar un defecto"
           },
           {
-            "es": "la exposición extensa",
-            "en": "el contacto prolongado y repetido con una lengua o un fenómeno"
+            "es": "afianzar",
+            "en": "consolidar algo para hacerlo más firme y seguro"
           },
           {
-            "es": "la memorización",
-            "en": "el proceso de fijar información en la memoria mediante la repetición"
+            "es": "a fuerza de",
+            "en": "a base de repetir mucho una acción («a fuerza de practicar, lo dominó»)"
           },
           {
             "es": "la disponibilidad",
             "en": "la cualidad de estar preparado o accesible para ayudar cuando se necesita"
           },
           {
-            "es": "la determinación obstinada",
-            "en": "la firmeza inquebrantable con que alguien persigue un propósito"
+            "es": "empeñarse en",
+            "en": "insistir con tenacidad en hacer o conseguir algo"
           },
           {
             "es": "concertar",
             "en": "acordar de mutuo acuerdo el lugar, la hora o los términos de algo"
           },
           {
-            "es": "la búsqueda activa",
-            "en": "el esfuerzo deliberado por encontrar algo concreto"
+            "es": "dar con",
+            "en": "encontrar algo o a alguien, a menudo después de buscarlo"
           },
           {
-            "es": "el encuentro casual",
-            "en": "la coincidencia no planeada entre dos o más personas"
+            "es": "toparse con",
+            "en": "encontrarse por casualidad con alguien o con algo"
           }
         ]
       }
@@ -6248,46 +6248,46 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Vocabulario: más sustantivos para los verbos preposicionales",
+        "heading": "Vocabulario: más verbos de régimen fijo",
         "body": [
-          "Segunda tanda: sustantivos que aparecen a menudo como complemento de estos verbos (el pacto, la petición, la condición, el fundamento, el parecer) y términos del ámbito laboral (el ausentismo, el trimestre, la estrategia sistemática)."
+          "Segunda tanda: verbos cultos cuya preposición es fija (carecer de, prescindir de, atenerse a, incurrir en, abogar por, redundar en) y sustantivos que suelen acompañarlos al opinar y argumentar (el fundamento, el juicio de valor, el parecer)."
         ],
         "examples": [
           {
-            "es": "la confrontación dialéctica",
-            "en": "el enfrentamiento de argumentos opuestos mediante el diálogo"
+            "es": "discrepar de",
+            "en": "no estar de acuerdo con alguien o con una opinión («discrepo de tu análisis»)"
           },
           {
-            "es": "la esencia definitoria",
-            "en": "el elemento fundamental que determina la naturaleza de algo"
+            "es": "carecer de",
+            "en": "no tener algo que sería necesario o esperable («el plan carece de fundamento»)"
           },
           {
-            "es": "el pacto",
-            "en": "acuerdo formal entre dos o más partes"
+            "es": "atenerse a",
+            "en": "ajustarse a una norma, un acuerdo o unos hechos («nos atenemos a lo pactado»)"
           },
           {
-            "es": "la petición",
-            "en": "la solicitud formal o insistente de algo"
+            "es": "abogar por",
+            "en": "defender públicamente una idea o una causa («aboga por reducir la jornada»)"
           },
           {
-            "es": "la atención deliberada",
-            "en": "la concentración voluntaria en un detalle o un aspecto concreto"
+            "es": "percatarse de",
+            "en": "darse cuenta de algo que había pasado inadvertido"
           },
           {
-            "es": "el detalle",
-            "en": "el elemento pequeño y específico dentro de un conjunto más amplio"
+            "es": "cerciorarse de",
+            "en": "comprobar algo para tener la seguridad de que es cierto"
           },
           {
             "es": "el fundamento",
             "en": "la base o el sustento sobre el cual se apoya una afirmación o una teoría"
           },
           {
-            "es": "la condición",
-            "en": "el requisito necesario para que algo ocurra o sea válido"
+            "es": "prescindir de",
+            "en": "renunciar a algo o a alguien, o arreglárselas sin ello"
           },
           {
-            "es": "la reflexión mental",
-            "en": "el proceso de pensar detenidamente sobre un asunto"
+            "es": "redundar en",
+            "en": "tener algo como consecuencia, normalmente positiva («redunda en beneficio de todos»)"
           },
           {
             "es": "el juicio de valor",
@@ -6302,12 +6302,12 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la falta reiterada de asistencia al lugar de trabajo o de estudio"
           },
           {
-            "es": "el trimestre",
-            "en": "el periodo de tres meses en que se divide un año"
+            "es": "incurrir en",
+            "en": "cometer un error, una falta o una contradicción"
           },
           {
-            "es": "la estrategia sistemática",
-            "en": "el método organizado y coherente para lograr un objetivo"
+            "es": "desembocar en",
+            "en": "acabar dando lugar a una situación determinada («la tensión desembocó en una huelga»)"
           },
           {
             "es": "erradicar",
@@ -6318,8 +6318,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "que ocurre de manera natural, sin preparación previa"
           },
           {
-            "es": "la seguridad idiomática",
-            "en": "la confianza y precisión con que un hablante domina los usos de una lengua"
+            "es": "abstenerse de",
+            "en": "privarse voluntariamente de hacer algo («se abstuvo de opinar»)"
           }
         ]
       }
@@ -6451,7 +6451,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "Final quality depends on many factors, but it's mostly based on the team's experience."
         ],
-        "explanation": "«Depender de» y «basarse en» exigen preposiciones distintas e inintercambiables en español, aunque en inglés ambos verbos coincidan en emplear la preposición «on»."
+        "explanation": "«Depender de» y «basarse en» exigen preposiciones distintas y no intercambiables en español, aunque en inglés ambos verbos coincidan en emplear la preposición «on»."
       },
       {
         "type": "word-order",
@@ -6507,7 +6507,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "right": "fundamentar una afirmación o una teoría en una evidencia concreta"
           }
         ],
-        "explanation": "Estos cuatro verbos forman dos pares de riesgo clásicos: semánticamente próximos, pero con regímenes preposicionales distintos e inintercambiables entre sí."
+        "explanation": "Estos cuatro verbos forman dos pares de riesgo clásicos: semánticamente próximos, pero con regímenes preposicionales distintos y no intercambiables entre sí."
       },
       {
         "type": "multi-select",
@@ -6838,7 +6838,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: los conectores discursivos",
         "body": [
-          "35 palabras relacionadas con los conectores discursivos."
+          "Primera tanda: 18 palabras relacionadas con los conectores discursivos; las 17 restantes llegan en la lección siguiente."
         ],
         "examples": [
           {
@@ -6850,8 +6850,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la expresión que el hablante usa para señalar cómo debe interpretarse lo que está diciendo"
           },
           {
-            "es": "el bloque argumentativo",
-            "en": "el segmento de un discurso que desarrolla una idea completa dentro de una argumentación"
+            "es": "en definitiva",
+            "en": "para resumir o cerrar lo que se ha dicho"
           },
           {
             "es": "reencuadrar",
@@ -6862,12 +6862,12 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "restar carácter absoluto a una afirmación, situándola dentro de un contexto más amplio"
           },
           {
-            "es": "la jerarquía de importancia",
-            "en": "el orden que establece qué ideas resultan más relevantes dentro de un texto"
+            "es": "a fin de cuentas",
+            "en": "al fin y al cabo, considerándolo todo"
           },
           {
-            "es": "la organización textual",
-            "en": "la manera en que se estructuran y se relacionan las partes de un texto"
+            "es": "no obstante",
+            "en": "sin embargo; introduce una idea que contrasta con la anterior"
           },
           {
             "es": "la síntesis",
@@ -6882,28 +6882,28 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "que no puede reducirse ni simplificarse a algo más básico"
           },
           {
-            "es": "el criterio decisivo",
-            "en": "el factor que determina finalmente una conclusión o una elección"
+            "es": "el criterio",
+            "en": "la norma o el principio que se sigue para juzgar o decidir algo"
           },
           {
-            "es": "el sentido común",
-            "en": "el juicio práctico y compartido que la mayoría de las personas considera razonable"
+            "es": "por ende",
+            "en": "por lo tanto; es propio del registro culto"
           },
           {
-            "es": "justificativo",
-            "en": "que sirve para justificar o dar razón de algo"
+            "es": "de ahí que",
+            "en": "por esa razón; introduce una consecuencia y va seguido de subjuntivo"
           },
           {
             "es": "la advertencia",
             "en": "el aviso que señala un peligro o una consecuencia negativa posible"
           },
           {
-            "es": "la sanción institucional",
-            "en": "la penalización impuesta formalmente por una autoridad o una entidad"
+            "es": "si bien",
+            "en": "aunque; introduce una concesión en registro culto"
           },
           {
-            "es": "el riesgo asumido",
-            "en": "la posibilidad de una consecuencia negativa que alguien acepta voluntariamente"
+            "es": "asimismo",
+            "en": "también, del mismo modo"
           },
           {
             "es": "arcaico",
@@ -6953,72 +6953,72 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos de la argumentación",
         "body": [
-          "Segunda tanda: palabras para describir cómo se construye un texto argumentativo (el desarrollo argumentativo, la enumeración, la aclaración, la ponderación, el desenlace argumentativo) y los contextos en que se usa (el panel, el ensayo argumentativo, institucional)."
+          "Segunda tanda: conectores y fórmulas para construir un texto argumentativo (a saber, esto es, con todo, por consiguiente, en último término, huelga decir que) y palabras sobre la argumentación y sus contextos (la enumeración, la ponderación, sopesar, la mesa redonda, el ensayo argumentativo)."
         ],
         "examples": [
           {
-            "es": "el enfrentamiento dialéctico",
-            "en": "confrontación de ideas que se expresa mediante argumentos opuestos"
+            "es": "dicho sea de paso",
+            "en": "introduce un comentario al margen del tema principal"
           },
           {
             "es": "el ensayo argumentativo",
             "en": "el texto que desarrolla y defiende una tesis mediante razonamientos"
           },
           {
-            "es": "el panel",
-            "en": "el grupo de personas expertas que discute públicamente sobre un tema"
+            "es": "la mesa redonda",
+            "en": "el debate público entre varios expertos sobre un tema"
           },
           {
             "es": "la viabilidad",
             "en": "la posibilidad real de que algo pueda llevarse a cabo con éxito"
           },
           {
-            "es": "la convención discursiva",
-            "en": "norma implícita que rige cómo se organiza un tipo de texto"
+            "es": "a saber",
+            "en": "es decir; introduce una enumeración o una aclaración"
           },
           {
             "es": "exento",
             "en": "libre de una obligación, un riesgo o una carga determinada"
           },
           {
-            "es": "la recomendación",
-            "en": "la sugerencia que se ofrece como la opción más aconsejable"
+            "es": "huelga decir que",
+            "en": "no hace falta decir que; introduce algo evidente"
           },
           {
-            "es": "la supervisión estricta",
-            "en": "el control riguroso y constante sobre el desarrollo de un proceso"
+            "es": "cabe señalar que",
+            "en": "conviene hacer notar que; es propio del registro formal"
           },
           {
-            "es": "el desarrollo argumentativo",
-            "en": "la progresión mediante la cual se exponen y se encadenan los argumentos"
+            "es": "en lo que respecta a",
+            "en": "en relación con, por lo que se refiere a"
           },
           {
-            "es": "la aclaración",
-            "en": "la explicación que despeja una duda o evita una interpretación errónea"
+            "es": "esto es",
+            "en": "es decir; introduce una reformulación"
           },
           {
-            "es": "el equilibrio discursivo",
-            "en": "la ponderación entre distintos puntos de vista dentro de un mismo texto"
+            "es": "sopesar",
+            "en": "considerar con cuidado las ventajas y los inconvenientes de algo"
           },
           {
             "es": "la enumeración",
             "en": "la presentación ordenada de varios elementos, uno tras otro"
           },
           {
-            "es": "el desenlace argumentativo",
-            "en": "el punto en que una argumentación llega a su conclusión final"
+            "es": "en último término",
+            "en": "como última instancia, en última conclusión"
           },
           {
-            "es": "la complejidad",
-            "en": "la cualidad de un asunto que involucra numerosos factores interrelacionados"
+            "es": "con todo",
+            "en": "a pesar de lo dicho, aun así"
           },
           {
             "es": "el factor determinante",
             "en": "el elemento que resulta decisivo para el resultado de algo"
           },
           {
-            "es": "institucional",
-            "en": "que pertenece o se refiere a una institución u organismo oficial"
+            "es": "por consiguiente",
+            "en": "como consecuencia de lo anterior"
           },
           {
             "es": "la ponderación",
@@ -7324,7 +7324,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: las estructuras enfáticas",
         "body": [
-          "35 palabras relacionadas con las estructuras enfáticas."
+          "Primera tanda: 18 palabras relacionadas con las estructuras enfáticas; las 17 restantes llegan en la lección siguiente."
         ],
         "examples": [
           {
@@ -7352,8 +7352,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la palabra «lo que», que no concuerda en género ni número con ningún sustantivo concreto"
           },
           {
-            "es": "el efecto de suspenso",
-            "en": "la sensación de expectativa que se genera al retrasar la información clave de un enunciado"
+            "es": "hacer hincapié en",
+            "en": "insistir en algo para destacar su importancia"
           },
           {
             "es": "la anteposición",
@@ -7380,16 +7380,16 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el elemento sobre el cual versa principalmente una oración o un fragmento de discurso"
           },
           {
-            "es": "el contraste implícito",
-            "en": "la oposición sugerida, aunque no expresada abiertamente, entre dos posibilidades"
+            "es": "tajante",
+            "en": "que no admite réplica ni matices («una negativa tajante»)"
           },
           {
-            "es": "la corrección enfática",
-            "en": "la rectificación explícita de una afirmación mediante una estructura de énfasis"
+            "es": "desmentir",
+            "en": "negar la verdad de algo que se ha dicho o publicado"
           },
           {
-            "es": "la concesión hipotética",
-            "en": "la admisión provisional de una posibilidad, planteada como punto de partida de un razonamiento"
+            "es": "sí que",
+            "en": "refuerza con énfasis una afirmación («eso sí que no me lo esperaba»)"
           },
           {
             "es": "la veracidad",
@@ -7439,7 +7439,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos sobre el énfasis",
         "body": [
-          "Segunda tanda: conceptos para describir cómo se resalta un elemento (la marcación sintáctica, la posición inicial marcada, la reduplicación, el realce expresivo) y qué funciones sintácticas pueden enfatizarse (el complemento indirecto, el complemento circunstancial)."
+          "Segunda tanda: conceptos para describir cómo se resalta un elemento (resaltar, encabezar, enfatizar, la reduplicación, el realce) y qué funciones sintácticas pueden enfatizarse (el complemento indirecto, el complemento circunstancial)."
         ],
         "examples": [
           {
@@ -7447,12 +7447,12 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el refuerzo del significado o la fuerza expresiva de una palabra o una estructura"
           },
           {
-            "es": "la expectativa previa",
-            "en": "la suposición o la creencia que alguien tenía antes de conocer un hecho"
+            "es": "la expectativa",
+            "en": "lo que alguien espera o cree que va a ocurrir"
           },
           {
-            "es": "el realce expresivo",
-            "en": "efecto de destacar un elemento del discurso para darle mayor fuerza"
+            "es": "el realce",
+            "en": "el relieve o la importancia que se da a algo («dar realce a una idea»)"
           },
           {
             "es": "la rectificación",
@@ -7463,32 +7463,32 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la fuerza especial con que se destaca un elemento dentro de un enunciado"
           },
           {
-            "es": "la marcación sintáctica",
-            "en": "el conjunto de recursos formales que señalan una estructura como distinta del orden neutro"
+            "es": "resaltar",
+            "en": "hacer que algo destaque o se note más"
           },
           {
-            "es": "el suspenso rítmico",
-            "en": "el efecto de expectativa generado por la disposición particular de los elementos en una oración"
+            "es": "la cadencia",
+            "en": "el ritmo con que se suceden los sonidos y las pausas en una frase"
           },
           {
-            "es": "el elemento sometido a contraste",
-            "en": "la parte de la oración que se opone implícitamente a otras posibilidades descartadas"
+            "es": "descartar",
+            "en": "rechazar una posibilidad o dejar de tenerla en cuenta"
           },
           {
-            "es": "la prosa argumentativa",
-            "en": "el tipo de escritura que desarrolla y defiende ideas mediante razonamientos"
+            "es": "rotundo",
+            "en": "claro y categórico, sin lugar a dudas («un no rotundo»)"
           },
           {
-            "es": "la posición inicial marcada",
-            "en": "el lugar al comienzo de la oración que señala un uso enfático y no neutro"
+            "es": "encabezar",
+            "en": "ocupar el primer lugar de algo («el complemento encabeza la oración»)"
           },
           {
-            "es": "inesperado",
-            "en": "que ocurre sin que se anticipara previamente"
+            "es": "insospechado",
+            "en": "que no se podía sospechar ni prever"
           },
           {
-            "es": "decisivo",
-            "en": "que resulta determinante para el resultado final de algo"
+            "es": "primordial",
+            "en": "que es lo más importante o fundamental"
           },
           {
             "es": "el complemento indirecto",
@@ -7503,12 +7503,12 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la repetición de un elemento con una función gramatical determinada"
           },
           {
-            "es": "el repertorio de recursos",
-            "en": "el conjunto de herramientas disponibles dentro de una lengua para lograr un efecto determinado"
+            "es": "el repertorio",
+            "en": "el conjunto de recursos de que dispone alguien"
           },
           {
-            "es": "la marca enfática",
-            "en": "el rasgo formal que señala que una estructura tiene valor de énfasis"
+            "es": "enfatizar",
+            "en": "poner énfasis en algo al hablar o al escribir"
           }
         ]
       }
@@ -7805,24 +7805,24 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: la conjetura y la probabilidad",
         "body": [
-          "34 palabras relacionadas con la conjetura y la probabilidad."
+          "Primera tanda: 17 palabras relacionadas con la conjetura y la probabilidad; las 17 restantes llegan en la lección siguiente."
         ],
         "examples": [
           {
-            "es": "la suposición fundamentada",
-            "en": "la suposición apoyada en indicios razonables, aunque no en pruebas concluyentes"
+            "es": "fundado",
+            "en": "que tiene razones o pruebas que lo apoyan («sospechas fundadas»)"
           },
           {
             "es": "el valor epistémico",
             "en": "el matiz de una forma verbal relacionado con el grado de conocimiento o certeza del hablante"
           },
           {
-            "es": "la estimación aproximada",
-            "en": "el cálculo que se acerca a un valor real sin pretender exactitud"
+            "es": "a ojo",
+            "en": "de forma aproximada, sin medir con precisión («calculado a ojo»)"
           },
           {
-            "es": "el indicio indirecto",
-            "en": "la señal que permite inferir algo sin observarlo directamente"
+            "es": "deducir",
+            "en": "sacar una conclusión a partir de indicios o de premisas"
           },
           {
             "es": "el devenir",
@@ -7845,8 +7845,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "que plantea una situación contraria a los hechos realmente ocurridos"
           },
           {
-            "es": "la erosión lingüística",
-            "en": "el debilitamiento progresivo de una distinción o una regla dentro del uso de una lengua"
+            "es": "desgastarse",
+            "en": "perder fuerza o nitidez con el uso o con el paso del tiempo"
           },
           {
             "es": "la hipercorrección",
@@ -7857,16 +7857,16 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el grupo de palabras que funciona en conjunto como un adverbio"
           },
           {
-            "es": "la capacidad selectora de modo",
-            "en": "la propiedad de ciertas expresiones de determinar si el verbo va en indicativo o en subjuntivo"
+            "es": "a lo mejor",
+            "en": "quizá; a diferencia de «quizá», va siempre con indicativo"
           },
           {
-            "es": "el grado de incertidumbre",
-            "en": "el nivel de duda que el hablante expresa sobre la veracidad de algo"
+            "es": "la incertidumbre",
+            "en": "la falta de seguridad o de certeza sobre algo"
           },
           {
-            "es": "el cálculo mental",
-            "en": "la operación aproximada que se realiza mentalmente sin instrumentos precisos"
+            "es": "rondar",
+            "en": "acercarse a una cantidad («rondará los cincuenta años»)"
           },
           {
             "es": "impreciso",
@@ -7916,48 +7916,48 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos sobre registro y certeza",
         "body": [
-          "Segunda tanda: palabras para situar la conjetura en su registro (el registro oral espontáneo, el registro escrito formal, coloquial, literario) y para graduar la certeza (el matiz de certeza, la fiabilidad del indicio, la aproximación numérica, presuponer)."
+          "Segunda tanda: palabras para situar la conjetura en su registro (vete a saber, a buen seguro, coloquial, literario) y para graduar la certeza o una cifra (deber de, a lo sumo, y pico, en torno a, presuponer)."
         ],
         "examples": [
           {
-            "es": "la reconstrucción de un recuerdo",
-            "en": "el proceso de recuperar mentalmente los detalles de un hecho pasado"
+            "es": "barajar",
+            "en": "considerar varias posibilidades antes de decidir («barajamos dos hipótesis»)"
           },
           {
-            "es": "la anécdota personal",
-            "en": "el relato breve de un suceso vivido por quien lo cuenta"
+            "es": "a juzgar por",
+            "en": "según lo que se deduce de algo («a juzgar por su cara, no le gustó»)"
           },
           {
-            "es": "el registro oral espontáneo",
-            "en": "la forma de hablar natural y sin preparación previa"
+            "es": "vete a saber",
+            "en": "expresión coloquial que indica que es imposible saber algo"
           },
           {
-            "es": "el registro escrito formal",
-            "en": "el estilo cuidado y normativo propio de los textos escritos serios"
+            "es": "a buen seguro",
+            "en": "con toda seguridad; es propio del registro culto"
           },
           {
             "es": "la norma académica",
             "en": "el conjunto de reglas establecidas por las instituciones que regulan una lengua"
           },
           {
-            "es": "la superposición de usos",
-            "en": "la coincidencia de dos formas o construcciones dentro de una misma función"
+            "es": "solaparse",
+            "en": "coincidir en parte dos cosas en el tiempo o en su función"
           },
           {
             "es": "generalizado",
             "en": "que se ha extendido ampliamente entre los hablantes de una lengua"
           },
           {
-            "es": "la obligación",
-            "en": "el deber o la exigencia de realizar algo determinado"
+            "es": "deber de",
+            "en": "seguido de infinitivo, expresa suposición («debe de tener cuarenta años»)"
           },
           {
-            "es": "la probabilidad",
-            "en": "la posibilidad, calculada o estimada, de que algo sea cierto o suceda"
+            "es": "presumiblemente",
+            "en": "según parece razonable suponer"
           },
           {
-            "es": "el origen histórico",
-            "en": "el punto de partida temporal a partir del cual se desarrolló algo"
+            "es": "remontarse a",
+            "en": "tener su origen en una época pasada («el uso se remonta al latín»)"
           },
           {
             "es": "coloquial",
@@ -7968,24 +7968,24 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "propio de la lengua escrita con intención estética o artística"
           },
           {
-            "es": "el matiz de certeza",
-            "en": "la sutil diferencia en el grado de seguridad que transmite una afirmación"
+            "es": "a lo sumo",
+            "en": "como máximo («tendrá, a lo sumo, veinte años»)"
           },
           {
             "es": "presuponer",
             "en": "dar por sentado algo antes de que se confirme"
           },
           {
-            "es": "la fiabilidad del indicio",
-            "en": "el grado de confianza que puede depositarse en una señal para extraer una conclusión"
+            "es": "la fiabilidad",
+            "en": "el grado de confianza que merece algo o alguien"
           },
           {
-            "es": "la aproximación numérica",
-            "en": "el cálculo que se acerca a una cantidad exacta sin pretender precisión total"
+            "es": "y pico",
+            "en": "y algo más, detrás de una cifra redonda («cuarenta y pico»)"
           },
           {
-            "es": "el hábito lingüístico",
-            "en": "la costumbre asentada en el uso repetido de una lengua por parte de sus hablantes"
+            "es": "en torno a",
+            "en": "aproximadamente, alrededor de («en torno a las diez»)"
           }
         ]
       }
@@ -8370,8 +8370,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el grado de cercanía o alejamiento social entre dos personas"
           },
           {
-            "es": "la confianza social",
-            "en": "el grado de familiaridad que permite un trato más cercano"
+            "es": "tutear",
+            "en": "tratar a alguien de tú"
           },
           {
             "es": "el tratamiento",
@@ -8398,8 +8398,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el grado de confianza y cercanía entre dos personas"
           },
           {
-            "es": "el desconocido",
-            "en": "una persona con la que no existe trato previo"
+            "es": "dirigirse a",
+            "en": "hablar o escribir a alguien («se dirigió al público de usted»)"
           },
           {
             "es": "la solemnidad",
@@ -8410,8 +8410,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la sencillez y falta de afectación en el trato con los demás"
           },
           {
-            "es": "el respeto reverencial",
-            "en": "una muestra de respeto marcada, dirigida a alguien de autoridad o edad considerable"
+            "es": "guardar las formas",
+            "en": "comportarse con la corrección que exige una situación"
           },
           {
             "es": "la asimetría social",
@@ -8434,24 +8434,24 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "un nivel de habla especialmente formal y cuidado"
           },
           {
-            "es": "la sobriedad expresiva",
-            "en": "la contención y mesura en el modo de expresarse"
+            "es": "la sobriedad",
+            "en": "la moderación, la ausencia de adornos o de excesos"
           },
           {
-            "es": "la cercanía",
-            "en": "el grado de proximidad afectiva o social entre dos personas"
+            "es": "la complicidad",
+            "en": "el entendimiento tácito entre personas de confianza"
           },
           {
             "es": "la brecha generacional",
             "en": "la diferencia de costumbres y percepciones entre generaciones distintas"
           },
           {
-            "es": "el trato de cortesía",
-            "en": "la manera respetuosa de dirigirse a alguien"
+            "es": "de tú a tú",
+            "en": "de igual a igual, sin jerarquías"
           },
           {
-            "es": "la reverencia social",
-            "en": "una actitud de gran respeto y sumisión hacia otra persona"
+            "es": "rendir pleitesía",
+            "en": "mostrar sumisión y un respeto excesivo a alguien"
           },
           {
             "es": "el pronombre de tratamiento",
@@ -8462,20 +8462,20 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "una expresión fija que se usa para mostrar respeto o amabilidad"
           },
           {
-            "es": "el vínculo jerárquico",
-            "en": "la relación que existe entre personas de distinto rango o posición"
+            "es": "el superior jerárquico",
+            "en": "la persona de mayor rango de la que alguien depende en el trabajo"
           },
           {
             "es": "la afabilidad",
             "en": "la cualidad de ser amable y agradable en el trato"
           },
           {
-            "es": "la rigidez protocolar",
-            "en": "la falta de flexibilidad en el cumplimiento de las normas formales"
+            "es": "encorsetado",
+            "en": "rígido, falto de naturalidad («un discurso encorsetado»)"
           },
           {
-            "es": "el atrevimiento social",
-            "en": "la osadía de romper una norma de trato esperada"
+            "es": "tomarse confianzas",
+            "en": "tratar a alguien con una familiaridad que no corresponde"
           },
           {
             "es": "la irreverencia",
@@ -9048,7 +9048,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: el voseo",
         "body": [
-          "35 palabras relacionadas con el voseo."
+          "Primera tanda: 18 palabras relacionadas con el voseo; las 17 restantes llegan en la lección siguiente."
         ],
         "examples": [
           {
@@ -9064,8 +9064,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el uso del pronombre vos sin que necesariamente cambie la conjugación verbal"
           },
           {
-            "es": "la forma vos",
-            "en": "el pronombre de segunda persona propio del voseo"
+            "es": "la tilde",
+            "en": "el acento gráfico, que llevan por ejemplo las formas agudas del voseo («tenés», «vení»)"
           },
           {
             "es": "el rioplatense",
@@ -9155,7 +9155,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos de dialectología",
         "body": [
-          "Segunda tanda: términos para describir el voseo como fenómeno dialectal (la variedad diatópica, el continuo dialectal, la extensión geográfica del voseo), su valoración social (el estigma lingüístico, el prestigio dialectal, la norma culta) y rasgos rioplatenses asociados (el yeísmo rehilado, la prosodia rioplatense, el lunfardo)."
+          "Segunda tanda: términos para describir el voseo como fenómeno dialectal (la variedad diatópica, el continuo dialectal, la isoglosa), su valoración social (el estigma lingüístico, el prestigio, la norma culta) y rasgos rioplatenses asociados (el yeísmo rehilado, la prosodia, el lunfardo)."
         ],
         "examples": [
           {
@@ -9163,48 +9163,48 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la sílaba de una palabra que recibe el acento principal"
           },
           {
-            "es": "el arcaísmo lingüístico",
-            "en": "una forma antigua de una lengua que se conserva en el uso actual"
+            "es": "el arcaísmo",
+            "en": "la palabra o construcción antigua que se conserva en el uso actual"
           },
           {
-            "es": "la vigencia de una forma",
-            "en": "el hecho de que una expresión siga usándose activamente en la actualidad"
+            "es": "la vigencia",
+            "en": "el hecho de que algo siga en uso o tenga validez («una forma de plena vigencia»)"
           },
           {
             "es": "el estigma lingüístico",
             "en": "la valoración negativa injustificada que recae sobre una variedad de una lengua"
           },
           {
-            "es": "el prestigio dialectal",
-            "en": "la valoración positiva que una comunidad otorga a una variedad lingüística"
+            "es": "el prestigio",
+            "en": "la buena valoración social de la que goza algo o alguien"
           },
           {
-            "es": "la coexistencia de formas",
-            "en": "el hecho de que dos formas de tratamiento se usen dentro de una misma comunidad"
+            "es": "coexistir",
+            "en": "existir al mismo tiempo que otra cosa («en Uruguay coexisten tú y vos»)"
           },
           {
-            "es": "la mezcla dialectal",
-            "en": "la combinación de rasgos propios de distintas variedades de una lengua"
+            "es": "el mestizaje",
+            "en": "la mezcla de culturas o de rasgos de distinto origen"
           },
           {
-            "es": "la influencia guaraní",
-            "en": "el aporte léxico y fonético de la lengua guaraní al español rioplatense y paraguayo"
+            "es": "el guaraní",
+            "en": "la lengua indígena, oficial en Paraguay junto al español, que ha dejado huella en el español de la región"
           },
           {
             "es": "el lunfardo",
             "en": "una jerga popular originada en Buenos Aires con aportes de varias lenguas de inmigración"
           },
           {
-            "es": "la prosodia rioplatense",
-            "en": "la entonación y el ritmo característicos del habla del Río de la Plata"
+            "es": "la prosodia",
+            "en": "la entonación, el ritmo y el acento del habla"
           },
           {
             "es": "el yeísmo rehilado",
             "en": "la pronunciación de la ll y la y con un sonido similar al de la sh, típica del Río de la Plata"
           },
           {
-            "es": "el uso vernáculo",
-            "en": "el uso propio y natural de una comunidad de habla, sin influencia externa"
+            "es": "vernáculo",
+            "en": "propio del lugar o de la comunidad donde se habla"
           },
           {
             "es": "la norma culta",
@@ -9223,8 +9223,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la sucesión gradual de variedades lingüísticas entre zonas geográficas vecinas"
           },
           {
-            "es": "la extensión geográfica del voseo",
-            "en": "el territorio en el que se emplea de manera habitual la forma vos"
+            "es": "la isoglosa",
+            "en": "la línea que en un mapa marca el límite de un rasgo lingüístico"
           }
         ]
       }
@@ -9318,7 +9318,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "right": "la valoración social negativa e injustificada que recae sobre una variedad de una lengua"
           },
           {
-            "left": "el prestigio dialectal",
+            "left": "el prestigio",
             "right": "la valoración social positiva que una comunidad otorga a una variedad lingüística"
           },
           {
@@ -9878,24 +9878,24 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la posibilidad de que una palabra se interprete de más de una manera"
           },
           {
-            "es": "el falso amigo dialectal",
-            "en": "una palabra que coincide en forma con otra de distinta región pero cambia de significado"
+            "es": "el falso amigo",
+            "en": "la palabra que se parece a otra de otra lengua o variedad pero significa algo distinto"
           },
           {
-            "es": "el eufemismo regional",
-            "en": "una expresión suavizada usada en cierta región para evitar un término considerado tosco"
+            "es": "el eufemismo",
+            "en": "la expresión suave con que se sustituye otra considerada malsonante o dura"
           },
           {
-            "es": "la connotación vulgar",
-            "en": "un matiz de significado grosero o inapropiado que adquiere una palabra en cierto contexto"
+            "es": "soez",
+            "en": "grosero, de mal gusto"
           },
           {
             "es": "la palabra malsonante",
             "en": "una palabra que resulta chocante o de mal gusto en determinado contexto social"
           },
           {
-            "es": "el vocablo autóctono",
-            "en": "una palabra originaria de una región concreta, sin origen extranjero conocido"
+            "es": "autóctono",
+            "en": "originario del lugar en el que se encuentra"
           },
           {
             "es": "la variante léxica",
@@ -9906,12 +9906,12 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el empleo de una palabra o expresión en un territorio amplio"
           },
           {
-            "es": "la jerga local",
-            "en": "el vocabulario particular de un grupo social dentro de una región determinada"
+            "es": "la jerga",
+            "en": "el lenguaje particular de un grupo social o profesional"
           },
           {
-            "es": "el modismo regional",
-            "en": "una expresión fija propia de una región, cuyo sentido no se deduce de sus palabras por separado"
+            "es": "el modismo",
+            "en": "la expresión fija propia de una lengua o una región, cuyo sentido no se deduce de sus palabras"
           },
           {
             "es": "la expresión idiomática",
@@ -9922,12 +9922,12 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "una palabra o expresión propia del español hablado en América"
           },
           {
-            "es": "el anglicismo adaptado",
-            "en": "una palabra proveniente del inglés que se ha incorporado y adaptado al español"
+            "es": "el anglicismo",
+            "en": "la palabra o el giro tomado del inglés"
           },
           {
-            "es": "el indigenismo léxico",
-            "en": "una palabra del español proveniente de una lengua indígena americana"
+            "es": "el indigenismo",
+            "en": "la palabra del español que procede de una lengua indígena americana"
           },
           {
             "es": "la palabra polisémica",
@@ -9938,24 +9938,24 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "un significado distinto del literal, basado en una asociación simbólica"
           },
           {
-            "es": "el malentendido lingüístico",
-            "en": "una confusión que surge por una diferencia de significado entre hablantes"
+            "es": "el malentendido",
+            "en": "la interpretación equivocada de lo que alguien dice o hace"
           },
           {
             "es": "la neutralización léxica",
             "en": "el proceso de elegir un término comprensible en varias regiones a la vez"
           },
           {
-            "es": "el glosario regional",
-            "en": "una lista de palabras propias de una región junto con su significado"
+            "es": "el glosario",
+            "en": "la lista de palabras de un ámbito con su significado"
           },
           {
             "es": "la variación diatópica",
             "en": "la diferencia de una lengua según el lugar geográfico donde se habla"
           },
           {
-            "es": "el uso coloquial regional",
-            "en": "el vocabulario informal propio de una zona geográfica concreta"
+            "es": "chocante",
+            "en": "que sorprende o resulta extraño o inapropiado"
           },
           {
             "es": "la palabra tabú",
@@ -9966,8 +9966,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el nivel de habla propio del uso cotidiano y espontáneo de la mayoría de los hablantes"
           },
           {
-            "es": "la voz autóctona",
-            "en": "una palabra propia y original de una región, sin equivalente exacto en otras"
+            "es": "el vocablo",
+            "en": "palabra; es el término propio del registro culto"
           },
           {
             "es": "el contexto sociolingüístico",
@@ -10012,7 +10012,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "right": "varias palabras equivalentes según la región"
           },
           {
-            "left": "el eufemismo regional",
+            "left": "el eufemismo",
             "right": "expresión suavizada para evitar un término tosco"
           },
           {
@@ -10020,11 +10020,11 @@ const C1_BASE_LESSONS: Lesson[] = [
             "right": "elegir un término comprensible en varias regiones"
           },
           {
-            "left": "la connotación vulgar",
-            "right": "matiz grosero que adquiere una palabra en cierto contexto"
+            "left": "soez",
+            "right": "grosero, de mal gusto"
           }
         ],
-        "explanation": "Cuatro conceptos básicos para hablar de la variación léxica."
+        "explanation": "Cuatro palabras básicas para hablar de la variación léxica."
       },
       {
         "type": "multiple-choice",
@@ -10342,7 +10342,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: el español neutro y el coloquial",
         "body": [
-          "35 palabras relacionadas con el español neutro y el coloquial."
+          "Primera tanda: 18 palabras relacionadas con el español neutro y el coloquial; las 17 restantes llegan en la lección siguiente."
         ],
         "examples": [
           {
@@ -10358,8 +10358,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el nivel de habla considerado correcto y ampliamente aceptado"
           },
           {
-            "es": "la locución informal",
-            "en": "una expresión fija propia del habla cotidiana"
+            "es": "la locución",
+            "en": "la expresión fija de varias palabras que funciona como una sola unidad"
           },
           {
             "es": "el argot",
@@ -10378,32 +10378,32 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el vocabulario característico del habla de los jóvenes"
           },
           {
-            "es": "el habla espontánea",
-            "en": "la forma de hablar que surge sin planificación previa"
+            "es": "de andar por casa",
+            "en": "sencillo, informal, sin pretensiones («un inglés de andar por casa»)"
           },
           {
-            "es": "la expresión llana",
-            "en": "una forma de decir algo sencilla y sin adornos"
+            "es": "llano",
+            "en": "sencillo, sin adornos ni afectación («un lenguaje llano»)"
           },
           {
-            "es": "el desenfado verbal",
-            "en": "la naturalidad y falta de solemnidad al hablar"
+            "es": "el desenfado",
+            "en": "la desenvoltura y naturalidad, sin solemnidad"
           },
           {
-            "es": "la naturalidad expresiva",
-            "en": "la cualidad de expresarse sin artificio ni forzamiento"
+            "es": "la naturalidad",
+            "en": "la manera espontánea de hablar o de comportarse, sin artificio"
           },
           {
-            "es": "la artificiosidad del habla",
-            "en": "la falta de naturalidad en la manera de expresarse"
+            "es": "artificioso",
+            "en": "hecho con demasiado artificio, poco natural"
           },
           {
-            "es": "el doblaje neutro",
-            "en": "la traducción oral de un contenido audiovisual realizada en español neutro"
+            "es": "el doblaje",
+            "en": "la sustitución de la voz original de una película por otra, en otra lengua o variedad"
           },
           {
-            "es": "la variedad estándar",
-            "en": "la forma de una lengua considerada de referencia general"
+            "es": "acartonado",
+            "en": "dicho de un diálogo o de una persona, rígido y sin vida"
           },
           {
             "es": "el nivel de habla",
@@ -10414,8 +10414,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el conjunto de rasgos propios de la lengua hablada frente a la escrita"
           },
           {
-            "es": "la escritura formal",
-            "en": "la modalidad de redacción que sigue las normas más cuidadas de una lengua"
+            "es": "impostado",
+            "en": "fingido, falto de naturalidad («un acento impostado»)"
           }
         ]
       }
@@ -10457,12 +10457,12 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos sobre el habla coloquial",
         "body": [
-          "Segunda tanda: recursos típicos del registro coloquial (el diminutivo afectivo, el aumentativo despectivo, la hipérbole coloquial, la interjección coloquial, el relleno conversacional) y tipos de expresiones fijas (la fórmula hecha, la frase hecha, el refrán popular)."
+          "Segunda tanda: recursos típicos del registro coloquial (el diminutivo afectivo, el aumentativo despectivo, la hipérbole, la coletilla, la palabra de relleno, el taco) y tipos de expresiones fijas (la fórmula hecha, la frase hecha, el refrán)."
         ],
         "examples": [
           {
-            "es": "la espontaneidad discursiva",
-            "en": "la falta de planificación previa en el modo de construir un discurso"
+            "es": "la espontaneidad",
+            "en": "la naturalidad de lo que se dice o se hace sin preparación"
           },
           {
             "es": "el matiz irónico",
@@ -10481,8 +10481,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "una burla disimulada que no se expresa de forma abierta"
           },
           {
-            "es": "la hipérbole coloquial",
-            "en": "una exageración propia del habla informal usada con fines expresivos"
+            "es": "la hipérbole",
+            "en": "la exageración con fines expresivos («te lo he dicho mil veces»)"
           },
           {
             "es": "el diminutivo afectivo",
@@ -10493,36 +10493,36 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "una forma aumentativa usada para transmitir desprecio o burla"
           },
           {
-            "es": "la interjección coloquial",
-            "en": "una palabra breve y espontánea usada para expresar una emoción en el habla informal"
+            "es": "la coletilla",
+            "en": "la palabra o frase que alguien añade por costumbre al final de lo que dice («¿sabes?», «¿vale?»)"
           },
           {
             "es": "el vulgarismo",
             "en": "una forma considerada incorrecta o poco cuidada dentro del uso general de una lengua"
           },
           {
-            "es": "la vacilación discursiva",
-            "en": "la duda o titubeo que aparece al construir un discurso de forma espontánea"
+            "es": "la vacilación",
+            "en": "la duda o la inseguridad al hablar o al decidir"
           },
           {
-            "es": "el relleno conversacional",
-            "en": "una palabra o sonido que ocupa espacio en una conversación sin aportar contenido"
+            "es": "la palabra de relleno",
+            "en": "la palabra que ocupa un hueco en la conversación sin aportar contenido («pues», «bueno»)"
           },
           {
-            "es": "la redundancia expresiva",
-            "en": "la repetición innecesaria de una idea, a veces usada con fines de énfasis"
+            "es": "la redundancia",
+            "en": "la repetición innecesaria de una idea o de una palabra"
           },
           {
-            "es": "el calco coloquial",
-            "en": "una expresión informal formada por imitación de otra estructura o lengua"
+            "es": "el taco",
+            "en": "palabrota, palabra malsonante («soltar un taco»)"
           },
           {
             "es": "la fórmula hecha",
             "en": "una expresión fija cuyo uso está fuertemente convencionalizado"
           },
           {
-            "es": "el refrán popular",
-            "en": "una frase breve y tradicional que transmite una enseñanza o una observación general"
+            "es": "el refrán",
+            "en": "el dicho breve y tradicional que contiene una enseñanza"
           },
           {
             "es": "la frase hecha",
@@ -10871,7 +10871,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: la correspondencia formal",
         "body": [
-          "35 palabras relacionadas con la correspondencia formal."
+          "Primera tanda: 18 palabras relacionadas con la correspondencia formal; las 17 restantes llegan en la lección siguiente."
         ],
         "examples": [
           {
@@ -10899,12 +10899,12 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el encabezado impreso de una institución que identifica al remitente de un documento"
           },
           {
-            "es": "el asunto de un correo",
-            "en": "la línea que resume brevemente el motivo de un mensaje"
+            "es": "el asunto",
+            "en": "la línea que resume el motivo de un correo o de un escrito"
           },
           {
-            "es": "el cuerpo del mensaje",
-            "en": "la parte central de un escrito donde se desarrolla el contenido principal"
+            "es": "el cuerpo",
+            "en": "la parte central de un escrito, donde se desarrolla el contenido"
           },
           {
             "es": "la posdata",
@@ -10915,8 +10915,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "un documento que se envía junto con un correo o una carta"
           },
           {
-            "es": "la solicitud formal",
-            "en": "una petición redactada siguiendo las convenciones del registro formal"
+            "es": "la solicitud",
+            "en": "el escrito con que se pide algo formalmente"
           },
           {
             "es": "el comprobante",
@@ -10927,24 +10927,24 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "una gestión que se realiza siguiendo un procedimiento oficial"
           },
           {
-            "es": "la notificación oficial",
-            "en": "un aviso formal emitido por una entidad con carácter vinculante"
+            "es": "la notificación",
+            "en": "el aviso formal que comunica una resolución o un trámite"
           },
           {
             "es": "el acuse de recibo",
             "en": "una confirmación por escrito de que un documento ha sido recibido"
           },
           {
-            "es": "la referencia de un escrito",
-            "en": "el dato que identifica un documento previo al que se hace alusión"
+            "es": "en relación con",
+            "en": "a propósito de; abre muchas cartas formales («en relación con su escrito del día 3…»)"
           },
           {
-            "es": "la redacción formal",
-            "en": "el modo de escribir siguiendo las convenciones de un registro cuidado y protocolario"
+            "es": "redactar",
+            "en": "poner por escrito algo pensado o acordado previamente"
           },
           {
-            "es": "el tono protocolar",
-            "en": "un estilo de expresión propio de los actos y documentos oficiales"
+            "es": "protocolario",
+            "en": "que se ajusta al protocolo; formal y ceremonioso"
           }
         ]
       }
@@ -10986,20 +10986,20 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos de la correspondencia formal",
         "body": [
-          "Segunda tanda: tipos de escrito (el oficio, la circular, el memorando, la instancia), elementos del documento (la firma, el sello institucional, la copia de cortesía) y cualidades de la redacción (la claridad expositiva, la concisión redaccional)."
+          "Segunda tanda: tipos de escrito (el oficio, la circular, el memorando, la instancia), elementos del documento (la rúbrica, el sello, la copia de cortesía), fórmulas de cierre (sin otro particular, a la espera de, atentamente) y cualidades de la redacción (la claridad expositiva, la concisión)."
         ],
         "examples": [
           {
-            "es": "la cortesía epistolar",
-            "en": "el conjunto de fórmulas de amabilidad propias de la correspondencia"
+            "es": "epistolar",
+            "en": "propio de las cartas o de la correspondencia"
           },
           {
-            "es": "el cierre cordial",
-            "en": "la despedida de un escrito formulada con amabilidad"
+            "es": "cordial",
+            "en": "amable y afectuoso («un cordial saludo»)"
           },
           {
-            "es": "la fórmula reverencial",
-            "en": "una expresión de gran respeto dirigida a una autoridad o institución"
+            "es": "atentamente",
+            "en": "la fórmula de despedida habitual en una carta formal"
           },
           {
             "es": "el oficio",
@@ -11018,44 +11018,44 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "un escrito formal mediante el cual se presenta una solicitud ante una autoridad"
           },
           {
-            "es": "el escrito formal",
-            "en": "cualquier documento redactado siguiendo las convenciones del registro protocolario"
+            "es": "el escrito",
+            "en": "el documento escrito, sobre todo el que se dirige a una autoridad"
           },
           {
-            "es": "la firma",
-            "en": "la rúbrica que autentica un documento al final del escrito"
+            "es": "la rúbrica",
+            "en": "el trazo que acompaña al nombre en la firma; por extensión, la firma"
           },
           {
-            "es": "el sello institucional",
-            "en": "una marca oficial que certifica la procedencia de un documento"
+            "es": "el sello",
+            "en": "la marca oficial que certifica la procedencia de un documento"
           },
           {
             "es": "la copia de cortesía",
             "en": "un duplicado de un escrito enviado a alguien por deferencia, sin ser el destinatario principal"
           },
           {
-            "es": "el destinatario colectivo",
-            "en": "un conjunto de personas a las que se dirige un mismo escrito"
+            "es": "remitir",
+            "en": "enviar algo a alguien, especialmente un documento"
           },
           {
             "es": "la claridad expositiva",
             "en": "la cualidad de un escrito de exponer sus ideas con orden y precisión"
           },
           {
-            "es": "la concisión redaccional",
-            "en": "la capacidad de expresar una idea con el menor número de palabras necesarias"
+            "es": "la concisión",
+            "en": "la brevedad y precisión al expresar algo"
           },
           {
-            "es": "el formulismo epistolar",
-            "en": "el uso reiterado de fórmulas fijas propias de la correspondencia formal"
+            "es": "el formulismo",
+            "en": "el uso excesivo de fórmulas fijas"
           },
           {
-            "es": "la despedida atenta",
-            "en": "una fórmula de cierre que expresa respeto y cordialidad"
+            "es": "sin otro particular",
+            "en": "la fórmula con que se cierra una carta formal antes de la despedida"
           },
           {
-            "es": "el protocolo de cortesía",
-            "en": "el conjunto de normas de trato respetuoso que rige un escrito formal"
+            "es": "a la espera de",
+            "en": "aguardando algo («quedo a la espera de su respuesta»)"
           }
         ]
       }
@@ -11637,32 +11637,32 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: el lenguaje académico",
         "body": [
-          "35 palabras relacionadas con el lenguaje académico."
+          "Primera tanda: 18 palabras relacionadas con el lenguaje académico; las 17 restantes llegan en la lección siguiente."
         ],
         "examples": [
           {
-            "es": "la tesis académica",
-            "en": "la afirmación central que un ensayo se propone defender mediante argumentos"
+            "es": "la tesis",
+            "en": "la idea central que un texto se propone demostrar o defender"
           },
           {
-            "es": "la variable de estudio",
-            "en": "elemento que se mide o se analiza dentro de una investigación"
+            "es": "la variable",
+            "en": "el factor que se mide o se analiza en una investigación"
           },
           {
             "es": "el argumento central",
             "en": "la idea principal sobre la que se sostiene todo un razonamiento"
           },
           {
-            "es": "la afirmación de partida",
-            "en": "idea inicial sobre la que se construye un argumento"
+            "es": "la premisa",
+            "en": "la afirmación de la que se parte para llegar a una conclusión"
           },
           {
-            "es": "la conclusión académica",
-            "en": "el resultado final al que llega un razonamiento tras considerar la evidencia"
+            "es": "desprenderse de",
+            "en": "deducirse de algo («de los datos se desprende que…»)"
           },
           {
-            "es": "el corpus de análisis",
-            "en": "el conjunto de textos o datos sobre los que se basa una investigación"
+            "es": "el corpus",
+            "en": "el conjunto de textos o de datos en que se basa una investigación"
           },
           {
             "es": "la evidencia empírica",
@@ -11673,12 +11673,12 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el conjunto de conceptos y autores que sustentan una investigación"
           },
           {
-            "es": "la objetividad discursiva",
-            "en": "la cualidad de un texto de presentar sus ideas sin sesgo personal evidente"
+            "es": "la objetividad",
+            "en": "la cualidad de presentar los hechos sin dejarse llevar por opiniones personales"
           },
           {
-            "es": "la impersonalidad redaccional",
-            "en": "la tendencia a evitar la mención explícita del autor dentro de un escrito"
+            "es": "la impersonalidad",
+            "en": "la tendencia a no mencionar al autor en un texto"
           },
           {
             "es": "el conector argumentativo",
@@ -11697,16 +11697,16 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la relación lógica y consistente entre las ideas de un razonamiento"
           },
           {
-            "es": "el matiz académico",
-            "en": "una precisión que suaviza o especifica el alcance de una afirmación"
+            "es": "el matiz",
+            "en": "la diferencia sutil de significado o de tono"
           },
           {
-            "es": "la reserva epistémica",
-            "en": "la cautela con que se presenta una afirmación, reconociendo sus límites"
+            "es": "con reservas",
+            "en": "con cautela, sin aceptar algo del todo («tomar los datos con reservas»)"
           },
           {
-            "es": "la atenuación discursiva",
-            "en": "el recurso de suavizar el grado de certeza de una afirmación"
+            "es": "atenuar",
+            "en": "suavizar o moderar la fuerza de una afirmación"
           },
           {
             "es": "la modalización",
@@ -11741,7 +11741,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos del ensayo académico",
         "body": [
-          "Segunda tanda: recursos de la impersonalidad académica (el verbo atenuador, la voz pasiva refleja, el se impersonal), partes del ensayo (el párrafo introductorio, el párrafo de cierre) y conceptos de la argumentación (la contraargumentación, el razonamiento deductivo, la falacia lógica)."
+          "Segunda tanda: recursos de la impersonalidad académica (el verbo atenuador, la voz pasiva refleja, el se impersonal, el plural de modestia), partes del ensayo (el párrafo introductorio, el párrafo de cierre) y conceptos de la argumentación (la contraargumentación, el razonamiento deductivo, la falacia)."
         ],
         "examples": [
           {
@@ -11757,8 +11757,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la partícula se usada para formular una afirmación sin atribuirla a un sujeto explícito"
           },
           {
-            "es": "la tercera persona académica",
-            "en": "el uso de formas impersonales o de plural para evitar la primera persona en un escrito académico"
+            "es": "el plural de modestia",
+            "en": "el uso de «nosotros» en lugar de «yo» por parte del autor de un texto"
           },
           {
             "es": "el análisis documental",
@@ -11769,16 +11769,16 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "la reformulación con palabras propias de una idea tomada de otro autor"
           },
           {
-            "es": "el corpus documental",
-            "en": "conjunto de textos y fuentes que se analizan en una investigación"
+            "es": "la bibliografía",
+            "en": "la lista de obras consultadas o citadas en un trabajo"
           },
           {
-            "es": "la apropiación indebida",
-            "en": "uso no autorizado de las ideas o palabras de otra persona como si fueran propias"
+            "es": "el plagio",
+            "en": "la copia de obras o ideas ajenas presentadas como propias"
           },
           {
-            "es": "la estructura expositiva",
-            "en": "forma en que se organizan las partes de un texto para presentar información de manera clara"
+            "es": "exponer",
+            "en": "presentar ideas o datos de forma ordenada"
           },
           {
             "es": "el párrafo introductorio",
@@ -11789,8 +11789,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "el párrafo final de un ensayo, donde se recapitula y se concluye el argumento"
           },
           {
-            "es": "la desestimación",
-            "en": "acción de rechazar un argumento por considerarlo inválido"
+            "es": "desestimar",
+            "en": "rechazar o no tener en cuenta un argumento o una petición"
           },
           {
             "es": "la contraargumentación",
@@ -11801,16 +11801,16 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "proceso lógico que parte de premisas generales para llegar a una conclusión particular"
           },
           {
-            "es": "la falacia lógica",
-            "en": "un error de razonamiento que parece válido pero no lo es"
+            "es": "la falacia",
+            "en": "el razonamiento que parece válido pero no lo es"
           },
           {
             "es": "la digresión",
             "en": "un desvío del tema principal hacia asuntos secundarios"
           },
           {
-            "es": "la exhaustividad analítica",
-            "en": "la cualidad de un análisis de considerar todos los aspectos relevantes de un tema"
+            "es": "exhaustivo",
+            "en": "que trata algo por completo, sin dejar nada fuera"
           }
         ]
       }

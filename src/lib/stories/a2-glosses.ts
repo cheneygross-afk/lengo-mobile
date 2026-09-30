@@ -123,7 +123,8 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
   ],
   "cooking-competition-friends": [
     { es: "la competencia", en: "competition", forms: ["competencia"] },
-    { es: "hornear", en: "to bake", forms: ["hornear", "horno"] },
+    { es: "hornear", en: "to bake", forms: ["hornear"] },
+    { es: "el horno", en: "oven", forms: ["horno"] },
     { es: "el limón", en: "lemon", forms: ["limón"] },
     { es: "responder", en: "to answer", forms: ["responde"] },
     { es: "amistoso", en: "friendly", forms: ["amistosa"] },
@@ -261,7 +262,8 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
   ],
   "grandmother-teaches-knitting": [
     { es: "la aguja", en: "knitting needle", forms: ["agujas"] },
-    { es: "tejer", en: "to knit", forms: ["tejer", "tejido", "tejiendo"] },
+    { es: "tejer", en: "to knit", forms: ["tejer", "tejiendo"] },
+    { es: "el tejido", en: "knitting (the piece being knitted)", forms: ["tejido"] },
     { es: "la lana", en: "yarn", forms: ["lana"] },
     { es: "mi amor", en: "sweetheart", forms: ["amor"] },
     { es: "moverse", en: "to move", forms: ["mueven"] },
@@ -790,7 +792,8 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "el frigorífico", en: "refrigerator", forms: ["frigorífico"] },
   ],
   "kayak-trip-on-the-lake": [
-    { es: "remar", en: "to paddle", forms: ["remaba", "remado", "remamos", "remar", "remaron", "remas", "remos"] },
+    { es: "remar", en: "to paddle", forms: ["remaba", "remado", "remamos", "remar", "remaron", "remas"] },
+    { es: "el remo", en: "oar, paddle", forms: ["remos"] },
     { es: "la orilla", en: "shore", forms: ["orilla"] },
     { es: "atrás", en: "in the back", forms: ["atrás"] },
     { es: "el chaleco salvavidas", en: "life jacket", forms: ["chalecos"] },
