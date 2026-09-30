@@ -45,6 +45,11 @@ export type AppStackParamList = {
   Placement: undefined;
   // "Test out" of a unit (units.ts) -- see UnitTestScreen.
   UnitTest: { levelPath: string; unitId: string };
+  // Reference tools (src/lib/conjugation, src/lib/glossary, synced from
+  // the website): verb tables + drills, optionally opened on one verb,
+  // and the course glossary.
+  Conjugation: { verb?: string } | undefined;
+  Glossary: undefined;
 };
 
 export type AuthStackParamList = {
