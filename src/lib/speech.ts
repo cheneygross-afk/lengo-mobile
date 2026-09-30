@@ -19,13 +19,14 @@ import {
   DEFAULT_PRONUNCIATION_ENABLED,
   type PronunciationVoice,
 } from "@/lib/pronunciationVoice";
+import { getSpanishVariety, loadSpanishVariety, spanishSpeechLang } from "@/lib/spanishVariety";
 
-export type SpeechLang = "es-ES" | "ja-JP" | "en-US";
+export type SpeechLang = "es-ES" | "es-US" | "ja-JP" | "en-US";
 
-// Spanish dialect choice: es-ES (Castilian), matching the language tag
-// the web prototype already used. Nothing in the lesson content commits
-// to a dialect either way -- revisit if the curriculum's Spanish leans
-// more Latin American in practice.
+// Screens ask for Spanish as SPANISH_LANG (es-ES); the learner's "Spanish
+// I want to learn" setting decides which voice actually speaks it --
+// Castilian (es-ES) or Latin American (es-US). See voiceLang() below and
+// spanishVariety.ts.
 export const SPANISH_LANG: SpeechLang = "es-ES";
 export const JAPANESE_LANG: SpeechLang = "ja-JP";
 export const ENGLISH_LANG: SpeechLang = "en-US";
@@ -173,7 +174,33 @@ function loadPronunciationPrefs(): Promise<void> {
 // (flashcard backs, glosses, etc.) always uses the device voice, which is
 // already fine for English and isn't worth paying to regenerate.
 function hasCloudVoice(lang: SpeechLang): boolean {
-  return lang === SPANISH_LANG || lang === JAPANESE_LANG;
+  return lang === "es-ES" || lang === "es-US" || lang === JAPANESE_LANG;
+}
+
+function voiceLang(lang: SpeechLang): SpeechLang {
+  return lang.startsWith("es") ? spanishSpeechLang(getSpanishVariety()) : lang;
+}
+
+// The device voice for Latin American Spanish: a US Spanish voice, else
+// Mexican, else Latin American, else any Spanish voice that isn't
+// Castilian. undefined leaves the choice to the platform (by language).
+const LATAM_FALLBACKS = ["es-us", "es-mx", "es-419"];
+let latamDeviceVoice: Promise<string | undefined> | null = null;
+function deviceVoiceFor(lang: SpeechLang): Promise<string | undefined> {
+  if (lang !== "es-US") return Promise.resolve(undefined);
+  if (!latamDeviceVoice) {
+    latamDeviceVoice = Speech.getAvailableVoicesAsync()
+      .then((voices) => {
+        const norm = (l: string | undefined) => (l ?? "").toLowerCase().replace("_", "-");
+        for (const tag of LATAM_FALLBACKS) {
+          const match = voices.find((v) => norm(v.language) === tag);
+          if (match) return match.identifier;
+        }
+        return voices.find((v) => norm(v.language).startsWith("es-") && norm(v.language) !== "es-es")?.identifier;
+      })
+      .catch(() => undefined);
+  }
+  return latamDeviceVoice;
 }
 
 let currentPlayer: AudioPlayer | null = null;
@@ -268,10 +295,12 @@ async function requestGeneration(text: string, lang: SpeechLang, voice: Pronunci
   }
 }
 
-function speakOnDevice(clean: string, lang: SpeechLang) {
+async function speakOnDevice(clean: string, lang: SpeechLang) {
+  const voice = await deviceVoiceFor(lang);
   Speech.stop();
   Speech.speak(clean, {
     language: lang,
+    voice,
     pitch: 1.0,
     // Slightly slower for Japanese -- kana/kanji run together with no
     // spaces, so full native rate reads as a blur for a learner.
@@ -285,7 +314,7 @@ function speakOnDevice(clean: string, lang: SpeechLang) {
 // cloud path fails or isn't offered for this language. Cancels anything
 // already playing/speaking first so rapid taps (flipping through
 // flashcards, tapping several words) don't pile up overlapping audio.
-export function speak(text: string, lang: SpeechLang) {
+export function speak(text: string, requestedLang: SpeechLang) {
   const clean = stripForSpeech(text);
   if (!clean) return;
 
@@ -298,11 +327,12 @@ export function speak(text: string, lang: SpeechLang) {
   const run = readAloudRun;
 
   void (async () => {
-    await loadPronunciationPrefs();
+    await Promise.all([loadPronunciationPrefs(), loadSpanishVariety()]);
     if (!pronunciationEnabled) return;
+    const lang = voiceLang(requestedLang);
 
     if (!hasCloudVoice(lang)) {
-      speakOnDevice(clean, lang);
+      void speakOnDevice(clean, lang);
       return;
     }
 
@@ -316,7 +346,7 @@ export function speak(text: string, lang: SpeechLang) {
     if (run !== readAloudRun) return;
     if (generatedUrl && (await tryPlayRemote(generatedUrl))) return;
     if (run !== readAloudRun) return;
-    speakOnDevice(clean, lang);
+    void speakOnDevice(clean, lang);
   })();
 }
 
@@ -408,7 +438,8 @@ function playClipToEnd(url: string): Promise<ClipResult> {
   });
 }
 
-function speakOnDeviceToEnd(text: string, lang: SpeechLang): Promise<ClipResult> {
+async function speakOnDeviceToEnd(text: string, lang: SpeechLang): Promise<ClipResult> {
+  const voice = await deviceVoiceFor(lang);
   return new Promise((resolve) => {
     let settled = false;
     const finish = (result: ClipResult) => {
@@ -425,6 +456,7 @@ function speakOnDeviceToEnd(text: string, lang: SpeechLang): Promise<ClipResult>
     Speech.stop();
     Speech.speak(text, {
       language: lang,
+      voice,
       rate: lang === JAPANESE_LANG ? 0.85 : 0.95,
       onDone: () => finish("ended"),
       onError: () => finish("ended"),
@@ -467,19 +499,20 @@ async function playChunk(text: string, lang: SpeechLang, run: number): Promise<C
  * it finishes. Any later speak(), readAloud(), stopReadAloud() or
  * stopSpeaking() call stops it.
  */
-export function readAloud(chunks: string[], lang: SpeechLang, onChunk: (index: number | null) => void): void {
+export function readAloud(chunks: string[], requestedLang: SpeechLang, onChunk: (index: number | null) => void): void {
   stopReadAloud();
   currentPlayer?.remove();
   currentPlayer = null;
   Speech.stop();
   const run = readAloudRun;
   void (async () => {
-    await loadPronunciationPrefs();
+    await Promise.all([loadPronunciationPrefs(), loadSpanishVariety()]);
     if (run !== readAloudRun) return;
     if (!pronunciationEnabled) {
       onChunk(null);
       return;
     }
+    const lang = voiceLang(requestedLang);
     for (let i = 0; i < chunks.length; i++) {
       if (run !== readAloudRun) return;
       onChunk(i);
