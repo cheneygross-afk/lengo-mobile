@@ -37,6 +37,8 @@ import {
 } from "@/lib/highlights";
 import { highlightMarkColor } from "@/lib/highlightColors";
 import { LESSON_PASS_PERCENT, lessonPassed } from "@/lib/grading";
+import { getSpanishVariety, loadSpanishVariety, type SpanishVariety } from "@/lib/spanishVariety";
+import { isVosotrosFocused, requiresVosotros, vosotrosNote } from "@/lib/vosotros";
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonRunner">;
 
@@ -77,28 +79,48 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   // Missed questions from this track that are due again, read once when
   // the lesson opens so the review questions don't shift mid-lesson.
   const [dueMissed, setDueMissed] = useState<MissedQuestion[] | null>(null);
+  // The learner's Spanish variety, also read once when the lesson opens:
+  // Latin America learners skip questions that need a vosotros form (see
+  // vosotros.ts), and the question list mustn't change mid-lesson.
+  const [variety, setVariety] = useState<SpanishVariety | null>(null);
   useEffect(() => {
     let cancelled = false;
     setDueMissed(null);
-    getDueMissedQuestions(levelPath)
-      .catch(() => [] as MissedQuestion[])
-      .then((due) => {
-        if (!cancelled) setDueMissed(due);
-      });
+    // Don't hold the lesson up for long on a slow connection -- the value
+    // saved on this device is almost always already right.
+    const varietyLoad = Promise.race([
+      loadSpanishVariety(),
+      new Promise<SpanishVariety>((resolve) => setTimeout(() => resolve(getSpanishVariety()), 1500)),
+    ]).catch(() => getSpanishVariety());
+    Promise.all([getDueMissedQuestions(levelPath).catch(() => [] as MissedQuestion[]), varietyLoad]).then(
+      ([due, v]) => {
+        if (cancelled) return;
+        setVariety(v);
+        setDueMissed(due);
+      }
+    );
     return () => {
       cancelled = true;
     };
   }, [levelPath, slug]);
 
+  const skipExercise = useMemo(
+    () => (variety === "latam" && lesson && !lesson.level.startsWith("JA") ? requiresVosotros : () => false),
+    [variety, lesson]
+  );
   const steps = useMemo<Step[]>(() => {
-    if (!lesson || dueMissed === null) return [];
+    if (!lesson || dueMissed === null || variety === null) return [];
     const own: QuestionSource = { slug: lesson.slug, number: lesson.number, title: lesson.title };
     const out: Step[] = [];
+    // q numbers the questions shown; authored counts every question in
+    // the lesson, skipped or not, so ids stay the same as
+    // authoredQuestions() order (see missedQuestions.ts).
     let q = 0;
+    let authored = 0;
     const pushOwn = (exercise: Exercise) => {
-      // Stable per-question id -- same order as authoredQuestions(), see
-      // missedQuestions.ts.
-      out.push({ kind: "exercise", exercise, id: `${lesson.slug}#${q}`, key: `q-${q}`, number: q + 1, source: own });
+      const index = authored++;
+      if (skipExercise(exercise)) return;
+      out.push({ kind: "exercise", exercise, id: `${lesson.slug}#${index}`, key: `q-${index}`, number: q + 1, source: own });
       q++;
     };
     if (lesson.sections.length === 0) out.push({ kind: "teach", sectionIndex: null, first: true });
@@ -108,7 +130,13 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     });
     lesson.exercises.forEach(pushOwn);
     const trackLessons = LESSON_SOURCES[moduleKeyForLesson(lesson)].lessons;
-    const review = buildReviewQuestions(lesson, trackLessons, dueMissed, MIN_DRILL_QUESTIONS - authoredQuestions(lesson).length);
+    const review = buildReviewQuestions(
+      lesson,
+      trackLessons,
+      dueMissed,
+      MIN_DRILL_QUESTIONS - authoredQuestions(lesson).filter((ex) => !skipExercise(ex)).length,
+      skipExercise
+    );
     review.forEach((r, i) => {
       out.push({
         kind: "exercise",
@@ -123,7 +151,11 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     });
     out.push({ kind: "complete" });
     return out;
-  }, [lesson, dueMissed]);
+  }, [lesson, dueMissed, variety, skipExercise]);
+  const lessonNote =
+    variety === "latam" && lesson && !lesson.level.startsWith("JA") && isVosotrosFocused(lesson)
+      ? vosotrosNote(lesson.level)
+      : null;
   const questionCount = steps.filter((st) => st.kind === "exercise").length;
   // The lesson after this one in its track, for "continue anyway" when
   // the learner didn't reach the pass mark.
@@ -360,6 +392,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
             lesson={lesson}
             sectionIndex={currentStep.sectionIndex}
             first={currentStep.first}
+            note={lessonNote}
             nextIsQuestion={steps[stepIndex + 1]?.kind === "exercise"}
             onContinue={goNext}
             highlightsFor={highlightsFor}
@@ -454,6 +487,7 @@ function TeachStep({
   lesson,
   sectionIndex,
   first,
+  note,
   nextIsQuestion,
   onContinue,
   highlightsFor,
@@ -467,6 +501,8 @@ function TeachStep({
   // (a pure review), which just gets the title screen.
   sectionIndex: number | null;
   first: boolean;
+  // Shown under the title on the first screen (the Latin America vosotros note).
+  note: string | null;
   nextIsQuestion: boolean;
   onContinue: () => void;
   highlightsFor: (blockKey: string) => LessonHighlight[];
@@ -486,6 +522,11 @@ function TeachStep({
           </Text>
           <TapText text={lesson.title} lang={lang} style={s.introTitle} />
           <LessonVideoLink level={lesson.level} slug={lesson.slug} />
+          {note ? (
+            <View style={s.noteBox}>
+              <TapText text={note} lang={lang} style={s.noteText} />
+            </View>
+          ) : null}
         </>
       ) : null}
       {(sectionIndex === null ? [] : [sectionIndex]).map((si) => {
@@ -667,6 +708,17 @@ const s = StyleSheet.create({
   kicker: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#7A1F1F", marginBottom: 6 },
   introTitle: { fontSize: 24, fontWeight: "800", color: "#000", marginBottom: 18 },
   introSection: { marginBottom: 22 },
+  noteBox: {
+    borderWidth: 1,
+    borderColor: "#00000018",
+    backgroundColor: "#00000008",
+    borderRadius: 12,
+    paddingVertical: 10,
+    paddingHorizontal: 14,
+    marginTop: -6,
+    marginBottom: 18,
+  },
+  noteText: { fontSize: 14, lineHeight: 20, color: "#000000cc" },
   teachHeading: { fontSize: 18, fontWeight: "700", color: "#000", marginBottom: 8 },
   // Split from a single Text style so HighlightableText can apply the
   // font styling per word (teachBody) while the paragraph spacing lives

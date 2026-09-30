@@ -11,6 +11,7 @@ import {
   type PronunciationVoice,
 } from "@/lib/pronunciationVoice";
 import { setPreferredVoice, setPronunciationEnabled } from "@/lib/speech";
+import SpanishVarietyPicker from "@/components/SpanishVarietyPicker";
 
 // Screen reached from Home's "Settings" link (previously a bare "Log
 // out" link there). "Get Premium" is a plain hyperlink out to the
@@ -429,6 +430,7 @@ export default function SettingsScreen() {
             );
           })}
         </View>
+        <SpanishVarietyPicker />
       </View>
 
       <Pressable style={s.logoutBtn} onPress={signOut}>
