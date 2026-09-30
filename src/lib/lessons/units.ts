@@ -63,6 +63,7 @@ const u = (start: string, title: string, description: string, extras?: string[])
 const UNIT_DEFS: Record<UnitLevelPath, UnitDef[]> = {
   a1: [
     u("greetings-pronouns-ser-1", "Ser, articles & adjectives", "Greetings, subject pronouns, ser, el/la/un/una and making adjectives agree.", ["adjectives-gender-number-drill-1"]),
+    u("sounds-vowels", "Sounds of Spanish", "Vowels, r and rr, b/v, j, ll, ñ, c/z, linking, intonation and stress, with listening and speaking."),
     u("present-tense-ar-verbs", "Present-tense verbs", "Regular -ar, -er and -ir verbs and the stem changers e→ie, o→ue, e→i.", ["present-tense-verbs-drill-1"]),
     u("a1r-word-web-jobs", "Ser vs. estar", "When to use ser and when estar, plus estar + gerund for right now.", ["ser-vs-estar-drill-1"]),
     u("possessives-prepositions", "Possessives, numbers & time", "Mi, tu, su, basic prepositions, numbers, prices and telling the time.", ["possessives-prepositions-drill-1", "numbers-time-drill-1"]),
