@@ -67,7 +67,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
           ["Sin duda, es el mejor restaurante de la ciudad.", "Without a doubt, it's the best restaurant in the city."],
         ],
         [
-          fb("Complete: \"I guess so. I'm not sure.\"", "___ que sí. No estoy seguro.", "Supongo", "Supongo que sí = I guess so / I suppose so."),
+          { ...fb("Complete: \"I guess so. I'm not sure.\"", "___ que sí. No estoy seguro.", "Supongo", "Supongo que sí = I guess so / I suppose so."), altAnswers: ["Creo"] },
           mc(
             "Which word means \"maybe\"?",
             ["quizás", "supongo", "parece", "sin duda"],

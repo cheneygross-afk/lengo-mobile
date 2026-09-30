@@ -4206,6 +4206,7 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración.",
             "sentence": "Esa es la razón por ___ me fui.",
             "answer": "la que",
+            "altAnswers": ["la cual"],
             "explanation": "\"Por la que\" concuerda con \"razón\", femenino singular."
           }
         ]
@@ -5650,6 +5651,7 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa con el pronombre posesivo correcto.",
             "sentence": "Tengo mi mochila, pero no encuentro ___ (la mochila de Pedro).",
             "answer": "la suya",
+            "altAnswers": ["la de él", "la de Pedro"],
             "hint": "de él",
             "explanation": "'Mochila' es femenina singular y pertenece a él (Pedro), así que el pronombre es 'la suya', concordando con 'mochila', no con 'Pedro'."
           }
@@ -8657,10 +8659,18 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Elige entre imperfecto y condicional según el contexto.",
-        "sentence": "De joven, mi abuela ___ (cantar) todas las noches; ahora dice que ___ (cantar) otra vez si tuviera fuerzas.",
-        "answer": "cantaba / cantaría",
-        "hint": "hábito pasado vs. situación hipotética",
-        "explanation": "\"Cantaba\" describe un hábito repetido en el pasado (imperfecto), mientras que \"cantaría\" expresa una posibilidad hipotética en el presente (condicional)."
+        "sentence": "De joven, mi abuela ___ (cantar) todas las noches.",
+        "answer": "cantaba",
+        "hint": "hábito pasado",
+        "explanation": "\"Cantaba\" describe un hábito repetido en el pasado (imperfecto)."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Elige entre imperfecto y condicional según el contexto.",
+        "sentence": "Ahora mi abuela dice que ___ (cantar) otra vez si tuviera fuerzas.",
+        "answer": "cantaría",
+        "hint": "situación hipotética",
+        "explanation": "\"Cantaría\" expresa una posibilidad hipotética en el presente (condicional)."
       }
     ]
   },
@@ -8764,7 +8774,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "lleguemos"
         ],
         "correctIndex": 0,
-        "explanation": "Un hábito o rutina con si se expresa con presente + presente: 'Si llegamos temprano, cogemos buenos asientos.'"
+        "explanation": "Un hábito o rutina con si se expresa con presente + presente: 'Si llegamos temprano, cogemos buenos asientos.' Ojo: coger es neutro en España, pero en México, Argentina y buena parte de Latinoamérica es vulgar; allí se dice tomar o agarrar."
       },
       {
         "type": "multiple-choice",
@@ -9975,6 +9985,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce al español.",
         "source": "The woman whose car was stolen called the police.",
         "answer": "La mujer cuyo coche fue robado llamó a la policía.",
+        "altAnswers": ["La mujer cuyo carro fue robado llamó a la policía.", "La mujer cuyo auto fue robado llamó a la policía.", "La mujer a la que le robaron el coche llamó a la policía."],
         "explanation": "'Cuyo' concuerda con 'coche', masculino singular, no con 'mujer'."
       },
       {
@@ -10181,7 +10192,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "Las tres primeras oraciones usan 'el que / la que / los que / las que' correctamente para distinguir o generalizar; la tercera repite el antecedente con 'quien', lo cual es redundante e incorrecto."
+        "explanation": "«La que tiene jardín», «Los que estudian» y «Las que compraste» usan el artículo + que correctamente para distinguir o generalizar; «El que vive en Madrid, quien es mi tío» añade un segundo relativo que sobra, lo cual es redundante e incorrecto."
       }
     ]
   },

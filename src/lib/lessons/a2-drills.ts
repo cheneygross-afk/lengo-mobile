@@ -404,7 +404,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
         [0, 2],
         "Vender and correr are regular."
       ),
-      toEs("She sold her car and came to Spain.", "Vendió su coche y vino a España.", "Regular + irregular.", ["Ella vendió su coche y vino a España."]),
+      toEs("She sold her car and came to Spain.", "Vendió su coche y vino a España.", "Regular + irregular.", ["Ella vendió su coche y vino a España.", "Vendió su carro y vino a España.", "Ella vendió su carro y vino a España."]),
     ]
   ),
   L(
@@ -806,12 +806,12 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "imperfect-drill-3",
     "a2d-fix-paragraph-imperfect",
     "Fix the Paragraph: Imperfect Forms",
-    "A memory written with wrong imperfect forms (íba, eraba, veía without the e): repair every verb.",
+    "A memory written with wrong imperfect forms (íba, eraba, vía for veía): repair every verb.",
     "6 min",
     [
       sec(
         "Common imperfect errors",
-        "✗ íbamos without accent is fine (íbamos needs it!), but ✗ íba (→ iba) and ✗ ibámos (→ íbamos) are wrong. ✗ eraba (→ era). ✗ vía (→ veía). ✗ tenió (preterite mix-up → tenía). Paragraph: «En 1998 yo vivía en Lima. Eraba estudiante y íba a la universidad en autobús. Por las tardes vía a mis amigos.»",
+        "✗ íba (→ iba: iba, ibas, iba, iban have no accent), while íbamos does carry one — ✗ ibámos puts it in the wrong place. ✗ eraba (→ era). ✗ vía (→ veía). ✗ tenió (preterite mix-up → tenía). Paragraph: «En 1998 yo vivía en Lima. Eraba estudiante y íba a la universidad en autobús. Por las tardes vía a mis amigos.»",
         [
           ["✗ Eraba estudiante. → ✓ Era estudiante.", "I was a student."],
           ["✗ Vía a mis amigos. → ✓ Veía a mis amigos.", "I used to see my friends."],
@@ -1149,23 +1149,23 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "preterite-vs-imperfect-mastery-check",
     "a2d-fix-paragraph-pret-imp",
     "Fix the Paragraph: Wrong Past Tense",
-    "A travel story where every other verb is in the wrong past tense. Find them and fix them.",
+    "A travel story where several verbs are in the wrong past tense. Find them and fix them.",
     "7 min",
     [
       sec(
         "The paragraph",
-        "«El verano pasado fuimos a Cuba. ✗ Hizo mucho calor todos los días (→ hacía). El hotel ✗ fue precioso y ✗ tuvo una piscina enorme (→ era, tenía). Un día ✗ íbamos a Trinidad en coche (→ fuimos). Mientras ✗ condujimos (→ conducíamos), ✗ empezaba a llover (→ empezó).»",
+        "«El verano pasado fuimos a Cuba. Cuando llegamos, ✗ fueron las once de la noche (→ eran). El hotel ✗ estuvo muy cerca de la playa y ✗ tuvo una piscina enorme (→ estaba, tenía). Un día ✗ íbamos a Trinidad en coche (→ fuimos). Mientras ✗ condujimos (→ conducíamos), ✗ empezaba a llover (→ empezó).»",
         [
-          ["Hacía calor todos los días.", "It was hot every day."],
+          ["Cuando llegamos, eran las once de la noche.", "When we arrived, it was eleven at night."],
           ["Mientras conducíamos, empezó a llover.", "While we were driving, it started to rain."],
         ],
         [
-          fb("Fix it.", "El hotel ___ precioso. (the story says: fue — it's a description)", "era", "Description → imperfect."),
+          fb("Fix it.", "El hotel ___ muy cerca de la playa. (the story says: estuvo — it's a description)", "estaba", "Where the hotel was is background description → imperfect."),
         ]
       ),
     ],
     [
-      fb("Fix it.", "___ mucho calor todos los días. (the story says: Hizo — it's a repeated background)", "Hacía", "Background/habit."),
+      fb("Fix it.", "Cuando llegamos, ___ las once de la noche. (the story says: fueron — clock time is background)", "eran", "Telling the time in the past → imperfect: eran las once."),
       fb("Fix it.", "El hotel ___ una piscina enorme. (the story says: tuvo)", "tenía", "Description → imperfect."),
       fb("Fix it.", "Un día ___ a Trinidad en coche. (the story says: íbamos — one trip)", "fuimos", "Single event → preterite."),
       fb("Fix it.", "Mientras ___, empezó a llover. (the story says: condujimos — but it was in progress)", "conducíamos", "In progress → imperfect."),
@@ -1655,9 +1655,9 @@ export const A2_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Fix it.", "La ciudad ___ preciosa. (the diary says: fue — describing it)", "era", "Description → imperfect."),
+      fb("Fix it.", "La ciudad ___ preciosa. (the diary says: fue — describing it)", "era", "Describing what the city was like as you saw it → imperfect. (Fue preciosa isn't impossible, but it sums the visit up as a finished experience, which sounds odd in the middle of the day's events.)"),
       fb("Fix it.", "___ frío y había mucha gente. (the diary says: Hizo — background)", "Hacía", "Background weather."),
-      fb("Fix it.", "Como estábamos cansados, ___ una siesta. (the diary says: tomábamos — one nap)", "tomamos", "Single event → preterite."),
+      { ...fb("Fix it.", "Como estábamos cansados, ___ una siesta. (the diary says: tomábamos — one nap)", "tomamos", "Single event → preterite."), altAnswers: ["echamos", "dormimos"] },
       fb("Fix it.", "Por la tarde ___ la catedral. (the diary says: visitábamos)", "visitamos", "Single event → preterite."),
       fb("Fix it.", "El guía nos ___ muchas historias interesantes. (the diary says: dició)", "contó", "Contar → contó (dició is not a word)."),
       mc(
@@ -3109,7 +3109,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
       fb("Complete.", "¿___ tú en la reunión? (estar)", "Estarás", "Infinitive + -ás."),
       fb("Complete.", "Mi jefe ___ la decisión el lunes. (tomar)", "tomará", "Infinitive + -á."),
       fb("Complete.", "Nosotros ___ en un hotel. (dormir)", "dormiremos", "No stem change in the future."),
-      fb("Complete.", "Ellos ___ el tren de las ocho. (coger)", "cogerán", "Infinitive + -án."),
+      fb("Complete.", "Ellos ___ el tren de las ocho. (coger)", "cogerán", "Infinitive + -án. Coger (to catch, to take) is everyday Spanish in Spain, but in Mexico, Argentina and much of Latin America it's vulgar; there, say tomar or agarrar: tomarán el tren."),
       fb("Complete.", "Vosotros ___ mucho en este curso. (aprender)", "aprenderéis", "Infinitive + -éis."),
       mt(
         "Match subject and future of abrir.",
@@ -3445,7 +3445,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     [
       sec(
         "Por looks back or through",
-        "Duration: Estudié por dos horas. Cause: No salí por la lluvia. Exchange/price: Lo compré por diez euros. Movement through/along: Caminamos por el parque. Means: por teléfono, por correo. Fixed: por favor, por eso, por fin, por ejemplo.",
+        "Duration: Estudié por dos horas (natives often drop por here, or use durante: Estudié dos horas / durante dos horas). Cause: No salí por la lluvia. Exchange/price: Lo compré por diez euros. Movement through/along: Caminamos por el parque. Means: por teléfono, por correo. Fixed: por favor, por eso, por fin, por ejemplo.",
         [
           ["Gracias por la ayuda.", "Thanks for the help."],
           ["Paseamos por la playa.", "We walked along the beach."],
@@ -3471,7 +3471,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
         "«Vivimos en Roma por tres años.»",
         ["duration", "exchange", "recipient", "destination"],
         0,
-        "How long."
+        "How long. (Vivimos en Roma tres años or durante tres años say the same thing and are more common.)"
       ),
       fb("Complete.", "Te mando la foto ___ WhatsApp esta noche.", "por", "Means of communication."),
       fb("Complete.", "Pagué veinte euros ___ la camiseta.", "por", "Price/exchange."),
@@ -4040,7 +4040,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
         "«He travelled around Italy for a month.»",
         ["Viajó por Italia por un mes.", "Viajó para Italia para un mes.", "Viajó por Italia para un mes.", "Viajó para Italia por un mes."],
         0,
-        "Route + duration → por, por."
+        "Route + duration → por, por. (Viajó por Italia un mes, or durante un mes, is just as natural.)"
       ),
       mc(
         "«I'm studying for the exam.» (goal)",
@@ -4393,7 +4393,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Complete.", "Siga todo ___ hasta el semáforo.", "recto", "Straight on."),
+      { ...fb("Complete.", "Siga todo ___ hasta el semáforo.", "recto", "Straight on."), altAnswers: ["derecho"] },
       fb("Complete.", "Gire a la ___ en la esquina. (right)", "derecha", "Right."),
       fb("Complete.", "___ la plaza y ahí está el museo. (cross, usted)", "Cruce", "Cruzar → cruce."),
       fb("Complete.", "El banco está al ___ de la farmacia. (next to)", "lado", "Al lado de."),
@@ -4521,7 +4521,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
         0,
         "Decir algo a alguien → al camarero."
       ),
-      toEs("The waiter was very kind and brought us another dish.", "El camarero fue muy amable y nos trajo otro plato.", "Preterite of evaluation + traer.", ["El camarero era muy amable y nos trajo otro plato."]),
+      toEs("The waiter was very kind and brought us another dish.", "El camarero fue muy amable y nos trajo otro plato.", "Preterite of evaluation + traer.", ["El camarero era muy amable y nos trajo otro plato.", "El mesero fue muy amable y nos trajo otro plato.", "El mesero era muy amable y nos trajo otro plato."]),
     ]
   ),
   L(
@@ -4588,7 +4588,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
         "«Estaremos en Roma ___ una semana.»",
         ["por", "para", "a", "de"],
         0,
-        "Duration."
+        "Of these options, por is the one that can express duration. (Estaremos en Roma una semana, with no preposition, or durante una semana are just as natural.)"
       ),
       toEs("Next year I'll have more time than this year.", "El año que viene tendré más tiempo que este año.", "Future + comparison.", ["El próximo año tendré más tiempo que este año."]),
     ]

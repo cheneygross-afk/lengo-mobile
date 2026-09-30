@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useLayoutEffect, useMemo, useState } from "react";
 import { View, Text, SectionList, Pressable, StyleSheet } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
@@ -6,18 +6,19 @@ import type { AppStackParamList } from "@/navigation/types";
 import { LESSON_SOURCES, type LessonModuleKey } from "@/lib/lessons/registry";
 import {
   A1_MODULES,
-  A1_MAX_DRILL_LESSON_NUMBER,
   groupLessonsByModule,
   groupLessonsByOptional,
   type LessonSection,
 } from "@/lib/lessons/modules";
 import { getCompletedMap, syncCompletedMapFromCloud } from "@/lib/lessons/completion";
+import { requiredLessons } from "@/lib/lessons/levels";
 import { getPendingReviewBatch, type PendingReviewBatch } from "@/lib/lessons/reviewCadence";
 import { parseDurationMinutes, formatMinutes } from "@/lib/duration";
 
 // Spanish levels whose order comes from sequencing.ts (A1 has its own
 // hand-defined modules in modules.ts).
 const SEQUENCED_LEVELS = new Set(["a2", "b1", "b2", "c1", "c2"]);
+const SPANISH_LEVELS = new Set(["a1", ...SEQUENCED_LEVELS]);
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonList">;
 
@@ -55,13 +56,16 @@ export default function LessonListScreen({ navigation, route }: Props) {
     }, [source.levelPath])
   );
 
-  // Reading Practice is left out of A1's list entirely -- see the comment
-  // on A1_MODULES. Every other module (the Japanese tracks) has no such
-  // duplicate-content block, so it's shown flat, ungrouped.
-  const visibleLessons = useMemo(
-    () => (moduleKey === "a1" ? source.lessons.filter((l) => l.number <= A1_MAX_DRILL_LESSON_NUMBER) : source.lessons),
-    [moduleKey, source.lessons]
-  );
+  // Spanish levels are titled with their CEFR code and name
+  // ("B2 · Upper-intermediate"), like the website's level header.
+  useLayoutEffect(() => {
+    if (SPANISH_LEVELS.has(moduleKey)) navigation.setOptions({ title: source.title });
+  }, [navigation, moduleKey, source.title]);
+
+  // Every lesson in the source is on the level's path: sequencing.ts
+  // already dropped the Reading Practice stories (A1-B2), which live on
+  // under Readings.
+  const visibleLessons = source.lessons;
   const sections: LessonSection[] = useMemo(
     () =>
       moduleKey === "a1"
@@ -72,14 +76,14 @@ export default function LessonListScreen({ navigation, route }: Props) {
     [moduleKey, visibleLessons, source.title]
   );
   // Counts the required path only -- optional Extra Practice lessons (see
-  // sequencing.ts) are extra.
-  const requiredLessons = visibleLessons.filter((l) => !l.optional);
-  const completedCount = requiredLessons.filter((l) => completed[l.slug]).length;
+  // sequencing.ts) are extra. The level cards count the same set.
+  const required = useMemo(() => requiredLessons(visibleLessons), [visibleLessons]);
+  const completedCount = required.filter((l) => completed[l.slug]).length;
 
   return (
     <View style={styles.container}>
       <Text style={styles.header}>
-        {completedCount} of {requiredLessons.length} required lessons completed
+        {completedCount} of {required.length} required lessons completed
       </Text>
       {pendingReview && (
         <Pressable

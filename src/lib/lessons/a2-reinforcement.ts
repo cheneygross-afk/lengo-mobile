@@ -956,7 +956,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         [0, 2, 3],
         "Mejor is already comparative — never más mejor."
       ),
-      toEs("This apartment is the biggest in the building.", "Este piso es el más grande del edificio.", "Superlative: el más + adjective + de (not en).", ["Este apartamento es el más grande del edificio."]),
+      toEs("This apartment is the biggest in the building.", "Este piso es el más grande del edificio.", "Superlative: el más + adjective + de (not en).", ["Este apartamento es el más grande del edificio.", "Este departamento es el más grande del edificio."]),
       toEn("El piso B tiene menos luz pero cuesta menos.", "Apartment B has less light but costs less.", "Menos with a noun and with a verb.", ["Apartment B has less light but it costs less.", "Flat B has less light but costs less."]),
       wo("Al final elegimos el piso más barato de los dos.", "Superlative with de: el más barato de los dos.", "In the end we chose the cheaper of the two apartments."),
     ]
@@ -986,13 +986,13 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Mayor and menor",
-        "With people's ages, use mayor (older) and menor (younger) rather than más viejo / más joven.",
+        "With people's ages, mayor (older) and menor (younger) are the usual choice. Más joven is also fine; más viejo can sound blunt. Mayor and menor are already comparative, so they never take más: ✗ más menor.",
         [
           ["Mi hermano es mayor que yo.", "My brother is older than me."],
           ["Soy el menor de la familia.", "I'm the youngest in the family."],
         ],
         [
-          fb("Fix the comparison.", "Mi prima es ___ que yo; tiene veinte años y yo tengo veinticinco. (learner wrote: más joven)", "menor", "Más joven isn't wrong, but for comparing people's ages menor is the standard, natural choice."),
+          { ...fb("Fix the comparison.", "Mi prima es ___ que yo; tiene veinte años y yo tengo veinticinco. (learner wrote: más menor)", "menor", "Menor already means \"younger\", so it doesn't take más: menor que yo (or más joven que yo)."), altAnswers: ["más joven"] },
         ]
       ),
     ],
@@ -1177,7 +1177,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Complete with por or para.", "Tenemos que reservar el hotel ___ el 15 de mayo.", "para", "Deadline → para."),
       fb("Complete with por or para.", "El vuelo se canceló ___ la tormenta.", "por", "Cause → por."),
-      fb("Complete with por or para.", "Vamos a viajar ___ tren desde la capital.", "por", "Means of transport → por."),
+      fb("Complete with por or para.", "Te mando las fotos ___ correo electrónico.", "por", "Means of sending or communicating → por: por correo, por teléfono. (For travelling, Spanish normally says en tren, en autobús.)"),
       fb("Complete with por or para.", "Ahorro dinero ___ el viaje.", "para", "Purpose/goal → para."),
       mt(
         "Match each phrase to the reason for its preposition.",
@@ -1683,7 +1683,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Irse in the future (nos iremos), adverb rápidamente, llover → lloverá."
       ),
-      toEs("I'll bring the chairs; my brother will bring them in his car.", "Yo traeré las sillas; mi hermano las traerá en su coche.", "Future of traer; las replaces las sillas.", ["Traeré las sillas; mi hermano las traerá en su coche.", "Yo traeré las sillas, mi hermano las traerá en su carro."]),
+      toEs("I'll bring the chairs; my brother will bring them in his car.", "Yo traeré las sillas; mi hermano las traerá en su coche.", "Future of traer; las replaces las sillas.", ["Traeré las sillas; mi hermano las traerá en su coche.", "Yo traeré las sillas, mi hermano las traerá en su carro.", "Yo traeré las sillas; mi hermano las traerá en su carro.", "Traeré las sillas; mi hermano las traerá en su carro."]),
       wo("Afortunadamente nadie se olvidó de nada.", "Adverb + nadie + reflexive olvidarse + double negative.", "Fortunately nobody forgot anything."),
     ]
   ),
@@ -2367,7 +2367,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Irregular stems",
-        "Twelve common verbs change their stem: tendr-, saldr-, pondr-, vendr-, podr-, sabr-, habr-, querr-, cabr-, har-, dir-. The endings never change.",
+        "Twelve common verbs change their stem: tendr-, saldr-, pondr-, vendr-, valdr-, podr-, sabr-, habr-, querr-, cabr-, har-, dir-. The endings never change.",
         [
           ["✗ Teneré tiempo. → ✓ Tendré tiempo.", "I'll have time."],
           ["✗ Haceré la cena. → ✓ Haré la cena.", "I'll make dinner."],
@@ -2711,7 +2711,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      mc("Odd one out:", ["la maleta", "la mochila", "el equipaje de mano", "el andén"], 3, "The first three are things you carry; el andén is the train platform."),
+      mc("Odd one out:", ["la maleta", "la mochila", "el equipaje de mano", "el andén"], 3, "La maleta, la mochila and el equipaje de mano are things you carry; el andén is the train platform."),
       mt(
         "Match each word to its meaning.",
         [
@@ -2925,7 +2925,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      mc("Odd one out:", ["el jefe", "el empleado", "el compañero", "el sueldo"], 3, "The first three are people at work; el sueldo is the salary."),
+      mc("Odd one out:", ["el jefe", "el empleado", "el compañero", "el sueldo"], 3, "El jefe, el empleado and el compañero are people at work; el sueldo is the salary."),
       fb("Complete the sentence.", "La empresa ___ a diez personas nuevas el año pasado. (contratar)", "contrató", "A completed event last year → contrató."),
       fb("Complete the sentence.", "Trabajo a tiempo ___: solo cuatro horas al día.", "parcial", "A tiempo parcial = part-time."),
       mc(
@@ -3341,7 +3341,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Which statements about Marco's week are true?",
         ["Marco se alojó en San Telmo.", "El hotel era más pequeño que en las fotos.", "Marco bailó tan bien como la profesora.", "Marco fue a clase de tango el miércoles."],
         [0, 1, 3],
-        "Marco danced much worse than the teacher (\"Yo, no tanto\"), so the third statement is false."
+        "Marco danced much worse than the teacher (\"Yo, no tanto\"), so \"Marco bailó tan bien como la profesora\" is false."
       ),
       toEs("The city is bigger and noisier than I thought.", "La ciudad es más grande y más ruidosa de lo que pensaba.", "With a clause after a comparison, use de lo que.", ["La ciudad es más grande y ruidosa de lo que pensaba.", "La ciudad es más grande y más ruidosa que lo que pensaba."]),
       wo("Nunca había comido una carne tan rica como aquí.", "Tan + adjective + como.", "I had never eaten meat as good as here."),

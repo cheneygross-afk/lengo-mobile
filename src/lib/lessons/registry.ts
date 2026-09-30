@@ -19,6 +19,7 @@ import { JA_B1_LESSONS } from "./ja-b1";
 import { JA_B2_LESSONS } from "./ja-b2";
 import { JA_C1_LESSONS } from "./ja-c1";
 import { JA_C2_LESSONS } from "./ja-c2";
+import { spanishLevel } from "./levels";
 
 export type LessonModuleKey =
   | "a1"
@@ -49,16 +50,18 @@ export type LessonSource = {
 
 // Every lesson file here is synced from the website repo by
 // scripts/sync-content.mjs, so each level's export (A1_LESSONS, etc.) is
-// already the finished course: reinforcement and drill lessons woven in
-// and the course order applied, exactly as the website builds it.
+// already the finished course: reinforcement and drill lessons woven in,
+// the Reading Practice stories dropped and the course order applied,
+// exactly as the website builds it. Level names (with their CEFR codes)
+// come from the synced levels.ts too.
 
 export const LESSON_SOURCES: Record<LessonModuleKey, LessonSource> = {
-  "a1": { moduleKey: "a1", levelPath: "a1", title: "Lessons", lessons: A1_LESSONS },
-  "a2": { moduleKey: "a2", levelPath: "a2", title: "Spanish · A2 Elementary", lessons: A2_LESSONS },
-  "b1": { moduleKey: "b1", levelPath: "b1", title: "Spanish · B1 Intermediate", lessons: B1_LESSONS },
-  "b2": { moduleKey: "b2", levelPath: "b2", title: "Spanish · B2 Advanced", lessons: B2_LESSONS },
-  "c1": { moduleKey: "c1", levelPath: "c1", title: "Spanish · C1 Mastery", lessons: C1_LESSONS },
-  "c2": { moduleKey: "c2", levelPath: "c2", title: "Spanish · C2 Professional & Academic", lessons: C2_LESSONS },
+  "a1": { moduleKey: "a1", levelPath: "a1", title: spanishLevel("a1").label, lessons: A1_LESSONS },
+  "a2": { moduleKey: "a2", levelPath: "a2", title: spanishLevel("a2").label, lessons: A2_LESSONS },
+  "b1": { moduleKey: "b1", levelPath: "b1", title: spanishLevel("b1").label, lessons: B1_LESSONS },
+  "b2": { moduleKey: "b2", levelPath: "b2", title: spanishLevel("b2").label, lessons: B2_LESSONS },
+  "c1": { moduleKey: "c1", levelPath: "c1", title: spanishLevel("c1").label, lessons: C1_LESSONS },
+  "c2": { moduleKey: "c2", levelPath: "c2", title: spanishLevel("c2").label, lessons: C2_LESSONS },
   "cosas-coloquiales": {
     moduleKey: "cosas-coloquiales",
     levelPath: "cosas-coloquiales",

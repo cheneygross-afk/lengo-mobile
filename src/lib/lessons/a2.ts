@@ -237,7 +237,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el boleto",
-            "en": "the ticket"
+            "en": "the ticket (Latin America; in Spain: el billete)"
           },
           {
             "es": "el aeropuerto",
@@ -293,7 +293,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el coche",
-            "en": "the car"
+            "en": "the car (Spain; in Latin America: el carro or el auto)"
           },
           {
             "es": "la playa",
@@ -665,7 +665,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "es": "¿Y qué dijo sobre el proyecto?"
           },
           {
-            "es": "Dijo que tuvimos que terminar todo antes del viernes."
+            "es": "Dijo que teníamos que terminar todo antes del viernes."
           },
           {
             "es": "¡Qué estrés! ¿Hiciste el reporte ya?"
@@ -2621,7 +2621,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "el celular",
-            "en": "the cell phone"
+            "en": "the cell phone (Latin America; in Spain: el móvil)"
           },
           {
             "es": "la pantalla",
@@ -2717,7 +2717,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "la computadora",
-            "en": "the computer"
+            "en": "the computer (Latin America; in Spain: el ordenador)"
           },
           {
             "es": "el mensaje de voz",
@@ -3735,7 +3735,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Dentro de cinco años, viviremos en otro país.",
-            "en": "Within five years, we will live in another country."
+            "en": "In five years' time, we will live in another country."
           }
         ],
         "checkpoint": [
@@ -4101,12 +4101,13 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Por: duración, causa, intercambio, movimiento",
         "body": [
-          "Por se usa para una duración de tiempo, una causa o razón, un intercambio, o un movimiento a través de un lugar."
+          "Por se usa para una duración de tiempo, una causa o razón, un intercambio, o un movimiento a través de un lugar.",
+          "A note on duration: with a length of time, native speakers most often use no preposition at all (Estudié tres horas) or durante (Estudié durante tres horas). Estudié por tres horas is correct, and common in Latin America, but it's never wrong to leave por out."
         ],
         "examples": [
           {
             "es": "Estudié por tres horas.",
-            "en": "I studied for three hours."
+            "en": "I studied for three hours. (Just as natural: Estudié tres horas / durante tres horas.)"
           },
           {
             "es": "No fuimos por la lluvia.",
@@ -4263,7 +4264,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "es": "¿Desde cuándo tiene el dolor?"
           },
           {
-            "es": "Por dos días. Tomé una pastilla, pero no funcionó."
+            "es": "Desde hace dos días. Tomé una pastilla, pero no funcionó."
           },
           {
             "es": "Le voy a recetar algo para el dolor. Tómelo por la mañana y por la noche."
@@ -4637,7 +4638,8 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Elige por o para.",
         "sentence": "Estuvimos revisando el informe ___ tres días seguidos.",
         "answer": "por",
-        "explanation": "\"Por\" indica la duración de la acción."
+        "altAnswers": ["durante"],
+        "explanation": "Between por and para, only por can mark how long the action lasted. Durante works just as well, and natives often drop the preposition: Estuvimos tres días seguidos revisando el informe."
       },
       {
         "type": "translate",
@@ -5955,8 +5957,8 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la respuesta de la señora con la preposición correcta.",
             "sentence": "El museo está ___ del semáforo, no delante.",
             "answer": "detrás",
-            "hint": "Es lo opuesto de enfrente.",
-            "explanation": "Detrás de significa behind, lo contrario de enfrente de (in front of / across from)."
+            "hint": "Es lo opuesto de delante.",
+            "explanation": "Detrás de means behind, the opposite of delante de (in front of)."
           }
         ]
       }
@@ -6070,7 +6072,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "El mesero nos recomendó el plato del día.",
-            "en": "The waiter recommended the daily special to us."
+            "en": "The waiter recommended the daily special to us. (Mesero is Latin American; in Spain: camarero.)"
           },
           {
             "es": "De postre, quiero un flan.",
@@ -6429,7 +6431,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Tú ___ (escribir) una carta muy bonita.",
             "answer": "escribiste",
             "hint": "pretérito, tú",
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Escribir is a regular -ir verb: the tú preterite ending is -iste → escribiste."
           },
           {
             "type": "multiple-choice",
@@ -6441,7 +6443,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "vuelve"
             ],
             "correctIndex": 0,
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "A single completed return → preterite volvió. Volvía is the imperfect, volverá the future and vuelve the present."
           }
         ]
       },
@@ -6467,7 +6469,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Ella ___ (poner) las llaves en la mesa.",
             "answer": "puso",
             "hint": "raíz pus-",
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Poner has the irregular preterite stem pus-, with no accent on the ending: puso."
           },
           {
             "type": "multiple-choice",
@@ -6479,7 +6481,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "podió"
             ],
             "correctIndex": 1,
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Poder uses the irregular stem pud- with unaccented endings: pude. Podí, puedí and podió don't exist."
           }
         ]
       }
@@ -6491,7 +6493,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "Ayer ___ (yo, estudiar) toda la tarde.",
         "answer": "estudié",
         "hint": "pretérito, yo",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Estudiar is a regular -ar verb: the yo preterite ends in accented -é → estudié."
       },
       {
         "type": "multiple-choice",
@@ -6503,7 +6505,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "tienes"
         ],
         "correctIndex": 0,
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "The preterite of tener uses the stem tuv-: tuviste. Tenías is the imperfect, tendrás the future and tienes the present."
       },
       {
         "type": "translate",
@@ -6511,7 +6513,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al inglés.",
         "source": "Anoche vimos una película muy interesante.",
         "answer": "Last night we watched a very interesting movie.",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Vimos is the preterite of ver (we saw / we watched), for one completed action last night."
       },
       {
         "type": "fill-blank",
@@ -6519,7 +6521,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "Mis padres ___ (venir) a visitarme el fin de semana pasado.",
         "answer": "vinieron",
         "hint": "raíz vin-",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Venir has the preterite stem vin-; the ellos ending is -ieron → vinieron."
       },
       {
         "type": "word-order",
@@ -6544,7 +6546,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "hacía"
         ],
         "correctIndex": 1,
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Hacer's preterite stem is hic-, and before -o the c becomes z to keep the sound: hizo. Hació doesn't exist; hace is present and hacía imperfect."
       }
     ]
   },
@@ -6582,7 +6584,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "dijaron"
             ],
             "correctIndex": 0,
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Stems ending in j drop the i of -ieron: dijeron. Dijieron and decieron are common learner errors, and dijaron doesn't exist."
           },
           {
             "type": "fill-blank",
@@ -6590,7 +6592,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Yo ___ (traducir) el documento al inglés.",
             "answer": "traduje",
             "hint": "raíz traduj-",
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Verbs in -ducir take the stem -duj- with unaccented endings: traduje."
           }
         ]
       },
@@ -6628,7 +6630,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Nosotros ___ (ir) a la playa el domingo.",
             "answer": "fuimos",
             "hint": "pretérito de ir",
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Ir and ser share the preterite fui, fuiste, fue, fuimos...; context tells you it means \"we went\" here."
           }
         ]
       }
@@ -6640,7 +6642,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "Yo ___ (pagar) la cuenta ayer.",
         "answer": "pagué",
         "hint": "cambio g→gu",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "In the yo form, g becomes gu before é to keep the hard g sound: pagué."
       },
       {
         "type": "translate",
@@ -6648,7 +6650,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "She said she wasn't hungry.",
         "answer": "Ella dijo que no tenía hambre.",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Dijo (preterite) reports the single act of saying; tenía (imperfect) describes her state at that moment. Tener hambre = to be hungry."
       },
       {
         "type": "multiple-choice",
@@ -6660,7 +6662,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "sepimos"
         ],
         "correctIndex": 0,
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Saber has the irregular preterite stem sup-: supimos. Sabíamos is the imperfect and sabremos the future; sepimos doesn't exist."
       },
       {
         "type": "fill-blank",
@@ -6668,7 +6670,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "Los niños ___ (pedir) helado de postre.",
         "answer": "pidieron",
         "hint": "e→i, ellos",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "-Ir stem-changing verbs change e → i in the third person of the preterite: pidieron."
       },
       {
         "type": "matching",
@@ -6699,7 +6701,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "I put"
           }
         ],
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "These are all irregular yo preterites: fui (ir/ser), tuve (tener), hice (hacer), dije (decir), pude (poder), puse (poner)."
       },
       {
         "type": "multiple-choice",
@@ -6711,7 +6713,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Ella trabaja aquí ayer."
         ],
         "correctIndex": 1,
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "El año pasado marks a finished period → trabajó. Trabaja aquí ayer mixes the present with ayer, trabajando needs a conjugated verb, and trabaja desde 2015 is present."
       }
     ]
   },
@@ -6745,7 +6747,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Yo ___ (buscar) las llaves por todas partes.",
             "answer": "busqué",
             "hint": "cambio c→qu en yo",
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "In the yo form, c becomes qu before é to keep the k sound: busqué."
           },
           {
             "type": "multiple-choice",
@@ -6757,7 +6759,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "juegé"
             ],
             "correctIndex": 0,
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Jugar changes g to gu before é (jugué) and doesn't take the ue stem change in the preterite, so juegué, jugé and juegé are wrong."
           }
         ]
       },
@@ -6783,7 +6785,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "El camarero ___ (servir) la comida rápido.",
             "answer": "sirvió",
             "hint": "e→i",
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "-Ir stem-changing verbs change e → i in the third person of the preterite: sirvió."
           },
           {
             "type": "multiple-choice",
@@ -6795,7 +6797,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "duermió"
             ],
             "correctIndex": 1,
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Dormir changes o → u in the third person of the preterite: durmió. Dormió has no change and duermió uses the present-tense change."
           }
         ]
       },
@@ -6821,7 +6823,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Voy a comer pan."
             ],
             "correctIndex": 1,
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Ayer marks a finished moment in the past → comí. The others are present habit, present progressive and future."
           }
         ]
       }
@@ -6833,7 +6835,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "¿Dónde ___ (tú, poner) mis llaves?",
         "answer": "pusiste",
         "hint": "raíz pus-",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Poner has the irregular preterite stem pus-: pusiste."
       },
       {
         "type": "translate",
@@ -6841,7 +6843,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al inglés.",
         "source": "Llegamos al aeropuerto muy tarde.",
         "answer": "We arrived at the airport very late.",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Llegamos is both present and preterite for -ar verbs; here the context (a trip that happened) makes it the past: we arrived."
       },
       {
         "type": "word-order",
@@ -6865,7 +6867,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "leiió"
         ],
         "correctIndex": 0,
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Between two vowels the i of -ió becomes y: leyó."
       },
       {
         "type": "fill-blank",
@@ -6873,7 +6875,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "Nosotros ___ (dormir) muy poco anoche.",
         "answer": "dormimos",
         "hint": "nosotros no cambia la vocal",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "The o → u change of dormir only happens in the third person (durmió, durmieron); nosotros stays dormimos."
       },
       {
         "type": "translate",
@@ -6881,7 +6883,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "They brought their own food to the party.",
         "answer": "Trajeron su propia comida a la fiesta.",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Traer has the stem traj-, and like dijeron it drops the i: trajeron."
       }
     ]
   },
@@ -6915,7 +6917,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Nosotros ___ (cocinar) juntos los domingos.",
             "answer": "cocinábamos",
             "hint": "imperfecto, nosotros",
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "-Ar verbs take -ábamos in the imperfect nosotros form, with an accent: cocinábamos."
           },
           {
             "type": "multiple-choice",
@@ -6927,7 +6929,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "hablaré"
             ],
             "correctIndex": 1,
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "The imperfect of -ar verbs ends in -aba: hablaba. Hablé is the preterite, hablo the present and hablaré the future."
           }
         ]
       },
@@ -6953,7 +6955,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Ellos ___ (escribir) cartas a sus amigos.",
             "answer": "escribían",
             "hint": "imperfecto, ellos",
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "-Ir verbs take -ía endings in the imperfect: escribían."
           },
           {
             "type": "multiple-choice",
@@ -6965,7 +6967,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "tienes"
             ],
             "correctIndex": 1,
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Tener is regular in the imperfect: tenías. Tuviste is the preterite, tendrás the future and tienes the present."
           }
         ]
       }
@@ -6977,7 +6979,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "De niña, yo ___ (jugar) con muñecas.",
         "answer": "jugaba",
         "hint": "imperfecto, yo",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "A childhood habit → imperfect: jugaba (-ar → -aba)."
       },
       {
         "type": "multiple-choice",
@@ -6989,7 +6991,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "veremos"
         ],
         "correctIndex": 0,
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Ver is irregular in the imperfect because it keeps the e: veíamos. Vimos is the preterite, vemos the present and veremos the future."
       },
       {
         "type": "translate",
@@ -6997,7 +6999,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al inglés.",
         "source": "Cuando vivíamos en México, comíamos tacos cada semana.",
         "answer": "When we lived in Mexico, we used to eat tacos every week.",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "The imperfect expresses past habits: vivíamos and comíamos = we lived, we used to eat."
       },
       {
         "type": "fill-blank",
@@ -7005,7 +7007,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "Mis padres ___ (trabajar) en el mismo edificio.",
         "answer": "trabajaban",
         "hint": "imperfecto, ellos",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "-Ar verbs take -aban in the imperfect ellos form: trabajaban."
       },
       {
         "type": "word-order",
@@ -7028,7 +7030,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "seré"
         ],
         "correctIndex": 1,
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Ser is irregular in the imperfect: era. Fui is the preterite, soy the present and seré the future."
       },
       {
         "type": "fill-blank",
@@ -7036,7 +7038,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "___ (ser) las ocho cuando empezó la película.",
         "answer": "Eran",
         "hint": "la hora en el pasado",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Clock time in the past is background, so it takes the imperfect, and las ocho is plural: eran."
       }
     ]
   },
@@ -7070,7 +7072,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Mi hermano ___ (ser) muy tímido de niño.",
             "answer": "era",
             "hint": "imperfecto irregular de ser",
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Describing what someone was like in the past → imperfect of ser: era."
           },
           {
             "type": "multiple-choice",
@@ -7082,7 +7084,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "irán"
             ],
             "correctIndex": 0,
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Ir is irregular in the imperfect: iba, ibas, iba, íbamos, ibais, iban. Fueron is the preterite, van the present and irán the future."
           }
         ]
       },
@@ -7108,7 +7110,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "El cielo ___ (estar) muy nublado esa tarde.",
             "answer": "estaba",
             "hint": "descripción del pasado",
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Weather and scene description in the past → imperfect: estaba."
           }
         ]
       },
@@ -7138,7 +7140,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Comí pizza una vez."
             ],
             "correctIndex": 1,
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Todos los viernes marks a repeated past habit → comía. Ayer comí and comí una vez are single events; voy a comer is future."
           },
           {
             "type": "fill-blank",
@@ -7146,7 +7148,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Nosotros ___ (visitar) a los abuelos cada mes.",
             "answer": "visitábamos",
             "hint": "hábito repetido",
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Cada mes marks a repeated habit → imperfect: visitábamos."
           }
         ]
       }
@@ -7158,7 +7160,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "She was very happy when she was young.",
         "answer": "Ella era muy feliz cuando era joven.",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Describing how she was in general and her age at the time → imperfect: era... era joven."
       },
       {
         "type": "multiple-choice",
@@ -7170,7 +7172,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Comeré una manzana."
         ],
         "correctIndex": 1,
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Estaba comiendo (imperfect progressive) is an action in progress interrupted by llamaste. Comí is a finished event, and the other two are present and future."
       },
       {
         "type": "fill-blank",
@@ -7178,7 +7180,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "Cada verano, nosotros ___ (ir) a la casa de la playa.",
         "answer": "íbamos",
         "hint": "hábito repetido",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Cada verano marks a repeated habit → imperfect of ir: íbamos (with an accent)."
       },
       {
         "type": "matching",
@@ -7209,7 +7211,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "I used to want / love"
           }
         ],
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "The imperfect forms of ser, ir and ver are irregular (era, iba, veía); tener, hacer and querer are regular in the imperfect."
       },
       {
         "type": "multiple-choice",
@@ -7221,7 +7223,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "He estudiado toda la noche."
         ],
         "correctIndex": 1,
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Cuando era estudiante sets a past period, and the habit inside it goes in the imperfect: estudiaba. The others are preterite, future and present perfect."
       }
     ]
   },
@@ -7255,7 +7257,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "___ (ser) las nueve de la noche cuando llamó.",
             "answer": "Eran",
             "hint": "la hora en el pasado",
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Clock time in the past is background → imperfect; las nueve is plural: eran."
           },
           {
             "type": "multiple-choice",
@@ -7267,7 +7269,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "futuro"
             ],
             "correctIndex": 1,
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Age in the past is background description → imperfect: tenía diez años."
           }
         ]
       },
@@ -7293,7 +7295,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Yo ___ (estar) leyendo cuando se fue la luz.",
             "answer": "estaba",
             "hint": "imperfecto continuo",
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Estaba + gerund describes an action in progress that was interrupted (se fue la luz)."
           }
         ]
       },
@@ -7319,7 +7321,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Voy a comer a las dos."
             ],
             "correctIndex": 2,
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Todos los días marks a past habit → comía. Comí is the preterite, como the present and voy a comer the future."
           }
         ]
       }
@@ -7331,7 +7333,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "Ella ___ (tener) quince años cuando se mudó.",
         "answer": "tenía",
         "hint": "la edad en el pasado",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Age in the past → imperfect: tenía quince años."
       },
       {
         "type": "translate",
@@ -7339,7 +7341,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al inglés.",
         "source": "Siempre llovía en abril en esa ciudad.",
         "answer": "It always used to rain in April in that city.",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Llovía with siempre describes what used to happen: it always used to rain."
       },
       {
         "type": "word-order",
@@ -7362,7 +7364,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "querrás"
         ],
         "correctIndex": 0,
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Querer is regular in the imperfect: querías. Quisiste is the preterite, quieres the present and querrás the future."
       },
       {
         "type": "fill-blank",
@@ -7370,7 +7372,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "El restaurante ___ (estar) lleno de gente.",
         "answer": "estaba",
         "hint": "descripción en el pasado",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Describing how a place was in the past → imperfect: estaba lleno."
       },
       {
         "type": "translate",
@@ -7378,7 +7380,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "We used to visit our grandparents every Sunday.",
         "answer": "Visitábamos a nuestros abuelos cada domingo.",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "A repeated habit (cada domingo) → imperfect: visitábamos. Grandparents are people, so they take the personal a."
       }
     ]
   },
@@ -9201,13 +9203,13 @@ const A2_BASE_LESSONS: Lesson[] = [
             "type": "multiple-choice",
             "question": "¿Qué estructura necesitas para decir \"my sister is the youngest of the family\"?",
             "options": [
-              "superlativo regular con \"menor\"",
+              "superlativo con la forma irregular \"menor\"",
               "comparativo de igualdad",
               "comparativo de inferioridad",
               "superlativo absoluto"
             ],
             "correctIndex": 0,
-            "explanation": "\"The youngest\" combina el superlativo (la más...de) con la forma irregular \"menor\": mi hermana es la menor de la familia."
+            "explanation": "\"The youngest\" is a superlative (la ... de), and for age Spanish uses the irregular form menor: mi hermana es la menor de la familia. It isn't a comparison of equality or inferiority, and the absolute superlative (-ísimo) doesn't compare with a group."
           },
           {
             "type": "fill-blank",
@@ -9784,7 +9786,8 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Por: duración de tiempo",
         "body": [
-          "Usamos “por” para expresar cuánto tiempo dura una acción."
+          "Usamos “por” para expresar cuánto tiempo dura una acción.",
+          "Between por and para, only por can express duration. But in everyday Spanish the most common options are no preposition at all (Estudié español dos años) or durante (Estudié español durante dos años), so those are never wrong."
         ],
         "examples": [
           {
@@ -9802,8 +9805,9 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con la forma correcta.",
             "sentence": "Trabajé en esa oficina ___ cinco años.",
             "answer": "por",
+            "altAnswers": ["durante"],
             "hint": "duración de tiempo",
-            "explanation": "“Por” se usa para indicar cuánto tiempo duró la acción."
+            "explanation": "Por can mark how long the action lasted. Durante works too, and many speakers would simply say Trabajé en esa oficina cinco años."
           },
           {
             "type": "multiple-choice",
@@ -9815,7 +9819,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Viajamos para de tres semanas."
             ],
             "correctIndex": 0,
-            "explanation": "Para hablar de cuánto tiempo dura algo, se usa “por”: por tres semanas."
+            "explanation": "Para can't express duration, so of these options only por works: por tres semanas. Native speakers also say Viajamos tres semanas or Viajamos durante tres semanas."
           }
         ]
       },
@@ -9890,8 +9894,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con la forma correcta.",
         "sentence": "Viví en Chile ___ tres años.",
         "answer": "por",
+        "altAnswers": ["durante"],
         "hint": "duración",
-        "explanation": "“Por” expresa cuánto tiempo duró la acción."
+        "explanation": "Por can mark how long the action lasted. Durante is just as good, and Viví en Chile tres años, with no preposition, is the most common of all."
       },
       {
         "type": "multiple-choice",
@@ -10379,7 +10384,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al inglés.",
         "source": "Ella nunca llega tarde a las citas.",
         "answer": "She never arrives late to appointments.",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Nunca goes before the verb without no: nunca llega = never arrives."
       },
       {
         "type": "word-order",
@@ -10424,7 +10429,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "never"
           }
         ],
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Each positive word has a negative partner: alguien/nadie, algo/nada, siempre/nunca."
       },
       {
         "type": "multiple-choice",
@@ -10482,7 +10487,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "nada"
             ],
             "correctIndex": 0,
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Nunca (never) is the opposite of siempre. Nadie means no one, ninguno none, and nada nothing."
           }
         ]
       },
@@ -10520,7 +10525,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Como nada no antes de dormir."
             ],
             "correctIndex": 0,
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "When the negative word comes after the verb, Spanish needs no before the verb: No como nada. Algo can't replace nada in a negative sentence."
           }
         ]
       }
@@ -10532,7 +10537,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "Mi padre habla muy ___ cuando está enojado.",
         "answer": "tranquilamente",
         "hint": "forma femenina de 'tranquilo' + mente",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Adverbs in -mente are built on the feminine form: tranquila → tranquilamente."
       },
       {
         "type": "translate",
@@ -10540,7 +10545,8 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "I don't have any patience today.",
         "answer": "No tengo ninguna paciencia hoy.",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "altAnswers": ["Hoy no tengo ninguna paciencia.", "No tengo nada de paciencia hoy.", "Hoy no tengo nada de paciencia."],
+        "explanation": "Ninguno/ninguna agrees with the noun: ninguna paciencia. Hoy no tengo nada de paciencia is just as common."
       },
       {
         "type": "word-order",
@@ -10572,7 +10578,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "Escribió el informe clara y ___.",
         "answer": "cuidadosamente",
         "hint": "solo el segundo adverbio termina en -mente",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "When two -mente adverbs are joined by y, only the last keeps -mente: clara y cuidadosamente."
       },
       {
         "type": "translate",
@@ -10580,7 +10586,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al inglés.",
         "source": "Busco a mi amiga; no la veo por ningún lado.",
         "answer": "I'm looking for my friend; I don't see her anywhere.",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "No... por ningún lado = not anywhere. Buscar takes the personal a before a person: busco a mi amiga."
       }
     ]
   },
@@ -10618,7 +10624,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Nadie no viene a la fiesta."
             ],
             "correctIndex": 1,
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "A negative word before the verb replaces no: Nadie viene. No nadie and Nadie no are wrong, and no viene nadie no has an extra no."
           },
           {
             "type": "fill-blank",
@@ -10626,7 +10632,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "___ estudia los sábados en mi familia.",
             "answer": "Nadie",
             "hint": "palabra negativa antes del verbo, sin 'no'",
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Nadie at the start of the sentence doesn't need no."
           }
         ]
       },
@@ -10652,7 +10658,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Ella habla muy ___ en las reuniones.",
             "answer": "claramente",
             "hint": "adjetivo 'clara' + mente",
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Adverbs in -mente are built on the feminine form: clara → claramente."
           },
           {
             "type": "multiple-choice",
@@ -10664,7 +10670,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "felizomente"
             ],
             "correctIndex": 0,
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "Feliz ends in a consonant, so -mente is added directly: felizmente."
           }
         ]
       },
@@ -10690,7 +10696,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Me explicó el problema lenta y ___.",
             "answer": "cuidadosamente",
             "hint": "solo el segundo adverbio lleva -mente",
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "When two -mente adverbs are joined by y, only the last keeps -mente: lenta y cuidadosamente."
           },
           {
             "type": "multiple-choice",
@@ -10702,7 +10708,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Trabaja rápido y eficazmente."
             ],
             "correctIndex": 1,
-            "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+            "explanation": "With two -mente adverbs joined by y, only the last keeps -mente and the first stays in the feminine form: rápida y eficazmente."
           }
         ]
       }
@@ -10737,7 +10743,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "happily"
           }
         ],
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Adjectives describe nouns; -mente adverbs describe how an action is done: rápido → rápidamente, fácil → fácilmente, feliz → felizmente."
       },
       {
         "type": "multiple-choice",
@@ -10749,15 +10755,15 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Veo no a nadie en el parque."
         ],
         "correctIndex": 1,
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Nadie is a person, so as a direct object it takes the personal a, and after the verb it needs no: No veo a nadie. Alguien doesn't work in a negative sentence."
       },
       {
         "type": "fill-blank",
         "prompt": "Completa la oración con la forma correcta.",
-        "sentence": "___ tengo tiempo para descansar esta semana.",
+        "sentence": "___ tengo tiempo para descansar entre semana.",
         "answer": "Nunca",
         "hint": "palabra negativa antes del verbo, sin 'no'",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Nunca before the verb replaces no. (No tengo tiempo nunca would say the same thing.)"
       },
       {
         "type": "word-order",
@@ -10778,7 +10784,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "I always visit my grandmother, but my brother never visits her.",
         "answer": "Siempre visito a mi abuela, pero mi hermano nunca la visita.",
-        "explanation": "Repasa la regla de esta sección para confirmar la respuesta."
+        "explanation": "Nunca goes before the verb with no extra no; la replaces a mi abuela, and visitar takes the personal a before a person."
       },
       {
         "type": "multiple-choice",
@@ -12865,7 +12871,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Por vs. Para",
         "body": [
-          "Para: destination, deadline, purpose, recipient. Por: duration, cause, exchange, movement through. Fixed expressions like por favor and por supuesto always use por."
+          "Para: destination, deadline, purpose, recipient. Por: duration, cause, exchange, movement through. Fixed expressions like por favor and por supuesto always use por. (For duration, natives often skip the preposition or use durante: estudié tres horas, estudié durante tres horas.)"
         ]
       }
     ],
@@ -12906,7 +12912,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "ninguna"
         ],
         "correctIndex": 1,
-        "explanation": "\"Por\" expresa duración: estudié por tres horas."
+        "explanation": "Of the two, por is the one that can express duration: estudié por tres horas. In everyday speech natives more often say estudié tres horas or estudié durante tres horas."
       },
       {
         "type": "fill-blank",

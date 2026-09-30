@@ -165,7 +165,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
         "¿Qué frases hablan de algo abierto (subjuntivo)?",
         ["Dime lo que pienses.", "Pide lo que quieras.", "Me gusta lo que dices.", "Entiendo lo que explicas."],
         [0, 1],
-        "Las dos últimas hablan de algo concreto."
+        "«Dime lo que pienses» y «Pide lo que quieras» hablan de algo abierto (subjuntivo); «Me gusta lo que dices» y «Entiendo lo que explicas» hablan de algo concreto (indicativo)."
       ),
       toEs("Whoever wins, we'll celebrate.", "Gane quien gane, lo celebraremos.", "Fórmula reduplicada + subjuntivo.", ["Quienquiera que gane, lo celebraremos."]),
     ]
@@ -5136,7 +5136,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     [
       sec(
         "El texto",
-        "«El pastel compré yo. Fue en Sevilla que nos conocimos. Lo que me gusta es la gente. A tus padres no he visto todavía.» Tres errores.",
+        "«El pastel compré yo. Fue en Sevilla que nos conocimos. Lo que me gusta es la gente. A tus padres no he visto todavía.» Dos errores claros (pronombres olvidados) y una construcción que conviene pulir: «fue en Sevilla que» se oye mucho en América, pero en España y en registro formal se prefiere «fue en Sevilla donde».",
         [
           ["El pastel lo compré yo.", "I bought the cake."],
         ],
@@ -5152,7 +5152,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     ],
     [
       toEs("Corrige: «El pastel compré yo.»", "El pastel lo compré yo.", "Pronombre obligatorio."),
-      toEs("Corrige: «Fue en Sevilla que nos conocimos.»", "Fue en Sevilla donde nos conocimos.", "Lugar → donde.", ["Fue en Sevilla donde nos conocimos por primera vez."]),
+      toEs("Pule para registro formal: «Fue en Sevilla que nos conocimos.»", "Fue en Sevilla donde nos conocimos.", "Lugar → donde. «Fue en Sevilla que…» es habitual en el habla de América, pero en España y en la escritura formal se prefiere el relativo que concuerda (donde).", ["Fue en Sevilla donde nos conocimos por primera vez."]),
       toEs("Corrige: «A tus padres no he visto todavía.»", "A tus padres no los he visto todavía.", "Pronombre obligatorio.", ["A tus padres todavía no los he visto."]),
       toEs("Corrige: «No sabes lo cansado que estoy.» (lo dice una mujer)", "No sabes lo cansada que estoy.", "Concordancia."),
       toEs("Corrige: «Fue mis padres quienes pagaron.»", "Fueron mis padres quienes pagaron.", "Ser concuerda con el sujeto plural."),

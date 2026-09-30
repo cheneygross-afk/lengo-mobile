@@ -749,13 +749,13 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
               "There's no difference — they're interchangeable.",
             ],
             0,
-            "Temporary states and feelings → estar. Lasting characteristics → ser."
+            "Being tired is a state she's in → estar. Being fun is part of her personality → ser."
           ),
         ]
       ),
       sec(
         "Adding the details",
-        "Location always takes estar — even for things that never move, like cities and buildings. Origin and material take ser.",
+        "Where a person, place or thing is takes estar — even for things that never move, like cities and buildings. Origin and material take ser. One exception: events use ser for where they happen (La fiesta es en mi casa).",
         [
           ["El hotel está cerca del mar.", "The hotel is near the sea."],
           ["Mi sombrero es de Panamá.", "My hat is from Panama."],
@@ -768,7 +768,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Complete the caption.", "Mi prima ___ estudiante de medicina.", "es", "Profession or role → ser."),
       fb("Complete the caption.", "Nosotros ___ muy contentos en la foto.", "estamos", "A feeling at the moment of the photo → estar."),
-      fb("Complete the caption.", "La comida del hotel ___ fantástica.", "es", "A general quality of the hotel food → ser. (If you meant \"tastes fantastic right now,\" you could say está.)"),
+      { ...fb("Complete the caption.", "La comida del hotel ___ fantástica.", "es", "A general quality of the hotel food → ser. (If you meant \"tastes fantastic right now,\" you could say está.)"), altAnswers: ["está"] },
       ms(
         "Which captions use the right verb?",
         ["El agua está fría hoy.", "Mis padres son en la playa.", "Clara es de Guadalajara.", "Yo estoy alto."],
@@ -2736,7 +2736,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
           ["Sábados y domingos: libre.", "Saturdays and Sundays: free."],
         ],
         [
-          fb("Complete the answer.", "—¿Trabajas los sábados? —No, los sábados ___ libre.", "estoy", "Being free (available) is a temporary state → estar libre."),
+          { ...fb("Complete the answer.", "—¿Trabajas los sábados? —No, los sábados ___ libre.", "estoy", "Being free (available) is a temporary state → estar libre."), altAnswers: ["tengo"] },
         ]
       ),
     ],
@@ -3050,7 +3050,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Which is a good dinner order?",
         ["Una ensalada y pescado, por favor.", "Una biblioteca, por favor.", "Un estante con arroz, por favor.", "Una almohada de pollo, por favor."],
         0,
-        "Only the first option is food."
+        "Ensalada y pescado is the only food order; a library, a shelf and a pillow aren't things you eat."
       ),
       toEs("I eat chicken with rice and salad.", "Como pollo con arroz y ensalada.", "Comer → como.", ["Yo como pollo con arroz y ensalada."]),
       toEn("¿Qué hay de postre?", "What's for dessert?", "Literally \"What is there for dessert?\"", ["What is there for dessert?"]),

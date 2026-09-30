@@ -13,7 +13,7 @@ export const A1_STORIES: Story[] = [
       "Por la mañana, Marta camina a la escuela con su amigo Pablo. Pablo también tiene el examen, pero él no está nervioso. \"Los números no son un monstruo\", dice Pablo con una sonrisa. Marta sonríe un poco, pero todavía tiene miedo.",
       "En la clase, la profesora Ana reparte los exámenes. Marta mira su hoja y ve las primeras preguntas. Son sobre sumas y restas, algo que ella practica todos los días. Marta respira profundo y empieza a escribir.",
       "Poco a poco, Marta entiende cada pregunta. Ella recuerda las lecciones de la profesora Ana. Escribe las respuestas con calma y revisa cada número dos veces. El examen no es tan difícil como ella piensa.",
-      "Al final de la clase, Marta entrega su examen. Se siente feliz y también un poco cansada. Pablo la espera en la puerta y le pregunta cómo está. \"Creo que hago un buen examen\", responde Marta con una gran sonrisa.",
+      "Al final de la clase, Marta entrega su examen. Se siente feliz y también un poco cansada. Pablo la espera en la puerta y le pregunta cómo está. \"Creo que voy a sacar una buena nota\", responde Marta con una gran sonrisa.",
       "Esa noche, la profesora Ana llama a los padres de Marta. El examen de Marta tiene una nota muy buena. Marta aprende una lección importante: ella es más fuerte de lo que piensa. Ahora, Marta no tiene miedo de los exámenes.",
     ],
     questions: [
@@ -3537,7 +3537,7 @@ export const A1_STORIES: Story[] = [
       "En el autobús, Marina lee un libro. La historia es muy interesante. Cuando llega a su parada, baja muy rápido del autobús. ¡Su paraguas está en el asiento!",
       "Marina corre a la escuela bajo la lluvia. Llega mojada y triste. \"Mi paraguas favorito\", dice a su amiga Lucía. \"No voy a verlo nunca más.\"",
       "Al día siguiente, Marina sube al mismo autobús a la misma hora. Un señor mayor con sombrero está sentado delante. Tiene un paraguas amarillo con puntos blancos en la mano.",
-      "El señor mira a Marina y sonríe. \"¿Es tuyo este paraguas?\", pregunta. \"Ayer estoy en este autobús y veo que lo dejas en el asiento. Pienso que tomas el autobús todos los días.\"",
+      "El señor mira a Marina y sonríe. \"¿Es tuyo este paraguas?\", pregunta. \"Ayer lo dejaste en el asiento. Yo lo guardé porque sé que tomas este autobús todos los días.\"",
       "Marina no puede creerlo. \"¡Sí, es mío! ¡Muchas gracias!\", dice. El señor se llama don Felipe. Él también toma el autobús todas las mañanas para ir al mercado.",
       "Ahora, Marina y don Felipe hablan todos los días en el autobús. Él le cuenta historias de su juventud y ella le cuenta sobre sus libros. Marina nunca olvida su paraguas otra vez.",
     ],

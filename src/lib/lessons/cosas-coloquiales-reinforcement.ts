@@ -56,7 +56,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "Geografía festiva."
       ),
       fb("Completa.", "El 6 de enero se come el ___ de Reyes.", "roscón", "Roscón (España) / rosca (México)."),
-      fb("Completa.", "Las flores naranjas de las ofrendas se llaman ___. (flor de muerto, en náhuatl)", "cempasúchil", "Flor típica del Día de Muertos."),
+      fb("Completa.", "Las flores naranjas de las ofrendas se llaman ___. (nombre de origen náhuatl; también «flor de muerto»)", "cempasúchil", "Flor típica del Día de Muertos; también se escribe cempoalxóchitl."),
       fb("Completa.", "En San Fermín, los toros corren por las calles en los ___.", "encierros", "Encierro."),
       mc(
         "«Echar la casa por la ventana» en Nochevieja significa…",
@@ -170,7 +170,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Los momentos de comer",
-        "Aperitivo: antes de comer, una caña o un vermú con algo de picar (España). Sobremesa: la charla después de comer, sin levantarse. Merienda: comida ligera por la tarde (onces en Chile). Picoteo: comer un poco de todo, informalmente. Tapear / ir de tapas: ir de bar en bar. Ir de cañas: salir a tomar cervezas.",
+        "Aperitivo: antes de comer, una caña o un vermú con algo de picar (España). Sobremesa: la charla después de comer, sin levantarse. Merienda: comida ligera por la tarde (onces en Chile). Picoteo (España): comer un poco de todo, informalmente, de platos compartidos. Tapear / ir de tapas: ir de bar en bar. Ir de cañas: salir a tomar cervezas.",
         [
           ["Nos quedamos de sobremesa hasta las seis.", "We stayed chatting at the table until six."],
           ["¿Tomamos el aperitivo antes de comer?", "Shall we have a drink and a snack before lunch?"],
@@ -201,7 +201,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
       fb("Completa.", "Los niños ___ un bocadillo a las seis. (tomar la merienda)", "meriendan", "Merendar."),
       mc(
         "«Hay picoteo en casa de Ana» significa que…",
-        ["habrá varios platillos para comer informalmente", "habrá una cena de gala", "no habrá comida", "Ana cocina pájaros"],
+        ["habrá cosas variadas para picar, de manera informal", "habrá una cena de gala con varios platos", "solo habrá bebidas", "habrá que llevar la comida de casa"],
         0,
         "Picoteo."
       ),
@@ -314,7 +314,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Del campo a la calle",
-        "Meter un gol a alguien: engañarlo. Estar en fuera de juego: estar desinformado o fuera de lugar. Echar balones fuera: eludir una responsabilidad. Casarse de penalti: por un embarazo inesperado (coloquial). Pasar la pelota: transferir la responsabilidad. Salvar en el último minuto / en el descuento. Sacar tarjeta roja: rechazar o expulsar.",
+        "Meterle un gol a alguien: engañarlo, colarle algo. Estar en fuera de juego: estar desinformado o fuera de lugar. Echar balones fuera: eludir una responsabilidad. Casarse de penalti (España): por un embarazo inesperado (coloquial). Pasar la pelota: transferir la responsabilidad. Salvar en el último minuto / en el descuento (España; en América: en el tiempo de reposición o de descuento). Sacar tarjeta roja: rechazar o expulsar.",
         [
           ["Cuando le pregunté, echó balones fuera.", "When I asked him, he dodged the question."],
           ["Me han metido un gol con este coche usado.", "They've conned me with this used car."],
@@ -334,7 +334,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "Relaciona la metáfora con su significado.",
         [
           ["echar balones fuera", "eludir una responsabilidad"],
-          ["meter un gol", "engañar"],
+          ["meterle un gol a alguien", "engañar"],
           ["pasar la pelota", "transferir la responsabilidad"],
           ["en el descuento", "en el último momento"],
         ],
@@ -437,7 +437,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
       ),
       fb("Completa.", "En flamenco, el que canta es el ___.", "cantaor", "Cantaor/a."),
       fb("Completa.", "Cuando una actuación emociona profundamente se dice que tiene ___.", "duende", "Duende."),
-      fb("Completa.", "Un baile de tango se llama ___. (reunión para bailar tango)", "milonga", "Milonga."),
+      fb("Completa.", "Una reunión o un salón donde se baila tango se llama ___.", "milonga", "Milonga: el baile social de tango (y también un género musical emparentado)."),
       mc(
         "«Tocar las palmas» en flamenco significa…",
         ["acompañar el ritmo con aplausos", "saludar", "tocar un instrumento de madera", "dejar de cantar"],
@@ -487,7 +487,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
       fb("Completa (salsa).", "¡A ___ se ha dicho! Que suene la orquesta. (disfrutar bailando)", "gozar", "Gozar."),
       mc(
         "«Ese cantante tiene mucho flow» significa que…",
-        ["tiene mucho estilo", "canta muy bajo", "está cansado", "tiene mucha agua"],
+        ["tiene mucho estilo", "canta muy bajo", "está cansado", "habla demasiado"],
         0,
         "Flow = estilo."
       ),
@@ -510,14 +510,14 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "La mala suerte cambia de fecha",
-        "En el mundo hispano, el día de mala suerte es el martes 13: «En martes, ni te cases ni te embarques». Comunes: tocar madera, no pasar por debajo de una escalera, derramar sal, romper un espejo (siete años de mala suerte), abrir un paraguas en casa, gato negro. Expresiones: «¡Lagarto, lagarto!» (para ahuyentar la mala suerte), «Toco madera».",
+        "En el mundo hispano, el día de mala suerte es el martes 13: «En martes, ni te cases ni te embarques». Comunes: tocar madera, no pasar por debajo de una escalera, derramar sal, romper un espejo (siete años de mala suerte), abrir un paraguas en casa, gato negro. Expresiones: «¡Lagarto, lagarto!» (España, para ahuyentar la mala suerte), «Toco madera».",
         [
           ["En martes, ni te cases ni te embarques.", "On Tuesday, neither marry nor set sail."],
           ["Todo va bien, toco madera.", "Everything's going well, knock on wood."],
         ],
         [
           mc(
-            "El día de mala suerte en España y Latinoamérica es…",
+            "El día de mala suerte en la mayor parte del mundo hispano es…",
             ["el martes 13", "el viernes 13", "el lunes 1", "el domingo 7"],
             0,
             "Martes 13."
@@ -530,7 +530,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
       fb("Completa.", "Hasta ahora no ha pasado nada, toco ___.", "madera", "Tocar madera."),
       fb("Completa.", "Romper un espejo trae siete años de mala ___.", "suerte", "Superstición."),
       mc(
-        "«¡Lagarto, lagarto!» se dice para…",
+        "En España, «¡lagarto, lagarto!» se dice para…",
         ["ahuyentar la mala suerte", "llamar a un animal", "saludar", "pedir comida"],
         0,
         "Conjuro popular."
@@ -554,7 +554,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Rituales para el año nuevo",
-        "Doce uvas con las campanadas (España): una por cada mes de suerte. Ropa interior amarilla (dinero y felicidad) o roja (amor). Salir con una maleta a dar la vuelta a la manzana (viajes) — típico de varios países latinoamericanos. Comer lentejas (prosperidad). Tirar agua por la ventana (alejar lo malo). Poner un anillo de oro en la copa de cava.",
+        "Doce uvas con las campanadas (España, y hoy también en muchos países latinoamericanos): una por cada mes de suerte. Ropa interior amarilla (dinero y felicidad) o roja (amor). Salir con una maleta a dar la vuelta a la manzana (viajes) — típico de varios países latinoamericanos. Comer lentejas (prosperidad). Tirar un cubo de agua por la ventana (alejar lo malo; Cuba, Puerto Rico). Poner un anillo de oro en la copa de cava (España).",
         [
           ["Llevo ropa interior amarilla para atraer la abundancia.", "I'm wearing yellow underwear to attract abundance."],
           ["Salimos con la maleta para viajar mucho este año.", "We went out with a suitcase so we'd travel a lot this year."],
@@ -577,7 +577,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "Relaciona el ritual con su propósito.",
         [
           ["maleta vacía", "viajar"],
-          ["ropa interior amarilla", "prosperidad y felicidad"],
+          ["ropa interior roja", "amor"],
           ["lentejas", "abundancia"],
           ["agua por la ventana", "alejar lo malo"],
         ],
@@ -651,10 +651,10 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Recibir un cumplido a la hispana",
-        "Restar importancia: «¿Esto? Si me costó dos euros», «Qué va, es viejísimo». Devolver: «Pues anda que tú, que estás estupenda». Agradecer con humildad: «Gracias, eres muy amable», «Me lo dices con buenos ojos». Aceptarlo sin más («Sí, lo sé») puede sonar arrogante en muchos contextos.",
+        "Restar importancia: «¿Esto? Si me costó dos euros», «Qué va, es viejísimo». Devolver: «Pues anda que tú, que estás estupenda». Agradecer con humildad: «Gracias, eres muy amable», «Eso es que me miras con buenos ojos» (mirar a alguien con buenos ojos = verlo con simpatía). Aceptarlo sin más («Sí, lo sé») puede sonar arrogante en muchos contextos.",
         [
           ["—¡Qué bien cocinas! —Qué va, es una receta facilísima.", "—You cook so well! —Oh no, it's a super easy recipe."],
-          ["Me lo dices con buenos ojos.", "You're just being kind."],
+          ["Eso es que me miras con buenos ojos.", "You're just seeing me kindly."],
         ],
         [
           mc(
@@ -668,7 +668,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Completa.", "—¡Qué guapa estás! —Pues ___ que tú, que estás estupenda.", "anda", "Devolver el cumplido."),
-      fb("Completa.", "Me lo dices con buenos ___.", "ojos", "Con buenos ojos = con cariño."),
+      fb("Completa.", "Eso es que tú me miras con buenos ___.", "ojos", "Mirar (o ver) a alguien con buenos ojos = verlo con simpatía, favorablemente."),
       fb("Completa.", "—¡Cocinas de maravilla! —Qué ___, si es lo más fácil del mundo.", "va", "Qué va = restar importancia."),
       mc(
         "¿Qué respuesta puede sonar arrogante?",
@@ -685,7 +685,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Estrategias de cortesía."
       ),
-      toEs("You're just being kind.", "Me lo dices con buenos ojos.", "Modestia.", ["Eres muy amable.", "Lo dices porque me quieres."]),
+      toEs("You're just being kind.", "Eres muy amable.", "Modestia.", ["Qué amable eres.", "Lo dices porque me quieres.", "Eso es que me miras con buenos ojos.", "Me miras con buenos ojos."]),
       wo("Qué va, si esta camisa la compré en un mercadillo.", "Restar importancia.", "Oh no, I bought this shirt at a street market."),
     ]
   ),

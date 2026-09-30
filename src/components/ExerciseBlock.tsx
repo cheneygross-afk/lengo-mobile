@@ -3,122 +3,19 @@ import { View, Text, Pressable, TextInput, StyleSheet, type StyleProp, type Text
 import type { Exercise } from "@/lib/lessons/types";
 import { speak, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
 import TapText, { voiceFor } from "@/components/TapText";
+import {
+  gradeFillBlank,
+  gradeTranslate,
+  isWordOrderCorrect,
+  optionOrder,
+  seededShuffle,
+  splitOnBlank,
+} from "@/lib/grading";
 
-// Mobile port of the web app's ExerciseBlock -- same matching/shuffle
-// logic (normalize(), seededShuffle()), same "check answer -> show
-// correct/incorrect + explanation" interaction model, rebuilt with RN
-// primitives instead of DOM/Tailwind.
-
-function splitOnBlank(sentence: string): [string, string] {
-  const match = sentence.match(/_{3,}/);
-  if (!match || match.index === undefined) return [sentence, ""];
-  return [sentence.slice(0, match.index), sentence.slice(match.index + match[0].length)];
-}
-
-// Case/punctuation-normalized, accents and n/ñ collapsed to their plain
-// letter -- the loose form used for the primary correct/incorrect check.
-function normalize(s: string) {
-  return s
-    .trim()
-    .toLowerCase()
-    .replace(/[¿?¡!.,]/g, "")
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "");
-}
-
-// Same cleanup, but keeps accents/ñ -- used only to tell "this typed
-// answer is identical once you ignore an accent mark" apart from "this is
-// a different word/a real typo", so that distinction can be pointed out
-// instead of silently accepted or wrongly rejected.
-function normalizeKeepAccents(s: string) {
-  return s.trim().toLowerCase().replace(/[¿?¡!.,]/g, "");
-}
-
-// Damerau-Levenshtein edit distance (optimal-string-alignment variant) --
-// small pure-JS implementation, fine at the length of a single word or
-// short phrase. Counting an adjacent-letter swap ("camoin" for "camión")
-// as ONE edit rather than two, same as a plain insert/delete/substitute,
-// matters here: that's one of the single most common typing slips, and
-// plain Levenshtein would otherwise price it out of typoTolerance().
-function editDistance(a: string, b: string): number {
-  const dp: number[][] = Array.from({ length: a.length + 1 }, () => new Array(b.length + 1).fill(0));
-  for (let i = 0; i <= a.length; i++) dp[i][0] = i;
-  for (let j = 0; j <= b.length; j++) dp[0][j] = j;
-  for (let i = 1; i <= a.length; i++) {
-    for (let j = 1; j <= b.length; j++) {
-      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
-      dp[i][j] = Math.min(dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1] + cost);
-      if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) {
-        dp[i][j] = Math.min(dp[i][j], dp[i - 2][j - 2] + 1);
-      }
-    }
-  }
-  return dp[a.length][b.length];
-}
-
-// How many edits still read as "just a typo" for a word/phrase this
-// long -- conservative on purpose. Very short answers get zero tolerance
-// (a 2-3 letter word off by one is often a genuinely different word --
-// "no"/"lo", "sí"/"si"), longer ones get a little more room.
-function typoTolerance(len: number): number {
-  if (len <= 3) return 0;
-  if (len <= 7) return 1;
-  return 2;
-}
-
-type GradeResult = { correct: boolean; note?: string };
-
-// Shared free-text grading for FillBlank/Translate. Grading was too
-// strict before this: any difference at all -- including a single typo,
-// a missing accent, or a plain "n" typed for "ñ" -- counted as wrong.
-// Now: an exact match (accents included) is correct with no note; a
-// difference that's ONLY accents/ñ is accepted but flagged, so the
-// gap is still pointed out rather than silently ignored; a small typo
-// within typoTolerance() is accepted the same way; anything further off
-// is still marked wrong.
-function gradeFreeText(value: string, candidatesRaw: string[]): GradeResult {
-  const typedLoose = normalize(value);
-  const typedAccented = normalizeKeepAccents(value);
-
-  let bestDistance = Infinity;
-  let bestAccented = "";
-
-  for (const raw of candidatesRaw) {
-    const candidateAccented = normalizeKeepAccents(raw);
-    if (typedAccented === candidateAccented) {
-      return { correct: true };
-    }
-    const candidateLoose = normalize(raw);
-    if (typedLoose === candidateLoose) {
-      // Identical once accents/ñ are ignored -- as close a match as this
-      // can get without being exact, so no need to keep checking others.
-      return { correct: true, note: `Correct -- just watch the accent mark: "${raw}".` };
-    }
-    const dist = editDistance(typedLoose, candidateLoose);
-    if (dist < bestDistance) {
-      bestDistance = dist;
-      bestAccented = raw;
-    }
-  }
-
-  const tolerance = typoTolerance(typedLoose.length);
-  if (bestDistance <= tolerance) {
-    return { correct: true, note: `Correct -- small typo, the answer is "${bestAccented}".` };
-  }
-  return { correct: false };
-}
-
-function seededShuffle<T>(arr: T[], seed: string): T[] {
-  const a = [...arr];
-  let h = 0;
-  for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) >>> 0;
-  for (let i = a.length - 1; i > 0; i--) {
-    h = (h * 1103515245 + 12345) >>> 0;
-    const j = h % (i + 1);
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
+// Mobile port of the web app's ExerciseBlock -- same grading and option
+// shuffling (src/lib/grading.ts, identical in both repos), same "check
+// answer -> show correct/incorrect + explanation" interaction model,
+// rebuilt with RN primitives instead of DOM/Tailwind.
 
 function Feedback({ correct, explanation, lang }: { correct: boolean; explanation: string; lang: SpeechLang }) {
   return (
@@ -243,11 +140,15 @@ function MultipleChoice({
   lang,
 }: SubProps<Extract<Exercise, { type: "multiple-choice" }>>) {
   const [selected, setSelected] = useState<number | null>(null);
+  // Shown shuffled; `order` holds authored indexes, so selection and
+  // grading stay in terms of correctIndex.
+  const order = useMemo(() => optionOrder(exercise.question, exercise.options), [exercise.question, exercise.options]);
   return (
     <View>
       <SpeakableText text={exercise.question} lang={lang} style={s.question} />
       <View style={s.options}>
-        {exercise.options.map((opt, i) => {
+        {order.map((i) => {
+          const opt = exercise.options[i];
           const isSelected = selected === i;
           const showState = checked && isSelected;
           return (
@@ -293,6 +194,7 @@ function MultiSelect({
   lang,
 }: SubProps<Extract<Exercise, { type: "multi-select" }>>) {
   const [selected, setSelected] = useState<Set<number>>(new Set());
+  const order = useMemo(() => optionOrder(exercise.question, exercise.options), [exercise.question, exercise.options]);
   function toggle(i: number) {
     setSelected((prev) => {
       const next = new Set(prev);
@@ -304,7 +206,8 @@ function MultiSelect({
     <View>
       <SpeakableText text={exercise.question} lang={lang} style={s.question} />
       <View style={s.options}>
-        {exercise.options.map((opt, i) => {
+        {order.map((i) => {
+          const opt = exercise.options[i];
           const isSelected = selected.has(i);
           const shouldBeSelected = exercise.correctIndexes.includes(i);
           return (
@@ -346,9 +249,9 @@ function MultiSelect({
 // correctly-typed (or near-miss) Spanish word for an English dictionary
 // suggestion before gradeFreeText ever sees it (especially likely when the
 // device's keyboard has no Spanish dictionary loaded), which would make an
-// answer that should pass -- exactly or via the typo/accent tolerance above
+// answer that should pass -- exactly or via the typo/accent tolerance in lib/grading.ts
 // -- look wrong for reasons that have nothing to do with the student's
-// Spanish. autoCapitalize="none" is belt-and-suspenders (normalize() already
+// Spanish. autoCapitalize="none" is belt-and-suspenders (cleanAnswer() already
 // lowercases), kept mainly so the student sees exactly what they typed.
 function FillBlank({
   exercise,
@@ -412,7 +315,7 @@ function FillBlank({
         <SubmitButton
           disabled={!value.trim()}
           onPress={() => {
-            const result = gradeFreeText(value, [exercise.answer]);
+            const result = gradeFillBlank(value, exercise, lang);
             onSubmit(result.correct, result.note);
           }}
         />
@@ -488,7 +391,7 @@ function Translate({
         <SubmitButton
           disabled={!value.trim()}
           onPress={() => {
-            const result = gradeFreeText(value, [exercise.answer, ...(exercise.altAnswers ?? [])]);
+            const result = gradeTranslate(value, exercise, lang);
             onSubmit(result.correct, result.note);
           }}
         />
@@ -569,7 +472,7 @@ function WordOrder({
       {!checked && (
         <SubmitButton
           disabled={built.length !== exercise.words.length}
-          onPress={() => onSubmit(built.join(" ") === exercise.words.join(" "))}
+          onPress={() => onSubmit(isWordOrderCorrect(built, exercise))}
         />
       )}
     </View>
