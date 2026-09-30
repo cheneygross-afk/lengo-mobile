@@ -11,10 +11,11 @@ import {
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { findLessonBySlug, moduleKeyForLesson, LESSON_SOURCES } from "@/lib/lessons/registry";
-import type { Exercise } from "@/lib/lessons/types";
+import type { Exercise, Lesson } from "@/lib/lessons/types";
 import { authoredQuestions, buildReviewQuestions } from "@/lib/lessons/drill";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
+import LessonVideoLink from "@/components/LessonVideoLink";
 import TapText from "@/components/TapText";
 import { langForLevel, langForLevelPath, ENGLISH_LANG } from "@/lib/speech";
 import { markLessonCompleted } from "@/lib/lessons/completion";
@@ -461,7 +462,7 @@ function TeachStep({
   highlightsEnabled,
   markColor,
 }: {
-  lesson: { level: string; number: number; title: string; optional?: boolean; sections: { heading: string; body: string[]; examples?: { es: string; en?: string }[] }[] };
+  lesson: { level: Lesson["level"]; slug: string; number: number; title: string; optional?: boolean; sections: { heading: string; body: string[]; examples?: { es: string; en?: string }[] }[] };
   // Which section this screen teaches; null for a lesson with no sections
   // (a pure review), which just gets the title screen.
   sectionIndex: number | null;
@@ -484,6 +485,7 @@ function TeachStep({
             {lesson.optional ? " · optional" : ""}
           </Text>
           <TapText text={lesson.title} lang={lang} style={s.introTitle} />
+          <LessonVideoLink level={lesson.level} slug={lesson.slug} />
         </>
       ) : null}
       {(sectionIndex === null ? [] : [sectionIndex]).map((si) => {
