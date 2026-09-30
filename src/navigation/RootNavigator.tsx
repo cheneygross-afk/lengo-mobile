@@ -16,6 +16,10 @@ import ReviewListScreen from "@/screens/ReviewListScreen";
 import ReviewDrillScreen from "@/screens/ReviewDrillScreen";
 import UnitTestScreen from "@/screens/UnitTestScreen";
 import FlashcardsScreen from "@/screens/FlashcardsScreen";
+import FrequencyDecksScreen from "@/screens/FrequencyDecksScreen";
+import ExamsScreen from "@/screens/ExamsScreen";
+import ExamScreen from "@/screens/ExamScreen";
+import ExamPaperScreen from "@/screens/ExamPaperScreen";
 import ReadingLevelsScreen from "@/screens/ReadingLevelsScreen";
 import ReadingsListScreen from "@/screens/ReadingsListScreen";
 import StoryReaderScreen from "@/screens/StoryReaderScreen";
@@ -64,6 +68,10 @@ function AppNavigator() {
       <AppStack.Screen name="ReviewDrill" component={ReviewDrillScreen} options={{ title: "Review" }} />
       <AppStack.Screen name="UnitTest" component={UnitTestScreen} options={{ title: "Test out" }} />
       <AppStack.Screen name="Flashcards" component={FlashcardsScreen} options={{ title: "Flashcards" }} />
+      <AppStack.Screen name="FrequencyDecks" component={FrequencyDecksScreen} options={{ title: "Frequency decks" }} />
+      <AppStack.Screen name="Exams" component={ExamsScreen} options={{ title: "Exam practice" }} />
+      <AppStack.Screen name="Exam" component={ExamScreen} options={{ title: "DELE practice" }} />
+      <AppStack.Screen name="ExamPaper" component={ExamPaperScreen} options={{ title: "" }} />
       <AppStack.Screen name="ReadingLevels" component={ReadingLevelsScreen} options={{ title: "Readings" }} />
       <AppStack.Screen
         name="ReadingsList"

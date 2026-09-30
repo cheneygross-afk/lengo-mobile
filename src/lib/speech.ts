@@ -493,10 +493,9 @@ function warmClip(text: string, lang: SpeechLang, voice: PronunciationVoice): vo
     .catch(() => null);
 }
 
-async function playChunk(text: string, lang: SpeechLang, run: number): Promise<ClipResult> {
+async function playChunk(text: string, lang: SpeechLang, run: number, voice: PronunciationVoice = preferredVoice): Promise<ClipResult> {
   if (!hasCloudVoice(lang)) return speakOnDeviceToEnd(text, lang);
   await ensureAudioMode();
-  const voice = preferredVoice;
   const cachedUrl = audioUrl(text, lang, voice);
   const cached = await clipExists(cachedUrl);
   if (run !== readAloudRun) return "stopped";
@@ -515,9 +514,16 @@ async function playChunk(text: string, lang: SpeechLang, run: number): Promise<C
  * same cached cloud voice speak() uses and the same device-voice
  * fallback. Calls onChunk(i) as each chunk starts and onChunk(null) when
  * it finishes. Any later speak(), readAloud(), stopReadAloud() or
- * stopSpeaking() call stops it.
+ * stopSpeaking() call stops it. `voices` optionally picks a cloud voice
+ * per chunk (a dialogue with two speakers); unset chunks use the
+ * learner's preferred voice.
  */
-export function readAloud(chunks: string[], requestedLang: SpeechLang, onChunk: (index: number | null) => void): void {
+export function readAloud(
+  chunks: string[],
+  requestedLang: SpeechLang,
+  onChunk: (index: number | null) => void,
+  voices?: (PronunciationVoice | undefined)[]
+): void {
   stopReadAloud();
   currentPlayer?.remove();
   currentPlayer = null;
@@ -534,8 +540,8 @@ export function readAloud(chunks: string[], requestedLang: SpeechLang, onChunk: 
     for (let i = 0; i < chunks.length; i++) {
       if (run !== readAloudRun) return;
       onChunk(i);
-      if (i + 1 < chunks.length) warmClip(chunks[i + 1], lang, preferredVoice);
-      const result = await playChunk(chunks[i], lang, run);
+      if (i + 1 < chunks.length) warmClip(chunks[i + 1], lang, voices?.[i + 1] ?? preferredVoice);
+      const result = await playChunk(chunks[i], lang, run, voices?.[i] ?? preferredVoice);
       if (result === "stopped" || run !== readAloudRun) return;
     }
     onChunk(null);

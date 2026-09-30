@@ -250,6 +250,17 @@ export default function HomeScreen({ navigation }: Props) {
                 </Pressable>
               </View>
             )}
+
+            {/* DELE practice exams (Spanish only) -- a self-contained row
+                like the ones above. */}
+            {language === "es" && (
+              <View style={styles.extraRow}>
+                <Pressable style={[styles.card, styles.extraCard]} onPress={() => navigation.navigate("Exams")}>
+                  <Text style={styles.cardTitle}>Exam practice</Text>
+                  <Text style={styles.cardBody}>Full DELE practice exams, A2 to C1.</Text>
+                </Pressable>
+              </View>
+            )}
           </View>
         </View>
 
