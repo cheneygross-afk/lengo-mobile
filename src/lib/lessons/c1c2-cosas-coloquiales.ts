@@ -47,7 +47,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
               "las fiestas patronales"
             ],
             "correctIndex": 0,
-            "explanation": "Ponerse las botas describe comer o disfrutar de algo en abundancia, exactamente lo que ocurre cuando los invitados repiten varias veces durante un banquete."
+            "explanation": "«Ponerse las botas» significa comer o disfrutar de algo en abundancia, justo lo que hacen los invitados que repiten plato. «Armar la fiesta» es animar una celebración (o montar jaleo) y «estar de fiesta» describe el ánimo festivo, no el atracón."
           }
         ]
       },
@@ -98,7 +98,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "el santo patrón"
         ],
         "correctIndex": 0,
-        "explanation": "La calavera literaria es un poema satírico que imagina en broma la muerte de alguien vivo, y encarna la actitud de humor frente a la muerte típica de esta celebración."
+        "explanation": "La calavera literaria es un poema satírico que imagina en broma la muerte de alguien vivo: humor frente a la muerte. El paso pertenece a las procesiones de Semana Santa, las doce uvas a Nochevieja y el santo patrón a las fiestas patronales; ninguno tiene que ver con el Día de los Muertos."
       },
       {
         "type": "fill-blank",
@@ -152,7 +152,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
               "las fiestas patronales"
             ],
             "correctIndex": 0,
-            "explanation": "La procesión va por dentro describe a alguien que sufre o se preocupa internamente sin dejarlo notar, justo la situación de Laura durante la entrevista."
+            "explanation": "«La procesión va por dentro» describe a quien sufre o se angustia por dentro sin dejarlo ver, como Laura. «Ir en procesión» es caminar en fila, literalmente, y «el paso» es la imagen que se lleva en la procesión: ninguno habla de emociones ocultas."
           }
         ]
       },
@@ -194,7 +194,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
               0,
               1
             ],
-            "explanation": "Echar la casa por la ventana y ponerse las botas describen ambas un exceso festivo -- gastar sin límite y comer o disfrutar en abundancia. Las otras dos expresiones no tienen relación con la generosidad festiva."
+            "explanation": "«Echar la casa por la ventana» (gastar sin medida) y «ponerse las botas» (disfrutar o comer en abundancia) expresan exceso festivo. «La procesión va por dentro» habla de un sufrimiento oculto y «guardar la compostura» de mantener la calma y las formas, justo lo contrario del exceso."
           }
         ]
       }
@@ -404,7 +404,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
               "el paso"
             ],
             "correctIndex": 0,
-            "explanation": "La sobremesa describe precisamente ese tiempo de conversación que sigue a la comida, sin prisa por abandonar la mesa."
+            "explanation": "La sobremesa es el rato de charla que sigue a la comida sin levantarse de la mesa. «Levantarse de la mesa» es precisamente lo contrario, y «el santo patrón» y «el paso» pertenecen al vocabulario de las fiestas religiosas."
           }
         ]
       },
@@ -455,7 +455,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "no caber ni un alfiler"
         ],
         "correctIndex": 0,
-        "explanation": "Cocerse a fuego lento describe un problema que se desarrolla gradualmente antes de estallar, justo como el conflicto que llevaba semanas gestándose."
+        "explanation": "«Cocerse a fuego lento» describe algo que se va gestando poco a poco hasta estallar. «Ser pan comido» significa ser muy fácil, «hacer sobremesa» es charlar tras la comida y «no caber ni un alfiler» indica que un lugar está abarrotado."
       },
       {
         "type": "fill-blank",
@@ -768,7 +768,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
               "quedarse en el banquillo"
             ],
             "correctIndex": 0,
-            "explanation": "Pasar la pelota describe transferir a otro una responsabilidad o decisión difícil, exactamente lo que hizo el jefe al delegar la decisión en su asistente."
+            "explanation": "«Pasar la pelota» es traspasar a otro una responsabilidad incómoda, como hace el jefe. «Meterle un gol a alguien» es engañarlo, «jugar en otra liga» es estar a otro nivel y «quedarse en el banquillo» es quedarse al margen sin participar."
           }
         ]
       },
@@ -819,7 +819,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "picarse con alguien"
         ],
         "correctIndex": 0,
-        "explanation": "Remontar describe revertir una situación desfavorable hasta lograr el resultado contrario, exactamente lo que hizo la empresa al pasar de estar en quiebra a ganancias récord."
+        "explanation": "«Remontar» es darle la vuelta a un resultado adverso, como la empresa que pasa de la quiebra al récord. «Quedarse en el banquillo» es no participar, «pasar la pelota» es delegar una responsabilidad y «picarse con alguien» es enfadarse o competir con él."
       },
       {
         "type": "fill-blank",
@@ -1073,7 +1073,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
               "el compás"
             ],
             "correctIndex": 0,
-            "explanation": "Tener sabor describe tener una gracia o estilo particular al bailar o interpretar música, exactamente la cualidad que hace destacar al bailarín."
+            "explanation": "«Tener sabor» es tener gracia y estilo propio al bailar o al tocar. «No tener oído» es justo lo contrario (no captar la música), «bailar pegado» describe una forma de bailar en pareja y «el compás» es el ritmo en sí, no una cualidad de la persona."
           }
         ]
       },
@@ -1124,7 +1124,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "el arrabal"
         ],
         "correctIndex": 0,
-        "explanation": "Prender la fiesta significa animar o intensificar el ambiente festivo, exactamente lo que logró la banda al hacer que todos se levantaran a bailar."
+        "explanation": "«Prender la fiesta» es animarla de golpe, lo que consigue la banda al levantar a todos. «No tener oído» es una carencia musical, «tanguear» es bailar tango y «el arrabal» es el barrio periférico donde nació el tango."
       },
       {
         "type": "fill-blank",
@@ -1378,7 +1378,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
               "traer mala suerte"
             ],
             "correctIndex": 0,
-            "explanation": "Tocar madera es el gesto supersticioso que se hace precisamente para evitar que algo bueno se malogre después de mencionarlo en voz alta."
+            "explanation": "Tocar madera es el gesto supersticioso para que no se malogre algo bueno que se acaba de mencionar. «Ser gafe» y «traer mala suerte» describen a quien atrae la desgracia, y «ser mano de santo» significa ser un remedio muy eficaz."
           }
         ]
       },
@@ -1429,7 +1429,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "cruzar los dedos"
         ],
         "correctIndex": 0,
-        "explanation": "Ser gafe (España) describe atraer mala suerte de forma habitual, exactamente la reputación que tiene tu primo con sus viajes. En Argentina y Uruguay se diría que es mufa o yeta."
+        "explanation": "«Ser gafe» (España) es atraer la mala suerte de forma habitual, la fama del primo; en Argentina y Uruguay se diría que es mufa o yeta. «De buen agüero» es lo contrario (buen presagio), «ser mano de santo» es ser un remedio infalible y «cruzar los dedos» es desear suerte."
       },
       {
         "type": "fill-blank",
@@ -1703,7 +1703,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
               "¿Qué tal le va?"
             ],
             "correctIndex": 0,
-            "explanation": "\"¿Nos tuteamos?\" es la fórmula típica para proponer un trato más cercano y dejar el usted."
+            "explanation": "«¿Nos tuteamos?» es la fórmula típica para proponer pasar al tú. «¿Le importa que le hable de usted?» va en la dirección contraria, y «¿Nos vemos?» y «¿Qué tal le va?» son un saludo o despedida que no cambian el trato."
           }
         ]
       },
@@ -1742,7 +1742,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "Que es artista"
         ],
         "correctIndex": 0,
-        "explanation": "\"Estar hecho un pincel\" es una forma coloquial de decir que alguien se ve muy arreglado o elegante."
+        "explanation": "«Estar hecho un pincel» significa ir muy arreglado y elegante, como recién pintado. No tiene que ver con pintar cuadros ni con ser artista: es una imagen, no una profesión; y «estar cansado» sería «estar hecho polvo»."
       },
       {
         "type": "multi-select",
@@ -1758,7 +1758,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "Las frases colchón y el imperfecto de cortesía suavizan la petición; el imperativo directo no."
+        "explanation": "«Si no es mucha molestia» y «Cuando tengas un segundo» son frases colchón, y «Quería pedirte un favor» usa el imperfecto de cortesía: todas suavizan la petición. «Hazlo ahora mismo» es un imperativo directo con urgencia, lo contrario de suavizar."
       },
       {
         "type": "translate",

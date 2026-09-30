@@ -39,7 +39,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
             "¿En qué fiesta se queman grandes figuras de cartón piedra?",
             ["las Fallas", "el Inti Raymi", "el Día de Muertos", "los Reyes Magos"],
             0,
-            "La cremà de las Fallas."
+            "En la cremà de las Fallas de Valencia se queman los ninots, grandes figuras de cartón piedra. El Inti Raymi celebra al Sol, el Día de Muertos honra a los difuntos con ofrendas y los Reyes Magos traen regalos; en ninguna se quema nada."
           ),
         ]
       ),
@@ -55,20 +55,20 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Geografía festiva."
       ),
-      fb("Completa.", "El 6 de enero se come el ___ de Reyes.", "roscón", "Roscón (España) / rosca (México)."),
+      fb("Completa.", "El 6 de enero se come el ___ de Reyes.", "roscón", "Se dice «roscón de Reyes» en España; en México es «rosca de Reyes». Es el dulce típico del 6 de enero."),
       fb("Completa.", "Las flores naranjas de las ofrendas se llaman ___. (nombre de origen náhuatl; también «flor de muerto»)", "cempasúchil", "Flor típica del Día de Muertos; también se escribe cempoalxóchitl."),
-      fb("Completa.", "En San Fermín, los toros corren por las calles en los ___.", "encierros", "Encierro."),
+      fb("Completa.", "En San Fermín, los toros corren por las calles en los ___.", "encierros", "El encierro es la carrera de los toros por las calles hasta la plaza; en plural, «los encierros» de San Fermín."),
       mc(
         "«Echar la casa por la ventana» en Nochevieja significa…",
         ["gastar mucho para celebrar", "limpiar la casa", "mudarse", "enfadarse"],
         0,
-        "Derrochar en la celebración."
+        "«Echar la casa por la ventana» es gastar mucho, sin reparar en gastos, para celebrar algo. No tiene sentido literal: no se refiere a limpiar ni a mudarse, ni expresa enfado."
       ),
       ms(
         "¿Qué elementos pertenecen al Día de Muertos?",
         ["ofrenda", "calaveritas de azúcar", "pan de muerto", "mascletà"],
         [0, 1, 2],
-        "La mascletà es de las Fallas."
+        "La ofrenda, las calaveritas de azúcar y el pan de muerto son elementos del Día de Muertos mexicano. La mascletà, en cambio, es el estruendo de petardos de las Fallas de Valencia."
       ),
       wo("En Nochevieja nos comemos una uva con cada campanada.", "Tradición española.", "On New Year's Eve we eat one grape with each chime."),
     ]
@@ -92,28 +92,28 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
             "«Verbena» es…",
             ["un baile popular nocturno al aire libre", "una planta medicinal solamente", "un desfile militar", "una misa"],
             0,
-            "En contexto festivo."
+            "En contexto festivo, una verbena es un baile popular nocturno al aire libre. Aunque «verbena» también es el nombre de una planta, no es «solamente» eso, y no tiene nada de desfile militar ni de misa."
           ),
         ]
       ),
     ],
     [
-      fb("Completa.", "—¿Te ___ a las fiestas de mi pueblo? (venirse, tú)", "vienes", "Venirse = acompañar."),
+      fb("Completa.", "—¿Te ___ a las fiestas de mi pueblo? (venirse, tú)", "vienes", "«Venirse» (con «te») es muy coloquial para invitar a alguien a acompañarte: ¿te vienes? = ¿vienes conmigo?"),
       fb("Completa.", "Mis amigos y yo tenemos una ___ con local propio. (grupo festivo)", "peña", "Peña = grupo de amigos con local propio en fiestas."),
-      fb("Completa.", "La ___ recorre las calles tocando pasodobles. (banda popular)", "charanga", "Charanga."),
+      fb("Completa.", "La ___ recorre las calles tocando pasodobles. (banda popular)", "charanga", "La charanga es una banda popular de viento y percusión que anima las fiestas por la calle."),
       mc(
         "«Aquí se trasnocha mucho» significa…",
         ["la gente se acuesta muy tarde", "hace frío por la noche", "no hay fiestas", "la gente madruga"],
         0,
-        "Trasnochar."
+        "«Trasnochar» es acostarse muy tarde o pasar la noche despierto. Lo contrario es «madrugar» (levantarse temprano); y la palabra no tiene que ver con el frío ni con la falta de fiestas."
       ),
       mc(
         "Tu amigo dice: «Prepárate, que en mi pueblo las fiestas son la leche». Significa que…",
         ["son estupendas", "hay mucha leche", "son aburridas", "son peligrosas"],
         0,
-        "Ser la leche (coloquial España) = ser increíble."
+        "«Ser la leche» es coloquial de España y, en positivo, significa ser increíble o estupendo. No se toma en sentido literal (no hay leche), y aquí el tono entusiasta descarta «aburridas» o «peligrosas»."
       ),
-      toEs("There's a dance in the square tonight.", "Esta noche hay verbena en la plaza.", "Vocabulario festivo.", ["Esta noche hay baile en la plaza.", "Hay verbena en la plaza esta noche."]),
+      toEs("There's a dance in the square tonight.", "Esta noche hay verbena en la plaza.", "«Verbena» es el baile popular nocturno de las fiestas; «hay verbena» funciona sin artículo, como «hay baile».", ["Esta noche hay baile en la plaza.", "Hay verbena en la plaza esta noche."]),
       wo("Las fiestas del pueblo son en honor a su santo patrón.", "Fiestas patronales.", "The village festival is in honor of its patron saint."),
     ]
   ),
@@ -136,28 +136,28 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
             "¿Qué frase explica mejor el sentido de la fiesta?",
             ["Es una celebración para recordar con cariño a los difuntos.", "Es el Halloween de México.", "Es una fiesta para asustar.", "Es una fiesta de disfraces."],
             0,
-            "Evita el tópico."
+            "Presentar el Día de Muertos como un recuerdo afectuoso de los difuntos capta su sentido. Llamarlo «el Halloween de México» o una fiesta «para asustar» o «de disfraces» repite el tópico: el objetivo no es dar miedo, sino honrar a los muertos."
           ),
         ]
       ),
     ],
     [
-      fb("Completa.", "No se trata de dar miedo, ___ de recordar.", "sino", "No… sino…"),
-      fb("Completa.", "Se cree que las almas ___ a visitar a sus familias. (volver)", "vuelven", "Creencia."),
-      fb("Completa.", "Las calaveritas ___ son versos humorísticos sobre la muerte. (de literatura)", "literarias", "Calaveritas literarias."),
+      fb("Completa.", "No se trata de dar miedo, ___ de recordar.", "sino", "«No… sino…» corrige una negación: tras «no», la alternativa verdadera se introduce con «sino» (no «pero»)."),
+      fb("Completa.", "Se cree que las almas ___ a visitar a sus familias. (volver)", "vuelven", "Tras «se cree que» se usa indicativo (vuelven), porque se presenta la creencia como afirmación."),
+      fb("Completa.", "Las calaveritas ___ son versos humorísticos sobre la muerte. (de literatura)", "literarias", "El adjetivo concuerda con «calaveritas» (femenino plural): calaveritas literarias."),
       mc(
         "¿Cuál es el tono de la fiesta?",
         ["festivo y afectuoso", "lúgubre y triste", "de terror", "solemne sin alegría"],
         0,
-        "Celebración de la memoria."
+        "El Día de Muertos tiene un tono festivo y afectuoso: se recibe a los difuntos con música, comida y humor. «Lúgubre y triste», «de terror» o «solemne sin alegría» corresponden a otras visiones de la muerte, no a esta fiesta."
       ),
       ms(
         "¿Qué se pone en una ofrenda?",
         ["fotos del difunto", "velas", "su comida favorita", "una calabaza con cara de miedo"],
         [0, 1, 2],
-        "La calabaza es de Halloween."
+        "En la ofrenda se ponen fotos del difunto, velas y su comida favorita para recibir su visita. La calabaza con cara de miedo es un símbolo de Halloween, ajeno a esta tradición."
       ),
-      toEs("It's not about being scared; it's about remembering.", "No se trata de tener miedo, sino de recordar.", "Explicación.", ["No se trata de asustarse, sino de recordar.", "No es cuestión de tener miedo, sino de recordar."]),
+      toEs("It's not about being scared; it's about remembering.", "No se trata de tener miedo, sino de recordar.", "«No se trata de X, sino de Y» corrige la idea: tras la negación, «sino» introduce la alternativa verdadera.", ["No se trata de asustarse, sino de recordar.", "No es cuestión de tener miedo, sino de recordar."]),
       wo("Ese día las familias visitan el panteón y comparten comida con sus difuntos.", "Ritual.", "That day families visit the cemetery and share food with their departed."),
     ]
   ),
@@ -180,7 +180,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
             "En Chile, la merienda de la tarde se llama…",
             ["las onces", "el aperitivo", "la sobremesa", "el picoteo"],
             0,
-            "Onces."
+            "En Chile, «las onces» es la merienda-cena de la tarde. El aperitivo va antes de comer, la sobremesa es la charla tras la comida y el picoteo es comer cosas variadas de forma informal."
           ),
         ]
       ),
@@ -196,16 +196,16 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Momentos gastronómicos."
       ),
-      fb("Completa.", "Nos quedamos de ___ hasta que se hizo de noche.", "sobremesa", "Sobremesa."),
-      fb("Completa.", "Esta tarde vamos a ___ por el centro: de bar en bar, una tapa en cada uno. (ir de tapas, infinitivo)", "tapear", "Tapear = ir de tapas."),
-      fb("Completa.", "Los niños ___ un bocadillo a las seis. (tomar la merienda)", "meriendan", "Merendar."),
+      fb("Completa.", "Nos quedamos de ___ hasta que se hizo de noche.", "sobremesa", "«Quedarse de sobremesa» es seguir charlando en la mesa después de comer."),
+      fb("Completa.", "Esta tarde vamos a ___ por el centro: de bar en bar, una tapa en cada uno. (ir de tapas, infinitivo)", "tapear", "«Tapear» es ir de bar en bar tomando tapas; tras «vamos a» va el infinitivo."),
+      fb("Completa.", "Los niños ___ un bocadillo a las seis. (tomar la merienda)", "meriendan", "«Merendar» es tomar la merienda; diptonga en presente: ellos meriendan."),
       mc(
         "«Hay picoteo en casa de Ana» significa que…",
         ["habrá cosas variadas para picar, de manera informal", "habrá una cena de gala con varios platos", "solo habrá bebidas", "habrá que llevar la comida de casa"],
         0,
-        "Picoteo."
+        "El picoteo es una comida informal a base de cosas variadas para picar. Una cena de gala con varios platos es lo contrario; «solo bebidas» no incluye comida, y llevar la comida de casa no es lo que indica la palabra."
       ),
-      toEs("We stayed chatting at the table for hours.", "Nos quedamos de sobremesa durante horas.", "Sobremesa.", ["Estuvimos de sobremesa durante horas.", "Nos quedamos horas de sobremesa."]),
+      toEs("We stayed chatting at the table for hours.", "Nos quedamos de sobremesa durante horas.", "«Quedarse (o estar) de sobremesa» es la forma natural de decir que se sigue charlando en la mesa tras comer.", ["Estuvimos de sobremesa durante horas.", "Nos quedamos horas de sobremesa."]),
       wo("Antes de comer siempre tomamos el aperitivo en el bar de la esquina.", "Aperitivo.", "Before lunch we always have a drink and snack at the corner bar."),
     ]
   ),
@@ -228,7 +228,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
             "Terminas de comer y el anfitrión sigue charlando. Lo adecuado es…",
             ["quedarse a la sobremesa", "levantarse y marcharse enseguida", "pedir la cuenta", "mirar el móvil"],
             0,
-            "La sobremesa es parte de la comida."
+            "La sobremesa forma parte de la comida: si el anfitrión sigue charlando, lo educado es quedarse. Levantarse y marcharse enseguida o mirar el móvil resulta descortés, y pedir la cuenta no tiene sentido en una casa particular."
           ),
         ]
       ),
@@ -238,22 +238,22 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "El invitado empieza a comer antes de que se sirva a todos. Error:",
         ["no esperar la señal del anfitrión", "comer demasiado rápido", "usar cubiertos", "hablar"],
         0,
-        "Se espera a todos."
+        "El error es no esperar a que se sirva a todos y a la señal del anfitrión (el «¡que aproveche!» o un «empezad»). Comer rápido, usar cubiertos o hablar no son el problema que describe la escena."
       ),
       mc(
         "Te ofrecen más paella. Respuesta natural:",
         ["Uy, no, que ya he comido muchísimo. Venga, pero solo un poquito.", "No.", "Dame todo.", "No me gusta."],
         0,
-        "Rechazo cortés que acaba aceptando."
+        "Lo natural es el ritual de rechazo cortés que acaba aceptando («Uy, no… venga, pero solo un poquito»). Un «No.» seco o «No me gusta» suenan bruscos, y «Dame todo» resulta maleducado."
       ),
-      fb("Completa.", "¡Que ___! (deseo antes de comer)", "aproveche", "¡Que aproveche!"),
-      fb("Completa.", "—Pago yo. —Ni ___, esta vez invito yo.", "hablar", "Ni hablar."),
-      fb("Completa.", "Esto está ___: tienes que darme la receta. (muy bueno, coloquial)", "buenísimo", "Elogiar la comida."),
+      fb("Completa.", "¡Que ___! (deseo antes de comer)", "aproveche", "«¡Que aproveche!» es el deseo habitual antes de comer (o al ver a alguien comiendo); aproveche va en subjuntivo por ser un deseo."),
+      fb("Completa.", "—Pago yo. —Ni ___, esta vez invito yo.", "hablar", "«Ni hablar» es un rechazo rotundo y coloquial: aquí, «de ningún modo, pago yo»."),
+      fb("Completa.", "Esto está ___: tienes que darme la receta. (muy bueno, coloquial)", "buenísimo", "El superlativo coloquial de «bueno» es «buenísimo»; «bonísimo» existe pero suena culto y raro en la conversación."),
       ms(
         "¿Qué comportamientos son adecuados?",
         ["elogiar la comida", "quedarse a la sobremesa", "insistir en pagar", "levantarse sin despedirse"],
         [0, 1, 2],
-        "Irse sin despedirse es descortés."
+        "Elogiar la comida, quedarse a la sobremesa e insistir en pagar son gestos esperados de buena educación. Levantarse sin despedirse, en cambio, se considera descortés."
       ),
       wo("Esta vez no te dejo pagar, que la última invitaste tú.", "Pugna por invitar.", "This time I won't let you pay, since you treated last time."),
     ]
@@ -277,20 +277,20 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
             "«Ya me voy yendo» indica…",
             ["que empiezas el proceso de despedida", "que ya te has ido", "que no te vas", "que te enfadas"],
             0,
-            "Anuncio suave."
+            "«Ya me voy yendo» anuncia con suavidad que empiezas a despedirte, aunque aún tardes un rato. No significa que ya te hayas ido ni que no te vayas, y no expresa enfado."
           ),
         ]
       ),
     ],
     [
-      fb("Completa.", "Bueno, ya me voy ___. (gerundio de ir)", "yendo", "Irse yendo."),
-      fb("Completa.", "—¿Ya te vas? ¡Si es ___! (muy pronto)", "prontísimo", "Superlativo."),
-      fb("Completa.", "Es que mañana ___ temprano. (levantarse, coloquial: madrugar)", "madrugo", "Madrugar."),
+      fb("Completa.", "Bueno, ya me voy ___. (gerundio de ir)", "yendo", "«Irse yendo» (ir + gerundio) presenta la marcha como un proceso gradual; el gerundio de ir es «yendo»."),
+      fb("Completa.", "—¿Ya te vas? ¡Si es ___! (muy pronto)", "prontísimo", "El sufijo -ísimo intensifica también adverbios: pronto → prontísimo."),
+      fb("Completa.", "Es que mañana ___ temprano. (levantarse, coloquial: madrugar)", "madrugo", "«Madrugar» ya significa levantarse temprano; en presente con valor de futuro: mañana madrugo."),
       mc(
         "Tras despedirte, seguís hablando veinte minutos en la puerta. Esto es…",
         ["normal y parte del ritual", "una grosería", "muy raro", "un error del anfitrión"],
         0,
-        "Despedida larga."
+        "Las despedidas largas, que siguen en la puerta, son normales y forman parte del ritual. No son una grosería ni un error del anfitrión: cortar en seco sí resultaría brusco."
       ),
       mt(
         "Relaciona cada frase con su fase.",
@@ -301,7 +301,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Fases de la despedida."
       ),
-      toEs("Well, I'd better get going.", "Bueno, ya me voy yendo.", "Fórmula de despedida.", ["Bueno, me voy yendo.", "Bueno, me tengo que ir yendo."]),
+      toEs("Well, I'd better get going.", "Bueno, ya me voy yendo.", "«Me voy yendo» es la fórmula coloquial para empezar a despedirse, con el gerundio que suaviza la marcha.", ["Bueno, me voy yendo.", "Bueno, me tengo que ir yendo."]),
       wo("Venga, que lo he pasado genial; a la próxima invito yo.", "Despedida final.", "Come on, I've had a great time; next time it's on me."),
     ]
   ),
@@ -324,7 +324,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
             "«Estás en fuera de juego» dicho a alguien que no sabe la noticia significa…",
             ["no estás enterado", "estás castigado", "juegas mal", "estás de vacaciones"],
             0,
-            "Desinformado."
+            "«Estar en fuera de juego» es, en sentido figurado, no estar enterado de algo. No significa estar castigado ni jugar mal, y no tiene relación con las vacaciones."
           ),
         ]
       ),
@@ -340,16 +340,16 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Metáforas futbolísticas."
       ),
-      fb("Completa.", "Aprobamos el presupuesto en el ___: a las 23:59.", "descuento", "En el descuento."),
-      fb("Completa.", "El ministro echó balones ___ cuando le preguntaron por la crisis.", "fuera", "Eludir."),
-      fb("Completa.", "El vendedor me metió un ___: el móvil era de segunda mano.", "gol", "Engañar."),
+      fb("Completa.", "Aprobamos el presupuesto en el ___: a las 23:59.", "descuento", "«En el descuento» (el tiempo añadido del partido) significa en el último momento."),
+      fb("Completa.", "El ministro echó balones ___ cuando le preguntaron por la crisis.", "fuera", "«Echar balones fuera» es eludir una pregunta o una responsabilidad, como el jugador que despeja sin más."),
+      fb("Completa.", "El vendedor me metió un ___: el móvil era de segunda mano.", "gol", "«Meterle un gol a alguien» es engañarlo o colársela."),
       mc(
         "«La jefa le sacó tarjeta roja a la propuesta» significa que…",
         ["la rechazó", "la aprobó", "la pospuso", "la mejoró"],
         0,
-        "Rechazo."
+        "«Sacar tarjeta roja» a algo es rechazarlo de forma tajante, como el árbitro que expulsa a un jugador. No equivale a aprobar, posponer ni mejorar la propuesta."
       ),
-      toEs("He always passes the buck to someone else.", "Siempre le pasa la pelota a otro.", "Metáfora futbolística.", ["Siempre le pasa la pelota a otra persona.", "Siempre pasa la pelota a otro."]),
+      toEs("He always passes the buck to someone else.", "Siempre le pasa la pelota a otro.", "«Pasar la pelota» a alguien es traspasarle una responsabilidad incómoda; equivale a «to pass the buck».", ["Siempre le pasa la pelota a otra persona.", "Siempre pasa la pelota a otro."]),
       wo("Cuando le preguntaron por el error, echó balones fuera.", "Eludir.", "When asked about the mistake, he dodged the question."),
     ]
   ),
@@ -372,20 +372,20 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
             "En América, el portero se llama a menudo…",
             ["arquero", "defensa", "delantero", "árbitro"],
             0,
-            "Arquero / guardameta."
+            "En gran parte de América se dice «arquero» (o «guardameta»); en España, «portero». Defensa, delantero y árbitro son otros puestos o figuras del partido, no quien está en la portería."
           ),
         ]
       ),
     ],
     [
-      fb("Completa.", "El balón se estrella en el ___. (palo horizontal de la portería)", "larguero", "Larguero / travesaño."),
-      fb("Completa.", "Centro al área y ___ de cabeza… ¡gol! (rematar, presente)", "remata", "Presente narrativo."),
-      fb("Completa.", "Fue un partido de ___: se decidió en el último minuto.", "infarto", "Hipérbole."),
+      fb("Completa.", "El balón se estrella en el ___. (palo horizontal de la portería)", "larguero", "El larguero (o travesaño) es el palo horizontal de la portería; los postes son los verticales."),
+      fb("Completa.", "Centro al área y ___ de cabeza… ¡gol! (rematar, presente)", "remata", "Los comentaristas narran en presente para dar inmediatez: centro al área y remata."),
+      fb("Completa.", "Fue un partido de ___: se decidió en el último minuto.", "infarto", "«Un partido de infarto» es una hipérbole: tan emocionante que casi da un ataque al corazón."),
       mc(
         "Versión de comentarista de «El jugador marcó un gol»:",
         ["¡Recibe, se perfila, dispara… golazo!", "El jugador marcó un gol.", "Se hizo un gol.", "Hubo un gol en el partido."],
         0,
-        "Ritmo y emoción."
+        "El estilo de comentarista encadena verbos en presente con ritmo y emoción («recibe, se perfila, dispara… ¡golazo!»). «El jugador marcó un gol» o «Hubo un gol en el partido» son neutros e informativos, y «Se hizo un gol» ni siquiera es natural."
       ),
       mt(
         "Relaciona el término con su definición.",
@@ -396,7 +396,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Léxico futbolístico."
       ),
-      toEs("What a goal! A goal from another planet!", "¡Qué golazo! ¡Un gol de otro planeta!", "Hipérbole.", ["¡Menudo golazo! ¡Un gol de otro planeta!", "¡Qué golazo, de otro planeta!"]),
+      toEs("What a goal! A goal from another planet!", "¡Qué golazo! ¡Un gol de otro planeta!", "«Golazo» (aumentativo) y «de otro planeta» son hipérboles típicas de la narración deportiva.", ["¡Menudo golazo! ¡Un gol de otro planeta!", "¡Qué golazo, de otro planeta!"]),
       wo("La hinchada no para de cantar en ningún momento del partido.", "Léxico.", "The fans don't stop singing for a moment during the match."),
     ]
   ),
@@ -419,7 +419,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
             "El instrumento emblemático del tango es…",
             ["el bandoneón", "el arpa llanera", "el tres cubano", "el acordeón vallenato"],
             0,
-            "Bandoneón."
+            "El bandoneón, un tipo de concertina, es el instrumento emblemático del tango rioplatense. El arpa llanera es del joropo venezolano y colombiano, el tres cubano del son y el acordeón del vallenato."
           ),
         ]
       ),
@@ -435,16 +435,16 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Mapa musical."
       ),
-      fb("Completa.", "En flamenco, el que canta es el ___.", "cantaor", "Cantaor/a."),
-      fb("Completa.", "Cuando una actuación emociona profundamente se dice que tiene ___.", "duende", "Duende."),
+      fb("Completa.", "En flamenco, el que canta es el ___.", "cantaor", "En el flamenco se dice «cantaor/cantaora» (con la -d- caída) para quien canta flamenco; «cantante» es el término general."),
+      fb("Completa.", "Cuando una actuación emociona profundamente se dice que tiene ___.", "duende", "«Tener duende» es tener ese encanto misterioso que conmueve, sobre todo en el flamenco."),
       fb("Completa.", "Una reunión o un salón donde se baila tango se llama ___.", "milonga", "Milonga: el baile social de tango (y también un género musical emparentado)."),
       mc(
         "«Tocar las palmas» en flamenco significa…",
         ["acompañar el ritmo con aplausos", "saludar", "tocar un instrumento de madera", "dejar de cantar"],
         0,
-        "Palmas."
+        "Tocar las palmas es acompañar el ritmo con palmadas, una técnica esencial del flamenco. No es un saludo, ni un instrumento de madera (eso serían las castañuelas o el cajón), ni significa dejar de cantar."
       ),
-      toEs("That singer really has soul.", "Ese cantaor tiene mucho duende.", "Vocabulario flamenco.", ["Ese cantante tiene mucho duende.", "Esa cantaora tiene mucho duende."]),
+      toEs("That singer really has soul.", "Ese cantaor tiene mucho duende.", "«Tener duende» expresa la emoción profunda que transmite un artista; «cantaor» es el cantante de flamenco.", ["Ese cantante tiene mucho duende.", "Esa cantaora tiene mucho duende."]),
       wo("La cumbia nació en Colombia y hoy se baila en toda Latinoamérica.", "Géneros.", "Cumbia was born in Colombia and is now danced all over Latin America."),
     ]
   ),
@@ -467,7 +467,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
             "«Laburo» en lunfardo significa…",
             ["trabajo", "baile", "comida", "mujer"],
             0,
-            "Del italiano lavoro."
+            "«Laburo» viene del italiano «lavoro» y en lunfardo rioplatense significa trabajo (de ahí «laburar»). Las demás opciones tienen su propia palabra lunfarda: por ejemplo, «mina» es mujer."
           ),
         ]
       ),
@@ -483,21 +483,21 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Jerga musical."
       ),
-      fb("Completa (lunfardo).", "La ___ del barrio bailaba como nadie. (mujer)", "mina", "Mina = mujer, en lunfardo."),
-      fb("Completa (salsa).", "¡A ___ se ha dicho! Que suene la orquesta. (disfrutar bailando)", "gozar", "Gozar."),
+      fb("Completa (lunfardo).", "La ___ del barrio bailaba como nadie. (mujer)", "mina", "En lunfardo, «mina» significa mujer; es muy frecuente en las letras de tango."),
+      fb("Completa (salsa).", "¡A ___ se ha dicho! Que suene la orquesta. (disfrutar bailando)", "gozar", "«¡A gozar!» es el grito típico de la salsa para disfrutar bailando; tras «a» va el infinitivo."),
       mc(
         "«Ese cantante tiene mucho flow» significa que…",
         ["tiene mucho estilo", "canta muy bajo", "está cansado", "habla demasiado"],
         0,
-        "Flow = estilo."
+        "«Tener flow», anglicismo del reguetón y el rap, significa tener estilo y soltura. No se refiere al volumen de la voz, al cansancio ni a hablar demasiado."
       ),
       mc(
         "El lunfardo es la jerga típica de…",
         ["Buenos Aires y Montevideo", "Madrid", "La Habana", "Ciudad de México"],
         0,
-        "Jerga porteña."
+        "El lunfardo nació en Buenos Aires y Montevideo, a orillas del Río de la Plata. Madrid, La Habana y Ciudad de México tienen sus propias jergas (el cheli, la jerga cubana, el caló mexicano), pero no el lunfardo."
       ),
-      toEs("Tonight we're going out dancing, bro. (Colombia)", "Esta noche salimos a bailar, parce.", "Jerga colombiana.", ["Esta noche nos vamos a bailar, parcero.", "Esta noche salimos a bailar, parcero."]),
+      toEs("Tonight we're going out dancing, bro. (Colombia)", "Esta noche salimos a bailar, parce.", "«Parce» o «parcero» es la forma colombiana, sobre todo de Medellín, de decir amigo o colega.", ["Esta noche nos vamos a bailar, parcero.", "Esta noche salimos a bailar, parcero."]),
       wo("Después del laburo nos vamos a la milonga del barrio.", "Lunfardo.", "After work we're going to the neighborhood tango dance."),
     ]
   ),
@@ -520,28 +520,28 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
             "El día de mala suerte en la mayor parte del mundo hispano es…",
             ["el martes 13", "el viernes 13", "el lunes 1", "el domingo 7"],
             0,
-            "Martes 13."
+            "En la mayor parte del mundo hispano el día aciago es el martes 13 («en martes, ni te cases ni te embarques»). El viernes 13 es la superstición anglosajona, y el lunes 1 y el domingo 7 no tienen fama de mala suerte."
           ),
         ]
       ),
     ],
     [
-      fb("Completa.", "En martes, ni te cases ni te ___.", "embarques", "Refrán."),
-      fb("Completa.", "Hasta ahora no ha pasado nada, toco ___.", "madera", "Tocar madera."),
-      fb("Completa.", "Romper un espejo trae siete años de mala ___.", "suerte", "Superstición."),
+      fb("Completa.", "En martes, ni te cases ni te ___.", "embarques", "El refrán completo es «En martes, ni te cases ni te embarques»; embarcarse es subirse a un barco, es decir, emprender un viaje."),
+      fb("Completa.", "Hasta ahora no ha pasado nada, toco ___.", "madera", "«Tocar madera» es el gesto y la frase para no gafar algo bueno que se acaba de decir."),
+      fb("Completa.", "Romper un espejo trae siete años de mala ___.", "suerte", "«Traer mala suerte» es la colocación fija: siete años de mala suerte."),
       mc(
         "En España, «¡lagarto, lagarto!» se dice para…",
         ["ahuyentar la mala suerte", "llamar a un animal", "saludar", "pedir comida"],
         0,
-        "Conjuro popular."
+        "«¡Lagarto, lagarto!» es un conjuro popular en España para ahuyentar la mala suerte cuando se menciona algo que la trae. No sirve para llamar a un animal, ni es un saludo o una forma de pedir comida."
       ),
       ms(
         "¿Qué da mala suerte según la tradición?",
         ["abrir un paraguas dentro de casa", "derramar la sal", "pasar por debajo de una escalera", "encontrar un trébol de cuatro hojas"],
         [0, 1, 2],
-        "El trébol da buena suerte."
+        "Abrir un paraguas bajo techo, derramar la sal y pasar por debajo de una escalera son supersticiones clásicas de mala suerte. El trébol de cuatro hojas, en cambio, trae buena suerte."
       ),
-      toEs("Everything's going fine, knock on wood.", "Todo va bien, toco madera.", "Tocar madera.", ["Todo marcha bien, toco madera.", "Va todo bien, toco madera."]),
+      toEs("Everything's going fine, knock on wood.", "Todo va bien, toco madera.", "El equivalente de «knock on wood» es «toco madera», en presente y primera persona.", ["Todo marcha bien, toco madera.", "Va todo bien, toco madera."]),
       wo("Mi abuela nunca abre un paraguas dentro de casa.", "Superstición.", "My grandmother never opens an umbrella indoors."),
     ]
   ),
@@ -564,15 +564,15 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
             "¿Para qué se sale con una maleta vacía a la calle en Nochevieja?",
             ["para atraer viajes en el año nuevo", "para mudarse", "para guardar las uvas", "para regalarla"],
             0,
-            "Ritual de viajes."
+            "Salir con una maleta vacía en Nochevieja es un ritual, muy extendido en Latinoamérica, para atraer viajes en el año nuevo. No tiene que ver con mudarse, con guardar las uvas ni con hacer un regalo."
           ),
         ]
       ),
     ],
     [
-      fb("Completa.", "Nos comemos una uva con cada ___ del reloj.", "campanada", "Campanadas."),
-      fb("Completa.", "La ropa interior ___ atrae el amor, según la tradición. (color)", "roja", "Rojo = amor."),
-      fb("Completa (subjuntivo).", "Comemos lentejas para que no nos ___ el dinero. (faltar)", "falte", "Para que + subjuntivo."),
+      fb("Completa.", "Nos comemos una uva con cada ___ del reloj.", "campanada", "Las campanadas son los golpes del reloj a medianoche; se come una uva con cada una."),
+      fb("Completa.", "La ropa interior ___ atrae el amor, según la tradición. (color)", "roja", "El adjetivo concuerda con «ropa» (femenino): ropa interior roja."),
+      fb("Completa (subjuntivo).", "Comemos lentejas para que no nos ___ el dinero. (faltar)", "falte", "«Para que» exige subjuntivo porque expresa finalidad: para que no nos falte."),
       mt(
         "Relaciona el ritual con su propósito.",
         [
@@ -587,9 +587,9 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "«Creer sin creer del todo» describe…",
         ["practicar rituales aunque uno diga que no es supersticioso", "no hacer nada", "ser muy religioso", "tener miedo"],
         0,
-        "Actitud típica ante las supersticiones."
+        "«Creer sin creer del todo» describe a quien dice no ser supersticioso pero, por si acaso, cumple los rituales. No es no hacer nada, ni una devoción religiosa, ni miedo real."
       ),
-      toEs("We eat lentils so that we won't lack money.", "Comemos lentejas para que no nos falte el dinero.", "Para que + subjuntivo.", ["Comemos lentejas para que no nos falte dinero."]),
+      toEs("We eat lentils so that we won't lack money.", "Comemos lentejas para que no nos falte el dinero.", "«Para que» + subjuntivo expresa finalidad: para que no nos falte.", ["Comemos lentejas para que no nos falte dinero."]),
       wo("No es que sea supersticiosa, pero por si acaso me pongo algo amarillo.", "Creer sin creer.", "It's not that I'm superstitious, but just in case I wear something yellow."),
     ]
   ),
@@ -612,33 +612,33 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
             "¿Qué piropo es aceptable?",
             ["A tu mejor amiga: «¡Qué bien te sienta ese vestido!»", "A una desconocida en la calle, un comentario sobre su cuerpo.", "Silbar a alguien desde un coche.", "Seguir a alguien diciéndole cosas."],
             0,
-            "Confianza y respeto."
+            "El cumplido a tu mejor amiga es aceptable porque hay confianza y respeto. Comentar el cuerpo de una desconocida, silbar desde un coche o seguir a alguien diciéndole cosas es acoso callejero, no un piropo."
           ),
         ]
       ),
     ],
     [
-      fb("Completa.", "¡Qué bien te ___ ese color! (quedar, presente)", "queda", "Quedarle bien algo a alguien."),
-      fb("Completa.", "Los comentarios no deseados en la calle se consideran acoso ___.", "callejero", "Acoso callejero."),
+      fb("Completa.", "¡Qué bien te ___ ese color! (quedar, presente)", "queda", "«Quedarle bien algo a alguien» concuerda con la cosa (el color): te queda."),
+      fb("Completa.", "Los comentarios no deseados en la calle se consideran acoso ___.", "callejero", "«Acoso callejero» es el término para los comentarios no deseados en la vía pública; el adjetivo concuerda con «acoso»."),
       mc(
         "¿Qué determina si un piropo es aceptable hoy?",
         ["la relación, el contexto y el respeto", "que rime", "que sea largo", "que lo diga un hombre"],
         0,
-        "Contexto y consentimiento."
+        "Lo que decide si un piropo es aceptable es la relación, el contexto y el respeto (y si es bienvenido). Que rime, que sea largo o quién lo diga no cambia que un comentario no deseado sea invasivo."
       ),
       ms(
         "¿Qué rasgos hacen inaceptable un comentario?",
         ["dirigirse a una desconocida", "contenido sexual", "insistencia", "ingenio entre amigos"],
         [0, 1, 2],
-        "El ingenio entre amigos no es problema."
+        "Dirigirse a una desconocida, el contenido sexual y la insistencia convierten un comentario en acoso. El ingenio entre amigos, con confianza, no es problema."
       ),
       mc(
         "«Si cocinas como bailas, me caso contigo» dicho entre amigos es…",
         ["un piropo humorístico y cariñoso", "una propuesta seria de matrimonio", "un insulto", "acoso"],
         0,
-        "Contexto de confianza."
+        "Entre amigos, esta frase es un piropo humorístico y cariñoso: nadie la toma como una propuesta seria de matrimonio. La confianza es lo que impide que sea un insulto o acoso."
       ),
-      toEs("That color really suits you.", "Ese color te queda muy bien.", "Cumplido.", ["Ese color te sienta muy bien.", "Te queda genial ese color."]),
+      toEs("That color really suits you.", "Ese color te queda muy bien.", "«Quedarle bien» o «sentarle bien» algo a alguien equivale a «to suit»: te queda muy bien.", ["Ese color te sienta muy bien.", "Te queda genial ese color."]),
       wo("Entre amigos, un piropo ingenioso puede ser una muestra de cariño.", "Contexto.", "Among friends, a witty compliment can be a sign of affection."),
     ]
   ),
@@ -661,20 +661,20 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
             "«—¡Qué chaqueta tan bonita!» Respuesta típica:",
             ["¿Esta? Si la tengo desde hace años.", "Sí, ya lo sé, es preciosa.", "No me hables.", "¿Y a ti qué?"],
             0,
-            "Restar importancia."
+            "Lo típico es restar importancia al cumplido («¿Esta? Si la tengo desde hace años»). «Sí, ya lo sé, es preciosa» suena arrogante, y «No me hables» o «¿Y a ti qué?» son respuestas bruscas."
           ),
         ]
       ),
     ],
     [
-      fb("Completa.", "—¡Qué guapa estás! —Pues ___ que tú, que estás estupenda.", "anda", "Devolver el cumplido."),
+      fb("Completa.", "—¡Qué guapa estás! —Pues ___ que tú, que estás estupenda.", "anda", "«Pues anda que tú» devuelve el cumplido con naturalidad: «y tú todavía más»."),
       fb("Completa.", "Eso es que tú me miras con buenos ___.", "ojos", "Mirar (o ver) a alguien con buenos ojos = verlo con simpatía, favorablemente."),
-      fb("Completa.", "—¡Cocinas de maravilla! —Qué ___, si es lo más fácil del mundo.", "va", "Qué va = restar importancia."),
+      fb("Completa.", "—¡Cocinas de maravilla! —Qué ___, si es lo más fácil del mundo.", "va", "«Qué va» niega con suavidad y resta importancia al elogio."),
       mc(
         "¿Qué respuesta puede sonar arrogante?",
         ["Sí, lo sé, cocino mejor que nadie.", "Gracias, eres muy amable.", "Qué va, es una receta sencilla.", "Me alegro de que te guste."],
         0,
-        "Aceptación sin modestia."
+        "Aceptar el elogio sin ninguna modestia («cocino mejor que nadie») suena arrogante. Dar las gracias, restarle importancia («qué va») o alegrarse de que guste son respuestas corteses."
       ),
       mt(
         "Relaciona la respuesta con su estrategia.",
@@ -685,7 +685,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Estrategias de cortesía."
       ),
-      toEs("You're just being kind.", "Eres muy amable.", "Modestia.", ["Qué amable eres.", "Lo dices porque me quieres.", "Eso es que me miras con buenos ojos.", "Me miras con buenos ojos."]),
+      toEs("You're just being kind.", "Eres muy amable.", "Ante un cumplido se responde con modestia, atribuyéndolo a la amabilidad o el cariño del otro.", ["Qué amable eres.", "Lo dices porque me quieres.", "Eso es que me miras con buenos ojos.", "Me miras con buenos ojos."]),
       wo("Qué va, si esta camisa la compré en un mercadillo.", "Restar importancia.", "Oh no, I bought this shirt at a street market."),
     ]
   ),

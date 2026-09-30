@@ -60,7 +60,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "No hay nadie que sabía la respuesta."
             ],
             "correctIndex": 1,
-            "explanation": "Con un antecedente inexistente (\"nadie\"), el verbo va en subjuntivo: sepa."
+            "explanation": "Con un antecedente inexistente («nadie»), el verbo de la relativa va en subjuntivo: no hay nadie que sepa. «Sabe», «sabrá» y «sabía» son indicativo, que solo se usa si el antecedente existe y es conocido."
           }
         ]
       },
@@ -148,7 +148,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Uno en blanco y negro"
             ],
             "correctIndex": 2,
-            "explanation": "Piden \"algo que tenga colores cálidos.\""
+            "explanation": "Piden «algo que tenga colores cálidos». No buscan colores fríos, un cuadro abstracto ni uno en blanco y negro."
           }
         ]
       }
@@ -171,7 +171,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Busco un coche que consumo poco."
         ],
         "correctIndex": 0,
-        "explanation": "\"Tengo un coche\" describe algo específico y conocido: indicativo."
+        "explanation": "«Tengo un coche» se refiere a algo concreto y conocido: indicativo, consume. «Tengo un coche que consuma» usa subjuntivo sin motivo, y con «busco» (algo aún no encontrado) haría falta subjuntivo, no «consume» ni «consumo»."
       },
       {
         "type": "fill-blank",
@@ -462,7 +462,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Las otras dos describen antecedentes específicos y conocidos: indicativo."
+        "explanation": "Con un antecedente buscado o inexistente se usa subjuntivo: busco a alguien que me ayude, no hay nadie que me entienda. «Conozco a alguien que me ayuda» y «Tengo un amigo que me entiende» hablan de personas concretas: indicativo."
       },
       {
         "type": "word-order",
@@ -488,7 +488,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "la reseña"
         ],
         "correctIndex": 1,
-        "explanation": "\"La réplica\" es una copia de una obra original."
+        "explanation": "«La réplica» es una copia de una obra original. El boceto es un dibujo previo, el manuscrito es un texto escrito a mano y la reseña es una crítica."
       }
     ]
   },
@@ -547,7 +547,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Esperaba hasta que llegaba."
             ],
             "correctIndex": 1,
-            "explanation": "\"Esperaré hasta que llegue\" describe un evento futuro incierto: subjuntivo."
+            "explanation": "«Hasta que» con una acción futura pide subjuntivo: esperaré hasta que llegue. «Esperé hasta que llegó» y «Esperaba hasta que llegaba» hablan del pasado, y «Espero hasta que llega» de una costumbre presente."
           }
         ]
       },
@@ -601,7 +601,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "El indicativo (hace, es) presenta hechos que el hablante ya conoce como ciertos."
+            "explanation": "Con indicativo, «aunque» presenta un hecho que el hablante sabe cierto: aunque hace frío, aunque es caro. «Aunque haga frío» y «Aunque sea caro» usan subjuntivo: el hecho es posible o no importa."
           }
         ]
       },
@@ -658,7 +658,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "La fecha de la votación"
             ],
             "correctIndex": 1,
-            "explanation": "Dice: \"el método nos preocupa,\" aunque estén de acuerdo con el objetivo."
+            "explanation": "Dice que «el método nos preocupa», aunque están de acuerdo con el objetivo. No hablan del costo ni de la fecha de la votación."
           }
         ]
       }
@@ -681,7 +681,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Antes de que llegarás, limpiaré la casa."
         ],
         "correctIndex": 1,
-        "explanation": "\"Antes de que\" siempre lleva subjuntivo: llegues."
+        "explanation": "«Antes de que» siempre lleva subjuntivo: antes de que llegues. «Llegas» es indicativo y «llegarás» es futuro; «limpio la casa» sería posible, pero la acción futura suena más natural con «limpiaré»."
       },
       {
         "type": "fill-blank",
@@ -999,7 +999,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "el mandato"
         ],
         "correctIndex": 1,
-        "explanation": "\"El referéndum\" es una consulta directa al pueblo."
+        "explanation": "«El referéndum» es una consulta directa al pueblo. El decreto es una norma del gobierno, el tratado es un acuerdo entre países y el mandato es el periodo o encargo de un cargo."
       }
     ]
   },
@@ -1060,7 +1060,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "diciera"
             ],
             "correctIndex": 0,
-            "explanation": "Decir → dijeron → dijera, dijeras, dijera..."
+            "explanation": "El imperfecto de subjuntivo sale de la 3.ª persona plural del pretérito: dijeron → dijera. «Dijiera», «decyera» y «diciera» no existen."
           }
         ]
       },
@@ -1114,7 +1114,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               1,
               2
             ],
-            "explanation": "El verbo principal en pasado (esperaba, era) exige imperfecto de subjuntivo en la cláusula siguiente."
+            "explanation": "Un verbo principal en pasado (esperaba, era necesario) pide imperfecto de subjuntivo: vinieras, estudiaras. «Espero que vengas» y «Es necesario que estudies» tienen el verbo principal en presente: presente de subjuntivo."
           }
         ]
       },
@@ -1148,7 +1148,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Que fuera al circo"
             ],
             "correctIndex": 1,
-            "explanation": "El texto dice: \"mis maestros dudaban que yo llegara a cumplir esas metas.\""
+            "explanation": "El texto dice que los maestros dudaban «que yo llegara a cumplir esas metas». No dudaban de que soñara, viajara ni fuera al circo."
           }
         ]
       }
@@ -1171,7 +1171,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "éramos"
         ],
         "correctIndex": 1,
-        "explanation": "Ser/ir → fueron → fuéramos."
+        "explanation": "Ser e ir forman el imperfecto de subjuntivo desde fueron: fuéramos. «Seríamos» es condicional, «seamos» es presente de subjuntivo y «éramos» es imperfecto de indicativo."
       },
       {
         "type": "fill-blank",
@@ -1462,7 +1462,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "El verbo principal en pasado (quería, dudaba) exige imperfecto de subjuntivo."
+        "explanation": "Un verbo principal en pasado (quería, dudaba) pide imperfecto de subjuntivo: fueras, tuviéramos. «Quiero que seas» y «Dudo que tengamos» están bien, pero usan presente de subjuntivo porque el verbo principal está en presente."
       },
       {
         "type": "word-order",
@@ -1487,7 +1487,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "la clarividencia"
         ],
         "correctIndex": 1,
-        "explanation": "\"La epifanía\" es una comprensión súbita y reveladora."
+        "explanation": "«La epifanía» es una comprensión súbita y reveladora. La premonición es presentir el futuro, la ensoñación es soñar despierto y la clarividencia es la capacidad de ver lo que otros no ven."
       }
     ]
   },
@@ -1546,7 +1546,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Si llovió, me quedé en casa."
             ],
             "correctIndex": 1,
-            "explanation": "\"Si lloviera\" presenta la lluvia como algo hipotético o poco probable en este momento."
+            "explanation": "«Si lloviera, me quedaría» presenta la lluvia como algo hipotético o poco probable. «Si llueve, me quedo / me quedaré» son condiciones reales, y «Si llovió, me quedé» habla del pasado."
           }
         ]
       },
@@ -1600,7 +1600,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               0,
               1
             ],
-            "explanation": "\"Como si\" siempre requiere imperfecto de subjuntivo, igual que las condiciones hipotéticas con \"si\"."
+            "explanation": "«Como si» siempre pide imperfecto (o pluscuamperfecto) de subjuntivo, igual que las hipótesis con «si». «Si soy tú, acepto» no es una hipótesis posible, y «como si nada pasa» usa indicativo por error."
           }
         ]
       },
@@ -1634,7 +1634,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Acelerar el desarrollo"
             ],
             "correctIndex": 1,
-            "explanation": "Dice: \"si actuáramos con más cuidado, evitaríamos ciertos riesgos.\""
+            "explanation": "Dice: «si actuáramos con más cuidado, evitaríamos ciertos riesgos». No propone detener, ignorar ni acelerar el desarrollo."
           }
         ]
       }
@@ -1657,7 +1657,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Si hubiera estudiado, habría aprobado."
         ],
         "correctIndex": 0,
-        "explanation": "\"Si estudio, apruebo\" usa presente indicativo: condición real."
+        "explanation": "«Si estudio, apruebo» usa presente de indicativo: condición real. «Si estudiara, aprobaría» (dos veces) es hipótesis presente, y «Si hubiera estudiado, habría aprobado» es una hipótesis sobre el pasado."
       },
       {
         "type": "fill-blank",
@@ -1948,7 +1948,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Las otras dos describen realidad o condiciones probables, no hipótesis."
+        "explanation": "«Si tuviera alas, volaría» y «Actúa como si supiera todo» son hipótesis (imperfecto de subjuntivo). «Si tengo tiempo, voy» es una condición real y «Sabe mucho de este tema» describe la realidad."
       },
       {
         "type": "word-order",
@@ -1974,7 +1974,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "escalable"
         ],
         "correctIndex": 1,
-        "explanation": "\"Irreversible\" significa que no se puede deshacer."
+        "explanation": "«Irreversible» es lo que no se puede deshacer. Obsoleto significa anticuado, confiable significa que se puede confiar en ello y escalable, que puede crecer."
       }
     ]
   },
@@ -2033,7 +2033,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "tenía tenido"
             ],
             "correctIndex": 1,
-            "explanation": "El pluscuamperfecto de subjuntivo usa hubiera + participio: hubiera tenido."
+            "explanation": "El pluscuamperfecto de subjuntivo es hubiera + participio: hubiera tenido. «Habría tenido» es condicional perfecto, y «tendría tenido» o «tenía tenido» no existen."
           }
         ]
       },
@@ -2087,7 +2087,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "Las otras dos se refieren al presente o futuro, no a un arrepentimiento sobre el pasado."
+            "explanation": "El arrepentimiento sobre el pasado usa pluscuamperfecto de subjuntivo: ojalá hubiera viajado, si hubiera sabido. «Ojalá viajara más este año» y «Si supiera, actuaría» hablan del presente o del futuro."
           }
         ]
       },
@@ -2121,7 +2121,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Un viaje"
             ],
             "correctIndex": 1,
-            "explanation": "Dice: \"si hubiera aceptado esa beca.\""
+            "explanation": "Dice: «si hubiera aceptado esa beca». No habla de un trabajo, una casa ni un viaje."
           }
         ]
       }
@@ -2144,7 +2144,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "decías dicho"
         ],
         "correctIndex": 1,
-        "explanation": "El pluscuamperfecto de subjuntivo usa hubieras + participio irregular de decir (dicho)."
+        "explanation": "El pluscuamperfecto de subjuntivo es hubieras + participio, y decir → dicho: hubieras dicho. «Habrías dicho» es condicional perfecto, y «dirías dicho» o «decías dicho» no existen."
       },
       {
         "type": "fill-blank",
@@ -2435,7 +2435,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Las otras dos usan estructuras diferentes: hipotética presente y condición real."
+        "explanation": "Si + pluscuamperfecto de subjuntivo + condicional perfecto: si hubiera estudiado, habría aprobado. «Si estudiara, aprobaría» es una hipótesis presente y «Si llamas, contesto» una condición real."
       },
       {
         "type": "word-order",
@@ -2462,7 +2462,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "la disyuntiva"
         ],
         "correctIndex": 1,
-        "explanation": "\"El punto de inflexión\" es el momento decisivo que cambia el curso de algo."
+        "explanation": "«El punto de inflexión» es el momento decisivo que cambia el curso de algo. La bifurcación es una división en dos caminos, el desenlace es el final de una historia y la disyuntiva es una elección entre dos opciones."
       }
     ]
   },
@@ -2485,7 +2485,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "habían escrito"
         ],
         "correctIndex": 0,
-        "explanation": "El condicional perfecto usa habrían más el participio irregular de escribir: escrito."
+        "explanation": "El condicional perfecto es habrían + participio, y escribir → escrito: habrían escrito. «Escribido» no existe, «escribirían escrito» no es una forma y «habían escrito» es pluscuamperfecto de indicativo."
       },
       {
         "type": "multiple-choice",
@@ -2497,7 +2497,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "pondríamos puesto"
         ],
         "correctIndex": 1,
-        "explanation": "El pluscuamperfecto de subjuntivo usa hubiéramos más el participio irregular de poner: puesto."
+        "explanation": "El pluscuamperfecto de subjuntivo es hubiéramos + participio, y poner → puesto: hubiéramos puesto. «Habríamos puesto» es condicional perfecto, y «poníamos puesto» o «pondríamos puesto» no existen."
       },
       {
         "type": "fill-blank",
@@ -2559,7 +2559,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           1
         ],
-        "explanation": "Las otras dos usan tiempos de hipótesis presente o futuro, no de arrepentimiento sobre el pasado."
+        "explanation": "La hipótesis o el arrepentimiento sobre el pasado usa pluscuamperfecto de subjuntivo: si hubiera insistido, ojalá hubiera perdonado. «Si insisto, consigo» es una condición real y «Ojalá perdonara» se refiere al presente o al futuro."
       },
       {
         "type": "translate",
@@ -2590,7 +2590,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Si sabría la verdad, habría actuado distinto."
         ],
         "correctIndex": 0,
-        "explanation": "La cláusula con \"si\" lleva pluscuamperfecto de subjuntivo (hubiera sabido); la principal lleva condicional perfecto (habría actuado). \"Habría\" nunca aparece justo después de \"si\"."
+        "explanation": "La cláusula con «si» lleva pluscuamperfecto de subjuntivo (hubiera sabido) y la principal, condicional perfecto (habría actuado). «Si habría sabido» y «Si sabría» ponen el condicional justo después de «si», algo incorrecto, y la versión con «hubiera actuado distinto igual» no usa condicional perfecto y además «igual» no tiene sentido ahí."
       },
       {
         "type": "multiple-choice",
@@ -2602,7 +2602,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "punto de decisión difícil"
         ],
         "correctIndex": 1,
-        "explanation": "\"La brújula moral\" es el sentido interno de lo correcto e incorrecto."
+        "explanation": "«La brújula moral» es el sentido interno de lo correcto e incorrecto. Las otras definiciones corresponden al rumbo de la vida, la resiliencia y una disyuntiva."
       },
       {
         "type": "matching",
@@ -2668,7 +2668,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "volvería vuelto"
         ],
         "correctIndex": 0,
-        "explanation": "Condicional perfecto: habría más el participio irregular de volver: vuelto."
+        "explanation": "El condicional perfecto es habría + participio, y volver → vuelto: habría vuelto. «Volvido» no existe, «hubiera vuelto» es pluscuamperfecto de subjuntivo y «volvería vuelto» no es una forma."
       },
       {
         "type": "word-order",
@@ -2771,7 +2771,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Dijo que terminó el informe."
             ],
             "correctIndex": 1,
-            "explanation": "El futuro (terminaré) pasa normalmente al condicional (terminaría) en el estilo indirecto. Si el hecho todavía está por ocurrir cuando lo contamos, también es correcto mantener el futuro («Dijo que terminará el informe mañana»), algo muy frecuente en América; el condicional es la opción más segura y la preferida en España."
+            "explanation": "En estilo indirecto, el futuro (terminaré) suele pasar a condicional: dijo que terminaría. «Que terminara» convierte la frase en una orden, y «termina» o «terminó» cambian el momento de la acción. Si el hecho aún está por ocurrir, también se acepta mantener el futuro («Dijo que terminará el informe mañana»), muy frecuente en América."
           }
         ]
       },
@@ -2822,7 +2822,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "Los mandatos reportados siempre usan subjuntivo: ayudara, esperáramos."
+            "explanation": "Una orden reportada (pedir, decir que alguien haga algo) usa subjuntivo: ayudara, esperáramos. «Que la ayudo» y «que esperamos» usan indicativo, que convierte la orden en una simple información."
           }
         ]
       },
@@ -2856,7 +2856,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Inmediatamente"
             ],
             "correctIndex": 1,
-            "explanation": "Dijo que \"entraría en vigor el mes siguiente.\""
+            "explanation": "El portavoz dijo que «entraría en vigor el mes siguiente». No habló de esa misma semana, del año siguiente ni de hacerlo inmediatamente."
           }
         ]
       }
@@ -2879,7 +2879,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Dijo que va a ir a la reunión."
         ],
         "correctIndex": 1,
-        "explanation": "El futuro (iré) retrocede al condicional (iría)."
+        "explanation": "En estilo indirecto con dijo, el futuro (iré) pasa a condicional: iría. «Va» y «va a ir» mantienen el presente, y «fue» cambia el sentido a un hecho pasado."
       },
       {
         "type": "fill-blank",
@@ -3175,7 +3175,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "El presente no se mantiene igual: retrocede a imperfecto."
+        "explanation": "Con el verbo introductorio en pasado, los tiempos retroceden: presente → imperfecto, futuro → condicional, pretérito → pluscuamperfecto. «Presente → presente» es la opción falsa: el presente retrocede a imperfecto."
       },
       {
         "type": "word-order",
@@ -3201,7 +3201,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "censurar"
         ],
         "correctIndex": 1,
-        "explanation": "\"Desmentir\" significa negar públicamente que algo es cierto."
+        "explanation": "«Desmentir» es negar públicamente que algo es cierto. Rectificar es corregir un error propio, verificar es comprobar y censurar es prohibir o criticar."
       }
     ]
   },
@@ -3260,7 +3260,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Juan nunca se aburre"
             ],
             "correctIndex": 1,
-            "explanation": "\"Estar aburrido\" describe el estado temporal de sentir aburrimiento."
+            "explanation": "«Estar aburrido» describe un estado temporal: siente aburrimiento ahora. «Ser aburrido» sería que Juan es una persona aburrida; las otras opciones no corresponden a la frase."
           }
         ]
       },
@@ -3314,7 +3314,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "Para eventos se usa ser (la boda es); para la ubicación de objetos se usa estar (las llaves están)."
+            "explanation": "Los eventos se localizan con ser (la boda es en la playa) y los objetos con estar (mis llaves están en la mesa). Por eso «La boda está en la playa» y «Mis llaves son en la mesa» usan el verbo equivocado."
           }
         ]
       },
@@ -3348,7 +3348,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Aburrimiento"
             ],
             "correctIndex": 1,
-            "explanation": "El paciente dice: \"he estado bastante ansioso.\""
+            "explanation": "El paciente dice: «he estado bastante ansioso». No habla de tristeza, alegría ni aburrimiento."
           }
         ]
       }
@@ -3371,7 +3371,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Marta está confundida"
         ],
         "correctIndex": 1,
-        "explanation": "\"Ser listo\" significa ser inteligente; \"estar listo\" significa estar preparado."
+        "explanation": "«Ser listo» significa ser inteligente; «estar listo» significa estar preparado. Por eso no es «está preparada», «tiene prisa» ni «está confundida»."
       },
       {
         "type": "fill-blank",
@@ -3662,7 +3662,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Ser se usa para el lugar u hora de un evento; estar para la ubicación de objetos."
+        "explanation": "Con eventos, ser indica dónde o cuándo tienen lugar: el concierto es en el estadio, la reunión es a las tres. «El estadio está lejos» y «Los documentos están en mi oficina» usan estar para la ubicación de lugares y objetos."
       },
       {
         "type": "word-order",
@@ -3688,7 +3688,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "la resiliencia emocional"
         ],
         "correctIndex": 1,
-        "explanation": "\"La autoconciencia\" es la capacidad de reconocer los propios pensamientos y emociones."
+        "explanation": "«La autoconciencia» es reconocer los propios pensamientos y emociones. La empatía es entender a otros, el temperamento es el carácter y la resiliencia es la capacidad de recuperarse."
       }
     ]
   },
@@ -3747,7 +3747,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Se volvió a casa temprano."
             ],
             "correctIndex": 1,
-            "explanation": "Volverse describe un cambio gradual de carácter o actitud: se volvió más desconfiado."
+            "explanation": "Volverse describe un cambio gradual de carácter: se volvió más desconfiado. Para una profesión se usa hacerse (se hizo profesor), la hora va con ser (eran las ocho) y «se volvió a casa» significa regresar."
           }
         ]
       },
@@ -3802,7 +3802,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               1,
               3
             ],
-            "explanation": "\"Se volvió las cinco\" no es correcto — para la hora se usa \"ser\" (eran las cinco), no \"volverse\"."
+            "explanation": "Ponerse expresa un cambio momentáneo (se puso pálido), hacerse un cambio logrado con esfuerzo (se hizo millonario) y convertirse en una transformación (se convirtió en hielo). «Se volvió las cinco de la tarde» es incorrecta: la hora se expresa con ser (eran las cinco)."
           }
         ]
       },
@@ -3836,7 +3836,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "En una escuela de cocina"
             ],
             "correctIndex": 1,
-            "explanation": "El texto dice que \"se ha convertido en un referente de la ciudad.\""
+            "explanation": "El texto dice que «se ha convertido en un referente de la ciudad». No habla de una cadena internacional, un museo ni una escuela de cocina."
           }
         ]
       }
@@ -3859,7 +3859,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "estar"
         ],
         "correctIndex": 2,
-        "explanation": "Hacerse describe un cambio de profesión o estatus logrado con esfuerzo."
+        "explanation": "Hacerse describe un cambio de profesión o estatus logrado con esfuerzo: se hizo abogado. Ponerse es para cambios físicos o de ánimo repentinos, volverse para cambios de carácter y estar no expresa cambio."
       },
       {
         "type": "fill-blank",
@@ -4176,7 +4176,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "la metamorfosis"
         ],
         "correctIndex": 1,
-        "explanation": "\"La zona de confort\" es el espacio de comodidad y familiaridad."
+        "explanation": "«La zona de confort» es el espacio de comodidad y familiaridad. El punto de partida es el inicio, la disciplina es la constancia y la metamorfosis es una transformación."
       }
     ]
   },
@@ -4199,7 +4199,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "llegó a ser"
         ],
         "correctIndex": 1,
-        "explanation": "Volverse describe un cambio gradual e involuntario de carácter: se volvió más reservado."
+        "explanation": "Volverse describe un cambio gradual e involuntario de carácter: se volvió más reservado. Ponerse es para cambios repentinos y pasajeros, y hacerse o llegar a ser suelen expresar logros o profesiones."
       },
       {
         "type": "multiple-choice",
@@ -4211,7 +4211,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "se convirtió"
         ],
         "correctIndex": 2,
-        "explanation": "Hacerse describe un cambio de profesión logrado con esfuerzo y decisión personal: se hizo abogado."
+        "explanation": "Hacerse describe una profesión alcanzada con esfuerzo: se hizo abogado. Ponerse y volverse no se usan con profesiones, y convertirse necesitaría «en»: se convirtió en abogado."
       },
       {
         "type": "multiple-choice",
@@ -4223,7 +4223,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "llegó a ser"
         ],
         "correctIndex": 2,
-        "explanation": "Ponerse describe un cambio físico repentino y temporal: se puso pálido."
+        "explanation": "Ponerse describe un cambio físico repentino y temporal: se puso pálido. Hacerse, volverse y llegar a ser expresan cambios duraderos o logros."
       },
       {
         "type": "multiple-choice",
@@ -4235,7 +4235,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "se hizo las cinco"
         ],
         "correctIndex": 2,
-        "explanation": "Llegar a ser describe un logro gradual y generalmente positivo: llegó a ser presidenta."
+        "explanation": "Llegar a ser describe un logro gradual, normalmente positivo: llegó a ser presidenta. Ponerse y volverse no se usan con cargos, y «se hizo las cinco» no tiene sentido."
       },
       {
         "type": "multiple-choice",
@@ -4247,7 +4247,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "llegó a ser"
         ],
         "correctIndex": 2,
-        "explanation": "Convertirse en describe una transformación radical y completa, no necesariamente positiva: se convirtió en un conflicto."
+        "explanation": "Convertirse en describe una transformación completa: se convirtió en un conflicto. Ponerse no va con sustantivos, hacerse no lleva «en» y llegar a ser suele indicar un logro positivo."
       },
       {
         "type": "fill-blank",
@@ -4416,7 +4416,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "obligación asumida con determinación"
         ],
         "correctIndex": 1,
-        "explanation": "\"El fracaso constructivo\" es un error que aporta una lección valiosa."
+        "explanation": "«El fracaso constructivo» es un error que deja una lección valiosa. Las otras definiciones describen el estancamiento, un potencial oculto y un compromiso."
       }
     ]
   },
@@ -4475,7 +4475,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "A pesar de crisis, la empresa creció."
             ],
             "correctIndex": 1,
-            "explanation": "\"A pesar de\" + sustantivo no lleva \"que\": a pesar de la crisis."
+            "explanation": "«A pesar de» + sustantivo no lleva «que»: a pesar de la crisis. «A pesar de que» va seguido de un verbo, «a pesar la crisis» omite el «de» y «de crisis» omite el artículo necesario."
           }
         ]
       },
@@ -4563,7 +4563,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Eliminar el sistema actual"
             ],
             "correctIndex": 1,
-            "explanation": "Dice: \"propongo una reforma gradual, ya que evitaría una crisis institucional.\""
+            "explanation": "Dice: «propongo una reforma gradual, ya que evitaría una crisis institucional». No propone una reforma inmediata, no cambiar nada ni eliminar el sistema."
           }
         ]
       }
@@ -4586,7 +4586,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "además"
         ],
         "correctIndex": 1,
-        "explanation": "\"Puesto que\" introduce una causa o razón."
+        "explanation": "«Puesto que» introduce una causa o razón. «Por lo tanto» introduce una consecuencia, «sin embargo» un contraste y «además» una suma de ideas."
       },
       {
         "type": "fill-blank",
@@ -4877,7 +4877,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Ya que introduce causa; a pesar de introduce concesión, no consecuencia."
+        "explanation": "«Por consiguiente» y «así que» introducen una consecuencia. «Ya que» introduce una causa y «a pesar de» una concesión."
       },
       {
         "type": "word-order",
@@ -4904,7 +4904,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "ceder"
         ],
         "correctIndex": 1,
-        "explanation": "\"Zanjar\" significa poner fin de forma definitiva a una discusión."
+        "explanation": "«Zanjar» es poner fin definitivo a una discusión. Matizar es precisar, rebatir es refutar un argumento y ceder es dar la razón en parte."
       }
     ]
   },
@@ -4963,7 +4963,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Fue donde nos conocimos aquí."
             ],
             "correctIndex": 1,
-            "explanation": "Para enfatizar un lugar, el relativo que concuerda es \"donde\": fue aquí donde nos conocimos. En gran parte de América también se oye \"fue aquí que nos conocimos\"; es habitual en el habla, pero en España y en la escritura formal se prefiere \"donde\"."
+            "explanation": "Para enfatizar un lugar se usa «donde»: fue aquí donde nos conocimos. «Quien» es para personas, «cuando» para momentos, y «Fue donde nos conocimos aquí» desordena la estructura. En América también se oye «fue aquí que nos conocimos», pero en registro formal se prefiere «donde»."
           }
         ]
       },
@@ -5020,7 +5020,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "Las otras dos versiones invierten incorrectamente el orden de los elementos de la estructura."
+            "explanation": "En las estructuras enfáticas el pronombre va delante del verbo conjugado y «lo» + adjetivo + que expresa grado: Fue él quien lo propuso, lo difícil que fue. «Propuso primero lo» y «que difícil fue esto lo» colocan mal los elementos."
           }
         ]
       },
@@ -5054,7 +5054,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Nunca del todo"
             ],
             "correctIndex": 1,
-            "explanation": "El texto dice: \"Fue en el segundo tema cuando la banda realmente conectó con la audiencia.\""
+            "explanation": "El texto dice: «Fue en el segundo tema cuando la banda realmente conectó con la audiencia». No fue desde el inicio, ni al final, y sí llegó a conectar."
           }
         ]
       }
@@ -5077,7 +5077,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Fue cuando entonces decidí cambiar."
         ],
         "correctIndex": 1,
-        "explanation": "Para enfatizar un momento, el relativo que concuerda es \"cuando\": fue entonces cuando decidí cambiar. \"Fue entonces que...\" es frecuente en el habla de América, pero en España y en registro formal se prefiere \"cuando\"."
+        "explanation": "Para enfatizar un momento se usa «cuando»: fue entonces cuando decidí cambiar. «Donde» es para lugares, «quien» para personas, y «Fue cuando entonces decidí cambiar» desordena la estructura. «Fue entonces que…» se oye en América, pero en registro formal se prefiere «cuando»."
       },
       {
         "type": "fill-blank",
@@ -5368,7 +5368,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Las otras dos colocan el pronombre incorrectamente."
+        "explanation": "El pronombre va delante del verbo conjugado: ya lo terminé, lo organizó todo. «Ya terminé lo» y «organizó lo todo» lo colocan detrás, lo que no es posible con verbos conjugados."
       },
       {
         "type": "word-order",
@@ -5394,7 +5394,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "el repertorio"
         ],
         "correctIndex": 1,
-        "explanation": "\"El virtuosismo\" es el dominio técnico excepcional de un arte."
+        "explanation": "«El virtuosismo» es el dominio técnico excepcional de un arte. La acústica es cómo suena un espacio, la coreografía es el diseño de un baile y el repertorio es el conjunto de obras que alguien interpreta."
       }
     ]
   },
@@ -5491,7 +5491,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "La mujer cuyas hijo son médicos vive aquí."
         ],
         "correctIndex": 1,
-        "explanation": "\"Cuyo\" concuerda con \"hijos\" (masculino plural), el sustantivo poseído, así que la forma correcta es \"cuyos\", sin importar que \"la mujer\" sea femenino."
+        "explanation": "«Cuyo» concuerda en género y número con lo poseído (hijos), no con el poseedor (la mujer): cuyos hijos. «Cuyo hijos» y «cuya hijos» no concuerdan con «hijos», y «cuyas hijo» mezcla femenino plural con un sustantivo singular."
       },
       {
         "type": "fill-blank",
@@ -5618,7 +5618,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "A los mil apartamentos"
             ],
             "correctIndex": 2,
-            "explanation": "\"Lo cual\" retoma toda la idea anterior —que los vecinos dudan de que el plan se cumpla— y no un sustantivo concreto; por eso funciona como comentario sobre esa idea completa."
+            "explanation": "«Lo cual» retoma toda la idea inmediatamente anterior: que muchos vecinos dudan de que el plan se cumpla. No se refiere a un sustantivo concreto como «los mil apartamentos», y la gestión del alcalde o el inicio del proyecto aparecen en oraciones anteriores."
           }
         ]
       }
@@ -5762,7 +5762,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Mi amigo que vive en Madrid es simpático."
             ],
             "correctIndex": 1,
-            "explanation": "'Busco un amigo que viva en Madrid' implica que no se sabe si esa persona existe todavía, por eso se usa el subjuntivo 'viva'."
+            "explanation": "«Busco un amigo que viva en Madrid» no sabe si esa persona existe: subjuntivo. «Tengo un amigo», «Conozco a un amigo» y «Mi amigo que vive» hablan de alguien concreto y conocido: indicativo."
           }
         ]
       }
@@ -5778,7 +5778,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "ha hablado"
         ],
         "correctIndex": 1,
-        "explanation": "El antecedente 'un traductor' es indefinido (no se sabe si existe tal persona todavía), así que se usa el subjuntivo: hable."
+        "explanation": "El traductor todavía no se ha encontrado (antecedente indefinido), así que se usa subjuntivo: hable. «Habla», «hablará» y «ha hablado» son indicativo, que supondría un traductor concreto."
       },
       {
         "type": "fill-blank",
@@ -5943,7 +5943,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "haya consumido"
         ],
         "correctIndex": 1,
-        "explanation": "'Un carro' aquí es específico (el carro que mi hermano ya tiene), así que se usa el indicativo: consume."
+        "explanation": "El carro es concreto: mi hermano ya lo tiene. Por eso va en indicativo: consume. «Consuma», «consumiera» y «haya consumido» son subjuntivo, que se usaría si el carro fuera buscado o imaginado."
       },
       {
         "type": "multi-select",
@@ -5958,7 +5958,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           1,
           2
         ],
-        "explanation": "Las oraciones con antecedente indefinido ('un barrio' que aún no se ha encontrado) o negativo ('ningún barrio') requieren subjuntivo; las que describen un lugar específico y conocido usan indicativo."
+        "explanation": "«Quiero vivir en un barrio que sea…» (aún no encontrado) y «No hay ningún barrio… que sea» (inexistente) piden subjuntivo. «Vivo en un barrio que es» y «Conozco un barrio que es» hablan de un lugar concreto: indicativo."
       },
       {
         "type": "matching",
@@ -6112,7 +6112,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "tuvo"
         ],
         "correctIndex": 1,
-        "explanation": "'Alguien' que todavía no se ha identificado es un antecedente indefinido, así que se usa el subjuntivo: tenga."
+        "explanation": "«Alguien» que todavía no se ha identificado es un antecedente indefinido: subjuntivo, tenga. «Tiene», «tendrá» y «tuvo» son indicativo y supondrían una persona ya conocida."
       },
       {
         "type": "fill-blank",
@@ -6192,7 +6192,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "fuera"
             ],
             "correctIndex": 1,
-            "explanation": "Se refiere a una acción habitual en el pasado, por eso se usa el indicativo (iba), no el subjuntivo."
+            "explanation": "Una acción habitual en el pasado va en imperfecto de indicativo: iba. «Voy» es presente, y «vaya» y «fuera» son subjuntivo, que no se usa para describir hábitos."
           }
         ]
       },
@@ -6246,7 +6246,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "terminaba"
         ],
         "correctIndex": 1,
-        "explanation": "La acción es futura y aún no ha sucedido, por lo que 'cuando' exige subjuntivo (termine)."
+        "explanation": "Con «cuando» y una acción futura que aún no ha ocurrido, se usa subjuntivo: cuando termine. «Termino» describiría una rutina, y «terminé» y «terminaba» hablan del pasado."
       },
       {
         "type": "fill-blank",
@@ -6379,7 +6379,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "ha llovido"
             ],
             "correctIndex": 1,
-            "explanation": "Como no se sabe con certeza si lloverá, es información hipotética y 'aunque' requiere subjuntivo (llueva)."
+            "explanation": "Si no sabemos si lloverá, «aunque» va con subjuntivo: aunque llueva. «Llueve» presentaría la lluvia como un hecho, y «llovía» y «ha llovido» hablan del pasado."
           },
           {
             "type": "fill-blank",
@@ -6453,7 +6453,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "ganaría"
         ],
         "correctIndex": 0,
-        "explanation": "Es un hecho conocido y confirmado, por lo que 'aunque' lleva indicativo (gana)."
+        "explanation": "Si el hecho es conocido (sabemos que gana mucho), «aunque» lleva indicativo: gana. «Gane», «ganara» y «ganaría» lo presentarían como posible o hipotético."
       },
       {
         "type": "fill-blank",
@@ -6497,7 +6497,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "se graduaría"
         ],
         "correctIndex": 2,
-        "explanation": "La acción ya sucedió en el pasado, así que 'después de que' lleva indicativo (se graduó), no subjuntivo."
+        "explanation": "Si la acción ya ocurrió, «después de que» puede ir con indicativo: se graduó. «Se gradúa» es presente, «se graduaría» es condicional y «se graduara» es posible en registro formal, pero aquí se pide el hecho pasado."
       },
       {
         "type": "fill-blank",
@@ -6543,7 +6543,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "leerás"
             ],
             "correctIndex": 1,
-            "explanation": "'Para que' expresa propósito y siempre exige subjuntivo (leas), nunca indicativo."
+            "explanation": "«Para que» expresa finalidad y siempre pide subjuntivo: leas. «Lees», «leíste» y «leerás» son indicativo."
           }
         ]
       },
@@ -6618,7 +6618,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "hiciera"
             ],
             "correctIndex": 0,
-            "explanation": "Se describe una rutina habitual, así que 'cuando' lleva indicativo (hace)."
+            "explanation": "Una rutina habitual con «cuando» va en indicativo: cuando hace buen tiempo. «Haga» sería para una acción futura concreta, y «hizo» e «hiciera» hablan del pasado."
           }
         ]
       }
@@ -6755,7 +6755,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "vivamos"
             ],
             "correctIndex": 0,
-            "explanation": "La forma de 'nosotros' lleva tilde: 'viviéramos', a partir de 'vivieron' + '-amos'."
+            "explanation": "El imperfecto de subjuntivo sale de vivieron: viviéramos (con tilde en nosotros). «Vivimos» es indicativo, «viviríamos» es condicional y «vivamos» es presente de subjuntivo."
           }
         ]
       },
@@ -6805,7 +6805,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "tendrían"
         ],
         "correctIndex": 0,
-        "explanation": "Después de 'dudaba' (pasado) con un verbo de duda, se usa el imperfecto de subjuntivo: 'tuvieran'."
+        "explanation": "Un verbo de duda en pasado (dudaba) pide imperfecto de subjuntivo: tuvieran. «Tienen» y «tuvieron» son indicativo, y «tendrían» es condicional."
       },
       {
         "type": "translate",
@@ -6990,7 +6990,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "vendremos"
         ],
         "correctIndex": 0,
-        "explanation": "'Pide' está en presente, así que la cláusula subordinada usa el presente de subjuntivo 'vengamos', no el imperfecto."
+        "explanation": "«Pide» está en presente, así que la subordinada va en presente de subjuntivo: vengamos. «Viniéramos» correspondería a «pidió», «venimos» es indicativo y «vendremos» es futuro."
       },
       {
         "type": "fill-blank",
@@ -7059,7 +7059,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "vendrás"
             ],
             "correctIndex": 0,
-            "explanation": "El verbo principal 'espero' está en presente, así que la cláusula subordinada usa el presente de subjuntivo: 'vengas'."
+            "explanation": "«Espero» está en presente, así que se usa presente de subjuntivo: vengas. «Vinieras» iría con «esperaba», y «vienes» y «vendrás» son indicativo."
           }
         ]
       },
@@ -7115,7 +7115,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "...llegaremos a tiempo."
             ],
             "correctIndex": 1,
-            "explanation": "'Era' es un verbo principal en pasado (imperfecto de indicativo), así que la cláusula subordinada necesita el imperfecto de subjuntivo: 'llegáramos'."
+            "explanation": "«Era importante» está en pasado, así que pide imperfecto de subjuntivo: llegáramos. «Lleguemos» iría con «es importante», y «llegamos» y «llegaremos» son indicativo."
           }
         ]
       }
@@ -7172,7 +7172,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           2,
           4
         ],
-        "explanation": "Las oraciones con verbo principal en pasado (quería, dudaba, esperaba) requieren el imperfecto de subjuntivo; las que están en presente (quiero, dudo) requieren el presente de subjuntivo."
+        "explanation": "Con verbo principal en pasado (quería, dudaba, esperaba) se usa imperfecto de subjuntivo. «Quiero que vengas» y «Dudo que tenga» están bien, pero usan presente de subjuntivo porque el verbo principal está en presente."
       },
       {
         "type": "fill-blank",
@@ -7362,7 +7362,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Tipo 3 (hipotético pasado)"
         ],
         "correctIndex": 2,
-        "explanation": "Usa pluscuamperfecto de subjuntivo ('hubiéramos salido') + condicional perfecto ('habríamos perdido'), la estructura del Tipo 3, que se refiere a un hecho pasado que ya no se puede cambiar."
+        "explanation": "Pluscuamperfecto de subjuntivo (hubiéramos salido) + condicional perfecto (habríamos perdido) = Tipo 3: un pasado que ya no se puede cambiar. El Tipo 1 usa presente y el Tipo 2, imperfecto de subjuntivo + condicional."
       }
     ]
   },
@@ -7398,7 +7398,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Si tuviera dinero, te lo prestaría."
             ],
             "correctIndex": 1,
-            "explanation": "'Si tuviera dinero, te lo prestaría' usa imperfecto de subjuntivo + condicional, lo que marca una situación hipotética (implica que no tengo el dinero); la otra oración usa el Tipo 1, condición real o posible."
+            "explanation": "«Si tuviera dinero, te lo prestaría» (imperfecto de subjuntivo + condicional) es hipotética: implica que no tengo dinero. «Si tengo dinero, te lo presto» es una condición real o posible."
           }
         ]
       },
@@ -7474,7 +7474,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "Las opciones correctas combinan imperfecto de subjuntivo con condicional. Las otras dos mezclan incorrectamente presente de indicativo o presente con el condicional."
+        "explanation": "El Tipo 2 combina imperfecto de subjuntivo + condicional: si tuviera, si fuera… viajaría. «Si tengo… viajaría» y «Si tuviera… viajo» mezclan tiempos de dos tipos distintos."
       },
       {
         "type": "fill-blank",
@@ -7494,7 +7494,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Si yo sería tú, se lo diría."
         ],
         "correctIndex": 0,
-        "explanation": "'Yo que tú' es una forma abreviada de 'si yo fuera tú', seguida del condicional; nunca se usa 'sería' en la cláusula con 'si'."
+        "explanation": "«Yo que tú» equivale a «si yo fuera tú» + condicional. «Si yo soy tú» no es posible, «Si yo fui tú… habría dicho» mezcla tiempos y «si yo sería» usa condicional tras si, algo incorrecto."
       }
     ]
   },
@@ -7649,7 +7649,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "tienen"
         ],
         "correctIndex": 0,
-        "explanation": "La cláusula de resultado requiere el condicional: 'tener' → 'tendrían' (raíz irregular 'tendr-')."
+        "explanation": "Con «si + imperfecto de subjuntivo», el resultado va en condicional; tener → tendr-: tendrían. «Tenían» es imperfecto de indicativo, «tuvieran» es subjuntivo y «tienen» es presente."
       },
       {
         "type": "fill-blank",
@@ -7672,7 +7672,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Las opciones correctas usan imperfecto de subjuntivo en la cláusula con 'si'. Las otras dos son incorrectas: nunca se usa el condicional ('sabríamos') ni el presente ('tienes') junto con un condicional en la cláusula de resultado del Tipo 2."
+        "explanation": "En el Tipo 2, la cláusula con si lleva imperfecto de subjuntivo: si supiéramos, si tuvieras. «Si sabríamos» usa condicional tras si y «Si tienes… entenderías» mezcla presente con condicional."
       }
     ]
   },
@@ -7748,7 +7748,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Yo he ido a la fiesta."
             ],
             "correctIndex": 0,
-            "explanation": "El condicional perfecto se forma con habría + participio; 'hubiera ido' es pluscuamperfecto de subjuntivo, no condicional perfecto."
+            "explanation": "El condicional perfecto se forma con habría + participio: habría ido. «Hubiera ido» es pluscuamperfecto de subjuntivo (aunque a veces sustituye al condicional), «iría» es condicional simple y «he ido» es pretérito perfecto."
           },
           {
             "type": "fill-blank",
@@ -7771,7 +7771,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "sabría"
         ],
         "correctIndex": 0,
-        "explanation": "La cláusula con 'si' de un condicional tipo 3 requiere el pluscuamperfecto de subjuntivo: hubiera sabido."
+        "explanation": "En el Tipo 3, la cláusula con si lleva pluscuamperfecto de subjuntivo: si hubiera sabido. «Habría sabido» es condicional (nunca tras si), y «supiera» y «sabría» corresponden al Tipo 2."
       },
       {
         "type": "fill-blank",
@@ -7906,7 +7906,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "No es condicional"
             ],
             "correctIndex": 1,
-            "explanation": "Usa imperfecto de subjuntivo (tuviera) + condicional simple (compraría), lo que corresponde al tipo 2, una hipótesis sobre el presente."
+            "explanation": "Imperfecto de subjuntivo (tuviera) + condicional simple (compraría) = Tipo 2, hipótesis sobre el presente. El Tipo 1 usa presente, el Tipo 3 usa tiempos compuestos, y sí es una condicional."
           },
           {
             "type": "multi-select",
@@ -7921,7 +7921,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "Solo las oraciones con pluscuamperfecto de subjuntivo + condicional perfecto son de tipo 3; las otras son tipo 1 y tipo 2."
+            "explanation": "El Tipo 3 usa pluscuamperfecto de subjuntivo + condicional perfecto: si hubiera llovido, habríamos cancelado. «Si llueve, cancelaremos» es Tipo 1 y «Si estudiaras, aprobarías» es Tipo 2."
           }
         ]
       },
@@ -7970,7 +7970,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Solo las oraciones con pluscuamperfecto de subjuntivo + condicional perfecto corresponden al tipo 3; las otras son tipo 1 y tipo 2."
+        "explanation": "El Tipo 3 usa pluscuamperfecto de subjuntivo + condicional perfecto: si hubieras estudiado, habrías aprobado. «Si llueve, cancelaremos» es Tipo 1 y «Si estudiaras, aprobarías» es Tipo 2."
       },
       {
         "type": "fill-blank",
@@ -8194,7 +8194,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "viajara"
         ],
         "correctIndex": 0,
-        "explanation": "Con 'si tuviera' (imperfecto de subjuntivo, tipo 2) la conclusión lleva el condicional simple, no el perfecto: viajaría."
+        "explanation": "Con «si tuviera» (Tipo 2, presente), la conclusión lleva condicional simple: viajaría. «Habría viajado» y «hubiera viajado» se refieren al pasado, y «viajara» es subjuntivo."
       },
       {
         "type": "translate",
@@ -8302,7 +8302,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Sofía dijo que ya sale de la oficina."
             ],
             "correctIndex": 1,
-            "explanation": "El pretérito 'salí' retrocede a pluscuamperfecto: 'había salido'."
+            "explanation": "En estilo indirecto con dijo, el pretérito (salí) pasa a pluscuamperfecto: había salido. «Salía» es imperfecto, «saldría» es condicional (futuro del pasado) y «sale» es presente."
           }
         ]
       },
@@ -8340,7 +8340,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Laura dijo que estudiaría medicina."
         ],
         "correctIndex": 1,
-        "explanation": "El presente 'estudio' retrocede a imperfecto 'estudiaba' en el estilo indirecto pasado."
+        "explanation": "Con dijo, el presente (estudio) pasa a imperfecto: estudiaba. «Estudia» se mantiene si sigue siendo verdad, pero la transformación estándar es estudiaba; «había estudiado» es anterior y «estudiaría» es futuro."
       },
       {
         "type": "fill-blank",
@@ -8385,7 +8385,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Dijo que perdería las llaves."
         ],
         "correctIndex": 2,
-        "explanation": "El pretérito perfecto 'he perdido' retrocede a pluscuamperfecto 'había perdido'."
+        "explanation": "Con dijo, el pretérito perfecto (he perdido) pasa a pluscuamperfecto: había perdido. «Ha perdido» no retrocede, «perdió» pierde la anterioridad y «perdería» es futuro del pasado."
       },
       {
         "type": "fill-blank",
@@ -8427,7 +8427,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "El profesor dijo que dudaría que aprobaron el examen."
             ],
             "correctIndex": 1,
-            "explanation": "El presente de subjuntivo 'aprueben' retrocede a imperfecto de subjuntivo 'aprobaran', y 'dudo' pasa a 'dudaba'."
+            "explanation": "Con dijo, «dudo» pasa a «dudaba» y el presente de subjuntivo a imperfecto de subjuntivo: aprobaran. Las otras opciones dejan tiempos sin retroceder o usan indicativo tras dudar."
           }
         ]
       },
@@ -8537,7 +8537,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           1,
           2
         ],
-        "explanation": "El presente retrocede a imperfecto, el pretérito a pluscuamperfecto y el futuro a condicional. El imperfecto no cambia a presente; normalmente se mantiene igual."
+        "explanation": "En estilo indirecto pasado: presente → imperfecto, pretérito → pluscuamperfecto, futuro → condicional. «Imperfecto → presente» es falso: el imperfecto normalmente se mantiene igual."
       },
       {
         "type": "fill-blank",
@@ -8557,7 +8557,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Preguntó cuánto costaría el billete."
         ],
         "correctIndex": 1,
-        "explanation": "Las preguntas con palabra interrogativa conservan esa palabra ('cuánto') y el verbo retrocede de presente a imperfecto: 'costaba'."
+        "explanation": "Las preguntas con palabra interrogativa la conservan (cuánto) y el presente pasa a imperfecto: costaba. «Cuesta» no retrocede, «si cuánto» junta dos formas de pregunta y «costaría» cambia el sentido."
       },
       {
         "type": "word-order",
@@ -8674,7 +8674,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Dijo que me vería ese día allí."
         ],
         "correctIndex": 0,
-        "explanation": "El futuro 'veo' (con valor de futuro inmediato) pasa a condicional 'vería', 'mañana' cambia a 'al día siguiente' y 'aquí' cambia a 'allí'."
+        "explanation": "El presente con valor de futuro (te veo mañana) pasa a condicional (vería), mañana → al día siguiente y aquí → allí. Las otras opciones dejan sin cambiar el tiempo o los marcadores."
       },
       {
         "type": "fill-blank",
@@ -8748,7 +8748,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Ana está siendo lista."
             ],
             "correctIndex": 1,
-            "explanation": "'Ser listo' describe una cualidad permanente: la inteligencia. 'Estar listo' significaría que Ana está preparada, no que es inteligente."
+            "explanation": "Ser listo describe una cualidad, ser inteligente: «Ana es lista». «Ana está lista» significa que está preparada, «está siendo lista» habla de cómo actúa en este momento y «Ana hay lista» no es gramatical."
           }
         ]
       },
@@ -8824,7 +8824,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Ana es estar lista."
         ],
         "correctIndex": 1,
-        "explanation": "'Ser listo' expresa la cualidad de ser inteligente, una característica permanente de la persona."
+        "explanation": "«Ser listo» expresa la cualidad de ser inteligente. «Está lista» significa estar preparada, «hay» no se usa con un sujeto así y «es estar» junta dos verbos."
       },
       {
         "type": "fill-blank",
@@ -8858,7 +8858,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "'Estar aburrido' describe el sentimiento temporal de mi hermano, y 'estar rica' describe el sabor de la sopa en este momento; ambas son opciones válidas con 'estar'."
+        "explanation": "Estar expresa un estado del momento: está aburrido (se siente aburrido), está rica (sabe bien hoy). «Es aburrido» describiría su carácter, y «es rica» hablaría de la sopa en general."
       },
       {
         "type": "word-order",
@@ -8908,7 +8908,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Es un libro en la mesa."
         ],
         "correctIndex": 1,
-        "explanation": "'Hay' introduce algo no específico (un libro); no se combina con artículos definidos como 'el'."
+        "explanation": "«Hay» presenta algo no específico: hay un libro. No se combina con el artículo definido («Hay el libro»); «Está un libro» y «Es un libro en la mesa» no expresan existencia."
       }
     ]
   },
@@ -8972,7 +8972,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Es un libro en la mesa."
             ],
             "correctIndex": 1,
-            "explanation": "'Hay' se usa con sustantivos no específicos (un libro) para expresar existencia; nunca se usa con artículos definidos como 'el'."
+            "explanation": "«Hay» expresa existencia con sustantivos no específicos: hay un libro. «Hay el libro» usa artículo definido, y «Está un libro» o «Es un libro en la mesa» no son la forma de presentar algo nuevo."
           }
         ]
       },
@@ -9002,7 +9002,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "La reunión son en la sala de conferencias."
             ],
             "correctIndex": 1,
-            "explanation": "Cuando 'reunión' se refiere al evento en sí (no a un objeto), se usa 'ser' para indicar su ubicación."
+            "explanation": "Cuando «reunión» es el evento, su lugar se indica con ser: la reunión es en la sala. «Está» se usa para ubicar objetos o personas, «hay» no lleva sujeto así y «son» no concuerda."
           }
         ]
       }
@@ -9045,7 +9045,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "La reunión son en la sala de conferencias."
         ],
         "correctIndex": 1,
-        "explanation": "Los eventos, como una reunión, usan 'ser' para expresar su ubicación."
+        "explanation": "Los eventos (una reunión) indican su lugar con ser: es en la sala. «Está» es para objetos y personas, «hay» no funciona con un sujeto definido y «son» no concuerda."
       },
       {
         "type": "translate",
@@ -9072,7 +9072,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "'Hay' se usa correctamente para introducir la existencia de las sillas, y 'ser' se usa correctamente para la ubicación del evento (el concierto); las otras dos opciones usan el verbo equivocado."
+        "explanation": "«Hay tres sillas» presenta la existencia de algo, y «El concierto es en el parque» usa ser para el lugar de un evento. «Están tres sillas» y «El concierto hay» usan el verbo equivocado."
       },
       {
         "type": "fill-blank",
@@ -9185,7 +9185,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Diego son verde en este trabajo."
         ],
         "correctIndex": 1,
-        "explanation": "'Estar verde' se usa en sentido figurado para expresar que alguien es inexperto o le falta madurez en algo, un estado que puede cambiar."
+        "explanation": "«Estar verde» significa estar inexperto en algo, un estado que cambia. «Es verde» describiría el color, y «hay» o «son» no encajan con Diego."
       },
       {
         "type": "translate",
@@ -9216,7 +9216,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Mis amigos es estudiando en la biblioteca."
         ],
         "correctIndex": 2,
-        "explanation": "'Estar' + gerundio ('están estudiando') es la estructura correcta para expresar una acción en curso."
+        "explanation": "Una acción en curso se expresa con estar + gerundio: están estudiando. Ser, haber y es no forman esta perífrasis."
       }
     ]
   },
@@ -9280,7 +9280,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Llegó a volverse presidente en 2020."
             ],
             "correctIndex": 1,
-            "explanation": "Volverse se usa para un cambio de carácter o comportamiento involuntario y profundo, como volverse irritable."
+            "explanation": "Volverse expresa un cambio de carácter involuntario: se volvió muy irritable. Para una profesión se usa hacerse, la hora va con ser (eran las tres) y «llegó a volverse presidente» mezcla dos perífrasis (sería llegó a ser)."
           }
         ]
       },
@@ -9322,7 +9322,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "quedarse"
         ],
         "correctIndex": 2,
-        "explanation": "Llegar a ser expresa un logro gradual y prestigioso, como llegar a la presidencia."
+        "explanation": "«Llegar a ser» expresa un logro gradual y prestigioso: llegar a ser presidente. Ponerse y volverse no se usan con cargos, y quedarse expresa un estado resultante."
       },
       {
         "type": "fill-blank",
@@ -9460,7 +9460,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "se quedó"
             ],
             "correctIndex": 3,
-            "explanation": "Quedarse se usa para el estado resultante de un evento concreto, aquí el accidente."
+            "explanation": "Quedarse expresa el estado resultante de un hecho concreto (el choque): se quedó paralizado. Ponerse es un cambio pasajero, volverse un cambio de carácter y hacerse un logro."
           }
         ]
       },
@@ -9533,7 +9533,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "se quedó"
         ],
         "correctIndex": 3,
-        "explanation": "Quedarse ciego describe el estado permanente resultante de un evento específico, el accidente."
+        "explanation": "Quedarse ciego describe el estado resultante de un hecho concreto, el accidente. Ponerse, volverse y hacerse no se usan con ciego en este sentido."
       },
       {
         "type": "translate",
@@ -9579,7 +9579,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "se quedó"
         ],
         "correctIndex": 3,
-        "explanation": "Quedarse paralizada describe el estado inmediato resultante de un evento impactante, la noticia."
+        "explanation": "Quedarse paralizada describe el estado inmediato tras un hecho impactante. Ponerse y hacerse no encajan con paralizada, y llegar a ser expresa un logro."
       }
     ]
   },
@@ -9774,7 +9774,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Sin embargo que llovía, salimos a correr."
             ],
             "correctIndex": 1,
-            "explanation": "'Sin embargo' conecta dos ideas contrastantes y suele ir precedido de punto y coma o punto, seguido de coma."
+            "explanation": "«Sin embargo» une dos ideas que contrastan y suele ir tras punto y coma o punto, seguido de coma. No puede introducir directamente una causa («Sin embargo llueve, saldré»), ni ir sin puntuación, ni con «que»."
           }
         ]
       },
@@ -9830,7 +9830,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Indican consecuencia, no causa."
             ],
             "correctIndex": 1,
-            "explanation": "A diferencia de 'porque', que introduce información nueva, 'ya que' y 'puesto que' presentan causas ya conocidas o evidentes para el oyente."
+            "explanation": "«Ya que» y «puesto que» presentan una causa que el oyente ya conoce o da por hecha. Sí pueden ir al principio de la oración, no son solo para preguntas y no expresan consecuencia."
           }
         ]
       }
@@ -10029,7 +10029,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "El tráfico es por eso que llegó tarde."
         ],
         "correctIndex": 1,
-        "explanation": "'Es por eso que' introduce la consecuencia enfatizada, precedida por la causa ya mencionada en la oración anterior."
+        "explanation": "«Es por eso que» introduce la consecuencia de una causa ya mencionada antes. Repetir la causa con «porque» en la misma frase, omitir el «que» o usarlo como sujeto son errores."
       },
       {
         "type": "translate",
@@ -10075,7 +10075,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "'Porque' expresa consecuencia y los otros expresan causa."
         ],
         "correctIndex": 0,
-        "explanation": "'Porque' generalmente responde a una pregunta implícita y no suele iniciar la oración, mientras que 'ya que' y 'puesto que' sí pueden colocarse al principio."
+        "explanation": "«Porque» rara vez va al principio de la oración; «ya que» y «puesto que» sí se anteponen con naturalidad. No son intercambiables en todo, no son solo para preguntas y «porque» expresa causa, no consecuencia."
       },
       {
         "type": "fill-blank",
@@ -10238,7 +10238,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Es más difícil aprender francés que español."
         ],
         "correctIndex": 1,
-        "explanation": "'Es más' se usa aquí como conector discursivo para reforzar una idea negativa anterior, no como comparativo de cantidad o grado."
+        "explanation": "«Es más» como conector refuerza la idea anterior: …; es más, ni siquiera se disculpó. En las otras frases «es más» es solo el verbo ser + comparativo (más tarde, más grande, más difícil)."
       },
       {
         "type": "translate",
@@ -10519,7 +10519,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "\"El lienzo\" (la superficie sobre la que se pinta) y \"la metáfora\" son términos artísticos y literarios."
+        "explanation": "El lienzo (la superficie sobre la que se pinta) y la metáfora pertenecen al arte y la literatura. El escaño es el asiento de un parlamentario y el arancel es un impuesto a las importaciones."
       }
     ]
   },
@@ -11330,7 +11330,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "el empeño"
         ],
         "correctIndex": 0,
-        "explanation": "\"El remordimiento\" es el sentimiento de culpa por algo que se hizo o se dejó de hacer."
+        "explanation": "«El remordimiento» es el sentimiento de culpa por algo que se hizo o se dejó de hacer. La ilusión es la esperanza, el desenlace es el final y el empeño es el esfuerzo."
       }
     ]
   },
@@ -12157,7 +12157,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "insistir"
         ],
         "correctIndex": 1,
-        "explanation": "\"Respaldar\" significa apoyar una idea, lo contrario de refutarla."
+        "explanation": "«Respaldar» significa apoyar una idea, lo contrario de refutarla. Objetar es poner objeciones (parecido a refutar), la tesis es la idea que se defiende e insistir es repetir."
       },
       {
         "type": "multi-select",
@@ -12984,7 +12984,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "escaño"
         ],
         "correctIndex": 0,
-        "explanation": "\"Convencer\" describe el acto de persuadir mediante razones sólidas."
+        "explanation": "«Convencer» es persuadir con razones sólidas. Cuestionar es poner en duda, un cronista es quien escribe crónicas y un escaño es un asiento parlamentario."
       }
     ]
   },
@@ -13039,7 +13039,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "No hay nadie que pueda ayudarme."
         ],
         "correctIndex": 1,
-        "explanation": "\"Tengo un libro\" se refiere a un libro específico y conocido: indicativo."
+        "explanation": "«Tengo un libro» se refiere a algo concreto: indicativo, explica. «Necesito un libro que explique», «Busco a alguien que sepa» y «No hay nadie que pueda» tienen antecedentes indefinidos o inexistentes: subjuntivo."
       },
       {
         "type": "fill-blank",
@@ -13058,7 +13058,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "hasta que"
         ],
         "correctIndex": 2,
-        "explanation": "\"Para que\" siempre lleva subjuntivo, sin importar el contexto."
+        "explanation": "«Para que» expresa finalidad y siempre lleva subjuntivo. «Cuando», «en cuanto» y «hasta que» llevan indicativo con hábitos o hechos pasados, y subjuntivo solo con acciones futuras."
       },
       {
         "type": "fill-blank",
@@ -13081,7 +13081,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           1,
           2
         ],
-        "explanation": "El imperfecto de subjuntivo se usa con verbos principales en pasado, hipótesis con si, y ojalá para deseos improbables."
+        "explanation": "El imperfecto de subjuntivo va tras un verbo principal en pasado, en hipótesis con si y con ojalá para deseos poco probables. No se usa para hablar del futuro cercano: para eso está ir a + infinitivo o el futuro."
       },
       {
         "type": "fill-blank",
@@ -13100,7 +13100,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Si tuviera dinero, viajaré más."
         ],
         "correctIndex": 1,
-        "explanation": "Si + imperfecto de subjuntivo, + condicional es la estructura correcta para hipótesis presentes."
+        "explanation": "La hipótesis presente es si + imperfecto de subjuntivo + condicional: si tuviera, viajaría. «Si tengo… viajaría» mezcla tipos, «si tendría» usa condicional tras si y «viajaré» es futuro real."
       },
       {
         "type": "fill-blank",
@@ -13149,7 +13149,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "había hecho"
         ],
         "correctIndex": 0,
-        "explanation": "El condicional perfecto se forma con habría + participio: habría hecho."
+        "explanation": "El condicional perfecto es habría + participio: habría hecho. «Hubiera hecho» es pluscuamperfecto de subjuntivo, «haría hecho» no existe y «había hecho» es pluscuamperfecto de indicativo."
       },
       {
         "type": "fill-blank",
@@ -13168,7 +13168,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "con el gerundio"
         ],
         "correctIndex": 1,
-        "explanation": "Los mandatos reportados se convierten en que + subjuntivo: me pidió que la llamara."
+        "explanation": "Una orden reportada se convierte en que + subjuntivo: me pidió que la llamara. No se repite el mandato, ni se usa el futuro o el gerundio."
       },
       {
         "type": "fill-blank",
@@ -13187,7 +13187,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "El profesor es está aburrido."
         ],
         "correctIndex": 1,
-        "explanation": "\"Estar aburrido\" significa sentirse aburrido en ese momento, distinto de \"ser aburrido\" (tener la cualidad de ser tedioso)."
+        "explanation": "«Estar aburrido» significa sentirse aburrido en ese momento, distinto de «ser aburrido» (ser tedioso). «Está profesor» no es posible y «es está» junta dos verbos."
       },
       {
         "type": "fill-blank",
@@ -13228,7 +13228,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "no obstante"
         ],
         "correctIndex": 2,
-        "explanation": "\"Por consiguiente\" introduce el resultado lógico de lo anterior."
+        "explanation": "«Por consiguiente» introduce el resultado lógico de lo anterior. «A pesar de» introduce una concesión, y «en cambio» y «no obstante» un contraste."
       },
       {
         "type": "word-order",
@@ -13290,7 +13290,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "el debate"
         ],
         "correctIndex": 0,
-        "explanation": "El lienzo, el pincel y la exposición son términos del mundo del arte."
+        "explanation": "El lienzo, el pincel y la exposición pertenecen al mundo del arte. No son vocabulario de política, psicología ni debate."
       },
       {
         "type": "fill-blank",
@@ -13359,7 +13359,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "el cronista"
         ],
         "correctIndex": 0,
-        "explanation": "\"Reinventarse\" significa cambiar profundamente la propia forma de ser o de vivir."
+        "explanation": "«Reinventarse» es cambiar profundamente la propia forma de ser o de vivir. Cuestionar es poner en duda, el escaño es un asiento parlamentario y el cronista escribe crónicas."
       },
       {
         "type": "word-order",
@@ -13392,7 +13392,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Me dijo que la llamaría."
         ],
         "correctIndex": 1,
-        "explanation": "Los mandatos reportados requieren que + imperfecto de subjuntivo."
+        "explanation": "Con dijo en pasado, el mandato reportado va normalmente en imperfecto de subjuntivo: que la llamara. «Que la llamo» es indicativo, «que la llamaría» cambia la orden en promesa, y «que la llame» solo sirve si la orden sigue pendiente."
       }
     ]
   },
