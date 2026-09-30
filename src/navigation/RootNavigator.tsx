@@ -22,6 +22,8 @@ import StoryReaderScreen from "@/screens/StoryReaderScreen";
 import GrammarListScreen from "@/screens/GrammarListScreen";
 import GrammarGuideScreen from "@/screens/GrammarGuideScreen";
 import PlacementTestScreen from "@/screens/PlacementTestScreen";
+import ConjugationScreen from "@/screens/ConjugationScreen";
+import GlossaryScreen from "@/screens/GlossaryScreen";
 import { getReadingLevel } from "@/lib/stories/registry";
 
 const AuthStack = createNativeStackNavigator<AuthStackParamList>();
@@ -74,6 +76,8 @@ function AppNavigator() {
       <AppStack.Screen name="Grammar" component={GrammarListScreen} options={{ title: "Grammar" }} />
       <AppStack.Screen name="GrammarGuide" component={GrammarGuideScreen} options={{ title: "" }} />
       <AppStack.Screen name="Placement" component={PlacementTestScreen} options={{ title: "Placement test" }} />
+      <AppStack.Screen name="Conjugation" component={ConjugationScreen} options={{ title: "Verb conjugation" }} />
+      <AppStack.Screen name="Glossary" component={GlossaryScreen} options={{ title: "Glossary" }} />
     </AppStack.Navigator>
   );
 }

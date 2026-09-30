@@ -234,6 +234,22 @@ export default function HomeScreen({ navigation }: Props) {
                 </Pressable>
               </View>
             )}
+
+            {/* Reference tools (Spanish only): verb tables + drills and
+                the course glossary -- a self-contained row like the one
+                above, so it's easy to move in a redesign. */}
+            {language === "es" && (
+              <View style={styles.extraRow}>
+                <Pressable style={[styles.card, styles.extraCard]} onPress={() => navigation.navigate("Conjugation")}>
+                  <Text style={styles.cardTitle}>Verbs</Text>
+                  <Text style={styles.cardBody}>Conjugation tables and drills.</Text>
+                </Pressable>
+                <Pressable style={[styles.card, styles.extraCard]} onPress={() => navigation.navigate("Glossary")}>
+                  <Text style={styles.cardTitle}>Glossary</Text>
+                  <Text style={styles.cardBody}>Every word the course teaches.</Text>
+                </Pressable>
+              </View>
+            )}
           </View>
         </View>
 
