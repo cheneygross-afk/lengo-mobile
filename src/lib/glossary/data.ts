@@ -7193,7 +7193,7 @@ export const GLOSSARY_ENTRIES: [string, string, string, number[], number][] = [
   ["poner en marcha", "iniciar la ejecución de un plan o proyecto", "C2", [450,451], 1],
   ["poner sobre el tapete", "plantear abiertamente un asunto para que sea discutido por todos", "C2", [451], 1],
   ["poner una denuncia", "to file a report", "A2", [110], 0],
-  ["ponerse", "to put on / to become | to put on | estado pasajero", "A1", [83,121,281], 0],
+  ["ponerse", "to put on / to become | to put on", "A1", [83,121,281], 0],
   ["ponerse de pie", "to stand up", "A1", [686], 0],
   ["ponerse las botas", "comer o disfrutar de algo en abundancia, típico de las grandes celebraciones | comer o disfrutar de algo en abundancia", "C1/C2", [588,589,590], 1],
   ["ponerse las pilas", "espabilarse y empezar a esforzarse con determinación", "C2", [420], 1],

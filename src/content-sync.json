@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "bc7d7473e26259fb09e4762e8a0db2c4a7f0e38d",
+  "commit": "da43ad39e7a164da208c933fa36cd398f7fa6a13",
   "files": {
     "src/lib/lessons/a1-additions.ts": "5e2de5cde5d685adaec5cd4c5c818ed420ecc224d408aeb2bf16fe5ed8321430",
     "src/lib/lessons/a1-reinforcement.ts": "99c5215b4e0e4254204b5202f632cee1a88643c71efb19e8070c26bb05871167",
@@ -90,7 +90,7 @@
     "src/lib/conjugation/spelling.ts": "13789481a23be4c61c9d3cbbf10ed975524fe30fc8f36f97b6bfc932f65959fc",
     "src/lib/conjugation/types.ts": "4cf6888c3bb73e10a379a1821e28beb795de95fad3c03ddd5153b0eaf504422a",
     "src/lib/conjugation/verbs.ts": "0de8e35402659982784b77258e9256e2295b6530f16a3dd61807ba798a1e6033",
-    "src/lib/glossary/data.ts": "b1461e400f7de91b357a97b6e126fcfe589d538498b1ae95c803ef054516b277",
+    "src/lib/glossary/data.ts": "6fe977d976a3ab2255c71d80d0f50d70ee8dba5bd7191101c4e6276acf3f7155",
     "src/lib/glossary/search.ts": "08041e20520d314fd8e00bd89943e2bbfd9ee058cfc5726e7ba91604883a2ee5",
     "src/lib/placementTest.ts": "8e67bf609a107457deeb4cc4ad25c2e6e1ab567bb665d9b57a3d74e23bfeb449"
   }
