@@ -91,6 +91,21 @@ export default function HomeScreen({ navigation }: Props) {
               <Text style={styles.cardTitle}>Review</Text>
               <Text style={styles.cardBody}>Lessons you saved to try again.</Text>
             </Pressable>
+
+            {/* Grammar guides + placement test (Spanish only) -- kept as
+                one self-contained row so it's easy to move in a redesign. */}
+            {language === "es" && (
+              <View style={styles.extraRow}>
+                <Pressable style={[styles.card, styles.extraCard]} onPress={() => navigation.navigate("Grammar")}>
+                  <Text style={styles.cardTitle}>Grammar</Text>
+                  <Text style={styles.cardBody}>Short guides with examples.</Text>
+                </Pressable>
+                <Pressable style={[styles.card, styles.extraCard]} onPress={() => navigation.navigate("Placement")}>
+                  <Text style={styles.cardTitle}>Placement</Text>
+                  <Text style={styles.cardBody}>Find your level.</Text>
+                </Pressable>
+              </View>
+            )}
           </View>
         </View>
 
@@ -152,6 +167,8 @@ const styles = StyleSheet.create({
   },
   cardTitle: { fontSize: 18, fontWeight: "700", color: "#000", marginBottom: 4 },
   cardBody: { fontSize: 14, color: "#00000099" },
+  extraRow: { flexDirection: "row", gap: 14 },
+  extraCard: { flex: 1 },
   settingsLink: { alignItems: "center", paddingVertical: 12 },
   settingsLinkText: { color: "#00000066", fontSize: 14, textDecorationLine: "underline" },
 });

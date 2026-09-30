@@ -34,6 +34,12 @@ export type AppStackParamList = {
   // pull the right questions; `batch` is only needed to mark that batch
   // done afterwards.
   ReviewDrill: { levelPath: string; batch: number; slugs: string[] };
+  // Grammar guides (src/lib/grammar, synced from the website) -- the
+  // list, then one guide by slug.
+  Grammar: undefined;
+  GrammarGuide: { slug: string };
+  // The website's placement test, with its results screen.
+  Placement: undefined;
 };
 
 export type AuthStackParamList = {

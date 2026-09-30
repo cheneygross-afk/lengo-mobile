@@ -17,6 +17,9 @@ import FlashcardsScreen from "@/screens/FlashcardsScreen";
 import ReadingLevelsScreen from "@/screens/ReadingLevelsScreen";
 import ReadingsListScreen from "@/screens/ReadingsListScreen";
 import StoryReaderScreen from "@/screens/StoryReaderScreen";
+import GrammarListScreen from "@/screens/GrammarListScreen";
+import GrammarGuideScreen from "@/screens/GrammarGuideScreen";
+import PlacementTestScreen from "@/screens/PlacementTestScreen";
 import { getReadingLevel } from "@/lib/stories/registry";
 
 const AuthStack = createNativeStackNavigator<AuthStackParamList>();
@@ -64,6 +67,9 @@ function AppNavigator() {
         })}
       />
       <AppStack.Screen name="StoryReader" component={StoryReaderScreen} options={{ title: "" }} />
+      <AppStack.Screen name="Grammar" component={GrammarListScreen} options={{ title: "Grammar" }} />
+      <AppStack.Screen name="GrammarGuide" component={GrammarGuideScreen} options={{ title: "" }} />
+      <AppStack.Screen name="Placement" component={PlacementTestScreen} options={{ title: "Placement test" }} />
     </AppStack.Navigator>
   );
 }
