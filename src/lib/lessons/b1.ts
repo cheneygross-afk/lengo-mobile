@@ -1,6 +1,8 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/b1.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Lesson } from "./types";
 import { buildLevel } from "./sequencing";
+import { B1_GAPS } from "./b1-gaps";
+import { B1_SURVIVAL } from "./survival-b1";
 import { B1_REINFORCEMENT } from "./b1-reinforcement";
 import { B1_DRILLS } from "./b1-drills";
 import { B1_COMMON_WORDS } from "./b1-common-words";
@@ -135,7 +137,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Que se queden en casa"
             ],
             "correctIndex": 1,
-            "explanation": "Dice: \"Espero que tengamos buen tiempo este fin de semana.\""
+            "explanation": "El primer hermano dice: «Espero que tengamos buen tiempo este fin de semana». No habla de lluvia, de trabajar ni de quedarse en casa."
           }
         ]
       }
@@ -158,7 +160,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "fuera"
         ],
         "correctIndex": 1,
-        "explanation": "Ser es irregular en subjuntivo: sea, seas, sea, seamos, seáis, sean."
+        "explanation": "Ser es irregular en subjuntivo: sea, seas, sea, seamos, seáis, sean. «Soy» es indicativo, «fuera» es subjuntivo imperfecto y «sera» no existe (el futuro es «seré/será»)."
       },
       {
         "type": "fill-blank",
@@ -476,7 +478,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "o"
         ],
         "correctIndex": 1,
-        "explanation": "El subjuntivo casi siempre sigue a \"que\" en una cláusula subordinada."
+        "explanation": "El subjuntivo casi siempre aparece en una cláusula subordinada introducida por «que»: Quiero que vengas. «Y», «pero» y «o» unen oraciones independientes, que van en indicativo."
       }
     ]
   },
@@ -537,7 +539,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Creo que tenga razón."
             ],
             "correctIndex": 2,
-            "explanation": "\"Dudar\" expresa incertidumbre, así que requiere subjuntivo: dudo que tenga razón."
+            "explanation": "«Dudar» expresa incertidumbre y exige subjuntivo: dudo que tenga razón. «Dudo que tiene» es incorrecta por usar indicativo, y «Creo que tenga» también, porque «creer» afirmativo expresa certeza y lleva indicativo."
           }
         ]
       },
@@ -592,7 +594,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               2,
               3
             ],
-            "explanation": "\"Saber\" en afirmativo expresa certeza y lleva indicativo, no subjuntivo."
+            "explanation": "Dudar (duda), alegrarse de (emoción) y temer (miedo) llevan subjuntivo. «Saber» en afirmativo expresa certeza y lleva indicativo: sé que viene."
           }
         ]
       },
@@ -626,7 +628,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Que cambien de equipo"
             ],
             "correctIndex": 1,
-            "explanation": "Dice: \"Me preocupa que se enoje si no cumplimos el plazo.\""
+            "explanation": "La segunda persona dice: «Me preocupa que se enoje si no cumplimos el plazo», es decir, que el jefe se enoje. No menciona perder el proyecto, el sueldo ni cambiar de equipo."
           }
         ]
       }
@@ -649,7 +651,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Dudo que él viene."
         ],
         "correctIndex": 0,
-        "explanation": "Creer en afirmativo lleva indicativo: creo que viene."
+        "explanation": "Creer en afirmativo expresa certeza y lleva indicativo: creo que viene. En negativo o con dudar se usa subjuntivo, por eso «No creo que él viene» y «Dudo que él viene» son incorrectas; y «Creo que él venga» tampoco, porque el afirmativo no lleva subjuntivo."
       },
       {
         "type": "fill-blank",
@@ -940,7 +942,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           1,
           2
         ],
-        "explanation": "\"Es obvio que\" y \"es cierto que\" expresan certeza: llevan indicativo."
+        "explanation": "«Qué lástima que» y «me alegro de que» expresan emoción y llevan subjuntivo. «Es obvio que» y «es cierto que» expresan certeza: llevan indicativo."
       },
       {
         "type": "word-order",
@@ -967,7 +969,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "never"
         ],
         "correctIndex": 1,
-        "explanation": "\"A lo mejor\" es una forma coloquial de decir \"maybe\" / \"perhaps\"."
+        "explanation": "«A lo mejor» es una forma coloquial de decir «maybe» / «perhaps»: A lo mejor llueve. Aunque contiene «mejor», no significa «the best» ni «at best»."
       }
     ]
   },
@@ -990,7 +992,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Espero que tú llegas temprano mañana."
         ],
         "correctIndex": 0,
-        "explanation": "Cuando el sujeto de la segunda cláusula es diferente (tú), se necesita \"que\" + subjuntivo: espero que tú llegues. Si el sujeto fuera el mismo, se usaría el infinitivo sin \"que\"."
+        "explanation": "Cuando el sujeto de la segunda cláusula es diferente (tú), se usa «que» + subjuntivo: espero que tú llegues. «Espero que yo llegue» es incorrecta: con el mismo sujeto se dice «espero llegar». «Espero que tú llegas» usa indicativo por error."
       },
       {
         "type": "fill-blank",
@@ -1016,7 +1018,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Creo que ella tenga mucho talento."
         ],
         "correctIndex": 0,
-        "explanation": "\"No dudar\" expresa certeza (lo contrario de duda), así que lleva indicativo: no dudo que tiene. \"Dudar\" sin \"no\" sí requiere subjuntivo, y \"creer\" en afirmativo también lleva indicativo."
+        "explanation": "«No dudar» expresa certeza, así que lleva indicativo: no dudo que tiene. «Dudo que ella tiene» es incorrecta porque «dudar» exige subjuntivo, y «Creo que ella tenga» también, porque «creer» afirmativo lleva indicativo."
       },
       {
         "type": "multi-select",
@@ -1031,7 +1033,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "\"Temer\" y \"molestar\" son verbos de emoción y requieren subjuntivo. \"Pensar\" en afirmativo y \"es evidente que\" expresan certeza y llevan indicativo, no subjuntivo."
+        "explanation": "«Temer» y «molestar» expresan emoción y requieren subjuntivo: se retrase, hable. «Pensamos que el vuelo se retrase» y «Es evidente que llueva» son incorrectas: «pensar» afirmativo y «es evidente que» expresan certeza y llevan indicativo (se retrasa, llueve)."
       },
       {
         "type": "translate",
@@ -1136,7 +1138,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "cometiendo"
         ],
         "correctIndex": 2,
-        "explanation": "\"Negar que\" expresa negación de un hecho y requiere subjuntivo: niego que yo cometa el error."
+        "explanation": "«Negar que» niega un hecho y requiere subjuntivo: niego que yo cometa el error. «Cometo» y «cometí» son indicativo, y «cometiendo» es un gerundio, que no puede ir después de «que»."
       },
       {
         "type": "multi-select",
@@ -1170,7 +1172,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "We doubted the plan worked."
         ],
         "correctIndex": 1,
-        "explanation": "\"Dudamos que\" + subjuntivo expresa incertidumbre sobre algo futuro o hipotético: we doubt (that) the plan will work."
+        "explanation": "«Dudamos que» va con subjuntivo, y el presente de subjuntivo puede referirse al futuro: we doubt (that) the plan will work. «We don't doubt» dice lo contrario y «We doubted... worked» está en pasado."
       },
       {
         "type": "word-order",
@@ -1197,7 +1199,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "terminaríamos"
         ],
         "correctIndex": 1,
-        "explanation": "\"Preferir que\" con sujeto diferente (nosotros) requiere subjuntivo: terminemos."
+        "explanation": "«Preferir que» con un sujeto diferente (nosotros) requiere subjuntivo: terminemos. «Terminamos» es indicativo, «terminar» es infinitivo (solo con el mismo sujeto) y «terminaríamos» es condicional."
       }
     ]
   },
@@ -1256,7 +1258,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "es mejor que"
             ],
             "correctIndex": 2,
-            "explanation": "\"Es verdad que\" expresa un hecho objetivo, así que va con indicativo."
+            "explanation": "«Es verdad que» presenta un hecho como cierto, así que va con indicativo. «Es raro que», «es necesario que» y «es mejor que» expresan juicio o necesidad y llevan subjuntivo."
           }
         ]
       },
@@ -1341,7 +1343,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "El restaurante"
             ],
             "correctIndex": 1,
-            "explanation": "El texto dice: \"Es necesario que confirmemos el hotel esta noche.\""
+            "explanation": "El texto dice: «Es necesario que confirmemos el hotel esta noche». El vuelo, el coche y el restaurante no son lo que hay que confirmar."
           }
         ]
       }
@@ -1364,7 +1366,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "ojalá que"
         ],
         "correctIndex": 1,
-        "explanation": "\"Es obvio que\" expresa certeza: indicativo."
+        "explanation": "«Es obvio que» expresa certeza y lleva indicativo: es obvio que llueve. «Es necesario que», «es raro que» y «ojalá que» expresan necesidad, juicio o deseo y llevan subjuntivo."
       },
       {
         "type": "fill-blank",
@@ -1655,7 +1657,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Es verdad que y es cierto que expresan hechos: indicativo."
+        "explanation": "«Es mejor que» y «es raro que» son juicios de valor y llevan subjuntivo. «Es verdad que» y «es cierto que» presentan hechos: llevan indicativo."
       },
       {
         "type": "word-order",
@@ -1680,7 +1682,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "griego"
         ],
         "correctIndex": 1,
-        "explanation": "Ojalá viene del árabe \"law šā' allāh\" (si Dios quiere)."
+        "explanation": "Ojalá viene del árabe «law šā' allāh» (si Dios quiere), herencia de los siglos de presencia árabe en la península. No viene del latín, del francés ni del griego."
       }
     ]
   },
@@ -1743,7 +1745,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "cierras"
             ],
             "correctIndex": 0,
-            "explanation": "Cerrar cambia e→ie; el mandato de usted usa la forma del subjuntivo: cierre."
+            "explanation": "Cerrar cambia e→ie y el mandato de usted usa la forma del subjuntivo: cierre. «Cierra» es el mandato de tú, «cierras» es indicativo y «cerre» olvida el cambio de raíz."
           }
         ]
       },
@@ -1839,7 +1841,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Quince minutos"
             ],
             "correctIndex": 1,
-            "explanation": "El texto dice: \"cocine por cinco minutos.\""
+            "explanation": "El texto dice: «cocine por cinco minutos». Dos, diez o quince minutos no aparecen en la receta."
           }
         ]
       }
@@ -1862,7 +1864,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "no salga"
         ],
         "correctIndex": 0,
-        "explanation": "El tú negativo usa el subjuntivo: no salgas."
+        "explanation": "El mandato negativo de tú usa el subjuntivo: no salgas. «No sal» es incorrecto porque «sal» solo sirve en afirmativo, «no sales» es indicativo y «no salga» es para usted."
       },
       {
         "type": "fill-blank",
@@ -2153,7 +2155,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Hablar y comer son regulares; decir y hacer son irregulares."
+        "explanation": "Decir → di y hacer → haz son mandatos irregulares de tú. Hablar → habla y comer → come son regulares: usan la forma de él del presente."
       },
       {
         "type": "word-order",
@@ -2178,7 +2180,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Vayan"
         ],
         "correctIndex": 0,
-        "explanation": "\"Vamos\" es la forma más común y natural de decir \"let's go\"."
+        "explanation": "«Vamos» es la forma más común y natural de decir «let's go». «Vayamos» existe pero suena formal, «íbamos» es imperfecto (we used to go) y «vayan» es un mandato para ustedes."
       }
     ]
   },
@@ -2237,7 +2239,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "tuviera"
             ],
             "correctIndex": 1,
-            "explanation": "Tener usa la raíz irregular tendr- tanto en futuro como en condicional: tendría."
+            "explanation": "Tener usa la raíz irregular tendr- en futuro y en condicional: tendría. «Tenería» no existe, «tenía» es imperfecto y «tuviera» es subjuntivo imperfecto."
           }
         ]
       },
@@ -2292,7 +2294,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "El condicional no se usa para hábitos pasados ni hechos del presente — eso corresponde al imperfecto y al presente."
+            "explanation": "El condicional sirve para peticiones corteses (¿Podría…?) y consejos suaves (Deberías…). «Una acción habitual del pasado» corresponde al imperfecto y «un hecho del presente», al presente."
           }
         ]
       },
@@ -2326,7 +2328,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Seis"
             ],
             "correctIndex": 2,
-            "explanation": "El cliente dice: \"Seríamos cuatro personas.\""
+            "explanation": "El cliente dice: «Seríamos cuatro personas». El condicional «seríamos» es una forma cortés de decir «somos»; no son dos, tres ni seis."
           }
         ]
       }
@@ -2349,7 +2351,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Quiero que"
         ],
         "correctIndex": 1,
-        "explanation": "\"Querría\" suaviza la petición, sonando más educado que \"quiero\"."
+        "explanation": "«Querría» es condicional y traduce «I would like»; suena más educado que «quiero». «Quería» es imperfecto (I wanted), aunque también se usa por cortesía, y «quiero que» necesitaría otra cláusula con subjuntivo."
       },
       {
         "type": "fill-blank",
@@ -2641,7 +2643,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "Los hábitos pasados usan el imperfecto, no el condicional."
+        "explanation": "El condicional expresa peticiones corteses, consejos suaves y situaciones hipotéticas. «Hábitos pasados» es incorrecto: para eso se usa el imperfecto (íbamos cada verano)."
       },
       {
         "type": "word-order",
@@ -2723,7 +2725,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Si llovía, me quedo en casa."
             ],
             "correctIndex": 1,
-            "explanation": "La cláusula con \"si\" usa presente indicativo (llueve); el resultado puede ir en futuro."
+            "explanation": "Con «si» + condición posible se usa presente de indicativo: si llueve, me quedaré. «Si llueva» es incorrecta porque «si» nunca va con presente de subjuntivo, y «si lloverá» también, porque «si» no va con futuro."
           }
         ]
       },
@@ -2777,7 +2779,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "\"Cuando\" describe rutinas seguras; \"si\" describe condiciones inciertas o hipotéticas."
+            "explanation": "«Si» presenta condiciones inciertas: si gano la lotería, si tengo tiempo. Las frases con «cuando» (cuando gano dinero, cuando tengo tiempo) describen rutinas seguras, no condiciones."
           }
         ]
       },
@@ -2811,7 +2813,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Llamarán al profesor"
             ],
             "correctIndex": 1,
-            "explanation": "Dice: \"Si terminamos temprano, podemos ver una película.\""
+            "explanation": "Dice: «Si terminamos temprano, podemos ver una película». No habla de estudiar más, dormir ni llamar al profesor."
           }
         ]
       }
@@ -2834,7 +2836,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Si estudies, aprobarás."
         ],
         "correctIndex": 0,
-        "explanation": "Si + presente indicativo, + futuro: si estudias, aprobarás."
+        "explanation": "Condición real: si + presente de indicativo, y el resultado en futuro: si estudias, aprobarás. «Si estudies» es incorrecta porque «si» no va con presente de subjuntivo, y «apruebes» o «aprueba» no sirven como resultado futuro."
       },
       {
         "type": "fill-blank",
@@ -3150,7 +3152,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "futuro"
         ],
         "correctIndex": 1,
-        "explanation": "Las condiciones reales usan si + presente indicativo."
+        "explanation": "Las condiciones reales usan si + presente de indicativo: si llueve, me quedo. Después de «si» nunca va presente de subjuntivo, futuro ni condicional."
       }
     ]
   },
@@ -3210,7 +3212,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "escribió"
             ],
             "correctIndex": 1,
-            "explanation": "Escribir tiene un participio irregular: escrito."
+            "explanation": "Escribir tiene un participio irregular: escrito. «Escribido» no existe; «escribiendo» es el gerundio y «escribió» es el pretérito."
           }
         ]
       },
@@ -3265,7 +3267,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               0,
               3
             ],
-            "explanation": "El pronombre siempre va antes de haber, nunca entre haber y el participio."
+            "explanation": "Con el pretérito perfecto, el pronombre va antes de haber: «Lo he visto», «Ya me he levantado». «He lo visto» y «He visto lo» son incorrectas porque nada puede ir entre haber y el participio, ni detrás."
           }
         ]
       },
@@ -3299,7 +3301,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Un desierto"
             ],
             "correctIndex": 1,
-            "explanation": "Dice: \"He visto Machu Picchu al amanecer.\""
+            "explanation": "El texto dice: «He visto Machu Picchu al amanecer». El mar, un volcán o un desierto no aparecen en esa frase."
           }
         ]
       }
@@ -3322,7 +3324,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "puso"
         ],
         "correctIndex": 1,
-        "explanation": "Poner tiene un participio irregular: puesto."
+        "explanation": "Poner tiene un participio irregular: puesto. «Ponido» no existe; «poniendo» es el gerundio y «puso» es el pretérito."
       },
       {
         "type": "fill-blank",
@@ -3613,7 +3615,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "Hablado y comido son regulares; escrito y hecho son irregulares."
+        "explanation": "Escrito (escribir) y hecho (hacer) son participios irregulares. Hablado y comido siguen la regla normal: -ar → -ado, -er/-ir → -ido."
       },
       {
         "type": "word-order",
@@ -3638,7 +3640,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "No se puede usar pronombres"
         ],
         "correctIndex": 0,
-        "explanation": "El pronombre siempre va antes de haber: lo he visto."
+        "explanation": "Con el pretérito perfecto, el pronombre siempre va antes de haber: lo he visto. No puede ir entre haber y el participio (he lo visto) ni después del participio (he visto lo)."
       }
     ]
   },
@@ -3748,7 +3750,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "Las otras dos oraciones usan el pretérito y el imperfecto, no el pluscuamperfecto."
+            "explanation": "El pluscuamperfecto (había + participio) marca algo anterior a otro momento pasado: habíamos cenado, había viajado. «Cenamos a las ocho» está en pretérito y «Cenábamos juntos» en imperfecto."
           }
         ]
       },
@@ -3782,7 +3784,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Nadie había llegado"
             ],
             "correctIndex": 1,
-            "explanation": "El texto dice: \"la ceremonia ya había empezado.\""
+            "explanation": "El texto dice: «la ceremonia ya había empezado». La boda no había terminado, los novios no se habían ido y sí había gente."
           }
         ]
       }
@@ -3805,7 +3807,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Una orden"
         ],
         "correctIndex": 1,
-        "explanation": "El pluscuamperfecto describe el \"pasado del pasado\": algo que ya había ocurrido."
+        "explanation": "El pluscuamperfecto es el «pasado del pasado»: algo que ya había ocurrido antes de otra acción pasada. Una acción habitual se expresa con el imperfecto, una acción futura con el futuro y una orden con el imperativo."
       },
       {
         "type": "fill-blank",
@@ -4097,7 +4099,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "\"Mañana\" es una expresión de futuro, no de pluscuamperfecto."
+        "explanation": "«Ya», «nunca antes» y «todavía no» sitúan una acción antes de otro momento pasado, por eso acompañan al pluscuamperfecto. «Mañana» es una expresión de futuro."
       },
       {
         "type": "word-order",
@@ -4124,7 +4126,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "condicional de haber + participio"
         ],
         "correctIndex": 1,
-        "explanation": "El pluscuamperfecto usa el imperfecto de haber: había, habías, había..."
+        "explanation": "El pluscuamperfecto usa el imperfecto de haber + participio: había, habías, había… comido. Con el presente de haber se forma el pretérito perfecto (he comido), con el futuro el futuro perfecto y con el condicional el condicional perfecto."
       }
     ]
   },
@@ -4183,7 +4185,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "La casa quien compré es grande."
             ],
             "correctIndex": 2,
-            "explanation": "\"Quien\" se usa solo para personas, frecuentemente después de una preposición: con quien."
+            "explanation": "«Quien» se usa solo para personas y, en oraciones como esta, después de una preposición: con quien. «El libro quien» y «La casa quien» son cosas y piden «que». «La chica quien conocí» también falla: sin preposición se dice «la chica que conocí» (o «a quien conocí»)."
           }
         ]
       },
@@ -4238,7 +4240,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "\"Lo que\" se refiere a ideas abstractas, no a sustantivos específicos como \"libro\" o \"mujer\" — ahí se usa \"que\"."
+            "explanation": "«Lo que» se refiere a ideas o cosas no nombradas: lo que necesito, lo que pasó. En «El libro lo que leí» y «La mujer lo que vive aquí» ya hay un sustantivo concreto, así que se usa «que»."
           }
         ]
       },
@@ -4272,7 +4274,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "La escuela"
             ],
             "correctIndex": 1,
-            "explanation": "Dice: \"Lo que más aprecio de este lugar es la comunidad.\""
+            "explanation": "Dice: «Lo que más aprecio de este lugar es la comunidad». El pan, el jardín y la escuela no son lo que más aprecia."
           }
         ]
       }
@@ -4295,7 +4297,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Ninguna es correcta."
         ],
         "correctIndex": 2,
-        "explanation": "\"Que\" y \"quien\" pueden referirse a personas entre comas; ambas son correctas aquí."
+        "explanation": "Entre comas, para personas, se puede usar «que» o «quien»: Mi jefe, que / quien es de México… Por eso las dos son correctas y «Ninguna es correcta» es falsa."
       },
       {
         "type": "fill-blank",
@@ -4614,7 +4616,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "las que"
         ],
         "correctIndex": 3,
-        "explanation": "Las que concuerda en género y número con \"las razones\", femenino plural."
+        "explanation": "El artículo concuerda con el antecedente: «las razones» es femenino plural, así que se usa «las que». «El que», «la que» y «los que» no concuerdan en género o número."
       }
     ]
   },
@@ -4644,7 +4646,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "El doctor a los que consulté me recomendó descansar."
         ],
         "correctIndex": 1,
-        "explanation": "Después de una preposición, cuando el antecedente es una persona, se usa \"quien\"; \"que\" no se usa directamente tras preposición con personas, \"lo que\" es para ideas abstractas, y \"los que\" no concuerda en número con \"el doctor\" (singular)."
+        "explanation": "Tras una preposición, con una persona como antecedente, se usa «quien»: a quien consulté. «A que» no se usa así con personas, «a lo que» es para ideas y «a los que» no concuerda con «el doctor» (singular)."
       },
       {
         "type": "fill-blank",
@@ -4670,7 +4672,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Compré dos coches: lo que es rojo y lo que es azul."
         ],
         "correctIndex": 0,
-        "explanation": "\"El que\" (y sus formas) se usan para distinguir entre varias opciones o dar énfasis. \"Que\" solo no puede iniciar una cláusula así, \"quien\" es solo para personas, y \"lo que\" es para ideas abstractas, no para coches."
+        "explanation": "«El que» (y sus formas) distingue entre varias opciones: el que es rojo y el que es azul. «Que» solo no puede empezar así la cláusula, «quien» es solo para personas y «lo que» es para ideas, no para coches."
       },
       {
         "type": "multi-select",
@@ -4685,7 +4687,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "\"Quien/quienes\" solo se refiere a personas (los estudiantes, la profesora); \"el coche\" y \"la ciudad\" son cosas y necesitan \"que\"."
+        "explanation": "«Quien/quienes» solo se refiere a personas: los estudiantes, la profesora. En «El coche quien compré» y «La ciudad quien visitamos» el antecedente es una cosa, así que se necesita «que»."
       },
       {
         "type": "translate",
@@ -4831,7 +4833,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "La empresa para lo que trabajo tiene oficinas en Madrid."
         ],
         "correctIndex": 1,
-        "explanation": "Después de preposiciones con cosas, se prefiere \"el/la que\" en vez de \"que\" solo; \"quien\" es solo para personas y \"lo que\" es para ideas abstractas, no para una empresa."
+        "explanation": "Después de una preposición con cosas se usa «el/la que»: la empresa para la que trabajo. «Para que» significa «so that», «para quien» es solo para personas y «para lo que» es para ideas, no para una empresa."
       },
       {
         "type": "translate",
@@ -4858,7 +4860,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "\"Lo que\" no puede referirse a un sustantivo específico como \"el hombre\" — ahí se necesita \"que\". Las otras tres oraciones usan los pronombres correctamente."
+        "explanation": "«Lo que» no puede referirse a un sustantivo concreto: «El hombre lo que conocí» es incorrecta; se dice «el hombre que conocí». Las otras tres usan bien «lo que», «los que» y «que»."
       },
       {
         "type": "multiple-choice",
@@ -4930,7 +4932,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Son vendidos libros aquí."
             ],
             "correctIndex": 1,
-            "explanation": "El verbo concuerda con \"libros\" (plural): se venden."
+            "explanation": "En el se pasivo el verbo concuerda con lo que se vende: libros (plural) → se venden. «Se vende libros» no concuerda, «se vendes» usa la persona tú y «son vendidos» es una pasiva que casi no se usa así."
           }
         ]
       },
@@ -5018,7 +5020,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Grabar"
             ],
             "correctIndex": 1,
-            "explanation": "El letrero dice: \"Se prohíbe fumar dentro del edificio.\""
+            "explanation": "El letrero dice: «Se prohíbe fumar dentro del edificio». No prohíbe comer, hablar ni grabar."
           }
         ]
       }
@@ -5041,7 +5043,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Se hablan idiomas."
         ],
         "correctIndex": 1,
-        "explanation": "\"Se vive bien\" no tiene un sustantivo que determine el número: es se impersonal, siempre singular."
+        "explanation": "«Se vive bien» no tiene un sustantivo con el que concordar: es se impersonal, siempre en singular. «Se venden casas», «se necesitan empleados» y «se hablan idiomas» son se pasivo: el verbo concuerda con un sustantivo plural."
       },
       {
         "type": "fill-blank",
@@ -5332,7 +5334,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Se alquilan y se venden concuerdan con un sustantivo plural: se pasivo."
+        "explanation": "«Se alquilan apartamentos» y «se venden boletos» son se pasivo: el verbo concuerda con un sustantivo plural. «Se trabaja mucho» y «se vive bien» no tienen sustantivo: son se impersonal."
       },
       {
         "type": "word-order",
@@ -5358,7 +5360,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "No concuerda con nada"
         ],
         "correctIndex": 1,
-        "explanation": "En el se pasivo, el verbo concuerda con el sustantivo: se venden casas."
+        "explanation": "En el se pasivo el verbo concuerda con el sustantivo que recibe la acción: se vende una casa / se venden casas. No está siempre en singular (eso es el se impersonal) ni concuerda con la persona que habla."
       }
     ]
   },
@@ -5434,7 +5436,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Se le di ayer."
             ],
             "correctIndex": 1,
-            "explanation": "Le, delante de un pronombre de objeto directo que empieza con l- (lo), se convierte obligatoriamente en se: 'se lo di'."
+            "explanation": "«Le» delante de lo, la, los, las se convierte en «se»: se lo di. «Le lo» nunca es correcto, «lo le» invierte el orden (indirecto va primero) y «se le» usa dos pronombres indirectos."
           }
         ]
       }
@@ -5450,7 +5452,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "se los"
         ],
         "correctIndex": 1,
-        "explanation": "Le se transforma en se al combinarse con las (objeto directo femenino plural): se las regalé."
+        "explanation": "«Le» se transforma en «se» delante de «las» (las flores, femenino plural): se las regalé. «Le las» no existe, «la le» invierte el orden y «se los» no concuerda con «las flores»."
       },
       {
         "type": "fill-blank",
@@ -5609,7 +5611,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           2,
           4
         ],
-        "explanation": "'Le lo' nunca es correcto (debe ser 'se lo'), y los pronombres pegados al infinitivo van al final del verbo completo, no sueltos antes de él: 'dártelo', no 'te lo dar'."
+        "explanation": "«Le lo» nunca es correcto (debe ser «se lo»). Con infinitivo, los pronombres van pegados al final: «dártelo», no «Voy a te lo dar». También podrían ir antes de todo el grupo: te lo voy a dar."
       }
     ]
   },
@@ -5688,7 +5690,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Prefiero lo mío a lo tuyo."
             ],
             "correctIndex": 1,
-            "explanation": "Fuera de la construcción con 'ser', el artículo definido (el, la) es obligatorio delante del pronombre posesivo: 'el mío', nunca simplemente 'mío'."
+            "explanation": "Fuera de la construcción con ser, el pronombre posesivo necesita artículo: el mío, el tuyo. «Prefiero mío a tuyo» no lo lleva, y «lo mío» significa «my stuff / my thing», no «my one» cuando hablamos de un objeto concreto."
           }
         ]
       }
@@ -5704,7 +5706,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "la suyas"
         ],
         "correctIndex": 1,
-        "explanation": "'Casa' es femenina singular, así que el pronombre posesivo debe concordar: la suya."
+        "explanation": "«Casa» es femenina singular, así que el posesivo concuerda: la suya. «La suyo» no concuerda en género, «el suyo» es masculino y «la suyas» mezcla singular y plural."
       },
       {
         "type": "fill-blank",
@@ -5801,7 +5803,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "De Carlos"
             ],
             "correctIndex": 2,
-            "explanation": "Sara aclara que la chaqueta 'es la suya, de Rita', añadiendo 'de Rita' para eliminar la ambigüedad de 'suya'."
+            "explanation": "Sara aclara que la chaqueta «es la suya, de Rita»: añade «de Rita» para evitar la ambigüedad de «suya». No es de Lucía, de Sara ni de Carlos."
           }
         ]
       }
@@ -5859,7 +5861,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           2,
           4
         ],
-        "explanation": "El pronombre debe concordar en género con el sustantivo ('la mía', no 'la mío'), y fuera de 'ser' necesita artículo ('el tuyo', no simplemente 'tuyo')."
+        "explanation": "El pronombre concuerda en género con el sustantivo: la mía (no «la mío»). Fuera de ser, necesita artículo: el tuyo (no «Prefiero tuyo»). «Son las suyas, de ellas» es correcta y aclara el poseedor."
       }
     ]
   },
@@ -5901,7 +5903,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "La forma de nosotros"
             ],
             "correctIndex": 1,
-            "explanation": "En España, entre amigos (trato informal) en plural se usa la forma de vosotros; en Latinoamérica se usaría 'ustedes' (entren)."
+            "explanation": "En España, entre amigos (trato informal) en plural se usa vosotros: ¡Entrad! En Latinoamérica se diría «Entren» (ustedes). La forma de tú sería «Entra» y la de nosotros «Entremos»."
           }
         ]
       },
@@ -6016,7 +6018,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Os lavad las manos."
             ],
             "correctIndex": 1,
-            "explanation": "Con los reflexivos, la -d final del mandato de vosotros desaparece antes de añadir -os: lavad + os → lavaos, nunca 'lavados'."
+            "explanation": "Con los reflexivos, la -d final del mandato de vosotros desaparece antes de -os: lavad + os → lavaos. «Lavados» es un participio, y «os lavad» pone el pronombre delante, lo que no se hace en afirmativo."
           }
         ]
       },
@@ -6097,7 +6099,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               3,
               4
             ],
-            "explanation": "Los mandatos negativos ('no os quedéis', 'no olvidéis', 'no os peleéis') usan el subjuntivo; los afirmativos ('levantaos', 'vestíos') usan la forma de -d/-os."
+            "explanation": "Los mandatos negativos de vosotros usan el subjuntivo: no os quedéis, no olvidéis, no os peleéis. «Levantaos» y «vestíos» son afirmativos (forma -d que pierde la d ante -os)."
           }
         ]
       }
@@ -6158,7 +6160,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           2,
           4
         ],
-        "explanation": "El reflexivo pierde la -d (sentaos, no 'sentados'); el negativo usa el subjuntivo (no habléis, no 'no hablad'); idos es la excepción irregular de irse."
+        "explanation": "El reflexivo pierde la -d: sentaos, no «sentados» (participio). El negativo usa el subjuntivo: no habléis, no «no hablad». «Idos» es la excepción: irse conserva la -d."
       }
     ]
   },
@@ -6204,7 +6206,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "ayuden"
             ],
             "correctIndex": 0,
-            "explanation": "Los verbos -ar regulares usan las terminaciones -e, -es, -e, -emos, -éis, -en: nosotros → ayudemos."
+            "explanation": "Los verbos -ar regulares usan -e en subjuntivo: ayude, ayudes, ayude, ayudemos… Nosotros → ayudemos. «Ayudamos» es indicativo, «ayudéis» es de vosotros y «ayuden» de ellos."
           }
         ]
       },
@@ -6298,7 +6300,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "buscaré"
         ],
         "correctIndex": 1,
-        "explanation": "Buscar cambia c→qu antes de e: busque, busques, busque..."
+        "explanation": "Buscar cambia c → qu delante de e para conservar el sonido: busque. «Busco» es presente de indicativo, «busqué» es pretérito (con tilde) y «buscaré» es futuro."
       },
       {
         "type": "fill-blank",
@@ -6324,7 +6326,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "vuelva"
         ],
         "correctIndex": 0,
-        "explanation": "Volver cambia o→ue excepto en nosotros: volvamos, no vuelvan."
+        "explanation": "Volver cambia o→ue excepto en nosotros y vosotros: volvamos. «Vuelvan» y «vuelva» son de ellos y de yo/él, y «volváis» es de vosotros."
       }
     ]
   },
@@ -6370,7 +6372,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "perdieran"
             ],
             "correctIndex": 0,
-            "explanation": "Perder cambia e→ie excepto en nosotros/vosotros: pierda, pierdas, pierda, perdamos, perdáis, pierdan."
+            "explanation": "Perder cambia e→ie excepto en nosotros/vosotros: pierdan. «Perdan» olvida el cambio de raíz, «pierden» es indicativo y «perdieran» es subjuntivo imperfecto."
           }
         ]
       },
@@ -6408,7 +6410,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "prefiramos"
             ],
             "correctIndex": 0,
-            "explanation": "Preferir cambia e→ie, pero en vosotros el cambio es e→i: prefiráis."
+            "explanation": "Preferir es -ir: en nosotros y vosotros cambia e→i: prefiramos, prefiráis. «Preferáis» olvida ese cambio, «prefiéis» no existe y «prefiramos» es la forma de nosotros."
           }
         ]
       },
@@ -6503,7 +6505,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "daré"
         ],
         "correctIndex": 1,
-        "explanation": "Dar es irregular en subjuntivo: dé, des, dé, demos, deis, den."
+        "explanation": "Dar es irregular en subjuntivo: dé, des, dé, demos, deis, den. «Dé» lleva tilde para distinguirse de la preposición «de». «Doy» es presente, «di» pretérito y «daré» futuro."
       },
       {
         "type": "fill-blank",
@@ -6522,7 +6524,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "digáis"
         ],
         "correctIndex": 0,
-        "explanation": "Decir es irregular en \"yo\" (digo), y esa raíz pasa a todo el subjuntivo: digamos."
+        "explanation": "Decir es irregular en yo (digo) y esa raíz pasa a todo el subjuntivo: digamos. «Decimos» es indicativo, «dicemos» no existe y «digáis» es de vosotros."
       }
     ]
   },
@@ -6736,7 +6738,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Esperan que nosotros ganar el partido."
             ],
             "correctIndex": 0,
-            "explanation": "Después de 'esperar que' con cambio de sujeto se necesita el subjuntivo: ganemos, no el indicativo ni el infinitivo."
+            "explanation": "«Esperar que» con cambio de sujeto requiere subjuntivo: ganemos. «Ganamos» (indicativo) y «ganaremos» (futuro) no sirven, y «que nosotros ganar» mezcla «que» con un infinitivo."
           }
         ]
       },
@@ -6778,7 +6780,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "decir"
             ],
             "correctIndex": 2,
-            "explanation": "'Negar que' expresa negación y requiere subjuntivo: digan."
+            "explanation": "«Negar que» rechaza un hecho y requiere subjuntivo: digan. «Dicen» y «dijeron» son indicativo, y «decir» es infinitivo, imposible después de «que ellos»."
           }
         ]
       },
@@ -6834,7 +6836,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Espero tú estés bien."
         ],
         "correctIndex": 0,
-        "explanation": "'Esperar que' con cambio de sujeto requiere subjuntivo: estés."
+        "explanation": "«Esperar que» con cambio de sujeto requiere subjuntivo: estés. «Estás» es indicativo, «ser» es un infinitivo y además «bien» va con estar, y «Espero tú estés» omite el «que» necesario."
       },
       {
         "type": "fill-blank",
@@ -6864,7 +6866,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "es una lástima que"
         ],
         "correctIndex": 2,
-        "explanation": "'Creer que' en forma afirmativa expresa certeza y lleva indicativo; los demás requieren subjuntivo."
+        "explanation": "«Creer que» en afirmativo expresa certeza y lleva indicativo: creo que viene. «Dudar que», «negar que» y «es una lástima que» expresan duda, negación o emoción y requieren subjuntivo."
       },
       {
         "type": "fill-blank",
@@ -6926,7 +6928,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Es cierto que..."
             ],
             "correctIndex": 2,
-            "explanation": "Las expresiones de valoración subjetiva como 'es una lástima que' requieren subjuntivo; las de certeza (es verdad, es obvio, es cierto) llevan indicativo."
+            "explanation": "Las valoraciones subjetivas como «es una lástima que» requieren subjuntivo. «Es verdad que», «es obvio que» y «es cierto que» expresan certeza y llevan indicativo."
           },
           {
             "type": "fill-blank",
@@ -6967,7 +6969,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Espero llegue a tiempo."
             ],
             "correctIndex": 1,
-            "explanation": "Como el sujeto cambia (yo espero / tú llegues), se necesita 'que' + subjuntivo: llegues."
+            "explanation": "Como el sujeto cambia (yo espero / tú llegas), se necesita «que» + subjuntivo: espero que llegues. «Espero llegar» es para el mismo sujeto, «que llegar» mezcla que con infinitivo y «Espero llegue» omite el «que»."
           },
           {
             "type": "word-order",
@@ -6998,7 +7000,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "'Sentir que' y 'sorprender que' son expresiones de emoción y requieren subjuntivo (puedas, hayan llegado); las otras opciones usan mal el modo."
+        "explanation": "«Sentir que» y «sorprender que» expresan emoción y requieren subjuntivo: puedas, hayan llegado. «Siento que no puedes» usa indicativo por error, y «Es obvio que hayan llegado» usa subjuntivo con una expresión de certeza."
       },
       {
         "type": "translate",
@@ -7028,7 +7030,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Quiero que salgamos temprano."
         ],
         "correctIndex": 1,
-        "explanation": "Cuando el sujeto es el mismo en ambas partes, se usa el infinitivo: quiero salir."
+        "explanation": "Cuando el sujeto es el mismo en ambas partes, se usa el infinitivo: quiero salir. Las frases con «que salgas», «que salga» y «que salgamos» tienen un sujeto diferente."
       },
       {
         "type": "word-order",
@@ -7095,7 +7097,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               1,
               3
             ],
-            "explanation": "'Ojalá que', 'es importante que' y 'no pensar que' requieren subjuntivo (llueva, estudien, sepa); 'creer que' afirmativo lleva indicativo (viene)."
+            "explanation": "«Ojalá que», «es importante que» y «no pensar que» requieren subjuntivo: llueva, estudien, sepa. «Creo que ella viene mañana» está bien escrita, pero usa indicativo, porque «creer» afirmativo expresa certeza."
           },
           {
             "type": "fill-blank",
@@ -7170,7 +7172,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "mereció"
         ],
         "correctIndex": 1,
-        "explanation": "'No dudar que' expresa certeza, por lo que se usa el indicativo: merece."
+        "explanation": "«No dudar que» expresa certeza, por eso lleva indicativo: merece. «Merezca» sería para «dudamos que», «merecer» es infinitivo y «mereció» cambia el tiempo a pasado."
       },
       {
         "type": "translate",
@@ -7226,7 +7228,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "'Quiero que vayas' y 'nos alegra que hayas venido' tienen cambio de sujeto con deseo/emoción, así que requieren subjuntivo; las otras usan infinitivo (mismo sujeto) o indicativo (certeza)."
+        "explanation": "«Quiero que vayas» y «nos alegra que hayas venido» tienen cambio de sujeto con deseo o emoción: subjuntivo. «Quiero ir» tiene el mismo sujeto (infinitivo) y «Sabemos que has venido» expresa certeza (indicativo)."
       }
     ]
   },
@@ -7272,7 +7274,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "terminar"
             ],
             "correctIndex": 0,
-            "explanation": "Es necesario que exige subjuntivo; la forma de nosotros es terminemos."
+            "explanation": "«Es necesario que» exige subjuntivo: terminemos. «Terminamos» (indicativo) y «terminaremos» (futuro) no sirven, y «terminar» solo se usa sin «que» ni sujeto: es necesario terminar."
           }
         ]
       },
@@ -7326,7 +7328,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "terminar"
         ],
         "correctIndex": 0,
-        "explanation": "Es necesario que + sujeto específico requiere subjuntivo: terminemos."
+        "explanation": "«Es necesario que» + un sujeto concreto (nosotros) requiere subjuntivo: terminemos. «Terminamos» y «terminaremos» son indicativo, y «terminar» solo va sin «que»: es necesario terminar."
       },
       {
         "type": "fill-blank",
@@ -7352,7 +7354,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           2,
           4
         ],
-        "explanation": "Es posible que, es importante que y puede que expresan duda o necesidad y llevan subjuntivo; las demás expresan certeza y llevan indicativo."
+        "explanation": "«Es posible que», «es importante que» y «puede que» expresan posibilidad o necesidad y llevan subjuntivo. «Es verdad que», «es obvio que» y «es cierto que» expresan certeza y llevan indicativo."
       },
       {
         "type": "translate",
@@ -7431,7 +7433,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               2,
               4
             ],
-            "explanation": "Es posible que, es importante que y puede que expresan duda o necesidad y llevan subjuntivo; las otras expresan certeza y llevan indicativo."
+            "explanation": "«Es posible que», «es importante que» y «puede que» expresan posibilidad o necesidad: subjuntivo. «Es verdad que», «es obvio que» y «es cierto que» expresan certeza: indicativo."
           },
           {
             "type": "fill-blank",
@@ -7492,7 +7494,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "tuviera"
         ],
         "correctIndex": 0,
-        "explanation": "Es obvio que expresa certeza y lleva indicativo: tiene."
+        "explanation": "«Es obvio que» expresa certeza y lleva indicativo: tiene. «Tenga» y «tuviera» son subjuntivo, que se usaría con «es posible que», y «tendría» es condicional."
       },
       {
         "type": "fill-blank",
@@ -7539,7 +7541,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "llegaríamos"
         ],
         "correctIndex": 0,
-        "explanation": "Sin un sujeto específico, se usa el infinitivo en vez de que + subjuntivo: llegar."
+        "explanation": "Sin un sujeto concreto, la expresión impersonal va con infinitivo: es necesario llegar temprano. «Lleguemos» necesitaría «que» delante, y «llegamos» o «llegaríamos» son formas conjugadas que no encajan aquí."
       },
       {
         "type": "translate",
@@ -7597,7 +7599,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "vino"
             ],
             "correctIndex": 0,
-            "explanation": "Cuando quizás expresa duda, se prefiere el subjuntivo: venga."
+            "explanation": "Cuando «quizás» va antes del verbo y expresa duda real, se prefiere el subjuntivo: quizás venga. «Viene» y «vendrá» también se oyen, pero suenan más seguros; «vino» habla del pasado, y aquí hablamos de un plan."
           },
           {
             "type": "translate",
@@ -7639,7 +7641,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "llegaríamos"
             ],
             "correctIndex": 0,
-            "explanation": "Sin un sujeto específico, se usa el infinitivo: llegar."
+            "explanation": "Sin un sujeto concreto, la expresión impersonal va con infinitivo: es necesario llegar. «Lleguemos» necesitaría «que nosotros», y «llegamos» o «llegaríamos» no pueden seguir directamente a «es necesario»."
           },
           {
             "type": "word-order",
@@ -7712,7 +7714,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Es verdad que lleva indicativo (trabaja) y ojalá que lleva subjuntivo (trabaje); las otras dos combinan mal la expresión con el modo verbal."
+        "explanation": "«Es verdad que» lleva indicativo (trabaja) y «ojalá que» lleva subjuntivo (trabaje). «Es posible que él trabaja» debería llevar subjuntivo, y «Es obvio que él trabaje» debería llevar indicativo."
       },
       {
         "type": "word-order",
@@ -7736,7 +7738,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "vino"
         ],
         "correctIndex": 0,
-        "explanation": "Cuando quizás expresa duda sobre el futuro, se prefiere el subjuntivo: venga."
+        "explanation": "Cuando «quizás» expresa duda sobre el futuro, se prefiere el subjuntivo: quizás venga. «Viene» o «vendrá» presentan el hecho como más seguro, y «vino» habla del pasado, no de esta noche."
       },
       {
         "type": "fill-blank",
@@ -7869,7 +7871,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Escribo"
         ],
         "correctIndex": 0,
-        "explanation": "El mandato afirmativo regular con tú usa la forma de él/ella: escribe."
+        "explanation": "El mandato afirmativo regular de tú usa la forma de él del presente: escribe. «Escribes» es indicativo (tú escribes), «escribas» es el negativo (no escribas) y «escribo» es la forma de yo."
       },
       {
         "type": "fill-blank",
@@ -7900,7 +7902,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Los mandatos con usted usan el subjuntivo: 'venga' y 'no pierda' son correctos."
+        "explanation": "Los mandatos de usted usan el subjuntivo: venga, no pierda. «Viene» y «no pierde» son presente de indicativo: describen, no mandan."
       },
       {
         "type": "word-order",
@@ -7962,7 +7964,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "Con usted y ustedes se usa siempre el subjuntivo: 'hable' y 'no coman' son correctos; 'habla' es forma de tú y 'no comen' es indicativo."
+            "explanation": "Con usted y ustedes se usa siempre el subjuntivo: hable, no coman. «Habla» es el mandato de tú, y «no comen» es indicativo (una descripción, no una orden)."
           }
         ]
       },
@@ -8037,7 +8039,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Dila se"
         ],
         "correctIndex": 0,
-        "explanation": "En el mandato afirmativo, los pronombres se unen al final del verbo: 'Dísela'."
+        "explanation": "En el mandato afirmativo, los pronombres se unen al final del verbo, y le → se delante de la: di + se + la → dísela. «Se la di» es pretérito (I told it to her), «No se la digas» es negativo y «Dila se» separa y desordena los pronombres."
       },
       {
         "type": "fill-blank",
@@ -8068,7 +8070,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Digas"
         ],
         "correctIndex": 2,
-        "explanation": "El mandato afirmativo irregular con tú de 'decir' es 'di'."
+        "explanation": "Decir tiene un mandato afirmativo irregular con tú: di. «Dice» y «dices» son indicativo, y «digas» es la forma del negativo: no digas."
       },
       {
         "type": "matching",
@@ -8200,7 +8202,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Seas"
         ],
         "correctIndex": 1,
-        "explanation": "El mandato afirmativo irregular con tú de 'ser' es 'sé'."
+        "explanation": "Ser tiene un mandato afirmativo irregular con tú: sé (con tilde, para distinguirlo del pronombre «se»). «Eres» es indicativo, «sea» es para usted y «seas» es el negativo: no seas."
       },
       {
         "type": "fill-blank",
@@ -8223,7 +8225,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "En los negativos el pronombre va antes del verbo ('no lo hagas'), y en los afirmativos se une al final sin espacio ('Háganlo')."
+        "explanation": "En el negativo el pronombre va antes del verbo: no lo hagas. En el afirmativo se une al final, sin espacio: háganlo. Por eso «No hazlo» y «Hagan lo» son incorrectas."
       }
     ]
   },
@@ -8351,7 +8353,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Si tuviera tiempo, viajo más."
         ],
         "correctIndex": 2,
-        "explanation": "La estructura correcta combina imperfecto de subjuntivo en la cláusula con \"si\" y condicional en la consecuencia: \"Si tuviera tiempo, viajaría más\"."
+        "explanation": "La hipótesis poco probable combina imperfecto de subjuntivo tras «si» y condicional en el resultado: si tuviera tiempo, viajaría. «Si tendría» es incorrecta (nunca condicional tras «si»), y «si tengo… viajo» es una condición real, no hipotética."
       },
       {
         "type": "translate",
@@ -8493,7 +8495,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "yo sobre ti"
         ],
         "correctIndex": 1,
-        "explanation": "\"Yo que tú\" (o \"yo en tu lugar\") seguido del condicional es la forma habitual de dar consejos: \"Yo que tú, se lo diría\"."
+        "explanation": "«Yo que tú» (o «yo en tu lugar») + condicional es la fórmula habitual para aconsejar: Yo que tú, se lo diría. «Yo antes de ti», «yo por ti» y «yo sobre ti» no son expresiones fijas del español."
       },
       {
         "type": "word-order",
@@ -8574,7 +8576,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "voy (presente)"
             ],
             "correctIndex": 2,
-            "explanation": "\"Cuando era niño\" describe un hábito repetido en el pasado, así que se usa el imperfecto (iba), no el condicional ni el futuro."
+            "explanation": "«Cuando era niño» describe un hábito repetido en el pasado, así que se usa el imperfecto: iba. «Iría» (condicional) e «iré» (futuro) no hablan del pasado, y «voy» es presente."
           },
           {
             "type": "multiple-choice",
@@ -8615,7 +8617,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "Correctas: tendría (tener→tendr-), querría (querer→querr-) y pondría (poner→pondr-). \"Haceria\" debería escribirse \"haría\" (hacer→har-) y \"sabería\" debería ser \"sabría\" (saber→sabr-)."
+        "explanation": "El condicional de estos verbos usa raíces irregulares: tendr-, querr-, pondr-. «Haceria» es incorrecta (hacer → haría) y «sabería» también (saber → sabría)."
       },
       {
         "type": "multiple-choice",
@@ -8627,7 +8629,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "empiece"
         ],
         "correctIndex": 1,
-        "explanation": "\"El año que viene\" señala un plan futuro concreto, así que se usa el futuro simple (empezaré), no el condicional."
+        "explanation": "«El año que viene» señala un plan futuro concreto: futuro simple, empezaré. «Empezaría» es condicional (hipótesis), «empezaba» es imperfecto y «empiece» es subjuntivo."
       },
       {
         "type": "matching",
@@ -8712,7 +8714,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "presente + subjuntivo"
             ],
             "correctIndex": 0,
-            "explanation": "Para hábitos y verdades generales, el español usa presente en la cláusula con si y presente también en el resultado."
+            "explanation": "Para hábitos y verdades generales se usa presente + presente: si llueve, me quedo en casa. «Imperfecto + condicional» no es una combinación correcta con si, y «presente + subjuntivo» tampoco."
           },
           {
             "type": "fill-blank",
@@ -8750,7 +8752,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "tendríamos"
             ],
             "correctIndex": 1,
-            "explanation": "Con una condición real sobre el futuro, la consecuencia se expresa normalmente en futuro simple: 'tendremos'."
+            "explanation": "Con una condición real sobre el futuro, la consecuencia va normalmente en futuro: si no llamas, no tendremos reserva. «Tuvimos» es pasado, «tendríamos» es hipotético y «tenemos» es posible pero menos natural para una consecuencia futura."
           },
           {
             "type": "fill-blank",
@@ -8774,7 +8776,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "lleguemos"
         ],
         "correctIndex": 0,
-        "explanation": "Un hábito o rutina con si se expresa con presente + presente: 'Si llegamos temprano, cogemos buenos asientos.' Ojo: coger es neutro en España, pero en México, Argentina y buena parte de Latinoamérica es vulgar; allí se dice tomar o agarrar."
+        "explanation": "Un hábito con si se expresa con presente + presente: si llegamos temprano, cogemos buenos asientos. «Lleguemos» es subjuntivo (imposible tras si), «llegaremos» es futuro y «llegábamos» es pasado. Ojo: coger es neutro en España, pero vulgar en gran parte de Latinoamérica; allí se dice tomar o agarrar."
       },
       {
         "type": "multiple-choice",
@@ -8786,7 +8788,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Si necesites algo, llámame."
         ],
         "correctIndex": 0,
-        "explanation": "La condición real con petición se traduce con presente + imperativo: 'Si necesitas algo, llámame.'"
+        "explanation": "Condición real + petición: presente + imperativo: si necesitas algo, llámame. «Si necesites» y «si necesitarás» son imposibles tras si, y «si necesitaras… me llamarías» es hipotético, no la oferta directa del original."
       },
       {
         "type": "multi-select",
@@ -8801,7 +8803,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           0,
           3
         ],
-        "explanation": "En 'si + presente, + futuro', la cláusula con si siempre va en presente y el resultado en futuro; 'trabajarás' en la cláusula con si es incorrecto."
+        "explanation": "En si + presente + futuro, la cláusula con si va en presente y el resultado en futuro. «Si trabajarás» es incorrecta porque si no lleva futuro, y «Si trabajas duro, consigues el puesto» es correcta, pero usa presente + presente."
       },
       {
         "type": "fill-blank",
@@ -8896,7 +8898,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Si quieres, cenamos juntos."
             ],
             "correctIndex": 1,
-            "explanation": "'No sé si él ya comió' equivale a 'I don't know whether he already ate', un uso de pregunta indirecta, no de condición."
+            "explanation": "Aquí «si» significa «whether»: No sé si él ya comió (I don't know whether he already ate). «Si llueve…» y «Si quieres…» son condiciones, y «Sí, tienes razón» es el adverbio de afirmación, con tilde."
           },
           {
             "type": "fill-blank",
@@ -9063,7 +9065,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Nunca se usa coma con si."
             ],
             "correctIndex": 1,
-            "explanation": "La coma marca el final de la cláusula con si cuando esta abre la oración; si el resultado va primero, no hace falta coma."
+            "explanation": "La coma marca el final de la cláusula con si cuando esta abre la oración: Si llueve, me quedo. Si el resultado va primero, no hace falta: Me quedo si llueve. Por eso no es «siempre» ni «nunca»."
           },
           {
             "type": "word-order",
@@ -9117,7 +9119,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "Las oraciones con imperfecto de subjuntivo o pluscuamperfecto de subjuntivo expresan condiciones hipotéticas o contrarias a la realidad, que se estudian en B2; aquí solo las de condición real cuentan."
+            "explanation": "Condición real: si + presente, con resultado en presente o imperativo. «Si tuviera dinero, viajaría» es hipotética y «Si hubiera sabido, te habría llamado» es contraria al pasado: ambas son del nivel B2."
           }
         ]
       }
@@ -9156,7 +9158,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Pregúntale sí quiere venir."
         ],
         "correctIndex": 0,
-        "explanation": "'Si quiere venir' funciona aquí como 'whether he/she wants to come', sin tilde porque no es la respuesta afirmativa."
+        "explanation": "En una pregunta indirecta, «si» significa «whether» y va sin tilde: pregúntale si quiere venir. «Sí» con tilde es la respuesta afirmativa, por eso «Sí quiere» y «Pregúntale sí quiere» no sirven, y «Si, quiere» es una respuesta mal escrita."
       },
       {
         "type": "fill-blank",
@@ -9190,7 +9192,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Las oraciones con presente + presente o presente + imperativo son condiciones reales; las que usan imperfecto o pluscuamperfecto de subjuntivo son hipotéticas y pertenecen a B2."
+        "explanation": "Presente + presente o presente + imperativo son condiciones reales: si estudias, apruebas; si tienes tiempo, ven. «Si estudiaras más, aprobarías» y «Si hubieras estudiado, habrías aprobado» son hipotéticas."
       },
       {
         "type": "word-order",
@@ -9269,7 +9271,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "aprendiendo"
             ],
             "correctIndex": 0,
-            "explanation": "Los verbos -er forman el participio con -ido: aprender → aprendido."
+            "explanation": "Los verbos -er forman el participio con -ido: aprender → aprendido. «Aprendado» usa la terminación de -ar, «aprendo» es presente y «aprendiendo» es el gerundio."
           }
         ]
       },
@@ -9337,7 +9339,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "ha escribo"
         ],
         "correctIndex": 0,
-        "explanation": "Escribir tiene un participio irregular: escrito, no escribido. 'Ella ha escrito' es correcto."
+        "explanation": "Escribir tiene un participio irregular, escrito: ella ha escrito. «Ha escribido» usa un participio que no existe, «había escrito» es pluscuamperfecto y «ha escribo» mezcla haber con el presente."
       },
       {
         "type": "multiple-choice",
@@ -9349,7 +9351,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Nosotros hemos vuelvido tarde anoche."
         ],
         "correctIndex": 0,
-        "explanation": "El participio de volver es irregular: vuelto. El auxiliar correcto para 'nosotros' es hemos."
+        "explanation": "Volver tiene un participio irregular, vuelto, y el auxiliar de nosotros es hemos. «Volvido» y «vuelvido» no existen, y «habemos» no es la forma estándar. (Con «anoche», fuera de España se prefiere el pretérito: volvimos.)"
       },
       {
         "type": "multi-select",
@@ -9384,7 +9386,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           2,
           4
         ],
-        "explanation": "El pretérito perfecto usa el presente de haber (he, has, hemos); las otras dos oraciones usan el imperfecto de haber (había, habíamos), que es pluscuamperfecto."
+        "explanation": "El pretérito perfecto usa el presente de haber: he comido, has visto, hemos abierto. «Había comido» y «habíamos llegado» usan el imperfecto de haber: son pluscuamperfecto."
       },
       {
         "type": "fill-blank",
@@ -9437,7 +9439,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Ya termino el proyecto mañana."
             ],
             "correctIndex": 0,
-            "explanation": "'Ya he terminado' conecta una acción reciente con el momento presente, que es justamente el uso del pretérito perfecto."
+            "explanation": "«Ya he terminado» conecta una acción reciente con el presente: ese es el uso del pretérito perfecto. «Ya terminaba» es imperfecto, «había terminado» es pluscuamperfecto y «termino mañana» habla del futuro."
           }
         ]
       },
@@ -9559,7 +9561,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "veo"
             ],
             "correctIndex": 0,
-            "explanation": "'Ayer' marca un momento específico y terminado del pasado, así que se usa el pretérito indefinido: vi."
+            "explanation": "«Ayer» marca un momento terminado del pasado, así que se usa el pretérito indefinido: vi. «He visto» se usa con periodos que incluyen el presente (hoy, esta semana), «había visto» es pluscuamperfecto y «veo» es presente."
           }
         ]
       },
@@ -9592,7 +9594,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "trabajaba"
             ],
             "correctIndex": 0,
-            "explanation": "'Esta semana' todavía no termina y el resultado (estar cansado) es relevante ahora, así que se usa el pretérito perfecto."
+            "explanation": "«Esta semana» no ha terminado y su resultado (estoy cansado) importa ahora: pretérito perfecto, he trabajado. «Trabajé» sirve para periodos cerrados, «trabajaba» describe hábitos y «había trabajado» es anterior a otro pasado."
           }
         ]
       }
@@ -9666,7 +9668,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "visito / he visto"
         ],
         "correctIndex": 0,
-        "explanation": "Con 'ayer' (momento específico y terminado) se usa el pretérito indefinido: visité. Con 'hoy' (relevancia presente) se usa el pretérito perfecto: he visto."
+        "explanation": "Con «ayer» (tiempo terminado) se usa el indefinido: visité. Con «hoy» (tiempo que incluye el presente) se usa el pretérito perfecto: he visto. «He visitado / vi» invierte los tiempos, y «visito» o «veo» son presente."
       },
       {
         "type": "fill-blank",
@@ -9719,7 +9721,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "donde"
             ],
             "correctIndex": 0,
-            "explanation": "'Que' funciona como objeto directo del verbo 'conocí' sin necesidad de preposición ni coma."
+            "explanation": "«Que» es el relativo básico y aquí funciona como objeto directo de conocí: la chica que conocí. «Quien» sin preposición ni coma no se usa así, «cuyo» indica posesión y «donde» indica lugar."
           }
         ]
       },
@@ -9757,7 +9759,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "donde"
             ],
             "correctIndex": 1,
-            "explanation": "Después de la preposición 'a' y refiriéndose a personas en plural, se usa 'quienes'."
+            "explanation": "Después de la preposición «a», con personas en plural, se usa «quienes»: a quienes les expliqué. «A que» no se usa con personas tras preposición, «cuyas» indica posesión y «donde» indica lugar."
           }
         ]
       }
@@ -9773,7 +9775,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "lo que"
         ],
         "correctIndex": 0,
-        "explanation": "'Museo' es una cosa y no hay preposición ni coma, así que se usa 'que'."
+        "explanation": "«Museo» es una cosa y no hay preposición ni coma, así que se usa «que». «Quien» es solo para personas, «cuyo» indica posesión y «lo que» se refiere a ideas, no a un sustantivo nombrado."
       },
       {
         "type": "multiple-choice",
@@ -9800,7 +9802,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "'Donde' solo es correcto cuando el antecedente es un lugar ('pueblo', 'oficina'); con ideas abstractas se usa 'lo que' y con objetos como 'libro' se usa 'que'."
+        "explanation": "«Donde» es correcto cuando el antecedente es un lugar: el pueblo donde crecí, la oficina donde trabajo. En «No sé donde quieres decir» se necesita «lo que», y en «El libro donde compré» se necesita «que»."
       },
       {
         "type": "fill-blank",
@@ -9946,7 +9948,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "cuyo"
             ],
             "correctIndex": 2,
-            "explanation": "'Oficina' es un lugar, así que corresponde usar 'donde'."
+            "explanation": "«Oficina» es un lugar, así que se usa «donde» (= en la que). «Que» solo necesitaría la preposición (en la que), «quien» es para personas y «cuyo» indica posesión."
           }
         ]
       }
@@ -10192,7 +10194,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "«La que tiene jardín», «Los que estudian» y «Las que compraste» usan el artículo + que correctamente para distinguir o generalizar; «El que vive en Madrid, quien es mi tío» añade un segundo relativo que sobra, lo cual es redundante e incorrecto."
+        "explanation": "«La que tiene jardín», «Los que estudian» y «Las que compraste» usan artículo + que para distinguir o generalizar. «El que vive en Madrid, quien es mi tío» añade un segundo relativo que sobra."
       }
     ]
   },
@@ -10238,7 +10240,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Los cuadros son pintados por Goya en 1800."
             ],
             "correctIndex": 1,
-            "explanation": "El participio 'pintados' debe concordar en género y número con el sujeto plural masculino 'los cuadros', y el verbo 'ser' va en pasado porque la acción ya terminó."
+            "explanation": "En la pasiva, ser concuerda con el sujeto y el participio concuerda en género y número: los cuadros fueron pintados. «Fueron pintado» no concuerda en número, «fue pintados» tampoco, y «son pintados… en 1800» usa presente para un hecho pasado."
           }
         ]
       },
@@ -10292,7 +10294,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "El gobierno fue aprobado por la ley."
         ],
         "correctIndex": 0,
-        "explanation": "El sujeto pasivo es 'la ley' (femenino singular), así que el participio debe concordar: 'aprobada'. El agente introducido por 'por' es 'el gobierno'."
+        "explanation": "El sujeto pasivo es «la ley» (femenino singular), así que el participio concuerda: aprobada. «Fue aprobado» no concuerda en género, «se ha aprobado por» evita la pasiva refleja con agente, y «El gobierno fue aprobado por la ley» invierte el sentido."
       },
       {
         "type": "fill-blank",
@@ -10335,7 +10337,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "'Se alquilan bicicletas' y 'se reparan zapatos' concuerdan con un sustantivo plural (bicicletas, zapatos), por lo que son pasivas reflejas. Las otras dos no tienen sustantivo con el que concordar y son impersonales."
+        "explanation": "«Se alquilan bicicletas» y «se reparan zapatos» concuerdan con un sustantivo plural: pasiva refleja. «Se duerme bien en verano» y «Se sale poco los domingos» no tienen sustantivo con el que concordar: son impersonales."
       },
       {
         "type": "multiple-choice",
@@ -10347,7 +10349,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "recíproco, porque hay dos sujetos"
         ],
         "correctIndex": 1,
-        "explanation": "No hay ningún sustantivo con el que el verbo pueda concordar; el verbo queda fijo en singular, lo que indica un 'se' impersonal."
+        "explanation": "No hay ningún sustantivo con el que el verbo pueda concordar, y el verbo queda fijo en singular: es se impersonal. No es pasivo (no hay sujeto plural), ni reflexivo (nadie se trabaja a sí mismo) ni recíproco."
       }
     ]
   },
@@ -10385,7 +10387,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Se recíproco"
             ],
             "correctIndex": 1,
-            "explanation": "Es pasiva refleja porque 'camareros' es el sujeto gramatical y concuerda con el verbo en plural ('se buscan')."
+            "explanation": "Es pasiva refleja: «camareros» es el sujeto gramatical y el verbo concuerda en plural, se buscan. El se impersonal va siempre en singular, y no es reflexivo ni recíproco porque nadie se busca a sí mismo."
           },
           {
             "type": "multi-select",
@@ -10472,7 +10474,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "La suya casa está cerca de mía."
         ],
         "correctIndex": 2,
-        "explanation": "Como adjetivo pospuesto, el posesivo tónico va después del sustantivo y suele llevar artículo: 'la casa suya'."
+        "explanation": "El posesivo tónico como adjetivo va después del sustantivo: la casa suya. «Suya casa» y «La suya casa» lo ponen delante, y «Su casa suya» repite el posesivo."
       },
       {
         "type": "fill-blank",
@@ -10563,7 +10565,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Un amigo suyo mío llegó tarde."
             ],
             "correctIndex": 1,
-            "explanation": "Cuando el posesivo tónico acompaña a un sustantivo, se coloca después de él: 'un amigo mío', no antes."
+            "explanation": "El posesivo tónico que acompaña a un sustantivo va detrás: un amigo mío. «Un mío amigo» lo pone delante, «Mi amigo tónico» no tiene sentido y «Un amigo suyo mío» junta dos posesivos."
           }
         ]
       },
@@ -10721,7 +10723,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Este cuadro fue pintado por un mío tío."
         ],
         "correctIndex": 0,
-        "explanation": "La voz pasiva requiere 'ser' + participio concordado ('fue pintado') y el posesivo tónico pospuesto 'mío' va después del sustantivo 'tío'."
+        "explanation": "La pasiva es ser + participio concordado (fue pintado), y el posesivo tónico va detrás del sustantivo (un tío mío). «Fue pintó» mezcla dos verbos, «un tío mi» usa la forma átona y «un mío tío» pone el tónico delante."
       }
     ]
   },
@@ -11254,7 +11256,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce al español.",
         "source": "the payroll",
         "answer": "la nómina",
-        "explanation": "\"La nómina\" significa \"the payroll\"."
+        "explanation": "«La nómina» es la lista de sueldos de una empresa y también el recibo del sueldo mensual: cobrar la nómina, estar en nómina."
       }
     ]
   },
@@ -11803,7 +11805,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "el cruce"
         ],
         "correctIndex": 0,
-        "explanation": "\"El distrito\" significa \"the district\"."
+        "explanation": "«El distrito» significa «the district», una zona grande de la ciudad. «La cuadra» es «the block», «la esquina» es «the corner» y «el cruce» es «the crossing / intersection»."
       }
     ]
   },
@@ -12082,7 +12084,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce al español.",
         "source": "the milestone",
         "answer": "el hito",
-        "explanation": "\"El hito\" significa \"the milestone\"."
+        "explanation": "«El hito» es un momento o logro importante dentro de un proceso: un hito histórico, el primer hito del proyecto."
       }
     ]
   },
@@ -12631,7 +12633,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "already"
         ],
         "correctIndex": 1,
-        "explanation": "\"Jamás\" es una forma enfática de decir \"never\"."
+        "explanation": "«Jamás» es una forma enfática de decir «never»: Jamás lo haré. No significa «always» (siempre), «sometimes» (a veces) ni «already» (ya)."
       }
     ]
   },
@@ -12902,7 +12904,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "\"El veredicto\" (the verdict) pertenece al tema de noticias y sucesos."
+        "explanation": "La beca, aprobar y matricularse son vocabulario de la educación. «El veredicto» (the verdict) pertenece al tema de la justicia y los sucesos."
       },
       {
         "type": "translate",
@@ -13459,7 +13461,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "ahorrar"
         ],
         "correctIndex": 1,
-        "explanation": "\"Derrochar\" significa \"to squander\"."
+        "explanation": "«Derrochar» significa «to squander», gastar sin control. «Administrar» es «to manage», «invertir» es «to invest» y «ahorrar» es «to save», casi lo contrario."
       }
     ]
   },
@@ -13508,7 +13510,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "íbamos"
         ],
         "correctIndex": 1,
-        "explanation": "Ir es irregular en subjuntivo: vaya, vayas, vaya, vayamos, vayáis, vayan."
+        "explanation": "Ir es irregular en subjuntivo: vaya, vayas, vaya, vayamos, vayáis, vayan. «Vamos» es indicativo (o la exhortación «let's go»), «iríamos» es condicional e «íbamos» es imperfecto."
       },
       {
         "type": "fill-blank",
@@ -13527,7 +13529,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "No creo que él tiene razón."
         ],
         "correctIndex": 0,
-        "explanation": "Creer en afirmativo lleva indicativo: creo que tiene razón."
+        "explanation": "Creer en afirmativo expresa certeza y lleva indicativo: creo que tiene razón. «Creo que tenga» usa subjuntivo por error, y con «dudo que» o «no creo que» se necesita subjuntivo (tenga), no «tiene»."
       },
       {
         "type": "fill-blank",
@@ -13546,7 +13548,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "es mejor que"
         ],
         "correctIndex": 1,
-        "explanation": "\"Es evidente que\" expresa certeza: indicativo."
+        "explanation": "«Es evidente que» expresa certeza y lleva indicativo. «Es raro que», «ojalá que» y «es mejor que» expresan juicio o deseo y llevan subjuntivo."
       },
       {
         "type": "fill-blank",
@@ -13565,7 +13567,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "cerrando"
         ],
         "correctIndex": 0,
-        "explanation": "El mandato de usted usa la forma del subjuntivo: cierre."
+        "explanation": "El mandato de usted usa el subjuntivo, con el cambio e→ie de cerrar: cierre. «Cierra» es el mandato de tú, «cerra» no existe y «cerrando» es el gerundio."
       },
       {
         "type": "fill-blank",
@@ -13591,7 +13593,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "diciría"
         ],
         "correctIndex": 1,
-        "explanation": "Decir usa la raíz irregular dir- en condicional: diría."
+        "explanation": "Decir usa la raíz irregular dir- en futuro y condicional: diría. «Deciría», «dijería» y «diciría» no existen."
       }
     ]
   },
@@ -13646,7 +13648,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Si llovía, iremos igual."
         ],
         "correctIndex": 0,
-        "explanation": "Si + presente indicativo describe una condición real."
+        "explanation": "Condición real: si + presente de indicativo, y el resultado en futuro: si llueve, iremos igual. «Si llueva» (subjuntivo) y «si lloverá» (futuro) nunca van tras si, y «si llovía» es pasado."
       },
       {
         "type": "fill-blank",
@@ -13665,7 +13667,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "murió"
         ],
         "correctIndex": 1,
-        "explanation": "Morir tiene un participio irregular: muerto."
+        "explanation": "Morir tiene un participio irregular: muerto. «Morido» no existe, «muriendo» es el gerundio y «murió» es el pretérito."
       },
       {
         "type": "fill-blank",
@@ -13688,7 +13690,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "\"Mañana\" es una expresión de futuro, no de pluscuamperfecto."
+        "explanation": "«Ya», «nunca antes» y «todavía no» sitúan una acción antes de otro momento pasado, por eso acompañan al pluscuamperfecto. «Mañana» es una expresión de futuro."
       },
       {
         "type": "fill-blank",
@@ -13706,8 +13708,8 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Las dos son correctas.",
           "Ninguna es correcta."
         ],
-        "correctIndex": 2,
-        "explanation": "Tanto \"quien\" como \"que\" pueden usarse para personas en este contexto."
+        "correctIndex": 1,
+        "explanation": "Sin comas (relativo especificativo), el sujeto se introduce con \"que\": \"La mujer que vive aquí\". \"Quien\" solo funciona aquí entre comas (\"La mujer, quien vive aquí, es doctora\") o después de preposición (\"la mujer con quien hablé\"), así que \"Las dos son correctas\" no vale."
       },
       {
         "type": "fill-blank",
@@ -13763,7 +13765,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Se alquilan casas."
         ],
         "correctIndex": 1,
-        "explanation": "\"Se vive bien\" no tiene sustantivo que determine el número: se impersonal."
+        "explanation": "«Se vive bien» no tiene un sustantivo con el que concordar: se impersonal, siempre singular. «Se venden libros», «se necesitan voluntarios» y «se alquilan casas» son se pasivo: el verbo concuerda con el sustantivo plural."
       },
       {
         "type": "multi-select",
@@ -13778,7 +13780,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Hablar y comer son regulares; ser y estar son irregulares."
+        "explanation": "Ser (sea) y estar (esté) son irregulares en subjuntivo: no se forman desde «soy» ni «estoy». Hablar (hable) y comer (coma) siguen la regla regular."
       },
       {
         "type": "word-order",
@@ -18080,4 +18082,4 @@ const B1_BASE_LESSONS: Lesson[] = [
 // the same way; at a shared anchor they follow the reinforcement lessons.
 // sequencing.ts applies the course order (moved topics, spread-out
 // vocabulary, optional Extra Practice) after weaving.
-export const B1_LESSONS: Lesson[] = buildLevel("B1", B1_BASE_LESSONS, [...B1_REINFORCEMENT, ...B1_DRILLS, ...B1_COMMON_WORDS]);
+export const B1_LESSONS: Lesson[] = buildLevel("B1", B1_BASE_LESSONS, [...B1_REINFORCEMENT, ...B1_DRILLS, ...B1_COMMON_WORDS, ...B1_GAPS, ...B1_SURVIVAL]);

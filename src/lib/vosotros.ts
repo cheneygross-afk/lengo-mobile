@@ -169,7 +169,13 @@ function requiredAnswers(ex: Exercise): string[] {
         ? [ex.correctIndexes.map((i) => optionText(ex.options[i] ?? "")).join(" ")]
         : [];
     case "matching":
+    case "listen-choose":
+    case "write":
       return [];
+    case "dictation":
+      return [ex.answer ?? ex.audio, ...(ex.altAnswers ?? [])];
+    case "speak":
+      return [ex.text];
   }
 }
 
@@ -186,6 +192,14 @@ function exerciseContext(ex: Exercise): (string | undefined)[] {
       return [ex.question];
     case "matching":
       return [ex.instructions];
+    case "listen-choose":
+      return [ex.question, ex.audio];
+    case "dictation":
+      return [ex.audio];
+    case "speak":
+      return [ex.text, ex.tip];
+    case "write":
+      return [ex.prompt, ...ex.rubric];
   }
 }
 
