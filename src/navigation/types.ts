@@ -34,6 +34,8 @@ export type AppStackParamList = {
   // pull the right questions; `batch` is only needed to mark that batch
   // done afterwards.
   ReviewDrill: { levelPath: string; batch: number; slugs: string[] };
+  // "Test out" of a unit (units.ts) -- see UnitTestScreen.
+  UnitTest: { levelPath: string; unitId: string };
 };
 
 export type AuthStackParamList = {
