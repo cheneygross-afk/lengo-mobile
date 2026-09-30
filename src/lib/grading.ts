@@ -7,7 +7,7 @@
 // and app grade alike.
 // Hermes (the app's JS engine) has no \p{L}, so letters are matched with
 // explicit ranges below.
-import type { FillBlankExercise, TranslateExercise, WordOrderExercise } from "./lessons/types";
+import type { DictationExercise, FillBlankExercise, TranslateExercise, WordOrderExercise } from "./lessons/types";
 import { SPANISH_WORDS } from "./spanishWords";
 
 export type GradeResult = { correct: boolean; note?: string };
@@ -362,6 +362,19 @@ export function gradeTranslate(value: string, exercise: TranslateExercise, speec
   return gradeFreeText(value, [exercise.answer, ...(exercise.altAnswers ?? [])], {
     lang: toEnglish ? "en" : answerLanguageFor(speechLang),
     pronouns: !toEnglish,
+  });
+}
+
+/** The text a dictation expects: its `answer`, or the spoken `audio` itself. */
+export function dictationAnswer(exercise: DictationExercise): string {
+  return exercise.answer ?? exercise.audio;
+}
+
+// Dictation is graded like any typed Spanish answer, but a subject pronoun
+// can't be added or dropped: the learner writes exactly what they heard.
+export function gradeDictation(value: string, exercise: DictationExercise, speechLang: string): GradeResult {
+  return gradeFreeText(value, [dictationAnswer(exercise), ...(exercise.altAnswers ?? [])], {
+    lang: answerLanguageFor(speechLang),
   });
 }
 

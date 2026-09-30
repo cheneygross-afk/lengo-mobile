@@ -237,10 +237,14 @@ export function pickUnitTestQuestions(
     }
     return a;
   };
+  // Speaking and free writing are self-assessed or ungraded, so they
+  // can't test anyone out of a unit.
+  const testable = (e: Exercise) => e.type !== "speak" && e.type !== "write";
   const pools = shuffle(
     lessons
-      .filter((l) => !l.optional && l.exercises.length > 0)
-      .map((l) => ({ lesson: l, exercises: shuffle(l.exercises) }))
+      .filter((l) => !l.optional)
+      .map((l) => ({ lesson: l, exercises: shuffle(l.exercises.filter(testable)) }))
+      .filter((p) => p.exercises.length > 0)
   );
   const picked: UnitTestQuestion[] = [];
   for (let round = 0; picked.length < count; round++) {
