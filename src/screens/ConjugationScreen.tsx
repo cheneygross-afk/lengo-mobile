@@ -1,11 +1,12 @@
-import { useMemo, useRef, useState } from "react";
-import { View, Text, TextInput, Pressable, ScrollView, StyleSheet, Keyboard } from "react-native";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { View, Text, TextInput, Pressable, ScrollView, StyleSheet, Keyboard, InteractionManager } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import TapText from "@/components/TapText";
 import { SPANISH_LANG, speak } from "@/lib/speech";
 import { conjugate, specFor } from "@/lib/conjugation/conjugate";
-import { describeHit, searchVerbs, verbList } from "@/lib/conjugation/lookup";
+import { describeHit, searchVerbs, warmUpLookup } from "@/lib/conjugation/lookup";
+import { VERB_SPECS } from "@/lib/conjugation/verbs";
 import { TENSES, personLabel, personsOf, type Person, type TenseId } from "@/lib/conjugation/types";
 import {
   DRILL_PERSONS,
@@ -36,6 +37,12 @@ const RARE: TenseId[] = ["pant", "sfut", "sfutperf"];
 // tap-to-hear, irregular forms highlighted) and typed drills.
 export default function ConjugationScreen({ route }: Props) {
   const [tab, setTab] = useState<"tables" | "drill">("tables");
+  // Build the verb-form index once the screen has opened, so the first
+  // search doesn't pause.
+  useEffect(() => {
+    const task = InteractionManager.runAfterInteractions(() => warmUpLookup());
+    return () => task.cancel();
+  }, []);
   return (
     <View style={s.flex}>
       <View style={s.tabs}>
@@ -111,7 +118,7 @@ function Tables({ initialVerb }: { initialVerb: string | null }) {
               </Pressable>
             ))}
           </View>
-          <Text style={[s.small, { marginTop: 12 }]}>{verbList().length} verbs, with every irregular and stem-changing pattern.</Text>
+          <Text style={[s.small, { marginTop: 12 }]}>{VERB_SPECS.length} verbs, with every irregular and stem-changing pattern.</Text>
         </View>
       )}
     </ScrollView>

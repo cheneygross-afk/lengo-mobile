@@ -37,7 +37,7 @@ export type GlossaryHit = GlossaryEntry & { formOf?: string };
 const fold = (s: string) =>
   s
     .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
+    .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
     .trim();
 

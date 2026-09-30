@@ -3,9 +3,9 @@
 // any conjugated form ("tuvimos" -> tener, "me levanté" -> levantarse),
 // or by English meaning ("to choose" -> elegir, escoger).
 
-import { conjugate, specFor } from "./conjugate";
+import { conjugate, simpleFormsOf, specFor } from "./conjugate";
 import { foldForSearch } from "./spelling";
-import { TENSES, personsOf, type Person, type TenseId } from "./types";
+import { TENSES, type Person, type TenseId } from "./types";
 import { VERB_SPECS } from "./verbs";
 
 export type VerbListItem = {
@@ -53,29 +53,31 @@ function add(key: string, hit: FormHit) {
 function buildIndex() {
   index = new Map();
   for (const s of VERB_SPECS) {
-    const c = conjugate(s.inf)!;
+    const c = simpleFormsOf(s.inf)!;
     add(s.inf, { infinitive: s.inf, tense: "infinitive", form: s.inf });
     add(c.gerund, { infinitive: s.inf, tense: "gerund", form: c.gerund });
     for (const p of c.participle.split(" / ")) add(p, { infinitive: s.inf, tense: "participle", form: p });
-    for (const t of TENSES) {
-      if (t.compound || t.id === "impNeg") continue;
-      for (const person of personsOf(t.id)) {
-        const f = c.tenses[t.id][person];
+    for (const [t, table] of Object.entries(c.tenses) as [TenseId, Partial<Record<Person, string | null>>][]) {
+      for (const [person, f] of Object.entries(table) as [Person, string | null][]) {
         if (!f) continue;
-        for (const alt of f.split(" / ")) add(alt, { infinitive: s.inf, tense: t.id, person, form: alt });
+        for (const alt of f.split(" / ")) add(alt, { infinitive: s.inf, tense: t, person, form: alt });
       }
     }
-    if (s.prn) {
+    if (c.seGerund && c.seImpAff) {
       // Commands and gerunds with the pronoun attached: levántate, sentándose.
-      const r = conjugate(`${s.inf}se`)!;
-      add(`${s.inf}se`, { infinitive: `${s.inf}se`, tense: "infinitive", form: `${s.inf}se` });
-      add(r.gerund, { infinitive: `${s.inf}se`, tense: "gerund", form: r.gerund });
-      for (const person of personsOf("impAff")) {
-        const f = r.tenses.impAff[person];
-        if (f) for (const alt of f.split(" / ")) add(alt, { infinitive: `${s.inf}se`, tense: "impAff", person, form: alt });
+      const inf = `${s.inf}se`;
+      add(inf, { infinitive: inf, tense: "infinitive", form: inf });
+      add(c.seGerund, { infinitive: inf, tense: "gerund", form: c.seGerund });
+      for (const [person, f] of Object.entries(c.seImpAff) as [Person, string | null][]) {
+        if (f) for (const alt of f.split(" / ")) add(alt, { infinitive: inf, tense: "impAff", person, form: alt });
       }
     }
   }
+}
+
+/** Builds the form index ahead of the first search (it takes a moment on a phone). */
+export function warmUpLookup(): void {
+  if (!index) buildIndex();
 }
 
 const REFLEXIVES = new Set(["me", "te", "se", "nos", "os"]);

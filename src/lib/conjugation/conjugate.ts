@@ -491,3 +491,25 @@ export function conjugate(input: string): (Conjugation & { known: boolean; en: s
 export function formOf(infinitive: string, tense: TenseId, person: Person): string | null {
   return conjugate(infinitive)?.tenses[tense][person] ?? null;
 }
+
+/**
+ * Just the simple forms of a listed verb (no irregularity marks, no
+ * compound tenses), for building the form index quickly. Commands and the
+ * gerund of the pronominal verb are included when `pronominal` is set.
+ */
+export function simpleFormsOf(infinitive: string): {
+  gerund: string;
+  participle: string;
+  tenses: Partial<Record<TenseId, Partial<Record<Person, string | null>>>>;
+  seGerund?: string;
+  seImpAff?: Partial<Record<Person, string | null>>;
+} | null {
+  const spec = specFor(infinitive);
+  if (!spec) return null;
+  const f = spec.from ? derivedSimple(spec) : simpleForms(spec, "full");
+  const tenses = { pres: f.pres, pret: f.pret, impf: f.impf, fut: f.fut, cond: f.cond, spres: f.spres, simpfRa: f.simpfRa, simpfSe: f.simpfSe, sfut: f.sfut, impAff: f.impAff };
+  if (!spec.prn) return { gerund: f.gerund, participle: f.participle, tenses };
+  const seImpAff: Partial<Record<Person, string | null>> = {};
+  for (const p of IMP_PERSONS) seImpAff[p] = eachAlt(f.impAff[p], (x) => pronominalCommand(x, p));
+  return { gerund: f.gerund, participle: f.participle, tenses, seGerund: enclitic(f.gerund, "se"), seImpAff };
+}

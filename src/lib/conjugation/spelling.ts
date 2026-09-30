@@ -29,12 +29,13 @@ export function stripAcute(s: string): string {
 }
 
 /** Accents, ü and ñ dropped, lowercase: the key used for accent-insensitive search. */
+const FOLD: Record<string, string> = { á: "a", é: "e", í: "i", ó: "o", ú: "u", ü: "u", ñ: "n" };
+
 export function foldForSearch(s: string): string {
-  return s
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .toLowerCase()
-    .trim();
+  const lower = s.toLowerCase().trim();
+  // Fast path for the common case; normalize() catches anything else.
+  const quick = lower.replace(/[áéíóúüñ]/g, (c) => FOLD[c]);
+  return /^[a-z ]*$/.test(quick) ? quick : quick.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
 // A nucleus is the vowel (or diphthong/triphthong) at the heart of a
@@ -115,7 +116,7 @@ const DIACRITIC_MONOSYLLABLES = new Set(["dé", "sé"]);
 /** Drops the accent from forms that are monosyllables under the 2010
  * rules: "crió" -> "crio", "guié" -> "guie", "rió" -> "rio", "fié" -> "fie". */
 export function fixMonosyllable(form: string): string {
-  if (DIACRITIC_MONOSYLLABLES.has(form)) return form;
+  if (!/[áéíóú]/.test(form) || DIACRITIC_MONOSYLLABLES.has(form)) return form;
   if (form.includes(" ")) return form;
   if (syllableCount(form) === 1) return stripAcute(form);
   return form;
