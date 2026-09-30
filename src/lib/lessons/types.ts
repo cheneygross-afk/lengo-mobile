@@ -60,13 +60,66 @@ export type MatchingExercise = {
   explanation: string;
 };
 
+// ---- Listening, speaking and writing ----------------------------------
+// These four practise skills the text-only types above can't: hearing
+// Spanish without seeing it, saying it, and writing freely.
+
+// A Spanish word or sentence is played (text hidden until answered); the
+// learner picks its meaning, or the word they heard, from the options.
+export type ListenChooseExercise = {
+  type: "listen-choose";
+  audio: string; // the Spanish that is spoken
+  question: string;
+  options: string[];
+  correctIndex: number;
+  explanation: string;
+};
+
+// A Spanish sentence is played; the learner types what they hear. Graded
+// like any typed Spanish answer (accent slips and small typos pass with
+// a note).
+export type DictationExercise = {
+  type: "dictation";
+  audio: string;
+  answer?: string; // what counts as right; defaults to `audio`
+  altAnswers?: string[];
+  explanation: string;
+};
+
+// Record-and-compare: the learner hears the model, records themselves,
+// plays both back and judges whether they sounded close. The recording
+// never leaves the device. Self-assessed: "close" counts as correct.
+export type SpeakExercise = {
+  type: "speak";
+  text: string; // the Spanish sentence to say
+  tip?: string; // a pronunciation tip
+  explanation: string;
+};
+
+// Free writing. With AI feedback available the text gets corrections, a
+// rubric check and a 1-5 score; otherwise the model answer and rubric are
+// shown as a self-check. Submitting counts as correct either way.
+export type WriteExercise = {
+  type: "write";
+  prompt: string; // the task, in the level's instruction language
+  minWords: number;
+  maxWords: number;
+  rubric: string[]; // what the text should include
+  modelAnswer: string;
+  explanation: string;
+};
+
 export type Exercise =
   | MultipleChoiceExercise
   | MultiSelectExercise
   | FillBlankExercise
   | TranslateExercise
   | WordOrderExercise
-  | MatchingExercise;
+  | MatchingExercise
+  | ListenChooseExercise
+  | DictationExercise
+  | SpeakExercise
+  | WriteExercise;
 
 export type LessonExample = { es: string; en?: string };
 

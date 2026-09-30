@@ -236,7 +236,7 @@ async function clipExists(url: string): Promise<boolean> {
 // timeout rather than an indefinite wait, so a slow or dead connection
 // always falls through to the device voice instead of leaving a tap
 // silent.
-function tryPlayRemote(url: string): Promise<boolean> {
+function tryPlayRemote(url: string, rate = 1): Promise<boolean> {
   return new Promise((resolve) => {
     let settled = false;
     let started = false;
@@ -260,6 +260,8 @@ function tryPlayRemote(url: string): Promise<boolean> {
       }
       if (status.isLoaded && !started) {
         started = true;
+        // Pitch-corrected, so slowed-down speech doesn't sound deeper.
+        if (rate !== 1) player.setPlaybackRate(rate, "high");
         player.play();
         finish(true);
       }
@@ -295,7 +297,7 @@ async function requestGeneration(text: string, lang: SpeechLang, voice: Pronunci
   }
 }
 
-async function speakOnDevice(clean: string, lang: SpeechLang) {
+async function speakOnDevice(clean: string, lang: SpeechLang, rate = 1) {
   const voice = await deviceVoiceFor(lang);
   Speech.stop();
   Speech.speak(clean, {
@@ -304,7 +306,7 @@ async function speakOnDevice(clean: string, lang: SpeechLang) {
     pitch: 1.0,
     // Slightly slower for Japanese -- kana/kanji run together with no
     // spaces, so full native rate reads as a blur for a learner.
-    rate: lang === JAPANESE_LANG ? 0.85 : 1.0,
+    rate: (lang === JAPANESE_LANG ? 0.85 : 1.0) * rate,
   });
 }
 
@@ -314,7 +316,8 @@ async function speakOnDevice(clean: string, lang: SpeechLang) {
 // cloud path fails or isn't offered for this language. Cancels anything
 // already playing/speaking first so rapid taps (flipping through
 // flashcards, tapping several words) don't pile up overlapping audio.
-export function speak(text: string, requestedLang: SpeechLang) {
+// `rate` below 1 slows playback down (dictation's "slow" replay).
+export function speak(text: string, requestedLang: SpeechLang, rate = 1) {
   const clean = stripForSpeech(text);
   if (!clean) return;
 
@@ -332,7 +335,7 @@ export function speak(text: string, requestedLang: SpeechLang) {
     const lang = voiceLang(requestedLang);
 
     if (!hasCloudVoice(lang)) {
-      void speakOnDevice(clean, lang);
+      void speakOnDevice(clean, lang, rate);
       return;
     }
 
@@ -341,13 +344,28 @@ export function speak(text: string, requestedLang: SpeechLang) {
     const cachedUrl = audioUrl(clean, lang, voice);
     const cached = await clipExists(cachedUrl);
     if (run !== readAloudRun) return;
-    if (cached && (await tryPlayRemote(cachedUrl))) return;
+    if (cached && (await tryPlayRemote(cachedUrl, rate))) return;
     const generatedUrl = await requestGeneration(clean, lang, voice);
     if (run !== readAloudRun) return;
-    if (generatedUrl && (await tryPlayRemote(generatedUrl))) return;
+    if (generatedUrl && (await tryPlayRemote(generatedUrl, rate))) return;
     if (run !== readAloudRun) return;
-    void speakOnDevice(clean, lang);
+    void speakOnDevice(clean, lang, rate);
   })();
+}
+
+// iOS only records while the audio session allows it, and while it does,
+// playback goes to the quiet earpiece -- so the speak exercise turns
+// recording on just for the recording and off again straight after.
+export async function setRecordingMode(on: boolean): Promise<void> {
+  try {
+    await setAudioModeAsync(
+      on
+        ? { playsInSilentMode: true, allowsRecording: true, interruptionMode: "doNotMix" }
+        : { playsInSilentMode: true, allowsRecording: false, interruptionMode: "duckOthers" }
+    );
+  } catch {
+    // The recorder reports its own failure; playback keeps its last mode.
+  }
 }
 
 export function stopSpeaking() {

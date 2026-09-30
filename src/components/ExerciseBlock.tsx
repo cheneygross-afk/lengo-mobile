@@ -11,17 +11,29 @@ import {
   seededShuffle,
   splitOnBlank,
 } from "@/lib/grading";
+import { listenFirstAudio } from "@/lib/listenFirst";
+import { Dictation, ListenButtons, ListenChoose, Speak, Write } from "@/components/SkillExercises";
 
 // Mobile port of the web app's ExerciseBlock -- same grading and option
 // shuffling (src/lib/grading.ts, identical in both repos), same "check
 // answer -> show correct/incorrect + explanation" interaction model,
 // rebuilt with RN primitives instead of DOM/Tailwind.
 
-function Feedback({ correct, explanation, lang }: { correct: boolean; explanation: string; lang: SpeechLang }) {
+function Feedback({
+  correct,
+  explanation,
+  lang,
+  title,
+}: {
+  correct: boolean;
+  explanation: string;
+  lang: SpeechLang;
+  title?: string;
+}) {
   return (
     <View style={[fb.box, correct ? fb.boxCorrect : fb.boxWrong]}>
       <TapText
-        text={correct ? "Correct!" : "Not quite."}
+        text={title ?? (correct ? "Correct!" : "Not quite.")}
         lang={lang}
         mode="english"
         style={[fb.title, correct ? fb.titleCorrect : fb.titleWrong]}
@@ -62,6 +74,8 @@ export default function ExerciseBlock({
   onChecked,
   hideIndexLabel = false,
   lang = SPANISH_LANG,
+  level = "A1",
+  listenFirst = false,
 }: {
   exercise: Exercise;
   index: number;
@@ -72,47 +86,96 @@ export default function ExerciseBlock({
   // default to the original inline behavior so StoryReaderScreen, which
   // doesn't pass these, is unaffected.
   showInlineFeedback?: boolean;
-  onChecked?: (correct: boolean, explanation: string) => void;
+  // `title`, when set, replaces "Correct!" / "Not quite." (e.g. "Skipped
+  // -- not graded." for a skipped speaking exercise).
+  onChecked?: (correct: boolean, explanation: string, title?: string) => void;
   hideIndexLabel?: boolean;
   // Target language for pronunciation (flashcards/highlighting already
   // pronounce in this same language elsewhere -- see src/lib/speech.ts).
   // Defaults to Spanish so any caller that hasn't been updated yet still
   // gets correct (if not level-accurate) pronunciation rather than none.
   lang?: SpeechLang;
+  // CEFR level, for "write" feedback ("A1" ... "C2").
+  level?: string;
+  // Listen-first mode (see lib/listenFirst.ts): the Spanish is played
+  // instead of shown until the learner answers or taps "Show text".
+  listenFirst?: boolean;
 }) {
   const [checked, setChecked] = useState(false);
   const [correct, setCorrect] = useState(false);
   const [shownExplanation, setShownExplanation] = useState("");
+  const [feedbackTitle, setFeedbackTitle] = useState<string | undefined>(undefined);
+  const [revealed, setRevealed] = useState(false);
+  const listenAudio = listenFirst ? listenFirstAudio(exercise, lang) : null;
+  const hideText = listenAudio !== null && !checked && !revealed;
+
+  // One step per screen, so the hidden Spanish plays as the question
+  // appears (es-en Translate already plays its source itself).
+  useEffect(() => {
+    if (listenAudio && exercise.type !== "translate") speak(listenAudio, lang);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // `note` is only ever set by FillBlank/Translate's gradeFreeText() --
   // e.g. "correct, but that's a typo" or "correct, but watch the accent"
   // -- and gets folded into the explanation text shown below (both the
   // inline Feedback box and whatever onChecked's caller does with it)
   // rather than needing its own prop threaded through every caller.
-  function report(isCorrect: boolean, note?: string) {
+  function report(isCorrect: boolean, note?: string, title?: string) {
+    setFeedbackTitle(title);
     setCorrect(isCorrect);
     setChecked(true);
     onAnswered?.(isCorrect);
     const baseExplanation = (exercise as { explanation: string }).explanation;
     const explanation = note ? `${note} ${baseExplanation}` : baseExplanation;
     setShownExplanation(explanation);
-    onChecked?.(isCorrect, explanation);
+    onChecked?.(isCorrect, explanation, title);
   }
 
   return (
     <View style={s.container}>
       {!hideIndexLabel && <Text style={s.index}>Question {index + 1}</Text>}
+      {hideText && listenAudio && (
+        <View style={s.listenRow}>
+          <Text style={s.listenLabel}>🎧 Listen first</Text>
+          <ListenButtons text={listenAudio} lang={lang} />
+          <Pressable style={s.linkButton} onPress={() => setRevealed(true)}>
+            <Text style={s.linkButtonText}>Show text</Text>
+          </Pressable>
+        </View>
+      )}
       {exercise.type === "multiple-choice" && (
-        <MultipleChoice exercise={exercise} checked={checked} correct={correct} onSubmit={report} lang={lang} />
+        <MultipleChoice
+          exercise={exercise}
+          checked={checked}
+          correct={correct}
+          onSubmit={report}
+          lang={lang}
+          hidden={hideText}
+        />
       )}
       {exercise.type === "multi-select" && (
         <MultiSelect exercise={exercise} checked={checked} correct={correct} onSubmit={report} lang={lang} />
       )}
       {exercise.type === "fill-blank" && (
-        <FillBlank exercise={exercise} checked={checked} correct={correct} onSubmit={report} lang={lang} />
+        <FillBlank
+          exercise={exercise}
+          checked={checked}
+          correct={correct}
+          onSubmit={report}
+          lang={lang}
+          hidden={hideText}
+        />
       )}
       {exercise.type === "translate" && (
-        <Translate exercise={exercise} checked={checked} correct={correct} onSubmit={report} lang={lang} />
+        <Translate
+          exercise={exercise}
+          checked={checked}
+          correct={correct}
+          onSubmit={report}
+          lang={lang}
+          hidden={hideText}
+        />
       )}
       {exercise.type === "word-order" && (
         <WordOrder exercise={exercise} checked={checked} correct={correct} onSubmit={report} lang={lang} />
@@ -120,7 +183,19 @@ export default function ExerciseBlock({
       {exercise.type === "matching" && (
         <Matching exercise={exercise} checked={checked} correct={correct} onSubmit={report} lang={lang} />
       )}
-      {checked && showInlineFeedback && <Feedback correct={correct} explanation={shownExplanation} lang={lang} />}
+      {exercise.type === "listen-choose" && (
+        <ListenChoose exercise={exercise} lang={lang} checked={checked} submit={report} />
+      )}
+      {exercise.type === "dictation" && (
+        <Dictation exercise={exercise} lang={lang} checked={checked} correct={correct} submit={report} />
+      )}
+      {exercise.type === "speak" && <Speak exercise={exercise} lang={lang} checked={checked} submit={report} />}
+      {exercise.type === "write" && (
+        <Write exercise={exercise} lang={lang} level={level} checked={checked} submit={report} />
+      )}
+      {checked && showInlineFeedback && (
+        <Feedback correct={correct} explanation={shownExplanation} lang={lang} title={feedbackTitle} />
+      )}
     </View>
   );
 }
@@ -131,6 +206,8 @@ type SubProps<E> = {
   correct: boolean;
   onSubmit: (c: boolean, note?: string) => void;
   lang: SpeechLang;
+  // Listen-first mode: the Spanish is hidden (played instead) for now.
+  hidden?: boolean;
 };
 
 function MultipleChoice({
@@ -138,6 +215,7 @@ function MultipleChoice({
   checked,
   onSubmit,
   lang,
+  hidden,
 }: SubProps<Extract<Exercise, { type: "multiple-choice" }>>) {
   const [selected, setSelected] = useState<number | null>(null);
   // Shown shuffled; `order` holds authored indexes, so selection and
@@ -145,7 +223,11 @@ function MultipleChoice({
   const order = useMemo(() => optionOrder(exercise.question, exercise.options), [exercise.question, exercise.options]);
   return (
     <View>
-      <SpeakableText text={exercise.question} lang={lang} style={s.question} />
+      {hidden ? (
+        <Text style={s.question}>Listen and choose.</Text>
+      ) : (
+        <SpeakableText text={exercise.question} lang={lang} style={s.question} />
+      )}
       <View style={s.options}>
         {order.map((i) => {
           const opt = exercise.options[i];
@@ -259,6 +341,7 @@ function FillBlank({
   correct,
   onSubmit,
   lang,
+  hidden,
 }: SubProps<Extract<Exercise, { type: "fill-blank" }>>) {
   const [value, setValue] = useState("");
   const [before, after] = useMemo(() => splitOnBlank(exercise.sentence), [exercise.sentence]);
@@ -278,7 +361,7 @@ function FillBlank({
         <TapText text={exercise.en} lang={lang} mode="english" boldBrackets style={s.blankEnglish} />
       )}
       <View style={s.blankRow}>
-        {checked ? (
+        {hidden ? null : checked ? (
           <Text
             style={[s.blankText, s.speakableSpan]}
             onPress={() => speak(`${before}${exercise.answer}${after}`, lang)}
@@ -299,7 +382,7 @@ function FillBlank({
           style={[s.blankInput, checked && (correct ? s.inputCorrect : s.inputWrong)]}
           placeholder="..."
         />
-        {checked ? (
+        {hidden ? null : checked ? (
           <Text
             style={[s.blankText, s.speakableSpan]}
             onPress={() => speak(`${before}${exercise.answer}${after}`, lang)}
@@ -330,6 +413,7 @@ function Translate({
   correct,
   onSubmit,
   lang,
+  hidden,
 }: SubProps<Extract<Exercise, { type: "translate" }>>) {
   const [value, setValue] = useState("");
   const sourceIsTarget = exercise.direction === "es-en";
@@ -354,7 +438,7 @@ function Translate({
   return (
     <View>
       <SpeakableText text={exercise.prompt} lang={lang} style={s.question} />
-      <View style={s.sourceRow}>
+      <View style={[s.sourceRow, hidden && s.hiddenRow]}>
         {sourceIsTarget ? (
           <Text
             style={[s.sourceText, s.speakableSpan]}
@@ -588,6 +672,9 @@ const s = StyleSheet.create({
     borderColor: "#00000012",
     marginBottom: 12,
   },
+  listenRow: { marginBottom: 10, gap: 4 },
+  listenLabel: { fontSize: 12, color: "#00000080", fontWeight: "600" },
+  hiddenRow: { display: "none" },
   index: { fontSize: 11, color: "#00000066", textTransform: "uppercase", marginBottom: 6 },
   question: { fontSize: 16, fontWeight: "600", color: "#000", marginBottom: 10 },
   sourceText: { fontSize: 15, color: "#000", fontStyle: "italic", flexShrink: 1 },
