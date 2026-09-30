@@ -11831,9 +11831,9 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la oración con el término de la lección.",
-        "sentence": "Presentar como propias las ideas de otro autor es una apropiación ___.",
-        "answer": "indebida",
-        "explanation": "La apropiación indebida (el plagio) es usar ideas o palabras ajenas como si fueran propias."
+        "sentence": "Presentar como propias las ideas de otro autor sin citarlo es un ___.",
+        "answer": "plagio",
+        "explanation": "El plagio es presentar ideas o palabras ajenas como propias. No lo confundas con «apropiación indebida», que en derecho es quedarse con dinero o bienes ajenos que se tenían en depósito."
       },
       {
         "type": "matching",

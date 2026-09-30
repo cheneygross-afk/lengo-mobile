@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "da43ad39e7a164da208c933fa36cd398f7fa6a13",
+  "commit": "7b09accf7d4ce9aed2a2d60ba50b35e7c94aceff",
   "files": {
     "src/lib/lessons/a1-additions.ts": "5e2de5cde5d685adaec5cd4c5c818ed420ecc224d408aeb2bf16fe5ed8321430",
     "src/lib/lessons/a1-reinforcement.ts": "99c5215b4e0e4254204b5202f632cee1a88643c71efb19e8070c26bb05871167",
@@ -21,7 +21,7 @@
     "src/lib/lessons/b2.ts": "99c1fd119e75f5381de9943e128a4db7c6a80ff6924715eb3ecba4f645fc00ff",
     "src/lib/lessons/c1-gaps.ts": "c56d9d1c18e4616b5ead6606df6391fda3a87cbe1590afdc4a6fa52e8f8a32d8",
     "src/lib/lessons/c1-reinforcement.ts": "bc6ac87259bce8b0bac10b9ad12bbd264f6240c30e8b07e327c81ba2cbf9e336",
-    "src/lib/lessons/c1.ts": "a58d65733e74215b3107e92d3feff5606e29e97914730591b45d4fc8934526f7",
+    "src/lib/lessons/c1.ts": "9ceaf1b38bf828728fa54bd31f5ba2c452c3a52854c283f4d2a052952e60fbd2",
     "src/lib/lessons/c1c2-cosas-coloquiales.ts": "5e563dbb7babf6851f8b647f4e7f9a73b6eb3be3b5f9a6a32f6a2db10e15a14e",
     "src/lib/lessons/c2-reinforcement.ts": "adf43c44bf652ad260b648a4173f5ba15bd6558dd7f895d6fad3832f711530be",
     "src/lib/lessons/c2.ts": "8cb3c60daab7e03929d3319f549b8f4794aba221c23e63539a5504d03765bbbc",
