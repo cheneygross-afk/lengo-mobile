@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Copies lesson, story, and reading content from the website repo
+// Copies lesson, story, reading, grammar-guide and placement-test content from the website repo
 // (cheneygross-afk/lengo) into this app, so the two can't drift apart.
 // The website is the single source of truth for course content: edit a
 // lesson there, then run this script (or let the website's "Sync content
@@ -28,13 +28,17 @@ const SOURCE_REPO = "cheneygross-afk/lengo";
 const DIRS = {
   "src/lib/lessons": [
     "ja-alphabet-decks.ts", // platform-specific flashcard seeding; the app has its own port
-    "lessonVideos.ts",
     "migrateC1C2Progress.ts",
     "readingPracticeRanges.ts",
   ],
   "src/lib/stories": [],
   "src/lib/readings": [],
+  "src/lib/grammar": [],
 };
+
+// Single website files mirrored to the same path here (pure data that
+// doesn't live in one of the directories above).
+const FILES = ["src/lib/placementTest.ts"];
 
 const header = (rel) =>
   `// Synced from ${SOURCE_REPO}:${rel} by scripts/sync-content.mjs -- edit it there, not here.\n`;
@@ -55,6 +59,7 @@ function verify() {
     else if (sha256(fs.readFileSync(abs)) !== hash) problems.push(`${rel} was edited by hand`);
   }
   for (const dir of Object.keys(DIRS)) {
+    if (!fs.existsSync(path.join(ROOT, dir))) continue;
     for (const name of fs.readdirSync(path.join(ROOT, dir))) {
       const rel = `${dir}/${name}`;
       const text = fs.readFileSync(path.join(ROOT, rel), "utf8");
@@ -113,6 +118,14 @@ function sync(from, adopt) {
       writes.set(rel, header(rel) + fs.readFileSync(path.join(src, rel), "utf8"));
     }
   }
+  for (const rel of FILES) {
+    const dest = path.join(ROOT, rel);
+    if (!adopt && fs.existsSync(dest) && !(rel in old.files) && !fs.readFileSync(dest, "utf8").startsWith(HEADER_PREFIX)) {
+      console.error(`Refusing to overwrite ${rel}: it exists here but isn't a synced file.`);
+      process.exit(1);
+    }
+    writes.set(rel, header(rel) + fs.readFileSync(path.join(src, rel), "utf8"));
+  }
 
   const willExist = (rel) =>
     writes.has(rel) || (fs.existsSync(path.join(ROOT, rel)) && !(rel in old.files));
@@ -132,6 +145,7 @@ function sync(from, adopt) {
   for (const [rel, text] of writes) {
     const dest = path.join(ROOT, rel);
     if (!fs.existsSync(dest) || fs.readFileSync(dest, "utf8") !== text) {
+      fs.mkdirSync(path.dirname(dest), { recursive: true });
       fs.writeFileSync(dest, text);
       changed++;
       console.log(`updated ${rel}`);
