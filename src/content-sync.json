@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "9eba23a669f07f67d1c645d55b2322a04b3f3ecf",
+  "commit": "a39cb8a323d31e406235496abaefcbea26a1cf8d",
   "files": {
     "src/lib/lessons/a1-additions.ts": "5e2de5cde5d685adaec5cd4c5c818ed420ecc224d408aeb2bf16fe5ed8321430",
     "src/lib/lessons/a1-reinforcement.ts": "99c5215b4e0e4254204b5202f632cee1a88643c71efb19e8070c26bb05871167",
@@ -67,6 +67,15 @@
     "src/lib/grammar/guides.ts": "abb99a1f74a4be0193eb7d588e7d01689b5625dd0707bd9d9f04c6fb976870e4",
     "src/lib/grammar/relatedStories.ts": "88ef8d54eb037ff5a2ee779f5c0af3e14beafb273454acb2daed5b67c7674b00",
     "src/lib/grammar/types.ts": "c38b51941911b34664fc8fc7a1b4b5b83e1c3d647d937e38a87105ab748dec9c",
+    "src/lib/conjugation/conjugate.ts": "531eed662f87cb11528a775264ee9b1fbc18635923af2d33196a36125bfe7c26",
+    "src/lib/conjugation/drill.ts": "6a8ff86e73ebd7d11ae836af9388dc3d78a5e3d83eafc513abe3983ff583f961",
+    "src/lib/conjugation/levelVerbs.ts": "c794040b030bb0d8978c6b2caa736de90c8672909766b932aa00e30603ffd67c",
+    "src/lib/conjugation/lookup.ts": "5b69ea7de8b472efc434639c3aa7e62b7a307660e5613be3caee7b9e69fea108",
+    "src/lib/conjugation/spelling.ts": "767241b410c75a05d5bb10d1d24dcaaafbc432b1e392a12259498bcc027f813f",
+    "src/lib/conjugation/types.ts": "4cf6888c3bb73e10a379a1821e28beb795de95fad3c03ddd5153b0eaf504422a",
+    "src/lib/conjugation/verbs.ts": "95315957a194201bcc7d5efd42a63e4231c86c37a1ed17fd438f15512290603f",
+    "src/lib/glossary/data.ts": "a17e31b1b40cab09c9eeb323408ecc93b046b550ba695ad3dff3d7ce5468f2c6",
+    "src/lib/glossary/search.ts": "5bddf64938a6930814d3b0f5c6390841c459554b080be40b1f61be56a82e4749",
     "src/lib/placementTest.ts": "8e67bf609a107457deeb4cc4ad25c2e6e1ab567bb665d9b57a3d74e23bfeb449"
   }
 }

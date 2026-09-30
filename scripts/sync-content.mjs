@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Copies lesson, story, reading, grammar-guide and placement-test content from the website repo
+// Copies lesson, story, reading, grammar-guide, placement-test, conjugation and glossary content from the website repo
 // (cheneygross-afk/lengo) into this app, so the two can't drift apart.
 // The website is the single source of truth for course content: edit a
 // lesson there, then run this script (or let the website's "Sync content
@@ -34,6 +34,10 @@ const DIRS = {
   "src/lib/stories": [],
   "src/lib/readings": [],
   "src/lib/grammar": [],
+  // Conjugation engine and verb list, and the course glossary (pure code
+  // and generated data, no web imports).
+  "src/lib/conjugation": [],
+  "src/lib/glossary": [],
 };
 
 // Single website files mirrored to the same path here (pure data that
