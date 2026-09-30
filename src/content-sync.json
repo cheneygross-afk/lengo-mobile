@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "096e0673292ac292e044c170d22433f4fc595036",
+  "commit": "3023d736b6a64c108ad90bbb1c24eeda3b27d83f",
   "files": {
     "src/lib/lessons/a1-additions.ts": "02feed2dba6b78a088fdc41462cfcdfe17c73012715c0a51dce5ea0e8b947f70",
     "src/lib/lessons/a1-reinforcement.ts": "7ed26b613bc9c34a737c5f52c6ceeb989b1b7c68b91fb67a1f2c1e0dbb03991f",
@@ -34,10 +34,11 @@
     "src/lib/lessons/ja-b2.ts": "738c0ae471e6dedd6b378ef24cd0678f6e328fe2ced5b1053c71650829611b39",
     "src/lib/lessons/ja-c1.ts": "ab3d887ba48be54dd744c975580165d9227880b2e0fd2c5434c5b102eee0f830",
     "src/lib/lessons/ja-c2.ts": "9488818886da246527e78a4c93cdc236613b283291e805c44797147c2f07095f",
-    "src/lib/lessons/levels.ts": "b71e6b0dddbc609227cbf039f3eda371188f4c6aabc43fd5d8ef8cd376a28d23",
+    "src/lib/lessons/levels.ts": "bf7fbf7b912cf966074d15eba2f92f9289844c1033cc30c53a7be818dfddad39",
     "src/lib/lessons/sequencing.ts": "22e46a1f099725a6035b19f812010d230c0a8f7b71ca16e41e27ef147f0ff77f",
     "src/lib/lessons/translate-blanks.ts": "7ecde5bc67651fab36ec1cd58fcf9a83dd2f2a2fe87e0e6d5e1436e8e25fa96f",
     "src/lib/lessons/types.ts": "053ada798b702d6e3eb27cc864864d7a4dfa8ec3ee167ecab66a8ed432e88cca",
+    "src/lib/lessons/units.ts": "d04e3030ade62d06747974b1890f38c78f58b9fd96c280b6832e2fa40358e389",
     "src/lib/lessons/weave.ts": "a738a84238c05e6d4d427d1afbef7ecbb3f683bc647d5d94def70e58546d3824",
     "src/lib/stories/a1-glosses.ts": "48d0c939724a362726361cde2d0cfd05c4db793e2757f602bbc49b2139e76273",
     "src/lib/stories/a1.ts": "8c3cc4a1a39e6f4a3ce988588e7982d05b51c8d5f6a66b126920e63cde86dadc",
