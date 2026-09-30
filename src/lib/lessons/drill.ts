@@ -52,7 +52,10 @@ export function buildReviewQuestions(
   lesson: Lesson,
   trackLessons: Lesson[],
   dueMissed: MissedQuestion[],
-  need: number
+  need: number,
+  // Questions this learner shouldn't be asked (a Latin America learner's
+  // vosotros-only questions, see vosotros.ts).
+  skip: (exercise: Exercise) => boolean = () => false
 ): ReviewQuestion[] {
   if (need <= 0) return [];
   const out: ReviewQuestion[] = [];
@@ -60,7 +63,7 @@ export function buildReviewQuestions(
 
   for (const q of dueMissed) {
     if (out.length >= need) break;
-    if (q.lessonSlug === lesson.slug || used.has(q.id)) continue;
+    if (q.lessonSlug === lesson.slug || used.has(q.id) || skip(q.exercise)) continue;
     used.add(q.id);
     out.push({
       exercise: q.exercise,
@@ -84,7 +87,7 @@ export function buildReviewQuestions(
   );
   for (const c of seededShuffle(candidates, lesson.slug)) {
     if (out.length >= need) break;
-    if (used.has(c.id)) continue;
+    if (used.has(c.id) || skip(c.exercise)) continue;
     used.add(c.id);
     out.push(c);
   }
