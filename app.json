@@ -32,7 +32,12 @@
     },
     "plugins": [
       "expo-font",
-      "expo-audio"
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Allow $(PRODUCT_NAME) to use your microphone so you can record yourself speaking Spanish and compare it with the model. Recordings stay on your device."
+        }
+      ]
     ],
     "splash": {
       "image": "./assets/splash-icon.png",
