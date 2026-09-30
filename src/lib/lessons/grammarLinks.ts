@@ -106,6 +106,7 @@ export const GUIDE_LESSON_LINKS: GuideLessonLink[] = [
   {
     guide: "spanish-commands",
     lessons: [
+      ...at("a2", "a2g-tu-commands-regular", "a2g-tu-commands-irregular"),
       ...at("b1", "commands-imperative-1", "commands-imperative-2"),
     ],
     practice: { b1: /commands|imperativo|mandatos/ },
@@ -178,7 +179,7 @@ export const GUIDE_LESSON_LINKS: GuideLessonLink[] = [
   },
   {
     guide: "spanish-accent-marks",
-    lessons: at("a2", "a2r-error-hunt-preterite-spelling", "mente-adverbs-1"),
+    lessons: at("a2", "a2g-spelling-stress-rules", "a2g-accent-pairs", "a2r-error-hunt-preterite-spelling", "mente-adverbs-1"),
   },
   {
     guide: "spanish-preterite-tense",
@@ -250,7 +251,7 @@ export const GUIDE_LESSON_LINKS: GuideLessonLink[] = [
   },
   {
     guide: "passive-and-impersonal-se",
-    lessons: at("b1", "passive-voice-se-1", "passive-voice-se-2"),
+    lessons: at("b1", "passive-voice-se-1", "passive-voice-se-2", "b1g-accidental-se"),
     practice: {
       b1: /passive|pasivo|se-vende|anuncios|letreros|signs|newspaper|rep-se-|ronda-rapida-se|receta-se|se-negocios|se-ciudad|se-final|se-possessives|ser-a-se/,
     },
@@ -262,12 +263,18 @@ export const GUIDE_LESSON_LINKS: GuideLessonLink[] = [
   },
   {
     guide: "spanish-verb-periphrases",
-    lessons: at("c1", "c1r-extra-periphrasis-aspect", "c1r-contrast-progressive-periphrases", "c1r-contrast-seguir-dejar"),
+    lessons: [
+      ...at("b1", "b1g-periphrases-infinitive", "b1g-periphrases-gerund"),
+      ...at("c1", "c1r-extra-periphrasis-aspect", "c1r-contrast-progressive-periphrases", "c1r-contrast-seguir-dejar"),
+    ],
   },
   // B2
   {
     guide: "subjunctive-adjective-clauses",
-    lessons: at("b2", "subjunctive-adjective-clauses-1", "subjunctive-adjective-clauses-2"),
+    lessons: [
+      ...at("b1", "b1g-subjunctive-relative-clauses"),
+      ...at("b2", "subjunctive-adjective-clauses-1", "subjunctive-adjective-clauses-2"),
+    ],
     practice: {
       b2: /adjective-clauses|relativa|relative-subjunctive|busco|busque|buscaba|no-hay-nadie|cualquiera|hay-alguien|antecedent|wanted-ads|pareja-ideal|ideal-partner/,
     },
@@ -349,7 +356,10 @@ export const GUIDE_LESSON_LINKS: GuideLessonLink[] = [
   },
   {
     guide: "future-and-conditional-of-probability",
-    lessons: at("c1", "future-conditional-conjecture-1", "future-conditional-conjecture-2"),
+    lessons: [
+      ...at("b1", "b1g-probability-future-conditional", "b1g-future-perfect"),
+      ...at("c1", "future-conditional-conjecture-1", "future-conditional-conjecture-2"),
+    ],
     practice: { c1: /conjecture|probability/ },
   },
   {
@@ -368,13 +378,12 @@ export const GUIDE_LESSON_LINKS: GuideLessonLink[] = [
   },
   {
     guide: "voseo",
-    lessons: at("c1", "voseo-part-1-1", "voseo-part-2-1"),
+    lessons: [...at("a2", "a2g-vos-vosotros"), ...at("c1", "voseo-part-1-1", "voseo-part-2-1")],
     practice: { c1: /voseo/ },
   },
   {
     guide: "leismo-laismo-loismo",
-    // No lesson is about leísmo itself; these teach the lo/la/le system it varies.
-    lessons: at("a2", "direct-object-pronouns-1", "direct-object-pronouns-2", "indirect-object-pronouns-1"),
+    lessons: at("c1", "c1g-leismo", "c1g-laismo-loismo"),
   },
   {
     guide: "nominalization",
@@ -384,8 +393,8 @@ export const GUIDE_LESSON_LINKS: GuideLessonLink[] = [
   // C2
   {
     guide: "diminutives-and-augmentatives",
-    lessons: at("c2", "diminutives-augmentatives-1", "diminutives-augmentatives-2"),
-    practice: { c2: /diminutive/ },
+    lessons: [...at("a2", "a2g-diminutives"), ...at("c2", "diminutives-augmentatives-1", "diminutives-augmentatives-2")],
+    practice: { c2: /diminutive|augmentative/ },
   },
   {
     guide: "future-subjunctive",
