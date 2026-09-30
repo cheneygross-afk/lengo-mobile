@@ -4644,89 +4644,110 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "historical-narrative-1",
     "c2r-history-preterite-imperfect",
-    "Transformaciones: indefinido e imperfecto en el relato histórico",
-    "Reescribe una cronología plana distribuyendo acciones (indefinido) y marco (imperfecto).",
-    "7 min",
+    "Contraste: un mismo hecho en cuatro géneros",
+    "La muerte de un rey contada en una cronología, un manual, una crónica periodística y una novela: qué tiempo verbal elige cada género y por qué.",
+    "8 min",
     [
       sec(
-        "Primer plano y fondo",
-        "Indefinido: hechos que hacen avanzar el relato («En 1808 las tropas francesas entraron en Madrid»). Imperfecto: contexto, situaciones, causas de fondo («El país atravesaba una grave crisis; la monarquía carecía de apoyos»). Imperfecto narrativo (estilo periodístico e historiográfico): «Dos días después, el rey abdicaba en su hijo» — da dramatismo a un hecho puntual.",
+        "Cada género, su tiempo",
         [
-          ["La población vivía en la miseria cuando estalló la revuelta.", "The population lived in poverty when the revolt broke out."],
-          ["Meses después, el general moría en el exilio.", "Months later, the general died in exile. (narrative imperfect)"],
+          "Cronología: presente de cronología («1598: muere Felipe II en El Escorial»). Manual o ensayo: indefinido neutro («Felipe II murió en El Escorial en 1598»). Crónica o divulgación con intención dramática: imperfecto narrativo («El 13 de septiembre de 1598 moría en El Escorial Felipe II») o presente histórico («…muere Felipe II»). Novela histórica: indefinido e imperfecto de fondo, a menudo con estilo indirecto libre («El rey miraba el altar desde su lecho. Ya no vería otro verano»).",
+          "El hecho es el mismo; cambia la distancia entre el narrador y el lector. Elegir el tiempo según el género es una destreza de nivel C2.",
+        ],
+        [
+          ["1598: muere Felipe II en El Escorial.", "1598: Philip II dies at El Escorial."],
+          ["El 13 de septiembre de 1598 moría en El Escorial Felipe II.", "On 13 September 1598 Philip II died at El Escorial."],
+          ["El rey miraba el altar desde su lecho. Ya no vería otro verano.", "The king gazed at the altar from his bed. He would not see another summer."],
         ],
         [
           mc(
-            "«En 1492 Colón ___ a América.» (hecho puntual)",
-            ["llegó", "llegaba siempre", "había llegado ya", "llegaría antes"],
+            "¿Qué versión es propia de un manual universitario?",
+            ["Felipe II murió en El Escorial en 1598.", "1598: muere Felipe II.", "El rey miraba el altar desde su lecho. Ya no vería otro verano.", "¡Y aquel 13 de septiembre moría el rey!"],
             0,
-            "Un hecho puntual que hace avanzar el relato va en indefinido: llegó. «Llegaba siempre» indica costumbre, «había llegado ya» anterioridad y «llegaría antes» posterioridad, y ninguna encaja con una fecha concreta."
+            "El manual prefiere el indefinido neutro. El presente de cronología es propio de tablas, el estilo indirecto libre de la novela y la exclamación con imperfecto narrativo de una crónica dramatizada.",
           ),
         ]
       ),
     ],
     [
-      fb("Marco.", "El imperio ___ una crisis económica profunda. (atravesar)", "atravesaba", "El imperfecto (atravesaba) describe el marco o contexto de un relato histórico."),
-      fb("Hecho.", "En 1810 ___ la revolución de Mayo. (estallar)", "estalló", "El indefinido (estalló) narra un hecho puntual que hace avanzar la historia."),
-      fb("Marco + hecho.", "Mientras la corte ___ en Aranjuez, estalló el motín. (residir)", "residía", "El imperfecto (residía) describe el fondo sobre el que ocurre el hecho puntual (estalló)."),
+      mt(
+        "Relaciona cada versión con su género.",
+        [
+          ["1598: muere Felipe II.", "cronología"],
+          ["Felipe II murió en 1598.", "manual"],
+          ["Aquel 13 de septiembre moría el rey.", "crónica divulgativa"],
+          ["Ya no vería otro verano.", "novela"],
+        ],
+        "El tiempo verbal señala la distancia del narrador respecto al hecho.",
+      ),
+      { ...fb("Reescribe la frase del manual como entrada de cronología.", "Felipe II murió en 1598. → 1598: ___ Felipe II.", "muere", "La cronología usa el presente, casi nominal, para enunciar hechos fechados."), en: "1598: Philip II [dies]." },
+      { ...fb("Reescribe con imperfecto narrativo para una crónica.", "El 13 de septiembre de 1598 ___ en El Escorial Felipe II. (morir)", "moría", "Imperfecto narrativo: un hecho puntual con fecha, contado en imperfecto para situar al lector en el momento."), en: "On 13 September 1598 Philip II [died] at El Escorial.", altAnswers: ["murió", "muere"] },
       mc(
-        "«Tres días después, el presidente dimitía.» Este imperfecto…",
-        ["es un imperfecto narrativo que dramatiza un hecho puntual", "indica costumbre", "es un error", "expresa cortesía"],
+        "«El rey miraba el altar desde su lecho. Ya no vería otro verano.» ¿Qué expresa «vería»?",
+        ["el pensamiento del personaje en estilo indirecto libre", "una hipótesis irreal", "una cortesía", "una acción habitual"],
         0,
-        "Es un imperfecto narrativo: dramatiza un hecho puntual, típico del estilo historiográfico y periodístico. No indica costumbre, no es un error y no expresa cortesía."
+        "El condicional recoge, sin verbo introductor, lo que piensa el rey (o lo que el narrador sabe que le espera): estilo indirecto libre y futuro del pasado. No es una condición irreal, ni cortesía, ni hábito.",
       ),
-      ms(
-        "¿Qué verbos son de marco (fondo)?",
-        ["La ciudad contaba con 50.000 habitantes.", "Reinaba un clima de desconfianza.", "El ejército cruzó la frontera.", "La nobleza temía perder sus privilegios."],
-        [0, 1, 3],
-        "«Contaba con», «Reinaba» y «temía» describen situaciones de fondo en imperfecto. «Cruzó» es un hecho puntual en indefinido que hace avanzar la acción."
+      mc(
+        "¿En qué género resultaría extraño el presente histórico?",
+        ["en un acta notarial que da fe de hechos pasados", "en un documental", "en una biografía divulgativa", "en una cronología escolar"],
+        0,
+        "El acta notarial exige precisión temporal y usa el pasado (o fórmulas fijas). El presente histórico es natural en documentales, biografías y cronologías.",
       ),
-      toEs("The country was going through a crisis when the war broke out.", "El país atravesaba una crisis cuando estalló la guerra.", "Marco en imperfecto (atravesaba, vivía) + hecho puntual en indefinido (estalló).", ["El país vivía una crisis cuando estalló la guerra.", "El país atravesaba una crisis cuando comenzó la guerra."]),
-      wo("La monarquía carecía de apoyos cuando estalló la revolución.", "Imperfecto + indefinido.", "The monarchy lacked support when the revolution broke out."),
+      toEs("On 20 July 1969 two astronauts set foot on the Moon. (narrative imperfect)", "El 20 de julio de 1969 dos astronautas pisaban la Luna.", "Imperfecto narrativo con fecha precisa. También es correcto el indefinido «pisaron», más neutro.", ["El 20 de julio de 1969 dos astronautas pisaron la Luna.", "El 20 de julio de 1969, dos astronautas pisaban la Luna.", "El 20 de julio de 1969, dos astronautas pisaron la Luna."]),
+      wo("En 1492 los Reyes Católicos entraban en Granada.", "Imperfecto narrativo con fecha, típico de la divulgación histórica.", "In 1492 the Catholic Monarchs entered Granada."),
     ]
   ),
   L(
     "historical-narrative-2",
     "c2r-history-error-hunt-tenses",
-    "Caza de errores: tiempos cruzados en un relato histórico",
-    "Un párrafo sobre la independencia de México con tiempos mal elegidos: localiza y corrige cada uno.",
-    "7 min",
+    "Caza de errores: tiempos y registro en un texto historiográfico",
+    "Un párrafo de un trabajo universitario con errores de C2: pretérito anterior mal usado, presente histórico incoherente, condicional de rumor y «efeméride» mal empleada.",
+    "8 min",
     [
       sec(
-        "Errores típicos",
-        "Usar imperfecto para una acción puntual que avanza el relato: ✗ «El 16 de septiembre de 1810, Hidalgo lanzaba el Grito de Dolores» (válido solo como imperfecto narrativo, con intención estilística). Usar indefinido para una situación de fondo: ✗ «La sociedad novohispana estuvo dividida en castas» → mejor «estaba dividida» si es marco. Perder el pluscuamperfecto para lo anterior.",
+        "Errores típicos de nivel avanzado",
         [
-          ["La sociedad novohispana estaba dividida en castas.", "New Spain's society was divided into castes."],
-          ["Hidalgo, que había estudiado teología, lanzó el Grito.", "Hidalgo, who had studied theology, issued the Cry."],
+          "1) Pretérito anterior sin conector de inmediatez: ✗ «Cuando hubo vuelto, el país estaba cambiado» (con «cuando» y sin inmediatez, lo natural es «había vuelto» o «volvió»). 2) Presente histórico que se rompe: ✗ «En 1812 se aprueba la Constitución y dos años después el rey la anuló» (→ «la anulará» o, en pasado todo el hilo, «se aprobó… la anuló»). 3) Condicional de rumor en un texto académico: ✗ «Según el cronista, el virrey habría ordenado la ejecución» (→ «ordenó», «al parecer ordenó» o «podría haber ordenado»).",
+          "4) «Efeméride» por «acontecimiento efímero» y 5) «el que fuese presidente» con valor de pasado (solo vale la forma en -ra: «el que fuera presidente»).",
+        ],
+        [
+          ["Cuando volvió del exilio, el país estaba cambiado.", "When he returned from exile, the country had changed."],
+          ["En 1812 se aprueba la Constitución y dos años después el rey la anulará.", "In 1812 the Constitution is passed, and two years later the king will annul it."],
         ],
         [
           mc(
-            "Corrige: «Cuando Hidalgo lanzó el Grito, ya conspiró durante meses.»",
-            ["conspiró → llevaba meses conspirando / había conspirado", "lanzó → lanzaba", "Cuando → Mientras", "No hay error"],
+            "Corrige para un artículo académico: «Según el cronista, el virrey habría ordenado la ejecución».",
+            ["Según el cronista, el virrey ordenó la ejecución.", "Según el cronista, el virrey ordenaría la ejecución.", "Según el cronista, el virrey hubo ordenado la ejecución.", "No hay error."],
             0,
-            "Conspirar es anterior al Grito, así que exige pluscuamperfecto (había conspirado) o «llevaba meses conspirando». Cambiar «lanzó» por «lanzaba» o «Cuando» por «Mientras» no arregla la anterioridad, y la frase sí tiene error."
+            "En un texto académico se evita el condicional de rumor: se atribuye con «según» y se usa el indicativo (o «podría haber ordenado» si se quiere marcar duda). «Ordenaría» es otro condicional de rumor y «hubo ordenado» es un pretérito anterior sin conector de inmediatez.",
           ),
         ]
       ),
     ],
     [
-      fb("Corrige.", "Los criollos ___ excluidos de los altos cargos. (el alumno puso: fueron; es un marco)", "estaban", "Situación de fondo → imperfecto: estaban (o eran) excluidos. «Fueron excluidos» presentaría la exclusión como un acto puntual y cerrado, no como la situación estable de la época."),
-      fb("Corrige.", "En 1821 México ___ su independencia. (el alumno puso: conseguía; hecho sin intención estilística)", "consiguió", "Un hecho puntual sin intención estilística va en indefinido: consiguió, no «conseguía»."),
-      fb("Corrige.", "Cuando llegó la noticia, el virrey ya ___ huido. (el alumno puso: huyó)", "había", "Una acción anterior a otra pasada va en pluscuamperfecto: había huido, no «huyó»."),
       mc(
-        "«La guerra duró once años.» ¿Por qué indefinido aunque sea largo?",
-        ["porque se presenta como un periodo cerrado y delimitado", "porque es un error", "porque es una costumbre", "porque es futuro"],
+        "Corrige: «Cuando hubo vuelto del exilio, el país estaba irreconocible».",
+        ["Cuando volvió del exilio, el país estaba irreconocible.", "Cuando haya vuelto del exilio, el país estaba irreconocible.", "Cuando volvía del exilio, el país estuvo irreconocible.", "No hay error."],
         0,
-        "El indefinido presenta el periodo como cerrado y delimitado, aunque dure once años. No es un error, no expresa costumbre (eso sería imperfecto) y no tiene nada de futuro."
+        "Con «cuando» y sin idea de inmediatez, el pretérito anterior resulta forzado: basta el indefinido. «Haya vuelto» es subjuntivo de futuro, y la tercera opción invierte las funciones de fondo y acción.",
       ),
+      { ...fb("Mantén la coherencia del presente histórico.", "En 1812 se aprueba la Constitución y dos años después el rey la ___. (anular)", "anulará", "Con eje en presente histórico, lo posterior va en futuro: «la anulará». Si todo el hilo va en pasado: «se aprobó… la anuló»."), en: "In 1812 the Constitution is passed and two years later the king [will annul] it." },
       mc(
-        "¿Qué frase está bien?",
-        ["Durante la colonia, el comercio estaba controlado por la Corona.", "Durante la colonia, el comercio estuvo controlando siempre la Corona.", "Durante la colonia, el comercio controló a la Corona siempre.", "Durante la colonia, el comercio había estado controlaba."],
+        "¿Qué frase usa bien «efeméride»?",
+        ["El 12 de octubre es una efeméride que se conmemora en varios países.", "Su gobierno fue una efeméride: duró tres meses.", "Aquel éxito efeméride se olvidó pronto.", "La efeméride del ministro fue breve."],
         0,
-        "El marco o la situación estable de una época va en imperfecto: «estaba controlado por la Corona». Las demás mezclan perífrasis mal construidas, invierten el sentido (el comercio controló a la Corona) o son agramaticales."
+        "«Efeméride» es el acontecimiento que se recuerda en su aniversario. No significa «efímero»: las otras frases lo usan con ese sentido erróneo.",
       ),
-      toEs("The war lasted eleven years.", "La guerra duró once años.", "El indefinido (duró, se prolongó) presenta un periodo cerrado, aunque sea largo.", ["La guerra se prolongó durante once años."]),
-      wo("Hidalgo, que había estudiado teología, encabezó la rebelión.", "Pluscuamperfecto en relativa.", "Hidalgo, who had studied theology, led the rebellion."),
+      { ...fb("Corrige la forma verbal para el valor de pasado.", "Murió en el palacio que ___ residencia de los virreyes. (ser, valor de «había sido»)", "fuera", "Solo la forma en -ra conserva el valor de pluscuamperfecto de indicativo en el registro culto: «que fuera residencia». «Fuese» no tiene este valor."), en: "He died in the palace that [had been] the viceroys' residence.", altAnswers: ["había sido", "fue"] },
+      ms(
+        "¿Qué frases son correctas en un texto académico?",
+        ["Apenas hubo firmado el tratado, el rey partió hacia Lisboa.", "Según las actas, el concejo votó en contra.", "El general habría huido, según fuentes no confirmadas.", "En 1605 se publica el Quijote y en 1615 se publicará la segunda parte.", "En 1605 se publica el Quijote y en 1615 se publicaba la segunda parte."],
+        [0, 1, 3],
+        "El pretérito anterior tras «apenas» es correcto (aunque literario), la atribución con «según» es precisa y el presente histórico con futuro es coherente. El condicional de rumor se evita en textos cuidados, y la última frase rompe el eje con un imperfecto.",
+      ),
+      toEs("Once he had returned from exile, he founded a newspaper. (modern style)", "Nada más volver del exilio, fundó un periódico.", "«Nada más + infinitivo» o «en cuanto volvió» sustituyen hoy al pretérito anterior («Apenas hubo vuelto…»).", ["En cuanto volvió del exilio, fundó un periódico.", "Tras volver del exilio, fundó un periódico.", "Una vez que volvió del exilio, fundó un periódico.", "Nada más regresar del exilio, fundó un periódico."]),
+      wo("Según las actas el concejo votó en contra de la reforma.", "Atribución precisa sin condicional de rumor.", "According to the minutes, the council voted against the reform."),
     ]
   ),
   L(
@@ -6394,233 +6415,271 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "modismos-expresiones-idiomaticas-drill-3",
     "c2r-extra-idioms-situations",
-    "Práctica extra: el modismo justo para cada situación",
-    "Ocho situaciones cotidianas: elige el modismo que usaría un nativo.",
-    "7 min",
+    "Práctica extra: el modismo justo y su matiz",
+    "Situaciones en las que dos modismos parecidos no son intercambiables: elige el que dice exactamente lo que quieres decir.",
+    "8 min",
     [
       sec(
-        "De la situación al modismo",
-        "Alguien se equivoca en público → meter la pata. Alguien dice lo que piensa sin filtros → no tener pelos en la lengua. Algo es facilísimo → ser pan comido. Algo es carísimo → costar un ojo de la cara. Estás harto → estar hasta las narices (España). Alguien exagera un problema pequeño → ahogarse en un vaso de agua.",
+        "Parecidos, pero no iguales",
         [
-          ["No te ahogues en un vaso de agua: tiene solución.", "Don't make a mountain out of a molehill: it can be fixed."],
+          "«Dar gato por liebre» es engañar dando algo de menor calidad; «tomar el pelo» es burlarse o engañar en broma. «Hacer de tripas corazón» es sobreponerse al miedo o al asco para hacer algo; «hacer de la necesidad virtud» es aceptar de buen grado lo que no queda más remedio que aceptar. «Meterse en camisa de once varas» es entrometerse en lo que no le incumbe a uno o complicarse sin necesidad; «meterse en un berenjenal» es meterse en un lío difícil de resolver.",
+          "«Poner los puntos sobre las íes» es precisar algo con claridad para evitar malentendidos; «cantarlas claras» es decir verdades incómodas sin rodeos. Todas son panhispánicas.",
+        ],
+        [
+          ["Nos dieron gato por liebre: el «jamón ibérico» era de cebo.", "They sold us a pup: the 'Iberian ham' was the cheapest grade."],
+          ["Hice de tripas corazón y entré a ver al jefe.", "I plucked up my courage and went in to see the boss."],
+          ["No te metas en camisa de once varas: eso es asunto de ellos.", "Don't stick your nose in: that's their business."],
         ],
         [
           mc(
-            "Tu amigo se agobia porque ha perdido un bolígrafo barato:",
-            ["Te estás ahogando en un vaso de agua.", "Eso es pan comido.", "No tienes pelos en la lengua.", "Te ha costado un riñón."],
+            "Te venden como «seda natural» una corbata de poliéster. ¿Qué modismo describe mejor lo ocurrido?",
+            ["Me dieron gato por liebre.", "Me tomaron el pelo.", "Me metí en un berenjenal.", "Hice de tripas corazón."],
             0,
-            "«Ahogarse en un vaso de agua» es agobiarse por un problema menor. «Pan comido» es algo fácil, «no tener pelos en la lengua» es hablar claro y «costar un riñón» es ser muy caro."
+            "«Dar gato por liebre» es exactamente engañar haciendo pasar algo inferior por algo mejor. «Tomar el pelo» es más general y suele ser en broma; «meterse en un berenjenal» es meterse en un lío, y «hacer de tripas corazón» es sobreponerse a una repugnancia o un miedo.",
           ),
         ]
       ),
     ],
     [
       mc(
-        "Tu compañera le dice al director exactamente lo que piensa:",
-        ["No tiene pelos en la lengua.", "Está en la luna.", "Se ahoga en un vaso de agua.", "Tira la toalla."],
+        "Te ofrecen un puesto peor pagado, pero cerca de casa, y lo aceptas con buena cara porque no hay otro. ¿Qué haces?",
+        ["Hago de la necesidad virtud.", "Hago de tripas corazón.", "Me meto en camisa de once varas.", "Pongo los puntos sobre las íes."],
         0,
-        "«No tener pelos en la lengua» es decir lo que se piensa con franqueza. «Estar en la luna» es estar distraído, «ahogarse en un vaso de agua» es agobiarse por poco y «tirar la toalla» es rendirse."
+        "«Hacer de la necesidad virtud» = aceptar de buen grado lo inevitable. «Hacer de tripas corazón» implica vencer miedo o repugnancia; «meterse en camisa de once varas», entrometerse; «poner los puntos sobre las íes», aclarar algo con precisión.",
       ),
       mc(
-        "Estás distraído y no oyes la pregunta:",
-        ["Perdona, estaba en las nubes.", "Perdona, estaba hasta las narices.", "Perdona, me costó un riñón.", "Perdona, era pan comido."],
+        "Antes de firmar, la abogada quiere dejar claro qué cubre exactamente la garantía. ¿Qué expresión encaja?",
+        ["Quiere poner los puntos sobre las íes.", "Quiere cantarlas claras.", "Quiere dar gato por liebre.", "Quiere meterse en un berenjenal."],
         0,
-        "«Estar en las nubes» es estar distraído. «Estar hasta las narices» es estar harto, «costar un riñón» es ser muy caro y «ser pan comido» es ser fácil."
+        "«Poner los puntos sobre las íes» = precisar para evitar malentendidos. «Cantarlas claras» implica decir verdades incómodas o reproches, no aclarar términos; las otras dos significan engañar y meterse en un lío.",
       ),
-      fb("Completa.", "Llevo tres horas esperando; estoy hasta las ___.", "narices", "«Estar hasta las narices» es estar harto (coloquial)."),
-      fb("Completa.", "No te ahogues en un vaso de ___.", "agua", "«Ahogarse en un vaso de agua» es agobiarse por un problema pequeño."),
-      fb("Completa.", "Contó el secreto sin querer: metió la ___.", "pata", "«Meter la pata» es equivocarse o decir algo inoportuno (coloquial)."),
-      mc(
-        "«Tirar la casa por la ventana» significa…",
-        ["gastar mucho dinero en una celebración", "mudarse", "limpiar a fondo", "enfadarse"],
-        0,
-        "«Tirar la casa por la ventana» es derrochar dinero en una celebración. No tiene que ver con mudarse, limpiar a fondo o enfadarse."
+      { ...fb("Completa el modismo.", "Hizo de tripas ___ y le dijo la verdad a su socio.", "corazón", "«Hacer de tripas corazón» = sobreponerse al miedo, al asco o a la pena para hacer algo difícil."), en: "He [plucked up his courage] and told his partner the truth." },
+      { ...fb("Completa el modismo.", "No te metas en camisa de once ___.", "varas", "«Meterse en camisa de once varas» = entrometerse en lo que no le toca a uno o complicarse sin necesidad. La vara era una medida de longitud: una camisa de once varas es desmesurada."), en: "Don't [stick your nose in where it doesn't belong]." },
+      ms(
+        "¿Qué modismos implican algún tipo de engaño?",
+        ["dar gato por liebre", "tomar el pelo", "dar el pego (España)", "hacer de tripas corazón", "hacer de la necesidad virtud"],
+        [0, 1, 2],
+        "«Dar gato por liebre», «tomar el pelo» y «dar el pego» (España: parecer auténtico siendo falso) implican engaño. «Hacer de tripas corazón» y «hacer de la necesidad virtud» hablan de sobreponerse y de aceptar, no de engañar.",
       ),
-      wo("Para la boda de su hija tiraron la casa por la ventana.", "Modismo de derroche.", "They spared no expense for their daughter's wedding."),
+      toEs("With that project he got himself into a real mess.", "Con ese proyecto se metió en un buen berenjenal.", "«Meterse en un berenjenal» = meterse en un asunto complicado; «buen» intensifica («un buen lío»).", ["Con ese proyecto se metió en un berenjenal.", "Con ese proyecto se metió en un buen lío.", "Con ese proyecto se metió en un lío."]),
+      wo("Conviene poner los puntos sobre las íes antes de firmar.", "«Poner los puntos sobre las íes» = aclarar con precisión; «conviene + infinitivo» expresa recomendación.", "It's advisable to dot the i's and cross the t's before signing."),
     ]
   ),
   L(
     "modismos-expresiones-idiomaticas-drill-3",
     "c2r-extra-idioms-translate-equivalents",
-    "Práctica extra: equivalentes, no traducciones",
-    "Busca el modismo español equivalente a expresiones inglesas, evitando el calco literal.",
-    "7 min",
+    "Práctica extra: equivalencia funcional, no traducción literal",
+    "Traduce modismos ingleses por su equivalente español real, con su registro y su zona, y evita los calcos que ya circulan.",
+    "8 min",
     [
       sec(
-        "Equivalencia funcional",
-        "Break a leg → ¡Mucha mierda! (teatro, coloquial) / ¡Suerte! Once in a blue moon → De Pascuas a Ramos / muy de vez en cuando. To beat around the bush → andarse por las ramas / irse por los cerros de Úbeda. To spill the beans → irse de la lengua. It's all Greek to me → me suena a chino.",
+        "Equivalentes y calcos",
         [
-          ["Deja de andarte por las ramas.", "Stop beating around the bush."],
-          ["Esto me suena a chino.", "It's all Greek to me."],
+          "Un modismo se traduce por su función, no por sus palabras: «to pass the buck» → «echar balones fuera» (España) o «pasar la pelota» (general); «to sit on the fence» → «nadar entre dos aguas» o «no mojarse»; «the elephant in the room» → la prensa usa ya el calco «el elefante en la habitación», pero en registro cuidado se prefiere «el tema tabú / lo que nadie quiere mencionar»; «to cut corners» → «hacer las cosas por la vía rápida / escatimar».",
+          "Calcos que conviene evitar en registro cuidado: «al final del día» (at the end of the day → «a fin de cuentas», «en definitiva»), «hacer sentido» (to make sense → «tener sentido»), «jugar un rol» (to play a role → «desempeñar un papel»).",
+        ],
+        [
+          ["El director nada entre dos aguas para no enemistarse con nadie.", "The director is sitting on the fence so as not to fall out with anyone."],
+          ["A fin de cuentas, lo que importa es el resultado.", "At the end of the day, what matters is the result."],
         ],
         [
           mc(
-            "«To spill the beans» →",
-            ["irse de la lengua", "derramar las judías", "tirar los frijoles", "comer habas"],
+            "«At the end of the day, it's your decision.» ¿Qué versión evita el calco?",
+            ["A fin de cuentas, la decisión es tuya.", "Al final del día, la decisión es tuya.", "Al fin del día, la decisión es tuya.", "En el final del día, es tu decisión."],
             0,
-            "«To spill the beans» equivale a «irse de la lengua», revelar un secreto. «Derramar las judías», «tirar los frijoles» y «comer habas» son calcos literales sin sentido idiomático en español."
+            "«At the end of the day» con sentido de «en definitiva» se traduce «a fin de cuentas / en definitiva». «Al final del día» es un calco (en español significa literalmente al terminar la jornada), y las otras dos variantes son calcos aún más forzados.",
           ),
         ]
       ),
     ],
     [
-      toEs("Stop beating around the bush.", "Deja de andarte por las ramas.", "«Andarse / irse por las ramas» es no ir al grano; «irse por los cerros de Úbeda» es más bien divagar.", ["No te andes por las ramas.", "Deja de irte por las ramas.", "Deja de irte por los cerros de Úbeda."]),
-      toEs("It's all Greek to me.", "Me suena a chino.", "«Sonar a chino» expresa que algo resulta incomprensible (en inglés, «Greek»).", ["Esto me suena a chino.", "Para mí es chino."]),
-      fb("Equivalente.", "Nos vemos de Pascuas a ___. (muy de vez en cuando)", "Ramos", "«De Pascuas a Ramos» = muy de vez en cuando."),
-      fb("Equivalente.", "Se fue de la ___ y contó la sorpresa. (reveló el secreto)", "lengua", "«Irse de la lengua» = revelar lo que se debía callar."),
+      toEs("She always sits on the fence.", "Siempre nada entre dos aguas.", "«Nadar entre dos aguas» = no decantarse por ninguna de dos posturas. También: «no mojarse» (coloquial).", ["Siempre se queda nadando entre dos aguas.", "Nunca se moja.", "Nunca se moja en nada."]),
       mc(
-        "«To kill time» →",
-        ["matar el tiempo", "asesinar el reloj", "perder la hora", "romper el tiempo"],
+        "«That doesn't make sense.» Elige la traducción correcta.",
+        ["Eso no tiene sentido.", "Eso no hace sentido.", "Eso no hace ningún sentido.", "Eso no produce sentido."],
         0,
-        "Aquí sí coinciden: «to kill time» es «matar el tiempo». «Asesinar el reloj», «perder la hora» y «romper el tiempo» no son expresiones fijas en español."
+        "En español las cosas «tienen sentido». «Hacer sentido» es un calco del inglés (frecuente en el español de Estados Unidos y Puerto Rico) que se evita en registro cuidado; «producir sentido» no es la colocación.",
       ),
+      { ...fb("Sustituye el calco «jugar un rol».", "La sociedad civil ___ un papel decisivo en la transición.", "desempeñó", "En registro cuidado se «desempeña» o se «cumple» un papel; «jugar un rol» es calco de «to play a role».", "verbo en pretérito"), en: "Civil society [played] a decisive role in the transition.", altAnswers: ["cumplió", "tuvo"] },
       mc(
-        "«To be in hot water» →",
-        ["estar en apuros / en un lío", "estar en agua caliente", "tener fiebre", "bañarse"],
+        "«To cut corners» en un informe técnico sobre una obra mal ejecutada:",
+        ["La constructora escatimó en materiales y controles.", "La constructora cortó las esquinas.", "La constructora recortó los rincones.", "La constructora tomó atajos en las esquinas."],
         0,
-        "«To be in hot water» equivale funcionalmente a «estar en apuros» o «en un lío». «Estar en agua caliente» es un calco literal sin sentido idiomático, y «tener fiebre» o «bañarse» son interpretaciones literales."
+        "El sentido es ahorrar indebidamente en calidad o seguridad: «escatimar», «ahorrar costes a costa de la calidad». Las demás son traducciones literales sin sentido idiomático en español.",
       ),
-      toEn("Se fue por los cerros de Úbeda.", "He went off on a tangent.", "«Irse por los cerros de Úbeda» es divagar, apartarse del tema: «go off on a tangent».", ["He went off topic.", "He wandered off the point.", "He beat around the bush."]),
+      toEs("The minister passed the buck to the regional government.", "El ministro le pasó la pelota al gobierno regional.", "«Pasar la pelota» (general) o «echar balones fuera» (España) = trasladar a otro la responsabilidad.", ["El ministro echó balones fuera y culpó al gobierno regional.", "La ministra le pasó la pelota al gobierno regional.", "El ministro le pasó el muerto al gobierno regional."]),
+      mt(
+        "Relaciona la expresión inglesa con su equivalente funcional.",
+        [
+          ["to pass the buck", "pasar la pelota"],
+          ["to sit on the fence", "nadar entre dos aguas"],
+          ["to play a role", "desempeñar un papel"],
+          ["at the end of the day", "a fin de cuentas"],
+        ],
+        "Se traduce la función del modismo, no sus palabras.",
+      ),
+      wo("A fin de cuentas lo que cuenta es el resultado.", "«A fin de cuentas» sustituye al calco «al final del día».", "At the end of the day, what counts is the result."),
     ]
   ),
   L(
     "modismos-expresiones-idiomaticas-drill-3",
     "c2r-extra-idioms-story-cloze",
-    "Práctica extra: una historia llena de modismos",
-    "Completa un relato breve con el modismo exacto en cada hueco.",
+    "Práctica extra: una crónica política llena de modismos",
+    "Completa una crónica parlamentaria de la prensa española (con modismos peninsulares como «tirar de la manta» o «echar balones fuera») y reescribe fragmentos en registro neutro.",
     "8 min",
     [
       sec(
-        "La historia de Pedro",
-        "«Pedro llevaba semanas con la mosca detrás de la oreja: su socio actuaba raro. Un día, lo pilló con las manos en la masa, vendiendo información a la competencia. En lugar de montar un escándalo, prefirió cortar por lo sano: rompió la sociedad y empezó de cero. Al principio las pasó canutas, pero al final salió adelante.»",
+        "La crónica",
+        "«La sesión de control prometía y no defraudó. La oposición, que llevaba semanas con la mosca detrás de la oreja, decidió tirar de la manta: exhibió los correos que probaban que el contrato se había adjudicado a dedo. El ministro, lejos de dar la cara, echó balones fuera y acusó al Gobierno anterior de haber hecho lo mismo. Sus socios, que hasta entonces nadaban entre dos aguas, pusieron el grito en el cielo. Al final, la presidenta de la Cámara tuvo que llamar al orden a unos y a otros, y el asunto quedó, de momento, en agua de borrajas.»",
         [
-          ["Estar con la mosca detrás de la oreja.", "To be suspicious."],
-          ["Pasarlas canutas.", "To have a really hard time."],
+          ["Adjudicar a dedo = adjudicar sin concurso, por decisión arbitraria.", "To award a contract without tender, by hand-picking."],
+          ["Quedar en agua de borrajas = quedar en nada, no tener consecuencias.", "To come to nothing."],
         ],
         [
           mc(
-            "«Pillar a alguien con las manos en la masa» significa…",
-            ["sorprenderlo en plena falta", "ayudarlo a cocinar", "saludarlo", "despedirlo"],
+            "¿Qué hizo la oposición al «tirar de la manta»?",
+            ["Sacó a la luz un asunto que se quería ocultar", "Abandonó la sesión", "Pidió disculpas", "Se abstuvo en la votación"],
             0,
-            "«Pillar con las manos en la masa» es sorprender a alguien en plena falta (in fraganti). No tiene que ver con cocinar, saludar ni despedir."
+            "«Tirar de la manta» (España) = destapar algo turbio que estaba oculto; aquí, exhibir los correos. No significa abandonar, disculparse ni abstenerse.",
           ),
         ]
       ),
     ],
     [
-      fb("Completa según el texto.", "Llevaba semanas con la mosca detrás de la ___.", "oreja", "«Tener la mosca detrás de la oreja» = sospechar algo."),
-      fb("Completa según el texto.", "Prefirió cortar por lo ___.", "sano", "«Cortar por lo sano» = tomar una solución drástica para acabar con un problema."),
-      fb("Completa según el texto.", "Al principio las pasó ___.", "canutas", "«Pasarlas canutas» = pasarlo muy mal (coloquial, España)."),
+      { ...fb("Completa según la crónica.", "El contrato se había adjudicado a ___.", "dedo", "«A dedo» = sin concurso ni criterio objetivo, por elección arbitraria de quien decide."), en: "The contract had been [hand-picked / awarded without tender]." },
+      { ...fb("Completa según la crónica.", "El ministro, lejos de dar la ___, echó balones fuera.", "cara", "«Dar la cara» = responder de los propios actos; «echar balones fuera» es justo lo contrario."), en: "The minister, far from [facing up to it], passed the buck." },
+      { ...fb("Completa según la crónica.", "El asunto quedó en agua de ___.", "borrajas", "«Quedar en agua de borrajas» = quedar en nada, sin consecuencias."), en: "The matter [came to nothing]." },
       mc(
-        "¿Qué sentía Pedro al principio?",
-        ["sospecha", "alegría", "indiferencia", "gratitud"],
+        "¿Cuál era la actitud de los socios antes del escándalo?",
+        ["Ambigua: no se decantaban por ninguna postura", "Claramente favorable al ministro", "Abiertamente hostil al ministro", "Indiferente al debate"],
         0,
-        "«Tener la mosca detrás de la oreja» indica sospecha. No expresa alegría, indiferencia ni gratitud."
+        "«Nadar entre dos aguas» = mantenerse en una postura ambigua para no comprometerse. No indica apoyo ni hostilidad claros, y tampoco indiferencia: estaban pendientes, pero sin mojarse.",
       ),
       mc(
-        "«Salir adelante» significa…",
-        ["superar las dificultades", "salir de casa", "adelantar a otro coche", "ir al frente"],
+        "Reescribe en registro neutro: «La oposición llevaba semanas con la mosca detrás de la oreja».",
+        ["La oposición llevaba semanas recelando.", "La oposición llevaba semanas molesta por un insecto.", "La oposición llevaba semanas de vacaciones.", "La oposición llevaba semanas muy contenta."],
         0,
-        "«Salir adelante» es superar las dificultades. No significa literalmente salir de casa, adelantar a otro coche ni ir al frente."
+        "«Estar con la mosca detrás de la oreja» = sospechar, recelar. La lectura literal (insecto) no tiene sentido aquí, y el modismo no habla ni de vacaciones ni de alegría.",
       ),
-      toEs("They caught him red-handed.", "Lo pillaron con las manos en la masa.", "«Pillar con las manos en la masa» o «in fraganti»; «le» por «lo» es leísmo aceptado con persona masculina.", ["Le pillaron con las manos en la masa.", "Lo agarraron con las manos en la masa.", "Lo pillaron in fraganti."]),
-      wo("Al final, a pesar de todo, consiguió salir adelante.", "Salir adelante.", "In the end, despite everything, he managed to get through it."),
+      toEs("Far from facing up to it, he blamed the previous government.", "Lejos de dar la cara, culpó al Gobierno anterior.", "«Lejos de + infinitivo» (far from) + «dar la cara» (asumir la responsabilidad).", ["Lejos de dar la cara, echó la culpa al Gobierno anterior.", "Lejos de dar la cara, le echó la culpa al Gobierno anterior.", "Lejos de dar la cara, responsabilizó al Gobierno anterior."]),
+      wo("Al final el asunto quedó en agua de borrajas.", "«Quedar en agua de borrajas» = no tener consecuencias.", "In the end the matter came to nothing."),
     ]
   ),
   L(
     "refranes-dichos-populares-drill-3",
     "c2r-extra-proverbs-meaning",
-    "Práctica extra: del refrán a su enseñanza",
-    "Refranes menos conocidos: interpreta su mensaje y relaciónalo con situaciones.",
-    "7 min",
+    "Práctica extra: refranes que se malinterpretan",
+    "Refranes y frases proverbiales cuyo sentido real no coincide con la lectura literal o con el uso que a veces se les da.",
+    "8 min",
     [
       sec(
-        "Refranes para interpretar",
-        "Quien mucho abarca, poco aprieta (quien intenta demasiado, no hace nada bien). A buen entendedor, pocas palabras bastan. Quien calla, otorga (el silencio se interpreta como consentimiento). Cada loco con su tema. Genio y figura hasta la sepultura (el carácter no cambia). Tanto va el cántaro a la fuente que al final se rompe (el riesgo repetido acaba mal).",
+        "El sentido real",
         [
-          ["Quien mucho abarca, poco aprieta.", "Jack of all trades, master of none."],
-          ["A buen entendedor, pocas palabras bastan.", "A word to the wise is enough."],
+          "«A buenas horas, mangas verdes» reprocha que algo llega tarde, cuando ya no sirve (las mangas verdes eran los cuadrilleros de la Santa Hermandad, que llegaban tarde). «A otro perro con ese hueso» significa «no me lo creo, engaña a otro». «Por la boca muere el pez» advierte de que quien habla de más acaba perjudicándose. «Donde las dan, las toman» indica que quien hace daño acaba recibiéndolo. «El hábito no hace al monje» recuerda que la apariencia no cambia la esencia.",
+          "Son panhispánicos; «Éramos pocos y parió la abuela» (cuando a un problema se suma otro inesperado) es coloquial y muy frecuente en España.",
+        ],
+        [
+          ["¿Ahora me ofreces ayuda? A buenas horas, mangas verdes.", "Now you offer to help? A bit late for that."],
+          ["¿Que no sabías nada? A otro perro con ese hueso.", "You didn't know anything? Pull the other one."],
         ],
         [
           mc(
-            "Tu amigo se apunta a cinco cursos a la vez y no termina ninguno:",
-            ["Quien mucho abarca, poco aprieta.", "Quien calla, otorga.", "Genio y figura hasta la sepultura.", "Cada loco con su tema."],
+            "Llegan los bomberos cuando el incendio ya se ha apagado solo. Un vecino comenta:",
+            ["A buenas horas, mangas verdes.", "A otro perro con ese hueso.", "Donde las dan, las toman.", "El hábito no hace al monje."],
             0,
-            "«Quien mucho abarca, poco aprieta»: el que emprende demasiado no termina nada. «Quien calla, otorga» habla del silencio, «Genio y figura…» del carácter y «Cada loco con su tema» de las manías."
+            "«A buenas horas, mangas verdes» reprocha que algo llega cuando ya no sirve. «A otro perro con ese hueso» expresa incredulidad, «Donde las dan, las toman» habla de recibir lo que se hace a otros y «El hábito no hace al monje», de las apariencias.",
           ),
         ]
       ),
     ],
     [
       mc(
-        "Nadie protesta en la reunión y el jefe da la propuesta por aprobada:",
-        ["Quien calla, otorga.", "A buen entendedor, pocas palabras bastan.", "Tanto va el cántaro a la fuente…", "Quien mucho abarca…"],
+        "Un político presume en una entrevista de no haber mentido nunca y al día siguiente se publican sus mensajes. ¿Qué refrán aplica?",
+        ["Por la boca muere el pez.", "A buenas horas, mangas verdes.", "El hábito no hace al monje.", "Cada oveja con su pareja."],
         0,
-        "«Quien calla, otorga»: el silencio se interpreta como consentimiento. «A buen entendedor…» habla de entender con pocas palabras, «Tanto va el cántaro…» del riesgo repetido y «Quien mucho abarca…» del exceso de tareas."
+        "«Por la boca muere el pez»: hablar de más acaba perjudicando al que habla. Los otros refranes tratan del retraso, de las apariencias y de la afinidad entre personas.",
       ),
       mc(
-        "Tu abuelo, a los 90, sigue igual de terco que siempre:",
-        ["Genio y figura hasta la sepultura.", "Quien calla, otorga.", "Cada loco con su tema.", "Más vale tarde que nunca."],
+        "«—Te juro que el informe se borró solo. —Sí, claro. A otro perro con ese hueso.» ¿Qué expresa la respuesta?",
+        ["Incredulidad: no se cree la excusa", "Compasión por la pérdida", "Una propuesta para recuperar el archivo", "Un consejo sobre mascotas"],
         0,
-        "«Genio y figura hasta la sepultura»: el carácter no cambia con la edad. «Quien calla, otorga» trata del silencio, «Cada loco con su tema» de las manías y «Más vale tarde que nunca» de la tardanza."
+        "«A otro perro con ese hueso» = no me engañas, prueba con otro. Expresa incredulidad, no compasión ni una propuesta; el perro y el hueso son solo la imagen.",
       ),
-      fb("Completa.", "Tanto va el cántaro a la fuente que al final se ___.", "rompe", "«Tanto va el cántaro a la fuente que al final se rompe»: quien se arriesga repetidamente acaba mal."),
-      fb("Completa.", "A buen entendedor, pocas ___ bastan.", "palabras", "«A buen entendedor, pocas palabras bastan»: quien entiende no necesita más explicaciones."),
-      fb("Completa.", "Cada loco con su ___.", "tema", "«Cada loco con su tema»: cada uno tiene su manía u obsesión."),
+      { ...fb("Completa el refrán.", "Donde las dan, las ___.", "toman", "«Donde las dan, las toman»: quien hace daño o agravia acaba recibiendo lo mismo. «Las» es un clítico sin referente, típico de la fraseología."), en: "Those who give it out [get it back]." },
+      { ...fb("Completa el refrán.", "El hábito no hace al ___.", "monje", "«El hábito no hace al monje»: vestir como algo no te convierte en ello; la apariencia engaña."), en: "The habit doesn't make the [monk]." },
       mt(
-        "Relaciona el refrán con su enseñanza.",
+        "Relaciona el refrán con su sentido.",
         [
-          ["Quien mucho abarca, poco aprieta.", "No intentes hacer demasiado a la vez."],
-          ["Quien calla, otorga.", "El silencio implica aceptación."],
-          ["Tanto va el cántaro a la fuente…", "Quien se arriesga a menudo acaba mal."],
+          ["A buenas horas, mangas verdes", "llega tarde, cuando ya no sirve"],
+          ["Por la boca muere el pez", "quien habla de más se perjudica"],
+          ["A otro perro con ese hueso", "no me lo creo"],
+          ["Éramos pocos y parió la abuela", "a un problema se suma otro"],
         ],
-        "Refranes."
+        "Refranes cuyo sentido no se deduce de sus palabras.",
       ),
-      wo("Ya sabes lo que dicen: quien mucho abarca, poco aprieta.", "Citar un refrán.", "You know what they say: don't bite off more than you can chew."),
+      toEn("¿Ahora te disculpas? A buenas horas, mangas verdes.", "Now you apologise? A bit late for that.", "Se traduce la función (reproche por la tardanza), no las palabras.", ["Now you're apologizing? It's a bit late for that.", "Now you apologise? Too little, too late.", "Now you apologize? Too little, too late."]),
+      wo("Ya se sabe que por la boca muere el pez.", "Refrán introducido con «ya se sabe que».", "Everyone knows that loose lips sink ships."),
     ]
   ),
   L(
     "refranes-dichos-populares-drill-3",
     "c2r-extra-proverbs-rhythm",
-    "Práctica extra: rima y ritmo del refrán",
-    "Reconstruye refranes por su rima y su paralelismo, y crea variantes humorísticas.",
-    "7 min",
+    "Práctica extra: el refranero del Quijote",
+    "Sancho Panza habla a base de refranes: reconoce los que siguen vivos, su forma antigua y el efecto que buscaba Cervantes.",
+    "8 min",
     [
       sec(
-        "La música del refrán",
-        "Rima: «Al pan, pan, y al vino, vino» (llamar las cosas por su nombre). «En abril, aguas mil». «Donde fueres, haz lo que vieres». Paralelismo: «Unos nacen con estrella y otros nacen estrellados». Juego humorístico: el hablante culto a veces deforma refranes con ironía («A quien madruga… le entra sueño a mediodía»).",
+        "Sancho, refranero andante",
         [
-          ["Donde fueres, haz lo que vieres.", "When in Rome, do as the Romans do."],
-          ["Unos nacen con estrella y otros nacen estrellados.", "Some are born lucky and others are born unlucky."],
+          "Don Quijote reprocha a Sancho que ensarte refranes sin venir a cuento, y Cervantes convierte ese hábito en un rasgo del personaje. Muchos siguen vivos: «Al buen callar llaman Sancho» (la discreción es virtud), «Donde una puerta se cierra, otra se abre», «Dime con quién andas, decirte he quién eres».",
+          "«Decirte he» es el futuro analítico del español clásico: infinitivo + forma de «haber», con el pronombre intercalado (hoy «te diré»). Esta mesoclisis desapareció del español, pero sigue en el portugués culto («dir-te-ei»).",
+        ],
+        [
+          ["Al buen callar llaman Sancho.", "Silence is golden."],
+          ["Dime con quién andas, decirte he quién eres.", "Tell me who your friends are and I'll tell you who you are."],
         ],
         [
           mc(
-            "«Al pan, pan, y al vino, vino» aconseja…",
-            ["hablar claro, sin rodeos", "comer bien", "no beber", "compartir la comida"],
+            "En «decirte he quién eres», la forma «decirte he» equivale hoy a…",
+            ["te diré", "te he dicho", "te decía", "decírtelo"],
             0,
-            "«Al pan, pan, y al vino, vino» aconseja hablar claro y llamar a las cosas por su nombre. No es un consejo sobre comer, beber o compartir: es una metáfora."
+            "Es el futuro analítico clásico (decir + te + he), origen histórico del futuro sintético «te diré». No es un pretérito perfecto («te he dicho»), ni un imperfecto, ni un infinitivo con clíticos.",
           ),
         ]
       ),
     ],
     [
-      fb("Completa (rima).", "En abril, aguas ___.", "mil", "Rima con abril: abril / mil."),
-      fb("Completa (rima).", "Donde fueres, haz lo que ___.", "vieres", "«Vieres» (futuro de subjuntivo arcaico de ver) rima con «fueres»; el refrán conserva esas formas."),
-      fb("Completa (paralelismo).", "Unos nacen con estrella y otros nacen ___.", "estrellados", "Juego de palabras: «estrella» (buena suerte) frente a «estrellados» (con mala suerte)."),
       mc(
-        "«Fueres» y «vieres» son formas de…",
-        ["futuro de subjuntivo", "pretérito indefinido", "condicional", "presente de subjuntivo"],
+        "«Al buen callar llaman Sancho» elogia…",
+        ["la discreción, saber callar a tiempo", "a las personas llamadas Sancho", "la elocuencia", "la obediencia a los superiores"],
         0,
-        "«Fueres» y «vieres» son formas del futuro de subjuntivo, un arcaísmo conservado en refranes y textos jurídicos. No son indefinido (fuiste, viste), condicional (irías, verías) ni presente de subjuntivo (vayas, veas)."
+        "El refrán elogia la discreción: a quien sabe callar se le considera sensato. No se refiere literalmente a quien se llama Sancho, y la elocuencia y la obediencia no son el tema.",
       ),
+      { ...fb("Completa el refrán cervantino.", "Donde una puerta se cierra, otra se ___.", "abre", "«Donde una puerta se cierra, otra se abre»: tras un fracaso surge otra oportunidad. Aparece en el Quijote y sigue plenamente vivo."), en: "When one door closes, another [opens]." },
       mc(
-        "«A quien madruga… le entra sueño a mediodía» es…",
-        ["una deformación humorística del refrán", "el refrán original", "un error", "una cita de un filósofo"],
+        "¿Qué reprocha don Quijote a Sancho respecto a los refranes?",
+        ["Que los encadena sin venir a cuento", "Que no conoce ninguno", "Que los traduce del latín", "Que los cita en verso"],
         0,
-        "Cambiar el final de «A quien madruga, Dios le ayuda» es una deformación humorística. No es el refrán original, no es un error involuntario ni la cita de un filósofo."
+        "Don Quijote le pide a Sancho que no ensarte refranes sin ton ni son: el problema es el exceso y la falta de pertinencia. Sancho conoce muchísimos, los dice en castellano y en prosa.",
       ),
-      toEs("When in Rome, do as the Romans do.", "Donde fueres, haz lo que vieres.", "«Donde fueres, haz lo que vieres» equivale a «When in Rome, do as the Romans do».", ["Allá donde fueres, haz lo que vieres."]),
-      wo("Al pan, pan, y al vino, vino: habla claro de una vez.", "Refrán con repetición.", "Call a spade a spade: speak plainly for once."),
+      ms(
+        "¿Qué rasgos del español clásico conservan los refranes?",
+        ["el futuro analítico con pronombre intercalado (decirte he)", "el futuro de subjuntivo (fueres, vieres)", "«do» por «donde»", "el voseo rioplatense", "los anglicismos"],
+        [0, 1, 2],
+        "Los refranes fosilizan formas antiguas: futuro analítico, futuro de subjuntivo y «do». El voseo rioplatense es un rasgo dialectal moderno (el voseo clásico era otro) y los anglicismos son recientes.",
+      ),
+      toEs("Tell me who your friends are and I'll tell you who you are.", "Dime con quién andas y te diré quién eres.", "Forma moderna del refrán; la cervantina es «decirte he quién eres».", ["Dime con quién andas, y te diré quién eres.", "Dime con quién andas, decirte he quién eres."]),
+      mt(
+        "Relaciona la forma clásica con la actual.",
+        [
+          ["decirte he", "te diré"],
+          ["fueres", "vayas"],
+          ["do", "donde"],
+          ["vieres", "veas"],
+        ],
+        "Formas antiguas que sobreviven en el refranero y su equivalente en el español actual.",
+      ),
+      wo("Al buen callar llaman Sancho así que mejor no digas nada.", "Uso del refrán como consejo de discreción.", "Silence is golden, so you'd better not say anything."),
     ]
   ),
   L(
@@ -6916,45 +6975,58 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "espanol-medico-drill-3",
     "c2r-extra-medical-emergency-call",
-    "Práctica extra: llamar a emergencias",
-    "Describe una urgencia al 112 con precisión: qué pasa, dónde, estado de la persona y qué has hecho.",
-    "7 min",
+    "Práctica extra: el pase de guardia y la interconsulta",
+    "Cómo hablan los profesionales entre sí: estable, afebril, evolución tórpida, se solicita valoración, pendiente de resultados.",
+    "8 min",
     [
       sec(
-        "Información esencial",
-        "Qué: «Un hombre de unos 60 años se ha desplomado en la calle». Dónde: dirección exacta y referencias. Estado: «Está consciente / inconsciente», «respira / no respira», «sangra abundantemente». Qué has hecho: «Le he puesto de lado (posición lateral de seguridad)», «Estoy haciendo compresiones». Seguir las instrucciones del operador.",
+        "Entre colegas",
         [
-          ["Está inconsciente pero respira.", "He's unconscious but breathing."],
-          ["Lo he puesto en posición lateral de seguridad.", "I've put him in the recovery position."],
+          "En el cambio de turno (el «pase de guardia» en España; la «entrega de turno» en muchos países de América) se transmite el estado de cada paciente con un léxico compacto: «hemodinámicamente estable», «afebril» (sin fiebre), «normotenso» (con tensión normal), «evolución favorable» o «tórpida» (lenta y con complicaciones), «pendiente de» (resultados, TAC, valoración), «se deja en observación», «ingreso en planta».",
+          "La «interconsulta» es la petición formal de opinión a otro servicio: «Se solicita valoración por Cardiología por…». No se «pide ayuda»: se «solicita valoración».",
+        ],
+        [
+          ["Cama 12: afebril, hemodinámicamente estable, pendiente del TAC.", "Bed 12: afebrile, haemodynamically stable, awaiting the CT scan."],
+          ["La herida presenta una evolución tórpida.", "The wound is healing poorly."],
+          ["Se solicita valoración por Neurología.", "A neurology consultation is requested."],
         ],
         [
           mc(
-            "¿Qué dato es imprescindible dar primero?",
-            ["la ubicación exacta", "tu profesión", "la marca del coche", "la hora de tu cita"],
+            "«La evolución ha sido tórpida» significa que…",
+            ["el paciente mejora lentamente y con complicaciones", "el paciente ha mejorado muy deprisa", "el paciente ha recibido el alta", "el paciente está dormido"],
             0,
-            "Lo primero es la ubicación exacta, para que la ambulancia llegue. Tu profesión, la marca del coche o la hora de tu cita no son urgentes."
+            "«Tórpido» en medicina = que evoluciona mal, de forma lenta y con complicaciones. Es lo contrario de una mejoría rápida, no implica alta y no tiene que ver con el sueño (aunque «torpor» sí evoca somnolencia).",
           ),
         ]
       ),
     ],
     [
-      fb("Completa.", "Un señor se ha ___ en plena calle. (caerse de golpe, participio)", "desplomado", "«Desplomarse» = caerse de golpe, sin fuerzas."),
-      fb("Completa.", "Está ___: no responde cuando le hablo.", "inconsciente", "«Inconsciente» = sin conciencia, que no responde a estímulos."),
-      fb("Completa.", "Lo he puesto en posición lateral de ___.", "seguridad", "La posición lateral de seguridad (PLS) se usa con alguien inconsciente que respira."),
+      { ...fb("Completa con el término del pase de guardia.", "El paciente sigue ___: 36,8 °C en la última toma.", "afebril", "«Afebril» = sin fiebre. Es el término técnico habitual en informes y pases de guardia."), en: "The patient remains [afebrile]: 36.8 °C at the last reading." },
+      { ...fb("Completa la fórmula de interconsulta.", "Se ___ valoración por Cardiología por soplo de nueva aparición.", "solicita", "Fórmula fija de la interconsulta: «se solicita valoración por + servicio»."), en: "A Cardiology consultation [is requested] for a new-onset murmur.", altAnswers: ["pide"] },
+      mt(
+        "Relaciona el término con su significado.",
+        [
+          ["normotenso", "con tensión arterial normal"],
+          ["hemodinámicamente estable", "con constantes circulatorias estables"],
+          ["ingreso en planta", "hospitalización en una unidad general"],
+          ["pendiente de", "a la espera de"],
+        ],
+        "Léxico del pase de guardia.",
+      ),
       mc(
-        "El operador pregunta: «¿Respira?». Respuesta útil:",
-        ["Sí, respira, pero con dificultad.", "No sé, creo que sí, no sé.", "Está en la calle.", "Tiene 60 años."],
+        "¿Qué frase pertenece al registro profesional de un pase de guardia?",
+        ["Cama 5: estable, pendiente de analítica de control.", "El de la cama 5 está bastante bien, creo.", "Al de la cama 5 le duele todo un montón.", "La cama 5 está pachucha."],
         0,
-        "«Sí, respira, pero con dificultad» responde con precisión al estado del paciente. «No sé, creo que sí» es vago, y la ubicación o la edad no responden a la pregunta."
+        "La primera usa el léxico compacto y preciso del pase de guardia. Las otras son coloquiales o vagas («creo», «un montón», «pachucha» = algo enfermo, coloquial de España) e impropias entre profesionales.",
       ),
-      ms(
-        "¿Qué información es relevante en la llamada?",
-        ["dirección exacta", "si la persona respira", "si está consciente", "tu opinión sobre el tráfico"],
-        [0, 1, 2],
-        "La dirección exacta, si respira y si está consciente son datos relevantes. Tu opinión sobre el tráfico no ayuda a atender la emergencia."
+      mc(
+        "En muchos hospitales de América, el «pase de guardia» español se llama…",
+        ["entrega de turno", "alta médica", "interconsulta", "parte de baja"],
+        0,
+        "«Entrega de turno» es la denominación frecuente en América para el traspaso de pacientes entre turnos. El alta es la salida del paciente, la interconsulta es la consulta a otro servicio y el «parte de baja» es un documento laboral.",
       ),
-      toEs("He's unconscious but he's breathing.", "Está inconsciente, pero respira.", "Estado del paciente: «estar inconsciente» + «respirar» (presente o estar + gerundio).", ["Está inconsciente pero respira.", "Está inconsciente, pero está respirando."]),
-      wo("Estamos en la esquina de la calle Mayor con la plaza del Carmen.", "Ubicación precisa.", "We're on the corner of Calle Mayor and Plaza del Carmen."),
+      toEs("Bed 7: afebrile, haemodynamically stable, awaiting the CT scan.", "Cama 7: afebril, hemodinámicamente estable, pendiente del TAC.", "Estilo nominal del pase de guardia: sin verbos, términos técnicos y «pendiente de».", ["Cama 7: afebril, hemodinámicamente estable, pendiente de TAC.", "Cama 7: afebril, estable hemodinámicamente, pendiente del TAC.", "Cama siete: afebril, hemodinámicamente estable, pendiente del TAC."]),
+      wo("Se deja en observación a la espera de la analítica de control.", "«Dejar en observación» = mantener al paciente en urgencias vigilado.", "The patient is kept under observation pending the follow-up blood tests."),
     ]
   ),
   L(
@@ -7369,45 +7441,50 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "negocios-economia-drill-3",
     "c2r-extra-business-pitch",
-    "Práctica extra: presentar un proyecto a inversores",
-    "Un pitch de dos minutos: problema, solución, mercado, modelo de negocio, equipo y petición.",
+    "Práctica extra: la nota de prensa de resultados",
+    "Lee una nota de resultados trimestrales como un analista: qué dice, qué calla y qué esconden sus eufemismos.",
     "8 min",
     [
       sec(
-        "Estructura del pitch",
-        "Problema: «Cada año se desperdician…». Solución: «Nuestra aplicación conecta…». Mercado: «Un mercado de 2.000 millones que crece un 15 % anual». Modelo de negocio: «Cobramos una comisión del 5 % por transacción». Tracción: «Ya tenemos 10.000 usuarios». Equipo. Petición: «Buscamos 500.000 euros a cambio del 10 % del capital».",
+        "La nota",
+        "«El Grupo X alcanzó en el primer semestre una cifra de negocio de 1.240 millones de euros, un 6 % más que en el mismo periodo del ejercicio anterior. El resultado bruto de explotación se situó en 180 millones, en línea con las previsiones. El resultado neto atribuido, de 22 millones, se vio afectado por el deterioro extraordinario de los activos en Argentina y por los costes asociados al plan de optimización de la plantilla. El grupo mantiene su compromiso con la reducción del apalancamiento y prevé una mejora de los márgenes en la segunda mitad del año.»",
         [
-          ["Buscamos 500.000 euros a cambio del 10 % del capital.", "We're seeking 500,000 euros in exchange for 10% equity."],
-          ["Ya contamos con 10.000 usuarios activos.", "We already have 10,000 active users."],
+          ["Plan de optimización de la plantilla = despidos.", "Workforce optimisation plan = layoffs."],
+          ["En línea con las previsiones = ni mejor ni peor de lo esperado.", "In line with forecasts."],
         ],
         [
           mc(
-            "«Cobramos una comisión del 5 % por transacción» describe…",
-            ["el modelo de negocio", "el problema", "el equipo", "la petición"],
+            "¿Qué oculta la expresión «plan de optimización de la plantilla»?",
+            ["Un plan de despidos", "Un plan de formación", "Un aumento de sueldos", "Nuevas contrataciones"],
             0,
-            "Cobrar una comisión por transacción explica cómo se gana dinero: el modelo de negocio. No describe el problema, el equipo ni la cantidad que se pide a los inversores."
+            "«Optimizar la plantilla» es un eufemismo corporativo por reducirla, es decir, despedir. Si fuera formación, subida salarial o contratación, la nota lo diría abiertamente porque son buenas noticias.",
           ),
         ]
       ),
     ],
     [
       mc(
-        "«Ya contamos con 10.000 usuarios activos» demuestra…",
-        ["tracción", "el problema", "la competencia", "el capital"],
+        "¿Cuánto facturó el grupo en el semestre?",
+        ["1.240 millones", "180 millones", "22 millones", "6 millones"],
         0,
-        "Tener ya 10.000 usuarios activos demuestra tracción, es decir, evidencia real de demanda. No describe el problema, la competencia ni el capital."
+        "La cifra de negocio (facturación) fue de 1.240 millones. 180 millones es el resultado bruto de explotación, 22 millones el resultado neto y el 6 % es el crecimiento, no una cifra en millones.",
       ),
-      fb("Completa.", "Buscamos 300.000 euros a ___ del 8 % del capital.", "cambio", "«A cambio de» introduce lo que se ofrece en contrapartida (un % del capital)."),
-      fb("Completa.", "Nuestra aplicación ___ a pequeños productores con restaurantes. (poner en contacto)", "conecta", "«Conectar a X con Y» = ponerlos en contacto."),
-      fb("Completa.", "Es un mercado que ___ un 12 % anual. (aumentar)", "crece", "Presente (crece) para una tendencia actual; crecer + porcentaje sin preposición."),
       mc(
-        "Orden lógico del pitch:",
-        ["problema → solución → mercado → modelo → tracción → petición", "petición → equipo → problema", "modelo → petición → problema → solución", "equipo → petición → mercado"],
+        "¿Por qué el resultado neto es tan bajo en comparación con el bruto de explotación?",
+        ["Por un deterioro extraordinario y los costes de los despidos", "Porque las ventas cayeron", "Porque no hubo previsiones", "Porque se repartió un dividendo"],
         0,
-        "El pitch estándar va del problema a la solución, el mercado, el modelo, la tracción y la petición. Empezar por la petición, el modelo o el equipo impide entender para qué es el dinero."
+        "La nota atribuye el bajo resultado neto al deterioro de los activos en Argentina y a los costes del plan de plantilla. Las ventas subieron un 6 %, las previsiones se cumplieron y el dividendo no afecta al resultado.",
       ),
-      toEs("We are seeking half a million euros to expand.", "Buscamos medio millón de euros para expandirnos.", "Petición de inversión: «Buscamos + cantidad + para + infinitivo».", ["Buscamos quinientos mil euros para expandirnos.", "Buscamos medio millón de euros para crecer."]),
-      wo("Cada año se desperdician toneladas de alimentos en perfecto estado.", "Planteamiento del problema.", "Every year, tons of perfectly good food are wasted."),
+      { ...fb("Completa la colocación de la nota.", "El resultado bruto de explotación se ___ en 180 millones.", "situó", "Colocación de las notas de resultados: «el resultado se situó en X millones»."), en: "EBITDA [stood] at 180 million.", altAnswers: ["ubicó", "quedó"] },
+      { ...fb("Completa con el término de la nota.", "El grupo mantiene su compromiso con la reducción del ___.", "apalancamiento", "«Reducir el apalancamiento» = disminuir el peso de la deuda sobre los recursos propios."), en: "The group remains committed to reducing its [leverage]." },
+      ms(
+        "¿Qué expresiones de la nota son eufemismos o fórmulas que suavizan malas noticias?",
+        ["plan de optimización de la plantilla", "se vio afectado por", "deterioro extraordinario", "un 6 % más", "en línea con las previsiones"],
+        [0, 1, 2],
+        "«Optimización de la plantilla» (despidos), «se vio afectado por» (voz pasiva que diluye la responsabilidad) y «deterioro extraordinario» (presenta la pérdida como excepcional) suavizan malas noticias. «Un 6 % más» es un dato positivo y «en línea con las previsiones» es neutro.",
+      ),
+      toEn("El resultado neto se vio afectado por los costes de reestructuración.", "Net profit was hit by restructuring costs.", "«Verse afectado por» = be affected / hit by; «resultado neto» = net profit / net income.", ["Net income was affected by restructuring costs.", "Net profit was affected by restructuring costs.", "Net income was hit by restructuring costs."]),
+      wo("El grupo prevé una mejora de los márgenes en la segunda mitad del año.", "Fórmula de previsión: «prevé una mejora de…».", "The group expects margins to improve in the second half of the year."),
     ]
   ),
   L(
