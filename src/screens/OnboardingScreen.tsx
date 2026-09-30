@@ -1,3 +1,4 @@
+import SpanishVarietyPicker from "@/components/SpanishVarietyPicker";
 import { useEffect, useState } from "react";
 import { View, Text, Pressable, StyleSheet, ScrollView, Switch, Alert, ActivityIndicator } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
@@ -144,8 +145,11 @@ export default function OnboardingScreen({ navigation }: Props) {
             })}
           </View>
 
-          {/* SPANISH VARIETY STEP: a "Spain or Latin America" choice goes
-              here once that setting exists (another change is adding it). */}
+          <Text style={s.varietyHeading}>Which Spanish do you want to learn?</Text>
+          <Text style={s.varietyBody}>
+            This sets the voice you hear. Latin America skips producing vosotros forms, but you'll still learn to recognise them.
+          </Text>
+          <SpanishVarietyPicker />
 
           <View style={s.footer}>
             <Pressable onPress={() => setStep("level")} disabled={saving} hitSlop={8}>
@@ -162,6 +166,8 @@ export default function OnboardingScreen({ navigation }: Props) {
 }
 
 const s = StyleSheet.create({
+  varietyHeading: { fontSize: 17, fontWeight: "700", color: "#000", marginTop: 20, marginBottom: 6 },
+  varietyBody: { fontSize: 14, color: "#00000099", marginBottom: 10 },
   container: { flex: 1, backgroundColor: "#FAF6F1" },
   content: { padding: 24, paddingBottom: 48 },
   stepLabel: { fontSize: 12, fontWeight: "700", color: "#00000066", textTransform: "uppercase", marginBottom: 6 },

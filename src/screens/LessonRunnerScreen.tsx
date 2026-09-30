@@ -463,8 +463,10 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
             nextSteps={
               <LessonNextSteps
                 levelPath={levelPath}
+                lessonSlug={lesson.slug}
                 lessonNumber={lesson.number}
                 onOpenStory={(storySlug) => navigation.navigate("StoryReader", { slug: storySlug })}
+                onOpenGuide={(guideSlug) => navigation.navigate("GrammarGuide", { slug: guideSlug })}
               />
             }
           />
