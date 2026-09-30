@@ -191,7 +191,13 @@ export function Speak({
     () => () => {
       if (timerRef.current) clearTimeout(timerRef.current);
       playerRef.current?.remove();
-      if (micRef.current === "recording") void recorder.stop().catch(() => {});
+      if (micRef.current === "recording") {
+        try {
+          void recorder.stop().catch(() => {});
+        } catch {
+          // Already released with the component.
+        }
+      }
       void setRecordingMode(false);
     },
     // eslint-disable-next-line react-hooks/exhaustive-deps
