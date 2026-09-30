@@ -19,6 +19,9 @@ import LessonVideoLink from "@/components/LessonVideoLink";
 import TapText from "@/components/TapText";
 import { langForLevel, langForLevelPath, ENGLISH_LANG } from "@/lib/speech";
 import { markLessonCompleted } from "@/lib/lessons/completion";
+import { recordStudyActivity } from "@/lib/streak";
+import { addStudyMinutes } from "@/lib/learnerPrefs";
+import { parseDurationMinutes } from "@/lib/duration";
 import { addToReview } from "@/lib/lessons/review";
 import {
   addMissedQuestion,
@@ -293,6 +296,10 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     const poolResults = Array.from(poolResultsRef.current, ([id, correct]) => ({ id, correct }));
     poolResultsRef.current = new Map();
     await recordMissedQuestionReviews(levelPath, poolResults);
+    // Finishing a lesson, passed or not, counts as studying today: the
+    // streak, and the lesson's length toward the daily goal.
+    await recordStudyActivity();
+    await addStudyMinutes(parseDurationMinutes(lesson.duration));
     // Each question is answered once per run, so this is the first-try
     // score. Below the pass mark the lesson isn't marked complete.
     if (!lessonPassed(correctCount, questionCount)) {
