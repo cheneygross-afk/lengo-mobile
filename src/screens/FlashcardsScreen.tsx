@@ -5,7 +5,9 @@ import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { loadFlashcards, saveFlashcards, type FlashcardEntry } from "@/lib/flashcards/store";
 import { seedJapaneseAlphabetDecks } from "@/lib/lessons/ja-alphabet-decks";
-import { getDueCards, gradeCard, type ReviewGrade } from "@/lib/srs";
+import { gradeCard, type ReviewGrade } from "@/lib/srs";
+import { addStudyMinutes, getDueCardsForToday, noteCardReviewed } from "@/lib/learnerPrefs";
+import { FLASHCARD_REVIEW_MINUTES } from "@/lib/learnerPlan";
 import { langForLevelPath, speak, stopSpeaking } from "@/lib/speech";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Flashcards">;
@@ -34,8 +36,11 @@ export default function FlashcardsScreen({ route }: Props) {
         const scoped = Object.fromEntries(
           Object.entries(map).filter(([, card]) => (lang === "ja" ? card.levelPath.startsWith("ja") : !card.levelPath.startsWith("ja")))
         );
+        // Never-reviewed cards are capped at the new-cards-per-day setting.
+        const dueToday = await getDueCardsForToday(Object.values(scoped));
+        if (cancelled) return;
         setAll(scoped);
-        setDue(getDueCards(Object.values(scoped)));
+        setDue(dueToday);
         setIndex(0);
         setRevealed(false);
         setLoading(false);
@@ -49,6 +54,7 @@ export default function FlashcardsScreen({ route }: Props) {
   async function grade(g: ReviewGrade) {
     const card = due[index];
     if (!card) return;
+    void noteCardReviewed(card).then(() => addStudyMinutes(FLASHCARD_REVIEW_MINUTES));
     const updated = gradeCard(card, g);
     const nextAll = { ...all, [updated.id]: updated };
     setAll(nextAll);
