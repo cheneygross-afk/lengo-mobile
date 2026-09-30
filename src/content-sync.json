@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "119055e9c18f249db6cbf10d4d16b57943e48120",
+  "commit": "5a34d508190e438b9b367b4f7888b2cbd6888749",
   "files": {
     "src/lib/lessons/a1-additions.ts": "5e2de5cde5d685adaec5cd4c5c818ed420ecc224d408aeb2bf16fe5ed8321430",
     "src/lib/lessons/a1-reinforcement.ts": "99c5215b4e0e4254204b5202f632cee1a88643c71efb19e8070c26bb05871167",
@@ -20,8 +20,8 @@
     "src/lib/lessons/c1-reinforcement.ts": "bc6ac87259bce8b0bac10b9ad12bbd264f6240c30e8b07e327c81ba2cbf9e336",
     "src/lib/lessons/c1.ts": "caabbba394341794f8ca35cae41fbf691006583707f33dcd7a9ffc0b188aba27",
     "src/lib/lessons/c1c2-cosas-coloquiales.ts": "5e563dbb7babf6851f8b647f4e7f9a73b6eb3be3b5f9a6a32f6a2db10e15a14e",
-    "src/lib/lessons/c2-reinforcement.ts": "c15584e3d6dd34aed4e3ffe80157a618d6301d9f8c2813e6b0efd8e4b565e2a5",
-    "src/lib/lessons/c2.ts": "2b9216f79f40964cc99ccdf4435b948306bce3f0bb67dc533150bee5924fbebe",
+    "src/lib/lessons/c2-reinforcement.ts": "adf43c44bf652ad260b648a4173f5ba15bd6558dd7f895d6fad3832f711530be",
+    "src/lib/lessons/c2.ts": "8cb3c60daab7e03929d3319f549b8f4794aba221c23e63539a5504d03765bbbc",
     "src/lib/lessons/cosas-coloquiales-reinforcement.ts": "67c0d74316eba59d2f5261182b9c7cf9a319cee4a4d2a04547a1022887783fd2",
     "src/lib/lessons/fill-blank-english.ts": "f2690b4a7b2921f3d6480ea0f6c2386281f62be9a5923e4a24c295ea4c784d1d",
     "src/lib/lessons/fill-blank-fixes-lower.ts": "82a4ed839602139fabb2fddf4e8ec81ab37fb9af01b27d72ec09ce415acf72a6",
@@ -40,7 +40,7 @@
     "src/lib/lessons/sequencing.ts": "22e46a1f099725a6035b19f812010d230c0a8f7b71ca16e41e27ef147f0ff77f",
     "src/lib/lessons/translate-blanks.ts": "7ecde5bc67651fab36ec1cd58fcf9a83dd2f2a2fe87e0e6d5e1436e8e25fa96f",
     "src/lib/lessons/types.ts": "053ada798b702d6e3eb27cc864864d7a4dfa8ec3ee167ecab66a8ed432e88cca",
-    "src/lib/lessons/units.ts": "d04e3030ade62d06747974b1890f38c78f58b9fd96c280b6832e2fa40358e389",
+    "src/lib/lessons/units.ts": "e0f7fc235796345aff3d64e776c4f102c872c2462860771009211311b7eba16a",
     "src/lib/lessons/weave.ts": "a738a84238c05e6d4d427d1afbef7ecbb3f683bc647d5d94def70e58546d3824",
     "src/lib/stories/a1-glosses.ts": "48d0c939724a362726361cde2d0cfd05c4db793e2757f602bbc49b2139e76273",
     "src/lib/stories/a1.ts": "8c3cc4a1a39e6f4a3ce988588e7982d05b51c8d5f6a66b126920e63cde86dadc",
