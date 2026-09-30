@@ -59,34 +59,60 @@ function fromRow(row: Record<string, unknown>): FlashcardEntry {
   };
 }
 
-// Fire-and-forget -- called from saveFlashcards after every local write.
-// Best-effort like everything else in this store: a network hiccup here
-// never blocks or throws for the caller.
+// Batches keep each request small: a frequency deck can add a thousand
+// cards at once, and PostgREST caps a select at 1,000 rows. Mirrors the
+// website's flashcardsSync.ts.
+const BATCH = 500;
+
+// What this session last pushed (or pulled) for each card, so a save only
+// uploads the cards that changed, and the ids the cloud has, so a card
+// removed here can be deleted there by id instead of with an ever-growing
+// "not in (...every id...)" filter.
+const pushedRow = new Map<string, string>();
+const cloudIds = new Set<string>();
+
+function rowKey(c: FlashcardEntry): string {
+  return JSON.stringify([
+    c.es, c.en, c.pos, c.level, c.levelPath, c.lessonSlug, c.lessonTitle, c.addedAt, c.source ?? null,
+    c.folderId ?? null, c.dueAt ?? null, c.box ?? null, c.reviewCount ?? null, c.lastReviewedAt ?? null,
+  ]);
+}
+
+// Fire-and-forget -- call after every local save. Best effort: a
+// signed-out session or a network hiccup never throws for the caller,
+// and local storage stays authoritative either way.
 export async function pushFlashcardsToCloud(map: Record<string, FlashcardEntry>): Promise<void> {
   try {
     const { data } = await supabase.auth.getSession();
     const userId = data.session?.user?.id;
     if (!userId) return;
-    const cards = Object.values(map);
-    if (cards.length > 0) {
-      await supabase.from("flashcards").upsert(cards.map((c) => toRow(userId, c)));
+    const changed = Object.values(map).filter((c) => pushedRow.get(c.id) !== rowKey(c));
+    for (let i = 0; i < changed.length; i += BATCH) {
+      const batch = changed.slice(i, i + BATCH);
+      const { error } = await supabase.from("flashcards").upsert(batch.map((c) => toRow(userId, c)));
+      if (error) return;
+      for (const c of batch) {
+        pushedRow.set(c.id, rowKey(c));
+        cloudIds.add(c.id);
+      }
     }
     if (hasMerged) {
-      const ids = cards.map((c) => c.id);
-      let query = supabase.from("flashcards").delete().eq("user_id", userId);
-      query = ids.length > 0 ? query.not("id", "in", `(${ids.map((id) => `"${id}"`).join(",")})`) : query;
-      await query;
+      const gone = [...cloudIds].filter((id) => !map[id]);
+      for (let i = 0; i < gone.length; i += BATCH) {
+        const batch = gone.slice(i, i + BATCH);
+        const { error } = await supabase.from("flashcards").delete().eq("user_id", userId).in("id", batch);
+        if (error) return;
+        for (const id of batch) {
+          cloudIds.delete(id);
+          pushedRow.delete(id);
+        }
+      }
     }
   } catch {
-    // ignore -- cloud sync is best-effort, local storage stays authoritative
+    // ignore
   }
 }
 
-// Pulls every remote card for this account and merges it into the local
-// map that's about to be saved -- called once per app session (see
-// AuthContext) before the merged flag lets pushFlashcardsToCloud start
-// pruning. Returns the merged map; the caller is responsible for saving
-// it locally.
 export async function mergeFlashcardsFromCloud(
   localMap: Record<string, FlashcardEntry>
 ): Promise<Record<string, FlashcardEntry>> {
@@ -94,15 +120,26 @@ export async function mergeFlashcardsFromCloud(
     const { data } = await supabase.auth.getSession();
     const userId = data.session?.user?.id;
     if (!userId) return localMap;
-    const { data: rows, error } = await supabase.from("flashcards").select("*").eq("user_id", userId);
-    if (error) return localMap;
+    const rows: Record<string, unknown>[] = [];
+    for (let from = 0; ; from += 1000) {
+      const { data: page, error } = await supabase
+        .from("flashcards")
+        .select("*")
+        .eq("user_id", userId)
+        .order("id")
+        .range(from, from + 999);
+      if (error) return localMap;
+      rows.push(...((page ?? []) as Record<string, unknown>[]));
+      if (!page || page.length < 1000) break;
+    }
     const merged = { ...localMap };
-    for (const row of rows ?? []) {
-      const card = fromRow(row as Record<string, unknown>);
+    cloudIds.clear();
+    pushedRow.clear();
+    for (const row of rows) {
+      const card = fromRow(row);
+      cloudIds.add(card.id);
+      pushedRow.set(card.id, rowKey(card));
       const existing = merged[card.id];
-      // Most-recently-touched wins when the same card exists on both
-      // sides (e.g. graded on one platform more recently than the
-      // other) -- everything else is a straightforward union.
       if (!existing || (card.lastReviewedAt ?? card.addedAt) > (existing.lastReviewedAt ?? existing.addedAt)) {
         merged[card.id] = card;
       }

@@ -18,6 +18,8 @@ export type AppStackParamList = {
   // lang defaults to "es" when omitted, so every existing "Flashcards"
   // navigation call (Spanish) keeps working unchanged.
   Flashcards: { lang?: "es" | "ja" } | undefined;
+  // Premade frequency decks (src/lib/decks) to add to Spanish flashcards.
+  FrequencyDecks: undefined;
   // Readings' level picker (A1-C1/C2) -- see ReadingLevelsScreen. Home
   // routes here; each level opens ReadingsList for that level.
   ReadingLevels: undefined;

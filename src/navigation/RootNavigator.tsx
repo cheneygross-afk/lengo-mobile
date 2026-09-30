@@ -16,6 +16,7 @@ import ReviewListScreen from "@/screens/ReviewListScreen";
 import ReviewDrillScreen from "@/screens/ReviewDrillScreen";
 import UnitTestScreen from "@/screens/UnitTestScreen";
 import FlashcardsScreen from "@/screens/FlashcardsScreen";
+import FrequencyDecksScreen from "@/screens/FrequencyDecksScreen";
 import ReadingLevelsScreen from "@/screens/ReadingLevelsScreen";
 import ReadingsListScreen from "@/screens/ReadingsListScreen";
 import StoryReaderScreen from "@/screens/StoryReaderScreen";
@@ -64,6 +65,7 @@ function AppNavigator() {
       <AppStack.Screen name="ReviewDrill" component={ReviewDrillScreen} options={{ title: "Review" }} />
       <AppStack.Screen name="UnitTest" component={UnitTestScreen} options={{ title: "Test out" }} />
       <AppStack.Screen name="Flashcards" component={FlashcardsScreen} options={{ title: "Flashcards" }} />
+      <AppStack.Screen name="FrequencyDecks" component={FrequencyDecksScreen} options={{ title: "Frequency decks" }} />
       <AppStack.Screen name="ReadingLevels" component={ReadingLevelsScreen} options={{ title: "Readings" }} />
       <AppStack.Screen
         name="ReadingsList"

@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "f65497f4ef424be319161791ccb626ab3a9ab1ea",
+  "commit": "9bccc4ad42a9b47b5531498fc6c74f22a5457d17",
   "files": {
     "src/lib/lessons/a1-additions.ts": "5e2de5cde5d685adaec5cd4c5c818ed420ecc224d408aeb2bf16fe5ed8321430",
     "src/lib/lessons/a1-reinforcement.ts": "99c5215b4e0e4254204b5202f632cee1a88643c71efb19e8070c26bb05871167",
@@ -88,6 +88,13 @@
     "src/lib/conjugation/verbs.ts": "0de8e35402659982784b77258e9256e2295b6530f16a3dd61807ba798a1e6033",
     "src/lib/glossary/data.ts": "01304fa5a1a186dda5bf713c5d519455a99495a6d6a15be48c5c1b76fbc15144",
     "src/lib/glossary/search.ts": "08041e20520d314fd8e00bd89943e2bbfd9ee058cfc5726e7ba91604883a2ee5",
+    "src/lib/decks/frequency-a1.ts": "3264e05ae2701be11026353716cd0ca8a2075fcf51c38025fc1652c94cc14714",
+    "src/lib/decks/frequency-a2.ts": "af9d9d405288c5cddcc248aa05b6fae1fd1c832fc5f0f69905c81576acac812e",
+    "src/lib/decks/frequency-b1.ts": "e526c54d87374ff49b9bdf2fdaee45cb35042a46d178f296a4c45b47911207c3",
+    "src/lib/decks/frequency-b2.ts": "50766f1169ce089a2ba9c14a64a57c18ed9da7aa511ff4e82d8f29c0003d95ce",
+    "src/lib/decks/frequency-c1.ts": "3c5377bb947d8636fc5444d80f18f66b6e7806ee8e789f3673cf094683ce4fc2",
+    "src/lib/decks/index.ts": "cf112ca08c66e476ea7949ef164bf5e6b91c23efe21f00fa2db767db911c4ee3",
+    "src/lib/decks/types.ts": "56a3707da327558a9fc245886d132e7e0575253ebd4c50c71632c81794571342",
     "src/lib/placementTest.ts": "8e67bf609a107457deeb4cc4ad25c2e6e1ab567bb665d9b57a3d74e23bfeb449"
   }
 }
