@@ -88,7 +88,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "salíó"
             ],
             "correctIndex": 0,
-            "explanation": "The third-person singular preterite of -ir verbs ends in -ió, with an accent: salió."
+            "explanation": "-Ir verbs take -ió in the él/ella preterite, with the accent: salió. \"Salio\" is missing the accent, \"salí\" is yo, and \"salíó\" has two accents."
           }
         ]
       },
@@ -148,7 +148,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Ella escribiendo una carta."
         ],
         "correctIndex": 1,
-        "explanation": "\"Escribió\" is the correct third-person preterite of escribir."
+        "explanation": "Escribió is the él/ella preterite of escribir (-ir verbs take -ió). \"Escribo\" is the yo present, \"escribe... ayer\" mixes the present with a past time word, and \"escribiendo\" is a gerund with no conjugated verb."
       },
       {
         "type": "multiple-choice",
@@ -160,7 +160,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "llego"
         ],
         "correctIndex": 0,
-        "explanation": "The yo form of llegar in the preterite has the spelling change g→gu plus the accented -é ending: llegué."
+        "explanation": "In the yo preterite, llegar adds u to keep the hard g sound, plus an accented -é: llegué. \"Llegue\" (no accent) is subjunctive, \"llegó\" is él/ella, and \"llego\" is the yo present."
       }
     ]
   },
@@ -213,7 +213,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               1,
               2
             ],
-            "explanation": "El diálogo menciona que manejaron, nadaron y caminaron — no menciona un barco."
+            "explanation": "The dialogue says they drove (manejaron), swam (nadaron) and walked on the beach (caminaron). It never mentions renting a boat (alquilaron un barco)."
           }
         ]
       },
@@ -613,7 +613,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "dijaron"
         ],
         "correctIndex": 1,
-        "explanation": "The ellos preterite of decir drops the i: dijeron."
+        "explanation": "Decir has the irregular stem dij-, and after j the ellos ending is -eron, not -ieron: dijeron. \"Dijieron\" keeps the i, \"decieron\" uses the regular stem, and \"dijaron\" uses the -ar ending."
       },
       {
         "type": "multi-select",
@@ -685,7 +685,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Porque olvidó la reunión"
             ],
             "correctIndex": 0,
-            "explanation": "El diálogo dice: \"El jefe vino tarde y no pudo empezar a tiempo.\""
+            "explanation": "The dialogue says \"El jefe vino tarde y no pudo empezar a tiempo\": he couldn't start because he arrived late. It doesn't mention a computer, illness or forgetting the meeting."
           }
         ]
       },
@@ -928,7 +928,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "still"
         ],
         "correctIndex": 1,
-        "explanation": "\"De repente\" means \"suddenly.\""
+        "explanation": "De repente means suddenly and usually introduces a preterite event. Always is siempre, sometimes is a veces, and still is todavía."
       }
     ]
   },
@@ -996,7 +996,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "tenía"
             ],
             "correctIndex": 1,
-            "explanation": "Tener is regular in the imperfect: tenían."
+            "explanation": "Tener is regular in the imperfect: tenían. \"Tuvieron\" is the preterite, \"tenía\" is singular, and \"tenieron\" doesn't exist."
           }
         ]
       },
@@ -1083,7 +1083,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Comí pizza una vez."
         ],
         "correctIndex": 1,
-        "explanation": "\"Todos los días\" signals a repeated, habitual action — the imperfect."
+        "explanation": "Todos los días marks a repeated, habitual action, which takes the imperfect: comía. \"Ayer\", \"de repente\" and \"una vez\" mark single, finished events with the preterite comí."
       },
       {
         "type": "fill-blank",
@@ -1106,7 +1106,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "Ser, ir, and ver are the only three irregular verbs in the imperfect."
+        "explanation": "Only ser (era), ir (iba) and ver (veía) are irregular in the imperfect. \"Hablar\" is regular: hablaba."
       }
     ]
   },
@@ -1149,7 +1149,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Trabajaba"
             ],
             "correctIndex": 1,
-            "explanation": "El texto dice: \"siempre cantaba en la cocina.\""
+            "explanation": "The text says \"siempre cantaba en la cocina\": she sang in the kitchen. Reading the paper, sleeping and working aren't mentioned there."
           }
         ]
       },
@@ -1357,7 +1357,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "to be alone"
         ],
         "correctIndex": 1,
-        "explanation": "\"Soler\" + infinitive means \"to usually do (something).\""
+        "explanation": "Soler + infinitive means to usually do something: suelo caminar = I usually walk. To sell is vender, to solve is resolver, and to be alone is estar solo."
       },
       {
         "type": "matching",
@@ -1474,7 +1474,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               2,
               3
             ],
-            "explanation": "\"De repente\" (suddenly) señala una acción completa y puntual: el pretérito."
+            "explanation": "Siempre and todos los días mark habits, and mientras marks an action in progress, all imperfect. \"De repente\" (suddenly) marks a single event, which takes the preterite."
           }
         ]
       },
@@ -1517,7 +1517,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Yo tuve veinte años cuando me graduaba."
         ],
         "correctIndex": 0,
-        "explanation": "La edad se describe en imperfecto (tenía); el evento puntual va en pretérito (me gradué)."
+        "explanation": "Age is background description, so the imperfect (tenía), and graduating is a single event, so the preterite (me gradué). \"Tuve veinte años\" makes age an event, and \"me graduaba\" makes the graduation ongoing."
       },
       {
         "type": "fill-blank",
@@ -1540,7 +1540,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "\"Siempre\" señala una acción habitual: imperfecto."
+        "explanation": "Ayer, una vez and de repente mark single, completed events, so they go with the preterite. \"Siempre\" signals a habit, which usually takes the imperfect."
       }
     ]
   },
@@ -1582,7 +1582,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Porque era de noche"
             ],
             "correctIndex": 1,
-            "explanation": "El texto dice que el perro \"tenía mucho miedo\", así que el hombre se acercó despacio."
+            "explanation": "The text says the dog \"tenía mucho miedo\", so the man approached slowly. He wasn't in a hurry, and rain and night aren't the reason given."
           }
         ]
       },
@@ -1790,7 +1790,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Presente"
         ],
         "correctIndex": 1,
-        "explanation": "\"Corría\" describe una acción en progreso, sin final marcado: imperfecto."
+        "explanation": "Corría describes an action in progress with no end point, so it's the imperfect. The preterite would be corrió, the future correrá and the present corre."
       },
       {
         "type": "translate",
@@ -1821,7 +1821,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Yo estudié cuando mis padres llegaron a casa."
         ],
         "correctIndex": 0,
-        "explanation": "La acción en progreso (estudiaba, imperfecto) es interrumpida por un evento puntual (llegaron, pretérito)."
+        "explanation": "The action in progress takes the imperfect (estudiaba), and the event that interrupts it takes the preterite (llegaron). The other options put the arrival in the imperfect or make studying a completed event."
       },
       {
         "type": "fill-blank",
@@ -1876,7 +1876,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Mi abuelo tuvo ochenta años cuando aprendía a nadar."
         ],
         "correctIndex": 0,
-        "explanation": "La edad se describe siempre en imperfecto (tenía); aprender a nadar es un logro puntual, así que va en pretérito (aprendió)."
+        "explanation": "Age is always background in the past, so the imperfect (tenía), and learning to swim is a one-time achievement, so the preterite (aprendió). \"Tuvo ochenta años\" and \"aprendía\" swap those roles."
       },
       {
         "type": "multiple-choice",
@@ -1888,7 +1888,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Ana y Luis se van a conocer en una fiesta."
         ],
         "correctIndex": 1,
-        "explanation": "\"Conocer\" en pretérito (conocieron) significa \"met for the first time\"; en imperfecto (conocían) significaría que ya se conocían de antes."
+        "explanation": "Conocer in the preterite (se conocieron) means they met for the first time. \"Se conocían\" means they already knew each other, \"se conocen\" is present, and \"se van a conocer\" is future."
       },
       {
         "type": "multi-select",
@@ -1998,7 +1998,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "La hora siempre va en imperfecto (eran) y una acción en progreso también (cocinaba); \"cociné\" y \"fueron\" están mal usados en este contexto."
+        "explanation": "An action in progress (cocinaba) and clock time (eran) are background, so imperfect; the doorbell and the arrival are events (sonó, llegamos). \"Mientras cociné\" and \"Fueron las tres\" put background in the preterite."
       }
     ]
   },
@@ -2078,7 +2078,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Lo ahora necesito."
             ],
             "correctIndex": 1,
-            "explanation": "El pronombre de objeto directo va antes del verbo conjugado: lo necesito."
+            "explanation": "An object pronoun goes before a conjugated verb: lo necesito. \"Necesito lo\" and \"Necesito ahora lo\" put it after the verb, and \"Lo ahora necesito\" splits it from the verb."
           }
         ]
       },
@@ -2138,7 +2138,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "las"
             ],
             "correctIndex": 1,
-            "explanation": "\"Camisa\" es femenino singular, así que el pronombre correcto es la."
+            "explanation": "Camisa is feminine singular, so it's replaced by la. \"Lo\" is masculine, and \"los\" and \"las\" are plural."
           }
         ]
       }
@@ -2161,7 +2161,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "A comprarlos voy."
         ],
         "correctIndex": 0,
-        "explanation": "El pronombre puede unirse al infinitivo: comprarlos."
+        "explanation": "The pronoun can attach to the infinitive: voy a comprarlos (or go before voy: los voy a comprar). \"Voy comprarlos a\" misplaces a, \"Los voy a comprarlos\" doubles the pronoun, and \"A comprarlos voy\" scrambles the order."
       },
       {
         "type": "fill-blank",
@@ -2183,7 +2183,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "La (singular) y las (plural) son los pronombres femeninos."
+        "explanation": "La (singular) and las (plural) are the feminine direct object pronouns. \"Lo\" and \"los\" are masculine."
       }
     ]
   },
@@ -2397,7 +2397,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "to probe"
         ],
         "correctIndex": 1,
-        "explanation": "\"Probarse\" means \"to try on\" (clothing)."
+        "explanation": "Probarse (reflexive) means to try on clothes. To prove is demostrar, to taste is probar (not reflexive), and to probe is investigar."
       },
       {
         "type": "matching",
@@ -2495,7 +2495,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Nos"
             ],
             "correctIndex": 1,
-            "explanation": "\"A ti\" corresponde al pronombre te."
+            "explanation": "A ti matches the pronoun te: te explico. \"Le\" is for él/ella/usted, \"les\" for them, and \"nos\" for us."
           }
         ]
       },
@@ -2555,7 +2555,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Una tarjeta"
             ],
             "correctIndex": 1,
-            "explanation": "El texto dice: \"le voy a regalar unos audífonos.\""
+            "explanation": "The text says \"le voy a regalar unos audífonos\", so he'll give her headphones, not a book, flowers or a card."
           }
         ]
       }
@@ -2578,7 +2578,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Doy un regalo le."
         ],
         "correctIndex": 1,
-        "explanation": "El pronombre indirecto va antes del verbo conjugado: le doy."
+        "explanation": "An indirect object pronoun goes before a conjugated verb: le doy. \"Doy le\" and \"Doy un regalo le\" put it after, and \"Le regalo doy\" scrambles the order."
       },
       {
         "type": "multi-select",
@@ -2594,7 +2594,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "\"Correr\" (to run) no suele llevar objeto indirecto."
+        "explanation": "Dar, prestar and explicar take an indirect object (to someone): le doy, le presto, le explico. \"Correr\" (to run) doesn't have someone receiving anything."
       },
       {
         "type": "fill-blank",
@@ -2824,7 +2824,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Solo con verbos irregulares"
         ],
         "correctIndex": 1,
-        "explanation": "Le y les no distinguen género — solo persona y número."
+        "explanation": "Le and les change only for person and number, never for gender: le works for him and her. So it's not \"always\", and plural or irregular verbs don't change that."
       }
     ]
   },
@@ -2895,7 +2895,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "vestirse"
             ],
             "correctIndex": 0,
-            "explanation": "Peinarse means \"to comb/style one's hair.\""
+            "explanation": "Peinarse means to comb or style your hair. \"Afeitarse\" is to shave, \"maquillarse\" to put on makeup, and \"vestirse\" to get dressed."
           }
         ]
       },
@@ -2958,7 +2958,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               2,
               3
             ],
-            "explanation": "El texto no menciona que Carlos se maquille."
+            "explanation": "Carlos se ducha, se cepilla los dientes and se viste rápido. The text never says \"se maquilla\" (puts on makeup)."
           }
         ]
       }
@@ -2981,7 +2981,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Bañamos el carro."
         ],
         "correctIndex": 1,
-        "explanation": "\"Me baño\" indica que la acción recae sobre el propio sujeto: reflexivo."
+        "explanation": "Me baño is reflexive: the action falls on the subject (I bathe myself). \"Baño al perro\", \"Baño la ropa\" and \"Bañamos el carro\" act on something else, so they aren't reflexive."
       },
       {
         "type": "multi-select",
@@ -2997,7 +2997,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "\"Comer\" no es reflexivo por sí mismo."
+        "explanation": "Despertarse, vestirse and cepillarse are reflexive routine verbs: you do them to yourself. \"Comer\" isn't reflexive in a daily routine."
       }
     ]
   },
@@ -3220,7 +3220,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "to wash the coat"
         ],
         "correctIndex": 1,
-        "explanation": "\"Ponerse\" + ropa significa \"to put on\" that clothing."
+        "explanation": "Ponerse + clothing means to put on: ponerse el abrigo. To remove is quitarse, to wash is lavar, and \"to set\" is a literal translation of poner that doesn't fit clothing."
       }
     ]
   },
@@ -3283,7 +3283,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "menos que"
             ],
             "correctIndex": 1,
-            "explanation": "Tanto/a/os/as...como se usa con sustantivos, concordando en género y número."
+            "explanation": "With nouns, use tanto/tanta/tantos/tantas + noun + como, agreeing with the noun. \"Tan...como\" is for adjectives and adverbs, and \"más que\" and \"menos que\" express inequality, not equal amounts."
           }
         ]
       },
@@ -3368,7 +3368,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "La negra"
             ],
             "correctIndex": 1,
-            "explanation": "El texto dice: \"la roja es la mejor opción de todas.\""
+            "explanation": "The text says \"la roja es la mejor opción de todas\", so the red one, not the blue, green or black jacket."
           }
         ]
       }
@@ -3391,7 +3391,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "menos joven"
         ],
         "correctIndex": 1,
-        "explanation": "\"Menor\" es la forma comparativa irregular de joven cuando se habla de edad."
+        "explanation": "For age, younger is menor. \"Más joven\" is also correct for people but less typical for siblings, \"más pequeño\" means smaller, and \"menos joven\" means less young, which is the opposite."
       },
       {
         "type": "fill-blank",
@@ -3603,7 +3603,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "\"Caro\" usa la forma regular: más caro."
+        "explanation": "Bueno (mejor), malo (peor) and viejo (mayor, for people's age) have irregular comparatives. \"Caro\" is regular: más caro."
       },
       {
         "type": "word-order",
@@ -3690,7 +3690,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "dij-"
             ],
             "correctIndex": 2,
-            "explanation": "El futuro de decir usa la raíz irregular dir-: diré, dirás, dirá..."
+            "explanation": "The future of decir uses the irregular stem dir-: diré, dirás, dirá. \"Decir-\" is the regular pattern it doesn't follow, \"dic-\" is the present stem, and \"dij-\" is the preterite."
           }
         ]
       },
@@ -3753,7 +3753,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               1,
               3
             ],
-            "explanation": "\"Ayer\" (yesterday) es una expresión de pasado, no de futuro."
+            "explanation": "Algún día, dentro de cinco años and en el futuro point forward in time. \"Ayer\" (yesterday) is a past expression."
           }
         ]
       }
@@ -3776,7 +3776,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "hag-"
         ],
         "correctIndex": 2,
-        "explanation": "El futuro de hacer usa la raíz irregular har-: haré, harás, hará..."
+        "explanation": "The future of hacer uses the irregular stem har-: haré, harás, hará. \"Hac-\" is the infinitive stem, \"hic-\" is the preterite, and \"hag-\" is the yo present and subjunctive."
       },
       {
         "type": "fill-blank",
@@ -3799,7 +3799,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "\"Hablar\" es regular en el futuro: hablaré, hablarás..."
+        "explanation": "Tener (tendr-), salir (saldr-) and saber (sabr-) have irregular future stems. \"Hablar\" is regular: hablaré, hablarás."
       }
     ]
   },
@@ -3842,7 +3842,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Jubilarse pronto"
             ],
             "correctIndex": 1,
-            "explanation": "La persona dice: \"seré gerente de mi propio equipo.\""
+            "explanation": "The speaker says \"seré gerente de mi propio equipo\": the goal is to manage their own team. Quitting, working from home and retiring early aren't mentioned."
           }
         ]
       },
@@ -4057,7 +4057,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "El primero solo se usa en España"
         ],
         "correctIndex": 1,
-        "explanation": "Ir a + infinitivo suena más cercano e informal; el futuro simple suena más formal o lejano."
+        "explanation": "Ir a + infinitive sounds closer and more everyday; the simple future sounds more formal or more distant. So there is a difference, both forms exist, and ir a is used everywhere, not only in Spain."
       }
     ]
   },
@@ -4133,7 +4133,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "ninguna"
             ],
             "correctIndex": 1,
-            "explanation": "\"Por\" expresa causa: por la lluvia (because of the rain)."
+            "explanation": "Por expresses a cause or reason: por la lluvia (because of the rain). Para expresses purpose or destination, so it isn't \"both\" or \"neither\"."
           }
         ]
       },
@@ -4192,7 +4192,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               2,
               3
             ],
-            "explanation": "\"Fecha límite\" (deadline) usa para, no por."
+            "explanation": "Por marks duration, cause and exchange of money. A deadline (fecha límite) takes para: para el lunes."
           }
         ]
       }
@@ -4215,7 +4215,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "por ejemplo"
         ],
         "correctIndex": 2,
-        "explanation": "\"Por supuesto\" significa \"of course.\""
+        "explanation": "Por supuesto means of course. \"Por eso\" means that's why, \"por fin\" finally, and \"por ejemplo\" for example."
       },
       {
         "type": "fill-blank",
@@ -4238,7 +4238,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "\"Causa\" (reason) corresponde a por, no a para."
+        "explanation": "Para marks a destination, a deadline and a recipient. Cause or reason takes por, not para."
       }
     ]
   },
@@ -4281,7 +4281,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Por una herida"
             ],
             "correctIndex": 1,
-            "explanation": "El paciente dice: \"Vengo por un dolor de cabeza muy fuerte.\""
+            "explanation": "The patient says \"Vengo por un dolor de cabeza muy fuerte\": he came because of a bad headache, not a fever, allergy or wound."
           }
         ]
       },
@@ -4497,7 +4497,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "ninguna"
         ],
         "correctIndex": 1,
-        "explanation": "El intercambio de dinero usa por: pagué diez dólares por el boleto."
+        "explanation": "An exchange of money takes por: pagué diez dólares por el boleto. \"Para\" is for purpose, destination or recipient, so the two aren't interchangeable here."
       }
     ]
   },
@@ -4548,7 +4548,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Viajó para Madrid."
         ],
         "correctIndex": 0,
-        "explanation": "\"Por miedo\" expresa la causa del grito; las demás opciones usan para (propósito o destino)."
+        "explanation": "Por miedo gives the cause (he shouted out of fear). The other options use para for a purpose or a destination, not a cause."
       },
       {
         "type": "word-order",
@@ -4593,7 +4593,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "\"Un destino final\" corresponde a para, no a por."
+        "explanation": "Por marks duration, a cause or motive, and an exchange. A final destination takes para: salgo para Madrid."
       },
       {
         "type": "matching",
@@ -4667,7 +4667,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "David estudia para las noches para terminar su tarea a tiempo."
         ],
         "correctIndex": 0,
-        "explanation": "\"Por las noches\" expresa el período de tiempo (at night); \"para terminar\" expresa el propósito de estudiar."
+        "explanation": "Por las noches gives a period of time (at night), and para terminar gives the purpose. The wrong options swap them, or use por for a purpose or para for a time period."
       },
       {
         "type": "multiple-choice",
@@ -4679,7 +4679,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Ana viaja hacia la empresa cada mañana."
         ],
         "correctIndex": 0,
-        "explanation": "\"Trabajar para\" una empresa indica una relación laboral permanente (empleador), a diferencia de \"trabajar por alguien\" (sustitución)."
+        "explanation": "Trabajar para + a company names your employer: Ana is a permanent employee. Standing in for someone would be trabajar por alguien, and nothing here says she bought the company or is traveling toward it."
       },
       {
         "type": "fill-blank",
@@ -4786,7 +4786,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Llamo ___ Carlos."
             ],
             "correctIndex": 1,
-            "explanation": "El periódico es una cosa, no una persona, así que no se usa la a personal en esta oración."
+            "explanation": "The personal a goes before a specific person as direct object: busco a mi hermana, visito a mi tío, llamo a Carlos. El periódico is a thing, so leo el periódico has no a."
           }
         ]
       },
@@ -4825,7 +4825,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Tengo a una prima en México."
             ],
             "correctIndex": 1,
-            "explanation": "Aquí tener indica que la persona está físicamente presente en ese momento, así que se usa la a personal. Las otras oraciones expresan posesión simple y no deben llevar a."
+            "explanation": "Here tener means holding someone (he's physically in your arms), so the personal a is used. The other sentences are plain possession (tengo dos hermanos, tres gatos, una prima), which takes no a."
           }
         ]
       },
@@ -4954,7 +4954,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Conozco al libro nuevo."
         ],
         "correctIndex": 0,
-        "explanation": "Pedro es una persona específica, objeto directo de conocer, así que necesita la a personal. Roma es un lugar y el libro es una cosa: no llevan a personal."
+        "explanation": "Pedro is a specific person as direct object, so conocer needs the personal a: conozco a Pedro. \"Conozco Pedro\" leaves it out, while a city (Roma) and a thing (el libro) never take it."
       },
       {
         "type": "fill-blank",
@@ -5002,7 +5002,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           2,
           4
         ],
-        "explanation": "Juan, mi vecina y mis primos son personas específicas y objetos directos, así que necesitan la a personal. La tienda y el periódico son cosas."
+        "explanation": "Juan, mi vecina and mis primos are specific people as direct objects, so they need the personal a. La tienda and el periódico are things, so they don't."
       },
       {
         "type": "translate",
@@ -5100,7 +5100,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "No tengo nadie problema."
             ],
             "correctIndex": 1,
-            "explanation": "Ninguno se acorta a ningún delante de un sustantivo masculino singular; problema es masculino (el problema) aunque termine en -a, así que se usa ningún."
+            "explanation": "Ninguno shortens to ningún before a masculine singular noun, and problema is masculine: ningún problema. \"Ninguno problema\" doesn't shorten, \"ninguna\" is feminine, and \"nadie\" means nobody, not any."
           }
         ]
       }
@@ -5116,7 +5116,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Viene no nadie a la fiesta."
         ],
         "correctIndex": 1,
-        "explanation": "Cuando la palabra negativa va después del verbo, se necesita no antes: No viene nadie. Nunca se combinan no y una palabra negativa antes del verbo."
+        "explanation": "When the negative word comes after the verb, you need no before the verb: No viene nadie. \"Nadie no viene\" doubles the negative before the verb, and \"No nadie\" and \"Viene no nadie\" put no in the wrong place."
       },
       {
         "type": "fill-blank",
@@ -5439,7 +5439,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "dificílmente"
             ],
             "correctIndex": 1,
-            "explanation": "Difícil ya lleva tilde en la i, y esa tilde se conserva en la misma posición al formar el adverbio: difícilmente."
+            "explanation": "An adverb in -mente keeps the adjective's accent where it was: difícil → difícilmente. \"Dificilmente\" loses it, and \"difícilménte\" and \"dificílmente\" move or add accents."
           }
         ]
       }
@@ -5463,7 +5463,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Ella conduce cuidadosoamente."
         ],
         "correctIndex": 1,
-        "explanation": "Cuidadoso se convierte en cuidadosa (femenino) y luego se añade -mente: cuidadosamente."
+        "explanation": "To make an adverb, take the feminine adjective and add -mente: cuidadosa → cuidadosamente. \"Cuidadosomente\" uses the masculine, \"cuidadomente\" drops -osa, and \"cuidadosoamente\" adds an extra o."
       },
       {
         "type": "translate",
@@ -5680,7 +5680,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           2,
           4
         ],
-        "explanation": "Rápidamente y fácilmente conservan la tilde del adjetivo original (rápido, fácil). Felizmente no lleva tilde porque feliz tampoco la lleva."
+        "explanation": "Adverbs keep the adjective's accent: rápido → rápidamente, fácil → fácilmente, and feliz has none, so felizmente. \"Rapidamente\" and \"facilmente\" are missing the accent."
       }
     ]
   },
@@ -5724,7 +5724,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Ven aquí."
             ],
             "correctIndex": 1,
-            "explanation": "Con un desconocido se usa un saludo cortés como Perdón junto con el registro formal (usted), ya que no existe confianza previa entre las dos personas."
+            "explanation": "With a stranger, open politely with Perdón and use usted: ¿me puede ayudar? \"Oye, dime\" and \"Ven aquí\" are informal tú commands and sound rude to a stranger, and \"¿Qué haces?\" doesn't ask for help."
           }
         ]
       },
@@ -5776,7 +5776,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Doblar a la izquierda"
         ],
         "correctIndex": 1,
-        "explanation": "Doble es el mandato formal (usted) del verbo doblar. Al hablar con un desconocido en la calle se usa la forma de usted, no la de tú (dobla)."
+        "explanation": "With a stranger, use the formal usted command: doble. \"Dobla\" is the informal tú command, \"Doblas\" is a statement (you turn), and \"Doblar\" is the infinitive."
       },
       {
         "type": "fill-blank",
@@ -5801,7 +5801,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           2,
           4
         ],
-        "explanation": "¿Cómo llego a...?, ¿Dónde está...? y ¿Está cerca de aquí? son preguntas directas para pedir direcciones; las otras opciones no piden una dirección."
+        "explanation": "¿Cómo llego a...?, ¿Dónde está...? and ¿Está cerca de aquí? all ask for directions. \"Me gusta mucho este lugar\" and \"Vivo aquí desde hace años\" are statements, not questions about the way."
       },
       {
         "type": "matching",
@@ -6013,7 +6013,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Seguir derecho dos cuadras."
         ],
         "correctIndex": 1,
-        "explanation": "Siga es el mandato formal (usted) del verbo seguir, apropiado para hablarle a un desconocido que pide direcciones."
+        "explanation": "Siga is the formal (usted) command of seguir, right for a stranger. \"Sigue\" is the informal tú command, \"Sigues\" is a statement, and \"Seguir\" is the infinitive."
       }
     ]
   },
@@ -6090,7 +6090,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "el cliente"
             ],
             "correctIndex": 1,
-            "explanation": "Mesero es la forma más común en gran parte de Latinoamérica, mientras que camarero predomina en España."
+            "explanation": "Mesero is the most common word in much of Latin America; \"camarero\" is typical of Spain. \"El cocinero\" is the cook, and \"el cliente\" is the customer."
           }
         ]
       },
@@ -6127,7 +6127,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Yo como el pollo."
             ],
             "correctIndex": 1,
-            "explanation": "Quisiera suaviza la petición y es la forma más cortés y natural de pedir comida, mientras que quiero puede sonar más directo o incluso brusco."
+            "explanation": "Quisiera softens a request and sounds most polite. \"Yo quiero\" is more direct, \"Dame\" is a blunt command, and \"Yo como el pollo\" means I eat the chicken, not a request."
           }
         ]
       }
@@ -6143,7 +6143,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "¿Está incluida la propina?"
         ],
         "correctIndex": 1,
-        "explanation": "¿Tiene una mesa para dos? se usa para preguntar si hay disponibilidad al llegar sin reserva previa."
+        "explanation": "¿Tiene una mesa para dos? asks if there's a free table. \"¿Me podría traer la cuenta?\" asks for the bill, \"Soy vegetariano\" is about food, and \"¿Está incluida la propina?\" asks about the tip."
       },
       {
         "type": "fill-blank",
@@ -6167,7 +6167,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "Camarero/camarera (España) y mesero/mesera (Latinoamérica) significan 'waiter/waitress'; cocinero significa 'cook', no camarero."
+        "explanation": "Camarero/camarera (Spain) and mesero (Latin America) mean waiter or waitress. \"El cocinero\" is the cook."
       },
       {
         "type": "matching",
@@ -6305,7 +6305,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               1,
               2
             ],
-            "explanation": "Al final, la clienta pide la cuenta (¿Nos podría traer la cuenta?) y dice que van a pagar con tarjeta."
+            "explanation": "At the end she asks for the bill (¿Nos podría traer la cuenta?) and says they'll pay by card. She asked for \"la carta\" (the menu) and a table earlier, not at the end."
           }
         ]
       }
@@ -6359,7 +6359,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Para pagar con tarjeta"
         ],
         "correctIndex": 1,
-        "explanation": "La clienta menciona su alergia antes de confirmar su pedido, para asegurarse de que el plato del día no contenga frutos secos."
+        "explanation": "She mentions her nut allergy to make sure the dish of the day doesn't contain nuts. It has nothing to do with the bill, a reservation or paying by card."
       }
     ]
   },
@@ -6405,7 +6405,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "trabajaré"
             ],
             "correctIndex": 1,
-            "explanation": "La terminación de yo en -ar es -é."
+            "explanation": "The yo preterite of -ar verbs ends in accented -é: trabajé. \"Trabajo\" is present, \"trabajaba\" is imperfect, and \"trabajaré\" is future."
           }
         ]
       },
@@ -6622,7 +6622,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "tener"
             ],
             "correctIndex": 0,
-            "explanation": "Aquí 'fue' viene de 'ser', describiendo una profesión."
+            "explanation": "Being a teacher is a profession, so the verb is ser: fue profesora. Ir shares the form fue but doesn't fit, and estar and tener have other forms (estuvo, tuvo)."
           },
           {
             "type": "fill-blank",
@@ -6867,7 +6867,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "leiió"
         ],
         "correctIndex": 0,
-        "explanation": "Between two vowels the i of -ió becomes y: leyó."
+        "explanation": "Between two vowels, the i of -ió becomes y: leyó. \"Leió\" keeps the i, \"leó\" drops it, and \"leiió\" doubles it."
       },
       {
         "type": "fill-blank",
@@ -7418,7 +7418,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Ella tenía veinte años."
             ],
             "correctIndex": 1,
-            "explanation": "«Llegamos» es pretérito: marca un evento completado en un momento específico."
+            "explanation": "Llegamos (a las ocho) is preterite: a completed event at a specific time. \"Llovía\", \"hacía\" and \"tenía\" are imperfect, describing background or states."
           }
         ]
       },
@@ -7456,7 +7456,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Veo la tele cuando llamaste."
             ],
             "correctIndex": 0,
-            "explanation": "La acción de fondo (veía) va en imperfecto; la interrupción (llamaste) va en pretérito."
+            "explanation": "The background action goes in the imperfect (veía) and the interruption in the preterite (llamaste). \"Llamabas\" isn't an interruption, \"Vi\" makes watching a finished event, and \"Veo\" is present."
           }
         ]
       }
@@ -7472,7 +7472,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Vivíamos cerca del mar."
         ],
         "correctIndex": 1,
-        "explanation": "«Compré» es pretérito: señala una acción completada en un momento concreto."
+        "explanation": "Compré is preterite: a completed action at a specific moment. \"Hacía\", \"tenía\" and \"vivíamos\" are imperfect, which describes background, states or habits."
       },
       {
         "type": "fill-blank",
@@ -7516,7 +7516,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Ha hecho sol toda la semana."
         ],
         "correctIndex": 1,
-        "explanation": "Para describir el clima como telón de fondo se usa el imperfecto: hacía sol."
+        "explanation": "Weather as background description takes the imperfect: hacía sol. \"Hizo sol por cinco minutos\" and \"Hizo sol de repente\" are bounded events, and \"Ha hecho\" is the present perfect."
       }
     ]
   },
@@ -7554,7 +7554,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Comieron pizza una vez."
             ],
             "correctIndex": 0,
-            "explanation": "El imperfecto «comíamos» indica una rutina repetida; las otras describen eventos puntuales."
+            "explanation": "The imperfect comíamos marks a repeated routine (los viernes). \"Comimos... el viernes pasado\", \"Comí ayer\" and \"una vez\" are single events, so they take the preterite."
           }
         ]
       },
@@ -7609,7 +7609,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Es las tres."
             ],
             "correctIndex": 1,
-            "explanation": "La hora en el pasado se expresa casi siempre con el imperfecto: eran las tres."
+            "explanation": "Clock time in the past is background, so the imperfect, and it's plural for three: eran las tres. \"Fueron\" and \"Fue\" are preterite, and \"Es las tres\" is present and singular."
           }
         ]
       }
@@ -7632,7 +7632,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Tengo quince años."
         ],
         "correctIndex": 1,
-        "explanation": "La edad en el pasado casi siempre se expresa con el imperfecto: tenía quince años."
+        "explanation": "Age in the past is background description, so the imperfect: tenía quince años. \"Tuve\" and \"tuvo\" are preterite, and \"Tengo\" is present."
       },
       {
         "type": "fill-blank",
@@ -7687,7 +7687,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Iba a saber la noticia pronto."
         ],
         "correctIndex": 1,
-        "explanation": "«Supe» en pretérito significa «me enteré», es decir, el momento en que se descubrió la información."
+        "explanation": "In the preterite, saber means found out: supe = me enteré, the moment you learned it. \"La sabía\" (imperfect) would mean you already knew, and the other options describe forgetting or the future."
       }
     ]
   },
@@ -7759,7 +7759,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Quería conocerla pero no pude."
             ],
             "correctIndex": 1,
-            "explanation": "«Conocí» en pretérito significa que la vio por primera vez, es decir, el momento del encuentro."
+            "explanation": "In the preterite, conocer means met for the first time: conocí a Marta. \"La conocía\" (imperfect) means you already knew her, and knowing all about her or wanting to meet her aren't what conocí says."
           },
           {
             "type": "fill-blank",
@@ -7861,7 +7861,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "llegaba / llovía"
         ],
         "correctIndex": 0,
-        "explanation": "La acción puntual de llegar va en pretérito (llegué); la lluvia de fondo va en imperfecto (llovía)."
+        "explanation": "Arriving is a single event (preterite llegué), and the rain is background (imperfect llovía). \"Llegaba\" makes the arrival ongoing, and \"llovió\" makes the rain a completed event."
       }
     ]
   },
@@ -7970,7 +7970,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "las"
         ],
         "correctIndex": 3,
-        "explanation": "\"Las cartas\" es femenino plural, así que se reemplaza con \"las\"."
+        "explanation": "Las cartas is feminine plural, so it's replaced by las. \"Lo\" and \"la\" are singular, and \"los\" is masculine."
       },
       {
         "type": "multiple-choice",
@@ -8134,7 +8134,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Se los mando."
         ],
         "correctIndex": 0,
-        "explanation": "\"El paquete\" es masculino singular (lo) y \"les\" cambia a \"se\": se lo mando."
+        "explanation": "El paquete is lo, and les becomes se before lo: se lo mando. \"Le lo\" is never used, \"Los mando\" drops the indirect object and is plural, and \"Se los\" would mean several packages."
       },
       {
         "type": "multi-select",
@@ -8149,7 +8149,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "El pronombre indirecto siempre va antes del directo, y \"le\" cambia a \"se\" ante \"lo/la/los/las\"."
+        "explanation": "The indirect pronoun goes before the direct one, and le becomes se before lo/la: se lo doy, te la explico. \"Le lo\" skips the se change, and \"La te\" puts them in the wrong order."
       },
       {
         "type": "matching",
@@ -8232,7 +8232,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Se la doy."
             ],
             "correctIndex": 1,
-            "explanation": "\"Le\" cambia a \"se\" antes de \"lo\": se lo doy."
+            "explanation": "Le becomes se before lo, and el consejo is masculine: se lo doy. \"Le lo\" skips the change, \"Lo le\" has the wrong order, and \"la\" is feminine."
           }
         ]
       },
@@ -8293,7 +8293,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Solo a ellos"
         ],
         "correctIndex": 2,
-        "explanation": "\"Le\" es ambiguo, por eso a menudo se aclara con \"a él\", \"a ella\" o \"a usted\"."
+        "explanation": "Le can mean to him, to her or to you (usted), so it's often clarified with a él, a ella or a usted. It isn't only él or ella, and \"ellos\" would need les."
       },
       {
         "type": "translate",
@@ -8372,7 +8372,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "se"
             ],
             "correctIndex": 2,
-            "explanation": "'Nos' corresponde a la primera persona del plural."
+            "explanation": "Nos is the pronoun for nosotros. \"Me\" is yo, \"te\" is tú, and \"se\" is él/ellos/usted."
           }
         ]
       },
@@ -8437,7 +8437,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Voy levantarme a me temprano."
             ],
             "correctIndex": 1,
-            "explanation": "El pronombre se une al final del infinitivo: levantarme."
+            "explanation": "A reflexive pronoun attaches to the end of the infinitive: levantarme (or goes before voy: me voy a levantar). \"Voy a me levantar\" puts it between a and the infinitive, \"Me voy levantar\" drops a, and the last option is scrambled."
           },
           {
             "type": "fill-blank",
@@ -8477,7 +8477,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "les"
         ],
         "correctIndex": 1,
-        "explanation": "'Os' corresponde a la segunda persona del plural en España."
+        "explanation": "Os is the pronoun for vosotros (you all, Spain). \"Se\" is for él/ellos/usted, \"nos\" for nosotros, and \"les\" is an indirect pronoun for ellos."
       },
       {
         "type": "word-order",
@@ -8547,7 +8547,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Traduce la oración al español.",
             "source": "He goes to bed at eleven at night.",
             "answer": "Él se acuesta a las once de la noche.",
-            "explanation": "Acostarse: él se acuesta."
+            "explanation": "Acostarse (o → ue) means to go to bed: él se acuesta."
           },
           {
             "type": "multi-select",
@@ -8563,7 +8563,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               2,
               3
             ],
-            "explanation": "'Comer' no es un verbo reflexivo en este contexto."
+            "explanation": "Despertarse, vestirse and cepillarse los dientes are reflexive routine verbs. \"Comer\" isn't reflexive here."
           }
         ]
       },
@@ -8613,7 +8613,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al inglés.",
         "source": "Los niños se acuestan a las nueve.",
         "answer": "The children go to bed at nine.",
-        "explanation": "Acostarse: ellos se acuestan."
+        "explanation": "Acostarse (o → ue) means to go to bed: los niños se acuestan."
       },
       {
         "type": "translate",
@@ -8641,7 +8641,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Se está duchándo."
         ],
         "correctIndex": 2,
-        "explanation": "Para 'él/ella', el pronombre unido al gerundio es 'duchándose'."
+        "explanation": "For él/ella the pronoun is se, and it attaches to the gerund, which then needs an accent: duchándose. \"Está me duchando\" puts it in the middle, \"duchándome\" is yo, and \"Se está duchándo\" adds an accent that's only needed when the pronoun is attached."
       },
       {
         "type": "multi-select",
@@ -8656,7 +8656,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           1,
           2
         ],
-        "explanation": "'Me levanté' y 'se duchó' son formas del pretérito."
+        "explanation": "Me levanté and se duchó are preterite. \"Me levanto\" and \"se ducha\" are present."
       },
       {
         "type": "matching",
@@ -8748,7 +8748,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "to bet"
             ],
             "correctIndex": 1,
-            "explanation": "'Ponerse' con ropa significa 'to put on'."
+            "explanation": "Ponerse with clothing means to put on: me pongo el abrigo. Without se, poner means to put or place something, and to bet is apostar."
           }
         ]
       },
@@ -8846,7 +8846,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Levantar me voy a temprano."
         ],
         "correctIndex": 0,
-        "explanation": "El pronombre también puede colocarse antes del verbo conjugado 'voy'."
+        "explanation": "The pronoun can also go before the conjugated verb: me voy a levantar. It can't sit between voy and a, between a and the infinitive, or in scrambled order."
       },
       {
         "type": "fill-blank",
@@ -8918,7 +8918,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Ana es timidísima."
             ],
             "correctIndex": 0,
-            "explanation": "\"Menos...que\" indica que Ana tiene menos de esa cualidad que su hermana."
+            "explanation": "Menos...que shows less of a quality: Ana es menos tímida que su hermana. \"Tan...como\" shows equality, \"la más tímida\" is a superlative, and \"timidísima\" means extremely shy."
           }
         ]
       }
@@ -8950,7 +8950,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "mejor"
         ],
         "correctIndex": 0,
-        "explanation": "Con adjetivos se usa tan...como, no tanto...como."
+        "explanation": "Before an adjective, use tan...como: tan dulce como. \"Tanto\" goes with nouns, and \"más\" and \"mejor\" would need que, not como."
       },
       {
         "type": "fill-blank",
@@ -8970,7 +8970,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "mayor"
         ],
         "correctIndex": 0,
-        "explanation": "\"Malo\" tiene la forma irregular \"peor\"; no se dice \"más malo\"."
+        "explanation": "Malo has the irregular comparative peor. \"Más malo\" exists but only for someone's bad character, \"menor\" is younger or smaller, and \"mayor\" is older."
       },
       {
         "type": "fill-blank",
@@ -9094,7 +9094,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Es el pastel más rico que la panadería."
         ],
         "correctIndex": 0,
-        "explanation": "El superlativo regular es el/la + más + adjetivo + de: el pastel más rico de la panadería."
+        "explanation": "The superlative is el/la + noun + más + adjective + de: el pastel más rico de la panadería. \"Muy rico\" and \"tan rico\" don't single out the best, and \"que\" is for comparing two things, not a group."
       },
       {
         "type": "multiple-choice",
@@ -9106,7 +9106,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "tan rico"
         ],
         "correctIndex": 0,
-        "explanation": "Los adjetivos terminados en -co cambian c → qu antes de -ísimo para conservar el sonido: rico → riquísimo."
+        "explanation": "Adjectives ending in -co change c → qu before -ísimo to keep the k sound: rico → riquísimo. \"Ricísimo\" misses the change, and \"más rico\" and \"tan rico\" are comparisons, not the absolute superlative."
       },
       {
         "type": "fill-blank",
@@ -9179,7 +9179,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "tan bueno"
             ],
             "correctIndex": 0,
-            "explanation": "El superlativo absoluto de \"bueno\" es \"buenísimo\"; -ísimo no se combina con más ni con mejor."
+            "explanation": "The absolute superlative of bueno is buenísimo. \"Más bueno\" and \"tan bueno\" are comparisons, and \"mejorísimo\" doesn't exist: -ísimo never attaches to mejor."
           }
         ]
       },
@@ -9285,7 +9285,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "\"Más caro\" y \"tan alto\" son formas regulares, no comparativos irregulares."
+        "explanation": "Mejor, peor and mayor are irregular comparatives (of bueno, malo and viejo/grande). \"Más caro\" and \"tan alto\" are built the regular way."
       },
       {
         "type": "fill-blank",
@@ -9339,7 +9339,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Ella cocina la cena todos los días."
             ],
             "correctIndex": 0,
-            "explanation": "'va a cocinar' usa ir a + infinitivo para un plan ya decidido; las otras opciones usan futuro simple, pretérito y presente habitual."
+            "explanation": "Va a cocinar is ir a + infinitive, a decided plan. \"Cocinará\" is the simple future, \"cocinó\" is preterite, and \"cocina todos los días\" is a present habit."
           }
         ]
       },
@@ -9388,7 +9388,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "viajaba"
         ],
         "correctIndex": 0,
-        "explanation": "El futuro simple de 'viajar' en primera persona singular es 'viajaré': infinitivo + -é."
+        "explanation": "The regular future is the whole infinitive + -é: viajaré. \"Viajaría\" is conditional, \"viajo\" is present, and \"viajaba\" is imperfect."
       },
       {
         "type": "fill-blank",
@@ -9429,7 +9429,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "sabre-"
         ],
         "correctIndex": 0,
-        "explanation": "'saber' pierde la 'e' antes de las terminaciones del futuro: sabr-."
+        "explanation": "Saber drops the e of the infinitive before the future endings: sabr- (sabré). \"Saber-\" keeps it, and \"sabir-\" and \"sabre-\" don't exist."
       }
     ]
   },
@@ -9467,7 +9467,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "queir-"
             ],
             "correctIndex": 0,
-            "explanation": "'querer' pierde la 'e' antes de las terminaciones del futuro: querr-."
+            "explanation": "Querer drops the e of the infinitive and keeps rr: querr- (querré). \"Querer-\" is the regular pattern it doesn't follow, and \"quer-\" and \"queir-\" don't exist."
           },
           {
             "type": "fill-blank",
@@ -9511,7 +9511,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "salremos"
             ],
             "correctIndex": 0,
-            "explanation": "'salir' → saldr- + emos = saldremos."
+            "explanation": "Salir has the irregular future stem saldr-: saldremos. \"Saliremos\" treats it as regular, and \"saldiremos\" and \"salremos\" add or drop sounds."
           }
         ]
       },
@@ -9609,7 +9609,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Una acción terminada en el pasado"
         ],
         "correctIndex": 0,
-        "explanation": "El futuro de probabilidad expresa una suposición sobre el presente."
+        "explanation": "The future can express a guess about the present: ¿Dónde estará Juan? = where can Juan be? It's not an order, a confirmed plan or a finished action."
       }
     ]
   },
@@ -9647,7 +9647,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Una acción terminada en el pasado"
             ],
             "correctIndex": 0,
-            "explanation": "El futuro de probabilidad expresa una suposición sobre algo presente: 'dónde estará' equivale a 'dónde crees que está'."
+            "explanation": "The future of probability is a guess about now: ¿dónde estará? = where do you think it is? It's not an order, a plan for tomorrow or a finished action."
           },
           {
             "type": "fill-blank",
@@ -9687,7 +9687,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "'Iré' y 'llegarán' son formas del futuro simple; las otras dos usan 'ir a + infinitivo'."
+            "explanation": "Iré and llegarán are simple future forms. \"Voy a limpiar\" and \"Vamos a comer\" use ir a + infinitive."
           },
           {
             "type": "word-order",
@@ -9763,7 +9763,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "dirías"
         ],
         "correctIndex": 0,
-        "explanation": "'decir' → dir- + ás = dirás."
+        "explanation": "Decir has the irregular future stem dir-: dirás. \"Decirás\" treats it as regular, \"dijiste\" is preterite, and \"dirías\" is conditional."
       },
       {
         "type": "translate",
@@ -9875,7 +9875,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "El libro cuesta para diez euros."
             ],
             "correctIndex": 0,
-            "explanation": "Cuando se paga una cantidad a cambio de algo, se usa “por”: pagué diez euros por el libro."
+            "explanation": "When you pay an amount in exchange for something, use por: pagué diez euros por el libro. \"Para el libro\" and \"para diez euros\" use para, which marks purpose or recipient, not exchange."
           },
           {
             "type": "fill-blank",
@@ -9906,7 +9906,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "para"
         ],
         "correctIndex": 0,
-        "explanation": "“Por” introduce la causa de algo: por la lluvia."
+        "explanation": "Por introduces the cause: por la lluvia = because of the rain. Para would mark a purpose or destination."
       },
       {
         "type": "translate",
@@ -9945,7 +9945,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "para"
         ],
         "correctIndex": 1,
-        "explanation": "“Para” + infinitivo expresa el propósito de una acción."
+        "explanation": "Para + infinitive gives the purpose: para mantenerme en forma (in order to stay fit). Por would give a cause, not a goal."
       }
     ]
   },
@@ -10009,7 +10009,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Hablamos para de teléfono todos los días."
             ],
             "correctIndex": 0,
-            "explanation": "El medio de comunicación se expresa con “por”: por teléfono, por correo, por internet."
+            "explanation": "Means of communication take por: por teléfono, por correo, por internet. \"Para teléfono\" uses para, which marks purpose, and \"por a\" and \"para de\" add extra prepositions."
           }
         ]
       },
@@ -10047,7 +10047,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Necesito los documentos para de mañana."
             ],
             "correctIndex": 0,
-            "explanation": "El plazo o fecha límite se expresa con “para”: para mañana."
+            "explanation": "A deadline takes para: para mañana (by tomorrow). \"Por mañana\" doesn't mean by tomorrow, and \"por de\" and \"para de\" add an extra preposition."
           }
         ]
       }
@@ -10077,7 +10077,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "para"
         ],
         "correctIndex": 0,
-        "explanation": "“Por” expresa un intercambio: una cosa por otra."
+        "explanation": "Por expresses an exchange, one thing for another: cambié mi teléfono por uno nuevo. Para would mean the old phone is meant for the new one."
       },
       {
         "type": "fill-blank",
@@ -10126,7 +10126,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "para"
         ],
         "correctIndex": 1,
-        "explanation": "“Trabajar para” indica el empleador; “para” marca el beneficiario del trabajo."
+        "explanation": "Trabajar para names the employer: trabajo para una empresa. Trabajar por would mean working on its behalf or in its place."
       }
     ]
   },
@@ -10164,7 +10164,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Ahorro dinero para de viajar."
             ],
             "correctIndex": 0,
-            "explanation": "“Para” + infinitivo expresa el propósito de una acción: para viajar."
+            "explanation": "Para + infinitive gives the purpose: ahorro dinero para viajar. \"Por viajar\" gives a cause, not a goal, and \"por a\" and \"para de\" add extra prepositions."
           }
         ]
       },
@@ -10198,7 +10198,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "por supuesto"
             ],
             "correctIndex": 0,
-            "explanation": "“Para nada” significa “not at all”; es una expresión fija con “para”."
+            "explanation": "Para nada means not at all. \"Por fin\" means finally, \"para siempre\" forever, and \"por supuesto\" of course."
           },
           {
             "type": "fill-blank",
@@ -10248,7 +10248,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "para"
         ],
         "correctIndex": 0,
-        "explanation": "“Por” describe el movimiento a través de un lugar, en este caso el puente."
+        "explanation": "Por describes movement through or across a place: pasamos por el puente. Para would mark the destination."
       },
       {
         "type": "fill-blank",
@@ -10310,7 +10310,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Necesito a dinero para el viaje."
             ],
             "correctIndex": 1,
-            "explanation": "Solo 'mi médico' es una persona específica; los demás objetos no son personas."
+            "explanation": "Mi médico is a specific person, so llamo a mi médico. \"El gato\" (usually no a with an animal here), \"un libro\" and \"dinero\" are not people, and \"a el\" would have to contract anyway."
           }
         ]
       },
@@ -10340,7 +10340,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Llamo a la doctora Pérez."
             ],
             "correctIndex": 0,
-            "explanation": "Con 'tener', normalmente se omite la a personal, incluso con personas."
+            "explanation": "Tener usually drops the personal a, even with people: tengo dos primos. Ver, conocer and llamar with a specific person all need a."
           },
           {
             "type": "multiple-choice",
@@ -10352,7 +10352,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Solo con nombres propios."
             ],
             "correctIndex": 1,
-            "explanation": "La regla general en este nivel es que 'tener' no lleva a personal."
+            "explanation": "At this level, the rule is that tener usually doesn't take the personal a: tengo dos hermanos. So it's not \"always\", and it has nothing to do with weekends or proper names."
           }
         ]
       }
@@ -10368,7 +10368,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Conozco a la verdad."
         ],
         "correctIndex": 0,
-        "explanation": "'Tu vecino' es una persona específica, así que necesita la a personal."
+        "explanation": "Tu vecino is a specific person, so he takes the personal a. \"Tu casa\", \"un problema\" and \"la verdad\" are things, so they don't."
       },
       {
         "type": "fill-blank",
@@ -10570,7 +10570,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Busco un trabajo nuevo."
         ],
         "correctIndex": 1,
-        "explanation": "Con 'tener' no se usa la a personal, y 'problema' tampoco es una persona."
+        "explanation": "Tener doesn't take the personal a, and problema isn't a person, so \"No tengo a ningún problema\" is wrong. The other three are correct."
       },
       {
         "type": "fill-blank",
@@ -10670,7 +10670,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "felizomente"
             ],
             "correctIndex": 0,
-            "explanation": "Feliz ends in a consonant, so -mente is added directly: felizmente."
+            "explanation": "Feliz ends in a consonant, so -mente is added directly: felizmente. \"Felizamente\", \"felisamente\" and \"felizomente\" add a vowel or change the z."
           }
         ]
       },
@@ -10796,7 +10796,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "sincero y tranquilamente"
         ],
         "correctIndex": 0,
-        "explanation": "Solo el segundo adverbio conserva -mente; el primero usa la forma femenina del adjetivo."
+        "explanation": "With two -mente adverbs joined by y, only the last keeps -mente, and the first uses the feminine adjective: sincera y tranquilamente. \"Tranquila\" and \"sincero\" are adjectives, not adverbs, and repeating -mente twice is avoided."
       }
     ]
   },
@@ -11130,7 +11130,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce al español.",
         "source": "the departure (from Lesson 1's vocabulary)",
         "answer": "la salida",
-        "explanation": "\"La salida\" means \"the departure.\""
+        "explanation": "La salida means the departure (also the exit); it's feminine."
       }
     ]
   },
@@ -11479,7 +11479,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "la gripe"
         ],
         "correctIndex": 1,
-        "explanation": "\"La fiebre\" means \"the fever.\""
+        "explanation": "La fiebre means the fever. \"La tos\" is the cough, \"el resfriado\" the cold, and \"la gripe\" the flu."
       }
     ]
   },
@@ -12167,7 +12167,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "la infancia"
         ],
         "correctIndex": 0,
-        "explanation": "\"El vecino\" means \"the neighbor.\" El barrio is \"the neighborhood.\""
+        "explanation": "El vecino means the neighbor. \"El barrio\" is the neighborhood, \"el patio\" the courtyard, and \"la infancia\" childhood."
       },
       {
         "type": "multi-select",
@@ -12183,7 +12183,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "\"El jarabe\" (cough syrup) belongs to the health theme, not technology."
+        "explanation": "Descargar (to download), la pantalla (the screen) and la contraseña (the password) are tech words. \"El jarabe\" is cough syrup, a health word."
       }
     ]
   },
@@ -12501,7 +12501,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce al español.",
         "source": "the appointment (at the doctor)",
         "answer": "la cita",
-        "explanation": "\"La cita\" means \"the appointment.\""
+        "explanation": "La cita means the appointment (also a date); it's feminine."
       },
       {
         "type": "matching",
@@ -12540,7 +12540,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "each"
         ],
         "correctIndex": 0,
-        "explanation": "\"Últimamente\" means \"lately.\""
+        "explanation": "Últimamente means lately. Last night is anoche, next is próximo, and each is cada."
       }
     ]
   },
@@ -12596,7 +12596,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "hicieran"
         ],
         "correctIndex": 0,
-        "explanation": "El pretérito irregular de hacer, ellos: hicieron."
+        "explanation": "Hacer has the irregular preterite stem hic-: hicieron. \"Hacieron\" uses the regular stem, \"hizieron\" misspells it (z only in hizo), and \"hicieran\" is the subjunctive."
       },
       {
         "type": "fill-blank",
@@ -12615,7 +12615,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "dijaron"
         ],
         "correctIndex": 1,
-        "explanation": "El pretérito de decir, ellos, pierde la i: dijeron."
+        "explanation": "Decir has the stem dij-, and after j the ellos ending is -eron: dijeron. \"Dijieron\" keeps the i, \"decieron\" uses the regular stem, and \"dijaron\" uses the -ar ending."
       },
       {
         "type": "fill-blank",
@@ -12634,7 +12634,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "somos"
         ],
         "correctIndex": 1,
-        "explanation": "El imperfecto de ser, nosotros: éramos."
+        "explanation": "Ser is irregular in the imperfect: nosotros éramos. \"Fuimos\" is preterite, \"seríamos\" conditional, and \"somos\" present."
       },
       {
         "type": "fill-blank",
@@ -12653,7 +12653,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "El presente"
         ],
         "correctIndex": 1,
-        "explanation": "El imperfecto describe la acción en progreso que fue interrumpida."
+        "explanation": "The imperfect describes an action in progress that gets interrupted (veía la tele cuando...). The preterite is the interruption itself, and the future and present don't describe the past."
       },
       {
         "type": "fill-blank",
@@ -12676,7 +12676,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "\"Siempre\" señala una acción habitual: imperfecto."
+        "explanation": "Ayer, de repente and anoche mark completed events, so they go with the preterite. \"Siempre\" marks a habit, which usually takes the imperfect."
       },
       {
         "type": "fill-blank",
@@ -12695,7 +12695,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Voy leerlo a."
         ],
         "correctIndex": 0,
-        "explanation": "El pronombre puede unirse al infinitivo: leerlo."
+        "explanation": "The pronoun can attach to the infinitive: voy a leerlo (or go before voy: lo voy a leer). \"Voy a lo leer\" puts it between a and the verb, and the other two drop or misplace a."
       }
     ]
   },
@@ -12751,7 +12751,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "nadar"
         ],
         "correctIndex": 2,
-        "explanation": "\"Prestar\" (to lend) casi siempre involucra a quién se le presta algo."
+        "explanation": "Prestar (to lend) nearly always involves someone you lend to: le presto el libro. \"Correr\", \"dormir\" and \"nadar\" don't normally take an indirect object."
       },
       {
         "type": "fill-blank",
@@ -12770,7 +12770,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Lavan los platos."
         ],
         "correctIndex": 1,
-        "explanation": "\"Me lavo\" indica que la acción recae sobre el propio sujeto."
+        "explanation": "Me lavo las manos is reflexive: you wash your own hands. \"Lavo el carro\", \"Lavamos la ropa\" and \"Lavan los platos\" act on something else."
       },
       {
         "type": "fill-blank",
@@ -12796,7 +12796,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "menos joven"
         ],
         "correctIndex": 1,
-        "explanation": "\"Mayor\" es el comparativo irregular de viejo cuando se habla de edad."
+        "explanation": "For people's age, older is mayor. \"Más viejo\" exists but sounds blunt, \"más grande\" is bigger, and \"menos joven\" means less young."
       },
       {
         "type": "fill-blank",
@@ -12819,7 +12819,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "\"Barato\" es regular: más barato."
+        "explanation": "Bueno (mejor), malo (peor) and joven (menor) have irregular comparatives. \"Barato\" is regular: más barato."
       },
       {
         "type": "fill-blank",
@@ -12838,7 +12838,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "pun-"
         ],
         "correctIndex": 2,
-        "explanation": "El futuro irregular de poner usa la raíz pondr-: pondré, pondrás..."
+        "explanation": "Poner has the irregular future stem pondr-: pondré, pondrás. \"Pon-\" and \"pond-\" are incomplete, and \"pun-\" is closer to the preterite (puse)."
       }
     ]
   },
@@ -12893,7 +12893,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "de niño"
         ],
         "correctIndex": 2,
-        "explanation": "\"Algún día\" (someday) apunta hacia el futuro."
+        "explanation": "Algún día (someday) points to the future. \"Ayer\", \"anoche\" and \"de niño\" all refer to the past."
       },
       {
         "type": "fill-blank",
@@ -12919,7 +12919,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Elige por o para.",
         "sentence": "Salimos ___ Barcelona el lunes.",
         "answer": "para",
-        "explanation": "\"Para\" indica un destino."
+        "explanation": "Para marks a destination: salimos para Barcelona. Salir de would mean leaving from Barcelona."
       },
       {
         "type": "multi-select",
@@ -12935,7 +12935,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "\"Para siempre\" (forever) usa para, no por."
+        "explanation": "Por favor, por eso and por fin are fixed expressions with por. \"Para siempre\" (forever) uses para."
       },
       {
         "type": "word-order",

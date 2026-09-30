@@ -43,6 +43,8 @@ export type AppStackParamList = {
   GrammarGuide: { slug: string };
   // The website's placement test, with its results screen.
   Placement: undefined;
+  // "Test out" of a unit (units.ts) -- see UnitTestScreen.
+  UnitTest: { levelPath: string; unitId: string };
 };
 
 export type AuthStackParamList = {

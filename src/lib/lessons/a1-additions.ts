@@ -89,13 +89,13 @@ export const A1_ADDITIONS: AnchoredLesson[] = [
         "Which sentence is correct?",
         ["Nosotros queremos pizza.", "Nosotros quieremos pizza.", "Nosotros quiermos pizza.", "Nosotros querimos pizza."],
         0,
-        "Nosotros is outside the boot, so there's no stem change: queremos."
+        "Nosotros is outside the boot, so the stem stays queremos. \"Quieremos\" changes a stem that shouldn't change, \"quiermos\" drops the -e- of the ending, and \"querimos\" uses the -ir ending on an -er verb."
       ),
       mc(
         "\"They begin at ten.\"",
         ["Empiezan a las diez.", "Empezan a las diez.", "Empiezamos a las diez.", "Empieza a las diez."],
         0,
-        "Ellos is inside the boot and takes the -an ending: empiezan."
+        "Ellos is inside the boot, so e → ie, plus the -an ending: empiezan. \"Empezan\" is missing the stem change, \"Empiezamos\" mixes a boot stem with the nosotros ending, and \"Empieza\" is the singular él/ella form."
       ),
       toEs("I want to learn Spanish.", "Quiero aprender español.", "Querer → quiero, then the infinitive aprender.", ["Yo quiero aprender español."]),
       toEs("We prefer to eat at home.", "Preferimos comer en casa.", "Nosotros keeps the e: preferimos. Comer stays in the infinitive.", ["Nosotros preferimos comer en casa.", "Nosotras preferimos comer en casa."]),
@@ -134,7 +134,7 @@ export const A1_ADDITIONS: AnchoredLesson[] = [
         ],
         [
           fb("Complete with poder.", "¿___ (tú) abrir la ventana?", "Puedes", "Tú is inside the boot: poder → puedes.", "poder, tú"),
-          mc("How much does it cost?", ["¿Cuánto cuesta?", "¿Cuánto costa?", "¿Cuánto custa?", "¿Cuánto cuestan?"], 0, "Costar changes o → ue: cuesta. Cuestan is for more than one thing."),
+          mc("How much does it cost?", ["¿Cuánto cuesta?", "¿Cuánto costa?", "¿Cuánto custa?", "¿Cuánto cuestan?"], 0, "Costar changes o → ue inside the boot: cuesta. \"Costa\" and \"custa\" are missing the ue change, and \"cuestan\" is plural, for when several things cost something."),
         ]
       ),
       sec(
@@ -173,7 +173,7 @@ export const A1_ADDITIONS: AnchoredLesson[] = [
         "Which verb has the WRONG form?",
         ["nosotros podemos", "ellos pueden", "yo jugo", "tú pides"],
         2,
-        "Jugar changes u → ue in yo: juego, not jugo."
+        "Jugar is the only u → ue verb, so yo is juego, not \"jugo\". The others are right: \"podemos\" keeps its o outside the boot, \"pueden\" has o → ue inside it, and \"pides\" has e → i."
       ),
       ms(
         "Which of these forms have a stem change?",
@@ -234,7 +234,7 @@ export const A1_ADDITIONS: AnchoredLesson[] = [
           ["pedimos (not pidimos)", "we ask for"],
         ],
         [
-          mc("\"We sleep a lot.\"", ["Dormimos mucho.", "Duermimos mucho.", "Duermemos mucho.", "Dormemos mucho."], 0, "Nosotros keeps the o and dormir takes -imos: dormimos."),
+          mc("\"We sleep a lot.\"", ["Dormimos mucho.", "Duermimos mucho.", "Duermemos mucho.", "Dormemos mucho."], 0, "Nosotros is outside the boot, so the o stays, and dormir is an -ir verb: dormimos. \"Duermimos\" and \"Duermemos\" put a boot stem where it doesn't belong, and \"Dormemos\" uses the -er ending."),
         ]
       ),
     ],
@@ -248,7 +248,7 @@ export const A1_ADDITIONS: AnchoredLesson[] = [
         "Find the mistake: \"Nosotros pidimos la cuenta.\"",
         ["pidimos should be pedimos", "Nosotros should be Nosotras", "la cuenta should be el cuenta", "There is no mistake."],
         0,
-        "Nosotros is outside the boot, so pedir keeps its e: pedimos."
+        "Nosotros is outside the boot, so pedir keeps its e: pedimos. \"Nosotros\" is fine for a mixed or male group, and \"la cuenta\" is right because cuenta is feminine."
       ),
       toEs("They want to play tennis.", "Quieren jugar al tenis.", "Querer → quieren; jugar stays in the infinitive and takes al before the sport.", ["Ellos quieren jugar al tenis.", "Ellas quieren jugar al tenis.", "Quieren jugar tenis."]),
       toEn("No entiendo. ¿Puedes repetir?", "I don't understand. Can you repeat?", "Entender → entiendo, poder → puedes, repetir stays in the infinitive.", ["I don't understand. Can you repeat that?", "I don't understand. Could you repeat?"]),
@@ -289,7 +289,7 @@ export const A1_ADDITIONS: AnchoredLesson[] = [
           ["El bebé está durmiendo.", "The baby is sleeping."],
         ],
         [
-          mc("\"I'm reading a book.\"", ["Estoy leyendo un libro.", "Estoy leiendo un libro.", "Soy leyendo un libro.", "Estoy leer un libro."], 0, "Leer → leyendo, and the progressive always uses estar, never ser."),
+          mc("\"I'm reading a book.\"", ["Estoy leyendo un libro.", "Estoy leiendo un libro.", "Soy leyendo un libro.", "Estoy leer un libro."], 0, "Leer → leyendo (the i becomes y between vowels), and the progressive always uses estar. \"Leiendo\" misses the y, \"Soy leyendo\" uses ser, and \"Estoy leer\" uses the infinitive instead of the gerund."),
         ]
       ),
       sec(
@@ -304,7 +304,7 @@ export const A1_ADDITIONS: AnchoredLesson[] = [
             "Which sentence describes a habit?",
             ["Estudio español todos los días.", "Estoy estudiando español ahora.", "Están estudiando en la biblioteca.", "¿Qué estás estudiando?"],
             0,
-            "Todos los días marks a habit, so it takes the simple present: estudio."
+            "Todos los días marks a habit, and habits take the simple present: estudio. The other options use estar + gerund, which describes something happening right now, not a routine."
           ),
         ]
       ),
@@ -313,12 +313,12 @@ export const A1_ADDITIONS: AnchoredLesson[] = [
       fb("Complete with estar.", "Los niños ___ jugando en el parque.", "están", "Los niños = ellos → están."),
       fb("Complete with the gerund of aprender.", "Estamos ___ mucho.", "aprendiendo", "-er verbs take -iendo: aprendiendo."),
       fb("Complete with the gerund of dormir.", "¡Silencio! Papá está ___.", "durmiendo", "Dormir changes o → u in the gerund: durmiendo."),
-      mc("\"What are you doing?\"", ["¿Qué estás haciendo?", "¿Qué eres haciendo?", "¿Qué estás hacer?", "¿Qué haces haciendo?"], 0, "Estar (estás) + the gerund of hacer (haciendo)."),
+      mc("\"What are you doing?\"", ["¿Qué estás haciendo?", "¿Qué eres haciendo?", "¿Qué estás hacer?", "¿Qué haces haciendo?"], 0, "The progressive is estar (estás) + gerund (haciendo). \"Eres\" is ser, which never forms the progressive, \"estás hacer\" uses the infinitive instead of the gerund, and \"haces haciendo\" doubles the verb."),
       mc(
         "Which sentence is correct?",
         ["Ella está escribiendo un correo.", "Ella es escribiendo un correo.", "Ella está escribendo un correo.", "Ella está escribiendos un correo."],
         0,
-        "Estar + escribiendo. The gerund never agrees with the subject, so there's no -s."
+        "Estar + gerund: está escribiendo. \"Es escribiendo\" uses ser, which can't form the progressive; \"escribendo\" is misspelled (-ir verbs take -iendo), and the gerund never adds -s, so \"escribiendos\" is wrong."
       ),
       toEs("I'm cooking dinner.", "Estoy cocinando la cena.", "Estar → estoy, cocinar → cocinando.", ["Yo estoy cocinando la cena.", "Estoy haciendo la cena."]),
       toEs("They're watching TV.", "Están viendo la tele.", "Ver → viendo. Estar → están for ellos.", ["Ellos están viendo la tele.", "Están viendo la televisión.", "Ellos están viendo la televisión.", "Están mirando la tele."]),
@@ -347,7 +347,7 @@ export const A1_ADDITIONS: AnchoredLesson[] = [
           ["Tengo clase los martes.", "I have class on Tuesdays."],
         ],
         [
-          mc("\"I work on Saturdays.\"", ["Trabajo los sábados.", "Trabajo en sábado.", "Trabajo el Sábados.", "Trabajo en los sábados."], 0, "Every week → los sábados, lowercase, and no preposition."),
+          mc("\"I work on Saturdays.\"", ["Trabajo los sábados.", "Trabajo en sábado.", "Trabajo el Sábados.", "Trabajo en los sábados."], 0, "To say something happens every week, use los + the plural day: los sábados. \"En sábado\" and \"en los sábados\" add a preposition Spanish doesn't use, and \"el Sábados\" mixes a singular article with a plural day and a capital."),
         ]
       ),
       sec(
@@ -389,13 +389,13 @@ export const A1_ADDITIONS: AnchoredLesson[] = [
         "The Spanish week runs lunes to domingo."
       ),
       fb("Complete.", "Hoy es el veinte ___ abril.", "de", "El + number + de + month."),
-      fb("Complete.", "No tengo clase ___ domingos.", "los", "Every week → los domingos."),
-      mc("How do you write \"July 4\" in Spanish?", ["el cuatro de julio", "julio cuatro", "el julio cuatro", "el cuatro julio"], 0, "Day first, then de + month: el cuatro de julio."),
-      mc("Which is written correctly?", ["El lunes tengo un examen.", "El Lunes tengo un examen.", "En lunes tengo un examen.", "El lunes tengo un examen en Mayo."], 0, "Days and months are lowercase, and there's no preposition before a day."),
-      toEs("My birthday is in November.", "Mi cumpleaños es en noviembre.", "En + month, lowercase."),
-      toEs("Today is Wednesday.", "Hoy es miércoles.", "No article after hoy es."),
+      fb("Complete.", "No tengo clase ___ domingos.", "los", "Los + day means every week: los domingos = on Sundays. El domingo would mean one particular Sunday."),
+      mc("How do you write \"July 4\" in Spanish?", ["el cuatro de julio", "julio cuatro", "el julio cuatro", "el cuatro julio"], 0, "Spanish dates put the day first, then de + month: el cuatro de julio. \"Julio cuatro\" and \"el julio cuatro\" copy English order, and \"el cuatro julio\" is missing de."),
+      mc("Which is written correctly?", ["El lunes tengo un examen.", "El Lunes tengo un examen.", "En lunes tengo un examen.", "El lunes tengo un examen en Mayo."], 0, "Days and months are lowercase in Spanish, and a day takes el with no preposition: el lunes. \"El Lunes\" and \"Mayo\" wrongly use capitals, and \"En lunes\" adds a preposition Spanish doesn't use."),
+      toEs("My birthday is in November.", "Mi cumpleaños es en noviembre.", "Months take en (en noviembre = in November) and are written lowercase."),
+      toEs("Today is Wednesday.", "Hoy es miércoles.", "Hoy es + the day, with no article: hoy es miércoles. Days are lowercase."),
       toEn("Hoy es el primero de mayo.", "Today is May first.", "El primero de mayo = May 1.", ["Today is May 1st.", "Today is the first of May.", "Today is May 1."]),
-      toEn("¿Qué fecha es hoy?", "What's the date today?", "Fecha = date.", ["What is today's date?", "What's today's date?", "What is the date today?"]),
+      toEn("¿Qué fecha es hoy?", "What's the date today?", "Fecha means date, so ¿Qué fecha es hoy? asks for today's date (not the day of the week).", ["What is today's date?", "What's today's date?", "What is the date today?"]),
     ]
   ),
 ];

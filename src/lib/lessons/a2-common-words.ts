@@ -48,7 +48,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "Which sentence means \"I agree with you\"?",
             ["Estoy de acuerdo contigo.", "Soy de acuerdo contigo.", "Tengo acuerdo contigo.", "Hago acuerdo contigo."],
             0,
-            "The fixed phrase uses estar: estar de acuerdo con alguien."
+            "The fixed phrase is estar de acuerdo (con alguien): estoy de acuerdo contigo. \"Soy de acuerdo\" uses ser, and \"tengo acuerdo\" and \"hago acuerdo\" aren't Spanish."
           ),
         ]
       ),
@@ -113,7 +113,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "\"It's not necessary.\"",
             ["No es necesario.", "No es imposible.", "No es posible.", "No es raro."],
             0,
-            "Necesario = necessary. The others mean impossible, possible and strange."
+            "Necesario means necessary. \"Imposible\" means impossible, \"posible\" possible, and \"raro\" strange."
           ),
         ]
       ),
@@ -143,14 +143,14 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       ),
       wo("Supongo que es posible terminar mañana.", "Supongo que + a full sentence; es posible + infinitive.", "I suppose it's possible to finish tomorrow."),
       fb("Complete: \"You don't need to bring an umbrella; it's sunny.\"", "No es ___ llevar paraguas; hace sol.", "necesario", "No es necesario + infinitive = it's not necessary to..."),
-      toEs("He's a true friend.", "Es un amigo verdadero.", "Verdadero = true, real.", ["Él es un amigo verdadero.", "Es un verdadero amigo.", "Él es un verdadero amigo."]),
+      toEs("He's a true friend.", "Es un amigo verdadero.", "Verdadero means true or real. It usually follows the noun (amigo verdadero); un verdadero amigo, before the noun, is also correct and a bit more emphatic.", ["Él es un amigo verdadero.", "Es un verdadero amigo.", "Él es un verdadero amigo."]),
       mc(
         "What is someone asking when they say \"¿Qué te parece mi idea?\"",
         ["What you think of my idea", "If my idea looks pretty", "If my idea is possible", "Where my idea came from"],
         0,
-        "¿Qué te parece...? = What do you think of...?"
+        "¿Qué te parece...? asks for your opinion: what do you think of my idea? Parecer here means to seem to you, not to look pretty, and it doesn't ask about possibility or origin."
       ),
-      toEn("Realmente no sé qué hacer.", "I really don't know what to do.", "Realmente = really.", ["I truly don't know what to do."]),
+      toEn("Realmente no sé qué hacer.", "I really don't know what to do.", "Realmente means really (truly). Qué hacer = what to do, with the infinitive.", ["I truly don't know what to do."]),
       toEn("Se supone que es fácil.", "It's supposed to be easy.", "Se supone que = it's supposed to.", ["It is supposed to be easy."]),
     ]
   ),
@@ -197,7 +197,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
           ["Se fue y no volvió jamás.", "He left and never came back."],
         ],
         [
-          fb("Complete: \"He didn't call me; he didn't even send me a message.\"", "No me llamó; ni ___ me escribió un mensaje.", "siquiera", "Ni siquiera = not even."),
+          fb("Complete: \"He didn't call me; he didn't even send me a message.\"", "No me llamó; ni ___ me escribió un mensaje.", "siquiera", "Ni siquiera means not even: ni siquiera me escribió."),
         ]
       ),
       sec(
@@ -245,11 +245,11 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Complete: \"Although he was sick, he went to work.\"", "___ estaba enfermo, fue a trabajar.", "Aunque", "Aunque = although."),
-      fb("Complete: \"It's expensive. However, I'm going to buy it.\"", "Es caro. Sin ___, lo voy a comprar.", "embargo", "Sin embargo = however."),
-      toEs("Even my grandmother came.", "Incluso vino mi abuela.", "Incluso = even.", ["Incluso mi abuela vino.", "Hasta vino mi abuela.", "Hasta mi abuela vino."]),
-      toEn("No quiere ni siquiera probarlo.", "He doesn't even want to try it.", "Ni siquiera = not even.", ["She doesn't even want to try it.", "He doesn't even want to taste it.", "She doesn't even want to taste it."]),
-      toEn("Jamás miento.", "I never lie.", "Jamás = never.", ["I never tell lies."]),
+      fb("Complete: \"Although he was sick, he went to work.\"", "___ estaba enfermo, fue a trabajar.", "Aunque", "Aunque (although) introduces a contrast: aunque estaba enfermo, fue a trabajar."),
+      fb("Complete: \"It's expensive. However, I'm going to buy it.\"", "Es caro. Sin ___, lo voy a comprar.", "embargo", "Sin embargo means however, and it introduces a contrast with the previous sentence."),
+      toEs("Even my grandmother came.", "Incluso vino mi abuela.", "Incluso means even, and it goes before the surprising part: incluso vino mi abuela.", ["Incluso mi abuela vino.", "Hasta vino mi abuela.", "Hasta mi abuela vino."]),
+      toEn("No quiere ni siquiera probarlo.", "He doesn't even want to try it.", "Ni siquiera means not even; the whole phrase negates, so no + ni siquiera is fine in Spanish.", ["She doesn't even want to try it.", "He doesn't even want to taste it.", "She doesn't even want to taste it."]),
+      toEn("Jamás miento.", "I never lie.", "Jamás means never, a stronger nunca. It goes before the verb, with no extra no.", ["I never tell lies."]),
       mt(
         "Match each word to its meaning.",
         [
@@ -267,16 +267,16 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         "Choose the correct sentence.",
         ["Quiero otro café.", "Quiero un otro café.", "Quiero uno otro café.", "Quiero el otro un café."],
         0,
-        "Otro never takes un in front of it: otro café = another coffee."
+        "Otro already means another, so it never takes un: otro café. \"Un otro\" and \"uno otro\" copy English an other, and \"el otro un\" mixes two articles."
       ),
-      toEs("I found the apartment through a friend.", "Encontré el piso a través de un amigo.", "A través de = through.", ["Encontré el apartamento a través de un amigo.", "Encontré el departamento a través de un amigo."]),
+      toEs("I found the apartment through a friend.", "Encontré el piso a través de un amigo.", "A través de means through (by means of): a través de un amigo.", ["Encontré el apartamento a través de un amigo.", "Encontré el departamento a través de un amigo."]),
       toEn("Tras la cena, los demás se fueron a casa.", "After dinner, the others went home.", "Tras = after; los demás = the others, the rest.", ["After dinner, the rest went home.", "After the dinner, the others went home."]),
-      toEs("Some girls play soccer; others play tennis.", "Unas chicas juegan al fútbol; otras juegan al tenis.", "Chicas is feminine, so otras.", ["Unas chicas juegan al fútbol y otras juegan al tenis.", "Algunas chicas juegan al fútbol; otras juegan al tenis."]),
+      toEs("Some girls play soccer; others play tennis.", "Unas chicas juegan al fútbol; otras juegan al tenis.", "Otro agrees with the noun it refers to: chicas is feminine plural, so otras.", ["Unas chicas juegan al fútbol y otras juegan al tenis.", "Algunas chicas juegan al fútbol; otras juegan al tenis."]),
       mc(
         "\"The others\" (talking about a group of men) is...",
         ["los otros", "las otras", "otros los", "los otras"],
         0,
-        "Masculine plural: los otros. For a group of women: las otras."
+        "For a group of men, everything is masculine plural: los otros. \"Las otras\" is for women, \"otros los\" has the wrong order, and \"los otras\" mixes genders."
       ),
     ]
   ),
@@ -305,7 +305,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "Which word is the opposite of arriba?",
             ["abajo", "atrás", "acá", "frente"],
             0,
-            "Arriba (up) ↔ abajo (down)."
+            "Arriba (up, upstairs) is the opposite of abajo (down, downstairs). \"Atrás\" means behind, \"acá\" means here, and \"frente\" means front."
           ),
         ]
       ),
@@ -323,7 +323,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
           ["Estoy en contra de esa idea.", "I'm against that idea."],
         ],
         [
-          fb("Complete: \"Tomorrow Real Madrid plays against Barcelona.\"", "Mañana el Real Madrid juega ___ el Barcelona.", "contra", "Contra = against."),
+          fb("Complete: \"Tomorrow Real Madrid plays against Barcelona.\"", "Mañana el Real Madrid juega ___ el Barcelona.", "contra", "Contra means against, as in sports: juega contra el Barcelona."),
         ]
       ),
       sec(
@@ -345,7 +345,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "\"We talked about the trip.\"",
             ["Hablamos acerca del viaje.", "Hablamos cerca del viaje.", "Hablamos acerca el viaje.", "Hablamos acerca a viaje."],
             0,
-            "Acerca de = about (de + el = del). Cerca de means near."
+            "Acerca de means about, and de + el contracts: acerca del viaje. \"Cerca del viaje\" means near the trip, and \"acerca el\" and \"acerca a\" drop de."
           ),
         ]
       ),
@@ -381,26 +381,26 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         "Five everyday place words."
       ),
       fb("Complete: \"The pharmacy is opposite the supermarket.\"", "La farmacia está ___ al supermercado.", "frente", "Frente a + el = frente al."),
-      toEs("The table is against the wall.", "La mesa está contra la pared.", "Contra = against.", []),
-      toEn("Es una película acerca de la guerra.", "It's a movie about the war.", "Acerca de = about.", ["It's a film about the war.", "It is a movie about the war.", "It's a movie about war."]),
-      toEn("Viajamos por tierra, no en avión.", "We traveled by land, not by plane.", "Por tierra = by land.", ["We travelled by land, not by plane.", "We travel by land, not by plane."]),
-      fb("Complete: \"There's little room in the car for the suitcases.\"", "Hay poco ___ en el coche para las maletas.", "espacio", "Espacio = room, space."),
+      toEs("The table is against the wall.", "La mesa está contra la pared.", "Contra means against, here physically touching: contra la pared.", []),
+      toEn("Es una película acerca de la guerra.", "It's a movie about the war.", "Acerca de means about (a topic): una película acerca de la guerra.", ["It's a film about the war.", "It is a movie about the war.", "It's a movie about war."]),
+      toEn("Viajamos por tierra, no en avión.", "We traveled by land, not by plane.", "Por tierra means by land; en avión means by plane.", ["We travelled by land, not by plane.", "We travel by land, not by plane."]),
+      fb("Complete: \"There's little room in the car for the suitcases.\"", "Hay poco ___ en el coche para las maletas.", "espacio", "Espacio means room or space: poco espacio = little room."),
       toEs("Half of the students live here.", "La mitad de los estudiantes vive aquí.", "La mitad de = half of.", ["La mitad de los estudiantes viven aquí.", "La mitad de los alumnos vive aquí.", "La mitad de los alumnos viven aquí.", "La mitad de los estudiantes vive acá."]),
       wo("No hay otra manera de abrir esta puerta.", "Otra manera de + infinitive = another way to...", "There's no other way to open this door."),
       mc(
         "\"I have a lot of homework.\"",
         ["Tengo un montón de deberes.", "Tengo un montón deberes.", "Tengo montón de deberes.", "Tengo un montón los deberes."],
         0,
-        "The chunk is un montón de + noun."
+        "The chunk is un montón de + noun (a lot of): un montón de deberes. \"Un montón deberes\" drops de, \"montón de\" drops un, and \"un montón los\" replaces de with an article."
       ),
       toEn("Ven acá y mira hacia arriba.", "Come here and look up.", "Acá = here; hacia arriba = upwards.", ["Come here and look upwards."]),
       mc(
         "\"I'm against the plan.\"",
         ["Estoy en contra del plan.", "Estoy frente al plan.", "Estoy acerca del plan.", "Estoy atrás del plan."],
         0,
-        "Estar en contra de = to be against (an idea or plan)."
+        "Estar en contra de means to be against an idea or plan: en contra del plan. \"Frente a\" means facing, \"acerca de\" means about, and \"atrás de\" means behind."
       ),
-      toEs("The bathroom is downstairs.", "El baño está abajo.", "Abajo = downstairs.", ["El servicio está abajo."]),
+      toEs("The bathroom is downstairs.", "El baño está abajo.", "Abajo means downstairs or down below, and location takes estar: está abajo.", ["El servicio está abajo."]),
     ]
   ),
   L(
@@ -429,9 +429,9 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "\"With you\" (tú) is...",
             ["contigo", "con ti", "con tú", "conmigo"],
             0,
-            "Con + tú = contigo. Conmigo means \"with me\"."
+            "Con + tú becomes contigo. \"Con ti\" and \"con tú\" don't exist, and \"conmigo\" means with me."
           ),
-          fb("Complete: \"My grandparents celebrated fifty years of marriage.\"", "Mis abuelos celebraron cincuenta años de ___.", "matrimonio", "Matrimonio = marriage."),
+          fb("Complete: \"My grandparents celebrated fifty years of marriage.\"", "Mis abuelos celebraron cincuenta años de ___.", "matrimonio", "Matrimonio means marriage: cincuenta años de matrimonio."),
         ]
       ),
       sec(
@@ -453,7 +453,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "\"The boys\" is...",
             ["los muchachos", "los muchacho", "las muchachos", "el muchachos"],
             0,
-            "Article and noun both plural and masculine: los muchachos."
+            "Article and noun must both be masculine plural: los muchachos. \"Los muchacho\" misses the plural -s, \"las\" is feminine, and \"el\" is singular."
           ),
         ]
       ),
@@ -477,7 +477,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "In \"Conocí a un tipo en el tren\", tipo means...",
             ["a guy", "a type", "a ticket", "a seat"],
             0,
-            "With un and a person verb like conocer, tipo is informal for \"guy\"."
+            "With un and a verb about people like conocer, tipo is informal for guy. It doesn't mean ticket or seat, and a type would not fit conocer."
           ),
         ]
       ),
@@ -496,7 +496,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
           ["Una amiga mía vive en Lima.", "A friend of mine lives in Lima."],
         ],
         [
-          fb("Complete: \"—Is this your jacket, Ana? —Yes, it's mine.\"", "—¿Es tu chaqueta, Ana? —Sí, es ___.", "mía", "Chaqueta is feminine, so mía."),
+          fb("Complete: \"—Is this your jacket, Ana? —Yes, it's mine.\"", "—¿Es tu chaqueta, Ana? —Sí, es ___.", "mía", "Chaqueta is feminine, so the possessive is mía."),
         ]
       ),
     ],
@@ -512,10 +512,10 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         ],
         "Five everyday words about people and relationships."
       ),
-      fb("Complete with \"with you\" (tú).", "Me gusta mucho hablar ___, Pablo.", "contigo", "Con + tú = contigo."),
+      fb("Complete with \"with you\" (tú).", "Me gusta mucho hablar ___, Pablo.", "contigo", "Con + tú becomes contigo, one word."),
       toEs("I have a good relationship with my sister.", "Tengo una buena relación con mi hermana.", "Relación = relationship; don't forget the accent.", []),
       toEn("¿Qué tipo de libros lees?", "What kind of books do you read?", "¿Qué tipo de...? = What kind of...?", ["What type of books do you read?", "What kind of books do you like to read?"]),
-      toEn("Esos tipos son amigos de mi hermano.", "Those guys are my brother's friends.", "Informally, tipos = guys.", ["Those guys are friends of my brother's.", "Those guys are friends of my brother."]),
+      toEn("Esos tipos son amigos de mi hermano.", "Those guys are my brother's friends.", "Tipos is informal for guys, and amigos de mi hermano = my brother's friends.", ["Those guys are friends of my brother's.", "Those guys are friends of my brother."]),
       wo("Un muchacho del grupo me ayudó con la maleta.", "Subject (un muchacho del grupo) + me + verb.", "A young man from the group helped me with the suitcase."),
       mc(
         "\"Excuse me, miss.\"",
@@ -530,7 +530,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         "Choose the correct sentence.",
         ["Un amigo mío y una amiga mía vienen hoy.", "Un amigo mía y una amiga mío vienen hoy.", "Un mío amigo y una mía amiga vienen hoy.", "Un amigo mi y una amiga mi vienen hoy."],
         0,
-        "Mío/mía goes after the noun and agrees with it: amigo mío, amiga mía."
+        "Mío/mía goes after the noun and agrees with it: amigo mío, amiga mía. The wrong options swap the genders, put mío before the noun, or use mi, which only goes before a noun."
       ),
       toEs("We're in touch by email.", "Estamos en contacto por correo.", "Estar en contacto = to be in touch.", ["Estamos en contacto por correo electrónico.", "Estamos en contacto por email."]),
       toEn("Perdone, señorita, ¿es este su bolso?", "Excuse me, miss, is this your bag?", "Señorita = miss; su = your (usted).", ["Excuse me, miss, is this your purse?", "Excuse me, miss, is this your handbag?"]),
@@ -587,7 +587,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "A friend tells you her grandfather died. What do you say?",
             ["Lo lamento mucho.", "¡Qué sorpresa!", "Es una broma.", "No es mi culpa."],
             0,
-            "Lo lamento mucho is the right thing to say for sad news."
+            "Lo lamento mucho (I'm very sorry) is what you say to sad news. \"¡Qué sorpresa!\" (what a surprise), \"Es una broma\" (it's a joke) and \"No es mi culpa\" (it's not my fault) would sound cold or odd."
           ),
         ]
       ),
@@ -645,21 +645,21 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         ],
         "Core words for feelings and situations."
       ),
-      fb("Complete the sentence.", "Tu hermana está ___: quiere nadar en el mar en enero.", "loca", "Tu hermana is feminine: loca."),
+      fb("Complete the sentence.", "Tu hermana está ___: quiere nadar en el mar en enero.", "loca", "Hermana is feminine, so the adjective is loca."),
       fb("Complete the sentence.", "Mi abuelo es un hombre muy ___; siempre sonríe y habla con todos.", "agradable", "Agradable = pleasant, nice. It has the same form for men and women."),
       mc(
         "Your friend wants to drive 900 km tonight without sleeping. You say:",
         ["¡Qué locura!", "¡Qué sorpresa!", "¡Qué broma!", "¡Qué paz!"],
         0,
-        "¡Qué locura! = That's crazy! / What madness!"
+        "¡Qué locura! means that's crazy! \"¡Qué sorpresa!\" is what a surprise, \"¡Qué broma!\" what a joke, and \"¡Qué paz!\" how peaceful."
       ),
       toEs("It's not your fault.", "No es tu culpa.", "Culpa = fault. You can also say No es culpa tuya.", ["No es culpa tuya.", "No es culpa tuya", "No es tu culpa"]),
-      toEn("Lo lamento, no puedo ir a tu fiesta.", "I'm sorry, I can't go to your party.", "Lo lamento = I'm sorry.", ["I am sorry, I can't go to your party.", "I'm sorry, I cannot go to your party."]),
+      toEn("Lo lamento, no puedo ir a tu fiesta.", "I'm sorry, I can't go to your party.", "Lo lamento means I'm sorry (for bad news or a refusal), a little more formal than lo siento.", ["I am sorry, I can't go to your party.", "I'm sorry, I cannot go to your party."]),
       wo("Mis amigos me prepararon una fiesta sorpresa.", "Una fiesta sorpresa = a surprise party; sorpresa goes after fiesta.", "My friends prepared a surprise party for me."),
       toEn("No lo dije en serio, fue una broma.", "I didn't mean it, it was a joke.", "En serio = seriously; una broma = a joke.", ["I didn't say it seriously, it was a joke.", "I wasn't serious, it was a joke."]),
-      toEs("It's an honor to be here.", "Es un honor estar aquí.", "Es un honor + infinitive.", ["Es un honor estar aqui."]),
+      toEs("It's an honor to be here.", "Es un honor estar aquí.", "Es un honor + infinitive: es un honor estar aquí.", ["Es un honor estar aqui."]),
       fb("Complete the sentence.", "Te quiero con toda mi ___.", "alma", "Con toda mi alma = with all my soul, with all my heart."),
-      toEn("Solo quiero un poco de paz.", "I just want a little peace.", "La paz = peace.", ["I only want a little peace.", "I just want some peace.", "I just want a bit of peace."]),
+      toEn("Solo quiero un poco de paz.", "I just want a little peace.", "La paz means peace; solo means just here.", ["I only want a little peace.", "I just want some peace.", "I just want a bit of peace."]),
       mc(
         "Your classmate made a small mistake. Which sentence is the kindest?",
         ["No pasa nada, es un error pequeño.", "Eres tonto.", "Eres estúpido.", "¡Estás loco!"],
@@ -695,7 +695,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "Choose the right form: \"¿Qué ___ ayer en la reunión?\"",
             ["sucedió", "sucede", "suceden", "sucedo"],
             0,
-            "Ayer = yesterday, so use the preterite: sucedió."
+            "Ayer asks for the preterite, and the subject is qué (singular): sucedió. \"Sucede\" is present, \"suceden\" is plural, and \"sucedo\" is yo."
           ),
           fb("Complete with suceder (present).", "No sé qué ___; hoy la tienda está cerrada.", "sucede", "Present tense of suceder for \"it\": sucede."),
         ]
@@ -780,13 +780,13 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         0,
         "Ayer → preterite; el partido (él) → acabó. Acabo without an accent is \"I finish\"."
       ),
-      toEs("The movie ends at ten.", "La película acaba a las diez.", "Acabar = to end.", ["La pelicula acaba a las diez.", "La película termina a las diez."]),
+      toEs("The movie ends at ten.", "La película acaba a las diez.", "Acabar means to end, and la película is ella: acaba.", ["La pelicula acaba a las diez.", "La película termina a las diez."]),
       toEs("I have just finished my homework.", "Acabo de terminar mis deberes.", "Acabar de + infinitive, in the present tense.", ["Acabo de terminar la tarea.", "Acabo de hacer mis deberes.", "Acabo de terminar los deberes.", "Acabo de terminar mi tarea."]),
-      toEn("¿Qué sucedió después de la fiesta?", "What happened after the party?", "Sucedió = happened (preterite).", ["What happened after the party"]),
+      toEn("¿Qué sucedió después de la fiesta?", "What happened after the party?", "Suceder means to happen; sucedió is the preterite, él form.", ["What happened after the party"]),
       wo("El concierto acabó muy tarde anoche.", "Acabó = ended (preterite).", "The concert ended very late last night."),
       fb("Complete the sentence.", "En un examen hay que ___ la calma.", "mantener", "Mantener la calma = to stay calm."),
       toEn("Te lo juro, no sé nada.", "I swear, I don't know anything.", "Te lo juro = I swear (to you).", ["I swear I don't know anything.", "I swear, I know nothing."]),
-      toEn("Mi abuelo anda muy despacio.", "My grandfather walks very slowly.", "Anda = walks (andar, él).", ["My grandpa walks very slowly."]),
+      toEn("Mi abuelo anda muy despacio.", "My grandfather walks very slowly.", "Andar means to walk; anda is the él form, and despacio means slowly.", ["My grandpa walks very slowly."]),
       fb("Complete the sentence.", "¡___ ya! No quiero oír más quejas.", "Basta", "¡Basta ya! = That's enough now!"),
       mc(
         "At the movies, the people behind you are talking. Which is the most polite?",
@@ -823,7 +823,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "Which sentence is correct?",
             ["El sistema es nuevo.", "La sistema es nueva.", "El sistema es nueva.", "La sistema es nuevo."],
             0,
-            "Sistema ends in -a but is masculine: el sistema nuevo."
+            "Sistema ends in -a but is masculine (from Greek), so el sistema es nuevo. The wrong options use \"la\" or the feminine \"nueva\"."
           ),
           fb("Complete the sentence.", "La policía empezó una ___ sobre el robo.", "investigación", "Una investigación = an investigation (feminine, -ción)."),
         ]
@@ -865,7 +865,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "You're in Madrid for work. \"Estoy aquí por ___.\"",
             ["negocios", "servicios", "programas", "sistemas"],
             0,
-            "Por negocios = on business."
+            "Por negocios means on business. \"Servicios\", \"programas\" and \"sistemas\" don't form this expression."
           ),
           fb("Complete the sentence.", "No hay ___ de que él tomó el dinero.", "pruebas", "Las pruebas = the evidence, the proof."),
         ]
@@ -889,7 +889,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "You need to get past someone on a crowded bus. You say:",
             ["Con permiso.", "Con atención.", "Con consejo.", "Con servicio."],
             0,
-            "Con permiso = excuse me (may I pass)."
+            "Con permiso means excuse me when you need to pass. \"Con atención\", \"con consejo\" and \"con servicio\" aren't set phrases."
           ),
           toEn("¿Puedo darte un consejo?", "Can I give you some advice?", "Un consejo = a piece of advice.", ["Can I give you a piece of advice?", "Can I give you advice?", "May I give you some advice?"]),
         ]
@@ -907,29 +907,29 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         ],
         "Common nouns from the news and daily life."
       ),
-      fb("Complete the sentence.", "El ___ de este restaurante es excelente; los camareros son muy amables.", "servicio", "El servicio = the service."),
-      fb("Complete the sentence.", "Mi padre tiene un pequeño ___ en el centro: una panadería.", "negocio", "Un negocio = a business."),
+      fb("Complete the sentence.", "El ___ de este restaurante es excelente; los camareros son muy amables.", "servicio", "El servicio means the service in a restaurant."),
+      fb("Complete the sentence.", "Mi padre tiene un pequeño ___ en el centro: una panadería.", "negocio", "Un negocio means a business, like a bakery."),
       fb("Complete the sentence.", "El ___ de metro de esta ciudad es muy moderno.", "sistema", "El sistema is masculine even though it ends in -a."),
       toEs("The situation is very serious.", "La situación es muy grave.", "La situación (feminine, accent on the o).", ["La situación es muy seria.", "La situacion es muy grave."]),
-      toEs("I need more information about the situation.", "Necesito más información sobre la situación.", "Información is uncountable: más información.", ["Yo necesito más información sobre la situación.", "Necesito mas informacion sobre la situacion."]),
-      toEn("El gobierno no dio información oficial.", "The government didn't give official information.", "Oficial comes after the noun.", ["The government did not give official information.", "The government gave no official information."]),
+      toEs("I need more information about the situation.", "Necesito más información sobre la situación.", "Información is uncountable, so it stays singular: más información.", ["Yo necesito más información sobre la situación.", "Necesito mas informacion sobre la situacion."]),
+      toEn("El gobierno no dio información oficial.", "The government didn't give official information.", "Oficial comes after the noun in Spanish: información oficial.", ["The government did not give official information.", "The government gave no official information."]),
       wo("Mi hermano viaja a Madrid por negocios.", "Por negocios = on business.", "My brother travels to Madrid on business."),
       mc(
         "\"You're not paying attention.\"",
         ["No prestas atención.", "No haces atención.", "No das atención.", "No tienes atención."],
         0,
-        "The chunk is prestar atención."
+        "The fixed chunk is prestar atención (to pay attention). \"Hacer\", \"dar\" and \"tener\" aren't used with atención this way."
       ),
       toEn("Esto no es asunto tuyo.", "This is none of your business.", "No es asunto tuyo = it's none of your business.", ["This isn't your business.", "This is not your business.", "It's none of your business."]),
-      fb("Complete the sentence.", "La policía no tiene ___ contra él.", "pruebas", "Las pruebas = the evidence."),
+      fb("Complete the sentence.", "La policía no tiene ___ contra él.", "pruebas", "Las pruebas means the evidence; it's plural in Spanish here."),
       wo("Mi programa favorito empieza a las nueve.", "El programa is masculine: mi programa favorito.", "My favorite show starts at nine."),
       mc(
         "\"Mañana tengo una ___ de matemáticas.\"",
         ["prueba", "sistema", "asunto", "permiso"],
         0,
-        "Una prueba = a test. The others are masculine and don't fit."
+        "Una prueba means a test, and it's feminine to match una. \"Sistema\", \"asunto\" and \"permiso\" are masculine and don't mean test."
       ),
-      toEn("La investigación empezó hace un mes.", "The investigation began a month ago.", "Hace + time = ago.", ["The investigation started a month ago."]),
+      toEn("La investigación empezó hace un mes.", "The investigation began a month ago.", "Hace + time means ago: hace un mes = a month ago.", ["The investigation started a month ago."]),
     ]
   ),
   L(
@@ -959,7 +959,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "Which part of the body do you think with?",
             ["el cerebro", "el corazón", "el estómago", "el pulmón"],
             0,
-            "El cerebro = the brain."
+            "You think with el cerebro (the brain). \"El corazón\" is the heart, \"el estómago\" the stomach, and \"el pulmón\" the lung."
           ),
         ]
       ),
@@ -1013,7 +1013,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             "\"Hace mil años, una noche, el caballero ___ al dragón.\"",
             ["mató", "mataba", "matará", "matamos"],
             0,
-            "One finished action in the past (una noche): preterite, mató."
+            "One finished action on one night is preterite: mató. \"Mataba\" is imperfect (ongoing or habitual), \"matará\" is future, and \"matamos\" is nosotros."
           ),
         ]
       ),
@@ -1033,18 +1033,18 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       fb("Complete the sentence.", "Ganó la medalla de ___ en los Juegos Olímpicos.", "oro", "La medalla de oro = the gold medal."),
       fb("Complete the sentence.", "Mi prima monta a ___ todos los sábados.", "caballo", "Montar a caballo = to ride a horse."),
       toEs("Merry Christmas!", "¡Feliz Navidad!", "Navidad is written with a capital N.", ["Feliz Navidad", "Feliz Navidad!", "¡Feliz navidad!"]),
-      toEs("These shoes hurt me.", "Estos zapatos me hacen daño.", "Hacer daño = to hurt.", ["Estos zapatos me hacen daño", "Estos zapatos me duelen."]),
-      toEn("No tengo fuerza para correr más.", "I don't have the strength to run anymore.", "La fuerza = strength.", ["I don't have the strength to run any more.", "I have no strength to run anymore.", "I don't have the strength to run more."]),
+      toEs("These shoes hurt me.", "Estos zapatos me hacen daño.", "Hacer daño means to hurt, and the thing that hurts is the subject: estos zapatos me hacen daño.", ["Estos zapatos me hacen daño", "Estos zapatos me duelen."]),
+      toEn("No tengo fuerza para correr más.", "I don't have the strength to run anymore.", "La fuerza means strength; tener fuerza para + infinitive = to have the strength to.", ["I don't have the strength to run any more.", "I have no strength to run anymore.", "I don't have the strength to run more."]),
       wo("Leo novelas en el tren para matar el tiempo.", "Para + infinitive: para matar el tiempo = to kill time.", "I read novels on the train to kill time."),
       mc(
         "\"To take out the trash\" is...",
         ["sacar la basura", "hacer la basura", "poner la basura", "dar la basura"],
         0,
-        "Sacar la basura = to take out the trash."
+        "The set phrase is sacar la basura (to take out the trash). \"Hacer\", \"poner\" and \"dar\" don't go with basura this way."
       ),
-      fb("Complete the sentence.", "En la última ___ de la película, los dos amigos se despiden.", "escena", "La escena = the scene."),
+      fb("Complete the sentence.", "En la última ___ de la película, los dos amigos se despiden.", "escena", "La escena means the scene."),
       wo("El cerebro necesita agua y descanso.", "El cerebro = the brain.", "The brain needs water and rest."),
-      fb("Complete the sentence.", "¿Qué haces en ___? Normalmente cenamos con mis abuelos.", "Navidad", "En Navidad = at Christmas."),
+      fb("Complete the sentence.", "¿Qué haces en ___? Normalmente cenamos con mis abuelos.", "Navidad", "Navidad is Christmas: en Navidad = at Christmas."),
       toEn("En la película, nadie sabe quién mató al rey.", "In the movie, nobody knows who killed the king.", "Mató = killed (preterite of matar).", ["In the film, nobody knows who killed the king.", "In the movie, no one knows who killed the king."]),
       toEs("They gave blood at the hospital.", "Donaron sangre en el hospital.", "Donar sangre = to give blood.", ["Ellos donaron sangre en el hospital.", "Dieron sangre en el hospital."]),
       toEs("I pushed the door with all my strength.", "Empujé la puerta con toda mi fuerza.", "Con toda mi fuerza = with all my strength.", ["Empujé la puerta con todas mis fuerzas."]),
