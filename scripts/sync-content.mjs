@@ -40,6 +40,8 @@ const DIRS = {
   "src/lib/glossary": [],
   // Premade frequency flashcard decks (data plus pure helpers).
   "src/lib/decks": [],
+  // DELE practice exams (data plus the pure marking helpers).
+  "src/lib/exams": [],
 };
 
 // Single website files mirrored to the same path here (pure data that

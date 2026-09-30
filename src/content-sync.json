@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "9bccc4ad42a9b47b5531498fc6c74f22a5457d17",
+  "commit": "6ab0fa8869818a2f2ccd6cd3bafdf2ef3ea99899",
   "files": {
     "src/lib/lessons/a1-additions.ts": "5e2de5cde5d685adaec5cd4c5c818ed420ecc224d408aeb2bf16fe5ed8321430",
     "src/lib/lessons/a1-reinforcement.ts": "99c5215b4e0e4254204b5202f632cee1a88643c71efb19e8070c26bb05871167",
@@ -95,6 +95,29 @@
     "src/lib/decks/frequency-c1.ts": "3c5377bb947d8636fc5444d80f18f66b6e7806ee8e789f3673cf094683ce4fc2",
     "src/lib/decks/index.ts": "cf112ca08c66e476ea7949ef164bf5e6b91c23efe21f00fa2db767db911c4ee3",
     "src/lib/decks/types.ts": "56a3707da327558a9fc245886d132e7e0575253ebd4c50c71632c81794571342",
+    "src/lib/exams/dele-a2-auditiva.ts": "a61b145488f41d8c2ef91736e8636570704a5debfd398a75edb49aa85fcdf3d3",
+    "src/lib/exams/dele-a2-escrita.ts": "11719572cf0c60e2afa8be90a70e03c0cf3ce0a52296f7db4e755bc893471f12",
+    "src/lib/exams/dele-a2-lectura.ts": "75bcdbdcfa1aefa1d47198744b424f7cd9b27e385673d8b66456552c64677a16",
+    "src/lib/exams/dele-a2-oral.ts": "f844780e73abbf2c706567f7cf1dde9b60b65ab820820e895b2989e2020c38ec",
+    "src/lib/exams/dele-a2.ts": "d13b1b20b30881cac879c9bc9f1fb66df0a6b6ee42a0fd082f5d7dc0e36cb3f8",
+    "src/lib/exams/dele-b1-auditiva.ts": "0fd1ea2f3172afde05c5f262af823149b2a1ae25a63a0a6afcbc5c556a66f2bc",
+    "src/lib/exams/dele-b1-escrita.ts": "71328f58d25e99a1cecd0c639baef6de9ca2dd43c5fe8680ebaf4452b917141f",
+    "src/lib/exams/dele-b1-lectura.ts": "d8aab2daa36b19b2a05f0f231faa8421699551cba44b17c48d26a8697630a427",
+    "src/lib/exams/dele-b1-oral.ts": "4d23ffde0a3a224746808634d04178eb0d5d43496a61c7435eb166905603c7a4",
+    "src/lib/exams/dele-b1.ts": "02c1f05d17f1ab8d0d2d8fc323dc913b90fb31a1b5d94f293c9888194380a7bd",
+    "src/lib/exams/dele-b2-auditiva.ts": "997eaefcee5facff166ca1a71e8d253be393476a54050022dfdf155569e19aa9",
+    "src/lib/exams/dele-b2-escrita.ts": "98e31260cc14918c1dc47e692b6506a4c9e4775b4c08c628a01bd270e236e2ec",
+    "src/lib/exams/dele-b2-lectura.ts": "4f812497e06c95b430ee56ae493f9b69bca24d0b87b48a78aa20683e8ab2c50f",
+    "src/lib/exams/dele-b2-oral.ts": "ed7917784d6d5f3795db1d7557ec65a962cfd46a7c7a3abe901e323b228e16c6",
+    "src/lib/exams/dele-b2.ts": "2579d48bb812f8fa36a4990bb6497dabe96a097738030d84e25e6bd9516d539f",
+    "src/lib/exams/dele-c1-auditiva.ts": "5eb6b73e5e3c0ef1e0b2519f4a05813c431091fea61f7bd6f628c22e908f0d4e",
+    "src/lib/exams/dele-c1-escrita.ts": "8899d539ef548726aa8a822f239b008fd275a79995da949f2bb9c6add00178f4",
+    "src/lib/exams/dele-c1-lectura.ts": "9b72cf42ef2cead179b2fe0a759698c70152c02ba07e011ad242c1bebada2aa2",
+    "src/lib/exams/dele-c1-oral.ts": "5339134d658862c55a722fce95458fb75ece85d3c623a0a0edf39d9fd567f044",
+    "src/lib/exams/dele-c1.ts": "eafe79cffad305fb9929eebeb41ba9638a5f5023afa63e20d1e06882e3618d5a",
+    "src/lib/exams/index.ts": "21d5491193ccc2d857e55fe480ac1cf7f8e090813ff6ae4c07f9f1b1bf4ef70c",
+    "src/lib/exams/scoring.ts": "ef559927fa7794845005d6728e97df99609adb3e57b34f55f2069cf4b076ca6f",
+    "src/lib/exams/types.ts": "4534b7b47f2a7c419f16fed8d78a27e9e212eda9eeb5d8bfb595403b863092d9",
     "src/lib/placementTest.ts": "8e67bf609a107457deeb4cc4ad25c2e6e1ab567bb665d9b57a3d74e23bfeb449"
   }
 }
