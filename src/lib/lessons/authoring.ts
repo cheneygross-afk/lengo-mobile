@@ -25,9 +25,19 @@ import type { AnchoredLesson } from "./weave";
 
 type Lang = "en" | "es";
 
-const DEFAULT_PROMPTS: Record<Lang, { toEs: string; toEn: string; order: string }> = {
-  en: { toEs: "Translate to Spanish.", toEn: "Translate to English.", order: "Put the words in order." },
-  es: { toEs: "Traduce al español.", toEn: "Traduce al inglés.", order: "Ordena las palabras." },
+const DEFAULT_PROMPTS: Record<Lang, { toEs: string; toEn: string; order: string; blank: string }> = {
+  en: {
+    toEs: "Translate to Spanish.",
+    toEn: "Translate to English.",
+    order: "Put the words in order.",
+    blank: "How do you say the bold words in Spanish?",
+  },
+  es: {
+    toEs: "Traduce al español.",
+    toEn: "Traduce al inglés.",
+    order: "Ordena las palabras.",
+    blank: "¿Cómo se dicen en español las palabras en negrita?",
+  },
 };
 
 export function authoring(lang: Lang) {
@@ -55,6 +65,19 @@ export function authoring(lang: Lang) {
     sentence,
     answer,
     ...(hint ? { hint } : {}),
+    explanation,
+  });
+
+  // A fill-blank asked as a translation: `en` is the English meaning of the
+  // whole sentence with [square brackets] around the words the blank
+  // stands for (see FillBlankExercise.en).
+  const fe = (sentence: string, answer: string, en: string, explanation: string, altAnswers?: string[]): FillBlankExercise => ({
+    type: "fill-blank",
+    prompt: p.blank,
+    sentence,
+    answer,
+    en,
+    ...(altAnswers && altAnswers.length ? { altAnswers } : {}),
     explanation,
   });
 
@@ -110,7 +133,7 @@ export function authoring(lang: Lang) {
     ...(checkpoint.length ? { checkpoint } : {}),
   });
 
-  return { mc, ms, fb, toEs, toEn, wo, mt, sec };
+  return { mc, ms, fb, fe, toEs, toEn, wo, mt, sec };
 }
 
 type Level = AnchoredLesson["lesson"]["level"];

@@ -1,6 +1,8 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/b1.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Lesson } from "./types";
 import { buildLevel } from "./sequencing";
+import { B1_GAPS } from "./b1-gaps";
+import { B1_SURVIVAL } from "./survival-b1";
 import { B1_REINFORCEMENT } from "./b1-reinforcement";
 import { B1_DRILLS } from "./b1-drills";
 import { B1_COMMON_WORDS } from "./b1-common-words";
@@ -18080,4 +18082,4 @@ const B1_BASE_LESSONS: Lesson[] = [
 // the same way; at a shared anchor they follow the reinforcement lessons.
 // sequencing.ts applies the course order (moved topics, spread-out
 // vocabulary, optional Extra Practice) after weaving.
-export const B1_LESSONS: Lesson[] = buildLevel("B1", B1_BASE_LESSONS, [...B1_REINFORCEMENT, ...B1_DRILLS, ...B1_COMMON_WORDS]);
+export const B1_LESSONS: Lesson[] = buildLevel("B1", B1_BASE_LESSONS, [...B1_REINFORCEMENT, ...B1_DRILLS, ...B1_COMMON_WORDS, ...B1_GAPS, ...B1_SURVIVAL]);
