@@ -3,6 +3,8 @@ import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import type { LessonModuleKey } from "@/lib/lessons/registry";
 import { GRAMMAR_GUIDES } from "@/lib/grammar/guides";
+import { lessonsForGuide } from "@/lib/lessons/grammarLinks";
+import { findLessonBySlug } from "@/lib/lessons/registry";
 import TapText from "@/components/TapText";
 import { ENGLISH_LANG, SPANISH_LANG } from "@/lib/speech";
 
@@ -14,6 +16,7 @@ const LESSONS_FOR_LEVEL: Record<string, LessonModuleKey> = {
   B1: "b1",
   B2: "b2",
   C1: "c1",
+  C2: "c2",
 };
 
 // One grammar guide, laid out like the website's /grammar/[slug] page.
@@ -28,6 +31,11 @@ export default function GrammarGuideScreen({ route, navigation }: Props) {
       </View>
     );
   }
+  // The first lesson that teaches this topic (see grammarLinks.ts); the
+  // level's lesson list when none is linked.
+  const firstLesson = lessonsForGuide(guide.slug)
+    .map((ref) => findLessonBySlug(ref.slug))
+    .find((l) => !!l);
   const related = guide.related
     .map((slug) => GRAMMAR_GUIDES.find((g) => g.slug === slug))
     .filter((g): g is (typeof GRAMMAR_GUIDES)[number] => !!g);
@@ -46,6 +54,28 @@ export default function GrammarGuideScreen({ route, navigation }: Props) {
           {section.body.map((p, i) => (
             <TapText key={i} text={p} lang={SPANISH_LANG} style={s.body} />
           ))}
+          {section.table && (
+            <ScrollView horizontal style={s.tableScroll} contentContainerStyle={s.table}>
+              <View>
+                <View style={[s.tableRow, s.tableHeaderRow]}>
+                  {section.table.headers.map((h, i) => (
+                    <View key={i} style={s.tableCell}>
+                      <TapText text={h} lang={SPANISH_LANG} style={s.tableHeader} />
+                    </View>
+                  ))}
+                </View>
+                {section.table.rows.map((row, r) => (
+                  <View key={r} style={s.tableRow}>
+                    {row.map((cell, c) => (
+                      <View key={c} style={s.tableCell}>
+                        <TapText text={cell} lang={SPANISH_LANG} style={c === 0 ? s.tableLabel : s.tableText} />
+                      </View>
+                    ))}
+                  </View>
+                ))}
+              </View>
+            </ScrollView>
+          )}
           {section.examples?.map((ex) => (
             <View key={ex.es} style={s.example}>
               <TapText text={ex.es} lang={SPANISH_LANG} mode="target" style={s.exampleEs} />
@@ -82,9 +112,13 @@ export default function GrammarGuideScreen({ route, navigation }: Props) {
 
       <Pressable
         style={s.bigBtn}
-        onPress={() => navigation.navigate("LessonList", { moduleKey: LESSONS_FOR_LEVEL[guide.level] })}
+        onPress={() =>
+          firstLesson
+            ? navigation.navigate("LessonRunner", { slug: firstLesson.slug })
+            : navigation.navigate("LessonList", { moduleKey: LESSONS_FOR_LEVEL[guide.level] })
+        }
       >
-        <Text style={s.bigBtnText}>Practice with the {guide.level} lessons</Text>
+        <Text style={s.bigBtnText}>{firstLesson ? "Practice this in lessons" : `Practice with the ${guide.level} lessons`}</Text>
       </Pressable>
       <Pressable
         style={s.secondaryBtn}
@@ -123,6 +157,14 @@ const s = StyleSheet.create({
     backgroundColor: "#fff",
     marginBottom: 8,
   },
+  tableScroll: { marginBottom: 10 },
+  table: { borderWidth: 1, borderColor: "#00000012", borderRadius: 10, backgroundColor: "#fff" },
+  tableRow: { flexDirection: "row", borderBottomWidth: 1, borderBottomColor: "#0000000d" },
+  tableHeaderRow: { borderBottomColor: "#00000033" },
+  tableCell: { width: 150, paddingHorizontal: 10, paddingVertical: 8 },
+  tableHeader: { fontSize: 13.5, fontWeight: "700", color: "#000" },
+  tableLabel: { fontSize: 13.5, color: "#00000099" },
+  tableText: { fontSize: 14, color: "#000" },
   exampleEs: { fontSize: 15, fontWeight: "600", color: "#000" },
   exampleEn: { fontSize: 13.5, color: "#00000099", marginTop: 2, lineHeight: 19 },
   wrong: { fontSize: 14, color: "#b91c1c", textDecorationLine: "line-through" },
