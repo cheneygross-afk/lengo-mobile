@@ -5,7 +5,8 @@ import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { LESSON_SOURCES, type LessonModuleKey } from "@/lib/lessons/registry";
 import { getCompletedMap, syncCompletedMapFromCloud } from "@/lib/lessons/completion";
-import { SPANISH_LEVELS, requiredLessons } from "@/lib/lessons/levels";
+import { SPANISH_LEVELS, displayTitle, requiredLessons } from "@/lib/lessons/levels";
+import { furthestLevelNext, type NextLesson } from "@/lib/lessons/units";
 
 type Props = NativeStackScreenProps<AppStackParamList, "SpanishLevels">;
 
@@ -38,6 +39,9 @@ function countDone(key: LessonModuleKey, map: Record<string, boolean>): number {
 
 export default function SpanishLevelsScreen({ navigation }: Props) {
   const [completed, setCompleted] = useState<Partial<Record<LessonModuleKey, number>>>({});
+  // Where to pick up across A1-C2 (units.ts furthestLevelNext); undefined
+  // until the completions are read, null once everything is done.
+  const [next, setNext] = useState<NextLesson | null | undefined>(undefined);
 
   useFocusEffect(
     useCallback(() => {
@@ -45,11 +49,13 @@ export default function SpanishLevelsScreen({ navigation }: Props) {
       const load = (read: (levelPath: string) => Promise<Record<string, boolean>>) =>
         Promise.all(LEVELS.map((lvl) => read(LESSON_SOURCES[lvl.key].levelPath))).then((maps) => {
           if (cancelled) return;
-          const next: Partial<Record<LessonModuleKey, number>> = {};
+          const counts: Partial<Record<LessonModuleKey, number>> = {};
           LEVELS.forEach((lvl, i) => {
-            next[lvl.key] = countDone(lvl.key, maps[i]);
+            counts[lvl.key] = countDone(lvl.key, maps[i]);
           });
-          setCompleted(next);
+          setCompleted(counts);
+          // Slugs are unique across levels, so one merged map will do.
+          setNext(furthestLevelNext(Object.assign({}, ...maps)));
         });
       // Local first, then again once completions from the website (or
       // another device) are merged in, as the lesson list does.
@@ -63,6 +69,18 @@ export default function SpanishLevelsScreen({ navigation }: Props) {
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <Text style={styles.subtitle}>Bite-sized, self-paced lessons organized by level.</Text>
+      {next && (
+        <Pressable style={styles.continueCard} onPress={() => navigation.navigate("LessonRunner", { slug: next.lesson.slug })}>
+          <Text style={styles.continueKicker}>
+            {next.levelPath === "a1" && next.lesson.number === 1 ? "Start" : "Continue"} ·{" "}
+            {next.levelPath.toUpperCase()} · {next.unit.label}
+          </Text>
+          <Text style={styles.continueTitle}>
+            Lesson {next.lesson.number}: {displayTitle(next.lesson, LESSON_SOURCES[next.levelPath].lessons)} →
+          </Text>
+        </Pressable>
+      )}
+      {next === null && <Text style={styles.doneNote}>You've finished every required lesson from A1 to C2.</Text>}
       <View style={styles.cards}>
         {LEVELS.map((lvl) => {
           const source = LESSON_SOURCES[lvl.key];
@@ -93,6 +111,10 @@ const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: "#FAF6F1" },
   content: { padding: 20, paddingBottom: 40 },
   subtitle: { fontSize: 14, color: "#00000099", marginBottom: 20 },
+  continueCard: { backgroundColor: "#000", borderRadius: 14, padding: 16, marginBottom: 20 },
+  continueKicker: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#ffffffaa" },
+  continueTitle: { fontSize: 16, fontWeight: "700", color: "#fff", marginTop: 4 },
+  doneNote: { fontSize: 14, color: "#15803d", fontWeight: "600", marginBottom: 20 },
   cards: { gap: 14 },
   card: {
     borderWidth: 1,

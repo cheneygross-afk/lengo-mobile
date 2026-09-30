@@ -2,7 +2,7 @@
 // do on the web app (`deepend-${levelPath}-completed` in localStorage) --
 // same key format, AsyncStorage instead of localStorage.
 import { readJSON, writeJSON } from "@/lib/storage/asyncStore";
-import { pushCompletionToCloud, mergeCompletionsFromCloud } from "./completionSync";
+import { pushCompletionToCloud, pushCompletionsToCloud, mergeCompletionsFromCloud } from "./completionSync";
 
 function storageKey(levelPath: string): string {
   return `deepend-${levelPath}-completed`;
@@ -56,4 +56,19 @@ export async function syncCompletedMapFromCloud(levelPath: string): Promise<Reco
   const merged = await mergeCompletionsFromCloud(levelPath, local);
   await writeJSON(storageKey(levelPath), merged);
   return merged;
+}
+
+// Marks many lessons done at once -- "Mark earlier levels as known" at
+// setup. One local write and one upsert instead of a request per lesson;
+// no completion log entries (that log drives the every-4th-lesson review
+// cadence, which shouldn't fire for lessons never actually taken) and no
+// auto-enrolled flashcards.
+export async function markLessonsCompletedBulk(
+  levelPath: string,
+  lessons: { slug: string; number: number }[]
+): Promise<void> {
+  const map = await getCompletedMap(levelPath);
+  for (const lesson of lessons) map[lesson.slug] = true;
+  await writeJSON(storageKey(levelPath), map);
+  await pushCompletionsToCloud(levelPath, lessons);
 }

@@ -66,7 +66,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               0,
               1
             ],
-            "explanation": "Nosotros (masculine/mixed group) and nosotras (all-feminine group) both mean \"we\"."
+            "explanation": "Nosotros (male or mixed group) and nosotras (all-female group) both mean we. \"Vosotros\" means you all (Spain), and \"ellos\" means they."
           }
         ]
       },
@@ -173,7 +173,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "ellos"
         ],
         "correctIndex": 2,
-        "explanation": "\"Somos\" is the nosotros (we) form of ser."
+        "explanation": "Somos is the nosotros (we) form of ser. Yo takes soy, tú takes eres, and ellos takes son."
       },
       {
         "type": "fill-blank",
@@ -201,7 +201,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Yo soy profesor."
         ],
         "correctIndex": 1,
-        "explanation": "Formal \"you\" (usted) pairs with the same verb form as él/ella: \"es\"."
+        "explanation": "Formal you (usted) uses the same verb form as él/ella: usted es. \"Tú eres\" is informal, \"Ustedes son\" is plural, and \"Yo soy\" means I am."
       }
     ]
   },
@@ -251,7 +251,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "What time is it?"
             ],
             "correctIndex": 1,
-            "explanation": "Sofía asks \"¿De dónde eres?\" — \"Where are you from?\""
+            "explanation": "Sofía asks \"¿De dónde eres?\", which means \"Where are you from?\" She doesn't ask his name, age or the time."
           },
           {
             "type": "translate",
@@ -388,7 +388,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "When meeting a baby"
         ],
         "correctIndex": 1,
-        "explanation": "\"Buenas noches\" covers both \"good evening\" and \"good night\"."
+        "explanation": "Buenas noches is used in the evening or at night, both as a greeting and as a goodbye, so it's not \"only to say goodbye\". Mornings take buenos días."
       },
       {
         "type": "matching",
@@ -471,7 +471,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "La mesa is feminine by its -a ending; la mano is feminine even though it ends in -o — a common exception."
+            "explanation": "La mesa is feminine (-a ending) and la mano is feminine even though it ends in -o, a common exception. \"El libro\" is masculine, and so is \"el día\" despite its -a."
           }
         ]
       },
@@ -553,7 +553,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "There is no reason, it's random"
         ],
         "correctIndex": 1,
-        "explanation": "Words like problema, tema, and sistema come from Greek and stay masculine despite the -a ending."
+        "explanation": "Words like problema, tema and sistema come from Greek and stay masculine despite the -a ending. It isn't a typo, and it isn't random: it's a small, learnable group."
       },
       {
         "type": "fill-blank",
@@ -611,7 +611,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "four"
             ],
             "correctIndex": 1,
-            "explanation": "\"Dos mesas\" means \"two tables\"."
+            "explanation": "\"Dos mesas\" means two tables, so there are two, not one, three or four."
           },
           {
             "type": "fill-blank",
@@ -798,7 +798,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "ustedes"
         ],
         "correctIndex": 2,
-        "explanation": "\"Sois\" is the vosotros form of ser, used in Spain for an informal \"you all\"."
+        "explanation": "Sois is the vosotros form of ser, used in Spain for informal you all. Tú takes eres, nosotros takes somos, and ustedes takes son."
       },
       {
         "type": "fill-blank",
@@ -820,7 +820,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "El problema (Greek-origin -ma word) and el día are both masculine exceptions -- despite ending in -a and -a-sound respectively."
+        "explanation": "El problema (a Greek-origin -ma word) and el día are masculine even though both end in -a. \"La mano\" is a feminine exception, and \"la mesa\" is a regular feminine noun."
       },
       {
         "type": "translate",
@@ -903,7 +903,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Nosotros somos ingeniera."
         ],
         "correctIndex": 1,
-        "explanation": "Nosotras (all-feminine \"we\") pairs with somos, and ingeniera matches the feminine gender."
+        "explanation": "An all-female group uses nosotras, and the noun must be feminine plural too: ingenieras. \"Nosotros\" is for male or mixed groups, and \"ingeniero\" and \"ingeniera\" are singular."
       }
     ]
   },
@@ -1042,7 +1042,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "trabajador"
             ],
             "correctIndex": 1,
-            "explanation": "\"Su hermano es bajo\" — bajo means \"short\"."
+            "explanation": "The text says \"Su hermano es bajo\": bajo means short. Alto means tall, and \"inteligente\" and \"trabajador\" don't describe height."
           },
           {
             "type": "fill-blank",
@@ -1187,7 +1187,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "las perros negros"
         ],
         "correctIndex": 2,
-        "explanation": "Both the noun and the adjective must be masculine plural: perros negros."
+        "explanation": "The article, noun and adjective must all be masculine plural: los perros negros. \"Negro\" and \"perro\" are missing the plural -s, and \"las\" is the feminine article."
       },
       {
         "type": "fill-blank",
@@ -1206,7 +1206,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "una mujer inteligento"
         ],
         "correctIndex": 1,
-        "explanation": "Adjective after the noun, and \"inteligente\" doesn't change for gender."
+        "explanation": "In Spanish most adjectives go after the noun, and inteligente has one form for both genders. \"Una inteligente mujer\" puts it before the noun, \"un\" is the masculine article, and \"inteligento\" doesn't exist."
       },
       {
         "type": "matching",
@@ -1336,7 +1336,7 @@ const A1_BASE_LESSONS: Lesson[] = [
             "altAnswers": [
               "Ellos trabajan mucho."
             ],
-            "explanation": "Ellos/ellas/ustedes → -an ending: trabajan."
+            "explanation": "Ellos/ellas/ustedes take the -an ending for -ar verbs: trabajan."
           }
         ]
       },
@@ -1370,7 +1370,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "a gym"
             ],
             "correctIndex": 1,
-            "explanation": "\"Mi amiga trabaja en un café\" — she works at a café."
+            "explanation": "The text says \"Mi amiga trabaja en un café\", so she works at a café, not a school, store or gym."
           },
           {
             "type": "word-order",
@@ -1526,7 +1526,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "trabajan"
         ],
         "correctIndex": 2,
-        "explanation": "nosotros → -amos ending: trabajamos."
+        "explanation": "Nosotros takes the -amos ending: trabajamos. \"Trabajo\" is yo, \"trabajas\" is tú, and \"trabajan\" is ellos/ustedes."
       },
       {
         "type": "fill-blank",
@@ -1605,7 +1605,7 @@ const A1_BASE_LESSONS: Lesson[] = [
             "prompt": "Translate to Spanish.",
             "source": "We eat a lot of fruit.",
             "answer": "Comemos mucha fruta.",
-            "explanation": "nosotros → -emos ending: comemos."
+            "explanation": "Nosotros takes -emos for -er verbs: comemos. Fruta is feminine, so mucho becomes mucha."
           }
         ]
       },
@@ -1647,7 +1647,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               2,
               3
             ],
-            "explanation": "\"Tú vive\" is wrong — tú takes -es: tú vives."
+            "explanation": "Yo vivo, nosotros vivimos and ellos viven are all correct. \"Tú vive\" is wrong: tú takes -es, so tú vives."
           }
         ]
       },
@@ -1700,7 +1700,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "escriben"
         ],
         "correctIndex": 1,
-        "explanation": "él/ella/usted → -e ending: escribe."
+        "explanation": "Él/ella/usted takes the -e ending for -ir verbs: escribe. \"Escribo\" is yo, \"escribes\" is tú, and \"escriben\" is ellos."
       }
     ]
   },
@@ -1742,7 +1742,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "sleeps and watches TV"
             ],
             "correctIndex": 1,
-            "explanation": "\"Leo, escribo cartas\" — B reads and writes letters."
+            "explanation": "B says \"Leo, escribo cartas\", so B reads and writes letters. The other activities don't appear in B's answer."
           },
           {
             "type": "fill-blank",
@@ -1934,7 +1934,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Yo habla español y ella hablas inglés."
         ],
         "correctIndex": 0,
-        "explanation": "Yo takes -o (hablo) and ella takes -a (habla) -- each subject needs its own matching ending."
+        "explanation": "Each subject needs its own ending: yo hablo, ella habla. The wrong options mix them up, pairing yo with \"hablas\" or \"habla\" and ella with \"hablo\" or \"hablas\"."
       },
       {
         "type": "fill-blank",
@@ -1997,7 +1997,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "rápido"
         ],
         "correctIndex": 2,
-        "explanation": "Feminine plural takes -as: rápidas."
+        "explanation": "A feminine plural noun takes -as: rápidas. \"Rápidos\" is masculine plural, \"rápida\" is feminine singular, and \"rápido\" is masculine singular."
       },
       {
         "type": "word-order",
@@ -2093,7 +2093,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "Height and profession are lasting traits, so they take ser, not estar."
+            "explanation": "Height and profession are lasting traits, so they take ser: soy alto, ella es doctora. \"Estoy alto\" and \"está doctora\" wrongly use estar, which is for states and location."
           }
         ]
       },
@@ -2172,7 +2172,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "están"
         ],
         "correctIndex": 0,
-        "explanation": "Profession is a lasting characteristic → ser (es)."
+        "explanation": "A profession is a lasting characteristic, so it takes ser: es. \"Está\" is estar, for states and location, and \"son\" and \"están\" are plural."
       },
       {
         "type": "multiple-choice",
@@ -2184,7 +2184,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "somos"
         ],
         "correctIndex": 1,
-        "explanation": "Temperature right now is a temporary state → estar (está)."
+        "explanation": "The coffee's temperature is a temporary state, so it takes estar: está. \"Es\" would make heat a permanent trait, and \"eres\" and \"somos\" don't match el café."
       }
     ]
   },
@@ -2226,7 +2226,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "It's a mistake in the dialogue"
             ],
             "correctIndex": 0,
-            "explanation": "Where you're FROM (origin) is a lasting trait → ser. Where you ARE right now → estar."
+            "explanation": "Where you're from (origin) is a lasting trait, so it takes ser. Estar is for where you are right now, so \"estoy de Chile\" is wrong, not an equally good option."
           },
           {
             "type": "fill-blank",
@@ -2411,7 +2411,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "están"
         ],
         "correctIndex": 0,
-        "explanation": "Profession is a lasting characteristic, and \"mi hermano\" is singular, so ser gives es."
+        "explanation": "A profession is a lasting characteristic, and mi hermano is singular, so ser gives es. \"Está\" is estar, and \"son\" and \"están\" are plural."
       },
       {
         "type": "fill-blank",
@@ -2699,7 +2699,7 @@ const A1_BASE_LESSONS: Lesson[] = [
             "prompt": "Translate to Spanish.",
             "source": "without money",
             "answer": "sin dinero",
-            "explanation": "\"Sin\" means \"without\"."
+            "explanation": "Sin means without and goes straight before the noun: sin dinero."
           }
         ]
       },
@@ -2745,7 +2745,7 @@ const A1_BASE_LESSONS: Lesson[] = [
             "sentence": "Está en casa, ___ mis libros.",
             "answer": "sin",
             "hint": "without",
-            "explanation": "\"Sin\" means \"without\"."
+            "explanation": "Sin means without: she's at home without my books."
           }
         ]
       },
@@ -2888,7 +2888,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "de"
         ],
         "correctIndex": 1,
-        "explanation": "\"Para\" expresses \"for\" in the sense of intended recipient."
+        "explanation": "Para means for, marking who receives something: para ti. \"Con\" means with, \"sin\" means without, and \"de\" means of or from."
       },
       {
         "type": "fill-blank",
@@ -3821,7 +3821,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "his address"
             ],
             "correctIndex": 1,
-            "explanation": "Laura asks \"¿cuántos años tienes?\" — how old are you."
+            "explanation": "Laura asks \"¿cuántos años tienes?\", which means how old are you. She doesn't ask about his job, family or address."
           },
           {
             "type": "fill-blank",
@@ -3971,7 +3971,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Quién"
         ],
         "correctIndex": 1,
-        "explanation": "\"Por qué\" means \"why\" and asks for a reason."
+        "explanation": "Por qué (two words, with an accent) means why and asks for a reason. \"Cuándo\" asks when, \"cuánto\" how much, and \"quién\" who."
       },
       {
         "type": "fill-blank",
@@ -4069,7 +4069,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           0,
           3
         ],
-        "explanation": "Quién (singular) and quiénes (plural) both ask \"who\" -- the rest ask about quantity or place."
+        "explanation": "Quién (singular) and quiénes (plural) both ask who. \"Cuántos\" asks how many, and \"dónde\" asks where."
       },
       {
         "type": "word-order",
@@ -4141,7 +4141,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Fill in the preposition meaning \"without\".",
         "sentence": "Vivo ___ mis padres ahora.",
         "answer": "sin",
-        "explanation": "\"Sin\" means \"without\"."
+        "explanation": "Sin means without: I live without my parents now."
       },
       {
         "type": "translate",
@@ -4168,7 +4168,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "¿Dónde está tú?"
         ],
         "correctIndex": 1,
-        "explanation": "Asking where someone is uses estar, not ser -- and it must agree with tú: estás."
+        "explanation": "Asking where someone is uses estar, and tú takes estás. \"¿Dónde eres?\" and \"¿Dónde son?\" use ser, and \"está tú\" has the wrong ending for tú."
       },
       {
         "type": "word-order",
@@ -4312,7 +4312,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Me gustas los perros."
         ],
         "correctIndex": 1,
-        "explanation": "\"Los perros\" is plural, so gustar must agree: gustan."
+        "explanation": "With gustar, the verb agrees with the thing liked. Los perros is plural, so gustan. \"Me gusta\" is singular, \"Yo gusto\" means I'm pleasing, and \"gustas\" means you are pleasing."
       }
     ]
   },
@@ -4354,7 +4354,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "dancing"
             ],
             "correctIndex": 1,
-            "explanation": "\"No me gustan las verduras\" — B doesn't like vegetables."
+            "explanation": "B says \"No me gustan las verduras\", so B doesn't like vegetables. The others are things B does like or doesn't mention."
           },
           {
             "type": "fill-blank",
@@ -4634,7 +4634,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "¿Te gustan los postres?"
         ],
         "correctIndex": 0,
-        "explanation": "Vosotros/vosotras takes the pronoun os, and los postres is plural → gustan."
+        "explanation": "Vosotros/vosotras takes the pronoun os, and los postres is plural, so gustan. \"Os gusta\" is singular, \"Les\" is for ellos/ustedes, and \"Te\" is for a single tú."
       },
       {
         "type": "multi-select",
@@ -4795,7 +4795,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "The near future needs \"a\" between the conjugated ir and the infinitive: voy a estudiar, vamos a comer."
+            "explanation": "The near future is ir + a + infinitive: voy a estudiar, vamos a comer. \"Voy estudiar\" and \"Van comer\" drop the a, which can't be left out."
           }
         ]
       },
@@ -4850,7 +4850,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "to like to"
         ],
         "correctIndex": 1,
-        "explanation": "\"Tener que + infinitive\" expresses obligation: \"to have to\"."
+        "explanation": "Tener que + infinitive means to have to (obligation). To want to is querer, to be able to is poder, and to like to is gustar."
       }
     ]
   },
@@ -4928,7 +4928,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "twenty"
             ],
             "correctIndex": 2,
-            "explanation": "\"Tengo dieciocho años\" — B is eighteen."
+            "explanation": "B says \"Tengo dieciocho años\", and dieciocho is eighteen. Fifteen is quince, sixteen dieciséis, and twenty veinte."
           },
           {
             "type": "fill-blank",
@@ -5137,7 +5137,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "estas plumas"
             ],
             "correctIndex": 1,
-            "explanation": "\"Pluma\" is feminine and singular, so it pairs with \"esta\": esta pluma."
+            "explanation": "Pluma is feminine singular, so esta. \"Este\" is masculine, \"estos\" is plural, and \"estas plumas\" means these pens, not this pen."
           }
         ]
       },
@@ -5231,7 +5231,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "aquel libro"
         ],
         "correctIndex": 2,
-        "explanation": "\"Libro\" is masculine singular and it's near the speaker, so it takes \"este\": este libro."
+        "explanation": "Libro is masculine singular and near the speaker, so este. \"Esta\" is feminine, \"ese\" is for something near the listener, and \"aquel\" is for something far from both."
       },
       {
         "type": "fill-blank",
@@ -5297,7 +5297,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "It isn't specified"
             ],
             "correctIndex": 1,
-            "explanation": "A says \"esta bufanda\" — the este form marks something near the speaker."
+            "explanation": "A says \"esta bufanda\", and este/esta marks something near the speaker. Ese/esa would put it near B, and aquel/aquella far from both."
           },
           {
             "type": "multiple-choice",
@@ -5507,7 +5507,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "está / es"
             ],
             "correctIndex": 0,
-            "explanation": "Profession and origin are both identity facts → ser twice: es ingeniero, es de Colombia."
+            "explanation": "Profession and origin are both identity facts, so ser both times: es ingeniero, es de Colombia. Any option with \"está\" uses estar, which is for states and location, not jobs or origin."
           },
           {
             "type": "fill-blank",
@@ -5577,7 +5577,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "eres"
             ],
             "correctIndex": 1,
-            "explanation": "Asking where something is located → estar (está)."
+            "explanation": "Asking where something is located takes estar: ¿Dónde está el baño? \"Es\" and \"son\" are ser, and \"eres\" is ser for tú."
           }
         ]
       }
@@ -5593,7 +5593,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "está"
         ],
         "correctIndex": 0,
-        "explanation": "Profession/field of study → ser. Yo → soy."
+        "explanation": "A profession or field of study takes ser, and yo takes soy. \"Estoy\" and \"está\" are estar, and \"es\" is the él/ella form."
       },
       {
         "type": "multiple-choice",
@@ -5605,7 +5605,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "están"
         ],
         "correctIndex": 1,
-        "explanation": "Location → estar (está)."
+        "explanation": "Location takes estar, and la leche is singular: está. \"Es\" is ser, which isn't used for where things are, and \"son\" and \"están\" are plural."
       },
       {
         "type": "fill-blank",
@@ -5634,7 +5634,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Time (son las cinco) and profession (es abogado) both take ser."
+        "explanation": "Clock time and profession both take ser: son las cinco, mi tío es abogado. \"Están las cinco\" and \"está abogado\" wrongly use estar."
       },
       {
         "type": "multi-select",
@@ -5649,7 +5649,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Location (está lejos) and the progressive (estamos comiendo) both take estar."
+        "explanation": "Location and the progressive both take estar: está lejos, estamos comiendo. \"Es lejos\" and \"Somos comiendo\" wrongly use ser."
       }
     ]
   },
@@ -5690,7 +5690,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "Being sick right now and soup being cold right now are both temporary → estar."
+            "explanation": "Being sick now and soup being cold now are temporary states, so estar: estoy enfermo, la sopa está fría. \"Soy enfermo\" would present illness as a permanent trait, and \"es fría\" describes the soup's nature, not its current temperature."
           }
         ]
       },
@@ -5793,7 +5793,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "están"
         ],
         "correctIndex": 0,
-        "explanation": "The movie's inherent quality of being boring → ser aburrido."
+        "explanation": "Being boring is the movie's inherent quality, so ser: es aburrida. \"Está aburrida\" would mean the movie feels bored, and \"son\" and \"están\" are plural."
       },
       {
         "type": "multiple-choice",
@@ -5805,7 +5805,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "está"
         ],
         "correctIndex": 1,
-        "explanation": "Feeling bored right now → estar aburrido, conjugated for nosotros: estamos."
+        "explanation": "Feeling bored right now is a state, so estar, and nosotros takes estamos. \"Somos aburridos\" would mean we are boring people, and \"es\" and \"está\" don't match nosotros."
       },
       {
         "type": "fill-blank",
@@ -5866,7 +5866,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "está"
             ],
             "correctIndex": 1,
-            "explanation": "Current location → estar, plural → están."
+            "explanation": "Current location takes estar, and mis padres is plural: están. \"Son\" and \"es\" are ser, and \"está\" is singular."
           },
           {
             "type": "multiple-choice",
@@ -5878,7 +5878,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "están"
             ],
             "correctIndex": 0,
-            "explanation": "A lasting quality of the restaurant (it's a good restaurant) → ser."
+            "explanation": "Being a good restaurant is a lasting quality, so ser: es muy bueno. \"Está muy bueno\" would describe how something tastes right now, and \"son\" and \"están\" are plural."
           }
         ]
       },
@@ -5976,7 +5976,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "están"
         ],
         "correctIndex": 0,
-        "explanation": "Asking the time uses ser: ¿Qué hora es?"
+        "explanation": "Clock time always takes ser: ¿Qué hora es? \"Está\" and \"están\" are estar, and \"son\" is only in the answer for hours other than one (son las dos)."
       }
     ]
   },
@@ -6011,7 +6011,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "estudiamos"
             ],
             "correctIndex": 1,
-            "explanation": "tú → -as ending: estudias."
+            "explanation": "Tú takes the -as ending: estudias. \"Estudio\" is yo, \"estudia\" is él/ella, and \"estudiamos\" is nosotros."
           }
         ]
       },
@@ -6116,7 +6116,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "escribimos"
         ],
         "correctIndex": 0,
-        "explanation": "yo → -o ending: escribo."
+        "explanation": "Yo takes the -o ending: escribo. \"Escribe\" is él/ella, \"escribes\" is tú, and \"escribimos\" is nosotros."
       },
       {
         "type": "multiple-choice",
@@ -6128,7 +6128,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "trabajan"
         ],
         "correctIndex": 2,
-        "explanation": "usted (like él/ella) → -a ending: trabaja."
+        "explanation": "Usted uses the él/ella form, so the -a ending: trabaja. \"Trabajo\" is yo, \"trabajas\" is tú, and \"trabajan\" is ustedes."
       },
       {
         "type": "multiple-choice",
@@ -6140,7 +6140,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "-es"
         ],
         "correctIndex": 1,
-        "explanation": "The -er vosotros ending is -éis, as in coméis or bebéis."
+        "explanation": "The vosotros ending for -er verbs is -éis: coméis, bebéis. \"-emos\" is nosotros, \"-en\" is ellos, and \"-es\" is tú."
       }
     ]
   },
@@ -6175,7 +6175,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "escribe"
             ],
             "correctIndex": 2,
-            "explanation": "ellos/ellas/ustedes → -en ending: escriben."
+            "explanation": "Ellos/ellas/ustedes take -en for -ir verbs: escriben. \"Escribimos\" is nosotros, \"escribís\" is vosotros, and \"escribe\" is él/ella."
           }
         ]
       },
@@ -6233,7 +6233,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "lees"
             ],
             "correctIndex": 1,
-            "explanation": "Leer is a regular -er verb; ella → -e ending: lee."
+            "explanation": "Leer is a regular -er verb, and ella takes -e: lee. \"Leo\" is yo, \"lees\" is tú, and \"lea\" is a subjunctive form, not the present."
           },
           {
             "type": "multi-select",
@@ -6409,7 +6409,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "bebes"
             ],
             "correctIndex": 0,
-            "explanation": "vosotros → -éis ending for -er verbs: bebéis."
+            "explanation": "Vosotros takes -éis for -er verbs: bebéis. \"Bebemos\" is nosotros, \"beben\" is ellos, and \"bebes\" is tú."
           }
         ]
       }
@@ -6504,7 +6504,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "el día"
             ],
             "correctIndex": 2,
-            "explanation": "'La casa' (the house) ends in -a and is feminine, matching the typical pattern."
+            "explanation": "La casa ends in -a and is feminine, the typical pattern. \"El mapa\" and \"el día\" end in -a but are masculine exceptions, and \"el libro\" is masculine."
           },
           {
             "type": "multi-select",
@@ -6547,7 +6547,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "la"
             ],
             "correctIndex": 1,
-            "explanation": "'Mano' ends in -o but is feminine: 'la mano'."
+            "explanation": "Mano ends in -o but is feminine, a common exception: la mano. \"El\" is the masculine article."
           },
           {
             "type": "fill-blank",
@@ -6582,7 +6582,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "las amigos"
             ],
             "correctIndex": 2,
-            "explanation": "A mixed-gender group uses the masculine plural: 'los amigos'."
+            "explanation": "A mixed group of men and women uses the masculine plural: los amigos. \"El\" and \"la\" are singular articles, and \"las\" is only for an all-female group."
           }
         ]
       }
@@ -6596,7 +6596,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "la"
         ],
         "correctIndex": 1,
-        "explanation": "'Mano' ends in -o but is feminine: 'la mano'."
+        "explanation": "Mano ends in -o but is feminine, a common exception: la mano. \"El\" is the masculine article."
       },
       {
         "type": "multiple-choice",
@@ -6606,7 +6606,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "la"
         ],
         "correctIndex": 0,
-        "explanation": "'Día' ends in -a but is masculine: 'el día'."
+        "explanation": "Día ends in -a but is masculine, a common exception: el día. \"La\" is the feminine article."
       },
       {
         "type": "fill-blank",
@@ -6641,7 +6641,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "una flores"
         ],
         "correctIndex": 1,
-        "explanation": "'Flores' is feminine plural, so it takes 'unas'."
+        "explanation": "Flores is feminine plural, so it takes unas. \"Unos\" is masculine, and \"un\" and \"una\" are singular."
       }
     ]
   },
@@ -6676,7 +6676,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "una libros"
             ],
             "correctIndex": 0,
-            "explanation": "'Libros' is masculine plural, so it takes 'unos'."
+            "explanation": "Libros is masculine plural, so it takes unos. \"Unas\" is feminine, and \"un\" and \"una\" are singular."
           }
         ]
       },
@@ -6702,7 +6702,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "ciudaces"
             ],
             "correctIndex": 1,
-            "explanation": "Nouns ending in a consonant add -es: 'ciudad' → 'ciudades'."
+            "explanation": "Nouns ending in a consonant add -es: ciudad → ciudades. \"Ciudads\" adds only -s, \"ciudás\" drops the d, and \"ciudaces\" invents a z → c change that only applies to words ending in z."
           },
           {
             "type": "fill-blank",
@@ -6737,7 +6737,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "los chico altos"
             ],
             "correctIndex": 0,
-            "explanation": "'Chicos' is masculine plural, so the article and adjective both take masculine plural endings."
+            "explanation": "Chicos is masculine plural, so the article and adjective are masculine plural too: los chicos altos. \"Alta\" is feminine singular, \"las\" is feminine, and \"chico\" is singular."
           }
         ]
       }
@@ -6771,7 +6771,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "z changes to c before -es ('luces'), and consonant-ending nouns add -es ('actores'), not -s."
+        "explanation": "Nouns ending in a consonant add -es, and a final z becomes c: luz → luces, actor → actores. \"Luzes\" keeps the z, which Spanish doesn't write before e, and \"actors\" is English."
       },
       {
         "type": "translate",
@@ -6844,7 +6844,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "un gran amigo"
             ],
             "correctIndex": 1,
-            "explanation": "'Bueno' shortens to 'buen' before a masculine singular noun."
+            "explanation": "Bueno shortens to buen before a masculine singular noun: un buen amigo. \"Bueno amigo\" doesn't shorten, \"buena\" is feminine, and \"gran amigo\" means a great friend, not a good one."
           },
           {
             "type": "fill-blank",
@@ -7041,7 +7041,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "tus llaves"
             ],
             "correctIndex": 3,
-            "explanation": "Llaves is plural, so tu must become tus: tus llaves."
+            "explanation": "Llaves is plural, so tu becomes tus: tus llaves. \"Tu llave\" is singular (your key), and \"tu llaves\" and \"tus llave\" mismatch the number."
           }
         ]
       },
@@ -7108,7 +7108,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "nuestras familia"
         ],
         "correctIndex": 1,
-        "explanation": "Familia is feminine singular, so nuestro must become nuestra."
+        "explanation": "Familia is feminine singular, so nuestro becomes nuestra. \"Nuestro\" is masculine, and \"nuestros\" and \"nuestras\" are plural."
       },
       {
         "type": "multi-select",
@@ -7196,7 +7196,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "encima de la playa"
             ],
             "correctIndex": 1,
-            "explanation": "\"Lejos de\" means \"far from\"; \"cerca de\" would mean \"near\"."
+            "explanation": "Lejos de means far from. \"Cerca de\" means near, \"entre\" means between, and \"encima de\" means on top of."
           }
         ]
       },
@@ -7238,7 +7238,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "con"
             ],
             "correctIndex": 1,
-            "explanation": "\"Para\" marks the intended recipient — basic \"for\"."
+            "explanation": "Para marks who something is for: para ti. \"Por\" is for cause or exchange, \"de\" means of or from, and \"con\" means with."
           }
         ]
       },
@@ -7365,7 +7365,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Voy del escuela."
         ],
         "correctIndex": 1,
-        "explanation": "Escuela is feminine (\"la escuela\"), so there's no contraction — al only forms from a + el."
+        "explanation": "Escuela is feminine (la escuela), so a + la stays separate: a la escuela. \"Al\" is only a + el, \"a el\" must contract and is the wrong gender anyway, and \"del\" means from the."
       }
     ]
   },
@@ -7440,7 +7440,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "Voy del cine."
             ],
             "correctIndex": 1,
-            "explanation": "A + el must contract to al: Voy al cine."
+            "explanation": "A + el must contract to al: Voy al cine. \"A el\" doesn't contract, \"a la\" is feminine but cine is masculine, and \"del\" means from the."
           }
         ]
       }
@@ -7459,14 +7459,14 @@ const A1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "De + el must always contract to del: vengo del trabajo, el libro del profesor."
+        "explanation": "De + el always contracts to del: vengo del trabajo, el libro del profesor. \"De el\" is never written with the article el."
       },
       {
         "type": "fill-blank",
         "prompt": "Complete with the correct preposition for \"between\".",
         "sentence": "La tienda está ___ el banco y la farmacia.",
         "answer": "entre",
-        "explanation": "\"Entre\" means \"between\" (or \"among\")."
+        "explanation": "Entre means between (or among): entre el banco y la farmacia."
       },
       {
         "type": "translate",
@@ -7536,8 +7536,8 @@ const A1_BASE_LESSONS: Lesson[] = [
               "Quién",
               "Cómo"
             ],
-            "correctIndex": 1,
-            "explanation": "Qué is used here because it's asking directly for information, not choosing among known options."
+            "correctIndex": 0,
+            "explanation": "Before es + a noun, Spanish asks with cuál: ¿Cuál es tu apellido?, just like ¿Cuál es tu número? \"Qué\" before es asks for a definition (¿Qué es un apellido? = What is a surname?). \"Quién\" asks who, and \"Cómo\" asks how."
           },
           {
             "type": "multiple-choice",
@@ -7549,7 +7549,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "Dónde"
             ],
             "correctIndex": 1,
-            "explanation": "Native speakers use cuál before 'es' when there's an implied set of options, even without a noun right after it."
+            "explanation": "Before es, Spanish uses cuál to ask for a piece of information from all possible ones: ¿Cuál es tu número? \"Qué es\" would ask what a phone number is, \"quién\" asks who, and \"dónde\" asks where."
           }
         ]
       },
@@ -7587,7 +7587,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "Cuáles"
             ],
             "correctIndex": 1,
-            "explanation": "Quiénes is plural, matching the expected plural answer (several people)."
+            "explanation": "Quiénes is plural, matching an answer with several people. \"Quién\" expects one person, and \"cuál\" and \"cuáles\" ask which, not who."
           }
         ]
       },
@@ -7617,7 +7617,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "Cómo"
             ],
             "correctIndex": 0,
-            "explanation": "Dónde asks about location, with no motion involved."
+            "explanation": "Dónde asks where something is, with no movement. \"Adónde\" asks where to (with motion verbs like ir), \"cuándo\" asks when, and \"cómo\" asks how."
           }
         ]
       }
@@ -7633,7 +7633,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Adónde"
         ],
         "correctIndex": 1,
-        "explanation": "Qué asks for a definition or meaning."
+        "explanation": "Qué asks for a definition or meaning: ¿Qué significa...? \"Cuál\" is for choosing from options, \"quién\" asks who, and \"adónde\" asks where to."
       },
       {
         "type": "multiple-choice",
@@ -7645,7 +7645,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Cuándo"
         ],
         "correctIndex": 1,
-        "explanation": "Cuál is used before 'es' to select one item from a known or implied set."
+        "explanation": "Before es, cuál picks one item from a set: ¿Cuál es tu película favorita? \"Qué es\" would ask for a definition, \"cómo\" asks how, and \"cuándo\" asks when."
       },
       {
         "type": "fill-blank",
@@ -7725,7 +7725,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "Cuál"
             ],
             "correctIndex": 2,
-            "explanation": "Cómo asks 'how' — here, how something is said."
+            "explanation": "Cómo asks how, here how something is said: ¿Cómo se dice...? \"Qué\" asks what, \"cuándo\" asks when, and \"cuál\" asks which."
           }
         ]
       },
@@ -7755,7 +7755,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "Cuántas"
             ],
             "correctIndex": 2,
-            "explanation": "Tiempo is masculine and singular, so cuánto agrees with it."
+            "explanation": "Tiempo is masculine singular, so cuánto. \"Cuánta\" is feminine, and \"cuántos\" and \"cuántas\" are plural."
           },
           {
             "type": "fill-blank",
@@ -7804,7 +7804,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "Cuándo"
             ],
             "correctIndex": 1,
-            "explanation": "The answer states a goal ('to call you'), so the question needed para qué."
+            "explanation": "The answer gives a goal (to call you), so the question asks what for: para qué. \"Por qué\" asks for a cause, and \"cómo\" and \"cuándo\" ask how and when."
           }
         ]
       }
@@ -7820,7 +7820,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Cuándo"
         ],
         "correctIndex": 2,
-        "explanation": "Cómo asks about manner or state — here, how you feel."
+        "explanation": "Cómo asks about manner or state, here how you feel. \"Qué\" and \"cuál\" ask what or which, and \"cuándo\" asks when."
       },
       {
         "type": "multi-select",
@@ -7850,7 +7850,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Cuántas"
         ],
         "correctIndex": 2,
-        "explanation": "Dinero is masculine singular, so cuánto agrees with it."
+        "explanation": "Cuánto agrees with the noun it asks about: dinero is masculine singular, so cuánto. \"Cuánta\" is feminine, and \"cuántos\" and \"cuántas\" are plural."
       },
       {
         "type": "fill-blank",
@@ -7869,7 +7869,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Cuántas"
         ],
         "correctIndex": 2,
-        "explanation": "Años is masculine plural, so cuánto becomes cuántos."
+        "explanation": "Años is masculine plural, so cuántos. \"Cuánto\" and \"cuánta\" are singular, and \"cuántas\" is feminine."
       },
       {
         "type": "fill-blank",
@@ -7966,7 +7966,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "Cómo"
             ],
             "correctIndex": 2,
-            "explanation": "The answer gives an amount, so cuánto (masculine singular, agreeing with 'el boleto' as an implied price) is needed."
+            "explanation": "The answer is an amount, so cuánto: ¿Cuánto cuesta? \"Cuál\" and \"qué\" ask which or what, and \"cómo\" asks how."
           }
         ]
       }
@@ -7994,7 +7994,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Cuándo"
         ],
         "correctIndex": 1,
-        "explanation": "The answer states a purpose ('para apagar...'), so the question needed para qué."
+        "explanation": "The answer gives a purpose (para apagar la luz), so para qué. \"Por qué\" asks for a cause, not a function, and \"cómo\" and \"cuándo\" ask how and when."
       },
       {
         "type": "translate",
@@ -8108,7 +8108,7 @@ const A1_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete: You all (Spain) like coffee.",
             "sentence": "___ gusta el café.",
             "answer": "Os",
-            "explanation": "Vosotros/vosotras takes os."
+            "explanation": "Os is the pronoun for vosotros/vosotras (you all, Spain): os gusta = you all like."
           },
           {
             "type": "matching",
@@ -8161,7 +8161,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "Les gustan las manzanas."
             ],
             "correctIndex": 1,
-            "explanation": "Las manzanas is plural → gustan, with le for \"to her\"."
+            "explanation": "Las manzanas is plural, so gustan, with le for to her. \"Le gusta las\" breaks agreement, \"la manzana\" is one apple, and \"les\" means to them."
           },
           {
             "type": "multi-select",
@@ -8320,7 +8320,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "A él gusta el té."
             ],
             "correctIndex": 1,
-            "explanation": "\"A él\" clarifies who le refers to; le can't be dropped even when a name or pronoun is added."
+            "explanation": "\"A él\" makes clear who le is, but le must stay: A él le gusta el té. \"Le gusta\" alone is ambiguous, and \"Él gusta\" and \"A él gusta\" drop the pronoun, which gustar always needs."
           }
         ]
       },
@@ -8357,7 +8357,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "Yo interesan las películas."
             ],
             "correctIndex": 1,
-            "explanation": "Las películas is plural → interesan, with me for \"to me\"."
+            "explanation": "Las películas is plural, so interesan, with me for to me. \"Interesa\" is singular, \"la película\" is singular, and \"Yo interesan\" uses a subject instead of me."
           }
         ]
       },
@@ -8460,7 +8460,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "A Juan gusta el té."
         ],
         "correctIndex": 2,
-        "explanation": "\"A Juan\" clarifies le; le can never be dropped, even with a name added."
+        "explanation": "\"A Juan\" names who le refers to, but le itself must stay: A Juan le gusta el té. \"Le gusta\" alone could be anyone, and \"Juan gusta\" and \"A Juan gusta\" drop the pronoun, which gustar always needs."
       },
       {
         "type": "fill-blank",
@@ -8482,7 +8482,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "No always sits right before the pronoun, never after it or mid-sentence."
+        "explanation": "No goes right before the pronoun: No te importa, No nos gustan. \"Te no importa\" puts it between pronoun and verb, and \"gustan no\" puts it after the verb."
       }
     ]
   },
@@ -8607,7 +8607,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Yo duelen los pies."
         ],
         "correctIndex": 1,
-        "explanation": "Los pies is plural → duelen, with me for \"to me\"."
+        "explanation": "Los pies is plural, so duelen, with me for to me. \"Duele los pies\" breaks agreement, \"el pie\" is one foot, and \"Yo duelen\" uses a subject instead of me."
       },
       {
         "type": "matching",
@@ -8684,7 +8684,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "tienes"
             ],
             "correctIndex": 0,
-            "explanation": "Vosotros tenéis is the informal plural 'you have' used in Spain."
+            "explanation": "Vosotros tenéis is the informal plural you have, used in Spain. \"Tienen\" is ellos/ustedes, \"tenemos\" is nosotros, and \"tienes\" is tú."
           }
         ]
       },
@@ -8714,7 +8714,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "Tengo hambriento."
             ],
             "correctIndex": 0,
-            "explanation": "Tener hambre literally means 'to have hunger' and translates as 'to be hungry.'"
+            "explanation": "Spanish says to have hunger: tengo hambre. \"Soy hambre\" and \"Estoy hambre\" use the wrong verb, and \"hambriento\" is an adjective (starving), so it doesn't follow tengo."
           },
           {
             "type": "multi-select",
@@ -8768,7 +8768,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "va"
             ],
             "correctIndex": 0,
-            "explanation": "Ellos van = they go."
+            "explanation": "Ir is irregular: ellos van (they go). \"Vas\" is tú, \"vamos\" is nosotros, and \"va\" is él/ella."
           }
         ]
       }
@@ -8800,7 +8800,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Tienen sedes."
         ],
         "correctIndex": 0,
-        "explanation": "Tener sed means 'to be thirsty': tienen sed = they are thirsty."
+        "explanation": "Spanish says to have thirst: tener sed, so tienen sed. \"Son sed\" and \"Están sed\" use ser and estar, which don't work with the noun sed, and \"sedes\" isn't used this way."
       },
       {
         "type": "multiple-choice",
@@ -8812,7 +8812,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "I am cold."
         ],
         "correctIndex": 0,
-        "explanation": "Tener razón means 'to be right.'"
+        "explanation": "Tener razón means to be right. In a hurry is tener prisa, afraid is tener miedo, and cold is tener frío."
       },
       {
         "type": "multi-select",
@@ -8923,7 +8923,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "hace"
             ],
             "correctIndex": 0,
-            "explanation": "Nosotros hacemos = we do/make, following the regular -er pattern."
+            "explanation": "Nosotros hacemos (we do/make) follows the regular -er pattern. \"Hacéis\" is vosotros, \"hago\" is yo, and \"hace\" is él/ella."
           }
         ]
       },
@@ -9016,7 +9016,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Es viento."
         ],
         "correctIndex": 0,
-        "explanation": "Weather expressions with wind, sun, heat, and cold use hacer: hace viento."
+        "explanation": "Weather with wind, sun, heat and cold uses hacer: hace viento. \"Tiene viento\" and \"Es viento\" are wrong; \"Hay viento\" is also heard, but hace viento is the standard weather phrase."
       },
       {
         "type": "translate",
@@ -9065,7 +9065,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "Son muchos estudiantes."
             ],
             "correctIndex": 0,
-            "explanation": "Hay stays the same whether referring to one thing or many: hay muchos estudiantes."
+            "explanation": "Hay stays the same for one or many: hay muchos estudiantes. \"Hayn\" doesn't exist, \"tienen\" means they have, and \"son muchos\" means they are many."
           }
         ]
       },
@@ -9142,7 +9142,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Son una fiesta esta noche."
         ],
         "correctIndex": 0,
-        "explanation": "Hay is invariable and used for 'there is/are': hay una fiesta = there is a party."
+        "explanation": "Hay means there is/there are and never changes form: hay una fiesta. \"Hayen\" doesn't exist, \"tiene\" means has, and \"son\" is ser, which doesn't mean there is."
       },
       {
         "type": "multi-select",
@@ -9237,7 +9237,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "vientitrés"
             ],
             "correctIndex": 1,
-            "explanation": "16-29 are written as one fused word: veintitrés."
+            "explanation": "Numbers 16 to 29 are written as one word: veintitrés. \"Veinte y tres\" is an old spelling, \"veintetrés\" keeps the e, and \"vientitrés\" is misspelled."
           },
           {
             "type": "fill-blank",
@@ -9287,7 +9287,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "treinta uno"
             ],
             "correctIndex": 1,
-            "explanation": "From 31 up, the number is three separate words: treinta y uno."
+            "explanation": "From 31 up, numbers are three separate words: treinta y uno. \"Treintayuno\" and \"treintiuno\" fuse them, and \"treinta uno\" drops the y."
           },
           {
             "type": "fill-blank",
@@ -9333,7 +9333,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "treinta y unas sillas"
             ],
             "correctIndex": 2,
-            "explanation": "Uno agrees with the noun it counts: una before a feminine noun, even inside a longer number like treinta y una."
+            "explanation": "Uno agrees with the noun it counts, so before feminine sillas it becomes una: treinta y una sillas. \"Uno\" and \"un\" are masculine, and \"unas\" isn't used inside a number."
           },
           {
             "type": "fill-blank",
@@ -9357,7 +9357,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "diecisete"
         ],
         "correctIndex": 0,
-        "explanation": "17 fuses into one word: diecisiete."
+        "explanation": "Numbers 16 to 19 fuse into one word: diecisiete. \"Diez y siete\" is an old spelling no longer used, and \"decisiete\" and \"diecisete\" are misspelled."
       },
       {
         "type": "fill-blank",
@@ -9377,7 +9377,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "cinquenta y seis"
         ],
         "correctIndex": 0,
-        "explanation": "From 31 up, numbers are three separate words: cincuenta y seis."
+        "explanation": "From 31 up, tens and units are three words joined by y: cincuenta y seis. \"Cincuentiséis\" fuses them, \"cincuenta seis\" drops the y, and \"cinquenta\" is misspelled (it's cincuenta)."
       },
       {
         "type": "fill-blank",
@@ -9411,7 +9411,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Hundreds agree in gender with the noun: doscientas and trescientas match the feminine personas."
+        "explanation": "Hundreds from 200 to 900 agree in gender with the noun: doscientas and trescientas personas. \"Doscientos\" and \"quinientos\" are the masculine forms, so they don't match personas."
       }
     ]
   },
@@ -9457,7 +9457,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "el tres día"
             ],
             "correctIndex": 1,
-            "explanation": "Tercero shortens to tercer before a masculine singular noun: el tercer día."
+            "explanation": "Tercero shortens to tercer before a masculine singular noun: el tercer día. \"Tercero\" doesn't shorten, \"tercera\" is feminine (día is masculine despite its -a), and \"tres\" means three."
           },
           {
             "type": "matching",
@@ -9518,7 +9518,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "Es la siete."
             ],
             "correctIndex": 2,
-            "explanation": "Every hour except 1:00 uses the plural son las."
+            "explanation": "Every hour except one o'clock uses the plural: son las siete. \"Es\" is only for la una, and \"la\" is singular."
           },
           {
             "type": "translate",
@@ -9564,7 +9564,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               "Son las ocho menos cuarto."
             ],
             "correctIndex": 1,
-            "explanation": "Menos cuarto counts backward 15 minutes from the next hour: nueve menos cuarto = 8:45."
+            "explanation": "Spanish usually counts back from the next hour after the half: nueve menos cuarto = 8:45. \"Ocho y cuarenta y cinco\" is understood but less natural, \"Es las\" should be son las, and \"ocho menos cuarto\" is 7:45."
           },
           {
             "type": "fill-blank",
@@ -9604,7 +9604,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "el uno ejercicio"
         ],
         "correctIndex": 1,
-        "explanation": "Primero shortens to primer right before a masculine singular noun."
+        "explanation": "Primero shortens to primer right before a masculine singular noun: el primer ejercicio. \"Primero\" doesn't shorten, \"primera\" is feminine, and \"uno\" is a cardinal number, not first."
       },
       {
         "type": "matching",
@@ -9752,7 +9752,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Son las doce de la noche."
         ],
         "correctIndex": 1,
-        "explanation": "Es mediodía is the standard way to say it's noon (mediodía is singular, so it takes es)."
+        "explanation": "Mediodía is singular, so es: es mediodía. \"Es medianoche\" is midnight, \"Son las doce de la noche\" is also midnight, and plain \"Son las doce\" doesn't say which twelve."
       },
       {
         "type": "fill-blank",
@@ -9788,7 +9788,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "¿Cuándo es la hora la reunión?"
         ],
         "correctIndex": 1,
-        "explanation": "¿A qué hora...? is the fixed phrase for asking at what time something happens."
+        "explanation": "¿A qué hora...? asks at what time something happens. \"¿Qué hora es?\" asks what time it is now, and \"cuál hora\" and \"cuándo es la hora\" aren't used this way."
       },
       {
         "type": "translate",
@@ -11086,7 +11086,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate this sentence to English.",
         "source": "Nosotros somos amigos.",
         "answer": "We are friends.",
-        "explanation": "nosotros → somos."
+        "explanation": "Nosotros takes somos, the nosotros form of ser."
       },
       {
         "type": "multiple-choice",
@@ -11098,7 +11098,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "las"
         ],
         "correctIndex": 3,
-        "explanation": "Feminine plural → las."
+        "explanation": "Flores is feminine plural, so las. \"El\" and \"la\" are singular, and \"los\" is masculine plural."
       },
       {
         "type": "fill-blank",
@@ -11113,7 +11113,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate to Spanish.",
         "source": "the tables (feminine plural)",
         "answer": "las mesas",
-        "explanation": "Feminine plural noun → las."
+        "explanation": "Mesas is feminine plural, so the article is las: las mesas."
       },
       {
         "type": "multiple-choice",
@@ -11163,7 +11163,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "trabajan"
         ],
         "correctIndex": 0,
-        "explanation": "yo → -o ending: trabajo."
+        "explanation": "Yo takes the -o ending: trabajo. \"Trabajas\" is tú, \"trabaja\" is él/ella, and \"trabajan\" is ellos."
       }
     ]
   },
@@ -11234,7 +11234,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "Ellos estudian mucho."
         ],
-        "explanation": "ellos/ellas/ustedes → -an ending: estudian."
+        "explanation": "Ellos/ellas/ustedes take -an for -ar verbs: estudian. The subject can be dropped because the ending shows it."
       },
       {
         "type": "fill-blank",
@@ -11253,7 +11253,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "viven"
         ],
         "correctIndex": 2,
-        "explanation": "-ir verbs use -imos for nosotros: vivimos."
+        "explanation": "-Ir verbs take -imos for nosotros: vivimos. \"Vivo\" is yo, \"vives\" is tú, and \"viven\" is ellos."
       },
       {
         "type": "translate",
@@ -11276,7 +11276,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Temporary states and location both use estar, not ser."
+        "explanation": "Temporary states and location both take estar: estoy cansado, la tienda está cerca. \"Soy cansado\" would mean I'm a tiring person, and \"es cerca\" uses ser for location, which is wrong."
       },
       {
         "type": "fill-blank",
@@ -11314,7 +11314,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "de"
         ],
         "correctIndex": 1,
-        "explanation": "\"Sin\" means \"without\"."
+        "explanation": "Sin means without. \"Con\" is its opposite (with), \"para\" means for, and \"de\" means of or from."
       },
       {
         "type": "word-order",
@@ -11401,7 +11401,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Cómo"
         ],
         "correctIndex": 1,
-        "explanation": "\"Cuánto/a/os/as\" asks about quantity."
+        "explanation": "Cuánto (cuánta, cuántos, cuántas) asks how much or how many. \"Cuándo\" asks when, \"quién\" who, and \"cómo\" how."
       },
       {
         "type": "translate",
@@ -11431,7 +11431,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "\"El café\" is singular → gusta; \"las películas\" is plural → gustan."
+        "explanation": "Gustar agrees with the thing liked: el café is singular, so gusta; las películas is plural, so gustan. \"Me gustas\" means I like you, and \"Nos gusta las películas\" breaks agreement."
       },
       {
         "type": "translate",
@@ -11458,7 +11458,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Son"
         ],
         "correctIndex": 0,
-        "explanation": "Hay is invariable and covers both singular and plural."
+        "explanation": "Hay means there is or there are and never changes. \"Es\" and \"son\" are ser (is/are), and \"está\" is estar, for where a specific thing is."
       },
       {
         "type": "translate",

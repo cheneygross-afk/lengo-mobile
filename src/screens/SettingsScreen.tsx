@@ -11,6 +11,16 @@ import {
   type PronunciationVoice,
 } from "@/lib/pronunciationVoice";
 import { setPreferredVoice, setPronunciationEnabled } from "@/lib/speech";
+import SpanishVarietyPicker from "@/components/SpanishVarietyPicker";
+import { syncPrefs, updatePrefs } from "@/lib/learnerPrefs";
+import {
+  DAILY_GOAL_LABELS,
+  DAILY_GOAL_OPTIONS,
+  DEFAULT_PREFS,
+  NEW_CARDS_PER_DAY_OPTIONS,
+  newCardsPerDayLabel,
+  type LearnerPrefs,
+} from "@/lib/learnerPlan";
 
 // Screen reached from Home's "Settings" link (previously a bare "Log
 // out" link there). "Get Premium" is a plain hyperlink out to the
@@ -39,6 +49,23 @@ export default function SettingsScreen() {
   const [saving, setSaving] = useState<HighlightColor | null>(null);
   const [openingPremium, setOpeningPremium] = useState(false);
   const [deletingAccount, setDeletingAccount] = useState(false);
+
+  // Daily goal + new flashcards per day -- the learner prefs shared with
+  // the website through the account (see learnerPrefs.ts).
+  const [learnerPrefs, setLearnerPrefs] = useState<LearnerPrefs>(DEFAULT_PREFS);
+  useEffect(() => {
+    let cancelled = false;
+    void syncPrefs().then((p) => {
+      if (!cancelled) setLearnerPrefs(p);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+  async function saveLearnerPrefs(patch: Partial<Pick<LearnerPrefs, "dailyGoalMinutes" | "newCardsPerDay">>) {
+    setLearnerPrefs((p) => ({ ...p, ...patch }));
+    setLearnerPrefs(await updatePrefs(patch));
+  }
 
   const [pronunciationVoice, setPronunciationVoice] = useState<PronunciationVoice>(DEFAULT_PRONUNCIATION_VOICE);
   const [savingVoice, setSavingVoice] = useState<PronunciationVoice | null>(null);
@@ -375,6 +402,48 @@ export default function SettingsScreen() {
       </Pressable>
 
       <View style={s.section}>
+        <Text style={s.sectionTitle}>Daily goal</Text>
+        <Text style={s.sectionSub}>Minutes per day. Lessons and flashcard reviews count toward it.</Text>
+        <View style={s.pillWrap}>
+          {DAILY_GOAL_OPTIONS.map((m) => {
+            const active = learnerPrefs.dailyGoalMinutes === m;
+            return (
+              <Pressable
+                key={m}
+                onPress={() => saveLearnerPrefs({ dailyGoalMinutes: m })}
+                style={[s.voicePill, active && s.voicePillActive]}
+              >
+                <Text style={[s.voicePillText, active && s.voicePillTextActive]}>
+                  {m} min · {DAILY_GOAL_LABELS[m]}
+                </Text>
+              </Pressable>
+            );
+          })}
+        </View>
+      </View>
+
+      <View style={s.section}>
+        <Text style={s.sectionTitle}>New flashcards per day</Text>
+        <Text style={s.sectionSub}>
+          How many never-seen cards review adds each day. Cards already in review are always shown when due.
+        </Text>
+        <View style={s.pillWrap}>
+          {NEW_CARDS_PER_DAY_OPTIONS.map((n) => {
+            const active = learnerPrefs.newCardsPerDay === n;
+            return (
+              <Pressable
+                key={String(n)}
+                onPress={() => saveLearnerPrefs({ newCardsPerDay: n })}
+                style={[s.voicePill, active && s.voicePillActive]}
+              >
+                <Text style={[s.voicePillText, active && s.voicePillTextActive]}>{newCardsPerDayLabel(n)}</Text>
+              </Pressable>
+            );
+          })}
+        </View>
+      </View>
+
+      <View style={s.section}>
         <Text style={s.sectionTitle}>Highlighting</Text>
         <Text style={s.sectionSub}>
           Pick the color used for highlights you save in readings -- synced with your account on the
@@ -429,6 +498,7 @@ export default function SettingsScreen() {
             );
           })}
         </View>
+        <SpanishVarietyPicker />
       </View>
 
       <Pressable style={s.logoutBtn} onPress={signOut}>
@@ -518,6 +588,7 @@ const s = StyleSheet.create({
   enabledRowText: { flex: 1 },
   enabledLabel: { fontSize: 14, fontWeight: "600", color: "#000", marginBottom: 2 },
   voiceRow: { flexDirection: "row", gap: 10, marginTop: 14 },
+  pillWrap: { flexDirection: "row", flexWrap: "wrap", gap: 8, marginTop: 14 },
   voicePill: {
     borderWidth: 1,
     borderColor: "#00000022",

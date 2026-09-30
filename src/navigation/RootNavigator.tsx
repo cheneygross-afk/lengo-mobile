@@ -10,13 +10,18 @@ import LessonListScreen from "@/screens/LessonListScreen";
 import SpanishLevelsScreen from "@/screens/SpanishLevelsScreen";
 import JapaneseLevelsScreen from "@/screens/JapaneseLevelsScreen";
 import SettingsScreen from "@/screens/SettingsScreen";
+import OnboardingScreen from "@/screens/OnboardingScreen";
 import LessonRunnerScreen from "@/screens/LessonRunnerScreen";
 import ReviewListScreen from "@/screens/ReviewListScreen";
 import ReviewDrillScreen from "@/screens/ReviewDrillScreen";
+import UnitTestScreen from "@/screens/UnitTestScreen";
 import FlashcardsScreen from "@/screens/FlashcardsScreen";
 import ReadingLevelsScreen from "@/screens/ReadingLevelsScreen";
 import ReadingsListScreen from "@/screens/ReadingsListScreen";
 import StoryReaderScreen from "@/screens/StoryReaderScreen";
+import GrammarListScreen from "@/screens/GrammarListScreen";
+import GrammarGuideScreen from "@/screens/GrammarGuideScreen";
+import PlacementTestScreen from "@/screens/PlacementTestScreen";
 import { getReadingLevel } from "@/lib/stories/registry";
 
 const AuthStack = createNativeStackNavigator<AuthStackParamList>();
@@ -47,6 +52,7 @@ function AppNavigator() {
       <AppStack.Screen name="LessonList" component={LessonListScreen} options={{ title: "Lessons" }} />
       <AppStack.Screen name="JapaneseLevels" component={JapaneseLevelsScreen} options={{ title: "Japanese" }} />
       <AppStack.Screen name="Settings" component={SettingsScreen} options={{ title: "Settings" }} />
+      <AppStack.Screen name="Onboarding" component={OnboardingScreen} options={{ title: "Welcome" }} />
       <AppStack.Screen
         name="LessonRunner"
         component={LessonRunnerScreen}
@@ -54,6 +60,7 @@ function AppNavigator() {
       />
       <AppStack.Screen name="Review" component={ReviewListScreen} options={{ title: "Review" }} />
       <AppStack.Screen name="ReviewDrill" component={ReviewDrillScreen} options={{ title: "Review" }} />
+      <AppStack.Screen name="UnitTest" component={UnitTestScreen} options={{ title: "Test out" }} />
       <AppStack.Screen name="Flashcards" component={FlashcardsScreen} options={{ title: "Flashcards" }} />
       <AppStack.Screen name="ReadingLevels" component={ReadingLevelsScreen} options={{ title: "Readings" }} />
       <AppStack.Screen
@@ -64,6 +71,9 @@ function AppNavigator() {
         })}
       />
       <AppStack.Screen name="StoryReader" component={StoryReaderScreen} options={{ title: "" }} />
+      <AppStack.Screen name="Grammar" component={GrammarListScreen} options={{ title: "Grammar" }} />
+      <AppStack.Screen name="GrammarGuide" component={GrammarGuideScreen} options={{ title: "" }} />
+      <AppStack.Screen name="Placement" component={PlacementTestScreen} options={{ title: "Placement test" }} />
     </AppStack.Navigator>
   );
 }

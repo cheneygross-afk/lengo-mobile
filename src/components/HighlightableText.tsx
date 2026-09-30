@@ -61,6 +61,8 @@ type Props = {
   // tap, alongside the usual tap-to-hear.
   isMarked?: (word: string) => boolean;
   onWordTap?: (word: string) => void;
+  // Optional: long-pressing a word (a story's "save to flashcards").
+  onWordLongPress?: (word: string) => void;
 };
 
 // Splits into alternating runs of non-whitespace ("words", individually
@@ -106,6 +108,7 @@ export default function HighlightableText({
   lang,
   isMarked,
   onWordTap,
+  onWordLongPress,
 }: Props) {
   const rowRef = useRef<View>(null);
   const containerOrigin = useRef({ x: 0, y: 0 });
@@ -278,6 +281,7 @@ export default function HighlightableText({
               wordRects.current.set(idx, { x, y, width, height });
             }}
             onPress={() => handleWordTap(token)}
+            onLongPress={onWordLongPress ? () => onWordLongPress(token.value) : undefined}
             style={[textStyle, styles.word, isMarked?.(token.value) ? styles.marked : null, bg ? { backgroundColor: bg } : null]}
           >
             {token.value}

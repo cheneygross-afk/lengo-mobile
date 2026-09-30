@@ -29,11 +29,22 @@ export type AppStackParamList = {
   // account has japanese_beta_access.
   JapaneseLevels: undefined;
   Settings: undefined;
+  // First-run setup (starting level + daily goal) -- opened by Home when
+  // the account hasn't done it here or on the website.
+  Onboarding: undefined;
   // Every-4th-lesson catch-up drill -- see reviewCadence.ts and
   // ReviewDrillScreen. `levelPath` + `slugs` are enough on their own to
   // pull the right questions; `batch` is only needed to mark that batch
   // done afterwards.
   ReviewDrill: { levelPath: string; batch: number; slugs: string[] };
+  // Grammar guides (src/lib/grammar, synced from the website) -- the
+  // list, then one guide by slug.
+  Grammar: undefined;
+  GrammarGuide: { slug: string };
+  // The website's placement test, with its results screen.
+  Placement: undefined;
+  // "Test out" of a unit (units.ts) -- see UnitTestScreen.
+  UnitTest: { levelPath: string; unitId: string };
 };
 
 export type AuthStackParamList = {

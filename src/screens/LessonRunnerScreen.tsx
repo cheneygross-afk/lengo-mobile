@@ -11,13 +11,20 @@ import {
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { findLessonBySlug, moduleKeyForLesson, LESSON_SOURCES } from "@/lib/lessons/registry";
-import type { Exercise } from "@/lib/lessons/types";
+import LessonNextSteps from "@/components/LessonNextSteps";
+import type { Exercise, Lesson } from "@/lib/lessons/types";
+import { displayTitle } from "@/lib/lessons/levels";
+import { unitOf } from "@/lib/lessons/units";
 import { authoredQuestions, buildReviewQuestions } from "@/lib/lessons/drill";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
+import LessonVideoLink from "@/components/LessonVideoLink";
 import TapText from "@/components/TapText";
 import { langForLevel, langForLevelPath, ENGLISH_LANG } from "@/lib/speech";
 import { markLessonCompleted } from "@/lib/lessons/completion";
+import { recordStudyActivity } from "@/lib/streak";
+import { addStudyMinutes } from "@/lib/learnerPrefs";
+import { parseDurationMinutes } from "@/lib/duration";
 import { addToReview } from "@/lib/lessons/review";
 import {
   addMissedQuestion,
@@ -36,6 +43,8 @@ import {
 } from "@/lib/highlights";
 import { highlightMarkColor } from "@/lib/highlightColors";
 import { LESSON_PASS_PERCENT, lessonPassed } from "@/lib/grading";
+import { getSpanishVariety, loadSpanishVariety, type SpanishVariety } from "@/lib/spanishVariety";
+import { isVosotrosFocused, requiresVosotros, vosotrosNote } from "@/lib/vosotros";
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonRunner">;
 
@@ -72,32 +81,59 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   const lesson = useMemo(() => findLessonBySlug(slug), [slug]);
   const levelPath = useMemo(() => (lesson ? LESSON_SOURCES[moduleKeyForLesson(lesson)].levelPath : "a1"), [lesson]);
   const lang = useMemo(() => langForLevelPath(levelPath), [levelPath]);
+  // The title as the lesson list shows it (one "Part X of Y", see
+  // levels.ts displayTitle), and the unit it belongs to.
+  const shownTitle = useMemo(
+    () => (lesson ? displayTitle(lesson, LESSON_SOURCES[moduleKeyForLesson(lesson)].lessons) : ""),
+    [lesson]
+  );
+  const unitLabel = useMemo(() => (lesson ? unitOf(levelPath, lesson.slug)?.label : undefined), [lesson, levelPath]);
 
   // Missed questions from this track that are due again, read once when
   // the lesson opens so the review questions don't shift mid-lesson.
   const [dueMissed, setDueMissed] = useState<MissedQuestion[] | null>(null);
+  // The learner's Spanish variety, also read once when the lesson opens:
+  // Latin America learners skip questions that need a vosotros form (see
+  // vosotros.ts), and the question list mustn't change mid-lesson.
+  const [variety, setVariety] = useState<SpanishVariety | null>(null);
   useEffect(() => {
     let cancelled = false;
     setDueMissed(null);
-    getDueMissedQuestions(levelPath)
-      .catch(() => [] as MissedQuestion[])
-      .then((due) => {
-        if (!cancelled) setDueMissed(due);
-      });
+    // Don't hold the lesson up for long on a slow connection -- the value
+    // saved on this device is almost always already right.
+    const varietyLoad = Promise.race([
+      loadSpanishVariety(),
+      new Promise<SpanishVariety>((resolve) => setTimeout(() => resolve(getSpanishVariety()), 1500)),
+    ]).catch(() => getSpanishVariety());
+    Promise.all([getDueMissedQuestions(levelPath).catch(() => [] as MissedQuestion[]), varietyLoad]).then(
+      ([due, v]) => {
+        if (cancelled) return;
+        setVariety(v);
+        setDueMissed(due);
+      }
+    );
     return () => {
       cancelled = true;
     };
   }, [levelPath, slug]);
 
+  const skipExercise = useMemo(
+    () => (variety === "latam" && lesson && !lesson.level.startsWith("JA") ? requiresVosotros : () => false),
+    [variety, lesson]
+  );
   const steps = useMemo<Step[]>(() => {
-    if (!lesson || dueMissed === null) return [];
+    if (!lesson || dueMissed === null || variety === null) return [];
     const own: QuestionSource = { slug: lesson.slug, number: lesson.number, title: lesson.title };
     const out: Step[] = [];
+    // q numbers the questions shown; authored counts every question in
+    // the lesson, skipped or not, so ids stay the same as
+    // authoredQuestions() order (see missedQuestions.ts).
     let q = 0;
+    let authored = 0;
     const pushOwn = (exercise: Exercise) => {
-      // Stable per-question id -- same order as authoredQuestions(), see
-      // missedQuestions.ts.
-      out.push({ kind: "exercise", exercise, id: `${lesson.slug}#${q}`, key: `q-${q}`, number: q + 1, source: own });
+      const index = authored++;
+      if (skipExercise(exercise)) return;
+      out.push({ kind: "exercise", exercise, id: `${lesson.slug}#${index}`, key: `q-${index}`, number: q + 1, source: own });
       q++;
     };
     if (lesson.sections.length === 0) out.push({ kind: "teach", sectionIndex: null, first: true });
@@ -107,7 +143,13 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     });
     lesson.exercises.forEach(pushOwn);
     const trackLessons = LESSON_SOURCES[moduleKeyForLesson(lesson)].lessons;
-    const review = buildReviewQuestions(lesson, trackLessons, dueMissed, MIN_DRILL_QUESTIONS - authoredQuestions(lesson).length);
+    const review = buildReviewQuestions(
+      lesson,
+      trackLessons,
+      dueMissed,
+      MIN_DRILL_QUESTIONS - authoredQuestions(lesson).filter((ex) => !skipExercise(ex)).length,
+      skipExercise
+    );
     review.forEach((r, i) => {
       out.push({
         kind: "exercise",
@@ -122,7 +164,11 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     });
     out.push({ kind: "complete" });
     return out;
-  }, [lesson, dueMissed]);
+  }, [lesson, dueMissed, variety, skipExercise]);
+  const lessonNote =
+    variety === "latam" && lesson && !lesson.level.startsWith("JA") && isVosotrosFocused(lesson)
+      ? vosotrosNote(lesson.level)
+      : null;
   const questionCount = steps.filter((st) => st.kind === "exercise").length;
   // The lesson after this one in its track, for "continue anyway" when
   // the learner didn't reach the pass mark.
@@ -260,6 +306,10 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     const poolResults = Array.from(poolResultsRef.current, ([id, correct]) => ({ id, correct }));
     poolResultsRef.current = new Map();
     await recordMissedQuestionReviews(levelPath, poolResults);
+    // Finishing a lesson, passed or not, counts as studying today: the
+    // streak, and the lesson's length toward the daily goal.
+    await recordStudyActivity();
+    await addStudyMinutes(parseDurationMinutes(lesson.duration));
     // Each question is answered once per run, so this is the first-try
     // score. Below the pass mark the lesson isn't marked complete.
     if (!lessonPassed(correctCount, questionCount)) {
@@ -356,9 +406,11 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       <ScrollView style={s.stepArea} contentContainerStyle={s.stepContent} keyboardShouldPersistTaps="handled">
         {currentStep?.kind === "teach" && (
           <TeachStep
-            lesson={lesson}
+            lesson={{ ...lesson, title: shownTitle }}
+            unitLabel={unitLabel}
             sectionIndex={currentStep.sectionIndex}
             first={currentStep.first}
+            note={lessonNote}
             nextIsQuestion={steps[stepIndex + 1]?.kind === "exercise"}
             onContinue={goNext}
             highlightsFor={highlightsFor}
@@ -406,11 +458,11 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
 
         {currentStep?.kind === "complete" && (
           <CompleteStep
-            lessonTitle={lesson.title}
+            lessonTitle={shownTitle}
             correctCount={correctCount}
             totalExercises={questionCount}
             passed={lessonPassed(correctCount, questionCount)}
-            nextLessonTitle={nextLesson?.title ?? null}
+            nextLessonTitle={nextLesson ? displayTitle(nextLesson, LESSON_SOURCES[moduleKeyForLesson(nextLesson)].lessons) : null}
             onNextLesson={() => nextLesson && navigation.replace("LessonRunner", { slug: nextLesson.slug })}
             elapsedMs={Date.now() - startedAt.current}
             finishing={finishing}
@@ -418,6 +470,15 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
             onDone={() => navigation.goBack()}
             onRedo={handleRedo}
             onAddToReview={handleAddToReview}
+            nextSteps={
+              <LessonNextSteps
+                levelPath={levelPath}
+                lessonSlug={lesson.slug}
+                lessonNumber={lesson.number}
+                onOpenStory={(storySlug) => navigation.navigate("StoryReader", { slug: storySlug })}
+                onOpenGuide={(guideSlug) => navigation.navigate("GrammarGuide", { slug: guideSlug })}
+              />
+            }
           />
         )}
       </ScrollView>
@@ -453,6 +514,7 @@ function TeachStep({
   lesson,
   sectionIndex,
   first,
+  note,
   nextIsQuestion,
   onContinue,
   highlightsFor,
@@ -460,12 +522,16 @@ function TeachStep({
   onRemoveHighlight,
   highlightsEnabled,
   markColor,
+  unitLabel,
 }: {
-  lesson: { level: string; number: number; title: string; optional?: boolean; sections: { heading: string; body: string[]; examples?: { es: string; en?: string }[] }[] };
+  unitLabel?: string;
+  lesson: { level: Lesson["level"]; slug: string; number: number; title: string; optional?: boolean; sections: { heading: string; body: string[]; examples?: { es: string; en?: string }[] }[] };
   // Which section this screen teaches; null for a lesson with no sections
   // (a pure review), which just gets the title screen.
   sectionIndex: number | null;
   first: boolean;
+  // Shown under the title on the first screen (the Latin America vosotros note).
+  note: string | null;
   nextIsQuestion: boolean;
   onContinue: () => void;
   highlightsFor: (blockKey: string) => LessonHighlight[];
@@ -480,10 +546,16 @@ function TeachStep({
       {first ? (
         <>
           <Text style={s.kicker}>
-            {lesson.level} · Lesson {lesson.number}
+            {unitLabel ?? lesson.level} · Lesson {lesson.number}
             {lesson.optional ? " · optional" : ""}
           </Text>
           <TapText text={lesson.title} lang={lang} style={s.introTitle} />
+          <LessonVideoLink level={lesson.level} slug={lesson.slug} />
+          {note ? (
+            <View style={s.noteBox}>
+              <TapText text={note} lang={lang} style={s.noteText} />
+            </View>
+          ) : null}
         </>
       ) : null}
       {(sectionIndex === null ? [] : [sectionIndex]).map((si) => {
@@ -569,6 +641,7 @@ function CompleteStep({
   onDone,
   onRedo,
   onAddToReview,
+  nextSteps,
 }: {
   lessonTitle: string;
   correctCount: number;
@@ -582,6 +655,8 @@ function CompleteStep({
   onDone: () => void;
   onRedo: () => void;
   onAddToReview: () => void;
+  // Links shown once the lesson is passed (see LessonNextSteps).
+  nextSteps?: React.ReactNode;
 }) {
   const totalSeconds = Math.max(1, Math.round(elapsedMs / 1000));
   const minutes = Math.floor(totalSeconds / 60);
@@ -614,6 +689,7 @@ function CompleteStep({
 
       {passed ? (
         <>
+          {nextSteps}
           <View style={s.secondaryRow}>
             <Pressable style={s.secondaryBtn} onPress={onRedo}>
               <Text style={s.secondaryBtnText}>↻ Redo lesson</Text>
@@ -665,6 +741,17 @@ const s = StyleSheet.create({
   kicker: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#7A1F1F", marginBottom: 6 },
   introTitle: { fontSize: 24, fontWeight: "800", color: "#000", marginBottom: 18 },
   introSection: { marginBottom: 22 },
+  noteBox: {
+    borderWidth: 1,
+    borderColor: "#00000018",
+    backgroundColor: "#00000008",
+    borderRadius: 12,
+    paddingVertical: 10,
+    paddingHorizontal: 14,
+    marginTop: -6,
+    marginBottom: 18,
+  },
+  noteText: { fontSize: 14, lineHeight: 20, color: "#000000cc" },
   teachHeading: { fontSize: 18, fontWeight: "700", color: "#000", marginBottom: 8 },
   // Split from a single Text style so HighlightableText can apply the
   // font styling per word (teachBody) while the paragraph spacing lives
