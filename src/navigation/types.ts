@@ -29,6 +29,9 @@ export type AppStackParamList = {
   // account has japanese_beta_access.
   JapaneseLevels: undefined;
   Settings: undefined;
+  // First-run setup (starting level + daily goal) -- opened by Home when
+  // the account hasn't done it here or on the website.
+  Onboarding: undefined;
   // Every-4th-lesson catch-up drill -- see reviewCadence.ts and
   // ReviewDrillScreen. `levelPath` + `slugs` are enough on their own to
   // pull the right questions; `batch` is only needed to mark that batch
