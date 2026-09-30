@@ -352,12 +352,15 @@ export function Write({
   level,
   checked,
   submit,
+  onFeedback,
 }: {
   exercise: WriteExercise;
   lang: SpeechLang;
   level: string;
   checked: boolean;
   submit: Submit;
+  /** Called with the feedback (null when it couldn't be fetched) once the text is sent. */
+  onFeedback?: (feedback: WritingFeedback | null) => void;
 }) {
   const [text, setText] = useState("");
   const [state, setState] = useState<WriteState>({ kind: "editing" });
@@ -369,6 +372,7 @@ export function Write({
     setState({ kind: "sending" });
     const feedback = await fetchWritingFeedback(exercise, level, text);
     setState(feedback ? { kind: "feedback", feedback } : { kind: "selfcheck" });
+    onFeedback?.(feedback);
     // Submitting counts as done; the score is shown but never gates.
     submit(true, undefined, "Submitted.");
   }

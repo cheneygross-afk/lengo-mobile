@@ -1,7 +1,15 @@
 // Synced from cheneygross-afk/lengo:src/lib/grammar/guides.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { GrammarGuide } from "./types";
+import { A1_GUIDES } from "./guides-a1";
+import { A2_GUIDES } from "./guides-a2";
+import { B1_GUIDES } from "./guides-b1";
+import { B2_GUIDES } from "./guides-b2";
+import { C1_GUIDES } from "./guides-c1";
+import { C2_GUIDES } from "./guides-c2";
 
-export const GRAMMAR_GUIDES: GrammarGuide[] = [
+// The first twelve guides live here; the rest are split by level into
+// guides-<level>.ts so no one file gets unwieldy.
+const CORE_GUIDES: GrammarGuide[] = [
   {
     slug: "ser-vs-estar",
     title: "Ser vs. Estar: When to Use Each",
@@ -928,6 +936,16 @@ export const GRAMMAR_GUIDES: GrammarGuide[] = [
     ],
     related: ["si-clauses", "spanish-subjunctive", "preterite-vs-imperfect"],
   },
+];
+
+export const GRAMMAR_GUIDES: GrammarGuide[] = [
+  ...CORE_GUIDES,
+  ...A1_GUIDES,
+  ...A2_GUIDES,
+  ...B1_GUIDES,
+  ...B2_GUIDES,
+  ...C1_GUIDES,
+  ...C2_GUIDES,
 ];
 
 export function getGrammarGuide(slug: string): GrammarGuide | undefined {

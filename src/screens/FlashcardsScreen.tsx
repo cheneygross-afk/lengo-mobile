@@ -8,7 +8,9 @@ import { seedJapaneseAlphabetDecks } from "@/lib/lessons/ja-alphabet-decks";
 import { gradeCard, type ReviewGrade } from "@/lib/srs";
 import { addStudyMinutes, getDueCardsForToday, noteCardReviewed } from "@/lib/learnerPrefs";
 import { FLASHCARD_REVIEW_MINUTES } from "@/lib/learnerPlan";
-import { langForLevelPath, speak, stopSpeaking } from "@/lib/speech";
+import { ENGLISH_LANG, SPANISH_LANG, langForLevelPath, speak, stopSpeaking } from "@/lib/speech";
+import { deckExample } from "@/lib/decks";
+import TapText from "@/components/TapText";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Flashcards">;
 
@@ -17,13 +19,14 @@ type Props = NativeStackScreenProps<AppStackParamList, "Flashcards">;
 // levelPath is "a1", never "ja*"), keep working unchanged. Japanese
 // cards are a separate deck, same as the website's own /lessons/ja/
 // flashcards page filters to card.levelPath.startsWith("ja").
-export default function FlashcardsScreen({ route }: Props) {
+export default function FlashcardsScreen({ route, navigation }: Props) {
   const lang = route.params?.lang ?? "es";
   const [all, setAll] = useState<Record<string, FlashcardEntry>>({});
   const [due, setDue] = useState<FlashcardEntry[]>([]);
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [example, setExample] = useState<{ es: string; en: string } | null>(null);
 
   useFocusEffect(
     useCallback(() => {
@@ -87,6 +90,27 @@ export default function FlashcardsScreen({ route }: Props) {
     return () => stopSpeaking();
   }, [loading, card?.id]);
 
+  // Cards added from a frequency deck show the deck's example sentence
+  // once revealed (it lives in the deck data, not on the card).
+  useEffect(() => {
+    setExample(null);
+    if (!card) return;
+    let cancelled = false;
+    void deckExample(card).then((ex) => {
+      if (!cancelled) setExample(ex);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [card?.id]);
+
+  const decksLink =
+    lang === "es" ? (
+      <Pressable style={s.decksLink} onPress={() => navigation.navigate("FrequencyDecks")}>
+        <Text style={s.decksLinkText}>Add a frequency deck ›</Text>
+      </Pressable>
+    ) : null;
+
   if (loading) {
     return (
       <View style={s.center}>
@@ -104,6 +128,7 @@ export default function FlashcardsScreen({ route }: Props) {
             ? "Finish a lesson to start building your review deck."
             : "Come back later, or finish another lesson to add more cards."}
         </Text>
+        {decksLink}
       </View>
     );
   }
@@ -132,6 +157,12 @@ export default function FlashcardsScreen({ route }: Props) {
             <View style={s.divider} />
             <Text style={s.en}>{card.en}</Text>
             {card.pos ? <Text style={s.pos}>{card.pos}</Text> : null}
+            {example ? (
+              <View style={s.example}>
+                <TapText text={example.es} lang={SPANISH_LANG} mode="target" style={s.exampleEs} />
+                <TapText text={example.en} lang={ENGLISH_LANG} mode="english" style={s.exampleEn} />
+              </View>
+            ) : null}
           </>
         ) : (
           <Text style={s.tapHint}>Tap to reveal</Text>
@@ -146,6 +177,7 @@ export default function FlashcardsScreen({ route }: Props) {
           <GradeButton label="Easy" color="#2563eb" onPress={() => grade("easy")} />
         </View>
       )}
+      {decksLink}
     </View>
   );
 }
@@ -186,4 +218,9 @@ const s = StyleSheet.create({
   gradeButtonText: { fontWeight: "700", fontSize: 13 },
   emptyTitle: { fontSize: 18, fontWeight: "700", color: "#000" },
   emptyBody: { fontSize: 14, color: "#00000099", textAlign: "center" },
+  example: { marginTop: 16, gap: 4 },
+  exampleEs: { fontSize: 16, color: "#000", textAlign: "center" },
+  exampleEn: { fontSize: 14, color: "#00000077", textAlign: "center" },
+  decksLink: { alignSelf: "center", padding: 10 },
+  decksLinkText: { color: "#7A1F1F", fontWeight: "700" },
 });

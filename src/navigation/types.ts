@@ -18,6 +18,8 @@ export type AppStackParamList = {
   // lang defaults to "es" when omitted, so every existing "Flashcards"
   // navigation call (Spanish) keeps working unchanged.
   Flashcards: { lang?: "es" | "ja" } | undefined;
+  // Premade frequency decks (src/lib/decks) to add to Spanish flashcards.
+  FrequencyDecks: undefined;
   // Readings' level picker (A1-C1/C2) -- see ReadingLevelsScreen. Home
   // routes here; each level opens ReadingsList for that level.
   ReadingLevels: undefined;
@@ -50,6 +52,11 @@ export type AppStackParamList = {
   // and the course glossary.
   Conjugation: { verb?: string } | undefined;
   Glossary: undefined;
+  // DELE practice exams (src/lib/exams, synced from the website): the
+  // list, one exam's overview and results, and one paper.
+  Exams: undefined;
+  Exam: { slug: string };
+  ExamPaper: { slug: string; paperId: string };
 };
 
 export type AuthStackParamList = {

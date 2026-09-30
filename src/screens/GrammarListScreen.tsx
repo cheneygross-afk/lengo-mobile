@@ -5,7 +5,7 @@ import { GRAMMAR_GUIDES } from "@/lib/grammar/guides";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Grammar">;
 
-const LEVEL_ORDER = ["A1", "A2", "B1", "B2", "C1"] as const;
+const LEVEL_ORDER = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
 
 // Mobile port of the website's /grammar index: the free grammar guides
 // (src/lib/grammar, synced from the website), grouped by level.
@@ -24,8 +24,7 @@ export default function GrammarListScreen({ navigation }: Props) {
       stickySectionHeadersEnabled={false}
       ListHeaderComponent={
         <Text style={styles.subtitle}>
-          Short explanations of the grammar points learners get stuck on most, with examples and the mistakes to
-          avoid.
+          Clear explanations of Spanish grammar from A1 to C2, with tables, examples and the mistakes to avoid.
         </Text>
       }
       renderSectionHeader={({ section }) => <Text style={styles.sectionHeader}>{section.title}</Text>}

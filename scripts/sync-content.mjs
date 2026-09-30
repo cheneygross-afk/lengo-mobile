@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Copies lesson, story, reading, grammar-guide, placement-test, conjugation and glossary content from the website repo
+// Copies lesson, story, reading, grammar-guide, placement-test, conjugation, glossary and deck content from the website repo
 // (cheneygross-afk/lengo) into this app, so the two can't drift apart.
 // The website is the single source of truth for course content: edit a
 // lesson there, then run this script (or let the website's "Sync content
@@ -38,6 +38,10 @@ const DIRS = {
   // and generated data, no web imports).
   "src/lib/conjugation": [],
   "src/lib/glossary": [],
+  // Premade frequency flashcard decks (data plus pure helpers).
+  "src/lib/decks": [],
+  // DELE practice exams (data plus the pure marking helpers).
+  "src/lib/exams": [],
 };
 
 // Single website files mirrored to the same path here (pure data that
