@@ -220,46 +220,16 @@ export default function HomeScreen({ navigation }: Props) {
               <Text style={styles.cardBody}>Lessons you saved to try again.</Text>
             </Pressable>
 
-            {/* Grammar guides + placement test (Spanish only) -- kept as
-                one self-contained row so it's easy to move in a redesign. */}
+            {/* Grammar guides, verb conjugation, DELE practice and the
+                glossary (Spanish only) -- grouped behind one card, like the
+                website's Study Tools menu entry. The placement test lives
+                on that screen and in Settings rather than here: most
+                learners take it once. */}
             {language === "es" && (
-              <View style={styles.extraRow}>
-                <Pressable style={[styles.card, styles.extraCard]} onPress={() => navigation.navigate("Grammar")}>
-                  <Text style={styles.cardTitle}>Grammar</Text>
-                  <Text style={styles.cardBody}>Short guides with examples.</Text>
-                </Pressable>
-                <Pressable style={[styles.card, styles.extraCard]} onPress={() => navigation.navigate("Placement")}>
-                  <Text style={styles.cardTitle}>Placement</Text>
-                  <Text style={styles.cardBody}>Find your level.</Text>
-                </Pressable>
-              </View>
-            )}
-
-            {/* Reference tools (Spanish only): verb tables + drills and
-                the course glossary -- a self-contained row like the one
-                above, so it's easy to move in a redesign. */}
-            {language === "es" && (
-              <View style={styles.extraRow}>
-                <Pressable style={[styles.card, styles.extraCard]} onPress={() => navigation.navigate("Conjugation")}>
-                  <Text style={styles.cardTitle}>Verbs</Text>
-                  <Text style={styles.cardBody}>Conjugation tables and drills.</Text>
-                </Pressable>
-                <Pressable style={[styles.card, styles.extraCard]} onPress={() => navigation.navigate("Glossary")}>
-                  <Text style={styles.cardTitle}>Glossary</Text>
-                  <Text style={styles.cardBody}>Every word the course teaches.</Text>
-                </Pressable>
-              </View>
-            )}
-
-            {/* DELE practice exams (Spanish only) -- a self-contained row
-                like the ones above. */}
-            {language === "es" && (
-              <View style={styles.extraRow}>
-                <Pressable style={[styles.card, styles.extraCard]} onPress={() => navigation.navigate("Exams")}>
-                  <Text style={styles.cardTitle}>Exam practice</Text>
-                  <Text style={styles.cardBody}>Full DELE practice exams, A2 to C1.</Text>
-                </Pressable>
-              </View>
+              <Pressable style={styles.card} onPress={() => navigation.navigate("StudyTools")}>
+                <Text style={styles.cardTitle}>Study Tools</Text>
+                <Text style={styles.cardBody}>Grammar guides, verb conjugation, DELE practice and the glossary.</Text>
+              </Pressable>
             )}
           </View>
         </View>
@@ -348,8 +318,6 @@ const styles = StyleSheet.create({
   },
   cardTitle: { fontSize: 18, fontWeight: "700", color: "#000", marginBottom: 4 },
   cardBody: { fontSize: 14, color: "#00000099" },
-  extraRow: { flexDirection: "row", gap: 14 },
-  extraCard: { flex: 1 },
   settingsLink: { alignItems: "center", paddingVertical: 12 },
   settingsLinkText: { color: "#00000066", fontSize: 14, textDecorationLine: "underline" },
 });
