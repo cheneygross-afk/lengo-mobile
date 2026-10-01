@@ -31,15 +31,16 @@ export function levelsBelow(level: SpanishLevelPath): SpanishLevelPath[] {
 // ---------------------------------------------------------------------------
 // Prefs
 
-export const DAILY_GOAL_OPTIONS = [5, 10, 20, 30] as const;
+// Stored goals from before these options (5, 10, 20) aren't in the list,
+// so normalizePrefs() maps them to the default.
+export const DAILY_GOAL_OPTIONS = [30, 75, 120] as const;
 export type DailyGoalMinutes = (typeof DAILY_GOAL_OPTIONS)[number];
-export const DEFAULT_DAILY_GOAL: DailyGoalMinutes = 10;
+export const DEFAULT_DAILY_GOAL: DailyGoalMinutes = 30;
 
 export const DAILY_GOAL_LABELS: Record<DailyGoalMinutes, string> = {
-  5: "Casual",
-  10: "Regular",
-  20: "Serious",
-  30: "Intense",
+  30: "Regular",
+  75: "Serious",
+  120: "Intense",
 };
 
 export const NEW_CARDS_PER_DAY_OPTIONS = [5, 10, 20, 30, 50, "unlimited"] as const;
