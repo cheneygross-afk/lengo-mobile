@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "dacd3e06fd196764253199a5b76e72f8cd38f318",
+  "commit": "7e35c124406ce47de2a88d48c8a5a4de3ff07cfa",
   "files": {
     "src/lib/lessons/a1-additions.ts": "5e2de5cde5d685adaec5cd4c5c818ed420ecc224d408aeb2bf16fe5ed8321430",
     "src/lib/lessons/a1-reinforcement.ts": "99c5215b4e0e4254204b5202f632cee1a88643c71efb19e8070c26bb05871167",
@@ -69,7 +69,7 @@
     "src/lib/stories/byLevel.ts": "1978fcafd87a03fa197c44879eaba6b78750b3f8879c9faf2d34140fb47c8ad1",
     "src/lib/stories/c1c2-glosses.ts": "e8e86ea0701f24132105bbaaad1486ae0341ca5af239ee23916fd3a258b4c4a6",
     "src/lib/stories/c1c2.ts": "94ae4158edc98484a63ea9ed336e7f63970399e55a424d052eb31150b810c65d",
-    "src/lib/stories/glosses.ts": "7511e4ea6d981d816c1f0b4c65b925249de439b929ec3c899b3075408781c25a",
+    "src/lib/stories/glosses.ts": "c89a569d19729044af3edd5b34b7f0b5d626fb08e863e36ed6a453514a45e17a",
     "src/lib/stories/pickStory.ts": "4befbe7db6c9db253181b0654502488b5e219dc177559783c63ba49bf403cb49",
     "src/lib/stories/readiness.ts": "35bcf1caf418a56d891df2f2eedd15e979969b0423e5ce377d52d0d9b804a8e3",
     "src/lib/stories/types.ts": "0f104128652296dc2b7c177d579ff569c404d886a12fa48db7042bee1d63d6c1",

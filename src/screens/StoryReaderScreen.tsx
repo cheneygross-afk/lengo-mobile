@@ -7,7 +7,8 @@ import { toExercises } from "@/lib/stories/types";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
 import { langForLevelPath, readAloud, speechChunks, stopReadAloud } from "@/lib/speech";
-import { glossKey, glossLookup, storyGlosses } from "@/lib/stories/glosses";
+import { glossKey, glossLookup, storyGlosses, storyKeyWords } from "@/lib/stories/glosses";
+import TapText from "@/components/TapText";
 import type { StoryGloss } from "@/lib/stories/types";
 import { useAuth } from "@/lib/auth/AuthContext";
 import { supabase } from "@/lib/supabase/client";
@@ -52,6 +53,11 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
   // shows in a card when tapped.
   const glosses = useMemo(() => (story ? storyGlosses(story.slug) : []), [story]);
   const lookup = useMemo(() => glossLookup(glosses), [glosses]);
+  // Pre-reading key vocabulary for A1/A2 stories (the website shows the same).
+  const keyWords = useMemo(
+    () => (story && (story.level === "A1" || story.level === "A2") ? storyKeyWords(story.paragraphs, glosses) : []),
+    [story, glosses]
+  );
   const chunks = useMemo(
     () => (story ? story.paragraphs.flatMap((p, pi) => speechChunks(p).map((text) => ({ text, pi }))) : []),
     [story]
@@ -228,6 +234,19 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
           </Pressable>
         </View>
 
+        {keyWords.length > 0 && (
+          <View style={s.keyBox}>
+            <Text style={s.wordBoxTitle}>Key words in this story</Text>
+            {keyWords.map((g) => (
+              <Text key={g.es + g.forms.join()} style={s.wordRow}>
+                <TapText text={g.es} lang={langForLevelPath(levelPath)} mode="target" style={s.wordEs} />
+                <Text> · </Text>
+                <TapText text={g.en} lang="en-US" mode="english" />
+              </Text>
+            ))}
+          </View>
+        )}
+
         {glosses.length > 0 && (
           <View style={s.wordBox}>
             <Pressable onPress={() => setShowWordList((v) => !v)} accessibilityRole="button">
@@ -359,6 +378,7 @@ const s = StyleSheet.create({
   listenButton: { borderWidth: 1, borderColor: "#00000033", borderRadius: 999, paddingVertical: 8, paddingHorizontal: 16 },
   listenButtonText: { fontSize: 14, fontWeight: "600", color: "#000" },
   wordBox: { borderWidth: 1, borderColor: "#00000022", borderRadius: 12, padding: 12, marginBottom: 16, gap: 4 },
+  keyBox: { backgroundColor: "#fff", borderWidth: 1, borderColor: "#00000018", borderRadius: 12, padding: 12, marginBottom: 12, gap: 4 },
   wordBoxTitle: { fontSize: 14, fontWeight: "600", color: "#000" },
   wordHint: { fontSize: 12, color: "#00000080" },
   wordRow: { fontSize: 13, color: "#000000aa" },
