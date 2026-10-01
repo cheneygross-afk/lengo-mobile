@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "a46a62d1e9285b09caf451478a922ddfc0f8a9e2",
+  "commit": "e8adc21beed8882f74ed63735395271f659fc23f",
   "files": {
     "src/lib/lessons/a1-additions.ts": "5e2de5cde5d685adaec5cd4c5c818ed420ecc224d408aeb2bf16fe5ed8321430",
     "src/lib/lessons/a1-reinforcement.ts": "99c5215b4e0e4254204b5202f632cee1a88643c71efb19e8070c26bb05871167",
@@ -61,7 +61,7 @@
     "src/lib/stories/a1-english.ts": "71164d4b9737b831b846e8f9da1e86752a26e5e669df24c01adf57b892cc87da",
     "src/lib/stories/a1-glosses.ts": "3e525d76dcd17aa6a344cab99236d4e07fbae625d306b8d3d7ae9caf67ec18d7",
     "src/lib/stories/a1.ts": "a101895dde59dd59db133d7f12470b344e2bdd1bc7f7d7d937f877964e2e1a0f",
-    "src/lib/stories/a2-english.ts": "5c3b9b5bf77fe2851f72e80b8b2072ac8741e416c698f37eb14739f98347d814",
+    "src/lib/stories/a2-english.ts": "d9f2dcd17901e2164b4bfd22717a97f0b7a7947db6e83121e51b4050c3eac3f2",
     "src/lib/stories/a2-glosses.ts": "f4c6f109f34cb0b79519075a374b48534eb09ae874df081900cab17f0f67d496",
     "src/lib/stories/a2.ts": "a195b6d9f87fc2f456cc5a64725c31156e82eba04f92601400b159a404ff7279",
     "src/lib/stories/b1-glosses.ts": "d29f12928d68165b8b124fa8abf51c654698719e01c50f7d787603e1aa8a0d5d",
