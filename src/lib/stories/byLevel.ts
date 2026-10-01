@@ -5,9 +5,13 @@ import { A2_STORIES } from "./a2";
 import { B1_STORIES } from "./b1";
 import { B2_STORIES } from "./b2";
 import { C1C2_STORIES } from "./c1c2";
+import { sortStoriesByEase } from "./pickStory";
+
+/** The A1 stories in reading-list order: easiest first. */
+export const A1_STORIES_BY_EASE: Story[] = sortStoriesByEase(A1_STORIES);
 
 export const STORIES_BY_LEVEL_PATH: Record<string, Story[]> = {
-  a1: A1_STORIES,
+  a1: A1_STORIES_BY_EASE,
   a2: A2_STORIES,
   b1: B1_STORIES,
   b2: B2_STORIES,
