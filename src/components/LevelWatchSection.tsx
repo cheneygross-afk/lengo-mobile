@@ -64,7 +64,7 @@ export default function LevelWatchSection({ levelPath }: { levelPath: SpanishLev
       {expanded ? (
         <View style={s.list}>
           {videos.map((v) => (
-            <VideoCard key={v.videoId} video={v} variant="row" />
+            <VideoCard key={v.videoId} video={v} variant="row" tapTitle />
           ))}
         </View>
       ) : (
@@ -78,7 +78,7 @@ export default function LevelWatchSection({ levelPath }: { levelPath: SpanishLev
           snapToAlignment="start"
         >
           {videos.slice(0, SHOWN).map((v) => (
-            <VideoCard key={v.videoId} video={v} style={s.tile} />
+            <VideoCard key={v.videoId} video={v} style={s.tile} tapTitle />
           ))}
         </ScrollView>
       )}
