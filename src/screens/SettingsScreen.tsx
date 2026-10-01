@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { View, Text, TextInput, Pressable, Switch, StyleSheet, Linking, ActivityIndicator, ScrollView, Alert } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import type { NativeStackScreenProps } from "@react-navigation/native-stack";
+import type { AppStackParamList } from "@/navigation/types";
 import { useAuth } from "@/lib/auth/AuthContext";
 import { supabase } from "@/lib/supabase/client";
 import { HIGHLIGHT_COLORS, DEFAULT_HIGHLIGHT_COLOR, type HighlightColor } from "@/lib/highlightColors";
@@ -41,7 +43,7 @@ const DELETE_ACCOUNT_URL = "https://deependspanish.com/api/account/delete";
 // Supabase project itself, so this stays in step with those.
 const MIN_PASSWORD_LENGTH = 6;
 
-export default function SettingsScreen() {
+export default function SettingsScreen({ navigation }: NativeStackScreenProps<AppStackParamList, "Settings">) {
   const { session, signOut } = useAuth();
   const userId = session?.user?.id;
 
@@ -443,6 +445,17 @@ export default function SettingsScreen() {
         </View>
       </View>
 
+      {/* The placement test isn't on Home (most learners take it once),
+          so it stays reachable here, next to the learning prefs, and on
+          the Study Tools screen. */}
+      <View style={s.section}>
+        <Text style={s.sectionTitle}>Your level</Text>
+        <Text style={s.sectionSub}>Not sure your Spanish level is right? Take the placement test again any time.</Text>
+        <Pressable onPress={() => navigation.navigate("Placement")} style={s.placementLink}>
+          <Text style={s.placementLinkText}>Retake the Spanish placement test →</Text>
+        </Pressable>
+      </View>
+
       <View style={s.section}>
         <Text style={s.sectionTitle}>Highlighting</Text>
         <Text style={s.sectionSub}>
@@ -533,6 +546,8 @@ const s = StyleSheet.create({
   },
   sectionTitle: { fontSize: 15, fontWeight: "700", color: "#000" },
   sectionSub: { fontSize: 12.5, color: "#00000099", marginTop: 4, lineHeight: 17 },
+  placementLink: { marginTop: 12, alignSelf: "flex-start", paddingVertical: 4 },
+  placementLinkText: { fontSize: 14, fontWeight: "700", color: "#7A1F1F" },
   fieldGroup: { marginTop: 14, gap: 6 },
   fieldLabel: { fontSize: 12.5, fontWeight: "600", color: "#00000099" },
   input: {

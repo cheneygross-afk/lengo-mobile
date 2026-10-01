@@ -39,6 +39,9 @@ export type AppStackParamList = {
   // pull the right questions; `batch` is only needed to mark that batch
   // done afterwards.
   ReviewDrill: { levelPath: string; batch: number; slugs: string[] };
+  // Hub for the Spanish reference/practice tools below (grammar,
+  // conjugation, DELE practice, glossary) plus the placement test.
+  StudyTools: undefined;
   // Grammar guides (src/lib/grammar, synced from the website) -- the
   // list, then one guide by slug.
   Grammar: undefined;
