@@ -3,6 +3,8 @@ import { View, Text, SectionList, Pressable, Linking, StyleSheet } from "react-n
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { getReadingLevel } from "@/lib/stories/registry";
+import { readinessLabel } from "@/lib/stories/pickStory";
+import { LEVEL_INTROS } from "@/lib/readings/levelIntros";
 import type { Story } from "@/lib/stories/types";
 import type { Reading } from "@/lib/readings/types";
 
@@ -34,11 +36,21 @@ export default function ReadingsListScreen({ route, navigation }: Props) {
     ];
   }, [levelPath]);
 
+  const readyNote = LEVEL_INTROS[levelPath]?.readyNote;
+
   return (
     <SectionList
       style={styles.container}
       contentContainerStyle={styles.list}
       sections={sections}
+      ListHeaderComponent={
+        readyNote ? (
+          <View style={styles.note}>
+            <Text style={styles.noteTitle}>{readyNote.heading}</Text>
+            <Text style={styles.noteBody}>{readyNote.body}</Text>
+          </View>
+        ) : null
+      }
       keyExtractor={(row, i) => (row.kind === "story" ? row.story.slug : row.reading.title + i)}
       renderSectionHeader={({ section }) => (
         <View style={styles.sectionHeader}>
@@ -56,6 +68,9 @@ export default function ReadingsListScreen({ route, navigation }: Props) {
             <Text style={styles.rowSummary} numberOfLines={2}>
               {item.story.subtitle}
             </Text>
+            {readinessLabel(item.story.slug) ? (
+              <Text style={styles.rowReady}>{readinessLabel(item.story.slug)}</Text>
+            ) : null}
           </Pressable>
         ) : (
           <Pressable style={styles.row} onPress={() => Linking.openURL(item.reading.amazonUrl)}>
@@ -89,5 +104,16 @@ const styles = StyleSheet.create({
   rowTitle: { fontSize: 16, fontWeight: "600", color: "#000" },
   rowAuthor: { fontSize: 13, color: "#00000099", marginTop: 2 },
   rowSummary: { fontSize: 13, color: "#00000099", marginTop: 4 },
+  rowReady: { fontSize: 12, color: "#00000066", marginTop: 6 },
+  note: {
+    backgroundColor: "#fff",
+    borderRadius: 12,
+    padding: 14,
+    borderWidth: 1,
+    borderColor: "#00000012",
+    marginTop: 4,
+  },
+  noteTitle: { fontSize: 14, fontWeight: "700", color: "#000" },
+  noteBody: { fontSize: 13, color: "#000000B3", marginTop: 4, lineHeight: 19 },
   buyLink: { fontSize: 12, color: "#7A1F1F", fontWeight: "700", marginTop: 8 },
 });

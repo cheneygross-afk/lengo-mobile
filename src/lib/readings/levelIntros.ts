@@ -5,6 +5,9 @@
 // stories". Rendered by ReadingList below the story list, so returning
 // readers still see the stories first.
 export type LevelIntro = {
+  /** Who the stories are for, shown at the top of the page above the
+   * story list so a brand-new learner sees it before opening a story. */
+  readyNote?: { heading: string; body: string };
   heading: string;
   paragraphs: string[];
   faqs: { q: string; a: string }[];
@@ -14,6 +17,10 @@ export type LevelIntro = {
 
 export const LEVEL_INTROS: Record<string, LevelIntro> = {
   a1: {
+    readyNote: {
+      heading: "How much Spanish do I need to read A1 stories?",
+      body: "If you know basic greetings, the verbs ser, estar, and tener, and a few hundred common words, you're ready. Glossed words cover the rest. Brand new to Spanish? Start with the A1 lessons: each story below says which lesson it's best after, and the list runs from easiest to hardest.",
+    },
     heading: "Free Spanish short stories for beginners (A1)",
     paragraphs: [
       "These A1 Spanish stories are written for people in their first months of learning. They stick mostly to the present tense, with short sentences and the everyday vocabulary you meet first: family, food, school, the weather, and getting around town.",
@@ -22,10 +29,6 @@ export const LEVEL_INTROS: Record<string, LevelIntro> = {
     ],
     faqs: [
       {
-        q: "How much Spanish do I need to read A1 stories?",
-        a: "If you know basic greetings, the verbs ser, estar, and tener, and a few hundred common words, you're ready. Glossed words cover the rest.",
-      },
-      {
         q: "Are these stories really free?",
         a: "Yes. Every story on this page is free to read with no account needed.",
       },
@@ -33,6 +36,10 @@ export const LEVEL_INTROS: Record<string, LevelIntro> = {
     grammarLevel: "A1",
   },
   a2: {
+    readyNote: {
+      heading: "How much Spanish do I need to read A2 stories?",
+      body: "Most A2 stories tell what happened using the preterite and the imperfect, so they're best once you've met both (A2 lesson 23). Each story below says which lesson it's best after.",
+    },
     heading: "Free A2 Spanish reading practice",
     paragraphs: [
       "A2 stories bring in the past tenses, so you'll see the preterite and imperfect working together the way they do in real storytelling: one sets the scene, the other moves the plot forward.",

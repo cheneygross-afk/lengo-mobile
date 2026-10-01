@@ -8,6 +8,9 @@
 
 export type StoryReadiness = { afterLesson: number; unknownPct: number };
 
+export const A1_LESSON_COUNT = 131;
+export const A2_LESSON_COUNT = 291;
+
 export const A1_STORY_READINESS: Record<string, StoryReadiness> = {
   "school-day-math-test": { afterLesson: 46, unknownPct: 1.3 },
   "family-beach-trip": { afterLesson: 36, unknownPct: 3.5 },

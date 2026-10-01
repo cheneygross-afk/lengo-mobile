@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "3da67a096679dab09ab86c42cce2e6bdd43b1212",
+  "commit": "2498e1473d859d92ad871ef511745028a5ddaa59",
   "files": {
     "src/lib/lessons/a1-additions.ts": "5e2de5cde5d685adaec5cd4c5c818ed420ecc224d408aeb2bf16fe5ed8321430",
     "src/lib/lessons/a1-reinforcement.ts": "99c5215b4e0e4254204b5202f632cee1a88643c71efb19e8070c26bb05871167",
@@ -70,8 +70,8 @@
     "src/lib/stories/c1c2-glosses.ts": "e8e86ea0701f24132105bbaaad1486ae0341ca5af239ee23916fd3a258b4c4a6",
     "src/lib/stories/c1c2.ts": "94ae4158edc98484a63ea9ed336e7f63970399e55a424d052eb31150b810c65d",
     "src/lib/stories/glosses.ts": "7511e4ea6d981d816c1f0b4c65b925249de439b929ec3c899b3075408781c25a",
-    "src/lib/stories/pickStory.ts": "ca4c83448afc8fc1668a3705cf5eab6f0f91909d21422c559029e7795c772b33",
-    "src/lib/stories/readiness.ts": "0c656954e195eddf589fd9d3bfcec654bc85ebb9c2452a724b492b4897fce67d",
+    "src/lib/stories/pickStory.ts": "4befbe7db6c9db253181b0654502488b5e219dc177559783c63ba49bf403cb49",
+    "src/lib/stories/readiness.ts": "fa943edc08913ece6d21f2672697a820b46bcd776b724ab1ee2dd71e1397d886",
     "src/lib/stories/types.ts": "0f104128652296dc2b7c177d579ff569c404d886a12fa48db7042bee1d63d6c1",
     "src/lib/readings/a1.ts": "e039ad7790fdedb9d2468dde22c6d00a40263c704dd4a531f0e20fbd5b5526aa",
     "src/lib/readings/a2.ts": "66aa30179ce03d3152a053d7d6926d17c5da73ccb5d7cad9bf738b74cfdf01e9",
@@ -79,7 +79,7 @@
     "src/lib/readings/b1.ts": "0b6af1b26fdf4b8f926d1b6edfe21a091e4a6e85f9b83a7d355d82fd2a973850",
     "src/lib/readings/b2.ts": "3af79d87c49c4afa7a92a2014c9fda28a1b059742aeeec688b47024d223aa7e2",
     "src/lib/readings/c1c2.ts": "dc6e69f6aca16ed445085175ef97a4438a0549ef7404bb81177c59dfda5fffef",
-    "src/lib/readings/levelIntros.ts": "c924db3d04bab2e3a7a46a0fee4d877c844539e4f2b150267f8f0753c818b14f",
+    "src/lib/readings/levelIntros.ts": "22f3583c8641af82c19d3567446474443822e83e3e70a55e80741114601934fb",
     "src/lib/readings/types.ts": "482429ca0bd377c16a1e3d09fd78ef99bc788c7184ba1cf300d81be1cec2e053",
     "src/lib/grammar/guides-a1.ts": "58d9006c9a7497bab49a34763302c07b02555c6e6936e74c44b7b98ca87beb60",
     "src/lib/grammar/guides-a2.ts": "9b00951ff26e607275aec2fdd9f22db2ee4698fb4b4f25ca86235108327f69ce",

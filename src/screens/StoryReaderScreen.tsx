@@ -21,6 +21,7 @@ import { highlightMarkColor } from "@/lib/highlightColors";
 import { buildFlashcardEntry, loadFlashcards, makeFlashcardId, saveFlashcards } from "@/lib/flashcards/store";
 import { fetchTranslation } from "@/lib/translate/api";
 import { markStoryRead } from "@/lib/storiesRead";
+import { readinessLabel } from "@/lib/stories/pickStory";
 
 type Props = NativeStackScreenProps<AppStackParamList, "StoryReader">;
 
@@ -214,7 +215,10 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
   return (
     <View style={s.container}>
       <ScrollView style={s.container} contentContainerStyle={s.content}>
-        <Text style={s.kicker}>{story.level} · Short story</Text>
+        <Text style={s.kicker}>
+          {story.level} · Short story
+          {readinessLabel(story.slug) ? ` · ${readinessLabel(story.slug)}` : ""}
+        </Text>
         <Text style={s.title}>{story.title}</Text>
         <Text style={s.subtitle}>{story.subtitle}</Text>
 

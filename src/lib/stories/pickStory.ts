@@ -1,6 +1,12 @@
 // Synced from cheneygross-afk/lengo:src/lib/stories/pickStory.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Story } from "./types";
-import { A1_STORY_READINESS, A2_STORY_READINESS, type StoryReadiness } from "./readiness";
+import {
+  A1_LESSON_COUNT,
+  A1_STORY_READINESS,
+  A2_LESSON_COUNT,
+  A2_STORY_READINESS,
+  type StoryReadiness,
+} from "./readiness";
 
 // Which free story to suggest at the end of a lesson: one at the lesson's
 // level the learner hasn't read yet and can already read. Shared by the
@@ -41,13 +47,14 @@ export function storyReadiness(slug: string): StoryReadiness | null {
   return A1_STORY_READINESS[slug] ?? A2_STORY_READINESS[slug] ?? null;
 }
 
-/** "Best after lesson 41", or "Best after finishing A1" for a story that
- * needs the whole level. Null for stories without readiness data. */
-export function readinessLabel(slug: string, levelLessonCount?: number): string | null {
+/** "Best after A1 lesson 41", or "Best after finishing A1" for a story
+ * that needs the whole level. Null for stories without readiness data. */
+export function readinessLabel(slug: string): string | null {
   const r = storyReadiness(slug);
   if (!r) return null;
-  const level = slug in A1_STORY_READINESS ? "A1" : "A2";
-  if (levelLessonCount && r.afterLesson >= levelLessonCount) return `Best after finishing ${level}`;
+  const a1 = slug in A1_STORY_READINESS;
+  const level = a1 ? "A1" : "A2";
+  if (r.afterLesson >= (a1 ? A1_LESSON_COUNT : A2_LESSON_COUNT)) return `Best after finishing ${level}`;
   return `Best after ${level} lesson ${r.afterLesson}`;
 }
 
