@@ -269,10 +269,11 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "flex-end",
+    gap: 10,
     paddingTop: 20,
     paddingBottom: 8,
   },
-  sectionTitle: { fontSize: 15, fontWeight: "700", color: "#7A1F1F" },
+  sectionTitle: { flexShrink: 1, fontSize: 15, fontWeight: "700", color: "#7A1F1F" },
   sectionMeta: { fontSize: 12, color: "#00000066" },
   unitCard: {
     marginTop: 12,

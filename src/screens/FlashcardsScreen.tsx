@@ -206,7 +206,7 @@ const s = StyleSheet.create({
     justifyContent: "center",
   },
   esRow: { flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 10 },
-  es: { fontSize: 26, fontWeight: "700", color: "#000", textAlign: "center" },
+  es: { fontSize: 26, fontWeight: "700", color: "#000", textAlign: "center", flexShrink: 1 },
   speakerBtn: { padding: 6 },
   speakerIcon: { fontSize: 20 },
   divider: { width: 40, height: 1, backgroundColor: "#00000022", marginVertical: 16 },

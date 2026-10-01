@@ -560,7 +560,7 @@ const s = StyleSheet.create({
   buttonDisabled: { opacity: 0.6 },
   saveBtnText: { color: "#fff", fontWeight: "700", fontSize: 14 },
   savedText: { color: "#15803d", fontSize: 13, fontWeight: "600" },
-  errorText: { color: "#dc2626", fontSize: 13 },
+  errorText: { color: "#dc2626", fontSize: 13, flexShrink: 1 },
   cancelText: { color: "#00000099", fontSize: 14, fontWeight: "600" },
   passwordRow: { flexDirection: "row", alignItems: "center", justifyContent: "space-between", marginTop: 14 },
   passwordDots: { fontSize: 18, letterSpacing: 2, color: "#000" },
