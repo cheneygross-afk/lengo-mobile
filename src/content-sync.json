@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "7389d61518d78a8cffca7023acd2189f7278944f",
+  "commit": "ab509b91cd365c3b7674faf9a1a1fe22a5a59760",
   "files": {
     "src/lib/lessons/a1-additions.ts": "5e2de5cde5d685adaec5cd4c5c818ed420ecc224d408aeb2bf16fe5ed8321430",
     "src/lib/lessons/a1-reinforcement.ts": "99c5215b4e0e4254204b5202f632cee1a88643c71efb19e8070c26bb05871167",
@@ -57,6 +57,7 @@
     "src/lib/lessons/translate-blanks.ts": "7ecde5bc67651fab36ec1cd58fcf9a83dd2f2a2fe87e0e6d5e1436e8e25fa96f",
     "src/lib/lessons/types.ts": "0884db2d69f24e09404b04127d1045735e3b1b3fc125c17d411e1ea1aa7f270e",
     "src/lib/lessons/units.ts": "b8db12a1b9b2de6c1cd3b61688f9b7317994e6b2c7905a45e609c0d4f60f3f29",
+    "src/lib/lessons/videoTopics.ts": "9b6feb41caf503213c710c65cfcba3549d0a39b00218e1edb465aac4b05a9769",
     "src/lib/lessons/weave.ts": "a738a84238c05e6d4d427d1afbef7ecbb3f683bc647d5d94def70e58546d3824",
     "src/lib/stories/a1-english.ts": "71164d4b9737b831b846e8f9da1e86752a26e5e669df24c01adf57b892cc87da",
     "src/lib/stories/a1-glosses.ts": "3e525d76dcd17aa6a344cab99236d4e07fbae625d306b8d3d7ae9caf67ec18d7",
