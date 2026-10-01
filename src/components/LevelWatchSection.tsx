@@ -1,20 +1,43 @@
 import { useState } from "react";
 import { View, Text, ScrollView, Pressable, StyleSheet } from "react-native";
 import VideoCard from "@/components/VideoCard";
-import { LEVEL_WATCH_VIDEOS } from "@/lib/lessons/lessonVideos";
+import VideoQuizModal from "@/components/VideoQuizModal";
+import { LEVEL_WATCH_VIDEOS, type LessonVideo } from "@/lib/lessons/lessonVideos";
+import { listeningSummary } from "@/lib/lessons/videoQuizzes";
+import { useVideoQuizStore } from "@/lib/videoQuizProgress";
 import { WATCH_INTRO, filterByTopic, topicsIn, type VideoTopicFilter } from "@/lib/lessons/videoTopics";
 import type { SpanishLevelPath } from "@/lib/lessons/levels";
 
 // "Watch & listen" under a level's units, as on the website's level page:
 // general listening videos at that level (LEVEL_WATCH_VIDEOS), as a
 // swipeable row of thumbnail cards with topic chips. "Show all" lists the
-// rest as full-width cards. Each opens YouTube.
+// rest as full-width cards. Each opens YouTube. Videos with a quiz
+// (videoQuizzes.ts) open it in a sheet, and the header sums up this
+// level's quiz scores.
 const SHOWN = 6;
+const LEVEL_ORDER: SpanishLevelPath[] = ["a1", "a2", "b1", "b2", "c1", "c2"];
+
+function ListeningScore({ levelPath }: { levelPath: SpanishLevelPath }) {
+  const store = useVideoQuizStore();
+  const summary = listeningSummary(levelPath, store.results);
+  if (summary.available === 0) return null;
+  const next = LEVEL_ORDER[LEVEL_ORDER.indexOf(levelPath) + 1];
+  return (
+    <Text style={s.score}>
+      <Text style={s.scoreLabel}>Listening score: </Text>
+      {summary.taken === 0
+        ? "videos marked Quiz have a short check once you've watched them."
+        : `${summary.passed} of ${summary.taken} ${summary.taken === 1 ? "quiz" : "quizzes"} passed · ${Math.round(summary.average * 100)}% average`}
+      {summary.readyForNext && next ? <Text style={s.ready}> · Ready for {next.toUpperCase()} videos</Text> : null}
+    </Text>
+  );
+}
 
 export default function LevelWatchSection({ levelPath }: { levelPath: SpanishLevelPath }) {
   const all = LEVEL_WATCH_VIDEOS[levelPath] ?? [];
   const [topic, setTopic] = useState<VideoTopicFilter>("all");
   const [expanded, setExpanded] = useState(false);
+  const [quizVideo, setQuizVideo] = useState<LessonVideo | null>(null);
   if (all.length === 0) return null;
 
   const topics = topicsIn(all);
@@ -33,6 +56,7 @@ export default function LevelWatchSection({ levelPath }: { levelPath: SpanishLev
         Watch & listen
       </Text>
       <Text style={s.intro}>{WATCH_INTRO[levelPath]} Videos open on YouTube.</Text>
+      <ListeningScore levelPath={levelPath} />
 
       {chips.length > 0 && (
         <ScrollView
@@ -64,7 +88,7 @@ export default function LevelWatchSection({ levelPath }: { levelPath: SpanishLev
       {expanded ? (
         <View style={s.list}>
           {videos.map((v) => (
-            <VideoCard key={v.videoId} video={v} variant="row" tapTitle />
+            <VideoCard key={v.videoId} video={v} variant="row" tapTitle onQuiz={() => setQuizVideo(v)} />
           ))}
         </View>
       ) : (
@@ -78,7 +102,7 @@ export default function LevelWatchSection({ levelPath }: { levelPath: SpanishLev
           snapToAlignment="start"
         >
           {videos.slice(0, SHOWN).map((v) => (
-            <VideoCard key={v.videoId} video={v} style={s.tile} tapTitle />
+            <VideoCard key={v.videoId} video={v} style={s.tile} tapTitle onQuiz={() => setQuizVideo(v)} />
           ))}
         </ScrollView>
       )}
@@ -93,6 +117,8 @@ export default function LevelWatchSection({ levelPath }: { levelPath: SpanishLev
           <Text style={s.moreText}>{expanded ? "Show fewer" : `Show all ${videos.length}`}</Text>
         </Pressable>
       )}
+
+      <VideoQuizModal video={quizVideo} onClose={() => setQuizVideo(null)} />
     </View>
   );
 }
@@ -104,6 +130,9 @@ const s = StyleSheet.create({
   section: { marginTop: 28, paddingTop: 20, borderTopWidth: 1, borderTopColor: "#00000014" },
   heading: { fontSize: 18, fontWeight: "800", color: "#7A1F1F" },
   intro: { fontSize: 13, color: "#000000aa", marginTop: 4, lineHeight: 18 },
+  score: { fontSize: 13, color: "#000000aa", marginTop: 6, lineHeight: 18 },
+  scoreLabel: { fontWeight: "700", color: "#000" },
+  ready: { fontWeight: "700", color: "#15803d" },
   // Rows run to the screen edges (the list has 16px side padding).
   bleed: { marginHorizontal: -16, marginTop: 12 },
   chipRow: { paddingHorizontal: 16, gap: 8 },
