@@ -13,6 +13,7 @@ import {
 import ExerciseBlock from "@/components/ExerciseBlock";
 import TapText from "@/components/TapText";
 import { SPANISH_LANG } from "@/lib/speech";
+import { updatePrefs } from "@/lib/learnerPrefs";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Placement">;
 
@@ -143,6 +144,20 @@ export default function PlacementTestScreen({ navigation }: Props) {
   return (
     <ScrollView ref={scrollRef} style={s.screen} contentContainerStyle={s.content} keyboardShouldPersistTaps="handled">
       <Text style={s.title}>Placement test</Text>
+      {/* A true beginner would only be guessing through 35 questions. */}
+      <View style={s.skipCard}>
+        <Text style={s.skipText}>Starting from zero? Skip the test.</Text>
+        <Pressable
+          style={s.skipBtn}
+          accessibilityRole="button"
+          onPress={() => {
+            void updatePrefs({ startLevel: "a1" });
+            navigation.navigate("LessonList", { moduleKey: "a1" });
+          }}
+        >
+          <Text style={s.skipBtnText}>Brand new to Spanish? Start at A1 →</Text>
+        </Pressable>
+      </View>
       <Text style={s.body}>
         35 questions spanning every level, from complete beginner to professional and academic mastery. Answer each
         one as best you can -- no time limit, and you&apos;ll see the explanation right after each question.
@@ -178,6 +193,18 @@ const s = StyleSheet.create({
   content: { padding: 20, paddingBottom: 48 },
   title: { fontSize: 24, fontWeight: "800", color: "#000", marginBottom: 10 },
   body: { fontSize: 15, lineHeight: 22, color: "#000000cc", marginBottom: 10 },
+  skipCard: {
+    borderWidth: 1,
+    borderColor: "#00000018",
+    borderRadius: 12,
+    padding: 14,
+    backgroundColor: "#fff",
+    marginBottom: 14,
+    gap: 10,
+  },
+  skipText: { fontSize: 14, color: "#000000cc" },
+  skipBtn: { alignSelf: "flex-start", backgroundColor: "#000", borderRadius: 10, paddingVertical: 10, paddingHorizontal: 14 },
+  skipBtnText: { color: "#fff", fontSize: 14, fontWeight: "700" },
   progress: { fontSize: 13, color: "#00000066", marginBottom: 16, marginTop: 4 },
   question: { marginBottom: 22 },
   card: {
