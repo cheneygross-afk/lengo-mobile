@@ -3991,7 +3991,7 @@ export const A2_STORIES: Story[] = [
     paragraphs: [
       "En octubre, el abuelo de Marina tuvo un problema de corazón y tuvo que quedarse en el hospital durante tres semanas. Marina tenía diez años y quería mucho a su abuelo. Todas las tardes, él la llevaba al parque y le contaba historias de cuando era marinero.",
       "La primera vez que Marina lo visitó en el hospital, se asustó un poco. Su abuelo estaba en una cama blanca, con cables y máquinas a su alrededor. Parecía más pequeño y cansado. Casi no hablaba.",
-      "Una enfermera muy simpática, que se llamaba Lorena, le explicó a Marina que su abuelo estaba mejorando, pero que estaba triste porque echaba de menos su casa y el mar. —Los pacientes se recuperan mejor cuando están contentos —le dijo.",
+      "Una enfermera muy simpática se llamaba Lorena. Ella le explicó a Marina que su abuelo estaba mejorando. Pero también estaba triste porque echaba de menos su casa y el mar. —Los pacientes se recuperan mejor cuando están contentos —le dijo.",
       "En casa, Marina pensó en cómo alegrar a su abuelo. Su abuelo siempre decía que no había nada mejor que el olor del mar y el sonido de las olas. Pero no podía llevarlo a la playa. Entonces tuvo una idea.",
       "El sábado, Marina fue a la playa con su madre. Grabó el sonido de las olas con el móvil durante media hora. Recogió conchas y una piedra lisa. Llenó un bote pequeño con arena y agua del mar. Luego, hizo un dibujo del barco de su abuelo.",
       "El domingo, llevó todo al hospital. Puso el dibujo en la pared, las conchas en la mesita y le dio a su abuelo el bote de agua de mar para oler. Luego, puso el sonido de las olas. El abuelo cerró los ojos y sonrió por primera vez en una semana.",
@@ -4010,7 +4010,7 @@ export const A2_STORIES: Story[] = [
         options: ["He missed his home and the sea", "The food was bad", "He was in pain", "Nobody visited him"],
         correctIndex: 0,
         explanation:
-          "\"Estaba triste porque echaba de menos su casa y el mar.\"",
+          "The nurse says: \"estaba triste porque echaba de menos su casa y el mar\" (he was sad because he missed his home and the sea).",
       },
       {
         question: "What did Marina record with her phone?",

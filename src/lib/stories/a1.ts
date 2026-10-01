@@ -351,11 +351,11 @@ export const A1_STORIES: Story[] = [
     subtitle:
       "A young girl searches everywhere for her missing teddy bear before bedtime.",
     paragraphs: [
-      "Camila tiene un osito de peluche llamado Café. Café duerme con ella todas las noches desde que era bebé. Una noche, antes de dormir, Camila no encuentra a Café. Ella busca en su cama, pero el osito no está.",
+      "Camila tiene un osito de peluche llamado Café. Café duerme con ella todas las noches. Una noche, antes de dormir, Camila no encuentra a Café. Ella busca en su cama, pero el osito no está.",
       "Camila empieza a preocuparse mucho. Busca debajo de la cama y detrás de la puerta. También busca en el armario entre su ropa. Café no aparece en ningún lugar de su cuarto.",
       "Camila llama a su mamá con voz triste. \"Mamá, no encuentro a Café\", dice ella casi llorando. Su mamá la abraza y le dice que van a buscar juntas. Las dos caminan por toda la casa con una linterna.",
-      "Primero, buscan en la sala y en la cocina. Después, buscan en el jardín porque Camila jugó allí por la tarde. Su mamá recuerda algo importante de repente. \"¿Jugaste con Café en el coche hoy?\" pregunta su mamá.",
-      "Camila recuerda que sí, llevó a Café al parque en el coche. Las dos salen rápido hacia el coche en el garaje. Su mamá abre la puerta y mira el asiento de atrás. ¡Allí está Café, esperando pacientemente!",
+      "Primero, buscan en la sala y en la cocina. Después, buscan en el jardín porque Camila juega allí todas las tardes. Su mamá recuerda algo importante de repente. \"¿Café está en el coche? ¡Siempre llevas a Café al parque!\", dice su mamá.",
+      "Camila recuerda que sí: Café siempre va con ella al parque en el coche. Las dos salen rápido hacia el coche en el garaje. Su mamá abre la puerta y mira el asiento de atrás. ¡Allí está Café, esperando pacientemente!",
       "Camila abraza fuerte a su osito y sonríe feliz. \"¡Nunca más te dejo solo!\" le dice al osito. Su mamá la lleva a la cama con mucho cuidado. Esa noche, Camila duerme profundamente con Café en sus brazos.",
     ],
     questions: [
@@ -2746,7 +2746,7 @@ export const A1_STORIES: Story[] = [
       "La sala es muy oscura y la pantalla es enorme. Mateo tiene un poco de miedo. Hugo le da la mano y le dice: \"Tranquilo, es solo una película.\"",
       "La película es sobre un oso que busca a su familia en el bosque. Es divertida y un poco triste también. En una parte, el oso llora y Mateo llora también. Tía Lola le da un pañuelo.",
       "Al final, el oso encuentra a su familia. Todos en la sala aplauden. Mateo aplaude muy fuerte y grita: \"¡Bravo, oso!\" Unas personas se ríen.",
-      "En la calle, tía Lola pregunta: \"¿Qué es lo mejor de la noche?\" Hugo dice: \"La película.\" Mateo piensa un momento y dice: \"Lo mejor es estar con ustedes.\" Tía Lola lo abraza.",
+      "En la calle, tía Lola pregunta: \"¿Qué es lo mejor de la noche?\" \"La película\", dice Hugo. Mateo piensa un momento. \"Lo mejor es estar con ustedes\", dice. Tía Lola lo abraza.",
     ],
     questions: [
       {

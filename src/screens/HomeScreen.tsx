@@ -162,7 +162,7 @@ export default function HomeScreen({ navigation }: Props) {
                 <Text style={styles.statLabel}>Today</Text>
                 <Text style={styles.statValue}>
                   {formatMinutes(summary.minutesToday)}
-                  <Text style={styles.statOf}> / {goal}m</Text>
+                  <Text style={styles.statOf}> / {formatMinutes(goal)}</Text>
                 </Text>
                 <View style={styles.bar}>
                   <View

@@ -7,7 +7,10 @@ import { toExercises } from "@/lib/stories/types";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
 import { langForLevelPath, readAloud, speechChunks, stopReadAloud } from "@/lib/speech";
-import { glossKey, glossLookup, storyGlosses } from "@/lib/stories/glosses";
+import { glossKey, glossLookup, storyGlosses, storyKeyWords } from "@/lib/stories/glosses";
+import TapText from "@/components/TapText";
+import { STORY_ENGLISH_STORAGE_KEY, showEnglishFor, storyEnglish } from "@/lib/stories/english";
+import { readJSON, writeJSON } from "@/lib/storage/asyncStore";
 import type { StoryGloss } from "@/lib/stories/types";
 import { useAuth } from "@/lib/auth/AuthContext";
 import { supabase } from "@/lib/supabase/client";
@@ -21,6 +24,7 @@ import { highlightMarkColor } from "@/lib/highlightColors";
 import { buildFlashcardEntry, loadFlashcards, makeFlashcardId, saveFlashcards } from "@/lib/flashcards/store";
 import { fetchTranslation } from "@/lib/translate/api";
 import { markStoryRead } from "@/lib/storiesRead";
+import { readinessLabel } from "@/lib/stories/pickStory";
 
 type Props = NativeStackScreenProps<AppStackParamList, "StoryReader">;
 
@@ -51,10 +55,35 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
   // shows in a card when tapped.
   const glosses = useMemo(() => (story ? storyGlosses(story.slug) : []), [story]);
   const lookup = useMemo(() => glossLookup(glosses), [glosses]);
+  // Pre-reading key vocabulary for A1/A2 stories (the website shows the same).
+  const keyWords = useMemo(
+    () => (story && (story.level === "A1" || story.level === "A2") ? storyKeyWords(story.paragraphs, glosses) : []),
+    [story, glosses]
+  );
   const chunks = useMemo(
     () => (story ? story.paragraphs.flatMap((p, pi) => speechChunks(p).map((text) => ({ text, pi }))) : []),
     [story]
   );
+  // "Show English" (A1/A2 stories with a translation): on by default at
+  // A1, off from A2 up, remembered per level on this device.
+  const english = useMemo(() => (story ? storyEnglish(story.slug, story.paragraphs.length) : null), [story]);
+  const [englishPrefs, setEnglishPrefs] = useState<Record<string, boolean> | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    readJSON<Record<string, boolean>>(STORY_ENGLISH_STORAGE_KEY, {}).then((p) => {
+      if (!cancelled) setEnglishPrefs(p);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+  const showEnglish = !!english && !!story && showEnglishFor(story.level, englishPrefs);
+  function toggleEnglish() {
+    if (!story) return;
+    const next = { ...(englishPrefs ?? {}), [story.level]: !showEnglish };
+    setEnglishPrefs(next);
+    void writeJSON(STORY_ENGLISH_STORAGE_KEY, next);
+  }
   const [playing, setPlaying] = useState<number | null>(null);
   const [shownGloss, setShownGloss] = useState<StoryGloss | null>(null);
   const [showWordList, setShowWordList] = useState(false);
@@ -214,7 +243,10 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
   return (
     <View style={s.container}>
       <ScrollView style={s.container} contentContainerStyle={s.content}>
-        <Text style={s.kicker}>{story.level} · Short story</Text>
+        <Text style={s.kicker}>
+          {story.level} · Short story
+          {readinessLabel(story.slug) ? ` · ${readinessLabel(story.slug)}` : ""}
+        </Text>
         <Text style={s.title}>{story.title}</Text>
         <Text style={s.subtitle}>{story.subtitle}</Text>
 
@@ -222,7 +254,30 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
           <Pressable style={s.listenButton} onPress={toggleListen} accessibilityRole="button">
             <Text style={s.listenButtonText}>{playing != null ? "■ Stop" : "▶ Listen to the story"}</Text>
           </Pressable>
+          {english ? (
+            <Pressable
+              style={s.listenButton}
+              onPress={toggleEnglish}
+              accessibilityRole="button"
+              accessibilityState={{ selected: showEnglish }}
+            >
+              <Text style={s.listenButtonText}>{showEnglish ? "Hide English" : "Show English"}</Text>
+            </Pressable>
+          ) : null}
         </View>
+
+        {keyWords.length > 0 && (
+          <View style={s.keyBox}>
+            <Text style={s.wordBoxTitle}>Key words in this story</Text>
+            {keyWords.map((g) => (
+              <Text key={g.es + g.forms.join()} style={s.wordRow}>
+                <TapText text={g.es} lang={langForLevelPath(levelPath)} mode="target" style={s.wordEs} />
+                <Text> · </Text>
+                <TapText text={g.en} lang="en-US" mode="english" />
+              </Text>
+            ))}
+          </View>
+        )}
 
         {glosses.length > 0 && (
           <View style={s.wordBox}>
@@ -264,6 +319,9 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
                   }}
                   onWordLongPress={saveLongPressedWord}
                 />
+                {showEnglish && english?.[i] ? (
+                  <TapText text={english[i]} lang="en-US" mode="english" style={s.english} />
+                ) : null}
                 <Pressable
                   onPress={() => listenFrom(i)}
                   accessibilityRole="button"
@@ -351,10 +409,12 @@ const s = StyleSheet.create({
   paragraphs: { gap: 12, marginBottom: 20 },
   playingParagraph: { backgroundColor: "#FDE68A99", borderRadius: 6, marginHorizontal: -6, paddingHorizontal: 6 },
   fromHere: { fontSize: 12, color: "#00000066", marginTop: 4 },
-  listenRow: { flexDirection: "row", marginBottom: 12 },
+  listenRow: { flexDirection: "row", flexWrap: "wrap", gap: 8, marginBottom: 12 },
+  english: { fontSize: 14, color: "#00000099", lineHeight: 20, marginTop: 4 },
   listenButton: { borderWidth: 1, borderColor: "#00000033", borderRadius: 999, paddingVertical: 8, paddingHorizontal: 16 },
   listenButtonText: { fontSize: 14, fontWeight: "600", color: "#000" },
   wordBox: { borderWidth: 1, borderColor: "#00000022", borderRadius: 12, padding: 12, marginBottom: 16, gap: 4 },
+  keyBox: { backgroundColor: "#fff", borderWidth: 1, borderColor: "#00000018", borderRadius: 12, padding: 12, marginBottom: 12, gap: 4 },
   wordBoxTitle: { fontSize: 14, fontWeight: "600", color: "#000" },
   wordHint: { fontSize: 12, color: "#00000080" },
   wordRow: { fontSize: 13, color: "#000000aa" },

@@ -1,6 +1,6 @@
 import type { Story } from "./types";
 import type { Reading } from "@/lib/readings/types";
-import { A1_STORIES } from "./a1";
+import { A1_STORIES_BY_EASE } from "./byLevel";
 import { A2_STORIES } from "./a2";
 import { B1_STORIES } from "./b1";
 import { B2_STORIES } from "./b2";
@@ -33,7 +33,8 @@ export const READING_LEVELS: ReadingLevel[] = [
     code: "A1",
     name: "Beginner",
     description: "Purpose-written and gently adapted books for brand-new readers.",
-    stories: A1_STORIES,
+    // Easiest first, like the website's /readings/a1.
+    stories: A1_STORIES_BY_EASE,
     readings: A1_READINGS,
   },
   {
