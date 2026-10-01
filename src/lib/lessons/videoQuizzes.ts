@@ -74,6 +74,1042 @@ export type VideoQuiz = {
 };
 
 export const VIDEO_QUIZZES: Record<string, VideoQuiz> = {
+  "3G5dIfIrQAE": {
+    questions: [
+      {
+        question: "What is the video mainly about?",
+        options: [
+          "Michelle's trip to visit her sister",
+          "Ten things Michelle has learned from living alone",
+          "How to cook a good pizza",
+          "Michelle's favourite TV shows",
+        ],
+        answerIndex: 1,
+        explanation:
+          "Early on Michelle says she lives alone, not with her parents or sister, and now knows 10 things about living alone.",
+        atSeconds: 64,
+      },
+      {
+        question: "Who does Michelle say she does NOT live with?",
+        options: [
+          "Her friends Luis and Ana",
+          "Her grandparents",
+          "Her parents or her sister",
+          "Her cat",
+        ],
+        answerIndex: 2,
+        explanation:
+          "At the start she explains she doesn't live at home with her parents or her sister.",
+        atSeconds: 57,
+      },
+      {
+        question:
+          "According to Michelle, if you cook and the food doesn't taste good, what happens?",
+        options: [
+          "You have to eat it anyway",
+          "You order a pizza",
+          "You throw it in the trash",
+          "You ask your mom to cook",
+        ],
+        answerIndex: 0,
+        explanation:
+          "In point 3 she says you are the chef, and if the food doesn't taste good, you have to eat it.",
+        atSeconds: 144,
+      },
+      {
+        question:
+          "When you live alone, what do you have to do if there is a spider?",
+        options: [
+          "Call your parents",
+          "Catch it yourself",
+          "Leave the house",
+          "Turn up the music",
+        ],
+        answerIndex: 1,
+        explanation:
+          "In point 5 she says you are a superhero: if there is a spider, you have to catch it.",
+        atSeconds: 220,
+      },
+      {
+        question:
+          "True or false: Michelle says that when you live alone, you are the king of the house.",
+        options: ["True", "False"],
+        answerIndex: 0,
+        explanation:
+          "Her last point, number 10, is that when you live alone you are 'el rey de la casa'.",
+        atSeconds: 385,
+      },
+    ],
+  },
+  "Iup1-H1ryes": {
+    questions: [
+      {
+        question: "What is the video mainly about?",
+        options: [
+          "How to order food in a Spanish restaurant",
+          "Good and bad manners in Spain",
+          "How to make friends in Spain",
+          "Spanish table vocabulary",
+        ],
+        answerIndex: 1,
+        explanation:
+          "At the very start the speaker says he will talk about things that are good and bad manners ('buena y mala educación') in Spain.",
+        atSeconds: 12,
+      },
+      {
+        question: "In a restaurant, when can you start eating?",
+        options: [
+          "As soon as your food arrives",
+          "After you pay the bill",
+          "When everyone has their food",
+          "After the waiter says so",
+        ],
+        answerIndex: 2,
+        explanation:
+          "Early on he says you must wait until everyone has food; eating without waiting for the others is bad manners.",
+        atSeconds: 98,
+      },
+      {
+        question: "What does the speaker say about leaving a tip in Spain?",
+        options: [
+          "You must always leave a big tip",
+          "It's fine not to leave a tip",
+          "Leaving a tip is bad manners",
+          "You leave a tip only in the elevator",
+        ],
+        answerIndex: 1,
+        explanation:
+          "In the middle he says you don't have to leave a tip; leaving 0% is fine and not bad manners.",
+        atSeconds: 143,
+      },
+      {
+        question:
+          "When two boys meet for the first time, what is good manners?",
+        options: [
+          "Kissing on the cheek",
+          "Saying nothing",
+          "Shaking hands",
+          "Making 'horns' with the hand",
+        ],
+        answerIndex: 2,
+        explanation:
+          "Later he says boys don't kiss when they meet; shaking hands ('darse la mano') is good manners.",
+        atSeconds: 222,
+      },
+      {
+        question:
+          "Which of these does the speaker say is bad manners in Spain?",
+        options: [
+          "Talking about money",
+          "Saying hello in the elevator",
+          "Kissing on the cheek when a boy and a girl meet",
+          "Not leaving a tip",
+        ],
+        answerIndex: 0,
+        explanation:
+          "Near the end he says talking about money ('hablar de dinero') is also bad manners.",
+        atSeconds: 253,
+      },
+    ],
+  },
+  S9WahQFFAw4: {
+    questions: [
+      {
+        question: "What is the video about?",
+        options: [
+          "A Mexican legend about a crying woman",
+          "A trip to a river in Spain",
+          "A Spanish knight's wedding party",
+          "A story about a rich family in Mexico City",
+        ],
+        answerIndex: 0,
+        explanation:
+          "He says he'll tell a legend from Mexico, the legend of 'la Llorona', a woman.",
+        atSeconds: 49,
+      },
+      {
+        question: "Who was the woman in love with?",
+        options: [
+          "A Mexican farmer",
+          "A Spanish knight",
+          "A rich merchant",
+          "A man from the river",
+        ],
+        answerIndex: 1,
+        explanation:
+          "Near the beginning of the story he says the indigenous woman was in love with a Spanish gentleman ('caballero español').",
+        atSeconds: 77,
+      },
+      {
+        question:
+          "Why didn't the knight want to tell everyone about their relationship?",
+        options: [
+          "He didn't love the woman",
+          "He was already married",
+          "He was afraid of what people would say",
+          "He wanted to go back to Spain",
+        ],
+        answerIndex: 2,
+        explanation:
+          "In the middle, the woman asks to tell everyone, but the knight was afraid that people would talk.",
+        atSeconds: 137,
+      },
+      {
+        question: "Who did the knight marry?",
+        options: [
+          "The indigenous woman",
+          "A rich woman",
+          "A woman from the river",
+          "Nobody",
+        ],
+        answerIndex: 1,
+        explanation:
+          "He left the woman and married a rich woman with a lot of money.",
+        atSeconds: 162,
+      },
+      {
+        question:
+          "According to the legend, what can you sometimes see at the river today?",
+        options: [
+          "Three children playing",
+          "A knight on a horse",
+          "A woman in a white dress looking for her children",
+          "A rich woman crying",
+        ],
+        answerIndex: 2,
+        explanation:
+          "At the end he says you can hear her crying and sometimes see a woman in a white dress searching for her children.",
+        atSeconds: 226,
+      },
+    ],
+  },
+  "K-RE7L1pyQs": {
+    questions: [
+      {
+        question: "What happens in the story overall?",
+        options: [
+          "Juan Parada looks for a new job all day",
+          "Juan Parada stops people working and then forgets about them",
+          "Juan Parada helps his neighbours clean the park",
+          "Juan Parada writes a book about how to work",
+        ],
+        answerIndex: 1,
+        explanation:
+          "Juan tells several workers they are doing it wrong, makes them wait while he goes for a book, then goes home, naps and forgets them all.",
+        atSeconds: 300,
+      },
+      {
+        question: "What time does Juan get up every day?",
+        options: ["At seven", "At nine", "At eleven", "At noon"],
+        answerIndex: 2,
+        explanation:
+          "At the beginning the narrator says Juan gets up at eleven in the morning, very late.",
+        atSeconds: 25,
+      },
+      {
+        question:
+          "What does Juan say he will go and get for the street sweeper?",
+        options: [
+          "A new broom",
+          "A book about how to sweep",
+          "A cup of coffee",
+          "His friend the gardener",
+        ],
+        answerIndex: 1,
+        explanation:
+          "He tells the sweeper to wait while he looks for a book on how to sweep.",
+        atSeconds: 105,
+      },
+      {
+        question: "What is the painter painting?",
+        options: ["A house", "A tree", "A park bench", "A car"],
+        answerIndex: 2,
+        explanation:
+          "In the middle of the story the painter is painting a bench in the park ('un banco del parque').",
+        atSeconds: 183,
+      },
+      {
+        question: "How does Juan feel when he gets home?",
+        options: [
+          "Very tired",
+          "Very happy",
+          "Hungry",
+          "Worried about the workers",
+        ],
+        answerIndex: 0,
+        explanation:
+          "At the end he arrives home and thinks he is very tired ('muy cansado'), so he takes a nap.",
+        atSeconds: 287,
+      },
+    ],
+  },
+  oYBl3CcVmZ4: {
+    questions: [
+      {
+        question: "What is the video mainly about?",
+        options: [
+          "Friends having breakfast together and talking about what they usually eat",
+          "A cooking class in Mallorca",
+          "A tour of Barcelona's cafés",
+          "How to make the perfect coffee",
+        ],
+        answerIndex: 0,
+        explanation:
+          "Before going out to film in Barcelona, the group meets at Juanjo's flat for breakfast and each person says what they usually have.",
+        atSeconds: 96,
+      },
+      {
+        question: "Where do they go to have breakfast?",
+        options: [
+          "To a café in Barcelona",
+          "To Juanjo's flat",
+          "To Harry's house",
+          "To a market",
+        ],
+        answerIndex: 1,
+        explanation:
+          "At the start they decide to go to Juanjo's flat ('al piso de Juanjo').",
+        atSeconds: 27,
+      },
+      {
+        question: "What is an 'ensaimada', according to the video?",
+        options: [
+          "A type of coffee maker",
+          "A fried egg dish",
+          "A typical pastry from Mallorca",
+          "A kind of tea",
+        ],
+        answerIndex: 2,
+        explanation:
+          "One person says she'll share an ensaimada and explains it is a typical pastry from Mallorca.",
+        atSeconds: 138,
+      },
+      {
+        question: "Which type of eggs does the speaker say are her favourite?",
+        options: ["Fried", "Scrambled", "Boiled", "Poached"],
+        answerIndex: 3,
+        explanation:
+          "She likes fried, scrambled and boiled eggs, but says her favourites are poached ('pochados').",
+        atSeconds: 207,
+      },
+      {
+        question:
+          "How does the last speaker usually start her day at breakfast?",
+        options: [
+          "With a cup of tea",
+          "With orange juice",
+          "With black coffee",
+          "With a croissant",
+        ],
+        answerIndex: 0,
+        explanation:
+          "Near the end she says she prefers tea and normally has a cup of tea for breakfast, then shows how to make it.",
+        atSeconds: 343,
+      },
+    ],
+  },
+  sQND3WdnIjg: {
+    questions: [
+      {
+        question: "What do the presenters do in this video?",
+        options: [
+          "They visit a market in Mexico City",
+          "They walk around the main campus of UNAM and describe what they see",
+          "They cook raspados at home",
+          "They take a bike tour of a park",
+        ],
+        answerIndex: 1,
+        explanation:
+          "At the start they say they are on the central campus of UNAM and will walk around to see some of its spaces.",
+        atSeconds: 15,
+      },
+      {
+        question: "What is the weather like today?",
+        options: ["Rainy and cold", "Cloudy", "Very sunny and hot", "Windy"],
+        answerIndex: 2,
+        explanation:
+          "Early on Baruch says it is very sunny and very hot, so he brought his sunglasses.",
+        atSeconds: 61,
+      },
+      {
+        question: "Why do families come to the university on this day?",
+        options: [
+          "Because it is Sunday and they come to relax",
+          "Because there is a concert",
+          "Because it is a school day",
+          "Because the shops are closed",
+        ],
+        answerIndex: 0,
+        explanation:
+          "Baruch says today is Sunday, and on Sundays families come to the university to relax.",
+        atSeconds: 116,
+      },
+      {
+        question: "What is Baruch's favourite raspado flavour?",
+        options: ["Lime", "Strawberry", "Mango", "Redcurrant (grosella)"],
+        answerIndex: 3,
+        explanation:
+          "Later he explains what a raspado is and says his favourite flavour is grosella; Juan prefers lime.",
+        atSeconds: 231,
+      },
+      {
+        question: "Why does Baruch move from the bike lane onto the grass?",
+        options: [
+          "Because walking in the bike lane breaks the rules",
+          "Because he wants to play football",
+          "Because the grass is cooler",
+          "Because a dog is in the lane",
+        ],
+        answerIndex: 0,
+        explanation:
+          "At the end he admits he is walking in the bike lane, says 'eso no se hace', that he is breaking the rules, and moves to the grass.",
+        atSeconds: 289,
+      },
+    ],
+  },
+  "F-hu-kxZ-xc": {
+    questions: [
+      {
+        question: "Where does this video take place?",
+        options: [
+          "In a bookshop",
+          "In a library",
+          "In a classroom",
+          "In a café",
+        ],
+        answerIndex: 1,
+        explanation:
+          "At the very start Baruch says he is in a library ('una biblioteca') and they explore it.",
+        atSeconds: 2,
+      },
+      {
+        question: "Why is Baruch speaking so quietly?",
+        options: [
+          "He has a sore throat",
+          "He is telling a secret",
+          "In libraries you speak quietly so you don't bother others",
+          "He is tired",
+        ],
+        answerIndex: 2,
+        explanation:
+          "He explains that in libraries people speak more quietly so as not to disturb others.",
+        atSeconds: 7,
+      },
+      {
+        question:
+          "Which of these is NOT one of the prohibition signs Baruch explains?",
+        options: [
+          "No running",
+          "No smoking",
+          "No food or drinks",
+          "No phones with sound",
+        ],
+        answerIndex: 0,
+        explanation:
+          "In the middle he explains signs for no loud talking, no smoking, no food or drinks and no phones with sound; there is no sign about running.",
+        atSeconds: 97,
+      },
+      {
+        question: "What are the young people in the study area doing?",
+        options: ["Eating", "Sleeping", "Studying", "Playing games"],
+        answerIndex: 2,
+        explanation:
+          "Baruch says the young people are studying ('están estudiando').",
+        atSeconds: 143,
+      },
+      {
+        question: "Why does Baruch think the library garden is empty?",
+        options: [
+          "Because it is raining",
+          "Because it is Sunday and students are at home with their families",
+          "Because the garden is closed",
+          "Because it is very late at night",
+        ],
+        answerIndex: 1,
+        explanation:
+          "Near the end he says it is probably empty because today is Sunday and students are at home with their families.",
+        atSeconds: 189,
+      },
+    ],
+  },
+  "82nmyWfWBYg": {
+    questions: [
+      {
+        question: "What does the presenter show in this video?",
+        options: [
+          "What is in his fridge",
+          "What is in his backpack",
+          "His favourite theatre",
+          "His university classroom",
+        ],
+        answerIndex: 1,
+        explanation:
+          "At the start he says he will show what is in his backpack ('mi mochila').",
+        atSeconds: 9,
+      },
+      {
+        question: "What does he use the notebook for?",
+        options: [
+          "To write down ideas that come to him in the street",
+          "To do his homework",
+          "To draw pictures",
+          "To write his shopping list",
+        ],
+        answerIndex: 0,
+        explanation:
+          "Early on he says the notebook is where he writes things that occur to him in the street, for inspiration.",
+        atSeconds: 45,
+      },
+      {
+        question: "Why does he carry a sweater?",
+        options: [
+          "Because it is raining",
+          "Because it's part of his costume",
+          "Because it gets cold at night",
+          "Because the library is cold",
+        ],
+        answerIndex: 2,
+        explanation:
+          "In the middle he says he brings a sweater because it is cold at night.",
+        atSeconds: 127,
+      },
+      {
+        question: "What is the CUEC, according to the presenter?",
+        options: [
+          "A theatre in the city centre",
+          "A kind of sandwich",
+          "UNAM's film school",
+          "A phone company",
+        ],
+        answerIndex: 2,
+        explanation:
+          "He shows a programme from a CUEC film showing and explains the CUEC is UNAM's film school.",
+        atSeconds: 198,
+      },
+      {
+        question: "What is the last item he takes out of his backpack?",
+        options: [
+          "His house keys",
+          "His wallet",
+          "A mint-flavoured spray",
+          "His phone charger",
+        ],
+        answerIndex: 2,
+        explanation:
+          "Near the end he says 'por último' and shows a spearmint ('hierbabuena') flavoured spray.",
+        atSeconds: 279,
+      },
+    ],
+  },
+  "4p4L31m8LXQ": {
+    questions: [
+      {
+        question: "What is the conversation mainly about?",
+        options: [
+          "Two friends showing each other what they bought at the supermarket",
+          "Two teachers planning a Spanish class",
+          "A cooking class about risotto",
+          "A trip to Asturias",
+        ],
+        answerIndex: 0,
+        explanation:
+          "David and Aida meet by chance, sit down and show each other the shopping they have just done.",
+        atSeconds: 25,
+      },
+      {
+        question: "Which ingredient does David's gazpacho NOT have?",
+        options: ["Tomato", "Pepper", "Cucumber", "Carrot"],
+        answerIndex: 3,
+        explanation:
+          "Early on David says his gazpacho has tomato, pepper and cucumber, but no carrot.",
+        atSeconds: 81,
+      },
+      {
+        question: "Why does Aida drink the energy drink only sometimes?",
+        options: [
+          "Because it is expensive",
+          "Because it has a lot of sugar",
+          "Because she doesn't like the taste",
+          "Because it makes her tired",
+        ],
+        answerIndex: 1,
+        explanation:
+          "She says she only drinks it sometimes because it has a lot of sugar.",
+        atSeconds: 179,
+      },
+      {
+        question:
+          "What does David want to make with the dried mushrooms and rice?",
+        options: ["Paella", "Hummus", "Risotto", "Fabada"],
+        answerIndex: 2,
+        explanation:
+          "Later Aida guesses that rice and mushrooms sound like risotto, and David confirms it.",
+        atSeconds: 487,
+      },
+      {
+        question: "Why does David say he teaches his Spanish classes online?",
+        options: [
+          "Because he eats a lot of garlic",
+          "Because he lives far away",
+          "Because it's cheaper",
+          "Because his students prefer it",
+        ],
+        answerIndex: 0,
+        explanation:
+          "Aida asks if he teaches after eating so much garlic, and he jokes that this is why he teaches online.",
+        atSeconds: 551,
+      },
+    ],
+  },
+  tFGq5P7Z69Q: {
+    questions: [
+      {
+        question: "What is the conversation mainly about?",
+        options: [
+          "Two friends catching up over coffee: Juanjo's holiday and Pau's news",
+          "Planning a trip to Barcelona together",
+          "How to make good coffee",
+          "A problem with traffic in Mexico City",
+        ],
+        answerIndex: 0,
+        explanation:
+          "Juanjo and Pau have a coffee before recording; he talks about his holiday and she shares her news about moving to Berlin.",
+        atSeconds: 19,
+      },
+      {
+        question: "Why is Juanjo happy that it is spring?",
+        options: [
+          "Because he can see the jacaranda trees",
+          "Because in Toluca it is very cold all year and now he can enjoy the sun",
+          "Because he has no allergies",
+          "Because he is on holiday",
+        ],
+        answerIndex: 1,
+        explanation:
+          "He says he's very happy because Toluca is cold all year, and now in spring he can enjoy the sun and outdoor activities.",
+        atSeconds: 186,
+      },
+      {
+        question: "What problem does Pau have in spring in Mexico City?",
+        options: [
+          "The pollen gives her allergies",
+          "The traffic is worse",
+          "It rains too much",
+          "The trees lose their flowers",
+        ],
+        answerIndex: 0,
+        explanation:
+          "She loves the purple-flowered trees but says there is a lot of pollen and it gives her allergies; she sneezed many times.",
+        atSeconds: 237,
+      },
+      {
+        question: "What did Juanjo learn to do on his holiday?",
+        options: ["Surf", "Skateboard", "Cook", "Speak German"],
+        answerIndex: 1,
+        explanation:
+          "After the break he says he learned something he always wanted to do: to ride a skateboard ('patinar en patineta').",
+        atSeconds: 382,
+      },
+      {
+        question: "How does Pau feel about leaving for Berlin?",
+        options: [
+          "Only excited",
+          "Only sad",
+          "Mixed feelings: sad to leave home but excited to study",
+          "Angry because she must leave her dog",
+        ],
+        answerIndex: 2,
+        explanation:
+          "Near the end she says she's a bit sad to leave her home but excited to study something she loves in Berlin: mixed feelings.",
+        atSeconds: 609,
+      },
+    ],
+  },
+  "2wlMlDON1rg": {
+    questions: [
+      {
+        question: "What do David and Aida talk about?",
+        options: [
+          "Their holidays abroad",
+          "Their hobbies",
+          "Their jobs",
+          "Their families",
+        ],
+        answerIndex: 1,
+        explanation:
+          "At the start David says they will talk slowly about hobbies ('las aficiones').",
+        atSeconds: 1,
+      },
+      {
+        question: "Why aren't David's neighbours very happy?",
+        options: [
+          "Because he plays the guitar and isn't a professional",
+          "Because he cooks late at night",
+          "Because he listens to loud podcasts",
+          "Because he plays football in the street",
+        ],
+        answerIndex: 0,
+        explanation:
+          "Early on he says he's played guitar for about six years but isn't a professional, so his neighbours aren't very happy.",
+        atSeconds: 54,
+      },
+      {
+        question: "How does Aida manage on days when she doesn't cook?",
+        options: [
+          "She eats at restaurants",
+          "She cooks bigger amounts and eats them over a couple of days",
+          "David cooks for her",
+          "She buys ready meals",
+        ],
+        answerIndex: 1,
+        explanation:
+          "She explains that when she cooks she makes larger dishes so she can eat for a couple of days.",
+        atSeconds: 192,
+      },
+      {
+        question: "What hobby would David like to start in the future?",
+        options: [
+          "Painting with watercolours",
+          "Learning Arabic",
+          "Dancing, like salsa and cumbia",
+          "Playing the clarinet",
+        ],
+        answerIndex: 2,
+        explanation:
+          "Later David says he'd like to learn to dance; he likes salsa and cumbia but has no rhythm and would like classes.",
+        atSeconds: 428,
+      },
+      {
+        question: "True or false: Aida says she is very good at surfing.",
+        options: ["True", "False"],
+        answerIndex: 1,
+        explanation:
+          "Near the end she says she only tried surfing a couple of times, for about two hours, and that's all.",
+        atSeconds: 602,
+      },
+    ],
+  },
+  "6_5FnCLLYoA": {
+    questions: [
+      {
+        question: "What is this lesson about?",
+        options: [
+          "Spanish verb conjugations",
+          "About 100 everyday expressions in Spanish",
+          "How to order food in Spanish",
+          "Spanish songs and music",
+        ],
+        answerIndex: 1,
+        explanation:
+          "At the start Anna says that in today's class you will learn 100 expressions you can use every day.",
+        atSeconds: 24,
+      },
+      {
+        question:
+          "According to Anna, what is the difference between 'ya voy' and 'ya me voy'?",
+        options: [
+          "'Ya voy' means 'I'm coming'; 'ya me voy' means 'I'm leaving'",
+          "They mean exactly the same",
+          "'Ya voy' is formal; 'ya me voy' is casual",
+          "'Ya voy' means 'I'm back'; 'ya me voy' means 'I'm late'",
+        ],
+        answerIndex: 0,
+        explanation:
+          "Early on she explains 'ya voy' is 'I'm coming / on my way' and 'ya me voy' is 'I'm leaving'.",
+        atSeconds: 234,
+      },
+      {
+        question:
+          "What does Anna say to herself when she decides not to buy something in a store?",
+        options: ["Lo dudo", "Mejor no", "Se acabó", "Ni idea"],
+        answerIndex: 1,
+        explanation:
+          "In the middle she describes almost buying something and changing her mind with 'mejor no' (better not).",
+        atSeconds: 729,
+      },
+      {
+        question:
+          "According to Anna, when do you use 'está caliente' instead of 'hace calor'?",
+        options: [
+          "For hot weather",
+          "For a hot drink like tea or coffee",
+          "For a person you like",
+          "For a spicy dish only",
+        ],
+        answerIndex: 1,
+        explanation:
+          "She says 'hace calor' is for the weather, while 'está caliente' is for something like your tea or coffee.",
+        atSeconds: 945,
+      },
+      {
+        question:
+          "Which form does Anna say is correct for 'I hope you are well'?",
+        options: [
+          "Espero que estás bien",
+          "Espero que estés bien",
+          "Espero que eres bien",
+          "Espero que estar bien",
+        ],
+        answerIndex: 1,
+        explanation:
+          "Later she warns that many learners say 'estás', but after 'espero que' you need 'estés', with an E.",
+        atSeconds: 1325,
+      },
+    ],
+  },
+  TfNAo3OWXkI: {
+    questions: [
+      {
+        question: "What is the story mainly about?",
+        options: [
+          "A boy who loses his bike in the snow",
+          "A magic red book that connects a boy in a city with a boy on an island",
+          "A teacher who draws maps on the board",
+          "A man who sells balloons on the beach",
+        ],
+        answerIndex: 1,
+        explanation:
+          "The boy finds a red book; inside he sees an island and another boy, who also finds a red book showing the city, and they see each other.",
+        atSeconds: 220,
+      },
+      {
+        question: "Where does the boy find the red book?",
+        options: [
+          "In the classroom",
+          "In the snow in the street",
+          "On the beach",
+          "Under a bus",
+        ],
+        answerIndex: 1,
+        explanation:
+          "Early on he is walking in the street in winter and suddenly sees something red in the snow.",
+        atSeconds: 145,
+      },
+      {
+        question: "What does the boy buy from the man in the street?",
+        options: ["A scarf", "A map", "Balloons", "A bicycle"],
+        answerIndex: 2,
+        explanation:
+          "In the middle, a man is selling balloons and the boy buys them with money.",
+        atSeconds: 415,
+      },
+      {
+        question:
+          "How does the boy on the beach feel when he sees the book fall?",
+        options: ["Very sad", "Very happy", "Angry", "Scared"],
+        answerIndex: 0,
+        explanation:
+          "Later, the boy on the beach sees the book fall and becomes very sad ('muy triste'), until his friend arrives.",
+        atSeconds: 493,
+      },
+      {
+        question: "Who finds the red book at the end?",
+        options: [
+          "The teacher",
+          "The balloon seller",
+          "A child on a bicycle",
+          "The boy's mother",
+        ],
+        answerIndex: 2,
+        explanation:
+          "At the end someone with a bicycle finds the book, puts it under his arm and rides away looking back.",
+        atSeconds: 561,
+      },
+    ],
+  },
+  "fdyEWiPFS-I": {
+    questions: [
+      {
+        question: "What happens in this story?",
+        options: [
+          "A girl gets into Harvard, expects parties like in the movies, and gets in trouble with the director",
+          "A girl fails her exams at Harvard",
+          "A girl organises a concert at her university",
+          "A girl loses her bag on the first day of classes",
+        ],
+        answerIndex: 0,
+        explanation:
+          "She receives an email accepting her to Harvard, packs things for parties, and on her first day the director tells her that is forbidden.",
+        atSeconds: 54,
+      },
+      {
+        question:
+          "How does the girl feel before she reads the email from Harvard?",
+        options: ["Bored", "Nervous", "Angry", "Sleepy"],
+        answerIndex: 1,
+        explanation:
+          "At the beginning, before reading the message, she says she is nervous ('estoy nerviosa').",
+        atSeconds: 46,
+      },
+      {
+        question: "Why does she pack a microphone?",
+        options: [
+          "To record her classes",
+          "To sing, because she thinks there is a lot of music at university",
+          "To give a speech",
+          "As a present for the director",
+        ],
+        answerIndex: 1,
+        explanation:
+          "While packing she says the microphone is for singing, because at university there is a lot of music.",
+        atSeconds: 117,
+      },
+      {
+        question: "Why does she pack make-up?",
+        options: [
+          "Because she wants to look beautiful for the handsome boys",
+          "Because it's for a friend",
+          "Because she will be in a play",
+          "Because the director asked her to",
+        ],
+        answerIndex: 0,
+        explanation:
+          "She says there are handsome boys there and she wants to look beautiful.",
+        atSeconds: 182,
+      },
+      {
+        question: "Who is the man she asks about the party?",
+        options: [
+          "Another student",
+          "A party DJ",
+          "The director",
+          "Her father",
+        ],
+        answerIndex: 2,
+        explanation:
+          "Near the end he says he is the director, that her items are forbidden, and tells her to come to his office.",
+        atSeconds: 322,
+      },
+    ],
+  },
+  b4ALAtrJVuw: {
+    questions: [
+      {
+        question: "What happens in the story?",
+        options: [
+          "A mother hires a babysitter who mixes up all her instructions",
+          "A mother takes her baby to a birthday party",
+          "A babysitter cooks dinner for a family",
+          "A friend helps a mother choose a dress",
+        ],
+        answerIndex: 0,
+        explanation:
+          "The mother goes to a party and hires Sara, who forgets where everything is and uses the wrong things, but the mother thinks she did well.",
+        atSeconds: 217,
+      },
+      {
+        question: "Why does the mother need a babysitter?",
+        options: [
+          "She has to go to work",
+          "She is going to her friend's birthday party",
+          "She is going to the doctor",
+          "She is going shopping",
+        ],
+        answerIndex: 1,
+        explanation:
+          "At the start she says she is going to a party today because it's her friend's birthday.",
+        atSeconds: 19,
+      },
+      {
+        question: "Why does the mother choose Sara?",
+        options: [
+          "Because Sara is her friend",
+          "Because Sara isn't dangerous and isn't expensive",
+          "Because Sara is the cheapest",
+          "Because Sara arrives very fast",
+        ],
+        answerIndex: 1,
+        explanation:
+          "She rejects one babysitter as too expensive and another as dangerous, then picks Sara because she isn't dangerous or expensive.",
+        atSeconds: 175,
+      },
+      {
+        question: "According to the mother's instructions, where is the milk?",
+        options: [
+          "In the bathroom",
+          "In the bedroom",
+          "In the kitchen",
+          "In her bag",
+        ],
+        answerIndex: 2,
+        explanation:
+          "She tells Sara the milk is in the kitchen, the dummy in the bedroom and the nappies in the bathroom.",
+        atSeconds: 228,
+      },
+      {
+        question: "What does Sara use instead of a nappy?",
+        options: ["A towel", "A shirt", "A blanket", "A bag"],
+        answerIndex: 1,
+        explanation:
+          "In the middle she can't find the nappies, so she uses a shirt; at the end the mother sees it is her shirt.",
+        atSeconds: 457,
+      },
+    ],
+  },
+  L71UG68wRMI: {
+    questions: [
+      {
+        question: "What happens in the story?",
+        options: [
+          "A girl wins tickets to see BTS",
+          "A girl gets money for a 'BTS' ticket, but it is for a different show",
+          "A girl starts her own band",
+          "A girl sells lemonade to her friends",
+        ],
+        answerIndex: 1,
+        explanation:
+          "She wants to see BTS but has no money; she finally gets money and buys a ticket, but it turns out 'BTS' means Bruno Torres Show.",
+        atSeconds: 391,
+      },
+      {
+        question: "What is the girl's problem at the beginning?",
+        options: [
+          "The concert is tomorrow and she has no money",
+          "She doesn't like BTS",
+          "She has lost her phone",
+          "She is ill",
+        ],
+        answerIndex: 0,
+        explanation:
+          "Early on she says the concert is tomorrow and she doesn't have any money.",
+        atSeconds: 62,
+      },
+      {
+        question: "Why does she decide not to sell lemonade?",
+        options: [
+          "She doesn't know how to make it",
+          "The ticket is expensive and there is no time",
+          "It's too cold",
+          "Her mother says no",
+        ],
+        answerIndex: 1,
+        explanation:
+          "She says the ticket isn't cheap, she'd have to sell a lot of lemonade and the concert is tomorrow, so she has no time.",
+        atSeconds: 103,
+      },
+      {
+        question: "What does she hold up when she tries to rob the man?",
+        options: ["A knife", "A phone", "A nail clipper", "A watch"],
+        answerIndex: 2,
+        explanation:
+          "In the middle the man points out that what she holds is a nail clipper ('un cortauñas'), not a knife.",
+        atSeconds: 280,
+      },
+      {
+        question: "How does she trick the man?",
+        options: [
+          "She says there's a kitten",
+          "She says she is a police officer",
+          "She calls her friends",
+          "She offers him a ticket",
+        ],
+        answerIndex: 0,
+        explanation:
+          "She tells him to look at a kitten ('un gatito'); when he looks, she calls him silly and runs off with money.",
+        atSeconds: 313,
+      },
+    ],
+  },
   KQ76zWZSmbg: {
     questions: [
       {
