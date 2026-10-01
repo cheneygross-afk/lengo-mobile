@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "e8adc21beed8882f74ed63735395271f659fc23f",
+  "commit": "ab509b91cd365c3b7674faf9a1a1fe22a5a59760",
   "files": {
     "src/lib/lessons/a1-additions.ts": "5e2de5cde5d685adaec5cd4c5c818ed420ecc224d408aeb2bf16fe5ed8321430",
     "src/lib/lessons/a1-reinforcement.ts": "99c5215b4e0e4254204b5202f632cee1a88643c71efb19e8070c26bb05871167",
@@ -38,7 +38,7 @@
     "src/lib/lessons/ja-b2.ts": "738c0ae471e6dedd6b378ef24cd0678f6e328fe2ced5b1053c71650829611b39",
     "src/lib/lessons/ja-c1.ts": "ab3d887ba48be54dd744c975580165d9227880b2e0fd2c5434c5b102eee0f830",
     "src/lib/lessons/ja-c2.ts": "9488818886da246527e78a4c93cdc236613b283291e805c44797147c2f07095f",
-    "src/lib/lessons/lessonVideos.ts": "ba5568e6f673d533ce5f6b9078681065bf7c41c2ed4f55a395eea24367405cf6",
+    "src/lib/lessons/lessonVideos.ts": "5a8cd012091560c97fc52a9ace3aa304899a0f8d45d2952c2e244849883a81da",
     "src/lib/lessons/levels.ts": "da6373c8bf59196b0b8a40b16405941bf7f44eefeeb32a63e2cfa99bed3b7369",
     "src/lib/lessons/sequencing.ts": "ddc7c01603e36e822d7eb62e6a32ae6e266b676e0d395f2a0d7319b22f1ca6d8",
     "src/lib/lessons/skills-a1.ts": "1c4c5f4f3f69edd01c2a544f2a425fedbfc488eb8255e0e2ad931dc58d5d5c46",
@@ -57,6 +57,7 @@
     "src/lib/lessons/translate-blanks.ts": "7ecde5bc67651fab36ec1cd58fcf9a83dd2f2a2fe87e0e6d5e1436e8e25fa96f",
     "src/lib/lessons/types.ts": "0884db2d69f24e09404b04127d1045735e3b1b3fc125c17d411e1ea1aa7f270e",
     "src/lib/lessons/units.ts": "b8db12a1b9b2de6c1cd3b61688f9b7317994e6b2c7905a45e609c0d4f60f3f29",
+    "src/lib/lessons/videoTopics.ts": "9b6feb41caf503213c710c65cfcba3549d0a39b00218e1edb465aac4b05a9769",
     "src/lib/lessons/weave.ts": "a738a84238c05e6d4d427d1afbef7ecbb3f683bc647d5d94def70e58546d3824",
     "src/lib/stories/a1-english.ts": "71164d4b9737b831b846e8f9da1e86752a26e5e669df24c01adf57b892cc87da",
     "src/lib/stories/a1-glosses.ts": "3e525d76dcd17aa6a344cab99236d4e07fbae625d306b8d3d7ae9caf67ec18d7",

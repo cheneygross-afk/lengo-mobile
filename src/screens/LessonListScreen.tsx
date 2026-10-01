@@ -10,6 +10,9 @@ import { displayTitle, firstIncompleteRequired, requiredLessons } from "@/lib/le
 import { isUnitLevelPath, unitsFor, type CourseUnit } from "@/lib/lessons/units";
 import { getPendingReviewBatch, type PendingReviewBatch } from "@/lib/lessons/reviewCadence";
 import { parseDurationMinutes, formatMinutes } from "@/lib/duration";
+import LevelWatchSection from "@/components/LevelWatchSection";
+import { LEVEL_WATCH_VIDEOS } from "@/lib/lessons/lessonVideos";
+import type { SpanishLevelPath } from "@/lib/lessons/levels";
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonList">;
 
@@ -144,6 +147,9 @@ export default function LessonListScreen({ navigation, route }: Props) {
         contentContainerStyle={styles.list}
         stickySectionHeadersEnabled={false}
         ListHeaderComponent={header}
+        ListFooterComponent={
+          moduleKey in LEVEL_WATCH_VIDEOS ? <LevelWatchSection levelPath={moduleKey as SpanishLevelPath} /> : null
+        }
         renderSectionHeader={({ section }) => {
           const unit = section.unit;
           if (!unit) {
