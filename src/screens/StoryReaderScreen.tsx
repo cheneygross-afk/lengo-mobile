@@ -9,6 +9,8 @@ import HighlightableText from "@/components/HighlightableText";
 import { langForLevelPath, readAloud, speechChunks, stopReadAloud } from "@/lib/speech";
 import { glossKey, glossLookup, storyGlosses, storyKeyWords } from "@/lib/stories/glosses";
 import TapText from "@/components/TapText";
+import { STORY_ENGLISH_STORAGE_KEY, showEnglishFor, storyEnglish } from "@/lib/stories/english";
+import { readJSON, writeJSON } from "@/lib/storage/asyncStore";
 import type { StoryGloss } from "@/lib/stories/types";
 import { useAuth } from "@/lib/auth/AuthContext";
 import { supabase } from "@/lib/supabase/client";
@@ -62,6 +64,26 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
     () => (story ? story.paragraphs.flatMap((p, pi) => speechChunks(p).map((text) => ({ text, pi }))) : []),
     [story]
   );
+  // "Show English" (A1/A2 stories with a translation): on by default at
+  // A1, off from A2 up, remembered per level on this device.
+  const english = useMemo(() => (story ? storyEnglish(story.slug, story.paragraphs.length) : null), [story]);
+  const [englishPrefs, setEnglishPrefs] = useState<Record<string, boolean> | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    readJSON<Record<string, boolean>>(STORY_ENGLISH_STORAGE_KEY, {}).then((p) => {
+      if (!cancelled) setEnglishPrefs(p);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+  const showEnglish = !!english && !!story && showEnglishFor(story.level, englishPrefs);
+  function toggleEnglish() {
+    if (!story) return;
+    const next = { ...(englishPrefs ?? {}), [story.level]: !showEnglish };
+    setEnglishPrefs(next);
+    void writeJSON(STORY_ENGLISH_STORAGE_KEY, next);
+  }
   const [playing, setPlaying] = useState<number | null>(null);
   const [shownGloss, setShownGloss] = useState<StoryGloss | null>(null);
   const [showWordList, setShowWordList] = useState(false);
@@ -232,6 +254,16 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
           <Pressable style={s.listenButton} onPress={toggleListen} accessibilityRole="button">
             <Text style={s.listenButtonText}>{playing != null ? "■ Stop" : "▶ Listen to the story"}</Text>
           </Pressable>
+          {english ? (
+            <Pressable
+              style={s.listenButton}
+              onPress={toggleEnglish}
+              accessibilityRole="button"
+              accessibilityState={{ selected: showEnglish }}
+            >
+              <Text style={s.listenButtonText}>{showEnglish ? "Hide English" : "Show English"}</Text>
+            </Pressable>
+          ) : null}
         </View>
 
         {keyWords.length > 0 && (
@@ -287,6 +319,9 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
                   }}
                   onWordLongPress={saveLongPressedWord}
                 />
+                {showEnglish && english?.[i] ? (
+                  <TapText text={english[i]} lang="en-US" mode="english" style={s.english} />
+                ) : null}
                 <Pressable
                   onPress={() => listenFrom(i)}
                   accessibilityRole="button"
@@ -374,7 +409,8 @@ const s = StyleSheet.create({
   paragraphs: { gap: 12, marginBottom: 20 },
   playingParagraph: { backgroundColor: "#FDE68A99", borderRadius: 6, marginHorizontal: -6, paddingHorizontal: 6 },
   fromHere: { fontSize: 12, color: "#00000066", marginTop: 4 },
-  listenRow: { flexDirection: "row", marginBottom: 12 },
+  listenRow: { flexDirection: "row", flexWrap: "wrap", gap: 8, marginBottom: 12 },
+  english: { fontSize: 14, color: "#00000099", lineHeight: 20, marginTop: 4 },
   listenButton: { borderWidth: 1, borderColor: "#00000033", borderRadius: 999, paddingVertical: 8, paddingHorizontal: 16 },
   listenButtonText: { fontSize: 14, fontWeight: "600", color: "#000" },
   wordBox: { borderWidth: 1, borderColor: "#00000022", borderRadius: 12, padding: 12, marginBottom: 16, gap: 4 },

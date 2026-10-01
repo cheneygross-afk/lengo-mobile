@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "7e35c124406ce47de2a88d48c8a5a4de3ff07cfa",
+  "commit": "2186478d102b25cc141d52e037a25e0828409b9d",
   "files": {
     "src/lib/lessons/a1-additions.ts": "5e2de5cde5d685adaec5cd4c5c818ed420ecc224d408aeb2bf16fe5ed8321430",
     "src/lib/lessons/a1-reinforcement.ts": "99c5215b4e0e4254204b5202f632cee1a88643c71efb19e8070c26bb05871167",
@@ -58,8 +58,10 @@
     "src/lib/lessons/types.ts": "0884db2d69f24e09404b04127d1045735e3b1b3fc125c17d411e1ea1aa7f270e",
     "src/lib/lessons/units.ts": "b8db12a1b9b2de6c1cd3b61688f9b7317994e6b2c7905a45e609c0d4f60f3f29",
     "src/lib/lessons/weave.ts": "a738a84238c05e6d4d427d1afbef7ecbb3f683bc647d5d94def70e58546d3824",
+    "src/lib/stories/a1-english.ts": "4a436da415dc7632723f1f37614036f981186007424e79c9789a69dc78a38250",
     "src/lib/stories/a1-glosses.ts": "3e525d76dcd17aa6a344cab99236d4e07fbae625d306b8d3d7ae9caf67ec18d7",
     "src/lib/stories/a1.ts": "a101895dde59dd59db133d7f12470b344e2bdd1bc7f7d7d937f877964e2e1a0f",
+    "src/lib/stories/a2-english.ts": "5c3b9b5bf77fe2851f72e80b8b2072ac8741e416c698f37eb14739f98347d814",
     "src/lib/stories/a2-glosses.ts": "f4c6f109f34cb0b79519075a374b48534eb09ae874df081900cab17f0f67d496",
     "src/lib/stories/a2.ts": "a195b6d9f87fc2f456cc5a64725c31156e82eba04f92601400b159a404ff7279",
     "src/lib/stories/b1-glosses.ts": "d29f12928d68165b8b124fa8abf51c654698719e01c50f7d787603e1aa8a0d5d",
@@ -69,6 +71,7 @@
     "src/lib/stories/byLevel.ts": "1978fcafd87a03fa197c44879eaba6b78750b3f8879c9faf2d34140fb47c8ad1",
     "src/lib/stories/c1c2-glosses.ts": "e8e86ea0701f24132105bbaaad1486ae0341ca5af239ee23916fd3a258b4c4a6",
     "src/lib/stories/c1c2.ts": "94ae4158edc98484a63ea9ed336e7f63970399e55a424d052eb31150b810c65d",
+    "src/lib/stories/english.ts": "c0ec6dc7550baaf56527df5c3c571dbd54ac780c466d3422fbfc5aea09af50b2",
     "src/lib/stories/glosses.ts": "c89a569d19729044af3edd5b34b7f0b5d626fb08e863e36ed6a453514a45e17a",
     "src/lib/stories/pickStory.ts": "4befbe7db6c9db253181b0654502488b5e219dc177559783c63ba49bf403cb49",
     "src/lib/stories/readiness.ts": "35bcf1caf418a56d891df2f2eedd15e979969b0423e5ce377d52d0d9b804a8e3",
