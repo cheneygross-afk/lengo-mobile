@@ -464,7 +464,7 @@ function Translate({
       {checked && !sourceIsTarget && (
         <View style={s.answerAudioRow}>
           <Text
-            style={[s.optionText, s.speakableSpan]}
+            style={[s.optionText, s.speakableSpan, s.shrinkText]}
             onPress={() => speak(exercise.answer, lang)}
           >
             {exercise.answer}
@@ -546,7 +546,7 @@ function WordOrder({
       {checked && (
         <View style={s.answerAudioRow}>
           <Text
-            style={[s.optionText, s.speakableSpan]}
+            style={[s.optionText, s.speakableSpan, s.shrinkText]}
             onPress={() => speak(correctSentence, lang)}
           >
             {correctSentence}
@@ -607,7 +607,7 @@ function Matching({
                 ]}
               >
                 <Text
-                  style={s.optionText}
+                  style={[s.optionText, s.shrinkText]}
                   onPress={(e) => {
                     // `left` is always target-language vocabulary (see
                     // lib/lessons/*.ts), already fully visible before a
@@ -637,7 +637,7 @@ function Matching({
               }}
               style={[s.matchPill, usedRights.has(right) && s.chipUsed]}
             >
-              <Text style={s.optionText}>{right}</Text>
+              <Text style={[s.optionText, s.shrinkText]}>{right}</Text>
             </Pressable>
           ))}
         </View>
@@ -692,6 +692,9 @@ const s = StyleSheet.create({
   optionCorrect: { borderColor: "#16a34a", backgroundColor: "#16a34a1a" },
   optionWrong: { borderColor: "#dc2626", backgroundColor: "#dc26261a" },
   optionText: { fontSize: 15, color: "#000" },
+  // Text inside a flexDirection: "row" parent doesn't shrink by default in
+  // React Native, so long answers would run past the row's edge.
+  shrinkText: { flexShrink: 1 },
   speakableSpan: { textDecorationLine: "underline", color: "#7A1F1F" },
   blankRow: { flexDirection: "row", flexWrap: "wrap", alignItems: "center", gap: 4 },
   blankText: { fontSize: 16, color: "#000" },
