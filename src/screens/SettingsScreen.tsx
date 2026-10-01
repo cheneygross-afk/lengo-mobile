@@ -450,9 +450,9 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
           the Study Tools screen. */}
       <View style={s.section}>
         <Text style={s.sectionTitle}>Your level</Text>
-        <Text style={s.sectionSub}>Not sure your starting level is right? Take the placement test again any time.</Text>
+        <Text style={s.sectionSub}>Not sure your Spanish level is right? Take the placement test again any time.</Text>
         <Pressable onPress={() => navigation.navigate("Placement")} style={s.placementLink}>
-          <Text style={s.placementLinkText}>Retake the placement test →</Text>
+          <Text style={s.placementLinkText}>Retake the Spanish placement test →</Text>
         </Pressable>
       </View>
 
