@@ -845,7 +845,7 @@ const s = StyleSheet.create({
   statPill: { backgroundColor: "#fff", borderWidth: 1, borderColor: "#00000012", borderRadius: 12, paddingVertical: 10, paddingHorizontal: 18, alignItems: "center" },
   statNum: { fontSize: 18, fontWeight: "800", color: "#7A1F1F" },
   statLabel: { fontSize: 11, color: "#00000066", textTransform: "uppercase", marginTop: 2 },
-  secondaryRow: { flexDirection: "row", gap: 10, marginBottom: 4 },
+  secondaryRow: { flexDirection: "row", flexWrap: "wrap", justifyContent: "center", gap: 10, marginBottom: 4 },
   secondaryBtn: {
     borderWidth: 1.5,
     borderColor: "#7A1F1F",
