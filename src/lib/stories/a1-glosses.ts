@@ -225,8 +225,6 @@ export const A1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "el brazo", en: "arm", forms: ["brazos"] },
     { es: "casi", en: "almost", forms: ["casi"] },
     { es: "dejar", en: "to leave", forms: ["dejo"] },
-    { es: "desde", en: "since", forms: ["desde"] },
-    { es: "ser", en: "to be", forms: ["era"] },
     { es: "esperar", en: "to wait", forms: ["esperando"] },
     { es: "hacia", en: "toward", forms: ["hacia"] },
     { es: "la linterna", en: "flashlight", forms: ["linterna"] },
@@ -1389,6 +1387,7 @@ export const A1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "sonreír", en: "to smile", forms: ["sonríe"] },
   ],
   "the-yellow-butterfly": [
+    { es: "la mariposa", en: "butterfly", forms: ["mariposa"] },
     { es: "el frasco", en: "jar", forms: ["frasco"] },
     { es: "el insecto", en: "insect", forms: ["insecto", "insectos"] },
     { es: "volar", en: "to fly", forms: ["vuela"] },
