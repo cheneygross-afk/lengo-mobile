@@ -22,8 +22,8 @@ import LessonVideoLink from "@/components/LessonVideoLink";
 import TapText from "@/components/TapText";
 import { langForLevel, langForLevelPath, ENGLISH_LANG } from "@/lib/speech";
 import { markLessonCompleted } from "@/lib/lessons/completion";
-import { recordStudyActivity } from "@/lib/streak";
-import { addStudyMinutes } from "@/lib/learnerPrefs";
+import { creditStudy } from "@/lib/studyDays";
+import { scheduleLessonForReview } from "@/lib/todaysReview";
 import { parseDurationMinutes } from "@/lib/duration";
 import { addToReview } from "@/lib/lessons/review";
 import {
@@ -312,8 +312,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     await recordMissedQuestionReviews(levelPath, poolResults);
     // Finishing a lesson, passed or not, counts as studying today: the
     // streak, and the lesson's length toward the daily goal.
-    await recordStudyActivity();
-    await addStudyMinutes(parseDurationMinutes(lesson.duration));
+    await creditStudy(parseDurationMinutes(lesson.duration), { counts: true });
     // Each question is answered once per run, so this is the first-try
     // score. Below the pass mark the lesson isn't marked complete.
     if (!lessonPassed(correctCount, questionCount)) {
@@ -321,6 +320,9 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       return;
     }
     const { wasAlreadyDone } = await markLessonCompleted(levelPath, lesson.slug, lesson.number);
+    // Into the daily review mix, so this lesson's grammar comes back in a
+    // few days and then at longer and longer gaps.
+    await scheduleLessonForReview(levelPath, lesson.slug);
     if (!wasAlreadyDone) {
       const examples = lesson.sections.flatMap((sec) => sec.examples ?? []);
       if (examples.length > 0) {

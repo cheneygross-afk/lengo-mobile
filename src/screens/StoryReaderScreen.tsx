@@ -24,6 +24,9 @@ import { highlightMarkColor } from "@/lib/highlightColors";
 import { buildFlashcardEntry, loadFlashcards, makeFlashcardId, saveFlashcards } from "@/lib/flashcards/store";
 import { fetchTranslation } from "@/lib/translate/api";
 import { markStoryRead } from "@/lib/storiesRead";
+import { creditStudyOnce, type CreditResult } from "@/lib/studyDays";
+import { storyMinutes } from "@/lib/studyCredit";
+import StudyCreditNote from "@/components/StudyCreditNote";
 import { readinessLabel } from "@/lib/stories/pickStory";
 
 type Props = NativeStackScreenProps<AppStackParamList, "StoryReader">;
@@ -121,8 +124,23 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
 
   // Finishing the comprehension check counts as reading the story, so the
   // end of a lesson stops suggesting it (see LessonNextSteps).
+  // It also counts the day toward the streak, and the story's reading
+  // time (its words at the level's reading speed, plus the questions)
+  // toward today's goal -- once a day per story.
+  const [credit, setCredit] = useState<CreditResult | null>(null);
   useEffect(() => {
-    if (allAnswered && story) void markStoryRead(story.slug);
+    if (!allAnswered || !story) return;
+    void markStoryRead(story.slug);
+    let cancelled = false;
+    void creditStudyOnce(`story:${story.slug}`, storyMinutes(story.paragraphs, story.level, exercises.length), {
+      counts: true,
+    }).then((r) => {
+      if (!cancelled) setCredit(r);
+    });
+    return () => {
+      cancelled = true;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [allAnswered, story?.slug]);
 
   // Long-pressing a word saves it to Flashcards, filed under this story the
@@ -357,6 +375,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
             <Text style={s.doneBody}>
               You got {correctCount} of {exercises.length} right.
             </Text>
+            <StudyCreditNote result={credit} />
             <Pressable
               style={s.nextButton}
               onPress={() =>
