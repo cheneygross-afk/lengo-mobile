@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "0196439513407031e3b4aefb563bb878ef328c98",
+  "commit": "fb94b1917f5c14181766f3feb01a056f0a9401a3",
   "files": {
     "src/lib/lessons/a1-additions.ts": "5e2de5cde5d685adaec5cd4c5c818ed420ecc224d408aeb2bf16fe5ed8321430",
     "src/lib/lessons/a1-reinforcement.ts": "99c5215b4e0e4254204b5202f632cee1a88643c71efb19e8070c26bb05871167",
@@ -134,6 +134,6 @@
     "src/lib/exams/index.ts": "21d5491193ccc2d857e55fe480ac1cf7f8e090813ff6ae4c07f9f1b1bf4ef70c",
     "src/lib/exams/scoring.ts": "ef559927fa7794845005d6728e97df99609adb3e57b34f55f2069cf4b076ca6f",
     "src/lib/exams/types.ts": "4534b7b47f2a7c419f16fed8d78a27e9e212eda9eeb5d8bfb595403b863092d9",
-    "src/lib/placementTest.ts": "8e67bf609a107457deeb4cc4ad25c2e6e1ab567bb665d9b57a3d74e23bfeb449"
+    "src/lib/placementTest.ts": "4ee83e8e88eaa05fc75eb25b2002cb9ca439b7b073fa69fc6dc8b4e010a14b23"
   }
 }
