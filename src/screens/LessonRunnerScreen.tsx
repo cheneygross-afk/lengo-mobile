@@ -15,6 +15,7 @@ import LessonNextSteps from "@/components/LessonNextSteps";
 import type { Exercise, Lesson } from "@/lib/lessons/types";
 import { displayTitle } from "@/lib/lessons/levels";
 import { unitOf } from "@/lib/lessons/units";
+import { LEVEL_EXIT_SLUGS } from "@/lib/lessons/sequencing";
 import { authoredQuestions, buildReviewQuestions } from "@/lib/lessons/drill";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
@@ -49,6 +50,8 @@ import { setListenFirst, useListenFirst } from "@/lib/listenFirstPref";
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonRunner">;
 
+const LEVEL_TEST_SLUGS = new Set<string>(Object.values(LEVEL_EXIT_SLUGS));
+
 const MIN_DRILL_QUESTIONS = 15;
 
 // Screen 4's lesson player, section by section like the website's
@@ -70,6 +73,9 @@ type Step =
       source: QuestionSource;
       // Set on review questions drawn from earlier lessons.
       review?: { fromMissedPool: boolean };
+      // A level test's reading question: the text it asks about, shown
+      // above the question since the text has its own screen.
+      passage?: string[];
     }
   | { kind: "complete" };
 
@@ -131,18 +137,23 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     // authoredQuestions() order (see missedQuestions.ts).
     let q = 0;
     let authored = 0;
-    const pushOwn = (exercise: Exercise) => {
+    const pushOwn = (exercise: Exercise, passage?: string[]) => {
       const index = authored++;
       if (skipExercise(exercise)) return;
-      out.push({ kind: "exercise", exercise, id: `${lesson.slug}#${index}`, key: `q-${index}`, number: q + 1, source: own });
+      out.push({ kind: "exercise", exercise, id: `${lesson.slug}#${index}`, key: `q-${index}`, number: q + 1, source: own, passage });
       q++;
     };
     if (lesson.sections.length === 0) out.push({ kind: "teach", sectionIndex: null, first: true });
     lesson.sections.forEach((section, si) => {
       out.push({ kind: "teach", sectionIndex: si, first: si === 0 });
-      section.checkpoint?.forEach(pushOwn);
+      // Level tests (level-tests.ts): a reading text's questions show the text.
+      const passage =
+        LEVEL_TEST_SLUGS.has(lesson.slug) && section.body.length > 1 && section.checkpoint?.every((e) => e.type === "multiple-choice")
+          ? section.body.slice(1)
+          : undefined;
+      section.checkpoint?.forEach((e) => pushOwn(e, passage));
     });
-    lesson.exercises.forEach(pushOwn);
+    lesson.exercises.forEach((e) => pushOwn(e));
     const trackLessons = LESSON_SOURCES[moduleKeyForLesson(lesson)].lessons;
     const review = buildReviewQuestions(
       lesson,
@@ -445,6 +456,13 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
               Question {currentStep.number} of {questionCount}
               {currentStep.review ? ` · Review from lesson ${currentStep.source.number}` : ""}
             </Text>
+            {currentStep.passage && (
+              <View style={s.passage}>
+                {currentStep.passage.map((p, pi) => (
+                  <TapText key={pi} text={p} lang={lang} style={s.passageText} />
+                ))}
+              </View>
+            )}
             <ExerciseBlock
               key={currentStep.key}
               exercise={currentStep.exercise}
@@ -748,6 +766,8 @@ function CompleteStep({
 }
 
 const s = StyleSheet.create({
+  passage: { borderWidth: 1, borderColor: "#00000018", borderRadius: 10, padding: 12, backgroundColor: "#fff", marginBottom: 14, gap: 8 },
+  passageText: { fontSize: 15, lineHeight: 22, color: "#000000dd" },
   screen: { flex: 1, backgroundColor: "#FAF6F1", overflow: "hidden" },
   center: { flex: 1, alignItems: "center", justifyContent: "center" },
   topbar: { flexDirection: "row", alignItems: "center", gap: 12, paddingHorizontal: 18, paddingTop: 8, paddingBottom: 12 },
