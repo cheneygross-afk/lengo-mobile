@@ -235,6 +235,7 @@ export default function LessonListScreen({ navigation, route }: Props) {
                 <Text style={styles.rowTitle}>{titles.get(lesson.slug)}</Text>
                 <Text style={styles.rowSummary} numberOfLines={2}>
                   {lesson.optional ? "Optional · " : ""}
+                  {lesson.unitReview ? "Unit review · " : ""}
                   {lesson.summary}
                 </Text>
               </View>
