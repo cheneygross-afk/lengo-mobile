@@ -1,44 +1,52 @@
 // Synced from cheneygross-afk/lengo:src/lib/stories/a2.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Story } from "./types";
+import { A2_NONFICTION } from "./nonfiction-a2";
 
-export const A2_STORIES: Story[] = [
+const A2_FICTION: Story[] = [
   {
     slug: "first-day-new-school",
     level: "A2",
-    title: "El primer día en la escuela nueva",
+    title: "El primer día en la oficina nueva",
     subtitle:
-      "A girl who just moved to a new city feels nervous on her first day, until a classmate who loves drawing sits with her at recess.",
+      "Laura moves to Valencia for a new job and feels lost on her first day, until a coworker who loves drawing sits with her at lunch.",
     paragraphs: [
-      "Marta se despierta muy temprano. Hoy es su primer día en la escuela nueva. Su familia se mudó a una ciudad diferente el mes pasado, y Marta todavía no conoce a nadie. Ella está nerviosa y no quiere desayunar.",
-      "Su mamá la lleva a la escuela en carro. Durante el viaje, Marta mira por la ventana y piensa en su escuela antigua. Allí tenía muchos amigos y conocía todos los pasillos. Ahora todo es nuevo y diferente.",
-      "Cuando Marta entra en la clase, todos los estudiantes la miran. La profesora, la señora López, le sonríe y dice: \"Clase, esta es Marta. Es nueva en la escuela.\" Marta se sienta en una silla vacía cerca de la ventana.",
-      "En el recreo, Marta come sola en el patio. De repente, un chico se acerca. Se llama Diego y tiene una carpeta llena de dibujos. \"¿Puedo sentarme aquí?\", pregunta. Marta dice que sí y le muestra su propio cuaderno de dibujos.",
-      "Diego mira los dibujos de Marta y dice: \"¡Son fantásticos! ¿Te gusta dibujar animales?\" Marta sonríe por primera vez ese día. Los dos hablan sobre sus dibujos favoritos y descubren que a ambos les gusta el arte.",
-      "Después del recreo, Diego invita a Marta a sentarse con su grupo de amigos en el almuerzo. Marta conoce a otros tres estudiantes: Ana, Pablo y Sofía. Todos son simpáticos y hacen muchas preguntas sobre su ciudad antigua.",
-      "Al final del día, Marta camina hacia el carro de su mamá con una sonrisa grande. \"¿Cómo estuvo tu primer día?\", pregunta su mamá. \"Fue difícil por la mañana, pero ahora tengo nuevos amigos,\" responde Marta. \"Se llaman Diego, Ana, Pablo y Sofía.\"",
-      "Esa noche, Marta escribe en su diario sobre su nuevo amigo Diego y sus dibujos. Piensa que quizás la escuela nueva no es tan mala. Mañana va a llevar más dibujos para mostrarle a Diego y a sus nuevos amigos.",
+      "Laura tenía veintiocho años cuando se mudó de Salamanca a Valencia por un trabajo nuevo. Era diseñadora y la contrataron en una pequeña empresa de publicidad cerca del puerto. No conocía a nadie en la ciudad.",
+      "El primer día se levantó a las seis, aunque empezaba a las nueve. Se probó tres camisas diferentes y al final eligió la azul. En el metro repasó los nombres de sus nuevos jefes en el móvil.",
+      "En la oficina, todo era rápido y ruidoso. Los compañeros hablaban de clientes y de reuniones que ella no entendía. Alguien le dio un ordenador, una contraseña y una lista de tareas, y luego desapareció.",
+      "A las dos, todos salieron a comer en grupos. Laura se quedó sola en su mesa con un sándwich que había comprado en la estación. Se sentía tonta y un poco triste. Pensó en sus amigos de Salamanca.",
+      "Entonces una mujer de unos cuarenta años se sentó a su lado. Se llamaba Pilar y trabajaba en el departamento de ilustración. Llevaba un cuaderno lleno de dibujos de gatos con corbata.",
+      "—¿Te gustan? —preguntó Pilar—. Los hago en las reuniones aburridas. Por eso tengo tantos.",
+      "Laura se rio por primera vez en todo el día. Le enseñó a Pilar los dibujos de su propio cuaderno: edificios, plantas y caras de gente en el tren. Hablaron de dibujo, de películas y de los mejores bares del barrio.",
+      "Al final del día, Pilar le escribió en un papel el nombre de un café. «Los viernes vamos allí después del trabajo. Ven», le dijo. Esa noche, en su piso casi vacío, Laura dibujó un gato con corbata y sonrió.",
     ],
     questions: [
       {
-        question: "What does Marta not want to do because she is nervous?",
-        options: ["Talk to her mom", "Eat breakfast", "Wear her uniform", "Take the bus"],
+        question: "Why did Laura move to Valencia?",
+        options: ["To study", "For a new job", "To live with her family", "For a holiday"],
         correctIndex: 1,
         explanation:
-          "The text says \"Ella está nerviosa y no quiere desayunar\" — she is nervous and doesn't want to eat breakfast.",
+          "\"Se mudó de Salamanca a Valencia por un trabajo nuevo.\"",
       },
       {
-        question: "Who approaches Marta at recess?",
-        options: ["Her teacher", "A boy named Diego", "Her mom", "A girl named Ana"],
+        question: "What did Laura do at lunchtime?",
+        options: ["She went out with her boss", "She stayed alone at her desk with a sandwich", "She went home", "She called a client"],
         correctIndex: 1,
         explanation:
-          "\"un chico se acerca. Se llama Diego\" — a boy named Diego approaches her.",
+          "\"Laura se quedó sola en su mesa con un sándwich.\"",
       },
       {
-        question: "What do Marta and Diego discover they have in common?",
-        options: ["They both play soccer", "They both like drawing", "They both are new students", "They both live nearby"],
+        question: "What was in Pilar's notebook?",
+        options: ["Phone numbers", "Drawings of cats wearing ties", "A list of tasks", "Photos of Valencia"],
         correctIndex: 1,
         explanation:
-          "They talk about their drawings and \"descubren que a ambos les gusta el arte\" — they discover they both like art.",
+          "\"Llevaba un cuaderno lleno de dibujos de gatos con corbata.\"",
+      },
+      {
+        question: "What did Pilar give Laura at the end of the day?",
+        options: ["A new password", "The name of a café where they go on Fridays", "A drawing of a cat", "A sandwich"],
+        correctIndex: 1,
+        explanation:
+          "\"Pilar le escribió en un papel el nombre de un café. «Los viernes vamos allí después del trabajo.»\"",
       },
     ],
   },
@@ -1275,47 +1283,46 @@ export const A2_STORIES: Story[] = [
   {
     slug: "el-diente-flojo",
     level: "A2",
-    title: "El diente flojo",
+    title: "La muela del juicio",
     subtitle:
-      "A boy is nervous about his first loose tooth and eventually visits the dentist to have it removed.",
+      "Óscar has been avoiding the dentist for months, until a wisdom tooth makes the decision for him.",
     paragraphs: [
-      "Un día en la escuela, Andrés sintió algo raro cuando comió una manzana. Uno de sus dientes de abajo se movía un poco. Se tocó el diente con la lengua durante toda la clase.",
-      "Cuando llegó a casa, le contó a su mamá sobre el diente flojo. Ella se lo miró con cuidado y le dijo que era normal a su edad. \"Vas a perder varios dientes este año,\" le explicó con una sonrisa.",
-      "Andrés tenía un poco de miedo de que le doliera mucho al caerse el diente. Su hermana mayor le dijo que a ella no le dolió nada cuando perdió los suyos. Aun así, Andrés estaba nervioso.",
-      "Durante una semana, el diente se movió cada vez más. Andrés comía con mucho cuidado para no tocarlo. Por las noches, jugaba con el diente con la lengua sin querer.",
-      "Como el diente no se caía solo, sus papás decidieron llevarlo al dentista. En el consultorio, la dentista lo examinó y le dijo que el diente ya estaba muy flojo. \"Esto no va a doler,\" le prometió.",
-      "La dentista puso un poco de algodón y sacó el diente rápidamente. Andrés sintió solo una pequeña molestia, nada del otro mundo. Se sorprendió de lo fácil que fue todo.",
-      "Esa noche, Andrés puso el diente debajo de la almohada, como le contó su abuela. Por la mañana, encontró una moneda en su lugar. Se puso muy contento con la sorpresa.",
-      "Ahora, Andrés ya no tiene miedo de perder dientes. Cada vez que siente uno flojo, se lo muestra a su mamá con orgullo. Sabe que pronto tendrá una sonrisa completamente nueva.",
+      "Óscar tenía treinta y cinco años y tenía miedo del dentista. No iba desde hacía cuatro años. Cuando le dolía un poco la boca, tomaba una pastilla y no pensaba más en eso.",
+      "Pero un lunes por la mañana, en el trabajo, empezó a dolerle mucho una muela del fondo. No podía beber café ni concentrarse en sus correos. Su compañera Elena lo miró y le dijo: «Tienes la cara hinchada».",
+      "Elena le dio el teléfono de su dentista. Óscar llamó y la recepcionista le dijo que tenía una cita libre esa misma tarde, a las cinco. Óscar quería decir que no, pero le dolía demasiado.",
+      "En la clínica, la dentista, la doctora Ramos, le hizo una radiografía. «Es una muela del juicio», le explicó. «No tiene espacio y está empujando a las otras. Hay que sacarla.»",
+      "Óscar se puso pálido. La doctora le explicó todo con calma: primero la anestesia, después un poco de presión, y nada de dolor. Puso música tranquila y le dio una pelota pequeña para apretar con la mano.",
+      "Todo terminó en veinte minutos. Óscar no sintió casi nada. La doctora le dio la muela en una caja pequeña, como recuerdo, y le explicó que durante tres días solo podía comer cosas blandas.",
+      "Esa semana, Óscar comió sopa, yogur y puré. El viernes llevó la caja a la oficina y se la enseñó a Elena. «Gracias», le dijo. «Y ya tengo la próxima cita: una limpieza, en seis meses.»",
     ],
     questions: [
       {
-        question: "What did Andrés first notice while eating an apple?",
-        options: ["A stomachache", "A loose tooth", "A sore throat", "A cut on his lip"],
-        correctIndex: 1,
+        question: "How long had Óscar not been to the dentist?",
+        options: ["Six months", "One year", "Four years", "Ten years"],
+        correctIndex: 2,
         explanation:
-          "\"Uno de sus dientes de abajo se movía un poco\" means one of his bottom teeth was a little loose.",
+          "\"No iba desde hacía cuatro años.\"",
       },
       {
-        question: "Who told Andrés that losing teeth didn't hurt?",
-        options: ["His mom", "His older sister", "The dentist", "His teacher"],
+        question: "Who gave him the dentist's phone number?",
+        options: ["His mother", "His coworker Elena", "His doctor", "A receptionist"],
         correctIndex: 1,
         explanation:
-          "\"Su hermana mayor le dijo que a ella no le dolió nada cuando perdió los suyos\" means his older sister told him it didn't hurt her at all when she lost her own teeth.",
+          "\"Elena le dio el teléfono de su dentista.\"",
       },
       {
-        question: "What did the dentist do?",
-        options: ["Filled a cavity", "Removed the loose tooth quickly", "Gave him braces", "Just cleaned his teeth"],
-        correctIndex: 1,
+        question: "What did the dentist give him to hold?",
+        options: ["A small ball to squeeze", "His phone", "A glass of water", "A magazine"],
+        correctIndex: 0,
         explanation:
-          "\"La dentista puso un poco de algodón y sacó el diente rápidamente\" means the dentist put some cotton and pulled the tooth quickly.",
+          "\"Le dio una pelota pequeña para apretar con la mano.\"",
       },
       {
-        question: "What did Andrés find under his pillow the next morning?",
-        options: ["A note", "A coin", "A toy", "Candy"],
-        correctIndex: 1,
+        question: "What could he eat for three days?",
+        options: ["Only soft food", "Nothing", "Anything he wanted", "Only fruit"],
+        correctIndex: 0,
         explanation:
-          "\"Por la mañana, encontró una moneda en su lugar\" means in the morning he found a coin in its place.",
+          "\"Durante tres días solo podía comer cosas blandas.\"",
       },
     ],
   },
@@ -1745,92 +1752,92 @@ export const A2_STORIES: Story[] = [
   {
     slug: "el-concurso-de-ortografia",
     level: "A2",
-    title: "El concurso de ortografía",
+    title: "El concurso de fotografía",
     subtitle:
-      "A girl practices hard for the school spelling bee and wins second place.",
+      "A nurse who takes photos on her days off enters the city photography contest.",
     paragraphs: [
-      "Valeria estaba en cuarto grado. Le gustaba mucho leer libros y aprender palabras nuevas. Un día, la maestra anunció un concurso de ortografía en la escuela. Todos los estudiantes de su clase podían participar.",
-      "Valeria decidió participar porque quería ganar el primer premio. Su hermano mayor, Tomás, la ayudó a practicar todas las noches. Él le decía palabras difíciles y ella las escribía en un cuaderno.",
-      "Durante dos semanas, Valeria practicó mucho. Aprendió palabras como «murciélago», «psicología» y «excelente». A veces se equivocaba, pero Tomás la animaba y le decía: —¡Vas a hacerlo muy bien!",
-      "El día del concurso, Valeria estaba muy nerviosa. Había quince estudiantes en el escenario. La maestra decía una palabra y cada estudiante tenía que escribirla correctamente.",
-      "Valeria escribió bien las primeras ocho palabras. Pero en la novena ronda, la maestra dijo «murciélago» y Valeria escribió «murcielago» sin el acento. Por eso, perdió un punto importante.",
-      "Al final, Valeria ganó el segundo lugar. Una niña de otra clase, Camila, ganó el primer lugar porque escribió todas las palabras sin errores. Valeria estaba un poco triste, pero también estaba orgullosa de sí misma.",
-      "Cuando volvió a casa, Tomás le dio un abrazo. —El segundo lugar es fantástico —le dijo—. El año próximo, practicaremos más y ganarás el primer premio. Valeria sonrió y guardó su medalla en su cuarto.",
+      "Inés era enfermera en un hospital de Zaragoza. Trabajaba muchas noches, y en sus días libres le encantaba hacer fotos por la ciudad. Tenía una cámara pequeña y vieja, pero la usaba todos los días.",
+      "Un día vio un cartel en el metro: el ayuntamiento organizaba un concurso de fotografía. El tema era «La ciudad despierta». El primer premio era un viaje a Lisboa.",
+      "Inés tenía una idea. Después de sus turnos de noche, salía del hospital a las siete de la mañana, cuando la ciudad empezaba a despertar. Durante un mes, hizo fotos de camino a casa: panaderos, barrenderos, autobuses vacíos.",
+      "Al final eligió una foto: un panadero que sacaba pan del horno, con la luz naranja del amanecer en la ventana. La envió el último día del concurso, a las once y media de la noche.",
+      "Dos semanas después, recibió un correo del ayuntamiento. Era finalista. La invitaron a una ceremonia en el museo de la ciudad, con los otros nueve finalistas.",
+      "En la ceremonia, Inés estaba nerviosa. El ganador fue un fotógrafo profesional con una foto del río. Inés ganó el segundo premio: una cámara nueva.",
+      "Al día siguiente, Inés volvió a la panadería con la foto impresa y se la regaló al panadero. Él la puso en la pared, al lado de la caja. Ahora, cada vez que Inés compra pan, ve su foto allí.",
     ],
     questions: [
       {
-        question: "Who helped Valeria practice for the contest?",
-        options: ["Her mother", "Her teacher", "Her brother Tomás", "Her friend Camila"],
-        correctIndex: 2,
-        explanation:
-          "The text says \"Su hermano mayor, Tomás, la ayudó a practicar todas las noches\" (Her older brother, Tomás, helped her practice every night).",
-      },
-      {
-        question: "What mistake did Valeria make during the contest?",
-        options: ["She misspelled \"murciélago\" by forgetting the accent mark", "She arrived late to the contest", "She forgot the word completely", "She spelled a different word by mistake"],
-        correctIndex: 0,
-        explanation:
-          "The story says \"Valeria escribió 'murcielago' sin el acento\" (Valeria wrote it without the accent mark), which cost her a point.",
-      },
-      {
-        question: "What place did Valeria win in the contest?",
-        options: ["First place", "Second place", "Third place", "She did not place at all"],
+        question: "What was Inés's job?",
+        options: ["Baker", "Nurse", "Photographer", "Bus driver"],
         correctIndex: 1,
         explanation:
-          "The text states \"Valeria ganó el segundo lugar\" (Valeria won second place).",
+          "\"Inés era enfermera en un hospital de Zaragoza.\"",
       },
       {
-        question: "How did Valeria feel about her result at the end?",
-        options: ["Angry and jealous of Camila", "Indifferent about the outcome", "Embarrassed in front of her class", "Sad but also proud of herself"],
-        correctIndex: 3,
+        question: "When did she take her photos for the contest?",
+        options: ["At night, during her shifts", "On her way home after night shifts, early in the morning", "On holiday in Lisbon", "At weekends with friends"],
+        correctIndex: 1,
         explanation:
-          "The story says \"Valeria estaba un poco triste, pero también estaba orgullosa de sí misma\" (Valeria was a little sad, but also proud of herself).",
+          "\"Salía del hospital a las siete de la mañana... hizo fotos de camino a casa.\"",
+      },
+      {
+        question: "What prize did Inés win?",
+        options: ["A trip to Lisbon", "Second prize: a new camera", "Nothing", "A job at the museum"],
+        correctIndex: 1,
+        explanation:
+          "\"Inés ganó el segundo premio: una cámara nueva.\"",
+      },
+      {
+        question: "What did she do with the photo afterwards?",
+        options: ["She sold it", "She gave it to the baker, who put it on the wall", "She sent it to another contest", "She put it in the hospital"],
+        correctIndex: 1,
+        explanation:
+          "\"Se la regaló al panadero. Él la puso en la pared.\"",
       },
     ],
   },
   {
     slug: "la-tarea-olvidada",
     level: "A2",
-    title: "La tarea olvidada",
+    title: "El informe olvidado",
     subtitle:
-      "A boy forgets his math homework and learns to manage his time better.",
+      "Diego forgets the report he has to present on Monday morning and learns to organize his week better.",
     paragraphs: [
-      "Diego era un niño muy divertido, pero no era muy organizado. Todos los lunes, su clase de matemáticas tenía tarea. Diego siempre hacía la tarea el domingo por la noche, muy rápido.",
-      "Un domingo, Diego jugó videojuegos toda la tarde con sus amigos. Cuando por fin recordó la tarea, ya eran las diez de la noche y estaba muy cansado. Decidió hacerla por la mañana, antes de ir a la escuela.",
-      "Pero el lunes, Diego se despertó tarde. Se vistió rápido, comió el desayuno en dos minutos y corrió para tomar el autobús. No tuvo tiempo para hacer la tarea.",
-      "En la escuela, el maestro, el señor Paredes, pidió la tarea a todos los estudiantes. Diego buscó en su mochila, pero no encontró nada. Su cara se puso roja de vergüenza.",
-      "—Lo siento, señor Paredes —dijo Diego—. Anoche jugué videojuegos y no hice la tarea. El maestro lo miró seriamente, pero no se enojó mucho.",
-      "—Puedes traerla mañana —le dijo el maestro—, pero vas a recibir menos puntos. Diego asintió y entendió que necesitaba organizar mejor su tiempo.",
-      "Esa noche, Diego hizo la tarea inmediatamente después de la escuela, antes de jugar videojuegos. También escribió un horario nuevo para la semana. Desde ese día, siempre terminó su tarea a tiempo.",
+      "Diego era un hombre muy simpático, pero no era muy organizado. Trabajaba en una agencia de viajes y todos los lunes tenía que presentar un informe de ventas. Siempre lo escribía el domingo por la noche, muy rápido.",
+      "Un domingo, Diego vio un partido de fútbol con sus amigos en un bar. Cuando por fin recordó el informe, ya eran las once de la noche y estaba muy cansado. Decidió escribirlo por la mañana, antes de ir a la oficina.",
+      "Pero el lunes, Diego se despertó tarde. Se duchó en tres minutos, no desayunó y corrió para tomar el autobús. No tuvo tiempo para escribir el informe.",
+      "En la reunión, su jefa, la señora Paredes, pidió los informes a todo el equipo. Diego abrió su portátil, pero no encontró nada. Se puso rojo de vergüenza.",
+      "—Lo siento, señora Paredes —dijo Diego—. Ayer vi el fútbol y no terminé el informe. La jefa lo miró seriamente, pero no se enfadó mucho.",
+      "—Puedes enviarlo esta tarde —le dijo—, pero la próxima vez quiero tenerlo el viernes. Diego dijo que sí y entendió que necesitaba organizar mejor su tiempo.",
+      "Esa tarde, Diego terminó el informe antes de las cinco. También escribió un horario nuevo para la semana en su agenda. Desde ese día, siempre envió sus informes los viernes, y los domingos vio el fútbol sin preocupaciones.",
     ],
     questions: [
       {
-        question: "Why didn't Diego do his homework on Sunday night?",
-        options: ["He was sick", "He played video games all afternoon and evening", "He forgot his notebook at school", "He was helping his brother"],
+        question: "Why didn't Diego write his report on Sunday night?",
+        options: ["He was sick", "He watched a football match with friends", "He forgot his laptop at work", "He was traveling"],
         correctIndex: 1,
         explanation:
-          "The text says \"Diego jugó videojuegos toda la tarde con sus amigos\" (Diego played video games all afternoon with his friends).",
+          "\"Diego vio un partido de fútbol con sus amigos en un bar.\"",
       },
       {
-        question: "What happened Monday morning?",
-        options: ["He woke up early and finished the homework", "He got a ride to school early", "He woke up late and had no time to do it", "He stayed home from school"],
-        correctIndex: 2,
+        question: "What happened on Monday morning?",
+        options: ["He woke up early and finished the report", "He woke up late and had no time to write it", "He stayed at home", "He took a taxi"],
+        correctIndex: 1,
         explanation:
-          "The story says \"Diego se despertó tarde... No tuvo tiempo para hacer la tarea\" (Diego woke up late... He had no time to do the homework).",
+          "\"Diego se despertó tarde... No tuvo tiempo para escribir el informe.\"",
       },
       {
-        question: "What did the teacher decide to do?",
-        options: ["Let Diego bring the homework tomorrow, but with fewer points", "Send Diego to the principal's office", "Call Diego's parents immediately", "Fail Diego for the whole class"],
+        question: "What did his boss decide?",
+        options: ["He could send it that afternoon, but next time she wanted it on Friday", "He had to leave the company", "He had to work on Sunday", "She wrote the report herself"],
         correctIndex: 0,
         explanation:
-          "The teacher tells him, \"Puedes traerla mañana... pero vas a recibir menos puntos\" (You can bring it tomorrow, but you'll get fewer points).",
+          "\"Puedes enviarlo esta tarde, pero la próxima vez quiero tenerlo el viernes.\"",
       },
       {
-        question: "What did Diego do differently after this experience?",
-        options: ["He stopped playing video games forever", "He did homework right after school and made a new schedule", "He asked his brother to do his homework for him", "He stopped going to school on Mondays"],
+        question: "What did Diego do differently afterwards?",
+        options: ["He stopped watching football", "He sent his reports on Fridays", "He changed jobs", "He asked a coworker to write them"],
         correctIndex: 1,
         explanation:
-          "The text says \"Diego hizo la tarea inmediatamente después de la escuela... También escribió un horario nuevo\" (Diego did the homework right after school... He also wrote a new schedule).",
+          "\"Desde ese día, siempre envió sus informes los viernes.\"",
       },
     ],
   },
@@ -2297,46 +2304,46 @@ export const A2_STORIES: Story[] = [
   {
     slug: "la-eleccion-de-la-clase",
     level: "A2",
-    title: "La elección de la clase",
+    title: "La elección de los vecinos",
     subtitle:
-      "Two friends run against each other for class president and stay close friends.",
+      "Two friends in the same building both want to be president of the residents' association.",
     paragraphs: [
-      "Todos los años, la clase de quinto grado elegía a un presidente de la clase. Este año, dos estudiantes decidieron participar: Sara y su amigo Rodrigo. Los dos eran buenos amigos desde primer grado.",
-      "Sara quería ser presidenta porque tenía muchas ideas: más tiempo de recreo y una fiesta al final del año. Rodrigo también tenía buenas ideas, como un club de lectura y más actividades deportivas.",
-      "Durante una semana, los dos candidatos hicieron carteles y hablaron con sus compañeros sobre sus ideas. A veces, era un poco incómodo porque competían el uno contra el otro, pero seguían siendo amigos.",
-      "El día de las elecciones, cada candidato dio un discurso corto frente a la clase. Sara habló con confianza sobre sus planes. Después, Rodrigo también habló bien y explicó sus ideas para ser un buen líder.",
-      "Los estudiantes votaron en secreto con papelitos. La maestra contó los votos frente a la clase. Al final, Rodrigo ganó la elección por solo tres votos más que Sara.",
-      "Sara se sintió un poco decepcionada, pero no estaba enojada con Rodrigo. Después de la clase, ella caminó hacia él y le dio la mano. —Felicidades, Rodrigo. Vas a ser un gran presidente —le dijo con una sonrisa sincera.",
-      "Rodrigo apreció mucho las palabras de Sara. —Gracias, Sara. Necesito tu ayuda para organizar el club de lectura —le dijo. Trabajaron juntos durante el año, y la amistad entre ellos se hizo aún más fuerte.",
+      "En el edificio de la calle Olmo vivían veinte familias. Cada año, los vecinos elegían un presidente de la comunidad. Ese año había dos candidatos: Carmen, del tercero, y Julián, del quinto. Eran buenos amigos desde hacía diez años.",
+      "Carmen quería arreglar el ascensor, que se rompía cada semana. Julián quería poner plantas en el patio y organizar una fiesta de vecinos en verano.",
+      "Durante dos semanas, los dos hablaron con todos los vecinos. Carmen escribió una carta y la dejó en todos los buzones. Julián llamó a cada puerta con una bandeja de galletas.",
+      "Algunos vecinos pensaban que Carmen y Julián iban a pelearse. Pero cada noche los dos tomaban un café juntos en el bar de abajo y se reían de la campaña.",
+      "El día de la reunión, todos los vecinos votaron en el portal. Ganó Carmen por solo dos votos: once contra nueve. Julián fue el primero en felicitarla.",
+      "—Me alegro mucho —le dijo—. Pero necesitas un vicepresidente, ¿no?",
+      "Carmen se rio y aceptó. Ese otoño arreglaron el ascensor, y en junio organizaron la primera fiesta de vecinos en el patio, con plantas nuevas y muchas galletas.",
     ],
     questions: [
       {
-        question: "Who ran for class president?",
-        options: ["Sara and her teacher", "Sara and her friend Rodrigo", "Rodrigo and his brother", "Three different students"],
+        question: "What did Carmen want to fix?",
+        options: ["The patio", "The lift, which broke every week", "The mailboxes", "The front door"],
         correctIndex: 1,
         explanation:
-          "The text says \"dos estudiantes decidieron participar: Sara y su amigo Rodrigo\" (two students decided to run: Sara and her friend Rodrigo).",
+          "\"Carmen quería arreglar el ascensor, que se rompía cada semana.\"",
       },
       {
-        question: "Who won the election, and by how much?",
-        options: ["Rodrigo won by three votes", "Sara won by ten votes", "The vote was a tie", "Neither of them won"],
-        correctIndex: 0,
+        question: "How did Julián campaign?",
+        options: ["He wrote a letter", "He knocked on every door with a tray of biscuits", "He put up posters", "He sent emails"],
+        correctIndex: 1,
         explanation:
-          "The text says \"Rodrigo ganó la elección por solo tres votos más que Sara\" (Rodrigo won the election by only three more votes than Sara).",
+          "\"Julián llamó a cada puerta con una bandeja de galletas.\"",
       },
       {
-        question: "How did Sara react to losing the election?",
-        options: ["She was angry and stopped talking to Rodrigo", "She demanded a recount of the votes", "She cried in front of the whole class", "She was disappointed but congratulated him sincerely"],
-        correctIndex: 3,
+        question: "What did the two candidates do every night?",
+        options: ["They argued", "They had coffee together and laughed about the campaign", "They wrote letters", "They called their neighbors"],
+        correctIndex: 1,
         explanation:
-          "Sara tells him, \"Felicidades, Rodrigo. Vas a ser un gran presidente\" (Congratulations, Rodrigo. You're going to be a great president).",
+          "\"Cada noche los dos tomaban un café juntos... y se reían de la campaña.\"",
       },
       {
-        question: "What did Rodrigo ask Sara to help with?",
-        options: ["His math homework", "Writing his speech", "Counting the election votes", "Organizing the reading club"],
-        correctIndex: 3,
+        question: "What happened after Carmen won?",
+        options: ["Julián moved out", "Julián became vice-president and they did both projects", "Nobody fixed the lift", "They stopped being friends"],
+        correctIndex: 1,
         explanation:
-          "Rodrigo says, \"Necesito tu ayuda para organizar el club de lectura\" (I need your help to organize the reading club).",
+          "Julián offered to be vice-president; \"arreglaron el ascensor\" and organized the party.",
       },
     ],
   },
@@ -2389,46 +2396,46 @@ export const A2_STORIES: Story[] = [
   {
     slug: "el-concurso-de-matematicas",
     level: "A2",
-    title: "El concurso de matemáticas",
+    title: "Las cuentas del café",
     subtitle:
-      "A boy who dislikes math gets help from a classmate and does well in a math contest.",
+      "Tomás opens a café and discovers he hates the numbers, until an old friend who works as an accountant teaches him to love a spreadsheet.",
     paragraphs: [
-      "A Iker no le gustaban mucho las matemáticas. Pensaba que los números eran aburridos y difíciles. Pero su maestro, el señor Domínguez, vio algo especial en él: Iker era muy bueno resolviendo problemas de lógica.",
-      "El señor Domínguez lo invitó a participar en el concurso de matemáticas de la escuela. Al principio, Iker dijo que no, porque tenía miedo de perder frente a toda la escuela. Pero su maestro insistió.",
-      "—No tienes que ganar —le dijo el señor Domínguez—. Solo tienes que intentarlo y aprender algo nuevo. Iker finalmente aceptó participar.",
-      "Su compañera de clase, Noa, era muy buena en matemáticas y decidió ayudarlo a practicar. Todos los días, después de la escuela, estudiaban juntos problemas de multiplicación, división y fracciones.",
-      "Al principio, Iker cometía muchos errores y se frustraba fácilmente. Pero Noa era paciente y le explicaba cada problema de una manera diferente hasta que él lo entendía. Poco a poco, Iker mejoró mucho.",
-      "El día del concurso, Iker estaba nervioso, pero también preparado. Resolvió los problemas uno por uno, con calma y concentración. Usó las técnicas que Noa le enseñó durante las semanas de práctica.",
-      "Al final, Iker no ganó el primer lugar, pero terminó en un sorprendente segundo lugar entre cincuenta estudiantes. Estaba muy feliz con su resultado. Desde ese día, empezó a pensar que las matemáticas no eran tan aburridas después de todo.",
+      "Tomás siempre había querido tener un café. A los cuarenta años, dejó su trabajo en un supermercado y abrió un local pequeño en su barrio de Málaga. Hacía unas tartas excelentes y los clientes estaban contentos.",
+      "Pero había un problema: los números. Tomás guardaba todas las facturas en una caja de zapatos. No sabía cuánto gastaba en harina, en leche o en electricidad. Cada mes tenía menos dinero en el banco y no sabía por qué.",
+      "Un día, su amiga Nuria entró a tomar un café. Nuria era contable y trabajaba en una empresa grande. Vio la caja de zapatos encima de la nevera y se rio.",
+      "—Te ayudo —le dijo—, pero tú me pagas en tarta de queso.",
+      "Durante cuatro domingos, Nuria y Tomás trabajaron juntos en una mesa del café. Ella le enseñó a usar una hoja de cálculo sencilla: una columna para los gastos, otra para las ventas. Al principio Tomás se aburría, pero poco a poco empezó a entender.",
+      "Descubrieron algo importante: Tomás vendía el café demasiado barato y compraba la leche en una tienda muy cara. Cambió de proveedor y subió el precio del café diez céntimos.",
+      "Tres meses después, el café tenía beneficios por primera vez. Tomás todavía prefería hacer tartas, pero ahora cada viernes abría la hoja de cálculo sin miedo. Y Nuria tenía tarta de queso gratis para siempre.",
     ],
     questions: [
       {
-        question: "What did the teacher notice about Iker?",
-        options: ["He was the best at spelling", "He was very good at solving logic problems", "He never did his homework", "He wanted to become a teacher"],
+        question: "What did Tomás do before opening the café?",
+        options: ["He was an accountant", "He worked in a supermarket", "He was a baker", "He worked in a bank"],
         correctIndex: 1,
         explanation:
-          "The text says \"Iker era muy bueno resolviendo problemas de lógica\" (Iker was very good at solving logic problems).",
+          "\"Dejó su trabajo en un supermercado y abrió un local pequeño.\"",
       },
       {
-        question: "Who helped Iker practice for the competition?",
-        options: ["His teacher, the señor Domínguez", "His older sister", "An online tutor", "His classmate Noa"],
-        correctIndex: 3,
-        explanation:
-          "The text says \"Su compañera de clase, Noa... decidió ayudarlo a practicar\" (His classmate Noa decided to help him practice).",
-      },
-      {
-        question: "What place did Iker finish in the competition?",
-        options: ["First place", "A surprising second place out of fifty students", "Last place", "He did not finish the competition"],
+        question: "Where did he keep his invoices?",
+        options: ["In a spreadsheet", "In a shoebox", "At the bank", "In his car"],
         correctIndex: 1,
         explanation:
-          "The text says he \"terminó en un sorprendente segundo lugar entre cincuenta estudiantes\" (finished in a surprising second place among fifty students).",
+          "\"Tomás guardaba todas las facturas en una caja de zapatos.\"",
       },
       {
-        question: "How did Iker's attitude toward math change by the end?",
-        options: ["He still hated math", "He decided to quit school", "He became arrogant about his math skills", "He began to think math wasn't so boring after all"],
-        correctIndex: 3,
+        question: "How did Tomás pay Nuria for her help?",
+        options: ["With money", "With cheesecake", "With coffee for a year", "He didn't pay her"],
+        correctIndex: 1,
         explanation:
-          "The text says he \"empezó a pensar que las matemáticas no eran tan aburridas después de todo\" (began to think that math wasn't so boring after all).",
+          "\"Tú me pagas en tarta de queso.\"",
+      },
+      {
+        question: "What two problems did they discover?",
+        options: ["His coffee was too cheap and his milk too expensive", "He had too many workers and too few customers", "His rent was too high", "His cakes were too small"],
+        correctIndex: 0,
+        explanation:
+          "\"Tomás vendía el café demasiado barato y compraba la leche en una tienda muy cara.\"",
       },
     ],
   },
@@ -2711,46 +2718,46 @@ export const A2_STORIES: Story[] = [
   {
     slug: "class-pet-for-the-weekend",
     level: "A2",
-    title: "La mascota de la clase",
+    title: "El gato de la vecina",
     subtitle:
-      "A boy takes the class guinea pig home for the weekend and panics when it disappears inside the house.",
+      "Andrés agrees to look after his neighbor's cat for the weekend and panics when it disappears inside his flat.",
     paragraphs: [
-      "En la clase de Martín había una cobaya que se llamaba Galleta. Cada fin de semana, un estudiante diferente se la llevaba a casa para cuidarla. Aquel viernes, por fin, le tocó a Martín.",
-      "La maestra le dio la jaula, una bolsa de comida y una lista de instrucciones: darle verduras frescas, cambiar el agua dos veces al día y no dejarla sola fuera de la jaula. Martín leyó la lista tres veces en el autobús.",
-      "El sábado por la mañana, Martín quiso jugar con Galleta en el suelo de su habitación. La sacó de la jaula con cuidado. Justo en ese momento, su madre lo llamó desde la cocina para desayunar, y Martín salió corriendo sin cerrar la puerta.",
-      "Cuando volvió, Galleta no estaba. Martín buscó debajo de la cama, dentro del armario y detrás de las cortinas. Nada. Empezó a sentir mucho miedo. ¿Qué iba a decirle a la maestra el lunes?",
-      "Toda la familia ayudó a buscar. Su padre miró detrás del sofá y su hermana revisó el baño. Después de una hora, todavía no la encontraban. Martín estaba a punto de llorar.",
-      "Entonces, su abuela tuvo una idea. Puso una zanahoria en el centro de la cocina y pidió silencio. Todos se quedaron quietos. Pasaron diez minutos. De repente, escucharon un pequeño ruido y Galleta salió de debajo del frigorífico, directa hacia la zanahoria.",
-      "Martín la tomó en sus brazos y la abrazó con cuidado. El lunes, le contó toda la historia a la maestra. Ella no se enfadó. Al contrario, le pidió que explicara a la clase el truco de la zanahoria, por si le pasaba a otro estudiante.",
+      "Andrés vivía solo en un piso pequeño de Sevilla. Un jueves, su vecina Rocío llamó a su puerta. Se iba a una boda en Granada todo el fin de semana y necesitaba a alguien para cuidar a su gato, Bigotes.",
+      "Andrés nunca había tenido animales, pero dijo que sí. Rocío le trajo a Bigotes, una bolsa de comida, una caja de arena y una lista con muchas instrucciones. «Es muy tranquilo», le dijo antes de irse.",
+      "El viernes todo fue bien. Bigotes comió, durmió en el sofá y miró la televisión con Andrés. Andrés le mandó una foto a Rocío: «Todo perfecto».",
+      "Pero el sábado por la mañana, Bigotes no estaba en el sofá. No estaba en la cocina ni en el dormitorio. Andrés miró debajo de la cama, dentro del armario y detrás de la lavadora. Nada.",
+      "Andrés estaba muy preocupado. La ventana del baño estaba un poco abierta. ¿Bigotes se había escapado? Salió a la calle y preguntó a los vecinos, pero nadie lo había visto.",
+      "Volvió a casa triste y abrió el armario de la cocina para hacerse un café. Allí, detrás de los paquetes de arroz, dos ojos verdes lo miraban. Bigotes estaba dormido encima de una bolsa de pan.",
+      "El domingo, cuando volvió Rocío, Andrés le contó la historia. Ella se rio mucho. «Siempre hace eso», dijo. «Lo pone en la lista, en la página dos.» Andrés no había leído la página dos.",
     ],
     questions: [
       {
-        question: "Which instruction did Martín break?",
-        options: ["He didn't give her fresh vegetables", "He left her alone outside the cage", "He forgot to change the water", "He took her outside"],
+        question: "Why did Rocío need help?",
+        options: ["She was sick", "She was going to a wedding in Granada for the weekend", "She was moving house", "Her cat was ill"],
         correctIndex: 1,
         explanation:
-          "The list said \"no dejarla sola fuera de la jaula,\" but he ran to breakfast leaving her out.",
+          "\"Se iba a una boda en Granada todo el fin de semana.\"",
       },
       {
-        question: "Where was Galleta hiding?",
-        options: ["Under the refrigerator", "In the closet", "Behind the sofa", "In the bathroom"],
-        correctIndex: 0,
+        question: "What did Andrés do on Friday?",
+        options: ["He lost the cat", "He sent Rocío a photo saying everything was perfect", "He took the cat to the vet", "He went to Granada"],
+        correctIndex: 1,
         explanation:
-          "\"Galleta salió de debajo del frigorífico.\"",
+          "\"Andrés le mandó una foto a Rocío: «Todo perfecto».\"",
       },
       {
-        question: "What was Grandma's idea?",
-        options: ["To buy a new guinea pig", "To call the teacher", "To put a carrot in the kitchen and wait in silence", "To open all the doors"],
+        question: "Where was Bigotes?",
+        options: ["Outside in the street", "Under the bed", "In a kitchen cupboard, asleep on a bag of bread", "In the bathroom"],
         correctIndex: 2,
         explanation:
-          "\"Puso una zanahoria en el centro de la cocina y pidió silencio.\"",
+          "\"Allí, detrás de los paquetes de arroz... Bigotes estaba dormido encima de una bolsa de pan.\"",
       },
       {
-        question: "How did the teacher react on Monday?",
-        options: ["She was very angry", "She took Galleta away from the class", "She called Martín's parents", "She asked him to teach the class the carrot trick"],
-        correctIndex: 3,
+        question: "Why didn't Andrés know about the cat's habit?",
+        options: ["Rocío forgot to tell him", "He hadn't read page two of the list", "The cat had never done it before", "He lost the list"],
+        correctIndex: 1,
         explanation:
-          "\"Le pidió que explicara a la clase el truco de la zanahoria.\"",
+          "\"Lo pone en la lista, en la página dos.\" Andrés no había leído la página dos.",
       },
     ],
   },
@@ -3026,46 +3033,46 @@ export const A2_STORIES: Story[] = [
   {
     slug: "the-school-vegetable-garden",
     level: "A2",
-    title: "El huerto de la escuela",
+    title: "El huerto del solar",
     subtitle:
-      "A class plants a vegetable garden in an empty corner of the schoolyard and learns patience from a retired farmer.",
+      "The neighbors of a city block turn an empty lot into a vegetable garden and learn patience from a retired farmer.",
     paragraphs: [
-      "Detrás de la escuela de Paula había un rincón vacío, con tierra seca y algunas piedras. Nadie lo usaba. Un día de marzo, el maestro, don Alberto, propuso a la clase convertirlo en un huerto.",
-      "Los estudiantes estaban emocionados, pero no sabían nada de plantas. Por eso, don Alberto invitó al abuelo de un alumno, el señor Benito, que había sido agricultor toda su vida.",
-      "El señor Benito llegó con herramientas viejas y un sombrero de paja. Primero les enseñó a quitar las piedras y a preparar la tierra con abono. Fue un trabajo duro, y muchos niños terminaron con las manos sucias y la espalda cansada.",
-      "Después plantaron semillas de tomates, lechugas, zanahorias y calabacines. Hicieron un calendario para regar el huerto: cada día, dos estudiantes diferentes eran responsables.",
-      "Las primeras semanas no pasó nada. Paula estaba impaciente y todos los días miraba la tierra. —¿Por qué no crece nada? —le preguntó al señor Benito. Él se rio. —La tierra no tiene prisa —le contestó—. Tú tampoco debes tenerla.",
-      "A finales de abril, aparecieron las primeras hojas verdes. En mayo, las lechugas estaban grandes y las plantas de tomate eran más altas que los niños pequeños. Toda la escuela venía a mirar el huerto en el recreo.",
-      "En junio, la clase organizó una comida con las verduras del huerto. Prepararon una ensalada enorme y la compartieron con las familias y con el señor Benito. Paula probó un tomate y pensó que era el más rico de su vida, porque sabía cuánto trabajo había costado.",
+      "Detrás del edificio de Lucía había un solar vacío. Durante años solo tuvo basura, hierbas y algún gato. Un día, en la reunión de vecinos, Lucía propuso una idea: hacer un huerto urbano.",
+      "Al principio, mucha gente dijo que era imposible. Pero el ayuntamiento les dio permiso, y un sábado de marzo quince vecinos limpiaron el solar. Sacaron cuarenta bolsas de basura.",
+      "Ninguno sabía mucho de plantas. Entonces apareció el señor Anselmo, un vecino del primero de ochenta años. Había sido agricultor en un pueblo de Extremadura antes de venir a la ciudad.",
+      "—Primero hay que preparar la tierra —les explicó—. Y después, paciencia. Mucha paciencia.",
+      "Plantaron tomates, lechugas, pimientos y calabacines. Cada vecino tenía un día para regar. Algunos querían ver resultados inmediatamente y preguntaban cada mañana por qué no crecía nada. El señor Anselmo solo sonreía.",
+      "En mayo salieron las primeras lechugas. En julio, los tomates estaban rojos y había tantos calabacines que los vecinos no sabían qué hacer con ellos. Lucía organizó una cena en el huerto con platos de todos.",
+      "Esa noche, el señor Anselmo contó historias de su pueblo. Los vecinos, que antes casi no se saludaban en el ascensor, se quedaron hablando hasta las doce. Lucía pensó que el huerto daba más que verduras.",
     ],
     questions: [
       {
-        question: "Why did the teacher invite señor Benito?",
-        options: ["He was the school director", "He had been a farmer all his life", "He sold vegetables", "He was Paula's grandfather"],
+        question: "What was behind Lucía's building?",
+        options: ["A park", "An empty lot with rubbish and weeds", "A school", "A car park"],
         correctIndex: 1,
         explanation:
-          "He \"había sido agricultor toda su vida\" and the students didn't know about plants.",
+          "\"Detrás del edificio de Lucía había un solar vacío... basura, hierbas y algún gato.\"",
       },
       {
-        question: "How did the class organize the watering?",
-        options: ["The teacher watered it every day", "Señor Benito came every morning", "Each day, two different students were responsible", "They used an automatic system"],
-        correctIndex: 2,
+        question: "Who was Señor Anselmo?",
+        options: ["A gardener from the city council", "An eighty-year-old neighbor who used to be a farmer", "Lucía's father", "A cook"],
+        correctIndex: 1,
         explanation:
-          "\"Cada día, dos estudiantes diferentes eran responsables.\"",
+          "\"Un vecino del primero de ochenta años. Había sido agricultor en un pueblo de Extremadura.\"",
       },
       {
-        question: "What did señor Benito tell the impatient Paula?",
-        options: ["\"The earth is in no hurry, and you shouldn't be either\"", "\"You need more fertilizer\"", "\"Plant new seeds\"", "\"Water it more\""],
-        correctIndex: 0,
+        question: "What was his main advice?",
+        options: ["Buy expensive seeds", "Prepare the soil, and then be patient", "Water every hour", "Plant only tomatoes"],
+        correctIndex: 1,
         explanation:
-          "\"La tierra no tiene prisa. Tú tampoco debes tenerla.\"",
+          "\"Primero hay que preparar la tierra. Y después, paciencia.\"",
       },
       {
-        question: "Why did Paula think the tomato was the best of her life?",
-        options: ["It was very big", "It was a special variety", "Señor Benito grew it", "She knew how much work it had taken"],
-        correctIndex: 3,
+        question: "What changed among the neighbors?",
+        options: ["They argued about the vegetables", "Neighbors who barely greeted each other stayed talking until midnight", "They sold the garden", "They moved away"],
+        correctIndex: 1,
         explanation:
-          "\"...porque sabía cuánto trabajo había costado.\"",
+          "\"Los vecinos, que antes casi no se saludaban en el ascensor, se quedaron hablando hasta las doce.\"",
       },
     ],
   },
@@ -4029,3 +4036,6 @@ export const A2_STORIES: Story[] = [
     ],
   },
 ];
+
+// Fiction first, then the nonfiction texts (explainers, articles, columns).
+export const A2_STORIES: Story[] = [...A2_FICTION, ...A2_NONFICTION];

@@ -1,8 +1,8 @@
 // Synced from cheneygross-afk/lengo:src/lib/decks/index.ts by scripts/sync-content.mjs -- edit it there, not here.
-// Premade vocabulary decks: the 5,000 most frequent words of spoken
-// Spanish, split by level, that a learner can add to their flashcards in
-// one go (the Flashcards page on the website, the Flashcards screen in the
-// app). Pure data and helpers, synced to the app as-is.
+// Premade vocabulary decks: the 6,000 most frequent words of spoken
+// Spanish (the first 5,000 split from A1 to C1, the next 1,000 for C2),
+// that a learner can add to their flashcards in one go (the Flashcards
+// page on the website, the Flashcards screen in the app). Pure data and helpers, synced to the app as-is.
 //
 // The card data is large, so it's loaded on demand with loadDeck() rather
 // than imported here.
@@ -51,6 +51,14 @@ export const FREQUENCY_DECKS: DeckInfo[] = [
     from: 3501,
     to: 5000,
   },
+  {
+    id: "frequency-c2",
+    level: "C2",
+    title: "Words 5,001–6,000",
+    description: "The next thousand: precise, literary and specialised words that round out a near-native vocabulary.",
+    from: 5001,
+    to: 6000,
+  },
 ];
 
 export function deckInfo(id: string): DeckInfo | undefined {
@@ -70,6 +78,8 @@ export async function loadDeck(id: string): Promise<DeckCard[]> {
       return (await import("./frequency-b2")).FREQUENCY_B2;
     case "frequency-c1":
       return (await import("./frequency-c1")).FREQUENCY_C1;
+    case "frequency-c2":
+      return (await import("./frequency-c2")).FREQUENCY_C2;
     default:
       return [];
   }

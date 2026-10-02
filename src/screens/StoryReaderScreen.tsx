@@ -3,7 +3,7 @@ import { View, Text, ScrollView, Pressable, StyleSheet } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { findStory } from "@/lib/stories/registry";
-import { toExercises } from "@/lib/stories/types";
+import { storyKind, toExercises } from "@/lib/stories/types";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
 import { langForLevelPath, readAloud, speechChunks, stopReadAloud } from "@/lib/speech";
@@ -160,7 +160,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
         es,
         en,
         // Flashcards groups cards by lesson level, which has no "C1/C2".
-        level: story.level === "C1/C2" ? "C1" : story.level,
+        level: story.level === "C1/C2" ? (story.band ?? "C1") : story.level,
         levelPath,
       });
       await saveFlashcards(all);
@@ -262,7 +262,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
     <View style={s.container}>
       <ScrollView style={s.container} contentContainerStyle={s.content}>
         <Text style={s.kicker}>
-          {story.level} · Short story
+          {story.band ?? story.level} · {storyKind(story)}
           {readinessLabel(story.slug) ? ` · ${readinessLabel(story.slug)}` : ""}
         </Text>
         <Text style={s.title}>{story.title}</Text>

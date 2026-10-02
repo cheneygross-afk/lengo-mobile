@@ -11,6 +11,8 @@ import { isUnitLevelPath, unitsFor, type CourseUnit } from "@/lib/lessons/units"
 import { getPendingReviewBatch, type PendingReviewBatch } from "@/lib/lessons/reviewCadence";
 import { parseDurationMinutes, formatMinutes } from "@/lib/duration";
 import LevelWatchSection from "@/components/LevelWatchSection";
+import CanDoCard from "@/components/CanDoCard";
+import { CAN_DO_STATEMENTS } from "@/lib/lessons/canDo";
 import { LEVEL_WATCH_VIDEOS } from "@/lib/lessons/lessonVideos";
 import type { SpanishLevelPath } from "@/lib/lessons/levels";
 
@@ -108,6 +110,7 @@ export default function LessonListScreen({ navigation, route }: Props) {
         {completedCount} of {required.length} required lessons completed
         {units ? ` · ${units.length} units` : ""}
       </Text>
+      {moduleKey in CAN_DO_STATEMENTS && <CanDoCard levelPath={moduleKey as SpanishLevelPath} />}
       {next && units && (
         <Pressable style={styles.continueCard} onPress={() => navigation.navigate("LessonRunner", { slug: next.slug })}>
           <Text style={styles.continueKicker}>

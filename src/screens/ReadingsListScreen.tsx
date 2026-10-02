@@ -22,12 +22,25 @@ export default function ReadingsListScreen({ route, navigation }: Props) {
   const levelPath = route.params?.levelPath ?? "a1";
   const sections = useMemo(() => {
     const { stories, readings } = getReadingLevel(levelPath);
+    // Nonfiction texts are Story objects with a genre; they get their own
+    // section, as on the website.
+    const fiction = stories.filter((story) => !story.genre);
+    const nonfiction = stories.filter((story) => story.genre);
     return [
       {
         title: "Short stories",
-        subtitle: `${stories.length} free stories with comprehension questions`,
-        data: stories.map((story): Row => ({ kind: "story", story })),
+        subtitle: `${fiction.length} free stories with comprehension questions`,
+        data: fiction.map((story): Row => ({ kind: "story", story })),
       },
+      ...(nonfiction.length
+        ? [
+            {
+              title: "Nonfiction",
+              subtitle: `${nonfiction.length} articles and essays with comprehension questions`,
+              data: nonfiction.map((story): Row => ({ kind: "story", story })),
+            },
+          ]
+        : []),
       {
         title: "Books",
         subtitle: `${readings.length} books to buy and read at your own pace`,
@@ -68,8 +81,10 @@ export default function ReadingsListScreen({ route, navigation }: Props) {
             <Text style={styles.rowSummary} numberOfLines={2}>
               {item.story.subtitle}
             </Text>
-            {readinessLabel(item.story.slug) ? (
-              <Text style={styles.rowReady}>{readinessLabel(item.story.slug)}</Text>
+            {item.story.band || item.story.genre || readinessLabel(item.story.slug) ? (
+              <Text style={styles.rowReady}>
+                {[item.story.band, item.story.genre, readinessLabel(item.story.slug)].filter(Boolean).join(" · ")}
+              </Text>
             ) : null}
           </Pressable>
         ) : (

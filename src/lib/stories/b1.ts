@@ -1,7 +1,8 @@
 // Synced from cheneygross-afk/lengo:src/lib/stories/b1.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Story } from "./types";
+import { B1_NONFICTION } from "./nonfiction-b1";
 
-export const B1_STORIES: Story[] = [
+const B1_FICTION: Story[] = [
   {
     slug: "el-sendero-perdido",
     level: "B1",
@@ -4153,3 +4154,6 @@ export const B1_STORIES: Story[] = [
     ],
   },
 ];
+
+// Fiction first, then the nonfiction texts (explainers, articles, columns).
+export const B1_STORIES: Story[] = [...B1_FICTION, ...B1_NONFICTION];
