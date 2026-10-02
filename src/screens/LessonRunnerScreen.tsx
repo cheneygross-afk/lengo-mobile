@@ -76,6 +76,8 @@ type Step =
       // A level test's reading question: the text it asks about, shown
       // above the question since the text has its own screen.
       passage?: string[];
+      // A unit review's closing quiz (unit-reviews.ts).
+      unitQuiz?: boolean;
     }
   | { kind: "complete" };
 
@@ -137,10 +139,19 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     // authoredQuestions() order (see missedQuestions.ts).
     let q = 0;
     let authored = 0;
-    const pushOwn = (exercise: Exercise, passage?: string[]) => {
+    const pushOwn = (exercise: Exercise, passage?: string[], unitQuiz?: boolean) => {
       const index = authored++;
       if (skipExercise(exercise)) return;
-      out.push({ kind: "exercise", exercise, id: `${lesson.slug}#${index}`, key: `q-${index}`, number: q + 1, source: own, passage });
+      out.push({
+        kind: "exercise",
+        exercise,
+        id: `${lesson.slug}#${index}`,
+        key: `q-${index}`,
+        number: q + 1,
+        source: own,
+        passage,
+        unitQuiz,
+      });
       q++;
     };
     if (lesson.sections.length === 0) out.push({ kind: "teach", sectionIndex: null, first: true });
@@ -153,7 +164,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
           : undefined;
       section.checkpoint?.forEach((e) => pushOwn(e, passage));
     });
-    lesson.exercises.forEach((e) => pushOwn(e));
+    lesson.exercises.forEach((e) => pushOwn(e, undefined, lesson.unitReview));
     const trackLessons = LESSON_SOURCES[moduleKeyForLesson(lesson)].lessons;
     const review = buildReviewQuestions(
       lesson,
@@ -455,6 +466,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
             <Text style={s.badge}>
               Question {currentStep.number} of {questionCount}
               {currentStep.review ? ` · Review from lesson ${currentStep.source.number}` : ""}
+              {currentStep.unitQuiz ? " · Unit quiz" : ""}
             </Text>
             {currentStep.passage && (
               <View style={s.passage}>
