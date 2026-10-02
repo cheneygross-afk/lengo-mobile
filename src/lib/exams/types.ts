@@ -5,7 +5,7 @@
 // tasks, item counts and timings, with texts, recordings and prompts
 // written for this course. Pure data, synced to the app.
 
-export type ExamLevel = "A2" | "B1" | "B2" | "C1";
+export type ExamLevel = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
 
 /** A multiple-choice, true/false, matching or gap-filling item: one
  * right option among `options`. Every auto-graded item is this shape;
@@ -18,7 +18,7 @@ export type ExamItem = {
   question: string;
   options: string[];
   answer: number;
-  /** Why the answer is right, shown after marking (Spanish; English at A2). */
+  /** Why the answer is right, shown after marking (Spanish; English at A1 and A2). */
   explanation?: string;
   /** Which recording (task.audio index) or text (task.texts index) the
    * item belongs to, when a task has several. */
@@ -76,7 +76,7 @@ export type ExamTask = {
   title: string;
   /** The exam's own instructions (in Spanish, as in the real exam). */
   instructions: string;
-  /** An English gloss of the instructions, for A2 candidates. */
+  /** An English gloss of the instructions, for A1 and A2 candidates. */
   instructionsEn?: string;
   texts?: ExamText[];
   audio?: ExamAudio[];
