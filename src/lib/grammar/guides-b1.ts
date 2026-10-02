@@ -5,9 +5,9 @@ export const B1_GUIDES: GrammarGuide[] = [
   {
     slug: "present-perfect",
     title: "The Spanish Present Perfect: He Hablado",
-    metaTitle: "Spanish Present Perfect (Pretérito Perfecto): Forms and Uses",
+    metaTitle: "Spanish Present Perfect: He Comido, Has Visto",
     description:
-      "Learn the Spanish present perfect (he comido, has visto), the irregular participles, where the pronouns go, and how Spain and Latin America differ in choosing it over the preterite.",
+      "The Spanish present perfect (he comido, has visto): irregular participles, where pronouns go, and how Spain and Latin America choose it over the preterite.",
     level: "B1",
     readingLevelPath: "b1",
     intro: [
@@ -121,9 +121,9 @@ export const B1_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-pluperfect",
     title: "The Spanish Pluperfect: Había Hablado",
-    metaTitle: "Spanish Past Perfect (Pluscuamperfecto): Había + Participle",
+    metaTitle: "Spanish Pluperfect: Había + Participle",
     description:
-      "The Spanish pluperfect (había comido) describes the past before the past. Learn how to form it, when you need it, and how it works with ya, todavía and reported speech.",
+      "The Spanish pluperfect (había comido) describes the past before the past. Learn how to form it, when you need it, and how it works with ya and todavía.",
     level: "B1",
     readingLevelPath: "b1",
     intro: [
@@ -207,9 +207,9 @@ export const B1_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-conditional-tense",
     title: "The Spanish Conditional: Would",
-    metaTitle: "Spanish Conditional Tense (Hablaría): Forms, Irregulars and Uses",
+    metaTitle: "Spanish Conditional Tense: Forms and Uses",
     description:
-      "Learn the Spanish conditional (hablaría, tendría, haría): how to form it, the irregular stems, and its uses for politeness, advice, hypotheses and the future in the past.",
+      "The Spanish conditional (hablaría, tendría, haría): how to form it, the irregular stems, and its uses for politeness, advice and hypotheses.",
     level: "B1",
     readingLevelPath: "b1",
     intro: [
@@ -310,9 +310,9 @@ export const B1_GUIDES: GrammarGuide[] = [
   {
     slug: "subjunctive-wishes-emotions-doubt",
     title: "Subjunctive After Wishes, Emotions and Doubt",
-    metaTitle: "Spanish Subjunctive With Querer Que, Me Alegra Que, Dudo Que",
+    metaTitle: "Subjunctive After Querer Que, Dudo Que",
     description:
-      "When a wish, feeling or doubt is followed by que and a new subject, Spanish uses the subjunctive. Learn the patterns, the creer/no creer contrast, and when to use an infinitive instead.",
+      "After a wish, feeling or doubt plus que and a new subject, Spanish uses the subjunctive. Learn the patterns, creer vs. no creer, and the infinitive.",
     level: "B1",
     readingLevelPath: "b1",
     intro: [
@@ -423,9 +423,9 @@ export const B1_GUIDES: GrammarGuide[] = [
   {
     slug: "subjunctive-impersonal-expressions",
     title: "Subjunctive After Impersonal Expressions and Ojalá",
-    metaTitle: "Es Importante Que + Subjunctive, and Ojalá: Spanish Guide",
+    metaTitle: "Es Importante Que + Subjunctive, and Ojalá",
     description:
-      "Expressions like es importante que, es posible que and ojalá are followed by the subjunctive. Learn which ones take it, which take the indicative (es verdad que), and how ojalá works in every tense.",
+      "Es importante que, es posible que and ojalá take the subjunctive. Learn which expressions take it, which take the indicative, and how ojalá works.",
     level: "B1",
     readingLevelPath: "b1",
     intro: [
@@ -510,9 +510,9 @@ export const B1_GUIDES: GrammarGuide[] = [
   {
     slug: "vosotros-commands",
     title: "Vosotros and Usted Commands in Spanish",
-    metaTitle: "Vosotros Commands (Hablad, No Habléis) and Usted Commands",
+    metaTitle: "Vosotros and Usted Commands in Spanish",
     description:
-      "How to give commands to a group in Spain (hablad, sentaos, no habléis) and to people you address as usted or ustedes, with irregulars, pronoun placement and the -d drop.",
+      "How to give commands to a group in Spain (hablad, sentaos, no habléis) and to usted or ustedes, with irregulars, pronoun placement and the dropped -d.",
     level: "B1",
     readingLevelPath: "b1",
     intro: [
@@ -615,9 +615,9 @@ export const B1_GUIDES: GrammarGuide[] = [
   {
     slug: "relative-pronouns",
     title: "Spanish Relative Pronouns: Que, Quien, El Que, Lo Que",
-    metaTitle: "Spanish Relative Pronouns: Que, Quien, Lo Que, Donde",
+    metaTitle: "Spanish Relative Pronouns: Que, Quien, Lo Que",
     description:
-      "How to join sentences in Spanish with que, quien, el que, lo que and donde: which to use, what happens after prepositions, and why que can never be left out.",
+      "How to join sentences in Spanish with que, quien, el que, lo que and donde: which to use, what happens after prepositions, and why que is never left out.",
     level: "B1",
     readingLevelPath: "b1",
     intro: [
@@ -718,9 +718,9 @@ export const B1_GUIDES: GrammarGuide[] = [
   {
     slug: "passive-and-impersonal-se",
     title: "Passive Se, Impersonal Se and the Passive Voice",
-    metaTitle: "Spanish Passive Voice: Se Vende, Se Habla and Ser + Participle",
+    metaTitle: "Spanish Passive Voice and Impersonal Se",
     description:
-      "How Spanish expresses the passive: se venden casas, se habla español, the ser + participle passive, and the accidental se (se me olvidó). With agreement rules and common mistakes.",
+      "How Spanish expresses the passive: se venden casas, se habla español, ser + participle, and the accidental se (se me olvidó), with agreement rules.",
     level: "B1",
     readingLevelPath: "b1",
     intro: [
@@ -816,9 +816,9 @@ export const B1_GUIDES: GrammarGuide[] = [
   {
     slug: "verbs-with-prepositions",
     title: "Spanish Verbs With Prepositions",
-    metaTitle: "Spanish Verbs + Preposition: Pensar En, Soñar Con, Depender De",
+    metaTitle: "Spanish Verbs With Prepositions: Pensar En",
     description:
-      "Many Spanish verbs need a fixed preposition (pensar en, soñar con, depender de, tratar de). Learn the most common ones grouped by preposition, and the pairs that don't match English.",
+      "Many Spanish verbs need a fixed preposition: pensar en, soñar con, depender de, tratar de. Learn the common ones, grouped by preposition.",
     level: "B1",
     readingLevelPath: "b1",
     intro: [
@@ -925,9 +925,9 @@ export const B1_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-verb-periphrases",
     title: "Spanish Verb Periphrases: Ir a, Acabar de, Volver a, Llevar + Gerund",
-    metaTitle: "Spanish Verbal Periphrases: Acabar De, Soler, Llevar, Seguir",
+    metaTitle: "Spanish Verb Periphrases: Acabar De, Soler",
     description:
-      "Periphrases are verb + infinitive or gerund combinations that add timing and attitude: ir a, acabar de, volver a, soler, tener que, llevar/seguir + gerund. Learn the key ones with examples.",
+      "Verb + infinitive or gerund combinations that add timing and attitude: ir a, acabar de, volver a, soler, tener que, llevar and seguir + gerund.",
     level: "B1",
     readingLevelPath: "b1",
     intro: [

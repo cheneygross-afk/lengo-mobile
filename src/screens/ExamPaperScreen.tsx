@@ -17,6 +17,9 @@ import {
 } from "@/lib/exams/scoring";
 import type { Exam, ExamPaper } from "@/lib/exams/types";
 import { loadPaperProgress, savePaperProgress } from "@/lib/examProgress";
+import { creditStudy, type CreditResult } from "@/lib/studyDays";
+import { examPaperMinutes } from "@/lib/studyCredit";
+import StudyCreditNote from "@/components/StudyCreditNote";
 
 type Props = NativeStackScreenProps<AppStackParamList, "ExamPaper">;
 
@@ -57,6 +60,10 @@ function Runner({ exam, paper, onRestart, onBack }: { exam: Exam; paper: ExamPap
   const [timeUp, setTimeUp] = useState(false);
   const marked = points !== null;
   const itemCount = useMemo(() => paperItems(paper).length, [paper]);
+  // When this attempt began (a retake remounts Runner), so handing in
+  // credits the time actually spent, never more than the section's time.
+  const [openedAt] = useState(() => Date.now());
+  const [credit, setCredit] = useState<CreditResult | null>(null);
 
   useEffect(() => {
     void loadPaperProgress(exam.slug, paper.id).then((saved) => {
@@ -71,6 +78,7 @@ function Runner({ exam, paper, onRestart, onBack }: { exam: Exam; paper: ExamPap
     setTimerEnds(null);
     stopReadAloud();
     void savePaperProgress(exam.slug, paper.id, { answers, marks, points: score.points, finishedAt: Date.now() });
+    void creditStudy(examPaperMinutes(paper.minutes, openedAt), { counts: true }).then(setCredit);
     scroll.current?.scrollTo({ y: 0, animated: true });
   }
 
@@ -110,6 +118,7 @@ function Runner({ exam, paper, onRestart, onBack }: { exam: Exam; paper: ExamPap
           {paper.prepMinutes ? ` + ${paper.prepMinutes} min preparation` : ""} · {paper.tasks.length} tasks
           {auto ? ` · ${itemCount} questions` : ""}
         </Text>
+        {marked ? <StudyCreditNote result={credit} /> : null}
         {previous !== null && !marked ? (
           <Text style={s.muted}>
             Last attempt: {previous}/{PAPER_POINTS}

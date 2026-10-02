@@ -39,6 +39,9 @@ export type AppStackParamList = {
   // pull the right questions; `batch` is only needed to mark that batch
   // done afterwards.
   ReviewDrill: { levelPath: string; batch: number; slugs: string[] };
+  // Today's review: missed questions + the daily mix + flashcards due
+  // (dailyReview.ts) -- see TodayReviewScreen. Spanish only.
+  TodayReview: undefined;
   // Hub for the Spanish reference/practice tools below (grammar,
   // conjugation, DELE practice, glossary) plus the placement test.
   StudyTools: undefined;

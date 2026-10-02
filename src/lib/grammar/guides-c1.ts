@@ -5,9 +5,9 @@ export const C1_GUIDES: GrammarGuide[] = [
   {
     slug: "concessive-clauses-aunque",
     title: "Aunque With the Indicative or Subjunctive",
-    metaTitle: "Aunque + Indicative or Subjunctive: Spanish Concessive Clauses",
+    metaTitle: "Aunque + Indicative or Subjunctive",
     description:
-      "Aunque llueve or aunque llueva? Learn how the mood after aunque changes the meaning, plus a pesar de que, por mucho que, por más que, si bien and other concessive structures.",
+      "Aunque llueve or aunque llueva? How the mood after aunque changes the meaning, plus a pesar de que, por mucho que, por más que and si bien.",
     level: "C1",
     readingLevelPath: "c1c2",
     intro: [
@@ -104,9 +104,9 @@ export const C1_GUIDES: GrammarGuide[] = [
   {
     slug: "gerund-vs-infinitive",
     title: "Gerund vs. Infinitive in Spanish",
-    metaTitle: "Spanish Gerund vs. Infinitive: Why \"Nadar Es Divertido\"",
+    metaTitle: "Spanish Gerund vs. Infinitive",
     description:
-      "English \"-ing\" often becomes a Spanish infinitive. Learn when Spanish uses the infinitive (as a noun, after prepositions) and the gerund (manner, simultaneous actions), and the gerund errors examiners mark.",
+      "English \"-ing\" often becomes a Spanish infinitive. Learn when Spanish uses the infinitive and when the gerund, and the gerund errors examiners mark.",
     level: "C1",
     readingLevelPath: "c1c2",
     intro: [
@@ -209,9 +209,9 @@ export const C1_GUIDES: GrammarGuide[] = [
   {
     slug: "future-and-conditional-of-probability",
     title: "The Future and Conditional of Probability",
-    metaTitle: "Spanish Future of Probability: ¿Dónde Estará? Serán Las Tres",
+    metaTitle: "Spanish Future of Probability: ¿Dónde Estará?",
     description:
-      "Spanish uses the future to guess about the present (Estará en casa) and the conditional to guess about the past (Serían las tres). Learn the full system, including the concessive future.",
+      "Spanish uses the future to guess about the present (Estará en casa) and the conditional to guess about the past (Serían las tres). Learn the full system.",
     level: "C1",
     readingLevelPath: "c1c2",
     intro: [
@@ -293,9 +293,9 @@ export const C1_GUIDES: GrammarGuide[] = [
   {
     slug: "discourse-markers",
     title: "Discourse Markers in Spanish: Pues, O Sea, Es Decir, De Hecho",
-    metaTitle: "Spanish Discourse Markers: Pues, Bueno, O Sea, En Fin, De Hecho",
+    metaTitle: "Spanish Discourse Markers: Pues, Bueno, O Sea",
     description:
-      "The small words that make Spanish sound fluent: reformulators (o sea, es decir), conversational markers (pues, bueno, vale, oye), argument markers (de hecho, en realidad, por cierto) and how to use them naturally.",
+      "Small words that make Spanish sound fluent: o sea, es decir, pues, bueno, vale, oye, de hecho, en realidad, por cierto, and how to use them naturally.",
     level: "C1",
     readingLevelPath: "c1c2",
     intro: [
@@ -381,9 +381,9 @@ export const C1_GUIDES: GrammarGuide[] = [
   {
     slug: "register-and-politeness",
     title: "Register and Politeness in Spanish: Tú, Usted and Softening",
-    metaTitle: "Formal vs. Informal Spanish: Tú, Usted, Vos and Polite Requests",
+    metaTitle: "Formal vs. Informal Spanish: Tú, Usted, Vos",
     description:
-      "How formality works in Spanish: choosing tú, usted or vos in different countries, softening requests with the conditional and imperfect, formal letters and emails, and switching register.",
+      "How formality works in Spanish: tú, usted or vos by country, softening requests with the conditional and imperfect, formal emails, and switching register.",
     level: "C1",
     readingLevelPath: "c1c2",
     intro: [
@@ -484,9 +484,9 @@ export const C1_GUIDES: GrammarGuide[] = [
   {
     slug: "voseo",
     title: "Voseo: How Vos Works in Spanish",
-    metaTitle: "Voseo in Spanish: Vos Conjugations (Vos Sos, Vos Tenés) Explained",
+    metaTitle: "Voseo: Vos Conjugations (Vos Sos, Vos Tenés)",
     description:
-      "Vos replaces tú in Argentina, Uruguay, Paraguay and much of Central America. Learn the present, command and subjunctive forms (vos sos, tenés, vení), the regional variants, and which pronouns go with it.",
+      "Vos replaces tú in Argentina, Uruguay and much of Central America. Learn the present, command and subjunctive forms (vos sos, tenés, vení) and variants.",
     level: "C1",
     readingLevelPath: "c1c2",
     intro: [
@@ -583,9 +583,9 @@ export const C1_GUIDES: GrammarGuide[] = [
   {
     slug: "leismo-laismo-loismo",
     title: "Leísmo, Laísmo and Loísmo",
-    metaTitle: "Leísmo, Laísmo, Loísmo: Spanish Pronoun Variation Explained",
+    metaTitle: "Leísmo, Laísmo and Loísmo Explained",
     description:
-      "Why some Spaniards say \"le vi\" instead of \"lo vi\": the regional use of le, la and lo, which variants the Real Academia accepts, and which pronouns a learner should use.",
+      "Why some Spaniards say \"le vi\" instead of \"lo vi\": the regional use of le, la and lo, what the Real Academia accepts, and which a learner should use.",
     level: "C1",
     readingLevelPath: "c1c2",
     intro: [
@@ -672,9 +672,9 @@ export const C1_GUIDES: GrammarGuide[] = [
   {
     slug: "nominalization",
     title: "Nominalization in Spanish: Lo, El Hecho de Que and Abstract Nouns",
-    metaTitle: "Spanish Nominalization: Lo + Adjective, El Hecho De Que, El + Infinitive",
+    metaTitle: "Spanish Nominalization: Lo Importante and More",
     description:
-      "Turn verbs, adjectives and whole clauses into nouns: lo importante, el hecho de que + subjunctive, el + infinitive, and abstract nouns (-ción, -miento, -dad). Essential for formal and academic Spanish.",
+      "Turn verbs, adjectives and clauses into nouns: lo importante, el hecho de que + subjunctive, el + infinitive, and abstract nouns. Key for formal Spanish.",
     level: "C1",
     readingLevelPath: "c1c2",
     intro: [
@@ -755,9 +755,9 @@ export const C1_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-punctuation",
     title: "Spanish Punctuation: ¿?, ¡!, Commas, Colons and Dialogue Dashes",
-    metaTitle: "Spanish Punctuation Rules: Inverted Marks, Commas and Dialogue",
+    metaTitle: "Spanish Punctuation Rules: ¿ ¡ and the Raya",
     description:
-      "How Spanish punctuation differs from English: opening ¿ and ¡, the comma rules (never between subject and verb), colons in letters, the raya for dialogue, quotation marks and number formats.",
+      "How Spanish punctuation differs from English: opening ¿ and ¡, comma rules, colons in letters, the raya for dialogue, quotation marks and number formats.",
     level: "C1",
     readingLevelPath: "c1c2",
     intro: [

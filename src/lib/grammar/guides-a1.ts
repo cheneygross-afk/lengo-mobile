@@ -5,7 +5,7 @@ export const A1_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-subject-pronouns",
     title: "Spanish Subject Pronouns: Yo, Tú, Usted and When to Drop Them",
-    metaTitle: "Spanish Subject Pronouns (Yo, Tú, Usted, Vosotros) Explained",
+    metaTitle: "Spanish Subject Pronouns: Tú, Usted, Vosotros",
     description:
       "Learn the Spanish subject pronouns, the difference between tú, usted, vosotros and ustedes, and why native speakers usually leave the pronoun out.",
     level: "A1",
@@ -112,9 +112,9 @@ export const A1_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-articles-and-gender",
     title: "Spanish Articles and Noun Gender: El, La, Un, Una",
-    metaTitle: "Spanish Noun Gender and Articles (El, La, Los, Las, Un, Una)",
+    metaTitle: "Spanish Noun Gender and Articles (El, La, Un)",
     description:
-      "How to tell if a Spanish noun is masculine or feminine, when to use el, la, los, las, un and una, how plurals work, and the exceptions that trip learners up.",
+      "How to tell if a Spanish noun is masculine or feminine, when to use el, la, los, las, un and una, how plurals work, and the exceptions to watch.",
     level: "A1",
     readingLevelPath: "a1",
     intro: [
@@ -235,9 +235,9 @@ export const A1_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-adjective-agreement",
     title: "Spanish Adjective Agreement and Position",
-    metaTitle: "Spanish Adjective Agreement: Gender, Number and Word Order",
+    metaTitle: "Spanish Adjective Agreement and Word Order",
     description:
-      "Spanish adjectives change to match their noun. Learn the agreement patterns, where adjectives go, why buen and gran get shortened, and the meaning changes with position.",
+      "Spanish adjectives change to match their noun. Learn the agreement patterns, where adjectives go, why buen and gran shorten, and changes by position.",
     level: "A1",
     readingLevelPath: "a1",
     intro: [
@@ -335,7 +335,7 @@ export const A1_GUIDES: GrammarGuide[] = [
   {
     slug: "present-tense-regular-verbs",
     title: "The Spanish Present Tense: Regular -AR, -ER and -IR Verbs",
-    metaTitle: "Spanish Present Tense Conjugation: Regular Verbs Chart",
+    metaTitle: "Spanish Present Tense: Regular Verbs Chart",
     description:
       "Conjugate regular -ar, -er and -ir verbs in the Spanish present tense, with charts, examples, and the many English meanings the present can carry.",
     level: "A1",
@@ -434,9 +434,9 @@ export const A1_GUIDES: GrammarGuide[] = [
   {
     slug: "stem-changing-verbs",
     title: "Stem-Changing Verbs in Spanish (e→ie, o→ue, e→i)",
-    metaTitle: "Spanish Stem-Changing Verbs: e→ie, o→ue, e→i With Charts",
+    metaTitle: "Spanish Stem-Changing Verbs: e→ie, o→ue, e→i",
     description:
-      "Learn how Spanish stem-changing (\"boot\") verbs like querer, poder and pedir work in the present tense, which forms change, and the most common verbs in each group.",
+      "How Spanish stem-changing (\"boot\") verbs like querer, poder and pedir work in the present tense, which forms change, and the common verbs in each group.",
     level: "A1",
     readingLevelPath: "a1",
     intro: [
@@ -530,9 +530,9 @@ export const A1_GUIDES: GrammarGuide[] = [
   {
     slug: "irregular-present-tense-verbs",
     title: "Irregular Present Tense Verbs: Ser, Ir, Tener, Hacer and the Yo-Go Verbs",
-    metaTitle: "Spanish Irregular Verbs in the Present Tense (Ser, Ir, Tener, Hacer)",
+    metaTitle: "Irregular Present Tense Verbs in Spanish",
     description:
-      "The most common Spanish verbs are irregular. Learn ser, estar, ir, tener, hacer, decir, venir, the \"yo-go\" verbs, and the uses of hay, with charts and examples.",
+      "The most common Spanish verbs are irregular. Learn ser, estar, ir, tener, hacer, decir, venir, the \"yo-go\" verbs and hay, with charts and examples.",
     level: "A1",
     readingLevelPath: "a1",
     intro: [
@@ -629,9 +629,9 @@ export const A1_GUIDES: GrammarGuide[] = [
   {
     slug: "hay-vs-estar",
     title: "Hay vs. Está: \"There Is\" or \"It Is\"?",
-    metaTitle: "Hay vs. Estar in Spanish: How to Say Where Things Are",
+    metaTitle: "Hay vs. Estar: Saying Where Things Are",
     description:
-      "Hay means \"there is/there are\" and estar tells you where something is. Learn when to use each, why hay never goes with el or la, and the mistakes learners make.",
+      "Hay means \"there is/there are\" and estar tells you where something is. Learn when to use each, why hay never takes el or la, and common learner mistakes.",
     level: "A1",
     readingLevelPath: "a1",
     intro: [
@@ -704,9 +704,9 @@ export const A1_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-demonstratives",
     title: "Spanish Demonstratives: Este, Ese and Aquel",
-    metaTitle: "Este, Ese, Aquel: Spanish Demonstratives Explained",
+    metaTitle: "Este, Ese, Aquel: Spanish Demonstratives",
     description:
-      "Spanish has three words for \"this\" and \"that\": este, ese and aquel. Learn all their forms, when to use each, the neuter esto/eso/aquello, and the accent question.",
+      "Spanish has three words for \"this\" and \"that\": este, ese and aquel. Learn every form, when to use each, the neuter esto/eso/aquello, and accents.",
     level: "A1",
     readingLevelPath: "a1",
     intro: [
@@ -799,9 +799,9 @@ export const A1_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-possessives",
     title: "Spanish Possessives: Mi, Tu, Su and Mío, Tuyo, Suyo",
-    metaTitle: "Spanish Possessive Adjectives and Pronouns (Mi, Mío, El Mío)",
+    metaTitle: "Spanish Possessives: Mi, Mío, El Mío",
     description:
-      "How to say my, your, his, our and theirs in Spanish: the short forms (mi, tu, su), the long forms (mío, tuyo), possessive pronouns (el mío), and how to avoid confusion with su.",
+      "How to say my, your, his, our and theirs in Spanish: short forms (mi, tu, su), long forms (mío, tuyo), possessive pronouns (el mío), and su.",
     level: "A1",
     readingLevelPath: "a1",
     intro: [
@@ -898,7 +898,7 @@ export const A1_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-question-words",
     title: "Spanish Question Words: Qué, Cuál, Dónde, Cuándo and More",
-    metaTitle: "Spanish Question Words: Qué vs. Cuál and the Full List",
+    metaTitle: "Spanish Question Words: Qué vs. Cuál and More",
     description:
       "The Spanish question words with examples: qué, cuál, quién, dónde, adónde, cuándo, cómo, cuánto and por qué, plus how to choose between qué and cuál.",
     level: "A1",
@@ -998,9 +998,9 @@ export const A1_GUIDES: GrammarGuide[] = [
   {
     slug: "present-progressive",
     title: "The Present Progressive: Estar + Gerund",
-    metaTitle: "Spanish Present Progressive (Estoy Hablando) Explained",
+    metaTitle: "Spanish Present Progressive (Estoy Hablando)",
     description:
-      "Learn how to form the Spanish present progressive with estar and the gerund (-ando, -iendo), when to use it, when not to, and how it differs from English \"-ing.\"",
+      "How to form the Spanish present progressive with estar and the gerund (-ando, -iendo), when to use it, when not to, and how it differs from English \"-ing.\"",
     level: "A1",
     readingLevelPath: "a1",
     intro: [
@@ -1082,9 +1082,9 @@ export const A1_GUIDES: GrammarGuide[] = [
   {
     slug: "prepositions-a-en-de-con",
     title: "Spanish Prepositions: A, En, De and Con",
-    metaTitle: "Spanish Prepositions A, En, De, Con: Uses and Examples",
+    metaTitle: "Spanish Prepositions A, En, De, Con",
     description:
-      "The four most common Spanish prepositions don't map neatly onto English. Learn the main uses of a, en, de and con, the contractions al and del, and conmigo/contigo.",
+      "The four most common Spanish prepositions don't map neatly onto English. Learn the main uses of a, en, de and con, plus al, del and conmigo.",
     level: "A1",
     readingLevelPath: "a1",
     intro: [

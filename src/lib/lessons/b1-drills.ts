@@ -2761,7 +2761,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
   L(
     "si-clauses-simple-1",
     "b1d-corrige-si-futuro",
-    "Corrige el párrafo: nunca futuro después de si",
+    "Corrige el párrafo: nunca futuro después del si de condición",
     "Un mensaje con «si vendrás» y «si tengas»: el error más típico de las condicionales.",
     "6 min",
     [
@@ -2785,7 +2785,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         "¿Cuál es correcta?",
         ["Si sales tarde, perderás el autobús.", "Si saldrás tarde, pierdes el autobús.", "Si salgas tarde, perderás el autobús.", "Si saldrías tarde, perderás."],
         0,
-        "Condición real: si + presente, y el resultado en futuro: si sales tarde, perderás el autobús. «Si saldrás», «si salgas» y «si saldrías» usan formas que nunca van después de si."
+        "Condición real: si + presente, y el resultado en futuro: si sales tarde, perderás el autobús. «Si saldrás», «si salgas» y «si saldrías» usan formas que nunca van después del si de condición."
       ),
       toEs("If there's traffic, we'll arrive late.", "Si hay tráfico, llegaremos tarde.", "Si + presente (hay) + futuro (llegaremos).", ["Si hay atasco, llegaremos tarde."]),
     ]

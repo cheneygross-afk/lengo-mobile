@@ -488,7 +488,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué frases son correctas?",
         ["Si pudiera, viajaría por el mundo.", "Si tendría dinero, compraría una casa.", "Viviría en el campo si no tuviera que trabajar en la ciudad.", "Si fuese más joven, aprendería a surfear."],
         [0, 2, 3],
-        "Tras «si» condicional va imperfecto de subjuntivo («pudiera», «tuviera», «fuese») y en la consecuencia condicional. «Si tendría dinero» es incorrecta: nunca va condicional después de «si»."
+        "Tras «si» condicional va imperfecto de subjuntivo («pudiera», «tuviera», «fuese») y en la consecuencia condicional. «Si tendría dinero» es incorrecta: nunca va condicional después de este «si»."
       ),
       toEs("If I were you, I'd accept the offer.", "Si yo fuera tú, aceptaría la oferta.", "Si + imperfecto de subjuntivo + condicional.", ["Si fuera tú, aceptaría la oferta.", "Yo que tú, aceptaría la oferta.", "Si yo fuese tú, aceptaría la oferta."]),
       wo("¿Qué cambiarías de tu vida si pudieras empezar de nuevo?", "Condicional + si + imperfecto de subjuntivo.", "What would you change about your life if you could start over?"),
@@ -574,7 +574,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué frases tienen un error?",
         ["Si pudiera, te ayudaría.", "Si habría sabido, no habría venido.", "Si fueras más paciente, entenderías.", "Si me llamas, te contesto."],
         [1],
-        "El error está en «Si habría sabido…»: tras «si» nunca va condicional; lo correcto es «Si hubiera sabido». Las otras tres frases son correctas."
+        "El error está en «Si habría sabido…»: tras el «si» condicional nunca va condicional; lo correcto es «Si hubiera sabido». Las otras tres frases son correctas."
       ),
       mc(
         "¿Cuál es correcta?",
@@ -2099,7 +2099,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué consejos están bien formados?",
         ["Si yo fuera tú, iría al médico.", "Si yo sería tú, iría al médico.", "Yo en tu lugar, pediría perdón.", "Yo que tú, lo pensaría dos veces."],
         [0, 2, 3],
-        "Tras «si» nunca va condicional: «Si yo fuera tú». «Si yo sería tú» es incorrecta; «yo en tu lugar» y «yo que tú» son fórmulas correctas."
+        "Tras el «si» condicional nunca va condicional: «Si yo fuera tú». «Si yo sería tú» es incorrecta; «yo en tu lugar» y «yo que tú» son fórmulas correctas."
       ),
       toEs("If I were you, I wouldn't buy that car.", "Si yo fuera tú, no compraría ese coche.", "Si yo fuera tú + condicional.", ["Yo que tú, no compraría ese coche.", "Yo en tu lugar, no compraría ese coche.", "Si fuera tú, no compraría ese coche."]),
       wo("Yo en tu lugar le diría exactamente lo que piensas.", "Yo en tu lugar + condicional.", "In your place I'd tell him exactly what you think."),
@@ -3167,7 +3167,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "La lista de control del B2",
-        "Relativas (¿existe el antecedente?), adverbiales (¿futuro o hábito?), secuencia de tiempos, condicionales (nunca condicional tras si), estilo indirecto, ser/estar/haber, verbos de cambio, conectores, énfasis, cuyo.",
+        "Relativas (¿existe el antecedente?), adverbiales (¿futuro o hábito?), secuencia de tiempos, condicionales (nunca condicional tras el si condicional; tras el si de una pregunta indirecta, sí: \"No sé si vendría\"), estilo indirecto, ser/estar/haber, verbos de cambio, conectores, énfasis, cuyo.",
         [
           ["✗ Si tendría tiempo, iría. → ✓ Si tuviera tiempo, iría.", "If I had time, I'd go."],
           ["✗ Me pidió que le llamo. → ✓ Me pidió que lo/le llamara.", "He asked me to call him."],
@@ -4286,7 +4286,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "«If Dad were here, he would know what to do.»",
         ["Si papá estuviera aquí, sabría qué hacer.", "Si papá estaría aquí, sabría qué hacer.", "Si papá está aquí, sabría qué hacer.", "Si papá estuvo aquí, sabría qué hacer."],
         0,
-        "Condición irreal presente: «si» + imperfecto de subjuntivo («estuviera») y condicional («sabría»). «Si estaría» es incorrecto porque tras «si» nunca va condicional, y «si está» sería una condición real."
+        "Condición irreal presente: «si» + imperfecto de subjuntivo («estuviera») y condicional («sabría»). «Si estaría» es incorrecto porque tras el «si» condicional nunca va condicional, y «si está» sería una condición real."
       ),
       ms(
         "¿Qué frases son correctas?",

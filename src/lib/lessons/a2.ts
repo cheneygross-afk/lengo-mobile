@@ -1,5 +1,6 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/a2.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Lesson } from "./types";
+import { A2_PERFECT_PRONOUNS } from "./a2-perfect-pronouns";
 import { buildLevel } from "./sequencing";
 import { A2_REINFORCEMENT } from "./a2-reinforcement";
 import { A2_DRILLS } from "./a2-drills";
@@ -17146,4 +17147,4 @@ const A2_BASE_LESSONS: Lesson[] = [
 // the same way; at a shared anchor they follow the reinforcement lessons.
 // sequencing.ts applies the course order (moved topics, spread-out
 // vocabulary, optional Extra Practice) after weaving.
-export const A2_LESSONS: Lesson[] = buildLevel("A2", A2_BASE_LESSONS, [...A2_REINFORCEMENT, ...A2_DRILLS, ...A2_COMMON_WORDS, ...A2_GAPS, ...A2_SURVIVAL]);
+export const A2_LESSONS: Lesson[] = buildLevel("A2", A2_BASE_LESSONS, [...A2_REINFORCEMENT, ...A2_DRILLS, ...A2_COMMON_WORDS, ...A2_GAPS, ...A2_SURVIVAL, ...A2_PERFECT_PRONOUNS]);

@@ -6,8 +6,9 @@ import type { AppStackParamList } from "@/navigation/types";
 import { loadFlashcards, saveFlashcards, type FlashcardEntry } from "@/lib/flashcards/store";
 import { seedJapaneseAlphabetDecks } from "@/lib/lessons/ja-alphabet-decks";
 import { gradeCard, type ReviewGrade } from "@/lib/srs";
-import { addStudyMinutes, getDueCardsForToday, noteCardReviewed } from "@/lib/learnerPrefs";
-import { FLASHCARD_REVIEW_MINUTES } from "@/lib/learnerPlan";
+import { getDueCardsForToday, noteCardReviewed } from "@/lib/learnerPrefs";
+import { creditStudy } from "@/lib/studyDays";
+import { FLASHCARD_MINUTES, STREAK_MIN_FLASHCARDS } from "@/lib/studyCredit";
 import { ENGLISH_LANG, SPANISH_LANG, langForLevelPath, speak, stopSpeaking } from "@/lib/speech";
 import { deckExample } from "@/lib/decks";
 import TapText from "@/components/TapText";
@@ -57,7 +58,13 @@ export default function FlashcardsScreen({ route, navigation }: Props) {
   async function grade(g: ReviewGrade) {
     const card = due[index];
     if (!card) return;
-    void noteCardReviewed(card).then(() => addStudyMinutes(FLASHCARD_REVIEW_MINUTES));
+    // About 10 seconds a card toward today's goal; the day counts toward
+    // the streak from the STREAK_MIN_FLASHCARDS-th card, or when the due
+    // pile is cleared, whichever comes first.
+    const graded = index + 1;
+    void noteCardReviewed(card).then(() =>
+      creditStudy(FLASHCARD_MINUTES, { counts: graded >= STREAK_MIN_FLASHCARDS || graded >= due.length })
+    );
     const updated = gradeCard(card, g);
     const nextAll = { ...all, [updated.id]: updated };
     setAll(nextAll);

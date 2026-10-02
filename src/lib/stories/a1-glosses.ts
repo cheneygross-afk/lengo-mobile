@@ -1,8 +1,10 @@
 // Synced from cheneygross-afk/lengo:src/lib/stories/a1-glosses.ts by scripts/sync-content.mjs -- edit it there, not here.
+import { A1_STARTER_GLOSSES } from "./a1-starter";
 import type { StoryGloss } from "./types";
 
 // English glosses for the A1 stories, keyed by story slug. See glosses.ts.
 export const A1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
+  ...A1_STARTER_GLOSSES,
   "school-day-math-test": [
     { es: "la sonrisa", en: "smile", forms: ["sonrisa"] },
     { es: "la calma", en: "calm", forms: ["calma"] },
@@ -184,14 +186,11 @@ export const A1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "la atención", en: "attention", forms: ["atención"] },
     { es: "decir", en: "to say", forms: ["dice"] },
     { es: "enseñar", en: "to teach", forms: ["enseña"] },
-    { es: "ser", en: "to be", forms: ["era"] },
     { es: "especial", en: "special", forms: ["especial"] },
-    { es: "joven", en: "young", forms: ["joven"] },
     { es: "la limonada", en: "lemonade", forms: ["limonada"] },
     { es: "la madera", en: "wood", forms: ["madera"] },
     { es: "el martillo", en: "hammer", forms: ["martillo"] },
     { es: "mientras", en: "while", forms: ["mientras"] },
-    { es: "ofrecer", en: "to offer", forms: ["ofrece"] },
     { es: "orgulloso", en: "proud", forms: ["orgullosos"] },
     { es: "reparado", en: "repaired", forms: ["reparada"] },
   ],
@@ -264,7 +263,6 @@ export const A1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "el clima", en: "weather", forms: ["clima"] },
     { es: "conocer", en: "to know", forms: ["conoce"] },
     { es: "la curiosidad", en: "curiosity", forms: ["curiosidad"] },
-    { es: "dar", en: "to give", forms: ["da"] },
     { es: "desde hace", en: "for (a time)", forms: ["desde"] },
     { es: "decir", en: "to say", forms: ["dice"] },
     { es: "escoger", en: "to choose", forms: ["escoge"] },
@@ -272,7 +270,6 @@ export const A1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "oler", en: "to smell", forms: ["huelen"] },
     { es: "el olor", en: "smell", forms: ["olores"] },
     { es: "el plátano", en: "banana", forms: ["plátanos"] },
-    { es: "probar", en: "to try, to taste", forms: ["probar"] },
     { es: "probar", en: "to taste", forms: ["prueba"] },
     { es: "responder", en: "to answer", forms: ["responde"] },
   ],
@@ -1045,7 +1042,6 @@ export const A1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "el bolsillo", en: "pocket", forms: ["bolsillo"] },
     { es: "el cambio", en: "change (money)", forms: ["cambio"] },
     { es: "corto", en: "short", forms: ["corta"] },
-    { es: "dar", en: "to give", forms: ["da"] },
     { es: "enseñar", en: "to teach", forms: ["enseña"] },
     { es: "la esquina", en: "corner", forms: ["esquina"] },
     { es: "la forma", en: "shape", forms: ["formas"] },
@@ -1598,8 +1594,6 @@ export const A1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "el paraguas", en: "umbrella", forms: ["paraguas"] },
     { es: "el asiento", en: "seat", forms: ["asiento"] },
     { es: "decir", en: "to say", forms: ["dice"] },
-    { es: "dejar", en: "to leave", forms: ["dejaste"] },
-    { es: "guardar", en: "to keep, to put away", forms: ["guardé"] },
     { es: "la juventud", en: "youth", forms: ["juventud"] },
     { es: "llover", en: "to rain", forms: ["llueve"] },
     { es: "mojado", en: "wet", forms: ["mojada"] },

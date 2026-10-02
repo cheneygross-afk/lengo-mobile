@@ -16,6 +16,9 @@ import {
   videoUrlAt,
 } from "@/lib/lessons/videoQuizzes";
 import { saveVideoQuizResult } from "@/lib/videoQuizProgress";
+import { creditStudyOnce, type CreditResult } from "@/lib/studyDays";
+import { videoQuizMinutes } from "@/lib/studyCredit";
+import StudyCreditNote from "@/components/StudyCreditNote";
 
 // A video's "Check your understanding" quiz (videoQuizzes.ts), as a sheet
 // over the screen -- the app's version of the website's VideoQuizPanel.
@@ -45,6 +48,7 @@ function Quiz({ video, onClose }: { video: LessonVideo; onClose: () => void }) {
   const [picked, setPicked] = useState<number | null>(null);
   const [correct, setCorrect] = useState(0);
   const [done, setDone] = useState(false);
+  const [credit, setCredit] = useState<CreditResult | null>(null);
 
   const q = quiz?.questions[index];
   if (!quiz || !q) return null;
@@ -69,6 +73,14 @@ function Quiz({ video, onClose }: { video: LessonVideo; onClose: () => void }) {
       setPicked(null);
     } else {
       saveVideoQuizResult(video.videoId, correct, total);
+      // Watching plus the quiz toward today's goal (the video's length
+      // estimated from the quiz's timestamps), once a day per video; the
+      // day counts toward the streak.
+      void creditStudyOnce(
+        `video:${video.videoId}`,
+        videoQuizMinutes({ questionCount: total, questionSeconds: quiz!.questions.map((x) => x.atSeconds) }),
+        { counts: true }
+      ).then(setCredit);
       setDone(true);
     }
   }
@@ -107,6 +119,7 @@ function Quiz({ video, onClose }: { video: LessonVideo; onClose: () => void }) {
               mode={textMode}
               style={s.scoreText}
             />
+            <StudyCreditNote result={credit} />
             <View style={s.row}>
               <Pressable onPress={restart} accessibilityRole="button" style={s.outlineBtn}>
                 <Text style={s.outlineBtnText}>{t.retry}</Text>

@@ -2,6 +2,8 @@
 import type { Lesson } from "./types";
 import { buildLevel } from "./sequencing";
 import { A1_REINFORCEMENT } from "./a1-reinforcement";
+import { A1_IRREGULARS } from "./a1-irregulars";
+import { A1_CORE } from "./a1-core";
 import { A1_ADDITIONS } from "./a1-additions";
 import { withSkillSamples } from "./skills-samples";
 
@@ -3159,7 +3161,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Un vs. una vs. uno: matching the noun",
         "body": [
-          "You met this briefly already, but it deserves its own focus because it's one of the most common small mistakes learners make. Uno only appears in its full form when counting in isolation (uno, dos, tres) or at the very end of a larger number with nothing following it.",
+          "You met this briefly already, but it deserves its own focus because it's one of the most common small mistakes learners make. As a number word, uno keeps its full form when you count (uno, dos, tres), at the end of a larger number with nothing after it (cuarenta y uno), and when it stands alone instead of a noun: Quiero uno (I want one), uno de ellos (one of them).",
           "Right before a masculine singular noun, uno shortens to un: un coche, un año, un problema. Right before a feminine singular noun, it becomes una: una mesa, una idea.",
           "The same shortening happens inside veintiuno: veintiún libros (masculine, note the added accent on veintiún) and veintiuna páginas (feminine). This also applies to any compound ending in uno, like treinta y un días or cincuenta y una personas."
         ],
@@ -7924,12 +7926,16 @@ const A1_BASE_LESSONS: Lesson[] = [
             "explanation": "Dónde, cuál, and quién all need their accent when asking a question. Como, cuando, and porque are unaccented non-question words (comparisons, statements, and 'because')."
           },
           {
-            "type": "fill-blank",
-            "prompt": "Rewrite this question with the missing punctuation mark added.",
-            "sentence": "Qué hora es?",
-            "answer": "¿Qué hora es?",
-            "hint": "Spanish questions need a mark at both ends.",
-            "explanation": "Spanish requires an inverted question mark (¿) at the start of every question, not just the one at the end."
+            "type": "multiple-choice",
+            "question": "\"What time is it?\" Which one is written correctly in Spanish?",
+            "options": [
+              "Qué hora es?",
+              "¿Qué hora es?",
+              "¿Qué hora es¿",
+              "Qué hora es"
+            ],
+            "correctIndex": 1,
+            "explanation": "Spanish questions take a mark at both ends: an upside-down ¿ at the start and a normal ? at the end. Qué keeps its accent because it asks a question."
           }
         ]
       },
@@ -15580,5 +15586,5 @@ const A1_BASE_LESSONS: Lesson[] = [
 // withSkillSamples adds the sample listening/speaking/writing exercises
 // (skills-samples.ts).
 export const A1_LESSONS: Lesson[] = withSkillSamples(
-  buildLevel("A1", A1_BASE_LESSONS, [...A1_REINFORCEMENT, ...A1_ADDITIONS])
+  buildLevel("A1", A1_BASE_LESSONS, [...A1_REINFORCEMENT, ...A1_ADDITIONS, ...A1_IRREGULARS, ...A1_CORE])
 );

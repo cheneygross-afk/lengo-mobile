@@ -39,7 +39,9 @@ export type GrammarGuide = {
   slug: string;
   // On-page H1.
   title: string;
-  // <title> tag (slotted into the site's "%s — Deep End Spanish" template).
+  // <title> tag (slotted into the site's "%s | Deep End" template), at most
+  // 49 characters so the full title fits in a search result (about 60).
+  // `description` is the meta description, at most 155 characters.
   metaTitle: string;
   description: string;
   level: "A1" | "A2" | "B1" | "B2" | "C1" | "C2";

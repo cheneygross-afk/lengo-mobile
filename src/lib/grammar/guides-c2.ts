@@ -5,9 +5,9 @@ export const C2_GUIDES: GrammarGuide[] = [
   {
     slug: "diminutives-and-augmentatives",
     title: "Diminutives and Augmentatives in Spanish: -ito, -illo, -ón, -azo",
-    metaTitle: "Spanish Diminutives and Augmentatives (-ito, -ico, -ón, -azo)",
+    metaTitle: "Spanish Diminutives and Augmentatives",
     description:
-      "How Spanish diminutives (-ito, -illo, -ico) and augmentatives (-ón, -azo, -ote) are formed, what they really express (affection, irony, politeness, contempt), regional preferences and lexicalized words.",
+      "How Spanish diminutives (-ito, -illo, -ico) and augmentatives (-ón, -azo, -ote) are formed, and what they express: affection, irony or contempt.",
     level: "C2",
     readingLevelPath: "c1c2",
     intro: [
@@ -110,9 +110,9 @@ export const C2_GUIDES: GrammarGuide[] = [
   {
     slug: "future-subjunctive",
     title: "The Spanish Future Subjunctive: Fuere, Hubiere, Quien Fuere",
-    metaTitle: "Spanish Future Subjunctive (Futuro de Subjuntivo): Legal and Literary Uses",
+    metaTitle: "Spanish Future Subjunctive: Hablare, Fuere",
     description:
-      "The future subjunctive (hablare, fuere, hubiere) is almost extinct in speech but alive in legal texts, sayings and set phrases. Learn how it's formed, where you'll meet it, and what replaces it today.",
+      "The future subjunctive (hablare, fuere, hubiere) is nearly gone from speech but alive in legal texts and sayings. Learn its forms and where to meet it.",
     level: "C2",
     readingLevelPath: "c1c2",
     intro: [
@@ -197,9 +197,9 @@ export const C2_GUIDES: GrammarGuide[] = [
   {
     slug: "narrative-tenses-and-historical-present",
     title: "Narrative Tenses: The Historical Present and Tense Shifts in Storytelling",
-    metaTitle: "Spanish Historical Present and Narrative Tenses (C2)",
+    metaTitle: "Spanish Historical Present and Narrative Tenses",
     description:
-      "How Spanish storytellers and historians play with tense: the historical present (Colón llega a América en 1492), the narrative imperfect, the -ra form as a pluperfect, and the prospective conditional.",
+      "How Spanish storytellers use tense: the historical present (Colón llega a América en 1492), the narrative imperfect, and -ra as a pluperfect.",
     level: "C2",
     readingLevelPath: "c1c2",
     intro: [
