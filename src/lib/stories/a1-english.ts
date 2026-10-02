@@ -1,10 +1,12 @@
 // Synced from cheneygross-afk/lengo:src/lib/stories/a1-english.ts by scripts/sync-content.mjs -- edit it there, not here.
+import { A1_STARTER_ENGLISH } from "./a1-starter";
 // English translations of the A1 stories, one per paragraph, keyed by
 // story slug -- shown under each paragraph by the "Show English" toggle.
 // Keep each list the same length as the story's paragraphs (`npm run
 // check-content` checks) and update it whenever a paragraph changes.
 
 export const A1_STORY_ENGLISH: Record<string, string[]> = {
+  ...A1_STARTER_ENGLISH,
   "school-day-math-test": [
     "Marta is ten years old and goes to a small school. Today is Monday, and there is a math test. Marta is very nervous because math is hard for her. She doesn't sleep well the night before the test.",
     "In the morning, Marta walks to school with her friend Pablo. Pablo has the test too, but he isn't nervous. \"Numbers aren't a monster,\" Pablo says with a smile. Marta smiles a little, but she is still scared.",
@@ -64,9 +66,9 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
   "helping-mr-martin": [
     "Mr. Martín is Diego's neighbor. He is an older man who lives alone in the house next door. One day, Diego sees that the fence around Mr. Martín's yard is broken. Mr. Martín tries to fix it, but it's hard for him.",
     "Diego decides to help his neighbor. \"Mr. Martín, can I help you?\" Diego asks with a smile. Mr. Martín is surprised, but he gladly accepts the help. The two of them start working on the fence together.",
-    "Diego holds the wooden boards while Mr. Martín uses the hammer. They work for two hours in the afternoon sun. Mr. Martín tells interesting stories from when he was young. Diego listens very closely and asks questions.",
-    "Finally, the fence is repaired and it looks very good. Mr. Martín is very grateful to Diego. \"You're a good boy,\" he tells him, and offers him cold lemonade. The two of them sit in the yard and talk a little more.",
-    "From that day on, Diego visits Mr. Martín every week. Sometimes he helps him with the yard or with the shopping. Mr. Martín teaches him to play chess on Saturdays. He isn't alone anymore, and Diego has a special new friend.",
+    "Diego holds the wooden boards while Mr. Martín uses the hammer. They work for two hours in the afternoon sun. Mr. Martín tells interesting stories about his youth. Diego listens very closely and asks questions.",
+    "Finally, the fence is repaired and it's in very good shape. Mr. Martín is very grateful to Diego. \"You're a good boy,\" he says. Then he brings cold lemonade for both of them. They stay in the yard and talk a little more.",
+    "From that day on, Diego visits Mr. Martín every week. Sometimes he helps him with the yard or with the shopping. On Saturdays, Mr. Martín teaches Diego chess. He isn't alone anymore, and Diego has a special new friend.",
     "Diego's parents are very proud of him. They say that helping your neighbors is very important. Diego learns that friendship doesn't depend on age. Mr. Martín and Diego are now great friends.",
   ],
   "grandpas-garden": [
@@ -95,7 +97,7 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
   ],
   "saturday-at-the-market": [
     "Every Saturday, Mateo goes to the market with his mom. The market is full of colors, smells and sounds. There are stalls with fruit, vegetables, flowers and fresh bread. Mateo carries a cloth bag for the shopping.",
-    "First, they go to the fruit stall. Mateo's mom buys apples, bananas and oranges. The seller smiles and gives Mateo a small fruit to try. \"What fruit is this?\" Mateo asks curiously.",
+    "First, they go to the fruit stall. Mateo's mom buys apples, bananas and oranges. The seller smiles and has a small fruit for Mateo. \"What fruit is this?\" Mateo asks curiously.",
     "\"It's called a mango,\" the seller answers kindly. Mateo tries the mango and loves its sweet taste. He asks his mom to buy several mangoes for the house. His mom says yes and buys a full bag.",
     "Next, they walk over to the vegetable stall. They buy tomatoes, carrots and a big head of lettuce. The vegetable seller has known Mateo's mom for years. They talk for a moment about the weather and the family.",
     "Mateo also wants to buy flowers for his grandmother. At the flower stall, he chooses some pretty yellow flowers. His mom pays for the flowers and Mateo carries them carefully. The flowers smell very sweet in his hands.",
@@ -455,12 +457,12 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
   ],
   "la-panaderia-de-la-esquina": [
     "On the corner of the street there is a small bakery. The baker's name is Don Alberto. Every morning, the smell of bread reaches Lucía's house.",
-    "One Saturday, Lucía decides to go to the bakery on her own for the first time. Her mom gives her some money and a short list. Lucía walks very carefully.",
+    "One Saturday, Lucía decides to go to the bakery on her own for the first time. She has some money and a short list from her mom. Lucía walks very carefully.",
     "Inside the bakery, there is bread of many shapes and colors. Don Alberto greets Lucía with a big smile. \"What do you need today?\" he asks.",
     "Lucía looks at her list: two loaves of bread and some small pastries. She points to the pastries on the shelf. Don Alberto puts them in a paper bag.",
-    "Lucía counts the money carefully, the way her mom taught her. Don Alberto counts the change out loud. Lucía puts the coins in her pocket.",
+    "Lucía counts the money carefully, the way her mom teaches. Don Alberto counts the change out loud. Lucía puts the coins in her pocket.",
     "\"Thank you, and good job today,\" Don Alberto says. Lucía smiles proudly. She walks back home with the bag of bread.",
-    "At home, her mom opens the bag and sees that everything is right. \"You did a perfect job,\" her mom says. Lucía is very happy with her first visit on her own.",
+    "At home, her mom opens the bag and sees that everything is right. \"It's a perfect job!\" her mom says. Lucía is very happy with her first visit on her own.",
   ],
   "la-estacion-de-bomberos": [
     "Javier's class visits the town fire station. All the students get on a yellow bus. Javier is very excited about the visit.",
@@ -556,9 +558,9 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
     "Hugo and Mateo are brothers. Hugo is nine and Mateo is six. Today is Friday, and their aunt Lola is taking them to the movies. It's Mateo's first time at the movies.",
     "The movie theater is downtown. It's a big building with lots of lights. There are lots of people at the door. Aunt Lola buys three tickets for an animal movie.",
     "Before going in, Aunt Lola buys popcorn and three sodas. The popcorn is hot and salty. Mateo eats lots of popcorn before they go into the theater.",
-    "The theater is very dark and the screen is huge. Mateo is a little scared. Hugo takes his hand and tells him, \"Don't worry, it's just a movie.\"",
-    "The movie is about a bear looking for his family in the forest. It's funny and a little sad too. In one part, the bear cries and Mateo cries too. Aunt Lola gives him a tissue.",
-    "At the end, the bear finds his family. Everyone in the theater claps. Mateo claps very hard and shouts, \"Bravo, bear!\" Some people laugh.",
+    "The theater is very dark and the screen is huge. Mateo is a little scared. Hugo holds his brother's hand and says, \"Don't worry, it's just a movie.\"",
+    "The movie is about a bear looking for his family in the forest. It's funny and a little sad too. In one part, the bear cries and Mateo cries too. Aunt Lola has a tissue for him.",
+    "At the end, the bear finds his family. Everyone in the theater claps. Mateo claps very hard and shouts, \"Bravo, bear!\" Some people laugh too.",
     "Out on the street, Aunt Lola asks, \"What's the best part of the night?\" \"The movie,\" Hugo says. Mateo thinks for a moment. \"The best part is being with you,\" he says. Aunt Lola hugs him.",
   ],
   "a-day-on-the-farm": [
@@ -620,9 +622,9 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
     "One spring day, Andrés is playing in the garden. Suddenly, he sees a very pretty yellow butterfly. The butterfly flies from flower to flower.",
     "Andrés runs to the kitchen and finds an empty glass jar. \"I want the butterfly for my room!\" he says. He runs back out to the garden.",
     "The butterfly is on a red flower. Andrés walks very slowly, without making a sound. He puts the jar over the flower and... the butterfly is inside! Andrés closes the jar with the lid.",
-    "Andrés looks at the butterfly with his magnifying glass. It has yellow wings with black spots. But the butterfly doesn't fly. It stays still at the bottom of the jar. Andrés gets sad.",
+    "Andrés looks at the butterfly with his magnifying glass. It has yellow wings with black spots. But the butterfly doesn't fly. It stays still at the bottom of the jar. Andrés is sad.",
     "His grandmother comes out into the garden. \"The butterfly needs flowers, sun and air,\" she explains. \"It isn't happy in the jar.\" Andrés thinks for a moment. He doesn't want a sad butterfly.",
-    "Andrés opens the jar. The butterfly comes out and flies high, over the flowers and the trees. Andrés smiles. Now, every day, he looks for the yellow butterfly in the garden, but only to watch it.",
+    "Andrés opens the jar. The butterfly comes out and flies high, over the flowers and the trees. Andrés smiles. Now he looks for the yellow butterfly in the garden every day. But only to watch.",
   ],
   "treasure-map-in-the-attic": [
     "Olivia and her cousin Marco are spending the summer at their grandparents' house. One day it rains and they can't play outside. They go up to the attic to look for old games.",
@@ -697,13 +699,13 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
     "At midnight, Sara is very sleepy. In bed, she asks, \"Grandpa, what's your wish?\" Grandpa smiles. \"My wish is to see more stars with you,\" he says. Sara smiles too. It's the same wish she has.",
   ],
   "bird-nest-in-the-window": [
-    "In March, Martín's family sees two little birds at the kitchen window. The birds are carrying twigs and dry leaves in their beaks. They are building a nest.",
+    "It's March. Martín's family sees two little birds at the kitchen window. The birds are carrying twigs and dry leaves in their beaks. They are building a nest.",
     "Martín is eight years old. Every morning, he eats breakfast and looks at the nest. Little by little, the nest gets bigger and prettier. It's shaped like a cup.",
     "One day, Martín sees four blue eggs in the nest. They are very small. The mother bird sits on the eggs day and night. The father bird brings food.",
     "Dad says, \"We're not opening this window now. The birds need peace and quiet.\" The whole family talks quietly in the kitchen.",
     "Two weeks later, Martín hears a sound: \"tweet, tweet, tweet.\" There are four baby birds in the nest! They have no feathers and their mouths are wide open. They are always hungry.",
     "The parent birds bring worms and insects all day long. The baby birds grow fast. Now they have gray feathers. Martín draws pictures of the baby birds in a notebook.",
-    "One day in April, the baby birds hop out of the nest and fly. At first they fly badly, but then they fly well. The nest is empty. Martín is a little sad, but his mom says, \"Maybe they'll come back next year.\" Martín keeps his notebook and waits for spring.",
+    "One day in April, the baby birds hop out of the nest and fly. At first they fly badly, but then they fly well. The nest is empty. Martín is a little sad. But his mom says, \"Maybe they'll come back next year.\" Martín keeps his notebook and waits for spring.",
   ],
   "the-costume-party": [
     "On Friday there is a costume party at Álex's school. All his friends have new costumes from the store: a superhero, a pirate, a princess and a dinosaur.",
@@ -719,9 +721,9 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
     "On the bus, Marina reads a book. The story is very interesting. When she gets to her stop, she gets off the bus very quickly. Her umbrella is on the seat!",
     "Marina runs to school in the rain. She arrives wet and sad. \"My favorite umbrella,\" she says to her friend Lucía. \"I'm never going to see it again.\"",
     "The next day, Marina gets on the same bus at the same time. An older man in a hat is sitting at the front. He has a yellow umbrella with white dots in his hand.",
-    "The man looks at Marina and smiles. \"Is this umbrella yours?\" he asks. \"You left it on the seat yesterday. I kept it because I know you take this bus every day.\"",
+    "The man looks at Marina and smiles. \"Is this umbrella yours?\" he asks. \"I've had it since yesterday. I know you take this bus every day.\"",
     "Marina can't believe it. \"Yes, it's mine! Thank you so much!\" she says. The man's name is Don Felipe. He also takes the bus every morning to go to the market.",
-    "Now Marina and Don Felipe talk on the bus every day. He tells her stories from when he was young, and she tells him about her books. Marina never forgets her umbrella again.",
+    "Now Marina and Don Felipe talk on the bus every day. He tells stories from when he was young, and she talks about her books. Marina never forgets her umbrella again.",
   ],
   "checkup-at-the-doctor": [
     "Every year, in September, Lucas goes to the doctor for a checkup. Lucas is ten years old. He isn't sick, but his mom says checkups are important.",
@@ -742,8 +744,8 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
     "After a week, Doña Rosa's leg is better. But Laura asks, \"Can I walk Chocolate on Saturdays?\" Doña Rosa smiles. Laura is still a little afraid of other dogs, but not of Chocolate. Chocolate is her friend.",
   ],
   "saturday-house-cleaning": [
-    "In the Ruiz family's house, Saturday morning is cleaning day. Nobody likes it. The kids, Carlos and Elena, always say, \"How boring!\"",
-    "This Saturday, Dad has a new idea. He writes the chores on little pieces of paper: sweep the kitchen, clean the bathroom, take out the trash, tidy the living room, water the plants and wash the dishes.",
+    "In the Ruiz family's house, Saturday morning is for cleaning. Nobody likes it. The kids, Carlos and Elena, always say, \"How boring!\"",
+    "This Saturday, Dad has a new idea. He writes six chores on little pieces of paper. Someone has to sweep the kitchen, clean the bathroom and take out the trash. Someone also has to tidy the living room, water the plants and wash the dishes.",
     "Each person takes two pieces of paper from a box. Carlos gets the bathroom and the trash. Elena gets the plants and the living room. Mom gets the kitchen and Dad gets the dishes.",
     "Then Dad puts on very loud music in the living room. \"We have one hour,\" he says. \"Whoever finishes first chooses tonight's dinner.\" Now it's a game!",
     "Everyone works fast. Elena dances while she straightens the sofa cushions. Carlos sings in the bathroom with the broom in his hand. Mom sweeps to the beat of the music.",

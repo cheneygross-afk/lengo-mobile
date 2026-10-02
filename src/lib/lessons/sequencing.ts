@@ -2,6 +2,9 @@
 import type { Lesson } from "./types";
 import { weaveLessons, type AnchoredLesson } from "./weave";
 import { SKILL_LESSONS, withSkills } from "./skills";
+import { A1_IRREGULARS } from "./a1-irregulars";
+import { A1_CORE_PLACES } from "./a1-core";
+import { A2_PLACES } from "./a2-perfect-pronouns";
 
 // Course order on top of weave.ts. weaveLessons can only place a lesson
 // right after another one, so the reordering that came out of the
@@ -54,6 +57,14 @@ function moveBlock(lessons: Lesson[], fromSlug: string, endSlug: string, beforeS
 function moveLesson(lessons: Lesson[], slug: string, beforeSlug: string): void {
   const [lesson] = lessons.splice(indexOf(lessons, slug), 1);
   lessons.splice(indexOf(lessons, beforeSlug), 0, lesson);
+}
+
+/** Moves the lessons named in `slugs` (in that order) so they sit right
+ * before beforeSlug. A lesson moved out of a level's Extra Practice block
+ * this way becomes required, as long as beforeSlug is in the core. */
+function moveLessons(lessons: Lesson[], slugs: string[], beforeSlug: string): void {
+  const moved = slugs.map((slug) => lessons.splice(indexOf(lessons, slug), 1)[0]);
+  lessons.splice(indexOf(lessons, beforeSlug), 0, ...moved);
 }
 
 const LATER_PART = /(Part|Parte) ([2-9]|\d{2,}) (of|de) \d+/;
@@ -274,12 +285,25 @@ export function buildLevel(level: Level, base: Lesson[], extras: AnchoredLesson[
       moveLesson(lessons, "a1r-word-web-house", "demonstratives-1");
       moveLesson(lessons, "a1r-word-web-places", "ser-vs-estar-drill-1");
       moveLesson(lessons, "a1r-word-web-feelings", "ser-vs-estar-drill-1");
+      // Everyday irregulars (a1-irregulars.ts): yo-go verbs, dar, ver,
+      // saber, conocer, saber vs. conocer and verb + infinitive, as their
+      // own unit right after the regular and stem-changing present.
+      moveLessons(lessons, A1_IRREGULARS.map((a) => a.lesson.slug), "a1r-word-web-jobs");
       spreadParts(lessons, baseSlugs, partSlugs("vocabulary-practice", 4), "a1-final-review-1", "ser-vs-estar-drill-1");
+      // Core vocabulary and the routine, body, weather and clothes lessons
+      // (a1-core.ts), each next to the grammar it needs. This also lifts
+      // the weather and clothes-shopping missions out of Extra Practice.
+      for (const { slugs, before } of A1_CORE_PLACES) moveLessons(lessons, slugs, before);
       markOptional(lessons, "ser-vs-estar-drill-1", "a1-final-review-1");
       dropReadingPractice(level, lessons, base, "school-day-math-test");
       break;
     case "A2":
       spreadParts(lessons, baseSlugs, partSlugs("a2-vocabulary-practice", 5), "a2-comprehensive-review-1", "preterite-drill-1");
+      // The present perfect (after the two past tenses), two Common Words
+      // lessons, and double object pronouns late in the level, where the
+      // exit test already asks for them (a2-perfect-pronouns.ts). Three
+      // double-pronoun drills move out of Extra Practice with them.
+      for (const { slugs, before } of A2_PLACES) moveLessons(lessons, slugs, before);
       markOptional(lessons, "preterite-drill-1", "a2-comprehensive-review-1");
       dropReadingPractice(level, lessons, base, "first-day-new-school");
       // The last cumulative drills join the final review, and the

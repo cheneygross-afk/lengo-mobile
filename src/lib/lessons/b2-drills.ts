@@ -5530,7 +5530,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
             "¿Qué falla en «si yo sería presidente»?",
             ["Tras si, imperfecto de subjuntivo: fuera.", "Falta un artículo.", "Debe ser «soy».", "Nada."],
             0,
-            "Tras si nunca va el condicional; la hipótesis usa imperfecto de subjuntivo: si yo fuera presidente. No falta artículo y «soy» haría la condición real, algo absurdo aquí."
+            "Tras el si de condición nunca va el condicional; la hipótesis usa imperfecto de subjuntivo: si yo fuera presidente. No falta artículo y «soy» haría la condición real, algo absurdo aquí."
           ),
         ]
       ),

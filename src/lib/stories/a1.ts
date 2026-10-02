@@ -1,7 +1,9 @@
 // Synced from cheneygross-afk/lengo:src/lib/stories/a1.ts by scripts/sync-content.mjs -- edit it there, not here.
+import { A1_STARTER_STORIES } from "./a1-starter";
 import type { Story } from "./types";
 
 export const A1_STORIES: Story[] = [
+  ...A1_STARTER_STORIES,
   {
     slug: "school-day-math-test",
     level: "A1",
@@ -277,9 +279,9 @@ export const A1_STORIES: Story[] = [
     paragraphs: [
       "El señor Martín es el vecino de Diego. Es un hombre mayor que vive solo en la casa de al lado. Un día, Diego ve que la cerca del jardín del señor Martín está rota. El señor Martín intenta arreglarla, pero es difícil para él.",
       "Diego decide ayudar a su vecino. \"Señor Martín, ¿puedo ayudarlo?\" pregunta Diego con una sonrisa. El señor Martín está sorprendido, pero acepta la ayuda con gusto. Los dos empiezan a trabajar juntos en la cerca.",
-      "Diego sostiene las tablas de madera mientras el señor Martín usa el martillo. Trabajan por dos horas bajo el sol de la tarde. El señor Martín cuenta historias interesantes de cuando era joven. Diego escucha con mucha atención y hace preguntas.",
-      "Finalmente, la cerca está reparada y se ve muy bien. El señor Martín está muy agradecido con Diego. \"Eres un buen chico\", le dice, y le ofrece limonada fría. Los dos se sientan en el jardín y hablan un poco más.",
-      "Desde ese día, Diego visita al señor Martín cada semana. A veces lo ayuda con el jardín o con las compras. El señor Martín le enseña a jugar ajedrez los sábados. Ya no está solo, y Diego tiene un nuevo amigo especial.",
+      "Diego sostiene las tablas de madera mientras el señor Martín usa el martillo. Trabajan por dos horas bajo el sol de la tarde. El señor Martín cuenta historias interesantes de su juventud. Diego escucha con mucha atención y hace preguntas.",
+      "Finalmente, la cerca está reparada y está muy bien. El señor Martín está muy agradecido con Diego. \"Eres un buen chico\", dice él. Después trae limonada fría para los dos. Están en el jardín y hablan un poco más.",
+      "Desde ese día, Diego visita al señor Martín cada semana. A veces lo ayuda con el jardín o con las compras. Los sábados, el señor Martín enseña ajedrez a Diego. Ya no está solo, y Diego tiene un nuevo amigo especial.",
       "Los padres de Diego están muy orgullosos de él. Dicen que ayudar a los vecinos es muy importante. Diego aprende que la amistad no depende de la edad. El señor Martín y Diego ahora son grandes amigos.",
     ],
     questions: [
@@ -428,7 +430,7 @@ export const A1_STORIES: Story[] = [
       "A boy helps his mother shop at the outdoor market and discovers a new fruit he loves.",
     paragraphs: [
       "Todos los sábados, Mateo va al mercado con su mamá. El mercado está lleno de colores, olores y sonidos. Hay puestos de frutas, verduras, flores y pan fresco. Mateo lleva una bolsa de tela para las compras.",
-      "Primero, van al puesto de frutas. La mamá de Mateo compra manzanas, plátanos y naranjas. El vendedor sonríe y le da una fruta pequeña a Mateo para probar. \"¿Qué fruta es esta?\" pregunta Mateo con curiosidad.",
+      "Primero, van al puesto de frutas. La mamá de Mateo compra manzanas, plátanos y naranjas. El vendedor sonríe y tiene una fruta pequeña para Mateo. \"¿Qué fruta es esta?\" pregunta Mateo con curiosidad.",
       "\"Se llama mango\", responde el vendedor amablemente. Mateo prueba el mango y le encanta el sabor dulce. Pide a su mamá comprar varios mangos para la casa. Su mamá dice que sí y compra una bolsa llena.",
       "Después, caminan hacia el puesto de verduras. Compran tomates, zanahorias y una lechuga grande. El vendedor de verduras conoce a la mamá de Mateo desde hace años. Hablan un momento sobre el clima y la familia.",
       "Mateo también quiere comprar flores para su abuela. En el puesto de flores, escoge unas flores amarillas bonitas. Su mamá paga por las flores y Mateo las carga con cuidado. Las flores huelen muy dulce en sus manos.",
@@ -2242,12 +2244,12 @@ export const A1_STORIES: Story[] = [
       "Lucía visits the corner bakery alone for the first time and does a perfect job buying bread.",
     paragraphs: [
       "En la esquina de la calle hay una panadería pequeña. El panadero se llama don Alberto. Todas las mañanas, el olor a pan llega hasta la casa de Lucía.",
-      "Un sábado, Lucía decide visitar la panadería sola por primera vez. Su mamá le da dinero y una lista corta. Lucía camina con mucho cuidado.",
+      "Un sábado, Lucía decide visitar la panadería sola por primera vez. Lucía tiene dinero y una lista corta de su mamá. Lucía camina con mucho cuidado.",
       "Dentro de la panadería, hay pan de muchas formas y colores. Don Alberto saluda a Lucía con una sonrisa grande. \"¿Qué necesitas hoy?\" pregunta él.",
       "Lucía mira su lista: dos panes y unos pasteles pequeños. Ella señala los pasteles en el estante. Don Alberto los pone en una bolsa de papel.",
-      "Lucía cuenta el dinero con cuidado, como su mamá le enseña. Don Alberto cuenta el cambio en voz alta. Lucía guarda las monedas en su bolsillo.",
+      "Lucía cuenta el dinero con cuidado, como enseña su mamá. Don Alberto cuenta el cambio en voz alta. Lucía guarda las monedas en su bolsillo.",
       "\"Gracias, y buen trabajo hoy,\" dice don Alberto. Lucía sonríe orgullosa. Camina de vuelta a casa con la bolsa de pan.",
-      "En casa, su mamá abre la bolsa y ve todo correcto. \"Hiciste un trabajo perfecto,\" dice su mamá. Lucía está muy contenta con su primera visita sola.",
+      "En casa, su mamá abre la bolsa y ve todo correcto. \"¡Es un trabajo perfecto!\", dice su mamá. Lucía está muy contenta con su primera visita sola.",
     ],
     questions: [
       {
@@ -2743,9 +2745,9 @@ export const A1_STORIES: Story[] = [
       "Hugo y Mateo son hermanos. Hugo tiene nueve años y Mateo tiene seis. Hoy es viernes y su tía Lola los lleva al cine. Es la primera vez que Mateo va al cine.",
       "El cine está en el centro de la ciudad. Es un edificio grande con muchas luces. Hay mucha gente en la puerta. Tía Lola compra tres entradas para una película de animales.",
       "Antes de entrar, tía Lola compra palomitas y tres refrescos. Las palomitas están calientes y saladas. Mateo come muchas palomitas antes de entrar en la sala.",
-      "La sala es muy oscura y la pantalla es enorme. Mateo tiene un poco de miedo. Hugo le da la mano y le dice: \"Tranquilo, es solo una película.\"",
-      "La película es sobre un oso que busca a su familia en el bosque. Es divertida y un poco triste también. En una parte, el oso llora y Mateo llora también. Tía Lola le da un pañuelo.",
-      "Al final, el oso encuentra a su familia. Todos en la sala aplauden. Mateo aplaude muy fuerte y grita: \"¡Bravo, oso!\" Unas personas se ríen.",
+      "La sala es muy oscura y la pantalla es enorme. Mateo tiene un poco de miedo. Hugo da la mano a su hermano y dice: \"Tranquilo, es solo una película.\"",
+      "La película es sobre un oso que busca a su familia en el bosque. Es divertida y un poco triste también. En una parte, el oso llora y Mateo llora también. Tía Lola tiene un pañuelo para él.",
+      "Al final, el oso encuentra a su familia. Todos en la sala aplauden. Mateo aplaude muy fuerte y grita: \"¡Bravo, oso!\" Unas personas ríen también.",
       "En la calle, tía Lola pregunta: \"¿Qué es lo mejor de la noche?\" \"La película\", dice Hugo. Mateo piensa un momento. \"Lo mejor es estar con ustedes\", dice. Tía Lola lo abraza.",
     ],
     questions: [
@@ -3059,9 +3061,9 @@ export const A1_STORIES: Story[] = [
       "Un día de primavera, Andrés juega en el jardín. De repente, ve una mariposa amarilla muy bonita. La mariposa vuela de flor en flor.",
       "Andrés corre a la cocina y busca un frasco de cristal vacío. \"¡Quiero la mariposa para mi habitación!\", dice. Corre al jardín otra vez.",
       "La mariposa está en una flor roja. Andrés camina muy despacio, sin hacer ruido. Pone el frasco sobre la flor y... ¡la mariposa está dentro! Andrés cierra el frasco con la tapa.",
-      "Andrés mira la mariposa con su lupa. Tiene alas amarillas con puntos negros. Pero la mariposa no vuela. Está quieta en el fondo del frasco. Andrés se pone triste.",
+      "Andrés mira la mariposa con su lupa. Tiene alas amarillas con puntos negros. Pero la mariposa no vuela. Está quieta en el fondo del frasco. Andrés está triste.",
       "Su abuela sale al jardín. \"La mariposa necesita flores, sol y aire\", explica. \"En el frasco no está contenta.\" Andrés piensa un momento. Él no quiere una mariposa triste.",
-      "Andrés abre el frasco. La mariposa sale y vuela alto, sobre las flores y los árboles. Andrés sonríe. Ahora, todos los días, él busca la mariposa amarilla en el jardín, pero solo para mirarla.",
+      "Andrés abre el frasco. La mariposa sale y vuela alto, sobre las flores y los árboles. Andrés sonríe. Ahora él busca la mariposa amarilla en el jardín todos los días. Pero solo para mirar.",
     ],
     questions: [
       {
@@ -3441,13 +3443,13 @@ export const A1_STORIES: Story[] = [
     subtitle:
       "A family watches a pair of birds build a nest outside their kitchen window and raise their chicks.",
     paragraphs: [
-      "En marzo, la familia de Martín ve dos pájaros pequeños en la ventana de la cocina. Los pájaros llevan palitos y hojas secas en el pico. Están construyendo un nido.",
+      "Es marzo. La familia de Martín ve dos pájaros pequeños en la ventana de la cocina. Los pájaros llevan palitos y hojas secas en el pico. Están construyendo un nido.",
       "Martín tiene ocho años. Todas las mañanas, él desayuna y mira el nido. Poco a poco, el nido está más grande y más bonito. Tiene forma de taza.",
       "Un día, Martín ve cuatro huevos azules en el nido. Son muy pequeños. La mamá pájaro está sentada sobre los huevos día y noche. El papá pájaro trae comida.",
       "Papá dice: \"No abrimos esta ventana ahora. Los pájaros necesitan tranquilidad.\" Toda la familia habla en voz baja en la cocina.",
       "Dos semanas después, Martín escucha un sonido: \"pío, pío, pío\". ¡Hay cuatro pajaritos en el nido! No tienen plumas y tienen la boca muy abierta. Siempre tienen hambre.",
       "Los papás pájaro traen gusanos e insectos todo el día. Los pajaritos crecen rápido. Ahora tienen plumas grises. Martín hace dibujos de los pajaritos en un cuaderno.",
-      "Un día de abril, los pajaritos saltan del nido y vuelan. Primero vuelan mal, pero luego vuelan bien. El nido está vacío. Martín está un poco triste, pero su mamá dice: \"El año que viene, tal vez vuelven.\" Martín guarda su cuaderno para esperar la primavera.",
+      "Un día de abril, los pajaritos saltan del nido y vuelan. Primero vuelan mal, pero luego vuelan bien. El nido está vacío. Martín está un poco triste. Pero su mamá dice: \"Tal vez vuelven el año que viene.\" Martín guarda su cuaderno para esperar la primavera.",
     ],
     questions: [
       {
@@ -3537,9 +3539,9 @@ export const A1_STORIES: Story[] = [
       "En el autobús, Marina lee un libro. La historia es muy interesante. Cuando llega a su parada, baja muy rápido del autobús. ¡Su paraguas está en el asiento!",
       "Marina corre a la escuela bajo la lluvia. Llega mojada y triste. \"Mi paraguas favorito\", dice a su amiga Lucía. \"No voy a verlo nunca más.\"",
       "Al día siguiente, Marina sube al mismo autobús a la misma hora. Un señor mayor con sombrero está sentado delante. Tiene un paraguas amarillo con puntos blancos en la mano.",
-      "El señor mira a Marina y sonríe. \"¿Es tuyo este paraguas?\", pregunta. \"Ayer lo dejaste en el asiento. Yo lo guardé porque sé que tomas este autobús todos los días.\"",
+      "El señor mira a Marina y sonríe. \"¿Es tuyo este paraguas?\", pregunta. \"Está conmigo desde ayer. Sé que tomas este autobús todos los días.\"",
       "Marina no puede creerlo. \"¡Sí, es mío! ¡Muchas gracias!\", dice. El señor se llama don Felipe. Él también toma el autobús todas las mañanas para ir al mercado.",
-      "Ahora, Marina y don Felipe hablan todos los días en el autobús. Él le cuenta historias de su juventud y ella le cuenta sobre sus libros. Marina nunca olvida su paraguas otra vez.",
+      "Ahora, Marina y don Felipe hablan todos los días en el autobús. Él cuenta historias de su juventud y ella habla de sus libros. Marina nunca olvida su paraguas otra vez.",
     ],
     questions: [
       {
@@ -3664,8 +3666,8 @@ export const A1_STORIES: Story[] = [
     subtitle:
       "A family turns boring Saturday chores into a game with music and a prize.",
     paragraphs: [
-      "En la casa de la familia Ruiz, el sábado por la mañana es el día de limpieza. A nadie le gusta. Los niños, Carlos y Elena, siempre dicen: \"¡Qué aburrido!\"",
-      "Este sábado, papá tiene una idea nueva. Escribe las tareas en papeles pequeños: barrer la cocina, limpiar el baño, sacar la basura, ordenar la sala, regar las plantas y lavar los platos.",
+      "En la casa de la familia Ruiz, el sábado por la mañana es para limpiar. A nadie le gusta. Los niños, Carlos y Elena, siempre dicen: \"¡Qué aburrido!\"",
+      "Este sábado, papá tiene una idea nueva. Escribe seis tareas en papeles pequeños. Hay que barrer la cocina, limpiar el baño y sacar la basura. También hay que ordenar la sala, regar las plantas y lavar los platos.",
       "Cada persona toma dos papeles de una caja. Carlos tiene el baño y la basura. Elena tiene las plantas y la sala. Mamá tiene la cocina y papá tiene los platos.",
       "Después, papá pone música muy alta en la sala. \"Tenemos una hora\", dice. \"La persona que termina primero elige la cena de esta noche.\" ¡Ahora es un juego!",
       "Todos trabajan rápido. Elena baila mientras ordena los cojines del sofá. Carlos canta en el baño con la escoba en la mano. Mamá barre al ritmo de la música.",
