@@ -50,3 +50,44 @@ export function storiesForGuide(guideSlug: string, stories: Story[], count = 3):
   scored.sort((a, b) => b.score - a.score || a.index - b.index);
   return scored.slice(0, count).map((s) => s.story);
 }
+
+const levelScores = new WeakMap<Story[], Map<string, Map<string, number>>>();
+
+/** Each story's score for a guide (forms per word), cached per story list. */
+function scoresFor(guideSlug: string, stories: Story[]): Map<string, number> {
+  let byGuide = levelScores.get(stories);
+  if (!byGuide) levelScores.set(stories, (byGuide = new Map()));
+  let scores = byGuide.get(guideSlug);
+  if (!scores) {
+    const marker = MARKERS[guideSlug];
+    scores = new Map(
+      stories.map((story) => {
+        const text = story.paragraphs.join(" ");
+        return [story.slug, (text.match(marker)?.length ?? 0) / Math.max(1, wordCount(text))];
+      })
+    );
+    byGuide.set(guideSlug, scores);
+  }
+  return scores;
+}
+
+/**
+ * The reverse of storiesForGuide: of `guideSlugs`, the guides whose grammar
+ * this story uses unusually often -- it's in the top quarter of `stories`
+ * (its level) for that guide's forms. Most marked first, at most `count`.
+ */
+export function guidesForStory(story: Story, stories: Story[], guideSlugs: string[], count = 3): string[] {
+  const picks: { slug: string; rank: number; index: number }[] = [];
+  guideSlugs.forEach((slug, index) => {
+    if (!MARKERS[slug]) return;
+    const scores = scoresFor(slug, stories);
+    const mine = scores.get(story.slug) ?? 0;
+    if (mine === 0) return;
+    let higher = 0;
+    for (const s of scores.values()) if (s > mine) higher++;
+    const rank = higher / Math.max(1, scores.size);
+    if (rank < 0.25) picks.push({ slug, rank, index });
+  });
+  picks.sort((a, b) => a.rank - b.rank || a.index - b.index);
+  return picks.slice(0, count).map((p) => p.slug);
+}

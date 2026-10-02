@@ -5,9 +5,9 @@ export const B2_GUIDES: GrammarGuide[] = [
   {
     slug: "subjunctive-adjective-clauses",
     title: "Subjunctive in Adjective Clauses: Busco a Alguien Que...",
-    metaTitle: "Spanish Subjunctive in Relative Clauses (Busco Un Piso Que Tenga)",
+    metaTitle: "Subjunctive in Spanish Relative Clauses",
     description:
-      "Why Spanish says \"busco un piso que tenga terraza\" but \"vivo en un piso que tiene terraza\": the subjunctive for unknown or non-existent things, with no hay nadie que, cualquiera que and more.",
+      "Why Spanish says \"busco un piso que tenga terraza\" but \"vivo en un piso que tiene terraza\": the subjunctive for unknown or non-existent things, and more.",
     level: "B2",
     readingLevelPath: "b2",
     intro: [
@@ -96,9 +96,9 @@ export const B2_GUIDES: GrammarGuide[] = [
   {
     slug: "subjunctive-adverbial-clauses",
     title: "Subjunctive After Cuando, Para Que, Antes de Que and Other Conjunctions",
-    metaTitle: "Spanish Subjunctive After Cuando, Para Que, Antes De Que",
+    metaTitle: "Subjunctive After Cuando, Para Que, Antes De",
     description:
-      "Which Spanish conjunctions always take the subjunctive (para que, antes de que, sin que), which switch depending on time (cuando, hasta que, en cuanto), and when to use an infinitive.",
+      "Which Spanish conjunctions always take the subjunctive (para que, antes de que), which switch with time (cuando, hasta que), and when to use an infinitive.",
     level: "B2",
     readingLevelPath: "b2",
     intro: [
@@ -187,9 +187,9 @@ export const B2_GUIDES: GrammarGuide[] = [
   {
     slug: "sequence-of-tenses",
     title: "Sequence of Tenses: Quiero Que Vengas, Quería Que Vinieras",
-    metaTitle: "Spanish Sequence of Tenses (Concordancia de Tiempos) Explained",
+    metaTitle: "Spanish Sequence of Tenses Explained",
     description:
-      "How the tense of the main verb decides the tense of the subjunctive in Spanish: present with present, past with imperfect subjunctive, and the exceptions when the effect is still current.",
+      "How the main verb's tense decides the subjunctive tense in Spanish: present with present, past with imperfect subjunctive, and the exceptions.",
     level: "B2",
     readingLevelPath: "b2",
     intro: [
@@ -280,9 +280,9 @@ export const B2_GUIDES: GrammarGuide[] = [
   {
     slug: "reported-speech",
     title: "Reported Speech in Spanish (Estilo Indirecto)",
-    metaTitle: "Spanish Reported Speech: Dijo Que... Tense Changes and Examples",
+    metaTitle: "Spanish Reported Speech: Dijo Que...",
     description:
-      "How to report what someone said in Spanish: tense backshift (dice que viene → dijo que venía), reported questions and commands, and the time and place words that change.",
+      "How to report what someone said in Spanish: tense backshift (dice que viene, dijo que venía), reported questions and commands, and time and place words.",
     level: "B2",
     readingLevelPath: "b2",
     intro: [
@@ -384,9 +384,9 @@ export const B2_GUIDES: GrammarGuide[] = [
   {
     slug: "pluperfect-subjunctive-and-conditional-perfect",
     title: "Would Have and Had Done: Habría and Hubiera",
-    metaTitle: "Spanish Conditional Perfect and Pluperfect Subjunctive (Hubiera Hecho)",
+    metaTitle: "Spanish Conditional Perfect: Hubiera Hecho",
     description:
-      "Talk about the past that didn't happen: si hubiera sabido, habría venido. Learn the conditional perfect and pluperfect subjunctive, mixed conditionals, ojalá hubiera and reproaches.",
+      "The past that didn't happen: si hubiera sabido, habría venido. Learn the conditional perfect, the pluperfect subjunctive and mixed conditionals.",
     level: "B2",
     readingLevelPath: "b2",
     intro: [
@@ -485,9 +485,9 @@ export const B2_GUIDES: GrammarGuide[] = [
   {
     slug: "ser-and-estar-with-adjectives",
     title: "Ser and Estar With Adjectives That Change Meaning",
-    metaTitle: "Ser vs. Estar With Adjectives: Es Listo vs. Está Listo and More",
+    metaTitle: "Ser vs. Estar With Adjectives: Es/Está Listo",
     description:
-      "A B2 guide to ser and estar with adjectives: meaning changes (ser listo, estar listo), estar for subjective impressions, estar + participle vs. ser passive, and estar with age and appearance.",
+      "Ser and estar with adjectives at B2: meaning changes (ser listo, estar listo), estar for impressions, estar + participle vs. the ser passive.",
     level: "B2",
     readingLevelPath: "b2",
     intro: [
@@ -583,9 +583,9 @@ export const B2_GUIDES: GrammarGuide[] = [
   {
     slug: "verbs-of-change",
     title: "Verbs of Change: Ponerse, Volverse, Hacerse, Quedarse, Llegar a Ser",
-    metaTitle: "How to Say \"Become\" in Spanish: Ponerse, Volverse, Hacerse",
+    metaTitle: "How to Say \"Become\" in Spanish: Ponerse",
     description:
-      "Spanish has no single verb for \"to become.\" Learn when to use ponerse, volverse, hacerse, quedarse, convertirse en and llegar a ser, with examples and common mistakes.",
+      "Spanish has no single verb for \"to become.\" Learn when to use ponerse, volverse, hacerse, quedarse, convertirse en and llegar a ser, with examples.",
     level: "B2",
     readingLevelPath: "b2",
     intro: [
@@ -679,9 +679,9 @@ export const B2_GUIDES: GrammarGuide[] = [
   {
     slug: "cuyo-and-el-cual",
     title: "Cuyo, El Cual and Formal Relative Pronouns",
-    metaTitle: "Spanish Cuyo (Whose) and El Cual: How to Use Them",
+    metaTitle: "Spanish Cuyo (Whose) and El Cual",
     description:
-      "How to say \"whose\" in Spanish with cuyo, cuya, cuyos, cuyas, and when to use el cual, la cual, lo cual instead of que: after long prepositions, in non-defining clauses and formal writing.",
+      "How to say \"whose\" in Spanish with cuyo, cuya, cuyos and cuyas, and when to use el cual, la cual or lo cual instead of que in formal writing.",
     level: "B2",
     readingLevelPath: "b2",
     intro: [
@@ -761,9 +761,9 @@ export const B2_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-connectors",
     title: "Spanish Connectors: Sin Embargo, Por Lo Tanto, Ya Que and More",
-    metaTitle: "Spanish Linking Words: Contrast, Cause, Consequence and Addition",
+    metaTitle: "Spanish Linking Words and Connectors",
     description:
-      "The Spanish connectors that make writing flow: contrast (sin embargo, en cambio), cause (ya que, debido a), consequence (por lo tanto, así que), addition and conclusion, with register notes.",
+      "Spanish connectors that make writing flow: contrast (sin embargo), cause (ya que, debido a), consequence (por lo tanto), addition and conclusion.",
     level: "B2",
     readingLevelPath: "b2",
     intro: [
@@ -856,9 +856,9 @@ export const B2_GUIDES: GrammarGuide[] = [
   {
     slug: "emphasis-and-word-order",
     title: "Emphasis and Word Order in Spanish",
-    metaTitle: "Spanish Word Order and Emphasis: Cleft Sentences and Lo Que",
+    metaTitle: "Spanish Word Order and Emphasis",
     description:
-      "How Spanish highlights information: flexible word order, fronting with object pronouns (el libro lo tengo yo), cleft sentences (fue ella quien...), lo que pasa es que and lo + adjective + que.",
+      "How Spanish highlights information: flexible word order, fronting with pronouns (el libro lo tengo yo), cleft sentences and lo que pasa es que.",
     level: "B2",
     readingLevelPath: "b2",
     intro: [
