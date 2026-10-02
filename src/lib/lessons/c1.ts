@@ -1,6 +1,8 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/c1.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Lesson } from "./types";
 import { buildLevel } from "./sequencing";
+import { addPractice } from "./practice";
+import { C1_PRACTICE } from "./c1-practice";
 import { C1_GAPS } from "./c1-gaps";
 import { C1_REINFORCEMENT } from "./c1-reinforcement";
 
@@ -16006,4 +16008,8 @@ const C1_BASE_LESSONS: Lesson[] = [
 // weave.ts. Everything above this line is the original lesson data.
 // sequencing.ts applies the course order (moved topics, spread-out
 // vocabulary, optional Extra Practice) after weaving.
-export const C1_LESSONS: Lesson[] = buildLevel("C1", C1_BASE_LESSONS, [...C1_REINFORCEMENT, ...C1_GAPS]);
+// c1-practice.ts adds questions to the lessons that had too few.
+export const C1_LESSONS: Lesson[] = addPractice(
+  buildLevel("C1", C1_BASE_LESSONS, [...C1_REINFORCEMENT, ...C1_GAPS]),
+  C1_PRACTICE
+);
