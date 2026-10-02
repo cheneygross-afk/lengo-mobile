@@ -5,6 +5,8 @@ import { A2_STORY_GLOSSES } from "./a2-glosses";
 import { B1_STORY_GLOSSES } from "./b1-glosses";
 import { B2_STORY_GLOSSES } from "./b2-glosses";
 import { C1C2_STORY_GLOSSES } from "./c1c2-glosses";
+import { C1C2_MORE_GLOSSES } from "./c1c2-more-glosses";
+import { NONFICTION_GLOSSES } from "./nonfiction-glosses";
 
 // Glosses for every story, keyed by slug. Each story glosses the words a
 // reader at its level is least likely to know, enough that about 98% of
@@ -17,6 +19,8 @@ const ALL_STORY_GLOSSES: Record<string, StoryGloss[]> = {
   ...B1_STORY_GLOSSES,
   ...B2_STORY_GLOSSES,
   ...C1C2_STORY_GLOSSES,
+  ...C1C2_MORE_GLOSSES,
+  ...NONFICTION_GLOSSES,
 };
 
 export function storyGlosses(slug: string): StoryGloss[] {

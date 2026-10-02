@@ -15,7 +15,7 @@ export type DeckCard = {
   exEn?: string;
 };
 
-export type DeckLevel = "A1" | "A2" | "B1" | "B2" | "C1";
+export type DeckLevel = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
 
 export type DeckInfo = {
   /** Stable id, also used in the ids of the flashcards a deck adds. */

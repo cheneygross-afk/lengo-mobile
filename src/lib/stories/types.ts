@@ -17,7 +17,19 @@ export type Story = {
   paragraphs: string[];
   // 3-4 English multiple-choice comprehension questions per story.
   questions: StoryQuestion[];
+  // Nonfiction texts (explainers, news pieces, columns...) name their
+  // genre here, e.g. "Explainer" or "Opinion column"; it's shown in place
+  // of "Short story". Fiction leaves it off.
+  genre?: string;
+  // C1/C2 texts written for one of the two levels say which; the original
+  // shared C1/C2 stories leave it off and count for both.
+  band?: "C1" | "C2";
 };
+
+/** The label for a text's kind: its genre, or "Short story" for fiction. */
+export function storyKind(story: Pick<Story, "genre">): string {
+  return story.genre ?? "Short story";
+}
 
 // A word or phrase a story explains in English because readers at its
 // level probably haven't met it yet in the lessons. `forms` are the exact

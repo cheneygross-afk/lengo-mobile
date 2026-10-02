@@ -1,7 +1,10 @@
 // Synced from cheneygross-afk/lengo:src/lib/stories/c1c2.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Story } from "./types";
+import { C1_BAND_STORIES } from "./c1-stories";
+import { C2_BAND_STORIES } from "./c2-stories";
+import { C1C2_NONFICTION } from "./nonfiction-c1c2";
 
-export const C1C2_STORIES: Story[] = [
+const C1C2_SHARED: Story[] = [
   {
     slug: "aging-pianist-last-concert",
     level: "C1/C2",
@@ -1529,3 +1532,14 @@ export const C1C2_STORIES: Story[] = [
     ],
   },
 ];
+
+// The original stories above are shared by C1 and C2 (no band). Then the
+// stories written for C1, those written for C2, and the nonfiction texts
+// for each (see Story.band).
+export const C1C2_STORIES: Story[] = [...C1C2_SHARED, ...C1_BAND_STORIES, ...C2_BAND_STORIES, ...C1C2_NONFICTION];
+
+/** The C1/C2 texts for one of the two levels: the shared stories plus
+ * those written for it. */
+export function storiesForBand(band: "C1" | "C2"): Story[] {
+  return C1C2_STORIES.filter((s) => !s.band || s.band === band);
+}
