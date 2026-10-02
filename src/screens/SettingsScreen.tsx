@@ -1,3 +1,4 @@
+import EmailPrefs from "@/components/EmailPrefs";
 import { useEffect, useState } from "react";
 import { View, Text, TextInput, Pressable, Switch, StyleSheet, Linking, ActivityIndicator, ScrollView, Alert } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
@@ -408,7 +409,7 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
 
       <View style={s.section}>
         <Text style={s.sectionTitle}>Daily goal</Text>
-        <Text style={s.sectionSub}>Minutes per day. Lessons and flashcard reviews count toward it.</Text>
+        <Text style={s.sectionSub}>Minutes per day. Lessons, stories, video quizzes, reviews and flashcards all count toward it.</Text>
         <View style={s.pillWrap}>
           {DAILY_GOAL_OPTIONS.map((m) => {
             const active = learnerPrefs.dailyGoalMinutes === m;
@@ -516,6 +517,8 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
         </View>
         <SpanishVarietyPicker />
       </View>
+
+      <EmailPrefs />
 
       <Pressable style={s.logoutBtn} onPress={signOut}>
         <Text style={s.logoutBtnText}>Log out</Text>

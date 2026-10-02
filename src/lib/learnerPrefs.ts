@@ -1,8 +1,8 @@
 // App storage for the learner plan (see learnerPlan.ts, shared with the
 // website): prefs in AsyncStorage, synced with the account's Supabase
 // user_metadata so the website sees the same daily goal / starting level;
-// plus the two device-local daily logs (study minutes, new flashcards
-// started). Mirrors the website's src/lib/learnerPrefs.ts.
+// plus the device-local log of new flashcards started today. Study
+// minutes: see studyDays.ts. Mirrors the website's src/lib/learnerPrefs.ts.
 import { supabase } from "@/lib/supabase/client";
 import { readJSON, writeJSON } from "@/lib/storage/asyncStore";
 import type { FlashcardEntry } from "@/lib/flashcards/store";
@@ -10,19 +10,16 @@ import { getDueCards } from "@/lib/srs";
 import {
   PREFS_METADATA_KEY,
   PREFS_STORAGE_KEY,
-  STUDY_LOG_STORAGE_KEY,
   NEW_CARD_LOG_STORAGE_KEY,
-  addToStudyLog,
   isNewCard,
   limitNewCards,
-  minutesOnDay,
   newerPrefs,
   normalizePrefs,
   noteNewCardIntroduced,
   type LearnerPrefs,
   type NewCardLog,
-  type StudyLog,
 } from "@/lib/learnerPlan";
+import { creditStudy, getStudySummary } from "@/lib/studyDays";
 
 export async function loadPrefsLocal(): Promise<LearnerPrefs> {
   return normalizePrefs(await readJSON<unknown>(PREFS_STORAGE_KEY, null));
@@ -69,13 +66,15 @@ export async function syncPrefs(): Promise<LearnerPrefs> {
 
 // ---------------------------------------------------------------------------
 
+// Study minutes now live in studyDays.ts (synced across devices, and
+// shared with the streak); these keep the old names for callers.
 export async function addStudyMinutes(minutes: number): Promise<void> {
-  const log = await readJSON<StudyLog>(STUDY_LOG_STORAGE_KEY, {});
-  await writeJSON(STUDY_LOG_STORAGE_KEY, addToStudyLog(log, minutes));
+  await creditStudy(minutes, { counts: false });
 }
 
+/** Today's minutes on every device, as of the last sync. */
 export async function getMinutesToday(): Promise<number> {
-  return minutesOnDay(await readJSON<StudyLog>(STUDY_LOG_STORAGE_KEY, {}));
+  return (await getStudySummary()).minutesToday;
 }
 
 async function loadNewCardLog(): Promise<NewCardLog> {
