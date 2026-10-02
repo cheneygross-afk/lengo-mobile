@@ -10,8 +10,10 @@ import { LESSON_SOURCES } from "@/lib/lessons/registry";
 import { getCompletedMap, syncCompletedMapFromCloud } from "@/lib/lessons/completion";
 import { spanishLevel } from "@/lib/lessons/levels";
 import { loadFlashcards } from "@/lib/flashcards/store";
-import { getDisplayStreak } from "@/lib/streak";
-import { getDueCardsForToday, getMinutesToday, loadPrefsLocal, syncPrefs } from "@/lib/learnerPrefs";
+import { getDueCardsForToday, loadPrefsLocal, syncPrefs } from "@/lib/learnerPrefs";
+import { getStudySummary, syncStudyDays } from "@/lib/studyDays";
+import { getTodaysReviewCounts, seedScheduleFromCompletions } from "@/lib/todaysReview";
+import { todaysReviewTotal } from "@/lib/dailyReview";
 import { SPANISH_LEVEL_ORDER, nextLessonToContinue, type ContinueLesson, type LearnerPrefs } from "@/lib/learnerPlan";
 import { formatMinutes } from "@/lib/duration";
 
@@ -26,13 +28,16 @@ const SPANISH_LESSONS_BY_LEVEL = Object.fromEntries(
 );
 
 // What the top of Home shows: the next lesson on the learner's path,
-// flashcards due today, the streak, and today's minutes toward the goal.
+// what's due in today's review (Spanish: missed questions, the daily mix
+// and flashcards; Japanese: flashcards), the streak (synced with the
+// account), and today's minutes toward the goal.
 type Summary = {
   prefs: LearnerPrefs;
   next: ContinueLesson | null;
   hasSpanishProgress: boolean;
   dueByLang: Record<Language, number>;
   streak: number;
+  studiedToday: boolean;
   minutesToday: number;
 };
 
@@ -43,18 +48,22 @@ async function loadSummary(fromCloud: boolean): Promise<Summary> {
   );
   const completed = Object.fromEntries(SPANISH_LEVEL_ORDER.map((lp, i) => [lp, maps[i]]));
   const cards = Object.values(await loadFlashcards());
-  const es = cards.filter((c) => !c.levelPath.startsWith("ja"));
   const ja = cards.filter((c) => c.levelPath.startsWith("ja"));
+  const study = fromCloud ? await syncStudyDays() : await getStudySummary();
+  // Lessons finished before the daily review mix existed (or on the
+  // website) join it once their completions are here.
+  if (fromCloud) await seedScheduleFromCompletions();
   return {
     prefs,
     next: nextLessonToContinue(SPANISH_LESSONS_BY_LEVEL, completed, prefs.startLevel),
     hasSpanishProgress: maps.some((m) => Object.values(m).some(Boolean)),
     dueByLang: {
-      es: (await getDueCardsForToday(es, prefs)).length,
+      es: todaysReviewTotal(await getTodaysReviewCounts()),
       ja: (await getDueCardsForToday(ja, prefs)).length,
     },
-    streak: await getDisplayStreak(),
-    minutesToday: await getMinutesToday(),
+    streak: study.streak.current,
+    studiedToday: study.streak.studiedToday,
+    minutesToday: study.minutesToday,
   };
 }
 
@@ -170,15 +179,23 @@ export default function HomeScreen({ navigation }: Props) {
                   />
                 </View>
               </View>
-              <Pressable style={styles.stat} onPress={() => navigation.navigate("Flashcards", { lang: language })}>
-                <Text style={styles.statLabel}>Due</Text>
+              <Pressable
+                style={styles.stat}
+                onPress={() =>
+                  language === "es" ? navigation.navigate("TodayReview") : navigation.navigate("Flashcards", { lang: language })
+                }
+              >
+                <Text style={styles.statLabel}>{language === "es" ? "Review" : "Due"}</Text>
                 <Text style={styles.statValue}>{dueCount}</Text>
                 <Text style={styles.statHint}>{dueCount > 0 ? "Review →" : "Caught up"}</Text>
               </Pressable>
               <View style={styles.stat}>
                 <Text style={styles.statLabel}>Streak</Text>
                 <Text style={styles.statValue}>{summary.streak}</Text>
-                <Text style={styles.statHint}>{summary.streak === 1 ? "day" : "days"}</Text>
+                <Text style={styles.statHint}>
+                  {summary.streak === 1 ? "day" : "days"}
+                  {summary.studiedToday ? " ✓" : ""}
+                </Text>
               </View>
             </View>
           )}
@@ -215,10 +232,19 @@ export default function HomeScreen({ navigation }: Props) {
               </Pressable>
             )}
 
-            <Pressable style={styles.card} onPress={() => navigation.navigate("Review", { lang: language })}>
-              <Text style={styles.cardTitle}>Review</Text>
-              <Text style={styles.cardBody}>Lessons you saved to try again.</Text>
-            </Pressable>
+            {language === "es" ? (
+              <Pressable style={styles.card} onPress={() => navigation.navigate("TodayReview")}>
+                <Text style={styles.cardTitle}>Today&apos;s review</Text>
+                <Text style={styles.cardBody}>
+                  Missed questions, earlier lessons and flashcards due today, in one place.
+                </Text>
+              </Pressable>
+            ) : (
+              <Pressable style={styles.card} onPress={() => navigation.navigate("Review", { lang: language })}>
+                <Text style={styles.cardTitle}>Review</Text>
+                <Text style={styles.cardBody}>Lessons you saved to try again.</Text>
+              </Pressable>
+            )}
 
             {/* Grammar guides, verb conjugation, DELE practice and the
                 glossary (Spanish only) -- grouped behind one card, like the

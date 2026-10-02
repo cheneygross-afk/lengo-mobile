@@ -11,6 +11,8 @@ import {
 } from "@/lib/lessons/missedQuestions";
 import { markReviewBatchDone } from "@/lib/lessons/reviewCadence";
 import ExerciseBlock from "@/components/ExerciseBlock";
+import { creditStudy } from "@/lib/studyDays";
+import { QUESTION_MINUTES, STREAK_MIN_REVIEW_QUESTIONS } from "@/lib/studyCredit";
 import { langForLevelPath } from "@/lib/speech";
 import { getSpanishVariety, loadSpanishVariety } from "@/lib/spanishVariety";
 import { requiresVosotros } from "@/lib/vosotros";
@@ -45,6 +47,7 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
   const [feedback, setFeedback] = useState<{ correct: boolean; explanation: string; forgotten: boolean } | null>(null);
   const correctIdsRef = useRef<Set<string>>(new Set());
   const forgottenIdsRef = useRef<Set<string>>(new Set());
+  const answeredRef = useRef(0);
 
   const sheetAnim = useRef(new Animated.Value(0)).current;
   useEffect(() => {
@@ -83,6 +86,8 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
       Array.from(correctIdsRef.current, (id) => ({ id, correct: true }))
     );
     await markReviewBatchDone(levelPath, batch);
+    // Finishing a review counts the day, however short it was.
+    if (answeredRef.current > 0) await creditStudy(0, { counts: true });
     setPhase("complete");
   }
 
@@ -95,6 +100,10 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
   }
 
   function handleChecked(current: MissedQuestion, correct: boolean, explanation: string) {
+    // Each answer toward today's goal; the fifth also counts the day
+    // toward the streak (see studyCredit.ts).
+    answeredRef.current += 1;
+    void creditStudy(QUESTION_MINUTES, { counts: answeredRef.current >= STREAK_MIN_REVIEW_QUESTIONS });
     if (correct) {
       correctIdsRef.current.add(current.id);
       setMasteredCount((c) => c + 1);
