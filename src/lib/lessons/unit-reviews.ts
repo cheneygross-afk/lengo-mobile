@@ -196,6 +196,9 @@ type Copy = {
   respondExpl: (s: Sentence) => string;
 };
 
+/** A sentence for quoting inside a longer one: no final full stop. */
+const quoted = (t: string) => t.replace(/\.$/, "");
+
 const EN_COPY: Copy = {
   title: (n, unit) => `Unit ${n} review: ${unit}`,
   summary: (unit, quiz) =>
@@ -213,11 +216,11 @@ const EN_COPY: Copy = {
     "One short piece of writing that uses this unit's grammar and words. You'll get feedback when it's available; otherwise compare your text with the model answer and the checklist.",
   ],
   meaningQ: "What does it mean?",
-  meaningExpl: (s) => `"${s.es}" means "${s.en}".`,
-  dictExpl: (s) => `You heard: "${s.es}"${s.en ? ` -- "${s.en}"` : ""}.`,
-  readExpl: (s) => `"${s.es}"${s.en ? ` -- "${s.en}"` : ""}. Play the model again and copy its rhythm.`,
+  meaningExpl: (s) => `"${quoted(s.es)}" means "${quoted(s.en!)}".`,
+  dictExpl: (s) => `You heard: "${quoted(s.es)}"${s.en ? ` ("${quoted(s.en)}")` : ""}.`,
+  readExpl: (s) => `"${quoted(s.es)}"${s.en ? ` ("${quoted(s.en)}")` : ""}. Play the model again and copy its rhythm.`,
   respondPrompt: (en) => `Say it in Spanish: "${en}"`,
-  respondExpl: (s) => `One way to say it: "${s.es}". Another correct way counts too: check the meaning first, then the sound.`,
+  respondExpl: (s) => `One way to say it: "${quoted(s.es)}". Another correct way counts too: check the meaning first, then the sound.`,
 };
 
 const ES_COPY: Copy = {
@@ -237,12 +240,12 @@ const ES_COPY: Copy = {
     "Un texto breve con la gramática y el vocabulario de esta unidad. Si la corrección automática está disponible, recibirás comentarios; si no, compara tu texto con el modelo y la lista de puntos.",
   ],
   meaningQ: "¿Qué significa?",
-  meaningExpl: (s) => `«${s.es}» significa "${s.en}".`,
-  dictExpl: (s) => `Has oído: «${s.es}»${s.en ? ` ("${s.en}")` : ""}.`,
-  readExpl: (s) => `«${s.es}»${s.en ? ` ("${s.en}")` : ""}. Escucha otra vez el modelo e imita su ritmo.`,
+  meaningExpl: (s) => `«${quoted(s.es)}» significa "${quoted(s.en!)}".`,
+  dictExpl: (s) => `Has oído: «${quoted(s.es)}»${s.en ? ` ("${quoted(s.en)}")` : ""}.`,
+  readExpl: (s) => `«${quoted(s.es)}»${s.en ? ` ("${quoted(s.en)}")` : ""}. Escucha otra vez el modelo e imita su ritmo.`,
   respondPrompt: (en) => `Dilo en español: "${en}"`,
   respondExpl: (s) =>
-    `Una forma de decirlo: «${s.es}». Otra forma correcta también vale: comprueba primero el significado y después la pronunciación.`,
+    `Una forma de decirlo: «${quoted(s.es)}». Otra forma correcta también vale: comprueba primero el significado y después la pronunciación.`,
 };
 
 // ---- Building one review -----------------------------------------------------
