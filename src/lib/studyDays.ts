@@ -31,6 +31,7 @@ const DEVICE_KEY = "deepend-device-id";
 const OWNER_KEY = "deepend-study-owner";
 const CLOUD_KEY = "deepend-study-cloud";
 const LONGEST_KEY = "deepend-longest-streak";
+const PUSHED_KEY = "deepend-study-pushed";
 const CREDITED_KEY = "deepend-credited-today";
 // Stores this replaces; read once to carry history over.
 const LEGACY_STREAK_KEY = "deepend-streak";
@@ -181,12 +182,23 @@ async function pushDays(only?: string[]): Promise<void> {
     const since = await ownerSince(userId);
     let rows = rowsToUpload(await loadLocalDays(), await deviceId(), since);
     if (only) rows = rows.filter((r) => only.includes(r.day));
+    // Only rows that changed since they were last uploaded (per account
+    // and device), so a page view doesn't re-send the whole history.
+    const pushedKey = `${userId}:${rows[0]?.device_id ?? ""}`;
+    const pushed = await readJSON<{ key: string; rows: Record<string, string> }>(PUSHED_KEY, { key: "", rows: {} });
+    const sentRows = pushed.key === pushedKey ? pushed.rows : {};
+    rows = rows.filter((r) => sentRows[r.day] !== `${r.minutes}|${r.counted}`);
     if (!rows.length) return;
     const { error } = await supabase.from("study_days").upsert(
       rows.map((r) => ({ ...r, user_id: userId, updated_at: new Date().toISOString() })),
       { onConflict: "user_id,device_id,day" }
     );
     if (isMissingTable(error)) cloudUnavailable = true;
+    if (!error) {
+      const next = { ...sentRows };
+      for (const r of rows) next[r.day] = `${r.minutes}|${r.counted}`;
+      await writeJSON(PUSHED_KEY, { key: pushedKey, rows: next });
+    }
   } catch {
     // offline -- the next sync uploads it
   }
