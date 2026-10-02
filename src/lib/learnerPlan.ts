@@ -213,7 +213,7 @@ export function limitNewCards<T extends SrsCard>(
 // ---------------------------------------------------------------------------
 // The lesson to continue with
 
-export type PathLesson = { slug: string; title: string; number: number; optional?: boolean };
+export type PathLesson = { slug: string; title: string; number: number; optional?: boolean; unitReview?: boolean };
 
 export type ContinueLesson = { levelPath: SpanishLevelPath; slug: string; title: string; number: number };
 
@@ -239,7 +239,15 @@ export function nextLessonToContinue(
   }
   for (const level of SPANISH_LEVEL_ORDER.slice(from)) {
     const done = completedByLevel[level] ?? {};
-    const next = (lessonsByLevel[level] ?? []).find((l) => !l.optional && !done[l.slug]);
+    // Like levels.ts firstIncompleteRequired (not imported: it would pull
+    // lesson data into this module): skips a unit review the learner has
+    // already moved past.
+    const lessons = lessonsByLevel[level] ?? [];
+    let lastDone = -1;
+    lessons.forEach((l, i) => {
+      if (!l.optional && done[l.slug]) lastDone = i;
+    });
+    const next = lessons.find((l, i) => !l.optional && !done[l.slug] && !(l.unitReview && i < lastDone));
     if (next) return { levelPath: level, slug: next.slug, title: next.title, number: next.number };
   }
   return null;

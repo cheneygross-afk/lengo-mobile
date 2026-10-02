@@ -181,6 +181,11 @@ export function Speak({
   const recorder = useAudioRecorder(RecordingPresets.HIGH_QUALITY);
   const [mic, setMic] = useState<MicState>("idle");
   const [recordingUri, setRecordingUri] = useState<string | null>(null);
+  // Respond aloud (`prompt` set): the model answer stays hidden until the
+  // learner has recorded their own, or asks to see it.
+  const respond = !!exercise.prompt;
+  const [shown, setShown] = useState(false);
+  const reveal = !respond || shown || mic === "recorded" || checked;
   const playerRef = useRef<AudioPlayer | null>(null);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const micRef = useRef<MicState>("idle");
@@ -254,13 +259,28 @@ export function Speak({
 
   return (
     <View>
-      <Text style={s.question}>Listen, then record yourself saying it.</Text>
-      <TapText text={exercise.text} lang={lang} mode="target" style={s.speakText} />
+      {respond ? (
+        <TapText text={exercise.prompt!} lang={lang} style={s.question} />
+      ) : (
+        <Text style={s.question}>Listen, then record yourself saying it.</Text>
+      )}
+      {reveal ? (
+        <TapText text={exercise.text} lang={lang} mode="target" style={s.speakText} />
+      ) : (
+        <View>
+          <Text style={s.muted}>Say your answer out loud and record it, then compare it with the model.</Text>
+          <Pressable style={s.linkButton} onPress={() => setShown(true)}>
+            <Text style={s.linkButtonText}>Show the answer</Text>
+          </Pressable>
+        </View>
+      )}
       {exercise.tip && <TapText text={`Tip: ${exercise.tip}`} lang={lang} style={s.tip} />}
       <View style={s.row}>
-        <Pressable style={s.secondaryBtn} onPress={() => speak(exercise.text, lang)}>
-          <Text style={s.secondaryBtnText}>🔊 Listen</Text>
-        </Pressable>
+        {reveal && (
+          <Pressable style={s.secondaryBtn} onPress={() => speak(exercise.text, lang)}>
+            <Text style={s.secondaryBtnText}>🔊 Listen</Text>
+          </Pressable>
+        )}
         {!checked && mic !== "unavailable" && (
           <Pressable
             disabled={mic === "starting"}
@@ -283,7 +303,11 @@ export function Speak({
           </Pressable>
         </View>
       )}
-      {mic === "recording" && <Text style={s.recording}>Recording… say the sentence, then tap Stop.</Text>}
+      {mic === "recording" && (
+        <Text style={s.recording}>
+          {respond ? "Recording… say it in Spanish, then tap Stop." : "Recording… say the sentence, then tap Stop."}
+        </Text>
+      )}
       {mic === "unavailable" && !checked && (
         <Text style={s.muted}>
           The microphone isn&apos;t available. You can still listen and say it out loud, or skip this one -- skipping
@@ -292,10 +316,12 @@ export function Speak({
       )}
       {!checked && mic === "recorded" && (
         <View>
-          <Text style={[s.muted, { marginTop: 10 }]}>How did it sound next to the model?</Text>
+          <Text style={[s.muted, { marginTop: 10 }]}>
+            {respond ? "Did you say the same thing (or something just as right)?" : "How did it sound next to the model?"}
+          </Text>
           <View style={s.row}>
             <Pressable style={[s.primaryBtn, s.flex]} onPress={() => submit(true, undefined, "Nice work!")}>
-              <Text style={s.primaryBtnText}>I sounded close</Text>
+              <Text style={s.primaryBtnText}>{respond ? "I got it" : "I sounded close"}</Text>
             </Pressable>
             <Pressable style={[s.secondaryBtn, s.flex]} onPress={() => submit(false, undefined, "Keep practising.")}>
               <Text style={[s.secondaryBtnText, { textAlign: "center" }]}>Needs work</Text>

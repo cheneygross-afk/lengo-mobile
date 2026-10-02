@@ -5,6 +5,8 @@ import { SKILL_LESSONS, withSkills } from "./skills";
 import { A1_IRREGULARS } from "./a1-irregulars";
 import { A1_CORE_PLACES } from "./a1-core";
 import { A2_PLACES } from "./a2-perfect-pronouns";
+import { withLevelTest } from "./level-tests";
+import { withUnitReviews } from "./unit-reviews";
 
 // Course order on top of weave.ts. weaveLessons can only place a lesson
 // right after another one, so the reordering that came out of the
@@ -336,6 +338,9 @@ export function buildLevel(level: Level, base: Lesson[], extras: AnchoredLesson[
   }
 
   endWith(lessons, LEVEL_EXIT_SLUGS[level]);
-  // Listening, speaking and writing practice (skills.ts).
-  return withSkills(level, renumber(lessons));
+  // Listening, speaking and writing practice (skills.ts), a review lesson
+  // at the end of every unit (unit-reviews.ts), then the four-skill level
+  // test in place of the exit lesson (level-tests.ts).
+  const exit = LEVEL_EXIT_SLUGS[level];
+  return withLevelTest(level, renumber(withUnitReviews(level, withSkills(level, lessons), exit)), exit);
 }

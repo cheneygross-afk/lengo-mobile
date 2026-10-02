@@ -1,5 +1,5 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/levels.ts by scripts/sync-content.mjs -- edit it there, not here.
-import type { Exercise, Lesson } from "./types";
+import type { Lesson } from "./types";
 import { LEVEL_EXIT_SLUGS } from "./sequencing";
 
 // The six core Spanish levels as both apps name and count them: the
@@ -170,13 +170,20 @@ export function completedChecker(completed: CompletedSlugs): (slug: string) => b
 }
 
 /** The first required lesson not yet completed, in course order, or null
- * when every required lesson is done. */
-export function firstIncompleteRequired<L extends { slug: string; optional?: boolean }>(
+ * when every required lesson is done. A unit review (unit-reviews.ts) the
+ * learner has already moved past -- some later required lesson is done --
+ * is skipped, so the reviews added to units people had finished don't
+ * pull them back (they're still in the list to take any time). */
+export function firstIncompleteRequired<L extends { slug: string; optional?: boolean; unitReview?: boolean }>(
   lessons: readonly L[],
   completed: CompletedSlugs
 ): L | null {
   const done = completedChecker(completed);
-  return lessons.find((l) => !l.optional && !done(l.slug)) ?? null;
+  let lastDone = -1;
+  lessons.forEach((l, i) => {
+    if (!l.optional && done(l.slug)) lastDone = i;
+  });
+  return lessons.find((l, i) => !l.optional && !done(l.slug) && !(l.unitReview && i < lastDone)) ?? null;
 }
 
 /**
@@ -206,55 +213,13 @@ export function pickFurthestNext<P extends string, L extends { slug: string; opt
 }
 
 // ---- Testing out of a unit -------------------------------------------------
+// In unitTest.ts, which imports no lesson data, so sequencing.ts can use
+// pickUnitTestQuestions for the end-of-unit quizzes (unit-reviews.ts).
 
-/** Share of a unit test's questions that must be right to test out of the unit. */
-export const UNIT_TEST_PASS_PERCENT = 80;
-export const UNIT_TEST_QUESTIONS = 10;
-
-export function unitTestPassed(correct: number, total: number): boolean {
-  return total > 0 && correct * 100 >= total * UNIT_TEST_PASS_PERCENT;
-}
-
-export type UnitTestQuestion = { exercise: Exercise; lessonSlug: string; lessonNumber: number };
-
-/**
- * Draws a unit test from the unit's required lessons' final-review
- * exercises: lessons are shuffled, then one random exercise is taken
- * from each in turn (so the test spreads over the whole unit) until
- * `count` are picked or the pool runs out. `random` is Math.random by
- * default; pass a seeded one for a repeatable draw.
- */
-export function pickUnitTestQuestions(
-  lessons: readonly Lesson[],
-  count = UNIT_TEST_QUESTIONS,
-  random: () => number = Math.random
-): UnitTestQuestion[] {
-  const shuffle = <T>(arr: T[]): T[] => {
-    const a = [...arr];
-    for (let i = a.length - 1; i > 0; i--) {
-      const j = Math.floor(random() * (i + 1));
-      [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
-  };
-  // Speaking and free writing are self-assessed or ungraded, so they
-  // can't test anyone out of a unit.
-  const testable = (e: Exercise) => e.type !== "speak" && e.type !== "write";
-  const pools = shuffle(
-    lessons
-      .filter((l) => !l.optional)
-      .map((l) => ({ lesson: l, exercises: shuffle(l.exercises.filter(testable)) }))
-      .filter((p) => p.exercises.length > 0)
-  );
-  const picked: UnitTestQuestion[] = [];
-  for (let round = 0; picked.length < count; round++) {
-    let any = false;
-    for (const { lesson, exercises } of pools) {
-      if (round >= exercises.length || picked.length >= count) continue;
-      picked.push({ exercise: exercises[round], lessonSlug: lesson.slug, lessonNumber: lesson.number });
-      any = true;
-    }
-    if (!any) break;
-  }
-  return shuffle(picked);
-}
+export {
+  UNIT_TEST_PASS_PERCENT,
+  UNIT_TEST_QUESTIONS,
+  pickUnitTestQuestions,
+  unitTestPassed,
+  type UnitTestQuestion,
+} from "./unitTest";

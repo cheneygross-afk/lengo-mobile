@@ -7,6 +7,7 @@ import { B2_LESSONS } from "./b2";
 import { C1_LESSONS } from "./c1";
 import { C2_LESSONS } from "./c2";
 import { COSAS_COLOQUIALES_LESSONS } from "./c1c2-cosas-coloquiales";
+import { UNIT_DEFS, type UnitDef } from "./unit-defs";
 import {
   SPANISH_LEVELS,
   firstIncompleteRequired,
@@ -43,190 +44,6 @@ export type UnitLevelPath = SpanishLevelPath | "cosas-coloquiales";
 
 /** The levels that have units, in course order (Cosas Coloquiales last). */
 export const UNIT_LEVEL_PATHS: UnitLevelPath[] = ["a1", "a2", "b1", "b2", "c1", "c2", "cosas-coloquiales"];
-
-type UnitDef = {
-  /** Slug of the unit's first required lesson. */
-  start: string;
-  title: string;
-  description: string;
-  /** "*-drill-1" slugs of the optional drill groups that belong here. */
-  extras?: string[];
-};
-
-const u = (start: string, title: string, description: string, extras?: string[]): UnitDef => ({
-  start,
-  title,
-  description,
-  extras,
-});
-
-const UNIT_DEFS: Record<UnitLevelPath, UnitDef[]> = {
-  a1: [
-    u("greetings-pronouns-ser-1", "Ser, articles & adjectives", "Greetings, subject pronouns, ser, el/la/un/una and making adjectives agree.", ["adjectives-gender-number-drill-1"]),
-    u("sounds-vowels", "Sounds of Spanish", "Vowels, r and rr, b/v, j, ll, ñ, c/z, linking, intonation and stress, with listening and speaking."),
-    u("present-tense-ar-verbs", "Present-tense verbs", "Regular -ar, -er and -ir verbs and the stem changers e→ie, o→ue, e→i.", ["present-tense-verbs-drill-1"]),
-    u("a1-irregulars-yo-go", "Everyday irregulars", "Pongo, salgo, tengo, digo, doy, sé, conozco: the yo-go verbs, saber vs. conocer, and can, want, need or have to + infinitive."),
-    u("a1r-word-web-jobs", "Ser vs. estar", "When to use ser and when estar, plus estar + gerund for right now.", ["ser-vs-estar-drill-1"]),
-    u("possessives-prepositions", "Possessives, numbers & time", "Mi, tu, su, basic prepositions, numbers, prices, telling the time and your daily routine.", ["possessives-prepositions-drill-1", "numbers-time-drill-1"]),
-    u("days-months-dates", "Dates & questions", "Days, months, dates, family words, asking questions, and little words like todavía, casi, otro and ninguno.", ["question-words-drill-1"]),
-    u("gustar-1", "Gustar & key irregular verbs", "Talking about likes with gustar, the body and me duele, then tener, ir, hacer, hay and the weather.", ["gustar-drill-1", "tener-ir-hacer-hay-drill-1"]),
-    u("a1r-word-web-house", "This & that, and A1 so far", "Este, ese, aquel, clothes, spiral reviews and core words for places, feelings and everyday life."),
-    u("a1-final-review-1", "A1 final review", "Comprehensive review, challenges and the exit test for A2."),
-  ],
-  a2: [
-    u("preterite-regular-verbs-1", "The preterite: regular verbs", "Saying what happened: regular preterite endings and spelling changes."),
-    u("preterite-irregular-verbs-1", "Irregular preterites", "Fui, tuve, hice, dije and the other common irregular past forms.", ["preterite-drill-1"]),
-    u("imperfect-tense-1", "The imperfect", "Describing how things were and what used to happen.", ["imperfect-drill-1"]),
-    u("preterite-vs-imperfect-1", "Preterite vs. imperfect", "Choosing the right past tense: events, backgrounds and interruptions.", ["preterite-vs-imperfect-drill-1"]),
-    u("a2-vocabulary-practice-1", "Telling stories in the past", "Both past tenses together, plus verbs that change meaning in the past."),
-    u("a2-perfect-he-comido", "The present perfect", "He comido, has visto: today and this week, irregular participles, ya, todavía no, alguna vez, and he comido vs. comí."),
-    u("direct-object-pronouns-1", "Direct object pronouns", "Lo, la, los, las, me, te, nos: replacing the object and where it goes."),
-    u("indirect-object-pronouns-1", "Indirect object pronouns", "Le and les with dar, decir and gustar-type verbs; lo or le?", ["object-pronouns-drill-1"]),
-    u("reflexive-verbs-daily-routine-1", "Reflexive verbs & routines", "Me levanto, te duchas: daily routines and verbs that change with se.", ["reflexive-verbs-drill-1"]),
-    u("comparisons-superlatives-1", "Comparisons & superlatives", "Más que, menos que, tan/tanto como, mejor, peor, el más.", ["comparisons-superlatives-drill-1"]),
-    u("future-tense-1", "The future tense", "Hablaré, tendré: plans, predictions and guesses about now.", ["future-tense-drill-1"]),
-    u("por-vs-para-1", "Por vs. para", "The main uses of por and para, one pair at a time.", ["por-vs-para-drill-1"]),
-    u("a2-vocabulary-practice-3", "Por vs. para in practice", "Mastery check, error hunts and quick calls on por and para."),
-    u("personal-a", "Personal a & negatives", "The personal a, and nada, nadie, nunca with double negation.", ["personal-a-negation-mente-drill-1"]),
-    u("mente-adverbs-1", "Adverbs & directions", "Adverbs in -mente, and asking for and giving directions."),
-    u("a2g-tu-commands-regular", "Commands, little words & tricky pairs", "Tú commands with pronouns, diminutives, hace... que, muy or mucho, pedir or preguntar, and vos and vosotros."),
-    u("at-the-restaurant-1", "At the restaurant", "Ordering, complaining politely and A2 spiral reviews."),
-    u("a2s-shopping-sizes", "Survival situations", "Role plays for everyday errands: shops, pharmacy, doctor, hotel, transport, post office, hairdresser, plans, small talk and getting help."),
-    u("a2r-word-web-travel", "Everyday words & past stories", "Word webs for travel, health, tech and work, and longer past-tense stories."),
-    u("a2-double-pronouns-me-lo", "Two pronouns together", "Me lo, te la, se lo: both pronouns at once, with infinitives, gerunds and commands."),
-    u("a2-comprehensive-review-1", "A2 review", "Comprehensive reviews and cumulative circuits across all of A2."),
-    u("a2d-cumulative-circuit-3", "Cumulative circuits & challenges", "Irregular verbs, pronoun placement and the first A2 challenges."),
-    u("a2r-challenge-buenos-aires-1", "A2 challenges & exit test", "A week in Buenos Aires, the past-tense gauntlet and the exit test for B1."),
-  ],
-  b1: [
-    u("present-perfect-1", "The present perfect", "He comido, ¿alguna vez has…?: experiences, ya and todavía no."),
-    u("present-subjunctive-formation-1", "The present subjunctive: forms", "Building the present subjunctive from the yo form.", ["subjunctive-formation-drill-1"]),
-    u("b1d-circuito-cambios-raiz", "Subjunctive stem changes & irregulars", "Stem changes, spelling changes and sea, esté, vaya, sepa, dé, haya."),
-    u("subjunctive-wishes-doubt-emotion-1", "Subjunctive: wishes, doubt & emotion", "Quiero que, no creo que, me alegro de que.", ["subjunctive-wishes-doubt-emotion-drill-1"]),
-    u("b1r-dialogue-advice-column", "Wishes, doubt & emotion in practice", "Advice, reactions to news and choosing indicative, subjunctive or infinitive."),
-    u("subjunctive-impersonal-ojala-1", "Impersonal expressions & ojalá", "Es importante que, es posible que, ojalá.", ["subjunctive-impersonal-ojala-drill-1"]),
-    u("b1d-corrige-impersonales", "Ojalá & impersonal expressions in practice", "From general to personal, and more practice with doubt and wishes."),
-    u("commands-imperative-1", "Commands", "Tú, usted, nosotros and negative commands.", ["commands-drill-1"]),
-    u("b1d-circuito-pronombres-mandatos", "Commands with pronouns", "Dímelo, no me lo digas; tú or usted; recipes and instructions."),
-    u("conditional-tense-1", "The conditional", "Hablaría, podría: polite requests and imagined situations.", ["conditional-tense-drill-1"]),
-    u("b1r-contrast-future-conditional", "The conditional in practice", "Iré or iría, yo que tú, and what you'd do with a million."),
-    u("si-clauses-simple-1", "If-clauses: si + present", "Si llueve, me quedo: real conditions and never the future after si.", ["si-clauses-drill-1"]),
-    u("b1r-spiral-commands-conditional-si", "Conditions, commands & review", "Si + present with commands, and a spiral review of the first half."),
-    u("past-perfect-1", "The past perfect", "Había hecho: the past before the past, and the three past tenses.", ["present-past-perfect-drill-1"]),
-    u("b1d-cuento-boda-tarde", "Past tenses in context", "Stories and themed reviews mixing the perfects, the imperfect and ojalá."),
-    u("relative-pronouns-1", "Relative pronouns", "Que, quien, el que, lo que, and prepositions before them.", ["relative-pronouns-drill-1"]),
-    u("b1r-tema-camino", "Relative pronouns in practice", "Combining sentences, describing without the word, and error hunts."),
-    u("b1-vocabulary-practice-7", "Mixed review: commands & wishes", "Irregular tú commands, usted commands and reported wishes."),
-    u("passive-voice-se-1", "Passive & impersonal se", "Se vende, se venden, se dice: signs, ads and hiding the agent.", ["passive-voice-possessive-pronouns-drill-1"]),
-    u("b1r-contrast-se-pasivo-impersonal", "Se in practice", "Passive or impersonal se at work, in the news and in themed reviews."),
-    u("b1g-future-perfect", "Future perfect, periphrases & accidental se", "Habré terminado, serán las tres, acabo de, sigo sin, busco a alguien que sepa, se me olvidó."),
-    u("b1-vocabulary-practice-8", "Word practice & mixed review", "Outdoor words, advice with the conditional, and themed reviews."),
-    u("combined-object-pronouns-1", "Combined object pronouns", "Me lo, te la, se lo: two pronouns together."),
-    u("b1r-tema-activismo-vecinal", "Double pronouns with commands", "Tráemelo, no me lo des, dárselo, estoy diciéndotelo, and mixed review."),
-    u("possessive-pronouns-1", "Possessive pronouns", "El mío, la tuya, los suyos: mi or el mío."),
-    u("b1r-tema-convivencia-vecinos", "Possessives & mixed review", "¿De quién es?, and review of perfects, commands and pronouns."),
-    u("vosotros-commands-1", "Vosotros commands", "Hablad, comed, id: giving instructions to a group in Spain."),
-    u("b1r-spiral-b1-first-half", "B1 so far & vosotros in practice", "The two big spiral reviews, levantaos / no os levantéis, and cumulative dictations."),
-    u("b1s-polite-requests", "Survival situations: calls, banks & flats", "Role plays: polite requests, phone calls, the bank and renting a flat."),
-    u("b1s-paperwork", "Survival situations: offices, shops & work", "Role plays: paperwork, complaints, returns, repairs, job interviews and hiring a car."),
-    u("b1-vocabulary-practice-10", "Word webs: emotions, opinions & nature", "B1 vocabulary by theme, with mixed practice."),
-    u("b1r-word-web-kitchen", "Word webs: kitchen, money & news", "More themed vocabulary with pronoun and se review."),
-    u("b1d-rep-mezcla-habla-de-ti-final", "Word webs: city & work", "The last word webs and the final cumulative circuit."),
-    u("b1-comprehensive-review-1", "B1 review", "Comprehensive reviews and the first B1 challenges."),
-    u("b1r-challenge-subjunctive-gauntlet", "B1 challenges & exit test", "Subjunctive, pasts and pronouns without hints, and the exit test for B2."),
-  ],
-  b2: [
-    u("subjunctive-adjective-clauses-1", "Subjunctive in relative clauses", "Busco a alguien que sepa…, no hay nadie que…", ["subjunctive-adjective-clauses-drill-1"]),
-    u("b2r-contrast-antecedent", "Relative clauses: which mood?", "Que sabe or que sepa, in ads, stories and quick calls."),
-    u("subjunctive-adverbial-clauses-1", "Subjunctive after cuando, para que, aunque", "Time, purpose and concession clauses.", ["subjunctive-adverbial-clauses-drill-1"]),
-    u("b2r-transform-infinitive-que", "Adverbial clauses in practice", "Para or para que, antes de or antes de que, and all the conjunctions."),
-    u("imperfect-subjunctive-sequence-1", "The imperfect subjunctive", "Quería que vinieras: forms and the sequence of tenses.", ["imperfect-subjunctive-sequence-tenses-drill-1"]),
-    u("b2r-dialogue-parents-wanted", "Sequence of tenses in practice", "Ojalá viniera, quisiera, and past requests."),
-    u("hypothetical-si-clauses-1", "Hypothetical si-clauses", "Si tuviera tiempo, viajaría; como si.", ["hypothetical-si-clauses-drill-1"]),
-    u("b2r-contrast-si-tengo-tuviera", "Si tuviera… in practice", "Real or unreal conditions, advice with si yo fuera tú."),
-    u("conditional-perfect-pluperfect-subjunctive-1", "Would have: past hypotheticals", "Si hubiera sabido, habría ido: the conditional perfect and pluperfect subjunctive.", ["conditional-perfect-pluperfect-subjunctive-drill-1"]),
-    u("b2-vocabulary-practice-3", "Regrets & past hypotheticals", "Mastery check, regrets, alternative history and habría or hubiera."),
-    u("reported-speech-1", "Reported speech", "Dijo que estaba cansado: tense and time-word shifts.", ["reported-speech-drill-1"]),
-    u("b2r-transform-voice-messages", "Reported speech in practice", "Passing on messages, questions and requests."),
-    u("ser-estar-haber-nuanced-1", "Ser, estar & haber: nuances", "Es listo or está listo, events, and hay or está.", ["ser-estar-haber-nuanced-drill-1"]),
-    u("b2r-error-hunt-ser-estar-haber", "Ser, estar & haber in practice", "Error hunts, character sketches and mixed review."),
-    u("verbs-of-change-1", "Verbs of change", "Ponerse, volverse, hacerse, llegar a ser, convertirse en.", ["verbs-of-change-drill-1"]),
-    u("b2-vocabulary-practice-7", "Verbs of change in practice", "Mastery check, biographies of change and mixed review."),
-    u("advanced-connectors-1", "Advanced connectors", "Aunque, sin embargo, ya que, por lo tanto.", ["advanced-connectors-emphasis-drill-1"]),
-    u("b2d-rep-adverbiales-mezcla-final", "Connectors in argument", "Formal letters, argumentative paragraphs and register."),
-    u("emphasis-word-order-1", "Emphasis & word order", "El libro lo compré yo, fue Ana quien lo dijo: cleft sentences."),
-    u("b2r-contrast-neutral-emphatic", "Emphasis in practice", "Neutral or emphatic, lo difícil que es, and themed reviews."),
-    u("cuyo-el-cual-1", "Cuyo & el cual", "Advanced relatives: cuyo, el cual, según el cual."),
-    u("b2r-transform-join-cuyo", "Formal relatives & spiral review", "Joining sentences with cuyo, and the B2 spiral reviews."),
-    u("b2r-tema-tierra-familia", "Mixed review: B2 so far", "Themed reviews mixing every B2 structure."),
-    u("b2-vocabulary-practice-10", "Word webs: arts, politics & dreams", "B2 vocabulary by theme, with mixed practice."),
-    u("b2r-word-web-technology-ai", "Word webs: technology, media & mind", "Technology, decisions, media and psychology."),
-    u("b2r-tema-aprender-idioma-nino", "Word webs: growth & debate", "The last word webs and the final cumulative circuit."),
-    u("b2-comprehensive-review-1", "B2 review", "Comprehensive reviews and the first B2 challenges."),
-    u("b2r-challenge-subjunctive-gauntlet", "B2 challenges & exit test", "Subjunctive, conditionals and reported speech without hints, and the exit test for C1."),
-  ],
-  c1: [
-    u("subjunctive-mastery-review-1", "Subjunctive: advanced nuances", "Tense agreement, universal concessives and the softening subjunctive.", ["subjunctive-advanced-nuances-drill-1"]),
-    u("concessive-aunque-1", "Aunque & concessive clauses", "Aunque with each mood, and six ways to concede."),
-    u("nominalization-part-1-1", "Nominalization", "Turning verbs into nouns for a formal register.", ["nominalization-drill-1"]),
-    u("gerund-infinitive-advanced-part-1-1", "Gerund vs. infinitive", "Advanced uses, the gerund of posteriority and progressive periphrases.", ["gerundio-vs-infinitivo-drill-1"]),
-    u("passive-impersonal-mastery-1", "Passive voice & impersonal se", "Three ways to hide the agent, and the many uses of se.", ["passive-voice-impersonal-se-drill-1"]),
-    u("free-indirect-style-part-1-1", "Free indirect style & narration", "Direct, indirect and free indirect speech in literary narration.", ["estilo-indirecto-libre-drill-1"]),
-    u("por-para-precision-1", "Por & para: professional precision", "Por and para in contracts, business and fixed expressions."),
-    u("ser-estar-haber-limits-part-1-1", "Ser, estar & haber: borderline cases", "Evaluative adjectives, events and hybrid cases.", ["ser-estar-haber-casos-limite-drill-1"]),
-    u("prepositional-verbs-part-1-1", "Verbs with prepositions", "Verbs that need a, de, en or con; queísmo and dequeísmo.", ["verbos-preposicionales-drill-1"]),
-    u("advanced-discourse-markers-1", "Discourse markers", "Ahora bien, dicho esto, en definitiva: cohesive texts."),
-    u("emphatic-structures-1", "Emphasis & focus", "Cleft sentences, lo que and lo + adjective + que."),
-    u("future-conditional-conjecture-1", "Guessing with the future & conditional", "¿Qué habrá pasado?: conjecture about the present and past."),
-    u("formal-informal-register-1", "Tú, usted & vos: register", "Choosing and switching forms of address."),
-    u("voseo-part-1-1", "Voseo", "Vos forms and their regional varieties.", ["el-voseo-drill-1"]),
-    u("regional-lexical-variation-1", "Regional vocabulary", "Everyday words that change from country to country."),
-    u("neutral-vs-colloquial-1", "Neutral vs. colloquial Spanish", "Filler words, tone and writing for all of Latin America."),
-    u("formal-correspondence-1", "Formal letters & emails", "Greetings, closings, complaints and follow-ups."),
-    u("academic-essay-writing-part-1-1", "Academic writing & essays", "Thesis, hedging, depersonalizing and abstracts."),
-    u("c1r-challenge-big-error-hunt", "C1 challenges & exit test", "Every C1 structure without hints, and the C1 exit test."),
-  ],
-  c2: [
-    u("legal-administrative-spanish-part-1-1", "Legal & administrative Spanish", "Legal language made plain, Latin terms and who's who in a case.", ["espanol-juridico-administrativo-drill-1"]),
-    u("legal-administrative-spanish-part-2-1", "Contracts & official notices", "Clauses, liability, notices and the notary."),
-    u("medical-health-spanish-1", "Medical Spanish", "Symptoms, clinical reports, dosage and informed consent.", ["espanol-medico-drill-1"]),
-    u("everyday-idioms-1", "Idioms", "Idioms, their restrictions, regional variants and common calques.", ["modismos-expresiones-idiomaticas-drill-1"]),
-    u("proverbs-sayings-1", "Proverbs & sayings", "Completing, contrasting and quoting refranes, old and regional.", ["refranes-dichos-populares-drill-1"]),
-    u("humor-wordplay-1", "Humor & wordplay", "Double meanings, irony and humor by country."),
-    u("figurative-language-1", "Metaphor & figurative language", "Metaphor, metonymy, literary figures, euphemism and irony.", ["metaforas-eufemismos-lenguaje-figurado-drill-1"]),
-    u("euphemisms-indirect-1", "Euphemisms & indirect language", "Saying delicate things, and what's meant but not said."),
-    u("exclamations-emphasis-1", "Exclamations, diminutives & augmentatives", "Reacting like a native, and what -ito, -ón and -azo really add."),
-    u("c1c2-vocabulary-practice-11", "Business idioms", "Idioms for meetings, crises and reports, plus Latin phrases."),
-    u("listening-reading-strategies-1", "Listening & reading strategies", "Guessing unknown words, register shifts and fast speech."),
-    u("listening-reading-strategies-5", "Skimming, scanning & note-taking", "Radio interviews, reading modes and lecture notes."),
-    u("debate-persuasion-1", "Debate & persuasion", "Conceding, refuting, learned connectors and spotting fallacies.", ["registro-argumentacion-debate-negociacion-drill-1"]),
-    u("debate-persuasion-6", "Rhetoric & closing arguments", "Rhetorical devices, strong conclusions and debate vocabulary."),
-    u("presentations-negotiation-1", "Presentations & negotiation", "Openings, transitions and counteroffers."),
-    u("presentations-negotiation-5", "Closing the deal", "Body language, Q&A sessions and agreements in writing."),
-    u("citations-references-1", "Citations & references", "Quoting, attribution verbs and the critical apparatus."),
-    u("citations-references-5", "Paraphrase & literature reviews", "Paraphrase or plagiarism, and writing the state of the question."),
-    u("rhetorical-questions-1", "Rhetorical questions", "Real or rhetorical, hypophora and interrogative series."),
-    u("rhetorical-questions-5", "Rhetorical questions in speeches", "Replying to rhetorical questions and a one-minute speech."),
-    u("job-interview-spanish-1", "Job interviews", "Strengths, weaknesses and the STAR method."),
-    u("job-interview-spanish-5", "Job interviews: the full mock", "Pitfalls, CV vocabulary and a complete mock interview."),
-    u("conflict-resolution-1", "Conflict resolution & mediation", "De-escalating, acknowledging without conceding, and apologies."),
-    u("historical-narrative-1", "Historical narrative", "Narrative imperfect, pretérito anterior, historical present and free indirect style."),
-    u("historical-narrative-6", "Writing history", "Narrative connectors, the historian's voice, learned register and periodization."),
-    u("science-technology-spanish-1", "Science & technology", "The language of hypotheses, innovation and popular science."),
-    u("environment-politics-spanish-1", "Environment & politics", "Climate vocabulary, polarized and deliberative language."),
-    u("philosophy-abstract-concepts-1", "Philosophy & abstract ideas", "Free will, abstract nouns and analyzing arguments."),
-    u("psychology-emotions-1", "Psychology & complex emotions", "Ambivalence, nuanced feelings and naming emotions."),
-    u("art-film-literature-criticism-1", "Art, film & literary criticism", "Plot, character, film language and evaluative adjectives."),
-    u("business-economics-spanish-1", "Business & economics", "Cause and effect, financial statements, inflation news and mergers.", ["negocios-economia-drill-1"]),
-    u("creative-writing-techniques-1", "Creative writing", "Foreshadowing, imagery and a 100-word microstory."),
-    u("c1c2-comprehensive-review-1", "C2 review & mastery exam", "Comprehensive reviews, C2 challenges and the mastery exam."),
-  ],
-  "cosas-coloquiales": [
-    u("festivals-traditions-hispanic-world-1", "Fiestas & food culture", "Festivals, traditions, the sobremesa and table manners."),
-    u("soccer-popular-passion-1", "Football & music", "The language of football and the music map of the Hispanic world."),
-    u("superstitions-folk-beliefs-1", "Superstitions & social customs", "Folk beliefs, New Year rituals, piropos and compliments."),
-  ],
-};
 
 const LESSONS: Record<UnitLevelPath, Lesson[]> = {
   a1: A1_LESSONS,
@@ -412,10 +229,20 @@ export function checkUnits(): string[] {
       if (unit.optional.some((l) => !l.optional) || unit.required.some((l) => l.optional)) {
         problems.push(`units (${levelPath}): ${unit.label} mixes up required and optional lessons`);
       }
-      const n = unit.required.length;
+      // The unit's closing review (unit-reviews.ts) doesn't count: it
+      // teaches nothing new.
+      const n = unit.required.filter((l) => !l.unitReview).length;
       const min = levelPath === "cosas-coloquiales" ? 4 : UNIT_MIN_REQUIRED;
       if (n < min || n > UNIT_MAX_REQUIRED) {
         problems.push(`units (${levelPath}): ${unit.label} has ${n} required lessons (keep it ${min}-${UNIT_MAX_REQUIRED})`);
+      }
+      const last = unit.required[unit.required.length - 1];
+      const review = unit.required.filter((l) => l.unitReview);
+      if (levelPath !== "cosas-coloquiales") {
+        // Every A1-C2 unit ends with its review; the last unit's comes
+        // just before the level test.
+        const ok = review.length === 1 && (last.unitReview || unit.required[unit.required.length - 2]?.unitReview);
+        if (!ok) problems.push(`units (${levelPath}): ${unit.label} doesn't end with its unit review`);
       }
       if (!unit.required.some((l) => l.exercises.length > 0)) {
         problems.push(`units (${levelPath}): ${unit.label} has no exercises to test out with`);

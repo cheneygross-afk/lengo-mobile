@@ -13,7 +13,7 @@ type Tool = { route: "Grammar" | "Conjugation" | "Exams" | "Glossary"; title: st
 const TOOLS: Tool[] = [
   { route: "Grammar", title: "Grammar Guides", body: "Short explanations of the grammar points learners get stuck on, from A1 to C2." },
   { route: "Conjugation", title: "Verb Conjugation", body: "Full tables for any verb with the irregular forms marked, plus drills by tense." },
-  { route: "Exams", title: "DELE Exam Practice", body: "Full-length practice exams for A2 to C1, marked like the real DELE." },
+  { route: "Exams", title: "DELE Exam Practice", body: "Full-length practice exams for A1 to C2, marked like the real DELE." },
   {
     route: "Glossary",
     title: "Glossary",

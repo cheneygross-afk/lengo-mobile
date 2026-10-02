@@ -92,6 +92,10 @@ export type DictationExercise = {
 export type SpeakExercise = {
   type: "speak";
   text: string; // the Spanish sentence to say
+  // Respond aloud: an English cue ("Say it in Spanish: ...") the learner
+  // answers out loud before hearing anything. `text` is then the model
+  // answer, kept hidden until they've recorded (or tap "Show the answer").
+  prompt?: string;
   tip?: string; // a pronunciation tip
   explanation: string;
 };
@@ -141,6 +145,10 @@ export type Lesson = {
   // new characters. Shown as "Lesson N · (optional)" in LessonList and
   // LessonRunner. Never set means required, same as before this existed.
   optional?: boolean;
+  // The review lesson at the end of each A1-C2 unit (unit-reviews.ts):
+  // a short unit quiz plus listening, speaking and writing practice built
+  // from the unit's lessons. Required, but never used for testing out.
+  unitReview?: boolean;
   // "JA-Alphabets", "JA-A1", "JA-A2", "JA-B1", "JA-B2", "JA-C1", and "JA-C2" are the hidden
   // Japanese track's pre-A1 hiragana/katakana module and its first four real
   // grammar modules (see src/lib/lessons/ja-alphabets.ts, ja-a1.ts, ja-a2.ts,

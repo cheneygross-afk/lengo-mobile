@@ -1,19 +1,28 @@
-import { useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { View, Text, Pressable, StyleSheet, ScrollView } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import type { LessonModuleKey } from "@/lib/lessons/registry";
 import { findLessonBySlug } from "@/lib/lessons/registry";
 import {
-  PLACEMENT_QUESTIONS,
+  PLACEMENT_PROGRESS_KEY,
+  PLACEMENT_TOTAL,
+  ROUTER_QUESTIONS,
   getMissedQuestions,
+  nextPlacementQuestion,
+  normalizePlacementProgress,
+  placementQuestionText,
   scorePlacementTest,
+  type PlacementAnswers,
   type PlacementLevel,
 } from "@/lib/placementTest";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import TapText from "@/components/TapText";
 import { SPANISH_LANG } from "@/lib/speech";
 import { updatePrefs } from "@/lib/learnerPrefs";
+import { levelPathFromCode } from "@/lib/learnerPlan";
+import { readJSON, writeJSON } from "@/lib/storage/asyncStore";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Placement">;
 
@@ -35,41 +44,105 @@ const LEVEL_NAME: Record<PlacementLevel, string> = {
   C2: "C2 · Mastery",
 };
 
-// Mobile port of the website's placement test (PlacementTestRunner):
-// the same 35 questions and scoring (src/lib/placementTest.ts, synced
-// from the website), then a results screen that recommends a level and
+function saveProgress(answers: PlacementAnswers | null) {
+  if (answers) void writeJSON(PLACEMENT_PROGRESS_KEY, { version: 2, answers, updatedAt: Date.now() });
+  else void AsyncStorage.removeItem(PLACEMENT_PROGRESS_KEY).catch(() => {});
+}
+
+// Mobile port of the website's placement test (PlacementTestRunner): the
+// same two-stage adaptive test and scoring (src/lib/placementTest.ts,
+// synced from the website), one question at a time with progress saved
+// after every answer, then a results screen that recommends a level and
 // links every missed question to the lesson that teaches it.
 export default function PlacementTestScreen({ navigation }: Props) {
-  const [answered, setAnswered] = useState<Record<number, boolean>>({});
+  const [answers, setAnswers] = useState<PlacementAnswers>({});
+  const [saved, setSaved] = useState<PlacementAnswers | null>(null);
+  const [started, setStarted] = useState(false);
+  const [pendingId, setPendingId] = useState<string | null>(null);
   const [showResults, setShowResults] = useState(false);
   const [attempt, setAttempt] = useState(0);
   const scrollRef = useRef<ScrollView>(null);
 
-  const totalAnswered = Object.keys(answered).length;
-  const allAnswered = totalAnswered === PLACEMENT_QUESTIONS.length;
-  const correctByIndex = PLACEMENT_QUESTIONS.map((_, i) => !!answered[i]);
+  useEffect(() => {
+    let live = true;
+    void readJSON<unknown>(PLACEMENT_PROGRESS_KEY, null).then((raw) => {
+      if (live) setSaved(normalizePlacementProgress(raw)?.answers ?? null);
+    });
+    return () => {
+      live = false;
+    };
+  }, []);
 
-  function seeResults() {
-    setShowResults(true);
+  const current = useMemo(() => {
+    const withoutPending = pendingId ? Object.fromEntries(Object.entries(answers).filter(([id]) => id !== pendingId)) : answers;
+    return nextPlacementQuestion(withoutPending);
+  }, [answers, pendingId]);
+
+  function scrollTop() {
     scrollRef.current?.scrollTo({ y: 0, animated: false });
+  }
+
+  function begin(from: PlacementAnswers) {
+    setAnswers(from);
+    setPendingId(null);
+    setStarted(true);
+    setAttempt((n) => n + 1);
+    scrollTop();
+  }
+
+  function answer(id: string, correct: boolean) {
+    const next = { ...answers, [id]: correct };
+    setAnswers(next);
+    setPendingId(id);
+    saveProgress(next);
+    return next;
+  }
+
+  function finish(final: PlacementAnswers) {
+    const score = scorePlacementTest(final);
+    const level = levelPathFromCode(score.recommendedLevel);
+    if (level) {
+      void updatePrefs({
+        placement: {
+          level,
+          correct: score.correct,
+          total: score.total,
+          masteredEverything: score.masteredEverything,
+          takenAt: Date.now(),
+        },
+      });
+    }
+    saveProgress(null);
+    setSaved(null);
+    setPendingId(null);
+    setShowResults(true);
+    scrollTop();
+  }
+
+  function goNext() {
+    setPendingId(null);
+    if (!nextPlacementQuestion(answers)) finish(answers);
+    else scrollTop();
   }
 
   function retake() {
-    setAnswered({});
+    saveProgress(null);
+    setSaved(null);
+    setAnswers({});
+    setPendingId(null);
     setShowResults(false);
-    setAttempt((n) => n + 1);
-    scrollRef.current?.scrollTo({ y: 0, animated: false });
+    setStarted(false);
+    scrollTop();
   }
 
   if (showResults) {
-    const result = scorePlacementTest(correctByIndex);
-    const missed = getMissedQuestions(correctByIndex);
-    const correctCount = correctByIndex.filter(Boolean).length;
+    const result = scorePlacementTest(answers);
+    const missed = getMissedQuestions(answers);
     return (
       <ScrollView ref={scrollRef} style={s.screen} contentContainerStyle={s.content}>
         <Text style={s.title}>Your results</Text>
         <Text style={s.body}>
-          {correctCount} of {PLACEMENT_QUESTIONS.length} correct.
+          {result.correct} of {result.total} correct.
         </Text>
 
         <View style={s.card}>
@@ -77,12 +150,16 @@ export default function PlacementTestScreen({ navigation }: Props) {
           <Text style={s.cardLevel}>{LEVEL_NAME[result.recommendedLevel]}</Text>
           <Text style={s.cardBody}>
             {result.masteredEverything
-              ? "You passed every level, including Professional & Academic -- you're already working at a native level of mastery. C2 is there if you want to polish the details."
+              ? "You passed every level, up to C2. The C2 lessons -- legal and medical Spanish, idioms, rhetoric and academic writing -- are there to polish the details."
               : "That's the first level where gaps started showing up. Each level builds on the one before it, so starting there is what closes those gaps."}
           </Text>
           <Pressable
             style={s.bigBtn}
-            onPress={() => navigation.navigate("LessonList", { moduleKey: LEVEL_KEY[result.recommendedLevel] })}
+            onPress={() => {
+              const level = levelPathFromCode(result.recommendedLevel);
+              if (level) void updatePrefs({ startLevel: level });
+              navigation.navigate("LessonList", { moduleKey: LEVEL_KEY[result.recommendedLevel] });
+            }}
           >
             <Text style={s.bigBtnText}>Start at {LEVEL_NAME[result.recommendedLevel]}</Text>
           </Pressable>
@@ -97,20 +174,28 @@ export default function PlacementTestScreen({ navigation }: Props) {
             <Text style={s.rowTitle}>{LEVEL_NAME[r.level]}</Text>
             <Text style={[s.rowScore, r.passed && s.rowScorePassed]}>
               {r.correct}/{r.total}
-              {r.passed ? " ✓" : ""}
+              {r.passed ? " ✓" : r.status === "gaps" ? " · gaps" : ""}
             </Text>
           </View>
         ))}
+        <Text style={s.progress}>
+          The first {ROUTER_QUESTIONS.length} questions covered every level; the rest focused on {result.band[0]} and{" "}
+          {result.band[1]}.
+        </Text>
 
         {missed.length > 0 && (
           <>
             <Text style={s.sectionHeader}>Lessons to revisit ({missed.length})</Text>
             <Text style={s.body}>Every question you missed, with the lesson that teaches it.</Text>
-            {missed.map(({ question, index }) => {
+            {missed.map(({ question }) => {
               const lesson = findLessonBySlug(question.relatedLessonSlug);
               return (
-                <View key={index} style={s.missed}>
-                  <TapText text={question.question} lang={SPANISH_LANG} style={s.missedQuestion} />
+                <View key={question.id} style={s.missed}>
+                  <TapText
+                    text={placementQuestionText(question)}
+                    lang={SPANISH_LANG}
+                    style={s.missedQuestion}
+                  />
                   {lesson ? (
                     <Pressable
                       onPress={() => navigation.navigate("LessonRunner", { slug: lesson.slug })}
@@ -141,48 +226,104 @@ export default function PlacementTestScreen({ navigation }: Props) {
     );
   }
 
+  if (!started || !current) {
+    const savedCount = saved ? Object.keys(saved).length : 0;
+    return (
+      <ScrollView ref={scrollRef} style={s.screen} contentContainerStyle={s.content}>
+        <Text style={s.title}>Placement test</Text>
+        {/* A true beginner would only be guessing. */}
+        <View style={s.skipCard}>
+          <Text style={s.skipText}>Starting from zero? Skip the test.</Text>
+          <Pressable
+            style={s.skipBtn}
+            accessibilityRole="button"
+            onPress={() => {
+              void updatePrefs({ startLevel: "a1" });
+              navigation.navigate("LessonList", { moduleKey: "a1" });
+            }}
+          >
+            <Text style={s.skipBtnText}>I&apos;m a total beginner: start at A1 →</Text>
+          </Pressable>
+        </View>
+        <Text style={s.body}>
+          {PLACEMENT_TOTAL} questions, about 10 minutes. The first {ROUTER_QUESTIONS.length} cover every level from
+          beginner to mastery; the rest focus on the two levels closest to yours. Some questions are spoken, so turn
+          your sound on, and some ask you to type the Spanish.
+        </Text>
+        <Text style={s.progress}>Your progress is saved as you go, so you can stop and come back later.</Text>
+        {saved && savedCount > 0 ? (
+          <>
+            <Pressable style={s.bigBtn} onPress={() => begin(saved)}>
+              <Text style={s.bigBtnText}>
+                Resume: question {savedCount + 1} of {PLACEMENT_TOTAL}
+              </Text>
+            </Pressable>
+            <Pressable
+              style={s.secondaryBtn}
+              onPress={() => {
+                saveProgress(null);
+                setSaved(null);
+                begin({});
+              }}
+            >
+              <Text style={s.secondaryBtnText}>Start over</Text>
+            </Pressable>
+          </>
+        ) : (
+          <Pressable style={s.bigBtn} onPress={() => begin({})}>
+            <Text style={s.bigBtnText}>Start the test</Text>
+          </Pressable>
+        )}
+      </ScrollView>
+    );
+  }
+
+  const { question, index, stage } = current;
+  const answeredNow = pendingId === question.id;
   return (
     <ScrollView ref={scrollRef} style={s.screen} contentContainerStyle={s.content} keyboardShouldPersistTaps="handled">
-      <Text style={s.title}>Placement test</Text>
-      {/* A true beginner would only be guessing through 35 questions. */}
-      <View style={s.skipCard}>
-        <Text style={s.skipText}>Starting from zero? Skip the test.</Text>
-        <Pressable
-          style={s.skipBtn}
-          accessibilityRole="button"
-          onPress={() => {
-            void updatePrefs({ startLevel: "a1" });
-            navigation.navigate("LessonList", { moduleKey: "a1" });
-          }}
-        >
-          <Text style={s.skipBtnText}>Brand new to Spanish? Start at A1 →</Text>
+      <View style={s.topRow}>
+        <Text style={s.progressTop}>
+          Question {index + 1} of {PLACEMENT_TOTAL} · Part {stage} of 2
+        </Text>
+        <Pressable onPress={() => navigation.goBack()} hitSlop={8} accessibilityRole="button">
+          <Text style={s.exit}>Save and exit</Text>
         </Pressable>
       </View>
-      <Text style={s.body}>
-        35 questions spanning every level, from complete beginner to professional and academic mastery. Answer each
-        one as best you can -- no time limit, and you&apos;ll see the explanation right after each question.
-      </Text>
-      <Text style={s.progress}>
-        {totalAnswered} of {PLACEMENT_QUESTIONS.length} answered
-      </Text>
+      <View style={s.bar}>
+        <View style={[s.barFill, { width: `${(index / PLACEMENT_TOTAL) * 100}%` }]} />
+      </View>
+      {stage === 2 && index === ROUTER_QUESTIONS.length && !answeredNow ? (
+        <Text style={s.body}>Part 2: questions around your level.</Text>
+      ) : null}
 
-      {PLACEMENT_QUESTIONS.map((question, i) => (
-        <View key={`${attempt}-${i}`} style={s.question}>
-          <ExerciseBlock
-            exercise={question}
-            index={i}
-            lang={SPANISH_LANG}
-            onChecked={(correct) => setAnswered((prev) => ({ ...prev, [i]: correct }))}
-          />
-        </View>
-      ))}
+      <View style={s.question}>
+        <ExerciseBlock
+          key={`${attempt}-${question.id}`}
+          exercise={question}
+          index={index}
+          lang={SPANISH_LANG}
+          level={question.level}
+          onChecked={(correct) => answer(question.id, correct)}
+        />
+      </View>
 
-      {allAnswered ? (
-        <Pressable style={s.bigBtn} onPress={seeResults}>
-          <Text style={s.bigBtnText}>See my results</Text>
+      {answeredNow ? (
+        <Pressable style={s.bigBtn} onPress={goNext}>
+          <Text style={s.bigBtnText}>{nextPlacementQuestion(answers) ? "Next question" : "See my results"}</Text>
         </Pressable>
       ) : (
-        <Text style={s.progress}>Answer every question to see your results.</Text>
+        <Pressable
+          hitSlop={8}
+          onPress={() => {
+            const next = answer(question.id, false);
+            setPendingId(null);
+            if (!nextPlacementQuestion(next)) finish(next);
+            else scrollTop();
+          }}
+        >
+          <Text style={s.retake}>I don&apos;t know -- skip</Text>
+        </Pressable>
       )}
     </ScrollView>
   );
@@ -205,7 +346,12 @@ const s = StyleSheet.create({
   skipText: { fontSize: 14, color: "#000000cc" },
   skipBtn: { alignSelf: "flex-start", backgroundColor: "#000", borderRadius: 10, paddingVertical: 10, paddingHorizontal: 14 },
   skipBtnText: { color: "#fff", fontSize: 14, fontWeight: "700" },
-  progress: { fontSize: 13, color: "#00000066", marginBottom: 16, marginTop: 4 },
+  progress: { fontSize: 13, color: "#000000aa", marginBottom: 16, marginTop: 4 },
+  topRow: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginBottom: 8 },
+  progressTop: { fontSize: 13, color: "#000000aa" },
+  exit: { fontSize: 13, color: "#7A1F1F", fontWeight: "700" },
+  bar: { height: 8, borderRadius: 4, backgroundColor: "#0000001a", overflow: "hidden", marginBottom: 18 },
+  barFill: { height: 8, backgroundColor: "#7A1F1F" },
   question: { marginBottom: 22 },
   card: {
     borderWidth: 1,
