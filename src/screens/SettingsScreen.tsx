@@ -31,7 +31,7 @@ import {
 // purchase is ever made inside the app itself, and the app stays clear
 // of Apple/Google's in-app-purchase requirements for a subscription sold
 // this way.
-const PREMIUM_URL = "https://deependspanish.com/settings#plans";
+const PREMIUM_URL = "https://deependspanish.com/pricing";
 const HANDOFF_URL = "https://deependspanish.com/api/mobile/handoff";
 // Backs the "Delete account" link at the very bottom of this screen --
 // required by Apple for apps with sign-up (Guideline 5.1.1(v)). The
@@ -400,7 +400,10 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
 
       <Pressable style={s.premiumBtn} onPress={openPremium} disabled={openingPremium}>
         <Text style={s.premiumBtnText}>{openingPremium ? "Opening…" : "Get Premium"}</Text>
-        <Text style={s.premiumBtnSub}>Opens deependspanish.com in your browser, already signed in</Text>
+        <Text style={s.premiumBtnSub}>
+          Focused Lessons: 2 months free, then $5/mo. Cancel anytime. Opens deependspanish.com in your browser,
+          already signed in.
+        </Text>
       </Pressable>
 
       <View style={s.section}>
