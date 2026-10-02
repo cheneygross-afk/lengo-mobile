@@ -413,6 +413,38 @@ export const GUIDE_LESSON_LINKS: GuideLessonLink[] = [
     lessons: at("c2", "historical-narrative-1", "c2r-history-historical-present"),
     practice: { c2: /historical-narrative|historical-present|history-/ },
   },
+  {
+    guide: "indicative-vs-subjunctive-meaning-contrasts",
+    lessons: [
+      ...at("c2", "c2r-debate-spiral-subjunctive", "c2r-conflict-spiral-subjunctive", "registro-argumentacion-debate-negociacion-drill-2"),
+    ],
+  },
+  {
+    guide: "formal-written-spanish",
+    lessons: at("c2", "c2r-strategy-register-shifts", "c2r-translate-legalese-plain", "c2r-extra-register-shift-debate", "c2r-challenge-register-chameleon"),
+    practice: { c2: /register-shift|register-chameleon|register-synonyms/ },
+  },
+  {
+    guide: "free-indirect-style",
+    lessons: [...at("c1", "free-indirect-style-part-1-1", "c1r-text-detective-free-indirect", "c1r-workshop-write-free-indirect"), ...at("c2", "historical-narrative-5")],
+    practice: { c1: /free-indirect/ },
+  },
+  {
+    guide: "passive-and-impersonal-variants",
+    lessons: [...at("c1", "c1r-transform-three-passives"), ...at("c2", "c2r-politics-spiral-grammar", "c2r-euphemism-corporate-rewrite")],
+  },
+  {
+    guide: "regional-grammar-variation",
+    lessons: at("c2", "c2r-humor-regional-styles", "c2r-diminutive-regional-lexicalized", "modismos-expresiones-idiomaticas-drill-2"),
+  },
+  {
+    guide: "dequeismo-and-queismo",
+    lessons: at("c1", "c1r-transform-queismo-dequeismo", "c1r-challenge-big-error-hunt"),
+  },
+  {
+    guide: "modal-uses-of-tenses",
+    lessons: at("c2", "historical-narrative-7", "c2r-history-error-hunt-tenses", "c2r-negotiation-spiral-register"),
+  },
   // The general subjunctive guide goes last so the topic-specific
   // subjunctive guides above claim their lessons first.
   {

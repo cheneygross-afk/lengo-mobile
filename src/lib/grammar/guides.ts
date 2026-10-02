@@ -6,6 +6,7 @@ import { B1_GUIDES } from "./guides-b1";
 import { B2_GUIDES } from "./guides-b2";
 import { C1_GUIDES } from "./guides-c1";
 import { C2_GUIDES } from "./guides-c2";
+import { C2_MORE_GUIDES } from "./guides-c2-more";
 
 // The first twelve guides live here; the rest are split by level into
 // guides-<level>.ts so no one file gets unwieldy.
@@ -946,6 +947,7 @@ export const GRAMMAR_GUIDES: GrammarGuide[] = [
   ...B2_GUIDES,
   ...C1_GUIDES,
   ...C2_GUIDES,
+  ...C2_MORE_GUIDES,
 ];
 
 export function getGrammarGuide(slug: string): GrammarGuide | undefined {

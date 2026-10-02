@@ -12,7 +12,7 @@ type Props = NativeStackScreenProps<AppStackParamList, "FrequencyDecks">;
 const BRAND = "#7A1F1F";
 
 // Mobile port of the "Frequency decks" panel on the website's Flashcards
-// page: the 5,000 most frequent Spanish words (src/lib/decks, synced from
+// page: the 6,000 most frequent Spanish words (src/lib/decks, synced from
 // the website), added to the learner's flashcards a deck at a time. They
 // are ordinary cards, so the new-cards-per-day setting still decides how
 // many come up each day, most frequent first.
@@ -74,7 +74,7 @@ export default function FrequencyDecksScreen({ navigation }: Props) {
   return (
     <ScrollView style={s.screen} contentContainerStyle={s.content}>
       <Text style={s.intro}>
-        The 5,000 most common words of spoken Spanish, by level, each with an example sentence. Add a deck and its
+        The 6,000 most common words of spoken Spanish, by level, each with an example sentence. Add a deck and its
         words join your flashcard reviews.
       </Text>
       {FREQUENCY_DECKS.map((deck) => {

@@ -7,38 +7,45 @@ export const A1_STORIES: Story[] = [
   {
     slug: "school-day-math-test",
     level: "A1",
-    title: "El examen de matemáticas",
+    title: "El examen de conducir",
     subtitle:
-      "A young student feels nervous about a math test but discovers she understands more than she thought.",
+      "Marta is very nervous about her driving theory test, but she knows more than she thinks.",
     paragraphs: [
-      "Marta tiene diez años y estudia en una escuela pequeña. Hoy es lunes y hay un examen de matemáticas. Marta está muy nerviosa porque las matemáticas son difíciles para ella. Ella no duerme bien la noche antes del examen.",
-      "Por la mañana, Marta camina a la escuela con su amigo Pablo. Pablo también tiene el examen, pero él no está nervioso. \"Los números no son un monstruo\", dice Pablo con una sonrisa. Marta sonríe un poco, pero todavía tiene miedo.",
-      "En la clase, la profesora Ana reparte los exámenes. Marta mira su hoja y ve las primeras preguntas. Son sobre sumas y restas, algo que ella practica todos los días. Marta respira profundo y empieza a escribir.",
-      "Poco a poco, Marta entiende cada pregunta. Ella recuerda las lecciones de la profesora Ana. Escribe las respuestas con calma y revisa cada número dos veces. El examen no es tan difícil como ella piensa.",
-      "Al final de la clase, Marta entrega su examen. Se siente feliz y también un poco cansada. Pablo la espera en la puerta y le pregunta cómo está. \"Creo que voy a sacar una buena nota\", responde Marta con una gran sonrisa.",
-      "Esa noche, la profesora Ana llama a los padres de Marta. El examen de Marta tiene una nota muy buena. Marta aprende una lección importante: ella es más fuerte de lo que piensa. Ahora, Marta no tiene miedo de los exámenes.",
+      "Marta tiene treinta y dos años y no tiene carné de conducir. Hoy es lunes y tiene el examen teórico. Marta está muy nerviosa. No duerme bien la noche antes del examen.",
+      "Por la mañana, Marta va al centro de exámenes con su amigo Pablo. Pablo conduce todos los días. \"Las señales no son un monstruo\", dice Pablo con una sonrisa. Marta sonríe un poco, pero todavía tiene miedo.",
+      "En la sala hay treinta personas. Una mujer reparte los exámenes. Marta lee las primeras preguntas. Son sobre las señales de tráfico, y Marta estudia las señales todos los días. Respira profundo y empieza.",
+      "Poco a poco, Marta entiende cada pregunta. Recuerda sus clases en la autoescuela. Escribe las respuestas con calma y revisa todo dos veces. El examen no es tan difícil.",
+      "Al final, Marta entrega el examen. Está contenta y también un poco cansada. Pablo espera en la puerta. \"¿Qué tal?\", pregunta. \"Creo que voy a aprobar\", responde Marta.",
+      "Esa noche, Marta recibe un correo electrónico. El correo dice: \"Resultado: apto\". ¡Marta aprueba! Ahora tiene el examen práctico, con un coche de verdad. Pero Marta ya no tiene tanto miedo.",
     ],
     questions: [
       {
-        question: "Why is Marta nervous before the exam?",
-        options: ["She forgot her pencil", "Math is difficult for her", "She is late for school", "Her friend is sick"],
+        question: "Why is Marta nervous?",
+        options: ["She is late", "She has her driving theory test today", "Her car is broken", "Pablo is sick"],
         correctIndex: 1,
         explanation:
-          "The text says \"las matemáticas son difíciles para ella\" (math is difficult for her).",
+          "\"Hoy es lunes y tiene el examen teórico. Marta está muy nerviosa.\"",
       },
       {
         question: "What does Pablo say to encourage Marta?",
-        options: ["\"You will fail anyway\"", "\"The teacher is scary\"", "\"Numbers are not a monster\"", "\"Let's skip school\""],
+        options: ["\"You are going to fail anyway\"", "\"The examiner is scary\"", "\"Road signs aren't a monster\"", "\"Let's go home\""],
         correctIndex: 2,
         explanation:
-          "Pablo says \"Los números no son un monstruo\" (numbers are not a monster).",
+          "Pablo says, \"Las señales no son un monstruo\" (road signs aren't a monster).",
       },
       {
-        question: "What topics are the first questions on the exam about?",
-        options: ["Geometry shapes", "Addition and subtraction", "Multiplication tables", "Fractions"],
+        question: "What are the first questions about?",
+        options: ["Car engines", "Traffic signs", "Speed limits in other countries", "Parking fines"],
         correctIndex: 1,
         explanation:
-          "The text states the questions are \"sobre sumas y restas\" (about addition and subtraction).",
+          "\"Son sobre las señales de tráfico.\"",
+      },
+      {
+        question: "What does the email say?",
+        options: ["That she failed", "That she passed (\"apto\")", "That the test is tomorrow", "That she needs more classes"],
+        correctIndex: 1,
+        explanation:
+          "\"El correo dice: 'Resultado: apto'. ¡Marta aprueba!\"",
       },
     ],
   },
@@ -349,76 +356,92 @@ export const A1_STORIES: Story[] = [
   {
     slug: "the-lost-teddy-bear",
     level: "A1",
-    title: "El osito perdido",
+    title: "Las llaves perdidas",
     subtitle:
-      "A young girl searches everywhere for her missing teddy bear before bedtime.",
+      "Lucía has a job interview in an hour, and she can't find her keys anywhere.",
     paragraphs: [
-      "Camila tiene un osito de peluche llamado Café. Café duerme con ella todas las noches. Una noche, antes de dormir, Camila no encuentra a Café. Ella busca en su cama, pero el osito no está.",
-      "Camila empieza a preocuparse mucho. Busca debajo de la cama y detrás de la puerta. También busca en el armario entre su ropa. Café no aparece en ningún lugar de su cuarto.",
-      "Camila llama a su mamá con voz triste. \"Mamá, no encuentro a Café\", dice ella casi llorando. Su mamá la abraza y le dice que van a buscar juntas. Las dos caminan por toda la casa con una linterna.",
-      "Primero, buscan en la sala y en la cocina. Después, buscan en el jardín porque Camila juega allí todas las tardes. Su mamá recuerda algo importante de repente. \"¿Café está en el coche? ¡Siempre llevas a Café al parque!\", dice su mamá.",
-      "Camila recuerda que sí: Café siempre va con ella al parque en el coche. Las dos salen rápido hacia el coche en el garaje. Su mamá abre la puerta y mira el asiento de atrás. ¡Allí está Café, esperando pacientemente!",
-      "Camila abraza fuerte a su osito y sonríe feliz. \"¡Nunca más te dejo solo!\" le dice al osito. Su mamá la lleva a la cama con mucho cuidado. Esa noche, Camila duerme profundamente con Café en sus brazos.",
+      "Son las ocho de la mañana. Lucía tiene una entrevista de trabajo a las nueve. Está lista: tiene la ropa, el currículum y el bolso. Pero no encuentra las llaves de casa.",
+      "Lucía busca en la cocina. Mira en la mesa, en los cajones y al lado de la cafetera. No hay llaves. \"¡No es posible!\", dice.",
+      "Después busca en el salón. Mira debajo del sofá y entre los cojines. Encuentra una moneda, un bolígrafo y un calcetín. Pero las llaves no están allí.",
+      "Lucía llama a su compañera de piso, Inés. Inés está en el trabajo. \"¿Y en tu abrigo de ayer?\", pregunta Inés. Lucía corre al dormitorio.",
+      "Mira en los bolsillos del abrigo azul. No hay nada. Son las ocho y media. Lucía está muy nerviosa. Tiene que salir ya.",
+      "Entonces abre la puerta del piso... y allí están las llaves, en la cerradura, por fuera. ¡Toda la noche en la puerta!",
+      "Lucía toma las llaves, ríe y sale corriendo. Llega a la entrevista a las nueve menos cinco. Y la primera pregunta de la entrevista es: \"¿Es usted una persona organizada?\"",
     ],
     questions: [
       {
-        question: "What is the teddy bear's name?",
-        options: ["Café", "Rocky", "Osito", "Manchas"],
-        correctIndex: 0,
-        explanation:
-          "The text introduces \"un osito de peluche llamado Café\" (a teddy bear named Café).",
-      },
-      {
-        question: "Where do they finally find the teddy bear?",
-        options: ["In the kitchen", "In the garden", "In the back seat of the car", "Under the bed"],
+        question: "What time is Lucía's job interview?",
+        options: ["At eight", "At half past eight", "At nine", "At ten"],
         correctIndex: 2,
         explanation:
-          "Mom looks at \"el asiento de atrás\" (the back seat) and finds Café there.",
+          "\"Lucía tiene una entrevista de trabajo a las nueve.\"",
       },
       {
-        question: "Where did Camila take the teddy bear earlier that day?",
-        options: ["To school", "To the park", "To grandma's house", "To the store"],
+        question: "What does she find between the sofa cushions?",
+        options: ["Her keys", "A coin, a pen and a sock", "Her phone", "A letter from Inés"],
         correctIndex: 1,
         explanation:
-          "The text says Camila \"llevó a Café al parque\" (took Café to the park).",
+          "\"Encuentra una moneda, un bolígrafo y un calcetín.\"",
+      },
+      {
+        question: "Where are the keys?",
+        options: ["In her blue coat", "In the kitchen drawer", "In the lock, on the outside of the door", "In Inés's bag"],
+        correctIndex: 2,
+        explanation:
+          "\"Allí están las llaves, en la cerradura, por fuera.\"",
+      },
+      {
+        question: "What is the first question at the interview?",
+        options: ["\"Do you speak English?\"", "\"Are you an organized person?\"", "\"Where do you live?\"", "\"Why are you late?\""],
+        correctIndex: 1,
+        explanation:
+          "The first question is \"¿Es usted una persona organizada?\"",
       },
     ],
   },
   {
     slug: "a-day-at-the-zoo",
     level: "A1",
-    title: "Un día en el zoológico",
+    title: "El primer día en el zoológico",
     subtitle:
-      "A boy's class trip to the zoo turns exciting when a young elephant puts on a surprising water show.",
+      "Daniel starts a new job as an assistant elephant keeper, and a young elephant gives him a very wet welcome.",
     paragraphs: [
-      "La clase de Hugo visita el zoológico de la ciudad. Todos los estudiantes están muy emocionados por el viaje. Suben al autobús con sus mochilas y botellas de agua. La maestra cuenta a todos los estudiantes antes de salir.",
-      "En el zoológico, primero visitan la casa de los monos. Los monos saltan de árbol en árbol y hacen ruidos graciosos. Después, caminan hacia el área de los leones. Los leones duermen bajo la sombra de unas rocas grandes.",
-      "Hugo quiere ver los elefantes más que nada. Cuando llegan al área de los elefantes, hay una multitud grande. Un cuidador del zoológico les da de comer frutas a los elefantes. Los elefantes usan la trompa para tomar la comida.",
-      "De repente, un elefante joven camina hacia el agua. Entra al agua y empieza a jugar con su trompa. El elefante lanza agua hacia arriba y todos los niños ríen. Hugo saca fotos con la cámara de su mamá.",
-      "Después de ver los elefantes, la clase come el almuerzo cerca del lago. Hugo comparte su sándwich con su amiga Nora. Ven patos nadando cerca de ellos en el agua. Todos hablan sobre sus animales favoritos del día.",
-      "Por la tarde, visitan las jirafas antes de volver a la escuela. Hugo aprende que las jirafas tienen el cuello muy largo. En el autobús, Hugo dibuja un elefante en su cuaderno. Dice que el zoológico es el mejor viaje del año.",
+      "Daniel tiene veinticinco años. Hoy es su primer día de trabajo en el zoológico de la ciudad. Es el nuevo ayudante de Carmen, la cuidadora de los elefantes.",
+      "Carmen tiene cincuenta años y mucha experiencia. \"Los elefantes son muy inteligentes\", dice. \"Y un poco bromistas.\" Daniel no entiende la última palabra.",
+      "Por la mañana, Daniel limpia la casa de los elefantes con una manguera. Es un trabajo duro. Hay mucha agua y mucho barro.",
+      "Después, Carmen y Daniel dan fruta a los animales: manzanas, plátanos y zanahorias. La elefanta más joven se llama Tula. Tula tiene dos años y es muy curiosa.",
+      "A mediodía llegan muchos visitantes. Tula camina hacia el lago. Toma agua con la trompa y mira a Daniel.",
+      "De repente, ¡Tula echa toda el agua sobre Daniel! Los visitantes ríen y aplauden. Daniel está mojado de la cabeza a los pies.",
+      "Carmen también ríe. \"¿Ahora entiendes la palabra 'bromista'?\", pregunta. Daniel ríe también. Es un primer día muy mojado, pero muy bonito.",
     ],
     questions: [
       {
-        question: "Which animal plays in the water with its trunk?",
-        options: ["A monkey", "A lion", "A young elephant", "A giraffe"],
-        correctIndex: 2,
-        explanation:
-          "The text says \"un elefante joven camina hacia el agua\" and lanza agua (a young elephant walks into the water and splashes it).",
-      },
-      {
-        question: "Who does Hugo share his sandwich with?",
-        options: ["His teacher", "Nora", "His mom", "A zookeeper"],
+        question: "What is Daniel's new job?",
+        options: ["Zoo ticket seller", "Assistant to the elephant keeper", "Veterinarian", "Tour guide"],
         correctIndex: 1,
         explanation:
-          "The text says Hugo \"comparte su sándwich con su amiga Nora\" (shares his sandwich with his friend Nora).",
+          "\"Es el nuevo ayudante de Carmen, la cuidadora de los elefantes.\"",
       },
       {
-        question: "What does Hugo draw on the bus ride back?",
-        options: ["A lion", "A monkey", "An elephant", "A giraffe"],
-        correctIndex: 2,
+        question: "What does Daniel do in the morning?",
+        options: ["He feeds the lions", "He cleans the elephant house with a hose", "He sells tickets", "He paints a sign"],
+        correctIndex: 1,
         explanation:
-          "The text says \"Hugo dibuja un elefante en su cuaderno\" (Hugo draws an elephant in his notebook).",
+          "\"Daniel limpia la casa de los elefantes con una manguera.\"",
+      },
+      {
+        question: "How old is Tula?",
+        options: ["Two", "Five", "Twenty-five", "Fifty"],
+        correctIndex: 0,
+        explanation:
+          "\"Tula tiene dos años y es muy curiosa.\"",
+      },
+      {
+        question: "What does Tula do at midday?",
+        options: ["She runs away", "She sprays all the water from her trunk over Daniel", "She eats Daniel's lunch", "She sleeps by the lake"],
+        correctIndex: 1,
+        explanation:
+          "\"¡Tula echa toda el agua sobre Daniel!\"",
       },
     ],
   },
@@ -577,38 +600,46 @@ export const A1_STORIES: Story[] = [
   {
     slug: "rainy-day-blanket-fort",
     level: "A1",
-    title: "Un día de lluvia",
+    title: "Un domingo sin luz",
     subtitle:
-      "Two bored siblings turn a rainy afternoon into an indoor blanket-fort adventure.",
+      "Two flatmates plan a lazy Sunday of films, but a power cut gives them a very different evening.",
     paragraphs: [
-      "Llueve mucho un sábado por la tarde. Los hermanos Nico y Ana no pueden jugar afuera. \"¡Qué aburrido!\" dice Nico mientras mira la lluvia por la ventana. Ana también está aburrida y no sabe qué hacer.",
-      "De repente, Ana tiene una idea buena. \"¿Por qué no construimos un fuerte con mantas?\" pregunta ella emocionada. Nico piensa que es una idea excelente. Los dos corren a buscar mantas y almohadas por toda la casa.",
-      "Ponen sillas en la sala y encima ponen las mantas. El fuerte tiene un túnel pequeño para entrar. Dentro, ponen almohadas suaves y una linterna pequeña. El fuerte parece una casa mágica y secreta.",
-      "Adentro del fuerte, los hermanos leen cuentos con la linterna. También juegan a las cartas y comen galletas. La lluvia afuera hace un sonido relajante en el techo. Nico dice que el fuerte es mejor que jugar afuera.",
-      "Su mamá les trae chocolate caliente para el fuerte. Los tres se sientan juntos dentro del pequeño espacio. La mamá cuenta una historia sobre cuando ella era niña. Todos escuchan con mucha atención y curiosidad.",
-      "Cuando para de llover, el sol sale un poco. Pero Nico y Ana quieren quedarse en el fuerte un poco más. Deciden dejar el fuerte armado hasta el día siguiente. Los días de lluvia ahora son sus días favoritos también.",
+      "Es domingo y llueve mucho. Ana y Jorge comparten un piso pequeño en Bilbao. Hoy no quieren salir. Quieren ver una película en el sofá.",
+      "A las cuatro, ¡no hay luz! La televisión y el wifi no funcionan. Los móviles tienen poca batería. \"¿Y ahora qué hacemos?\", pregunta Jorge.",
+      "Ana busca velas en la cocina. Encuentra tres velas y una caja de cerillas. Jorge encuentra un juego de cartas viejo en un cajón.",
+      "Con la luz de las velas, juegan a las cartas en la mesa del salón. Jorge gana la primera partida. Ana gana la segunda y la tercera.",
+      "A las siete tienen hambre. La cocina es eléctrica y no funciona. En la nevera hay pan, queso, tomates y jamón. Preparan unos bocadillos y abren una botella de vino.",
+      "Hablan mucho: de su trabajo, de sus familias, de sus viajes. Ana y Jorge viven juntos desde hace un año, pero normalmente hablan poco. Hoy hablan tres horas.",
+      "A las diez, vuelve la luz. La televisión funciona otra vez. Jorge mira a Ana y pregunta: \"¿Otra partida?\" Ana apaga la televisión y sonríe.",
     ],
     questions: [
       {
-        question: "What idea does Ana have to fix their boredom?",
-        options: ["Watch a movie", "Build a fort with blankets", "Bake cookies alone", "Go to a friend's house"],
+        question: "Where do Ana and Jorge live?",
+        options: ["In a house in Madrid", "In a small shared flat in Bilbao", "In a hotel", "With their parents"],
         correctIndex: 1,
         explanation:
-          "Ana suggests \"construimos un fuerte con mantas\" (let's build a fort with blankets).",
+          "\"Ana y Jorge comparten un piso pequeño en Bilbao.\"",
       },
       {
-        question: "What do the siblings do inside the fort?",
-        options: ["Sleep the whole time", "Read stories, play cards, and eat cookies", "Watch television", "Do homework"],
+        question: "What happens at four o'clock?",
+        options: ["A friend arrives", "The power goes out", "The rain stops", "They go to the cinema"],
         correctIndex: 1,
         explanation:
-          "The text says they \"leen cuentos...juegan a las cartas y comen galletas\" (read stories, play cards, and eat cookies).",
+          "\"A las cuatro, ¡no hay luz!\"",
       },
       {
-        question: "What does mom bring them inside the fort?",
-        options: ["Sandwiches", "Hot chocolate", "Ice cream", "Lemonade"],
+        question: "Who wins most of the card games?",
+        options: ["Jorge", "Ana", "Nobody", "They don't finish"],
         correctIndex: 1,
         explanation:
-          "The text says mom brings them \"chocolate caliente\" (hot chocolate).",
+          "\"Jorge gana la primera partida. Ana gana la segunda y la tercera.\"",
+      },
+      {
+        question: "What does Ana do when the power comes back?",
+        options: ["She watches a film", "She goes to bed", "She turns off the TV and smiles", "She calls her family"],
+        correctIndex: 2,
+        explanation:
+          "\"Ana apaga la televisión y sonríe.\"",
       },
     ],
   },
@@ -1733,46 +1764,47 @@ export const A1_STORIES: Story[] = [
   {
     slug: "la-feria-de-ciencias",
     level: "A1",
-    title: "La feria de ciencias",
+    title: "La feria de empleo",
     subtitle:
-      "Two friends present their science fair projects and win prizes for their hard work.",
+      "Two friends go to a job fair: an engineer with ten copies of his CV and a cook with a box of biscuits.",
     paragraphs: [
-      "Hoy es el día de la feria de ciencias en la escuela. Todos los estudiantes tienen un proyecto especial. Sofía tiene un volcán de papel.",
-      "El volcán de Sofía es rojo y verde. Ella pone bicarbonato y vinagre dentro. Cuando mezcla los dos líquidos, el volcán hace burbujas.",
-      "Su amigo Luis tiene un proyecto diferente. Luis estudia las plantas. Él tiene tres plantas: una con agua, una con luz y una sin luz.",
-      "Los estudiantes caminan por el gimnasio y miran los proyectos. Una profesora hace preguntas a cada estudiante. Sofía está un poco nerviosa.",
-      "La profesora llega a la mesa de Sofía. \"¿Por qué usas vinagre?\" pregunta la profesora. Sofía explica su experimento con calma.",
-      "La profesora sonríe y escribe algo en su papel. \"Es un experimento muy bueno,\" dice ella. Sofía está muy contenta.",
-      "Al final del día, la escuela da premios. Sofía y Luis reciben un premio por su trabajo. Los dos amigos celebran juntos.",
+      "Hoy hay una feria de empleo en la universidad. Lucas y Sara son amigos. Los dos buscan trabajo.",
+      "Lucas es ingeniero. Quiere trabajar en una empresa de energía solar. Lleva diez currículums en una carpeta.",
+      "Sara es cocinera. Quiere trabajar en un hotel grande. Lleva su currículum y una caja de galletas.",
+      "En la feria hay muchas empresas y mucha gente. Lucas habla con una empresa de paneles solares. Explica sus proyectos con mucha energía.",
+      "Sara visita el puesto de una cadena de hoteles. Habla con la jefa de cocina y abre su caja de galletas.",
+      "La jefa de cocina prueba una galleta. \"¡Qué rica!\", dice. \"¿Puedes venir a una prueba el lunes?\"",
+      "Por la tarde, Lucas recibe una llamada. La empresa de paneles solares quiere una entrevista con él el martes.",
+      "Lucas y Sara celebran con un café. \"La próxima vez, yo también llevo galletas\", dice Lucas. Sara ríe.",
     ],
     questions: [
       {
-        question: "What is Sofía's science fair project?",
-        options: ["A paper volcano", "A plant experiment", "A robot", "A map"],
+        question: "Where is the job fair?",
+        options: ["At a hotel", "At the university", "At a solar panel factory", "At a café"],
+        correctIndex: 1,
+        explanation:
+          "\"Hoy hay una feria de empleo en la universidad.\"",
+      },
+      {
+        question: "What does Sara bring besides her CV?",
+        options: ["Ten copies of her CV", "A box of biscuits", "A cake", "Coffee"],
+        correctIndex: 1,
+        explanation:
+          "\"Lleva su currículum y una caja de galletas.\"",
+      },
+      {
+        question: "What does the head chef ask Sara?",
+        options: ["To come for a trial on Monday", "To send her CV by email", "To make more biscuits", "To call on Tuesday"],
         correctIndex: 0,
         explanation:
-          "The story says Sofía \"tiene un volcán de papel\" (has a paper volcano).",
+          "\"¿Puedes venir a una prueba el lunes?\"",
       },
       {
-        question: "What does Sofía put inside her volcano?",
-        options: ["Water and salt", "Baking soda and vinegar", "Juice and sugar", "Milk and lemon"],
-        correctIndex: 1,
+        question: "What happens to Lucas in the afternoon?",
+        options: ["He gets a call: the solar company wants an interview on Tuesday", "He loses his folder", "He gets a job at the hotel", "He goes home"],
+        correctIndex: 0,
         explanation:
-          "The text says \"pone bicarbonato y vinagre dentro\" (she puts baking soda and vinegar inside).",
-      },
-      {
-        question: "What does Luis study for his project?",
-        options: ["Animals", "Stars", "Plants", "Rocks"],
-        correctIndex: 2,
-        explanation:
-          "The story says \"Luis estudia las plantas\" (Luis studies plants).",
-      },
-      {
-        question: "What do Sofía and Luis receive at the end of the day?",
-        options: ["A book", "A prize for their work", "Money", "A gold medal"],
-        correctIndex: 1,
-        explanation:
-          "The text says they \"reciben un premio por su trabajo\" (receive a prize for their work).",
+          "\"Lucas recibe una llamada. La empresa de paneles solares quiere una entrevista con él el martes.\"",
       },
     ],
   },
@@ -1825,46 +1857,46 @@ export const A1_STORIES: Story[] = [
   {
     slug: "la-competencia-de-deletreo",
     level: "A1",
-    title: "La competencia de deletreo",
+    title: "La noche de preguntas",
     subtitle:
-      "Elena studies hard and competes in her school's spelling bee, which ends in a tie with her friend.",
+      "Every Thursday, Elena's team plays the quiz at her local bar. Tonight is the final of the year.",
     paragraphs: [
-      "La escuela organiza una competencia de deletreo. Los estudiantes de tercer grado participan. Elena estudia palabras nuevas cada noche.",
-      "Elena tiene una lista larga de palabras difíciles. Su papá le ayuda a practicar después de la cena. Ellos repiten las palabras muchas veces.",
-      "El día de la competencia, Elena está muy nerviosa. Hay veinte estudiantes en el escenario. El público mira desde las sillas.",
-      "El profesor dice una palabra: \"elefante.\" Un niño la deletrea, pero comete un error. El niño camina hacia su silla, un poco triste.",
-      "Ahora es el turno de Elena. El profesor dice la palabra \"biblioteca.\" Elena piensa un momento y deletrea la palabra con cuidado.",
-      "\"¡Correcto!\" dice el profesor. El público aplaude. Elena sonríe y respira con alivio.",
-      "Al final, solo quedan dos estudiantes: Elena y su amiga Marta. Las dos deletrean muy bien. La competencia termina en empate y las dos ganan un premio.",
+      "Elena trabaja en un banco. Los jueves por la noche, va al bar de su barrio. Allí hay un concurso de preguntas.",
+      "Elena juega con su equipo: Pedro, Rosa y Tomás. El equipo se llama \"Los Sabios\". Elena estudia toda la semana: geografía, historia y deportes.",
+      "Este jueves es la final del año. El premio es una cena para cuatro personas en un buen restaurante.",
+      "El bar está lleno. Hay doce equipos. Las preguntas son difíciles. \"¿Cuál es la capital de Australia?\" Elena escribe la respuesta: Canberra.",
+      "Después de cuarenta preguntas, dos equipos tienen los mismos puntos: Los Sabios y Las Lechuzas. Marisa, la amiga de Elena, es la capitana de Las Lechuzas.",
+      "Hay una última pregunta: \"¿Cuántos huesos tiene el cuerpo humano?\" Los dos equipos escriben: doscientos seis. ¡Otra vez los mismos puntos!",
+      "El dueño del bar ríe. \"Bueno, una cena para ocho personas\", dice. El sábado, los dos equipos cenan juntos. Ahora todos son amigos.",
     ],
     questions: [
       {
-        question: "Who helps Elena practice spelling?",
-        options: ["Her mom", "Her dad", "Her brother", "Her teacher"],
+        question: "Where is the quiz?",
+        options: ["At Elena's bank", "At the bar in her neighborhood", "At a restaurant", "At Marisa's house"],
         correctIndex: 1,
         explanation:
-          "The story says \"Su papá le ayuda a practicar después de la cena\" (Her dad helps her practice after dinner).",
+          "\"Los jueves por la noche, va al bar de su barrio. Allí hay un concurso de preguntas.\"",
       },
       {
-        question: "Which word does Elena spell correctly?",
-        options: ["Elefante", "Biblioteca", "Dinosaurio", "Mariposa"],
+        question: "What is the prize for the final?",
+        options: ["Money", "A trip to Australia", "Dinner for four at a good restaurant", "A book"],
+        correctIndex: 2,
+        explanation:
+          "\"El premio es una cena para cuatro personas en un buen restaurante.\"",
+      },
+      {
+        question: "Who is the captain of the other team?",
+        options: ["Rosa", "Marisa, Elena's friend", "The bar owner", "Tomás"],
         correctIndex: 1,
         explanation:
-          "The text says \"El profesor dice la palabra 'biblioteca'\" and then Elena spells it and hears \"¡Correcto!\"",
+          "\"Marisa, la amiga de Elena, es la capitana de Las Lechuzas.\"",
       },
       {
-        question: "How many students are on stage?",
-        options: ["Ten", "Fifteen", "Twenty", "Twenty-five"],
+        question: "How does the bar owner solve the tie?",
+        options: ["He asks another question", "He gives the prize to Elena's team", "He gives a dinner for eight people", "He cancels the prize"],
         correctIndex: 2,
         explanation:
-          "The story says \"Hay veinte estudiantes en el escenario\" (There are twenty students on the stage).",
-      },
-      {
-        question: "How does the competition end?",
-        options: ["Elena loses", "Elena wins alone", "It ends in a tie and both girls win a prize", "No one wins"],
-        correctIndex: 2,
-        explanation:
-          "The text says \"La competencia termina en empate y las dos ganan un premio\" (The competition ends in a tie and both win a prize).",
+          "\"Bueno, una cena para ocho personas.\"",
       },
     ],
   },
@@ -3701,46 +3733,46 @@ export const A1_STORIES: Story[] = [
   {
     slug: "the-new-backpack",
     level: "A1",
-    title: "La mochila nueva",
+    title: "La mochila vieja",
     subtitle:
-      "A boy wants a flashy new backpack like his classmates', but his grandfather's old one has a story to tell.",
+      "On his first day at a new office job, Raúl feels embarrassed by his grandfather's old leather backpack, until it surprises everyone.",
     paragraphs: [
-      "Es septiembre y empieza el colegio. Todos los compañeros de Raúl tienen mochilas nuevas. Son de colores y tienen dibujos de superhéroes y futbolistas.",
-      "La mochila de Raúl es vieja y marrón. Es de cuero y tiene muchos bolsillos. Era la mochila de su abuelo cuando él era estudiante. Raúl piensa que es fea.",
-      "Un compañero, Óscar, mira la mochila de Raúl y dice: \"¡Qué mochila tan antigua!\" Otros niños se ríen. Raúl está triste y un poco enfadado.",
-      "En casa, Raúl habla con su abuelo. \"Abuelo, quiero una mochila nueva\", dice. El abuelo toma la mochila vieja y abre un bolsillo pequeño y secreto. Raúl no conoce este bolsillo.",
-      "Dentro hay un papel viejo. Es un mapa dibujado a mano. \"Este es el mapa de mi pueblo\", dice el abuelo. \"Con esta mochila camino seis kilómetros todos los días para ir a la escuela.\"",
-      "El abuelo cuenta muchas historias: el río que cruza, el perro que lo acompaña, la maestra que le enseña a leer. Raúl escucha todo con mucha atención.",
-      "Al día siguiente, Raúl lleva la mochila vieja al colegio. Cuando Óscar se ríe, Raúl le enseña el bolsillo secreto y el mapa. Óscar dice: \"¡Qué pasada! Mi mochila no tiene secretos.\" Ahora Raúl está orgulloso de su mochila.",
+      "Raúl tiene treinta años y hoy empieza un trabajo nuevo. Trabaja en una oficina grande en el centro de Madrid. Sus compañeros tienen mochilas modernas para el ordenador.",
+      "La mochila de Raúl es vieja y marrón. Es de cuero y tiene muchos bolsillos. Es la mochila de su abuelo. Raúl piensa que es un poco fea.",
+      "En la cafetería, una compañera, Lucía, mira la mochila. \"¡Qué mochila tan antigua!\", dice. Otros compañeros sonríen. Raúl está un poco triste.",
+      "Por la tarde, Raúl llama a su abuelo por teléfono. \"Abuelo, necesito una mochila nueva\", dice. El abuelo responde: \"Primero, abre el bolsillo pequeño de atrás.\"",
+      "Raúl no conoce ese bolsillo. Dentro hay un papel viejo. Es un mapa dibujado a mano. \"Es el mapa de mi pueblo\", explica el abuelo. \"Esa mochila tiene cuarenta años de trabajo.\"",
+      "El abuelo habla mucho de su pueblo: el río, el mercado, la panadería de la plaza. Raúl escucha con mucha atención. Es una hora de teléfono muy bonita.",
+      "Al día siguiente, Raúl lleva la mochila vieja a la oficina. Enseña el mapa a Lucía. \"¡Qué bonito!\", dice ella. \"Mi mochila no tiene historias.\" Ahora Raúl está orgulloso de su mochila.",
     ],
     questions: [
       {
         question: "Whose backpack was it originally?",
-        options: ["Raúl's father's", "His grandfather's", "Óscar's", "His teacher's"],
+        options: ["Raúl's father's", "His grandfather's", "Lucía's", "His boss's"],
         correctIndex: 1,
         explanation:
-          "\"Era la mochila de su abuelo cuando él era estudiante.\"",
+          "\"Es la mochila de su abuelo.\"",
       },
       {
-        question: "What is in the secret pocket?",
+        question: "Where is Raúl's new job?",
+        options: ["In a school in Seville", "In a big office in the center of Madrid", "In a shop in his grandfather's village", "In a café near the river"],
+        correctIndex: 1,
+        explanation:
+          "\"Trabaja en una oficina grande en el centro de Madrid.\"",
+      },
+      {
+        question: "What is in the small back pocket?",
         options: ["Money", "An old photo", "A hand-drawn map of Grandpa's village", "A letter"],
         correctIndex: 2,
         explanation:
           "\"Dentro hay un papel viejo. Es un mapa dibujado a mano... el mapa de mi pueblo.\"",
       },
       {
-        question: "How far did Grandpa walk to school every day?",
-        options: ["One kilometer", "Six kilometers", "Ten kilometers", "Sixty kilometers"],
-        correctIndex: 1,
+        question: "How does Lucía react to the map?",
+        options: ["She laughs at it", "She takes it", "She thinks it's lovely and says her backpack has no stories", "She tells the boss"],
+        correctIndex: 2,
         explanation:
-          "\"Camino seis kilómetros todos los días para ir a la escuela.\"",
-      },
-      {
-        question: "How does Óscar react to the secret pocket?",
-        options: ["He laughs more", "He takes the map", "He tells the teacher", "He thinks it's great and says his backpack has no secrets"],
-        correctIndex: 3,
-        explanation:
-          "Óscar says, \"¡Qué pasada! Mi mochila no tiene secretos.\"",
+          "Lucía says, \"¡Qué bonito! Mi mochila no tiene historias.\"",
       },
     ],
   },
