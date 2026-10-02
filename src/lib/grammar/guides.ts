@@ -15,7 +15,7 @@ const CORE_GUIDES: GrammarGuide[] = [
     title: "Ser vs. Estar: When to Use Each",
     metaTitle: "Ser vs. Estar: The Simple Rule, With Examples",
     description:
-      "Ser and estar both mean \"to be\" in Spanish. Learn the difference with clear rules, real examples, the adjectives that change meaning, and the most common mistakes.",
+      "Ser and estar both mean \"to be\" in Spanish. Learn the difference with clear rules, real examples, the adjectives that change meaning, and common mistakes.",
     level: "A1",
     readingLevelPath: "a1",
     intro: [
@@ -103,7 +103,7 @@ const CORE_GUIDES: GrammarGuide[] = [
     title: "Por vs. Para: A Clear Guide",
     metaTitle: "Por vs. Para: When to Use Each (With Examples)",
     description:
-      "Por and para both translate as \"for\" in Spanish. Learn when to use each with simple rules, dozens of examples, fixed expressions, and the mistakes learners make most.",
+      "Por and para both translate as \"for\" in Spanish. Learn when to use each with simple rules, many examples, fixed expressions and the most common mistakes.",
     level: "A2",
     readingLevelPath: "a2",
     intro: [
@@ -189,9 +189,9 @@ const CORE_GUIDES: GrammarGuide[] = [
   {
     slug: "preterite-vs-imperfect",
     title: "Preterite vs. Imperfect: Spanish Past Tenses Explained",
-    metaTitle: "Preterite vs. Imperfect in Spanish: How to Choose",
+    metaTitle: "Preterite vs. Imperfect in Spanish",
     description:
-      "Spanish has two simple past tenses. Learn when to use the preterite and when to use the imperfect, with signal words, examples, and how the two work together in a story.",
+      "When to use the Spanish preterite and when the imperfect, with signal words, examples, and how the two past tenses work together in a story.",
     level: "A2",
     readingLevelPath: "a2",
     intro: [
@@ -267,9 +267,9 @@ const CORE_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-subjunctive",
     title: "The Spanish Subjunctive: When to Use It",
-    metaTitle: "Spanish Subjunctive: When to Use It (WEIRDO + Examples)",
+    metaTitle: "Spanish Subjunctive: When to Use It (WEIRDO)",
     description:
-      "A plain-English guide to the Spanish present subjunctive: what it is, the triggers that require it (wishes, emotions, doubt), how to form it, and common mistakes.",
+      "A plain-English guide to the Spanish present subjunctive: what it is, the triggers that need it (wishes, emotions, doubt), how to form it, common mistakes.",
     level: "B1",
     readingLevelPath: "b1",
     intro: [
@@ -352,9 +352,9 @@ const CORE_GUIDES: GrammarGuide[] = [
   {
     slug: "gustar-and-similar-verbs",
     title: "How to Use Gustar (and Verbs Like It)",
-    metaTitle: "How to Use Gustar in Spanish (Me Gusta, Me Gustan)",
+    metaTitle: "How to Use Gustar: Me Gusta vs. Me Gustan",
     description:
-      "Gustar works backwards from English \"to like.\" Learn me gusta vs. me gustan, how to add a mí and a ella, and other verbs that work the same way: encantar, doler, interesar.",
+      "Gustar works backwards from English \"to like.\" Learn me gusta vs. me gustan, a mí and a ella, and verbs that work the same way: encantar, doler, interesar.",
     level: "A1",
     readingLevelPath: "a1",
     intro: [
@@ -432,9 +432,9 @@ const CORE_GUIDES: GrammarGuide[] = [
   {
     slug: "reflexive-verbs",
     title: "Spanish Reflexive Verbs: A Beginner's Guide",
-    metaTitle: "Spanish Reflexive Verbs: Pronouns, Examples, and Uses",
+    metaTitle: "Spanish Reflexive Verbs: Pronouns and Uses",
     description:
-      "Learn how Spanish reflexive verbs work: the pronouns me, te, se, nos, os, where they go in the sentence, daily-routine verbs, and verbs that change meaning with se.",
+      "How Spanish reflexive verbs work: me, te, se, nos, os, where the pronoun goes, daily-routine verbs, and verbs that change meaning with se.",
     level: "A1",
     readingLevelPath: "a1",
     intro: [
@@ -507,9 +507,9 @@ const CORE_GUIDES: GrammarGuide[] = [
   {
     slug: "direct-and-indirect-object-pronouns",
     title: "Direct and Indirect Object Pronouns in Spanish",
-    metaTitle: "Spanish Direct & Indirect Object Pronouns (Lo, Le, Se Lo)",
+    metaTitle: "Spanish Object Pronouns: Lo, Le, Se Lo",
     description:
-      "Learn Spanish object pronouns: lo, la, los, las vs. le and les, where they go, how to combine them, and why le lo becomes se lo. Clear examples and common mistakes.",
+      "Spanish object pronouns: lo, la, los, las vs. le and les, where they go, how to combine them, and why le lo becomes se lo. With examples and mistakes.",
     level: "A2",
     readingLevelPath: "a2",
     intro: [
@@ -586,9 +586,9 @@ const CORE_GUIDES: GrammarGuide[] = [
   {
     slug: "saber-vs-conocer",
     title: "Saber vs. Conocer: The Difference",
-    metaTitle: "Saber vs. Conocer: When to Use Each in Spanish",
+    metaTitle: "Saber vs. Conocer: When to Use Each",
     description:
-      "Saber and conocer both mean \"to know.\" Learn which to use for facts, skills, people, and places, with examples, conjugation tips, and the preterite meaning change.",
+      "Saber and conocer both mean \"to know.\" Learn which to use for facts, skills, people and places, with examples, conjugation tips and the preterite change.",
     level: "A1",
     readingLevelPath: "a1",
     intro: [
@@ -655,7 +655,7 @@ const CORE_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-future-tense",
     title: "The Spanish Future Tense (and Ir a + Infinitive)",
-    metaTitle: "Spanish Future Tense: Forms, Irregulars, and Ir a",
+    metaTitle: "Spanish Future Tense: Forms, Irregulars, Ir a",
     description:
       "How to talk about the future in Spanish: the simple future (hablaré), ir a + infinitive, irregular stems, and the future of probability (¿Dónde estará?).",
     level: "B1",
@@ -732,7 +732,7 @@ const CORE_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-commands",
     title: "Spanish Commands (the Imperative)",
-    metaTitle: "Spanish Commands: Tú, Usted, and Negative Imperatives",
+    metaTitle: "Spanish Commands: Tú, Usted and Negative",
     description:
       "How to give commands in Spanish: affirmative and negative tú commands, usted and ustedes commands, the eight irregular tú forms, and where pronouns go.",
     level: "A2",
@@ -804,9 +804,9 @@ const CORE_GUIDES: GrammarGuide[] = [
   {
     slug: "si-clauses",
     title: "Si Clauses: Conditional Sentences in Spanish",
-    metaTitle: "Spanish Si Clauses: Real, Hypothetical, and Past (With Examples)",
+    metaTitle: "Spanish Si Clauses: Real, Unreal and Past",
     description:
-      "How to build \"if\" sentences in Spanish: real conditions, hypothetical ones with the imperfect subjunctive and conditional, and past regrets. Includes the tense pattern for each.",
+      "How to build \"if\" sentences in Spanish: real conditions, hypothetical ones with the imperfect subjunctive and conditional, and past regrets.",
     level: "B2",
     readingLevelPath: "b2",
     intro: [
@@ -870,9 +870,9 @@ const CORE_GUIDES: GrammarGuide[] = [
   {
     slug: "imperfect-subjunctive",
     title: "The Imperfect Subjunctive in Spanish",
-    metaTitle: "Spanish Imperfect Subjunctive: Forms and When to Use It",
+    metaTitle: "Spanish Imperfect Subjunctive: Forms and Uses",
     description:
-      "Learn the Spanish imperfect subjunctive (hablara, comiera, fuera): how to form it from the preterite, when it's required, and how it works with the conditional.",
+      "The Spanish imperfect subjunctive (hablara, comiera, fuera): how to form it from the preterite, when it's required, and how it works with the conditional.",
     level: "B2",
     readingLevelPath: "b2",
     intro: [

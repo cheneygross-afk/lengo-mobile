@@ -5,9 +5,9 @@ export const A2_GUIDES: GrammarGuide[] = [
   {
     slug: "personal-a",
     title: "The Personal A in Spanish",
-    metaTitle: "The Personal A in Spanish: When to Use It (and When Not To)",
+    metaTitle: "The Personal A in Spanish: When to Use It",
     description:
-      "Spanish puts an \"a\" before a direct object that is a person: Veo a María. Learn when the personal a is required, when it's dropped, and the tricky cases with pets and tener.",
+      "Spanish puts \"a\" before a direct object that is a person: Veo a María. Learn when the personal a is required, when it's dropped, and tricky cases.",
     level: "A2",
     readingLevelPath: "a2",
     intro: [
@@ -85,7 +85,7 @@ export const A2_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-preterite-tense",
     title: "The Spanish Preterite Tense: Regular Verbs",
-    metaTitle: "Spanish Preterite Conjugation: Regular Verbs and Spelling Changes",
+    metaTitle: "Spanish Preterite: Regular Verbs and Spelling",
     description:
       "How to conjugate regular -ar, -er and -ir verbs in the Spanish preterite, the yo spelling changes (busqué, llegué, empecé), accents, and when to use it.",
     level: "A2",
@@ -184,9 +184,9 @@ export const A2_GUIDES: GrammarGuide[] = [
   {
     slug: "irregular-preterite-verbs",
     title: "Irregular Preterite Verbs in Spanish",
-    metaTitle: "Spanish Irregular Preterite: Ser, Ir, Tener, Hacer, Decir and More",
+    metaTitle: "Spanish Irregular Preterite Verbs",
     description:
-      "The most common Spanish verbs have irregular preterites. Learn the \"strong\" stems (tuv-, estuv-, hic-, dij-), the unstressed endings, ser/ir (fui) and dar/ver.",
+      "The most common Spanish verbs have irregular preterites. Learn the strong stems (tuv-, estuv-, hic-, dij-), their endings, ser/ir (fui) and dar/ver.",
     level: "A2",
     readingLevelPath: "a2",
     intro: [
@@ -284,9 +284,9 @@ export const A2_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-imperfect-tense",
     title: "The Spanish Imperfect Tense",
-    metaTitle: "Spanish Imperfect Tense: Conjugation and Uses (Hablaba, Comía)",
+    metaTitle: "Spanish Imperfect Tense: Forms and Uses",
     description:
-      "Learn to form the Spanish imperfect (hablaba, comía, vivía), its only three irregular verbs, and its uses: habits, descriptions, background, age and time in the past.",
+      "How to form the Spanish imperfect (hablaba, comía, vivía), its three irregular verbs, and its uses: habits, descriptions, background, age and time.",
     level: "A2",
     readingLevelPath: "a2",
     intro: [
@@ -377,9 +377,9 @@ export const A2_GUIDES: GrammarGuide[] = [
   {
     slug: "comparisons-and-superlatives",
     title: "Comparisons and Superlatives in Spanish",
-    metaTitle: "Spanish Comparatives and Superlatives: Más...Que, Tan...Como, -ísimo",
+    metaTitle: "Spanish Comparatives and Superlatives",
     description:
-      "How to compare in Spanish: más/menos... que, tan... como, tanto como, the irregular mejor, peor, mayor and menor, superlatives with el más, and the -ísimo ending.",
+      "How to compare in Spanish: más/menos... que, tan... como, tanto como, mejor, peor, mayor and menor, superlatives with el más, and the -ísimo ending.",
     level: "A2",
     readingLevelPath: "a2",
     intro: [
@@ -479,7 +479,7 @@ export const A2_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-negative-words",
     title: "Spanish Negative Words and Double Negatives",
-    metaTitle: "Spanish Double Negatives: Nada, Nadie, Nunca, Ninguno",
+    metaTitle: "Spanish Double Negatives: Nada, Nadie, Nunca",
     description:
       "In Spanish, double negatives are correct: No veo nada. Learn the negative words (nada, nadie, nunca, ninguno, tampoco, ni) and their affirmative partners.",
     level: "A2",
@@ -565,7 +565,7 @@ export const A2_GUIDES: GrammarGuide[] = [
   {
     slug: "adverbs-ending-in-mente",
     title: "Spanish Adverbs Ending in -mente",
-    metaTitle: "Spanish -mente Adverbs: How to Form Them (Rápidamente, Fácilmente)",
+    metaTitle: "Spanish -mente Adverbs: How to Form Them",
     description:
       "How to form Spanish adverbs with -mente (the \"-ly\" ending), why the accent stays, how to link two of them, and when Spanish prefers another structure.",
     level: "A2",
@@ -643,9 +643,9 @@ export const A2_GUIDES: GrammarGuide[] = [
   {
     slug: "spanish-accent-marks",
     title: "Spanish Accent Marks: The Rules for Written Accents",
-    metaTitle: "Spanish Accent Rules (Tildes): When to Write an Accent Mark",
+    metaTitle: "Spanish Accent Rules: When to Write a Tilde",
     description:
-      "Learn the rules that decide when a Spanish word needs a written accent (tilde): stress position, aguda/llana/esdrújula words, diacritical accents like tú/tu, and accents with added pronouns.",
+      "When a Spanish word needs a written accent (tilde): stress position, aguda, llana and esdrújula words, accents like tú/tu, and accents with added pronouns.",
     level: "A2",
     readingLevelPath: "a2",
     intro: [
