@@ -11,7 +11,8 @@ import type { SpanishLevelPath } from "./levels";
 //
 // A guide's level is where the topic is first introduced in the grammar
 // literature, which doesn't always match where this course teaches it
-// (reflexive verbs are an A1 guide but an A2 lesson), so every entry names
+// (reflexive verbs are an A1 guide, but A1 only teaches routine phrases
+// like me levanto and A2 the full pattern), so every entry names
 // its lessons' levels explicitly.
 
 export type LessonRef = { levelPath: SpanishLevelPath; slug: string };
@@ -50,8 +51,10 @@ export const GUIDE_LESSON_LINKS: GuideLessonLink[] = [
   },
   {
     guide: "saber-vs-conocer",
-    // The course has no dedicated lesson; these two drill the contrast.
-    lessons: at("a2", "a2d-minimal-pairs-meaning-shift", "preterite-vs-imperfect-drill-3"),
+    lessons: [
+      ...at("a1", "saber-vs-conocer", "saber-vs-conocer-mastery-check"),
+      ...at("a2", "a2d-minimal-pairs-meaning-shift", "preterite-vs-imperfect-drill-3"),
+    ],
   },
   {
     guide: "preterite-vs-imperfect",
@@ -60,7 +63,7 @@ export const GUIDE_LESSON_LINKS: GuideLessonLink[] = [
   },
   {
     guide: "reflexive-verbs",
-    lessons: at("a2", "reflexive-verbs-daily-routine-1", "reflexive-verbs-daily-routine-2"),
+    lessons: [...at("a1", "a1-my-day-routine"), ...at("a2", "reflexive-verbs-daily-routine-1", "reflexive-verbs-daily-routine-2")],
     practice: { a2: /reflexive/ },
   },
   {
@@ -73,10 +76,11 @@ export const GUIDE_LESSON_LINKS: GuideLessonLink[] = [
         "indirect-object-pronouns-1",
         "indirect-object-pronouns-2"
       ),
+      ...at("a2", "a2-double-pronouns-me-lo", "a2-double-pronouns-infinitive-command"),
       ...at("b1", "combined-object-pronouns-1", "combined-object-pronouns-2"),
     ],
     practice: {
-      a2: /object-pronoun|-dop$|-iop$|replace-object|me-te-nos-direct/,
+      a2: /object-pronoun|-dop$|-iop$|replace-object|me-te-nos-direct|double-pronoun|se-lo/,
       b1: /combined-object|combined-pronouns|double-pronouns|combinados|se-lo/,
     },
   },
@@ -214,8 +218,11 @@ export const GUIDE_LESSON_LINKS: GuideLessonLink[] = [
   // B1
   {
     guide: "present-perfect",
-    lessons: at("b1", "present-perfect-1", "present-perfect-2"),
-    practice: { b1: /present-perfect|present-past-perfect|perfecto|perfects|perfect-preterite|participi|he-has-ha|ya-todavia|alguna-vez|have-you-ever/ },
+    lessons: [
+      ...at("a2", "a2-perfect-he-comido", "a2-perfect-irregular-participles", "a2-perfect-ya-todavia-alguna-vez", "a2-perfect-vs-preterite"),
+      ...at("b1", "present-perfect-1", "present-perfect-2"),
+    ],
+    practice: { a2: /a2-perfect/, b1: /present-perfect|present-past-perfect|perfecto|perfects|perfect-preterite|participi|he-has-ha|ya-todavia|alguna-vez|have-you-ever/ },
   },
   {
     guide: "spanish-pluperfect",

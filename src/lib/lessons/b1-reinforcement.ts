@@ -2736,7 +2736,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Nunca después de si",
-        "El condicional va en la otra parte de la frase, nunca justo después de si: ✗ Si tendría dinero… (Para condiciones irreales verás el imperfecto de subjuntivo en el B2: Si tuviera dinero…)",
+        "El condicional va en la otra parte de la frase, nunca justo después del si de condición: ✗ Si tendría dinero… (Para condiciones irreales verás el imperfecto de subjuntivo en el B2: Si tuviera dinero…)",
         [
           ["✗ Si podría, iría. → ✓ Si puedo, iré.", "If I can, I'll go."],
         ],
@@ -2745,7 +2745,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
             "Corrige: «Si me llamarías, te contaría todo.»",
             ["Si me llamas, te lo contaré todo.", "Si me llamarías, te lo contarías.", "Si me llamaré, te lo contaría.", "No hay error."],
             0,
-            "Tras «si» nunca va el condicional; en B1, para una condición real: si + presente + futuro: si me llamas, te lo contaré. «Si me llamaré» usa futuro y la frase original sí tiene error."
+            "Tras el «si» de condición nunca va el condicional; en B1, para una condición real: si + presente + futuro: si me llamas, te lo contaré. «Si me llamaré» usa futuro y la frase original sí tiene error."
           ),
         ]
       ),

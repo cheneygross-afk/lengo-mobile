@@ -67,7 +67,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Cualquiera que, quienquiera que",
         "body": [
-          "Estas construcciones expresan \"whoever\" o \"whichever\" y siempre llevan subjuntivo, porque se refieren a una posibilidad abierta, no a una persona específica."
+          "Estas construcciones expresan \"whoever\" o \"whichever\" y normalmente llevan subjuntivo, porque se refieren a una posibilidad abierta, no a una persona específica. Con indicativo hablan de cualquier persona en general, como un hecho: \"Cualquiera que lo conoce sabe que es honesto\"."
         ],
         "examples": [
           {
@@ -476,7 +476,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "merece",
           "respeto"
         ],
-        "explanation": "\"Quienquiera que\" siempre lleva subjuntivo."
+        "explanation": "\"Quienquiera que\" habla de una persona aún desconocida (posibilidad abierta), así que aquí lleva subjuntivo."
       },
       {
         "type": "multiple-choice",

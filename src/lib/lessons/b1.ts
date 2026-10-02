@@ -854,7 +854,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "a lo mejor",
-            "en": "maybe"
+            "en": "maybe (casual)"
           },
           {
             "es": "en mi opinión",
@@ -862,7 +862,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "discrepar",
-            "en": "to disagree strongly"
+            "en": "to disagree"
           },
           {
             "es": "comprobar",
@@ -916,7 +916,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "discrepar",
-                "right": "to disagree strongly"
+                "right": "to disagree"
               },
               {
                 "left": "la creencia",
@@ -11221,7 +11221,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "a lo mejor",
-                "right": "maybe"
+                "right": "maybe (casual)"
               },
               {
                 "left": "en mi opinión",
@@ -11229,7 +11229,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "discrepar",
-                "right": "to disagree strongly"
+                "right": "to disagree"
               },
               {
                 "left": "comprobar",
