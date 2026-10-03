@@ -67,8 +67,8 @@ export default function LessonListScreen({ navigation, route }: Props) {
 
   const hasUnits = isUnitLevelPath(moduleKey);
 
-  // Spanish levels are titled with their CEFR code and name
-  // ("B2 · Upper-intermediate"), like the website's level header.
+  // Spanish levels are titled with their plain-English name ("Advanced"),
+  // like the website's level header.
   useLayoutEffect(() => {
     if (hasUnits && moduleKey !== "cosas-coloquiales") navigation.setOptions({ title: source.title });
   }, [navigation, moduleKey, hasUnits, source.title]);

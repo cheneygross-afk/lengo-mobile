@@ -152,7 +152,7 @@ export default function HomeScreen({ navigation }: Props) {
                 onPress={() => navigation.navigate("LessonRunner", { slug: summary.next!.slug })}
               >
                 <Text style={styles.continueLabel}>
-                  Continue · {spanishLevel(summary.next.levelPath).code} · Lesson {summary.next.number}
+                  Continue · {spanishLevel(summary.next.levelPath).label} · Lesson {summary.next.number}
                 </Text>
                 <Text style={styles.continueTitle}>{summary.next.title}</Text>
                 <Text style={styles.continueCta}>Start lesson →</Text>
