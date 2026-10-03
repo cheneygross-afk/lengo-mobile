@@ -13,7 +13,9 @@ export type SpanishLevelInfo = {
   levelPath: SpanishLevelPath;
   code: "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
   name: string;
-  /** "B2 · Upper-intermediate" -- the code and name, shown together everywhere. */
+  /** The plain-English name ("Advanced"), shown everywhere a level is named to learners.
+   *  The CEFR `code` stays on the record for URLs, data, and search-engine markup, but is
+   *  deliberately not part of the label. */
   label: string;
   description: string;
 };
@@ -23,7 +25,7 @@ const level = (
   code: SpanishLevelInfo["code"],
   name: string,
   description: string
-): SpanishLevelInfo => ({ levelPath, code, name, label: `${code} · ${name}`, description });
+): SpanishLevelInfo => ({ levelPath, code, name, label: name, description });
 
 export const SPANISH_LEVELS: SpanishLevelInfo[] = [
   level(
@@ -37,19 +39,19 @@ export const SPANISH_LEVELS: SpanishLevelInfo[] = [
   level(
     "b2",
     "B2",
-    "Upper-intermediate",
+    "Advanced",
     "Advanced subjunctive, reported speech, and nuanced connectors for fluent conversation."
   ),
   level(
     "c1",
     "C1",
-    "Advanced",
+    "Mastery",
     "Advanced grammar mastery: subjunctive nuance, nominalization, gerund vs. infinitive, and native-level passive constructions."
   ),
   level(
     "c2",
     "C2",
-    "Mastery",
+    "Professional & Academic",
     "Specialized registers, idiomatic fluency, and precision for professional and academic Spanish."
   ),
 ];

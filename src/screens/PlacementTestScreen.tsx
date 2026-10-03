@@ -36,12 +36,12 @@ const LEVEL_KEY: Record<PlacementLevel, LessonModuleKey> = {
 };
 
 const LEVEL_NAME: Record<PlacementLevel, string> = {
-  A1: "A1 · Beginner",
-  A2: "A2 · Elementary",
-  B1: "B1 · Intermediate",
-  B2: "B2 · Upper-intermediate",
-  C1: "C1 · Advanced",
-  C2: "C2 · Mastery",
+  A1: "Beginner",
+  A2: "Elementary",
+  B1: "Intermediate",
+  B2: "Advanced",
+  C1: "Mastery",
+  C2: "Professional & Academic",
 };
 
 function saveProgress(answers: PlacementAnswers | null) {
@@ -150,7 +150,7 @@ export default function PlacementTestScreen({ navigation }: Props) {
           <Text style={s.cardLevel}>{LEVEL_NAME[result.recommendedLevel]}</Text>
           <Text style={s.cardBody}>
             {result.masteredEverything
-              ? "You passed every level, up to C2. The C2 lessons -- legal and medical Spanish, idioms, rhetoric and academic writing -- are there to polish the details."
+              ? "You passed every level, up to Professional & Academic. Those lessons -- legal and medical Spanish, idioms, rhetoric and academic writing -- are there to polish the details."
               : "That's the first level where gaps started showing up. Each level builds on the one before it, so starting there is what closes those gaps."}
           </Text>
           <Pressable
@@ -242,7 +242,7 @@ export default function PlacementTestScreen({ navigation }: Props) {
               navigation.navigate("LessonList", { moduleKey: "a1" });
             }}
           >
-            <Text style={s.skipBtnText}>I&apos;m a total beginner: start at A1 →</Text>
+            <Text style={s.skipBtnText}>I&apos;m a total beginner: start from the beginning →</Text>
           </Pressable>
         </View>
         <Text style={s.body}>
