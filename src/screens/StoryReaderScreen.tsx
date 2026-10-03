@@ -67,8 +67,8 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
     () => (story ? story.paragraphs.flatMap((p, pi) => speechChunks(p).map((text) => ({ text, pi }))) : []),
     [story]
   );
-  // "Show English" (A1/A2 stories with a translation): on by default at
-  // A1, off from A2 up, remembered per level on this device.
+  // "Show English" (A1/A2 stories with a translation): off by default at
+  // every level, remembered per level on this device.
   const english = useMemo(() => (story ? storyEnglish(story.slug, story.paragraphs.length) : null), [story]);
   const [englishPrefs, setEnglishPrefs] = useState<Record<string, boolean> | null>(null);
   useEffect(() => {
