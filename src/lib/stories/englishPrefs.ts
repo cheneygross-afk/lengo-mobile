@@ -6,8 +6,12 @@
 
 export const STORY_ENGLISH_STORAGE_KEY = "deepend-story-english";
 
+// Hidden by default at every level, A1 included (user decision,
+// 2026-10-03): readers try the Spanish first and tap "Show English" when
+// they need it.
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function showEnglishByDefault(level: string): boolean {
-  return level === "A1";
+  return false;
 }
 
 /** The reader's saved choice for this level, else the level default. */

@@ -3,7 +3,7 @@ import { A1_STORY_ENGLISH } from "./a1-english";
 import { A2_STORY_ENGLISH } from "./a2-english";
 
 // English translations for the "Show English" toggle on A1/A2 stories:
-// support that fades by level, on by default at A1 and off from A2 up.
+// off by default at every level, so readers try the Spanish first.
 // The reader's on/off choice is handled in englishPrefs.ts, which holds
 // no translations, so a page can use it without bundling them all.
 
