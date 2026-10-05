@@ -174,5 +174,56 @@ export const ZH_A1_SPEC: LevelSpec = {
   ],
 };
 
+export const ZH_A2_SPEC: LevelSpec = {
+  code: "A2",
+  path: "a2",
+  level: "ZH-A2",
+  slugPrefix: "zh-a2",
+  units: [
+    unit("zh-a2-u1", "Experiences and right now", "过 for experiences, 在…呢 and 着 for what's going on, 一边…一边, hobbies and 已经.", [
+      "zh-a2-guo-experience",
+      "zh-a2-zai-progressive",
+      "zh-a2-zhe-state",
+      "zh-a2-yibian",
+      "zh-a2-hobbies",
+      "zh-a2-yijing",
+    ]),
+    unit("zh-a2-u2", "Comparing and describing", "比 and 没有…那么, 一样, how well with 得 and how with 地, 越…越, clothes and colours, and two words for \"or.\"", [
+      "zh-a2-bi-comparison",
+      "zh-a2-meiyou-comparison",
+      "zh-a2-de-complement",
+      "zh-a2-di-adverbial",
+      "zh-a2-yue-yue",
+      "zh-a2-clothes-shopping",
+      "zh-a2-haishi-huozhe",
+    ]),
+    unit("zh-a2-u3", "Getting things done", "Result and direction complements, 给 for and to, 把 sentences, 让, and making plans by phone.", [
+      "zh-a2-result-complements",
+      "zh-a2-direction-complements",
+      "zh-a2-gei-for",
+      "zh-a2-ba-construction",
+      "zh-a2-rang-causative",
+      "zh-a2-phone-plans",
+    ]),
+    unit("zh-a2-u4", "Time and the way there", "从…到, 就 and 才, 要…了, how long, before/after/when, and asking the way.", [
+      "zh-a2-cong-dao",
+      "zh-a2-jiu-cai",
+      "zh-a2-yao-le",
+      "zh-a2-duration",
+      "zh-a2-before-after",
+      "zh-a2-directions",
+    ]),
+    unit("zh-a2-u5", "Reasons, conditions and advice", "因为…所以, 虽然…但是, 如果…就, health and the doctor, should/may/must, and the whole of A2 together.", [
+      "zh-a2-yinwei-suoyi",
+      "zh-a2-suiran-danshi",
+      "zh-a2-ruguo",
+      "zh-a2-health",
+      "zh-a2-yinggai-keyi",
+      "zh-a2-review",
+    ]),
+  ],
+  layers: [],
+};
+
 /** Every level spec, in course order. */
-export const ZH_SPECS: LevelSpec[] = [ZH_PINYIN_SPEC, ZH_A1_SPEC];
+export const ZH_SPECS: LevelSpec[] = [ZH_PINYIN_SPEC, ZH_A1_SPEC, ZH_A2_SPEC];

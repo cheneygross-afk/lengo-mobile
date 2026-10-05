@@ -73,7 +73,8 @@ export const ZH_DETECTORS: FormDetector[] = [
   re("grammar.guo-experience", /[去吃看听来做学过]过/, "verb + 过", "warning"),
   re("grammar.zai-progressive", /正在|在[^。？！，]{1,6}呢/, "在/正在…呢"),
   re("grammar.bi-comparison", /比/, "比"),
-  re("grammar.de-complement", /得(很|太|非常|不|好|快|慢)/, "得 complement"),
+  // Not 觉得/记得/懂得 (think, remember, understand), which only contain 得.
+  { concept: "zh.grammar.de-complement", test: (t) => /得(很|太|非常|不|好|快|慢)/.test(without(t, ["觉得", "记得", "懂得"])), severity: "error", label: "得 complement" },
   re("grammar.result-complements", /[看听做写吃学找]完|听懂|看懂|找到|写错|说错/, "result complement", "warning"),
   re("grammar.yinwei-suoyi", /因为|所以/, "因为/所以"),
   re("grammar.suiran-danshi", /虽然|但是/, "虽然/但是"),
@@ -90,6 +91,13 @@ export const ZH_DETECTORS: FormDetector[] = [
   // Not the measure word: 一把椅子 (a chair), 两把伞.
   { concept: "zh.grammar.ba-construction", test: (t) => /把/.test(t.replace(/[一两二三四五六七八九十几这那哪每]把/g, " ")), severity: "error", label: "把" },
   re("grammar.yue-yue", /越.{1,6}越/, "越…越"),
+  re("grammar.meiyou-comparison", /没有[^，。？！ ]{1,6}[那这]么/, "没有…那么"),
+  { concept: "zh.grammar.di-adverbial", test: (t) => /[一-鿿]地(?=[说走跑看写学做吃喝唱叫笑开])/.test(without(t, ["地铁", "地方", "地图", "地址"])), severity: "error", label: "adverb + 地" },
+  re("grammar.duration", /小时|分钟/, "duration (小时/分钟)"),
+  re("grammar.yiqian-yihou", /以前|以后|的时候/, "以前/以后/的时候"),
+  re("grammar.yinggai-keyi", /应该/, "应该"),
+  re("function.phone", /喂|打电话/, "喂/打电话"),
+  re("function.directions", /往[左右前后东西南北]|[左右]拐|一直走/, "directions"),
   re("grammar.bei-passive", /被/, "被"),
 ];
 

@@ -17,6 +17,7 @@ import { ZH_PINYIN_LESSONS } from "./pinyin-lessons";
 import { ZH_A1_LESSONS } from "./a1-lessons";
 import { ZH_PINYIN_LAYERS } from "./pinyin-drills";
 import { ZH_A1_LAYERS } from "./a1-layers";
+import { ZH_A2_LESSONS } from "./a2-lessons";
 import { ZH_CONCEPTS } from "./concepts";
 import { ZH_PLUGIN } from "./plugin";
 import { ZH_SPECS } from "./specs";
@@ -47,10 +48,17 @@ const META: Omit<ZhModule, "lessons" | "units">[] = [
     description:
       "Greetings and introductions, 是 sentences, questions with 吗 and question words, numbers and money, measure words, family, dates and time, places, wanting and ability, and finished actions with 了 -- about 300 HSK 1-level words.",
   },
+  {
+    code: "A2",
+    name: "Everyday Chinese",
+    path: "a2",
+    description:
+      "Experiences with 过 and actions in progress, comparisons with 比, how well you do things with 得, result and direction complements, 把, reasons and conditions, time and sequence, directions, health and hobbies -- about HSK 2.",
+  },
 ];
 
 /** Every authored or drafted lesson, before assembly (what the validator checks). */
-export const ZH_SOURCE_LESSONS: Lesson[] = [...ZH_PINYIN_LESSONS, ...ZH_PINYIN_LAYERS, ...ZH_A1_LESSONS, ...ZH_A1_LAYERS];
+export const ZH_SOURCE_LESSONS: Lesson[] = [...ZH_PINYIN_LESSONS, ...ZH_PINYIN_LAYERS, ...ZH_A1_LESSONS, ...ZH_A1_LAYERS, ...ZH_A2_LESSONS];
 
 const assembly = assembleCourse({
   specs: ZH_SPECS,

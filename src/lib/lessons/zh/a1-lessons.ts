@@ -897,7 +897,7 @@ export const ZH_A1_LESSONS = numbered([
       toZh("I didn't go.", "我没去", "wǒ méi qù", "没 + verb, no 了.", ["我没有去"]),
       listen("我昨天没去学校。", "What happened?", ["They didn't go to school yesterday.", "They went to school yesterday.", "They're going to school tomorrow.", "They don't go to school."], 0, "没去: didn't go."),
     ],
-    { teaches: ["grammar.le-completed", "grammar.mei-past", "grammar.hai-mei"] }
+    { teaches: ["grammar.le-completed", "grammar.mei-past", "grammar.hai-mei"], previews: ["grammar.yiqian-yihou"] }
   ),
 
   lesson(

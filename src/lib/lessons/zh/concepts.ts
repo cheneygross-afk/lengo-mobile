@@ -84,7 +84,7 @@ export const ZH_CONCEPTS: Concept[] = [
   c("A1", "grammar", "xihuan", "喜欢", "To like + noun or verb", ["grammar.bu-negation"]),
   c("A1", "grammar", "le-new-situation", "了 for a new situation", "下雨了 -- something has changed", ["grammar.le-completed"]),
 
-  // ---- A2 (planned; listed so their forms are caught by the leak check) ----
+  // ---- A2 ----
   c("A2", "grammar", "guo-experience", "过 (experience)", "Verb + 过: have ever done", ["grammar.le-completed"]),
   c("A2", "grammar", "zai-progressive", "在/正在 … 呢 (ongoing)", "Action in progress", ["grammar.zai-place-verb"]),
   c("A2", "grammar", "bi-comparison", "比 comparisons", "A 比 B + adjective (+ amount)", ["grammar.adjective-predicates"]),
@@ -105,5 +105,15 @@ export const ZH_CONCEPTS: Concept[] = [
   c("A2", "grammar", "zhe-state", "着 (ongoing state)", "Verb + 着", ["grammar.zai-progressive"]),
   c("A2", "grammar", "ba-construction", "把 sentences (intro)", "把 + object + verb + result", ["grammar.result-complements"]),
   c("A2", "grammar", "yue-yue", "越…越…", "The more…the more…", ["grammar.bi-comparison"]),
+  c("A2", "grammar", "meiyou-comparison", "没有…那么 (not as … as)", "A 没有 B 那么 + adjective", ["grammar.bi-comparison"]),
+  c("A2", "grammar", "di-adverbial", "地 (how something is done)", "Adjective + 地 + verb: 慢慢地走", ["grammar.de-complement"]),
+  c("A2", "grammar", "duration", "How long: 小时, 分钟, 年", "Verb + duration: 学了两年, 等了十分钟", ["grammar.le-completed"]),
+  c("A2", "grammar", "yiqian-yihou", "以前, 以后, …的时候", "Before, after and when", ["grammar.time-before-verb"]),
+  c("A2", "grammar", "yinggai-keyi", "应该, 可以, 得 (must)", "Should, may, have to", ["grammar.hui-neng"]),
+  c("A2", "vocab", "hobbies", "Hobbies and free time", "运动, 爬山, 听音乐, 周末", ["grammar.xihuan"]),
+  c("A2", "vocab", "clothes-colors", "Clothes and colours", "衣服, 件, 条, 红色, 穿", ["grammar.measure-words"]),
+  c("A2", "function", "phone", "Phone calls and plans", "喂, 打电话, 有空, 见面", ["grammar.question-words"]),
+  c("A2", "function", "directions", "Asking the way", "往左拐, 一直走, 离…远/近", ["grammar.position-words"]),
+  c("A2", "vocab", "health", "Body and health", "头疼, 发烧, 感冒, 看病", ["grammar.you-meiyou"]),
   c("B1", "grammar", "bei-passive", "被 passive", "Object + 被 + doer + verb", ["grammar.ba-construction"]),
 ];
