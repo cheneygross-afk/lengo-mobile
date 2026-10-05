@@ -116,6 +116,7 @@ function lessonChecks(l: Lesson): string[] {
       if (!hasHanzi(ex.es)) out.push(`example without characters: ${ex.es}`);
       const py = (ex.en ?? "").split(" -- ")[0];
       if (!ex.en?.includes(" -- ") || !pinyinParts(py)) out.push(`example needs "pinyin -- meaning": ${ex.en}`);
+      if (ex.es.includes("--")) out.push(`one example, one sentence (split it): ${ex.es}`);
       else for (const q of pinyinMarkProblems(py)) out.push(`example ${ex.es}: ${q}`);
     }
   });

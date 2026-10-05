@@ -222,7 +222,45 @@ export const ZH_A2_SPEC: LevelSpec = {
       "zh-a2-review",
     ]),
   ],
-  layers: [],
+  // One practice lesson per teach lesson: at A2 the units already hold six
+  // or seven teach lessons, and a unit stays within 15 required lessons.
+  layers: [
+    // Unit 1
+    D("zh-a2d-guo", "Pattern practice", "zh-a2-guo-experience", ["grammar.guo-experience"]),
+    D("zh-a2d-zai-ne", "Pattern practice", "zh-a2-zai-progressive", ["grammar.zai-progressive"]),
+    R("zh-a2r-zai-zhe", "Contrast", "zh-a2-zhe-state", ["grammar.zhe-state", "grammar.zai-progressive"]),
+    D("zh-a2d-yibian", "Substitution", "zh-a2-yibian", ["grammar.yibian"]),
+    R("zh-a2r-hobbies", "Mission", "zh-a2-hobbies", ["vocab.hobbies"]),
+    R("zh-a2r-yijing", "Contrast", "zh-a2-yijing", ["grammar.yijing", "grammar.hai-mei"]),
+    // Unit 2
+    D("zh-a2d-bi", "Pattern practice", "zh-a2-bi-comparison", ["grammar.bi-comparison"]),
+    R("zh-a2r-comparing", "Contrast", "zh-a2-meiyou-comparison", ["grammar.meiyou-comparison", "grammar.bi-comparison"]),
+    D("zh-a2d-de", "Pattern practice", "zh-a2-de-complement", ["grammar.de-complement"]),
+    R("zh-a2r-three-de", "Error hunt", "zh-a2-di-adverbial", ["grammar.di-adverbial", "grammar.de-complement", "grammar.de-possessive"]),
+    D("zh-a2d-yue", "Circuit", "zh-a2-yue-yue", ["grammar.yue-yue"]),
+    R("zh-a2r-clothes", "Dialogue", "zh-a2-clothes-shopping", ["vocab.clothes-colors"]),
+    { ...D("zh-a2d-or", "Circuit", "zh-a2-haishi-huozhe", ["grammar.haishi-huozhe"]), optional: true },
+    // Unit 3
+    D("zh-a2d-results", "Pattern practice", "zh-a2-result-complements", ["grammar.result-complements"]),
+    D("zh-a2d-directions-comp", "Substitution", "zh-a2-direction-complements", ["grammar.direction-complements"]),
+    R("zh-a2r-gei", "Transform", "zh-a2-gei-for", ["grammar.gei-for"]),
+    D("zh-a2d-ba", "Pattern practice", "zh-a2-ba-construction", ["grammar.ba-construction"]),
+    R("zh-a2r-rang-gei", "Contrast", "zh-a2-rang-causative", ["grammar.rang-causative", "grammar.gei-for"]),
+    R("zh-a2r-phone", "Dialogue", "zh-a2-phone-plans", ["function.phone"]),
+    // Unit 4
+    D("zh-a2d-cong-dao", "Pattern practice", "zh-a2-cong-dao", ["grammar.cong-dao"]),
+    R("zh-a2r-jiu-cai", "Contrast", "zh-a2-jiu-cai", ["grammar.jiu-cai"]),
+    D("zh-a2d-yao-le", "Speed round", "zh-a2-yao-le", ["grammar.yao-le"], { production: 6, "listen-choose": 2 }),
+    D("zh-a2d-duration", "Pattern practice", "zh-a2-duration", ["grammar.duration"]),
+    R("zh-a2r-sequence", "Transform", "zh-a2-before-after", ["grammar.yiqian-yihou"]),
+    R("zh-a2r-directions", "Mission", "zh-a2-directions", ["function.directions"]),
+    // Unit 5
+    R("zh-a2r-because", "Transform", "zh-a2-yinwei-suoyi", ["grammar.yinwei-suoyi"]),
+    D("zh-a2d-although", "Pattern practice", "zh-a2-suiran-danshi", ["grammar.suiran-danshi"]),
+    D("zh-a2d-if", "Circuit", "zh-a2-ruguo", ["grammar.ruguo"]),
+    R("zh-a2r-doctor", "Dialogue", "zh-a2-health", ["vocab.health"]),
+    R("zh-a2r-advice", "Contrast", "zh-a2-yinggai-keyi", ["grammar.yinggai-keyi", "grammar.hui-neng"]),
+  ],
 };
 
 /** Every level spec, in course order. */
