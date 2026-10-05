@@ -99,6 +99,27 @@ export const ZH_DETECTORS: FormDetector[] = [
   re("function.phone", /喂|打电话/, "喂/打电话"),
   re("function.directions", /往[左右前后东西南北]|[左右]拐|一直走/, "directions"),
   re("grammar.bei-passive", /被/, "被"),
+  // B1
+  re("grammar.zui-bijiao", /最(?!后|近|初)|比较/, "最/比较"),
+  re("grammar.juede-renwei", /觉得|认为/, "觉得/认为"),
+  // 多长 (时间) and 多久 belong to A2's duration lesson.
+  re("grammar.duo-adj", /多(大|远|高|重)/, "多 + adjective"),
+  re("grammar.youyou", /又[^，。？！ ]{1,4}又/, "又…又"),
+  re("grammar.dui-guanyu", /感兴趣|有兴趣|关于|对于/, "对…感兴趣/关于"),
+  re("grammar.shi-de", /是(昨天|今天|去年|上个|什么时候|怎么|坐|跟|在|从|一个人)[^。？！，]{0,8}的/, "是…的"),
+  re("grammar.potential-complements", /[看听找买吃做写学睡回进出拿走]([得不])(懂|到|完|见|动|起|下|着)/, "potential complement"),
+  re("grammar.qilai", /起来|想起/, "起来"),
+  { concept: "zh.grammar.yi-jiu", test: (t) => /一[^，。？！ 一]{1,6}就/.test(without(t, ["一会儿", "一下"])), severity: "warning", label: "一…就" },
+  re("grammar.gang", /刚/, "刚/刚才", "warning"),
+  { concept: "zh.grammar.you-zai", test: (t) => /[又再](来|去|说|做|吃|买|看|写|试|问)/.test(without(t, ["再见"])), severity: "warning", label: "又/再 again" },
+  re("grammar.ba-cheng", /把[^，。？！ ]{1,8}(成|到)[^了]/, "把…成/到", "warning"),
+  re("grammar.budan-erqie", /不但|不仅|而且/, "不但…而且"),
+  re("grammar.chule-yiwai", /除了/, "除了"),
+  re("grammar.lian-dou", /连[^，。？！ ]{1,8}[都也]/, "连…都"),
+  re("grammar.zhiyao-jiu", /只要/, "只要"),
+  re("grammar.zhiyou-cai", /只有[^，。？！ ]{0,10}才|只有[^，。？！]{1,10}，[^。？！]{0,8}才/, "只有…才"),
+  re("grammar.indefinite-question-words", /(什么|谁|哪儿|哪里|怎么)(都|也)/, "什么都/谁都"),
+  re("function.sequencing", /先[^，。？！]{1,10}，?然后/, "先…然后"),
 ];
 
 /** True for an answer typed in Chinese (characters or pinyin). */

@@ -51,7 +51,7 @@ export const ZH_A2_LESSONS_U3 = [
       toEn("你做完作业了吗？", "Nǐ zuò wán zuòyè le ma?", "Have you finished your homework?", "做完: finish doing.", ["Did you finish your homework?", "Have you done your homework?", "Have you finished the homework?", "Did you finish the homework?"]),
       say("对不起，我没听懂。", "对不起，我没听懂: sorry, I didn't understand.", "méi tīng dǒng: rising, level, dipping.", "Tell someone politely that you didn't understand."),
     ],
-    { teaches: ["grammar.result-complements"] }
+    { teaches: ["grammar.result-complements"], previews: ["grammar.you-zai"] }
   ),
 
   lesson(

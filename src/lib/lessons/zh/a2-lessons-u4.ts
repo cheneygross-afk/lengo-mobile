@@ -45,7 +45,7 @@ export const ZH_A2_LESSONS_U4 = [
       wo(["从", "北京", "到", "上海", "很", "远"], "It's a long way from Beijing to Shanghai.", "从 A 到 B + adjective."),
       say("从星期一到星期五", "从星期一到星期五: Monday to Friday.", "cóng rises, dào falls.", "Say \"Monday to Friday.\""),
     ],
-    { teaches: ["grammar.cong-dao"] }
+    { teaches: ["grammar.cong-dao"], previews: ["grammar.gang"] }
   ),
 
   lesson(

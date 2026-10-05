@@ -40,7 +40,8 @@ export type LessonModuleKey =
   | "ja-c2"
   | "zh-pinyin"
   | "zh-a1"
-  | "zh-a2";
+  | "zh-a2"
+  | "zh-b1";
 
 export type LessonSource = {
   moduleKey: LessonModuleKey;
@@ -70,7 +71,7 @@ export type ModuleUnit = {
   testOut: boolean;
 };
 
-function zhSource(moduleKey: "zh-pinyin" | "zh-a1" | "zh-a2", path: string, title: string): LessonSource {
+function zhSource(moduleKey: "zh-pinyin" | "zh-a1" | "zh-a2" | "zh-b1", path: string, title: string): LessonSource {
   const mod = ZH_MODULES.find((m) => m.path === path);
   if (!mod) throw new Error(`no Chinese module "${path}"`);
   const bySlug = new Map(mod.lessons.map((l) => [l.slug, l]));
@@ -128,6 +129,7 @@ export const LESSON_SOURCES: Record<LessonModuleKey, LessonSource> = {
   "zh-pinyin": zhSource("zh-pinyin", "pinyin", "Chinese · Pinyin & Tones"),
   "zh-a1": zhSource("zh-a1", "a1", "Chinese · A1 Foundations"),
   "zh-a2": zhSource("zh-a2", "a2", "Chinese · A2 Everyday Chinese"),
+  "zh-b1": zhSource("zh-b1", "b1", "Chinese · B1 Independent Chinese"),
 };
 
 export const ALL_LEVEL_PATHS: LessonModuleKey[] = [
@@ -148,6 +150,7 @@ export const ALL_LEVEL_PATHS: LessonModuleKey[] = [
   "zh-pinyin",
   "zh-a1",
   "zh-a2",
+  "zh-b1",
 ];
 
 /** Which module a lesson belongs to, from its own `level` field -- lets a
@@ -187,6 +190,8 @@ export function moduleKeyForLesson(lesson: Lesson): LessonModuleKey {
       return "zh-a1";
     case "ZH-A2":
       return "zh-a2";
+    case "ZH-B1":
+      return "zh-b1";
     default:
       return "a1";
   }

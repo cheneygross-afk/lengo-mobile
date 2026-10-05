@@ -19,6 +19,7 @@ import { ZH_PINYIN_LAYERS } from "./pinyin-drills";
 import { ZH_A1_LAYERS } from "./a1-layers";
 import { ZH_A2_LESSONS } from "./a2-lessons";
 import { ZH_A2_LAYERS } from "./a2-layers";
+import { ZH_B1_LESSONS } from "./b1-lessons";
 import { ZH_CONCEPTS } from "./concepts";
 import { ZH_PLUGIN } from "./plugin";
 import { ZH_SPECS } from "./specs";
@@ -60,10 +61,17 @@ const META: Omit<ZhModule, "lessons" | "units" | "canDo">[] = [
     description:
       "Experiences with 过 and actions in progress, comparisons with 比, how well you do things with 得, result and direction complements, 把, reasons and conditions, time and sequence, directions, health and hobbies -- about HSK 2.",
   },
+  {
+    code: "B1",
+    name: "Independent Chinese",
+    path: "b1",
+    description:
+      "Opinions and comparisons, 是…的, potential complements and 起来, the 被 passive and more 把, linking ideas with 不但…而且, 除了, 连…都, 只要 and 只有, feelings, work, travel and study -- about HSK 3.",
+  },
 ];
 
 /** Every authored or drafted lesson, before assembly (what the validator checks). */
-export const ZH_SOURCE_LESSONS: Lesson[] = [...ZH_PINYIN_LESSONS, ...ZH_PINYIN_LAYERS, ...ZH_A1_LESSONS, ...ZH_A1_LAYERS, ...ZH_A2_LESSONS, ...ZH_A2_LAYERS];
+export const ZH_SOURCE_LESSONS: Lesson[] = [...ZH_PINYIN_LESSONS, ...ZH_PINYIN_LAYERS, ...ZH_A1_LESSONS, ...ZH_A1_LAYERS, ...ZH_A2_LESSONS, ...ZH_A2_LAYERS, ...ZH_B1_LESSONS];
 
 const assembly = assembleCourse({
   specs: ZH_SPECS,

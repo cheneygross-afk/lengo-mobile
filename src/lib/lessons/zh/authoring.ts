@@ -32,7 +32,7 @@ import type {
 } from "../types";
 import type { LayerSpec, LevelSpec } from "../../curriculum/spec";
 
-export type ZhLevel = "ZH-Pinyin" | "ZH-A1" | "ZH-A2";
+export type ZhLevel = "ZH-Pinyin" | "ZH-A1" | "ZH-A2" | "ZH-B1";
 
 /** Inline form for English text: zh("你好", "nǐ hǎo") -> "你好 (nǐ hǎo)". */
 export function zh(hanzi: string, pinyin: string): string {

@@ -263,5 +263,52 @@ export const ZH_A2_SPEC: LevelSpec = {
   ],
 };
 
+export const ZH_B1_SPEC: LevelSpec = {
+  code: "B1",
+  path: "b1",
+  level: "ZH-B1",
+  slugPrefix: "zh-b1",
+  units: [
+    unit("zh-b1-u1", "Opinions and comparisons", "最 and 比较, 觉得 and 认为, 多 + adjective questions, 又…又, 对 and 关于, and 是…的 for the details of the past.", [
+      "zh-b1-zui-bijiao",
+      "zh-b1-juede-renwei",
+      "zh-b1-duo-adj",
+      "zh-b1-youyou",
+      "zh-b1-dui-guanyu",
+      "zh-b1-shi-de",
+    ]),
+    unit("zh-b1-u2", "Can you manage it?", "Potential complements, 起来, doing things briefly (看看, 一下), 一…就, 刚 and 刚才, and 又 vs. 再.", [
+      "zh-b1-potential-complements",
+      "zh-b1-qilai",
+      "zh-b1-verb-reduplication",
+      "zh-b1-yi-jiu",
+      "zh-b1-gang",
+      "zh-b1-you-zai",
+    ]),
+    unit("zh-b1-u3", "Doing things to things", "The 被 passive, 把 into/to/for, more measure words, and Chinese at work and on the road.", [
+      "zh-b1-bei-passive",
+      "zh-b1-ba-cheng",
+      "zh-b1-measure-range",
+      "zh-b1-work",
+      "zh-b1-travel",
+    ]),
+    unit("zh-b1-u4", "Linking ideas", "不但…而且, 除了…以外, 连…都, 只要…就 and 只有…才, and question words meaning any-, every- and no-.", [
+      "zh-b1-budan-erqie",
+      "zh-b1-chule-yiwai",
+      "zh-b1-lian-dou",
+      "zh-b1-zhiyao-jiu",
+      "zh-b1-zhiyou-cai",
+      "zh-b1-indefinite",
+    ]),
+    unit("zh-b1-u5", "Life and study", "Feelings, telling things in order, school and study, and the whole of B1 together.", [
+      "zh-b1-feelings",
+      "zh-b1-sequencing",
+      "zh-b1-education",
+      "zh-b1-review",
+    ]),
+  ],
+  layers: [],
+};
+
 /** Every level spec, in course order. */
-export const ZH_SPECS: LevelSpec[] = [ZH_PINYIN_SPEC, ZH_A1_SPEC, ZH_A2_SPEC];
+export const ZH_SPECS: LevelSpec[] = [ZH_PINYIN_SPEC, ZH_A1_SPEC, ZH_A2_SPEC, ZH_B1_SPEC];

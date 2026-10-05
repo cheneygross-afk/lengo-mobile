@@ -115,5 +115,37 @@ export const ZH_CONCEPTS: Concept[] = [
   c("A2", "function", "phone", "Phone calls and plans", "喂, 打电话, 有空, 见面", ["grammar.question-words"]),
   c("A2", "function", "directions", "Asking the way", "往左拐, 一直走, 离…远/近", ["grammar.position-words"]),
   c("A2", "vocab", "health", "Body and health", "头疼, 发烧, 感冒, 看病", ["grammar.you-meiyou"]),
+
+  // ---- B1 ----
+  // Unit 1: opinions and comparisons
+  c("B1", "grammar", "zui-bijiao", "最 and 比较", "The most; fairly, rather", ["grammar.bi-comparison"]),
+  c("B1", "grammar", "juede-renwei", "觉得 and 认为", "Giving opinions: I think, I feel", ["grammar.adjective-predicates"]),
+  c("B1", "grammar", "duo-adj", "多 + adjective questions", "多大, 多远, 多高, 多重: how old, far, tall, heavy", ["grammar.duration"]),
+  c("B1", "grammar", "youyou", "又…又…", "Both … and …: 又便宜又好吃", ["grammar.adjective-predicates"]),
+  c("B1", "grammar", "dui-guanyu", "对 and 关于", "Toward, about: 对…感兴趣, 关于中国的书", ["grammar.gei-for"]),
+  c("B1", "grammar", "shi-de", "是…的", "Stressing when, where or how something happened", ["grammar.le-completed"]),
+  // Unit 2: ability and possibility
+  c("B1", "grammar", "potential-complements", "Potential complements", "看得懂 / 看不懂: can or can't manage it", ["grammar.result-complements"]),
+  c("B1", "grammar", "qilai", "起来", "Start to, seem: 看起来, 想起来, 笑起来", ["grammar.direction-complements"]),
+  c("B1", "grammar", "verb-reduplication", "看看, 试一试, 一下", "Doing something briefly or casually", ["grammar.xiang-yao"]),
+  c("B1", "grammar", "yi-jiu", "一…就…", "As soon as", ["grammar.jiu-cai"]),
+  c("B1", "grammar", "gang", "刚 and 刚才", "Just (now)", ["grammar.yijing"]),
+  c("B1", "grammar", "you-zai", "又 and 再", "Again: already happened (又) or still to come (再)", ["grammar.le-completed"]),
+  // Unit 3: doing things to things
   c("B1", "grammar", "bei-passive", "被 passive", "Object + 被 + doer + verb", ["grammar.ba-construction"]),
+  c("B1", "grammar", "ba-cheng", "把…成/到/给", "Turning or moving something: 把…翻译成…, 把…送到…", ["grammar.ba-construction"]),
+  c("B1", "vocab", "measure-range", "More measure words", "张, 条, 辆, 台, 封, 座, 位, 家, 份", ["grammar.measure-words"]),
+  c("B1", "vocab", "work", "Work and jobs", "工作, 公司, 经理, 同事, 加班, 请假", ["grammar.zai-place-verb"]),
+  c("B1", "function", "travel", "Travel and hotels", "订, 房间, 护照, 行李, 退房", ["grammar.transport"]),
+  // Unit 4: linking ideas
+  c("B1", "grammar", "budan-erqie", "不但…而且…", "Not only … but also", ["grammar.suiran-danshi"]),
+  c("B1", "grammar", "chule-yiwai", "除了…以外", "Besides; except", ["grammar.ye-dou"]),
+  c("B1", "grammar", "lian-dou", "连…都/也", "Even", ["grammar.ye-dou"]),
+  c("B1", "grammar", "zhiyao-jiu", "只要…就…", "As long as", ["grammar.ruguo"]),
+  c("B1", "grammar", "zhiyou-cai", "只有…才…", "Only if", ["grammar.jiu-cai"]),
+  c("B1", "grammar", "indefinite-question-words", "什么都, 谁都, 哪儿都", "Question words meaning any-, every-, no-", ["grammar.question-words", "grammar.ye-dou"]),
+  // Unit 5: life topics
+  c("B1", "vocab", "feelings", "Feelings", "生气, 担心, 害怕, 着急, 难过, 放心", ["grammar.adjective-predicates"]),
+  c("B1", "function", "sequencing", "先…然后…最后", "Telling things in order", ["grammar.yiqian-yihou"]),
+  c("B1", "vocab", "education", "School and study", "考试, 专业, 毕业, 成绩, 留学", ["grammar.duration"]),
 ];

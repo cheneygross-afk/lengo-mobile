@@ -36,7 +36,8 @@ export const ZH_A2_LAYERS_U4 = [
       toZh("It's far from my home to the airport.", "从我家到机场很远。", "Cóng wǒ jiā dào jīchǎng hěn yuǎn.", "从 A 到 B + 很远."),
       wo(["他", "从", "上海", "回来", "了"], "He's back from Shanghai.", "从 + place + 回来."),
       say("从星期一到星期五", "从星期一到星期五: Monday to Friday.", "Keep cóng and dào crisp.", "Say \"Monday to Friday.\""),
-    ]
+    ],
+    { previews: ["grammar.gang"] }
   ),
 
   layer(

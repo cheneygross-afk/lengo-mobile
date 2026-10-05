@@ -2,7 +2,7 @@
 // A2 unit 2 practice lessons (比, 没有…那么/一样, 得, 的/地/得, 越…越,
 // clothes, 还是/或者), drafted from their specs in specs.ts.
 
-import { ex, fb, layer, listen, mc, ms, mt, say, sec, toEn, toZh, wo, zh } from "./authoring";
+import { ex, fb, layer, listen, mc, ms, mt, say, sec, toEn, toZh, zh } from "./authoring";
 import { ZH_A2_SPEC as S } from "./specs";
 
 const C = "Complete (characters or pinyin).";
@@ -33,7 +33,7 @@ export const ZH_A2_LAYERS_U2 = [
       fb(C, "今天比昨天热___了。(Today is much hotter.)", "多", "duō", "多了: much more."),
       toZh("Coffee is more expensive than tea.", "咖啡比茶贵。", "Kāfēi bǐ chá guì.", "A 比 B + 贵."),
       toZh("I'm three years older than him.", "我比他大三岁。", "Wǒ bǐ tā dà sān suì.", "大 + 三岁."),
-      toZh("This one is a little cheaper.", "这个便宜一点儿。", "Zhège piányi yìdiǎnr.", "Adjective + 一点儿.", ["这个比较便宜。", "Zhège bǐjiào piányi."]),
+      toZh("This one is a little cheaper.", "这个便宜一点儿。", "Zhège piányi yìdiǎnr.", "Adjective + 一点儿."),
       say("今天比昨天冷多了。", "今天比昨天冷多了: today is much colder than yesterday.", "lěng duō le: low, then high, then light.", "Compare today's weather with yesterday's."),
     ]
   ),

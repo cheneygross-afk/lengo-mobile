@@ -48,4 +48,16 @@ export const ZH_CAN_DO: Record<string, CanDoStatement[]> = {
     s("a2.reasons", "speaking", "I can give reasons, contrasts and conditions in connected sentences.", ["grammar.yinwei-suoyi", "grammar.suiran-danshi", "grammar.ruguo"]),
     s("a2.health", "interaction", "I can explain what's wrong at the doctor's and understand simple advice.", ["vocab.health", "grammar.yinggai-keyi"]),
   ],
+  b1: [
+    s("b1.opinions", "speaking", "I can give and ask for opinions, and compare things, including the best and the worst.", ["grammar.juede-renwei", "grammar.zui-bijiao", "grammar.youyou"]),
+    s("b1.interests", "interaction", "I can talk about what I'm interested in and ask how old, far or big something is.", ["grammar.dui-guanyu", "grammar.duo-adj"]),
+    s("b1.past-details", "speaking", "I can say when, where and how something happened.", ["grammar.shi-de"]),
+    s("b1.ability", "interaction", "I can say whether I can manage something -- understand, find, finish -- and how things look or sound.", ["grammar.potential-complements", "grammar.qilai"]),
+    s("b1.timing", "speaking", "I can say what has just happened, what happens as soon as something else does, and what happened again.", ["grammar.gang", "grammar.yi-jiu", "grammar.you-zai"]),
+    s("b1.mishaps", "speaking", "I can report things that happened to me, and say what I did with things.", ["grammar.bei-passive", "grammar.ba-cheng"]),
+    s("b1.work-travel", "interaction", "I can talk about my job and handle a hotel stay.", ["vocab.work", "function.travel", "vocab.measure-range"]),
+    s("b1.linking", "writing", "I can link ideas: not only, besides, even, as long as and only if.", ["grammar.budan-erqie", "grammar.chule-yiwai", "grammar.lian-dou", "grammar.zhiyao-jiu", "grammar.zhiyou-cai"]),
+    s("b1.everything", "speaking", "I can say anything, everyone, nowhere and the like with question words.", ["grammar.indefinite-question-words"]),
+    s("b1.life", "speaking", "I can describe my feelings, tell a story in order and talk about my studies.", ["vocab.feelings", "function.sequencing", "vocab.education"]),
+  ],
 };
