@@ -307,7 +307,40 @@ export const ZH_B1_SPEC: LevelSpec = {
       "zh-b1-review",
     ]),
   ],
-  layers: [],
+  // One practice lesson per teach lesson, as at A2.
+  layers: [
+    // Unit 1
+    D("zh-b1d-zui", "Pattern practice", "zh-b1-zui-bijiao", ["grammar.zui-bijiao"]),
+    R("zh-b1r-opinions", "Dialogue", "zh-b1-juede-renwei", ["grammar.juede-renwei"]),
+    D("zh-b1d-duo-adj", "Speed round", "zh-b1-duo-adj", ["grammar.duo-adj"], { production: 6, "listen-choose": 2 }),
+    D("zh-b1d-youyou", "Substitution", "zh-b1-youyou", ["grammar.youyou"]),
+    R("zh-b1r-interests", "Mission", "zh-b1-dui-guanyu", ["grammar.dui-guanyu"]),
+    R("zh-b1r-shi-de", "Contrast", "zh-b1-shi-de", ["grammar.shi-de", "grammar.le-completed"]),
+    // Unit 2
+    D("zh-b1d-potential", "Pattern practice", "zh-b1-potential-complements", ["grammar.potential-complements"]),
+    R("zh-b1r-qilai", "Transform", "zh-b1-qilai", ["grammar.qilai"]),
+    D("zh-b1d-reduplication", "Substitution", "zh-b1-verb-reduplication", ["grammar.verb-reduplication"]),
+    D("zh-b1d-yi-jiu", "Circuit", "zh-b1-yi-jiu", ["grammar.yi-jiu"]),
+    R("zh-b1r-gang", "Contrast", "zh-b1-gang", ["grammar.gang", "grammar.yijing"]),
+    D("zh-b1d-you-zai", "Circuit", "zh-b1-you-zai", ["grammar.you-zai"]),
+    // Unit 3
+    R("zh-b1r-ba-bei", "Transform", "zh-b1-bei-passive", ["grammar.bei-passive", "grammar.ba-construction"]),
+    D("zh-b1d-ba-cheng", "Pattern practice", "zh-b1-ba-cheng", ["grammar.ba-cheng"]),
+    D("zh-b1d-measure", "Speed round", "zh-b1-measure-range", ["vocab.measure-range"], { production: 6, "listen-choose": 2 }),
+    R("zh-b1r-work", "Dialogue", "zh-b1-work", ["vocab.work"]),
+    R("zh-b1r-hotel", "Mission", "zh-b1-travel", ["function.travel"]),
+    // Unit 4
+    D("zh-b1d-budan", "Pattern practice", "zh-b1-budan-erqie", ["grammar.budan-erqie"]),
+    D("zh-b1d-chule", "Circuit", "zh-b1-chule-yiwai", ["grammar.chule-yiwai"]),
+    R("zh-b1r-lian", "Transform", "zh-b1-lian-dou", ["grammar.lian-dou"]),
+    R("zh-b1r-conditions", "Contrast", "zh-b1-zhiyou-cai", ["grammar.zhiyou-cai", "grammar.zhiyao-jiu", "grammar.ruguo"]),
+    D("zh-b1d-zhiyao", "Pattern practice", "zh-b1-zhiyao-jiu", ["grammar.zhiyao-jiu"]),
+    D("zh-b1d-indefinite", "Substitution", "zh-b1-indefinite", ["grammar.indefinite-question-words"]),
+    // Unit 5
+    R("zh-b1r-feelings", "Dialogue", "zh-b1-feelings", ["vocab.feelings"]),
+    R("zh-b1r-story", "Mission", "zh-b1-sequencing", ["function.sequencing"]),
+    R("zh-b1r-study", "Dialogue", "zh-b1-education", ["vocab.education"]),
+  ],
 };
 
 /** Every level spec, in course order. */

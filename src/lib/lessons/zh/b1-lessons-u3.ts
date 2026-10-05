@@ -64,7 +64,7 @@ export const ZH_B1_LESSONS_U3 = [
         [
           `${zh("把 A 翻译成 B", "bǎ A fānyì chéng B")}: translate A into B. 成 marks what something becomes: ${zh("把这句话翻译成英文。", "Bǎ zhè jù huà fānyì chéng Yīngwén.")} Also 换成 (change into), 看成 (mistake for).`,
         ],
-        [ex("请把这句话翻译成中文。", "Qǐng bǎ zhè jù huà fānyì chéng Zhōngwén.", "Please translate this sentence into Chinese."), ex("我把\"八\"看成\"人\"了。", "Wǒ bǎ \"bā\" kàn chéng \"rén\" le.", "I misread 八 as 人.")],
+        [ex("请把这句话翻译成中文。", "Qǐng bǎ zhè jù huà fānyì chéng Zhōngwén.", "Please translate this sentence into Chinese."), ex("我把他看成了他哥哥。", "Wǒ bǎ tā kàn chéng le tā gēge.", "I mistook him for his older brother.")],
         [mc("Translate it into English:", ["把它翻译成英文。", "把它翻译英文成。", "翻译成把它英文。", "把成它翻译英文。"], 0, "把 + thing + 翻译成 + language.")]
       ),
       sec(
