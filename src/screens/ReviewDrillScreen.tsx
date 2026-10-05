@@ -17,6 +17,8 @@ import { langForLevelPath } from "@/lib/speech";
 import { getSpanishVariety, loadSpanishVariety } from "@/lib/spanishVariety";
 import { requiresVosotros } from "@/lib/vosotros";
 import { courseOfLevelPath } from "@/lib/courses";
+import { recordAttempt } from "@/lib/attempts";
+import { lessonConceptId } from "@/lib/curriculum/items";
 
 type Props = NativeStackScreenProps<AppStackParamList, "ReviewDrill">;
 
@@ -105,6 +107,12 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
     // toward the streak (see studyCredit.ts).
     answeredRef.current += 1;
     void creditStudy(QUESTION_MINUTES, { counts: answeredRef.current >= STREAK_MIN_REVIEW_QUESTIONS });
+    void recordAttempt(
+      `${levelPath}:${current.id}`,
+      current.exercise.meta?.concepts ?? [lessonConceptId(levelPath, current.lessonSlug)],
+      correct ? "good" : "again",
+      "review"
+    );
     if (correct) {
       correctIdsRef.current.add(current.id);
       setMasteredCount((c) => c + 1);

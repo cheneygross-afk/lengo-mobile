@@ -147,3 +147,25 @@ export function lessonTexts(l: Lesson, distractors = true): string[] {
   for (const e of l.exercises) out.push(...exerciseTexts(e, distractors));
   return out;
 }
+
+/** The item id of an exercise in a lesson (as lessonItems numbers them);
+ * a copy in a generated review keeps the id of the item it came from. */
+export function itemIdOf(lesson: Lesson, exercise: Exercise): string {
+  if (exercise.meta?.from) return exercise.meta.from;
+  for (let s = 0; s < lesson.sections.length; s++) {
+    const i = (lesson.sections[s].checkpoint ?? []).indexOf(exercise);
+    if (i >= 0) return `${lesson.slug}#c${s + 1}.${i + 1}`;
+  }
+  return `${lesson.slug}#${lesson.exercises.indexOf(exercise) + 1}`;
+}
+
+/** A lesson that isn't tagged with concepts stands for its own topic. */
+export function lessonConceptId(levelPath: string, slug: string): string {
+  return `lesson:${levelPath}/${slug}`;
+}
+
+/** The concepts an answer (or, without an exercise, a lesson pass) is evidence about. */
+export function attemptConcepts(levelPath: string, lesson: Lesson, exercise?: Exercise): string[] {
+  const tagged = exercise?.meta?.concepts ?? lessonConcepts(lesson);
+  return tagged.length ? tagged : [lessonConceptId(levelPath, lesson.slug)];
+}

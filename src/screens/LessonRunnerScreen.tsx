@@ -25,6 +25,7 @@ import { langForLevel, langForLevelPath, ENGLISH_LANG } from "@/lib/speech";
 import { markLessonCompleted } from "@/lib/lessons/completion";
 import { creditStudy } from "@/lib/studyDays";
 import { scheduleLessonForReview } from "@/lib/todaysReview";
+import { recordLessonAttempt, recordLessonPass } from "@/lib/attempts";
 import { parseDurationMinutes } from "@/lib/duration";
 import { addToReview } from "@/lib/lessons/review";
 import {
@@ -342,6 +343,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       return;
     }
     const { wasAlreadyDone } = await markLessonCompleted(levelPath, lesson.slug, lesson.number);
+    await recordLessonPass(levelPath, lesson);
     // Into the daily review mix, so this lesson's grammar comes back in a
     // few days and then at longer and longer gaps.
     await scheduleLessonForReview(levelPath, lesson.slug);
@@ -486,6 +488,10 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
               listenFirst={listenFirstPref && isSpanishLessonLevel(lesson.level)}
               onChecked={(correct, explanation, title) => {
                 if (correct) setCorrectCount((c) => c + 1);
+                // The attempts log (lib/attempts.ts), against the lesson the
+                // question came from (review questions can be older ones).
+                const from = currentStep.source.slug === lesson?.slug ? lesson : findLessonBySlug(currentStep.source.slug);
+                if (from) void recordLessonAttempt(LESSON_SOURCES[moduleKeyForLesson(from)].levelPath, from, currentStep.exercise, correct);
                 if (correct && currentStep.review?.fromMissedPool && !poolResultsRef.current.has(currentStep.id)) {
                   poolResultsRef.current.set(currentStep.id, true);
                 }
