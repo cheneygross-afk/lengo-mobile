@@ -12,6 +12,28 @@ import {
 import { markLessonCompleted } from "@/lib/lessons/completion";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import { langForLevelPath } from "@/lib/speech";
+import { LESSON_SOURCES, type LessonModuleKey } from "@/lib/lessons/registry";
+import { curriculumFor } from "@/lib/lessons/curricula";
+import { testOutItems } from "@/lib/curriculum/assess";
+import type { Lesson } from "@/lib/lessons/types";
+
+/** A unit from units.ts (Spanish), or a module's assembled units (Chinese). */
+function lookUpUnit(levelPath: string, unitId: string): { label: string; required: Lesson[] } | undefined {
+  return findUnit(levelPath, unitId) ?? LESSON_SOURCES[levelPath as LessonModuleKey]?.units?.find((u) => u.id === unitId);
+}
+
+/** Curriculum-engine courses draw from their tagged item bank, covering
+ * every concept the unit teaches; others keep the round-robin pick. */
+function pickQuestions(levelPath: string, unitId: string, lessons: Lesson[]): UnitTestQuestion[] {
+  const curriculum = curriculumFor(levelPath);
+  if (!curriculum) return pickUnitTestQuestions(lessons);
+  const numberOf = new Map(lessons.map((l) => [l.slug, l.number]));
+  return testOutItems(lessons, curriculum.plugin, `${unitId}-${Date.now()}-${Math.random()}`).map((i) => ({
+    exercise: i.exercise,
+    lessonSlug: i.lessonSlug,
+    lessonNumber: numberOf.get(i.lessonSlug) ?? 0,
+  }));
+}
 
 type Props = NativeStackScreenProps<AppStackParamList, "UnitTest">;
 
@@ -24,14 +46,15 @@ type Phase = "intro" | "testing" | "saving" | "passed" | "failed";
 // markLessonCompleted a finished lesson uses, so the website sees it too.
 export default function UnitTestScreen({ route, navigation }: Props) {
   const { levelPath, unitId } = route.params;
-  const unit = useMemo(() => findUnit(levelPath, unitId), [levelPath, unitId]);
+  const unit = useMemo(() => lookUpUnit(levelPath, unitId), [levelPath, unitId]);
   const lang = langForLevelPath(levelPath);
 
   const [phase, setPhase] = useState<Phase>("intro");
   const [attempt, setAttempt] = useState(0);
   const questions = useMemo<UnitTestQuestion[]>(
-    () => (unit ? pickUnitTestQuestions(unit.required) : []),
+    () => (unit ? pickQuestions(levelPath, unitId, unit.required) : []),
     // A fresh draw for every attempt.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [unit, attempt]
   );
   const [index, setIndex] = useState(0);

@@ -21,6 +21,8 @@ import { ZH_A2_LESSONS } from "./a2-lessons";
 import { ZH_CONCEPTS } from "./concepts";
 import { ZH_PLUGIN } from "./plugin";
 import { ZH_SPECS } from "./specs";
+import { ZH_CAN_DO } from "./canDo";
+import type { CanDoStatement } from "../../curriculum/assess";
 
 export type ZhModule = {
   /** Short code shown on the level card ("Pinyin", "A1"). */
@@ -31,9 +33,11 @@ export type ZhModule = {
   description: string;
   lessons: Lesson[];
   units: AssembledUnit[];
+  /** Can-do statements, each linked to concepts taught in this module. */
+  canDo: CanDoStatement[];
 };
 
-const META: Omit<ZhModule, "lessons" | "units">[] = [
+const META: Omit<ZhModule, "lessons" | "units" | "canDo">[] = [
   {
     code: "Pinyin",
     name: "Pinyin & Tones",
@@ -76,7 +80,7 @@ export const ZH_ASSEMBLY_FINDINGS: Finding[] = assembly.findings;
 
 export const ZH_MODULES: ZhModule[] = META.map((m) => {
   const built = assembly.levels.find((l) => l.path === m.path);
-  return { ...m, lessons: built?.lessons ?? [], units: built?.units ?? [] };
+  return { ...m, lessons: built?.lessons ?? [], units: built?.units ?? [], canDo: ZH_CAN_DO[m.path] ?? [] };
 });
 
 /** Every Chinese lesson in course order. */

@@ -37,5 +37,17 @@ export function checkCourse(): Finding[] {
       if (!l) findings.push({ level: "warning", where: spec.slug, message: "specified but not written yet" });
       else for (const p of checkLayer(l, spec, ZH_PLUGIN)) findings.push({ level: "error", where: spec.slug, message: p });
     }
+
+  // Can-do statements: every concept known and taught in the same module
+  // (so completing that module's lessons can achieve the statement).
+  const known = new Set(ZH_CONCEPTS.map((c) => c.id));
+  for (const m of ZH_MODULES) {
+    const taughtHere = new Set(m.lessons.flatMap((l) => l.teaches ?? []));
+    for (const st of m.canDo)
+      for (const c of st.concepts) {
+        if (!known.has(c)) findings.push({ level: "error", where: st.id, message: `unknown concept ${c}` });
+        else if (!taughtHere.has(c)) findings.push({ level: "error", where: st.id, message: `${c} isn't taught in ${m.code}` });
+      }
+  }
   return findings;
 }

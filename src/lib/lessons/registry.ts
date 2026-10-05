@@ -20,6 +20,7 @@ import { JA_B2_LESSONS } from "./ja-b2";
 import { JA_C1_LESSONS } from "./ja-c1";
 import { JA_C2_LESSONS } from "./ja-c2";
 import { ZH_MODULES } from "./zh";
+import type { CanDoStatement } from "../curriculum/assess";
 import { spanishLevel } from "./levels";
 
 export type LessonModuleKey =
@@ -54,6 +55,8 @@ export type LessonSource = {
   // assembled units, see lessons/zh/index.ts). Spanish levels get theirs
   // from units.ts instead.
   units?: ModuleUnit[];
+  // Can-do statements linked to concepts (curriculum-engine courses).
+  canDo?: CanDoStatement[];
 };
 
 /** A unit as the lesson list shows it, whichever track it comes from. */
@@ -77,13 +80,14 @@ function zhSource(moduleKey: "zh-pinyin" | "zh-a1" | "zh-a2", path: string, titl
     levelPath: moduleKey,
     title,
     lessons: mod.lessons,
+    canDo: mod.canDo,
     units: mod.units.map((u) => ({
       id: u.id,
       label: u.label,
       description: u.description,
       required: pick(u.requiredSlugs),
       optional: pick(u.optionalSlugs),
-      testOut: false,
+      testOut: true,
     })),
   };
 }

@@ -12,6 +12,7 @@ import { getPendingReviewBatch, type PendingReviewBatch } from "@/lib/lessons/re
 import { parseDurationMinutes, formatMinutes } from "@/lib/duration";
 import LevelWatchSection from "@/components/LevelWatchSection";
 import CanDoCard from "@/components/CanDoCard";
+import ConceptCanDoCard from "@/components/ConceptCanDoCard";
 import { CAN_DO_STATEMENTS } from "@/lib/lessons/canDo";
 import { LEVEL_WATCH_VIDEOS } from "@/lib/lessons/lessonVideos";
 import type { SpanishLevelPath } from "@/lib/lessons/levels";
@@ -33,8 +34,10 @@ type Section = { key: string; unit?: ModuleUnit; title: string; data: Row[] };
 // synced units.ts -- the same grouping as the website's level pages --
 // each collapsible, with its progress and a "Test out" quiz; only the
 // unit holding the next lesson starts open. The Chinese beta's modules
-// show their assembled units the same way (no test-out yet). The Japanese
-// beta's modules (see JapaneseLevelsScreen) stay one flat list.
+// show their assembled units the same way, with a test-out drawn from
+// the item bank, and their can-do statements ticked off from progress.
+// The Japanese beta's modules (see JapaneseLevelsScreen) stay one flat
+// list.
 export default function LessonListScreen({ navigation, route }: Props) {
   const moduleKey: LessonModuleKey = route.params?.moduleKey ?? "a1";
   const source = LESSON_SOURCES[moduleKey];
@@ -115,6 +118,7 @@ export default function LessonListScreen({ navigation, route }: Props) {
         {units ? ` · ${units.length} units` : ""}
       </Text>
       {moduleKey in CAN_DO_STATEMENTS && <CanDoCard levelPath={moduleKey as SpanishLevelPath} />}
+      {source.canDo && <ConceptCanDoCard statements={source.canDo} lessons={lessons} completed={completed} />}
       {next && units && (
         <Pressable style={styles.continueCard} onPress={() => navigation.navigate("LessonRunner", { slug: next.slug })}>
           <Text style={styles.continueKicker}>
