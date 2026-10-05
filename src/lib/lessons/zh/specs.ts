@@ -343,5 +343,50 @@ export const ZH_B1_SPEC: LevelSpec = {
   ],
 };
 
+export const ZH_B2_SPEC: LevelSpec = {
+  code: "B2",
+  path: "b2",
+  level: "ZH-B2",
+  slugPrefix: "zh-b2",
+  units: [
+    unit("zh-b2-u1", "Conditions and concessions", "即使…也, 不管/无论…都, 既然…就, 否则 and 不然, and the formal 尽管.", [
+      "zh-b2-jishi",
+      "zh-b2-buguan",
+      "zh-b2-jiran",
+      "zh-b2-fouze",
+      "zh-b2-jinguan",
+    ]),
+    unit("zh-b2-u2", "Cause, result and purpose", "为了, 由于…因此, 于是, 结果, and 只好 and 不得不.", [
+      "zh-b2-weile",
+      "zh-b2-youyu-yinci",
+      "zh-b2-yushi",
+      "zh-b2-jieguo",
+      "zh-b2-zhihao",
+    ]),
+    unit("zh-b2-u3", "Nuance and emphasis", "并不, 难道…吗, 到底, 竟然 and 没想到, 恐怕, and 差点儿.", [
+      "zh-b2-bing",
+      "zh-b2-nandao",
+      "zh-b2-daodi",
+      "zh-b2-jingran",
+      "zh-b2-kongpa",
+      "zh-b2-chadianr",
+    ]),
+    unit("zh-b2-u4", "Formal Chinese", "Written-style 是否, 与 and 以及, 对…来说, 在…方面, 随着, and everyday four-character idioms.", [
+      "zh-b2-formal",
+      "zh-b2-dui-laishuo",
+      "zh-b2-fangmian",
+      "zh-b2-suizhe",
+      "zh-b2-chengyu",
+    ]),
+    unit("zh-b2-u5", "Society and the world", "The environment, life online, festivals and customs, and the whole of B2 together.", [
+      "zh-b2-environment",
+      "zh-b2-internet",
+      "zh-b2-customs",
+      "zh-b2-review",
+    ]),
+  ],
+  layers: [],
+};
+
 /** Every level spec, in course order. */
-export const ZH_SPECS: LevelSpec[] = [ZH_PINYIN_SPEC, ZH_A1_SPEC, ZH_A2_SPEC, ZH_B1_SPEC];
+export const ZH_SPECS: LevelSpec[] = [ZH_PINYIN_SPEC, ZH_A1_SPEC, ZH_A2_SPEC, ZH_B1_SPEC, ZH_B2_SPEC];

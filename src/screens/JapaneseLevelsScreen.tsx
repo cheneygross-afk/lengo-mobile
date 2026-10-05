@@ -76,6 +76,7 @@ export default function JapaneseLevelsScreen({ navigation }: Props) {
     "zh-a1": 0,
     "zh-a2": 0,
     "zh-b1": 0,
+    "zh-b2": 0,
   });
 
   useFocusEffect(

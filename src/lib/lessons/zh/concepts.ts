@@ -148,4 +148,34 @@ export const ZH_CONCEPTS: Concept[] = [
   c("B1", "vocab", "feelings", "Feelings", "生气, 担心, 害怕, 着急, 难过, 放心", ["grammar.adjective-predicates"]),
   c("B1", "function", "sequencing", "先…然后…最后", "Telling things in order", ["grammar.yiqian-yihou"]),
   c("B1", "vocab", "education", "School and study", "考试, 专业, 毕业, 成绩, 留学", ["grammar.duration"]),
+  // ---- B2 ----
+  // Unit 1: conditions and concessions
+  c("B2", "grammar", "jishi-ye", "即使…也…", "Even if", ["grammar.ruguo", "grammar.ye-dou"]),
+  c("B2", "grammar", "buguan-dou", "不管/无论…都…", "No matter (what, who, how)", ["grammar.indefinite-question-words"]),
+  c("B2", "grammar", "jiran-jiu", "既然…就…", "Since (given that)", ["grammar.yinwei-suoyi", "grammar.jiu-cai"]),
+  c("B2", "grammar", "fouze", "否则 and 不然", "Otherwise", ["grammar.ruguo"]),
+  c("B2", "grammar", "jinguan", "尽管", "Although, even though (more formal than 虽然)", ["grammar.suiran-danshi"]),
+  // Unit 2: cause, result and purpose
+  c("B2", "grammar", "weile", "为了", "In order to, for the sake of", ["grammar.gei-for"]),
+  c("B2", "grammar", "youyu-yinci", "由于…因此…", "Owing to …, therefore (formal cause and effect)", ["grammar.yinwei-suoyi"]),
+  c("B2", "grammar", "yushi", "于是", "And so, thereupon", ["function.sequencing"]),
+  c("B2", "grammar", "jieguo", "结果", "As a result; in the end (often unexpected)", ["grammar.yinwei-suoyi"]),
+  c("B2", "grammar", "zhihao-budebu", "只好 and 不得不", "Have no choice but to; have to", ["grammar.yinggai-keyi"]),
+  // Unit 3: nuance and emphasis
+  c("B2", "grammar", "bing-negation", "并不 / 并没有", "Not at all, actually not (contradicting an assumption)", ["grammar.bu-negation", "grammar.mei-past"]),
+  c("B2", "grammar", "nandao", "难道…吗", "Rhetorical questions: surely not …?", ["grammar.ma-questions"]),
+  c("B2", "grammar", "daodi", "到底 and 究竟", "On earth, after all, in the end", ["grammar.question-words"]),
+  c("B2", "grammar", "jingran", "竟然 and 没想到", "Unexpectedly, to my surprise", ["grammar.juede-renwei"]),
+  c("B2", "grammar", "kongpa", "恐怕", "I'm afraid (that), probably", ["grammar.juede-renwei"]),
+  c("B2", "grammar", "chadianr", "差点儿", "Almost, nearly (but didn't)", ["grammar.le-completed"]),
+  // Unit 4: formal register
+  c("B2", "grammar", "formal-words", "是否, 与, 以及", "Written-style whether, and, as well as", ["grammar.he-and", "grammar.a-not-a"]),
+  c("B2", "grammar", "dui-laishuo", "对…来说", "For (someone), as far as … is concerned", ["grammar.dui-guanyu"]),
+  c("B2", "grammar", "zai-fangmian", "在…方面 / 在…上", "In terms of, in the area of", ["grammar.dui-guanyu"]),
+  c("B2", "grammar", "suizhe", "随着", "Along with, as … changes", ["grammar.yue-yue"]),
+  c("B2", "vocab", "chengyu", "Four-character idioms", "马马虎虎, 一路平安, 入乡随俗 and other everyday 成语", ["vocab.feelings"]),
+  // Unit 5: society and the world
+  c("B2", "vocab", "environment", "The environment", "环境, 污染, 保护, 垃圾, 节约", ["grammar.yinwei-suoyi"]),
+  c("B2", "vocab", "internet", "Life online", "上网, 网上购物, 下载, 手机支付, 密码", ["grammar.result-complements"]),
+  c("B2", "function", "customs", "Festivals and customs", "春节, 中秋节, 红包, 习惯, 风俗", ["vocab.dates"]),
 ];

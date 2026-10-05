@@ -120,6 +120,27 @@ export const ZH_DETECTORS: FormDetector[] = [
   re("grammar.zhiyou-cai", /只有[^，。？！ ]{0,10}才|只有[^，。？！]{1,10}，[^。？！]{0,8}才/, "只有…才"),
   re("grammar.indefinite-question-words", /(什么|谁|哪儿|哪里|怎么)(都|也)/, "什么都/谁都"),
   re("function.sequencing", /先[^，。？！]{1,10}，?然后/, "先…然后"),
+  // B2
+  re("grammar.jishi-ye", /即使|即便|哪怕/, "即使…也"),
+  re("grammar.buguan-dou", /不管|无论/, "不管/无论"),
+  re("grammar.jiran-jiu", /既然/, "既然"),
+  re("grammar.fouze", /否则|不然/, "否则/不然"),
+  re("grammar.jinguan", /尽管/, "尽管"),
+  re("grammar.weile", /为了/, "为了"),
+  re("grammar.youyu-yinci", /由于|因此/, "由于/因此"),
+  re("grammar.yushi", /于是/, "于是"),
+  re("grammar.jieguo", /结果/, "结果"),
+  re("grammar.zhihao-budebu", /只好|不得不/, "只好/不得不"),
+  re("grammar.bing-negation", /并(不|没)/, "并不/并没"),
+  re("grammar.nandao", /难道/, "难道"),
+  re("grammar.daodi", /到底|究竟/, "到底/究竟"),
+  re("grammar.jingran", /竟然|居然|没想到/, "竟然/没想到"),
+  re("grammar.kongpa", /恐怕/, "恐怕"),
+  re("grammar.chadianr", /差点儿|差一点/, "差点儿"),
+  re("grammar.formal-words", /是否|以及|与/, "是否/与/以及"),
+  re("grammar.dui-laishuo", /对[^，。？！]{1,8}来说/, "对…来说"),
+  re("grammar.zai-fangmian", /方面/, "方面"),
+  re("grammar.suizhe", /随着/, "随着"),
 ];
 
 /** True for an answer typed in Chinese (characters or pinyin). */

@@ -21,6 +21,7 @@ import { ZH_A2_LESSONS } from "./a2-lessons";
 import { ZH_A2_LAYERS } from "./a2-layers";
 import { ZH_B1_LESSONS } from "./b1-lessons";
 import { ZH_B1_LAYERS } from "./b1-layers";
+import { ZH_B2_LESSONS } from "./b2-lessons";
 import { ZH_CONCEPTS } from "./concepts";
 import { ZH_PLUGIN } from "./plugin";
 import { ZH_SPECS } from "./specs";
@@ -69,10 +70,17 @@ const META: Omit<ZhModule, "lessons" | "units" | "canDo">[] = [
     description:
       "Opinions and comparisons, 是…的, potential complements and 起来, the 被 passive and more 把, linking ideas with 不但…而且, 除了, 连…都, 只要 and 只有, feelings, work, travel and study -- about HSK 3.",
   },
+  {
+    code: "B2",
+    name: "Upper-Intermediate Chinese",
+    path: "b2",
+    description:
+      "Even if, no matter and since, otherwise and even though, purpose and result, rhetorical questions and surprise, formal written Chinese, everyday 成语, the environment, life online and festivals -- about HSK 4.",
+  },
 ];
 
 /** Every authored or drafted lesson, before assembly (what the validator checks). */
-export const ZH_SOURCE_LESSONS: Lesson[] = [...ZH_PINYIN_LESSONS, ...ZH_PINYIN_LAYERS, ...ZH_A1_LESSONS, ...ZH_A1_LAYERS, ...ZH_A2_LESSONS, ...ZH_A2_LAYERS, ...ZH_B1_LESSONS, ...ZH_B1_LAYERS];
+export const ZH_SOURCE_LESSONS: Lesson[] = [...ZH_PINYIN_LESSONS, ...ZH_PINYIN_LAYERS, ...ZH_A1_LESSONS, ...ZH_A1_LAYERS, ...ZH_A2_LESSONS, ...ZH_A2_LAYERS, ...ZH_B1_LESSONS, ...ZH_B1_LAYERS, ...ZH_B2_LESSONS];
 
 const assembly = assembleCourse({
   specs: ZH_SPECS,

@@ -60,4 +60,13 @@ export const ZH_CAN_DO: Record<string, CanDoStatement[]> = {
     s("b1.everything", "speaking", "I can say anything, everyone, nowhere and the like with question words.", ["grammar.indefinite-question-words"]),
     s("b1.life", "speaking", "I can describe my feelings, tell a story in order and talk about my studies.", ["vocab.feelings", "function.sequencing", "vocab.education"]),
   ],
+  b2: [
+    s("b2.conditions", "speaking", "I can say what holds even if, no matter what, and since something is so -- and warn what happens otherwise.", ["grammar.jishi-ye", "grammar.buguan-dou", "grammar.jiran-jiu", "grammar.fouze"]),
+    s("b2.concession", "writing", "I can admit a point and still argue against it.", ["grammar.jinguan", "grammar.bing-negation"]),
+    s("b2.cause-purpose", "writing", "I can explain causes, purposes and results, in everyday and formal style.", ["grammar.weile", "grammar.youyu-yinci", "grammar.yushi", "grammar.jieguo", "grammar.zhihao-budebu"]),
+    s("b2.attitude", "interaction", "I can show surprise, doubt, impatience and polite regret.", ["grammar.nandao", "grammar.daodi", "grammar.jingran", "grammar.kongpa", "grammar.chadianr"]),
+    s("b2.formal", "reading", "I can follow notices, news and essays that use formal written words.", ["grammar.formal-words", "grammar.dui-laishuo", "grammar.zai-fangmian", "grammar.suizhe"]),
+    s("b2.idioms", "speaking", "I can understand and use common four-character idioms.", ["vocab.chengyu"]),
+    s("b2.society", "interaction", "I can discuss the environment, life online and Chinese festivals and customs.", ["vocab.environment", "vocab.internet", "function.customs"]),
+  ],
 };
