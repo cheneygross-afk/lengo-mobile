@@ -21,7 +21,7 @@ import {
 } from "@/lib/pronunciationVoice";
 import { getSpanishVariety, loadSpanishVariety, spanishSpeechLang } from "@/lib/spanishVariety";
 
-export type SpeechLang = "es-ES" | "es-US" | "ja-JP" | "en-US";
+export type SpeechLang = "es-ES" | "es-US" | "ja-JP" | "en-US" | "zh-CN";
 
 // Screens ask for Spanish as SPANISH_LANG (es-ES); the learner's "Spanish
 // I want to learn" setting decides which voice actually speaks it --
@@ -30,15 +30,19 @@ export type SpeechLang = "es-ES" | "es-US" | "ja-JP" | "en-US";
 export const SPANISH_LANG: SpeechLang = "es-ES";
 export const JAPANESE_LANG: SpeechLang = "ja-JP";
 export const ENGLISH_LANG: SpeechLang = "en-US";
+// Mandarin, for the Chinese beta (lessons/zh).
+export const CHINESE_LANG: SpeechLang = "zh-CN";
 
 // The two ways language is keyed elsewhere in the app: a flashcard/story
 // "levelPath" like "a1" or "ja-a1", or a Lesson's own "level" like "A1"
 // or "JA-A1"/"JA-Alphabets"/"JA-B1".
 export function langForLevelPath(levelPath: string): SpeechLang {
+  if (levelPath.startsWith("zh")) return CHINESE_LANG;
   return levelPath.startsWith("ja") ? JAPANESE_LANG : SPANISH_LANG;
 }
 
 export function langForLevel(level: string): SpeechLang {
+  if (level.startsWith("ZH")) return CHINESE_LANG;
   return level.startsWith("JA") ? JAPANESE_LANG : SPANISH_LANG;
 }
 
@@ -174,7 +178,7 @@ function loadPronunciationPrefs(): Promise<void> {
 // (flashcard backs, glosses, etc.) always uses the device voice, which is
 // already fine for English and isn't worth paying to regenerate.
 function hasCloudVoice(lang: SpeechLang): boolean {
-  return lang === "es-ES" || lang === "es-US" || lang === JAPANESE_LANG;
+  return lang === "es-ES" || lang === "es-US" || lang === JAPANESE_LANG || lang === CHINESE_LANG;
 }
 
 function voiceLang(lang: SpeechLang): SpeechLang {
@@ -306,7 +310,7 @@ async function speakOnDevice(clean: string, lang: SpeechLang, rate = 1) {
     pitch: 1.0,
     // Slightly slower for Japanese -- kana/kanji run together with no
     // spaces, so full native rate reads as a blur for a learner.
-    rate: (lang === JAPANESE_LANG ? 0.85 : 1.0) * rate,
+    rate: (lang === JAPANESE_LANG || lang === CHINESE_LANG ? 0.85 : 1.0) * rate,
   });
 }
 
@@ -475,7 +479,7 @@ async function speakOnDeviceToEnd(text: string, lang: SpeechLang): Promise<ClipR
     Speech.speak(text, {
       language: lang,
       voice,
-      rate: lang === JAPANESE_LANG ? 0.85 : 0.95,
+      rate: lang === JAPANESE_LANG || lang === CHINESE_LANG ? 0.85 : 0.95,
       onDone: () => finish("ended"),
       onError: () => finish("ended"),
       onStopped: () => finish("stopped"),

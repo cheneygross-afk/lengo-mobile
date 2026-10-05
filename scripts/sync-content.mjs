@@ -31,6 +31,9 @@ const DIRS = {
     "migrateC1C2Progress.ts",
     "readingPracticeRanges.ts",
   ],
+  // The Chinese (Mandarin) beta: a self-contained package (see its
+  // README.md on the website). Only the .ts files are copied.
+  "src/lib/lessons/zh": [],
   "src/lib/stories": [],
   "src/lib/readings": [],
   "src/lib/grammar": [],

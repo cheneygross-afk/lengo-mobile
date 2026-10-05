@@ -16,6 +16,7 @@ import { QUESTION_MINUTES, STREAK_MIN_REVIEW_QUESTIONS } from "@/lib/studyCredit
 import { langForLevelPath } from "@/lib/speech";
 import { getSpanishVariety, loadSpanishVariety } from "@/lib/spanishVariety";
 import { requiresVosotros } from "@/lib/vosotros";
+import { courseOfLevelPath } from "@/lib/courses";
 
 type Props = NativeStackScreenProps<AppStackParamList, "ReviewDrill">;
 
@@ -65,7 +66,7 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
       const now = Date.now();
       // Latin America learners aren't drilled on vosotros forms (see
       // vosotros.ts); those questions stay in the pool, just unasked.
-      const skipVosotros = v === "latam" && !levelPath.startsWith("ja");
+      const skipVosotros = v === "latam" && courseOfLevelPath(levelPath) === "es";
       // Everything due: new misses are due immediately, older ones come
       // back on their spaced schedule.
       const pool = all.filter((q) => isMissedQuestionDue(q, now) && !(skipVosotros && requiresVosotros(q.exercise)));

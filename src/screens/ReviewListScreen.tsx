@@ -6,6 +6,7 @@ import type { AppStackParamList } from "@/navigation/types";
 import type { Lesson } from "@/lib/lessons/types";
 import { ALL_LEVEL_PATHS, LESSON_SOURCES, findLessonBySlug, moduleKeyForLesson } from "@/lib/lessons/registry";
 import { getReviewSlugs, removeFromReview } from "@/lib/lessons/review";
+import { courseOfLevelPath } from "@/lib/courses";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Review">;
 
@@ -24,7 +25,7 @@ export default function ReviewListScreen({ navigation, route }: Props) {
   useFocusEffect(
     useCallback(() => {
       let cancelled = false;
-      const keys = ALL_LEVEL_PATHS.filter((key) => (lang === "ja" ? key.startsWith("ja-") : !key.startsWith("ja-")));
+      const keys = ALL_LEVEL_PATHS.filter((key) => courseOfLevelPath(key) === lang);
       Promise.all(keys.map((key) => getReviewSlugs(LESSON_SOURCES[key].levelPath))).then((lists) => {
         if (cancelled) return;
         const found = lists

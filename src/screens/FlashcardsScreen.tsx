@@ -12,6 +12,7 @@ import { FLASHCARD_MINUTES, STREAK_MIN_FLASHCARDS } from "@/lib/studyCredit";
 import { ENGLISH_LANG, SPANISH_LANG, langForLevelPath, speak, stopSpeaking } from "@/lib/speech";
 import { deckExample } from "@/lib/decks";
 import TapText from "@/components/TapText";
+import { courseOfLevelPath } from "@/lib/courses";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Flashcards">;
 
@@ -38,7 +39,7 @@ export default function FlashcardsScreen({ route, navigation }: Props) {
         const map = await loadFlashcards();
         if (cancelled) return;
         const scoped = Object.fromEntries(
-          Object.entries(map).filter(([, card]) => (lang === "ja" ? card.levelPath.startsWith("ja") : !card.levelPath.startsWith("ja")))
+          Object.entries(map).filter(([, card]) => courseOfLevelPath(card.levelPath) === lang)
         );
         // Never-reviewed cards are capped at the new-cards-per-day setting.
         const dueToday = await getDueCardsForToday(Object.values(scoped));

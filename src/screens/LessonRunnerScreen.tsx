@@ -10,7 +10,7 @@ import {
 } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
-import { findLessonBySlug, moduleKeyForLesson, LESSON_SOURCES } from "@/lib/lessons/registry";
+import { findLessonBySlug, isSpanishLessonLevel, moduleKeyForLesson, LESSON_SOURCES } from "@/lib/lessons/registry";
 import LessonNextSteps from "@/components/LessonNextSteps";
 import type { Exercise, Lesson } from "@/lib/lessons/types";
 import { displayTitle } from "@/lib/lessons/levels";
@@ -127,7 +127,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   }, [levelPath, slug]);
 
   const skipExercise = useMemo(
-    () => (variety === "latam" && lesson && !lesson.level.startsWith("JA") ? requiresVosotros : () => false),
+    () => (variety === "latam" && lesson && isSpanishLessonLevel(lesson.level) ? requiresVosotros : () => false),
     [variety, lesson]
   );
   const steps = useMemo<Step[]>(() => {
@@ -189,7 +189,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     return out;
   }, [lesson, dueMissed, variety, skipExercise]);
   const lessonNote =
-    variety === "latam" && lesson && !lesson.level.startsWith("JA") && isVosotrosFocused(lesson)
+    variety === "latam" && lesson && isSpanishLessonLevel(lesson.level) && isVosotrosFocused(lesson)
       ? vosotrosNote(lesson.level)
       : null;
   const questionCount = steps.filter((st) => st.kind === "exercise").length;
@@ -429,7 +429,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
         <View style={s.progressTrack}>
           <Animated.View style={[s.progressFill, { width: progressWidth }]} />
         </View>
-        {!lesson.level.startsWith("JA") && (
+        {isSpanishLessonLevel(lesson.level) && (
           <Pressable
             hitSlop={10}
             onPress={() => void setListenFirst(!listenFirstPref)}
@@ -483,7 +483,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
               showInlineFeedback={false}
               lang={lang}
               level={lesson.level}
-              listenFirst={listenFirstPref && !lesson.level.startsWith("JA")}
+              listenFirst={listenFirstPref && isSpanishLessonLevel(lesson.level)}
               onChecked={(correct, explanation, title) => {
                 if (correct) setCorrectCount((c) => c + 1);
                 if (correct && currentStep.review?.fromMissedPool && !poolResultsRef.current.has(currentStep.id)) {

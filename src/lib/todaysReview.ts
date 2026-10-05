@@ -15,6 +15,7 @@ import { getDueMissedQuestions } from "@/lib/lessons/missedQuestions";
 import { getCompletedMap } from "@/lib/lessons/completion";
 import { loadFlashcards } from "@/lib/flashcards/store";
 import { getDueCardsForToday } from "@/lib/learnerPrefs";
+import { courseOfLevelPath } from "@/lib/courses";
 
 /** Spanish tracks Today's review covers, in course order. */
 export const SPANISH_REVIEW_TRACKS = ["a1", "a2", "b1", "b2", "c1", "c2", "cosas-coloquiales"];
@@ -30,7 +31,7 @@ export async function saveSchedule(schedule: SpacedSchedule): Promise<void> {
 
 /** Called when a Spanish lesson is passed. */
 export async function scheduleLessonForReview(levelPath: string, slug: string): Promise<void> {
-  if (levelPath.startsWith("ja")) return;
+  if (courseOfLevelPath(levelPath) !== "es") return;
   const before = await loadSchedule();
   const after = scheduleLesson(before, levelPath, slug);
   if (after !== before) await saveSchedule(after);
@@ -53,7 +54,7 @@ export async function seedScheduleFromCompletions(): Promise<SpacedSchedule> {
 
 export async function getTodaysReviewCounts(now: number = Date.now()): Promise<TodaysReviewCounts> {
   const missedLists = await Promise.all(SPANISH_REVIEW_TRACKS.map((lp) => getDueMissedQuestions(lp, now)));
-  const cards = Object.values(await loadFlashcards()).filter((c) => !c.levelPath.startsWith("ja"));
+  const cards = Object.values(await loadFlashcards()).filter((c) => courseOfLevelPath(c.levelPath) === "es");
   return {
     missed: missedLists.reduce((n, l) => n + l.length, 0),
     mix: dailyMixQuestionCount(await loadSchedule(), now),
