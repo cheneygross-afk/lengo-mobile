@@ -43,7 +43,9 @@ export const ZH_DETECTORS: FormDetector[] = [
   re("grammar.tai-le", /太[^，。？！ ]{1,4}了/, "太…了"),
   {
     concept: "zh.grammar.le-completed",
-    test: (t) => /了/.test(t.replace(/太[^，。？！ ]{1,4}了/g, " ").replace(/[下]雨了|[下]雪了/g, " ")),
+    // After a verb (a 了 on its own is a word being talked about, e.g. the
+    // answer to a 太…___ blank).
+    test: (t) => /[一-鿿]了/.test(t.replace(/太[^，。？！ ]{1,4}了/g, " ").replace(/[下]雨了|[下]雪了/g, " ")),
     severity: "error",
     label: "了",
   },
@@ -85,7 +87,8 @@ export const ZH_DETECTORS: FormDetector[] = [
   re("grammar.haishi-huozhe", /还是|或者/, "还是/或者"),
   re("grammar.yibian", /一边/, "一边…一边"),
   re("grammar.zhe-state", /[着]/, "着", "warning"),
-  re("grammar.ba-construction", /把/, "把"),
+  // Not the measure word: 一把椅子 (a chair), 两把伞.
+  { concept: "zh.grammar.ba-construction", test: (t) => /把/.test(t.replace(/[一两二三四五六七八九十几这那哪每]把/g, " ")), severity: "error", label: "把" },
   re("grammar.yue-yue", /越.{1,6}越/, "越…越"),
   re("grammar.bei-passive", /被/, "被"),
 ];

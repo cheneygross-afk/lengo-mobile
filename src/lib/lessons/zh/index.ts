@@ -2,12 +2,24 @@
 // The Chinese (Mandarin) track for English speakers: every module, in
 // course order, with the metadata the level pages show. This file is the
 // one entry point the rest of the app imports. See README.md.
+//
+// Each module's lessons are assembled (src/lib/curriculum/assemble.ts)
+// from its spec (specs.ts): the authored teach lessons in unit order, the
+// reinforce/drill lessons drafted from the spec after each one, and the
+// spaced reviews, unit reviews and level test generated from the item
+// bank. Assembly is pure and seeded, so the result is the same on every
+// build and on the website and in the app.
 
 import type { Lesson } from "../types";
+import { assembleCourse, type AssembledUnit } from "../../curriculum/assemble";
+import type { Finding } from "../../curriculum/types";
 import { ZH_PINYIN_LESSONS } from "./pinyin-lessons";
 import { ZH_A1_LESSONS } from "./a1-lessons";
-
-export { ZH_PINYIN_LESSONS, ZH_A1_LESSONS };
+import { ZH_PINYIN_LAYERS } from "./pinyin-drills";
+import { ZH_A1_LAYERS } from "./a1-layers";
+import { ZH_CONCEPTS } from "./concepts";
+import { ZH_PLUGIN } from "./plugin";
+import { ZH_SPECS } from "./specs";
 
 export type ZhModule = {
   /** Short code shown on the level card ("Pinyin", "A1"). */
@@ -17,16 +29,16 @@ export type ZhModule = {
   path: string;
   description: string;
   lessons: Lesson[];
+  units: AssembledUnit[];
 };
 
-export const ZH_MODULES: ZhModule[] = [
+const META: Omit<ZhModule, "lessons" | "units">[] = [
   {
     code: "Pinyin",
     name: "Pinyin & Tones",
     path: "pinyin",
     description:
       "How Mandarin sounds and how pinyin writes it: the four tones and the neutral tone, every initial and final, tone changes, spelling rules, and how characters are built -- before A1.",
-    lessons: ZH_PINYIN_LESSONS,
   },
   {
     code: "A1",
@@ -34,9 +46,30 @@ export const ZH_MODULES: ZhModule[] = [
     path: "a1",
     description:
       "Greetings and introductions, 是 sentences, questions with 吗 and question words, numbers and money, measure words, family, dates and time, places, wanting and ability, and finished actions with 了 -- about 300 HSK 1-level words.",
-    lessons: ZH_A1_LESSONS,
   },
 ];
+
+/** Every authored or drafted lesson, before assembly (what the validator checks). */
+export const ZH_SOURCE_LESSONS: Lesson[] = [...ZH_PINYIN_LESSONS, ...ZH_PINYIN_LAYERS, ...ZH_A1_LESSONS, ...ZH_A1_LAYERS];
+
+const assembly = assembleCourse({
+  specs: ZH_SPECS,
+  lessons: ZH_SOURCE_LESSONS,
+  concepts: ZH_CONCEPTS,
+  plugin: ZH_PLUGIN,
+  language: {
+    exampleMeaning: (e) => e.en?.split(" -- ")[1]?.trim() ?? "",
+    exampleInline: (e) => `${e.es} (${e.en?.split(" -- ")[0]?.trim() ?? ""})`,
+  },
+});
+
+/** Problems found while assembling (reported by check.ts). */
+export const ZH_ASSEMBLY_FINDINGS: Finding[] = assembly.findings;
+
+export const ZH_MODULES: ZhModule[] = META.map((m) => {
+  const built = assembly.levels.find((l) => l.path === m.path);
+  return { ...m, lessons: built?.lessons ?? [], units: built?.units ?? [] };
+});
 
 /** Every Chinese lesson in course order. */
 export const ZH_ALL_LESSONS: Lesson[] = ZH_MODULES.flatMap((m) => m.lessons);

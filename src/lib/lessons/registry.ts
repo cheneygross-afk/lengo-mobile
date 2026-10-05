@@ -19,7 +19,7 @@ import { JA_B1_LESSONS } from "./ja-b1";
 import { JA_B2_LESSONS } from "./ja-b2";
 import { JA_C1_LESSONS } from "./ja-c1";
 import { JA_C2_LESSONS } from "./ja-c2";
-import { ZH_A1_LESSONS, ZH_PINYIN_LESSONS } from "./zh";
+import { ZH_MODULES } from "./zh";
 import { spanishLevel } from "./levels";
 
 export type LessonModuleKey =
@@ -49,7 +49,43 @@ export type LessonSource = {
   levelPath: string;
   title: string;
   lessons: Lesson[];
+  // Units for a track that isn't covered by units.ts (the Chinese beta's
+  // assembled units, see lessons/zh/index.ts). Spanish levels get theirs
+  // from units.ts instead.
+  units?: ModuleUnit[];
 };
+
+/** A unit as the lesson list shows it, whichever track it comes from. */
+export type ModuleUnit = {
+  id: string;
+  label: string;
+  description: string;
+  required: Lesson[];
+  optional: Lesson[];
+  /** Whether the unit offers a "Test out" quiz (the UnitTest screen). */
+  testOut: boolean;
+};
+
+function zhSource(moduleKey: "zh-pinyin" | "zh-a1", path: string, title: string): LessonSource {
+  const mod = ZH_MODULES.find((m) => m.path === path);
+  if (!mod) throw new Error(`no Chinese module "${path}"`);
+  const bySlug = new Map(mod.lessons.map((l) => [l.slug, l]));
+  const pick = (slugs: string[]) => slugs.map((s) => bySlug.get(s)).filter((l): l is Lesson => !!l);
+  return {
+    moduleKey,
+    levelPath: moduleKey,
+    title,
+    lessons: mod.lessons,
+    units: mod.units.map((u) => ({
+      id: u.id,
+      label: u.label,
+      description: u.description,
+      required: pick(u.requiredSlugs),
+      optional: pick(u.optionalSlugs),
+      testOut: false,
+    })),
+  };
+}
 
 // Every lesson file here is synced from the website repo by
 // scripts/sync-content.mjs, so each level's export (A1_LESSONS, etc.) is
@@ -84,8 +120,8 @@ export const LESSON_SOURCES: Record<LessonModuleKey, LessonSource> = {
   "ja-c1": { moduleKey: "ja-c1", levelPath: "ja-c1", title: "Japanese · C1 Advanced", lessons: JA_C1_LESSONS },
   "ja-c2": { moduleKey: "ja-c2", levelPath: "ja-c2", title: "Japanese · C2 Mastery", lessons: JA_C2_LESSONS },
   // The Chinese (Mandarin) beta -- see lessons/zh (synced from the website).
-  "zh-pinyin": { moduleKey: "zh-pinyin", levelPath: "zh-pinyin", title: "Chinese · Pinyin & Tones", lessons: ZH_PINYIN_LESSONS },
-  "zh-a1": { moduleKey: "zh-a1", levelPath: "zh-a1", title: "Chinese · A1 Foundations", lessons: ZH_A1_LESSONS },
+  "zh-pinyin": zhSource("zh-pinyin", "pinyin", "Chinese · Pinyin & Tones"),
+  "zh-a1": zhSource("zh-a1", "a1", "Chinese · A1 Foundations"),
 };
 
 export const ALL_LEVEL_PATHS: LessonModuleKey[] = [

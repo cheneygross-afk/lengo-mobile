@@ -30,6 +30,7 @@ import type {
   TranslateExercise,
   WordOrderExercise,
 } from "../types";
+import type { LayerSpec, LevelSpec } from "../../curriculum/spec";
 
 export type ZhLevel = "ZH-Pinyin" | "ZH-A1";
 
@@ -174,6 +175,32 @@ export function lesson(
   if (extra.format) l.format = extra.format;
   l.source = extra.source ?? "authored";
   return l;
+}
+
+/**
+ * A reinforce or drill lesson drafted from its spec (specs.ts): kind,
+ * format and concepts come from the spec, so the draft can't drift from
+ * it. `spec` is the slug, looked up in the level's spec.
+ */
+export function layer(
+  level: LevelSpec,
+  slug: string,
+  title: string,
+  summary: string,
+  duration: string,
+  sections: LessonSection[],
+  exercises: Exercise[],
+  extra: Pick<LessonTags, "previews"> = {}
+): Lesson {
+  const spec: LayerSpec | undefined = level.layers.find((s) => s.slug === slug);
+  if (!spec) throw new Error(`layer "${slug}" has no spec in ${level.code}`);
+  return lesson(level.level as ZhLevel, slug, title, summary, duration, sections, exercises, {
+    kind: spec.kind,
+    reviews: spec.reviews,
+    format: spec.format,
+    source: `generated:${spec.slug}`,
+    ...extra,
+  });
 }
 
 /** Curriculum tags for a lesson (see concepts.ts). Concept ids may omit

@@ -6,7 +6,7 @@
 // answer visible, hedging, level leaks) plus the Chinese checker's.
 
 import type { Exercise } from "../lessons/types";
-import { allowedAt, buildGraph, checkGraph, type ConceptGraph } from "./graph";
+import { allowedAt, buildGraph, checkGraph, taughtThrough, type ConceptGraph } from "./graph";
 import { exerciseTexts, lessonItems, lessonTexts, promptText } from "./items";
 import type { Concept, CourseModule, CoursePlugin, Finding } from "./types";
 
@@ -19,7 +19,10 @@ export type ValidateOptions = {
 
 // Text an author left behind while correcting themselves -- never shown
 // to a learner. Kept narrow so real content ("No, I'm not") passes.
-const HEDGING = /(?:^|\s)-- no,|keep it simple|\bHmm\b|\bwait:|mejor aún|\bno, better\b|\bI mean\b|\buse: /i;
+// "-- no," is matched in lower case only: an example's meaning can
+// legitimately start "-- No, ...".
+const HEDGING_CASED = /(?:^|\s)-- no,/;
+const HEDGING = /keep it simple|\bHmm\b|\bwait:|mejor aún|\bno, better\b|\bI mean\b|\buse: /i;
 
 function structural(e: Exercise, where: string): string[] {
   const out: string[] = [];
@@ -90,7 +93,11 @@ export function validateCourse(
       for (const p of plugin.lessonChecks?.(l) ?? []) err(l.slug, p);
 
       // Hedging / self-correction anywhere in the lesson.
-      for (const t of lessonTexts(l)) if (HEDGING.test(t)) err(l.slug, `self-correction left in text: "${t.slice(0, 80)}"`);
+      for (const t of lessonTexts(l)) if (HEDGING.test(t) || HEDGING_CASED.test(t)) err(l.slug, `self-correction left in text: "${t.slice(0, 80)}"`);
+
+      // Previews of something already taught are noise (and hide nothing).
+      const taughtSoFar = taughtThrough(graph, l.slug);
+      for (const c of l.previews ?? []) if (taughtSoFar.has(c)) warn(l.slug, `previews ${c}, which is already taught`);
 
       // Concept leaks: target-language forms of concepts not yet taught.
       const allowed = allowedAt(graph, l);

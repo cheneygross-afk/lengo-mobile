@@ -123,6 +123,10 @@ export type ExerciseMeta = {
   skill?: "grammar" | "vocabulary" | "reading" | "listening" | "speaking" | "writing" | "pronunciation" | "characters";
   // 1 recognise, 2 produce with support, 3 produce, 4 use in context.
   difficulty?: 1 | 2 | 3 | 4;
+  // Set on a copy placed in a generated review or test: the id of the
+  // item it was copied from ("zh-greetings#3"), so a learner's answer is
+  // credited to the original item and its concepts.
+  from?: string;
 };
 
 export type Exercise = (
@@ -203,6 +207,8 @@ export type Lesson = {
   previews?: string[];
   // The named format of a reinforce/drill/review lesson ("Pattern practice").
   format?: string;
-  // "authored", or "generated:<spec id>" for lessons built from a spec.
+  // "authored"; "generated:<spec id>" for a lesson drafted from a spec;
+  // "assembled:<kind>" for one built from the item bank at build time
+  // (spaced reviews, unit reviews, level tests -- src/lib/curriculum/assemble.ts).
   source?: string;
 };
