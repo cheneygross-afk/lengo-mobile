@@ -113,7 +113,19 @@ export type WriteExercise = {
   explanation: string;
 };
 
-export type Exercise =
+// Optional curriculum tags on an exercise (see src/lib/curriculum and
+// docs/curriculum-architecture.md). Everything here can also be derived
+// -- concepts from the lesson's own tags, skill and difficulty from the
+// exercise type -- so it's only written where the derived value is wrong.
+export type ExerciseMeta = {
+  // Concept ids the question tests (one or more).
+  concepts?: string[];
+  skill?: "grammar" | "vocabulary" | "reading" | "listening" | "speaking" | "writing" | "pronunciation" | "characters";
+  // 1 recognise, 2 produce with support, 3 produce, 4 use in context.
+  difficulty?: 1 | 2 | 3 | 4;
+};
+
+export type Exercise = (
   | MultipleChoiceExercise
   | MultiSelectExercise
   | FillBlankExercise
@@ -123,7 +135,12 @@ export type Exercise =
   | ListenChooseExercise
   | DictationExercise
   | SpeakExercise
-  | WriteExercise;
+  | WriteExercise
+) & { meta?: ExerciseMeta };
+
+// What a lesson is for in its level's rhythm (teach, then reinforce and
+// drill, with spaced review lessons later). See docs/curriculum-architecture.md.
+export type LessonKind = "teach" | "reinforce" | "drill" | "review" | "unit-review" | "level-test" | "skills";
 
 export type LessonExample = { es: string; en?: string };
 
@@ -175,4 +192,17 @@ export type Lesson = {
   sections: LessonSection[];
   // The longer, mixed-format review at the end of the lesson.
   exercises: Exercise[];
+  // ---- Curriculum tags (optional; see src/lib/curriculum) ----
+  kind?: LessonKind;
+  // Concept ids this lesson introduces (teach lessons).
+  teaches?: string[];
+  // Concept ids this lesson practises or reviews (every other kind).
+  reviews?: string[];
+  // Concepts used here as fixed phrases before they're taught (e.g. 很 in
+  // 认识你很高兴 before adjective sentences) -- allowed by the leak check.
+  previews?: string[];
+  // The named format of a reinforce/drill/review lesson ("Pattern practice").
+  format?: string;
+  // "authored", or "generated:<spec id>" for lessons built from a spec.
+  source?: string;
 };

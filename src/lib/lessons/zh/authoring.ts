@@ -163,11 +163,33 @@ export function lesson(
   duration: string,
   sections: LessonSection[],
   exercises: Exercise[],
-  extra: { optional?: boolean } = {}
+  extra: LessonTags = {}
 ): Lesson {
   const l: Lesson = { slug, level, number: 0, title, summary, duration, sections, exercises };
   if (extra.optional) l.optional = true;
+  l.kind = extra.kind ?? (extra.teaches?.length ? "teach" : "review");
+  if (extra.teaches?.length) l.teaches = extra.teaches.map(conceptId);
+  if (extra.reviews?.length) l.reviews = extra.reviews.map(conceptId);
+  if (extra.previews?.length) l.previews = extra.previews.map(conceptId);
+  if (extra.format) l.format = extra.format;
+  l.source = extra.source ?? "authored";
   return l;
+}
+
+/** Curriculum tags for a lesson (see concepts.ts). Concept ids may omit
+ * the "zh." prefix: "grammar.shi" means "zh.grammar.shi". */
+export type LessonTags = {
+  optional?: boolean;
+  kind?: Lesson["kind"];
+  teaches?: string[];
+  reviews?: string[];
+  previews?: string[];
+  format?: string;
+  source?: string;
+};
+
+export function conceptId(id: string): string {
+  return id.startsWith("zh.") ? id : `zh.${id}`;
 }
 
 /** Numbers a module's lessons 1..n in order. */

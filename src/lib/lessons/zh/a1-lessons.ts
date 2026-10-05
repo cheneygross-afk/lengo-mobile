@@ -76,7 +76,8 @@ export const ZH_A1_LESSONS = numbered([
       toZh("Thank you!", "谢谢", "xièxie", "谢谢 (xièxie): the second syllable is neutral."),
       listen("没关系", "What did you hear?", ["méi guānxi -- never mind", "duìbuqǐ -- sorry", "bú kèqi -- you're welcome", "zàijiàn -- goodbye"], 0, "没关系 (méi guānxi) is the reply to an apology."),
       say("你好！谢谢！再见！", "nǐ hǎo! xièxie! zàijiàn!", "Remember: nǐ hǎo is said ní hǎo."),
-    ]
+    ],
+    { teaches: ["function.greetings", "function.thanks-apologies", "grammar.qing"], previews: ["grammar.ma-questions"] }
   ),
 
   lesson(
@@ -133,7 +134,8 @@ export const ZH_A1_LESSONS = numbered([
         "Words for names and titles."
       ),
       say("你好，我叫...。认识你很高兴。", "Introduce yourself: \"Hello, my name is... Nice to meet you.\"", "Put your own name after 我叫.", "Introduce yourself in Chinese."),
-    ]
+    ],
+    { teaches: ["function.names", "grammar.question-word-in-place"], previews: ["grammar.ye-dou", "grammar.adjective-predicates"] }
   ),
 
   lesson(
@@ -191,7 +193,8 @@ export const ZH_A1_LESSONS = numbered([
       mc("What does 你是哪国人？ ask?", ["What nationality are you?", "Where do you live?", "What's your name?", "Are you a student?"], 0, "哪国人: \"which-country person.\""),
       ms("Which sentences are correct Chinese? (Choose all that apply.)", ["我是学生。", "她不是老师。", "我是一个学生是。", "他们是美国人。"], [0, 1, 3], "是 links subject and noun once; nothing goes after the noun."),
       listen("我是学生。", "What did you hear?", ["I'm a student.", "I'm a teacher.", "I'm a doctor.", "I'm Chinese."], 0, "学生 (xuésheng): student."),
-    ]
+    ],
+    { teaches: ["grammar.pronouns", "grammar.shi", "grammar.bu-negation", "function.nationality"] }
   ),
 
   lesson(
@@ -239,7 +242,8 @@ export const ZH_A1_LESSONS = numbered([
       toEn("我很好，你呢？", "Wǒ hěn hǎo, nǐ ne?", "I'm fine, and you?", "呢 bounces the question back.", ["I'm good, and you?", "I'm well, and you?", "I'm fine, how about you?", "I'm good, how about you?"]),
       toZh("We are all students.", "我们都是学生", "wǒmen dōu shì xuésheng", "都 before 是."),
       listen("你是中国人吗？", "What's the question?", ["Are you Chinese?", "Is he Chinese?", "Are you a student?", "Which country are you from?"], 0, "你是中国人吗？ -- 吗 makes it a yes/no question."),
-    ]
+    ],
+    { teaches: ["grammar.ma-questions", "grammar.ne-questions", "grammar.ye-dou"], previews: ["grammar.adjective-predicates", "grammar.de-possessive"] }
   ),
 
   lesson(
@@ -285,7 +289,8 @@ export const ZH_A1_LESSONS = numbered([
       listen("八十八", "Which number did you hear?", ["88", "18", "80", "8"], 0, "八十八 (bāshíbā): 88, a lucky number in China."),
       listen("四十四", "Which number did you hear?", ["44", "14", "40", "10"], 0, "四十四 (sìshísì): 44."),
       say("一二三四五六七八九十", "Count from one to ten.", "Watch the tones: yī èr sān sì wǔ liù qī bā jiǔ shí."),
-    ]
+    ],
+    { teaches: ["vocab.numbers-0-99", "grammar.ji"] }
   ),
 
   lesson(
@@ -331,7 +336,8 @@ export const ZH_A1_LESSONS = numbered([
       toEn("这个多少钱？", "Zhège duōshao qián?", "How much is this?", "多少钱: how much money.", ["How much does this cost?", "How much is this one?"]),
       listen("三块五", "How much?", ["3.50 yuan", "35 yuan", "5.30 yuan", "350 yuan"], 0, "三块五: three 块 and five 毛 = 3.50."),
       say("这个多少钱？太贵了！", "\"How much is this? Too expensive!\"", "tài guì le -- stress the falling tones."),
-    ]
+    ],
+    { teaches: ["vocab.numbers-large", "grammar.er-liang", "function.money", "grammar.duoshao"], previews: ["grammar.tai-le", "grammar.le-completed", "grammar.ba-suggestion", "grammar.demonstratives", "grammar.measure-words"] }
   ),
 
   lesson(
@@ -378,7 +384,8 @@ export const ZH_A1_LESSONS = numbered([
       toEn("那是什么？", "Nà shì shénme?", "What is that?", "那 that, 什么 what.", ["What's that?"]),
       toZh("this book", "这本书", "zhè běn shū", "这 + 本 + 书."),
       listen("两杯水", "What did you hear?", ["two glasses of water", "two books", "two people", "twelve cups"], 0, "两杯水 (liǎng bēi shuǐ)."),
-    ]
+    ],
+    { teaches: ["grammar.measure-words", "grammar.demonstratives"], previews: ["grammar.de-possessive", "grammar.you-meiyou", "grammar.xiang-yao"] }
   ),
 
   lesson(
@@ -426,7 +433,8 @@ export const ZH_A1_LESSONS = numbered([
       toEn("我有一个女儿。", "Wǒ yǒu yí ge nǚ'ér.", "I have a daughter.", "女儿 (nǚ'ér): daughter.", ["I have one daughter."]),
       toZh("Dad and Mom", "爸爸和妈妈", "bàba hé māma", "和 joins two nouns.", ["爸爸妈妈"]),
       listen("我家有三口人。", "How many people are in the family?", ["Three", "Four", "Five", "Two"], 0, "三口人: three people."),
-    ]
+    ],
+    { teaches: ["vocab.family", "grammar.you-meiyou", "grammar.he-and"] }
   ),
 
   lesson(
@@ -473,7 +481,8 @@ export const ZH_A1_LESSONS = numbered([
       toZh("my friend's phone", "我朋友的手机", "wǒ péngyou de shǒujī", "Owner (我朋友) + 的 + thing."),
       mt("Match the phrases.", [["我们学校", "our school"], ["他哥哥", "his older brother"], ["你的书", "your book"], ["她的", "hers"]], "的 shows possession; it's dropped with close relationships."),
       listen("这是我的。", "What did you hear?", ["This is mine.", "This is me.", "That is mine.", "Is this mine?"], 0, "这是我的: this is mine."),
-    ]
+    ],
+    { teaches: ["grammar.de-possessive", "grammar.shei"] }
   ),
 
   lesson(
@@ -520,7 +529,8 @@ export const ZH_A1_LESSONS = numbered([
       toEn("太好了！", "Tài hǎo le!", "Great!", "太好了 literally \"too good\" -- an exclamation of delight.", ["That's great!", "Excellent!", "Wonderful!", "Too good!"]),
       toZh("I'm very happy.", "我很高兴", "wǒ hěn gāoxìng", "Subject + 很 + adjective.", ["我非常高兴"]),
       listen("你忙不忙？", "What's the question?", ["Are you busy?", "Are you tired?", "Are you happy?", "Are you cold?"], 0, "忙不忙: busy or not busy?"),
-    ]
+    ],
+    { teaches: ["grammar.adjective-predicates", "grammar.tai-le", "grammar.a-not-a"], previews: ["grammar.le-completed"] }
   ),
 
   lesson(
@@ -569,7 +579,8 @@ export const ZH_A1_LESSONS = numbered([
       toEn("明天星期六。", "Míngtiān xīngqīliù.", "Tomorrow is Saturday.", "Dates and weekdays often need no 是.", ["Tomorrow's Saturday."]),
       toZh("today", "今天", "jīntiān", "今天 (jīntiān)."),
       listen("今天十月一号。", "What's the date?", ["October 1", "January 10", "October 10", "November 1"], 0, "十月一号: October 1 -- China's National Day."),
-    ]
+    ],
+    { teaches: ["vocab.dates", "grammar.time-before-verb"] }
   ),
 
   lesson(
@@ -617,7 +628,8 @@ export const ZH_A1_LESSONS = numbered([
       mt("Match the parts of the day.", [["上午", "morning (before noon)"], ["中午", "noon"], ["下午", "afternoon"], ["晚上", "evening"]], "Parts of the day go before the clock time."),
       toEn("我十点睡觉。", "Wǒ shí diǎn shuì jiào.", "I go to bed at ten.", "睡觉 (shuì jiào): to sleep, go to bed.", ["I sleep at ten.", "I go to sleep at ten.", "I go to bed at 10.", "I sleep at 10."]),
       say("现在几点？现在九点十分。", "\"What time is it? It's 9:10.\"", "jiǔ diǎn: two third tones, so jiú diǎn."),
-    ]
+    ],
+    { teaches: ["vocab.clock-time"] }
   ),
 
   lesson(
@@ -664,7 +676,8 @@ export const ZH_A1_LESSONS = numbered([
       toEn("我住在北京。", "Wǒ zhù zài Běijīng.", "I live in Beijing.", "住在: to live in.", []),
       toZh("Where is the teacher?", "老师在哪儿", "lǎoshī zài nǎr", "Question word in place: 老师在哪儿？", ["老师在哪里"]),
       listen("她在饭店。", "Where is she?", ["At a restaurant", "At school", "At home", "At the hospital"], 0, "饭店 (fàndiàn): restaurant."),
-    ]
+    ],
+    { teaches: ["grammar.zai-location", "grammar.nar-where", "grammar.zai-place-verb"] }
   ),
 
   lesson(
@@ -711,7 +724,8 @@ export const ZH_A1_LESSONS = numbered([
       toEn("家里没有人。", "Jiā li méiyǒu rén.", "There's nobody at home.", "Place + 没有 + thing: there isn't.", ["There is nobody at home.", "Nobody is home.", "No one is at home.", "There's no one at home.", "Nobody is at home."]),
       toZh("next to the hospital", "医院旁边", "yīyuàn pángbiān", "Noun + 旁边."),
       listen("猫在桌子下。", "Where's the cat?", ["Under the table", "On the table", "Next to the table", "In the bag"], 0, "桌子下: under the table."),
-    ]
+    ],
+    { teaches: ["grammar.position-words", "grammar.you-existence"] }
   ),
 
   lesson(
@@ -751,7 +765,8 @@ export const ZH_A1_LESSONS = numbered([
       toEn("你的中文怎么样？", "Nǐ de Zhōngwén zěnmeyàng?", "How is your Chinese?", "怎么样: how is it?", ["How's your Chinese?"]),
       toZh("What are you drinking?", "你喝什么", "nǐ hē shénme", "Object slot → 什么."),
       listen("你什么时候来？", "What's the question?", ["When are you coming?", "Where are you going?", "Who is coming?", "How are you coming?"], 0, "什么时候: when."),
-    ]
+    ],
+    { teaches: ["grammar.question-words"] }
   ),
 
   lesson(
@@ -792,7 +807,8 @@ export const ZH_A1_LESSONS = numbered([
       toZh("The bill, please!", "买单", "mǎi dān", "买单 (mǎi dān): to pay the bill.", ["结账"]),
       listen("服务员，来一杯茶。", "What is being ordered?", ["A cup of tea", "A bowl of rice", "A coffee", "Two cups of tea"], 0, "来一杯茶: bring a cup of tea."),
       say("服务员！我要一碗面条和一杯茶。", "Order noodles and tea.", "fúwùyuán: three rising-level syllables; say it clearly to be heard.", "Call the waiter and order a bowl of noodles and a cup of tea."),
-    ]
+    ],
+    { teaches: ["grammar.xiang-yao", "function.ordering-food"], previews: ["grammar.gei-for"] }
   ),
 
   lesson(
@@ -831,7 +847,8 @@ export const ZH_A1_LESSONS = numbered([
       toEn("我不会开车。", "Wǒ bú huì kāi chē.", "I can't drive.", "不会: never learned how.", ["I cannot drive.", "I don't know how to drive."]),
       toZh("I can speak Chinese.", "我会说中文", "wǒ huì shuō Zhōngwén", "会 for a language skill.", ["我会说汉语", "我会讲中文"]),
       listen("我会说一点儿中文。", "What did they say?", ["I can speak a little Chinese.", "I can't speak Chinese.", "I'd like to speak Chinese.", "I'm studying Chinese."], 0, "一点儿 (yìdiǎnr): a little."),
-    ]
+    ],
+    { teaches: ["grammar.hui-neng"], previews: ["grammar.le-completed"] }
   ),
 
   lesson(
@@ -879,7 +896,8 @@ export const ZH_A1_LESSONS = numbered([
       toEn("他走了。", "Tā zǒu le.", "He's left.", "走了: has left.", ["He has left.", "He left.", "He's gone.", "He has gone."]),
       toZh("I didn't go.", "我没去", "wǒ méi qù", "没 + verb, no 了.", ["我没有去"]),
       listen("我昨天没去学校。", "What happened?", ["They didn't go to school yesterday.", "They went to school yesterday.", "They're going to school tomorrow.", "They don't go to school."], 0, "没去: didn't go."),
-    ]
+    ],
+    { teaches: ["grammar.le-completed", "grammar.mei-past", "grammar.hai-mei"] }
   ),
 
   lesson(
@@ -918,7 +936,8 @@ export const ZH_A1_LESSONS = numbered([
       toEn("你来我家吧。", "Nǐ lái wǒ jiā ba.", "Come to my house.", "吧 softens the suggestion.", ["Come to my place.", "Come over to my house.", "Come over to my place.", "Why don't you come to my house?"]),
       toZh("I'm going home.", "我回家", "wǒ huí jiā", "回家: return home.", ["我要回家", "我回家了"]),
       listen("我走路去学校。", "How do they get to school?", ["On foot", "By bus", "By taxi", "By subway"], 0, "走路: walk."),
-    ]
+    ],
+    { teaches: ["grammar.transport", "grammar.ba-suggestion"] }
   ),
 
   lesson(
@@ -964,7 +983,8 @@ export const ZH_A1_LESSONS = numbered([
       toEn("我很喜欢中国菜。", "Wǒ hěn xǐhuan Zhōngguó cài.", "I really like Chinese food.", "很喜欢: really like.", ["I like Chinese food a lot.", "I like Chinese food very much.", "I love Chinese food."]),
       toZh("It's very cold today.", "今天很冷", "jīntiān hěn lěng", "Time + 很 + adjective.", ["今天非常冷", "今天天气很冷"]),
       listen("今天很热。", "What's the weather like?", ["Hot", "Cold", "Raining", "Snowing"], 0, "热 (rè): hot."),
-    ]
+    ],
+    { teaches: ["vocab.weather", "grammar.xihuan", "grammar.le-new-situation"] }
   ),
 
   lesson(
@@ -997,6 +1017,7 @@ export const ZH_A1_LESSONS = numbered([
       toZh("There's a book on the table.", "桌子上有一本书", "zhuōzi shang yǒu yì běn shū", "Place + 有 + new thing."),
       listen("我今天不能来。", "What did they say?", ["I can't come today.", "I don't want to come today.", "I came today.", "I can come today."], 0, "不能: can't (circumstances)."),
       say("你好！我叫...。我是...人。我会说一点儿中文。", "Introduce yourself: name, nationality, and that you speak a little Chinese.", "Use 一点儿 (yìdiǎnr) for \"a little.\"", "Introduce yourself in Chinese."),
-    ]
+    ],
+    { reviews: ["function.names", "grammar.shi", "grammar.you-meiyou", "grammar.measure-words", "grammar.zai-place-verb", "grammar.xiang-yao", "grammar.hui-neng", "grammar.le-completed", "grammar.mei-past", "grammar.question-words", "grammar.you-existence", "function.money"] }
   ),
 ]);

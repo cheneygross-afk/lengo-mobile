@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Copies lesson, story, reading, grammar-guide, placement-test, conjugation, glossary and deck content from the website repo
+// Copies lesson, story, curriculum-engine, reading, grammar-guide, placement-test, conjugation, glossary and deck content from the website repo
 // (cheneygross-afk/lengo) into this app, so the two can't drift apart.
 // The website is the single source of truth for course content: edit a
 // lesson there, then run this script (or let the website's "Sync content
@@ -34,6 +34,9 @@ const DIRS = {
   // The Chinese (Mandarin) beta: a self-contained package (see its
   // README.md on the website). Only the .ts files are copied.
   "src/lib/lessons/zh": [],
+  // The language-neutral curriculum engine the Chinese checker runs on
+  // (concept graph, item bank, validator; pure code).
+  "src/lib/curriculum": [],
   "src/lib/stories": [],
   "src/lib/readings": [],
   "src/lib/grammar": [],
@@ -73,6 +76,7 @@ function verify() {
     if (!fs.existsSync(path.join(ROOT, dir))) continue;
     for (const name of fs.readdirSync(path.join(ROOT, dir))) {
       const rel = `${dir}/${name}`;
+      if (!fs.statSync(path.join(ROOT, rel)).isFile()) continue; // e.g. lessons/zh, checked on its own
       const text = fs.readFileSync(path.join(ROOT, rel), "utf8");
       if (text.startsWith(HEADER_PREFIX) && !(rel in manifest.files)) problems.push(`${rel} is not in src/content-sync.json`);
     }

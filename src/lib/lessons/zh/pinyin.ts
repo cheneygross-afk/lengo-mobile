@@ -91,3 +91,37 @@ export function gradeChineseAnswer(value: string, answers: string[]): ZhGradeRes
   if (toneless) return { correct: true, note: `Correct -- now add the tones: "${toneless}".` };
   return { correct: false };
 }
+
+// A tone mark must sit on the right vowel: on a or e if present, on o in
+// "ou", otherwise on the last vowel (iu -> u, ui -> i).
+const TONED_VOWEL = /[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]/;
+const PLAIN: Record<string, string> = {
+  ā: "a", á: "a", ǎ: "a", à: "a", ē: "e", é: "e", ě: "e", è: "e", ī: "i", í: "i", ǐ: "i", ì: "i",
+  ō: "o", ó: "o", ǒ: "o", ò: "o", ū: "u", ú: "u", ǔ: "u", ù: "u", ǖ: "ü", ǘ: "ü", ǚ: "ü", ǜ: "ü",
+};
+
+/** Problems with tone-mark placement in a pinyin string ("" if none). */
+export function pinyinMarkProblems(pinyin: string): string[] {
+  const problems: string[] = [];
+  // Split into vowel clusters; each cluster is one syllable's nucleus.
+  for (const m of pinyin.toLowerCase().matchAll(/[aeiouüāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]+/g)) {
+    const cluster = m[0];
+    const marks = [...cluster].filter((c) => TONED_VOWEL.test(c));
+    if (marks.length > 1) {
+      // Two syllables can share a cluster only across an apostrophe-less
+      // boundary we can't see here; flag so a human looks.
+      problems.push(`"${cluster}" has ${marks.length} tone marks in one vowel run`);
+      continue;
+    }
+    if (marks.length === 0) continue;
+    const plain = [...cluster].map((c) => PLAIN[c] ?? c).join("");
+    const markedAt = [...cluster].findIndex((c) => TONED_VOWEL.test(c));
+    let expected: number;
+    if (plain.includes("a")) expected = plain.indexOf("a");
+    else if (plain.includes("e")) expected = plain.indexOf("e");
+    else if (plain.includes("ou")) expected = plain.indexOf("o");
+    else expected = plain.length - 1;
+    if (markedAt !== expected) problems.push(`tone mark misplaced in "${cluster}"`);
+  }
+  return problems;
+}

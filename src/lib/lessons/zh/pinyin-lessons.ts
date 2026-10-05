@@ -4,7 +4,7 @@
 // lesson uses to show pronunciation. A handful of first characters come
 // along for the ride. See README.md for conventions.
 
-import { ex, fb, lesson, listen, mc, ms, mt, numbered, say, sec, wo, zh } from "./authoring";
+import { ex, fb, lesson, listen, mc, ms, mt, numbered, say, sec, wo } from "./authoring";
 
 const P = "ZH-Pinyin" as const;
 
@@ -84,7 +84,8 @@ export const ZH_PINYIN_LESSONS = numbered([
       mc("Why do tones matter so much in Mandarin?", ["Words that differ only in tone are different words", "They only show emotion", "They're optional decoration", "They show whether a word is a noun or a verb"], 0, "mā (mom) and mà (to scold) differ only in tone, and they're different words."),
       mc("Which writing standard does this course use?", ["Simplified characters", "Traditional characters", "Pinyin only, no characters", "Japanese kanji"], 0, "Simplified characters, as used in mainland China and Singapore."),
       say("你好", "你好 (nǐ hǎo) is \"hello.\" You'll learn why it's pronounced ní hǎo in the tone-change lesson.", "Say it smoothly, like one word."),
-    ]
+    ],
+    { teaches: ["sound.syllables"] }
   ),
 
   lesson(
@@ -155,7 +156,8 @@ export const ZH_PINYIN_LESSONS = numbered([
         "Numbers are how you type tones without marks."
       ),
       say("妈 麻 马 骂", "The classic tone drill: mā má mǎ mà.", "Exaggerate each pitch shape at first; natural speech is subtler."),
-    ]
+    ],
+    { teaches: ["sound.tones", "sound.neutral-tone"], previews: ["grammar.ma-questions"] }
   ),
 
   lesson(
@@ -207,7 +209,8 @@ export const ZH_PINYIN_LESSONS = numbered([
         "Eight, one, five, fish."
       ),
       say("女 鱼 绿", "nǚ, yú, lǜ -- three ü sounds.", "Keep your lips rounded the whole time."),
-    ]
+    ],
+    { teaches: ["sound.simple-finals"] }
   ),
 
   lesson(
@@ -257,7 +260,8 @@ export const ZH_PINYIN_LESSONS = numbered([
       fb("Type the pinyin (marks or numbers).", "\"big\" 大: ___", "dà", null, "大 is dà (da4): unaspirated d, falling tone."),
       fb("Type the pinyin (marks or numbers).", "\"cat\" 猫: ___", "māo", null, "猫 is māo (mao1)."),
       say("爸爸 怕 他", "bàba, pà, tā -- feel the difference between no puff and puff.", "Hold your hand in front of your mouth."),
-    ]
+    ],
+    { teaches: ["sound.aspiration"] }
   ),
 
   lesson(
@@ -307,7 +311,8 @@ export const ZH_PINYIN_LESSONS = numbered([
       fb("Type the pinyin (marks or numbers).", "\"home\" 家: ___", "jiā", null, "家 is jiā (jia1)."),
       ms("Which are aspirated (with a puff)? (Choose all that apply.)", ["k", "q", "g", "j"], [0, 1], "k and q carry the puff; g and j don't."),
       say("谢谢 去 家", "xièxie, qù, jiā.", "Smile while saying j, q, x -- it keeps the tongue in the right place."),
-    ]
+    ],
+    { teaches: ["sound.palatals"] }
   ),
 
   lesson(
@@ -365,7 +370,8 @@ export const ZH_PINYIN_LESSONS = numbered([
       fb("Type the pinyin (marks or numbers).", "\"ten\" 十: ___", "shí", null, "十 is shí (shi2)."),
       mc("四 (sì) and 十 (shí) are often confused. What separates them?", ["Tongue position (s vs sh) and tone", "Only the tone", "Only the vowel", "Nothing -- they sound the same"], 0, "s vs sh (tongue behind teeth vs curled back), and fourth vs second tone."),
       say("四是四，十是十", "sì shì sì, shí shì shí -- \"four is four, ten is ten,\" the start of a famous tongue twister.", "Go slowly: tongue forward for s, curled back for sh."),
-    ]
+    ],
+    { teaches: ["sound.retroflex"], previews: ["grammar.zai-location"] }
   ),
 
   lesson(
@@ -411,7 +417,8 @@ export const ZH_PINYIN_LESSONS = numbered([
       fb("Type the pinyin (marks or numbers).", "\"to come\" 来: ___", "lái", null, "来 is lái (lai2)."),
       fb("Type the pinyin (marks or numbers).", "\"middle\" 中: ___", "zhōng", null, "中 is zhōng (zhong1)."),
       say("山上 星星", "shān shàng, xīngxing -- \"on the mountain,\" \"stars.\"", "Feel the tongue move from front (-n) to back (-ng)."),
-    ]
+    ],
+    { teaches: ["sound.compound-finals"] }
   ),
 
   lesson(
@@ -463,7 +470,8 @@ export const ZH_PINYIN_LESSONS = numbered([
       fb("Type the pinyin (marks or numbers).", "\"six\" 六: ___", "liù", null, "六 is liù (liu4)."),
       fb("Type the pinyin (marks or numbers).", "\"moon; month\" 月: ___", "yuè", null, "月 is yuè (yue4): ü with no initial is written yu."),
       say("我学中文", "wǒ xué Zhōngwén -- \"I study Chinese.\"", "xué: round your lips for the ü."),
-    ]
+    ],
+    { teaches: ["sound.medials"], previews: ["grammar.ye-dou", "grammar.you-meiyou", "grammar.xiang-yao"] }
   ),
 
   lesson(
@@ -499,7 +507,8 @@ export const ZH_PINYIN_LESSONS = numbered([
       mc("In 好吃 (hǎochī, tasty), how is hǎo usually said?", ["Low, without rising back up", "Rising, like a second tone", "Falling", "High and level"], 0, "Before a non-third tone, a third tone is a low \"half-third.\""),
       mc("Which pair is pronounced with a rising tone on the first syllable?", ["水果 shuǐguǒ (fruit)", "喝水 hē shuǐ", "水杯 shuǐbēi", "大米 dàmǐ"], 0, "shuǐguǒ is third + third, so it's said shuíguǒ."),
       say("你好！很好。", "nǐ hǎo! hěn hǎo. -- \"Hello! Very good.\"", "Say ní hǎo, hén hǎo."),
-    ]
+    ],
+    { teaches: ["sound.third-tone-sandhi"], previews: ["grammar.adjective-predicates"] }
   ),
 
   lesson(
@@ -547,7 +556,8 @@ export const ZH_PINYIN_LESSONS = numbered([
       ms("In which of these is 一 said with the second tone (yí)? (Choose all that apply.)", ["一个", "一样", "一天", "第一"], [0, 1], "Before a fourth tone (gè, yàng) 一 becomes yí."),
       listen("不客气", "What did you hear?", ["bú kèqi -- you're welcome", "bù hǎo -- not good", "bú shì -- isn't", "yí ge -- one"], 0, "不客气 (bú kèqi): the polite reply to thanks."),
       say("不是，不对。", "bú shì, bú duì -- \"No, that's not right.\"", "Both 不 rise before the falling shì and duì."),
-    ]
+    ],
+    { teaches: ["sound.bu-yi-sandhi"], previews: ["grammar.measure-words"] }
   ),
 
   lesson(
@@ -601,7 +611,8 @@ export const ZH_PINYIN_LESSONS = numbered([
       ms("Which are written with a capital letter in pinyin? (Choose all that apply.)", ["Běijīng (Beijing)", "Zhōngguó (China)", "péngyou (friend)", "hǎo (good)"], [0, 1], "Place names and personal names are capitalised."),
       fb("Type the pinyin (marks or numbers).", "\"friend\" 朋友: ___", "péngyou", null, "朋友 is péngyou (peng2 you5): the second syllable is neutral."),
       say("你在哪儿？", "Nǐ zài nǎr? -- \"Where are you?\"", "Add the -r smoothly to the end of nǎ."),
-    ]
+    ],
+    { teaches: ["sound.pinyin-spelling"], previews: ["grammar.zai-location", "grammar.nar-where"] }
   ),
 
   lesson(
@@ -653,7 +664,8 @@ export const ZH_PINYIN_LESSONS = numbered([
       ),
       ms("Which statements about learning characters are true? (Choose all that apply.)", ["Reading them comes faster than handwriting them", "Learning them inside words helps", "You must handwrite every character to learn Chinese", "Each character has a fixed stroke order"], [0, 1, 3], "Handwriting helps memory but isn't required to read and type Chinese."),
       wo(["我", "学", "汉字"], "I study Chinese characters.", "Subject, verb, object -- the same order as English: 我学汉字 (wǒ xué hànzì)."),
-    ]
+    ],
+    { teaches: ["character.basics"], previews: ["grammar.ma-questions"] }
   ),
 
   lesson(
@@ -676,7 +688,7 @@ export const ZH_PINYIN_LESSONS = numbered([
     ],
     [
       listen("七", "Which did you hear?", ["qī -- seven", "chī -- to eat", "xī -- west", "jī -- chicken"], 0, "Spread lips, puff of air: 七 (qī)."),
-      listen("四", "Which did you hear?", ["sì -- four", "shí -- ten", "xì", "zì"], 0, "Tongue behind the teeth, falling tone: 四 (sì)."),
+      listen("热", "Which did you hear?", ["rè -- hot", "lè", "yè", "zè"], 0, "Curled tongue with a buzz, falling tone: 热 (rè), hot."),
       listen("女", "Which did you hear?", ["nǚ -- woman", "nǐ -- you", "nǔ", "lǜ -- green"], 0, "Rounded \"ee\" with a dipping tone: 女 (nǚ)."),
       mc("How is 不对 (incorrect) pronounced?", ["bú duì", "bù duì", "bū duì", "bǔ duì"], 0, "不 rises before the fourth-tone duì."),
       mc("How is 可以 (kěyǐ) pronounced?", ["kéyǐ", "kěyǐ with two dips", "kēyǐ", "kèyǐ"], 0, "Third + third: the first rises."),
@@ -694,6 +706,7 @@ export const ZH_PINYIN_LESSONS = numbered([
       fb("Type the pinyin (marks or numbers).", "\"thank you\" 谢谢: ___", "xièxie", null, "谢谢 is xièxie (xie4 xie5)."),
       fb("Type the pinyin (marks or numbers).", "\"good\" 好: ___", "hǎo", null, "好 is hǎo (hao3)."),
       say("你好！谢谢！不客气！", "nǐ hǎo! xièxie! bú kèqi! -- \"Hello! Thank you! You're welcome!\"", "ní hǎo, xièxie, bú kèqi."),
-    ]
+    ],
+    { reviews: ["sound.tones", "sound.aspiration", "sound.palatals", "sound.retroflex", "sound.simple-finals", "sound.medials", "sound.third-tone-sandhi", "sound.bu-yi-sandhi"] }
   ),
 ]);
