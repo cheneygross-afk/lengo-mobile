@@ -10,8 +10,10 @@
 // EXPO_PUBLIC_UNIFIED_REVIEW=1 or this device has opted in).
 import type { Exercise, Lesson } from "@/lib/lessons/types";
 import { readJSON, writeJSON } from "@/lib/storage/asyncStore";
+import { courseOfLevelPath } from "@/lib/courses";
 import {
   attemptsFromLegacy,
+  conceptCourse,
   dueConcepts,
   gradeFromCorrect,
   masteryFromAttempts,
@@ -193,8 +195,10 @@ export async function syncAttempts(): Promise<void> {
   await writeJSON(SYNCED_KEY, Date.now());
 }
 
-export async function getDueConcepts(now: number = Date.now()): Promise<DueConcept[]> {
-  return dueConcepts(masteryFromAttempts(await loadAttempts()), now);
+/** Due concepts for one course only ("es", "zh"): the Spanish and Chinese
+ * reviews never mix. */
+export async function getDueConcepts(course: string, now: number = Date.now()): Promise<DueConcept[]> {
+  return dueConcepts(masteryFromAttempts(await loadAttempts()), now).filter((d) => conceptCourse(d.concept, courseOfLevelPath) === course);
 }
 
 /** The question bank by concept, built once from the content the app ships. */
@@ -224,14 +228,15 @@ function localBank(): Map<string, ReviewCandidate[]> {
  * Today's unified review, composed on the device (the app ships the
  * lesson content, so no server round trip): due concepts, the learner's
  * own due missed questions first for their concept, bank items for the
- * rest, interleaved. For the flagged review screen.
+ * rest, interleaved -- for one course only (TodayReviewScreen for
+ * Spanish, behind the flag; ChineseReviewScreen for Chinese).
  */
-export async function buildUnifiedReview(now: number = Date.now()): Promise<ReviewCandidate[]> {
-  await migrateLegacyOnce();
-  const due = (await getDueConcepts(now)).slice(0, 40);
+export async function buildUnifiedReview(course: string, now: number = Date.now()): Promise<ReviewCandidate[]> {
+  if (course === "es") await migrateLegacyOnce();
+  const due = (await getDueConcepts(course, now)).slice(0, 40);
   const dueSet = new Set(due.map((d) => d.concept));
   const candidates = new Map<string, ReviewCandidate[]>();
-  for (const lp of SPANISH_TRACKS)
+  for (const lp of course === "es" ? SPANISH_TRACKS : [])
     for (const q of await getMissedQuestions(lp)) {
       if (!isMissedQuestionDue(q, now)) continue;
       const concepts = q.exercise.meta?.concepts ?? [lessonConceptId(lp, q.lessonSlug)];

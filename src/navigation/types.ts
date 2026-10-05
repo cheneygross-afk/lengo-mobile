@@ -33,6 +33,9 @@ export type AppStackParamList = {
   // The Chinese beta's level picker -- see ChineseLevelsScreen. Shown to
   // the same beta testers as Japanese.
   ChineseLevels: undefined;
+  // The Chinese beta's own daily review (per-concept scheduler) -- see
+  // ChineseReviewScreen. Separate from the Spanish TodayReview.
+  ChineseReview: undefined;
   Settings: undefined;
   // First-run setup (starting level + daily goal) -- opened by Home when
   // the account hasn't done it here or on the website.

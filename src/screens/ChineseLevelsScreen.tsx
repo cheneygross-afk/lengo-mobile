@@ -39,6 +39,10 @@ export default function ChineseLevelsScreen({ navigation }: Props) {
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <Text style={styles.subtitle}>Bite-sized, self-paced lessons. Start with pinyin and tones.</Text>
+      <Pressable style={styles.reviewCard} onPress={() => navigation.navigate("ChineseReview")}>
+        <Text style={styles.reviewTitle}>Today&apos;s review →</Text>
+        <Text style={styles.reviewBody}>Topics from finished lessons, back when they&apos;re due.</Text>
+      </Pressable>
       <View style={styles.cards}>
         {MODULES.map((mod) => (
           <Pressable
@@ -66,6 +70,9 @@ const styles = StyleSheet.create({
   content: { padding: 20, paddingBottom: 40 },
   subtitle: { fontSize: 14, color: "#00000099", marginBottom: 20 },
   cards: { gap: 14 },
+  reviewCard: { borderRadius: 14, padding: 16, backgroundColor: "#7A1F1F0F", borderWidth: 1, borderColor: "#7A1F1F33", marginBottom: 16 },
+  reviewTitle: { fontSize: 16, fontWeight: "700", color: "#7A1F1F" },
+  reviewBody: { fontSize: 13, color: "#00000099", marginTop: 2 },
   card: {
     borderWidth: 1,
     borderColor: "#00000018",

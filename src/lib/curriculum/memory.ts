@@ -182,6 +182,17 @@ export function dueConcepts(m: Mastery, now: number): DueConcept[] {
   return out.sort((a, b) => b.overdueDays - a.overdueDays);
 }
 
+/**
+ * Which course a concept id belongs to: "zh.grammar.x" -> "zh";
+ * "lesson:<levelPath>/<slug>" -> its level path's course (`courseOfPath`).
+ * Each course's review only ever sees its own concepts.
+ */
+export function conceptCourse(id: string, courseOfPath: (levelPath: string) => string): string {
+  const m = /^lesson:([^/]+)\//.exec(id);
+  if (m) return courseOfPath(m[1]);
+  return id.split(".")[0];
+}
+
 /** Concepts that keep slipping (3+ lapses): worth sending the learner back to the lesson. */
 export function troubleConcepts(m: Mastery, minLapses = 3): string[] {
   return [...m].filter(([, s]) => s.lapses >= minLapses).map(([c]) => c);

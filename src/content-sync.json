@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "dacee6c19fee68201b0b5227c8f5fabaf7e76378",
+  "commit": "3cafbc3943d286a2f671c1e4b4f6bb2ac107e233",
   "files": {
     "src/lib/lessons/a1-additions.ts": "5e2de5cde5d685adaec5cd4c5c818ed420ecc224d408aeb2bf16fe5ed8321430",
     "src/lib/lessons/a1-core.ts": "bcfb0f62fb1b61bc9ca323f0b9b4680ffd736a7501d56ab5ee0736a854ae4ef8",
@@ -280,7 +280,7 @@
     "src/lib/curriculum/assess.ts": "0a4b83393125870f1b4ad793ac8664fc7d8ade7dfc9c37886909224673abefa4",
     "src/lib/curriculum/graph.ts": "489e8d17e77126e81ff9878578e26a372e463c717f1c1e71aab0f9b6cbe150e6",
     "src/lib/curriculum/items.ts": "205ff1817b0124d8e5a02346da2211a7f9cb54692f560c4265aa090b4665bbad",
-    "src/lib/curriculum/memory.ts": "359632ca5e73ab70fdeb76121bbef142b89c9c2f1e51008174ff0a8ae8d639d2",
+    "src/lib/curriculum/memory.ts": "5fe2bb77d12bcadf17a6fbe0b9ecefa9dcb734bebbfdcc8565157256647ec6cd",
     "src/lib/curriculum/queue.ts": "88d26c9e915706f6ba47f0a882286ee8b3cf119745c827c7975182145919c7fe",
     "src/lib/curriculum/select.ts": "720c55748ba551697fd56270e8530582caf1692dd0798cfafdef0df1ab878c21",
     "src/lib/curriculum/spec.ts": "82096b78728b3d5c29c61a6eabd1cf50da80b06e87a0dfddf4cee0ff0a6e5f4c",

@@ -69,7 +69,7 @@ type Item = {
 async function buildUnifiedQueue(): Promise<Item[]> {
   await syncAttempts().catch(() => null);
   const variety = getSpanishVariety();
-  const picked = await buildUnifiedReview();
+  const picked = await buildUnifiedReview("es");
   return picked
     .filter((c) => !(variety === "latam" && requiresVosotros(c.exercise)))
     .map((c) => {

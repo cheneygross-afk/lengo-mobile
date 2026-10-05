@@ -58,7 +58,7 @@ export async function getTodaysReviewCounts(now: number = Date.now()): Promise<T
   if (await unifiedReviewEnabled()) {
     // The unified review (rollout flag): one queue from the per-concept
     // scheduler, missed questions folded in as lapses (lib/attempts.ts).
-    const due = await getDueConcepts(now);
+    const due = await getDueConcepts("es", now);
     const cards = Object.values(await loadFlashcards()).filter((c) => courseOfLevelPath(c.levelPath) === "es");
     return {
       missed: 0,

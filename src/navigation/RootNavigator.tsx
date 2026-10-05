@@ -10,6 +10,7 @@ import LessonListScreen from "@/screens/LessonListScreen";
 import SpanishLevelsScreen from "@/screens/SpanishLevelsScreen";
 import JapaneseLevelsScreen from "@/screens/JapaneseLevelsScreen";
 import ChineseLevelsScreen from "@/screens/ChineseLevelsScreen";
+import ChineseReviewScreen from "@/screens/ChineseReviewScreen";
 import SettingsScreen from "@/screens/SettingsScreen";
 import OnboardingScreen from "@/screens/OnboardingScreen";
 import LessonRunnerScreen from "@/screens/LessonRunnerScreen";
@@ -61,6 +62,7 @@ function AppNavigator() {
       <AppStack.Screen name="LessonList" component={LessonListScreen} options={{ title: "Lessons" }} />
       <AppStack.Screen name="JapaneseLevels" component={JapaneseLevelsScreen} options={{ title: "Japanese" }} />
       <AppStack.Screen name="ChineseLevels" component={ChineseLevelsScreen} options={{ title: "Chinese" }} />
+      <AppStack.Screen name="ChineseReview" component={ChineseReviewScreen} options={{ title: "Today's review" }} />
       <AppStack.Screen name="Settings" component={SettingsScreen} options={{ title: "Settings" }} />
       <AppStack.Screen name="Onboarding" component={OnboardingScreen} options={{ title: "Welcome" }} />
       <AppStack.Screen
