@@ -23,6 +23,7 @@ import { ZH_B1_LESSONS } from "./b1-lessons";
 import { ZH_B1_LAYERS } from "./b1-layers";
 import { ZH_B2_LESSONS } from "./b2-lessons";
 import { ZH_B2_LAYERS } from "./b2-layers";
+import { ZH_C1_LESSONS } from "./c1-lessons";
 import { ZH_CONCEPTS } from "./concepts";
 import { ZH_PLUGIN } from "./plugin";
 import { ZH_SPECS } from "./specs";
@@ -78,10 +79,17 @@ const META: Omit<ZhModule, "lessons" | "units" | "canDo">[] = [
     description:
       "Even if, no matter and since, otherwise and even though, purpose and result, rhetorical questions and surprise, formal written Chinese, everyday 成语, the environment, life online and festivals -- about HSK 4.",
   },
+  {
+    code: "C1",
+    name: "高级汉语",
+    path: "c1",
+    description:
+      "全中文授课：论证和总结的连接词，程度与语气，书面语里的文言成分，职场中文（开会、谈判、邮件、面试），新闻和社会话题。约 HSK 5 级。",
+  },
 ];
 
 /** Every authored or drafted lesson, before assembly (what the validator checks). */
-export const ZH_SOURCE_LESSONS: Lesson[] = [...ZH_PINYIN_LESSONS, ...ZH_PINYIN_LAYERS, ...ZH_A1_LESSONS, ...ZH_A1_LAYERS, ...ZH_A2_LESSONS, ...ZH_A2_LAYERS, ...ZH_B1_LESSONS, ...ZH_B1_LAYERS, ...ZH_B2_LESSONS, ...ZH_B2_LAYERS];
+export const ZH_SOURCE_LESSONS: Lesson[] = [...ZH_PINYIN_LESSONS, ...ZH_PINYIN_LAYERS, ...ZH_A1_LESSONS, ...ZH_A1_LAYERS, ...ZH_A2_LESSONS, ...ZH_A2_LAYERS, ...ZH_B1_LESSONS, ...ZH_B1_LAYERS, ...ZH_B2_LESSONS, ...ZH_B2_LAYERS, ...ZH_C1_LESSONS];
 
 const assembly = assembleCourse({
   specs: ZH_SPECS,

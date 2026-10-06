@@ -55,6 +55,70 @@ export type LevelSpec = {
   layers: LayerSpec[];
   /** Skip the generated level test (e.g. a level with an authored one). */
   noLevelTest?: boolean;
+  /** Wording of the generated lessons, for a level taught in the target
+   * language (default: English, ENGLISH_STRINGS). */
+  strings?: AssemblyStrings;
+};
+
+/** Everything the generated lessons (spaced reviews, unit reviews, the
+ * level test) say to the learner. */
+export type AssemblyStrings = {
+  unitLabel: (n: number, title: string) => string;
+  /** One concept in a review's list: "Name: gloss". */
+  conceptLine: (name: string, gloss: string) => string;
+  /** "a, b, c and more". */
+  nameList: (names: string[], more: boolean) => string;
+  spacedTitle: string;
+  spacedSummary: (list: string) => string;
+  spacedHeading: string;
+  spacedIntro: string;
+  unitReviewTitle: (n: number) => string;
+  unitReviewSummary: (list: string) => string;
+  unitReviewHeading: (n: number) => string;
+  unitReviewIntro: string;
+  meaningQuestion: string;
+  speakTip: string;
+  listeningHeading: string;
+  listeningBody: string;
+  speakingHeading: string;
+  speakingBody: string;
+  levelTestTitle: (code: string) => string;
+  levelTestSummary: (total: number) => string;
+  part1Heading: string;
+  part1Body: string;
+  part2Heading: string;
+  part2Body: string;
+  part3Heading: string;
+  part3Body: string;
+};
+
+export const ENGLISH_STRINGS: AssemblyStrings = {
+  unitLabel: (n, title) => `Unit ${n} · ${title}`,
+  conceptLine: (name, gloss) => `${name}: ${gloss}`,
+  nameList: (names, more) => `${names.join(", ")}${more ? " and more" : ""}`,
+  spacedTitle: "Spaced review",
+  spacedSummary: (list) => `Back again, just as you might be forgetting: ${list}.`,
+  spacedHeading: "What's coming back",
+  spacedIntro:
+    "These questions come from earlier units. Reviewing something just as it starts to fade is what makes it stick, so it's normal if a few feel harder than they did the first time.",
+  unitReviewTitle: (n) => `Unit ${n} review`,
+  unitReviewSummary: (list) => `A quiz, listening and speaking on ${list}.`,
+  unitReviewHeading: (n) => `Unit ${n} in one page`,
+  unitReviewIntro: "This review closes the unit: a short quiz on everything it taught, then listening and speaking with the unit's own sentences.",
+  meaningQuestion: "What does it mean?",
+  speakTip: "Listen to the model first, then match its tones.",
+  listeningHeading: "Listening",
+  listeningBody: "Listen, then choose what you heard. Replay as often as you like.",
+  speakingHeading: "Speaking",
+  speakingBody: "Read each sentence aloud, then compare with the model.",
+  levelTestTitle: (code) => `${code} level test`,
+  levelTestSummary: (total) => `${total} questions across the whole level: listening, reading and grammar, then producing it yourself.`,
+  part1Heading: "Part 1 · Listening",
+  part1Body: "The test covers every unit of the level. Start with listening: replay each clip as often as you need.",
+  part2Heading: "Part 2 · Reading and grammar",
+  part2Body: "Choose or arrange the right answer.",
+  part3Heading: "Part 3 · Your turn",
+  part3Body: "Type the answers yourself. The final section below mixes the hardest questions.",
 };
 
 /** Default minimums by kind. */

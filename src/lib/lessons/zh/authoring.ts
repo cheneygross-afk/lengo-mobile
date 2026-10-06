@@ -32,7 +32,7 @@ import type {
 } from "../types";
 import type { LayerSpec, LevelSpec } from "../../curriculum/spec";
 
-export type ZhLevel = "ZH-Pinyin" | "ZH-A1" | "ZH-A2" | "ZH-B1" | "ZH-B2";
+export type ZhLevel = "ZH-Pinyin" | "ZH-A1" | "ZH-A2" | "ZH-B1" | "ZH-B2" | "ZH-C1";
 
 /** Inline form for English text: zh("你好", "nǐ hǎo") -> "你好 (nǐ hǎo)". */
 export function zh(hanzi: string, pinyin: string): string {
@@ -133,6 +133,19 @@ export function toZh(english: string, answer: string, pinyin: string, explanatio
     altAnswers: [...alts],
     explanation,
   };
+}
+
+/**
+ * From C1, where everything is in Chinese: a task in Chinese (rewrite
+ * with a given pattern, sum up, answer) typed in characters or pinyin.
+ */
+export function rewrite(task: string, answer: string, pinyin: string, explanation: string, altAnswers: string[] = []): TranslateExercise {
+  return { ...toZh(task, answer, pinyin, explanation, altAnswers), prompt: "改写（汉字或拼音）。" };
+}
+
+/** From C1: word order with the instruction and meaning in Chinese. */
+export function order(words: string[], meaning: string, explanation: string, altOrders?: string[][]): WordOrderExercise {
+  return { ...wo(words, meaning, explanation, altOrders), prompt: "把词语排成正确的句子。" };
 }
 
 /** Put the character tiles in order. `words` is the correct order. */

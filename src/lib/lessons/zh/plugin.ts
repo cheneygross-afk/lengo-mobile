@@ -141,6 +141,25 @@ export const ZH_DETECTORS: FormDetector[] = [
   re("grammar.dui-laishuo", /对[^，。？！]{1,8}来说/, "对…来说"),
   re("grammar.zai-fangmian", /方面/, "方面"),
   re("grammar.suizhe", /随着/, "随着"),
+  // C1
+  re("grammar.ran-er", /然而/, "然而"),
+  re("grammar.yuqi-buru", /与其/, "与其…不如"),
+  re("grammar.ningke", /宁可|宁愿/, "宁可"),
+  re("function.shouxian-qici", /首先|其次/, "首先/其次"),
+  re("function.zongzhi", /总之|总的来说|换句话说|总而言之/, "总之"),
+  re("grammar.degree", /极了|得不得了|极其/, "极了/极其"),
+  re("grammar.shenzhi", /甚至/, "甚至"),
+  re("grammar.hekuang", /何况|更不用说/, "何况"),
+  re("grammar.fan-er", /反而/, "反而"),
+  re("grammar.fanzheng", /反正/, "反正"),
+  re("grammar.zhi", /之一|之间|之后|之前|之内|之外|分之|之所以/, "之"),
+  re("grammar.qi", /其中|其余|及其|尤其/, "其"),
+  re("grammar.yi-wei", /以[^，。？！ ]{1,6}为(主|例|荣|目标|中心|准)/, "以…为"),
+  // Not 因为…所以 run together.
+  re("grammar.wei-suo", /[为被][^，。？！ ]{1,8}所(?!以|有)/, "为…所"),
+  re("grammar.written-negatives", /无法|尚未|请勿|未必|非[^，。？！常]{1,4}不可/, "无法/未/勿"),
+  re("function.news", /据报道|据悉|据了解/, "据报道"),
+  re("vocab.data-trends", /百分之|下降/, "百分之/下降"),
 ];
 
 /** True for an answer typed in Chinese (characters or pinyin). */

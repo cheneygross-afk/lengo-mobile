@@ -27,7 +27,7 @@ import type { Exercise, Lesson, LessonExample, LessonSection } from "../lessons/
 import { buildGraph, checkGraph } from "./graph";
 import { lessonItems, type Item } from "./items";
 import { copyOf, seeded, selectItems, shuffled } from "./select";
-import type { LayerSpec, LevelSpec, UnitSpec } from "./spec";
+import { ENGLISH_STRINGS, type AssemblyStrings, type LayerSpec, type LevelSpec, type UnitSpec } from "./spec";
 import type { Concept, CoursePlugin, Finding } from "./types";
 
 export const UNIT_MIN_REQUIRED = 6;
@@ -174,7 +174,7 @@ export function assembleCourse(input: AssembleInput): { levels: AssembledLevel[]
         id: u.spec.id,
         number: k + 1,
         title: u.spec.title,
-        label: `Unit ${k + 1} · ${u.spec.title}`,
+        label: textOf(level).unitLabel(k + 1, u.spec.title),
         description: u.spec.description,
         concepts: u.concepts,
         characters: u.spec.characters ?? [],
@@ -204,14 +204,22 @@ function gloss(language: AssemblyLanguage, e: LessonExample): string {
   return `${language.exampleInline(e)}: ${meaning}${/[.!?]$/.test(meaning) ? "" : "."}`;
 }
 
-function names(ids: string[], concepts: Map<string, Concept>): string[] {
-  return ids.map((id) => concepts.get(id)?.name ?? id);
+function textOf(level: LevelSpec): AssemblyStrings {
+  return level.strings ?? ENGLISH_STRINGS;
 }
 
-function conceptList(ids: string[], concepts: Map<string, Concept>): string[] {
+/** "a, b, c, d and more": the first four concepts' names. */
+function nameList(ids: string[], concepts: Map<string, Concept>, t: AssemblyStrings): string {
+  return t.nameList(
+    ids.slice(0, 4).map((id) => concepts.get(id)?.name ?? id),
+    ids.length > 4
+  );
+}
+
+function conceptList(ids: string[], concepts: Map<string, Concept>, t: AssemblyStrings): string[] {
   return ids.map((id) => {
     const c = concepts.get(id);
-    return c ? `${c.name}: ${c.gloss}` : id;
+    return c ? t.conceptLine(c.name, c.gloss) : id;
   });
 }
 
@@ -224,6 +232,7 @@ function spacedReview(
   used: Set<string>,
   concepts: Map<string, Concept>
 ): Lesson | null {
+  const t = textOf(u.level);
   const sources: [UnitBuild | undefined, number][] = [
     [all[g - 1], SPACED_ITEMS.back1],
     [all[g - 3], SPACED_ITEMS.back3],
@@ -232,7 +241,9 @@ function spacedReview(
   const picked: Item[] = [];
   const covered: string[] = [];
   for (const [src, count] of sources) {
-    if (!src) continue;
+    // A level taught in another language (its own strings) reviews only
+    // units taught in that language, so it never mixes instruction languages.
+    if (!src || textOf(src.level) !== t) continue;
     const items = selectItems(
       unitItems(src),
       { count, cover: shuffled(src.concepts, seeded(u.spec.id + src.spec.id)).slice(0, count), minDifficulty: 2, exclude: used, perConceptMax: 1 },
@@ -250,15 +261,15 @@ function spacedReview(
     slug: `${u.spec.id}-spaced-review`,
     level: u.level.level,
     number: 0,
-    title: "Spaced review",
-    summary: `Back again, just as you might be forgetting: ${names(reviews, concepts).slice(0, 4).join(", ")}${reviews.length > 4 ? " and more" : ""}.`,
+    title: t.spacedTitle,
+    summary: t.spacedSummary(nameList(reviews, concepts, t)),
     duration: "6 min",
     sections: [
       {
-        heading: "What's coming back",
+        heading: t.spacedHeading,
         body: [
-          "These questions come from earlier units. Reviewing something just as it starts to fade is what makes it stick, so it's normal if a few feel harder than they did the first time.",
-          ...conceptList(reviews, concepts),
+          t.spacedIntro,
+          ...conceptList(reviews, concepts, t),
         ],
       },
     ],
@@ -277,6 +288,7 @@ function unitReview(
   concepts: Map<string, Concept>,
   language: AssemblyLanguage
 ): Lesson {
+  const t = textOf(u.level);
   const random = seeded(`${u.spec.id}-unit-review`);
   const quiz = selectItems(items, { count: UNIT_QUIZ_ITEMS, cover: u.concepts, minDifficulty: 2, minProduction: 2 }, `${u.spec.id}-quiz`);
 
@@ -294,7 +306,7 @@ function unitReview(
     return {
       type: "listen-choose",
       audio: e.es,
-      question: "What does it mean?",
+      question: t.meaningQuestion,
       options,
       correctIndex: options.indexOf(language.exampleMeaning(e)),
       explanation: gloss(language, e),
@@ -305,30 +317,30 @@ function unitReview(
     type: "speak",
     text: e.es,
     explanation: gloss(language, e),
-    tip: "Listen to the model first, then match its tones.",
+    tip: t.speakTip,
     meta: { skill: "speaking", difficulty: 2 },
   }));
 
   const sections: LessonSection[] = [
     {
-      heading: `Unit ${k + 1} in one page`,
+      heading: t.unitReviewHeading(k + 1),
       body: [
-        "This review closes the unit: a short quiz on everything it taught, then listening and speaking with the unit's own sentences.",
-        ...conceptList(u.concepts, concepts),
+        t.unitReviewIntro,
+        ...conceptList(u.concepts, concepts, t),
       ],
       examples: pool.slice(5, 9),
     },
-    { heading: "Listening", body: ["Listen, then choose what you heard. Replay as often as you like."], checkpoint: listening },
+    { heading: t.listeningHeading, body: [t.listeningBody], checkpoint: listening },
   ];
-  if (speaking.length) sections.push({ heading: "Speaking", body: ["Read each sentence aloud, then compare with the model."], checkpoint: speaking });
+  if (speaking.length) sections.push({ heading: t.speakingHeading, body: [t.speakingBody], checkpoint: speaking });
   if (!sections[0].examples?.length) delete sections[0].examples;
 
   return {
     slug: `${u.spec.id}-unit-review`,
     level: u.level.level,
     number: 0,
-    title: `Unit ${k + 1} review`,
-    summary: `A quiz, listening and speaking on ${names(u.concepts, concepts).slice(0, 4).join(", ")}${u.concepts.length > 4 ? " and more" : ""}.`,
+    title: t.unitReviewTitle(k + 1),
+    summary: t.unitReviewSummary(nameList(u.concepts, concepts, t)),
     duration: "10 min",
     sections,
     exercises: quiz.sort((a, b) => a.difficulty - b.difficulty).map(copyOf),
@@ -341,6 +353,7 @@ function unitReview(
 }
 
 function levelTest(level: LevelSpec, items: Item[], taught: string[], concepts: Map<string, Concept>): Lesson {
+  const t = textOf(level);
   const seed = `${level.slugPrefix}-level-test`;
   const listening = selectItems(items, { count: 4, types: ["listen-choose", "dictation"] }, `${seed}-listening`);
   const used = new Set(listening.map((i) => i.id));
@@ -362,19 +375,19 @@ function levelTest(level: LevelSpec, items: Item[], taught: string[], concepts: 
     slug: `${level.slugPrefix}-level-test`,
     level: level.level,
     number: 0,
-    title: `${level.code} level test`,
-    summary: `${total} questions across the whole level: listening, reading and grammar, then producing it yourself.`,
+    title: t.levelTestTitle(level.code),
+    summary: t.levelTestSummary(total),
     duration: "20 min",
     sections: [
       {
-        heading: "Part 1 · Listening",
-        body: ["The test covers every unit of the level. Start with listening: replay each clip as often as you need."],
+        heading: t.part1Heading,
+        body: [t.part1Body],
         checkpoint: listening.map(copyOf),
       },
-      { heading: "Part 2 · Reading and grammar", body: ["Choose or arrange the right answer."], checkpoint: recognise.map(copyOf) },
+      { heading: t.part2Heading, body: [t.part2Body], checkpoint: recognise.map(copyOf) },
       {
-        heading: "Part 3 · Your turn",
-        body: ["Type the answers yourself. The final section below mixes the hardest questions."],
+        heading: t.part3Heading,
+        body: [t.part3Body],
         checkpoint: produce.slice(0, Math.ceil(produce.length / 2)).map(copyOf),
       },
     ],

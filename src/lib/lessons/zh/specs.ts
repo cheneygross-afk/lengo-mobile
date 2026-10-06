@@ -11,7 +11,7 @@
 // a unit or its spec to `layers`, then run
 //   node --experimental-strip-types scripts/zh-curriculum.mjs check
 
-import type { ExerciseMix, LayerSpec, LevelSpec, UnitSpec } from "../../curriculum/spec";
+import type { AssemblyStrings, ExerciseMix, LayerSpec, LevelSpec, UnitSpec } from "../../curriculum/spec";
 import { conceptId } from "./authoring";
 
 function unit(id: string, title: string, description: string, lessons: string[]): UnitSpec {
@@ -419,5 +419,80 @@ export const ZH_B2_SPEC: LevelSpec = {
   ],
 };
 
+// From C1 everything a learner sees is in Chinese, the generated
+// reviews and level test included.
+const CHINESE_STRINGS: AssemblyStrings = {
+  unitLabel: (n, title) => `第${n}单元 · ${title}`,
+  conceptLine: (name, gloss) => `${name}：${gloss}`,
+  nameList: (names, more) => `${names.join("、")}${more ? "等" : ""}`,
+  spacedTitle: "间隔复习",
+  spacedSummary: (list) => `在你快要忘记的时候再练一次：${list}。`,
+  spacedHeading: "复习的内容",
+  spacedIntro: "这些题目来自前面的单元。在快要忘记的时候复习，记得最牢；有几题觉得比第一次难，是很正常的。",
+  unitReviewTitle: (n) => `第${n}单元复习`,
+  unitReviewSummary: (list) => `小测验、听力和口语：${list}。`,
+  unitReviewHeading: (n) => `第${n}单元一览`,
+  unitReviewIntro: "这一课总结本单元：先做一个小测验，再用本单元的句子练习听和说。",
+  meaningQuestion: "这句话是什么意思？",
+  speakTip: "先听示范，再模仿它的声调。",
+  listeningHeading: "听力",
+  listeningBody: "听一听，然后选择正确的意思。可以多听几遍。",
+  speakingHeading: "口语",
+  speakingBody: "大声读每个句子，然后跟示范比较。",
+  levelTestTitle: (code) => `${code} 水平测试`,
+  levelTestSummary: (total) => `共 ${total} 题，覆盖整个级别：听力、阅读和语法，最后自己写出答案。`,
+  part1Heading: "第一部分 · 听力",
+  part1Body: "测试包括本级别的所有单元。先做听力，每段录音可以多听几遍。",
+  part2Heading: "第二部分 · 阅读和语法",
+  part2Body: "选择或排列正确的答案。",
+  part3Heading: "第三部分 · 自己写",
+  part3Body: "自己输入答案。最后一部分是最难的题目。",
+};
+
+export const ZH_C1_SPEC: LevelSpec = {
+  strings: CHINESE_STRINGS,
+  code: "C1",
+  path: "c1",
+  level: "ZH-C1",
+  slugPrefix: "zh-c1",
+  units: [
+    unit("zh-c1-u1", "论证与表达", "然而, 与其…不如, 宁可…也不, 首先…其次, 总之: 写文章、讲道理的连接词。", [
+      "zh-c1-ran-er",
+      "zh-c1-yuqi",
+      "zh-c1-ningke",
+      "zh-c1-shouxian",
+      "zh-c1-zongzhi",
+    ]),
+    unit("zh-c1-u2", "程度与语气", "极了, 甚至, 何况, 反而, 反正: 加强语气、表达意外。", [
+      "zh-c1-degree",
+      "zh-c1-shenzhi",
+      "zh-c1-hekuang",
+      "zh-c1-fan-er",
+      "zh-c1-fanzheng",
+    ]),
+    unit("zh-c1-u3", "书面语里的文言", "之, 其, 以…为…, 为…所, 无/未/勿: 现代书面语里常见的文言成分。", [
+      "zh-c1-zhi",
+      "zh-c1-qi",
+      "zh-c1-yi-wei",
+      "zh-c1-wei-suo",
+      "zh-c1-negatives",
+    ]),
+    unit("zh-c1-u4", "职场中文", "开会、谈判、写邮件、面试, 以及正式场合的客气话。", [
+      "zh-c1-meetings",
+      "zh-c1-negotiation",
+      "zh-c1-email",
+      "zh-c1-interview",
+      "zh-c1-politeness",
+    ]),
+    unit("zh-c1-u5", "新闻与社会", "看新闻、读数据、谈社会问题, 以及 C1 总复习。", [
+      "zh-c1-news",
+      "zh-c1-data",
+      "zh-c1-society",
+      "zh-c1-review",
+    ]),
+  ],
+  layers: [],
+};
+
 /** Every level spec, in course order. */
-export const ZH_SPECS: LevelSpec[] = [ZH_PINYIN_SPEC, ZH_A1_SPEC, ZH_A2_SPEC, ZH_B1_SPEC, ZH_B2_SPEC];
+export const ZH_SPECS: LevelSpec[] = [ZH_PINYIN_SPEC, ZH_A1_SPEC, ZH_A2_SPEC, ZH_B1_SPEC, ZH_B2_SPEC, ZH_C1_SPEC];

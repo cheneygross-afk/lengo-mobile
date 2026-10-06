@@ -178,4 +178,33 @@ export const ZH_CONCEPTS: Concept[] = [
   c("B2", "vocab", "environment", "The environment", "环境, 污染, 保护, 垃圾, 节约", ["grammar.yinwei-suoyi"]),
   c("B2", "vocab", "internet", "Life online", "上网, 网上购物, 下载, 手机支付, 密码", ["grammar.result-complements"]),
   c("B2", "function", "customs", "Festivals and customs", "春节, 中秋节, 红包, 习惯, 风俗", ["vocab.dates"]),
+  // ---- C1 (taught in Chinese; names and glosses in Chinese too) ----
+  // Unit 1: argument and discourse
+  c("C1", "grammar", "ran-er", "然而和而", "书面语的转折和对比", ["grammar.suiran-danshi"]),
+  c("C1", "grammar", "yuqi-buru", "与其…不如…", "比较两种做法，选后一种", ["grammar.bi-comparison"]),
+  c("C1", "grammar", "ningke", "宁可…也不…", "坚决的选择", ["grammar.jishi-ye"]),
+  c("C1", "function", "shouxian-qici", "首先、其次、最后", "有条理地排列观点", ["function.sequencing"]),
+  c("C1", "function", "zongzhi", "总之、换句话说", "总结和换个说法", ["function.sequencing"]),
+  // Unit 2: emphasis and degree
+  c("C1", "grammar", "degree", "极了、得不得了、极其", "表示程度很高", ["grammar.de-complement"]),
+  c("C1", "grammar", "shenzhi", "甚至", "引出更进一步的例子", ["grammar.lian-dou"]),
+  c("C1", "grammar", "hekuang", "何况、更不用说", "后面的情况当然更是这样", ["grammar.lian-dou"]),
+  c("C1", "grammar", "fan-er", "反而", "结果跟预料的相反", ["grammar.suiran-danshi"]),
+  c("C1", "grammar", "fanzheng", "反正", "不管怎样，结论都一样", ["grammar.buguan-dou"]),
+  // Unit 3: classical traces in modern writing
+  c("C1", "grammar", "zhi", "之", "书面语的「的」：之一、之间、三分之一", ["grammar.de-possessive"]),
+  c("C1", "grammar", "qi", "其", "书面语的代词：其中、尤其、及其", ["grammar.pronouns"]),
+  c("C1", "grammar", "yi-wei", "以…为…", "把 A 当作 B：以…为主、以…为例", ["grammar.formal-words"]),
+  c("C1", "grammar", "wei-suo", "为…所、被…所", "书面语的被动句", ["grammar.bei-passive"]),
+  c("C1", "grammar", "written-negatives", "无、未、勿、非…不可", "书面语的否定", ["grammar.formal-words"]),
+  // Unit 4: Chinese at work
+  c("C1", "vocab", "meetings", "开会", "议程、讨论、方案、决定", ["vocab.work"]),
+  c("C1", "vocab", "negotiation", "谈判", "价格、优惠、让步、合同", ["vocab.work"]),
+  c("C1", "function", "business-email", "商务邮件", "附件、请查收、期待您的回复", ["grammar.formal-words"]),
+  c("C1", "function", "interview", "面试", "应聘、简历、经验、优势", ["vocab.work"]),
+  c("C1", "function", "formal-politeness", "客气话", "请多指教、麻烦您、辛苦了", ["function.thanks-apologies"]),
+  // Unit 5: news and society
+  c("C1", "function", "news", "看新闻", "据报道、表示、将、于", ["grammar.formal-words"]),
+  c("C1", "vocab", "data-trends", "数据和变化", "百分之、增长、下降、翻一番", ["grammar.suizhe"]),
+  c("C1", "vocab", "society", "社会话题", "老龄化、城市化、教育、医疗", ["vocab.environment"]),
 ];

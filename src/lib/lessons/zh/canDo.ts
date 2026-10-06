@@ -69,4 +69,12 @@ export const ZH_CAN_DO: Record<string, CanDoStatement[]> = {
     s("b2.idioms", "speaking", "I can understand and use common four-character idioms.", ["vocab.chengyu"]),
     s("b2.society", "interaction", "I can discuss the environment, life online and Chinese festivals and customs.", ["vocab.environment", "vocab.internet", "function.customs"]),
   ],
+  // From C1 the statements are in Chinese, like the lessons.
+  c1: [
+    s("c1.argue", "writing", "我能有条理地讲道理：提出转折、比较做法、表明决心，并做出总结。", ["grammar.ran-er", "grammar.yuqi-buru", "grammar.ningke", "function.shouxian-qici", "function.zongzhi"]),
+    s("c1.tone", "speaking", "我能用合适的语气强调程度、表达意外和无所谓。", ["grammar.degree", "grammar.shenzhi", "grammar.hekuang", "grammar.fan-er", "grammar.fanzheng"]),
+    s("c1.written", "reading", "我能读懂书面语里常见的文言成分。", ["grammar.zhi", "grammar.qi", "grammar.yi-wei", "grammar.wei-suo", "grammar.written-negatives"]),
+    s("c1.work", "interaction", "我能参加会议和谈判，写正式的邮件，参加面试。", ["vocab.meetings", "vocab.negotiation", "function.business-email", "function.interview", "function.formal-politeness"]),
+    s("c1.news", "reading", "我能看懂新闻和数据，并讨论社会问题。", ["function.news", "vocab.data-trends", "vocab.society"]),
+  ],
 };
