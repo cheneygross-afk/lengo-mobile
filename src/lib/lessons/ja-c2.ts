@@ -1,4 +1,5 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/ja-c2.ts by scripts/sync-content.mjs -- edit it there, not here.
+// The app's copy of the earlier Japanese beta C2 level. App-owned: the website's rebuilt
+// Japanese course is web-only (see WEB_ONLY_JA in scripts/sync-content.mjs).
 import type { Lesson } from "./types";
 
 export const JA_C2_LESSONS: Lesson[] = [
