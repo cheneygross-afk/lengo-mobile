@@ -491,7 +491,37 @@ export const ZH_C1_SPEC: LevelSpec = {
       "zh-c1-review",
     ]),
   ],
-  layers: [],
+  // One practice lesson per teach lesson; formats named in Chinese too.
+  layers: [
+    // Unit 1
+    D("zh-c1d-ran-er", "句型练习", "zh-c1-ran-er", ["grammar.ran-er"]),
+    R("zh-c1r-yuqi", "改写", "zh-c1-yuqi", ["grammar.yuqi-buru", "grammar.bi-comparison"]),
+    R("zh-c1r-ningke", "对比", "zh-c1-ningke", ["grammar.ningke", "grammar.yuqi-buru"]),
+    R("zh-c1r-shouxian", "任务", "zh-c1-shouxian", ["function.shouxian-qici"]),
+    D("zh-c1d-zongzhi", "循环练习", "zh-c1-zongzhi", ["function.zongzhi"]),
+    // Unit 2
+    D("zh-c1d-degree", "快速练习", "zh-c1-degree", ["grammar.degree"], { production: 6, "listen-choose": 2 }),
+    R("zh-c1r-shenzhi", "改写", "zh-c1-shenzhi", ["grammar.shenzhi", "grammar.lian-dou"]),
+    R("zh-c1r-hekuang", "对比", "zh-c1-hekuang", ["grammar.hekuang", "grammar.shenzhi"]),
+    R("zh-c1r-fan-er", "对话", "zh-c1-fan-er", ["grammar.fan-er"]),
+    R("zh-c1r-fanzheng", "对比", "zh-c1-fanzheng", ["grammar.fanzheng", "grammar.fan-er"]),
+    // Unit 3
+    D("zh-c1d-zhi", "快速练习", "zh-c1-zhi", ["grammar.zhi"], { production: 6, "listen-choose": 2 }),
+    D("zh-c1d-qi", "替换练习", "zh-c1-qi", ["grammar.qi"]),
+    D("zh-c1d-yi-wei", "句型练习", "zh-c1-yi-wei", ["grammar.yi-wei"]),
+    R("zh-c1r-wei-suo", "改写", "zh-c1-wei-suo", ["grammar.wei-suo", "grammar.bei-passive"]),
+    R("zh-c1r-negatives", "任务", "zh-c1-negatives", ["grammar.written-negatives"]),
+    // Unit 4
+    R("zh-c1r-meeting", "对话", "zh-c1-meetings", ["vocab.meetings"]),
+    R("zh-c1r-negotiation", "任务", "zh-c1-negotiation", ["vocab.negotiation"]),
+    R("zh-c1r-email", "改写", "zh-c1-email", ["function.business-email"]),
+    R("zh-c1r-interview", "对话", "zh-c1-interview", ["function.interview"]),
+    D("zh-c1d-politeness", "快速练习", "zh-c1-politeness", ["function.formal-politeness"], { production: 6, "listen-choose": 2 }),
+    // Unit 5
+    R("zh-c1r-news", "改写", "zh-c1-news", ["function.news"]),
+    D("zh-c1d-data", "句型练习", "zh-c1-data", ["vocab.data-trends"]),
+    R("zh-c1r-society", "任务", "zh-c1-society", ["vocab.society"]),
+  ],
 };
 
 /** Every level spec, in course order. */
