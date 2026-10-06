@@ -22,6 +22,7 @@ import { ZH_A2_LAYERS } from "./a2-layers";
 import { ZH_B1_LESSONS } from "./b1-lessons";
 import { ZH_B1_LAYERS } from "./b1-layers";
 import { ZH_B2_LESSONS } from "./b2-lessons";
+import { ZH_B2_LAYERS } from "./b2-layers";
 import { ZH_CONCEPTS } from "./concepts";
 import { ZH_PLUGIN } from "./plugin";
 import { ZH_SPECS } from "./specs";
@@ -80,7 +81,7 @@ const META: Omit<ZhModule, "lessons" | "units" | "canDo">[] = [
 ];
 
 /** Every authored or drafted lesson, before assembly (what the validator checks). */
-export const ZH_SOURCE_LESSONS: Lesson[] = [...ZH_PINYIN_LESSONS, ...ZH_PINYIN_LAYERS, ...ZH_A1_LESSONS, ...ZH_A1_LAYERS, ...ZH_A2_LESSONS, ...ZH_A2_LAYERS, ...ZH_B1_LESSONS, ...ZH_B1_LAYERS, ...ZH_B2_LESSONS];
+export const ZH_SOURCE_LESSONS: Lesson[] = [...ZH_PINYIN_LESSONS, ...ZH_PINYIN_LAYERS, ...ZH_A1_LESSONS, ...ZH_A1_LAYERS, ...ZH_A2_LESSONS, ...ZH_A2_LAYERS, ...ZH_B1_LESSONS, ...ZH_B1_LAYERS, ...ZH_B2_LESSONS, ...ZH_B2_LAYERS];
 
 const assembly = assembleCourse({
   specs: ZH_SPECS,

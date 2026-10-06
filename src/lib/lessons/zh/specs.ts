@@ -385,7 +385,38 @@ export const ZH_B2_SPEC: LevelSpec = {
       "zh-b2-review",
     ]),
   ],
-  layers: [],
+  // One practice lesson per teach lesson, as at A2 and B1.
+  layers: [
+    // Unit 1
+    D("zh-b2d-jishi", "Pattern practice", "zh-b2-jishi", ["grammar.jishi-ye"]),
+    R("zh-b2r-buguan", "Contrast", "zh-b2-buguan", ["grammar.buguan-dou", "grammar.jishi-ye"]),
+    D("zh-b2d-jiran", "Substitution", "zh-b2-jiran", ["grammar.jiran-jiu"]),
+    R("zh-b2r-fouze", "Dialogue", "zh-b2-fouze", ["grammar.fouze"]),
+    R("zh-b2r-concession", "Contrast", "zh-b2-jinguan", ["grammar.jinguan", "grammar.suiran-danshi", "grammar.jishi-ye"]),
+    // Unit 2
+    D("zh-b2d-weile", "Pattern practice", "zh-b2-weile", ["grammar.weile"]),
+    R("zh-b2r-formal-cause", "Transform", "zh-b2-youyu-yinci", ["grammar.youyu-yinci", "grammar.yinwei-suoyi"]),
+    R("zh-b2r-yushi", "Mission", "zh-b2-yushi", ["grammar.yushi"]),
+    R("zh-b2r-jieguo", "Dialogue", "zh-b2-jieguo", ["grammar.jieguo"]),
+    D("zh-b2d-zhihao", "Circuit", "zh-b2-zhihao", ["grammar.zhihao-budebu"]),
+    // Unit 3
+    R("zh-b2r-bing", "Transform", "zh-b2-bing", ["grammar.bing-negation"]),
+    D("zh-b2d-nandao", "Substitution", "zh-b2-nandao", ["grammar.nandao"]),
+    D("zh-b2d-daodi", "Circuit", "zh-b2-daodi", ["grammar.daodi"]),
+    R("zh-b2r-surprise", "Dialogue", "zh-b2-jingran", ["grammar.jingran"]),
+    R("zh-b2r-kongpa", "Mission", "zh-b2-kongpa", ["grammar.kongpa"]),
+    D("zh-b2d-chadianr", "Speed round", "zh-b2-chadianr", ["grammar.chadianr"], { production: 6, "listen-choose": 2 }),
+    // Unit 4
+    R("zh-b2r-formal", "Transform", "zh-b2-formal", ["grammar.formal-words"]),
+    D("zh-b2d-laishuo", "Pattern practice", "zh-b2-dui-laishuo", ["grammar.dui-laishuo"]),
+    D("zh-b2d-fangmian", "Substitution", "zh-b2-fangmian", ["grammar.zai-fangmian"]),
+    R("zh-b2r-suizhe", "Mission", "zh-b2-suizhe", ["grammar.suizhe"]),
+    D("zh-b2d-chengyu", "Speed round", "zh-b2-chengyu", ["vocab.chengyu"], { production: 6, "listen-choose": 2 }),
+    // Unit 5
+    R("zh-b2r-environment", "Dialogue", "zh-b2-environment", ["vocab.environment"]),
+    R("zh-b2r-online", "Mission", "zh-b2-internet", ["vocab.internet"]),
+    R("zh-b2r-festival", "Dialogue", "zh-b2-customs", ["function.customs"]),
+  ],
 };
 
 /** Every level spec, in course order. */
