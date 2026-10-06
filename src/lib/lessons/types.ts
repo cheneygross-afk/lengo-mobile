@@ -113,7 +113,23 @@ export type WriteExercise = {
   explanation: string;
 };
 
-export type Exercise =
+// Optional curriculum tags on an exercise (see src/lib/curriculum and
+// docs/curriculum-architecture.md). Everything here can also be derived
+// -- concepts from the lesson's own tags, skill and difficulty from the
+// exercise type -- so it's only written where the derived value is wrong.
+export type ExerciseMeta = {
+  // Concept ids the question tests (one or more).
+  concepts?: string[];
+  skill?: "grammar" | "vocabulary" | "reading" | "listening" | "speaking" | "writing" | "pronunciation" | "characters";
+  // 1 recognise, 2 produce with support, 3 produce, 4 use in context.
+  difficulty?: 1 | 2 | 3 | 4;
+  // Set on a copy placed in a generated review or test: the id of the
+  // item it was copied from ("zh-greetings#3"), so a learner's answer is
+  // credited to the original item and its concepts.
+  from?: string;
+};
+
+export type Exercise = (
   | MultipleChoiceExercise
   | MultiSelectExercise
   | FillBlankExercise
@@ -123,7 +139,12 @@ export type Exercise =
   | ListenChooseExercise
   | DictationExercise
   | SpeakExercise
-  | WriteExercise;
+  | WriteExercise
+) & { meta?: ExerciseMeta };
+
+// What a lesson is for in its level's rhythm (teach, then reinforce and
+// drill, with spaced review lessons later). See docs/curriculum-architecture.md.
+export type LessonKind = "teach" | "reinforce" | "drill" | "review" | "unit-review" | "level-test" | "skills";
 
 export type LessonExample = { es: string; en?: string };
 
@@ -161,10 +182,13 @@ export type Lesson = {
   // was split into standalone "C1" and "C2" modules (c1.ts / c2.ts).
   // "EN-A1" ... "EN-C2" are the English for Spanish speakers beta track
   // (see en-course.ts), kept here for the same reason.
+  // "ZH-Pinyin" and "ZH-A1" ... "ZH-C2" are the Chinese (Mandarin) beta track (see
+  // src/lib/lessons/zh/README.md).
   level:
     | "A1" | "A2" | "B1" | "B2" | "C1" | "C2" | "C1/C2"
     | "JA-Alphabets" | "JA-A1" | "JA-A2" | "JA-B1" | "JA-B2" | "JA-C1" | "JA-C2"
-    | "EN-A1" | "EN-A2" | "EN-B1" | "EN-B2" | "EN-C1" | "EN-C2";
+    | "EN-A1" | "EN-A2" | "EN-B1" | "EN-B2" | "EN-C1" | "EN-C2"
+    | "ZH-Pinyin" | "ZH-A1" | "ZH-A2" | "ZH-B1" | "ZH-B2" | "ZH-C1" | "ZH-C2";
   number: number;
   title: string;
   summary: string;
@@ -172,4 +196,19 @@ export type Lesson = {
   sections: LessonSection[];
   // The longer, mixed-format review at the end of the lesson.
   exercises: Exercise[];
+  // ---- Curriculum tags (optional; see src/lib/curriculum) ----
+  kind?: LessonKind;
+  // Concept ids this lesson introduces (teach lessons).
+  teaches?: string[];
+  // Concept ids this lesson practises or reviews (every other kind).
+  reviews?: string[];
+  // Concepts used here as fixed phrases before they're taught (e.g. 很 in
+  // 认识你很高兴 before adjective sentences) -- allowed by the leak check.
+  previews?: string[];
+  // The named format of a reinforce/drill/review lesson ("Pattern practice").
+  format?: string;
+  // "authored"; "generated:<spec id>" for a lesson drafted from a spec;
+  // "assembled:<kind>" for one built from the item bank at build time
+  // (spaced reviews, unit reviews, level tests -- src/lib/curriculum/assemble.ts).
+  source?: string;
 };

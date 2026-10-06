@@ -35,6 +35,9 @@ import {
 } from "@/lib/todaysReview";
 import { creditStudy, type CreditResult } from "@/lib/studyDays";
 import { QUESTION_MINUTES, STREAK_MIN_REVIEW_QUESTIONS } from "@/lib/studyCredit";
+import { buildUnifiedReview, recordAttempt, syncAttempts, unifiedReviewEnabled } from "@/lib/attempts";
+import { lessonConceptId } from "@/lib/curriculum/items";
+import { langForLevelPath } from "@/lib/speech";
 
 type Props = NativeStackScreenProps<AppStackParamList, "TodayReview">;
 
@@ -49,7 +52,9 @@ const FORGET_AFTER_MISSES = 3;
 const LANG = "es-ES";
 
 type Item = {
-  kind: "missed" | "mix";
+  // "concept": the unified review (rollout flag) -- asked for a concept
+  // the per-concept scheduler says is due (lib/attempts.ts).
+  kind: "missed" | "mix" | "concept";
   id: string;
   levelPath: string;
   lessonSlug: string;
@@ -57,7 +62,30 @@ type Item = {
   lessonTitle: string;
   exercise: Exercise;
   mixKey?: string;
+  concepts?: string[];
 };
+
+/** The unified review's queue, as drill items. */
+async function buildUnifiedQueue(): Promise<Item[]> {
+  await syncAttempts().catch(() => null);
+  const variety = getSpanishVariety();
+  const picked = await buildUnifiedReview("es");
+  return picked
+    .filter((c) => !(variety === "latam" && requiresVosotros(c.exercise)))
+    .map((c) => {
+      const missed = /^missed:([^:]+):(.+)$/.exec(c.id);
+      return {
+        kind: missed ? ("missed" as const) : ("concept" as const),
+        id: missed ? missed[2] : c.id,
+        levelPath: missed ? missed[1] : c.levelPath ?? "a1",
+        lessonSlug: (missed ? missed[2] : c.id).split("#")[0],
+        lessonNumber: 0,
+        lessonTitle: "",
+        exercise: c.exercise,
+        concepts: c.concepts,
+      };
+    });
+}
 
 type Phase = "loading" | "intro" | "drilling" | "complete";
 
@@ -148,7 +176,7 @@ export default function TodayReviewScreen({ navigation }: Props) {
   );
 
   async function start() {
-    const { items, mixLeft } = await buildQueue();
+    const { items, mixLeft } = (await unifiedReviewEnabled()) ? { items: await buildUnifiedQueue(), mixLeft: {} } : await buildQueue();
     mixLeftRef.current = mixLeft;
     answeredRef.current = 0;
     setQueue(items);
@@ -174,6 +202,18 @@ export default function TodayReviewScreen({ navigation }: Props) {
     // Each answer toward today's goal; the fifth also counts the day.
     void creditStudy(QUESTION_MINUTES, { counts: answeredRef.current >= STREAK_MIN_REVIEW_QUESTIONS });
     if (correct) setRight((n) => n + 1);
+    // Every review answer goes in the attempts log.
+    void recordAttempt(
+      current.kind === "concept" ? current.id : `${current.levelPath}:${current.id}`,
+      current.concepts ?? current.exercise.meta?.concepts ?? [lessonConceptId(current.levelPath, current.lessonSlug)],
+      correct ? "good" : "again",
+      "review"
+    );
+
+    if (current.kind === "concept") {
+      setFeedback({ correct, explanation, forgotten: false });
+      return;
+    }
 
     if (current.kind === "mix" && current.mixKey) {
       const key = current.mixKey;
@@ -284,8 +324,8 @@ export default function TodayReviewScreen({ navigation }: Props) {
         {phase === "drilling" && current && (
           <View>
             <Text style={s.badge}>
-              {queue.length} left · {current.kind === "mix" ? "earlier lesson" : "missed question"} · Lesson{" "}
-              {current.lessonNumber}
+              {queue.length} left · {current.kind === "missed" ? "missed question" : "earlier lesson"}
+              {current.lessonNumber ? ` · Lesson ${current.lessonNumber}` : ""}
             </Text>
             <ExerciseBlock
               key={`${current.id}-${current.kind}-${missCounts[current.id] ?? 0}`}
@@ -293,7 +333,7 @@ export default function TodayReviewScreen({ navigation }: Props) {
               index={0}
               hideIndexLabel
               showInlineFeedback={false}
-              lang={LANG}
+              lang={current.kind === "concept" ? langForLevelPath(current.levelPath) : LANG}
               onChecked={(correct, explanation) => handleChecked(current, correct, explanation)}
             />
           </View>

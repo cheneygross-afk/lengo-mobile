@@ -71,8 +71,23 @@ function looksEnglish(text: string): boolean {
 // scaffolding at all) the entire string as one span. An empty array means
 // nothing here should be treated as tappable target-language text (most
 // often a plain-English comprehension question).
+// Chinese characters (plus Chinese punctuation touching them), for the
+// Chinese beta. Its English framing quotes pinyin in brackets after the
+// characters, so only the characters are voiced. Same as the website's.
+const CHINESE_RUN = /[㐀-䶿一-鿿]+(?:[，。？！、：；…“”]*[㐀-䶿一-鿿]+)*[，。？！]?/g;
+
+function chineseSpans(text: string): Span[] {
+  const spans: Span[] = [];
+  for (const m of text.matchAll(CHINESE_RUN)) {
+    if (m.index === undefined) continue;
+    spans.push({ start: m.index, end: m.index + m[0].length, text: m[0] });
+  }
+  return spans;
+}
+
 export function targetSpans(text: string, lang: SpeechLang): Span[] {
   if (lang === "ja-JP") return japaneseSpans(text);
+  if (lang === "zh-CN") return chineseSpans(text);
   if (lang === "es-ES") {
     const quoted = quotedSpans(text);
     if (quoted.length > 0) return quoted;

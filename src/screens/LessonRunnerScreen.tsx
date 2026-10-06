@@ -10,7 +10,7 @@ import {
 } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
-import { findLessonBySlug, moduleKeyForLesson, LESSON_SOURCES } from "@/lib/lessons/registry";
+import { findLessonBySlug, isSpanishLessonLevel, moduleKeyForLesson, LESSON_SOURCES } from "@/lib/lessons/registry";
 import LessonNextSteps from "@/components/LessonNextSteps";
 import type { Exercise, Lesson } from "@/lib/lessons/types";
 import { displayTitle } from "@/lib/lessons/levels";
@@ -25,6 +25,7 @@ import { langForLevel, langForLevelPath, ENGLISH_LANG } from "@/lib/speech";
 import { markLessonCompleted } from "@/lib/lessons/completion";
 import { creditStudy } from "@/lib/studyDays";
 import { scheduleLessonForReview } from "@/lib/todaysReview";
+import { recordLessonAttempt, recordLessonPass } from "@/lib/attempts";
 import { parseDurationMinutes } from "@/lib/duration";
 import { addToReview } from "@/lib/lessons/review";
 import {
@@ -127,7 +128,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   }, [levelPath, slug]);
 
   const skipExercise = useMemo(
-    () => (variety === "latam" && lesson && !lesson.level.startsWith("JA") ? requiresVosotros : () => false),
+    () => (variety === "latam" && lesson && isSpanishLessonLevel(lesson.level) ? requiresVosotros : () => false),
     [variety, lesson]
   );
   const steps = useMemo<Step[]>(() => {
@@ -189,7 +190,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     return out;
   }, [lesson, dueMissed, variety, skipExercise]);
   const lessonNote =
-    variety === "latam" && lesson && !lesson.level.startsWith("JA") && isVosotrosFocused(lesson)
+    variety === "latam" && lesson && isSpanishLessonLevel(lesson.level) && isVosotrosFocused(lesson)
       ? vosotrosNote(lesson.level)
       : null;
   const questionCount = steps.filter((st) => st.kind === "exercise").length;
@@ -342,6 +343,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       return;
     }
     const { wasAlreadyDone } = await markLessonCompleted(levelPath, lesson.slug, lesson.number);
+    await recordLessonPass(levelPath, lesson);
     // Into the daily review mix, so this lesson's grammar comes back in a
     // few days and then at longer and longer gaps.
     await scheduleLessonForReview(levelPath, lesson.slug);
@@ -429,7 +431,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
         <View style={s.progressTrack}>
           <Animated.View style={[s.progressFill, { width: progressWidth }]} />
         </View>
-        {!lesson.level.startsWith("JA") && (
+        {isSpanishLessonLevel(lesson.level) && (
           <Pressable
             hitSlop={10}
             onPress={() => void setListenFirst(!listenFirstPref)}
@@ -483,9 +485,13 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
               showInlineFeedback={false}
               lang={lang}
               level={lesson.level}
-              listenFirst={listenFirstPref && !lesson.level.startsWith("JA")}
+              listenFirst={listenFirstPref && isSpanishLessonLevel(lesson.level)}
               onChecked={(correct, explanation, title) => {
                 if (correct) setCorrectCount((c) => c + 1);
+                // The attempts log (lib/attempts.ts), against the lesson the
+                // question came from (review questions can be older ones).
+                const from = currentStep.source.slug === lesson?.slug ? lesson : findLessonBySlug(currentStep.source.slug);
+                if (from) void recordLessonAttempt(LESSON_SOURCES[moduleKeyForLesson(from)].levelPath, from, currentStep.exercise, correct);
                 if (correct && currentStep.review?.fromMissedPool && !poolResultsRef.current.has(currentStep.id)) {
                   poolResultsRef.current.set(currentStep.id, true);
                 }

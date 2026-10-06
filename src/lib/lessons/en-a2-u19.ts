@@ -222,7 +222,7 @@ export const EN_A2_U19: Lesson[] = [
         source: "Perdimos el tren.",
         answer: "We missed the train.",
         altAnswers: ["We missed our train."],
-        explanation: "«Perder» un transporte es \"miss\". \"We lost the train\" significaría que no encontráis el tren.",
+        explanation: "«Perder» un transporte es \"miss\". \"We lost the train\" significaría que no encuentras el tren.",
       },
       {
         type: "speak",

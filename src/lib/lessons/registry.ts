@@ -19,6 +19,8 @@ import { JA_B1_LESSONS } from "./ja-b1";
 import { JA_B2_LESSONS } from "./ja-b2";
 import { JA_C1_LESSONS } from "./ja-c1";
 import { JA_C2_LESSONS } from "./ja-c2";
+import { ZH_MODULES } from "./zh";
+import type { CanDoStatement } from "../curriculum/assess";
 import { spanishLevel } from "./levels";
 
 export type LessonModuleKey =
@@ -35,7 +37,14 @@ export type LessonModuleKey =
   | "ja-b1"
   | "ja-b2"
   | "ja-c1"
-  | "ja-c2";
+  | "ja-c2"
+  | "zh-pinyin"
+  | "zh-a1"
+  | "zh-a2"
+  | "zh-b1"
+  | "zh-b2"
+  | "zh-c1"
+  | "zh-c2";
 
 export type LessonSource = {
   moduleKey: LessonModuleKey;
@@ -46,7 +55,46 @@ export type LessonSource = {
   levelPath: string;
   title: string;
   lessons: Lesson[];
+  // Units for a track that isn't covered by units.ts (the Chinese beta's
+  // assembled units, see lessons/zh/index.ts). Spanish levels get theirs
+  // from units.ts instead.
+  units?: ModuleUnit[];
+  // Can-do statements linked to concepts (curriculum-engine courses).
+  canDo?: CanDoStatement[];
 };
+
+/** A unit as the lesson list shows it, whichever track it comes from. */
+export type ModuleUnit = {
+  id: string;
+  label: string;
+  description: string;
+  required: Lesson[];
+  optional: Lesson[];
+  /** Whether the unit offers a "Test out" quiz (the UnitTest screen). */
+  testOut: boolean;
+};
+
+function zhSource(moduleKey: "zh-pinyin" | "zh-a1" | "zh-a2" | "zh-b1" | "zh-b2" | "zh-c1" | "zh-c2", path: string, title: string): LessonSource {
+  const mod = ZH_MODULES.find((m) => m.path === path);
+  if (!mod) throw new Error(`no Chinese module "${path}"`);
+  const bySlug = new Map(mod.lessons.map((l) => [l.slug, l]));
+  const pick = (slugs: string[]) => slugs.map((s) => bySlug.get(s)).filter((l): l is Lesson => !!l);
+  return {
+    moduleKey,
+    levelPath: moduleKey,
+    title,
+    lessons: mod.lessons,
+    canDo: mod.canDo,
+    units: mod.units.map((u) => ({
+      id: u.id,
+      label: u.label,
+      description: u.description,
+      required: pick(u.requiredSlugs),
+      optional: pick(u.optionalSlugs),
+      testOut: true,
+    })),
+  };
+}
 
 // Every lesson file here is synced from the website repo by
 // scripts/sync-content.mjs, so each level's export (A1_LESSONS, etc.) is
@@ -80,6 +128,14 @@ export const LESSON_SOURCES: Record<LessonModuleKey, LessonSource> = {
   "ja-b2": { moduleKey: "ja-b2", levelPath: "ja-b2", title: "Japanese · B2 Upper Intermediate", lessons: JA_B2_LESSONS },
   "ja-c1": { moduleKey: "ja-c1", levelPath: "ja-c1", title: "Japanese · C1 Advanced", lessons: JA_C1_LESSONS },
   "ja-c2": { moduleKey: "ja-c2", levelPath: "ja-c2", title: "Japanese · C2 Mastery", lessons: JA_C2_LESSONS },
+  // The Chinese (Mandarin) beta -- see lessons/zh (synced from the website).
+  "zh-pinyin": zhSource("zh-pinyin", "pinyin", "Chinese · Pinyin & Tones"),
+  "zh-a1": zhSource("zh-a1", "a1", "Chinese · A1 Foundations"),
+  "zh-a2": zhSource("zh-a2", "a2", "Chinese · A2 Everyday Chinese"),
+  "zh-b1": zhSource("zh-b1", "b1", "Chinese · B1 Independent Chinese"),
+  "zh-b2": zhSource("zh-b2", "b2", "Chinese · B2 Upper-Intermediate Chinese"),
+  "zh-c1": zhSource("zh-c1", "c1", "Chinese · C1 高级汉语"),
+  "zh-c2": zhSource("zh-c2", "c2", "Chinese · C2 精通汉语"),
 };
 
 export const ALL_LEVEL_PATHS: LessonModuleKey[] = [
@@ -97,6 +153,13 @@ export const ALL_LEVEL_PATHS: LessonModuleKey[] = [
   "ja-b2",
   "ja-c1",
   "ja-c2",
+  "zh-pinyin",
+  "zh-a1",
+  "zh-a2",
+  "zh-b1",
+  "zh-b2",
+  "zh-c1",
+  "zh-c2",
 ];
 
 /** Which module a lesson belongs to, from its own `level` field -- lets a
@@ -130,6 +193,20 @@ export function moduleKeyForLesson(lesson: Lesson): LessonModuleKey {
       return "ja-c1";
     case "JA-C2":
       return "ja-c2";
+    case "ZH-Pinyin":
+      return "zh-pinyin";
+    case "ZH-A1":
+      return "zh-a1";
+    case "ZH-A2":
+      return "zh-a2";
+    case "ZH-B1":
+      return "zh-b1";
+    case "ZH-B2":
+      return "zh-b2";
+    case "ZH-C1":
+      return "zh-c1";
+    case "ZH-C2":
+      return "zh-c2";
     default:
       return "a1";
   }
@@ -144,4 +221,11 @@ export function findLessonBySlug(slug: string): Lesson | undefined {
     if (found) return found;
   }
   return undefined;
+}
+
+/** True for a lesson from the Spanish course (not the Japanese or Chinese
+ * betas) -- gates Spanish-only features like vosotros handling and
+ * listen-first. */
+export function isSpanishLessonLevel(level: string): boolean {
+  return !level.startsWith("JA") && !level.startsWith("ZH");
 }

@@ -9,13 +9,16 @@
 // explicit ranges below.
 import type { DictationExercise, FillBlankExercise, TranslateExercise, WordOrderExercise } from "./lessons/types";
 import { SPANISH_WORDS } from "./spanishWords";
+import { gradeChineseAnswer } from "./lessons/zh/pinyin";
 
 export type GradeResult = { correct: boolean; note?: string };
 
 // Which language the typed answer is in. "es" turns on the Spanish rules
 // (accent/real-word checks, subject pronouns, -ra/-se); "en" turns on
 // English contractions; "other" (Japanese) gets the plain rules only.
-export type AnswerLanguage = "es" | "en" | "other";
+// "zh" (the Chinese beta) takes characters or pinyin -- see
+// lessons/zh/pinyin.ts.
+export type AnswerLanguage = "es" | "en" | "zh" | "other";
 
 /** Share of a lesson's questions that must be right the first time for the lesson to count as complete. */
 export const LESSON_PASS_PERCENT = 70;
@@ -320,6 +323,7 @@ function variantsOf(answer: string, typedClean: string, opts: GradeOptions): str
  * else is wrong.
  */
 export function gradeFreeText(value: string, answers: string[], opts: GradeOptions): GradeResult {
+  if (opts.lang === "zh") return gradeChineseAnswer(value, answers);
   const prep = (s: string) => (opts.lang === "en" ? contractEnglish(cleanAnswer(s)) : cleanAnswer(s));
   const typed = prep(value);
   if (!typed) return { correct: false };
@@ -336,6 +340,7 @@ export function gradeFreeText(value: string, answers: string[], opts: GradeOptio
 
 /** "es-ES" -> "es", anything else (Japanese) -> "other". */
 export function answerLanguageFor(speechLang: string): AnswerLanguage {
+  if (speechLang.startsWith("zh")) return "zh";
   return speechLang.startsWith("es") ? "es" : "other";
 }
 

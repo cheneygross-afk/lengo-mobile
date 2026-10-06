@@ -1,0 +1,238 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/concepts.ts by scripts/sync-content.mjs -- edit it there, not here.
+// The Chinese course's concept graph: every sound, grammar point and
+// function the course teaches, with prerequisites. Lessons tag what they
+// teach (`teaches`) and review (`reviews`) with these ids; the validator
+// (src/lib/curriculum) uses them to check that nothing is used before it
+// is taught, and review and tests use them to pick questions.
+// Concepts for modules not written yet are listed so their forms are
+// already caught by the leak check (see plugin.ts).
+
+import type { Concept } from "../../curriculum/types";
+
+const c = (level: string, type: Concept["type"], id: string, name: string, gloss: string, requires: string[] = []): Concept => ({
+  id: `zh.${type}.${id}`,
+  type,
+  name,
+  gloss,
+  level,
+  requires: requires.map((r) => (r.startsWith("zh.") ? r : `zh.${r}`)),
+});
+
+export const ZH_CONCEPTS: Concept[] = [
+  // ---- Pinyin & Tones ----
+  c("Pinyin", "sound", "syllables", "Syllable structure", "Initial + final + tone; characters are syllables"),
+  c("Pinyin", "sound", "tones", "The four tones", "Level, rising, dipping and falling pitch", ["sound.syllables"]),
+  c("Pinyin", "sound", "neutral-tone", "Neutral tone", "Light, unmarked syllables (吗, 妈妈)", ["sound.tones"]),
+  c("Pinyin", "sound", "simple-finals", "Simple finals", "a o e i u ü", ["sound.syllables"]),
+  c("Pinyin", "sound", "aspiration", "Aspiration", "b/p, d/t: the puff of air; m f n l", ["sound.simple-finals"]),
+  c("Pinyin", "sound", "palatals", "g k h, j q x", "Back consonants and the palatal j q x", ["sound.aspiration"]),
+  c("Pinyin", "sound", "retroflex", "zh ch sh r, z c s", "Retroflex and dental initials, the buzzing -i", ["sound.palatals"]),
+  c("Pinyin", "sound", "compound-finals", "Compound finals", "ai ei ao ou; -n vs -ng", ["sound.simple-finals"]),
+  c("Pinyin", "sound", "medials", "i/u/ü finals and y/w spelling", "iao, uan, üe ... and spelling with y and w", ["sound.compound-finals"]),
+  c("Pinyin", "sound", "third-tone-sandhi", "Third-tone sandhi", "3+3 becomes 2+3; the half-third tone", ["sound.tones"]),
+  c("Pinyin", "sound", "bu-yi-sandhi", "不 and 一 tone changes", "bú/yí before 4th tone, yì before others", ["sound.tones"]),
+  c("Pinyin", "sound", "pinyin-spelling", "Reading pinyin", "Tone-mark placement, apostrophes, capitals, erhua", ["sound.medials"]),
+  c("Pinyin", "character", "basics", "Characters 101", "Strokes, stroke order, radicals, meaning + sound parts", ["sound.syllables"]),
+
+  // ---- A1 ----
+  c("A1", "function", "greetings", "Greetings", "你好/您好, 再见, 早上好", ["sound.tones"]),
+  c("A1", "function", "thanks-apologies", "Thanks and apologies", "谢谢/不客气, 对不起/没关系", ["sound.tones"]),
+  c("A1", "grammar", "qing", "请 (please)", "请 + verb to invite; 请问", ["function.greetings"]),
+  c("A1", "function", "names", "Names and introductions", "我叫…, 我姓…, 您贵姓, 认识你很高兴", ["function.greetings"]),
+  c("A1", "grammar", "question-word-in-place", "Question words stay in place", "你叫什么名字？ -- no inversion", ["function.names"]),
+  c("A1", "grammar", "pronouns", "Personal pronouns", "我 你 您 他 她 它 + 们", ["function.greetings"]),
+  c("A1", "grammar", "shi", "是 with nouns", "A 是 B; no articles", ["grammar.pronouns"]),
+  c("A1", "grammar", "bu-negation", "不 negation", "不 + verb/adjective (bú before 4th tone)", ["grammar.shi", "sound.bu-yi-sandhi"]),
+  c("A1", "function", "nationality", "Nationalities", "Country + 人; 哪国人", ["grammar.shi"]),
+  c("A1", "grammar", "ma-questions", "吗 questions", "Statement + 吗; answer by repeating the verb", ["grammar.shi"]),
+  c("A1", "grammar", "ne-questions", "呢 (and you?)", "Noun + 呢 bounces the question back", ["grammar.ma-questions"]),
+  c("A1", "grammar", "ye-dou", "也 and 都", "also / all, before the verb", ["grammar.shi"]),
+  c("A1", "vocab", "numbers-0-99", "Numbers 0-99", "零 to 九十九; 幺 in phone numbers", ["sound.tones"]),
+  c("A1", "grammar", "ji", "几 (how many, small)", "几 + measure word; 几岁", ["vocab.numbers-0-99"]),
+  c("A1", "vocab", "numbers-large", "Hundreds and thousands", "百, 千, 零 in the middle", ["vocab.numbers-0-99"]),
+  c("A1", "grammar", "er-liang", "二 vs 两", "两 before measure words and 百/千", ["vocab.numbers-large"]),
+  c("A1", "function", "money", "Money and prices", "多少钱, 块/元, 毛; 便宜/贵", ["vocab.numbers-large"]),
+  c("A1", "grammar", "duoshao", "多少 (how many/much)", "多少 for any number; 多少钱", ["grammar.ji"]),
+  c("A1", "grammar", "measure-words", "Measure words", "Number + 个/本/杯/口/只 + noun", ["vocab.numbers-0-99"]),
+  c("A1", "grammar", "demonstratives", "这, 那, 哪", "This/that/which + measure word", ["grammar.measure-words"]),
+  c("A1", "vocab", "family", "Family members", "爸爸 妈妈 哥哥 姐姐 弟弟 妹妹 …", ["grammar.pronouns"]),
+  c("A1", "grammar", "you-meiyou", "有 and 没有", "To have; negated only with 没", ["grammar.measure-words"]),
+  c("A1", "grammar", "he-and", "和 (and)", "Joins nouns, not sentences", ["grammar.pronouns"]),
+  c("A1", "grammar", "de-possessive", "的 for possession", "Owner + 的 + thing; dropped with family", ["grammar.pronouns"]),
+  c("A1", "grammar", "shei", "谁 / 谁的", "Who / whose", ["grammar.question-word-in-place", "grammar.de-possessive"]),
+  c("A1", "grammar", "adjective-predicates", "Adjective sentences with 很", "No 是 with adjectives; 很 as a link", ["grammar.bu-negation"]),
+  c("A1", "grammar", "tai-le", "太…了", "Too…; 太好了", ["grammar.adjective-predicates"]),
+  c("A1", "grammar", "a-not-a", "A-not-A questions", "忙不忙？ 是不是？", ["grammar.ma-questions", "grammar.bu-negation"]),
+  c("A1", "vocab", "dates", "Dates and weekdays", "今天/明天/昨天, 月, 号, 星期", ["vocab.numbers-0-99"]),
+  c("A1", "grammar", "time-before-verb", "Time words before the verb", "我明天去 -- time comes before the action", ["vocab.dates"]),
+  c("A1", "vocab", "clock-time", "Telling the time", "点, 分, 半; 上午/下午/晚上", ["vocab.numbers-0-99", "grammar.time-before-verb"]),
+  c("A1", "grammar", "zai-location", "在 (to be at)", "Person/thing + 在 + place", ["grammar.shi"]),
+  c("A1", "grammar", "nar-where", "哪儿/哪里 (where)", "在哪儿？", ["grammar.zai-location", "grammar.question-word-in-place"]),
+  c("A1", "grammar", "zai-place-verb", "在 + place + verb", "Where an action happens goes before the verb", ["grammar.zai-location"]),
+  c("A1", "grammar", "position-words", "Position words", "Noun + 上/下/里/旁边/前面/后面", ["grammar.zai-location"]),
+  c("A1", "grammar", "you-existence", "Place + 有 (there is)", "有 for new things, 在 for known ones", ["grammar.position-words", "grammar.you-meiyou"]),
+  c("A1", "grammar", "question-words", "More question words", "什么时候, 怎么, 怎么样", ["grammar.question-word-in-place", "grammar.time-before-verb"]),
+  c("A1", "grammar", "xiang-yao", "想 and 要", "Would like to / want; 想 needs a verb", ["grammar.bu-negation"]),
+  c("A1", "function", "ordering-food", "Ordering food", "服务员, 来…, 买单; food and drink words", ["grammar.xiang-yao", "grammar.measure-words"]),
+  c("A1", "grammar", "hui-neng", "会 vs 能", "Learned skill vs able/allowed now", ["grammar.xiang-yao"]),
+  c("A1", "grammar", "le-completed", "了 for completed actions", "Verb + 了 (+ object); 了 at the end", ["grammar.time-before-verb"]),
+  c("A1", "grammar", "mei-past", "没 for past negation", "没(有) + verb, never with 了", ["grammar.le-completed", "grammar.you-meiyou"]),
+  c("A1", "grammar", "hai-mei", "还没 (not yet)", "还没 + verb", ["grammar.mei-past"]),
+  c("A1", "grammar", "ba-suggestion", "吧 (suggestion)", "Softens a suggestion: 我们走吧", ["grammar.ma-questions"]),
+  c("A1", "grammar", "transport", "Going places and transport", "去/来/回 + place; 坐 + vehicle + 去", ["grammar.zai-place-verb"]),
+  c("A1", "vocab", "weather", "Weather", "冷, 热, 下雨, 下雪", ["grammar.adjective-predicates"]),
+  c("A1", "grammar", "xihuan", "喜欢", "To like + noun or verb", ["grammar.bu-negation"]),
+  c("A1", "grammar", "le-new-situation", "了 for a new situation", "下雨了 -- something has changed", ["grammar.le-completed"]),
+
+  // ---- A2 ----
+  c("A2", "grammar", "guo-experience", "过 (experience)", "Verb + 过: have ever done", ["grammar.le-completed"]),
+  c("A2", "grammar", "zai-progressive", "在/正在 … 呢 (ongoing)", "Action in progress", ["grammar.zai-place-verb"]),
+  c("A2", "grammar", "bi-comparison", "比 comparisons", "A 比 B + adjective (+ amount)", ["grammar.adjective-predicates"]),
+  c("A2", "grammar", "de-complement", "得 complements of degree", "Verb + 得 + description: 说得很好", ["grammar.adjective-predicates"]),
+  c("A2", "grammar", "result-complements", "Result complements", "看完, 听懂, 找到, 写错", ["grammar.le-completed"]),
+  c("A2", "grammar", "direction-complements", "Direction complements", "Verb + 来/去, 上来, 回去", ["grammar.transport"]),
+  c("A2", "grammar", "yinwei-suoyi", "因为…所以…", "Because…so…", ["grammar.adjective-predicates"]),
+  c("A2", "grammar", "suiran-danshi", "虽然…但是…", "Although…but…", ["grammar.yinwei-suoyi"]),
+  c("A2", "grammar", "yijing", "已经 (already)", "已经 + verb + 了", ["grammar.le-completed"]),
+  c("A2", "grammar", "jiu-cai", "就 and 才", "Sooner/later than expected", ["grammar.time-before-verb"]),
+  c("A2", "grammar", "yao-le", "要…了 (about to)", "Something is about to happen", ["grammar.le-new-situation"]),
+  c("A2", "grammar", "cong-dao", "从…到…", "From…to… (time and place)", ["grammar.transport"]),
+  c("A2", "grammar", "gei-for", "给 (for, to)", "给 + person + verb", ["grammar.he-and"]),
+  c("A2", "grammar", "rang-causative", "让 (let, make)", "让 + person + verb", ["grammar.xiang-yao"]),
+  c("A2", "grammar", "ruguo", "如果…就…", "If…then…", ["grammar.jiu-cai"]),
+  c("A2", "grammar", "haishi-huozhe", "还是 vs 或者", "Or in questions vs statements", ["grammar.ma-questions"]),
+  c("A2", "grammar", "yibian", "一边…一边…", "Doing two things at once", ["grammar.zai-progressive"]),
+  c("A2", "grammar", "zhe-state", "着 (ongoing state)", "Verb + 着", ["grammar.zai-progressive"]),
+  c("A2", "grammar", "ba-construction", "把 sentences (intro)", "把 + object + verb + result", ["grammar.result-complements"]),
+  c("A2", "grammar", "yue-yue", "越…越…", "The more…the more…", ["grammar.bi-comparison"]),
+  c("A2", "grammar", "meiyou-comparison", "没有…那么 (not as … as)", "A 没有 B 那么 + adjective", ["grammar.bi-comparison"]),
+  c("A2", "grammar", "di-adverbial", "地 (how something is done)", "Adjective + 地 + verb: 慢慢地走", ["grammar.de-complement"]),
+  c("A2", "grammar", "duration", "How long: 小时, 分钟, 年", "Verb + duration: 学了两年, 等了十分钟", ["grammar.le-completed"]),
+  c("A2", "grammar", "yiqian-yihou", "以前, 以后, …的时候", "Before, after and when", ["grammar.time-before-verb"]),
+  c("A2", "grammar", "yinggai-keyi", "应该, 可以, 得 (must)", "Should, may, have to", ["grammar.hui-neng"]),
+  c("A2", "vocab", "hobbies", "Hobbies and free time", "运动, 爬山, 听音乐, 周末", ["grammar.xihuan"]),
+  c("A2", "vocab", "clothes-colors", "Clothes and colours", "衣服, 件, 条, 红色, 穿", ["grammar.measure-words"]),
+  c("A2", "function", "phone", "Phone calls and plans", "喂, 打电话, 有空, 见面", ["grammar.question-words"]),
+  c("A2", "function", "directions", "Asking the way", "往左拐, 一直走, 离…远/近", ["grammar.position-words"]),
+  c("A2", "vocab", "health", "Body and health", "头疼, 发烧, 感冒, 看病", ["grammar.you-meiyou"]),
+
+  // ---- B1 ----
+  // Unit 1: opinions and comparisons
+  c("B1", "grammar", "zui-bijiao", "最 and 比较", "The most; fairly, rather", ["grammar.bi-comparison"]),
+  c("B1", "grammar", "juede-renwei", "觉得 and 认为", "Giving opinions: I think, I feel", ["grammar.adjective-predicates"]),
+  c("B1", "grammar", "duo-adj", "多 + adjective questions", "多大, 多远, 多高, 多重: how old, far, tall, heavy", ["grammar.duration"]),
+  c("B1", "grammar", "youyou", "又…又…", "Both … and …: 又便宜又好吃", ["grammar.adjective-predicates"]),
+  c("B1", "grammar", "dui-guanyu", "对 and 关于", "Toward, about: 对…感兴趣, 关于中国的书", ["grammar.gei-for"]),
+  c("B1", "grammar", "shi-de", "是…的", "Stressing when, where or how something happened", ["grammar.le-completed"]),
+  // Unit 2: ability and possibility
+  c("B1", "grammar", "potential-complements", "Potential complements", "看得懂 / 看不懂: can or can't manage it", ["grammar.result-complements"]),
+  c("B1", "grammar", "qilai", "起来", "Start to, seem: 看起来, 想起来, 笑起来", ["grammar.direction-complements"]),
+  c("B1", "grammar", "verb-reduplication", "看看, 试一试, 一下", "Doing something briefly or casually", ["grammar.xiang-yao"]),
+  c("B1", "grammar", "yi-jiu", "一…就…", "As soon as", ["grammar.jiu-cai"]),
+  c("B1", "grammar", "gang", "刚 and 刚才", "Just (now)", ["grammar.yijing"]),
+  c("B1", "grammar", "you-zai", "又 and 再", "Again: already happened (又) or still to come (再)", ["grammar.le-completed"]),
+  // Unit 3: doing things to things
+  c("B1", "grammar", "bei-passive", "被 passive", "Object + 被 + doer + verb", ["grammar.ba-construction"]),
+  c("B1", "grammar", "ba-cheng", "把…成/到/给", "Turning or moving something: 把…翻译成…, 把…送到…", ["grammar.ba-construction"]),
+  c("B1", "vocab", "measure-range", "More measure words", "张, 条, 辆, 台, 封, 座, 位, 家, 份", ["grammar.measure-words"]),
+  c("B1", "vocab", "work", "Work and jobs", "工作, 公司, 经理, 同事, 加班, 请假", ["grammar.zai-place-verb"]),
+  c("B1", "function", "travel", "Travel and hotels", "订, 房间, 护照, 行李, 退房", ["grammar.transport"]),
+  // Unit 4: linking ideas
+  c("B1", "grammar", "budan-erqie", "不但…而且…", "Not only … but also", ["grammar.suiran-danshi"]),
+  c("B1", "grammar", "chule-yiwai", "除了…以外", "Besides; except", ["grammar.ye-dou"]),
+  c("B1", "grammar", "lian-dou", "连…都/也", "Even", ["grammar.ye-dou"]),
+  c("B1", "grammar", "zhiyao-jiu", "只要…就…", "As long as", ["grammar.ruguo"]),
+  c("B1", "grammar", "zhiyou-cai", "只有…才…", "Only if", ["grammar.jiu-cai"]),
+  c("B1", "grammar", "indefinite-question-words", "什么都, 谁都, 哪儿都", "Question words meaning any-, every-, no-", ["grammar.question-words", "grammar.ye-dou"]),
+  // Unit 5: life topics
+  c("B1", "vocab", "feelings", "Feelings", "生气, 担心, 害怕, 着急, 难过, 放心", ["grammar.adjective-predicates"]),
+  c("B1", "function", "sequencing", "先…然后…最后", "Telling things in order", ["grammar.yiqian-yihou"]),
+  c("B1", "vocab", "education", "School and study", "考试, 专业, 毕业, 成绩, 留学", ["grammar.duration"]),
+  // ---- B2 ----
+  // Unit 1: conditions and concessions
+  c("B2", "grammar", "jishi-ye", "即使…也…", "Even if", ["grammar.ruguo", "grammar.ye-dou"]),
+  c("B2", "grammar", "buguan-dou", "不管/无论…都…", "No matter (what, who, how)", ["grammar.indefinite-question-words"]),
+  c("B2", "grammar", "jiran-jiu", "既然…就…", "Since (given that)", ["grammar.yinwei-suoyi", "grammar.jiu-cai"]),
+  c("B2", "grammar", "fouze", "否则 and 不然", "Otherwise", ["grammar.ruguo"]),
+  c("B2", "grammar", "jinguan", "尽管", "Although, even though (more formal than 虽然)", ["grammar.suiran-danshi"]),
+  // Unit 2: cause, result and purpose
+  c("B2", "grammar", "weile", "为了", "In order to, for the sake of", ["grammar.gei-for"]),
+  c("B2", "grammar", "youyu-yinci", "由于…因此…", "Owing to …, therefore (formal cause and effect)", ["grammar.yinwei-suoyi"]),
+  c("B2", "grammar", "yushi", "于是", "And so, thereupon", ["function.sequencing"]),
+  c("B2", "grammar", "jieguo", "结果", "As a result; in the end (often unexpected)", ["grammar.yinwei-suoyi"]),
+  c("B2", "grammar", "zhihao-budebu", "只好 and 不得不", "Have no choice but to; have to", ["grammar.yinggai-keyi"]),
+  // Unit 3: nuance and emphasis
+  c("B2", "grammar", "bing-negation", "并不 / 并没有", "Not at all, actually not (contradicting an assumption)", ["grammar.bu-negation", "grammar.mei-past"]),
+  c("B2", "grammar", "nandao", "难道…吗", "Rhetorical questions: surely not …?", ["grammar.ma-questions"]),
+  c("B2", "grammar", "daodi", "到底 and 究竟", "On earth, after all, in the end", ["grammar.question-words"]),
+  c("B2", "grammar", "jingran", "竟然 and 没想到", "Unexpectedly, to my surprise", ["grammar.juede-renwei"]),
+  c("B2", "grammar", "kongpa", "恐怕", "I'm afraid (that), probably", ["grammar.juede-renwei"]),
+  c("B2", "grammar", "chadianr", "差点儿", "Almost, nearly (but didn't)", ["grammar.le-completed"]),
+  // Unit 4: formal register
+  c("B2", "grammar", "formal-words", "是否, 与, 以及", "Written-style whether, and, as well as", ["grammar.he-and", "grammar.a-not-a"]),
+  c("B2", "grammar", "dui-laishuo", "对…来说", "For (someone), as far as … is concerned", ["grammar.dui-guanyu"]),
+  c("B2", "grammar", "zai-fangmian", "在…方面 / 在…上", "In terms of, in the area of", ["grammar.dui-guanyu"]),
+  c("B2", "grammar", "suizhe", "随着", "Along with, as … changes", ["grammar.yue-yue"]),
+  c("B2", "vocab", "chengyu", "Four-character idioms", "马马虎虎, 一路平安, 入乡随俗 and other everyday 成语", ["vocab.feelings"]),
+  // Unit 5: society and the world
+  c("B2", "vocab", "environment", "The environment", "环境, 污染, 保护, 垃圾, 节约", ["grammar.yinwei-suoyi"]),
+  c("B2", "vocab", "internet", "Life online", "上网, 网上购物, 下载, 手机支付, 密码", ["grammar.result-complements"]),
+  c("B2", "function", "customs", "Festivals and customs", "春节, 中秋节, 红包, 习惯, 风俗", ["vocab.dates"]),
+  // ---- C1 (taught in Chinese; names and glosses in Chinese too) ----
+  // Unit 1: argument and discourse
+  c("C1", "grammar", "ran-er", "然而和而", "书面语的转折和对比", ["grammar.suiran-danshi"]),
+  c("C1", "grammar", "yuqi-buru", "与其…不如…", "比较两种做法，选后一种", ["grammar.bi-comparison"]),
+  c("C1", "grammar", "ningke", "宁可…也不…", "坚决的选择", ["grammar.jishi-ye"]),
+  c("C1", "function", "shouxian-qici", "首先、其次、最后", "有条理地排列观点", ["function.sequencing"]),
+  c("C1", "function", "zongzhi", "总之、换句话说", "总结和换个说法", ["function.sequencing"]),
+  // Unit 2: emphasis and degree
+  c("C1", "grammar", "degree", "极了、得不得了、极其", "表示程度很高", ["grammar.de-complement"]),
+  c("C1", "grammar", "shenzhi", "甚至", "引出更进一步的例子", ["grammar.lian-dou"]),
+  c("C1", "grammar", "hekuang", "何况、更不用说", "后面的情况当然更是这样", ["grammar.lian-dou"]),
+  c("C1", "grammar", "fan-er", "反而", "结果跟预料的相反", ["grammar.suiran-danshi"]),
+  c("C1", "grammar", "fanzheng", "反正", "不管怎样，结论都一样", ["grammar.buguan-dou"]),
+  // Unit 3: classical traces in modern writing
+  c("C1", "grammar", "zhi", "之", "书面语的「的」：之一、之间、三分之一", ["grammar.de-possessive"]),
+  c("C1", "grammar", "qi", "其", "书面语的代词：其中、尤其、及其", ["grammar.pronouns"]),
+  c("C1", "grammar", "yi-wei", "以…为…", "把 A 当作 B：以…为主、以…为例", ["grammar.formal-words"]),
+  c("C1", "grammar", "wei-suo", "为…所、被…所", "书面语的被动句", ["grammar.bei-passive"]),
+  c("C1", "grammar", "written-negatives", "无、未、勿、非…不可", "书面语的否定", ["grammar.formal-words"]),
+  // Unit 4: Chinese at work
+  c("C1", "vocab", "meetings", "开会", "议程、讨论、方案、决定", ["vocab.work"]),
+  c("C1", "vocab", "negotiation", "谈判", "价格、优惠、让步、合同", ["vocab.work"]),
+  c("C1", "function", "business-email", "商务邮件", "附件、请查收、期待您的回复", ["grammar.formal-words"]),
+  c("C1", "function", "interview", "面试", "应聘、简历、经验、优势", ["vocab.work"]),
+  c("C1", "function", "formal-politeness", "客气话", "请多指教、麻烦您、辛苦了", ["function.thanks-apologies"]),
+  // Unit 5: news and society
+  c("C1", "function", "news", "看新闻", "据报道、表示、将、于", ["grammar.formal-words"]),
+  c("C1", "vocab", "data-trends", "数据和变化", "百分之、增长、下降、翻一番", ["grammar.suizhe"]),
+  c("C1", "vocab", "society", "社会话题", "老龄化、城市化、教育、医疗", ["vocab.environment"]),
+  // ---- C2 (taught in Chinese; names and glosses in Chinese) ----
+  // Unit 1: classical function words
+  c("C2", "grammar", "zhe", "者", "…的人：读者、作者；前者和后者", ["grammar.zhi"]),
+  c("C2", "grammar", "yibian-yimian", "以便、以免", "为了能…；为了不…", ["grammar.weile"]),
+  c("C2", "grammar", "yin-er", "因…而…", "因为某个原因而有某个结果", ["grammar.youyu-yinci"]),
+  c("C2", "grammar", "ji-nai", "即、乃", "书面语的「就是」", ["grammar.shi"]),
+  c("C2", "grammar", "he", "何", "书面语的「什么」：何时、为何、如何、何必", ["grammar.question-words"]),
+  // Unit 2: rhetoric
+  c("C2", "function", "biyu", "比喻", "仿佛、如同、像…一样", ["grammar.bi-comparison"]),
+  c("C2", "function", "paibi", "排比和对偶", "结构相同的句子排在一起", ["function.shouxian-qici"]),
+  c("C2", "function", "fanwen", "反问", "用问句表示肯定或否定", ["grammar.nandao"]),
+  c("C2", "function", "kuazhang", "夸张", "故意说得很大或很小", ["grammar.degree"]),
+  c("C2", "grammar", "yuqi-ci", "语气词", "吧、嘛、呗、啊、呢的语气", ["grammar.ba-suggestion"]),
+  // Unit 3: idioms and sayings
+  c("C2", "vocab", "chengyu-stories", "成语故事", "守株待兔、画蛇添足、亡羊补牢", ["vocab.chengyu"]),
+  c("C2", "vocab", "suyu", "俗语和谚语", "一分钱一分货、熟能生巧、百闻不如一见", ["vocab.chengyu"]),
+  c("C2", "vocab", "xiehouyu", "歇后语", "前半句是比喻，后半句是意思", ["vocab.chengyu"]),
+  c("C2", "vocab", "baobian", "褒义和贬义", "词语带着的称赞或批评的感情", ["vocab.chengyu"]),
+  // Unit 4: regions and registers
+  c("C2", "vocab", "regional", "南北差异", "各地说法不同：土豆和洋芋，自行车和单车", ["vocab.society"]),
+  c("C2", "vocab", "cross-strait", "两岸用语", "大陆和台湾的不同说法，简体字和繁体字", ["vocab.internet"]),
+  c("C2", "vocab", "cantonese-loans", "粤语借词", "买单、打的、炒鱿鱼、搞定", ["vocab.work"]),
+  c("C2", "vocab", "internet-slang", "网络用语", "点赞、吐槽、给力、内卷、躺平", ["vocab.internet"]),
+  c("C2", "function", "register", "口语和书面语", "同一个意思的两种说法：买和购买", ["grammar.formal-words"]),
+  // Unit 5: literature and thought
+  c("C2", "function", "poetry", "古诗", "读懂和朗读简单的唐诗", ["grammar.zhi"]),
+  c("C2", "function", "classics", "《论语》名句", "温故而知新、己所不欲，勿施于人", ["grammar.written-negatives"]),
+  c("C2", "function", "essay", "议论文", "论点、论据、结论；由此可见、综上所述", ["function.zongzhi"]),
+];

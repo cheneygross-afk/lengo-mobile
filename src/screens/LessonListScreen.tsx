@@ -4,14 +4,15 @@ import { useFocusEffect } from "@react-navigation/native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import type { Lesson } from "@/lib/lessons/types";
-import { LESSON_SOURCES, type LessonModuleKey } from "@/lib/lessons/registry";
+import { LESSON_SOURCES, type LessonModuleKey, type ModuleUnit } from "@/lib/lessons/registry";
 import { getCompletedMap, syncCompletedMapFromCloud } from "@/lib/lessons/completion";
 import { displayTitle, firstIncompleteRequired, requiredLessons } from "@/lib/lessons/levels";
-import { isUnitLevelPath, unitsFor, type CourseUnit } from "@/lib/lessons/units";
+import { isUnitLevelPath, unitsFor } from "@/lib/lessons/units";
 import { getPendingReviewBatch, type PendingReviewBatch } from "@/lib/lessons/reviewCadence";
 import { parseDurationMinutes, formatMinutes } from "@/lib/duration";
 import LevelWatchSection from "@/components/LevelWatchSection";
 import CanDoCard from "@/components/CanDoCard";
+import ConceptCanDoCard from "@/components/ConceptCanDoCard";
 import { CAN_DO_STATEMENTS } from "@/lib/lessons/canDo";
 import { LEVEL_WATCH_VIDEOS } from "@/lib/lessons/lessonVideos";
 import type { SpanishLevelPath } from "@/lib/lessons/levels";
@@ -22,18 +23,21 @@ type Props = NativeStackScreenProps<AppStackParamList, "LessonList">;
 // toggle for its folded Extra Practice lessons.
 type Row =
   | { kind: "lesson"; lesson: Lesson }
-  | { kind: "testout"; unit: CourseUnit }
-  | { kind: "extras"; unit: CourseUnit; count: number; open: boolean };
+  | { kind: "testout"; unit: ModuleUnit }
+  | { kind: "extras"; unit: ModuleUnit; count: number; open: boolean };
 
-type Section = { key: string; unit?: CourseUnit; title: string; data: Row[] };
+type Section = { key: string; unit?: ModuleUnit; title: string; data: Row[] };
 
 // Screen 4. Spanish's A1 is the default when no moduleKey is passed, so
 // every existing "Lessons" navigation call keeps working unchanged. The
 // Spanish levels (and Cosas Coloquiales) show their units from the
 // synced units.ts -- the same grouping as the website's level pages --
 // each collapsible, with its progress and a "Test out" quiz; only the
-// unit holding the next lesson starts open. The Japanese beta's modules
-// (see JapaneseLevelsScreen) navigate here too and stay one flat list.
+// unit holding the next lesson starts open. The Chinese beta's modules
+// show their assembled units the same way, with a test-out drawn from
+// the item bank, and their can-do statements ticked off from progress.
+// The Japanese beta's modules (see JapaneseLevelsScreen) stay one flat
+// list.
 export default function LessonListScreen({ navigation, route }: Props) {
   const moduleKey: LessonModuleKey = route.params?.moduleKey ?? "a1";
   const source = LESSON_SOURCES[moduleKey];
@@ -74,7 +78,10 @@ export default function LessonListScreen({ navigation, route }: Props) {
   }, [navigation, moduleKey, hasUnits, source.title]);
 
   const lessons = source.lessons;
-  const units = useMemo(() => (isUnitLevelPath(moduleKey) ? unitsFor(moduleKey) : null), [moduleKey]);
+  const units: ModuleUnit[] | null = useMemo(
+    () => (isUnitLevelPath(moduleKey) ? unitsFor(moduleKey).map((u) => ({ ...u, testOut: true })) : source.units ?? null),
+    [moduleKey, source.units]
+  );
   const titles = useMemo(() => new Map(lessons.map((l) => [l.slug, displayTitle(l, lessons)])), [lessons]);
 
   // Counts the required path only -- optional Extra Practice lessons (see
@@ -92,7 +99,7 @@ export default function LessonListScreen({ navigation, route }: Props) {
       const open = toggled[unit.id] ?? unit.id === currentUnit?.id;
       const data: Row[] = [];
       if (open) {
-        if (unit.required.some((l) => !completed[l.slug])) data.push({ kind: "testout", unit });
+        if (unit.testOut && unit.required.some((l) => !completed[l.slug])) data.push({ kind: "testout", unit });
         for (const lesson of unit.required) data.push({ kind: "lesson", lesson });
         if (unit.optional.length > 0) {
           const extras = !!extrasOpen[unit.id];
@@ -111,6 +118,7 @@ export default function LessonListScreen({ navigation, route }: Props) {
         {units ? ` · ${units.length} units` : ""}
       </Text>
       {moduleKey in CAN_DO_STATEMENTS && <CanDoCard levelPath={moduleKey as SpanishLevelPath} />}
+      {source.canDo && <ConceptCanDoCard statements={source.canDo} lessons={lessons} completed={completed} />}
       {next && units && (
         <Pressable style={styles.continueCard} onPress={() => navigation.navigate("LessonRunner", { slug: next.slug })}>
           <Text style={styles.continueKicker}>

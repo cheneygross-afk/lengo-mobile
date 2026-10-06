@@ -16,10 +16,11 @@ import { getTodaysReviewCounts, seedScheduleFromCompletions } from "@/lib/todays
 import { todaysReviewTotal } from "@/lib/dailyReview";
 import { SPANISH_LEVEL_ORDER, nextLessonToContinue, type ContinueLesson, type LearnerPrefs } from "@/lib/learnerPlan";
 import { formatMinutes } from "@/lib/duration";
+import { courseOfLevelPath } from "@/lib/courses";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Home">;
 
-type Language = "es" | "ja";
+type Language = "es" | "ja" | "zh";
 
 const LANGUAGE_STORAGE_KEY = "deepend-selected-language";
 
@@ -48,7 +49,8 @@ async function loadSummary(fromCloud: boolean): Promise<Summary> {
   );
   const completed = Object.fromEntries(SPANISH_LEVEL_ORDER.map((lp, i) => [lp, maps[i]]));
   const cards = Object.values(await loadFlashcards());
-  const ja = cards.filter((c) => c.levelPath.startsWith("ja"));
+  const ja = cards.filter((c) => courseOfLevelPath(c.levelPath) === "ja");
+  const zh = cards.filter((c) => courseOfLevelPath(c.levelPath) === "zh");
   const study = fromCloud ? await syncStudyDays() : await getStudySummary();
   // Lessons finished before the daily review mix existed (or on the
   // website) join it once their completions are here.
@@ -60,6 +62,7 @@ async function loadSummary(fromCloud: boolean): Promise<Summary> {
     dueByLang: {
       es: todaysReviewTotal(await getTodaysReviewCounts()),
       ja: (await getDueCardsForToday(ja, prefs)).length,
+      zh: (await getDueCardsForToday(zh, prefs)).length,
     },
     streak: study.streak.current,
     studiedToday: study.streak.studiedToday,
@@ -77,7 +80,7 @@ export default function HomeScreen({ navigation }: Props) {
         // An account without beta access (or one that's lost it) never
         // sees Japanese, even if a previous session on this device had
         // it selected.
-        setLanguage(saved === "ja" && hasJapaneseBetaAccess ? "ja" : "es");
+        setLanguage((saved === "ja" || saved === "zh") && hasJapaneseBetaAccess ? saved : "es");
       });
     }, [hasJapaneseBetaAccess])
   );
@@ -85,7 +88,7 @@ export default function HomeScreen({ navigation }: Props) {
   // Falls back to Spanish the moment access is lost mid-session too, not
   // just on next focus.
   useEffect(() => {
-    if (language === "ja" && !hasJapaneseBetaAccess) setLanguage("es");
+    if (language !== "es" && !hasJapaneseBetaAccess) setLanguage("es");
   }, [hasJapaneseBetaAccess, language]);
 
   const [summary, setSummary] = useState<Summary | null>(null);
@@ -142,6 +145,7 @@ export default function HomeScreen({ navigation }: Props) {
             <View style={styles.langRow}>
               <LangPill label="Spanish" active={language === "es"} onPress={() => selectLanguage("es")} />
               <LangPill label="Japanese (beta)" active={language === "ja"} onPress={() => selectLanguage("ja")} />
+              <LangPill label="Chinese (beta)" active={language === "zh"} onPress={() => selectLanguage("zh")} />
             </View>
           )}
 
@@ -206,10 +210,15 @@ export default function HomeScreen({ navigation }: Props) {
                 <Text style={styles.cardTitle}>Lessons</Text>
                 <Text style={styles.cardBody}>Structured lessons, from beginner to advanced.</Text>
               </Pressable>
-            ) : (
+            ) : language === "ja" ? (
               <Pressable style={styles.card} onPress={() => navigation.navigate("JapaneseLevels")}>
                 <Text style={styles.cardTitle}>Lessons</Text>
                 <Text style={styles.cardBody}>Hiragana, katakana, and A1 to B1.</Text>
+              </Pressable>
+            ) : (
+              <Pressable style={styles.card} onPress={() => navigation.navigate("ChineseLevels")}>
+                <Text style={styles.cardTitle}>Lessons</Text>
+                <Text style={styles.cardBody}>Pinyin and tones, then A1 Mandarin.</Text>
               </Pressable>
             )}
 
@@ -272,7 +281,8 @@ export default function HomeScreen({ navigation }: Props) {
           in it, covers whatever's behind it instead of shifting/
           squeezing this screen's own layout -- nothing here needs to
           react to it opening. */}
-      <TranslateBar language={language} />
+      {/* The translator covers Spanish and Japanese only. */}
+      {language !== "zh" && <TranslateBar language={language} />}
     </View>
   );
 }

@@ -14,10 +14,10 @@ export type AppStackParamList = {
   // navigation call (Spanish) keeps working unchanged -- see
   // ReviewListScreen, which uses it to only show that language's own
   // saved lessons, never both tracks merged together.
-  Review: { lang?: "es" | "ja" } | undefined;
+  Review: { lang?: "es" | "ja" | "zh" } | undefined;
   // lang defaults to "es" when omitted, so every existing "Flashcards"
   // navigation call (Spanish) keeps working unchanged.
-  Flashcards: { lang?: "es" | "ja" } | undefined;
+  Flashcards: { lang?: "es" | "ja" | "zh" } | undefined;
   // Premade frequency decks (src/lib/decks) to add to Spanish flashcards.
   FrequencyDecks: undefined;
   // Readings' level picker (A1-C1/C2) -- see ReadingLevelsScreen. Home
@@ -30,6 +30,14 @@ export type AppStackParamList = {
   // JapaneseLevelsScreen. Only reachable from Home when the signed-in
   // account has japanese_beta_access.
   JapaneseLevels: undefined;
+  // The Chinese beta's level picker -- see ChineseLevelsScreen. Shown to
+  // the same beta testers as Japanese.
+  ChineseLevels: undefined;
+  // The Chinese beta's own daily review (per-concept scheduler) -- see
+  // ChineseReviewScreen. Separate from the Spanish TodayReview.
+  ChineseReview: undefined;
+  // The Chinese placement test -- see ChinesePlacementScreen.
+  ChinesePlacement: undefined;
   Settings: undefined;
   // First-run setup (starting level + daily goal) -- opened by Home when
   // the account hasn't done it here or on the website.
