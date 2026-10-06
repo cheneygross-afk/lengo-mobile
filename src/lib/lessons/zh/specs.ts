@@ -565,7 +565,35 @@ export const ZH_C2_SPEC: LevelSpec = {
       "zh-c2-review",
     ]),
   ],
-  layers: [],
+  layers: [
+    // Unit 1
+    D("zh-c2d-zhe", "替换练习", "zh-c2-zhe", ["grammar.zhe"]),
+    D("zh-c2d-yibian", "句型练习", "zh-c2-yibian", ["grammar.yibian-yimian"]),
+    R("zh-c2r-yin-er", "改写", "zh-c2-yin-er", ["grammar.yin-er", "grammar.youyu-yinci"]),
+    D("zh-c2d-ji", "快速练习", "zh-c2-ji", ["grammar.ji-nai"], { production: 6, "listen-choose": 2 }),
+    R("zh-c2r-he", "改写", "zh-c2-he", ["grammar.he"]),
+    // Unit 2
+    R("zh-c2r-biyu", "任务", "zh-c2-biyu", ["function.biyu"]),
+    R("zh-c2r-paibi", "任务", "zh-c2-paibi", ["function.paibi"]),
+    R("zh-c2r-fanwen", "改写", "zh-c2-fanwen", ["function.fanwen"]),
+    D("zh-c2d-kuazhang", "快速练习", "zh-c2-kuazhang", ["function.kuazhang"], { production: 6, "listen-choose": 2 }),
+    R("zh-c2r-yuqici", "对话", "zh-c2-yuqici", ["grammar.yuqi-ci"]),
+    // Unit 3
+    D("zh-c2d-chengyu", "快速练习", "zh-c2-chengyu-stories", ["vocab.chengyu-stories"], { production: 6, "listen-choose": 2 }),
+    R("zh-c2r-suyu", "对话", "zh-c2-suyu", ["vocab.suyu"]),
+    D("zh-c2d-xiehouyu", "循环练习", "zh-c2-xiehouyu", ["vocab.xiehouyu"]),
+    R("zh-c2r-baobian", "对比", "zh-c2-baobian", ["vocab.baobian"]),
+    // Unit 4
+    R("zh-c2r-regional", "对话", "zh-c2-regional", ["vocab.regional"]),
+    R("zh-c2r-cross-strait", "改写", "zh-c2-cross-strait", ["vocab.cross-strait"]),
+    R("zh-c2r-cantonese", "对话", "zh-c2-cantonese", ["vocab.cantonese-loans"]),
+    D("zh-c2d-slang", "快速练习", "zh-c2-internet-slang", ["vocab.internet-slang"], { production: 6, "listen-choose": 2 }),
+    R("zh-c2r-register", "改写", "zh-c2-register", ["function.register"]),
+    // Unit 5
+    R("zh-c2r-poetry", "任务", "zh-c2-poetry", ["function.poetry"]),
+    R("zh-c2r-classics", "改写", "zh-c2-classics", ["function.classics"]),
+    R("zh-c2r-essay", "任务", "zh-c2-essay", ["function.essay"]),
+  ],
 };
 
 /** Every level spec, in course order. */
