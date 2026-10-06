@@ -21,3 +21,8 @@ export function showEnglishFor(level: string, saved: unknown): boolean {
   }
   return showEnglishByDefault(level);
 }
+
+// The English for Spanish speakers course's stories keep the same kind of
+// { [level]: boolean } map for their «Mostrar traducción» (Spanish) toggle
+// under their own key, hidden by default at every level too.
+export const EN_STORY_TRANSLATION_STORAGE_KEY = "deepend-en-story-spanish";

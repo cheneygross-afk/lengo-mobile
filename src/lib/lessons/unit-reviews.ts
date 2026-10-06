@@ -37,6 +37,10 @@ import { C2_UNIT_WRITING } from "./unit-writing-c2";
 // lesson is stable between builds and identical on the website and in the
 // app. Instructions are in English for A1/A2 and in Spanish from B1.
 // The last unit's review comes right before the level test.
+//
+// The English for Spanish speakers course builds its reviews with the same
+// machinery (buildUnitReview with an English-course ReviewProfile, see
+// en-unit-reviews.ts); the Spanish course's profile is spanishProfile().
 
 type Level = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
 
@@ -122,7 +126,9 @@ function usableEn(en: string | undefined, es: string): en is string {
 /** Drops a trailing "(México)"-style note. */
 const stripNote = (t: string) => t.replace(/\s*\([^()]*\)\s*$/, "").trim();
 
-type Sentence = { es: string; en?: string };
+/** A target-language sentence (`es`, named as in LessonExample) with its
+ * translation into the learner's language (`en`), when usable. */
+export type Sentence = { es: string; en?: string };
 
 const ENGLISH_PROSE = /\b(the|and|is|are|you|of|with|this|that|it|which)\b/i;
 
@@ -136,7 +142,8 @@ function proseSentences(paragraph: string): LessonExample[] {
  * after them, as fallbacks) sentences from its exercises' answers and,
  * from B1 up, where the explanations are in Spanish, from the lessons'
  * explanations (untranslated, so only for reading aloud and dictation). */
-function unitSentences(lessons: readonly Lesson[], random: () => number, spanishProse: boolean): Sentence[] {
+function unitSentences(lessons: readonly Lesson[], random: () => number, profile: ReviewProfile): Sentence[] {
+  const { prose: spanishProse, glossOk, targetAnswerDirection } = profile;
   const seen = new Set<string>();
   const collect = (list: LessonExample[]): Sentence[] => {
     const out: Sentence[] = [];
@@ -145,7 +152,7 @@ function unitSentences(lessons: readonly Lesson[], random: () => number, spanish
       const en = ex.en === undefined ? undefined : stripNote(ex.en);
       if (!usableEs(es, 140) || seen.has(es.toLowerCase())) continue;
       seen.add(es.toLowerCase());
-      out.push({ es, en: usableEn(en, es) ? en : undefined });
+      out.push({ es, en: glossOk(en, es) ? en : undefined });
     }
     return out;
   };
@@ -153,7 +160,7 @@ function unitSentences(lessons: readonly Lesson[], random: () => number, spanish
   const fromExercises = lessons
     .flatMap((l) => [...l.sections.flatMap((s) => s.checkpoint ?? []), ...l.exercises])
     .flatMap((e): LessonExample[] => {
-      if (e.type === "translate") return [e.direction === "en-es" ? { es: e.answer, en: e.source } : { es: e.source, en: e.answer }];
+      if (e.type === "translate") return [e.direction === targetAnswerDirection ? { es: e.answer, en: e.source } : { es: e.source, en: e.answer }];
       if (e.type === "fill-blank" && e.en && e.sentence.split("___").length === 2) {
         return [{ es: e.sentence.replace("___", e.answer), en: e.en.replace(/[[\]]/g, "") }];
       }
@@ -163,17 +170,19 @@ function unitSentences(lessons: readonly Lesson[], random: () => number, spanish
   return [...shuffled(collect(examples), random), ...shuffled(collect(fromExercises), random), ...shuffled(collect(prose), random)];
 }
 
-const STOP = new Set(
+const STOP: ReadonlySet<string> = new Set(
   "i you he she it we they me him her us them my your his its our their a an the is are was were be been am do does did to of and or in on at for with from this that these those there here not no very".split(" ")
 );
-const contentWords = (t: string) =>
-  new Set(t.toLowerCase().replace(/[^a-z' ]/g, " ").split(/\s+/).filter((w) => w && !STOP.has(w)));
+const contentWords = (t: string, stop: ReadonlySet<string>, nonLetter: RegExp) =>
+  new Set(t.toLowerCase().replace(nonLetter, " ").split(/\s+/).filter((w) => w && !stop.has(w)));
 
 /** Too close in meaning to be a fair wrong option: half or more of the
- * shorter one's content words are shared. */
-function tooClose(a: string, b: string): boolean {
-  const wa = contentWords(a);
-  const wb = contentWords(b);
+ * shorter one's content words are shared. `stop` and `nonLetter` are the
+ * stop words and non-letters of the translations' language (English by
+ * default). */
+export function tooClose(a: string, b: string, stop: ReadonlySet<string> = STOP, nonLetter: RegExp = /[^a-z' ]/g): boolean {
+  const wa = contentWords(a, stop, nonLetter);
+  const wb = contentWords(b, stop, nonLetter);
   if (!wa.size || !wb.size) return true;
   let shared = 0;
   for (const w of wa) if (wb.has(w)) shared++;
@@ -182,7 +191,7 @@ function tooClose(a: string, b: string): boolean {
 
 // ---- Instruction text (English for A1/A2, Spanish from B1) -------------------
 
-type Copy = {
+export type Copy = {
   title: (n: number, unit: string) => string;
   summary: (unit: string, quiz: boolean) => string;
   listening: [heading: string, body: string];
@@ -197,7 +206,7 @@ type Copy = {
 };
 
 /** A sentence for quoting inside a longer one: no final full stop. */
-const quoted = (t: string) => t.replace(/\.$/, "");
+export const quoted = (t: string) => t.replace(/\.$/, "");
 
 const EN_COPY: Copy = {
   title: (n, unit) => `Unit ${n} review: ${unit}`,
@@ -252,10 +261,64 @@ const ES_COPY: Copy = {
 
 type UnitInput = { level: Level; number: number; start: string; title: string; lessons: Lesson[] };
 
-function buildReview({ level, number, start, title, lessons }: UnitInput, writing: WriteExercise): Lesson {
+/** How one course builds its unit reviews (see spanishProfile and
+ * en-unit-reviews.ts). */
+export type ReviewProfile = {
+  /** The review lesson's `level`. */
+  level: Lesson["level"];
+  slug: string;
+  /** Seeds the PRNG, so the review is the same on every build. */
+  seed: string;
+  copy: Copy;
+  /** The translate direction whose `answer` is in the target language. */
+  targetAnswerDirection: TranslateExercise["direction"];
+  /** Also take sentences from the explanations' target-language prose. */
+  prose: boolean;
+  /** Whether a translation is usable as a listening option / speaking cue. */
+  glossOk: (gloss: string | undefined, target: string) => gloss is string;
+  /** Whether two translations are too alike to be told apart. */
+  tooClose: (a: string, b: string) => boolean;
+  /** A unit quiz (true), or `translations` from the unit (false). */
+  quiz: boolean;
+  /** The direction of the translations used in place of a quiz. */
+  translationDirection: TranslateExercise["direction"];
+  /** Throw when the unit lacks material (Spanish course), or build what
+   * it can (false; null when nothing at all). */
+  strict: boolean;
+};
+
+function spanishProfile(level: Level, start: string): ReviewProfile {
   const copy = level === "A1" || level === "A2" ? EN_COPY : ES_COPY;
-  const random = seeded(`${level}:${start}`);
-  const sentences = unitSentences(lessons, random, copy === ES_COPY);
+  return {
+    level,
+    slug: unitReviewSlug(start),
+    seed: `${level}:${start}`,
+    copy,
+    targetAnswerDirection: "en-es",
+    prose: copy === ES_COPY,
+    glossOk: usableEn,
+    tooClose: (a, b) => tooClose(a, b),
+    quiz: QUIZ_LEVELS.has(level),
+    translationDirection: "en-es",
+    strict: true,
+  };
+}
+
+/**
+ * One unit's review lesson: listening, speaking, an optional writing task
+ * and the unit quiz (or translations), from the unit's own lessons.
+ * Returns null only for a non-strict profile when the unit has nothing to
+ * build from.
+ */
+export function buildUnitReview(
+  profile: ReviewProfile,
+  unit: { number: number; title: string; lessons: Lesson[] },
+  writing: WriteExercise | undefined
+): Lesson | null {
+  const { copy } = profile;
+  const { number, title, lessons } = unit;
+  const random = seeded(profile.seed);
+  const sentences = unitSentences(lessons, random, profile);
   const used = new Set<string>();
   const take = (n: number, ok: (s: Sentence) => boolean): Sentence[] => {
     const out: Sentence[] = [];
@@ -267,44 +330,49 @@ function buildReview({ level, number, start, title, lessons }: UnitInput, writin
     }
     return out;
   };
-  const fail = (what: string): never => {
-    throw new Error(`unit review (${level} ${start}): not enough ${what} in the unit's examples`);
+  // Strict profiles throw; the others make do with fewer items.
+  const short = (what: string) => {
+    if (profile.strict) throw new Error(`unit review (${profile.seed}): not enough ${what} in the unit's examples`);
   };
 
   // Listening: meaning, then dictation.
   const withEn = sentences.filter((s) => s.en);
   const meaning = take(3, (s) => !!s.en && s.es.length <= 120);
-  if (meaning.length < 3) fail("translated sentences");
-  const listen: ListenChooseExercise[] = meaning.map((s) => {
+  if (meaning.length < 3) short("translated sentences");
+  const listen: ListenChooseExercise[] = [];
+  for (const s of meaning) {
     const distractors: string[] = [];
     for (const o of shuffled(withEn, random)) {
       if (distractors.length >= 3) break;
-      if (o.es === s.es || [s.en!, ...distractors].some((d) => tooClose(d, o.en!))) continue;
+      if (o.es === s.es || [s.en!, ...distractors].some((d) => profile.tooClose(d, o.en!))) continue;
       distractors.push(o.en!);
     }
-    if (distractors.length < 3) fail("distinct translations");
-    return {
+    if (distractors.length < 3) {
+      short("distinct translations");
+      continue;
+    }
+    listen.push({
       type: "listen-choose",
       audio: s.es,
       question: copy.meaningQ,
       options: [s.en!, ...distractors],
       correctIndex: 0,
       explanation: copy.meaningExpl(s),
-    };
-  });
+    });
+  }
   const dictSentences = take(2, (s) => s.es.length <= 60);
-  if (dictSentences.length < 2) fail("short sentences for dictation");
+  if (dictSentences.length < 2) short("short sentences for dictation");
   const dictations: DictationExercise[] = dictSentences.map((s) => ({
     type: "dictation",
     audio: s.es,
     explanation: copy.dictExpl(s),
   }));
 
-  // Speaking: read aloud, then respond aloud to English prompts.
+  // Speaking: read aloud, then respond aloud to prompts in the learner's language.
   const respond = take(2, (s) => !!s.en && s.es.length <= 120);
-  if (respond.length < 2) fail("translated sentences to answer aloud");
+  if (respond.length < 2) short("translated sentences to answer aloud");
   const read = take(2, (s) => s.es.length <= 120);
-  if (read.length < 2) fail("sentences to read aloud");
+  if (read.length < 2) short("sentences to read aloud");
   const speaking: SpeakExercise[] = [
     ...read.map((s): SpeakExercise => ({ type: "speak", text: s.es, explanation: copy.readExpl(s) })),
     ...respond.map(
@@ -312,14 +380,16 @@ function buildReview({ level, number, start, title, lessons }: UnitInput, writin
     ),
   ];
 
-  // The quiz (A1-B2), or English-to-Spanish translations (C1/C2).
+  // The quiz, or translations from the unit (C1/C2).
   let final: Exercise[];
-  const quiz = QUIZ_LEVELS.has(level);
+  const { quiz } = profile;
   if (quiz) {
     final = pickUnitTestQuestions(lessons, UNIT_QUIZ_QUESTIONS, random).map((q) => q.exercise);
   } else {
     const pool = lessons.flatMap((l) => [...l.sections.flatMap((s) => s.checkpoint ?? []), ...l.exercises]);
-    const translations = pool.filter((e): e is TranslateExercise => e.type === "translate" && e.direction === "en-es");
+    const translations = pool.filter(
+      (e): e is TranslateExercise => e.type === "translate" && e.direction === profile.translationDirection
+    );
     final = shuffled(translations, random).slice(0, 3);
   }
 
@@ -328,21 +398,27 @@ function buildReview({ level, number, start, title, lessons }: UnitInput, writin
     body: [body],
     checkpoint,
   });
+  const sections = [
+    section(copy.listening, [...listen, ...dictations]),
+    section(copy.speaking, speaking),
+    ...(writing ? [section(copy.writing, [writing])] : []),
+  ].filter((s) => s.checkpoint!.length > 0);
+  if (sections.length === 0 && final.length === 0) return null;
   return {
-    slug: unitReviewSlug(start),
-    level,
-    number: 0, // renumbered by buildLevel
+    slug: profile.slug,
+    level: profile.level,
+    number: 0, // renumbered by the caller
     unitReview: true,
     title: copy.title(number, title),
     summary: copy.summary(title, quiz),
     duration: "15 min",
-    sections: [
-      section(copy.listening, [...listen, ...dictations]),
-      section(copy.speaking, speaking),
-      section(copy.writing, [writing]),
-    ],
+    sections,
     exercises: final,
   };
+}
+
+function buildReview({ level, number, start, title, lessons }: UnitInput, writing: WriteExercise): Lesson {
+  return buildUnitReview(spanishProfile(level, start), { number, title, lessons }, writing)!;
 }
 
 /**

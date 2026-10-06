@@ -10,7 +10,9 @@ export type StoryQuestion = {
 
 export type Story = {
   slug: string;
-  level: "A1" | "A2" | "B1" | "B2" | "C1/C2";
+  // "EN-A1" ... "EN-C1/C2" are the English for Spanish speakers beta's
+  // stories (src/lib/stories/en/): English text, Spanish everything else.
+  level: "A1" | "A2" | "B1" | "B2" | "C1/C2" | "EN-A1" | "EN-A2" | "EN-B1" | "EN-B2" | "EN-C1/C2";
   title: string;
   subtitle: string;
   // Short paragraphs of original Spanish narrative -- max ~3 pages.
@@ -26,9 +28,10 @@ export type Story = {
   band?: "C1" | "C2";
 };
 
-/** The label for a text's kind: its genre, or "Short story" for fiction. */
-export function storyKind(story: Pick<Story, "genre">): string {
-  return story.genre ?? "Short story";
+/** The label for a text's kind: its genre, or "Short story" for fiction
+ * ("Historia" in the English course, whose genres are in Spanish too). */
+export function storyKind(story: Pick<Story, "genre" | "level">): string {
+  return story.genre ?? (story.level.startsWith("EN-") ? "Historia" : "Short story");
 }
 
 // A word or phrase a story explains in English because readers at its
