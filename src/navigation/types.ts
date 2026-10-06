@@ -36,6 +36,8 @@ export type AppStackParamList = {
   // The Chinese beta's own daily review (per-concept scheduler) -- see
   // ChineseReviewScreen. Separate from the Spanish TodayReview.
   ChineseReview: undefined;
+  // The Chinese placement test -- see ChinesePlacementScreen.
+  ChinesePlacement: undefined;
   Settings: undefined;
   // First-run setup (starting level + daily goal) -- opened by Home when
   // the account hasn't done it here or on the website.

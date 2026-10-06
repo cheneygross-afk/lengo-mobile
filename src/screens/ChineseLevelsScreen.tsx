@@ -6,6 +6,8 @@ import type { AppStackParamList } from "@/navigation/types";
 import { LESSON_SOURCES, type LessonModuleKey } from "@/lib/lessons/registry";
 import { getCompletedMap } from "@/lib/lessons/completion";
 import { ZH_MODULES } from "@/lib/lessons/zh";
+import { readJSON } from "@/lib/storage/asyncStore";
+import { ZH_PLACEMENT_KEY, type SavedPlacement } from "@/screens/ChinesePlacementScreen";
 
 type Props = NativeStackScreenProps<AppStackParamList, "ChineseLevels">;
 
@@ -18,6 +20,7 @@ const MODULES = ZH_MODULES.map((m) => ({ ...m, key: `zh-${m.path}` as LessonModu
 
 export default function ChineseLevelsScreen({ navigation }: Props) {
   const [completed, setCompleted] = useState<Record<string, number>>({});
+  const [placement, setPlacement] = useState<SavedPlacement | null>(null);
 
   useFocusEffect(
     useCallback(() => {
@@ -29,6 +32,9 @@ export default function ChineseLevelsScreen({ navigation }: Props) {
           next[m.key] = Object.keys(maps[i]).filter((slug) => maps[i][slug]).length;
         });
         setCompleted(next);
+      });
+      readJSON<SavedPlacement | null>(ZH_PLACEMENT_KEY, null).then((p) => {
+        if (!cancelled) setPlacement(p);
       });
       return () => {
         cancelled = true;
@@ -42,6 +48,12 @@ export default function ChineseLevelsScreen({ navigation }: Props) {
       <Pressable style={styles.reviewCard} onPress={() => navigation.navigate("ChineseReview")}>
         <Text style={styles.reviewTitle}>Today&apos;s review →</Text>
         <Text style={styles.reviewBody}>Topics from finished lessons, back when they&apos;re due.</Text>
+      </Pressable>
+      <Pressable style={styles.reviewCard} onPress={() => navigation.navigate("ChinesePlacement")}>
+        <Text style={styles.reviewTitle}>Placement test →</Text>
+        <Text style={styles.reviewBody}>
+          {placement ? `Your placement: start at ${placement.code} ${placement.name}. Take it again any time.` : "Not sure where to start? Find your level."}
+        </Text>
       </Pressable>
       <View style={styles.cards}>
         {MODULES.map((mod) => (

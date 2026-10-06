@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "c34b6bb47e52117ffb50a83521ec68a07949b536",
+  "commit": "d16adfae5688cc7f4d2a66e62694a3bffa67527d",
   "files": {
     "src/lib/lessons/a1-additions.ts": "5e2de5cde5d685adaec5cd4c5c818ed420ecc224d408aeb2bf16fe5ed8321430",
     "src/lib/lessons/a1-core.ts": "bcfb0f62fb1b61bc9ca323f0b9b4680ffd736a7501d56ab5ee0736a854ae4ef8",
@@ -328,10 +328,11 @@
     "src/lib/lessons/zh/pinyin-drills.ts": "c9a3a4ccb64a716db3da79f161d8fcf6ac03523860fefdddd6c67c48d2ae8dc2",
     "src/lib/lessons/zh/pinyin-lessons.ts": "dbedc1078ee3bc8e73f61f485135f001186eedfb941d33f33dc361037cf388b3",
     "src/lib/lessons/zh/pinyin.ts": "f265399ed798c4bb5f757e80aba67b2933cf1ce92437df5d20c2c7b0208d825e",
+    "src/lib/lessons/zh/placement.ts": "bdff4f9b4514d052e2b3e15875698a4abb5f8744e0c521c4b293ac4da9d47d8e",
     "src/lib/lessons/zh/plugin.ts": "d73b7e6560967a5ca3d58c14cc0c47fbdc9aa3acc91a18df0cfda2ad9e614878",
     "src/lib/lessons/zh/specs.ts": "6f521857fb7283cdfee78f8ac4fe5f27a1c6100ce19029ef35c5736b69b1585d",
     "src/lib/curriculum/assemble.ts": "3d9f0aa94854d727339760704acfb0e353d018e9f5462dc2d5816360f6d6369c",
-    "src/lib/curriculum/assess.ts": "0a4b83393125870f1b4ad793ac8664fc7d8ade7dfc9c37886909224673abefa4",
+    "src/lib/curriculum/assess.ts": "1791d87fab954a2feca96b4e9c47850d9034eb882ffc4b2e043aa1e72fe445d8",
     "src/lib/curriculum/graph.ts": "489e8d17e77126e81ff9878578e26a372e463c717f1c1e71aab0f9b6cbe150e6",
     "src/lib/curriculum/items.ts": "205ff1817b0124d8e5a02346da2211a7f9cb54692f560c4265aa090b4665bbad",
     "src/lib/curriculum/memory.ts": "5fe2bb77d12bcadf17a6fbe0b9ecefa9dcb734bebbfdcc8565157256647ec6cd",

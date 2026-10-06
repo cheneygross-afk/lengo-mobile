@@ -91,3 +91,51 @@ export function learnedConcepts(lessons: Lesson[], completed: Record<string, boo
   for (const l of lessons) if (completed[l.slug]) for (const c of l.teaches ?? []) out.add(c);
   return out;
 }
+
+/** Questions per level in a placement test. */
+export const PLACEMENT_ITEMS = 6;
+/** Share of a level's questions to get right to move on to the next. */
+export const PLACEMENT_PASS = 2 / 3;
+
+/** Of those, how many are recognition (choose, arrange, listen). */
+export const PLACEMENT_RECOGNISE = 2;
+
+/**
+ * One level's stage of a placement test: questions from the level's
+ * taught and practice lessons (never its generated reviews), one per
+ * concept as far as they go. Recognition first (PLACEMENT_RECOGNISE of
+ * them: choose, arrange or listen), then typed answers at difficulty 2+.
+ * Speaking and writing are self-assessed, so they're left out.
+ */
+export function placementItems(levelLessons: Lesson[], plugin: Pick<CoursePlugin, "typedInTarget">, seed: string, count = PLACEMENT_ITEMS): Item[] {
+  const sources = levelLessons.filter((l) => !l.optional && !l.unitReview && !l.source?.startsWith("assembled:"));
+  const pool = sources.flatMap((l) => lessonItems(l, plugin.typedInTarget));
+  const taught = [...new Set(sources.flatMap((l) => l.teaches ?? []))];
+  const recognise = selectItems(
+    pool.filter((i) => !i.production),
+    { count: Math.min(PLACEMENT_RECOGNISE, count), cover: taught, perConceptMax: 1, types: ["multiple-choice", "multi-select", "word-order", "matching", "listen-choose"] },
+    `${seed}-recognise`
+  );
+  const used = new Set(recognise.map((i) => i.id));
+  const produce = selectItems(
+    pool.filter((i) => i.production),
+    { count: count - recognise.length, cover: taught, minDifficulty: 2, perConceptMax: 1, exclude: used, types: ["fill-blank", "translate", "dictation"] },
+    `${seed}-produce`
+  );
+  return [...recognise, ...produce];
+}
+
+/** True if a placement stage was passed: PLACEMENT_PASS of it right. */
+export function placementPassed(right: number, total: number): boolean {
+  return total > 0 && right >= Math.ceil(total * PLACEMENT_PASS - 1e-9);
+}
+
+/**
+ * Where to start, from the stages taken in course order (the test stops
+ * at the first one failed): the index of the first level not passed, or
+ * `results.length` if every stage taken was passed.
+ */
+export function placementStart(results: { right: number; total: number }[]): number {
+  const failed = results.findIndex((r) => !placementPassed(r.right, r.total));
+  return failed === -1 ? results.length : failed;
+}
