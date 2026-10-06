@@ -77,4 +77,11 @@ export const ZH_CAN_DO: Record<string, CanDoStatement[]> = {
     s("c1.work", "interaction", "我能参加会议和谈判，写正式的邮件，参加面试。", ["vocab.meetings", "vocab.negotiation", "function.business-email", "function.interview", "function.formal-politeness"]),
     s("c1.news", "reading", "我能看懂新闻和数据，并讨论社会问题。", ["function.news", "vocab.data-trends", "vocab.society"]),
   ],
+  c2: [
+    s("c2.classical", "reading", "我能读懂书面语里的文言虚词：者、以便、以免、因…而、即、乃、何。", ["grammar.zhe", "grammar.yibian-yimian", "grammar.yin-er", "grammar.ji-nai", "grammar.he"]),
+    s("c2.rhetoric", "writing", "我能用比喻、排比、反问和夸张让表达更生动，并听懂语气词的语气。", ["function.biyu", "function.paibi", "function.fanwen", "function.kuazhang", "grammar.yuqi-ci"]),
+    s("c2.sayings", "speaking", "我能理解并恰当地使用成语、俗语和歇后语，分清词语的褒贬。", ["vocab.chengyu-stories", "vocab.suyu", "vocab.xiehouyu", "vocab.baobian"]),
+    s("c2.variation", "interaction", "我能听懂不同地方的说法和网络用语，并根据场合选择口语或书面语。", ["vocab.regional", "vocab.cross-strait", "vocab.cantonese-loans", "vocab.internet-slang", "function.register"]),
+    s("c2.culture", "writing", "我能读懂简单的古诗和《论语》名句，并写一篇结构清楚的议论文。", ["function.poetry", "function.classics", "function.essay"]),
+  ],
 };

@@ -207,4 +207,32 @@ export const ZH_CONCEPTS: Concept[] = [
   c("C1", "function", "news", "看新闻", "据报道、表示、将、于", ["grammar.formal-words"]),
   c("C1", "vocab", "data-trends", "数据和变化", "百分之、增长、下降、翻一番", ["grammar.suizhe"]),
   c("C1", "vocab", "society", "社会话题", "老龄化、城市化、教育、医疗", ["vocab.environment"]),
+  // ---- C2 (taught in Chinese; names and glosses in Chinese) ----
+  // Unit 1: classical function words
+  c("C2", "grammar", "zhe", "者", "…的人：读者、作者；前者和后者", ["grammar.zhi"]),
+  c("C2", "grammar", "yibian-yimian", "以便、以免", "为了能…；为了不…", ["grammar.weile"]),
+  c("C2", "grammar", "yin-er", "因…而…", "因为某个原因而有某个结果", ["grammar.youyu-yinci"]),
+  c("C2", "grammar", "ji-nai", "即、乃", "书面语的「就是」", ["grammar.shi"]),
+  c("C2", "grammar", "he", "何", "书面语的「什么」：何时、为何、如何、何必", ["grammar.question-words"]),
+  // Unit 2: rhetoric
+  c("C2", "function", "biyu", "比喻", "仿佛、如同、像…一样", ["grammar.bi-comparison"]),
+  c("C2", "function", "paibi", "排比和对偶", "结构相同的句子排在一起", ["function.shouxian-qici"]),
+  c("C2", "function", "fanwen", "反问", "用问句表示肯定或否定", ["grammar.nandao"]),
+  c("C2", "function", "kuazhang", "夸张", "故意说得很大或很小", ["grammar.degree"]),
+  c("C2", "grammar", "yuqi-ci", "语气词", "吧、嘛、呗、啊、呢的语气", ["grammar.ba-suggestion"]),
+  // Unit 3: idioms and sayings
+  c("C2", "vocab", "chengyu-stories", "成语故事", "守株待兔、画蛇添足、亡羊补牢", ["vocab.chengyu"]),
+  c("C2", "vocab", "suyu", "俗语和谚语", "一分钱一分货、熟能生巧、百闻不如一见", ["vocab.chengyu"]),
+  c("C2", "vocab", "xiehouyu", "歇后语", "前半句是比喻，后半句是意思", ["vocab.chengyu"]),
+  c("C2", "vocab", "baobian", "褒义和贬义", "词语带着的称赞或批评的感情", ["vocab.chengyu"]),
+  // Unit 4: regions and registers
+  c("C2", "vocab", "regional", "南北差异", "各地说法不同：土豆和洋芋，自行车和单车", ["vocab.society"]),
+  c("C2", "vocab", "cross-strait", "两岸用语", "大陆和台湾的不同说法，简体字和繁体字", ["vocab.internet"]),
+  c("C2", "vocab", "cantonese-loans", "粤语借词", "买单、打的、炒鱿鱼、搞定", ["vocab.work"]),
+  c("C2", "vocab", "internet-slang", "网络用语", "点赞、吐槽、给力、内卷、躺平", ["vocab.internet"]),
+  c("C2", "function", "register", "口语和书面语", "同一个意思的两种说法：买和购买", ["grammar.formal-words"]),
+  // Unit 5: literature and thought
+  c("C2", "function", "poetry", "古诗", "读懂和朗读简单的唐诗", ["grammar.zhi"]),
+  c("C2", "function", "classics", "《论语》名句", "温故而知新、己所不欲，勿施于人", ["grammar.written-negatives"]),
+  c("C2", "function", "essay", "议论文", "论点、论据、结论；由此可见、综上所述", ["function.zongzhi"]),
 ];

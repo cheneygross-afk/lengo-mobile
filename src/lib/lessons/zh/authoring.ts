@@ -32,7 +32,7 @@ import type {
 } from "../types";
 import type { LayerSpec, LevelSpec } from "../../curriculum/spec";
 
-export type ZhLevel = "ZH-Pinyin" | "ZH-A1" | "ZH-A2" | "ZH-B1" | "ZH-B2" | "ZH-C1";
+export type ZhLevel = "ZH-Pinyin" | "ZH-A1" | "ZH-A2" | "ZH-B1" | "ZH-B2" | "ZH-C1" | "ZH-C2";
 
 /** Inline form for English text: zh("你好", "nǐ hǎo") -> "你好 (nǐ hǎo)". */
 export function zh(hanzi: string, pinyin: string): string {
@@ -64,14 +64,18 @@ export function mt(instructions: string, pairs: [string, string][], explanation:
 }
 
 // 不 and 一 are written with their spoken tone; a learner who types the
-// dictionary tone (bù shì, yī ge) is just as right.
-function citationVariants(pinyin: string): string[] {
+// dictionary tone (bù shì, yī ge) is just as right. With `chars`, only
+// when the answer has 不 or 一 (so 异 yì doesn't also accept yī).
+function citationVariants(pinyin: string, chars?: string): string[] {
   const swap = (from: string[], to: string) =>
     pinyin
       .split(" ")
       .map((w) => (from.includes(w.toLowerCase()) ? to : w))
       .join(" ");
-  return [...new Set<string>([pinyin, swap(["bú"], "bù"), swap(["yí", "yì"], "yī")])];
+  const out = [pinyin];
+  if (!chars || chars.includes("不")) out.push(swap(["bú"], "bù"));
+  if (!chars || chars.includes("一")) out.push(swap(["yí", "yì"], "yī"));
+  return [...new Set<string>(out)];
 }
 
 /**
@@ -89,7 +93,7 @@ export function fb(
   more: { en?: string; altAnswers?: string[]; hint?: string } = {}
 ): FillBlankExercise {
   const alts = new Set<string>(more.altAnswers ?? []);
-  if (pinyin) for (const p of citationVariants(pinyin)) alts.add(p);
+  if (pinyin) for (const p of citationVariants(pinyin, answer)) alts.add(p);
   for (const p of citationVariants(answer)) if (p !== answer) alts.add(p);
   const e: FillBlankExercise = { type: "fill-blank", prompt, sentence, answer, explanation };
   if (alts.size) e.altAnswers = [...alts];
@@ -123,7 +127,7 @@ export function toEn(hanzi: string, pinyin: string, answer: string, explanation:
  */
 export function toZh(english: string, answer: string, pinyin: string, explanation: string, altAnswers: string[] = []): TranslateExercise {
   const alts = new Set<string>(altAnswers);
-  for (const p of citationVariants(pinyin)) alts.add(p);
+  for (const p of citationVariants(pinyin, answer)) alts.add(p);
   return {
     type: "translate",
     direction: "en-es",

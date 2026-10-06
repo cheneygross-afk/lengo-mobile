@@ -524,5 +524,49 @@ export const ZH_C1_SPEC: LevelSpec = {
   ],
 };
 
+export const ZH_C2_SPEC: LevelSpec = {
+  strings: CHINESE_STRINGS,
+  code: "C2",
+  path: "c2",
+  level: "ZH-C2",
+  slugPrefix: "zh-c2",
+  units: [
+    unit("zh-c2-u1", "文言虚词", "者、以便、以免、因…而、即、乃、何：现代书面语里的文言虚词。", [
+      "zh-c2-zhe",
+      "zh-c2-yibian",
+      "zh-c2-yin-er",
+      "zh-c2-ji",
+      "zh-c2-he",
+    ]),
+    unit("zh-c2-u2", "修辞", "比喻、排比和对偶、反问、夸张，以及语气词带来的不同语气。", [
+      "zh-c2-biyu",
+      "zh-c2-paibi",
+      "zh-c2-fanwen",
+      "zh-c2-kuazhang",
+      "zh-c2-yuqici",
+    ]),
+    unit("zh-c2-u3", "成语和俗语", "成语故事、俗语和谚语、歇后语，以及词语的褒贬。", [
+      "zh-c2-chengyu-stories",
+      "zh-c2-suyu",
+      "zh-c2-xiehouyu",
+      "zh-c2-baobian",
+    ]),
+    unit("zh-c2-u4", "地域与语体", "南北差异、两岸用语、粤语借词、网络用语，以及口语和书面语。", [
+      "zh-c2-regional",
+      "zh-c2-cross-strait",
+      "zh-c2-cantonese",
+      "zh-c2-internet-slang",
+      "zh-c2-register",
+    ]),
+    unit("zh-c2-u5", "文学与思想", "古诗、《论语》名句、议论文的写法，以及 C2 总复习。", [
+      "zh-c2-poetry",
+      "zh-c2-classics",
+      "zh-c2-essay",
+      "zh-c2-review",
+    ]),
+  ],
+  layers: [],
+};
+
 /** Every level spec, in course order. */
-export const ZH_SPECS: LevelSpec[] = [ZH_PINYIN_SPEC, ZH_A1_SPEC, ZH_A2_SPEC, ZH_B1_SPEC, ZH_B2_SPEC, ZH_C1_SPEC];
+export const ZH_SPECS: LevelSpec[] = [ZH_PINYIN_SPEC, ZH_A1_SPEC, ZH_A2_SPEC, ZH_B1_SPEC, ZH_B2_SPEC, ZH_C1_SPEC, ZH_C2_SPEC];

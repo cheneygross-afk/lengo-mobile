@@ -160,6 +160,16 @@ export const ZH_DETECTORS: FormDetector[] = [
   re("grammar.written-negatives", /无法|尚未|请勿|未必|非[^，。？！常]{1,4}不可/, "无法/未/勿"),
   re("function.news", /据报道|据悉|据了解/, "据报道"),
   re("vocab.data-trends", /百分之|下降/, "百分之/下降"),
+  // C2
+  re("grammar.zhe", /前者|后者/, "前者/后者"),
+  // Not 可以 + 免费/便宜 (可以免费 contains 以免).
+  { concept: "zh.grammar.yibian-yimian", test: (t) => /以便|以免/.test(without(t, ["可以"])), severity: "error", label: "以便/以免" },
+  re("grammar.yin-er", /因[^，。？！ ]{1,6}而(?!且)/, "因…而"),
+  re("grammar.ji-nai", /即(是|为)|乃/, "即/乃"),
+  re("grammar.he", /何时|何地|为何|如何|何必|何不/, "何"),
+  re("function.biyu", /仿佛|如同|宛如/, "仿佛/如同"),
+  re("grammar.yuqi-ci", /呗/, "呗"),
+  re("function.essay", /综上所述|由此可见/, "综上所述/由此可见"),
 ];
 
 /** True for an answer typed in Chinese (characters or pinyin). */

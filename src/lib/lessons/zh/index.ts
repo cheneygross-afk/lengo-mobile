@@ -25,6 +25,7 @@ import { ZH_B2_LESSONS } from "./b2-lessons";
 import { ZH_B2_LAYERS } from "./b2-layers";
 import { ZH_C1_LESSONS } from "./c1-lessons";
 import { ZH_C1_LAYERS } from "./c1-layers";
+import { ZH_C2_LESSONS } from "./c2-lessons";
 import { ZH_CONCEPTS } from "./concepts";
 import { ZH_PLUGIN } from "./plugin";
 import { ZH_SPECS } from "./specs";
@@ -87,10 +88,17 @@ const META: Omit<ZhModule, "lessons" | "units" | "canDo">[] = [
     description:
       "全中文授课：论证和总结的连接词，程度与语气，书面语里的文言成分，职场中文（开会、谈判、邮件、面试），新闻和社会话题。约 HSK 5 级。",
   },
+  {
+    code: "C2",
+    name: "精通汉语",
+    path: "c2",
+    description:
+      "全中文授课：文言虚词，修辞，成语故事、俗语和歇后语，南北和两岸的不同说法、网络用语，古诗、《论语》和议论文。约 HSK 6 级及以上。",
+  },
 ];
 
 /** Every authored or drafted lesson, before assembly (what the validator checks). */
-export const ZH_SOURCE_LESSONS: Lesson[] = [...ZH_PINYIN_LESSONS, ...ZH_PINYIN_LAYERS, ...ZH_A1_LESSONS, ...ZH_A1_LAYERS, ...ZH_A2_LESSONS, ...ZH_A2_LAYERS, ...ZH_B1_LESSONS, ...ZH_B1_LAYERS, ...ZH_B2_LESSONS, ...ZH_B2_LAYERS, ...ZH_C1_LESSONS, ...ZH_C1_LAYERS];
+export const ZH_SOURCE_LESSONS: Lesson[] = [...ZH_PINYIN_LESSONS, ...ZH_PINYIN_LAYERS, ...ZH_A1_LESSONS, ...ZH_A1_LAYERS, ...ZH_A2_LESSONS, ...ZH_A2_LAYERS, ...ZH_B1_LESSONS, ...ZH_B1_LAYERS, ...ZH_B2_LESSONS, ...ZH_B2_LAYERS, ...ZH_C1_LESSONS, ...ZH_C1_LAYERS, ...ZH_C2_LESSONS];
 
 const assembly = assembleCourse({
   specs: ZH_SPECS,
