@@ -50,6 +50,16 @@ const DIRS = {
   "src/lib/exams": [],
 };
 
+// The website's rebuilt Japanese course (furigana markup, A1-C2 units,
+// stories, guides, videos) is web-only for now: it's ~34MB and imports
+// website helpers (src/lib/japanese.ts). The app keeps its own copies of
+// the earlier Japanese beta levels (src/lib/lessons/ja-a1.ts ... ja-c2.ts,
+// no longer synced). ja-alphabets.ts still syncs.
+const WEB_ONLY_JA = /^(ja-(a1|a2|b1|b2|c1|c2)([-.].*)?\.ts|ja-course\.ts|ja-units\.ts|ja-unit-reviews\.ts|jaVideos\.ts)$/;
+const JA_WEB_DIRS = new Set(["src/lib/stories", "src/lib/grammar"]);
+const webOnly = (dir, name) =>
+  (dir === "src/lib/lessons" && WEB_ONLY_JA.test(name)) || (JA_WEB_DIRS.has(dir) && name.startsWith("ja-"));
+
 // Single website files mirrored to the same path here (pure data that
 // doesn't live in one of the directories above).
 const FILES = ["src/lib/placementTest.ts"];
@@ -121,7 +131,7 @@ function sync(from, adopt) {
   const writes = new Map();
   for (const [dir, excluded] of Object.entries(DIRS)) {
     for (const name of fs.readdirSync(path.join(src, dir)).sort()) {
-      if (!name.endsWith(".ts") || excluded.includes(name)) continue;
+      if (!name.endsWith(".ts") || excluded.includes(name) || webOnly(dir, name)) continue;
       const rel = `${dir}/${name}`;
       const dest = path.join(ROOT, rel);
       if (!adopt && fs.existsSync(dest) && !(rel in old.files) && !fs.readFileSync(dest, "utf8").startsWith(HEADER_PREFIX)) {

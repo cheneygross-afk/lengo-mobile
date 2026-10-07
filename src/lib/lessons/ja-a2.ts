@@ -1,4 +1,5 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/ja-a2.ts by scripts/sync-content.mjs -- edit it there, not here.
+// The app's copy of the earlier Japanese beta A2 level. App-owned: the website's rebuilt
+// Japanese course is web-only (see WEB_ONLY_JA in scripts/sync-content.mjs).
 import type { Lesson } from "./types";
 
 export const JA_A2_LESSONS: Lesson[] = [
