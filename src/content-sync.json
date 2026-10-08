@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "7815a7e5953b44e7b29b0c7bd3a33cd633c2504f",
+  "commit": "08f09a6b5d845ec7a71ed2d0b4aa3993d59ed15d",
   "files": {
     "src/lib/lessons/a1-additions.ts": "5e2de5cde5d685adaec5cd4c5c818ed420ecc224d408aeb2bf16fe5ed8321430",
     "src/lib/lessons/a1-core.ts": "bcfb0f62fb1b61bc9ca323f0b9b4680ffd736a7501d56ab5ee0736a854ae4ef8",
@@ -350,7 +350,7 @@
     "src/lib/lessons/level-test-c1.ts": "b4c2f6994087bcfd72a45393969e35fb7f3dd2430c6df168a6d0abd9bedfd99d",
     "src/lib/lessons/level-test-c2.ts": "fef8f4119bfd4405bef4d651325a02232b95d8fb5c08e4c4f43186d3927fd0f2",
     "src/lib/lessons/level-tests.ts": "c49d6ef93b517b4ac9f6c8baef94199b333444e3228367441d9d9b65381042ae",
-    "src/lib/lessons/levels.ts": "59cfa4934f89203c8668c5d251fde8b7872193ae7497addc0fc4ffeebcf19b50",
+    "src/lib/lessons/levels.ts": "43776fca365b0493414c4840577edcbcde97ba20cfd9aa255968216f35f23bc8",
     "src/lib/lessons/practice.ts": "2a84bdd91f2e34b2242603de442ef06cfea054f68269fd1fdce64014d41846e4",
     "src/lib/lessons/sequencing.ts": "ac29f0a1362e0f185b9e34cef3333f0b4f5941c52decd779bd6b0c5c931e4f42",
     "src/lib/lessons/skills-a1.ts": "1c4c5f4f3f69edd01c2a544f2a425fedbfc488eb8255e0e2ad931dc58d5d5c46",

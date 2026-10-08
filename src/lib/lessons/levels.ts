@@ -92,8 +92,11 @@ const SPANISH_WORDS = /\b(de|del|la|el|los|las|y|con|en|para|por|que|práctica|r
 
 /** Whether a title reads as English: by its function words, or, when
  * that's a tie, by the level's instruction language (English at A1/A2,
- * Spanish from B1 up). */
+ * Spanish from B1 up). Japanese and Chinese titles are always English. */
 function isEnglishTitle(title: string, level: Lesson["level"]): boolean {
+  // The Japanese and Chinese courses are taught in English throughout, so
+  // their titles never take Spanish part numbering ("Parte 1 de 2").
+  if (level.startsWith("JA-") || level.startsWith("ZH-")) return true;
   const en = title.match(ENGLISH_WORDS)?.length ?? 0;
   const es = title.match(SPANISH_WORDS)?.length ?? 0;
   return en === es ? ENGLISH_TITLE_LEVELS.has(level) : en > es;
