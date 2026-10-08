@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c1-layers-u3.ts by scripts/sync-content.mjs -- edit it there, not here.
 // C1 unit 3 practice lessons (之, 其, 以…为…, 为…所, written negatives),
 // drafted from their specs. All in Chinese.
 

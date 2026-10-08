@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a1-layers-u1.ts by scripts/sync-content.mjs -- edit it there, not here.
 // A1 unit 1 reinforce and drill lessons (greetings, names, 是), drafted
 // from their specs in specs.ts.
 

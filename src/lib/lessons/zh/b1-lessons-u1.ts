@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b1-lessons-u1.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese B1, unit 1: opinions and comparisons -- 最 and 比较, 觉得 and
 // 认为, 多 + adjective, 又…又, 对 and 关于, 是…的. Instructions stay in
 // English through B1 (docs/curriculum-architecture.md, section 3.4).

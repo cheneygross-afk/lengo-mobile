@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a2-layers-u2.ts by scripts/sync-content.mjs -- edit it there, not here.
 // A2 unit 2 practice lessons (比, 没有…那么/一样, 得, 的/地/得, 越…越,
 // clothes, 还是/或者), drafted from their specs in specs.ts.
 

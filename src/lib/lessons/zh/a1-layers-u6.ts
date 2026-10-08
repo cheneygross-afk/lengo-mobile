@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a1-layers-u6.ts by scripts/sync-content.mjs -- edit it there, not here.
 // A1 unit 6 reinforce and drill lessons (想/要, ordering food, 会/能,
 // 了, 没 and 还没), drafted from their specs in specs.ts.
 

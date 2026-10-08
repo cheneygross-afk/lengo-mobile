@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c1-layers-u2.ts by scripts/sync-content.mjs -- edit it there, not here.
 // C1 unit 2 practice lessons (degree words, 甚至, 何况 vs. 甚至, 反而,
 // 反正 vs. 反而), drafted from their specs. All in Chinese.
 

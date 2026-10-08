@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b1-layers-u3.ts by scripts/sync-content.mjs -- edit it there, not here.
 // B1 unit 3 practice lessons (把 and 被, 把…成/到/给, more measure
 // words, work, the hotel), drafted from their specs.
 

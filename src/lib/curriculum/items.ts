@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/curriculum/items.ts by scripts/sync-content.mjs -- edit it there, not here.
 // The item bank: every question in the course, with its derived tags.
 // Tags written on an exercise (`meta`) win; otherwise concepts come from
 // the lesson's tags and skill/difficulty from the exercise type.

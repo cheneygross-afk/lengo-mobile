@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/curriculum/validate.ts by scripts/sync-content.mjs -- edit it there, not here.
 // The validator core: every check a lesson must pass before it ships,
 // shared by every course. Language-specific rules come in through the
 // plugin (grading, normalisation, form detectors, lesson checks). These

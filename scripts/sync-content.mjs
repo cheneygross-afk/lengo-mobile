@@ -31,12 +31,11 @@ const DIRS = {
     "migrateC1C2Progress.ts",
     "readingPracticeRanges.ts",
   ],
-  // The Chinese (Mandarin) beta: a self-contained package (see its
-  // README.md on the website). Only the .ts files are copied.
-  "src/lib/lessons/zh": [],
-  // The language-neutral curriculum engine the Chinese checker runs on
-  // (concept graph, item bank, validator; pure code).
-  "src/lib/curriculum": [],
+  // The Chinese (Mandarin) course and the curriculum engine it runs on
+  // (src/lib/lessons/zh, src/lib/curriculum) are no longer synced: the
+  // website's rebuilt HSK 3.0 course is web-only for now (like the rebuilt
+  // Japanese course). The app keeps its own copies of the earlier Chinese
+  // beta, edited here.
   "src/lib/stories": [],
   "src/lib/readings": [],
   "src/lib/grammar": [],

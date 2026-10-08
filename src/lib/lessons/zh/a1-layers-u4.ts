@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a1-layers-u4.ts by scripts/sync-content.mjs -- edit it there, not here.
 // A1 unit 4 reinforce and drill lessons (adjective sentences, A-not-A,
 // dates, clock time and time-before-verb), drafted from their specs in
 // specs.ts.

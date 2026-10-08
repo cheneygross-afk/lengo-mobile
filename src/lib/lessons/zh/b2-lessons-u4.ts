@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b2-lessons-u4.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese B2, unit 4: formal Chinese -- written-style 是否, 与 and 以及,
 // 对…来说, 在…方面 and 在…上/下, 随着, and everyday four-character idioms.
 

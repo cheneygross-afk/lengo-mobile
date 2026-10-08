@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a2-layers-u5.ts by scripts/sync-content.mjs -- edit it there, not here.
 // A2 unit 5 practice lessons (因为…所以, 虽然…但是, 如果…就, health,
 // 应该/可以/得), drafted from their specs in specs.ts.
 

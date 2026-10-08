@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c1-lessons-u5.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese C1, unit 5: news and society -- reading the news, numbers and
 // trends, social issues, and the C1 review. All in Chinese.
 

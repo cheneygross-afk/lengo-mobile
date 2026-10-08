@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c1-lessons-u1.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese C1, unit 1: argument and discourse -- 然而 and 而, 与其…不如,
 // 宁可…也不, 首先…其次, 总之 and 换句话说. From C1 everything the learner
 // sees is in Chinese: explanations, prompts, options and the meaning of

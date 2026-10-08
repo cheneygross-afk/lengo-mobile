@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c2-layers-u5.ts by scripts/sync-content.mjs -- edit it there, not here.
 // C2 unit 5 practice lessons (《春晓》, the Analects in modern Chinese,
 // a short argument essay), drafted from their specs. All in Chinese.
 

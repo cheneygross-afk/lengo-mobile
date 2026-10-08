@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/curriculum/spec.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Specs: what a lesson, unit and level must contain, written before the
 // content and checked against it afterwards (docs/curriculum-architecture.md,
 // section 6.1). A level spec is the single description of a level's

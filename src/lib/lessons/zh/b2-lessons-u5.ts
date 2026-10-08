@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b2-lessons-u5.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese B2, unit 5: society and the world -- the environment, life
 // online, festivals and customs, and the B2 review.
 

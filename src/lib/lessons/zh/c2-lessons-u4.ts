@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c2-lessons-u4.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese C2, unit 4: regions and registers -- north and south, the two
 // sides of the Strait, words from Cantonese, internet slang, and spoken
 // vs. written Chinese. All in Chinese.

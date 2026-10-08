@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/pinyin-lessons.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese track, pre-A1 module: Pinyin & Tones.
 // How Mandarin sounds and how pinyin writes it -- the tool every later
 // lesson uses to show pronunciation. A handful of first characters come

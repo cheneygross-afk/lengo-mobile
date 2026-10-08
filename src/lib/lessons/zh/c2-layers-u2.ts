@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c2-layers-u2.ts by scripts/sync-content.mjs -- edit it there, not here.
 // C2 unit 2 practice lessons (比喻, 排比/对偶, 反问, 夸张, 语气词),
 // drafted from their specs. All in Chinese.
 

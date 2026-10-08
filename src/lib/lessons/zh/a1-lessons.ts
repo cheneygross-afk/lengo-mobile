@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a1-lessons.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese track, A1: Foundations (roughly HSK 1).
 // Assumes the Pinyin & Tones module. New words always appear with pinyin;
 // see README.md for the pinyin conventions (dictionary tones, except 不

@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c2-layers.ts by scripts/sync-content.mjs -- edit it there, not here.
 // C2 reinforce and drill lessons, drafted from their specs in specs.ts
 // (one file per unit), written entirely in Chinese like the teach lessons.
 

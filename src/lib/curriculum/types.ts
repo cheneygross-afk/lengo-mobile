@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/curriculum/types.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Types for the curriculum engine: concepts, the per-course plugin, and
 // what the validator reports. Pure data and functions only -- the engine
 // runs in build scripts, on the website and in the app (synced like the

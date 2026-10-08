@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/canDo.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Can-do statements for the Chinese course, each linked to the concepts
 // it depends on (concepts.ts), so a level page can say how many a learner
 // can already do -- from the lessons they've finished now, from concept

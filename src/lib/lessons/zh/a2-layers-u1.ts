@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a2-layers-u1.ts by scripts/sync-content.mjs -- edit it there, not here.
 // A2 unit 1 practice lessons (过, 在…呢, 着, 一边…一边, hobbies, 已经),
 // drafted from their specs in specs.ts.
 

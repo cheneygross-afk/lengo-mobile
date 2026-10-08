@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a2-lessons.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese A2 teach lessons (≈ HSK 2), one file per unit; specs.ts holds
 // the units and assemble.ts builds the level from them.
 

@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b1-lessons-u4.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese B1, unit 4: linking ideas -- 不但…而且, 除了…以外, 连…都,
 // 只要…就, 只有…才, and question words as "any-/every-/no-".
 

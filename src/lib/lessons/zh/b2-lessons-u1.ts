@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b2-lessons-u1.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese B2, unit 1: conditions and concessions -- 即使…也, 不管/无论…都,
 // 既然…就, 否则 and 不然, 尽管. From B2 instructions are mixed: exercise
 // prompts carry their Chinese name, explanations stay in English

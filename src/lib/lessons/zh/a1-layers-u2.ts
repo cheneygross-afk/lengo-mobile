@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a1-layers-u2.ts by scripts/sync-content.mjs -- edit it there, not here.
 // A1 unit 2 reinforce and drill lessons (吗/呢/也/都, numbers, money),
 // drafted from their specs in specs.ts.
 

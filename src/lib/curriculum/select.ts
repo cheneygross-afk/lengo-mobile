@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/curriculum/select.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Seeded, constrained selection from the item bank: the one routine
 // behind generated spaced reviews, unit reviews, level tests and test-outs
 // (docs/curriculum-architecture.md, section 7). Everything is seeded, so a

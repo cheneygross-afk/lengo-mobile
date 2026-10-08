@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/check.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Checks for the Chinese course:
 //   - the shared curriculum validator (src/lib/curriculum/validate.ts --
 //     structure, self-grading, duplicates, answer-visible, hedging,

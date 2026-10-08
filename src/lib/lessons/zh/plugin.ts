@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/plugin.ts by scripts/sync-content.mjs -- edit it there, not here.
 // The Chinese course's plugin for the curriculum engine
 // (src/lib/curriculum): grading, normalisation, the form detectors behind
 // the concept-leak check, and pinyin/example checks.

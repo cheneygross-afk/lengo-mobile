@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/authoring.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Authoring helpers for the Chinese track's lesson files.
 //
 // Everything here produces plain Lesson / Exercise objects (../types.ts),

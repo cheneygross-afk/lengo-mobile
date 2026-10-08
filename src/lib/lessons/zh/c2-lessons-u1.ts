@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c2-lessons-u1.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese C2, unit 1: classical function words in modern writing -- 者,
 // 以便 and 以免, 因…而, 即 and 乃, 何. Like C1, everything is in Chinese.
 

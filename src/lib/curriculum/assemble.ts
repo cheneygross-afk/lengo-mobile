@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/curriculum/assemble.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Assembly: builds a course's levels from their specs and the concept
 // graph (docs/curriculum-architecture.md, section 6.4). For each level:
 //

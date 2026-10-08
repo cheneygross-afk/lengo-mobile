@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/index.ts by scripts/sync-content.mjs -- edit it there, not here.
 // The Chinese (Mandarin) track for English speakers: every module, in
 // course order, with the metadata the level pages show. This file is the
 // one entry point the rest of the app imports. See README.md.

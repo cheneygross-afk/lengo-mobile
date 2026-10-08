@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c1-lessons-u2.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese C1, unit 2: emphasis and degree -- 极了/得不得了/极其, 甚至,
 // 何况 and 更不用说, 反而, 反正. All in Chinese.
 

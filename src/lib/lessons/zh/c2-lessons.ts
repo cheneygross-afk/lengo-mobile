@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c2-lessons.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese C2 teach lessons (≈ HSK 6 and beyond), one file per unit,
 // written entirely in Chinese; specs.ts holds the units.
 

@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a2-lessons-u3.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese A2, unit 3: getting things done -- result and direction
 // complements, 给, 把, 让, and making plans by phone.
 

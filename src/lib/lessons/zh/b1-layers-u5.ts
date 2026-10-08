@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b1-layers-u5.ts by scripts/sync-content.mjs -- edit it there, not here.
 // B1 unit 5 practice lessons (feelings, telling a story in order,
 // study), drafted from their specs.
 

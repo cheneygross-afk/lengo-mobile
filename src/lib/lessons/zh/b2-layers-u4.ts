@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b2-layers-u4.ts by scripts/sync-content.mjs -- edit it there, not here.
 // B2 unit 4 practice lessons (spoken to formal, 对…来说, 在…方面,
 // 随着, four-character idioms), drafted from their specs.
 

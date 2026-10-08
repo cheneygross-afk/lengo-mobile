@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/curriculum/graph.ts by scripts/sync-content.mjs -- edit it there, not here.
 // The concept graph: prerequisite checks, teaching order, and what a
 // learner may meet at any point in the course.
 

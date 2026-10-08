@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a2-lessons-u2.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese A2, unit 2: comparing and describing -- 比, 没有…那么 and
 // 一样, 得 for how well, 地 for how, 越…越, clothes and colours, 还是
 // and 或者.

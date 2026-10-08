@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a1-layers-u7.ts by scripts/sync-content.mjs -- edit it there, not here.
 // A1 unit 7 reinforce and drill lessons (transport, 吧, weather, 喜欢,
 // 了 for a new situation), drafted from their specs in specs.ts.
 
