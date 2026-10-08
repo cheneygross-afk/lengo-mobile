@@ -56,8 +56,13 @@ const DIRS = {
 // no longer synced). ja-alphabets.ts still syncs.
 const WEB_ONLY_JA = /^(ja-(a1|a2|b1|b2|c1|c2)([-.].*)?\.ts|ja-course\.ts|ja-units\.ts|ja-unit-reviews\.ts|jaVideos\.ts)$/;
 const JA_WEB_DIRS = new Set(["src/lib/stories", "src/lib/grammar"]);
+// The French course (src/lib/lessons/fr-*.ts, stories in src/lib/stories/fr)
+// is a website beta while it's being written; it comes to the app once
+// the course is complete.
+const WEB_ONLY_FR = /^fr-.*\.ts$/;
 const webOnly = (dir, name) =>
-  (dir === "src/lib/lessons" && WEB_ONLY_JA.test(name)) || (JA_WEB_DIRS.has(dir) && name.startsWith("ja-"));
+  (dir === "src/lib/lessons" && (WEB_ONLY_JA.test(name) || WEB_ONLY_FR.test(name))) ||
+  (JA_WEB_DIRS.has(dir) && name.startsWith("ja-"));
 
 // Single website files mirrored to the same path here (pure data that
 // doesn't live in one of the directories above).
