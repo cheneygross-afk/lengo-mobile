@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/curriculum/assess.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Assessment from the item bank (docs/curriculum-architecture.md, section
 // 7): test-out quizzes drawn with constraints, results broken down by
 // concept, and can-do statements measured from what has been learned.

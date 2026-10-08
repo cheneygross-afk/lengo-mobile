@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b1-layers.ts by scripts/sync-content.mjs -- edit it there, not here.
 // B1 reinforce and drill lessons, drafted from their specs in specs.ts
 // (one file per unit). assemble.ts places each after its teach lesson.
 

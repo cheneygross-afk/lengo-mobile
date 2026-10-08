@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/curriculum/memory.ts by scripts/sync-content.mjs -- edit it there, not here.
 // The memory model behind the single review scheduler
 // (docs/curriculum-architecture.md, section 8). One state per concept,
 // derived from the append-only attempts log -- never stored as the

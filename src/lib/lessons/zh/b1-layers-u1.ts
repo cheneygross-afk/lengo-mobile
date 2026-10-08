@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b1-layers-u1.ts by scripts/sync-content.mjs -- edit it there, not here.
 // B1 unit 1 practice lessons (最/比较, opinions, 多 + adjective, 又…又,
 // interests, 是…的), drafted from their specs in specs.ts.
 

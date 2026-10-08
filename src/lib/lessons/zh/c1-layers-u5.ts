@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c1-layers-u5.ts by scripts/sync-content.mjs -- edit it there, not here.
 // C1 unit 5 practice lessons (news language, numbers and trends, a talk
 // on urbanisation), drafted from their specs. All in Chinese.
 

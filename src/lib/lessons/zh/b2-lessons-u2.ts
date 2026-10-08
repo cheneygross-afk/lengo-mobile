@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b2-lessons-u2.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese B2, unit 2: cause, result and purpose -- 为了, 由于…因此, 于是,
 // 结果, 只好 and 不得不.
 

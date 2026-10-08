@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/curriculum/queue.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Composing today's review from the scheduler (docs/curriculum-
 // architecture.md, section 8.3): due concepts, most overdue first, each
 // asked with an item from the bank at the learner's level for it; the

@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a2-lessons-u5.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese A2, unit 5: reasons and conditions -- 因为…所以, 虽然…但是,
 // 如果…就, health and the doctor, 应该/可以/得 -- and the A2 review.
 

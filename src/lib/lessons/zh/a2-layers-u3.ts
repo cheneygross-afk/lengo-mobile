@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a2-layers-u3.ts by scripts/sync-content.mjs -- edit it there, not here.
 // A2 unit 3 practice lessons (result and direction complements, 给, 把,
 // 让, phone plans), drafted from their specs in specs.ts.
 

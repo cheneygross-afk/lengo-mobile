@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a2-lessons-u4.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese A2, unit 4: time and sequence -- 从…到, 就 and 才, 要…了,
 // how long, before/after/when, and asking the way.
 

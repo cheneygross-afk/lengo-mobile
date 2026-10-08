@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b2-layers-u1.ts by scripts/sync-content.mjs -- edit it there, not here.
 // B2 unit 1 practice lessons (即使, 不管 vs. 即使, 既然, 否则/不然,
 // 虽然/尽管 vs. 即使), drafted from their specs.
 

@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c2-lessons-u2.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese C2, unit 2: rhetoric -- 比喻, 排比 and 对偶, 反问, 夸张, and the
 // tone of sentence-final particles. All in Chinese.
 

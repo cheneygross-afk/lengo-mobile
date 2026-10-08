@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b1-layers-u4.ts by scripts/sync-content.mjs -- edit it there, not here.
 // B1 unit 4 practice lessons (不但…而且, 除了, 连…都, conditions with
 // 只要/只有/如果, indefinite question words), drafted from their specs.
 

@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/specs.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Level specs for the Chinese course: each level's units (which authored
 // lessons each one holds) and the reinforce/drill lessons drafted from a
 // spec to follow each teach lesson. assemble.ts builds the course from

@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/placement.ts by scripts/sync-content.mjs -- edit it there, not here.
 // The Chinese placement test's questions: one short stage per module,
 // pinyin to C2, each drawn from that module's item bank (placementItems in
 // src/lib/curriculum/assess.ts). Used by the website's

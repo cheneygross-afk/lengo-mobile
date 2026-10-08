@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b1-lessons-u2.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese B1, unit 2: ability and timing -- potential complements, 起来,
 // verb reduplication, 一…就, 刚/刚才, 又 and 再.
 

@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a2-lessons-u1.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese A2, unit 1: experiences and what's happening now -- 过,
 // 在…呢, 着, 一边…一边, hobbies and 已经. Instructions stay in English
 // (see docs/curriculum-architecture.md, section 3.4).

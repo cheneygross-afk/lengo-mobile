@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b1-layers-u2.ts by scripts/sync-content.mjs -- edit it there, not here.
 // B1 unit 2 practice lessons (potential complements, 起来, verb
 // reduplication, 一…就, 刚 vs. 已经, 又/再), drafted from their specs.
 

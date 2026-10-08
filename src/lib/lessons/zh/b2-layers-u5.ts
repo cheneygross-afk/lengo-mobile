@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b2-layers-u5.ts by scripts/sync-content.mjs -- edit it there, not here.
 // B2 unit 5 practice lessons (the environment, shopping online,
 // festivals), drafted from their specs.
 

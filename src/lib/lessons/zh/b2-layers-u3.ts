@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b2-layers-u3.ts by scripts/sync-content.mjs -- edit it there, not here.
 // B2 unit 3 practice lessons (并不, 难道, 到底, 竟然/没想到, 恐怕,
 // 差点儿), drafted from their specs.
 

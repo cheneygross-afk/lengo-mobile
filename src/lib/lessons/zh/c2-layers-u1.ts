@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c2-layers-u1.ts by scripts/sync-content.mjs -- edit it there, not here.
 // C2 unit 1 practice lessons (者, 以便/以免, 因…而, 即/乃, 何), drafted
 // from their specs. All in Chinese.
 

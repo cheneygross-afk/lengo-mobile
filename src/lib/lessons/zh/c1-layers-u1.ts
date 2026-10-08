@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c1-layers-u1.ts by scripts/sync-content.mjs -- edit it there, not here.
 // C1 unit 1 practice lessons (然而/而, 与其…不如, 宁可 vs. 与其,
 // 首先…其次, 总之/换句话说), drafted from their specs. All in Chinese.
 

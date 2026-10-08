@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c2-lessons-u5.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese C2, unit 5: literature and thought -- a Tang poem, sayings from
 // the Analects, writing an argument, and the C2 review. All in Chinese.
 

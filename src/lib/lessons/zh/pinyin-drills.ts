@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/pinyin-drills.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Pinyin-module drills, drafted from their specs in specs.ts. Each one
 // follows the lesson it practises; no new sounds, just repetition --
 // hearing, typing and saying -- climbing from recognition to production.

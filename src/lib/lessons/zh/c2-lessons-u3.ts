@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c2-lessons-u3.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese C2, unit 3: idioms and sayings -- the stories behind 成语,
 // 俗语 and 谚语, 歇后语, and the praise or blame words carry. All in
 // Chinese.

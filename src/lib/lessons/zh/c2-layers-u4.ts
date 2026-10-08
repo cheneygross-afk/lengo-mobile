@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c2-layers-u4.ts by scripts/sync-content.mjs -- edit it there, not here.
 // C2 unit 4 practice lessons (north and south, the two sides of the
 // Strait, Cantonese loans, internet slang, register), drafted from their
 // specs. All in Chinese.

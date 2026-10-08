@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c1-layers-u4.ts by scripts/sync-content.mjs -- edit it there, not here.
 // C1 unit 4 practice lessons (a meeting, a negotiation, email style, an
 // interview, polite formulas), drafted from their specs. All in Chinese.
 

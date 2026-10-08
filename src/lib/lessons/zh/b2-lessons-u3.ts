@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b2-lessons-u3.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese B2, unit 3: nuance and emphasis -- 并不, 难道…吗, 到底 and 究竟,
 // 竟然 and 没想到, 恐怕, 差点儿.
 

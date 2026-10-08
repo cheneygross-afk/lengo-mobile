@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c1-lessons-u3.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese C1, unit 3: classical traces in modern writing -- 之, 其,
 // 以…为…, 为…所, and the written negatives 无, 未, 勿, 非…不可. All in
 // Chinese.

@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a2-layers-u4.ts by scripts/sync-content.mjs -- edit it there, not here.
 // A2 unit 4 practice lessons (从…到, 就/才, 要…了, duration, 以前/以后/
 // 的时候, directions), drafted from their specs in specs.ts.
 

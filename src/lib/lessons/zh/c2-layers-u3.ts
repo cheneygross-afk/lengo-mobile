@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c2-layers-u3.ts by scripts/sync-content.mjs -- edit it there, not here.
 // C2 unit 3 practice lessons (成语故事, 俗语, 歇后语, 褒贬), drafted from
 // their specs. All in Chinese.
 

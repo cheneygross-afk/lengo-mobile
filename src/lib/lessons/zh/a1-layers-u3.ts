@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a1-layers-u3.ts by scripts/sync-content.mjs -- edit it there, not here.
 // A1 unit 3 reinforce and drill lessons (measure words, 这/那/哪, family,
 // 有/没有, 的), drafted from their specs in specs.ts.
 

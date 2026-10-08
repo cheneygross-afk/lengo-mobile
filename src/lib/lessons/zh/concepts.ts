@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/concepts.ts by scripts/sync-content.mjs -- edit it there, not here.
 // The Chinese course's concept graph: every sound, grammar point and
 // function the course teaches, with prerequisites. Lessons tag what they
 // teach (`teaches`) and review (`reviews`) with these ids; the validator

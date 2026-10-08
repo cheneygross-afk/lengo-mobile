@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b1-lessons-u3.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese B1, unit 3: doing things to things -- the 被 passive, 把…成/到/
 // 给, more measure words, work and travel.
 

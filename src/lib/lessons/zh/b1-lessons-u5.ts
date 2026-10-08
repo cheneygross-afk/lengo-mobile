@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/b1-lessons-u5.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese B1, unit 5: life topics -- feelings, telling things in order,
 // school and study -- and the B1 review.
 

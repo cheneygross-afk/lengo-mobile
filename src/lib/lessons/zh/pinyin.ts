@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/pinyin.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Pinyin and hanzi answer checking for the Chinese track.
 //
 // Self-contained (no imports) so the whole zh/ folder can be lifted into

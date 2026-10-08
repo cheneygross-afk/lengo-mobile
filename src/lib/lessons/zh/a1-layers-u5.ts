@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/a1-layers-u5.ts by scripts/sync-content.mjs -- edit it there, not here.
 // A1 unit 5 reinforce and drill lessons (在, position words, 有 for
 // existence, question words), drafted from their specs in specs.ts.
 

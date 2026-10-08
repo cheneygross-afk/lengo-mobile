@@ -1,4 +1,3 @@
-// Synced from cheneygross-afk/lengo:src/lib/lessons/zh/c1-lessons-u4.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Chinese C1, unit 4: Chinese at work -- meetings, negotiating, business
 // email, job interviews and formal politeness. All in Chinese.
 
