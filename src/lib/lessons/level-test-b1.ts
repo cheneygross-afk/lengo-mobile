@@ -12,9 +12,9 @@ import { listeningItems, readingSection, type LevelTest } from "./level-test-aut
 const { fe, sec } = authoring("es");
 
 export const LEVEL_TEST_B1: LevelTest = {
-  title: "Prueba de nivel B1: ¿listo para B2?",
+  title: "Prueba de nivel Intermedio: ¿listo para el nivel Avanzado?",
   summary:
-    "La prueba final de B1: comprensión de lectura y auditiva, gramática y vocabulario escribiendo en español, y un correo. 46 preguntas sobre lo que enseña B1; se aprueba con un 70%.",
+    "La prueba final del nivel Intermedio: comprensión de lectura y auditiva, gramática y vocabulario escribiendo en español, y un correo. 46 preguntas sobre lo que enseña de nivel Intermedio; se aprueba con un 70%.",
   duration: "50 min",
   sections: [
     readingSection(

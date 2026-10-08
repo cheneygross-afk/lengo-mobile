@@ -18,7 +18,7 @@ export const EN_C2_U03_EXTRA: Lesson[] = [
         heading: "Quick recap: the dangerous ones",
         body: [
           "«Estar constipado» is \"to have a cold\"; \"constipated\" means «estreñido». «Intoxicación alimentaria» is \"food poisoning\"; \"intoxication\" in everyday English means being drunk. A doctor writes a \"prescription\" («receta»); a \"recipe\" is for cooking and a \"receipt\" is what a shop gives you.",
-          "A footballer's «lesión» is an \"injury\"; \"lesion\" is a clinical word for damaged or abnormal tissue (a skin lesion). «Injuria» is an insult. «Operarse» is \"to have an operation\" or \"to have surgery\" (uncountable: \"She had surgery\", not *a surgery in American English).",
+          "A footballer's «lesión» is an \"injury\"; \"lesion\" is a clinical word for damaged or abnormal tissue (a skin lesion). «Injuria» is an insult. «Operarse» is \"to have an operation\" or \"to have surgery\" (usually uncountable: \"She had surgery\"; American English also counts it, \"two surgeries\", while in British English \"a surgery\" is a doctor's office).",
           "\"Sensitive\" is «sensible» (\"sensitive teeth\"); \"sensible\" is «sensato». «La consulta» is the \"appointment\" or \"consultation\", and the place is the \"doctor's office\" (US) or \"surgery\" (UK).",
         ],
         examples: [
@@ -625,7 +625,7 @@ export const EN_C2_U03_EXTRA: Lesson[] = [
           "The results of the MRI are consistent with a ligament tear.",
           "The results of the MRI are consistent with a ligament rupture.",
         ],
-        explanation: "«Compatible con» in a report = \"consistent with\". \"Compatible with\" is used for blood groups, devices and software, not for findings.",
+        explanation: "«Compatible con» in a report = \"consistent with\". \"Consistent with\" is the most common choice; \"compatible with\" also appears in radiology reports but is used far more for blood groups, devices and software.",
       },
       {
         type: "matching",

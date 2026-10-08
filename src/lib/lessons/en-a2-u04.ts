@@ -1423,7 +1423,7 @@ export const EN_A2_U04: Lesson[] = [
     level: "EN-A2",
     number: 8,
     title: "Repaso en espiral: los tiempos del pasado",
-    summary: "Repaso: \"was\" y \"were\", pasado simple regular e irregular, preguntas con \"did\", pasado continuo, \"when\" y \"while\", \"used to\" y \"ago\", mezclados con los presentes del A1.",
+    summary: "Repaso: \"was\" y \"were\", pasado simple regular e irregular, preguntas con \"did\", pasado continuo, \"when\" y \"while\", \"used to\" y \"ago\", mezclados con los presentes del nivel Fundamentos.",
     duration: "12 min",
     sections: [
       {
@@ -1507,7 +1507,7 @@ export const EN_A2_U04: Lesson[] = [
       {
         heading: "¿Pasado o presente?",
         body: [
-          "No olvides los presentes del A1: presente simple para rutinas de ahora (\"I usually work from home\") y presente continuo para lo que pasa en este momento (\"I'm working now\").",
+          "No olvides los presentes del nivel Fundamentos: presente simple para rutinas de ahora (\"I usually work from home\") y presente continuo para lo que pasa en este momento (\"I'm working now\").",
           "Antes de traducir, pregúntate: ¿es ahora o antes? ¿Es un hábito, una escena o un hecho? Esa pregunta te da el tiempo verbal.",
         ],
         examples: [

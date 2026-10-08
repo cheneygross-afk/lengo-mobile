@@ -68,6 +68,6 @@ export const A1_UNIT_WRITING: Record<string, WriteExercise> = {
     "Write a short email to a new pen friend. Introduce yourself, say where you live and what you do, describe your family, and say what you like doing at the weekend. End with a question.",
     ["Greeting and sign-off", "Ser and estar used correctly", "Present-tense verbs about your life", "Me gusta / me gustan", "A question at the end"],
     "¡Hola, Pablo! Me llamo Emma y tengo veinticinco años. Soy de Irlanda, pero vivo en Madrid. Soy profesora de inglés. Mi familia es pequeña: mis padres y mi hermano. Los fines de semana me gusta ir al parque y leer. ¿Qué haces tú los domingos? Un abrazo, Emma",
-    "A1 in one email: ser for identity and origin, tener for age, present-tense verbs, gustar, and a question with an opening ¿."
+    "Beginner in one email: ser for identity and origin, tener for age, present-tense verbs, gustar, and a question with an opening ¿."
   ),
 };

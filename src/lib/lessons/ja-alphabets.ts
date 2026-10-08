@@ -13,8 +13,8 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
       {
         "heading": "A phonetic alphabet, not a puzzle",
         "body": [
-          "Hiragana (ひらがな) is one of Japanese's writing systems, and unlike English spelling, it's perfectly phonetic: each character is always pronounced exactly one way. Learn the sound once and you know it everywhere.",
-          "There are 46 base characters. That's the whole target of this module -- once they're automatic, you can read and write any native Japanese word."
+          "Hiragana (ひらがな) is one of Japanese's writing systems, and unlike English spelling, it's almost perfectly phonetic: each character is pronounced one way, every time. Learn the sound once and you know it everywhere. The only exceptions are three particles you'll meet early on: は is read \"wa,\" へ \"e\" and を \"o\" when they work as particles.",
+          "There are 46 base characters. That's the core target of this module -- once they're automatic, and with a few small marks you'll learn later (゛, ゜, small ゃ ゅ ょ っ), you can read and write any native Japanese word."
         ],
         "examples": [
           {
@@ -23,7 +23,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
           },
           {
             "es": "あ",
-            "en": "a -- always \"a,\" no exceptions"
+            "en": "a -- always \"a\""
           }
         ],
         "checkpoint": [
@@ -52,15 +52,15 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "True or false: once you know a hiragana character's sound, it's ever pronounced differently depending on context.",
+        "question": "True or false: once you know a hiragana character's sound, it changes depending on the word it's in.",
         "options": [
-          "False -- hiragana is always pronounced the same way",
+          "False -- each character keeps its sound (only the particles は, へ, を are read wa, e, o)",
           "True -- context always changes the sound",
           "True, but only at the start of a word",
           "False, but only for vowels"
         ],
         "correctIndex": 0,
-        "explanation": "Hiragana is fully phonetic: no context-dependent pronunciation shifts."
+        "explanation": "Hiragana is phonetic: a character keeps its sound in every word. The one twist is three particles: は (wa), へ (e), を (o)."
       }
     ]
   },
@@ -1112,7 +1112,8 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
       {
         "heading": "H row: は ひ ふ へ ほ",
         "body": [
-          "は=ha, ひ=hi, へ=he, ほ=ho are regular. ふ is \"fu,\" a softer sound than English \"hu\" or \"foo.\""
+          "は=ha, ひ=hi, へ=he, ほ=ho are regular. ふ is \"fu,\" a softer sound than English \"hu\" or \"foo.\"",
+          "One thing to know now: when は and へ are used as particles (grammar words after a noun), they are read \"wa\" and \"e\": わたしは (watashi wa), にほんへ (nihon e). Inside ordinary words they stay ha and he: はな (hana)."
         ],
         "examples": [
           {
@@ -2014,7 +2015,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
       {
         "heading": "Long vowels and the small っ",
         "body": [
-          "A long vowel is usually written by adding another vowel character (せんせい, sensei) rather than doubling by hand -- doubling the vowel through い is common after e-sounds specifically. A small っ before a consonant means: hold that consonant briefly before releasing it -- がっこう (gakkou, school) vs がこう (a different word)."
+          "A long vowel is written by adding a vowel character: おかあさん (okaasan), おにいさん (oniisan). Long e is usually written with い (せんせい, sensei, said \"sensē\") and long o usually with う (がっこう, gakkou, said \"gakkō\"). A small っ before a consonant means: hold that consonant briefly before releasing it -- きって (kitte, stamp) vs きて (kite, come)."
         ],
         "examples": [
           {
@@ -2752,7 +2753,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
           },
           {
             "es": "パーティー",
-            "en": "paateii -- party"
+            "en": "paatii -- party"
           }
         ],
         "checkpoint": [
@@ -2778,8 +2779,9 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
         "type": "fill-blank",
         "prompt": "Give the romaji reading for パーティー, a word meaning \"party.\"",
         "sentence": "パーティー means \"party\" and is read ___.",
-        "answer": "paateii",
-        "explanation": "パ (pa) + ー (lengthens it) + ティ (ti) + ー (lengthens it) = paateii."
+        "answer": "paatii",
+        "altAnswers": ["pātī"],
+        "explanation": "パ (pa) + ー (lengthens it) + ティ (ti) + ー (lengthens it) = paatii."
       },
       {
         "type": "fill-blank",

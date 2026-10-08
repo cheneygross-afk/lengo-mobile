@@ -214,7 +214,7 @@ export const EN_B2_U07_EXTRA: Lesson[] = [
         heading: "Quick recap: regrets take the past perfect",
         body: [
           "To regret something in the past, use \"wish\" or \"if only\" + past perfect (\"had\" + participle): «ojalá hubiera estudiado» is \"I wish I had studied\", «ojalá no se lo hubiera dicho» is \"I wish I hadn't told him\". The Spanish pluperfect subjunctive («hubiera + participio») maps directly onto \"had + participle\".",
-          "Two typical mistakes: *I wish I would have studied (common in speech, but marked as wrong at B2 and in exams) and *I wish I studied, which means you wish you studied now, in general, not that you regret the past.",
+          "Two typical mistakes: *I wish I would have studied (common in speech, but marked as wrong at the Upper Intermediate level and in exams) and *I wish I studied, which means you wish you studied now, in general, not that you regret the past.",
           "\"If only\" is a stronger, more emotional version: \"If only I had listened to you!\"",
         ],
         examples: [

@@ -1511,7 +1511,7 @@ export const EN_A1_U10: Lesson[] = [
     level: "EN-A1",
     number: 7,
     title: "Desafío: caza de errores final",
-    summary: "Encuentra y corrige los errores más frecuentes del A1: el sujeto que falta, *he work, *are you work, *I have 25 years, *in Monday, *informations y *Where lives he.",
+    summary: "Encuentra y corrige los errores más frecuentes del nivel Fundamentos: el sujeto que falta, *he work, *are you work, *I have 25 years, *in Monday, *informations y *Where lives he.",
     duration: "12 min",
     sections: [
       {
@@ -1722,18 +1722,18 @@ export const EN_A1_U10: Lesson[] = [
     slug: "a1-exit-test",
     level: "EN-A1",
     number: 8,
-    title: "Examen de salida del A1",
-    summary: "Un examen que recorre todas las unidades del A1: gramática, ortografía, vocabulario y frases de supervivencia. Si fallas algo, la explicación te dice qué unidad repasar.",
+    title: "Examen de salida del nivel Fundamentos",
+    summary: "Un examen que recorre todas las unidades del nivel Fundamentos: gramática, ortografía, vocabulario y frases de supervivencia. Si fallas algo, la explicación te dice qué unidad repasar.",
     duration: "12 min",
     sections: [
       {
         heading: "Cómo funciona este examen",
         body: [
-          "Este examen no enseña nada nuevo: comprueba si estás listo para el A2. Cada pregunta corresponde a una unidad del curso, y la explicación te dice cuál repasar si fallas.",
-          "Primero hay cuatro bloques cortos de calentamiento (gramática, sonidos y ortografía, vocabulario y frases útiles). Después viene el examen final. Si aciertas al menos ocho de cada diez, estás preparado para el A2.",
+          "Este examen no enseña nada nuevo: comprueba si estás listo para el nivel Ganando fluidez. Cada pregunta corresponde a una unidad del curso, y la explicación te dice cuál repasar si fallas.",
+          "Primero hay cuatro bloques cortos de calentamiento (gramática, sonidos y ortografía, vocabulario y frases útiles). Después viene el examen final. Si aciertas al menos ocho de cada diez, estás preparado para el nivel Ganando fluidez.",
         ],
         examples: [
-          { es: "I'm ready for A2.", en: "Estoy listo para el A2." },
+          { es: "I'm ready for the Gaining Fluency level.", en: "Estoy listo para el nivel Ganando fluidez." },
           { es: "Good luck!", en: "¡Buena suerte!" },
         ],
       },
@@ -1772,7 +1772,7 @@ export const EN_A1_U10: Lesson[] = [
       {
         heading: "Bloque 2: sonidos y ortografía",
         body: [
-          "Unidad 2: el inglés no se escribe como suena, así que hay palabras que tienes que aprender de memoria. Las más traicioneras del A1 son \"Wednesday\", \"February\", \"friend\", \"school\", \"people\" y \"daughter\".",
+          "Unidad 2: el inglés no se escribe como suena, así que hay palabras que tienes que aprender de memoria. Las más traicioneras del nivel Fundamentos son \"Wednesday\", \"February\", \"friend\", \"school\", \"people\" y \"daughter\".",
           "Recuerda también las reglas de la -s: \"watch\" pasa a \"watches\", \"study\" a \"studies\" y \"play\" a \"plays\".",
         ],
         examples: [

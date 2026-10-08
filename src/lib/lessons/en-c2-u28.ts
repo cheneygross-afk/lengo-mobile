@@ -164,7 +164,7 @@ export const EN_C2_U28: Lesson[] = [
         body: [
           "The free-will debate turns on one modal phrase: \"could have done otherwise\". The principle of alternative possibilities says you are responsible for an act only if you could have done otherwise. Spanish «podría haber actuado de otra manera» becomes \"could have acted otherwise\"; *could act otherwise in the past is a frequent error, because the perfect infinitive is needed for an unrealised past possibility.",
           "To argue cautiously, philosophers stack modals and hedges: \"It might be argued that...\", \"One could object that...\", \"This need not mean that...\", \"It would seem that...\". \"Need not\" is especially useful: \"Determinism need not undermine responsibility\" («no tiene por qué socavar»).",
-          "For deduction, \"must have\" and \"can't have\" express near certainty about the past: \"If he was hypnotised, he can't have acted freely\". Do not use \"mustn't have\" for this in American English; \"can't have\" or \"couldn't have\" is the negative of deductive \"must have\".",
+          "For deduction, \"must have\" and \"can't have\" express near certainty about the past: \"If he was hypnotised, he can't have acted freely\". American English also uses uncontracted \"must not have\" for a weaker negative guess (\"He must not have heard me\"), but the safest negative of deductive \"must have\" is \"can't have\" or \"couldn't have\".",
         ],
         examples: [
           { es: "Could she have done otherwise?", en: "¿Podría haber actuado de otra manera?" },
@@ -296,7 +296,7 @@ export const EN_C2_U28: Lesson[] = [
           "He mustn't have chosen freely.",
         ],
         correctIndex: 0,
-        explanation: "Deduction about the past uses \"can't have\" + past participle, the negative of deductive \"must have\". \"Mustn't\" expresses prohibition and sounds wrong for deduction, especially in American English.",
+        explanation: "Deduction about the past uses \"can't have\" + past participle, the negative of deductive \"must have\". \"Mustn't\" expresses prohibition and sounds odd for deduction; \"can't have\" expresses certainty that it did not happen.",
       },
       {
         type: "translate",
@@ -354,7 +354,7 @@ export const EN_C2_U28: Lesson[] = [
       {
         type: "speak",
         text: "Determinism doesn't necessarily rule out moral responsibility.",
-        tip: "Stress the content words: deTERminism, NEcessarily, RULE OUT, MOral, responsiBIlity. In \"necessarily\" American English stresses the third syllable: nesse-SAIR-ily.",
+        tip: "Stress the content words: deTERminism, neceSSARily, RULE OUT, MOral, responsiBIlity. In \"necessarily\" American English stresses the third syllable: nesse-SAIR-ily.",
         explanation: "Long Latinate words carry one main stress; getting it right matters more than pronouncing every vowel fully.",
       },
     ],
@@ -373,7 +373,7 @@ export const EN_C2_U28: Lesson[] = [
         body: [
           "Spanish puts the definite article in front of abstract nouns used in a general sense: «la vida es corta», «la libertad importa», «el tiempo lo cura todo». English does not. When you mean the idea in general, the noun stands alone: \"Life is short\", \"Freedom matters\", \"Time heals everything\".",
           "This applies to the big abstractions (\"truth\", \"beauty\", \"justice\", \"happiness\", \"love\", \"death\"), to fields of knowledge (\"philosophy\", \"history\", \"science\", \"mathematics\"), to \"nature\", \"society\" and \"humanity\", and to uncountable nouns in general: \"Money can't buy happiness\".",
-          "An adjective in front does not change this: \"human nature\", \"modern society\", \"Western philosophy\", \"ancient history\", \"true happiness\". Even C1 writers produce *the human nature or *the modern society; these are among the clearest markers of a Spanish accent in writing.",
+          "An adjective in front does not change this: \"human nature\", \"modern society\", \"Western philosophy\", \"ancient history\", \"true happiness\". Even Advanced writers produce *the human nature or *the modern society; these are among the clearest markers of a Spanish accent in writing.",
           "Generic plural count nouns work the same way: «los seres humanos son animales sociales» is \"Human beings are social animals\", and «a los filósofos les encantan las definiciones» is \"Philosophers love definitions\".",
         ],
         examples: [
@@ -1381,7 +1381,7 @@ export const EN_C2_U28: Lesson[] = [
     slug: "en-c2-articles-generic-reference",
     level: "EN-C2",
     number: 5,
-    title: "Articles at C2: Generic, Unique and Abstract Reference",
+    title: "Articles at the Mastery level: Generic, Unique and Abstract Reference",
     summary: "«El hombre es mortal», «la naturaleza», «la gente dice»: Spanish puts \"the\" in front of generic and abstract nouns, English usually does not. Master the three ways of talking about a whole class, abstract nouns, institutions like \"go to hospital\", names of places and organisations, and the stripped-down grammar of headlines.",
     duration: "12 min",
     sections: [
@@ -1712,7 +1712,7 @@ export const EN_C2_U28: Lesson[] = [
         body: [
           "The seminar opens with a question from the tutor: \"Could any of us have done otherwise?\" Maya answers first: \"I'd want to say no. Every decision I make is the product of my genes and my history, and I didn't choose either.\"",
           "Notice how English speakers calibrate commitment. Strong: \"I'm convinced that\", \"I'd go so far as to say\", \"There's no doubt in my mind that\". Moderate: \"My view is that\", \"I tend to think\", \"I'm inclined to think\". Tentative: \"I'd want to say\", \"I suspect\", \"It seems to me that\". In a seminar, the moderate and tentative forms sound more thoughtful, not weaker.",
-          "Spanish speakers often transfer «yo creo que» to every sentence as \"I think that\". It is correct, but at C2 vary it, and avoid *I am agree (\"I agree\") and *in my opinion I think (redundant).",
+          "Spanish speakers often transfer «yo creo que» to every sentence as \"I think that\". It is correct, but at Mastery vary it, and avoid *I am agree (\"I agree\") and *in my opinion I think (redundant).",
         ],
         examples: [
           { es: "I'd want to say no: our decisions are the product of our genes and our history.", en: "Yo diría que no: nuestras decisiones son producto de nuestros genes y de nuestra historia." },
@@ -2197,7 +2197,7 @@ export const EN_C2_U28: Lesson[] = [
         heading: "Naming the weak link",
         body: [
           "Once the argument is laid out, say exactly where it fails. Common weak links: \"equivocation\" (a key word changes meaning midway), a \"false dilemma\" (only two options are presented when there are more), a \"slippery slope\" (an unsupported chain of consequences), and a \"hasty generalisation\" (a general rule drawn from too few cases).",
-          "Make your verdict precise and proportionate: \"The weak link is P2\", \"The argument trades on an ambiguity in the word...\", \"This step is unwarranted\", \"The conclusion overreaches: at most, the evidence shows...\". \"Unwarranted\" (not justified by the evidence) and \"overreach\" are valuable C2 words.",
+          "Make your verdict precise and proportionate: \"The weak link is P2\", \"The argument trades on an ambiguity in the word...\", \"This step is unwarranted\", \"The conclusion overreaches: at most, the evidence shows...\". \"Unwarranted\" (not justified by the evidence) and \"overreach\" are valuable Mastery words.",
           "A fair analyst also says what survives: \"Even so, the argument shows that...\", \"A weaker version of the conclusion might still hold\". This is the principle of charity: reconstruct the strongest version of a view before criticising it.",
         ],
         examples: [

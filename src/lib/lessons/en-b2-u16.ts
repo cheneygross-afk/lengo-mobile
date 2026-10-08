@@ -593,7 +593,7 @@ export const EN_B2_U16: Lesson[] = [
     slug: "b2-gerund-review-b1",
     level: "EN-B2",
     number: 3,
-    title: "Spiral Review: B1 Gerunds and Infinitives",
+    title: "Spiral Review: Independence Gerunds and Infinitives",
     summary: "Back to basics: enjoy, avoid and mind + -ing; want, decide and hope + to; and the gerund as a subject (\"Swimming is good for you\").",
     duration: "10 min",
     sections: [
@@ -639,7 +639,7 @@ export const EN_B2_U16: Lesson[] = [
         body: [
           "Other verbs take \"to\" + base form: \"want\", \"decide\", \"hope\", \"plan\", \"expect\", \"agree\", \"refuse\", \"promise\", \"offer\", \"manage\", \"afford\", \"learn\", \"seem\", \"would like\".",
           "Many of them point to the future or to an intention. That is a useful clue: \"I hope to see you\" (future), but \"I enjoy seeing you\" (an experience).",
-          "\"Want\" never takes \"that\" + a clause: «quiero que vengas» is \"I want you to come\", not *I want that you come. This was one of the most common B1 errors, and it still appears at B2.",
+          "\"Want\" never takes \"that\" + a clause: «quiero que vengas» is \"I want you to come\", not *I want that you come. This was one of the most common Independence errors, and it still appears at the Upper Intermediate level.",
         ],
         examples: [
           { es: "We decided to stay home.", en: "Decidimos quedarnos en casa." },
@@ -1046,7 +1046,7 @@ export const EN_B2_U16: Lesson[] = [
       {
         heading: "I want you to come, not *I want that you come",
         body: [
-          "Spanish uses «que» + subjunctive whenever you want, ask or expect someone else to do something: «quiero que vengas». English uses verb + person + to + base form: \"I want you to come.\" The pattern *I want that you come is one of the most common B2 mistakes.",
+          "Spanish uses «que» + subjunctive whenever you want, ask or expect someone else to do something: «quiero que vengas». English uses verb + person + to + base form: \"I want you to come.\" The pattern *I want that you come is one of the most common Upper Intermediate mistakes.",
           "The same pattern works with \"would like\", \"need\", \"expect\", \"ask\", \"tell\", \"remind\", \"allow\" and \"encourage\": \"I'd like you to meet Tom\", \"They expect us to finish today\", \"She asked me to help her.\"",
           "Use an object pronoun (me, him, her, us, them), not a subject pronoun: \"I want him to stay\", not *I want he stays. For the negative, put \"not\" before \"to\": \"I asked them not to call after ten.\"",
           "Careful: \"suggest\" and \"recommend\" don't follow this pattern. Say \"I suggest that you take the train\" or \"I suggest taking the train\", never *I suggest you to take.",

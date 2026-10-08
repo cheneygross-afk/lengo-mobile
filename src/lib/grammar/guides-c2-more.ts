@@ -14,7 +14,7 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
     level: "C2",
     readingLevelPath: "c1c2",
     intro: [
-      "By C1 you know the triggers: querer que, es posible que, para que. At C2 the interesting cases are the ones where both moods are grammatical and the choice changes what you mean, or how committed you are to it.",
+      "By de nivel Maestría you know the triggers: querer que, es posible que, para que. At the Professional & Academic level the interesting cases are the ones where both moods are grammatical and the choice changes what you mean, or how committed you are to it.",
       "The underlying idea is simple: the indicative asserts information as new or true; the subjunctive presents it as not asserted, because it's a wish, a hypothesis, already known, or under discussion.",
     ],
     sections: [
@@ -113,7 +113,7 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
   {
     slug: "formal-written-spanish",
     title: "Formal Written Spanish: Shifting Register on the Page",
-    metaTitle: "Formal Written Spanish: Register Shifts (C2)",
+    metaTitle: "Formal Written Spanish: Register Shifts",
     description:
       "Move a text from conversational to formal Spanish: precise verbs, nominal style, impersonal constructions, formal connectors and bureaucratic traps.",
     level: "C2",
@@ -215,14 +215,14 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
   {
     slug: "free-indirect-style",
     title: "Free Indirect Style in Spanish: Narrating a Character's Thoughts",
-    metaTitle: "Free Indirect Style in Spanish (C2)",
+    metaTitle: "Free Indirect Style in Spanish",
     description:
       "What estilo indirecto libre is, how to spot it in Spanish novels (imperfect, conditional, unquoted exclamations) and how to write it yourself.",
     level: "C2",
     readingLevelPath: "c1c2",
     intro: [
       "Spanish fiction moves constantly between the narrator's voice and a character's mind. Between direct speech (—¿Y ahora qué hago?, pensó) and indirect speech (Se preguntó qué haría) there is a third option: free indirect style, which blends the two.",
-      "Recognizing it is essential for reading novels at C2, because otherwise you'll attribute a character's prejudices, doubts and exclamations to the narrator.",
+      "Recognizing it is essential for reading novels at the Professional & Academic level, because otherwise you'll attribute a character's prejudices, doubts and exclamations to the narrator.",
     ],
     sections: [
       {
@@ -293,13 +293,13 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
   {
     slug: "passive-and-impersonal-variants",
     title: "Passive and Impersonal Variants: Choosing the Right One",
-    metaTitle: "Spanish Passive vs. Impersonal Constructions (C2)",
+    metaTitle: "Spanish Passive vs. Impersonal Constructions",
     description:
       "Ser passive, estar + participle, pasiva refleja, impersonal se, plural they, uno and generic tú: what each implies and where it sounds natural.",
     level: "C2",
     readingLevelPath: "c1c2",
     intro: [
-      "English uses the passive constantly; Spanish has half a dozen ways to leave the agent out or move it to the background, and each has a different tone. Choosing well is what makes a C2 text sound native rather than translated.",
+      "English uses the passive constantly; Spanish has half a dozen ways to leave the agent out or move it to the background, and each has a different tone. Choosing well is what makes a Professional & Academic text sound native rather than translated.",
     ],
     sections: [
       {
@@ -393,13 +393,13 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
   {
     slug: "regional-grammar-variation",
     title: "Regional Variation in Spanish Grammar: Spain and the Americas",
-    metaTitle: "Regional Grammar Differences in Spanish (C2)",
+    metaTitle: "Regional Grammar Differences in Spanish",
     description:
       "Grammar differences across the Spanish-speaking world: vosotros vs. ustedes, preterite vs. perfect, voseo, leísmo, Caribbean questions and more.",
     level: "C2",
     readingLevelPath: "c1c2",
     intro: [
-      "Educated Spanish is remarkably uniform in writing, but every region has grammar features that are standard locally. At C2 you should recognize them all, know which are accepted in formal writing, and choose a consistent variety for your own Spanish.",
+      "Educated Spanish is remarkably uniform in writing, but every region has grammar features that are standard locally. At the Professional & Academic level you should recognize them all, know which are accepted in formal writing, and choose a consistent variety for your own Spanish.",
     ],
     sections: [
       {
@@ -583,14 +583,14 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
   {
     slug: "modal-uses-of-tenses",
     title: "Tenses That Don't Mean Time: Politeness, Rumor and Surprise",
-    metaTitle: "Modal Uses of Spanish Tenses (C2)",
+    metaTitle: "Modal Uses of Spanish Tenses",
     description:
       "How Spanish tenses express attitude, not time: the rumor conditional (habría muerto), the polite imperfect, the future of surprise and more.",
     level: "C2",
     readingLevelPath: "c1c2",
     intro: [
       "Spanish tenses don't only place events in time. Many uses tell you how the speaker relates to what they say: how sure they are, how polite they want to be, or whether they're quoting someone else. These are the modal uses of tenses.",
-      "You met the future and conditional of probability at C1 (serán las tres). This guide covers the rest.",
+      "You met the future and conditional of probability at the Mastery level (serán las tres). This guide covers the rest.",
     ],
     sections: [
       {

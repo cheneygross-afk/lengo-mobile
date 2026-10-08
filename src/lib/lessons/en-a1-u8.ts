@@ -462,7 +462,7 @@ export const EN_A1_U8: Lesson[] = [
     slug: "a1-spiral-review",
     level: "EN-A1",
     number: 3,
-    title: "Repaso en espiral del A1",
+    title: "Repaso en espiral del nivel Fundamentos",
     summary: "Todo lo visto hasta ahora en un mismo lugar: to be, presente simple y continuo, posesivos, números, la hora, preguntas, like, can y there is.",
     duration: "12 min",
     sections: [

@@ -219,7 +219,7 @@ export const EN_C1_U03_EXTRA: Lesson[] = [
         question: "\"The ___ that we had lost the contract hit us hard.\" Which word fits?",
         options: ["realization", "realizement", "realize", "realism"],
         correctIndex: 0,
-        explanation: "Here the meaning is «darse cuenta», so \"realization\" is right. That is the only meaning \"realization\" has in everyday English.",
+        explanation: "Here the meaning is «darse cuenta», so \"realization\" is right. That is by far its most common meaning; only in phrases like \"the realization of a dream\" does it mean «hacer realidad».",
       },
       {
         type: "fill-blank",

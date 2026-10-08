@@ -1590,7 +1590,7 @@ export const EN_A2_U14: Lesson[] = [
       {
         heading: "Imperativos y pronombres de objeto",
         body: [
-          "Repaso de A1: el imperativo no lleva sujeto (\"Call me\", \"Don't tell him\"), y los pronombres de objeto van detrás del verbo: \"me\", \"you\", \"him\", \"her\", \"it\", \"us\", \"them\".",
+          "Repaso del nivel Fundamentos: el imperativo no lleva sujeto (\"Call me\", \"Don't tell him\"), y los pronombres de objeto van detrás del verbo: \"me\", \"you\", \"him\", \"her\", \"it\", \"us\", \"them\".",
           "En español van delante («te llamaré», «se lo diré»); en inglés siempre detrás: \"I'll call you\", \"I'll tell him\".",
         ],
         examples: [

@@ -411,7 +411,7 @@ export const A2_GAPS: AnchoredLesson[] = [
         [
           "To tell a friend, a child or anyone you call tú to do something, take the present-tense él/ella form: él habla → ¡Habla!, él come → ¡Come!, él escribe → ¡Escribe!",
           "Stem changes stay: él cierra → cierra, él vuelve → vuelve, él pide → pide, él duerme → duerme.",
-          "This is only for affirmative commands (\"do it!\"). \"Don't do it!\" uses a different form (no hables, no comas) that you'll learn in B1.",
+          "This is only for affirmative commands (\"do it!\"). \"Don't do it!\" uses a different form (no hables, no comas) that you'll learn in the Intermediate level.",
         ],
         [
           ["Habla más despacio, por favor.", "Speak more slowly, please."],
@@ -466,7 +466,7 @@ export const A2_GAPS: AnchoredLesson[] = [
         [
           "A bare command is normal between friends in Spanish and not rude, especially with por favor or a friendly tone.",
           "To sound gentler, add por favor, or use a question: ¿Me pasas la sal? (Will you pass me the salt?) is often friendlier than Pásame la sal.",
-          "With people you address as usted (a stranger, an older person, a customer) the command form is different (hable, coma), so at A2 a polite question is the safe choice: ¿Puede hablar más despacio?",
+          "With people you address as usted (a stranger, an older person, a customer) the command form is different (hable, coma), so at the Elementary level a polite question is the safe choice: ¿Puede hablar más despacio?",
         ],
         [
           ["Pásame la sal, por favor.", "Pass me the salt, please."],
@@ -920,7 +920,7 @@ export const A2_GAPS: AnchoredLesson[] = [
         [
           "You can flip the sentence: present + desde hace + time. Vivo en Madrid desde hace dos años means exactly the same as Hace dos años que vivo en Madrid.",
           "Desde (since) alone goes with a starting point, not a length of time: desde 2020, desde el lunes, desde niño. Desde hace goes with a length: desde hace tres días.",
-          "A third very common option: llevar + time + gerund. Llevo dos años viviendo en Madrid. You'll practise this one more in B1.",
+          "A third very common option: llevar + time + gerund. Llevo dos años viviendo en Madrid. You'll practise this one more in the Intermediate level.",
         ],
         [
           ["Vivo en Madrid desde hace dos años.", "I've been living in Madrid for two years."],
@@ -1206,7 +1206,7 @@ export const A2_GAPS: AnchoredLesson[] = [
           "Pedir means to ask FOR something, to request or order: pedir un café, pedir ayuda, pedir la cuenta, pedir un favor.",
           "It's an e → i stem changer: pido, pides, pide, pedimos, pedís, piden. Preterite: pedí, pediste, pidió, pedimos, pedisteis, pidieron.",
           "Don't add \"por\" for \"ask for\": pedir already includes it. Pido la cuenta, not \"pido por la cuenta\".",
-          "To ask someone to DO something: pedir a alguien que + verb. At A2, you can use pedir + noun or ¿Me puedes...? instead.",
+          "To ask someone to DO something: pedir a alguien que + verb. At the Elementary level, you can use pedir + noun or ¿Me puedes...? instead.",
         ],
         [
           ["Voy a pedir un café con leche.", "I'm going to order a white coffee."],

@@ -376,7 +376,7 @@ export const B2_GUIDES: GrammarGuide[] = [
       },
       {
         q: "What's free indirect style?",
-        a: "A literary technique that blends a narrator's voice with a character's thoughts, without dijo que. It's covered in the C1 lessons on narration.",
+        a: "A literary technique that blends a narrator's voice with a character's thoughts, without dijo que. It's covered in the Mastery lessons on narration.",
       },
     ],
     related: ["sequence-of-tenses", "spanish-pluperfect", "spanish-conditional-tense"],
@@ -487,11 +487,11 @@ export const B2_GUIDES: GrammarGuide[] = [
     title: "Ser and Estar With Adjectives That Change Meaning",
     metaTitle: "Ser vs. Estar With Adjectives: Es/Está Listo",
     description:
-      "Ser and estar with adjectives at B2: meaning changes (ser listo, estar listo), estar for impressions, estar + participle vs. the ser passive.",
+      "Ser and estar with adjectives, advanced: meaning changes (ser listo, estar listo), estar for impressions, estar + participle vs. the ser passive.",
     level: "B2",
     readingLevelPath: "b2",
     intro: [
-      "At A1 you learn ser for identity and estar for states. At B2 the interesting cases are adjectives, where the choice changes the meaning, or shows whether you're describing something as it always is or as you experience it right now.",
+      "At the Beginner level you learn ser for identity and estar for states. At the Advanced level the interesting cases are adjectives, where the choice changes the meaning, or shows whether you're describing something as it always is or as you experience it right now.",
     ],
     sections: [
       {
@@ -767,7 +767,7 @@ export const B2_GUIDES: GrammarGuide[] = [
     level: "B2",
     readingLevelPath: "b2",
     intro: [
-      "Connectors (conectores) link ideas and tell the reader how they relate. Moving beyond y, pero and porque is one of the clearest signs of B2 writing, and DELE and SIELE examiners look for it.",
+      "Connectors (conectores) link ideas and tell the reader how they relate. Moving beyond y, pero and porque is one of the clearest signs of Advanced writing, and DELE and SIELE examiners look for it.",
       "Pay attention to punctuation: connectors that start a new idea are usually followed by a comma.",
     ],
     sections: [
@@ -848,7 +848,7 @@ export const B2_GUIDES: GrammarGuide[] = [
       },
       {
         q: "Which connectors impress examiners?",
-        a: "Variety and correct use matter more than rare words. A text that uses sin embargo, por lo tanto, además and en cambio correctly already shows a B2 range.",
+        a: "Variety and correct use matter more than rare words. A text that uses sin embargo, por lo tanto, además and en cambio correctly already shows al nivel Avanzado range.",
       },
     ],
     related: ["discourse-markers", "concessive-clauses-aunque", "spanish-punctuation"],

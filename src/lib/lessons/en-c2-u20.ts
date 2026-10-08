@@ -365,7 +365,7 @@ export const EN_C2_U20: Lesson[] = [
       {
         heading: "Tags with attitude",
         body: [
-          "Ordinary question tags reverse the polarity: \"You're coming, aren't you?\" At C2 you also need tags that carry attitude. A negative statement with a positive tag and a falling tone can be openly scornful: \"You didn't really think that would work, did you?\" The word \"really\" and the falling tag turn it into a put-down.",
+          "Ordinary question tags reverse the polarity: \"You're coming, aren't you?\" At the Mastery level you also need tags that carry attitude. A negative statement with a positive tag and a falling tone can be openly scornful: \"You didn't really think that would work, did you?\" The word \"really\" and the falling tag turn it into a put-down.",
           "Same-polarity tags (positive statement, positive tag) express surprise, suspicion or sarcasm: \"So you're the expert now, are you?\", \"Oh, you've decided to join us, have you?\" They never ask for information.",
           "Imperative tags add impatience: \"Give it a rest, will you?\", \"Just listen for once, would you?\"",
           "Spanish uses one invariable tag («¿no?», «¿verdad?», «¿eh?») and puts the attitude in the voice. English builds the attitude into the tag itself, so *You didn't think that would work, no? loses all its bite.",
@@ -984,7 +984,7 @@ export const EN_C2_U20: Lesson[] = [
         body: [
           "In 1963 Martin Luther King repeated \"I have a dream\" eight times (anaphora). The most quoted line rests on antithesis: his children would one day \"not be judged by the color of their skin but by the content of their character\". The alliteration (color / content, character) makes the contrast unforgettable.",
           "In 1961 John F. Kennedy said: \"And so, my fellow Americans: ask not what your country can do for you; ask what you can do for your country.\" It is a chiasmus: \"country... you\" becomes \"you... country\". \"Ask not\" is an archaic negative imperative (today: \"don't ask\"), chosen for its solemn, biblical ring.",
-          "Antithesis is especially useful at C2 because it packs a whole argument into one sentence: what we reject, and what we propose instead.",
+          "Antithesis is especially useful at the Mastery level because it packs a whole argument into one sentence: what we reject, and what we propose instead.",
         ],
         examples: [
           { es: "I have a dream that one day this nation will rise up.", en: "Tengo un sueño: que un día esta nación se pondrá en pie. (King, 1963)" },
@@ -1567,7 +1567,7 @@ export const EN_C2_U20: Lesson[] = [
         body: [
           "A strong arguer concedes a point and then turns it: \"Granted, it costs more at first. But it pays for itself within five years.\" Other concession markers: \"Admittedly,...\", \"It's true that..., but...\", \"I take your point, but...\", \"That said,...\", \"Even so,...\".",
           "Get the grammar right. \"Despite\" and \"in spite of\" take a noun or -ing, never a clause: \"despite the cost\", \"despite costing more\" (not *despite of the cost, not *despite it costs more). \"Even though\" takes a clause. \"Even so\" stands alone and means «aun así».",
-          "Concessive fronting adds elegance at C2: \"Expensive it may be, but it works.\", \"Much as I admire her, I can't agree.\" Spanish uses «por muy... que» for a similar effect: «Por muy caro que sea, funciona».",
+          "Concessive fronting adds elegance at the Mastery level: \"Expensive it may be, but it works.\", \"Much as I admire her, I can't agree.\" Spanish uses «por muy... que» for a similar effect: «Por muy caro que sea, funciona».",
         ],
         examples: [
           { es: "Granted, it costs more at first. But it pays for itself within five years.", en: "Es verdad que al principio cuesta más. Pero se amortiza en cinco años." },
@@ -2257,7 +2257,7 @@ export const EN_C2_U20: Lesson[] = [
               "Hard it may be, but we cannot give up.",
               "Hard as it may be, we cannot give up.",
             ],
-            explanation: "«Por + adjetivo + que» has several C2 equivalents: \"However difficult it is\", \"Difficult as it may be\", or concessive fronting with \"but\".",
+            explanation: "«Por + adjetivo + que» has several Mastery equivalents: \"However difficult it is\", \"Difficult as it may be\", or concessive fronting with \"but\".",
           },
         ],
       },

@@ -1423,7 +1423,7 @@ export const EN_C2_U01: Lesson[] = [
     slug: "c2-vocab-latin-terms",
     level: "EN-C2",
     number: 6,
-    title: "C2 vocabulary: Latin in legal and academic English",
+    title: "Mastery vocabulary: Latin in legal and academic English",
     summary: "Latin phrases in legal, academic and press English: \"bona fide\", \"de facto\", \"pro bono\", \"ad hoc\", \"per se\", \"inter alia\", \"prima facie\", \"sub judice\", \"ex officio\" and \"quid pro quo\", with their English pronunciation.",
     duration: "12 min",
     sections: [
@@ -1719,7 +1719,7 @@ export const EN_C2_U01: Lesson[] = [
           { es: "He was prosecuted for driving without insurance.", en: "Lo procesaron por conducir sin seguro." },
           { es: "Two men have been charged with armed robbery.", en: "Dos hombres han sido acusados formalmente de robo a mano armada." },
           { es: "She accused him of stealing her ideas.", en: "Lo acusó de robarle las ideas." },
-          { es: "Shoplifters will be prosecuted.", en: "Los hurtos serán denunciados." },
+          { es: "Shoplifters will be prosecuted.", en: "Se procesará a quien robe en la tienda." },
           { es: "He was convicted of fraud.", en: "Fue condenado por fraude." },
         ],
         checkpoint: [

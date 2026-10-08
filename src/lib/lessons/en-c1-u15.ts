@@ -61,7 +61,7 @@ export const EN_C1_U15: Lesson[] = [
         heading: "Interrupting politely",
         body: [
           "Spanish speakers often translate «Quiero decir una cosa» as \"I want to say something\". It is grammatical, but in an English meeting it sounds pushy, almost like a demand. Fluent speakers ask permission, even when they are not really waiting for it.",
-          "The most common C1 phrases are: \"Can I just come in here?\", \"Sorry to interrupt, but...\", \"If I could just add something...\" and \"Could I just say something?\". The little word \"just\" is doing a lot of work: it makes the interruption sound small and harmless.",
+          "The most common Advanced phrases are: \"Can I just come in here?\", \"Sorry to interrupt, but...\", \"If I could just add something...\" and \"Could I just say something?\". The little word \"just\" is doing a lot of work: it makes the interruption sound small and harmless.",
           "When someone interrupts you and you want to finish, say \"If I could just finish my point...\" or \"Let me just finish this, and then I'll hand over to you\". To let someone in, say \"Go ahead\" or \"Please, go on\".",
         ],
         examples: [
@@ -360,7 +360,7 @@ export const EN_C1_U15: Lesson[] = [
         body: [
           "When something is unclear, Spanish speakers often say *What do you want to say?, from «¿Qué quieres decir?». In English that sounds like an invitation to speak («¿Qué es lo que quieres decirnos?»), not a request for clarification. The correct question is \"What do you mean?\", or more precisely \"What exactly do you mean by...?\".",
           "To check your own understanding, paraphrase: \"Just to clarify, are you saying that...?\", \"If I understand you correctly, ...\", \"So what you're saying is...\". To clarify your own point: \"What I meant was...\", \"Let me put it another way\".",
-          "\"Just to clarify\" is extremely common at C1. It signals that you are not challenging the speaker, only making sure everyone is on the same page («que todos estemos en la misma onda»).",
+          "\"Just to clarify\" is extremely common at the Advanced level. It signals that you are not challenging the speaker, only making sure everyone is on the same page («que todos estemos en la misma onda»).",
         ],
         examples: [
           { es: "What exactly do you mean by \"flexible\"?", en: "¿Qué quieres decir exactamente con «flexible»?" },
@@ -465,7 +465,7 @@ export const EN_C1_U15: Lesson[] = [
           "I can see where you're coming from, but I think it's too risky.",
           "I can see your point, but I think it's too risky.",
         ],
-        explanation: "Acknowledge first, then disagree: \"I see where you're coming from, but...\" is the most natural C1 phrase. \"I take your point\" is slightly more British.",
+        explanation: "Acknowledge first, then disagree: \"I see where you're coming from, but...\" is the most natural Advanced phrase. \"I take your point\" is slightly more British.",
       },
       {
         type: "multiple-choice",
@@ -485,7 +485,7 @@ export const EN_C1_U15: Lesson[] = [
         sentence: "To play devil's ___, what if the client says no?",
         answer: "advocate",
         en: "Por hacer de [abogado] del diablo, ¿y si el cliente dice que no?",
-        explanation: "The full idiom is \"to play devil's advocate\". Note there is no article: not *the devil's advocate in this fixed phrase.",
+        explanation: "The full idiom is \"to play devil's advocate\". Note there is no article: \"the devil's advocate\" is also heard but less common.",
       },
       {
         type: "translate",
@@ -681,7 +681,7 @@ export const EN_C1_U15: Lesson[] = [
         heading: "Transcript 3: closing with a clear outcome",
         body: [
           "Compare two endings. Ending A: \"OK, so, good meeting. Let's talk soon.\" Ending B: \"So, to recap: we'll trial the four-day week with the design team from 1 March. Carlos will draft a proposal for HR by next Friday, and Emma will check client cover. Does that work for everyone?\"",
-          "Ending A sounds friendly, but a week later nobody will remember who promised what. Ending B is a model C1 summary: the decision, then each action point with a name and a deadline, then a check for agreement.",
+          "Ending A sounds friendly, but a week later nobody will remember who promised what. Ending B is a model Advanced summary: the decision, then each action point with a name and a deadline, then a check for agreement.",
           "If something was not decided, say so explicitly: \"We didn't reach a decision on the budget, so let's pick that up next week\". \"Pick up\" means to continue a topic later.",
         ],
         examples: [
@@ -1795,7 +1795,7 @@ export const EN_C1_U15: Lesson[] = [
         heading: "Inversion and closing the deal",
         body: [
           "Formal negotiations and written offers often use conditional inversion instead of \"if\": \"Should you decide to go ahead, we would...\" (= If you decide), \"Were we to accept these terms, ...\" (= If we accepted), \"Had we known about the delay, ...\" (= If we had known). It sounds polished and slightly distant.",
-          "To close: \"I think we have a deal\", \"So, we're agreed on...\", \"Let's put that in writing\", \"We'll send over a draft contract\". The verb for «llegar a un acuerdo» is \"reach an agreement\" or \"come to an agreement\"; *arrive at an agreement is rare and *arrive to an agreement is wrong. Informally, \"strike a deal\" or \"close the deal\".",
+          "To close: \"I think we have a deal\", \"So, we're agreed on...\", \"Let's put that in writing\", \"We'll send over a draft contract\". The verb for «llegar a un acuerdo» is \"reach an agreement\" or \"come to an agreement\"; \"arrive at an agreement\" is less common and *arrive to an agreement is wrong. Informally, \"strike a deal\" or \"close the deal\".",
           "Watch the false friend «compromiso»: an obligation is a \"commitment\", while \"a compromise\" is a deal where both sides give something up («un acuerdo intermedio, una concesión mutua»).",
         ],
         examples: [
@@ -2113,7 +2113,7 @@ export const EN_C1_U15: Lesson[] = [
               "I appreciate you telling me. Would you be able to give me an example?",
               "I appreciate you telling me. Could you give me an example, please?",
             ],
-            explanation: "\"Appreciate\" takes an object + -ing (\"I appreciate you telling me\"), never *I appreciate that you tell me or *I appreciate you to tell me.",
+            explanation: "\"Appreciate\" takes an object + -ing (\"I appreciate you telling me\"), not *I appreciate you to tell me or *I appreciate you to tell me.",
           },
           {
             type: "fill-blank",
@@ -2815,7 +2815,7 @@ export const EN_C1_U15: Lesson[] = [
     level: "EN-C1",
     number: 11,
     title: "Error Hunt: Business English",
-    summary: "Find and fix the workplace errors Spanish speakers make even at C1: assist to a meeting, I have five years working here, the actual situation, the responsible of, make a pause, and register slips in emails and meetings.",
+    summary: "Find and fix the workplace errors Spanish speakers make even at the Advanced level: assist to a meeting, I have five years working here, the actual situation, the responsible of, make a pause, and register slips in emails and meetings.",
     duration: "11 min",
     sections: [
       {
@@ -3498,7 +3498,7 @@ export const EN_C1_U15: Lesson[] = [
     level: "EN-C1",
     number: 13,
     title: "Word Web: Business and the Economy",
-    summary: "Build a C1 vocabulary network for business and the economy: revenue, profit margin, turnover, stakeholder, merger, recession, inflation, outsourcing, startups and supply chains, plus false friends like «empresa» and «balance».",
+    summary: "Build an Advanced vocabulary network for business and the economy: revenue, profit margin, turnover, stakeholder, merger, recession, inflation, outsourcing, startups and supply chains, plus false friends like «empresa» and «balance».",
     duration: "12 min",
     sections: [
       {
@@ -3840,7 +3840,7 @@ export const EN_C1_U15: Lesson[] = [
           "Has a clear, professional tone suitable for a newsletter",
         ],
         modelAnswer: "Overall, it has been a strong year. Revenue rose by 12%, and despite rising inflation, we kept our profit margin at around 9%. Our merger with a smaller logistics firm in Portugal has made our supply chain faster and more reliable. The main challenge has been staff turnover in customer service, which is why we have decided to outsource part of it next year. We would like to thank all our stakeholders for their support.",
-        explanation: "Using vocabulary in a real text, with its collocations, is what turns passive knowledge into active C1 vocabulary.",
+        explanation: "Using vocabulary in a real text, with its collocations, is what turns passive knowledge into active Advanced vocabulary.",
       },
     ],
   },

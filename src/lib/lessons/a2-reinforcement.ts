@@ -30,7 +30,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Scene: Monday at the office",
-        "Two coworkers catch up. Notice the mirror rule from A1 still applies: a tú question gets a yo answer, and the endings change with it (-aste → -é, -iste → -í).",
+        "Two coworkers catch up. Notice the mirror rule from Beginner still applies: a tú question gets a yo answer, and the endings change with it (-aste → -é, -iste → -í).",
         [
           ["—¿Qué hiciste el fin de semana? —Nada especial. El sábado limpié la casa.", "What did you do this weekend? — Nothing special. On Saturday I cleaned the house."],
           ["—¿Saliste el domingo? —Sí, salí con mis primos y comimos en un restaurante peruano.", "Did you go out on Sunday? — Yes, I went out with my cousins and we ate at a Peruvian restaurant."],
@@ -321,13 +321,13 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "imperfect-tense-2",
     "a2r-spiral-past-forms",
-    "Spiral Review: Two Past Tenses + A1 Essentials",
-    "A cumulative check of preterite and imperfect forms, mixed with gustar, ser/estar and tener from A1.",
+    "Spiral Review: Two Past Tenses + Beginner Essentials",
+    "A cumulative check of preterite and imperfect forms, mixed with gustar, ser/estar and tener from the Beginner level.",
     "8 min",
     [
       sec(
-        "A1 verbs in the past",
-        "Everything you learned in A1 has a past version. Gustar keeps its pattern: me gustaba el café (I used to like coffee), me gustaron las películas (I liked the movies).",
+        "Beginner verbs in the past",
+        "Everything you learned in the Beginner level has a past version. Gustar keeps its pattern: me gustaba el café (I used to like coffee), me gustaron las películas (I liked the movies).",
         [
           ["De niño, no me gustaban las verduras.", "As a child, I didn't like vegetables."],
           ["Estaba cansado porque tenía mucho trabajo.", "I was tired because I had a lot of work."],
@@ -731,7 +731,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     "indirect-object-pronouns-2",
     "a2r-contrast-lo-le",
     "Contrast Clinic: Lo/La vs. Le",
-    "Direct or indirect? The verb decides — and choosing wrong is one of the most common A2 slips.",
+    "Direct or indirect? The verb decides — and choosing wrong is one of the most common Elementary slips.",
     "7 min",
     [
       sec(
@@ -1134,7 +1134,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Past events go with past time words and future ones with future words. \"Mañana fui\" mixes tomorrow with a preterite; it should be iré or voy a ir."
       ),
       toEs("I used to live in Lima, now I live in Quito, and next year I'll live in Madrid.", "Antes vivía en Lima, ahora vivo en Quito y el año que viene viviré en Madrid.", "Antes takes the imperfect (vivía), ahora the present (vivo), and el año que viene the future (viviré).", ["Antes vivía en Lima, ahora vivo en Quito y el próximo año viviré en Madrid."]),
-      wo("Cuando tenía diez años decidí que sería médico.", "Imperfect (age) + preterite (decision). Sería = would be (you'll meet this conditional form in B1).", "When I was ten I decided I would be a doctor."),
+      wo("Cuando tenía diez años decidí que sería médico.", "Imperfect (age) + preterite (decision). Sería = would be (you'll meet this conditional form in the Intermediate level).", "When I was ten I decided I would be a doctor."),
     ]
   ),
   L(
@@ -1257,7 +1257,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "A message from a friend",
-        "Read the voice message transcript. It packs half of A2 into five lines.",
+        "Read the voice message transcript. It packs half of Elementary into five lines.",
         [
           ["¡Hola! Ayer me levanté temprano para ir al mercado.", "Hi! Yesterday I got up early to go to the market."],
           ["Vi unas flores preciosas y las compré para tu madre.", "I saw some beautiful flowers and bought them for your mom."],
@@ -1304,7 +1304,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Missing a",
-        "When the direct object is a specific person (or a pet you treat as one), Spanish adds a. English has nothing like it, so it's the most commonly forgotten word in A2.",
+        "When the direct object is a specific person (or a pet you treat as one), Spanish adds a. English has nothing like it, so it's the most commonly forgotten word in the Elementary level.",
         [
           ["✗ Visito mi abuela. → ✓ Visito a mi abuela.", "I visit my grandmother."],
           ["✗ Conozco tu hermano. → ✓ Conozco a tu hermano.", "I know your brother."],
@@ -1592,7 +1592,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "at-the-restaurant-2",
     "a2r-spiral-telling-stories",
-    "Spiral Review: A2 So Far — Telling Stories",
+    "Spiral Review: Elementary So Far — Telling Stories",
     "Lessons 1–9 revisited: tell a complete past-tense story with regular and irregular preterites, the imperfect, and both together.",
     "9 min",
     [
@@ -1643,13 +1643,13 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "at-the-restaurant-2",
     "a2r-spiral-pronouns-comparisons-future",
-    "Spiral Review: A2 So Far — Tools of Everyday Talk",
+    "Spiral Review: Elementary So Far — Tools of Everyday Talk",
     "Lessons 10–31 revisited: pronouns, reflexives, comparisons, the future, por/para, negatives and adverbs.",
     "9 min",
     [
       sec(
         "Group chat: planning a picnic",
-        "Every message reuses a structure from this half of A2.",
+        "Every message reuses a structure from this half of the Elementary level.",
         [
           ["Ana: ¿Quién trae las bebidas? Yo no puedo traerlas.", "Who's bringing the drinks? I can't bring them."],
           ["Leo: Yo las traigo. Y le compraré un pastel a Marta para su cumpleaños.", "I'll bring them. And I'll buy Marta a cake for her birthday."],
@@ -2630,7 +2630,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     "personal-a-negation-mente-drill-3",
     "a2r-spiral-a-negation-adverbs",
     "Spiral Review: Personal A, Negatives & Adverbs",
-    "A cumulative mix of lessons 23–27 with the past tenses and pronouns from earlier in A2.",
+    "A cumulative mix of lessons 23–27 with the past tenses and pronouns from earlier in the Elementary level.",
     "8 min",
     [
       sec(
@@ -2679,7 +2679,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     "a2-vocabulary-practice-5",
     "a2r-word-web-travel",
     "Word Web: Travel & Trips",
-    "Airports, hotels and luggage — sort A2's travel vocabulary and use it in the past tense.",
+    "Airports, hotels and luggage — sort Elementary's travel vocabulary and use it in the past tense.",
     "7 min",
     [
       sec(
@@ -2720,7 +2720,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
           ["el vuelo directo", "direct flight"],
           ["la aduana", "customs"],
         ],
-        "Core A2 travel vocabulary."
+        "Core Elementary travel vocabulary."
       ),
       fb("Complete the sentence.", "Antes de viajar al extranjero, necesitas un ___ válido.", "pasaporte", "To travel abroad you need a valid passport: un pasaporte válido."),
       fb("Complete the sentence.", "Al llegar al hotel, ___ la maleta y dormimos. (deshacer, nosotros, preterite)", "deshicimos", "Deshacer follows hacer: deshicimos."),
@@ -2733,7 +2733,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     "a2-vocabulary-practice-5",
     "a2r-word-web-health",
     "Word Web: Health & the Doctor",
-    "Symptoms, remedies and a doctor's visit — A2's health words in conversation.",
+    "Symptoms, remedies and a doctor's visit — Elementary's health words in conversation.",
     "7 min",
     [
       sec(
@@ -2806,7 +2806,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
               ["cargar", "to charge"],
               ["reenviar", "to forward"],
             ],
-            "Core A2 tech verbs."
+            "Core Elementary tech verbs."
           ),
         ]
       ),
@@ -2889,7 +2889,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     "a2-vocabulary-practice-5",
     "a2r-word-web-work",
     "Word Web: Work & Future Plans",
-    "Jobs, interviews and career goals — A2's work vocabulary with the future tense.",
+    "Jobs, interviews and career goals — Elementary's work vocabulary with the future tense.",
     "7 min",
     [
       sec(
@@ -2908,7 +2908,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
               ["despedir", "to fire"],
               ["el puesto", "position/post"],
             ],
-            "Core A2 work vocabulary."
+            "Core Elementary work vocabulary."
           ),
         ]
       ),
@@ -2996,12 +2996,12 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-3",
     "a2r-challenge-big-error-hunt",
-    "A2 Challenge: The Big Error Hunt",
-    "The final A2 challenge series begins. One error per sentence, from every corner of A2.",
+    "Elementary Challenge: The Big Error Hunt",
+    "The final Elementary challenge series begins. One error per sentence, from every corner of the Elementary level.",
     "9 min",
     [
       sec(
-        "The A2 checklist",
+        "The Elementary checklist",
         "Run through it for every sentence: preterite or imperfect? irregular stem? pronoun choice and placement? reflexive pronoun? comparison form? future stem? por or para? personal a? double negative?",
         [
           ["✗ Ayer yo iba al cine con Ana. → ✓ Ayer fui al cine con Ana.", "Yesterday I went to the movies with Ana."],
@@ -3047,7 +3047,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-3",
     "a2r-challenge-dialogue-marathon",
-    "A2 Challenge: Dialogue Marathon",
+    "Elementary Challenge: Dialogue Marathon",
     "Four scenes, four conversations — a doctor's visit, a lost bag, a job interview and a reunion.",
     "9 min",
     [
@@ -3117,8 +3117,8 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-3",
     "a2r-challenge-translation-relay",
-    "A2 Challenge: Translation Relay",
-    "Translate your way through every A2 topic, alternating directions.",
+    "Elementary Challenge: Translation Relay",
+    "Translate your way through every Elementary topic, alternating directions.",
     "9 min",
     [
       sec(
@@ -3146,13 +3146,13 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-3",
     "a2r-challenge-build-a-sentence",
-    "A2 Challenge: Build-a-Sentence",
-    "Long A2 sentences with pronouns, two past tenses and connectors — put every piece where it belongs.",
+    "Elementary Challenge: Build-a-Sentence",
+    "Long Elementary sentences with pronouns, two past tenses and connectors — put every piece where it belongs.",
     "8 min",
     [
       sec(
         "The blueprint gets longer",
-        "A2 sentences often join two clauses: background + event (cuando, mientras), cause + result (porque, así que), or contrast (pero, aunque). Build each clause, then connect them.",
+        "Elemental sentences often join two clauses: background + event (cuando, mientras), cause + result (porque, así que), or contrast (pero, aunque). Build each clause, then connect them.",
         [
           ["Cuando llegué a casa, mi hermana ya estaba dormida.", "When I got home, my sister was already asleep."],
           ["Como no tenía dinero, no le compré nada.", "Since I didn't have money, I didn't buy him anything."],
@@ -3164,7 +3164,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       wo("Le regalé a mi madre las flores que compré en el mercado.", "Indirect object doubled (le … a mi madre) + relative clause.", "I gave my mother the flowers I bought at the market."),
-      wo("Nunca había visto tanta gente en la plaza.", "Nunca + pluperfect (you'll see this in B1) + tanta agreeing with gente.", "I had never seen so many people in the square."),
+      wo("Nunca había visto tanta gente en la plaza.", "Nunca + pluperfect (you'll see this in the Intermediate level) + tanta agreeing with gente.", "I had never seen so many people in the square."),
       wo("Este verano iremos a la costa para descansar un poco.", "Future + destination + para + infinitive.", "This summer we'll go to the coast to rest a bit."),
       wo("Mi abuela cocina mejor que nadie en la familia.", "Mejor que nadie = better than anyone.", "My grandmother cooks better than anyone in the family."),
       wo("¿Por qué no me dijiste que te ibas a mudar?", "Preterite dijiste + imperfect of ir a for a past plan.", "Why didn't you tell me you were going to move?"),
@@ -3180,7 +3180,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-3",
     "a2r-challenge-story-chain",
-    "A2 Challenge: Story Chain",
+    "Elementary Challenge: Story Chain",
     "Write a story one sentence at a time. Every link has to choose between the preterite and the imperfect.",
     "8 min",
     [
@@ -3230,7 +3230,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-3",
     "a2r-challenge-life-timeline",
-    "A2 Challenge: A Life Timeline",
+    "Elementary Challenge: A Life Timeline",
     "Tell a whole life in Spanish: childhood (imperfect), milestones (preterite), today (present) and dreams (future).",
     "9 min",
     [
@@ -3276,7 +3276,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-3",
     "a2r-challenge-buenos-aires-1",
-    "A2 Challenge: A Week in Buenos Aires — Part 1",
+    "Elementary Challenge: A Week in Buenos Aires — Part 1",
     "Marco spends a week in Buenos Aires. Follow his first days through messages, directions and a tango class.",
     "8 min",
     [
@@ -3350,7 +3350,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-3",
     "a2r-challenge-buenos-aires-2",
-    "A2 Challenge: A Week in Buenos Aires — Part 2",
+    "Elementary Challenge: A Week in Buenos Aires — Part 2",
     "The rest of Marco's week: a lost wallet, a new friend, and plans to come back.",
     "8 min",
     [
@@ -3404,8 +3404,8 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-3",
     "a2r-challenge-pronoun-gauntlet",
-    "A2 Challenge: The Pronoun Gauntlet",
-    "Direct, indirect, reflexive, doubled and attached — every kind of A2 pronoun, back to back.",
+    "Elementary Challenge: The Pronoun Gauntlet",
+    "Direct, indirect, reflexive, doubled and attached — every kind of Elementary pronoun, back to back.",
     "8 min",
     [
       sec(
@@ -3449,7 +3449,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-3",
     "a2r-challenge-past-gauntlet",
-    "A2 Challenge: The Past-Tense Gauntlet",
+    "Elementary Challenge: The Past-Tense Gauntlet",
     "Twelve rapid decisions: preterite or imperfect, regular or irregular — no hints.",
     "8 min",
     [
@@ -3484,13 +3484,13 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-3",
     "a2r-challenge-comparisons-por-para",
-    "A2 Challenge: Comparisons, Future & Por/Para",
-    "A final gauntlet for the rest of A2: comparisons, superlatives, the future, por/para, negatives and adverbs.",
+    "Elemental Challenge: Comparisons, Future & Por/Para",
+    "A final gauntlet for the rest of the Elementary level: comparisons, superlatives, the future, por/para, negatives and adverbs.",
     "8 min",
     [
       sec(
         "Mixed recall",
-        "Every item mixes at least two A2 topics.",
+        "Every item mixes at least two Elementary topics.",
         [
           ["El tren será más rápido que el autobús.", "The train will be faster than the bus."],
           ["Lo terminaré para el viernes, sin ningún problema.", "I'll finish it by Friday, without any problem."],
@@ -3524,7 +3524,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-3",
     "a2r-challenge-host-family-email",
-    "A2 Challenge: Email to Your Host Family",
+    "Elementary Challenge: Email to Your Host Family",
     "Write an introduction email to the family you'll live with — past, present and future all in one message.",
     "8 min",
     [
@@ -3580,15 +3580,15 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-3",
     "a2r-exit-ticket",
-    "A2 Exit Ticket: Ready for B1?",
-    "The last A2 lesson: ten skills B1 will build on, one question each, no hints.",
+    "Elementary Exit Ticket: Ready for the Intermediate level?",
+    "The last Elementary lesson: ten skills Intermediate will build on, one question each, no hints.",
     "9 min",
     [
       sec(
         "The ten skills",
         "(1) regular preterite (2) irregular preterite (3) imperfect (4) preterite vs. imperfect (5) direct/indirect pronouns (6) reflexives (7) comparisons (8) future (9) por/para (10) negatives and personal a.",
         [
-          ["¡Vamos a por el B1!", "Let's go for B1!"],
+          ["¡Vamos a por el nivel Intermedio!", "Let's go for the Intermediate level!"],
         ],
         [
           fb("Skill 1: regular preterite.", "Anoche nosotros ___ hasta tarde. (trabajar)", "trabajamos", "Nosotros → trabajamos."),

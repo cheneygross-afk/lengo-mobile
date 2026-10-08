@@ -832,14 +832,14 @@ export const EN_B1_U18: Lesson[] = [
     slug: "b1-error-hunt-first-half",
     level: "EN-B1",
     number: 4,
-    title: "Error Hunt: B1 So Far",
-    summary: "Find and fix the typical Spanish-speaker mistakes from every topic of the first half of B1: tenses, conditionals, wishes, modals, passives and relative clauses.",
+    title: "Error Hunt: Independence So Far",
+    summary: "Find and fix the typical Spanish-speaker mistakes from every topic of the first half of the Independence level: tenses, conditionals, wishes, modals, passives and relative clauses.",
     duration: "12 min",
     sections: [
       {
         heading: "Tense mistakes",
         body: [
-          "These are the tense mistakes Spanish speakers make most often at B1. *I live here since 2020 should be \"I've been living here since 2020\". *I have seen him yesterday should be \"I saw him yesterday\": with a finished time like \"yesterday\" or \"last week\", use the past simple.",
+          "These are the tense mistakes Spanish speakers make most often at the Independence level. *I live here since 2020 should be \"I've been living here since 2020\". *I have seen him yesterday should be \"I saw him yesterday\": with a finished time like \"yesterday\" or \"last week\", use the past simple.",
           "\"I use to get up at seven\" should be \"I usually get up at seven\". \"Did you used to...?\" should be \"Did you use to...?\" (after \"did\", no -d). \"I'm used to work late\" should be \"I'm used to working late\".",
           "\"Tomorrow I go to the dentist\" (a booked appointment) should be \"I'm going to the dentist tomorrow\". \"When I arrived, the train already left\" should be \"the train had already left\".",
         ],
@@ -1104,7 +1104,7 @@ export const EN_B1_U18: Lesson[] = [
     level: "EN-B1",
     number: 5,
     title: "Translation Relay: Spanish to English",
-    summary: "Translate natural Spanish sentences full of the classic traps of the first half of B1: «llevo», «solía», «ojalá», «se vende», «cuyo» and more.",
+    summary: "Translate natural Spanish sentences full of the classic traps of the first half of the Independence level: «llevo», «solía», «ojalá», «se vende», «cuyo» and more.",
     duration: "12 min",
     sections: [
       {
@@ -1368,7 +1368,7 @@ export const EN_B1_U18: Lesson[] = [
     level: "EN-B1",
     number: 6,
     title: "Cumulative Dictation: First Half",
-    summary: "Listen to and write a connected story about Lucia's life in Toronto, full of the structures of the first half of B1, and learn to hear the weak forms.",
+    summary: "Listen to and write a connected story about Lucia's life in Toronto, full of the structures of the first half of the Independence level, and learn to hear the weak forms.",
     duration: "12 min",
     sections: [
       {

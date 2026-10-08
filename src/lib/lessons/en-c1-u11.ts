@@ -532,7 +532,7 @@ export const EN_C1_U11: Lesson[] = [
       {
         heading: "Think in families, not in single words",
         body: [
-          "At C1 you need the whole family of a word, not just the verb you learned first. \"succeed\" (verb), \"success\" (noun), \"successful\" / \"unsuccessful\" (adjectives), \"successfully\" (adverb). \"decide\", \"decision\", \"decisive\" / \"indecisive\". \"compete\", \"competition\", \"competitor\", \"competitive\".",
+          "At the Advanced level you need the whole family of a word, not just the verb you learned first. \"succeed\" (verb), \"success\" (noun), \"successful\" / \"unsuccessful\" (adjectives), \"successfully\" (adverb). \"decide\", \"decision\", \"decisive\" / \"indecisive\". \"compete\", \"competition\", \"competitor\", \"competitive\".",
           "Spanish speakers often know the noun and the verb but reach for the wrong one under pressure: *She was very success, *He didn't succeed to convince them, *the competence between companies. «Competencia» between companies is \"competition\"; \"competence\" means «capacidad, aptitud».",
           "Families are not always regular. \"able\" gives \"ability\" and \"unable\" but \"inability\" (not *unability) and \"disability\" («discapacidad»). \"Deep\" gives \"depth\", \"long\" gives \"length\", \"strong\" gives \"strength\". Learn them as sets.",
         ],
@@ -1041,7 +1041,7 @@ export const EN_C1_U11: Lesson[] = [
       {
         heading: "Compound nouns from phrasal verbs",
         body: [
-          "Many useful C1 nouns come from phrasal verbs, with the particle at the front or at the back: \"outcome\" («resultado»), \"breakthrough\" («avance decisivo»), \"setback\" («revés, contratiempo»), \"drawback\" («inconveniente»), \"outbreak\" («brote»), \"turnout\" («participación», in elections), \"downturn\" («recesión, caída»), \"upbringing\" («educación, crianza»), \"input\" and \"output\".",
+          "Many useful Advanced nouns come from phrasal verbs, with the particle at the front or at the back: \"outcome\" («resultado»), \"breakthrough\" («avance decisivo»), \"setback\" («revés, contratiempo»), \"drawback\" («inconveniente»), \"outbreak\" («brote»), \"turnout\" («participación», in elections), \"downturn\" («recesión, caída»), \"upbringing\" («educación, crianza»), \"input\" and \"output\".",
           "They are very common in journalism and reports, where Spanish uses longer nouns: «el resultado de las negociaciones» is \"the outcome of the negotiations\"; «un avance científico importante» is \"a major scientific breakthrough\".",
           "Spelling: these are usually written as one word (\"breakthrough\", \"setback\") or with a hyphen (\"follow-up\", \"check-in\"), while the verb stays as two words: \"We need to follow up\" but \"a follow-up meeting\".",
         ],
@@ -1493,7 +1493,7 @@ export const EN_C1_U11: Lesson[] = [
     level: "EN-C1",
     number: 7,
     title: "False Friends, Part 2 of 2",
-    summary: "C1 false friends: casualty, constipated, preservative, molest, relatives, fabric, scholar, record, career, lecture, conference, topic, consistent, introduce, involve, notice, prevent, contest and argument.",
+    summary: "Advanced false friends: casualty, constipated, preservative, molest, relatives, fabric, scholar, record, career, lecture, conference, topic, consistent, introduce, involve, notice, prevent, contest and argument.",
     duration: "12 min",
     sections: [
       {
@@ -1813,7 +1813,7 @@ export const EN_C1_U11: Lesson[] = [
           { es: "I am currently responsible for marketing.", en: "Actualmente soy responsable de marketing." },
           { es: "Last week I attended a conference in Boston.", en: "La semana pasada asistí a un congreso en Boston." },
           { es: "I gave a presentation on our new products.", en: "Realicé una presentación sobre nuestros nuevos productos." },
-          { es: "If you are interested, we could arrange a meeting.", en: "Eventualmente, podríamos organizar una reunión." },
+          { es: "We could possibly arrange a meeting at some point.", en: "Eventualmente, podríamos organizar una reunión." },
           { es: "Please find the report attached.", en: "Le adjunto el informe." },
         ],
         checkpoint: [
@@ -2595,7 +2595,7 @@ export const EN_C1_U11: Lesson[] = [
           "Uses \"rise\" without an object and \"raise\" with one",
           "Uses at least five target words correctly",
         ],
-        modelAnswer: "In recent years rents have risen dramatically in my city, and this has especially affected young people. Many of my friends cannot afford to leave home, which has had a clear effect on the birth rate. The government has raised the minimum wage, but in principle the problem is not only economic: there simply are not enough homes. Last year was historic, because thousands of people marched to demand affordable housing for the first time.",
+        modelAnswer: "In recent years rents have risen dramatically in my city, and this has especially affected young people. Many of my friends cannot afford to leave home, which has had a clear effect on the birth rate. The government has raised the minimum wage, but in fact the problem is not only economic: there simply are not enough homes. Last year was historic, because thousands of people marched to demand affordable housing for the first time.",
         explanation: "Check each confusable pair: verb or noun, transitive or intransitive, economy or saving money.",
       },
     ],
@@ -2901,7 +2901,7 @@ export const EN_C1_U11: Lesson[] = [
       {
         heading: "Linking words that need a noun",
         body: [
-          "This is where B2 linking words come back. \"Because\", \"although\" and \"after\" are followed by a clause (subject + verb). \"Because of\", \"due to\", \"owing to\", \"despite\", \"in spite of\" and \"following\" are followed by a noun or an -ing form.",
+          "This is where Upper Intermediate linking words come back. \"Because\", \"although\" and \"after\" are followed by a clause (subject + verb). \"Because of\", \"due to\", \"owing to\", \"despite\", \"in spite of\" and \"following\" are followed by a noun or an -ing form.",
           "So nominalisation and linking go together: \"Although it rained, the match went ahead\" → \"Despite the rain, the match went ahead\". \"The flight was delayed because there was a strike\" → \"The flight was delayed due to a strike\".",
           "The typical Spanish-speaker error is mixing the two: *despite it rained, *due to the workers went on strike. In Spanish, «a pesar de que llovió» and «a pesar de la lluvia» both start with «a pesar de», which hides the difference.",
         ],
@@ -3122,7 +3122,7 @@ export const EN_C1_U11: Lesson[] = [
     level: "EN-C1",
     number: 13,
     title: "Word Web: Technology and the Digital World",
-    summary: "C1 vocabulary for technology: algorithm, data breach, encryption, artificial intelligence, cutting-edge, obsolete, user-friendly, glitch, streamline and roll out, plus how tech words are built (upload, offline, reboot, login).",
+    summary: "Advanced vocabulary for technology: algorithm, data breach, encryption, artificial intelligence, cutting-edge, obsolete, user-friendly, glitch, streamline and roll out, plus how tech words are built (upload, offline, reboot, login).",
     duration: "12 min",
     sections: [
       {
@@ -3331,7 +3331,7 @@ export const EN_C1_U11: Lesson[] = [
           { left: "phase out", right: "eliminar progresivamente" },
           { left: "outage", right: "caída del servicio" },
         ],
-        explanation: "Core C1 tech vocabulary; \"phase out\" and \"roll out\" are opposites in a product's life.",
+        explanation: "Core Advanced tech vocabulary; \"phase out\" and \"roll out\" are opposites in a product's life.",
       },
       {
         type: "translate",

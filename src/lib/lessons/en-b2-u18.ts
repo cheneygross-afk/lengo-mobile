@@ -622,15 +622,15 @@ export const EN_B2_U18: Lesson[] = [
     level: "EN-B2",
     number: 3,
     title: "Opinion Essays",
-    summary: "Plan and write a B2 opinion essay: a clear introduction, arguments joined with \"moreover\", \"furthermore\" and \"what is more\", a counter-argument, and a conclusion with \"To sum up\" or \"All things considered\".",
+    summary: "Plan and write an Upper Intermediate opinion essay: a clear introduction, arguments joined with \"moreover\", \"furthermore\" and \"what is more\", a counter-argument, and a conclusion with \"To sum up\" or \"All things considered\".",
     duration: "12 min",
     sections: [
       {
         heading: "The structure of an opinion essay",
         body: [
-          "A B2 opinion essay usually has four or five paragraphs: an introduction, two or three body paragraphs with arguments, and a conclusion. Each body paragraph develops one main idea.",
+          "An Upper Intermediate opinion essay usually has four or five paragraphs: an introduction, two or three body paragraphs with arguments, and a conclusion. Each body paragraph develops one main idea.",
           "The introduction does three things: it introduces the topic in general terms, rephrases the question in your own words, and states your opinion clearly (this is called the thesis). Don't copy the question word for word, and don't start with a long story.",
-          "English essays are more linear than many Spanish essays: the reader expects your position in the first paragraph, not only at the end. Saying \"In this essay I will talk about...\" is acceptable at B2, but a direct thesis is stronger.",
+          "English essays are more linear than many Spanish essays: the reader expects your position in the first paragraph, not only at the end. Saying \"In this essay I will talk about...\" is acceptable at the Upper Intermediate level, but a direct thesis is stronger.",
         ],
         examples: [
           { es: "In recent years, more and more people have started working from home.", en: "En los últimos años, cada vez más personas han empezado a trabajar desde casa." },
@@ -743,7 +743,7 @@ export const EN_B2_U18: Lesson[] = [
       {
         heading: "Counter-arguments and conclusions",
         body: [
-          "A strong essay admits the other side and then answers it: \"Admittedly, ... However, ...\", \"It is true that ... Nevertheless, ...\", \"Although some people argue that ..., I believe ...\". This shows maturity and is expected at B2.",
+          "A strong essay admits the other side and then answers it: \"Admittedly, ... However, ...\", \"It is true that ... Nevertheless, ...\", \"Although some people argue that ..., I believe ...\". This shows maturity and is expected at the Upper Intermediate level.",
           "\"On the other hand\" introduces a contrasting point; it is often paired with \"On the one hand\". Don't write \"on the other side\" (from «por otro lado»): it isn't used as a linker.",
           "Conclude with \"To sum up,\", \"In conclusion,\", \"All things considered,\" or \"On balance,\" and restate your opinion in new words. Avoid \"As a conclusion\" and \"Resuming\": English \"resume\" means «reanudar», not «resumir».",
         ],

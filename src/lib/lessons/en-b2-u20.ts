@@ -1996,7 +1996,7 @@ export const EN_B2_U20: Lesson[] = [
         heading: "Clefts with linkers",
         body: [
           "Cleft sentences fit nicely after linkers in opinion texts: \"However, what really matters is the price\", \"In fact, it was the price that made me change my mind\", \"Although many people blame the government, what I find worrying is...\".",
-          "A useful B2 cleft for time is \"It wasn't until... that...\" (No fue hasta... cuando...): \"It wasn't until midnight that he called\" means «No llamó hasta medianoche».",
+          "A useful Upper Intermediate cleft for time is \"It wasn't until... that...\" (No fue hasta... cuando...): \"It wasn't until midnight that he called\" means «No llamó hasta medianoche».",
         ],
         examples: [
           { es: "However, what really matters is the price.", en: "Sin embargo, lo que de verdad importa es el precio." },

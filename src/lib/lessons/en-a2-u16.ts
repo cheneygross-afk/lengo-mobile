@@ -1290,7 +1290,7 @@ export const EN_A2_U16: Lesson[] = [
       {
         heading: "Delante del sustantivo y sin -s",
         body: [
-          "Ya lo sabes desde el A1, pero conviene repasarlo: en inglés el adjetivo va delante del sustantivo. «Una casa bonita» es \"a nice house\", no *a house nice.",
+          "Ya lo sabes desde el nivel Fundamentos, pero conviene repasarlo: en inglés el adjetivo va delante del sustantivo. «Una casa bonita» es \"a nice house\", no *a house nice.",
           "Y el adjetivo nunca cambia: no tiene plural ni masculino o femenino. «Coches rojos» es \"red cars\", no *reds cars; «unas chicas altas» es \"some tall girls\".",
           "Después de \"be\" o \"look\" el adjetivo va detrás, como en español, pero tampoco lleva -s: \"The cars are red\", \"These shoes look expensive\".",
         ],

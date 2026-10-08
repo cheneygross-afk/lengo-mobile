@@ -19,7 +19,7 @@ export const EN_C1_U16_EXTRA: Lesson[] = [
         body: [
           "Many everyday words differ: British \"flat\", \"lift\", \"autumn\", \"queue\", \"car park\", \"cinema\", \"chemist's\"; American \"apartment\", \"elevator\", \"fall\", \"line\", \"parking lot\", \"movie theater\", \"pharmacy\". Both sides understand both, but a text should use one set.",
           "Spelling follows patterns: British -our, -re, -ise and double l (\"colour\", \"centre\", \"organise\", \"travelled\"); American -or, -er, -ize and single l (\"color\", \"center\", \"organize\", \"traveled\"). Many British writers also use -ize; what matters is consistency.",
-          "The typical C1 mistake is not choosing the wrong variety but mixing them: *We took the elevator to our flat. Pick one, as Spanish writers pick between «ordenador» and «computadora» for a given audience.",
+          "The typical Advanced mistake is not choosing the wrong variety but mixing them: *We took the elevator to our flat. Pick one, as Spanish writers pick between «ordenador» and «computadora» for a given audience.",
         ],
         examples: [
           { es: "We live in a flat near the city centre.", en: "Vivimos en un piso cerca del centro. (británico)" },

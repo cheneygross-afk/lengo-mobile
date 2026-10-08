@@ -660,7 +660,7 @@ export const EN_A2_U13_EXTRA: Lesson[] = [
     level: "EN-A2",
     number: 4,
     title: "Práctica extra: verbos frasales",
-    summary: "Práctica intensiva de los verbos frasales de A2: \"get up\", \"wake up\", \"turn on\", \"turn off\", \"put on\", \"take off\", \"look for\", \"pick up\", \"give back\", \"find out\"... y dónde va el pronombre.",
+    summary: "Práctica intensiva de los verbos frasales del nivel Ganando fluidez: \"get up\", \"wake up\", \"turn on\", \"turn off\", \"put on\", \"take off\", \"look for\", \"pick up\", \"give back\", \"find out\"... y dónde va el pronombre.",
     duration: "11 min",
     sections: [
       {

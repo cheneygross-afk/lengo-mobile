@@ -739,7 +739,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
       toEn(
         "¿Me avisa cuando lleguemos?",
         "Will you tell me when we get there?",
-        "Avisar = to let someone know. Cuando + subjunctive (lleguemos) for a future moment; you'll study this in B1.",
+        "Avisar = to let someone know. Cuando + subjunctive (lleguemos) for a future moment; you'll study this in the Intermediate level.",
         ["Can you tell me when we get there?", "Will you let me know when we arrive?", "Can you let me know when we arrive?", "Could you tell me when we arrive?", "Can you let me know when we get there?"]
       ),
       mc(
@@ -1354,7 +1354,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "Dialogue: reporting a lost passport",
         [
           "If you lose your passport or wallet, go to the police station (la comisaría) to report it (poner una denuncia). You'll need the report for your embassy or consulate.",
-          "Perder = to lose. He perdido / Perdí el pasaporte. Or with the accidental se from B1: Se me ha perdido el pasaporte.",
+          "Perder = to lose. He perdido / Perdí el pasaporte. Or with the accidental se from de nivel Intermedio: Se me ha perdido el pasaporte.",
         ],
         [
           ["— Buenos días. Vengo a denunciar que he perdido el pasaporte.", "Good morning. I've come to report that I've lost my passport."],

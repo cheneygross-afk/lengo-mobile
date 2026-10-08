@@ -188,7 +188,7 @@ If there is anything practical I can do, whether it's dropping off a meal, walki
 With love and deepest sympathy,
 
 Emma`,
-    `"The loss of your father" and "passed away" soften the fact without hiding it, and a concrete offer ("dropping off a meal") helps far more than a vague "let me know if you need anything". Here «lo siento mucho» is "I'm so sorry", never *I feel it, and the set phrase is "condolences on your loss", not *condolences for.`
+    `"The loss of your father" and "passed away" soften the fact without hiding it, and a concrete offer ("dropping off a meal") helps far more than a vague "let me know if you need anything". Here «lo siento mucho» is "I'm so sorry", never *I feel it, and the most common phrase is "condolences on your loss" ("for your loss" is also heard).`
   ),
   u09: t(
     `A friend has just messaged you to say that, after a month of setbacks, she has finally found a flat in her new city. Write an enthusiastic reply. React like a native speaker, use emphatic structures and intensifiers, render at least one Spanish diminutive or augmentative idea in natural English, and include some words built with prefixes and suffixes.`,
@@ -733,6 +733,6 @@ Such a shame. Where are we going to do our Saturday crosswords now?
 Speak soon,
 
 Ana`,
-    `C2 command means choosing register deliberately: the notice uses passives, nominalisations and set phrases ("until further notice", "regrets to announce"), while the message uses contractions, phrasal verbs ("hang on to", "popped in") and humour. Spanish speakers often carry Latinate words into informal English; for «hacer una visita», a friend would say "pop in" or "drop by", not *realise a visit.`
+    `Mastery command means choosing register deliberately: the notice uses passives, nominalisations and set phrases ("until further notice", "regrets to announce"), while the message uses contractions, phrasal verbs ("hang on to", "popped in") and humour. Spanish speakers often carry Latinate words into informal English; for «hacer una visita», a friend would say "pop in" or "drop by", not *realise a visit.`
   ),
 };

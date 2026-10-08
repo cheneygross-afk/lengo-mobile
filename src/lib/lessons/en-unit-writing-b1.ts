@@ -201,7 +201,7 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
     "Non-defining clauses add extra information between commas and use \"who\" or \"which\", never \"that\". For Spanish «lo que», use \"what\" (\"What I love is...\") or \", which\" when it refers to a whole sentence, not *that what."
   ),
   u18: t(
-    "Write a short story about an unexpected visitor. Mix the grammar of the first half of B1: narrative tenses, a conditional, a modal of deduction, a passive and a relative clause.",
+    "Write a short story about an unexpected visitor. Mix the grammar of the first half of the Independence level: narrative tenses, a conditional, a modal of deduction, a passive and a relative clause.",
     [
       "Narrative tenses (past simple, past continuous, past perfect)",
       "A conditional (second or third)",
@@ -330,7 +330,7 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
       "Correct use of uncountable nouns and articles (\"work\", \"information\", \"the office\")",
     ],
     "Dear Editor,\n\nI'd like to share my opinion about working from home. Last year my company let us choose, and I decided to stay at home three days a week. I enjoy avoiding the traffic, and I have more time for my family.\n\nHowever, not everyone agrees. A colleague told me she felt lonely and that she missed the office. My manager said that communication had become harder, because people don't share information as easily.\n\nI think a mix is the best solution. But I wonder whether companies will really listen to their workers. That's the important question, isn't it?\n\nYours faithfully,\nAna Lopez",
-    "This task mixes the second half of B1: reported speech moves the tense back (\"she felt lonely\"), \"let\" takes the base verb, and \"information\" is uncountable, so never *informations."
+    "This task mixes the second half of the Independence level: reported speech moves the tense back (\"she felt lonely\"), \"let\" takes the base verb, and \"information\" is uncountable, so never *informations."
   ),
   u30: t(
     "You have just moved into a rented apartment and there are problems: the heating doesn't work and the bank hasn't sent your new card. Write a message to your landlord and a short note for yourself about a phone call you need to make.",
@@ -384,8 +384,8 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
       "\"used to\" or \"be used to\" for change",
       "Future plans and at least two connectors",
     ],
-    "Dear Mrs. Taylor,\n\nI wanted to thank you for this year. I've learned so much! I used to be afraid of speaking, but now I'm used to having conversations in English, even on the phone. I've also read three novels, which I never imagined.\n\nThe most difficult part was the conditionals. In February I made a lot of mistakes, and I felt quite frustrated. However, after a lot of practice, they finally became easier. If I had practiced listening more, I would have understood films better. If I had more time, I would watch a series in English every day.\n\nNext year I'm going to start B2, and I hope to take an official exam.\n\nBest wishes,\nCarlos",
-    "This task mixes the whole of B1. Check the classic traps: \"used to\" + base verb but \"be used to\" + -ing, no \"would\" after \"if\", and the past simple with a finished time like \"in February\"."
+    "Dear Mrs. Taylor,\n\nI wanted to thank you for this year. I've learned so much! I used to be afraid of speaking, but now I'm used to having conversations in English, even on the phone. I've also read three novels, which I never imagined.\n\nThe most difficult part was the conditionals. In February I made a lot of mistakes, and I felt quite frustrated. However, after a lot of practice, they finally became easier. If I had practiced listening more, I would have understood films better. If I had more time, I would watch a series in English every day.\n\nNext year I'm going to start Upper Intermediate, and I hope to take an official exam.\n\nBest wishes,\nCarlos",
+    "This task mixes the whole of the Independence level. Check the classic traps: \"used to\" + base verb but \"be used to\" + -ing, no \"would\" after \"if\", and the past simple with a finished time like \"in February\"."
   ),
   u35: t(
     "Write an essay of your own: \"The most important lesson I have learned in my life.\" Tell a short story to support your idea, reflect on it and explain how it will affect your future.",
@@ -396,6 +396,6 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
       "Connectors of contrast and result (\"however\", \"although\", \"so\", \"as a result\")",
     ],
     "The most important lesson I have learned is that asking for help is not a weakness.\n\nWhen I started university, I was living alone in a new city. I had always been a good student, so I didn't want anyone to know I was struggling. I was failing two subjects, but I didn't tell anyone. One day a teacher who had noticed my problems asked me to stay after class. She told me that many students felt the same way. I was given extra classes, and as a result I passed everything.\n\nIf she hadn't spoken to me, I would have left university. Although it was hard, I now ask for help when I need it, and I will always do so.",
-    "A good B1 essay combines structure and grammar: narrative tenses for the story (\"I was living\", \"I had always been\"), a third conditional for reflection and connectors to link ideas. Check every verb before you finish."
+    "A good Independence essay combines structure and grammar: narrative tenses for the story (\"I was living\", \"I had always been\"), a third conditional for reflection and connectors to link ideas. Check every verb before you finish."
   ),
 };

@@ -89,7 +89,7 @@ export const EN_C2_U25_EXTRA: Lesson[] = [
         body: [
           "The implied subject of a participle clause must be the subject of the main clause. *Having crossed the river, the weather changed suggests that the weather crossed the river. Fix it by making the right noun the subject (\"Having crossed the river, the troops noticed the weather changing\") or by using a full clause (\"After the troops had crossed the river, the weather changed\").",
           "Spanish tolerates this more, because the verb ending often makes the subject clear («Cruzado el río, cambió el tiempo»). In English the reader attaches the participle to the very next noun.",
-          "Dangling participles are a classic examiner's target in C2 writing. Check every sentence that begins with an -ing or -ed clause: who is doing or receiving the action?",
+          "Dangling participles are a classic examiner's target in Mastery writing. Check every sentence that begins with an -ing or -ed clause: who is doing or receiving the action?",
         ],
         examples: [
           {

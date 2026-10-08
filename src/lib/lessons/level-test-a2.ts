@@ -11,9 +11,9 @@ import { listeningItems, readingSection, type LevelTest } from "./level-test-aut
 const { fe, sec } = authoring("en");
 
 export const LEVEL_TEST_A2: LevelTest = {
-  title: "A2 Level Test: Ready for B1?",
+  title: "Elementary Level Test: Ready for the Intermediate level?",
   summary:
-    "The end-of-A2 test: reading, listening, writing Spanish from English and a short email, 46 questions on what A2 teaches. Pass with 70% to move on to B1.",
+    "The end-of-Elementary test: reading, listening, writing Spanish from English and a short email, 46 questions on what Elementary teaches. Pass with 70% to move on to the Intermediate level.",
   duration: "45 min",
   sections: [
     readingSection(

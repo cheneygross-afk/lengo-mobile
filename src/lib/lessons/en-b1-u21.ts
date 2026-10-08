@@ -520,7 +520,7 @@ export const EN_B1_U21: Lesson[] = [
           "Uses \"not to\" at least once",
           "No *want that and no verb + \"to\" + -ing",
         ],
-        modelAnswer: "Next year I want to improve my English. I hope to pass the B2 exam in June. My partner and I are planning to move to a bigger apartment, but we can't afford to buy one, so we're going to rent. I've also decided not to work on weekends anymore.",
+        modelAnswer: "Next year I want to improve my English. I hope to pass the Upper Intermediate exam in June. My partner and I are planning to move to a bigger apartment, but we can't afford to buy one, so we're going to rent. I've also decided not to work on weekends anymore.",
         explanation: "Check that every verb in the rubric is followed by \"to\" + the base form.",
       },
     ],

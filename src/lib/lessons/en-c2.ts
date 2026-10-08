@@ -102,7 +102,7 @@ const UNITS: EnglishUnitDef[] = [
   { id: "u30", title: "Crítica de arte, cine y literatura", description: "Trama, personajes, lenguaje cinematográfico y adjetivos valorativos.", lessons: EN_C2_U30 },
   { id: "u31", title: "Negocios y economía", description: "Causa y efecto, estados financieros, inflación y fusiones.", lessons: [...EN_C2_U31, ...EN_C2_U31_EXTRA] },
   { id: "u32", title: "Escritura creativa", description: "Anticipación, imágenes sensoriales y un microrrelato de 100 palabras.", lessons: [...EN_C2_U32, ...EN_C2_U32_EXTRA] },
-  { id: "u33", title: "Repaso C2 y examen final", description: "Repasos generales, retos C2 y el examen de dominio.", lessons: EN_C2_U33 },
+  { id: "u33", title: "Repaso de nivel Maestría y examen final", description: "Repasos generales, retos de nivel Maestría y el examen de dominio.", lessons: EN_C2_U33 },
 ];
 
 const LEVEL = buildEnglishLevel("en/c2", UNITS);

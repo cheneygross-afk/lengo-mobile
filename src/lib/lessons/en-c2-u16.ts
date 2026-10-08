@@ -439,7 +439,7 @@ export const EN_C2_U16: Lesson[] = [
         body: [
           "Before answering a long or unclear question, check you have understood it: \"Just so I'm clear, are you asking whether...?\", \"If I understand you correctly, you're saying...\", \"Could you say a little more about what you mean by...?\". Paraphrasing also lets the rest of the room hear the question.",
           "To buy a few seconds without filling them with «eh», use a phrase that sounds deliberate: \"That's a great question; let me think about how best to put it\", \"Let me think about that for a second\", \"That's not an easy one to answer briefly\".",
-          "You can also postpone: \"I'm actually going to cover that in a moment\", \"Can I come back to that once I've shown you the figures?\". Note \"come back to\" («retomar», «volver sobre»), not *return to the question, which sounds formal and slightly odd.",
+          "You can also postpone: \"I'm actually going to cover that in a moment\", \"Can I come back to that once I've shown you the figures?\". Note \"come back to\" («retomar», «volver sobre»), which sounds more natural here than the more formal \"return to the question\".",
         ],
         examples: [
           { es: "Just so I'm clear, are you asking about the cost or the timeline?", en: "Para asegurarme de que lo entiendo: ¿pregunta por el coste o por los plazos?" },
@@ -816,7 +816,7 @@ export const EN_C2_U16: Lesson[] = [
         heading: "Parking and reframing",
         body: [
           "If one issue blocks everything, move it aside temporarily: \"Let's park that for now and come back to it\", \"Can we put that to one side for a moment?\". Agreeing on easier points first builds momentum.",
-          "Then reframe the problem. Instead of defending positions, explore interests: \"What would it take to get this over the line?\", \"What would you need from us to make this work?\", \"Let's look at this from a different angle\". \"What would it take...?\" is a powerful C2 question: it invites the other side to name their price.",
+          "Then reframe the problem. Instead of defending positions, explore interests: \"What would it take to get this over the line?\", \"What would you need from us to make this work?\", \"Let's look at this from a different angle\". \"What would it take...?\" is a powerful Mastery question: it invites the other side to name their price.",
           "Hypothetical proposals keep you from committing too early: \"What if we were to extend the contract to three years?\", \"Suppose we covered the shipping costs. Would that help?\". \"Were to\" makes the idea sound exploratory rather than like a firm offer.",
         ],
         examples: [
@@ -1510,7 +1510,7 @@ export const EN_C2_U16: Lesson[] = [
         body: [
           "Lucia opens by building rapport and agreeing the agenda: \"Thanks for making the time. Before we get into the detail, shall we agree on what we'd like to cover today?\" Setting the agenda together signals cooperation from the first minute.",
           "Then each side states its position without locking itself in: \"Our starting point is 40 dollars per room per year\", \"We're hoping to reach agreement on price and the rollout today\". \"Starting point\" tells the other side that there is room to move; \"final offer\" this early would close doors.",
-          "Notice how Emma signals her own constraints: \"I should say up front that our budget is fairly tight this year\". \"Up front\" («de entrada», «desde el principio») is a useful C2 adverb for being transparent.",
+          "Notice how Emma signals her own constraints: \"I should say up front that our budget is fairly tight this year\". \"Up front\" («de entrada», «desde el principio») is a useful Mastery adverb for being transparent.",
         ],
         examples: [
           { es: "Thanks for making the time.", en: "Gracias por sacar tiempo." },
@@ -1881,7 +1881,7 @@ export const EN_C2_U16: Lesson[] = [
         body: [
           "The first question is friendly: \"Will the new system be available in Spanish too?\". A friendly question still deserves a crisp answer. Sofia starts with the answer itself and only then adds context: \"Yes, from day one. We'll add Portuguese in the second phase.\"",
           "The second questioner asks three things at once. Rather than trying to remember them all, Sofia takes control: \"You've asked a couple of things there; let me take them one at a time\". If she forgets one, she says: \"Remind me, what was your second point?\"",
-          "Note the structure \"let me take them one at a time\" («déjeme responderlas una a una»). *One by one is possible but less natural here.",
+          "Note the structure \"let me take them one at a time\" («déjeme responderlas una a una»). \"One by one\" is also possible but less natural here.",
         ],
         examples: [
           { es: "Yes, from day one. We'll add Portuguese in the second phase.", en: "Sí, desde el primer día. Añadiremos el portugués en la segunda fase." },
@@ -2252,7 +2252,7 @@ export const EN_C2_U16: Lesson[] = [
     level: "EN-C2",
     number: 7,
     title: "Spiral review: tentative language and register",
-    summary: "Recycle the C1 toolkit of distancing and tentative language (\"I was hoping...\", \"I was wondering if...\", \"It would seem...\") and learn to set the right register for a negotiation or presentation, without sounding either blunt or over-hedged.",
+    summary: "Recycle the Advanced toolkit of distancing and tentative language (\"I was hoping...\", \"I was wondering if...\", \"It would seem...\") and learn to set the right register for a negotiation or presentation, without sounding either blunt or over-hedged.",
     duration: "12 min",
     sections: [
       {
@@ -2424,7 +2424,7 @@ export const EN_C2_U16: Lesson[] = [
       {
         heading: "Getting the balance right",
         body: [
-          "C2 is not about hedging as much as possible; it is about choosing the right degree. Too little and you sound aggressive; too much and you sound unsure or even evasive: *I was perhaps just wondering if maybe it might possibly be... is as unconvincing as a blunt \"No\".",
+          "Mastery is not about hedging as much as possible; it is about choosing the right degree. Too little and you sound aggressive; too much and you sound unsure or even evasive: *I was perhaps just wondering if maybe it might possibly be... is as unconvincing as a blunt \"No\".",
           "A useful rule: be tentative about requests and disagreements, but clear about facts and final positions. \"I was hoping we could go a little lower\" (tentative request) can sit next to \"Our absolute minimum is 36 dollars\" (clear position).",
           "In presentations the same principle applies: hedge claims you can't fully prove (\"The data would seem to suggest...\"), but state your recommendation firmly (\"We recommend that the company invest now\"). Note the subjunctive \"invest\", without -s, after \"recommend that\" in formal English.",
         ],

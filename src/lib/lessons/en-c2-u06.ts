@@ -97,7 +97,7 @@ export const EN_C2_U06: Lesson[] = [
         body: [
           "Idioms and phrasal verbs have a figurative meaning and a literal one, which makes them perfect material for puns. In \"I didn't like my beard at first, but then it grew on me\", \"grow on someone\" means to become more likable over time, but a beard also literally grows on your face.",
           "The same trick drives \"I was wondering why the ball kept getting bigger. Then it hit me\" (\"it hit me\" = I suddenly understood, and the ball physically hit me), \"I'm afraid of elevators, so I'm taking steps to avoid them\" and \"The scarecrow won an award because he was outstanding in his field\".",
-          "These jokes are a good test of C2 vocabulary: if you only know the literal meaning, the sentence just sounds strange; if you only know the idiom, you miss the picture that makes it funny.",
+          "These jokes are a good test of Mastery vocabulary: if you only know the literal meaning, the sentence just sounds strange; if you only know the idiom, you miss the picture that makes it funny.",
         ],
         examples: [
           { es: "I didn't like my beard at first, but then it grew on me.", en: "Al principio no me gustaba mi barba, pero luego me fue gustando (\"grow on\" = ir gustando y crecer encima)." },
@@ -127,7 +127,7 @@ export const EN_C2_U06: Lesson[] = [
       {
         heading: "Talking about jokes",
         body: [
-          "At C2 you also need the language for discussing humour: \"It's a play on words\", \"It's a pun on the two meanings of interest\", \"The joke hinges on...\", \"It plays on the fact that...\", \"the punchline\" (the final line that delivers the joke), \"a groaner\" and \"a dad joke\" (a corny, innocent pun of the kind fathers are supposed to love).",
+          "At the Mastery level you also need the language for discussing humour: \"It's a play on words\", \"It's a pun on the two meanings of interest\", \"The joke hinges on...\", \"It plays on the fact that...\", \"the punchline\" (the final line that delivers the joke), \"a groaner\" and \"a dad joke\" (a corny, innocent pun of the kind fathers are supposed to love).",
           "If you don't understand, say \"I don't get it\". «No lo pillo» is \"I don't get it\", never *I don't catch it. To understand a joke is to \"get\" it; you \"tell\" or \"crack\" a joke; and «gastar una broma» is \"to play a joke\" or \"play a prank on someone\", not *to make a joke to someone.",
           "A joke that is too obvious or too old is \"corny\", \"cheesy\" or \"lame\". Explaining a joke is famously said to kill it, so when you analyse one, do it lightly: \"It's a pun on dough, which also means money.\"",
         ],
@@ -318,7 +318,7 @@ export const EN_C2_U06: Lesson[] = [
             prompt: "Translate into English.",
             source: "Hace un poquito de fresco, ¿no? (dicho en plena ola de frío)",
             answer: "It's a bit chilly, isn't it?",
-            altAnswers: ["It's a little chilly, isn't it?", "It's a bit nippy, isn't it?", "It's a little nippy, isn't it?", "It's a bit cold, isn't it?", "It's a little cold, isn't it?", "It's a bit chilly, no?", "Bit chilly, isn't it?", "It's a touch chilly, isn't it?", "It's a tad chilly, isn't it?", "It's a bit fresh, isn't it?"],
+            altAnswers: ["It's a little chilly, isn't it?", "It's a bit nippy, isn't it?", "It's a little nippy, isn't it?", "It's a bit cold, isn't it?", "It's a little cold, isn't it?", "Bit chilly, isn't it?", "It's a touch chilly, isn't it?", "It's a tad chilly, isn't it?", "It's a bit fresh, isn't it?"],
             explanation: "\"A bit chilly\" with a question tag is the archetypal British understatement about the weather. In a cold snap it means it is extremely cold.",
           },
         ],
@@ -804,7 +804,7 @@ export const EN_C2_U06: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "I can't decide ___ to go out or stay in.",
             answer: "whether",
-            altAnswers: ["if"],
+            altAnswers: [],
             en: "No consigo decidir [si] salir o quedarme en casa.",
             explanation: "\"Whether\" (= if) sounds the same as \"weather\" for most speakers. Before \"to\" + infinitive, \"whether\" is the natural choice.",
           },
@@ -1592,7 +1592,7 @@ export const EN_C2_U06: Lesson[] = [
           { es: "So basically, we got lost and missed the train.", en: "Pues nada, que nos perdimos y perdimos el tren." },
           { es: "Actually, I think the meeting's on Tuesday.", en: "En realidad, creo que la reunión es el martes." },
           { es: "I reckon it'll rain later.", en: "Me da que va a llover más tarde." },
-          { es: "I guess we could take a taxi.", en: "Supongo que podríamos coger un taxi." },
+          { es: "I guess we could take a taxi.", en: "Supongo que podríamos tomar un taxi." },
         ],
         checkpoint: [
           {
@@ -1865,7 +1865,7 @@ export const EN_C2_U06: Lesson[] = [
     slug: "c2-vocab-paronyms",
     level: "EN-C2",
     number: 7,
-    title: "C2 vocabulary: paronyms and confusables",
+    title: "Mastery vocabulary: paronyms and confusables",
     summary: "Pairs that even advanced writers confuse: affect/effect, imply/infer, principal/principle, complement/compliment, economic/economical, historic/historical, continual/continuous, discreet/discrete, and how they fuel puns.",
     duration: "12 min",
     sections: [

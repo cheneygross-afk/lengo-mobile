@@ -140,7 +140,7 @@ export const EN_C2_U14: Lesson[] = [
         body: [
           "Alliteration repeats the first consonant sound in nearby words: \"bigger, better, bolder\", \"from cradle to grave\", \"safe, secure and sustainable\". English, with its stressed initial syllables, rewards it more than Spanish does.",
           "Used once, at a key moment, alliteration makes a phrase stick. Used constantly, it sounds like an advertising slogan and the audience stops trusting you.",
-          "The same goes for all these devices. A C2 speaker uses perhaps two or three in a short speech, places them at the opening and the close, and keeps the rest plain and precise.",
+          "The same goes for all these devices. A Mastery speaker uses perhaps two or three in a short speech, places them at the opening and the close, and keeps the rest plain and precise.",
         ],
         examples: [
           { es: "We want a bigger, better, bolder city.", en: "Queremos una ciudad más grande, mejor y más audaz." },
@@ -1168,7 +1168,7 @@ export const EN_C2_U14: Lesson[] = [
         body: [
           "From light to formal: \"Fair point\", \"That's true as far as it goes\", \"I'll grant you that...\", \"I take the point\", \"I'm happy to concede that...\", \"My opponent is quite right that...\", \"Granted, ...\".",
           "Notice the word order of \"I'll grant you that\": the person comes before \"that\". Spanish speakers often say *I concede you that; with \"concede\" there is no indirect object: \"I concede that...\". \"Grant\" is the verb that takes \"you\".",
-          "\"As far as it goes\" is a sharp C2 phrase: \"That's true as far as it goes\" means «es cierto, pero se queda corto».",
+          "\"As far as it goes\" is a sharp Mastery phrase: \"That's true as far as it goes\" means «es cierto, pero se queda corto».",
         ],
         examples: [
           { es: "I'll grant you that the costs are high.", en: "Le concedo que los costes son elevados." },
@@ -1414,14 +1414,14 @@ export const EN_C2_U14: Lesson[] = [
     slug: "en-c2-discourse-markers-cohesion",
     level: "EN-C2",
     number: 6,
-    title: "Discourse markers and cohesion at C2",
+    title: "Discourse markers and cohesion at the Mastery level",
     summary: "Linkers beyond \"moreover\" and \"however\": that said, by the same token, conversely, be that as it may, notwithstanding, to that end, in so doing, and the reference tools that hold a text together: the former and the latter, \"this\" + a summary noun, and \"such\".",
     duration: "12 min",
     sections: [
       {
         heading: "Beyond moreover: adding and contrasting with precision",
         body: [
-          "Many advanced writers lean on \"moreover\" and \"however\" in every paragraph. At C2 you need a wider and more exact range. \"That said\" (or \"having said that\") concedes and turns: «dicho esto». \"Be that as it may\" («sea como sea», «aun así») accepts a point without discussing it further. \"Conversely\" introduces the reverse of what you have just said. \"By the same token\" («del mismo modo», «por la misma razón») applies the same reasoning to a new case.",
+          "Many advanced writers lean on \"moreover\" and \"however\" in every paragraph. At the Mastery level you need a wider and more exact range. \"That said\" (or \"having said that\") concedes and turns: «dicho esto». \"Be that as it may\" («sea como sea», «aun así») accepts a point without discussing it further. \"Conversely\" introduces the reverse of what you have just said. \"By the same token\" («del mismo modo», «por la misma razón») applies the same reasoning to a new case.",
           "\"Notwithstanding\" («no obstante», «a pesar de») is very formal and works as a preposition: \"Notwithstanding these concerns, the bill was passed.\" It can even follow its noun: \"these concerns notwithstanding\".",
           "A classic interference error is translating «además» as \"besides\" in formal writing. \"Besides\" as a linker is conversational and usually adds a final, clinching reason (\"I don't want to go. Besides, it's raining.\"). In an essay use \"moreover\", \"furthermore\", \"in addition\" or \"what is more\".",
         ],
@@ -1730,7 +1730,7 @@ export const EN_C2_U14: Lesson[] = [
           { left: "Hence", right: "De ahí" },
           { left: "Conversely", right: "A la inversa" },
         ],
-        explanation: "Each of these linkers names a precise logical relation, which is why they read as C2 rather than as generic connectors.",
+        explanation: "Each of these linkers names a precise logical relation, which is why they read as Mastery rather than as generic connectors.",
       },
       {
         type: "write",
@@ -1754,7 +1754,7 @@ export const EN_C2_U14: Lesson[] = [
     slug: "c2-vocab-argument-verbs",
     level: "EN-C2",
     number: 6,
-    title: "C2 vocabulary: verbs of argument",
+    title: "Mastery vocabulary: verbs of argument",
     summary: "Precise verbs for making and reporting arguments: contend, posit, maintain, assert, refute, rebut, concede, dismiss, undermine, bolster and substantiate, with their patterns and the stance each one implies.",
     duration: "12 min",
     sections: [
@@ -1885,7 +1885,7 @@ export const EN_C2_U14: Lesson[] = [
             answer: "bolster",
             altAnswers: ["strengthen", "reinforce", "support"],
             en: "Los correos filtrados no hacen más que [reforzar] los argumentos de la oposición.",
-            explanation: "\"Bolster\" is the precise C2 verb for strengthening an argument or a position.",
+            explanation: "\"Bolster\" is the precise Mastery verb for strengthening an argument or a position.",
           },
         ],
       },
@@ -2048,7 +2048,7 @@ export const EN_C2_U14: Lesson[] = [
         prompt: "Put the words in order.",
         words: ["These", "findings", "bolster", "the", "case", "for", "reform."],
         translation: "Estos hallazgos refuerzan los argumentos a favor de la reforma.",
-        explanation: "\"The case for X\" = «los argumentos a favor de X». \"Bolster the case\" is a strong C2 collocation.",
+        explanation: "\"The case for X\" = «los argumentos a favor de X». \"Bolster the case\" is a strong Mastery collocation.",
       },
     ],
   },

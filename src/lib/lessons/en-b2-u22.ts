@@ -1549,7 +1549,7 @@ export const EN_B2_U22: Lesson[] = [
       {
         heading: "How big is the difference?",
         body: [
-          "A bare comparative (\"cheaper\") says nothing about the size of the difference. B2 speakers add a modifier. Big difference: \"much\", \"far\", \"a lot\", \"way\" (informal). Small difference: \"a bit\", \"a little\", \"slightly\". \"Far more expensive\", \"slightly quieter\".",
+          "A bare comparative (\"cheaper\") says nothing about the size of the difference. Upper Intermediate speakers add a modifier. Big difference: \"much\", \"far\", \"a lot\", \"way\" (informal). Small difference: \"a bit\", \"a little\", \"slightly\". \"Far more expensive\", \"slightly quieter\".",
           "«Mucho más» is never *very more: \"very\" cannot modify a comparative. And \"more\" + -er is double: *more cheaper is wrong.",
           "For negative comparisons with \"as... as\": \"not quite as\" (small difference) and \"not nearly as\" or \"nowhere near as\" (big difference): \"The village isn't nearly as noisy as the city.\"",
         ],

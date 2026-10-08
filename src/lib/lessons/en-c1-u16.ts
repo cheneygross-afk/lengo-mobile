@@ -1552,7 +1552,7 @@ export const EN_C1_U16: Lesson[] = [
         body: [
           "New Zealand English sounds similar to Australian English to outsiders, but the vowels differ. The short i is very central, so \"fish and chips\" sounds like \"fush and chups\" to Australians, and the e of \"yes\" or \"pen\" sounds close to \"yis\" and \"pin\".",
           "It has its own everyday words: \"jandals\" (flip-flops), \"togs\" (swimsuit), \"chilly bin\" (a cooler for drinks), \"dairy\" (a corner shop), \"tramping\" (hiking), \"bach\" (a small holiday home). \"Sweet as\" means great or no problem: \"Can you pick me up at eight? Sweet as.\"",
-          "Words from the Maori language are part of everyday English in New Zealand: \"kia ora\" (hello, thanks), \"whanau\" (family) and \"kai\" (food) appear in the news, in schools and in government.",
+          "Words from the Māori language are part of everyday English in New Zealand: \"kia ora\" (hello, thanks), \"whanau\" (family) and \"kai\" (food) appear in the news, in schools and in government.",
         ],
         examples: [
           { es: "We're going tramping in the mountains this weekend.", en: "Este fin de semana nos vamos de senderismo a la montaña. (neozelandés)" },
@@ -1770,7 +1770,7 @@ export const EN_C1_U16: Lesson[] = [
       {
         heading: "South African English",
         body: [
-          "South Africa has eleven official languages, and its English has borrowed words from Afrikaans and African languages. A \"braai\" is a barbecue, \"lekker\" means nice or great, a \"bakkie\" is a pickup truck, and \"Howzit?\" is a friendly hello.",
+          "South Africa has twelve official languages, and its English has borrowed words from Afrikaans and African languages. A \"braai\" is a barbecue, \"lekker\" means nice or great, a \"bakkie\" is a pickup truck, and \"Howzit?\" is a friendly hello.",
           "Two expressions confuse visitors. A \"robot\" is a traffic light: \"Turn left at the robot\". And \"just now\" does not mean «ahora mismo» but «luego, dentro de un rato», sometimes much later; \"now now\" means soon, a bit closer to now. They work a bit like Spanish «ahorita» in some countries: you need to know the speaker to know how soon it is.",
           "\"Is it?\" is often used as a reaction meaning \"Really?\", whatever the verb: \"I've just bought a new car.\" \"Is it?\".",
         ],

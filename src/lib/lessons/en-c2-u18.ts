@@ -418,7 +418,7 @@ export const EN_C2_U18: Lesson[] = [
         heading: "Keeping the author's stance",
         body: [
           "A summary is not neutral by default: it reports what the author does with the claim. Your reporting verb carries that stance. \"Argues\" or \"contends\" present a position; \"shows\" or \"demonstrates\" accept that it is proven; \"suggests\" is tentative; \"warns\" signals concern; \"concedes\" or \"acknowledges\" mark an admission.",
-          "Choosing \"shows\" when the author only \"suggests\" changes the source. And choosing \"claims\" can sound skeptical, as if you doubt the author. At C2, the reporting verb is an act of interpretation, so choose it deliberately.",
+          "Choosing \"shows\" when the author only \"suggests\" changes the source. And choosing \"claims\" can sound skeptical, as if you doubt the author. At the Mastery level, the reporting verb is an act of interpretation, so choose it deliberately.",
           "Also preserve key qualifications. If the author says the effect holds \"for small firms\" or \"in the short term\", that limitation belongs in the summary, even a one-sentence one.",
         ],
         examples: [
@@ -456,7 +456,7 @@ export const EN_C2_U18: Lesson[] = [
             words: ["In", "short,", "the", "book", "makes", "the", "case", "for", "local", "tourism."],
             translation: "En resumen, el libro defiende el turismo local.",
             altOrders: [["The", "book", "makes", "the", "case", "for", "local", "tourism,", "in", "short."]],
-            explanation: "\"Make the case for\" is a precise C2 way of saying «defender» or «abogar por» an idea in a summary.",
+            explanation: "\"Make the case for\" is a precise Mastery way of saying «defender» or «abogar por» an idea in a summary.",
           },
         ],
       },
@@ -1440,7 +1440,7 @@ export const EN_C2_U18: Lesson[] = [
           "Keeps technical terms such as \"algorithm\" and \"paid advertising\".",
           "Cites Moreno (2021), with the page number if required.",
         ],
-        modelAnswer: "According to Moreno (2021, p. 14), small firms now find customers more easily online, but because platforms keep altering their algorithms, many can stay visible only by paying for advertising, so their initial advantage has become a form of dependence.",
+        modelAnswer: "According to Moreno (2021, p. 14), small firms now find customers more easily online, but because platforms keep altering their algorithms, many can stay visible only by paying for advertising.",
         explanation: "The model opens with the source, splits the logic into a contrast and a cause, and keeps the key terms. Check that you did not add a claim the author did not make.",
       },
     ],
@@ -1716,7 +1716,7 @@ export const EN_C2_U18: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "This paragraph has no correct punctuation. Rewrite it with full stops, semicolons, a colon, a dash, apostrophes and hyphens where needed: \"The citys new mayor a well known economist has one priority affordable housing her five year plan is ambitious however its critics say the citys budget cant support it\"",
+        prompt: "This paragraph has no correct punctuation. Rewrite it with full stops, semicolons, a colon, commas or dashes, apostrophes and hyphens where needed: \"The citys new mayor a well known economist has one priority affordable housing her five year plan is ambitious however its critics say the citys budget cant support it\"",
         minWords: 20,
         maxWords: 50,
         rubric: [
@@ -1735,7 +1735,7 @@ export const EN_C2_U18: Lesson[] = [
     slug: "c2-vocab-nominalisation",
     level: "EN-C2",
     number: 6,
-    title: "C2 vocabulary: nominalisation and academic collocations",
+    title: "Mastery vocabulary: nominalisation and academic collocations",
     summary: "Turn verbs and adjectives into nouns for academic density, and master the collocations that go with them, including the uncountable \"research\" and \"evidence\".",
     duration: "11 min",
     sections: [
@@ -2469,7 +2469,7 @@ export const EN_C2_U18: Lesson[] = [
               "No study has yet examined whether these effects extend to secondary schools.",
               "No study has yet examined whether these effects also occur in secondary schools.",
             ],
-            explanation: "A \"whether\" clause can be the subject of the sentence, a typical C2 structure. «Secundaria» is \"secondary school\" (in the US also \"middle school\" and \"high school\").",
+            explanation: "A \"whether\" clause can be the subject of the sentence, a typical Mastery structure. «Secundaria» is \"secondary school\" (in the US also \"middle school\" and \"high school\").",
           },
         ],
       },

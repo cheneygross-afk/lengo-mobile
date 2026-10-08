@@ -12,9 +12,9 @@ import { listeningItems, readingSection, type LevelTest } from "./level-test-aut
 const { fe, sec } = authoring("es");
 
 export const LEVEL_TEST_C1: LevelTest = {
-  title: "Prueba de nivel C1: ¿listo para C2?",
+  title: "Prueba de nivel Maestría: ¿listo para el nivel Profesional y Académico?",
   summary:
-    "La prueba final de C1: comprensión de lectura y auditiva, gramática y vocabulario escribiendo en español, y un texto argumentativo. 46 preguntas sobre lo que enseña C1; se aprueba con un 70%.",
+    "La prueba final del nivel Maestría: comprensión de lectura y auditiva, gramática y vocabulario escribiendo en español, y un texto argumentativo. 46 preguntas sobre lo que enseña de nivel Maestría; se aprueba con un 70%.",
   duration: "60 min",
   sections: [
     readingSection(

@@ -15,7 +15,7 @@ export const EN_B2_U05: Lesson[] = [
       {
         heading: "Imagining a different past",
         body: [
-          "At B1 you learned the second conditional for imaginary present situations: \"If I had time, I would help you.\" The third conditional does the same for the past: it imagines a past that did not happen.",
+          "At the Independence level you learned the second conditional for imaginary present situations: \"If I had time, I would help you.\" The third conditional does the same for the past: it imagines a past that did not happen.",
           "The structure is if + past perfect (had + past participle), then would have + past participle: \"If I had known, I would have come.\" In Spanish: «si lo hubiera sabido, habría venido».",
           "The meaning is always the opposite of what really happened. \"If you had told me, I would have helped you\" means you didn't tell me, so I didn't help. That's why we use it for regrets, criticism and relief.",
         ],
@@ -1527,7 +1527,7 @@ export const EN_B2_U05: Lesson[] = [
         heading: "When to use inversion",
         body: [
           "Inverted conditionals belong to formal writing: official letters, emails to clients, reports, news and literature. In everyday conversation they can sound stiff, so use \"if\".",
-          "At B2, the most important thing is to recognize them when you read. Remember the three openings: \"Had...\" (past), \"Should...\" (possible future) and \"Were...\" (imaginary present or future).",
+          "At the Upper Intermediate level, the most important thing is to recognize them when you read. Remember the three openings: \"Had...\" (past), \"Should...\" (possible future) and \"Were...\" (imaginary present or future).",
         ],
         examples: [
           { es: "If you need anything, just ask.", en: "Si necesitas algo, pídelo. (conversación)" },
@@ -2075,7 +2075,7 @@ export const EN_B2_U05: Lesson[] = [
     level: "EN-B2",
     number: 10,
     title: "Spiral Review: All Conditionals",
-    summary: "Zero, first and second conditionals from B1 together with the third and mixed forms, plus unless and in case, ready for the mastery check.",
+    summary: "Zero, first and second conditionals from the Independence level together with the third and mixed forms, plus unless and in case, ready for the mastery check.",
     duration: "12 min",
     sections: [
       {

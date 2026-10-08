@@ -8,8 +8,8 @@ export const EN_A1_U9_MORE: Lesson[] = [
     slug: "a1-final-review-part-3",
     level: "EN-A1",
     number: 3,
-    title: "Repaso final de A1, parte 3 de 3",
-    summary: "El último repaso completo: traducciones que mezclan todo el A1, con más peso en los puntos donde el español te hace tropezar.",
+    title: "Repaso final del nivel Fundamentos, parte 3 de 3",
+    summary: "El último repaso completo: traducciones que mezclan todo el nivel Fundamentos, con más peso en los puntos donde el español te hace tropezar.",
     duration: "12 min",
     sections: [
       {

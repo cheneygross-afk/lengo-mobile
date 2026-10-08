@@ -261,7 +261,6 @@ export const EN_C2_U27: Lesson[] = [
         altAnswers: [
           "Climate change poses a threat to biodiversity.",
           "Climate change threatens biodiversity.",
-          "Climate change is a threat for biodiversity.",
         ],
         explanation: "No article on either general noun. \"A threat to\" is the usual preposition, and \"pose a threat to\" is a common formal collocation.",
       },
@@ -962,7 +961,7 @@ export const EN_C2_U27: Lesson[] = [
       {
         heading: "Policies: what governments do",
         body: [
-          "Targets have their own verbs: you \"set\", \"meet\", \"hit\" or \"miss\" a target, and you can be \"on track to meet\" it. «Cumplir los objetivos» is \"meet the targets\", never *fulfil the targets or *accomplish the objectives.",
+          "Targets have their own verbs: you \"set\", \"meet\", \"hit\" or \"miss\" a target, and you can be \"on track to meet\" it. «Cumplir los objetivos» is \"meet the targets\", not *fulfil the targets or *accomplish the targets.",
           "To end something gradually is to \"phase it out\": \"phase out coal\", \"phase out petrol cars\". The opposite is \"phase in\" (introduce gradually). Policy tools include a \"carbon tax\", \"emissions trading\" (a \"cap-and-trade\" scheme), \"subsidies\" for clean energy, and a \"ban\" on something: \"a ban on single-use plastics\".",
           "Agreements: countries \"sign\", \"ratify\" and \"pull out of\" agreements and treaties; they \"pledge\" or \"commit to\" goals and are \"held to account\" when they fail. «Subvención» is \"subsidy\", not *subvention, which is very rare.",
         ],
@@ -1157,7 +1156,7 @@ export const EN_C2_U27: Lesson[] = [
     level: "EN-C2",
     number: 5,
     title: "Dependent Prepositions: Depend On, Consist Of, Responsible For",
-    summary: "«Depender de», «casarse con», «pensar en», «la solución de»: Spanish prepositions leak into English even at C2. Review the verbs, adjectives and nouns whose prepositions differ from Spanish, with examples from climate and politics, and get them right automatically.",
+    summary: "«Depender de», «casarse con», «pensar en», «la solución de»: Spanish prepositions leak into English even at the Mastery level. Review the verbs, adjectives and nouns whose prepositions differ from Spanish, with examples from climate and politics, and get them right automatically.",
     duration: "12 min",
     sections: [
       {
@@ -1639,7 +1638,7 @@ export const EN_C2_U27: Lesson[] = [
         answer: "legitimate case",
         altAnswers: ["strong case", "good case", "reasonable case", "valid case"],
         en: "Hay [argumentos legítimos] a favor de bajar las facturas de la luz, pero no a costa de nuestros objetivos climáticos.",
-        explanation: "\"There is a case for\" means there are good arguments in favor of. «Argumentos» here is singular \"case\", not *arguments for.",
+        explanation: "\"There is a case for\" means there are good arguments in favor of. «Argumentos» here is the singular idiom \"a case\"; \"There are arguments for\" is also correct, but does not fit \"There is a ___\".",
       },
       {
         type: "translate",
@@ -1726,7 +1725,7 @@ export const EN_C2_U27: Lesson[] = [
     level: "EN-C2",
     number: 6,
     title: "Strong Collocations: Pose a Threat, Bitterly Disappointed",
-    summary: "C2 writers do not say \"very worried\" or \"make a conclusion\"; they say \"deeply concerned\" and \"draw a conclusion\". Learn the verb-noun and adverb-adjective collocations of political and environmental writing, and how to replace \"very\" with an intensifier that actually fits.",
+    summary: "Mastery writers do not say \"very worried\" or \"make a conclusion\"; they say \"deeply concerned\" and \"draw a conclusion\". Learn the verb-noun and adverb-adjective collocations of political and environmental writing, and how to replace \"very\" with an intensifier that actually fits.",
     duration: "12 min",
     sections: [
       {
@@ -1848,7 +1847,7 @@ export const EN_C2_U27: Lesson[] = [
         body: [
           "Each field has its own set. Politics: \"cast a vote\", \"call an election\", \"hold talks\", \"reach an agreement\", \"break a promise\", \"face criticism\", \"gain support\", \"lose ground\". Environment: \"cut emissions\", \"tackle climate change\", \"meet targets\", \"raise awareness\", \"cause irreversible damage\", \"run out of resources\".",
           "Spanish speakers often translate the Spanish verb: *do an election («hacer elecciones»); \"lower emissions\" is possible but less idiomatic than \"cut emissions\"; \"fulfil the objectives\" sounds stiff next to \"meet the targets\", and *make conscience («hacer conciencia») is not English at all: \"raise awareness\".",
-          "When you are unsure, check a collocation dictionary or a corpus before inventing a combination. At C2, precision in these small choices is what separates fluent from truly proficient writing.",
+          "When you are unsure, check a collocation dictionary or a corpus before inventing a combination. At the Mastery level, precision in these small choices is what separates fluent from truly proficient writing.",
         ],
         examples: [
           { es: "The prime minister has called an early election.", en: "El primer ministro ha convocado elecciones anticipadas." },
@@ -2054,7 +2053,7 @@ export const EN_C2_U27: Lesson[] = [
     level: "EN-C2",
     number: 6,
     title: "Spiral review: passive reporting in the news",
-    summary: "Recycle C1 passive reporting in political news: It is said that, is believed to be, is said to have, It has been alleged that, reportedly and allegedly. Learn to translate the Spanish journalistic conditional and to tell what is claimed from what is confirmed.",
+    summary: "Recycle Advanced passive reporting in political news: It is said that, is believed to be, is said to have, It has been alleged that, reportedly and allegedly. Learn to translate the Spanish journalistic conditional and to tell what is claimed from what is confirmed.",
     duration: "11 min",
     sections: [
       {
@@ -2132,12 +2131,20 @@ export const EN_C2_U27: Lesson[] = [
             prompt: "Translate into English.",
             source: "La empresa habría ocultado los datos de emisiones durante años.",
             answer: "The company is alleged to have concealed its emissions data for years.",
-            altAnswers: alts(
-              ["The company is alleged to have", "The company is said to have", "The company is reported to have", "The company is believed to have", "The company allegedly", "The company reportedly", "It is alleged that the company", "It is claimed that the company", "The company is accused of having"],
-              ["concealed", "hidden", "covered up"],
-              ["its emissions data", "the emissions data", "its emissions figures", "the emissions figures"],
-              ["for years."],
-            ),
+            altAnswers: [
+              ...alts(
+                ["The company is alleged to have", "The company is said to have", "The company is reported to have", "The company is believed to have", "The company is accused of having"],
+                ["concealed", "hidden", "covered up"],
+                ["its emissions data", "the emissions data", "its emissions figures", "the emissions figures"],
+                ["for years."],
+              ),
+              ...alts(
+                ["The company allegedly", "The company reportedly", "It is alleged that the company", "It is claimed that the company"],
+                ["concealed", "hid", "covered up"],
+                ["its emissions data", "the emissions data", "its emissions figures", "the emissions figures"],
+                ["for years."],
+              ),
+            ],
             explanation: "No conditional in English: use \"is alleged to have\" + past participle, or the adverbs \"allegedly\" / \"reportedly\" with the simple past.",
           },
         ],

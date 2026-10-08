@@ -895,7 +895,7 @@ export const EN_B2_U20_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: myself and the very",
         body: [
-          "«Yo mismo / ella misma» is a reflexive pronoun, usually at the END of the clause: \"I painted it myself\", \"She built it herself\". Putting it right after the subject (\"I myself painted it\") is possible but formal; at B2, the end position is the natural choice. Don't confuse it with \"by myself\" (= alone, «solo»).",
+          "«Yo mismo / ella misma» is a reflexive pronoun, usually at the END of the clause: \"I painted it myself\", \"She built it herself\". Putting it right after the subject (\"I myself painted it\") is possible but formal; at the Upper Intermediate level, the end position is the natural choice. Don't confuse it with \"by myself\" (= alone, «solo»).",
           "\"The very\" + noun adds emphasis like «mismísimo» or «justo»: \"the very first day\", \"at the very end\", \"That's the very thing I needed\".",
         ],
         examples: [

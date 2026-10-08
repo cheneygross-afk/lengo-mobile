@@ -944,7 +944,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     [
       fb("Tus planes.", "En cuanto ___ lo suficiente, viajaré. (ahorrar)", "ahorre", "Futuro."),
       fb("Tus planes.", "Antes de que ___ el año, quiero aprender a nadar. (acabar)", "acabe", "Antes de que."),
-      fb("Tus planes.", "No dejaré de estudiar hasta que ___ el C1. (conseguir)", "consiga", "Hasta que; gu → g."),
+      fb("Tus planes.", "No dejaré de estudiar hasta que ___ el nivel Maestría. (conseguir)", "consiga", "Hasta que; gu → g."),
       fb("Tus planes.", "Cuando mis padres se ___, iré a vivir cerca de ellos. (jubilar)", "jubilen", "Futuro."),
       fb("Tus planes.", "Voy a ahorrar para que mis hijos ___ estudiar fuera. (poder)", "puedan", "Para que."),
       toEs("When I retire, I'll live by the sea.", "Cuando me jubile, viviré junto al mar.", "«Cuando» + acción futura exige subjuntivo: «me jubile».", ["Cuando me jubile, viviré cerca del mar.", "Cuando me jubile, voy a vivir junto al mar."]),
@@ -5078,7 +5078,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     "advanced-connectors-emphasis-drill-3",
     "b2d-habla-de-ti-opinion",
     "Habla de ti: tu opinión argumentada",
-    "Defiende una opinión con conectores de nivel B2.",
+    "Defiende una opinión con conectores de nivel Avanzado.",
     "6 min",
     [
       sec(
@@ -5726,13 +5726,13 @@ export const B2_DRILLS: AnchoredLesson[] = [
   L(
     "b2-comprehensive-review-2",
     "b2d-rep-mezcla-dictado-b2",
-    "Dictado: frases de nivel B2",
+    "Dictado: frases de nivel Avanzado",
     "Repaso espaciado: estructuras variadas en frases largas.",
     "6 min",
     [
       sec(
         "Frases largas",
-        "Cada frase combina dos estructuras de B2. Identifica ambas antes de ordenar.",
+        "Cada frase combina dos estructuras del nivel Avanzado. Identifica ambas antes de ordenar.",
         [
           ["Si hubiera sabido que venías, habría preparado algo.", "If I had known you were coming, I'd have prepared something."],
         ],
@@ -7417,7 +7417,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     "la-lista-de-espera",
     "b2d-rep-mezcla-traduccion",
     "Práctica mezclada: relevo de traducción",
-    "Repaso espaciado: traduce frases que mezclan estructuras de B2.",
+    "Repaso espaciado: traduce frases que mezclan estructuras del nivel Avanzado.",
     "6 min",
     [
       sec(
@@ -7768,7 +7768,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     "cien-palabras-nuevas",
     "b2d-rep-mezcla-opinion",
     "Práctica mezclada: ensayo de opinión",
-    "Repaso espaciado: argumenta con todas las herramientas de B2.",
+    "Repaso espaciado: argumenta con todas las herramientas del nivel Avanzado.",
     "7 min",
     [
       sec(
@@ -7795,7 +7795,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
   L(
     "vidas-extra",
     "b2d-rep-mezcla-ronda-final",
-    "Ronda rápida: B2 en diez segundos",
+    "Ronda rápida: Avanzado en diez segundos",
     "Repaso espaciado: una pregunta de cada tema del nivel.",
     "5 min",
     [
@@ -7824,7 +7824,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
   L(
     "el-examen-que-no-hice",
     "b2d-rep-mezcla-circuito-final",
-    "Circuito acumulativo: examen final de B2",
+    "Circuito acumulativo: examen final del nivel Avanzado",
     "Repaso espaciado: el último circuito con todos los temas del nivel.",
     "8 min",
     [

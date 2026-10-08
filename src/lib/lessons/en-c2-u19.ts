@@ -621,7 +621,7 @@ export const EN_C2_U19: Lesson[] = [
         body: [
           "The same pattern works with a verb: \"Try as I might, I couldn't open the door\" («Por más que lo intenté, no pude abrir la puerta»). Only the bare verb moves to the front, followed by \"as\" + subject + a modal (usually \"might\" or \"may\"). It sounds literary and a little dramatic.",
           "With adverbs, \"Much as\" means «por mucho que» or «aunque»: \"Much as I admire her, I can't agree with her\". \"Hard as I tried\" and \"Try as I might\" are interchangeable. A neutral equivalent is \"However hard I tried\" or \"No matter how hard I tried\".",
-          "Do not translate «Por más que» word for word as *For more that, and do not use \"despite\" + a clause (*Despite I tried). The inverted forms are the C2 option; \"although\" and \"however much\" are the safe, neutral ones.",
+          "Do not translate «Por más que» word for word as *For more that, and do not use \"despite\" + a clause (*Despite I tried). The inverted forms are the Mastery option; \"although\" and \"however much\" are the safe, neutral ones.",
         ],
         examples: [
           { es: "Try as I might, I couldn't open the door.", en: "Por más que lo intenté, no pude abrir la puerta." },
@@ -901,7 +901,7 @@ export const EN_C2_U19: Lesson[] = [
     level: "EN-C2",
     number: 4,
     title: "Rhetorical questions and emphasis, Part 4 of 7: clefts and inversion revisited",
-    summary: "A deliberate review and extension of cleft sentences (What really matters is..., It wasn't until... that..., All I want is...) and negative inversion (Not only..., Under no circumstances..., Only then...), targeting the errors Spanish speakers still make at C2.",
+    summary: "A deliberate review and extension of cleft sentences (What really matters is..., It wasn't until... that..., All I want is...) and negative inversion (Not only..., Under no circumstances..., Only then...), targeting the errors Spanish speakers still make at the Mastery level.",
     duration: "12 min",
     sections: [
       {
@@ -993,7 +993,7 @@ export const EN_C2_U19: Lesson[] = [
         heading: "Negative inversion: the auxiliary must appear",
         body: [
           "After a fronted negative or restrictive expression, English uses question order: auxiliary + subject. \"Never have I seen...\", \"Not only did she win...\", \"Under no circumstances should you...\", \"Only then did I understand\", \"Little did they know...\".",
-          "At C2 the remaining errors are almost always a missing auxiliary, because Spanish fronts freely without inverting: *Never I have seen, *Only then I understood, *Little they knew, *Not only she won. If there is no auxiliary, add \"do\", \"does\" or \"did\" and use the base verb.",
+          "At the Mastery level the remaining errors are almost always a missing auxiliary, because Spanish fronts freely without inverting: *Never I have seen, *Only then I understood, *Little they knew, *Not only she won. If there is no auxiliary, add \"do\", \"does\" or \"did\" and use the base verb.",
           "Extend your repertoire with \"Not once did she...\", \"Nowhere is this clearer than in...\", \"In no way does this mean...\", \"At no point did anyone...\" and \"Only after... did...\". In \"Only after / Only when / Not until\" sentences, the inversion goes in the main clause, not in the time clause: \"Only after he left did I realize\".",
         ],
         examples: [
@@ -1826,7 +1826,7 @@ export const EN_C2_U19: Lesson[] = [
           "Not only did she win the race, but she also set a new record.",
           "Not only did he win the race, but he also set a new record.",
         ],
-        explanation: "Only the \"Not only\" clause inverts. «Batir un récord» is \"break a record\" (or \"set a new record\"), never *beat a record in this sense.",
+        explanation: "Only the \"Not only\" clause inverts. «Batir un récord» is \"break a record\" (or \"set a new record\"), and \"beat the record\" is also common.",
       },
       {
         type: "multiple-choice",

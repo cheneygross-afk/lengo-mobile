@@ -8,7 +8,7 @@ export const EN_B2_U29: Lesson[] = [
     slug: "b2-comprehensive-review-1",
     level: "EN-B2",
     number: 1,
-    title: "B2 Comprehensive Review, Part 1 of 4",
+    title: "Upper Intermediate Comprehensive Review, Part 1 of 4",
     summary: "A mixed review of the narrative tenses, the future forms and the present perfect continuous. No hints this time: you decide which tense each sentence needs.",
     duration: "12 min",
     sections: [
@@ -66,7 +66,7 @@ export const EN_B2_U29: Lesson[] = [
         heading: "Talking about the future",
         body: [
           "English has no single future tense. \"Will\" is for predictions, instant decisions, offers and promises (\"I'll get it!\"). \"Going to\" is for plans you already have and for predictions based on evidence (\"Look at those clouds. It's going to rain\"). The present continuous is for arrangements with other people (\"I'm meeting Ana on Friday\"), and the present simple is for timetables (\"The train leaves at 7:15\").",
-          "At B2 you also need the future continuous for an action in progress at a future moment (\"This time tomorrow I'll be flying to Lima\") and the future perfect for something completed before a future moment (\"By June I'll have finished the course\").",
+          "At the Upper Intermediate level you also need the future continuous for an action in progress at a future moment (\"This time tomorrow I'll be flying to Lima\") and the future perfect for something completed before a future moment (\"By June I'll have finished the course\").",
           "After \"when\", \"as soon as\", \"before\", \"until\" and \"if\", English uses a present tense for the future where Spanish uses the subjunctive: «cuando llegues» is \"when you arrive\", never *when you will arrive.",
         ],
         examples: [
@@ -264,7 +264,7 @@ export const EN_B2_U29: Lesson[] = [
     slug: "b2-comprehensive-review-2",
     level: "EN-B2",
     number: 2,
-    title: "B2 Comprehensive Review, Part 2 of 4",
+    title: "Upper Intermediate Comprehensive Review, Part 2 of 4",
     summary: "Conditionals of every kind, wishes and regrets, and modals for deduction and criticism, mixed and with no hints.",
     duration: "12 min",
     sections: [
@@ -537,7 +537,7 @@ export const EN_B2_U29: Lesson[] = [
     slug: "b2-comprehensive-review-3",
     level: "EN-B2",
     number: 3,
-    title: "B2 Comprehensive Review, Part 3 of 4",
+    title: "Upper Intermediate Comprehensive Review, Part 3 of 4",
     summary: "Passives, impersonal passives, causatives, reporting verbs and relative and participle clauses, mixed and with no hints.",
     duration: "12 min",
     sections: [
@@ -839,7 +839,7 @@ export const EN_B2_U29: Lesson[] = [
     slug: "b2-comprehensive-review-4",
     level: "EN-B2",
     number: 4,
-    title: "B2 Comprehensive Review, Part 4 of 4",
+    title: "Upper Intermediate Comprehensive Review, Part 4 of 4",
     summary: "Gerunds and infinitives, used to and be used to, linkers, emphasis, comparatives, quantifiers and articles, mixed and with no hints.",
     duration: "12 min",
     sections: [
@@ -1537,7 +1537,7 @@ export const EN_B2_U29: Lesson[] = [
     level: "EN-B2",
     number: 7,
     title: "Multiple-Choice Cloze: Vocabulary",
-    summary: "Collocations, phrasal verbs, dependent prepositions and false friends from the B2 word webs, tested the way exams do: choose the one word that fits.",
+    summary: "Collocations, phrasal verbs, dependent prepositions and false friends from the Upper Intermediate word webs, tested the way exams do: choose the one word that fits.",
     duration: "11 min",
     sections: [
       {
@@ -1577,7 +1577,7 @@ export const EN_B2_U29: Lesson[] = [
       {
         heading: "Phrasal verbs",
         body: [
-          "B2 texts use phrasal verbs where Spanish uses a single verb: put off («aplazar»), carry out («llevar a cabo»), come up with («ocurrírsele», «idear»), run out of («quedarse sin»), give up («dejar», «rendirse»), turn down («rechazar»), look into («investigar»), get over («superar»), set up («montar», «crear»), find out («averiguar»).",
+          "Intermedio alto texts use phrasal verbs where Spanish uses a single verb: put off («aplazar»), carry out («llevar a cabo»), come up with («ocurrírsele», «idear»), run out of («quedarse sin»), give up («dejar», «rendirse»), turn down («rechazar»), look into («investigar»), get over («superar»), set up («montar», «crear»), find out («averiguar»).",
           "In a cloze, the particle is often the key: \"put off\", \"put on\", \"put up\" and \"put out\" all exist, but only one fits. Read the meaning of the whole sentence before you choose.",
         ],
         examples: [
@@ -1794,7 +1794,7 @@ export const EN_B2_U29: Lesson[] = [
     level: "EN-B2",
     number: 8,
     title: "Word Formation Review",
-    summary: "Build nouns, adjectives, adverbs and negatives from the B2 word webs: refuse becomes refusal, use becomes useless, possible becomes impossible.",
+    summary: "Build nouns, adjectives, adverbs and negatives from the Upper Intermediate word webs: refuse becomes refusal, use becomes useless, possible becomes impossible.",
     duration: "11 min",
     sections: [
       {
@@ -2022,7 +2022,7 @@ export const EN_B2_U29: Lesson[] = [
     level: "EN-B2",
     number: 9,
     title: "Error Hunt: The Spanish Speaker's Top 30",
-    summary: "The 30 most persistent mistakes Spanish speakers still make at B2, from a missing \"it\" to *despite of, and how to get rid of them for good.",
+    summary: "The 30 most persistent mistakes Spanish speakers still make at the Upper Intermediate level, from a missing \"it\" to *despite of, and how to get rid of them for good.",
     duration: "12 min",
     sections: [
       {
@@ -2298,8 +2298,8 @@ export const EN_B2_U29: Lesson[] = [
     slug: "b2-review-challenge-1",
     level: "EN-B2",
     number: 10,
-    title: "B2 Challenge 1: Tenses Gauntlet",
-    summary: "A fast challenge with every B2 tense: narrative, perfect and future forms, with no hints. Answer quickly, then read every explanation.",
+    title: "Upper Intermediate Challenge 1: Tenses Gauntlet",
+    summary: "A fast challenge with every Upper Intermediate tense: narrative, perfect and future forms, with no hints. Answer quickly, then read every explanation.",
     duration: "12 min",
     sections: [
       {

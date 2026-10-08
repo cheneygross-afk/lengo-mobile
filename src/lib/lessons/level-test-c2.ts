@@ -10,9 +10,9 @@ import { listeningItems, mcFirst, readingSection, type LevelTest } from "./level
 const { fe, sec } = authoring("es");
 
 export const LEVEL_TEST_C2: LevelTest = {
-  title: "Prueba de nivel C2: examen de maestría",
+  title: "Prueba de nivel Profesional y Académico: examen de maestría",
   summary:
-    "La prueba final de C2: comprensión de lectura y auditiva, léxico, registro y expresiones idiomáticas, y una reseña crítica. 46 preguntas sobre lo que enseña C2; se aprueba con un 70%.",
+    "La prueba final del nivel Profesional y Académico: comprensión de lectura y auditiva, léxico, registro y expresiones idiomáticas, y una reseña crítica. 46 preguntas sobre lo que enseña de nivel Profesional y Académico; se aprueba con un 70%.",
   duration: "60 min",
   sections: [
     readingSection(

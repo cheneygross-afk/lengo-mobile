@@ -15,7 +15,7 @@ export const EN_B2_U12: Lesson[] = [
       {
         heading: "Why not just \"said\"?",
         body: [
-          "At B1 you learned to report what people say with \"said\" and \"told\". At B2 you need verbs that report the intention behind the words. \"Okay, I'll do it\" can become \"She agreed to do it\"; \"I won't sign\" becomes \"He refused to sign\". One verb replaces a whole quote.",
+          "At the Independence level you learned to report what people say with \"said\" and \"told\". At the Upper Intermediate level you need verbs that report the intention behind the words. \"Okay, I'll do it\" can become \"She agreed to do it\"; \"I won't sign\" becomes \"He refused to sign\". One verb replaces a whole quote.",
           "Before adding new verbs, fix the two old traps. \"Tell\" needs a person right after it: \"She told me\", never *She told that. \"Say\" never takes a person directly: \"He said that...\" or \"He said to me that...\", never *He said me. Spanish «me dijo» hides the difference, so the error is very common.",
           "Each reporting verb has its own pattern, and Spanish usually gives you the wrong clue: «se negó a», «amenazó con», «me convenció de que». Learn the verb and its pattern together, as one block.",
         ],
@@ -381,7 +381,7 @@ export const EN_B2_U12: Lesson[] = [
       {
         heading: "Suggest and recommend: no person + to",
         body: [
-          "«Me sugirió que fuera» leads straight to the most famous B2 error: *He suggested me to go. \"Suggest\" and \"recommend\" do not take person + to-infinitive. There are two correct patterns.",
+          "«Me sugirió que fuera» leads straight to the most famous Upper Intermediate error: *He suggested me to go. \"Suggest\" and \"recommend\" do not take person + to-infinitive. There are two correct patterns.",
           "Use -ing when the suggestion includes the speaker or is general: \"He suggested going by train\" («sugirió ir en tren»). Use a that-clause with a subject when you want to say who should do it: \"He suggested (that) I go by train\", \"He suggested (that) I should go by train\".",
           "After \"suggest that\" and \"recommend that\", American English uses the base form even for he or she: \"She recommended that he see a specialist\", not *sees. This is the subjunctive, and it looks just like Spanish «que viera». British English prefers \"should see\".",
         ],

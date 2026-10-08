@@ -628,7 +628,7 @@ export const EN_C1_U10: Lesson[] = [
       {
         heading: "Using idioms naturally, not too much",
         body: [
-          "A common C1 trap is idiom overload: learners who have just studied a list try to use five in one paragraph. To a native ear, \"It was raining cats and dogs, but I kept my chin up because it was a piece of cake\" sounds like a parody.",
+          "A common Advanced trap is idiom overload: learners who have just studied a list try to use five in one paragraph. To a native ear, \"It was raining cats and dogs, but I kept my chin up because it was a piece of cake\" sounds like a parody.",
           "Use one idiom where it does real work: to add humour, to summarise a situation quickly, or to sound relaxed. One well-placed idiom in a conversation is worth more than five forced ones.",
           "Also prefer current idioms. \"It's raining cats and dogs\" is understood but sounds dated or childish to many speakers; \"It's pouring\" is what most people actually say.",
         ],
@@ -1448,7 +1448,7 @@ export const EN_C1_U10: Lesson[] = [
         heading: "Up is good, down is bad",
         body: [
           "Happiness, health and success go up; sadness, illness and failure go down. People \"feel down\" or \"low\", their spirits are \"high\" or \"lift\", things \"look up\", and someone can \"hit rock bottom\".",
-          "Numbers follow the same logic, with powerful verbs: prices \"soar\" or \"skyrocket\" (rise fast), \"plummet\" or \"plunge\" (fall fast), and \"peak\" (reach their highest point). These verbs are typical of news and reports and sound much more C1 than \"go up a lot\".",
+          "Numbers follow the same logic, with powerful verbs: prices \"soar\" or \"skyrocket\" (rise fast), \"plummet\" or \"plunge\" (fall fast), and \"peak\" (reach their highest point). These verbs are typical of news and reports and sound much more Advanced than \"go up a lot\".",
           "For «estar de bajón», say \"feel down\" or \"be feeling low\". *Be in a low is not English.",
         ],
         examples: [
@@ -2441,7 +2441,7 @@ export const EN_C1_U10: Lesson[] = [
       {
         heading: "The other direction: explaining idioms in plain English",
         body: [
-          "At C1 you should also be able to explain an idiom in plain words. This is useful for paraphrasing in exams, for international emails and for checking that you really understand it.",
+          "At the Advanced level you should also be able to explain an idiom in plain words. This is useful for paraphrasing in exams, for international emails and for checking that you really understand it.",
           "A good paraphrase keeps the tone neutral and the meaning complete: \"She doesn't mince her words\" is \"She says exactly what she thinks, even if it offends people\". \"It was a blessing in disguise\" is \"It seemed bad at first but turned out to be good\".",
           "Avoid paraphrasing one idiom with another idiom. The point is to unpack the image into literal language.",
         ],
@@ -2838,14 +2838,14 @@ export const EN_C1_U10: Lesson[] = [
     level: "EN-C1",
     number: 12,
     title: "Spiral Review: Phrasal Verbs in Idioms",
-    summary: "Review B2 phrasal verbs inside idiomatic expressions: \"get away with\", \"put up with\", \"come up against\", \"face up to\", \"run out of steam\", \"fall through\" and \"play down\".",
+    summary: "Review Upper Intermediate phrasal verbs inside idiomatic expressions: \"get away with\", \"put up with\", \"come up against\", \"face up to\", \"run out of steam\", \"fall through\" and \"play down\".",
     duration: "12 min",
     sections: [
       {
         heading: "Three-part phrasal verbs",
         body: [
           "Some of the most idiomatic phrasal verbs have three parts: verb + adverb + preposition. \"Get away with\" is «salir impune, salirse con la suya»; \"put up with\" is «aguantar, soportar»; \"come up against\" is «toparse con» (a problem, opposition); \"face up to\" is «afrontar, asumir» (a difficult truth).",
-          "Three-part verbs are inseparable: the object always goes at the end, even when it is a pronoun. \"I can't put up with it\", never *I can't put it up with. \"He got away with it\", never *He got it away with.",
+          "Most three-part verbs are inseparable: the object usually goes at the end, even when it is a pronoun. \"I can't put up with it\", never *I can't put it up with. \"He got away with it\", never *He got it away with.",
           "\"Get away with\" often appears in the fixed phrase \"get away with murder\", meaning to do bad things without being punished: \"Her kids get away with murder\".",
         ],
         examples: [
@@ -3107,7 +3107,7 @@ export const EN_C1_U10: Lesson[] = [
     level: "EN-C1",
     number: 13,
     title: "Word Web: Character and Personality",
-    summary: "C1 words and idioms for describing people: \"down-to-earth\", \"level-headed\", \"a people person\", \"two-faced\", \"conceited\", \"outspoken\", \"a pain in the neck\", \"as stubborn as a mule\". Plus the false friend \"sympathetic\".",
+    summary: "Advanced words and idioms for describing people: \"down-to-earth\", \"level-headed\", \"a people person\", \"two-faced\", \"conceited\", \"outspoken\", \"a pain in the neck\", \"as stubborn as a mule\". Plus the false friend \"sympathetic\".",
     duration: "12 min",
     sections: [
       {

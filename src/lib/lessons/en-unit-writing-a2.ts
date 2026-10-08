@@ -264,6 +264,6 @@ export const EN_A2_UNIT_WRITING: Record<string, WriteExercise> = {
       "Dos preguntas educadas (\"Do I need to...?\", \"Could you...?\")",
     ],
     "Dear Mr. and Mrs. Miller, my name is Sofia and I'm twenty-two. I'm from Argentina and I study biology. I started learning English when I was ten, but I have never been to the United States. I'm going to arrive on July 2nd. If my flight is late, I'll send you a message. I love cooking, so I'll make you a typical dish from my country. Do I need to bring a towel? Could you tell me about your town? Best wishes, Sofia",
-    "Este correo repasa todo el A2: pasado simple con fecha (\"I started when I was ten\"), presente perfecto para experiencias (\"I have never been\") y el condicional con presente detrás de \"if\" (\"If my flight is late\")."
+    "Este correo repasa todo el nivel Ganando fluidez: pasado simple con fecha (\"I started when I was ten\"), presente perfecto para experiencias (\"I have never been\") y el condicional con presente detrás de \"if\" (\"If my flight is late\")."
   ),
 };

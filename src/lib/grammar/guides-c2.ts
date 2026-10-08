@@ -117,7 +117,7 @@ export const C2_GUIDES: GrammarGuide[] = [
     readingLevelPath: "c1c2",
     intro: [
       "Spanish once had a future subjunctive, used for hypothetical future conditions. In modern speech the present subjunctive or present indicative has replaced it, but it survives in laws and regulations, proverbs, and a handful of fixed phrases.",
-      "At C2 you don't need to produce it, but you do need to recognize it and understand its tone.",
+      "At the Professional & Academic level you don't need to produce it, but you do need to recognize it and understand its tone.",
     ],
     sections: [
       {

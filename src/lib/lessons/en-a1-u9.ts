@@ -8,14 +8,14 @@ export const EN_A1_U9: Lesson[] = [
     slug: "a1-final-review-1",
     level: "EN-A1",
     number: 1,
-    title: "Repaso final de A1, parte 1 de 3",
+    title: "Repaso final del nivel Fundamentos, parte 1 de 3",
     summary: "Un repaso exigente de todo el nivel, con frases más largas que mezclan varios temas a la vez.",
     duration: "12 min",
     sections: [
       {
         heading: "Las cinco trampas del hispanohablante",
         body: [
-          "Antes de pasar a A2, repasa los errores que más delatan a un hispanohablante: omitir el sujeto (*Is late en lugar de \"It is late\"), decir la edad con \"have\" (*I have 20 years), olvidar la -s de tercera persona (*she work), usar \"do\" con \"can\" (*Do you can...?) y traducir «hay» como \"it has\".",
+          "Antes de pasar al nivel Ganando fluidez, repasa los errores que más delatan a un hispanohablante: omitir el sujeto (*Is late en lugar de \"It is late\"), decir la edad con \"have\" (*I have 20 years), olvidar la -s de tercera persona (*she work), usar \"do\" con \"can\" (*Do you can...?) y traducir «hay» como \"it has\".",
           "Si controlas estos cinco puntos, tu inglés ya suena mucho más natural. Los ejercicios de esta lección los mezclan a propósito.",
         ],
         examples: [
@@ -232,8 +232,8 @@ export const EN_A1_U9: Lesson[] = [
     slug: "a1-final-review-2",
     level: "EN-A1",
     number: 2,
-    title: "Repaso final de A1, parte 2 de 3",
-    summary: "El último paso del A1: presentarte, contar tu rutina por escrito y entender inglés hablado.",
+    title: "Repaso final del nivel Fundamentos, parte 2 de 3",
+    summary: "El último paso del nivel Fundamentos: presentarte, contar tu rutina por escrito y entender inglés hablado.",
     duration: "12 min",
     sections: [
       {

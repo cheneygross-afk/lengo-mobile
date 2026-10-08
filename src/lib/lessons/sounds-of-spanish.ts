@@ -812,7 +812,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
           "1. If there's a written accent (á, é, í, ó, ú), stress that syllable: café, teléfono, árbol, están.",
           "2. No accent, and the word ends in a vowel, n or s? Stress the second-to-last syllable: casa, hablan, zapatos.",
           "3. No accent, and it ends in any other consonant? Stress the last syllable: hablar, papel, ciudad.",
-          "When to write an accent is the other side of the same rules, and it comes in A2 (lesson: \"Spelling: ¿ ¡, Capitals and Where the Stress Falls\"). For now, just follow the accent when you see one.",
+          "When to write an accent is the other side of the same rules, and it comes in the Elementary level (lesson: \"Spelling: ¿ ¡, Capitals and Where the Stress Falls\"). For now, just follow the accent when you see one.",
         ],
         [
           ["el café", "ca-FÉ -- accent: stress it"],

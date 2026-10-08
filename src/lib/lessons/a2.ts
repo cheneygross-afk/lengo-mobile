@@ -9302,7 +9302,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "extremely..."
           }
         ],
-        "explanation": "Estas seis estructuras cubren todos los tipos de comparación y superlativo del A2."
+        "explanation": "Estas seis estructuras cubren todos los tipos de comparación y superlativo del nivel Elemental."
       },
       {
         "type": "multi-select",
@@ -10853,8 +10853,8 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "a2-vocabulary-practice-1",
     "level": "A2",
     "number": 59,
-    "title": "A2 Vocabulary Practice, Part 1 of 5",
-    "summary": "Test yourself on all 300 words from the A2 vocabulary lists, grouped by lesson.",
+    "title": "Elementary Vocabulary Practice, Part 1 of 5",
+    "summary": "Test yourself on all 300 words from the Elementary vocabulary lists, grouped by lesson.",
     "duration": "9 min",
     "sections": [
       {
@@ -11187,8 +11187,8 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "a2-vocabulary-practice-2",
     "level": "A2",
     "number": 60,
-    "title": "A2 Vocabulary Practice, Part 2 of 5",
-    "summary": "Test yourself on all 300 words from the A2 vocabulary lists, grouped by lesson.",
+    "title": "Elementary Vocabulary Practice, Part 2 of 5",
+    "summary": "Test yourself on all 300 words from the Elementary vocabulary lists, grouped by lesson.",
     "duration": "10 min",
     "sections": [
       {
@@ -11536,8 +11536,8 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "a2-vocabulary-practice-3",
     "level": "A2",
     "number": 61,
-    "title": "A2 Vocabulary Practice, Part 3 of 5",
-    "summary": "Test yourself on all 300 words from the A2 vocabulary lists, grouped by lesson.",
+    "title": "Elementary Vocabulary Practice, Part 3 of 5",
+    "summary": "Test yourself on all 300 words from the Elementary vocabulary lists, grouped by lesson.",
     "duration": "10 min",
     "sections": [
       {
@@ -11875,8 +11875,8 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "a2-vocabulary-practice-4",
     "level": "A2",
     "number": 62,
-    "title": "A2 Vocabulary Practice, Part 4 of 5",
-    "summary": "Test yourself on all 300 words from the A2 vocabulary lists, grouped by lesson.",
+    "title": "Elementary Vocabulary Practice, Part 4 of 5",
+    "summary": "Test yourself on all 300 words from the Elementary vocabulary lists, grouped by lesson.",
     "duration": "10 min",
     "sections": [
       {
@@ -12240,8 +12240,8 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "a2-vocabulary-practice-5",
     "level": "A2",
     "number": 63,
-    "title": "A2 Vocabulary Practice, Part 5 of 5",
-    "summary": "Test yourself on all 300 words from the A2 vocabulary lists, grouped by lesson.",
+    "title": "Elementary Vocabulary Practice, Part 5 of 5",
+    "summary": "Test yourself on all 300 words from the Elementary vocabulary lists, grouped by lesson.",
     "duration": "10 min",
     "sections": [
       {
@@ -12597,8 +12597,8 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "a2-comprehensive-review-1",
     "level": "A2",
     "number": 64,
-    "title": "A2 Comprehensive Review, Part 1 of 3",
-    "summary": "Recap every grammar principle from A2, then take a 34-question final test.",
+    "title": "Elementary Comprehensive Review, Part 1 of 3",
+    "summary": "Recap every grammar principle from the Elementary level, then take a 34-question final test.",
     "duration": "8 min",
     "sections": [
       {
@@ -12752,8 +12752,8 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "a2-comprehensive-review-2",
     "level": "A2",
     "number": 65,
-    "title": "A2 Comprehensive Review, Part 2 of 3",
-    "summary": "Recap every grammar principle from A2, then take a 34-question final test.",
+    "title": "Elementary Comprehensive Review, Part 2 of 3",
+    "summary": "Recap every grammar principle from the Elementary level, then take a 34-question final test.",
     "duration": "8 min",
     "sections": [
       {
@@ -12895,8 +12895,8 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "a2-comprehensive-review-3",
     "level": "A2",
     "number": 66,
-    "title": "A2 Comprehensive Review, Part 3 of 3",
-    "summary": "Recap every grammar principle from A2, then take a 34-question final test.",
+    "title": "Elementary Comprehensive Review, Part 3 of 3",
+    "summary": "Recap every grammar principle from the Elementary level, then take a 34-question final test.",
     "duration": "9 min",
     "sections": [
       {

@@ -946,7 +946,7 @@ export const EN_C1_U01: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is WRONG?",
+            question: "Which sentence does NOT mean «Solo más tarde nos dimos cuenta de lo que había pasado»?",
             options: [
               "Only we realized later what had happened.",
               "We only realized later what had happened.",
@@ -1379,7 +1379,7 @@ export const EN_C1_U01: Lesson[] = [
       {
         heading: "Had I known: the third conditional without if",
         body: [
-          "At B2 you met \"Had I known\" as a formal version of \"If I had known\". The rule: remove \"if\" and put \"had\" before the subject. Nothing else changes: \"If I had known, I would have come\" becomes \"Had I known, I would have come\".",
+          "At the Upper Intermediate level you met \"Had I known\" as a formal version of \"If I had known\". The rule: remove \"if\" and put \"had\" before the subject. Nothing else changes: \"If I had known, I would have come\" becomes \"Had I known, I would have come\".",
           "Never keep both: *If had I known is wrong. And the verb after \"had\" is always the past participle: *Had I knew is wrong.",
           "This structure is common in writing and fairly common in speech, especially \"Had I known\" and \"Had we known\". It expresses regret about the past («De haberlo sabido...», «Si lo hubiera sabido...»).",
         ],
@@ -1947,7 +1947,6 @@ export const EN_C1_U01: Lesson[] = [
               "If you have any queries, please do not hesitate to contact me.",
               "Should you have any questions, please do not hesitate to get in touch.",
               "If you have any questions, please do not hesitate to get in touch.",
-              "Should you have any doubts, please do not hesitate to contact me.",
             ],
             explanation: "«Duda» in this context is \"question\" or \"query\". \"Doubt\" means uncertainty or suspicion, so \"if you have any doubts\" can sound as if you expect them to distrust you.",
           },
@@ -2913,12 +2912,12 @@ export const EN_C1_U01: Lesson[] = [
     slug: "c1-spiral-conditionals-inversion",
     level: "EN-C1",
     number: 12,
-    title: "Spiral Review: B2 Conditionals and Wishes with Inversion",
-    summary: "Review third and mixed conditionals and wish / if only from B2, then reformulate them with C1 inversion (\"If I had known\" becomes \"Had I known\") without breaking the tense logic.",
+    title: "Spiral Review: Upper Intermediate Conditionals and Wishes with Inversion",
+    summary: "Review third and mixed conditionals and wish / if only from the Upper Intermediate level, then reformulate them with Advanced inversion (\"If I had known\" becomes \"Had I known\") without breaking the tense logic.",
     duration: "12 min",
     sections: [
       {
-        heading: "Back to B2: third and mixed conditionals",
+        heading: "Back to the Upper Intermediate level: third and mixed conditionals",
         body: [
           "Third conditional: an imaginary past and its imaginary past result: \"If I had studied, I would have passed\". Mixed conditional: an imaginary past with a present result: \"If I had studied medicine, I would be a doctor now\", or a present fact with a past result: \"If I weren't so shy, I would have spoken to her\".",
           "Spanish often uses «hubiera» in both halves («si hubiera estudiado, hubiera aprobado»), but English never puts \"would\" in the if-clause: *If I would have studied is wrong.",
@@ -3175,7 +3174,7 @@ export const EN_C1_U01: Lesson[] = [
     level: "EN-C1",
     number: 13,
     title: "Word Web: Politics and Society",
-    summary: "C1 vocabulary for politics and public life (legislation, policy, constituency, referendum, coalition, grassroots, turnout, lobby, accountable), key collocations, and the politics/policy trap.",
+    summary: "Advanced vocabulary for politics and public life (legislation, policy, constituency, referendum, coalition, grassroots, turnout, lobby, accountable), key collocations, and the politics/policy trap.",
     duration: "12 min",
     sections: [
       {
@@ -3213,7 +3212,7 @@ export const EN_C1_U01: Lesson[] = [
       {
         heading: "Making and changing laws",
         body: [
-          "A proposed law is a \"bill\". Parliament or Congress debates it and then \"passes\" it (approves it), and it \"comes into force\" or \"takes effect\" on a certain date. Spanish speakers often say *approve a law; \"pass a law\" is the natural collocation.",
+          "A proposed law is a \"bill\". Parliament or Congress debates it and then \"passes\" it (approves it), and it \"comes into force\" or \"takes effect\" on a certain date. Spanish speakers often say \"approve a law\", which is possible, but \"pass a law\" is the usual collocation.",
           "\"Legislation\" is the formal, uncountable word for laws in general: \"new legislation on data protection\" (never *legislations). To \"enact\" a law is to make it law; to \"repeal\" it is to cancel it («derogar»).",
           "Once a policy is decided, the government must \"implement\" it («aplicar», «poner en práctica»).",
         ],
@@ -3262,7 +3261,7 @@ export const EN_C1_U01: Lesson[] = [
       {
         heading: "Elections and votes",
         body: [
-          "Governments \"hold\" elections (\"to hold an election\" = «convocar» or «celebrar elecciones»), candidates \"run for office\" (British English: \"stand for election\"), and citizens \"cast a vote\". \"Turnout\" is the percentage of people who vote («participación»).",
+          "Governments \"hold\" elections (\"to hold an election\" = «celebrar elecciones»; \"to call an election\" = «convocar elecciones»), candidates \"run for office\" (British English: \"stand for election\"), and citizens \"cast a vote\". \"Turnout\" is the percentage of people who vote («participación»).",
           "Spanish uses the plural «las elecciones» for one event; English normally uses the singular: \"the election is in May\". A \"referendum\" is a direct vote on one question. A \"constituency\" is the area a representative serves («circunscripción»).",
           "If no party wins a majority, two or more parties may form a \"coalition\" («coalición»). A huge victory is a \"landslide\".",
         ],

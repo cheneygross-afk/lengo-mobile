@@ -327,7 +327,7 @@ export const EN_C2_U05: Lesson[] = [
           { es: "Be that as it may, the decision is final.", en: "Sea como sea, la decisión es definitiva." },
           { es: "Suffice it to say that he won't be invited again.", en: "Baste decir que no volverán a invitarlo." },
           { es: "Far be it from me to criticise, but that tie is hideous.", en: "No es que yo quiera criticar, pero esa corbata es horrorosa." },
-          { es: "I hate taking the night train, but needs must.", en: "Odio coger el tren nocturno, pero no queda otra." },
+          { es: "I hate taking the night train, but needs must.", en: "Odio tomar el tren nocturno, pero no queda otra." },
         ],
         checkpoint: [
           {
@@ -466,7 +466,7 @@ export const EN_C2_U05: Lesson[] = [
           "Explains the old negative without \"do\" and the old meaning of \"want\".",
           "Explains \"he who\" and gives a modern alternative (\"whoever\", \"anyone who\").",
           "Gives modern paraphrases of both proverbs.",
-          "Clear, accurate English at C2 level.",
+          "Clear, accurate English at the Mastery level level.",
         ],
         modelAnswer: "\"Waste not, want not\" looks wrong because modern English needs \"do\" to make a negative, but older English simply put \"not\" after the verb. \"Want\" also had its old meaning of \"lack\", so the proverb means \"If you don't waste things, you won't go short.\" \"He who hesitates is lost\" uses a pronoun plus a relative clause, which now survives only in proverbs. Today we would say \"Anyone who hesitates misses the chance.\"",
         explanation: "A good answer names the grammar (ellipsis, negation without \"do\", pronoun + relative) and shows the modern equivalent.",
@@ -519,7 +519,7 @@ export const EN_C2_U05: Lesson[] = [
         body: [
           "Some sayings are ironic from the start. \"No good deed goes unpunished\" is a cynical comment when helping someone gets you into trouble; it turns the moral \"virtue is its own reward\" upside down. \"Be careful what you wish for\" warns that getting what you want can be a disaster. \"The road to hell is paved with good intentions\" says that meaning well is not enough.",
           "Others are made ironic by context. \"Great minds think alike\" is said jokingly when two people have the same idea; the cheeky reply is the forgotten second half, \"...and fools seldom differ\". \"Ignorance is bliss\" can be sincere or sarcastic, depending on the tone.",
-          "Anti-proverbs twist a familiar proverb for humour: \"Never put off till tomorrow what you can do the day after tomorrow\" (attributed to Mark Twain), \"If at first you don't succeed, give up\", \"Where there's a will, there's a relative\" (from \"Where there's a will, there's a way\"). The joke only works if the listener knows the original, so they are a good test of C2 comprehension.",
+          "Anti-proverbs twist a familiar proverb for humour: \"Never put off till tomorrow what you can do the day after tomorrow\" (attributed to Mark Twain), \"If at first you don't succeed, give up\", \"Where there's a will, there's a relative\" (from \"Where there's a will, there's a way\"). The joke only works if the listener knows the original, so they are a good test of Mastery comprehension.",
         ],
         examples: [
           { es: "I covered her shift and now I'm the one in trouble. No good deed goes unpunished.", en: "Le cubrí el turno y ahora el que tiene problemas soy yo. Así me pagan." },
@@ -1461,7 +1461,7 @@ export const EN_C2_U05: Lesson[] = [
     level: "EN-C2",
     number: 7,
     title: "Spiral review: idioms and proverbs together",
-    summary: "Idioms and proverbs in mixed texts and dialogues: their frozen forms, British and American variants, half-quoted proverbs and Spanish equivalents, plus a review of C1 inversion in formal, proverb-like sentences such as \"Little did he know...\".",
+    summary: "Idioms and proverbs in mixed texts and dialogues: their frozen forms, British and American variants, half-quoted proverbs and Spanish equivalents, plus a review of Advanced inversion in formal, proverb-like sentences such as \"Little did he know...\".",
     duration: "12 min",
     sections: [
       {

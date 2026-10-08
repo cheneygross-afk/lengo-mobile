@@ -852,7 +852,7 @@ export const EN_B2_U26_EXTRA: Lesson[] = [
     level: "EN-B2",
     number: 5,
     title: "Extra Practice: Everyday Idioms",
-    summary: "Drill common B2 idioms and their Spanish equivalents: \"a piece of cake\", \"break the ice\", \"under the weather\", \"once in a blue moon\", \"cost an arm and a leg\", \"sleep on it\" and \"rain cats and dogs\". Don't translate Spanish idioms word for word.",
+    summary: "Drill common Upper Intermediate idioms and their Spanish equivalents: \"a piece of cake\", \"break the ice\", \"under the weather\", \"once in a blue moon\", \"cost an arm and a leg\", \"sleep on it\" and \"rain cats and dogs\". Don't translate Spanish idioms word for word.",
     duration: "10 min",
     sections: [
       {

@@ -17,7 +17,7 @@ export const EN_B2_U01: Lesson[] = [
         body: [
           "A good story in English has three layers. The past simple moves the story forward: \"I opened the door\". The past continuous paints the background, what was in progress at that moment: \"It was raining\". The past perfect jumps back to something that happened earlier: \"Someone had left the window open\".",
           "Think of a film. The past simple is the action, the past continuous is the scenery, and the past perfect is a flashback. You can use all three in one sentence: \"It was raining when I got home, and someone had left the window open\".",
-          "You already know these forms from B1. At B2 the challenge is to choose between them quickly and naturally, especially when Spanish gives you a different signal.",
+          "You already know these forms from the Independence level. At the Upper Intermediate level the challenge is to choose between them quickly and naturally, especially when Spanish gives you a different signal.",
         ],
         examples: [
           { es: "It was raining when I got home.", en: "Llovía cuando llegué a casa." },
@@ -821,7 +821,7 @@ export const EN_B2_U01: Lesson[] = [
       {
         heading: "Error 2: state verbs with -ing",
         body: [
-          "*I was knowing him for years and *We had been knowing each other are two of the most common errors at B2. \"Know\" is a state verb, so it has no continuous form in any tense: \"I had known him for years\".",
+          "*I was knowing him for years and *We had been knowing each other are two of the most common errors at the Upper Intermediate level. \"Know\" is a state verb, so it has no continuous form in any tense: \"I had known him for years\".",
           "Other state verbs that work the same way: \"believe\", \"understand\", \"own\", \"belong\", \"need\", \"prefer\", \"mean\", \"remember\", \"seem\" and \"have\" meaning possess. They describe how things are, not something happening.",
           "Spanish says «no lo sabía» (imperfect) or «llevaba años conociéndolo», but English uses the simple form: \"I didn't know\", \"I had known him for years\".",
         ],
@@ -1958,15 +1958,15 @@ export const EN_B2_U01: Lesson[] = [
     slug: "b2-narrative-spiral-b1",
     level: "EN-B2",
     number: 9,
-    title: "Spiral Review: B1 Pasts",
-    summary: "Fix for good the B1 past errors that still appear at B2: I have seen him yesterday, since three years, I use to, and the past perfect after when.",
+    title: "Spiral Review: Independence Pasts",
+    summary: "Fix for good the Independence past errors that still appear at the Upper Intermediate level: I have seen him yesterday, since three years, I use to, and the past perfect after when.",
     duration: "11 min",
     sections: [
       {
         heading: "Present perfect or past simple?",
         body: [
           "Use the past simple for finished time: \"yesterday\", \"last week\", \"in 2019\", \"two days ago\", \"when I was a child\". Use the present perfect for time up to now or when no time is given: \"I've seen that film\", \"She's lived here since May\".",
-          "*I have seen him yesterday is still one of the most frequent errors at B2, especially for speakers from Spain, where «lo he visto esta mañana» is normal. In English, a finished time word forces the past simple: \"I saw him yesterday\".",
+          "*I have seen him yesterday is still one of the most frequent errors at the Upper Intermediate level, especially for speakers from Spain, where «lo he visto esta mañana» is normal. In English, a finished time word forces the past simple: \"I saw him yesterday\".",
           "Questions with \"when\" ask for a finished moment, so they always take the past simple: \"When did you arrive?\", not *When have you arrived?",
         ],
         examples: [
@@ -2000,7 +2000,7 @@ export const EN_B2_U01: Lesson[] = [
         body: [
           "Spanish uses «hace» for three different English structures. «Hace tres años» (a point in the past) is \"three years ago\" with the past simple: \"I moved here three years ago\".",
           "«Hace tres años que vivo aquí» or «vivo aquí desde hace tres años» (duration up to now) is \"I've lived here for three years\". Never *since three years: \"since\" goes with a starting point (\"since 2021\", \"since May\"), and \"for\" with a period (\"for three years\").",
-          "And in a past story, «hacía tres años que vivía allí» becomes \"I had lived there for three years\" or \"I had been living there for three years\". That's the bridge to B2.",
+          "And in a past story, «hacía tres años que vivía allí» becomes \"I had lived there for three years\" or \"I had been living there for three years\". That's the bridge to the Upper Intermediate level.",
         ],
         examples: [
           { es: "I moved here three years ago.", en: "Me mudé aquí hace tres años." },
@@ -2062,9 +2062,9 @@ export const EN_B2_U01: Lesson[] = [
         ],
       },
       {
-        heading: "Toward B2: the perfect aspect",
+        heading: "Toward the Upper Intermediate level: the perfect aspect",
         body: [
-          "All the perfect tenses share one idea: they connect an earlier event or period to a later point. The present perfect connects to now; the past perfect connects to a past moment. Later in B2 you will add the future perfect, which connects to a point in the future.",
+          "All the perfect tenses share one idea: they connect an earlier event or period to a later point. The present perfect connects to now; the past perfect connects to a past moment. Later in the Upper Intermediate level you will add the future perfect, which connects to a point in the future.",
           "So \"I've finished\" (before now), \"I had finished\" (before then, in the past) and \"I'll have finished\" (before a future point) are the same idea on three timelines.",
         ],
         examples: [
@@ -2301,7 +2301,7 @@ export const EN_B2_U01: Lesson[] = [
         body: [
           "\"I went inside. The room was full of old books and the air smelled of smoke. Someone had been living there. Eventually, I heard my cousins calling my name, so I ran back.\"",
           "\"When I came back with them an hour later, the door had disappeared. We never found it again, and in the end we decided I had been dreaming.\"",
-          "Look at the whole chain: habits (\"used to\", \"would\"), background (past continuous), events (past simple), flashbacks (past perfect) and traces (past perfect continuous). That's the full B2 narrative system.",
+          "Look at the whole chain: habits (\"used to\", \"would\"), background (past continuous), events (past simple), flashbacks (past perfect) and traces (past perfect continuous). That's the full Upper Intermediate narrative system.",
         ],
         examples: [
           { es: "Someone had been living there.", en: "Alguien había estado viviendo allí." },

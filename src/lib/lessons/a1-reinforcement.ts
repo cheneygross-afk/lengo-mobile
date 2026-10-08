@@ -2827,7 +2827,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     "vocabulary-practice-4",
     "a1r-word-web-family-people",
     "Word Web: Family & People",
-    "Sort, connect and use A1's people words — family members, relationships and the people around you.",
+    "Sort, connect and use Beginner's people words — family members, relationships and the people around you.",
     "7 min",
     [
       sec(
@@ -2888,7 +2888,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     "vocabulary-practice-4",
     "a1r-word-web-jobs",
     "Word Web: Jobs & Workplaces",
-    "Who works where? Connect A1's job words to their workplaces and describe what people do.",
+    "Who works where? Connect Beginner's job words to their workplaces and describe what people do.",
     "7 min",
     [
       sec(
@@ -2989,7 +2989,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
           ["el estante", "the shelf"],
           ["la alfombra", "the rug"],
         ],
-        "Techo, pared, estante, alfombra — all from the A1 home vocabulary."
+        "Techo, pared, estante, alfombra — all from the Beginner home vocabulary."
       ),
       fb("Complete the sentence.", "Cocino en la ___.", "cocina", "Cocinar (to cook) → la cocina (the kitchen)."),
       fb("Complete the sentence.", "Los libros están en el ___.", "estante", "Books go on a shelf → el estante."),
@@ -3002,7 +3002,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     "vocabulary-practice-4",
     "a1r-word-web-food",
     "Word Web: Food & Drink",
-    "Order, compare and sort A1's food words — breakfast, lunch, dinner and dessert.",
+    "Order, compare and sort Beginner's food words — breakfast, lunch, dinner and dessert.",
     "7 min",
     [
       sec(
@@ -3043,7 +3043,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
           ["la sopa", "the soup"],
           ["el postre", "the dessert"],
         ],
-        "All from the A1 food vocabulary."
+        "All from the Beginner food vocabulary."
       ),
       fb("Complete with gusta or gustan.", "Me ___ mucho los huevos.", "gustan", "Gustar agrees with the thing liked: los huevos is plural, so gustan."),
       mc(
@@ -3121,7 +3121,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     "vocabulary-practice-4",
     "a1r-word-web-feelings",
     "Word Web: Feelings & States",
-    "Opposites, causes and reactions — use A1's feeling words with estar in real situations.",
+    "Opposites, causes and reactions — use Beginner's feeling words with estar in real situations.",
     "7 min",
     [
       sec(
@@ -3179,13 +3179,13 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a1-final-review-3",
     "a1r-challenge-mixed-error-hunt",
-    "A1 Challenge: The Big Error Hunt",
-    "The final A1 challenge series begins: one mistake per sentence, drawn from every A1 topic. Can you catch them all?",
+    "Beginner Challenge: The Big Error Hunt",
+    "The final Beginner challenge series begins: one mistake per sentence, drawn from every Beginner topic. Can you catch them all?",
     "9 min",
     [
       sec(
         "Your checklist",
-        "For every sentence, run the full A1 checklist: verb form · ser vs. estar · articles and agreement · gustar agreement · contractions · question-word accents.",
+        "For every sentence, run the full Beginner checklist: verb form · ser vs. estar · articles and agreement · gustar agreement · contractions · question-word accents.",
         [
           ["✗ Nosotros somos cansados. → ✓ Nosotros estamos cansados.", "We are tired."],
           ["✗ Me gusta los libros. → ✓ Me gustan los libros.", "I like books."],
@@ -3230,7 +3230,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a1-final-review-3",
     "a1r-challenge-dialogue-marathon",
-    "A1 Challenge: Dialogue Marathon",
+    "Beginner Challenge: Dialogue Marathon",
     "Four short conversations in a row — meeting, planning, shopping and saying goodbye. Keep up with each one.",
     "9 min",
     [
@@ -3301,8 +3301,8 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a1-final-review-3",
     "a1r-challenge-translation-relay",
-    "A1 Challenge: Translation Relay",
-    "Translate in both directions, one topic after another — a fast relay through all of A1.",
+    "Beginner Challenge: Translation Relay",
+    "Translate in both directions, one topic after another — a fast relay through all of the Beginner level.",
     "9 min",
     [
       sec(
@@ -3341,13 +3341,13 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a1-final-review-3",
     "a1r-challenge-build-a-sentence",
-    "A1 Challenge: Build-a-Sentence",
+    "Beginner Challenge: Build-a-Sentence",
     "Long sentences, built from the pieces you know. Put every word in its place.",
     "8 min",
     [
       sec(
         "Sentence architecture",
-        "A1 sentences follow a reliable blueprint: (time) + subject + verb + object/complement + (place) + (reason). Build from the verb outward.",
+        "Beginner sentences follow a reliable blueprint: (time) + subject + verb + object/complement + (place) + (reason). Build from the verb outward.",
         [
           ["Los sábados mi familia come en casa de mis abuelos.", "On Saturdays my family eats at my grandparents' house."],
           ["Hoy no voy a la escuela porque estoy enfermo.", "Today I'm not going to school because I'm sick."],
@@ -3375,7 +3375,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a1-final-review-3",
     "a1r-challenge-day-in-madrid-morning",
-    "A1 Challenge: A Day in Madrid — Morning",
+    "Beginner Challenge: A Day in Madrid — Morning",
     "Follow a tourist through a morning in Madrid: breakfast, directions, and a museum visit.",
     "8 min",
     [
@@ -3445,7 +3445,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a1-final-review-3",
     "a1r-challenge-day-in-madrid-evening",
-    "A1 Challenge: A Day in Madrid — Evening",
+    "Beginner Challenge: A Day in Madrid — Evening",
     "Emma's day continues: lunch with a new friend, shopping, and plans for the night.",
     "8 min",
     [
@@ -3510,13 +3510,13 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a1-final-review-3",
     "a1r-challenge-your-introduction",
-    "A1 Challenge: Write Your Introduction",
+    "Beginner Challenge: Write Your Introduction",
     "Assemble a complete self-introduction, line by line — the kind of paragraph you'll write for a language exchange profile.",
     "8 min",
     [
       sec(
         "The model profile",
-        "Read the model. It uses nearly every A1 topic in eight lines.",
+        "Read the model. It uses nearly every Beginner topic in eight lines.",
         [
           ["Me llamo Sam y tengo treinta años.", "My name is Sam and I'm thirty."],
           ["Soy de Toronto, pero ahora vivo en Chicago.", "I'm from Toronto, but now I live in Chicago."],
@@ -3568,13 +3568,13 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a1-final-review-3",
     "a1r-exit-ticket",
-    "A1 Exit Ticket: Ready for A2?",
-    "The last A1 lesson: a short, no-hints test of the ten skills A2 will assume you have.",
+    "Beginner Exit Ticket: Ready for the Elementary level?",
+    "The last Beginner lesson: a short, no-hints test of the ten skills Elementary will assume you have.",
     "9 min",
     [
       sec(
         "The ten skills",
-        "A2 builds on these directly: (1) ser (2) estar (3) regular present tense (4) irregular tener/ir/hacer (5) agreement (6) possessives (7) questions (8) gustar (9) numbers and time (10) hay and demonstratives. Each question below tests one.",
+        "Elementary builds on these directly: (1) ser (2) estar (3) regular present tense (4) irregular tener/ir/hacer (5) agreement (6) possessives (7) questions (8) gustar (9) numbers and time (10) hay and demonstratives. Each question below tests one.",
         [
           ["¡Tú puedes!", "You can do it!"],
         ],

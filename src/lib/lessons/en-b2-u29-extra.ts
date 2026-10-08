@@ -17,7 +17,7 @@ export const EN_B2_U29_EXTRA: Lesson[] = [
     level: "EN-B2",
     number: 1,
     title: "Extra Practice: Key Word Transformations",
-    summary: "More key word transformations across the B2 grammar: passives, reported speech, conditionals, \"wish\", cleft sentences and \"used to\". Rewrite with the key word in 2-5 words, then translate.",
+    summary: "More key word transformations across the Upper Intermediate grammar: passives, reported speech, conditionals, \"wish\", cleft sentences and \"used to\". Rewrite with the key word in 2-5 words, then translate.",
     duration: "12 min",
     sections: [
       {

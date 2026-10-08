@@ -437,7 +437,7 @@ export const EN_C1_U12: Lesson[] = [
       {
         heading: "Slang: understand more than you use",
         body: [
-          "At C1 you should understand a lot of slang, but use it carefully. Slang marks group membership: it can sound great from a native speaker of your age and odd, or even comic, from a learner. Words like \"cool\", \"awesome\" and \"no worries\" are safe; very new or very local slang is risky.",
+          "At the Advanced level you should understand a lot of slang, but use it carefully. Slang marks group membership: it can sound great from a native speaker of your age and odd, or even comic, from a learner. Words like \"cool\", \"awesome\" and \"no worries\" are safe; very new or very local slang is risky.",
           "Spoken forms like \"gonna\", \"wanna\" and \"gotta\" are normal in speech and casual texts, but never in an email to someone you do not know well. The same goes for \"yeah\", \"nope\" and \"kinda\".",
           "Some slang is regional. \"Mate\" and \"cheers\" (meaning thanks) sound British or Australian; \"dude\" and \"you guys\" sound American. Choose one variety and be consistent.",
         ],
@@ -2440,8 +2440,7 @@ export const EN_C1_U12: Lesson[] = [
             answer: "Where did you buy that coat?",
             altAnswers: [
               "Where did you get that coat?",
-              "Where have you bought that coat?",
-              "Where'd you get that coat?",
+                            "Where'd you get that coat?",
               "Where did you get that coat from?",
               "Where'd you buy that coat?",
             ],
@@ -2524,7 +2523,7 @@ export const EN_C1_U12: Lesson[] = [
       {
         heading: "Choosing by register, not by meaning",
         body: [
-          "The pairs have the same meaning, so the choice is purely about register. A strong C1 writer adjusts: \"The company intends to purchase new premises\" in a report, \"They're buying a new office\" in conversation.",
+          "The pairs have the same meaning, so the choice is purely about register. A strong Advanced writer adjusts: \"The company intends to purchase new premises\" in a report, \"They're buying a new office\" in conversation.",
           "Phrasal verbs are not always informal. \"Carry out\" (research, a survey), \"set up\" (a company), \"bring about\" (change) and \"point out\" are fine in formal writing. The truly informal ones are those with a strong colloquial colour: \"put up with\", \"sort out\", \"come up with\" in some contexts, \"mess up\".",
           "So the goal is not to avoid phrasal verbs in formal writing, but to avoid the very colloquial ones, and to avoid stacking Latinate words in speech.",
         ],
@@ -3031,7 +3030,7 @@ export const EN_C1_U12: Lesson[] = [
               "Your refund may possibly be considered at some point.",
             ],
             correctIndex: 0,
-            explanation: "\"Probably\" becomes \"is likely to\": same degree of certainty. Option 2 promises too much, and option 4 promises much less.",
+            explanation: "\"Probably\" becomes \"is likely to\": same degree of certainty. \"Will be processed\" promises too much, and \"may possibly be considered\" promises much less.",
           },
         ],
       },
@@ -3443,7 +3442,7 @@ export const EN_C1_U12: Lesson[] = [
         body: [
           "Informal, to a friend: \"So my boss goes, You need to work Saturday. And I'm like, No way, it's my sister's wedding! And he was all, Fine, fine.\" In speech, the voice marks where each quote begins.",
           "Formal, in an email to HR: \"My manager asked me to work on Saturday. I explained that I was unable to, as I was attending my sister's wedding, and he agreed.\" The quotatives become reporting verbs (\"asked\", \"explained\", \"agreed\"), and the tenses backshift.",
-          "This is a typical C1 task: retelling the same exchange for a different audience. Choose the reporting verb that captures the speech act (asking, refusing, agreeing, warning) rather than repeating \"said\".",
+          "This is a typical Advanced task: retelling the same exchange for a different audience. Choose the reporting verb that captures the speech act (asking, refusing, agreeing, warning) rather than repeating \"said\".",
         ],
         examples: [
           { es: "My manager asked me to work on Saturday.", en: "Mi jefe me pidió que trabajara el sábado." },
@@ -3648,7 +3647,7 @@ export const EN_C1_U12: Lesson[] = [
     level: "EN-C1",
     number: 13,
     title: "Word Web: Social Issues",
-    summary: "Inequality, the poverty line, homelessness, discrimination, welfare, gentrification and affordable housing: the C1 vocabulary and collocations for debating social issues in the right register.",
+    summary: "Inequality, the poverty line, homelessness, discrimination, welfare, gentrification and affordable housing: the Advanced vocabulary and collocations for debating social issues in the right register.",
     duration: "12 min",
     sections: [
       {

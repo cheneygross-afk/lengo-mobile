@@ -110,7 +110,7 @@ export const A1_CORE: AnchoredLesson[] = [
         "Morning phrases",
         [
           "For your daily routine, Spanish uses verbs with me in front: me despierto (I wake up), me levanto (I get up), me ducho (I shower), me visto (I get dressed). The me shows you do it to yourself.",
-          "For now, learn them as phrases for yo. You'll see the full pattern (te levantas, se levanta) in A2.",
+          "For now, learn them as phrases for yo. You'll see the full pattern (te levantas, se levanta) in the Elementary level.",
         ],
         [
           ["Me despierto a las seis y media.", "I wake up at six thirty."],

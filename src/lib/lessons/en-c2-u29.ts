@@ -17,7 +17,7 @@ export const EN_C2_U29: Lesson[] = [
         heading: "Being torn: when you want two things at once",
         body: [
           "Spanish tends to describe indecision with one all-purpose phrase, «no sé qué hacer» or «estoy dividido». English has a whole set of fixed expressions, each with its own grammar: \"I'm torn between A and B\", \"I'm of two minds about it\" (American; British English says \"in two minds\"), \"I have mixed feelings about it\" and \"I'm on the fence\".",
-          "\"Ambivalent\" is a false friend in disguise. In everyday Spanish «ambivalente» often just means «que tiene dos usos»; in English \"ambivalent\" means having two opposing feelings at the same time. It does NOT mean indifferent: if you don't care, you are \"indifferent\" or you \"couldn't care less\".",
+          "\"Ambivalent\" is a false friend in disguise. Spanish «ambivalente» can also mean «que tiene dos usos o valores»; in English \"ambivalent\" means having two opposing feelings at the same time. It does NOT mean indifferent: if you don't care, you are \"indifferent\" or you \"couldn't care less\".",
           "Watch the prepositions: torn BETWEEN two options, of two minds ABOUT something, mixed feelings ABOUT something, ambivalent ABOUT or TOWARD something, on the fence ABOUT something.",
         ],
         examples: [
@@ -62,7 +62,7 @@ export const EN_C2_U29: Lesson[] = [
         body: [
           "Some moments are happy and sad at once: a graduation, a farewell party, the last day of a holiday. English calls these \"bittersweet\". You can also name the mixture directly: \"a mixture of relief and guilt\", \"pride tinged with sadness\", \"joy laced with regret\".",
           "To split yourself in two, English uses \"part of me\": \"Part of me wants to stay, but another part of me knows I have to go.\" Spanish «por una parte... por otra» works for arguments, but for feelings \"part of me... (and) part of me\" sounds far more natural.",
-          "\"Tinged with\" (teñido de) is the C2 way to say that one feeling has a little of another inside it: \"Her joy was tinged with sadness.\"",
+          "\"Tinged with\" (teñido de) is the Mastery way to say that one feeling has a little of another inside it: \"Her joy was tinged with sadness.\"",
         ],
         examples: [
           { es: "It was a bittersweet moment for all of us.", en: "Fue un momento agridulce para todos." },
@@ -283,7 +283,7 @@ export const EN_C2_U29: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Es un caso clásico de disonancia cognitiva: le preocupa el clima, pero coge un avión cada fin de semana.",
+        source: "Es un caso clásico de disonancia cognitiva: le preocupa el clima, pero toma un avión cada fin de semana.",
         answer: "It's a classic case of cognitive dissonance: she worries about the climate, but she flies every weekend.",
         altAnswers: [
           "It's a classic case of cognitive dissonance: he worries about the climate, but he flies every weekend.",
@@ -366,7 +366,7 @@ export const EN_C2_U29: Lesson[] = [
       {
         heading: "Highs: elated and smug",
         body: [
-          "\"Elated\" is much stronger than \"happy\": a sudden, intense joy, usually after good news or success. \"I was elated when I got the results\" sounds far more C2 than \"I was very happy\".",
+          "\"Elated\" is much stronger than \"happy\": a sudden, intense joy, usually after good news or success. \"I was elated when I got the results\" sounds far more Mastery than \"I was very happy\".",
           "\"Smug\" is negative: pleased with yourself in an irritating way. A \"smug smile\" or \"smug look\" makes other people want to slap it off your face. Compare \"proud\", which is neutral or positive.",
           "\"Gloat\" is the verb for showing smug pleasure at your own success or at someone else's failure: \"Stop gloating!\". Spanish speakers might think of «regodearse».",
         ],
@@ -993,7 +993,7 @@ export const EN_C2_U29: Lesson[] = [
       {
         heading: "Families and intensity",
         body: [
-          "An emotion wheel groups feelings into a few core families (joy, sadness, anger, fear, surprise, disgust) and then grades each family from mild to intense. Choosing the right point on the scale is what makes C2 English sound precise.",
+          "An emotion wheel groups feelings into a few core families (joy, sadness, anger, fear, surprise, disgust) and then grades each family from mild to intense. Choosing the right point on the scale is what makes Mastery English sound precise.",
           "Anger: irritated, annoyed, exasperated, furious, livid, seething. Fear: uneasy, apprehensive, anxious, frightened, terrified, petrified. Joy: content, pleased, delighted, elated, overjoyed, ecstatic. Sadness: down, low, gloomy, dejected, miserable, devastated, heartbroken.",
           "Strong adjectives (livid, petrified, ecstatic, devastated) are \"extreme\" adjectives: they take \"absolutely\" or \"utterly\", not \"very\". Say \"absolutely livid\", not *very livid; but \"very annoyed\", not *absolutely annoyed.",
         ],
@@ -1048,7 +1048,7 @@ export const EN_C2_U29: Lesson[] = [
         ],
         examples: [
           { es: "She's resentful of her sister's success.", en: "Le guarda rencor al éxito de su hermana." },
-          { es: "I'm a bit apprehensive about the operation.", en: "La operación me da un poco de aprensión." },
+          { es: "I'm a bit apprehensive about the operation.", en: "La operación me inquieta un poco." },
           { es: "I'm fed up with the noise from upstairs.", en: "Estoy harto del ruido de los de arriba." },
           { es: "He's not very keen on spicy food.", en: "No le entusiasma mucho la comida picante." },
           { es: "We're very proud of you.", en: "Estamos muy orgullosos de ti." },
@@ -1088,7 +1088,7 @@ export const EN_C2_U29: Lesson[] = [
       {
         heading: "Noun, verb and adjective families",
         body: [
-          "C2 speakers move freely between word classes: \"resent\" (verb), \"resentment\" (noun), \"resentful\" (adjective); \"dread\" / \"dread\" / \"dreadful\"; \"exasperate\" / \"exasperation\" / \"exasperated\"; \"elate\" is rare, but \"elation\" and \"elated\" are common.",
+          "Mastery speakers move freely between word classes: \"resent\" (verb), \"resentment\" (noun), \"resentful\" (adjective); \"dread\" / \"dread\" / \"dreadful\"; \"exasperate\" / \"exasperation\" / \"exasperated\"; \"elate\" is rare, but \"elation\" and \"elated\" are common.",
           "\"Resent\" is a false friend of «resentirse» (to be weakened or to hurt): \"I resent that comment\" means «me molesta ese comentario, me ofende», and it is followed by a noun or -ing: \"She resents having to work weekends.\"",
           "\"Dread\" is deep fear about something that is coming: \"I dread Mondays\", \"I'm dreading the exam\", \"a sense of dread\".",
         ],
@@ -2068,7 +2068,7 @@ export const EN_C2_U29: Lesson[] = [
     slug: "c2-vocab-describing-people",
     level: "EN-C2",
     number: 8,
-    title: "C2 vocabulary: describing character and manner",
+    title: "Mastery vocabulary: describing character and manner",
     summary: "Paint precise portraits of people: aloof, gregarious, meticulous, abrasive, unassuming, self-effacing, and the verbs of manner (mutter, glare, shrug, fidget) that show character instead of naming it.",
     duration: "12 min",
     sections: [
@@ -2108,7 +2108,7 @@ export const EN_C2_U29: Lesson[] = [
               "He seems distant, but deep down he's very loving.",
               "She seems distant, but deep down she's very loving.",
             ],
-            explanation: "«Distante» = \"aloof\" or \"distant\"; «en el fondo» = \"deep down\". \"Come across as\" is a great C2 verb for first impressions.",
+            explanation: "«Distante» = \"aloof\" or \"distant\"; «en el fondo» = \"deep down\". \"Come across as\" is a great Mastery verb for first impressions.",
           },
         ],
       },
@@ -2236,7 +2236,7 @@ export const EN_C2_U29: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "When I asked about the money, he just ___ at me without saying a word.",
         answer: "glared",
-        altAnswers: ["stared"],
+        altAnswers: ["glowered", "scowled"],
         en: "Cuando le pregunté por el dinero, me [fulminó con la mirada] sin decir una palabra.",
         explanation: "\"Glare at\" = look at someone angrily. \"Stare\" is a fixed look, not necessarily angry.",
       },

@@ -274,7 +274,7 @@ export const EN_C2_U19_EXTRA: Lesson[] = [
           { left: "No sooner had we left", right: "than it started to rain." },
           { left: "Hardly had we left", right: "when it started to rain." },
           { left: "Not until we left", right: "did it start to rain." },
-          { left: "Only after we had left", right: "did it start to rain heavily." },
+          { left: "Not only did it rain,", right: "but it also hailed." },
           { left: "Little did we know", right: "that it would rain all week." },
         ],
         explanation: "\"No sooner\" pairs with \"than\", \"hardly\" with \"when\"; \"not until\" and \"only after\" put the inversion in the main clause.",

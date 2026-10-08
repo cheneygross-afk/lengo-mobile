@@ -1372,7 +1372,7 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
           { left: "suggest", right: "suggest doing something" },
           { left: "explain", right: "explain something to someone" },
         ],
-        explanation: "Each verb has its own pattern. \"Suggest\", \"recommend\" and \"explain\" never take a direct personal object.",
+        explanation: "Each verb has its own pattern. \"Suggest\", \"recommend\" and \"explain\" never take the person as an indirect object without \"to\" (*suggest me, *explain me).",
       },
       {
         type: "fill-blank",

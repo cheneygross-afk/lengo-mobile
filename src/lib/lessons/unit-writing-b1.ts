@@ -215,7 +215,7 @@ export const B1_UNIT_WRITING: Record<string, WriteExercise> = {
     "Antes (vivía, estaba), el cambio (decidí, me mudé), desde entonces (he abierto) y el futuro (espero que siga, ojalá no tenga)."
   ),
   "b1r-challenge-subjunctive-gauntlet": t(
-    "Escribe una carta a un estudiante que va a empezar el nivel B1. Cuéntale qué te ha costado más, qué te ha ayudado y dale consejos con subjuntivo y mandatos.",
+    "Escribe una carta a un estudiante que va a empezar el nivel Intermedio. Cuéntale qué te ha costado más, qué te ha ayudado y dale consejos con subjuntivo y mandatos.",
     ["Pretérito perfecto para tu experiencia", "Consejos con subjuntivo (te recomiendo que, es importante que)", "Mandatos de tú afirmativos y negativos", "Una frase con si + presente"],
     "Querido Sam: Este año he aprendido muchísimo, pero lo que más me ha costado es el subjuntivo. Me ha ayudado mucho leer cuentos y escuchar pódcast. Te recomiendo que hagas un poco cada día y que no tengas miedo a equivocarte. Es importante que hables con nativos. Si no entiendes algo, pregunta. Y no te rindas: ¡al final todo tiene sentido! Un abrazo, Lena",
     "Te recomiendo que / es importante que + subjuntivo (hagas, hables), mandatos de tú (pregunta, no te rindas) y si + presente."

@@ -255,7 +255,7 @@ export const EN_C2_U12: Lesson[] = [
           { left: "leaf through", right: "hojear" },
           { left: "browse", right: "curiosear sin un fin concreto" },
         ],
-        explanation: "The five verbs describe different speeds and purposes of reading. Choosing the right one is as much a C2 skill as the reading itself.",
+        explanation: "The five verbs describe different speeds and purposes of reading. Choosing the right one is as much a Mastery skill as the reading itself.",
       },
       {
         type: "translate",
@@ -347,7 +347,7 @@ export const EN_C2_U12: Lesson[] = [
       {
         heading: "Facts, opinions and opinions dressed as facts",
         body: [
-          "A fact can, at least in principle, be checked: \"The bridge opened in 1932.\" An opinion is a judgement: \"The bridge is an eyesore.\" The hard part at C2 is the ground between them: opinions phrased as facts (\"This is a disastrous policy\"), facts chosen to support an opinion, and claims that sound verifiable but are not (\"Experts agree that...\").",
+          "A fact can, at least in principle, be checked: \"The bridge opened in 1932.\" An opinion is a judgement: \"The bridge is an eyesore.\" The hard part at the Mastery level is the ground between them: opinions phrased as facts (\"This is a disastrous policy\"), facts chosen to support an opinion, and claims that sound verifiable but are not (\"Experts agree that...\").",
           "Opinion leaves fingerprints: evaluative adjectives and adverbs (\"misguided\", \"admirably\", \"woefully\"), modals of obligation (\"should\", \"ought to\"), comparatives with no standard (\"fairer\", \"better\"), and sentence adverbs such as \"regrettably\", \"tellingly\" and \"predictably\", which judge the whole sentence.",
           "Careful with \"evidently\". In English it usually means «por lo visto» or «al parecer», a conclusion drawn from evidence, so \"Evidently, he had left\" means «Por lo visto, se había ido». For «evidentemente» in the sense of «claro», say \"obviously\" or \"clearly\".",
         ],
@@ -489,7 +489,7 @@ export const EN_C2_U12: Lesson[] = [
       {
         heading: "Naming the tone precisely",
         body: [
-          "At C2 you are expected to describe tone with exact words, not just \"positive\" or \"negative\". \"Wry\" is dry, gently mocking humour («socarrón»). \"Sardonic\" is mocking and cynical. \"Scathing\", \"withering\" and \"caustic\" describe fierce criticism («demoledor», «mordaz»). \"Even-handed\" and \"balanced\" mean fair to all sides («ecuánime»); \"measured\" means calm and careful.",
+          "At the Mastery level you are expected to describe tone with exact words, not just \"positive\" or \"negative\". \"Wry\" is dry, gently mocking humour («socarrón»). \"Sardonic\" is mocking and cynical. \"Scathing\", \"withering\" and \"caustic\" describe fierce criticism («demoledor», «mordaz»). \"Even-handed\" and \"balanced\" mean fair to all sides («ecuánime»); \"measured\" means calm and careful.",
           "Other useful words: \"strident\" (loud and aggressive), \"wistful\" (sadly nostalgic, «melancólico»), \"tongue-in-cheek\" (not meant seriously), \"deadpan\" (joking with a completely serious face), \"dismissive\" (treating something as unworthy of attention), \"grudging\" (given unwillingly: grudging praise).",
           "Avoid using \"ironic\" for every kind of humour, and remember that \"sensible\" means «sensato»: a sensible review is a reasonable one, not a «sensible» (sensitive) one.",
         ],
@@ -1877,13 +1877,13 @@ export const EN_C2_U12: Lesson[] = [
     level: "EN-C2",
     number: 7,
     title: "Summary writing: condensing two texts",
-    summary: "The C2 summary task: find the key points in two texts, merge them, paraphrase instead of copying, cut the examples, stay inside the word limit, and keep your own opinion out, all while linking the ideas into one cohesive paragraph.",
+    summary: "The Mastery summary task: find the key points in two texts, merge them, paraphrase instead of copying, cut the examples, stay inside the word limit, and keep your own opinion out, all while linking the ideas into one cohesive paragraph.",
     duration: "12 min",
     sections: [
       {
-        heading: "The task: what a C2 summary asks for",
+        heading: "The task: what a Mastery summary asks for",
         body: [
-          "In the C2 summary task you read two short texts on the same topic and write one paragraph (often 60 to 80 words, sometimes up to 120) that gives the main ideas of both. The examiner checks four things: the right points, your own words, cohesion, and the word limit.",
+          "In the Mastery summary task you read two short texts on the same topic and write one paragraph (often 60 to 80 words, sometimes up to 120) that gives the main ideas of both. The examiner checks four things: the right points, your own words, cohesion, and the word limit.",
           "Three habits cost Spanish-speaking candidates most marks. First, copying whole chunks of the original (the «copiar y pegar» summary). Second, adding an opinion, as if it were an essay («en mi opinión...»). Third, listing the points one by one without linking them, so the paragraph reads like notes.",
           "A summary is neutral and impersonal. You report what the writers say (\"The first writer argues that...\", \"Both texts suggest...\"), never what you think about it.",
         ],
@@ -2012,7 +2012,7 @@ export const EN_C2_U12: Lesson[] = [
         body: [
           "Summary 1: \"Text A says tourism keeps the historic centre's shops and restaurants alive, as a cafe owner explains. But holiday flats have pushed rents beyond what local families can pay. Text B says cities can use taxes, like Venice. I think this is the best solution.\"",
           "Summary 2: \"Both writers recognize that tourism sustains local businesses, yet the first warns that the spread of holiday rentals has made housing unaffordable for residents. The second argues that taxes and limits on lets can keep visitor numbers in check, although it concedes that strict caps could hurt the very businesses tourism supports.\"",
-          "Summary 1 copies a whole phrase, keeps an example, adds an opinion and treats the texts separately. Summary 2 merges, paraphrases, cuts the examples and links the ideas with \"yet\", \"although\" and \"the very businesses\", a phrase that ties the end back to the beginning. That is what C2 cohesion looks like.",
+          "Summary 1 copies a whole phrase, keeps an example, adds an opinion and treats the texts separately. Summary 2 merges, paraphrases, cuts the examples and links the ideas with \"yet\", \"although\" and \"the very businesses\", a phrase that ties the end back to the beginning. That is what Mastery cohesion looks like.",
         ],
         examples: [
           { es: "yet the first warns that...", en: "sin embargo, el primero advierte que..." },
@@ -2204,7 +2204,7 @@ export const EN_C2_U12: Lesson[] = [
     slug: "c2-vocab-headline-language",
     level: "EN-C2",
     number: 7,
-    title: "C2 vocabulary: the language of headlines",
+    title: "Mastery vocabulary: the language of headlines",
     summary: "Headlinese: short, punchy verbs (axe, probe, slam, vow, bid, quit), dropped articles and auxiliaries, the present simple for past events, the infinitive for the future, noun stacks, and how to rewrite a headline as a full sentence.",
     duration: "12 min",
     sections: [

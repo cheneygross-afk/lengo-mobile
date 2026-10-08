@@ -277,7 +277,7 @@ export const EN_A2_U12: Lesson[] = [
       {
         heading: "Enjoy + -ing (como like, love y hate)",
         body: [
-          "En A1 viste que después de \"like\", \"love\" y \"hate\" el verbo puede ir con \"-ing\": \"I love cooking\". \"Enjoy\" («disfrutar») funciona igual, pero solo admite \"-ing\": \"I enjoy dancing\". *I enjoy to dance es uno de los errores más comunes.",
+          "En el nivel Fundamentos viste que después de \"like\", \"love\" y \"hate\" el verbo puede ir con \"-ing\": \"I love cooking\". \"Enjoy\" («disfrutar») funciona igual, pero solo admite \"-ing\": \"I enjoy dancing\". *I enjoy to dance es uno de los errores más comunes.",
           "Con \"like\", \"love\" y \"hate\" el inglés americano también acepta \"to\": \"I like to dance\". Con \"enjoy\", nunca.",
           "Aquí el \"-ing\" no equivale a «-ando» o «-iendo»: funciona como un sustantivo, como si dijeras «disfruto el baile». Por eso el español usa infinitivo y el inglés usa \"-ing\".",
         ],

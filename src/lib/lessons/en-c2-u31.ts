@@ -732,7 +732,7 @@ export const EN_C2_U31: Lesson[] = [
         heading: "Inflation and interest rates",
         body: [
           "\"Inflation\" is uncountable and takes no article in general statements: \"Inflation rose to 4% in May\", \"Inflation is running at 3%\". Headlines say it \"hits\", \"peaks at\", \"eases\" or \"cools\". «El IPC» is the \"CPI\" (consumer price index), and «inflación subyacente» is \"core inflation\", which excludes food and energy.",
-          "\"Deflation\" means prices are actually falling. \"Disinflation\" means inflation is falling but still positive: prices are rising more slowly. Journalists often confuse the two; at C2 you should not.",
+          "\"Deflation\" means prices are actually falling. \"Disinflation\" means inflation is falling but still positive: prices are rising more slowly. Journalists often confuse the two; at the Mastery level you should not.",
           "«Tipos de interés» is \"interest rates\" (never *interest types). A central bank \"raises\" (informally \"hikes\"), \"cuts\" or \"holds\" rates; it \"keeps rates on hold\" or \"leaves rates unchanged\". Small moves are measured in \"basis points\": a quarter of a percentage point is 25 basis points.",
         ],
         examples: [
@@ -2776,7 +2776,7 @@ export const EN_C2_U31: Lesson[] = [
     level: "EN-C2",
     number: 8,
     title: "Spiral review: the business report",
-    summary: "Recycling C1 report writing in a business context: standard headings, an impersonal and nominal style, and recommendations with should and the mandative subjunctive.",
+    summary: "Recycling Advanced report writing in a business context: standard headings, an impersonal and nominal style, and recommendations with should and the mandative subjunctive.",
     duration: "11 min",
     sections: [
       {
@@ -3103,7 +3103,7 @@ export const EN_C2_U31: Lesson[] = [
     level: "EN-C2",
     number: 9,
     title: "Writing Reports and Proposals",
-    summary: "The two genres of the C2 writing paper and of working life: a report looks back at what was found, a proposal looks forward to what should be done. Headings, purpose statements, findings, the recommending structures (\"it is recommended that\", \"we propose that the company adopt\"), bullet points versus prose, and the essay habits, first-person overuse and *recommend to do that Spanish speakers bring to both.",
+    summary: "The two genres of the Mastery writing paper and of working life: a report looks back at what was found, a proposal looks forward to what should be done. Headings, purpose statements, findings, the recommending structures (\"it is recommended that\", \"we propose that the company adopt\"), bullet points versus prose, and the essay habits, first-person overuse and *recommend to do that Spanish speakers bring to both.",
     duration: "12 min",
     sections: [
       {

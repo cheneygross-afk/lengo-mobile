@@ -699,7 +699,7 @@ export const EN_A2_U18: Lesson[] = [
         body: [
           "\"How often\" pregunta por la frecuencia: \"How often do you go to the gym?\" («¿cada cuánto vas al gimnasio?»). Se responde con \"every day\", \"twice a week\", \"once a month\" o con un adverbio como \"sometimes\".",
           "Para el precio: \"How much is it?\" o \"How much does it cost?\". Con \"does\", el verbo \"cost\" va sin -s: \"How much does it cost?\", no *How much does it costs?.",
-          "Recuerda la diferencia de A1: \"how much\" con incontables (\"How much water?\") y \"how many\" con plurales (\"How many brothers do you have?\").",
+          "Recuerda la diferencia del nivel Fundamentos: \"how much\" con incontables (\"How much water?\") y \"how many\" con plurales (\"How many brothers do you have?\").",
         ],
         examples: [
           { es: "How often do you go to the gym?", en: "¿Cada cuánto vas al gimnasio?" },

@@ -11,7 +11,7 @@ export const EN_C2_U33: Lesson[] = [
     slug: "c2-comprehensive-review-1",
     level: "EN-C2",
     number: 1,
-    title: "C2 comprehensive review, Part 1 of 3",
+    title: "Mastery comprehensive review, Part 1 of 3",
     summary: "A mixed review of the first ten units: legal and contract English, medical English, idioms and proverbs, humour and figurative language, euphemism, emphasis and word building, and business idioms.",
     duration: "12 min",
     sections: [
@@ -62,13 +62,13 @@ export const EN_C2_U33: Lesson[] = [
         body: [
           "Never translate a refrán word for word: find the English proverb that does the same job. «No vendas la piel del oso antes de cazarlo» is \"Don't count your chickens before they hatch\"; «A quien madruga, Dios le ayuda» is \"The early bird catches the worm\"; «Más vale pájaro en mano que ciento volando» is \"A bird in the hand is worth two in the bush\".",
           "Idioms carry pictures that differ from Spanish: «estar en las nubes» is \"have your head in the clouds\", «costar un ojo de la cara» is \"cost an arm and a leg\", «ser pan comido» is \"be a piece of cake\".",
-          "English humour leans on understatement and irony: \"It's a bit chilly\" in a snowstorm, \"Not bad at all\" for something excellent. Spotting understatement is a C2 skill; producing it is even harder.",
+          "English humour leans on understatement and irony: \"It's a bit chilly\" in a snowstorm, \"Not bad at all\" for something excellent. Spotting understatement is a Mastery skill; producing it is even harder.",
         ],
         examples: [
           { es: "Don't count your chickens before they hatch.", en: "No vendas la piel del oso antes de cazarlo." },
           { es: "A bird in the hand is worth two in the bush.", en: "Más vale pájaro en mano que ciento volando." },
           { es: "That new phone cost an arm and a leg.", en: "Ese móvil nuevo costó un ojo de la cara." },
-          { es: "Losing that job was a blessing in disguise.", en: "Perder ese trabajo fue una bendición disfrazada; no hay mal que por bien no venga." },
+          { es: "Losing that job was a blessing in disguise.", en: "Perder ese trabajo resultó ser una suerte; no hay mal que por bien no venga." },
           { es: "The exam was a piece of cake.", en: "El examen fue pan comido." },
           { es: "It's not the worst idea he's ever had.", en: "No fue la peor idea que ha tenido (ironía: fue bastante buena)." },
         ],
@@ -225,7 +225,6 @@ export const EN_C2_U33: Lesson[] = [
         source: "La empresa despidió a cincuenta empleados.",
         answer: "The company let fifty employees go.",
         altAnswers: [
-          "The company let go of fifty employees.",
           "The company let go fifty employees.",
           "The company laid off fifty employees.",
           "The company laid fifty employees off.",
@@ -315,7 +314,7 @@ export const EN_C2_U33: Lesson[] = [
     slug: "c2-comprehensive-review-2",
     level: "EN-C2",
     number: 2,
-    title: "C2 comprehensive review, Part 2 of 3",
+    title: "Mastery comprehensive review, Part 2 of 3",
     summary: "A mixed review of units 11 to 20: reading between the lines, debate and rhetoric, presentations and negotiation, citing and paraphrasing sources, emphasis structures and rhetorical questions.",
     duration: "12 min",
     sections: [
@@ -631,7 +630,7 @@ export const EN_C2_U33: Lesson[] = [
     slug: "c2-comprehensive-review-3",
     level: "EN-C2",
     number: 3,
-    title: "C2 comprehensive review, Part 3 of 3",
+    title: "Mastery comprehensive review, Part 3 of 3",
     summary: "A mixed review of units 21 to 32: job interviews and conflict resolution, historical narrative, science, environment and politics, philosophy and psychology, criticism, business and economics, and creative writing.",
     duration: "12 min",
     sections: [
@@ -942,14 +941,14 @@ export const EN_C2_U33: Lesson[] = [
     slug: "c2-challenge-error-hunt",
     level: "EN-C2",
     number: 4,
-    title: "C2 challenge: the big error hunt",
+    title: "Mastery challenge: the big error hunt",
     summary: "A hint-free error hunt across the whole level: false friends, articles with abstract nouns, uncountable nouns, prepositions, make and do, tense choice, inversion and register slips typical of advanced Spanish-speaking writers.",
     duration: "12 min",
     sections: [
       {
-        heading: "The errors that survive to C2",
+        heading: "The errors that survive to the Mastery level",
         body: [
-          "Advanced writers rarely make beginner mistakes, but a handful of Spanish-driven errors survive into C2 because they sound natural to a Spanish ear: a false friend in an otherwise elegant sentence, \"the\" before an abstract noun, a plural on an uncountable, the wrong preposition after a verb.",
+          "Advanced writers rarely make beginner mistakes, but a handful of Spanish-driven errors survive into the Mastery level because they sound natural to a Spanish ear: a false friend in an otherwise elegant sentence, \"the\" before an abstract noun, a plural on an uncountable, the wrong preposition after a verb.",
           "In this challenge there are no hints. Read every sentence as an editor would: check each noun (article? countable?), each verb (tense? preposition? make or do?) and each word that looks like Spanish.",
         ],
         examples: [
@@ -986,7 +985,7 @@ export const EN_C2_U33: Lesson[] = [
       {
         heading: "False friends and uncountables",
         body: [
-          "The false friends that still slip through at C2: \"eventually\" (= «finalmente», not «eventualmente»), \"actually\" (= «en realidad»), \"assist\" (= «ayudar»; «asistir a» is \"attend\"), \"pretend\" (= «fingir»; «pretender» is \"intend\" or \"aim\"), \"sensible\" (= «sensato»), \"sympathetic\" (= «comprensivo»), \"compromise\" (= «acuerdo mutuo», not «compromiso» as commitment), \"argument\" (often «discusión, pelea»).",
+          "The false friends that still slip through at the Mastery level: \"eventually\" (= «finalmente», not «eventualmente»), \"actually\" (= «en realidad»), \"assist\" (= «ayudar»; «asistir a» is \"attend\"), \"pretend\" (= «fingir»; «pretender» is \"intend\" or \"aim\"), \"sensible\" (= «sensato»), \"sympathetic\" (= «comprensivo»), \"compromise\" (= «acuerdo mutuo», not «compromiso» as commitment), \"argument\" (often «discusión, pelea»).",
           "Uncountable in English, countable in Spanish: \"advice\", \"information\", \"evidence\", \"research\", \"feedback\", \"equipment\", \"furniture\", \"news\", \"progress\", \"knowledge\". Use \"a piece of\" or a different noun for a single item: \"a piece of advice\", \"a study\", \"a tip\".",
         ],
         examples: [
@@ -1037,7 +1036,7 @@ export const EN_C2_U33: Lesson[] = [
       {
         heading: "Prepositions, make and do, tense and inversion",
         body: [
-          "Verb and adjective prepositions do not follow Spanish: \"depend on\" (not *of), \"consist of\" (not *in), \"married to\" (not *with), \"arrive in/at\" (not *to), \"interested in\", \"responsible for\", \"good at\", \"different from\".",
+          "Verb and adjective prepositions do not follow Spanish: \"depend on\" (not *of), \"consist of\" (not *consist on), \"married to\" (not *with), \"arrive in/at\" (not *to), \"interested in\", \"responsible for\", \"good at\", \"different from\".",
           "\"Make\" is for creating or producing (make a decision, a mistake, a profit, progress, an effort, a complaint); \"do\" is for tasks and activities (do business, research, damage, someone a favor, your best).",
           "Tense: \"since\" and \"for\" with a situation that continues need the present perfect (*I work here for ten years). After negative adverbials in front position, invert: \"Not only did they...\", \"Rarely have we...\". And watch register: \"wanna\", \"stuff\" and \"a lot of\" are out of place in a formal report.",
         ],
@@ -1244,14 +1243,14 @@ export const EN_C2_U33: Lesson[] = [
     slug: "c2-challenge-phraseology",
     level: "EN-C2",
     number: 5,
-    title: "C2 challenge: phraseology without hints",
+    title: "Mastery challenge: phraseology without hints",
     summary: "Idioms, proverbs, collocations, business idioms and Latin phrases from the whole level, to complete and use with no hints and no options.",
     duration: "12 min",
     sections: [
       {
         heading: "Idioms and proverbs: say it the English way",
         body: [
-          "At C2 the test is not recognizing an idiom but producing it at the right moment, with every word in place. Small changes break an idiom: it is \"the last straw\", not *the last drop, and \"once in a blue moon\", not *once in a blue sky.",
+          "At the Mastery level the test is not recognizing an idiom but producing it at the right moment, with every word in place. Small changes break an idiom: it is \"the last straw\", not *the last drop, and \"once in a blue moon\", not *once in a blue sky.",
           "Proverbs are often shortened by native speakers, who trust you to know the rest: \"Well, when in Rome...\", \"It's a case of too many cooks.\" You need the full form to understand the short one.",
         ],
         examples: [
@@ -1506,14 +1505,14 @@ export const EN_C2_U33: Lesson[] = [
     slug: "c2-challenge-register-chameleon",
     level: "EN-C2",
     number: 6,
-    title: "C2 challenge: the register chameleon",
+    title: "Mastery challenge: the register chameleon",
     summary: "One message rewritten in four registers (legal, academic, business and casual): shift vocabulary, grammar and tone while keeping the meaning intact.",
     duration: "12 min",
     sections: [
       {
         heading: "One message, four voices",
         body: [
-          "The core message: the customer hasn't paid, and if they don't pay by Friday, the contract will be cancelled. A C2 speaker can say this in any register without changing what it means.",
+          "The core message: the customer hasn't paid, and if they don't pay by Friday, the contract will be cancelled. A Mastery speaker can say this in any register without changing what it means.",
           "Register is built from four levers: vocabulary (\"terminate\" or \"cancel\"), grammar (passive and nouns, or active verbs and phrasal verbs), distance (impersonal or personal) and tone (neutral, polite, blunt, friendly). Spanish shifts register mainly through «usted» and vocabulary; English has no «usted», so it relies on the other levers.",
         ],
         examples: [
@@ -1769,7 +1768,7 @@ export const EN_C2_U33: Lesson[] = [
     slug: "c2-challenge-text-detective",
     level: "EN-C2",
     number: 7,
-    title: "C2 challenge: the text detective",
+    title: "Mastery challenge: the text detective",
     summary: "Dense, authentic-style texts read for stance, implicature, irony, euphemism and fallacies: work out what is meant beyond what is said.",
     duration: "12 min",
     sections: [
@@ -2051,7 +2050,7 @@ export const EN_C2_U33: Lesson[] = [
     slug: "c2-challenge-translation-relay",
     level: "EN-C2",
     number: 8,
-    title: "C2 challenge: the translation relay",
+    title: "Mastery challenge: the translation relay",
     summary: "Spanish-to-English translation of tricky structures: diminutives, the imperfecto, refranes, legal formulas, euphemisms and false friends, rendered as natural English rather than calques.",
     duration: "12 min",
     sections: [
@@ -2359,7 +2358,7 @@ export const EN_C2_U33: Lesson[] = [
     slug: "c2-challenge-argue-to-the-limit",
     level: "EN-C2",
     number: 9,
-    title: "C2 challenge: argue to the limit",
+    title: "Mastery challenge: argue to the limit",
     summary: "A sustained argumentative challenge combining concession, rebuttal, rhetorical devices, citation and hedging, ending with a closing argument written under time pressure.",
     duration: "12 min",
     sections: [
@@ -2642,8 +2641,8 @@ export const EN_C2_U33: Lesson[] = [
     slug: "c2-mastery-exam",
     level: "EN-C2",
     number: 10,
-    title: "C2 mastery exam",
-    summary: "The final exit test of the English course: reading, listening-style comprehension, use of English, vocabulary and writing tasks covering the whole C2 level. Passing it marks C2 mastery.",
+    title: "Mastery mastery exam",
+    summary: "The final exit test of the English course: reading, listening-style comprehension, use of English, vocabulary and writing tasks covering the whole Mastery level. Passing it marks Mastery mastery.",
     duration: "12 min",
     sections: [
       {
@@ -2718,7 +2717,7 @@ export const EN_C2_U33: Lesson[] = [
           {
             type: "dictation",
             audio: "Notwithstanding the above, either party may terminate this agreement with thirty days' notice.",
-            explanation: "A classic contract sentence: \"notwithstanding\" (despite), \"either party\" (any of the two) and \"days' notice\" with a plural possessive apostrophe.",
+            explanation: "A classic contract sentence: \"notwithstanding\" (despite), \"either party\" (either of the two parties) and \"days' notice\" with a plural possessive apostrophe.",
           },
         ],
       },
@@ -2930,19 +2929,19 @@ export const EN_C2_U33: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Final task (180-250 words): write an opinion article for a quality newspaper on this question: Is tourism doing more harm than good to historic city centers? Show everything you have learned at C2.",
+        prompt: "Final task (180-250 words): write an opinion article for a quality newspaper on this question: Is tourism doing more harm than good to historic city centers? Show everything you have learned at the Mastery level.",
         minWords: 180,
         maxWords: 250,
         rubric: [
           "Clear, consistent stance, signalled through vocabulary and stance adverbs",
           "Concession and rebuttal of the strongest opposing argument",
           "At least one cited source or piece of evidence with an appropriate reporting verb",
-          "A range of C2 structures: inversion, cleft sentences, mixed conditionals, hedging",
+          "A range of Mastery structures: inversion, cleft sentences, mixed conditionals, hedging",
           "Precise collocations and idiomatic language, with no calques or false friends",
           "A memorable conclusion (antithesis, rhetorical question or striking image)",
         ],
         modelAnswer: "It would be churlish to deny that tourism has brought prosperity to many historic cities. Restaurants are full, crumbling palaces have been restored and young people who would once have emigrated now find work at home. Yet anyone who has tried to buy a loaf of bread in central Venice or rent an apartment in Barcelona's old town knows that something has gone badly wrong.\n\nWhat is at stake is not the economy but the city itself. As urban researchers have repeatedly pointed out, some central neighborhoods have lost a large share of their residents in just two decades, as short-term rentals push prices beyond the reach of local families. Not only are residents leaving, but the shops that served them are being replaced by souvenir stalls.\n\nDefenders of the industry argue that limiting visitors would cost jobs. There is some merit in that view. Even so, it overlooks a simple fact: tourists come to see living cities, not theme parks. Had cities acted a decade ago, many would not now be facing such stark choices.\n\nThe answer is not to close the gates but to manage the flow: caps on short-term rentals, fair tourist taxes and real investment in housing. The question, in the end, is not whether we can afford to regulate tourism, but whether we can afford to lose the very places tourists come to see.",
-        explanation: "The model concedes and rebuts, cites a source, uses inversion (\"Not only are...\", \"Had cities acted...\"), a cleft (\"What is at stake...\") and closes with an antithesis. Congratulations on completing the C2 level.",
+        explanation: "The model concedes and rebuts, cites a source, uses inversion (\"Not only are...\", \"Had cities acted...\"), a cleft (\"What is at stake...\") and closes with an antithesis. Congratulations on completing the Mastery level.",
       },
     ],
   },

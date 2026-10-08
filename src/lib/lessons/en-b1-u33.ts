@@ -1642,13 +1642,13 @@ export const EN_B1_U33: Lesson[] = [
     level: "EN-B1",
     number: 8,
     title: "Word Practice: Mixed Themes 2",
-    summary: "Mixed retrieval of B1 vocabulary: false friends, work, housing, transport, behavior, animals, the body, social life and the outdoors.",
+    summary: "Mixed retrieval of Independence vocabulary: false friends, work, housing, transport, behavior, animals, the body, social life and the outdoors.",
     duration: "12 min",
     sections: [
       {
-        heading: "Recap: false friends from B1",
+        heading: "Recap: false friends from the Independence level",
         body: [
-          "Many B1 words look like Spanish words but mean something different. \"Actually\" means «en realidad», not «actualmente» (that's \"currently\" or \"at the moment\"). \"Embarrassed\" means «avergonzado»; «embarazada» is \"pregnant\". \"Library\" is «biblioteca»; a «librería» is a \"bookstore\".",
+          "Many Independence words look like Spanish words but mean something different. \"Actually\" means «en realidad», not «actualmente» (that's \"currently\" or \"at the moment\"). \"Embarrassed\" means «avergonzado»; «embarazada» is \"pregnant\". \"Library\" is «biblioteca»; a «librería» is a \"bookstore\".",
           "More: \"educated\" means «con estudios» (polite people are \"polite\"); \"sensible\" means «sensato» («sensible» is \"sensitive\"); \"carpet\" is «moqueta» or «alfombra» («carpeta» is \"folder\"); \"assist\" means «ayudar», while «asistir a» is \"attend\"; and \"realize\" means «darse cuenta», not «realizar».",
         ],
         examples: [
@@ -1852,8 +1852,8 @@ export const EN_B1_U33: Lesson[] = [
     slug: "b1-cumulative-circuit-final",
     level: "EN-B1",
     number: 9,
-    title: "Cumulative Circuit: All of B1",
-    summary: "A fast circuit through the grammar of B1: tenses, the future, conditionals, wishes, modals, the passive, relatives, reported speech, verb patterns, questions, quantifiers and linkers.",
+    title: "Cumulative Circuit: All of the Independence level",
+    summary: "A fast circuit through the grammar of the Independence level: tenses, the future, conditionals, wishes, modals, the passive, relatives, reported speech, verb patterns, questions, quantifiers and linkers.",
     duration: "12 min",
     sections: [
       {
@@ -2141,7 +2141,7 @@ export const EN_B1_U33: Lesson[] = [
       {
         heading: "Planning the trip: future forms",
         body: [
-          "Traveling alone (\"travelling\" in British spelling) is a great way to use all your B1 English. For plans, use \"going to\" for intentions (\"I'm going to visit Peru\"), the present continuous for things already arranged (\"I'm flying to Lima on Saturday\") and the present simple for timetables (\"The bus leaves at six\").",
+          "Traveling alone (\"travelling\" in British spelling) is a great way to use all your Independence English. For plans, use \"going to\" for intentions (\"I'm going to visit Peru\"), the present continuous for things already arranged (\"I'm flying to Lima on Saturday\") and the present simple for timetables (\"The bus leaves at six\").",
           "Remember time clauses: after \"when\", \"as soon as\", \"before\" and \"until\", use the present even for the future: \"I'll text you when I arrive\", not *when I will arrive.",
           "Useful travel words: \"book\" a room or a flight («reservar»), a \"hostel\" («albergue»), a \"backpack\" («mochila»), an \"itinerary\" («itinerario») and \"go sightseeing\" («hacer turismo»).",
         ],

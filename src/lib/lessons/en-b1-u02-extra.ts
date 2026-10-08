@@ -477,7 +477,7 @@ export const EN_B1_U02_EXTRA: Lesson[] = [
     level: "EN-B1",
     number: 3,
     title: "Extra Practice: Irregular Participles Review",
-    summary: "A recall drill of the B1 irregular participles (been, gone, written, chosen, forgotten, driven, flown, risen, fallen, hidden, bitten, ridden) and the classic *I have went mistake.",
+    summary: "A recall drill of the Independence irregular participles (been, gone, written, chosen, forgotten, driven, flown, risen, fallen, hidden, bitten, ridden) and the classic *I have went mistake.",
     duration: "10 min",
     sections: [
       {

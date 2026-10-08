@@ -681,7 +681,7 @@ export const B1_GAPS: AnchoredLesson[] = [
           "Con una persona conocida se usa la a personal: Busco a la chica que vive en el tercero (la conozco, existe: indicativo).",
           "Con una persona desconocida, muchas veces sin a: Busco una chica que sepa alemán para un trabajo (cualquiera que cumpla la condición: subjuntivo). Con alguien y nadie, la a siempre aparece: Busco a alguien que...",
           "El artículo también ayuda: el / la + indicativo suele ser concreto; un / una + subjuntivo suele ser «cualquiera».",
-          "Verás mucho más sobre esto en B2. Por ahora, recuerda la pregunta clave: ¿existe y lo conozco?",
+          "Verás mucho más sobre esto en el nivel Avanzado. Por ahora, recuerda la pregunta clave: ¿existe y lo conozco?",
         ],
         [
           ["Busco a la profesora que da clase de yoga.", "I'm looking for the teacher who teaches yoga. (a specific one)"],

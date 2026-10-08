@@ -118,9 +118,9 @@ export const C1_UNIT_WRITING: Record<string, WriteExercise> = {
     "El registro académico evita el yo (se analiza, el presente estudio) y atenúa las afirmaciones (parecen indicar, cabe pensar, podría)."
   ),
   "c1r-challenge-big-error-hunt": t(
-    "Escribe un artículo breve para una revista de estudiantes con el título «Lo que nadie me dijo sobre el nivel C1». Combina varias estructuras avanzadas.",
+    "Escribe un artículo breve para una revista de estudiantes con el título «Lo que nadie me dijo sobre el nivel Maestría». Combina varias estructuras avanzadas.",
     ["Una estructura enfática", "Un subjuntivo avanzado (concesiva, no es que…)", "Marcadores discursivos", "Al menos una nominalización o una perífrasis"],
-    "Lo que nadie me dijo sobre el nivel C1 es que la gramática deja de ser el problema principal. No es que ya no cometa errores, sino que ahora me preocupan los matices: el registro, la entonación, la elección de una palabra. Llevo dos años leyendo prensa a diario y, aun así, sigo descubriendo expresiones nuevas. Ahora bien, el avance existe, aunque no se note de un día para otro. En definitiva, la clave es la constancia, por mucho que cueste mantenerla.",
+    "Lo que nadie me dijo sobre el nivel Maestría es que la gramática deja de ser el problema principal. No es que ya no cometa errores, sino que ahora me preocupan los matices: el registro, la entonación, la elección de una palabra. Llevo dos años leyendo prensa a diario y, aun así, sigo descubriendo expresiones nuevas. Ahora bien, el avance existe, aunque no se note de un día para otro. En definitiva, la clave es la constancia, por mucho que cueste mantenerla.",
     "Una hendida (lo que nadie me dijo es…), no es que + subjuntivo, una perífrasis (llevo dos años leyendo), marcadores (ahora bien, en definitiva) y una concesiva (por mucho que cueste)."
   ),
 };

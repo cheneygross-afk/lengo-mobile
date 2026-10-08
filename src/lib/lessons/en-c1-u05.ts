@@ -17,7 +17,7 @@ export const EN_C1_U05: Lesson[] = [
         body: [
           "Hedging means signalling how sure you are. In academic, professional and journalistic English, a bare claim like \"This policy reduces crime\" sounds like a proven fact. Unless you really have proof, a careful writer says \"This policy may reduce crime\" or \"This policy appears to have reduced crime\".",
           "Spanish writing tolerates, and sometimes rewards, strong statements: «Esto demuestra que...», «Es evidente que...», «Sin duda...». Translated word for word, these sound over-assertive, even arrogant, to an English-speaking reviewer, manager or examiner.",
-          "Hedging is not weakness. It shows you know the limits of your evidence, and it protects you from easy criticism. The skill at C1 is to hedge exactly as much as the evidence requires: not too little, not too much.",
+          "Hedging is not weakness. It shows you know the limits of your evidence, and it protects you from easy criticism. The skill at the Advanced level is to hedge exactly as much as the evidence requires: not too little, not too much.",
         ],
         examples: [
           { es: "This policy reduces crime.", en: "Esta política reduce la delincuencia. (afirmación tajante)" },
@@ -381,7 +381,7 @@ export const EN_C1_U05: Lesson[] = [
       {
         heading: "Perfect and continuous infinitives",
         body: [
-          "At B2 you learned \"He is said to be rich\". At C1 the infinitive changes to match the time of the reported fact. For an earlier event, use the perfect infinitive: \"He is said to have made a fortune in Mexico\" (people say now that he made it then).",
+          "At the Upper Intermediate level you learned \"He is said to be rich\". At the Advanced level the infinitive changes to match the time of the reported fact. For an earlier event, use the perfect infinitive: \"He is said to have made a fortune in Mexico\" (people say now that he made it then).",
           "For something in progress, use the continuous infinitive: \"She is thought to be living in Canada\". For something that had been going on, use the perfect continuous: \"The company is believed to have been losing money for years\".",
           "The reporting verb can be in the past too: \"He was thought to be dead\" (at that time people thought he was dead). Compare \"He was thought to have died\" (people thought he had died earlier).",
         ],
@@ -1576,7 +1576,7 @@ export const EN_C1_U05: Lesson[] = [
     level: "EN-C1",
     number: 6,
     title: "Expressing Probability and Certainty, Part 2 of 2",
-    summary: "Modal nuances beyond B2: \"should\" for expectation, \"may/might/could well\", \"will\" for assumptions (\"That'll be the postman\"), \"must be + -ing\", and the full scale from certain to impossible.",
+    summary: "Modal nuances beyond the Upper Intermediate level: \"should\" for expectation, \"may/might/could well\", \"will\" for assumptions (\"That'll be the postman\"), \"must be + -ing\", and the full scale from certain to impossible.",
     duration: "12 min",
     sections: [
       {
@@ -2276,7 +2276,7 @@ export const EN_C1_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "It's very likely that he'll be late. = He's ___ late.",
+            sentence: "It's almost certain that he'll be late. = He's ___ late.",
             answer: "bound to be",
             altAnswers: ["sure to be", "certain to be", "very likely to be", "highly likely to be", "likely to be"],
             en: "Es muy probable que llegue tarde. = [Seguro que llega] tarde.",
@@ -2834,7 +2834,7 @@ export const EN_C1_U05: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "Which sentence has the neutral, unstressed word order?",
             options: [
               "She'll probably be late again.",
               "She will be probably late again.",
@@ -3013,7 +3013,7 @@ export const EN_C1_U05: Lesson[] = [
           { es: "In all likelihood he'll be late.", en: "Con toda probabilidad llegará tarde." },
           { es: "The odds are that he'll be late.", en: "Lo más probable es que llegue tarde." },
           { es: "She's not likely to agree.", en: "No es probable que acepte." },
-          { es: "The odds are against her agreeing.", en: "Lo tiene todo en contra para aceptar. (es improbable que acepte)" },
+          { es: "The odds are against her agreeing.", en: "Es muy poco probable que acepte." },
           { es: "There's little chance of her agreeing.", en: "Hay pocas posibilidades de que acepte." },
         ],
         checkpoint: [
@@ -3252,13 +3252,13 @@ export const EN_C1_U05: Lesson[] = [
     level: "EN-C1",
     number: 12,
     title: "Spiral Review: Deduction and Future Forms",
-    summary: "Review past modals of deduction and the future continuous and perfect for assumptions (\"He'll have arrived by now\", \"They'll be having dinner\"), mixed with the new C1 probability expressions.",
+    summary: "Review past modals of deduction and the future continuous and perfect for assumptions (\"He'll have arrived by now\", \"They'll be having dinner\"), mixed with the new Advanced probability expressions.",
     duration: "12 min",
     sections: [
       {
         heading: "Past deduction: must have, can't have, might have",
         body: [
-          "From B2: \"must have done\" (almost certain about the past), \"can't/couldn't have done\" (impossible), \"may/might/could have done\" (possible). «Se habrá dormido» = \"He must have overslept\"; «no puede haberlo hecho él» = \"He can't have done it\".",
+          "From the Upper Intermediate level: \"must have done\" (almost certain about the past), \"can't/couldn't have done\" (impossible), \"may/might/could have done\" (possible). «Se habrá dormido» = \"He must have overslept\"; «no puede haberlo hecho él» = \"He can't have done it\".",
           "Do not confuse \"should have done\" (expectation or criticism: «debería haber») with \"must have done\" (deduction: «debe de haber»). \"He should have arrived\" means it was expected; \"He must have arrived\" means you deduce he did.",
           "Spanish speakers also confuse «debe de» (deduction) and «debe» (obligation), so the English distinction is worth extra care.",
         ],
@@ -3420,8 +3420,6 @@ export const EN_C1_U05: Lesson[] = [
           "They must be asleep at this time of night.",
           "They'll be sleeping at this time of night.",
           "They'll be sleeping at this time.",
-          "He'll be asleep by now.",
-          "She'll be asleep by now.",
         ],
         explanation: "Assumption about now: \"will be + -ing\" or \"must be\". \"Be asleep\" is even more natural than \"be sleeping\" for a state.",
       },
@@ -3526,14 +3524,10 @@ export const EN_C1_U05: Lesson[] = [
           "It's unlikely that they've seen him.",
           "They're unlikely to have seen her.",
           "It's unlikely that they've seen her.",
-          "He's unlikely to have seen it.",
-          "She's unlikely to have seen it.",
-          "It's unlikely that he has seen it.",
-          "It's unlikely that she has seen it.",
           "I doubt they've seen it.",
           "I doubt they saw it.",
         ],
-        explanation: "\"Unlikely\" + perfect infinitive for a past event: \"unlikely to have seen\". The new C1 pattern combines with the past.",
+        explanation: "\"Unlikely\" + perfect infinitive for a past event: \"unlikely to have seen\". The new Advanced pattern combines with the past.",
       },
       {
         type: "speak",
@@ -3548,7 +3542,7 @@ export const EN_C1_U05: Lesson[] = [
     level: "EN-C1",
     number: 13,
     title: "Word Web: Health and Medicine",
-    summary: "C1 health vocabulary: diagnosis, symptoms, chronic and acute conditions, side effects, recovering and relapsing, outbreaks, feeling run-down, and the false friends \"constipated\" and \"intoxication\".",
+    summary: "Advanced health vocabulary: diagnosis, symptoms, chronic and acute conditions, side effects, recovering and relapsing, outbreaks, feeling run-down, and the false friends \"constipated\" and \"intoxication\".",
     duration: "12 min",
     sections: [
       {
@@ -3875,7 +3869,7 @@ export const EN_C1_U05: Lesson[] = [
     slug: "c1-core-words-3",
     level: "EN-C1",
     number: 14,
-    title: "C1 Core Words 3: Academic Adjectives and Adverbs",
+    title: "Advanced Core Words 3: Academic Adjectives and Adverbs",
     summary: "Ten academic words you need for reports and essays (significant, substantial, relevant, consistent, crucial, inherent, subsequent, predominantly, ultimately, approximately) and the false friends \"eventually\", \"actually\" and \"ultimately\".",
     duration: "12 min",
     sections: [
@@ -4236,7 +4230,7 @@ export const EN_C1_U05: Lesson[] = [
         type: "speak",
         text: "Ultimately, the actual cost was significantly higher than expected.",
         tip: "Stress: ULtimately, ACtual, sigNIFicantly. In \"actual\", the \"t\" sounds like \"ch\": AK-choo-al.",
-        explanation: "Three C1 words in one sentence, two of them false friends (\"ultimately\", \"actual\").",
+        explanation: "Three Advanced words in one sentence, two of them false friends (\"ultimately\", \"actual\").",
       },
     ],
   },

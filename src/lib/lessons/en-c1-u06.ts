@@ -3192,15 +3192,15 @@ export const EN_C1_U06: Lesson[] = [
     slug: "c1-spiral-linking-words",
     level: "EN-C1",
     number: 12,
-    title: "Spiral Review: B2 Linking Words at C1",
-    summary: "Back to although, despite, so that, in order to, as long as and unless, and up to their C1 alternatives: notwithstanding, so as to, in order that, provided that and on condition that. Mixed practice so you decide which structure each context needs.",
+    title: "Spiral Review: Upper Intermediate Linking Words at the Advanced level",
+    summary: "Back to although, despite, so that, in order to, as long as and unless, and up to their Advanced alternatives: notwithstanding, so as to, in order that, provided that and on condition that. Mixed practice so you decide which structure each context needs.",
     duration: "12 min",
     sections: [
       {
         heading: "Concession: although, despite, notwithstanding",
         body: [
-          "B2 recap: \"although\", \"even though\" and \"though\" + clause; \"despite\" and \"in spite of\" + noun or -ing. \"Even though\" is stronger than \"although\" and stresses a known fact: \"Even though he's rich, he lives simply.\" «Aunque» + subjunctive for a hypothesis is usually \"even if\": «Aunque me lo pidas, no iré» = \"Even if you ask me, I won't go.\"",
-          "C1 upgrades: \"notwithstanding\" + noun in formal texts, and \"much as\" («por mucho que») with verbs of liking and wanting: \"Much as I admire her, I can't support this decision.\"",
+          "Upper Intermediate recap: \"although\", \"even though\" and \"though\" + clause; \"despite\" and \"in spite of\" + noun or -ing. \"Even though\" is stronger than \"although\" and stresses a known fact: \"Even though he's rich, he lives simply.\" «Aunque» + subjunctive for a hypothesis is usually \"even if\": «Aunque me lo pidas, no iré» = \"Even if you ask me, I won't go.\"",
+          "Advanced upgrades: \"notwithstanding\" + noun in formal texts, and \"much as\" («por mucho que») with verbs of liking and wanting: \"Much as I admire her, I can't support this decision.\"",
           "Remember the two classic errors: *despite of and *although..., but.",
         ],
         examples: [
@@ -3246,8 +3246,8 @@ export const EN_C1_U06: Lesson[] = [
       {
         heading: "Purpose: so that, in order to, so as to",
         body: [
-          "B2 recap: \"to\" or \"in order to\" + infinitive when the subject is the same; \"so that\" + clause (often with \"can\", \"could\", \"will\" or \"would\") when it changes or when you need a modal: \"I'll explain it again so that everyone understands.\" Never *for to + infinitive, a calque of «para».",
-          "C1 upgrades: \"so as to\" (slightly formal) and especially the negatives \"so as not to\" and \"in order not to\", which sound much better than \"to not\": \"We left early so as not to miss the train.\" In very formal texts, \"in order that\" + clause replaces \"so that\".",
+          "Upper Intermediate recap: \"to\" or \"in order to\" + infinitive when the subject is the same; \"so that\" + clause (often with \"can\", \"could\", \"will\" or \"would\") when it changes or when you need a modal: \"I'll explain it again so that everyone understands.\" Never *for to + infinitive, a calque of «para».",
+          "Advanced upgrades: \"so as to\" (slightly formal) and especially the negatives \"so as not to\" and \"in order not to\", which sound much better than \"to not\": \"We left early so as not to miss the train.\" In very formal texts, \"in order that\" + clause replaces \"so that\".",
         ],
         examples: [
           { es: "I'm saving money in order to buy a car.", en: "Estoy ahorrando para comprarme un coche." },
@@ -3289,8 +3289,8 @@ export const EN_C1_U06: Lesson[] = [
       {
         heading: "Condition: unless, as long as, provided that, and the in case trap",
         body: [
-          "B2 recap: \"unless\" = \"if not\" («a menos que»), so don't add another negative: \"I won't go unless you come\" (not *unless you don't come). \"As long as\" («siempre que», «con tal de que») sets a condition: \"You can borrow it as long as you bring it back.\" Both take a present tense for the future, never \"will\".",
-          "C1 upgrades: \"provided (that)\" and \"providing (that)\" are more formal than \"as long as\"; \"on condition that\" is stricter still, typical of contracts and agreements.",
+          "Upper Intermediate recap: \"unless\" = \"if not\" («a menos que»), so don't add another negative: \"I won't go unless you come\" (not *unless you don't come). \"As long as\" («siempre que», «con tal de que») sets a condition: \"You can borrow it as long as you bring it back.\" Both take a present tense for the future, never \"will\".",
+          "Advanced upgrades: \"provided (that)\" and \"providing (that)\" are more formal than \"as long as\"; \"on condition that\" is stricter still, typical of contracts and agreements.",
           "Trap: «en caso de que» is \"if\" or \"in the event that\", while English \"in case\" means «por si»: \"Take an umbrella in case it rains\" («por si llueve»). On signs, \"in case of\" + noun is close to «en caso de» (\"In case of fire, use the stairs\"), but \"Call me in case you need help\" means «llámame por si necesitas ayuda» (a precaution), not «si necesitas ayuda».",
         ],
         examples: [
@@ -3424,7 +3424,7 @@ export const EN_C1_U06: Lesson[] = [
           "Much as I like my job, I still need a break.",
           "As much as I like my job, I still need a break.",
         ],
-        explanation: "«Por mucho que» + verb of liking = \"much as\" (C1) or \"as much as\" / \"however much\".",
+        explanation: "«Por mucho que» + verb of liking = \"much as\" (Advanced) or \"as much as\" / \"however much\".",
       },
       {
         type: "multiple-choice",
@@ -3469,14 +3469,14 @@ export const EN_C1_U06: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match the B2 linking word with its more formal C1 alternative.",
+        instructions: "Match the Upper Intermediate linking word with its more formal Advanced alternative.",
         pairs: [
           { left: "despite", right: "notwithstanding" },
           { left: "to (for purpose)", right: "so as to" },
           { left: "so that", right: "in order that" },
           { left: "as long as", right: "provided that" },
         ],
-        explanation: "The C1 alternatives mean the same thing but belong to a more formal register.",
+        explanation: "The Advanced alternatives mean the same thing but belong to a more formal register.",
       },
       {
         type: "translate",
@@ -3516,7 +3516,7 @@ export const EN_C1_U06: Lesson[] = [
     level: "EN-C1",
     number: 13,
     title: "Word Web: Media and the News",
-    summary: "C1 vocabulary for talking about the media: coverage, headline, bias, sensationalist, break a story, leak, misinformation, op-ed, tabloid vs broadsheet, press release. Plus the special grammar of headlines.",
+    summary: "Advanced vocabulary for talking about the media: coverage, headline, bias, sensationalist, break a story, leak, misinformation, op-ed, tabloid vs broadsheet, press release. Plus the special grammar of headlines.",
     duration: "12 min",
     sections: [
       {
@@ -3742,7 +3742,7 @@ export const EN_C1_U06: Lesson[] = [
           { left: "hoax", right: "bulo" },
           { left: "breaking news", right: "última hora" },
         ],
-        explanation: "These are the core words for talking about the media at C1.",
+        explanation: "These are the core words for talking about the media at the Advanced level.",
       },
       {
         type: "translate",

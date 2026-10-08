@@ -1105,7 +1105,7 @@ export const EN_B2_U28: Lesson[] = [
       {
         heading: "Adverb + adjective: bitterly cold, highly recommended",
         body: [
-          "Adverbs also have favorite partners. Instead of always saying \"very\", B2 speakers use stronger, more precise combinations: \"bitterly cold\" («un frío que pela»), \"highly recommended\" («muy recomendable»), \"deeply sorry\", \"fully aware\", \"completely different\", \"perfectly normal\".",
+          "Adverbs also have favorite partners. Instead of always saying \"very\", Upper Intermediate speakers use stronger, more precise combinations: \"bitterly cold\" («un frío que pela»), \"highly recommended\" («muy recomendable»), \"deeply sorry\", \"fully aware\", \"completely different\", \"perfectly normal\".",
           "\"Highly\" goes with adjectives about opinion and probability: \"highly unlikely\", \"highly successful\", \"highly qualified\". It does not mean «en lo alto».",
           "Some adjectives are already extreme, like \"freezing\", \"exhausted\" or \"amazing\". They don't take \"very\"; use \"absolutely\" or \"really\": \"absolutely exhausted\", not *very exhausted.",
         ],
@@ -2059,7 +2059,7 @@ export const EN_B2_U28: Lesson[] = [
     level: "EN-B2",
     number: 9,
     title: "Mixed Practice: Phrasal Verbs",
-    summary: "All the B2 phrasal verbs together, in a short story and a dialogue, plus a final check on where the object goes.",
+    summary: "All the Upper Intermediate phrasal verbs together, in a short story and a dialogue, plus a final check on where the object goes.",
     duration: "12 min",
     sections: [
       {
@@ -2297,7 +2297,7 @@ export const EN_B2_U28: Lesson[] = [
     level: "EN-B2",
     number: 10,
     title: "Themed Review: An Ordinary Week",
-    summary: "A week in the life of Sofia, a translator in Chicago: phrasal verbs, collocations and B2 grammar working together in everyday situations.",
+    summary: "A week in the life of Sofia, a translator in Chicago: phrasal verbs, collocations and Upper Intermediate grammar working together in everyday situations.",
     duration: "12 min",
     sections: [
       {
@@ -2544,13 +2544,13 @@ export const EN_B2_U28: Lesson[] = [
     level: "EN-B2",
     number: 11,
     title: "Final Vocabulary Circuit",
-    summary: "A cumulative round through the B2 word webs: topic vocabulary, phrasal verbs, collocations, false friends and word formation.",
+    summary: "A cumulative round through the Upper Intermediate word webs: topic vocabulary, phrasal verbs, collocations, false friends and word formation.",
     duration: "12 min",
     sections: [
       {
         heading: "Topic vocabulary: work, money and daily life",
         body: [
-          "Quick recap of key B2 topic words. Work: \"apply for a job\", \"get promoted\", \"meet a deadline\", \"be laid off\", \"work freelance\". Money: \"afford\", \"save up for\", \"be in debt\", \"get a refund\".",
+          "Quick recap of key Upper Intermediate topic words. Work: \"apply for a job\", \"get promoted\", \"meet a deadline\", \"be laid off\", \"work freelance\". Money: \"afford\", \"save up for\", \"be in debt\", \"get a refund\".",
           "Daily life and travel: \"commute\" («ir y volver del trabajo»), \"book a table\", \"check in\", \"run errands\" («hacer recados»), \"do the chores\".",
           "As always, learn the whole chunk: \"apply for\", not just \"apply\"; \"save up for\", not just \"save\".",
         ],

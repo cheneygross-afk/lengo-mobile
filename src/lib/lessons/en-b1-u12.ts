@@ -15,7 +15,7 @@ export const EN_B1_U12: Lesson[] = [
       {
         heading: "Could: general ability in the past",
         body: [
-          "In A2 you learned that \"could\" is the past of \"can\". Use it for a general ability in the past, something you knew how to do over a period of time: \"When I was five, I could read.\" It translates «podía» or «sabía».",
+          "In the Gaining Fluency level you learned that \"could\" is the past of \"can\". Use it for a general ability in the past, something you knew how to do over a period of time: \"When I was five, I could read.\" It translates «podía» or «sabía».",
           "\"Could\" never changes and is followed by the base form without \"to\": \"She could speak three languages\", not *She could to speak or *She coulds speak.",
           "Questions and negatives work like \"can\": \"Could you swim when you were a child?\", \"I couldn't ride a bike until I was ten.\"",
         ],

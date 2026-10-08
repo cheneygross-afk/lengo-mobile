@@ -2935,7 +2935,7 @@ const A1_BASE_LESSONS: Lesson[] = [
             "right": "for"
           }
         ],
-        "explanation": "These four prepositions cover most everyday A1 sentences."
+        "explanation": "These four prepositions cover most everyday Beginner sentences."
       }
     ]
   },
@@ -9822,8 +9822,8 @@ const A1_BASE_LESSONS: Lesson[] = [
     "slug": "vocabulary-practice-1",
     "level": "A1",
     "number": 53,
-    "title": "A1 Vocabulary Practice, Part 1 of 4",
-    "summary": "Test yourself on all 200 words from the A1 vocabulary lists, grouped by lesson.",
+    "title": "Beginner Vocabulary Practice, Part 1 of 4",
+    "summary": "Test yourself on all 200 words from the Beginner vocabulary lists, grouped by lesson.",
     "duration": "10 min",
     "sections": [
       {
@@ -10167,8 +10167,8 @@ const A1_BASE_LESSONS: Lesson[] = [
     "slug": "vocabulary-practice-2",
     "level": "A1",
     "number": 54,
-    "title": "A1 Vocabulary Practice, Part 2 of 4",
-    "summary": "Test yourself on all 200 words from the A1 vocabulary lists, grouped by lesson.",
+    "title": "Beginner Vocabulary Practice, Part 2 of 4",
+    "summary": "Test yourself on all 200 words from the Beginner vocabulary lists, grouped by lesson.",
     "duration": "10 min",
     "sections": [
       {
@@ -10520,8 +10520,8 @@ const A1_BASE_LESSONS: Lesson[] = [
     "slug": "vocabulary-practice-3",
     "level": "A1",
     "number": 55,
-    "title": "A1 Vocabulary Practice, Part 3 of 4",
-    "summary": "Test yourself on all 200 words from the A1 vocabulary lists, grouped by lesson.",
+    "title": "Beginner Vocabulary Practice, Part 3 of 4",
+    "summary": "Test yourself on all 200 words from the Beginner vocabulary lists, grouped by lesson.",
     "duration": "9 min",
     "sections": [
       {
@@ -10759,8 +10759,8 @@ const A1_BASE_LESSONS: Lesson[] = [
     "slug": "vocabulary-practice-4",
     "level": "A1",
     "number": 56,
-    "title": "A1 Vocabulary Practice, Part 4 of 4",
-    "summary": "Test yourself on all 200 words from the A1 vocabulary lists, grouped by lesson.",
+    "title": "Beginner Vocabulary Practice, Part 4 of 4",
+    "summary": "Test yourself on all 200 words from the Beginner vocabulary lists, grouped by lesson.",
     "duration": "7 min",
     "sections": [
       {
@@ -10998,8 +10998,8 @@ const A1_BASE_LESSONS: Lesson[] = [
     "slug": "a1-final-review-1",
     "level": "A1",
     "number": 57,
-    "title": "A1 Comprehensive Review, Part 1 of 3",
-    "summary": "Recap every grammar principle from A1, then take a 32-question final test.",
+    "title": "Beginner Comprehensive Review, Part 1 of 3",
+    "summary": "Recap every grammar principle from the Beginner level, then take a 32-question final test.",
     "duration": "9 min",
     "sections": [
       {
@@ -11174,8 +11174,8 @@ const A1_BASE_LESSONS: Lesson[] = [
     "slug": "a1-final-review-2",
     "level": "A1",
     "number": 58,
-    "title": "A1 Comprehensive Review, Part 2 of 3",
-    "summary": "Recap every grammar principle from A1, then take a 32-question final test.",
+    "title": "Beginner Comprehensive Review, Part 2 of 3",
+    "summary": "Recap every grammar principle from the Beginner level, then take a 32-question final test.",
     "duration": "9 min",
     "sections": [
       {
@@ -11344,8 +11344,8 @@ const A1_BASE_LESSONS: Lesson[] = [
     "slug": "a1-final-review-3",
     "level": "A1",
     "number": 59,
-    "title": "A1 Comprehensive Review, Part 3 of 3",
-    "summary": "Recap every grammar principle from A1, then take a 32-question final test.",
+    "title": "Beginner Comprehensive Review, Part 3 of 3",
+    "summary": "Recap every grammar principle from the Beginner level, then take a 32-question final test.",
     "duration": "8 min",
     "sections": [
       {
@@ -11508,7 +11508,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "mucho."
         ],
         "translation": "My sister is very intelligent and works a lot.",
-        "explanation": "This sentence combines a possessive (mi), adjective agreement (inteligente), ser, and a regular -ar verb (trabaja) — a little bit of everything from A1."
+        "explanation": "This sentence combines a possessive (mi), adjective agreement (inteligente), ser, and a regular -ar verb (trabaja) — a little bit of everything from the Beginner level."
       }
     ]
   },

@@ -8,8 +8,8 @@ export const EN_B1_U34: Lesson[] = [
     slug: "b1-comprehensive-review-1",
     level: "EN-B1",
     number: 1,
-    title: "B1 Comprehensive Review, Part 1 of 3",
-    summary: "A full review of B1 tenses and conditionals: the present perfect continuous, narrative tenses, used to and would, future forms, the three conditionals and I wish.",
+    title: "Independence Comprehensive Review, Part 1 of 3",
+    summary: "A full review of Independence tenses and conditionals: the present perfect continuous, narrative tenses, used to and would, future forms, the three conditionals and I wish.",
     duration: "12 min",
     sections: [
       {
@@ -259,7 +259,7 @@ export const EN_B1_U34: Lesson[] = [
         type: "speak",
         text: "I've been learning English for three years, and I wish I'd started earlier.",
         tip: "Link the words: \"I've been\" sounds like \"I-vbin\". \"I'd started\" is short for \"I had started\".",
-        explanation: "One sentence with two B1 structures: the present perfect continuous and \"I wish\" + past perfect.",
+        explanation: "One sentence with two Independence structures: the present perfect continuous and \"I wish\" + past perfect.",
       },
     ],
   },
@@ -267,7 +267,7 @@ export const EN_B1_U34: Lesson[] = [
     slug: "b1-comprehensive-review-2",
     level: "EN-B1",
     number: 2,
-    title: "B1 Comprehensive Review, Part 2 of 3",
+    title: "Independence Comprehensive Review, Part 2 of 3",
     summary: "A full review of modals (obligation, advice, deduction), the passive, have something done, relative clauses and reported speech.",
     duration: "12 min",
     sections: [
@@ -517,7 +517,7 @@ export const EN_B1_U34: Lesson[] = [
     slug: "b1-comprehensive-review-3",
     level: "EN-B1",
     number: 3,
-    title: "B1 Comprehensive Review, Part 3 of 3",
+    title: "Independence Comprehensive Review, Part 3 of 3",
     summary: "A full review of verb patterns, questions, quantifiers, articles, phrasal verbs, -ed and -ing adjectives, and linkers like although, despite and however.",
     duration: "12 min",
     sections: [

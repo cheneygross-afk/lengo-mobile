@@ -15,7 +15,7 @@ export const EN_B1_U05: Lesson[] = [
       {
         heading: "Will and going to: a quick review",
         body: [
-          "At A2 you learned two futures. \"Will\" is for predictions and opinions about the future (\"I think it will rain\") and for decisions you make at the moment of speaking (\"I'll have a coffee, please\").",
+          "At the Gaining Fluency level you learned two futures. \"Will\" is for predictions and opinions about the future (\"I think it will rain\") and for decisions you make at the moment of speaking (\"I'll have a coffee, please\").",
           "\"Going to\" is for plans and intentions you already have (\"I'm going to study medicine\") and for predictions based on what you can see now (\"Look at those clouds. It's going to rain\").",
           "\"Will\" is followed by the base form of the verb, with no \"to\": \"I will go\", never *I will to go. The negative is \"won't\": \"I won't tell anyone\".",
         ],
@@ -1895,7 +1895,7 @@ export const EN_B1_U05: Lesson[] = [
           "Uses \"might\" or \"I'm thinking of\" + -ing for a less certain plan.",
           "Does not use the present simple for personal plans.",
         ],
-        modelAnswer: "Next year is going to be busy. I'm going to finish my English course and I'm going to take the B2 exam in June. I'm also going to save money, because in August I'm going to travel to Canada with my sister. I'm thinking of changing jobs, but I'm not sure yet. I might look for something in marketing.",
+        modelAnswer: "Next year is going to be busy. I'm going to finish my English course and I'm going to take the Upper Intermediate exam in June. I'm also going to save money, because in August I'm going to travel to Canada with my sister. I'm thinking of changing jobs, but I'm not sure yet. I might look for something in marketing.",
         explanation: "\"Going to\" shows intentions; \"might\" and \"I'm thinking of\" show plans that are still open.",
       },
       {

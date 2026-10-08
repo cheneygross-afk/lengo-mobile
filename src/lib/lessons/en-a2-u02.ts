@@ -1723,8 +1723,8 @@ export const EN_A2_U02: Lesson[] = [
     slug: "a2-spiral-past-a1",
     level: "EN-A2",
     number: 8,
-    title: "Repaso en espiral: el pasado simple y el A1",
-    summary: "Mezcla el pasado simple con lo esencial del A1: to be, presente simple y continuo, posesivos, there is y there was, can, pronombres y preguntas.",
+    title: "Repaso en espiral: el pasado simple y el nivel Fundamentos",
+    summary: "Mezcla el pasado simple con lo esencial del nivel Fundamentos: to be, presente simple y continuo, posesivos, there is y there was, can, pronombres y preguntas.",
     duration: "12 min",
     sections: [
       {

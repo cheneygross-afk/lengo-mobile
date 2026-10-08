@@ -798,7 +798,7 @@ export const FREQUENCY_C1: DeckCard[] = [
   {"rank":4291,"es":"el bollo","en":"bun, pastry","pos":"n.","exEs":"Desayuné un café y un bollo.","exEn":"I had a coffee and a pastry for breakfast."},
   {"rank":4292,"es":"la legión","en":"legion","pos":"n.","exEs":"Tiene una legión de fans.","exEn":"She has legions of fans."},
   {"rank":4293,"es":"mezclar","en":"to mix","pos":"v.","exEs":"Mezcla bien los ingredientes.","exEn":"Mix the ingredients well."},
-  {"rank":4294,"es":"la maternidad","en":"motherhood; maternity","pos":"n.","exEs":"Inglés, que es mi lengua materna, español con nivel B2 y un poco de francés.","exEn":"English, which is my mother tongue, Spanish at B2 level and a bit of French."},
+  {"rank":4294,"es":"la maternidad","en":"motherhood; maternity","pos":"n.","exEs":"Inglés, que es mi lengua materna, español con nivel Avanzado y un poco de francés.","exEn":"English, which is my mother tongue, Spanish at the Advanced level level and a bit of French."},
   {"rank":4295,"es":"consultar","en":"to consult","pos":"v.","exEs":"Esa decisión fue tomada sin consultar a nadie.","exEn":"That decision was made without consulting anyone."},
   {"rank":4296,"es":"virtual","en":"virtual","pos":"adj.","exEs":"Hicimos una visita virtual al museo.","exEn":"We took a virtual tour of the museum."},
   {"rank":4297,"es":"la trompeta","en":"trumpet","pos":"n.","exEs":"Mi hermano toca la trompeta en una banda.","exEn":"My brother plays the trumpet in a band."},

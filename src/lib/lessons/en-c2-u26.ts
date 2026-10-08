@@ -549,7 +549,8 @@ export const EN_C2_U26: Lesson[] = [
         answer: "Repetitive tasks are the most at risk of automation.",
         altAnswers: [
           ...alts(["Repetitive tasks", "Repetitive jobs"], ["are the most at risk of", "are the most vulnerable to", "are most at risk of", "are most vulnerable to"], ["automation.", "being automated."]),
-          ...alts(["Repetitive tasks", "Repetitive jobs"], ["are the ones most at risk of", "are the ones most likely to be", "are the most likely to be"], ["being automated."]),
+          ...alts(["Repetitive tasks", "Repetitive jobs"], ["are the ones most at risk of"], ["being automated."]),
+          ...alts(["Repetitive tasks", "Repetitive jobs"], ["are the ones most likely to be", "are the most likely to be"], ["automated."]),
           "Repetitive tasks are the ones most at risk of automation.",
           "Repetitive tasks are the most likely to be automated.",
         ],
@@ -558,7 +559,7 @@ export const EN_C2_U26: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Uptake among older users has been slower than expected.",
-        question: "¿Qué dice la frase?",
+        question: "What does the sentence say?",
         options: [
           "Los usuarios mayores han adoptado la tecnología más despacio de lo previsto.",
           "Los usuarios mayores han dejado de usar la tecnología.",
@@ -735,12 +736,12 @@ export const EN_C2_U26: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which is the best popular-science version of \"The implementation of the intervention resulted in a significant reduction in hospital admissions in a murine model\"?",
+            question: "Which is the best popular-science version of \"The implementation of the intervention resulted in a significant reduction in tumor growth in a murine model\"?",
             options: [
-              "In mice, the treatment led to far fewer hospital-style admissions, so it might work in people too, though that hasn't been tested yet.",
-              "The treatment cures hospital admissions.",
-              "In tests on mice, the treatment clearly reduced the need for hospital care, although it has not yet been tried in people.",
-              "The implementation reduced admissions in a murine model significantly.",
+              "In mice, the treatment led to far less tumor-style growth, so it might work in people too, though that hasn't been tested yet.",
+              "The treatment cures cancer.",
+              "In tests on mice, the treatment clearly slowed the growth of tumors, although it has not yet been tried in people.",
+              "The implementation reduced tumor growth in a murine model significantly.",
             ],
             correctIndex: 2,
             explanation: "The good version uses plain verbs, explains \"murine\" (in mice) and keeps the limitation. The first invents a confusing phrase and adds speculation; the second overclaims; the last is still jargon.",
@@ -1341,7 +1342,7 @@ export const EN_C2_U26: Lesson[] = [
     slug: "c2-vocab-scientific-method",
     level: "EN-C2",
     number: 6,
-    title: "C2 vocabulary: the scientific method",
+    title: "Mastery vocabulary: the scientific method",
     summary: "The working vocabulary of research: replicate, peer review, preprint, control group, sample size, variable, bias, robust. Plus the traps: experiment vs experience, uncountable evidence and research, and significant vs meaningful.",
     duration: "12 min",
     sections: [
@@ -1660,7 +1661,7 @@ export const EN_C2_U26: Lesson[] = [
         body: [
           "Boosters are not forbidden; they are for claims that the evidence fully supports or that are widely accepted. \"Clearly\", \"undoubtedly\", \"it is well established that\", \"there is no doubt that\", \"the results demonstrate that\" all signal confidence.",
           "Use them sparingly and close to the evidence: \"As Table 2 clearly shows...\" is fine, because the reader can check. Starting an argumentative paragraph with \"It is evident that\" when the point is controversial reads as an attempt to skip the argument. Often a neutral verb is stronger than a booster: \"The data show\" says more than \"It is obvious that\".",
-          "Watch the false friend «evidente»: it often means «obvio» in Spanish, and \"evident\" in English is formal and rarer. «Es evidente que» can often be rendered as \"Clearly,\" or simply deleted. And «sin duda» is \"undoubtedly\" or \"without doubt\", not *without a doubt in a formal paper (that phrase is more conversational).",
+          "Watch the false friend «evidente»: it often means «obvio» in Spanish, and \"evident\" in English is formal and rarer. «Es evidente que» can often be rendered as \"Clearly,\" or simply deleted. And «sin duda» is \"undoubtedly\" or \"without doubt\", rather than the more conversational \"without a doubt\".",
         ],
         examples: [
           { es: "It is well established that smoking causes lung cancer.", en: "Está bien establecido que el tabaco causa cáncer de pulmón." },

@@ -155,7 +155,25 @@ export function displayTitle(
   }
   const [part, of] = isEnglishTitle(base, lesson.level) ? ["Part", "of"] : ["Parte", "de"];
   title = suffix ? `${base}, ${part} ${x} ${of} ${y}` : base;
-  return title;
+  return withoutLevelCodes(title, lesson.level, isEnglishTitle(title, lesson.level));
+}
+
+// Level names shown in place of CEFR codes inside titles ("A1 Vocabulary
+// Practice" -> "Beginner Vocabulary Practice"), per course and, for the
+// Spanish course, per title language. The codes stay in the stored titles.
+const TITLE_LEVEL_NAMES: Record<string, Record<string, string>> = {
+  "es-en": { A1: "Beginner", A2: "Elementary", B1: "Intermediate", B2: "Advanced", C1: "Mastery", C2: "Professional & Academic", "C1/C2": "Mastery & Professional" },
+  "es-es": { A1: "Principiante", A2: "Elemental", B1: "Intermedio", B2: "Avanzado", C1: "Maestría", C2: "Profesional y Académico", "C1/C2": "Maestría y Profesional" },
+  ja: { A1: "Beginner", A2: "Elementary", B1: "Intermediate", B2: "Upper-intermediate", C1: "Advanced", C2: "Mastery" },
+  en: { A1: "Fundamentos", A2: "Ganando fluidez", B1: "Independencia", B2: "Intermedio alto", C1: "Avanzado", C2: "Maestría", "C1/C2": "Avanzado y Maestría" },
+  zh: { A1: "Foundations", A2: "Everyday Chinese", B1: "Independent Chinese", B2: "Upper-Intermediate Chinese", C1: "高级汉语", C2: "精通汉语" },
+};
+
+/** A title with any CEFR codes replaced by the course's level names. */
+export function withoutLevelCodes(text: string, level: string, english = true): string {
+  const prefix = /^(EN|JA|ZH)-/i.exec(level)?.[1].toLowerCase();
+  const names = TITLE_LEVEL_NAMES[prefix ?? (english ? "es-en" : "es-es")];
+  return text.replace(/\b(?:C1\/C2|[ABC][12])\b/g, (code) => names[code] ?? code);
 }
 
 // ---- Progress helpers ----------------------------------------------------

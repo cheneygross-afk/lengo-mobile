@@ -9,14 +9,14 @@ export const EN_A2_U23: Lesson[] = [
     slug: "a2-challenge-big-error-hunt",
     level: "EN-A2",
     number: 1,
-    title: "Desafío A2: la gran caza de errores",
-    summary: "Un desafío largo para encontrar y corregir los errores típicos de los hispanohablantes en todo el A2: tiempos verbales, cantidades, comparaciones, modales, preposiciones y falsos amigos.",
+    title: "Desafío de nivel Ganando fluidez: la gran caza de errores",
+    summary: "Un desafío largo para encontrar y corregir los errores típicos de los hispanohablantes en todo el nivel Ganando fluidez: tiempos verbales, cantidades, comparaciones, modales, preposiciones y falsos amigos.",
     duration: "12 min",
     sections: [
       {
         heading: "Primera trampa: los tiempos verbales",
         body: [
-          "En este desafío vas a revisar frases, un mensaje y una pequeña historia con los errores más típicos de los hispanohablantes en el A2. Lee con calma: muchas veces el error está en una palabra que en español sería perfecta.",
+          "En este desafío vas a revisar frases, un mensaje y una pequeña historia con los errores más típicos de los hispanohablantes en el nivel Ganando fluidez. Lee con calma: muchas veces el error está en una palabra que en español sería perfecta.",
           "Con un momento terminado del pasado (\"yesterday\", \"last week\", \"in 2019\", \"ago\") se usa el pasado simple, no el presente perfecto: \"I saw him yesterday\", no *I have seen him yesterday.",
           "Después de \"did\" y \"didn't\" el verbo vuelve a su forma base: \"Did you go?\", no *Did you went?. Y para «estoy aquí desde el lunes» se usa el presente perfecto: \"I have been here since Monday\", nunca *I am here since Monday.",
         ],
@@ -249,7 +249,7 @@ export const EN_A2_U23: Lesson[] = [
         type: "speak",
         text: "I agree with you, but it depends on the price.",
         tip: "Une \"depends on\" como una sola palabra: «di-PEN-zon». Y no añadas \"am\" delante de \"agree\".",
-        explanation: "\"I agree\" (sin \"am\") y \"depend on\" (no \"of\") son dos correcciones clave del A2.",
+        explanation: "\"I agree\" (sin \"am\") y \"depend on\" (no \"of\") son dos correcciones clave del nivel Ganando fluidez.",
       },
     ],
   },
@@ -258,14 +258,14 @@ export const EN_A2_U23: Lesson[] = [
     slug: "a2-challenge-dialogue-marathon",
     level: "EN-A2",
     number: 2,
-    title: "Desafío A2: maratón de diálogos",
-    summary: "Una cadena de diálogos (aeropuerto, hotel, restaurante, médico y una llamada) en la que completas cada turno con frases de supervivencia y gramática del A2.",
+    title: "Desafío de nivel Ganando fluidez: maratón de diálogos",
+    summary: "Una cadena de diálogos (aeropuerto, hotel, restaurante, médico y una llamada) en la que completas cada turno con frases de supervivencia y gramática del nivel Ganando fluidez.",
     duration: "12 min",
     sections: [
       {
         heading: "Parada 1: el aeropuerto",
         body: [
-          "En este maratón acompañas a Lucia en un viaje, de diálogo en diálogo. En cada parada completas su turno con frases de supervivencia y la gramática del A2.",
+          "En este maratón acompañas a Lucia en un viaje, de diálogo en diálogo. En cada parada completas su turno con frases de supervivencia y la gramática del nivel Ganando fluidez.",
           "En inmigración te harán preguntas cortas: \"What's the purpose of your visit?\", \"How long are you staying?\", \"Where are you staying?\". Responde con frases sencillas: \"I'm here on vacation\", \"For two weeks\", \"At a hotel downtown\".",
           "Para la duración se usa \"for\": \"for two weeks\". *During two weeks y *since two weeks son errores típicos. Y «facturar la maleta» es \"check a bag\".",
         ],
@@ -539,7 +539,7 @@ export const EN_A2_U23: Lesson[] = [
     slug: "a2-challenge-translation-relay",
     level: "EN-A2",
     number: 3,
-    title: "Desafío A2: relevo de traducciones",
+    title: "Desafío de nivel Ganando fluidez: relevo de traducciones",
     summary: "Traducciones rápidas del español al inglés que recorren tiempos verbales, modales, cantidades, comparativos, preposiciones y patrones verbales, cada vez más largas.",
     duration: "12 min",
     sections: [
@@ -818,7 +818,7 @@ export const EN_A2_U23: Lesson[] = [
     slug: "a2-challenge-story-chain",
     level: "EN-A2",
     number: 4,
-    title: "Desafío A2: la cadena de la historia",
+    title: "Desafío de nivel Ganando fluidez: la cadena de la historia",
     summary: "Construye una historia frase a frase eligiendo el pasado correcto, el ordenador y el conector en cada paso, y al final cuéntala tú.",
     duration: "12 min",
     sections: [
@@ -1053,7 +1053,7 @@ export const EN_A2_U23: Lesson[] = [
     slug: "a2-challenge-life-timeline",
     level: "EN-A2",
     number: 5,
-    title: "Desafío A2: la línea de tu vida",
+    title: "Desafío de nivel Ganando fluidez: la línea de tu vida",
     summary: "Recorre una vida de la infancia al futuro: \"used to\", pasado simple con fechas, presente perfecto con \"for\" y \"since\", \"going to\" y \"will\". Al final, escribes sobre la tuya.",
     duration: "12 min",
     sections: [
@@ -1293,7 +1293,7 @@ export const EN_A2_U23: Lesson[] = [
     slug: "a2-challenge-new-york-1",
     level: "EN-A2",
     number: 6,
-    title: "Desafío A2: una semana en Nueva York, parte 1 de 2",
+    title: "Desafío de nivel Ganando fluidez: una semana en Nueva York, parte 1 de 2",
     summary: "Días 1 a 3 de un viaje a Nueva York: llegar, registrarte en el hotel, pedir direcciones, pedir comida, charlar con desconocidos y escribir un diario en pasado y en futuro.",
     duration: "12 min",
     sections: [
@@ -1537,7 +1537,7 @@ export const EN_A2_U23: Lesson[] = [
     slug: "a2-challenge-new-york-2",
     level: "EN-A2",
     number: 7,
-    title: "Desafío A2: una semana en Nueva York, parte 2 de 2",
+    title: "Desafío de nivel Ganando fluidez: una semana en Nueva York, parte 2 de 2",
     summary: "Días 4 a 7 en Nueva York: un teléfono perdido, un resfriado, compras y una queja, comparar lugares y escribir una reseña y un mensaje a casa.",
     duration: "12 min",
     sections: [
@@ -1787,14 +1787,14 @@ export const EN_A2_U23: Lesson[] = [
     slug: "a2-challenge-tense-gauntlet",
     level: "EN-A2",
     number: 8,
-    title: "Desafío A2: el gran circuito de tiempos verbales",
-    summary: "Todos los tiempos del A2 en sus contrastes más difíciles: pasado simple o presente perfecto, pasado simple o continuo, \"will\" o \"going to\", condicionales y oraciones de tiempo.",
+    title: "Desafío de nivel Ganando fluidez: el gran circuito de tiempos verbales",
+    summary: "Todos los tiempos del nivel Ganando fluidez en sus contrastes más difíciles: pasado simple o presente perfecto, pasado simple o continuo, \"will\" o \"going to\", condicionales y oraciones de tiempo.",
     duration: "12 min",
     sections: [
       {
         heading: "Pasado simple o presente perfecto",
         body: [
-          "En este circuito te enfrentas a los contrastes más difíciles del A2. Cada sección es una pareja (o un trío) de tiempos que los hispanohablantes confunden.",
+          "En este circuito te enfrentas a los contrastes más difíciles del nivel Ganando fluidez. Cada sección es una pareja (o un trío) de tiempos que los hispanohablantes confunden.",
           "Pasado simple: acción terminada en un momento concreto (\"yesterday\", \"in 2019\", \"last week\", \"ago\"). Presente perfecto: experiencia sin fecha (\"ever\", \"never\"), resultado ahora (\"just\", \"already\", \"yet\") o algo que sigue (\"for\", \"since\").",
           "No te guíes por el tiempo del español. Si dices cuándo, pasado simple: \"I saw her this morning\". Y las preguntas con \"When...?\" también van en pasado simple: \"When did you arrive?\", nunca *When have you arrived?.",
         ],
@@ -2031,7 +2031,7 @@ export const EN_A2_U23: Lesson[] = [
     slug: "a2-challenge-email-host-family",
     level: "EN-A2",
     number: 9,
-    title: "Desafío A2: correo a tu familia anfitriona",
+    title: "Desafío de nivel Ganando fluidez: correo a tu familia anfitriona",
     summary: "Escribe un correo para presentarte a tu familia anfitriona: quién eres, tus experiencias, lo que hacías antes, tus planes, preguntas y peticiones educadas.",
     duration: "12 min",
     sections: [
@@ -2275,15 +2275,15 @@ export const EN_A2_U23: Lesson[] = [
     slug: "a2-exit-test",
     level: "EN-A2",
     number: 10,
-    title: "Examen final del A2: ¿listo para el B1?",
-    summary: "El examen de salida del A2: tiempos verbales, modales, patrones verbales, cantidades, comparaciones, pronombres, preposiciones, preguntas, vocabulario y falsos amigos.",
+    title: "Examen final del nivel Ganando fluidez: ¿listo para el nivel Independencia?",
+    summary: "El examen de salida del nivel Ganando fluidez: tiempos verbales, modales, patrones verbales, cantidades, comparaciones, pronombres, preposiciones, preguntas, vocabulario y falsos amigos.",
     duration: "12 min",
     sections: [
       {
         heading: "Instrucciones y parte 1: los tiempos verbales",
         body: [
-          "Este es el examen final del A2. No hay explicaciones nuevas: solo preguntas de todo el nivel, en cuatro partes y un bloque final mezclado. Contesta sin mirar las lecciones anteriores.",
-          "Si aciertas casi todo, estás listo para el B1. Si fallas algo, lee la explicación verde y repasa esa unidad.",
+          "Este es el examen final del nivel Ganando fluidez. No hay explicaciones nuevas: solo preguntas de todo el nivel, en cuatro partes y un bloque final mezclado. Contesta sin mirar las lecciones anteriores.",
+          "Si aciertas casi todo, estás listo para el nivel Independencia. Si fallas algo, lee la explicación verde y repasa esa unidad.",
           "Parte 1: pasado simple, pasado continuo, presente perfecto, \"used to\" y el futuro.",
         ],
         checkpoint: [

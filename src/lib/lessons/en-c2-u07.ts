@@ -1512,7 +1512,7 @@ export const EN_C2_U07: Lesson[] = [
       {
         heading: "Rewriting: literal and figurative",
         body: [
-          "A good exercise at C2 is to move a headline in both directions. Literal: \"Government refuses to change tax plan despite criticism\". Figurative: \"Number 10 digs in on tax\".",
+          "A good exercise at the Mastery level is to move a headline in both directions. Literal: \"Government refuses to change tax plan despite criticism\". Figurative: \"Number 10 digs in on tax\".",
           "When you go figurative, choose one coherent image. Mixed metaphors (\"The minister is skating on thin ice and walking into a minefield\") are a classic error and an easy target for satire.",
           "When you go literal, spell out who acted, what they did and why. This is also how you check that you have really understood a headline before discussing it.",
         ],
@@ -1707,7 +1707,7 @@ export const EN_C2_U07: Lesson[] = [
     slug: "c2-vocab-dead-metaphors",
     level: "EN-C2",
     number: 7,
-    title: "C2 vocabulary: dead metaphors in everyday verbs",
+    title: "Mastery vocabulary: dead metaphors in everyday verbs",
     summary: "Verbs whose metaphor has faded but still shapes collocation: grasp an idea, shed light on, tackle a problem, weigh up options, sift through evidence, bridge a gap, steer a conversation. Replace vague verbs with precise metaphorical ones.",
     duration: "12 min",
     sections: [
@@ -2055,7 +2055,7 @@ export const EN_C2_U07: Lesson[] = [
     level: "EN-C2",
     number: 8,
     title: "Spiral review: figurative language in literary texts",
-    summary: "Short literary extracts that combine the unit's figures with C1 narrative grammar (participle clauses, inversion after negative adverbials). Move from naming a device to analyzing its effect.",
+    summary: "Short literary extracts that combine the unit's figures with Advanced narrative grammar (participle clauses, inversion after negative adverbials). Move from naming a device to analyzing its effect.",
     duration: "12 min",
     sections: [
       {
@@ -2154,7 +2154,7 @@ export const EN_C2_U07: Lesson[] = [
         heading: "Participle clauses with imagery",
         body: [
           "Participle clauses let a writer attach an image to a character without a new sentence: \"Crouched like a cat on the windowsill, the boy watched the street\", \"Left to itself, the garden ran wild\", \"Swaying like a drunk, the old tram rattled downhill\".",
-          "The C1 rule still applies: the implied subject of the participle must be the subject of the main clause. *Walking down the avenue, the trees looked beautiful says that the trees were walking. Write \"Walking down the avenue, we admired the trees\".",
+          "The Advanced rule still applies: the implied subject of the participle must be the subject of the main clause. *Walking down the avenue, the trees looked beautiful says that the trees were walking. Write \"Walking down the avenue, we admired the trees\".",
           "Combine with a simile or personification for a dense, literary effect, but do not stack too many: one image per clause is a good discipline.",
         ],
         examples: [
@@ -2382,7 +2382,7 @@ export const EN_C2_U07: Lesson[] = [
           "A final sentence that analyses the effect, not just names the device",
         ],
         modelAnswer: "Stepping off the last train, I found the city wide awake. Neon signs muttered to one another across the empty square, and a lonely taxi idled by the curb. Never had I felt so small, nor so welcome. By making the signs mutter like gossiping neighbors, I wanted to suggest a city that is alive and slightly suspicious of strangers.",
-        explanation: "The task recycles C1 narrative grammar and C2 figurative language, and ends with analysis: the skill examiners reward.",
+        explanation: "The task recycles Advanced narrative grammar and Mastery figurative language, and ends with analysis: the skill examiners reward.",
       },
     ],
   },

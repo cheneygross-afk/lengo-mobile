@@ -50,7 +50,7 @@ export const EN_B1_U14_EXTRA: Lesson[] = [
         body: [
           "The second part is the PAST PARTICIPLE (third column): build - built - built, write - wrote - written, steal - stole - stolen. Not *It was build and not *The house is builded.",
           "Regular verbs are easy: -ed (\"cleaned\", \"painted\"). With irregular verbs, check the third column: \"was written\", not *was wrote; \"was taken\", not *was took.",
-          "Common B1 participles in the passive: made, built, sold, spoken, written, taken, given, found, stolen, broken, known, held, chosen, eaten, seen, drawn, sung.",
+          "Common Independence participles in the passive: made, built, sold, spoken, written, taken, given, found, stolen, broken, known, held, chosen, eaten, seen, drawn, sung.",
         ],
         examples: [
           { es: "The house was built in 1920.", en: "La casa se construyó en 1920." },

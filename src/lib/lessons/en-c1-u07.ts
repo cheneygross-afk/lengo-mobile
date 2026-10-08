@@ -2069,7 +2069,7 @@ export const EN_C1_U07: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "We want to understand the way ___ customers use our app.",
         answer: "in which",
-        altAnswers: ["that", "how"],
+        altAnswers: ["that"],
         en: "Queremos entender la manera [en que] los clientes usan nuestra aplicación.",
         explanation: "\"The way in which\" is formal; \"the way (that)\" is neutral. Not *the way how: use either \"the way\" or \"how\".",
       },
@@ -2615,7 +2615,7 @@ export const EN_C1_U07: Lesson[] = [
         sentence: "Nobody enjoys ___ in public.",
         answer: "being criticized",
         en: "A nadie le gusta [que lo critiquen] en público.",
-        altAnswers: ["being criticised", "being told off", "being humiliated"],
+        altAnswers: ["being criticised", "being told off"],
         explanation: "\"Enjoy\" takes a gerund; the subject receives the action, so passive gerund \"being criticized\".",
       },
       {
@@ -3629,11 +3629,11 @@ export const EN_C1_U07: Lesson[] = [
     level: "EN-C1",
     number: 12,
     title: "Spiral Review: Relatives, Passives and Participles",
-    summary: "Review B2 defining and non-defining relatives and the passive in all tenses, and connect them with reduced relatives and past participle clauses: \"The report, which was published...\" > \"The report, published...\".",
+    summary: "Review Upper Intermediate defining and non-defining relatives and the passive in all tenses, and connect them with reduced relatives and past participle clauses: \"The report, which was published...\" > \"The report, published...\".",
     duration: "12 min",
     sections: [
       {
-        heading: "Defining and non-defining relatives (B2 review)",
+        heading: "Defining and non-defining relatives (Upper Intermediate review)",
         body: [
           "Defining clauses identify which one: no commas, \"that\" is possible, and the pronoun can be dropped when it is the object (\"the car (that) I bought\"). Non-defining clauses add extra information: commas, never \"that\", and the pronoun can never be dropped (\"My car, which I bought in 2020, ...\").",
           "Commas can change the meaning: \"The students who passed got a certificate\" (only some passed) vs \"The students, who passed, got a certificate\" (all of them passed). Spanish makes the same distinction, so use your Spanish intuition about the commas.",
@@ -3660,7 +3660,7 @@ export const EN_C1_U07: Lesson[] = [
         ],
       },
       {
-        heading: "The passive in all tenses (B2 review)",
+        heading: "The passive in all tenses (Upper Intermediate review)",
         body: [
           "The passive is \"be\" in the right tense + past participle: \"is built\", \"is being built\", \"was built\", \"has been built\", \"had been built\", \"will be built\", \"will have been built\", \"must be built\".",
           "Spanish often uses «se» where English uses a passive: «Se construyó en 1900» = \"It was built in 1900\"; «Se dice que...» = \"It is said that...\" or \"He is said to...\". Don't translate «se» with *It built itself or a missing subject (*Was built in 1900).",
@@ -3879,7 +3879,7 @@ export const EN_C1_U07: Lesson[] = [
     level: "EN-C1",
     number: 13,
     title: "Word Web: Environment and Sustainability",
-    summary: "C1 vocabulary for environmental topics: emissions, carbon footprint, renewable, depletion, biodiversity, mitigate, offset, sustainable, endangered, landfill, plus key collocations like \"take measures\" and \"tackle climate change\".",
+    summary: "Advanced vocabulary for environmental topics: emissions, carbon footprint, renewable, depletion, biodiversity, mitigate, offset, sustainable, endangered, landfill, plus key collocations like \"take measures\" and \"tackle climate change\".",
     duration: "12 min",
     sections: [
       {
@@ -4062,7 +4062,7 @@ export const EN_C1_U07: Lesson[] = [
           { left: "renewable", right: "renovable" },
           { left: "wildlife", right: "fauna" },
         ],
-        explanation: "These are core C1 terms for environmental topics. \"Wildlife\" is uncountable, like \"biodiversity\".",
+        explanation: "These are core Advanced terms for environmental topics. \"Wildlife\" is uncountable, like \"biodiversity\".",
       },
       {
         type: "translate",
@@ -4178,7 +4178,7 @@ export const EN_C1_U07: Lesson[] = [
     slug: "c1-core-words-4",
     level: "EN-C1",
     number: 14,
-    title: "C1 Core Words 4: Linking and Structuring Words",
+    title: "Advanced Core Words 4: Linking and Structuring Words",
     summary: "Core words for organizing ideas: aspect, factor, element, issue, extent, notion, sequence, priority, respectively and whereby, with register notes and the difference between \"issue\", \"problem\" and \"matter\".",
     duration: "12 min",
     sections: [

@@ -97,7 +97,7 @@ export const EN_C2_U23_EXTRA: Lesson[] = [
           },
           {
             es: "We needn't have rushed: the film started late.",
-            en: "Fue para nada correr: la película empezó tarde.",
+            en: "No hacía falta correr: la película empezó tarde.",
           },
           {
             es: "You didn't have to wait for me.",
@@ -115,7 +115,7 @@ export const EN_C2_U23_EXTRA: Lesson[] = [
               "I needn't have study so hard.",
             ],
             correctIndex: 0,
-            explanation: "You did study, and it was wasted effort: \"needn't have\" + past participle. \"Mustn't have\" is not used for the past in standard English.",
+            explanation: "You did study, and it was wasted effort: \"needn't have\" + past participle. \"Mustn't have\" could only be a guess about the past, not a comment on unnecessary effort.",
           },
           {
             type: "fill-blank",
@@ -1173,7 +1173,7 @@ export const EN_C2_U23_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "To be ___, the results are not quite what we expected.",
         answer: "honest",
-        altAnswers: ["frank", "fair"],
+        altAnswers: ["frank"],
         en: "Para [ser sinceros], los resultados no son exactamente lo que esperábamos.",
         explanation: "\"To be honest\" cushions bad news, and \"not quite what we expected\" is understatement for «decepcionantes».",
       },

@@ -347,7 +347,7 @@ export const EN_C2_U13: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Granted, it's a fair point. That said, it doesn't hold water.",
+        text: "Granted, it's a popular view. That said, it doesn't hold water.",
         tip: "Pause briefly after \"Granted\" and after \"That said\": they are signals the listener needs to hear.",
         explanation: "In speech, the pause after a concessive opener is what tells the listener that a turn is coming.",
       },
@@ -808,7 +808,7 @@ export const EN_C2_U13: Lesson[] = [
         body: [
           "Strictly, \"begging the question\" («petición de principio») means assuming the very thing you are trying to prove: \"The Bible is true because it is the word of God, and we know that because the Bible says so.\" The argument goes round in a circle, which is why it is also called \"circular reasoning\".",
           "In everyday English, however, most people use \"this begs the question\" to mean \"this raises the question\" («esto plantea la pregunta»): \"The budget has doubled, which begs the question: where is the money going?\" Many style guides and philosophers object to this use.",
-          "The safe strategy at C2: say \"raises the question\" when you mean «plantea la pregunta», and \"begs the question\" or \"circular reasoning\" only for the fallacy. You will be understood in both cases and criticized in neither.",
+          "The safe strategy at the Mastery level: say \"raises the question\" when you mean «plantea la pregunta», and \"begs the question\" or \"circular reasoning\" only for the fallacy. You will be understood in both cases and criticized in neither.",
         ],
         examples: [
           { es: "That's circular reasoning: you're assuming what you're trying to prove.", en: "Eso es un razonamiento circular: das por sentado lo que intentas demostrar." },
@@ -991,7 +991,7 @@ export const EN_C2_U13: Lesson[] = [
         body: [
           "Every argument starts with a claim: a clear, arguable statement of your position. English academic and professional writing expects the claim early, often in the first paragraph, whereas Spanish essays sometimes build up to it. \"My central contention is that...\", \"I will argue that...\" and \"The case for X rests on three points\" announce it directly.",
           "A claim needs reasons (\"This is because...\", \"The main reason is that...\") and each reason needs evidence: data, examples, expert findings. Typical evidence signposts are \"This is borne out by...\", \"There is ample evidence that...\", \"A case in point is...\" and \"To take one example, ...\".",
-          "Avoid leaning on \"In my opinion\" for every sentence. At C2, the position is clear from the claim itself; use \"I would argue that\" or \"It seems to me that\" sparingly, for emphasis.",
+          "Avoid leaning on \"In my opinion\" for every sentence. At the Mastery level, the position is clear from the claim itself; use \"I would argue that\" or \"It seems to me that\" sparingly, for emphasis.",
         ],
         examples: [
           { es: "My central contention is that the four-day week benefits both workers and employers.", en: "Mi tesis central es que la semana de cuatro días beneficia tanto a trabajadores como a empresas." },
@@ -1663,7 +1663,7 @@ export const EN_C2_U13: Lesson[] = [
         body: [
           "The same strength can be expressed at very different levels of formality. Strong disagreement among friends: \"No way!\", \"Come off it!\" (British), \"You've got to be kidding.\" In a meeting: \"I'm afraid I can't agree with that.\" In an academic paper: \"This claim is difficult to sustain.\"",
           "Agreement works the same way. Informal: \"Totally\", \"Tell me about it\" (= I know exactly what you mean, often about a shared complaint). Neutral: \"I agree\", \"That's a good point\". Formal: \"I concur\", \"I would endorse that view\".",
-          "Mixing registers is a common C2 slip: \"I concur, mate\" or \"With respect, that's rubbish\" sound odd because the two halves clash.",
+          "Mixing registers is a common Mastery slip: \"I concur, mate\" or \"With respect, that's rubbish\" sound odd because the two halves clash.",
         ],
         examples: [
           { es: "Tell me about it! The traffic was a nightmare.", en: "¡A mí me lo vas a contar! El tráfico era una pesadilla." },
@@ -2124,7 +2124,7 @@ export const EN_C2_U13: Lesson[] = [
     level: "EN-C2",
     number: 8,
     title: "Spiral review: conditionals and the subjunctive in argument",
-    summary: "Recycle C1 conditionals and the subjunctive as debating tools: \"Were it not for...\", \"Should this policy fail...\", \"Had we known...\", \"Suppose we accept that...\", \"If anything...\" and the mandative \"I propose that it be...\".",
+    summary: "Recycle Advanced conditionals and the subjunctive as debating tools: \"Were it not for...\", \"Should this policy fail...\", \"Had we known...\", \"Suppose we accept that...\", \"If anything...\" and the mandative \"I propose that it be...\".",
     duration: "12 min",
     sections: [
       {
@@ -2678,7 +2678,7 @@ export const EN_C2_U13: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "I propose that the meeting ___ postponed.",
         answer: "be",
-        altAnswers: ["should be", "is"],
+        altAnswers: ["should be"],
         en: "Propongo que la reunión [se aplace].",
         explanation: "The mandative subjunctive uses the base form \"be\" for every person: \"that the meeting be postponed\".",
       },
