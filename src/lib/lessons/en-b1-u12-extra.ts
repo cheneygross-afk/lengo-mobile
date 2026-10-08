@@ -626,7 +626,7 @@ export const EN_B1_U12_EXTRA: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "They must be on holiday. The house has been empty for days.",
+        audio: "They must be on vacation. The house has been empty for days.",
         question: "What did you hear?",
         options: [
           "Deben de estar de vacaciones. La casa lleva días vacía.",
@@ -685,7 +685,7 @@ export const EN_B1_U12_EXTRA: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "I can't find my keys. I ___ them at the office.",
             answer: "must have left",
-            altAnswers: ["must've left", "might have left", "might've left", "may have left", "could have left"],
+            altAnswers: ["must've left"],
             en: "No encuentro las llaves. [Debo de haberlas dejado] en la oficina.",
             explanation: "A deduction about the past: \"must have\" + participle \"left\".",
           },
@@ -752,7 +752,7 @@ export const EN_B1_U12_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Emma didn't answer my message. She ___ busy.",
         answer: "must have been",
-        altAnswers: ["must've been", "might have been", "may have been", "could have been"],
+        altAnswers: ["must've been"],
         en: "Emma no contestó mi mensaje. [Debía de estar] ocupada.",
         explanation: "Past deduction with \"be\": \"must have been\". Not *must was or *must have be.",
       },
@@ -842,9 +842,9 @@ export const EN_B1_U12_EXTRA: Lesson[] = [
         audio: "She might've taken the wrong train.",
         question: "What did you hear?",
         options: [
-          "Puede que haya cogido el tren equivocado.",
-          "Debería haber cogido el otro tren.",
-          "No puede haber cogido el tren equivocado.",
+          "Puede que haya tomado el tren equivocado.",
+          "Debería haber tomado el otro tren.",
+          "No puede haber tomado el tren equivocado.",
         ],
         correctIndex: 0,
         explanation: "\"Might've\" = \"might have\": a possibility about the past, «puede que haya».",
@@ -1017,7 +1017,7 @@ export const EN_B1_U12_EXTRA: Lesson[] = [
         options: [
           "Maybe we should ask someone.",
           "May be we should ask someone.",
-          "We maybe should ask someone.",
+          "We should may be ask someone.",
           "We may be should ask someone.",
         ],
         correctIndex: 0,
@@ -1040,7 +1040,7 @@ export const EN_B1_U12_EXTRA: Lesson[] = [
         instructions: "Match each sentence with its meaning.",
         pairs: [
           { left: "Maybe she's tired.", right: "A lo mejor está cansada." },
-          { left: "She may be tired.", right: "Puede que esté cansada." },
+          { left: "She may not be tired.", right: "Puede que no esté cansada." },
           { left: "She must be tired.", right: "Debe de estar cansada." },
           { left: "She can't be tired.", right: "No puede estar cansada." },
         ],

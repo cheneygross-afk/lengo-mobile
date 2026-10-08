@@ -127,7 +127,7 @@ export const EN_A1_U3_MORE: Lesson[] = [
       {
         heading: "Take, get y go",
         body: [
-          "\"Take\" es «tomar» o «coger» en muchos sentidos: \"take the bus\" (tomar el autobús), \"take a photo\" (sacar una foto), \"take a shower\" (ducharse). En inglés británico también se dice \"have a shower\".",
+          "\"Take\" es «tomar» en muchos sentidos: \"take the bus\" (tomar el autobús), \"take a photo\" (sacar una foto), \"take a shower\" (ducharse). En inglés británico también se dice \"have a shower\".",
           "\"Get\" cambia de significado según lo que lleve detrás: \"get an email\" (recibir), \"get a coffee\" (comprar o ir a buscar), \"get home\" (llegar a casa), \"get up\" (levantarse). Es uno de los verbos más versátiles del inglés.",
           "\"Go\" es «ir»: \"go to work\", \"go to school\", \"go to bed\" (acostarse). Ojo: con \"home\" no se usa \"to\": \"go home\".",
         ],
@@ -1059,7 +1059,7 @@ export const EN_A1_U3_MORE: Lesson[] = [
       {
         type: "speak",
         text: "Are you busy? No, I'm not. Do you want a coffee?",
-        tip: "En las preguntas de sí o no la voz sube al final. \"Want\" suena como \"wont\", con la «o» de «on».",
+        tip: "En las preguntas de sí o no la voz sube al final. \"Want\" tiene una vocal abierta y corta, parecida a la «a» de «van»: no lo confundas con \"won't\".",
         explanation: "\"Are you\" con \"be\", \"Do you\" con los demás verbos.",
       },
     ],

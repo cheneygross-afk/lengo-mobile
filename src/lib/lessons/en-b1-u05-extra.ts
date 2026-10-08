@@ -19,7 +19,7 @@ export const EN_B1_U05_EXTRA: Lesson[] = [
         heading: "Three futures in thirty seconds",
         body: [
           "\"Will\": a decision made right now (\"I'll have the fish\") or a prediction from your opinion (\"I think she'll win\"). \"Going to\": an intention you already have (\"I'm going to learn Italian\") or a prediction from what you can see (\"Look out! He's going to fall\"). Present continuous: a fixed arrangement with a time and other people (\"I'm meeting Tom at six\").",
-          "The two mistakes Spanish speakers make most: using the present simple for a decision made now (*I call you later for «te llamo luego») and using \"will\" for something already arranged (*I will go to the movies tonight for «esta noche voy al cine» with friends who are waiting for you).",
+          "The two mistakes Spanish speakers make most: using the present simple for a decision made now (*I call you later for «te llamo luego») and using \"will\" for something already arranged (\"I will go to the movies tonight\" (possible, but unnatural) for «esta noche voy al cine» with friends who are waiting for you).",
         ],
         examples: [
           { es: "I'll call you later.", en: "Te llamo luego. (decisión de ahora: no «I call you later»)" },
@@ -501,7 +501,7 @@ export const EN_B1_U05_EXTRA: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Estarás usando la impresora esta tarde?",
+            source: "¿Vas a usar la impresora esta tarde?",
             answer: "Will you be using the printer this afternoon?",
             altAnswers: ["Are you going to be using the printer this afternoon?", "Will you be using the printer later this afternoon?"],
             explanation: "\"Will you be using...?\" is the polite way to ask about plans. Keep the full form: \"be\" + \"using\".",
@@ -526,7 +526,7 @@ export const EN_B1_U05_EXTRA: Lesson[] = [
         answer: "will be having",
         altAnswers: ["'ll be having", "will be eating", "'ll be eating"],
         en: "No vengas a las siete. [Estaremos cenando].",
-        explanation: "«Estaremos cenando» = \"we'll be having dinner\": an action in progress at seven. English \"has\" dinner; it does not *dine in everyday speech.",
+        explanation: "«Estaremos cenando» = \"we'll be having dinner\": an action in progress at seven. English \"has\" dinner; \"dine\" is formal.",
       },
       {
         type: "translate",

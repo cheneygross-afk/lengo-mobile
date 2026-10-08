@@ -510,7 +510,7 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Conjuga el verbo.",
             "sentence": "Deseo que ustedes ___ (tener) éxito en el examen.",
             "answer": "tengan",
-            "explanation": "Tener es irregular con e→ie en subjuntivo: tenga, tengas, tenga, tengamos, tengáis, tengan."
+            "explanation": "Tener es irregular en subjuntivo (sale de la forma yo, tengo): tenga, tengas, tenga, tengamos, tengáis, tengan."
           }
         ]
       },
@@ -1013,12 +1013,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         "question": "¿Cuál oración es gramaticalmente correcta?",
         "options": [
           "No dudo que ella tiene mucho talento.",
-          "No dudo que ella tenga mucho talento.",
+          "No dudo que ella teniendo mucho talento.",
           "Dudo que ella tiene mucho talento.",
           "Creo que ella tenga mucho talento."
         ],
         "correctIndex": 0,
-        "explanation": "«No dudar» expresa certeza, así que lleva indicativo: no dudo que tiene. «Dudo que ella tiene» es incorrecta porque «dudar» exige subjuntivo, y «Creo que ella tenga» también, porque «creer» afirmativo lleva indicativo."
+        "explanation": "«No dudar» expresa certeza, así que lo normal es el indicativo: no dudo que tiene. «Teniendo» es un gerundio, que no puede ir después de «que»; «Dudo que ella tiene» es incorrecta porque «dudar» exige subjuntivo, y «Creo que ella tenga» también, porque «creer» afirmativo lleva indicativo."
       },
       {
         "type": "multi-select",
@@ -1130,7 +1130,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Un colega dice: \"Niego que yo ___ el error.\" ¿Qué forma completa la oración?",
+        "question": "Un colega dice: \"Niego que yo ___ errores en mi trabajo.\" ¿Qué forma completa la oración?",
         "options": [
           "cometí",
           "cometo",
@@ -1138,7 +1138,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "cometiendo"
         ],
         "correctIndex": 2,
-        "explanation": "«Negar que» niega un hecho y requiere subjuntivo: niego que yo cometa el error. «Cometo» y «cometí» son indicativo, y «cometiendo» es un gerundio, que no puede ir después de «que»."
+        "explanation": "«Negar que» niega un hecho y requiere subjuntivo: niego que yo cometa errores en mi trabajo. «Cometo» y «cometí» son indicativo, y «cometiendo» es un gerundio, que no puede ir después de «que»."
       },
       {
         "type": "multi-select",
@@ -1780,7 +1780,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "Mandatos con nosotros: \"vamos a\" o subjuntivo",
         "body": [
           "Para sugerir una acción conjunta (\"let's...\"), usa la forma \"nosotros\" del subjuntivo, o simplemente vamos a + infinitivo (más común en el habla cotidiana).",
-          "Con verbos reflexivos y pronombres, el mandato afirmativo de nosotros pierde la -s final: vámonos (no vamos + nos)."
+          "Ante el pronombre nos (y ante se), el mandato afirmativo de nosotros pierde la -s final: vámonos (no vamos + nos)."
         ],
         "examples": [
           {
@@ -1833,7 +1833,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué tiempo debe cocinar la cebolla?",
+            "question": "¿Cuánto tiempo hay que cocinar la cebolla?",
             "options": [
               "Dos minutos",
               "Cinco minutos",
@@ -3383,7 +3383,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "hace poco",
-            "en": "recently / a while ago"
+            "en": "recently / not long ago"
           },
           {
             "es": "todavía no",
@@ -3625,7 +3625,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "he",
           "estado",
           "en",
-          "Japón"
+          "Japón."
         ],
         "explanation": "Nunca + haber + participio.",
         "translation": "I have never been to Japan."
@@ -4319,7 +4319,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: La ciudad y las direcciones",
         "body": [
-          "Cincuenta palabras para describir lugares y dar direcciones — terreno natural para los pronombres relativos."
+          "Cincuenta palabras para describir lugares y dar indicaciones — terreno natural para los pronombres relativos."
         ],
         "examples": [
           {
@@ -4569,7 +4569,7 @@ const B1_BASE_LESSONS: Lesson[] = [
                 "right": "the pedestrian"
               }
             ],
-            "explanation": "Estas diez palabras ayudan a describir un barrio y dar direcciones."
+            "explanation": "Estas diez palabras ayudan a describir un barrio y dar indicaciones."
           }
         ]
       }
@@ -4666,13 +4666,13 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "multiple-choice",
         "question": "¿Cuál oración distingue correctamente entre dos objetos con \"el que\"?",
         "options": [
-          "Compré dos coches: el que es rojo y el que es azul.",
-          "Compré dos coches: que es rojo y que es azul.",
-          "Compré dos coches: quien es rojo y quien es azul.",
-          "Compré dos coches: lo que es rojo y lo que es azul."
+          "De los dos coches, me quedo con el que es rojo.",
+          "De los dos coches, me quedo con que es rojo.",
+          "De los dos coches, me quedo con quien es rojo.",
+          "De los dos coches, me quedo con lo que es rojo."
         ],
         "correctIndex": 0,
-        "explanation": "«El que» (y sus formas) distingue entre varias opciones: el que es rojo y el que es azul. «Que» solo no puede empezar así la cláusula, «quien» es solo para personas y «lo que» es para ideas, no para coches."
+        "explanation": "«El que» (y sus formas) distingue entre varias opciones: me quedo con el que es rojo. «Que» solo no puede empezar así la cláusula, «quien» es solo para personas y «lo que» es para ideas, no para coches."
       },
       {
         "type": "multi-select",
@@ -4733,10 +4733,10 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Ordena las palabras.",
         "words": [
           "Mi",
-          "vecino",
+          "vecino,",
           "quien",
           "es",
-          "abogado",
+          "abogado,",
           "me",
           "ayudó",
           "con",
@@ -5065,7 +5065,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: Negocios y el trabajo",
         "body": [
-          "Cincuenta palabras del mundo empresarial — común en anuncios y reportes que usan la voz pasiva y el se impersonal."
+          "Cincuenta palabras del mundo empresarial, comunes en anuncios e informes que usan la voz pasiva y el se impersonal."
         ],
         "examples": [
           {
@@ -5253,7 +5253,7 @@ const B1_BASE_LESSONS: Lesson[] = [
             "en": "the department"
           },
           {
-            "es": "el recurso humano",
+            "es": "los recursos humanos",
             "en": "human resources"
           },
           {
@@ -5500,7 +5500,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "Colocación: antes del verbo o pegados al final",
         "body": [
           "Los pronombres combinados, igual que los pronombres simples, van inmediatamente antes de un verbo conjugado. Pero cuando el verbo está en infinitivo, gerundio o es un mandato afirmativo, los pronombres se pegan al final, formando una sola palabra.",
-          "Con el infinitivo o el gerundio existe también la opción de colocar los pronombres antes del verbo auxiliar conjugado. Cuando se pegan al final y la nueva palabra tiene tres o más sílabas, se añade una tilde para conservar el acento original del verbo. Con los mandatos negativos, los pronombres nunca se pegan: siempre van antes del verbo."
+          "Con el infinitivo o el gerundio existe también la opción de colocar los pronombres antes del verbo auxiliar conjugado. Cuando se pegan al final y la palabra resultante queda esdrújula o sobresdrújula (lo normal al pegar dos pronombres: explicártelo, dámelo), se añade una tilde para conservar el acento original del verbo. Con los mandatos negativos, los pronombres nunca se pegan: siempre van antes del verbo."
         ],
         "examples": [
           {
@@ -5663,7 +5663,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "El artículo: obligatorio casi siempre, opcional después de ser",
         "body": [
           "El artículo definido es obligatorio cuando el pronombre posesivo funciona como sujeto o complemento directo de la oración: 'El mío está roto' o 'Prefiero el tuyo'.",
-          "Después del verbo ser, el artículo puede omitirse sin cambiar el significado, y en el habla cotidiana es incluso más natural omitirlo: 'Este paraguas es mío' resulta más común que 'Este paraguas es el mío'. La versión con artículo se reserva sobre todo para contrastar o elegir entre varias opciones."
+          "Después del verbo ser, el artículo puede omitirse (con un matiz distinto: «es mío» dice de quién es; «es el mío», cuál de varios es), y en el habla cotidiana es incluso más natural omitirlo: 'Este paraguas es mío' resulta más común que 'Este paraguas es el mío'. La versión con artículo se reserva sobre todo para contrastar o elegir entre varias opciones."
         ],
         "examples": [
           {
@@ -5687,10 +5687,10 @@ const B1_BASE_LESSONS: Lesson[] = [
               "Prefiero mío a tuyo.",
               "Prefiero el mío al tuyo.",
               "Prefiero lo mío a tuyo.",
-              "Prefiero lo mío a lo tuyo."
+              "Prefiero el mío a tuyo."
             ],
             "correctIndex": 1,
-            "explanation": "Fuera de la construcción con ser, el pronombre posesivo necesita artículo: el mío, el tuyo. «Prefiero mío a tuyo» no lo lleva, y «lo mío» significa «my stuff / my thing», no «my one» cuando hablamos de un objeto concreto."
+            "explanation": "Fuera de la construcción con ser, el pronombre posesivo necesita artículo: el mío, el tuyo. «Prefiero mío a tuyo» no lo lleva, y en «el mío a tuyo» falta el segundo artículo (a + el tuyo = al tuyo). «Lo mío» significa «my stuff / my thing», no «my one» cuando hablamos de un objeto concreto."
           }
         ]
       }
@@ -6716,7 +6716,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Mis padres desean que yo sea feliz.",
-            "en": "My parents wish that I be happy."
+            "en": "My parents want me to be happy."
           }
         ],
         "checkpoint": [
@@ -7166,13 +7166,13 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "multiple-choice",
         "question": "¿Qué opción completa correctamente: 'No dudamos que ella ___ el puesto.'?",
         "options": [
-          "merezca",
+          "merecemos",
           "merece",
           "merecer",
           "mereció"
         ],
         "correctIndex": 1,
-        "explanation": "«No dudar que» expresa certeza, por eso lleva indicativo: merece. «Merezca» sería para «dudamos que», «merecer» es infinitivo y «mereció» cambia el tiempo a pasado."
+        "explanation": "«No dudar que» expresa certeza, por eso lo normal es el indicativo: merece. «Merecemos» no concuerda con «ella», «merecer» es infinitivo y «mereció» cambia el tiempo a pasado."
       },
       {
         "type": "translate",
@@ -7743,7 +7743,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa con el infinitivo o el subjuntivo, según corresponda.",
-        "sentence": "Es importante ___ (llegar) a tiempo para todos los pasajeros.",
+        "sentence": "Es importante ___ (llegar) a tiempo.",
         "answer": "llegar",
         "hint": "no hay sujeto específico",
         "explanation": "Sin sujeto específico, se usa el infinitivo: llegar, en vez de que + subjuntivo."
@@ -8341,7 +8341,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "saldrán"
         ],
         "correctIndex": 0,
-        "explanation": "Salir usa la raíz irregular sald- en el condicional: saldrían, no salirían."
+        "explanation": "Salir usa la raíz irregular saldr- en el condicional: saldrían, no salirían."
       },
       {
         "type": "multiple-choice",
@@ -8480,7 +8480,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la petición cortés.",
-        "sentence": "___ (poder) usted decirme dónde está la estación, por favor?",
+        "sentence": "¿___ (poder) usted decirme dónde está la estación, por favor?",
         "answer": "Podría",
         "hint": "petición cortés con poder",
         "explanation": "\"¿Podría usted...?\" es una forma cortés y formal de pedir información, usando el condicional de poder."
@@ -8598,7 +8598,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "es-en",
         "prompt": "Traduce la oración al inglés.",
-        "source": "Me pregunté qué pasaría si le contaba la verdad.",
+        "source": "Me pregunté qué pasaría si le contara la verdad.",
         "answer": "I wondered what would happen if I told him/her the truth.",
         "explanation": "\"Qué pasaría\" es el condicional usado para especular sobre un resultado posible, pasado o hipotético."
       },
@@ -8997,7 +8997,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "source": "If you don't know the answer, raise your hand.",
         "answer": "Si no sabes la respuesta, levanta la mano.",
         "altAnswers": [
-          "Si no sabes la respuesta, levanta tu mano."
+          "Si no sabes la respuesta, alza la mano."
         ],
         "explanation": "Condición real con instrucción: presente + imperativo, 'levanta'."
       },
@@ -9078,7 +9078,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "buen",
               "tiempo"
             ],
-            "translation": "We eat outside if the weather is good.",
+            "translation": "We have dinner outside if the weather is good.",
             "explanation": "Cuando el resultado va primero, no se usa coma: 'Cenamos afuera si hace buen tiempo.'"
           }
         ]
@@ -9119,7 +9119,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               0,
               2
             ],
-            "explanation": "Condición real: si + presente, con resultado en presente o imperativo. «Si tuviera dinero, viajaría» es hipotética y «Si hubiera sabido, te habría llamado» es contraria al pasado: ambas son del nivel B2."
+            "explanation": "Condición real: si + presente, con resultado en presente o imperativo. «Si tuviera dinero, viajaría» es hipotética y «Si hubiera sabido, te habría llamado» es contraria al pasado: ambas son hipotéticas, no reales."
           }
         ]
       }
@@ -9345,13 +9345,13 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "multiple-choice",
         "question": "Elige la oración correcta.",
         "options": [
-          "Nosotros hemos vuelto tarde anoche.",
-          "Nosotros hemos volvido tarde anoche.",
-          "Nosotros habemos vuelto tarde anoche.",
-          "Nosotros hemos vuelvido tarde anoche."
+          "Nosotros hemos vuelto tarde hoy.",
+          "Nosotros hemos volvido tarde hoy.",
+          "Nosotros habemos vuelto tarde hoy.",
+          "Nosotros hemos vuelvido tarde hoy."
         ],
         "correctIndex": 0,
-        "explanation": "Volver tiene un participio irregular, vuelto, y el auxiliar de nosotros es hemos. «Volvido» y «vuelvido» no existen, y «habemos» no es la forma estándar. (Con «anoche», fuera de España se prefiere el pretérito: volvimos.)"
+        "explanation": "Volver tiene un participio irregular, vuelto, y el auxiliar de nosotros es hemos. «Volvido» y «vuelvido» no existen, y «habemos» no es la forma estándar. (Con «hoy» el perfecto es lo normal en España; en gran parte de América se prefiere el pretérito: volvimos.)"
       },
       {
         "type": "multi-select",
@@ -9572,7 +9572,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Cuando llegamos al aeropuerto, el vuelo ya había salido, así que hemos tenido que esperar el siguiente.",
+            "es": "Cuando hemos llegado al aeropuerto, el vuelo ya había salido, así que hemos tenido que esperar el siguiente.",
             "en": "When we arrived at the airport, the flight had already left, so we've had to wait for the next one."
           }
         ],
@@ -9690,7 +9690,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Que: el pronombre relativo más común",
         "body": [
-          "El pronombre 'que' es el más común y se usa tanto para personas como para cosas, con o sin preposición cuando es objeto directo."
+          "El pronombre 'que' es el más común y se usa tanto para personas como para cosas, sobre todo como sujeto o como objeto directo."
         ],
         "examples": [
           {
@@ -10294,7 +10294,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "El gobierno fue aprobado por la ley."
         ],
         "correctIndex": 0,
-        "explanation": "El sujeto pasivo es «la ley» (femenino singular), así que el participio concuerda: aprobada. «Fue aprobado» no concuerda en género, «se ha aprobado por» evita la pasiva refleja con agente, y «El gobierno fue aprobado por la ley» invierte el sentido."
+        "explanation": "El sujeto pasivo es «la ley» (femenino singular), así que el participio concuerda: aprobada. «Fue aprobado» no concuerda en género, «se ha aprobado por» usa la pasiva refleja con agente, algo que se evita, y «El gobierno fue aprobado por la ley» invierte el sentido."
       },
       {
         "type": "fill-blank",
@@ -10448,10 +10448,10 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Sustituye el sustantivo por el pronombre posesivo tónico correcto.",
-        "sentence": "¿De quién es este paraguas? Es ___.",
+        "sentence": "¿De quién es este paraguas? Es ___. (de él)",
         "answer": "suyo",
         "hint": "posesivo tónico masculino singular",
-        "explanation": "El pronombre tónico 'suyo' sustituye a 'paraguas' (masculino singular) y concuerda con él, no con el poseedor."
+        "explanation": "El pronombre tónico 'suyo' (de él) sustituye a 'paraguas' (masculino singular) y concuerda con él, no con el poseedor."
       },
       {
         "type": "translate",
@@ -10641,7 +10641,7 @@ const B1_BASE_LESSONS: Lesson[] = [
             "instructions": "Relaciona cada oración con la estructura gramatical que representa.",
             "pairs": [
               {
-                "left": "Se habla español en Argentina.",
+                "left": "Se vive bien en Argentina.",
                 "right": "Se impersonal"
               },
               {
@@ -11254,9 +11254,9 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Traduce al español.",
-        "source": "the payroll",
-        "answer": "la nómina",
-        "explanation": "«La nómina» es la lista de sueldos de una empresa y también el recibo del sueldo mensual: cobrar la nómina, estar en nómina."
+        "source": "the belief",
+        "answer": "la creencia",
+        "explanation": "«La creencia» es lo que uno cree o da por cierto: una creencia popular, respetar las creencias de los demás."
       }
     ]
   },
@@ -11515,30 +11515,30 @@ const B1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "matching",
-        "instructions": "Empareja cada palabra de negocios con su significado.",
+        "instructions": "Empareja cada palabra del medio ambiente con su significado.",
         "pairs": [
           {
-            "left": "reclutar",
-            "right": "to recruit"
+            "left": "la sequía",
+            "right": "the drought"
           },
           {
-            "left": "la vacante",
-            "right": "the job vacancy"
+            "left": "la inundación",
+            "right": "the flood"
           },
           {
-            "left": "la reputación",
-            "right": "the reputation"
+            "left": "el incendio forestal",
+            "right": "the wildfire"
           },
           {
-            "left": "negociar",
-            "right": "to negotiate"
+            "left": "el calentamiento global",
+            "right": "global warming"
           },
           {
-            "left": "fusionarse",
-            "right": "to merge"
+            "left": "la huella de carbono",
+            "right": "the carbon footprint"
           }
         ],
-        "explanation": "Estas cinco palabras describen procesos comunes en el mundo empresarial."
+        "explanation": "Estas cinco palabras describen problemas del medio ambiente."
       }
     ]
   },
@@ -11797,15 +11797,15 @@ const B1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Qué palabra significa \"the district\"?",
+        "question": "¿Qué palabra significa \"the frying pan\"?",
         "options": [
-          "el distrito",
-          "la cuadra",
-          "la esquina",
-          "el cruce"
+          "la sartén",
+          "la olla",
+          "el horno",
+          "la estufa"
         ],
         "correctIndex": 0,
-        "explanation": "«El distrito» significa «the district», una zona grande de la ciudad. «La cuadra» es «the block», «la esquina» es «the corner» y «el cruce» es «the crossing / intersection»."
+        "explanation": "«La sartén» significa «the frying pan». «La olla» es «the pot», «el horno» es «the oven» y «la estufa» es «the stove»."
       }
     ]
   },
@@ -12422,7 +12422,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "hace poco",
-                "right": "recently / a while ago"
+                "right": "recently / not long ago"
               },
               {
                 "left": "todavía no",
@@ -13429,7 +13429,7 @@ const B1_BASE_LESSONS: Lesson[] = [
                 "right": "the department"
               },
               {
-                "left": "el recurso humano",
+                "left": "los recursos humanos",
                 "right": "human resources"
               },
               {
@@ -16648,7 +16648,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Durante los primeros tres días, a Elena le dolían la espalda y los pies. Caminaba despacio y otros peregrinos la adelantaban sin esfuerzo. En un albergue de Pamplona conoció a Miguel, un hombre de sesenta años que había hecho el Camino cuatro veces. Miguel llevaba una mochila mucho más pequeña que la suya.",
           "No cargues lo que no necesitas, le dijo Miguel una noche, mientras cenaban juntos, el Camino te enseña eso rápido. Elena se rió, pero al día siguiente no pudo levantarse sin sentir dolor en los hombros. Empezó a pensar que quizás Miguel tenía razón.",
           "Esa tarde, Elena sacó todo lo que había en la mochila y lo puso sobre la cama del albergue. Decidió quedarse solo con lo que necesitaba de verdad: dos camisetas, un jersey, y poco más. Es importante que uno se dé cuenta de lo que realmente hace falta, pensó, y no de lo que da miedo perder. Regaló tres libros y un secador de pelo a otra peregrina.",
-          "Elena nunca había caminado tanto en su vida, y por eso cada día era un descubrimiento. Con la mochila más ligera, sus pasos también se volvieron más ligeros. Hablaba con Miguel casi todas las tardes sobre su ex pareja, sobre su trabajo, sobre lo que quería hacer cuando volviera a casa. Él la escuchaba sin juzgarla y solo le hacía preguntas sencillas.",
+          "Elena nunca había caminado tanto en su vida, y por eso cada día era un descubrimiento. Con la mochila más ligera, sus pasos también se volvieron más ligeros. Hablaba con Miguel casi todas las tardes sobre su expareja, sobre su trabajo, sobre lo que quería hacer cuando volviera a casa. Él la escuchaba sin juzgarla y solo le hacía preguntas sencillas.",
           "Cuando por fin llegó a Santiago de Compostela, Elena lloró frente a la catedral. Había caminado casi ochocientos kilómetros y ahora se sentía diferente, más fuerte. He aprendido que no necesito tanto como pensaba, le escribió a su hermana esa noche. Si hubiera sabido esto antes, habría empezado el Camino mucho más ligera.",
           "Se dice que el Camino cambia a las personas, y en el caso de Elena eso fue completamente cierto. Volvió a casa con una mochila pequeña y con una idea muy clara: no quería volver a llenar su vida de cosas ni de relaciones que no le hacían bien. Ojalá todos pudiéramos aprender esa lección sin tener que caminar ochocientos kilómetros, pensó, sonriendo mientras deshacía la maleta por última vez."
         ]

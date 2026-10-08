@@ -921,7 +921,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
       ),
       fb("Choose.", "De joven mi padre ___ en un restaurante. (trabajar) — habit/period", "trabajaba", "Period of time → imperfect."),
       fb("Choose.", "En 2015 mi padre ___ un restaurante. (abrir) — one event", "abrió", "Single event → preterite."),
-      fb("Choose.", "Yo ___ la ducha cuando sonó el teléfono. (tomar) — in progress", "tomaba", "Action in progress → imperfect."),
+      fb("Choose.", "Yo ___ una ducha cuando sonó el teléfono. (tomar) — in progress", "tomaba", "Action in progress → imperfect."),
       mt(
         "Match each sentence with its reason.",
         [
@@ -1089,10 +1089,10 @@ export const A2_DRILLS: AnchoredLesson[] = [
         "Negative querer in the preterite means refused: no quiso venir. The general \"didn't want to\" would be no quería, and the other options change the meaning."
       ),
       mc(
-        "«Tuve una carta de mi abuela» most naturally means…",
-        ["I got a letter from my grandmother.", "I used to have letters.", "I have a letter.", "I wanted a letter."],
+        "«Tuve una llamada de mi abuela» most naturally means…",
+        ["I got a call from my grandmother.", "I used to have calls.", "I have a call.", "I wanted a call."],
         0,
-        "Tener in the preterite means got or received: tuve una carta. \"Used to have\" is tenía, \"I have\" is tengo, and wanting would be querer."
+        "Tener in the preterite can mean got or received: tuve una llamada. \"Used to have\" is tenía, \"I have\" is tengo, and wanting would be querer."
       ),
       fb("Choose.", "___ a Carlos en una fiesta el año pasado. (conocer, yo) — first meeting", "Conocí", "First meeting → preterite."),
       fb("Choose.", "Yo ya ___ a Carlos desde el colegio. (conocer) — already knew", "conocía", "Already known → imperfect."),
@@ -1265,7 +1265,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     [
       sec(
         "The story",
-        "«Tenía diecisiete años cuando conseguí mi primer trabajo. Era camarero en una cafetería pequeña. El primer día estaba muy nervioso. A las nueve entró un cliente muy serio, pidió un café y… se lo tiré encima. Él se rió y me dijo: “Tranquilo, a todos nos pasa”.»",
+        "«Tenía diecisiete años cuando conseguí mi primer trabajo. Era camarero en una cafetería pequeña. El primer día estaba muy nervioso. A las nueve entró un cliente muy serio, pidió un café y… se lo tiré encima. Él se rio y me dijo: “Tranquilo, a todos nos pasa”.»",
         [
           ["Tenía diecisiete años cuando conseguí mi primer trabajo.", "I was seventeen when I got my first job."],
           ["Estaba muy nervioso.", "I was very nervous."],
@@ -1285,7 +1285,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
       fb("Fill in.", "El primer día ___ muy nervioso. (estar, yo)", "estaba", "State → imperfect."),
       fb("Fill in.", "A las nueve ___ un cliente muy serio. (entrar)", "entró", "Event → preterite."),
       fb("Fill in.", "El cliente ___ un café solo. (tomar)", "tomó", "Event → preterite."),
-      fb("Fill in.", "Él se ___ y me dijo algo amable. (reírse, preterite)", "rió", "Event → preterite."),
+      fb("Fill in.", "Él se ___ y me dijo algo amable. (reírse, preterite)", "rio", "Event → preterite. Rio is one syllable, so since 2010 it is written without an accent (the older spelling rió is still accepted)."),
       mc(
         "«La cafetería ___ en una calle muy tranquila.»",
         ["estaba", "estuvo", "está", "estará"],
@@ -1659,7 +1659,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
       fb("Fix it.", "___ frío y había mucha gente. (the diary says: Hizo — background)", "Hacía", "Weather as background takes the imperfect: hacía frío, not hizo."),
       { ...fb("Fix it.", "Como estábamos cansados, ___ una siesta. (the diary says: tomábamos — one nap)", "tomamos", "One nap is a single event, so the preterite: tomamos, not tomábamos."), altAnswers: ["echamos", "dormimos"] },
       fb("Fix it.", "Por la tarde ___ la catedral. (the diary says: visitábamos)", "visitamos", "Visiting the cathedral that afternoon is a single event, so the preterite: visitamos."),
-      fb("Fix it.", "El guía nos ___ muchas historias interesantes. (the diary says: dició)", "contó", "Contar → contó (dició is not a word)."),
+      fb("Fix it.", "El guía nos ___ muchas historias interesantes. (the diary says: dició)", "contó", "Dició is not a word (decir → dijo), and with historias Spanish uses contar: contó."),
       mc(
         "Which diary sentence is correct?",
         ["Mientras cenábamos, empezó a tocar una banda.", "Mientras cenamos, empezaba a tocar una banda.", "Mientras cenábamos, empezaba a tocar una banda de repente.", "Mientras cenaron, empezó."],
@@ -3013,7 +3013,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
         0,
         "The superlative group takes de, and de + el contracts: del mundo. \"En el\" is not standard here, \"que el\" is for comparisons, and \"de el\" must contract."
       ),
-      toEs("It's the most beautiful beach in the island.", "Es la playa más bonita de la isla.", "The superlative group takes de: la playa más bonita de la isla (not en).", ["Es la playa más hermosa de la isla.", "Es la playa más linda de la isla."]),
+      toEs("It's the most beautiful beach on the island.", "Es la playa más bonita de la isla.", "The superlative group takes de: la playa más bonita de la isla (not en).", ["Es la playa más hermosa de la isla.", "Es la playa más linda de la isla."]),
       wo("Esta es la mejor paella de toda la ciudad.", "Superlative.", "This is the best paella in the whole city."),
     ]
   ),
@@ -3045,7 +3045,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
       fb("Superlative.", "Es la plaza más famosa ___ la ciudad.", "de", "The superlative group takes de: la plaza más famosa de la ciudad."),
       mc(
         "«Hacía un calor ___.»",
-        ["horrible y fortísimo", "más fuerte que", "tan fuerte", "fortísima"],
+        ["fortísimo", "más fuerte que", "tan fuerte", "fortísima"],
         0,
         "Calor is masculine, so fortísimo agrees with it. \"Más fuerte que\" needs a comparison, \"tan fuerte\" needs como, and \"fortísima\" is feminine."
       ),
@@ -3490,7 +3490,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     [
       sec(
         "One word, two meanings",
-        "Lo hice por ti (because of you / on your behalf) vs. Lo hice para ti (for you, as a gift). Salí por la puerta (through) vs. Salí para la puerta (toward). Trabajo por la mañana (time of day) vs. Lo necesito para mañana (deadline).",
+        "Lo hice por ti (because of you / on your behalf) vs. Lo hice para ti (for you, as a gift). Salí por la puerta (through) vs. Salí para la oficina (toward). Trabajo por la mañana (time of day) vs. Lo necesito para mañana (deadline).",
         [
           ["Compré el regalo para mi madre.", "I bought the present for my mother (she receives it)."],
           ["Fui a la reunión por mi madre.", "I went to the meeting on my mother's behalf."],
@@ -3995,7 +3995,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
       fb("Answer.", "—¿Lo enviamos? —Sí, ___ correo, por favor.", "por", "Por marks the means of sending: por correo."),
       fb("Answer.", "—¿Qué uso le va a dar? —Es ___ cocinar al vapor.", "para", "Para + infinitive gives the purpose: para cocinar al vapor."),
       fb("Answer.", "—¿Cuánto pagó por el anterior? —Pagué cien euros ___ él.", "por", "Por marks the price: cien euros por él."),
-      fb("Answer.", "—¿Por qué lo devuelve? —___ que está roto.", "Porque", "Porque (one word, no accent) introduces a reason clause."),
+      fb("Answer.", "—¿Por qué lo devuelve? —___ está roto.", "Porque", "Porque (one word, no accent) introduces a reason clause."),
       mc(
         "«—¿Pasa usted ___ aquí a menudo? —Sí, vivo cerca.»",
         ["por", "para", "a", "en"],
@@ -4257,10 +4257,10 @@ export const A2_DRILLS: AnchoredLesson[] = [
       fb("Form the adverb.", "Se resolvió ___. (fácil)", "fácilmente", "Keeps the accent."),
       fb("Form the adverb.", "Trabaja rápida y ___. (eficaz)", "eficazmente", "Only the last one takes -mente."),
       mc(
-        "Which is correct?",
+        "Which is the most natural?",
         ["Habló lenta y claramente.", "Habló lentamente y claramente.", "Habló lento y claramente.", "Habló lentamente y clara."],
         0,
-        "With two -mente adverbs joined by y, only the last keeps -mente: lenta y claramente. Repeating -mente is avoided, \"lento\" is masculine, and \"clara\" is missing its -mente."
+        "With two -mente adverbs joined by y, normally only the last keeps -mente: lenta y claramente. Repeating -mente is grammatical but heavy and usually avoided, \"lento\" is masculine, and \"clara\" is missing its -mente."
       ),
       toEs("Luckily, nobody saw it.", "Afortunadamente, nadie lo vio.", "Afortunadamente = luckily; nadie before the verb stands alone, and lo vio means saw it.", ["Por suerte, nadie lo vio."]),
       wo("Mi abuela camina lenta pero tranquilamente por el parque.", "Series of -mente adverbs.", "My grandmother walks slowly but calmly through the park."),

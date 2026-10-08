@@ -156,7 +156,6 @@ export const EN_B2_U09: Lesson[] = [
           "I wish I had studied a different subject.",
           "I wish I had studied a different major.",
           "I wish I had chosen a different major.",
-          "I wish I had studied a different degree.",
           "I wish I had done a different degree.",
           "If only I had studied something else.",
           "I wish I had studied something different.",
@@ -626,7 +625,7 @@ export const EN_B2_U09: Lesson[] = [
       {
         heading: "Mistakes 1 and 2: deductions",
         body: [
-          "*You mustn't have heard is wrong. \"Mustn't\" is a prohibition («no debes»), not a negative deduction. When you are sure something didn't happen, use \"can't have\" or \"couldn't have\": \"You can't have heard what I really said.\"",
+          "*You mustn't have heard is wrong. \"Mustn't\" is a prohibition («no debes»), not a negative deduction. When you are sure something didn't happen, use \"can't have\" or \"couldn't have\": \"You can't have heard what I really said.\" In American English the full form \"You must not have heard\" is also natural for «seguramente no oíste»; only the contraction *mustn't have sounds wrong.",
           "*You must to be really angry is wrong because modals are followed by the bare infinitive, with no \"to\": \"You must be really angry.\" Spanish «tienes que estar» pushes learners to add \"to\", but only \"have to\" takes it.",
           "Remember the past form: \"must have\" + past participle, as in \"You must have been really angry\", never *must had been.",
         ],
@@ -1803,7 +1802,6 @@ export const EN_B2_U09: Lesson[] = [
           "If only we knew what happened.",
           "If only we knew what had happened.",
           "I wish we knew what happened to them.",
-          "I wish I knew what happened.",
         ],
         explanation: "An unreal wish about now: \"wish\" + past simple (\"knew\"). The question becomes an indirect question: \"what happened\", not *what did happen.",
       },

@@ -635,7 +635,7 @@ export const EN_A2_U02: Lesson[] = [
         body: [
           "Otro grupo cambia la \"i\" por una \"a\": \"sing\" → \"sang\" (cantar), \"drink\" → \"drank\" (beber), \"swim\" → \"swam\" (nadar), \"begin\" → \"began\" (empezar), \"ring\" → \"rang\" (sonar).",
           "La \"a\" de estos pasados es la de \"cat\": un sonido entre «a» y «e». Abre la boca como para decir «a», pero di «e».",
-          "Cuidado: no todos los verbos parecidos siguen esta regla. \"Think\" → \"thought\" y \"bring\" → \"brought\"; \"thank\" y *brang no existen como pasados.",
+          "Cuidado: no todos los verbos parecidos siguen esta regla. \"Think\" → \"thought\" y \"bring\" → \"brought\"; *thank (de \"think\") y *brang (de \"bring\") no existen.",
         ],
         examples: [
           { es: "We sang happy birthday.", en: "Cantamos el cumpleaños feliz." },
@@ -796,7 +796,7 @@ export const EN_A2_U02: Lesson[] = [
         heading: "Dos sistemas que no se mezclan",
         body: [
           "En pasado hay dos maneras de formar negativas y preguntas, y nunca se combinan. Con \"to be\" se usa \"was\" o \"were\" directamente: \"I wasn't tired\", \"Were you at home?\". Con todos los demás verbos se usa \"did\": \"I didn't go\", \"Did you go?\".",
-          "Por eso son errores *Did you tired? (falta el verbo: \"tired\" es un adjetivo) y \"Were you go?\" (\"go\" es un verbo de acción y necesita \"did\").",
+          "Por eso son errores *Did you tired? (falta el verbo: \"tired\" es un adjetivo) y *Were you go? (\"go\" es un verbo de acción y necesita \"did\").",
           "Regla práctica: si detrás viene un adjetivo, un lugar, una edad o un verbo con \"-ing\", usa \"was\" o \"were\". Si viene un verbo de acción (\"go\", \"eat\", \"like\", \"work\"), usa \"did\".",
         ],
         examples: [
@@ -890,7 +890,7 @@ export const EN_A2_U02: Lesson[] = [
             source: "No me gustó la película.",
             answer: "I didn't like the movie.",
             altAnswers: ["I didn't like the film."],
-            explanation: "\"Like\" es un verbo de acción: \"didn't like\". *I wasn't like the movie es un error muy frecuente.",
+            explanation: "\"Like\" es un verbo normal (no es \"to be\"): \"didn't like\". *I wasn't like the movie es un error muy frecuente.",
           },
           {
             type: "multiple-choice",
@@ -940,7 +940,7 @@ export const EN_A2_U02: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "¿Fuiste al trabajo ayer?",
         answer: "Did you go to work yesterday?",
-        explanation: "\"Go\" es un verbo de acción: \"Did you go?\". \"Were you go?\" mezcla los dos sistemas.",
+        explanation: "\"Go\" es un verbo de acción: \"Did you go?\". *Were you go? mezcla los dos sistemas.",
       },
       {
         type: "translate",

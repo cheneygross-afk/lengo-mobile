@@ -398,7 +398,7 @@ export const EN_A2_U05_EXTRA: Lesson[] = [  // ---------------------------------
         prompt: "Traduce al inglés.",
         source: "¿Dónde has puesto mis gafas?",
         answer: "Where have you put my glasses?",
-        altAnswers: ["Where did you put my glasses?", "Where have you put my sunglasses?"],
+        altAnswers: ["Where did you put my glasses?"],
         explanation: "\"Put, put, put\": las tres formas iguales.",
       },
       {
@@ -569,7 +569,6 @@ export const EN_A2_U05_EXTRA: Lesson[] = [  // ---------------------------------
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "Have you ever ___ in a band?",
         answer: "sung",
-        altAnswers: ["played"],
         en: "¿Alguna vez has [cantado] en un grupo?",
         explanation: "\"Sing, sang, sung\". *Have you ever sang es incorrecto.",
       },

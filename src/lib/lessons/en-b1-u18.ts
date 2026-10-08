@@ -1074,7 +1074,7 @@ export const EN_B1_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"The woman which lives upstairs is French.\" What is the correct version?",
+        question: "*The woman which lives upstairs is French. What is the correct version?",
         options: [
           "The woman who lives upstairs is French.",
           "The woman what lives upstairs is French.",

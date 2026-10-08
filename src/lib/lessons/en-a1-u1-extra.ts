@@ -573,8 +573,8 @@ export const EN_A1_U1_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Traduce al inglés.",
         source: "La estación está lejos.",
-        answer: "The station is far.",
-        altAnswers: ["The station is far away."],
+        answer: "The station is far away.",
+        altAnswers: ["The station is far.", "The station is a long way away."],
         explanation: "\"The station\" es el sujeto, y el verbo es \"is\". \"Far away\" también es natural.",
       },
       {

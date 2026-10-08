@@ -917,7 +917,7 @@ export const EN_B2_U24: Lesson[] = [
         sentence: "Only thirty dollars for these boots? That's a ___!",
         answer: "bargain",
         altAnswers: ["steal", "great deal", "good deal"],
-        en: "¿Solo treinta dólares por estas botas? ¡Es un [chollo]!",
+        en: "¿Solo treinta dólares por estas botas? ¡Es una [ganga]!",
         explanation: "\"A bargain\" (or informally \"a steal\") is something very cheap for its value. The opposite is \"a rip-off\".",
       },
       {
@@ -1976,7 +1976,7 @@ export const EN_B2_U24: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "It took months, but we ___ signed the contract.",
         answer: "eventually",
-        altAnswers: ["finally", "in the end"],
+        altAnswers: ["finally"],
         en: "Tardamos meses, pero [al final] firmamos el contrato.",
         explanation: "\"Eventually\" = after a long time or effort. It's a false friend of «eventualmente».",
       },
@@ -2369,7 +2369,7 @@ export const EN_B2_U24: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Se han despedido a cien trabajadores de la fábrica.",
+        source: "Han despedido a cien trabajadores de la fábrica.",
         answer: "A hundred workers have been laid off at the factory.",
         altAnswers: [
           "One hundred workers have been laid off at the factory.",

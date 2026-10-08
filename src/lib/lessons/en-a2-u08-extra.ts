@@ -143,7 +143,7 @@ export const EN_A2_U08_EXTRA: Lesson[] = [
         source: "Mi abuela está más ocupada que yo.",
         answer: "My grandmother is busier than me.",
         altAnswers: ["My grandmother is busier than I am.", "My grandma is busier than me.", "My grandma is busier than I am."],
-        explanation: "\"Busy\" termina en \"-y\": \"busier\". Después de \"than\" se usa \"me\" (o \"I am\"), no *I solo.",
+        explanation: "\"Busy\" termina en \"-y\": \"busier\". Después de \"than\" se usa \"me\" (o \"I am\"), (\"than I\" solo suena muy formal).",
       },
       {
         type: "translate",
@@ -493,7 +493,7 @@ export const EN_A2_U08_EXTRA: Lesson[] = [
         sentence: "It's ___ city in the country.",
         answer: "the biggest",
         altAnswers: ["the largest"],
-        en: "Es [la más grande] ciudad del país.",
+        en: "Es [la] ciudad [más grande] del país.",
         explanation: "\"Big\" duplica la \"g\": \"the biggest\". *The most big es un calco del español.",
       },
       {
@@ -501,7 +501,7 @@ export const EN_A2_U08_EXTRA: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "This is ___ restaurant in town.",
         answer: "the most expensive",
-        en: "Este es [el más caro] restaurante de la ciudad.",
+        en: "Este es [el] restaurante [más caro] de la ciudad.",
         explanation: "\"Expensive\" es largo: \"the most expensive\". Nunca *the expensivest.",
       },
       {
@@ -517,7 +517,7 @@ export const EN_A2_U08_EXTRA: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "Who is ___ person in your family?",
         answer: "the youngest",
-        en: "¿Quién es [la más joven] persona de tu familia?",
+        en: "¿Quién es [la] persona [más joven] de tu familia?",
         explanation: "\"Young\" es corto: \"the youngest\". No olvides el \"the\".",
       },
       {
@@ -525,7 +525,7 @@ export const EN_A2_U08_EXTRA: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "This is ___ exercise in the book.",
         answer: "the easiest",
-        en: "Este es [el más fácil] ejercicio del libro.",
+        en: "Este es [el] ejercicio [más fácil] del libro.",
         explanation: "\"Easy\" cambia la \"-y\" por \"-iest\": \"the easiest\". *The most easy es un error.",
       },
       {

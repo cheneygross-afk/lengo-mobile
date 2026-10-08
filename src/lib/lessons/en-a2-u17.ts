@@ -615,7 +615,7 @@ export const EN_A2_U17: Lesson[] = [
             prompt: "Escribe en inglés las palabras en negrita.",
             sentence: "Diego ___ the car.",
             answer: "got out of",
-            altAnswers: ["gets out of"],
+            altAnswers: [],
             en: "Diego [se bajó del] coche.",
             explanation: "Del coche y del taxi uno se baja con \"get out of\"; \"get off\" es para el autobús o el tren.",
           },

@@ -21,8 +21,8 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
       "A question with \"How long have you been...?\"",
       "The present perfect simple with a state verb (\"I've known\", \"I've had\"), not the continuous",
     ],
-    "Hi Lucia,\n\nIt's been ages! I've been working at a new company since March, and I really like it. I've been learning to play the guitar for about six months, so my neighbors have been hearing a lot of noise! I've also been living in a new apartment near the river since the summer. It's small, but I've had a great view from day one. My brother has been staying with me for two weeks because he's looking for a job here. What about you? How long have you been living in Toronto now? Write soon!\n\nCarlos",
-    "Spanish says «llevo seis meses aprendiendo» or «estudio aqui desde marzo», but English needs the present perfect continuous: \"I've been learning for six months\", not *I learn since six months. State verbs like \"know\" and \"have\" (possession) stay simple: \"I've known her for years\"."
+    "Hi Lucia,\n\nIt's been ages! I've been working at a new company since March, and I really like it. I've been learning to play the guitar for about six months, so my neighbors have heard a lot of noise! I've also been living in a new apartment near the river since the summer. It's small, but I've had a great view from day one. My brother has been staying with me for two weeks because he's looking for a job here. What about you? How long have you been living in Toronto now? Write soon!\n\nCarlos",
+    "Spanish says «llevo seis meses aprendiendo» or «estudio aquí desde marzo», but English needs the present perfect continuous: \"I've been learning for six months\", not *I learn since six months. State verbs like \"know\" and \"have\" (possession) stay simple: \"I've known her for years\"."
   ),
   u02: t(
     "Write a short post for a travel blog about the places you have visited. Talk about your experiences in general, then describe one trip in detail: when you went, what you did and what happened.",
@@ -165,7 +165,7 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
       "At least one passive with a modal or present perfect (\"can be seen\", \"has been restored\")",
     ],
     "Valencia is a city on the east coast of Spain. It was founded by the Romans more than two thousand years ago. Its famous cathedral was built in the thirteenth century, and its tower can be seen from almost everywhere in the old town.\n\nThe City of Arts and Sciences is very different. It was designed by Santiago Calatrava, and it was opened in 1998. Today it is visited by millions of people every year.\n\nThe Central Market has been restored recently. Fresh fish, fruit and local rice are sold there every morning. And of course, paella was invented here, so don't forget to try it!",
-    "The passive is \"be\" + past participle: \"it was built\", \"it is visited\". Spanish often uses «se»: «se construyo en el siglo XIII» becomes \"it was built in the thirteenth century\". Use \"by\" only when the person who did it is important."
+    "The passive is \"be\" + past participle: \"it was built\", \"it is visited\". Spanish often uses «se»: «se construyó en el siglo XIII» becomes \"it was built in the thirteenth century\". Use \"by\" only when the person who did it is important."
   ),
   u15: t(
     "You are getting ready for an important event (a wedding, a party or a new job). Write about the things you are having done by other people and the things you are doing yourself.",

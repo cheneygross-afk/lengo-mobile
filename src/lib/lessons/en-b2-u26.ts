@@ -2995,8 +2995,6 @@ export const EN_B2_U26: Lesson[] = [
               "Although she was exhausted, she went running.",
               "Even though she was exhausted, she went for a run.",
               "Even though she was exhausted, she went running.",
-              "Despite being exhausted, I went for a run.",
-              "Although I was exhausted, I went for a run.",
             ],
             explanation: "\"Despite\" + -ing (no \"of\"), or \"although\" + subject + verb.",
           },

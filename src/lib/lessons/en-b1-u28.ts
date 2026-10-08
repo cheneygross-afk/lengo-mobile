@@ -1867,7 +1867,7 @@ export const EN_B1_U28: Lesson[] = [
           { es: "Hi Tom,", en: "Hola, Tom:" },
           { es: "Thanks for your email!", en: "¡Gracias por tu correo!" },
           { es: "It was great to hear from you.", en: "Me alegró mucho saber de ti." },
-          { es: "Sorry I haven't written for ages.", en: "Perdona que hace siglos que no te escribo." },
+          { es: "Sorry I haven't written for ages.", en: "Perdona, hace siglos que no te escribo." },
           { es: "Hope you're well.", en: "Espero que estés bien." },
           { es: "Write soon! Love, Sofia", en: "¡Escríbeme pronto! Un abrazo, Sofia" },
         ],

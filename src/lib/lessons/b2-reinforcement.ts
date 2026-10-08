@@ -247,7 +247,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Completa el plan.", "No le digas nada a menos que te lo ___ directamente. (preguntar, ella)", "pregunte", "A menos que + subjuntivo."),
       fb("Completa el plan.", "En cuanto ___ el coche, gritad «¡sorpresa!». (oír, vosotros)", "oigáis", "En cuanto + futuro → subjuntivo; oír → oigáis."),
-      fb("Completa el plan.", "Te doy mi llave para ___ antes. (entrar, tú mismo)", "entrar", "Mismo sujeto → para + infinitivo."),
+      fb("Completa el plan.", "Te doy mi llave para que ___ antes. (entrar, tú)", "entres", "Sujetos distintos (yo doy, tú entras) → para que + subjuntivo."),
       mc(
         "«I'll lend you my car so you can go to the party.»",
         ["Te presto el coche para que puedas ir a la fiesta.", "Te presto el coche para que puedes ir a la fiesta.", "Te presto el coche para poder ir a la fiesta tú.", "Te presto el coche para que podrás ir a la fiesta."],
@@ -292,7 +292,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "«She always leaves without me noticing.»",
         ["Siempre se va sin que yo me dé cuenta.", "Siempre se va sin darme cuenta.", "Siempre se va sin que yo me doy cuenta.", "Siempre se va sin que me daré cuenta."],
         0,
-        "Con sujetos distintos (ella se va, yo no me doy cuenta) se usa «sin que» + subjuntivo: «me dé cuenta». «Sin darme cuenta» significaría que el que no se da cuenta es ella misma."
+        "Con sujetos distintos (ella se va, yo no me doy cuenta) se usa «sin que» + subjuntivo: «me dé cuenta». «Sin darme cuenta» no es posible: el infinitivo exige el mismo sujeto (ella) y «me» remite a yo; «sin darse cuenta» significaría que es ella quien no se da cuenta."
       ),
       toEs("Turn off (tú) the TV before you go to bed.", "Apaga la tele antes de acostarte.", "Mismo sujeto (tú) → antes de + infinitivo.", ["Apaga la televisión antes de acostarte.", "Apaga la tele antes de irte a la cama."]),
       wo("Te dejo mi abrigo para que no pases frío.", "Para que + subjuntivo.", "I'll leave you my coat so you don't get cold."),
@@ -330,7 +330,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Pasa al pasado.", "Dudo que tenga razón. → Dudaba que ___ razón.", "tuviera", "Con «dudaba» en pasado, el subjuntivo pasa a imperfecto; de «tuvieron» sale «tuviera»."),
       fb("Pasa al pasado.", "Me alegro de que estés aquí. → Me alegré de que ___ allí.", "estuvieras", "Con «me alegré» en pasado, el subjuntivo pasa a imperfecto; de «estuvieron» sale «estuvieras»."),
-      fb("Pasa al pasado.", "Ojalá que vengan. → Ojalá que ___ (pero no vinieron).", "vinieran", "Ojalá + imperfecto: deseo improbable o irreal."),
+      fb("Expresa el deseo como poco probable.", "Ojalá que vengan. → Ojalá que ___ (aunque es poco probable).", "vinieran", "Ojalá + imperfecto de subjuntivo: deseo improbable o irreal (ojalá no tiene tiempo propio)."),
       fb("Pasa al pasado.", "No hay nadie que lo sepa. → No había nadie que lo ___.", "supiera", "Con «no había nadie» en pasado, el subjuntivo pasa a imperfecto; de «supieron» sale «supiera»."),
       mc(
         "«Mi madre me dice que me ponga el abrigo.» → en pasado:",
@@ -783,7 +783,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
           ["hoy", "aquel día"],
           ["ayer", "el día anterior"],
           ["mañana", "al día siguiente"],
-          ["la semana que viene", "a la semana siguiente"],
+          ["la semana que viene", "la semana siguiente"],
         ],
         "Cambios de referencias temporales."
       ),
@@ -878,7 +878,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Cualidad con ser; estado con estar."
       ),
-      fb("Completa.", "Mi abuelo tiene noventa años, pero ___ muy despierto; lo entiende todo.", "es", "Cualidad (agudo, listo) → ser despierto."),
+      { ...fb("Completa.", "Mi abuelo tiene noventa años, pero ___ muy despierto; lo entiende todo.", "es", "Cualidad (agudo, listo) → ser despierto; «está muy despierto» (sigue lúcido) también es correcto."), altAnswers: ["está"] },
       fb("Completa.", "Son las seis de la mañana y ya ___ despierto.", "estoy", "Estado (no dormido) → estar despierto."),
       fb("Completa.", "Ese chico ___ muy atento: siempre te abre la puerta.", "es", "«Ser atento» describe a una persona amable y considerada; «estar atento» es prestar atención."),
       ms(
@@ -1182,7 +1182,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué frases son correctas?",
         ["Ya que estás aquí, ayúdame.", "Aunque llueve, iremos.", "Por lo tanto que no vino, empezamos.", "Gracias a tu ayuda, terminamos a tiempo."],
         [0, 1, 3],
-        "«Por lo tanto» introduce una consecuencia y nunca va con «que». Para dar una causa hace falta «como»: «como no vino, empezamos»."
+        "«Por lo tanto» introduce una consecuencia y nunca va con «que». Para dar una causa hace falta un conector causal, por ejemplo «como»: «como no vino, empezamos»."
       ),
       mc(
         "«Since you know the answer, tell me.»",
@@ -1209,14 +1209,14 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
           ["Lo cancelaron porque no había dinero. → Lo cancelaron, puesto que no había fondos.", "It was canceled since there were no funds."],
         ],
         [
-          fb("Sube el registro.", "No hubo acuerdo, así que se aplazó la votación. → No hubo acuerdo; ___, se aplazó la votación.", "por consiguiente", "Así que → por consiguiente (o por lo tanto)."),
+          { ...fb("Sube el registro.", "No hubo acuerdo, así que se aplazó la votación. → No hubo acuerdo; ___, se aplazó la votación.", "por consiguiente", "Así que → por consiguiente (o por lo tanto)."), altAnswers: ["por lo tanto", "por tanto"] },
         ]
       ),
     ],
     [
-      fb("Sube el registro.", "Aumentó la demanda porque bajaron los precios. → Aumentó la demanda, ___ que bajaron los precios.", "dado", "«Dado que» es una alternativa formal a «porque»."),
+      { ...fb("Sube el registro.", "Aumentó la demanda porque bajaron los precios. → Aumentó la demanda, ___ que bajaron los precios.", "dado", "«Dado que» es una alternativa formal a «porque» (también «puesto que» o «ya que»)."), altAnswers: ["puesto", "ya"] },
       fb("Sube el registro.", "El estudio es serio y también es innovador. → El estudio es serio; ___, es innovador.", "asimismo", "«Asimismo» es la versión formal de «y también»."),
-      fb("Sube el registro.", "Tiene ventajas, pero hay riesgos. → Tiene ventajas; ___, hay riesgos.", "no obstante", "«No obstante» es la versión formal de «pero»; va entre punto y coma y coma."),
+      { ...fb("Sube el registro.", "Tiene ventajas, pero hay riesgos. → Tiene ventajas; ___, hay riesgos.", "no obstante", "«No obstante» (o «sin embargo») es la versión formal de «pero»; va entre punto y coma y coma."), altAnswers: ["sin embargo"] },
       mt(
         "Relaciona cada conector coloquial con uno formal.",
         [
@@ -1258,7 +1258,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Destaca a la persona.", "Tu hermana me lo dijo. → Fue tu hermana ___ me lo dijo.", "quien", "Persona → quien (o la que)."),
+      { ...fb("Destaca a la persona.", "Tu hermana me lo dijo. → Fue tu hermana ___ me lo dijo.", "quien", "Persona → quien (o la que)."), altAnswers: ["la que"] },
       fb("Destaca el lugar.", "Estudié en Salamanca. → Fue en Salamanca ___ estudié.", "donde", "En las hendidas de lugar se usa «donde»: «Fue en Salamanca donde…»."),
       fb("Destaca el objeto.", "Me molesta su actitud. → ___ que me molesta es su actitud.", "Lo", "Para destacar una cosa se usa «lo que»: «Lo que me molesta es…»."),
       fb("Destaca el modo.", "Lo arreglé así. → Fue así ___ lo arreglé.", "como", "En las hendidas de modo se usa «como»: «Fue así como…»."),
@@ -1281,7 +1281,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Recursos de énfasis",
-        "Lo + adjetivo + que (lo bien que canta), anteposición con pronombre (La canción, la cantó como nadie), ¡Qué + adjetivo!, e inversión con adverbios (Jamás había visto…).",
+        "Lo + adjetivo + que (lo bien que canta), anteposición con pronombre (La canción, la cantó como nadie), ¡Qué + adjetivo!, y adverbios enfáticos al inicio (Jamás había visto…).",
         [
           ["¡No te imaginas lo bien que tocaron!", "You can't imagine how well they played!"],
           ["Esa canción la cantó a capela.", "That song, she sang a cappella."],
@@ -1437,7 +1437,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Corrige.", "El señor ___ hijas viven en Canadá es mi tío. (el alumno escribió: cuyo)", "cuyas", "«Cuyo» concuerda con lo poseído («hijas»), no con «el señor»: «cuyas»."),
       fb("Corrige.", "Perdí el tren, ___ significa que llegaré tarde. (el alumno escribió: el cual)", "lo cual", "Para referirse a toda la idea anterior se usa el neutro «lo cual», no «el cual»."),
-      fb("Corrige.", "Es el puente debajo del ___ dormían los mendigos. (el alumno escribió: que)", "cual", "Tras preposición compuesta, mejor el cual."),
+      fb("Corrige.", "Es el puente debajo ___ dormían los mendigos. (el alumno escribió: que)", "del cual", "«Debajo» necesita «de» + artículo: «debajo del cual» (o «debajo del que»); «debajo que» es incorrecto."),
       ms(
         "¿Qué frases son correctas?",
         ["La casa en la cual crecí ya no existe.", "El autor cuya obra estudiamos es chileno.", "Me mintió, lo cual no le perdono.", "El chico cuyo la madre es médica."],
@@ -1593,7 +1593,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "La entrevista",
         "Describir a la pareja ideal (desconocida) exige subjuntivo; describir a tu ex (conocido), indicativo.",
         [
-          ["—Busco a alguien que tenga sentido del humor y que le guste viajar.", "I'm looking for someone who has a sense of humor and likes to travel."],
+          ["—Busco a alguien que tenga sentido del humor y a quien le guste viajar.", "I'm looking for someone who has a sense of humor and likes to travel."],
           ["—Mi ex era alguien que nunca quería salir de casa.", "My ex was someone who never wanted to leave the house."],
         ],
         [
@@ -1816,10 +1816,10 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Completa el plan.", "Dejaremos las cajas en el pasillo hasta que ___ sitio. (haber)", "haya", "Hasta que + subjuntivo."),
       fb("Completa el recuerdo (pasado).", "En cuanto ___ las llaves, fuimos a ver el piso. (recibir, nosotros)", "recibimos", "Pasado real → indicativo."),
       mc(
-        "Ordena el plan: (A) cuando esté vacío el piso viejo (B) devolveremos las llaves al casero (C) en cuanto terminemos de limpiar",
+        "Ordena el plan: (A) cuando el casero haya revisado el piso (B) devolveremos las llaves al casero (C) en cuanto terminemos de limpiar",
         ["C → A → B", "B → A → C", "A → B → C", "C → B → A"],
         0,
-        "El orden lógico es: primero limpiar (C), luego el piso queda vacío (A) y por último devolver las llaves (B). Empezar por B pone el final antes que el principio."
+        "El orden lógico es: primero limpiar (C), luego el casero revisa el piso (A) y por último devolver las llaves (B). Empezar por B pone el final antes que el principio."
       ),
       ms(
         "¿Qué frases son correctas?",
@@ -1894,7 +1894,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Dos formas equivalentes",
-        "Cantara = cantase, tuviera = tuviese, fuéramos = fuésemos. Son intercambiables en casi todos los contextos; -se es algo más frecuente en España y en la escritura.",
+        "Cantara = cantase, tuviera = tuviese, fuéramos = fuésemos. Son intercambiables en casi todos los contextos; -ra es la más frecuente en todas partes, y -se se usa algo más en España y en la escritura.",
         [
           ["Si tuviera tiempo… = Si tuviese tiempo…", "If I had time…"],
           ["Me pidió que viniera. = Me pidió que viniese.", "She asked me to come."],
@@ -2039,7 +2039,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "Cambiar el grado de realidad",
         "Si + presente, futuro → Si + imperfecto de subjuntivo, condicional. El significado pasa de «puede que pase» a «no pasa / es poco probable».",
         [
-          ["Si llueve, no saldremos. → Si lloviera, no saldríamos.", "If it rains… → If it were raining…"],
+          ["Si llueve, no saldremos. → Si lloviera, no saldríamos.", "If it rains… → If it rained…"],
           ["Si me llamas, te ayudo. → Si me llamaras, te ayudaría.", "If you call me… → If you called me…"],
         ],
         [
@@ -2771,7 +2771,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 2],
         "«El lienzo», «el óleo» y «la acuarela» son de la pintura. «La rima» pertenece a la poesía."
       ),
-      toEs("It's the most moving poem I've ever read.", "Es el poema más conmovedor que he leído nunca.", "Tras un superlativo, la relativa suele ir en pretérito perfecto: «que he leído nunca».", ["Es el poema más emocionante que he leído nunca.", "Es el poema más conmovedor que jamás he leído."]),
+      toEs("It's the most moving poem I've ever read.", "Es el poema más conmovedor que he leído nunca.", "Tras un superlativo, la relativa puede ir en indicativo («que he leído nunca») o en subjuntivo («que haya leído nunca»).", ["Es el poema más emocionante que he leído nunca.", "Es el poema más conmovedor que jamás he leído.", "Es el poema más conmovedor que haya leído nunca.", "Es el poema más emocionante que haya leído nunca.", "Es el poema más conmovedor que jamás haya leído."]),
       wo("La crítica elogió la novela, cuyo final sorprendió a todos.", "Cuyo concuerda con final.", "The critics praised the novel, whose ending surprised everyone."),
     ]
   ),
@@ -2937,7 +2937,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué frases son correctas?",
         ["Tomé la decisión sin pensarlo mucho.", "Me arrepiento de que no te lo dije.", "Fue la mejor decisión que he tomado.", "Estoy en una encrucijada."],
         [0, 2, 3],
-        "«Arrepentirse de que» exige subjuntivo: «de que no te lo dijera» (o «de no habértelo dicho»). «Me arrepiento de que no te lo dije» usa indicativo y es incorrecta."
+        "Con el mismo sujeto, «arrepentirse de» va con infinitivo: «me arrepiento de no habértelo dicho». «Me arrepiento de que no te lo dije» es incorrecta."
       ),
       toEs("I would have made the same decision.", "Yo habría tomado la misma decisión.", "El condicional perfecto («habría tomado») habla de una acción hipotética en el pasado.", ["Yo hubiera tomado la misma decisión.", "Habría tomado la misma decisión."]),
       wo("A veces la decisión más difícil es la más acertada.", "Superlativos con la más.", "Sometimes the hardest decision is the wisest one."),
@@ -3150,11 +3150,11 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Completa.", "La obra ___ estrenada en 1936. (ser, pretérito)", "fue", "Pasiva con ser."),
       ms(
         "¿Qué frases son correctas?",
-        ["El concierto se agotó en diez minutos.", "Actuó como si fuera su última función.", "El reparto fue elegido por el director.", "Apenas se había levantado el telón cuando se fue la luz."],
+        ["Las entradas se agotaron en diez minutos.", "Actuó como si fuera su última función.", "El reparto fue elegido por el director.", "Apenas se había levantado el telón cuando se fue la luz."],
         [0, 1, 2, 3],
         "Las cuatro son correctas: «agotarse», «como si» + imperfecto de subjuntivo, la pasiva con «ser» y «apenas… cuando» para una acción inmediatamente anterior."
       ),
-      toEs("It was the best performance I have ever seen.", "Fue la mejor actuación que he visto nunca.", "Tras un superlativo, la relativa suele ir en pretérito perfecto: «que he visto nunca».", ["Ha sido la mejor actuación que he visto nunca.", "Fue la mejor función que he visto nunca."]),
+      toEs("It was the best performance I have ever seen.", "Fue la mejor actuación que he visto nunca.", "Tras un superlativo, la relativa puede ir en indicativo («que he visto nunca») o en subjuntivo («que haya visto nunca»).", ["Ha sido la mejor actuación que he visto nunca.", "Fue la mejor función que he visto nunca.", "Fue la mejor actuación que haya visto nunca.", "Fue la mejor función que haya visto nunca.", "Ha sido la mejor actuación que haya visto nunca."]),
       wo("El público se puso en pie para aplaudir a la orquesta.", "Ponerse en pie + para + infinitivo.", "The audience stood up to applaud the orchestra."),
     ]
   ),
@@ -3858,7 +3858,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Completa.", "Mis padres prefieren que ___ algo seguro. (tener, yo)", "tenga", "Preferir que + subjuntivo."),
       fb("Completa.", "Nadie puede decidir por ti, a menos que tú se lo ___. (permitir)", "permitas", "A menos que + subjuntivo."),
-      fb("Completa.", "Si hubiera elegido la seguridad, nunca ___ el mundo. (conocer, yo)", "habría conocido", "Tipo 3."),
+      { ...fb("Completa.", "Si hubiera elegido la seguridad, nunca ___ el mundo. (conocer, yo)", "habría conocido", "Tipo 3."), altAnswers: ["habría visto", "hubiera conocido"] },
       ms(
         "¿Qué argumentos favorecen el puesto en la orquesta?",
         ["un sueldo fijo cada mes", "la libertad de crear", "vacaciones pagadas", "la emoción de las giras"],
@@ -4031,7 +4031,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "«He works as if he had all the time in the world.»",
         ["Trabaja como si tuviera todo el tiempo del mundo.", "Trabaja como si tiene todo el tiempo del mundo.", "Trabaja como si tendría todo el tiempo del mundo.", "Trabaja como si tenga todo el tiempo del mundo."],
         0,
-        "«Como si» siempre va con imperfecto de subjuntivo: «tuviera». «Tiene», «tendría» y «tenga» no se usan nunca tras «como si»."
+        "«Como si» siempre va con imperfecto (o pluscuamperfecto) de subjuntivo: «tuviera». «Tiene», «tendría» y «tenga» no se usan nunca tras «como si»."
       ),
       ms(
         "¿Qué frases son correctas?",
@@ -4110,7 +4110,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Completa.", "Nos contó que ___ de pintar cuando se casó. (dejar, pluscuamperfecto)", "había dejado", "Estilo indirecto."),
       fb("Completa.", "Si no hubiéramos encontrado aquella caja, nunca lo ___. (saber, nosotros)", "habríamos sabido", "Tipo 3."),
-      fb("Completa.", "Es increíble que alguien tan tímida ___ sido tan famosa. (haber)", "haya", "Es increíble que + perfecto de subjuntivo."),
+      fb("Completa.", "Es increíble que una mujer tan tímida ___ sido tan famosa. (haber)", "haya", "Es increíble que + perfecto de subjuntivo."),
       mc(
         "«Why didn't you ever tell us?» → estilo indirecto:",
         ["Le preguntamos por qué nunca nos lo había contado.", "Le preguntamos por qué nunca nos lo contara.", "Le preguntamos que por qué nunca nos lo cuenta ayer.", "Le preguntamos por qué nunca se lo había contado a ella."],
@@ -4143,7 +4143,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           fb("Completa.", "No es ético que ___ información personal sin permiso. (compartirse)", "se comparta", "No es ético que + subjuntivo."),
-          fb("Completa.", "Los usuarios confían en que ___ sus datos. (proteger, nosotros)", "protejamos", "Confiar en que + subjuntivo."),
+          { ...fb("Completa.", "Los usuarios confían en que ___ sus datos. (proteger, nosotros)", "protejamos", "Confiar en que + subjuntivo (también admite futuro de indicativo: «protegeremos»)."), altAnswers: ["protegeremos"] },
         ]
       ),
     ],
@@ -4424,7 +4424,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "«The fact that it disappears is what makes it valuable.»",
         ["El hecho de que desaparezca es lo que lo hace valioso.", "El hecho de que desaparece es lo que lo hace valioso.", "El hecho que desaparecerá es quien lo hace valioso.", "El hecho de desaparezca es lo que lo hace valioso."],
         0,
-        "«El hecho de que» + valoración va con subjuntivo: «desaparezca». «Desaparece» es indicativo, «quien» es solo para personas, y «el hecho de desaparezca» omite «que»."
+        "«El hecho de que» + valoración suele ir con subjuntivo: «desaparezca». «Desaparece» (indicativo) es posible, pero no es lo natural aquí; «quien» es solo para personas, y «el hecho de desaparezca» omite «que»."
       ),
       toEs("Many neighbors came to see it before it was demolished.", "Muchos vecinos vinieron a verlo antes de que lo derribaran.", "Antes de que + imperfecto de subjuntivo (pasado).", ["Muchos vecinos fueron a verlo antes de que lo derribaran.", "Muchos vecinos vinieron a verlo antes de que lo demolieran."]),
       wo("Lo que queda de un mural no es la pared, sino el recuerdo.", "Lo que + no… sino.", "What remains of a mural isn't the wall but the memory."),
@@ -5299,7 +5299,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué frases son correctas?",
         ["No confíes en nadie que te pida fotos.", "Fue su madre quien descubrió el engaño.", "Ojalá le hubiera hecho caso a mi hermana.", "Se comportaba como si era un amigo de verdad."],
         [0, 1, 2],
-        "«Como si» siempre va con imperfecto de subjuntivo: «como si fuera un amigo». «Como si era» es incorrecta."
+        "«Como si» va con imperfecto (o pluscuamperfecto) de subjuntivo: «como si fuera un amigo». «Como si era» es incorrecta."
       ),
       toEs("He understood me better than anyone, or so I thought.", "Me entendía mejor que nadie, o eso creía yo.", "El imperfecto describe cómo eran las cosas; «mejor que nadie» es la comparación con todos.", ["Me comprendía mejor que nadie, o eso creía yo.", "Me entendía mejor que nadie, o eso pensaba."]),
       wo("Lo que parecía una amistad resultó ser una mentira.", "Lo que + resultar ser.", "What seemed like a friendship turned out to be a lie."),

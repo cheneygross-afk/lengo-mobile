@@ -812,7 +812,7 @@ export const EN_B2_U20_EXTRA: Lesson[] = [
         answer: "I was a bit tired after the trip.",
         altAnswers: alts(
           "I was a bit tired after the trip.",
-          "{I|He} was {a bit|a little|slightly|somewhat} tired after the {trip|journey|flight}.",
+          "{I|He|She} was {a bit|a little|slightly|somewhat} tired after the {trip|journey|flight}.",
         ),
         explanation: "\"A bit\" / \"slightly\" go with gradable adjectives like \"tired\". *A bit exhausted sounds odd.",
       },

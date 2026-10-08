@@ -622,7 +622,7 @@ export const EN_B1_U10: Lesson[] = [
         prompt: "Translate into English.",
         source: "Si hubiéramos salido antes, ya estaríamos allí.",
         answer: "If we had left earlier, we would be there by now.",
-        altAnswers: ["If we had left earlier, we would already be there.", "If we had left earlier, we would be there already.", "If we had left before, we would already be there.", "If we had left earlier, we would be there now."],
+        altAnswers: ["If we had left earlier, we would already be there.", "If we had left earlier, we would be there already.", "If we had left earlier, we would be there now."],
         explanation: "Mixed conditional: past cause (\"had left\"), present result (\"would be\"). «Ya» here = \"by now\" or \"already\".",
       },
       {

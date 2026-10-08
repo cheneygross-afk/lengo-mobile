@@ -176,7 +176,7 @@ export const EN_B1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend asks: «¿Qué haces esta noche?». How do you ask this in English?",
+        question: "You want to ask a friend «¿Qué haces esta noche?». What do you say in English?",
         options: ["What are you doing tonight?", "What do you do tonight?", "What will you do tonight?", "What you do tonight?"],
         correctIndex: 0,
         explanation: "To ask about someone's plans English uses the present continuous: \"What are you doing tonight?\". \"What do you do?\" asks about your job.",
@@ -1118,7 +1118,7 @@ export const EN_B1_U05: Lesson[] = [
         examples: [
           { es: "I'll be at the office until six.", en: "Estaré en la oficina hasta las seis." },
           { es: "I'll have finished the report by six.", en: "Habré terminado el informe para las seis." },
-          { es: "Please send it by Monday.", en: "Por favor, envíalo antes del lunes." },
+          { es: "Please send it by Monday.", en: "Por favor, envíalo para el lunes." },
           { es: "We're staying until Sunday.", en: "Nos quedamos hasta el domingo." },
           { es: "I won't know the results until Friday.", en: "No sabré los resultados hasta el viernes." },
         ],
@@ -1183,8 +1183,7 @@ export const EN_B1_U05: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Please send it ___ Monday.",
         answer: "by",
-        altAnswers: ["before"],
-        en: "Por favor, envíalo [antes del] lunes.",
+        en: "Por favor, envíalo [para el] lunes.",
         explanation: "A deadline is \"by\". \"Until Monday\" would mean you keep sending it up to Monday.",
       },
       {

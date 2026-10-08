@@ -282,7 +282,7 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
           "Dear Mrs. Lopez, I am writing to confirm my reservation.",
           "Dear Mrs. Lopez, I am writing to confirm my booking.",
         ],
-        explanation: "\"Ms.\" is the safe title for any woman (\"Mrs.\" only if you know she is married and prefers it). Notice: no colon after the greeting in English, but a comma.",
+        explanation: "\"Ms.\" is the safe title for any woman (\"Mrs.\" only if you know she is married and prefers it). In an email, put a comma after the greeting (a colon is used only in formal American business letters).",
       },
       {
         type: "listen-choose",
@@ -550,7 +550,7 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["We", "regret", "to", "inform", "you", "that", "the", "event", "has", "been", "cancelled"],
+        words: ["We", "regret", "to", "inform", "you", "that", "the", "event", "has", "been", "canceled"],
         translation: "Lamentamos informarle de que el evento ha sido cancelado.",
         explanation: "\"We regret to inform you that...\" is the standard formal way to give bad news.",
       },

@@ -155,7 +155,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "¿Puedo pagar con tarjeta?",
         answer: "Can I pay by card?",
-        altAnswers: ["Could I pay by card?", "May I pay by card?", "Can I pay with a card?", "Can I pay with my card?", "Can I pay by credit card?", "Can I pay with card?"],
+        altAnswers: ["Could I pay by card?", "May I pay by card?", "Can I pay with a card?", "Can I pay with my card?", "Can I pay by credit card?"],
         explanation: "Permiso: \"Can I\" + verbo base. «Con tarjeta» es \"by card\" o \"with a card\".",
       },
       {
@@ -907,7 +907,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "¿Tienen alguna pregunta?",
         answer: "Do you have any questions?",
-        altAnswers: ["Have you got any questions?", "Does anyone have any questions?", "Do you have a question?", "Do you have any question?"],
+        altAnswers: ["Have you got any questions?", "Does anyone have any questions?", "Do you have a question?"],
         explanation: "En preguntas, \"any\" con el nombre en plural: \"any questions\". «Ustedes» también es \"you\".",
       },
       {
@@ -1757,7 +1757,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
             prompt: "Traduce al inglés.",
             source: "En mi casa hay tres dormitorios.",
             answer: "There are three bedrooms in my house.",
-            altAnswers: ["In my house there are three bedrooms.", "My house has three bedrooms.", "There are three bedrooms in my home.", "There are three rooms in my house."],
+            altAnswers: ["In my house there are three bedrooms.", "My house has three bedrooms.", "There are three bedrooms in my home."],
             explanation: "«Hay» + plural es \"there are\". Nunca *In my house have three bedrooms.",
           },
           {

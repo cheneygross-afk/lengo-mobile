@@ -53,7 +53,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
           "The same happens with plurals: \"The passengers who had tickets got on\" (only some), but \"The passengers, who had tickets, got on\" (all of them had tickets). In speech, the commas are pauses.",
         ],
         examples: [
-          { es: "My sister who lives in Leeds is a nurse.", en: "Mi hermana la que vive en Leeds es enfermera (tengo más de una)." },
+          { es: "My sister who lives in Leeds is a nurse.", en: "Mi hermana que vive en Leeds es enfermera (tengo más de una)." },
           { es: "My sister, who lives in Leeds, is a nurse.", en: "Mi hermana, que vive en Leeds, es enfermera (solo tengo una)." },
           { es: "The players who were injured stayed at the hotel.", en: "Los jugadores que estaban lesionados se quedaron en el hotel (solo algunos)." },
           { es: "The players, who were tired, went straight to bed.", en: "Los jugadores, que estaban cansados, se fueron directamente a la cama (todos)." },
@@ -512,7 +512,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["The", "flight", "was", "cancelled,", "which", "ruined", "our", "plans."],
+        words: ["The", "flight", "was", "canceled,", "which", "ruined", "our", "plans."],
         translation: "Cancelaron el vuelo, lo que arruinó nuestros planes.",
         explanation: "Main clause first, then a comma and \"which\" to comment on the whole event.",
       },
@@ -752,7 +752,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["She", "has", "two", "brothers,", "both", "of", "whom", "live", "in", "Canada."],
-        translation: "Tiene dos hermanos, los cuales viven ambos en Canadá.",
+        translation: "Tiene dos hermanos, que viven los dos en Canadá.",
         explanation: "Quantity word + \"of whom\" after the comma: \"both of whom\".",
       },
       {

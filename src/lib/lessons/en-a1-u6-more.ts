@@ -1233,7 +1233,7 @@ export const EN_A1_U6_MORE: Lesson[] = [
         examples: [
           { es: "What's your last name?", en: "¿Cómo te apellidas?" },
           { es: "What's this called in English?", en: "¿Cómo se llama esto en inglés?" },
-          { es: "What's the name of your dog?", en: "¿Cómo se llama tu perro?" },
+          { es: "What's your dog's name?", en: "¿Cómo se llama tu perro?" },
           { es: "How do you say this word in English?", en: "¿Cómo se dice esta palabra en inglés?" },
           { es: "How do you spell your name?", en: "¿Cómo se escribe tu nombre?" },
         ],

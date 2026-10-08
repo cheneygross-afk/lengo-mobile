@@ -153,7 +153,7 @@ export const EN_A2_U11: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "A lo mejor voy a la fiesta.",
         answer: "I might go to the party.",
-        altAnswers: ["I may go to the party.", "Maybe I'll go to the party.", "Perhaps I'll go to the party.", "I could go to the party."],
+        altAnswers: ["I may go to the party.", "Maybe I'll go to the party.", "Perhaps I'll go to the party."],
         explanation: "«A lo mejor voy» habla del futuro: \"I might go\" o \"Maybe I'll go\". *Maybe I go no es correcto.",
       },
       {

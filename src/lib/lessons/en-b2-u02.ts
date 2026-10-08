@@ -923,7 +923,7 @@ export const EN_B2_U02: Lesson[] = [
         source: "Me di cuenta de que ya había metido las llaves en el bolso.",
         answer: "I realized I had already put the keys in my bag.",
         altAnswers: ["I realized that I had already put the keys in my bag.", "I realised I had already put the keys in my bag.", "I realised that I had already put the keys in my bag.", "I realized I had already put the keys in my purse.", "I realized that I had already put the keys in my purse.", "I realized I had put the keys in my bag already.", "I realized I'd already put the keys in my bag."],
-        explanation: "\"Put\" is the same in all three forms, so \"already\" helps show it is \"had put\". «Darse cuenta» is \"realize\", not *notice or *take account.",
+        explanation: "\"Put\" is the same in all three forms, so \"already\" helps show it is \"had put\". «Darse cuenta» is usually \"realize\" (sometimes \"notice\"), never *take account.",
       },
       {
         type: "fill-blank",

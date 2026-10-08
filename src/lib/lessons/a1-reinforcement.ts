@@ -262,10 +262,10 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       mc(
-        "Find the correct version of \"Yo es un estudiante.\"",
-        ["Yo soy un estudiante.", "Yo eres un estudiante.", "Yo son un estudiante.", "Yo es una estudiante."],
+        "Find the correct version of \"Yo es estudiante.\"",
+        ["Yo soy estudiante.", "Yo eres estudiante.", "Yo son estudiante.", "Yo estoy estudiante."],
         0,
-        "Yo always takes soy: Yo soy un estudiante. \"Eres\" is tú, \"son\" is ellos, and \"es\" is él/ella."
+        "Yo always takes soy: Yo soy estudiante (no un before a bare profession). \"Eres\" is tú, \"son\" is ellos, and estar isn't used to say what someone is."
       ),
       mc(
         "Find the correct version of \"Los chicas son altas.\"",
@@ -273,7 +273,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Chicas is feminine plural, so the article is las: Las chicas son altas. \"Los chicas\" and \"es\" mismatch gender and number, and \"Los chicos son altas\" makes the adjective disagree."
       ),
-      fb("Fix the verb.", "Ustedes ___ muy simpáticos. (learner wrote: sois)", "son", "In Latin America ustedes is used for everyone, and it takes son. Sois goes with vosotros."),
+      fb("Fix the verb.", "Ustedes ___ muy simpáticos. (learner wrote: sois)", "son", "Ustedes always takes son, in Spain and Latin America alike. Sois goes with vosotros."),
       fb("Fix the article.", "Busco ___ mapa de la ciudad. (learner wrote: una)", "un", "Mapa is masculine despite the -a → un mapa."),
       ms(
         "Which of these sentences contain an error?",
@@ -282,7 +282,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Tú takes eres: Tú eres mi mejor amigo. The others are correct."
       ),
       toEs("You (informal) are my teacher.", "Tú eres mi profesor.", "Tú + eres. Remember the accent on tú.", ["Eres mi profesor.", "Tú eres mi profesora.", "Eres mi profesora."]),
-      wo("Ellas son las amigas de Pedro.", "Subject + ser + article + noun + de + owner.", "They are Pedro's friends."),
+      wo("Ellas son las amigas de Pedro.", "Subject + ser + article + noun + de + owner.", "They (f.) are Pedro's friends."),
     ]
   ),
   L(
@@ -322,7 +322,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Nationality adjectives",
-        "Nationalities ending in a consonant add -a for the feminine and lose the accent: español → española, inglés → inglesa, alemán → alemana.",
+        "Nationalities ending in a consonant add -a for the feminine, and a written accent on the last syllable disappears: español → española, inglés → inglesa, alemán → alemana.",
         [
           ["Él es español. / Ella es española.", "He is Spanish. / She is Spanish."],
           ["Ellos son ingleses.", "They are English."],
@@ -1022,7 +1022,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Su covers his, her, its, your (usted) and their. It never means my, which is mi."
       ),
       toEs("Their dogs are in our garden.", "Sus perros están en nuestro jardín.", "Sus for several dogs; nuestro for one masculine garden.", []),
-      wo("Vuestra abuela vive con nuestros tíos.", "Vuestra (fem. sing.) agrees with abuela; nuestros agrees with tíos.", "Your grandmother lives with our aunt and uncle."),
+      wo("Vuestra abuela vive con nuestros tíos.", "Vuestra (fem. sing.) agrees with abuela; nuestros agrees with tíos.", "Your (pl., Spain) grandmother lives with our aunt and uncle."),
     ]
   ),
   L(
@@ -1109,7 +1109,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "The class timetable",
-        "Read the schedule. Remember: es la una for anything in the one o'clock hour; son las for everything else.",
+        "Read the schedule. Remember: any time said with la una (including la una menos cuarto, 12:45) is singular: es la una, a la una; every other hour is son las, a las.",
         [
           ["Matemáticas: 8:15 — a las ocho y cuarto", "Math: at a quarter past eight"],
           ["Historia: 12:45 — a la una menos cuarto", "History: at a quarter to one"],
@@ -1311,7 +1311,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         [1],
         "De + el director → del director. De él (pronoun) doesn't contract, and a los never contracts."
       ),
-      toEs("When does the class start? I think that it starts at nine.", "¿Cuándo es la clase? Creo que es a las nueve.", "Cuándo (question) has an accent; que (that) doesn't.", ["¿Cuándo es la clase? Pienso que es a las nueve."]),
+      toEs("When does the class start? I think that it starts at nine.", "¿Cuándo empieza la clase? Creo que empieza a las nueve.", "Cuándo (question) has an accent; que (that) doesn't.", ["¿Cuándo empieza la clase? Pienso que empieza a las nueve.", "¿A qué hora empieza la clase? Creo que empieza a las nueve.", "¿Cuándo es la clase? Creo que es a las nueve.", "¿Cuándo es la clase? Pienso que es a las nueve."]),
       wo("¿Por qué vas al hospital hoy?", "Por qué + verb + a + el → al.", "Why are you going to the hospital today?"),
     ]
   ),
@@ -2232,7 +2232,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "The neighborhood",
-        "Picture it as you read. Every location phrase ends in de, which contracts with el to del.",
+        "Picture it as you read. Most location phrases end in de (entre is the exception), and de contracts with el to del.",
         [
           ["La farmacia está entre el banco y el café.", "The pharmacy is between the bank and the café."],
           ["El café está enfrente del parque.", "The café is across from the park."],
@@ -2584,7 +2584,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         [0, 2, 3],
         "El arroz is singular, so it's le encanta el arroz; \"A Luis le encantan el arroz\" is wrong. The other three agree correctly."
       ),
-      toEs("My friends love Mexican food.", "A mis amigos les encanta la comida mexicana.", "La comida is singular → encanta.", ["Mis amigos les encanta la comida mexicana.", "A mis amigas les encanta la comida mexicana."]),
+      toEs("My friends love Mexican food.", "A mis amigos les encanta la comida mexicana.", "La comida is singular → encanta.", ["A mis amigas les encanta la comida mexicana."]),
       toEn("¿Te interesa cocinar conmigo?", "Are you interested in cooking with me?", "Interesar + infinitive; conmigo = with me.", ["Do you want to cook with me?", "Are you interested in cooking with me?"]),
       wo("A todos mis amigos les gusta el chocolate.", "A + people + les + gusta + singular thing.", "All my friends like chocolate."),
     ]
@@ -2790,7 +2790,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Dates use cardinals — except the first",
-        "Spanish dates use ordinary numbers: el dos, el quince. Only the first of the month can be el primero (though el uno is also common in Latin America).",
+        "Spanish dates use ordinary numbers: el dos, el quince. Only the first of the month can be el primero (common in Latin America; in Spain el uno is more usual).",
         [
           ["Hoy es el quince.", "Today is the fifteenth."],
           ["Mañana es el primero.", "Tomorrow is the first."],
@@ -2941,7 +2941,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       toEs("My neighbor is a nurse and she works at the hospital.", "Mi vecina es enfermera y trabaja en el hospital.", "After ser, a bare profession takes no article: es enfermera, not es una enfermera.", []),
       toEn("¿En qué trabaja tu padre? —Es ingeniero.", "What does your father do? — He's an engineer.", "¿En qué trabaja…? asks about someone's job.", ["What does your dad do? He's an engineer."]),
-      wo("Los turistas visitan el museo con una guía.", "Subject + verb + object + con + person.", "The tourists visit the museum with a guide."),
+      wo("Los turistas visitan el museo con un guía.", "Subject + verb + object + con + person.", "The tourists visit the museum with a guide."),
     ]
   ),
   L(
@@ -3427,7 +3427,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Match each time to Emma's activity.",
         [
           ["a las ocho", "desayuna"],
-          ["a las nueve y media", "pregunta direcciones"],
+          ["a las nueve y media", "pregunta el camino"],
           ["a las once", "visita el museo"],
         ],
         "Present tense for a narrated schedule."

@@ -17,7 +17,7 @@ export const EN_B1_U17: Lesson[] = [
         body: [
           "In unit 16 you used relative clauses to say WHICH person or thing you mean: \"the man who called you\", \"the book that I lost\". Those are defining clauses. Without them, we don't know who or what you are talking about.",
           "A non-defining clause is different. We already know who or what it is, and the clause just adds extra information: \"My brother, who lives in Berlin, is a doctor.\" If you remove the clause, the sentence still works: \"My brother is a doctor.\"",
-          "In writing, a non-defining clause always goes between commas (or between a comma and the full stop). Spanish works the same way: «Mi hermano, que vive en Berlín, es médico». The commas are the easy part. The pronoun is where Spanish speakers make mistakes.",
+          "In writing, a non-defining clause always goes between commas (or between a comma and the period). Spanish works the same way: «Mi hermano, que vive en Berlín, es médico». The commas are the easy part. The pronoun is where Spanish speakers make mistakes.",
         ],
         examples: [
           { es: "My brother, who lives in Berlin, is a doctor.", en: "Mi hermano, que vive en Berlín, es médico." },
@@ -131,6 +131,7 @@ export const EN_B1_U17: Lesson[] = [
         prompt: "Translate into English.",
         source: "Mi madre, que es profesora, habla tres idiomas.",
         answer: "My mother, who is a teacher, speaks three languages.",
+        altAnswers: ["My mom, who is a teacher, speaks three languages.", "My mother, who's a teacher, speaks three languages."],
         explanation: "A person between commas: \"who\", never \"that\". And the job needs \"a\": \"a teacher\".",
       },
       {
@@ -462,8 +463,8 @@ export const EN_B1_U17: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Lo que necesito son unas vacaciones.",
-            answer: "What I need is a holiday.",
-            altAnswers: ["What I need is a vacation.", "What I need is some time off."],
+            answer: "What I need is a vacation.",
+            altAnswers: ["What I need is a holiday.", "What I need is some time off."],
             explanation: "«Lo que» = \"what\" (the thing that). The verb is singular in English: \"What I need is...\". Americans say \"vacation\", the British \"holiday\".",
           },
         ],
@@ -1057,7 +1058,7 @@ export const EN_B1_U17: Lesson[] = [
         examples: [
           { es: "He came late, which annoyed me.", en: "Llegó tarde, lo que me molestó." },
           { es: "She helped me, which was very kind of her.", en: "Me ayudó, lo cual fue muy amable por su parte." },
-          { es: "We missed the train, which meant we had to take a taxi.", en: "Perdimos el tren, lo que significó que tuvimos que coger un taxi." },
+          { es: "We missed the train, which meant we had to take a taxi.", en: "Perdimos el tren, lo que significó que tuvimos que tomar un taxi." },
         ],
         checkpoint: [
           {
@@ -1176,7 +1177,7 @@ export const EN_B1_U17: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "We missed the train, ___ meant we had to take a taxi.",
         answer: "which",
-        en: "Perdimos el tren, [lo que] significó que tuvimos que coger un taxi.",
+        en: "Perdimos el tren, [lo que] significó que tuvimos que tomar un taxi.",
         explanation: "«Lo que» comments on missing the train, so \"which\".",
       },
       {
@@ -1535,7 +1536,7 @@ export const EN_B1_U17: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "What I need is a long holiday.",
+        audio: "What I need is a long vacation.",
         explanation: "\"What\" here means \"the thing that\". Sentences can start with a \"what\" clause.",
       },
       {

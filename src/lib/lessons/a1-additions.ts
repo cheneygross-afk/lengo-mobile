@@ -139,7 +139,7 @@ export const A1_ADDITIONS: AnchoredLesson[] = [
       ),
       sec(
         "Jugar: the only U → UE verb",
-        "Jugar (to play a sport or game) is the one common verb whose u becomes ue. It follows the same boot, and it takes a before the game: jugar al fútbol.",
+        "Jugar (to play a sport or game) is the one common verb whose u becomes ue. It follows the same boot, and it usually takes a before the game: jugar al fútbol (in much of Latin America also jugar fútbol).",
         [
           ["Juego al fútbol los sábados.", "I play soccer on Saturdays."],
           ["¿Juegas al tenis?", "Do you play tennis?"],
@@ -294,7 +294,7 @@ export const A1_ADDITIONS: AnchoredLesson[] = [
       ),
       sec(
         "Right now vs. in general",
-        "Spanish uses the progressive only for what is actually in progress. For habits and general facts, use the simple present.",
+        "Spanish uses the progressive mainly for what is in progress now or for a temporary situation. For habits and general facts, use the simple present.",
         [
           ["Trabajo en un banco.", "I work at a bank. (in general)"],
           ["Ahora estoy trabajando.", "Right now I'm working."],

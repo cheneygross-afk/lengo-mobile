@@ -139,7 +139,7 @@ export const EN_B1_U07_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "What does this word ___? I've never seen it before.",
         answer: "mean",
-        en: "¿Qué [significa] esta palabra? Nunca la había visto.",
+        en: "¿Qué [significa] esta palabra? Nunca la he visto.",
         explanation: "\"Mean\" is a state verb: \"What does it mean?\", never *What is it meaning?",
       },
       {
@@ -375,7 +375,7 @@ export const EN_B1_U07_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Can I call you back? I ___ dinner right now.",
         answer: "am making",
-        altAnswers: ["'m making", "am cooking", "'m cooking", "am having", "'m having", "am eating", "'m eating"],
+        altAnswers: ["'m making", "am cooking", "'m cooking"],
         en: "¿Te puedo llamar luego? [Estoy haciendo] la cena ahora mismo.",
         explanation: "An action happening now: present continuous. «Hacer la cena» = \"make dinner\" or \"cook dinner\".",
       },

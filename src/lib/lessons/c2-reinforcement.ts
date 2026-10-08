@@ -304,7 +304,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Vocabulario jurídico-administrativo."
       ),
-      toEs("The debt has prescribed; it can no longer be claimed.", "La deuda ha prescrito; ya no puede reclamarse.", "«Prescribir» significa que un derecho se extingue por el paso del tiempo.", ["La deuda ha prescrito y ya no se puede reclamar.", "La deuda prescribió; ya no puede reclamarse."]),
+      toEs("The debt is time-barred; it can no longer be claimed.", "La deuda ha prescrito; ya no puede reclamarse.", "«Prescribir» significa que un derecho se extingue por el paso del tiempo.", ["La deuda ha prescrito y ya no se puede reclamar.", "La deuda prescribió; ya no puede reclamarse."]),
       wo("Ambos firmantes responderán solidariamente de las obligaciones contraídas.", "Responsabilidad solidaria.", "Both signatories shall be jointly and severally liable for the obligations incurred."),
     ]
   ),
@@ -728,7 +728,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Completa.", "Haremos todo lo posible para que no ___ dolor. (tener, usted)", "tenga", "«Para que» con sujeto distinto exige subjuntivo: «para que no tenga»."),
       fb("Completa.", "Me ___ que tengo que darle una mala noticia. (temer)", "temo", "«Me temo que» anuncia con suavidad una mala noticia; no expresa miedo real."),
       mc(
-        "Eufemismo sanitario de «se va a morir pronto»:",
+        "Forma atenuada con la que el médico comunica un estado muy grave y de evolución incierta:",
         ["Su pronóstico es reservado.", "Se va a morir pronto.", "Ya no hay remedio, lo siento.", "Esto se acaba."],
         0,
         "«Pronóstico reservado» es el eufemismo sanitario para un estado muy grave. «Se va a morir pronto» es la versión directa, y «Ya no hay remedio» o «Esto se acaba» son igual de crudas."
@@ -844,7 +844,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Mezclas frecuentes",
-        "Calco del inglés: ✗ llover gatos y perros → ✓ llover a cántaros. ✗ romper el hielo con alguien (sí existe «romper el hielo», ¡cuidado con los calcos que coinciden!). Cruces: ✗ «matar dos pájaros con una piedra» → ✓ «matar dos pájaros de un tiro». ✗ «coger el toro por las astas y los cuernos» → ✓ «coger/agarrar el toro por los cuernos».",
+        "Calco del inglés: ✗ llover gatos y perros → ✓ llover a cántaros. Coincidencia legítima: «romper el hielo» sí existe en español (¡no todo parecido con el inglés es un calco!). Cruces: ✗ «matar dos pájaros con una piedra» → ✓ «matar dos pájaros de un tiro». ✗ «coger el toro por las astas y los cuernos» → ✓ «coger/agarrar el toro por los cuernos».",
         [
           ["Está lloviendo a cántaros.", "It's raining cats and dogs."],
           ["Mataremos dos pájaros de un tiro.", "We'll kill two birds with one stone."],
@@ -974,7 +974,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "El refrán critica que falte algo justo donde debería abundar (el herrero no tiene cuchillo de hierro). No critica a los herreros, ni a la madera, ni la pobreza en general."
       ),
-      toEs("Birds of a feather flock together.", "Dios los cría y ellos se juntan.", "«Dios los cría y ellos se juntan» es el refrán equivalente a «Birds of a feather flock together».", []),
+      toEs("Birds of a feather flock together.", "Dios los cría y ellos se juntan.", "«Dios los cría y ellos se juntan» es el refrán equivalente a «Birds of a feather flock together».", ["Cada oveja con su pareja."]),
       wo("Quien siembra vientos recoge tempestades.", "Refrán sobre las consecuencias.", "Sow the wind and reap the whirlwind."),
     ]
   ),
@@ -1041,7 +1041,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Introductores y medias frases",
         "Introductores: «Como dice el refrán…», «Ya lo dice el refrán:…», «Ya sabes lo que dicen:…», «Como decía mi abuela:…». Truncamiento: basta con la primera mitad («Bueno, a caballo regalado…») porque el oyente la completa. Uso irónico: «Dime con quién andas…» dicho con retintín.",
         [
-          ["—He aprobado sin estudiar. —Bueno, a quien madruga…", "—I passed without studying. —Well, the early bird…"],
+          ["—He conseguido entradas porque fui el primero en la cola. —Bueno, a quien madruga…", "—I got tickets because I was first in line. —Well, the early bird…"],
           ["Ya lo dice el refrán: más vale tarde que nunca.", "As the saying goes: better late than never."],
         ],
         [
@@ -1422,7 +1422,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Es una metonimia de lugar por institución: Bruselas por la Unión Europea. No es sinécdoque, ni hipérbole, ni eufemismo."
       ),
-      fb("Completa (lugar por producto).", "Pidió un ___ de Jerez para el aperitivo. (vino típico de Jerez)", "fino", "«Un fino» es un tipo de vino de Jerez: el nombre del lugar o del tipo designa el producto."),
+      fb("Completa (lugar por producto).", "Pidió un ___ para el aperitivo. (vino típico de Jerez de la Frontera)", "jerez", "«Un jerez» es una metonimia de lugar por producto: el nombre de la ciudad (Jerez) designa el vino que se elabora allí, y por eso se escribe con minúscula."),
       mt(
         "Relaciona cada expresión con su referente real.",
         [
@@ -1990,7 +1990,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Geografía y lexicalización",
         "Regionales: -ico (Aragón, Murcia, Costa Rica, Cuba: «chiquitico»), -ín (Asturias, León: «guapín»), -ete (Cataluña, Levante: «amiguete»), -ito (general, muy intenso en México y Andes: «ahoritita»). Lexicalizados: palabras que ya no se sienten diminutivas: bolsillo, ventanilla, cigarrillo, mesilla, pañuelo, panecillo, bocadillo, zapatilla.",
         [
-          ["Pura vida, mae, está todo tranquilico. (Costa Rica)", "All good, man, everything's nice and calm."],
+          ["Pura vida, mae, espéreme un momentico. (Costa Rica)", "All good, man, just give me a moment."],
           ["¿Dónde dejé el cargador? En la mesilla.", "Where did I leave the charger? On the nightstand."],
         ],
         [
@@ -2042,7 +2042,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "La reunión",
-        "—Directora: Vamos al grano: el proyecto está en números rojos. —Director financiero: Propongo cortar por lo sano y cerrar la línea. —Jefa de producto: No tiremos la toalla todavía; pongamos las cartas sobre la mesa con el cliente. —Directora: De acuerdo. Si en un mes no hay mejora, apretaremos el cinturón.",
+        "—Directora: Vamos al grano: el proyecto está en números rojos. —Director financiero: Propongo cortar por lo sano y cerrar la línea. —Jefa de producto: No tiremos la toalla todavía; pongamos las cartas sobre la mesa con el cliente. —Directora: De acuerdo. Si en un mes no hay mejora, nos apretaremos el cinturón.",
         [
           ["Estar en números rojos.", "To be in the red."],
           ["Cortar por lo sano.", "To take drastic action to stop a problem."],
@@ -2148,7 +2148,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
             "Lo contrario de «estar en números rojos»:",
             ["tener beneficios / estar en positivo", "estar en números verdes", "estar en números azules", "tener números blancos"],
             0,
-            "Lo contrario de estar en números rojos (con pérdidas) es tener beneficios. «Números verdes», «azules» o «blancos» no son modismos fijos, y «estar en positivo» es más vago y coloquial."
+            "Lo contrario de estar en números rojos (con pérdidas) es tener beneficios. «Números verdes», «azules» o «blancos» no son modismos fijos, y «estar en positivo» es una alternativa coloquial igualmente válida."
           ),
         ]
       ),
@@ -2725,7 +2725,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Deformar la propuesta del rival (del 1 % a las grandes fortunas a arruinar a todos) para atacarla es un hombre de paja. No plantea solo dos opciones (falso dilema), no generaliza desde pocos casos ni confunde sucesión con causa (post hoc)."
       ),
       mc(
-        "«Dos turistas me robaron en Lima; los limeños son unos ladrones.»",
+        "«En Lima me robaron dos veces; los limeños son unos ladrones.»",
         ["generalización apresurada", "ad hominem", "pendiente resbaladiza", "falso dilema"],
         0,
         "Sacar una conclusión sobre todos los limeños a partir de dos casos es una generalización apresurada. No ataca a un rival (ad hominem), no encadena consecuencias (pendiente resbaladiza) ni reduce a dos opciones (falso dilema)."
@@ -2919,7 +2919,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Completa el anuncio.", "Para ___, repasemos lo que hemos demostrado.", "concluir", "«Para concluir» anuncia la conclusión, como «En conclusión» o «Para terminar»."),
       fb("Completa el contraste.", "___ a la prohibición, nosotros proponemos educación.", "Frente", "Frente a = en oposición a."),
-      fb("Completa el quiasmo final.", "La pregunta no es si podemos hacerlo, ___ si podemos permitirnos no hacerlo.", "sino", "Estructura adversativa «no es… sino…»: «sino» corrige tras una negación (no «si no»)."),
+      fb("Completa el contraste final.", "La pregunta no es si podemos hacerlo, ___ si podemos permitirnos no hacerlo.", "sino", "Estructura adversativa «no es… sino…»: «sino» corrige tras una negación (no «si no»)."),
       mc(
         "Mejor cierre:",
         ["La pregunta no es cuánto cuesta actuar, sino cuánto nos costará no hacerlo.", "Bueno, eso es todo, gracias.", "Y ya está, no sé qué más decir.", "Es todo lo que tengo, más o menos."],
@@ -3696,9 +3696,9 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       mc(
         "«¿A qué hora sale el tren a Toledo?»",
-        ["pregunta real", "pregunta retórica", "hipofora", "anáfora"],
+        ["pregunta real", "pregunta retórica", "hipófora", "anáfora"],
         0,
-        "Pedir la hora de un tren busca información: es una pregunta real. No es retórica (no implica respuesta), no es hipofora (el hablante no se responde) ni anáfora (no repite nada)."
+        "Pedir la hora de un tren busca información: es una pregunta real. No es retórica (no implica respuesta), no es hipófora (el hablante no se responde) ni anáfora (no repite nada)."
       ),
       mc(
         "«¿Es que nadie piensa en los niños?»",
@@ -3726,45 +3726,45 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "rhetorical-questions-2",
     "c2r-rhetorical-hypophora",
-    "Transformaciones: afirmación → hipofora",
-    "Convierte afirmaciones planas en hipoforas (me pregunto y me respondo) para ganar atención.",
+    "Transformaciones: afirmación → hipófora",
+    "Convierte afirmaciones planas en hipóforas (me pregunto y me respondo) para ganar atención.",
     "7 min",
     [
       sec(
         "Preguntar para responder",
-        "La hipofora plantea una pregunta y la responde el propio hablante: «¿Por qué fracasó el plan? Porque nadie escuchó a los vecinos». Estructura el discurso, anticipa la duda del público y crea expectación. Fórmulas: «¿Y qué ocurrió? Que…», «¿La razón? Muy sencilla:…», «¿El resultado? …».",
+        "La hipófora plantea una pregunta y la responde el propio hablante: «¿Por qué fracasó el plan? Porque nadie escuchó a los vecinos». Estructura el discurso, anticipa la duda del público y crea expectación. Fórmulas: «¿Y qué ocurrió? Que…», «¿La razón? Muy sencilla:…», «¿El resultado? …».",
         [
           ["¿El resultado? Tres años perdidos.", "The result? Three wasted years."],
           ["¿Por qué importa esto? Porque afecta a todos.", "Why does this matter? Because it affects everyone."],
         ],
         [
           mc(
-            "¿Cuál es una hipofora?",
+            "¿Cuál es una hipófora?",
             ["¿Y qué pasó? Que nadie se presentó.", "¿Qué hora es?", "¿Acaso no lo sabías?", "¿Quién no ha llorado?"],
             0,
-            "La hipofora es una pregunta que el propio hablante responde: «¿Y qué pasó? Que nadie se presentó». «¿Qué hora es?» es una pregunta real, y «¿Acaso no lo sabías?» y «¿Quién no ha llorado?» son retóricas sin respuesta propia."
+            "La hipófora es una pregunta que el propio hablante responde: «¿Y qué pasó? Que nadie se presentó». «¿Qué hora es?» es una pregunta real, y «¿Acaso no lo sabías?» y «¿Quién no ha llorado?» son retóricas sin respuesta propia."
           ),
         ]
       ),
     ],
     [
-      fb("Completa la hipofora.", "¿Por qué fracasó el proyecto? ___ nadie escuchó a los vecinos.", "Porque", "Hipofora causal: el orador responde a su propio «¿Por qué…?» con «Porque…»."),
-      toEs("Why did it fail? Because nobody listened.", "¿Por qué fracasó? Porque nadie escuchó.", "Hipofora: pregunta con «¿Por qué…?» y respuesta propia con «Porque…» (junto).", ["¿Por qué fracasó? Porque nadie hizo caso.", "¿Por qué salió mal? Porque nadie escuchó."]),
-      fb("Transforma.", "Ocurrió que nadie se presentó. → ¿Y qué ocurrió? ___ nadie se presentó.", "Que", "En la hipofora coloquial, la respuesta se introduce con «Que…» tras «¿Y qué ocurrió?»."),
+      fb("Completa la hipófora.", "¿Por qué fracasó el proyecto? ___ nadie escuchó a los vecinos.", "Porque", "Hipófora causal: el orador responde a su propio «¿Por qué…?» con «Porque…»."),
+      toEs("Why did it fail? Because nobody listened.", "¿Por qué fracasó? Porque nadie escuchó.", "Hipófora: pregunta con «¿Por qué…?» y respuesta propia con «Porque…» (junto).", ["¿Por qué fracasó? Porque nadie hizo caso.", "¿Por qué salió mal? Porque nadie escuchó."]),
+      fb("Transforma.", "Ocurrió que nadie se presentó. → ¿Y qué ocurrió? ___ nadie se presentó.", "Que", "En la hipófora coloquial, la respuesta se introduce con «Que…» tras «¿Y qué ocurrió?»."),
       mc(
-        "¿Qué efecto busca la hipofora?",
+        "¿Qué efecto busca la hipófora?",
         ["crear expectación y ordenar el discurso", "obtener información del público", "cambiar de tema", "terminar el discurso"],
         0,
-        "La hipofora crea expectación y ordena el discurso. No pretende obtener información del público (el orador ya se responde), ni cambiar de tema ni terminar."
+        "La hipófora crea expectación y ordena el discurso. No pretende obtener información del público (el orador ya se responde), ni cambiar de tema ni terminar."
       ),
       mc(
-        "Hipofora eficaz para abrir un informe oral:",
+        "Hipófora eficaz para abrir un informe oral:",
         ["¿Qué ha cambiado en diez años? Casi todo.", "¿Alguien tiene un bolígrafo?", "¿Me oyen?", "¿Empiezo?"],
         0,
-        "«¿Qué ha cambiado en diez años? Casi todo.» es una hipofora: pregunta más respuesta contundente. «¿Alguien tiene un bolígrafo?», «¿Me oyen?» y «¿Empiezo?» son preguntas reales y logísticas."
+        "«¿Qué ha cambiado en diez años? Casi todo.» es una hipófora: pregunta más respuesta contundente. «¿Alguien tiene un bolígrafo?», «¿Me oyen?» y «¿Empiezo?» son preguntas reales y logísticas."
       ),
-      toEs("The result? Three years lost.", "¿El resultado? Tres años perdidos.", "Hipofora nominal: «¿El resultado?» + respuesta breve sin verbo, muy expresiva.", ["¿El resultado? Tres años desperdiciados."]),
-      wo("¿Y qué hicimos entonces? Empezar de nuevo.", "Hipofora.", "And what did we do then? Start again."),
+      toEs("The result? Three years lost.", "¿El resultado? Tres años perdidos.", "Hipófora nominal: «¿El resultado?» + respuesta breve sin verbo, muy expresiva.", ["¿El resultado? Tres años desperdiciados."]),
+      wo("¿Y qué hicimos entonces? Empezar de nuevo.", "Hipófora.", "And what did we do then? Start again."),
     ]
   ),
   L(
@@ -3832,9 +3832,9 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         [
           mc(
             "«¿Cómo describir lo que sentí? ¿Alivio? ¿Rabia? Quizá las dos cosas.»",
-            ["duda fingida", "interpelación", "pregunta real", "hipofora simple"],
+            ["duda fingida", "interpelación", "pregunta real", "hipófora simple"],
             0,
-            "El orador simula buscar la palabra (¿Alivio? ¿Rabia?): es duda fingida. No se dirige a nadie (interpelación), no espera respuesta real, y es más que una hipofora simple porque escenifica la vacilación."
+            "El orador simula buscar la palabra (¿Alivio? ¿Rabia?): es duda fingida. No se dirige a nadie (interpelación), no espera respuesta real, y es más que una hipófora simple porque escenifica la vacilación."
           ),
         ]
       ),
@@ -3848,9 +3848,9 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       mc(
         "«¿Acaso importa lo que opinen?»",
-        ["pregunta retórica", "interpelación", "duda fingida", "hipofora"],
+        ["pregunta retórica", "interpelación", "duda fingida", "hipófora"],
         0,
-        "«¿Acaso importa…?» equivale a «No importa»: pregunta retórica. No se dirige a nadie (interpelación), no finge buscar una palabra (duda fingida) ni se responde (hipofora)."
+        "«¿Acaso importa…?» equivale a «No importa»: pregunta retórica. No se dirige a nadie (interpelación), no finge buscar una palabra (duda fingida) ni se responde (hipófora)."
       ),
       fb("Completa (duda fingida).", "¿Cómo ___ semejante despropósito? ¿Error? ¿Mala fe? (dar un nombre o adjetivo a algo, infinitivo)", "calificar", "La duda fingida usa «¿Cómo + infinitivo?» (calificar) y luego tantea opciones."),
       fb("Completa (interpelación).", "Y ___, señores del jurado, ¿qué habrían hecho en su lugar?", "ustedes", "Interpelación: el pronombre «ustedes» + vocativo se dirige directamente al jurado."),
@@ -3932,15 +3932,15 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         [
           ms(
             "¿Qué recursos aparecen en el modelo?",
-            ["hipofora", "anáfora interrogativa", "interpelación", "hendida"],
+            ["hipófora", "anáfora interrogativa", "interpelación", "hendida"],
             [0, 1, 2, 3],
-            "El modelo usa los cuatro recursos: hipofora, anáfora interrogativa, interpelación y oración hendida."
+            "El modelo usa los cuatro recursos: hipófora, anáfora interrogativa, interpelación y oración hendida."
           ),
         ]
       ),
     ],
     [
-      fb("Completa la hipofora.", "¿Qué es una biblioteca? ¿Un edificio con libros? ___: es un refugio.", "No", "Hipofora: el orador rechaza su propia respuesta provisional con «No» y da la verdadera."),
+      fb("Completa la hipófora.", "¿Qué es una biblioteca? ¿Un edificio con libros? ___: es un refugio.", "No", "Hipófora: el orador rechaza su propia respuesta provisional con «No» y da la verdadera."),
       fb("Completa la anáfora.", "¿Cuántos de ustedes ___ aquí su primer libro? (leer, pretérito)", "leyeron", "Pretérito indefinido de «leer» con ustedes: leyeron (la i entre vocales pasa a y)."),
       fb("Completa la interpelación.", "Y ___, señor concejal, ¿qué propone?", "usted", "Interpelación directa: «usted» + vocativo («señor concejal»)."),
       fb("Completa la hendida.", "Lo que está en ___ es el futuro de nuestros hijos.", "juego", "«Estar en juego» significa estar en riesgo; la hendida «Lo que… es…» lo destaca."),
@@ -3958,21 +3958,21 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "rhetorical-questions-7",
     "c2r-rhetorical-vocab-spiral",
     "Repaso en espiral: figuras retóricas del C2",
-    "Metáfora, hipérbole, anáfora, hipofora, interpelación, antítesis: identifica cada figura en un fragmento breve.",
+    "Metáfora, hipérbole, anáfora, hipófora, interpelación, antítesis: identifica cada figura en un fragmento breve.",
     "7 min",
     [
       sec(
         "Mapa de figuras",
-        "De pensamiento: pregunta retórica, hipofora, interpelación, duda fingida, antítesis, hipérbole. De repetición: anáfora, tríada, paralelismo. De significado: metáfora, metonimia, sinécdoque. Saber nombrarlas permite analizar discursos y, sobre todo, usarlas con intención.",
+        "De pensamiento: pregunta retórica, hipófora, interpelación, duda fingida, antítesis, hipérbole. De repetición: anáfora, tríada, paralelismo. De significado: metáfora, metonimia, sinécdoque. Saber nombrarlas permite analizar discursos y, sobre todo, usarlas con intención.",
         [
           ["Unos trabajan de sol a sol; otros viven de las rentas.", "Antithesis."],
         ],
         [
           mc(
             "«Unos lo tienen todo; otros, nada.»",
-            ["antítesis", "hipérbole", "metonimia", "hipofora"],
+            ["antítesis", "hipérbole", "metonimia", "hipófora"],
             0,
-            "Contraponer ideas opuestas (todo / nada) es una antítesis. No exagera (hipérbole), no sustituye un término por otro relacionado (metonimia) ni se pregunta y responde (hipofora)."
+            "Contraponer ideas opuestas (todo / nada) es una antítesis. No exagera (hipérbole), no sustituye un término por otro relacionado (metonimia) ni se pregunta y responde (hipófora)."
           ),
         ]
       ),
@@ -3986,9 +3986,9 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       mc(
         "«¿Qué nos queda? La esperanza.»",
-        ["hipofora", "metáfora", "tríada", "interpelación"],
+        ["hipófora", "metáfora", "tríada", "interpelación"],
         0,
-        "El hablante se pregunta y se responde: hipofora. No hay imagen (metáfora), ni tres elementos (tríada), ni se dirige a nadie (interpelación)."
+        "El hablante se pregunta y se responde: hipófora. No hay imagen (metáfora), ni tres elementos (tríada), ni se dirige a nadie (interpelación)."
       ),
       mc(
         "«Queremos pan. Queremos trabajo. Queremos dignidad.»",
@@ -3998,16 +3998,16 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       mc(
         "«Oh, Madrid, ¿por qué me tratas así?»",
-        ["interpelación (apóstrofe)", "hipofora", "sinécdoque", "tríada"],
+        ["interpelación (apóstrofe)", "hipófora", "sinécdoque", "tríada"],
         0,
-        "Dirigirse a la ciudad como si fuera una persona es una interpelación o apóstrofe. No se responde a sí mismo (hipofora), no toma la parte por el todo (sinécdoque) ni enumera tres elementos (tríada)."
+        "Dirigirse a la ciudad como si fuera una persona es una interpelación o apóstrofe. No se responde a sí mismo (hipófora), no toma la parte por el todo (sinécdoque) ni enumera tres elementos (tríada)."
       ),
       mt(
         "Relaciona la figura con su tipo.",
         [
           ["anáfora", "repetición"],
           ["metáfora", "significado"],
-          ["hipofora", "pensamiento / diálogo"],
+          ["hipófora", "pensamiento / diálogo"],
         ],
         "Clasificación de figuras."
       ),
@@ -4483,7 +4483,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Asume.", "Siento ___ olvidado tu cumpleaños. (haber)", "haber", "«Sentir + haber + participio» (infinitivo compuesto) asume la responsabilidad de algo ya hecho."),
       fb("Nombra el daño.", "Sé que te ___ sentir fuera de lugar. (hacer, pretérito)", "hice", "Nombrar el daño concreto («Sé que te hice sentir…») hace creíble la disculpa; indefinido de hacer: hice."),
-      fb("Repara.", "¿Qué puedo hacer para ___? (reparar, coloquial)", "arreglarlo", "Ofrecer reparación: «¿Qué puedo hacer para arreglarlo?» (arreglar + lo, registro coloquial)."),
+      fb("Repara.", "¿Qué puedo hacer para ___? (reparar, coloquial)", "arreglarlo", "Ofrecer reparación: «¿Qué puedo hacer para arreglarlo?» (arreglar + lo)."),
       mc(
         "«Lo siento, pero es que tú también…» es una disculpa…",
         ["falsa: se justifica y traslada la culpa", "sincera", "muy formal", "reparadora"],
@@ -4730,7 +4730,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Corrige: «Cuando hubo vuelto del exilio, el país estaba irreconocible».",
         ["Cuando volvió del exilio, el país estaba irreconocible.", "Cuando haya vuelto del exilio, el país estaba irreconocible.", "Cuando volvía del exilio, el país estuvo irreconocible.", "No hay error."],
         0,
-        "Con «cuando» y sin idea de inmediatez, el pretérito anterior resulta forzado: basta el indefinido. «Haya vuelto» es subjuntivo de futuro, y la tercera opción invierte las funciones de fondo y acción.",
+        "Con «cuando» y sin idea de inmediatez, el pretérito anterior resulta forzado: basta el indefinido. «Haya vuelto» es perfecto de subjuntivo, incompatible con «estaba», y la tercera opción invierte las funciones de fondo y acción.",
       ),
       { ...fb("Mantén la coherencia del presente histórico.", "En 1812 se aprueba la Constitución y dos años después el rey la ___. (anular)", "anulará", "Con eje en presente histórico, lo posterior va en futuro: «la anulará». Si todo el hilo va en pasado: «se aprobó… la anuló»."), en: "In 1812 the Constitution is passed and two years later the king [will annul] it." },
       mc(
@@ -5476,7 +5476,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Por qué usa el periodista el condicional de rumor?",
         ["para no presentar como seguro un dato no confirmado", "por cortesía", "por error", "para expresar deseo"],
         0,
-        "El condicional de rumor evita presentar como seguro un dato no confirmado: es responsabilidad informativa. No es cortesía, ni un error, ni expresa deseo."
+        "El condicional de rumor evita presentar como seguro un dato no confirmado: es habitual en la prensa, aunque la RAE y la Fundéu lo desaconsejan en textos cuidados. No es cortesía, ni un error, ni expresa deseo."
       ),
       toEs("The minister has reportedly resigned.", "El ministro habría dimitido.", "Condicional de rumor (habría dimitido) o «Al parecer» + indicativo: dato no confirmado.", ["Al parecer, el ministro ha dimitido.", "Según fuentes, el ministro habría dimitido."]),
       wo("Según fuentes del Gobierno, la reforma se aprobaría antes del verano.", "Condicional de rumor.", "According to government sources, the reform would be approved before summer."),
@@ -5821,9 +5821,9 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Mostrar, no decir",
-        "Decir: «Estaba triste». Mostrar: «Dejó el café enfriarse sin probarlo. ¿Para qué levantarse, si nadie la esperaba?» (gesto + indirecto libre). Metáfora emocional: «Una niebla le pesaba en el pecho». Léxico preciso: melancolía, desazón, añoranza. La literatura prefiere sugerir la emoción mediante gestos y pensamientos.",
+        "Decir: «Estaba triste». Mostrar: «Dejó que el café se enfriara sin probarlo. ¿Para qué levantarse, si nadie la esperaba?» (gesto + indirecto libre). Metáfora emocional: «Una niebla le pesaba en el pecho». Léxico preciso: melancolía, desazón, añoranza. La literatura prefiere sugerir la emoción mediante gestos y pensamientos.",
         [
-          ["Dejó el café enfriarse sin probarlo.", "She let the coffee go cold without tasting it."],
+          ["Dejó que el café se enfriara sin probarlo.", "She let the coffee go cold without tasting it."],
           ["Una niebla le pesaba en el pecho.", "A fog weighed on her chest."],
         ],
         [
@@ -5852,7 +5852,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 2],
         "Los gestos significativos, el estilo indirecto libre y las metáforas muestran emociones. Nombrarla con un adjetivo genérico es «decir», no «mostrar»."
       ),
-      toEs("She let the coffee go cold without tasting it.", "Dejó que el café se enfriara sin probarlo.", "Mostrar sin nombrar: «Dejó que el café se enfriara» (dejar que + subjuntivo) o «Dejó enfriar el café».", ["Dejó el café enfriarse sin probarlo.", "Dejó enfriar el café sin probarlo."]),
+      toEs("She let the coffee go cold without tasting it.", "Dejó que el café se enfriara sin probarlo.", "Mostrar sin nombrar: «Dejó que el café se enfriara» (dejar que + subjuntivo) o «Dejó enfriar el café».", ["Dejó que se enfriara el café sin probarlo.", "Dejó enfriar el café sin probarlo."]),
       wo("Guardó la carta sin abrirla y se quedó mirando la lluvia.", "Mostrar, no decir.", "She put the letter away unopened and stood watching the rain."),
     ]
   ),
@@ -5952,7 +5952,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "La fórmula «para algunos… para otros…» presenta una opinión dividida. «Sin duda alguna», «todo el mundo piensa» y «nadie cree» expresan unanimidad."
       ),
       fb("Completa según el texto.", "La directora ___ por planos fijos y largos. (elegir con decisión)", "apuesta", "«Apostar por» algo es elegirlo con decisión como opción estética."),
-      fb("Completa.", "Un plano ___ (en movimiento) acompaña a la protagonista por el pasillo.", "secuencia", "Plano secuencia = plano largo sin cortes."),
+      fb("Completa.", "Un plano ___ (sin cortes) acompaña a la protagonista por el pasillo.", "secuencia", "Plano secuencia = plano largo sin cortes."),
       toEs("The editing only speeds up in the final third.", "El montaje solo se acelera en el último tercio.", "Crítica de cine: el montaje «se acelera» o «gana ritmo» en el último tercio.", ["El montaje solo gana ritmo en el último tercio."]),
       wo("La fotografía de tonos fríos subraya la soledad de la protagonista.", "Análisis de la fotografía.", "The cold-toned cinematography underlines the protagonist's loneliness."),
     ]
@@ -6127,7 +6127,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "La inflación subyacente excluye…",
         ["los precios más volátiles, como energía y alimentos frescos", "los salarios", "los impuestos", "los tipos de interés"],
         0,
-        "La inflación subyacente excluye los precios más volátiles, como la energía y los alimentos frescos. Los salarios, los impuestos o los tipos de interés no forman parte del cálculo del IPC."
+        "La inflación subyacente excluye los precios más volátiles, como la energía y los alimentos frescos. Los salarios, los impuestos o los tipos de interés no son lo que excluye la inflación subyacente."
       ),
       fb("Completa según el texto.", "El IPC bajó dos ___ respecto al mes anterior.", "décimas", "Las variaciones del IPC se expresan en décimas de punto porcentual."),
       fb("Completa.", "Si los tipos de interés bajan, las hipotecas se ___. (hacerse más baratas)", "abaratan", "«Abaratarse» = hacerse más barato; lo contrario es «encarecerse»."),
@@ -6426,7 +6426,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
           "«Poner los puntos sobre las íes» es precisar algo con claridad para evitar malentendidos; «cantarlas claras» es decir verdades incómodas sin rodeos. Todas son panhispánicas.",
         ],
         [
-          ["Nos dieron gato por liebre: el «jamón ibérico» era de cebo.", "They sold us a pup: the 'Iberian ham' was the cheapest grade."],
+          ["Nos dieron gato por liebre: el «jamón de bellota» era de cebo.", "They sold us a pup: the 'acorn-fed ham' was the cheapest grade."],
           ["Hice de tripas corazón y entré a ver al jefe.", "I plucked up my courage and went in to see the boss."],
           ["No te metas en camisa de once varas: eso es asunto de ellos.", "Don't stick your nose in: that's their business."],
         ],
@@ -6679,7 +6679,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Formas antiguas que sobreviven en el refranero y su equivalente en el español actual.",
       ),
-      wo("Al buen callar llaman Sancho así que mejor no digas nada.", "Uso del refrán como consejo de discreción.", "Silence is golden, so you'd better not say anything."),
+      wo("Al buen callar llaman Sancho, así que mejor no digas nada.", "Uso del refrán como consejo de discreción.", "Silence is golden, so you'd better not say anything."),
     ]
   ),
   L(
@@ -7091,7 +7091,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Dos direcciones",
-        "Eufemismo: suaviza (fallecer, invidente, persona sin hogar, interrupción del embarazo). Disfemismo: endurece o ridiculiza, a menudo con humor o desprecio (palmarla, estirar la pata, criar malvas, la caja tonta por la televisión). Término neutro: morir, ciego, mendigo, televisión. Elegir uno u otro revela la actitud del hablante.",
+        "Eufemismo: suaviza (fallecer, invidente, persona sin hogar, interrupción del embarazo). Disfemismo: endurece o ridiculiza, a menudo con humor o desprecio (palmarla, estirar la pata, criar malvas, la caja tonta por la televisión). Término neutro: morir, ciego, indigente, televisión. Elegir uno u otro revela la actitud del hablante.",
         [
           ["Estiró la pata a los noventa. (disfemismo coloquial)", "He kicked the bucket at ninety."],
           ["Falleció a los noventa años. (eufemismo formal)", "He passed away at ninety."],
@@ -7117,7 +7117,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Eufemismo / disfemismo / neutro."
       ),
       fb("Eufemiza.", "Es ciego. → Es ___. (que no ve, término cortés)", "invidente", "«Invidente» es el término cortés para una persona que no ve."),
-      fb("Eufemiza.", "Un mendigo → una persona sin ___.", "hogar", "«Persona sin hogar» es la forma respetuosa que evita el despectivo «mendigo»."),
+      fb("Eufemiza.", "Un vagabundo → una persona sin ___.", "hogar", "«Persona sin hogar» es la forma respetuosa que evita el despectivo «vagabundo»."),
       mc(
         "¿En qué contexto sería inapropiado «la palmó»?",
         ["en una esquela", "en un chiste entre amigos", "en una novela de humor negro", "en una conversación informal"],
@@ -7827,7 +7827,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "c1c2-vocabulary-practice-20",
     "c2r-vocab-latinisms",
     "Vocabulario en contexto: latinismos del español culto",
-    "A priori, grosso modo, in situ, per cápita, sine qua non, motu proprio, ipso facto: uso correcto y errores frecuentes.",
+    "A priori, grosso modo, in situ, per capita, sine qua non, motu proprio, ipso facto: uso correcto y errores frecuentes.",
     "7 min",
     [
       sec(
@@ -7852,7 +7852,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Relaciona el latinismo con su significado.",
         [
           ["in situ", "en el lugar mismo"],
-          ["per cápita", "por persona"],
+          ["per capita", "por persona"],
           ["sine qua non", "imprescindible"],
           ["ipso facto", "inmediatamente"],
         ],
@@ -7971,7 +7971,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Become en seis verbos",
-        "Ponerse (cambio temporal de estado o aspecto): ponerse rojo, nervioso. Volverse (cambio de carácter, a menudo repentino y duradero): volverse loco, desconfiado. Hacerse (cambio por voluntad o proceso): hacerse rico, médico, famoso. Quedarse (resultado, a menudo pérdida): quedarse ciego, viudo, sin trabajo. Convertirse en (transformación con sustantivo). Llegar a ser (culminación tras esfuerzo).",
+        "Ponerse (cambio temporal de estado o aspecto): ponerse rojo, nervioso. Volverse (cambio de carácter, profundo y duradero): volverse loco, desconfiado. Hacerse (cambio por voluntad o proceso): hacerse rico, médico, famoso. Quedarse (resultado, a menudo pérdida): quedarse ciego, viudo, sin trabajo. Convertirse en (transformación con sustantivo). Llegar a ser (culminación tras esfuerzo).",
         [
           ["Se puso pálido al oír la noticia.", "He went pale when he heard the news."],
           ["Tras años de esfuerzo, llegó a ser directora.", "After years of effort, she became director."],
@@ -8106,9 +8106,9 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "El hecho",
-        "Un vecino se cayó de una escalera, se fracturó la muñeca y demanda a la comunidad porque la escalera estaba en mal estado. Notario/abogado: «El demandante sufrió una fractura como consecuencia del deficiente estado de la escalera». Médica: «Presenta fractura distal de radio». Periodista: «Un vecino denuncia a su comunidad tras romperse la muñeca». Amigo: «Se pegó un castañazo y se rompió la muñeca».",
+        "Un vecino se cayó de una escalera, se fracturó la muñeca y demanda a la comunidad porque la escalera estaba en mal estado. Abogado: «El demandante sufrió una fractura como consecuencia del deficiente estado de la escalera». Médica: «Presenta fractura distal de radio». Periodista: «Un vecino denuncia a su comunidad tras romperse la muñeca». Amigo: «Se pegó un castañazo y se rompió la muñeca».",
         [
-          ["Presenta fractura distal de radio.", "He presents a distal radius fracture."],
+          ["Presenta fractura distal de radio.", "He presents with a distal radius fracture."],
           ["Se pegó un castañazo.", "He took a nasty tumble."],
         ],
         [
@@ -8239,7 +8239,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       mc(
         "«¿Quién necesita árboles teniendo plazas de garaje?» es…",
-        ["una pregunta retórica irónica", "una pregunta real", "una hipofora", "una cita"],
+        ["una pregunta retórica irónica", "una pregunta real", "una hipófora", "una cita"],
         0,
         "Es una pregunta retórica irónica: no espera respuesta y afirma de forma implícita lo contrario (los árboles sí hacen falta). No es una pregunta real ni una hipófora, en la que el autor pregunta y luego se responde a sí mismo."
       ),

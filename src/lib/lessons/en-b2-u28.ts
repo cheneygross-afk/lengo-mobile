@@ -2534,7 +2534,7 @@ export const EN_B2_U28: Lesson[] = [
           "Uses at least one adverb from the unit with its correct meaning",
           "Organizes the week clearly (days or parts of the week)",
         ],
-        modelAnswer: "My weeks are pretty busy lately. On Mondays I always have a heavy workload, so I hardly take a break. On Tuesday evenings I go to a dance class: I took up salsa last year and I really enjoy it. Wednesday is the worst day because of the heavy traffic on the way home. On Thursdays I usually catch up with my sister over dinner; we keep in touch even though we live far apart. By Friday I'm absolutely exhausted, but I always look forward to the weekend. Actually, my favorite moment is Sunday morning, when I can sleep late.",
+        modelAnswer: "My weeks have been pretty busy lately. On Mondays I always have a heavy workload, so I hardly take a break. On Tuesday evenings I go to a dance class: I took up salsa last year and I really enjoy it. Wednesday is the worst day because of the heavy traffic on the way home. On Thursdays I usually catch up with my sister over dinner; we keep in touch even though we live far apart. By Friday I'm absolutely exhausted, but I always look forward to the weekend. Actually, my favorite moment is Sunday morning, when I can sleep late.",
         explanation: "A good answer combines vocabulary and grammar naturally instead of listing words.",
       },
     ],

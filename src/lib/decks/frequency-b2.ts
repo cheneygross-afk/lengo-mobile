@@ -75,7 +75,7 @@ export const FREQUENCY_B2: DeckCard[] = [
   {"rank":2068,"es":"la industria","en":"industry","pos":"n.","exEs":"La escasez de chips desencadenó retrasos en toda la industria.","exEn":"The chip shortage triggered delays across the industry."},
   {"rank":2069,"es":"poseer","en":"to possess, to own","pos":"v.","exEs":"La familia posee varias casas en el pueblo.","exEn":"The family owns several houses in the village."},
   {"rank":2070,"es":"la tripulación","en":"crew","pos":"n.","exEs":"La tripulación les da la bienvenida a bordo.","exEn":"The crew welcomes you aboard."},
-  {"rank":2071,"es":"la ola","en":"wave","pos":"n.","exEs":"El sonar de las olas me relaja.","exEn":"The sound of the waves relaxes me."},
+  {"rank":2071,"es":"la ola","en":"wave","pos":"n.","exEs":"El rumor de las olas me relaja.","exEn":"The sound of the waves relaxes me."},
   {"rank":2072,"es":"femenino/a","en":"feminine, female","pos":"adj.","exEs":"\"Mesa\" es un sustantivo femenino.","exEn":"\"Mesa\" is a feminine noun."},
   {"rank":2073,"es":"la batería","en":"battery; drums","pos":"n.","exEs":"Se quedó sin batería en mitad de la llamada.","exEn":"It ran out of battery in the middle of the call."},
   {"rank":2074,"es":"egoísta","en":"selfish","pos":"adj.","exEs":"No seas egoísta y comparte.","exEn":"Don't be selfish, share."},

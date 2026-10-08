@@ -1025,7 +1025,7 @@ export const EN_A2_U18: Lesson[] = [
         type: "listen-choose",
         audio: "I don't like it. - Neither do I.",
         question: "¿Qué dice la segunda persona?",
-        options: ["A ella tampoco le gusta.", "A ella sí le gusta.", "A ella también le gusta.", "No sabe si le gusta."],
+        options: ["A mí tampoco me gusta.", "A mí sí me gusta.", "A mí también me gusta.", "No sé si me gusta."],
         correctIndex: 0,
         explanation: "\"Neither do I\" significa «a mí tampoco».",
       },

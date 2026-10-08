@@ -40,7 +40,7 @@ export const C2_SKILLS: Record<string, Exercise[]> = {
       0,
       "«No hay mal que por bien no venga»: de una desgracia sale algo positivo. No juzga el despido ni desaconseja la oferta; al contrario, ve el lado bueno."
     ),
-    spk("Bueno, como dice mi abuela, a mal tiempo, buena cara.", "Introduce el refrán con una pequeña pausa tras «abuela», y di el refrán con ritmo binario.", "Citar un refrán con naturalidad: como dice…, + refrán."),
+    spk("Bueno, como dice mi abuela, al mal tiempo, buena cara.", "Introduce el refrán con una pequeña pausa tras «abuela», y di el refrán con ritmo binario.", "Citar un refrán con naturalidad: como dice…, + refrán."),
   ],
   "c2r-humor-dialogue-lab": [
     spk("¡Hombre, qué puntualidad! Solo llegas una hora tarde.", "Ironía: exagera el tono de elogio en «qué puntualidad» para que se note que es broma.", "La ironía se apoya en la entonación: se dice lo contrario de lo que se piensa."),

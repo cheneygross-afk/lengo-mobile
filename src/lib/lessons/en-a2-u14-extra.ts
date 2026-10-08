@@ -835,7 +835,7 @@ export const EN_A2_U14_EXTRA: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "Cuando termine este libro, te lo prestaré.",
         answer: "When I finish this book, I will lend it to you.",
-        altAnswers: ["I will lend it to you when I finish this book.", "When I finish this book, I'll lend you it.", "When I'm done with this book, I'll lend it to you.", "When I finish this book, I will let you borrow it."],
+        altAnswers: ["I will lend it to you when I finish this book.", "When I'm done with this book, I'll lend it to you.", "When I finish this book, I will let you borrow it."],
         explanation: "\"When I finish\" en presente. «Te lo prestaré» es \"I'll lend it to you\": primero \"it\", después \"to you\".",
       },
       {

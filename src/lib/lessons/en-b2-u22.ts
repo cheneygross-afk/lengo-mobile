@@ -2307,7 +2307,7 @@ export const EN_B2_U22: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The cheaper the flight, the ___ the seats.",
         answer: "smaller",
-        altAnswers: ["worse", "narrower", "less comfortable"],
+        altAnswers: ["narrower"],
         en: "Cuanto más barato es el vuelo, [más pequeños] son los asientos.",
         explanation: "Short double comparative: \"the\" + comparative + noun in both halves, with no verb.",
       },

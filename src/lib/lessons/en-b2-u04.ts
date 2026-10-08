@@ -1105,7 +1105,7 @@ export const EN_B2_U04: Lesson[] = [
               "Could we push the meeting back until next week?",
               "Could we move the meeting back to next week?",
             ],
-            explanation: "\"Push back\", \"postpone\" and \"put off\" all mean «aplazar». *Delay the meeting sounds as if it will simply start late.",
+            explanation: "\"Push back\", \"postpone\" and \"put off\" all mean «aplazar». \"Delay\" is possible too, but it usually suggests a problem made it late, not a planned change of date.",
           },
         ],
       },
@@ -1602,7 +1602,7 @@ export const EN_B2_U04: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A waiter asks what you want. You look at the menu and decide. What do you say?",
-            options: ["I'll have the fish, please.", "I'm going to have the fish, please.", "I have the fish, please.", "I'm having the fish, please."],
+            options: ["I'll have the fish, please.", "I had the fish, please.", "I have the fish, please.", "I'll having the fish, please."],
             correctIndex: 0,
             explanation: "A decision made at the moment of speaking: \"I'll have...\". This is the standard way to order in a restaurant.",
           },

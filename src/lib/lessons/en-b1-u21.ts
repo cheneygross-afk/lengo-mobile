@@ -921,7 +921,7 @@ export const EN_B1_U21: Lesson[] = [
         prompt: "Translate into English.",
         source: "Fumar es malo para la salud.",
         answer: "Smoking is bad for your health.",
-        altAnswers: ["Smoking is bad for you.", "Smoking is bad for the health.", "Smoking is bad for health."],
+        altAnswers: ["Smoking is bad for you.", "Smoking is bad for health."],
         explanation: "The action as subject takes -ing, with no \"the\": \"Smoking is...\"",
       },
       {
@@ -2025,7 +2025,7 @@ export const EN_B1_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Emma says: \"I don't like football.\" You don't either. What do you say?",
+        question: "Emma says: \"I don't like soccer.\" You don't either. What do you say?",
         options: ["Me neither.", "Me too.", "Me also.", "Me neither not."],
         correctIndex: 0,
         explanation: "\"Me neither\" agrees with a negative idea.",

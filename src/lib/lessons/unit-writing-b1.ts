@@ -19,7 +19,7 @@ export const B1_UNIT_WRITING: Record<string, WriteExercise> = {
   "present-subjunctive-formation-1": t(
     "Escribe una nota a tu compañero de piso con lo que quieres que haga esta semana. Usa quiero que, espero que y necesito que con al menos cinco verbos en subjuntivo.",
     ["Quiero / espero / necesito que + subjuntivo", "Al menos cinco formas de subjuntivo", "Al menos un verbo con cambio en el yo (tenga, haga, ponga…)", "Tono amable (por favor, gracias)"],
-    "Hola, Dani: esta semana no estoy en casa, así que necesito que riegues las plantas el martes. Quiero que saques la basura todas las noches y que pongas la lavadora el jueves. Espero que no hagas fiestas muy ruidosas, porque los vecinos se quejan. Si llega un paquete, necesito que lo guardes en mi habitación. ¡Gracias!",
+    "Hola, Dani: Esta semana no estoy en casa, así que necesito que riegues las plantas el martes. Quiero que saques la basura todas las noches y que pongas la lavadora el jueves. Espero que no hagas fiestas muy ruidosas, porque los vecinos se quejan. Si llega un paquete, necesito que lo guardes en mi habitación. ¡Gracias!",
     "El subjuntivo se forma desde el yo del presente: riego → riegues, pongo → pongas, hago → hagas. Va después de que cuando el sujeto cambia."
   ),
   "b1d-circuito-cambios-raiz": t(
@@ -37,7 +37,7 @@ export const B1_UNIT_WRITING: Record<string, WriteExercise> = {
   "b1r-dialogue-advice-column": t(
     "Eres el autor de un consultorio sentimental. Un lector dice que su mejor amigo no le habla desde hace un mes. Escribe tu respuesta con consejos y reacciones.",
     ["Una reacción con subjuntivo (siento que, es normal que)", "Consejos (te aconsejo que, es mejor que)", "Un caso con infinitivo (es importante hablar…)", "Una frase con indicativo (es verdad que, está claro que)"],
-    "Querido lector: siento mucho que estés pasando por esto. Es normal que te sientas triste, porque un amigo es muy importante. Te aconsejo que le escribas un mensaje corto y sincero. Es mejor que no le reproches nada al principio. Es verdad que a veces la gente necesita tiempo, pero es importante hablar. Ojalá que pronto volváis a ser amigos.",
+    "Querido lector: Siento mucho que estés pasando por esto. Es normal que te sientas triste, porque un amigo es muy importante. Te aconsejo que le escribas un mensaje corto y sincero. Es mejor que no le reproches nada al principio. Es verdad que a veces la gente necesita tiempo, pero es importante hablar. Ojalá que pronto volváis a ser amigos.",
     "Valorar o aconsejar a otra persona: subjuntivo (es normal que te sientas). Sin persona concreta: infinitivo (es importante hablar). Verdad o certeza: indicativo (es verdad que necesita)."
   ),
   "subjunctive-impersonal-ojala-1": t(
@@ -49,7 +49,7 @@ export const B1_UNIT_WRITING: Record<string, WriteExercise> = {
   "b1d-corrige-impersonales": t(
     "Escribe una carta breve a tu yo de dentro de cinco años. Usa expresiones impersonales y ojalá para hablar de tus deseos y de lo que es importante para ti.",
     ["Ojalá + subjuntivo (al menos dos)", "Es importante / fundamental que + subjuntivo", "Una frase general con infinitivo", "Una frase con indicativo (es evidente que, es cierto que)"],
-    "Querida Ana del futuro: ojalá estés bien y sigas viviendo cerca del mar. Es importante que no dejes de pintar, aunque tengas mucho trabajo. Es fundamental que tu familia esté contigo. Es cierto que la vida cambia mucho, pero es bueno tener sueños. Ojalá hayas aprendido a tocar el piano por fin. Un abrazo de la Ana de hoy.",
+    "Querida Ana del futuro: Ojalá estés bien y sigas viviendo cerca del mar. Es importante que no dejes de pintar, aunque tengas mucho trabajo. Es fundamental que tu familia esté contigo. Es cierto que la vida cambia mucho, pero es bueno tener sueños. Ojalá hayas aprendido a tocar el piano por fin. Un abrazo de la Ana de hoy.",
     "Valoración con sujeto: subjuntivo (es importante que no dejes). Certeza: indicativo (es cierto que la vida cambia). Ojalá hayas aprendido: deseo sobre algo ya pasado."
   ),
   "commands-imperative-1": t(
@@ -67,7 +67,7 @@ export const B1_UNIT_WRITING: Record<string, WriteExercise> = {
   "conditional-tense-1": t(
     "Escribe un correo formal a un hotel para pedir información. Usa el condicional para ser educado: ¿podría…?, me gustaría…, ¿sería posible…?",
     ["Saludo y despedida formales", "Al menos cuatro verbos en condicional", "Peticiones educadas (¿podría…?, ¿sería posible…?)", "Usted en todo el correo"],
-    "Estimados señores: me gustaría reservar una habitación doble del 3 al 6 de mayo. ¿Podrían decirme si el desayuno está incluido en el precio? También querría saber si tienen aparcamiento. Llegaremos tarde, sobre las once de la noche: ¿sería posible hacer el registro a esa hora? Les agradecería una respuesta pronto. Atentamente, María López",
+    "Estimados señores: Me gustaría reservar una habitación doble del 3 al 6 de mayo. ¿Podrían decirme si el desayuno está incluido en el precio? También querría saber si tienen aparcamiento. Llegaremos tarde, sobre las once de la noche: ¿sería posible hacer el registro a esa hora? Les agradecería una respuesta pronto. Atentamente, María López",
     "El condicional suaviza las peticiones: me gustaría, podrían, querría, sería posible, les agradecería. Se forma con el infinitivo + -ía."
   ),
   "b1r-contrast-future-conditional": t(
@@ -109,7 +109,7 @@ export const B1_UNIT_WRITING: Record<string, WriteExercise> = {
   "b1r-tema-camino": t(
     "Describe tu objeto favorito sin decir su nombre, con oraciones de relativo, para que otra persona lo adivine. Termina con la pregunta «¿Qué es?».",
     ["No dices el nombre del objeto", "Al menos cuatro oraciones de relativo", "Preposición + relativo (con el que, en la que…)", "La pregunta final"],
-    "Es una cosa que uso todos los días. Es el objeto con el que despierto por la mañana y en el que leo las noticias. Es algo que siempre llevo en el bolsillo. La persona a la que más llamo con él es mi madre. Lo que menos me gusta es que la batería dura poco. ¿Qué es?",
+    "Es una cosa que uso todos los días. Es el objeto con el que me despierto por la mañana y en el que leo las noticias. Es algo que siempre llevo en el bolsillo. La persona a la que más llamo con él es mi madre. Lo que menos me gusta es que la batería dura poco. ¿Qué es?",
     "Preposición + artículo + que (con el que, en la que, a la que) cuando el verbo lleva preposición. Lo que + verbo para una idea: lo que menos me gusta."
   ),
   "b1-vocabulary-practice-7": t(
@@ -151,8 +151,8 @@ export const B1_UNIT_WRITING: Record<string, WriteExercise> = {
   "b1r-tema-activismo-vecinal": t(
     "Eres el presidente de la asociación de vecinos. Escribe instrucciones a los voluntarios para una campaña de limpieza, usando mandatos con dos pronombres.",
     ["Al menos tres mandatos afirmativos con dos pronombres (dáselo, tráemelas…)", "Al menos un mandato negativo con dos pronombres (no se lo des…)", "Tildes correctas", "Un saludo y una despedida"],
-    "Queridos voluntarios: mañana empieza la campaña de limpieza. Los guantes están en mi casa; si los necesitas, pídemelos. Las bolsas de basura dáselas a los niños del colegio. Los carteles, colócalos en la plaza. Si un vecino quiere ayudar, explícaselo todo con paciencia. Las herramientas no se las prestéis a nadie de fuera. ¡Gracias por vuestra ayuda!",
-    "En el afirmativo, los pronombres van pegados y casi siempre con tilde: pídemelos, dáselas, explícaselo. En el negativo van delante: no se las prestéis."
+    "Queridos voluntarios: Mañana empieza la campaña de limpieza. Los guantes están en mi casa; si los necesitáis, pedídmelos. Las bolsas de basura dádselas a los niños del colegio. Los carteles, colocadlos en la plaza. Si un vecino quiere ayudar, explicádselo todo con paciencia. Las herramientas no se las prestéis a nadie de fuera. ¡Gracias por vuestra ayuda!",
+    "En el afirmativo, los pronombres van pegados (con vosotros: pedídmelos, dádselas, explicádselo; con tú: pídemelos, dáselas). En el negativo van delante: no se las prestéis."
   ),
   "possessive-pronouns-1": t(
     "Tú y tu compañero de piso habéis mezclado vuestras cosas en la mudanza. Escribe un diálogo para decidir de quién es cada cosa usando el mío, la tuya, los suyos…",
@@ -181,13 +181,13 @@ export const B1_UNIT_WRITING: Record<string, WriteExercise> = {
   "b1s-polite-requests": t(
     "Escribe un correo a una agencia para preguntar por un piso de alquiler. Pregunta por el precio, los gastos y si puedes visitarlo, con fórmulas educadas.",
     ["Saludo y despedida formales", "Peticiones con condicional (¿podría…?, me gustaría…)", "Al menos tres preguntas concretas", "Usted en todo el correo"],
-    "Estimada señora: he visto en su página web el anuncio del piso de la calle Mayor y me gustaría recibir más información. ¿Podría decirme si el precio incluye los gastos de comunidad? También querría saber cuánto es la fianza. ¿Sería posible visitar el piso este jueves por la tarde? Le agradecería mucho su respuesta. Un saludo cordial, Tomás Ruiz",
+    "Estimada señora: He visto en su página web el anuncio del piso de la calle Mayor y me gustaría recibir más información. ¿Podría decirme si el precio incluye los gastos de comunidad? También querría saber cuánto es la fianza. ¿Sería posible visitar el piso este jueves por la tarde? Le agradecería mucho su respuesta. Un saludo cordial, Tomás Ruiz",
     "Fórmulas formales con condicional: me gustaría, ¿podría…?, querría saber, ¿sería posible…?, le agradecería."
   ),
   "b1s-paperwork": t(
     "Compraste unos auriculares por internet y llegaron rotos. Escribe una reclamación a la tienda: explica qué pasó y qué solución quieres.",
     ["Saludo formal y datos del pedido", "Indefinido para contar lo que pasó", "Una petición con subjuntivo (les ruego que, quiero que)", "Tono firme pero educado"],
-    "Estimados señores: el pasado 5 de marzo compré unos auriculares en su tienda online (pedido n.º 4521). El paquete llegó ayer, pero uno de los auriculares no funciona y la caja estaba dañada. Les ruego que me envíen unos nuevos lo antes posible o que me devuelvan el dinero. Adjunto fotos del producto. Quedo a la espera de su respuesta. Atentamente, Irene Gil",
+    "Estimados señores: El pasado 5 de marzo compré unos auriculares en su tienda online (pedido n.º 4521). El paquete llegó ayer, pero uno de los auriculares no funciona y la caja estaba dañada. Les ruego que me envíen unos nuevos lo antes posible o que me devuelvan el dinero. Adjunto fotos del producto. Quedo a la espera de su respuesta. Atentamente, Irene Gil",
     "Una reclamación cuenta los hechos en indefinido (compré, llegó) y pide con les ruego que + subjuntivo (envíen, devuelvan)."
   ),
   "b1-vocabulary-practice-10": t(
@@ -205,8 +205,8 @@ export const B1_UNIT_WRITING: Record<string, WriteExercise> = {
   "b1d-rep-mezcla-habla-de-ti-final": t(
     "Describe tu trabajo ideal y la ciudad ideal para vivir. Usa el condicional, oraciones de relativo y vocabulario del trabajo y la ciudad.",
     ["Condicional para lo ideal (trabajaría, viviría…)", "Al menos dos oraciones de relativo", "Vocabulario del trabajo (el sueldo, el horario, los compañeros…)", "Vocabulario de la ciudad (el barrio, el transporte…)"],
-    "Mi trabajo ideal sería en una empresa pequeña, con unos compañeros que se ayudan entre ellos. Tendría un horario flexible y un buen sueldo, con el que podría viajar dos veces al año. Trabajaría tres días en la oficina y dos desde casa. Viviría en una ciudad con buen transporte público, en un barrio tranquilo donde hay muchos parques en los que pasear con mi perro.",
-    "El condicional describe lo ideal (sería, tendría, viviría). Las oraciones de relativo añaden detalles: con el que podría viajar, donde hay parques, en los que pasear."
+    "Mi trabajo ideal sería en una empresa pequeña, con unos compañeros que se ayuden entre ellos. Tendría un horario flexible y un buen sueldo, con el que podría viajar dos veces al año. Trabajaría tres días en la oficina y dos desde casa. Viviría en una ciudad con buen transporte público, en un barrio tranquilo donde haya muchos parques en los que pasear con mi perro.",
+    "El condicional describe lo ideal (sería, tendría, viviría). Las oraciones de relativo añaden detalles: con el que podría viajar, donde haya parques, en los que pasear. Como son lugares y personas imaginados, el relativo va en subjuntivo (que se ayuden, donde haya)."
   ),
   "b1-comprehensive-review-1": t(
     "Escribe sobre un cambio importante en tu vida: cómo era tu vida antes, qué pasó, cómo ha cambiado desde entonces y qué esperas del futuro.",
@@ -217,7 +217,7 @@ export const B1_UNIT_WRITING: Record<string, WriteExercise> = {
   "b1r-challenge-subjunctive-gauntlet": t(
     "Escribe una carta a un estudiante que va a empezar el nivel B1. Cuéntale qué te ha costado más, qué te ha ayudado y dale consejos con subjuntivo y mandatos.",
     ["Pretérito perfecto para tu experiencia", "Consejos con subjuntivo (te recomiendo que, es importante que)", "Mandatos de tú afirmativos y negativos", "Una frase con si + presente"],
-    "Querido Sam: este año he aprendido muchísimo, pero lo que más me ha costado es el subjuntivo. Me ha ayudado mucho leer cuentos y escuchar pódcast. Te recomiendo que hagas un poco cada día y que no tengas miedo a equivocarte. Es importante que hables con nativos. Si no entiendes algo, pregunta. Y no te rindas: ¡al final todo tiene sentido! Un abrazo, Lena",
+    "Querido Sam: Este año he aprendido muchísimo, pero lo que más me ha costado es el subjuntivo. Me ha ayudado mucho leer cuentos y escuchar pódcast. Te recomiendo que hagas un poco cada día y que no tengas miedo a equivocarte. Es importante que hables con nativos. Si no entiendes algo, pregunta. Y no te rindas: ¡al final todo tiene sentido! Un abrazo, Lena",
     "Te recomiendo que / es importante que + subjuntivo (hagas, hables), mandatos de tú (pregunta, no te rindas) y si + presente."
   ),
 };

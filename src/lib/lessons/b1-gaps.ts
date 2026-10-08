@@ -83,12 +83,12 @@ export const B1_GAPS: AnchoredLesson[] = [
         [
           "El futuro perfecto también sirve para hacer una suposición sobre algo que ha pasado hace poco, igual que el futuro simple sirve para suponer sobre el presente.",
           "¿Por qué no ha venido Marta? — Se habrá dormido. (= Supongo que se ha dormido / Probablemente se ha dormido.)",
-          "Es muy frecuente en la conversación, sobre todo en España, donde el pretérito perfecto es más común. En América se oye más «Se habrá quedado dormida» o «Seguro que se quedó dormida».",
+          "Es muy frecuente en la conversación, sobre todo en España, donde el pretérito perfecto es más común. En América también se oye, pero es más frecuente «Se quedaría dormida» o «Seguro que se quedó dormida».",
         ],
         [
           ["No encuentro las llaves. — Las habrás dejado en el coche.", "I can't find my keys. — You've probably left them in the car."],
           ["Juan no contesta. — Habrá salido.", "Juan isn't answering. — He must have gone out."],
-          ["¿Quién habrá llamado a estas horas?", "Who can have called at this time?"],
+          ["¿Quién habrá llamado a estas horas?", "Who could have called at this hour?"],
         ],
         [
           mc(
@@ -105,7 +105,7 @@ export const B1_GAPS: AnchoredLesson[] = [
         "Relaciona cada frase con su significado.",
         [
           ["Habrá salido.", "He's probably gone out."],
-          ["Habrá salido a las ocho.", "He'll have left by eight."],
+          ["Para las ocho habrá salido.", "He'll have left by eight."],
           ["Saldrá a las ocho.", "He'll leave at eight."],
           ["Ha salido.", "He has gone out."],
         ],
@@ -223,8 +223,7 @@ export const B1_GAPS: AnchoredLesson[] = [
             "Anoche había mucha gente en el concierto. ___ unas dos mil personas.",
             "Habría",
             "There were lots of people at the concert last night. There [must have been] about two thousand people.",
-            "Suposición sobre el pasado (anoche): condicional de haber. «Habrá» sería una suposición sobre el presente.",
-            ["Habrían"]
+            "Suposición sobre el pasado (anoche): condicional de haber. «Habrá» sería una suposición sobre el presente. «Habrían» no es correcto: haber impersonal va siempre en singular.",
           ),
         ]
       ),
@@ -568,7 +567,6 @@ export const B1_GAPS: AnchoredLesson[] = [
         "Llevamos",
         "We've [been] looking for a parking space for half an hour.",
         "Llevar + tiempo + gerundio, en presente porque la búsqueda continúa. Nosotros: llevamos.",
-        ["Llevo"]
       ),
       fe(
         "¿Tu hermano ___ viviendo en Londres?",
@@ -635,7 +633,7 @@ export const B1_GAPS: AnchoredLesson[] = [
       sec(
         "¿Existe o no lo sé?",
         [
-          "Después de que en una oración de relativo, el modo depende del antecedente (la persona o cosa de la que hablamos).",
+          "Después de «que» en una oración de relativo, el modo depende del antecedente (la persona o cosa de la que hablamos).",
           "Si sabes que existe y es concreta, indicativo: Tengo un piso que tiene terraza. Conozco a una chica que habla japonés.",
           "Si no sabes si existe, la buscas o la deseas, subjuntivo: Busco un piso que tenga terraza. Necesito a alguien que hable japonés.",
           "Por eso, en los anuncios de trabajo y de pisos se ve mucho subjuntivo: Se busca camarero que tenga experiencia.",
@@ -740,7 +738,7 @@ export const B1_GAPS: AnchoredLesson[] = [
         "I'm looking for someone who speaks French.",
         "Busco a alguien que hable francés.",
         "Alguien que no conoces: subjuntivo (hable). Con alguien siempre va la a personal.",
-        ["Estoy buscando a alguien que hable francés.", "Busco alguien que hable francés.", "Necesito a alguien que hable francés."]
+        ["Estoy buscando a alguien que hable francés.", "Necesito a alguien que hable francés."]
       ),
       toEs(
         "There's nothing I like more.",

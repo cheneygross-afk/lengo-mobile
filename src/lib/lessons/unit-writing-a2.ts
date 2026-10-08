@@ -79,13 +79,13 @@ export const A2_UNIT_WRITING: Record<string, WriteExercise> = {
   "por-vs-para-1": t(
     "Write a note to a coworker about a trip you're planning. Say where you're going and why, how you'll get there, how long you'll stay and how much you paid. Use por and para at least three times each.",
     ["Para for destination and purpose (para Sevilla, para ver…)", "Por for cause, means and duration (por trabajo, por tren, por una semana)", "Por for price or exchange (por cien euros)", "Para for deadlines or recipients"],
-    "Hola, Carlos: el lunes salgo para Sevilla por trabajo. Voy para hablar con un cliente importante. Viajo por tren porque es más rápido. Me quedo allí por tres días. Compré el billete por cien euros. ¿Necesitas algo para el viernes? Te traigo un regalo para tu hija.",
+    "Hola, Carlos: El lunes salgo para Sevilla por trabajo. Voy allí para hablar con un cliente importante. Viajo en tren porque es más rápido. Me quedo allí por tres días. Compré el billete por cien euros. ¿Necesitas algo para el viernes? Te traigo un regalo para tu hija.",
     "Para looks ahead: destination, purpose, deadline, recipient. Por looks at cause and route: reason, means, duration, price or exchange."
   ),
   "a2-vocabulary-practice-3": t(
     "Write a thank-you message to a friend who helped you move flat. Say thanks for what they did, why you're writing, and invite them to dinner. Use por and para correctly.",
     ["Gracias por…", "Para + infinitive for purpose", "Por for cause (por eso, por tu ayuda)", "Para for a person or a date"],
-    "Querida Inés: te escribo para darte las gracias por tu ayuda el sábado. Sin ti, la mudanza fue fácil. Por eso quiero invitarte a cenar a mi piso nuevo. ¿Puedes venir el viernes por la noche? Voy a cocinar algo especial para ti. ¡Gracias por todo! Un beso, Lola",
+    "Querida Inés: Te escribo para darte las gracias por tu ayuda el sábado. Gracias a ti, la mudanza fue fácil. Por eso quiero invitarte a cenar a mi piso nuevo. ¿Puedes venir el viernes por la noche? Voy a cocinar algo especial para ti. ¡Gracias por todo! Un beso, Lola",
     "Gracias por + noun or infinitive. Para + infinitive says why (para darte las gracias); por la noche, por eso and por tu ayuda show cause and time."
   ),
   "personal-a": t(
@@ -96,9 +96,9 @@ export const A2_UNIT_WRITING: Record<string, WriteExercise> = {
   ),
   "mente-adverbs-1": t(
     "A tourist asks you how to get from the station to a museum. Write the directions, and add how they should walk or cross the streets using two -mente adverbs.",
-    ["Directions with verbs (sigue, gira, cruza…)", "Words for places (a la derecha, todo recto, la esquina…)", "At least two -mente adverbs", "A polite opening or closing"],
-    "Claro, es fácil. Sal de la estación y sigue todo recto por esta calle. En la segunda esquina, gira a la derecha. Cruza la plaza con cuidado: los coches pasan rápidamente. El museo está al lado de una farmacia. Normalmente se tarda diez minutos andando. ¡Buen viaje!",
-    "Adverbs in -mente come from the feminine adjective: rápida → rápidamente, normal → normalmente. Directions use tú commands: sigue, gira, cruza."
+    ["Directions with usted commands (siga, gire, cruce…)", "Words for places (a la derecha, todo recto, la esquina…)", "At least two -mente adverbs", "A polite opening or closing"],
+    "Claro, es fácil. Salga de la estación y siga todo recto por esta calle. En la segunda esquina, gire a la derecha. Cruce la plaza con cuidado: los coches pasan rápidamente. El museo está al lado de una farmacia. Normalmente se tarda diez minutos andando. ¡Buen viaje!",
+    "Adverbs in -mente come from the feminine adjective: rápida → rápidamente, normal → normalmente. Directions to a stranger use usted commands: siga, gire, cruce."
   ),
   "a2g-tu-commands-regular": t(
     "Your friend is staying in your flat while you're away. Write a note with instructions: what to do with the plants, the cat and the keys. Use at least five tú commands, two with pronouns.",

@@ -1688,6 +1688,7 @@ export const EN_B1_U13: Lesson[] = [
         prompt: "Translate into English.",
         source: "¿Sabes nadar?",
         answer: "Can you swim?",
+        altAnswers: ["Do you know how to swim?"],
         explanation: "«Saber + infinitivo» for an ability is \"can\". Not *Do you know swim? or *Do you can swim?.",
       },
       {
@@ -2467,7 +2468,7 @@ export const EN_B1_U13: Lesson[] = [
     slug: "b1-themed-review-new-flatmate",
     level: "EN-B1",
     number: 10,
-    title: "Themed Review: The New Flatmate",
+    title: "Themed Review: The New Roommate",
     summary: "Spiral review around a shared apartment: house rules, polite requests to a roommate, used to and getting used to.",
     duration: "12 min",
     sections: [

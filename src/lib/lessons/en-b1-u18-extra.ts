@@ -373,7 +373,7 @@ export const EN_B1_U18_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Este cuadro fue pintado en el siglo XVII.",
-        answer: "This painting was painted in the 17th century.",
+        answer: "This picture was painted in the 17th century.",
         altAnswers: [
           "This painting was painted in the seventeenth century.",
           "This picture was painted in the 17th century.",

@@ -85,7 +85,7 @@ export const EN_A2_U08: Lesson[] = [
       {
         heading: "Adjetivos largos: \"more\" + adjetivo",
         body: [
-          "Con adjetivos de dos sílabas o más (salvo los que terminan en \"-y\") se usa \"more\" delante, como el «más» del español: \"more expensive\", \"more interesting\", \"more comfortable\", \"more modern\".",
+          "Con adjetivos de dos sílabas o más (salvo los que terminan en \"-y\") se usa \"more\" delante, como el «más» del español: \"more expensive\", \"more interesting\", \"more comfortable\", \"more modern\". Ojo: unos pocos de dos sílabas también van con \"-er\": \"quiet, quieter\", \"simple, simpler\", \"narrow, narrower\".",
           "Las dos fórmulas nunca se mezclan. Es \"bigger\", nunca *more big ni *more bigger. Y es \"more expensive\", nunca *expensiver.",
           "Un truco: si el adjetivo es corto, piensa en \"-er\"; si es largo, en \"more\". Los terminados en \"-y\", aunque tengan dos sílabas, van con \"-ier\".",
         ],
@@ -1875,7 +1875,7 @@ export const EN_A2_U08: Lesson[] = [
     slug: "a2-comparing-in-practice",
     level: "EN-A2",
     number: 9,
-    title: "Comparar en la práctica: dos pisos",
+    title: "Comparar en la práctica: dos apartamentos",
     summary: "Comparar dos apartamentos, dos teléfonos y dos ciudades: leer anuncios, elegir y justificar tu elección en inglés.",
     duration: "12 min",
     sections: [

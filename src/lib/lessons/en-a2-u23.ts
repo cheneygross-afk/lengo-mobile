@@ -226,7 +226,7 @@ export const EN_A2_U23: Lesson[] = [
         prompt: "Ordena las palabras.",
         words: ["I", "have", "never", "been", "to", "London."],
         translation: "Nunca he estado en Londres.",
-        explanation: "\"Never\" va entre \"have\" y el participio. Para lugares visitados se dice \"been to\", no *been in ni *gone to.",
+        explanation: "\"Never\" va entre \"have\" y el participio. Para lugares visitados lo normal es \"been to\" (no *gone to).",
       },
       {
         type: "translate",

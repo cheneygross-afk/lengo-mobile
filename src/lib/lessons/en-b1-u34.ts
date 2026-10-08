@@ -1173,7 +1173,7 @@ export const EN_B1_U34: Lesson[] = [
     slug: "b1-themed-review-noisy-neighbours",
     level: "EN-B1",
     number: 6,
-    title: "Themed Review: Noisy Neighbours",
+    title: "Themed Review: Noisy Neighbors",
     summary: "Dealing with noisy neighbors: polite requests like Would you mind...? and I was wondering if..., complaining politely, linkers, and the rules of the building with must, have to, be allowed to and be supposed to.",
     duration: "11 min",
     sections: [

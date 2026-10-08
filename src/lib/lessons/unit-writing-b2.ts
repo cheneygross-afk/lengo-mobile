@@ -115,13 +115,13 @@ export const B2_UNIT_WRITING: Record<string, WriteExercise> = {
   "b2d-rep-adverbiales-mezcla-final": t(
     "Escribe una carta formal al ayuntamiento para pedir más carriles bici en tu ciudad. Argumenta con conectores y un registro formal.",
     ["Saludo y despedida formales", "Al menos cuatro conectores (en primer lugar, además, no obstante, por consiguiente…)", "Una petición con subjuntivo (les solicito que…)", "Registro formal, sin coloquialismos"],
-    "Estimados señores: me dirijo a ustedes para solicitar la ampliación de la red de carriles bici. En primer lugar, cada vez más vecinos utilizan la bicicleta para ir al trabajo. Además, la ciudad no dispone de vías seguras en el centro, por lo que los accidentes han aumentado. No obstante, soy consciente del coste de esta medida. Por consiguiente, les solicito que estudien un plan gradual. Atentamente, Carmen Ortiz",
+    "Estimados señores: Me dirijo a ustedes para solicitar la ampliación de la red de carriles bici. En primer lugar, cada vez más vecinos utilizan la bicicleta para ir al trabajo. Además, la ciudad no dispone de vías seguras en el centro, por lo que los accidentes han aumentado. No obstante, soy consciente del coste de esta medida. Por consiguiente, les solicito que estudien un plan gradual. Atentamente, Carmen Ortiz",
     "Un texto formal ordena los argumentos (en primer lugar, además), matiza (no obstante) y concluye (por consiguiente). Les solicito que + subjuntivo."
   ),
   "emphasis-word-order-1": t(
     "Hubo un malentendido en tu oficina: todo el mundo cree que fuiste tú quien rompió la impresora. Escribe un mensaje aclarando qué pasó, con oraciones enfáticas.",
     ["Oraciones hendidas (fue Ana quien…, lo que pasó fue que…)", "Objeto adelantado con pronombre (la impresora la rompió…)", "Al menos cuatro frases enfáticas", "Tono claro pero educado"],
-    "Hola a todos: quiero aclarar lo que pasó ayer. No fui yo quien rompió la impresora. Lo que ocurrió fue que el papel se atascó y yo intenté sacarlo. La impresora ya la había usado Marcos antes y fue él quien me avisó de que hacía ruidos raros. Lo que necesitamos es que alguien de mantenimiento la revise, no buscar culpables. Gracias por entenderlo.",
+    "Hola a todos: Quiero aclarar lo que pasó ayer. No fui yo quien rompió la impresora. Lo que ocurrió fue que el papel se atascó y yo intenté sacarlo. La impresora ya la había usado Marcos antes y fue él quien me avisó de que hacía ruidos raros. Lo que necesitamos es que alguien de mantenimiento la revise, no buscar culpables. Gracias por entenderlo.",
     "Fue + persona + quien destaca al sujeto; lo que + verbo + fue destaca la acción. Al adelantar el objeto se repite con un pronombre: la impresora ya la había usado."
   ),
   "b2r-contrast-neutral-emphatic": t(
@@ -139,7 +139,7 @@ export const B2_UNIT_WRITING: Record<string, WriteExercise> = {
   "b2r-transform-join-cuyo": t(
     "Presenta a tres personajes históricos o famosos en un texto formal, uniendo la información con cuyo, el cual, quien y donde.",
     ["Al menos dos usos de cuyo / cuya / cuyos", "El cual o la cual con preposición", "Quien o donde al menos una vez", "Registro formal"],
-    "Frida Kahlo, cuyas obras reflejan su dolor físico, es una de las pintoras más conocidas del siglo XX. Vivió en Coyoacán, donde hoy se encuentra su museo. Gabriel García Márquez, a quien muchos consideran el padre del realismo mágico, escribió Cien años de soledad, novela con la cual ganó fama mundial. Por último, Rosalía de Castro, cuyos poemas están escritos en gallego, fue clave para la cultura de Galicia.",
+    "Frida Kahlo, cuyas obras reflejan su dolor físico, es una de las pintoras más conocidas del siglo XX. Vivió en Coyoacán, donde hoy se encuentra su museo. Gabriel García Márquez, a quien muchos consideran el padre del realismo mágico, escribió Cien años de soledad, novela con la cual ganó fama mundial. Por último, Rosalía de Castro, cuyos poemas en gallego impulsaron el renacimiento de las letras gallegas, fue clave para la cultura de Galicia.",
     "Cuyo une a un poseedor con lo poseído y concuerda con este último (cuyas obras, cuyos poemas). Quien para personas tras coma o preposición; el cual tras preposición."
   ),
   "b2r-tema-tierra-familia": t(
@@ -169,13 +169,13 @@ export const B2_UNIT_WRITING: Record<string, WriteExercise> = {
   "b2-comprehensive-review-1": t(
     "Escribe una carta a ti mismo de hace cinco años: cuéntale qué ha pasado, qué consejos le darías y qué habrías hecho diferente.",
     ["Pretérito perfecto e indefinido para contar lo ocurrido", "Consejos con subjuntivo o condicional (te aconsejaría que…)", "Una hipótesis sobre el pasado (si hubiera…, habría…)", "Un cierre personal"],
-    "Querido yo de hace cinco años: han pasado muchas cosas. Terminaste la carrera, te mudaste a Barcelona y encontraste un trabajo que te gusta. Te aconsejaría que no te preocuparas tanto por los exámenes y que disfrutaras más de tus amigos. Si hubieras ahorrado un poco más, habrías viajado a Perú antes. Aun así, estoy orgulloso de ti. Sigue siendo curioso y no dejes nunca de aprender. Un abrazo desde el futuro.",
+    "Querido yo de hace cinco años: Han pasado muchas cosas. Terminaste la carrera, te mudaste a Barcelona y encontraste un trabajo que te gusta. Te aconsejaría que no te preocuparas tanto por los exámenes y que disfrutaras más de tus amigos. Si hubieras ahorrado un poco más, habrías viajado a Perú antes. Aun así, estoy orgulloso de ti. Sigue siendo curioso y no dejes nunca de aprender. Un abrazo desde el futuro.",
     "Te aconsejaría que + imperfecto de subjuntivo (concordancia con el condicional). Si hubieras ahorrado, habrías viajado: hipótesis sobre el pasado."
   ),
   "b2r-challenge-subjunctive-gauntlet": t(
     "Escribe un correo a un estudiante de B2 para contarle cómo superaste las dificultades del nivel. Incluye subjuntivo, condicionales y estilo indirecto.",
     ["Subjuntivo (te recomiendo que, aunque, cuando…)", "Una oración condicional irreal", "Estilo indirecto (mi profesora me dijo que…)", "Registro informal y bien organizado"],
-    "Hola, Leo: me preguntaste cómo superé el B2 y te cuento. Lo más difícil para mí fueron las oraciones condicionales. Mi profesora me dijo que leyera mucho y que escribiera un diario en español, y funcionó. Si no lo hubiera hecho, seguiría confundiendo tuviera y tendría. Te recomiendo que escuches pódcast cuando vayas en el transporte y que no te desanimes aunque cometas errores. ¡Ánimo, que lo vas a conseguir!",
+    "Hola, Leo: Me preguntaste cómo superé el B2 y te cuento. Lo más difícil para mí fueron las oraciones condicionales. Mi profesora me dijo que leyera mucho y que escribiera un diario en español, y funcionó. Si no lo hubiera hecho, seguiría confundiendo tuviera y tendría. Te recomiendo que escuches pódcast cuando vayas en el transporte y que no te desanimes aunque cometas errores. ¡Ánimo, que lo vas a conseguir!",
     "Estilo indirecto con petición: me dijo que leyera. Condicional mixta: si no lo hubiera hecho, seguiría. Cuando y aunque + subjuntivo para lo futuro o no comprobado."
   ),
 };

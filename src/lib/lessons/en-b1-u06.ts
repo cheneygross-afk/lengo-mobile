@@ -618,7 +618,7 @@ export const EN_B1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Si llueve, las calles se inundan.» This is...",
+        question: "Which is the correct translation of «Si llueve, las calles se inundan»?",
         options: [
           "If it rains, the streets get flooded.",
           "If it will rain, the streets get flooded.",
@@ -1736,7 +1736,7 @@ export const EN_B1_U06: Lesson[] = [
       {
         type: "speak",
         text: "As soon as we land, we'll take a taxi to the hotel.",
-        tip: "Link \"as soon as\": \"a-ZOON-az\". Stress \"land\", \"taxi\" and \"hotel\" (ho-TEL).",
+        tip: "Link \"as soon as\": \"uh-SOON-uz\". Stress \"land\", \"taxi\" and \"hotel\" (ho-TEL).",
         explanation: "\"Hotel\" is stressed on the second syllable in English: ho-TEL.",
       },
     ],

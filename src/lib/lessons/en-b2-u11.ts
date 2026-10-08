@@ -702,7 +702,7 @@ export const EN_B2_U11: Lesson[] = [
         heading: "Passive: was made to, was allowed to",
         body: [
           "In the passive, \"make\" needs \"to\": \"They made us wait\" becomes \"We were made to wait\". This surprises many learners, because the active has no \"to\".",
-          "\"Let\" is not normally used in the passive. Instead, use \"be allowed to\": «no nos dejaron entrar» is \"They didn't let us in\" or \"We weren't allowed in\". \"We weren't let in\" is not standard.",
+          "\"Let\" is not normally used in the passive. Instead, use \"be allowed to\": «no nos dejaron entrar» is \"They didn't let us in\" or \"We weren't allowed in\". \"We weren't let in\" is fine with the phrasal verb, but \"let\" + infinitive has no passive: never *We weren't let (to) enter.",
           "\"Allowed\" and \"permitted\" always take \"to\" in the active too: \"They allowed us to leave early\". So the full set is: \"let us leave\", \"allowed us to leave\", \"we were allowed to leave\".",
         ],
         examples: [
@@ -837,7 +837,7 @@ export const EN_B2_U11: Lesson[] = [
         question: "Which sentence is correct?",
         options: [
           "They didn't let us in.",
-          "We weren't let in.",
+          "We weren't let to come in.",
           "They didn't let us to come in.",
           "We weren't allowed come in.",
         ],

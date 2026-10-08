@@ -125,9 +125,9 @@ export const EN_A2_U10_EXTRA: Lesson[] = [
         type: "fill-blank",
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "___ a visa to go to Canada?",
-        answer: "Do I need",
-        altAnswers: ["Do I have to get", "Do I have to have"],
-        en: "[¿Necesito] una visa para ir a Canadá?",
+        answer: "Do I have to get",
+        altAnswers: ["Do I need", "Do I have to have"],
+        en: "[¿Tengo que sacar] una visa para ir a Canadá?",
         explanation: "La pregunta con un verbo normal se hace con \"do\": \"Do I need...?\". Sin \"do\" no hay pregunta en inglés.",
       },
       {
@@ -582,7 +582,7 @@ export const EN_A2_U10_EXTRA: Lesson[] = [
         body: [
           "\"Should\" es un modal: va seguido del verbo base, sin \"to\" (\"You should rest\", no *You should to rest), no lleva -s (\"She should go\") y niega con \"not\": \"shouldn't\". Nunca *You should not to go.",
           "Para pedir consejo: \"Should I...?\" («¿debería...?») o \"What should I do?\". Nada de \"do\": *Do I should? no existe.",
-          "Para suavizar un consejo: \"I think you should...\". Y en la negativa, el inglés mueve el \"not\" al principio: \"I don't think you should go\" es mucho más natural que *I think you shouldn't go, que suena raro aunque se entienda.",
+          "Para suavizar un consejo: \"I think you should...\". Y en la negativa, el inglés mueve el \"not\" al principio: \"I don't think you should go\" es mucho más natural que \"I think you shouldn't go\", que es correcto pero suena menos natural.",
         ],
         examples: [
           { es: "You should see a doctor.", en: "Deberías ver a un médico." },
@@ -665,7 +665,7 @@ export const EN_A2_U10_EXTRA: Lesson[] = [
         source: "No creo que debamos salir con esta tormenta.",
         answer: "I don't think we should go out in this storm.",
         altAnswers: ["I don't think we should go out during this storm.", "I don't think we should leave in this storm.", "I don't think we should go out with this storm."],
-        explanation: "El \"not\" va con \"think\": \"I don't think we should\". *I think we shouldn't suena poco natural.",
+        explanation: "El \"not\" va con \"think\": \"I don't think we should\". \"I think we shouldn't\" es correcto, pero suena menos natural.",
       },
       {
         type: "translate",

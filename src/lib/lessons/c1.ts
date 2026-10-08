@@ -107,7 +107,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "Imperfecto vs. pluscuamperfecto de subjuntivo: el eje temporal desplazado",
         "body": [
           "Cuando la oración principal se sitúa en el pasado, el subjuntivo se traslada a su propia pareja retrospectiva: el imperfecto de subjuntivo cubre la simultaneidad o la posterioridad respecto al verbo principal, mientras que el pluscuamperfecto marca una anterioridad ya cumplida respecto a ese mismo punto de referencia.",
-          "La dificultad para quien está dominando este nivel no reside tanto en la morfología —ambas formas se aprenden con facilidad— sino en calcular correctamente el eje desde el que se mide la anterioridad: no desde el momento del habla, sino desde el verbo principal. Así, «dudaba que hubiera terminado» sitúa la terminación antes de la duda misma, no antes del momento presente en que se relata la anécdota. Este desplazamiento del punto de referencia es, precisamente, lo que distingue el uso maduro del subjuntivo del uso mecánico propio de niveles iniciales."
+          "La dificultad para quien está dominando este nivel no reside tanto en la morfología —ambas formas se aprenden con facilidad— como en calcular correctamente el eje desde el que se mide la anterioridad: no desde el momento del habla, sino desde el verbo principal. Así, «dudaba que hubiera terminado» sitúa la terminación antes de la duda misma, no antes del momento presente en que se relata la anécdota. Este desplazamiento del punto de referencia es, precisamente, lo que distingue el uso maduro del subjuntivo del uso mecánico propio de niveles iniciales."
         ],
         "examples": [
           {
@@ -223,6 +223,7 @@ const C1_BASE_LESSONS: Lesson[] = [
               "lo",
               "lograremos"
             ],
+            "translation": "Whatever it takes, we'll achieve it.",
             "explanation": "La fórmula fija «cueste lo que cueste» antecede a la afirmación principal «lo lograremos», sin que ningún costo altere la decisión."
           }
         ]
@@ -260,7 +261,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "El subjuntivo como recurso pragmático de atenuación",
         "body": [
           "Más allá de las reglas de régimen verbal que fuerzan mecánicamente el subjuntivo, existe un uso pragmático en el que el hablante opta por él aun cuando el indicativo sería gramaticalmente aceptable, con el fin de suavizar una afirmación, distanciarse de su propia certeza o proyectar cortesía. Así, «no digo que tengas razón» resulta menos confrontativo que su equivalente con indicativo, aunque ambas formas circulan en el habla; el subjuntivo introduce una capa de provisionalidad que atenúa el choque de opiniones.",
-          "De modo semejante, ciertos verbos de comunicación negados —«no significa que», «no implica que», «eso no quiere decir que»— prefieren casi categóricamente el subjuntivo en el registro culto, precisamente porque niegan una implicación lógica y no un hecho verificable: el hablante no está juzgando si algo es verdad, sino si una cosa se sigue necesariamente de otra. Reconocer esta capa pragmática —y no solo la sintáctica— es lo que distingue a un hablante de nivel avanzado, capaz de manipular el subjuntivo como herramienta retórica de matización."
+          "De modo semejante, ciertos verbos de implicación lógica negados —«no significa que», «no implica que», «eso no quiere decir que»— prefieren casi categóricamente el subjuntivo en el registro culto, precisamente porque niegan una implicación lógica y no un hecho verificable: el hablante no está juzgando si algo es verdad, sino si una cosa se sigue necesariamente de otra. Reconocer esta capa pragmática —y no solo la sintáctica— es lo que distingue a un hablante de nivel avanzado, capaz de manipular el subjuntivo como herramienta retórica de matización."
         ],
         "examples": [
           {
@@ -307,6 +308,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "hayas",
           "venido"
         ],
+        "translation": "I'm glad you came.",
         "explanation": "El perfecto de subjuntivo «hayas venido» presenta la llegada como un hecho ya concluido que se valora después de ocurrido."
       }
     ]
@@ -542,8 +544,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Aunque + indicativo: la concesión de un hecho asumido como cierto",
         "body": [
-          "«Aunque» es, con diferencia, el conector concesivo más versátil del español, precisamente porque un mismo enunciado puede llevar indicativo o subjuntivo según la actitud del hablante hacia la información, no según la verdad objetiva del hecho. Cuando el hablante presenta el contenido de la cláusula introducida por «aunque» como un dato ya conocido, compartido o directamente comprobado, recurre al indicativo: «aunque llueve, saldré a caminar» presupone que, en efecto, está lloviendo en ese momento.",
-          "El indicativo tras «aunque» no exige que el hecho sea agradable ni que el hablante lo acepte de buen grado; exige únicamente que se presente como información ya asentada en el discurso. De ahí que en la narración de hechos pasados —donde por definición ya se conoce el desenlace— «aunque» se combine casi siempre con indicativo: «aunque estudió toda la noche, no aprobó el examen»."
+          "«Aunque» es, con diferencia, el conector concesivo más versátil del español, precisamente porque un mismo enunciado puede llevar indicativo o subjuntivo según la actitud del hablante hacia la información, no según la verdad objetiva del hecho. Cuando el hablante afirma el contenido de la cláusula introducida por «aunque» como un hecho cierto que él mismo comunica o constata, recurre al indicativo: «aunque llueve, saldré a caminar» presupone que, en efecto, está lloviendo en ese momento.",
+          "El indicativo tras «aunque» no exige que el hecho sea agradable ni que el hablante lo acepte de buen grado; exige únicamente que el hablante lo presente como información que afirma. De ahí que en la narración de hechos pasados —donde por definición ya se conoce el desenlace— «aunque» se combine casi siempre con indicativo: «aunque estudió toda la noche, no aprobó el examen»."
         ],
         "examples": [
           {
@@ -556,7 +558,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Aunque es tarde, todavía podemos llegar.",
-            "en": "Se asume como dato compartido que ya es tarde."
+            "en": "El hablante afirma como hecho que ya es tarde."
           },
           {
             "es": "Aunque no lo parece, es una persona muy tímida.",
@@ -574,7 +576,7 @@ const C1_BASE_LESSONS: Lesson[] = [
               "Que la lluvia es solo una hipótesis descartada."
             ],
             "correctIndex": 1,
-            "explanation": "El indicativo tras «aunque» presenta el hecho concesivo como ya conocido o comprobado, no como una suposición. Si el hablante dudara o imaginara la lluvia, usaría subjuntivo («aunque lloviera»); el indicativo descarta la duda y la hipótesis."
+            "explanation": "El indicativo tras «aunque» presenta el hecho concesivo como cierto y lo afirma, no como una suposición. Si el hablante dudara o imaginara la lluvia, usaría subjuntivo («aunque lloviera»); el indicativo descarta la duda y la hipótesis."
           }
         ]
       }
@@ -698,7 +700,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "A pesar de que tenga razón, no cambiaré mi decisión.",
-            "en": "Se concede una posible razón futura sin comprometerse con su certeza."
+            "en": "Se concede que pueda tener razón sin comprometerse con su certeza."
           }
         ],
         "checkpoint": [
@@ -749,6 +751,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "de",
           "opinión"
         ],
+        "translation": "However much you insist, I won't change my mind.",
         "explanation": "«Por más que insistas» antepone la fórmula concesiva de esfuerzo reiterado a la conclusión inalterable."
       }
     ]
@@ -764,8 +767,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Por más que y por mucho que: la concesión intensificada y exhaustiva",
         "body": [
-          "«Por más que» y «por mucho que» añaden a la concesión un matiz de esfuerzo reiterado o de intensidad graduable: no se limitan a admitir un obstáculo, sino que subrayan que, por elevado que sea el grado de ese esfuerzo o esa cualidad, el resultado no cambia. A diferencia de «aunque», estas estructuras exigen subjuntivo de manera casi categórica cuando se refieren a acciones repetidas o a intentos reiterados, incluso si esos intentos ya tuvieron lugar en el pasado.",
-          "La diferencia entre «por más que» y «por mucho que» es mínima: el primero se combina con más naturalidad con verbos, y el segundo, con sustantivos o con una función más adverbial general. Ambas estructuras comparten con las fórmulas fijas de valor universal la misma lógica cuantificadora: cualquiera que sea el grado del esfuerzo o la cualidad, la conclusión se mantiene inalterada."
+          "«Por más que» y «por mucho que» añaden a la concesión un matiz de esfuerzo reiterado o de intensidad graduable: no se limitan a admitir un obstáculo, sino que subrayan que, por elevado que sea el grado de ese esfuerzo o esa cualidad, el resultado no cambia. Como «aunque», estas estructuras admiten ambos modos: indicativo cuando el esfuerzo se presenta como real y constatado («por más que lo intento, no me sale») y subjuntivo cuando es hipotético o se le resta importancia («por más que insistas»).",
+          "La diferencia entre «por más que» y «por mucho que» es mínima: ambas se combinan con verbos («por más/mucho que insistas») y, con la concordancia correspondiente, con sustantivos («por más dinero que tengas», «por mucho dinero que tengas»). Ambas estructuras comparten con las fórmulas fijas de valor universal la misma lógica cuantificadora: cualquiera que sea el grado del esfuerzo o la cualidad, la conclusión se mantiene inalterada."
         ],
         "examples": [
           {
@@ -824,7 +827,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "pairs": [
           {
             "left": "aunque + indicativo",
-            "right": "presenta el hecho concesivo como ya conocido o comprobado"
+            "right": "afirma el hecho concesivo como cierto e informativo"
           },
           {
             "left": "aunque + subjuntivo",
@@ -1011,7 +1014,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "Que se trata de un error gramatical."
         ],
         "correctIndex": 1,
-        "explanation": "El subjuntivo aquí no cuestiona el hecho de que la persona sea directora, sino que resta relevancia a ese hecho frente a la conclusión: el procedimiento se aplica igual. No hay duda sobre el cargo ni se anuncia un cambio futuro, y la frase es perfectamente gramatical."
+        "explanation": "El subjuntivo aquí no cuestiona el hecho de que la persona sea el director, sino que resta relevancia a ese hecho frente a la conclusión: el procedimiento se aplica igual. No hay duda sobre el cargo ni se anuncia un cambio futuro, y la frase es perfectamente gramatical."
       }
     ]
   },
@@ -1040,7 +1043,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Nos sorprende el hecho de que la propuesta haya sido aprobada tan rápido.",
-            "en": "La aprobación se nominaliza para funcionar como complemento del verbo «sorprender»."
+            "en": "La aprobación se nominaliza para funcionar como sujeto del verbo «sorprender»."
           },
           {
             "es": "El hecho de que insista tanto revela cierta inseguridad.",
@@ -1164,7 +1167,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Sufijos derivativos: matices de productividad y registro",
         "body": [
-          "Los sufijos nominalizadores -ción, -miento, -dad, -eza y -ura no son intercambiables ni completamente predecibles: cada uno impone restricciones morfológicas y connotaciones de registro que un hablante avanzado debe reconocer más que memorizar como reglas fijas. El sufijo -ción, de origen latino, resulta el más productivo con verbos en -ar y aporta un matiz de proceso formal o técnico; -miento, en cambio, se combina preferentemente con verbos en -er/-ir y a menudo describe procesos más concretos o físicos, aunque ambos compiten en ciertos casos.",
+          "Los sufijos nominalizadores -ción, -miento, -dad, -eza y -ura no son intercambiables ni completamente predecibles: cada uno impone restricciones morfológicas y connotaciones de registro que un hablante avanzado debe reconocer más que memorizar como reglas fijas. El sufijo -ción, de origen latino, resulta el más productivo con verbos en -ar y aporta un matiz de proceso formal o técnico; -miento, en cambio, se combina con verbos de las tres conjugaciones (nombramiento, crecimiento, sufrimiento) y a menudo describe procesos más concretos o físicos, aunque ambos compiten en ciertos casos.",
           "Los sufijos -dad y -eza nominalizan adjetivos, pero con distinta procedencia y matiz: -dad, de raíz culta, tiende a formar sustantivos más abstractos y de registro elevado, mientras que -eza, de raíz más patrimonial, produce sustantivos con un matiz ligeramente más cotidiano o perceptible. Reconocer qué sufijo corresponde a cada base léxica —y detectar los casos en que la lengua ha fijado una sola opción por convención histórica, no por regla productiva— es una marca distintiva del dominio nativo del vocabulario culto."
         ],
         "examples": [
@@ -1200,7 +1203,7 @@ const C1_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "-miento",
-                "right": "se combina preferentemente con verbos en -er/-ir; describe procesos más concretos"
+                "right": "se combina con verbos de las tres conjugaciones; describe procesos más concretos"
               },
               {
                 "left": "-dad",
@@ -1524,6 +1527,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "la",
           "región"
         ],
+        "translation": "The fact that they closed the factory affected the region.",
         "explanation": "«El hecho de que hayan cerrado la fábrica» nominaliza toda la proposición, que funciona como sujeto de «afectó»."
       }
     ]
@@ -1767,7 +1771,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Gerundio de simultaneidad frente al gerundio de posterioridad",
         "body": [
-          "El gerundio expresa, por definición, una acción simultánea o inmediatamente anterior a la del verbo principal, nunca una acción posterior en el tiempo. Por eso, oraciones como «el ladrón entró por la ventana, cayendo después sobre una mesa» se consideran un error de estilo —el llamado gerundio de posterioridad— porque presentan como simultáneas dos acciones que en realidad ocurrieron en secuencia. Este uso, frecuentísimo en la prensa por su economía sintáctica, sigue siendo censurado por la norma culta, que recomienda sustituirlo por una oración coordinada.",
+          "El gerundio expresa una acción simultánea o inmediatamente anterior a la del verbo principal, y no una acción posterior, salvo que la posterioridad sea tan inmediata que se perciba como simultánea («salió dando un portazo»). Por eso, oraciones como «el ladrón entró por la ventana, cayendo después sobre una mesa» se consideran un error de estilo —el llamado gerundio de posterioridad— porque presentan como simultáneas dos acciones que en realidad ocurrieron en secuencia. Este uso, frecuentísimo en la prensa por su economía sintáctica, sigue siendo censurado por la norma culta, que recomienda sustituirlo por una oración coordinada.",
           "El gerundio correcto de simultaneidad, en cambio, describe dos acciones que ocurren al mismo tiempo o con una superposición temporal real: «salió de la habitación cerrando la puerta con cuidado» es aceptable porque cerrar la puerta y salir son, en la práctica, un mismo movimiento continuo. La prueba práctica para distinguir ambos usos consiste en preguntarse si las dos acciones podrían representarse en un único fotograma: si la respuesta es negativa, el gerundio resulta impropio."
         ],
         "examples": [
@@ -1910,7 +1914,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "Seguir/continuar + gerundio frente a terminar de/dejar de + infinitivo",
         "body": [
           "Las perífrasis verbales con gerundio y con infinitivo codifican matices aspectuales que a menudo se traducen erróneamente de forma literal. «Seguir» y «continuar» + gerundio expresan la prolongación ininterrumpida de una acción ya iniciada: «sigue trabajando en el mismo proyecto» indica que la acción no se ha detenido desde un punto anterior hasta el presente. Estas perífrasis presuponen siempre que la acción ya estaba en curso; no pueden usarse para iniciar una acción nueva.",
-          "En el extremo opuesto, «terminar de», «dejar de» y «acabar de» + infinitivo marcan distintos tipos de cese aspectual: «terminar de» señala la conclusión de una acción con un final natural previsto; «dejar de» indica la interrupción de un hábito, con o sin intención de reanudarlo; y «acabar de», cuando no se usa en su valor de pasado reciente, comparte con «terminar de» el matiz de cierre de una tarea concreta. Confundir «dejar de» con «terminar de» produce oraciones semánticamente incoherentes: «dejó de leer el libro» sugiere abandono, mientras que «terminó de leer el libro» implica finalización exitosa."
+          "En el extremo opuesto, «terminar de», «dejar de» y «acabar de» + infinitivo marcan distintos tipos de cese aspectual: «terminar de» señala la conclusión de una acción con un final natural previsto; «dejar de» indica la interrupción de una acción o de un hábito («ha dejado de llover», «dejó de fumar»), con o sin intención de reanudarlo; y «acabar de», cuando no se usa en su valor de pasado reciente, comparte con «terminar de» el matiz de cierre de una tarea concreta. Confundir «dejar de» con «terminar de» produce oraciones semánticamente incoherentes: «dejó de leer el libro» sugiere abandono, mientras que «terminó de leer el libro» implica finalización exitosa."
         ],
         "examples": [
           {
@@ -1945,7 +1949,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "¿Cuáles de las siguientes perífrasis presuponen que la acción ya estaba en curso antes del momento del habla?",
+            "question": "¿Cuáles de las siguientes perífrasis presentan una acción ya iniciada que todavía continúa?",
             "options": [
               "seguir + gerundio",
               "dejar de + infinitivo",
@@ -1969,6 +1973,7 @@ const C1_BASE_LESSONS: Lesson[] = [
               "dos",
               "años"
             ],
+            "translation": "He quit smoking two years ago.",
             "explanation": "«Dejar de fumar» expresa la interrupción de un hábito, con matiz de abandono definitivo."
           }
         ]
@@ -1977,7 +1982,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Cuáles de las siguientes perífrasis presuponen que la acción ya estaba en curso antes del momento del habla?",
+        "question": "¿Cuáles de las siguientes perífrasis presentan una acción ya iniciada que todavía continúa?",
         "options": [
           "seguir + gerundio",
           "empezar a + infinitivo",
@@ -2027,11 +2032,11 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa con el gerundio correspondiente al verbo entre paréntesis. Ten en cuenta que, aunque la forma sea correcta morfológicamente, esta oración sigue siendo un ejemplo de gerundio de posterioridad.",
-        "sentence": "Publicó su primera novela, ___ (convertirse) poco después en una autora reconocida.",
-        "answer": "convirtiéndose",
-        "hint": "Se trata del gerundio del verbo pronominal «convertirse».",
-        "explanation": "Convertirse en autora reconocida es una consecuencia posterior a la publicación de la novela, no un hecho simultáneo; la norma culta preferiría una oración coordinada como «y se convirtió poco después»."
+        "prompt": "Completa con el verbo entre paréntesis en una oración coordinada, la alternativa que la norma culta prefiere al gerundio de posterioridad.",
+        "sentence": "Publicó su primera novela y poco después ___ (convertirse) en una autora reconocida.",
+        "answer": "se convirtió",
+        "hint": "Pretérito indefinido del verbo pronominal «convertirse».",
+        "explanation": "Convertirse en autora reconocida es una consecuencia posterior a la publicación de la novela, no un hecho simultáneo; por eso la norma culta prefiere la oración coordinada («y poco después se convirtió») al gerundio de posterioridad («…, convirtiéndose poco después»)."
       },
       {
         "type": "fill-blank",
@@ -2068,7 +2073,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "¿Cuáles de las siguientes perífrasis presuponen que la acción ya estaba en curso antes del momento del habla?",
+        "question": "¿Cuáles de las siguientes perífrasis presentan una acción ya iniciada que todavía continúa?",
         "options": [
           "seguir + gerundio",
           "acabar de + infinitivo",
@@ -2278,6 +2283,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "de",
           "seguridad"
         ],
+        "translation": "Keep a safe distance.",
         "explanation": "El infinitivo formula aquí un mandato impersonal, sin destinatario concreto, característico de carteles y avisos."
       }
     ]
@@ -2797,7 +2803,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "Se pasivo: concordancia numérica con el sujeto paciente",
         "body": [
           "El «se» pasivo constituye, con mucho, el recurso más natural y frecuente del español para formar oraciones pasivas sin necesidad de recurrir a «ser + participio»: «se inauguró el puente» o, en plural, «se inauguraron los puentes» concuerdan en número con el sustantivo que funciona como sujeto paciente, exactamente igual que ocurriría con un verbo activo y su sujeto. Esta concordancia numérica es precisamente lo que distingue al «se» pasivo del «se» impersonal.",
-          "El «se» pasivo se combina exclusivamente con sustantivos de cosa, nunca con complementos de persona marcados por la preposición «a»: un complemento de persona con «a» activa automáticamente la lectura impersonal. En el habla cotidiana y en la escritura de registro medio, el «se» pasivo desplaza casi por completo a la construcción con «ser», por resultar más ágil y menos marcada estilísticamente."
+          "El «se» pasivo se combina con sustantivos de cosa o de persona no determinada sin «a» («se venden pisos», «se necesitan voluntarios»), nunca con complementos de persona marcados por la preposición «a»: un complemento de persona con «a» activa automáticamente la lectura impersonal. En el habla cotidiana y en la escritura de registro medio, el «se» pasivo desplaza casi por completo a la construcción con «ser», por resultar más ágil y menos marcada estilísticamente."
         ],
         "examples": [
           {
@@ -2852,7 +2858,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "Se impersonal: invariablemente singular y sin sujeto",
         "body": [
           "El «se» impersonal, a diferencia del pasivo, permanece siempre en tercera persona del singular, sin importar cuántos elementos aparezcan después del verbo, porque no existe sujeto paciente con el que concordar. Esta construcción se emplea sobre todo cuando el complemento del verbo es una persona o un colectivo de personas, marcado obligatoriamente con la preposición «a»: lo correcto es «se busca a los candidatos», con el verbo invariablemente en singular pese al plural de «candidatos».",
-          "La distinción entre «se» pasivo y «se» impersonal resulta, por tanto, sistemática: si el elemento que sigue al verbo es una cosa, sin preposición «a», se trata de un «se» pasivo con concordancia; si es una persona marcada con «a», se trata de un «se» impersonal, invariablemente singular. Confundir ambas estructuras produce errores muy visibles para un oyente nativo, como mezclar la concordancia plural del pasivo con la marca de persona del impersonal."
+          "La distinción entre «se» pasivo y «se» impersonal resulta, por tanto, sistemática: si el elemento que sigue al verbo va sin preposición «a» (una cosa o personas no determinadas: «se necesitan voluntarios»), se trata de un «se» pasivo con concordancia; si es una persona marcada con «a», se trata de un «se» impersonal, invariablemente singular. Confundir ambas estructuras produce errores muy visibles para un oyente nativo, como mezclar la concordancia plural del pasivo con la marca de persona del impersonal."
         ],
         "examples": [
           {
@@ -2860,8 +2866,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "El complemento de persona con «a» activa la lectura impersonal; el verbo permanece singular."
           },
           {
-            "es": "Se necesita a un especialista en la materia.",
-            "en": "Verbo invariablemente singular pese a que podría haber varios especialistas en otro contexto."
+            "es": "Se necesita a los especialistas en la materia.",
+            "en": "El verbo queda en singular pese al plural «los especialistas»: complemento de persona con «a»."
           }
         ]
       },
@@ -3003,6 +3009,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "está",
           "terminado"
         ],
+        "translation": "The report is already finished.",
         "explanation": "«Estar + participio» describe aquí el estado resultante actual del informe, sin interés en el proceso ni en el agente que lo terminó."
       }
     ]
@@ -3440,7 +3447,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "question": "¿Cuál de los siguientes fragmentos ejemplifica el estilo indirecto libre?",
         "options": [
           "Pensó que había sido un error confiar en ellos.",
-          "«He sido un error al confiar en ellos», pensó con amargura.",
+          "«Ha sido un error confiar en ellos», pensó con amargura.",
           "Había sido un error confiar en ellos; ¿de qué le había servido tanta lealtad?",
           "El personaje reflexionó largamente sobre el error que había cometido."
         ],
@@ -3718,6 +3725,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "todo",
           "aquello"
         ],
+        "translation": "How absurd all that had been!",
         "explanation": "La exclamación se integra directamente en la narración, sin verbo introductor ni comillas, como pensamiento filtrado del personaje."
       }
     ]
@@ -4374,7 +4382,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "La decisión todavía está por tomarse.",
-            "en": "Indica que la acción aún no se ha realizado, con matiz de inminencia o pendencia."
+            "en": "Indica que la acción aún no se ha realizado, con matiz de inminencia o de algo pendiente."
           },
           {
             "es": "El tren está para salir en cualquier momento.",
@@ -4434,6 +4442,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "el",
           "cumplimiento"
         ],
+        "translation": "A committee was set up to monitor compliance.",
         "explanation": "«Para supervisar el cumplimiento» expresa el propósito por el cual se creó el comité."
       }
     ]
@@ -4740,7 +4749,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Estar más adjetivo: lecturas evaluativas más allá de listo",
         "body": [
-          "Más allá del contraste clásico entre «ser listo» y «estar listo», existe una familia amplia de adjetivos cuyo significado con «estar» no describe simplemente un estado transitorio, sino que introduce una lectura evaluativa o circunstancial radicalmente distinta de la que aporta «ser». «Estar violento» no significa poseer un carácter agresivo, sino sentirse incómodo o avergonzado en una situación social concreta; «ser violento», en cambio, atribuye una disposición estable hacia la agresividad como rasgo de carácter.",
+          "Más allá del contraste clásico entre «ser listo» y «estar listo», existe una familia amplia de adjetivos cuyo significado con «estar» no describe simplemente un estado transitorio, sino que introduce una lectura evaluativa o circunstancial radicalmente distinta de la que aporta «ser». «Estar violento» no significa poseer un carácter agresivo, sino sentirse incómodo o avergonzado en una situación social concreta o, según el contexto, mostrarse agresivo de forma puntual; «ser violento», en cambio, atribuye una disposición estable hacia la agresividad como rasgo de carácter.",
           "De modo semejante, «estar interesado» describe una atracción o curiosidad puntual hacia algo en un momento dado, mientras que «ser interesado» —con un matiz claramente peyorativo— atribuye a una persona el rasgo estable de actuar movida por el propio beneficio. Estos pares no son variaciones libres de un mismo significado modulado por la permanencia o la transitoriedad, sino verdaderas polisemias léxicas que un hablante avanzado debe memorizar caso por caso, porque no siguen un patrón predecible."
         ],
         "examples": [
@@ -4936,7 +4945,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "sentence": "La solución que buscábamos ___ en el segundo párrafo del informe, no en el primero.",
         "answer": "está",
         "hint": "La entidad ya ha sido identificada mediante la cláusula relativa «que buscábamos».",
-        "explanation": "El artículo definido implícito en «la solución que buscábamos» señala una entidad ya conocida por el interlocutor, por lo que corresponde «estar», función localizadora, y no «hay»."
+        "explanation": "El artículo definido de «la solución que buscábamos» señala una entidad ya conocida por el interlocutor, por lo que corresponde «estar», función localizadora, y no «hay»."
       },
       {
         "type": "multiple-choice",
@@ -5155,6 +5164,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "aula",
           "principal"
         ],
+        "translation": "The exam is in the main classroom.",
         "explanation": "Los eventos, como «examen», se localizan con «ser», no con «estar»."
       }
     ]
@@ -5413,8 +5423,11 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con «es» o «está» según el matiz de deducción lógica u observación inmediata.",
         "sentence": "___ claro que dos más dos son cuatro; no hace falta ninguna prueba adicional.",
         "answer": "Es",
+        "altAnswers": [
+          "Está"
+        ],
         "hint": "Se trata de una verdad lógica y atemporal, no de algo deducido de una observación reciente.",
-        "explanation": "«Ser claro» presenta aquí una verdad lógica y objetiva, compartible por cualquiera con independencia del momento o del contexto, por lo que corresponde «es», no «está»."
+        "explanation": "«Ser claro» presenta aquí una verdad lógica y objetiva, compartible por cualquiera con independencia del momento o del contexto, por lo que encaja «es»; «está claro», la forma más frecuente en el habla, también es correcta."
       },
       {
         "type": "fill-blank",
@@ -5735,7 +5748,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "Verbos preposicionales con en",
         "body": [
           "Otro grupo numeroso de verbos preposicionales fija su régimen en la preposición «en», con significados que van desde la definición hasta la insistencia. «Consistir en» introduce la esencia o el contenido definitorio de algo; «empeñarse en» expresa una determinación obstinada de llevar a cabo una acción; «quedar en» introduce el contenido de un acuerdo o una cita concertada; «insistir en» expresa la repetición terca de una petición; y «fijarse en» describe la acción de prestar atención deliberada a un detalle concreto.",
-          "Un error frecuente entre hablantes no nativos consiste en sustituir «en» por «sobre» o «acerca de» en estos verbos, por analogía con estructuras donde estas últimas preposiciones sí resultan naturales. Sin embargo, cada uno de estos verbos con «en» tiene fijada su preposición de manera inequívoca, y ninguna alternativa —por semánticamente cercana que parezca— resulta aceptable en el registro culto."
+          "Un error frecuente entre hablantes no nativos consiste en sustituir «en» por «sobre» o «acerca de» en estos verbos, por analogía con estructuras donde estas últimas preposiciones sí resultan naturales. Sin embargo, cada uno de estos verbos con «en» tiene fijada su preposición de manera inequívoca, y en general ninguna alternativa resulta aceptable en el registro culto (con excepciones documentadas, como «insistir sobre», que la norma admite junto a «insistir en»)."
         ],
         "examples": [
           {
@@ -5992,7 +6005,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "question": "¿Qué diferencia de matiz existe entre «dio con la respuesta tras horas de cálculo» y «se encontró con su antiguo profesor en el aeropuerto»?",
         "options": [
           "Ninguna; ambos verbos significan exactamente lo mismo en cualquier contexto.",
-          "«Dar con» implica un hallazgo logrado tras una búsqueda activa y deliberada; «encontrarse con» describe un encuentro casual o no buscado.",
+          "«Dar con» implica un hallazgo logrado tras una búsqueda activa y deliberada; «encontrarse con» describe un encuentro, a menudo casual.",
           "«Encontrarse con» solo puede usarse con objetos, nunca con personas.",
           "«Dar con» exige siempre un sujeto plural."
         ],
@@ -6030,7 +6043,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "type": "multiple-choice",
         "question": "¿Qué preposición exige el verbo «enfrentarse» en el sentido de sostener una confrontación directa, según lo estudiado en esta lección?",
         "options": [
-          "a",
+          "por",
           "con",
           "en",
           "de"
@@ -6109,6 +6122,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "que",
           "necesites"
         ],
+        "translation": "You can count on me for whatever you need.",
         "explanation": "«Contar con alguien» expresa confianza en la disponibilidad o el apoyo de esa persona."
       }
     ]
@@ -6812,6 +6826,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "la",
           "subvención"
         ],
+        "translation": "You must submit the report on time or risk losing the grant.",
         "explanation": "«So pena de» introduce, en registro formal y jurídico, la consecuencia negativa si no se cumple la condición establecida."
       }
     ]
@@ -7103,7 +7118,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "El verbo principal."
         ],
         "correctIndex": 1,
-        "explanation": "La estructura escindida focaliza aquí el complemento de lugar, «esa reunión», mediante «ser» seguido del relativo «donde». El sujeto es impersonal («se tomó»), el complemento directo es «la decisión», que no se destaca, y el verbo no puede focalizarse así."
+        "explanation": "La estructura escindida focaliza aquí el complemento de lugar, «esa reunión», mediante «ser» seguido del relativo «donde». «La decisión» es el sujeto paciente de la pasiva refleja («se tomó la decisión») y no se destaca, y el verbo no puede focalizarse así."
       }
     ]
   },
@@ -7247,7 +7262,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "No se trata de que no quiera ayudar, sino que no puede hacerlo ahora.",
+            "es": "No es que no quiera ayudar, sino que no puede hacerlo ahora.",
             "en": "Se rechaza una posibilidad antes de afirmar la correcta, con efecto de corrección enfática."
           },
           {
@@ -7298,6 +7313,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "la",
           "solución"
         ],
+        "translation": "It was she who proposed the solution.",
         "explanation": "La estructura escindida «fue ella quien» focaliza al sujeto «ella», excluyendo implícitamente a cualquier otra persona."
       }
     ]
@@ -7779,6 +7795,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "la",
           "reunión"
         ],
+        "translation": "Maybe he'll come to the meeting tomorrow.",
         "explanation": "«A lo mejor» exige siempre indicativo, sin excepción alguna, a diferencia de «quizás»."
       }
     ]
@@ -8269,6 +8286,7 @@ const C1_BASE_LESSONS: Lesson[] = [
               "en",
               "tú"
             ],
+            "translation": "The negotiation began with usted and ended with tú.",
             "explanation": "La oración describe el tránsito típico de una conversación formal hacia una más cercana: 'La negociación comenzó en usted y terminó en tú'."
           }
         ]
@@ -8287,6 +8305,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "ganar",
           "confianza"
         ],
+        "translation": "Both sides decided to use tú after gaining trust.",
         "explanation": "La oración resultante describe cómo dos personas pasan del usted al tú una vez que se genera confianza mutua: 'Ambas partes decidieron tutearse tras ganar confianza'."
       }
     ]
@@ -9142,6 +9161,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "prestigio",
           "social"
         ],
+        "translation": "River Plate voseo enjoys full social prestige.",
         "explanation": "La oración resultante resume la idea central de la sección: 'El voseo rioplatense goza de pleno prestigio social'."
       }
     ]
@@ -9286,7 +9306,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la conjugación voseante del verbo decir en presente.",
-        "sentence": "Tú dices que no vendrás, pero vos ___ (decir) que sí vendrás. ¿En qué quedamos?",
+        "sentence": "Ayer dijiste que no vendrías y ahora vos ___ (decir) que sí vendrás. ¿En qué quedamos?",
         "answer": "decís",
         "hint": "Piensa en la desinencia aguda terminada en -ís.",
         "explanation": "La forma voseante del presente de «decir» es «decís», con la desinencia aguda característica, frente a la forma tuteante «dices»."
@@ -9701,6 +9721,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "más",
           "neutra"
         ],
+        "translation": "When in doubt, it's best to choose the most neutral variant.",
         "explanation": "La oración resultante resume la estrategia recomendada en el texto: 'Ante la duda, conviene elegir la variante más neutra'."
       }
     ]
@@ -9794,7 +9815,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "En la práctica",
         "body": [
-          "— Che, cuando lleguemos, ¿pedimos un colectivo o vamos caminando?",
+          "— Che, cuando lleguemos, ¿tomamos un colectivo o vamos caminando?",
           "— Perdón, ¿un colectivo? Yo pensé que acá se decía camión...",
           "— Ah, cierto, vos sos de México. Acá le decimos colectivo, aunque también se entiende bus.",
           "— Qué interesante. En mi país, si digo camión, todo el mundo entiende que es el transporte público, no un vehículo de carga.",
@@ -10316,6 +10337,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "expresiva",
           "propia"
         ],
+        "translation": "Colloquial speech has its own expressive richness.",
         "explanation": "La oración resultante resume la idea de que el registro coloquial no es una versión pobre de la lengua sino una variedad con sus propios recursos: 'El habla coloquial posee una riqueza expresiva propia'."
       }
     ]
@@ -10845,6 +10867,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "su",
           "respuesta"
         ],
+        "translation": "I look forward to your reply.",
         "explanation": "La oración resultante es una de las fórmulas de cierre más comunes en la correspondencia formal: 'Quedo a la espera de su respuesta'."
       }
     ]
@@ -10865,7 +10888,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "Le escribo para confirmar que la documentación solicitada ha sido remitida como adjunto al presente correo, junto con la constancia correspondiente.",
           "Asimismo, quisiera solicitarle amablemente que, de ser posible, se sirva confirmar la recepción de dichos documentos a la mayor brevedad, dado que el plazo indicado vence a final de mes.",
           "Le agradezco de antemano su atención y quedo a la espera de su respuesta.",
-          "Sin otro particular, aprovecho la ocasión para saludarla atentamente.",
+          "Sin otro particular, aprovecho la ocasión para saludarla.",
           "Atentamente,",
           "Marcos Fuentes"
         ]
@@ -11194,7 +11217,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "prompt": "Reescribe la idea evitando la primera persona, según la convención académica estudiada.",
             "sentence": "En vez de decir 'creo que los resultados son concluyentes', el registro académico prefiere decir que los resultados ___ concluyentes.",
             "answer": "resultan",
-            "explanation": "El registro académico prefiere formulaciones impersonales como los resultados resultan concluyentes, que desplazan el énfasis del autor hacia la evidencia misma.",
+            "altAnswers": ["parecen", "son"],
+            "explanation": "El registro académico prefiere formulaciones impersonales como los resultados resultan (o parecen) concluyentes, que desplazan el énfasis del autor hacia la evidencia misma.",
             "hint": "Piensa en un verbo que describa la evidencia sin mencionar al autor."
           }
         ]
@@ -11206,6 +11230,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración evitando la primera persona, según la convención académica.",
         "sentence": "En vez de decir 'pienso que la evidencia es suficiente', el registro académico prefiere decir que la evidencia ___ suficiente.",
         "answer": "resulta",
+        "altAnswers": ["parece", "es"],
         "explanation": "El registro académico evita la primera persona y prefiere formulaciones impersonales como la evidencia resulta suficiente."
       }
     ]
@@ -11577,6 +11602,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "metodología",
           "empleada"
         ],
+        "translation": "Consequently, the methodology used should be reviewed.",
         "explanation": "La oración resultante emplea el conector por consiguiente para introducir una conclusión derivada del razonamiento anterior: 'Por consiguiente, conviene revisar la metodología empleada'."
       }
     ]
@@ -11620,8 +11646,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "right": "un argumento adicional sin contradicción"
           },
           {
-            "left": "no obstante",
-            "right": "una objeción o un matiz"
+            "left": "es decir",
+            "right": "una reformulación o aclaración de lo dicho"
           }
         ],
         "explanation": "Cada conector cumple una función lógica específica dentro del andamiaje argumentativo de un ensayo."
@@ -11922,7 +11948,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Por muy + adjetivo/adverbio + que + subjuntivo",
         "body": [
-          "Esta estructura concesiva exige siempre subjuntivo, sin importar cuán seguro esté el hablante del hecho."
+          "Esta estructura concesiva suele ir en subjuntivo, aunque el hablante sepa que el hecho es cierto; con hechos pasados o habituales también admite indicativo («por mucho que lo intentaba, no lo conseguía»)."
         ],
         "examples": [
           {
@@ -12080,9 +12106,9 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "El hecho de que + subjuntivo (siempre)",
+        "heading": "El hecho de que + subjuntivo (casi siempre)",
         "body": [
-          "A diferencia de 'el hecho de' seguido de infinitivo, 'el hecho de que' exige subjuntivo incluso cuando el hecho es real y comprobado."
+          "A diferencia de 'el hecho de' seguido de infinitivo, 'el hecho de que' lleva normalmente subjuntivo incluso cuando el hecho es real y comprobado (el indicativo es posible, pero mucho menos frecuente)."
         ],
         "examples": [
           {
@@ -12165,7 +12191,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "¿Cuáles de las siguientes expresiones SIEMPRE requieren subjuntivo en la cláusula que introducen?",
+        "question": "¿Cuáles de las siguientes expresiones van normalmente en subjuntivo, sin depender del grado de certeza?",
         "options": [
           "El hecho de que",
           "Porque (razón afirmada)",
@@ -12178,7 +12204,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           2,
           4
         ],
-        "explanation": "'El hecho de que', 'por muy...que' y 'sea como sea' siempre exigen subjuntivo. 'Porque' con razón afirmada lleva indicativo, y 'quizás' admite ambos modos según el grado de certeza."
+        "explanation": "'El hecho de que', 'por muy...que' y 'sea como sea' van normalmente en subjuntivo. 'Porque' con razón afirmada lleva indicativo, y 'quizás' admite ambos modos según el grado de certeza."
       },
       {
         "type": "fill-blank",
@@ -12224,7 +12250,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Expresiones fijas con subjuntivo residual",
         "body": [
-          "Estas fórmulas concesivas conservan el subjuntivo de manera fija y no cambian aunque cambie el sujeto o el tiempo."
+          "Estas fórmulas concesivas conservan siempre el subjuntivo; en contextos pasados pasan al imperfecto de subjuntivo («fuera como fuera», «pasara lo que pasara»)."
         ],
         "examples": [
           {
@@ -13093,7 +13119,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "Sigue lloviendo desde esta mañana.",
-            "en": "It's still raining since this morning."
+            "en": "It's been raining since this morning."
           },
           {
             "es": "Continuó trabajando después de la medianoche.",
@@ -14025,7 +14051,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Reescribe el pronombre posesivo para adaptarlo al estilo indirecto libre.",
-        "sentence": "Tomás salió del despacho. \"Mi\" carrera pensamiento original → ___ carrera estaba arruinada.",
+        "sentence": "Tomás salió del despacho. (Pensamiento original: «Mi carrera está arruinada») → ___ carrera estaba arruinada.",
         "answer": "Su",
         "hint": "Primera persona → tercera persona",
         "explanation": "El posesivo de primera persona (\"mi\") pasa a tercera persona (\"su\") cuando el pensamiento del personaje se integra en la narración."
@@ -14123,7 +14149,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "source": "Marcos sat down at the table. He would never eat there again.",
         "answer": "Marcos se sentó a la mesa. Nunca más comería allí.",
         "altAnswers": [
-          "Marcos se sentó en la mesa. Jamás volvería a comer allí."
+          "Marcos se sentó a la mesa. Jamás volvería a comer allí."
         ],
         "explanation": "\"Would never eat\" se traduce con condicional (\"comería\"), y la oración se integra en la narración sin comillas ni \"pensó que\", tal como exige el estilo indirecto libre."
       },
@@ -14610,8 +14636,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "There are grounds for appeal before the higher court."
           },
           {
-            "es": "Los asistentes tienen a bien confirmar su presencia antes del viernes.",
-            "en": "Attendees are kindly requested to confirm their presence before Friday."
+            "es": "Se ruega a los asistentes que tengan a bien confirmar su asistencia antes del viernes.",
+            "en": "Attendees are kindly requested to confirm their attendance before Friday."
           }
         ],
         "checkpoint": [
@@ -14619,12 +14645,12 @@ const C1_BASE_LESSONS: Lesson[] = [
             "type": "translate",
             "direction": "es-en",
             "prompt": "Traduce la oración al inglés.",
-            "source": "Los interesados tienen a bien enviar su currículum antes del día quince.",
+            "source": "Se ruega a los interesados que tengan a bien enviar su currículum antes del día quince.",
             "answer": "Interested parties are kindly requested to send their résumé before the fifteenth.",
             "altAnswers": [
               "Interested parties should kindly send their résumé before the fifteenth."
             ],
-            "explanation": "'Tener a bien' es una fórmula fija de cortesía formal equivalente a 'be so kind as to' o 'kindly', muy distinta del uso habitual de 'tener'."
+            "explanation": "'Tener a bien' + infinitivo es una fórmula fija de cortesía formal que significa 'tener la amabilidad de' ('be so kind as to'); la petición la expresa 'se ruega a… que', y el conjunto equivale a 'are kindly requested to'."
           }
         ]
       }
@@ -14701,7 +14727,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "sentence": "Los socios ___ a bien remitir la documentación antes del plazo indicado.",
         "answer": "tienen",
         "hint": "Es una fórmula fija de cortesía en textos formales.",
-        "explanation": "'Tener a bien' es una expresión idiomática formal equivalente a pedir cortésmente que alguien haga algo."
+        "explanation": "'Tener a bien' + infinitivo es una expresión formal que significa 'tener la amabilidad de, dignarse'; suele aparecer en peticiones corteses («le ruego que tenga a bien…»)."
       }
     ]
   },
@@ -15360,10 +15386,10 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "type": "fill-blank",
             "prompt": "Completa la oración con la preposición correcta.",
-            "sentence": "Este curso se trata ___ aprender gramática avanzada.",
+            "sentence": "En este curso se trata ___ aprender gramática avanzada.",
             "answer": "de",
             "hint": "tratarse + preposición",
-            "explanation": "'Tratarse' se construye siempre con DE: 'tratarse de algo'."
+            "explanation": "'Tratarse' se construye siempre con DE: 'tratarse de algo'. Es impersonal y no admite sujeto: 'en este curso se trata de…', no '*este curso se trata de…' (con sujeto se dice 'este curso trata de…')."
           }
         ]
       },

@@ -176,7 +176,7 @@ export const A2_GUIDES: GrammarGuide[] = [
       },
       {
         q: "Why is \"vi\" written without an accent?",
-        a: "One-syllable forms never take an accent: vi, vio, di, dio, fui, fue.",
+        a: "One-syllable forms like these never take an accent: vi, vio, di, dio, fui, fue (only pairs that need telling apart, like dé and sé, do).",
       },
     ],
     related: ["irregular-preterite-verbs", "preterite-vs-imperfect", "spanish-imperfect-tense"],
@@ -196,7 +196,7 @@ export const A2_GUIDES: GrammarGuide[] = [
       {
         heading: "The strong stems",
         body: [
-          "These verbs take a new stem and the endings -e, -iste, -o, -imos, -isteis, -ieron. Stems ending in j drop the i in the plural: dijeron, trajeron, condujeron.",
+          "These verbs take a new stem and the endings -e, -iste, -o, -imos, -isteis, -ieron. Stems ending in j drop the i in the third-person plural: dijeron, trajeron, condujeron.",
         ],
         table: {
           headers: ["Verb", "Stem", "yo", "él / ella", "ellos"],
@@ -590,7 +590,7 @@ export const A2_GUIDES: GrammarGuide[] = [
       {
         heading: "Two adverbs in a row",
         body: [
-          "When two -mente adverbs are joined with y, o or pero, only the last one keeps -mente. The first stays in its feminine form.",
+          "When two -mente adverbs are joined with y, o or pero, normally only the last one keeps -mente. The first stays in its feminine form.",
         ],
         examples: [
           { es: "Habló clara y lentamente.", en: "He spoke clearly and slowly." },
@@ -620,7 +620,7 @@ export const A2_GUIDES: GrammarGuide[] = [
       {
         wrong: "Habló claramente y lentamente.",
         right: "Habló clara y lentamente.",
-        why: "With two linked adverbs, only the last one takes -mente.",
+        why: "With two linked adverbs, normally only the last one takes -mente (repeating it is correct but heavy).",
       },
       {
         wrong: "Juega bueno al tenis.",

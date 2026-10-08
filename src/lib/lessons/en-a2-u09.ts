@@ -836,7 +836,7 @@ export const EN_A2_U09: Lesson[] = [
           {
             type: "multiple-choice",
             question: "En un restaurante, el camarero te pregunta qué quieres. ¿Qué dices?",
-            options: ["I'll have the chicken, please.", "I have the chicken, please.", "I'm having the chicken, please.", "I will to have the chicken, please."],
+            options: ["I'll have the chicken, please.", "I have the chicken, please.", "I having the chicken, please.", "I will to have the chicken, please."],
             correctIndex: 0,
             explanation: "Pedir en un restaurante es una decisión del momento: \"I'll have...\". También es muy común \"Can I have...?\".",
           },
@@ -1605,7 +1605,7 @@ export const EN_A2_U09: Lesson[] = [
           {
             type: "multiple-choice",
             question: "\"What time ___?\" \"At seven.\"",
-            options: ["does the bus leave", "is the bus going to leave", "will the bus to leave", "the bus leaves"],
+            options: ["does the bus leave", "is the bus leave", "will the bus to leave", "the bus leaves"],
             correctIndex: 0,
             explanation: "Horario: presente simple. La pregunta lleva \"does\" + sujeto + forma base.",
           },
@@ -1736,7 +1736,7 @@ export const EN_A2_U09: Lesson[] = [
         body: [
           "Los propósitos de Año Nuevo (\"New Year's resolutions\") son intenciones, así que van con \"going to\": \"I'm going to exercise more\", \"I'm not going to eat so much sugar\".",
           "Cuando el propósito es una promesa a otra persona, se oye también \"will\": \"I'll call you more often, Mom, I promise.\"",
-          "Ojo con «hacer ejercicio»: se dice \"exercise\" o \"work out\", no *do exercise (aunque \"get more exercise\" también es muy común).",
+          "Ojo con «hacer ejercicio»: lo más natural es \"exercise\" o \"work out\" (\"do exercise\" también vale, y \"get more exercise\" es muy común).",
         ],
         examples: [
           { es: "I'm going to exercise more.", en: "Voy a hacer más ejercicio." },

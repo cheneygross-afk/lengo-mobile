@@ -1944,7 +1944,7 @@ export const EN_A2_U16: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "The weather is ___ nice today.",
         answer: "pretty",
-        altAnswers: ["quite", "really", "very"],
+        altAnswers: ["quite"],
         en: "Hoy hace [bastante] buen tiempo.",
         explanation: "Con un adjetivo positivo, «bastante» es \"pretty\" o \"quite\", no \"a bit\".",
       },

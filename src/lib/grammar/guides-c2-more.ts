@@ -343,7 +343,7 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
       {
         heading: "People in general: uno, tú, la gente",
         body: [
-          "When the subject is everyone including the speaker, conversation uses generic tú (Cuando tienes hijos, no duermes), uno (Uno nunca sabe) or la gente. Uno is the only option when the verb is already reflexive: Uno se acostumbra, not Se se acostumbra.",
+          "When the subject is everyone including the speaker, conversation uses generic tú (Cuando tienes hijos, no duermes), uno (Uno nunca sabe) or la gente. Impersonal se is impossible when the verb is already reflexive; use uno (or generic tú, la gente): Uno se acostumbra, not Se se acostumbra.",
         ],
         examples: [
           { es: "Uno se cansa de esperar.", en: "You get tired of waiting." },
@@ -536,7 +536,7 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
       {
         heading: "Typical queísmo",
         body: [
-          "It appears after pronominal verbs and expressions that do need de: acordarse de, olvidarse de, darse cuenta de, estar seguro de, tener la impresión de, el hecho de, a pesar de, antes de, después de, con tal de. Also en (insistir en que, confiar en que) and a (aspirar a que).",
+          "It appears after pronominal verbs and expressions that do need de: acordarse de, olvidarse de, darse cuenta de, estar seguro de, tener la impresión de, el hecho de, a pesar de. Also en (insistir en que, confiar en que) and a (aspirar a que).",
         ],
         examples: [
           { es: "✗ Me di cuenta que era tarde. ✓ Me di cuenta de que era tarde.", en: "I realized it was late." },

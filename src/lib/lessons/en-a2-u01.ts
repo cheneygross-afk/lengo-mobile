@@ -757,7 +757,7 @@ export const EN_A2_U01: Lesson[] = [
         question: "¿Qué has oído?",
         options: ["Necesitábamos ayuda.", "Necesitamos ayuda.", "No necesitamos ayuda.", "Necesitan ayuda."],
         correctIndex: 0,
-        explanation: "\"Needed\" tiene dos sílabas: /ˈnidɪd/. Esa sílaba final te dice que es pasado.",
+        explanation: "\"Needed\" tiene dos sílabas: /ˈniːdɪd/. Esa sílaba final te dice que es pasado.",
       },
       {
         type: "listen-choose",
@@ -807,7 +807,7 @@ export const EN_A2_U01: Lesson[] = [
         sentence: "They ___ the house.",
         answer: "cleaned",
         en: "[Limpiaron] la casa.",
-        explanation: "\"Cleaned\" se pronuncia /klind/, una sílaba con /d/ final.",
+        explanation: "\"Cleaned\" se pronuncia /kliːnd/, una sílaba con /d/ final.",
       },
     ],
   },
@@ -1428,7 +1428,7 @@ export const EN_A2_U01: Lesson[] = [
         heading: "Errores con \"did\"",
         body: [
           "El error número uno es marcar el pasado dos veces: *I didn't worked, *Did she called?. Recuerda: \"did\" ya es pasado, así que el verbo va en forma base.",
-          "El segundo es olvidar \"did\": \"Where you worked?\" o \"I no worked\". En preguntas y negativas con verbos normales, \"did\" es obligatorio.",
+          "El segundo es olvidar \"did\": *Where you worked? o *I no worked. En preguntas y negativas con verbos normales, \"did\" es obligatorio.",
         ],
         examples: [
           { es: "I didn't work.", en: "No trabajé. (incorrecto: *I didn't worked.)" },

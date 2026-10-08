@@ -377,7 +377,7 @@ export const EN_B1_U08_EXTRA: Lesson[] = [
         sentence: "If it ___ so expensive, I would buy it.",
         answer: "weren't",
         altAnswers: ["wasn't", "were not", "was not"],
-        en: "Si no [fuera] tan caro, lo compraría.",
+        en: "Si [no fuera] tan caro, lo compraría.",
         explanation: "Negative of \"were\": \"weren't\". *If it wouldn't be so expensive is the classic mistake.",
       },
       {
@@ -389,7 +389,7 @@ export const EN_B1_U08_EXTRA: Lesson[] = [
           { left: "You should talk to her", right: "deberías hablar con ella" },
           { left: "What would you do?", right: "¿tú qué harías?" },
         ],
-        explanation: "\"If I were you\" and \"I wouldn't...\" are the softest ways to advise; \"you should\" is a little more direct.",
+        explanation: "\"If I were you\" and \"I wouldn't...\" are friendly ways to advise; \"you should\" is a little more direct.",
       },
       {
         type: "multiple-choice",
@@ -745,7 +745,7 @@ export const EN_B1_U08_EXTRA: Lesson[] = [
           { es: "If there were more buses, I wouldn't drive.", en: "Si hubiera más autobuses, no conduciría." },
           { es: "If you were here, everything would be easier.", en: "Si estuvieras aquí, todo sería más fácil." },
           { es: "If we knew his address, we would write to him.", en: "Si supiéramos su dirección, le escribiríamos." },
-          { es: "If it were less cold, we would eat outside.", en: "Si hiciera menos frío, comeríamos fuera." },
+          { es: "If it weren't so cold, we would eat outside.", en: "Si no hiciera tanto frío, comeríamos fuera." },
         ],
         checkpoint: [
           {
@@ -775,7 +775,7 @@ export const EN_B1_U08_EXTRA: Lesson[] = [
         heading: "Quick recap: the literal-would trap, and a preview of wish",
         body: [
           "The trap is translating word by word. «Si tuviera dinero, viajaría» feels like two conditionals, but English has only one \"would\": \"If I had money, I would travel.\" Never *If I would have money.",
-          "The same past form appears after \"wish\": «ojalá supiera» is \"I wish I knew\", «ojalá tuviera» is \"I wish I had\", «ojalá pudiera» is \"I wish I could\". You will practise this fully in the next unit; for now, notice that it is the same \"knew\" as in \"if I knew\".",
+          "The same past form appears after \"wish\": «ojalá supiera» is \"I wish I knew\", «ojalá tuviera» is \"I wish I had\", «ojalá pudiera» is \"I wish I could\". You will practice this fully in the next unit; for now, notice that it is the same \"knew\" as in \"if I knew\".",
         ],
         examples: [
           { es: "If I had money, I would travel.", en: "Si tuviera dinero, viajaría." },
@@ -815,7 +815,7 @@ export const EN_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into English.",
         source: "Si hubiera más autobuses, no usaría el coche.",
         answer: "If there were more buses, I wouldn't use the car.",
-        altAnswers: ["If there were more buses, I wouldn't use my car.", "If there was more buses, I wouldn't use the car.", "I wouldn't use the car if there were more buses.", "If there were more buses, I wouldn't drive."],
+        altAnswers: ["If there were more buses, I wouldn't use my car.", "I wouldn't use the car if there were more buses.", "If there were more buses, I wouldn't drive."],
         explanation: "«Si hubiera» meaning «si existiera» is \"if there were\". It is not *if I had.",
       },
       {

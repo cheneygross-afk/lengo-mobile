@@ -315,7 +315,7 @@ export const EN_B1_U22_EXTRA: Lesson[] = [
         prompt: "Translate into English.",
         source: "De pequeño no me dejaban comer dulces.",
         answer: "As a child, I wasn't allowed to eat sweets.",
-        altAnswers: ["When I was little, I wasn't allowed to eat sweets.", "When I was a kid, I wasn't allowed to eat sweets.", "As a kid, I wasn't allowed to eat sweets.", "As a child, I wasn't allowed to eat candy.", "When I was little, I wasn't allowed to eat candy.", "When I was a kid, I wasn't allowed to eat candy.", "As a kid, I wasn't allowed to eat candy.", "When I was a child, I wasn't allowed to eat sweets.", "When I was a child, I wasn't allowed to eat candy.", "As a child, they didn't let me eat sweets.", "When I was little, they didn't let me eat candy.", "When I was little, they didn't let me eat sweets."],
+        altAnswers: ["When I was little, I wasn't allowed to eat sweets.", "When I was a kid, I wasn't allowed to eat sweets.", "As a kid, I wasn't allowed to eat sweets.", "As a child, I wasn't allowed to eat candy.", "When I was little, I wasn't allowed to eat candy.", "When I was a kid, I wasn't allowed to eat candy.", "As a kid, I wasn't allowed to eat candy.", "When I was a child, I wasn't allowed to eat sweets.", "When I was a child, I wasn't allowed to eat candy.", "When I was little, they didn't let me eat candy.", "When I was little, they didn't let me eat sweets."],
         explanation: "«No me dejaban» with no clear subject = \"I wasn't allowed to\". \"Let\" has no passive.",
       },
       {

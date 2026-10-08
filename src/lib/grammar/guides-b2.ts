@@ -12,7 +12,7 @@ export const B2_GUIDES: GrammarGuide[] = [
     readingLevelPath: "b2",
     intro: [
       "An adjective clause describes a noun: \"a flat that has a terrace.\" In Spanish, the verb in that clause is indicative if the noun is something known to exist, and subjunctive if it's hypothetical, unknown or doesn't exist.",
-      "The same sentence can go either way depending on what you know: Busco al chico que habla ruso (a specific boy I know) vs. Busco a un chico que hable ruso (any boy who does, if there is one).",
+      "The same sentence can go either way depending on what you know: Busco al chico que habla ruso (a specific boy I know) vs. Busco un chico que hable ruso (any boy who does, if there is one).",
     ],
     sections: [
       {
@@ -76,7 +76,7 @@ export const B2_GUIDES: GrammarGuide[] = [
         why: "A denied antecedent always takes the subjunctive.",
       },
       {
-        wrong: "Busco a un médico que... / Busco un médico que...",
+        wrong: "Busco la médica que me atendió. / Busco a un médico que atienda los domingos.",
         right: "Busco a la médica que me atendió. / Busco un médico que atienda los domingos.",
         why: "Drop the personal a for an unspecified person; keep it for a specific one.",
       },
@@ -435,7 +435,7 @@ export const B2_GUIDES: GrammarGuide[] = [
       {
         heading: "Regrets and reproaches",
         body: [
-          "Ojalá + pluperfect subjunctive expresses a regret. The conditional perfect of deber or poder makes a reproach.",
+          "Ojalá + pluperfect subjunctive expresses a regret. The conditional of deber or poder + haber + participle makes a reproach.",
         ],
         examples: [
           { es: "Ojalá hubiera aceptado ese trabajo.", en: "I wish I had taken that job." },
@@ -598,7 +598,7 @@ export const B2_GUIDES: GrammarGuide[] = [
           "Ponerse + adjective for temporary changes, often sudden: emotions, color, health.",
         ],
         examples: [
-          { es: "Se puso rojo cuando lo vio.", en: "He went red when he saw her." },
+          { es: "Se puso rojo cuando lo vio.", en: "He went red when he saw him." },
           { es: "Me pongo nerviosa en los exámenes.", en: "I get nervous in exams." },
           { es: "Se puso enfermo en el viaje.", en: "He got sick on the trip." },
         ],

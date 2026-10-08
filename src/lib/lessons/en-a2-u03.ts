@@ -1511,7 +1511,7 @@ export const EN_A2_U03: Lesson[] = [
       {
         heading: "Error 1: olvidar \"was\" o \"were\"",
         body: [
-          "El pasado continuo necesita las dos piezas: \"was/were\" y el verbo con \"-ing\". \"I working\", \"They watching TV\" o \"I was work\" están incompletos.",
+          "El pasado continuo necesita las dos piezas: \"was/were\" y el verbo con \"-ing\". *I working, *They watching TV o *I was work están incompletos.",
           "Revisa también la concordancia: \"was\" con \"I\", \"he\", \"she\" e \"it\"; \"were\" con \"you\", \"we\" y \"they\". *They was y *You was son errores.",
         ],
         examples: [

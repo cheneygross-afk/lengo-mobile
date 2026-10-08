@@ -219,7 +219,6 @@ export const EN_B1_U04_EXTRA: Lesson[] = [
           "My parents didn't use to go out in the evening.",
           "My parents didn't use to go out in the evenings.",
           "My parents never used to go out in the evening.",
-          "My parents didn't use to go out at nights.",
         ],
         explanation: "Negative: \"didn't use to\" (no -d) + base verb. \"Never used to\" is a common, more informal alternative.",
       },
@@ -686,8 +685,8 @@ export const EN_B1_U04_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Nunca me acostumbré a la comida picante.",
-        answer: "I never got used to the spicy food.",
-        altAnswers: ["I never got used to spicy food.", "I never got used to hot food.", "I never got used to the hot food."],
+        answer: "I never got used to spicy food.",
+        altAnswers: ["I never got used to the spicy food.", "I never got used to hot food.", "I never got used to the hot food."],
         explanation: "Past negative with \"never\": \"never got used to\" + noun. «Picante» is \"spicy\" (or \"hot\").",
       },
       {

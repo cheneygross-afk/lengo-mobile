@@ -28,7 +28,7 @@ export const B2_SKILLS: Record<string, Exercise[]> = {
     spk("Ojalá hubiera aprendido a tocar el piano de niño.", "Une «hubiera aprendido»: «u-bie-raa-pren-DI-do».", "Ojalá + pluscuamperfecto de subjuntivo: un deseo sobre el pasado que ya no puede cumplirse."),
   ],
   "b2d-habla-de-ti-conversacion": [
-    spk("Me contó que había cambiado de trabajo y que estaba muy contento.", "Ritmo de narración: pequeña pausa antes del segundo «que».", "Estilo indirecto: ha cambiado → había cambiado; está → estaba."),
+    spk("Me contó que había cambiado de trabajo y que estaba muy contenta.", "Ritmo de narración: pequeña pausa antes del segundo «que».", "Estilo indirecto: ha cambiado → había cambiado; está → estaba."),
     spk("Me preguntó si quería ir con ella al concierto.", "La pregunta indirecta no sube al final: es una afirmación.", "Pregunta indirecta con si: ¿Quieres venir? → me preguntó si quería ir."),
   ],
   "b2d-habla-de-ti-caracter-estado": [

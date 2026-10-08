@@ -32,7 +32,7 @@ export const EN_B2_U01: Lesson[] = [
             question: "\"When I got to the party, Ana ___ , so I didn't see her.\" Which fits best?",
             options: ["had already left", "already left", "was already leaving", "has already left"],
             correctIndex: 0,
-            explanation: "Ana left before I arrived, so English needs the flashback tense: \"had already left\". The past simple would make the two events happen in sequence at the same moment.",
+            explanation: "Ana left before I arrived, so English needs the flashback tense: \"had already left\". With \"when\", the past simple (\"Ana left\") suggests she left after I arrived, which contradicts \"so I didn't see her\".",
           },
           {
             type: "fill-blank",
@@ -823,7 +823,7 @@ export const EN_B2_U01: Lesson[] = [
         body: [
           "*I was knowing him for years and *We had been knowing each other are two of the most common errors at B2. \"Know\" is a state verb, so it has no continuous form in any tense: \"I had known him for years\".",
           "Other state verbs that work the same way: \"believe\", \"understand\", \"own\", \"belong\", \"need\", \"prefer\", \"mean\", \"remember\", \"seem\" and \"have\" meaning possess. They describe how things are, not something happening.",
-          "Spanish allows «estaba sabiendo» or «llevaba años conociéndolo», but English uses the simple form: \"I didn't know\", \"I had known him for years\".",
+          "Spanish says «no lo sabía» (imperfect) or «llevaba años conociéndolo», but English uses the simple form: \"I didn't know\", \"I had known him for years\".",
         ],
         examples: [
           { es: "I had known him for years.", en: "Lo conocía desde hacía años. (incorrecto: *I was knowing him)" },
@@ -1088,7 +1088,7 @@ export const EN_B2_U01: Lesson[] = [
       {
         heading: "Just and already in the right place",
         body: [
-          "\"Just\" and \"already\" go between \"had\" and the participle: \"She had just left\", \"We had already eaten\". Not *She just had left or \"We had eaten already\" (that last one is possible in speech, but the middle position is the standard).",
+          "\"Just\" and \"already\" go between \"had\" and the participle: \"She had just left\", \"We had already eaten\". Not *She just had left. \"Already\" can also go at the end (\"We had eaten already\"), but the middle position is the most common.",
           "«Acababa de» + infinitive is the past of «acabo de» and translates as \"had just\" + participle: «acababa de salir» = \"I had just gone out\". Don't translate it with \"finish\": \"I had finished to go out\" makes no sense.",
           "In questions and negatives, use \"yet\" at the end: \"Had they arrived yet?\", \"They hadn't arrived yet\".",
         ],
@@ -1563,7 +1563,6 @@ export const EN_B2_U01: Lesson[] = [
               "It turned out he had gone to the wrong address.",
               "It turned out that she had gone to the wrong address.",
               "It turned out she had gone to the wrong address.",
-              "It turned out that I had gone to the wrong address.",
               "It turned out that he had got the wrong address.",
               "It turned out that he had gotten the wrong address.",
               "It turned out he had gotten the wrong address.",
@@ -1971,7 +1970,7 @@ export const EN_B2_U01: Lesson[] = [
           "Questions with \"when\" ask for a finished moment, so they always take the past simple: \"When did you arrive?\", not *When have you arrived?",
         ],
         examples: [
-          { es: "I saw him yesterday.", en: "Lo vi ayer. / Lo he visto ayer." },
+          { es: "I saw him yesterday.", en: "Lo vi ayer." },
           { es: "I've seen that film three times.", en: "He visto esa película tres veces." },
           { es: "She's lived here since May.", en: "Vive aquí desde mayo." },
           { es: "When did you arrive?", en: "¿Cuándo llegaste?" },
@@ -2386,7 +2385,7 @@ export const EN_B2_U01: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Todas las tardes íbamos al río y nadábamos hasta la noche.",
-        answer: "Every afternoon we would go to the river and swim until night.",
+        answer: "Every afternoon we would go to the river and swim until dark.",
         altAnswers: [
           "Every afternoon we used to go to the river and swim until night.",
           "Every afternoon we went to the river and swam until night.",

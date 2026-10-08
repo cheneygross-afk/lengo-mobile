@@ -92,7 +92,7 @@ export const EN_A2_U06: Lesson[] = [
         body: [
           "En inglés americano es muy común usar el pasado simple con \"just\" y \"already\": \"I just ate\", \"She already left\". Es igual de correcto y lo vas a oír constantemente en series y películas.",
           "En inglés británico se prefiere el presente perfecto: \"I've just eaten\", \"She's already left\". El presente perfecto es correcto en todas partes, así que es una opción segura.",
-          "Lo que nunca es correcto es mezclar el orden: \"I just have eaten\" o \"I have eaten just\". Con el pasado simple, \"just\" y \"already\" van delante del verbo: \"I just ate\".",
+          "Lo que nunca es correcto es mezclar el orden: *I just have eaten o *I have eaten just. Con el pasado simple, \"just\" y \"already\" van delante del verbo: \"I just ate\".",
         ],
         examples: [
           { es: "I just ate.", en: "Acabo de comer. (muy americano)" },

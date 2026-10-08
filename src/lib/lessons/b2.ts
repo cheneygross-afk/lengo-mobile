@@ -46,7 +46,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "es": "No hay nadie que pueda resolver este problema."
           },
           {
-            "es": "No conozco a ningún restaurante que sirva esa comida aquí."
+            "es": "No conozco ningún restaurante que sirva esa comida aquí."
           }
         ],
         "checkpoint": [
@@ -476,6 +476,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "merece",
           "respeto"
         ],
+        "translation": "Whoever the winner is deserves respect.",
         "explanation": "\"Quienquiera que\" habla de una persona aún desconocida (posibilidad abierta), así que aquí lleva subjuntivo."
       },
       {
@@ -644,7 +645,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "es": "Deberíamos revisar el texto antes de que se vote mañana."
           },
           {
-            "es": "De acuerdo, para que todos entiendan bien los cambios primero."
+            "es": "De acuerdo, revisémoslo para que todos entiendan bien los cambios."
           }
         ],
         "checkpoint": [
@@ -851,8 +852,8 @@ const B2_BASE_LESSONS: Lesson[] = [
             "en": "equidad en la distribución de recursos y derechos"
           },
           {
-            "es": "el derecho civil",
-            "en": "libertad garantizada al ciudadano"
+            "es": "los derechos civiles",
+            "en": "libertades garantizadas al ciudadano"
           },
           {
             "es": "la sociedad civil",
@@ -987,6 +988,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "entiendas",
           "mejor"
         ],
+        "translation": "I'm explaining it to you so that you understand better.",
         "explanation": "\"Para que\" con sujetos distintos requiere subjuntivo."
       },
       {
@@ -1088,9 +1090,9 @@ const B2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Con expresiones impersonales y ojalá en pasado",
+        "heading": "Con expresiones impersonales en pasado y con ojalá",
         "body": [
-          "Las expresiones impersonales y ojalá también siguen la secuencia: en pasado, requieren imperfecto de subjuntivo."
+          "Las expresiones impersonales también siguen la secuencia: en pasado, requieren imperfecto de subjuntivo. Ojalá no tiene tiempo propio: con imperfecto de subjuntivo expresa un deseo poco probable o imposible."
         ],
         "examples": [
           {
@@ -1128,7 +1130,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "es": "De niño, siempre quería que mis padres me llevaran al circo."
           },
           {
-            "es": "Soñaba con que algún día pudiera viajar por todo el mundo."
+            "es": "Soñaba con poder viajar algún día por todo el mundo."
           },
           {
             "es": "Mis maestros dudaban que yo llegara a cumplir esas metas."
@@ -1475,6 +1477,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "para",
           "descansar"
         ],
+        "translation": "I wish there were more time to rest.",
         "explanation": "Ojalá con imperfecto de subjuntivo expresa un deseo sobre algo poco probable."
       },
       {
@@ -1962,6 +1965,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "muchas",
           "cosas"
         ],
+        "translation": "If I were president, I would change many things.",
         "explanation": "Si + imperfecto de subjuntivo, + condicional."
       },
       {
@@ -2275,7 +2279,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "dar por sentado",
-            "en": "no apreciar algo por considerarlo garantizado"
+            "en": "considerar algo cierto o seguro sin cuestionarlo"
           },
           {
             "es": "el segundo intento",
@@ -2397,7 +2401,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "dar por sentado",
-                "right": "no apreciar algo por considerarlo garantizado"
+                "right": "considerar algo cierto o seguro sin cuestionarlo"
               },
               {
                 "left": "el remordimiento",
@@ -2450,6 +2454,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "llegado",
           "tarde"
         ],
+        "translation": "If we had left earlier, we wouldn't have arrived late.",
         "explanation": "Si + pluscuamperfecto de subjuntivo, + condicional perfecto."
       },
       {
@@ -3189,6 +3194,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "esa",
           "noche"
         ],
+        "translation": "She asked me to call her that night.",
         "explanation": "Los mandatos reportados usan \"que\" + subjuntivo."
       },
       {
@@ -3359,7 +3365,10 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Elige el verbo correcto.",
         "sentence": "Este café ___ (ser/estar) delicioso.",
         "answer": "está",
-        "explanation": "\"Estar rico/delicioso\" describe una cualidad percibida en el momento: estar."
+        "altAnswers": [
+          "es"
+        ],
+        "explanation": "\"Estar rico/delicioso\" describe una cualidad percibida en el momento: estar. \"Es delicioso\" también es correcto si hablas de una cualidad propia de este café."
       },
       {
         "type": "multiple-choice",
@@ -3414,7 +3423,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "extrovertido",
-            "en": "que se energiza mediante la interacción social"
+            "en": "que disfruta de la interacción social y se siente estimulado con ella"
           },
           {
             "es": "empático",
@@ -3676,6 +3685,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "entiende",
           "esto"
         ],
+        "translation": "There are a lot of people who don't understand this.",
         "explanation": "Haber impersonal introduce algo sin artículo definido."
       },
       {
@@ -4164,6 +4174,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "más",
           "sabio"
         ],
+        "translation": "Over the years, he became wiser.",
         "explanation": "Volverse describe un cambio gradual y a menudo involuntario."
       },
       {
@@ -4892,6 +4903,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "evento",
           "continuó"
         ],
+        "translation": "Despite the rain, the event continued.",
         "explanation": "\"A pesar de\" + sustantivo expresa una concesión."
       },
       {
@@ -5382,7 +5394,19 @@ const B2_BASE_LESSONS: Lesson[] = [
           "cuando",
           "llovió"
         ],
-        "explanation": "El adverbio \"apenas\" al inicio provoca la inversión sujeto-verbo."
+        "translation": "The concert had barely started when it rained.",
+        "altOrders": [
+          [
+            "Apenas",
+            "el",
+            "concierto",
+            "había",
+            "empezado",
+            "cuando",
+            "llovió"
+          ]
+        ],
+        "explanation": "El adverbio \"apenas\" al inicio da énfasis; en español no hace falta invertir sujeto y verbo: el sujeto puede ir antes o después del verbo."
       },
       {
         "type": "multiple-choice",
@@ -5649,7 +5673,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "renuncié"
         ],
         "translation": "This is the reason why I resigned.",
-        "explanation": "\"Por el cual\" retoma \"el motivo\" (masculino singular) tras la preposición \"por\"; es una construcción más formal que \"por que\" en este contexto."
+        "explanation": "\"Por el cual\" retoma \"el motivo\" (masculino singular) tras la preposición \"por\"; es una construcción más formal que \"por el que\" en este contexto."
       },
       {
         "type": "matching",
@@ -5732,7 +5756,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "sentence": "Vivo en una casa que ___ (tener) jardín.",
             "answer": "tiene",
             "hint": "El hablante ya vive en esa casa concreta.",
-            "explanation": "El antecedente 'una casa' es específica y conocida por el hablante (la casa donde vive), así que se usa el indicativo: tiene."
+            "explanation": "El antecedente 'una casa' es específico y conocido por el hablante (la casa donde vive), así que se usa el indicativo: tiene."
           }
         ]
       },
@@ -5923,8 +5947,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "que",
               "sepa",
               "reparar",
-              "computadoras",
-              "?"
+              "computadoras?"
             ],
             "translation": "Do you know anyone who knows how to fix computers?",
             "explanation": "Es una pregunta sobre una persona no identificada, así que el verbo va en subjuntivo: sepa."
@@ -6492,12 +6515,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         "question": "Elige la opción correcta: 'Después de que ___ (graduarse), Marta se mudó a Madrid.' (ya ocurrió)",
         "options": [
           "se gradúa",
-          "se graduara",
+          "se gradúe",
           "se graduó",
           "se graduaría"
         ],
         "correctIndex": 2,
-        "explanation": "Si la acción ya ocurrió, «después de que» puede ir con indicativo: se graduó. «Se gradúa» es presente, «se graduaría» es condicional y «se graduara» es posible en registro formal, pero aquí se pide el hecho pasado."
+        "explanation": "Si la acción ya ocurrió, «después de que» puede ir con indicativo: se graduó. «Se gradúa» es presente, «se graduaría» es condicional y «se gradúe» se refiere al futuro (con un hecho pasado también es muy frecuente «se graduara»)."
       },
       {
         "type": "fill-blank",
@@ -6722,7 +6745,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           {
             "type": "fill-blank",
             "prompt": "Completa la oración con el imperfecto de subjuntivo.",
-            "sentence": "Ojalá (tú) ___ (hablar) con ella ayer.",
+            "sentence": "Ojalá (tú) ___ (hablar) con ella hoy.",
             "answer": "hablaras",
             "hint": "quitar -ron de 'hablaron' y añadir -ra",
             "explanation": "El pretérito de 'hablar' en tercera persona plural es 'hablaron'; se quita '-ron' y se añade '-ras' para la forma de 'tú'."
@@ -6935,7 +6958,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           {
             "type": "fill-blank",
             "prompt": "Completa la oración con el imperfecto de subjuntivo.",
-            "sentence": "Queríamos que (nosotros) ___ (ser) felices.",
+            "sentence": "Nuestros padres querían que (nosotros) ___ (ser) felices.",
             "answer": "fuéramos",
             "hint": "de 'fueron' + '-amos', con tilde",
             "explanation": "'Ser' e 'ir' comparten la raíz 'fue-'; la forma de 'nosotros' es 'fuéramos', con tilde en la 'e'."
@@ -9255,9 +9278,9 @@ const B2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Volverse: el cambio brusco e involuntario",
+        "heading": "Volverse: el cambio involuntario y duradero",
         "body": [
-          "Volverse expresa un cambio súbito, involuntario y a menudo permanente, frecuentemente con connotación negativa."
+          "Volverse expresa un cambio involuntario y duradero, sobre todo de carácter, que puede ser repentino o gradual (con los años se volvió desconfiado); a menudo tiene connotación negativa."
         ],
         "examples": [
           {
@@ -9329,7 +9352,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con la forma correcta de volverse.",
         "sentence": "Con tanto estrés en el trabajo, Juan ___ loco.",
         "answer": "se volvió",
-        "hint": "cambio brusco e involuntario",
+        "hint": "cambio involuntario y duradero",
         "explanation": "Volverse loco describe un cambio profundo e involuntario provocado por una presión sostenida."
       },
       {
@@ -9393,7 +9416,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "right": "He was left blind after the accident."
           }
         ],
-        "explanation": "Cada verbo de cambio corresponde a un matiz distinto en inglés: temporal (got), brusco (became distrustful), esfuerzo (became rich), logro gradual (became a figure) y resultado (was left blind)."
+        "explanation": "Cada verbo de cambio corresponde a un matiz distinto en inglés: temporal (got), involuntario y duradero (became distrustful), esfuerzo (became rich), logro gradual (became a figure) y resultado (was left blind)."
       }
     ]
   },
@@ -9467,7 +9490,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Contraste: ponerse vs. volverse",
         "body": [
-          "Ponerse marca lo temporal y superficial, mientras que volverse marca lo súbito pero más duradero o estructural."
+          "Ponerse marca lo temporal y superficial, mientras que volverse marca un cambio más duradero o estructural, repentino o gradual."
         ],
         "examples": [
           {
@@ -9620,7 +9643,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Los cinco verbos juntos",
         "body": [
-          "Elegir el verbo correcto depende de si el cambio es temporal, brusco, esforzado, gradual o simplemente resultante."
+          "Elegir el verbo correcto depende de si el cambio es temporal, involuntario y duradero, esforzado, gradual o simplemente resultante."
         ],
         "examples": [
           {
@@ -9646,7 +9669,7 @@ const B2_BASE_LESSONS: Lesson[] = [
                 "right": "volverse"
               },
               {
-                "left": "Se ___ presidente después de una larga carrera política.",
+                "left": "___ presidente después de una larga carrera política.",
                 "right": "llegar a ser"
               },
               {
@@ -9654,7 +9677,7 @@ const B2_BASE_LESSONS: Lesson[] = [
                 "right": "quedarse"
               }
             ],
-            "explanation": "Cada verbo corresponde a un tipo de cambio distinto: esfuerzo (hacerse), temporal (ponerse), brusco (volverse), gradual y positivo (llegar a ser), y resultado de un evento (quedarse)."
+            "explanation": "Cada verbo corresponde a un tipo de cambio distinto: esfuerzo (hacerse), temporal (ponerse), involuntario y duradero (volverse), gradual y positivo (llegar a ser), y resultado de un evento (quedarse)."
           }
         ]
       }
@@ -9670,7 +9693,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "left": "volverse",
-            "right": "cambio brusco e involuntario, más duradero"
+            "right": "cambio involuntario y duradero, sobre todo de carácter"
           },
           {
             "left": "hacerse",
@@ -9774,7 +9797,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Sin embargo que llovía, salimos a correr."
             ],
             "correctIndex": 1,
-            "explanation": "«Sin embargo» une dos ideas que contrastan y suele ir tras punto y coma o punto, seguido de coma. No puede introducir directamente una causa («Sin embargo llueve, saldré»), ni ir sin puntuación, ni con «que»."
+            "explanation": "«Sin embargo» une dos ideas que contrastan y suele ir tras punto y coma o punto, seguido de coma. No puede introducir una subordinada concesiva como «aunque» («Sin embargo llueve, saldré»), ni ir sin puntuación, ni con «que»."
           }
         ]
       },
@@ -9879,7 +9902,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "fue",
           "que",
           "no",
-          "dijo",
+          "dijera",
           "nada"
         ],
         "translation": "What surprised me most was that he/she said nothing.",
@@ -10029,7 +10052,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "El tráfico es por eso que llegó tarde."
         ],
         "correctIndex": 1,
-        "explanation": "«Es por eso que» introduce la consecuencia de una causa ya mencionada antes. Repetir la causa con «porque» en la misma frase, omitir el «que» o usarlo como sujeto son errores."
+        "explanation": "«Es por eso que» (muy frecuente; en registro formal se prefiere «es por eso por lo que») introduce la consecuencia de una causa ya mencionada antes. Repetir la causa con «porque» en la misma frase, omitir el «que» o usarlo como sujeto son errores."
       },
       {
         "type": "translate",
@@ -10707,8 +10730,8 @@ const B2_BASE_LESSONS: Lesson[] = [
                 "right": "equidad en la distribución de recursos y derechos"
               },
               {
-                "left": "el derecho civil",
-                "right": "libertad garantizada al ciudadano"
+                "left": "los derechos civiles",
+                "right": "libertades garantizadas al ciudadano"
               },
               {
                 "left": "la sociedad civil",
@@ -11472,7 +11495,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "dar por sentado",
-                "right": "no apreciar algo por considerarlo garantizado"
+                "right": "considerar algo cierto o seguro sin cuestionarlo"
               },
               {
                 "left": "el segundo intento",
@@ -11930,7 +11953,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "extrovertido",
-                "right": "que se energiza mediante la interacción social"
+                "right": "que disfruta de la interacción social y se siente estimulado con ella"
               },
               {
                 "left": "empático",
@@ -13202,14 +13225,14 @@ const B2_BASE_LESSONS: Lesson[] = [
         "options": [
           "hacerse",
           "volverse",
-          "convertirse en",
+          "llegar a ser",
           "ponerse"
         ],
         "correctIndexes": [
           0,
           2
         ],
-        "explanation": "Hacerse y convertirse en pueden implicar un proceso más consciente o gradual que volverse o ponerse."
+        "explanation": "Hacerse y llegar a ser implican esfuerzo o un proceso más consciente que volverse o ponerse; convertirse en no implica voluntad (la oruga se convirtió en mariposa)."
       },
       {
         "type": "fill-blank",
@@ -13239,9 +13262,10 @@ const B2_BASE_LESSONS: Lesson[] = [
           "visto",
           "algo",
           "tan",
-          "hermoso"
+          "hermoso."
         ],
-        "explanation": "El adverbio \"nunca\" al inicio provoca la inversión sujeto-verbo."
+        "translation": "I had never seen anything so beautiful.",
+        "explanation": "Con «nunca» delante del verbo no se usa «no»; a diferencia del inglés, no hay inversión obligatoria."
       }
     ]
   },
@@ -13278,6 +13302,9 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la estructura enfática.",
         "sentence": "___ resolvió el problema fue mi colega, no yo.",
         "answer": "Quien",
+        "altAnswers": [
+          "El que"
+        ],
         "explanation": "\"Quien\" al inicio de la oración enfatiza al sujeto que realizó la acción."
       },
       {
@@ -13297,6 +13324,10 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la palabra correcta.",
         "sentence": "El periodista tuvo que ___ la información antes de publicarla.",
         "answer": "verificar",
+        "altAnswers": [
+          "comprobar",
+          "contrastar"
+        ],
         "explanation": "\"Verificar\" significa comprobar que una información es exacta."
       },
       {
@@ -13371,9 +13402,10 @@ const B2_BASE_LESSONS: Lesson[] = [
           "a",
           "llover",
           "cuando",
-          "salimos"
+          "salimos."
         ],
-        "explanation": "\"Apenas\" al inicio de la oración provoca la inversión sujeto-verbo."
+        "translation": "It had barely started to rain when we went out.",
+        "explanation": "«Apenas… cuando» marca una acción inmediatamente anterior; no hay inversión obligatoria como en inglés."
       },
       {
         "type": "fill-blank",

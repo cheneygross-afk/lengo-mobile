@@ -67,7 +67,7 @@ export const EN_A2_U13: Lesson[] = [
             prompt: "Traduce al inglés.",
             source: "Hago ejercicio todos los días.",
             answer: "I exercise every day.",
-            altAnswers: ["I do exercise every day.", "I work out every day.", "I get exercise every day.", "Every day I exercise.", "I exercise everyday."],
+            altAnswers: ["I do exercise every day.", "I work out every day.", "I get exercise every day.", "Every day I exercise."],
             explanation: "Lo más natural es el verbo \"exercise\" o \"work out\"; \"do exercise\" también vale. Nunca *make exercise: el ejercicio es una actividad, no algo que fabricas.",
           },
           {
@@ -637,7 +637,7 @@ export const EN_A2_U13: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "Tomo el autobús todos los días.",
         answer: "I take the bus every day.",
-        altAnswers: ["Every day I take the bus.", "I catch the bus every day.", "I take the bus everyday."],
+        altAnswers: ["Every day I take the bus.", "I catch the bus every day."],
         explanation: "Con los transportes se usa \"take\" (o \"catch\"). Para un transporte habitual se dice \"the bus\".",
       },
       {
@@ -984,7 +984,7 @@ export const EN_A2_U13: Lesson[] = [
             prompt: "Traduce al inglés.",
             source: "Me despierto a las seis.",
             answer: "I wake up at six.",
-            altAnswers: ["I wake up at 6.", "I wake up at six o'clock.", "I get up at six."],
+            altAnswers: ["I wake up at 6.", "I wake up at six o'clock."],
             explanation: "«Despertarse» es \"wake up\", sin pronombre. *I wake me up es un error típico de traducir «me» palabra por palabra.",
           },
           {
