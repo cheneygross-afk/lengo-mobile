@@ -573,17 +573,25 @@ function Matching({
     () => seededShuffle(exercise.pairs.map((p) => p.right), exercise.instructions),
     [exercise.pairs, exercise.instructions]
   );
-  const [matches, setMatches] = useState<Record<number, string>>({}); // left index -> chosen right value
+  // left index -> index into rightShuffled. Tiles are tracked by position,
+  // not label: a right-hand label can repeat (sorting situations into
+  // "ser" / "estar"), and disabling every tile with a used label left the
+  // other "ser" rows impossible to match.
+  const [matches, setMatches] = useState<Record<number, number>>({});
   const [activeLeft, setActiveLeft] = useState<number | null>(null);
 
-  function chooseRight(right: string) {
+  function chooseRight(tile: number) {
     if (activeLeft === null || checked) return;
-    setMatches((prev) => ({ ...prev, [activeLeft]: right }));
+    setMatches((prev) => ({ ...prev, [activeLeft]: tile }));
     setActiveLeft(null);
   }
 
-  const usedRights = new Set(Object.values(matches));
+  const usedTiles = new Set(Object.values(matches));
   const allMatched = Object.keys(matches).length === exercise.pairs.length;
+  const chosenLabel = (i: number) => (matches[i] === undefined ? undefined : rightShuffled[matches[i]]);
+  // Rows with the same left-hand item are interchangeable: either of their
+  // right-hand items is right for either row, as long as each is used once.
+  const rightsFor = (left: string) => exercise.pairs.filter((p) => p.left === left).map((p) => p.right);
 
   return (
     <View>
@@ -591,9 +599,9 @@ function Matching({
       <View style={s.matchingCols}>
         <View style={s.matchingCol}>
           {exercise.pairs.map((pair, i) => {
-            const chosen = matches[i];
-            const isCorrect = checked && chosen === pair.right;
-            const isWrong = checked && chosen !== undefined && chosen !== pair.right;
+            const chosen = chosenLabel(i);
+            const isCorrect = checked && chosen !== undefined && rightsFor(pair.left).includes(chosen);
+            const isWrong = checked && chosen !== undefined && !isCorrect;
             return (
               <Pressable
                 key={i}
@@ -630,12 +638,12 @@ function Matching({
           {rightShuffled.map((right, i) => (
             <Pressable
               key={i}
-              disabled={checked || usedRights.has(right)}
+              disabled={checked || usedTiles.has(i)}
               onPress={() => {
                 speak(right, voiceFor(right, lang));
-                chooseRight(right);
+                chooseRight(i);
               }}
-              style={[s.matchPill, usedRights.has(right) && s.chipUsed]}
+              style={[s.matchPill, usedTiles.has(i) && s.chipUsed]}
             >
               <Text style={[s.optionText, s.shrinkText]}>{right}</Text>
             </Pressable>
@@ -645,14 +653,25 @@ function Matching({
       {!checked && (
         <SubmitButton
           disabled={!allMatched}
-          onPress={() => {
-            const allCorrect = exercise.pairs.every((p, i) => matches[i] === p.right);
-            onSubmit(allCorrect);
-          }}
+          onPress={() => onSubmit(matchingAllCorrect(exercise.pairs, exercise.pairs.map((_, i) => chosenLabel(i))))}
         />
       )}
     </View>
   );
+}
+
+/** Whether every row got a right-hand item that belongs to it. Rows that
+ * share a left-hand item may take each other's answers; each answer still
+ * counts once (compared as multisets per left-hand item). */
+function matchingAllCorrect(pairs: { left: string; right: string }[], chosen: (string | undefined)[]): boolean {
+  const groups = new Map<string, { want: string[]; got: string[] }>();
+  pairs.forEach((p, i) => {
+    const g = groups.get(p.left) ?? { want: [], got: [] };
+    g.want.push(p.right);
+    g.got.push(chosen[i] ?? "");
+    groups.set(p.left, g);
+  });
+  return [...groups.values()].every(({ want, got }) => want.sort().join("\u0000") === got.sort().join("\u0000"));
 }
 
 function SubmitButton({ disabled, onPress }: { disabled: boolean; onPress: () => void }) {
