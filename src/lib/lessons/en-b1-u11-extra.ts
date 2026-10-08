@@ -236,7 +236,7 @@ export const EN_B1_U11_EXTRA: Lesson[] = [
         body: [
           "\"Must\" has only one form. There is no *musted, no *will must and no *have musted. For other tenses, use \"have to\": past \"had to\", future \"will have to\", present perfect \"have had to\".",
           "After \"had to\", \"will have to\" and \"have had to\", use the base form of the verb: \"I had to leave\" (not *I had to left, not *I must went).",
-          "Questions and negatives work like any normal verb: \"Did you have to wait?\", \"I didn't have to pay\", \"Will we have to queue?\" Never *Did you must or *Had you to.",
+          "Questions and negatives work like any normal verb: \"Did you have to wait?\", \"I didn't have to pay\", \"Will we have to wait in line?\" Never *Did you must or *Had you to.",
         ],
         examples: [
           { es: "I had to work late yesterday.", en: "Ayer tuve que trabajar hasta tarde. (incorrecto: \"I musted work\")" },
@@ -249,7 +249,7 @@ export const EN_B1_U11_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "The train was cancelled, so I ___ walk home.",
+            sentence: "The train was canceled, so I ___ walk home.",
             answer: "had to",
             en: "Cancelaron el tren, así que [tuve que] ir a casa andando.",
             explanation: "Past obligation = \"had to\" + base form. \"Must\" has no past, so never *musted or *must walked.",
@@ -616,7 +616,7 @@ export const EN_B1_U11_EXTRA: Lesson[] = [
           { left: "I've got a toothache.", right: "You should see a dentist." },
           { left: "I can't sleep at night.", right: "You shouldn't drink coffee after six." },
           { left: "The film starts in ten minutes.", right: "We'd better leave now." },
-          { left: "I forgot my mum's birthday.", right: "You ought to call her and apologize." },
+          { left: "I forgot my mom's birthday.", right: "You ought to call her and apologize." },
         ],
         explanation: "Advice uses \"should\" or \"ought to\"; urgent warnings use \"had better\".",
       },

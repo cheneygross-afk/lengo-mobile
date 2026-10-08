@@ -1092,7 +1092,7 @@ export const EN_B1_U01: Lesson[] = [
         heading: "Errors with tense",
         body: [
           "The most common error: using the present for something that started in the past. *I live here since 2015 should be \"I've lived here since 2015\" or \"I've been living here since 2015\".",
-          "The same with the present continuous: \"I'm working here for three years\" should be \"I've been working here for three years\".",
+          "The same with the present continuous: *I'm working here for three years should be \"I've been working here for three years\".",
         ],
         examples: [
           { es: "I've lived here since 2015.", en: "Vivo aquí desde 2015." },
@@ -1117,7 +1117,7 @@ export const EN_B1_U01: Lesson[] = [
         heading: "Errors with for and since",
         body: [
           "*Since three weeks is wrong: three weeks is a period, so \"for three weeks\". \"Since\" needs a point in time.",
-          "\"Since three weeks ago\" is not standard either. Just use \"for three weeks\".",
+          "\"Since three weeks ago\" is possible but unusual. Just use \"for three weeks\".",
         ],
         examples: [
           { es: "I've been sick for three weeks.", en: "Estoy enfermo desde hace tres semanas." },
@@ -1772,7 +1772,7 @@ export const EN_B1_U01: Lesson[] = [
         heading: "Opposites with un-, dis- and in-",
         body: [
           "Many opposites are made with a prefix: un- (\"unfriendly\", \"unkind\", \"unreliable\"), dis- (\"dishonest\", \"disorganized\") and in- (\"impatient\", \"immature\", \"irresponsible\").",
-          "The prefix in- changes spelling: it becomes \"im-\" before p and m (impatient, immature, impolite) and \"ir-\" before r (irresponsible). Spanish does the same: «impaciente», «irresponsable».",
+          "The prefix in- changes spelling: it becomes \"im-\" before p and m (impatient, immature, impolite) and \"ir-\" before r (irresponsible). Spanish does the same before p and r («impaciente», «irresponsable»), but not before m: «inmaduro» is \"immature\", with double m, never *inmature.",
           "Some opposites are different words: \"hard-working\" / \"lazy\", \"generous\" / \"mean\" (American English also says \"stingy\"), \"outgoing\" / \"shy\".",
         ],
         examples: [
@@ -1970,7 +1970,7 @@ export const EN_B1_U01: Lesson[] = [
         heading: "Don't lose the 've",
         body: [
           "Because \"I've\" is so short, many learners don't hear it and write \"I been working\". That is not standard English. The /v/ is small, but it is there.",
-          "The contraction is also important with \"we've\" and \"they've\": \"We've been\" sounds like /wiːv bɪn/. Practice joining the /v/ and the /b/: your lips touch for both.",
+          "The contraction is also important with \"we've\" and \"they've\": \"We've been\" sounds like /wiːv bɪn/. Practice joining the /v/ and the /b/: for /v/ your top teeth touch your bottom lip, then both lips close for /b/. Don't turn the /v/ into a /b/.",
           "At the end of a sentence, the auxiliary is strong again: \"Have you been waiting long?\" \"Yes, I HAVE.\" Short answers are never contracted.",
         ],
         examples: [

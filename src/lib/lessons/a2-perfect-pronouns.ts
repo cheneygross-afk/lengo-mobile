@@ -327,7 +327,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
         ],
         [
           mc(
-            "Who has the police arrested?",
+            "Who have the police arrested?",
             ["Two suspects", "A witness", "The judge", "The bank teller"],
             0,
             "\"Ha detenido a dos sospechosos\": two suspects. The witness saw them, and the teller is the victim."
@@ -405,7 +405,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       ),
       sec(
         "Today's news",
-        "Crime and security reports use the present perfect for what has just happened.",
+        "Crime and security reports mix the present, the present perfect (for what has just happened) and the preterite.",
         [
           ["La policía investiga el ataque a una tienda.", "The police are investigating the attack on a shop."],
           ["No hay ninguna pista, pero un vecino ha dado algunos detalles.", "There's no lead, but a neighbor has given some details."],
@@ -708,7 +708,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       ),
     ],
     [
-      fe("¿La foto? Voy a ___ ahora.", "mandártela", "The photo? I'm going to [send it to you] now.", "mandar + te + la, joined with an accent.", ["te la mandar"]),
+      fe("¿La foto? Voy a ___ ahora.", "mandártela", "The photo? I'm going to [send it to you] now.", "mandar + te + la, joined with an accent."),
       fe("¿El café? Estoy ___.", "preparándotelo", "The coffee? I'm [making it for you].", "preparando + te + lo, accent on the á."),
       fe("¿Las llaves? ___, por favor.", "Dámelas", "The keys? [Give them to me], please.", "A yes command: da + me + las."),
       toEs("I can't tell you it.", "No te lo puedo decir.", "te + lo before puedo, or joined: no puedo decírtelo.", ["No puedo decírtelo."]),
@@ -730,7 +730,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
         [
           ["—¿Me prestas la furgoneta el sábado? —Claro, te la presto.", "Will you lend me the van on Saturday? — Of course, I'll lend it to you."],
           ["—¿Y las cajas? —Mi primo nos las trae el viernes.", "And the boxes? — My cousin's bringing them to us on Friday."],
-          ["—¿Has dado las llaves al dueño? —Todavía no. Se las doy mañana.", "Have you given the keys to the landlord? — Not yet. I'm giving them to him tomorrow."],
+          ["—¿Le has dado las llaves al dueño? —Todavía no. Se las doy mañana.", "Have you given the keys to the landlord? — Not yet. I'm giving them to him tomorrow."],
         ],
         [
           fe("¿La furgoneta? Claro, ___ presto.", "te la", "The van? Sure, I'll lend [it to you].", "te + la (la furgoneta)."),

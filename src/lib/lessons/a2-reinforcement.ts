@@ -736,7 +736,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "What vs. to whom",
-        "Lo/la replace the thing (or person) that directly receives the action. Le replaces the person who receives the thing. Test: can you add \"to\" or \"for\" in English? Then it's le.",
+        "Lo/la replace the thing (or person) that directly receives the action. Le replaces the person who receives the thing. Test: can you add \"to\" in English (give to, send to, say to)? Then it's usually le. Careful: \"wait for\" and \"look for\" are direct in Spanish (la espero, lo busco).",
         [
           ["Veo a Pedro. → Lo veo.", "I see Pedro. → I see him. (direct)"],
           ["Escribo a Pedro. → Le escribo.", "I write to Pedro. → I write to him. (indirect)"],
@@ -1260,7 +1260,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Read the voice message transcript. It packs half of A2 into five lines.",
         [
           ["¡Hola! Ayer me levanté temprano para ir al mercado.", "Hi! Yesterday I got up early to go to the market."],
-          ["Compré unas flores y las compré para tu madre.", "I bought some flowers, and I bought them for your mom."],
+          ["Vi unas flores preciosas y las compré para tu madre.", "I saw some beautiful flowers and bought them for your mom."],
           ["Mañana se las daré en la fiesta.", "Tomorrow I'll give them to her at the party."],
           ["Por cierto, el mercado nuevo es más grande que el viejo.", "By the way, the new market is bigger than the old one."],
         ],
@@ -1271,7 +1271,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
             0,
             "The speaker says \"para tu madre\", so the flowers are for the listener's mother, not the speaker's mother, the vendor or the speaker."
           ),
-          fb("Complete the reply.", "¡Qué amable! Mi madre ___ va a encantar. (the flowers → to her)", "le", "Encantar is gustar-type: a mi madre le va a encantar."),
+          fb("Complete the reply.", "¡Qué amable! A mi madre ___ van a encantar. (the flowers → to her)", "le", "Encantar is gustar-type: a mi madre le van a encantar (las flores)."),
         ]
       ),
     ],
@@ -1401,10 +1401,10 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Make it negative.", "Tengo algunos amigos aquí. → No tengo ___ amigo aquí.", "ningún", "Alguno → ninguno, shortened to ningún before a masculine singular noun (ninguno is almost always singular)."),
       fb("Make it negative.", "Quiero té o café. → No quiero ___ té ni café.", "ni", "O … o → ni … ni."),
       mc(
-        "Negative reply to \"Yo también estudio los sábados.\"",
+        "Make it negative: \"Yo también estudio los sábados.\"",
         ["Yo tampoco estudio los sábados.", "Yo también no estudio los sábados.", "Yo nunca también estudio los sábados.", "Yo no tampoco estudio."],
         0,
-        "Agreeing with a negative uses tampoco: yo tampoco estudio. \"También no\" and \"nunca también\" mix positive and negative, and \"no tampoco\" before the verb doubles the negative."
+        "The negative of también is tampoco: yo tampoco estudio. \"También no\" and \"nunca también\" mix positive and negative, and \"no tampoco\" before the verb doubles the negative."
       ),
       toEs("I never say anything to anybody.", "Nunca le digo nada a nadie.", "Spanish happily stacks negatives: nunca … nada … nadie.", ["No le digo nunca nada a nadie.", "Nunca digo nada a nadie."]),
       wo("No vino ninguna de mis amigas a la fiesta.", "No + verb + ninguna (agrees with amigas, but stays singular).", "None of my friends came to the party."),
@@ -1451,9 +1451,9 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Complete with bueno, buena, bien or mal.", "La película fue ___; me gustó mucho.", "buena", "Describing la película → adjective, feminine."),
       mc(
         "\"He answered calmly and patiently.\"",
-        ["Contestó tranquila y pacientemente.", "Contestó tranquilamente y pacientemente.", "Contestó tranquilo y paciente.", "Contestó tranquilamente y paciente."],
+        ["Contestó tranquila y pacientemente.", "Contestó tranquila y paciente.", "Contestó tranquilo y paciente.", "Contestó tranquilamente y paciente."],
         0,
-        "In a series of -mente adverbs, only the last keeps -mente, and the first uses the feminine adjective: tranquila y pacientemente. Repeating -mente is avoided, and \"tranquilo\" and \"paciente\" are adjectives, not adverbs."
+        "In a series of -mente adverbs, only the last keeps -mente, and the first uses the feminine adjective: tranquila y pacientemente. \"Tranquila y paciente\" has no -mente at all, and \"tranquilo\" and \"paciente\" are adjectives, not adverbs."
       ),
       ms(
         "Which sentences are correct?",
@@ -1802,7 +1802,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "The imperfect describes the old normal; the present describes the new one. Antes and ahora make the contrast explicit.",
         [
           ["Antes vivía con mis padres; ahora vivo solo.", "I used to live with my parents; now I live alone."],
-          ["Antes no había wifi en el pueblo; ahora hay en todas partes.", "There didn't used to be wifi in the village; now it's everywhere."],
+          ["Antes no había wifi en el pueblo; ahora hay en todas partes.", "There didn't use to be wifi in the village; now it's everywhere."],
         ],
         [
           fb("Complete the contrast.", "Antes ___ mucho; ahora casi no fumo. (fumar)", "fumaba", "Old habit → imperfect."),
@@ -3005,7 +3005,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Run through it for every sentence: preterite or imperfect? irregular stem? pronoun choice and placement? reflexive pronoun? comparison form? future stem? por or para? personal a? double negative?",
         [
           ["✗ Ayer yo iba al cine con Ana. → ✓ Ayer fui al cine con Ana.", "Yesterday I went to the movies with Ana."],
-          ["✗ Le vi en la calle. → ✓ Lo vi en la calle.", "I saw him in the street."],
+          ["✗ Lo dije la verdad. → ✓ Le dije la verdad.", "I told him the truth."],
         ],
         [
           mc(
@@ -3030,9 +3030,9 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Fix it.", "No vino ___ a la reunión. (learner wrote: alguien)", "nadie", "After no + verb → nadie."),
       ms(
         "Which sentences are correct?",
-        ["Cuando era pequeño, tenía un gato.", "Las compré ayer.", "Hablaba tranquilamente y claramente.", "Habrá mucha gente."],
+        ["Cuando era pequeño, tenía un gato.", "Las compré ayer.", "Hablaba tranquilamente y clara.", "Habrá mucha gente."],
         [0, 1, 3],
-        "In a series of adverbs, only the last takes -mente: tranquila y claramente, so \"tranquilamente y claramente\" is wrong. The other three are correct."
+        "In a series of adverbs, the first ones can drop -mente, but the last must keep it: tranquila y claramente, so \"tranquilamente y clara\" is wrong. The other three are correct."
       ),
       mc(
         "Which sentence has NO error?",
@@ -3343,7 +3343,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 3],
         "Marco danced much worse than the teacher (\"Yo, no tanto\"), so \"Marco bailó tan bien como la profesora\" is false."
       ),
-      toEs("The city is bigger and noisier than I thought.", "La ciudad es más grande y más ruidosa de lo que pensaba.", "With a clause after a comparison, use de lo que.", ["La ciudad es más grande y ruidosa de lo que pensaba.", "La ciudad es más grande y más ruidosa que lo que pensaba."]),
+      toEs("The city is bigger and noisier than I thought.", "La ciudad es más grande y más ruidosa de lo que pensaba.", "With a clause after a comparison, use de lo que.", ["La ciudad es más grande y ruidosa de lo que pensaba."]),
       wo("Nunca había comido una carne tan rica como aquí.", "Tan + adjective + como.", "I had never eaten meat as good as here."),
     ]
   ),

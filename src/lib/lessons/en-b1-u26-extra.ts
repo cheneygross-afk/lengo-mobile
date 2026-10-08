@@ -353,7 +353,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         prompt: "Translate into English.",
         source: "No dejes para mañana lo que puedas hacer hoy.",
         answer: "Don't put off until tomorrow what you can do today.",
-        altAnswers: ["Don't put off till tomorrow what you can do today.", "Never put off until tomorrow what you can do today.", "Never put off till tomorrow what you can do today.", "Don't leave for tomorrow what you can do today.", "Don't leave until tomorrow what you can do today."],
+        altAnswers: ["Don't put off till tomorrow what you can do today.", "Never put off until tomorrow what you can do today.", "Never put off till tomorrow what you can do today.", "Don't leave until tomorrow what you can do today."],
         explanation: "The English version of this saying uses \"put off\": «dejar para más tarde» = \"put off\".",
       },
       {

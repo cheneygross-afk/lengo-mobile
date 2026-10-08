@@ -1609,7 +1609,7 @@ export const EN_A1_U8_MORE: Lesson[] = [
       {
         type: "speak",
         text: "Excuse me, how do I get to the train station?",
-        tip: "\"Excuse me\" se acentúa en \"cuse\": \"ik-SKIUS mi\". En \"get to\" las dos t casi se funden.",
+        tip: "\"Excuse me\" se acentúa en \"cuse\": \"ik-SKIUZ mi\" (la s suena como una «z» suave). En \"get to\" las dos t casi se funden.",
         explanation: "\"How do I get to...?\" para pedir el camino.",
       },
       {
@@ -2067,7 +2067,7 @@ export const EN_A1_U8_MORE: Lesson[] = [
           { left: "sunny", right: "soleado" },
           { left: "cloudy", right: "nublado" },
           { left: "fall", right: "otoño" },
-          { left: "warm", right: "templado" },
+          { left: "warm", right: "cálido" },
         ],
         explanation: "\"Fall\" es el otoño en Estados Unidos; en Reino Unido se dice \"autumn\".",
       },

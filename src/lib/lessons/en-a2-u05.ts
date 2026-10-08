@@ -190,7 +190,7 @@ export const EN_A2_U05: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "Han trabajado en un restaurante.",
         answer: "They have worked in a restaurant.",
-        altAnswers: ["They have worked at a restaurant."],
+        altAnswers: ["They have worked at a restaurant.", "You have worked in a restaurant.", "They've worked in a restaurant."],
         explanation: "Experiencia sin fecha: presente perfecto. «Han» con sujeto implícito «ellos» es \"they have\".",
       },
       {
@@ -389,7 +389,7 @@ export const EN_A2_U05: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "Han perdido el autobús.",
         answer: "They have missed the bus.",
-        altAnswers: ["They missed the bus."],
+        altAnswers: ["They missed the bus.", "You have missed the bus.", "You've missed the bus."],
         explanation: "«Perder» un autobús o un tren es \"miss\", no \"lose\". \"Lose\" es perder algo que ya no encuentras.",
       },
       {
@@ -808,7 +808,7 @@ export const EN_A2_U05: Lesson[] = [
       {
         type: "dictation",
         audio: "We've bought the tickets.",
-        explanation: "\"Bought\" se escribe con -ought y suena /bot/. Pasado y participio son iguales.",
+        explanation: "\"Bought\" se escribe con -ought y suena /bɔt/. Pasado y participio son iguales.",
       },
       {
         type: "listen-choose",
@@ -935,7 +935,7 @@ export const EN_A2_U05: Lesson[] = [
         heading: "\"By\": quién lo hizo",
         body: [
           "Si quieres decir quién hizo la acción, usa \"by\": \"This cake was made by my grandmother\", \"The Mona Lisa was painted by Leonardo da Vinci\".",
-          "Solo añade \"by\" cuando la información es importante. No digas *My bike was stolen by someone: si no sabes quién fue, no hace falta.",
+          "Solo añade \"by\" cuando la información es importante. No hace falta decir \"My bike was stolen by someone\": si no sabes quién fue, basta con \"My bike was stolen\".",
           "Las preguntas se forman poniendo \"is\" o \"was\" delante: \"Where was it made?\", \"When was the bridge built?\". Y la negativa, con \"not\": \"It wasn't made in China\".",
         ],
         examples: [
@@ -1071,7 +1071,7 @@ export const EN_A2_U05: Lesson[] = [
       {
         type: "speak",
         text: "It was built in 1890 and it's made of stone.",
-        tip: "\"Built\" suena /bilt/: la u no se pronuncia. \"1890\" se lee \"eighteen ninety\".",
+        tip: "\"Built\" suena /bɪlt/: la u no se pronuncia. \"1890\" se lee \"eighteen ninety\".",
         explanation: "Dos pasivas: \"was built\" en pasado y \"is made of\" (está hecho de) en presente.",
       },
     ],
@@ -1161,7 +1161,7 @@ export const EN_A2_U05: Lesson[] = [
             source: "No lo he probado nunca.",
             answer: "I have never tried it.",
             altAnswers: ["I haven't ever tried it."],
-            explanation: "\"Never\" va con el verbo en afirmativa: \"I've never tried it\". \"I haven't never\" es una doble negación que el inglés no admite.",
+            explanation: "\"Never\" va con el verbo en afirmativa: \"I've never tried it\". *I haven't never es una doble negación que el inglés no admite.",
           },
           {
             type: "multiple-choice",
@@ -1249,7 +1249,7 @@ export const EN_A2_U05: Lesson[] = [
       {
         type: "speak",
         text: "Have you ever been to Peru?",
-        tip: "\"Been\" suele sonar corto y débil, como /bin/, en el inglés de Estados Unidos.",
+        tip: "\"Been\" suele sonar corto y débil, como /bɪn/, en el inglés de Estados Unidos.",
         explanation: "\"Have you ever\" + \"been to\" + lugar.",
       },
     ],
@@ -1417,7 +1417,7 @@ export const EN_A2_U05: Lesson[] = [
       {
         type: "speak",
         text: "She isn't here. She's gone home.",
-        tip: "\"Gone\" en Estados Unidos suena /gon/, con una o abierta, casi como «gan».",
+        tip: "\"Gone\" en Estados Unidos suena /ɡɔn/, con una o abierta, casi como «gan».",
         explanation: "No está aquí: \"gone\".",
       },
     ],
@@ -1456,7 +1456,7 @@ export const EN_A2_U05: Lesson[] = [
         heading: "\"Has\" con tercera persona, y \"never\" solo",
         body: [
           "*He have, *she have, *my mom have: todos incorrectos. Con tercera persona del singular siempre \"has\".",
-          "\"I haven't never\" es una doble negación: en inglés se dice \"I've never\" o \"I haven't ever\".",
+          "*I haven't never es una doble negación: en inglés se dice \"I've never\" o \"I haven't ever\".",
         ],
         examples: [
           { es: "My mom has called twice.", en: "Mi mamá ha llamado dos veces." },

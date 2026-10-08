@@ -801,8 +801,8 @@ export const EN_B1_U14_EXTRA: Lesson[] = [
         prompt: "Translate into English.",
         source: "Cien años de soledad la escribió Gabriel García Márquez.",
         answer: "One Hundred Years of Solitude was written by Gabriel Garcia Marquez.",
-        altAnswers: ["Gabriel Garcia Marquez wrote One Hundred Years of Solitude."],
-        explanation: "The author is the important information, so keep \"by\" + agent. In English we write the name without accents.",
+        altAnswers: ["Gabriel Garcia Marquez wrote One Hundred Years of Solitude.", "One Hundred Years of Solitude was written by Gabriel García Márquez.", "Gabriel García Márquez wrote One Hundred Years of Solitude."],
+        explanation: "The author is the important information, so keep \"by\" + agent. The name can be written with or without accents.",
       },
       {
         type: "multiple-choice",
@@ -838,7 +838,7 @@ export const EN_B1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence does NOT need the agent?",
+        question: "In which sentence would adding \"by people\" be pointless?",
         options: [
           "Spanish is spoken in twenty countries.",
           "The film was directed by Pedro Almodovar.",

@@ -126,7 +126,7 @@ export const EN_B1_U08: Lesson[] = [
         body: [
           "You can start with either half. If the if-clause comes first, put a comma after it: \"If I had time, I would help you.\"",
           "If the result comes first, you normally don't use a comma: \"I would help you if I had time.\" The meaning is the same.",
-          "In the result clause, the negative is \"wouldn't\" (= would not): \"If I were rich, I wouldn't work.\" You'll practise \"were\" in the next lesson.",
+          "In the result clause, the negative is \"wouldn't\" (= would not): \"If I were rich, I wouldn't work.\" You'll practice \"were\" in the next lesson.",
         ],
         examples: [
           { es: "If I had time, I would help you.", en: "Si tuviera tiempo, te ayudaría." },
@@ -286,7 +286,7 @@ export const EN_B1_U08: Lesson[] = [
         body: [
           "In the second conditional, \"be\" can be \"were\" for all persons: \"if I were\", \"if she were\", \"if it were\". This is the traditional and more formal style, and it's what exams expect.",
           "In everyday speech many people say \"if I was\" or \"if she was\". It's common and acceptable in informal English. But in the fixed phrase \"If I were you\", \"were\" is much more usual.",
-          "Spanish speakers sometimes forget the verb \"be\" completely: \"If I rich...\". English always needs it: \"If I were rich\".",
+          "Spanish speakers sometimes forget the verb \"be\" completely: *If I rich.... English always needs it: \"If I were rich\".",
         ],
         examples: [
           { es: "If I were rich, I'd buy an island.", en: "Si fuera rico, me compraría una isla." },
@@ -918,7 +918,7 @@ export const EN_B1_U08: Lesson[] = [
           { es: "If it rains, I'll stay home.", en: "Si llueve, me quedaré en casa." },
           { es: "If it rained, I'd stay home.", en: "Si lloviera, me quedaría en casa." },
           { es: "If I were you, I'd apologize.", en: "Yo que tú, pediría perdón." },
-          { es: "If we had a bigger flat, we could have a dog.", en: "Si tuviéramos un apartamento más grande, podríamos tener perro." },
+          { es: "If we had a bigger apartment, we could have a dog.", en: "Si tuviéramos un apartamento más grande, podríamos tener perro." },
         ],
         checkpoint: [
           {
@@ -1547,7 +1547,7 @@ export const EN_B1_U08: Lesson[] = [
         ],
         examples: [
           { es: "If I were you, I'd talk to him calmly.", en: "Yo que tú, hablaría con él con calma." },
-          { es: "You could make a cleaning schedule together.", en: "Podrían hacer juntos un horario de limpieza." },
+          { es: "You could make a cleaning schedule together.", en: "Podrías hacer con él un horario de limpieza." },
           { es: "I wouldn't shout or leave angry notes.", en: "Yo no gritaría ni dejaría notas enfadadas." },
           { es: "You could ask him to use headphones.", en: "Podrías pedirle que use auriculares." },
           { es: "If it doesn't work, you could look for a new place.", en: "Si no funciona, podrías buscar otro sitio." },
@@ -1577,7 +1577,7 @@ export const EN_B1_U08: Lesson[] = [
         body: [
           "Carlos replies: \"Thanks, that's a good idea. I hadn't thought of that.\" When you like the advice, you can say \"That's a good idea\", \"That makes sense\" or \"You're right\".",
           "When you're not sure: \"I'm not sure that would work\" or \"Maybe, but...\". This uses \"would\" too: you're imagining the result.",
-          "And \"Thanks for the advice\", with no article.",
+          "And \"Thanks for the advice\", never *an advice or *advices.",
         ],
         examples: [
           { es: "That's a good idea.", en: "Es buena idea." },

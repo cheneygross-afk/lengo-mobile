@@ -411,7 +411,7 @@ export const EN_B2_U30: Lesson[] = [
         examples: [
           { es: "She refused to answer.", en: "Se negó a contestar." },
           { es: "He reminded me to call my mother.", en: "Me recordó que llamara a mi madre." },
-          { es: "He denied taking the money.", en: "Negó haber cogido el dinero." },
+          { es: "He denied taking the money.", en: "Negó haber tomado el dinero." },
           { es: "She suggested that I go to the doctor.", en: "Me sugirió que fuera al médico." },
           { es: "They accused him of lying.", en: "Lo acusaron de mentir." },
           { es: "I apologized for being late.", en: "Pedí perdón por llegar tarde." },
@@ -1748,7 +1748,7 @@ export const EN_B2_U30: Lesson[] = [
           "Before you finish, check: one idea per paragraph, subject in every sentence, third-person -s, articles, no \"would\" after \"if\", and the word count.",
         ],
         examples: [
-          { es: "Furthermore, public transport would become cheaper.", en: "Además, el transporte público sería más barato." },
+          { es: "Furthermore, public transportation would become cheaper.", en: "Además, el transporte público sería más barato." },
           { es: "On the other hand, some jobs would disappear.", en: "Por otro lado, algunos empleos desaparecerían." },
           { es: "Nevertheless, the plan is worth trying.", en: "Aun así, merece la pena probar el plan." },
           { es: "Finally, we should consider the cost.", en: "Por último, debemos tener en cuenta el coste." },

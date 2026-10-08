@@ -85,7 +85,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Antes de operarse, el paciente firmó el consentimiento ___.", "informado", "Before the operation, the patient signed the [informed] consent form.", "«El consentimiento informado» certifica que el paciente conoce riesgos y beneficios."),
   ],
   "c2r-contrast-technical-colloquial-medical": [
-    fe("El paciente refiere ___ y picor en la piel.", "prurito", "The patient reports [itching] on the skin." , "Registro técnico: prurito = picor.", ["picazón", "comezón"]),
+    fe("El paciente refiere ___ en la piel.", "prurito", "The patient reports [itching] on the skin." , "Registro técnico: prurito = picor.", ["picazón", "comezón"]),
   ],
   "medical-health-spanish-5": [
     fe("Desde hace diez días tengo un dolor ___ en el costado.", "sordo", "For ten days I've had a [dull] pain in my side.", "«Un dolor sordo»: continuo y de intensidad moderada."),
@@ -152,7 +152,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("La gracia del chiste está en la ___ de la palabra «problemas».", "ambigüedad", "The humor of the joke lies in the [ambiguity] of the word «problemas».", "La ambigüedad es el motor del doble sentido."),
   ],
   "humor-wordplay-2": [
-    fe("Contó un ___ tan absurdo que todos se partieron de risa.", "disparate", "He said something [so absurd] that everyone cracked up.", "«Disparate»: idea absurda dicha con naturalidad.", ["despropósito"]),
+    fe("Soltó un ___ tan grande que todos se partieron de risa.", "disparate", "He came out with such [nonsense] that everyone cracked up.", "«Disparate»: idea absurda dicha con naturalidad.", ["despropósito"]),
     fe("Su humor tiene una ___ que no perdona a nadie.", "mordacidad", "His humor has a [biting sharpness] that spares no one.", "«Mordacidad»: crítica ingeniosa y sin piedad."),
   ],
   "humor-wordplay-3": [
@@ -252,7 +252,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Fíjate en el ___ de la palabra: «des-» suele indicar lo contrario.", "prefijo", "Pay attention to the word's [prefix]: «des-» often indicates the opposite.", "La morfología (prefijos y sufijos) ayuda a deducir significados."),
   ],
   "c2r-strategy-infer-unknown-word": [
-    fe("Lo que no se puede leer es ___.", "ilegible", "What can't be read is [illegible].", "Prefijo «i-» (negación) + «legible».", ["inlegible"]),
+    fe("Lo que no se puede leer es ___.", "ilegible", "What can't be read is [illegible].", "Prefijo «i-» (negación) + «legible»."),
   ],
   "listening-reading-strategies-2": [
     fe("Si una palabra no es clave, es mejor ___ y seguir leyendo.", "pasarla por alto", "If a word isn't key, it's better to [skip over it] and keep reading.", "«Pasar por alto»: no detenerse en algo.", ["ignorarla", "saltarla", "dejarla pasar"]),
@@ -359,7 +359,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   ],
   "debate-persuasion-8": [
     fe("Su ___ me convenció más que sus datos.", "elocuencia", "His [eloquence] convinced me more than his data.", "«Elocuencia»: capacidad de expresarse con eficacia persuasiva.", ["oratoria"]),
-    fe("Eso no es un argumento, es un ___.", "sofisma", "That's not an argument, it's a [sophism].", "«Sofisma»: argumento engañoso con apariencia de válido.", ["sofismo", "falacia"]),
+    fe("Eso no es un argumento, es un ___.", "sofisma", "That's not an argument, it's a [sophism].", "«Sofisma»: argumento engañoso con apariencia de válido.", ["falacia"]),
   ],
   "debate-persuasion-9": [
     fe("Tras un largo debate, llegaron a una ___.", "avenencia", "After a long debate, they reached an [agreement].", "«Avenencia»: acuerdo alcanzado tras discrepar.", ["acuerdo", "conciliación"]),
@@ -375,7 +375,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   ],
   "presentations-negotiation-3": [
     fe("Nos han hecho una ___ con un precio un 10 % más bajo.", "contraoferta", "They've made us a [counteroffer] with a price 10% lower.", "«Contraoferta»: respuesta a una oferta con condiciones distintas."),
-    fe("Estamos dispuestos a ___ en el plazo, pero no en el precio.", "ceder", "We're willing to [give way] on the deadline, but not on the price.", "«Ceder en algo»: hacer una concesión.", ["flexibilizar", "negociar"]),
+    fe("Estamos dispuestos a ___ en el plazo, pero no en el precio.", "ceder", "We're willing to [give way] on the deadline, but not on the price.", "«Ceder en algo»: hacer una concesión.", ["transigir", "negociar"]),
     fe("Cedimos en lo accesorio para proteger lo ___.", "esencial", "We gave way on the minor points to protect what was [essential].", "Lo accesorio frente a lo esencial.", ["fundamental", "importante", "principal"]),
   ],
   "presentations-negotiation-4": [
@@ -384,7 +384,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Por fin ___ un acuerdo que satisface a ambas partes.", "hemos alcanzado", "We have finally [reached] an agreement that satisfies both sides.", "«Alcanzar / llegar a un acuerdo».", ["alcanzamos", "hemos llegado a", "llegamos a", "hemos cerrado", "cerramos"]),
   ],
   "presentations-negotiation-5": [
-    fe("Mantener el ___ visual transmite seguridad.", "contacto", "Keeping [eye contact] conveys confidence.", "«Contacto visual»: mirar al interlocutor.", ["contacto ocular"]),
+    fe("Mantener el ___ visual transmite seguridad.", "contacto", "Keeping [eye contact] conveys confidence.", "«Contacto visual»: mirar al interlocutor."),
     fe("Cruzar los brazos puede parecer una postura ___.", "defensiva", "Crossing your arms can look like a [defensive] posture.", "Lenguaje corporal: posturas abiertas frente a defensivas.", ["cerrada"]),
     fe("Empezaron pidiendo una cifra altísima: es la estrategia de ___.", "anclaje", "They began by asking for a very high figure: it's the [anchoring] strategy.", "Anclaje: fijar una cifra inicial que condicione la negociación."),
     fe("Habla despacio y ___ las pausas.", "aprovecha", "Speak slowly and [make use of] pauses.", "Las pausas refuerzan la seguridad del ponente.", ["usa", "utiliza", "no temas"]),
@@ -465,13 +465,13 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("¿Es que ___ piensa en los niños?", "nadie", "Does [nobody] think about the children?", "«¿Es que…?» introduce una pregunta retórica de reproche."),
   ],
   "rhetorical-questions-2": [
-    fe("¿Qué nos queda? ___.", "La esperanza", "What do we have left? [Hope].", "Hipofora: el propio hablante formula la pregunta y la responde.", ["Esperanza"]),
+    fe("¿Qué nos queda? ___.", "La esperanza", "What do we have left? [Hope].", "Hipófora: el propio hablante formula la pregunta y la responde.", ["Esperanza"]),
     fe("¿No le parece que ya hemos esperado ___?", "bastante", "Don't you think we've waited [long enough]?", "Pregunta que da la respuesta por hecha.", ["suficiente", "demasiado"]),
-    fe("¿Y por qué ___ esto? Porque nadie más lo hará.", "hacemos", "And why [are we doing] this? Because nobody else will.", "Hipofora: pregunta y respuesta inmediata.", ["hago"]),
+    fe("¿Y por qué ___ esto? Porque nadie más lo hará.", "hacemos", "And why [are we doing] this? Because nobody else will.", "Hipófora: pregunta y respuesta inmediata.", ["hago"]),
   ],
   "rhetorical-questions-3": [
     fe("¿Hasta cuándo vamos a ___ con los brazos cruzados?", "seguir", "How much longer are we going to [keep] sitting idly by?", "Pregunta retórica de indignación.", ["estar", "quedarnos"]),
-    fe("Usada sin ___, la hipofora resulta monótona.", "medida", "Used [excessively], hypophora becomes monotonous.", "«Con / sin medida»: con o sin moderación.", ["moderación", "mesura"]),
+    fe("Usada sin ___, la hipófora resulta monótona.", "medida", "Used [excessively], hypophora becomes monotonous.", "«Con / sin medida»: con o sin moderación.", ["moderación", "mesura"]),
     fe("¿Dónde estaban ustedes? ¿Dónde estaban ___ los necesitábamos?", "cuando", "Where were you? Where were you [when] we needed you?", "Reiteración interrogativa (anáfora)."),
   ],
   "rhetorical-questions-4": [
@@ -490,7 +490,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "rhetorical-questions-6": [
     fe("Su discurso estaba lleno de preguntas ___.", "retóricas", "His speech was full of [rhetorical] questions.", "Pregunta retórica: no espera respuesta."),
     fe("¿A quién se le ___ dejar la puerta abierta en invierno?", "ocurre", "Who [would think of] leaving the door open in winter?", "Pregunta retórica de reproche: «¿A quién se le ocurre…?»."),
-    fe("Abusar de la hipofora genera ___.", "monotonía", "Overusing hypophora creates [monotony].", "La repetición mecánica cansa al oyente.", ["aburrimiento", "cansancio"]),
+    fe("Abusar de la hipófora genera ___.", "monotonía", "Overusing hypophora creates [monotony].", "La repetición mecánica cansa al oyente.", ["aburrimiento", "cansancio"]),
     fe("La pregunta era una ___ disfrazada.", "afirmación", "The question was a disguised [statement].", "La pregunta retórica funciona como una aseveración.", ["aseveración", "crítica"]),
   ],
   "rhetorical-questions-7": [
@@ -507,19 +507,19 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Me gustaría ___ mi experiencia al puesto que ofrecen.", "aportar", "I'd like to [bring] my experience to the position you're offering.", "«Aportar»: contribuir con algo valioso.", ["adaptar", "aplicar"]),
   ],
   "job-interview-spanish-2": [
-    fe("Un punto de ___ es que me cuesta delegar.", "mejora", "One [area for improvement] is that I find it hard to delegate.", "Eufemismo profesional de «debilidad».", ["mejora mío"]),
+    fe("Un punto de ___ es que me cuesta delegar.", "mejora", "One [area for improvement] is that I find it hard to delegate.", "Eufemismo profesional de «debilidad»."),
     fe("Estoy ___ en ello con un curso de gestión del tiempo.", "trabajando", "I'm [working] on it with a time-management course.", "Muestra acciones concretas para mejorar."),
     fe("Gracias a ese cambio, ___ los plazos de entrega en un 20 %.", "redujimos", "Thanks to that change, [we cut] delivery times by 20%.", "Resultado medible: verbo en indefinido + dato.", ["reducimos", "acortamos"]),
   ],
   "job-interview-spanish-3": [
     fe("Le pondré un ___ concreto.", "ejemplo", "I'll give you a concrete [example].", "En la entrevista por competencias, siempre ejemplos concretos.", ["caso"]),
-    fe("La ___ era complicada: el cliente amenazaba con irse.", "situación", "The [situation] was complicated: the client was threatening to leave.", "Relato estructurado: situación, tarea, acción, resultado.", ["situacion"]),
+    fe("La ___ era complicada: el cliente amenazaba con irse.", "situación", "The [situation] was complicated: the client was threatening to leave.", "Relato estructurado: situación, tarea, acción, resultado."),
     fe("Como ___, conseguimos retener al cliente.", "resultado", "As a [result], we managed to keep the client.", "Cierre del relato con el resultado obtenido.", ["consecuencia"]),
   ],
   "job-interview-spanish-4": [
     fe("¿Qué posibilidades de ___ ofrece el puesto?", "crecimiento", "What opportunities for [growth] does the position offer?", "Preguntar por el desarrollo profesional muestra motivación.", ["desarrollo", "promoción", "ascenso"]),
     fe("Mi pretensión ___ está en torno a los 40 000 euros.", "salarial", "My [salary] expectation is around 40,000 euros.", "«Pretensión salarial»: sueldo que se aspira a cobrar.", ["económica"]),
-    fe("Quedo a la ___ de su respuesta.", "espera", "I [look forward] to your reply.", "Fórmula de despedida formal.", ["espera de noticias"]),
+    fe("Quedo a la ___ de su respuesta.", "espera", "I [look forward] to your reply.", "Fórmula de despedida formal."),
   ],
   "job-interview-spanish-5": [
     fe("A lo largo de mi ___ he trabajado en tres países.", "trayectoria", "Throughout my [career] I have worked in three countries.", "«Trayectoria laboral/profesional».", ["carrera", "trayectoria profesional", "vida laboral"]),
@@ -564,7 +564,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Te pido ___ por lo que dije.", "perdón", "I [apologize] for what I said.", "«Pedir perdón / disculpas».", ["disculpas", "disculpa"]),
   ],
   "conflict-resolution-5": [
-    fe("Todo fue un ___: entendí mal su mensaje.", "malentendido", "It was all a [misunderstanding]: I misread his message.", "«Malentendido»: interpretación equivocada.", ["mal entendido"]),
+    fe("Todo fue un ___: entendí mal su mensaje.", "malentendido", "It was all a [misunderstanding]: I misread his message.", "«Malentendido»: interpretación equivocada."),
     fe("La confianza tarda en ___.", "recuperarse", "Trust takes time to [be restored].", "La reconciliación lleva tiempo.", ["reconstruirse", "recobrarse"]),
     fe("Una disculpa con «pero» ___ la responsabilidad.", "diluye", "An apology with a «but» [dilutes] responsibility.", "La disculpa sincera no traslada la culpa.", ["traslada", "reduce"]),
   ],
@@ -618,7 +618,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Reducir las ___ de gases es urgente.", "emisiones", "Reducing gas [emissions] is urgent.", "«Emisiones de gases de efecto invernadero»."),
   ],
   "c2r-climate-vocab-web": [
-    fe("Plantar árboles en la ciudad es una medida de ___.", "adaptación", "Planting trees in the city is an [adaptation] measure.", "Adaptación: prepararse para los efectos del cambio climático.", ["mitigación"]),
+    fe("Plantar árboles en la ciudad es una medida de ___.", "adaptación", "Planting trees in the city is an [adaptation] measure.", "Adaptación: prepararse para los efectos del cambio climático."),
   ],
   "environment-politics-spanish-2": [
     fe("La ___ política dificulta cualquier acuerdo.", "polarización", "Political [polarization] makes any agreement difficult.", "Polarización: división en bandos enfrentados."),
@@ -652,7 +652,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Tener más opciones no ___ necesariamente ser más libre.", "implica", "Having more options doesn't necessarily [mean] being freer.", "«Implicar»: tener como consecuencia lógica.", ["significa", "supone", "equivale a"]),
   ],
   "psychology-emotions-1": [
-    fe("Siente una profunda ___ hacia su padre: lo admira y lo resiente a la vez.", "ambivalencia", "He feels a deep [ambivalence] towards his father: he admires and resents him at the same time.", "Ambivalencia: sentimientos opuestos hacia lo mismo."),
+    fe("Siente una profunda ___ hacia su padre: lo admira y le guarda rencor a la vez.", "ambivalencia", "He feels a deep [ambivalence] towards his father: he admires and resents him at the same time.", "Ambivalencia: sentimientos opuestos hacia lo mismo."),
     fe("Fumar sabiendo que es dañino genera disonancia ___.", "cognitiva", "Smoking while knowing it's harmful creates cognitive [dissonance].", "«Disonancia cognitiva»: malestar entre creencia y conducta."),
   ],
   "psychology-emotions-2": [
@@ -718,7 +718,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Lo pillaron con las manos en la ___.", "masa", "They caught him [red-handed].", "«Con las manos en la masa»: en flagrante delito."),
   ],
   "c2r-challenge-text-detective": [
-    fe("En palabras ___, el concejal afirmó que el proyecto mejorará la movilidad.", "textuales", "In [his own] words, the councillor stated that the project will improve mobility.", "«En palabras textuales»: cita literal.", ["literales", "suyas"]),
+    fe("En palabras ___, el concejal afirmó que el proyecto mejorará la movilidad.", "textuales", "In his [exact] words, the councillor stated that the project will improve mobility.", "«En palabras textuales»: cita literal.", ["literales"]),
     fe("Es cierto que el tráfico es un problema; ___, talar el parque no es la solución.", "ahora bien", "It's true that traffic is a problem; [that said], cutting down the park is not the solution.", "Concesión seguida de refutación.", ["sin embargo", "no obstante", "pero"]),
   ],
   "c2r-challenge-argue-to-the-limit": [

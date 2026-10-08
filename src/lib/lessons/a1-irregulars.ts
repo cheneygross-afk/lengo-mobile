@@ -326,7 +326,7 @@ export const A1_IRREGULARS: AnchoredLesson[] = [
             "\"Do you know this song?\"",
             ["¿Conoces esta canción?", "¿Sabes esta canción?", "¿Conoces a esta canción?", "¿Sabes a esta canción?"],
             0,
-            "Being familiar with a song → conocer, and no a because a song isn't a person. Saber a canción would mean knowing it by heart, which isn't what's asked."
+            "Being familiar with a song → conocer, and no a because a song isn't a person. Saber una canción would mean knowing it by heart, which isn't what's asked."
           ),
         ]
       ),
@@ -411,7 +411,7 @@ export const A1_IRREGULARS: AnchoredLesson[] = [
       sec(
         "One conjugated verb, one infinitive",
         [
-          "To say can, want to, need to, have to or should, conjugate the first verb and put the second one in the infinitive (the -ar, -er, -ir form). Nothing goes between them except que in tener que.",
+          "To say can, want to, need to, have to or should, conjugate the first verb and put the second one in the infinitive (the -ar, -er, -ir form). Nothing goes between them except a linking word in a few fixed verbs: que in tener que, de in acabar de / dejar de.",
           "Poder (o → ue) and querer (e → ie) are stem-changers; necesitar and deber are regular.",
         ],
         [

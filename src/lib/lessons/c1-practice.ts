@@ -53,7 +53,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   // ---- Aunque y otras concesivas ---------------------------------------
   "concessive-aunque-1": [
     fe("Aunque ___ toda la noche, no aprobó el examen.", "estudió", "Although she [studied] all night, she didn't pass the exam.", "En la narración de hechos pasados ya conocidos, «aunque» va con indicativo.", ["había estudiado", "estuvo estudiando"]),
-    fe("Aunque ___ tarde, todavía podemos llegar.", "es", "Although it [is] late, we can still make it.", "Aunque + indicativo: el hablante presenta como dato compartido que ya es tarde."),
+    fe("Aunque ___ tarde, todavía podemos llegar.", "es", "Although it [is] late, we can still make it.", "Aunque + indicativo: el hablante afirma como hecho que ya es tarde."),
     fe("Aunque no lo ___, es una persona muy tímida.", "parece", "Although he doesn't [seem] like it, he is a very shy person.", "Indicativo: se presenta como hecho constatado, no como suposición.", ["aparenta"]),
   ],
   "concessive-aunque-2": [
@@ -94,7 +94,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   ],
   "nominalization-part-1-3": [
     fe("La ___ del sistema exige un equipo especializado.", "complejidad", "The [complexity] of the system requires a specialized team.", "Complejo → la complejidad: el sufijo culto -dad forma sustantivos abstractos a partir de adjetivos."),
-    fe("El ___ de la nueva sede llevará dos años.", "establecimiento", "The [establishment] of the new headquarters will take two years.", "Establecer → el establecimiento: -miento se combina preferentemente con verbos en -er/-ir."),
+    fe("El ___ de la nueva sede llevará dos años.", "establecimiento", "The [establishment] of the new headquarters will take two years.", "Establecer → el establecimiento: -miento se combina con verbos de las tres conjugaciones (también nombrar → nombramiento)."),
     fe("Nos impresionó la ___ del paisaje.", "belleza", "We were struck by the [beauty] of the landscape.", "Bello → la belleza: -eza, de raíz patrimonial, nominaliza adjetivos con un matiz más cotidiano.", ["hermosura"]),
   ],
   "c1r-transform-verb-to-noun": [
@@ -179,14 +179,14 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Ayer ___ el nuevo hospital.", "se inauguró", "The new hospital [was opened] yesterday.", "El se pasivo sustituye de forma natural a «fue inaugurado» cuando el agente no interesa.", ["se abrió"]),
   ],
   "c1r-transform-three-passives": [
-    fe("___ que las obras concluyan antes del verano.", "Se espera", "[It is expected] that the works will be completed before summer.", "Se impersonal con verbo de pensamiento o lengua; la subordinada va en subjuntivo («concluyan»).", ["Se prevé"]),
+    fe("___ que las obras concluyan antes del verano.", "Se espera", "[It is expected] that the works will be completed before summer.", "Se impersonal con verbo de expectativa («esperar», «prever»); con «se espera que» la subordinada va en subjuntivo («concluyan»).", ["Se prevé"]),
   ],
   "c1r-error-hunt-se-agreement": [
     fe("___ habitaciones para estudiantes.", "Se alquilan", "Rooms [for rent] for students.", "Se pasivo: el verbo concuerda con la cosa (habitaciones), así que va en plural; ✗ «se alquila habitaciones»."),
   ],
   "passive-impersonal-mastery-3": [
     fe("___ a los vecinos sobre las obras.", "Se informó", "The residents [were informed] about the works.", "Complemento de persona con «a»: se impersonal, siempre en singular aunque sean muchos vecinos.", ["Se avisó", "Se ha informado"]),
-    fe("___ a un especialista en la materia.", "Se necesita", "A specialist in the field [is needed].", "Se impersonal con complemento de persona marcado por «a»: el verbo queda en singular.", ["Se busca", "Se requiere"]),
+    fe("___ a los especialistas en la materia.", "Se necesita", "The specialists in the field [are needed].", "Se impersonal con complemento de persona marcado por «a»: el verbo queda en singular.", ["Se busca", "Se requiere"]),
   ],
   "passive-impersonal-mastery-4": [
     fe("La puerta ___ por el vigilante a las diez.", "fue cerrada", "The door [was closed] by the guard at ten.", "Ser + participio narra un proceso con agente y momento concretos."),
@@ -635,7 +635,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Conviene ___ el término de mayor alcance geográfico.", "priorizar", "It's best to [prioritize] the term with the widest geographic reach.", "«Priorizar un término»: darle preferencia.", ["preferir", "elegir"]),
   ],
   "regional-lexical-variation-6": [
-    fe("¿Pedimos un ___ o vamos caminando?", "colectivo", "Shall we get a [bus] or walk? (Argentina)", "En Argentina el autobús urbano es «el colectivo»."),
+    fe("¿Tomamos un ___ o vamos caminando?", "colectivo", "Shall we take a [bus] or walk? (Argentina)", "En Argentina el autobús urbano es «el colectivo»."),
     fe("Voy a tomar el ___ para ir al trabajo.", "camión", "I'm going to take the [bus] to work. (Mexico)", "En México, «camión» es también el autobús urbano."),
     fe("Lo mejor es preguntar sin ___ cuando algo no te cierra.", "pena", "It's best to ask [without feeling embarrassed] when something doesn't add up.", "En México y Centroamérica, «pena» significa vergüenza.", ["vergüenza", "miedo", "reparos"]),
     fe("Nadie espera que ___ todas las palabras de cada país.", "sepas", "Nobody expects you [to know] every word from every country.", "Esperar que + subjuntivo.", ["conozcas"]),

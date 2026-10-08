@@ -116,7 +116,7 @@ export const EN_B2_U17: Lesson[] = [
         body: [
           "\"However\" («sin embargo») links two separate sentences. It usually goes at the start of the second sentence, followed by a comma: \"The hotel was expensive. However, it was worth it.\"",
           "\"Nevertheless\" and \"nonetheless\" («no obstante») mean the same but are more formal. In conversation, people prefer \"even so\" or \"still\" («aun así»): \"It was expensive. Even so, we bought it.\"",
-          "\"However\" is not a conjunction like \"but\". In careful writing you cannot join two clauses with a comma and \"however\"; use a full stop or a semicolon: \"It was expensive; however, we bought it.\" You will practise this in the punctuation lesson.",
+          "\"However\" is not a conjunction like \"but\". In careful writing you cannot join two clauses with a comma and \"however\"; use a full stop or a semicolon: \"It was expensive; however, we bought it.\" You will practice this in the punctuation lesson.",
           "In speech, \"though\" at the end of a sentence does the same job: \"The food was great. The service was slow, though.\"",
         ],
         examples: [
@@ -2179,7 +2179,7 @@ export const EN_B2_U17: Lesson[] = [
           "\"Moreover\" starts a new sentence",
         ],
         modelAnswer: "The city is beautiful, and the food is great. However, it is very expensive; therefore, many young people leave. Moreover, the rents keep going up.",
-        explanation: "Only \"and\", \"but\" and \"so\" can join sentences after a comma. Sentence linkers need a full stop or a semicolon before them.",
+        explanation: "Only coordinating conjunctions (and, but, so, or, yet) can join sentences after a comma. Sentence linkers need a full stop or a semicolon before them.",
       },
       {
         type: "speak",

@@ -1444,7 +1444,7 @@ export const EN_B1_U09: Lesson[] = [
         prompt: "Translate into English.",
         source: "Si hubiéramos salido antes, no habríamos perdido el tren.",
         answer: "If we had left earlier, we wouldn't have missed the train.",
-        altAnswers: ["We wouldn't have missed the train if we had left earlier.", "If we had left before, we wouldn't have missed the train."],
+        altAnswers: ["We wouldn't have missed the train if we had left earlier."],
         explanation: "Third conditional with a negative result. «Perder» a train is \"miss\".",
       },
       {

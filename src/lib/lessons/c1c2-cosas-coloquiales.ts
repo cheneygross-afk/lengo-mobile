@@ -9,14 +9,14 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "level": "C1/C2",
     "number": 1,
     "title": "Fiestas y Tradiciones del Mundo Hispano, Part 1 of 3",
-    "summary": "Un recorrido por las celebraciones que marcan el calendario cultural hispano -- su origen, sus rituales y el lenguaje coloquial que las acompaña -- para entender no solo qué se festeja, sino por qué importa tanto.",
+    "summary": "Un recorrido por las celebraciones que marcan el calendario cultural hispano —su origen, sus rituales y el lenguaje coloquial que las acompaña— para entender no solo qué se festeja, sino por qué importa tanto.",
     "duration": "8 min",
     "sections": [
       {
         "heading": "El calendario festivo como mapa cultural",
         "body": [
-          "En el mundo hispano, el calendario no organiza solo el trabajo y el descanso: marca un ciclo de celebraciones que cada comunidad hereda, adapta y defiende como parte de su identidad. Entender una fiesta no es solo saber su fecha, sino entender qué necesidad colectiva satisface -- honrar a los muertos, cerrar un ciclo agrícola, celebrar la fe o simplemente reunir a la familia.",
-          "Lo que sorprende a quien aprende español desde fuera es la cantidad de vocabulario cotidiano que nace directamente de estas celebraciones. Expresiones que hoy se usan sin pensar en su origen festivo -- para describir un ambiente animado, una reunión numerosa o una época de abundancia -- vienen casi siempre de una fiesta concreta."
+          "En el mundo hispano, el calendario no organiza solo el trabajo y el descanso: marca un ciclo de celebraciones que cada comunidad hereda, adapta y defiende como parte de su identidad. Entender una fiesta no es solo saber su fecha, sino entender qué necesidad colectiva satisface: honrar a los muertos, cerrar un ciclo agrícola, celebrar la fe o simplemente reunir a la familia.",
+          "Lo que sorprende a quien aprende español desde fuera es la cantidad de vocabulario cotidiano que nace directamente de estas celebraciones. Expresiones que hoy se usan sin pensar en su origen festivo —para describir un ambiente animado, una reunión numerosa o una época de abundancia— vienen casi siempre de una fiesta concreta."
         ],
         "examples": [
           {
@@ -54,7 +54,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El Día de los Muertos: honrar sin llorar",
         "body": [
-          "En México y parte de Centroamérica, el Día de los Muertos (1 y 2 de noviembre) invierte la lógica del duelo: en lugar de guardar silencio ante la muerte, se le habla, se le ofrece comida favorita y se le recibe con música. El altar u ofrenda -- con fotos, flores de cempasúchil, pan de muerto y los platillos preferidos del difunto -- no es un monumento triste, sino una invitación a que el alma regrese por una noche.",
+          "En México y parte de Centroamérica, el Día de los Muertos (1 y 2 de noviembre) invierte la lógica del duelo: en lugar de guardar silencio ante la muerte, se le habla, se le ofrece comida favorita y se le recibe con música. El altar u ofrenda —con fotos, flores de cempasúchil, pan de muerto y los platillos preferidos del difunto— no es un monumento triste, sino una invitación a que el alma regrese por una noche.",
           "Las calaveras literarias, versos satíricos que se dedican en broma a personas vivas imaginando su muerte, muestran algo esencial de esta tradición: el humor no es una falta de respeto hacia la muerte, sino una manera culturalmente aceptada de quitarle el miedo. Quien no entiende esta lógica puede confundir la fiesta con un Halloween mexicano, cuando en realidad responde a una cosmovisión completamente distinta."
         ],
         "examples": [
@@ -114,7 +114,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "level": "C1/C2",
     "number": 2,
     "title": "Fiestas y Tradiciones del Mundo Hispano, Part 2 of 3",
-    "summary": "Un recorrido por las celebraciones que marcan el calendario cultural hispano -- su origen, sus rituales y el lenguaje coloquial que las acompaña -- para entender no solo qué se festeja, sino por qué importa tanto.",
+    "summary": "Un recorrido por las celebraciones que marcan el calendario cultural hispano —su origen, sus rituales y el lenguaje coloquial que las acompaña— para entender no solo qué se festeja, sino por qué importa tanto.",
     "duration": "8 min",
     "sections": [
       {
@@ -159,8 +159,8 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Nochevieja, carnaval y fiestas patronales: ciclos que se repiten",
         "body": [
-          "Cada celebración cumple una función distinta en el calendario emocional de una comunidad. La Nochevieja española, con sus doce uvas -- una por cada campanada del reloj, para atraer suerte en los doce meses siguientes --, marca un cierre y una promesa. El carnaval, con sus disfraces y su permiso temporal para invertir las jerarquías sociales, ofrece una válvula de escape antes de la disciplina de la Cuaresma. Las fiestas patronales de cada pueblo, en cambio, refuerzan la identidad local frente al resto del país.",
-          "Estas tres lógicas -- cierre de ciclo, inversión temporal del orden y afirmación de identidad local -- se repiten, con variaciones, en casi cualquier fiesta del calendario hispano. Reconocerlas ayuda a entender celebraciones nuevas incluso sin conocer su historia particular."
+          "Cada celebración cumple una función distinta en el calendario emocional de una comunidad. La Nochevieja española, con sus doce uvas —una por cada campanada del reloj, para atraer suerte en los doce meses siguientes—, marca un cierre y una promesa. El carnaval, con sus disfraces y su permiso temporal para invertir las jerarquías sociales, ofrece una válvula de escape antes de la disciplina de la Cuaresma. Las fiestas patronales de cada pueblo, en cambio, refuerzan la identidad local frente al resto del país.",
+          "Estas tres lógicas —cierre de ciclo, inversión temporal del orden y afirmación de identidad local— se repiten, con variaciones, en casi cualquier fiesta del calendario hispano. Reconocerlas ayuda a entender celebraciones nuevas incluso sin conocer su historia particular."
         ],
         "examples": [
           {
@@ -245,7 +245,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "level": "C1/C2",
     "number": 3,
     "title": "Fiestas y Tradiciones del Mundo Hispano, Part 3 of 3",
-    "summary": "Un recorrido por las celebraciones que marcan el calendario cultural hispano -- su origen, sus rituales y el lenguaje coloquial que las acompaña -- para entender no solo qué se festeja, sino por qué importa tanto.",
+    "summary": "Un recorrido por las celebraciones que marcan el calendario cultural hispano —su origen, sus rituales y el lenguaje coloquial que las acompaña— para entender no solo qué se festeja, sino por qué importa tanto.",
     "duration": "5 min",
     "sections": [
       {
@@ -257,7 +257,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "Iker: Jaja, entiendo. Por cierto, ¿al final fuiste a la procesión del Jueves Santo?",
           "Renata: Fui, pero como espectadora nada más. Mi tía sí participó, y te juro que a ella la procesión le va por dentro: parece tranquila pero se emociona muchísimo cada año.",
           "Iker: Se nota que para tu familia es algo muy serio.",
-          "Renata: Totalmente. Y ya en marzo nos vamos de fiestas patronales al pueblo de mi abuelo -- esa sí que es una semana entera de ponerse las botas."
+          "Renata: Totalmente. Y ya en marzo nos vamos de fiestas patronales al pueblo de mi abuelo: esa sí que es una semana entera de ponerse las botas."
         ]
       },
       {
@@ -334,7 +334,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar la frase correcta.",
         "words": [
-          "mi",
+          "Mi",
           "abuela",
           "siempre",
           "echa",
@@ -342,10 +342,10 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "casa",
           "por",
           "la",
-          "ventana"
+          "ventana."
         ],
         "translation": "My grandmother always spares no expense.",
-        "explanation": "El orden correcto es «mi abuela siempre echa la casa por la ventana», que expresa gastar sin límite para celebrar algo con generosidad."
+        "explanation": "El orden correcto es «Mi abuela siempre echa la casa por la ventana», que expresa gastar sin límite para celebrar algo con generosidad."
       },
       {
         "type": "translate",
@@ -412,7 +412,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "heading": "Horarios que rompen las expectativas",
         "body": [
           "En España, comer a las dos de la tarde y cenar a las nueve o diez de la noche no es excepcional, sino la norma. Ese desfase horario, tan distinto al de buena parte de Europa o de Estados Unidos, organiza también el ocio: el aperitivo antes de comer, la siesta después y una vida nocturna que empieza cuando en otros países ya se apagan las luces.",
-          "En Latinoamérica los horarios varían más según el país, pero la comida principal del mediodía -- el almuerzo -- suele conservar un peso simbólico que la cena no tiene: es la comida que reúne a la familia entre semana, mientras que la cena, más ligera, muchas veces se resuelve rápido o incluso se omite."
+          "En Latinoamérica los horarios varían más según el país, pero la comida principal del mediodía —el almuerzo— suele conservar un peso simbólico que la cena no tiene: es la comida que reúne a la familia entre semana, mientras que la cena, más ligera, muchas veces se resuelve rápido o incluso se omite."
         ],
         "examples": [
           {
@@ -549,15 +549,16 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "type": "word-order",
             "prompt": "Ordena las palabras para formar la frase correcta.",
             "words": [
-              "este",
+              "Este",
               "examen",
               "va",
               "a",
               "ser",
               "pan",
-              "comido"
+              "comido."
             ],
-            "explanation": "El orden correcto es «este examen va a ser pan comido», usando la expresión que significa que algo será muy fácil."
+            "translation": "This exam is going to be a piece of cake.",
+            "explanation": "El orden correcto es «Este examen va a ser pan comido», usando la expresión que significa que algo será muy fácil."
           }
         ]
       }
@@ -710,7 +711,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar la frase correcta.",
         "words": [
-          "el",
+          "El",
           "domingo",
           "nos",
           "fuimos",
@@ -718,10 +719,10 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "tapas",
           "por",
           "el",
-          "centro"
+          "centro."
         ],
         "translation": "On Sunday we went out for tapas around downtown.",
-        "explanation": "El orden correcto es «el domingo nos fuimos de tapas por el centro», usando la expresión que describe salir a comer raciones pequeñas en varios bares."
+        "explanation": "El orden correcto es «El domingo nos fuimos de tapas por el centro», usando la expresión que describe salir a comer raciones pequeñas en varios bares."
       }
     ]
   },
@@ -776,7 +777,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "heading": "El barrio, la hinchada y la identidad",
         "body": [
           "Un equipo de fútbol rara vez es solo un club deportivo: suele condensar identidad de barrio, clase social o incluso postura política, como en los clásicos que enfrentan a equipos históricamente asociados con distintos sectores de una misma ciudad. Ser hincha no es una preferencia neutral, sino una pertenencia que se hereda casi como el apellido.",
-          "La hinchada -- el conjunto de aficionados que sigue a un equipo con devoción -- desarrolla sus propios rituales: cánticos, banderas, una jerga particular para insultar amistosamente al rival. Entender este vocabulario ayuda a leer no solo un partido, sino una parte importante del tejido social de cada país."
+          "La hinchada —el conjunto de aficionados que sigue a un equipo con devoción— desarrolla sus propios rituales: cánticos, banderas, una jerga particular para insultar amistosamente al rival. Entender este vocabulario ayuda a leer no solo un partido, sino una parte importante del tejido social de cada país."
         ],
         "examples": [
           {
@@ -856,7 +857,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Del comentarista al político: metáforas prestadas",
         "body": [
-          "Los periodistas deportivos han desarrollado un registro propio, lleno de imágenes dramáticas -- \"un partido de infarto\", \"jugarse todo a una carta\", \"remontar el marcador\" -- que después migra hacia otros ámbitos. Un político puede \"remontar\" en las encuestas, un estudiante puede \"jugarse todo\" en un examen final, y una empresa puede vivir \"un cierre de año de infarto\".",
+          "Los periodistas deportivos han desarrollado un registro propio, lleno de imágenes dramáticas —\"un partido de infarto\", \"jugarse todo a una carta\", \"remontar el marcador\"— que después migra hacia otros ámbitos. Un político puede \"remontar\" en las encuestas, un estudiante puede \"jugarse todo\" en un examen final, y una empresa puede vivir \"un cierre de año de infarto\".",
           "Esta circulación constante entre el lenguaje deportivo y el resto de la vida pública demuestra que el fútbol no compite con otros ámbitos culturales: los alimenta. Reconocer el origen deportivo de una expresión, aunque se use fuera del campo, ayuda a captar toda la intensidad emocional que conlleva."
         ],
         "examples": [
@@ -1005,17 +1006,17 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar la frase correcta.",
         "words": [
-          "el",
+          "El",
           "entrenador",
           "se",
           "jugó",
           "todo",
           "a",
           "una",
-          "carta"
+          "carta."
         ],
         "translation": "The coach risked everything on one decision.",
-        "explanation": "El orden correcto es «el entrenador se jugó todo a una carta», usando la expresión que significa arriesgarlo todo en una sola decisión."
+        "explanation": "El orden correcto es «El entrenador se jugó todo a una carta», usando la expresión que significa arriesgarlo todo en una sola decisión."
       },
       {
         "type": "translate",
@@ -1042,7 +1043,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "heading": "Ritmos que son mapas y también son historia",
         "body": [
           "Cada región del mundo hispano tiene un género musical que funciona casi como un documento de identidad: el tango en el Río de la Plata, la salsa en el Caribe, el flamenco en Andalucía, la cumbia en Colombia, el reguetón como fenómeno panhispano más reciente. Estos géneros no son solo entretenimiento: condensan historias de migración, mestizaje y resistencia cultural.",
-          "Entender esta relación entre música y territorio ayuda a leer mejor conversaciones cotidianas, porque los hispanohablantes suelen dar por hecho ciertas asociaciones -- que el tango es melancólico, que la cumbia es festiva, que el flamenco exige cierta solemnidad -- sin necesidad de explicarlas."
+          "Entender esta relación entre música y territorio ayuda a leer mejor conversaciones cotidianas, porque los hispanohablantes suelen dar por hecho ciertas asociaciones —que el tango es melancólico, que la cumbia es festiva, que el flamenco exige cierta solemnidad— sin necesidad de explicarlas."
         ],
         "examples": [
           {
@@ -1310,17 +1311,17 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar la frase correcta.",
         "words": [
-          "esa",
+          "Esa",
           "canción",
           "está",
           "pegada",
           "en",
           "todas",
           "las",
-          "fiestas"
+          "fiestas."
         ],
         "translation": "That song is all the rage at every party.",
-        "explanation": "El orden correcto es «esa canción está pegada en todas las fiestas», usando la expresión latinoamericana que significa estar de moda o sonar constantemente (en España se diría más bien «esa canción está pegando fuerte»)."
+        "explanation": "El orden correcto es «Esa canción está pegada en todas las fiestas», usando la expresión latinoamericana que significa estar de moda o sonar constantemente (en España se diría más bien «esa canción está pegando fuerte»)."
       },
       {
         "type": "translate",
@@ -1347,7 +1348,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "heading": "Creer sin creer del todo",
         "body": [
           "La mayoría de los hispanohablantes dirá que no cree en supersticiones y, sin embargo, tocará madera después de decir que algo va bien, evitará pasar bajo una escalera o dudará antes de regalar un cuchillo sin recibir una moneda a cambio. Esta contradicción no es hipocresía: es la manera en que una cultura conserva rituales heredados incluso después de que la creencia original se ha debilitado.",
-          "Entender estas costumbres no requiere creer en ellas, pero sí reconocerlas, porque aparecen constantemente en conversaciones informales, chistes y hasta decisiones cotidianas -- como evitar programar una boda o una mudanza en una fecha considerada de mala suerte."
+          "Entender estas costumbres no requiere creer en ellas, pero sí reconocerlas, porque aparecen constantemente en conversaciones informales, chistes y hasta decisiones cotidianas —como evitar programar una boda o una mudanza en una fecha considerada de mala suerte—."
         ],
         "examples": [
           {
@@ -1386,7 +1387,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "heading": "Fechas y números que pesan más de lo que deberían",
         "body": [
           "El martes trece concentra en el mundo hispano la mala fama que en otras culturas recae sobre el viernes trece, con el refrán \"martes trece, ni te cases ni te embarques\" advirtiendo contra decisiones importantes ese día. El número trece en general arrastra una reputación ambigua, mientras que otros números, como el siete, se asocian con la buena fortuna en juegos y apuestas.",
-          "Estas asociaciones numéricas y de calendario no son uniformes en todo el mundo hispano -- varían entre países y regiones --, pero comparten una lógica común: ciertas fechas concentran un peso simbólico que influye en decisiones tan prácticas como fijar el día de una boda o firmar un contrato importante."
+          "Estas asociaciones numéricas y de calendario no son uniformes en todo el mundo hispano —varían entre países y regiones—, pero comparten una lógica común: ciertas fechas concentran un peso simbólico que influye en decisiones tan prácticas como fijar el día de una boda o firmar un contrato importante."
         ],
         "examples": [
           {
@@ -1466,7 +1467,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Rituales de protección y buena fortuna",
         "body": [
-          "Frente a la mala suerte, existen también rituales concretos para atraer la buena fortuna: llevar la ropa interior de un color específico en año nuevo, guardar una figura religiosa boca abajo hasta que se cumpla un deseo, o colgar un amuleto contra el mal de ojo -- la creencia de que una mirada envidiosa puede causar daño, especialmente a los niños pequeños.",
+          "Frente a la mala suerte, existen también rituales concretos para atraer la buena fortuna: llevar la ropa interior de un color específico en año nuevo, guardar una figura religiosa boca abajo hasta que se cumpla un deseo, o colgar un amuleto contra el mal de ojo —la creencia de que una mirada envidiosa puede causar daño, especialmente a los niños pequeños—.",
           "El mal de ojo merece mención especial porque, a diferencia de otras supersticiones más folclóricas, sigue teniendo peso real en la vida cotidiana de muchas familias: no es raro escuchar a alguien explicar el llanto inconsolable de un bebé, o una racha de mala suerte, atribuyéndolo a esta causa."
         ],
         "examples": [
@@ -1615,24 +1616,24 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar la frase correcta.",
         "words": [
-          "hoy",
+          "Hoy",
           "es",
           "martes",
-          "trece",
+          "trece,",
           "así",
           "que",
           "ten",
-          "cuidado"
+          "cuidado."
         ],
         "translation": "Today is Tuesday the 13th, so be careful.",
-        "explanation": "El orden correcto es «hoy es martes trece, así que ten cuidado». En el mundo hispano el día de mala suerte es el martes 13, no el viernes 13 de la tradición anglosajona, así que la traducción conserva el martes."
+        "explanation": "El orden correcto es «Hoy es martes trece, así que ten cuidado». En el mundo hispano el día de mala suerte es el martes 13, no el viernes 13 de la tradición anglosajona, así que la traducción conserva el martes."
       },
       {
         "type": "translate",
         "direction": "en-es",
         "prompt": "Traduce la frase al español usando una expresión coloquial de la lección.",
-        "source": "Don't say that out loud, you're going to jinx it -- knock on wood.",
-        "answer": "No lo digas en voz alta, vas a traer mala suerte -- toca madera.",
+        "source": "Don't say that out loud, you're going to jinx it — knock on wood.",
+        "answer": "No lo digas en voz alta, vas a traer mala suerte; toca madera.",
         "altAnswers": [
           "No lo digas en voz alta, vas a traer mala suerte, toca madera",
           "No lo digas en voz alta, que lo vas a gafar, toca madera",
@@ -1678,9 +1679,9 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "heading": "Formas de trato: tú, usted y algo más",
         "body": [
           "Más allá del conocido contraste tú/usted, cada región matiza el trato con sus propios usos: en España el \"tú\" se extiende hoy incluso a desconocidos jóvenes, mientras que en gran parte de Latinoamérica el \"usted\" se mantiene como señal de respeto hacia mayores, jefes o personas recién conocidas.",
-          "En Colombia y Costa Rica es común usar \"usted\" incluso entre amigos cercanos y en pareja, sin que eso implique distancia -- es simplemente el trato por defecto.",
+          "En Colombia y Costa Rica es común usar \"usted\" incluso entre amigos cercanos y en pareja, sin que eso implique distancia: es simplemente el trato por defecto.",
           "Los títulos de cortesía (don, doña, señor, señora) todavía se emplean con personas mayores o de mayor jerarquía, seguidos a veces del nombre de pila: \"don Carlos\", \"doña Marta\".",
-          "Pasar de usted a tú --tutear a alguien-- suele ser una decisión explícita: \"¿Nos tuteamos?\" es una pregunta perfectamente normal para proponer mayor confianza."
+          "Pasar de usted a tú —tutear a alguien— suele ser una decisión explícita: \"¿Nos tuteamos?\" es una pregunta perfectamente normal para proponer mayor confianza."
         ],
         "examples": [
           {
@@ -1710,7 +1711,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Ser buen invitado (y buen anfitrión)",
         "body": [
-          "La hospitalidad hispana tiene sus propios códigos no escritos. Llegar \"a la hora\" a una cena informal en muchos países de Latinoamérica puede significar llegar 15 o 20 minutos tarde -- llegar puntual a veces se interpreta como demasiado ansioso.",
+          "La hospitalidad hispana tiene sus propios códigos no escritos. Llegar \"a la hora\" a una cena informal en muchos países de Latinoamérica puede significar llegar 15 o 20 minutos tarde: llegar puntual a veces se interpreta como demasiado ansioso.",
           "Es habitual llevar algo al ser invitado a una casa: una botella de vino, un postre o simplemente flores. Preguntar \"¿Puedo traer algo?\" es cortesía básica, aunque la respuesta típica sea \"No, no hace falta, solo tú\".",
           "Como anfitrión, insistir varias veces al ofrecer comida o bebida es parte del ritual: un primer \"no, gracias\" del invitado no siempre es definitivo, y un buen anfitrión vuelve a ofrecer.",
           "Rechazar la primera oferta de comida por cortesía y aceptar en la segunda o tercera es un patrón cultural extendido, aunque varía según la confianza entre las personas."
@@ -1784,15 +1785,15 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Cumplidos y respuestas: el ping-pong de la cortesía",
         "body": [
-          "En la cultura hispana, restar importancia a un cumplido propio es más común que aceptarlo sin más: ante \"¡Qué bien cocinas!\", una respuesta típica es \"Ay, no, qué va, cualquiera lo hace\" antes de aceptar el halago.",
+          "En la cultura hispana, restar importancia a un cumplido recibido es más común que aceptarlo sin más: ante \"¡Qué bien cocinas!\", una respuesta típica es \"Ay, no, qué va, cualquiera lo hace\" antes de aceptar el halago.",
           "Sin embargo, insistir demasiado en la modestia puede sonar falso; la fórmula equilibrada suele ser un agradecimiento breve seguido de un comentario que resta protagonismo: \"Gracias, la receta es de mi abuela\".",
           "Los cumplidos sobre el aspecto físico entre conocidos (\"Qué bien te queda ese color\") son comunes y generalmente bien recibidos, pero el contexto y la confianza determinan qué tan directo puede ser el comentario.",
-          "Cumplidos hacia terceros ausentes también cumplen una función social: hablar bien de alguien que no está presente refuerza los lazos del grupo y es vista como una virtud de buena educación."
+          "Cumplidos hacia terceros ausentes también cumplen una función social: hablar bien de alguien que no está presente refuerza los lazos del grupo y es visto como una muestra de buena educación."
         ],
         "examples": [
           {
-            "es": "¡Qué bien cocinas! -- Ay, no, qué va, cualquiera lo hace.",
-            "en": "You cook so well! -- Oh, come on, anyone could do it."
+            "es": "—¡Qué bien cocinas! —Ay, no, qué va, cualquiera lo hace.",
+            "en": "You cook so well! — Oh, come on, anyone could do it."
           },
           {
             "es": "Gracias, la receta es de mi abuela.",

@@ -1512,7 +1512,7 @@ export const EN_B1_U35: Lesson[] = [
         prompt: "Translate into English.",
         source: "Puede que llegue tarde esta noche.",
         answer: "I might be late tonight.",
-        altAnswers: ["I may be late tonight.", "I might arrive late tonight.", "I may arrive late tonight.", "I might get home late tonight.", "I could be late tonight."],
+        altAnswers: ["I may be late tonight.", "I might arrive late tonight.", "I may arrive late tonight.", "I might get home late tonight.", "I could be late tonight.", "He might be late tonight.", "She might be late tonight.", "You might be late tonight."],
         explanation: "«Puede que» + subjunctive = \"might\" or \"may\" + base form.",
       },
       {

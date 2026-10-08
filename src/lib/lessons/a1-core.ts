@@ -274,7 +274,7 @@ export const A1_CORE: AnchoredLesson[] = [
         "Alguno (some, any) and ninguno (no, none) drop the -o before a masculine noun: algún día, ningún problema. Cualquier means any at all, and cualquiera stands alone: anyone, any one.",
         [
           ["¿Tienes alguna pregunta?", "Do you have any questions?"],
-          ["Algún día vivo en la playa.", "Some day I'll live at the beach."],
+          ["Algún día voy a vivir en la playa.", "Some day I'm going to live at the beach."],
           ["No hay ningún problema.", "There's no problem at all."],
           ["Ninguno de mis amigos habla inglés.", "None of my friends speaks English."],
           ["Puedes venir cualquier día.", "You can come any day."],
@@ -377,8 +377,8 @@ export const A1_CORE: AnchoredLesson[] = [
       fe("Me ___ la espalda.", "duele", "My back [hurts].", "La espalda is singular → duele."),
       fe("Tengo dolor de ___.", "cabeza", "I have a [head]ache.", "Tener dolor de + body part."),
       fe("Mi abuelo tiene un problema de ___.", "corazón", "My grandfather has a [heart] problem.", "el corazón = the heart."),
-      toEs("My feet hurt.", "Me duelen los pies.", "Los pies is plural → duelen; Spanish uses los, not mis.", ["Me duelen mis pies."]),
-      toEs("Does your head hurt?", "¿Te duele la cabeza?", "Te duele + la cabeza.", ["¿Le duele la cabeza?", "¿Te duele tu cabeza?"]),
+      toEs("My feet hurt.", "Me duelen los pies.", "Los pies is plural → duelen; Spanish uses los, not mis."),
+      toEs("Does your head hurt?", "¿Te duele la cabeza?", "Te duele + la cabeza.", ["¿Le duele la cabeza?"]),
       toEs("It's nothing serious.", "No es nada serio.", "No… nada = nothing; serio agrees with nada (masculine).", ["No es nada grave."]),
       toEs("I have an earache and my eyes hurt.", "Tengo dolor de oído y me duelen los ojos.", "Dolor de oído; los ojos → duelen.", ["Me duele el oído y me duelen los ojos."]),
       toEn("Ten cuidado, el suelo está mojado.", "Be careful, the floor is wet.", "Ten cuidado = be careful.", ["Careful, the floor is wet."]),
@@ -490,7 +490,7 @@ export const A1_CORE: AnchoredLesson[] = [
         "Colors and other adjectives go after the noun and agree with it: una chaqueta vieja, unos zapatos nuevos.",
         [
           ["Estos zapatos son viejos, pero son cómodos.", "These shoes are old, but they're comfortable."],
-          ["Es un vestido muy especial: es de mi abuela.", "It's a very special dress: it was my grandmother's."],
+          ["Es un vestido muy especial: es de mi abuela.", "It's a very special dress: it's my grandmother's."],
           ["Esta camisa es diferente. Es un poco rara, pero es bonita.", "This shirt is different. It's a bit strange, but it's nice."],
           ["¡Qué abrigo tan lindo!", "What a lovely coat!"],
           ["Es una chaqueta hermosa.", "It's a beautiful jacket."],
@@ -649,10 +649,10 @@ export const A1_CORE: AnchoredLesson[] = [
     [
       fe("Tus bolsas están ___, en la mesa.", "ahí", "Your bags are [there], on the table.", "ahí = there, near the listener."),
       fe("El garaje está ___.", "abajo", "The garage is [downstairs].", "abajo = down, downstairs."),
-      fe("Hay un problema ___ en el coche.", "atrás", "There's a problem [in the back] of the car.", "atrás = back, behind."),
+      fe("Hay un problema en la parte de ___ del coche.", "atrás", "There's a problem at the [back] of the car.", "atrás = back, behind; la parte de atrás = the back part."),
       toEs("My room is upstairs.", "Mi habitación está arriba.", "estar for location; arriba = upstairs.", ["Mi cuarto está arriba.", "Mi dormitorio está arriba."]),
       toEs("The bus goes towards the center.", "El autobús va hacia el centro.", "hacia = towards.", ["El bus va hacia el centro.", "El autobús va hacia el centro de la ciudad."]),
-      toEs("I'm against the plan.", "Estoy contra el plan.", "estar contra = to be against.", ["Estoy en contra del plan.", "Yo estoy contra el plan.", "Yo estoy en contra del plan."]),
+      toEs("I'm against the plan.", "Estoy en contra del plan.", "estar en contra de = to be against (estar contra is also heard).", ["Estoy contra el plan.", "Yo estoy en contra del plan.", "Yo estoy contra el plan."]),
       toEn("—¿Se puede? —¡Adelante!", "May I come in? — Come in!", "Adelante! invites someone in.", ["Can I come in? — Come in!"]),
       toEn("Quiero un libro acerca de la cocina peruana.", "I want a book about Peruvian cooking.", "acerca de = about.", ["I want a book about Peruvian food.", "I'd like a book about Peruvian cooking."]),
       mt(

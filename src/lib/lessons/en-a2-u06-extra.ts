@@ -367,7 +367,8 @@ export const EN_A2_U06_EXTRA: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "Está lloviendo desde esta mañana.",
         answer: "It's been raining since this morning.",
-        explanation: "«Desde esta mañana» = \"since this morning\". Para una acción que sigue, lo natural es \"has been raining\".",
+        altAnswers: ["It has been raining since this morning.", "It has rained since this morning."],
+        explanation: "«Desde esta mañana» = \"since this morning\". Para una acción que sigue y está en marcha, lo natural es \"has been raining\" (\"has been\" + -ing, el presente perfecto continuo, que verás más adelante).",
       },
       {
         type: "translate",
@@ -768,7 +769,7 @@ export const EN_A2_U06_EXTRA: Lesson[] = [
         source: "Vivo aquí desde hace diez años; me mudé en 2016.",
         answer: "I've lived here for ten years; I moved here in 2016.",
         altAnswers: ["I've lived here for ten years. I moved here in 2016.", "I've been living here for ten years; I moved here in 2016.", "I've lived here for ten years; I moved in 2016.", "I've been living here for ten years. I moved in 2016.", "I've lived here for ten years, I moved here in 2016.", "I've been living here for ten years. I moved here in 2016."],
-        explanation: "\"For ten years\" con presente perfecto; \"in 2016\" (fecha terminada) con pasado simple. Con una fecha concreta no se usa \"ago\" ni \"since\".",
+        explanation: "\"For ten years\" con presente perfecto; \"in 2016\" (fecha terminada) con pasado simple. Con una fecha y pasado simple se usa \"in\" (\"I moved here in 2016\"); \"since 2016\" iría con presente perfecto.",
       },
     ],
   },

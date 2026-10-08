@@ -2560,13 +2560,13 @@ const A1_BASE_LESSONS: Lesson[] = [
         "type": "multiple-choice",
         "question": "Which sentence correctly says that Elena is married?",
         "options": [
-          "Elena es casada.",
+          "Elena eres casada.",
           "Elena está casada.",
           "Elena son casada.",
           "Elena estás casada."
         ],
         "correctIndex": 1,
-        "explanation": "Marital status (casado/a) pairs with estar, like the other feeling and state words in this lesson — not ser."
+        "explanation": "Estar casado/a is the most common way to say someone is married (ser casado/a is also heard). \"Eres\" and \"estás\" are tú forms, and \"son\" is plural."
       },
       {
         "type": "fill-blank",
@@ -2748,7 +2748,7 @@ const A1_BASE_LESSONS: Lesson[] = [
             "sentence": "Está en casa, ___ mis libros.",
             "answer": "sin",
             "hint": "without",
-            "explanation": "Sin means without: she's at home without my books."
+            "explanation": "Sin means without: it's at home without my books."
           }
         ]
       },
@@ -3000,7 +3000,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "body": [
           "This is the key rule that trips people up: once you pass thirty, the one-word pattern stops. From 31 onward, numbers are written as three separate words joined by y (\"and\"): treinta y uno, treinta y dos, cuarenta y cinco, and so on.",
           "The tens themselves: treinta (30), cuarenta (40), cincuenta (50), sesenta (60), setenta (70), ochenta (80), noventa (90), cien (100).",
-          "Only 16-29 get the single-word treatment (dieciséis, veintidós). 31, 42, 53, 64... always use tres separate words with y."
+          "Among tens-plus-units numbers, only 16-29 get the single-word treatment (dieciséis, veintidós). 31, 42, 53, 64... always use three separate words with y."
         ],
         "examples": [
           {
@@ -3096,7 +3096,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "ciento y uno"
         ],
         "correctIndex": 1,
-        "explanation": "Only 16-29 are written as one word in modern Spanish. Veintidós (22) is correct; 31, 42, and 101 all require separate words with y (and ciento never takes y before a number)."
+        "explanation": "Among tens-plus-units numbers, only 16-29 are written as one word in modern Spanish. Veintidós (22) is correct; 31, 42, and 101 all require separate words with y (and ciento never takes y before a number)."
       },
       {
         "type": "fill-blank",
@@ -4662,11 +4662,10 @@ const A1_BASE_LESSONS: Lesson[] = [
           "ti",
           "te",
           "gusta",
-          "la",
-          "lectura?"
+          "leer?"
         ],
         "translation": "Do you like reading?",
-        "explanation": "Lectura (an activity) is treated as singular → gusta; \"a ti\" reinforces te."
+        "explanation": "Leer (an activity) is treated as singular → gusta; \"a ti\" reinforces te."
       },
       {
         "type": "translate",
@@ -5830,9 +5829,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate to Spanish.",
         "source": "This soup tastes delicious.",
         "answer": "Esta sopa está rica.",
-        "altAnswers": [
-          "Esta sopa está rico."
-        ],
         "explanation": "Estar rico/a with food = tastes good, not ser rico (to be wealthy)."
       },
       {
@@ -6615,7 +6611,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "type": "fill-blank",
         "prompt": "Fill in the correct definite article.",
         "sentence": "___ universidad es grande.",
-        "answer": "la",
+        "answer": "La",
         "hint": "'Universidad' is feminine, even though it starts with 'u'.",
         "explanation": "'Universidad' is feminine (words ending in -dad are feminine), so it takes 'la'."
       },
@@ -6790,6 +6786,9 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate to Spanish.",
         "source": "the good books",
         "answer": "los buenos libros",
+        "altAnswers": [
+          "los libros buenos"
+        ],
         "explanation": "'Libros' is masculine plural, so both the article and 'bueno' take masculine plural endings."
       },
       {
@@ -6804,8 +6803,8 @@ const A1_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Put the words in the correct order.",
         "words": [
-          "zapatos",
           "unos",
+          "zapatos",
           "negros"
         ],
         "translation": "some black shoes",
@@ -6824,7 +6823,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Adjectives that go before the noun",
         "body": [
-          "Bueno, malo, and grande can go before the noun, and bueno/malo/grande shorten before a masculine singular noun (buen, mal, gran)."
+          "Bueno, malo, and grande can go before the noun; bueno and malo shorten before a masculine singular noun (buen, mal), and grande shortens to gran before any singular noun."
         ],
         "examples": [
           {
@@ -6898,8 +6897,8 @@ const A1_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Put the words in the correct order.",
         "words": [
-          "mano",
           "la",
+          "mano",
           "izquierda"
         ],
         "translation": "the left hand",
@@ -7716,7 +7715,7 @@ const A1_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete the question with the correctly accented word.",
             "sentence": "¿ ___ empieza la película?",
             "answer": "Cuándo",
-            "explanation": "Cuándo asks 'when' and keeps its accent even though it isn't the first word of every sentence it appears in."
+            "explanation": "Cuándo asks 'when' and always carries its accent in a question."
           },
           {
             "type": "multiple-choice",
@@ -8020,17 +8019,14 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate this question into natural English.",
         "source": "¿Cuántos años tienes?",
         "answer": "How old are you?",
-        "altAnswers": [
-          "How many years do you have?"
-        ],
         "explanation": "Literally 'how many years do you have', but the natural English equivalent is 'how old are you'."
       },
       {
         "type": "word-order",
         "prompt": "Put the words in order to form a correctly punctuated question.",
         "words": [
-          "está",
           "¿Dónde",
+          "está",
           "el",
           "baño?"
         ],
@@ -10740,7 +10736,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate this word to English.",
         "source": "casado/a",
         "answer": "married",
-        "explanation": "From the Family & location words list (Lesson 7)."
+        "explanation": "From the Feelings & states list (Lesson 6)."
       },
       {
         "type": "fill-blank",

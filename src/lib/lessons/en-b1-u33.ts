@@ -249,7 +249,7 @@ export const EN_B1_U33: Lesson[] = [
     slug: "b1-word-web-housing",
     level: "EN-B1",
     number: 2,
-    title: "Word Web: Housing & Neighbourhood",
+    title: "Word Web: Housing & Neighborhood",
     summary: "Talking about where you live: apartment and flat, detached house, rent, landlord, deposit, mortgage, move in and out, share, neighbors and noise.",
     duration: "11 min",
     sections: [
@@ -509,7 +509,7 @@ export const EN_B1_U33: Lesson[] = [
           { es: "I commute to work by train.", en: "Voy al trabajo en tren." },
           { es: "My commute takes about forty minutes.", en: "Tardo unos cuarenta minutos en llegar al trabajo." },
           { es: "The roads are always busy at rush hour.", en: "Las carreteras siempre están llenas en hora punta." },
-          { es: "Sorry I'm late. I got stuck in traffic.", en: "Perdón por el retraso. Me pillé un atasco." },
+          { es: "Sorry I'm late. I got stuck in traffic.", en: "Perdón por el retraso. Me quedé atascado en el tráfico." },
           { es: "There was a huge traffic jam on the highway.", en: "Había un atasco enorme en la autopista." },
           { es: "There's a lot of traffic today.", en: "Hay mucho tráfico hoy." },
         ],
@@ -697,7 +697,7 @@ export const EN_B1_U33: Lesson[] = [
     slug: "b1-word-web-character-behaviour",
     level: "EN-B1",
     number: 4,
-    title: "Word Web: Behaviour & Manners",
+    title: "Word Web: Behavior & Manners",
     summary: "How people behave: polite, rude, generous, stingy, mean, behave, apologize, thank and show off. Why «educado» is \"polite\", not *educated.",
     duration: "11 min",
     sections: [
@@ -886,9 +886,9 @@ export const EN_B1_U33: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["He", "is", "always", "showing", "off", "about", "his", "car."],
+        words: ["He", "is", "always", "bragging", "about", "his", "car."],
         translation: "Siempre está presumiendo de su coche.",
-        explanation: "\"Always\" goes after \"be\". \"Show off about\" something is «presumir de» something.",
+        explanation: "\"Always\" goes after \"be\". \"Brag about\" something is «presumir de» something. You can also \"show off\" something (no \"about\").",
       },
       {
         type: "listen-choose",
@@ -1718,7 +1718,7 @@ export const EN_B1_U33: Lesson[] = [
           "Socially, we \"go out for a drink\", \"meet up\", \"hang out\" and \"catch up\". Outdoors, we follow a \"path\" or \"trail\", climb a \"hill\", sit on the river \"bank\" or walk along the \"shore\", and sleep at a \"campsite\".",
         ],
         examples: [
-          { es: "It's rude to show off about your salary.", en: "Es de mala educación presumir de sueldo." },
+          { es: "It's rude to brag about your salary.", en: "Es de mala educación presumir de sueldo." },
           { es: "Don't feed the ducks bread.", en: "No les des pan a los patos." },
           { es: "We walked along the shore and then went out for a drink.", en: "Paseamos por la orilla y luego salimos a tomar algo." },
           { es: "I got bitten by mosquitoes at the campsite.", en: "Me picaron los mosquitos en el camping." },
@@ -2134,7 +2134,7 @@ export const EN_B1_U33: Lesson[] = [
     slug: "b1-themed-review-solo-travel",
     level: "EN-B1",
     number: 10,
-    title: "Themed Review: Travelling Alone",
+    title: "Themed Review: Traveling Alone",
     summary: "A spiral review around a first solo trip: future forms and time clauses, should and had better, narrative tenses, wishes and regrets, and travel vocabulary.",
     duration: "12 min",
     sections: [

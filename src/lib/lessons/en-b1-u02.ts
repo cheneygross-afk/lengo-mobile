@@ -1150,7 +1150,7 @@ export const EN_B1_U02: Lesson[] = [
       {
         heading: "Error 4: the present with \"since\" and \"for\"",
         body: [
-          "\"I am here since Monday\" and \"I know her for years\" copy the Spanish present («Estoy aquí desde el lunes», «La conozco desde hace años»). In English, a situation that started in the past and is still true needs the present perfect.",
+          "*I am here since Monday and *I know her for years copy the Spanish present («Estoy aquí desde el lunes», «La conozco desde hace años»). In English, a situation that started in the past and is still true needs the present perfect.",
           "Fix them like this: \"I've been here since Monday\", \"I've known her for years\".",
           "And the opposite error: \"ago\" never goes with the present perfect. *I've seen him two days ago becomes \"I saw him two days ago.\"",
         ],
@@ -1174,7 +1174,7 @@ export const EN_B1_U02: Lesson[] = [
     exercises: [
       {
         type: "multiple-choice",
-        question: "Correct this sentence: \"I have finished it last week.\"",
+        question: "Correct this sentence: *I have finished it last week.",
         options: ["I finished it last week.", "I have finish it last week.", "I had finished it last week.", "I've been finishing it last week."],
         correctIndex: 0,
         explanation: "\"Last week\" is finished time, so the past simple is needed: \"I finished it last week.\"",
@@ -1421,7 +1421,7 @@ export const EN_B1_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In an interview, you say: \"___, I'm working on a project for a big bank.\"",
+        question: "In an interview, you want to say «Actualmente estoy trabajando en un proyecto para un banco grande»: \"___, I'm working on a project for a big bank.\"",
         options: ["Currently", "Actually", "Actual", "In actuality"],
         correctIndex: 0,
         explanation: "\"Currently\" is «actualmente», right now. \"Actually\" and \"in actuality\" mean «en realidad», a classic false friend.",
@@ -2063,7 +2063,7 @@ export const EN_B1_U02: Lesson[] = [
         prompt: "Translate into English.",
         source: "Hoy he escrito tres correos.",
         answer: "I have written three emails today.",
-        altAnswers: ["Today I have written three emails.", "I have sent three emails today.", "Today I have sent three emails."],
+        altAnswers: ["Today I have written three emails."],
         explanation: "A number of finished results in a period that isn't over: present perfect simple.",
       },
       {

@@ -542,7 +542,7 @@ export const EN_B2_U25: Lesson[] = [
         body: [
           "\"Fake news\" is false information presented as news. It is uncountable too: \"There is a lot of fake news online\", not \"many fake news\". \"Misinformation\" is false information in general; \"disinformation\" is false information spread on purpose.",
           "A newspaper that is not neutral is \"biased\", and a fair one is \"impartial\" or \"objective\". \"Sensationalist\" news exaggerates to attract readers, and \"clickbait\" is a headline designed only to make you click.",
-          "A story or video that spreads very fast online \"goes viral\" (past: \"went viral\"). \"Broadcast\" means to send out a programme on TV or radio (past: \"broadcast\"); a \"live broadcast\" is «una retransmisión en directo».",
+          "A story or video that spreads very fast online \"goes viral\" (past: \"went viral\"). \"Broadcast\" means to send out a program on TV or radio (past: \"broadcast\"); a \"live broadcast\" is «una retransmisión en directo».",
         ],
         examples: [
           { es: "There's a lot of fake news on social media.", en: "Hay muchas noticias falsas en las redes sociales." },
@@ -834,7 +834,7 @@ export const EN_B2_U25: Lesson[] = [
         type: "speak",
         text: "I'm addicted to scrolling through my feed.",
         tip: "\"Scroll\" starts with /sk/: do not add an «e» before it (\"escroll\"). Start directly with the /s/ sound.",
-        explanation: "Spanish speakers often add a vowel before s + consonant (\"escroll\", \"estop\"). Practise a hissing /s/ straight into /k/.",
+        explanation: "Spanish speakers often add a vowel before s + consonant (\"escroll\", \"estop\"). Practice a hissing /s/ straight into /k/.",
       },
     ],
   },
@@ -1032,7 +1032,7 @@ export const EN_B2_U25: Lesson[] = [
           "Gives at least one personal action and one action for governments.",
           "Uses \"should\" or \"need to\" for recommendations.",
         ],
-        modelAnswer: "I try to reduce my carbon footprint in small ways. I recycle paper, glass and plastic, and I cycle to work instead of driving. I also avoid single-use plastics when I go shopping. However, individuals can't solve climate change alone. Governments should invest much more in renewable energy, such as wind and solar power, and stop subsidising fossil fuels. They also need to protect nature by fighting deforestation, because many endangered species depend on forests. Our environment is too important to ignore.",
+        modelAnswer: "I try to reduce my carbon footprint in small ways. I recycle paper, glass and plastic, and I cycle to work instead of driving. I also avoid single-use plastics when I go shopping. However, individuals can't solve climate change alone. Governments should invest much more in renewable energy, such as wind and solar power, and stop subsidizing fossil fuels. They also need to protect nature by fighting deforestation, because many endangered species depend on forests. Our environment is too important to ignore.",
         explanation: "General nouns like \"nature\", \"pollution\" and \"climate change\" take no article, while \"the environment\" does.",
       },
       {
@@ -1063,7 +1063,7 @@ export const EN_B2_U25: Lesson[] = [
           { es: "The drought has lasted more than two years.", en: "La sequía ha durado más de dos años." },
           { es: "After the storm, the streets were flooded.", en: "Después de la tormenta, las calles estaban inundadas." },
           { es: "The tree was struck by lightning.", en: "Al árbol le cayó un rayo." },
-          { es: "We had awful weather on holiday.", en: "Tuvimos un tiempo horrible en las vacaciones." },
+          { es: "We had awful weather on vacation.", en: "Tuvimos un tiempo horrible en las vacaciones." },
         ],
         checkpoint: [
           {
@@ -2031,7 +2031,7 @@ export const EN_B2_U25: Lesson[] = [
           { es: "Checking your phone first thing in the morning is a bad habit.", en: "Mirar el móvil nada más despertarte es un mal hábito." },
           { es: "I can't stand being without Wi-Fi.", en: "No soporto estar sin wifi." },
           { es: "I'm not used to reading the news on paper.", en: "No estoy acostumbrado a leer las noticias en papel." },
-          { es: "I'm looking forward to switching off on holiday.", en: "Tengo ganas de desconectar en vacaciones." },
+          { es: "I'm looking forward to switching off on vacation.", en: "Tengo ganas de desconectar en vacaciones." },
           { es: "I don't remember posting that photo.", en: "No recuerdo haber subido esa foto." },
         ],
         checkpoint: [

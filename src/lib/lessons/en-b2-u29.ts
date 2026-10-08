@@ -70,7 +70,7 @@ export const EN_B2_U29: Lesson[] = [
           "After \"when\", \"as soon as\", \"before\", \"until\" and \"if\", English uses a present tense for the future where Spanish uses the subjunctive: «cuando llegues» is \"when you arrive\", never *when you will arrive.",
         ],
         examples: [
-          { es: "I'm meeting Ana for lunch tomorrow.", en: "Mañana como con Ana (ya lo hemos quedado)." },
+          { es: "I'm meeting Ana for lunch tomorrow.", en: "Mañana como con Ana (ya hemos quedado)." },
           { es: "The movie starts at eight.", en: "La película empieza a las ocho." },
           { es: "This time next week I'll be lying on a beach.", en: "La semana que viene a estas horas estaré tumbado en una playa." },
           { es: "By the end of the year, we'll have saved enough money.", en: "Para final de año habremos ahorrado suficiente dinero." },
@@ -1876,7 +1876,7 @@ export const EN_B2_U29: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the correct form of the word in capitals.",
-            sentence: "The meeting was ___ cancelled because of the storm. (EXPECT)",
+            sentence: "The meeting was ___ canceled because of the storm. (EXPECT)",
             answer: "unexpectedly",
             explanation: "Expect becomes expected, then \"unexpected\" (negative prefix), then the adverb \"unexpectedly\".",
           },

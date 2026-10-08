@@ -113,7 +113,7 @@ export const B1_GUIDES: GrammarGuide[] = [
       },
       {
         q: "Should I learn the Spain or Latin American usage?",
-        a: "Pick the one you hear most and be consistent. Using the preterite for today's events is never wrong in Latin America, and using the present perfect is never wrong in Spain.",
+        a: "Pick the one you hear most and be consistent. Using the preterite for today's events is never wrong in Latin America, and using the present perfect for today's events is standard in Spain.",
       },
     ],
     related: ["spanish-pluperfect", "spanish-preterite-tense", "preterite-vs-imperfect"],

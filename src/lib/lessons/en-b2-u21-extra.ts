@@ -389,7 +389,7 @@ export const EN_B2_U21_EXTRA: Lesson[] = [  // ---------------------------------
         answer: "Fewer and fewer people come to the meetings.",
         altAnswers: alts(
           "Fewer and fewer people come to the meetings.",
-          "Fewer and fewer people {come|are coming|attend|go} to the meetings.",
+          "Fewer and fewer people {come|are coming|go} to the meetings.",
           "Fewer and fewer people {attend|are attending} the meetings.",
         ),
         explanation: "\"People\" is plural, so \"fewer and fewer\" in careful English.",
@@ -402,7 +402,8 @@ export const EN_B2_U21_EXTRA: Lesson[] = [  // ---------------------------------
         answer: "The bigger the house, the harder it is to clean.",
         altAnswers: alts(
           "The bigger the house, the harder it is to clean.",
-          "The bigger the house{| is}, the {harder|longer} it {is|takes} to clean{| it}.",
+          "The bigger the house{| is}, the harder it is to clean{| it}.",
+          "The bigger the house{| is}, the longer it takes to clean{| it}.",
           "The bigger the house{| is}, the more work it is to clean.",
         ),
         explanation: "\"The bigger the house (is), the harder...\". The verb \"is\" in the first half is often left out.",

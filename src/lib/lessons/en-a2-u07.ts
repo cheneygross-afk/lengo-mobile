@@ -759,7 +759,7 @@ export const EN_A2_U07: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "There isn't much cheese, but there's no milk.",
+        audio: "There isn't much cheese, and there's no milk.",
         explanation: "\"Not much\" con incontables (\"cheese\") y \"no\" + sustantivo con el verbo en afirmativa.",
       },
       {
@@ -1675,7 +1675,7 @@ export const EN_A2_U07: Lesson[] = [
       {
         type: "speak",
         text: "I love dogs, but I don't like the dog next door.",
-        tip: "\"Dogs\" termina en /z/: /dogz/. Une \"next door\" casi como una palabra.",
+        tip: "\"Dogs\" termina en /z/: /dɔɡz/. Une \"next door\" casi como una palabra.",
         explanation: "\"Dogs\" en general, sin artículo; \"the dog next door\", uno concreto, con \"the\".",
       },
       {

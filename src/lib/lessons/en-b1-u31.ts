@@ -1109,7 +1109,7 @@ export const EN_B1_U31: Lesson[] = [
     slug: "b1-survival-car-hire",
     level: "EN-B1",
     number: 6,
-    title: "Survival: Hiring a Car & the Petrol Station",
+    title: "Survival: Renting a Car & the Gas Station",
     summary: "Renting a car, insurance, the deposit and the fuel policy, and filling up at the gas station without false friends like «depósito» and «gasolina».",
     duration: "12 min",
     sections: [
@@ -1406,7 +1406,7 @@ export const EN_B1_U31: Lesson[] = [
         ],
         examples: [
           { es: "Excuse me, this isn't what I ordered.", en: "Perdone, esto no es lo que he pedido." },
-          { es: "My steak is undercooked.", en: "Mi filete está poco hecho." },
+          { es: "My steak is undercooked.", en: "Mi filete está crudo por dentro." },
           { es: "I asked for medium, but it's well done.", en: "Lo pedí al punto, pero está muy hecho." },
           { es: "Could you take it back, please?", en: "¿Se lo podría llevar, por favor?" },
           { es: "We've been waiting for forty minutes.", en: "Llevamos cuarenta minutos esperando." },
@@ -2014,7 +2014,7 @@ export const EN_B1_U31: Lesson[] = [
     level: "EN-B1",
     number: 10,
     title: "Survival: Making Appointments",
-    summary: "Arranging, changing and cancelling appointments, using the present continuous for arrangements and polite phrases on the phone.",
+    summary: "Arranging, changing and canceling appointments, using the present continuous for arrangements and polite phrases on the phone.",
     duration: "10 min",
     sections: [
       {

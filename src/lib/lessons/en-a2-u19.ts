@@ -1045,7 +1045,7 @@ export const EN_A2_U19: Lesson[] = [
         heading: "\"Bill\", \"check\" y «billete»",
         body: [
           "En un restaurante, «la cuenta» es \"the check\" en inglés americano y \"the bill\" en británico: \"Can we have the check, please?\". \"Bill\" también es una factura: \"the electricity bill\".",
-          "Un «billete» de dinero es *a bill en Estados Unidos (\"a twenty-dollar bill\") y \"a note\" en el Reino Unido. Pero el billete de tren, avión o autobús es siempre \"a ticket\", nunca *a bill.",
+          "Un «billete» de dinero es \"a bill\" en Estados Unidos (\"a twenty-dollar bill\") y \"a note\" en el Reino Unido. Pero el billete de tren, avión o autobús es siempre \"a ticket\", nunca *a bill.",
         ],
         examples: [
           { es: "Can we have the check, please?", en: "¿Nos trae la cuenta, por favor?" },

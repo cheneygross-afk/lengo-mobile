@@ -858,7 +858,6 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         "Llevo",
         "[I've been] waiting an hour for the food.",
         "Llevar + tiempo + gerundio: cuánto tiempo dura algo que continúa.",
-        ["Llevamos"]
       ),
       fe(
         "El teléfono llegó ___ y no funciona.",
@@ -944,7 +943,7 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         [
           "Devolver un producto = to return it. Cambiar algo por otra cosa = to exchange it. Un vale (España) / una nota de crédito (América) = store credit.",
           "El plazo de devolución = the return period: Tiene treinta días para devolverlo. Muchas tiendas no aceptan devoluciones en ropa interior o productos en oferta.",
-          "La garantía = the guarantee / warranty. En la Unión Europea, los productos nuevos tienen tres años de garantía; en muchos países de América Latina la garantía legal suele ser más corta, así que pregunta: ¿Cuánto tiempo de garantía tiene?",
+          "La garantía = the guarantee / warranty. En España, los productos nuevos tienen tres años de garantía (en el resto de la UE, al menos dos); en muchos países de América Latina la garantía legal suele ser más corta, así que pregunta: ¿Cuánto tiempo de garantía tiene?",
           "Si no tienes ticket, pregunta: ¿Se puede cambiar sin ticket? A veces te dan un vale en lugar del dinero.",
         ],
         [
@@ -1116,7 +1115,7 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         "Diálogo: llamar al técnico, y palabras de cada país",
         [
           "Al llamar, di qué pasa, desde cuándo y cuándo estás disponible. Pregunta el precio aproximado: ¿Cuánto cobran por la visita?",
-          "Palabras que cambian: el fontanero (España) / el plomero (gran parte de América); el grifo (España) / la llave o la canilla (Argentina, Uruguay); la nevera o el frigorífico (España) / el refrigerador o la heladera (Argentina).",
+          "Palabras que cambian: el fontanero (España) / el plomero (gran parte de América); el grifo (España) / la llave (gran parte de América) o la canilla (Argentina, Uruguay); la nevera o el frigorífico (España) / el refrigerador o la heladera (Argentina).",
           "En los edificios de España muchas cosas las gestiona la comunidad de vecinos (the owners' association) y, en América, la administración del edificio.",
         ],
         [

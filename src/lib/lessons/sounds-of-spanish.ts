@@ -237,9 +237,9 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       lc(
         "Tuvo un problema.",
         "Listen. What does the sentence mean?",
-        ["He had a problem.", "A tube is a problem.", "He has a problem.", "You had a problem."],
+        ["He had a problem.", "A tube is a problem.", "He has a problem.", "We had a problem."],
         0,
-        "Tuvo (he had) and tubo (tube) sound exactly the same, because b = v. The grammar tells you: tuvo un problema is \"he had a problem\". \"He has\" would be tiene, and \"you had\" tuviste."
+        "Tuvo (he had) and tubo (tube) sound exactly the same, because b = v. The grammar tells you: tuvo un problema is \"he had a problem\". \"He has\" would be tiene, and \"we had\" tuvimos."
       ),
       lc(
         "Vivo en Venezuela.",
@@ -307,7 +307,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
             "How is the r in rojo pronounced?",
             ["Trilled, like rr", "A single tap, like in pero", "Like English r", "Silent"],
             0,
-            "A single r at the start of a word is always trilled, just like rr. The single tap only happens between vowels or at the end of a syllable, and English r is never used."
+            "A single r at the start of a word is always trilled, just like rr. The single tap happens between vowels, after consonants like t, d or b (tres, madre), and at the end of a syllable, and English r is never used."
           ),
         ]
       ),
@@ -846,7 +846,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
             "You hear ha-BLÓ con Ana. What does it mean?",
             ["He or she spoke with Ana", "I speak with Ana", "Speak with Ana!"],
             0,
-            "Stress on the last syllable is habló, the past: \"he or she spoke\". HA-blo would be \"I speak\", and the command is ha-BLA."
+            "Stress on the last syllable is habló, the past: \"he or she spoke\". HA-blo would be \"I speak\", and the command ¡Habla! is also HA-bla, like \"he or she speaks\"."
           ),
         ]
       ),

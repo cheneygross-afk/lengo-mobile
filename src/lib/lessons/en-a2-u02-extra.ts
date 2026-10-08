@@ -621,7 +621,7 @@ export const EN_A2_U02_EXTRA: Lesson[] = [  // ---------------------------------
             question: "¿Cómo se dice «¿Te gustó el concierto?»?",
             options: ["Did you like the concert?", "Were you like the concert?", "Was you like the concert?", "Did you liked the concert?"],
             correctIndex: 0,
-            explanation: "\"Like\" es un verbo de acción, así que la pregunta se hace con \"did\" + verbo base.",
+            explanation: "\"Like\" es un verbo normal (no es \"to be\"), así que la pregunta se hace con \"did\" + verbo base.",
           },
         ],
       },
@@ -659,7 +659,7 @@ export const EN_A2_U02_EXTRA: Lesson[] = [  // ---------------------------------
         answer: "didn't like",
         altAnswers: ["did not like", "didn't enjoy", "did not enjoy"],
         en: "[No les gustó] la comida.",
-        explanation: "\"Like\" es un verbo de acción: \"didn't like\". El sujeto en inglés es \"they\" (la persona a la que no le gusta).",
+        explanation: "\"Like\" es un verbo normal (no es \"to be\"): \"didn't like\". El sujeto en inglés es \"they\" (la persona a la que no le gusta).",
       },
       {
         type: "multiple-choice",

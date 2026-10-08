@@ -1069,11 +1069,11 @@ export const EN_B2_U07: Lesson[] = [
         heading: "Present facts: flip and step back",
         body: [
           "To turn a present fact into a wish, do two things. First, flip it: positive becomes negative and negative becomes positive. Second, move the verb one step back into the past.",
-          "\"My flat is tiny\" becomes \"I wish my flat were bigger\" (or \"I wish my flat weren't so tiny\"). \"I don't have a car\" becomes \"I wish I had a car\". \"I can't swim\" becomes \"I wish I could swim\".",
+          "\"My apartment is tiny\" becomes \"I wish my apartment were bigger\" (or \"I wish my apartment weren't so tiny\"). \"I don't have a car\" becomes \"I wish I had a car\". \"I can't swim\" becomes \"I wish I could swim\".",
           "Note the changes: \"is\" becomes \"were\", \"don't have\" becomes \"had\", and \"can't\" becomes \"could\".",
         ],
         examples: [
-          { es: "My flat is tiny. I wish my flat were bigger.", en: "Mi piso es diminuto. Ojalá fuera más grande." },
+          { es: "My apartment is tiny. I wish my apartment were bigger.", en: "Mi piso es diminuto. Ojalá fuera más grande." },
           { es: "I don't have a car. I wish I had a car.", en: "No tengo coche. Ojalá tuviera coche." },
           { es: "I can't swim. I wish I could swim.", en: "No sé nadar. Ojalá supiera nadar." },
           { es: "I live far from work. I wish I didn't live so far from work.", en: "Vivo lejos del trabajo. Ojalá no viviera tan lejos." },

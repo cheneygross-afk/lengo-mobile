@@ -79,7 +79,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
           "At the till (la caja): ¿Cómo va a pagar? — Con tarjeta / En efectivo. ¿Me da una bolsa? Some shops charge for bags.",
           "To return or exchange something, keep the ticket (el ticket, el recibo): ¿Puedo cambiarlo si no me queda bien?",
           "Words that change: a jacket is una chaqueta in Spain, una chamarra in Mexico and una campera in Argentina. A T-shirt is una camiseta in Spain, una playera in Mexico, una remera in Argentina.",
-          "Sizes: Spain and most of Latin America use European sizes (38, 40, 42) for clothes and shoes; Mexico uses its own shoe sizes (a 25 is about a European 39).",
+          "Sizes: Spain uses European sizes (38, 40, 42) for clothes and shoes, while Latin American countries vary (some use US-style or S/M/L sizing); Mexico uses its own shoe sizes (a 25 is about a European 39).",
           "In Spain shop assistants often use tú with young customers; in most of Latin America usted is more common in shops.",
         ],
         [
@@ -397,7 +397,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
             "In Spain, who is your \"médico de cabecera\"?",
             ["Your regular family doctor", "A head specialist", "The emergency doctor", "The pharmacist"],
             0,
-            "Médico de cabecera is your GP, the doctor you normally see at your health centre. Cabecera has nothing to do with cabeza here."
+            "Médico de cabecera is your GP, the doctor you normally see at your health centre. Cabecera comes from cabeza: it's the head of the bed, so a médico de cabecera was originally the doctor who came to your bedside."
           ),
         ]
       ),
@@ -1332,7 +1332,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "Asking for help",
         [
           "The short phrases: ¡Ayuda! / ¡Socorro! (Help!), ¿Me puede ayudar? (Can you help me?), Llame a una ambulancia, por favor (Please call an ambulance).",
-          "The emergency number is 112 in Spain and across the EU, 911 in Mexico, Argentina, Colombia, Chile and many other countries. Operators in tourist areas often speak English too.",
+          "The emergency number is 112 in Spain and across the EU, 911 in Mexico, Argentina and many other countries in the Americas (Colombia uses 123; Chile uses 131 for an ambulance, 132 for the fire brigade and 133 for the police). Operators in tourist areas often speak English too.",
           "On the phone, say what happened, where you are and your name: Necesito una ambulancia. Estoy en la calle Mayor, número 5.",
         ],
         [
@@ -1346,7 +1346,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
             "Which number do you call for an emergency in Spain?",
             ["112", "911", "010", "123"],
             0,
-            "112 is the general emergency number in Spain and the rest of the EU. Mexico, Argentina, Colombia and many other countries use 911."
+            "112 is the general emergency number in Spain and the rest of the EU. Mexico, Argentina and many other countries in the Americas use 911 (Colombia uses 123)."
           ),
         ]
       ),
@@ -1369,8 +1369,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
             "He ___ la cartera en el metro.",
             "perdido",
             "I've [lost] my wallet on the metro.",
-            "Perder → perdido. Present perfect because it happened today and matters now.",
-            ["dejado"]
+            "Perder → perdido. Present perfect because it happened today and matters now."
           ),
         ]
       ),

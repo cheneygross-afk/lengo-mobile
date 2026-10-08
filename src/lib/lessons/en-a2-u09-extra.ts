@@ -230,7 +230,7 @@ export const EN_A2_U09_EXTRA: Lesson[] = [
         heading: "Recordatorio: \"will\" + verbo, sin \"to\"",
         body: [
           "\"Will\" va seguido del verbo en forma base, sin \"to\" y sin \"-s\": \"I will call\", \"she will come\". *I will to call es un error típico. La forma corta es \"'ll\": \"I'll\", \"you'll\", \"she'll\", \"we'll\", \"they'll\".",
-          "La negativa es \"will not\", casi siempre \"won't\". Cuidado: \"won't\" (/wount/, «no voy a») no es \"want\" (/wont/, «quiero»). La pregunta pone \"will\" delante: \"Will you come?\".",
+          "La negativa es \"will not\", casi siempre \"won't\". Cuidado: \"won't\" (/woʊnt/, «no voy a») no es \"want\" (/wɑnt/, «quiero»). La pregunta pone \"will\" delante: \"Will you come?\".",
         ],
         examples: [
           { es: "I'll call you tomorrow.", en: "Te llamaré mañana. (incorrecto: *I will to call)" },
@@ -291,7 +291,7 @@ export const EN_A2_U09_EXTRA: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "Te ayudaré con la mudanza.",
         answer: "I'll help you with the move.",
-        altAnswers: ["I'll help you move.", "I'll help you with your move.", "I'll help you with the moving."],
+        altAnswers: ["I'll help you move.", "I'll help you with your move."],
         explanation: "Ofrecimiento con \"will\": \"I'll help you\". *I will to help es un error.",
       },
       {
@@ -300,7 +300,7 @@ export const EN_A2_U09_EXTRA: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "No se lo diré a nadie.",
         answer: "I won't tell anyone.",
-        altAnswers: ["I won't tell anybody.", "I will not tell anyone.", "I won't tell it to anyone."],
+        altAnswers: ["I won't tell anybody.", "I will not tell anyone."],
         explanation: "Promesa en negativa: \"won't\". «Nadie» tras una negativa es \"anyone\" o \"anybody\", no *nobody.",
       },
       {
@@ -424,7 +424,7 @@ export const EN_A2_U09_EXTRA: Lesson[] = [
         question: "¿Qué significa lo que has oído?",
         options: ["No llegaré tarde, lo prometo.", "No quiero llegar tarde, lo prometo.", "Llegaré tarde, lo siento.", "Quiero llegar tarde, lo prometo."],
         correctIndex: 0,
-        explanation: "\"Won't\" (/wount/) es «no + futuro»; \"want\" (/wont/) sería «quiero». Aquí es una promesa.",
+        explanation: "\"Won't\" (/woʊnt/) es «no + futuro»; \"want\" (/wɑnt/) sería «quiero». Aquí es una promesa.",
       },
       {
         type: "dictation",

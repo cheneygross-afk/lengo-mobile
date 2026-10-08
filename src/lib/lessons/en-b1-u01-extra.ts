@@ -37,8 +37,8 @@ export const EN_B1_U01_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Choose the correct spelling: \"The bus has been ___ at the corner for ten minutes.\" (stop)",
-            options: ["stopping", "stoping", "stopeing", "stopin"],
+            question: "Choose the correct spelling: \"She has been ___ at the bus stop for ten minutes.\" (sit)",
+            options: ["sitting", "siting", "siteing", "sitin"],
             correctIndex: 0,
             explanation: "A short verb ending in one vowel + one consonant doubles the consonant: \"stop\" becomes \"stopping\", \"run\" becomes \"running\".",
           },
@@ -381,7 +381,7 @@ export const EN_B1_U01_EXTRA: Lesson[] = [
         source: "Llevamos media hora hablando de lo mismo.",
         answer: "We've been talking about the same thing for half an hour.",
         altAnswers: ["We've been talking about the same thing for thirty minutes.", "We've been talking about the same thing for 30 minutes.", "We've been discussing the same thing for half an hour."],
-        explanation: "«Media hora» is \"half an hour\" (not *a half hour here, though Americans also say \"a half hour\"). \"Talk about\", never *talk of in everyday English.",
+        explanation: "«Media hora» is \"half an hour\" (Americans also say \"a half hour\"). \"Talk about\", never *talk of in everyday English.",
       },
       {
         type: "translate",

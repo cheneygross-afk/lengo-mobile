@@ -527,7 +527,7 @@ export const EN_B1_U25: Lesson[] = [
         body: [
           "Three very common words never take an article in these expressions: \"go to bed\", \"go to work\", \"at work\", \"at home\". Spanish says «me voy a la cama» and «estoy en el trabajo», but English says \"I'm going to bed\" and \"I'm at work\".",
           "\"Home\" is even more special: after verbs of movement there is no \"to\" either. Say \"go home\", \"come home\", \"get home\", never *go to home or *go to the home.",
-          "With the place itself, \"the\" returns: \"The bed is very comfortable\", \"I left my phone in the bed\".",
+          "With the place itself, \"the\" returns: \"The bed is very comfortable\", \"I left my phone on the bed\".",
         ],
         examples: [
           { es: "I'm going to bed.", en: "Me voy a la cama." },

@@ -839,7 +839,7 @@ export const EN_B1_U11: Lesson[] = [
         heading: "Should have + participle: criticism of the past",
         body: [
           "To criticize something in the past, use \"should have\" + past participle: \"You should have told me\" = «deberías habérmelo dicho» or «me lo tendrías que haber dicho». It means you didn't do it, and that was a mistake.",
-          "Spanish speakers often say \"You should told me\" or \"You should tell me yesterday\". Remember the three parts: \"should\" + \"have\" + participle (told, gone, seen, called).",
+          "Spanish speakers often say *You should told me or *You should tell me yesterday. Remember the three parts: \"should\" + \"have\" + participle (told, gone, seen, called).",
           "In speech it sounds like \"should've\" or even \"shoulda\". Some native speakers write *should of, but that's a spelling mistake: it's always \"have\".",
         ],
         examples: [

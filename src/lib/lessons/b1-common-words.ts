@@ -253,7 +253,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
       toEs("The search lasted all night.", "La búsqueda duró toda la noche.", "Search = búsqueda, con tilde en la «u».", []),
       toEn("El agente secreto aceptó la misión.", "The secret agent accepted the mission.", "Agente secreto = secret agent; aceptar la misión = accept the mission.", ["The secret agent took the mission."]),
       toEn("La fiscal pidió diez años de prisión.", "The prosecutor asked for ten years in prison.", "La fiscal = the (female) prosecutor.", ["The prosecutor requested ten years in prison.", "The prosecutor asked for ten years of prison."]),
-      wo("La policía descubrió el código del mensaje secreto.", "Descubrir un código = to crack a code.", "The police cracked the code of the secret message."),
+      wo("La policía descifró el código del mensaje secreto.", "Descifrar un código = to crack a code.", "The police cracked the code of the secret message."),
       wo("Queremos justicia para todas las víctimas.", "Pedir / querer justicia = to demand justice.", "We want justice for all the victims."),
     ]
   ),
@@ -1024,7 +1024,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "«Nos mudamos a Lima definitivamente» significa…",
             ["Nos mudamos para siempre.", "Nos mudamos quizás.", "Nos mudamos por unos días.", "Nos mudamos otra vez."],
             0,
-            "Definitivamente = de forma definitiva, para siempre. Ojo: no significa «definitely» (seguro), ni «quizás», ni «por unos días», ni «otra vez»."
+            "Definitivamente = de forma definitiva, para siempre. En esta frase no significa «definitely» (seguro), ni «quizás», ni «por unos días», ni «otra vez»."
           ),
         ]
       ),

@@ -218,7 +218,7 @@ export const EN_B2_UNIT_WRITING: Record<string, WriteExercise> = {
   u18: t(
     "You bought a product online (for example, headphones or a coat) and it arrived late and damaged. Write a formal complaint email to the company explaining what happened and what you expect them to do.",
     [
-      "A formal opening and closing (\"Dear Sir or Madam\", \"Yours faithfully\")",
+      "A formal opening and closing (\"Dear Sir or Madam\", \"Sincerely\" or, in British English, \"Yours faithfully\")",
       "A clear reason for writing in the first paragraph",
       "Formal linkers (\"furthermore\", \"in addition\", \"however\", \"therefore\")",
       "A polite but firm request (\"I would be grateful if you could...\")",
@@ -260,7 +260,7 @@ export const EN_B2_UNIT_WRITING: Record<string, WriteExercise> = {
       "Quantifiers: \"both\", \"neither\", \"each/every\", \"few/a few\", \"little/a little\"",
       "A superlative with \"by far\" or \"one of the...\"",
     ],
-    "I have lived in both Valencia and Berlin, and they are very different places. Housing in Berlin is far more expensive than in Valencia, and it is getting worse every year. In Valencia I paid slightly less for a big apartment than I pay now for a tiny room. However, public transport in Berlin is a lot better. Trains run every few minutes, whereas in Valencia buses are not as frequent as people would like. Neither city has a perfect climate: Valencia is too hot in summer and Berlin is far too cold in winter. The cost of living is higher in Berlin, but salaries are too. Valencia has few big companies, so there are fewer job opportunities, while Berlin has plenty. Each city has its own culture, and both are friendly to foreigners. In my experience, the longer you stay in a place, the more you like it. Still, for quality of life, Valencia is by far the best city I have ever lived in.",
+    "I have lived in both Valencia and Berlin, and they are very different places. Housing in Berlin is far more expensive than in Valencia, and it is getting worse every year. In Valencia I paid slightly less for a big apartment than I pay now for a tiny room. However, public transportation in Berlin is a lot better. Trains run every few minutes, whereas in Valencia buses are not as frequent as people would like. Neither city has a perfect climate: Valencia is too hot in summer and Berlin is far too cold in winter. The cost of living is higher in Berlin, but salaries are too. Valencia has few big companies, so there are fewer job opportunities, while Berlin has plenty. Each city has its own culture, and both are friendly to foreigners. In my experience, the longer you stay in a place, the more you like it. Still, for quality of life, Valencia is by far the best city I have ever lived in.",
     "Use \"far\", \"much\" or \"a lot\" to make a big difference and \"slightly\" or \"a bit\" for a small one: \"far more expensive\", never *very more expensive. \"Few\" is negative (not many), whereas \"a few\" is positive (some)."
   ),
   u22: t(

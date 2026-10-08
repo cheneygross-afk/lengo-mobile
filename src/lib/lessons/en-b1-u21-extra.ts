@@ -559,7 +559,7 @@ export const EN_B1_U21_EXTRA: Lesson[] = [
         prompt: "Translate into English.",
         source: "Fumar es muy malo para la salud.",
         answer: "Smoking is very bad for your health.",
-        altAnswers: ["Smoking is really bad for your health.", "Smoking is very bad for you.", "Smoking is very bad for the health.", "Smoking is very bad for health.", "Smoking is really bad for you."],
+        altAnswers: ["Smoking is really bad for your health.", "Smoking is very bad for you.", "Smoking is very bad for health.", "Smoking is really bad for you."],
         explanation: "The activity is the subject, so we use -ing: \"Smoking\". *Smoke is bad talks about the smoke itself.",
       },
       {

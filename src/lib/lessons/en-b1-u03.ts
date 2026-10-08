@@ -125,7 +125,7 @@ export const EN_B1_U03: Lesson[] = [
       {
         heading: "The typical mistake: the past simple everywhere",
         body: [
-          "Spanish speakers often say \"When I got home, my sister already left.\" In Spanish you would normally say «ya se había ido», so use the same logic in English: \"my sister had already left\".",
+          "Spanish speakers often say *When I got home, my sister already left. In Spanish you would normally say «ya se había ido», so use the same logic in English: \"my sister had already left\".",
           "A useful test: if you would use «había» + participle in Spanish, you almost always need \"had\" + participle in English.",
           "Remember that \"have\" is also a normal verb (\"have breakfast\", \"have a shower\"). That's why you sometimes see \"had\" twice: \"I had already had breakfast.\" It is correct.",
         ],

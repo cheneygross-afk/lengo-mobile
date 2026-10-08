@@ -1260,7 +1260,7 @@ export const EN_B1_U23: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "A: I don't like football. B: ___",
+            sentence: "A: I don't like soccer. B: ___",
             answer: "I do.",
             altAnswers: ["I do"],
             en: "—No me gusta el fútbol. —[A mí sí.]",
@@ -2148,7 +2148,7 @@ export const EN_B1_U23: Lesson[] = [
     slug: "b1-word-web-travel",
     level: "EN-B1",
     number: 11,
-    title: "Word Web: Travel & Holidays",
+    title: "Word Web: Travel & Vacations",
     summary: "Trip, travel or journey? Plus check in, departure, delay, cancel, sightseeing, accommodation and book. Stop saying a travel and make a trip.",
     duration: "11 min",
     sections: [
@@ -2265,7 +2265,7 @@ export const EN_B1_U23: Lesson[] = [
             prompt: "Translate into English.",
             source: "Estamos de vacaciones.",
             answer: "We're on vacation.",
-            altAnswers: ["We're on holiday.", "We are on holidays."],
+            altAnswers: ["We're on holiday.", "We are on holiday.", "We are on vacation."],
             explanation: "\"On vacation\" (American) or \"on holiday\" (British). Not *in vacation.",
           },
         ],

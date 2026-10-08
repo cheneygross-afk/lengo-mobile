@@ -34,9 +34,9 @@ export const EN_B2_U04_EXTRA: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "¿Te traigo un vaso de agua?",
-            answer: "Shall I bring you a glass of water?",
+            answer: "Should I bring you a glass of water?",
             altAnswers: [
-              "Should I bring you a glass of water?",
+              "Shall I bring you a glass of water?",
               "Shall I get you a glass of water?",
               "Should I get you a glass of water?",
               "Can I get you a glass of water?",
@@ -240,9 +240,9 @@ export const EN_B2_U04_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "¿Te ayudo con las maletas?",
-        answer: "Shall I help you with your bags?",
+        answer: "Should I help you with your bags?",
         altAnswers: [
-          "Should I help you with your bags?",
+          "Shall I help you with your bags?",
           "Shall I help you with your suitcases?",
           "Should I help you with your suitcases?",
           "Can I help you with your bags?",

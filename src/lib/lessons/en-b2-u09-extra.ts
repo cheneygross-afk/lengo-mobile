@@ -298,7 +298,7 @@ export const EN_B2_U09_EXTRA: Lesson[] = [
           {
             type: "multiple-choice",
             question: "«Me llevé el paraguas, pero no hacía falta: no llovió.» Which fits?",
-            options: ["I needn't have taken my umbrella.", "I didn't need to take my umbrella.", "I can't have taken my umbrella.", "I mustn't have taken my umbrella."],
+            options: ["I needn't have taken my umbrella.", "I had to take my umbrella.", "I can't have taken my umbrella.", "I mustn't have taken my umbrella."],
             correctIndex: 0,
             explanation: "You took it and it turned out to be unnecessary: \"needn't have\" + participle. \"Didn't need to take\" usually suggests you didn't take it.",
           },

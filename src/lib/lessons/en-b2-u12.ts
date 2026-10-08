@@ -1769,7 +1769,6 @@ export const EN_B2_U12: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "\"Don't forget to water the plants.\" She ___ the plants.",
         answer: "reminded me to water",
-        altAnswers: ["reminded us to water", "reminded him to water", "reminded her to water"],
         en: "Ella [me recordó que regara] las plantas.",
         explanation: "\"Don't forget to\" is a reminder: \"remind someone to\" + verb.",
       },
@@ -2039,7 +2038,6 @@ export const EN_B2_U12: Lesson[] = [
         altAnswers: [
           "Mike offered to help her move.",
           "Mike offered to help her with her move.",
-          "Mike offered to help him with the move.",
           "Mike offered to help her with the moving.",
         ],
         explanation: "\"Offer to\" + verb, with the person after the second verb.",

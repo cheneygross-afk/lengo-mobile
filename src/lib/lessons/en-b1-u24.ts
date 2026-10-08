@@ -61,7 +61,7 @@ export const EN_B1_U24: Lesson[] = [
           { es: "It's much too expensive.", en: "Es carísimo, demasiado caro." },
           { es: "We arrived far too late.", en: "Llegamos tardísimo." },
           { es: "The music is way too loud.", en: "La música está altísima." },
-          { es: "These pants are a bit too tight.", en: "Estos pantalones me quedan un poco ajustados." },
+          { es: "These pants are a bit too tight.", en: "Estos pantalones me quedan un poco demasiado ajustados." },
           { es: "The room is a little too small for us.", en: "La habitación es un poco pequeña para nosotros." },
         ],
         checkpoint: [
@@ -405,8 +405,8 @@ export const EN_B1_U24: Lesson[] = [
         examples: [
           { es: "There's too much traffic.", en: "Hay demasiado tráfico." },
           { es: "There were too many people at the party.", en: "En la fiesta había demasiada gente." },
-          { es: "We have too little time.", en: "Tenemos muy poco tiempo." },
-          { es: "There are too few doctors in this town.", en: "En este pueblo hay muy pocos médicos." },
+          { es: "We have too little time.", en: "Tenemos demasiado poco tiempo." },
+          { es: "There are too few doctors in this town.", en: "En este pueblo hay demasiado pocos médicos." },
           { es: "You work too much.", en: "Trabajas demasiado." },
           { es: "I ate too much last night.", en: "Anoche comí demasiado." },
         ],
@@ -499,7 +499,7 @@ export const EN_B1_U24: Lesson[] = [
         sentence: "We have ___ time to finish.",
         answer: "too little",
         altAnswers: ["very little"],
-        en: "Tenemos [muy poco] tiempo para terminar.",
+        en: "Tenemos [demasiado poco] tiempo para terminar.",
         explanation: "\"Time\" is uncountable, so the opposite of \"too much\" is \"too little\". \"Not enough time\" means the same.",
       },
       {
@@ -1991,7 +1991,7 @@ export const EN_B1_U24: Lesson[] = [
           { es: "There weren't enough towels.", en: "No había suficientes toallas." },
           { es: "There was hardly any hot water in the morning.", en: "Por la mañana casi no había agua caliente." },
           { es: "The walls were too thin, so we could hear everything.", en: "Las paredes eran demasiado finas y se oía todo." },
-          { es: "The breakfast was a bit too expensive.", en: "El desayuno era un poco caro." },
+          { es: "The breakfast was a bit too expensive.", en: "El desayuno era un poco demasiado caro." },
           { es: "The staff wasn't helpful enough.", en: "El personal no ayudaba lo suficiente." },
         ],
         checkpoint: [
@@ -2056,7 +2056,7 @@ export const EN_B1_U24: Lesson[] = [
       {
         heading: "Organizing your review",
         body: [
-          "A good review has four parts: a short title, one sentence saying when and why you went, the good points, the bad points, and a final recommendation.",
+          "A good review has five parts: a short title, one sentence saying when and why you went, the good points, the bad points, and a final recommendation.",
           "Connect the parts with \"However,\" («sin embargo»), \"On the other hand,\" («por otro lado») and \"Overall,\" («en general», to sum up). Finish with \"I'd recommend it to...\" or \"I wouldn't recommend it.\"",
           "Careful with \"recommend\": it's \"I recommend it\" or \"I recommend this hotel\", never *I recommend you this hotel.",
         ],

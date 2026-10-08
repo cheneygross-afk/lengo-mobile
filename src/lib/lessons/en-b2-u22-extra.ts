@@ -34,7 +34,7 @@ export const EN_B2_U22_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "The train was cancelled, ___ meant we missed the wedding.",
+            sentence: "The train was canceled, ___ meant we missed the wedding.",
             answer: "which",
             en: "Cancelaron el tren, [lo que] significó que nos perdimos la boda.",
             explanation: "When «lo que» comments on the whole previous clause, English uses \", which\". *what meant is a typical calque.",
@@ -344,7 +344,7 @@ export const EN_B2_U22_EXTRA: Lesson[] = [
           "With countable plurals use \"few\", \"fewer\", \"many\"; with uncountable nouns use \"little\", \"less\", \"much\". So «menos gente» is \"fewer people\" in careful English (you will hear *less people in speech, but avoid it in writing). \"Enough\" goes after an adjective (\"warm enough\") and before a noun (\"enough time\").",
         ],
         examples: [
-          { es: "The water was absolutely freezing.", en: "El agua estaba congelada. (incorrecto: *very freezing)" },
+          { es: "The water was absolutely freezing.", en: "El agua estaba helada. (incorrecto: *very freezing)" },
           { es: "Our room was tiny, but the view was amazing.", en: "Nuestra habitación era diminuta, pero las vistas eran increíbles." },
           { es: "There were fewer tourists than last year.", en: "Había menos turistas que el año pasado." },
           { es: "We had less time than we expected.", en: "Tuvimos menos tiempo del que esperábamos." },
@@ -530,8 +530,6 @@ export const EN_B2_U22_EXTRA: Lesson[] = [
           "There are more and more tourists and fewer and fewer local stores.",
           "There are more and more tourists and fewer and fewer neighborhood shops.",
           "There are more and more tourists and fewer and fewer neighborhood stores.",
-          "There are more and more tourists and less and less local shops.",
-          "There are more and more tourists and less and less local stores.",
         ],
         explanation: "«Cada vez más» is \"more and more\"; «cada vez menos» with a plural noun is \"fewer and fewer\" in careful English.",
       },

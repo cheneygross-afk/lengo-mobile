@@ -39,7 +39,7 @@ export const EN_B2_U29_EXTRA: Lesson[] = [
             prompt: KWT,
             sentence: "They will announce the results tomorrow. (BE) The results ___ tomorrow.",
             answer: "will be announced",
-            altAnswers: ["will be published", "will be made public"],
+            altAnswers: ["will be made public"],
             explanation: "The future passive is \"will be\" + past participle. The object of the active sentence (\"the results\") becomes the subject.",
           },
           {
@@ -159,6 +159,7 @@ export const EN_B2_U29_EXTRA: Lesson[] = [
         prompt: KWT,
         sentence: "Driving on the left still feels strange to me. (USED) I ___ on the left yet.",
         answer: "am not used to driving",
+        altAnswers: ["haven't gotten used to driving", "have not gotten used to driving", "haven't got used to driving", "have not got used to driving"],
         explanation: "\"Be used to\" + -ing means «estar acostumbrado a». The \"to\" is a preposition here, so the verb takes -ing: not *used to drive.",
       },
       {

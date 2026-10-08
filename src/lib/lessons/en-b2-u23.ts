@@ -302,7 +302,7 @@ export const EN_B2_U23: Lesson[] = [
             question: "The interviewer wants to know about your experience in general. Which question is she asking?",
             options: [
               "Have you ever lived abroad?",
-              "Did you ever live abroad?",
+              "Have you ever live abroad?",
               "Are you ever living abroad?",
               "Do you ever have lived abroad?",
             ],
@@ -1092,7 +1092,7 @@ export const EN_B2_U23: Lesson[] = [
         heading: "Conditions: real and unreal",
         body: [
           "Use the first conditional for real possibilities: \"If we don't reduce emissions, temperatures will keep rising\". \"Unless\" means \"if not\": \"Unless we act now, it will be too late\". Don't use \"will\" after \"if\" or \"unless\".",
-          "Use the second conditional for imaginary or unlikely situations in the present or future: \"If everyone cycled to work, the air would be much cleaner\". And the third conditional for the past: \"If we had invested in renewables earlier, we wouldn't have this problem now\" (this one is mixed: past condition, present result).",
+          "Use the second conditional for imaginary or unlikely situations in the present or future: \"If everyone cycled to work, the air would be much cleaner\". And the third conditional for the past: \"If we had invested in renewables earlier, we wouldn't have lost so many forests\". A mixed conditional links a past cause to a present result: \"... we wouldn't have this problem now\".",
           "\"As long as\" and \"provided that\" mean «siempre que» in a conditional sense: \"Plastic can be recycled, as long as it's clean\".",
         ],
         examples: [
@@ -2505,7 +2505,7 @@ export const EN_B2_U23: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "You ___ me. I would have helped you.",
         answer: "should have told",
-        altAnswers: ["should have asked", "should have called"],
+        altAnswers: ["ought to have told"],
         en: "[Deberías habérmelo dicho]. Te habría ayudado.",
         explanation: "\"Should have\" + participle: criticism of something that didn't happen.",
       },
@@ -2667,7 +2667,7 @@ export const EN_B2_U23: Lesson[] = [
           "These transformations are typical of exam tasks: you rewrite a sentence with a given word without changing its meaning. Practice them as a group.",
         ],
         examples: [
-          { es: "He denied taking the money.", en: "Negó haber cogido el dinero." },
+          { es: "He denied taking the money.", en: "Negó haber tomado el dinero." },
           { es: "She suggested going to the beach.", en: "Propuso ir a la playa." },
           { es: "He offered to help me.", en: "Se ofreció a ayudarme." },
           { es: "It was Ana who broke the vase.", en: "Fue Ana quien rompió el jarrón." },
@@ -2728,7 +2728,7 @@ export const EN_B2_U23: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "She denied ___ the email.",
         answer: "sending",
-        altAnswers: ["having sent", "writing", "having written"],
+        altAnswers: ["having sent"],
         en: "Negó [haber enviado] el correo.",
         explanation: "\"Deny\" + -ing (or \"having\" + participle). Spanish «negar haber hecho» does not become \"deny to have done\".",
       },
@@ -2914,7 +2914,7 @@ export const EN_B2_U23: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "I ___ here since 2018.",
             answer: "have worked",
-            altAnswers: ["have been working", "have lived", "have been living"],
+            altAnswers: ["have been working"],
             en: "[Trabajo] aquí desde 2018.",
             explanation: "Spanish present + «desde» = present perfect in English. *I work here since 2018 is the classic error.",
           },

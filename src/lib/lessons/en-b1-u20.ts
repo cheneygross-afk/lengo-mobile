@@ -917,7 +917,7 @@ export const EN_B1_U20: Lesson[] = [
         sentence: "Lucia ___ the dishes.",
         answer: "offered to do",
         altAnswers: ["offered to wash"],
-        en: "Lucia [se ofreció a fregar] los platos.",
+        en: "Lucia [se ofreció a lavar] los platos.",
         explanation: "\"Offer to\" + verb. In English you \"do the dishes\" or \"wash the dishes\".",
       },
       {
@@ -940,7 +940,7 @@ export const EN_B1_U20: Lesson[] = [
       {
         type: "speak",
         text: "She promised to call, but she refused to say when.",
-        tip: "Stress the verbs: proMISED, reFUSED. The \"-ed\" is a soft /t/ in \"promised\" and /d/ in \"refused\".",
+        tip: "Stress the verbs: PROMised, reFUSED. The \"-ed\" is a soft /t/ in \"promised\" and /d/ in \"refused\".",
         explanation: "\"Promise to\" and \"refuse to\" are followed directly by \"to\" + verb.",
       },
     ],

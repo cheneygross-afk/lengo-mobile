@@ -82,7 +82,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Las fiestas patronales",
-        "Casi todos los pueblos celebran a su santo patrón con fiestas: verbena (baile popular nocturno), procesión, peñas (grupos de amigos con local propio), charanga (banda que recorre las calles), vaquillas, fuegos artificiales. Expresiones: «¡Vente a las fiestas!», «Nos vamos de verbena», «Aquí se trasnocha».",
+        "Casi todos los pueblos de España celebran a su santo patrón con fiestas: verbena (baile popular nocturno), procesión, peñas (grupos de amigos con local propio), charanga (banda que recorre las calles), vaquillas, fuegos artificiales. Expresiones: «¡Vente a las fiestas!», «Nos vamos de verbena», «Aquí se trasnocha».",
         [
           ["—¿Te vienes a las fiestas de mi pueblo? —¡Claro! ¿Qué se hace?", "—Want to come to my village's festival? —Sure! What happens?"],
           ["Por la noche hay verbena en la plaza.", "At night there's a dance in the square."],

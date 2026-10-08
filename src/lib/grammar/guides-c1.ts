@@ -81,7 +81,7 @@ export const C1_GUIDES: GrammarGuide[] = [
       {
         wrong: "Por mucho que estudias, no apruebas.",
         right: "Por mucho que estudies, no apruebas.",
-        why: "Por mucho que normally takes the subjunctive, even for a present habit.",
+        why: "Por mucho que normally takes the subjunctive; the indicative is possible for a known fact, but the subjunctive is the safer default.",
       },
       {
         wrong: "Si bien sea difícil...",
@@ -241,7 +241,7 @@ export const C1_GUIDES: GrammarGuide[] = [
         ],
         examples: [
           { es: "¿Qué hora será?", en: "I wonder what time it is." },
-          { es: "¿Quién habrá llamado a estas horas?", en: "Who can have called at this hour?" },
+          { es: "¿Quién habrá llamado a estas horas?", en: "Who could have called at this hour?" },
           { es: "¿Por qué no vendría?", en: "I wonder why he didn't come." },
         ],
       },
@@ -811,7 +811,7 @@ export const C1_GUIDES: GrammarGuide[] = [
       {
         heading: "Numbers, capitals and other differences",
         body: [
-          "The Real Academia recommends a decimal comma or point depending on region (Spain: 3,5; Mexico: 3.5) and a space for thousands (10 000). Days, months, languages and nationalities are lowercase: el lunes 3 de mayo, hablo inglés, es francesa. Only the first word of a title is capitalized: Cien años de soledad.",
+          "The Real Academia accepts both a decimal comma and a decimal point, recommending the point (Spain traditionally uses 3,5; Mexico 3.5) and a space for thousands (10 000). Days, months, languages and nationalities are lowercase: el lunes 3 de mayo, hablo inglés, es francesa. Only the first word of a title is capitalized: Cien años de soledad.",
         ],
         examples: [
           { es: "Nos vemos el martes 12 de abril.", en: "See you on Tuesday, April 12." },

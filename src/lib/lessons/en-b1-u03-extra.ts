@@ -163,7 +163,7 @@ export const EN_B1_U03_EXTRA: Lesson[] = [
         answer: "had done",
         altAnswers: ["had already done", "had finished", "had already finished"],
         en: "Él [había hecho] los deberes antes de cenar.",
-        explanation: "\"Do, did, done\": the past perfect is \"had done\", never *had did. Americans often say \"homework\" with \"do\", not \"make\".",
+        explanation: "\"Do, did, done\": the past perfect is \"had done\", never *had did. Everyone says \"do homework\", never *make homework.",
       },
       {
         type: "multiple-choice",
@@ -399,7 +399,6 @@ export const EN_B1_U03_EXTRA: Lesson[] = [
           "Before moving to Chicago, I had never seen snow.",
           "I had never seen snow before I moved to Chicago.",
           "I had never seen snow before moving to Chicago.",
-          "Before I moved to Chicago, I had never seen the snow.",
         ],
         explanation: "The whole life before the move is earlier than the move, so \"had never seen\". \"Snow\" in general takes no article.",
       },
@@ -627,7 +626,7 @@ export const EN_B1_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Complete: \"She ___ the restaurant because a friend had recommended it.\"",
+        question: "Complete: \"She ___ about the restaurant because a friend had recommended it.\"",
         options: ["knew", "was knowing", "had been knowing", "has known"],
         correctIndex: 0,
         explanation: "\"Know\" is a state verb, so no -ing. The friend's recommendation is earlier (\"had recommended\"); knowing the place is the state at that moment: \"knew\".",

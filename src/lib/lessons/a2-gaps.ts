@@ -305,13 +305,13 @@ export const A2_GAPS: AnchoredLesson[] = [
         [
           "Question and exclamation words carry an accent: ¿Qué quieres?, ¿Dónde vives?, ¡Qué bonito!, ¡Cuánta gente!",
           "They keep it in indirect questions too, with no question marks: No sé qué quieres. Dime dónde vives. Pregúntale cuándo llega.",
-          "The same words without an accent are linking words, not questions: Creo que viene (that). Vivo donde trabajo (where). Te llamo cuando llego (when). Lo hago como tú (like).",
+          "The same words without an accent are linking words, not questions: Creo que viene (that). Vivo donde trabajo (where). Te llamo cuando llegue (when). Lo hago como tú (like).",
         ],
         [
           ["¿Qué hora es?", "What time is it?"],
           ["No sé qué hora es.", "I don't know what time it is."],
           ["Dice que es tarde.", "He says (that) it's late."],
-          ["¿Cuándo sales? —Cuando termino.", "When are you leaving? —When I finish."],
+          ["¿Cuándo sales? —Cuando termine.", "When are you leaving? —When I finish."],
           ["¡Qué calor!", "It's so hot!"],
         ],
         [
@@ -380,7 +380,7 @@ export const A2_GAPS: AnchoredLesson[] = [
         "The accent on one-syllable words only separates pairs of different words. Sí (yes) vs. si (if) is one of those pairs. Stress rules don't apply to one-syllable words."
       ),
       toEn(
-        "¡Qué bien que te gusta el té!",
+        "¡Qué bien que te guste el té!",
         "It's great that you like the tea!",
         "¡Qué bien! is an exclamation (accented qué); the next que means \"that\" (no accent). Te is the pronoun, té is tea.",
         ["How great that you like the tea!", "It's so good that you like the tea!", "Great that you like the tea!", "It's great that you like tea!", "How nice that you like the tea!"]
@@ -441,7 +441,7 @@ export const A2_GAPS: AnchoredLesson[] = [
         [
           "With an affirmative command, object pronouns attach to the end of the verb, making one word: cómpralo (buy it), llámame (call me), dile (tell him).",
           "Reflexive verbs work the same way with te: levantarse → levántate, sentarse → siéntate, ducharse → dúchate.",
-          "Adding a syllable moves the stress to third from last, so the stressed vowel needs a written accent: compra → cómpralo, llama → llámame, escucha → escúchame.",
+          "Adding a syllable leaves the stress where it was, now third from last, so the stressed vowel needs a written accent: compra → cómpralo, llama → llámame, escucha → escúchame.",
           "Two pronouns go in the order indirect + direct: dámelo (give it to me), explícamelo (explain it to me).",
         ],
         [
@@ -827,7 +827,7 @@ export const A2_GAPS: AnchoredLesson[] = [
       fe(
         "Mi hermana tiene un ___ negro que se llama Coco.",
         "perrito",
-        "My sister has a [little dog] that's called Coco.",
+        "My sister has a black [little dog] that's called Coco.",
         "Perro → perrito: drop -o, add -ito. Perro is masculine, so the diminutive stays masculine.",
         ["perro"]
       ),
@@ -974,7 +974,7 @@ export const A2_GAPS: AnchoredLesson[] = [
           ["Hace un año que vivo aquí.", "I've been living here for a year."],
           ["Viví aquí hace un año.", "I lived here a year ago."],
           ["Vivo aquí desde 2023.", "I've been living here since 2023."],
-          ["Vivo aquí desde hace un año.", "I've lived here for a year."],
+          ["Vivo aquí desde hace dos meses.", "I've been living here for two months."],
         ],
         "Present tense = still going on (hace... que, desde hace, desde). Past tense + hace = ago."
       ),
@@ -1101,7 +1101,7 @@ export const A2_GAPS: AnchoredLesson[] = [
       sec(
         "Mucho in comparisons, and the exceptions",
         [
-          "With mejor, peor, mayor, menor, más and menos, use mucho, not muy: mucho mejor (much better), mucho más barato (much cheaper), mucho menos.",
+          "With comparatives (mejor, peor, más, menos, and mayor/menor when comparing), use mucho, not muy: mucho mejor (much better), mucho más barato (much cheaper), mucho menos. (Muy mayor on its own is fine: it means very old, elderly.)",
           "Muchísimo is \"really a lot\": Te quiero muchísimo. Muy can become -ísimo on the adjective: muy caro → carísimo.",
           "A common mistake is \"muy mucho\". Spanish never puts them together: say muchísimo instead.",
         ],
@@ -1383,10 +1383,10 @@ export const A2_GAPS: AnchoredLesson[] = [
         ],
         [
           ["¿Vos sos de Buenos Aires?", "Are you from Buenos Aires?"],
-          ["¿Qué querés comer?", "What do you want to eat?"],
-          ["Vos tenés razón.", "You're right."],
-          ["Vení, mirá esto.", "Come here, look at this."],
-          ["¿Cómo te llamás?", "What's your name?"],
+          ["¿Qué querés comer?", "What do you want to eat (vos)?"],
+          ["Vos tenés razón.", "You're right (vos)."],
+          ["Vení, mirá esto.", "Come here, look at this (vos)."],
+          ["¿Cómo te llamás?", "What's your name (vos)?"],
         ],
         [
           mc(

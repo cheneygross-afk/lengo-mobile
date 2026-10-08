@@ -38,7 +38,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
               "She asked me where did I go.",
             ],
             correctIndex: 0,
-            explanation: "Subject before verb (\"I was going\") and a full stop, not a question mark.",
+            explanation: "Subject before verb (\"I was going\") and a period, not a question mark.",
           },
           {
             type: "word-order",
@@ -714,7 +714,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
           { es: "The doctor advised me to rest.", en: "El médico me aconsejó que descansara." },
           { es: "She reminded me to buy milk.", en: "Me recordó que comprara leche." },
           { es: "He suggested going out for dinner.", en: "Propuso salir a cenar." },
-          { es: "She denied taking the money.", en: "Negó haber cogido el dinero." },
+          { es: "She denied taking the money.", en: "Negó haber tomado el dinero." },
         ],
         checkpoint: [
           {
@@ -1081,7 +1081,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The kids complained ___ too much homework.",
         answer: "about having",
-        altAnswers: ["about getting", "of having"],
+        altAnswers: ["about getting"],
         en: "Los niños se quejaron [de tener] demasiados deberes.",
         explanation: "\"Complain about\" + -ing. «Deberes» is \"homework\", which is uncountable: \"too much homework\".",
       },

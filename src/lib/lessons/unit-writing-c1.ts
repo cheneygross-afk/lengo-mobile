@@ -12,7 +12,7 @@ export const C1_UNIT_WRITING: Record<string, WriteExercise> = {
   "subjunctive-mastery-review-1": t(
     "Escribe un correo a un colega para rechazar con tacto una propuesta suya. Usa el subjuntivo para suavizar, una concesiva universal y la concordancia de tiempos.",
     ["Subjuntivo de cortesía (quisiera, no es que…, no digo que…)", "Una concesiva universal (sea cual sea, digan lo que digan…)", "Concordancia de tiempos correcta en pasado", "Tono diplomático"],
-    "Hola, Andrés: gracias por enviarme tu propuesta para la feria. No es que no me parezca interesante, sino que este año el presupuesto es muy limitado. Quisiera que lo habláramos con calma la semana que viene. Me habría gustado que la dirección nos hubiera dado más margen, pero, sea cual sea la decisión final, cuenta con mi apoyo para el año próximo. No digo que la idea no sea buena; digo que no es el momento. Un abrazo, Teresa",
+    "Hola, Andrés: Gracias por enviarme tu propuesta para la feria. No es que no me parezca interesante, sino que este año el presupuesto es muy limitado. Quisiera que lo habláramos con calma la semana que viene. Me habría gustado que la dirección nos hubiera dado más margen, pero, sea cual sea la decisión final, cuenta con mi apoyo para el año próximo. No digo que la idea no sea buena; digo que no es el momento. Un abrazo, Teresa",
     "No es que + subjuntivo niega una causa supuesta; quisiera suaviza; sea cual sea concede cualquier posibilidad; me habría gustado que + pluscuamperfecto de subjuntivo respeta la concordancia."
   ),
   "concessive-aunque-1": t(
@@ -48,7 +48,7 @@ export const C1_UNIT_WRITING: Record<string, WriteExercise> = {
   "por-para-precision-1": t(
     "Redacta un correo profesional para confirmar un encargo a un proveedor. Usa por y para con precisión en plazos, precios, finalidad, causa y medio.",
     ["Para + plazo o destinatario", "Por + precio, medio o causa", "Al menos dos expresiones fijas (por lo tanto, para entonces, por escrito…)", "Registro profesional"],
-    "Estimado señor Ramos: le confirmo el pedido de quinientas sillas para el nuevo auditorio. Según lo acordado por teléfono, el precio será de cuarenta euros por unidad. Necesitamos la mercancía para el 15 de junio, ya que la inauguración está prevista para el día 20. Le ruego que nos envíe la factura por correo electrónico. Por motivos de seguridad, el pago se realizará por transferencia. Le agradecería que nos lo confirmara por escrito. Atentamente, Lucía Gómez",
+    "Estimado señor Ramos: Le confirmo el pedido de quinientas sillas para el nuevo auditorio. Según lo acordado por teléfono, el precio será de cuarenta euros por unidad. Necesitamos la mercancía para el 15 de junio, ya que la inauguración está prevista para el día 20. Le ruego que nos envíe la factura por correo electrónico. Por motivos de seguridad, el pago se realizará por transferencia. Le agradecería que nos lo confirmara por escrito. Atentamente, Lucía Gómez",
     "Para con destino y plazo (para el auditorio, para el 15 de junio); por con precio, medio y causa (por unidad, por transferencia, por motivos de seguridad)."
   ),
   "ser-estar-haber-limits-part-1-1": t(
@@ -66,25 +66,25 @@ export const C1_UNIT_WRITING: Record<string, WriteExercise> = {
   "advanced-discourse-markers-1": t(
     "Escribe un párrafo argumentativo sobre la semana laboral de cuatro días. Usa marcadores discursivos avanzados para ordenar, matizar y concluir.",
     ["Marcadores de orden (en primer lugar, por otra parte…)", "Marcadores de matiz o contraste (ahora bien, con todo…)", "Un reformulador (es decir, dicho de otro modo…)", "Un marcador de conclusión (en definitiva, dicho esto…)"],
-    "La semana laboral de cuatro días gana defensores en toda Europa. En primer lugar, varios estudios indican que la productividad no disminuye; es decir, se trabaja menos sin producir menos. Por otra parte, los empleados descansan más y faltan menos por enfermedad. Ahora bien, no todos los sectores pueden aplicarla: un hospital no puede cerrar los viernes. Con todo, la idea merece un debate serio. Dicho esto, en definitiva, el reto será adaptarla a cada empresa.",
-    "Ahora bien introduce una objeción; con todo concede y mantiene la tesis; es decir reformula; dicho esto y en definitiva cierran el argumento."
+    "La semana laboral de cuatro días gana defensores en toda Europa. En primer lugar, varios estudios indican que la productividad no disminuye; es decir, se trabaja menos sin producir menos. Por otra parte, los empleados descansan más y faltan menos por enfermedad. Ahora bien, no todos los sectores pueden aplicarla: un hospital no puede cerrar los viernes. Con todo, la idea merece un debate serio. En definitiva, el reto será adaptarla a cada empresa.",
+    "Ahora bien introduce una objeción; con todo concede y mantiene la tesis; es decir reformula; en definitiva cierra el argumento."
   ),
   "emphatic-structures-1": t(
     "Escribe una carta al director de un periódico para quejarte del ruido nocturno en tu barrio. Usa estructuras enfáticas para destacar lo importante.",
     ["Oraciones hendidas (es el ruido lo que…, fue en mayo cuando…)", "Lo + adjetivo + que", "Lo que + verbo + es / son", "Tono firme y formal"],
-    "Señor director: lo que los vecinos del casco antiguo sufrimos cada fin de semana es insoportable. No es la música lo que nos molesta, sino los gritos a las cuatro de la madrugada. Fue en mayo cuando empezaron a abrir los nuevos bares, y desde entonces nadie descansa. Las autoridades no imaginan lo agotador que resulta trabajar sin dormir. Lo que pedimos es simple: que se cumpla el horario de cierre. Atentamente, Pilar Vidal",
+    "Señor director: Lo que los vecinos del casco antiguo sufrimos cada fin de semana es insoportable. No es la música lo que nos molesta, sino los gritos a las cuatro de la madrugada. Fue en mayo cuando empezaron a abrir los nuevos bares, y desde entonces nadie descansa. Las autoridades no imaginan lo agotador que resulta trabajar sin dormir. Lo que pedimos es simple: que se cumpla el horario de cierre. Atentamente, Pilar Vidal",
     "Las hendidas (fue en mayo cuando, no es la música lo que) y lo + adjetivo + que (lo agotador que resulta) dan relieve a la información clave."
   ),
   "future-conditional-conjecture-1": t(
     "Encuentras una casa abandonada con la mesa puesta y una carta a medio escribir. Escribe tus conjeturas sobre quién vivía allí y qué habrá ocurrido.",
     ["Futuro simple para conjeturas sobre el presente (será…)", "Futuro perfecto para el pasado reciente (habrá salido…)", "Condicional para el pasado (serían las ocho…)", "Condicional perfecto (habría tenido que…)"],
-    "La casa estará abandonada desde hace años, a juzgar por el polvo. Sin embargo, la mesa está puesta para dos: alguien habrá tenido que marcharse de repente. Serían las ocho de la tarde, porque el reloj de la cocina se paró a esa hora. La carta estaría dirigida a un hijo, ya que empieza con «Querido Pablo». ¿Qué habrá pasado? Quizá habría recibido una mala noticia y habría salido corriendo sin terminar la cena.",
+    "La casa estará abandonada desde hace años, a juzgar por el polvo. Sin embargo, la mesa está puesta para dos: alguien habrá tenido que marcharse de repente. Serían las ocho de la tarde, porque el reloj de la cocina se paró a esa hora. La carta estaría dirigida a un hijo, ya que empieza con «Querido Pablo». ¿Qué habrá pasado? Habría recibido una mala noticia y habría salido corriendo sin terminar la cena.",
     "Futuro y futuro perfecto suponen sobre el presente y lo recién pasado (estará, habrá tenido); condicional y condicional perfecto, sobre un momento pasado (serían las ocho, habría recibido)."
   ),
   "formal-informal-register-1": t(
     "Escribe dos mensajes con la misma petición (cambiar la fecha de una reunión): uno a tu jefa, a quien tratas de usted, y otro a un compañero, de tú.",
     ["Un mensaje formal con usted (le, su, podría…)", "Un mensaje informal con tú (te, tu, puedes…)", "Fórmulas de saludo y despedida adecuadas a cada registro", "Coherencia: sin mezclar tú y usted"],
-    "Mensaje 1: Estimada señora Navarro: le escribo para preguntarle si sería posible aplazar nuestra reunión del jueves al lunes, ya que ese día tengo una visita con un cliente. Le agradecería que me indicara si le viene bien. Un saludo cordial, Daniel. Mensaje 2: ¡Hola, Rubén! ¿Te importa si movemos la reunión del jueves al lunes? Es que ese día tengo un cliente. Dime si te va bien. ¡Gracias!",
+    "Mensaje 1: Estimada señora Navarro: Le escribo para preguntarle si sería posible aplazar nuestra reunión del jueves al lunes, ya que ese día tengo una visita con un cliente. Le agradecería que me indicara si le viene bien. Un saludo cordial, Daniel. Mensaje 2: ¡Hola, Rubén! ¿Te importa si movemos la reunión del jueves al lunes? Es que ese día tengo un cliente. Dime si te va bien. ¡Gracias!",
     "Usted exige le, su y la tercera persona en todo el texto (le escribo, le agradecería); tú, te y tu (te importa, dime). Cambiar de registro a mitad es un error frecuente."
   ),
   "voseo-part-1-1": t(
@@ -108,7 +108,7 @@ export const C1_UNIT_WRITING: Record<string, WriteExercise> = {
   "formal-correspondence-1": t(
     "Escribe un correo de seguimiento formal: hace dos semanas enviaste tu candidatura a un puesto y no has recibido respuesta.",
     ["Saludo formal (Estimado/a…)", "Referencia al envío anterior", "Petición cortés con condicional o subjuntivo", "Despedida formal (Atentamente, Reciba un cordial saludo…)"],
-    "Estimada señora Lozano: me pongo en contacto con usted en relación con la candidatura que envié el pasado 2 de mayo para el puesto de coordinadora de proyectos. Sigo muy interesada en la vacante y quisiera saber en qué fase se encuentra el proceso de selección. Le agradecería que me indicara si necesitan algún documento adicional. Quedo a su disposición para una entrevista. Reciba un cordial saludo. Marina Herrero",
+    "Estimada señora Lozano: Me pongo en contacto con usted en relación con la candidatura que envié el pasado 2 de mayo para el puesto de coordinadora de proyectos. Sigo muy interesada en la vacante y quisiera saber en qué fase se encuentra el proceso de selección. Le agradecería que me indicara si necesitan algún documento adicional. Quedo a su disposición para una entrevista. Reciba un cordial saludo. Marina Herrero",
     "En relación con, me pongo en contacto, quisiera saber, le agradecería que + imperfecto de subjuntivo y quedo a su disposición son fórmulas propias del correo formal."
   ),
   "academic-essay-writing-part-1-1": t(

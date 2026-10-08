@@ -31,7 +31,7 @@ export const EN_B1_U10_EXTRA: Lesson[] = [
             type: "matching",
             instructions: "Match each sentence with its meaning.",
             pairs: [
-              { left: "If I have time, I'll call you.", right: "Si tengo tiempo, te llamo." },
+              { left: "If I have time, I'll call you.", right: "Si tengo tiempo, te llamaré." },
               { left: "If I had time, I'd call you.", right: "Si tuviera tiempo, te llamaría." },
               { left: "If I'd had time, I'd have called you.", right: "Si hubiera tenido tiempo, te habría llamado." },
               { left: "If I have time, I call you.", right: "Si tengo tiempo, te llamo. (siempre)" },

@@ -290,7 +290,7 @@ export const EN_B1_U23_EXTRA: Lesson[] = [
         prompt: "Translate into English.",
         source: "¿A quién le diste las flores?",
         answer: "Who did you give the flowers to?",
-        altAnswers: ["Who did you give the flowers?", "To whom did you give the flowers?", "Who did you give those flowers to?"],
+        altAnswers: ["To whom did you give the flowers?", "Who did you give those flowers to?"],
         explanation: "Object question: you gave the flowers to someone, so \"did\" is needed. The preposition usually goes at the end: \"Who did you give them to?\".",
       },
       {

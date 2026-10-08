@@ -426,7 +426,7 @@ export const EN_B2_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Perdimos el último tren y tuvimos que coger un taxi.",
+        source: "Perdimos el último tren y tuvimos que tomar un taxi.",
         answer: "We missed the last train and had to take a taxi.",
         altAnswers: [
           "We missed the last train and had to get a taxi.",
@@ -1713,7 +1713,6 @@ export const EN_B2_U27: Lesson[] = [
               "Do you do any sports?",
               "Do you play any sport?",
               "Do you do any sport?",
-              "Do you practice any sports?",
               "Do you do any sports at all?",
               "Do you play sports?",
               "Do you do sports?",
@@ -2624,7 +2623,7 @@ export const EN_B2_U27: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Deberíamos haber cogido un tren antes.",
+            source: "Deberíamos haber tomado un tren antes.",
             answer: "We should have caught an earlier train.",
             altAnswers: [
               "We should have taken an earlier train.",

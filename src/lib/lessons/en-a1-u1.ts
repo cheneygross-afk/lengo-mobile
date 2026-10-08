@@ -135,7 +135,6 @@ export const EN_A1_U1: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "___ are from Mexico.",
         answer: "We",
-        altAnswers: ["They"],
         en: "[Nosotras] somos de México.",
         explanation: "\"We\" vale para «nosotros» y «nosotras»: los pronombres plurales del inglés no tienen género.",
       },

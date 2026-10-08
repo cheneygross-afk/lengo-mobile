@@ -808,7 +808,7 @@ export const EN_A1_U5_MORE: Lesson[] = [
       {
         heading: "Precios: \"three pounds fifty\"",
         body: [
-          "El símbolo de la moneda se escribe delante (\"$5\", \"£3.50\"), pero se dice detrás: \"five dollars\", \"three pounds fifty\". Al hablar se suelen omitir los centavos: $4.99 es \"four ninety-nine\".",
+          "El símbolo de la moneda se escribe delante (\"$5\", \"£3.50\"), pero se dice detrás: \"five dollars\", \"three pounds fifty\". Al hablar se suelen omitir las palabras \"dollars\" y \"cents\": $4.99 es \"four ninety-nine\".",
           "Los decimales llevan punto, no coma: \"$3.50\", no *$3,50. La coma sirve para los miles: \"$1,200\".",
           "\"Hundred\" y \"thousand\" no llevan -s después de un número: \"two hundred dollars\", nunca *two hundreds dollars. En Estados Unidos se omite el \"and\": \"one hundred twenty\"; en el Reino Unido se dice \"a hundred and twenty\".",
         ],

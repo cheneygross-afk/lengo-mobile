@@ -222,7 +222,7 @@ export const EN_A2_U10: Lesson[] = [
         heading: "El pasado: \"had to\"",
         body: [
           "Para obligaciones en el pasado se usa \"had to\" con todas las personas: \"I had to work\", \"she had to work\". Equivale a «tuve que», «tenía que» o «tuvo que».",
-          "\"Must\" no tiene pasado. Por eso no existen \"I musted\" ni *I must went: en el pasado siempre se pasa a \"had to\".",
+          "\"Must\" no tiene pasado. Por eso no existen *I musted ni *I must went: en el pasado siempre se pasa a \"had to\".",
           "La negativa y la pregunta van con \"did\": \"I didn't have to pay\" («no tuve que pagar»), \"Did you have to wait?\" («¿tuviste que esperar?»). Después de \"did\", el verbo vuelve a ser \"have\": no se dice *didn't had to.",
         ],
         examples: [
@@ -1292,7 +1292,7 @@ export const EN_A2_U10: Lesson[] = [
       {
         heading: "Error 3: el pasado de \"must\"",
         body: [
-          "\"Must\" no tiene pasado ni futuro. \"I musted\", *I must went y *I will must no existen. Para el pasado se usa \"had to\" y para el futuro \"will have to\".",
+          "\"Must\" no tiene pasado ni futuro. *I musted, *I must went y *I will must no existen. Para el pasado se usa \"had to\" y para el futuro \"will have to\".",
         ],
         examples: [
           { es: "I had to leave.", en: "Tuve que irme." },

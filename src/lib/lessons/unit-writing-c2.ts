@@ -42,7 +42,7 @@ export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
   "humor-wordplay-1": t(
     "Escribe un breve texto humorístico (un diálogo o una anécdota) basado en un doble sentido o un juego de palabras en español, y explica después en qué consiste el juego.",
     ["Un juego de palabras o un doble sentido real del español", "Un pequeño contexto narrativo o dialogado", "La explicación del mecanismo", "Registro adecuado al humor"],
-    "—Doctor, doctor, vengo porque me siento como una cabra. —¿Y desde cuándo le pasa? —Desde que era un cabrito. —Pues tranquilo, que eso tiene cura. Lo más cabreado de la consulta, al final, fue el médico. Explicación: «estar como una cabra» significa estar loco; el paciente, en cambio, lo toma al pie de la letra y responde que se siente así desde que era un cabrito, es decir, una cría de cabra. Además, el chiste remata con «cabreado», que significa enfadado y comparte la raíz con cabra.",
+    "—Doctor, doctor, vengo porque me siento como una cabra. —¿Y desde cuándo le pasa? —Desde que era un cabrito. —Pues tranquilo, que eso tiene cura. El más cabreado de la consulta, al final, fue el médico. Explicación: «estar como una cabra» significa estar loco; el paciente, en cambio, lo toma al pie de la letra y responde que se siente así desde que era un cabrito, es decir, una cría de cabra. Además, el chiste remata con «cabreado», que significa enfadado y comparte la raíz con cabra.",
     "El humor verbal juega con la lectura literal de una frase hecha (estar como una cabra) y con palabras emparentadas por la forma (cabrito, cabreado)."
   ),
   "figurative-language-1": t(
@@ -54,7 +54,7 @@ export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
   "euphemisms-indirect-1": t(
     "Eres responsable de recursos humanos. Escribe un correo para comunicar a un empleado que su contrato no será renovado, con tacto y lenguaje indirecto.",
     ["Eufemismos profesionales (no renovación, reestructuración…)", "Atenuación (lamentamos, nos vemos en la necesidad de…)", "Reconocimiento del trabajo del empleado", "Información clara pese al tono indirecto"],
-    "Estimado Rafael: tras un periodo de reflexión sobre la reorganización del departamento, nos vemos en la necesidad de comunicarte que no será posible prorrogar tu contrato más allá del 30 de junio. Queremos subrayar que esta decisión no responde en absoluto a tu desempeño, que ha sido excelente, sino a un ajuste de la plantilla motivado por la situación económica. Lamentamos sinceramente no poder contar contigo en esta nueva etapa. Nos ofrecemos a redactarte una carta de recomendación y a facilitarte el contacto con empresas de nuestro sector. Un cordial saludo, Elena Ruiz, Recursos Humanos",
+    "Estimado Rafael: Tras un periodo de reflexión sobre la reorganización del departamento, nos vemos en la necesidad de comunicarte que no será posible prorrogar tu contrato más allá del 30 de junio. Queremos subrayar que esta decisión no responde en absoluto a tu desempeño, que ha sido excelente, sino a un ajuste de la plantilla motivado por la situación económica. Lamentamos sinceramente no poder contar contigo en esta nueva etapa. Nos ofrecemos a redactarte una carta de recomendación y a facilitarte el contacto con empresas de nuestro sector. Un cordial saludo, Elena Ruiz, Recursos Humanos",
     "El eufemismo profesional suaviza sin ocultar: no será posible prorrogar (= te despedimos), ajuste de la plantilla (= recortes). La información clave (la fecha) debe quedar clara."
   ),
   "exclamations-emphasis-1": t(
@@ -102,7 +102,7 @@ export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
   "presentations-negotiation-5": t(
     "Escribe el correo que resume por escrito los acuerdos alcanzados en una negociación con un proveedor: precio, plazos, condiciones y próximos pasos.",
     ["Referencia a la reunión", "Acuerdos enumerados con precisión", "Fórmulas para dejar constancia (según lo acordado, tal como quedamos…)", "Petición de confirmación"],
-    "Estimado señor Varela: tal como quedamos en la reunión de ayer, le resumo los acuerdos alcanzados. En primer lugar, el precio por unidad será de doce euros, siempre y cuando el pedido anual supere las diez mil unidades. En segundo lugar, las entregas se realizarán cada quince días, con un plazo máximo de cinco días hábiles desde el pedido. En caso de retraso, se aplicará un descuento del cinco por ciento. Por último, firmaremos el contrato antes del 30 de abril. Le ruego que me confirme estos puntos para dejar constancia por escrito. Un cordial saludo, Inés Molina",
+    "Estimado señor Varela: Tal como quedamos en la reunión de ayer, le resumo los acuerdos alcanzados. En primer lugar, el precio por unidad será de doce euros, siempre y cuando el pedido anual supere las diez mil unidades. En segundo lugar, las entregas se realizarán cada quince días, con un plazo máximo de cinco días hábiles desde el pedido. En caso de retraso, se aplicará un descuento del cinco por ciento. Por último, firmaremos el contrato antes del 30 de abril. Le ruego que me confirme estos puntos para dejar constancia por escrito. Un cordial saludo, Inés Molina",
     "Dejar constancia por escrito evita malentendidos: tal como quedamos, según lo acordado, siempre y cuando + subjuntivo para las condiciones y le ruego que me confirme."
   ),
   "citations-references-1": t(
@@ -138,7 +138,7 @@ export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
   "job-interview-spanish-5": t(
     "Escribe una carta de presentación breve para un puesto de traductor en una editorial, destacando tu formación, tu experiencia y por qué encajas en el puesto.",
     ["Saludo y despedida formales", "Formación y experiencia con vocabulario de CV", "Motivación concreta por la empresa", "Petición de entrevista"],
-    "Estimada señora Ferrer: me dirijo a usted para presentar mi candidatura al puesto de traductor literario publicado en su página web. Soy licenciado en Traducción e Interpretación por la Universidad de Granada y cuento con seis años de experiencia en la traducción de novela del inglés y el francés. He traducido once títulos para distintas editoriales, entre ellos dos finalistas del Premio Nacional. Admiro desde hace años su catálogo de narrativa contemporánea, y me encantaría contribuir a él. Quedo a su disposición para ampliar esta información en una entrevista. Atentamente, Hugo Serrano",
+    "Estimada señora Ferrer: Me dirijo a usted para presentar mi candidatura al puesto de traductor literario publicado en su página web. Soy licenciado en Traducción e Interpretación por la Universidad de Granada y cuento con seis años de experiencia en la traducción de novela del inglés y el francés. He traducido once títulos para distintas editoriales, entre ellos dos finalistas del Premio Nacional. Admiro desde hace años su catálogo de narrativa contemporánea, y me encantaría contribuir a él. Quedo a su disposición para ampliar esta información en una entrevista. Atentamente, Hugo Serrano",
     "Me dirijo a usted para, cuento con, quedo a su disposición: fórmulas de la carta de presentación. La experiencia se concreta con datos (seis años, once títulos)."
   ),
   "conflict-resolution-1": t(
@@ -150,7 +150,7 @@ export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
   "historical-narrative-1": t(
     "Narra un episodio histórico que conozcas (real) en un párrafo, usando el imperfecto narrativo o el presente histórico, y al menos un pretérito anterior o pluscuamperfecto.",
     ["Presente histórico o imperfecto narrativo", "Pretérito anterior (hubo + participio) o pluscuamperfecto", "Marcadores temporales precisos", "Tono de relato histórico"],
-    "El 12 de octubre de 1492, tras más de dos meses de travesía, la tripulación de Colón divisa tierra. Apenas hubo amanecido, los marineros desembarcan en una pequeña isla del Caribe, que los taínos llamaban Guanahaní. Colón está convencido de que ha llegado a las Indias, a las que había prometido llegar navegando hacia el oeste. Nunca sabrá que había alcanzado un continente desconocido para los europeos. Aquel encuentro cambiará para siempre la historia de ambos mundos.",
+    "El 12 de octubre de 1492, tras más de dos meses de travesía, la tripulación de Colón divisa tierra. Nada más amanecer, los marineros desembarcan en una pequeña isla del Caribe, que los taínos llamaban Guanahaní. Colón está convencido de que ha llegado a las Indias, a las que había prometido llegar navegando hacia el oeste. Nunca sabrá que había alcanzado un continente desconocido para los europeos. Aquel encuentro cambiará para siempre la historia de ambos mundos.",
     "El presente histórico (divisa, desembarcan) acerca el relato; el pretérito anterior (apenas hubo amanecido) marca la anterioridad inmediata; el futuro de perspectiva (nunca sabrá, cambiará) anticipa desde el pasado."
   ),
   "historical-narrative-6": t(

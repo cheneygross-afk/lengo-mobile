@@ -733,7 +733,7 @@ export const EN_B1_U13_EXTRA: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match each phrase with the modal that has the same meaning.",
+        instructions: "Match each English phrase with its Spanish meaning.",
         pairs: [
           { left: "It's possible that...", right: "Puede que..." },
           { left: "I'm sure that... is", right: "Seguro que..." },
@@ -764,7 +764,7 @@ export const EN_B1_U13_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "I'm sure you are hungry after the trip. = You ___ hungry after the trip.",
         answer: "must be",
-        en: "[Debes de estar] hambriento después del viaje.",
+        en: "[Debes de tener] hambre después del viaje.",
         explanation: "«Deber de» for a deduction = \"must be\". Compare «debes comer» (advice or obligation) = \"you should eat\" or \"you must eat\".",
       },
       {

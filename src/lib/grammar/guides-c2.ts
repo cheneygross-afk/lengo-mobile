@@ -70,7 +70,7 @@ export const C2_GUIDES: GrammarGuide[] = [
       {
         heading: "Lexicalized forms: new words",
         body: [
-          "Some suffixed words have become independent words with their own meaning: bolsillo (pocket, not a small bag), mantequilla (butter), ventanilla (car or ticket window), camión, cinturón, sillón (armchair), bombilla (light bulb), zapatilla (trainer, slipper), cabezón (stubborn), telón (theater curtain).",
+          "Some suffixed words have become independent words with their own meaning: bolsillo (pocket, not a small bag), mantequilla (butter), ventanilla (car or ticket window), cinturón, sillón (armchair), bombilla (light bulb), zapatilla (trainer, slipper), cabezón (stubborn), telón (theater curtain).",
         ],
         examples: [
           { es: "Llevo el móvil en el bolsillo.", en: "I've got my phone in my pocket." },

@@ -1588,7 +1588,7 @@ export const EN_A1_U10: Lesson[] = [
         examples: [
           { es: "See you on Monday.", en: "Nos vemos el lunes." },
           { es: "I need some information.", en: "Necesito información." },
-          { es: "Many people are here.", en: "Hay mucha gente aquí." },
+          { es: "There are a lot of people here.", en: "Hay mucha gente aquí." },
           { es: "They have two red cars.", en: "Tienen dos coches rojos." },
         ],
         checkpoint: [

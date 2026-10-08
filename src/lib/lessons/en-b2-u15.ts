@@ -1157,8 +1157,6 @@ export const EN_B2_U15: Lesson[] = [
           "I promised her I wouldn't be late again.",
           "I promised him that I wouldn't be late again.",
           "I promised her that I wouldn't be late again.",
-          "I promised him not to be late again.",
-          "I promised her not to be late again.",
           "I promised not to be late again.",
           "I promised him I would never be late again.",
           "I promised her I would never be late again.",

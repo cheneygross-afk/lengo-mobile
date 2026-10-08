@@ -1004,7 +1004,7 @@ export const FREQUENCY_C1: DeckCard[] = [
   {"rank":4497,"es":"la librería","en":"bookshop","pos":"n.","exEs":"La pequeña librería se convirtió en el centro cultural del barrio.","exEn":"The small bookstore became the neighborhood's cultural center."},
   {"rank":4498,"es":"el trío","en":"trio","pos":"n.","exEs":"Tocaron en trío: piano, violín y chelo.","exEn":"They played as a trio: piano, violin and cello."},
   {"rank":4499,"es":"el buitre","en":"vulture","pos":"n.","exEs":"A río revuelto, ganancia de fondos buitre.","exEn":"Troubled waters, easy pickings for vulture funds."},
-  {"rank":4500,"es":"la finca","en":"farm, estate; property","pos":"n.","exEs":"Apenas hubo firmado el tratado se retiró a su finca.","exEn":"Scarcely had he signed the treaty when he retired to his estate."},
+  {"rank":4500,"es":"la finca","en":"farm, estate; property","pos":"n.","exEs":"Apenas hubo firmado el tratado, se retiró a su finca.","exEn":"Scarcely had he signed the treaty when he retired to his estate."},
   {"rank":4501,"es":"el blog","en":"blog","pos":"n.","exEs":"Escribe un blog de viajes.","exEn":"She writes a travel blog."},
   {"rank":4502,"es":"la asamblea","en":"assembly","pos":"n.","exEs":"Gracias a la asamblea, ningún vecino tuvo que irse.","exEn":"Thanks to the meeting, no tenant had to leave."},
   {"rank":4503,"es":"el porche","en":"porch","pos":"n.","exEs":"Nos sentamos en el porche a ver la lluvia.","exEn":"We sat on the porch watching the rain."},

@@ -782,7 +782,7 @@ export const EN_A1_U2: Lesson[] = [
         type: "listen-choose",
         audio: "banana",
         question: "¿Qué sílaba suena más fuerte?",
-        options: ["La del medio: NA", "La primera: BA", "La última: NA"],
+        options: ["La del medio: ba-NA-na", "La primera: BA-na-na", "La última: ba-na-NA"],
         correctIndex: 0,
         explanation: "\"Banana\" se dice bə-NA-nə: acento en la del medio y schwa en las otras dos.",
       },

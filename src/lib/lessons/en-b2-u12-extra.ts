@@ -116,7 +116,7 @@ export const EN_B2_U12_EXTRA: Lesson[] = [
         sentence: "The lifeguard warned the children ___ swim after eating.",
         answer: "not to",
         en: "El socorrista advirtió a los niños [que no] nadaran después de comer.",
-        explanation: "\"Warn\" + person + \"not to\" + base verb. Note the order: \"not to swim\", not *to not swim in careful English.",
+        explanation: "\"Warn\" + person + \"not to\" + base verb. Note the usual order: \"not to swim\" (\"to not swim\" is also heard, but \"not to\" is the standard choice in writing).",
       },
       {
         type: "translate",
@@ -234,7 +234,7 @@ export const EN_B2_U12_EXTRA: Lesson[] = [
         heading: "Quick recap: suggest and recommend",
         body: [
           "\"Suggest\" and \"recommend\" never take person + to-infinitive. *She suggested me to go is the classic Spanish-speaker error. Use one of these: \"suggest + -ing\" (\"She suggested going by train\"), or \"suggest (that) + subject + base verb / should\" (\"She suggested (that) I go / I should go\").",
-          "Spanish «me sugirió que fuera» uses the subjunctive. English has its own subjunctive here, the base form with no -s and no past: \"He suggested that she take a taxi\". In everyday American English \"should\" or a normal past is also fine: \"He suggested she should take a taxi\", \"He suggested she took a taxi\" (mainly British).",
+          "Spanish «me sugirió que fuera» uses the subjunctive. English has its own subjunctive here, the base form with no -s and no past: \"He suggested that she take a taxi\". \"Should\" is also fine, and British English also allows a normal past: \"He suggested she should take a taxi\", \"He suggested she took a taxi\" (mainly British).",
           "To mention who receives the suggestion, use \"to\": \"She suggested it to me\", never *suggested me it. \"Recommend\" works the same way: \"I recommend booking early\", \"I recommend (that) you book early\".",
         ],
         examples: [
@@ -414,7 +414,7 @@ export const EN_B2_U12_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "I'd suggest booking early, because the tickets sell out fast.",
-        tip: "\"suggest\" is stressed on the second syllable: sug-GEST. The \"g\" sounds like \"j\" in American English.",
+        tip: "\"suggest\" is stressed on the second syllable: sug-GEST. Americans often say both sounds, /səɡˈdʒest/ (\"sug-JEST\"); British speakers say /səˈdʒest/.",
         explanation: "\"I'd suggest\" + -ing is a polite way to give advice.",
       },
       {
@@ -773,7 +773,7 @@ export const EN_B2_U12_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "He told me he ___ to work on Saturday.",
         answer: "had",
-        altAnswers: ["would have", "had had"],
+        altAnswers: ["would have"],
         en: "Me dijo que [tenía que] trabajar el sábado.",
         explanation: "\"I have to work\" becomes \"he had to work\". «Tener que» = \"have to\"; the \"to\" is already in the sentence.",
       },
@@ -1199,7 +1199,7 @@ export const EN_B2_U12_EXTRA: Lesson[] = [
         source: "El jefe nos ordenó que no habláramos con la prensa.",
         answer: "The boss ordered us not to talk to the press.",
         altAnswers: ["The boss told us not to talk to the press.", "The boss ordered us not to speak to the press.", "The boss told us not to speak to the press.", "Our boss ordered us not to talk to the press.", "Our boss told us not to talk to the press.", "The boss instructed us not to talk to the press.", "The boss ordered us not to talk to the media."],
-        explanation: "\"Order\" + person + \"not to\". Note \"talk to\", not *talk with the press in this context.",
+        explanation: "\"Order\" + person + \"not to\". \"Talk to the press\" is the most common choice (\"talk with\" is also heard in American English).",
       },
       {
         type: "word-order",
@@ -1213,7 +1213,7 @@ export const EN_B2_U12_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The guard ___ open their bags.",
         answer: "asked us to",
-        altAnswers: ["told us to", "ordered us to", "made us"],
+        altAnswers: ["told us to"],
         en: "El vigilante [nos pidió que] abriéramos las bolsas.",
         explanation: "\"Ask\" + person + \"to\" + base verb. The person (\"us\") goes between the verb and \"to\".",
       },

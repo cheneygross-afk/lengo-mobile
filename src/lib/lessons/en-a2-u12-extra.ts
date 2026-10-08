@@ -101,7 +101,7 @@ export const EN_A2_U12_EXTRA: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "Evito usar el teléfono en la cama.",
         answer: "I avoid using my phone in bed.",
-        altAnswers: ["I avoid using the phone in bed.", "I avoid using my phone in the bed.", "I avoid using my cell phone in bed."],
+        altAnswers: ["I avoid using the phone in bed.", "I avoid using my cell phone in bed."],
         explanation: "\"Avoid\" + \"-ing\": \"avoid using\". En inglés se dice \"my phone\" y \"in bed\" (sin \"the\").",
       },
       {
@@ -735,7 +735,7 @@ export const EN_A2_U12_EXTRA: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "___ the report by Friday?",
         answer: "Do you want me to finish",
-        altAnswers: ["Would you like me to finish", "Do you need me to finish", "Do you want me to send", "Would you like me to send"],
+        altAnswers: ["Would you like me to finish", "Do you need me to finish"],
         en: "[¿Quieres que termine] el informe para el viernes?",
         explanation: "La pregunta: \"Do you want me to\" + verbo. «Para el viernes» (fecha límite) es \"by Friday\".",
       },
@@ -756,7 +756,7 @@ export const EN_A2_U12_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "¿Cómo se dice «No quiero que te preocupes»?",
-        options: ["I don't want you to worry.", "I don't want that you worry.", "I don't want you worry.", "I want you to not worry."],
+        options: ["I don't want you to worry.", "I don't want that you worry.", "I don't want you worry.", "I no want you to worry."],
         correctIndex: 0,
         explanation: "La negación va en \"want\": \"I don't want you to worry\". Es la forma natural para «no quiero que».",
       },

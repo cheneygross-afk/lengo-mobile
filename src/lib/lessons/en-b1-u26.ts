@@ -91,7 +91,7 @@ export const EN_B1_U26: Lesson[] = [
         ],
         examples: [
           { es: "Can you pick me up from the airport?", en: "¿Me puedes recoger en el aeropuerto?" },
-          { es: "He picked the phone up and said hello.", en: "Cogió el teléfono y dijo hola." },
+          { es: "He picked the phone up and said hello.", en: "Contestó el teléfono y dijo hola." },
           { es: "Put your glasses on. You can't see anything.", en: "Ponte las gafas. No ves nada." },
           { es: "I'm wearing a jacket.", en: "Llevo una chaqueta puesta." },
           { es: "The plane took off at six.", en: "El avión despegó a las seis." },

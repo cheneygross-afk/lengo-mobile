@@ -260,7 +260,7 @@ export const EN_B1_U02_EXTRA: Lesson[] = [
         heading: "Reminder: where each word goes",
         body: [
           "\"Already\" and \"just\" go between \"have\" and the participle: \"I've already sent it\", \"I've just seen her\". \"Yet\" goes at the END of negatives and questions: \"I haven't finished yet\", \"Have you finished yet?\". \"Still\" goes BEFORE \"haven't\": \"I still haven't finished\".",
-          "Typical slips: *I have finished already it (object first, then \"already\" at the end if you want it there), *I haven't yet finished (put \"yet\" at the end), *I haven't still finished (it is \"still haven't\").",
+          "Typical slips: *I have finished already it (object first, then \"already\" at the end if you want it there), I haven't yet finished (correct but formal; in conversation put \"yet\" at the end), *I haven't still finished (it is \"still haven't\").",
         ],
         examples: [
           { es: "I've already sent the email.", en: "Ya he enviado el correo." },
@@ -381,7 +381,7 @@ export const EN_B1_U02_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "We've ___ back from the airport.",
         answer: "just gotten",
-        altAnswers: ["just come", "just got", "just returned"],
+        altAnswers: ["just come", "just got"],
         en: "[Acabamos de volver] del aeropuerto.",
         explanation: "«Acabamos de» is \"have just\" + participle. In American English the participle of \"get\" is \"gotten\": \"We've just gotten back\".",
       },
@@ -414,7 +414,7 @@ export const EN_B1_U02_EXTRA: Lesson[] = [
         prompt: "Translate into English.",
         source: "Acabamos de llegar a casa.",
         answer: "We've just gotten home.",
-        altAnswers: ["We just got home.", "We've just arrived home.", "We just arrived home.", "We've just got home.", "We've just come home.", "We just came home.", "We've just arrived at home."],
+        altAnswers: ["We just got home.", "We've just arrived home.", "We just arrived home.", "We've just got home.", "We've just come home.", "We just came home."],
         explanation: "«Acabamos de llegar» is \"We've just gotten\" or \"We've just arrived\". \"Home\" takes no \"to\" or \"at\": \"get home\", \"arrive home\".",
       },
       {
@@ -441,7 +441,7 @@ export const EN_B1_U02_EXTRA: Lesson[] = [
           "I yet haven't finished.",
         ],
         correctIndex: 0,
-        explanation: "In a negative sentence, «ya no / todavía no» is \"not ... yet\", with \"yet\" at the end. \"Already\" belongs in affirmatives.",
+        explanation: "In a negative sentence, «todavía no» is \"not ... yet\" («ya no» is \"not any more\"), with \"yet\" at the end. \"Already\" belongs in affirmatives.",
       },
       {
         type: "fill-blank",
@@ -633,7 +633,7 @@ export const EN_B1_U02_EXTRA: Lesson[] = [
         prompt: "Translate into English.",
         source: "Me ha mordido un perro.",
         answer: "A dog has bitten me.",
-        altAnswers: ["A dog bit me.", "I've been bitten by a dog.", "I was bitten by a dog.", "A dog has bit me."],
+        altAnswers: ["A dog bit me.", "I've been bitten by a dog.", "I was bitten by a dog.", "A dog has bitten me."],
         explanation: "\"Bite, bit, bitten\". English puts the subject first: \"A dog has bitten me\", not *Has bitten me a dog.",
       },
       {
@@ -843,7 +843,7 @@ export const EN_B1_U02_EXTRA: Lesson[] = [
         prompt: "Translate into English.",
         source: "¿Dónde has estado? Te he llamado tres veces.",
         answer: "Where have you been? I've called you three times.",
-        altAnswers: ["Where have you been? I called you three times.", "Where were you? I called you three times.", "Where have you been? I have been calling you three times."],
+        altAnswers: ["Where have you been? I called you three times.", "Where were you? I called you three times.", "Where have you been? I've called you three times."],
         explanation: "\"Where have you been?\" is what you say to someone who finally turns up. Here \"been\" is the participle of \"be\", not of \"go\".",
       },
       {

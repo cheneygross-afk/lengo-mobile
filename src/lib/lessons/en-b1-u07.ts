@@ -856,7 +856,7 @@ export const EN_B1_U07: Lesson[] = [
         heading: "Verbs that describe states",
         body: [
           "Most verbs can be simple or continuous. But some verbs describe states, not actions: what you know, think, want, like or own. These are not normally used in the continuous: \"I know\", \"I understand\", \"I want\", \"I need\", \"I like\", \"I believe\", \"It belongs to me\".",
-          "Spanish speakers often say \"I'm understanding\" or \"I'm wanting\" because Spanish allows «estoy entendiendo» or «estoy queriendo» in some contexts. In English, say \"I understand\". For a slow process, use another verb: \"I'm starting to understand\".",
+          "Spanish speakers often say *I'm understanding or *I'm wanting because Spanish allows «estoy entendiendo» or «estoy queriendo» in some contexts. In English, say \"I understand\". For a slow process, use another verb: \"I'm starting to understand\".",
           "Even for this exact moment, use the simple form: \"Do you understand?\" \"Yes, I understand.\" \"What do you want?\", never *What are you wanting?.",
         ],
         examples: [

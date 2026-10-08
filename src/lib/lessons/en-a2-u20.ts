@@ -783,7 +783,7 @@ export const EN_A2_U20: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "Me levanto temprano todos los días.",
         answer: "I get up early every day.",
-        altAnswers: ["I wake up early every day."],
+        altAnswers: [],
         explanation: "«Temprano» (o «pronto», en España) es \"early\". \"Soon\" significa «dentro de poco».",
       },
       {

@@ -172,7 +172,7 @@ export const EN_A1_U4_EXTRA: Lesson[] = [
         instructions: "Une cada frase con su significado.",
         pairs: [
           { left: "She is sitting.", right: "Está sentada." },
-          { left: "He is lying.", right: "Está mintiendo." },
+          { left: "He is lying to me.", right: "Me está mintiendo." },
           { left: "They are dancing.", right: "Están bailando." },
           { left: "We are shopping.", right: "Estamos de compras." },
         ],

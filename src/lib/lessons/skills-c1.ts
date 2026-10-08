@@ -81,7 +81,7 @@ export const C1_SKILLS: Record<string, Exercise[]> = {
     ),
   ],
   "c1r-contrast-voseo-varieties": [
-    spk("Vos tenés razón, pero ¿vos querís venir o no?", "Primero voseo rioplatense (tenés), luego chileno (querís): escucha la diferencia de terminación.", "Tenés (Río de la Plata) frente a querís (Chile, informal)."),
+    spk("Vos tenés razón, pero ¿querés venir o no?", "Voseo rioplatense: pronombre vos y terminación -és (tenés, querés). En Chile, en cambio, se oiría «tú tenís razón, pero ¿querís venir o no?».", "Tenés y querés (Río de la Plata, con vos) frente a tenís y querís (Chile, informal, con tú)."),
   ],
   "c1r-mission-press-release": [
     lc(

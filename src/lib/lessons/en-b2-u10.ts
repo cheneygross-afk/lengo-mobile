@@ -9,7 +9,7 @@ export const EN_B2_U10: Lesson[] = [
     level: "EN-B2",
     number: 1,
     title: "The Passive: All Tenses, Part 1 of 2",
-    summary: "Use the passive in every tense, including the past perfect and the future perfect: had been cancelled, is being rebuilt, will have been completed. Stop replacing it with Spanish-style «se» sentences.",
+    summary: "Use the passive in every tense, including the past perfect and the future perfect: had been canceled, is being rebuilt, will have been completed. Stop replacing it with Spanish-style «se» sentences.",
     duration: "12 min",
     sections: [
       {
@@ -55,14 +55,14 @@ export const EN_B2_U10: Lesson[] = [
         heading: "Perfect passives: has been, had been",
         body: [
           "Present perfect passive: \"has/have been\" + participle. Use it for recent news and results that matter now: \"My bike has been stolen\", \"Ten people have been arrested so far\".",
-          "Past perfect passive: \"had been\" + participle, for something that happened before another moment in the past: \"When we arrived, the concert had been cancelled\". This is the passive version of «habían cancelado».",
+          "Past perfect passive: \"had been\" + participle, for something that happened before another moment in the past: \"When we arrived, the concert had been canceled\". This is the passive version of «habían cancelado».",
           "Don't forget \"been\". \"My bike has stolen\" is impossible, because a bike can't steal anything. «Me han robado la bici» is \"My bike has been stolen\" or \"Someone has stolen my bike\".",
         ],
         examples: [
           { es: "My bike has been stolen.", en: "Me han robado la bici." },
           { es: "Ten people have been arrested so far.", en: "Hasta ahora han detenido a diez personas." },
           { es: "Has the package been delivered yet?", en: "¿Ya han entregado el paquete?" },
-          { es: "When we arrived, the concert had been cancelled.", en: "Cuando llegamos, habían cancelado el concierto." },
+          { es: "When we arrived, the concert had been canceled.", en: "Cuando llegamos, habían cancelado el concierto." },
           { es: "The room had been cleaned before the guests arrived.", en: "Habían limpiado la habitación antes de que llegaran los huéspedes." },
         ],
         checkpoint: [
@@ -91,7 +91,7 @@ export const EN_B2_U10: Lesson[] = [
             type: "fill-blank",
             prompt: "Write the bold words in English.",
             sentence: "When I got to the station, the train ___ .",
-            answer: "had been cancelled",
+            answer: "had been canceled",
             altAnswers: ["had already been cancelled", "had been called off"],
             en: "Cuando llegué a la estación, [habían cancelado] el tren.",
             explanation: "The cancellation happened before I arrived: past perfect passive, \"had been\" + participle.",

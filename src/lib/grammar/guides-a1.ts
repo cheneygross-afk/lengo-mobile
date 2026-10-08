@@ -394,7 +394,7 @@ export const A1_GUIDES: GrammarGuide[] = [
       {
         heading: "Spelling changes that keep the sound",
         body: [
-          "A few regular verbs change a letter in the yo form only to keep the pronunciation: coger → cojo, escoger → escojo, seguir → sigo, convencer → convenzo. Verbs ending in -uir add y: construir → construyo, construyes.",
+          "A few regular verbs change a letter in the yo form only to keep the pronunciation: coger → cojo, escoger → escojo, distinguir → distingo, convencer → convenzo. Verbs ending in -uir add y: construir → construyo, construyes.",
         ],
         examples: [
           { es: "Escojo el rojo.", en: "I'll choose the red one." },
@@ -560,7 +560,7 @@ export const A1_GUIDES: GrammarGuide[] = [
       {
         heading: "Yo-go verbs and other irregular yo forms",
         body: [
-          "These verbs are regular except for yo (tener, venir and decir also change their stem): hacer → hago, poner → pongo, salir → salgo, traer → traigo, caer → caigo, oír → oigo, venir → vengo, decir → digo.",
+          "These verbs are regular except for yo (tener, venir and decir also change their stem, and oír adds y: oyes, oye): hacer → hago, poner → pongo, salir → salgo, traer → traigo, caer → caigo, oír → oigo, venir → vengo, decir → digo.",
           "Other verbs with only an irregular yo: saber → sé, dar → doy, ver → veo, conocer → conozco (and most verbs in -cer/-cir: conduzco, ofrezco, traduzco).",
         ],
         examples: [
@@ -886,7 +886,7 @@ export const A1_GUIDES: GrammarGuide[] = [
     faqs: [
       {
         q: "Do tú (you) and tu (your) sound different?",
-        a: "No, they sound the same. The accent only marks the pronoun in writing: tú tienes tu libro.",
+        a: "Almost: the vowel is the same, but tú is stressed and tu is unstressed, and the accent marks that difference in writing: tú tienes tu libro.",
       },
       {
         q: "Can I say \"es el mío\" or just \"es mío\"?",
@@ -904,7 +904,7 @@ export const A1_GUIDES: GrammarGuide[] = [
     level: "A1",
     readingLevelPath: "a1",
     intro: [
-      "Spanish question words always carry a written accent: qué, quién, dónde. The accent doesn't change the sound; it tells you the word is asking something. The same words without an accent (que, donde, cuando) join clauses instead.",
+      "Spanish question words always carry a written accent: qué, quién, dónde. The accent doesn't change the vowel; it marks the stressed question word and tells you the word is asking something. The same words without an accent (que, donde, cuando) join clauses instead.",
       "Questions are written with an opening ¿ and a closing ?, and the verb usually comes straight after the question word.",
     ],
     sections: [

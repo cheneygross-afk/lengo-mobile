@@ -463,6 +463,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "los",
           "comparecientes"
         ],
+        "translation": "The notary attests to the identity of the appearing parties.",
         "explanation": "La oración resultante describe una de las funciones esenciales del notario: 'El notario da fe de la identidad de los comparecientes'."
       }
     ]
@@ -1301,6 +1302,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "zona",
           "afectada"
         ],
+        "translation": "The doctor carefully palpated the affected area.",
         "explanation": "La oración resultante describe una técnica habitual de exploración física: 'El médico realizó una palpación cuidadosa de la zona afectada'."
       }
     ]
@@ -1754,6 +1756,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "la",
               "noticia"
             ],
+            "translation": "He was stunned when he heard the news.",
             "explanation": "El orden correcto es «se quedó de piedra al escuchar la noticia», que expresa una reacción de sorpresa enorme mediante el modismo quedarse de piedra."
           }
         ]
@@ -1768,7 +1771,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Marta: Puso el grito en el cielo. Se notaba que estaba hasta las narices de que la información se filtrara así.",
           "Sonia: Con razón. Aun así, no hay que dorar la píldora: el verdadero problema es que nadie le había explicado bien las normas de confidencialidad.",
           "Marta: Cierto. Y encima Diego se quedó de piedra, no esperaba esa reacción.",
-          "Sonia: Bueno, espero que la próxima vez se ande con más cuidado. Con estas cosas cuesta un ojo de la cara recuperar la confianza del equipo.",
+          "Sonia: Bueno, espero que la próxima vez se ande con más cuidado. Con estas cosas cuesta Dios y ayuda recuperar la confianza del equipo.",
           "Marta: Totalmente de acuerdo. Por suerte, parece que ya está tomando cartas en el asunto para arreglarlo."
         ]
       },
@@ -1957,6 +1960,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "del",
           "examen"
         ],
+        "translation": "She got her act together before the exam.",
         "explanation": "Ponerse las pilas significa espabilarse y esforzarse; la frase ordenada es «se puso las pilas antes del examen»."
       },
       {
@@ -2184,6 +2188,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "quiere",
               "oír"
             ],
+            "translation": "There are none so deaf as those who will not hear.",
             "explanation": "El refrán completo es «no hay peor sordo que el que no quiere oír», y señala que algunas personas se niegan a entender algo de forma deliberada."
           }
         ]
@@ -2412,6 +2417,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "poco",
           "aprieta"
         ],
+        "translation": "Grasp all, lose all.",
         "explanation": "El refrán completo es «quien mucho abarca poco aprieta», y advierte que abarcar demasiadas tareas impide hacerlas bien."
       },
       {
@@ -2876,6 +2882,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "esta",
           "vez"
         ],
+        "translation": "The joke wasn't funny at all this time.",
         "explanation": "La frase ordenada es «el chiste no tuvo ninguna gracia esta vez», donde gracia se refiere a la cualidad de resultar divertido."
       },
       {
@@ -2967,8 +2974,8 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "ejemplo de personificación que atribuye un estado humano a un espacio urbano"
           },
           {
-            "es": "la muerte le tendió la mano",
-            "en": "ejemplo de prosopopeya en el que un concepto abstracto realiza un gesto humano"
+            "es": "la muerte le susurró: «Ven conmigo»",
+            "en": "ejemplo de prosopopeya en el que un concepto abstracto habla con voz propia"
           }
         ],
         "checkpoint": [
@@ -2998,7 +3005,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la figura que consiste en atribuir un significado adicional y subjetivo a una palabra más allá de su definición literal.",
+        "prompt": "Completa el término que designa el significado adicional y subjetivo de una palabra más allá de su definición literal.",
         "sentence": "La palabra hogar tiene una fuerte carga de ___ relacionada con la calidez y la pertenencia.",
         "answer": "connotación",
         "explanation": "La connotación es el significado adicional y subjetivo que una palabra adquiere más allá de su definición literal, como ocurre con hogar frente a casa."
@@ -3139,8 +3146,8 @@ const C2_BASE_LESSONS: Lesson[] = [
         "instructions": "Relaciona cada figura con su ejemplo correspondiente.",
         "pairs": [
           {
-            "left": "la paradoja retórica",
-            "right": "afirmación que parece contradictoria pero encierra una verdad más profunda"
+            "left": "el oxímoron",
+            "right": "combinación de dos términos de significado contradictorio en una sola expresión"
           },
           {
             "left": "la paradoja",
@@ -3312,7 +3319,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "figura que repite una estructura invirtiendo el orden de sus elementos"
           },
           {
-            "es": "la asíndeton",
+            "es": "el asíndeton",
             "en": "omisión de conjunciones entre palabras o frases para dar mayor rapidez a la expresión"
           },
           {
@@ -3344,6 +3351,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el",
           "corazón"
         ],
+        "translation": "His words were daggers driven into the heart.",
         "explanation": "La frase ordenada es «sus palabras eran puñales clavados en el corazón», una metáfora que identifica las palabras con puñales sin usar ninguna partícula comparativa."
       },
       {
@@ -3485,7 +3493,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Eufemismos laborales: despedir sin decir «despedir»",
         "body": [
           "El ámbito laboral es especialmente fértil para el eufemismo corporativo, ya que las empresas buscan comunicar decisiones dolorosas, como los despidos, con un lenguaje que suene neutro o incluso técnico. Expresiones como prescindir de los servicios de alguien o desvincular a un empleado sustituyen al verbo despedir, considerado demasiado directo en ese contexto formal.",
-          "Curiosamente, el uso excesivo de este tipo de fórmulas termina por convertirse en un jerga reconocible que muchos hablantes identifican de inmediato como un anuncio disfrazado de malas noticias, lo que a veces provoca que el propio eufemismo pierda su función original de suavizar el mensaje."
+          "Curiosamente, el uso excesivo de este tipo de fórmulas termina por convertirse en una jerga reconocible que muchos hablantes identifican de inmediato como un anuncio disfrazado de malas noticias, lo que a veces provoca que el propio eufemismo pierda su función original de suavizar el mensaje."
         ],
         "examples": [
           {
@@ -3571,6 +3579,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "su",
               "nombre"
             ],
+            "translation": "She preferred not to call a spade a spade.",
             "explanation": "La frase ordenada es «prefirió no llamar a las cosas por su nombre», expresión que describe evitar la palabra directa para referirse a algo incómodo."
           }
         ]
@@ -3802,6 +3811,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "sus",
           "servicios"
         ],
+        "translation": "The company decided to dispense with his services.",
         "explanation": "La frase ordenada es «la empresa decidió prescindir de sus servicios», fórmula corporativa habitual para referirse a un despido."
       },
       {
@@ -3835,7 +3845,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "¡qué va!",
-            "en": "exclamación que rechaza con rotundidad, y a menudo con ligereza, algo que se acaba de decir"
+            "en": "exclamación coloquial que niega con ligereza algo que se acaba de decir"
           },
           {
             "es": "¡ni hablar!",
@@ -4041,6 +4051,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "de",
               "hoy"
             ],
+            "translation": "What a nightmare the traffic is today!",
             "explanation": "La frase ordenada es «vaya tela con el tráfico de hoy», exclamación coloquial que expresa fastidio ante una situación complicada."
           }
         ]
@@ -4068,7 +4079,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "¡qué va!",
-            "en": "exclamación que rechaza con rotundidad, y a menudo con ligereza, algo que se acaba de decir"
+            "en": "exclamación coloquial que niega con ligereza algo que se acaba de decir"
           },
           {
             "es": "¡ni hablar!",
@@ -4245,6 +4256,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "esa",
           "oferta"
         ],
+        "translation": "There's no way I'm accepting that offer.",
         "explanation": "La frase ordenada es «ni por asomo pienso aceptar esa oferta», donde ni por asomo refuerza una negación categórica."
       },
       {
@@ -4329,7 +4341,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "qué genio tiene la señorita",
-            "en": "uso irónico del diminutivo con intención de crítica velada"
+            "en": "uso irónico de un tratamiento cortés (señorita, diminutivo lexicalizado) con intención de crítica velada"
           },
           {
             "es": "un politiquillo",
@@ -4337,7 +4349,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "bonito lío has armado",
-            "en": "uso irónico de un diminutivo afectivo que en realidad censura una situación negativa"
+            "en": "uso irónico de un adjetivo elogioso que en realidad censura una situación negativa"
           }
         ],
         "checkpoint": [
@@ -4446,7 +4458,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Preferencias regionales y registro: -ico, -ito, -ete",
         "body": [
-          "La forma del diminutivo varía notablemente según la región: el sufijo -ico predomina en Aragón, Murcia, gran parte del Caribe y Costa Rica, mientras que -ito es la forma más extendida en el resto del mundo hispanohablante. El sufijo -ete, menos frecuente, suele añadir un matiz jocoso o levemente despectivo, como en vejete o guapete.",
+          "La forma del diminutivo varía notablemente según la región: el sufijo -ico predomina en Aragón, Murcia y Costa Rica, y en el Caribe y Colombia aparece sobre todo tras -t- (momentico, ratico), mientras que -ito es la forma más extendida en el resto del mundo hispanohablante. El sufijo -ete, menos frecuente, suele añadir un matiz jocoso o levemente despectivo, como en vejete o guapete.",
           "El uso excesivo de diminutivos puede sonar infantil o exageradamente cortés según el contexto y la región, por lo que un hablante avanzado necesita calibrar la frecuencia con la que los emplea según la formalidad de la situación y las convenciones del país donde se encuentre."
         ],
         "examples": [
@@ -4595,7 +4607,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "pequeñito",
-            "en": "diminutivo reduplicado que intensifica la percepción de pequeñez"
+            "en": "diminutivo de un adjetivo que ya significa pequeño, lo que intensifica la percepción de pequeñez"
           },
           {
             "es": "el cochecito",
@@ -4696,6 +4708,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el",
           "discurso"
         ],
+        "translation": "He made a real fool of himself when he forgot his speech.",
         "explanation": "La frase ordenada es «menudo papelón hizo al olvidar el discurso», donde papelón resalta la magnitud de la situación vergonzosa."
       },
       {
@@ -4938,6 +4951,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "ochenta",
               "grados"
             ],
+            "translation": "The company decided to do a complete about-face.",
             "explanation": "La frase ordenada es «la empresa decidió dar un giro de ciento ochenta grados», modismo que describe un cambio completo de estrategia o dirección."
           }
         ]
@@ -5138,6 +5152,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el",
           "asador"
         ],
+        "translation": "They decided to go all out.",
         "explanation": "La frase ordenada es «decidieron poner toda la carne en el asador», modismo que describe emplear todos los recursos disponibles para lograr un objetivo."
       },
       {
@@ -5342,7 +5357,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Conexiones lógicas implícitas en el texto escrito",
         "body": [
           "Cuanto más sofisticado es un texto, menos necesita explicitar las relaciones lógicas entre sus ideas. Un ensayista experto puede yuxtaponer dos oraciones sin ningún conector visible y confiar en que el lector reconstruya por sí mismo si la relación es de causa, de contraste o de consecuencia. Esta economía de conectores no es un descuido, sino un rasgo propio de la prosa madura, que trata al lector como un interlocutor capaz de completar el razonamiento.",
-          "Para reconstruir esas conexiones implícitas conviene fijarse en los tiempos verbales, en el orden de las ideas y en el conocimiento general que el autor da por compartido. Una oración que sigue a otra con un verbo en pasado suele indicar consecuencia; una idea que contradice la expectativa creada por la anterior suele señalar un contraste, aunque no aparezca ningún «pero» ni «sin embargo».",
+          "Para reconstruir esas conexiones implícitas conviene fijarse en los tiempos verbales, en el orden de las ideas y en el conocimiento general que el autor da por compartido. Una oración que narra un hecho posterior a otro suele sugerir una consecuencia; una idea que contradice la expectativa creada por la anterior suele señalar un contraste, aunque no aparezca ningún «pero» ni «sin embargo».",
           "Esta habilidad se vuelve indispensable en textos densos como los ensayos académicos o los artículos de opinión, donde la argumentación avanza a saltos y el lector debe tender puentes lógicos constantemente. Quien solo busca conectores explícitos se pierde buena parte del razonamiento subyacente."
         ],
         "examples": [
@@ -5377,6 +5392,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "palabra",
           "desconocida"
         ],
+        "translation": "Context makes it possible to infer the meaning of an unknown word.",
         "explanation": "El orden natural sitúa el sujeto (El contexto) antes del verbo (permite) y del infinitivo con su complemento."
       }
     ]
@@ -6045,6 +6061,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "argumento",
           "principal"
         ],
+        "translation": "Conceding a minor point strengthens the main argument.",
         "explanation": "El sujeto (Conceder un punto secundario) precede al verbo (refuerza) y a su complemento (el argumento principal)."
       }
     ]
@@ -6218,7 +6235,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Doctora Salas: Ahí incurre usted, si me lo permite, en una falacia de la pendiente resbaladiza. Regular no equivale a prohibir, por mucho que quiera presentarlo así.",
           "Doctor Ibarra: No pretendo deformar su postura, solo advertir de una consecuencia probable si la norma se aplica con rigidez excesiva.",
           "Moderadora: Interesante intercambio. ¿Ven ambos algún punto en común desde el que avanzar?",
-          "Doctora Salas: Sin duda. Los dos coincidimos en que la transparencia del sistema es indispensable, discrepamos solo en el mecanismo para lograrla.",
+          "Doctora Salas: Sin duda. Los dos coincidimos en que la transparencia del sistema es indispensable; discrepamos solo en el mecanismo para lograrla.",
           "Doctor Ibarra: De acuerdo con eso. Ese consenso parcial ya es un buen punto de partida."
         ]
       }
@@ -6680,7 +6697,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "mantener una línea roja",
-            "en": "señalar un límite que no está dispuesto a cederse bajo ninguna circunstancia"
+            "en": "señalar un límite que no se está dispuesto a ceder bajo ninguna circunstancia"
           }
         ],
         "checkpoint": [
@@ -6701,6 +6718,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la frase sobre la negociación.",
         "sentence": "Tras varias rondas de cesión mutua, ambas partes lograron ___ un acuerdo satisfactorio.",
         "answer": "llegar a",
+        "altAnswers": ["alcanzar", "cerrar"],
         "explanation": "«Llegar a un acuerdo» es la fórmula habitual para describir la conclusión exitosa de una negociación.",
         "hint": "expresión verbal seguida de la preposición «a»"
       }
@@ -6782,6 +6800,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "maniobra",
           "realista"
         ],
+        "translation": "A counteroffer should reflect realistic room for manoeuvre.",
         "explanation": "El sujeto (La contraoferta) precede al verbo modal (debe) más el infinitivo (reflejar) y su complemento."
       }
     ]
@@ -7440,6 +7459,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "sintáctica",
           "original"
         ],
+        "translation": "A faithful paraphrase reorganises the original syntactic structure.",
         "explanation": "El sujeto (Una paráfrasis fiel) precede al verbo (reorganiza) y a su complemento directo."
       }
     ]
@@ -7915,7 +7935,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 69,
     "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 1 of 7",
-    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipofora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipófora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
     "duration": "8 min",
     "sections": [
       {
@@ -7961,7 +7981,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 70,
     "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 2 of 7",
-    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipofora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipófora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
     "duration": "10 min",
     "sections": [
       {
@@ -7990,29 +8010,29 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Siempre va seguida de una respuesta explícita del propio hablante"
             ],
             "correctIndex": 1,
-            "explanation": "La pregunta retórica no busca información: bajo su forma interrogativa esconde una afirmación que el hablante da por sentada de antemano. No busca información, se usa también en el habla y en discursos orales, y no siempre la responde el propio hablante (eso sería hipofora)."
+            "explanation": "La pregunta retórica no busca información: bajo su forma interrogativa esconde una afirmación que el hablante da por sentada de antemano. No busca información, se usa también en el habla y en discursos orales, y no siempre la responde el propio hablante (eso sería hipófora)."
           }
         ]
       },
       {
-        "heading": "La hipofora: preguntar y responder uno mismo",
+        "heading": "La hipófora: preguntar y responder uno mismo",
         "body": [
-          "Una variante especialmente eficaz de la pregunta retórica es la hipofora, en la que el propio hablante formula la interrogación y, sin dejar espacio real para la participación del oyente, ofrece de inmediato la respuesta. Esta estructura —«¿cuál es la verdadera causa del problema? La respuesta es más simple de lo que parece»— simula un diálogo con el público, pero en realidad conduce el razonamiento de manera férrea hacia la conclusión que el orador ya tenía preparada.",
-          "La hipofora resulta particularmente útil para organizar un discurso extenso, ya que cada pregunta marca una transición clara hacia un nuevo bloque temático, funcionando casi como un subtítulo oral que orienta al oyente sobre la estructura del razonamiento. Este uso estructural, además del persuasivo, explica su presencia frecuente en discursos políticos, conferencias y artículos de opinión de cierta extensión.",
-          "Un riesgo de este recurso, empleado con exceso, es que el discurso empiece a sonar mecánico, como una sucesión previsible de preguntas y respuestas propias que agota al oyente en lugar de sorprenderlo. Alternar la hipofora con otros recursos discursivos evita ese efecto de monotonía estructural."
+          "Una variante especialmente eficaz de la pregunta retórica es la hipófora, en la que el propio hablante formula la interrogación y, sin dejar espacio real para la participación del oyente, ofrece de inmediato la respuesta. Esta estructura —«¿cuál es la verdadera causa del problema? La respuesta es más simple de lo que parece»— simula un diálogo con el público, pero en realidad conduce el razonamiento de manera férrea hacia la conclusión que el orador ya tenía preparada.",
+          "La hipófora resulta particularmente útil para organizar un discurso extenso, ya que cada pregunta marca una transición clara hacia un nuevo bloque temático, funcionando casi como un subtítulo oral que orienta al oyente sobre la estructura del razonamiento. Este uso estructural, además del persuasivo, explica su presencia frecuente en discursos políticos, conferencias y artículos de opinión de cierta extensión.",
+          "Un riesgo de este recurso, empleado con exceso, es que el discurso empiece a sonar mecánico, como una sucesión previsible de preguntas y respuestas propias que agota al oyente en lugar de sorprenderlo. Alternar la hipófora con otros recursos discursivos evita ese efecto de monotonía estructural."
         ],
         "examples": [
           {
             "es": "¿cuál es la causa? La respuesta es simple",
-            "en": "un ejemplo de hipofora, donde el hablante pregunta y responde de inmediato"
+            "en": "un ejemplo de hipófora, donde el hablante pregunta y responde de inmediato"
           },
           {
             "es": "simular un diálogo con el público",
-            "en": "el efecto retórico que produce la hipofora al formular y responder su propia pregunta"
+            "en": "el efecto retórico que produce la hipófora al formular y responder su propia pregunta"
           },
           {
             "es": "marcar una transición temática",
-            "en": "emplear la hipofora como recurso estructural para introducir un nuevo bloque del discurso"
+            "en": "emplear la hipófora como recurso estructural para introducir un nuevo bloque del discurso"
           }
         ]
       }
@@ -8022,7 +8042,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "type": "multi-select",
         "question": "¿Qué recursos emplean preguntas con fines persuasivos más que informativos?",
         "options": [
-          "La hipofora",
+          "La hipófora",
           "La cita textual",
           "La interpelación",
           "La anáfora interrogativa"
@@ -8032,7 +8052,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "La hipofora, la interpelación y la anáfora interrogativa son recursos que emplean la pregunta con fines persuasivos; la cita textual pertenece a otro ámbito, el de las referencias."
+        "explanation": "La hipófora, la interpelación y la anáfora interrogativa son recursos que emplean la pregunta con fines persuasivos; la cita textual pertenece a otro ámbito, el de las referencias."
       }
     ]
   },
@@ -8041,22 +8061,22 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 71,
     "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 3 of 7",
-    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipofora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipófora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Usar la hipofora con medida",
+        "heading": "Usar la hipófora con medida",
         "body": [
-          "La hipofora (preguntar y responder uno mismo) conduce al oyente hacia una conclusión preparada, pero si se encadena de forma mecánica pierde fuerza y resulta monótona."
+          "La hipófora (preguntar y responder uno mismo) conduce al oyente hacia una conclusión preparada, pero si se encadena de forma mecánica pierde fuerza y resulta monótona."
         ],
         "examples": [
           {
             "es": "una sucesión mecánica de preguntas",
-            "en": "el riesgo de emplear la hipofora en exceso sin variar el recurso discursivo"
+            "en": "el riesgo de emplear la hipófora en exceso sin variar el recurso discursivo"
           },
           {
             "es": "conducir el razonamiento con firmeza",
-            "en": "guiar al oyente hacia una conclusión ya preparada mediante la hipofora"
+            "en": "guiar al oyente hacia una conclusión ya preparada mediante la hipófora"
           }
         ],
         "checkpoint": [
@@ -8064,8 +8084,8 @@ const C2_BASE_LESSONS: Lesson[] = [
             "type": "fill-blank",
             "prompt": "Completa la definición del recurso retórico.",
             "sentence": "La ___ consiste en formular una pregunta y responderla de inmediato el propio hablante.",
-            "answer": "hipofora",
-            "explanation": "La hipofora es la figura retórica en la que el hablante plantea una pregunta y ofrece él mismo la respuesta sin dejar espacio real al oyente.",
+            "answer": "hipófora",
+            "explanation": "La hipófora es la figura retórica en la que el hablante plantea una pregunta y ofrece él mismo la respuesta sin dejar espacio real al oyente.",
             "hint": "figura retórica que combina pregunta y respuesta propia"
           }
         ]
@@ -8109,7 +8129,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 72,
     "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 4 of 7",
-    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipofora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipófora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
     "duration": "10 min",
     "sections": [
       {
@@ -8183,6 +8203,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "respuesta",
           "real"
         ],
+        "translation": "A rhetorical question does not seek a real answer.",
         "explanation": "El sujeto (La pregunta retórica) precede a la negación (no) y al verbo (busca) con su complemento."
       }
     ]
@@ -8192,7 +8213,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 73,
     "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 5 of 7",
-    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipofora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipófora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
     "duration": "9 min",
     "sections": [
       {
@@ -8245,7 +8266,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "instructions": "Relaciona cada recurso con su definición.",
         "pairs": [
           {
-            "left": "la hipofora",
+            "left": "la hipófora",
             "right": "la figura en la que se formula una pregunta y se responde de inmediato"
           },
           {
@@ -8270,7 +8291,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 74,
     "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 6 of 7",
-    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipofora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipófora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
     "duration": "7 min",
     "sections": [
       {
@@ -8300,7 +8321,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "una expresión enfática que subraya una emoción o una idea"
           },
           {
-            "es": "la hipofora",
+            "es": "la hipófora",
             "en": "la figura en la que se formula una pregunta y se responde de inmediato"
           },
           {
@@ -8313,7 +8334,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "la interpelación",
-            "en": "una pregunta directa dirigida a alguien para comprometerlo a responder"
+            "en": "una pregunta directa dirigida a alguien para comprometerlo con el argumento"
           },
           {
             "es": "sugerir sin afirmar",
@@ -8357,7 +8378,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Por qué el uso excesivo de la hipofora puede debilitar un discurso?",
+        "question": "¿Por qué el uso excesivo de la hipófora puede debilitar un discurso?",
         "options": [
           "Porque el público espera siempre una respuesta escrita",
           "Porque su repetición mecánica genera monotonía y agota al oyente",
@@ -8365,7 +8386,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Porque impide formular ninguna pregunta retórica adicional"
         ],
         "correctIndex": 1,
-        "explanation": "Cuando la hipofora se repite sin variación, el discurso adquiere un ritmo previsible que reduce su fuerza persuasiva en lugar de reforzarla. El público no espera respuestas escritas, la hipofora no es exclusiva de los textos académicos y no impide formular otras preguntas retóricas."
+        "explanation": "Cuando la hipófora se repite sin variación, el discurso adquiere un ritmo previsible que reduce su fuerza persuasiva en lugar de reforzarla. El público no espera respuestas escritas, la hipófora no es exclusiva de los textos académicos y no impide formular otras preguntas retóricas."
       }
     ]
   },
@@ -8374,7 +8395,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 75,
     "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 7 of 7",
-    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipofora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipófora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
     "duration": "4 min",
     "sections": [
       {
@@ -8612,7 +8633,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Hablar de un punto de mejora con honestidad estratégica",
         "body": [
           "La pregunta sobre las debilidades propias exige un equilibrio delicado entre la honestidad y la estrategia. Responder que no se tiene ningún punto de mejora suena poco creíble, mientras que exponer una debilidad genuinamente grave para el puesto puede descartar al candidato de inmediato. La estrategia más sólida consiste en elegir un aspecto real, pero periférico respecto de las exigencias centrales del puesto, y mostrar de inmediato qué se está haciendo para superarlo.",
-          "Una estructura habitual sigue tres pasos: nombrar el punto de mejora con sinceridad, explicar brevemente el contexto en el que se manifestó y, finalmente, describir las acciones concretas emprendidas para corregirlo, idealmente con algún resultado ya visible. «Reconozco que la gestión del tiempo con eficacia no ha sido siempre mi fuerte, así que desde hace un año trabajo con un sistema de planificación semanal que ha mejorado notablemente mi cumplimiento de plazos.»",
+          "Una estructura habitual sigue tres pasos: nombrar el punto de mejora con sinceridad, explicar brevemente el contexto en el que se manifestó y, finalmente, describir las acciones concretas emprendidas para corregirlo, idealmente con algún resultado ya visible. «Reconozco que gestionar el tiempo con eficacia no ha sido siempre mi fuerte, así que desde hace un año trabajo con un sistema de planificación semanal que ha mejorado notablemente mi cumplimiento de plazos.»",
           "Conviene evitar el recurso trillado de disfrazar una fortaleza como debilidad —«soy demasiado perfeccionista»—, ya que los entrevistadores con experiencia reconocen de inmediato esa estrategia y la interpretan como una respuesta evasiva más que como honestidad estratégica."
         ],
         "examples": [
@@ -8651,6 +8672,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la estructura de la respuesta sobre un punto de mejora.",
             "sentence": "Reconozco que ese aspecto no ha sido siempre mi fuerte, así que ___ un sistema que me ha ayudado a mejorarlo.",
             "answer": "implementé",
+            "altAnswers": ["implanté", "adopté", "puse en marcha", "creé"],
             "explanation": "Mostrar una acción concreta ya emprendida para corregir la debilidad refuerza la credibilidad de la respuesta.",
             "hint": "verbo en pretérito que significa poner en práctica"
           }
@@ -8739,6 +8761,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la frase sobre el cierre de una entrevista.",
         "sentence": "Preguntar por el margen de crecimiento demuestra una ___ que va más allá del interés económico.",
         "answer": "motivación intrínseca",
+        "altAnswers": ["motivación", "motivación genuina"],
         "explanation": "Las preguntas sobre desarrollo profesional reflejan un interés genuino por el puesto, más allá de la pretensión salarial.",
         "hint": "expresión de dos palabras relacionada con el impulso interno"
       }
@@ -8819,6 +8842,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "honestidad",
           "estratégica"
         ],
+        "translation": "Acknowledging an area for improvement requires strategic honesty.",
         "explanation": "El sujeto (Reconocer un punto de mejora) precede al verbo (exige) y a su complemento directo."
       }
     ]
@@ -8835,9 +8859,9 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "En la práctica",
         "body": [
           "Entrevistador: Cuénteme, ¿cuál diría que es su mayor fortaleza profesional?",
-          "Candidata: Diría que destaco en la capacidad de liderazgo. En mi puesto anterior coordiné un equipo de seis personas durante un proyecto complicado y logramos entregarlo antes del plazo previsto.",
+          "Candidata: Diría que destaco por mi capacidad de liderazgo. En mi puesto anterior coordiné un equipo de seis personas durante un proyecto complicado y logramos entregarlo antes del plazo previsto.",
           "Entrevistador: Interesante. ¿Y algún punto de mejora que reconozca en usted misma?",
-          "Candidata: Con sinceridad, la gestión del tiempo con eficacia no siempre fue mi fuerte, así que implementé un sistema de planificación semanal que me ha ayudado bastante desde entonces.",
+          "Candidata: Con sinceridad, gestionar el tiempo con eficacia no siempre fue mi fuerte, así que implementé un sistema de planificación semanal que me ha ayudado bastante desde entonces.",
           "Entrevistador: Bien planteado. Ahora, cuénteme una situación en la que tuvo que sortear un obstáculo inesperado.",
           "Candidata: Claro. La situación fue la caída repentina de un proveedor clave. Mi tarea consistía en garantizar la continuidad del servicio, así que negocié en pocos días un acuerdo alternativo, y logramos mantener el servicio sin ninguna interrupción visible para el cliente.",
           "Entrevistador: Excelente ejemplo. Para terminar, ¿tiene alguna pregunta para nosotros?",
@@ -9314,6 +9338,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la frase sobre la reconciliación.",
         "sentence": "Una disculpa sincera reconoce el daño causado sin ___ que lo diluyan.",
         "answer": "condicionantes",
+        "altAnswers": ["justificaciones", "excusas", "peros"],
         "explanation": "Una disculpa condicionada por justificaciones adicionales pierde buena parte de su valor reparador.",
         "hint": "sustantivo plural relacionado con condicionar algo"
       }
@@ -9399,6 +9424,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "la",
           "propia"
         ],
+        "translation": "Acknowledging the other person's perspective does not require giving up your own.",
         "explanation": "El sujeto (Reconocer la perspectiva ajena) precede a la negación (no) y al verbo (exige) con su complemento."
       }
     ]
@@ -10040,7 +10066,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "hubo",
           "firmado",
           "el",
-          "tratado",
+          "tratado,",
           "se",
           "retiró",
           "a",
@@ -11618,6 +11644,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "mercado",
           "entero"
         ],
+        "translation": "Disruptive innovation redefines the rules of an entire market.",
         "explanation": "La oración describe cómo una innovación disruptiva no mejora simplemente un producto, sino que transforma las reglas de todo un mercado."
       }
     ]
@@ -11934,7 +11961,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "¿Cuáles de los siguientes son mecanismos o fenómenos políticos discutidos en la lección?",
+        "question": "¿Cuáles de los siguientes son mecanismos o fenómenos políticos?",
         "options": [
           "El clientelismo político",
           "La captura regulatoria",
@@ -11946,7 +11973,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           1,
           2
         ],
-        "explanation": "El clientelismo, la captura regulatoria y el referéndum son fenómenos políticos tratados en la lección; la fotosíntesis no pertenece a este dominio temático."
+        "explanation": "El clientelismo, la captura regulatoria y el referéndum son fenómenos políticos; la fotosíntesis no pertenece a este dominio temático."
       }
     ]
   },
@@ -12077,6 +12104,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "cuentas",
           "continua"
         ],
+        "translation": "Good governance requires continuous accountability.",
         "explanation": "La oración resume la idea de que gobernar bien implica rendir cuentas de manera constante, no solo durante las elecciones."
       }
     ]
@@ -12545,8 +12573,9 @@ const C2_BASE_LESSONS: Lesson[] = [
           "de",
           "las",
           "normas",
-          "morales"
+          "morales."
         ],
+        "translation": "Ethics critically examines the foundations of moral norms.",
         "explanation": "La oración resume la distinción entre la moral, como conjunto de costumbres vigentes, y la ética, como reflexión crítica sobre ellas."
       }
     ]
@@ -13012,8 +13041,9 @@ const C2_BASE_LESSONS: Lesson[] = [
           "la",
           "ausencia",
           "de",
-          "sufrimiento"
+          "sufrimiento."
         ],
+        "translation": "Resilience does not consist in the absence of suffering.",
         "explanation": "La oración resume la idea central de que la resiliencia no elimina el sufrimiento, sino que permite reorganizarse después de él."
       }
     ]
@@ -13477,8 +13507,9 @@ const C2_BASE_LESSONS: Lesson[] = [
           "hacia",
           "puntos",
           "de",
-          "tensión"
+          "tensión."
         ],
+        "translation": "Composition guides the viewer's eye towards points of tension.",
         "explanation": "La oración describe cómo la composición visual organiza los elementos de una obra para dirigir la atención de quien la observa."
       }
     ]
@@ -13949,8 +13980,9 @@ const C2_BASE_LESSONS: Lesson[] = [
           "de",
           "los",
           "ingresos",
-          "fijos"
+          "fijos."
         ],
+        "translation": "Inflation erodes the purchasing power of fixed incomes.",
         "explanation": "La oración resume cómo el aumento sostenido de precios reduce la capacidad de compra de quienes perciben ingresos fijos."
       }
     ]
@@ -14412,8 +14444,9 @@ const C2_BASE_LESSONS: Lesson[] = [
           "punto",
           "de",
           "máxima",
-          "tensión"
+          "tensión."
         ],
+        "translation": "The narrative climax concentrates the point of maximum tension.",
         "explanation": "La oración describe la función central del clímax dentro de la estructura de una obra narrativa."
       }
     ]
@@ -14630,7 +14663,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Locuciones adverbiales de uso culto",
         "body": [
           "En el nivel C2 no basta con reconocer una locución: hay que saber su matiz exacto. «A regañadientes» es hacer algo de mala gana pero hacerlo; «a pie juntillas» es creer algo sin la menor duda (casi siempre con «creer» o «seguir»); «a bote pronto» es responder sin haberlo pensado; «a troche y moche» es repartir algo sin orden ni medida; «de buenas a primeras» es de repente, sin aviso; «a ojo de buen cubero» es calcular a ojo, sin medir.",
-          "Todas son panhispánicas y aparecen tanto en la conversación como en la prensa. Son fijas: no se dice «a pie junto» ni «a regañadiente»."
+          "Todas se entienden en todo el mundo hispano, aunque «a bote pronto» y «a troche y moche» son sobre todo peninsulares, y aparecen tanto en la conversación como en la prensa. Son fijas: no se dice «a pie junto» ni «a regañadiente»."
         ],
         "examples": [
           {
@@ -15520,7 +15553,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Sea",
           "lo",
           "que",
-          "fuere",
+          "fuere,",
           "mañana",
           "firmaremos",
           "el",
@@ -15702,7 +15735,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Latinismos que se usan de verdad",
         "body": [
           "El lenguaje jurídico conserva latinismos que un jurista usa a diario: «in dubio pro reo» (en caso de duda, se favorece al acusado), «iuris tantum» (presunción que admite prueba en contrario) frente a «iuris et de iure» (presunción que no la admite), «a quo» (el tribunal de cuya resolución se recurre) y «ad quem» (el tribunal ante el que se recurre), «sub iudice» (pendiente de resolución judicial), «non bis in idem» (nadie puede ser sancionado dos veces por el mismo hecho), «ab intestato» (sin testamento), «de facto» / «de iure» (de hecho / de derecho).",
-          "Según la Ortografía de la RAE (2010), los latinismos no adaptados se escriben en cursiva y sin tildes: «sub iudice», no «sub júdice» (aunque la forma adaptada «subjúdice» también existe). Y se dicen sin preposición añadida: «a priori», no «a prioris»; «motu proprio», no «de motu propio»."
+          "Según la Ortografía de la RAE (2010), los latinismos no adaptados se escriben en cursiva y sin tildes: «sub iudice», no «sub júdice» (aunque la forma adaptada «subjúdice» también existe). Y se dicen sin añadidos: «a priori», no «a prioris»; «motu proprio», no «de motu propio»."
         ],
         "examples": [
           {
@@ -17565,7 +17598,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "usted",
           "razón",
           "en",
-          "eso",
+          "eso,",
           "no",
           "cambia",
           "el",
@@ -17963,7 +17996,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Mismo concepto, distinta palabra",
         "body": [
-          "España / México / Argentina: «el ordenador» / «la computadora» / «la computadora»; «la nómina» (España, México) es la hoja de salario y en otros países se dice «recibo de sueldo» (Argentina) o «colilla de pago» (Colombia); la paga extra de Navidad es el «aguinaldo» en gran parte de América; al terminar el contrato se cobra el «finiquito» (España, México) o la «liquidación» (Colombia, Chile, Argentina).",
+          "España / México / Argentina: «el ordenador» / «la computadora» / «la computadora»; «la nómina» (España, México) es la hoja de salario y en otros países se dice «recibo de sueldo» (Argentina) o «colilla de pago» (Colombia); la paga extra de Navidad es el «aguinaldo» en gran parte de América; al terminar el contrato se cobra el «finiquito» (España, México, Chile) o la «liquidación» (Colombia, Argentina).",
           "Formas societarias: «S. A.» (sociedad anónima) en todo el mundo hispano; «S. L.» (sociedad limitada, España), «S. R. L.» (Argentina y otros) y «S. A. de C. V.» (sociedad anónima de capital variable, México). En España el procedimiento de insolvencia es el «concurso de acreedores»; en muchos países de América se sigue hablando de «quiebra»."
         ],
         "examples": [
@@ -18124,7 +18157,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Correspondencia actual",
         "body": [
           "Fórmulas antiguas que hoy suenan rígidas: «Sin otro particular, le saluda atentamente», «Por medio de la presente me dirijo a usted», «Acuso recibo de su atenta carta», «Quedando a la espera de sus gratas noticias». Alternativas actuales y cuidadas: «Un cordial saludo», «Le escribo para…», «Hemos recibido su mensaje», «Quedo a la espera de su respuesta».",
-          "Error frecuente: el gerundio de posterioridad o suelto en la despedida («Esperando sus noticias, le saludo») no es incorrecto, pero se prefiere una oración independiente. Y la despedida no admite un gerundio sin verbo principal: «Agradeciendo su atención.» es una oración incompleta."
+          "Error frecuente: el gerundio suelto en la despedida («Esperando sus noticias, le saludo») no es incorrecto, pero se prefiere una oración independiente. Y la despedida no admite un gerundio sin verbo principal: «Agradeciendo su atención.» es una oración incompleta."
         ],
         "examples": [
           {
@@ -19028,10 +19061,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "La propuesta se ___ a votación el lunes.",
         "answer": "someterá",
         "explanation": "«someter a»: hacer que algo o alguien pase por un proceso (votación, examen, presión).",
-        "en": "The proposal [will be put] to a vote on Monday.",
-        "altAnswers": [
-          "sometió"
-        ]
+        "en": "The proposal [will be put] to a vote on Monday."
       },
       {
         "type": "matching",
@@ -20781,7 +20811,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "«introducir»: meter algo dentro o empezar a usarlo (a una persona se la «presenta»).",
           "«casual»: fortuito, que ocurre por azar (la ropa informal es «ropa informal»).",
           "«rudo»: tosco, áspero, sin pulir (el maleducado es «grosero»).",
-          "«desgracia»: suceso adverso, infortunio (la deshonra es «deshonra»)."
+          "«caer en desgracia»: perder el favor o la estima de los demás; fuera de esta locución, «desgracia» suele significar infortunio (la deshonra es «deshonra»)."
         ],
         "examples": [
           {
@@ -20961,7 +20991,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la palabra adecuada.",
         "sentence": "Cayó en ___ tras el escándalo.",
         "answer": "desgracia",
-        "explanation": "«desgracia»: suceso adverso, infortunio (la deshonra es «deshonra»).",
+        "explanation": "«caer en desgracia»: perder el favor o la estima de los demás; fuera de esta locución, «desgracia» suele significar infortunio (la deshonra es «deshonra»).",
         "en": "He fell into [disgrace] after the scandal."
       },
       {
@@ -21122,7 +21152,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "«motu proprio»: por propia iniciativa (no «de motu propio»).",
           "«lapsus»: error involuntario al hablar o escribir.",
           "«cuórum»: número mínimo de miembros presentes para que una votación sea válida (forma adaptada de «quorum»).",
-          "«per cápita»: por persona, por cabeza.",
+          "«per capita»: por persona, por cabeza (locución latina: sin tilde).",
           "«alter ego»: persona de absoluta confianza de otra; también el otro yo de alguien.",
           "«a priori»: antes de examinar el asunto, en principio.",
           "«modus operandi»: manera característica de actuar."
@@ -21141,7 +21171,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "The vote couldn't take place for lack of a quorum."
           },
           {
-            "es": "La renta per cápita creció un 2 %.",
+            "es": "La renta per capita creció un 2 %.",
             "en": "Income per capita grew by 2%."
           },
           {
@@ -21175,7 +21205,7 @@ const C2_BASE_LESSONS: Lesson[] = [
                 "right": "número mínimo de miembros presentes para que una votación sea válida (forma adaptada de «quorum»)"
               },
               {
-                "left": "per cápita",
+                "left": "per capita",
                 "right": "por persona, por cabeza"
               }
             ],
@@ -23009,7 +23039,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "«la solvencia»: capacidad de hacer frente a todas las deudas.",
           "«el arancel»: impuesto que grava la importación o exportación de mercancías.",
           "«la economía sumergida»: actividad económica no declarada (en gran parte de América, «economía informal»).",
-          "«el superávit»: exceso de ingresos sobre gastos (plural invariable o «superávits»).",
+          "«el superávit»: exceso de ingresos sobre gastos (plural: «superávits»; la RAE desaconseja el plural invariable).",
           "«la recesión»: caída de la actividad económica durante al menos dos trimestres seguidos."
         ],
         "examples": [
@@ -23080,7 +23110,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el rescate"
         ],
         "correctIndex": 2,
-        "explanation": "«la burbuja» significa subida artificial de precios de un activo que acaba estallando. En cambio, «el rescate» significa ayuda financiera de emergencia a un país, un banco o una empresa; «el superávit» significa exceso de ingresos sobre gastos (plural invariable o «superávits»); «la estanflación» significa estancamiento económico combinado con inflación alta."
+        "explanation": "«la burbuja» significa subida artificial de precios de un activo que acaba estallando. En cambio, «el rescate» significa ayuda financiera de emergencia a un país, un banco o una empresa; «el superávit» significa exceso de ingresos sobre gastos (plural: «superávits»; la RAE desaconseja el plural invariable); «la estanflación» significa estancamiento económico combinado con inflación alta."
       },
       {
         "type": "multiple-choice",
@@ -23135,7 +23165,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la palabra adecuada.",
         "sentence": "Las cuentas públicas cerraron con ___.",
         "answer": "superávit",
-        "explanation": "«el superávit»: exceso de ingresos sobre gastos (plural invariable o «superávits»).",
+        "explanation": "«el superávit»: exceso de ingresos sobre gastos (plural: «superávits»; la RAE desaconseja el plural invariable).",
         "en": "The public accounts closed with a [surplus]."
       },
       {
@@ -24004,7 +24034,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "«el abatimiento»: pérdida de fuerzas y de ánimo.",
           "«la desolación»: tristeza extrema, sentimiento de soledad y ruina.",
           "«el desencanto»: decepción al comprobar que algo no era como se esperaba.",
-          "«la morriña»: nostalgia de la tierra natal (muy usada en Galicia y en España).",
+          "«la morriña»: nostalgia de la tierra natal (muy usada en Galicia y, en general, en España).",
           "«la añoranza»: pena por la ausencia o la pérdida de alguien o algo querido."
         ],
         "examples": [
@@ -24143,7 +24173,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "la morriña"
         ],
         "correctIndex": 2,
-        "explanation": "«el desencanto» significa decepción al comprobar que algo no era como se esperaba. En cambio, «la morriña» significa nostalgia de la tierra natal (muy usada en Galicia y en España); «la ufanía» significa satisfacción y orgullo por algo propio; «la congoja» significa angustia y aflicción profundas."
+        "explanation": "«el desencanto» significa decepción al comprobar que algo no era como se esperaba. En cambio, «la morriña» significa nostalgia de la tierra natal (muy usada en Galicia y, en general, en España); «la ufanía» significa satisfacción y orgullo por algo propio; «la congoja» significa angustia y aflicción profundas."
       },
       {
         "type": "multiple-choice",
@@ -24174,7 +24204,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la palabra adecuada.",
         "sentence": "En Navidad le entra ___ de su pueblo.",
         "answer": "morriña",
-        "explanation": "«la morriña»: nostalgia de la tierra natal (muy usada en Galicia y en España).",
+        "explanation": "«la morriña»: nostalgia de la tierra natal (muy usada en Galicia y, en general, en España).",
         "en": "At Christmas she gets [homesick] for her village.",
         "altAnswers": [
           "nostalgia",
@@ -26647,7 +26677,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lenguaje Académico y Ensayos Argumentativos",
         "body": [
-          "Un ensayo argumentativo se organiza en torno a una tesis sostenida por premisas y evidencia, evitando la primera persona y empleando conectores que marcan la progresión lógica del razonamiento."
+          "Un ensayo argumentativo se organiza en torno a una tesis sostenida por premisas y evidencia, limitando la primera persona del singular y empleando conectores que marcan la progresión lógica del razonamiento."
         ]
       },
       {
@@ -26734,8 +26764,9 @@ const C2_BASE_LESSONS: Lesson[] = [
           "cuando",
           "comprendí",
           "la",
-          "verdad"
+          "verdad."
         ],
+        "translation": "It was then that I understood the truth.",
         "explanation": "\"Fue... cuando\" es una estructura hendida que enfatiza el momento preciso de la acción."
       },
       {
@@ -26783,26 +26814,34 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la fórmula de correspondencia formal.",
-        "sentence": "___, le escribo para confirmar nuestra reunión del lunes.",
+        "sentence": "___: le escribo para confirmar nuestra reunión del lunes.",
         "answer": "Estimado señor",
-        "explanation": "Las cartas formales suelen abrir con una fórmula de tratamiento respetuoso como \"estimado/a\"."
+        "altAnswers": [
+          "Estimada señora",
+          "Estimados señores",
+          "Distinguido señor",
+          "Distinguida señora",
+          "Muy señor mío",
+          "Muy señora mía"
+        ],
+        "explanation": "Las cartas formales suelen abrir con una fórmula de tratamiento respetuoso como \"estimado/a\", seguida de dos puntos (no de coma, que es un anglicismo)."
       },
       {
         "type": "multiple-choice",
         "question": "¿Qué elemento NO debe aparecer en un ensayo académico formal?",
         "options": [
           "la tesis",
-          "la primera persona",
+          "las expresiones coloquiales",
           "la evidencia empírica",
           "los conectores lógicos"
         ],
         "correctIndex": 1,
-        "explanation": "El registro académico formal evita la primera persona, prefiriendo construcciones impersonales. La tesis, la evidencia empírica y los conectores lógicos son precisamente elementos esenciales de un ensayo."
+        "explanation": "El registro académico formal evita las expresiones coloquiales. La primera persona del singular se limita (se prefieren construcciones impersonales o el plural de modestia), aunque fórmulas como «Defenderé que…» son habituales al enunciar la tesis. La tesis, la evidencia empírica y los conectores lógicos son precisamente elementos esenciales de un ensayo."
       },
       {
         "type": "fill-blank",
         "prompt": "Completa con la expresión jurídica correcta.",
-        "sentence": "___ la presente, se notifica al interesado de la resolución adoptada.",
+        "sentence": "___ la presente, se notifica al interesado la resolución adoptada.",
         "answer": "Por medio de",
         "explanation": "\"Por medio de la presente\" es una fórmula fija del registro administrativo y jurídico."
       }

@@ -867,7 +867,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
             0,
             "Por negocios means on business. \"Servicios\", \"programas\" and \"sistemas\" don't form this expression."
           ),
-          fb("Complete the sentence.", "No hay ___ de que él tomó el dinero.", "pruebas", "Las pruebas = the evidence, the proof."),
+          fb("Complete the sentence.", "No hay ___ contra él: nadie lo vio tomar el dinero.", "pruebas", "Las pruebas = the evidence, the proof."),
         ]
       ),
       sec(

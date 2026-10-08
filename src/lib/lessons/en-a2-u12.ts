@@ -974,7 +974,7 @@ export const EN_A2_U12: Lesson[] = [
             prompt: "Traduce al inglés.",
             source: "Fumar es malo para la salud.",
             answer: "Smoking is bad for your health.",
-            altAnswers: ["Smoking is bad for you.", "Smoking is bad for the health.", "Smoking is bad for health.", "Smoking is unhealthy."],
+            altAnswers: ["Smoking is bad for you.", "Smoking is bad for health.", "Smoking is unhealthy."],
             explanation: "Una actividad como sujeto va en \"-ing\" y sin \"the\": \"Smoking is bad\". \"Smoke is bad\" significaría «el humo es malo».",
           },
           {
@@ -1087,7 +1087,7 @@ export const EN_A2_U12: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "Nadar es bueno para la salud.",
         answer: "Swimming is good for you.",
-        altAnswers: ["Swimming is good for your health.", "Swimming is good for the health.", "Swimming is good for health.", "Swimming is healthy."],
+        altAnswers: ["Swimming is good for your health.", "Swimming is good for health.", "Swimming is healthy."],
         explanation: "La actividad como sujeto va en \"-ing\" y sin \"the\": \"Swimming is good for you\".",
       },
       {
@@ -1503,7 +1503,7 @@ export const EN_A2_U12: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "Caminar es bueno para la salud.",
         answer: "Walking is good for you.",
-        altAnswers: ["Walking is good for your health.", "Walking is good for the health.", "Walking is good for health.", "Walking is healthy."],
+        altAnswers: ["Walking is good for your health.", "Walking is good for health.", "Walking is healthy."],
         explanation: "La actividad como sujeto va en \"-ing\" y sin \"the\": \"Walking is...\".",
       },
       {

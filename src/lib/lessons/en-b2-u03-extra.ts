@@ -203,9 +203,9 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "¿Cierro la ventana? Hace un poco de frío.",
-        answer: "Shall I close the window? It's a bit cold.",
+        answer: "Should I close the window? It's a bit cold.",
         altAnswers: [
-          "Should I close the window? It's a bit cold.",
+          "Shall I close the window? It's a bit cold.",
           "Shall I close the window? It's a little cold.",
           "Should I close the window? It's a little cold.",
           "Do you want me to close the window? It's a bit cold.",

@@ -125,8 +125,8 @@ export const EN_B2_U19_EXTRA: Lesson[] = [
         answer: "Although she was tired, she went to work.",
         altAnswers: alts(
           "Although she was tired, she went to work.",
-          "{Although|Even though|Though} {she|he} was tired, {she|he} went to work.",
-          "{She|He} went to work{,|} {although|even though|though} {she|he} was tired.",
+          "{Although|Even though|Though} she was tired, she went to work.",
+          "She went to work{,|} {although|even though|though} she was tired.",
         ),
         explanation: "«Aunque» + a fact = \"although\" / \"even though\". One linker is enough: no \"but\" in the second half.",
       },
@@ -230,7 +230,7 @@ export const EN_B2_U19_EXTRA: Lesson[] = [
         answer: "He called me again at eleven at night.",
         altAnswers: alts(
           "He called me again at eleven at night.",
-          "{He|She} {called|phoned} me again at {eleven|11} {at night|p.m.|pm|o'clock at night}.",
+          "{He|She} {called|phoned} me again at {eleven|11} {at night|p.m|pm|o'clock at night}.",
         ),
         explanation: "«Volvió a llamar» = \"called again\". *He returned to call me is a literal calque and sounds wrong.",
       },
@@ -281,7 +281,10 @@ export const EN_B2_U19_EXTRA: Lesson[] = [
         answer: "Although I earned little, I was happy in that job.",
         altAnswers: alts(
           "Although I earned little, I was happy in that job.",
-          "{Although|Even though|Though} {I|he|she} {earned|made|was earning|was making} {little|very little|little money|very little money|not much|a low salary}, {I|he|she} was happy {in|at} that job.",
+          "{Although|Even though|Though} I {earned|made|was earning|was making} {little|very little|little money|very little money}, I was happy {in|at} that job.",
+          "{Although|Even though|Though} he {earned|made|was earning|was making} {little|very little|little money|very little money}, he was happy {in|at} that job.",
+          "{Although|Even though|Though} she {earned|made|was earning|was making} {little|very little|little money|very little money}, she was happy {in|at} that job.",
+          "{Although|Even though|Though} I didn't {earn|make} much, I was happy {in|at} that job.",
         ),
         explanation: "A fact → \"although\" / \"even though\". «Ganar» money is \"earn\" or \"make\", not \"win\".",
       },

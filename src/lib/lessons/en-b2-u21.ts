@@ -473,7 +473,7 @@ export const EN_B2_U21: Lesson[] = [
         answer: "I have hardly any free time.",
         altAnswers: alts(
           "I have hardly any free time.",
-          "I {have|'ve got} hardly any {free|spare} time.",
+          "I{ have|'ve got} hardly any {free|spare} time.",
           "I hardly have any {free|spare} time.",
           "I have almost no {free|spare} time.",
         ),
@@ -678,7 +678,7 @@ export const EN_B2_U21: Lesson[] = [
         prompt: "Translate into English.",
         source: "Tengo algunas ideas.",
         answer: "I have a few ideas.",
-        altAnswers: alts("I have a few ideas.", "I {have|'ve got} {a few|some} ideas."),
+        altAnswers: alts("I have a few ideas.", "I{ have|'ve got} {a few|some} ideas."),
         explanation: "«Algunos» + countable noun is \"a few\" (or \"some\"). Without \"a\", \"few ideas\" would sound negative.",
       },
       {
@@ -686,7 +686,7 @@ export const EN_B2_U21: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "We have ___ time, so let's go.",
         answer: "little",
-        altAnswers: ["very little", "not much"],
+        altAnswers: ["very little"],
         en: "Tenemos [poco] tiempo, así que vamos.",
         explanation: "«Poco» + uncountable noun, with a negative feeling, is \"little\" (no \"a\"). \"A little time\" would mean there's enough.",
       },
@@ -782,7 +782,7 @@ export const EN_B2_U21: Lesson[] = [
         body: [
           "Error 1: *more easier. A comparative takes -er OR \"more\", never both. Short adjectives take -er (\"cheaper\"), two-syllable adjectives ending in -y take -ier (\"easier\", \"busier\"), and longer adjectives take \"more\" (\"more expensive\").",
           "Error 2: *the most good, *more bad. Some forms are irregular: good, better, the best; bad, worse, the worst; far, farther or further, the farthest or furthest. «El peor» is \"the worst\", not \"the worse\".",
-          "Error 3: \"of the world\". After a superlative, use \"in\" for places and groups: \"the tallest building in the world\" («del mundo»), \"the best player in the team\". Use \"of\" with time or a number: \"the best day of my life\", \"the oldest of the three\".",
+          "Error 3: \"of the world\". After a superlative, use \"in\" for places and groups: \"the tallest building in the world\" («del mundo»), \"the best student in the class\". Use \"of\" with time or a number: \"the best day of my life\", \"the oldest of the three\".",
         ],
         examples: [
           { es: "This exercise is easier than the last one.", en: "Este ejercicio es más fácil que el anterior. (incorrecto: *more easier)" },
@@ -1079,7 +1079,7 @@ export const EN_B2_U21: Lesson[] = [
             prompt: "Translate into English.",
             source: "Tengo el mismo problema que tú.",
             answer: "I have the same problem as you.",
-            altAnswers: alts("I have the same problem as you.", "I {have|'ve got} the same problem as you{ do|}."),
+            altAnswers: alts("I have the same problem as you.", "I{ have|'ve got} the same problem as you{ do|}."),
             explanation: "«El mismo ... que» is \"the same ... as\". \"The same problem that you\" is a direct translation that doesn't work.",
           },
           {
@@ -1520,7 +1520,7 @@ export const EN_B2_U21: Lesson[] = [
               "Both {cities|of the cities} have good public {transportation|transport}.",
               "The two cities both have good public {transportation|transport}.",
             ),
-            explanation: "«Las dos ciudades» is \"both cities\" (no \"the\" after \"both\" unless you add \"of\"). Americans say \"public transportation\"; the British say \"public transport\".",
+            explanation: "«Las dos ciudades» is \"both cities\" (\"both the cities\" and \"both of the cities\" are also correct). Americans say \"public transportation\"; the British say \"public transport\".",
           },
         ],
       },
@@ -1978,7 +1978,7 @@ export const EN_B2_U21: Lesson[] = [
         body: [
           "Extreme adjectives already contain the idea of \"very\": \"freezing\" (very cold), \"exhausted\" (very tired), \"huge\" (very big), \"furious\" (very angry), \"delicious\" (very tasty), \"starving\" (very hungry), \"terrified\" (very scared).",
           "With them, use \"absolutely\" or \"really\", not \"very\": \"absolutely freezing\". With normal adjectives, use \"very\" or \"extremely\", not \"absolutely\": \"very cold\", not *absolutely cold. \"Really\" works with both.",
-          "Extreme adjectives don't normally have comparatives: you don't say *more huge or \"more delicious than\". Use a normal adjective instead: \"bigger\", \"tastier\".",
+          "Extreme adjectives don't normally have comparatives: you don't say *more huge or *more enormous. Use a normal adjective instead: \"bigger\", \"larger\".",
         ],
         examples: [
           { es: "It's absolutely freezing outside.", en: "Hace un frío que pela." },

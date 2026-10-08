@@ -21,7 +21,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "What is the preterite?",
         "body": [
           "The preterite tense describes actions that were completed at a specific point in the past — something that started and finished. It's the tense you reach for when you say what happened.",
-          "Spanish has two simple past tenses: the preterite (for completed events) and the imperfect (for ongoing or habitual ones, coming in Lesson 3). For now, focus on the preterite's own forms."
+          "Spanish has two simple past tenses: the preterite (for completed events) and the imperfect (for ongoing or habitual ones, coming in Unit 3). For now, focus on the preterite's own forms."
         ],
         "examples": [
           {
@@ -1899,7 +1899,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "options": [
           "el mes pasado",
           "constantemente",
-          "en aquel momento",
+          "de repente",
           "cada verano"
         ],
         "correctIndexes": [
@@ -3380,7 +3380,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la comparación.",
-        "sentence": "Este suéter es ___ caliente como ese abrigo. (as...as)",
+        "sentence": "Este suéter es ___ cómodo como ese abrigo. (as...as)",
         "answer": "tan",
         "explanation": "Tan...como compara cualidades iguales: tan llena el hueco y como se queda fijo."
       },
@@ -3388,13 +3388,13 @@ const A2_BASE_LESSONS: Lesson[] = [
         "type": "multiple-choice",
         "question": "¿Cómo se dice \"younger\"?",
         "options": [
-          "más joven",
+          "mayor",
           "menor",
-          "más pequeño",
+          "peor",
           "menos joven"
         ],
         "correctIndex": 1,
-        "explanation": "For age, younger is menor. \"Más joven\" is also correct for people but less typical for siblings, \"más pequeño\" means smaller, and \"menos joven\" means less young, which is the opposite."
+        "explanation": "For age, younger is menor (más joven is also correct). \"Mayor\" means older, \"peor\" means worse, and \"menos joven\" means less young, which is the opposite."
       },
       {
         "type": "fill-blank",
@@ -5416,7 +5416,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "difícil → difícilmente",
-            "en": "with difficulty"
+            "en": "hardly, unlikely"
           },
           {
             "es": "rápido → rápidamente",
@@ -5473,7 +5473,12 @@ const A2_BASE_LESSONS: Lesson[] = [
         "direction": "en-es",
         "prompt": "Translate this sentence to Spanish.",
         "source": "He answered the question honestly and directly.",
-        "answer": "Respondió la pregunta honesta y directamente.",
+        "answer": "Respondió a la pregunta honesta y directamente.",
+        "altAnswers": [
+          "Respondió la pregunta honesta y directamente.",
+          "Contestó la pregunta honesta y directamente.",
+          "Contestó a la pregunta honesta y directamente."
+        ],
         "explanation": "Cuando dos adverbios en -mente van seguidos y unidos por y, solo el último lleva el sufijo: honesta y directamente."
       }
     ]
@@ -5489,8 +5494,8 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Dos o más adverbios en -mente seguidos",
         "body": [
-          "Cuando dos o más adverbios en -mente aparecen seguidos en una serie, unidos por y o pero, solo el último adverbio lleva el sufijo -mente. Los adverbios anteriores se quedan en su forma femenina simple, sin -mente.",
-          "Por ejemplo, no decimos Habló claramente y lentamente, sino Habló clara y lentamente. El sufijo -mente del último adverbio se entiende que también se aplica a los anteriores."
+          "Cuando dos o más adverbios en -mente aparecen seguidos en una serie, unidos por y o pero, lo normal es que solo el último adverbio lleve el sufijo -mente. Los adverbios anteriores se quedan en su forma femenina simple, sin -mente.",
+          "Por ejemplo, en vez de Habló claramente y lentamente (correcto, pero repetitivo), lo más natural es Habló clara y lentamente. El sufijo -mente del último adverbio se entiende que también se aplica a los anteriores."
         ],
         "examples": [
           {
@@ -5547,7 +5552,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "difícilmente",
-            "en": "with difficulty"
+            "en": "hardly, unlikely"
           },
           {
             "es": "claramente",
@@ -5601,7 +5606,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "difícilmente",
-                "right": "with difficulty"
+                "right": "hardly, unlikely"
               },
               {
                 "left": "claramente",
@@ -5666,7 +5671,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "reunión"
         ],
         "translation": "We spoke slowly and clearly in the meeting.",
-        "explanation": "Solo el último adverbio de la serie lleva -mente: lenta y claramente, no lentamente y claramente."
+        "explanation": "Lo normal es que solo el último adverbio de la serie lleve -mente: lenta y claramente (más natural que lentamente y claramente)."
       },
       {
         "type": "multi-select",
@@ -5691,12 +5696,12 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "asking-giving-directions-1",
     "level": "A2",
     "number": 28,
-    "title": "Cómo Pedir y Dar Direcciones, Part 1 of 2",
-    "summary": "Aprende a pedir direcciones cortésmente y a darlas usando mandatos formales de usted, preposiciones de ubicación y vocabulario de la calle.",
+    "title": "Cómo Pedir y Dar Indicaciones, Part 1 of 2",
+    "summary": "Aprende a pedir indicaciones cortésmente y a darlas usando mandatos formales de usted, preposiciones de ubicación y vocabulario de la calle.",
     "duration": "5 min",
     "sections": [
       {
-        "heading": "Cómo Pedir Direcciones Cortésmente",
+        "heading": "Cómo Pedir Indicaciones Cortésmente",
         "body": [
           "Cuando estás perdido/a en la calle, lo primero es llamar la atención de otra persona con cortesía. Usa Perdón o Disculpe antes de hacer tu pregunta.",
           "Para preguntar cómo llegar a un lugar, usa ¿Cómo llego a...? o ¿Sabe dónde está...?",
@@ -5719,7 +5724,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es la forma más cortés de comenzar a pedir direcciones a un desconocido en la calle?",
+            "question": "¿Cuál es la forma más cortés de comenzar a pedir indicaciones a un desconocido en la calle?",
             "options": [
               "Oye, dime cómo llegar.",
               "Perdón, ¿me puede ayudar?",
@@ -5732,9 +5737,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Cómo Dar Direcciones: Mandatos con Usted",
+        "heading": "Cómo Dar Indicaciones: Mandatos con Usted",
         "body": [
-          "Para dar direcciones a un desconocido en la calle, lo normal en español es usar el mandato formal de usted, no el mandato de tú, porque le hablas a una persona que no conoces.",
+          "Para dar indicaciones a un desconocido en la calle, lo normal en español es usar el mandato formal de usted, no el mandato de tú, porque le hablas a una persona que no conoces.",
           "Los verbos más comunes son seguir (siga), continuar (continúe), girar (gire), doblar (doble), cruzar (cruce) y tomar (tome).",
           "Siga/continúe derecho significa go straight. Gire/doble a la derecha o a la izquierda significa turn right/left. Cruce la calle significa cross the street. Tome la primera/segunda calle significa take the first/second street."
         ],
@@ -5759,7 +5764,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa el mandato formal para dar direcciones.",
+            "prompt": "Completa el mandato formal para dar indicaciones.",
             "sentence": "___ derecho dos cuadras y después gire a la derecha.",
             "answer": "Siga",
             "hint": "Mandato de usted del verbo seguir.",
@@ -5827,7 +5832,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "Take the first street"
           }
         ],
-        "explanation": "Estos son los mandatos formales (usted) más comunes para dar direcciones a un desconocido."
+        "explanation": "Estos son los mandatos formales (usted) más comunes para dar indicaciones a un desconocido."
       }
     ]
   },
@@ -5835,8 +5840,8 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "asking-giving-directions-2",
     "level": "A2",
     "number": 29,
-    "title": "Cómo Pedir y Dar Direcciones, Part 2 of 2",
-    "summary": "Aprende a pedir direcciones cortésmente y a darlas usando mandatos formales de usted, preposiciones de ubicación y vocabulario de la calle.",
+    "title": "Cómo Pedir y Dar Indicaciones, Part 2 of 2",
+    "summary": "Aprende a pedir indicaciones cortésmente y a darlas usando mandatos formales de usted, preposiciones de ubicación y vocabulario de la calle.",
     "duration": "6 min",
     "sections": [
       {
@@ -5881,14 +5886,14 @@ const A2_BASE_LESSONS: Lesson[] = [
                 "right": "two blocks from"
               }
             ],
-            "explanation": "Estas expresiones de ubicación son esenciales para describir dónde está un lugar en relación con otro cuando das direcciones."
+            "explanation": "Estas expresiones de ubicación son esenciales para describir dónde está un lugar en relación con otro cuando das indicaciones."
           }
         ]
       },
       {
         "heading": "Puntos de Referencia y Vocabulario de la Calle",
         "body": [
-          "Al dar o pedir direcciones, es útil mencionar puntos de referencia: la esquina (corner), la cuadra/la manzana (city block), el semáforo (traffic light), la plaza (square), el cruce (crossing/intersection), la calle (street) y la avenida (avenue).",
+          "Al dar o pedir indicaciones, es útil mencionar puntos de referencia: la esquina (corner), la cuadra/la manzana (city block), el semáforo (traffic light), la plaza (square), el cruce (crossing/intersection), la calle (street) y la avenida (avenue).",
           "Mencionar un punto de referencia después del mandato ayuda a la otra persona a confirmar que va por el camino correcto."
         ],
         "examples": [
@@ -5897,7 +5902,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "en": "Turn at the corner where the traffic light is."
           },
           {
-            "es": "Cruce el cruce con mucho cuidado.",
+            "es": "Pase el cruce con mucho cuidado.",
             "en": "Cross the intersection very carefully."
           },
           {
@@ -5908,7 +5913,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "¿Cuáles de las siguientes palabras son puntos de referencia útiles para dar direcciones?",
+            "question": "¿Cuáles de las siguientes palabras son puntos de referencia útiles para dar indicaciones?",
             "options": [
               "el semáforo",
               "la esquina",
@@ -5923,14 +5928,14 @@ const A2_BASE_LESSONS: Lesson[] = [
               3,
               5
             ],
-            "explanation": "El semáforo, la esquina, la plaza y el cruce son puntos de referencia comunes en la calle; el cumpleaños y el paraguas no tienen relación con dar direcciones."
+            "explanation": "El semáforo, la esquina, la plaza y el cruce son puntos de referencia comunes en la calle; el cumpleaños y el paraguas no tienen relación con dar indicaciones."
           }
         ]
       },
       {
-        "heading": "En Práctica: Pidiendo Direcciones en la Calle",
+        "heading": "En Práctica: Pidiendo Indicaciones en la Calle",
         "body": [
-          "Lee el siguiente diálogo entre un turista perdido y una señora que vive en el barrio. Observa cómo el turista pide direcciones cortésmente y cómo la señora usa mandatos de usted para explicar el camino paso a paso."
+          "Lee el siguiente diálogo entre un turista perdido y una señora que vive en el barrio. Observa cómo el turista pide indicaciones cortésmente y cómo la señora usa mandatos de usted para explicar el camino paso a paso."
         ],
         "examples": [
           {
@@ -5946,8 +5951,8 @@ const A2_BASE_LESSONS: Lesson[] = [
             "en": "Woman: Then turn right at the corner, next to the pharmacy."
           },
           {
-            "es": "Señora: Cruce la plaza y el museo está enfrente, detrás del semáforo.",
-            "en": "Woman: Cross the square and the museum is in front, behind the traffic light."
+            "es": "Señora: Cruce la plaza y el museo está justo detrás del semáforo.",
+            "en": "Woman: Cross the square and the museum is just behind the traffic light."
           },
           {
             "es": "Turista: Muchas gracias, ¡es usted muy amable!",
@@ -6530,18 +6535,21 @@ const A2_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar una oración.",
         "words": [
+          "La",
           "semana",
           "pasada",
           "fuimos",
-          "playa",
           "a",
-          "la"
+          "la",
+          "playa"
         ],
-        "explanation": "Pretérito de ir + complemento de lugar y tiempo."
+        "explanation": "Pretérito de ir + complemento de lugar y tiempo.",
+        "translation": "Last week we went to the beach.",
+        "altOrders": [["Fuimos", "a", "la", "playa", "la", "semana", "pasada"]]
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la forma correcta de 'hacer', ella?",
+        "question": "¿Cuál es la forma correcta de 'hacer' en pretérito, ella?",
         "options": [
           "hació",
           "hizo",
@@ -6852,13 +6860,14 @@ const A2_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar una oración.",
         "words": [
+          "No",
+          "me",
           "dijeron",
-          "verdad",
-          "no",
           "la",
-          "me"
+          "verdad"
         ],
-        "explanation": "Pretérito de decir con pronombre de objeto indirecto."
+        "explanation": "Pretérito de decir con pronombre de objeto indirecto.",
+        "translation": "They didn't tell me the truth."
       },
       {
         "type": "multiple-choice",
@@ -7016,12 +7025,14 @@ const A2_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar una oración.",
         "words": [
+          "De",
           "niño",
-          "de",
-          "mucho",
-          "leía"
+          "leía",
+          "mucho"
         ],
-        "explanation": "Imperfecto para describir un hábito de la infancia."
+        "explanation": "Imperfecto para describir un hábito de la infancia.",
+        "translation": "As a child, I used to read a lot.",
+        "altOrders": [["Leía", "mucho", "de", "niño"]]
       },
       {
         "type": "multiple-choice",
@@ -7241,7 +7252,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La edad y la hora en el pasado",
         "body": [
-          "Para decir la edad o la hora en el pasado, siempre se usa el imperfecto."
+          "Para decir la edad o la hora en el pasado, casi siempre se usa el imperfecto."
         ],
         "examples": [
           {
@@ -7350,12 +7361,14 @@ const A2_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar una oración.",
         "words": [
+          "Nosotros",
           "dormíamos",
           "cuando",
-          "llegaron",
-          "nosotros"
+          "llegaron"
         ],
-        "explanation": "Imperfecto continuo en contexto con pretérito."
+        "explanation": "Imperfecto continuo en contexto con pretérito.",
+        "translation": "We were sleeping when they arrived.",
+        "altOrders": [["Cuando", "llegaron", "nosotros", "dormíamos"]]
       },
       {
         "type": "multiple-choice",
@@ -7499,6 +7512,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al inglés.",
         "source": "Cuando era joven, jugaba al fútbol todos los sábados.",
         "answer": "When I was young, I used to play soccer every Saturday.",
+        "altAnswers": ["When I was young, I played soccer every Saturday.", "When I was young, I used to play football every Saturday.", "When I was young, I played football every Saturday.", "When I was young, I would play soccer every Saturday.", "When I was young, I would play football every Saturday."],
         "explanation": "El imperfecto «jugaba» expresa un hábito repetido en el pasado, traducido con «used to» o «would»."
       },
       {
@@ -7507,6 +7521,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "Last night we watched a movie and then went to sleep.",
         "answer": "Anoche vimos una película y luego nos dormimos.",
+        "altAnswers": ["Anoche vimos una película y después nos dormimos.", "Anoche vimos una película y luego nos fuimos a dormir.", "Anoche vimos una película y después nos fuimos a dormir."],
         "explanation": "Las dos acciones son puntuales y ocurrieron una vez, así que ambas van en pretérito."
       },
       {
@@ -7657,7 +7672,8 @@ const A2_BASE_LESSONS: Lesson[] = [
           "nos",
           "sentamos."
         ],
-        "explanation": "Cada acción puntual de la secuencia va en pretérito porque hace avanzar la historia."
+        "explanation": "Cada acción puntual de la secuencia va en pretérito porque hace avanzar la historia.",
+        "translation": "We went into the cinema, bought popcorn and sat down."
       },
       {
         "type": "word-order",
@@ -7678,7 +7694,8 @@ const A2_BASE_LESSONS: Lesson[] = [
           "su",
           "madre."
         ],
-        "explanation": "Las acciones que se suceden una tras otra en una narración van en pretérito."
+        "explanation": "Las acciones que se suceden una tras otra en una narración van en pretérito.",
+        "translation": "After work, he went home, made dinner and called his mother."
       },
       {
         "type": "multiple-choice",
@@ -7732,7 +7749,8 @@ const A2_BASE_LESSONS: Lesson[] = [
               "la",
               "estación."
             ],
-            "explanation": "Las acciones puntuales que forman la secuencia van en pretérito: cerró, caminó."
+            "explanation": "Las acciones puntuales que forman la secuencia van en pretérito: cerró, caminó.",
+            "translation": "She closed the door and walked toward the station."
           }
         ]
       },
@@ -7940,7 +7958,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "Te llamo esta tarde.",
-            "en": "I call you this afternoon."
+            "en": "I'll call you this afternoon."
           },
           {
             "es": "No lo entiendo.",
@@ -7957,7 +7975,8 @@ const A2_BASE_LESSONS: Lesson[] = [
               "conozco",
               "todavía"
             ],
-            "explanation": "El pronombre de objeto directo \"la\" va justo antes del verbo conjugado \"conozco\"."
+            "explanation": "El pronombre de objeto directo \"la\" va justo antes del verbo conjugado \"conozco\".",
+            "translation": "I don't know her yet."
           }
         ]
       }
@@ -8017,6 +8036,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "I write to her every week.",
         "answer": "Le escribo a ella cada semana.",
+        "altAnswers": ["Le escribo cada semana.", "Le escribo todas las semanas.", "Le escribo a ella todas las semanas."],
         "explanation": "El objeto indirecto \"le\" se aclara con \"a ella\"."
       }
     ]
@@ -8114,7 +8134,8 @@ const A2_BASE_LESSONS: Lesson[] = [
           "mi",
           "abuela"
         ],
-        "explanation": "\"Le\" cambia a \"se\" antes de \"la\", y el indirecto va antes del directo: se la explico."
+        "explanation": "\"Le\" cambia a \"se\" antes de \"la\", y el indirecto va antes del directo: se la explico.",
+        "translation": "I explain it to my grandmother."
       },
       {
         "type": "word-order",
@@ -8125,7 +8146,8 @@ const A2_BASE_LESSONS: Lesson[] = [
           "dártelo",
           "mañana"
         ],
-        "explanation": "Con un infinitivo, los dos pronombres pueden pegarse al final: dártelo."
+        "explanation": "Con un infinitivo, los dos pronombres pueden pegarse al final: dártelo.",
+        "translation": "I'm going to give it to you tomorrow."
       },
       {
         "type": "multiple-choice",
@@ -8325,7 +8347,8 @@ const A2_BASE_LESSONS: Lesson[] = [
           "mis",
           "primos"
         ],
-        "explanation": "\"Les\" cambia a \"se\" ante \"los\", y el indirecto va antes del directo: se los regalé."
+        "explanation": "\"Les\" cambia a \"se\" ante \"los\", y el indirecto va antes del directo: se los regalé.",
+        "translation": "I gave them to my cousins."
       }
     ]
   },
@@ -8406,7 +8429,8 @@ const A2_BASE_LESSONS: Lesson[] = [
               "las",
               "seis"
             ],
-            "explanation": "El pronombre 'nos' precede al verbo conjugado 'despertamos'."
+            "explanation": "El pronombre 'nos' precede al verbo conjugado 'despertamos'.",
+            "translation": "We wake up at six."
           }
         ]
       },
@@ -8492,7 +8516,8 @@ const A2_BASE_LESSONS: Lesson[] = [
           "muy",
           "rápido"
         ],
-        "explanation": "El pronombre 'se' va justo antes del verbo conjugado 'viste'."
+        "explanation": "El pronombre 'se' va justo antes del verbo conjugado 'viste'.",
+        "translation": "She gets dressed very quickly."
       },
       {
         "type": "word-order",
@@ -8504,7 +8529,8 @@ const A2_BASE_LESSONS: Lesson[] = [
           "de",
           "cenar"
         ],
-        "explanation": "El pronombre se une al final del infinitivo 'ducharme'."
+        "explanation": "El pronombre se une al final del infinitivo 'ducharme'.",
+        "translation": "I want to shower before dinner."
       },
       {
         "type": "translate",
@@ -8837,7 +8863,8 @@ const A2_BASE_LESSONS: Lesson[] = [
           "de",
           "salir"
         ],
-        "explanation": "El pronombre 'me' se une al infinitivo 'vestirme'."
+        "explanation": "El pronombre 'me' se une al infinitivo 'vestirme'.",
+        "translation": "I'm going to get dressed before going out."
       },
       {
         "type": "multiple-choice",
@@ -8980,8 +9007,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con la forma correcta.",
         "sentence": "Mi abuelo es ___ que mi padre.",
         "answer": "mayor",
+        "altAnswers": ["más viejo"],
         "hint": "older, referring to age",
-        "explanation": "Para la edad de las personas se usa \"mayor\", no \"más viejo\"."
+        "explanation": "Para la edad de las personas lo normal es \"mayor\"; \"más viejo\" existe, pero suena más directo."
       }
     ]
   },
@@ -9116,7 +9144,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con la forma correcta.",
         "sentence": "La película fue ___.",
         "answer": "aburridísima",
-        "hint": "extremely boring",
+        "hint": "extremely boring (aburrido → -ísimo)",
         "explanation": "\"Aburrido\" pierde la -o final y añade -ísima para concordar con \"película\" (femenino singular)."
       },
       {
@@ -9130,7 +9158,8 @@ const A2_BASE_LESSONS: Lesson[] = [
           "que",
           "Toledo"
         ],
-        "explanation": "Comparación de superioridad: más + adjetivo + que."
+        "explanation": "Comparación de superioridad: más + adjetivo + que.",
+        "translation": "Madrid is bigger than Toledo."
       },
       {
         "type": "word-order",
@@ -9144,7 +9173,8 @@ const A2_BASE_LESSONS: Lesson[] = [
           "como",
           "esa"
         ],
-        "explanation": "Comparación de igualdad: tan + adjetivo + como."
+        "explanation": "Comparación de igualdad: tan + adjetivo + como.",
+        "translation": "This soup is as tasty as that one."
       }
     ]
   },
@@ -9232,6 +9262,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "This jacket is cheaper than that one.",
         "answer": "Esta chaqueta es más barata que esa.",
+        "altAnswers": ["Esta chaqueta es más barata que aquella."],
         "explanation": "\"Cheaper than\" se traduce como más barata que, con concordancia femenina en \"chaqueta\"."
       },
       {
@@ -9547,6 +9578,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Traduce la oración al inglés.",
             "source": "Te lo diré mañana.",
             "answer": "I will tell it to you tomorrow.",
+            "altAnswers": ["I'll tell you tomorrow.", "I will tell you tomorrow.", "I'll tell it to you tomorrow.", "I'll tell you it tomorrow."],
             "explanation": "'decir' → dir- + é = diré."
           }
         ]
@@ -9559,6 +9591,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "It will probably rain tomorrow.",
         "answer": "Probablemente lloverá mañana.",
+        "altAnswers": ["Mañana probablemente lloverá.", "Probablemente mañana lloverá.", "Seguramente lloverá mañana.", "Mañana seguramente lloverá."],
         "explanation": "El futuro simple 'lloverá' expresa una predicción."
       },
       {
@@ -9575,32 +9608,35 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "I will call you as soon as I arrive.",
         "answer": "Te llamaré en cuanto llegue.",
+        "altAnswers": ["Te llamaré tan pronto como llegue.", "Te llamaré apenas llegue."],
         "explanation": "'llamaré' es el futuro simple regular de 'llamar'."
       },
       {
         "type": "word-order",
         "prompt": "Ordena las palabras para formar una oración.",
         "words": [
-          "nosotros",
+          "Nosotros",
           "estudiaremos",
           "para",
           "el",
           "examen"
         ],
-        "explanation": "El sujeto va primero, seguido del verbo en futuro y el complemento."
+        "explanation": "El sujeto va primero, seguido del verbo en futuro y el complemento.",
+        "translation": "We will study for the exam."
       },
       {
         "type": "word-order",
         "prompt": "Ordena las palabras para formar una oración.",
         "words": [
-          "ella",
+          "Ella",
           "va",
           "a",
           "comprar",
           "un",
           "coche"
         ],
-        "explanation": "La estructura es sujeto + ir (presente) + a + infinitivo + complemento."
+        "explanation": "La estructura es sujeto + ir (presente) + a + infinitivo + complemento.",
+        "translation": "She is going to buy a car."
       },
       {
         "type": "multiple-choice",
@@ -9696,13 +9732,15 @@ const A2_BASE_LESSONS: Lesson[] = [
             "type": "word-order",
             "prompt": "Ordena las palabras para formar una oración.",
             "words": [
-              "mañana",
+              "Mañana",
               "estudiaré",
               "toda",
               "la",
               "tarde"
             ],
-            "explanation": "El adverbio de tiempo puede ir al inicio de la oración: Mañana estudiaré toda la tarde."
+            "explanation": "El adverbio de tiempo puede ir al inicio de la oración: Mañana estudiaré toda la tarde.",
+            "translation": "Tomorrow I'll study all afternoon.",
+            "altOrders": [["Estudiaré", "toda", "la", "tarde", "mañana"]]
           }
         ]
       }
@@ -9931,14 +9969,16 @@ const A2_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar una oración.",
         "words": [
-          "parque",
-          "el",
+          "Corrimos",
           "por",
+          "el",
+          "parque",
           "esta",
-          "mañana",
-          "Corrimos"
+          "mañana"
         ],
-        "explanation": "“Por” describe el movimiento a través de un lugar."
+        "explanation": "“Por” describe el movimiento a través de un lugar.",
+        "translation": "We ran through the park this morning.",
+        "altOrders": [["Esta", "mañana", "corrimos", "por", "el", "parque"]]
       },
       {
         "type": "multiple-choice",
@@ -10235,13 +10275,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar una oración.",
         "words": [
-          "puerta",
-          "favor",
+          "Cierra",
           "la",
+          "puerta,",
           "por",
-          "Cierra"
+          "favor"
         ],
-        "explanation": "“Por favor” es una expresión fija que significa “please”."
+        "explanation": "“Por favor” es una expresión fija que significa “please”.",
+        "translation": "Close the door, please.",
+        "altOrders": [["Por", "favor,", "cierra", "la", "puerta"]]
       },
       {
         "type": "multiple-choice",
@@ -10393,15 +10435,17 @@ const A2_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar una oración.",
         "words": [
-          "hermano",
-          "veo",
-          "fiesta",
+          "Veo",
           "a",
           "mi",
+          "hermano",
           "en",
-          "la"
+          "la",
+          "fiesta"
         ],
-        "explanation": "El orden es verbo + a personal + objeto directo + complemento."
+        "explanation": "El orden es verbo + a personal + objeto directo + complemento.",
+        "translation": "I see my brother at the party.",
+        "altOrders": [["En", "la", "fiesta", "veo", "a", "mi", "hermano"]]
       },
       {
         "type": "matching",
@@ -10555,13 +10599,14 @@ const A2_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar una oración.",
         "words": [
+          "Nadie",
           "viene",
-          "nadie",
-          "reunión",
           "a",
-          "la"
+          "la",
+          "reunión"
         ],
-        "explanation": "Cuando la palabra negativa va antes del verbo, no se usa 'no'."
+        "explanation": "Cuando la palabra negativa va antes del verbo, no se usa 'no'.",
+        "translation": "Nobody is coming to the meeting."
       },
       {
         "type": "multiple-choice",
@@ -10705,7 +10750,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "type": "multiple-choice",
             "question": "¿Cuál oración es correcta?",
             "options": [
-              "Trabaja rápidamente y eficazmente.",
+              "Trabaja rápidamente y eficaz.",
               "Trabaja rápida y eficazmente.",
               "Trabaja rápida y eficaz.",
               "Trabaja rápido y eficazmente."
@@ -10772,14 +10817,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar una oración.",
         "words": [
+          "El",
           "profesor",
-          "clara",
           "habló",
+          "clara",
           "y",
-          "el",
           "sinceramente"
         ],
-        "explanation": "El primer adverbio pierde -mente cuando se une al segundo con 'y'."
+        "explanation": "El primer adverbio pierde -mente cuando se une al segundo con 'y'.",
+        "translation": "The teacher spoke clearly and sincerely."
       },
       {
         "type": "translate",
@@ -10795,11 +10841,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "options": [
           "sincera y tranquilamente",
           "sinceramente y tranquila",
-          "sinceramente y tranquilamente",
+          "sincera y tranquila",
           "sincero y tranquilamente"
         ],
         "correctIndex": 0,
-        "explanation": "With two -mente adverbs joined by y, only the last keeps -mente, and the first uses the feminine adjective: sincera y tranquilamente. \"Tranquila\" and \"sincero\" are adjectives, not adverbs, and repeating -mente twice is avoided."
+        "explanation": "With two -mente adverbs joined by y, only the last keeps -mente, and the first uses the feminine adjective: sincera y tranquilamente. \"Tranquila\" and \"sincero\" are adjectives, not adverbs, and \"sincera y tranquila\" has no -mente at all."
       }
     ]
   },
@@ -10814,7 +10860,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Travel & Trips",
         "body": [
-          "All 30 words from Lesson 1's vocabulary section, grouped for review."
+          "All 30 words from Unit 1's vocabulary section, grouped for review."
         ],
         "checkpoint": [
           {
@@ -10963,7 +11009,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Time Expressions & Frequency",
         "body": [
-          "All 30 words from Lesson 2's vocabulary section, grouped for review."
+          "All 30 words from Unit 2's vocabulary section, grouped for review."
         ],
         "checkpoint": [
           {
@@ -11113,7 +11159,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Cuáles de estas palabras significan un lugar donde compras ropa o comida? (Elige todas las correctas)",
+        "question": "Which of these words are related to shopping? (Choose all that apply)",
         "options": [
           "la tienda",
           "el aeropuerto",
@@ -11131,7 +11177,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Traduce al español.",
-        "source": "the departure (from Lesson 1's vocabulary)",
+        "source": "the departure (from Unit 1's vocabulary)",
         "answer": "la salida",
         "explanation": "La salida means the departure (also the exit); it's feminine."
       }
@@ -11148,7 +11194,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Childhood & Memories",
         "body": [
-          "All 30 words from Lesson 3's vocabulary section, grouped for review."
+          "All 30 words from Unit 3's vocabulary section, grouped for review."
         ],
         "checkpoint": [
           {
@@ -11297,7 +11343,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Weather & Seasons",
         "body": [
-          "All 30 words from Lesson 4's vocabulary section, grouped for review."
+          "All 30 words from Unit 4's vocabulary section, grouped for review."
         ],
         "checkpoint": [
           {
@@ -11497,7 +11543,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Shopping & Objects",
         "body": [
-          "All 30 words from Lesson 5's vocabulary section, grouped for review."
+          "All 30 words from Unit 7's vocabulary section, grouped for review."
         ],
         "checkpoint": [
           {
@@ -11646,7 +11692,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Communication & Technology",
         "body": [
-          "All 30 words from Lesson 6's vocabulary section, grouped for review."
+          "All 30 words from Unit 8's vocabulary section, grouped for review."
         ],
         "checkpoint": [
           {
@@ -11814,7 +11860,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Traduce al español.",
-        "source": "as many as (comparing quantities)",
+        "source": "as much as / as many as (comparing quantities)",
         "answer": "tanto como",
         "altAnswers": [
           "tanta como",
@@ -11836,7 +11882,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Body & Daily Routine",
         "body": [
-          "All 30 words from Lesson 7's vocabulary section, grouped for review."
+          "All 30 words from Unit 9's vocabulary section, grouped for review."
         ],
         "checkpoint": [
           {
@@ -11985,7 +12031,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Clothing & Sizes",
         "body": [
-          "All 30 words from Lesson 8's vocabulary section, grouped for review."
+          "All 30 words from Unit 10's vocabulary section, grouped for review."
         ],
         "checkpoint": [
           {
@@ -12201,7 +12247,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Work & Future Plans",
         "body": [
-          "All 30 words from Lesson 9's vocabulary section, grouped for review."
+          "All 30 words from Unit 11's vocabulary section, grouped for review."
         ],
         "checkpoint": [
           {
@@ -12350,7 +12396,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Health & The Doctor",
         "body": [
-          "All 30 words from Lesson 10's vocabulary section, grouped for review."
+          "All 30 words from Unit 12's vocabulary section, grouped for review."
         ],
         "checkpoint": [
           {

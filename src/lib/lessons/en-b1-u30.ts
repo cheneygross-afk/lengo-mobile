@@ -611,7 +611,7 @@ export const EN_B1_U30: Lesson[] = [
     slug: "b1-survival-renting-flat",
     level: "EN-B1",
     number: 4,
-    title: "Survival: Renting a Flat",
+    title: "Survival: Renting an Apartment",
     summary: "Viewing an apartment, deposits, bills included, the lease, and asking the landlord about rules and repairs. Plus «piso» vs \"floor\".",
     duration: "12 min",
     sections: [
@@ -1621,7 +1621,7 @@ export const EN_B1_U30: Lesson[] = [
     slug: "b1-survival-small-talk",
     level: "EN-B1",
     number: 9,
-    title: "Survival: Small Talk with Neighbours",
+    title: "Survival: Small Talk with Neighbors",
     summary: "Starting and keeping conversations going with neighbors and colleagues: How's it going?, Lovely day, isn't it?, Did you have a good weekend? and how to end politely.",
     duration: "10 min",
     sections: [
