@@ -8,7 +8,7 @@ export const EN_B2_U30: Lesson[] = [
     slug: "b2-challenge-hypotheticals",
     level: "EN-B2",
     number: 1,
-    title: "B2 Challenge 2: Hypotheticals Gauntlet",
+    title: "Upper Intermediate Challenge 2: Hypotheticals Gauntlet",
     summary: "Every conditional, every wish and every past modal of the level, mixed together and without hints, with lots of translation from Spanish.",
     duration: "12 min",
     sections: [
@@ -295,7 +295,7 @@ export const EN_B2_U30: Lesson[] = [
     slug: "b2-challenge-passive-reporting",
     level: "EN-B2",
     number: 2,
-    title: "B2 Challenge 3: Passive and Reporting",
+    title: "Upper Intermediate Challenge 3: Passive and Reporting",
     summary: "Passives in every tense, impersonal passives, causatives and reporting verbs, mixed and without hints.",
     duration: "12 min",
     sections: [
@@ -598,7 +598,7 @@ export const EN_B2_U30: Lesson[] = [
     slug: "b2-challenge-clauses",
     level: "EN-B2",
     number: 3,
-    title: "B2 Challenge 4: Clauses",
+    title: "Upper Intermediate Challenge 4: Clauses",
     summary: "Relative clauses, participle clauses and linkers of contrast and purpose, with their punctuation, mixed and without hints.",
     duration: "12 min",
     sections: [
@@ -890,7 +890,7 @@ export const EN_B2_U30: Lesson[] = [
     slug: "b2-challenge-verb-patterns",
     level: "EN-B2",
     number: 4,
-    title: "B2 Challenge 5: Verb Patterns",
+    title: "Upper Intermediate Challenge 5: Verb Patterns",
     summary: "Gerunds and infinitives, verbs that change meaning, dependent prepositions and used to / be used to / get used to, all without hints.",
     duration: "12 min",
     sections: [
@@ -1141,7 +1141,7 @@ export const EN_B2_U30: Lesson[] = [
     slug: "b2-challenge-vocabulary",
     level: "EN-B2",
     number: 5,
-    title: "B2 Challenge 6: Vocabulary",
+    title: "Upper Intermediate Challenge 6: Vocabulary",
     summary: "Collocations, phrasal verbs, idioms and false friends from every word web of the level, mixed and without hints.",
     duration: "12 min",
     sections: [
@@ -1182,7 +1182,7 @@ export const EN_B2_U30: Lesson[] = [
       {
         heading: "Phrasal verbs",
         body: [
-          "B2 English is full of phrasal verbs, especially in speech. Key ones: \"put off\" (postpone), \"call off\" (cancel), \"turn down\" (reject), \"come up with\" (think of an idea), \"look into\" (investigate), \"run out of\" (have none left), \"get over\" (recover from), \"carry out\" (perform), \"set up\" (start a company), \"bring up\" (raise a child or mention a topic), \"fall out with\" (stop being friends).",
+          "Upper Intermediate English is full of phrasal verbs, especially in speech. Key ones: \"put off\" (postpone), \"call off\" (cancel), \"turn down\" (reject), \"come up with\" (think of an idea), \"look into\" (investigate), \"run out of\" (have none left), \"get over\" (recover from), \"carry out\" (perform), \"set up\" (start a company), \"bring up\" (raise a child or mention a topic), \"fall out with\" (stop being friends).",
           "With a noun object, separable phrasal verbs allow both orders: \"turn down the offer\" or \"turn the offer down\". With a pronoun, the pronoun goes in the middle: \"turn it down\", never *turn down it.",
           "Three-part verbs (\"run out of\", \"come up with\", \"look forward to\", \"get on with\") are never separated.",
         ],
@@ -1219,7 +1219,7 @@ export const EN_B2_U30: Lesson[] = [
         heading: "False friends and idioms",
         body: [
           "Watch the classic false friends: \"actually\" = «en realidad» (actualmente = \"currently\"), \"eventually\" = «al final» (eventualmente = \"possibly\"), \"sensible\" = «sensato» (sensible = \"sensitive\"), \"embarrassed\" = «avergonzado» (embarazada = \"pregnant\"), \"assist\" = «ayudar» (asistir = \"attend\"), \"library\" = «biblioteca» (librería = \"bookstore\"), \"argument\" = «discusión» (argumento of a film = \"plot\"), \"career\" = «trayectoria profesional» (carrera universitaria = \"degree\").",
-          "B2 idioms to recognize and use: \"a piece of cake\" (very easy), \"under the weather\" (a bit sick), \"cost an arm and a leg\" (very expensive), \"break the ice\", \"once in a blue moon\" (very rarely), \"hit the nail on the head\" (be exactly right), \"the last straw\" (the final problem that makes you lose patience).",
+          "Upper Intermediate idioms to recognize and use: \"a piece of cake\" (very easy), \"under the weather\" (a bit sick), \"cost an arm and a leg\" (very expensive), \"break the ice\", \"once in a blue moon\" (very rarely), \"hit the nail on the head\" (be exactly right), \"the last straw\" (the final problem that makes you lose patience).",
         ],
         examples: [
           { es: "Actually, I'm from Peru, not Chile.", en: "En realidad, soy de Perú, no de Chile." },
@@ -1380,7 +1380,7 @@ export const EN_B2_U30: Lesson[] = [
     slug: "b2-challenge-translation",
     level: "EN-B2",
     number: 6,
-    title: "B2 Challenge 7: Translate from Spanish",
+    title: "Upper Intermediate Challenge 7: Translate from Spanish",
     summary: "Spanish sentences full of interference traps (llevo, hace, ojalá, se dice, lo que, aunque + subjuntivo) to translate into natural English.",
     duration: "12 min",
     sections: [
@@ -1643,14 +1643,14 @@ export const EN_B2_U30: Lesson[] = [
     slug: "b2-challenge-writing",
     level: "EN-B2",
     number: 7,
-    title: "B2 Challenge 8: Writing Task",
+    title: "Upper Intermediate Challenge 8: Writing Task",
     summary: "An exam-style essay and a formal email: plan the structure, choose the right register, link your ideas, and compare your text with a model answer.",
     duration: "12 min",
     sections: [
       {
         heading: "Plan before you write",
         body: [
-          "B2 exam writing tasks (an essay, an email, a review, a report) are marked on content, organization, language and register. The quickest way to lose marks is to start writing without a plan.",
+          "Upper Intermediate exam writing tasks (an essay, an email, a review, a report) are marked on content, organization, language and register. The quickest way to lose marks is to start writing without a plan.",
           "An opinion essay has four or five paragraphs: an introduction that rephrases the question and gives your view, two or three body paragraphs that each start with a clear topic sentence, and a conclusion that sums up without adding new ideas.",
           "Spanish academic style likes long sentences joined with commas. English prefers shorter sentences and one main idea per paragraph. A comma alone cannot join two complete sentences: use a full stop, a semicolon or a linker.",
         ],
@@ -1676,7 +1676,7 @@ export const EN_B2_U30: Lesson[] = [
               "In my view, the benefits outweigh the drawbacks.",
               "In my opinion the advantages outweigh the disadvantages.",
             ],
-            explanation: "\"Outweigh\" is the key B2 verb for comparing pros and cons. \"In my opinion\", not \"In my own opinion\" or \"For me\" in formal writing.",
+            explanation: "\"Outweigh\" is the key Upper Intermediate verb for comparing pros and cons. \"In my opinion\", not \"In my own opinion\" or \"For me\" in formal writing.",
           },
           {
             type: "multiple-choice",
@@ -1901,8 +1901,8 @@ export const EN_B2_U30: Lesson[] = [
     slug: "b2-challenge-reading",
     level: "EN-B2",
     number: 8,
-    title: "B2 Challenge 9: Reading in Depth",
-    summary: "A long B2 article about a town that banned cars, with questions on inference, reference words and vocabulary in context.",
+    title: "Upper Intermediate Challenge 9: Reading in Depth",
+    summary: "A long Upper Intermediate article about a town that banned cars, with questions on inference, reference words and vocabulary in context.",
     duration: "12 min",
     sections: [
       {
@@ -2104,7 +2104,7 @@ export const EN_B2_U30: Lesson[] = [
           { left: "fade", right: "ir desapareciendo" },
           { left: "ring road", right: "ronda de circunvalación" },
         ],
-        explanation: "Working out vocabulary from context is a key B2 reading skill: \"prices have risen sharply\", \"fear tends to fade\".",
+        explanation: "Working out vocabulary from context is a key Upper Intermediate reading skill: \"prices have risen sharply\", \"fear tends to fade\".",
       },
       {
         type: "translate",
@@ -2120,7 +2120,7 @@ export const EN_B2_U30: Lesson[] = [
           "Pedestrians generally stop more than drivers.",
           "People on foot tend to stop more than drivers do.",
         ],
-        explanation: "General tendencies: \"tend to\" + infinitive, a very useful B2 alternative to «suelen».",
+        explanation: "General tendencies: \"tend to\" + infinitive, a very useful Upper Intermediate alternative to «suelen».",
       },
       {
         type: "multiple-choice",
@@ -2159,7 +2159,7 @@ export const EN_B2_U30: Lesson[] = [
     slug: "b2-challenge-speed-round",
     level: "EN-B2",
     number: 9,
-    title: "B2 Challenge 10: Speed Round",
+    title: "Upper Intermediate Challenge 10: Speed Round",
     summary: "Rapid-fire grammar and vocabulary from the whole level: short items, no hints, and a quick rule after each answer.",
     duration: "10 min",
     sections: [
@@ -2391,14 +2391,14 @@ export const EN_B2_U30: Lesson[] = [
     slug: "b2-exit-test-1",
     level: "EN-B2",
     number: 10,
-    title: "B2 Exit Test, Part 1 of 2",
-    summary: "Part one of the exit test for C1: tenses, hypotheticals, passives and clauses without hints. Aim for at least 80 percent before moving on.",
+    title: "Upper Intermediate Exit Test, Part 1 of 2",
+    summary: "Part one of the exit test for the Advanced level: tenses, hypotheticals, passives and clauses without hints. Aim for at least 80 percent before moving on.",
     duration: "12 min",
     sections: [
       {
         heading: "Section A: tenses",
         body: [
-          "This test checks the grammar core of B2. Each section has a short reminder and a few items; the final part mixes everything. Do not look back at earlier lessons until you have finished.",
+          "This test checks the grammar core of the Upper Intermediate level. Each section has a short reminder and a few items; the final part mixes everything. Do not look back at earlier lessons until you have finished.",
           "Tenses checked: narrative tenses (past simple, continuous, perfect and perfect continuous), present perfect simple and continuous, and all the future forms including the future continuous and future perfect.",
         ],
         examples: [
@@ -2675,14 +2675,14 @@ export const EN_B2_U30: Lesson[] = [
     slug: "b2-exit-test-2",
     level: "EN-B2",
     number: 11,
-    title: "B2 Exit Test, Part 2 of 2",
-    summary: "Part two of the exit test for C1: vocabulary, word formation, sentence transformations and translation without hints. Pass it and you are ready for C1.",
+    title: "Upper Intermediate Exit Test, Part 2 of 2",
+    summary: "Part two of the exit test for the Advanced level: vocabulary, word formation, sentence transformations and translation without hints. Pass it and you are ready for the Advanced level.",
     duration: "12 min",
     sections: [
       {
         heading: "Section A: vocabulary",
         body: [
-          "This part checks the words of B2: collocations, phrasal verbs, idioms, dependent prepositions and false friends. Try to answer before checking any notes.",
+          "This part checks the words of the Upper Intermediate level: collocations, phrasal verbs, idioms, dependent prepositions and false friends. Try to answer before checking any notes.",
         ],
         examples: [
           { es: "She takes after her father.", en: "Ha salido a su padre." },
@@ -2943,9 +2943,9 @@ export const EN_B2_U30: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Having finished the B2 course, I'm finally ready to take on C1.",
+        text: "Having finished the Upper Intermediate course, I'm finally ready to take on Advanced.",
         tip: "Stress \"FINished\", \"FInally\", \"REAdy\". \"Take on\" links into \"ta-kon\".",
-        explanation: "A perfect participle clause and a phrasal verb (\"take on\" = accept a challenge) to celebrate the end of B2.",
+        explanation: "A perfect participle clause and a phrasal verb (\"take on\" = accept a challenge) to celebrate the end of the Upper Intermediate level.",
       },
     ],
   },

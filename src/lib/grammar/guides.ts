@@ -345,7 +345,7 @@ const CORE_GUIDES: GrammarGuide[] = [
       },
       {
         q: "What level is the subjunctive?",
-        a: "Most courses introduce the present subjunctive at B1, and the imperfect subjunctive at B2.",
+        a: "Most courses introduce the present subjunctive at the Intermediate level, and the imperfect subjunctive at the Advanced level.",
       },
     ],
     related: ["imperfect-subjunctive", "spanish-commands", "si-clauses"],

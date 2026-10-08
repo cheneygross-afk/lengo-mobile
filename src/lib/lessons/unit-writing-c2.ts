@@ -181,7 +181,7 @@ export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
     "Describe una situación en la que sentiste emociones contradictorias (por ejemplo, al mudarte o al terminar una etapa). Nombra las emociones con precisión.",
     ["Al menos cuatro emociones nombradas con precisión (nostalgia, alivio, desasosiego…)", "Expresión de la ambivalencia (a la vez, por un lado…)", "Narración en primera persona", "Reflexión final"],
     "El día que dejé mi primer piso, sentí una mezcla extraña de alivio y nostalgia. Por un lado, me alegraba de abandonar aquel cuarto húmedo y oscuro; por otro, me invadía una melancolía difícil de explicar, porque allí había pasado cinco años de mi vida. Mientras cerraba la puerta, me asaltó un ligero desasosiego: ¿y si la nueva etapa no salía bien? A la vez, sentía una ilusión casi infantil por empezar de cero. Con el tiempo he entendido que esa ambivalencia es normal: toda despedida es también un comienzo.",
-    "Nombrar con precisión (alivio, nostalgia, melancolía, desasosiego, ilusión) y expresar la ambivalencia (por un lado… por otro, a la vez) es propio del registro C2."
+    "Nombrar con precisión (alivio, nostalgia, melancolía, desasosiego, ilusión) y expresar la ambivalencia (por un lado… por otro, a la vez) es propio del registro de nivel Profesional y Académico."
   ),
   "art-film-literature-criticism-1": t(
     "Escribe la crítica breve de una película que hayas visto: argumento, personajes, lenguaje cinematográfico y valoración, con adjetivos valorativos precisos.",

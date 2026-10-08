@@ -17,7 +17,7 @@ export const EN_B2_U13: Lesson[] = [
         body: [
           "A direct question like \"Where is the station?\" is perfectly correct, but with strangers, at work or in shops, English speakers often wrap it in a polite opening: \"Could you tell me where the station is?\". This is an indirect question, and it sounds softer and more respectful.",
           "Spanish does this too («¿Me podría decir dónde está la estación?»), but English uses it far more. A string of direct questions to a receptionist or a stranger can sound abrupt, even rude, in English.",
-          "You met indirect questions at B1. At B2 the goal is to use a wider range of openings and to get the word order right automatically, even in long sentences: \"Could you tell me...\", \"Can you tell me...\", \"Do you know...\", \"Do you happen to know...\" and \"Would you happen to know...\".",
+          "You met indirect questions at the Independence level. At the Upper Intermediate level the goal is to use a wider range of openings and to get the word order right automatically, even in long sentences: \"Could you tell me...\", \"Can you tell me...\", \"Do you know...\", \"Do you happen to know...\" and \"Would you happen to know...\".",
         ],
         examples: [
           { es: "Could you tell me where the station is?", en: "¿Me podría decir dónde está la estación?" },
@@ -420,7 +420,7 @@ export const EN_B2_U13: Lesson[] = [
       {
         heading: "Tags after imperatives and let's",
         body: [
-          "At B1 you learned question tags: \"You're Spanish, aren't you?\", \"She didn't come, did she?\". The tag repeats the auxiliary with the opposite polarity, and with a falling tone you're just checking something you think is true.",
+          "At the Independence level you learned question tags: \"You're Spanish, aren't you?\", \"She didn't come, did she?\". The tag repeats the auxiliary with the opposite polarity, and with a falling tone you're just checking something you think is true.",
           "After an imperative, the usual tag is \"will you?\": \"Close the door, will you?\". It turns an order into a request. \"Would you?\" and \"could you?\" are more polite: \"Pass me the salt, would you?\". A negative imperative also takes \"will you?\": \"Don't be late, will you?\".",
           "After \"Let's\", the tag is \"shall we?\": \"Let's go, shall we?\". Many Americans find \"shall\" a little formal and say \"Let's go, OK?\" or just \"Let's go\" instead.",
         ],

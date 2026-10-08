@@ -1633,7 +1633,7 @@ export const EN_C1_U02: Lesson[] = [
       {
         type: "speak",
         text: "Much as I'd like to help, I really can't.",
-        tip: "Stress \"much\" and \"can't\". In American English, \"can't\" has the vowel of \"cat\" and a clear final t, so it is not confused with \"can\".",
+        tip: "Stress \"much\" and \"can't\". In American English, \"can't\" keeps the full vowel of \"cat\" and is stressed, while \"can\" is reduced to /kən/; the final t is often barely heard.",
         explanation: "The contrast between the two halves is carried by the stress on \"much\" and \"can't\".",
       },
     ],
@@ -2405,7 +2405,7 @@ export const EN_C1_U02: Lesson[] = [
           { left: "I didn't take YOUR pen.", right: "Tomé un bolígrafo, pero no el tuyo." },
           { left: "I didn't TAKE your pen.", right: "Lo usé, pero no me lo llevé." },
           { left: "I didn't take your PEN.", right: "Tomé algo tuyo, pero no el bolígrafo." },
-          { left: "I DIDN'T take your pen.", right: "Niego rotundamente haberlo cogido." },
+          { left: "I DIDN'T take your pen.", right: "Niego rotundamente haberlo tomado." },
         ],
         explanation: "Moving the stress changes what is contrasted; Spanish would usually add words or change the order to say the same thing.",
       },
@@ -3219,7 +3219,7 @@ export const EN_C1_U02: Lesson[] = [
       {
         heading: "How transformations work",
         body: [
-          "In a key-word transformation (a classic C1 exam task), you rewrite a sentence using a given word, without changing the meaning. With emphasis, the key word tells you the structure: WHAT means a wh-cleft, IT an it-cleft, ALL an all-cleft, DID emphatic do, and MUCH concessive \"Much as\".",
+          "In a key-word transformation (a classic Advanced exam task), you rewrite a sentence using a given word, without changing the meaning. With emphasis, the key word tells you the structure: WHAT means a wh-cleft, IT an it-cleft, ALL an all-cleft, DID emphatic do, and MUCH concessive \"Much as\".",
           "Check three things every time: the tense is preserved, no word is added that changes the meaning, and the structure has no extra subject (*What I need it is).",
         ],
         examples: [
@@ -3491,7 +3491,7 @@ export const EN_C1_U02: Lesson[] = [
       {
         heading: "Reported speech inside clefts",
         body: [
-          "From B2, you know that reported speech backshifts tenses: «Dijo que estaba cansada» = \"She said she was tired\". Inside a wh-cleft, the same rules apply: \"What she said was that she was tired\".",
+          "From the Upper Intermediate level, you know that reported speech backshifts tenses: «Dijo que estaba cansada» = \"She said she was tired\". Inside a wh-cleft, the same rules apply: \"What she said was that she was tired\".",
           "This is a very useful way to correct a misquotation: \"What he said was that he would think about it, not that he would do it\". Keep \"that\" after \"was\" in careful speech and writing.",
           "With questions: \"What they asked was whether we could start earlier\". Remember the statement word order in reported questions: \"whether we could\", not *whether could we.",
         ],
@@ -3669,13 +3669,13 @@ export const EN_C1_U02: Lesson[] = [
     level: "EN-C1",
     number: 14,
     title: "Word Web: Strong Feelings and Intensity",
-    summary: "C1 words for strong emotions (furious, livid, thrilled, elated, devastated, mortified, appalled, overwhelmed), how to intensify them correctly, and the verbs dread, cherish and resent.",
+    summary: "Advanced words for strong emotions (furious, livid, thrilled, elated, devastated, mortified, appalled, overwhelmed), how to intensify them correctly, and the verbs dread, cherish and resent.",
     duration: "12 min",
     sections: [
       {
         heading: "Anger and joy at full strength",
         body: [
-          "At C1, \"very angry\" and \"very happy\" start to sound flat. English has strong adjectives that already contain the idea of «muy»: \"furious\" and \"livid\" (extremely angry; \"livid\" is a bit informal), \"thrilled\" (extremely pleased and excited) and \"elated\" (extremely happy, often after a success; a bit formal).",
+          "At the Advanced level, \"very angry\" and \"very happy\" start to sound flat. English has strong adjectives that already contain the idea of «muy»: \"furious\" and \"livid\" (extremely angry; \"livid\" is a bit informal), \"thrilled\" (extremely pleased and excited) and \"elated\" (extremely happy, often after a success; a bit formal).",
           "Note the false friend: \"livid\" in English means «furioso», not «lívido» in the sense of pale.",
           "Prepositions matter: \"furious with someone\" (UK) or \"furious at someone\" (US), \"furious about something\"; \"thrilled with/about something\", \"thrilled to hear\".",
         ],
@@ -3789,7 +3789,7 @@ export const EN_C1_U02: Lesson[] = [
         body: [
           "\"Dread\" = to fear something that is going to happen: \"I dread Mondays\", \"I'm dreading the exam\", \"I dread going to the dentist\" (+ -ing). \"Dread\" is stronger than \"I'm not looking forward to\".",
           "\"Cherish\" = to love and protect something precious: \"I cherish those memories\". It is close to «atesorar» or «guardar con cariño».",
-          "\"Resent\" = to feel bitter about something unfair: \"She resents having to work weekends\" (+ -ing), \"He resented the comment\". Careful: it does not mean «resentirse» (to be affected physically): «Se resiente la rodilla» = \"My knee is playing up\" or \"My knee is bothering me\".",
+          "\"Resent\" = to feel bitter about something unfair: \"She resents having to work weekends\" (+ -ing), \"He resented the comment\". Careful: it does not mean «resentirse» (to be affected physically): «Se me resiente la rodilla» = \"My knee is playing up\" or \"My knee is bothering me\".",
         ],
         examples: [
           { es: "I'm dreading the exam.", en: "Me da pavor el examen." },

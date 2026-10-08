@@ -428,7 +428,7 @@ export const EN_C2_U02_EXTRA: Lesson[] = [
         body: [
           "\"In respect of\" is very formal and mostly British (\"fees in respect of services\"); \"with regard to\" and \"regarding\" are safe everywhere. *With regards to is common in speech but is still criticised in formal writing.",
           "\"By virtue of\" gives the legal basis or reason: \"by virtue of her position\". \"Subject to\" makes something conditional: \"subject to approval\" = only if it is approved.",
-          "Outside contracts, plainer words are often better: \"before\" for \"prior to\", \"about\" for \"with regard to\", \"under\" for \"pursuant to\". A C2 writer matches the phrase to the register instead of using it everywhere.",
+          "Outside contracts, plainer words are often better: \"before\" for \"prior to\", \"about\" for \"with regard to\", \"under\" for \"pursuant to\". A Mastery writer matches the phrase to the register instead of using it everywhere.",
         ],
         examples: [
           { es: "She acted by virtue of the powers conferred on her.", en: "Actuó en virtud de las facultades que le habían sido conferidas." },

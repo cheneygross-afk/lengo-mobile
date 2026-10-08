@@ -93,7 +93,7 @@ export const EN_B2_U04: Lesson[] = [
       {
         heading: "Five years from now: looking back from the future",
         body: [
-          "A question like \"Where do you see yourself in five years?\" invites two B2 forms. The future continuous describes what you will be in the middle of at that time: \"In five years, I'll be living abroad\". The future perfect describes what you will have completed by then: \"By then, I'll have finished my degree\".",
+          "A question like \"Where do you see yourself in five years?\" invites two Upper Intermediate forms. The future continuous describes what you will be in the middle of at that time: \"In five years, I'll be living abroad\". The future perfect describes what you will have completed by then: \"By then, I'll have finished my degree\".",
           "\"By\" + a time means «para» or «antes de»: \"by 2030\", \"by the time I'm thirty\". After \"by the time\", use the present, as with \"when\": \"by the time I'm thirty\", not *by the time I will be thirty.",
           "Add a hedge to sound natural: \"hopefully\", \"probably\", \"with any luck\". Remember the word order: \"I'll probably be\", but \"I probably won't be\".",
         ],
@@ -2646,7 +2646,7 @@ export const EN_B2_U04: Lesson[] = [
           "A future form for the new plan",
           "At least one time clause with the present (when, as soon as, until)",
         ],
-        modelAnswer: "Last spring I was going to move to Berlin. I had found a job there and I was looking for an apartment when my father got sick. I decided to stay in Valencia to help my family. It was a hard decision, but I don't regret it. Now he's much better, and I'm going to try again next year. I've already started German classes, and as soon as I reach a B1 level, I'll start applying for jobs. By this time next year, I hope I'll be living in Germany.",
+        modelAnswer: "Last spring I was going to move to Berlin. I had found a job there and I was looking for an apartment when my father got sick. I decided to stay in Valencia to help my family. It was a hard decision, but I don't regret it. Now he's much better, and I'm going to try again next year. I've already started German classes, and as soon as I reach an Independence level, I'll start applying for jobs. By this time next year, I hope I'll be living in Germany.",
         explanation: "Moving between past and future is easier when you anchor every verb to the timeline.",
       },
     ],

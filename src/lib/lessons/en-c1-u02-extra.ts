@@ -868,7 +868,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
           { es: "It was Tom who booked the hotel, not me.", en: "Fue Tom quien reservó el hotel, no yo." },
           { es: "What we need is a clear plan.", en: "Lo que necesitamos es un plan claro." },
           { es: "I did lock the door! Go and check.", en: "¡Que sí que cerré la puerta con llave! Ve a comprobarlo." },
-          { es: "Much as I'd like to help, I can't this week.", en: "Por mucho que me gustaría ayudar, esta semana no puedo." },
+          { es: "Much as I'd like to help, I can't this week.", en: "Aunque me encantaría ayudar, esta semana no puedo." },
           { es: "Never before has the company faced such a challenge.", en: "Nunca antes se había enfrentado la empresa a semejante reto." },
         ],
         checkpoint: [
@@ -1103,7 +1103,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Por mucho que me gustaría ir, esta vez no puedo.",
+        source: "Aunque me encantaría ir, esta vez no puedo.",
         answer: "Much as I'd like to go, I can't this time.",
         altAnswers: [
           "Much as I would love to go, I can't this time.",

@@ -1394,7 +1394,7 @@ export const EN_C2_U21: Lesson[] = [
               ["I played a key role in", "I played a crucial role in", "I played an important role in", "I played a major role in", "I played a central role in"],
               ["winning the contract.", "securing the contract.", "landing the contract.", "getting the contract."],
             ),
-            explanation: "\"Play a role in\" + -ing (never *have a role in obtaining in this sense). «Obtener» a contract is \"win\", \"secure\" or \"land\".",
+            explanation: "\"Play a role in\" + -ing (\"have a key role in\" is also possible). «Obtener» a contract is \"win\", \"secure\" or \"land\".",
           },
         ],
       },
@@ -1849,7 +1849,7 @@ export const EN_C2_U21: Lesson[] = [
       {
         type: "speak",
         text: "I have a degree in business and five years' experience in project management.",
-        tip: "\"Years'\" sounds exactly like \"years\". Stress \"DEgree\" no, the stress is on the second syllable: de-GREE; and in \"management\" stress the first: MAN-age-ment.",
+        tip: "\"Years'\" sounds exactly like \"years\". In \"degree\" stress the second syllable: de-GREE; and in \"management\" stress the first: MAN-age-ment.",
         explanation: "This one sentence fixes two classic calques: *I'm graduated in and *experience of five years.",
       },
     ],
@@ -1858,7 +1858,7 @@ export const EN_C2_U21: Lesson[] = [
     slug: "c2-vocab-precise-verbs",
     level: "EN-C2",
     number: 8,
-    title: "C2 vocabulary: precise verbs instead of get, do, make and say",
+    title: "Mastery vocabulary: precise verbs instead of get, do, make and say",
     summary: "Replacing all-purpose verbs with precise ones (obtain, secure, earn; carry out, conduct, undertake; generate, draft, forge; state, point out, stress, claim) and settling the make/do confusion.",
     duration: "12 min",
     sections: [
@@ -2232,9 +2232,9 @@ export const EN_C2_U21: Lesson[] = [
       {
         heading: "Verb + object + infinitive: want you to",
         body: [
-          "Spanish uses «que» + subjunctive after verbs of wanting and asking: «Quiero que vengas». English uses object + to-infinitive: \"I want you to come.\" *I want that you come is one of the most persistent Spanish-speaker errors, even at C1.",
+          "Spanish uses «que» + subjunctive after verbs of wanting and asking: «Quiero que vengas». English uses object + to-infinitive: \"I want you to come.\" *I want that you come is one of the most persistent Spanish-speaker errors, even at the Advanced level.",
           "The same pattern works with would like, expect, ask, tell, encourage, allow, persuade, advise, invite, need and prefer: \"They expect us to reply by Friday.\" \"She encouraged me to apply.\"",
-          "Careful with suggest and recommend: they do NOT take object + infinitive. Say \"I suggest (that) you apply\", \"I recommend applying\", or \"I'd recommend that you apply\", never *I suggest you to apply.",
+          "Careful with suggest and recommend: \"suggest\" never takes object + infinitive, and \"recommend\" + object + infinitive is formal British only, so avoid it. Say \"I suggest (that) you apply\", \"I recommend applying\", or \"I'd recommend that you apply\", never *I suggest you to apply.",
         ],
         examples: [
           { es: "I want you to read the contract carefully.", en: "Quiero que leas el contrato con atención." },
@@ -2264,7 +2264,7 @@ export const EN_C2_U21: Lesson[] = [
               "She advised me to negotiate the salary.",
               "She suggested me to negotiate the salary.",
               "She wanted that I negotiate the salary.",
-              "She recommended me to negotiate the salary.",
+              "She proposed me to negotiate the salary.",
             ],
             correctIndex: 0,
             explanation: "\"Advise\" takes object + to-infinitive. \"Suggest\" and \"recommend\" need \"that\" or -ing, and \"want\" never takes a \"that\" clause.",

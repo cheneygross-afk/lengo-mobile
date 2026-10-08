@@ -66,11 +66,11 @@ const UNITS: EnglishUnitDef[] = [
   { id: "u16", title: "Adjetivos y adverbios", description: "Quickly, well, bored o boring, too y enough: describir cómo se hacen las cosas y matizar adjetivos.", lessons: [...EN_A2_U16, ...EN_A2_U16_EXTRA] },
   { id: "u17", title: "Las preposiciones", description: "Llegar a, depender de, bueno en: preposiciones de movimiento y las que van con verbos y adjetivos.", lessons: [...EN_A2_U17, ...EN_A2_U17_EXTRA] },
   { id: "u18", title: "Preguntas y respuestas", description: "Who called?, What's it like?, so do I y neither do I: preguntas más naturales y respuestas cortas.", lessons: [...EN_A2_U18, ...EN_A2_U18_EXTRA] },
-  { id: "u19", title: "Redes de palabras", description: "Vocabulario temático del A2: viajes, salud, trabajo, tecnología, dinero, tiempo libre, estudios, naturaleza y personalidad.", lessons: EN_A2_U19 },
-  { id: "u20", title: "Palabras clave", description: "Las palabras más frecuentes del A2 y los falsos amigos que más confunden a los hispanohablantes.", lessons: [...EN_A2_U20, ...EN_A2_U20_EXTRA] },
+  { id: "u19", title: "Redes de palabras", description: "Vocabulario temático del nivel Ganando fluidez: viajes, salud, trabajo, tecnología, dinero, tiempo libre, estudios, naturaleza y personalidad.", lessons: EN_A2_U19 },
+  { id: "u20", title: "Palabras clave", description: "Las palabras más frecuentes del nivel Ganando fluidez y los falsos amigos que más confunden a los hispanohablantes.", lessons: [...EN_A2_U20, ...EN_A2_U20_EXTRA] },
   { id: "u21", title: "Situaciones de supervivencia", description: "Role plays para la vida diaria en un país de habla inglesa: tiendas, farmacia, médico, hotel, transporte, restaurante y más.", lessons: EN_A2_U21 },
-  { id: "u22", title: "Repaso del A2", description: "Repasos completos y circuitos acumulativos de todo el nivel A2.", lessons: EN_A2_U22 },
-  { id: "u23", title: "Desafíos y examen final del A2", description: "Desafíos que combinan todo el A2 y el examen de salida para pasar al B1.", lessons: EN_A2_U23 },
+  { id: "u22", title: "Repaso del nivel Ganando fluidez", description: "Repasos completos y circuitos acumulativos de todo el nivel Ganando fluidez.", lessons: EN_A2_U22 },
+  { id: "u23", title: "Desafíos y examen final del nivel Ganando fluidez", description: "Desafíos que combinan todo el nivel Ganando fluidez y el examen de salida para pasar al nivel Independencia.", lessons: EN_A2_U23 },
 ];
 
 const LEVEL = buildEnglishLevel("en/a2", UNITS);

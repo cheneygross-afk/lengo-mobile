@@ -1421,7 +1421,7 @@ export const EN_C1_U03: Lesson[] = [
     level: "EN-C1",
     number: 6,
     title: "Articles with Abstract and General Nouns, Part 1 of 2",
-    summary: "A C1 review of the most persistent Spanish-speaker error in essays: no article for general ideas (\"Society is changing\", \"Life is short\") but \"the\" for specific reference (\"the society we live in\").",
+    summary: "An Advanced review of the most persistent Spanish-speaker error in essays: no article for general ideas (\"Society is changing\", \"Life is short\") but \"the\" for specific reference (\"the society we live in\").",
     duration: "12 min",
     sections: [
       {
@@ -1698,7 +1698,7 @@ export const EN_C1_U03: Lesson[] = [
         heading: "Countable in Spanish, uncountable in English",
         body: [
           "Several nouns that are countable in Spanish are uncountable in English, so they never take \"a\" and never take -s: research, evidence, advice, information, progress, knowledge, feedback, equipment, news, training, homework.",
-          "This is why *researches, *an evidence, *a progress, *informations and *advices are some of the most frequent errors in C1 essays. Spanish says «investigaciones», «pruebas», «progresos», «informaciones», «consejos».",
+          "This is why *researches, *an evidence, *a progress, *informations and *advices are some of the most frequent errors in Advanced essays. Spanish says «investigaciones», «pruebas», «progresos», «informaciones», «consejos».",
           "They take a singular verb and quantifiers for uncountables: \"Recent research shows...\", \"The evidence is clear\", \"We have made a lot of progress\", \"How much information do we have?\", \"There is little evidence\".",
         ],
         examples: [
@@ -2678,13 +2678,13 @@ export const EN_C1_U03: Lesson[] = [
     level: "EN-C1",
     number: 11,
     title: "Spiral Review: Passives and Nominalisation",
-    summary: "Combine B2 passives and impersonal reporting with nominal style (\"It has been decided that...\" vs \"A decision has been made to...\") and choose the most impersonal, concise option.",
+    summary: "Combine Upper Intermediate passives and impersonal reporting with nominal style (\"It has been decided that...\" vs \"A decision has been made to...\") and choose the most impersonal, concise option.",
     duration: "12 min",
     sections: [
       {
         heading: "Two ways to sound impersonal",
         body: [
-          "At B2 you learned impersonal passives: \"It has been decided that the office will close\", \"It is expected that prices will rise\". Nominal style gives you a second option: \"A decision has been made to close the office\", \"Prices are expected to rise\".",
+          "At the Upper Intermediate level you learned impersonal passives: \"It has been decided that the office will close\", \"It is expected that prices will rise\". Nominal style gives you a second option: \"A decision has been made to close the office\", \"Prices are expected to rise\".",
           "Both hide the doer, which is what Spanish does with «se»: «se ha decidido cerrar la oficina». Choose the nominal version when you want the decision itself to be the topic of the next sentence: \"A decision has been made to close the office. This decision will affect 40 employees.\"",
           "\"Make a decision\" is standard in American English; British English also says \"take a decision\".",
         ],
@@ -3291,7 +3291,7 @@ export const EN_C1_U03: Lesson[] = [
     level: "EN-C1",
     number: 12,
     title: "Word Web: Science and Research",
-    summary: "C1 vocabulary for science and research (hypothesis, findings, sample, variable, peer review, breakthrough, empirical) and the collocations Spanish speakers get wrong, like \"carry out an experiment\".",
+    summary: "Advanced vocabulary for science and research (hypothesis, findings, sample, variable, peer review, breakthrough, empirical) and the collocations Spanish speakers get wrong, like \"carry out an experiment\".",
     duration: "12 min",
     sections: [
       {
@@ -3572,7 +3572,7 @@ export const EN_C1_U03: Lesson[] = [
     slug: "c1-core-words-1",
     level: "EN-C1",
     number: 13,
-    title: "C1 Core Words 1: Academic Verbs",
+    title: "Advanced Core Words 1: Academic Verbs",
     summary: "Ten high-frequency academic verbs (analyze, assess, assume, derive, establish, indicate, interpret, emerge, constitute, facilitate): their stress, patterns, collocations and noun forms.",
     duration: "12 min",
     sections: [

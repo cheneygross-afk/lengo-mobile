@@ -16,7 +16,7 @@ export const EN_C1_U09: Lesson[] = [
       {
         heading: "Make and do: beyond the basics",
         body: [
-          "A collocation is a combination of words that native speakers simply prefer: \"make a decision\", not *do a decision; \"do research\", not *make research. There is no perfect logic behind them, so at C1 you learn them as chunks, the same way you learned «tomar una decisión» or «hacer caso» in Spanish.",
+          "A collocation is a combination of words that native speakers simply prefer: \"make a decision\", not *do a decision; \"do research\", not *make research. There is no perfect logic behind them, so at the Advanced level you learn them as chunks, the same way you learned «tomar una decisión» or «hacer caso» in Spanish.",
           "\"Make\" usually goes with nouns about producing a result: \"make a contribution\", \"make progress\", \"make a distinction\", \"make an exception\", \"make a difference\". \"Do\" goes with work, tasks and general activity: \"do research\", \"do business\", \"do damage\", \"do harm\", \"do someone a favor\".",
           "The classic calque is «realizar un estudio», which becomes *realize a study. \"Realize\" means «darse cuenta». A study is \"carried out\", \"conducted\" or \"done\". In the same way, «hacer una pregunta» is \"ask a question\", never *make a question.",
         ],
@@ -587,7 +587,7 @@ export const EN_C1_U09: Lesson[] = [
       {
         heading: "Upgrading weak verbs",
         body: [
-          "In formal writing, \"do\", \"get\" and \"have\" often sound vague. A precise verb makes the same sentence sound like C1: \"do a survey\" becomes \"conduct a survey\", \"get results\" becomes \"obtain\" or \"achieve results\", \"have a problem\" becomes \"face\" or \"encounter a problem\", \"get information\" becomes \"gather\" or \"obtain information\".",
+          "In formal writing, \"do\", \"get\" and \"have\" often sound vague. A precise verb makes the same sentence sound like Advanced: \"do a survey\" becomes \"conduct a survey\", \"get results\" becomes \"obtain\" or \"achieve results\", \"have a problem\" becomes \"face\" or \"encounter a problem\", \"get information\" becomes \"gather\" or \"obtain information\".",
           "Some upgrades are not about style but about correctness. Spanish speakers often write *do changes or *do a mistake; the only correct verb is \"make\": \"make changes\", \"make a mistake\". And «dar una solución» is \"find\", \"propose\" or \"come up with a solution\", not *give a solution.",
           "Upgrade the verb, not the whole sentence. One or two precise collocations per paragraph are enough; a text full of them sounds artificial.",
         ],
@@ -812,7 +812,7 @@ export const EN_C1_U09: Lesson[] = [
           { left: "get information", right: "gather information" },
           { left: "get to an agreement", right: "reach an agreement" },
         ],
-        explanation: "Upgrading the verb is the quickest way to make written English sound C1. In conversation, the left-hand versions are fine (except \"get to an agreement\", which is unusual: say \"reach\" or \"come to\").",
+        explanation: "Upgrading the verb is the quickest way to make written English sound Advanced. In conversation, the left-hand versions are fine (except \"get to an agreement\", which is unusual: say \"reach\" or \"come to\").",
       },
       {
         type: "translate",
@@ -844,7 +844,7 @@ export const EN_C1_U09: Lesson[] = [
           "Sure, I'll make a research about it.",
         ],
         correctIndex: 0,
-        explanation: "\"Look into it\" is natural and professional. Option 3 is correct but absurdly formal; options 2 and 4 are calques (*realize an investigation, *make a research).",
+        explanation: "\"Look into it\" is natural and professional. \"Conduct a comprehensive investigation\" is correct but absurdly formal, and *realize an investigation and *make a research are calques.",
       },
       {
         type: "dictation",
@@ -1401,7 +1401,7 @@ export const EN_C1_U09: Lesson[] = [
               "It's highly unlikely that they'll accept the offer.",
               "It's highly unlikely that they accept the offer.",
             ],
-            explanation: "«Muy poco probable» is \"highly unlikely\" (or \"very unlikely\"). Note \"they are unlikely to\" + infinitive, a very natural C1 structure.",
+            explanation: "«Muy poco probable» is \"highly unlikely\" (or \"very unlikely\"). Note \"they are unlikely to\" + infinitive, a very natural Advanced structure.",
           },
           {
             type: "multiple-choice",
@@ -1519,7 +1519,7 @@ export const EN_C1_U09: Lesson[] = [
         answer: "entirely different",
         altAnswers: ["completely different", "totally different", "quite different", "very different", "utterly different", "really different"],
         en: "Las dos versiones son [totalmente distintas].",
-        explanation: "\"Entirely\" or \"completely different\". \"Different\" is the one adjective that takes both \"very\" and \"completely\" naturally.",
+        explanation: "\"Entirely\" or \"completely different\". \"Different\" is one of several adjectives that take both \"very\" and \"completely\" naturally.",
       },
       {
         type: "multiple-choice",
@@ -2058,7 +2058,7 @@ export const EN_C1_U09: Lesson[] = [
     slug: "c1-dependent-prepositions",
     level: "EN-C1",
     number: 9,
-    title: "Dependent Prepositions at C1",
+    title: "Dependent Prepositions at the Advanced level",
     summary: "Depend on, consist of, insist on, responsible for, capable of, married to, in charge of: the fixed prepositions that Spanish speakers translate word for word, and the verbs that take none at all.",
     duration: "12 min",
     sections: [
@@ -2362,13 +2362,13 @@ export const EN_C1_U09: Lesson[] = [
     level: "EN-C1",
     number: 10,
     title: "Advanced Phrasal Verbs: Abstract and Multiple Meanings",
-    summary: "Master the abstract phrasal verbs of C1 English (bring about, stem from, account for, come up with, put forward, rule out, play down, carry out, set out, live up to, fall through, come across, get across), where the pronoun goes, and when a Latinate verb is better.",
+    summary: "Master the abstract phrasal verbs of Advanced English (bring about, stem from, account for, come up with, put forward, rule out, play down, carry out, set out, live up to, fall through, come across, get across), where the pronoun goes, and when a Latinate verb is better.",
     duration: "12 min",
     sections: [
       {
         heading: "Causes and explanations: bring about, stem from, account for",
         body: [
-          "At C1, phrasal verbs are no longer about physical movement. Their particles are abstract, so guessing from \"up\", \"out\" or \"about\" rarely works; learn each one with its typical objects. Many Spanish speakers avoid phrasal verbs altogether and use only Latinate verbs (\"cause\", \"explain\"), which sounds stiff in conversation.",
+          "At the Advanced level, phrasal verbs are no longer about physical movement. Their particles are abstract, so guessing from \"up\", \"out\" or \"about\" rarely works; learn each one with its typical objects. Many Spanish speakers avoid phrasal verbs altogether and use only Latinate verbs (\"cause\", \"explain\"), which sounds stiff in conversation.",
           "\"Bring about\" = cause (usually a change): \"The internet brought about a revolution in communication\". \"Stem from\" = originate in, be caused by (the cause comes after the verb): \"Most of her problems stem from a lack of sleep\". It is never used in the passive or continuous.",
           "\"Account for\" has two meanings: explain (\"How do you account for the difference?\") and form a part of a total (\"Exports account for 40% of the economy\"). It is inseparable: \"account for it\", never *account it for.",
         ],
@@ -3237,7 +3237,7 @@ export const EN_C1_U09: Lesson[] = [
     level: "EN-C1",
     number: 12,
     title: "Spiral Review: Phrasal Verbs and Latinate Collocations",
-    summary: "Carry out or conduct? Look into or investigate? Come up with or devise? Review your B2 phrasal verbs alongside their formal equivalents and choose by register.",
+    summary: "Carry out or conduct? Look into or investigate? Come up with or devise? Review your Upper Intermediate phrasal verbs alongside their formal equivalents and choose by register.",
     duration: "11 min",
     sections: [
       {
@@ -3308,7 +3308,7 @@ export const EN_C1_U09: Lesson[] = [
         body: [
           "The test is simple: who is reading or listening? In a chat with a colleague, use the phrasal verb: \"We need to cut down on costs\". In an annual report, use the Latinate verb: \"The company aims to reduce operating costs\".",
           "Formal writing doesn't ban phrasal verbs completely: \"carry out\", \"set up\" and \"point out\" are perfectly acceptable in reports. But informal ones like \"sort out\", \"figure out\" or \"come up with\" usually get replaced: \"resolve\", \"determine\", \"devise\" or \"develop\".",
-          "Mixing registers is a common C1 problem: \"Hey, I'll ascertain what time the movie starts\" sounds comic, and \"The committee will figure out the budget\" sounds too casual for a report.",
+          "Mixing registers is a common Advanced problem: \"Hey, I'll ascertain what time the movie starts\" sounds comic, and \"The committee will figure out the budget\" sounds too casual for a report.",
         ],
         examples: [
           { es: "We need to cut down on costs.", en: "Tenemos que recortar gastos." },
@@ -3460,7 +3460,7 @@ export const EN_C1_U09: Lesson[] = [
         type: "speak",
         text: "We came up with a plan, but we had to put it off until spring.",
         tip: "In phrasal verbs, the particle is stressed: \"came UP with\", \"put it OFF\".",
-        explanation: "Two common phrasal verbs from B2. In a formal report, the same idea would be \"We devised a plan, but it had to be postponed until spring.\"",
+        explanation: "Two common phrasal verbs from the Upper Intermediate level. In a formal report, the same idea would be \"We devised a plan, but it had to be postponed until spring.\"",
       },
     ],
   },
@@ -3711,7 +3711,7 @@ export const EN_C1_U09: Lesson[] = [
           "Torrential rain set off a landslide.",
           "Torrential rain caused a mudslide.",
         ],
-        explanation: "\"Torrential rain\" is the fixed collocation. \"Trigger\" (desencadenar) is a precise C1 verb for a landslide or an avalanche.",
+        explanation: "\"Torrential rain\" is the fixed collocation. \"Trigger\" (desencadenar) is a precise Advanced verb for a landslide or an avalanche.",
       },
       {
         type: "speak",
@@ -3740,7 +3740,7 @@ export const EN_C1_U09: Lesson[] = [
     slug: "c1-core-words-5",
     level: "EN-C1",
     number: 14,
-    title: "C1 Core Words 5: Verbs of Change and Development",
+    title: "Advanced Core Words 5: Verbs of Change and Development",
     summary: "Soar, plummet, fluctuate, stabilize, decline, surge, dwindle, expand, shrink and level off: describe trends precisely, with their noun forms, collocating adverbs and stress.",
     duration: "12 min",
     sections: [

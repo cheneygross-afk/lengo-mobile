@@ -479,7 +479,7 @@ export const EN_A2_U11: Lesson[] = [
       {
         heading: "De \"Can you...?\" a \"Could you...?\"",
         body: [
-          "En el A1 aprendiste a pedir algo con \"Can you...?\": \"Can you help me?\". Para sonar más educado, usa \"Could you...?\" («¿podrías...?», «¿podría...?»): \"Could you help me, please?\".",
+          "En el nivel Fundamentos aprendiste a pedir algo con \"Can you...?\": \"Can you help me?\". Para sonar más educado, usa \"Could you...?\" («¿podrías...?», «¿podría...?»): \"Could you help me, please?\".",
           "Aquí \"could\" no habla del pasado: es una forma más suave de pedir, como el condicional «podrías» en español.",
           "\"Would you...?\" también es muy educado: \"Would you close the door, please?\". Con amigos y familia, \"Can you...?\" está perfectamente bien.",
         ],
@@ -1714,7 +1714,7 @@ export const EN_A2_U11: Lesson[] = [
     level: "EN-A2",
     number: 8,
     title: "Repaso en espiral: los verbos modales",
-    summary: "Repaso de los modales del A2 (\"have to\", \"must\", \"should\", \"might\", \"could\", \"would\", \"shall\") junto con \"can\" y \"I'd like\", en pasado, presente y futuro.",
+    summary: "Repaso de los modales del nivel Ganando fluidez (\"have to\", \"must\", \"should\", \"might\", \"could\", \"would\", \"shall\") junto con \"can\" y \"I'd like\", en pasado, presente y futuro.",
     duration: "12 min",
     sections: [
       {

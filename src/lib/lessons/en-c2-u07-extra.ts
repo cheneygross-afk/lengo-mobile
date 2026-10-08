@@ -68,7 +68,7 @@ export const EN_C2_U07_EXTRA: Lesson[] = [
         body: [
           "Some Spanish metaphors have an English equivalent built on a different image. «Echar leña al fuego» is \"add fuel to the fire\" (or \"fan the flames\"); «la gota que colmó el vaso» is \"the last straw\"; «caer en saco roto» is \"fall on deaf ears\"; «correr como la pólvora» is \"spread like wildfire\".",
           "Others travel almost intact: «dar luz verde» is \"give the green light\", «poner el listón alto» is \"set the bar high\" and «lluvia de ideas» is simply \"brainstorming\" (a storm in the brain, not rain).",
-          "The rule of thumb at C2: if you cannot remember having heard the English image, assume it does not exist and look for the native equivalent.",
+          "The rule of thumb at the Mastery level: if you cannot remember having heard the English image, assume it does not exist and look for the native equivalent.",
         ],
         examples: [
           { es: "His comments only added fuel to the fire.", en: "Sus comentarios no hicieron más que echar leña al fuego." },
@@ -187,7 +187,7 @@ export const EN_C2_U07_EXTRA: Lesson[] = [
           "This new company has a very bright future.",
           "This new company has a very promising future.",
         ],
-        explanation: "Prospects are \"bright\" or \"promising\". *A brilliant future is unusual, because \"brilliant\" praises achievements, not prospects.",
+        explanation: "Prospects are most often \"bright\" or \"promising\"; \"a brilliant future\" also exists but is less common.",
       },
       {
         type: "multiple-choice",

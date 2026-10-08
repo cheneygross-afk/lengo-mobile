@@ -2135,7 +2135,7 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
   ["No cuelgues hasta que te ___. (contestar, ellos)", "contesten", "Don't hang up until they [answer] you.", "contestar → contesten: present subjunctive, ellos (hasta que)"],
   ["No cuentes con que te ___ ayudar. (ir, ellos)", "vayan", "Don't count on them [going] to help you.", "ir → vayan: present subjunctive, ellos (after 'no contar con que')"],
   ["No dejaban que ___ solos por la ciudad. (salir, nosotros)", "saliéramos", "They didn't let us [go out] alone around the city.", "salir → saliéramos: imperfect subjunctive, nosotros (no dejaban que)"],
-  ["No dejaré de estudiar hasta que ___ el C1. (conseguir)", "consiga", "I won't stop studying until I [get] the C1.", "conseguir → consiga: present subjunctive, yo (hasta que + future)"],
+  ["No dejaré de estudiar hasta que ___ el nivel Maestría. (conseguir)", "consiga", "I won't stop studying until I [get] the Mastery.", "conseguir → consiga: present subjunctive, yo (hasta que + future)"],
   ["No dejes para mañana lo que ___ hacer hoy. (poder, tú)", "puedas", "Don't put off until tomorrow what you [can] do today (tú).", "poder → puedas: present subjunctive, tú"],
   ["No dejes que nadie te ___ lo que puedes hacer. (decir)", "diga", "Don't let anyone [tell] you what you can do.", "decir → diga: present subjunctive (no dejes que)"],
   ["No dispensaré nada hasta que el médico me lo ___. (confirmar)", "confirme", "I won't dispense anything until the doctor [confirms] it to me.", "confirmar → confirme: present subjunctive (hasta que + future)"],

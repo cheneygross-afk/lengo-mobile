@@ -1341,7 +1341,7 @@ export const EN_B1_U01: Lesson[] = [
       {
         heading: "Just, already, yet, ever, never",
         body: [
-          "Catching up is also about news. Here you use the present perfect simple from A2: \"I've just started a new job\", \"Have you finished your degree yet?\", \"I've already moved twice\", \"Have you ever been to Canada?\", \"I've never been there\".",
+          "Catching up is also about news. Here you use the present perfect simple from the Gaining Fluency level: \"I've just started a new job\", \"Have you finished your degree yet?\", \"I've already moved twice\", \"Have you ever been to Canada?\", \"I've never been there\".",
           "Remember the positions: \"just\", \"already\", \"ever\" and \"never\" go between \"have\" and the participle. \"Yet\" goes at the end of questions and negatives.",
           "Careful: \"been to\" means you visited and came back. \"Have you ever been to Canada?\" = «¿has estado alguna vez en Canadá?».",
         ],
@@ -1697,7 +1697,7 @@ export const EN_B1_U01: Lesson[] = [
       {
         heading: "Describing people",
         body: [
-          "Some key B1 adjectives: \"reliable\" (you can trust them), \"easy-going\" (relaxed, calm), \"stubborn\" (doesn't change their mind), \"moody\" (their mood changes a lot), \"outgoing\" (sociable, likes meeting people), \"shy\", \"hard-working\" and \"lazy\".",
+          "Some key Independence adjectives: \"reliable\" (you can trust them), \"easy-going\" (relaxed, calm), \"stubborn\" (doesn't change their mind), \"moody\" (their mood changes a lot), \"outgoing\" (sociable, likes meeting people), \"shy\", \"hard-working\" and \"lazy\".",
           "To describe someone you've known for a long time, you'll often use the present perfect: \"I've known Lucia for years, and she's always been reliable\".",
           "To ask about personality: \"What's she like?\" («¿cómo es?»), not \"How is she?\" (that asks about health or mood).",
         ],
@@ -2076,7 +2076,7 @@ export const EN_B1_U01: Lesson[] = [
     slug: "b1-spiral-review-a2-tenses",
     level: "EN-B1",
     number: 11,
-    title: "Spiral Review: A2 Tenses to B1",
+    title: "Spiral Review: Gaining Fluency Tenses to the Independence level",
     summary: "Review the present perfect with ever, never, just, already and yet, the past simple and the past continuous, and combine them with the present perfect continuous.",
     duration: "12 min",
     sections: [

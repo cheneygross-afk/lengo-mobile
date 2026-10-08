@@ -8,7 +8,7 @@ export const EN_C1_U17: Lesson[] = [
     slug: "c1-level-review-inversion-emphasis",
     level: "EN-C1",
     number: 1,
-    title: "C1 Review: Inversion and Emphasis",
+    title: "Advanced Review: Inversion and Emphasis",
     summary: "A mixed review of Units 1 and 2: negative and conditional inversion, it-clefts and wh-clefts, fronting and emphatic \"do\", with the classic Spanish-speaker slips as traps.",
     duration: "12 min",
     sections: [
@@ -265,7 +265,7 @@ export const EN_C1_U17: Lesson[] = [
     slug: "c1-level-review-nominal-cohesion",
     level: "EN-C1",
     number: 2,
-    title: "C1 Review: Nominalisation, Ellipsis and Cohesion",
+    title: "Advanced Review: Nominalisation, Ellipsis and Cohesion",
     summary: "A mixed review of Units 3 and 4: turning verbs into nouns, articles with abstract nouns, ellipsis and substitution (so, not, one, do so) and the reference words that hold a text together.",
     duration: "12 min",
     sections: [
@@ -315,7 +315,7 @@ export const EN_C1_U17: Lesson[] = [
       {
         heading: "Articles with abstract and general nouns",
         body: [
-          "When you speak about something in general, English uses NO article with uncountable and plural nouns: \"Society is changing\", \"Life is short\", \"Technology affects education\", \"Dogs are loyal\". Spanish uses the article («la sociedad», «la vida»), so *The society is changing is one of the most persistent errors at C1.",
+          "When you speak about something in general, English uses NO article with uncountable and plural nouns: \"Society is changing\", \"Life is short\", \"Technology affects education\", \"Dogs are loyal\". Spanish uses the article («la sociedad», «la vida»), so *The society is changing is one of the most persistent errors at the Advanced level.",
           "Use \"the\" when the noun is made specific, usually by an \"of\"-phrase or a relative clause: \"the society of the 19th century\", \"the life of my grandfather\", \"the technology we use at work\".",
           "Adjective + general noun usually stays without an article: \"modern society\", \"human nature\", \"public opinion\", \"higher education\".",
         ],
@@ -489,7 +489,7 @@ export const EN_C1_U17: Lesson[] = [
     slug: "c1-level-review-hedging-markers",
     level: "EN-C1",
     number: 3,
-    title: "C1 Review: Hedging, Probability and Discourse Markers",
+    title: "Advanced Review: Hedging, Probability and Discourse Markers",
     summary: "A mixed review of Units 5 and 6: hedging and distancing, expressions of probability, and the spoken and written markers that guide a listener or reader, including actually, eventually and on the contrary.",
     duration: "12 min",
     sections: [
@@ -735,7 +735,7 @@ export const EN_C1_U17: Lesson[] = [
     slug: "c1-level-review-clauses-unreal",
     level: "EN-C1",
     number: 4,
-    title: "C1 Review: Participle Clauses, Relatives and the Unreal",
+    title: "Advanced Review: Participle Clauses, Relatives and the Unreal",
     summary: "A mixed review of Units 7 and 8: participle and absolute clauses, advanced relative clauses (whose, of which, most of whom), the unreal past (it's time, would rather, as if) and the subjunctive after suggest and insist.",
     duration: "12 min",
     sections: [
@@ -1016,8 +1016,8 @@ export const EN_C1_U17: Lesson[] = [
     slug: "c1-level-review-vocabulary",
     level: "EN-C1",
     number: 5,
-    title: "C1 Review: Collocations, Idioms and Word Formation",
-    summary: "A mixed review of Units 9 to 11: verb, adjective and adverb collocations, dependent prepositions, idioms with true and false Spanish equivalents, prefixes and suffixes, and the false friends that still catch C1 learners.",
+    title: "Advanced Review: Collocations, Idioms and Word Formation",
+    summary: "A mixed review of Units 9 to 11: verb, adjective and adverb collocations, dependent prepositions, idioms with true and false Spanish equivalents, prefixes and suffixes, and the false friends that still catch Advanced learners.",
     duration: "12 min",
     sections: [
       {
@@ -1270,7 +1270,7 @@ export const EN_C1_U17: Lesson[] = [
     slug: "c1-level-review-register-writing",
     level: "EN-C1",
     number: 6,
-    title: "C1 Review: Register, Emails and Formal Writing",
+    title: "Advanced Review: Register, Emails and Formal Writing",
     summary: "A mixed review of Units 12 to 14: choosing the right register, polite indirectness, formal email formulas, and the language of essays, reports and proposals, with the email slips Spanish speakers make most.",
     duration: "12 min",
     sections: [
@@ -1500,7 +1500,7 @@ export const EN_C1_U17: Lesson[] = [
           "Uses \"I look forward to hearing from you\" (with -ing) and a matching formal closing",
           "Keeps a consistent formal register (no contractions or slang)",
         ],
-        modelAnswer: "Dear Sir or Madam,\n\nI am writing to enquire about your evening English courses. I am currently at an upper-intermediate level and would like to prepare for the C1 exam.\n\nI would be grateful if you could tell me which levels are available, how much the course costs and when the next term starts. I would also like to know whether there is a placement test.\n\nI look forward to hearing from you.\n\nYours faithfully,\nLucia Herrera",
+        modelAnswer: "Dear Sir or Madam,\n\nI am writing to enquire about your evening English courses. I am currently at an upper-intermediate level and would like to prepare for the Advanced exam.\n\nI would be grateful if you could tell me which levels are available, how much the course costs and when the next term starts. I would also like to know whether there is a placement test.\n\nI look forward to hearing from you.\n\nYours faithfully,\nLucia Herrera",
         explanation: "The email follows the classic structure: greeting, purpose, indirect requests, closing formula and a sign-off that matches \"Dear Sir or Madam\".",
       },
     ],
@@ -1509,14 +1509,14 @@ export const EN_C1_U17: Lesson[] = [
     slug: "c1-level-review-professional-varieties",
     level: "EN-C1",
     number: 7,
-    title: "C1 Review: Professional English and Varieties",
+    title: "Advanced Review: Professional English and Varieties",
     summary: "A mixed review of Units 15 and 16: the language of meetings, presentations, negotiation and video calls, and the main vocabulary, grammar and meaning differences between British, American and other Englishes.",
     duration: "12 min",
     sections: [
       {
         heading: "Meetings, presentations and calls",
         body: [
-          "Meetings: \"Could I just come in here?\" (interrupt politely), \"Sorry, I didn't catch that\", \"Let's move on to the next item\", \"I take your point, but...\", \"To sum up, ...\". Disagreement is softened: \"I'm not sure I agree\" sounds better than *I don't agree with you.",
+          "Meetings: \"Could I just come in here?\" (interrupt politely), \"Sorry, I didn't catch that\", \"Let's move on to the next item\", \"I take your point, but...\", \"To sum up, ...\". Disagreement is softened: \"I'm not sure I agree\" sounds more diplomatic than \"I don't agree with you\".",
           "Presentations: \"I'd like to start by...\", \"As you can see from this chart...\", \"That brings me to my next point\", \"I'll be happy to take questions at the end\". In negotiation: \"We could consider... provided that...\", \"That's a fair point\", \"Would you be willing to...?\".",
           "Video calls: \"You're on mute\", \"You're breaking up\", \"Can you see my screen?\", \"I'll drop off now\". «Se te corta» is \"You're breaking up\", not *You are cutting.",
         ],
@@ -1738,15 +1738,15 @@ export const EN_C1_U17: Lesson[] = [
     slug: "c1-review-b2-foundations",
     level: "EN-C1",
     number: 8,
-    title: "Review: B2 Grammar Foundations at C1",
-    summary: "A refresher of the B2 grammar that C1 builds on: third and mixed conditionals, wish and if only, passives and causative have/get, reported speech and the future continuous and perfect, all set in C1 contexts.",
+    title: "Review: Upper Intermediate Grammar Foundations at the Advanced level",
+    summary: "A refresher of the Upper Intermediate grammar that Advanced builds on: third and mixed conditionals, wish and if only, passives and causative have/get, reported speech and the future continuous and perfect, all set in Advanced contexts.",
     duration: "12 min",
     sections: [
       {
         heading: "Conditionals and wishes",
         body: [
-          "Third conditional (unreal past): \"If I had known, I would have come.\" Mixed conditional (past cause, present result): \"If I had studied medicine, I would be a doctor now.\" The \"if\" clause never takes \"would\": *If I would have known is the most persistent B2 error among Spanish speakers, because Spanish speech sometimes says «si lo habría sabido».",
-          "At C1, the same meaning often appears inverted: \"Had I known, I would have come.\" It is the same grammar with \"if\" removed.",
+          "Third conditional (unreal past): \"If I had known, I would have come.\" Mixed conditional (past cause, present result): \"If I had studied medicine, I would be a doctor now.\" The \"if\" clause never takes \"would\": *If I would have known is the most persistent Upper Intermediate error among Spanish speakers, because Spanish speech sometimes says «si lo habría sabido».",
+          "At the Advanced level, the same meaning often appears inverted: \"Had I known, I would have come.\" It is the same grammar with \"if\" removed.",
           "\"Wish\" and \"If only\" step one tense back: present regret > past (\"I wish I had more time\"), past regret > past perfect (\"If only I had listened\"). \"Wish + would\" is for complaints about other people's behaviour: \"I wish you would stop interrupting\". *I wish I would have is wrong.",
         ],
         examples: [
@@ -1798,7 +1798,7 @@ export const EN_C1_U17: Lesson[] = [
       {
         heading: "Passives and causative have/get",
         body: [
-          "The passive is everywhere in formal English: \"The results will be published next week\", \"The building is being renovated\". At C1 it combines with distancing: \"He is believed to have fled.\"",
+          "The passive is everywhere in formal English: \"The results will be published next week\", \"The building is being renovated\". At the Advanced level it combines with distancing: \"He is believed to have fled.\"",
           "Causative \"have / get something done\" means someone else does it for you: \"I had my hair cut\" (at the hairdresser's). Spanish «Me corté el pelo» is ambiguous, but \"I cut my hair\" in English means you did it yourself.",
           "The same structure describes bad experiences: \"She had her bag stolen\" («Le robaron el bolso»). *She was stolen her bag is impossible: in English you steal things, not people.",
         ],
@@ -1848,7 +1848,7 @@ export const EN_C1_U17: Lesson[] = [
       {
         heading: "Reported speech and future perfect/continuous",
         body: [
-          "Reported speech backshifts when the report is later: \"I'm tired\" > \"She said she was tired\"; \"I'll call\" > \"He said he would call\". Reported questions use statement order: \"She asked me where I lived\", not *where did I live. At C1, use precise reporting verbs: \"admit\", \"deny\", \"urge\", \"warn\", \"point out\".",
+          "Reported speech backshifts when the report is later: \"I'm tired\" > \"She said she was tired\"; \"I'll call\" > \"He said he would call\". Reported questions use statement order: \"She asked me where I lived\", not *where did I live. At the Advanced level, use precise reporting verbs: \"admit\", \"deny\", \"urge\", \"warn\", \"point out\".",
           "Future continuous = an action in progress at a future moment: \"This time tomorrow I'll be flying to Lima.\" Future perfect = completed before a future point: \"By 2030 we will have reduced emissions by half.\" Spanish uses «habremos» too, but learners often forget \"have\" after \"will\".",
         ],
         examples: [
@@ -2027,7 +2027,7 @@ export const EN_C1_U17: Lesson[] = [
     slug: "c1-review-spanish-interference",
     level: "EN-C1",
     number: 9,
-    title: "Review: Top Spanish-Speaker Errors at C1",
+    title: "Review: Top Spanish-Speaker Errors at the Advanced level",
     summary: "The most persistent interference errors of the level in one place: Es que, creo que sí, suggest someone to, the society, uncountable nouns, false friends and calqued collocations, with the unit to revisit for each.",
     duration: "12 min",
     sections: [
@@ -2119,7 +2119,7 @@ export const EN_C1_U17: Lesson[] = [
       {
         heading: "False friends and calqued collocations",
         body: [
-          "False friends that survive into C1 (Unit 11): \"actually\" (en realidad), \"eventually\" (al final), \"assist\" (ayudar), \"attend\" (asistir), \"realize\" (darse cuenta), \"sensible\" (sensato), \"embarrassed\" (avergonzado), \"career\" (trayectoria profesional) vs «carrera» (degree), \"commitment\" (compromiso).",
+          "False friends that survive into de nivel Avanzado (Unit 11): \"actually\" (en realidad), \"eventually\" (al final), \"assist\" (ayudar), \"attend\" (asistir), \"realize\" (darse cuenta), \"sensible\" (sensato), \"embarrassed\" (avergonzado), \"career\" (trayectoria profesional) vs «carrera» (degree), \"commitment\" (compromiso).",
           "Calqued collocations (Unit 9): *make a question > \"ask a question\"; *lose the bus > \"miss the bus\"; *have reason > \"be right\"; *make a party > \"have / throw a party\"; *give a walk > \"go for a walk\".",
         ],
         examples: [
@@ -2316,14 +2316,14 @@ export const EN_C1_U17: Lesson[] = [
     slug: "c1-review-dialogue-lab",
     level: "EN-C1",
     number: 10,
-    title: "Dialogue Lab: Speaking Naturally at C1",
+    title: "Dialogue Lab: Speaking Naturally at the Advanced level",
     summary: "Complete and rebuild real conversations that combine spoken discourse markers, ellipsis, clefts for correction, hedging and polite disagreement, so you sound fluent rather than bookish (Units 2, 4, 5, 6 and 12).",
     duration: "12 min",
     sections: [
       {
         heading: "Speak, don't write",
         body: [
-          "Many C1 learners sound like a textbook when they speak: \"Furthermore, I consider that the proposal is inadequate.\" In conversation, written connectors are replaced by spoken ones: \"Also\", \"Plus\", \"And another thing\", \"Anyway\", \"I mean\", \"Mind you\", \"To be honest\".",
+          "Many Advanced learners sound like a textbook when they speak: \"Furthermore, I consider that the proposal is inadequate.\" In conversation, written connectors are replaced by spoken ones: \"Also\", \"Plus\", \"And another thing\", \"Anyway\", \"I mean\", \"Mind you\", \"To be honest\".",
           "Short answers with ellipsis are the norm (Unit 4): \"Have you finished?\" \"Nearly.\" \"Coming tonight?\" \"Can't, sorry.\" Full sentences in every reply sound stiff or even annoyed.",
           "Markers also buy you time while you think: \"Well...\", \"Let me see...\", \"How can I put it...\". They are far more natural than a silent pause or Spanish «eh...».",
         ],
@@ -2394,7 +2394,7 @@ export const EN_C1_U17: Lesson[] = [
       {
         heading: "Putting it together",
         body: [
-          "A natural C1 exchange combines all of this: a marker to start, a short answer, a hedge, and a polite turn. Read the examples aloud and notice how few formal connectors appear.",
+          "A natural Advanced exchange combines all of this: a marker to start, a short answer, a hedge, and a polite turn. Read the examples aloud and notice how few formal connectors appear.",
           "Stress and intonation do much of the work: a falling tone on \"Absolutely\" sounds sincere; a rising \"Really?\" invites the other person to continue.",
         ],
         examples: [
@@ -2546,13 +2546,13 @@ export const EN_C1_U17: Lesson[] = [
     level: "EN-C1",
     number: 11,
     title: "Text Detective: Analysing an Authentic Text",
-    summary: "Read a short article about remote work and spot the C1 features in it: inversion, clefts, hedging, nominalisation and discourse markers, with a pointer to the unit to revisit for each.",
+    summary: "Read a short article about remote work and spot the Advanced features in it: inversion, clefts, hedging, nominalisation and discourse markers, with a pointer to the unit to revisit for each.",
     duration: "12 min",
     sections: [
       {
         heading: "The text: paragraph 1",
         body: [
-          "Read the first paragraph of an article about remote work, sentence by sentence. Each sentence contains at least one C1 feature from this level.",
+          "Read the first paragraph of an article about remote work, sentence by sentence. Each sentence contains at least one Advanced feature from this level.",
           "Notice the opening: a negative inversion (Unit 1) grabs attention, and a nominalisation (Unit 3) packs a whole event into a noun phrase.",
         ],
         examples: [
@@ -2777,7 +2777,7 @@ export const EN_C1_U17: Lesson[] = [
       {
         heading: "Open cloze: the small words",
         body: [
-          "Open cloze tasks test grammar words: auxiliaries, prepositions, relatives, articles and linkers. At C1 the gaps often hide inversion (\"Not only DID\"), clefts (\"It WAS\"), fixed phrases (\"as LONG as\", \"in SPITE of\") and dependent prepositions (Units 1, 2, 6 and 9).",
+          "Open cloze tasks test grammar words: auxiliaries, prepositions, relatives, articles and linkers. At the Advanced level the gaps often hide inversion (\"Not only DID\"), clefts (\"It WAS\"), fixed phrases (\"as LONG as\", \"in SPITE of\") and dependent prepositions (Units 1, 2, 6 and 9).",
           "Read the whole sentence first, decide what class of word is missing, then check the words on both sides of the gap.",
         ],
         examples: [
@@ -2811,7 +2811,7 @@ export const EN_C1_U17: Lesson[] = [
         heading: "Word formation",
         body: [
           "Word formation tasks give you a root and a gap: decide the word class (noun, adjective, adverb, verb), then whether it needs a negative prefix or a plural (Units 3 and 11).",
-          "Common C1 targets: \"reliable\" > \"unreliable\", \"reliability\"; \"able\" > \"ability\", \"unable\", \"enable\"; \"decide\" > \"decision\", \"decisive\", \"indecisive\"; \"compete\" > \"competition\", \"competitive\", \"competitor\".",
+          "Common Advanced targets: \"reliable\" > \"unreliable\", \"reliability\"; \"able\" > \"ability\", \"unable\", \"enable\"; \"decide\" > \"decision\", \"decisive\", \"indecisive\"; \"compete\" > \"competition\", \"competitive\", \"competitor\".",
         ],
         examples: [
           { es: "The company has become much more competitive.", en: "La empresa se ha vuelto mucho más competitiva." },
@@ -2834,7 +2834,7 @@ export const EN_C1_U17: Lesson[] = [
       {
         heading: "Key-word transformations",
         body: [
-          "A key-word transformation asks you to say the same thing with a given word. At C1 the answer usually involves one of the level's big structures: inversion, a cleft, a passive with a perfect infinitive, a mixed conditional, \"wish\", or a fixed phrase.",
+          "A key-word transformation asks you to say the same thing with a given word. At the Advanced level the answer usually involves one of the level's big structures: inversion, a cleft, a passive with a perfect infinitive, a mixed conditional, \"wish\", or a fixed phrase.",
           "Typical pairs: \"I didn't know, so I didn't call\" > \"Had I known, I would have called\"; \"People say he is rich\" > \"He is said to be rich\"; \"I regret not studying\" > \"I wish I had studied\".",
         ],
         examples: [

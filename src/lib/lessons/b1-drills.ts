@@ -7879,7 +7879,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
     "el-correo-sospechoso",
     "b1d-rep-mezcla-dictado",
     "Dictado: repaso acumulativo",
-    "Repaso espaciado: frases que mezclan todos los temas de B1.",
+    "Repaso espaciado: frases que mezclan todos los temas del nivel Intermedio.",
     "6 min",
     [
       sec(
@@ -8369,7 +8369,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
   L(
     "los-libros-para-rosa",
     "b1d-rep-mezcla-ronda-final",
-    "Ronda rápida: B1 en diez segundos",
+    "Ronda rápida: Intermedio en diez segundos",
     "Repaso espaciado: una pregunta por tema, sin pausa.",
     "5 min",
     [
@@ -8817,7 +8817,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
     "el-aula-bajo-el-puente",
     "b1d-rep-mezcla-corrige-final",
     "Corrige el párrafo: la redacción final",
-    "Repaso espaciado: un error de cada tema de B1.",
+    "Repaso espaciado: un error de cada tema del nivel Intermedio.",
     "7 min",
     [
       sec(
@@ -8854,7 +8854,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
     "el-fotografo-accidental",
     "b1d-rep-mezcla-habla-de-ti-final",
     "Habla de ti: tu año en español",
-    "Repaso espaciado: cuenta tu progreso con todos los tiempos de B1.",
+    "Repaso espaciado: cuenta tu progreso con todos los tiempos del nivel Intermedio.",
     "7 min",
     [
       sec(
@@ -8881,7 +8881,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
   L(
     "el-rio-que-nos-enseno",
     "b1d-rep-mezcla-circuito-final",
-    "Circuito acumulativo: examen final de B1",
+    "Circuito acumulativo: examen final del nivel Intermedio",
     "Repaso espaciado: el último circuito con todos los temas del nivel.",
     "8 min",
     [

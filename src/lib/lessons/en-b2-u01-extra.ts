@@ -1032,7 +1032,7 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
     level: "EN-B2",
     number: 5,
     title: "Extra Practice: Tricky Past Participles",
-    summary: "Speed drill of irregular past forms and participles at B2 (chose/chosen, fell/fallen, rose/risen, forbade/forbidden, sought), the lie/lay and rise/raise traps, and *had went.",
+    summary: "Speed drill of irregular past forms and participles at the Upper Intermediate level (chose/chosen, fell/fallen, rose/risen, forbade/forbidden, sought), the lie/lay and rise/raise traps, and *had went.",
     duration: "10 min",
     sections: [
       {

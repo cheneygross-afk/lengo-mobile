@@ -1461,7 +1461,7 @@ export const EN_B1_U13: Lesson[] = [
     slug: "b1-error-hunt-modals-mixed",
     level: "EN-B1",
     number: 6,
-    title: "Error Hunt: Modals Across B1",
+    title: "Error Hunt: Modals Across the Independence level",
     summary: "Find and fix the modal mistakes Spanish speakers make most: to after modals, he cans, do you can, will can and wrong past forms.",
     duration: "11 min",
     sections: [

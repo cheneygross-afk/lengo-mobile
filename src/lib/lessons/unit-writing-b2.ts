@@ -175,7 +175,7 @@ export const B2_UNIT_WRITING: Record<string, WriteExercise> = {
   "b2r-challenge-subjunctive-gauntlet": t(
     "Escribe un correo a un estudiante de B2 para contarle cómo superaste las dificultades del nivel. Incluye subjuntivo, condicionales y estilo indirecto.",
     ["Subjuntivo (te recomiendo que, aunque, cuando…)", "Una oración condicional irreal", "Estilo indirecto (mi profesora me dijo que…)", "Registro informal y bien organizado"],
-    "Hola, Leo: Me preguntaste cómo superé el B2 y te cuento. Lo más difícil para mí fueron las oraciones condicionales. Mi profesora me dijo que leyera mucho y que escribiera un diario en español, y funcionó. Si no lo hubiera hecho, seguiría confundiendo tuviera y tendría. Te recomiendo que escuches pódcast cuando vayas en el transporte y que no te desanimes aunque cometas errores. ¡Ánimo, que lo vas a conseguir!",
+    "Hola, Leo: Me preguntaste cómo superé el nivel Avanzado y te cuento. Lo más difícil para mí fueron las oraciones condicionales. Mi profesora me dijo que leyera mucho y que escribiera un diario en español, y funcionó. Si no lo hubiera hecho, seguiría confundiendo tuviera y tendría. Te recomiendo que escuches pódcast cuando vayas en el transporte y que no te desanimes aunque cometas errores. ¡Ánimo, que lo vas a conseguir!",
     "Estilo indirecto con petición: me dijo que leyera. Condicional mixta: si no lo hubiera hecho, seguiría. Cuando y aunque + subjuntivo para lo futuro o no comprobado."
   ),
 };

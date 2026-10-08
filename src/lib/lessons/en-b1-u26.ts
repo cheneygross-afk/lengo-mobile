@@ -15,7 +15,7 @@ export const EN_B1_U26: Lesson[] = [
       {
         heading: "Two positions for a noun",
         body: [
-          "At A2 you met phrasal verbs like \"turn on\" and \"put on\": a verb plus a small word (a particle) such as \"on\", \"off\", \"up\" or \"back\". Many of them are separable: the object can go after the particle or between the verb and the particle.",
+          "At the Gaining Fluency level you met phrasal verbs like \"turn on\" and \"put on\": a verb plus a small word (a particle) such as \"on\", \"off\", \"up\" or \"back\". Many of them are separable: the object can go after the particle or between the verb and the particle.",
           "With a noun, both orders are correct: \"Turn off the TV\" and \"Turn the TV off\" mean exactly the same. In conversation, the middle position is very common with short objects: \"Take your shoes off\".",
           "Spanish has nothing like this, so learners often feel that the second order is strange or wrong. It isn't: native speakers use both all the time.",
         ],
@@ -995,14 +995,14 @@ export const EN_B1_U26: Lesson[] = [
     level: "EN-B1",
     number: 5,
     title: "Make vs Do",
-    summary: "Spanish «hacer» has two main translations. Learn the B1 collocations with \"make\" and \"do\", and the cases where «hacer» is neither: \"take a photo\", \"play sports\", \"ask a question\".",
+    summary: "Spanish «hacer» has two main translations. Learn the Independence collocations with \"make\" and \"do\", and the cases where «hacer» is neither: \"take a photo\", \"play sports\", \"ask a question\".",
     duration: "12 min",
     sections: [
       {
         heading: "The general idea",
         body: [
-          "At A2 you saw the basic rule: \"make\" is for creating or producing something (\"make a cake\", \"make dinner\"), and \"do\" is for activities, tasks and work (\"do homework\", \"do the laundry\").",
-          "At B1 the rule helps, but it isn't enough. Many combinations are fixed collocations: \"make a mistake\" and \"do a favor\" just have to be learned. Native speakers don't think about it; they have heard them thousands of times.",
+          "At the Gaining Fluency level you saw the basic rule: \"make\" is for creating or producing something (\"make a cake\", \"make dinner\"), and \"do\" is for activities, tasks and work (\"do homework\", \"do the laundry\").",
+          "At the Independence level the rule helps, but it isn't enough. Many combinations are fixed collocations: \"make a mistake\" and \"do a favor\" just have to be learned. Native speakers don't think about it; they have heard them thousands of times.",
           "A useful tip: \"do\" is often used with general words like \"something\", \"anything\", \"nothing\", \"everything\" and with \"-ing\" activities: \"I didn't do anything\", \"do the cooking\", \"do the shopping\".",
         ],
         examples: [

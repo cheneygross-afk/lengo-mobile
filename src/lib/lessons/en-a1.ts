@@ -54,9 +54,9 @@ const UNITS: EnglishUnitDef[] = [
   { id: "u5", title: "Posesivos, números y la hora", description: "My, his, her y el genitivo 's, preposiciones de lugar, números, precios y la hora.", lessons: [...EN_A1_U5, ...EN_A1_U5_MORE, ...EN_A1_U5_EXTRA] },
   { id: "u6", title: "Fechas, familia y preguntas", description: "Días, meses y fechas, la familia y las palabras interrogativas.", lessons: [...EN_A1_U6, ...EN_A1_U6_MORE, ...EN_A1_U6_EXTRA] },
   { id: "u7", title: "Like, can, have y there is", description: "Hablar de gustos, de lo que sabes hacer, de lo que tienes y de lo que hay.", lessons: [...EN_A1_U7, ...EN_A1_U7_MORE, ...EN_A1_U7_EXTRA] },
-  { id: "u8", title: "This, that y el A1 hasta ahora", description: "Demostrativos, pronombres de objeto, el imperativo y un repaso en espiral.", lessons: [...EN_A1_U8, ...EN_A1_U8_MORE, ...EN_A1_U8_EXTRA] },
-  { id: "u9", title: "Repaso final de A1", description: "Repaso completo del nivel antes de pasar a A2.", lessons: [...EN_A1_U9, ...EN_A1_U9_MORE] },
-  { id: "u10", title: "Desafíos y examen de salida del A1", description: "Retos que mezclan todo el A1 y el examen para pasar a A2.", lessons: EN_A1_U10 },
+  { id: "u8", title: "This, that y el nivel Fundamentos hasta ahora", description: "Demostrativos, pronombres de objeto, el imperativo y un repaso en espiral.", lessons: [...EN_A1_U8, ...EN_A1_U8_MORE, ...EN_A1_U8_EXTRA] },
+  { id: "u9", title: "Repaso final del nivel Fundamentos", description: "Repaso completo del nivel antes de pasar al nivel Ganando fluidez.", lessons: [...EN_A1_U9, ...EN_A1_U9_MORE] },
+  { id: "u10", title: "Desafíos y examen de salida del nivel Fundamentos", description: "Retos que mezclan todo el nivel Fundamentos y el examen para pasar al nivel Ganando fluidez.", lessons: EN_A1_U10 },
 ];
 
 const LEVEL = buildEnglishLevel("en/a1", UNITS);

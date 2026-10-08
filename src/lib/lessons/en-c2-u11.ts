@@ -15,7 +15,7 @@ export const EN_C2_U11: Lesson[] = [
       {
         heading: "Let the context do the work",
         body: [
-          "At C2 you will still meet words you have never seen: \"obdurate\", \"lugubrious\", \"to hector\". Native speakers meet them too, and they rarely reach for a dictionary. They guess from context, and they usually guess well enough to keep reading.",
+          "At the Mastery level you will still meet words you have never seen: \"obdurate\", \"lugubrious\", \"to hector\". Native speakers meet them too, and they rarely reach for a dictionary. They guess from context, and they usually guess well enough to keep reading.",
           "Context gives four main kinds of clue: a definition or paraphrase (\"He was obdurate, refusing to change his mind however hard we pushed\"), a contrast (\"Far from being taciturn, she talked all evening\"), an example (\"ephemera such as tickets, flyers and old menus\") and cause and effect (\"The lecture was so soporific that half the room nodded off\").",
           "Look for the signal words that announce each clue: \"that is\", \"in other words\" and dashes for definitions; \"far from\", \"unlike\", \"whereas\" and \"rather than\" for contrast; \"such as\" and \"including\" for examples; \"so... that\", \"as a result\" and \"which is why\" for cause.",
         ],
@@ -305,7 +305,7 @@ export const EN_C2_U11: Lesson[] = [
         heading: "The markers of register",
         body: [
           "Register is how formal or informal language is. English has no «tú» and «usted», so it marks register through vocabulary and grammar. Formal English prefers Latin-based verbs (\"obtain\", \"commence\", \"reside\"), the passive, nominalisations and full forms. Informal English prefers phrasal verbs (\"get\", \"start\", \"live\"), contractions, vague language (\"and stuff\", \"or whatever\") and slang.",
-          "Most texts stay in one register. That is exactly why a sudden shift is meaningful: when a speaker or writer jumps up or down, it is almost always deliberate, and at C2 you are expected to notice it and interpret it.",
+          "Most texts stay in one register. That is exactly why a sudden shift is meaningful: when a speaker or writer jumps up or down, it is almost always deliberate, and at the Mastery level you are expected to notice it and interpret it.",
           "Spanish speakers face an extra trap: \"commence\" («comenzar»), \"reside\" («residir»), \"terminate\" («terminar») and \"edifice\" («edificio») feel neutral to you because their Spanish twins are everyday words. In English they are formal or even pompous, so in a text they may be signalling distance or irony.",
         ],
         examples: [
@@ -437,7 +437,7 @@ export const EN_C2_U11: Lesson[] = [
         heading: "Reading the relationship",
         body: [
           "Register also tells you about the relationship between people, and how it changes. In a novel or a meeting, notice when someone moves from \"Mr Hughes\" to \"David\", or from \"Would you mind...?\" to \"Can you...?\", or the other way round. Moving down usually means growing closeness; moving up, a cooling or a conflict.",
-          "When you spot a shift, ask three questions. Is it deliberate? Who is it aimed at? What attitude does it reveal: humour, contempt, affection, anger? The answer is often the real point of the passage, and C2 comprehension questions love to test it.",
+          "When you spot a shift, ask three questions. Is it deliberate? Who is it aimed at? What attitude does it reveal: humour, contempt, affection, anger? The answer is often the real point of the passage, and Mastery comprehension questions love to test it.",
         ],
         examples: [
           { es: "Mr Hughes, could I possibly have a word?", en: "Señor Hughes, ¿podría hablar un momento con usted?" },
@@ -1470,7 +1470,7 @@ export const EN_C2_U11: Lesson[] = [
         ],
         examples: [
           { es: "We live in a flat on the second floor. The lift is broken. (UK)", en: "Vivimos en un piso en la segunda planta. El ascensor está estropeado." },
-          { es: "Take out the trash and grab some cookies on the way back. (US)", en: "Saca la basura y coge unas galletas a la vuelta." },
+          { es: "Take out the trash and grab some cookies on the way back. (US)", en: "Saca la basura y trae unas galletas a la vuelta." },
           { es: "See you this arvo at the servo. (Australia)", en: "Nos vemos esta tarde en la gasolinera." },
           { es: "Put on your toque, it's freezing outside. (Canada)", en: "Ponte el gorro, que hace un frío que pela." },
           { es: "How are you? I'm grand, thanks. (Ireland)", en: "¿Qué tal? Bien, gracias." },
@@ -1792,7 +1792,7 @@ export const EN_C2_U11: Lesson[] = [
           {
             type: "multiple-choice",
             question: "You hear something like \"I ask tim if ee'd see ner.\" What did the speaker say?",
-            options: ["I asked him if he'd seen her.", "I asked Tim if he'd seen her.", "I ask Tim if he sees her.", "I asked him if he'd seen Ner."],
+            options: ["I asked him if he'd seen her.", "I asked him if he's seen her.", "I ask Tim if he sees her.", "I asked him if he'd seen Ner."],
             correctIndex: 0,
             explanation: "The /t/ of \"asked\" links to \"him\" (whose /h/ is dropped), and the /n/ of \"seen\" links to \"her\". Grammar rules out the other options: \"if he'd\" needs a past participle, \"seen\".",
           },
@@ -2287,9 +2287,9 @@ export const EN_C2_U11: Lesson[] = [
         ],
       },
       {
-        heading: "Deceptive cognates at C2",
+        heading: "Deceptive cognates at the Mastery level",
         body: [
-          "You already know the classic traps (\"actual\", \"eventual\", \"sensible\", \"embarrassed\", \"library\"). At C2 the traps are subtler, and they often appear in exactly the kind of formal text where you rely on cognates most.",
+          "You already know the classic traps (\"actual\", \"eventual\", \"sensible\", \"embarrassed\", \"library\"). At the Mastery level the traps are subtler, and they often appear in exactly the kind of formal text where you rely on cognates most.",
           "\"Fastidious\" means very careful about details, not «fastidioso» (\"annoying\"). \"Sanguine\" means optimistic, not «sanguinario». \"Ingenuity\" is cleverness, «ingenio», not «ingenuidad» (\"naivety\"). \"To prevaricate\" is to avoid giving a straight answer, not «prevaricar», which is a crime committed by a public official. \"Terrific\" means excellent, and a \"commodity\" is a raw material or basic product, not «comodidad».",
           "Some cognates are only half false: \"sympathetic\" means «comprensivo» or «compasivo», and comes close to «simpático» only in a few contexts (a \"sympathetic character\" in a novel is one the reader warms to). «Simpático» in the everyday sense is \"nice\", \"friendly\" or \"likeable\".",
         ],
@@ -2488,8 +2488,8 @@ export const EN_C2_U11: Lesson[] = [
     slug: "c2-strategies-spiral-review",
     level: "EN-C2",
     number: 8,
-    title: "Spiral review: strategies with C1 grammar",
-    summary: "Apply the unit's strategies to dense texts full of C1 grammar: reduced relative clauses, participle clauses, inversion and nominalisation.",
+    title: "Spiral review: strategies with Advanced grammar",
+    summary: "Apply the unit's strategies to dense texts full of Advanced grammar: reduced relative clauses, participle clauses, inversion and nominalisation.",
     duration: "12 min",
     sections: [
       {

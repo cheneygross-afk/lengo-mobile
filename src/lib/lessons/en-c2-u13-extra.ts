@@ -83,7 +83,7 @@ export const EN_C2_U13_EXTRA: Lesson[] = [
         examples: [
           { es: "I suggest that he contact the embassy.", en: "Sugiero que se ponga en contacto con la embajada. (incorrecto: *I suggest him to contact)" },
           { es: "I suggest that he should contact the embassy.", en: "Sugiero que se ponga en contacto con la embajada. (variante británica)" },
-          { es: "She suggested taking a taxi.", en: "Sugirió coger un taxi." },
+          { es: "She suggested taking a taxi.", en: "Sugirió tomar un taxi." },
           { es: "I'd recommend booking in advance.", en: "Recomendaría reservar con antelación." },
         ],
         checkpoint: [
@@ -128,7 +128,7 @@ export const EN_C2_U13_EXTRA: Lesson[] = [
           "The doctor told him to stop smoking.",
           "The doctor told her to stop smoking.",
         ],
-        explanation: "\"Recommend that he stop\": base form, no backshift. *Recommended him to stop is a calque; if you want an object + infinitive, use \"advise\".",
+        explanation: "\"Recommend that he stop\": base form, no backshift. \"Recommended him to stop\" is British only and best avoided; if you want an object + infinitive, use \"advise\".",
       },
       {
         type: "fill-blank",

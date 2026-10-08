@@ -364,7 +364,7 @@ export const EN_C1_U13_EXTRA: Lesson[] = [
           "Add \"Mrs.\" before \"Ms.\".",
         ],
         correctIndex: 0,
-        explanation: "English puts a comma after the greeting, and the body starts on a new line with a capital letter. The colon is the Spanish habit («Estimada Sra. Carter:»).",
+        explanation: "Use a comma after the greeting (American business letters may also use a colon), and always start the body on a new line with a capital letter. Running on after the colon is the Spanish habit («Estimada Sra. Carter:»).",
       },
       {
         type: "fill-blank",
@@ -655,7 +655,7 @@ export const EN_C1_U13_EXTRA: Lesson[] = [
           "Mentions the attachment correctly (\"Please find attached...\", not *I attach you)",
           "Ends with \"I look forward to hearing from you.\" and a sign-off that matches the opening",
         ],
-        modelAnswer: "Dear Admissions Team,\n\nI am writing to enquire about your intensive summer course in English. I would be grateful if you could tell me the exact dates of the July and August sessions and the total price, including materials.\n\nI am currently at B2 level and would like to reach C1 before applying to a university abroad. Please find attached my most recent certificate so that you can place me in the right group.\n\nCould you also let me know whether accommodation with a host family is available?\n\nThank you in advance for your help. I look forward to hearing from you.\n\nKind regards,\nAndrea Molina",
+        modelAnswer: "Dear Admissions Team,\n\nI am writing to enquire about your intensive summer course in English. I would be grateful if you could tell me the exact dates of the July and August sessions and the total price, including materials.\n\nI am currently at the Upper Intermediate level level and would like to reach Advanced before applying to a university abroad. Please find attached my most recent certificate so that you can place me in the right group.\n\nCould you also let me know whether accommodation with a host family is available?\n\nThank you in advance for your help. I look forward to hearing from you.\n\nKind regards,\nAndrea Molina",
         explanation: "A model of a short formal enquiry: clear purpose, polite requests, a correct attachment line and a closing that matches the opening.",
       },
     ],

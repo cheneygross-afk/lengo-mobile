@@ -1297,7 +1297,7 @@ export const EN_C2_U24_EXTRA: Lesson[] = [
         sentence: "The treaty was ___ to be signed when news of the assassination arrived.",
         answer: "about",
         altAnswers: ["just about"],
-        en: "El tratado [estaba a punto de] firmarse cuando llegó la noticia del asesinato.",
+        en: "El tratado estaba [a punto de] firmarse cuando llegó la noticia del asesinato.",
         explanation: "\"Be about to\" + infinitive = «estar a punto de». Passive infinitive: \"about to be signed\".",
       },
       {

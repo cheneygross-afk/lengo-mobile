@@ -18,7 +18,7 @@ export const EN_C2_U03: Lesson[] = [
         body: [
           "English has three basic frames for pain, and none of them is a word-for-word copy of Spanish. The body part can be the subject of \"hurt\": \"My back hurts\", \"My feet are killing me\". The person can \"have a pain in\" a body part: \"I have a pain in my chest\", or, more clinically, \"I have chest pain\". And a handful of body parts take the suffix -ache: \"headache\", \"stomachache\", \"toothache\", \"earache\", \"backache\".",
           "The classic Spanish-speaker error is to copy «me duele la cabeza» with an object pronoun: *My head hurts me. In English, \"hurt\" with a body part as subject takes no object: \"My head hurts\". \"Hurt me\" exists, but it means that something or someone caused you pain: \"These shoes hurt me\", \"You're hurting me!\".",
-          "Equally, «tengo dolor de cabeza» is not *I have pain of head. The -ache words are countable and take \"a\": \"I have a headache\", \"She's got a toothache\" (American English often drops the article with \"toothache\" and \"stomachache\", but \"a headache\" always keeps it). For body parts without an -ache word, use \"a pain in\" with a possessive: \"a pain in my knee\", never *a pain in the knee of me or *pain of knee.",
+          "Equally, «tengo dolor de cabeza» is not *I have pain of head. The -ache words are countable and take \"a\": \"I have a headache\", \"She's got a toothache\" (British English often drops the article with \"toothache\" and \"stomachache\", but \"a headache\" always keeps it). For body parts without an -ache word, use \"a pain in\" with a possessive: \"a pain in my knee\", never *a pain in the knee of me or *pain of knee.",
           "Remember that English uses possessives with body parts where Spanish uses the article: «me he roto el brazo» is \"I've broken my arm\", and «le duele la espalda» is \"His back hurts\" or \"Her back hurts\".",
         ],
         examples: [
@@ -420,7 +420,7 @@ export const EN_C2_U03: Lesson[] = [
         body: [
           "The same split applies to anatomy. Patients say \"collarbone\", \"breastbone\", \"shoulder blade\", \"kneecap\", \"belly button\", \"windpipe\" and \"voice box\"; doctors write \"clavicle\", \"sternum\", \"scapula\", \"patella\", \"umbilicus\", \"trachea\" and \"larynx\".",
           "And to common complaints: \"heartburn\" / \"acid reflux\" (clinically GERD in the US, GORD in the UK); \"German measles\" / \"rubella\"; \"pins and needles\" / \"paresthesia\"; \"bedsore\" / \"pressure ulcer\"; \"water on the knee\" / \"knee effusion\"; \"the runs\" (very informal) / \"diarrhea\".",
-          "Some patient words are vague and need clarifying: \"a growth\" or \"a lump\" can be anything from a cyst to a tumor; \"my waterworks\" (British, informal) means the urinary system; \"tummy\" is a childish or friendly word for the stomach or abdomen. At C2 you should understand these and know when to ask \"What exactly do you mean by...?\".",
+          "Some patient words are vague and need clarifying: \"a growth\" or \"a lump\" can be anything from a cyst to a tumor; \"my waterworks\" (British, informal) means the urinary system; \"tummy\" is a childish or friendly word for the stomach or abdomen. At the Mastery level you should understand these and know when to ask \"What exactly do you mean by...?\".",
         ],
         examples: [
           { es: "I think I've broken my collarbone.", en: "Creo que me he roto la clavícula." },
@@ -532,7 +532,7 @@ export const EN_C2_U03: Lesson[] = [
           "Have you ever had chickenpox? If not, shingles isn't contagious, but chickenpox is.",
           "Have you had chickenpox? If not, shingles isn't catching, but chickenpox is.",
         ],
-        explanation: "For a patient, \"chickenpox\" and \"shingles\" are the right words; \"varicella\" and \"herpes zoster\" would confuse. Note that \"shingles\" takes a singular verb: \"shingles isn't contagious\".",
+        explanation: "For a patient, \"chickenpox\" and \"shingles\" are the right words; \"varicella\" and \"herpes zoster\" would confuse. Note that \"shingles\" takes a singular verb: \"shingles is caused by the chickenpox virus\".",
       },
       {
         type: "matching",
@@ -688,7 +688,7 @@ export const EN_C2_U03: Lesson[] = [
         heading: "Exploring the symptom",
         body: [
           "Doctors then explore the symptom with a predictable set of questions. Getting the auxiliary right under pressure is the challenge: \"Does anything make it better or worse?\", \"Have you noticed anything that triggers it?\", \"Did it come on suddenly?\", \"Is it there all the time?\", \"Have you had anything like this before?\".",
-          "Questions without an auxiliary, the most frequent C2 slip in fast speech, sound uneducated: *What makes it worse it? or *You have had this before? (rising intonation only works in very informal speech). Keep the inversion: auxiliary + subject + verb.",
+          "Questions without an auxiliary, the most frequent Mastery slip in fast speech, sound uneducated: *What makes it worse it? or *You have had this before? (rising intonation only works in very informal speech). Keep the inversion: auxiliary + subject + verb.",
           "Associated symptoms are asked with \"any\": \"Any nausea or vomiting?\", \"Any fever?\", \"Any shortness of breath?\". These verbless questions are standard in clinical English and perfectly correct; they are short for \"Have you had any...?\".",
         ],
         examples: [
@@ -1323,7 +1323,7 @@ export const EN_C2_U03: Lesson[] = [
         heading: "The verbless style",
         body: [
           "Notes and summaries leave out articles, subjects and often verbs. \"The patient was alert and oriented\" becomes \"Alert and oriented\". \"There was no evidence of infection\" becomes \"No evidence of infection\". \"She was started on antibiotics\" becomes \"Started on IV antibiotics\".",
-          "The style is nominal: actions become nouns. \"Improvement in symptoms\", \"Resolution of fever by day 3\", \"Good response to treatment\". This is the same nominalization you studied at C1, pushed to its limit.",
+          "The style is nominal: actions become nouns. \"Improvement in symptoms\", \"Resolution of fever by day 3\", \"Good response to treatment\". This is the same nominalization you studied at the Advanced level, pushed to its limit.",
           "You must be able to read it, write it for colleagues, and above all expand it. Expanding means putting back the subject, the verb tense and the articles: \"Afebrile, obs stable\" becomes \"He no longer has a temperature, and his observations (pulse, blood pressure and so on) are stable\".",
         ],
         examples: [
@@ -2403,14 +2403,14 @@ export const EN_C2_U03: Lesson[] = [
     level: "EN-C2",
     number: 9,
     title: "Spiral review: hedging and modal deduction in medicine",
-    summary: "Recycle C1 hedging and past modal deduction in clinical contexts: \"it may well be a viral infection\", \"the symptoms are consistent with\", \"he must have been exposed\", \"it can't have been the medication\", \"it appears to be benign\". Grade statements by certainty.",
+    summary: "Recycle Advanced hedging and past modal deduction in clinical contexts: \"it may well be a viral infection\", \"the symptoms are consistent with\", \"he must have been exposed\", \"it can't have been the medication\", \"it appears to be benign\". Grade statements by certainty.",
     duration: "11 min",
     sections: [
       {
         heading: "Why medicine hedges",
         body: [
           "Diagnosis is about probability, so clinical English is full of hedges. A doctor who says \"It's a virus\" before the tests are back is overstating; one who says \"It may well be a viral infection\" is being accurate. Hedging is not vagueness: it is a precise statement of how certain you are.",
-          "The main tools you already know from C1: modal verbs (may, might, could, must, can't), adverbs (probably, possibly, almost certainly, unlikely), verbs (appear, seem, suggest, indicate), and fixed clinical phrases (\"consistent with\", \"suggestive of\", \"in keeping with\", \"we can't rule out\").",
+          "The main tools you already know from the Advanced level: modal verbs (may, might, could, must, can't), adverbs (probably, possibly, almost certainly, unlikely), verbs (appear, seem, suggest, indicate), and fixed clinical phrases (\"consistent with\", \"suggestive of\", \"in keeping with\", \"we can't rule out\").",
           "Spanish has the same resources («podría tratarse de», «es compatible con», «no se puede descartar»), but the collocations differ. «Compatible con» is \"consistent with\" or \"in keeping with\" far more often than \"compatible with\".",
         ],
         examples: [
@@ -2499,7 +2499,7 @@ export const EN_C2_U03: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Debió de coger la infección en el hospital.",
+            source: "Debió de contraer la infección en el hospital.",
             answer: "She must have caught the infection in hospital.",
             altAnswers: [
               "He must have caught the infection in hospital.",

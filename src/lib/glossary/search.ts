@@ -8,6 +8,7 @@
 // data as an argument rather than importing it.
 
 import { findByForm } from "../conjugation/lookup";
+import { withoutLevelCodes } from "../lessons/levels";
 
 export type GlossarySourceRow = ["l" | "s", string, string, string, string, number];
 export type GlossaryEntryRow = [string, string, string, number[], number];
@@ -130,7 +131,7 @@ export function makeGlossary(sources: GlossarySourceRow[], rows: GlossaryEntryRo
 
 /** "A1 · Lesson 12: Title" or "A2 story: Title". */
 export function sourceLabel(s: GlossarySource): string {
-  if (s.kind === "story") return `${s.level} story: ${s.title}`;
-  const level = s.levelPath === "cosas-coloquiales" ? "Cosas Coloquiales" : s.level;
+  if (s.kind === "story") return `${withoutLevelCodes(s.level, s.level)} story: ${s.title}`;
+  const level = s.levelPath === "cosas-coloquiales" ? "Cosas Coloquiales" : withoutLevelCodes(s.level, s.level);
   return `${level} · Lesson ${s.number}: ${s.title}`;
 }

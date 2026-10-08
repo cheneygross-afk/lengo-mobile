@@ -17,7 +17,7 @@ export const EN_C2_U14_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: beyond although",
         body: [
-          "Spanish gets a lot of mileage out of «aunque» and «por mucho que». English at C2 has a wider toolkit, and each tool has its own grammar. \"Much as\" + clause concedes a feeling (\"Much as I admire her, I can't agree\"). \"However\" + adjective or adverb + subject + verb concedes a degree (\"However hard we tried, ...\"; \"However tempting it is, ...\").",
+          "Spanish gets a lot of mileage out of «aunque» and «por mucho que». English at the Mastery level has a wider toolkit, and each tool has its own grammar. \"Much as\" + clause concedes a feeling (\"Much as I admire her, I can't agree\"). \"However\" + adjective or adverb + subject + verb concedes a degree (\"However hard we tried, ...\"; \"However tempting it is, ...\").",
           "The fronted pattern adjective + \"as\" or \"though\" + subject + verb is formal and emphatic: \"Strange as it may seem, the plan worked.\" \"Tired though she was, she kept going.\" The adjective comes first, there is no \"so\" or \"how\" before it, and the verb stays in normal order: never *As strange it may seem.",
           "Two classic Spanish-speaker slips: *despite of (only \"in spite of\" has \"of\") and *in spite that (you need \"in spite of the fact that\", or simply \"although\"). And never combine two markers: *Although it was expensive, but we bought it.",
         ],
@@ -83,7 +83,7 @@ export const EN_C2_U14_EXTRA: Lesson[] = [
             answer: "albeit",
             altAnswers: ["though", "although", "if"],
             en: "El proyecto se terminó, [aunque] con seis meses de retraso.",
-            explanation: "Before a phrase with no verb (\"six months late\"), formal English uses \"albeit\". \"Though\" or \"although\" also work in this reduced form, but \"albeit\" is the C2 choice.",
+            explanation: "Before a phrase with no verb (\"six months late\"), formal English uses \"albeit\". \"Though\" or \"although\" also work in this reduced form, but \"albeit\" is the Mastery choice.",
           },
           {
             type: "multiple-choice",
@@ -321,7 +321,7 @@ export const EN_C2_U14_EXTRA: Lesson[] = [
           { left: "albeit briefly", right: "aunque fuera brevemente" },
           { left: "however hard we try", right: "por mucho que lo intentemos" },
         ],
-        explanation: "Each of these replaces a generic \"although\" with a more precise C2 structure.",
+        explanation: "Each of these replaces a generic \"although\" with a more precise Mastery structure.",
       },
       {
         type: "listen-choose",

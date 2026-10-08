@@ -11,10 +11,10 @@ export type { VideoTopic };
 // videos are like (learner videos at A1-B1, native media by C1-C2).
 export const WATCH_INTRO: Record<SpanishLevelPath, string> = {
   a1: "Slow, clear Spanish made for beginners, for listening practice between lessons.",
-  a2: "Easy-to-follow stories, vlogs and tips for learners at about A2 level.",
-  b1: "Intermediate videos for learners, plus real street interviews, at about B1 level.",
-  b2: "Podcasts and unscripted conversations with native speakers at about B2 level.",
-  c1: "Native-speed podcasts, interviews and talks at about C1 level.",
+  a2: "Easy-to-follow stories, vlogs and tips for learners at the Elementary level.",
+  b1: "Intermediate videos for learners, plus real street interviews, at the Intermediate level.",
+  b2: "Podcasts and unscripted conversations with native speakers, at the Advanced level.",
+  c1: "Native-speed podcasts, interviews and talks, at the Mastery level.",
   c2: "Media made for native speakers, such as BBC News Mundo explainers.",
 };
 

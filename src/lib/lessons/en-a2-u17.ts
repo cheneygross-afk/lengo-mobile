@@ -15,7 +15,7 @@ export const EN_A2_U17: Lesson[] = [
       {
         heading: "\"In\" o \"into\": estar dentro o entrar",
         body: [
-          "En el A1 viste las preposiciones de lugar, que dicen dónde está algo: \"in the box\", \"on the table\". Las de movimiento dicen hacia dónde va: \"into\" es «hacia dentro» y \"out of\" es «hacia fuera».",
+          "En el nivel Fundamentos viste las preposiciones de lugar, que dicen dónde está algo: \"in the box\", \"on the table\". Las de movimiento dicen hacia dónde va: \"into\" es «hacia dentro» y \"out of\" es «hacia fuera».",
           "Por eso «Ana entró en la cocina» se dice \"Ana went into the kitchen\" o \"Ana walked into the kitchen\". Con el verbo \"enter\" no hace falta preposición: \"Ana entered the kitchen\", nunca *entered in the kitchen. Aun así, al hablar se usa más \"go into\" o \"come into\".",
           "«Salir de» un lugar es \"go out of\" o \"get out of\", con \"of\": \"He went out of the room\". Decir *He went out the room es un error típico. Para «salir de casa» lo más natural es \"leave the house\" o \"leave home\".",
         ],
@@ -841,7 +841,7 @@ export const EN_A2_U17: Lesson[] = [
       {
         heading: "El fin de semana: \"on the weekend\"",
         body: [
-          "En el A1 viste \"in\" (meses, años), \"on\" (días) y \"at\" (horas). El fin de semana es un caso especial: en Estados Unidos se dice \"on the weekend\" o \"on weekends\"; en el Reino Unido, \"at the weekend\". Lo que no se dice nunca es \"in the weekend\".",
+          "En el nivel Fundamentos viste \"in\" (meses, años), \"on\" (días) y \"at\" (horas). El fin de semana es un caso especial: en Estados Unidos se dice \"on the weekend\" o \"on weekends\"; en el Reino Unido, \"at the weekend\". Lo que no se dice nunca es \"in the weekend\".",
           "Otros casos que confunden: \"at night\" («por la noche»), pero \"in the morning\", \"in the afternoon\" e \"in the evening\"; y \"on Monday morning\", porque un día concreto lleva \"on\".",
           "\"This\", \"next\", \"last\" y \"every\" no llevan preposición: \"See you next week\", \"I saw her last Friday\", \"We go there every summer\".",
         ],
@@ -1730,7 +1730,7 @@ export const EN_A2_U17: Lesson[] = [
         body: [
           "\"In foot\" se dice \"on foot\"; \"by the bus\" se dice \"by bus\" o \"on the bus\"; \"with the car\" se dice \"by car\" o \"in my car\".",
           "*During two hours se dice \"for two hours\": con una cantidad de tiempo, \"for\". Y si es un plazo («para el viernes»), \"by Friday\", no *until Friday.",
-          "Del A1: \"on Monday\", \"in July\", \"at five o'clock\", \"at night\", y nada de preposición con \"next\", \"last\" o \"every\".",
+          "Del de nivel Fundamentos: \"on Monday\", \"in July\", \"at five o'clock\", \"at night\", y nada de preposición con \"next\", \"last\" o \"every\".",
         ],
         examples: [
           { es: "I came on foot.", en: "Vine a pie." },
@@ -1946,7 +1946,7 @@ export const EN_A2_U17: Lesson[] = [
         heading: "A pie: along, through, past, across",
         body: [
           "Para la parte a pie vas a usar las preposiciones de movimiento de esta unidad: \"walk along the river\", \"go through the park\", \"walk past the museum\", \"cross the bridge\" o \"go across the bridge\".",
-          "Ya conoces del A1 \"turn left\", \"turn right\" y \"go straight\". Ahora puedes dar más detalle: \"Go up the hill\", \"Keep walking until you see a church\", \"It's on your left\".",
+          "Ya conoces del nivel Fundamentos \"turn left\", \"turn right\" y \"go straight\". Ahora puedes dar más detalle: \"Go up the hill\", \"Keep walking until you see a church\", \"It's on your left\".",
           "Para ordenar los pasos: \"first\", \"then\", \"after that\" y \"finally\".",
         ],
         examples: [

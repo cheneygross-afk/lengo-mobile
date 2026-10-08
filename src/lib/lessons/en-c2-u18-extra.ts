@@ -433,7 +433,7 @@ export const EN_C2_U18_EXTRA: Lesson[] = [
           "The authors draw conclusions that are too broad from a very small sample.",
           "The authors overgeneralize from a very small sample.",
         ],
-        explanation: "«Sacar conclusiones» is \"draw conclusions\", never *take out conclusions. \"Sweeping\" is a precise C2 adjective for over-general claims.",
+        explanation: "«Sacar conclusiones» is \"draw conclusions\", never *take out conclusions. \"Sweeping\" is a precise Mastery adjective for over-general claims.",
       },
       {
         type: "multiple-choice",

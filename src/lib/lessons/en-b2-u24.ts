@@ -2270,7 +2270,7 @@ export const EN_B2_U24: Lesson[] = [
     level: "EN-B2",
     number: 11,
     title: "Mixed Practice: Work, Money and Society",
-    summary: "A mixed review of the unit's vocabulary in context, combined with B2 grammar: passives and reporting verbs such as claim, deny, admit and announce.",
+    summary: "A mixed review of the unit's vocabulary in context, combined with Upper Intermediate grammar: passives and reporting verbs such as claim, deny, admit and announce.",
     duration: "12 min",
     sections: [
       {

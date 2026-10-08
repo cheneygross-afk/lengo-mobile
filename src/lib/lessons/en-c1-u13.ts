@@ -2670,6 +2670,8 @@ export const EN_C1_U13: Lesson[] = [
           "I look forward to your response. Yours sincerely,",
           "I look forward to receiving your reply. Yours sincerely,",
           "I look forward to hearing back from you. Yours sincerely,",
+          "I look forward to hearing from you. Sincerely,",
+          "I look forward to your reply. Sincerely,",
         ],
         explanation: "A named reader in a British formal letter takes \"Yours sincerely\".",
       },

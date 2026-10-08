@@ -8,15 +8,15 @@ export const EN_B1_U35: Lesson[] = [
     slug: "b1-challenge-big-error-hunt",
     level: "EN-B1",
     number: 1,
-    title: "B1 Challenge: The Big Error Hunt",
-    summary: "One mistake in every sentence, from every B1 topic and with no hints. Find it, fix it and name the rule.",
+    title: "Independence Challenge: The Big Error Hunt",
+    summary: "One mistake in every sentence, from every Independence topic and with no hints. Find it, fix it and name the rule.",
     duration: "12 min",
     sections: [
       {
         heading: "How the hunt works: verbs first",
         body: [
           "In this challenge every wrong sentence has exactly one mistake, and there are no hints. For each one, ask yourself three questions: what is wrong, what is the correct form, and which rule explains it?",
-          "Most B1 mistakes made by Spanish speakers are not random. They come from translating Spanish word for word: «tengo 30 años», «depende de», «estoy de acuerdo», «quiero que vengas». If you know the Spanish pattern behind a mistake, you can catch it before you say it.",
+          "Most Independence mistakes made by Spanish speakers are not random. They come from translating Spanish word for word: «tengo 30 años», «depende de», «estoy de acuerdo», «quiero que vengas». If you know the Spanish pattern behind a mistake, you can catch it before you say it.",
           "Start with verbs. «Desde hace» and «desde» need the present perfect, the third person needs -s (or \"does\"), and modal verbs like \"can\", \"must\" and \"should\" are followed by the base form, without \"to\".",
         ],
         examples: [
@@ -289,8 +289,8 @@ export const EN_B1_U35: Lesson[] = [
     slug: "b1-challenge-dialogue-marathon",
     level: "EN-B1",
     number: 2,
-    title: "B1 Challenge: Dialogue Marathon",
-    summary: "Four everyday and work conversations in a row. At every turn you need the right B1 structure, with no hints.",
+    title: "Independence Challenge: Dialogue Marathon",
+    summary: "Four everyday and work conversations in a row. At every turn you need the right Independence structure, with no hints.",
     duration: "12 min",
     sections: [
       {
@@ -526,8 +526,8 @@ export const EN_B1_U35: Lesson[] = [
     slug: "b1-challenge-translation-relay",
     level: "EN-B1",
     number: 3,
-    title: "B1 Challenge: Translation Relay",
-    summary: "Translate in both directions, one B1 topic after another, through the hardest traps that Spanish sets for you.",
+    title: "Independence Challenge: Translation Relay",
+    summary: "Translate in both directions, one Independence topic after another, through the hardest traps that Spanish sets for you.",
     duration: "12 min",
     sections: [
       {
@@ -775,8 +775,8 @@ export const EN_B1_U35: Lesson[] = [
     slug: "b1-challenge-build-the-sentence",
     level: "EN-B1",
     number: 4,
-    title: "B1 Challenge: Build the Sentence",
-    summary: "Long B1 sentences with relative clauses, conditionals, passives and reporting verbs. Put every word in the right place.",
+    title: "Independence Challenge: Build the Sentence",
+    summary: "Long Independence sentences with relative clauses, conditionals, passives and reporting verbs. Put every word in the right place.",
     duration: "11 min",
     sections: [
       {
@@ -997,7 +997,7 @@ export const EN_B1_U35: Lesson[] = [
     slug: "b1-challenge-tenses-gauntlet",
     level: "EN-B1",
     number: 5,
-    title: "B1 Challenge: The Tenses Gauntlet",
+    title: "Independence Challenge: The Tenses Gauntlet",
     summary: "Choose the tense in every sentence: present perfect simple or continuous, past simple, continuous or perfect, used to and the futures.",
     duration: "12 min",
     sections: [
@@ -1271,7 +1271,7 @@ export const EN_B1_U35: Lesson[] = [
     slug: "b1-challenge-conditionals-modals-gauntlet",
     level: "EN-B1",
     number: 6,
-    title: "B1 Challenge: Conditionals & Modals Without Hints",
+    title: "Independence Challenge: Conditionals & Modals Without Hints",
     summary: "Every conditional, wishes, and the modals of obligation, ability and deduction, mixed together with no hints.",
     duration: "12 min",
     sections: [
@@ -1527,8 +1527,8 @@ export const EN_B1_U35: Lesson[] = [
     slug: "b1-challenge-london-week-1",
     level: "EN-B1",
     number: 7,
-    title: "B1 Challenge: A Week in London (1)",
-    summary: "Follow Lucia through her first days in London: the arrival, looking for a flat and a job interview, with B1 grammar at every step.",
+    title: "Independence Challenge: A Week in London (1)",
+    summary: "Follow Lucia through her first days in London: the arrival, looking for a flat and a job interview, with Independence grammar at every step.",
     duration: "12 min",
     sections: [
       {
@@ -1780,7 +1780,7 @@ export const EN_B1_U35: Lesson[] = [
     slug: "b1-challenge-london-week-2",
     level: "EN-B1",
     number: 8,
-    title: "B1 Challenge: A Week in London (2)",
+    title: "Independence Challenge: A Week in London (2)",
     summary: "The rest of Lucia's week: dinner with the neighbors, a problem at the bank and a phone call home, with reported speech and conditionals.",
     duration: "12 min",
     sections: [
@@ -2016,7 +2016,7 @@ export const EN_B1_U35: Lesson[] = [
     slug: "b1-challenge-write-complaint",
     level: "EN-B1",
     number: 9,
-    title: "B1 Challenge: Write a Complaint",
+    title: "Independence Challenge: Write a Complaint",
     summary: "Write a formal email of complaint to an airline: the facts in the past, passives, linkers, should have and a clear request.",
     duration: "12 min",
     sections: [
@@ -2306,7 +2306,7 @@ export const EN_B1_U35: Lesson[] = [
     slug: "b1-challenge-debate-city-country",
     level: "EN-B1",
     number: 10,
-    title: "B1 Challenge: Debate — City or Country?",
+    title: "Independence Challenge: Debate — City or Country?",
     summary: "Argue both sides of the question with comparisons, opinion phrases, linkers and conditionals, then write your own opinion.",
     duration: "12 min",
     sections: [
@@ -2581,14 +2581,14 @@ export const EN_B1_U35: Lesson[] = [
     slug: "b1-exit-test-1",
     level: "EN-B1",
     number: 11,
-    title: "B1 Exit Test, Part 1 of 2",
-    summary: "The final test of B1 grammar and vocabulary, with no hints: tenses, conditionals, modals, passives and relative clauses.",
+    title: "Independence Exit Test, Part 1 of 2",
+    summary: "The final test of Independence grammar and vocabulary, with no hints: tenses, conditionals, modals, passives and relative clauses.",
     duration: "12 min",
     sections: [
       {
         heading: "Before you start: tenses",
         body: [
-          "This test has no new grammar. Each item checks one B1 skill, and the feedback tells you which one. If you get one wrong, go back to that unit before B2.",
+          "This test has no new grammar. Each item checks one Independence skill, and the feedback tells you which one. If you get one wrong, go back to that unit before the Upper Intermediate level.",
           "Quick reminder: finished time = past simple; up to now = present perfect (\"for\" + length, \"since\" + starting point); background in the past = past continuous; earlier past = past perfect; arrangements = present continuous; instant decisions = \"will\".",
         ],
         examples: [
@@ -2792,8 +2792,8 @@ export const EN_B1_U35: Lesson[] = [
     slug: "b1-exit-test-2",
     level: "EN-B1",
     number: 12,
-    title: "B1 Exit Test, Part 2 of 2",
-    summary: "The final test continued: reported speech, verb patterns, questions, articles, phrasal verbs and linkers. Ten skills B2 will assume, one question each.",
+    title: "Independence Exit Test, Part 2 of 2",
+    summary: "The final test continued: reported speech, verb patterns, questions, articles, phrasal verbs and linkers. Ten skills Upper Intermediate will assume, one question each.",
     duration: "12 min",
     sections: [
       {
@@ -2846,7 +2846,7 @@ export const EN_B1_U35: Lesson[] = [
       {
         heading: "Before you start: phrasal verbs and linkers",
         body: [
-          "Common B1 phrasal verbs: \"look after\" («cuidar»), \"look for\" («buscar»), \"give up\" («dejar», «rendirse»), \"find out\" («averiguar», «enterarse»), \"turn down\" («rechazar»), \"get on with\" («llevarse bien con»), \"run out of\" («quedarse sin»).",
+          "Common Independence phrasal verbs: \"look after\" («cuidar»), \"look for\" («buscar»), \"give up\" («dejar», «rendirse»), \"find out\" («averiguar», «enterarse»), \"turn down\" («rechazar»), \"get on with\" («llevarse bien con»), \"run out of\" («quedarse sin»).",
           "Linkers: contrast (\"although\" + clause, \"despite\" + noun or -ing, \"however\"), purpose (\"to\" + verb, \"so that\" + clause), reason (\"because\" + clause, \"because of\" + noun), result (\"so\", \"as a result\"). For purpose with a verb, use \"to\", never \"for\": «vine para ayudar» is \"I came to help\".",
         ],
         examples: [

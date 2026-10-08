@@ -15,7 +15,7 @@ export const EN_B2_U23: Lesson[] = [
       {
         heading: "Telling the story",
         body: [
-          "This review brings together grammar from several B2 units around one topic: a trip where everything went wrong. Start with the story itself. The past simple moves the action forward, the past continuous sets the scene, the past perfect jumps back to an earlier event, and the past perfect continuous says how long something had been happening before another past moment.",
+          "This review brings together grammar from several Upper Intermediate units around one topic: a trip where everything went wrong. Start with the story itself. The past simple moves the action forward, the past continuous sets the scene, the past perfect jumps back to an earlier event, and the past perfect continuous says how long something had been happening before another past moment.",
           "The past perfect continuous is the star of travel stories: \"We had been driving for six hours when the car broke down\". Spanish says «llevábamos seis horas conduciendo» or «hacía seis horas que conducíamos», so learners often produce *We were driving since six hours. A duration up to a moment in the past needs \"had been\" + -ing, with \"for\" before the length of time.",
           "And remember: not every Spanish imperfect becomes \"was\" + -ing. States and habits take the past simple: \"The hotel was awful\", \"We didn't have a map\".",
         ],
@@ -2071,7 +2071,7 @@ export const EN_B2_U23: Lesson[] = [
     level: "EN-B2",
     number: 9,
     title: "Spiral Review: Time",
-    summary: "All the tenses of B2 in one place: narrative tenses, the present perfect continuous (How long have you been...?), the future perfect and the future in the past.",
+    summary: "All the tenses of Upper Intermediate in one place: narrative tenses, the present perfect continuous (How long have you been...?), the future perfect and the future in the past.",
     duration: "12 min",
     sections: [
       {
@@ -2109,9 +2109,9 @@ export const EN_B2_U23: Lesson[] = [
       {
         heading: "Up to now: How long have you been...?",
         body: [
-          "This is a deliberate return to B1, because Spanish speakers keep getting it wrong. To ask about the duration of something still going on, use \"How long have you been\" + -ing: \"How long have you been learning English?\" (not *How long are you learning or *Since when do you learn).",
+          "This is a deliberate return to the Independence level, because Spanish speakers keep getting it wrong. To ask about the duration of something still going on, use \"How long have you been\" + -ing: \"How long have you been learning English?\" (not *How long are you learning or *Since when do you learn).",
           "Answer with \"for\" + a period (\"for three years\") or \"since\" + a starting point (\"since 2022\", \"since I was a kid\"). With state verbs, use the present perfect simple: \"How long have you known Carlos?\", \"I've had this car for ten years\".",
-          "The Spanish present («estudio inglés desde hace tres años») becomes the present perfect in English: \"I've been studying English for three years\". Using the present simple here is one of the most persistent errors, even at C1.",
+          "The Spanish present («estudio inglés desde hace tres años») becomes the present perfect in English: \"I've been studying English for three years\". Using the present simple here is one of the most persistent errors, even at the Advanced level.",
         ],
         examples: [
           { es: "How long have you been learning English?", en: "¿Cuánto tiempo llevas aprendiendo inglés?" },
@@ -2317,7 +2317,7 @@ export const EN_B2_U23: Lesson[] = [
     level: "EN-B2",
     number: 10,
     title: "Spiral Review: The Unreal",
-    summary: "Every hypothetical structure of B2 together: second, third and mixed conditionals, wish and if only, would rather, it's time and should have.",
+    summary: "Every hypothetical structure of the Upper Intermediate level together: second, third and mixed conditionals, wish and if only, would rather, it's time and should have.",
     duration: "12 min",
     sections: [
       {
@@ -2837,14 +2837,14 @@ export const EN_B2_U23: Lesson[] = [
     slug: "b2-tema-error-hunt-mixed",
     level: "EN-B2",
     number: 12,
-    title: "Error Hunt: B2 So Far",
-    summary: "Find and fix the mistakes Spanish speakers still make at B2: grammar from every B2 unit, plus stubborn B1 interference errors like 'I have 30 years', 'depend of' and 'people is'.",
+    title: "Error Hunt: Upper Intermediate So Far",
+    summary: "Find and fix the mistakes Spanish speakers still make at the Upper Intermediate level: grammar from every Upper Intermediate unit, plus stubborn Independence interference errors like 'I have 30 years', 'depend of' and 'people is'.",
     duration: "12 min",
     sections: [
       {
         heading: "The stubborn ones: interference errors",
         body: [
-          "Some mistakes survive into B2 because Spanish pulls so hard. Age uses \"be\": \"I'm 30\" (never *I have 30 years). Some prepositions differ: \"depend on\" (not *depend of), \"married to\" (not *married with), \"discuss something\" (no \"about\"), \"arrive at / in\" (not *arrive to).",
+          "Some mistakes survive into the Upper Intermediate level because Spanish pulls so hard. Age uses \"be\": \"I'm 30\" (never *I have 30 years). Some prepositions differ: \"depend on\" (not *depend of), \"married to\" (not *married with), \"discuss something\" (no \"about\"), \"arrive at / in\" (not *arrive to).",
           "\"People\" is plural: \"people are\", \"people think\". \"Information\", \"advice\", \"news\" and \"furniture\" are uncountable: no \"an\" and no -s (\"some information\", \"the news is good\").",
           "Agreement and opinion: \"I agree\" (not *I am agree). General statements without \"the\": \"Life is short\" (not *The life is short). And never drop the subject: \"It's raining\", \"It's important to...\".",
         ],
@@ -2882,7 +2882,7 @@ export const EN_B2_U23: Lesson[] = [
         ],
       },
       {
-        heading: "B2 grammar errors",
+        heading: "Upper Intermediate grammar errors",
         body: [
           "Conditionals and wishes: no \"would\" after \"if\" (\"If I had known\", not *If I would have known); \"I wish I had\", not *I wish I would have; and \"should have\", never *should of.",
           "Verb patterns: \"suggest doing\" or \"suggest that someone do\" (not *suggest someone to); \"be / get used to\" + -ing (\"I'm used to working late\"); \"despite\" without \"of\"; \"look forward to hearing\"; \"explain to me\"; \"stop smoking\" vs \"stop to smoke\".",

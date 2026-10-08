@@ -9,7 +9,7 @@ export const EN_A2_U22: Lesson[] = [
     slug: "a2-comprehensive-review-1",
     level: "EN-A2",
     number: 1,
-    title: "Repaso general del A2, parte 1 de 3",
+    title: "Repaso general del nivel Ganando fluidez, parte 1 de 3",
     summary: "Repaso de las unidades 1 a 6: \"was\" y \"were\", el pasado simple, el pasado continuo, \"used to\", el presente perfecto con \"ever\", \"just\", \"already\" y \"yet\", y \"for\" / \"since\".",
     duration: "12 min",
     sections: [
@@ -266,7 +266,7 @@ export const EN_A2_U22: Lesson[] = [
     slug: "a2-comprehensive-review-2",
     level: "EN-A2",
     number: 2,
-    title: "Repaso general del A2, parte 2 de 3",
+    title: "Repaso general del nivel Ganando fluidez, parte 2 de 3",
     summary: "Repaso de las unidades 7 a 12: cantidades, comparativos y superlativos, el futuro, \"have to\", \"must\", \"should\", \"might\", pedir y ofrecer, verbo + \"-ing\" o \"to\", y \"I want you to\".",
     duration: "12 min",
     sections: [
@@ -538,7 +538,7 @@ export const EN_A2_U22: Lesson[] = [
     slug: "a2-comprehensive-review-3",
     level: "EN-A2",
     number: 3,
-    title: "Repaso general del A2, parte 3 de 3",
+    title: "Repaso general del nivel Ganando fluidez, parte 3 de 3",
     summary: "Repaso de las unidades 13 a 18: \"make\", \"do\" y \"get\", phrasal verbs, \"say\" y \"tell\", condicionales, relativos, indefinidos, reflexivos, adverbios, \"-ed\" / \"-ing\", preposiciones, preguntas y \"so\" / \"neither\".",
     duration: "12 min",
     sections: [
@@ -855,7 +855,7 @@ export const EN_A2_U22: Lesson[] = [
     level: "EN-A2",
     number: 4,
     title: "Circuito acumulativo: verbos irregulares",
-    summary: "Circuito rápido con los verbos irregulares del A2 en sus tres formas (\"go, went, gone\"), en pasado simple y presente perfecto, en afirmativa, negativa y pregunta.",
+    summary: "Circuito rápido con los verbos irregulares del nivel Ganando fluidez en sus tres formas (\"go, went, gone\"), en pasado simple y presente perfecto, en afirmativa, negativa y pregunta.",
     duration: "10 min",
     sections: [
       {
@@ -1330,13 +1330,13 @@ export const EN_A2_U22: Lesson[] = [
     level: "EN-A2",
     number: 6,
     title: "Circuito acumulativo: las trampas del hispanohablante",
-    summary: "Los errores más típicos del A2 por influencia del español: *I want that you, *I live here since, *arrive to, *informations, *more big, *If it will, *I didn't went, *married with, *I am boring, la doble negación y los falsos amigos.",
+    summary: "Los errores más típicos del nivel Ganando fluidez por influencia del español: *I want that you, *I live here since, *arrive to, *informations, *more big, *If it will, *I didn't went, *married with, *I am boring, la doble negación y los falsos amigos.",
     duration: "12 min",
     sections: [
       {
         heading: "Trampas en la estructura del verbo",
         body: [
-          "Hay errores que salen de traducir la gramática del español palabra por palabra. Los más frecuentes en A2 son *I want that you come (correcto: \"I want you to come\"), *If it will rain (correcto: \"If it rains\"), *I didn't went (correcto: \"I didn't go\") e *I live here since 2020 (correcto: \"I've lived here since 2020\").",
+          "Hay errores que salen de traducir la gramática del español palabra por palabra. Los más frecuentes en el nivel Ganando fluidez son *I want that you come (correcto: \"I want you to come\"), *If it will rain (correcto: \"If it rains\"), *I didn't went (correcto: \"I didn't go\") e *I live here since 2020 (correcto: \"I've lived here since 2020\").",
           "Detrás de todos hay cuatro reglas: el inglés no usa subjuntivo con \"want\"; no pone \"will\" después de \"if\" o \"when\"; marca el pasado una sola vez, en \"did\"; y usa el presente perfecto para lo que empezó en el pasado y sigue.",
         ],
         examples: [

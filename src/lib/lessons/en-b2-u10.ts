@@ -15,7 +15,7 @@ export const EN_B2_U10: Lesson[] = [
       {
         heading: "The tense lives in \"be\"",
         body: [
-          "At B1 you learned that every passive is a form of \"be\" + the past participle: \"The bridge was built in 1990\", \"The house has been sold\". At B2 the goal is to use it in any tense, quickly and without thinking.",
+          "At the Independence level you learned that every passive is a form of \"be\" + the past participle: \"The bridge was built in 1990\", \"The house has been sold\". At the Upper Intermediate level the goal is to use it in any tense, quickly and without thinking.",
           "The participle never changes. Only \"be\" changes tense: \"is\", \"was\", \"has been\", \"had been\", \"is being\", \"will be\", \"will have been\". So to make any passive, take the active tense, put it on \"be\", and add the participle.",
           "Spanish often prefers «se» or the third person plural to «ser» + participle: «se están reparando las calles», «han cancelado el vuelo». English has no «se», so the passive does that job, and it is far more frequent in English than «ser» + participle is in Spanish.",
         ],
@@ -2067,13 +2067,13 @@ export const EN_B2_U10: Lesson[] = [
     level: "EN-B2",
     number: 8,
     title: "Spiral Review: Passive and Tenses",
-    summary: "Review every tense in the active and the passive, from B1's is made and was built to will have been finished and should have been told, and decide when the passive is the better choice.",
+    summary: "Review every tense in the active and the passive, from the Independence level's is made and was built to will have been finished and should have been told, and decide when the passive is the better choice.",
     duration: "12 min",
     sections: [
       {
-        heading: "From B1: is made, was built",
+        heading: "From the Independence level: is made, was built",
         body: [
-          "Start with the basics from B1. The present simple passive is for facts and processes: \"Cars are made here\". The past simple passive is for finished events: \"The tower was built in 1889\".",
+          "Start with the basics from the Independence level. The present simple passive is for facts and processes: \"Cars are made here\". The past simple passive is for finished events: \"The tower was built in 1889\".",
           "Questions and negatives use the auxiliary \"be\", never \"do\": \"When was it built?\", \"It wasn't built in a day\". Not *When did it built? or *It didn't built.",
         ],
         examples: [
@@ -2182,7 +2182,7 @@ export const EN_B2_U10: Lesson[] = [
         prompt: "Translate into English.",
         source: "Este libro se escribió en 1950.",
         answer: "This book was written in 1950.",
-        explanation: "B1 review: past simple passive with the participle \"written\".",
+        explanation: "Independence review: past simple passive with the participle \"written\".",
       },
       {
         type: "translate",

@@ -631,7 +631,7 @@ export const EN_C1_U09_EXTRA: Lesson[] = [
     level: "EN-C1",
     number: 3,
     title: "Extra Practice: Depend On, Consist Of, Responsible For",
-    summary: "Drill the prepositions that follow C1 verbs, adjectives and nouns (depend on, consist of, insist on, object to, responsible for, capable of, prior to, in favor of) and stop writing *depend of, *married with and *arrive to.",
+    summary: "Drill the prepositions that follow Advanced verbs, adjectives and nouns (depend on, consist of, insist on, object to, responsible for, capable of, prior to, in favor of) and stop writing *depend of, *married with and *arrive to.",
     duration: "11 min",
     sections: [
       {

@@ -47,13 +47,13 @@ export function storyReadiness(slug: string): StoryReadiness | null {
   return A1_STORY_READINESS[slug] ?? A2_STORY_READINESS[slug] ?? null;
 }
 
-/** "Best after A1 lesson 41", or "Best after finishing A1" for a story
+/** "Best after Beginner lesson 41", or "Best after finishing Beginner" for a story
  * that needs the whole level. Null for stories without readiness data. */
 export function readinessLabel(slug: string): string | null {
   const r = storyReadiness(slug);
   if (!r) return null;
   const a1 = slug in A1_STORY_READINESS;
-  const level = a1 ? "A1" : "A2";
+  const level = a1 ? "Beginner" : "Elementary";
   if (r.afterLesson >= (a1 ? A1_LESSON_COUNT : A2_LESSON_COUNT)) return `Best after finishing ${level}`;
   return `Best after ${level} lesson ${r.afterLesson}`;
 }

@@ -319,7 +319,7 @@ export const EN_C1_U08: Lesson[] = [
     slug: "c1-unreal-past-2",
     level: "EN-C1",
     number: 2,
-    title: "Conditional Alternatives, Part 2 of 2",
+    title: "The Unreal Past Beyond Conditionals, Part 2 of 2: Alternatives to If",
     summary: "Go beyond \"if\": \"provided\", \"as long as\", \"on condition that\", \"unless\", \"but for\", \"otherwise\", \"in case\", \"even if\" and \"whether or not\".",
     duration: "12 min",
     sections: [
@@ -1509,7 +1509,7 @@ export const EN_C1_U08: Lesson[] = [
         heading: "Fixed phrases with the subjunctive",
         body: [
           "A handful of old subjunctives survive as fixed expressions. They are invariable: learn them as chunks. \"Be that as it may\" means «sea como sea» or «aun así» and concedes a point before moving on. \"So be it\" («que así sea», «pues que así sea») accepts something you cannot change.",
-          "\"Come what may\" means «pase lo que pase». \"If need be\" means «si hace falta», «si es necesario». \"God bless you\", \"Long live the Queen\" and \"Heaven forbid\" are also subjunctives, with the same base form.",
+          "\"Come what may\" means «pase lo que pase». \"If need be\" means «si hace falta», «si es necesario». \"God bless you\", \"Long live the King\" and \"Heaven forbid\" are also subjunctives, with the same base form.",
           "These expressions are mostly formal or literary. In casual speech, \"anyway\", \"fine\", \"whatever happens\" and \"if necessary\" are more natural.",
         ],
         examples: [
@@ -1792,7 +1792,7 @@ export const EN_C1_U08: Lesson[] = [
           "\"Agree\" is special: \"It was agreed that the committee meet / would meet / should meet\" are all used. \"Resolve\" (in formal decisions) also takes the subjunctive: \"The board resolved that the dividend be paid in June\".",
         ],
         examples: [
-          { es: "Ms Lopez proposed that the budget be increased.", en: "La Sra. Lopez propuso que se aumentara el presupuesto." },
+          { es: "Ms Lopez proposed that the budget be increased.", en: "La Sra. López propuso que se aumentara el presupuesto." },
           { es: "Mr Smith moved that the item be deferred to the next meeting.", en: "El Sr. Smith propuso que el punto se aplazara a la siguiente reunión." },
           { es: "The chair requested that all members submit their comments in writing.", en: "El presidente pidió que todos los miembros presentaran sus comentarios por escrito." },
           { es: "It was agreed that the committee meet again on 3 May.", en: "Se acordó que el comité volviera a reunirse el 3 de mayo." },
@@ -2888,7 +2888,7 @@ export const EN_C1_U08: Lesson[] = [
       {
         type: "speak",
         text: "I'd suggest booking well in advance.",
-        tip: "\"Suggest\" is stressed on the second syllable, and the \"gg\" sounds like the \"j\" in \"jam\": sug-JEST, with a weak first syllable.",
+        tip: "\"Suggest\" is stressed on the second syllable, and the \"gg\" is pronounced /dʒ/ (like \"j\" in \"jam\") or, by many Americans, /ɡdʒ/: sug-JEST or sug-GEST, with a weak first syllable.",
         explanation: "\"Suggest\" + -ing is the easiest pattern: no person, no subjunctive, no risk of *suggest you to.",
       },
     ],
@@ -3670,7 +3670,7 @@ export const EN_C1_U08: Lesson[] = [
     level: "EN-C1",
     number: 13,
     title: "Word Web: Law and Crime",
-    summary: "C1 legal vocabulary: plaintiff, defendant, verdict, sentence, sue, plead guilty, be acquitted, bail, fraud and loophole, plus the false friends \"jury\", \"judge\" and \"trial\".",
+    summary: "Advanced legal vocabulary: plaintiff, defendant, verdict, sentence, sue, plead guilty, be acquitted, bail, fraud and loophole, plus the false friends \"jury\", \"judge\" and \"trial\".",
     duration: "11 min",
     sections: [
       {
@@ -3809,7 +3809,7 @@ export const EN_C1_U08: Lesson[] = [
         body: [
           "\"Fraud\" («fraude», «estafa») is uncountable as a crime: \"He was convicted of fraud\". The person is \"a fraudster\" or, informally, \"a con artist\". Other key crimes: \"theft\" («robo», «hurto»), \"robbery\" («atraco», «robo con violencia»), \"burglary\" («robo en una vivienda»), \"bribery\" («soborno»), \"money laundering\" («blanqueo de capitales»).",
           "A \"loophole\" is «un vacío legal» or «una laguna legal»: a gap in the law that lets people avoid it legally. \"Tax loophole\", \"close a loophole\", \"exploit a loophole\".",
-          "Collocations matter at C1: you \"commit\" a crime (not *make or *do), \"break\" the law, \"face\" charges, \"file\" a lawsuit, \"settle out of court\" («llegar a un acuerdo extrajudicial»), \"appeal\" a decision («recurrir»).",
+          "Collocations matter at the Advanced level: you \"commit\" a crime (not *make or *do), \"break\" the law, \"face\" charges, \"file\" a lawsuit, \"settle out of court\" («llegar a un acuerdo extrajudicial»), \"appeal\" a decision («recurrir»).",
         ],
         examples: [
           { es: "He was convicted of fraud.", en: "Lo condenaron por fraude." },

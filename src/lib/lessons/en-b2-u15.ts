@@ -253,7 +253,7 @@ export const EN_B2_U15: Lesson[] = [
     level: "EN-B2",
     number: 2,
     title: "Sentence by Sentence: se, lo que, cuyo",
-    summary: "Translate the Spanish structures that cause most trouble at B2: «se dice que», «me arreglaron el coche», «lo que», «cuyo» and «me dijo que no fuera».",
+    summary: "Translate the Spanish structures that cause most trouble at the Upper Intermediate level: «se dice que», «me arreglaron el coche», «lo que», «cuyo» and «me dijo que no fuera».",
     duration: "12 min",
     sections: [
       {

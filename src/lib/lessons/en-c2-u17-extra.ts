@@ -64,7 +64,7 @@ export const EN_C2_U17_EXTRA: Lesson[] = [
       {
         heading: "Reporting a speech act, not the words",
         body: [
-          "At C2 you rarely backshift a quotation word for word. You choose the verb that names what the speaker did: \"'I'll resign if this passes'\" becomes \"She threatened to resign if it passed\". \"'You stole the data!'\" becomes \"He accused them of stealing the data\". \"'Let's postpone the vote'\" becomes \"He suggested postponing the vote\".",
+          "At the Mastery level you rarely backshift a quotation word for word. You choose the verb that names what the speaker did: \"'I'll resign if this passes'\" becomes \"She threatened to resign if it passed\". \"'You stole the data!'\" becomes \"He accused them of stealing the data\". \"'Let's postpone the vote'\" becomes \"He suggested postponing the vote\".",
           "\"Insist\" has two patterns: \"insist on\" + -ing for what someone demands to do (\"She insisted on checking the figures herself\"), and \"insist that\" + clause for a claim or a demand on others (\"He insisted that he was innocent\"; \"She insisted that the report be withdrawn\").",
           "\"Admit\" takes -ing, \"to\" + -ing, or \"that\": \"He admitted (to) copying the passage\", \"He admitted that he had copied it\". *Admitted to copy is wrong.",
         ],
@@ -160,7 +160,7 @@ export const EN_C2_U17_EXTRA: Lesson[] = [
         answer: "extending",
         altAnswers: ["postponing", "pushing back"],
         en: "El comité recomendó [ampliar] el plazo un mes.",
-        explanation: "\"Recommend\" without an object takes -ing. With a person, use \"recommend that\" + clause: \"recommended that we extend the deadline\", not *recommended us to extend.",
+        explanation: "\"Recommend\" without an object takes -ing. With a person, use \"recommend that\" + clause: \"recommended that we extend the deadline\", not \"recommended us to extend\", which is British only and best avoided.",
       },
       {
         type: "translate",

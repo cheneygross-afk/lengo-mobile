@@ -814,7 +814,7 @@ export const EN_A1_U2_MORE: Lesson[] = [
         body: [
           "Muchas veces la consonante final lleva información gramatical: el plural (\"friend\" / \"friends\"), la tercera persona (\"I work\" / \"she works\") y el pasado (\"I work\" / \"I worked\"). Si te la comes, cambias lo que dices.",
           "La terminación \"-ed\" del pasado casi nunca añade una sílaba: \"worked\" se dice «workt», en una sílaba, y \"played\" se dice «pleid». Solo después de \"t\" o \"d\" suena /ɪd/, con una sílaba más: \"wanted\", \"needed\".",
-          "Verás el pasado en el A2, pero acostumbra ya el oído: \"worked\" termina como \"fact\".",
+          "Verás el pasado en el nivel Ganando fluidez, pero acostumbra ya el oído: \"worked\" termina como \"fact\".",
         ],
         examples: [
           { es: "I work. / I worked.", en: "Trabajo. / Trabajé." },

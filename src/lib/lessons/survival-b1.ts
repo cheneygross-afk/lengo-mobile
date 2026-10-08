@@ -801,7 +801,7 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         [
           "Para empezar: Quería comentarle un problema. Lamento tener que decirle que... Disculpe, pero creo que hay un error.",
           "Para describir: Me han cobrado de más. El producto llegó roto / defectuoso. No es lo que pedí. Llevo una hora esperando.",
-          "Para pedir: Me gustaría que me devolvieran el dinero. ¿Sería posible cambiarlo? ¿Podría hablar con el responsable? (Me gustaría que + imperfecto de subjuntivo: lo verás en B2; aquí apréndelo como bloque.)",
+          "Para pedir: Me gustaría que me devolvieran el dinero. ¿Sería posible cambiarlo? ¿Podría hablar con el responsable? (Me gustaría que + imperfecto de subjuntivo: lo verás en el nivel Avanzado; aquí apréndelo como bloque.)",
           "El tono cuenta más que las palabras: habla con calma, da datos concretos (fechas, números) y termina con una petición clara.",
         ],
         [
@@ -1221,7 +1221,7 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
           ["— ¿Qué experiencia tiene?", "What experience do you have?"],
           ["— He trabajado tres años en la recepción de un hotel en Dublín, y ahora trabajo a media jornada en una agencia de viajes.", "I worked for three years at a hotel reception in Dublin, and now I work part-time at a travel agency."],
           ["— ¿Qué idiomas habla?", "What languages do you speak?"],
-          ["— Inglés, que es mi lengua materna, español con nivel B2 y un poco de francés.", "English, which is my mother tongue, Spanish at B2 level and a bit of French."],
+          ["— Inglés, que es mi lengua materna, español con nivel Avanzado y un poco de francés.", "English, which is my mother tongue, Spanish at the Advanced level level and a bit of French."],
         ],
         [
           mc(

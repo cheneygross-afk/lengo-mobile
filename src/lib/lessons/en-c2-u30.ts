@@ -716,7 +716,7 @@ export const EN_C2_U30: Lesson[] = [
         source: "Los diálogos son acartonados y los actores parecen incómodos.",
         answer: "The dialogue is stilted, and the actors seem uncomfortable.",
         altAnswers: alts(
-          ["The dialogue is stilted,", "The dialogue is stilted", "The dialogue is wooden,", "The dialogue is wooden", "The dialogues are stilted,", "The dialogues are stilted"],
+          ["The dialogue is stilted,", "The dialogue is stilted", "The dialogue is wooden,", "The dialogue is wooden"],
           ["and the actors seem uncomfortable.", "and the actors look uncomfortable.", "and the actors seem ill at ease.", "and the cast seems uncomfortable."],
         ),
         explanation: "\"Dialogue\" in a film is usually uncountable (\"the dialogue is\"). Unnatural lines are \"stilted\"; stiff acting is \"wooden\".",
@@ -1397,7 +1397,7 @@ export const EN_C2_U30: Lesson[] = [
     slug: "c2-vocab-sound-light-movement",
     level: "EN-C2",
     number: 7,
-    title: "C2 vocabulary: verbs of sound, light and movement",
+    title: "Mastery vocabulary: verbs of sound, light and movement",
     summary: "Expressive verbs that replace generic ones: glimmer, flicker, glare, gleam; rustle, creak, hum, thud; stagger, stroll, dart, trudge. Essential for vivid description in reviews and creative writing.",
     duration: "12 min",
     sections: [
@@ -1928,7 +1928,7 @@ export const EN_C2_U30: Lesson[] = [
         source: "Es una película muy emotiva, con una interpretación contenida de la protagonista.",
         answer: "It's a very moving film, with an understated performance from the lead.",
         altAnswers: alts(
-          ["It's a very moving film,", "It's a deeply moving film,", "It's a very touching film,", "It's a deeply touching film,"],
+          ["It's a very moving film,", "It's a deeply moving film,", "It's a very touching film,", "It's a deeply touching film,", "It's a very moving movie,", "It's a deeply moving movie,", "It's a very touching movie,", "It's a deeply touching movie,"],
           ["with an understated performance from the lead.", "with an understated performance by the lead.", "with a restrained performance from the lead.", "with a restrained performance by the lead.", "with an understated lead performance.", "with a restrained lead performance."],
         ),
         explanation: "«Emotivo» is \"moving\" or \"touching\"; «contenida» is \"understated\" or \"restrained\". A performance is \"from\" or \"by\" an actor.",

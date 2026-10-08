@@ -3957,7 +3957,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "rhetorical-questions-7",
     "c2r-rhetorical-vocab-spiral",
-    "Repaso en espiral: figuras retóricas del C2",
+    "Repaso en espiral: figuras retóricas del nivel Profesional y Académico",
     "Metáfora, hipérbole, anáfora, hipófora, interpelación, antítesis: identifica cada figura en un fragmento breve.",
     "7 min",
     [

@@ -18,7 +18,7 @@ export const EN_C2_U04: Lesson[] = [
         body: [
           "An idiom is a fixed expression whose meaning is not the sum of its words. \"Kick the bucket\" means «morir», and nothing in it refers to death any more. Because the meaning belongs to the whole block, the words are frozen: you cannot swap \"bucket\" for \"pail\", add an article or a complement, or make the noun plural. *Kick the pail, *kick a bucket and *kick the buckets all lose the idiomatic meaning and simply describe someone kicking a container.",
           "What usually can change is the grammar around the frozen core. The verb takes tense and agreement (\"He kicked the bucket last year\"), and a possessive slot changes with the person: \"pull someone's leg\" becomes \"You're pulling my leg\", and \"put your foot in it\" becomes \"I really put my foot in it\". Dictionaries show this slot as \"someone\" or \"one's\"; real sentences never contain those words.",
-          "Spanish idioms behave in the same way, which is why «costar un ojo de la cara» never becomes «costar dos ojos de la cara». The C2 skill is to know the exact frozen form in English, including the small words: \"on the other hand\", not *in the other hand; \"at the end of the day\", not *in the end of the day; \"by the skin of your teeth\", not *by the skin of the teeth.",
+          "Spanish idioms behave in the same way, which is why «costar un ojo de la cara» never becomes «costar dos ojos de la cara». The Mastery skill is to know the exact frozen form in English, including the small words: \"on the other hand\", not *in the other hand; \"at the end of the day\", not *in the end of the day; \"by the skin of your teeth\", not *by the skin of the teeth.",
         ],
         examples: [
           { es: "Their old dog finally kicked the bucket last winter.", en: "Su perro viejo por fin estiró la pata el invierno pasado." },
@@ -105,7 +105,7 @@ export const EN_C2_U04: Lesson[] = [
       {
         heading: "Register and attitude",
         body: [
-          "Every idiom carries a register and an attitude, and choosing the wrong one is a C2 mistake even when the meaning is right. \"Kick the bucket\" is flippant: perfect for a dead lawnmower or a joke, offensive in a condolence card, where you need \"pass away\" or simply \"die\". Spanish has the same scale: «estirar la pata» versus «fallecer».",
+          "Every idiom carries a register and an attitude, and choosing the wrong one is a Mastery mistake even when the meaning is right. \"Kick the bucket\" is flippant: perfect for a dead lawnmower or a joke, offensive in a condolence card, where you need \"pass away\" or simply \"die\". Spanish has the same scale: «estirar la pata» versus «fallecer».",
           "Attitude matters as much as formality. \"Jump on the bandwagon\" («subirse al carro») is always critical: it implies that people join something because it is fashionable, not because they believe in it. \"Cut corners\" criticises saving time or money at the expense of quality, and \"a wet blanket\" («un aguafiestas») is an insult. Compare idioms with a positive attitude, such as \"go the extra mile\" («esforzarse más de lo exigido») or \"break new ground\".",
           "Some idioms are neutral enough for journalism and business: \"a bone of contention\" («la manzana de la discordia»), \"the tip of the iceberg\", \"a level playing field\". Others are firmly informal: \"a piece of cake\", \"spill the beans\", \"be over the moon\".",
         ],
@@ -435,7 +435,7 @@ export const EN_C2_U04: Lesson[] = [
         body: [
           "Irish English has its own idioms and set phrases. \"The craic\" (pronounced \"crack\") is fun and good company: \"The craic was mighty\" means the night was great fun. \"Giving out\" means complaining or scolding: \"My mother was giving out to me for coming home late\" («me estuvo echando la bronca»). \"Grand\" means fine or OK, often with reservations, and \"Sure look\" expresses resignation, roughly «qué le vamos a hacer».",
           "Australian English is famous for colourful idioms. \"Fair dinkum\" means genuine, honest or true («auténtico», «de verdad»): \"He's a fair dinkum bloke\", or as a question, \"Fair dinkum?\" («¿en serio?»). \"She'll be right\" means everything will be fine («todo saldrá bien»). \"Flat out like a lizard drinking\" means extremely busy, and \"a few sandwiches short of a picnic\" (also British) means not very intelligent.",
-          "Use these with care. A Spanish speaker saying \"fair dinkum\" in London or Chicago sounds like someone imitating a film; in Sydney it may sound charming or forced. At C2 your main goal with regional idioms is to understand them, and to produce them only when you are part of that community.",
+          "Use these with care. A Spanish speaker saying \"fair dinkum\" in London or Chicago sounds like someone imitating a film; in Sydney it may sound charming or forced. At the Mastery level your main goal with regional idioms is to understand them, and to produce them only when you are part of that community.",
         ],
         examples: [
           { es: "We went to the pub after the match and the craic was great.", en: "Fuimos al pub después del partido y lo pasamos genial. (irlandés)" },
@@ -1435,7 +1435,7 @@ export const EN_C2_U04: Lesson[] = [
         body: [
           "When you don't know the English idiom, a literal translation is worse than no idiom at all: it either means nothing or means something else. *To give someone pumpkins («dar calabazas») means nothing; the real expression is \"turn someone down\" or \"reject someone\". *To be like a goat («estar como una cabra») sounds like a description of an animal; say \"be (as) mad as a hatter\", \"be nuts\" or simply \"be crazy\".",
           "«Dar gato por liebre» is \"rip someone off\" or \"con someone\", and British English has \"sell someone a pup\". «Buscarle tres pies al gato» is \"split hairs\" or \"overcomplicate things\". «No dar pie con bola» is \"not get anything right\" or \"be all at sea\". «A otro perro con ese hueso» is \"pull the other one\" (UK) or \"tell it to the marines\" (dated), or simply \"I don't believe you\".",
-          "The safe strategy at C2: if you are not sure of the English idiom, use a precise plain expression. \"He rejected her\" is always better than a mistranslated idiom, and a well-chosen plain verb sounds more native than a misused idiom.",
+          "The safe strategy at the Mastery level: if you are not sure of the English idiom, use a precise plain expression. \"He rejected her\" is always better than a mistranslated idiom, and a well-chosen plain verb sounds more native than a misused idiom.",
         ],
         examples: [
           { es: "She turned him down.", en: "Le dio calabazas. (incorrecto: *She gave him pumpkins)" },
@@ -1786,7 +1786,7 @@ export const EN_C2_U04: Lesson[] = [
         heading: "The decision checklist",
         body: [
           "Before using an idiom, ask four questions. Register: is it right for the text type (essay, email, chat)? Audience: will these readers know it, or is it regional? Freshness: is it a cliché or dated? Precision: does it say exactly what you mean, or would a plain word be more accurate?",
-          "If the answer to any question is doubtful, choose the plain word. The aim at C2 is not to use as many idioms as possible but to use the right one, at the right moment, in the right form. A single well-placed idiom is more impressive than five forced ones.",
+          "If the answer to any question is doubtful, choose the plain word. The aim at the Mastery level is not to use as many idioms as possible but to use the right one, at the right moment, in the right form. A single well-placed idiom is more impressive than five forced ones.",
         ],
         examples: [
           { es: "The proposal has some merit, but the costs are high.", en: "La propuesta tiene algo de mérito, pero es muy cara. (plano y preciso)" },
@@ -2063,7 +2063,7 @@ export const EN_C2_U04: Lesson[] = [
         body: [
           "Idioms often carry a message that is never said directly. \"I'm not going to lie\" introduces criticism or an uncomfortable truth. \"With all due respect\" almost always precedes disagreement, sometimes strong. \"It's not rocket science\" implies the listener is making something simple sound difficult, and can sound condescending.",
           "\"Let's agree to disagree\" ends an argument without either side giving in. \"I hear you\" acknowledges someone's point without agreeing to it. \"Fair enough\" accepts a point, often reluctantly («vale, de acuerdo», «es razonable»). \"We'll see\" from a parent usually means no.",
-          "Tone matters too: \"Thanks a lot\" and \"That's just great\" are often ironic, and only intonation tells you. A C2 listener interprets the speaker's real intention, not just the dictionary meaning.",
+          "Tone matters too: \"Thanks a lot\" and \"That's just great\" are often ironic, and only intonation tells you. A Mastery listener interprets the speaker's real intention, not just the dictionary meaning.",
         ],
         examples: [
           { es: "With all due respect, I think you're wrong.", en: "Con todo respeto, creo que se equivoca." },

@@ -241,7 +241,7 @@ export const EN_B1_U07_EXTRA: Lesson[] = [
     level: "EN-B1",
     number: 2,
     title: "Extra Practice: Choose the Tense",
-    summary: "Mixed-tense practice over all B1 tenses in short emails and messages, aimed at the classic Spanish-speaker traps: present for present perfect, past simple with unfinished time, and \"will\" after \"when\".",
+    summary: "Mixed-tense practice over all Independence tenses in short emails and messages, aimed at the classic Spanish-speaker traps: present for present perfect, past simple with unfinished time, and \"will\" after \"when\".",
     duration: "12 min",
     sections: [
       {

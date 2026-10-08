@@ -1074,8 +1074,8 @@ export const EN_C2_U10: Lesson[] = [
       {
         heading: "Same facts, different reader",
         body: [
-          "Audience awareness is a C2 skill: the facts stay the same, but the words change with the reader. Before you send a crisis email, ask who will read it, in which language they think, and whether they share your context.",
-          "A useful test: could a careful reader with B1 English and a dictionary understand every sentence? If not, rewrite the sentence, not just the word. Also avoid mixing: an international email with one sudden \"we're firefighting\" in the middle confuses more than one that is idiomatic throughout.",
+          "Audience awareness is a Mastery skill: the facts stay the same, but the words change with the reader. Before you send a crisis email, ask who will read it, in which language they think, and whether they share your context.",
+          "A useful test: could a careful reader with Independence English and a dictionary understand every sentence? If not, rewrite the sentence, not just the word. Also avoid mixing: an international email with one sudden \"we're firefighting\" in the middle confuses more than one that is idiomatic throughout.",
           "Finally, do not confuse plain with cold. \"Thank you for your patience\" and \"We are sorry for the inconvenience\" add warmth without any idioms.",
         ],
         examples: [
@@ -1499,14 +1499,14 @@ export const EN_C2_U10: Lesson[] = [
     slug: "c2-vocab-business-false-friends",
     level: "EN-C2",
     number: 6,
-    title: "C2 vocabulary: business false friends",
+    title: "Mastery vocabulary: business false friends",
     summary: "The false friends that cause real misunderstandings at work: actual and eventual, assist, attend, apply, compromise, balance, rent and «renta», realise and «realizar», carpet, exit and sensible, practised by correcting workplace emails.",
     duration: "12 min",
     sections: [
       {
         heading: "Actual and eventual",
         body: [
-          "English \"actual\" means real or true, and \"actually\" means in fact: «real», «en realidad». Spanish «actual» is \"current\" and «actualmente» is \"currently\" or \"at the moment\". So «el precio actual» is \"the current price\"; \"the actual price\" is the real price, as opposed to the advertised one. At C2 this still causes real misunderstandings in emails.",
+          "English \"actual\" means real or true, and \"actually\" means in fact: «real», «en realidad». Spanish «actual» is \"current\" and «actualmente» is \"currently\" or \"at the moment\". So «el precio actual» is \"the current price\"; \"the actual price\" is the real price, as opposed to the advertised one. At the Mastery level this still causes real misunderstandings in emails.",
           "English \"eventually\" means in the end, after a long time: «al final», «finalmente». Spanish «eventualmente» means possibly or if necessary: \"if necessary\", \"possibly\". And «eventual» (adjective) is \"possible\" or, for jobs, \"temporary\": «un trabajador eventual» is \"a temporary worker\".",
           "So «Eventualmente, podríamos ampliar el plazo» is \"If necessary, we could extend the deadline\". *Eventually we could extend the deadline tells an English reader that the extension will happen, after a long wait.",
         ],
@@ -1723,7 +1723,7 @@ export const EN_C2_U10: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The ___ cost of the project was twice the budget.",
         answer: "actual",
-        altAnswers: ["real", "final"],
+        altAnswers: ["real"],
         en: "El coste [real] del proyecto fue el doble del presupuesto.",
         explanation: "\"Actual\" means real. If you meant «actual» (current), you would write \"the current cost\".",
       },
@@ -2218,7 +2218,7 @@ export const EN_C2_U10: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "For this campaign, we really need to think ___.",
             answer: "outside the box",
-            altAnswers: ["out of the box", "creatively", "differently"],
+            altAnswers: ["creatively", "differently"],
             en: "Para esta campaña, de verdad tenemos que pensar [de forma original].",
             explanation: "The standard idiom is \"think outside the box\". \"Out of the box\" usually means ready to use without setup.",
           },

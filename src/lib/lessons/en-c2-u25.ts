@@ -1561,7 +1561,7 @@ export const EN_C2_U25: Lesson[] = [
     slug: "en-c2-confusable-words",
     level: "EN-C2",
     number: 7,
-    title: "Commonly Confused Words at C2",
+    title: "Commonly Confused Words at the Mastery level",
     summary: "Historic or historical? Economic or economical? Imply or infer? Even proficient writers mix up these pairs, and Spanish cognates make some of them worse. Learn the distinctions that editors and examiners notice, with examples from history, politics and the economy.",
     duration: "12 min",
     sections: [
@@ -1608,7 +1608,7 @@ export const EN_C2_U25: Lesson[] = [
         body: [
           "In normal use, \"affect\" is a verb (to have an influence on) and \"effect\" is a noun (a result): \"The drought affected the harvest\"; \"The drought had a serious effect on the harvest.\" The less common verb \"to effect\" means to bring about: \"to effect change\" («lograr un cambio»). Never write *the drought effected the harvest.",
           "\"Principle\" is always a noun: a rule, a belief, a basic idea (\"a matter of principle\", \"the principles of democracy\", \"in principle\"). \"Principal\" is mainly an adjective meaning main (\"the principal cause\", \"the principal reason\") and, as a noun, the head of a school in American English.",
-          "Spanish «en principio» is \"in principle\"; «el principal problema» is \"the main problem\" or \"the principal problem\". Both pairs sound identical, so the error is purely in spelling, but it is exactly the kind of slip that undermines a C2 text.",
+          "Spanish «en principio» is \"in principle\"; «el principal problema» is \"the main problem\" or \"the principal problem\". Both pairs sound identical, so the error is purely in spelling, but it is exactly the kind of slip that undermines a Mastery text.",
         ],
         examples: [
           { es: "The new law will affect millions of tenants.", en: "La nueva ley afectará a millones de inquilinos." },
@@ -2112,7 +2112,7 @@ export const EN_C2_U25: Lesson[] = [
     level: "EN-C2",
     number: 13,
     title: "Spiral review: narrative grammar and register",
-    summary: "A review of both history units through three C1 structures that historians use constantly: participle clauses (Having crossed the river, the army...), passive reporting (He is said to have...) and relative clauses (the city, which had resisted for months...).",
+    summary: "A review of both history units through three Advanced structures that historians use constantly: participle clauses (Having crossed the river, the army...), passive reporting (He is said to have...) and relative clauses (the city, which had resisted for months...).",
     duration: "12 min",
     sections: [
       {

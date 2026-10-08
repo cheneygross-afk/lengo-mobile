@@ -270,13 +270,13 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "subjunctive-mastery-review-6",
     "c1r-spiral-subjunctive-b2-c1",
-    "Repaso en espiral: el subjuntivo del B2 al C1",
-    "Relativas, adverbiales, condicionales y los matices del C1 — un recorrido completo sin pistas.",
+    "Repaso en espiral: el subjuntivo del nivel Avanzado al nivel Maestría",
+    "Relativas, adverbiales, condicionales y los matices del nivel Maestría — un recorrido completo sin pistas.",
     "8 min",
     [
       sec(
-        "Del B2 al C1",
-        "En el C1 el subjuntivo ya no es una regla, sino una herramienta de precisión. Cada checkpoint mezcla un uso de base con un matiz avanzado.",
+        "Del de nivel Avanzado al nivel Maestría",
+        "En el nivel Maestría el subjuntivo ya no es una regla, sino una herramienta de precisión. Cada checkpoint mezcla un uso de base con un matiz avanzado.",
         [
           ["Busco a alguien que haya trabajado en el sector.", "I'm looking for someone who has worked in the sector."],
           ["Si lo hubiera sabido, te lo habría dicho, fuera cual fuera la consecuencia.", "If I had known, I'd have told you, whatever the consequence."],
@@ -1335,7 +1335,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "passive-impersonal-mastery-6",
     "c1r-spiral-passive-nominal-subj",
     "Repaso en espiral: impersonalidad y registro formal",
-    "Pasiva, se, nominalización y subjuntivo: los recursos de impersonalidad del C1, combinados.",
+    "Pasiva, se, nominalización y subjuntivo: los recursos de impersonalidad del nivel Maestría, combinados.",
     "8 min",
     [
       sec(
@@ -1892,7 +1892,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "ser-estar-haber-limits-part-1-mastery-check",
     "c1r-contrast-evaluative-estar",
     "Contraste: es / está con adjetivos valorativos",
-    "Está guapísima hoy, es guapa; está muy joven para su edad — el estar evaluativo del C1.",
+    "Está guapísima hoy, es guapa; está muy joven para su edad — el estar evaluativo del nivel Maestría.",
     "7 min",
     [
       sec(
@@ -2095,7 +2095,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "ser-estar-haber-limits-part-2-mastery-check",
     "c1r-spiral-copulative-c1",
-    "Repaso en espiral: los verbos copulativos en el C1",
+    "Repaso en espiral: los verbos copulativos en el nivel Maestría",
     "Ser, estar, haber, verbos de cambio y pasivas: la precisión que distingue a un hablante avanzado.",
     "8 min",
     [
@@ -2589,7 +2589,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "advanced-discourse-markers-6",
     "c1r-spiral-markers-concessive",
     "Repaso en espiral: marcadores, concesión y énfasis",
-    "Marcadores discursivos del C1 combinados con concesivas y estructuras enfáticas del B2.",
+    "Marcadores discursivos del nivel Maestría combinados con concesivas y estructuras enfáticas del nivel Avanzado.",
     "8 min",
     [
       sec(
@@ -5943,13 +5943,13 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "el-voseo-drill-3",
     "c1r-challenge-big-error-hunt",
-    "Desafío C1: la gran caza de errores",
-    "Empieza el desafío final del C1: cada frase esconde un error de un tema distinto del nivel.",
+    "Desafío de nivel Maestría: la gran caza de errores",
+    "Empieza el desafío final del nivel Maestría: cada frase esconde un error de un tema distinto del nivel.",
     "8 min",
     [
       sec(
         "Cómo funciona el desafío",
-        "Las trece lecciones del Desafío C1 mezclan todos los temas del nivel: subjuntivo avanzado, concesivas, nominalización, gerundio, pasiva, estilo indirecto, ser/estar/haber, régimen preposicional, conectores, énfasis, conjetura, registro, voseo y escritura formal. Aquí, cada frase tiene un error: localízalo y corrígelo.",
+        "Las trece lecciones del Desafío de nivel Maestría mezclan todos los temas del nivel: subjuntivo avanzado, concesivas, nominalización, gerundio, pasiva, estilo indirecto, ser/estar/haber, régimen preposicional, conectores, énfasis, conjetura, registro, voseo y escritura formal. Aquí, cada frase tiene un error: localízalo y corrígelo.",
         [
           ["✗ Habían muchos problemas. → ✓ Había muchos problemas.", "There were many problems."],
           ["✗ Depende en ti. → ✓ Depende de ti.", "It depends on you."],
@@ -5993,7 +5993,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "el-voseo-drill-3",
     "c1r-challenge-register-marathon",
-    "Desafío C1: maratón de registros",
+    "Desafío de nivel Maestría: maratón de registros",
     "Una misma idea, cuatro destinatarios: un amigo, una jefa, un público general y un lector académico.",
     "8 min",
     [
@@ -6046,13 +6046,13 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "el-voseo-drill-3",
     "c1r-challenge-translation-relay",
-    "Desafío C1: relevo de traducción",
-    "Traduce en las dos direcciones frases que concentran los temas más difíciles del C1.",
+    "Desafío de nivel Maestría: relevo de traducción",
+    "Traduce en las dos direcciones frases que concentran los temas más difíciles del nivel Maestría.",
     "8 min",
     [
       sec(
         "Pensar en español, no traducir palabra por palabra",
-        "Las frases del C1 rara vez se traducen literalmente: «It must have been hard» → «Habrá sido duro» o «Debió de ser duro»; «No matter what they say» → «Digan lo que digan»; «What I need is time» → «Lo que necesito es tiempo»; «I dropped it» → «Se me cayó».",
+        "Las frases del nivel Maestría rara vez se traducen literalmente: «It must have been hard» → «Habrá sido duro» o «Debió de ser duro»; «No matter what they say» → «Digan lo que digan»; «What I need is time» → «Lo que necesito es tiempo»; «I dropped it» → «Se me cayó».",
         [
           ["Digan lo que digan, no me rindo.", "No matter what they say, I'm not giving up."],
           ["Habrá sido difícil para ella.", "It must have been hard for her."],
@@ -6080,8 +6080,8 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "el-voseo-drill-3",
     "c1r-challenge-subjunctive-no-net",
-    "Desafío C1: el subjuntivo sin red",
-    "Diez decisiones sin pistas: indicativo, subjuntivo o infinitivo, en los contextos más finos del C1.",
+    "Desafío de nivel Maestría: el subjuntivo sin red",
+    "Diez decisiones sin pistas: indicativo, subjuntivo o infinitivo, en los contextos más finos del nivel Maestría.",
     "8 min",
     [
       sec(
@@ -6125,7 +6125,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "el-voseo-drill-3",
     "c1r-challenge-connector-chain",
-    "Desafío C1: conectores en cadena",
+    "Desafío de nivel Maestría: conectores en cadena",
     "Un texto argumentativo con los conectores borrados: restitúyelos respetando la lógica.",
     "8 min",
     [
@@ -6183,8 +6183,8 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "el-voseo-drill-3",
     "c1r-challenge-build-the-sentence",
-    "Desafío C1: construye la frase",
-    "Ordena frases largas del C1 con hendidas, subjuntivo, pasiva y régimen preposicional.",
+    "Desafío de nivel Maestría: construye la frase",
+    "Ordena frases largas del nivel Maestría con hendidas, subjuntivo, pasiva y régimen preposicional.",
     "8 min",
     [
       sec(
@@ -6216,7 +6216,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "el-voseo-drill-3",
     "c1r-challenge-express-transformations",
-    "Desafío C1: transformaciones exprés",
+    "Desafío de nivel Maestría: transformaciones exprés",
     "Una instrucción, una frase, una transformación: activa → pasiva, verbo → nombre, directo → indirecto, tú → usted, tú → vos.",
     "8 min",
     [
@@ -6255,7 +6255,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "el-voseo-drill-3",
     "c1r-challenge-text-detective",
-    "Desafío C1: detective de textos",
+    "Desafío de nivel Maestría: detective de textos",
     "Lee un fragmento narrativo complejo y responde a preguntas de comprensión, estilo y gramática.",
     "9 min",
     [
@@ -6303,7 +6303,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       fb("Completa según el texto.", "Lo que más le dolía era haber tardado tanto en darse ___.", "cuenta", "La locución es «darse cuenta» (de algo)."),
       ms(
-        "¿Qué recursos del C1 aparecen en el texto?",
+        "¿Qué recursos del nivel Maestría aparecen en el texto?",
         ["hendida", "estilo indirecto libre", "concesiva con por mucho que", "voseo"],
         [0, 1, 2],
         "En el texto aparecen una hendida, estilo indirecto libre y una concesiva con «por mucho que». No hay voseo."
@@ -6314,7 +6314,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "el-voseo-drill-3",
     "c1r-challenge-prepositions-no-hints",
-    "Desafío C1: preposiciones sin pistas",
+    "Desafío de nivel Maestría: preposiciones sin pistas",
     "Por, para, a, de, en, con: ronda final sin explicaciones previas ni verbos entre paréntesis.",
     "8 min",
     [
@@ -6348,7 +6348,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "el-voseo-drill-3",
     "c1r-challenge-conjecture-emphasis",
-    "Desafío C1: conjetura y énfasis en contexto",
+    "Desafío de nivel Maestría: conjetura y énfasis en contexto",
     "Diálogos breves donde tienes que suponer, conceder o destacar con la forma exacta.",
     "8 min",
     [
@@ -6387,7 +6387,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "el-voseo-drill-3",
     "c1r-challenge-final-formal-email",
-    "Desafío C1: misión final — el correo formal completo",
+    "Desafío de nivel Maestría: misión final — el correo formal completo",
     "Redacta, pieza a pieza, un correo formal para solicitar una beca: saludo, motivo, argumentos, petición y cierre.",
     "9 min",
     [
@@ -6431,7 +6431,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "el-voseo-drill-3",
     "c1r-challenge-variation-voseo",
-    "Desafío C1: variación, tratamiento y voseo",
+    "Desafío de nivel Maestría: variación, tratamiento y voseo",
     "Viaja por el mundo hispano en ocho situaciones: elige palabra, tratamiento y forma verbal.",
     "8 min",
     [
@@ -6480,13 +6480,13 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "el-voseo-drill-3",
     "c1r-challenge-exit-ticket",
-    "Desafío C1: examen de salida",
-    "La prueba final del nivel: una pregunta de cada gran tema del C1. Si la superas, estás listo para el C2.",
+    "Desafío de nivel Maestría: examen de salida",
+    "La prueba final del nivel: una pregunta de cada gran tema del nivel Maestría. Si la superas, estás listo para el nivel Profesional y Académico.",
     "10 min",
     [
       sec(
-        "Antes de pasar al C2",
-        "Este examen recorre el C1 completo. Si fallas una pregunta, vuelve a la lección de práctica extra de ese tema antes de empezar el C2: el C2 da por dominados todos estos contenidos.",
+        "Antes de pasar al nivel Profesional y Académico",
+        "Este examen recorre el nivel Maestría completo. Si fallas una pregunta, vuelve a la lección de práctica extra de ese tema antes de empezar el nivel Profesional y Académico: el nivel Profesional y Académico da por dominados todos estos contenidos.",
         [
           ["Pase lo que pase, sigue adelante.", "Whatever happens, keep going."],
         ],

@@ -110,10 +110,10 @@ export const EN_A1_UNIT_WRITING: Record<string, WriteExercise> = {
       "\"like\" o \"can\" para gustos y habilidades",
     ],
     "Hi Emma! My name is Diego and I'm from Chile. I'm twenty-five and I'm a nurse. I work in a hospital and my sister works there too. I like music and I can play the guitar. Right now I'm writing this email in a cafe. Write soon!",
-    "Repasa los tres pilares del A1: \"to be\" (\"I'm from Chile\"), el presente simple con \"-s\" (\"my sister works\") y el presente continuo para lo que pasa ahora (\"I'm writing\")."
+    "Repasa los tres pilares del nivel Fundamentos: \"to be\" (\"I'm from Chile\"), el presente simple con \"-s\" (\"my sister works\") y el presente continuo para lo que pasa ahora (\"I'm writing\")."
   ),
   u10: t(
-    "Describe tu fin de semana ideal: dónde estás, con quién, qué hay allí, qué hacen y por qué te gusta. Usa todo lo que sabes del A1.",
+    "Describe tu fin de semana ideal: dónde estás, con quién, qué hay allí, qué hacen y por qué te gusta. Usa todo lo que sabes del nivel Fundamentos.",
     [
       "Al menos cinco frases completas, todas con sujeto",
       "Presente simple y presente continuo",

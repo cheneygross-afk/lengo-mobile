@@ -186,7 +186,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
         sentence: "Not only ___ the exam, but she also got the highest grade in the class.",
         answer: "did she pass",
         en: "No solo [aprobó] el examen, sino que además sacó la nota más alta de la clase.",
-        explanation: "Past simple, so add \"did\" and use the base form: \"did she pass\". Remember \"pass\" = «aprobar»; «pasar un examen» is a false friend for \"take an exam\".",
+        explanation: "Past simple, so add \"did\" and use the base form: \"did she pass\". Remember \"pass\" = «aprobar» (also «pasar un examen» in many countries); «hacer / presentar un examen» is \"take an exam\".",
       },
       {
         type: "translate",
@@ -333,7 +333,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Not only did he apologize, but he also paid for the damage.",
-        tip: "Stress \"not only\" and \"also\", and keep \"did she\" light and quick: /dɪd ʃi/.",
+        tip: "Stress \"not only\" and \"also\", and keep \"did he\" light and quick: /dɪd i/.",
         explanation: "The emphasis falls on the contrast words, not on the auxiliary.",
       },
     ],

@@ -15,7 +15,7 @@ export const EN_B1_U07: Lesson[] = [
       {
         heading: "Up to now: present perfect simple or continuous?",
         body: [
-          "This unit puts together all the tenses of B1 so far. In this first part we look back at the past. The question is always the same: when did it happen, and is it finished?",
+          "This unit puts together all the tenses of the Independence level so far. In this first part we look back at the past. The question is always the same: when did it happen, and is it finished?",
           "Use the present perfect when the time is not finished or not mentioned and the result matters now: \"I've lost my keys\", \"I've read three books this month\". Use the continuous form for an activity that has been going on up to now, especially with \"how long\": \"I've been reading all morning\".",
           "Remember the Spanish trap: «vivo aquí desde 2015» is not *I live here since 2015. English needs the perfect: \"I've lived here since 2015\" or \"I've been living here since 2015\".",
         ],
@@ -591,8 +591,8 @@ export const EN_B1_U07: Lesson[] = [
     slug: "b1-error-hunt-tenses-mixed",
     level: "EN-B1",
     number: 3,
-    title: "Error Hunt: Tenses Across B1",
-    summary: "One mistake per sentence from all the B1 tense lessons: for and since, used to, when + will, had went, I have seen him yesterday and more.",
+    title: "Error Hunt: Tenses Across the Independence level",
+    summary: "One mistake per sentence from all the Independence tense lessons: for and since, used to, when + will, had went, I have seen him yesterday and more.",
     duration: "10 min",
     sections: [
       {
@@ -2186,7 +2186,7 @@ export const EN_B1_U07: Lesson[] = [
           "One future form for a plan.",
         ],
         modelAnswer: "My first job was in a small coffee shop in Valencia. I worked there as a waiter when I was eighteen. On my first day I was very nervous because I had never carried a tray before. I was taking three coffees to a table when I slipped and dropped them all! Everyone laughed, including me. Since then I've worked in two restaurants and I've learned to stay calm. Next year I'm going to open my own coffee shop.",
-        explanation: "This review uses every B1 time frame: narrative past, present perfect up to now and a future plan.",
+        explanation: "This review uses every Independence time frame: narrative past, present perfect up to now and a future plan.",
       },
     ],
   },

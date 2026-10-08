@@ -251,7 +251,7 @@ export const EN_B1_U27: Lesson[] = [
     level: "EN-B1",
     number: 2,
     title: "Adjective Order",
-    summary: "A lovely old Italian wooden table: the order English adjectives follow before a noun, plus two A1 rules that still catch people out.",
+    summary: "A lovely old Italian wooden table: the order English adjectives follow before a noun, plus two Foundations rules that still catch people out.",
     duration: "10 min",
     sections: [
       {
@@ -693,14 +693,14 @@ export const EN_B1_U27: Lesson[] = [
     slug: "b1-comparisons-advanced-1",
     level: "EN-B1",
     number: 4,
-    title: "Comparatives & Superlatives Beyond A2, Part 1 of 2",
+    title: "Comparatives & Superlatives Beyond the Gaining Fluency level, Part 1 of 2",
     summary: "Much bigger, a bit cheaper, by far the best, as good as and the same as: how to say how big a difference is, and how to say there is none.",
     duration: "12 min",
     sections: [
       {
         heading: "Much bigger, a bit bigger",
         body: [
-          "At A2 you learned comparatives: \"bigger\", \"more expensive\", \"better\". To say how big the difference is, put a word before the comparative: \"much\", \"a lot\" or \"far\" for a big difference, and \"a bit\", \"a little\" or \"slightly\" for a small one.",
+          "At the Gaining Fluency level you learned comparatives: \"bigger\", \"more expensive\", \"better\". To say how big the difference is, put a word before the comparative: \"much\", \"a lot\" or \"far\" for a big difference, and \"a bit\", \"a little\" or \"slightly\" for a small one.",
           "Spanish says «mucho más caro»; English says \"much more expensive\" or \"a lot more expensive\". Don't use \"very\" with comparatives: *very bigger is wrong.",
           "Never put \"more\" before a comparative that already ends in \"-er\" or is irregular: *more better and *more easier are very common mistakes. Say \"much better\", \"a lot easier\".",
         ],
@@ -930,7 +930,7 @@ export const EN_B1_U27: Lesson[] = [
     slug: "b1-comparisons-advanced-2",
     level: "EN-B1",
     number: 5,
-    title: "Comparatives & Superlatives Beyond A2, Part 2 of 2",
+    title: "Comparatives & Superlatives Beyond the Gaining Fluency level, Part 2 of 2",
     summary: "The more, the better; colder and colder; the least; the best I've ever seen; and whether to say \"than me\" or \"than I am\".",
     duration: "12 min",
     sections: [

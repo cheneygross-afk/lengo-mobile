@@ -15,7 +15,7 @@ export const EN_B2_U14: Lesson[] = [
       {
         heading: "Two kinds of relative clause",
         body: [
-          "At B1 you learned defining relative clauses, which tell us WHICH person or thing we mean: \"The woman who lives next door is a nurse\". Without the clause, we don't know which woman you are talking about.",
+          "At the Independence level you learned defining relative clauses, which tell us WHICH person or thing we mean: \"The woman who lives next door is a nurse\". Without the clause, we don't know which woman you are talking about.",
           "A non-defining clause adds extra information about someone or something that is already clear: \"My sister, who lives in Leeds, is a nurse\". If you only have one sister, the clause doesn't identify her; it just tells us more about her. Remove it and the sentence still works: \"My sister is a nurse\".",
           "In writing, a non-defining clause goes between commas (or between a comma and a period). In speech you hear a short pause before it and a slightly lower voice inside it. These clauses are typical of writing, the news and careful speech.",
         ],

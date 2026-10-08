@@ -14662,7 +14662,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Locuciones adverbiales de uso culto",
         "body": [
-          "En el nivel C2 no basta con reconocer una locución: hay que saber su matiz exacto. «A regañadientes» es hacer algo de mala gana pero hacerlo; «a pie juntillas» es creer algo sin la menor duda (casi siempre con «creer» o «seguir»); «a bote pronto» es responder sin haberlo pensado; «a troche y moche» es repartir algo sin orden ni medida; «de buenas a primeras» es de repente, sin aviso; «a ojo de buen cubero» es calcular a ojo, sin medir.",
+          "En el nivel Profesional y Académico no basta con reconocer una locución: hay que saber su matiz exacto. «A regañadientes» es hacer algo de mala gana pero hacerlo; «a pie juntillas» es creer algo sin la menor duda (casi siempre con «creer» o «seguir»); «a bote pronto» es responder sin haberlo pensado; «a troche y moche» es repartir algo sin orden ni medida; «de buenas a primeras» es de repente, sin aviso; «a ojo de buen cubero» es calcular a ojo, sin medir.",
           "Todas se entienden en todo el mundo hispano, aunque «a bote pronto» y «a troche y moche» son sobre todo peninsulares, y aparecen tanto en la conversación como en la prensa. Son fijas: no se dice «a pie junto» ni «a regañadiente»."
         ],
         "examples": [

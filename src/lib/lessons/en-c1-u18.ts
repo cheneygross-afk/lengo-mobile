@@ -8,14 +8,14 @@ export const EN_C1_U18: Lesson[] = [
     slug: "c1-challenge-big-error-hunt",
     level: "EN-C1",
     number: 1,
-    title: "C1 Challenge: The Big Error Hunt",
-    summary: "Find and fix the errors C1 learners still make, drawn from every unit of the level: inversion, clefts, the unreal past, collocations, false friends and more.",
+    title: "Advanced Challenge: The Big Error Hunt",
+    summary: "Find and fix the errors Advanced learners still make, drawn from every unit of the level: inversion, clefts, the unreal past, collocations, false friends and more.",
     duration: "12 min",
     sections: [
       {
         heading: "The rules of the hunt",
         body: [
-          "This challenge mixes errors from every C1 unit. Each sentence looks almost right, which is exactly how C1 errors behave: the overall structure is fine, and one small detail gives you away.",
+          "This challenge mixes errors from every Advanced unit. Each sentence looks almost right, which is exactly how Advanced errors behave: the overall structure is fine, and one small detail gives you away.",
           "Read every sentence twice: once for structure (word order after a negative opener, the verb form after \"wish\" or \"would rather\") and once for vocabulary (does this word really go with that one? is it a false friend?). The explanations appear only after you answer.",
           "In this lesson a wrong sentence is shown with an asterisk, like *Hardly I had sat down when the phone rang. The correct version is always given in full.",
         ],
@@ -55,7 +55,7 @@ export const EN_C1_U18: Lesson[] = [
       {
         heading: "Structure traps",
         body: [
-          "The most frequent structural errors at C1 come from patterns Spanish does not have. After a fronted negative (\"never\", \"rarely\", \"not only\", \"under no circumstances\") the auxiliary comes before the subject. After \"wish\", \"if only\", \"it's time\" and \"would rather\" + another subject, the verb moves one tense back.",
+          "The most frequent structural errors at Advanced come from patterns Spanish does not have. After a fronted negative (\"never\", \"rarely\", \"not only\", \"under no circumstances\") the auxiliary comes before the subject. After \"wish\", \"if only\", \"it's time\" and \"would rather\" + another subject, the verb moves one tense back.",
           "Clefts need the right word: «lo que necesito» is \"what I need\", never *That I need. The subjunctive after \"insist\", \"recommend\" and \"suggest\" uses the bare verb for every person: \"They insisted that he resign\".",
           "Participle clauses must share the subject of the main clause. «Al entrar, el olor me golpeó» cannot be *Walking in, the smell hit me (the smell did not walk in). Say \"Walking in, I noticed the smell\".",
         ],
@@ -121,7 +121,7 @@ export const EN_C1_U18: Lesson[] = [
         heading: "Vocabulary traps",
         body: [
           "Lexical errors are harder to spot because every word is correct on its own; the problem is the combination. We \"make a decision\", \"pay attention\", \"take a risk\", \"draw a conclusion\" and \"raise a question\", and we speak of \"heavy rain\" and \"strong coffee\".",
-          "False friends survive even at C1: \"actually\" is «en realidad» («actualmente» is \"currently\"), \"eventually\" is «al final», \"sensible\" is «sensato», \"assist\" is «ayudar» («asistir a» is \"attend\"), \"realize\" is «darse cuenta» and «realizar» is usually \"carry out\".",
+          "False friends survive even at the Advanced level: \"actually\" is «en realidad» («actualmente» is \"currently\"), \"eventually\" is «al final», \"sensible\" is «sensato», \"assist\" is «ayudar» («asistir a» is \"attend\"), \"realize\" is «darse cuenta» and «realizar» is usually \"carry out\".",
           "Word formation is the third trap: \"responsibility\" (not *responsability), \"unforgettable\", \"irrelevant\", \"disagreement\", \"independence\".",
         ],
         examples: [
@@ -680,15 +680,15 @@ export const EN_C1_U18: Lesson[] = [
     slug: "c1-challenge-key-word-transformations",
     level: "EN-C1",
     number: 1,
-    title: "C1 Challenge: Key-Word Transformations",
+    title: "Advanced Challenge: Key-Word Transformations",
     summary: "Say the same thing with a different structure: inversion, clefts, hedging, unreal forms and collocations, mixed together exam-style.",
     duration: "12 min",
     sections: [
       {
         heading: "How key-word transformations work",
         body: [
-          "A key-word transformation gives you one sentence and asks you to say exactly the same thing with a different structure. It is a favorite of advanced exams because it tests whether you can produce C1 grammar, not just recognize it.",
-          "In this challenge the target structure is never named. You see the meaning (in Spanish, or in a first English sentence) and you must find the C1 way of saying it: an inversion, a cleft, a passive with \"to have\", an unreal form, or a fixed collocation.",
+          "A key-word transformation gives you one sentence and asks you to say exactly the same thing with a different structure. It is a favorite of advanced exams because it tests whether you can produce Advanced grammar, not just recognize it.",
+          "In this challenge the target structure is never named. You see the meaning (in Spanish, or in a first English sentence) and you must find the Advanced way of saying it: an inversion, a cleft, a passive with \"to have\", an unreal form, or a fixed collocation.",
           "Three rules: keep the meaning identical, keep the tense logic (a past event stays past), and do not add information that is not there.",
         ],
         examples: [
@@ -727,7 +727,7 @@ export const EN_C1_U18: Lesson[] = [
       {
         heading: "Grammar transformations",
         body: [
-          "Most grammar transformations at C1 move between a plain sentence and an emphatic or formal one. A negative adverb moves to the front and inverts (\"Never had we...\"); a conditional loses \"if\" and inverts (\"Had I known...\", \"Should you need...\"); a fact is highlighted with a cleft (\"What surprised me was...\", \"It was not until... that...\").",
+          "Most grammar transformations at Advanced move between a plain sentence and an emphatic or formal one. A negative adverb moves to the front and inverts (\"Never had we...\"); a conditional loses \"if\" and inverts (\"Had I known...\", \"Should you need...\"); a fact is highlighted with a cleft (\"What surprised me was...\", \"It was not until... that...\").",
           "Reporting verbs give the hedged passive: \"It is thought that the fire started...\" becomes \"The fire is thought to have started...\". Use the perfect infinitive (\"to have started\") when the event is earlier than the moment of thinking.",
           "Regrets become wishes with one tense back: \"I regret not going\" is \"I wish I had gone\"; \"I'd prefer you not to tell anyone\" is \"I'd rather you didn't tell anyone\".",
         ],
@@ -1032,7 +1032,7 @@ export const EN_C1_U18: Lesson[] = [
     slug: "c1-challenge-inversion-clefts",
     level: "EN-C1",
     number: 1,
-    title: "C1 Challenge: Inversion and Clefts Without Hints",
+    title: "Advanced Challenge: Inversion and Clefts Without Hints",
     summary: "Rapid-fire production of negative inversion, conditional inversion, \"so\" and \"such\" inversion, and every type of cleft sentence.",
     duration: "10 min",
     sections: [
@@ -2053,14 +2053,14 @@ export const EN_C1_U18: Lesson[] = [
     slug: "c1-challenge-hedging-cohesion",
     level: "EN-C1",
     number: 1,
-    title: "C1 Challenge: Hedging and Cohesion",
+    title: "Advanced Challenge: Hedging and Cohesion",
     summary: "Rewrite overconfident, repetitive texts so that they sound careful and flow: hedges, reference words, substitution and linking.",
     duration: "12 min",
     sections: [
       {
         heading: "Hedging: calibrate the claim",
         body: [
-          "A C1 writer adjusts every claim to the evidence. The toolkit: modals (\"may\", \"might\", \"could\"), verbs (\"seem\", \"appear\", \"tend to\", \"suggest\", \"indicate\"), adverbs (\"arguably\", \"presumably\", \"largely\", \"to some extent\") and likelihood phrases (\"is likely to\", \"there is some evidence that\").",
+          "An Advanced writer adjusts every claim to the evidence. The toolkit: modals (\"may\", \"might\", \"could\"), verbs (\"seem\", \"appear\", \"tend to\", \"suggest\", \"indicate\"), adverbs (\"arguably\", \"presumably\", \"largely\", \"to some extent\") and likelihood phrases (\"is likely to\", \"there is some evidence that\").",
           "Spanish openers like «Es evidente que», «Está demostrado que» or «Sin duda» often need softening in English. Never stack hedges, though: *It might possibly perhaps suggest sounds evasive.",
           "\"Likely\" is an adjective, so it needs \"be\": \"Prices are likely to rise\", or \"It is likely that prices will rise\". *Prices will likely to rise is a common error.",
         ],
@@ -2386,7 +2386,7 @@ export const EN_C1_U18: Lesson[] = [
     slug: "c1-challenge-collocations-idioms",
     level: "EN-C1",
     number: 1,
-    title: "C1 Challenge: Collocations and Idioms",
+    title: "Advanced Challenge: Collocations and Idioms",
     summary: "A mixed lexical challenge: verb and adverb collocations, everyday idioms and binomials, and the false friends that still catch advanced learners.",
     duration: "12 min",
     sections: [
@@ -2394,7 +2394,7 @@ export const EN_C1_U18: Lesson[] = [
         heading: "Collocations",
         body: [
           "Collocations are the word partnerships that native speakers choose without thinking. Verb + noun: \"make a decision\", \"reach an agreement\", \"meet a deadline\", \"raise a question\", \"draw a conclusion\", \"run a business\", \"pay a visit\". Adjective + noun: \"heavy traffic\", \"a strong accent\", \"a narrow escape\".",
-          "Adverb + adjective is the C1 level of precision: \"highly unlikely\", \"deeply concerned\", \"bitterly disappointed\", \"fully aware\", \"painfully slow\", \"utterly ridiculous\". \"Very\" is never wrong, but it is rarely the best choice.",
+          "Adverb + adjective is the Advanced level of precision: \"highly unlikely\", \"deeply concerned\", \"bitterly disappointed\", \"fully aware\", \"painfully slow\", \"utterly ridiculous\". \"Very\" is never wrong, but it is rarely the best choice.",
           "Dependent prepositions are the last trap: \"depend on\" (not *of), \"consist of\", \"responsible for\", \"married to\" (not *with), \"interested in\", \"the reason for\".",
         ],
         examples: [
@@ -2802,7 +2802,7 @@ export const EN_C1_U18: Lesson[] = [
     slug: "c1-challenge-word-formation",
     level: "EN-C1",
     number: 1,
-    title: "C1 Challenge: Word Formation",
+    title: "Advanced Challenge: Word Formation",
     summary: "Build the right word every time: negative prefixes, noun and adjective suffixes, tricky spellings and compound words.",
     duration: "10 min",
     sections: [
@@ -2896,7 +2896,7 @@ export const EN_C1_U18: Lesson[] = [
         heading: "Compounds",
         body: [
           "Compound adjectives with numbers have no plural: \"a ten-minute walk\", \"a three-year-old girl\", \"a five-star hotel\". The typical error is *a ten-minutes walk.",
-          "Many C1 nouns are compounds built from phrasal verbs: \"breakthrough\" («gran avance»), \"outcome\" («resultado»), \"drawback\" («inconveniente»), \"setback\" («revés»), \"upbringing\" («educación», «crianza»), \"outbreak\" («brote»), \"turnout\" («participación»).",
+          "Many Advanced nouns are compounds built from phrasal verbs: \"breakthrough\" («gran avance»), \"outcome\" («resultado»), \"drawback\" («inconveniente»), \"setback\" («revés»), \"upbringing\" («educación», «crianza»), \"outbreak\" («brote»), \"turnout\" («participación»).",
         ],
         examples: [
           {
@@ -2923,7 +2923,7 @@ export const EN_C1_U18: Lesson[] = [
             prompt: "Translate into English.",
             source: "Es un paseo de diez minutos.",
             answer: "It's a ten-minute walk.",
-            altAnswers: ["It's a ten minute walk.", "It's a ten minutes' walk.", "It's ten minutes' walk."],
+            altAnswers: ["It's a ten minute walk.", "It's ten minutes' walk."],
             explanation: "In a compound adjective the noun stays singular: \"a ten-minute walk\". Without the hyphen pattern you can also say \"ten minutes' walk\".",
           },
         ],
@@ -2963,7 +2963,7 @@ export const EN_C1_U18: Lesson[] = [
         answer: "resilience",
         altAnswers: ["strength"],
         en: "La empresa ha demostrado una [capacidad de resistencia] notable en un mercado difícil.",
-        explanation: "\"Resilience\" (from \"resilient\") is the C1 word for the ability to recover from difficulties.",
+        explanation: "\"Resilience\" (from \"resilient\") is the Advanced word for the ability to recover from difficulties.",
       },
       {
         type: "multiple-choice",
@@ -3202,7 +3202,7 @@ export const EN_C1_U18: Lesson[] = [
     slug: "c1-challenge-register-marathon",
     level: "EN-C1",
     number: 1,
-    title: "C1 Challenge: Register Marathon",
+    title: "Advanced Challenge: Register Marathon",
     summary: "Move the same message up and down the register ladder: formal, neutral and informal, with the right vocabulary, grammar and degree of politeness.",
     duration: "12 min",
     sections: [
@@ -3571,8 +3571,8 @@ export const EN_C1_U18: Lesson[] = [
     slug: "c1-challenge-final-formal-email",
     level: "EN-C1",
     number: 1,
-    title: "C1 Challenge: The Final Formal Email",
-    summary: "Write a complete formal email that integrates C1 structures: the right openings and closings, inversion, nominalization, participle clauses and a firm but polite tone.",
+    title: "Advanced Challenge: The Final Formal Email",
+    summary: "Write a complete formal email that integrates Advanced structures: the right openings and closings, inversion, nominalization, participle clauses and a firm but polite tone.",
     duration: "12 min",
     sections: [
       {
@@ -3692,9 +3692,9 @@ export const EN_C1_U18: Lesson[] = [
         ],
       },
       {
-        heading: "C1 structures that raise the level",
+        heading: "Advanced structures that raise the level",
         body: [
-          "A C1 email does not need to be complicated, but a few structures make it sound polished: conditional inversion (\"Should you require further information...\"), nominalization (\"Following the cancellation of my flight...\"), participle clauses (\"Having reviewed your proposal, we...\"), clefts (\"What concerns me most is...\"), and hedging (\"It would appear that there has been a misunderstanding\").",
+          "An Advanced email does not need to be complicated, but a few structures make it sound polished: conditional inversion (\"Should you require further information...\"), nominalization (\"Following the cancellation of my flight...\"), participle clauses (\"Having reviewed your proposal, we...\"), clefts (\"What concerns me most is...\"), and hedging (\"It would appear that there has been a misunderstanding\").",
           "Use each structure once or twice. An email with an inversion in every sentence sounds like a parody.",
         ],
         examples: [
@@ -3944,7 +3944,7 @@ export const EN_C1_U18: Lesson[] = [
         answer: "Should",
         altAnswers: ["If"],
         en: "[Si] necesita más información, no dude en ponerse en contacto conmigo.",
-        explanation: "Conditional inversion with \"should\" is the most typical C1 touch in a formal email. \"If\" is also correct, but less formal.",
+        explanation: "Conditional inversion with \"should\" is the most typical Advanced touch in a formal email. \"If\" is also correct, but less formal.",
       },
       {
         type: "translate",
@@ -4042,13 +4042,13 @@ export const EN_C1_U18: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "You booked a double room with a sea view for three nights at the Hotel Marina. You got a small room facing the parking lot, the air conditioning did not work, and nobody at reception helped you. Write a formal complaint email to the hotel manager asking for a partial refund. Use at least three C1 structures (for example inversion, a participle clause, a cleft or nominalization).",
+        prompt: "You booked a double room with a sea view for three nights at the Hotel Marina. You got a small room facing the parking lot, the air conditioning did not work, and nobody at reception helped you. Write a formal complaint email to the hotel manager asking for a partial refund. Use at least three Advanced structures (for example inversion, a participle clause, a cleft or nominalization).",
         minWords: 150,
         maxWords: 220,
         rubric: [
           "Correct greeting, opening line (I am writing to...) and sign-off.",
           "Clear paragraphs: context, problems, consequences, request.",
-          "At least three C1 structures: inversion, participle clause, cleft, nominalization or hedging.",
+          "At least three Advanced structures: inversion, participle clause, cleft, nominalization or hedging.",
           "Firm but polite tone: no capitals, exclamation marks or threats.",
           "A specific request (partial refund) and a closing line that expects a reply.",
         ],
@@ -4061,7 +4061,7 @@ export const EN_C1_U18: Lesson[] = [
     slug: "c1-challenge-essay",
     level: "EN-C1",
     number: 1,
-    title: "C1 Challenge: The Essay",
+    title: "Advanced Challenge: The Essay",
     summary: "Write a full discursive essay under exam-style conditions: a clear structure, balanced arguments, a counterargument with a rebuttal, and precise academic language.",
     duration: "12 min",
     sections: [
@@ -4780,7 +4780,7 @@ export const EN_C1_U18: Lesson[] = [
     slug: "c1-challenge-uk-us",
     level: "EN-C1",
     number: 1,
-    title: "C1 Challenge: British vs American",
+    title: "Advanced Challenge: British vs American",
     summary: "A mixed challenge on the vocabulary, spelling and grammar that separate British and American English, and on when the difference really matters.",
     duration: "10 min",
     sections: [
@@ -5103,14 +5103,14 @@ export const EN_C1_U18: Lesson[] = [
     slug: "c1-challenge-translation-relay",
     level: "EN-C1",
     number: 1,
-    title: "C1 Challenge: Translation Relay",
-    summary: "A relay of Spanish sentences to translate into natural English, each one built around an interference error that Spanish speakers still make at C1.",
+    title: "Advanced Challenge: Translation Relay",
+    summary: "A relay of Spanish sentences to translate into natural English, each one built around an interference error that Spanish speakers still make at the Advanced level.",
     duration: "12 min",
     sections: [
       {
-        heading: "Interference at C1",
+        heading: "Interference at the Advanced level",
         body: [
-          "By C1 your English is fluent, but Spanish still pulls in the background. The errors that survive are small and frequent: *explain me (instead of \"explain to me\"), *depend of (\"depend on\"), *discuss about (\"discuss\"), *advices and *informations (both uncountable), *people is (\"people are\"), and \"the\" with general nouns.",
+          "By the Advanced level your English is fluent, but Spanish still pulls in the background. The errors that survive are small and frequent: *explain me (instead of \"explain to me\"), *depend of (\"depend on\"), *discuss about (\"discuss\"), *advices and *informations (both uncountable), *people is (\"people are\"), and \"the\" with general nouns.",
           "Time expressions are another source: «llevo tres años aquí» is \"I have been here for three years\", not *I am here since three years. «Hace tres años» is \"three years ago\".",
           "In this relay, translate the meaning, not the words. If your English sentence follows the Spanish word order exactly, check it twice.",
         ],
@@ -5473,8 +5473,8 @@ export const EN_C1_U18: Lesson[] = [
     slug: "c1-challenge-text-detective",
     level: "EN-C1",
     number: 1,
-    title: "C1 Challenge: Text Detective",
-    summary: "Analyze a dense opinion text: understand its argument, spot the C1 structures it uses, and read between the lines for reference, attitude and implication.",
+    title: "Advanced Challenge: Text Detective",
+    summary: "Analyze a dense opinion text: understand its argument, spot the Advanced structures it uses, and read between the lines for reference, attitude and implication.",
     duration: "12 min",
     sections: [
       {
@@ -5524,7 +5524,7 @@ export const EN_C1_U18: Lesson[] = [
       {
         heading: "Spot the structures",
         body: [
-          "The text is a showcase of C1 grammar: a negative inversion (\"Rarely has...\"), a participle clause (\"having been given...\"), a \"what\" cleft (\"What the early trials appear to show... is\"), and two conditional inversions (\"Were hospitals... to cut\", \"Had the trials lasted longer\").",
+          "The text is a showcase of Advanced grammar: a negative inversion (\"Rarely has...\"), a participle clause (\"having been given...\"), a \"what\" cleft (\"What the early trials appear to show... is\"), and two conditional inversions (\"Were hospitals... to cut\", \"Had the trials lasted longer\").",
           "It is also full of hedges: \"appear to\", \"seems to\", \"arguably\", \"could\", \"might\", \"may\". And it uses \"the very\" for emphasis («precisamente ese») and \"hardly\" as a negative («apenas», «ni mucho menos»).",
         ],
         examples: [
@@ -5800,7 +5800,7 @@ export const EN_C1_U18: Lesson[] = [
             right: "socavar",
           },
         ],
-        explanation: "All four are typical of C1 journalistic English. \"Wear off\" is used for effects, novelty and medicines.",
+        explanation: "All four are typical of Advanced journalistic English. \"Wear off\" is used for effects, novelty and medicines.",
       },
       {
         type: "translate",
@@ -5927,15 +5927,15 @@ export const EN_C1_U18: Lesson[] = [
     slug: "c1-exit-test",
     level: "EN-C1",
     number: 1,
-    title: "C1 Exit Test",
-    summary: "The final test of the level: grammar, vocabulary, register and writing from every C1 unit. Pass it and you are ready for C2.",
+    title: "Advanced Exit Test",
+    summary: "The final test of the level: grammar, vocabulary, register and writing from every Advanced unit. Pass it and you are ready for the Mastery level.",
     duration: "12 min",
     sections: [
       {
         heading: "How the exit test works",
         body: [
-          "This test covers every C1 unit: inversion, clefts, nominalization, ellipsis and substitution, hedging, discourse markers, participle clauses, the unreal past and the subjunctive, collocations, idioms, word formation, false friends, formal writing and British and American English.",
-          "There are no hints. Read each item carefully, answer, and only then read the explanation. If you get about four out of five right, you are ready for C2. If not, the explanations tell you which unit to review.",
+          "This test covers every Advanced unit: inversion, clefts, nominalization, ellipsis and substitution, hedging, discourse markers, participle clauses, the unreal past and the subjunctive, collocations, idioms, word formation, false friends, formal writing and British and American English.",
+          "There are no hints. Read each item carefully, answer, and only then read the explanation. If you get about four out of five right, you are ready for the Mastery level. If not, the explanations tell you which unit to review.",
           "The recap sections below are short on purpose: they remind you of the key ideas, then test you straight away.",
         ],
         examples: [
@@ -6484,7 +6484,7 @@ export const EN_C1_U18: Lesson[] = [
         rubric: [
           "Correct greeting, purpose in the first sentence (I am writing to...) and formal sign-off.",
           "Clear facts and consequences, with a firm but polite tone.",
-          "At least three C1 structures: inversion, cleft, participle clause, nominalization or hedging.",
+          "At least three Advanced structures: inversion, cleft, participle clause, nominalization or hedging.",
           "A specific request and a closing line (I look forward to hearing from you).",
         ],
         modelAnswer: "Dear Mr. Harris,\n\nI am writing regarding the hotel booking made for me through your office for the Digital Health Conference, held from 4 to 6 March.\n\nOn arriving at the Hotel Central, I was informed that my reservation had been canceled. At no time had I been notified of this cancellation. Having no other option, I booked a room at a nearby hotel at a cost of 450 euros, which is considerably more than the original rate.\n\nWhat I find most disappointing is that nobody from the organizing team was available to help. It would appear that there was a communication problem between your office and the hotel.\n\nI would therefore be grateful if you could reimburse the additional cost. Please find attached the relevant receipts.\n\nI look forward to hearing from you.\n\nYours sincerely,\nDiego Martin",

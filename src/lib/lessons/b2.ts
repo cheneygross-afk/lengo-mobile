@@ -1528,7 +1528,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Contraste con las condiciones reales",
         "body": [
-          "Recuerda la diferencia: si + presente indicativo describe condiciones reales o probables (B1). Si + imperfecto de subjuntivo describe algo hipotético, poco probable, o contrario a la realidad presente."
+          "Recuerda la diferencia: si + presente indicativo describe condiciones reales o probables (Intermedio). Si + imperfecto de subjuntivo describe algo hipotético, poco probable, o contrario a la realidad presente."
         ],
         "examples": [
           {
@@ -10280,8 +10280,8 @@ const B2_BASE_LESSONS: Lesson[] = [
     "slug": "b2-vocabulary-practice-1",
     "level": "B2",
     "number": 52,
-    "title": "B2 Vocabulary Practice, Part 1 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario de B2, organizadas por lección.",
+    "title": "Advanced Vocabulary Practice, Part 1 of 10",
+    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
     "duration": "6 min",
     "sections": [
       {
@@ -10550,8 +10550,8 @@ const B2_BASE_LESSONS: Lesson[] = [
     "slug": "b2-vocabulary-practice-2",
     "level": "B2",
     "number": 53,
-    "title": "B2 Vocabulary Practice, Part 2 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario de B2, organizadas por lección.",
+    "title": "Advanced Vocabulary Practice, Part 2 of 10",
+    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
     "duration": "7 min",
     "sections": [
       {
@@ -10812,8 +10812,8 @@ const B2_BASE_LESSONS: Lesson[] = [
     "slug": "b2-vocabulary-practice-3",
     "level": "B2",
     "number": 54,
-    "title": "B2 Vocabulary Practice, Part 3 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario de B2, organizadas por lección.",
+    "title": "Advanced Vocabulary Practice, Part 3 of 10",
+    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
     "duration": "7 min",
     "sections": [
       {
@@ -11094,8 +11094,8 @@ const B2_BASE_LESSONS: Lesson[] = [
     "slug": "b2-vocabulary-practice-4",
     "level": "B2",
     "number": 55,
-    "title": "B2 Vocabulary Practice, Part 4 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario de B2, organizadas por lección.",
+    "title": "Advanced Vocabulary Practice, Part 4 of 10",
+    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
     "duration": "7 min",
     "sections": [
       {
@@ -11361,8 +11361,8 @@ const B2_BASE_LESSONS: Lesson[] = [
     "slug": "b2-vocabulary-practice-5",
     "level": "B2",
     "number": 56,
-    "title": "B2 Vocabulary Practice, Part 5 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario de B2, organizadas por lección.",
+    "title": "Advanced Vocabulary Practice, Part 5 of 10",
+    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
     "duration": "8 min",
     "sections": [
       {
@@ -11639,8 +11639,8 @@ const B2_BASE_LESSONS: Lesson[] = [
     "slug": "b2-vocabulary-practice-6",
     "level": "B2",
     "number": 57,
-    "title": "B2 Vocabulary Practice, Part 6 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario de B2, organizadas por lección.",
+    "title": "Advanced Vocabulary Practice, Part 6 of 10",
+    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
     "duration": "8 min",
     "sections": [
       {
@@ -11921,8 +11921,8 @@ const B2_BASE_LESSONS: Lesson[] = [
     "slug": "b2-vocabulary-practice-7",
     "level": "B2",
     "number": 58,
-    "title": "B2 Vocabulary Practice, Part 7 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario de B2, organizadas por lección.",
+    "title": "Advanced Vocabulary Practice, Part 7 of 10",
+    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
     "duration": "8 min",
     "sections": [
       {
@@ -12204,8 +12204,8 @@ const B2_BASE_LESSONS: Lesson[] = [
     "slug": "b2-vocabulary-practice-8",
     "level": "B2",
     "number": 59,
-    "title": "B2 Vocabulary Practice, Part 8 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario de B2, organizadas por lección.",
+    "title": "Advanced Vocabulary Practice, Part 8 of 10",
+    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
     "duration": "8 min",
     "sections": [
       {
@@ -12466,8 +12466,8 @@ const B2_BASE_LESSONS: Lesson[] = [
     "slug": "b2-vocabulary-practice-9",
     "level": "B2",
     "number": 60,
-    "title": "B2 Vocabulary Practice, Part 9 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario de B2, organizadas por lección.",
+    "title": "Advanced Vocabulary Practice, Part 9 of 10",
+    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
     "duration": "8 min",
     "sections": [
       {
@@ -12748,8 +12748,8 @@ const B2_BASE_LESSONS: Lesson[] = [
     "slug": "b2-vocabulary-practice-10",
     "level": "B2",
     "number": 61,
-    "title": "B2 Vocabulary Practice, Part 10 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario de B2, organizadas por lección.",
+    "title": "Advanced Vocabulary Practice, Part 10 of 10",
+    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
     "duration": "8 min",
     "sections": [
       {
@@ -13015,8 +13015,8 @@ const B2_BASE_LESSONS: Lesson[] = [
     "slug": "b2-comprehensive-review-1",
     "level": "B2",
     "number": 62,
-    "title": "B2 Comprehensive Review, Part 1 of 3",
-    "summary": "Repasa cada principio gramatical de B2 y luego realiza un examen final de 30 preguntas.",
+    "title": "Advanced Comprehensive Review, Part 1 of 3",
+    "summary": "Repasa cada principio gramatical del nivel Avanzado y luego realiza un examen final de 30 preguntas.",
     "duration": "7 min",
     "sections": [
       {
@@ -13138,8 +13138,8 @@ const B2_BASE_LESSONS: Lesson[] = [
     "slug": "b2-comprehensive-review-2",
     "level": "B2",
     "number": 63,
-    "title": "B2 Comprehensive Review, Part 2 of 3",
-    "summary": "Repasa cada principio gramatical de B2 y luego realiza un examen final de 30 preguntas.",
+    "title": "Advanced Comprehensive Review, Part 2 of 3",
+    "summary": "Repasa cada principio gramatical del nivel Avanzado y luego realiza un examen final de 30 preguntas.",
     "duration": "7 min",
     "sections": [
       {
@@ -13273,8 +13273,8 @@ const B2_BASE_LESSONS: Lesson[] = [
     "slug": "b2-comprehensive-review-3",
     "level": "B2",
     "number": 64,
-    "title": "B2 Comprehensive Review, Part 3 of 3",
-    "summary": "Repasa cada principio gramatical de B2 y luego realiza un examen final de 30 preguntas.",
+    "title": "Advanced Comprehensive Review, Part 3 of 3",
+    "summary": "Repasa cada principio gramatical del nivel Avanzado y luego realiza un examen final de 30 preguntas.",
     "duration": "7 min",
     "sections": [
       {
@@ -13355,7 +13355,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "right": "reportar lo que alguien más dijo"
           }
         ],
-        "explanation": "Cada estructura gramatical de B2 tiene un uso comunicativo específico."
+        "explanation": "Cada estructura gramatical del nivel Avanzado tiene un uso comunicativo específico."
       },
       {
         "type": "multi-select",

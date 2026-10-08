@@ -340,7 +340,7 @@ export const EN_C2_U09: Lesson[] = [
       {
         heading: "Intensifier collocations: downright rude, sheer luck",
         body: [
-          "Many intensifiers have favourite partners, and using the right one is a strong C2 marker. \"Downright\" goes with negative words: \"downright rude\", \"downright dangerous\", \"a downright lie\". \"Utterly\" prefers negative or extreme ones: \"utterly ridiculous\", \"utterly pointless\". \"Highly\" goes with words of probability and evaluation: \"highly unlikely\", \"highly recommended\", \"highly successful\" (never *highly tired).",
+          "Many intensifiers have favourite partners, and using the right one is a strong Mastery marker. \"Downright\" goes with negative words: \"downright rude\", \"downright dangerous\", \"a downright lie\". \"Utterly\" prefers negative or extreme ones: \"utterly ridiculous\", \"utterly pointless\". \"Highly\" goes with words of probability and evaluation: \"highly unlikely\", \"highly recommended\", \"highly successful\" (never *highly tired).",
           "\"Sheer\" and \"pure\" intensify nouns: \"sheer luck\" («pura suerte», «chiripa»), \"sheer madness\", \"sheer coincidence\", \"pure chance\". \"Complete\" and \"total\" do the same: \"a complete waste of time\", \"a total disaster\".",
           "Superlatives have their own intensifiers: \"by far the best\", \"easily the best\", \"the best by far\", \"the very best\". \"The very\" also marks exactness: \"the very thing I needed\" («justo lo que necesitaba»), \"at the very end\", \"on that very day\".",
           "Strongly held opinions can be boosted with \"of all\": \"He, of all people, should know better\" («Él, precisamente él...»), \"today of all days\".",
@@ -521,7 +521,7 @@ export const EN_C2_U09: Lesson[] = [
         body: [
           "Positive evaluation climbs a ladder: \"good\" → \"great\" → \"excellent\" → \"superb\" → \"outstanding\". \"Good\" and \"great\" are gradable and everyday; \"superb\", \"outstanding\", \"magnificent\" and \"exceptional\" are extreme and sound more considered, so they suit reviews, references and speeches.",
           "Informal speech has its own top rung: \"amazing\", \"incredible\", \"fantastic\", \"brilliant\" (very British), \"awesome\" (very American). These are now so common that they have lost some of their force, which is why natives keep stacking them: \"absolutely amazing\".",
-          "Spanish speakers tend to overuse \"very good\" and \"very nice\". At C2, choose the rung: a meal can be \"decent\", \"good\", \"delicious\", \"superb\"; a performance can be \"solid\", \"impressive\", \"outstanding\".",
+          "Spanish speakers tend to overuse \"very good\" and \"very nice\". At the Mastery level, choose the rung: a meal can be \"decent\", \"good\", \"delicious\", \"superb\"; a performance can be \"solid\", \"impressive\", \"outstanding\".",
         ],
         examples: [
           { es: "The hotel was good, but nothing special.", en: "El hotel estaba bien, pero nada del otro mundo." },
@@ -607,7 +607,7 @@ export const EN_C2_U09: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "After the hike we were absolutely ___.",
             answer: "exhausted",
-            altAnswers: ["shattered", "worn out", "knackered", "starving", "famished"],
+            altAnswers: ["shattered", "worn out", "knackered"],
             en: "Después de la excursión estábamos [agotadísimos].",
             explanation: "«Agotadísimos» calls for an extreme adjective after \"absolutely\": \"exhausted\" (or British \"shattered\").",
           },
@@ -643,7 +643,7 @@ export const EN_C2_U09: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The film was ___ funny; I cried with laughter.",
+        sentence: "The film was ___; I cried with laughter.",
         answer: "absolutely hilarious",
         altAnswers: ["hilarious", "really hilarious", "totally hilarious", "utterly hilarious"],
         en: "La película era [divertidísima]; lloré de la risa.",
@@ -1057,7 +1057,7 @@ export const EN_C2_U09: Lesson[] = [
         sentence: "Take the bend ___; the road is icy.",
         answer: "nice and slowly",
         altAnswers: ["nice and slow", "slowly", "nice and carefully", "really slowly", "very slowly", "nice and gently"],
-        en: "Coge la curva [despacito]; la carretera tiene hielo.",
+        en: "Toma la curva [despacito]; la carretera tiene hielo.",
         explanation: "«Despacito» is \"nice and slowly\" (informal \"nice and slow\"): the pattern adds the reassuring tone of the diminutive.",
       },
       {
@@ -1348,7 +1348,7 @@ export const EN_C2_U09: Lesson[] = [
     slug: "c2-vocab-affixes",
     level: "EN-C2",
     number: 7,
-    title: "C2 vocabulary: prefixes and suffixes",
+    title: "Mastery vocabulary: prefixes and suffixes",
     summary: "Negative prefixes Spanish speakers get wrong (*unpossible, *inresponsible, *unhonest), precise prefixes (mis-, non-, quasi-, pseudo-, counter-), productive suffixes (-wise, -esque, -ism, -ize) and the stress shifts inside word families.",
     duration: "12 min",
     sections: [

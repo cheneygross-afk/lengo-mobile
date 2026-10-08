@@ -195,7 +195,7 @@ export const EN_C2_U32_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi abuela siempre decía: «El que madruga, coge el mejor sitio».",
+        source: "Mi abuela siempre decía: «El que madruga, consigue el mejor sitio».",
         answer: "My grandmother always said, \"The early bird gets the best seat.\"",
         altAnswers: [
           "My grandma always said, \"The early bird gets the best seat.\"",

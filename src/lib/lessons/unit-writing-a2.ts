@@ -146,6 +146,6 @@ export const A2_UNIT_WRITING: Record<string, WriteExercise> = {
     "Imagine you spent a week in Buenos Aires. Write a postcard to a friend: what the city was like, three things you did, what you liked most and what you're going to do next time.",
     ["Greeting and sign-off for a postcard", "Imperfect for description, preterite for actions", "A superlative or comparison", "A future plan (la próxima vez voy a… / iré…)"],
     "¡Hola, Marta! Pasé una semana increíble en Buenos Aires. La ciudad era enorme y había mucha gente en la calle. Visité La Boca, fui a un partido de fútbol y aprendí a bailar tango. Lo mejor fue la comida: ¡el asado más rico del mundo! La próxima vez iré a la Patagonia. Besos, Julia",
-    "A2 in one postcard: past description (era, había), events (visité, fui, aprendí), a superlative (el más rico) and a plan (iré)."
+    "Elementary in one postcard: past description (era, había), events (visité, fui, aprendí), a superlative (el más rico) and a plan (iré)."
   ),
 };

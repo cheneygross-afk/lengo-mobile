@@ -487,7 +487,7 @@ export const EN_C2_U08: Lesson[] = [
         body: [
           "Institutional euphemism is not only a matter of vocabulary. The agentless passive removes the person responsible: \"Mistakes were made\" (by whom?), \"Errors have occurred\". Nominalization turns actions into things: \"the closure of the plant\" instead of \"we are closing the plant\". Vague verbs replace precise ones: \"impact\", \"affect\", \"address\".",
           "Other tools are the conditional of distance (\"we would like to apologize for any inconvenience this may have caused\": not quite an admission that it did), positive framing (\"an opportunity to grow\" for a demotion) and the time-shifting \"going forward\", which quietly moves attention away from the past.",
-          "Why do institutions talk like this? To avoid legal liability, to calm markets and employees, to avoid alarming the public, and sometimes simply out of habit. At C2 you should be able to both recognize spin and, when necessary, use measured, tactful language yourself, without crossing into dishonesty.",
+          "Why do institutions talk like this? To avoid legal liability, to calm markets and employees, to avoid alarming the public, and sometimes simply out of habit. At the Mastery level you should be able to both recognize spin and, when necessary, use measured, tactful language yourself, without crossing into dishonesty.",
         ],
         examples: [
           { es: "Mistakes were made.", en: "Se cometieron errores. (sin decir quién)" },

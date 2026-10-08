@@ -935,7 +935,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "ser-estar-haber-nuanced-2",
     "b2r-error-hunt-ser-estar-haber",
-    "Caza de errores: ser, estar y haber en el B2",
+    "Caza de errores: ser, estar y haber en el nivel Avanzado",
     "Los errores que siguen apareciendo en niveles avanzados: eventos, resultados, existencia y adjetivos de doble sentido.",
     "7 min",
     [
@@ -1501,7 +1501,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     "cuyo-el-cual-2",
     "b2r-spiral-subjunctive-universe",
     "Repaso en espiral: el universo del subjuntivo",
-    "Lecciones 1–11 del B2: relativas, adverbiales, imperfecto de subjuntivo y condicionales de tipo 2 y 3.",
+    "Lecciones 1–11 del nivel Avanzado: relativas, adverbiales, imperfecto de subjuntivo y condicionales de tipo 2 y 3.",
     "9 min",
     [
       sec(
@@ -1542,12 +1542,12 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     "cuyo-el-cual-2",
     "b2r-spiral-precision-tools",
     "Repaso en espiral: las herramientas de precisión",
-    "Lecciones 12–24 del B2: estilo indirecto, ser/estar/haber, verbos de cambio, conectores, énfasis y relativos.",
+    "Lecciones 12–24 del nivel Avanzado: estilo indirecto, ser/estar/haber, verbos de cambio, conectores, énfasis y relativos.",
     "9 min",
     [
       sec(
         "Una noticia",
-        "Lee la noticia y localiza cada herramienta del B2.",
+        "Lee la noticia y localiza cada herramienta del nivel Avanzado.",
         [
           ["El alcalde declaró que el nuevo parque estaría listo en junio.", "The mayor stated that the new park would be ready in June."],
           ["Sin embargo, los vecinos, cuyas quejas se han multiplicado, se han puesto nerviosos.", "However, the residents, whose complaints have multiplied, have become nervous."],
@@ -1555,7 +1555,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           mt(
-            "Relaciona cada fragmento con la herramienta del B2.",
+            "Relaciona cada fragmento con la herramienta del nivel Avanzado.",
             [
               ["declaró que estaría listo", "estilo indirecto"],
               ["cuyas quejas", "relativo posesivo"],
@@ -3161,12 +3161,12 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b2-comprehensive-review-3",
     "b2r-challenge-big-error-hunt",
-    "Desafío B2: la gran caza de errores",
-    "Comienza el desafío final del B2: un error por frase, de todos los temas del nivel.",
+    "Desafío de nivel Avanzado: la gran caza de errores",
+    "Comienza el desafío final del nivel Avanzado: un error por frase, de todos los temas del nivel.",
     "9 min",
     [
       sec(
-        "La lista de control del B2",
+        "La lista de control del nivel Avanzado",
         "Relativas (¿existe el antecedente?), adverbiales (¿futuro o hábito?), secuencia de tiempos, condicionales (nunca condicional tras el si condicional; tras el si de una pregunta indirecta, sí: \"No sé si vendría\"), estilo indirecto, ser/estar/haber, verbos de cambio, conectores, énfasis, cuyo.",
         [
           ["✗ Si tendría tiempo, iría. → ✓ Si tuviera tiempo, iría.", "If I had time, I'd go."],
@@ -3206,7 +3206,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b2-comprehensive-review-3",
     "b2r-challenge-dialogue-marathon",
-    "Desafío B2: maratón de diálogos",
+    "Desafío de nivel Avanzado: maratón de diálogos",
     "Cuatro escenas: una negociación, un reencuentro, una consulta y una discusión de pareja.",
     "9 min",
     [
@@ -3260,7 +3260,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
           ["Me dijo que lo sentía.", "estilo indirecto"],
           ["Fue él quien empezó.", "énfasis"],
         ],
-        "Cuatro funciones del B2."
+        "Cuatro funciones del nivel Avanzado."
       ),
       toEs("I wish we had talked earlier.", "Ojalá hubiéramos hablado antes.", "«Ojalá» + pluscuamperfecto de subjuntivo expresa lamento por algo pasado.", ["Ojalá hubiésemos hablado antes.", "Ojalá que hubiéramos hablado antes."]),
       wo("No es que no te quiera, es que necesito tiempo.", "No es que + subjuntivo, es que + indicativo.", "It's not that I don't love you, it's that I need time."),
@@ -3269,8 +3269,8 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b2-comprehensive-review-3",
     "b2r-challenge-translation-relay",
-    "Desafío B2: relevo de traducción",
-    "Traduce en ambas direcciones, un tema del B2 tras otro.",
+    "Desafío de nivel Avanzado: relevo de traducción",
+    "Traduce en ambas direcciones, un tema del nivel Avanzado tras otro.",
     "9 min",
     [
       sec(
@@ -3298,13 +3298,13 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b2-comprehensive-review-3",
     "b2r-challenge-build-a-sentence",
-    "Desafío B2: construye la frase",
-    "Frases complejas del B2 con varias cláusulas: ordena cada pieza.",
+    "Desafío de nivel Avanzado: construye la frase",
+    "Frases complejas del nivel Avanzado con varias cláusulas: ordena cada pieza.",
     "8 min",
     [
       sec(
-        "La arquitectura del B2",
-        "Las frases del B2 anidan estructuras: una relativa dentro de una condicional, un estilo indirecto con subjuntivo…",
+        "La arquitectura del nivel Avanzado",
+        "Las frases del nivel Avanzado anidan estructuras: una relativa dentro de una condicional, un estilo indirecto con subjuntivo…",
         [
           ["Si encontrara a alguien que hablara ruso, le pediría que me ayudara.", "If I found someone who spoke Russian, I'd ask them to help me."],
         ],
@@ -3331,7 +3331,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b2-comprehensive-review-3",
     "b2r-challenge-subjunctive-gauntlet",
-    "Desafío B2: el subjuntivo total",
+    "Desafío de nivel Avanzado: el subjuntivo total",
     "Relativas, adverbiales, concesivas y secuencia de tiempos — doce decisiones sin pistas.",
     "8 min",
     [
@@ -3366,7 +3366,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b2-comprehensive-review-3",
     "b2r-challenge-conditionals-gauntlet",
-    "Desafío B2: condicionales de todos los tipos",
+    "Desafío de nivel Avanzado: condicionales de todos los tipos",
     "Tipo 1, tipo 2, tipo 3 y mixtas — elige la estructura según la realidad de la condición.",
     "8 min",
     [
@@ -3409,7 +3409,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b2-comprehensive-review-3",
     "b2r-challenge-reported-speech-gauntlet",
-    "Desafío B2: estilo indirecto total",
+    "Desafío de nivel Avanzado: estilo indirecto total",
     "Informaciones, preguntas, órdenes y promesas — transfórmalas todas al estilo indirecto.",
     "8 min",
     [
@@ -3448,7 +3448,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b2-comprehensive-review-3",
     "b2r-challenge-ser-estar-change-gauntlet",
-    "Desafío B2: ser, estar, haber y los cambios",
+    "Desafío de nivel Avanzado: ser, estar, haber y los cambios",
     "Los verbos más pequeños y los más engañosos: ser, estar, haber, ponerse, volverse, hacerse, quedarse.",
     "8 min",
     [
@@ -3491,7 +3491,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b2-comprehensive-review-3",
     "b2r-challenge-mexico-city-1",
-    "Desafío B2: una semana en Ciudad de México (1)",
+    "Desafío de nivel Avanzado: una semana en Ciudad de México (1)",
     "Laura, periodista española, pasa una semana en la capital mexicana. Sigue sus primeros días.",
     "8 min",
     [
@@ -3544,7 +3544,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b2-comprehensive-review-3",
     "b2r-challenge-mexico-city-2",
-    "Desafío B2: una semana en Ciudad de México (2)",
+    "Desafío de nivel Avanzado: una semana en Ciudad de México (2)",
     "La semana de Laura termina: un temblor, un reportaje y una despedida.",
     "8 min",
     [
@@ -3593,7 +3593,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b2-comprehensive-review-3",
     "b2r-challenge-opinion-essay",
-    "Desafío B2: el ensayo de opinión",
+    "Desafío de nivel Avanzado: el ensayo de opinión",
     "Escribe un ensayo breve sobre el turismo masivo: tesis, argumentos, concesión y conclusión.",
     "8 min",
     [
@@ -3637,15 +3637,15 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b2-comprehensive-review-3",
     "b2r-exit-ticket",
-    "Billete de salida del B2: ¿listo para el C1?",
-    "La última lección del B2: diez destrezas que el C1 da por sabidas, una pregunta cada una.",
+    "Billete de salida del nivel Avanzado: ¿listo para el nivel Maestría?",
+    "La última lección del nivel Avanzado: diez destrezas que el nivel Maestría da por sabidas, una pregunta cada una.",
     "9 min",
     [
       sec(
         "Las diez destrezas",
         "(1) relativas (2) adverbiales (3) imperfecto de subjuntivo (4) tipo 2 (5) tipo 3 (6) estilo indirecto (7) ser/estar/haber (8) verbos de cambio (9) conectores (10) énfasis y cuyo.",
         [
-          ["¡Rumbo al C1!", "On to C1!"],
+          ["¡Rumbo al nivel Maestría!", "On to the Mastery level!"],
         ],
         [
           fb("Destreza 1.", "No conozco a nadie que ___ tan bien como tú. (bailar)", "baile", "Antecedente inexistente."),
@@ -3671,7 +3671,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     "chef-against-family-wishes",
     "b2r-tema-tradicion-innovacion",
     "Repaso temático: tradición o innovación",
-    "Romper con lo que se espera de ti: expectativas familiares, riesgos y decisiones — con el subjuntivo del B2.",
+    "Romper con lo que se espera de ti: expectativas familiares, riesgos y decisiones — con el subjuntivo del nivel Avanzado.",
     "7 min",
     [
       sec(
@@ -3799,7 +3799,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     "siblings-dividing-inheritance",
     "b2r-tema-herencia",
     "Repaso temático: repartir una herencia",
-    "Objetos con memoria, desacuerdos entre hermanos y decisiones difíciles — el B2 en un conflicto familiar.",
+    "Objetos con memoria, desacuerdos entre hermanos y decisiones difíciles — el nivel Avanzado en un conflicto familiar.",
     "7 min",
     [
       sec(
@@ -3879,7 +3879,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     "teacher-last-year",
     "b2r-tema-jubilacion",
     "Repaso temático: el último año en el aula",
-    "Jubilación, legado y despedidas — recuerdos, deseos y balances con el B2.",
+    "Jubilación, legado y despedidas — recuerdos, deseos y balances con el nivel Avanzado.",
     "7 min",
     [
       sec(

@@ -1441,7 +1441,7 @@ export const EN_C2_U32: Lesson[] = [
             sentence: "I love the premise, but the ending doesn't quite ___ for me.",
             answer: "land",
             altAnswers: ["work"],
-            en: "Me encanta la premisa, pero el final no acaba de [funcionar] para mí.",
+            en: "Me encanta la premisa, pero a mí el final no me acaba de [funcionar].",
             explanation: "An ending, a joke or a line \"lands\" when it has the intended effect. \"Doesn't quite land\" is a typically softened editorial criticism.",
           },
           {

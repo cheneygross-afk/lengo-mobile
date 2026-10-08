@@ -1,7 +1,7 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/skills-dictation.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { DictationExercise, Exercise, Lesson, LessonSection, WordOrderExercise } from "./types";
 
-// The "Dictado" lessons (A2's dictation drill, B1's b1d-dictado-* and
+// The "Dictado" lessons (A2's dictation drill, Intermediate's b1d-dictado-* and
 // b1d-rep-*-dictado, B2's b2d-dictado-* and b2d-rep-*-dictado) were
 // word-order puzzles with no audio (linguist review E1). Here their
 // word-order questions become real dictations: the sentence is played
@@ -26,7 +26,7 @@ const DICTADOS: Partial<Record<Level, Record<string, Conversion>>> = {
     "b1d-rep-ojala-deseos": { summary: "Repaso espaciado: escucha deseos con ojalá y escríbelos." },
     "b1d-dictado-relativos": { summary: "Escucha y escribe frases con relativo + preposición y pronombres." },
     "b1d-rep-pluscuamperfecto-dictado": { summary: "Repaso espaciado: escucha y escribe primeras experiencias con el pluscuamperfecto." },
-    "b1d-rep-mezcla-dictado": { summary: "Repaso espaciado: escucha y escribe frases que mezclan todos los temas de B1." },
+    "b1d-rep-mezcla-dictado": { summary: "Repaso espaciado: escucha y escribe frases que mezclan todos los temas del nivel Intermedio." },
     "b1d-rep-combinados-dictado": { summary: "Repaso espaciado: escucha y escribe frases con dos pronombres." },
     "b1d-dictado-deseos-familia": { summary: "Escucha y escribe frases largas con verbo de deseo + que + subjuntivo y pronombres." },
     "b1d-dictado-ojala-impersonal": { summary: "Escucha y escribe frases con expresiones impersonales, ojalá y pronombres." },
@@ -53,7 +53,7 @@ const DICTADOS: Partial<Record<Level, Record<string, Conversion>>> = {
     "b2d-dictado-ser-estar": { summary: "Escucha y escribe frases con los usos más difíciles de ser, estar y haber." },
     "b2d-dictado-conectores": { summary: "Escucha y escribe frases formales con conectores." },
     "b2d-dictado-cuyo-el-cual": { summary: "Escucha y escribe frases con cuyo y el cual." },
-    "b2d-rep-mezcla-dictado-b2": { summary: "Repaso espaciado: escucha y escribe frases largas con estructuras de B2." },
+    "b2d-rep-mezcla-dictado-b2": { summary: "Repaso espaciado: escucha y escribe frases largas con estructuras del nivel Avanzado." },
   },
 };
 

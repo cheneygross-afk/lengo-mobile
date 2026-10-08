@@ -451,7 +451,7 @@ export const EN_A1_U4_MORE: Lesson[] = [
         body: [
           "Algunos verbos casi nunca van en continuo. La razón: no describen una acción que empieza y termina, sino un estado, es decir, lo que sientes, quieres, sabes o tienes.",
           "En español a veces sí decimos «estoy necesitando un descanso» o «¿me estás entendiendo?», pero en inglés esos verbos van en presente simple: \"I need a break\".",
-          "Los más comunes en A1 son \"like\", \"love\", \"hate\", \"want\", \"need\", \"know\", \"understand\", \"believe\", \"remember\" y \"have\" cuando significa tener.",
+          "Los más comunes en el nivel Fundamentos son \"like\", \"love\", \"hate\", \"want\", \"need\", \"know\", \"understand\", \"believe\", \"remember\" y \"have\" cuando significa tener.",
         ],
         examples: [
           { es: "I need a break.", en: "Necesito un descanso." },

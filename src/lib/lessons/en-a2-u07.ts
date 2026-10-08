@@ -17,7 +17,7 @@ export const EN_A2_U07: Lesson[] = [
         body: [
           "Los sustantivos contables se pueden contar uno a uno: \"one apple\", \"two apples\". Tienen singular y plural, y en singular necesitan \"a\" o \"an\": \"a chair\", \"an egg\".",
           "Los incontables no se cuentan: \"water\", \"milk\", \"rice\", \"money\", \"time\". No llevan \"a\", no tienen plural y el verbo va en singular: \"The water is cold\", \"Money is important\".",
-          "Recuerda del A1: \"some\" va en frases afirmativas y \"any\" en negativas y preguntas, tanto con plurales como con incontables: \"There's some milk\", \"We don't have any eggs\", \"Is there any rice?\". Para ofrecer o pedir algo se usa \"some\" también en preguntas: \"Would you like some coffee?\".",
+          "Recuerda del nivel Fundamentos: \"some\" va en frases afirmativas y \"any\" en negativas y preguntas, tanto con plurales como con incontables: \"There's some milk\", \"We don't have any eggs\", \"Is there any rice?\". Para ofrecer o pedir algo se usa \"some\" también en preguntas: \"Would you like some coffee?\".",
         ],
         examples: [
           { es: "an apple, two apples", en: "una manzana, dos manzanas" },
@@ -1751,7 +1751,7 @@ export const EN_A2_U07: Lesson[] = [
         body: [
           "Por último: \"a few\" con plurales y \"a little\" con incontables; \"too many\" con plurales, \"too much\" con incontables y \"too\" solo con adjetivos; \"enough\" delante del sustantivo, sin \"of\".",
           "Correcciones típicas: *a little friends pasa a \"a few friends\"; *too much cars pasa a \"too many cars\"; *too much expensive pasa a \"too expensive\"; *enough of time pasa a \"enough time\".",
-          "Y recuerda del A1: «hay» es \"there is\" o \"there are\", según lo que venga detrás: \"There are too many cars\", \"There's too much traffic\".",
+          "Y recuerda del nivel Fundamentos: «hay» es \"there is\" o \"there are\", según lo que venga detrás: \"There are too many cars\", \"There's too much traffic\".",
         ],
         examples: [
           { es: "I have a few friends here.", en: "Tengo unos cuantos amigos aquí." },

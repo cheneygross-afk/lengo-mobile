@@ -58,8 +58,8 @@ const UNITS: EnglishUnitDef[] = [
   { id: "u14", title: "Informes, propuestas y ensayos", description: "Estructura, lenguaje y estilo para ensayos, informes, propuestas y reseñas.", lessons: [...EN_C1_U14, ...EN_C1_U14_EXTRA] },
   { id: "u15", title: "Inglés profesional", description: "Reuniones, presentaciones, negociaciones y feedback en el trabajo.", lessons: [...EN_C1_U15, ...EN_C1_U15_EXTRA] },
   { id: "u16", title: "Variedades del inglés", description: "Inglés británico, americano y otras variedades del mundo.", lessons: [...EN_C1_U16, ...EN_C1_U16_EXTRA] },
-  { id: "u17", title: "Repaso del nivel C1", description: "Repaso acumulativo de todos los contenidos del nivel C1.", lessons: EN_C1_U17 },
-  { id: "u18", title: "Retos y examen final C1", description: "Todas las estructuras C1 sin ayudas y el examen final del nivel.", lessons: EN_C1_U18 },
+  { id: "u17", title: "Repaso del nivel Avanzado", description: "Repaso acumulativo de todos los contenidos del nivel Avanzado.", lessons: EN_C1_U17 },
+  { id: "u18", title: "Retos y examen final de nivel Avanzado", description: "Todas las estructuras de nivel Avanzado sin ayudas y el examen final del nivel.", lessons: EN_C1_U18 },
 ];
 
 const LEVEL = buildEnglishLevel("en/c1", UNITS);

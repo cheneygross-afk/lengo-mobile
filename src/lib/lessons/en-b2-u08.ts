@@ -539,7 +539,7 @@ export const EN_B2_U08: Lesson[] = [
       {
         heading: "Rule or conclusion?",
         body: [
-          "\"Must\" has two jobs. Obligation: \"You must wear a seat belt\" (it's necessary). Deduction: \"You must be Ana's brother\" (I'm sure, from the evidence). The test from B1 still works: if you can replace it with \"I'm sure that...\", it's a deduction.",
+          "\"Must\" has two jobs. Obligation: \"You must wear a seat belt\" (it's necessary). Deduction: \"You must be Ana's brother\" (I'm sure, from the evidence). The test from Independence still works: if you can replace it with \"I'm sure that...\", it's a deduction.",
           "The context usually tells you. Deduction \"must\" often goes with \"be\" and with state verbs (know, have, love, own). Obligation \"must\" usually goes with actions you can control (wear, pay, sign, finish).",
           "Spanish has the same double meaning: «debes» and «tienes que» can be rules or conclusions. «Tienes que estar agotado» is not an order; it's a deduction: \"You must be exhausted\".",
         ],
@@ -570,7 +570,7 @@ export const EN_B2_U08: Lesson[] = [
         body: [
           "\"Have to\" is the most common way to talk about obligation, especially in American English: \"I have to work tomorrow\". It is normally NOT used for deduction about specific facts. *He has to be at home sounds like an obligation to most listeners.",
           "One exception: \"has to be\" is used informally for a very strong conclusion or a superlative opinion: \"This has to be the best pizza in town\", \"It has to be him\". When you're not sure, use \"must\" for deduction and \"have to\" for obligation.",
-          "Remember the negatives from B1: \"mustn't\" = it's prohibited; \"don't have to\" = it's not necessary. And neither of them is a deduction. For a negative deduction, use \"can't\".",
+          "Remember the negatives from the Independence level: \"mustn't\" = it's prohibited; \"don't have to\" = it's not necessary. And neither of them is a deduction. For a negative deduction, use \"can't\".",
         ],
         examples: [
           { es: "I have to work tomorrow.", en: "Mañana tengo que trabajar." },
@@ -2113,7 +2113,7 @@ export const EN_B2_U08: Lesson[] = [
       {
         heading: "Now and before: two kinds of speculation",
         body: [
-          "In the B2 speaking test, you compare two photos and say what the people might be doing and how they might be feeling. Mix present and past speculation: \"They might be waiting for a train. They seem to have been there for a long time, because they look bored\".",
+          "In the Upper Intermediate speaking test, you compare two photos and say what the people might be doing and how they might be feeling. Mix present and past speculation: \"They might be waiting for a train. They seem to have been there for a long time, because they look bored\".",
           "Useful structure: describe what you see (\"In the first photo, there are...\"), then speculate about now (\"They must be...\", \"She might be...\"), then about before (\"They must have just...\", \"It looks as if something has happened\").",
           "Compare with \"whereas\" or \"while\": \"In the first photo, the people look relaxed, whereas in the second one they seem to be under a lot of pressure\".",
         ],
@@ -2285,15 +2285,15 @@ export const EN_B2_U08: Lesson[] = [
     level: "EN-B2",
     number: 9,
     title: "Spiral Review: Modals Old and New",
-    summary: "Put B1 modals (must, have to, mustn't, don't have to, should, could) next to the B2 past modals (should have, could have, must have) and stop confusing could with could have.",
+    summary: "Put Independence modals (must, have to, mustn't, don't have to, should, could) next to the Upper Intermediate past modals (should have, could have, must have) and stop confusing could with could have.",
     duration: "12 min",
     sections: [
       {
-        heading: "B1 review: obligation, prohibition, advice",
+        heading: "Independence review: obligation, prohibition, advice",
         body: [
           "Quick review. \"Must\" and \"have to\" = obligation: \"I have to renew my passport\". \"Mustn't\" = prohibition: \"You mustn't use your phone while driving\". \"Don't have to\" = no obligation: \"You don't have to dress up\". \"Should\" = advice: \"You should see a doctor\".",
           "In the past, obligation is \"had to\" and no obligation is \"didn't have to\": \"I had to wait\", \"We didn't have to pay\". There is no past form of \"must\" for obligation: \"must have\" is only for deduction.",
-          "Remember the B1 trap: «no tienes que venir» usually means \"you don't have to come\" (it's not necessary), not *you mustn't come (it's forbidden).",
+          "Remember the Independence trap: «no tienes que venir» usually means \"you don't have to come\" (it's not necessary), not *you mustn't come (it's forbidden).",
         ],
         examples: [
           { es: "I have to renew my passport.", en: "Tengo que renovar el pasaporte." },

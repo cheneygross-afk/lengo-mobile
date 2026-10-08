@@ -1982,7 +1982,7 @@ export const EN_C2_U17: Lesson[] = [
     level: "EN-C2",
     number: 7,
     title: "Spiral review: reported speech in academic writing",
-    summary: "Recycle reported speech from B2 and C1 in an academic setting: backshift after past reporting verbs, optional backshift for findings that are still true, reported questions with statement word order, \"say\" versus \"tell\", and the tense conventions of a literature review (\"Smith argues\", \"Smith found\", \"studies have shown\").",
+    summary: "Recycle reported speech from the Upper Intermediate level and Advanced in an academic setting: backshift after past reporting verbs, optional backshift for findings that are still true, reported questions with statement word order, \"say\" versus \"tell\", and the tense conventions of a literature review (\"Smith argues\", \"Smith found\", \"studies have shown\").",
     duration: "11 min",
     sections: [
       {

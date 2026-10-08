@@ -2151,7 +2151,7 @@ export const EN_B1_U09: Lesson[] = [
           "Hope: \"I hope\" + present, \"will\" or \"to\" + verb",
           "No \"would\" after \"I wish I\"",
         ],
-        modelAnswer: "I wish I had started learning English when I was a child. If I had started then, I would have been more confident at university. Now I wish I had more time to practice, because I work long hours and I'm always tired. I also wish I could travel more. But I'm positive about the future: I hope I pass my B1 exam this year, and I hope I'll be able to work abroad one day.",
+        modelAnswer: "I wish I had started learning English when I was a child. If I had started then, I would have been more confident at university. Now I wish I had more time to practice, because I work long hours and I'm always tired. I also wish I could travel more. But I'm positive about the future: I hope I pass my Independence exam this year, and I hope I'll be able to work abroad one day.",
         explanation: "A good mix of structures shows you know the difference between regret, wish and hope.",
       },
     ],

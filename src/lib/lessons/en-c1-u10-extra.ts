@@ -439,7 +439,7 @@ export const EN_C1_U10_EXTRA: Lesson[] = [
           { left: "like a fish out of water", right: "como pez fuera del agua" },
           { left: "as light as a feather", right: "ligero como una pluma" },
         ],
-        explanation: "Some images coincide (mule, fish, feather), others change: a post instead of a wall, a log instead of a trunk, a daisy instead of a lettuce.",
+        explanation: "Some images coincide (mule, fish, feather), others change: a post instead of a wall, a daisy instead of a lettuce.",
       },
       {
         type: "translate",

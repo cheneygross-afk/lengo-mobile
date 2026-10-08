@@ -1706,7 +1706,7 @@ export const EN_B2_U25: Lesson[] = [
         heading: "Adjective suffixes: -ous and -able",
         body: [
           "\"-ous\" often matches Spanish «-oso»: \"dangerous\" («peligroso»), \"famous\", \"nervous\", \"ambitious\" («ambicioso»), \"mysterious\". But beware: «cuidadoso» is \"careful\", «perezoso» is \"lazy\", and «curioso» is \"curious\" only for people who want to know things.",
-          "\"-able\" (or \"-ible\") means that something can be done: \"reliable\" (you can rely on it), \"affordable\" (you can afford it, «asequible»), \"renewable\", \"comfortable\", \"available\". \"Available\" («disponible») is a key B2 word: \"The app is available in Spanish.\"",
+          "\"-able\" (or \"-ible\") means that something can be done: \"reliable\" (you can rely on it), \"affordable\" (you can afford it, «asequible»), \"renewable\", \"comfortable\", \"available\". \"Available\" («disponible») is a key Upper Intermediate word: \"The app is available in Spanish.\"",
           "A classic trap: \"sensible\" means «sensato», not «sensible»! «Sensible» is \"sensitive\". And «confortable» is \"comfortable\", with the stress on the first syllable: KUMF-ter-bul.",
         ],
         examples: [
@@ -1972,7 +1972,7 @@ export const EN_B2_U25: Lesson[] = [
           { left: "carry out research", right: "investigar" },
           { left: "reduce your carbon footprint", right: "reducir tu huella de carbono" },
         ],
-        explanation: "Collocations like these are what makes B2 English sound natural: learn the verb together with the noun.",
+        explanation: "Collocations like these are what makes Upper Intermediate English sound natural: learn the verb together with the noun.",
       },
       {
         type: "word-order",

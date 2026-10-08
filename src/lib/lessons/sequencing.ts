@@ -226,7 +226,7 @@ const B1_TOPICS: Topic[] = [
   { last: "relative-pronouns-mastery-check", key: ["relativos"], mentions: /relativ/ },
   { last: "passive-voice-se-2", key: ["se"], mentions: /pasiva|se impersonal|se dice/ },
   { last: "combined-object-pronouns-2", key: ["combinados"], mentions: /pronombres/ },
-  { last: "vosotros-commands-2", key: ["vosotros"], mentions: /todo el b1|todos los temas|cada tema|todo lo aprendido|b1/ },
+  { last: "vosotros-commands-2", key: ["vosotros"], mentions: /todo el b1|todos los temas|cada tema|todo lo aprendido|b1|nivel intermedio|\bintermediate\b/ },
 ];
 
 const B2_TOPICS: Topic[] = [
@@ -248,7 +248,7 @@ const B2_TOPICS: Topic[] = [
   { last: "verbs-of-change-mastery-check", key: ["verbos"], mentions: /verbos de cambio/ },
   { last: "advanced-connectors-2", key: ["conectores"], mentions: /conectores|argumenta|concesi/ },
   { last: "emphasis-word-order-2", key: ["enfasis"], mentions: /énfasis/ },
-  { last: "cuyo-el-cual-2", key: ["cuyo"], mentions: /cuyo|el cual|\bb2\b|todos los temas/ },
+  { last: "cuyo-el-cual-2", key: ["cuyo"], mentions: /cuyo|el cual|\bb2\b|nivel avanzado|\badvanced\b|todos los temas/ },
 ];
 
 /** Anything still after the exit test moves to right before it, so the

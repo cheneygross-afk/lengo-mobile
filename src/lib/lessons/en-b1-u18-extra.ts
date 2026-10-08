@@ -14,7 +14,7 @@ export const EN_B1_U18_EXTRA: Lesson[] = [
     level: "EN-B1",
     number: 1,
     title: "Extra Practice: First-Half Error Sweep",
-    summary: "Rapid error correction on the ten mistakes Spanish speakers make most often in the first half of B1.",
+    summary: "Rapid error correction on the ten mistakes Spanish speakers make most often in the first half of the Independence level.",
     duration: "12 min",
     sections: [
       {

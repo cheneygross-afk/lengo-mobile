@@ -8,14 +8,14 @@ export const EN_B1_U29: Lesson[] = [
     slug: "b1-spiral-second-half-1",
     level: "EN-B1",
     number: 1,
-    title: "Spiral Review: B1 Second Half, Part 1 of 3",
+    title: "Spiral Review: Independence Second Half, Part 1 of 3",
     summary: "Bring back reported speech, reporting verbs and verb patterns: said or told, the tense shift, asked if, told me to, suggest, refuse, want someone to do, enjoy doing and stop to do.",
     duration: "12 min",
     sections: [
       {
         heading: "Reported statements: said, told and the tense shift",
         body: [
-          "This unit mixes everything from the second half of B1. We start with reported speech. When the reporting verb is in the past (\"said\", \"told\"), the verb in the reported sentence usually moves one step back: \"I'm tired\" becomes \"She said she was tired\", \"I've finished\" becomes \"He said he had finished\", \"I will call\" becomes \"He said he would call\".",
+          "This unit mixes everything from the second half of the Independence level. We start with reported speech. When the reporting verb is in the past (\"said\", \"told\"), the verb in the reported sentence usually moves one step back: \"I'm tired\" becomes \"She said she was tired\", \"I've finished\" becomes \"He said he had finished\", \"I will call\" becomes \"He said he would call\".",
           "Remember the two verbs: \"say\" has no person after it, \"tell\" always has one. «Me dijo que...» is \"He told me that...\" or \"He said that...\", but never *He said me. This is the most common mistake for Spanish speakers.",
           "Also change pronouns and time words when the situation changes: \"tomorrow\" becomes \"the next day\", \"here\" becomes \"there\", \"my\" becomes \"his\" or \"her\".",
         ],
@@ -258,7 +258,7 @@ export const EN_B1_U29: Lesson[] = [
     slug: "b1-spiral-second-half-2",
     level: "EN-B1",
     number: 2,
-    title: "Spiral Review: B1 Second Half, Part 2 of 3",
+    title: "Spiral Review: Independence Second Half, Part 2 of 3",
     summary: "Bring back indirect questions, question tags, subject questions, too and enough, so and such, quantifiers, articles in generalizations and uncountable nouns like advice and news.",
     duration: "12 min",
     sections: [
@@ -487,7 +487,7 @@ export const EN_B1_U29: Lesson[] = [
     slug: "b1-spiral-second-half-3",
     level: "EN-B1",
     number: 3,
-    title: "Spiral Review: B1 Second Half, Part 3 of 3",
+    title: "Spiral Review: Independence Second Half, Part 3 of 3",
     summary: "Bring back phrasal verbs, make and do, -ed and -ing adjectives, adjective order, comparisons like much bigger and the more... the better, and linkers like although, despite and however.",
     duration: "12 min",
     sections: [
@@ -740,7 +740,7 @@ export const EN_B1_U29: Lesson[] = [
     level: "EN-B1",
     number: 4,
     title: "Error Hunt: The Second Half",
-    summary: "Find and fix the typical mistakes from the second half of B1: said me, want that you, where is it in indirect questions, the life, informations, do a mistake, depends of and despite it was.",
+    summary: "Find and fix the typical mistakes from the second half of the Independence level: said me, want that you, where is it in indirect questions, the life, informations, do a mistake, depends of and despite it was.",
     duration: "11 min",
     sections: [
       {
@@ -1662,7 +1662,7 @@ export const EN_B1_U29: Lesson[] = [
     level: "EN-B1",
     number: 8,
     title: "Core Words: Everyday Expressions",
-    summary: "Frequent B1 chunks that make you sound natural: it depends on, it's up to you, never mind, no wonder, I can't help it, to be honest and by the way. Goodbye to depends of.",
+    summary: "Frequent Independence chunks that make you sound natural: it depends on, it's up to you, never mind, no wonder, I can't help it, to be honest and by the way. Goodbye to depends of.",
     duration: "10 min",
     sections: [
       {

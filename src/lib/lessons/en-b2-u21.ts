@@ -298,7 +298,7 @@ export const EN_B2_U21: Lesson[] = [
     level: "EN-B2",
     number: 2,
     title: "Comparisons and Quantifiers, Part 2 of 2",
-    summary: "The quantifiers Spanish speakers still get wrong at B2: both, either and neither; all, every, each and none; plenty of and hardly any; and uncountable nouns like advice and information.",
+    summary: "The quantifiers Spanish speakers still get wrong at the Upper Intermediate level: both, either and neither; all, every, each and none; plenty of and hardly any; and uncountable nouns like advice and information.",
     duration: "12 min",
     sections: [
       {
@@ -774,7 +774,7 @@ export const EN_B2_U21: Lesson[] = [
     level: "EN-B2",
     number: 4,
     title: "Error Hunt: Comparatives and Quantifiers",
-    summary: "Find and fix the mistakes Spanish speakers still make at B2: *more easier, *the most good, *every students, *each of them have, *both of they and *less friends.",
+    summary: "Find and fix the mistakes Spanish speakers still make at the Upper Intermediate level: *more easier, *the most good, *every students, *each of them have, *both of they and *less friends.",
     duration: "12 min",
     sections: [
       {
@@ -1699,7 +1699,7 @@ export const EN_B2_U21: Lesson[] = [
     level: "EN-B2",
     number: 8,
     title: "Articles: Where Spanish and English Differ",
-    summary: "The article mistakes that survive to B2: \"the\" with general ideas, institutions like school and hospital, and \"a\" with jobs.",
+    summary: "The article mistakes that survive to the Upper Intermediate level: \"the\" with general ideas, institutions like school and hospital, and \"a\" with jobs.",
     duration: "12 min",
     sections: [
       {

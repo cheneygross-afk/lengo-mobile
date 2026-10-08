@@ -743,7 +743,7 @@ export const EN_A2_U15: Lesson[] = [
       {
         heading: "Some, any y no + thing, body, where",
         body: [
-          "En A1 aprendiste \"some\" y \"any\". Si les añades \"-thing\" (cosa), \"-body\" o \"-one\" (persona) y \"-where\" (lugar), obtienes los pronombres indefinidos: \"something\" («algo»), \"somebody\" («alguien»), \"somewhere\" («en algún lugar»).",
+          "En el nivel Fundamentos aprendiste \"some\" y \"any\". Si les añades \"-thing\" (cosa), \"-body\" o \"-one\" (persona) y \"-where\" (lugar), obtienes los pronombres indefinidos: \"something\" («algo»), \"somebody\" («alguien»), \"somewhere\" («en algún lugar»).",
           "\"Somebody\" y \"someone\" significan lo mismo, igual que \"anybody\" y \"anyone\", o \"nobody\" y \"no one\". Puedes usar los que quieras.",
           "Todos van con el verbo en singular: \"Somebody is at the door\" («hay alguien en la puerta»).",
         ],

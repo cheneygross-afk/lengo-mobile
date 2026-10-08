@@ -577,7 +577,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
           "If I have more time, I would learn to play the guitar.",
         ],
         correctIndex: 0,
-        explanation: "«Si tuviera» is about now: second conditional, \"If I had\". The third conditional (option 2) would mean «si hubiera tenido».",
+        explanation: "«Si tuviera» is about now: second conditional, \"If I had\". The third conditional (\"If I had had\") would mean «si hubiera tenido».",
       },
       {
         type: "translate",

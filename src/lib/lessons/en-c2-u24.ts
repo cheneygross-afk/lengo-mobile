@@ -862,7 +862,7 @@ export const EN_C2_U24: Lesson[] = [
         body: [
           "Spanish historiography uses the «presente histórico» constantly, even in serious academic prose: «En 1492 Colón llega a América y en 1493 regresa a Castilla». Translated word for word into an English essay or textbook, it sounds journalistic or like a documentary voice-over.",
           "Formal English history writing is overwhelmingly in the past: \"In 1492 Columbus reached the Caribbean and in 1493 he returned to Castile.\" When you translate Spanish academic history, the default is to convert the «presente histórico» into the past simple.",
-          "This is one of the most common problems in Spanish speakers' written English at C1 and C2: the grammar is correct, but the tense choice clashes with the genre.",
+          "This is one of the most common problems in Spanish speakers' written English at the Advanced level and Mastery: the grammar is correct, but the tense choice clashes with the genre.",
         ],
         examples: [
           { es: "In 1492 Columbus reached the Caribbean.", en: "En 1492 Colón llega al Caribe." },
@@ -1369,7 +1369,7 @@ export const EN_C2_U24: Lesson[] = [
     level: "EN-C2",
     number: 6,
     title: "Contrast: used to, would and the past continuous",
-    summary: "The Spanish «imperfecto» has no single English equivalent. Learn how historians share its work between \"used to\", \"would\", the past continuous and the plain past simple, and avoid the classic C2 slips: \"would\" with states and a past continuous that never stops.",
+    summary: "The Spanish «imperfecto» has no single English equivalent. Learn how historians share its work between \"used to\", \"would\", the past continuous and the plain past simple, and avoid the classic Mastery slips: \"would\" with states and a past continuous that never stops.",
     duration: "12 min",
     sections: [
       {
@@ -1455,7 +1455,7 @@ export const EN_C2_U24: Lesson[] = [
         heading: "Would: repeated actions only",
         body: [
           "\"Would\" + infinitive also describes past habits, with a more literary, nostalgic flavour: \"Every spring the shepherds would drive their flocks north.\" But it has one strict limit: it only works with repeated ACTIONS, never with states. *The king would be very rich and *They would have a large estate are wrong as descriptions of past states; English needs \"was\" / \"used to be\" and \"had\" / \"used to have\".",
-          "This is a typical C2 slip for Spanish speakers, because the conditional «sería» and the «imperfecto» «era» are both available in Spanish narration (the «condicional de rumor» or of probability: «Serían las diez»). In English, \"He would be poor\" can only mean a hypothesis or a future in the past, never «era pobre».",
+          "This is a typical Mastery slip for Spanish speakers, because the conditional «sería» and the «imperfecto» «era» are both available in Spanish narration (the «condicional de rumor» or of probability: «Serían las diez»). In English, \"He would be poor\" can only mean a hypothesis or a future in the past, never «era pobre».",
           "\"Would\" usually needs a time frame already set up by the context or by \"used to\". Writers often open with \"used to\" and continue with \"would\": \"The monks used to rise before dawn. They would pray, then they would work in the fields until noon.\" In the negative, \"would not\" usually means refusal («no quería»), so for negative habits prefer \"did not\" or \"never used to\".",
         ],
         examples: [
@@ -1685,7 +1685,7 @@ export const EN_C2_U24: Lesson[] = [
     level: "EN-C2",
     number: 6,
     title: "Tense and Aspect Nuance: Choosing for Effect",
-    summary: "At C2 the question is no longer which tense is correct but which one says what you mean. Learn how the present perfect and past simple frame news, how the continuous adds irritation or temporariness, how stative verbs become dynamic, and why «desde hace tres años» is never *since three years.",
+    summary: "At the Mastery level the question is no longer which tense is correct but which one says what you mean. Learn how the present perfect and past simple frame news, how the continuous adds irritation or temporariness, how stative verbs become dynamic, and why «desde hace tres años» is never *since three years.",
     duration: "12 min",
     sections: [
       {
@@ -2074,7 +2074,7 @@ export const EN_C2_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which inverted conditional is correct?",
+            question: "Which inverted conditional is natural modern English?",
             options: [
               "Had the king not fled, he would have been crowned again.",
               "Hadn't the king fled, he would have been crowned again.",

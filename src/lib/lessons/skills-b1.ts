@@ -230,7 +230,7 @@ export const B1_SKILLS: Record<string, Exercise[]> = {
         "Una conclusión (en conclusión, por eso…)",
       ],
       "En mi opinión, vivir en el campo es mejor que vivir en la ciudad, al menos para una familia con niños. En primer lugar, creo que la vida en el campo es más sana: el aire está más limpio, hay menos ruido y los niños pueden jugar en la calle sin peligro. Además, la vivienda es mucho más barata, así que se puede tener una casa con jardín. Por otro lado, es verdad que en la ciudad hay más oportunidades de trabajo y más cultura. Sin embargo, no creo que eso sea tan importante hoy, porque muchas personas trabajan desde casa. Si tienes una buena conexión a internet, puedes trabajar desde cualquier lugar. En conclusión, para mí el campo ofrece una vida más tranquila y feliz.",
-      "Un texto de opinión B1 se organiza con conectores (en primer lugar, además, por otro lado, sin embargo, en conclusión). Creo que va con indicativo (es más sana), pero no creo que pide subjuntivo (sea). Si + presente expresa una condición real."
+      "Un texto de opinión de nivel Intermedio se organiza con conectores (en primer lugar, además, por otro lado, sin embargo, en conclusión). Creo que va con indicativo (es más sana), pero no creo que pide subjuntivo (sea). Si + presente expresa una condición real."
     ),
   ],
 };

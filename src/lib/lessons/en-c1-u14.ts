@@ -116,7 +116,7 @@ export const EN_C1_U14: Lesson[] = [
             answer: "compelling",
             altAnswers: ["convincing", "persuasive", "powerful", "cogent"],
             en: "El argumento más [convincente] a favor de la semana de cuatro días es la productividad.",
-            explanation: "\"Compelling\" is a typical C1 collocation with \"argument\" or \"case\". \"Convincing\" and \"persuasive\" also work.",
+            explanation: "\"Compelling\" is a typical Advanced collocation with \"argument\" or \"case\". \"Convincing\" and \"persuasive\" also work.",
           },
           {
             type: "word-order",
@@ -191,7 +191,7 @@ export const EN_C1_U14: Lesson[] = [
           "The sentence should start with \"Hello\".",
         ],
         correctIndex: 0,
-        explanation: "The redundancy comes from «en mi opinión, creo que». A C1 thesis also needs to be specific: bad for whom, and why? \"Social media\" is already plural and never takes -s.",
+        explanation: "The redundancy comes from «en mi opinión, creo que». An Advanced thesis also needs to be specific: bad for whom, and why? \"Social media\" is already plural and never takes -s.",
       },
       {
         type: "translate",
@@ -304,14 +304,14 @@ export const EN_C1_U14: Lesson[] = [
     level: "EN-C1",
     number: 2,
     title: "Essay Writing, Part 2 of 2: The Language of Argument",
-    summary: "The phrases that make an essay sound like C1: presenting views impersonally, conceding a point, weighing up and concluding, and knowing when to say \"I\".",
+    summary: "The phrases that make an essay sound like Advanced: presenting views impersonally, conceding a point, weighing up and concluding, and knowing when to say \"I\".",
     duration: "12 min",
     sections: [
       {
         heading: "Presenting views: It could be argued that...",
         body: [
           "Good essays present ideas without always saying who holds them. \"It could be argued that...\", \"It is often claimed that...\" and \"It is widely believed that...\" are the English equivalents of «se podría argumentar que», «a menudo se afirma que» and «se suele pensar que».",
-          "To attribute a view to a group, use \"Critics maintain that...\", \"Supporters of the scheme argue that...\", \"Proponents of X claim that...\". \"Maintain\" here means «sostener». Avoid *Some people say that... in every paragraph: it sounds like B1.",
+          "To attribute a view to a group, use \"Critics maintain that...\", \"Supporters of the scheme argue that...\", \"Proponents of X claim that...\". \"Maintain\" here means «sostener». Avoid *Some people say that... in every paragraph: it sounds like Independence.",
           "\"There is a strong case for...\" (+ noun or -ing) means «hay buenas razones para...». The opposite is \"There is little case for...\". Note the preposition: a case \"for\" something, not *a case to do something.",
         ],
         examples: [
@@ -450,7 +450,7 @@ export const EN_C1_U14: Lesson[] = [
       {
         heading: "Personal and impersonal voice",
         body: [
-          "A C1 essay asks for your opinion, so \"I\" is allowed, but use it with care. A good balance is impersonal language in the body (\"It could be argued...\", \"This suggests...\") and a personal voice where you give your judgement: \"I would argue that...\", \"In my view, ...\", \"I am convinced that...\".",
+          "An Advanced essay asks for your opinion, so \"I\" is allowed, but use it with care. A good balance is impersonal language in the body (\"It could be argued...\", \"This suggests...\") and a personal voice where you give your judgement: \"I would argue that...\", \"In my view, ...\", \"I am convinced that...\".",
           "\"I would argue that\" is softer and more academic than \"I think\". Avoid repeating \"I think\" in every paragraph and avoid chatty markers like \"well\", \"you know\" or \"so, basically\".",
           "Be careful with general \"we\" and \"you\". Spanish uses «nosotros» freely («hoy en día vivimos...»); in English, \"we\" is fine for society as a whole, but \"you\" (\"you can't trust the news\") is too conversational for an essay. Use \"people\", \"one\" or the passive instead.",
         ],
@@ -464,7 +464,7 @@ export const EN_C1_U14: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence has the most appropriate register for a C1 essay?",
+            question: "Which sentence has the most appropriate register for an Advanced essay?",
             options: [
               "It is difficult to know which news sources can be trusted.",
               "You can't really trust the news these days, you know.",
@@ -627,7 +627,7 @@ export const EN_C1_U14: Lesson[] = [
     level: "EN-C1",
     number: 3,
     title: "Essay Writing in Practice",
-    summary: "Plan an essay from a real exam-style prompt, draft a paragraph, then upgrade it with C1 structures, deciding when each one helps and when it gets in the way.",
+    summary: "Plan an essay from a real exam-style prompt, draft a paragraph, then upgrade it with Advanced structures, deciding when each one helps and when it gets in the way.",
     duration: "12 min",
     sections: [
       {
@@ -727,14 +727,14 @@ export const EN_C1_U14: Lesson[] = [
               "It is too short to be a paragraph.",
             ],
             correctIndex: 0,
-            explanation: "The content is fine; the problem is organisation. A topic sentence, separate sentences and a closing link turn the same ideas into a C1 paragraph.",
+            explanation: "The content is fine; the problem is organisation. A topic sentence, separate sentences and a closing link turn the same ideas into an Advanced paragraph.",
           },
         ],
       },
       {
-        heading: "Upgrading with C1 structures",
+        heading: "Upgrading with Advanced structures",
         body: [
-          "Once the paragraph is clear, a few C1 structures can make it sharper. Three that work well in essays are nominalisation (\"the introduction of tolls\" instead of \"when they introduced tolls\"), \"not only... but also\" (with inversion at the start of a sentence: \"Not only do tolls reduce traffic, but they also raise money\") and cleft sentences (\"What cities need is...\").",
+          "Once the paragraph is clear, a few Advanced structures can make it sharper. Three that work well in essays are nominalisation (\"the introduction of tolls\" instead of \"when they introduced tolls\"), \"not only... but also\" (with inversion at the start of a sentence: \"Not only do tolls reduce traffic, but they also raise money\") and cleft sentences (\"What cities need is...\").",
           "Use them to add precision or emphasis, not decoration. One inversion and one cleft in a 250-word essay is impressive; five in one paragraph sounds forced and the examiner notices.",
           "If a structure makes your sentence harder to follow, or you are not sure of the grammar, use the simpler version. Accuracy counts as much as range.",
         ],
@@ -791,7 +791,7 @@ export const EN_C1_U14: Lesson[] = [
         body: [
           "Sofia showed her essay to her tutor, Tom. Tom: \"Your ideas are strong, but every paragraph starts with Moreover, Furthermore or In addition. Linkers are useful, but if every sentence has one, they stop meaning anything.\" Sofia: \"So should I delete them?\" Tom: \"Keep the ones that show a real relationship. Moreover adds a point that supports the previous one. If you are starting a new main argument, a topic sentence like Another key factor is... works better.\"",
           "Tom also pointed to her introduction: \"On balance, cars are the main problem.\" \"On balance\" signals a conclusion after weighing arguments, so it does not belong in the first paragraph, before the reader has seen any arguments.",
-          "The lesson: every C1 phrase has a job. Before using one, ask what relationship it signals (addition, contrast, concession, conclusion) and whether that relationship is really there.",
+          "The lesson: every Advanced phrase has a job. Before using one, ask what relationship it signals (addition, contrast, concession, conclusion) and whether that relationship is really there.",
         ],
         examples: [
           { es: "Another key factor is the cost of housing.", en: "Otro factor clave es el coste de la vivienda." },
@@ -917,7 +917,7 @@ export const EN_C1_U14: Lesson[] = [
         question: "Tom tells Sofia: \"Your paragraph has an inversion, a cleft sentence, a participle clause and a passive, all in five lines.\" What does he most likely mean?",
         options: [
           "The structures feel forced; she should keep only the ones that add clarity or emphasis.",
-          "She needs even more advanced structures to reach C1.",
+          "She needs even more advanced structures to reach the Advanced level.",
           "Passives are never allowed in essays.",
           "Paragraphs should only contain simple sentences.",
         ],
@@ -954,11 +954,11 @@ export const EN_C1_U14: Lesson[] = [
           "Starts with a clear topic sentence",
           "Supports the point with an example or evidence",
           "Includes and answers a counterargument (e.g. \"Admittedly... However...\")",
-          "Uses at least one C1 structure naturally (cleft, inversion or nominalisation)",
+          "Uses at least one Advanced structure naturally (cleft, inversion or nominalisation)",
           "Uses linkers only where the relationship is real",
         ],
         modelAnswer: "The strongest argument for taxing air travel is that it makes the true cost of flying visible. At present, a weekend flight to another European capital can cost less than a train ticket to a nearby city, which encourages unnecessary trips. When Sweden introduced a tax on air travel in 2018, the number of domestic passengers began to fall. Admittedly, such taxes hit low-income families hardest, since wealthy travellers will simply pay more. However, this objection could be addressed by exempting a first return flight each year or by reinvesting the revenue in cheaper rail travel. What matters most is that prices begin to reflect environmental damage; without that signal, behaviour is unlikely to change.",
-        explanation: "Topic sentence, evidence, a fair counterargument with an answer, and a link back to the thesis: a complete C1 paragraph.",
+        explanation: "Topic sentence, evidence, a fair counterargument with an answer, and a link back to the thesis: a complete Advanced paragraph.",
       },
     ],
   },
@@ -1146,7 +1146,7 @@ export const EN_C1_U14: Lesson[] = [
         prompt: "Put the words in order.",
         words: ["What", "schools", "need", "is", "more", "teachers,", "not", "more", "screens."],
         translation: "Lo que necesitan los colegios es más profesores, no más pantallas.",
-        explanation: "A \"What... is\" cleft sentence puts the emphasis at the end. Revisit In Practice (upgrading with C1 structures).",
+        explanation: "A \"What... is\" cleft sentence puts the emphasis at the end. Revisit In Practice (upgrading with Advanced structures).",
       },
       {
         type: "translate",
@@ -2462,14 +2462,14 @@ export const EN_C1_U14: Lesson[] = [
         body: [
           "Reviews and magazine articles are written for readers who can stop reading at any moment. So the first line matters: open with a question, a surprising fact, a short scene or a bold statement, not with background information.",
           "Rhetorical questions involve the reader: \"Have you ever wondered why...?\", \"Who hasn't dreamed of...?\", \"So, is it worth the hype?\". Use one or two; a whole paragraph of questions is tiring.",
-          "Articles also allow a personal, conversational voice: \"you\", contractions, the occasional short sentence for effect. This is the opposite of a report, and the C1 exam rewards the right register for each task.",
+          "Articles also allow a personal, conversational voice: \"you\", contractions, the occasional short sentence for effect. This is the opposite of a report, and the Advanced exam rewards the right register for each task.",
         ],
         examples: [
           { es: "Have you ever wondered why some songs get stuck in your head?", en: "¿Alguna vez te has preguntado por qué algunas canciones se te quedan en la cabeza?" },
           { es: "Who hasn't dreamed of giving it all up and moving to the coast?", en: "¿Quién no ha soñado con dejarlo todo e irse a vivir a la costa?" },
           { es: "So, is it worth the hype?", en: "Entonces, ¿está a la altura de tanta expectación?" },
           { es: "Imagine waking up to the sound of the sea.", en: "Imagina despertarte con el sonido del mar." },
-          { es: "Three hours. That's how long I queued for a table.", en: "Tres horas. Eso es lo que tuve que hacer cola para conseguir mesa." },
+          { es: "Three hours. That's how long I queued for a table.", en: "Tres horas: eso es lo que estuve haciendo cola para conseguir mesa." },
         ],
         checkpoint: [
           {
@@ -2510,7 +2510,7 @@ export const EN_C1_U14: Lesson[] = [
       {
         heading: "Beyond \"very good\" and \"very interesting\"",
         body: [
-          "Flat reviews rely on \"very good\", \"very bad\", \"very interesting\" and \"nice\". A C1 review uses precise evaluative adjectives that say what kind of good or bad: a \"gripping\" plot, a \"stunning\" setting, a \"moving\" performance, \"flawless\" service, a \"disappointing\" ending, a \"predictable\" storyline, \"bland\" food, an \"overrated\" restaurant.",
+          "Flat reviews rely on \"very good\", \"very bad\", \"very interesting\" and \"nice\". An Advanced review uses precise evaluative adjectives that say what kind of good or bad: a \"gripping\" plot, a \"stunning\" setting, a \"moving\" performance, \"flawless\" service, a \"disappointing\" ending, a \"predictable\" storyline, \"bland\" food, an \"overrated\" restaurant.",
           "Strong adjectives (\"stunning\", \"superb\", \"dreadful\") don't take \"very\": say \"absolutely stunning\" or \"truly dreadful\", not *very stunning. Use \"thoroughly\" and \"highly\" with some verbs and adjectives: \"thoroughly enjoyable\", \"highly recommended\".",
           "False friend: \"sensible\" means «sensato», not «sensible» (which is \"sensitive\"). And a «crítica» of a film is a \"review\"; a \"critic\" is the person who writes it.",
         ],
@@ -2947,7 +2947,7 @@ export const EN_C1_U14: Lesson[] = [
           "The company claims that all its products are recyclable.",
           "The company says that its products are fully recyclable.",
         ],
-        explanation: "\"Claim\" suits a statement the writer reports without fully endorsing. A company is \"it\" in English: \"its products\", not *their products in formal writing.",
+        explanation: "\"Claim\" suits a statement the writer reports without fully endorsing. A company is \"it\" in English: \"its products\", and in American formal writing \"its\" is safest (British English often allows \"their\").",
       },
       {
         type: "multiple-choice",
@@ -3105,7 +3105,7 @@ export const EN_C1_U14: Lesson[] = [
           { es: "I arrived late because the train was delayed.", en: "Llegué tarde porque el tren se retrasó." },
           { es: "The plan is good; however, it is expensive.", en: "El plan es bueno, pero es caro." },
           { es: "The plan is good. However, it is expensive.", en: "El plan es bueno. Sin embargo, es caro." },
-          { es: "Prices have risen; therefore, demand has fallen.", en: "Los precios han subido, por lo tanto la demanda ha bajado." },
+          { es: "Prices have risen; therefore, demand has fallen.", en: "Los precios han subido; por lo tanto, la demanda ha bajado." },
         ],
         checkpoint: [
           {
@@ -3742,7 +3742,7 @@ export const EN_C1_U14: Lesson[] = [
     slug: "c1-spiral-writing-structures",
     level: "EN-C1",
     number: 13,
-    title: "Spiral Review: Writing with C1 Structures",
+    title: "Spiral Review: Writing with Advanced Structures",
     summary: "Nominalisation, hedging, discourse markers, participle clauses and inversion, all working together in one piece of writing. You decide which structure each sentence needs.",
     duration: "12 min",
     sections: [
@@ -3824,7 +3824,7 @@ export const EN_C1_U14: Lesson[] = [
         body: [
           "Participle clauses condense two actions with the same subject: \"Having analysed the data, the team drew three conclusions\"; \"Faced with rising costs, many firms cut staff\". The subject of the main clause must be the one doing the participle: *Having analysed the data, three conclusions were drawn is a dangling participle (the conclusions did not analyse anything).",
           "Negative inversion adds emphasis at the start of a sentence: \"Not only does the scheme save money, but it also...\", \"Rarely has a policy been so unpopular\", \"Only by working together can we solve this\". Use it once or twice in a formal text, not in every paragraph.",
-          "Both structures are typical of C1 writing, but they must be accurate. If you are unsure of the subject or the auxiliary, write the simpler version.",
+          "Both structures are typical of Advanced writing, but they must be accurate. If you are unsure of the subject or the auxiliary, write the simpler version.",
         ],
         examples: [
           { es: "Having analysed the data, the team drew three conclusions.", en: "Después de analizar los datos, el equipo sacó tres conclusiones." },
@@ -3869,7 +3869,7 @@ export const EN_C1_U14: Lesson[] = [
         heading: "Putting it all together",
         body: [
           "Here is a plain paragraph: \"Rents went up a lot because tourists came. Young people had to leave the centre. The council did something in 2022 but it didn't work very well. They must work with residents.\"",
-          "And a C1 version: \"The influx of tourists has led to a sharp rise in rents. Priced out of the centre, many young people have moved to the suburbs. Although the council introduced a cap on holiday lets in 2022, the measure appears to have had only a limited effect. Only by working closely with residents is the council likely to find a lasting solution.\"",
+          "And an Advanced version: \"The influx of tourists has led to a sharp rise in rents. Priced out of the centre, many young people have moved to the suburbs. Although the council introduced a cap on holiday lets in 2022, the measure appears to have had only a limited effect. Only by working closely with residents is the council likely to find a lasting solution.\"",
           "Look at what each change does: nominalisation (\"the influx of tourists\", \"a sharp rise in rents\"), a participle clause (\"Priced out of the centre\"), a concession (\"Although\"), a hedge (\"appears to have had\") and an inversion (\"Only by... is the council likely\"). Every structure has a purpose.",
         ],
         examples: [
@@ -3880,7 +3880,7 @@ export const EN_C1_U14: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "In the C1 version, which structure does \"Priced out of the centre\" use?",
+            question: "In the Advanced version, which structure does \"Priced out of the centre\" use?",
             options: ["A participle clause", "An inversion", "A hedge", "A cleft sentence"],
             correctIndex: 0,
             explanation: "\"Priced out of the centre\" is a past participle clause whose subject is the same as the main clause: \"many young people\".",
@@ -4034,7 +4034,7 @@ export const EN_C1_U14: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Rewrite this plain paragraph in formal C1 English (60 to 90 words), using at least one nominalisation, one hedge, one discourse marker and either a participle clause or an inversion: «Mucha gente compra por internet, por eso cierran las tiendas pequeñas. Los ayuntamientos han hecho campañas, pero no han funcionado mucho. Tienen que bajar los impuestos a los comercios.».",
+        prompt: "Rewrite this plain paragraph in formal Advanced English (60 to 90 words), using at least one nominalisation, one hedge, one discourse marker and either a participle clause or an inversion: «Mucha gente compra por internet, por eso cierran las tiendas pequeñas. Los ayuntamientos han hecho campañas, pero no han funcionado mucho. Tienen que bajar los impuestos a los comercios.».",
         minWords: 60,
         maxWords: 90,
         rubric: [
@@ -4054,7 +4054,7 @@ export const EN_C1_U14: Lesson[] = [
     level: "EN-C1",
     number: 14,
     title: "Word Web: Education and Learning",
-    summary: "C1 vocabulary for writing about education: degrees, tuition fees, dissertations, assessment and lifelong learning, the false friends \"lecture\" and \"career\", and the key UK/US differences.",
+    summary: "Advanced vocabulary for writing about education: degrees, tuition fees, dissertations, assessment and lifelong learning, the false friends \"lecture\" and \"career\", and the key UK/US differences.",
     duration: "12 min",
     sections: [
       {

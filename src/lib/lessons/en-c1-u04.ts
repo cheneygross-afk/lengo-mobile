@@ -302,7 +302,7 @@ export const EN_C1_U04: Lesson[] = [
         body: [
           "With \"be\" as a main verb, the form of \"be\" stays: \"I'm not tired, but Ana is.\" After a modal or \"to\", you keep the base form \"be\": \"He isn't ready yet, but he will be.\"",
           "With perfect modals, keep \"have\" (and \"been\" for be): \"You should have told me. I know I should have.\" \"Was she angry? She must have been.\"",
-          "In a question-and-answer, the same rule applies: \"Have you finished? I have.\" \"Will you be there? I will.\" A bare \"yes\" is fine too, but the auxiliary sounds more complete and more natural at C1.",
+          "In a question-and-answer, the same rule applies: \"Have you finished? I have.\" \"Will you be there? I will.\" A bare \"yes\" is fine too, but the auxiliary sounds more complete and more natural at the Advanced level.",
         ],
         examples: [
           { es: "I'm not tired, but Ana is.", en: "Yo no estoy cansado, pero Ana sí." },
@@ -970,7 +970,7 @@ export const EN_C1_U04: Lesson[] = [
         question: "Which clipped sentence is NOT possible in English?",
         options: ["Is raining again.", "Sounds great.", "Can't wait!", "Anyone hungry?"],
         correctIndex: 0,
-        explanation: "*Is raining again drops only the subject and keeps the auxiliary, like Spanish «está lloviendo». English clips everything from the start, so \"Raining again.\" is possible, but that version is not.",
+        explanation: "*Is raining again drops only the subject and keeps the auxiliary, like Spanish «está lloviendo». English can drop the subject before a negative or modal (\"Can't wait!\") or the subject + \"is\" together (\"Raining again.\"), but it cannot leave \"is\" stranded at the start.",
       },
       {
         type: "translate",
@@ -1121,7 +1121,7 @@ export const EN_C1_U04: Lesson[] = [
             prompt: "Translate into English.",
             source: "Te lo dije mil veces.",
             answer: "I told you a thousand times.",
-            altAnswers: ["I told you a million times.", "I've told you a thousand times.", "I've told you a million times.", "I told you so a thousand times.", "I told you a hundred times.", "I've told you a hundred times."],
+            altAnswers: ["I told you a million times.", "I've told you a thousand times.", "I've told you a million times.", "I told you a hundred times.", "I've told you a hundred times."],
             explanation: "«Te lo dije» is \"I told you\". \"Tell\" takes the person directly; *I said it to you sounds foreign.",
           },
         ],
@@ -2249,7 +2249,7 @@ export const EN_C1_U04: Lesson[] = [
     level: "EN-C1",
     number: 13,
     title: "Word Web: Relationships and Social Life",
-    summary: "C1 vocabulary to talk about relationships: rapport, acquaintance, estranged, fall out, hit it off, drift apart, take for granted, close-knit, supportive, clingy, and the \"relatives\" vs \"parents\" trap.",
+    summary: "Advanced vocabulary to talk about relationships: rapport, acquaintance, estranged, fall out, hit it off, drift apart, take for granted, close-knit, supportive, clingy, and the \"relatives\" vs \"parents\" trap.",
     duration: "12 min",
     sections: [
       {
@@ -2436,7 +2436,7 @@ export const EN_C1_U04: Lesson[] = [
     slug: "c1-core-words-2",
     level: "EN-C1",
     number: 14,
-    title: "C1 Core Words 2: Academic Nouns",
+    title: "Advanced Core Words 2: Academic Nouns",
     summary: "Key academic nouns (approach, concept, framework, criteria, phenomenon, outcome, scope, trend, implication, assumption), their irregular plurals and the collocations that make them sound natural.",
     duration: "12 min",
     sections: [

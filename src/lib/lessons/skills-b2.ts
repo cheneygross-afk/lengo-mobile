@@ -192,7 +192,7 @@ export const B2_SKILLS: Record<string, Exercise[]> = {
         "Registro formal e impersonal, sin expresiones coloquiales",
       ],
       "En los últimos años, cada vez más ciudades se plantean cerrar su centro al tráfico. En mi opinión, se trata de una medida necesaria, siempre que se aplique de forma gradual. En primer lugar, la contaminación del aire es uno de los principales problemas de salud en las grandes ciudades, y los coches son responsables de buena parte de ella. Reducir el tráfico supondría, por consiguiente, una mejora inmediata de la calidad de vida. Además, un centro sin coches recupera el espacio público para los peatones: las calles se llenan de terrazas, de niños y de comercio local. Si bien es cierto que muchos comerciantes temen perder clientes, la experiencia de ciudades como Pontevedra demuestra lo contrario: las ventas aumentaron cuando se peatonalizó el centro. En conclusión, prohibir los coches en el centro no es un capricho, sino una inversión en salud. Ahora bien, para que funcione, es imprescindible que las autoridades mejoren antes el transporte público.",
-      "Un ensayo B2 se sostiene en su estructura: tesis, argumentos enlazados con conectores (en primer lugar, además, por consiguiente), una concesión (si bien es cierto que…) que se refuta y una conclusión. Para que y es imprescindible que exigen subjuntivo (funcione, mejoren)."
+      "Un ensayo de nivel Avanzado se sostiene en su estructura: tesis, argumentos enlazados con conectores (en primer lugar, además, por consiguiente), una concesión (si bien es cierto que…) que se refuta y una conclusión. Para que y es imprescindible que exigen subjuntivo (funcione, mejoren)."
     ),
   ],
   "b2r-mission-formal-text": [

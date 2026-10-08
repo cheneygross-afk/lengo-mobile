@@ -2377,7 +2377,7 @@ export const EN_B1_U28: Lesson[] = [
       {
         heading: "Four paragraphs",
         body: [
-          "A B1 opinion essay (120 to 180 words) usually has four paragraphs: 1) an introduction that presents the topic; 2) arguments for; 3) arguments against; 4) a conclusion with your opinion.",
+          "An Independence opinion essay (120 to 180 words) usually has four paragraphs: 1) an introduction that presents the topic; 2) arguments for; 3) arguments against; 4) a conclusion with your opinion.",
           "Start each paragraph with a topic sentence, a short sentence that says what the paragraph is about: \"There are several advantages to working from home.\" Then give reasons and examples.",
           "Many students write the whole essay in one block. In English, a new paragraph for each new idea makes your text much easier to read.",
         ],

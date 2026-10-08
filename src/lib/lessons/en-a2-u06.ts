@@ -1730,13 +1730,13 @@ export const EN_A2_U06: Lesson[] = [
     level: "EN-A2",
     number: 10,
     title: "Repaso en espiral: pasado y presente perfecto",
-    summary: "Repaso que mezcla el pasado simple, el pasado continuo, used to y el presente perfecto con los presentes del A1 y los pronombres de objeto.",
+    summary: "Repaso que mezcla el pasado simple, el pasado continuo, used to y el presente perfecto con los presentes del nivel Fundamentos y los pronombres de objeto.",
     duration: "12 min",
     sections: [
       {
         heading: "Ahora y siempre: los presentes",
         body: [
-          "Recuerda las bases del A1: el presente simple para hábitos y verdades (\"She works in a bank\") y el presente continuo para lo que pasa ahora mismo (\"She's working now\").",
+          "Recuerda las bases del nivel Fundamentos: el presente simple para hábitos y verdades (\"She works in a bank\") y el presente continuo para lo que pasa ahora mismo (\"She's working now\").",
           "Las pistas en español: «todos los días», «normalmente», «siempre» llevan al presente simple; «ahora», «en este momento», «esta semana» (algo temporal) llevan al presente continuo.",
           "Y los pronombres de objeto van después del verbo, no delante como en español: «la llamo» = \"I call her\".",
         ],

@@ -285,7 +285,7 @@ export const EN_B2_UNIT_WRITING: Record<string, WriteExercise> = {
       "At least one passive and one linker of contrast",
     ],
     "Last summer my friend Laura and I were traveling around Italy by train. We had been looking forward to the trip for months, but on the third day everything went wrong. We were having lunch in a station cafe in Florence when Laura realized that her bag had disappeared. It must have been stolen while we were looking at the menu, because nobody else was nearby. Her passport, her phone and all her money were in it. Although the police were very kind, they told us that the bag would probably never be found. We should have kept our passports in the hotel safe, and I wish we had paid more attention. If we hadn't stopped for lunch, we would have caught the earlier train, and maybe nothing would have happened. We spent the next two days at the consulate instead of visiting museums. In the end, Laura got an emergency passport and we finished the trip, but we have never eaten in a station cafe again.",
-    "This task mixes the whole B2 so far. Notice how each structure has its own job: \"It must have been stolen\" is a deduction, \"We should have kept\" is a regret, and \"If we hadn't stopped, we would have caught\" imagines a different past."
+    "This task mixes the whole the Upper Intermediate level so far. Notice how each structure has its own job: \"It must have been stolen\" is a deduction, \"We should have kept\" is a regret, and \"If we hadn't stopped, we would have caught\" imagines a different past."
   ),
   u24: t(
     "Write an opinion piece for a local newspaper about one of these issues: the four-day working week, the rising cost of housing, or young people's salaries. Use the vocabulary of work, money and society.",
@@ -309,7 +309,7 @@ export const EN_B2_UNIT_WRITING: Record<string, WriteExercise> = {
       "A clear personal opinion",
     ],
     "Twenty years ago my parents read a newspaper every morning. Today most people get their news from a screen. When I wake up, the first thing I do is scroll through the headlines on my phone, and I am not alone. Social media has made information faster and free, which is a huge advantage. However, the news we see is chosen by algorithms, and those algorithms show us what we already agree with. As a result, fake news spreads quickly, and it is often shared by millions of users before anyone checks it. It has become harder to know which sources are reliable. There is also an environmental cost that few people think about. Data centers use enormous amounts of electricity, so even streaming a video has a carbon footprint. In my opinion, technology itself is not the problem. We need more awareness: we should check facts before sharing them, follow trustworthy journalists and switch off our devices more often.",
-    "Word formation is key at B2: \"rely\" becomes \"reliable\", \"aware\" becomes \"awareness\", \"pollute\" becomes \"pollution\". Note that \"news\" is uncountable and takes a singular verb: \"the news is\", never *the news are."
+    "Word formation is key at the Upper Intermediate level: \"rely\" becomes \"reliable\", \"aware\" becomes \"awareness\", \"pollute\" becomes \"pollution\". Note that \"news\" is uncountable and takes a singular verb: \"the news is\", never *the news are."
   ),
   u26: t(
     "Write about a person who has had an important influence on your life or your wellbeing (a friend, a teacher, a coach). Describe their personality, your relationship and how they helped you through a difficult time.",
@@ -348,7 +348,7 @@ export const EN_B2_UNIT_WRITING: Record<string, WriteExercise> = {
     "\"Eventually\" means «al final», not «eventualmente», and \"actually\" means «en realidad». \"Hardly\" means «apenas» and already has a negative meaning, so don't add \"not\": *I didn't hardly sleep is wrong."
   ),
   u29: t(
-    "Write an opinion essay on this question: \"Is it better to learn a language at school or by living abroad?\" Use a wide range of B2 grammar and vocabulary.",
+    "Write an opinion essay on this question: \"Is it better to learn a language at school or by living abroad?\" Use a wide range of Upper Intermediate grammar and vocabulary.",
     [
       "An introduction, two or three body paragraphs and a conclusion",
       "A variety of linkers (contrast, addition, result, purpose)",
@@ -357,18 +357,18 @@ export const EN_B2_UNIT_WRITING: Record<string, WriteExercise> = {
       "Accurate verb patterns and collocations",
     ],
     "Millions of people learn a foreign language every year, but there is no agreement on the best way to do it. Some people believe that school gives you a solid base, whereas others argue that nothing compares to living abroad.\n\nOn the one hand, school lessons, which are usually free, provide structure. Grammar is explained step by step, and students are encouraged to practice regularly. Without this foundation, many learners would find it difficult to make progress.\n\nOn the other hand, what really makes a difference is using the language every day. People who live abroad are forced to communicate in real situations, so they improve their listening and speaking much faster. If I hadn't spent a year in Dublin, I would never have lost my fear of speaking English. However, moving abroad is expensive, and not everyone can afford it.\n\nIn conclusion, I believe that the two methods work best together. Students should study the basics at school in order to build confidence, and then spend time abroad if they get the chance.",
-    "A good B2 essay shows range without losing accuracy. Check the classic errors before you finish: subject always present, \"-s\" with he/she/it, \"people\" with a plural verb, and \"despite\" + noun, never + a clause."
+    "A good Upper Intermediate essay shows range without losing accuracy. Check the classic errors before you finish: subject always present, \"-s\" with he/she/it, \"people\" with a plural verb, and \"despite\" + noun, never + a clause."
   ),
   u30: t(
     "Write a letter to yourself to read in five years' time. Describe your life now, say what you have achieved in English, what you regret not doing, and what you hope you will have done by the time you read it.",
     [
-      "Present perfect for achievements (\"I've finished the B2 course\")",
+      "Present perfect for achievements (\"I've finished the Upper Intermediate course\")",
       "\"I wish\" / \"should have\" for a regret",
       "Future perfect and future continuous (\"By then I will have...\", \"I'll be working...\")",
       "A conditional and a cleft sentence",
-      "A wide range of B2 vocabulary and linkers",
+      "A wide range of Upper Intermediate vocabulary and linkers",
     ],
-    "Dear future me,\n\nIt's October, and I've just finished the B2 English course. I've been studying for almost two years, and although it hasn't always been easy, I'm really proud of myself. I can now watch series without subtitles, and last month I gave my first presentation at work in English. What surprised me most was that nobody noticed my nerves.\n\nOf course, I have some regrets. I should have started speaking with native speakers much earlier instead of only doing grammar exercises. I wish I had been less afraid of making mistakes. If I had practiced more, I would probably feel more confident now.\n\nBy the time you read this, I hope you will have passed the C1 exam and that you'll be working for an international company. Maybe you'll be living abroad, too. Whatever happens, please don't stop reading in English, and keep in touch with the friends you made in class. Remember how much effort it took to get here.\n\nGood luck,\nMe",
-    "This final task brings together the whole B2. Notice the contrast between \"I've finished\" (a result now), \"I should have started\" (a past regret) and \"you will have passed\" (completed before a future moment)."
+    "Dear future me,\n\nIt's October, and I've just finished the Upper Intermediate English course. I've been studying for almost two years, and although it hasn't always been easy, I'm really proud of myself. I can now watch series without subtitles, and last month I gave my first presentation at work in English. What surprised me most was that nobody noticed my nerves.\n\nOf course, I have some regrets. I should have started speaking with native speakers much earlier instead of only doing grammar exercises. I wish I had been less afraid of making mistakes. If I had practiced more, I would probably feel more confident now.\n\nBy the time you read this, I hope you will have passed the Advanced exam and that you'll be working for an international company. Maybe you'll be living abroad, too. Whatever happens, please don't stop reading in English, and keep in touch with the friends you made in class. Remember how much effort it took to get here.\n\nGood luck,\nMe",
+    "This final task brings together the whole Upper Intermediate. Notice the contrast between \"I've finished\" (a result now), \"I should have started\" (a past regret) and \"you will have passed\" (completed before a future moment)."
   ),
 };

@@ -4350,7 +4350,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
         ],
         [
           mc(
-            "«I have never been to Japan» in A2 Spanish (preterite):",
+            "«I have never been to Japan» in Elementary Spanish (preterite):",
             ["Nunca fui a Japón.", "Nunca iba a Japón.", "Nunca voy a Japón ayer.", "Nunca no fui a Japón."],
             0,
             "Nunca + preterite describes never having done something (common in Latin America): nunca fui. \"Iba\" is a habit, \"voy... ayer\" mixes tenses, and \"Nunca no\" doubles the negative."
@@ -4596,8 +4596,8 @@ export const A2_DRILLS: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-1",
     "a2d-fix-paragraph-a2-email",
-    "Fix the Paragraph: An Email Full of A2 Errors",
-    "One email, eight errors from eight different A2 topics. Find and fix each one.",
+    "Fix the Paragraph: An Email Full of Elementary Errors",
+    "One email, eight errors from eight different Elementary topics. Find and fix each one.",
     "8 min",
     [
       sec(
@@ -4632,7 +4632,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "a2-comprehensive-review-1",
     "a2d-say-it-yourself-introduce",
     "Say It Yourself: Introduce Yourself — Past, Present, Future",
-    "A complete self-introduction that uses every A2 tense: where you lived, what you do, what you'll do.",
+    "A complete self-introduction that uses every Elementary tense: where you lived, what you do, what you'll do.",
     "7 min",
     [
       sec(
@@ -4665,8 +4665,8 @@ export const A2_DRILLS: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-1",
     "a2d-speed-round-a2-traps",
-    "Speed Round: The 10 Biggest A2 Traps",
-    "The mistakes A2 learners make most, in one fast round: fui/fue, lo/le, por/para, era/fue, hizo, más mayor.",
+    "Speed Round: The 10 Biggest Elementary Traps",
+    "The mistakes de nivel Elemental learners make most, in one fast round: fui/fue, lo/le, por/para, era/fue, hizo, más mayor.",
     "6 min",
     [
       sec(
@@ -4700,7 +4700,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "a2-comprehensive-review-2",
     "a2d-story-cloze-market-day",
     "Story Cloze: A Day at the Market",
-    "A full A2 story with gaps from every topic: tenses, pronouns, por/para, comparisons and negation.",
+    "A full Elementary story with gaps from every topic: tenses, pronouns, por/para, comparisons and negation.",
     "8 min",
     [
       sec(
@@ -4802,13 +4802,13 @@ export const A2_DRILLS: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-2",
     "a2d-minimal-pairs-a2-final",
-    "Minimal Pairs: A2 Final Contrasts",
-    "Fue/era, lo/le, por/para, conocí/conocía, tan/tanto: eight pairs that sum up the hardest A2 choices.",
+    "Minimal Pairs: Elementary Final Contrasts",
+    "Fue/era, lo/le, por/para, conocí/conocía, tan/tanto: eight pairs that sum up the hardest Elementary choices.",
     "7 min",
     [
       sec(
         "Eight pairs",
-        "Choose between the two options in each sentence. Every pair comes from a different A2 topic, so you have to switch rules quickly.",
+        "Choose between the two options in each sentence. Every pair comes from a different Elementary topic, so you have to switch rules quickly.",
         [
           ["La cena fue deliciosa. / La casa era grande.", "Evaluation of an event vs. description."],
         ],
@@ -5002,7 +5002,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "a2-comprehensive-review-3",
     "a2d-cumulative-circuit-6",
     "Cumulative Circuit 6: Everyday Situations",
-    "Restaurant, directions, shopping and phone calls — practical A2 language mixed with grammar.",
+    "Restaurant, directions, shopping and phone calls — practical Elementary language mixed with grammar.",
     "7 min",
     [
       sec(
@@ -5071,12 +5071,12 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "a2-comprehensive-review-3",
     "a2d-mixed-practice-translation-sprint",
     "Mixed Practice: Translation Sprint",
-    "Eight short translations, each built around a different hard A2 point.",
+    "Eight short translations, each built around a different hard Elementary point.",
     "7 min",
     [
       sec(
         "One trap per sentence",
-        "Each sentence hides one A2 decision: preterite vs. imperfect, lo vs. le, se lo, por vs. para, mayor, tanto, double negation or the future. Spot it before you translate.",
+        "Each sentence hides one de nivel Elemental decision: preterite vs. imperfect, lo vs. le, se lo, por vs. para, mayor, tanto, double negation or the future. Spot it before you translate.",
         [
           ["Nunca le dije nada a nadie.", "I never told anyone anything."],
         ],
@@ -5104,13 +5104,13 @@ export const A2_DRILLS: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-3",
     "a2d-exit-drill-ready-b1",
-    "Final Drill: Are You Ready for B1?",
-    "A last mixed drill across all A2 grammar. Aim for 100% before you start the B1 subjunctive.",
+    "Final Drill: Are You Ready for the Intermediate level?",
+    "A last mixed drill across all Elementary grammar. Aim for 100% before you start the Intermediate subjunctive.",
     "8 min",
     [
       sec(
-        "Before B1",
-        "B1 builds directly on this: commands use the same pronoun placement, the present perfect contrasts with the preterite, and se lo appears everywhere. If any item here feels shaky, go back to its drill lessons.",
+        "Before the Intermediate level",
+        "Intermediate builds directly on this: commands use the same pronoun placement, the present perfect contrasts with the preterite, and se lo appears everywhere. If any item here feels shaky, go back to its drill lessons.",
         [
           ["Ayer se lo expliqué, pero no me entendió.", "Yesterday I explained it to him, but he didn't understand me."],
         ],

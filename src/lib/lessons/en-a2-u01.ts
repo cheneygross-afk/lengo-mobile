@@ -16,7 +16,7 @@ export const EN_A2_U01: Lesson[] = [
       {
         heading: "Dos formas para todo: \"was\" y \"were\"",
         body: [
-          "En A1 aprendiste \"am\", \"is\" y \"are\". En pasado solo hay dos formas: \"was\" para \"I\", \"he\", \"she\" e \"it\", y \"were\" para \"you\", \"we\" y \"they\".",
+          "En el nivel Fundamentos aprendiste \"am\", \"is\" y \"are\". En pasado solo hay dos formas: \"was\" para \"I\", \"he\", \"she\" e \"it\", y \"were\" para \"you\", \"we\" y \"they\".",
           "Una sola palabra inglesa cubre «era», «estaba», «fue» y «estuvo»: \"I was tired\" es «estaba cansado», y \"It was a good day\" es «fue un buen día». No tienes que elegir entre ser y estar, ni entre imperfecto e indefinido.",
           "Recuerda que \"you\" siempre va con \"were\", aunque hables con una sola persona: \"You were late\", nunca *You was late.",
         ],
@@ -118,7 +118,7 @@ export const EN_A2_U01: Lesson[] = [
       {
         heading: "«Había»: \"there was\" y \"there were\"",
         body: [
-          "En A1 viste \"there is\" y \"there are\" para «hay». En pasado son \"there was\" (con singular) y \"there were\" (con plural): «había un gato» es \"There was a cat\", «había muchas personas» es \"There were a lot of people\".",
+          "En el nivel Fundamentos viste \"there is\" y \"there are\" para «hay». En pasado son \"there was\" (con singular) y \"there were\" (con plural): «había un gato» es \"There was a cat\", «había muchas personas» es \"There were a lot of people\".",
           "No digas *It was a cat ni *It had many people para «había». \"It was\" significa «era» o «estaba», y \"had\" es «tenía».",
           "Las negativas y preguntas siguen la regla de siempre: \"There wasn't any milk\", \"Were there many people?\".",
         ],

@@ -318,7 +318,7 @@ export const EN_C2_U22: Lesson[] = [
           { es: "Work experience", en: "Experiencia profesional" },
           { es: "BSc in Computer Science, University of Seville, 2019", en: "Grado en Ingeniería Informática, Universidad de Sevilla, 2019" },
           { es: "Master's degree in International Marketing", en: "Máster en Marketing Internacional" },
-          { es: "Languages: Spanish (native), English (C2), French (B1)", en: "Idiomas: español (nativo), inglés (C2), francés (B1)" },
+          { es: "Languages: Spanish (native), English (Mastery), French (Independence)", en: "Idiomas: español (nativo), inglés (Maestría), francés (Independencia)" },
         ],
         checkpoint: [
           {
@@ -1506,13 +1506,13 @@ export const EN_C2_U22: Lesson[] = [
         heading: "Articles and register",
         body: [
           "Articles: English uses no article for general statements (*The teamwork is essential for me → \"Teamwork is essential for me\"), but needs \"a\" or \"an\" with jobs (*I am engineer → \"I'm an engineer\"). And it keeps \"the\" with specific things: \"the marketing team at my company\".",
-          "Register: a CV extract such as *Person with great capacity of work and dynamism, with high level of English sounds translated. In English, prefer concrete achievements over adjectives: \"Fluent English (C2). Delivered three product launches ahead of schedule.\" Adjectives like \"dynamic\" and \"hard-working\" are best shown, not stated.",
+          "Register: a CV extract such as *Person with great capacity of work and dynamism, with high level of English sounds translated. In English, prefer concrete achievements over adjectives: \"Fluent English (Mastery). Delivered three product launches ahead of schedule.\" Adjectives like \"dynamic\" and \"hard-working\" are best shown, not stated.",
           "In speech, the opposite error appears: overformal written phrases such as *I proceed to explain you my experience. Simply say: \"Let me tell you about my experience.\" Note also that \"explain\" takes \"to\" before the person: \"explain something to someone\".",
         ],
         examples: [
           { es: "Teamwork is essential for me.", en: "El trabajo en equipo es fundamental para mí." },
           { es: "I'm an engineer, and I specialize in renewable energy.", en: "Soy ingeniero y estoy especializado en energías renovables." },
-          { es: "Fluent English (C2). Delivered three product launches ahead of schedule.", en: "Inglés fluido (C2). Llevé a cabo tres lanzamientos de producto antes de plazo." },
+          { es: "Fluent English (Mastery). Delivered three product launches ahead of schedule.", en: "Inglés fluido (Maestría). Llevé a cabo tres lanzamientos de producto antes de plazo." },
           { es: "Let me tell you about my experience.", en: "Paso a explicarle mi experiencia." },
           { es: "Could you explain the role to me in a bit more detail?", en: "¿Podría explicarme el puesto con un poco más de detalle?" },
         ],
