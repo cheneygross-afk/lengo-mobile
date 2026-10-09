@@ -12,7 +12,12 @@ export type Story = {
   slug: string;
   // "EN-A1" ... "EN-C1/C2" are the English for Spanish speakers beta's
   // stories (src/lib/stories/en/): English text, Spanish everything else.
-  level: "A1" | "A2" | "B1" | "B2" | "C1/C2" | "EN-A1" | "EN-A2" | "EN-B1" | "EN-B2" | "EN-C1/C2";
+  // "FR-A1" ... "FR-C2" are the French course's (src/lib/stories/fr/):
+  // French text, English everything else.
+  level:
+    | "A1" | "A2" | "B1" | "B2" | "C1/C2"
+    | "EN-A1" | "EN-A2" | "EN-B1" | "EN-B2" | "EN-C1/C2"
+    | "FR-A1" | "FR-A2" | "FR-B1" | "FR-B2" | "FR-C1" | "FR-C2";
   title: string;
   subtitle: string;
   // Short paragraphs of original Spanish narrative -- max ~3 pages.

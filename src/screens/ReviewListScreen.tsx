@@ -7,6 +7,35 @@ import type { Lesson } from "@/lib/lessons/types";
 import { ALL_LEVEL_PATHS, LESSON_SOURCES, findLessonBySlug, moduleKeyForLesson } from "@/lib/lessons/registry";
 import { getReviewSlugs, removeFromReview } from "@/lib/lessons/review";
 import { courseOfLevelPath } from "@/lib/courses";
+import { FRENCH_LEVELS, loadFrenchLevel } from "@/lib/lessons/french";
+
+type Saved = { lesson: Lesson; levelPath: string };
+
+/** A course's saved lessons, with the levelPath each was saved under. */
+async function loadSaved(lang: string): Promise<Saved[]> {
+  if (lang === "fr") {
+    // French slugs can repeat a Spanish one, so each is looked up in its
+    // own level (loaded only when something there was saved).
+    const lists = await Promise.all(FRENCH_LEVELS.map((l) => getReviewSlugs(l.levelPath)));
+    const out: Saved[] = [];
+    for (const [i, level] of FRENCH_LEVELS.entries()) {
+      if (!lists[i].length) continue;
+      const { lessons } = await loadFrenchLevel(level.key);
+      for (const slug of lists[i]) {
+        const lesson = lessons.find((l) => l.slug === slug);
+        if (lesson) out.push({ lesson, levelPath: level.levelPath });
+      }
+    }
+    return out;
+  }
+  const keys = ALL_LEVEL_PATHS.filter((key) => courseOfLevelPath(key) === lang);
+  const lists = await Promise.all(keys.map((key) => getReviewSlugs(LESSON_SOURCES[key].levelPath)));
+  return lists
+    .flat()
+    .map((slug) => findLessonBySlug(slug))
+    .filter((l): l is Lesson => !!l)
+    .map((lesson) => ({ lesson, levelPath: LESSON_SOURCES[moduleKeyForLesson(lesson)].levelPath }));
+}
 
 type Props = NativeStackScreenProps<AppStackParamList, "Review">;
 
@@ -20,19 +49,13 @@ type Props = NativeStackScreenProps<AppStackParamList, "Review">;
 // than merging Spanish and Japanese into one list.
 export default function ReviewListScreen({ navigation, route }: Props) {
   const lang = route.params?.lang ?? "es";
-  const [lessons, setLessons] = useState<Lesson[]>([]);
+  const [lessons, setLessons] = useState<Saved[]>([]);
 
   useFocusEffect(
     useCallback(() => {
       let cancelled = false;
-      const keys = ALL_LEVEL_PATHS.filter((key) => courseOfLevelPath(key) === lang);
-      Promise.all(keys.map((key) => getReviewSlugs(LESSON_SOURCES[key].levelPath))).then((lists) => {
-        if (cancelled) return;
-        const found = lists
-          .flat()
-          .map((slug) => findLessonBySlug(slug))
-          .filter((l): l is Lesson => !!l);
-        setLessons(found);
+      loadSaved(lang).then((found) => {
+        if (!cancelled) setLessons(found);
       });
       return () => {
         cancelled = true;
@@ -40,9 +63,9 @@ export default function ReviewListScreen({ navigation, route }: Props) {
     }, [lang])
   );
 
-  async function handleRemove(slug: string, lesson: Lesson) {
-    setLessons((prev) => prev.filter((l) => l.slug !== slug));
-    await removeFromReview(LESSON_SOURCES[moduleKeyForLesson(lesson)].levelPath, slug);
+  async function handleRemove(item: Saved) {
+    setLessons((prev) => prev.filter((l) => !(l.lesson.slug === item.lesson.slug && l.levelPath === item.levelPath)));
+    await removeFromReview(item.levelPath, item.lesson.slug);
   }
 
   if (lessons.length === 0) {
@@ -61,20 +84,25 @@ export default function ReviewListScreen({ navigation, route }: Props) {
       <Text style={styles.header}>{lessons.length} lesson{lessons.length === 1 ? "" : "s"} saved for review</Text>
       <FlatList
         data={lessons}
-        keyExtractor={(item) => item.slug}
+        keyExtractor={(item) => `${item.levelPath}/${item.lesson.slug}`}
         contentContainerStyle={styles.list}
         renderItem={({ item }) => (
           <View style={styles.row}>
             <Pressable
               style={styles.rowBody}
-              onPress={() => navigation.navigate("LessonRunner", { slug: item.slug })}
+              onPress={() =>
+                navigation.navigate(
+                  "LessonRunner",
+                  lang === "fr" ? { slug: item.lesson.slug, levelPath: item.levelPath } : { slug: item.lesson.slug }
+                )
+              }
             >
-              <Text style={styles.rowTitle}>{item.title}</Text>
+              <Text style={styles.rowTitle}>{item.lesson.title}</Text>
               <Text style={styles.rowSummary} numberOfLines={2}>
-                {item.summary}
+                {item.lesson.summary}
               </Text>
             </Pressable>
-            <Pressable style={styles.removeBtn} onPress={() => handleRemove(item.slug, item)} hitSlop={8}>
+            <Pressable style={styles.removeBtn} onPress={() => handleRemove(item)} hitSlop={8}>
               <Text style={styles.removeBtnText}>Remove</Text>
             </Pressable>
           </View>

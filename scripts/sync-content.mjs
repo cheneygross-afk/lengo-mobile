@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Copies lesson, story, curriculum-engine, reading, grammar-guide, placement-test, conjugation, glossary and deck content from the website repo
+// Copies lesson, story, reading, grammar-guide, placement-test, conjugation, glossary, deck, exam and French-tools content from the website repo
 // (cheneygross-afk/lengo) into this app, so the two can't drift apart.
 // The website is the single source of truth for course content: edit a
 // lesson there, then run this script (or let the website's "Sync content
@@ -47,7 +47,23 @@ const DIRS = {
   "src/lib/decks": [],
   // DELE practice exams (data plus the pure marking helpers).
   "src/lib/exams": [],
+  // The French course's stories (with their translations and glosses),
+  // DELF/DALF practice exams, conjugation engine, and the vocabulary
+  // tables its glossary reads (the website's build writes them from the
+  // lessons; synced as-is, see JSON_DIRS).
+  "src/lib/stories/fr": [],
+  "src/lib/stories/fr/batches": [],
+  "src/lib/exams/fr": [],
+  "src/lib/fr-conjugation": [],
+  "src/lib/fr-tools": [
+    "lessons.ts", // static import of the full lesson list for the website's server pages
+  ],
+  "src/lib/fr-tools/data": [],
 };
+
+// Directories whose .json files sync too. JSON can't carry the "Synced
+// from" header, so these are only hash-checked (src/content-sync.json).
+const JSON_DIRS = new Set(["src/lib/fr-tools/data"]);
 
 // The website's rebuilt Japanese course (furigana markup, A1-C2 units,
 // stories, guides, videos) is web-only for now: it's ~34MB and imports
@@ -56,17 +72,12 @@ const DIRS = {
 // no longer synced). ja-alphabets.ts still syncs.
 const WEB_ONLY_JA = /^(ja-(a1|a2|b1|b2|c1|c2)([-.].*)?\.ts|ja-course\.ts|ja-units\.ts|ja-unit-reviews\.ts|jaVideos\.ts)$/;
 const JA_WEB_DIRS = new Set(["src/lib/stories", "src/lib/grammar"]);
-// The French course (src/lib/lessons/fr-*.ts, stories in src/lib/stories/fr)
-// is a website beta while it's being written; it comes to the app once
-// the course is complete.
-const WEB_ONLY_FR = /^fr-.*\.ts$/;
 const webOnly = (dir, name) =>
-  (dir === "src/lib/lessons" && (WEB_ONLY_JA.test(name) || WEB_ONLY_FR.test(name))) ||
-  (JA_WEB_DIRS.has(dir) && name.startsWith("ja-"));
+  (dir === "src/lib/lessons" && WEB_ONLY_JA.test(name)) || (JA_WEB_DIRS.has(dir) && name.startsWith("ja-"));
 
 // Single website files mirrored to the same path here (pure data that
 // doesn't live in one of the directories above).
-const FILES = ["src/lib/placementTest.ts"];
+const FILES = ["src/lib/placementTest.ts", "src/lib/fr-placementTest.ts"];
 
 const header = (rel) =>
   `// Synced from ${SOURCE_REPO}:${rel} by scripts/sync-content.mjs -- edit it there, not here.\n`;
@@ -135,16 +146,17 @@ function sync(from, adopt) {
   const writes = new Map();
   for (const [dir, excluded] of Object.entries(DIRS)) {
     for (const name of fs.readdirSync(path.join(src, dir)).sort()) {
-      if (!name.endsWith(".ts") || excluded.includes(name) || webOnly(dir, name)) continue;
+      const json = JSON_DIRS.has(dir) && name.endsWith(".json");
+      if (!(name.endsWith(".ts") || json) || excluded.includes(name) || webOnly(dir, name)) continue;
       const rel = `${dir}/${name}`;
       const dest = path.join(ROOT, rel);
-      if (!adopt && fs.existsSync(dest) && !(rel in old.files) && !fs.readFileSync(dest, "utf8").startsWith(HEADER_PREFIX)) {
+      if (!adopt && fs.existsSync(dest) && !(rel in old.files) && (json || !fs.readFileSync(dest, "utf8").startsWith(HEADER_PREFIX))) {
         console.error(`Refusing to overwrite ${rel}: it exists here but isn't a synced file.`);
         console.error(`Rename the app's file, add ${name} to the excluded list in scripts/sync-content.mjs,`);
         console.error("or pass --adopt to replace it with the website's copy.");
         process.exit(1);
       }
-      writes.set(rel, header(rel) + fs.readFileSync(path.join(src, rel), "utf8"));
+      writes.set(rel, (json ? "" : header(rel)) + fs.readFileSync(path.join(src, rel), "utf8"));
     }
   }
   for (const rel of FILES) {

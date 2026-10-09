@@ -52,11 +52,15 @@ function fromRow(row: Row): LessonHighlight {
  *  anything keyed by a lessonSlug in lesson_highlights). Empty (not an
  *  error) when logged out -- callers treat "no highlights" and "can't
  *  have highlights right now" the same way. */
-export async function loadLessonHighlights(lessonSlug: string): Promise<LessonHighlight[]> {
-  const { data, error } = await supabase
+export async function loadLessonHighlights(lessonSlug: string, levelPath?: string): Promise<LessonHighlight[]> {
+  let query = supabase
     .from("lesson_highlights")
     .select("id, lesson_slug, level_path, block_key, start_offset, end_offset, highlighted_text, created_at")
     .eq("lesson_slug", lessonSlug);
+  // French lesson slugs can repeat a Spanish one ("a1-final-review-1"), so
+  // French lessons pass their levelPath too (as the website does).
+  if (levelPath) query = query.eq("level_path", levelPath);
+  const { data, error } = await query;
   if (error || !data) return [];
   return (data as Row[]).map(fromRow);
 }

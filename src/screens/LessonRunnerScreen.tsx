@@ -7,6 +7,7 @@ import {
   StyleSheet,
   Animated,
   Alert,
+  ActivityIndicator,
 } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
@@ -48,6 +49,7 @@ import { LESSON_PASS_PERCENT, lessonPassed } from "@/lib/grading";
 import { getSpanishVariety, loadSpanishVariety, type SpanishVariety } from "@/lib/spanishVariety";
 import { isVosotrosFocused, requiresVosotros, vosotrosNote } from "@/lib/vosotros";
 import { setListenFirst, useListenFirst } from "@/lib/listenFirstPref";
+import { frenchLevelIfLoaded, frenchLevelKeyOf, loadFrenchLevel, type FrenchLevelData } from "@/lib/lessons/french";
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonRunner">;
 
@@ -84,20 +86,55 @@ type Step =
 
 export default function LessonRunnerScreen({ route, navigation }: Props) {
   const { slug } = route.params;
-  // Slugs are unique across every track (Spanish A1 + the Japanese
-  // beta's modules), so this resolves regardless of which one the
-  // learner came from -- LessonList, Review, or the Japanese level
-  // picker.
-  const lesson = useMemo(() => findLessonBySlug(slug), [slug]);
-  const levelPath = useMemo(() => (lesson ? LESSON_SOURCES[moduleKeyForLesson(lesson)].levelPath : "a1"), [lesson]);
+  // A French lesson comes with its levelPath ("fr/a1"): French slugs can
+  // repeat a Spanish one, and its level is loaded on demand (see
+  // lessons/french.ts) -- until it is, the screen shows a spinner.
+  const frenchKey = route.params.levelPath ? frenchLevelKeyOf(route.params.levelPath) : null;
+  const [frenchData, setFrenchData] = useState<FrenchLevelData | null>(() =>
+    frenchKey ? frenchLevelIfLoaded(frenchKey) ?? null : null
+  );
+  useEffect(() => {
+    if (!frenchKey || frenchData?.key === frenchKey) return;
+    let cancelled = false;
+    loadFrenchLevel(frenchKey).then((data) => {
+      if (!cancelled) setFrenchData(data);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [frenchKey, frenchData?.key]);
+  // Every other track's slugs are unique across the Spanish, Japanese and
+  // Chinese courses, so the slug alone finds the lesson regardless of which
+  // one the learner came from -- LessonList, Review, or a level picker.
+  // The track is the lesson's level: its levelPath and lessons.
+  const track = useMemo<{ levelPath: string; lessons: Lesson[] } | null>(() => {
+    if (frenchKey) return frenchData && frenchData.key === frenchKey ? frenchData : null;
+    const found = findLessonBySlug(slug);
+    if (!found) return null;
+    const source = LESSON_SOURCES[moduleKeyForLesson(found)];
+    return { levelPath: source.levelPath, lessons: source.lessons };
+  }, [slug, frenchKey, frenchData]);
+  const lesson = useMemo(
+    () => (frenchKey ? track?.lessons.find((l) => l.slug === slug) : findLessonBySlug(slug)),
+    [slug, frenchKey, track]
+  );
+  const levelPath = track?.levelPath ?? "a1";
+  const trackLessons = useMemo(() => track?.lessons ?? [], [track]);
   const lang = useMemo(() => langForLevelPath(levelPath), [levelPath]);
+  // A lesson from this track by slug (the lesson a review question came from).
+  const lessonInTrack = (s: string) => (frenchKey ? trackLessons.find((l) => l.slug === s) : findLessonBySlug(s));
   // The title as the lesson list shows it (one "Part X of Y", see
   // levels.ts displayTitle), and the unit it belongs to.
-  const shownTitle = useMemo(
-    () => (lesson ? displayTitle(lesson, LESSON_SOURCES[moduleKeyForLesson(lesson)].lessons) : ""),
-    [lesson]
+  const shownTitle = useMemo(() => (lesson ? displayTitle(lesson, trackLessons) : ""), [lesson, trackLessons]);
+  const unitLabel = useMemo(
+    () =>
+      lesson
+        ? frenchData && frenchKey
+          ? frenchData.units.find((u) => [...u.required, ...u.optional].some((l) => l.slug === lesson.slug))?.label
+          : unitOf(levelPath, lesson.slug)?.label
+        : undefined,
+    [lesson, levelPath, frenchData, frenchKey]
   );
-  const unitLabel = useMemo(() => (lesson ? unitOf(levelPath, lesson.slug)?.label : undefined), [lesson, levelPath]);
 
   // Missed questions from this track that are due again, read once when
   // the lesson opens so the review questions don't shift mid-lesson.
@@ -166,7 +203,6 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       section.checkpoint?.forEach((e) => pushOwn(e, passage));
     });
     lesson.exercises.forEach((e) => pushOwn(e, undefined, lesson.unitReview));
-    const trackLessons = LESSON_SOURCES[moduleKeyForLesson(lesson)].lessons;
     const review = buildReviewQuestions(
       lesson,
       trackLessons,
@@ -188,7 +224,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     });
     out.push({ kind: "complete" });
     return out;
-  }, [lesson, dueMissed, variety, skipExercise]);
+  }, [lesson, trackLessons, dueMissed, variety, skipExercise]);
   const lessonNote =
     variety === "latam" && lesson && isSpanishLessonLevel(lesson.level) && isVosotrosFocused(lesson)
       ? vosotrosNote(lesson.level)
@@ -198,10 +234,9 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   // the learner didn't reach the pass mark.
   const nextLesson = useMemo(() => {
     if (!lesson) return null;
-    const trackLessons = LESSON_SOURCES[moduleKeyForLesson(lesson)].lessons;
     const i = trackLessons.findIndex((l) => l.slug === lesson.slug);
     return i >= 0 ? trackLessons[i + 1] ?? null : null;
-  }, [lesson]);
+  }, [lesson, trackLessons]);
   // Answers to review questions that came from the missed-questions
   // pool, written back in one go when the lesson finishes.
   const poolResultsRef = useRef<Map<string, boolean>>(new Map());
@@ -257,8 +292,16 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       setHighlights([]);
       return;
     }
-    loadLessonHighlights(lesson.slug).then(setHighlights);
-  }, [lesson?.slug, loggedIn]);
+    loadHighlights(lesson.slug).then(setHighlights);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [lesson?.slug, loggedIn, levelPath]);
+
+  // A French lesson's highlights are its levelPath's; a Spanish one never
+  // shows a French lesson's that happens to share its slug.
+  async function loadHighlights(lessonSlug: string): Promise<LessonHighlight[]> {
+    if (frenchKey) return loadLessonHighlights(lessonSlug, levelPath);
+    return (await loadLessonHighlights(lessonSlug)).filter((h) => !h.levelPath.startsWith("fr/"));
+  }
 
   function highlightsFor(blockKey: string): LessonHighlight[] {
     return highlights.filter((h) => h.blockKey === blockKey);
@@ -280,7 +323,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       // Re-fetch rather than patch local state -- a save can merge with
       // and delete other overlapping rows server-side, and re-fetching is
       // the simplest way to stay in sync with what actually landed.
-      const fresh = await loadLessonHighlights(lesson.slug);
+      const fresh = await loadHighlights(lesson.slug);
       setHighlights(fresh);
     }
   }
@@ -318,6 +361,13 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentStep, lesson]);
 
+  if (frenchKey && !track) {
+    return (
+      <View style={s.center}>
+        <ActivityIndicator />
+      </View>
+    );
+  }
   if (!lesson) {
     return (
       <View style={s.center}>
@@ -490,8 +540,14 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
                 if (correct) setCorrectCount((c) => c + 1);
                 // The attempts log (lib/attempts.ts), against the lesson the
                 // question came from (review questions can be older ones).
-                const from = currentStep.source.slug === lesson?.slug ? lesson : findLessonBySlug(currentStep.source.slug);
-                if (from) void recordLessonAttempt(LESSON_SOURCES[moduleKeyForLesson(from)].levelPath, from, currentStep.exercise, correct);
+                const from = currentStep.source.slug === lesson?.slug ? lesson : lessonInTrack(currentStep.source.slug);
+                if (from)
+                  void recordLessonAttempt(
+                    frenchKey ? levelPath : LESSON_SOURCES[moduleKeyForLesson(from)].levelPath,
+                    from,
+                    currentStep.exercise,
+                    correct
+                  );
                 if (correct && currentStep.review?.fromMissedPool && !poolResultsRef.current.has(currentStep.id)) {
                   poolResultsRef.current.set(currentStep.id, true);
                 }
@@ -518,8 +574,11 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
             correctCount={correctCount}
             totalExercises={questionCount}
             passed={lessonPassed(correctCount, questionCount)}
-            nextLessonTitle={nextLesson ? displayTitle(nextLesson, LESSON_SOURCES[moduleKeyForLesson(nextLesson)].lessons) : null}
-            onNextLesson={() => nextLesson && navigation.replace("LessonRunner", { slug: nextLesson.slug })}
+            nextLessonTitle={nextLesson ? displayTitle(nextLesson, trackLessons) : null}
+            onNextLesson={() =>
+              nextLesson &&
+              navigation.replace("LessonRunner", frenchKey ? { slug: nextLesson.slug, levelPath } : { slug: nextLesson.slug })
+            }
             elapsedMs={Date.now() - startedAt.current}
             finishing={finishing}
             addedToReview={addedToReview}

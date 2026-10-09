@@ -1,4 +1,5 @@
-import { View, Text, Pressable, StyleSheet, ScrollView } from "react-native";
+import { useEffect, useState } from "react";
+import { View, Text, Pressable, StyleSheet, ScrollView, ActivityIndicator } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import type { LessonModuleKey } from "@/lib/lessons/registry";
@@ -6,7 +7,12 @@ import { GRAMMAR_GUIDES } from "@/lib/grammar/guides";
 import { lessonsForGuide } from "@/lib/lessons/grammarLinks";
 import { findLessonBySlug } from "@/lib/lessons/registry";
 import TapText from "@/components/TapText";
-import { ENGLISH_LANG, SPANISH_LANG } from "@/lib/speech";
+import { ENGLISH_LANG, FRENCH_LANG, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
+import type { GrammarGuide } from "@/lib/grammar/types";
+import type { FrGrammarGuide } from "@/lib/grammar/fr-types";
+import { loadFrenchGuides } from "@/lib/grammar/french";
+import type { FrenchLevelKey } from "@/lib/lessons/french";
+import type { FrenchStoryLevel } from "@/lib/stories/fr";
 
 type Props = NativeStackScreenProps<AppStackParamList, "GrammarGuide">;
 
@@ -22,7 +28,14 @@ const LESSONS_FOR_LEVEL: Record<string, LessonModuleKey> = {
 // One grammar guide, laid out like the website's /grammar/[slug] page.
 // Every word is tap-to-hear: English prose with Spanish mixed in is read
 // word by word in whichever language each word is in.
-export default function GrammarGuideScreen({ route, navigation }: Props) {
+export default function GrammarGuideScreen(props: Props) {
+  return props.route.params.lang === "fr" ? <FrenchGrammarGuideScreen {...props} /> : <SpanishGrammarGuideScreen {...props} />;
+}
+
+// What the guide layout below needs, whichever course the guide is from.
+type GuideBody = Pick<GrammarGuide, "title" | "level" | "intro" | "sections" | "mistakes" | "faqs">;
+
+function SpanishGrammarGuideScreen({ route, navigation }: Props) {
   const guide = GRAMMAR_GUIDES.find((g) => g.slug === route.params.slug);
   if (!guide) {
     return (
@@ -41,18 +54,112 @@ export default function GrammarGuideScreen({ route, navigation }: Props) {
     .filter((g): g is (typeof GRAMMAR_GUIDES)[number] => !!g);
 
   return (
+    <GuideLayout
+      guide={guide}
+      lang={SPANISH_LANG}
+      practiceLabel={firstLesson ? "Practice this in lessons" : `Practice with the ${guide.level} lessons`}
+      onPractice={() =>
+        firstLesson
+          ? navigation.navigate("LessonRunner", { slug: firstLesson.slug })
+          : navigation.navigate("LessonList", { moduleKey: LESSONS_FOR_LEVEL[guide.level] })
+      }
+      storyLabel={`Read a ${guide.level} story`}
+      onStory={() => navigation.navigate("ReadingsList", { levelPath: guide.readingLevelPath })}
+      related={related}
+      onRelated={(slug) => navigation.push("GrammarGuide", { slug })}
+    />
+  );
+}
+
+// A French grammar guide (src/lib/grammar/fr-guides*.ts, loaded on demand):
+// the same layout, read in the French voice, with links into the French
+// lessons and stories.
+function FrenchGrammarGuideScreen({ route, navigation }: Props) {
+  const [guides, setGuides] = useState<FrGrammarGuide[] | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    loadFrenchGuides().then((g) => {
+      if (!cancelled) setGuides(g);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+  if (!guides) {
+    return (
+      <View style={[s.screen, s.loading]}>
+        <ActivityIndicator />
+      </View>
+    );
+  }
+  const guide = guides.find((g) => g.slug === route.params.slug);
+  if (!guide) {
+    return (
+      <View style={s.screen}>
+        <Text style={[s.body, { padding: 20 }]}>This guide isn’t available.</Text>
+      </View>
+    );
+  }
+  const levelPath = `fr/${guide.level.toLowerCase()}`;
+  const firstLesson = guide.lessons[0];
+  const related = guide.related
+    .map((slug) => guides.find((g) => g.slug === slug))
+    .filter((g): g is FrGrammarGuide => !!g);
+  // The layout's examples are { es, en }: the target language and English.
+  const body: GuideBody = {
+    ...guide,
+    sections: guide.sections.map((sec) => ({ ...sec, examples: sec.examples?.map((ex) => ({ es: ex.fr, en: ex.en })) })),
+  };
+  return (
+    <GuideLayout
+      guide={body}
+      lang={FRENCH_LANG}
+      practiceLabel={firstLesson ? "Practice this in lessons" : `Practice with the ${guide.level} lessons`}
+      onPractice={() =>
+        firstLesson
+          ? navigation.navigate("LessonRunner", { slug: firstLesson, levelPath })
+          : navigation.navigate("LessonList", { frenchLevel: guide.level.toLowerCase() as FrenchLevelKey })
+      }
+      storyLabel={`Read a ${guide.level} story`}
+      onStory={() => navigation.navigate("ReadingsList", { frenchLevel: guide.level.toLowerCase() as FrenchStoryLevel["path"] })}
+      related={related}
+      onRelated={(slug) => navigation.push("GrammarGuide", { slug, lang: "fr" })}
+    />
+  );
+}
+
+function GuideLayout({
+  guide,
+  lang,
+  practiceLabel,
+  onPractice,
+  storyLabel,
+  onStory,
+  related,
+  onRelated,
+}: {
+  guide: GuideBody;
+  lang: SpeechLang;
+  practiceLabel: string;
+  onPractice: () => void;
+  storyLabel: string;
+  onStory: () => void;
+  related: { slug: string; title: string }[];
+  onRelated: (slug: string) => void;
+}) {
+  return (
     <ScrollView style={s.screen} contentContainerStyle={s.content}>
       <Text style={s.kicker}>Level {guide.level}</Text>
-      <TapText text={guide.title} lang={SPANISH_LANG} style={s.title} />
+      <TapText text={guide.title} lang={lang} style={s.title} />
       {guide.intro.map((p, i) => (
-        <TapText key={i} text={p} lang={SPANISH_LANG} style={s.body} />
+        <TapText key={i} text={p} lang={lang} style={s.body} />
       ))}
 
       {guide.sections.map((section) => (
         <View key={section.heading} style={s.section}>
-          <TapText text={section.heading} lang={SPANISH_LANG} style={s.heading} />
+          <TapText text={section.heading} lang={lang} style={s.heading} />
           {section.body.map((p, i) => (
-            <TapText key={i} text={p} lang={SPANISH_LANG} style={s.body} />
+            <TapText key={i} text={p} lang={lang} style={s.body} />
           ))}
           {section.table && (
             <ScrollView horizontal style={s.tableScroll} contentContainerStyle={s.table}>
@@ -60,7 +167,7 @@ export default function GrammarGuideScreen({ route, navigation }: Props) {
                 <View style={[s.tableRow, s.tableHeaderRow]}>
                   {section.table.headers.map((h, i) => (
                     <View key={i} style={s.tableCell}>
-                      <TapText text={h} lang={SPANISH_LANG} style={s.tableHeader} />
+                      <TapText text={h} lang={lang} style={s.tableHeader} />
                     </View>
                   ))}
                 </View>
@@ -68,7 +175,7 @@ export default function GrammarGuideScreen({ route, navigation }: Props) {
                   <View key={r} style={s.tableRow}>
                     {row.map((cell, c) => (
                       <View key={c} style={s.tableCell}>
-                        <TapText text={cell} lang={SPANISH_LANG} style={c === 0 ? s.tableLabel : s.tableText} />
+                        <TapText text={cell} lang={lang} style={c === 0 ? s.tableLabel : s.tableText} />
                       </View>
                     ))}
                   </View>
@@ -78,7 +185,7 @@ export default function GrammarGuideScreen({ route, navigation }: Props) {
           )}
           {section.examples?.map((ex) => (
             <View key={ex.es} style={s.example}>
-              <TapText text={ex.es} lang={SPANISH_LANG} mode="target" style={s.exampleEs} />
+              <TapText text={ex.es} lang={lang} mode="target" style={s.exampleEs} />
               <TapText text={ex.en} lang={ENGLISH_LANG} mode="english" style={s.exampleEn} />
             </View>
           ))}
@@ -87,12 +194,12 @@ export default function GrammarGuideScreen({ route, navigation }: Props) {
 
       {guide.mistakes.length > 0 && (
         <View style={s.section}>
-          <TapText text="Common mistakes" lang={SPANISH_LANG} mode="english" style={s.heading} />
+          <TapText text="Common mistakes" lang={lang} mode="english" style={s.heading} />
           {guide.mistakes.map((m) => (
             <View key={m.wrong} style={s.example}>
-              <TapText text={m.wrong} lang={SPANISH_LANG} mode="target" style={s.wrong} />
-              <TapText text={m.right} lang={SPANISH_LANG} mode="target" style={s.right} />
-              <TapText text={m.why} lang={SPANISH_LANG} style={s.exampleEn} />
+              <TapText text={m.wrong} lang={lang} mode="target" style={s.wrong} />
+              <TapText text={m.right} lang={lang} mode="target" style={s.right} />
+              <TapText text={m.why} lang={lang} style={s.exampleEn} />
             </View>
           ))}
         </View>
@@ -100,38 +207,28 @@ export default function GrammarGuideScreen({ route, navigation }: Props) {
 
       {guide.faqs.length > 0 && (
         <View style={s.section}>
-          <TapText text="Questions learners ask" lang={SPANISH_LANG} mode="english" style={s.heading} />
+          <TapText text="Questions learners ask" lang={lang} mode="english" style={s.heading} />
           {guide.faqs.map((f) => (
             <View key={f.q} style={{ marginBottom: 12 }}>
-              <TapText text={f.q} lang={SPANISH_LANG} style={s.faqQ} />
-              <TapText text={f.a} lang={SPANISH_LANG} style={s.body} />
+              <TapText text={f.q} lang={lang} style={s.faqQ} />
+              <TapText text={f.a} lang={lang} style={s.body} />
             </View>
           ))}
         </View>
       )}
 
-      <Pressable
-        style={s.bigBtn}
-        onPress={() =>
-          firstLesson
-            ? navigation.navigate("LessonRunner", { slug: firstLesson.slug })
-            : navigation.navigate("LessonList", { moduleKey: LESSONS_FOR_LEVEL[guide.level] })
-        }
-      >
-        <Text style={s.bigBtnText}>{firstLesson ? "Practice this in lessons" : `Practice with the ${guide.level} lessons`}</Text>
+      <Pressable style={s.bigBtn} onPress={onPractice}>
+        <Text style={s.bigBtnText}>{practiceLabel}</Text>
       </Pressable>
-      <Pressable
-        style={s.secondaryBtn}
-        onPress={() => navigation.navigate("ReadingsList", { levelPath: guide.readingLevelPath })}
-      >
-        <Text style={s.secondaryBtnText}>Read a {guide.level} story</Text>
+      <Pressable style={s.secondaryBtn} onPress={onStory}>
+        <Text style={s.secondaryBtnText}>{storyLabel}</Text>
       </Pressable>
 
       {related.length > 0 && (
         <View style={s.section}>
           <Text style={s.relatedHeader}>Related grammar guides</Text>
           {related.map((g) => (
-            <Pressable key={g.slug} onPress={() => navigation.push("GrammarGuide", { slug: g.slug })} hitSlop={4}>
+            <Pressable key={g.slug} onPress={() => onRelated(g.slug)} hitSlop={4}>
               <Text style={s.relatedLink}>{g.title}</Text>
             </Pressable>
           ))}
@@ -143,6 +240,7 @@ export default function GrammarGuideScreen({ route, navigation }: Props) {
 
 const s = StyleSheet.create({
   screen: { flex: 1, backgroundColor: "#FAF6F1" },
+  loading: { alignItems: "center", justifyContent: "center" },
   content: { padding: 20, paddingBottom: 48 },
   kicker: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#7A1F1F", marginBottom: 6 },
   title: { fontSize: 24, fontWeight: "800", color: "#000", marginBottom: 14 },

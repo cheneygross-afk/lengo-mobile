@@ -28,6 +28,7 @@ import {
 } from "@/lib/dailyReview";
 import {
   SPANISH_REVIEW_TRACKS,
+  getFrenchReviewCounts,
   getTodaysReviewCounts,
   loadSchedule,
   saveSchedule,
@@ -37,7 +38,8 @@ import { creditStudy, type CreditResult } from "@/lib/studyDays";
 import { QUESTION_MINUTES, STREAK_MIN_REVIEW_QUESTIONS } from "@/lib/studyCredit";
 import { buildUnifiedReview, recordAttempt, syncAttempts, unifiedReviewEnabled } from "@/lib/attempts";
 import { lessonConceptId } from "@/lib/curriculum/items";
-import { langForLevelPath } from "@/lib/speech";
+import { FRENCH_LANG, langForLevelPath } from "@/lib/speech";
+import { FRENCH_LEVEL_PATHS } from "@/lib/lessons/french";
 
 type Props = NativeStackScreenProps<AppStackParamList, "TodayReview">;
 
@@ -88,6 +90,27 @@ async function buildUnifiedQueue(): Promise<Item[]> {
 }
 
 type Phase = "loading" | "intro" | "drilling" | "complete";
+
+/** The French course's review (as on the website): the questions missed
+ * in its lessons that are due, oldest due first. */
+async function buildFrenchQueue(): Promise<Item[]> {
+  const now = Date.now();
+  const pools = await Promise.all(FRENCH_LEVEL_PATHS.map((lp) => getMissedQuestions(lp)));
+  return FRENCH_LEVEL_PATHS.flatMap((levelPath, t) =>
+    pools[t]
+      .filter((q) => isMissedQuestionDue(q, now))
+      .sort((a, b) => (a.dueAt ?? 0) - (b.dueAt ?? 0))
+      .map((q) => ({
+        kind: "missed" as const,
+        id: q.id,
+        levelPath,
+        lessonSlug: q.lessonSlug,
+        lessonNumber: q.lessonNumber,
+        lessonTitle: q.lessonTitle,
+        exercise: q.exercise,
+      }))
+  );
+}
 
 async function buildQueue(): Promise<{ items: Item[]; mixLeft: Record<string, { left: number; allCorrect: boolean }> }> {
   const variety = await Promise.race([
@@ -145,7 +168,10 @@ async function buildQueue(): Promise<{ items: Item[]; mixLeft: Record<string, { 
   return { items, mixLeft };
 }
 
-export default function TodayReviewScreen({ navigation }: Props) {
+export default function TodayReviewScreen({ navigation, route }: Props) {
+  // "fr": the French course's own review -- its missed questions, then its
+  // flashcards. Otherwise Spanish, as before.
+  const french = route.params?.lang === "fr";
   const [phase, setPhase] = useState<Phase>("loading");
   const [counts, setCounts] = useState<TodaysReviewCounts | null>(null);
   const [queue, setQueue] = useState<Item[]>([]);
@@ -163,9 +189,13 @@ export default function TodayReviewScreen({ navigation }: Props) {
   }, [feedback, sheetAnim]);
 
   const refreshCounts = useCallback(async () => {
+    if (french) {
+      setCounts(await getFrenchReviewCounts());
+      return;
+    }
     await seedScheduleFromCompletions();
     setCounts(await getTodaysReviewCounts());
-  }, []);
+  }, [french]);
 
   useFocusEffect(
     useCallback(() => {
@@ -176,7 +206,11 @@ export default function TodayReviewScreen({ navigation }: Props) {
   );
 
   async function start() {
-    const { items, mixLeft } = (await unifiedReviewEnabled()) ? { items: await buildUnifiedQueue(), mixLeft: {} } : await buildQueue();
+    const { items, mixLeft } = french
+      ? { items: await buildFrenchQueue(), mixLeft: {} }
+      : (await unifiedReviewEnabled())
+        ? { items: await buildUnifiedQueue(), mixLeft: {} }
+        : await buildQueue();
     mixLeftRef.current = mixLeft;
     answeredRef.current = 0;
     setQueue(items);
@@ -295,8 +329,9 @@ export default function TodayReviewScreen({ navigation }: Props) {
                 <Text style={s.title}>{todaysReviewTotal(counts)} due today</Text>
                 <Text style={s.body}>{todaysReviewBreakdown(counts)}</Text>
                 <Text style={s.muted}>
-                  Questions you missed, plus a few from lessons you finished earlier, so older grammar keeps coming
-                  back at longer and longer gaps. Then your flashcards.
+                  {french
+                    ? "Questions you missed in your French lessons, until you get them right. Then your flashcards."
+                    : "Questions you missed, plus a few from lessons you finished earlier, so older grammar keeps coming back at longer and longer gaps. Then your flashcards."}
                 </Text>
                 {questionCount > 0 && (
                   <Pressable style={s.bigBtn} onPress={() => void start()}>
@@ -306,7 +341,7 @@ export default function TodayReviewScreen({ navigation }: Props) {
                 {counts.cards > 0 && (
                   <Pressable
                     style={questionCount > 0 ? s.outlineBtn : s.bigBtn}
-                    onPress={() => navigation.navigate("Flashcards", { lang: "es" })}
+                    onPress={() => navigation.navigate("Flashcards", { lang: french ? "fr" : "es" })}
                   >
                     <Text style={questionCount > 0 ? s.outlineBtnText : s.bigBtnText}>
                       {questionCount > 0 ? "Then" : "Start"} flashcards ({counts.cards}) →
@@ -315,7 +350,7 @@ export default function TodayReviewScreen({ navigation }: Props) {
                 )}
               </>
             )}
-            <Pressable style={s.linkRow} onPress={() => navigation.navigate("Review", { lang: "es" })}>
+            <Pressable style={s.linkRow} onPress={() => navigation.navigate("Review", { lang: french ? "fr" : "es" })}>
               <Text style={s.link}>Lessons you saved to try again →</Text>
             </Pressable>
           </View>
@@ -333,7 +368,7 @@ export default function TodayReviewScreen({ navigation }: Props) {
               index={0}
               hideIndexLabel
               showInlineFeedback={false}
-              lang={current.kind === "concept" ? langForLevelPath(current.levelPath) : LANG}
+              lang={current.kind === "concept" ? langForLevelPath(current.levelPath) : french ? FRENCH_LANG : LANG}
               onChecked={(correct, explanation) => handleChecked(current, correct, explanation)}
             />
           </View>

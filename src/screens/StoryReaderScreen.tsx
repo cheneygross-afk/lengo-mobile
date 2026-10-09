@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { View, Text, ScrollView, Pressable, StyleSheet } from "react-native";
+import { View, Text, ScrollView, Pressable, StyleSheet, ActivityIndicator } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { findStory } from "@/lib/stories/registry";
@@ -28,6 +28,8 @@ import { creditStudyOnce, type CreditResult } from "@/lib/studyDays";
 import { storyMinutes } from "@/lib/studyCredit";
 import StudyCreditNote from "@/components/StudyCreditNote";
 import { readinessLabel } from "@/lib/stories/pickStory";
+import { FR_STORY_TRANSLATION_STORAGE_KEY } from "@/lib/stories/englishPrefs";
+import { findFrenchStory, frenchStoriesIfLoaded, isFrenchStorySlug, loadFrenchStories, type FrenchStories } from "@/lib/stories/french";
 
 type Props = NativeStackScreenProps<AppStackParamList, "StoryReader">;
 
@@ -42,25 +44,50 @@ type Props = NativeStackScreenProps<AppStackParamList, "StoryReader">;
 // story, so this reuses it exactly as-is (same table, same columns).
 export default function StoryReaderScreen({ route, navigation }: Props) {
   const { slug } = route.params;
+  // A French-course story (slug "fr-...", levelPath "fr/a1" ...) comes from
+  // the French stories, loaded on demand (stories/french.ts): French text,
+  // an English translation, English questions.
+  const french = isFrenchStorySlug(slug) || !!route.params.levelPath?.startsWith("fr/");
+  const [frenchStories, setFrenchStories] = useState<FrenchStories | null>(frenchStoriesIfLoaded);
+  useEffect(() => {
+    if (!french || frenchStories) return;
+    let cancelled = false;
+    loadFrenchStories().then((d) => {
+      if (!cancelled) setFrenchStories(d);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [french, frenchStories]);
   // Looks the slug up across every level (see stories/registry.ts); "Next"
   // stays within the story's own level, same as the website's reader.
-  const found = useMemo(() => findStory(slug), [slug]);
+  const found = useMemo(() => {
+    if (!french) {
+      const hit = findStory(slug);
+      // Mirrors the folder names the website's readings routes use
+      // (/readings/a1, /readings/c1c2, ...).
+      return hit ? { story: hit.story, next: hit.next, levelPath: hit.level.levelPath as string } : null;
+    }
+    return frenchStories ? findFrenchStory(frenchStories, slug) : null;
+  }, [slug, french, frenchStories]);
   const story = found?.story;
   const nextStory = found?.next;
   const exercises = useMemo(() => (story ? toExercises(story.questions) : []), [story]);
-  // Mirrors the folder names the website's readings routes use
-  // (/readings/a1, /readings/c1c2, ...).
-  const levelPath = found?.level.levelPath ?? "a1";
+  const levelPath = found?.levelPath ?? "a1";
 
   // Reading aids, same as the website's StoryText: a Listen control that
   // reads the story sentence by sentence (the paragraph being read is
   // shaded), and dotted-underlined glossed words whose English meaning
   // shows in a card when tapped.
-  const glosses = useMemo(() => (story ? storyGlosses(story.slug) : []), [story]);
+  const glosses = useMemo(
+    () => (story ? (french ? frenchStories?.glosses(story.slug) ?? [] : storyGlosses(story.slug)) : []),
+    [story, french, frenchStories]
+  );
   const lookup = useMemo(() => glossLookup(glosses), [glosses]);
   // Pre-reading key vocabulary for A1/A2 stories (the website shows the same).
   const keyWords = useMemo(
-    () => (story && (story.level === "A1" || story.level === "A2") ? storyKeyWords(story.paragraphs, glosses) : []),
+    () =>
+      story && ["A1", "A2", "FR-A1", "FR-A2"].includes(story.level) ? storyKeyWords(story.paragraphs, glosses) : [],
     [story, glosses]
   );
   const chunks = useMemo(
@@ -68,24 +95,34 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
     [story]
   );
   // "Show English" (A1/A2 stories with a translation): off by default at
-  // every level, remembered per level on this device.
-  const english = useMemo(() => (story ? storyEnglish(story.slug, story.paragraphs.length) : null), [story]);
+  // every level, remembered per level on this device. French stories all
+  // have one ("Show translation"), remembered under their own key.
+  const english = useMemo(
+    () =>
+      story
+        ? french
+          ? frenchStories?.english(story.slug, story.paragraphs.length) ?? null
+          : storyEnglish(story.slug, story.paragraphs.length)
+        : null,
+    [story, french, frenchStories]
+  );
+  const englishPrefKey = french ? FR_STORY_TRANSLATION_STORAGE_KEY : STORY_ENGLISH_STORAGE_KEY;
   const [englishPrefs, setEnglishPrefs] = useState<Record<string, boolean> | null>(null);
   useEffect(() => {
     let cancelled = false;
-    readJSON<Record<string, boolean>>(STORY_ENGLISH_STORAGE_KEY, {}).then((p) => {
+    readJSON<Record<string, boolean>>(englishPrefKey, {}).then((p) => {
       if (!cancelled) setEnglishPrefs(p);
     });
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [englishPrefKey]);
   const showEnglish = !!english && !!story && showEnglishFor(story.level, englishPrefs);
   function toggleEnglish() {
     if (!story) return;
     const next = { ...(englishPrefs ?? {}), [story.level]: !showEnglish };
     setEnglishPrefs(next);
-    void writeJSON(STORY_ENGLISH_STORAGE_KEY, next);
+    void writeJSON(englishPrefKey, next);
   }
   const [playing, setPlaying] = useState<number | null>(null);
   const [shownGloss, setShownGloss] = useState<StoryGloss | null>(null);
@@ -178,7 +215,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
       return;
     }
     setSaveNotice({ es: key, message: "Saving…" });
-    const outcome = await fetchTranslation(key, "es-en");
+    const outcome = await fetchTranslation(key, french ? "fr-en" : "es-en");
     if (outcome.ok) await saveWord(key, outcome.result.senses[0].translation);
     else setSaveNotice({ es: key, message: outcome.error });
   }
@@ -250,6 +287,13 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
     }
   }
 
+  if (french && !frenchStories) {
+    return (
+      <View style={s.center}>
+        <ActivityIndicator />
+      </View>
+    );
+  }
   if (!story) {
     return (
       <View style={s.center}>
@@ -279,7 +323,9 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
               accessibilityRole="button"
               accessibilityState={{ selected: showEnglish }}
             >
-              <Text style={s.listenButtonText}>{showEnglish ? "Hide English" : "Show English"}</Text>
+              <Text style={s.listenButtonText}>
+                {french ? (showEnglish ? "Hide translation" : "Show translation") : showEnglish ? "Hide English" : "Show English"}
+              </Text>
             </Pressable>
           ) : null}
         </View>
@@ -380,7 +426,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
               style={s.nextButton}
               onPress={() =>
                 nextStory
-                  ? navigation.replace("StoryReader", { slug: nextStory.slug })
+                  ? navigation.replace("StoryReader", french ? { slug: nextStory.slug, levelPath } : { slug: nextStory.slug })
                   : navigation.goBack()
               }
             >

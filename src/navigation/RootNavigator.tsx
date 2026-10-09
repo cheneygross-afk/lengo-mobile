@@ -8,6 +8,7 @@ import SignupScreen from "@/screens/SignupScreen";
 import HomeScreen from "@/screens/HomeScreen";
 import LessonListScreen from "@/screens/LessonListScreen";
 import SpanishLevelsScreen from "@/screens/SpanishLevelsScreen";
+import FrenchLevelsScreen from "@/screens/FrenchLevelsScreen";
 import JapaneseLevelsScreen from "@/screens/JapaneseLevelsScreen";
 import ChineseLevelsScreen from "@/screens/ChineseLevelsScreen";
 import ChineseReviewScreen from "@/screens/ChineseReviewScreen";
@@ -32,6 +33,9 @@ import GrammarGuideScreen from "@/screens/GrammarGuideScreen";
 import PlacementTestScreen from "@/screens/PlacementTestScreen";
 import ConjugationScreen from "@/screens/ConjugationScreen";
 import GlossaryScreen from "@/screens/GlossaryScreen";
+import FrenchPlacementTestScreen from "@/screens/FrenchPlacementTestScreen";
+import FrenchConjugationScreen from "@/screens/FrenchConjugationScreen";
+import FrenchGlossaryScreen from "@/screens/FrenchGlossaryScreen";
 import StudyToolsScreen from "@/screens/StudyToolsScreen";
 import { getReadingLevel } from "@/lib/stories/registry";
 
@@ -60,6 +64,7 @@ function AppNavigator() {
     >
       <AppStack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
       <AppStack.Screen name="SpanishLevels" component={SpanishLevelsScreen} options={{ title: "Spanish" }} />
+      <AppStack.Screen name="FrenchLevels" component={FrenchLevelsScreen} options={{ title: "French" }} />
       <AppStack.Screen name="LessonList" component={LessonListScreen} options={{ title: "Lessons" }} />
       <AppStack.Screen name="JapaneseLevels" component={JapaneseLevelsScreen} options={{ title: "Japanese" }} />
       <AppStack.Screen name="ChineseLevels" component={ChineseLevelsScreen} options={{ title: "Chinese" }} />
@@ -86,7 +91,9 @@ function AppNavigator() {
         name="ReadingsList"
         component={ReadingsListScreen}
         options={({ route }) => ({
-          title: `${getReadingLevel(route.params?.levelPath ?? "a1").code} Readings`,
+          title: route.params?.frenchLevel
+            ? `${route.params.frenchLevel.toUpperCase()} Stories`
+            : `${getReadingLevel(route.params?.levelPath ?? "a1").code} Readings`,
         })}
       />
       <AppStack.Screen name="StoryReader" component={StoryReaderScreen} options={{ title: "" }} />
@@ -96,6 +103,9 @@ function AppNavigator() {
       <AppStack.Screen name="Placement" component={PlacementTestScreen} options={{ title: "Placement test" }} />
       <AppStack.Screen name="Conjugation" component={ConjugationScreen} options={{ title: "Verb conjugation" }} />
       <AppStack.Screen name="Glossary" component={GlossaryScreen} options={{ title: "Glossary" }} />
+      <AppStack.Screen name="FrenchPlacement" component={FrenchPlacementTestScreen} options={{ title: "French placement test" }} />
+      <AppStack.Screen name="FrenchConjugation" component={FrenchConjugationScreen} options={{ title: "French verb conjugation" }} />
+      <AppStack.Screen name="FrenchGlossary" component={FrenchGlossaryScreen} options={{ title: "French glossary" }} />
     </AppStack.Navigator>
   );
 }

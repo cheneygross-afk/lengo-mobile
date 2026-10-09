@@ -166,7 +166,7 @@ const TITLE_LEVEL_NAMES: Record<string, Record<string, string>> = {
   "es-es": { A1: "Principiante", A2: "Elemental", B1: "Intermedio", B2: "Avanzado", C1: "Maestría", C2: "Profesional y Académico", "C1/C2": "Maestría y Profesional" },
   ja: { A1: "Beginner", A2: "Elementary", B1: "Intermediate", B2: "Upper-intermediate", C1: "Advanced", C2: "Mastery" },
   en: { A1: "Fundamentos", A2: "Ganando fluidez", B1: "Independencia", B2: "Intermedio alto", C1: "Avanzado", C2: "Maestría", "C1/C2": "Avanzado y Maestría" },
-  zh: { A1: "Foundations", A2: "Everyday Chinese", B1: "Independent Chinese", B2: "Upper-Intermediate Chinese", C1: "高级汉语", C2: "精通汉语" },
+  zh: { A1: "Foundations", A2: "Everyday Chinese", B1: "Independent Chinese", B2: "Upper-Intermediate Chinese", C1: "Advanced Chinese", C2: "Proficient Chinese" },
 };
 
 /** A title with any CEFR codes replaced by the course's level names. */
