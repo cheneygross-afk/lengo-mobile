@@ -30,3 +30,5 @@ export const EN_STORY_TRANSLATION_STORAGE_KEY = "deepend-en-story-spanish";
 // The French course's stories: the same map for their "Show translation"
 // (English) toggle, under their own key, hidden by default at every level.
 export const FR_STORY_TRANSLATION_STORAGE_KEY = "deepend-fr-story-english";
+// And the German course's.
+export const DE_STORY_TRANSLATION_STORAGE_KEY = "deepend-de-story-english";
