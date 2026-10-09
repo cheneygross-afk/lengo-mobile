@@ -30,6 +30,7 @@ const DIRS = {
     "ja-alphabet-decks.ts", // platform-specific flashcard seeding; the app has its own port
     "migrateC1C2Progress.ts",
     "readingPracticeRanges.ts",
+    "courseProgress.ts", // feeds the website's course home page (imports a web component)
   ],
   // The Chinese (Mandarin) course and the curriculum engine it runs on
   // (src/lib/lessons/zh, src/lib/curriculum) are no longer synced: the
