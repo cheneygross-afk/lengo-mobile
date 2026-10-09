@@ -191,7 +191,8 @@ export type Lesson = {
     | "JA-Alphabets" | "JA-A1" | "JA-A2" | "JA-B1" | "JA-B2" | "JA-C1" | "JA-C2"
     | "EN-A1" | "EN-A2" | "EN-B1" | "EN-B2" | "EN-C1" | "EN-C2"
     | "ZH-Pinyin" | "ZH-A1" | "ZH-A2" | "ZH-B1" | "ZH-B2" | "ZH-C1" | "ZH-C2"
-    | "FR-A1" | "FR-A2" | "FR-B1" | "FR-B2" | "FR-C1" | "FR-C2" | "FR-Culture";
+    | "FR-A1" | "FR-A2" | "FR-B1" | "FR-B2" | "FR-C1" | "FR-C2" | "FR-Culture"
+    | "DE-A1" | "DE-A2" | "DE-B1" | "DE-B2" | "DE-C1" | "DE-C2" | "DE-Culture";
   number: number;
   title: string;
   summary: string;
