@@ -14,6 +14,7 @@ import {
 } from "expo-audio";
 import type { DictationExercise, ListenChooseExercise, SpeakExercise, WriteExercise } from "@/lib/lessons/types";
 import { setRecordingMode, speak, stopSpeaking, type SpeechLang } from "@/lib/speech";
+import { AnswerCompare } from "@/components/AnswerCompare";
 import TapText, { voiceFor } from "@/components/TapText";
 import { dictationAnswer, gradeDictation, optionOrder } from "@/lib/grading";
 import { countWords, parseWritingFeedback, type WritingFeedback } from "@/lib/writingFeedback";
@@ -141,7 +142,10 @@ export function Dictation({
         placeholder="Escribe lo que oyes…"
         style={[s.textInput, checked && (correct ? s.inputCorrect : s.inputWrong)]}
       />
-      {checked && (
+      {checked && !correct && (
+        <AnswerCompare given={value} expected={dictationAnswer(exercise)} correct={correct} lang={lang} />
+      )}
+      {checked && correct && (
         <View style={s.revealed}>
           <Text style={s.muted}>Answer: </Text>
           <TapText text={dictationAnswer(exercise)} lang={lang} mode="target" style={s.revealedText} />
