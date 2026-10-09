@@ -13,6 +13,7 @@ import {
 } from "@/lib/grading";
 import { listenFirstAudio } from "@/lib/listenFirst";
 import { Dictation, ListenButtons, ListenChoose, Speak, Write } from "@/components/SkillExercises";
+import { AnswerCompare } from "@/components/AnswerCompare";
 
 // Mobile port of the web app's ExerciseBlock -- same grading and option
 // shuffling (src/lib/grading.ts, identical in both repos), same "check
@@ -372,7 +373,7 @@ function FillBlank({
           <TapText text={before} lang={lang} mode="target" style={s.blankText} />
         )}
         <TextInput
-          value={checked ? exercise.answer : value}
+          value={value}
           onChangeText={setValue}
           editable={!checked}
           autoCapitalize="none"
@@ -393,6 +394,7 @@ function FillBlank({
           <TapText text={after} lang={lang} mode="target" style={s.blankText} />
         )}
       </View>
+      {checked && <AnswerCompare given={value} expected={exercise.answer} correct={correct} lang={lang} />}
       {exercise.hint && !checked && <TapText text={`Hint: ${exercise.hint}`} lang={lang} style={s.hint} />}
       {!checked && (
         <SubmitButton
@@ -451,7 +453,7 @@ function Translate({
         )}
       </View>
       <TextInput
-        value={checked ? exercise.answer : value}
+        value={value}
         onChangeText={setValue}
         editable={!checked}
         autoCapitalize="none"
@@ -461,15 +463,15 @@ function Translate({
         style={[s.textInput, checked && (correct ? s.inputCorrect : s.inputWrong)]}
         placeholder={exercise.direction === "es-en" ? "Translate to English…" : "Traduce al español…"}
       />
-      {checked && !sourceIsTarget && (
-        <View style={s.answerAudioRow}>
-          <Text
-            style={[s.optionText, s.speakableSpan, s.shrinkText]}
-            onPress={() => speak(exercise.answer, lang)}
-          >
-            {exercise.answer}
-          </Text>
-        </View>
+      {checked && (
+        <AnswerCompare
+          given={value}
+          expected={exercise.answer}
+          correct={correct}
+          lang={lang}
+          alwaysShowCorrect
+          correctLabel={correct ? "Model answer:" : "Correct answer:"}
+        />
       )}
       {!checked && (
         <SubmitButton
@@ -487,6 +489,7 @@ function Translate({
 function WordOrder({
   exercise,
   checked,
+  correct,
   onSubmit,
   lang,
 }: SubProps<Extract<Exercise, { type: "word-order" }>>) {
@@ -544,14 +547,7 @@ function WordOrder({
         </Pressable>
       )}
       {checked && (
-        <View style={s.answerAudioRow}>
-          <Text
-            style={[s.optionText, s.speakableSpan, s.shrinkText]}
-            onPress={() => speak(correctSentence, lang)}
-          >
-            {correctSentence}
-          </Text>
-        </View>
+        <AnswerCompare given={built.join(" ")} expected={correctSentence} correct={correct} lang={lang} alwaysShowCorrect />
       )}
       {!checked && (
         <SubmitButton
@@ -630,6 +626,8 @@ function Matching({
                   {pair.left}
                   {chosen ? ` → ${chosen}` : ""}
                 </Text>
+                {/* A wrong match shows the right one under the learner's pick. */}
+                {isWrong && <Text style={s.matchCorrect}>Correct answer: {pair.right}</Text>}
               </Pressable>
             );
           })}
@@ -737,6 +735,7 @@ const s = StyleSheet.create({
   },
   inputCorrect: { borderColor: "#16a34a", backgroundColor: "#16a34a1a" },
   inputWrong: { borderColor: "#dc2626", backgroundColor: "#dc26261a" },
+  matchCorrect: { fontSize: 12, color: "#15803d", fontWeight: "600", marginTop: 4 },
   hint: { fontSize: 13, color: "#00000066", marginTop: 6, fontStyle: "italic" },
   blankEnglish: { fontSize: 16, color: "#000000cc", marginBottom: 10, lineHeight: 22 },
   builtRow: { flexDirection: "row", flexWrap: "wrap", gap: 6, minHeight: 36, marginBottom: 10 },

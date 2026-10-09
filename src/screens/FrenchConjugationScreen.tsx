@@ -356,7 +356,7 @@ function Drill() {
               <Text style={s.feedbackTitle}>{checked.correct ? "Correct!" : "Not quite."}</Text>
               {checked.note ? <Text style={s.small}>{checked.note}</Text> : null}
               <Text style={s.form}>
-                Answer:{" "}
+                {checked.correct ? "Answer:" : "Correct answer:"}{" "}
                 <TapText
                   text={q.answers
                     .slice(0, 2)
