@@ -1,5 +1,5 @@
-import { useMemo } from "react";
-import { View, Text, SectionList, Pressable, Linking, StyleSheet } from "react-native";
+import { useEffect, useMemo, useState } from "react";
+import { View, Text, SectionList, Pressable, Linking, StyleSheet, FlatList, ActivityIndicator } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { getReadingLevel } from "@/lib/stories/registry";
@@ -7,6 +7,8 @@ import { readinessLabel } from "@/lib/stories/pickStory";
 import { LEVEL_INTROS } from "@/lib/readings/levelIntros";
 import type { Story } from "@/lib/stories/types";
 import type { Reading } from "@/lib/readings/types";
+import { frenchStoriesIfLoaded, loadFrenchStories, type FrenchStories } from "@/lib/stories/french";
+import { loadStoriesRead } from "@/lib/storiesRead";
 
 type Props = NativeStackScreenProps<AppStackParamList, "ReadingsList">;
 
@@ -16,7 +18,70 @@ type Props = NativeStackScreenProps<AppStackParamList, "ReadingsList">;
 // than a specific listing (see amazonSearchUrl in @/lib/readings/types).
 type Row = { kind: "story"; story: Story } | { kind: "book"; reading: Reading };
 
-export default function ReadingsListScreen({ route, navigation }: Props) {
+export default function ReadingsListScreen(props: Props) {
+  return props.route.params?.frenchLevel ? <FrenchStoriesList {...props} /> : <SpanishReadingsList {...props} />;
+}
+
+// One French level's stories (lib/stories/french.ts), read ones ticked.
+function FrenchStoriesList({ route, navigation }: Props) {
+  const path = route.params?.frenchLevel ?? "a1";
+  const [data, setData] = useState<FrenchStories | null>(frenchStoriesIfLoaded);
+  const [read, setRead] = useState<Record<string, number>>({});
+  useEffect(() => {
+    let cancelled = false;
+    if (!data)
+      loadFrenchStories().then((d) => {
+        if (!cancelled) setData(d);
+      });
+    loadStoriesRead().then((r) => {
+      if (!cancelled) setRead(r);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [data]);
+  const level = data?.levels.find((l) => l.path === path);
+  if (!level) {
+    return (
+      <View style={[styles.container, styles.loading]}>
+        <ActivityIndicator />
+      </View>
+    );
+  }
+  return (
+    <FlatList
+      style={styles.container}
+      contentContainerStyle={styles.list}
+      data={level.stories}
+      keyExtractor={(story) => story.slug}
+      ListHeaderComponent={
+        <View style={styles.sectionHeader}>
+          <Text style={styles.sectionTitle}>
+            {level.label} · {level.name}
+          </Text>
+          <Text style={styles.sectionSubtitle}>{level.stories.length} stories with audio, translation and questions</Text>
+        </View>
+      }
+      renderItem={({ item }) => (
+        <Pressable
+          style={styles.row}
+          onPress={() => navigation.navigate("StoryReader", { slug: item.slug, levelPath: `fr/${level.path}` })}
+        >
+          <Text style={styles.rowTitle}>
+            {read[item.slug] ? "✓ " : ""}
+            {item.title}
+          </Text>
+          <Text style={styles.rowSummary} numberOfLines={2}>
+            {item.subtitle}
+          </Text>
+          {item.genre ? <Text style={styles.rowReady}>{item.genre}</Text> : null}
+        </Pressable>
+      )}
+    />
+  );
+}
+
+function SpanishReadingsList({ route, navigation }: Props) {
   // levelPath defaults to "a1" so any older ReadingsList navigation with
   // no params still lands on the A1 list it always showed.
   const levelPath = route.params?.levelPath ?? "a1";
@@ -104,6 +169,7 @@ export default function ReadingsListScreen({ route, navigation }: Props) {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: "#FAF6F1" },
+  loading: { alignItems: "center", justifyContent: "center" },
   list: { padding: 16, paddingBottom: 32 },
   sectionHeader: { paddingTop: 20, paddingBottom: 8 },
   sectionTitle: { fontSize: 15, fontWeight: "700", color: "#7A1F1F" },

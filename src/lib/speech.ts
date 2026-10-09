@@ -21,7 +21,7 @@ import {
 } from "@/lib/pronunciationVoice";
 import { getSpanishVariety, loadSpanishVariety, spanishSpeechLang } from "@/lib/spanishVariety";
 
-export type SpeechLang = "es-ES" | "es-US" | "ja-JP" | "en-US" | "zh-CN";
+export type SpeechLang = "es-ES" | "es-US" | "ja-JP" | "en-US" | "zh-CN" | "fr-FR";
 
 // Screens ask for Spanish as SPANISH_LANG (es-ES); the learner's "Spanish
 // I want to learn" setting decides which voice actually speaks it --
@@ -32,17 +32,21 @@ export const JAPANESE_LANG: SpeechLang = "ja-JP";
 export const ENGLISH_LANG: SpeechLang = "en-US";
 // Mandarin, for the Chinese beta (lessons/zh).
 export const CHINESE_LANG: SpeechLang = "zh-CN";
+// The French course (lessons/fr-*.ts).
+export const FRENCH_LANG: SpeechLang = "fr-FR";
 
 // The two ways language is keyed elsewhere in the app: a flashcard/story
 // "levelPath" like "a1" or "ja-a1", or a Lesson's own "level" like "A1"
 // or "JA-A1"/"JA-Alphabets"/"JA-B1".
 export function langForLevelPath(levelPath: string): SpeechLang {
   if (levelPath.startsWith("zh")) return CHINESE_LANG;
+  if (levelPath === "fr" || levelPath.startsWith("fr/")) return FRENCH_LANG;
   return levelPath.startsWith("ja") ? JAPANESE_LANG : SPANISH_LANG;
 }
 
 export function langForLevel(level: string): SpeechLang {
   if (level.startsWith("ZH")) return CHINESE_LANG;
+  if (level.startsWith("FR-")) return FRENCH_LANG;
   return level.startsWith("JA") ? JAPANESE_LANG : SPANISH_LANG;
 }
 
@@ -178,7 +182,7 @@ function loadPronunciationPrefs(): Promise<void> {
 // (flashcard backs, glosses, etc.) always uses the device voice, which is
 // already fine for English and isn't worth paying to regenerate.
 function hasCloudVoice(lang: SpeechLang): boolean {
-  return lang === "es-ES" || lang === "es-US" || lang === JAPANESE_LANG || lang === CHINESE_LANG;
+  return lang === "es-ES" || lang === "es-US" || lang === JAPANESE_LANG || lang === CHINESE_LANG || lang === FRENCH_LANG;
 }
 
 function voiceLang(lang: SpeechLang): SpeechLang {

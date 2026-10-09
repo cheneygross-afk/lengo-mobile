@@ -7,6 +7,7 @@ import { FREQUENCY_DECKS, deckFlashcards, deckLessonSlug, deckProgress, loadDeck
 import { loadFlashcards, saveFlashcards, type FlashcardEntry } from "@/lib/flashcards/store";
 import { loadPrefsLocal } from "@/lib/learnerPrefs";
 
+import { isFrenchLevelPath } from "@/lib/courses";
 type Props = NativeStackScreenProps<AppStackParamList, "FrequencyDecks">;
 
 const BRAND = "#7A1F1F";
@@ -23,7 +24,7 @@ export default function FrequencyDecksScreen({ navigation }: Props) {
 
   const refresh = useCallback(async () => {
     const map = await loadFlashcards();
-    setCards(Object.values(map).filter((c) => !c.levelPath.startsWith("ja")));
+    setCards(Object.values(map).filter((c) => !c.levelPath.startsWith("ja") && !isFrenchLevelPath(c.levelPath)));
   }, []);
 
   useFocusEffect(
@@ -38,7 +39,7 @@ export default function FrequencyDecksScreen({ navigation }: Props) {
     try {
       const deckCards = await loadDeck(deck.id);
       const map = await loadFlashcards();
-      const spanish = Object.values(map).filter((c) => !c.levelPath.startsWith("ja"));
+      const spanish = Object.values(map).filter((c) => !c.levelPath.startsWith("ja") && !isFrenchLevelPath(c.levelPath));
       const added = deckFlashcards(deck, deckCards, spanish);
       for (const card of added) map[card.id] = card;
       await saveFlashcards(map);

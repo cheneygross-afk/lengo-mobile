@@ -88,7 +88,9 @@ function chineseSpans(text: string): Span[] {
 export function targetSpans(text: string, lang: SpeechLang): Span[] {
   if (lang === "ja-JP") return japaneseSpans(text);
   if (lang === "zh-CN") return chineseSpans(text);
-  if (lang === "es-ES") {
+  // French, like Spanish, shares the English script: quoted spans, or the
+  // whole string when it has no English framing.
+  if (lang === "es-ES" || lang === "fr-FR") {
     const quoted = quotedSpans(text);
     if (quoted.length > 0) return quoted;
     if (text.trim() && !looksEnglish(text)) return [{ start: 0, end: text.length, text }];

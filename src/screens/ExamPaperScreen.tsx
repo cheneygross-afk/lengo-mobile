@@ -1,11 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { View, Text, Pressable, ScrollView, StyleSheet } from "react-native";
+import { View, Text, Pressable, ScrollView, StyleSheet, ActivityIndicator } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import TapText from "@/components/TapText";
-import { ExamAudioPlayer, ExamItems, MarkPicker, SpeakTask, TextBlock, WriteTask, LANG, BRAND, clock } from "@/components/exams/ExamParts";
+import { ExamAudioPlayer, ExamItems, MarkPicker, SpeakTask, TextBlock, WriteTask, BRAND, clock } from "@/components/exams/ExamParts";
+import { ExamCourseContext, useExamCourse } from "@/components/exams/examCourse";
+import { useCourseExams } from "@/components/exams/useCourseExams";
 import { ENGLISH_LANG, stopReadAloud } from "@/lib/speech";
-import { getExam } from "@/lib/exams";
 import {
   PAPER_POINTS,
   formatMinutes,
@@ -29,8 +30,12 @@ type Props = NativeStackScreenProps<AppStackParamList, "ExamPaper">;
 // cue card with timers and a model answer, both marked 1-5 per task.
 // Timed mode runs the paper's real time limit and, in listening, allows
 // each recording two plays, as in the exam.
+// With course "fr" it runs a DELF/DALF paper: the same runner, in French
+// (see components/exams/examCourse.ts).
 export default function ExamPaperScreen({ route, navigation }: Props) {
-  const exam = getExam(route.params.slug);
+  const course = route.params.course ?? "es";
+  const exams = useCourseExams(course);
+  const exam = exams?.find((e) => e.slug === route.params.slug);
   const paper = exam?.papers.find((p) => p.id === route.params.paperId);
   const [attempt, setAttempt] = useState(0);
 
@@ -38,6 +43,13 @@ export default function ExamPaperScreen({ route, navigation }: Props) {
     if (paper) navigation.setOptions({ title: paper.title });
   }, [navigation, paper]);
 
+  if (!exams) {
+    return (
+      <View style={[s.screen, { alignItems: "center", justifyContent: "center" }]}>
+        <ActivityIndicator />
+      </View>
+    );
+  }
   if (!exam || !paper) {
     return (
       <View style={s.screen}>
@@ -45,10 +57,15 @@ export default function ExamPaperScreen({ route, navigation }: Props) {
       </View>
     );
   }
-  return <Runner key={attempt} exam={exam} paper={paper} onRestart={() => setAttempt((n) => n + 1)} onBack={() => navigation.goBack()} />;
+  return (
+    <ExamCourseContext.Provider value={course}>
+      <Runner key={attempt} exam={exam} paper={paper} onRestart={() => setAttempt((n) => n + 1)} onBack={() => navigation.goBack()} />
+    </ExamCourseContext.Provider>
+  );
 }
 
 function Runner({ exam, paper, onRestart, onBack }: { exam: Exam; paper: ExamPaper; onRestart: () => void; onBack: () => void }) {
+  const LANG = useExamCourse().lang;
   const auto = isAutoMarked(paper);
   const scroll = useRef<ScrollView>(null);
   const [answers, setAnswers] = useState<ExamAnswers>({});

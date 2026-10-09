@@ -184,11 +184,14 @@ export type Lesson = {
   // (see en-course.ts), kept here for the same reason.
   // "ZH-Pinyin" and "ZH-A1" ... "ZH-C2" are the Chinese (Mandarin) beta track (see
   // src/lib/lessons/zh/README.md).
+  // "FR-A1" ... "FR-C2" and "FR-Culture" are the French course (see
+  // fr-course.ts).
   level:
     | "A1" | "A2" | "B1" | "B2" | "C1" | "C2" | "C1/C2"
     | "JA-Alphabets" | "JA-A1" | "JA-A2" | "JA-B1" | "JA-B2" | "JA-C1" | "JA-C2"
     | "EN-A1" | "EN-A2" | "EN-B1" | "EN-B2" | "EN-C1" | "EN-C2"
-    | "ZH-Pinyin" | "ZH-A1" | "ZH-A2" | "ZH-B1" | "ZH-B2" | "ZH-C1" | "ZH-C2";
+    | "ZH-Pinyin" | "ZH-A1" | "ZH-A2" | "ZH-B1" | "ZH-B2" | "ZH-C1" | "ZH-C2"
+    | "FR-A1" | "FR-A2" | "FR-B1" | "FR-B2" | "FR-C1" | "FR-C2" | "FR-Culture";
   number: number;
   title: string;
   summary: string;

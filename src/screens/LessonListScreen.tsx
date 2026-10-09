@@ -1,10 +1,10 @@
-import { useCallback, useLayoutEffect, useMemo, useState } from "react";
-import { View, Text, SectionList, Pressable, StyleSheet } from "react-native";
+import { useCallback, useEffect, useLayoutEffect, useMemo, useState } from "react";
+import { View, Text, SectionList, Pressable, StyleSheet, ActivityIndicator } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import type { Lesson } from "@/lib/lessons/types";
-import { LESSON_SOURCES, type LessonModuleKey, type ModuleUnit } from "@/lib/lessons/registry";
+import { LESSON_SOURCES, type LessonModuleKey, type LessonSource, type ModuleUnit } from "@/lib/lessons/registry";
 import { getCompletedMap, syncCompletedMapFromCloud } from "@/lib/lessons/completion";
 import { displayTitle, firstIncompleteRequired, requiredLessons } from "@/lib/lessons/levels";
 import { isUnitLevelPath, unitsFor } from "@/lib/lessons/units";
@@ -16,6 +16,7 @@ import ConceptCanDoCard from "@/components/ConceptCanDoCard";
 import { CAN_DO_STATEMENTS } from "@/lib/lessons/canDo";
 import { LEVEL_WATCH_VIDEOS } from "@/lib/lessons/lessonVideos";
 import type { SpanishLevelPath } from "@/lib/lessons/levels";
+import { frenchLevelIfLoaded, frenchLevelInfo, loadFrenchLevel, type FrenchLevelData } from "@/lib/lessons/french";
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonList">;
 
@@ -37,10 +38,33 @@ type Section = { key: string; unit?: ModuleUnit; title: string; data: Row[] };
 // show their assembled units the same way, with a test-out drawn from
 // the item bank, and their can-do statements ticked off from progress.
 // The Japanese beta's modules (see JapaneseLevelsScreen) stay one flat
-// list.
+// list. A French level (route param frenchLevel) shows its units the same
+// way, once its lessons have loaded (lessons/french.ts).
 export default function LessonListScreen({ navigation, route }: Props) {
+  const frenchKey = route.params?.frenchLevel ?? null;
+  // Unused for a French level (its data comes from frenchData below).
   const moduleKey: LessonModuleKey = route.params?.moduleKey ?? "a1";
-  const source = LESSON_SOURCES[moduleKey];
+  const [frenchData, setFrenchData] = useState<FrenchLevelData | null>(() =>
+    frenchKey ? frenchLevelIfLoaded(frenchKey) ?? null : null
+  );
+  useEffect(() => {
+    if (!frenchKey || frenchData?.key === frenchKey) return;
+    let cancelled = false;
+    loadFrenchLevel(frenchKey).then((data) => {
+      if (!cancelled) setFrenchData(data);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [frenchKey, frenchData?.key]);
+  const source: Pick<LessonSource, "levelPath" | "title" | "lessons" | "units" | "canDo"> = useMemo(() => {
+    if (!frenchKey) return LESSON_SOURCES[moduleKey];
+    const info = frenchLevelInfo(frenchKey);
+    return { levelPath: info.levelPath, title: info.label, lessons: frenchData?.lessons ?? [], units: frenchData?.units };
+  }, [frenchKey, moduleKey, frenchData]);
+  // French lessons are opened with their levelPath (see LessonRunner).
+  const openLesson = (slug: string) =>
+    navigation.navigate("LessonRunner", frenchKey ? { slug, levelPath: source.levelPath } : { slug });
   const [completed, setCompleted] = useState<Record<string, boolean>>({});
   const [pendingReview, setPendingReview] = useState<PendingReviewBatch | null>(null);
   // Units opened or closed by hand; the rest follow the default.
@@ -69,18 +93,18 @@ export default function LessonListScreen({ navigation, route }: Props) {
     }, [source.levelPath])
   );
 
-  const hasUnits = isUnitLevelPath(moduleKey);
+  const hasUnits = !frenchKey && isUnitLevelPath(moduleKey);
 
   // Spanish levels are titled with their plain-English name ("Advanced"),
-  // like the website's level header.
+  // like the website's level header; French levels with theirs.
   useLayoutEffect(() => {
-    if (hasUnits && moduleKey !== "cosas-coloquiales") navigation.setOptions({ title: source.title });
-  }, [navigation, moduleKey, hasUnits, source.title]);
+    if (frenchKey || (hasUnits && moduleKey !== "cosas-coloquiales")) navigation.setOptions({ title: source.title });
+  }, [navigation, moduleKey, hasUnits, source.title, frenchKey]);
 
   const lessons = source.lessons;
   const units: ModuleUnit[] | null = useMemo(
-    () => (isUnitLevelPath(moduleKey) ? unitsFor(moduleKey).map((u) => ({ ...u, testOut: true })) : source.units ?? null),
-    [moduleKey, source.units]
+    () => (hasUnits ? unitsFor(moduleKey as Parameters<typeof unitsFor>[0]).map((u) => ({ ...u, testOut: true })) : source.units ?? null),
+    [moduleKey, hasUnits, source.units]
   );
   const titles = useMemo(() => new Map(lessons.map((l) => [l.slug, displayTitle(l, lessons)])), [lessons]);
 
@@ -117,10 +141,10 @@ export default function LessonListScreen({ navigation, route }: Props) {
         {completedCount} of {required.length} required lessons completed
         {units ? ` · ${units.length} units` : ""}
       </Text>
-      {moduleKey in CAN_DO_STATEMENTS && <CanDoCard levelPath={moduleKey as SpanishLevelPath} />}
+      {!frenchKey && moduleKey in CAN_DO_STATEMENTS && <CanDoCard levelPath={moduleKey as SpanishLevelPath} />}
       {source.canDo && <ConceptCanDoCard statements={source.canDo} lessons={lessons} completed={completed} />}
       {next && units && (
-        <Pressable style={styles.continueCard} onPress={() => navigation.navigate("LessonRunner", { slug: next.slug })}>
+        <Pressable style={styles.continueCard} onPress={() => openLesson(next.slug)}>
           <Text style={styles.continueKicker}>
             {completedCount === 0 ? "Start" : "Continue"}
             {currentUnit ? ` · ${currentUnit.label}` : ""}
@@ -150,6 +174,14 @@ export default function LessonListScreen({ navigation, route }: Props) {
     </View>
   );
 
+  if (frenchKey && !frenchData) {
+    return (
+      <View style={[styles.container, styles.loading]}>
+        <ActivityIndicator />
+      </View>
+    );
+  }
+
   return (
     <View style={styles.container}>
       <SectionList
@@ -159,7 +191,7 @@ export default function LessonListScreen({ navigation, route }: Props) {
         stickySectionHeadersEnabled={false}
         ListHeaderComponent={header}
         ListFooterComponent={
-          moduleKey in LEVEL_WATCH_VIDEOS ? <LevelWatchSection levelPath={moduleKey as SpanishLevelPath} /> : null
+          !frenchKey && moduleKey in LEVEL_WATCH_VIDEOS ? <LevelWatchSection levelPath={moduleKey as SpanishLevelPath} /> : null
         }
         renderSectionHeader={({ section }) => {
           const unit = section.unit;
@@ -237,7 +269,7 @@ export default function LessonListScreen({ navigation, route }: Props) {
           return (
             <Pressable
               style={[styles.row, units && styles.rowInUnit]}
-              onPress={() => navigation.navigate("LessonRunner", { slug: lesson.slug })}
+              onPress={() => openLesson(lesson.slug)}
             >
               <View style={[styles.badge, done && styles.badgeDone]}>
                 <Text style={[styles.badgeText, done && styles.badgeTextDone]}>{done ? "✓" : lesson.number}</Text>
@@ -261,6 +293,7 @@ export default function LessonListScreen({ navigation, route }: Props) {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: "#FAF6F1" },
+  loading: { alignItems: "center", justifyContent: "center" },
   header: {
     paddingTop: 16,
     paddingBottom: 4,

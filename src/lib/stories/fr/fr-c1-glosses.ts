@@ -1,0 +1,23 @@
+// Synced from cheneygross-afk/lengo:src/lib/stories/fr/fr-c1-glosses.ts by scripts/sync-content.mjs -- edit it there, not here.
+import type { StoryGloss } from "../types";
+import { FR_C1_S01_GLOSSES } from "./batches/fr-c1-s01";
+import { FR_C1_S02_GLOSSES } from "./batches/fr-c1-s02";
+import { FR_C1_S03_GLOSSES } from "./batches/fr-c1-s03";
+import { FR_C1_S04_GLOSSES } from "./batches/fr-c1-s04";
+import { FR_C1_S05_GLOSSES } from "./batches/fr-c1-s05";
+import { FR_C1_S06_GLOSSES } from "./batches/fr-c1-s06";
+import { FR_C1_S07_GLOSSES } from "./batches/fr-c1-s07";
+import { FR_C1_S08_GLOSSES } from "./batches/fr-c1-s08";
+
+// Glosses for the FR-C1 stories, keyed by story slug (see fr-a2-glosses.ts
+// for the shape).
+export const FR_C1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
+  ...FR_C1_S01_GLOSSES,
+  ...FR_C1_S02_GLOSSES,
+  ...FR_C1_S03_GLOSSES,
+  ...FR_C1_S04_GLOSSES,
+  ...FR_C1_S05_GLOSSES,
+  ...FR_C1_S06_GLOSSES,
+  ...FR_C1_S07_GLOSSES,
+  ...FR_C1_S08_GLOSSES,
+};

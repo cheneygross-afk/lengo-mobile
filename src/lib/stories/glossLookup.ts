@@ -9,7 +9,8 @@ import type { StoryGloss } from "./types";
  * surrounding punctuation ("«Hola," -> "hola") removed. */
 export function glossKey(word: string): string {
   // Explicit letters rather than \p{L}, which older mobile JS engines lack.
-  return word.toLowerCase().replace(/^[^a-záéíóúüñ]+|[^a-záéíóúüñ]+$/g, "");
+  // The French letters are for the French course's stories ("déjà").
+  return word.toLowerCase().replace(/^[^a-záéíóúüñàâæçèêëîïôœùûÿ]+|[^a-záéíóúüñàâæçèêëîïôœùûÿ]+$/g, "");
 }
 
 /** Word form -> its gloss, for marking glossed words in a story's text. */

@@ -9,17 +9,23 @@ import { View, Text, Pressable, StyleSheet } from "react-native";
 import TapText from "@/components/TapText";
 import { Write } from "@/components/SkillExercises";
 import { readAloud, speak, speechChunks, stopReadAloud, SPANISH_LANG, ENGLISH_LANG } from "@/lib/speech";
+import { useExamCourse } from "./examCourse";
 import type { PronunciationVoice } from "@/lib/pronunciationVoice";
-import { TASK_MARKS, itemKey, type ExamAnswers } from "@/lib/exams/scoring";
+import { itemKey, type ExamAnswers } from "@/lib/exams/scoring";
 import type { ExamAudio, ExamItem, ExamSpeakTask, ExamTask, ExamText, ExamWriteOption } from "@/lib/exams/types";
 import type { WriteExercise } from "@/lib/lessons/types";
 
+// The Spanish exams' language; components take theirs from the exam course
+// (useExamCourse, examCourse.ts), which is Spanish unless a French exam
+// screen says otherwise.
 export const LANG = SPANISH_LANG;
 export const BRAND = "#7A1F1F";
 export const EXAM_PLAYS = 2;
 const LETTERS = "abcdefghijklmnopqrstuvwxyz";
 
 export function TextBlock({ text }: { text: ExamText }) {
+  const exam = useExamCourse();
+  const LANG = exam.lang;
   return (
     <View style={s.card}>
       {text.label || text.title ? (
@@ -54,6 +60,8 @@ export function ExamAudioPlayer({
   limitPlays: boolean;
   showTranscript: boolean;
 }) {
+  const exam = useExamCourse();
+  const LANG = exam.lang;
   const script = useMemo(() => audioScript(audio), [audio]);
   const [playing, setPlaying] = useState(false);
   const [plays, setPlays] = useState(0);
@@ -94,10 +102,10 @@ export function ExamAudioPlayer({
       </View>
       {showTranscript ? (
         <View style={s.transcript}>
-          <Text style={s.overline}>TRANSCRIPCIÓN</Text>
+          <Text style={s.overline}>{exam.transcript}</Text>
           {audio.lines.map((line, i) => (
             <Text key={i} style={s.body}>
-              {audio.lines.length > 1 && line.voice ? <Text style={s.muted}>{line.voice === "f" ? "Ella: " : "Él: "}</Text> : null}
+              {audio.lines.length > 1 && line.voice ? <Text style={s.muted}>{line.voice === "f" ? exam.she : exam.he}</Text> : null}
               <TapText text={line.text} lang={LANG} mode="target" style={s.body} />
             </Text>
           ))}
@@ -110,6 +118,8 @@ export function ExamAudioPlayer({
 // ---- auto-marked questions -------------------------------------------
 
 function Explanation({ item, chosen }: { item: ExamItem; chosen: number | undefined }) {
+  const exam = useExamCourse();
+  const LANG = exam.lang;
   const right = chosen === item.answer;
   return (
     <View style={[s.explain, right ? s.explainRight : s.explainWrong]}>
@@ -135,6 +145,8 @@ export function ExamItems({
   marked: boolean;
   onAnswer: (key: string, option: number) => void;
 }) {
+  const exam = useExamCourse();
+  const LANG = exam.lang;
   const items = task.items ?? [];
   if (!items.length) return null;
 
@@ -248,6 +260,8 @@ function clock(ms: number): string {
 export { clock };
 
 export function SpeakTask({ task }: { task: ExamSpeakTask }) {
+  const exam = useExamCourse();
+  const LANG = exam.lang;
   const [phase, setPhase] = useState<Phase>({ kind: "idle" });
   const [now, setNow] = useState(() => Date.now());
   const [showModel, setShowModel] = useState(false);
@@ -348,19 +362,20 @@ export function SpeakTask({ task }: { task: ExamSpeakTask }) {
 // ---- marks and writing -------------------------------------------------
 
 export function MarkPicker({ value, onChange, suggested }: { value?: number; onChange: (m: number) => void; suggested?: number }) {
+  const exam = useExamCourse();
   return (
     <View style={s.card}>
       <Text style={s.muted}>
         {suggested ? `The feedback gave this ${suggested}/5. Keep it or change it:` : "Compare with the model answer and mark this task honestly:"}
       </Text>
       <View style={s.chips}>
-        {TASK_MARKS.map((m) => (
+        {exam.taskMarks.map((m) => (
           <Pressable key={m.mark} onPress={() => onChange(m.mark)} style={[s.markBtn, value === m.mark && s.markBtnOn]}>
             <Text style={[s.optionText, value === m.mark && s.markTextOn]}>{m.label}</Text>
           </Pressable>
         ))}
       </View>
-      {value ? <TapText text={TASK_MARKS[value - 1].hint} lang={ENGLISH_LANG} mode="english" style={s.muted} /> : null}
+      {value ? <TapText text={exam.taskMarks[value - 1].hint} lang={ENGLISH_LANG} mode="english" style={s.muted} /> : null}
     </View>
   );
 }
@@ -388,6 +403,8 @@ export function WriteTask({
   mark?: number;
   onMark: (m: number) => void;
 }) {
+  const exam = useExamCourse();
+  const LANG = exam.lang;
   const [choice, setChoice] = useState(options.length === 1 ? 0 : -1);
   const [done, setDone] = useState(false);
   const [suggested, setSuggested] = useState<number | undefined>();
@@ -415,7 +432,7 @@ export function WriteTask({
             key={choice}
             exercise={toWriteExercise(opt)}
             lang={LANG}
-            level={level}
+            level={exam.writeLevel(level)}
             checked={done}
             submit={() => setDone(true)}
             onFeedback={(f) => {

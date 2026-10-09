@@ -18,9 +18,23 @@ import { getDueCardsForToday } from "@/lib/learnerPrefs";
 import { courseOfLevelPath } from "@/lib/courses";
 import { getDueConcepts, unifiedReviewEnabled } from "@/lib/attempts";
 import { DAILY_BUDGET } from "@/lib/curriculum/queue";
+import { FRENCH_LEVEL_PATHS } from "@/lib/lessons/french";
 
 /** Spanish tracks Today's review covers, in course order. */
 export const SPANISH_REVIEW_TRACKS = ["a1", "a2", "b1", "b2", "c1", "c2", "cosas-coloquiales"];
+
+/** The French course's own Today's review, as on the website
+ * (/lessons/fr/review): the questions missed in its lessons, then its
+ * flashcards. No daily mix. */
+export async function getFrenchReviewCounts(now: number = Date.now()): Promise<TodaysReviewCounts> {
+  const missedLists = await Promise.all(FRENCH_LEVEL_PATHS.map((lp) => getDueMissedQuestions(lp, now)));
+  const cards = Object.values(await loadFlashcards()).filter((c) => courseOfLevelPath(c.levelPath) === "fr");
+  return {
+    missed: missedLists.reduce((n, l) => n + l.length, 0),
+    mix: 0,
+    cards: (await getDueCardsForToday(cards)).length,
+  };
+}
 
 export async function loadSchedule(): Promise<SpacedSchedule> {
   const s = await readJSON<SpacedSchedule>(MIX_STORAGE_KEY, {});

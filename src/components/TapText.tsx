@@ -40,6 +40,16 @@ function looksSpanishWord(word: string): boolean {
   return SPANISH_INFINITIVE.test(w) && !ENGLISH_AR_IR.has(w);
 }
 
+// French shares the English alphabet too; a word with a French-only
+// letter is French. Same rule as the website's TapText.
+const FRENCH_LETTERS = /[àâæçéèêëîïôœùûüÿ]/i;
+
+/** Whether a word in mixed text is (probably) in the target language. */
+function looksTargetWord(word: string, lang: SpeechLang): boolean {
+  if (lang === "fr-FR") return FRENCH_LETTERS.test(word);
+  return looksSpanishWord(word);
+}
+
 type Piece = { text: string; lang: SpeechLang | null; bold: boolean };
 
 function pieces(text: string, lang: SpeechLang, mode: Mode, boldBrackets: boolean): Piece[] {
@@ -80,7 +90,8 @@ function pieces(text: string, lang: SpeechLang, mode: Mode, boldBrackets: boolea
     else if (mode === "english") wordLang = ENGLISH_LANG;
     else {
       const inSpan = spans.some((sp) => start >= sp.start && start < sp.end);
-      wordLang = inSpan || (lang !== ENGLISH_LANG && looksSpanishWord(word) && lang === "es-ES") ? lang : ENGLISH_LANG;
+      wordLang =
+        inSpan || (lang !== ENGLISH_LANG && (lang === "es-ES" || lang === "fr-FR") && looksTargetWord(word, lang)) ? lang : ENGLISH_LANG;
     }
     push(word, wordLang, start);
     pos = start + word.length;
@@ -93,7 +104,7 @@ function pieces(text: string, lang: SpeechLang, mode: Mode, boldBrackets: boolea
  * should be read in. */
 export function voiceFor(text: string, lang: SpeechLang): SpeechLang {
   if (targetSpans(text, lang).length > 0) return lang;
-  return text.split(/\s+/).some(looksSpanishWord) ? lang : ENGLISH_LANG;
+  return text.split(/\s+/).some((w) => looksTargetWord(w, lang)) ? lang : ENGLISH_LANG;
 }
 
 export default function TapText({

@@ -1,0 +1,282 @@
+// Synced from cheneygross-afk/lengo:src/lib/stories/fr/batches/fr-a1-s02.ts by scripts/sync-content.mjs -- edit it there, not here.
+import type { Story, StoryGloss } from "../../types";
+
+// FR-A1 stories, batch 2 (see ../fr-a1.ts for the conventions).
+
+export const FR_A1_S02_STORIES: Story[] = [
+  {
+    slug: "fr-a1-la-lettre-de-mamie",
+    level: "FR-A1",
+    title: `La lettre de Mamie`,
+    subtitle: `Manon's grandmother doesn't like phones. She writes letters from her house in Brittany.`,
+    paragraphs: [
+      `Manon a quinze ans. Elle habite à Paris avec ses parents. Elle a un téléphone, un ordinateur et une tablette.`,
+      `Sa grand-mère, Mamie Jeanne, habite en Bretagne, dans une petite maison près de la mer. Mamie Jeanne n'aime pas les téléphones. Elle préfère les lettres.`,
+      `Aujourd'hui, il y a une lettre pour Manon dans la boîte aux lettres. Manon ouvre l'enveloppe. Dans la lettre, Mamie écrit : « Ma chérie, ici, il pleut, mais le jardin est beau. Mon chien, Biscuit, est vieux mais content. Tu viens en juillet ? Je t'embrasse. »`,
+      `Manon sourit. Elle prend une feuille et un stylo. Elle n'écrit pas souvent à la main, alors c'est difficile !`,
+      `Elle écrit : « Chère Mamie, oui, je viens en juillet ! J'ai hâte. Un gros bisou à Biscuit. » Puis elle met la lettre à la poste.`,
+    ],
+    questions: [
+      {
+        question: `Why does Mamie Jeanne write letters?`,
+        options: [`She has no electricity.`, `She doesn't like phones.`, `Manon asks her to.`, `She is a writer.`],
+        correctIndex: 1,
+        explanation: `"Mamie Jeanne n'aime pas les téléphones. Elle préfère les lettres."`,
+      },
+      {
+        question: `What is the weather like in Brittany, according to the letter?`,
+        options: [`It is raining.`, `It is snowing.`, `It is very hot.`, `It is windy.`],
+        correctIndex: 0,
+        explanation: `Mamie writes "ici, il pleut": it's raining here.`,
+      },
+      {
+        question: `Why is writing the letter difficult for Manon?`,
+        options: [`She has no pen.`, `She doesn't know what to say.`, `She doesn't often write by hand.`, `She is tired.`],
+        correctIndex: 2,
+        explanation: `"Elle n'écrit pas souvent à la main": she doesn't often write by hand.`,
+      },
+      {
+        question: `When is Manon going to visit her grandmother?`,
+        options: [`At Christmas`, `In July`, `Next weekend`, `In September`],
+        correctIndex: 1,
+        explanation: `Manon answers "oui, je viens en juillet".`,
+      },
+    ],
+  },
+  {
+    slug: "fr-a1-le-train-pour-paris",
+    level: "FR-A1",
+    title: `Le train pour Paris`,
+    subtitle: `Hugo takes the TGV from Marseille to Paris and sits next to a very talkative lady.`,
+    paragraphs: [
+      `Hugo est à la gare Saint-Charles, à Marseille. Il a un billet pour Paris. Le TGV part à neuf heures. Le voyage dure trois heures et vingt minutes.`,
+      `Dans le train, Hugo a la place 54, à côté de la fenêtre. Il a un livre et des écouteurs. Il veut lire et dormir.`,
+      `Mais à côté de lui, il y a une dame très bavarde. Elle s'appelle Odile et elle a soixante-dix ans. Elle parle de ses enfants, de ses petits-enfants et de son chat.`,
+      `Hugo écoute. Odile est drôle et sympathique. Elle a des gâteaux dans son sac. « Vous voulez une madeleine ? » Hugo dit : « Oui, merci ! »`,
+      `À Paris, le livre de Hugo est toujours fermé et Hugo est fatigué. Mais il connaît toute la famille d'Odile, et il n'a pas faim !`,
+    ],
+    questions: [
+      {
+        question: `How long is the journey?`,
+        options: [`One hour`, `Three hours and twenty minutes`, `Five hours`, `Nine hours`],
+        correctIndex: 1,
+        explanation: `"Le voyage dure trois heures et vingt minutes."`,
+      },
+      {
+        question: `What does Hugo want to do on the train?`,
+        options: [`Read and sleep`, `Eat and talk`, `Work on his computer`, `Watch a film`],
+        correctIndex: 0,
+        explanation: `"Il veut lire et dormir": he wants to read and sleep.`,
+      },
+      {
+        question: `What is Odile like?`,
+        options: [`Shy and quiet`, `Angry`, `Very talkative and funny`, `Tired`],
+        correctIndex: 2,
+        explanation: `She is "très bavarde" (very talkative) and "drôle et sympathique".`,
+      },
+    ],
+  },
+  {
+    slug: "fr-a1-ma-chambre-a-strasbourg",
+    level: "FR-A1",
+    title: `Ma chambre à Strasbourg`,
+    subtitle: `Inès describes her small student room in Strasbourg, and the one thing she loves most about it.`,
+    paragraphs: [
+      `Je m'appelle Inès. J'ai dix-neuf ans et je suis étudiante en histoire à Strasbourg. J'ai une chambre dans une résidence universitaire.`,
+      `Ma chambre est petite : elle fait douze mètres carrés. Il y a un lit, un bureau, une chaise et une armoire. Il y a aussi un petit frigo, mais il n'y a pas de cuisine.`,
+      `Les murs sont blancs. Sur le mur, j'ai des photos de ma famille et de mes amis de Marseille. J'ai aussi une plante verte. Elle s'appelle Gustave !`,
+      `Ma chambre n'est pas grande, mais j'ai une chose magnifique : la fenêtre. De ma fenêtre, je vois la cathédrale. Le soir, elle est rose et dorée.`,
+      `Je travaille à mon bureau et je regarde la cathédrale. Je suis loin de ma famille, mais je suis bien ici.`,
+    ],
+    questions: [
+      {
+        question: `What does Inès study?`,
+        options: [`History`, `Medicine`, `Art`, `Languages`],
+        correctIndex: 0,
+        explanation: `"Je suis étudiante en histoire".`,
+      },
+      {
+        question: `What is NOT in her room?`,
+        options: [`A bed`, `A small fridge`, `A wardrobe`, `A kitchen`],
+        correctIndex: 3,
+        explanation: `"Il n'y a pas de cuisine": there is no kitchen.`,
+      },
+      {
+        question: `Who is Gustave?`,
+        options: [`Her brother`, `Her cat`, `Her plant`, `Her neighbor`],
+        correctIndex: 2,
+        explanation: `"J'ai aussi une plante verte. Elle s'appelle Gustave !"`,
+      },
+      {
+        question: `What can Inès see from her window?`,
+        options: [`The sea`, `The cathedral`, `A park`, `The station`],
+        correctIndex: 1,
+        explanation: `"De ma fenêtre, je vois la cathédrale."`,
+      },
+    ],
+  },
+  {
+    slug: "fr-a1-le-cafe-du-coin",
+    level: "FR-A1",
+    title: `Le café du coin`,
+    subtitle: `Monsieur Petit runs a small café in a Paris neighborhood and knows every customer's order.`,
+    paragraphs: [
+      `Monsieur Petit a un café au coin de la rue, à Paris. Le café s'appelle « Chez Gaston ». Il est petit, mais il est toujours plein.`,
+      `Monsieur Petit connaît tous ses clients. À huit heures, le facteur arrive. Il prend un café noir. À neuf heures, Madame Lopez arrive avec son journal. Elle prend un thé au citron.`,
+      `À dix heures, deux étudiants arrivent. Ils prennent deux chocolats chauds et deux croissants. Ils sont toujours en retard pour leurs cours !`,
+      `Un jour, une jeune femme entre. Monsieur Petit ne connaît pas cette cliente. « Bonjour, madame. Qu'est-ce que vous prenez ? » La femme réfléchit. « Euh... je ne sais pas. »`,
+      `Monsieur Petit sourit. « Alors, un café crème et une tartine. C'est la spécialité de la maison. » La femme goûte. « C'est parfait ! » Le lendemain, à onze heures, elle revient.`,
+    ],
+    questions: [
+      {
+        question: `What does the postman drink?`,
+        options: [`A lemon tea`, `A black coffee`, `A hot chocolate`, `A white coffee`],
+        correctIndex: 1,
+        explanation: `"Le facteur arrive. Il prend un café noir."`,
+      },
+      {
+        question: `What is true about the two students?`,
+        options: [`They are always late for class.`, `They never pay.`, `They read the newspaper.`, `They work at the café.`],
+        correctIndex: 0,
+        explanation: `"Ils sont toujours en retard pour leurs cours !"`,
+      },
+      {
+        question: `What happens at the end of the story?`,
+        options: [`The café closes.`, `Monsieur Petit retires.`, `The young woman comes back the next day.`, `The young woman doesn't like her coffee.`],
+        correctIndex: 2,
+        explanation: `"Le lendemain, à onze heures, elle revient": the next day she comes back.`,
+      },
+    ],
+  },
+  {
+    slug: "fr-a1-la-fete-surprise",
+    level: "FR-A1",
+    title: `La fête surprise`,
+    subtitle: `It's Camille's birthday, but nobody seems to remember. Or do they?`,
+    paragraphs: [
+      `Aujourd'hui, c'est l'anniversaire de Camille. Elle a trente ans. Le matin, elle regarde son téléphone. Il n'y a pas de messages.`,
+      `Au travail, ses collègues disent « Bonjour », c'est tout. À midi, sa meilleure amie, Julie, est occupée. Camille est triste. « Tout le monde oublie mon anniversaire ! » pense-t-elle.`,
+      `Le soir, Camille rentre chez elle, à Nantes. Il est sept heures. L'appartement est sombre et silencieux. Elle cherche l'interrupteur.`,
+      `Soudain, la lumière s'allume et tout le monde crie : « Surprise ! Joyeux anniversaire ! » Il y a ses parents, sa sœur, Julie et ses collègues. Il y a un gâteau au chocolat avec trente bougies.`,
+      `Camille rit et pleure en même temps. « Vous êtes horribles... et je vous adore ! »`,
+    ],
+    questions: [
+      {
+        question: `How old is Camille today?`,
+        options: [`Twenty`, `Twenty-five`, `Thirty`, `Forty`],
+        correctIndex: 2,
+        explanation: `"Elle a trente ans": she is thirty.`,
+      },
+      {
+        question: `Why is Camille sad at lunchtime?`,
+        options: [`She thinks everyone has forgotten her birthday.`, `She is sick.`, `She has too much work.`, `She lost her phone.`],
+        correctIndex: 0,
+        explanation: `Nobody says anything, and she thinks "Tout le monde oublie mon anniversaire !"`,
+      },
+      {
+        question: `What is on the cake?`,
+        options: [`Strawberries`, `Thirty candles`, `Her name`, `A photo`],
+        correctIndex: 1,
+        explanation: `"Un gâteau au chocolat avec trente bougies."`,
+      },
+    ],
+  },
+];
+
+export const FR_A1_S02_ENGLISH: Record<string, string[]> = {
+  "fr-a1-la-lettre-de-mamie": [
+    `Manon is fifteen. She lives in Paris with her parents. She has a phone, a computer and a tablet.`,
+    `Her grandmother, Granny Jeanne, lives in Brittany, in a small house near the sea. Granny Jeanne doesn't like phones. She prefers letters.`,
+    `Today, there is a letter for Manon in the mailbox. Manon opens the envelope. In the letter, Granny writes: "My darling, it's raining here, but the garden is beautiful. My dog, Biscuit, is old but happy. Are you coming in July? Love and kisses."`,
+    `Manon smiles. She takes a sheet of paper and a pen. She doesn't often write by hand, so it's difficult!`,
+    `She writes: "Dear Granny, yes, I'm coming in July! I can't wait. A big kiss for Biscuit." Then she posts the letter.`,
+  ],
+  "fr-a1-le-train-pour-paris": [
+    `Hugo is at Saint-Charles station in Marseille. He has a ticket for Paris. The TGV leaves at nine o'clock. The journey takes three hours and twenty minutes.`,
+    `On the train, Hugo has seat 54, next to the window. He has a book and earphones. He wants to read and sleep.`,
+    `But next to him, there is a very talkative lady. Her name is Odile and she is seventy. She talks about her children, her grandchildren and her cat.`,
+    `Hugo listens. Odile is funny and nice. She has cakes in her bag. "Would you like a madeleine?" Hugo says: "Yes, thank you!"`,
+    `In Paris, Hugo's book is still closed and Hugo is tired. But he knows Odile's whole family, and he isn't hungry!`,
+  ],
+  "fr-a1-ma-chambre-a-strasbourg": [
+    `My name is Inès. I'm nineteen and I'm a history student in Strasbourg. I have a room in a student residence.`,
+    `My room is small: it's twelve square meters. There's a bed, a desk, a chair and a wardrobe. There's also a little fridge, but there's no kitchen.`,
+    `The walls are white. On the wall, I have photos of my family and my friends from Marseille. I also have a green plant. Its name is Gustave!`,
+    `My room isn't big, but I have one magnificent thing: the window. From my window, I can see the cathedral. In the evening, it's pink and golden.`,
+    `I work at my desk and I look at the cathedral. I'm far from my family, but I'm happy here.`,
+  ],
+  "fr-a1-le-cafe-du-coin": [
+    `Monsieur Petit has a café on the corner of the street, in Paris. The café is called "Chez Gaston". It's small, but it's always full.`,
+    `Monsieur Petit knows all his customers. At eight o'clock, the postman arrives. He has a black coffee. At nine o'clock, Madame Lopez arrives with her newspaper. She has a lemon tea.`,
+    `At ten o'clock, two students arrive. They have two hot chocolates and two croissants. They're always late for their classes!`,
+    `One day, a young woman comes in. Monsieur Petit doesn't know this customer. "Good morning, madam. What will you have?" The woman thinks. "Um... I don't know."`,
+    `Monsieur Petit smiles. "Then a white coffee and a slice of buttered bread. It's the house specialty." The woman tastes it. "It's perfect!" The next day, at eleven o'clock, she comes back.`,
+  ],
+  "fr-a1-la-fete-surprise": [
+    `Today is Camille's birthday. She is thirty. In the morning, she looks at her phone. There are no messages.`,
+    `At work, her colleagues say "Hello", and that's all. At noon, her best friend, Julie, is busy. Camille is sad. "Everybody forgets my birthday!" she thinks.`,
+    `In the evening, Camille goes home, in Nantes. It's seven o'clock. The apartment is dark and silent. She looks for the light switch.`,
+    `Suddenly, the light comes on and everyone shouts: "Surprise! Happy birthday!" Her parents, her sister, Julie and her colleagues are there. There's a chocolate cake with thirty candles.`,
+    `Camille laughs and cries at the same time. "You're horrible... and I love you!"`,
+  ],
+};
+
+export const FR_A1_S02_GLOSSES: Record<string, StoryGloss[]> = {
+  "fr-a1-la-lettre-de-mamie": [
+    { es: "Mamie", en: "Granny, Grandma", forms: ["mamie"] },
+    { es: "la boîte aux lettres", en: "mailbox, letterbox", forms: ["boîte"] },
+    { es: "une enveloppe", en: "envelope", forms: ["l'enveloppe"] },
+    { es: "pleuvoir", en: "to rain (il pleut: it's raining)", forms: ["pleut"] },
+    { es: "je t'embrasse", en: "love (and kisses), at the end of a letter", forms: ["t'embrasse"] },
+    { es: "une feuille", en: "sheet (of paper)", forms: ["feuille"] },
+    { es: "le stylo", en: "pen", forms: ["stylo"] },
+    { es: "à la main", en: "by hand", forms: ["main"] },
+    { es: "avoir hâte", en: "to look forward to it, can't wait", forms: ["hâte"] },
+    { es: "un bisou", en: "a kiss", forms: ["bisou"] },
+  ],
+  "fr-a1-le-train-pour-paris": [
+    { es: "la gare", en: "train station", forms: ["gare"] },
+    { es: "le billet", en: "ticket", forms: ["billet"] },
+    { es: "durer", en: "to last, to take (time)", forms: ["dure"] },
+    { es: "la place", en: "seat", forms: ["place"] },
+    { es: "à côté de", en: "next to", forms: ["côté"] },
+    { es: "les écouteurs", en: "earphones", forms: ["écouteurs"] },
+    { es: "bavard, bavarde", en: "talkative", forms: ["bavarde"] },
+    { es: "les petits-enfants", en: "grandchildren", forms: ["petits-enfants"] },
+    { es: "la madeleine", en: "madeleine (small shell-shaped sponge cake)", forms: ["madeleine"] },
+  ],
+  "fr-a1-ma-chambre-a-strasbourg": [
+    { es: "la résidence universitaire", en: "student residence, dorm", forms: ["résidence", "universitaire"] },
+    { es: "le mètre carré", en: "square meter", forms: ["carrés"] },
+    { es: "le lit", en: "bed", forms: ["lit"] },
+    { es: "l'armoire", en: "wardrobe", forms: ["armoire"] },
+    { es: "le frigo", en: "fridge", forms: ["frigo"] },
+    { es: "le mur", en: "wall", forms: ["murs", "mur"] },
+    { es: "la cathédrale", en: "cathedral", forms: ["cathédrale"] },
+    { es: "doré, dorée", en: "golden", forms: ["dorée"] },
+    { es: "loin de", en: "far from", forms: ["loin"] },
+  ],
+  "fr-a1-le-cafe-du-coin": [
+    { es: "le coin", en: "corner", forms: ["coin"] },
+    { es: "plein, pleine", en: "full", forms: ["plein"] },
+    { es: "le client, la cliente", en: "customer", forms: ["clients", "cliente"] },
+    { es: "le facteur", en: "postman, mail carrier", forms: ["facteur"] },
+    { es: "le journal", en: "newspaper", forms: ["journal"] },
+    { es: "en retard", en: "late", forms: ["retard"] },
+    { es: "réfléchir", en: "to think (it over)", forms: ["réfléchit"] },
+    { es: "la tartine", en: "slice of bread with butter or jam", forms: ["tartine"] },
+    { es: "goûter", en: "to taste", forms: ["goûte"] },
+    { es: "le lendemain", en: "the next day", forms: ["lendemain"] },
+  ],
+  "fr-a1-la-fete-surprise": [
+    { es: "l'anniversaire", en: "birthday", forms: ["l'anniversaire", "anniversaire"] },
+    { es: "occupé, occupée", en: "busy", forms: ["occupée"] },
+    { es: "rentrer", en: "to go home, to come back", forms: ["rentre"] },
+    { es: "l'interrupteur", en: "light switch", forms: ["l'interrupteur"] },
+    { es: "soudain", en: "suddenly", forms: ["soudain"] },
+    { es: "crier", en: "to shout", forms: ["crie"] },
+    { es: "la bougie", en: "candle", forms: ["bougies"] },
+    { es: "pleurer", en: "to cry", forms: ["pleure"] },
+    { es: "en même temps", en: "at the same time", forms: ["même"] },
+  ],
+};

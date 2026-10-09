@@ -76,10 +76,10 @@ function convertJapaneseInput(
   return toHiragana(raw);
 }
 
-export default function TranslateBar({ language }: { language: "es" | "ja" }) {
+export default function TranslateBar({ language }: { language: "es" | "ja" | "fr" }) {
   const [query, setQuery] = useState("");
   const [manualOverride, setManualOverride] = useState<Direction | null>(null);
-  const direction = manualOverride ?? detectDirection(query, language === "ja");
+  const direction = manualOverride ?? detectDirection(query, language);
   const [open, setOpen] = useState(false);
   const [focused, setFocused] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -141,11 +141,12 @@ export default function TranslateBar({ language }: { language: "es" | "ja" }) {
   async function saveSenseToFlashcards(sense: TranslationResult["senses"][number], index: number) {
     if (!result) return;
     const isJapanese = result.direction === "en-ja" || result.direction === "ja-en";
+    const isFrench = result.direction === "en-fr" || result.direction === "fr-en";
     // The flashcards store's "es" field always holds the foreign-language
     // term (Spanish or Japanese) and "en" holds the English side,
     // regardless of which direction this lookup ran in -- same
     // convention the website's TranslateSearch uses.
-    const foreignIsTranslation = result.direction === "en-es" || result.direction === "en-ja";
+    const foreignIsTranslation = result.direction === "en-es" || result.direction === "en-ja" || result.direction === "en-fr";
     const [es, en] = foreignIsTranslation ? [sense.translation, result.input] : [result.input, sense.translation];
     const note = sense.example ? `e.g. "${sense.example.source}"` : sense.note;
     const entry = buildCustomFlashcardEntry({
@@ -155,8 +156,10 @@ export default function TranslateBar({ language }: { language: "es" | "ja" }) {
       // guessPartOfSpeech()'s heuristics only make sense for Spanish, and
       // a Japanese-sourced card belongs in the Japanese Flashcards deck,
       // same as one typed there directly (see levelPath / FlashcardsScreen).
-      levelPath: isJapanese ? "ja" : undefined,
-      guessPos: !isJapanese,
+      // A French one goes in the French deck ("fr", as the website files
+      // hand-written French cards).
+      levelPath: isJapanese ? "ja" : isFrench ? "fr" : undefined,
+      guessPos: !isJapanese && !isFrench,
     });
     const map = await loadFlashcards();
     map[entry.id] = entry;

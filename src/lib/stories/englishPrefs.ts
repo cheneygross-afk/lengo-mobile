@@ -26,3 +26,7 @@ export function showEnglishFor(level: string, saved: unknown): boolean {
 // { [level]: boolean } map for their «Mostrar traducción» (Spanish) toggle
 // under their own key, hidden by default at every level too.
 export const EN_STORY_TRANSLATION_STORAGE_KEY = "deepend-en-story-spanish";
+
+// The French course's stories: the same map for their "Show translation"
+// (English) toggle, under their own key, hidden by default at every level.
+export const FR_STORY_TRANSLATION_STORAGE_KEY = "deepend-fr-story-english";

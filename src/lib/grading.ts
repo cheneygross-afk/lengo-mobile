@@ -17,8 +17,9 @@ export type GradeResult = { correct: boolean; note?: string };
 // (accent/real-word checks, subject pronouns, -ra/-se); "en" turns on
 // English contractions; "other" (Japanese) gets the plain rules only.
 // "zh" (the Chinese beta) takes characters or pinyin -- see
-// lessons/zh/pinyin.ts.
-export type AnswerLanguage = "es" | "en" | "zh" | "other";
+// lessons/zh/pinyin.ts; "fr" (French) gets the plain rules plus a
+// forgotten hyphen as a slip ("est ce que").
+export type AnswerLanguage = "es" | "en" | "zh" | "fr" | "other";
 
 /** Share of a lesson's questions that must be right the first time for the lesson to count as complete. */
 export const LESSON_PASS_PERCENT = 70;
@@ -324,7 +325,12 @@ function variantsOf(answer: string, typedClean: string, opts: GradeOptions): str
  */
 export function gradeFreeText(value: string, answers: string[], opts: GradeOptions): GradeResult {
   if (opts.lang === "zh") return gradeChineseAnswer(value, answers);
-  const prep = (s: string) => (opts.lang === "en" ? contractEnglish(cleanAnswer(s)) : cleanAnswer(s));
+  const prep = (s: string) =>
+    opts.lang === "en"
+      ? contractEnglish(cleanAnswer(s))
+      : opts.lang === "fr"
+        ? cleanAnswer(s).replace(/-/g, " ").replace(/\s+/g, " ")
+        : cleanAnswer(s);
   const typed = prep(value);
   if (!typed) return { correct: false };
   let best: Match = { rank: 0 };
@@ -338,9 +344,10 @@ export function gradeFreeText(value: string, answers: string[], opts: GradeOptio
   return best.rank > 0 ? { correct: true, note: best.note } : { correct: false };
 }
 
-/** "es-ES" -> "es", anything else (Japanese) -> "other". */
+/** "es-ES" -> "es", "zh-CN" -> "zh", "fr-FR" -> "fr", anything else (Japanese) -> "other". */
 export function answerLanguageFor(speechLang: string): AnswerLanguage {
   if (speechLang.startsWith("zh")) return "zh";
+  if (speechLang.startsWith("fr")) return "fr";
   return speechLang.startsWith("es") ? "es" : "other";
 }
 

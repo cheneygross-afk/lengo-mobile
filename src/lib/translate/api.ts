@@ -5,7 +5,7 @@ import { supabase } from "@/lib/supabase/client";
 // tracks the app offers -- Spanish and the Japanese beta -- same as the
 // website: which pair is active follows whichever language is selected
 // on Home, not a fixed Spanish/English pair.
-export type Direction = "en-es" | "es-en" | "en-ja" | "ja-en";
+export type Direction = "en-es" | "es-en" | "en-ja" | "ja-en" | "en-fr" | "fr-en";
 
 export type TranslationSense = {
   translation: string;
@@ -40,10 +40,34 @@ const COMMON_SPANISH_WORDS = new Set([
 // unambiguous signal the input is Japanese.
 const JAPANESE_SCRIPT = /[぀-ヿ一-鿿]/;
 
-// `japaneseContext` is which language is selected on Home -- absent any
+// Words that start a French phrase far more often than an English one.
+const COMMON_FRENCH_WORDS = new Set([
+  "le", "la", "les", "un", "une", "des", "du", "de", "et", "est", "je", "tu", "il", "elle", "nous",
+  "vous", "ils", "elles", "ce", "cette", "ces", "mon", "ma", "mes", "ton", "ta", "son", "sa", "pas",
+  "ne", "que", "qui", "quoi", "pour", "avec", "sans", "dans", "sur", "très", "bonjour", "merci",
+  "oui", "non", "c'est", "j'ai", "suis", "avoir", "être", "faire", "aller", "au", "aux", "mais",
+  "quel", "quelle", "comment", "pourquoi", "où", "quand", "chez", "bien", "salut", "voilà",
+]);
+
+// French-only letters (Spanish shares é, so it isn't one of them).
+const FRENCH_LETTERS = /[àâæçèêëîïôœùûÿ]/i;
+
+/** Which way a French-course lookup goes: French in (by its letters or
+ * first word), else English to French. */
+function detectFrenchDirection(text: string): Direction {
+  if (FRENCH_LETTERS.test(text)) return "fr-en";
+  const firstWord = text.trim().split(/\s+/)[0]?.toLowerCase().replace(/’/g, "'") ?? "";
+  if (COMMON_FRENCH_WORDS.has(firstWord) || /^(l|d|j|qu|c|n|s|m|t)'/.test(firstWord)) return "fr-en";
+  return "en-fr";
+}
+
+// `context` is which language is selected on Home -- absent any
 // script/vocabulary signal (plain ASCII, nothing recognized as Spanish),
-// this decides whether typing falls back to "en-es" or "en-ja".
-export function detectDirection(text: string, japaneseContext: boolean): Direction {
+// this decides whether typing falls back to "en-es" or "en-ja". The
+// French course has its own pair (en-fr / fr-en).
+export function detectDirection(text: string, context: "es" | "ja" | "fr"): Direction {
+  if (context === "fr") return detectFrenchDirection(text);
+  const japaneseContext = context === "ja";
   if (JAPANESE_SCRIPT.test(text)) return "ja-en";
   if (/[áéíóúñü¿¡]/i.test(text)) return "es-en";
   const firstWord = text.trim().split(/\s+/)[0]?.toLowerCase() ?? "";
@@ -61,6 +85,10 @@ export function swapDirection(direction: Direction): Direction {
       return "ja-en";
     case "ja-en":
       return "en-ja";
+    case "en-fr":
+      return "fr-en";
+    case "fr-en":
+      return "en-fr";
   }
 }
 
@@ -74,6 +102,10 @@ export function directionPillLabel(direction: Direction): string {
       return "EN→JA";
     case "ja-en":
       return "JA→EN";
+    case "en-fr":
+      return "EN→FR";
+    case "fr-en":
+      return "FR→EN";
   }
 }
 
@@ -87,6 +119,10 @@ export function directionHeading(direction: Direction): string {
       return "English → Japanese";
     case "ja-en":
       return "Japanese → English";
+    case "en-fr":
+      return "English → French";
+    case "fr-en":
+      return "French → English";
   }
 }
 

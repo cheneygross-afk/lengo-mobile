@@ -1,0 +1,278 @@
+// Synced from cheneygross-afk/lengo:src/lib/stories/fr/batches/fr-a1-s01.ts by scripts/sync-content.mjs -- edit it there, not here.
+import type { Story, StoryGloss } from "../../types";
+
+// FR-A1 stories, batch 1 (see ../fr-a1.ts for the conventions).
+
+export const FR_A1_S01_STORIES: Story[] = [
+  {
+    slug: "fr-a1-la-boulangerie",
+    level: "FR-A1",
+    title: `La boulangerie`,
+    subtitle: `Every morning Léa buys a baguette in Lyon, but today the baker has a surprise for her.`,
+    paragraphs: [
+      `Léa habite à Lyon, dans un petit appartement près de la gare. Elle a vingt-cinq ans et elle est infirmière. Le matin, elle a toujours faim.`,
+      `Tous les jours, à sept heures, elle va à la boulangerie de la rue. La boulangère s'appelle Madame Martin. Elle est petite, elle a les cheveux gris et elle est très gentille.`,
+      `« Bonjour, Léa ! Une baguette, comme d'habitude ? » demande Madame Martin. « Oui, s'il vous plaît », répond Léa.`,
+      `Mais aujourd'hui, il n'y a pas de baguettes. « Désolée, le four est en panne ce matin », explique la boulangère. Léa est un peu triste.`,
+      `Alors Madame Martin donne un croissant à Léa. « C'est un cadeau. Bonne journée ! » Léa sourit. Le croissant est chaud et délicieux. C'est une très bonne journée.`,
+    ],
+    questions: [
+      {
+        question: `What is Léa's job?`,
+        options: [`She is a baker.`, `She is a nurse.`, `She is a teacher.`, `She is a student.`],
+        correctIndex: 1,
+        explanation: `The story says "elle est infirmière": she is a nurse.`,
+      },
+      {
+        question: `Why are there no baguettes today?`,
+        options: [`The baker is sick.`, `Léa is too late.`, `The oven is broken.`, `It is Sunday.`],
+        correctIndex: 2,
+        explanation: `"Le four est en panne ce matin": the oven is broken this morning.`,
+      },
+      {
+        question: `What does Madame Martin give Léa?`,
+        options: [`A croissant, as a gift`, `A cake for two euros`, `A baguette from yesterday`, `A cup of coffee`],
+        correctIndex: 0,
+        explanation: `She gives Léa a croissant and says "C'est un cadeau": it's a gift.`,
+      },
+    ],
+  },
+  {
+    slug: "fr-a1-le-chat-de-madame-roux",
+    level: "FR-A1",
+    title: `Le chat de Madame Roux`,
+    subtitle: `A big orange cat visits Thomas every evening in Bordeaux. Whose cat is it?`,
+    paragraphs: [
+      `Thomas est étudiant à Bordeaux. Il habite seul dans un studio au rez-de-chaussée. Il a une petite fenêtre sur la cour.`,
+      `Tous les soirs, un gros chat roux arrive à la fenêtre. Il a les yeux verts et une longue queue. Il miaule : « Miaou ! » Thomas ouvre la fenêtre et le chat entre.`,
+      `Le chat aime le canapé de Thomas. Il dort là pendant une heure. Puis il part. Thomas ne connaît pas son nom.`,
+      `Un samedi, une vieille dame frappe à la porte. « Bonjour, je suis Madame Roux, votre voisine du premier étage. Mon chat, Caramel, est chez vous, non ? »`,
+      `Thomas rit. « Oui, il est sur mon canapé ! » Madame Roux rit aussi. « Il est gourmand. Vous avez du fromage ? » Maintenant, Thomas a une amie et un chat, le soir.`,
+    ],
+    questions: [
+      {
+        question: `Where does Thomas live?`,
+        options: [`On the first floor`, `On the ground floor`, `In a big house`, `With his parents`],
+        correctIndex: 1,
+        explanation: `He lives in a studio "au rez-de-chaussée", on the ground floor.`,
+      },
+      {
+        question: `What does the cat look like?`,
+        options: [`Small and black`, `White with blue eyes`, `Big and orange, with green eyes`, `Grey with a short tail`],
+        correctIndex: 2,
+        explanation: `"Un gros chat roux" with "les yeux verts": a big ginger cat with green eyes.`,
+      },
+      {
+        question: `Who is Madame Roux?`,
+        options: [`Thomas's teacher`, `Thomas's grandmother`, `The cat's vet`, `Thomas's neighbor and the cat's owner`],
+        correctIndex: 3,
+        explanation: `She says "je suis Madame Roux, votre voisine" and "Mon chat, Caramel".`,
+      },
+      {
+        question: `What does Madame Roux say about Caramel?`,
+        options: [`He is greedy.`, `He is old.`, `He is shy.`, `He is sick.`],
+        correctIndex: 0,
+        explanation: `"Il est gourmand": he loves food, so he likes Thomas's cheese.`,
+      },
+    ],
+  },
+  {
+    slug: "fr-a1-un-dimanche-a-nice",
+    level: "FR-A1",
+    title: `Un dimanche à Nice`,
+    subtitle: `The Dubois family spends a sunny Sunday at the beach in Nice, and little Jules has one problem.`,
+    paragraphs: [
+      `C'est dimanche. Il fait beau et il fait chaud. La famille Dubois habite à Nice, près de la mer.`,
+      `Le père, Marc, prépare des sandwichs. La mère, Sophie, cherche les serviettes et la crème solaire. Leur fils, Jules, a six ans. Il a un seau rouge et une petite pelle.`,
+      `À la plage, il y a beaucoup de monde. Marc lit un livre. Sophie nage dans la mer. L'eau est bleue et un peu froide.`,
+      `Jules joue avec les galets. Mais il a un problème. « Papa, il n'y a pas de sable ici ! Je veux faire un château ! »`,
+      `Marc rit. « À Nice, la plage a des galets, pas de sable. » Alors Jules fait une tour avec les galets. Elle est grande et un peu bizarre, mais Jules est très content.`,
+    ],
+    questions: [
+      {
+        question: `What is the weather like?`,
+        options: [`It is raining.`, `It is nice and hot.`, `It is cold and windy.`, `It is snowing.`],
+        correctIndex: 1,
+        explanation: `"Il fait beau et il fait chaud": the weather is nice and hot.`,
+      },
+      {
+        question: `What does Sophie do at the beach?`,
+        options: [`She reads a book.`, `She makes sandwiches.`, `She swims in the sea.`, `She sleeps.`],
+        correctIndex: 2,
+        explanation: `"Sophie nage dans la mer": Sophie swims in the sea.`,
+      },
+      {
+        question: `What is Jules's problem?`,
+        options: [`The water is too cold.`, `He has no bucket.`, `He is hungry.`, `The beach has pebbles, not sand.`],
+        correctIndex: 3,
+        explanation: `He says "il n'y a pas de sable ici", and his father explains that the beach in Nice has "des galets".`,
+      },
+    ],
+  },
+  {
+    slug: "fr-a1-le-nouveau-collegue",
+    level: "FR-A1",
+    title: `Le nouveau collègue`,
+    subtitle: `It's Karim's first day at an office in Lille, and he doesn't know anyone yet.`,
+    paragraphs: [
+      `Karim a trente ans. Il est informaticien. Aujourd'hui, c'est son premier jour dans une entreprise à Lille. Il est un peu nerveux.`,
+      `Le bureau est grand et moderne. Il y a dix personnes, des ordinateurs et une machine à café. Karim ne connaît personne.`,
+      `Une femme arrive. « Bonjour ! Je m'appelle Nathalie. Je suis la responsable de l'équipe. Bienvenue ! » Elle présente les collègues : Paul, Amélie, Yann et les autres.`,
+      `À midi, Amélie demande : « Tu manges avec nous ? Il y a une bonne brasserie en face. » Karim dit oui. Au restaurant, ils parlent de football, de musique et de Lille.`,
+      `Le soir, Karim téléphone à sa mère. « Alors, ton premier jour ? » « C'est super, maman. Mes collègues sont sympas ! »`,
+    ],
+    questions: [
+      {
+        question: `How does Karim feel at the start of the day?`,
+        options: [`A little nervous`, `Very tired`, `Angry`, `Bored`],
+        correctIndex: 0,
+        explanation: `"Il est un peu nerveux": he is a little nervous.`,
+      },
+      {
+        question: `Who is Nathalie?`,
+        options: [`Karim's mother`, `A waitress`, `The team manager`, `A new employee too`],
+        correctIndex: 2,
+        explanation: `She says "Je suis la responsable de l'équipe": she is the team manager.`,
+      },
+      {
+        question: `Where do they eat at noon?`,
+        options: [`In the office`, `At a brasserie across the street`, `At Karim's home`, `In a park`],
+        correctIndex: 1,
+        explanation: `Amélie says "Il y a une bonne brasserie en face": across the street.`,
+      },
+    ],
+  },
+  {
+    slug: "fr-a1-au-marche",
+    level: "FR-A1",
+    title: `Au marché`,
+    subtitle: `On Saturday morning, Paul and his grandfather go to the market in Toulouse with a long shopping list.`,
+    paragraphs: [
+      `Le samedi matin, Paul va au marché avec son grand-père, Henri. Le marché est sur une grande place, au centre de Toulouse. Il y a beaucoup de couleurs et de bruit.`,
+      `Henri a une liste : des tomates, des pommes, du fromage et un poulet. Paul porte le panier. Il a dix ans et il est très fort !`,
+      `D'abord, ils achètent des tomates et des pommes. Le marchand est très drôle. Il donne une pomme à Paul. « Pour le jeune homme ! »`,
+      `Ensuite, ils vont chez le fromager. Il y a cent fromages ! Henri aime le roquefort, mais Paul préfère le comté. Ils prennent les deux.`,
+      `À la fin, le panier est très lourd. « Papi, et le poulet ? » demande Paul. Henri regarde la liste et rit. « Oh là là, le poulet ! On retourne ! »`,
+    ],
+    questions: [
+      {
+        question: `Who does Paul go to the market with?`,
+        options: [`His mother`, `His friend`, `His grandfather`, `His teacher`],
+        correctIndex: 2,
+        explanation: `"Paul va au marché avec son grand-père, Henri".`,
+      },
+      {
+        question: `Which cheese does Paul prefer?`,
+        options: [`Roquefort`, `Comté`, `Brie`, `Camembert`],
+        correctIndex: 1,
+        explanation: `"Henri aime le roquefort, mais Paul préfère le comté".`,
+      },
+      {
+        question: `What do they forget?`,
+        options: [`The tomatoes`, `The basket`, `The apples`, `The chicken`],
+        correctIndex: 3,
+        explanation: `At the end Paul asks "et le poulet ?" and they have to go back.`,
+      },
+    ],
+  },
+];
+
+export const FR_A1_S01_ENGLISH: Record<string, string[]> = {
+  "fr-a1-la-boulangerie": [
+    `Léa lives in Lyon, in a small apartment near the station. She is twenty-five and she is a nurse. In the morning, she is always hungry.`,
+    `Every day, at seven o'clock, she goes to the bakery on her street. The baker is called Madame Martin. She is short, she has grey hair and she is very kind.`,
+    `"Good morning, Léa! A baguette, as usual?" asks Madame Martin. "Yes, please," answers Léa.`,
+    `But today, there are no baguettes. "Sorry, the oven is broken this morning," explains the baker. Léa is a little sad.`,
+    `So Madame Martin gives Léa a croissant. "It's a gift. Have a nice day!" Léa smiles. The croissant is warm and delicious. It's a very good day.`,
+  ],
+  "fr-a1-le-chat-de-madame-roux": [
+    `Thomas is a student in Bordeaux. He lives alone in a studio on the ground floor. He has a small window onto the courtyard.`,
+    `Every evening, a big ginger cat comes to the window. It has green eyes and a long tail. It meows: "Meow!" Thomas opens the window and the cat comes in.`,
+    `The cat loves Thomas's sofa. It sleeps there for an hour. Then it leaves. Thomas doesn't know its name.`,
+    `One Saturday, an old lady knocks on the door. "Hello, I'm Madame Roux, your neighbor from the first floor. My cat, Caramel, is at your place, isn't he?"`,
+    `Thomas laughs. "Yes, he's on my sofa!" Madame Roux laughs too. "He's greedy. Do you have any cheese?" Now Thomas has a friend, and a cat in the evenings.`,
+  ],
+  "fr-a1-un-dimanche-a-nice": [
+    `It's Sunday. The weather is nice and it's hot. The Dubois family lives in Nice, near the sea.`,
+    `The father, Marc, makes sandwiches. The mother, Sophie, looks for the towels and the sunscreen. Their son, Jules, is six. He has a red bucket and a little spade.`,
+    `At the beach, there are lots of people. Marc reads a book. Sophie swims in the sea. The water is blue and a little cold.`,
+    `Jules plays with the pebbles. But he has a problem. "Dad, there's no sand here! I want to make a castle!"`,
+    `Marc laughs. "In Nice, the beach has pebbles, not sand." So Jules makes a tower out of pebbles. It's tall and a bit strange, but Jules is very happy.`,
+  ],
+  "fr-a1-le-nouveau-collegue": [
+    `Karim is thirty. He works in IT. Today is his first day at a company in Lille. He is a little nervous.`,
+    `The office is big and modern. There are ten people, computers and a coffee machine. Karim doesn't know anyone.`,
+    `A woman arrives. "Hello! My name is Nathalie. I'm the team manager. Welcome!" She introduces the colleagues: Paul, Amélie, Yann and the others.`,
+    `At noon, Amélie asks: "Are you eating with us? There's a good brasserie across the street." Karim says yes. At the restaurant, they talk about football, music and Lille.`,
+    `In the evening, Karim phones his mother. "So, your first day?" "It's great, Mom. My colleagues are nice!"`,
+  ],
+  "fr-a1-au-marche": [
+    `On Saturday mornings, Paul goes to the market with his grandfather, Henri. The market is on a big square in the center of Toulouse. There are lots of colors and lots of noise.`,
+    `Henri has a list: tomatoes, apples, cheese and a chicken. Paul carries the basket. He is ten and he is very strong!`,
+    `First, they buy tomatoes and apples. The stallholder is very funny. He gives Paul an apple. "For the young man!"`,
+    `Next, they go to the cheese seller. There are a hundred cheeses! Henri likes Roquefort, but Paul prefers Comté. They take both.`,
+    `At the end, the basket is very heavy. "Grandpa, what about the chicken?" asks Paul. Henri looks at the list and laughs. "Oh dear, the chicken! Back we go!"`,
+  ],
+};
+
+export const FR_A1_S01_GLOSSES: Record<string, StoryGloss[]> = {
+  "fr-a1-la-boulangerie": [
+    { es: "la boulangerie", en: "bakery", forms: ["boulangerie"] },
+    { es: "la boulangère", en: "baker (woman)", forms: ["boulangère"] },
+    { es: "infirmier, infirmière", en: "nurse", forms: ["infirmière"] },
+    { es: "avoir faim", en: "to be hungry", forms: ["faim"] },
+    { es: "comme d'habitude", en: "as usual", forms: ["d'habitude"] },
+    { es: "le four", en: "oven", forms: ["four"] },
+    { es: "en panne", en: "broken, out of order", forms: ["panne"] },
+    { es: "un cadeau", en: "gift, present", forms: ["cadeau"] },
+    { es: "sourire", en: "to smile", forms: ["sourit"] },
+  ],
+  "fr-a1-le-chat-de-madame-roux": [
+    { es: "seul, seule", en: "alone", forms: ["seul"] },
+    { es: "le rez-de-chaussée", en: "ground floor", forms: ["rez-de-chaussée"] },
+    { es: "la cour", en: "courtyard", forms: ["cour"] },
+    { es: "roux, rousse", en: "ginger, red-haired", forms: ["roux"] },
+    { es: "la queue", en: "tail", forms: ["queue"] },
+    { es: "miauler", en: "to meow", forms: ["miaule"] },
+    { es: "le canapé", en: "sofa", forms: ["canapé"] },
+    { es: "frapper", en: "to knock", forms: ["frappe"] },
+    { es: "le voisin, la voisine", en: "neighbor", forms: ["voisine"] },
+    { es: "gourmand, gourmande", en: "greedy, fond of food", forms: ["gourmand"] },
+  ],
+  "fr-a1-un-dimanche-a-nice": [
+    { es: "il fait beau", en: "the weather is nice", forms: ["beau"] },
+    { es: "la mer", en: "sea", forms: ["mer"] },
+    { es: "la serviette", en: "towel", forms: ["serviettes"] },
+    { es: "la crème solaire", en: "sunscreen", forms: ["solaire"] },
+    { es: "le seau", en: "bucket", forms: ["seau"] },
+    { es: "la pelle", en: "spade, shovel", forms: ["pelle"] },
+    { es: "nager", en: "to swim", forms: ["nage"] },
+    { es: "le galet", en: "pebble", forms: ["galets"] },
+    { es: "le sable", en: "sand", forms: ["sable"] },
+    { es: "bizarre", en: "strange, odd", forms: ["bizarre"] },
+  ],
+  "fr-a1-le-nouveau-collegue": [
+    { es: "le collègue, la collègue", en: "colleague, coworker", forms: ["collègues"] },
+    { es: "l'informaticien", en: "IT specialist, computer programmer", forms: ["informaticien"] },
+    { es: "une entreprise", en: "company, business", forms: ["entreprise"] },
+    { es: "nerveux, nerveuse", en: "nervous", forms: ["nerveux"] },
+    { es: "le bureau", en: "office; desk", forms: ["bureau"] },
+    { es: "ne... personne", en: "nobody, not anyone", forms: ["personne"] },
+    { es: "le/la responsable", en: "manager, person in charge", forms: ["responsable"] },
+    { es: "l'équipe", en: "team", forms: ["l'équipe"] },
+    { es: "en face", en: "opposite, across the street", forms: ["face"] },
+    { es: "sympa", en: "nice, friendly", forms: ["sympas"] },
+  ],
+  "fr-a1-au-marche": [
+    { es: "le marché", en: "market", forms: ["marché"] },
+    { es: "le grand-père", en: "grandfather", forms: ["grand-père"] },
+    { es: "le bruit", en: "noise", forms: ["bruit"] },
+    { es: "porter", en: "to carry", forms: ["porte"] },
+    { es: "le panier", en: "basket", forms: ["panier"] },
+    { es: "le marchand", en: "stallholder, seller", forms: ["marchand"] },
+    { es: "le fromager", en: "cheese seller", forms: ["fromager"] },
+    { es: "lourd, lourde", en: "heavy", forms: ["lourd"] },
+    { es: "Papi", en: "Grandpa", forms: ["papi"] },
+    { es: "retourner", en: "to go back", forms: ["retourne"] },
+  ],
+};
