@@ -16,7 +16,7 @@ export const FR_B1_U09: Lesson[] = [
         body: [
           "In a statement, object pronouns go before the verb: \"tu le prends\", \"vous lui parlez\". In an affirmative command they jump behind the verb and are joined to it with a hyphen: \"Prends-le !\" (Take it!), \"Parlez-lui !\" (Talk to him, or to her). English puts the pronoun after the verb too, so the position feels natural; what's new is the hyphen.",
           "Me and te can't stand at the end of a word, so after the verb they become the stressed forms \"moi\" and \"toi\": \"Aide-moi !\" (Help me!), \"Écoute-moi.\" You already know \"toi\" from pronominal verbs: \"Lève-toi\". The other pronouns (le, la, les, lui, nous, vous, leur) don't change.",
-          "Keep the A2 verb patterns in mind: \"appeler\", \"attendre\", \"aider\" and \"écouter\" take a direct object (\"Appelle-la\": call her, \"Attends-moi\": wait for me), while \"téléphoner à\", \"répondre à\" and \"parler à\" take an indirect one (\"Téléphone-lui\", \"Réponds-leur\").",
+          "Keep the Elementary verb patterns in mind: \"appeler\", \"attendre\", \"aider\" and \"écouter\" take a direct object (\"Appelle-la\": call her, \"Attends-moi\": wait for me), while \"téléphoner à\", \"répondre à\" and \"parler à\" take an indirect one (\"Téléphone-lui\", \"Réponds-leur\").",
           "Le and la never elide after the verb: \"Fais-le aujourd'hui\", not \"fais-l'aujourd'hui\". And the -er tu imperative still has no -s: \"Appelle-la\", \"Essaie-les\".",
         ],
         examples: [
@@ -58,7 +58,7 @@ export const FR_B1_U09: Lesson[] = [
         heading: "Two pronouns: the thing, then the person",
         body: [
           "When a command has two object pronouns, the order after the verb is the same as in English: the thing first, then the person. \"Donne-le-moi\" is give it to me, word for word give-it-me. Both pronouns get a hyphen: \"Envoie-la-lui\", \"Montrez-les-nous\", \"Rends-les-leur\".",
-          "So the rule is: verb, then \"le\" / \"la\" / \"les\", then \"moi\" / \"toi\" / \"lui\" / \"nous\" / \"vous\" / \"leur\". This is not the statement order you learned at A2, where me and te come first (\"tu me le donnes\"). In an affirmative command, \"moi\" always comes after \"le\": \"Donne-moi-le\" is the classic mistake.",
+          "So the rule is: verb, then \"le\" / \"la\" / \"les\", then \"moi\" / \"toi\" / \"lui\" / \"nous\" / \"vous\" / \"leur\". This is not the statement order you learned at the Elementary level, where me and te come first (\"tu me le donnes\"). In an affirmative command, \"moi\" always comes after \"le\": \"Donne-moi-le\" is the classic mistake.",
           "In speech the whole group is one rhythm unit with the stress at the end: \"donne-le-moi\" sounds like one word, and the e of \"le\" is clearly pronounced.",
         ],
         examples: [
@@ -278,7 +278,7 @@ export const FR_B1_U09: Lesson[] = [
         heading: "Y and en after the verb",
         body: [
           "\"Y\" (there, or à + a thing) and \"en\" (some, of it, about it) follow the same rule as the other pronouns: after an affirmative command, joined with a hyphen. \"Allez-y !\" means go there, but also go ahead or go for it. \"Prenez-en\" means take some.",
-          "Their meanings are the ones you learned at A2: \"y\" replaces a place or à + a thing (\"pensez-y\": think about it, from \"penser à\"), and \"en\" replaces de + something, often a quantity (\"prenez-en deux\": take two of them).",
+          "Their meanings are the ones you learned at the Elementary level: \"y\" replaces a place or à + a thing (\"pensez-y\": think about it, from \"penser à\"), and \"en\" replaces de + something, often a quantity (\"prenez-en deux\": take two of them).",
           "\"Allez-y\" is one of the most useful phrases in French: a waiter says it to let you order, a teacher to tell you to start, a friend to encourage you.",
         ],
         examples: [
@@ -438,7 +438,7 @@ export const FR_B1_U09: Lesson[] = [
         source: "Have some, there's a lot. (to a friend)",
         answer: "Prends-en, il y en a beaucoup.",
         altAnswers: ["Manges-en, il y en a beaucoup.", "Sers-toi, il y en a beaucoup."],
-        explanation: "\"Prends\" already ends in -s; \"en\" follows with a hyphen. \"Il y en a\" is the A2 chunk there is some.",
+        explanation: "\"Prends\" already ends in -s; \"en\" follows with a hyphen. \"Il y en a\" is the Elementary chunk there is some.",
       },
       {
         type: "translate",

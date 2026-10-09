@@ -1067,7 +1067,7 @@ export const FR_A2_U12: Lesson[] = [
       {
         heading: "Starting and finishing: on y va, ça y est",
         body: [
-          "Some of the most frequent phrases in spoken French contain \"y\", and you've used one since A1 without noticing: \"il y a\" (there is, literally 'it has there').",
+          "Some of the most frequent phrases in spoken French contain \"y\", and you've used one since Beginner without noticing: \"il y a\" (there is, literally 'it has there').",
           "\"On y va ?\" / \"On y va !\" (shall we go? / let's go!) starts things: leaving, beginning a game, a meal, a meeting. \"Ça y est !\" means that's it, done, finally: \"Ça y est, j'ai fini !\", \"Ça y est, il pleut\" (there we go, it's raining). As a question, \"Ça y est ?\" means are you done? / is it ready?",
         ],
         examples: [
@@ -1100,7 +1100,7 @@ export const FR_A2_U12: Lesson[] = [
         heading: "Encouraging and giving way: vas-y, allez-y",
         body: [
           "\"Vas-y\" (to tu) and \"allez-y\" (to vous) mean go on, go ahead: to encourage someone (\"vas-y, tu vas y arriver !\"), to let them speak or go first (\"allez-y, après vous\"), or to give permission (\"je peux prendre une photo ? — Allez-y\").",
-          "\"Y aller\" alone can mean to get going: \"bon, il faut que j'y aille\" is beyond A2, but \"bon, je vais y aller\" (right, I'm going to head off) is perfect.",
+          "\"Y aller\" alone can mean to get going: \"bon, il faut que j'y aille\" is beyond the Elementary level, but \"bon, je vais y aller\" (right, I'm going to head off) is perfect.",
         ],
         examples: [
           { es: "Vas-y, tu vas y arriver !", en: "Go on, you'll manage it!" },

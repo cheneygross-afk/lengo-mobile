@@ -24,7 +24,7 @@ export const FR_B1_U33: Lesson[] = [
     level: "FR-B1",
     number: 1,
     title: "Talk About You: Your Year in French",
-    summary: "Look back on your year of French and ahead to the next one: what you learned, what helped, what you still need, and what you'll do once B1 is done.",
+    summary: "Look back on your year of French and ahead to the next one: what you learned, what helped, what you still need, and what you'll do once Intermediate is done.",
     duration: "13 min",
     sections: [
       {
@@ -115,14 +115,14 @@ export const FR_B1_U33: Lesson[] = [
         ],
       },
       {
-        heading: "Looking ahead: quand j'aurai fini le B1",
+        heading: "Looking ahead: quand j'aurai fini ce niveau",
         body: [
-          "Plans for after the course need the futur antérieur in the time clause: \"quand j'aurai fini le B1, je passerai le DELF\". English says when I've finished, a present perfect; French moves both actions into the future, and the one that will be completed first goes into the futur antérieur (\"avoir\" or \"être\" in the future + past participle).",
+          "Plans for after the course need the futur antérieur in the time clause: \"quand j'aurai fini ce niveau, je passerai le DELF\". English says when I've finished, a present perfect; French moves both actions into the future, and the one that will be completed first goes into the futur antérieur (\"avoir\" or \"être\" in the future + past participle).",
           "The same rule applies after \"dès que\" (as soon as), \"une fois que\" (once) and \"lorsque\" (when): \"dès que j'aurai obtenu mon diplôme, je partirai\". *Quand j'ai fini, je passerai is the most frequent slip; *quand je finirai is possible only if the two actions happen at the same time.",
           "For dreams rather than plans, use \"si\" + imparfait + conditional: \"si j'avais plus de temps, je prendrais des cours particuliers\". And remember \"espérer\" takes the indicative, so a future is fine after it: \"j'espère que je pourrai suivre les infos\".",
         ],
         examples: [
-          { es: "Quand j'aurai fini le B1, je passerai le DELF.", en: "When I've finished B1, I'll take the DELF." },
+          { es: "Quand j'aurai fini ce niveau, je passerai le DELF.", en: "When I've finished this level, I'll take the DELF." },
           { es: "Dès que j'aurai obtenu mon diplôme, je partirai vivre à Bordeaux.", en: "As soon as I've got my degree, I'll go and live in Bordeaux." },
           { es: "Une fois que j'aurai lu ce roman, je le prêterai à ma sœur.", en: "Once I've read this novel, I'll lend it to my sister." },
           { es: "Si j'avais plus de temps, je prendrais des cours particuliers.", en: "If I had more time, I'd take private lessons." },
@@ -149,7 +149,7 @@ export const FR_B1_U33: Lesson[] = [
           },
           {
             type: "speak",
-            text: "Quand j'aurai fini le B1, je passerai le DELF.",
+            text: "Quand j'aurai fini ce niveau, je passerai le DELF.",
             tip: "Say DELF as one word, \"delf\", the way French learners and teachers do.",
             explanation: "Futur antérieur in the \"quand\" clause, futur simple in the main clause.",
           },
@@ -349,7 +349,7 @@ export const FR_B1_U33: Lesson[] = [
       {
         heading: "City problems and wishes: il faudrait que la mairie...",
         body: [
-          "Complaining about the city is a national sport, and B1 grammar gives you the tools. Describe the problem with the present or \"ça fait... que\": \"ça fait six mois qu'il y a des travaux dans ma rue\". \"La circulation\" is traffic (the flow of cars), \"le bruit\" noise, \"la pollution\" pollution, and \"les travaux\" roadworks or building works, always plural.",
+          "Complaining about the city is a national sport, and Intermediate grammar gives you the tools. Describe the problem with the present or \"ça fait... que\": \"ça fait six mois qu'il y a des travaux dans ma rue\". \"La circulation\" is traffic (the flow of cars), \"le bruit\" noise, \"la pollution\" pollution, and \"les travaux\" roadworks or building works, always plural.",
           "Suggest solutions with the conditional (\"on devrait interdire les voitures\", \"ce serait bien d'avoir plus de bancs\") or with \"il faudrait que\" + subjunctive (\"il faudrait que la mairie construise plus de pistes cyclables\"). \"Il faudrait\" is the softer conditional of \"il faut\": it ought to happen.",
           "Hypotheses use \"si\" + imparfait + conditional: \"si les transports étaient gratuits, moins de gens prendraient la voiture\". To say what has been done, the passive or \"on\": \"la place a été rénovée\", \"on a fermé la rue\".",
         ],
@@ -945,7 +945,7 @@ export const FR_B1_U33: Lesson[] = [
     level: "FR-B1",
     number: 5,
     title: "Cumulative Circuit: The Intermediate Final Exam",
-    summary: "One long circuit with a task for every B1 grammar area: moods, pasts and futures, every kind of pronoun, the passive and spoken French.",
+    summary: "One long circuit with a task for every Intermediate grammar area: moods, pasts and futures, every kind of pronoun, the passive and spoken French.",
     duration: "15 min",
     sections: [
       {

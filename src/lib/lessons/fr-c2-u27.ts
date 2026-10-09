@@ -999,7 +999,7 @@ export const FR_C2_U27: Lesson[] = [
         heading: "How a balanced tribune is built",
         body: [
           "A good French tribune follows a recognisable architecture: \"une accroche\" (a hook: a fact, a scene, a paradox), \"la thèse\" stated clearly, \"une concession loyale\" to the other side, \"la réfutation\" or the nuance, \"une proposition concrète\", and \"une chute\" (a memorable final line). The tone is firm but argued; insults and caricatures would discredit it.",
-          "Concession formulas (from C1, now in context): \"certes..., mais\", \"il est vrai que..., toutefois\", \"on objectera que...\" (one will object that), \"loin de moi l'idée de\" + infinitive, \"il serait malhonnête de nier que\" + indicative or subjunctive, \"aussi légitime que soit\" + noun (however legitimate... may be). Then the pivot: \"pour autant\", \"reste que\", \"il n'en demeure pas moins que\".",
+          "Concession formulas (from the Advanced level, now in context): \"certes..., mais\", \"il est vrai que..., toutefois\", \"on objectera que...\" (one will object that), \"loin de moi l'idée de\" + infinitive, \"il serait malhonnête de nier que\" + indicative or subjunctive, \"aussi légitime que soit\" + noun (however legitimate... may be). Then the pivot: \"pour autant\", \"reste que\", \"il n'en demeure pas moins que\".",
           "An original opening: \"Chaque matin, Sandrine parcourt quarante kilomètres pour rejoindre l'hôpital de Grenoble où elle est aide-soignante. Sa voiture a dix-sept ans. Dans deux ans, elle n'aura plus le droit d'entrer en ville. Loin de moi l'idée de contester la nécessité de réduire la pollution de l'air, qui tue chaque année des dizaines de milliers de personnes en France. Reste qu'une politique environnementale qui ignore Sandrine est vouée à l'échec.\"",
         ],
         examples: [
@@ -1027,7 +1027,7 @@ export const FR_C2_U27: Lesson[] = [
             sentence: "___ cet objectif, il ne justifie pas tout.",
             answer: "Aussi légitime que soit",
             altAnswers: ["Si légitime que soit", "Pour légitime que soit", "Quelque légitime que soit"],
-            explanation: "\"Aussi + adjective + que\" + subjunctive, with inversion of the noun subject: a C1 concession structure.",
+            explanation: "\"Aussi + adjective + que\" + subjunctive, with inversion of the noun subject: an Advanced concession structure.",
           },
           {
             type: "speak",
@@ -1183,7 +1183,7 @@ export const FR_C2_U27: Lesson[] = [
         heading: "Step 2: the fair concession",
         body: [
           "The concession is what makes a tribune credible: show that you understand the other side's best argument, not its weakest. Here, the defenders of the ZFE are right about health: \"Il serait malhonnête de nier que les particules fines tuent, et que les enfants des centres-villes en sont les premières victimes.\" Then the pivot: \"pour autant\", \"il n'en reste pas moins que\", \"encore faut-il que\" + subjunctive (still, it must be the case that).",
-          "\"Encore faut-il que\" is a typical C2 pivot: it accepts the principle and sets a condition. \"Une ZFE peut sauver des vies. Encore faut-il qu'elle ne laisse personne sur le bord de la route.\" Note the inversion after \"encore\" at the head of the sentence.",
+          "\"Encore faut-il que\" is a typical Mastery pivot: it accepts the principle and sets a condition. \"Une ZFE peut sauver des vies. Encore faut-il qu'elle ne laisse personne sur le bord de la route.\" Note the inversion after \"encore\" at the head of the sentence.",
           "Avoid the false concession that is really an attack (\"certes, les écolos ont raison de s'inquiéter pour leurs petits poumons, mais...\"): irony at the opponent's expense destroys the balance you are trying to build.",
         ],
         examples: [
@@ -1306,7 +1306,7 @@ export const FR_C2_U27: Lesson[] = [
         source: "A low-emission zone can save lives, but it must not penalise the poorest.",
         answer: "Une zone à faibles émissions peut sauver des vies, mais elle ne doit pas pénaliser les plus pauvres.",
         altAnswers: ["Une ZFE peut sauver des vies, mais elle ne doit pas pénaliser les plus pauvres.", "Une zone à faibles émissions peut sauver des vies, mais elle ne doit pas pénaliser les plus modestes.", "Une ZFE peut sauver des vies, mais elle ne doit pas pénaliser les plus modestes.", "Une zone à faibles émissions peut sauver des vies ; encore faut-il qu'elle ne pénalise pas les plus pauvres."],
-        explanation: "Concession then condition; \"encore faut-il que\" + subjunctive is the C2 version.",
+        explanation: "Concession then condition; \"encore faut-il que\" + subjunctive is the Mastery version.",
       },
       {
         type: "multiple-choice",
@@ -1452,7 +1452,7 @@ export const FR_C2_U27: Lesson[] = [
         body: [
           "French headlines are often verbless, built on nouns and a colon: \"Hausse des émissions : le gouvernement sous pression\", \"Réforme des retraites : adoption définitive au Parlement\", \"Sécheresse : restrictions d'eau dans 60 départements\". To read them, turn each noun back into a verb: \"les émissions ont augmenté, le gouvernement est sous pression\".",
           "Speeches go the other way: a politician addressing citizens uses verbs, \"nous\" and the future: \"Nous baisserons les émissions de moitié d'ici 2030. Nous rénoverons un million de logements. Nous ne laisserons personne sur le bord du chemin.\" Anaphora (repeating \"nous\" + future) gives rhythm and commitment.",
-          "Being able to switch between the two styles is a C2 skill: the same content as a headline (\"Rénovation thermique : un million de logements d'ici 2030\"), as a news sentence (\"le gouvernement prévoit la rénovation d'un million de logements\") and as a speech (\"nous rénoverons un million de logements\").",
+          "Being able to switch between the two styles is a Mastery skill: the same content as a headline (\"Rénovation thermique : un million de logements d'ici 2030\"), as a news sentence (\"le gouvernement prévoit la rénovation d'un million de logements\") and as a speech (\"nous rénoverons un million de logements\").",
         ],
         examples: [
           { es: "Hausse des émissions : le gouvernement sous pression.", en: "Emissions rise: government under pressure." },
@@ -1581,7 +1581,7 @@ export const FR_C2_U27: Lesson[] = [
     slug: "c2-vocab-sound-light-verbs",
     level: "FR-C2",
     number: 8,
-    title: "C2 Vocabulary: Verbs of Sound and Light",
+    title: "Mastery Vocabulary: Verbs of Sound and Light",
     summary: "The exact verb for what is heard and what shines: crépiter, grincer, retentir, chuchoter, tinter, cliqueter, gronder, bruire; scintiller, chatoyer, miroiter, rutiler, vaciller, étinceler, resplendir.",
     duration: "16 min",
     sections: [

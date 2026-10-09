@@ -495,7 +495,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
     optional: true,
     number: 4,
     title: "Extra Practice: Tense Shifts in Reported Speech",
-    summary: "More practice moving between direct and indirect speech at C1 level, in conversational and literary narratives.",
+    summary: "More practice moving between direct and indirect speech at the Advanced level, in conversational and literary narratives.",
     duration: "15 min",
     sections: [
       {

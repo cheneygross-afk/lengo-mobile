@@ -734,7 +734,7 @@ export const FR_C1_U16: Lesson[] = [
           "Inès : Tu vois, le problème, c'est pas le loyer. C'est que le quartier, je l'adore, tu vois ? Le marché, la boulangerie…\nHugo : Ouais, je sais. Mais bon, cinquante euros par mois, quoi.\nInès : Bref. On en parle ce soir avec les crêpes ?\nHugo : Voilà. Bonne idée.",
           "\"Tu vois\" (or \"vous voyez\") checks the listener's attention and asks for agreement, like 'you see' or 'you know'. Repeated, it can sound insistent. \"Tu sais\" is similar. \"Bref\" (in short) cuts a story short or brings a digression back to the point. It's often used ironically to end a long rant.",
           "\"Voilà\" closes a turn: 'that's it', \"exactly\", 'there you go'. In some speakers it ends almost every explanation. \"Ouais\" is the familiar \"oui\". \"Mais bon\" (but anyway, still) concedes a point while maintaining a reservation.",
-          "None of these words are mistakes: they organise conversation, manage politeness and buy time. At C1, recognising them helps you follow natural speech. Using a few (\"bon\", \"en fait\", \"bref\", \"tu vois\") makes you sound fluent. But leave them out of written French, presentations and formal meetings, except deliberately.",
+          "None of these words are mistakes: they organise conversation, manage politeness and buy time. At the Advanced level, recognising them helps you follow natural speech. Using a few (\"bon\", \"en fait\", \"bref\", \"tu vois\") makes you sound fluent. But leave them out of written French, presentations and formal meetings, except deliberately.",
         ],
         examples: [
           { es: "Le quartier, je l'adore, tu vois ?", en: "The neighbourhood, I love it, you know?" },
@@ -1360,7 +1360,7 @@ export const FR_C1_U16: Lesson[] = [
       {
         heading: "Rewriting up and down",
         body: [
-          "A useful C1 skill is moving a message up or down the scale on demand. Let's take a second message: someone has stood you up.\n\nVulgaire: \"Ce connard m'a posé un lapin, j'en ai ras le cul.\"\nFamilier: \"Il m'a posé un lapin, j'en ai marre.\"\nNeutral: \"Il n'est pas venu au rendez-vous, et j'en ai assez.\"\nFormal: \"Il ne s'est pas présenté au rendez-vous convenu, ce qui m'exaspère.\"",
+          "A useful Advanced skill is moving a message up or down the scale on demand. Let's take a second message: someone has stood you up.\n\nVulgaire: \"Ce connard m'a posé un lapin, j'en ai ras le cul.\"\nFamilier: \"Il m'a posé un lapin, j'en ai marre.\"\nNeutral: \"Il n'est pas venu au rendez-vous, et j'en ai assez.\"\nFormal: \"Il ne s'est pas présenté au rendez-vous convenu, ce qui m'exaspère.\"",
           "To go down, add spoken grammar (dropped \"ne\", \"y a\", \"t'as\"), familiar words, fillers, dislocations and intensifiers (\"trop\", \"grave\", \"super\"). To go up, restore full grammar, choose precise neutral words, replace emotions with descriptions (\"je suis mécontent\", \"cela m'exaspère\"), and add connectors.",
           "The most common learner mistake is mixing levels in one sentence: \"Je vous prie de bien vouloir me rendre mon fric\" or \"Ce mec ne s'est point présenté\". A native reader notices immediately. Pick a level and stay there, unless you're mixing for humour.",
         ],
@@ -1764,7 +1764,7 @@ export const FR_C1_U16: Lesson[] = [
       {
         heading: "Recognise vs say: a learner's strategy",
         body: [
-          "Native speakers adjust their swearing constantly, and they judge others' swearing by context, relationship and identity. A non-native speaker who swears fluently but slightly out of place sounds strange, sometimes aggressive, sometimes comic. A good strategy at C1 is to understand everything and to use a small, safe set.",
+          "Native speakers adjust their swearing constantly, and they judge others' swearing by context, relationship and identity. A non-native speaker who swears fluently but slightly out of place sounds strange, sometimes aggressive, sometimes comic. A good strategy at the Advanced level is to understand everything and to use a small, safe set.",
           "Safe almost anywhere: \"zut\", \"mince\", \"punaise\", \"c'est bête\", \"n'importe quoi !\", \"quelle galère\". Among friends who swear: \"merde\", \"c'est con\", \"tu déconnes\", \"sans déconner\". Recognise but think twice before saying: \"putain\", \"bordel\", \"connerie\". Avoid unless you really know what you're doing: \"connard\", \"connasse\", sexual and homophobic insults and anything targeting a person's origin.",
           "Also learn the reactions. If someone swears in an inappropriate setting, people say \"oh, on se calme\", \"langage !\" or \"sois poli\". And, in the media, swear words are often bleeped or replaced with \"mince\" in subtitles and dubbing, which you'll practise in this unit's subtitling mission.",
         ],
@@ -2534,7 +2534,7 @@ export const FR_C1_U16: Lesson[] = [
         heading: "Que instead of dont",
         body: [
           "In casual speech, many French speakers use \"que\" as an all-purpose relative pronoun, replacing \"dont\", \"où\", \"à qui\" and others. The most frequent case replaces \"dont\" (which introduces a complement with \"de\"): \"le mec que je t'ai parlé\" instead of \"le mec dont je t'ai parlé\" (parler de quelqu'un). \"Le film que j'ai besoin\" instead of \"le film dont j'ai besoin\" (avoir besoin de).",
-          "These forms are stigmatised: teachers correct them, and in writing they look like mistakes. But you'll hear them constantly, in films, in the street and even from educated speakers in relaxed conversation. At C1, you need to understand them instantly and never write them.",
+          "These forms are stigmatised: teachers correct them, and in writing they look like mistakes. But you'll hear them constantly, in films, in the street and even from educated speakers in relaxed conversation. At the Advanced level, you need to understand them instantly and never write them.",
           "To restore the standard form, find the preposition that the verb requires. \"Parler de\" → \"dont\"; \"avoir besoin de\" → \"dont\"; \"se souvenir de\" → \"dont\"; \"avoir peur de\" → \"dont\". If the preposition is \"à\": \"penser à\" → \"à quoi\" or \"auquel\"; \"parler à quelqu'un\" → \"à qui\".",
         ],
         examples: [
@@ -2815,7 +2815,7 @@ export const FR_C1_U16: Lesson[] = [
         body: [
           "Conversation is full of ellipsis: words are left out because the context makes them obvious. \"Un café ? – Volontiers.\" \"Tu viens ? – Peux pas.\" (= je ne peux pas). \"Dispo demain ?\" (= tu es disponible demain ?). \"Pas faim.\" (= je n'ai pas faim). \"Vu.\" (= j'ai vu, read in a text message). \"Trop tard.\" \"Pas grave.\"",
           "In text messages and chat, ellipsis is extreme: \"Dispo ce soir ? Ciné ?\", \"Pas pu venir, désolé\", \"Arrivé !\" (= je suis arrivé). In emails and reports, complete sentences are expected: \"Êtes-vous disponible ce soir ?\", \"Je n'ai pas pu venir, je vous prie de m'en excuser.\"",
-          "Converting fast speech to writing therefore means three operations: restore the subject and the verb, restore the full negation, and replace oral question patterns (\"c'est où que\", in situ) with \"est-ce que\" or inversion. At C1, you should be able to go back and forth effortlessly: decode the oral form when listening, and produce the written form when needed.",
+          "Converting fast speech to writing therefore means three operations: restore the subject and the verb, restore the full negation, and replace oral question patterns (\"c'est où que\", in situ) with \"est-ce que\" or inversion. At the Advanced level, you should be able to go back and forth effortlessly: decode the oral form when listening, and produce the written form when needed.",
         ],
         examples: [
           { es: "Tu viens ? – Peux pas, j'ai cours.", en: "Are you coming? – Can't, I've got class." },

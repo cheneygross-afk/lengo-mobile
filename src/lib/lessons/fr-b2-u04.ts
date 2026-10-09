@@ -32,7 +32,7 @@ export const FR_B2_U04: Lesson[] = [
         body: [
           "\"Avant que\" takes the subjunctive, so logic suggests \"après que\" would too. It doesn't. \"Après que\" introduces something that has already happened (or will have happened), which is a fact, so standard French uses the indicative: \"Il est arrivé après que nous étions partis\", \"On dînera après que les enfants seront couchés.\"",
           "In everyday speech you will very often hear \"après qu'il soit parti\". It is so widespread that some speakers no longer notice it, but it is still considered a mistake in careful writing and exams. Choose the indicative, in a compound tense that shows the action is finished.",
-          "The easiest way out: when the subject is the same, use \"après\" + past infinitive, which you learned at B1: \"Après avoir mangé, on est sortis\", \"Après être rentrée, elle a appelé sa mère.\"",
+          "The easiest way out: when the subject is the same, use \"après\" + past infinitive, which you learned at the Intermediate level: \"Après avoir mangé, on est sortis\", \"Après être rentrée, elle a appelé sa mère.\"",
         ],
         examples: [
           { es: "Il est arrivé après que nous étions partis.", en: "He arrived after we had left." },
@@ -1693,7 +1693,7 @@ export const FR_B2_U04: Lesson[] = [
     level: "FR-B2",
     number: 9,
     title: "Upper-Intermediate Vocabulary Practice, Part 1 of 10",
-    summary: "Test the B2 core vocabulary from Units 1-4 (housing, ads, planning, skills), with gender and false-friend checks.",
+    summary: "Test the Upper-intermediate core vocabulary from Units 1-4 (housing, ads, planning, skills), with gender and false-friend checks.",
     duration: "15 min",
     sections: [
       {

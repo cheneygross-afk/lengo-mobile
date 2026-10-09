@@ -106,7 +106,7 @@ export const FR_B2_U25: Lesson[] = [
       {
         heading: "Imagining the future: si les robots remplaçaient..., au cas où...",
         body: [
-          "Speculating about technology is the perfect place for B2 hypotheses. An imagined present or future takes \"si\" + imparfait, then the conditionnel: \"si les robots remplaçaient les médecins, je n'aurais plus confiance\". For a real possibility keep \"si\" + présent and a future: \"si l'IA continue à progresser, beaucoup de métiers vont disparaître\".",
+          "Speculating about technology is the perfect place for Upper-intermediate hypotheses. An imagined present or future takes \"si\" + imparfait, then the conditionnel: \"si les robots remplaçaient les médecins, je n'aurais plus confiance\". For a real possibility keep \"si\" + présent and a future: \"si l'IA continue à progresser, beaucoup de métiers vont disparaître\".",
           "\"Au cas où\" (in case) is the odd one out: it takes the conditionnel, not the subjunctive and not the indicative: \"garde une copie au cas où le serveur tomberait en panne\". Do not confuse it with \"à condition que\" (provided that) and \"à moins que\" (unless), which both take the subjunctive: \"l'IA peut aider les médecins, à condition qu'elle soit contrôlée\".",
           "For a past hypothesis, use \"si\" + plus-que-parfait and the conditionnel passé: \"si on avait réglementé les réseaux sociaux plus tôt, on aurait évité beaucoup de dégâts\". Weighing up the future also calls for nuance: \"il se peut que\" + subjunctive (it may be that), \"il est probable que\" + indicative.",
         ],
@@ -519,7 +519,7 @@ export const FR_B2_U25: Lesson[] = [
         heading: "Après coup: regrets and the argument",
         body: [
           "Sophie refuses. The young man leaves angrily, and the next morning she learns the prescription was genuine: he had been discharged from hospital after an operation. Regret takes the conditionnel passé: \"j'aurais dû appeler l'hôpital\" (I should have called), \"j'aurais pu lui donner une dose pour la nuit\" (I could have), \"il aurait fallu que je sois plus calme\".",
-          "Is she to blame? An argued answer uses the connectors of B2: \"certes, elle s'est trompée ; toutefois, elle a respecté la loi\". \"D'une part... d'autre part\" lays out two sides, \"en revanche\" contrasts two different things, and \"pourtant\" marks a surprise against expectations.",
+          "Is she to blame? An argued answer uses the connectors of the Upper-intermediate level: \"certes, elle s'est trompée ; toutefois, elle a respecté la loi\". \"D'une part... d'autre part\" lays out two sides, \"en revanche\" contrasts two different things, and \"pourtant\" marks a surprise against expectations.",
           "Concession with \"bien que\" + subjunctive (\"bien qu'elle ait agi de bonne foi\") is the formal equivalent of \"même si\" + indicative (\"même si elle a agi de bonne foi\").",
         ],
         examples: [
@@ -1070,7 +1070,7 @@ export const FR_B2_U25: Lesson[] = [
     level: "FR-B2",
     number: 6,
     title: "Spiral Review: Translation Relay",
-    summary: "Translate in both directions, one B2 structure after another: the subjunctive, conditions and regrets, reported speech and participles, relatives and emphasis.",
+    summary: "Translate in both directions, one Upper-intermediate structure after another: the subjunctive, conditions and regrets, reported speech and participles, relatives and emphasis.",
     duration: "15 min",
     sections: [
       {
@@ -1986,7 +1986,7 @@ export const FR_B2_U25: Lesson[] = [
       {
         heading: "La réponse: à votre place...",
         body: [
-          "The agony aunt, Hélène, answers with \"vous\" (a magazine addresses its readers formally). Her advice uses the full B2 range: \"je vous conseille de\" + infinitive, \"vous pourriez\" + infinitive, \"à votre place, je\" + conditionnel, \"il faudrait que vous\" + subjunctive, \"il vaudrait mieux que vous\" + subjunctive.",
+          "The agony aunt, Hélène, answers with \"vous\" (a magazine addresses its readers formally). Her advice uses the full Upper-intermediate range: \"je vous conseille de\" + infinitive, \"vous pourriez\" + infinitive, \"à votre place, je\" + conditionnel, \"il faudrait que vous\" + subjunctive, \"il vaudrait mieux que vous\" + subjunctive.",
           "She also imagines alternatives: \"si vous lui proposiez un déjeuner en tête-à-tête, elle accepterait peut-être\" (si + imparfait → conditionnel), and avoids reproaches: \"vous auriez pu...\" would sound harsh; \"il aurait peut-être fallu...\" is gentler.",
           "Write \"conseiller à quelqu'un de faire quelque chose\": the person takes \"à\" (indirect pronoun \"vous\", \"lui\"), the action takes \"de\". \"Je lui ai conseillé de patienter.\"",
         ],

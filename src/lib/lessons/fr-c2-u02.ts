@@ -319,7 +319,7 @@ export const FR_C2_U02: Lesson[] = [
         body: [
           "Legal French has its own deadline vocabulary. \"Sous huitaine\" means within eight days, \"sous quinzaine\" within fifteen days: \"sous\" here means within, not under, and \"huitaine\" is a set of about eight days (as \"une quinzaine\" is a fortnight). \"Dans un délai de deux mois à compter de la réception\" sets the start precisely. \"Au plus tard le\" fixes an end date. \"Passé ce délai\" means once this period has expired.",
           "Consequences follow a small set of connectors. \"Faute de quoi\" and \"à défaut\" (failing which) start a new clause after the demand: \"Je vous demande de régler cette somme sous huitaine, faute de quoi je saisirai le tribunal.\" \"Sous peine de\" + noun or infinitive attaches the penalty directly: \"sous peine de poursuites\", \"sous peine d'être exclu\". \"À moins que\" takes the subjunctive (often with ne explétif), \"sauf si\" the indicative.",
-          "The absolute participle clause, met at C1, is the hallmark of notices: it states a completed fact as the ground for what follows. \"Le délai étant expiré, nous procéderons au recouvrement forcé.\" \"La présente ayant été notifiée le 4 mars, le délai court jusqu'au 4 mai.\" Even shorter, without \"étant\": \"Le délai expiré, aucune réclamation ne sera admise.\" The participle agrees with its own subject.",
+          "The absolute participle clause, met at the Advanced level, is the hallmark of notices: it states a completed fact as the ground for what follows. \"Le délai étant expiré, nous procéderons au recouvrement forcé.\" \"La présente ayant été notifiée le 4 mars, le délai court jusqu'au 4 mai.\" Even shorter, without \"étant\": \"Le délai expiré, aucune réclamation ne sera admise.\" The participle agrees with its own subject.",
         ],
         examples: [
           { es: "Je vous prie de me faire parvenir ce document sous huitaine.", en: "Please send me this document within eight days." },
@@ -1595,14 +1595,14 @@ export const FR_C2_U02: Lesson[] = [
     slug: "c2-vocab-precise-verbs-faire",
     level: "FR-C2",
     number: 8,
-    title: "C2 Vocabulary: Precise Verbs Instead of Faire",
+    title: "Mastery Vocabulary: Precise Verbs Instead of Faire",
     summary: "Faire says everything and therefore nothing: effectuer, procéder à, opérer, accomplir, mener, dresser, établir, pratiquer, commettre, perpétrer, infliger; and why réaliser does not mean to realise.",
     duration: "17 min",
     sections: [
       {
         heading: "Effectuer, procéder à, opérer: carrying out an operation",
         body: [
-          "\"Faire\" is the first verb every learner masters and the one a C2 writer uses least in formal texts. Each noun has a verb that fits it better, and choosing it shows command of the language. For operations and transactions, administrative and business French reaches for \"effectuer\": \"effectuer un virement\" (make a transfer), \"effectuer un paiement\", \"effectuer une réservation\", \"effectuer des travaux\". It is neutral, precise and a little formal.",
+          "\"Faire\" is the first verb every learner masters and the one a Mastery writer uses least in formal texts. Each noun has a verb that fits it better, and choosing it shows command of the language. For operations and transactions, administrative and business French reaches for \"effectuer\": \"effectuer un virement\" (make a transfer), \"effectuer un paiement\", \"effectuer une réservation\", \"effectuer des travaux\". It is neutral, precise and a little formal.",
           "\"Procéder à\" + noun is even more official: it announces a formal step by an authority. \"La police a procédé à trois interpellations\", \"il sera procédé au tirage au sort\", \"nous allons procéder à la vérification de vos documents\". Note that it takes \"à\", and that the impersonal passive \"il a été procédé à\" is very common in reports. \"Opérer\" is used for choices, changes and transformations (\"opérer un choix\", \"opérer un revirement\", \"opérer une sélection\"), and of course for surgeons (\"opérer un patient\").",
           "Do not overdo it: \"effectuer une promenade\" sounds absurd. These verbs belong to transactions, procedures and reports. In conversation, \"faire un virement\" is perfectly natural.",
         ],
@@ -2272,16 +2272,16 @@ export const FR_C2_U02: Lesson[] = [
     slug: "c2-spiral-legal-grammar",
     level: "FR-C2",
     number: 11,
-    title: "Spiral Review: Legal Style with C1 Grammar",
-    summary: "Legal style packs in C1 structures: absolute participles, the present and perfect participle, impersonal passives, nominalisation, the subjunctive after à condition que and à moins que, and the deontic future.",
+    title: "Spiral Review: Legal Style with Advanced Grammar",
+    summary: "Legal style packs in Advanced structures: absolute participles, the present and perfect participle, impersonal passives, nominalisation, the subjunctive after à condition que and à moins que, and the deontic future.",
     duration: "18 min",
     sections: [
       {
         heading: "Participles that carry the reasoning",
         body: [
-          "At C1 you learnt the perfect participle (\"ayant signé\", \"étant parti\") and the absolute participle clause. Legal French uses them constantly because they compress a whole \"comme\" or \"après que\" clause into a few words, leaving the main clause for the decision. \"Le bail étant résilié, le preneur devra libérer les lieux.\" \"Le locataire ayant quitté les lieux sans préavis, le bailleur conserve le dépôt de garantie.\"",
+          "At the Advanced level you learnt the perfect participle (\"ayant signé\", \"étant parti\") and the absolute participle clause. Legal French uses them constantly because they compress a whole \"comme\" or \"après que\" clause into a few words, leaving the main clause for the decision. \"Le bail étant résilié, le preneur devra libérer les lieux.\" \"Le locataire ayant quitté les lieux sans préavis, le bailleur conserve le dépôt de garantie.\"",
           "Two rules to keep. First, the absolute participle has its own subject, different from the main clause's subject: \"Le délai expiré, la demande est irrecevable\" (the deadline ≠ the request). If the subjects are the same, use a plain participle phrase: \"Ayant reçu la mise en demeure, le débiteur a payé.\" Second, the participle agrees with its own subject: \"la somme ayant été versée\", \"les clés une fois remises\".",
-          "The present participle (\"-ant\") is also frequent as a reduced relative: \"toute personne souhaitant consulter le dossier\" (any person wishing to...), \"les sommes restant dues\" (the sums still owing). It is invariable, unlike the verbal adjective you met at C1 (\"les sommes restantes\" is also correct, as an adjective).",
+          "The present participle (\"-ant\") is also frequent as a reduced relative: \"toute personne souhaitant consulter le dossier\" (any person wishing to...), \"les sommes restant dues\" (the sums still owing). It is invariable, unlike the verbal adjective you met at the Advanced level (\"les sommes restantes\" is also correct, as an adjective).",
         ],
         examples: [
           { es: "Le bail étant résilié, le preneur devra libérer les lieux sous huitaine.", en: "The lease having been terminated, the tenant must vacate the premises within eight days." },
@@ -2318,8 +2318,8 @@ export const FR_C2_U02: Lesson[] = [
       {
         heading: "Impersonal passives and nominal style",
         body: [
-          "The impersonal passive (C1 Unit 5) removes the agent and puts the action first: \"il a été procédé à la vérification\", \"il a été constaté que\", \"il est rappelé que\", \"il sera statué sur la demande\". In legal letters it lets the author state facts and decisions without saying \"I\" or \"we\": \"Il a été constaté, lors de l'état des lieux de sortie, que la moquette était tachée.\"",
-          "Nominalisation (C1 Unit 3) does the same for verbs: \"après vérification\", \"dès réception\", \"sous réserve d'acceptation\", \"en cas de non-paiement\", \"à défaut de restitution\". Combining both gives the typical density of an administrative sentence: \"Après examen de votre dossier, il a été décidé de procéder au remboursement des sommes indûment perçues.\" (After examining your file, it has been decided to refund the sums wrongly received.)",
+          "The impersonal passive (Advanced Unit 5) removes the agent and puts the action first: \"il a été procédé à la vérification\", \"il a été constaté que\", \"il est rappelé que\", \"il sera statué sur la demande\". In legal letters it lets the author state facts and decisions without saying \"I\" or \"we\": \"Il a été constaté, lors de l'état des lieux de sortie, que la moquette était tachée.\"",
+          "Nominalisation (Advanced Unit 3) does the same for verbs: \"après vérification\", \"dès réception\", \"sous réserve d'acceptation\", \"en cas de non-paiement\", \"à défaut de restitution\". Combining both gives the typical density of an administrative sentence: \"Après examen de votre dossier, il a été décidé de procéder au remboursement des sommes indûment perçues.\" (After examining your file, it has been decided to refund the sums wrongly received.)",
           "To read such sentences, unpack them: who examined (the administration), who decided (the administration), who receives the refund (you). To write them, compress: find the verb, make it a noun, find the agent, make it disappear. Keep a human version ready for when you need to explain it to someone else.",
         ],
         examples: [
@@ -2366,7 +2366,7 @@ export const FR_C2_U02: Lesson[] = [
       {
         heading: "Conditions with the subjunctive, obligations in the future",
         body: [
-          "Conditions in legal style use conjunctions you know from C1: \"à condition que\", \"pour autant que\", \"sous réserve que\", \"pourvu que\" + subjunctive; \"à moins que\" + subjunctive (often with ne explétif); \"sauf si\" and \"si\" + indicative. \"Le preneur pourra sous-louer, à condition que le bailleur y consente par écrit.\" \"La vente sera conclue, à moins que l'acquéreur n'exerce son droit de rétractation.\"",
+          "Conditions in legal style use conjunctions you know from the Advanced level: \"à condition que\", \"pour autant que\", \"sous réserve que\", \"pourvu que\" + subjunctive; \"à moins que\" + subjunctive (often with ne explétif); \"sauf si\" and \"si\" + indicative. \"Le preneur pourra sous-louer, à condition que le bailleur y consente par écrit.\" \"La vente sera conclue, à moins que l'acquéreur n'exerce son droit de rétractation.\"",
           "When the subject is the same in both clauses, prefer the infinitive: \"à condition de\", \"à moins de\", \"sous réserve de\": \"Le preneur pourra résilier le bail à condition de respecter un préavis de trois mois.\"",
           "Obligations are in the deontic future or present: \"le preneur devra\", \"le loyer sera payable\", \"le vendeur s'engage à\". The combination is the backbone of any clause: obligation + condition + consequence. \"Le preneur devra restituer les clés au plus tard le jour de son départ, faute de quoi il sera redevable d'une indemnité d'occupation, à moins qu'un accord écrit n'ait été conclu avec le bailleur.\"",
         ],
@@ -2509,7 +2509,7 @@ export const FR_C2_U02: Lesson[] = [
     slug: "c2-vocab-precise-verbs-dire",
     level: "FR-C2",
     number: 12,
-    title: "C2 Vocabulary: Precise Verbs Instead of Dire",
+    title: "Mastery Vocabulary: Precise Verbs Instead of Dire",
     summary: "Verbs of saying that also tell how and why: affirmer, prétendre, alléguer, arguer, invoquer, objecter, rétorquer, répliquer, souligner, faire valoir, insinuer, marmonner, lâcher, asséner.",
     duration: "17 min",
     sections: [
@@ -2552,7 +2552,7 @@ export const FR_C2_U02: Lesson[] = [
         body: [
           "In a discussion, \"objecter\" introduces a counter-argument (\"On m'objectera que le coût est élevé\": people will object that...). \"Répliquer\" is to reply, often quickly or firmly; \"rétorquer\" is to retort, to turn the argument back against the speaker, with more edge. \"Riposter\" is sharper still: to hit back. All three are perfect in narrative and in reports of debates: \"« C'est faux », a rétorqué la ministre.\"",
           "\"Souligner\" (to underline, stress) and \"insister sur\" give weight: \"Le rapport souligne que les délais n'ont pas été tenus.\" \"Rappeler\" reminds what is already known: \"Elle a rappelé que la loi interdit ce type de clause.\" \"Faire valoir\" is the essential legal-and-business verb: to put forward an argument or assert a right: \"faire valoir ses droits\", \"Son avocat a fait valoir que le contrat était nul.\"",
-          "As you saw at C1, in a quotation these verbs come after the quote, with inversion: \"« Je n'ai rien à ajouter », a-t-il répliqué.\" \"« Encore faudrait-il le prouver », rétorqua l'avocate.\" The choice of verb carries the narrator's interpretation, so in a neutral report use \"a déclaré\", \"a indiqué\" or \"a précisé\".",
+          "As you saw at the Advanced level, in a quotation these verbs come after the quote, with inversion: \"« Je n'ai rien à ajouter », a-t-il répliqué.\" \"« Encore faudrait-il le prouver », rétorqua l'avocate.\" The choice of verb carries the narrator's interpretation, so in a neutral report use \"a déclaré\", \"a indiqué\" or \"a précisé\".",
         ],
         examples: [
           { es: "On m'objectera que cette solution coûte cher.", en: "It will be objected that this solution is expensive." },
@@ -2806,7 +2806,7 @@ export const FR_C2_U02: Lesson[] = [
         body: [
           "\"Donner une réponse\" → \"apporter une réponse\" (\"apporter une solution, des précisions, une modification\"). \"Donner des documents, des informations\" → \"fournir\" (\"fournir les pièces justificatives\"). \"Donner une autorisation, un délai\" → \"accorder\". \"Donner son avis\" → \"émettre un avis\" (\"la commission a émis un avis favorable\"). \"Dire son accord\" → \"donner son accord\" is fine, but \"exprimer\" or \"manifester son accord / son désaccord\" is more formal. \"Dire une demande\" (wrong) → \"formuler une demande\".",
           "Now see them in context. A first draft of a report: \"Le comité a fait une erreur en mettant en place ce système sans avoir l'accord des salariés. Les syndicats ont dit leur désaccord et ont donné une autre proposition. La direction doit maintenant donner une réponse et mettre plus de moyens.\" The revised version: \"Le comité a commis une erreur en instaurant ce dispositif sans avoir recueilli l'accord des salariés. Les syndicats ont exprimé leur désaccord et formulé une contre-proposition. Il appartient désormais à la direction d'apporter une réponse et de déployer des moyens supplémentaires.\"",
-          "The revised text is not longer, but every verb now carries meaning: \"commettre\" (a fault), \"instaurer\" (a system), \"recueillir\" (gather consent), \"exprimer\" (an attitude), \"formuler\" (a proposal), \"apporter\" (an answer), \"déployer\" (resources). This is the single fastest way to make your writing sound C2.",
+          "The revised text is not longer, but every verb now carries meaning: \"commettre\" (a fault), \"instaurer\" (a system), \"recueillir\" (gather consent), \"exprimer\" (an attitude), \"formuler\" (a proposal), \"apporter\" (an answer), \"déployer\" (resources). This is the single fastest way to make your writing sound Mastery.",
         ],
         examples: [
           { es: "Le ministère n'a pas encore apporté de réponse.", en: "The ministry has not yet provided an answer." },

@@ -1493,7 +1493,7 @@ export const FR_C2_U30: Lesson[] = [
     slug: "c2-vocab-headline-words",
     level: "FR-C2",
     number: 8,
-    title: "C2 Vocabulary: The Language of Headlines",
+    title: "Mastery Vocabulary: The Language of Headlines",
     summary: "Camouflet, revers, bras de fer, coup de semonce, levée de boucliers, tollé, bérézina: the expressive nouns French headlines use to sum up a story in one word.",
     duration: "17 min",
     sections: [
@@ -1579,7 +1579,7 @@ export const FR_C2_U30: Lesson[] = [
         body: [
           "Not all headline nouns are dramatic. \"Un coup de pouce\" (a thumb push) is a helping hand, a boost: \"coup de pouce pour les petites retraites\". \"Un clin d'œil\" (a wink) is a nod, an allusion or tribute: \"le film multiplie les clins d'œil à Truffaut\". \"Un coup de projecteur sur\" (a spotlight on) brings attention to something neglected.",
           "\"Un coup de gueule\" is an angry outburst, a rant (familiar but common in the press): \"le coup de gueule d'un chef étoilé contre les plateformes de livraison\". \"Un coup de cœur\" is a favourite, a pick: \"notre coup de cœur de la semaine\".",
-          "Headline grammar: no verb, or a past participle, or the present; nouns stacked with \"de\"; a colon separating the theme and the news: \"Retraites : coup de pouce pour les petites pensions\". Being able to expand a headline into a full sentence is a key C2 reading skill: \"Le gouvernement accorde un coup de pouce aux petites pensions de retraite.\"",
+          "Headline grammar: no verb, or a past participle, or the present; nouns stacked with \"de\"; a colon separating the theme and the news: \"Retraites : coup de pouce pour les petites pensions\". Being able to expand a headline into a full sentence is a key Mastery reading skill: \"Le gouvernement accorde un coup de pouce aux petites pensions de retraite.\"",
         ],
         examples: [
           { es: "Retraites : coup de pouce pour les petites pensions.", en: "Pensions: a boost for the smallest pensions." },

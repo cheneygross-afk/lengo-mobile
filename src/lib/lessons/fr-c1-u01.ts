@@ -30,7 +30,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         heading: "Superlatives: a judgement, not a measurement",
         body: [
-          "At B2 you met the subjunctive in relative clauses after \"je cherche quelqu'un qui sache\". C1 French adds a second family of relatives that take it: those that follow a superlative. \"C'est le meilleur film que j'aie vu cette année.\" \"C'est la ville la plus agréable que je connaisse.\" \"C'est le pire hiver qu'on ait eu depuis longtemps.\"",
+          "At the Upper-intermediate level you met the subjunctive in relative clauses after \"je cherche quelqu'un qui sache\". Advanced French adds a second family of relatives that take it: those that follow a superlative. \"C'est le meilleur film que j'aie vu cette année.\" \"C'est la ville la plus agréable que je connaisse.\" \"C'est le pire hiver qu'on ait eu depuis longtemps.\"",
           "Why the subjunctive, when the film is real and you really saw it? Because a superlative is a claim about a whole set: of all the films I may have seen, this one beats them all. The speaker is evaluating, and the relative clause sits inside that evaluation; it is not a neutral fact being reported. The subjunctive is the grammar of 'as far as I can judge'.",
           "English gives you no signal at all ('the best film I've seen'), so English speakers write \"le meilleur film que j'ai vu\" without a second thought. In conversation many French people do the same, and nobody will stop you. But in writing, in a presentation, in a review or a cover letter, the subjunctive is what an educated reader expects, and the indicative looks careless. Notice also the tense: the past subjunctive \"que j'aie vu\", \"qu'on ait eu\", because the experience is already behind you.",
         ],
@@ -67,7 +67,7 @@ export const FR_C1_U01: Lesson[] = [
         body: [
           "The same logic covers words that work like superlatives because they single out one item from a set: \"le seul\", \"l'unique\", \"le premier\", \"le dernier\", \"le principal\". \"C'est la seule personne qui puisse m'aider.\" \"Tu es le premier qui m'en parle.\" \"C'est le dernier train qui aille jusqu'à Nantes ce soir.\"",
           "Negative antecedents are the other big trigger. When the main clause denies that anything or anyone fits the description, the relative clause describes something that does not exist, so it takes the subjunctive: \"Il n'y a personne qui sache réparer ça.\" \"Je ne vois rien qui puisse justifier un tel retard.\" \"Il n'existe aucune solution qui satisfasse tout le monde.\" Questions that expect 'no' work the same way: \"Y a-t-il quelqu'un qui connaisse le code ?\"",
-          "Keep the forms straight. The most frequent C1 verbs here are irregular: \"sache\" (savoir), \"puisse\" (pouvoir), \"fasse\" (faire), \"aille\" (aller), \"vaille\" (valoir), \"satisfasse\" (satisfaire). A reliable reflex: if you hear yourself saying 'the only... who can', reach for \"le seul... qui puisse\".",
+          "Keep the forms straight. The most frequent Advanced verbs here are irregular: \"sache\" (savoir), \"puisse\" (pouvoir), \"fasse\" (faire), \"aille\" (aller), \"vaille\" (valoir), \"satisfasse\" (satisfaire). A reliable reflex: if you hear yourself saying 'the only... who can', reach for \"le seul... qui puisse\".",
         ],
         examples: [
           { es: "C'est la seule personne qui puisse m'aider.", en: "She's the only person who can help me." },
@@ -1015,7 +1015,7 @@ export const FR_C1_U01: Lesson[] = [
         heading: "Dire que: stating vs ordering",
         body: [
           "\"Dire que\" + indicative reports a statement: \"Il dit qu'on vient demain\" (he says we're coming tomorrow). \"Dire que\" + subjunctive reports an order: \"Il dit qu'on vienne demain\" (he says we should come tomorrow / he's telling us to come). The same contrast exists with \"écrire que\", \"crier que\", \"téléphoner que\" and \"répéter que\".",
-          "In speech this is a precious resource: a mother shouting \"Dis à ton frère qu'il vienne manger !\" gives an order through you; \"Dis à ton frère que le dîner est prêt\" passes on information. In reported speech you met \"dire de + infinitive\" for orders at B2 (\"il m'a dit de venir\"); \"dire que\" + subjunctive is used when the person ordered isn't the indirect object (\"il a dit que tout le monde soit là à huit heures\").",
+          "In speech this is a precious resource: a mother shouting \"Dis à ton frère qu'il vienne manger !\" gives an order through you; \"Dis à ton frère que le dîner est prêt\" passes on information. In reported speech you met \"dire de + infinitive\" for orders at the Upper-intermediate level (\"il m'a dit de venir\"); \"dire que\" + subjunctive is used when the person ordered isn't the indirect object (\"il a dit que tout le monde soit là à huit heures\").",
           "A frequent written trap: \"Le règlement dit que les visiteurs doivent...\" is perfectly fine (indicative of devoir). The subjunctive version \"le règlement dit que les visiteurs portent un badge\" is ambiguous in writing because \"portent\" is both indicative and subjunctive; that's when an irregular verb (\"soient\", \"fassent\", \"aient\") or \"devoir\" makes the meaning clear.",
         ],
         examples: [
@@ -1139,7 +1139,7 @@ export const FR_C1_U01: Lesson[] = [
         source: "Tell the children to come down for dinner. (to your partner)",
         answer: "Dis aux enfants qu'ils descendent dîner.",
         altAnswers: ["Dis aux enfants de descendre dîner.", "Dis aux enfants de descendre pour le dîner.", "Dis aux enfants qu'ils descendent pour le dîner.", "Dis aux enfants qu'ils viennent dîner.", "Dis aux enfants de venir dîner."],
-        explanation: "An order passed on: \"dire que\" + subjunctive, or the B2 pattern \"dire à quelqu'un de\" + infinitive.",
+        explanation: "An order passed on: \"dire que\" + subjunctive, or the Upper-intermediate pattern \"dire à quelqu'un de\" + infinitive.",
       },
       {
         type: "translate",
@@ -1203,7 +1203,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         heading: "A ne that isn't a negation",
         body: [
-          "You met it at B2 after \"avant que\": \"avant qu'il ne soit trop tard\". This \"ne\" on its own, without \"pas\", is called the ne explétif. It adds no negative meaning at all: \"avant qu'il ne parte\" means before he leaves, exactly like \"avant qu'il parte\". If you translate it as 'not', you reverse the meaning.",
+          "You met it at Upper-intermediate after \"avant que\": \"avant qu'il ne soit trop tard\". This \"ne\" on its own, without \"pas\", is called the ne explétif. It adds no negative meaning at all: \"avant qu'il ne parte\" means before he leaves, exactly like \"avant qu'il parte\". If you translate it as 'not', you reverse the meaning.",
           "Why does it exist? It appears in clauses where the speaker has a negative idea in mind: something feared, something to be avoided, something that hasn't happened yet. Historically the ne reflected that shadow of negation. Today it is a register marker: optional in conversation (most people drop it), expected in formal writing, administrative letters, journalism and speeches.",
           "The main triggers: \"avant que\", \"à moins que\" (unless), \"de peur que\" / \"de crainte que\" (for fear that), verbs of fearing (\"craindre que\", \"avoir peur que\", \"redouter que\"), \"éviter que\" and \"empêcher que\". Never after \"sans que\" in careful usage: \"sans que personne le sache\", since the clause is already negative in meaning.",
         ],
@@ -1771,7 +1771,7 @@ export const FR_C1_U01: Lesson[] = [
         source: "I don't think we need to postpone the meeting.",
         answer: "Je ne pense pas qu'il faille reporter la réunion.",
         altAnswers: ["Je ne crois pas qu'il faille reporter la réunion.", "Je ne pense pas que nous devions reporter la réunion.", "Je ne pense pas qu'on doive reporter la réunion.", "Je ne crois pas que nous devions reporter la réunion."],
-        explanation: "\"Il faut\" in the subjunctive is \"il faille\": a C1 favourite after a negated opinion verb.",
+        explanation: "\"Il faut\" in the subjunctive is \"il faille\": an Advanced favourite after a negated opinion verb.",
       },
       {
         type: "translate",
@@ -2172,7 +2172,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         heading: "Living survivals: fût-ce, ne serait-ce que, qui l'eût cru",
         body: [
-          "A handful of these forms are fully alive in modern educated French, and using them at the right moment is a mark of C1 elegance. \"Fût-ce\" means even if only, even: \"Il refuse de se déplacer, fût-ce pour une heure\" (he refuses to travel, even for an hour). Its modern equivalent is \"ne serait-ce que\", which you'll hear constantly: \"Appelle-la, ne serait-ce que pour lui dire bonjour\" (call her, if only to say hello). \"Ne fût-ce qu'un instant\" = even for just a moment.",
+          "A handful of these forms are fully alive in modern educated French, and using them at the right moment is a mark of Advanced elegance. \"Fût-ce\" means even if only, even: \"Il refuse de se déplacer, fût-ce pour une heure\" (he refuses to travel, even for an hour). Its modern equivalent is \"ne serait-ce que\", which you'll hear constantly: \"Appelle-la, ne serait-ce que pour lui dire bonjour\" (call her, if only to say hello). \"Ne fût-ce qu'un instant\" = even for just a moment.",
           "\"Qui l'eût cru ?\" (who would have thought it?) is a fixed exclamation, used humorously or in headlines. \"On eût dit\" (it was as if) is a literary alternative to \"on aurait dit\".",
           "Finally, \"soit... soit\" (either... or) is a subjunctive of être frozen into a conjunction: \"Soit tu viens avec nous, soit tu restes ici.\" And \"soit\" alone means 'that is to say' in calculations (\"trois heures, soit cent quatre-vingts minutes\") or 'very well' in a concession, pronounced with the t: \"Soit ! Faisons comme vous voulez.\"",
         ],
@@ -2541,14 +2541,14 @@ export const FR_C1_U01: Lesson[] = [
     slug: "c1-spiral-subjunctive-b2-c1",
     level: "FR-C1",
     number: 12,
-    title: "Spiral Review: The Subjunctive from B2 to C1",
-    summary: "Mix the B2 subjunctive (conjunctions, relative clauses, past subjunctive) with this unit's superlatives, que-fronting, ne explétif and universal formulas in real-life messages.",
+    title: "Spiral Review: The Subjunctive from Upper-intermediate to Advanced",
+    summary: "Mix the Upper-intermediate subjunctive (conjunctions, relative clauses, past subjunctive) with this unit's superlatives, que-fronting, ne explétif and universal formulas in real-life messages.",
     duration: "18 min",
     sections: [
       {
         heading: "Messages between friends",
         body: [
-          "No new grammar here: just the full subjunctive toolkit in everyday messages. From B2 you have the conjunctions (\"pour que\", \"avant que\", \"à condition que\", \"bien que\", \"sans que\"), relative clauses describing something wanted (\"je cherche un appart qui soit...\"), and the past subjunctive. From this unit: superlatives and \"le seul\", que-fronting, verbs that change meaning, the ne explétif and the universal formulas.",
+          "No new grammar here: just the full subjunctive toolkit in everyday messages. From the Upper-intermediate level you have the conjunctions (\"pour que\", \"avant que\", \"à condition que\", \"bien que\", \"sans que\"), relative clauses describing something wanted (\"je cherche un appart qui soit...\"), and the past subjunctive. From this unit: superlatives and \"le seul\", que-fronting, verbs that change meaning, the ne explétif and the universal formulas.",
           "A text from Camille to Hugo: \"Je t'envoie l'adresse pour que tu ne te perdes pas. C'est le meilleur resto que je connaisse dans le quartier ! Viens avant que ce soit plein, à moins que tu préfères qu'on se retrouve directement au cinéma. Quoi que tu choisisses, dis-le-moi avant 19 h.\"",
           "Every subjunctive there has a different reason: purpose, superlative, a time conjunction, a condition, preference, a universal formula. In informal texts the ne explétif is dropped (\"avant que ce soit plein\"); that's normal.",
         ],
@@ -2586,7 +2586,7 @@ export const FR_C1_U01: Lesson[] = [
         body: [
           "Now a message from a manager, Mme Lefèvre, to her team: \"Bonjour à tous, je souhaite que chacun ait relu le dossier avant jeudi. Qu'il y ait encore des désaccords, c'est normal ; je ne pense pas pour autant qu'il faille reporter la décision. Je cherche un volontaire qui puisse présenter la synthèse. Merci de me répondre avant que je ne parte en déplacement mercredi.\"",
           "Here: \"je souhaite que\" + past subjunctive (\"ait relu\": finished by Thursday); que-fronting (\"Qu'il y ait\"); a negated opinion (\"je ne pense pas qu'il faille\"); a wanted person (\"un volontaire qui puisse\"); \"avant que\" with the formal ne explétif. Note how the register differs from Camille's text: the ne explétif appears, \"resto\" becomes \"restaurant\", \"on\" becomes \"nous\".",
-          "Remember the same-subject rule from B2: \"avant que je ne parte\" is fine because the subjects differ (you reply, I leave). With the same subject, use the infinitive: \"avant de partir\".",
+          "Remember the same-subject rule from the Upper-intermediate level: \"avant que je ne parte\" is fine because the subjects differ (you reply, I leave). With the same subject, use the infinitive: \"avant de partir\".",
         ],
         examples: [
           { es: "Je souhaite que chacun ait relu le dossier avant jeudi.", en: "I'd like everyone to have reread the file by Thursday." },

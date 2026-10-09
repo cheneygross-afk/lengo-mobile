@@ -18,7 +18,9 @@ export const A1_READINGS: Reading[] = [
     amazonUrl: amazonSearchUrl("El Principito", "Antoine de Saint-Exupéry"),
   },
   {
-    title: "Cuentos para estudiantes de español. Nivel A1. Principiantes",
+    // The book's full title has the level code in it ("Nivel A1"); the
+    // Amazon search below keeps it so the search still finds the book.
+    title: "Cuentos para estudiantes de español: Principiantes",
     author: "J.A. Bravo",
     description:
       "Twenty familiar fairy tales (Cinderella, Little Red Riding Hood, and others) rewritten in true A1 vocabulary, so a plot you already know carries you through Spanish that's brand new to you.",

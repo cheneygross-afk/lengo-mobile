@@ -1,5 +1,6 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/sequencing.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Lesson } from "./types";
+import { LEVEL_EXIT_SLUGS } from "./level-exits";
 import { weaveLessons, type AnchoredLesson } from "./weave";
 import { SKILL_LESSONS, withSkills } from "./skills";
 import { A1_IRREGULARS } from "./a1-irregulars";
@@ -258,16 +259,7 @@ function endWith(lessons: Lesson[], exitSlug: string): void {
   lessons.splice(indexOf(lessons, exitSlug), 0, ...after);
 }
 
-/** Each level's exit test: the last lesson of the level, and of its
- * required path. */
-export const LEVEL_EXIT_SLUGS = {
-  A1: "a1r-exit-ticket",
-  A2: "a2r-exit-ticket",
-  B1: "b1r-exit-ticket",
-  B2: "b2r-exit-ticket",
-  C1: "c1r-challenge-exit-ticket",
-  C2: "c2r-challenge-exit-ticket",
-} as const;
+export { LEVEL_EXIT_SLUGS };
 
 type Level = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
 

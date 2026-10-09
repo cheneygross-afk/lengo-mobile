@@ -1822,14 +1822,14 @@ export const FR_C2_U14: Lesson[] = [
     slug: "c2-vocab-intensifying-collocations",
     level: "FR-C2",
     number: 9,
-    title: "C2 Vocabulary: Intensifying Collocations",
+    title: "Mastery Vocabulary: Intensifying Collocations",
     summary: "The adjective a native pairs with the noun: une erreur grossière, une ignorance crasse, une peur bleue, une colère noire, un échec cuisant, un succès retentissant, un refus catégorique and more.",
     duration: "17 min",
     sections: [
       {
         heading: "Errors, ignorance and failure",
         body: [
-          "A collocation is a pairing that natives make without thinking and learners rarely guess. English says a glaring error, French says \"une erreur grossière\" (gross, blatant); English says abysmal ignorance, French says \"une ignorance crasse\" (crasse literally means grime). Using \"très grande\" or \"énorme\" everywhere is correct but flat; the right collocation is what makes C2 French sound native.",
+          "A collocation is a pairing that natives make without thinking and learners rarely guess. English says a glaring error, French says \"une erreur grossière\" (gross, blatant); English says abysmal ignorance, French says \"une ignorance crasse\" (crasse literally means grime). Using \"très grande\" or \"énorme\" everywhere is correct but flat; the right collocation is what makes Mastery French sound native.",
           "For failure: \"un échec cuisant\" (a stinging failure, from \"cuire\", to burn) and \"une défaite cuisante\"; \"un revers\" (a setback), \"un fiasco total\". For mistakes: \"une faute lourde\" (a serious misconduct, also a legal term in labour law), \"une bévue\" (a blunder), \"une erreur de jugement\".",
           "Some intensifiers are fixed to one noun and never move: \"une ignorance crasse\" but not \"*une erreur crasse\"; \"un échec cuisant\" but not \"*un succès cuisant\". Learn them as blocks, the way you learn a noun with its gender.",
         ],

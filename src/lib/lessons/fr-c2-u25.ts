@@ -57,7 +57,7 @@ export const FR_C2_U25: Lesson[] = [
       {
         heading: "Circumstances and driving forces: à la faveur de, sous l'impulsion de, sous prétexte de",
         body: [
-          "\"À la faveur de\" means by taking advantage of a circumstance: \"à la faveur de la nuit\" (under cover of night), \"à la faveur de la crise\" (helped by the crisis). It is a false friend of \"en faveur de\" (in favour of, for): \"voter en faveur d'une loi\" is to vote for a law. Mixing them is one of the commonest C2 slips.",
+          "\"À la faveur de\" means by taking advantage of a circumstance: \"à la faveur de la nuit\" (under cover of night), \"à la faveur de la crise\" (helped by the crisis). It is a false friend of \"en faveur de\" (in favour of, for): \"voter en faveur d'une loi\" is to vote for a law. Mixing them is one of the commonest Mastery slips.",
           "\"Sous l'impulsion de\" names the person or force that drives a change: \"sous l'impulsion de Jules Ferry, l'école devint gratuite, laïque et obligatoire\". It is more precise than \"grâce à\", which implies a positive judgement, and more neutral than \"à cause de\", which implies a negative one. A historian often prefers it for exactly that neutrality.",
           "\"Sous prétexte de\" + infinitive and \"sous prétexte que\" + indicative present a reason as a pretext: the writer signals doubt about the official motive. \"C'est dans ce contexte que\" is the classic hinge between background and event, and in written French it often triggers inversion of a heavy subject: \"c'est dans ce contexte que fut votée la loi de 1905\".",
         ],
@@ -1881,7 +1881,7 @@ export const FR_C2_U25: Lesson[] = [
         body: [
           "Outside France, other names structure memory. In Québec: \"la Nouvelle-France\" (the French colony until 1763), \"la Conquête\" (the British conquest of 1759-1760, seen from the French Canadian side), \"la Grande Noirceur\" (the Duplessis years), \"la Révolution tranquille\" (the 1960s). In Africa: \"les indépendances\" (often \"les indépendances de 1960\", \"l'année de l'Afrique\"), \"la décolonisation\", and in many countries \"la période coloniale\" vs \"l'époque précoloniale\".",
           "Naming a period is already interpreting it. For decades, French official language spoke of \"les événements d'Algérie\" or \"les opérations de maintien de l'ordre\" rather than of a war; only in 1999 did a law officially adopt the expression \"la guerre d'Algérie\". \"La Conquête\" for French Canadians and the Conquest for English Canadians do not carry the same emotion. \"La Belle Époque\" was beautiful mostly for the bourgeoisie.",
-          "A C2 writer signals this awareness: \"ce que l'on a longtemps appelé pudiquement « les événements »\", \"la période dite de la Grande Noirceur\", \"ce que l'historiographie nomme aujourd'hui...\". \"Dite\" (so-called, known as) and \"pudiquement\" (euphemistically, coyly) are the key words.",
+          "A Mastery writer signals this awareness: \"ce que l'on a longtemps appelé pudiquement « les événements »\", \"la période dite de la Grande Noirceur\", \"ce que l'historiographie nomme aujourd'hui...\". \"Dite\" (so-called, known as) and \"pudiquement\" (euphemistically, coyly) are the key words.",
         ],
         examples: [
           { es: "La Nouvelle-France s'étendait du Saint-Laurent jusqu'à la Louisiane.", en: "New France stretched from the St Lawrence down to Louisiana." },
@@ -2013,7 +2013,7 @@ export const FR_C2_U25: Lesson[] = [
     slug: "c2-history-spiral-review",
     level: "FR-C2",
     number: 10,
-    title: "Spiral Review: Raconter l'Histoire avec Tout le C2",
+    title: "Spiral Review: Raconter l'Histoire avec Toute la Grammaire",
     summary: "Past tenses, the passive, the participe absolu, reported speech and learned connectors combined in one historical narrative: the Dreyfus affair in about 200 words.",
     duration: "20 min",
     sections: [
@@ -2239,7 +2239,7 @@ export const FR_C2_U25: Lesson[] = [
     slug: "c2-vocab-nuanced-emotions",
     level: "FR-C2",
     number: 11,
-    title: "C2 Vocabulary: Nuanced Emotions",
+    title: "Mastery Vocabulary: Nuanced Emotions",
     summary: "Naming emotions precisely: le désarroi, le chagrin, l'accablement, la désolation, le mal du pays, le désenchantement, l'appréhension, l'amertume, le dépit, l'exaltation, le sursaut, la gêne, and the verbs that go with them.",
     duration: "17 min",
     sections: [

@@ -1076,7 +1076,7 @@ export const FR_B1_U19: Lesson[] = [
         body: [
           "English can make a passive from an indirect object: someone gave me a present → I was given a present. French cannot. \"Donner\", \"dire\", \"demander\", \"offrir\", \"promettre\", \"montrer\", \"apprendre\" take the person with \"à\" (an indirect object), and only a direct object can become the subject of a passive.",
           "So: I was given a present = \"On m'a donné un cadeau\" (never *J'ai été donné un cadeau*). I was told that... = \"On m'a dit que...\" (never *J'ai été dit*). We were asked to wait = \"On nous a demandé d'attendre\". She was offered a job = \"On lui a offert un poste\".",
-          "This is one of the most common errors of English speakers at B1. Whenever English says I was / we were + told, given, asked, offered, shown, promised, sent, start the French with \"on\" + me / te / lui / nous / vous / leur.",
+          "This is one of the most common errors of English speakers at the Intermediate level. Whenever English says I was / we were + told, given, asked, offered, shown, promised, sent, start the French with \"on\" + me / te / lui / nous / vous / leur.",
         ],
         examples: [
           { es: "On m'a donné un cadeau pour mon départ.", en: "I was given a present when I left." },

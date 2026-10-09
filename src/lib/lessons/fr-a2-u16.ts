@@ -85,7 +85,7 @@ export const FR_A2_U16: Lesson[] = [
         heading: "Faites, dites, and the trap disez",
         body: [
           "The vous forms are almost always the present without vous: \"parlez\", \"prenez\", \"venez\". Two famous exceptions keep their irregular present: \"faites\" (do, make) and \"dites\" (say, tell). *Disez* and *faisez* don't exist.",
-          "\"Dites-moi\" (tell me) and \"faites attention\" (be careful) are everyday phrases. \"Être\" and \"avoir\" have special imperatives (\"sois\", \"aie\") that you'll practise at B1; for now, \"sois sage\" (be good) is worth knowing as a chunk.",
+          "\"Dites-moi\" (tell me) and \"faites attention\" (be careful) are everyday phrases. \"Être\" and \"avoir\" have special imperatives (\"sois\", \"aie\") that you'll practise at the Intermediate level; for now, \"sois sage\" (be good) is worth knowing as a chunk.",
         ],
         examples: [
           { es: "Faites attention, la marche est haute.", en: "Be careful, the step is high." },
@@ -291,7 +291,7 @@ export const FR_A2_U16: Lesson[] = [
       {
         heading: "Chunks you'll hear daily",
         body: [
-          "Pronominal verbs have their own imperative pattern, which you'll study at B1. For now, learn these as whole phrases: \"assieds-toi\" / \"asseyez-vous\" (sit down), \"dépêche-toi\" / \"dépêchez-vous\" (hurry up), \"calme-toi\" (calm down), \"ne t'inquiète pas\" / \"ne vous inquiétez pas\" (don't worry).",
+          "Pronominal verbs have their own imperative pattern, which you'll study at the Intermediate level. For now, learn these as whole phrases: \"assieds-toi\" / \"asseyez-vous\" (sit down), \"dépêche-toi\" / \"dépêchez-vous\" (hurry up), \"calme-toi\" (calm down), \"ne t'inquiète pas\" / \"ne vous inquiétez pas\" (don't worry).",
           "Notice the shape: in the positive, the pronoun comes after with a hyphen and \"te\" becomes \"toi\"; in the negative, it goes back before the verb.",
         ],
         examples: [

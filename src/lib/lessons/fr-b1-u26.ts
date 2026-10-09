@@ -289,7 +289,7 @@ export const FR_B1_U26: Lesson[] = [
       {
         heading: "Quel parapluie ? Celui qui est noir",
         body: [
-          "Often the next question is which one: \"Quel parapluie ?\", \"Quelle valise ?\", \"Quels livres ?\". \"Quel\" agrees like an adjective. (The pronoun lequel, which one, is for B2.)",
+          "Often the next question is which one: \"Quel parapluie ?\", \"Quelle valise ?\", \"Quels livres ?\". \"Quel\" agrees like an adjective. (The pronoun lequel, which one, is for the Upper-intermediate level.)",
           "Answer with \"celui / celle\" + a relative or + de: \"Celui qui est noir\", \"Celle que j'ai posée sur la chaise\", \"Ceux du haut\". Or with -ci / -là if you can point: \"Celui-là, près de la porte.\"",
         ],
         examples: [
@@ -341,7 +341,7 @@ export const FR_B1_U26: Lesson[] = [
     slug: "b1-vocabulary-practice-9",
     level: "FR-B1",
     number: 5,
-    title: "B1 Vocabulary Practice, Part 9 of 10",
+    title: "Intermediate Vocabulary Practice, Part 9 of 10",
     summary: "Home and belongings: moving in and out, tidying, storage spaces, and lending vs borrowing without mixing them up.",
     duration: "13 min",
     sections: [

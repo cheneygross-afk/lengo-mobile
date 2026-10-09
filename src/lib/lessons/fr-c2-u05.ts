@@ -32,7 +32,7 @@ export const FR_C2_U05: Lesson[] = [
         body: [
           "French has four words where English mostly makes do with proverb and saying, and educated speakers keep them apart. \"Un proverbe\" is anonymous, popular and general: it states a truth or gives advice that applies to everyone (\"l'habit ne fait pas le moine\"). \"Un dicton\" is a popular saying tied to a place, a trade or, very often, the weather and the calendar (\"en avril, ne te découvre pas d'un fil\"). In everyday speech the two overlap, and \"comme dit le dicton\" is common for any saying.",
           "\"Une maxime\" has an author: it is a polished moral observation, typically from the seventeenth-century moralistes. La Rochefoucauld's \"Nous avons tous assez de force pour supporter les maux d'autrui\" is a maxime, not a proverbe. \"Un adage\" is an old principle, often legal or Latin in origin (\"nul n'est censé ignorer la loi\"). Add \"un aphorisme\" (a short, striking statement of a thought) and \"une citation\" (any quotation), and you have the vocabulary of a commentaire de texte.",
-          "Why this matters at C2: in a DALF essay or a discussion, calling a La Fontaine line \"un proverbe\" is acceptable, but calling a La Rochefoucauld line \"un dicton\" sounds odd, a bit like calling Shakespeare a slogan. Choose the word that matches where the sentence comes from.",
+          "Why this matters at the Mastery level: in a DALF essay or a discussion, calling a La Fontaine line \"un proverbe\" is acceptable, but calling a La Rochefoucauld line \"un dicton\" sounds odd, a bit like calling Shakespeare a slogan. Choose the word that matches where the sentence comes from.",
         ],
         examples: [
           { es: "Comme dit le proverbe, l'habit ne fait pas le moine.", en: "As the proverb says, clothes don't make the man." },
@@ -332,7 +332,7 @@ export const FR_C2_U05: Lesson[] = [
       {
         heading: "From proverb to plain French, and back",
         body: [
-          "A proverb is an argument in compressed form. In a C2 essay or a discussion, you often need to unpack it: state the general idea in modern French with a real subject and verb. \"Qui sème le vent récolte la tempête\" becomes \"celui qui provoque un conflit finit par en subir des conséquences bien plus graves\". \"Chat échaudé craint l'eau froide\" becomes \"quand on a vécu une mauvaise expérience, on devient méfiant, même face à ce qui est sans danger\".",
+          "A proverb is an argument in compressed form. In a Mastery essay or a discussion, you often need to unpack it: state the general idea in modern French with a real subject and verb. \"Qui sème le vent récolte la tempête\" becomes \"celui qui provoque un conflit finit par en subir des conséquences bien plus graves\". \"Chat échaudé craint l'eau froide\" becomes \"quand on a vécu une mauvaise expérience, on devient méfiant, même face à ce qui est sans danger\".",
           "The reverse transformation is just as useful: someone describes a situation at length, and you sum it up with the proverb. This is exactly how natives use them in conversation: as a punchline that names the pattern. \"Le stagiaire a annoncé sa démission par mail à toute l'entreprise, et maintenant plus personne ne veut l'embaucher.\" \"Eh oui, qui sème le vent...\"",
           "When you paraphrase, keep the generic value: use \"on\", \"celui qui\", \"quiconque\", \"quand on\", and the present. When you quote, keep the proverb untouched. Mixing the two (*\"celui qui sème le vent récolte la tempête\") is neither a clean quotation nor a natural paraphrase.",
         ],
@@ -546,7 +546,7 @@ export const FR_C2_U05: Lesson[] = [
         body: [
           "Proverbs also preserve the older negation with \"ne\" alone, especially after \"il n'est\" (= \"il n'y a\"): \"il n'est pire sourd que celui qui ne veut pas entendre\" (there is none so deaf as he who will not hear), \"il n'est pire eau que l'eau qui dort\" (still waters run deep, with a note of danger). \"Il n'est\" + noun + \"que\" is the classical way of saying there is nothing more... than.",
           "Inversion and displaced word order give other proverbs their solemn ring. \"A beau mentir qui vient de loin\" puts the verb first and the subject (\"qui vient de loin\") last: someone who comes from far away can lie easily, since no one can check. \"À bon entendeur, salut !\" (verbless, inverted: a word to the wise) is used as a warning at the end of a remark. \"Nul n'est prophète en son pays\" keeps \"en son\" where modern French says \"dans son\".",
-          "The reason to know all this is not to imitate it, but to recognise it and to leave it alone. A learner who 'corrects' a proverb (*\"il n'y a pas de pire sourd que...\") shows that they know the grammar rules but not the language. At C2, the archaic form is the correct form, and rhyme and rhythm (\"qui vivra verra\", \"chose promise, chose due\") are part of what you must preserve.",
+          "The reason to know all this is not to imitate it, but to recognise it and to leave it alone. A learner who 'corrects' a proverb (*\"il n'y a pas de pire sourd que...\") shows that they know the grammar rules but not the language. At the Mastery level, the archaic form is the correct form, and rhyme and rhythm (\"qui vivra verra\", \"chose promise, chose due\") are part of what you must preserve.",
         ],
         examples: [
           { es: "Je le lui ai expliqué dix fois ; il n'est pire sourd que celui qui ne veut pas entendre.", en: "I've explained it to him ten times; there's none so deaf as those who will not hear." },
@@ -719,7 +719,7 @@ export const FR_C2_U05: Lesson[] = [
         body: [
           "\"Qui ne risque rien n'a rien\" (nothing ventured, nothing gained) and \"la fortune sourit aux audacieux\" (fortune favours the bold) push you to act. Against them stand \"prudence est mère de sûreté\" and \"un tiens vaut mieux que deux tu l'auras\" (a bird in the hand is worth two in the bush, literally 'one here-you-are is worth more than two you'll-have-its').",
           "\"Un tiens vaut mieux que deux tu l'auras\" is a lovely fossil: \"tiens\" (here, take it) and \"tu l'auras\" (you'll get it) are used as nouns. It says a sure thing now beats a bigger promise later. Use it to advise someone not to give up a firm offer for a hypothetical one.",
-          "Choosing between them is about the stakes and the person. To someone timid who never applies for anything, \"qui ne risque rien n'a rien\" is encouragement. To someone about to put all their savings into a friend's crypto scheme, \"prudence est mère de sûreté\" is the friendly brake. A C2 speaker can even play one against the other: \"Qui ne risque rien n'a rien, d'accord, mais prudence est mère de sûreté.\"",
+          "Choosing between them is about the stakes and the person. To someone timid who never applies for anything, \"qui ne risque rien n'a rien\" is encouragement. To someone about to put all their savings into a friend's crypto scheme, \"prudence est mère de sûreté\" is the friendly brake. A Mastery speaker can even play one against the other: \"Qui ne risque rien n'a rien, d'accord, mais prudence est mère de sûreté.\"",
         ],
         examples: [
           { es: "Envoie ta candidature, qui ne risque rien n'a rien !", en: "Send your application, nothing ventured, nothing gained!" },
@@ -1220,7 +1220,7 @@ export const FR_C2_U05: Lesson[] = [
         heading: "History in a phrase: après moi le déluge",
         body: [
           "A few phrases attributed to kings and queens have become proverbial, whatever their historical accuracy. \"Après moi, le déluge\" (attributed to Louis XV or to Madame de Pompadour) describes anyone who doesn't care what happens after they're gone. \"L'État, c'est moi\" (attributed to Louis XIV, almost certainly never said) mocks a boss who confuses the organisation with himself.",
-          "\"Paris vaut bien une messe\" (attributed to Henri IV, a Protestant who converted to Catholicism to become king) means a great prize is worth a compromise of principle. \"Qu'ils mangent de la brioche\" is attributed, wrongly, to Marie-Antoinette: Rousseau had already told the anecdote about an unnamed princess before she arrived in France. Saying so is a nice C2 touch: \"une phrase qu'on prête à Marie-Antoinette\".",
+          "\"Paris vaut bien une messe\" (attributed to Henri IV, a Protestant who converted to Catholicism to become king) means a great prize is worth a compromise of principle. \"Qu'ils mangent de la brioche\" is attributed, wrongly, to Marie-Antoinette: Rousseau had already told the anecdote about an unnamed princess before she arrived in France. Saying so is a nice Mastery touch: \"une phrase qu'on prête à Marie-Antoinette\".",
           "The verbs of attribution are worth knowing: \"on prête cette phrase à\" (this line is attributed to), \"la phrase est attribuée à\", \"il aurait dit\" (the conditional of hearsay), \"selon la légende\". Use them whenever you are not sure a famous line was really said.",
         ],
         examples: [
@@ -1571,7 +1571,7 @@ export const FR_C2_U05: Lesson[] = [
     slug: "c2-vocab-character-adjectives",
     level: "FR-C2",
     number: 8,
-    title: "C2 Vocabulary: Character Adjectives",
+    title: "Mastery Vocabulary: Character Adjectives",
     summary: "Portray people with precision: pusillanime, circonspect, sournois, revêche, bourru, mielleux, magnanime, affable and their neighbours, plus the false friends that trap English speakers.",
     duration: "18 min",
     sections: [
@@ -1580,7 +1580,7 @@ export const FR_C2_U05: Lesson[] = [
         body: [
           "English has cautious, timid and cowardly; French draws finer lines, and the difference is often whether the word praises or blames. \"Circonspect\" (from Latin, looking around) praises: someone who weighs every word and acts carefully, a good quality in a judge or a diplomat. \"Pondéré\" (balanced, measured) also praises: a person who never reacts excessively.",
           "\"Timoré\" blames gently: fearful of risk and responsibility, someone who never dares. \"Pusillanime\" (literally small-souled) blames severely: lacking courage in a way that is almost shameful, typically used of leaders who back down. It is a literary word; in speech you'd say \"il manque de courage\" or, familiarly, \"c'est un trouillard\".",
-          "So the same behaviour, a boss who refuses to decide until all the data is in, can be described as \"circonspect\" by his supporters and \"timoré\" or \"pusillanime\" by his critics. Choosing the adjective is choosing a side, and at C2 that is exactly the precision examiners look for.",
+          "So the same behaviour, a boss who refuses to decide until all the data is in, can be described as \"circonspect\" by his supporters and \"timoré\" or \"pusillanime\" by his critics. Choosing the adjective is choosing a side, and at the Mastery level that is exactly the precision examiners look for.",
         ],
         examples: [
           { es: "La juge s'est montrée très circonspecte dans ses déclarations.", en: "The judge was very guarded in her statements." },

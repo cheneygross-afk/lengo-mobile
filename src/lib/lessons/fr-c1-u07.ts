@@ -248,7 +248,7 @@ export const FR_C1_U07: Lesson[] = [
         heading: "Par: means, rate, manner",
         body: [
           "\"Par\" answers 'how?' and 'per': the means (\"payer par virement / par chèque / par carte\", \"envoyer par courrier / par mail\", \"par téléphone\"), the rate or distribution (\"trois fois par mois\", \"20 euros par personne\", \"un par un\"), the route (\"passer par Lyon\", \"entrer par la fenêtre\"), the agent of a passive (\"signé par le directeur\"), and manner in fixed phrases (\"par écrit\", \"par hasard\", \"par erreur\", \"par cœur\").",
-          "\"Par ailleurs\" means 'moreover' or 'in other respects' (a B2 connector), \"par contre\" 'on the other hand' (informal), \"par conséquent\" 'consequently'.",
+          "\"Par ailleurs\" means 'moreover' or 'in other respects' (an Upper-intermediate connector), \"par contre\" 'on the other hand' (informal), \"par conséquent\" 'consequently'.",
           "No article after \"par\" in most fixed means: \"par virement\", \"par avion\", \"par écrit\". But \"par le train\" (also \"en train\") and \"par la poste\".",
         ],
         examples: [
@@ -665,7 +665,7 @@ export const FR_C1_U07: Lesson[] = [
         heading: "Calques with adjectives and verbs",
         body: [
           "From a LinkedIn profile: *\"Je suis responsable pour la communication et très intéressée dans le marketing digital.\" Two calques. French says \"responsable de\" (not pour) and \"intéressé par\" (not dans): \"Je suis responsable de la communication et très intéressée par le marketing digital.\"",
-          "More of the same: *\"dépendre sur\" → \"dépendre de\" (\"ça dépend de toi\"); *\"être en charge de\" → \"être chargé de\" or \"être responsable de\" (\"en charge de\" is very common in business French but criticised by careful writers; at C1, prefer \"chargé de\"); *\"participer dans\" → \"participer à\"; 'good at' is not *\"bon à\" but \"doué pour\" or \"bon en\" (\"elle est bonne en maths\"); *\"consister de\" → \"consister en\" / \"consister à\" + infinitive.",
+          "More of the same: *\"dépendre sur\" → \"dépendre de\" (\"ça dépend de toi\"); *\"être en charge de\" → \"être chargé de\" or \"être responsable de\" (\"en charge de\" is very common in business French but criticised by careful writers; at the Advanced level, prefer \"chargé de\"); *\"participer dans\" → \"participer à\"; 'good at' is not *\"bon à\" but \"doué pour\" or \"bon en\" (\"elle est bonne en maths\"); *\"consister de\" → \"consister en\" / \"consister à\" + infinitive.",
           "These verbs and adjectives simply have to be learned with their preposition. When in doubt, look it up: the English one is a poor guide.",
         ],
         examples: [
@@ -1730,7 +1730,7 @@ export const FR_C1_U07: Lesson[] = [
       {
         heading: "Regions, provinces and US states",
         body: [
-          "You know the country rule from A2: \"en\" + feminine country or one starting with a vowel (\"en France\", \"en Iran\"), \"au\" + masculine (\"au Japon\"), \"aux\" + plural (\"aux États-Unis\"). The same logic extends to regions and states.",
+          "You know the country rule from the Elementary level: \"en\" + feminine country or one starting with a vowel (\"en France\", \"en Iran\"), \"au\" + masculine (\"au Japon\"), \"aux\" + plural (\"aux États-Unis\"). The same logic extends to regions and states.",
           "French regions: most are feminine → \"en\": \"en Bretagne\", \"en Normandie\", \"en Provence\", \"en Occitanie\", \"en Alsace\" (vowel). Masculine ones → \"dans le\" (more common) or \"en\" before a vowel: \"dans le Limousin\", \"dans le Périgord\", \"en Languedoc\" (fixed usage). Départements take \"dans le / la / les\": \"dans le Var\", \"dans la Drôme\", \"dans les Landes\", \"dans le Nord\".",
           "US states and Canadian provinces: feminine → \"en\": \"en Californie\", \"en Floride\", \"en Virginie\", \"en Louisiane\", \"en Colombie-Britannique\"; masculine → \"au\": \"au Texas\", \"au Nevada\", \"au Québec\", \"au Colorado\"; vowel-initial masculine → \"en\" or \"dans l'\": \"en Ohio\" / \"dans l'Ohio\". When a state has a city namesake, specify: \"dans l'État de New York\" vs \"à New York\".",
         ],
@@ -1804,7 +1804,7 @@ export const FR_C1_U07: Lesson[] = [
       {
         heading: "Means of transport: en, à, dans, par",
         body: [
-          "Rule of thumb: \"en\" for vehicles you travel inside (\"en voiture\", \"en train\", \"en bus\", \"en avion\", \"en métro\", \"en bateau\"), \"à\" for those you sit on or for your own body (\"à vélo\", \"à moto\", \"à cheval\", \"à pied\", \"à trottinette\"). \"En vélo\" and \"en moto\" are very common in speech but criticised in writing; at C1 write \"à vélo\".",
+          "Rule of thumb: \"en\" for vehicles you travel inside (\"en voiture\", \"en train\", \"en bus\", \"en avion\", \"en métro\", \"en bateau\"), \"à\" for those you sit on or for your own body (\"à vélo\", \"à moto\", \"à cheval\", \"à pied\", \"à trottinette\"). \"En vélo\" and \"en moto\" are very common in speech but criticised in writing; at Advanced write \"à vélo\".",
           "\"Dans\" describes being physically inside a specific vehicle, not the means of travel: \"j'ai oublié mon sac dans le train\", \"il y avait du monde dans le bus\", \"on a discuté dans la voiture\". Compare: \"je vais à Lille en train\" (means) vs \"je dormais dans le train\" (location).",
           "\"Par\" is for the route or a formal means: \"par avion\" (by air mail), \"par la route\", \"par le train\" (formal), \"par voie maritime\". Getting on/off: \"monter dans le train\", \"descendre du bus\", \"monter à vélo\" / \"monter sur un vélo\".",
         ],
@@ -1974,7 +1974,7 @@ export const FR_C1_U07: Lesson[] = [
         heading: "No preposition stranding",
         body: [
           "English loves leaving a preposition at the end: 'the person I work with', 'the project we talked about', 'Who are you waiting for?'. French never does this. The preposition goes before the relative or question word: \"la personne avec qui je travaille\", \"le projet dont nous avons parlé\" (de → dont), \"Qui attends-tu ?\" (no preposition with \"attendre\").",
-          "With \"à\": \"la collègue à qui j'ai envoyé le dossier\", \"le problème auquel je pense\". With longer prepositions, use \"lequel\" (B2): \"l'entreprise pour laquelle je travaille\", \"la table sur laquelle j'ai posé les clés\". For people, \"qui\" is preferred after a preposition: \"l'homme pour qui elle a tout quitté\".",
+          "With \"à\": \"la collègue à qui j'ai envoyé le dossier\", \"le problème auquel je pense\". With longer prepositions, use \"lequel\" (Upper-intermediate): \"l'entreprise pour laquelle je travaille\", \"la table sur laquelle j'ai posé les clés\". For people, \"qui\" is preferred after a preposition: \"l'homme pour qui elle a tout quitté\".",
           "Questions too: 'What are you talking about?' = \"De quoi parles-tu ?\" / \"Tu parles de quoi ?\" (spoken, preposition still before the word). 'Who is it for?' = \"C'est pour qui ?\".",
         ],
         examples: [
@@ -2395,7 +2395,7 @@ export const FR_C1_U07: Lesson[] = [
         heading: "Back to everyday French",
         body: [
           "Now translate down. \"En raison de travaux\" → \"parce qu'il y a des travaux\". \"Lors de la réouverture\" → \"quand ça rouvrira\". \"Compte tenu de l'affluence\" → \"comme il y aura beaucoup de monde\". \"À la suite de la panne\" → \"après la panne\" / \"depuis que c'est tombé en panne\". \"Dans l'attente de\" → \"en attendant\".",
-          "The everyday version needs subjects, verbs and tenses. That's why it's longer, and why formal writing prefers the compact noun style. At C1 you must be able to move in both directions: decode the notice, and say it to a friend.",
+          "The everyday version needs subjects, verbs and tenses. That's why it's longer, and why formal writing prefers the compact noun style. At the Advanced level you must be able to move in both directions: decode the notice, and say it to a friend.",
         ],
         examples: [
           { es: "C'est fermé parce qu'il y a des travaux.", en: "It's closed because there's work going on." },

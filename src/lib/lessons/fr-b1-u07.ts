@@ -1127,7 +1127,7 @@ export const FR_B1_U07: Lesson[] = [
     slug: "b1-vocabulary-practice-3",
     level: "FR-B1",
     number: 6,
-    title: "B1 Vocabulary Practice, Part 3 of 10",
+    title: "Intermediate Vocabulary Practice, Part 3 of 10",
     summary: "Words for opinions and debate: avis, point de vue, être pour / contre, convaincre, avantage, inconvénient, il me semble que, with the traps être d'accord and actuellement.",
     duration: "14 min",
     sections: [

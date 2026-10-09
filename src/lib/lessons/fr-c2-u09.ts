@@ -1170,7 +1170,7 @@ export const FR_C2_U09: Lesson[] = [
     slug: "c2-vocab-false-friends-2",
     level: "FR-C2",
     number: 6,
-    title: "C2 Vocabulary: Advanced False Friends and Calques, Part 2 of 2",
+    title: "Mastery Vocabulary: Advanced False Friends and Calques, Part 2 of 2",
     summary: "More false friends that fool even fluent speakers (prétendre, rude, déception, demander, location, sympathique, définitivement) and the calques from English that give a translator away.",
     duration: "18 min",
     sections: [
@@ -1454,7 +1454,7 @@ export const FR_C2_U09: Lesson[] = [
         body: [
           "\"Une conjecture\" is a hypothesis, a guess: \"se perdre en conjectures\" (to be lost in speculation). \"La conjoncture\" is the current economic or political situation: \"la conjoncture économique\", \"une période de conjoncture difficile\". Journalists mix them up surprisingly often; the economic one has an \"o\" like \"économie\".",
           "\"Une collision\" is a crash (\"une collision entre deux trains\"), \"entrer en collision avec\". \"Une collusion\" is secret, illegal collaboration, collusion: \"la collusion entre certains élus et des promoteurs\". Both are feminine.",
-          "These pairs belong to the formal register of the press and of reports, which is exactly where a C2 learner wants to sound precise. A useful habit: when you meet one in a newspaper, note the whole phrase (\"en l'état actuel de la conjoncture\", \"soupçons de collusion\") rather than the bare word.",
+          "These pairs belong to the formal register of the press and of reports, which is exactly where a Mastery learner wants to sound precise. A useful habit: when you meet one in a newspaper, note the whole phrase (\"en l'état actuel de la conjoncture\", \"soupçons de collusion\") rather than the bare word.",
         ],
         examples: [
           { es: "Les enquêteurs en sont réduits aux conjectures.", en: "The investigators are reduced to guesswork." },

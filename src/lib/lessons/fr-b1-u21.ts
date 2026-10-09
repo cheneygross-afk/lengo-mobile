@@ -31,7 +31,7 @@ export const FR_B1_U21: Lesson[] = [
         heading: "Forming it: the future of avoir or être + participle",
         body: [
           "The futur antérieur is the future perfect: I will have finished. You already know every piece of it. Take the passé composé (\"j'ai fini\", \"je suis parti\") and put the auxiliary into the futur simple: \"j'aurai fini\", \"je serai parti\".",
-          "The auxiliary forms are the ones you learned at A2: \"j'aurai, tu auras, il aura, nous aurons, vous aurez, ils auront\" and \"je serai, tu seras, il sera, nous serons, vous serez, ils seront\". The choice of avoir or être and the agreement rules are exactly those of the passé composé: \"elle sera partie\", \"nous serons rentrés\", \"elles se seront levées\".",
+          "The auxiliary forms are the ones you learned at the Elementary level: \"j'aurai, tu auras, il aura, nous aurons, vous aurez, ils auront\" and \"je serai, tu seras, il sera, nous serons, vous serez, ils seront\". The choice of avoir or être and the agreement rules are exactly those of the passé composé: \"elle sera partie\", \"nous serons rentrés\", \"elles se seront levées\".",
           "Pronouns and the negation sit around the auxiliary, as always in compound tenses: \"je ne l'aurai pas fini\", \"tu ne seras pas encore rentré\".",
         ],
         examples: [

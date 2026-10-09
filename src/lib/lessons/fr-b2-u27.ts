@@ -1253,14 +1253,14 @@ export const FR_B2_U27: Lesson[] = [
     slug: "b2-spiral-dictation-b2-sentences",
     level: "FR-B2",
     number: 5,
-    title: "Spiral Review: Dictation: B2 Sentences",
-    summary: "Hear and write long sentences that combine several B2 structures, and learn where the silent letters and agreements hide.",
+    title: "Spiral Review: Dictation: Upper-intermediate Sentences",
+    summary: "Hear and write long sentences that combine several Upper-intermediate structures, and learn where the silent letters and agreements hide.",
     duration: "14 min",
     sections: [
       {
         heading: "Hearing the subjunctive and the conditional",
         body: [
-          "In dictation, many B2 forms sound alike, so grammar must guide your pen. \"Qu'il soit\" and \"qu'ils soient\" sound the same; so do \"je finirai\" (future) and \"je finirais\" (conditional) for many speakers. Decide from the context: after \"si\" + imparfait, the result is conditional (-ais); after \"quand\", future (-ai).",
+          "In dictation, many Upper-intermediate forms sound alike, so grammar must guide your pen. \"Qu'il soit\" and \"qu'ils soient\" sound the same; so do \"je finirai\" (future) and \"je finirais\" (conditional) for many speakers. Decide from the context: after \"si\" + imparfait, the result is conditional (-ais); after \"quand\", future (-ai).",
           "The past subjunctive \"qu'il ait\" sounds like \"qu'il est\" in fast speech only if you aren't listening for the trigger: after \"bien que\", \"je suis content que\", \"je ne pense pas que\", write \"ait\". After \"il me semble que\", \"je sais que\", write \"est\" or \"a\".",
           "Strategy: write the sentence, then reread it once for meaning (which tense?) and once for agreement (who is the subject?).",
         ],
@@ -1485,7 +1485,7 @@ export const FR_B2_U27: Lesson[] = [
     level: "FR-B2",
     number: 6,
     title: "Upper-Intermediate Comprehensive Review, Part 3 of 3",
-    summary: "Units 21-26 revisited: dont, duquel and lequel, then the B2 vocabulary themes from art and politics to technology, the media, psychology and debate, with a 30-question test.",
+    summary: "Units 21-26 revisited: dont, duquel and lequel, then the Upper-intermediate vocabulary themes from art and politics to technology, the media, psychology and debate, with a 30-question test.",
     duration: "20 min",
     sections: [
       {
@@ -1885,8 +1885,8 @@ export const FR_B2_U27: Lesson[] = [
     slug: "b2-challenge-big-error-hunt",
     level: "FR-B2",
     number: 7,
-    title: "B2 Challenge: The Big Error Hunt",
-    summary: "Every sentence has exactly one mistake, taken from anywhere in the B2 level: find it, fix it, and say why, with no hints about which topic it comes from.",
+    title: "Upper-intermediate Challenge: The Big Error Hunt",
+    summary: "Every sentence has exactly one mistake, taken from anywhere in the Upper-intermediate level: find it, fix it, and say why, with no hints about which topic it comes from.",
     duration: "16 min",
     sections: [
       {
@@ -2148,8 +2148,8 @@ export const FR_B2_U27: Lesson[] = [
     slug: "b2-challenge-dialogue-marathon",
     level: "FR-B2",
     number: 8,
-    title: "B2 Challenge: Dialogue Marathon",
-    summary: "Four scenes back to back: a rent negotiation, a reunion with an old friend, a medical consultation and a family argument, each demanding the right register and the right B2 structure.",
+    title: "Upper-intermediate Challenge: Dialogue Marathon",
+    summary: "Four scenes back to back: a rent negotiation, a reunion with an old friend, a medical consultation and a family argument, each demanding the right register and the right Upper-intermediate structure.",
     duration: "18 min",
     sections: [
       {
@@ -2394,14 +2394,14 @@ export const FR_B2_U27: Lesson[] = [
     slug: "b2-challenge-translation-relay",
     level: "FR-B2",
     number: 9,
-    title: "B2 Challenge: Translation Relay",
-    summary: "Translate long sentences in both directions, one B2 topic after another, with no reminders: the structure is yours to spot.",
+    title: "Upper-intermediate Challenge: Translation Relay",
+    summary: "Translate long sentences in both directions, one Upper-intermediate topic after another, with no reminders: the structure is yours to spot.",
     duration: "16 min",
     sections: [
       {
         heading: "Relay rules: translate meaning, not words",
         body: [
-          "At B2 the challenge is no longer vocabulary but structure. English and French package the same idea differently: English uses infinitives and -ing forms where French needs a clause with the subjunctive; English stresses with the voice where French restructures; English says I had my car fixed where French says \"j'ai fait réparer ma voiture\".",
+          "At the Upper-intermediate level the challenge is no longer vocabulary but structure. English and French package the same idea differently: English uses infinitives and -ing forms where French needs a clause with the subjunctive; English stresses with the voice where French restructures; English says I had my car fixed where French says \"j'ai fait réparer ma voiture\".",
           "Before translating into French, ask three questions. Is there a trigger (wish, doubt, emotion, conjunction) that demands the subjunctive? Is there a condition, and what time does it refer to? Is a verb built with a preposition (\"de\", \"à\") that will shape the relative or the pronoun?",
           "Translating into English, do the reverse: drop the subjunctive, unpack the clefts, and choose natural English over word-for-word fidelity.",
         ],
@@ -2633,8 +2633,8 @@ export const FR_B2_U27: Lesson[] = [
     slug: "b2-challenge-build-a-sentence",
     level: "FR-B2",
     number: 10,
-    title: "B2 Challenge: Build the Sentence",
-    summary: "Put the pieces of long B2 sentences in order: subordinate clauses, pronouns, negations, relatives and clefts, each in its one correct place.",
+    title: "Upper-intermediate Challenge: Build the Sentence",
+    summary: "Put the pieces of long Upper-intermediate sentences in order: subordinate clauses, pronouns, negations, relatives and clefts, each in its one correct place.",
     duration: "14 min",
     sections: [
       {

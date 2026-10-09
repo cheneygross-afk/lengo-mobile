@@ -30,7 +30,7 @@ export const FR_C1_U05: Lesson[] = [
       {
         heading: "The passive in every tense: être carries the tense",
         body: [
-          "You met the passive at B1: \"être\" + past participle, agreeing with the subject. At C1 the challenge is not the form but the range. The rule never changes: put \"être\" in the tense you need and keep the participle as it is. \"Le pont sera construit\" (future), \"le tableau avait été vendu\" (pluperfect), \"le concert aurait été annulé\" (past conditional), \"il faut que le dossier soit validé\" (subjunctive).",
+          "You met the passive at the Intermediate level: \"être\" + past participle, agreeing with the subject. At the Advanced level the challenge is not the form but the range. The rule never changes: put \"être\" in the tense you need and keep the participle as it is. \"Le pont sera construit\" (future), \"le tableau avait été vendu\" (pluperfect), \"le concert aurait été annulé\" (past conditional), \"il faut que le dossier soit validé\" (subjunctive).",
           "In compound tenses there are two participles, and only the second one agrees: \"la maison a été vendue\", \"les lettres avaient été envoyées\". \"Été\" never agrees; it is the participle of \"être\" conjugated with \"avoir\". The most common written slip at this level is *\"la décision a étée prise\".",
           "The passive conditional is the workhorse of French journalism for unconfirmed facts: \"le suspect aurait été arrêté à Marseille\" means 'the suspect has reportedly been arrested'. English needs an adverb (reportedly, allegedly); French does it with the tense alone. Recognise it in headlines and use it whenever you report something you can't vouch for.",
           "Long passives get heavy quickly (\"le projet aura dû être présenté\"), and good writers notice. If the agent is unknown or unimportant, a French speaker often prefers \"on\" or a pronominal verb (Parts 2 and 6); keep the passive for when the thing done is your true topic.",
@@ -321,7 +321,7 @@ export const FR_C1_U05: Lesson[] = [
         heading: "Il arrive que, il paraît que",
         body: [
           "\"Il arrive que\" means 'it happens that', 'sometimes': \"il arrive que le train ait du retard\". It takes the subjunctive, because it presents an occasional possibility, not a fact. Its infinitive version: \"il m'arrive de\" + infinitive (I sometimes...): \"il m'arrive de travailler le dimanche\". This is a very natural way to say 'sometimes I...'.",
-          "\"Il paraît que\" (+ indicative) means 'apparently', 'I've heard that': \"il paraît que Sophie s'est mariée\". It's hearsay, and it's very spoken. Don't confuse it with \"il semble que\" (+ subjunctive, 'it seems that', a cautious judgement) and \"il me semble que\" (+ indicative, 'I think that'), which you met at B2.",
+          "\"Il paraît que\" (+ indicative) means 'apparently', 'I've heard that': \"il paraît que Sophie s'est mariée\". It's hearsay, and it's very spoken. Don't confuse it with \"il semble que\" (+ subjunctive, 'it seems that', a cautious judgement) and \"il me semble que\" (+ indicative, 'I think that'), which you met at the Upper-intermediate level.",
           "\"Il arrive\" can also introduce an event with the real subject after it: \"il est arrivé un accident\" (an accident happened), \"il lui est arrivé quelque chose\" (something happened to him). Part 4 develops this.",
         ],
         examples: [
@@ -865,7 +865,7 @@ export const FR_C1_U05: Lesson[] = [
         body: [
           "When the infinitive phrase is the real subject and comes after the adjective, French uses \"de\": \"il est difficile de trouver un logement à Paris\" (finding a flat in Paris is difficult). The \"il\" is empty; it announces the infinitive coming later. Anything the infinitive needs (its object, its complements) follows it.",
           "In writing and formal speech, use \"il est\": \"il est important de\", \"il est interdit de\", \"il est conseillé de\", \"il est possible de\". In conversation, French replaces \"il\" with \"c'\" and keeps \"de\": \"c'est difficile de trouver un logement\". Both are correct; the register differs.",
-          "The same frame works with \"que\": \"il est important que vous soyez là\" (subjunctive after adjectives of judgement, B2), \"il est clair que\", \"il est évident que\", \"il est vrai que\" + indicative (certainty).",
+          "The same frame works with \"que\": \"il est important que vous soyez là\" (subjunctive after adjectives of judgement, Upper-intermediate), \"il est clair que\", \"il est évident que\", \"il est vrai que\" + indicative (certainty).",
         ],
         examples: [
           { es: "Il est difficile de trouver un logement abordable à Paris.", en: "It's difficult to find an affordable flat in Paris." },
@@ -1675,7 +1675,7 @@ export const FR_C1_U05: Lesson[] = [
       {
         heading: "Se faire + infinitive: the passive of mishaps",
         body: [
-          "At B2 you met causative \"se faire\": \"je me suis fait couper les cheveux\" (I had my hair cut, I arranged it). At C1, notice its second, very common use: a passive of things that happen to you, usually unpleasant and not arranged at all. \"Il s'est fait voler son vélo\" (he had his bike stolen), \"elle s'est fait renverser par une voiture\" (she got knocked over by a car), \"je me suis fait avoir\" (I got conned).",
+          "At the Upper-intermediate level you met causative \"se faire\": \"je me suis fait couper les cheveux\" (I had my hair cut, I arranged it). At the Advanced level, notice its second, very common use: a passive of things that happen to you, usually unpleasant and not arranged at all. \"Il s'est fait voler son vélo\" (he had his bike stolen), \"elle s'est fait renverser par une voiture\" (she got knocked over by a car), \"je me suis fait avoir\" (I got conned).",
           "English 'get + past participle' is the best match: 'get fired' = \"se faire renvoyer / virer\", 'get caught' = \"se faire prendre / attraper\", 'get told off' = \"se faire engueuler\" (familiar) / \"se faire gronder\" (children) / \"se faire reprendre\".",
           "It can be positive too: \"elle s'est fait remarquer par un éditeur\" (she got noticed by a publisher), \"il s'est fait élire\" (he got himself elected; here there's a nuance of effort). Context decides between 'arranged' and 'suffered'.",
           "The agent, if any, comes with \"par\": \"il s'est fait arrêter par la douane\".",
@@ -1713,7 +1713,7 @@ export const FR_C1_U05: Lesson[] = [
         heading: "Fait never agrees",
         body: [
           "This is the spelling trap of the unit. In \"se faire\" + infinitive, the participle \"fait\" is always invariable, whatever the subject: \"elle s'est fait voler\", \"elles se sont fait arrêter\", \"nous nous sommes fait avoir\". Writing *\"elle s'est faite voler\" is one of the most frequent mistakes even among native speakers, and examiners notice it.",
-          "Why? Because the real object belongs to the infinitive, not to \"faire\". The same rule as at B2 (\"la voiture que j'ai fait réparer\"). Contrast with \"se faire\" + adjective, where \"faite\" agrees normally: \"elle s'est faite belle\" (she made herself beautiful).",
+          "Why? Because the real object belongs to the infinitive, not to \"faire\". The same rule as at the Upper-intermediate level (\"la voiture que j'ai fait réparer\"). Contrast with \"se faire\" + adjective, where \"faite\" agrees normally: \"elle s'est faite belle\" (she made herself beautiful).",
           "Also note the possessive: French says \"il s'est fait voler son portefeuille\" with the object after the infinitive. You can also say \"on lui a volé son portefeuille\". Both are natural.",
         ],
         examples: [

@@ -30,7 +30,7 @@ export const FR_B1_U01: Lesson[] = [
       {
         heading: "The passé composé: what happened",
         body: [
-          "You learned both past tenses at A2. At B1 the challenge is no longer the forms but the choice, sentence after sentence. Start with the passé composé: it reports completed events, the things that moved the story forward. Ask yourself: could you put this on a timeline as a single dot or a closed block? Then it's the passé composé: \"je suis arrivé\", \"j'ai pris le train\", \"on a mangé au restaurant\".",
+          "You learned both past tenses at the Elementary level. At the Intermediate level the challenge is no longer the forms but the choice, sentence after sentence. Start with the passé composé: it reports completed events, the things that moved the story forward. Ask yourself: could you put this on a timeline as a single dot or a closed block? Then it's the passé composé: \"je suis arrivé\", \"j'ai pris le train\", \"on a mangé au restaurant\".",
           "Remember its two auxiliaries. Most verbs take \"avoir\" (\"j'ai pris\", \"elle a vu\"); verbs of movement and change of state (\"aller\", \"partir\", \"arriver\", \"rester\", \"tomber\"...) and all pronominal verbs take \"être\", and their participle agrees with the subject (\"elle est partie\", \"nous nous sommes levés\").",
           "A series of events is a chain of passé composé verbs, often linked by \"d'abord\", \"ensuite\", \"puis\", \"enfin\": each one happens after the previous one is over.",
         ],
@@ -325,7 +325,7 @@ export const FR_B1_U01: Lesson[] = [
         heading: "All pronominal verbs take être",
         body: [
           "Every pronominal verb takes \"être\": \"se lever\", \"se réveiller\", \"s'habiller\", \"se promener\", \"se perdre\", \"se tromper\"... The pronoun goes before the auxiliary: \"je me suis levé\", \"tu t'es trompé\", \"elle s'est promenée\".",
-          "The participle usually agrees with the subject: \"elle s'est levée\", \"ils se sont rencontrés\". (At B1 you'll meet the exception where the body part follows: \"elle s'est lavé les mains\" has no -e, because \"les mains\" is the real object. Don't worry about it yet, but notice it in examples.)",
+          "The participle usually agrees with the subject: \"elle s'est levée\", \"ils se sont rencontrés\". (At Intermediate you'll meet the exception where the body part follows: \"elle s'est lavé les mains\" has no -e, because \"les mains\" is the real object. Don't worry about it yet, but notice it in examples.)",
           "In the negative, \"ne...pas\" wraps the pronoun and the auxiliary together: \"je ne me suis pas réveillé\".",
         ],
         examples: [

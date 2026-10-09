@@ -294,7 +294,7 @@ export const FR_C2_U07: Lesson[] = [
         body: [
           "The boldest stage is the metaphor \"in absentia\": the real thing is no longer named. \"Ses yeux sont deux étoiles\" becomes \"les étoiles de son visage\", or, in a love poem, simply \"tes deux étoiles\". The reader must reconstruct the eyes from context, which creates surprise and pleasure, but also the risk of obscurity.",
           "This is the stage of Hugo's \"faucille d'or\" (the moon) and of many periphrases: \"l'astre du jour\" (the sun), \"la ville lumière\" (Paris), \"le roi des animaux\" (the lion), \"l'or noir\" (oil), \"le billet vert\" (the dollar). Journalists use such periphrases constantly to avoid repeating a word.",
-          "The transformation chain is a good writing exercise and a C2 exam favourite: comparison, metaphor in praesentia, metaphor in absentia. Each step intensifies the image; each step also asks more of the reader. In formal argument, stop at step 1 or 2. In poetry and advertising, step 3 is where the magic is.",
+          "The transformation chain is a good writing exercise and a Mastery exam favourite: comparison, metaphor in praesentia, metaphor in absentia. Each step intensifies the image; each step also asks more of the reader. In formal argument, stop at step 1 or 2. In poetry and advertising, step 3 is where the magic is.",
         ],
         examples: [
           { es: "Les étoiles de son visage brillaient de larmes.", en: "The stars of her face shone with tears." },
@@ -1032,7 +1032,7 @@ export const FR_C2_U07: Lesson[] = [
         body: [
           "The final skill is the reverse: you have written something expressive and must make it suitable for a report, an email to a client or an academic essay. Hyperboles become precise quantities or neutral intensifiers: \"un monde fou\" becomes \"une affluence exceptionnelle\" or \"plus de trois mille visiteurs\"; \"j'ai attendu une éternité\" becomes \"le délai d'attente a dépassé deux heures\".",
           "Personifications become neutral verbs or nominal constructions: \"le marché s'affole\" (common in the press) becomes \"les cours connaissent une forte volatilité\"; \"la ville s'éveille\" becomes \"l'activité reprend dès six heures\". Formal French prefers nominalisation and measured adjectives: \"important\", \"considérable\", \"notable\", \"sensible\" (noticeable).",
-          "Knowing both registers lets you choose: a press article can say \"la Bourse a perdu la tête\"; the analyst's note says \"l'indice a reculé de 4 % en séance\". Neither is wrong; each is right for its reader. That control of register, not the figure itself, is the C2 skill.",
+          "Knowing both registers lets you choose: a press article can say \"la Bourse a perdu la tête\"; the analyst's note says \"l'indice a reculé de 4 % en séance\". Neither is wrong; each is right for its reader. That control of register, not the figure itself, is the Mastery skill.",
         ],
         examples: [
           { es: "Il y avait un monde fou au salon.", en: "The trade fair was absolutely packed." },
@@ -1161,7 +1161,7 @@ export const FR_C2_U07: Lesson[] = [
           { left: "ça coûte une fortune", right: "le coût est très élevé" },
           { left: "la ville s'éveille", right: "l'activité reprend" },
         ],
-        explanation: "Same facts, two registers: the C2 skill is choosing.",
+        explanation: "Same facts, two registers: the Mastery skill is choosing.",
       },
       {
         type: "dictation",
@@ -1643,7 +1643,7 @@ export const FR_C2_U07: Lesson[] = [
     slug: "c2-vocab-abstract-nouns",
     level: "FR-C2",
     number: 8,
-    title: "C2 Vocabulary: Precise Abstract Nouns",
+    title: "Mastery Vocabulary: Precise Abstract Nouns",
     summary: "Name attitudes and states exactly: l'incurie, l'apathie, la désinvolture, la lassitude, le désarroi, la rancœur, le ressentiment, l'aigreur, la probité, la tempérance, l'opiniâtreté, l'acharnement.",
     duration: "18 min",
     sections: [

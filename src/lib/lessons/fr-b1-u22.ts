@@ -23,7 +23,7 @@ export const FR_B1_U22: Lesson[] = [
     slug: "b1-vocabulary-practice-8",
     level: "FR-B1",
     number: 1,
-    title: "B1 Vocabulary Practice, Part 8 of 10",
+    title: "Intermediate Vocabulary Practice, Part 8 of 10",
     summary: "Talk about leisure and hobbies: faire de + activity, jouer de vs jouer à, and joining clubs and classes.",
     duration: "13 min",
     sections: [

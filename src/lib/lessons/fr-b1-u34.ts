@@ -23,7 +23,7 @@ export const FR_B1_U34: Lesson[] = [
     slug: "b1-comprehensive-review-1",
     level: "FR-B1",
     number: 1,
-    title: "B1 Comprehensive Review, Part 1 of 3",
+    title: "Intermediate Comprehensive Review, Part 1 of 3",
     summary: "Units 1 to 13 in one review: the past tenses, the subjunctive forms and its triggers, the imperative in full, the conditional and both kinds of si-clause.",
     duration: "15 min",
     sections: [
@@ -529,7 +529,7 @@ export const FR_B1_U34: Lesson[] = [
     slug: "b1-comprehensive-review-2",
     level: "FR-B1",
     number: 3,
-    title: "B1 Comprehensive Review, Part 2 of 3",
+    title: "Intermediate Comprehensive Review, Part 2 of 3",
     summary: "Units 14 to 22 in one review: the plus-que-parfait, all the relative pronouns, the passive and its alternatives, the futur antérieur and the time periphrases.",
     duration: "15 min",
     sections: [
@@ -1004,7 +1004,7 @@ export const FR_B1_U34: Lesson[] = [
     slug: "b1-comprehensive-review-3",
     level: "FR-B1",
     number: 5,
-    title: "B1 Comprehensive Review, Part 3 of 3",
+    title: "Intermediate Comprehensive Review, Part 3 of 3",
     summary: "Units 23 to 33 in one review: pronouns in every tense, possessive and demonstrative pronouns, spoken French, and the language of survival situations and the word webs.",
     duration: "15 min",
     sections: [
@@ -1086,7 +1086,7 @@ export const FR_B1_U34: Lesson[] = [
         heading: "Spoken French",
         body: [
           "In everyday speech: \"ne\" disappears (\"je sais pas\", \"y a pas de problème\"), \"on\" replaces \"nous\" (\"on y va ?\"), \"ça\" replaces \"cela\", forms shorten (\"t'as\", \"y a\", \"faut\"), questions rise in intonation or put the question word at the end (\"tu vas où ?\", \"c'est quoi ?\"), and fillers glue it together (\"ben\", \"du coup\", \"en fait\", \"tu vois\").",
-          "The skill at B1 is switching: understand it all, use some of it with friends, and switch it off for a landlord, a bank or an exam. \"Pourriez-vous m'aider ?\" to a stranger, \"Tu peux m'aider ?\" to a friend.",
+          "The skill at the Intermediate level is switching: understand it all, use some of it with friends, and switch it off for a landlord, a bank or an exam. \"Pourriez-vous m'aider ?\" to a stranger, \"Tu peux m'aider ?\" to a friend.",
         ],
         examples: [
           { es: "Je sais pas, c'est pas grave.", en: "I don't know, it doesn't matter." },
@@ -1251,8 +1251,8 @@ export const FR_B1_U34: Lesson[] = [
     slug: "b1-challenge-great-error-hunt",
     level: "FR-B1",
     number: 6,
-    title: "B1 Challenge: The Great Error Hunt",
-    summary: "Lucas's thank-you email to his host family is full of B1 errors: wrong moods and auxiliaries, missing agreements, pronoun order, si + conditional and relatives. Find and fix them all.",
+    title: "Intermediate Challenge: The Great Error Hunt",
+    summary: "Lucas's thank-you email to his host family is full of Intermediate errors: wrong moods and auxiliaries, missing agreements, pronoun order, si + conditional and relatives. Find and fix them all.",
     duration: "15 min",
     sections: [
       {
@@ -1471,7 +1471,7 @@ export const FR_B1_U34: Lesson[] = [
     slug: "b1-challenge-dialogue-marathon",
     level: "FR-B1",
     number: 7,
-    title: "B1 Challenge: Dialogue Marathon",
+    title: "Intermediate Challenge: Dialogue Marathon",
     summary: "A chain of everyday dialogues, on the phone, at the bank, with the landlord, at the doctor's and with friends, answered without hints and switching register each time.",
     duration: "15 min",
     sections: [
@@ -1718,7 +1718,7 @@ export const FR_B1_U34: Lesson[] = [
     slug: "b1-challenge-translation-relay",
     level: "FR-B1",
     number: 8,
-    title: "B1 Challenge: Translation Relay",
+    title: "Intermediate Challenge: Translation Relay",
     summary: "English sentences that hide the classic traps: I want you to come, I've lived here for two years, if I were you, I was given, the film I told you about.",
     duration: "15 min",
     sections: [
@@ -1972,14 +1972,14 @@ export const FR_B1_U34: Lesson[] = [
     slug: "b1-challenge-build-the-sentence",
     level: "FR-B1",
     number: 9,
-    title: "B1 Challenge: Build the Sentence",
+    title: "Intermediate Challenge: Build the Sentence",
     summary: "Build long sentences from pieces, combining a relative clause, object pronouns, a subjunctive and a time clause in one go.",
     duration: "14 min",
     sections: [
       {
         heading: "Relative + pronoun",
         body: [
-          "B1 sentences grow by stacking pieces. Start with a relative clause to identify the thing (\"le livre que tu m'as prêté\"), then refer back to it with a pronoun (\"je te le rendrai demain\"). Fronting the noun and picking it up with a pronoun is very natural in French: \"Le livre que tu m'as prêté, je te le rends demain.\"",
+          "Intermediate sentences grow by stacking pieces. Start with a relative clause to identify the thing (\"le livre que tu m'as prêté\"), then refer back to it with a pronoun (\"je te le rendrai demain\"). Fronting the noun and picking it up with a pronoun is very natural in French: \"Le livre que tu m'as prêté, je te le rends demain.\"",
           "Check the agreements as you go: \"la robe que j'ai mise\" (que = la robe), \"les photos que tu m'as envoyées, je les ai imprimées\". And keep the pronoun order: \"te le\", \"le lui\", \"m'en\".",
         ],
         examples: [

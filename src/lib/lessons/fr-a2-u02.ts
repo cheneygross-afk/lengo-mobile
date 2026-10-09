@@ -1678,7 +1678,7 @@ export const FR_A2_U02: Lesson[] = [
       {
         heading: "Short answers",
         body: [
-          "Not every answer needs a full sentence. \"Oui.\" \"Non, pas encore.\" \"Non, jamais.\" \"Oui, déjà.\" \"Hier.\" But at A2, practise the full sentence too: it's how you lock in the participles.",
+          "Not every answer needs a full sentence. \"Oui.\" \"Non, pas encore.\" \"Non, jamais.\" \"Oui, déjà.\" \"Hier.\" But at the Elementary level, practise the full sentence too: it's how you lock in the participles.",
           "If someone asks \"Tu n'as pas lu le livre ?\" (You didn't read the book?) and you did, answer \"Si !\" not \"Oui\". \"Si\" contradicts a negative question.",
         ],
         examples: [

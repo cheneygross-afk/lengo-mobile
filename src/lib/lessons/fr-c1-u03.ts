@@ -32,7 +32,7 @@ export const FR_C1_U03: Lesson[] = [
         body: [
           "Open any French newspaper, official letter or company report and you'll see far more nouns than verbs: \"la hausse des prix\", \"la fermeture du guichet\", \"le licenciement de 200 salariés\". This nominal style is one of the clearest markers of formal written French, much more than in English, which tends to keep verbs ('prices have risen', 'the counter will close').",
           "Nominalising a verb lets you pack a whole clause into a noun phrase: \"Les prix ont augmenté\" → \"l'augmentation des prix\". The noun can then become the subject or object of another verb: \"L'augmentation des prix inquiète les ménages.\" It's compact, impersonal and authoritative, which is exactly why administrations and journalists love it.",
-          "At C1 you need to do it both ways: produce the right noun from a verb, with the right gender and spelling, and understand dense nominal texts. The first step is the suffixes. The most productive three are -tion / -sion (feminine), -ment (masculine) and -age (masculine).",
+          "At the Advanced level you need to do it both ways: produce the right noun from a verb, with the right gender and spelling, and understand dense nominal texts. The first step is the suffixes. The most productive three are -tion / -sion (feminine), -ment (masculine) and -age (masculine).",
         ],
         examples: [
           { es: "Les prix ont augmenté. → L'augmentation des prix inquiète les ménages.", en: "Prices have risen. → The rise in prices is worrying households." },
@@ -323,7 +323,7 @@ export const FR_C1_U03: Lesson[] = [
         body: [
           "Some nouns come from an older or different root, so you can't derive them by rule: \"mourir → la mort\", \"naître → la naissance\", \"vivre → la vie\", \"perdre → la perte\", \"vendre → la vente\", \"offrir → l'offre\", \"finir → la fin\", \"voir → la vue\", \"venir → la venue\", \"croire → la croyance\", \"plaire → le plaisir\", \"rire → le rire\", \"savoir → le savoir\" / \"la connaissance\" (from connaître).",
           "In admin and business language several of these are everywhere: \"la vente\" (sale), \"la perte\" (loss), \"l'offre\" (offer, supply: \"l'offre et la demande\"), \"la mise en vente\" (putting on sale). Note \"la mise\" from mettre, used in many compounds: \"la mise en place\" (setting up), \"la mise en œuvre\" (implementation), \"la mise à jour\" (update).",
-          "Likewise \"prendre → la prise\" (\"la prise de décision\", \"la prise en charge\" = covering costs, taking care of) and \"faire → le fait\" or \"la façon\". These mise / prise compounds are among the most useful nominal expressions at C1.",
+          "Likewise \"prendre → la prise\" (\"la prise de décision\", \"la prise en charge\" = covering costs, taking care of) and \"faire → le fait\" or \"la façon\". These mise / prise compounds are among the most useful nominal expressions at the Advanced level.",
         ],
         examples: [
           { es: "La vente de la maison a pris six mois.", en: "Selling the house took six months." },
@@ -1339,7 +1339,7 @@ export const FR_C1_U03: Lesson[] = [
         body: [
           "The same style appears on signs, posters and notices in public spaces: \"Fermeture exceptionnelle du guichet le 14 juillet\", \"Accès interdit au public\", \"Travaux : déviation\", \"Stationnement interdit sauf livraisons\", \"Sortie de véhicules\" (vehicle exit, keep clear), \"Baignade surveillée\".",
           "Often a noun + a past participle or adjective, with no verb: \"Entrée libre\" (free entry), \"Prochain départ : 14 h 30\", \"Ouverture des portes à 19 heures\", \"Fin des travaux prévue en juin\". The participle agrees with the noun: \"Baignade interdite\", \"Pêche interdite\", \"Chiens admis en laisse\".",
-          "Understanding these notices fast is a real-life C1 skill, and writing them is the task of anyone organising an event or working in an office.",
+          "Understanding these notices fast is a real-life Advanced skill, and writing them is the task of anyone organising an event or working in an office.",
         ],
         examples: [
           { es: "Fermeture exceptionnelle du guichet le 14 juillet.", en: "Ticket office closed on 14 July." },
@@ -2021,7 +2021,7 @@ export const FR_C1_U03: Lesson[] = [
         body: [
           "Some errors use a real French noun with the wrong meaning: \"*la location de l'usine\" for 'the location of the factory' (\"la location\" = renting; 'location' = \"l'emplacement\" / \"la situation\"). \"*Les achats de la police\" for 'arrests' (\"les arrestations\"). \"*Une demande pour 200 euros\" for 'a 200-euro demand' (\"une demande de 200 euros\").",
           "False friends in nominal style: \"la formation\" (training, not formation), \"l'actualité\" (current events), \"la manifestation\" (demonstration or event), \"le report\" (postponement, not a report: that's \"le rapport\"), \"la délivrance\" (issuing of a document), \"la résignation\" (resignation in the sense of acceptance; quitting a job is \"la démission\").",
-          "These are the slips that make a C1 text unreliable for the reader. When you nominalise, check that the noun really means what you want.",
+          "These are the slips that make an Advanced text unreliable for the reader. When you nominalise, check that the noun really means what you want.",
         ],
         examples: [
           { es: "L'emplacement de l'usine a été choisi pour son accès à l'autoroute.", en: "The location of the factory was chosen for its motorway access." },
@@ -2162,7 +2162,7 @@ export const FR_C1_U03: Lesson[] = [
         body: [
           "Nominal style is efficient up to a point. Beyond it, you get what French critics call \"le jargon administratif\" or \"la langue de bois\": \"La mise en œuvre de la réalisation de l'amélioration de l'accueil des usagers fera l'objet d'une évaluation.\" Five nouns in a chain, three of them saying almost the same thing (mise en œuvre, réalisation, amélioration), and no clear agent.",
           "The cure is to find the real action and who does it, then use a verb: \"Nous allons améliorer l'accueil des usagers, puis nous évaluerons les résultats.\" Shorter, clearer, and it tells the reader who is responsible.",
-          "French administrations themselves now promote plain language (\"le langage clair\"): official guides recommend one idea per sentence, active verbs, and limiting chains of \"de\". At C1 you should be able to write the dense style when the genre demands it, and to undo it when clarity matters.",
+          "French administrations themselves now promote plain language (\"le langage clair\"): official guides recommend one idea per sentence, active verbs, and limiting chains of \"de\". At the Advanced level you should be able to write the dense style when the genre demands it, and to undo it when clarity matters.",
         ],
         examples: [
           { es: "La mise en œuvre de l'amélioration de l'accueil fera l'objet d'une évaluation.", en: "The implementation of the improvement of reception will be the subject of an assessment." },
@@ -2236,7 +2236,7 @@ export const FR_C1_U03: Lesson[] = [
         body: [
           "Neither style is wrong; each fits a genre. Headlines, notices, summaries, reports, legal texts, academic abstracts: nominal style. Emails to colleagues, explanations to the public, instructions, speeches, presentations: verbal style, or a mix.",
           "A balanced professional text often uses nouns for topics and verbs for actions: \"La hausse des tarifs (topic) s'explique par l'augmentation des coûts de l'énergie. Nous avons toutefois décidé (action) de maintenir les tarifs réduits.\" Notice the agent \"nous\" and the clear verb \"décider\" at the decisive moment.",
-          "When you read a heavy official text, practise mentally 'translating' it into verbs. When you write a DALF summary, do the reverse. Being able to move between the two is a C1 skill in itself.",
+          "When you read a heavy official text, practise mentally 'translating' it into verbs. When you write a DALF summary, do the reverse. Being able to move between the two is an Advanced skill in itself.",
         ],
         examples: [
           { es: "La hausse des tarifs s'explique par l'augmentation des coûts de l'énergie.", en: "The fare increase is due to rising energy costs." },

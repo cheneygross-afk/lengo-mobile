@@ -680,7 +680,7 @@ export const FR_B1_U15: Lesson[] = [
     slug: "b1-vocabulary-practice-6",
     level: "FR-B1",
     number: 4,
-    title: "B1 Vocabulary Practice, Part 6 of 10",
+    title: "Intermediate Vocabulary Practice, Part 6 of 10",
     summary: "Narrative words: soudain, tout à coup, finalement, à la fin, en fin de compte, entre-temps, auparavant, la veille, le lendemain, aussitôt.",
     duration: "13 min",
     sections: [

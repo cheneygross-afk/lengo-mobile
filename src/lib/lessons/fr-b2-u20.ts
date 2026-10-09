@@ -2110,7 +2110,7 @@ export const FR_B2_U20: Lesson[] = [
     level: "FR-B2",
     number: 11,
     title: "Upper-Intermediate Vocabulary Practice, Part 9 of 10",
-    summary: "Test the B2 vocabulary from Units 19-20, lesson by lesson: the concert review, the flooded village, the campaign speech, the cabinetmaker's workshop, automation, time capsules and ephemeral art.",
+    summary: "Test the Upper-intermediate vocabulary from Units 19-20, lesson by lesson: the concert review, the flooded village, the campaign speech, the cabinetmaker's workshop, automation, time capsules and ephemeral art.",
     duration: "15 min",
     sections: [
       {

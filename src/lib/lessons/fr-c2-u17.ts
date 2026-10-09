@@ -226,7 +226,7 @@ export const FR_C2_U17: Lesson[] = [
         body: [
           "When you report what someone said with a verb in the past (\"a déclaré\", \"affirmait\", \"avait annoncé\"), French moves every tense of the quotation one step back, exactly as careful English does: présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel présent, futur antérieur → conditionnel passé. The imparfait, the plus-que-parfait, the conditional and the subjunctive stay as they are.",
           "If the reporting verb is in the present or the future (\"le rapport affirme que\", \"elle dira que\"), nothing moves: Le ministre affirme : « La réforme sera appliquée » → Le ministre affirme que la réforme sera appliquée. This is why academic French so often reports sources in the present: \"Rousseau soutient que\", \"Tocqueville observe que\". It saves you the ripple and presents the idea as still alive.",
-          "A general truth may keep its present after a past verb: Galilée soutenait que la Terre tourne autour du Soleil. Keeping the present tells the reader you, the writer, also hold it true; shifting it (\"tournait\") simply reports. At C2 this choice is a quiet statement of stance.",
+          "A general truth may keep its present after a past verb: Galilée soutenait que la Terre tourne autour du Soleil. Keeping the present tells the reader you, the writer, also hold it true; shifting it (\"tournait\") simply reports. At the Mastery level this choice is a quiet statement of stance.",
         ],
         examples: [
           { es: "« Je ne céderai pas », a déclaré la ministre. → La ministre a déclaré qu'elle ne céderait pas.", en: "'I will not give in,' the minister said. → The minister said she would not give in." },
@@ -303,7 +303,7 @@ export const FR_C2_U17: Lesson[] = [
         body: [
           "Reported questions lose their inversion and their question mark. A yes/no question becomes \"si\" (\"Viendrez-vous ?\" → elle lui a demandé s'il viendrait); a question word stays (\"où\", \"quand\", \"pourquoi\", \"comment\"); \"qu'est-ce que\" and \"que\" become \"ce que\", \"qu'est-ce qui\" becomes \"ce qui\". \"*Il a demandé qu'est-ce qu'il fallait faire*\" is spoken French at best; write \"il a demandé ce qu'il fallait faire\".",
           "Orders and requests become \"de\" + infinitive: « Partez ! » → il leur a ordonné de partir; « Ne signez rien » → elle nous a conseillé de ne rien signer. The negation \"ne... rien\", \"ne pas\" goes in a block before the infinitive.",
-          "Above all, a C2 report rarely uses \"dire\". The reporting verb carries information the quotation implied: \"promettre de\", \"reconnaître que\", \"nier\" or \"démentir\" (+ subjunctive or indicative), \"s'engager à\", \"menacer de\", \"exhorter à\", \"s'étonner que\" (+ subjunctive), \"se demander si\". Choosing it well is half the paraphrase: « Bon, d'accord, j'ai eu tort » → il a reconnu qu'il avait eu tort.",
+          "Above all, a Mastery report rarely uses \"dire\". The reporting verb carries information the quotation implied: \"promettre de\", \"reconnaître que\", \"nier\" or \"démentir\" (+ subjunctive or indicative), \"s'engager à\", \"menacer de\", \"exhorter à\", \"s'étonner que\" (+ subjunctive), \"se demander si\". Choosing it well is half the paraphrase: « Bon, d'accord, j'ai eu tort » → il a reconnu qu'il avait eu tort.",
         ],
         examples: [
           { es: "« Viendrez-vous à la soutenance ? » → Elle m'a demandé si je viendrais à la soutenance.", en: "'Will you come to the viva?' → She asked me whether I would come to the viva." },
@@ -549,7 +549,7 @@ export const FR_C2_U17: Lesson[] = [
         body: [
           "\"Prétendre\" is a famous false friend: it does not mean to pretend (\"faire semblant\") but to claim, with a strong suggestion that the claim is false. \"Il prétend avoir tout lu\" = he claims to have read everything (and I doubt it). Writing \"X prétend que\" about a scholar you respect is a small insult. \"Alléguer\" (to allege) and \"se targuer de\" (to pride oneself on) also distance.",
           "Prepositions of attribution: \"selon X\" and \"d'après X\" (according to X) are neutral; \"pour X\" (for X, in X's view) presents a viewpoint and is very common in essays (\"pour Sartre, l'existence précède l'essence\"). \"À en croire X\" (if X is to be believed) is openly sceptical. \"Selon moi\" exists, but in academic French one prefers \"à notre sens\" or an impersonal turn.",
-          "You met the journalistic conditional at C1. In attribution it becomes a precise tool: \"Selon le ministère, le chômage aurait baissé\" means the ministry says so and I am not vouching for it. \"Selon le ministère, le chômage a baissé\" simply reports. The conditional is a statement of doubt, or at least of non-commitment, so it cannot be used for something you have verified, and it never appears after \"que\" with a reporting verb: \"le ministère affirme que le chômage a baissé\", not \"aurait baissé\".",
+          "You met the journalistic conditional at the Advanced level. In attribution it becomes a precise tool: \"Selon le ministère, le chômage aurait baissé\" means the ministry says so and I am not vouching for it. \"Selon le ministère, le chômage a baissé\" simply reports. The conditional is a statement of doubt, or at least of non-commitment, so it cannot be used for something you have verified, and it never appears after \"que\" with a reporting verb: \"le ministère affirme que le chômage a baissé\", not \"aurait baissé\".",
         ],
         examples: [
           { es: "Il prétend avoir lu l'intégralité de La Comédie humaine en un été.", en: "He claims to have read the whole of Balzac's Human Comedy in one summer." },
@@ -765,7 +765,7 @@ export const FR_C2_U17: Lesson[] = [
         body: [
           "These two are opposites in what they imply about truth. \"Reconnaître que\" (to acknowledge) presupposes the content is true and that admitting it costs the speaker something: \"le PDG reconnaît que des erreurs ont été commises\". \"Prétendre que\" presupposes the content is doubtful or false: \"le PDG prétend qu'aucune erreur n'a été commise\".",
           "In between: \"admettre\" (to admit, often more neutral), \"concéder\" (to concede a point in an argument, then usually move on: \"il concède que... mais...\"). \"Avouer\" is to confess, suggesting guilt or embarrassment.",
-          "Because these verbs carry presuppositions, they can be used to manipulate. A journalist who writes \"le maire reconnaît que le projet a pris du retard\" makes the delay a fact; \"le maire prétend que le projet n'a pas pris de retard\" makes the denial suspect. At C2 you read them that way, and you use them deliberately.",
+          "Because these verbs carry presuppositions, they can be used to manipulate. A journalist who writes \"le maire reconnaît que le projet a pris du retard\" makes the delay a fact; \"le maire prétend que le projet n'a pas pris de retard\" makes the denial suspect. At the Mastery level you read them that way, and you use them deliberately.",
         ],
         examples: [
           { es: "Le PDG reconnaît que des erreurs ont été commises.", en: "The CEO acknowledges that mistakes were made." },
@@ -1416,7 +1416,7 @@ export const FR_C2_U17: Lesson[] = [
       {
         heading: "Nominalisation, reordering and attribution",
         body: [
-          "Nominalisation, which you practised at C1, is the most efficient paraphrase tool in French: a verb clause becomes a noun phrase and the whole sentence reorganises around it. « Les prix ont augmenté brutalement, si bien que la consommation a chuté » → \"La brutale augmentation des prix a entraîné une chute de la consommation\". The reverse (de-nominalising) works just as well when the source is heavy.",
+          "Nominalisation, which you practised at the Advanced level, is the most efficient paraphrase tool in French: a verb clause becomes a noun phrase and the whole sentence reorganises around it. « Les prix ont augmenté brutalement, si bien que la consommation a chuté » → \"La brutale augmentation des prix a entraîné une chute de la consommation\". The reverse (de-nominalising) works just as well when the source is heavy.",
           "Reordering means changing the order of ideas, not only of words: start with the consequence, then give the cause; begin with the example, then the general claim. It is often what makes a paraphrase genuinely yours, because the logic is presented as your argument needs it.",
           "And the attribution never disappears: \"selon X\", \"comme le montre X\", \"X souligne que\", or a footnote after the paraphrase. A paraphrase with no source is a plagiarism, however well rewritten. If a distinctive phrase of the author survives (a coined term, a striking image), put that phrase in guillemets inside your paraphrase.",
         ],

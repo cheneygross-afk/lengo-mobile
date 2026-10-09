@@ -16,7 +16,7 @@ export const FR_C2_U13: Lesson[] = [
         heading: "La thèse: saying where you stand",
         body: [
           "In a French debate, an exam oral or a tribune, the first thing expected of you is \"une thèse\": not a doctoral thesis, but the position you defend, stated clearly and early. French audiences are trained from the lycée to listen for it, and a speaker who circles around the topic before committing is heard as evasive rather than open-minded.",
-          "\"Je pense que\" is fine in conversation, but at C2 it is the vaguest tool in the box. Each alternative carries its own stance. \"Je soutiens que\" (I maintain that) announces a claim you are ready to defend against objections. \"J'estime que\" (I consider that) is measured and slightly formal, the verb of the reasoned judgement. \"Je suis convaincu(e) que\" stresses personal conviction, and \"il me paraît indéniable que\" (it seems to me undeniable that) combines modesty in the form with force in the content, a typically French move.",
+          "\"Je pense que\" is fine in conversation, but at the Mastery level it is the vaguest tool in the box. Each alternative carries its own stance. \"Je soutiens que\" (I maintain that) announces a claim you are ready to defend against objections. \"J'estime que\" (I consider that) is measured and slightly formal, the verb of the reasoned judgement. \"Je suis convaincu(e) que\" stresses personal conviction, and \"il me paraît indéniable que\" (it seems to me undeniable that) combines modesty in the form with force in the content, a typically French move.",
           "Other openers: \"à mes yeux\" (in my view, more elegant than \"à mon avis\"), \"selon moi\", \"pour ma part\" (marks your position against someone else's), \"je défends l'idée que\", \"ma position est la suivante :\". Note that \"je suis d'avis que\" exists and is formal, but \"*je suis de l'opinion que\" is a calque of I am of the opinion that and sounds foreign.",
         ],
         examples: [
@@ -59,7 +59,7 @@ export const FR_C2_U13: Lesson[] = [
       {
         heading: "Conviction takes the indicative, doubt the subjunctive",
         body: [
-          "You learned at C1 that the mood follows the speaker's commitment. In argument this becomes a weapon. An affirmative opinion verb presents the content as true for you, so it takes the indicative: \"je pense qu'il a raison\", \"je suis convaincu que c'est possible\", \"il est évident que\", \"il est clair que\", \"il est certain que\", \"il me paraît indéniable que\".",
+          "You learned at the Advanced level that the mood follows the speaker's commitment. In argument this becomes a weapon. An affirmative opinion verb presents the content as true for you, so it takes the indicative: \"je pense qu'il a raison\", \"je suis convaincu que c'est possible\", \"il est évident que\", \"il est clair que\", \"il est certain que\", \"il me paraît indéniable que\".",
           "Negate the verb and the content is no longer asserted: \"je ne pense pas qu'il ait raison\", \"je ne suis pas convaincu que ce soit possible\", \"il n'est pas certain que la mesure suffise\". Verbs and expressions of doubt or denial take the subjunctive even when affirmative: \"je doute que\", \"il est douteux que\", \"je conteste que\", \"je nie que\", \"il est peu probable que\".",
           "Two subtleties that natives exploit. First, \"je ne doute pas que\" removes the doubt, so it usually takes the indicative in speech (\"je ne doute pas qu'il viendra\"); formal French also allows the subjunctive, sometimes with the ne explétif (\"je ne doute pas qu'il ne vienne\"). Second, \"il est probable que\" takes the indicative (probability is close enough to certainty), while \"il est possible que\" takes the subjunctive. English speakers, who have no mood to choose, tend to put the indicative everywhere; a jury hears \"*je ne pense pas que c'est\" as a slip, even though it is common in casual speech.",
         ],
@@ -492,7 +492,7 @@ export const FR_C2_U13: Lesson[] = [
       {
         heading: "Bien que, quoique, même si: three moods, one trap",
         body: [
-          "You know the rule from C1; in debate it has to be automatic, because a mood error in the middle of a fine sentence ruins its authority. \"Bien que\" and \"quoique\" concede a fact and take the subjunctive: \"Bien que le texte ait été amendé, il reste inacceptable.\" \"Même si\" concedes a fact or a hypothesis and follows the tense rules of \"si\": present, imparfait or plus-que-parfait indicative, never the subjunctive, never the conditional.",
+          "You know the rule from the Advanced level; in debate it has to be automatic, because a mood error in the middle of a fine sentence ruins its authority. \"Bien que\" and \"quoique\" concede a fact and take the subjunctive: \"Bien que le texte ait été amendé, il reste inacceptable.\" \"Même si\" concedes a fact or a hypothesis and follows the tense rules of \"si\": present, imparfait or plus-que-parfait indicative, never the subjunctive, never the conditional.",
           "The real trap at this level is not the basic rule but the long sentence. When the concessive clause is long, speakers lose track: \"Bien que la plupart des économistes, y compris ceux qui avaient d'abord soutenu le projet, *reconnaissent* aujourd'hui...\" Here \"reconnaissent\" happens to look identical in both moods, but \"*admettent\" would need checking. Train yourself to find the verb that \"bien que\" governs before you speak it.",
           "Elliptical concession is elegant in writing: \"bien que\" or \"quoique\" + adjective or participle, without subject or verb, when the subject is the same: \"Bien que minoritaire, ce courant pèse lourd dans le débat.\" \"Quoique discutable, l'argument mérite d'être examiné.\" And remember \"quoique\" (although, one word) vs \"quoi que\" (whatever, two words): \"Quoi que vous disiez, les faits sont têtus.\"",
         ],
@@ -1426,7 +1426,7 @@ export const FR_C2_U13: Lesson[] = [
         body: [
           "Reframing means refusing the opponent's terms and putting the debate back on your ground. \"Là n'est pas la question\" (that's not the point) uses a fronted \"là\" with inversion of the usual order, which gives it a firm, slightly lofty ring. Its spoken equivalent is \"ce n'est pas le sujet\" or \"ce n'est pas la question\".",
           "Other reframes: \"revenons-en aux faits\" (let's get back to the facts), \"le vrai sujet, c'est...\" (a pseudo-cleft that names the real issue), \"posons le problème autrement\", \"la question n'est pas de savoir si..., mais comment...\". The last one is very French: it concedes the principle in passing and shifts the debate to the method.",
-          "Be careful with \"au niveau de\": in a debate it is everywhere (\"au niveau des salaires, au niveau de l'emploi\"), and C2 examiners notice it as a filler. Prefer \"en matière de\", \"sur le plan de\", \"pour ce qui est de\", \"s'agissant de\" (formal).",
+          "Be careful with \"au niveau de\": in a debate it is everywhere (\"au niveau des salaires, au niveau de l'emploi\"), and Mastery examiners notice it as a filler. Prefer \"en matière de\", \"sur le plan de\", \"pour ce qui est de\", \"s'agissant de\" (formal).",
         ],
         examples: [
           { es: "Là n'est pas la question.", en: "That's not the point." },
@@ -1449,7 +1449,7 @@ export const FR_C2_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence avoids the filler that C2 examiners penalise?",
+            question: "Which sentence avoids the filler that Mastery examiners penalise?",
             options: [
               "En matière d'emploi, le bilan est contrasté.",
               "Au niveau de l'emploi, le bilan est contrasté.",
@@ -1837,7 +1837,7 @@ export const FR_C2_U13: Lesson[] = [
       {
         heading: "Soft disagreement: je nuancerais",
         body: [
-          "French has a rich gradation of disagreement, and choosing the right degree is a C2 skill: too soft and you sound as if you agree, too hard and you sound aggressive. At the soft end: \"je nuancerais\" (I'd qualify that a little), \"je ne suis pas tout à fait d'accord\", \"je ne dirais pas exactement cela\", \"c'est un peu plus compliqué que ça\". The conditional does the softening.",
+          "French has a rich gradation of disagreement, and choosing the right degree is a Mastery skill: too soft and you sound as if you agree, too hard and you sound aggressive. At the soft end: \"je nuancerais\" (I'd qualify that a little), \"je ne suis pas tout à fait d'accord\", \"je ne dirais pas exactement cela\", \"c'est un peu plus compliqué que ça\". The conditional does the softening.",
           "\"Nuancer\" is a key verb of French intellectual life: to qualify, to add shades. \"Je nuancerais votre propos\" means I'd qualify what you said. Its noun gives \"apporter une nuance\" (to add a qualification) and the praise \"un esprit nuancé\". A French audience values nuance highly; \"c'est plus nuancé que ça\" is a polite way of saying your opponent is simplistic.",
           "\"Je ne partage pas votre point de vue\" (I don't share your view) is the neutral middle of the scale: clear, courteous, no emotion. \"Je ne vous suis pas sur ce terrain\" (I can't follow you there) adds that the opponent has gone too far.",
         ],

@@ -1502,7 +1502,7 @@ export const FR_C2_U32: Lesson[] = [
     slug: "c2-vocab-philosophy-thought",
     level: "FR-C2",
     number: 8,
-    title: "C2 Vocabulary: Philosophy and Thought",
+    title: "Mastery Vocabulary: Philosophy and Thought",
     summary: "Ontologie, épistémologie, téléologie, aporie, solipsisme, dialectique, relativisme, nihilisme, sophisme, tautologie, maïeutique: the concepts for reading essays and debating ideas.",
     duration: "18 min",
     sections: [
@@ -1812,7 +1812,7 @@ export const FR_C2_U32: Lesson[] = [
         body: [
           "\"Faire part de quelque chose à quelqu'un\" is to inform, announce: \"il m'a fait part de ses inquiétudes\"; \"un faire-part\" is a printed announcement of a birth, wedding or death. \"Faire fi de\" is to scorn, disregard, ignore (formal): \"faire fi des recommandations\", \"faire fi des règles\".",
           "\"Donner lieu à\" is to give rise to, lead to: \"la décision a donné lieu à de vifs débats\". It is more formal than \"provoquer\" and neutral in tone. \"Tirer parti de\" is to take advantage of, make the most of: \"tirer parti de la situation\", \"tirer parti de ses erreurs\". Compare \"tirer profit de\" (to profit from) and \"profiter de\".",
-          "All these locutions are invariable in their noun part (no article, no plural): \"ils ont fait part\", \"elles ont tiré parti\". They make writing dense and precise, which is exactly what C2 examiners expect.",
+          "All these locutions are invariable in their noun part (no article, no plural): \"ils ont fait part\", \"elles ont tiré parti\". They make writing dense and precise, which is exactly what Mastery examiners expect.",
         ],
         examples: [
           { es: "Il m'a fait part de ses inquiétudes concernant le projet.", en: "He told me about his concerns regarding the project." },

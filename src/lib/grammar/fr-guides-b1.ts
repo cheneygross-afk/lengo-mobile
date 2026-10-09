@@ -459,7 +459,7 @@ export const FR_B1_GUIDES: FrGrammarGuide[] = [
       "The full French imperative: irregular forms (sois, aie, sache, veuillez), pronominal verbs (lève-toi), pronoun order after the verb (donne-le-moi), the negative (ne me le donne pas) and vas-y, manges-en.",
     level: "B1",
     intro: [
-      `You already know the basic imperative: "parle", "parlons", "parlez". At B1 the challenge is everything around it: the handful of irregular forms, reflexive verbs ("lève-toi"), and above all object pronouns, which jump behind the verb in the affirmative ("donne-le-moi") but stay in front in the negative ("ne me le donne pas").`,
+      `You already know the basic imperative: "parle", "parlons", "parlez". At the Intermediate level the challenge is everything around it: the handful of irregular forms, reflexive verbs ("lève-toi"), and above all object pronouns, which jump behind the verb in the affirmative ("donne-le-moi") but stay in front in the negative ("ne me le donne pas").`,
       `The rule is easier than it looks. In an affirmative command, pronouns follow the verb, joined by hyphens, in roughly the English order (give it to me: "donne-le-moi"). In a negative command, nothing moves: pronouns sit before the verb exactly as in a normal statement.`,
     ],
     sections: [
@@ -728,7 +728,7 @@ export const FR_B1_GUIDES: FrGrammarGuide[] = [
     level: "B1",
     intro: [
       `French if-sentences follow a strict pattern of tenses, stricter than English. The core rule fits on one line: after "si" (if), never put the future or the conditional. The tense in the "si" clause tells you how real the situation is, and the other clause follows from it.`,
-      `For a real or likely condition, use "si" + present: "Si tu viens, on ira au parc". For an imaginary or unlikely one, use "si" + imparfait, with the conditional in the main clause: "Si j'étais riche, j'achèterais une maison". (The past version, "si j'avais su, je serais venu", is a B2 topic.)`,
+      `For a real or likely condition, use "si" + present: "Si tu viens, on ira au parc". For an imaginary or unlikely one, use "si" + imparfait, with the conditional in the main clause: "Si j'étais riche, j'achèterais une maison". (The past version, "si j'avais su, je serais venu", is an Upper-intermediate topic.)`,
       `English mostly follows the same logic (if you come, if I were rich), so the main danger is transferring the would into the "si" clause, a mistake that even some native speakers make in casual speech and that teachers correct relentlessly.`,
     ],
     sections: [
@@ -976,7 +976,7 @@ export const FR_B1_GUIDES: FrGrammarGuide[] = [
     level: "B1",
     intro: [
       `Relative pronouns join two sentences by turning one into a description of a noun: "J'ai un ami. Il habite à Rome." becomes "J'ai un ami qui habite à Rome". English uses who, which, that, where and whose, and often drops the pronoun altogether (the book I read). French never drops it, and it chooses the pronoun by grammar, not by whether the noun is a person or a thing.`,
-      `The key question is what job the pronoun does in its own clause. Subject: "qui". Direct object: "que". Place or time: "où". Something introduced by "de": "dont". After another preposition: "preposition + qui" for people (and "lequel", a B2 topic, for things).`,
+      `The key question is what job the pronoun does in its own clause. Subject: "qui". Direct object: "que". Place or time: "où". Something introduced by "de": "dont". After another preposition: "preposition + qui" for people (and "lequel", an Upper-intermediate topic, for things).`,
     ],
     sections: [
       {

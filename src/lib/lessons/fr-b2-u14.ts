@@ -1442,7 +1442,7 @@ export const FR_B2_U14: Lesson[] = [
     level: "FR-B2",
     number: 8,
     title: "Upper-Intermediate Vocabulary Practice, Part 6 of 10",
-    summary: "Test the B2 vocabulary of Units 13-14: methods and tips, moods and personality, hotels and reviews, diplomacy and negotiation.",
+    summary: "Test the Upper-intermediate vocabulary of Units 13-14: methods and tips, moods and personality, hotels and reviews, diplomacy and negotiation.",
     duration: "14 min",
     sections: [
       {

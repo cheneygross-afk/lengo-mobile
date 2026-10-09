@@ -103,7 +103,7 @@ export const FR_B1_U05: Lesson[] = [
         heading: "Reactions and goodbyes",
         body: [
           "To end the call, Nadia reacts with emotion triggers, which also take the subjunctive: \"je suis désolée que ce soit si difficile\", \"c'est normal que tu hésites\". Notice \"désolée\" with -e: Nadia is a woman.",
-          "Her last words are a hope, and here the mood flips: \"espérer que\" takes the indicative, usually the future: \"j'espère que vous trouverez une solution\". \"Souhaiter que\", which also means to wish, keeps the subjunctive: \"je souhaite que tout se passe bien\". This pair is one of the most tested points at B1.",
+          "Her last words are a hope, and here the mood flips: \"espérer que\" takes the indicative, usually the future: \"j'espère que vous trouverez une solution\". \"Souhaiter que\", which also means to wish, keeps the subjunctive: \"je souhaite que tout se passe bien\". This pair is one of the most tested points at the Intermediate level.",
           "Camille answers with the classic radio thanks: \"Merci beaucoup, ça m'aide vraiment.\" Even in a quick reply like this, French uses \"ça\" for the situation, where English says it.",
         ],
         examples: [
@@ -2013,7 +2013,7 @@ export const FR_B1_U05: Lesson[] = [
     slug: "b1-vocabulary-practice-2",
     level: "FR-B1",
     number: 10,
-    title: "B1 Vocabulary Practice, Part 2 of 10",
+    title: "Intermediate Vocabulary Practice, Part 2 of 10",
     summary: "Words for feelings and relationships: déçu, vexé, gêné, fier, se disputer, se réconcilier, rompre, avoir le cafard and ça me touche, with their false-friend traps.",
     duration: "13 min",
     sections: [

@@ -276,7 +276,7 @@ export const FR_B2_U06: Lesson[] = [
         heading: "Probable vs possible, je pense vs je ne pense pas",
         body: [
           "The likelihood scale also splits: \"il est probable que\", \"il est certain / sûr / clair / évident que\" take the indicative; \"il est possible que\", \"il se peut que\", \"il est peu probable que\", \"il est improbable que\" take the subjunctive. Probable feels close enough to a fact, possible does not. Note that \"peu probable\" flips it back to the subjunctive.",
-          "And the opinion verbs you learned at B1: affirmative \"je pense / je crois / je trouve que\" + indicative; negative \"je ne pense pas que\" + subjunctive. In questions with inversion (\"penses-tu qu'il ait raison ?\") the subjunctive is possible and sounds formal; with intonation or est-ce que, the indicative is normal.",
+          "And the opinion verbs you learned at the Intermediate level: affirmative \"je pense / je crois / je trouve que\" + indicative; negative \"je ne pense pas que\" + subjunctive. In questions with inversion (\"penses-tu qu'il ait raison ?\") the subjunctive is possible and sounds formal; with intonation or est-ce que, the indicative is normal.",
         ],
         examples: [
           { es: "Il est probable que le train aura du retard.", en: "The train will probably be late." },
@@ -1593,7 +1593,7 @@ export const FR_B2_U06: Lesson[] = [
     level: "FR-B2",
     number: 9,
     title: "Upper-Intermediate Vocabulary Practice, Part 2 of 10",
-    summary: "Test the B2 vocabulary from Units 5-6: family and upbringing, rules, apologies and relief, and polite requests at work.",
+    summary: "Test the Upper-intermediate vocabulary from Units 5-6: family and upbringing, rules, apologies and relief, and polite requests at work.",
     duration: "15 min",
     sections: [
       {

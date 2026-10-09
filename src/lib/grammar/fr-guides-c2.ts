@@ -11,7 +11,7 @@ export const FR_C2_GUIDES: FrGrammarGuide[] = [
     level: "C2",
     intro: [
       "Legal and administrative French is a register with its own grammar. A lease, a letter from the tax office, a court decision or a town-hall order uses fixed formulas (\"je soussigné\", \"il est convenu ce qui suit\"), present and future tenses that express obligation rather than time, demonstratives like \"ledit\" that English contracts would express with the said, and long sentences held together by participles and nominalisations.",
-      "None of it is optional decoration. These forms exist to be precise, impersonal and binding, and they're the same across France, Belgium, Switzerland and Québec with small local variations. At C2 you're expected to read them without help and to write a correct formal request or a simple clause yourself.",
+      "None of it is optional decoration. These forms exist to be precise, impersonal and binding, and they're the same across France, Belgium, Switzerland and Québec with small local variations. At Mastery you're expected to read them without help and to write a correct formal request or a simple clause yourself.",
       "This guide covers the grammar rather than the vocabulary: how these texts are built, what each structure commits the reader to, and how to rephrase them in plain French when you need to explain them.",
     ],
     sections: [
@@ -191,7 +191,7 @@ export const FR_C2_GUIDES: FrGrammarGuide[] = [
         heading: "Quoting a proverb naturally",
         body: [
           "To introduce a proverb: \"comme dit le proverbe\", \"comme on dit\", \"tu sais ce qu'on dit\", or more formally \"selon l'adage\". Natives very often quote only the first half and let the listener finish: \"Bon, quand le chat n'est pas là...\" (the mice will play), \"Enfin, qui sème le vent...\"",
-          "Proverbs are also playfully distorted in headlines and adverts, which assumes you know the original: \"Qui ne risque rien n'a rien\" becomes \"Qui ne teste rien n'a rien\". At C2, spotting the twist is part of understanding the text.",
+          "Proverbs are also playfully distorted in headlines and adverts, which assumes you know the original: \"Qui ne risque rien n'a rien\" becomes \"Qui ne teste rien n'a rien\". At the Mastery level, spotting the twist is part of understanding the text.",
         ],
         examples: [
           { fr: "Comme dit le proverbe, l'appétit vient en mangeant.", en: "As the saying goes, the more you have, the more you want." },
@@ -249,7 +249,7 @@ export const FR_C2_GUIDES: FrGrammarGuide[] = [
     level: "C2",
     intro: [
       "Tact in French depends less on vocabulary than on grammar. The same request moves from blunt to delicate when \"je veux\" becomes \"je voulais\" or \"je voudrais\"; the same criticism softens when \"c'est raté\" becomes \"ce n'est pas très réussi\"; the same admission becomes evasive when \"nous avons fait des erreurs\" becomes \"des erreurs ont été commises\".",
-      "A C2 speaker needs to do two things with these tools: use them to be polite without being vague, and decode them when others use them, whether in a manager's feedback, a condolence card or a company press release. \"Il faudrait peut-être revoir certains points\" can be a gentle suggestion or a serious warning, and only context and grammar tell you which.",
+      "A Mastery speaker needs to do two things with these tools: use them to be polite without being vague, and decode them when others use them, whether in a manager's feedback, a condolence card or a company press release. \"Il faudrait peut-être revoir certains points\" can be a gentle suggestion or a serious warning, and only context and grammar tell you which.",
       "This guide covers the grammatical devices of indirectness one by one, with the registers they belong to and the point at which tact turns into \"langue de bois\".",
     ],
     sections: [
@@ -512,7 +512,7 @@ export const FR_C2_GUIDES: FrGrammarGuide[] = [
     level: "C2",
     intro: [
       "Every French sentence carries a register label. \"J'sais pas\", \"je ne sais pas\" and \"je l'ignore\" say the same thing at three levels: \"familier\", \"courant\" and \"soutenu\". English signals formality mostly through vocabulary; French does it just as much through grammar, in the way you negate, ask questions, choose between \"on\" and \"nous\" or \"ça\" and \"cela\", and pick your tenses.",
-      "At C2 the challenge isn't knowing that registers exist but controlling them: holding a register consistently through a whole text, shifting deliberately when the situation demands it, and reading what a shift means when someone else makes it. A colleague who suddenly switches from \"tu\" to \"vous\", or restores the \"ne\" he usually drops, is telling you something.",
+      "At the Mastery level the challenge isn't knowing that registers exist but controlling them: holding a register consistently through a whole text, shifting deliberately when the situation demands it, and reading what a shift means when someone else makes it. A colleague who suddenly switches from \"tu\" to \"vous\", or restores the \"ne\" he usually drops, is telling you something.",
       "This guide maps the main grammatical markers on one scale, with the reduced forms of fast speech that are hard to catch by ear and the features that only appear in careful writing.",
     ],
     sections: [
@@ -649,7 +649,7 @@ export const FR_C2_GUIDES: FrGrammarGuide[] = [
     level: "C2",
     intro: [
       "French public speech, from parliamentary debate to the dissertation, relies heavily on questions that don't expect an answer. \"Faut-il rappeler que...?\", \"Qui pourrait le nier ?\", \"À quoi bon insister ?\" each assert something more forcefully than a statement would. Their grammar is formal: inversion, the interrogative infinitive, the conditional of feigned doubt.",
-      "The same register uses inversion outside questions. After \"à peine\", \"sans doute\", \"peut-être\", \"aussi\", \"ainsi\" and \"encore\" at the head of a sentence, careful written French inverts the subject and verb: \"Sans doute a-t-il raison\", \"À peine était-il élu qu'il trahissait ses promesses.\" Mastering this is one of the clearest markers of C2 writing.",
+      "The same register uses inversion outside questions. After \"à peine\", \"sans doute\", \"peut-être\", \"aussi\", \"ainsi\" and \"encore\" at the head of a sentence, careful written French inverts the subject and verb: \"Sans doute a-t-il raison\", \"À peine était-il élu qu'il trahissait ses promesses.\" Mastering this is one of the clearest markers of Mastery writing.",
       "This guide also covers the reverse case, which trips up many advanced learners: indirect questions, where inversion and \"est-ce que\" are not allowed. \"Je me demande ce qu'il veut\", never \"*je me demande qu'est-ce qu'il veut\" in writing.",
     ],
     sections: [
@@ -787,8 +787,8 @@ export const FR_C2_GUIDES: FrGrammarGuide[] = [
     level: "C2",
     intro: [
       "Read three French accounts of the same event, in a textbook, a newspaper retrospective and a novel, and you'll find three different tense systems. French historical writing has more ways to narrate the past than English, and several of them use tenses in ways that look illogical at first: an imperfect that narrates a single event, a present that describes 1789, a future that tells you what happened in 1821.",
-      "Each of these is a stylistic choice with a precise effect. The imparfait narratif slows down and highlights a decisive moment; the présent de narration puts the reader in the middle of events; the futur historique steps forward from the narrative present to reveal what was coming. A C2 reader recognises them instantly; a C2 writer can use them without losing coherence.",
-      "This guide assumes you can recognise the passé simple and the passé antérieur (covered in the C1 guide on literary tenses) and focuses on how the whole system fits together, including the rule natives most often break: \"après que\" takes the indicative.",
+      "Each of these is a stylistic choice with a precise effect. The imparfait narratif slows down and highlights a decisive moment; the présent de narration puts the reader in the middle of events; the futur historique steps forward from the narrative present to reveal what was coming. A Mastery reader recognises them instantly; a Mastery writer can use them without losing coherence.",
+      "This guide assumes you can recognise the passé simple and the passé antérieur (covered in the Advanced guide on literary tenses) and focuses on how the whole system fits together, including the rule natives most often break: \"après que\" takes the indicative.",
     ],
     sections: [
       {
@@ -925,7 +925,7 @@ export const FR_C2_GUIDES: FrGrammarGuide[] = [
     intro: [
       "Modern French uses two subjunctive tenses, present and past. Literary French has two more: the imparfait du subjonctif (\"qu'il fût\", \"qu'il vînt\") and the plus-que-parfait du subjonctif (\"qu'il eût compris\"). They have almost vanished from speech, but they fill classic novels, older texts, some formal speeches, and still turn up in the most careful contemporary prose.",
       "You need to recognise them, not to produce them in everyday writing. Recognition is easy once you know the pattern: the third person singular, which accounts for most occurrences, looks like the passé simple with a circumflex and a \"t\" (\"il fut\" → \"qu'il fût\", \"il vint\" → \"qu'il vînt\", \"il parla\" → \"qu'il parlât\").",
-      "A handful of expressions keep these forms alive in modern French, and a C2 speaker uses them naturally: \"fût-ce\", \"ne fût-ce que\", \"qui l'eût cru ?\", \"on eût dit\". This guide shows how the forms are built, when they're used, and how to translate them into modern French.",
+      "A handful of expressions keep these forms alive in modern French, and a Mastery speaker uses them naturally: \"fût-ce\", \"ne fût-ce que\", \"qui l'eût cru ?\", \"on eût dit\". This guide shows how the forms are built, when they're used, and how to translate them into modern French.",
     ],
     sections: [
       {
@@ -1052,7 +1052,7 @@ export const FR_C2_GUIDES: FrGrammarGuide[] = [
       "The ne that doesn't negate (avant qu'il ne parte, je crains qu'il ne soit trop tard, plus cher que je ne pensais), the literary ne without pas (je ne saurais dire, il n'osait répondre), and the old negations ne... point and ne... guère.",
     level: "C2",
     intro: [
-      "French has a \"ne\" that looks negative but isn't. In \"Partez avant qu'il ne pleuve\", nobody is saying it won't rain: the sentence means leave before it rains. This \"ne explétif\" appears after verbs of fear, certain conjunctions and comparisons of inequality. It's optional, it's a marker of careful style, and misreading it as a negation is a classic C2 comprehension trap.",
+      "French has a \"ne\" that looks negative but isn't. In \"Partez avant qu'il ne pleuve\", nobody is saying it won't rain: the sentence means leave before it rains. This \"ne explétif\" appears after verbs of fear, certain conjunctions and comparisons of inequality. It's optional, it's a marker of careful style, and misreading it as a negation is a classic Mastery comprehension trap.",
       "French also has the opposite case: a \"ne\" that does negate on its own, without \"pas\". \"Je ne saurais vous dire\", \"Il n'osait répondre\", \"Je ne peux vous aider\" are fully negative. This literary \"ne\" survives with a handful of verbs and is very much alive in formal speech and writing.",
       "Add the old negations \"ne... point\" and \"ne... guère\", and you have the full set of negations that separate everyday French from the French of literature, law and formal correspondence.",
     ],

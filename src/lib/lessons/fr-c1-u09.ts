@@ -15,7 +15,7 @@ export const FR_C1_U09: Lesson[] = [
       {
         heading: "The à family: verbs you must learn with their preposition",
         body: [
-          "At C1, the mistakes that still give you away are rarely in the conjugation: they are in the little word after the verb. French verbs come with a fixed construction, and it often differs from English. \"Penser à\" (to think about), \"s'intéresser à\" (to be interested in), \"renoncer à\" (to give up), \"tenir à\" (to be attached to, to insist on), \"assister à\" (to attend), \"obéir à\" (to obey), \"nuire à\" (to harm) and \"ressembler à\" (to look like) all take \"à\", whatever English does.",
+          "At the Advanced level, the mistakes that still give you away are rarely in the conjugation: they are in the little word after the verb. French verbs come with a fixed construction, and it often differs from English. \"Penser à\" (to think about), \"s'intéresser à\" (to be interested in), \"renoncer à\" (to give up), \"tenir à\" (to be attached to, to insist on), \"assister à\" (to attend), \"obéir à\" (to obey), \"nuire à\" (to harm) and \"ressembler à\" (to look like) all take \"à\", whatever English does.",
           "Notice how many English equivalents use a different preposition (think about, interested in, give up) or none at all (attend, obey, harm, resemble). That is exactly why these verbs need to be learned as chunks: \"assister à une réunion\", never \"*assister une réunion\", which would mean something else entirely (\"assister quelqu'un\" is to assist someone).",
           "Remember the contractions: \"à + le = au\", \"à + les = aux\". \"Il a renoncé au poste\", \"elle s'intéresse aux langues anciennes\". Forgetting the contraction (\"*à le poste\") is an instant marker of a foreign writer.",
         ],
@@ -99,7 +99,7 @@ export const FR_C1_U09: Lesson[] = [
       {
         heading: "People: à lui, à elle, or plain lui?",
         body: [
-          "Here is the trap that survives to C1. With a person, most à-verbs do NOT take \"lui\" or \"leur\": they keep \"à\" + a stressed pronoun after the verb. \"Je pense à Marc\" becomes \"je pense à lui\", never \"*je lui pense\". The same goes for \"s'intéresser à\", \"tenir à\", \"renoncer à\", \"faire attention à\", \"s'habituer à\", \"s'adresser à\" and \"avoir affaire à\": \"elle tient beaucoup à eux\", \"adressez-vous à elle\".",
+          "Here is the trap that survives to the Advanced level. With a person, most à-verbs do NOT take \"lui\" or \"leur\": they keep \"à\" + a stressed pronoun after the verb. \"Je pense à Marc\" becomes \"je pense à lui\", never \"*je lui pense\". The same goes for \"s'intéresser à\", \"tenir à\", \"renoncer à\", \"faire attention à\", \"s'habituer à\", \"s'adresser à\" and \"avoir affaire à\": \"elle tient beaucoup à eux\", \"adressez-vous à elle\".",
           "Two groups behave differently. Verbs of communication and exchange, where the person is a receiver, take \"lui / leur\" before the verb: \"parler à\", \"répondre à\", \"téléphoner à\", \"écrire à\", \"dire à\", \"donner à\". And a short list of other verbs does too: \"ressembler à\" (je lui ressemble), \"obéir à\" (ils lui obéissent), \"plaire à\" (ça leur plaît), \"nuire à\" (ça lui nuit), \"sourire à\", \"appartenir à\".",
           "A useful rule of thumb: all pronominal verbs (\"s'intéresser à\", \"s'adresser à\", \"se fier à\") and \"penser / songer à\" use \"à + stressed pronoun\". When in doubt, a dictionary entry that says \"penser à qqn\" with no 'lui' example is your clue; the y / lui choice is part of the verb, not something you can work out from English.",
         ],
@@ -336,7 +336,7 @@ export const FR_C1_U09: Lesson[] = [
         body: [
           "With a person, standard French keeps \"de\" + a stressed pronoun after the verb: \"Tu te souviens de Claire ? Oui, je me souviens d'elle.\" \"Je me méfie de lui.\" \"Elle s'occupe d'eux le mercredi.\" Using \"en\" for a specific person (\"*je m'en souviens\" meaning Claire) is heard in casual speech but is marked as careless in writing.",
           "\"En\" for people is normal in one case: when the people are an indefinite group or a quantity. \"Des collaborateurs fiables, on en a besoin\" (reliable staff: we need them) is perfectly standard.",
-          "These de-verbs are also the engine of \"dont\", which you saw at B2. \"Dont\" replaces \"de + antecedent\": \"le collègue dont je me méfie\" (the colleague I don't trust), \"le jour dont je me souviens\", \"les outils dont nous avons besoin\". If the verb takes de, the relative is dont; if you are unsure, check the verb's construction first.",
+          "These de-verbs are also the engine of \"dont\", which you saw at the Upper-intermediate level. \"Dont\" replaces \"de + antecedent\": \"le collègue dont je me méfie\" (the colleague I don't trust), \"le jour dont je me souviens\", \"les outils dont nous avons besoin\". If the verb takes de, the relative is dont; if you are unsure, check the verb's construction first.",
         ],
         examples: [
           { es: "Mon ancien professeur ? Je me souviens très bien de lui.", en: "My old teacher? I remember him very well." },
@@ -572,7 +572,7 @@ export const FR_C1_U09: Lesson[] = [
         body: [
           "\"Servir à\" gives the purpose of a thing: \"À quoi sert ce bouton ?\" (What is this button for?), \"ça ne sert à rien\" (it's no use). \"Servir de\" gives a role played by something that isn't normally that: \"ce canapé sert de lit\" (this sofa is used as a bed), \"elle m'a servi d'interprète\". \"Se servir de\" means to use: \"je me sers de ce logiciel tous les jours\" → \"je m'en sers\".",
           "\"Tenir à\" you met in Part 1: to be attached to (\"je tiens à ce bijou\") or to insist on doing something (\"je tiens à vous remercier\", I really want to thank you). \"Tenir de\" means to take after a relative: \"il tient de sa mère\" (he takes after his mother), or to get something from a source (\"je tiens cette information d'un collègue\").",
-          "Two more pairs from earlier levels complete the picture: \"jouer à\" for games and sports (\"jouer au tennis, aux échecs\") vs \"jouer de\" for instruments (\"jouer du piano, de la guitare\"); and \"parler à\" (talk to) vs \"parler de\" (talk about). At C1 the challenge is not knowing them but choosing them automatically, with the right pronoun.",
+          "Two more pairs from earlier levels complete the picture: \"jouer à\" for games and sports (\"jouer au tennis, aux échecs\") vs \"jouer de\" for instruments (\"jouer du piano, de la guitare\"); and \"parler à\" (talk to) vs \"parler de\" (talk about). At the Advanced level the challenge is not knowing them but choosing them automatically, with the right pronoun.",
         ],
         examples: [
           { es: "À quoi sert cette petite clé sur le trousseau ?", en: "What's this little key on the key ring for?" },
@@ -1247,7 +1247,7 @@ export const FR_C1_U09: Lesson[] = [
         heading: "Servir in four sentences",
         body: [
           "\"Servir\" + direct object: to serve food or customers (\"on vous sert ?\", \"servir le dessert\"). \"Servir à\": purpose, often in questions and negations (\"à quoi ça sert ?\", \"ça ne sert à rien de pleurer\"). \"Servir de\": to act as, to be used as (\"le salon sert de chambre d'amis\"). \"Se servir de\": to use (\"je me sers d'une appli pour mes comptes\"); and plain \"se servir\" is to help oneself (\"servez-vous !\").",
-          "With people, \"servir de\" is a nice C1 tool: \"il m'a servi de guide\" (he acted as my guide), \"elle lui sert de mère\" (she's like a mother to him). With \"à\", the person who benefits appears as an indirect pronoun: \"ça m'a beaucoup servi\" (it was very useful to me).",
+          "With people, \"servir de\" is a nice Advanced tool: \"il m'a servi de guide\" (he acted as my guide), \"elle lui sert de mère\" (she's like a mother to him). With \"à\", the person who benefits appears as an indirect pronoun: \"ça m'a beaucoup servi\" (it was very useful to me).",
           "The \"se servir de\" pronouns: a thing → en (\"je m'en sers\"), a person → de + stressed pronoun, and the meaning becomes negative: \"il se sert de toi\" = he's using you.",
         ],
         examples: [
@@ -1706,7 +1706,7 @@ export const FR_C1_U09: Lesson[] = [
       {
         heading: "Choosing between infinitive, à ce que and a noun",
         body: [
-          "At C1 you have three ways to complete these verbs, and good writers switch between them for style. A noun: \"je m'attends à une hausse des prix\". An infinitive (same subject): \"je m'attends à payer plus\". A clause with \"à ce que\" (different subject): \"je m'attends à ce que les prix augmentent\".",
+          "At the Advanced level you have three ways to complete these verbs, and good writers switch between them for style. A noun: \"je m'attends à une hausse des prix\". An infinitive (same subject): \"je m'attends à payer plus\". A clause with \"à ce que\" (different subject): \"je m'attends à ce que les prix augmentent\".",
           "The noun version is often the most elegant in writing (remember Unit 3 on nominalization): \"veillez à la fermeture des fenêtres\", \"les habitants s'opposent à la construction de la tour\". The clause version is clearer when the subject matters.",
           "Pronouns sum up a whole clause too: \"Tu t'attends à ce qu'il accepte ? Oui, je m'y attends.\" \"Il tient à ce qu'on vienne ? Oui, il y tient beaucoup.\"",
         ],
@@ -2944,7 +2944,7 @@ export const FR_C1_U09: Lesson[] = [
       {
         heading: "At work: instructions and expectations",
         body: [
-          "This spiral review brings together the unit and the subjunctive work from Unit 1 and B2. In a workplace message, three patterns cluster: requests with two objects (\"je vous demande de\", \"merci de\"), expectations with à ce que + subjunctive (\"je tiens à ce que\", \"veillez à ce que\"), and relatives that carry the verb's preposition (\"le dossier dont je vous ai parlé\", \"la réunion à laquelle vous participerez\").",
+          "This spiral review brings together the unit and the subjunctive work from Unit 1 and Upper-intermediate. In a workplace message, three patterns cluster: requests with two objects (\"je vous demande de\", \"merci de\"), expectations with à ce que + subjunctive (\"je tiens à ce que\", \"veillez à ce que\"), and relatives that carry the verb's preposition (\"le dossier dont je vous ai parlé\", \"la réunion à laquelle vous participerez\").",
           "Read the manager's message below, sentence by sentence, and notice how often a single sentence combines two or three of these patterns.",
         ],
         examples: [

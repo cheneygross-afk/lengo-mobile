@@ -32,7 +32,7 @@ export const FR_C1_U06: Lesson[] = [
         body: [
           "Open any French novel, fairy tale or history book and you'll find a past tense you rarely hear in conversation: the passé simple. \"Elle ouvrit la porte et entra.\" (She opened the door and went in.) It has the same role as the passé composé, a completed event in the past, but it belongs to written narration.",
           "In speech, and in most everyday writing (emails, blogs, newspapers' quoted speech), French uses the passé composé: \"elle a ouvert la porte et elle est entrée\". In a novel, a tale, a biography or a history book, the narrator switches to the passé simple. It cuts the story off from the present: it's the tense of events told as a story, not as things that matter to me now.",
-          "At C1 your first job is to recognise it instantly, because a good half of what you read in literature is in this tense. You'll also learn to write the third person forms (\"il\", \"elle\", \"ils\", \"elles\"), which are 95% of what novels use. The \"je\" and \"nous\" forms you mainly need to recognise.",
+          "At the Advanced level your first job is to recognise it instantly, because a good half of what you read in literature is in this tense. You'll also learn to write the third person forms (\"il\", \"elle\", \"ils\", \"elles\"), which are 95% of what novels use. The \"je\" and \"nous\" forms you mainly need to recognise.",
         ],
         examples: [
           { es: "Elle ouvrit la porte et entra sans un mot.", en: "She opened the door and came in without a word." },
@@ -1052,7 +1052,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         heading: "Three voices on the page",
         body: [
-          "A novel can give you a character's words in three ways. Direct speech, in quotation marks with a reporting verb: « Je partirai demain », dit-elle. Indirect speech, introduced by a reporting verb and \"que\", with the tense shifts you learned at B2: Elle dit qu'elle partirait le lendemain. And free indirect style, the subject of Part 5: no quotation marks, no reporting verb, but the character's own words and feelings come through the narration: Elle partirait demain. C'était décidé.",
+          "A novel can give you a character's words in three ways. Direct speech, in quotation marks with a reporting verb: « Je partirai demain », dit-elle. Indirect speech, introduced by a reporting verb and \"que\", with the tense shifts you learned at the Upper-intermediate level: Elle dit qu'elle partirait le lendemain. And free indirect style, the subject of Part 5: no quotation marks, no reporting verb, but the character's own words and feelings come through the narration: Elle partirait demain. C'était décidé.",
           "In the third version, who says \"c'était décidé\"? Not the narrator: it's the character's thought, in the narrator's tenses. Recognising this blend is a DALF reading skill: questions often ask what a character thinks versus what the narrator states.",
         ],
         examples: [
@@ -1460,7 +1460,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         heading: "How it's built",
         body: [
-          "Free indirect style (le style indirect libre) is a hybrid. From indirect speech it takes the third person and the tense shifts you learned at B2: present → imparfait, future → conditional, passé composé → plus-que-parfait. From direct speech it keeps the character's sentence types and words: exclamations, questions, interjections, \"demain\", \"ici\", familiar vocabulary. And it drops the reporting verb and \"que\" entirely.",
+          "Free indirect style (le style indirect libre) is a hybrid. From indirect speech it takes the third person and the tense shifts you learned at the Upper-intermediate level: present → imparfait, future → conditional, passé composé → plus-que-parfait. From direct speech it keeps the character's sentence types and words: exclamations, questions, interjections, \"demain\", \"ici\", familiar vocabulary. And it drops the reporting verb and \"que\" entirely.",
           "Build it in three steps from direct speech: « Je partirai demain. Quelle folie ! Pourquoi est-ce que je l'ai cru ? » pensa-t-elle. 1) Third person: elle partira... 2) Tense shifts: elle partirait... l'avait-elle cru... 3) Remove the reporting frame: Elle partirait demain. Quelle folie ! Pourquoi l'avait-elle cru ?",
           "Notice that the question keeps its inversion (\"l'avait-elle cru\"), unlike in indirect speech (\"elle se demanda pourquoi elle l'avait cru\", no inversion). And \"demain\" stays \"demain\", not \"le lendemain\": we're inside the character's head.",
         ],
@@ -1496,7 +1496,7 @@ export const FR_C1_U06: Lesson[] = [
         body: [
           "Why do writers love it? It lets the reader slide into a character's mind without the heavy machinery of \"il pensa que\", and it creates a double voice: the reader hears the character, but through the narrator. Flaubert made it famous in \"Madame Bovary\": Emma's romantic clichés appear in her own words, and the narrator's silent irony frames them.",
           "Example in Flaubert's manner: « Elle voulait mourir, et elle voulait habiter Paris. Paris ! Comme ce serait beau ! Elle aurait une calèche, des robes de soie, un salon où l'on parlerait de poésie... » Whose dream is it? Emma's. Who is gently mocking it? The narrator, by letting the clichés run on.",
-          "In modern fiction and even journalism (portraits, long-form reportage), free indirect style is everywhere, often mixed with the present tense. At C1 you should recognise it reliably and be able to use it for a few sentences.",
+          "In modern fiction and even journalism (portraits, long-form reportage), free indirect style is everywhere, often mixed with the present tense. At the Advanced level you should recognise it reliably and be able to use it for a few sentences.",
         ],
         examples: [
           { es: "Paris ! Comme ce serait beau !", en: "Paris! How wonderful it would be!" },
@@ -2634,13 +2634,13 @@ export const FR_C1_U06: Lesson[] = [
     level: "FR-C1",
     number: 14,
     title: "Spiral Review: Narrating and Reporting",
-    summary: "Recombine B2 reported speech and tense shifts with the literary tenses and free indirect style.",
+    summary: "Recombine Upper-intermediate reported speech and tense shifts with the literary tenses and free indirect style.",
     duration: "18 min",
     sections: [
       {
         heading: "Reported speech in a literary past",
         body: [
-          "At B2 you learned indirect speech with a reporting verb in the passé composé: \"il a dit qu'il viendrait\". In literary narration the reporting verb is in the passé simple, and the same backshift applies: present → imparfait, passé composé → plus-que-parfait, future → conditionnel, future perfect → conditionnel passé. Time markers shift too: \"demain\" → \"le lendemain\", \"hier\" → \"la veille\", \"ici\" → \"là\".",
+          "At the Upper-intermediate level you learned indirect speech with a reporting verb in the passé composé: \"il a dit qu'il viendrait\". In literary narration the reporting verb is in the passé simple, and the same backshift applies: present → imparfait, passé composé → plus-que-parfait, future → conditionnel, future perfect → conditionnel passé. Time markers shift too: \"demain\" → \"le lendemain\", \"hier\" → \"la veille\", \"ici\" → \"là\".",
           "« Je reviendrai demain », dit-il → Il dit qu'il reviendrait le lendemain. « J'ai tout perdu hier » → Elle avoua qu'elle avait tout perdu la veille. « Est-ce que tu viens ? » → Il lui demanda si elle venait. « Partez ! » → Il leur ordonna de partir.",
         ],
         examples: [

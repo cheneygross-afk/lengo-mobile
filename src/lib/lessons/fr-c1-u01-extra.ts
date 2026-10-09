@@ -851,7 +851,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Mixed Subjunctive Circuit",
-    summary: "Indicative or subjunctive? Decide across every trigger seen from B1 to C1 in fresh sentences.",
+    summary: "Indicative or subjunctive? Decide across every trigger seen from Intermediate to Advanced in fresh sentences.",
     duration: "15 min",
     sections: [
       {

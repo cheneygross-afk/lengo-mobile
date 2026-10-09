@@ -1762,7 +1762,7 @@ export const FR_C1_U17: Lesson[] = [
       {
         heading: "Declining and the out-of-office",
         body: [
-          "Declining an invitation or offer politely: thank first, then refuse with a regret, then leave the door open. \"Je vous remercie de votre invitation. Malheureusement, je ne pourrai pas être présente à cette date, ayant déjà un engagement. J'espère que nous aurons l'occasion de nous voir prochainement.\" The participial clause \"ayant déjà un engagement\" gives the reason elegantly, a C1 touch you practised in Unit 4.",
+          "Declining an invitation or offer politely: thank first, then refuse with a regret, then leave the door open. \"Je vous remercie de votre invitation. Malheureusement, je ne pourrai pas être présente à cette date, ayant déjà un engagement. J'espère que nous aurons l'occasion de nous voir prochainement.\" The participial clause \"ayant déjà un engagement\" gives the reason elegantly, an Advanced touch you practised in Unit 4.",
           "Softer refusals use the conditional: \"Je crains de ne pas pouvoir donner suite à votre proposition\" (I'm afraid I can't take up your offer), \"Il ne me sera malheureusement pas possible de...\". \"Donner suite à\" (to follow up, to act on) is the key verb: \"ne pas donner suite\" = to decline.",
           "The out-of-office message (\"le message d'absence\") has a fixed shape: \"Je suis absente du 2 au 16 août inclus. Pendant cette période, je n'aurai qu'un accès limité à ma messagerie. En cas d'urgence, vous pouvez contacter Marc Leblanc à l'adresse... Je traiterai votre message dès mon retour.\"",
         ],
@@ -2311,7 +2311,7 @@ export const FR_C1_U17: Lesson[] = [
     level: "FR-C1",
     number: 12,
     title: "Spiral Review: Correspondence, Subjunctive and Markers",
-    summary: "Formal formulas meet the C1 subjunctive, nominalization and discourse markers in a letter from a residents' association to the town hall.",
+    summary: "Formal formulas meet the Advanced subjunctive, nominalization and discourse markers in a letter from a residents' association to the town hall.",
     duration: "18 min",
     sections: [
       {
@@ -2319,7 +2319,7 @@ export const FR_C1_U17: Lesson[] = [
         body: [
           "Formal letters are full of subjunctive triggers, because they express wishes, demands, regrets and concessions. The residents' association of the Croix-Rousse quarter in Lyon is writing to the mayor about a car park project. Their letter needs: \"nous souhaiterions que\" + subjunctive, \"il est indispensable que\", \"bien que\", \"à condition que\", and the regret \"nous déplorons que\".",
           "Remember from Unit 1: \"le fait que\" takes the subjunctive when you evaluate the fact (\"Le fait que les riverains n'aient pas été consultés est regrettable\"), and the superlative \"le seul... qui\" also takes it (\"C'est la seule solution qui permette de préserver le marché\"). And \"que\" at the head of a sentence: \"Que ce projet soit nécessaire, nul ne le conteste\".",
-          "These structures give a letter its C1 polish: they let you concede, insist and evaluate without sounding personal or emotional.",
+          "These structures give a letter its Advanced polish: they let you concede, insist and evaluate without sounding personal or emotional.",
         ],
         examples: [
           { es: "Nous souhaiterions que les riverains soient associés aux décisions.", en: "We would like local residents to be involved in the decisions." },

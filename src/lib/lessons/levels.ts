@@ -1,6 +1,6 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/levels.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Lesson } from "./types";
-import { LEVEL_EXIT_SLUGS } from "./sequencing";
+import { LEVEL_EXIT_SLUGS } from "./level-exits";
 
 // The six core Spanish levels as both apps name and count them: the
 // lessons page and level headers on the website, the level cards and
@@ -167,13 +167,17 @@ const TITLE_LEVEL_NAMES: Record<string, Record<string, string>> = {
   ja: { A1: "Beginner", A2: "Elementary", B1: "Intermediate", B2: "Upper-intermediate", C1: "Advanced", C2: "Mastery" },
   en: { A1: "Fundamentos", A2: "Ganando fluidez", B1: "Independencia", B2: "Intermedio alto", C1: "Avanzado", C2: "Maestría", "C1/C2": "Avanzado y Maestría" },
   zh: { A1: "Foundations", A2: "Everyday Chinese", B1: "Independent Chinese", B2: "Upper-Intermediate Chinese", C1: "Advanced Chinese", C2: "Proficient Chinese" },
+  fr: { A1: "Beginner", A2: "Elementary", B1: "Intermediate", B2: "Upper-intermediate", C1: "Advanced", C2: "Mastery" },
 };
 
 /** A title with any CEFR codes replaced by the course's level names. */
 export function withoutLevelCodes(text: string, level: string, english = true): string {
-  const prefix = /^(EN|JA|ZH)-/i.exec(level)?.[1].toLowerCase();
+  const prefix = /^(EN|JA|ZH|FR)-/i.exec(level)?.[1].toLowerCase();
   const names = TITLE_LEVEL_NAMES[prefix ?? (english ? "es-en" : "es-es")];
-  return text.replace(/\b(?:C1\/C2|[ABC][12])\b/g, (code) => names[code] ?? code);
+  // An exam's own name keeps its level: "DELF A1", "DALF C2", "DELE B2".
+  return text.replace(/(\b(?:DELF|DALF|DELE|SIELE)\s+)?\b(?:C1\/C2|[ABC][12])\b/g, (code, exam) =>
+    exam ? code : (names[code] ?? code),
+  );
 }
 
 // ---- Progress helpers ----------------------------------------------------

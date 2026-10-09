@@ -1168,7 +1168,7 @@ export const FR_C1_U08: Lesson[] = [
         heading: "Feeling fine, being comfortable",
         body: [
           "'I'm fine' is not *\"je suis fin\" (which would mean 'I am slim / subtle'), and 'I'm good' is not *\"je suis bon\" (which sounds like a boast about your skills, or worse). French says \"ça va\", \"je vais bien\". To say you are comfortable, use \"je suis bien\": \"On est bien ici\" — we're comfortable here.",
-          "Other traps: 'I'm hungry' → \"j'ai faim\"; 'I'm sleepy' → \"j'ai sommeil\"; 'I'm sorry' → \"je suis désolé\" (this one does use \"être\"!); 'I'm used to it' → \"j'ai l'habitude\"; 'I'm in a hurry' → \"je suis pressé\" (also \"être\"). C1 means knowing exactly which cases flip and which do not.",
+          "Other traps: 'I'm hungry' → \"j'ai faim\"; 'I'm sleepy' → \"j'ai sommeil\"; 'I'm sorry' → \"je suis désolé\" (this one does use \"être\"!); 'I'm used to it' → \"j'ai l'habitude\"; 'I'm in a hurry' → \"je suis pressé\" (also \"être\"). Advanced means knowing exactly which cases flip and which do not.",
           "Finally, 'to be done / to be over' about a task often becomes \"avoir fini\": 'I'm done' → \"j'ai fini\", not *\"je suis fini\", which means 'I'm finished' in the sense of 'my career is over'.",
         ],
         examples: [
@@ -1315,7 +1315,7 @@ export const FR_C1_U08: Lesson[] = [
         heading: "Result state versus ongoing process",
         body: [
           "\"Être\" + past participle often describes a state that results from a finished action: \"Il est mort\" (he is dead), \"La porte est fermée\" (the door is closed), \"C'est fini\" (it's over). To describe the process itself, French uses a different form: \"Il est mourant\" or \"Il est en train de mourir\" (he is dying), \"La porte se ferme\" (the door is closing), \"Ça finit / Ça se termine\" (it's ending).",
-          "English blurs this distinction because 'he is dying' and 'he is dead' share 'is'. French learners at B2 often write *\"il est mourir\" or confuse \"il est mort\" with a passé composé. In fact, \"il est mort\" is both: a passé composé (he died) and a present state (he is dead). Context decides; adding \"hier\" makes it an event, adding \"depuis longtemps\" makes it a state.",
+          "English blurs this distinction because 'he is dying' and 'he is dead' share 'is'. French learners at Upper-intermediate often write *\"il est mourir\" or confuse \"il est mort\" with a passé composé. In fact, \"il est mort\" is both: a passé composé (he died) and a present state (he is dead). Context decides; adding \"hier\" makes it an event, adding \"depuis longtemps\" makes it a state.",
           "Present participles used as adjectives — \"mourant\", \"fatigant\", \"inquiétant\" — describe what something does to you or what is in progress, and they agree like adjectives: \"une femme mourante\".",
         ],
         examples: [
@@ -1974,7 +1974,7 @@ export const FR_C1_U08: Lesson[] = [
         heading: "Duration: four ways to say 'for X time'",
         body: [
           "French has four interchangeable frames for an action that started in the past and is still going on, all followed by the present tense: \"Il y a trois ans que je vis ici\", \"Ça fait trois ans que je vis ici\", \"Voilà trois ans que je vis ici\", and \"Je vis ici depuis trois ans\". The register goes from neutral (\"depuis\", \"il y a... que\") to spoken (\"ça fait... que\") to expressive (\"voilà... que\").",
-          "Being able to switch between them is a C1 skill: it lets you avoid repetition in a text and adapt to your audience. In a formal report, prefer \"depuis\" or \"il y a... que\"; in conversation, \"ça fait... que\" is the default.",
+          "Being able to switch between them is an Advanced skill: it lets you avoid repetition in a text and adapt to your audience. In a formal report, prefer \"depuis\" or \"il y a... que\"; in conversation, \"ça fait... que\" is the default.",
           "In the negative, the frames diverge: \"Ça fait trois ans que je ne l'ai pas vu\" uses the passé composé, because what lasts is the absence. \"Je ne l'ai pas vu depuis trois ans\" works the same way.",
         ],
         examples: [
@@ -2818,7 +2818,7 @@ export const FR_C1_U08: Lesson[] = [
     slug: "c1-spiral-core-verbs-c1",
     level: "FR-C1",
     number: 14,
-    title: "Spiral Review: Core Verbs at C1 Level",
+    title: "Spiral Review: Core Verbs at the Advanced level Level",
     summary: "Être, avoir and faire idioms combined with the passive and impersonal constructions from unit 5.",
     duration: "18 min",
     sections: [

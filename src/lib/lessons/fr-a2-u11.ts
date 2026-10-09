@@ -90,7 +90,7 @@ export const FR_A2_U11: Lesson[] = [
         heading: "Hearing and saying the future",
         body: [
           "In -er verbs the e of the infinitive is almost silent: \"je parlerai\" sounds like 'parl-ré', \"tu mangeras\" like 'manj-ra'. The ending \"-ai\" is a closed é sound, so \"je parlerai\" ends like \"j'ai\".",
-          "The clearest clue in speech is the r before the ending: \"il parle\" (present) vs \"il parlera\" (future). \"Nous parlons\" vs \"nous parlerons\": listen for 'r-on'. You'll meet the conditional (\"je parlerais\", I would speak) at B1; for now, -ai is the future.",
+          "The clearest clue in speech is the r before the ending: \"il parle\" (present) vs \"il parlera\" (future). \"Nous parlons\" vs \"nous parlerons\": listen for 'r-on'. You'll meet the conditional (\"je parlerais\", I would speak) at the Intermediate level; for now, -ai is the future.",
         ],
         examples: [
           { es: "Il parle français.", en: "He speaks French." },
@@ -453,7 +453,7 @@ export const FR_A2_U11: Lesson[] = [
             question: "How do you say: We'll go to Brittany?",
             options: ["Nous irons en Bretagne.", "Nous allerons en Bretagne.", "Nous irions en Bretagne.", "Nous allons irons en Bretagne."],
             correctIndex: 0,
-            explanation: "\"Aller\" → \"ir-\". \"Allerons\" doesn't exist; \"irions\" is the conditional (B1).",
+            explanation: "\"Aller\" → \"ir-\". \"Allerons\" doesn't exist; \"irions\" is the conditional (Intermediate).",
           },
           {
             type: "listen-choose",

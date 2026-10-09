@@ -64,7 +64,7 @@ export const FR_B2_U26: Lesson[] = [
       {
         heading: "Les premiers mots: il s'est mis à parler",
         body: [
-          "Change over time needs the B2 verbs of change. \"Se mettre à\" + infinitive is to start doing something (often suddenly): \"un jour, il s'est mis à parler\". \"Finir par\" + infinitive is to end up doing it: \"il a fini par comprendre les blagues\". \"Commencer à\" is neutral; \"arrêter de\" or \"cesser de\" stops it.",
+          "Change over time needs the Upper-intermediate verbs of change. \"Se mettre à\" + infinitive is to start doing something (often suddenly): \"un jour, il s'est mis à parler\". \"Finir par\" + infinitive is to end up doing it: \"il a fini par comprendre les blagues\". \"Commencer à\" is neutral; \"arrêter de\" or \"cesser de\" stops it.",
           "The gérondif tells how he learned: \"en écoutant les autres\", \"en regardant des dessins animés\", \"en jouant au foot dans la cour\". It needs the same subject as the main verb: \"il a appris le mot « goûter » en jouant avec ses copains\".",
           "Gradual change: \"de plus en plus\" (more and more), \"de moins en moins\", \"au fur et à mesure\" (gradually, as he went along), \"petit à petit\", \"peu à peu\".",
         ],
@@ -107,7 +107,7 @@ export const FR_B2_U26: Lesson[] = [
         body: [
           "By June, Mateo knows hundreds of words and translates for his mother at the doctor's. \"Rendre\" + adjective describes the effect: \"ces progrès l'ont rendu fier\", \"l'école l'a rendu plus confiant\". \"Devenir\" describes the result: \"il est devenu le meilleur ami de Lucas\".",
           "Emotions about him take the subjunctive (or past subjunctive for an earlier event): \"sa maîtresse est ravie qu'il ait fait tant de progrès\", \"sa mère est émue qu'il lui serve d'interprète\". The infinitive replaces it when the subject is the same: \"il est fier d'avoir appris si vite\" (infinitif passé).",
-          "Notice how the story moves: plus-que-parfait for the background before January, imparfait for the long weeks of confusion, passé composé for the turning points, présent for today. Mastering that timeline is B2.",
+          "Notice how the story moves: plus-que-parfait for the background before January, imparfait for the long weeks of confusion, passé composé for the turning points, présent for today. Mastering that timeline is Upper-intermediate.",
         ],
         examples: [
           { es: "Ces progrès l'ont rendu fier et plus confiant.", en: "This progress made him proud and more confident." },
@@ -845,7 +845,7 @@ export const FR_B2_U26: Lesson[] = [
     level: "FR-B2",
     number: 5,
     title: "Spiral Review: L'Essai d'Opinion",
-    summary: "Build a short opinion essay on banning phones in schools, step by step, with a problématique, arguments, a concession and a conclusion that use every B2 tool.",
+    summary: "Build a short opinion essay on banning phones in schools, step by step, with a problématique, arguments, a concession and a conclusion that use every Upper-intermediate tool.",
     duration: "15 min",
     sections: [
       {
@@ -925,7 +925,7 @@ export const FR_B2_U26: Lesson[] = [
       {
         heading: "La concession et la conclusion",
         body: [
-          "A B2 essay must acknowledge the other side: \"certes, le téléphone peut être un outil pédagogique ; toutefois...\", \"il est vrai que les parents veulent pouvoir joindre leurs enfants ; néanmoins...\", \"bien que le téléphone soit utile en cas d'urgence, ...\" (subjunctive after \"bien que\"), \"malgré\" + noun (\"malgré ses avantages\"), never *malgré que in an exam.",
+          "An Upper-intermediate essay must acknowledge the other side: \"certes, le téléphone peut être un outil pédagogique ; toutefois...\", \"il est vrai que les parents veulent pouvoir joindre leurs enfants ; néanmoins...\", \"bien que le téléphone soit utile en cas d'urgence, ...\" (subjunctive after \"bien que\"), \"malgré\" + noun (\"malgré ses avantages\"), never *malgré que in an exam.",
           "The conclusion sums up (\"en définitive\", \"en conclusion\", \"somme toute\"), answers the problématique, and opens a perspective: \"il faudrait plutôt que l'école apprenne aux élèves à utiliser leur téléphone de façon responsable\" (subjunctive after \"il faudrait que\").",
           "A final hypothesis is an elegant ending: \"si l'on apprenait aux jeunes à se déconnecter, l'interdiction deviendrait peut-être inutile\".",
         ],
@@ -1135,7 +1135,7 @@ export const FR_B2_U26: Lesson[] = [
       {
         heading: "Nuancer, concéder, réfuter",
         body: [
-          "B2 debating is about nuance. \"Nuancer\" is to qualify a statement: \"il faut nuancer : ce n'est pas vrai dans toutes les régions\". \"Concéder\" is to concede: \"je vous concède que les chiffres sont inquiétants, mais...\". \"Réfuter\" is to refute (\"il a réfuté cet argument point par point\"), \"contester\" to dispute.",
+          "Upper-intermediate debating is about nuance. \"Nuancer\" is to qualify a statement: \"il faut nuancer : ce n'est pas vrai dans toutes les régions\". \"Concéder\" is to concede: \"je vous concède que les chiffres sont inquiétants, mais...\". \"Réfuter\" is to refute (\"il a réfuté cet argument point par point\"), \"contester\" to dispute.",
           "Useful formulas: \"dans une certaine mesure\" (to some extent), \"c'est plus compliqué que ça\", \"tout dépend de\", \"ce n'est pas tout à fait exact\", \"au contraire\" (on the contrary), \"en revanche\" (on the other hand, contrasting two different things).",
           "Emphasis helps rebut: \"ce n'est pas le prix qui pose problème, c'est la qualité\"; \"le vrai problème, c'est...\".",
         ],
@@ -1266,7 +1266,7 @@ export const FR_B2_U26: Lesson[] = [
     slug: "b2-spiral-quick-round-ten-seconds",
     level: "FR-B2",
     number: 7,
-    title: "Spiral Review: B2 in Ten Seconds",
+    title: "Spiral Review: Upper-intermediate in Ten Seconds",
     summary: "A fast round of the whole level: one quick decision per topic, from the subjunctive to dont, in ten seconds or less.",
     duration: "13 min",
     sections: [

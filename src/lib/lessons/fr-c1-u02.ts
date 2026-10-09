@@ -15,7 +15,7 @@ export const FR_C1_U02_WRITING: WriteExercise = {
     "Opposes and structures with \"alors que / tandis que\", \"malgré / en dépit de\" + noun, and \"il n'empêche que / toujours est-il que\"",
   ],
   modelAnswer: "Madame, Monsieur,\n\nJe souhaite apporter ma contribution à la consultation sur l'aménagement du parking du marché. Je comprends les inquiétudes des commerçants : bien que la ville soit bien desservie par les bus, beaucoup de clients viennent encore en voiture, surtout le samedi. Même si un parking relais existe à l'entrée de la ville, il reste peu utilisé.\n\nIl n'empêche que ce parking, si pratique qu'il soit, occupe le plus bel espace du centre. On a beau y ajouter quelques pots de fleurs, il reste un lieu bruyant et sans âme. Alors que nos voisins de Chambéry ou d'Annecy ont rendu leurs places aux piétons depuis longtemps, nous continuons de réserver la nôtre aux voitures.\n\nQuelles que soient les solutions retenues, il me paraît indispensable d'accompagner les commerçants : livraisons autorisées le matin, navettes gratuites, places réservées aux personnes à mobilité réduite. Malgré les difficultés de la transition, l'expérience montre qu'une place piétonne attire plus de promeneurs, et donc de clients, qu'un parking.\n\nQuand bien même le projet coûterait plus cher que prévu, il s'agit d'un investissement pour les vingt prochaines années. Toujours est-il que rien ne réussira sans concertation : je propose donc que la mairie organise une réunion publique avant le vote.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n\nClaire Moreau",
-  explanation: "\"Bien que la ville soit\" (subjunctive) contrasts with \"même si un parking relais existe\" (indicative). \"Si pratique qu'il soit\" and \"quelles que soient les solutions\" (agreeing with the feminine plural) are C1 concessives; \"on a beau ajouter\" and \"quand bien même le projet coûterait\" add force. \"Alors que\", \"malgré les difficultés\", \"il n'empêche que\" and \"toujours est-il que\" structure the opposition.",
+  explanation: "\"Bien que la ville soit\" (subjunctive) contrasts with \"même si un parking relais existe\" (indicative). \"Si pratique qu'il soit\" and \"quelles que soient les solutions\" (agreeing with the feminine plural) are Advanced concessives; \"on a beau ajouter\" and \"quand bien même le projet coûterait\" add force. \"Alors que\", \"malgré les difficultés\", \"il n'empêche que\" and \"toujours est-il que\" structure the opposition.",
 };
 
 export const FR_C1_U02: Lesson[] = [
@@ -105,7 +105,7 @@ export const FR_C1_U02: Lesson[] = [
       {
         heading: "Same idea, two moods",
         body: [
-          "Because the two structures overlap in meaning, rephrasing one into the other is a good C1 exercise. \"Même s'il fait froid, je me baigne\" ↔ \"Bien qu'il fasse froid, je me baigne\". \"Même si les prix ont augmenté, la demande reste forte\" ↔ \"Bien que les prix aient augmenté, la demande reste forte\". The tense in the subjunctive version follows aspect: completed action → past subjunctive.",
+          "Because the two structures overlap in meaning, rephrasing one into the other is a good Advanced exercise. \"Même s'il fait froid, je me baigne\" ↔ \"Bien qu'il fasse froid, je me baigne\". \"Même si les prix ont augmenté, la demande reste forte\" ↔ \"Bien que les prix aient augmenté, la demande reste forte\". The tense in the subjunctive version follows aspect: completed action → past subjunctive.",
           "Only \"même si\" can express a pure hypothesis: 'even if it rained tomorrow' has no \"bien que\" version, since \"bien que\" assumes the fact. And only \"bien que\" allows the elliptical form without a verb (\"bien que malade\").",
           "One exception you will hear: a polite conditional of wish right after \"même si\": \"Même si j'aimerais bien venir, je ne peux pas.\" Here \"j'aimerais\" is not a hypothesis but a softened present (I'd like = I want), so speakers accept it. In formal writing, prefer \"Bien que j'aie très envie de venir, je ne peux pas.\"",
         ],
@@ -924,7 +924,7 @@ export const FR_C1_U02: Lesson[] = [
         body: [
           "To concede a quality at its highest degree and still deny its consequence, French uses \"si\" + adjective (or adverb) + \"que\" + subjunctive: \"Si riche qu'il soit, il ne peut pas tout acheter\" (however rich he is). \"Aussi\" works the same way and is slightly more common in speech: \"Aussi étrange que cela paraisse, c'est vrai\" (strange as it may seem).",
           "With a noun subject, French usually inverts: \"Si grands que soient les risques, nous continuerons.\" \"Aussi incroyable que cela puisse paraître...\" is a fixed formula in journalism and speeches.",
-          "Don't confuse this with the consequence structure \"si... que\" + indicative from B1: \"Il est si riche qu'il ne travaille plus\" (he's so rich that he doesn't work any more). The concessive version has the clause first and the subjunctive; the consequence version has \"si + adjective\" after the verb and the indicative.",
+          "Don't confuse this with the consequence structure \"si... que\" + indicative from the Intermediate level: \"Il est si riche qu'il ne travaille plus\" (he's so rich that he doesn't work any more). The concessive version has the clause first and the subjunctive; the consequence version has \"si + adjective\" after the verb and the indicative.",
         ],
         examples: [
           { es: "Si riche qu'il soit, il ne peut pas tout acheter.", en: "However rich he is, he can't buy everything." },
@@ -1436,7 +1436,7 @@ export const FR_C1_U02: Lesson[] = [
       {
         heading: "Connectors: pourtant, cependant, toutefois, néanmoins",
         body: [
-          "The B2 connectors give the sixth way: two independent clauses, the second introduced by \"pourtant\" (yet, and yet: surprise against expectation), \"cependant\" / \"toutefois\" (however: neutral to formal), \"néanmoins\" (nevertheless: formal) or \"quand même\" (all the same: spoken, often after the verb).",
+          "The Upper-intermediate connectors give the sixth way: two independent clauses, the second introduced by \"pourtant\" (yet, and yet: surprise against expectation), \"cependant\" / \"toutefois\" (however: neutral to formal), \"néanmoins\" (nevertheless: formal) or \"quand même\" (all the same: spoken, often after the verb).",
           "Position matters. These connectors can begin the clause (\"Pourtant, il ne gagne pas grand-chose\") or sit after the verb (\"Il ne gagne cependant pas grand-chose\"), which is very elegant in writing. With a compound tense they go between auxiliary and participle: \"Il a pourtant beaucoup travaillé.\"",
           "Concessive frames and connectors combine well with \"certes\" (admittedly): \"Certes, Thomas travaille beaucoup ; il ne gagne pourtant pas grand-chose.\" This 'certes... mais / pourtant' rhythm is the backbone of French argumentative writing, and the next lesson puts it into a debate.",
         ],
@@ -2063,7 +2063,7 @@ export const FR_C1_U02: Lesson[] = [
         heading: "Developing pros and cons",
         body: [
           "The middle of the review balances praise and criticism. Model: \"Le bar en croûte de sel était parfait, tandis que les accompagnements manquaient un peu d'assaisonnement. Quant au dessert, on a beau aimer le chocolat, ce fondant était beaucoup trop sucré. Le serveur, quoique débordé, est resté aimable du début à la fin.\"",
-          "Notice the variety: \"tandis que\" for a contrast between two dishes, \"avoir beau\" for an expectation disappointed, \"quoique\" + adjective as a verb-free aside. Using the same connector three times (\"mais... mais... mais\") is the hallmark of a B1 text; C1 readers expect variety.",
+          "Notice the variety: \"tandis que\" for a contrast between two dishes, \"avoir beau\" for an expectation disappointed, \"quoique\" + adjective as a verb-free aside. Using the same connector three times (\"mais... mais... mais\") is the hallmark of an Intermediate text; Advanced readers expect variety.",
           "Be precise with your vocabulary of evaluation: \"copieux\" (generous), \"fade\" (bland), \"trop cuit\" (overcooked), \"un rapport qualité-prix correct\" (decent value for money), \"débordé\" (overwhelmed), \"aux petits soins\" (attentive).",
         ],
         examples: [
@@ -2178,7 +2178,7 @@ export const FR_C1_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which opening sounds most like a balanced C1 review?",
+        question: "Which opening sounds most like a balanced Advanced review?",
         options: [
           "Bien que le service laisse à désirer, la cuisine vaut à elle seule le déplacement.",
           "Le service est nul mais la cuisine est bien.",
@@ -2244,14 +2244,14 @@ export const FR_C1_U02: Lesson[] = [
     level: "FR-C1",
     number: 11,
     title: "Spiral Review: Concession and Condition",
-    summary: "Recombine B2 si-clauses, à condition que, pourvu que and à moins que with même si, quand bien même and avoir beau in everyday arguments.",
+    summary: "Recombine Upper-intermediate si-clauses, à condition que, pourvu que and à moins que with même si, quand bien même and avoir beau in everyday arguments.",
     duration: "18 min",
     sections: [
       {
         heading: "If, even if, unless, provided that",
         body: [
           "Condition and concession are close relatives. A condition says the result depends on something (\"si\", \"à condition que\", \"pourvu que\", \"à moins que\"); a concession says the result happens regardless (\"même si\", \"quand bien même\", \"avoir beau\"). Compare: \"Je viendrai s'il fait beau\" (only if) vs \"Je viendrai même s'il pleut\" (regardless).",
-          "Moods, reviewed: \"si\" and \"même si\" + indicative (present, imperfect, pluperfect, never conditional or subjunctive). \"À condition que\", \"pourvu que\", \"à moins que\" + subjunctive (B2), with the ne explétif after \"à moins que\" in formal style. \"Quand bien même\" + conditional. With the same subject, the infinitive: \"à condition de\", \"à moins de\".",
+          "Moods, reviewed: \"si\" and \"même si\" + indicative (present, imperfect, pluperfect, never conditional or subjunctive). \"À condition que\", \"pourvu que\", \"à moins que\" + subjunctive (Upper-intermediate), with the ne explétif after \"à moins que\" in formal style. \"Quand bien même\" + conditional. With the same subject, the infinitive: \"à condition de\", \"à moins de\".",
           "Arguments at home often mix them: \"D'accord pour la soirée, à condition que tu rentres avant minuit. Et même si tes amis restent, toi, tu rentres.\" \"Pourvu que\" alone at the start of a sentence expresses a hope: \"Pourvu qu'il fasse beau !\" (let's hope it's sunny!).",
         ],
         examples: [

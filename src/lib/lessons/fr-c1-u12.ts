@@ -543,7 +543,7 @@ export const FR_C1_U12: Lesson[] = [
         body: [
           "The reverse transformation matters in writing. In a report, an email to a client or an essay, the futur antérieur of probability can sound too casual and \"il a dû\" can be ambiguous. Turn them back into an adverb or a formal phrase: \"Il aura oublié\" → \"Il a vraisemblablement oublié\" or \"Il est probable qu'il ait oublié\".",
           "Formal options: \"vraisemblablement\" (in all likelihood), \"selon toute vraisemblance\", \"il est probable que\" + indicative (+ subjunctive is also found), \"il se peut que\" + subjunctive (it may be that), \"il est possible que\" + subjunctive.",
-          "Note the mood: \"il est probable que\" normally takes the indicative (probability is close to certainty), while \"il est possible que\" and \"il se peut que\" take the subjunctive (B2).",
+          "Note the mood: \"il est probable que\" normally takes the indicative (probability is close to certainty), while \"il est possible que\" and \"il se peut que\" take the subjunctive (Upper-intermediate).",
         ],
         examples: [
           { es: "Le colis aura été égaré. → Le colis a vraisemblablement été égaré.", en: "The parcel will have been mislaid. → The parcel has in all likelihood been mislaid." },
@@ -759,7 +759,7 @@ export const FR_C1_U12: Lesson[] = [
       {
         heading: "Scene 3: The explanation",
         body: [
-          "At last the doorbell rings. Bastien arrives, and the real story turns out to be different from every theory. Notice how the friends react with past conditionals and \"j'aurais dû\" (B2 regrets), and how Bastien explains with the passé composé: now the facts are certain, so no more conjecture.",
+          "At last the doorbell rings. Bastien arrives, and the real story turns out to be different from every theory. Notice how the friends react with past conditionals and \"j'aurais dû\" (Upper-intermediate regrets), and how Bastien explains with the passé composé: now the facts are certain, so no more conjecture.",
         ],
         examples: [
           { es: "CHLOÉ : Ah, ce sera lui !", en: "CHLOE: Ah, that'll be him!" },
@@ -775,7 +775,7 @@ export const FR_C1_U12: Lesson[] = [
             prompt: "Translate into French.",
             source: "I should have taken a taxi.",
             answer: "J'aurais dû prendre un taxi.",
-            explanation: "Regret: conditionnel passé of devoir + infinitive (B2).",
+            explanation: "Regret: conditionnel passé of devoir + infinitive (Upper-intermediate).",
           },
           {
             type: "speak",
@@ -1741,7 +1741,7 @@ export const FR_C1_U12: Lesson[] = [
       {
         heading: "Two conditionals side by side: il viendrait, je ne serais pas surpris",
         body: [
-          "You know the B2 pattern \"S'il venait, je ne serais pas surpris.\" In spoken and literary French, the \"si\" clause can be replaced by a simple conditional placed first: \"Il viendrait, je ne serais pas surpris.\" (If he came, I wouldn't be surprised / It wouldn't surprise me if he came.)",
+          "You know the Upper-intermediate pattern \"S'il venait, je ne serais pas surpris.\" In spoken and literary French, the \"si\" clause can be replaced by a simple conditional placed first: \"Il viendrait, je ne serais pas surpris.\" (If he came, I wouldn't be surprised / It wouldn't surprise me if he came.)",
           "The same works in the past: \"Tu me l'aurais dit, je t'aurais aidé.\" (Had you told me, I'd have helped you.) The two clauses are simply juxtaposed, often with a comma; intonation carries the hypothesis. A more literary option uses \"que\": \"Il me l'aurait demandé que je l'aurais aidé.\"",
           "A related structure inverts the subject in writing: \"Serait-il malade, il viendrait quand même\" (even if he were ill, he'd still come). This concessive inversion is formal but appears in essays and speeches.",
         ],
@@ -2370,7 +2370,7 @@ export const FR_C1_U12: Lesson[] = [
     level: "FR-C1",
     number: 12,
     title: "Spiral Review: Conjecture, Devoir and Adverbs",
-    summary: "Bring it all together: the futur antérieur of probability, devoir of deduction, adverbs of probability and the journalistic conditional, mixed with B2 si-clauses and regrets (j'aurais dû, si j'avais su).",
+    summary: "Bring it all together: the futur antérieur of probability, devoir of deduction, adverbs of probability and the journalistic conditional, mixed with Upper-intermediate si-clauses and regrets (j'aurais dû, si j'avais su).",
     duration: "20 min",
     sections: [
       {
@@ -2378,7 +2378,7 @@ export const FR_C1_U12: Lesson[] = [
         body: [
           "A typical real-life sequence: something goes wrong, you guess why, then you regret what you did. \"Le train est parti sans moi. J'aurai mal lu l'horaire. J'aurais dû vérifier. Si j'avais su, je serais parti plus tôt.\"",
           "Look at the two forms that look alike: \"j'aurai mal lu\" (futur antérieur: I must have misread) and \"j'aurais dû vérifier\" (past conditional of devoir: I should have checked). One letter, two different meanings. The \"nous\" test from the previous lesson still works: \"nous aurons mal lu\" vs \"nous aurions dû\".",
-          "Regrets from B2: \"j'aurais dû\" + infinitive (I should have), \"j'aurais pu\" (I could have), \"si j'avais su\" + past conditional (if I'd known).",
+          "Regrets from the Upper-intermediate level: \"j'aurais dû\" + infinitive (I should have), \"j'aurais pu\" (I could have), \"si j'avais su\" + past conditional (if I'd known).",
         ],
         examples: [
           { es: "J'aurai mal lu l'horaire.", en: "I must have misread the timetable." },
@@ -2421,7 +2421,7 @@ export const FR_C1_U12: Lesson[] = [
         heading: "Degrees of probability",
         body: [
           "Order the tools from least to most certain: \"il est possible que\" + subjunctive, \"il se peut que\" + subjunctive, \"peut-être\", \"il pourrait\", \"probablement\" / \"sans doute\", \"il doit\" / \"il a dû\", \"à tous les coups\" (informal: I bet), \"sûrement\" / \"certainement\", \"sans aucun doute\".",
-          "Remember the subjunctive after \"il est possible que\" and \"il se peut que\" (B2): \"Il se peut qu'il soit malade.\" But \"il est probable que\" takes the indicative: \"Il est probable qu'il est malade\". And \"ça m'étonnerait que\" + subjunctive expresses strong doubt: \"Ça m'étonnerait qu'il vienne.\"",
+          "Remember the subjunctive after \"il est possible que\" and \"il se peut que\" (Upper-intermediate): \"Il se peut qu'il soit malade.\" But \"il est probable que\" takes the indicative: \"Il est probable qu'il est malade\". And \"ça m'étonnerait que\" + subjunctive expresses strong doubt: \"Ça m'étonnerait qu'il vienne.\"",
           "\"Peut-être\" at the start of a sentence triggers inversion in formal writing (\"Peut-être viendra-t-il\") or takes \"que\" in speech (\"Peut-être qu'il viendra\"). Placed after the verb, it needs neither: \"Il viendra peut-être.\"",
         ],
         examples: [
@@ -2466,7 +2466,7 @@ export const FR_C1_U12: Lesson[] = [
         body: [
           "Two colleagues discuss a rumour at work. Notice how each form has its job.",
           "\"Tu as vu ? Le directeur partirait à la fin du mois.\" \"Ah bon ? Qui t'a dit ça ?\" \"Il paraît que c'est Sophie qui l'a entendu. Il aura reçu une meilleure offre.\" \"Ça m'étonnerait qu'il parte maintenant. Il doit savoir que le projet n'est pas fini.\" \"Peut-être, mais s'il avait voulu rester, il l'aurait dit à la réunion.\"",
-          "\"Partirait\": a rumour (conditional). \"Il paraît que\": hearsay + indicative. \"Il aura reçu\": a guess (futur antérieur). \"Ça m'étonnerait que\": doubt + subjunctive. \"Il doit savoir\": deduction. \"S'il avait voulu..., il l'aurait dit\": past hypothesis (B2).",
+          "\"Partirait\": a rumour (conditional). \"Il paraît que\": hearsay + indicative. \"Il aura reçu\": a guess (futur antérieur). \"Ça m'étonnerait que\": doubt + subjunctive. \"Il doit savoir\": deduction. \"S'il avait voulu..., il l'aurait dit\": past hypothesis (Upper-intermediate).",
         ],
         examples: [
           { es: "Le directeur partirait à la fin du mois.", en: "The director is apparently leaving at the end of the month." },

@@ -50,7 +50,7 @@ export const FR_C2_U23: Lesson[] = [
         heading: "La CNV : observation, sentiment, besoin, demande",
         body: [
           "\"La communication non violente\" (CNV), developed by Marshall Rosenberg, is widely taught in French schools, companies and hospitals, and its four steps have standard French names. \"L'observation\": a fact without judgement (« Tu es arrivé à 21 heures, trois soirs cette semaine »). \"Le sentiment\": what I feel (« je me suis sentie inquiète »). \"Le besoin\": the need behind the feeling (« j'ai besoin de pouvoir m'organiser »). \"La demande\": a concrete, negotiable request (« Est-ce que tu accepterais de me prévenir quand tu rentres après 20 heures ? »).",
-          "The grammar of the request is where C2 shows. A demand in the imperative (\"préviens-moi !\") sounds like an order. CNV uses the conditional and an open question: \"est-ce que tu accepterais de\", \"est-ce que tu serais d'accord pour\", \"serais-tu prêt(e) à\". And when the request involves the other person's action after \"j'aurais besoin que\" or \"j'aimerais que\", the verb is in the subjunctive: « J'aurais besoin que tu me préviennes. »",
+          "The grammar of the request is where Mastery shows. A demand in the imperative (\"préviens-moi !\") sounds like an order. CNV uses the conditional and an open question: \"est-ce que tu accepterais de\", \"est-ce que tu serais d'accord pour\", \"serais-tu prêt(e) à\". And when the request involves the other person's action after \"j'aurais besoin que\" or \"j'aimerais que\", the verb is in the subjunctive: « J'aurais besoin que tu me préviennes. »",
           "The observation step is the hardest in French because judgement hides in adjectives and adverbs: \"tu es arrivé super tard\" contains a judgement (super tard); \"tu es arrivé à 23 heures\" doesn't. Facts are dated, counted and neutral.",
         ],
         examples: [
@@ -1386,14 +1386,14 @@ export const FR_C2_U23: Lesson[] = [
     level: "FR-C2",
     number: 7,
     title: "Résolution des Conflits et Médiation, Part 4 of 7",
-    summary: "Apologising at C2 level: je suis désolé(e) de t'avoir blessé(e), je te dois des excuses, je regrette sincèrement que + subjunctive, je vous prie de bien vouloir m'excuser, the debate over « je m'excuse », and how to accept an apology.",
+    summary: "Apologising at the Mastery level: je suis désolé(e) de t'avoir blessé(e), je te dois des excuses, je regrette sincèrement que + subjunctive, je vous prie de bien vouloir m'excuser, the debate over « je m'excuse », and how to accept an apology.",
     duration: "18 min",
     sections: [
       {
         heading: "Désolé de + past infinitive",
         body: [
           "The core apology names what you did, and French does it most naturally with \"désolé(e) de\" + past infinitive: « Je suis désolé de t'avoir blessée », « Je suis désolée d'avoir oublié ton anniversaire », « Désolé de ne pas t'avoir rappelé ». The past infinitive (\"avoir\" / \"être\" + participle) is used because the regret is now and the act is past, with the same subject.",
-          "The ripple effects matter at C2. Object pronouns go before \"avoir\": \"de t'avoir blessé(e)\", \"de vous avoir fait attendre\". The negation wraps the auxiliary: \"de ne pas t'avoir prévenu(e)\" (both parts before the infinitive). Agreement follows the usual rules: \"désolée de t'avoir blessée\" if both speaker and listener are women; and verbs that take \"être\" keep it: \"désolé d'être arrivé en retard\", never \"*d'avoir arrivé*\".",
+          "The ripple effects matter at the Mastery level. Object pronouns go before \"avoir\": \"de t'avoir blessé(e)\", \"de vous avoir fait attendre\". The negation wraps the auxiliary: \"de ne pas t'avoir prévenu(e)\" (both parts before the infinitive). Agreement follows the usual rules: \"désolée de t'avoir blessée\" if both speaker and listener are women; and verbs that take \"être\" keep it: \"désolé d'être arrivé en retard\", never \"*d'avoir arrivé*\".",
           "Intensifiers: \"vraiment désolé(e)\", \"sincèrement désolé(e)\", \"navré(e)\" (more formal, also used for small things: « Navré, nous n'avons plus cette taille »), \"je suis confus(e)\" (I'm terribly embarrassed, formal and slightly old-fashioned, used when you've caused someone trouble).",
         ],
         examples: [
@@ -1428,7 +1428,7 @@ export const FR_C2_U23: Lesson[] = [
         heading: "Toutes mes excuses, je te dois des excuses",
         body: [
           "Other formulas carry different weights. \"Toutes mes excuses\" (my apologies) is neutral to formal and quick: « Toutes mes excuses pour ce retard. » \"Je te dois des excuses\" / \"je vous dois des excuses\" (I owe you an apology) is stronger: it announces a real apology to come, often after reflection. \"Je tiens à m'excuser\" / \"je tiens à vous présenter mes excuses\" is a formal, deliberate apology.",
-          "\"Je regrette\" deserves care. \"Je regrette de\" + infinitive regrets your own act: « Je regrette de t'avoir parlé sur ce ton. » \"Je regrette que\" + subjunctive regrets a situation involving someone else: « Je regrette sincèrement que cette réunion se soit mal passée. » At C2 you'll feel the difference: the first takes responsibility; the second, used about your own act, can sound like a way of dodging it (more on that in the Contrast Clinic).",
+          "\"Je regrette\" deserves care. \"Je regrette de\" + infinitive regrets your own act: « Je regrette de t'avoir parlé sur ce ton. » \"Je regrette que\" + subjunctive regrets a situation involving someone else: « Je regrette sincèrement que cette réunion se soit mal passée. » At Mastery you'll feel the difference: the first takes responsibility; the second, used about your own act, can sound like a way of dodging it (more on that in the Contrast Clinic).",
           "In writing and at work, the most formal version: « Je vous prie de bien vouloir m'excuser pour... » or « Je vous prie d'accepter mes excuses / mes plus sincères excuses ». And in a letter: « Veuillez nous excuser pour la gêne occasionnée » (please accept our apologies for any inconvenience), the classic formula of French notices and companies.",
         ],
         examples: [
@@ -1471,7 +1471,7 @@ export const FR_C2_U23: Lesson[] = [
         heading: "Le débat sur « je m'excuse »",
         body: [
           "\"Je m'excuse\" is extremely common in everyday French (« Oh, je m'excuse, je ne vous avais pas vu ! »), but it is regularly criticised by purists and in etiquette guides: logically, \"s'excuser\" means to excuse oneself, so \"je m'excuse\" would mean I let myself off. The argument goes that you can't excuse yourself; you ask to be excused.",
-          "Linguists point out that \"s'excuser\" has meant to present one's apologies for centuries, and that the criticism is mostly a social marker. But at C2 you should know the stakes: in a formal context, a written apology, or with someone who might care, \"je vous prie de m'excuser\", \"veuillez m'excuser\" or \"excusez-moi\" are safer. In everyday speech, \"je m'excuse\" is fine, and \"pardon\" or \"désolé(e)\" are the most natural for small things.",
+          "Linguists point out that \"s'excuser\" has meant to present one's apologies for centuries, and that the criticism is mostly a social marker. But at the Mastery level you should know the stakes: in a formal context, a written apology, or with someone who might care, \"je vous prie de m'excuser\", \"veuillez m'excuser\" or \"excusez-moi\" are safer. In everyday speech, \"je m'excuse\" is fine, and \"pardon\" or \"désolé(e)\" are the most natural for small things.",
           "Two related nuances: \"excusez-moi\" is used to get attention or for a small disturbance (« Excusez-moi, vous avez l'heure ? »), and \"pardon\" is the reflex when you bump into someone or didn't hear (« Pardon ? »).",
         ],
         examples: [
@@ -2283,7 +2283,7 @@ export const FR_C2_U23: Lesson[] = [
         body: [
           "Written conflict in French has a register of its own: cool, precise, formal, and therefore powerful. Anger is expressed through understatement and formulas, never exclamation marks or capitals. The key formulas: \"je m'étonne que\" + subjunctive (I am surprised that, a polite but pointed reproach: « Je m'étonne que ma demande soit restée sans réponse »), \"je ne peux que déplorer\" + noun or \"que\" + subjunctive (I can only deplore), \"je regrette vivement que\" + subjunctive, \"force est de constater que\" + indicative (one has to note that).",
           "\"Je m'étonne\" deserves attention: in a letter, it doesn't express real surprise but disapproval. Its strength comes from its restraint. Variants: \"je ne m'explique pas que\" + subjunctive (I can't understand why), \"il est surprenant que\" + subjunctive. With a past fact, use the past subjunctive: « Je m'étonne que vous n'ayez pas jugé utile de me prévenir. »",
-          "Requests use the formulas you met at C1, now in a firmer key: \"je vous saurais gré de\" + infinitive (I would be grateful if you would), \"je vous serais reconnaissant(e) de\", \"je vous demande de bien vouloir\" (firm), \"je vous mets en demeure de\" (formal notice, the last step before legal action).",
+          "Requests use the formulas you met at the Advanced level, now in a firmer key: \"je vous saurais gré de\" + infinitive (I would be grateful if you would), \"je vous serais reconnaissant(e) de\", \"je vous demande de bien vouloir\" (firm), \"je vous mets en demeure de\" (formal notice, the last step before legal action).",
         ],
         examples: [
           { es: "Je m'étonne que ma demande soit restée sans réponse depuis trois semaines.", en: "I am surprised that my request has gone unanswered for three weeks." },
@@ -3170,7 +3170,7 @@ export const FR_C2_U23: Lesson[] = [
     slug: "c2-vocab-medicine-press",
     level: "FR-C2",
     number: 15,
-    title: "C2 Vocabulary: Medicine in the Press",
+    title: "Mastery Vocabulary: Medicine in the Press",
     summary: "The learned medical words of health news: l'étiologie, le pronostic, la comorbidité, la séquelle, la rémission, la récidive, la prophylaxie, iatrogène, asymptomatique, aigu / chronique, bénin / malin, with the feminine traps bénigne and maligne.",
     duration: "17 min",
     sections: [

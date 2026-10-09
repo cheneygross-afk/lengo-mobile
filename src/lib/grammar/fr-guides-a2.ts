@@ -1738,7 +1738,7 @@ export const FR_A2_GUIDES: FrGrammarGuide[] = [
     level: "A2",
     intro: [
       `The imperative is the form for commands, instructions, advice and invitations: "viens !" (come!), "allons-y" (let's go), "tournez à gauche" (turn left). It has only three forms, "tu", "nous" and "vous", and no subject pronoun, exactly like English come here.`,
-      `It is mostly built from the present tense, so you already know it. The things to learn are a spelling rule (the "-s" that disappears in "parle"), four irregular verbs, and how to use it without sounding abrupt. Where object pronouns go in commands ("dis-le", "ne le dis pas") is covered in the B1 guide to the imperative with pronouns.`,
+      `It is mostly built from the present tense, so you already know it. The things to learn are a spelling rule (the "-s" that disappears in "parle"), four irregular verbs, and how to use it without sounding abrupt. Where object pronouns go in commands ("dis-le", "ne le dis pas") is covered in the Intermediate guide to the imperative with pronouns.`,
     ],
     sections: [
       {
@@ -1808,7 +1808,7 @@ export const FR_A2_GUIDES: FrGrammarGuide[] = [
         heading: "Uses, register and set phrases",
         body: [
           `The imperative is used for instructions and directions ("tournez à gauche"), advice ("essaie ce restaurant"), invitations ("venez dîner samedi") and warnings ("attention, ralentis !"). It isn't rude in itself, but for a request to a stranger, add "s'il vous plaît" or turn it into a question: "vous pouvez fermer la porte ?" sounds softer than "fermez la porte".`,
-          `Several imperatives work as everyday interjections: "allez !" (come on!), "tiens !" / "tenez !" (here you are, or well well!), "voyons" (let's see), "dis donc" (hey, I say). You will also hear a few commands with pronominal verbs as fixed phrases, such as "assieds-toi", "dépêche-toi" and "ne t'inquiète pas". Where pronouns go in commands is covered in the B1 guide to the imperative with pronouns.`,
+          `Several imperatives work as everyday interjections: "allez !" (come on!), "tiens !" / "tenez !" (here you are, or well well!), "voyons" (let's see), "dis donc" (hey, I say). You will also hear a few commands with pronominal verbs as fixed phrases, such as "assieds-toi", "dépêche-toi" and "ne t'inquiète pas". Where pronouns go in commands is covered in the Intermediate guide to the imperative with pronouns.`,
         ],
         examples: [
           { fr: "Venez dîner chez nous samedi !", en: "Come and have dinner with us on Saturday!" },

@@ -93,7 +93,7 @@ export const FR_C2_U22: Lesson[] = [
         heading: "A change of career and the atypical path",
         body: [
           "France has a strong culture of the linear career, and a \"parcours atypique\" (an unusual path) needs framing. The key is concession: admit the difference, then turn it into an asset. « Bien que mon parcours soit atypique, il m'a apporté une double compétence que peu de candidats possèdent. » \"Bien que\" takes the subjunctive (\"soit\"); \"même si\" takes the indicative (\"même si mon parcours est atypique\").",
-          "Other concessive tools you met at C1 work beautifully here: \"certes..., mais...\", \"si mon parcours peut sembler..., il...\", \"loin d'être un handicap, ...\", \"j'ai beau venir d'un autre secteur, ...\". For instance: « Loin d'être un handicap, mes dix ans dans l'hôtellerie m'ont appris le sens du service client. »",
+          "Other concessive tools you met at Advanced work beautifully here: \"certes..., mais...\", \"si mon parcours peut sembler..., il...\", \"loin d'être un handicap, ...\", \"j'ai beau venir d'un autre secteur, ...\". For instance: « Loin d'être un handicap, mes dix ans dans l'hôtellerie m'ont appris le sens du service client. »",
           "Explain a reconversion as a reasoned decision, not an escape: « Après dix ans dans la finance, j'ai ressenti le besoin de donner davantage de sens à mon travail. J'ai donc entrepris une reconversion dans l'enseignement, en suivant un master MEEF. » Avoid the negative frame (\"j'en avais marre de la finance\"): say what you moved towards, not what you fled.",
         ],
         examples: [
@@ -193,7 +193,7 @@ export const FR_C2_U22: Lesson[] = [
         question: "Which sentence is grammatically correct?",
         options: ["Bien que mon parcours soit atypique, il est cohérent.", "Bien que mon parcours est atypique, il est cohérent.", "Même si mon parcours soit atypique, il est cohérent.", "Bien que mon parcours sera atypique, il est cohérent."],
         correctIndex: 0,
-        explanation: "\"Bien que\" takes the subjunctive; \"même si\" takes the indicative. Mixing them is a classic error, even at C1.",
+        explanation: "\"Bien que\" takes the subjunctive; \"même si\" takes the indicative. Mixing them is a classic error, even at the Advanced level.",
       },
       {
         type: "translate",
@@ -257,7 +257,7 @@ export const FR_C2_U22: Lesson[] = [
     level: "FR-C2",
     number: 2,
     title: "Error Hunt: Les Phrases qui Coulent un Entretien",
-    summary: "Ten answers that sink an interview, from criticising the old boss to tutoiement and « je sais pas trop »: spot what's wrong in each and rephrase it at C2 level.",
+    summary: "Ten answers that sink an interview, from criticising the old boss to tutoiement and « je sais pas trop »: spot what's wrong in each and rephrase it at the Mastery level.",
     duration: "17 min",
     sections: [
       {
@@ -341,7 +341,7 @@ export const FR_C2_U22: Lesson[] = [
         body: [
           "The third family is grammar errors that even advanced speakers make and that French recruiters, who tend to judge language, notice at once. « J'ai appliqué pour ce poste » (→ \"j'ai postulé à\"); « Je suis excité de travailler avec vous » (\"excité\" has sexual or agitated connotations: → \"je suis enthousiaste à l'idée de\", \"j'ai hâte de\"); « J'ai réalisé que » (→ \"je me suis rendu compte que\"); « J'ai beaucoup d'expériences » (→ \"une solide expérience\": in this sense \"expérience\" is uncountable).",
           "Mood and agreement errors: « Je souhaiterais que vous me précisez » (→ \"précisiez\", subjunctive after \"souhaiter que\"); « Bien que j'ai peu d'expérience » (→ \"aie\"); « Les missions que j'ai mené » (→ \"menées\", agreement with the preceding direct object). And \"la position\" for \"le poste\", \"éventuellement\" for eventually (it means possibly: eventually is \"finalement\").",
-          "Each of these alone won't sink you, but three in a row create the impression of approximate French. At C2, precision is the point.",
+          "Each of these alone won't sink you, but three in a row create the impression of approximate French. At the Mastery level, precision is the point.",
         ],
         examples: [
           { es: "Je suis enthousiaste à l'idée de rejoindre votre équipe.", en: "I'm excited about the idea of joining your team." },
@@ -562,14 +562,14 @@ export const FR_C2_U22: Lesson[] = [
         body: [
           "\"La formation\" is one of the most versatile and misleading words for English speakers. On a CV, the section \"Formation\" lists your education. \"Suivre une formation\" is to take a training course. \"La formation continue\" is continuing education for adults, financed in France partly through \"le CPF\" (compte personnel de formation). And \"formation\" never means a formation of soldiers in this context. Conversely, education in the sense of upbringing is \"l'éducation\", and a school subject is \"une matière\".",
           "French HR splits skills into three: \"les savoirs\" (knowledge), \"le savoir-faire\" (know-how, technical skills), and \"le savoir-être\" (soft skills, behaviour: punctuality, team spirit, adaptability). A recruiter might say: « Sur le savoir-faire, votre profil est très solide ; j'aimerais en savoir plus sur votre savoir-être. » \"Les compétences\" covers it all; \"les compétences transversales\" are transferable skills, and \"les soft skills\" is used too.",
-          "Some CV conventions: \"Expérience professionnelle\" (singular, as a section), \"Langues\" with levels (\"anglais : courant\", \"espagnol : niveau B2\", \"bilingue\"), \"Centres d'intérêt\" (interests). A French CV is usually one page, and a photo is optional but still common.",
+          "Some CV conventions: \"Expérience professionnelle\" (singular, as a section), \"Langues\" with levels (\"anglais : courant\", \"espagnol : intermédiaire\", \"bilingue\"), \"Centres d'intérêt\" (interests). A French CV is usually one page, and a photo is optional but still common.",
         ],
         examples: [
           { es: "J'ai suivi une formation de six mois financée par mon CPF.", en: "I did a six-month training course funded by my personal training account." },
           { es: "Sur le savoir-faire, votre profil est très solide.", en: "In terms of technical skills, your profile is very strong." },
           { es: "Le savoir-être compte autant que les diplômes dans ce métier.", en: "Soft skills count as much as qualifications in this job." },
           { es: "Mes compétences transversales me permettent de m'adapter à des secteurs variés.", en: "My transferable skills allow me to adapt to a range of sectors." },
-          { es: "Anglais courant, espagnol niveau B2.", en: "Fluent English, Spanish at B2 level." },
+          { es: "Anglais courant, espagnol intermédiaire.", en: "Fluent English, intermediate Spanish." },
           { es: "La formation continue fait partie intégrante de la politique RH de l'entreprise.", en: "Continuing education is an integral part of the company's HR policy." },
         ],
         checkpoint: [
@@ -771,7 +771,7 @@ export const FR_C2_U22: Lesson[] = [
         body: [
           "\"Le poste\" is the job as a position in an organisation: \"un poste à pourvoir\" (a vacancy, literally a post to be filled), \"un poste vacant\", \"pourvoir un poste\" (to fill it). \"La fiche de poste\" is the job description, listing \"les missions\" (main responsibilities, a very French use of the word), \"les activités\", \"le périmètre\" (scope) and \"le rattachement hiérarchique\" (reporting line: \"rattaché(e) au directeur financier\").",
           "Related words: \"le métier\" (the trade or profession: \"le métier de comptable\"), \"la fonction\" (role, especially in management: \"les fonctions support\", \"exercer des fonctions d'encadrement\"), \"l'emploi\" (employment, or a job in the economic sense: \"créer des emplois\"), and \"le boulot\" (job, familiar). In an interview, \"le poste\" and \"les missions\" are the safe words.",
-          "Collocations are where C2 shows: \"un poste à pourvoir\", \"un poste à responsabilités\", \"occuper un poste\", \"briguer un poste\" (to aim for, in politics or top management), \"être en poste\" (to be currently employed in a position).",
+          "Collocations are where Mastery shows: \"un poste à pourvoir\", \"un poste à responsabilités\", \"occuper un poste\", \"briguer un poste\" (to aim for, in politics or top management), \"être en poste\" (to be currently employed in a position).",
         ],
         examples: [
           { es: "Le poste est à pourvoir dès que possible.", en: "The position is to be filled as soon as possible." },
@@ -1233,7 +1233,7 @@ export const FR_C2_U22: Lesson[] = [
       {
         heading: "Motivation and the competency story",
         body: [
-          "Question 2: « Pourquoi notre groupe ? » Show you've researched them and connect it to yourself, with \"ce qui m'attire\", \"ce qui me motive\": « Ce qui m'attire, c'est que la RSE est chez vous rattachée à la direction générale, ce qui montre qu'elle n'est pas un simple affichage. Par ailleurs, le secteur viticole est en première ligne face au changement climatique : les enjeux y sont très concrets. » \"Un simple affichage\" (mere window-dressing) and \"en première ligne\" (on the front line) are precise C2 choices.",
+          "Question 2: « Pourquoi notre groupe ? » Show you've researched them and connect it to yourself, with \"ce qui m'attire\", \"ce qui me motive\": « Ce qui m'attire, c'est que la RSE est chez vous rattachée à la direction générale, ce qui montre qu'elle n'est pas un simple affichage. Par ailleurs, le secteur viticole est en première ligne face au changement climatique : les enjeux y sont très concrets. » \"Un simple affichage\" (mere window-dressing) and \"en première ligne\" (on the front line) are precise Mastery choices.",
           "Question 3: « Parlez-moi d'une situation où vous avez dû convaincre des interlocuteurs réticents. » A STAR answer: « En 2022, notre groupe voulait réduire de 30 % les emballages plastiques. Or, les directeurs d'usine craignaient une hausse des coûts. Il s'agissait de les rallier au projet sans passer en force. J'ai d'abord organisé des visites chez deux fournisseurs qui avaient déjà fait la transition, puis j'ai construit avec le contrôle de gestion un chiffrage site par site. Au bout de six mois, les quatre usines avaient adopté le plan, et l'objectif a été atteint avec un an d'avance. Ce que j'en ai retenu, c'est qu'on convainc mieux par l'exemple que par les arguments. »",
           "Check the tenses: imparfait (\"voulait\", \"craignaient\"), \"or\" for the obstacle, \"il s'agissait de\" for the task, passé composé for actions, a plus-que-parfait in the result (\"avaient adopté\", completed by that point), the passive (\"a été atteint\"), and the lesson learned.",
         ],
@@ -1435,7 +1435,7 @@ export const FR_C2_U22: Lesson[] = [
     slug: "c2-vocab-everyday-civil-law",
     level: "FR-C2",
     number: 7,
-    title: "C2 Vocabulary: Everyday Civil Law",
+    title: "Mastery Vocabulary: Everyday Civil Law",
     summary: "The civil law that turns up in family life and the news: succession, usufruit and nue-propriété, exécuteur testamentaire, servitude de passage, saisie, expulsion and trêve hivernale, prescription, forclusion and violation de domicile.",
     duration: "18 min",
     sections: [

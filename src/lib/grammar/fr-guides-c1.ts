@@ -5,12 +5,12 @@ import type { FrGrammarGuide } from "./fr-types";
 export const FR_C1_GUIDES: FrGrammarGuide[] = [
   {
     slug: "french-subjunctive-advanced",
-    title: "The French Subjunctive at C1: Superlatives, Que-Fronting and Qui Que",
+    title: "The French Subjunctive at the Advanced level: Superlatives, Que-Fronting and Qui Que",
     description:
       "The subjunctive beyond the usual triggers: after superlatives and le seul, in sentences that open with que, after le fait que, with qui que / quoi que / où que, and as a tool for tactful disagreement.",
     level: "C1",
     intro: [
-      "By B2 you know the subjunctive's big triggers: wishes, emotions, doubt, necessity and conjunctions like \"bien que\" and \"pour que\". At C1 the subjunctive turns up in places where nothing obvious calls for it: after a superlative (\"le meilleur film que j'aie vu\"), at the start of a sentence (\"Qu'il soit compétent, personne n'en doute\"), after \"le fait que\", or in a polite \"je ne dis pas que ce soit faux\".",
+      "By the Upper-intermediate level you know the subjunctive's big triggers: wishes, emotions, doubt, necessity and conjunctions like \"bien que\" and \"pour que\". At the Advanced level the subjunctive turns up in places where nothing obvious calls for it: after a superlative (\"le meilleur film que j'aie vu\"), at the start of a sentence (\"Qu'il soit compétent, personne n'en doute\"), after \"le fait que\", or in a polite \"je ne dis pas que ce soit faux\".",
       "What these uses share is that the clause is not being asserted as a plain fact. A superlative or \"le seul\" sets up a judgement; a fronted \"que\" clause is taken as given and then commented on; a negated statement keeps its content at arm's length. The indicative says this is the case; the subjunctive says I'm considering this, not reporting it.",
       "English gives you no signal at all here (the best film I've seen, whoever you are), so learners default to the indicative. Several of these choices are also genuine choices: both moods are possible, and the meaning or the register shifts. This guide shows where the line falls.",
     ],
@@ -618,7 +618,7 @@ export const FR_C1_GUIDES: FrGrammarGuide[] = [
   },
   {
     slug: "impersonal-constructions-and-passive-alternatives",
-    title: "Impersonal Il and the Passive at C1: Il S'agit De, Se Faire + Infinitive, Ça Ne Se Fait Pas",
+    title: "Impersonal Il and the Passive at the Advanced level: Il S'agit De, Se Faire + Infinitive, Ça Ne Se Fait Pas",
     description:
       "How French hides or downplays the agent: the passive in every tense with par or de, impersonal il (il s'agit de, il manque, il est + adjective + de), se faire and se voir + infinitive, and the pronominal passive.",
     level: "C1",
@@ -917,7 +917,7 @@ export const FR_C1_GUIDES: FrGrammarGuide[] = [
     intro: [
       "Many errors that still mark an advanced learner as foreign come from one small word after the verb. English says wait for, look for, listen to; French says \"attendre\", \"chercher\", \"écouter\" with no preposition at all. English says answer, phone, enter with a direct object; French says \"répondre à\", \"téléphoner à\", \"entrer dans\". The pattern of each verb must simply be learned, but there's a logic to the pronouns that follow from it.",
       "The preposition decides the pronoun. Verbs with \"à\" take \"y\" for things and either \"lui / leur\" or \"à lui / à elle\" for people; verbs with \"de\" take \"en\" for things and \"de lui / d'elle\" for people. And several common verbs change meaning completely with the preposition: \"tu me manques\" (I miss you) is the reverse of what English word order suggests.",
-      "At C1 you also need the longer patterns: two objects (\"permettre à quelqu'un de faire\"), infinitives after \"à\" or \"de\", and \"à ce que\" / \"de ce que\" + subjunctive when the verb is followed by a whole clause.",
+      "At the Advanced level you also need the longer patterns: two objects (\"permettre à quelqu'un de faire\"), infinitives after \"à\" or \"de\", and \"à ce que\" / \"de ce que\" + subjunctive when the verb is followed by a whole clause.",
     ],
     sections: [
       {
@@ -1069,7 +1069,7 @@ export const FR_C1_GUIDES: FrGrammarGuide[] = [
       "The connectors that structure advanced French: ordering an argument, nuancing and reformulating, formal cause and consequence, concluding, spoken markers like bon, enfin and du coup, and the false friends (actuellement, éventuellement, d'autre part).",
     level: "C1",
     intro: [
-      "At B2 you learned the core connectors: \"pourtant\", \"en revanche\", \"donc\", \"par conséquent\". At C1 the difference lies in precision and range. A DALF essay or a professional report is judged partly on how its ideas are linked, and French readers expect a wider, more formal toolkit than English: \"en outre\", \"de surcroît\", \"cela dit\", \"voire\", \"dans la mesure où\", \"si bien que\", \"somme toute\".",
+      "At the Upper-intermediate level you learned the core connectors: \"pourtant\", \"en revanche\", \"donc\", \"par conséquent\". At the Advanced level the difference lies in precision and range. A DALF essay or a professional report is judged partly on how its ideas are linked, and French readers expect a wider, more formal toolkit than English: \"en outre\", \"de surcroît\", \"cela dit\", \"voire\", \"dans la mesure où\", \"si bien que\", \"somme toute\".",
       "Each marker has a function (adding, nuancing, reformulating, giving a cause, drawing a consequence, concluding) and a register. Some are written only (\"de surcroît\", \"or\"), some are spoken only (\"du coup\", \"bon\", \"quoi\"), and a few are false friends that mislead English speakers every time: \"actuellement\" means currently, \"éventuellement\" means possibly, and \"d'autre part\" doesn't mean on the other hand.",
       "This guide groups the markers by function, flags the register of each, and covers the grammar some of them bring with them, such as inversion after \"aussi\" and the mood after \"de sorte que\".",
     ],
@@ -1211,13 +1211,13 @@ export const FR_C1_GUIDES: FrGrammarGuide[] = [
   },
   {
     slug: "emphasis-pseudo-clefts-and-inversion",
-    title: "Emphasis in French at C1: Clefts, Pseudo-Clefts, Dislocation and Stylistic Inversion",
+    title: "Emphasis in French at the Advanced level: Clefts, Pseudo-Clefts, Dislocation and Stylistic Inversion",
     description:
       "How French puts words in focus without raising its voice: c'est... qui / que with prepositions and agreement, ce que... c'est and ce dont... c'est de, dislocation with y and en, inversion (rares sont ceux qui, tel est), and litotes.",
     level: "C1",
     intro: [
       "English emphasises with the voice: I didn't take it, SHE did. French stress always falls at the end of a word group, so it can't move stress onto any word it likes. Instead it moves the words: \"Ce n'est pas moi qui l'ai pris, c'est elle.\" Emphasis in French is a matter of syntax.",
-      "At B2 you met the basic cleft (\"c'est... qui / que\") and simple dislocation (\"moi, je...\"). At C1 the tools get sharper: clefts with prepositions and adverbials, pseudo-clefts that build suspense (\"ce qui m'étonne, c'est que...\"), double dislocation, and the inversions of formal style (\"rares sont ceux qui\", \"reste à savoir si\", \"tel est le problème\").",
+      "At the Upper-intermediate level you met the basic cleft (\"c'est... qui / que\") and simple dislocation (\"moi, je...\"). At the Advanced level the tools get sharper: clefts with prepositions and adverbials, pseudo-clefts that build suspense (\"ce qui m'étonne, c'est que...\"), double dislocation, and the inversions of formal style (\"rares sont ceux qui\", \"reste à savoir si\", \"tel est le problème\").",
       "These structures have grammar traps of their own: verb agreement after \"c'est moi qui\", the right relative pronoun (\"ce dont\", \"ce à quoi\") and the preposition that must be repeated. Get them right and both your speech and your writing will sound distinctly French.",
     ],
     sections: [
@@ -1281,7 +1281,7 @@ export const FR_C1_GUIDES: FrGrammarGuide[] = [
         heading: "Stylistic inversion: rares sont ceux qui, tel est le problème",
         body: [
           "Formal French can put the subject after the verb to give weight to what comes first. Some patterns are set formulas: \"Rares sont ceux qui...\" (few people...), \"Tel est le problème\" (such is the problem), \"Reste à savoir si...\" (it remains to be seen whether), \"Restent deux questions\", \"Peu importe...\", \"Ainsi soit-il.\"",
-          "In relative clauses, the subject can follow the verb when it's long or when you want the sentence to end on it: \"le livre qu'a écrit mon père\", \"la maison où vécut Victor Hugo\". This is optional but very common in good writing. Inversion after \"aussi\" (therefore) is covered in the guide to discourse markers, and inversion after \"à peine\", \"sans doute\" or \"peut-être\" in the C2 guide to rhetorical questions and emphatic inversion.",
+          "In relative clauses, the subject can follow the verb when it's long or when you want the sentence to end on it: \"le livre qu'a écrit mon père\", \"la maison où vécut Victor Hugo\". This is optional but very common in good writing. Inversion after \"aussi\" (therefore) is covered in the guide to discourse markers, and inversion after \"à peine\", \"sans doute\" or \"peut-être\" in the Mastery guide to rhetorical questions and emphatic inversion.",
         ],
         examples: [
           { fr: "Rares sont ceux qui ont lu ce rapport en entier.", en: "Few people have read this report in full." },

@@ -31,7 +31,7 @@ export const FR_B2_U01: Lesson[] = [
         heading: "Someone who knows: two moods where English has one",
         body: [
           "In English, 'I know someone who speaks Russian' and 'I'm looking for someone who speaks Russian' use exactly the same verb. French splits them. When the person or thing described by the relative clause really exists and you could point to it, the verb is in the indicative: \"Je connais quelqu'un qui sait coder.\" When you are only describing what you want, and you don't know whether it exists, the verb goes into the subjunctive: \"Je cherche quelqu'un qui sache coder.\"",
-          "The noun that the relative clause describes is called the antecedent. Ask one question about it: does it exist in the speaker's world, or only in the speaker's wishes? Existing, identified → indicative. Wanted, imagined, required → subjunctive. The subjunctive is doing the same job it did after \"je veux que\" at B1: it marks something that is not (yet) a fact.",
+          "The noun that the relative clause describes is called the antecedent. Ask one question about it: does it exist in the speaker's world, or only in the speaker's wishes? Existing, identified → indicative. Wanted, imagined, required → subjunctive. The subjunctive is doing the same job it did after \"je veux que\" at the Intermediate level: it marks something that is not (yet) a fact.",
           "Because English gives you no clue, English speakers default to the indicative. A French recruiter reading \"nous cherchons un développeur qui sait parler anglais\" understands you, but it sounds slightly off, as if you already had a particular developer in mind. In job ads, flat-share posts and formal requests, the subjunctive is the expected choice.",
         ],
         examples: [
@@ -965,7 +965,7 @@ export const FR_B2_U01: Lesson[] = [
         body: [
           "After \"le seul\", \"l'unique\", \"le premier\", \"le dernier\" and \"rien que\" the relative clause usually takes the subjunctive: \"C'est le seul restaurant qui soit ouvert le lundi.\" The subjunctive here adds a note of judgement: the speaker presents the uniqueness as their assessment, something remarkable.",
           "When you simply state a fact, especially a past event, the indicative is used: \"C'est le seul qui est venu\" (he's the only one who came, that's just what happened), \"Il a été le premier qui a répondu\". The choice is real, not a rule to apply blindly: subjunctive = evaluation, 'as far as I can tell'; indicative = objective fact.",
-          "For a B2 learner, a safe guide: present tense + an opinion or a recommendation → subjunctive. A past event that you are reporting → indicative.",
+          "For an Upper-intermediate learner, a safe guide: present tense + an opinion or a recommendation → subjunctive. A past event that you are reporting → indicative.",
         ],
         examples: [
           { es: "C'est le seul restaurant du quartier qui soit ouvert le lundi.", en: "It's the only restaurant in the area that's open on Mondays." },
@@ -1486,7 +1486,7 @@ export const FR_B2_U01: Lesson[] = [
         heading: "Tout ce que tu voudras: future, not subjunctive",
         body: [
           "\"Tout ce qui\" / \"tout ce que\" (everything that, whatever) refers to a real set of things, so it takes the indicative. When the action is in the future, French uses the future tense where English uses the present: \"Tu pourras prendre tout ce que tu voudras\" (you can take whatever you want).",
-          "This mirrors \"quand\" + future, which you met at B1: French is logical about time, and a future wish is put in the future. Learners who have just learned the relative subjunctive often write \"tout ce que tu veuilles\"; that is wrong.",
+          "This mirrors \"quand\" + future, which you met at the Intermediate level: French is logical about time, and a future wish is put in the future. Learners who have just learned the relative subjunctive often write \"tout ce que tu veuilles\"; that is wrong.",
           "In the present, the present indicative is fine: \"Fais tout ce que tu veux\" (do whatever you like), \"Je mange tout ce qu'on me donne\".",
         ],
         examples: [
@@ -1926,7 +1926,7 @@ export const FR_B2_U01: Lesson[] = [
       {
         heading: "The ideal partner, and the people you already know",
         body: [
-          "The most personal version: \"Je cherche quelqu'un qui me fasse rire\", \"qui aime voyager\", \"qui ne soit pas jaloux\", \"avec qui je puisse parler de tout\". \"Avec qui\" is the preposition + qui you met at B1, and it takes the subjunctive too.",
+          "The most personal version: \"Je cherche quelqu'un qui me fasse rire\", \"qui aime voyager\", \"qui ne soit pas jaloux\", \"avec qui je puisse parler de tout\". \"Avec qui\" is the preposition + qui you met at the Intermediate level, and it takes the subjunctive too.",
           "Add a superlative or a \"seul\" for emphasis: \"Tu es la personne la plus drôle que je connaisse\", \"C'est le seul qui me comprenne vraiment.\" And finish with real people in the indicative: \"J'ai une amie qui a rencontré son mari sur une appli.\"",
         ],
         examples: [

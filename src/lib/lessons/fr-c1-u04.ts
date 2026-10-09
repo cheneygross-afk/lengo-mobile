@@ -30,7 +30,7 @@ export const FR_C1_U04: Lesson[] = [
       {
         heading: "Ayant + past participle: having done",
         body: [
-          "At B2 you met the present participle (\"étant malade, il est resté chez lui\"). Its compound form, the perfect participle, presents an action as completed before the main verb: \"Ayant terminé son rapport, elle est partie\" (having finished her report, she left). It's the written equivalent of \"Après avoir terminé son rapport, elle est partie\" or \"Comme elle avait terminé son rapport, elle est partie\".",
+          "At the Upper-intermediate level you met the present participle (\"étant malade, il est resté chez lui\"). Its compound form, the perfect participle, presents an action as completed before the main verb: \"Ayant terminé son rapport, elle est partie\" (having finished her report, she left). It's the written equivalent of \"Après avoir terminé son rapport, elle est partie\" or \"Comme elle avait terminé son rapport, elle est partie\".",
           "Form: \"ayant\" + past participle for avoir verbs (\"ayant compris\", \"ayant lu\", \"n'ayant rien dit\"), \"étant\" + past participle for être verbs (\"étant arrivé\", \"étant partis\"), and \"s'étant\" + participle for pronominal verbs (\"s'étant trompé\").",
           "The perfect participle often adds a nuance of cause: \"N'ayant pas reçu de réponse, je me permets de vous relancer\" (having received no answer = since I haven't received an answer). This is a classic phrase in formal emails. In speech, people prefer \"comme\" or \"après avoir\"; the participle is a marker of written, formal style.",
         ],
@@ -2265,7 +2265,7 @@ export const FR_C1_U04: Lesson[] = [
         body: [
           "The perception verbs (voir, regarder, entendre, écouter, sentir, apercevoir) and \"laisser\" take a bare infinitive whose subject is the object of the main verb: \"J'entends les oiseaux chanter\" (the birds sing). When the infinitive has no object of its own, the noun can come before or after it: \"J'entends les oiseaux chanter\" or \"J'entends chanter les oiseaux.\" The second order is very common in writing.",
           "When the infinitive has its own object, keep the noun before it to avoid confusion: \"J'ai vu Paul réparer la voiture\" (not \"*j'ai vu réparer Paul la voiture\"). With a pronoun, it goes before the main verb: \"Je les entends chanter\", \"Je l'ai vu partir\", \"Laisse-le parler.\"",
-          "Don't confuse this with \"faire\" + infinitive (B2), where the noun always follows the infinitive: \"Je fais réparer la voiture.\" With \"laisser\" and perception verbs, the order is freer, because the noun is the real agent of the action.",
+          "Don't confuse this with \"faire\" + infinitive (Upper-intermediate), where the noun always follows the infinitive: \"Je fais réparer la voiture.\" With \"laisser\" and perception verbs, the order is freer, because the noun is the real agent of the action.",
         ],
         examples: [
           { es: "J'entends chanter les oiseaux.", en: "I can hear the birds singing." },
@@ -2928,7 +2928,7 @@ export const FR_C1_U04: Lesson[] = [
       {
         heading: "One idea, four forms",
         body: [
-          "In Unit 3 you learned to turn verbs into nouns (\"après l'arrivée des secours\"). This unit gave you non-finite verb forms. A C1 writer chooses among them to vary the rhythm of a report. Take the idea 'when the meeting had ended, everyone went home': \"Une fois la réunion terminée, chacun est rentré\" (absolute clause), \"À l'issue de la réunion, chacun est rentré\" (nominal), \"Après avoir terminé la réunion, nous sommes rentrés\" (infinitive, same subject needed), \"La réunion s'étant terminée tard, chacun est rentré directement\" (absolute + cause).",
+          "In Unit 3 you learned to turn verbs into nouns (\"après l'arrivée des secours\"). This unit gave you non-finite verb forms. An Advanced writer chooses among them to vary the rhythm of a report. Take the idea 'when the meeting had ended, everyone went home': \"Une fois la réunion terminée, chacun est rentré\" (absolute clause), \"À l'issue de la réunion, chacun est rentré\" (nominal), \"Après avoir terminé la réunion, nous sommes rentrés\" (infinitive, same subject needed), \"La réunion s'étant terminée tard, chacun est rentré directement\" (absolute + cause).",
           "Each form has its constraints. The infinitive and the gérondif need the same subject as the main clause. The absolute clause has its own subject. The nominal phrase is the most compact and the most impersonal, ideal for headlines and administrative texts, but too many nouns make a text heavy.",
           "A good report alternates: one nominal phrase, then a participial clause, then a full clause with a conjunction. Read the model sentences below and identify which form each one uses.",
         ],
@@ -2966,7 +2966,7 @@ export const FR_C1_U04: Lesson[] = [
         body: [
           "Here's a first draft of an incident report: \"Quand les techniciens sont arrivés, ils ont constaté que la canalisation avait cédé. Comme le sous-sol était inondé, ils ont coupé l'eau. Après qu'ils ont coupé l'eau, ils ont pompé le sous-sol. Parce qu'ils ont réagi rapidement, les dégâts ont été limités.\" Correct, but every sentence has the same shape: conjunction + full clause.",
           "Rewritten: \"Dès leur arrivée, les techniciens ont constaté la rupture de la canalisation. Le sous-sol étant inondé, ils ont coupé l'eau avant de procéder au pompage. Grâce à leur intervention rapide, les dégâts ont été limités.\" The ideas are identical, but the forms vary: nominal (\"dès leur arrivée\", \"la rupture\"), absolute clause (\"le sous-sol étant inondé\"), infinitive (\"avant de procéder\"), nominal cause (\"grâce à leur intervention rapide\").",
-          "Note: \"après qu'ils ont coupé\" takes the indicative (B2), but writers often avoid it altogether by turning it into \"après avoir coupé\" or \"après la coupure de l'eau\".",
+          "Note: \"après qu'ils ont coupé\" takes the indicative (Upper-intermediate), but writers often avoid it altogether by turning it into \"après avoir coupé\" or \"après la coupure de l'eau\".",
         ],
         examples: [
           { es: "Dès leur arrivée, les techniciens ont constaté la rupture de la canalisation.", en: "As soon as they arrived, the technicians noted that the pipe had burst." },

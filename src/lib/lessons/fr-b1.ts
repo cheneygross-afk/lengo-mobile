@@ -79,14 +79,14 @@ const UNITS: FrenchUnitDef[] = [
   { id: "u25", title: "Possessive & Demonstrative Pronouns", description: "Avoid repeating nouns: mine, yours, this one, that one, the one I want, Marie's.", lessons: FR_B1_U25, writing: FR_B1_U25_WRITING },
   { id: "u26", title: "Possessives, Demonstratives & Mixed Review", description: "Sort out what belongs to whom, apologise for mistakes and review the pasts, the conditional and pronouns.", lessons: FR_B1_U26, writing: FR_B1_U26_WRITING },
   { id: "u27", title: "Spoken French", description: "Understand and use everyday spoken French: dropped ne, on for nous, ça, the three ways to ask a question and the little words that fill conversation.", lessons: FR_B1_U27, writing: FR_B1_U27_WRITING },
-  { id: "u28", title: "The Intermediate Level So Far & Spoken French in Practice", description: "Pull together everything learned at B1 so far and switch between spoken and written registers.", lessons: FR_B1_U28, writing: FR_B1_U28_WRITING },
+  { id: "u28", title: "The Intermediate Level So Far & Spoken French in Practice", description: "Pull together everything learned at the Intermediate level so far and switch between spoken and written registers.", lessons: FR_B1_U28, writing: FR_B1_U28_WRITING },
   { id: "u29", title: "Survival Situations: Calls, Banks & Flats", description: "Handle phone calls, the bank and flat-hunting in France with the right polite formulas.", lessons: FR_B1_U29, writing: FR_B1_U29_WRITING },
   { id: "u30", title: "Survival Situations: Offices, Shops & Work", description: "Deal with French administration, complain, return goods, get things repaired, interview for a job and hire a car.", lessons: FR_B1_U30, writing: FR_B1_U30_WRITING },
   { id: "u31", title: "Word Webs: Emotions, Opinions & Nature", description: "Express feelings precisely, give nuanced opinions and talk about nature and the environment.", lessons: FR_B1_U31, writing: FR_B1_U31_WRITING },
   { id: "u32", title: "Word Webs: Kitchen, Money & News", description: "Talk about cooking, money, education and the news with precise vocabulary.", lessons: FR_B1_U32, writing: FR_B1_U32_WRITING },
   { id: "u33", title: "Word Webs: City & Work", description: "Describe city life and the working world, and run through the level's final cumulative circuit.", lessons: FR_B1_U33, writing: FR_B1_U33_WRITING },
-  { id: "u34", title: "Intermediate Review", description: "Review the whole B1 level and take on the first Intermediate challenges.", lessons: FR_B1_U34, writing: FR_B1_U34_WRITING },
-  { id: "u35", title: "Intermediate Challenges & Exit Test", description: "Show you are ready for B2: use the subjunctive, the pasts and pronouns without hints, and complete DELF B1-style tasks.", lessons: FR_B1_U35, writing: FR_B1_U35_WRITING },
+  { id: "u34", title: "Intermediate Review", description: "Review the whole Intermediate level and take on the first Intermediate challenges.", lessons: FR_B1_U34, writing: FR_B1_U34_WRITING },
+  { id: "u35", title: "Intermediate Challenges & Exit Test", description: "Show you are ready for the Upper-intermediate level: use the subjunctive, the pasts and pronouns without hints, and complete DELF B1-style tasks.", lessons: FR_B1_U35, writing: FR_B1_U35_WRITING },
 ];
 
 const LEVEL = buildFrenchLevel("B1", UNITS);

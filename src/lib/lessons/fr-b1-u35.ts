@@ -23,7 +23,7 @@ export const FR_B1_U35: Lesson[] = [
     slug: "b1-challenge-subjunctive-no-hints",
     level: "FR-B1",
     number: 1,
-    title: "B1 Challenge: The Subjunctive Without Hints",
+    title: "Intermediate Challenge: The Subjunctive Without Hints",
     summary: "No tables and no labels: spot every subjunctive trigger yourself, and every trap where French uses the indicative or an infinitive instead.",
     duration: "14 min",
     sections: [
@@ -249,7 +249,7 @@ export const FR_B1_U35: Lesson[] = [
     slug: "b1-challenge-past-tenses",
     level: "FR-B1",
     number: 2,
-    title: "B1 Challenge: Pasts and Compound Tenses",
+    title: "Intermediate Challenge: Pasts and Compound Tenses",
     summary: "Tell and reorder a story without hints: the passé composé, imparfait, plus-que-parfait, venir de in the past and the futur antérieur, each chosen for a reason.",
     duration: "15 min",
     sections: [
@@ -472,7 +472,7 @@ export const FR_B1_U35: Lesson[] = [
     slug: "b1-challenge-all-pronouns",
     level: "FR-B1",
     number: 3,
-    title: "B1 Challenge: Pronouns of Every Kind",
+    title: "Intermediate Challenge: Pronouns of Every Kind",
     summary: "Moving day as a pronoun workout: object pronouns, double pronouns, y and en, relatives, possessives and demonstratives, all in one set of tasks.",
     duration: "15 min",
     sections: [
@@ -695,7 +695,7 @@ export const FR_B1_U35: Lesson[] = [
     slug: "b1-challenge-a-week-in-marseille-1",
     level: "FR-B1",
     number: 4,
-    title: "B1 Challenge: A Week in Marseille, Part 1 of 2",
+    title: "Intermediate Challenge: A Week in Marseille, Part 1 of 2",
     summary: "Arriving and settling in: booking by phone, reading a flat ad, sorting out a problem at the bank and asking the way, with DELF B1-style reading and listening tasks.",
     duration: "15 min",
     sections: [
@@ -937,7 +937,7 @@ export const FR_B1_U35: Lesson[] = [
     slug: "b1-challenge-a-week-in-marseille-2",
     level: "FR-B1",
     number: 5,
-    title: "B1 Challenge: A Week in Marseille, Part 2 of 2",
+    title: "Intermediate Challenge: A Week in Marseille, Part 2 of 2",
     summary: "Living in Marseille: a visit to the doctor, returning a faulty purchase, meeting the neighbours, and telling a friend about the week in spoken French.",
     duration: "15 min",
     sections: [
@@ -1044,7 +1044,7 @@ export const FR_B1_U35: Lesson[] = [
       {
         heading: "Sunday night: a voice message to a friend",
         body: [
-          "Tom tells his French friend Julie about the week in a voice message, in relaxed spoken French: dropped \"ne\", \"on\" for we, fillers, and all the B1 pasts.",
+          "Tom tells his French friend Julie about the week in a voice message, in relaxed spoken French: dropped \"ne\", \"on\" for we, fillers, and all the Intermediate pasts.",
           "\"Salut Julie ! Bon, alors, ma semaine... Mercredi, ma carte a été refusée, du coup j'ai dû aller à la banque. Vendredi, j'étais malade, j'avais de la fièvre, mais ça va mieux. Et ce soir, j'ai pris l'apéro chez les voisins, ils sont trop sympas ! En fait, je crois que je vais rester ici. Rappelle-moi quand t'as deux minutes !\"",
         ],
         examples: [
@@ -1177,7 +1177,7 @@ export const FR_B1_U35: Lesson[] = [
     slug: "b1-challenge-letter-of-complaint",
     level: "FR-B1",
     number: 6,
-    title: "B1 Challenge: Write a Letter of Complaint",
+    title: "Intermediate Challenge: Write a Letter of Complaint",
     summary: "The DELF B1 complaint letter step by step: formal opening and closing, the facts in the past, demands with il faut que and je vous serais reconnaissant de, and the connectors that hold it together.",
     duration: "15 min",
     sections: [
@@ -1391,7 +1391,7 @@ export const FR_B1_U35: Lesson[] = [
     slug: "b1-challenge-debate-city-or-country",
     level: "FR-B1",
     number: 7,
-    title: "B1 Challenge: Debate, City or Countryside?",
+    title: "Intermediate Challenge: Debate, City or Countryside?",
     summary: "A DELF B1-style oral task: present your point of view on city versus country life, back it with arguments and examples, and answer objections with doubt, opinion and hypotheses.",
     duration: "15 min",
     sections: [
@@ -1434,7 +1434,7 @@ export const FR_B1_U35: Lesson[] = [
         heading: "Arguments and examples",
         body: [
           "Structure your arguments with connectors: \"D'abord\", \"Ensuite\", \"De plus\", \"Enfin\". Each argument needs an example, ideally personal: \"Par exemple, quand j'habitais à Paris, je mettais une heure pour aller au travail.\" \"Prenons l'exemple de mon village : la boulangerie a fermé l'année dernière.\"",
-          "Use the B1 range: comparisons (\"les loyers sont deux fois moins chers\"), the imparfait for past situations, \"ce qui\" to comment (\"..., ce qui est un vrai problème pour les personnes âgées\"), and impersonals (\"il est difficile de trouver un médecin\").",
+          "Use the Intermediate range: comparisons (\"les loyers sont deux fois moins chers\"), the imparfait for past situations, \"ce qui\" to comment (\"..., ce qui est un vrai problème pour les personnes âgées\"), and impersonals (\"il est difficile de trouver un médecin\").",
         ],
         examples: [
           { es: "D'abord, les loyers sont deux fois moins chers à la campagne.", en: "First, rents are half the price in the countryside." },
@@ -1606,7 +1606,7 @@ export const FR_B1_U35: Lesson[] = [
     level: "FR-B1",
     number: 8,
     title: "Intermediate Exit Test: Ready for Upper-Intermediate?",
-    summary: "A DELF B1-style exit test: reading, listening, writing and speaking tasks covering every B1 grammar area. Pass it and you're ready for B2.",
+    summary: "A DELF B1-style exit test: reading, listening, writing and speaking tasks covering every Intermediate grammar area. Pass it and you're ready for the Upper-intermediate level.",
     duration: "20 min",
     sections: [
       {
@@ -1652,7 +1652,7 @@ export const FR_B1_U35: Lesson[] = [
         heading: "Part 2: listening",
         body: [
           "In the DELF listening paper you hear each recording twice. Read the question first so you know what to listen for: a time, a reason, an opinion, a request. Don't panic over unknown words; the key information is usually repeated or rephrased.",
-          "Typical B1 recordings: a voicemail, a radio announcement, a conversation between friends, a short interview. Register clues help: \"vous\" and \"je vous prie\" on official messages, \"t'as\", \"du coup\" and dropped \"ne\" between friends.",
+          "Typical Intermediate recordings: a voicemail, a radio announcement, a conversation between friends, a short interview. Register clues help: \"vous\" and \"je vous prie\" on official messages, \"t'as\", \"du coup\" and dropped \"ne\" between friends.",
         ],
         examples: [
           { es: "Bonjour, c'est le cabinet du docteur Martin : votre rendez-vous de jeudi est reporté à vendredi.", en: "Hello, this is Dr Martin's surgery: your Thursday appointment has been moved to Friday." },
@@ -1692,7 +1692,7 @@ export const FR_B1_U35: Lesson[] = [
       {
         heading: "Part 3: grammar in context",
         body: [
-          "This part checks every B1 area in one go: moods (subjunctive, conditional, imperative), the four pasts and the futur antérieur, si-clauses, relatives, object and possessive pronouns, the passive and \"on\". No hints: read the whole sentence before you decide.",
+          "This part checks every Intermediate area in one go: moods (subjunctive, conditional, imperative), the four pasts and the futur antérieur, si-clauses, relatives, object and possessive pronouns, the passive and \"on\". No hints: read the whole sentence before you decide.",
           "Your checklist: Is there a trigger before \"que\"? Is there a \"si\"? Which action came first? What does the verb take (direct, \"à\", \"de\")? Is there a preceding direct object for agreement?",
         ],
         examples: [
