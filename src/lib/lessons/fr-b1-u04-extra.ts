@@ -2329,7 +2329,7 @@ export const FR_B1_U04_EXTRA: Lesson[] = [
         heading: "Recap: two ways to hope",
         body: [
           "\"Espérer que\" + indicative (usually future, sometimes present or past): \"j'espère qu'il viendra\", \"j'espère que tu vas bien\", \"j'espère que tu as bien dormi\". \"Souhaiter que\" + subjunctive: \"je souhaite qu'il vienne\". Both mean roughly to hope / to wish, but the grammar differs.",
-          "In the negative or a question, \"espérer\" can sometimes take the subjunctive in literary French, but at B1 stick to the indicative.",
+          "In the negative or a question, \"espérer\" can sometimes take the subjunctive in literary French, but at Intermediate stick to the indicative.",
         ],
         examples: [
           { es: "J'espère qu'il viendra.", en: "I hope he'll come." },

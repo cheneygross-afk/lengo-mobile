@@ -463,7 +463,7 @@ export const FR_B1_U30: Lesson[] = [
       {
         heading: "Letter 1: the flatmate who never washes up",
         body: [
-          "Advice columns (\"le courrier du cœur\" for love problems, \"la rubrique conseils\" more generally) are a perfect place to mix the B1 tools. The reader explains the problem with the present and the past; the columnist answers with the conditional (\"vous devriez\", \"à votre place, je...\"), with \"il faudrait que\" + subjunctive, with si-clauses and with imperatives.",
+          "Advice columns (\"le courrier du cœur\" for love problems, \"la rubrique conseils\" more generally) are a perfect place to mix the Intermediate tools. The reader explains the problem with the present and the past; the columnist answers with the conditional (\"vous devriez\", \"à votre place, je...\"), with \"il faudrait que\" + subjunctive, with si-clauses and with imperatives.",
           "Clément writes: « Mon colocataire ne fait jamais la vaisselle. Je lui en ai déjà parlé deux fois, mais rien ne change. Je commence à en avoir assez. » The answer: « Il faudrait que vous fixiez des règles ensemble. Si j'étais vous, je proposerais un planning. Parlez-lui-en calmement, et ne lui faites pas de reproches devant vos amis. »",
           "Notice the imperatives with pronouns: \"parlez-lui-en\" (affirmative: verb + lui + en), \"ne lui faites pas de reproches\" (negative: pronoun before the verb).",
         ],
@@ -1835,13 +1835,13 @@ export const FR_B1_U30: Lesson[] = [
     level: "FR-B1",
     number: 10,
     title: "Quick Round: The Intermediate Level in Ten Seconds",
-    summary: "One-line prompts at speed, each testing a different B1 structure: subjunctive, conditional, si-clauses, pasts, relatives, passive and pronouns.",
+    summary: "One-line prompts at speed, each testing a different Intermediate structure: subjunctive, conditional, si-clauses, pasts, relatives, passive and pronouns.",
     duration: "12 min",
     sections: [
       {
         heading: "Round 1: moods",
         body: [
-          "This lesson is a sprint: each prompt targets one B1 structure. Aim to answer in under ten seconds. First, the three moods beyond the indicative. Subjunctive after necessity, emotion, wish and doubt (\"il faut que tu viennes\", \"je doute qu'il sache\"). Conditional for politeness, advice and hypotheses (\"tu devrais\", \"je voudrais\"). Imperative with pronouns (\"dis-le-moi\", \"ne t'inquiète pas\").",
+          "This lesson is a sprint: each prompt targets one Intermediate structure. Aim to answer in under ten seconds. First, the three moods beyond the indicative. Subjunctive after necessity, emotion, wish and doubt (\"il faut que tu viennes\", \"je doute qu'il sache\"). Conditional for politeness, advice and hypotheses (\"tu devrais\", \"je voudrais\"). Imperative with pronouns (\"dis-le-moi\", \"ne t'inquiète pas\").",
           "Quick rules to have at your fingertips: \"espérer que\" + indicative; \"penser que\" + indicative but \"je ne pense pas que\" + subjunctive; never the future or conditional after \"si\" (if).",
         ],
         examples: [
@@ -2638,7 +2638,7 @@ export const FR_B1_U30: Lesson[] = [
       {
         heading: "The plan: ce que j'avais prévu",
         body: [
-          "Manon, 28, spent three weeks travelling alone around Corsica. Her story uses the whole B1 toolkit. She starts with the plan she had made, in the plus-que-parfait: \"J'avais tout prévu: j'avais réservé les ferries, j'avais imprimé les billets et j'avais téléchargé des cartes\".",
+          "Manon, 28, spent three weeks travelling alone around Corsica. Her story uses the whole Intermediate toolkit. She starts with the plan she had made, in the plus-que-parfait: \"J'avais tout prévu: j'avais réservé les ferries, j'avais imprimé les billets et j'avais téléchargé des cartes\".",
           "Her feelings before leaving go in the imparfait, with the subjunctive after emotion and fear: \"Ma mère avait peur qu'il m'arrive quelque chose\" (was afraid something would happen to me), \"J'étais impatiente de partir\", \"Mes amis ne comprenaient pas que je veuille partir seule\".",
         ],
         examples: [

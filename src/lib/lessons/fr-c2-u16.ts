@@ -1412,7 +1412,7 @@ export const FR_C2_U16: Lesson[] = [
         heading: "Nominal style and the action list",
         body: [
           "The heart of a relevé de décisions is \"le tableau des actions\" or \"la liste des actions\": \"qui fait quoi, pour quand\" (who does what, by when). Each line is a nominal phrase or an infinitive: \"Envoi du contrat au prestataire – S. Marchand – avant le 30 avril\", \"Relancer le service juridique – T. Lefort – semaine 18\".",
-          "Turning sentences into nominal phrases is the key skill (you practised nominalisation at C1): \"nous allons envoyer le contrat\" → \"envoi du contrat\"; \"on doit vérifier les devis\" → \"vérification des devis\"; \"le comité se réunira chaque mois\" → \"réunion mensuelle du comité\". Watch the noun forms: envoyer → l'envoi, relancer → la relance, valider → la validation, reporter → le report, mettre en place → la mise en place.",
+          "Turning sentences into nominal phrases is the key skill (you practised nominalisation at the Advanced level): \"nous allons envoyer le contrat\" → \"envoi du contrat\"; \"on doit vérifier les devis\" → \"vérification des devis\"; \"le comité se réunira chaque mois\" → \"réunion mensuelle du comité\". Watch the noun forms: envoyer → l'envoi, relancer → la relance, valider → la validation, reporter → le report, mettre en place → la mise en place.",
           "Responsibility and deadlines have fixed forms: \"responsable :\" or \"pilote :\" (the owner), \"échéance :\" (deadline), \"pour le\" + date, \"au plus tard le\". In a meeting, the chair often closes with \"je propose qu'on fasse un tour de table des actions\" (go round the table on actions).",
         ],
         examples: [
@@ -1604,14 +1604,14 @@ export const FR_C2_U16: Lesson[] = [
     slug: "c2-negotiation-register-spiral",
     level: "FR-C2",
     number: 8,
-    title: "Spiral Review: Négocier avec la Grammaire du C1",
-    summary: "The conditional of politeness, si + imparfait proposals, the subjunctive after à condition que and pour que, and euphemism and attenuation: C1 grammar at the service of agreement.",
+    title: "Spiral Review: Négocier avec la Grammaire Avancée",
+    summary: "The conditional of politeness, si + imparfait proposals, the subjunctive after à condition que and pour que, and euphemism and attenuation: Advanced grammar at the service of agreement.",
     duration: "18 min",
     sections: [
       {
         heading: "The conditional of politeness and si + imparfait",
         body: [
-          "This review puts C1 grammar to work in negotiation. The conditional softens requests and refusals: \"Nous souhaiterions\" (we would like) rather than \"nous voulons\"; \"Seriez-vous disposés à\" (would you be willing to); \"Il nous serait difficile de\" (it would be difficult for us to), a polite no.",
+          "This review puts Advanced grammar to work in negotiation. The conditional softens requests and refusals: \"Nous souhaiterions\" (we would like) rather than \"nous voulons\"; \"Seriez-vous disposés à\" (would you be willing to); \"Il nous serait difficile de\" (it would be difficult for us to), a polite no.",
           "\"Si\" + imparfait turns a proposal into a hypothesis the other side can explore without committing: \"Si nous acceptions vos délais, seriez-vous prêts à revoir le prix ?\" It invites a counter-move. Compare \"si\" + present (\"Si vous acceptez nos délais, nous baissons le prix\"), which sounds like a firm offer on the table. And \"et si\" + imparfait alone is a suggestion: \"Et si nous partagions les frais de transport ?\"",
         ],
         examples: [
@@ -1683,7 +1683,7 @@ export const FR_C2_U16: Lesson[] = [
       {
         heading: "Euphemism and attenuation",
         body: [
-          "Negotiators soften bad news with euphemism and attenuation, the C1 tools you learned for indirect language. \"Un léger décalage\" (a slight delay) for a three-week delay; \"un ajustement tarifaire\" for a price rise; \"des difficultés d'approvisionnement\" for a shortage; \"ce n'est pas tout à fait ce que nous espérions\" for this is bad.",
+          "Negotiators soften bad news with euphemism and attenuation, the Advanced tools you learned for indirect language. \"Un léger décalage\" (a slight delay) for a three-week delay; \"un ajustement tarifaire\" for a price rise; \"des difficultés d'approvisionnement\" for a shortage; \"ce n'est pas tout à fait ce que nous espérions\" for this is bad.",
           "Attenuators: \"peut-être\", \"un peu\", \"légèrement\", \"il se pourrait que\" + subjunctive, \"nous craignons que\" + subjunctive (often with ne explétif: \"nous craignons que les délais ne soient difficiles à tenir\"), litotes (\"ce n'est pas négligeable\" for it's significant). Use them to protect the relationship, never to hide facts the other side will discover anyway.",
         ],
         examples: [
@@ -1823,7 +1823,7 @@ export const FR_C2_U16: Lesson[] = [
     slug: "c2-vocab-paronyms",
     level: "FR-C2",
     number: 9,
-    title: "C2 Vocabulary: Paronyms That Fool Even Natives",
+    title: "Mastery Vocabulary: Paronyms That Fool Even Natives",
     summary: "Recouvrer / recouvrir, inclinaison / inclination, éruption / irruption, prolongation / prolongement, allocution / allocation, évoquer / invoquer, notable / notoire, opprimer / oppresser.",
     duration: "18 min",
     sections: [

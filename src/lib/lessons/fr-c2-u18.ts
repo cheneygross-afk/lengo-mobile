@@ -50,7 +50,7 @@ export const FR_C2_U18: Lesson[] = [
         heading: "What to cut, what to keep",
         body: [
           "Cut: examples and anecdotes (unless an example is the argument itself), repetitions, rhetorical flourishes, quotations the author uses, digressions. Keep: the thesis, each step of the argument, the concessions (they're part of the logic), and the conclusion.",
-          "Condense with the tools of C1 and Unit 17: nominalisation (\"le fait que les prix aient augmenté\" → \"la hausse des prix\"), generic words that cover a list (\"les loisirs\" for le cinéma, le théâtre, les concerts), and one connector where the author used a paragraph. A sentence like \"Prenons l'exemple de Lyon, de Lille et de Nantes, où...\" usually disappears entirely, or becomes \"dans plusieurs grandes villes\".",
+          "Condense with the tools of the Advanced level and Unit 17: nominalisation (\"le fait que les prix aient augmenté\" → \"la hausse des prix\"), generic words that cover a list (\"les loisirs\" for le cinéma, le théâtre, les concerts), and one connector where the author used a paragraph. A sentence like \"Prenons l'exemple de Lyon, de Lille et de Nantes, où...\" usually disappears entirely, or becomes \"dans plusieurs grandes villes\".",
           "Watch the trap of \"copier-réduire\": keeping the author's sentences and just deleting words. The result is a paraphrase servile in miniature, and examiners penalise it. Reformulate everything.",
         ],
         examples: [
@@ -1081,7 +1081,7 @@ export const FR_C2_U18: Lesson[] = [
     level: "FR-C2",
     number: 6,
     title: "Spiral Review: Citer, C'est Rapporter",
-    summary: "Indirect quotation is reported speech: practise the C1 rules (tense agreement, the mood each reporting verb demands, deictic shifts, indirect questions and commands) on fresh academic and press sentences.",
+    summary: "Indirect quotation is reported speech: practise the Advanced rules (tense agreement, the mood each reporting verb demands, deictic shifts, indirect questions and commands) on fresh academic and press sentences.",
     duration: "18 min",
     sections: [
       {
@@ -1295,7 +1295,7 @@ export const FR_C2_U18: Lesson[] = [
     slug: "c2-vocab-politics",
     level: "FR-C2",
     number: 7,
-    title: "C2 Vocabulary: The Language of Politics",
+    title: "Mastery Vocabulary: The Language of Politics",
     summary: "The vocabulary of the French political press: the legal names of corruption (trafic d'influence, prise illégale d'intérêts, abus de biens sociaux), the mechanics of government (motion de censure, 49.3, remaniement) and press favourites like pantouflage and cohabitation.",
     duration: "20 min",
     sections: [
@@ -1603,7 +1603,7 @@ export const FR_C2_U18: Lesson[] = [
         heading: "Amour, délice, orgue: masculine, then feminine in the plural",
         body: [
           "Three nouns are masculine in the singular and may become feminine in the plural, in literary or elevated style. \"Un amour\", but \"de folles amours\", \"des amours enfantines\" (the feminine plural is literary; the masculine plural is also correct: \"des amours passagers\"). \"Un délice\", but \"des délices infinies\", \"faire ses délices de\" (to delight in). \"Un orgue\", but \"les grandes orgues\" of a cathedral, when the plural designates one majestic instrument.",
-          "You will meet these feminine plurals in poetry, novels, sermons and wine reviews more than in conversation. Recognising them avoids reading a misprint where there is none; using one at the right moment is a C2 flourish.",
+          "You will meet these feminine plurals in poetry, novels, sermons and wine reviews more than in conversation. Recognising them avoids reading a misprint where there is none; using one at the right moment is a Mastery flourish.",
           "One more famous case: \"gens\" makes adjectives placed before it feminine (\"de vieilles gens\") but after it masculine (\"des gens heureux\"). It belongs to the same family of grammatical oddities that natives enjoy getting right.",
         ],
         examples: [

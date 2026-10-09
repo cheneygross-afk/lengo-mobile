@@ -255,7 +255,7 @@ export const FR_B2_GUIDES: FrGrammarGuide[] = [
     intro: [
       `A whole family of conjunctions ending in "que" trigger the subjunctive: "pour que", "afin que", "avant que", "jusqu'à ce que", "bien que", "à condition que", "à moins que", "sans que" and a few more. Others, just as common, take the indicative: "parce que", "pendant que", "après que", "dès que", "alors que", "même si".`,
       `There is a logic. Conjunctions of purpose, condition, concession and anticipation introduce something not (yet) real: what you aim at, what has to happen, what you concede despite your argument, what has not happened yet. Conjunctions of cause, time and opposition introduce facts. "Avant que" (it hasn't happened yet) takes the subjunctive; "après que" (it has happened) takes the indicative.`,
-      `Many of these conjunctions have a preposition twin used with an infinitive when both clauses share the same subject: "pour que tu partes" / "pour partir", "avant qu'il parte" / "avant de partir". Using the right one is a hallmark of B2 French.`,
+      `Many of these conjunctions have a preposition twin used with an infinitive when both clauses share the same subject: "pour que tu partes" / "pour partir", "avant qu'il parte" / "avant de partir". Using the right one is a hallmark of Upper-intermediate French.`,
     ],
     sections: [
       {
@@ -518,7 +518,7 @@ export const FR_B2_GUIDES: FrGrammarGuide[] = [
     level: "B2",
     intro: [
       `The conditionnel passé is would have: "j'aurais fait" (I would have done), "elle serait venue" (she would have come). It talks about what did not happen: missed chances, regrets, reproaches and alternative histories.`,
-      `Its most famous partner is "si" + plus-que-parfait: "Si j'avais su, je ne serais pas venu" (if I had known, I wouldn't have come). The rule from B1 still holds: no conditional after "si". English speakers are tempted by if I would have known, which is a mistake in both languages.`,
+      `Its most famous partner is "si" + plus-que-parfait: "Si j'avais su, je ne serais pas venu" (if I had known, I wouldn't have come). The rule from Intermediate still holds: no conditional after "si". English speakers are tempted by if I would have known, which is a mistake in both languages.`,
       `Add the modal verbs and you get some of the most useful phrases in French: "j'aurais dû" (I should have), "tu aurais pu" (you could have), "il aurait fallu" (we should have), "j'aurais mieux fait de" (I'd have done better to).`,
     ],
     sections: [
@@ -1197,10 +1197,10 @@ export const FR_B2_GUIDES: FrGrammarGuide[] = [
     slug: "french-connectors",
     title: "French Connectors: Cependant, Pourtant, Donc, En revanche",
     description:
-      "The French linking words you need for B2 writing and debate: contrast (cependant, pourtant, en revanche), cause (car, puisque, comme), consequence (donc, par conséquent, c'est pourquoi), addition and conclusion, with register and placement.",
+      "The French linking words you need for Upper-intermediate writing and debate: contrast (cependant, pourtant, en revanche), cause (car, puisque, comme), consequence (donc, par conséquent, c'est pourquoi), addition and conclusion, with register and placement.",
     level: "B2",
     intro: [
-      `Connectors ("connecteurs logiques") are what make an argument easy to follow: but, however, so, therefore, moreover. At B2 you are expected to move beyond "mais", "parce que" and "alors" and choose connectors that are precise and suit the register. In the DELF B2, the "essai argumenté" is marked partly on this.`,
+      `Connectors ("connecteurs logiques") are what make an argument easy to follow: but, however, so, therefore, moreover. At the Upper-intermediate level you are expected to move beyond "mais", "parce que" and "alors" and choose connectors that are precise and suit the register. In the DELF B2, the "essai argumenté" is marked partly on this.`,
       `French connectors differ from English ones in three ways: some belong strictly to speech ("par contre", "du coup") or to writing ("toutefois", "néanmoins", "or"); several have a fixed position (for example, "car" always opens its clause, while "donc" can sit after the verb); and a few near-synonyms carry different logic ("pourtant" vs "en revanche").`,
     ],
     sections: [

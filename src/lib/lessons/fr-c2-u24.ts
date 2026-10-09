@@ -17,7 +17,7 @@ export const FR_C2_U24: Lesson[] = [
         body: [
           "Open a French history book and you'll read: « Henri IV fut assassiné le 14 mai 1610 par Ravaillac. » Open a newspaper retrospective and you'll read: « Le 14 mai 1610, Henri IV a été assassiné rue de la Ferronnerie. » Same event, two tenses. The difference is not time but stance.",
           "\"Le passé simple\" presents events as cut off from the present of the writer and reader: a closed world, told from a distance. It is the tense of historical narrative, the novel, the biography, the encyclopedia. \"Le passé composé\" links the past to the present moment of speaking: it is the tense of conversation, of journalism, of letters, and of anything that still concerns us. A journalist writes « La guerre a éclaté il y a quatre-vingts ans » because the anniversary connects it to today.",
-          "In speech, the passé simple has almost disappeared. Using it in conversation (« Hier, je mangeai une pizza ») sounds bookish or comic, and French people do it on purpose for humour: « Et alors, il se leva, majestueux, et alla chercher une bière. » But in written narrative of the past, especially in the third person, it is alive and well, and at C2 you need to produce it, not just recognise it.",
+          "In speech, the passé simple has almost disappeared. Using it in conversation (« Hier, je mangeai une pizza ») sounds bookish or comic, and French people do it on purpose for humour: « Et alors, il se leva, majestueux, et alla chercher une bière. » But in written narrative of the past, especially in the third person, it is alive and well, and at the Mastery level you need to produce it, not just recognise it.",
         ],
         examples: [
           { es: "Henri IV fut assassiné le 14 mai 1610.", en: "Henri IV was assassinated on 14 May 1610. (history book)" },
@@ -228,7 +228,7 @@ export const FR_C2_U24: Lesson[] = [
         body: [
           "The facts: Louis XVI, tried by the National Convention, was found guilty of conspiracy against the nation and guillotined on 21 January 1793 on the place de la Révolution, today's place de la Concorde, in Paris. Here is how a chronology (a timeline in a textbook margin or an online \"frise chronologique\") presents it: « 21 janvier 1793 : Louis XVI est guillotiné place de la Révolution. »",
           "Chronologies use the present (\"le présent historique\" or \"présent de chronologie\"), often in short nominal or passive sentences. The present removes narrative distance: each date is a fixed point, like a caption. Other examples: « 1789 : prise de la Bastille » (nominal), « 22 septembre 1792 : la République est proclamée ».",
-          "Nominal style is especially common: \"prise de la Bastille\", \"exécution de Louis XVI\", \"proclamation de la République\". It's the same nominalisation you studied at C1, used for compactness.",
+          "Nominal style is especially common: \"prise de la Bastille\", \"exécution de Louis XVI\", \"proclamation de la République\". It's the same nominalisation you studied at the Advanced level, used for compactness.",
         ],
         examples: [
           { es: "21 janvier 1793 : Louis XVI est guillotiné place de la Révolution.", en: "21 January 1793: Louis XVI is guillotined on the Place de la Revolution." },
@@ -303,7 +303,7 @@ export const FR_C2_U24: Lesson[] = [
         body: [
           "A newspaper retrospective, for an anniversary: « Il y a 230 ans, le 21 janvier 1793, Louis XVI a été guillotiné à Paris. Un événement qui a profondément marqué l'histoire de France et dont les historiens débattent encore aujourd'hui. » The passé composé, \"il y a\", the present (\"débattent encore aujourd'hui\") and the verbless sentence (\"Un événement qui...\") all tie the past to the reader's present.",
           "A historical novel, in the imparfait of description and passé simple of action: « Le matin était gris et froid. Une foule immense se pressait autour de l'échafaud, silencieuse, comme suspendue. Le roi monta les marches d'un pas assuré. Il voulut parler ; un roulement de tambours couvrit sa voix. » The imparfait paints the scene (\"était\", \"se pressait\"), the passé simple moves the action (\"monta\", \"voulut\", \"couvrit\"), and details create emotion that a textbook would avoid.",
-          "So: chronology → présent; textbook → passé simple (+ imparfait, plus-que-parfait); press → passé composé (+ present); novel → passé simple + imparfait. Mastering C2 narrative means choosing the system that fits the genre, and staying in it.",
+          "So: chronology → présent; textbook → passé simple (+ imparfait, plus-que-parfait); press → passé composé (+ present); novel → passé simple + imparfait. Mastering Mastery narrative means choosing the system that fits the genre, and staying in it.",
         ],
         examples: [
           { es: "Il y a 230 ans, Louis XVI a été guillotiné à Paris.", en: "230 years ago, Louis XVI was guillotined in Paris." },
@@ -632,7 +632,7 @@ export const FR_C2_U24: Lesson[] = [
     level: "FR-C2",
     number: 4,
     title: "Error Hunt: Temps et Registre dans un Texte d'Histoire",
-    summary: "A university paragraph with C2-level errors: après que + subjunctive, a passé antérieur used as a plus-que-parfait, a présent de narration that slides into the past, and a hearsay conditional presented as fact. Find them and correct them.",
+    summary: "A university paragraph with Mastery-level errors: après que + subjunctive, a passé antérieur used as a plus-que-parfait, a présent de narration that slides into the past, and a hearsay conditional presented as fact. Find them and correct them.",
     duration: "18 min",
     sections: [
       {
@@ -714,7 +714,7 @@ export const FR_C2_U24: Lesson[] = [
       {
         heading: "Error 4: the hearsay conditional",
         body: [
-          "The \"conditionnel journalistique\" (you met it at C1) reports a claim without endorsing it: « Selon certains historiens, l'état-major aurait sciemment couvert l'erreur » = according to some historians, the general staff allegedly covered up the error. The student then writes « c'est donc la preuve que », treating the reported claim as established. That's a logical and stylistic error: the conditional and \"selon\" signal distance, so you can't conclude from them.",
+          "The \"conditionnel journalistique\" (you met it at the Advanced level) reports a claim without endorsing it: « Selon certains historiens, l'état-major aurait sciemment couvert l'erreur » = according to some historians, the general staff allegedly covered up the error. The student then writes « c'est donc la preuve que », treating the reported claim as established. That's a logical and stylistic error: the conditional and \"selon\" signal distance, so you can't conclude from them.",
           "Two corrections are possible, depending on what you mean. If the fact is established (and in the Dreyfus case, the cover-up by part of the general staff is well documented), state it in the indicative: « L'état-major couvrit sciemment l'erreur, pour protéger l'honneur de l'armée. » If it's a hypothesis, keep the distance throughout: « Selon certains historiens, l'état-major aurait sciemment couvert l'erreur, ce qui expliquerait son obstination. »",
           "Here's the corrected paragraph: « En 1894, le capitaine Alfred Dreyfus fut condamné pour trahison. Après avoir été dégradé publiquement, il fut déporté sur l'île du Diable. Le véritable coupable, le commandant Esterhazy, avait été identifié dès 1896 par le colonel Picquart. Pourtant, l'état-major refusa de rouvrir le dossier : il s'agissait, pour une partie de la hiérarchie militaire, de protéger l'honneur de l'armée à tout prix. »",
         ],
@@ -925,7 +925,7 @@ export const FR_C2_U24: Lesson[] = [
         heading: "Après que + indicative",
         body: [
           "\"Après que\" takes the indicative, because what follows it has actually happened. « Après que le roi eut abdiqué, la République fut proclamée. » In a passé composé text: « Après que le gouvernement a démissionné, des élections ont été organisées. » With a future: « Après que vous aurez signé, nous enverrons le contrat. »",
-          "And yet you'll hear and read \"après qu'il ait\" + subjunctive everywhere, even in newspapers and from educated speakers, by analogy with \"avant que\" (which does take the subjunctive). Grammarians, the Académie française and exam markers still consider it an error. At C2, write the indicative, and know that you're right even when natives do otherwise.",
+          "And yet you'll hear and read \"après qu'il ait\" + subjunctive everywhere, even in newspapers and from educated speakers, by analogy with \"avant que\" (which does take the subjunctive). Grammarians, the Académie française and exam markers still consider it an error. At the Mastery level, write the indicative, and know that you're right even when natives do otherwise.",
           "The cleanest way out, when both clauses have the same subject: \"après\" + past infinitive. « Après avoir abdiqué, Napoléon partit pour l'île d'Elbe. » Or a noun: « Après l'abdication de l'empereur, ... ». Professional writers use these constantly, partly to avoid the \"après que\" question altogether.",
         ],
         examples: [
@@ -1061,7 +1061,7 @@ export const FR_C2_U24: Lesson[] = [
         body: [
           "A flat narrative lists events in order: « Jeanne d'Arc arriva à Chinon. Elle rencontra le dauphin Charles. Elle partit pour Orléans. » To give it depth, insert what had happened before the main moment. « Jeanne d'Arc, qui avait quitté son village de Domrémy quelques semaines plus tôt, arriva à Chinon en mars 1429. Elle avait convaincu le capitaine de Vaucouleurs de lui fournir une escorte. »",
           "The ripple effects: the background clause moves to the plus-que-parfait (\"avait quitté\", \"avait convaincu\"); time markers shift from deictic to anaphoric (\"il y a quelques semaines\" becomes \"quelques semaines plus tôt\", \"hier\" becomes \"la veille\", \"l'année dernière\" becomes \"l'année précédente\"); and the relative clause (\"qui avait quitté\") lets you insert the background without breaking the flow.",
-          "The time-marker shift is a frequent C2 error: in a past narrative, \"il y a dix ans\" refers to ten years before now, not before the story. Use \"dix ans plus tôt\", \"dix ans auparavant\".",
+          "The time-marker shift is a frequent Mastery error: in a past narrative, \"il y a dix ans\" refers to ten years before now, not before the story. Use \"dix ans plus tôt\", \"dix ans auparavant\".",
         ],
         examples: [
           { es: "Jeanne d'Arc, qui avait quitté Domrémy quelques semaines plus tôt, arriva à Chinon en mars 1429.", en: "Joan of Arc, who had left Domremy a few weeks earlier, arrived at Chinon in March 1429." },
@@ -1390,7 +1390,7 @@ export const FR_C2_U24: Lesson[] = [
         heading: "Keeping the system coherent",
         body: [
           "The rule of thumb: pick a base tense, then derive everything else from it. Base = passé simple (or passé composé): background in the imparfait, anteriority in the plus-que-parfait or passé antérieur, posteriority in the conditional or \"devait\" + infinitive. Base = present: background in the present, anteriority in the passé composé, posteriority in the future.",
-          "The most common C2 slip is mixing the two systems in one stretch: « Le 18 juin 1815, Napoléon perd à Waterloo ; il ne reverrait jamais Paris en vainqueur » mixes a present base with a past-system flash-forward. Either « Napoléon perd... il ne reverra jamais » or « Napoléon perdit... il ne reverrait jamais ».",
+          "The most common Mastery slip is mixing the two systems in one stretch: « Le 18 juin 1815, Napoléon perd à Waterloo ; il ne reverrait jamais Paris en vainqueur » mixes a present base with a past-system flash-forward. Either « Napoléon perd... il ne reverra jamais » or « Napoléon perdit... il ne reverrait jamais ».",
           "A change of system is allowed at a clear break: a new paragraph, a date, a typographic pause. Many historians open a chapter in the passé simple, switch to the present for a scene (a battle, a trial, a speech), and close in the passé simple. Read it aloud: if the shift feels like a camera moving closer, it works; if it feels like a stumble, it doesn't.",
         ],
         examples: [
@@ -2072,7 +2072,7 @@ export const FR_C2_U24: Lesson[] = [
             source: "Very few heard him that evening; his appeal would nonetheless become the founding text of Free France.",
             answer: "Bien peu l'entendirent ce soir-là ; son appel n'en deviendrait pas moins le texte fondateur de la France libre.",
             altAnswers: ["Bien peu l'entendirent ce soir-là ; son appel deviendrait pourtant le texte fondateur de la France libre.", "Très peu l'entendirent ce soir-là ; son appel n'en deviendrait pas moins le texte fondateur de la France libre.", "Bien peu l'entendirent ce soir-là ; son appel devait pourtant devenir le texte fondateur de la France libre."],
-            explanation: "\"N'en... pas moins\" = nonetheless, a C2 concessive; \"deviendrait\" = future in the past.",
+            explanation: "\"N'en... pas moins\" = nonetheless, a Mastery concessive; \"deviendrait\" = future in the past.",
           },
           {
             type: "listen-choose",

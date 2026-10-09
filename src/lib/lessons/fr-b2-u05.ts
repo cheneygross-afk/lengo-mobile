@@ -52,7 +52,7 @@ export const FR_B2_U05: Lesson[] = [
         body: [
           "The present subjunctive (\"que tu viennes\") describes something happening at the same time as the main verb or later. The past subjunctive (\"que tu sois venu\") describes something already completed when the main verb happens. So the question is never 'is the sentence about the past?', but 'is this action over relative to my reaction?'.",
           "Compare: \"Je suis content que tu viennes\" (you're coming, tonight or now) and \"Je suis content que tu sois venu\" (you came, it's done). English uses a past tense or a present perfect here (that you came, that you've finished); French needs the subjunctive because of the trigger and the past form because of the timing.",
-          "Every trigger you learned at B1 works with it: emotions (\"je regrette qu'il ait menti\"), doubt (\"je doute qu'elle ait compris\"), necessity, and the conjunctions from Units 3 and 4 (\"bien qu'il ait plu toute la nuit, le match a eu lieu\").",
+          "Every trigger you learned at Intermediate works with it: emotions (\"je regrette qu'il ait menti\"), doubt (\"je doute qu'elle ait compris\"), necessity, and the conjunctions from Units 3 and 4 (\"bien qu'il ait plu toute la nuit, le match a eu lieu\").",
         ],
         examples: [
           { es: "Je regrette qu'il ait menti à ses parents.", en: "I'm sorry he lied to his parents." },
@@ -1642,7 +1642,7 @@ export const FR_B2_U05: Lesson[] = [
         heading: "In books only: qu'il fût, qu'il eût",
         body: [
           "In classic novels (and some very formal writing) you will meet the imperfect and pluperfect subjunctive: \"il fallait qu'il partît\", \"bien qu'il fût tard\", \"je craignais qu'il ne fût parti\", \"quoiqu'elle eût raison\". They are the old way of keeping the sequence of tenses after a past main verb.",
-          "You only need to recognise them: \"fût\" = \"soit\", \"eût\" = \"ait\", and verbs ending in -ât, -ît, -ût in the il form (\"qu'il chantât\", \"qu'il finît\", \"qu'il pût\"). Note the circumflex that distinguishes \"fût\" (subjunctive) from \"fut\" (passé simple). Never use them in speech: they sound comically pompous. They are studied properly at C1.",
+          "You only need to recognise them: \"fût\" = \"soit\", \"eût\" = \"ait\", and verbs ending in -ât, -ît, -ût in the il form (\"qu'il chantât\", \"qu'il finît\", \"qu'il pût\"). Note the circumflex that distinguishes \"fût\" (subjunctive) from \"fut\" (passé simple). Never use them in speech: they sound comically pompous. They are studied properly at the Advanced level.",
         ],
         examples: [
           { es: "Bien qu'il fût tard, la rue était encore animée.", en: "Although it was late, the street was still lively." },

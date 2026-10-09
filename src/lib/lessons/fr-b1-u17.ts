@@ -78,7 +78,7 @@ export const FR_B1_U17: Lesson[] = [
       {
         heading: "Never qu'est-ce que or quoi after a verb",
         body: [
-          "The most common B1 mistake is to carry the question form into a statement: *Je ne sais pas qu'est-ce que tu fais*, *Explique-moi qu'est-ce qui se passe*. You will hear this in very casual speech, but it is considered wrong in standard French and sounds childish in writing. After \"savoir\", \"comprendre\", \"dire\", \"expliquer\", \"demander\", \"raconter\", \"montrer\", \"se demander\", \"voir\", \"écouter\", always use \"ce que\" / \"ce qui\".",
+          "The most common Intermediate mistake is to carry the question form into a statement: *Je ne sais pas qu'est-ce que tu fais*, *Explique-moi qu'est-ce qui se passe*. You will hear this in very casual speech, but it is considered wrong in standard French and sounds childish in writing. After \"savoir\", \"comprendre\", \"dire\", \"expliquer\", \"demander\", \"raconter\", \"montrer\", \"se demander\", \"voir\", \"écouter\", always use \"ce que\" / \"ce qui\".",
           "The same goes for \"quoi\": *Je ne sais pas quoi tu veux* is not French. \"Quoi\" survives only before an infinitive (\"je ne sais pas quoi faire\", I don't know what to do; \"il ne sait pas quoi dire\") and after a preposition, which you will see in Part 2.",
           "Compare the question and the statement side by side: \"Qu'est-ce que tu fais ?\" (What are you doing?) becomes \"Je me demande ce que tu fais\" (I wonder what you're doing). \"Qu'est-ce qui ne va pas ?\" (What's wrong?) becomes \"Dis-moi ce qui ne va pas\" (Tell me what's wrong).",
         ],
@@ -811,7 +811,7 @@ export const FR_B1_U17: Lesson[] = [
         body: [
           "Look at what follows and ask what the verb needs. A verb right after the gap: \"ce qui\" (\"ce qui arrive\"). A subject + a verb with a direct object: \"ce que\" (\"ce que je veux\"). A verb with de: \"ce dont\" (\"ce dont je parle\"). A verb with à: \"ce à quoi\" (\"ce à quoi je pense\").",
           "Some verbs change construction from English: \"se souvenir de\" (ce dont) but \"se rappeler\" with a direct object (ce que): \"ce dont je me souviens\" = \"ce que je me rappelle\". Likewise \"s'occuper de\" (ce dont) vs \"gérer\" (ce que).",
-          "Other prepositions follow the \"ce à quoi\" model with \"quoi\": \"ce sur quoi je compte\" (what I'm counting on), \"ce contre quoi il se bat\" (what he's fighting against). These are rarer; at B1 just recognise them.",
+          "Other prepositions follow the \"ce à quoi\" model with \"quoi\": \"ce sur quoi je compte\" (what I'm counting on), \"ce contre quoi il se bat\" (what he's fighting against). These are rarer; at Intermediate just recognise them.",
         ],
         examples: [
           { es: "Ce qui arrive est grave.", en: "What's happening is serious." },
@@ -2385,7 +2385,7 @@ export const FR_B1_U17: Lesson[] = [
       {
         heading: "Step 2: people vs things after a preposition",
         body: [
-          "After a preposition other than de, people take \"qui\": \"l'ami à qui j'écris\", \"la femme pour qui il a tout quitté\". Things take \"lequel\" forms in careful French (\"la table sur laquelle...\"), which you'll study at B2; for now use \"où\" when the meaning is place (\"la boîte où je range mes photos\") and the ce forms for what (\"ce à quoi\", \"ce sur quoi\").",
+          "After a preposition other than de, people take \"qui\": \"l'ami à qui j'écris\", \"la femme pour qui il a tout quitté\". Things take \"lequel\" forms in careful French (\"la table sur laquelle...\"), which you'll study at the Upper-intermediate level; for now use \"où\" when the meaning is place (\"la boîte où je range mes photos\") and the ce forms for what (\"ce à quoi\", \"ce sur quoi\").",
           "For de + person, both \"dont\" and \"de qui\" are possible, but \"dont\" is far more common: \"l'homme dont je parle\".",
           "Justify each answer in one phrase: 'subject of the verb', 'direct object', 'verb + de', 'verb + à + person', 'place', 'time'. If you can say why, you won't hesitate in conversation.",
         ],
@@ -2626,7 +2626,7 @@ export const FR_B1_U17: Lesson[] = [
         heading: "Long sentences: one step at a time",
         body: [
           "For long sentences, write in chunks: main clause, then relative clause, then the end. Then reread for three things: the relative (qui / que / où / dont), the agreement after \"que\", and the verb endings (\"-ait\" vs \"-ais\", \"-ent\" silent).",
-          "Typical B1 dictation sentences mix tenses: \"La maison où mes grands-parents habitaient, et dont je me souviens si bien, a été vendue\" mixes imparfait and relatives. Don't let length scare you: every piece is grammar you know.",
+          "Typical Intermediate dictation sentences mix tenses: \"La maison où mes grands-parents habitaient, et dont je me souviens si bien, a été vendue\" mixes imparfait and relatives. Don't let length scare you: every piece is grammar you know.",
         ],
         examples: [
           { es: "La maison où mes grands-parents habitaient se trouvait au bord d'un lac.", en: "The house where my grandparents lived was by a lake." },

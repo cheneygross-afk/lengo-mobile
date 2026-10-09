@@ -1874,7 +1874,7 @@ export const FR_B1_U06: Lesson[] = [
         body: [
           "The same three-way test works with other adjectives. \"Il est sûr que le concert aura lieu\" (indicative) vs \"il n'est pas sûr que le concert ait lieu\" (subjunctive). \"Il est certain qu'il viendra\" vs \"il est peu probable qu'il vienne\".",
           "Try to hear each pair as a single picture with two lenses: the event stays the same, only your confidence changes, and the verb follows your confidence.",
-          "\"Avoir lieu\" (to take place) is a useful B1 phrase for events: \"le match a lieu samedi\".",
+          "\"Avoir lieu\" (to take place) is a useful Intermediate phrase for events: \"le match a lieu samedi\".",
         ],
         examples: [
           { es: "Il est sûr que le concert aura lieu.", en: "The concert will definitely take place." },

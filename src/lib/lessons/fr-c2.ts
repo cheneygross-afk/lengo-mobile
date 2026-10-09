@@ -80,7 +80,7 @@ const UNITS: FrenchUnitDef[] = [
   { id: "u30", title: "Art, Film & Literary Criticism", description: "Can analyse a novel, a film or a painting with the vocabulary of French criticism and write a nuanced review.", lessons: FR_C2_U30, writing: FR_C2_U30_WRITING },
   { id: "u31", title: "Business & Economics", description: "Can follow and discuss financial journalism on growth, inflation, companies, mergers and trade, and write a dense, precise economic report.", lessons: FR_C2_U31, extra: FR_C2_U31_EXTRA, writing: FR_C2_U31_WRITING },
   { id: "u32", title: "Creative Writing", description: "Can use the tools of the French literary craft, from foreshadowing and point of view to constraints and imagery, and write a polished microfiction.", lessons: FR_C2_U32, writing: FR_C2_U32_WRITING },
-  { id: "u33", title: "Mastery Review & DALF C2-Style Exam", description: "Can bring together the grammar, registers and phraseology of the C1 and C2 levels under exam conditions and pass a DALF C2-style mastery exam.", lessons: FR_C2_U33, writing: FR_C2_U33_WRITING },
+  { id: "u33", title: "Mastery Review & DALF C2-Style Exam", description: "Can bring together the grammar, registers and phraseology of the Advanced and Mastery levels under exam conditions and pass a DALF C2-style mastery exam.", lessons: FR_C2_U33, writing: FR_C2_U33_WRITING },
 ];
 
 const LEVEL = buildFrenchLevel("C2", UNITS);

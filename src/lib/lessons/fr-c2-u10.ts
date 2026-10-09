@@ -8,7 +8,7 @@ export const FR_C2_U10: Lesson[] = [
     slug: "c2-vocab-latin-phrases",
     level: "FR-C2",
     number: 1,
-    title: "C2 Vocabulary: Latin Phrases in Educated French",
+    title: "Mastery Vocabulary: Latin Phrases in Educated French",
     summary: "The living Latin of French reports, meetings and the press (sine qua non, statu quo, in extremis, grosso modo, a fortiori, de visu...), their correct form, meaning and the usual errors.",
     duration: "18 min",
     sections: [
@@ -237,7 +237,7 @@ export const FR_C2_U10: Lesson[] = [
     slug: "c2-vocab-greek-learned-words",
     level: "FR-C2",
     number: 2,
-    title: "C2 Vocabulary: Greek-Origin and Learned Words",
+    title: "Mastery Vocabulary: Greek-Origin and Learned Words",
     summary: "The learned words of the French press and the essay (panacée, paradigme, dichotomie, idiosyncrasie, parangon, paroxysme, hécatombe, catharsis, apologie, diatribe, néophyte, thuriféraire) and their traps.",
     duration: "18 min",
     sections: [
@@ -1220,7 +1220,7 @@ export const FR_C2_U10: Lesson[] = [
         body: [
           "French offices are full of English: \"une deadline\", \"un brainstorming\", \"un feedback\", \"un call\", \"le reporting\", \"être overbooké\", \"checker\", \"forwarder un mail\". The official commission for the French language proposes equivalents: \"une échéance\" or \"une date butoir\", \"un remue-méninges\", \"un retour\", \"une réunion téléphonique\" or \"un appel\", \"le compte rendu\", \"débordé\", \"vérifier\", \"transférer un courriel\". In formal writing and in the public sector, these French terms are expected.",
           "Then there is French corporate jargon in French words, mocked as \"le jargon managérial\": \"je reviens vers vous\" (I'll get back to you, a calque of the English), \"on se cale un point\" (let's schedule a catch-up), \"impacter\" (to affect), \"prioriser\", \"être force de proposition\" (to be proactive), \"monter en compétences\". Satirical books and TV sketches love to parody them.",
-          "Practical advice for a C2 speaker: understand all of it, use some of it in a startup or a multinational where everyone does, and switch to plain French in letters, reports and with older or public-sector interlocutors. \"Je reviens vers vous\" is now standard in emails, but \"je vous recontacte\" or \"je vous tiens informé\" is never wrong.",
+          "Practical advice for a Mastery speaker: understand all of it, use some of it in a startup or a multinational where everyone does, and switch to plain French in letters, reports and with older or public-sector interlocutors. \"Je reviens vers vous\" is now standard in emails, but \"je vous recontacte\" or \"je vous tiens informé\" is never wrong.",
         ],
         examples: [
           { es: "La date butoir pour le dépôt des dossiers est fixée au 15 mai.", en: "The deadline for submitting applications is 15 May." },
@@ -1811,7 +1811,7 @@ export const FR_C2_U10: Lesson[] = [
     slug: "c2-vocab-learned-locutions",
     level: "FR-C2",
     number: 9,
-    title: "C2 Vocabulary: Learned Locutions",
+    title: "Mastery Vocabulary: Learned Locutions",
     summary: "Locutions that give precision and a formal register: à l'aune de, en vertu de, à l'instar de, au demeurant, de surcroît, à l'envi, à dessein, de concert, à la dérobée, à son corps défendant, à brûle-pourpoint, sous couvert de.",
     duration: "18 min",
     sections: [

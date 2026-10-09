@@ -23,7 +23,7 @@ export const FR_C2_U33: Lesson[] = [
     slug: "c2-comprehensive-review-1",
     level: "FR-C2",
     number: 1,
-    title: "C1 and C2 Comprehensive Review, Part 1 of 3",
+    title: "Advanced and Mastery Comprehensive Review, Part 1 of 3",
     summary: "Grammar review: the subjunctive and its tenses, concession and hypothesis, literary tenses, participles, emphatic inversion, the ne explétif and the literary ne, with a cumulative quiz.",
     duration: "20 min",
     sections: [
@@ -71,7 +71,7 @@ export const FR_C2_U33: Lesson[] = [
         body: [
           "Concession: \"bien que / quoique\" + subjunctive; \"même si\" + indicative; \"avoir beau\" + infinitive (\"j'ai beau chercher, je ne trouve pas\"); \"quel que soit\" (agreeing: \"quelles que soient vos raisons\"); \"si / aussi + adjective + que\" + subjunctive (\"si brillant qu'il soit\"); \"quand bien même\" + conditional (\"quand bien même il pleuvrait\"); \"tout + adjective + que\" + indicative (\"tout ministre qu'il est\").",
           "Hypothesis: \"si\" + present / imperfect / pluperfect, never the conditional after si; \"à supposer que\", \"pour peu que\" (if only, provided even slightly), \"à condition que\" + subjunctive; \"au cas où\" + conditional (\"au cas où il pleuvrait\"). Literary hypothesis by inversion: \"Viendrait-il à refuser, nous serions dans l'impasse\" (should he refuse).",
-          "These structures are what C2 examiners look for in a written argument: they show you can hold several possibilities at once, exactly like an educated native writer.",
+          "These structures are what Mastery examiners look for in a written argument: they show you can hold several possibilities at once, exactly like an educated native writer.",
         ],
         examples: [
           { es: "Quelles que soient vos raisons, ce retard est inacceptable.", en: "Whatever your reasons, this delay is unacceptable." },
@@ -252,7 +252,7 @@ export const FR_C2_U33: Lesson[] = [
     slug: "c2-comprehensive-review-2",
     level: "FR-C2",
     number: 2,
-    title: "C1 and C2 Comprehensive Review, Part 2 of 3",
+    title: "Advanced and Mastery Comprehensive Review, Part 2 of 3",
     summary: "Register and vocabulary review: legal, medical, economic and academic French, false friends, paronyms and collocations, and moving between familier, courant and soutenu.",
     duration: "19 min",
     sections: [
@@ -260,7 +260,7 @@ export const FR_C2_U33: Lesson[] = [
         heading: "Specialised French: law, medicine, economics, the academy",
         body: [
           "Each field has fixed formulas. Legal: \"je soussigné(e)\", \"il est convenu ce qui suit\", \"ledit / ladite\", \"à défaut de\", \"sous peine de\", \"en vertu de\". Medical: \"le patient présente\", \"un traitement a été instauré\", \"il n'est pas exclu que\" + subjunctive, \"depuis\" for history. Economic: \"le chiffre d'affaires ressort à\", \"sous l'effet de\", the forecasting conditional. Academic: \"il convient de\", \"force est de constater que\", \"l'hypothèse selon laquelle\", the \"nous\" of modesty.",
-          "What unites them is nominal style and impersonal constructions: \"il a été procédé à\", \"la mise en place d'un traitement\", \"la hausse du chiffre d'affaires\". Moving between this style and ordinary French, both ways, is a key C2 skill: \"Il a été procédé à l'audition du témoin\" = \"On a entendu le témoin.\"",
+          "What unites them is nominal style and impersonal constructions: \"il a été procédé à\", \"la mise en place d'un traitement\", \"la hausse du chiffre d'affaires\". Moving between this style and ordinary French, both ways, is a key Mastery skill: \"Il a été procédé à l'audition du témoin\" = \"On a entendu le témoin.\"",
           "Collocations are part of the register: you \"interjeter appel\" (lodge an appeal), \"poser un diagnostic\", \"dégager un bénéfice\", \"émettre une hypothèse\", \"formuler une objection\". The verb is fixed by usage, not logic.",
         ],
         examples: [
@@ -293,7 +293,7 @@ export const FR_C2_U33: Lesson[] = [
       {
         heading: "False friends and paronyms",
         body: [
-          "False friends seen across C1 and C2: \"actuel\" (current), \"éventuellement\" (possibly), \"assister à\" (to attend), \"une librairie\" (bookshop), \"sensible\" (sensitive), \"un médecin généraliste\" (GP), \"la monnaie\" (change, currency), \"se douter de\" (to suspect), \"supporter\" (to bear), \"ressentir\" (to feel, not resent), \"réaliser\" (to carry out; its use for to realise is a criticised anglicism: prefer \"se rendre compte\").",
+          "False friends seen across the Advanced level and Mastery: \"actuel\" (current), \"éventuellement\" (possibly), \"assister à\" (to attend), \"une librairie\" (bookshop), \"sensible\" (sensitive), \"un médecin généraliste\" (GP), \"la monnaie\" (change, currency), \"se douter de\" (to suspect), \"supporter\" (to bear), \"ressentir\" (to feel, not resent), \"réaliser\" (to carry out; its use for to realise is a criticised anglicism: prefer \"se rendre compte\").",
           "Paronyms are words that look or sound alike with different meanings: \"la conjoncture\" (economic situation) / \"la conjecture\" (supposition); \"éminent\" (distinguished) / \"imminent\" (about to happen); \"une inclinaison\" (slope) / \"une inclination\" (liking); \"la collision\" (crash) / \"la collusion\" (secret agreement); \"prodige\" (prodigy) / \"prodigue\" (lavish, prodigal); \"infecter\" (to infect) / \"infester\" (to infest); \"éruption\" (volcano) / \"irruption\" (bursting in: \"faire irruption\").",
           "These are among the most common traps in DALF C2 writing: one wrong paronym can change the meaning of a sentence or make it comic.",
         ],
@@ -338,7 +338,7 @@ export const FR_C2_U33: Lesson[] = [
         body: [
           "The same idea in three registers. Familier: \"T'as vu ? Le patron s'est fait virer.\" Courant: \"Tu as vu ? Le directeur a été licencié.\" Soutenu: \"Avez-vous appris que le directeur avait été démis de ses fonctions ?\" Register is carried by vocabulary (virer / licencier / démettre de ses fonctions), by grammar (dropped ne, t'as, inversion, ça vs cela), and by address (tu / vous).",
           "Some markers: \"on\" vs \"nous\"; \"ça\" vs \"cela\"; \"c'est pas\" vs \"ce n'est pas\"; intonation questions vs inversion; \"y a\" vs \"il y a\"; \"du coup\" vs \"par conséquent\"; \"genre\" vs \"par exemple\"; \"le boulot\" vs \"le travail\" vs \"l'emploi\" or \"les fonctions\".",
-          "The C2 learner must be able to shift a text cleanly from one register to another without mixing them, except for deliberate stylistic effect.",
+          "The Mastery learner must be able to shift a text cleanly from one register to another without mixing them, except for deliberate stylistic effect.",
         ],
         examples: [
           { es: "T'as vu ? Le patron s'est fait virer.", en: "Did you see? The boss got fired. (familiar)" },
@@ -471,7 +471,7 @@ export const FR_C2_U33: Lesson[] = [
     slug: "c2-comprehensive-review-3",
     level: "FR-C2",
     number: 3,
-    title: "C1 and C2 Comprehensive Review, Part 3 of 3",
+    title: "Advanced and Mastery Comprehensive Review, Part 3 of 3",
     summary: "Discourse review: argumentation, rhetoric, quotation and synthesis, narrative and criticism, and the structure of the DALF C2 tasks.",
     duration: "19 min",
     sections: [
@@ -696,7 +696,7 @@ export const FR_C2_U33: Lesson[] = [
     slug: "c2-challenge-error-hunt",
     level: "FR-C2",
     number: 4,
-    title: "C2 Challenge: The Great Error Hunt",
+    title: "Mastery Challenge: The Great Error Hunt",
     summary: "Every sentence hides an error from a different topic of the level, from après que + subjunctive to pallier à, ils se sont arrogés and faire du sens: find and fix them all.",
     duration: "18 min",
     sections: [
@@ -936,7 +936,7 @@ export const FR_C2_U33: Lesson[] = [
     slug: "c2-challenge-register-chameleon",
     level: "FR-C2",
     number: 5,
-    title: "C2 Challenge: The Register Chameleon",
+    title: "Mastery Challenge: The Register Chameleon",
     summary: "The same event told by a notaire, a doctor, a journalist and a friend: identify each register and produce your own versions.",
     duration: "19 min",
     sections: [
@@ -1156,7 +1156,7 @@ export const FR_C2_U33: Lesson[] = [
     slug: "c2-challenge-translation-relay",
     level: "FR-C2",
     number: 6,
-    title: "C2 Challenge: Translation Relay",
+    title: "Mastery Challenge: Translation Relay",
     summary: "Translate both ways sentences dense with idioms, euphemism, formal register and fine grammar, aiming for functional equivalence rather than word-for-word.",
     duration: "19 min",
     sections: [
@@ -1252,7 +1252,7 @@ export const FR_C2_U33: Lesson[] = [
         body: [
           "Some English structures have no direct French mould. 'Hardly had I arrived when...' → \"À peine étais-je arrivé que...\". 'Should you need anything' → \"Si vous aviez besoin de quoi que ce soit\" or \"Au cas où vous auriez besoin de quoi que ce soit\". 'It's not that I don't want to, it's that I can't' → \"Ce n'est pas que je ne veuille pas, c'est que je ne peux pas\" (subjunctive after \"ce n'est pas que\").",
           "'The more..., the more...' → \"Plus..., plus...\" without articles: \"Plus on attend, plus c'est cher.\" 'Whoever you are' → \"Qui que vous soyez\". 'He is said to be ill' → \"Il serait malade\" (hearsay conditional) or \"On dit qu'il est malade\". 'I've been waiting for an hour' → \"J'attends depuis une heure\" (present).",
-          "The C2 reflex is to recognise the function of the English structure and choose the French one that performs it, instead of copying the English syntax.",
+          "The Mastery reflex is to recognise the function of the English structure and choose the French one that performs it, instead of copying the English syntax.",
         ],
         examples: [
           { es: "À peine étais-je arrivé que le téléphone a sonné.", en: "Hardly had I arrived when the phone rang." },
@@ -1386,14 +1386,14 @@ export const FR_C2_U33: Lesson[] = [
     slug: "c2-challenge-phraseology-no-hints",
     level: "FR-C2",
     number: 7,
-    title: "C2 Challenge: Phraseology Without Hints",
+    title: "Mastery Challenge: Phraseology Without Hints",
     summary: "Complete and produce idioms, proverbs, learned locutions and collocations from memory, with no word banks and no first letters.",
     duration: "18 min",
     sections: [
       {
         heading: "Idioms from memory",
         body: [
-          "At C2 an idiom is not something you decode but something you reach for. This section gives you the situation and expects the expression. Review the set first: \"avoir du pain sur la planche\" (to have a lot on your plate), \"mettre la charrue avant les bœufs\" (to put the cart before the horse), \"ne pas y aller par quatre chemins\" (not to beat about the bush), \"tirer les marrons du feu\" (to do the dangerous work and let someone else reap the benefit, or to profit from others' work), \"avoir un poil dans la main\" (to be bone idle), \"jeter de l'huile sur le feu\" (to add fuel to the fire), \"se faire rouler dans la farine\" (to be taken for a ride).",
+          "At the Mastery level an idiom is not something you decode but something you reach for. This section gives you the situation and expects the expression. Review the set first: \"avoir du pain sur la planche\" (to have a lot on your plate), \"mettre la charrue avant les bœufs\" (to put the cart before the horse), \"ne pas y aller par quatre chemins\" (not to beat about the bush), \"tirer les marrons du feu\" (to do the dangerous work and let someone else reap the benefit, or to profit from others' work), \"avoir un poil dans la main\" (to be bone idle), \"jeter de l'huile sur le feu\" (to add fuel to the fire), \"se faire rouler dans la farine\" (to be taken for a ride).",
           "Watch the fixed parts. You say \"mettre la charrue avant les bœufs\", never \"devant\"; \"ne pas y aller par quatre chemins\" keeps \"y\"; \"se faire rouler dans la farine\" is always passive in sense, with \"se faire\". Changing a single word breaks the idiom and signals a non-native speaker immediately.",
           "Register matters too: \"avoir un poil dans la main\" is familiar and mocking, fine among colleagues but not in a performance review.",
         ],
@@ -1617,7 +1617,7 @@ export const FR_C2_U33: Lesson[] = [
     slug: "c2-challenge-text-detective",
     level: "FR-C2",
     number: 8,
-    title: "C2 Challenge: Text Detective",
+    title: "Mastery Challenge: Text Detective",
     summary: "Dissect an original opinion piece full of irony, figures of speech and quotation: identify the stance, the structure, the devices and everything the author implies but never states.",
     duration: "20 min",
     sections: [
@@ -1721,7 +1721,7 @@ export const FR_C2_U33: Lesson[] = [
         body: [
           "Structure: (1) ironic praise of slowness; (2) ironic concession about digitisation; (3) the turn, \"Soyons sérieux un instant\", which reveals the thesis; (4) a quotation repurposed; (5) a closing formula in the form \"X n'est pas un luxe : c'est...\". The irony earns the reader's attention; the serious ending cashes it in.",
           "The quotations are authorities used playfully: Seneca and the ancient philosophers (Diogenes in his barrel, \"tonneau\", is alluded to without being named), then Pascal's Pensées (public domain): « tout le malheur des hommes vient d'une seule chose, qui est de ne savoir pas demeurer en repos, dans une chambre ». The author bends it to describe people confined by paperwork.",
-          "The implicit: the text never names a minister or a reform, yet it implies that digitisation has shifted the burden onto citizens and excluded those without equipment or skills. \"Ceux qui en ont le moins\" is a deliberately vague phrase that invites readers to complete it: the least time, money, digital skill. A C2 reader states these implications explicitly: « L'auteur suggère, sans le dire, que... »",
+          "The implicit: the text never names a minister or a reform, yet it implies that digitisation has shifted the burden onto citizens and excluded those without equipment or skills. \"Ceux qui en ont le moins\" is a deliberately vague phrase that invites readers to complete it: the least time, money, digital skill. A Mastery reader states these implications explicitly: « L'auteur suggère, sans le dire, que... »",
         ],
         examples: [
           { es: "Le texte bascule avec « Soyons sérieux un instant ».", en: "The text turns with 'Let's be serious for a moment'." },
@@ -1853,7 +1853,7 @@ export const FR_C2_U33: Lesson[] = [
     slug: "c2-challenge-argue-to-the-limit",
     level: "FR-C2",
     number: 9,
-    title: "C2 Challenge: Argue to the Limit",
+    title: "Mastery Challenge: Argue to the Limit",
     summary: "Hold your ground in a hostile debate: spot fallacies, defuse rhetorical questions and pressure, and answer each turn with the right tool: concession, reframing, naming the fallacy or emphasis.",
     duration: "20 min",
     sections: [
@@ -1862,7 +1862,7 @@ export const FR_C2_U33: Lesson[] = [
         body: [
           "An original televised debate. The motion: should companies move to a four-day week? Your opponent, an imaginary commentator named Bertrand Lescure, uses every trick. Read his turns: « Alors, selon vous, il faudrait travailler moins pour produire plus ? C'est la pensée magique ! » — « Soit on garde cinq jours, soit on accepte le déclin du pays. » — « Vous n'avez jamais dirigé une entreprise, alors permettez-moi de douter de vos conseils. » — « Si on cède sur la semaine de quatre jours, demain ce sera trois, puis deux. »",
           "Each turn hides a fallacy: a caricature of your position (\"l'homme de paille\", the straw man), a false dilemma (\"le faux dilemme\"), an attack on the person instead of the argument (\"l'attaque ad hominem\"), and a slippery slope (\"la pente glissante\"). Pressure tactics add to it: interrupting, asking \"Oui ou non ?\", piling up questions.",
-          "The C2 skill is not to win by volume but to choose the right reply for each move, briefly, without losing composure: \"Permettez-moi de finir\", \"Ce n'est pas ce que j'ai dit\", \"Vous me prêtez des propos que je n'ai pas tenus\".",
+          "The Mastery skill is not to win by volume but to choose the right reply for each move, briefly, without losing composure: \"Permettez-moi de finir\", \"Ce n'est pas ce que j'ai dit\", \"Vous me prêtez des propos que je n'ai pas tenus\".",
         ],
         examples: [
           { es: "Vous me prêtez des propos que je n'ai pas tenus.", en: "You're attributing words to me that I never said." },
@@ -2093,7 +2093,7 @@ export const FR_C2_U33: Lesson[] = [
     slug: "c2-mastery-exam",
     level: "FR-C2",
     number: 10,
-    title: "C2 Mastery Exam (DALF C2-Style)",
+    title: "Mastery Mastery Exam (DALF C2-Style)",
     summary: "A final exam in the spirit of the DALF C2: listening and reading comprehension, an oral exposé and debate, a structured text written from a dossier, and precision in vocabulary, register and phraseology. Aim for 70% or more.",
     duration: "20 min",
     sections: [
@@ -2191,7 +2191,7 @@ export const FR_C2_U33: Lesson[] = [
         body: [
           "The written exam gives you a dossier of documents and asks for a structured text (an article, an editorial, a report, a letter) for a given reader. You must synthesise the sources without copying them, take a position, and respect the genre. Refer to sources indirectly: \"Selon une étude citée dans le dossier\", \"Comme le souligne l'auteur du premier document\".",
           "A model plan for an editorial on pedestrianisation: (1) a hook and the problem; (2) the undeniable benefits (air, noise, social life); (3) the costs and the excluded (adjacent streets, suburban residents); (4) the conditions of success (public transport, consultation); (5) a clear conclusion with an opening.",
-          "At C2 the examiners reward precise vocabulary (\"report de trafic\", \"mobilité douce\", \"relégation\"), varied syntax (participial clauses, inversions, \"non que\" + subjunctive), and a consistent register. They penalise unsupported claims and paraphrase that sticks too close to the sources.",
+          "At the Mastery level the examiners reward precise vocabulary (\"report de trafic\", \"mobilité douce\", \"relégation\"), varied syntax (participial clauses, inversions, \"non que\" + subjunctive), and a consistent register. They penalise unsupported claims and paraphrase that sticks too close to the sources.",
         ],
         examples: [
           { es: "Comme le souligne l'auteur du premier document, la mesure a un coût social.", en: "As the author of the first document points out, the measure has a social cost." },

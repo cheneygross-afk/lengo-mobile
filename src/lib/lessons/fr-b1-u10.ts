@@ -1189,7 +1189,7 @@ export const FR_B1_U10: Lesson[] = [
         body: [
           "\"Devoir\" in the conditional means should, ought to: \"Tu devrais te reposer\" (you should rest), \"Vous devriez appeler un médecin.\" It's softer than \"tu dois\" (you must).",
           "Another way to give advice is to put yourself in the other person's shoes: \"À ta place, je + conditional\" (in your place, if I were you). \"À ta place, je prendrais le train.\" With vous: \"À votre place...\".",
-          "Should have is a past conditional, which comes at B2. For now, stick to advice about now and the future.",
+          "Should have is a past conditional, which comes at the Upper-intermediate level. For now, stick to advice about now and the future.",
         ],
         examples: [
           { es: "Tu devrais te reposer un peu.", en: "You should rest a bit." },

@@ -442,7 +442,7 @@ export const FR_B1_U20: Lesson[] = [
         heading: "Single event: passive or on",
         body: [
           "For one event at one time, use the être passive or \"on\": \"Tout le pain a été vendu avant midi\" / \"On a vendu tout le pain avant midi\". The pronominal passive is wrong here: *Le pain s'est vendu avant midi* sounds odd for a single sale (it would suggest the bread sold itself).",
-          "Some verbs do accept se for a single result, especially in speech (\"Les places se sont vendues en dix minutes\": the seats sold out in ten minutes), but as a rule of thumb at B1: one event → passive or on.",
+          "Some verbs do accept se for a single result, especially in speech (\"Les places se sont vendues en dix minutes\": the seats sold out in ten minutes), but as a rule of thumb at the Intermediate level: one event → passive or on.",
         ],
         examples: [
           { es: "Tout le pain a été vendu avant midi.", en: "All the bread was sold before noon." },

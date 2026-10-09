@@ -23,8 +23,8 @@ export const FR_B1_U31: Lesson[] = [
     slug: "b1-vocabulary-practice-10",
     level: "FR-B1",
     number: 1,
-    title: "B1 Vocabulary Practice, Part 10 of 10",
-    summary: "The last set of high-frequency B1 expressions: s'en sortir, se rendre compte, en avoir marre, avoir hâte de, faire de son mieux, il s'agit de and au fur et à mesure.",
+    title: "Intermediate Vocabulary Practice, Part 10 of 10",
+    summary: "The last set of high-frequency Intermediate expressions: s'en sortir, se rendre compte, en avoir marre, avoir hâte de, faire de son mieux, il s'agit de and au fur et à mesure.",
     duration: "14 min",
     sections: [
       {
@@ -824,7 +824,7 @@ export const FR_B1_U31: Lesson[] = [
         heading: "Sure, fairly sure, it seems: the indicative side",
         body: [
           "French lets you dial your certainty up and down precisely. Strong certainty: \"je suis sûr / certain / convaincu que\" (I'm convinced that), \"il est évident / clair que\", \"sans aucun doute\". Medium: \"je pense / crois que\", \"il me semble que\" (it seems to me that), \"j'ai l'impression que\" (I get the feeling that), \"il est probable que\". All of these take the indicative: you present the idea as true or likely.",
-          "Watch \"il me semble que\" (indicative) vs \"il semble que\" (often subjunctive in careful French, because it's less personal and less certain). At B1, the safe choice is \"il me semble que\" + indicative.",
+          "Watch \"il me semble que\" (indicative) vs \"il semble que\" (often subjunctive in careful French, because it's less personal and less certain). At the Intermediate level, the safe choice is \"il me semble que\" + indicative.",
         ],
         examples: [
           { es: "Je suis convaincue que c'est la bonne solution.", en: "I'm convinced it's the right solution." },
@@ -1607,7 +1607,7 @@ export const FR_B1_U31: Lesson[] = [
         heading: "The essay and its structure",
         body: [
           "Kevin, a learner, wrote this DELF B1 essay on the topic « Les petits gestes du quotidien peuvent-ils sauver la planète ? »: « Je pense que les petits gestes soient importants. On doit recycler. On doit prendre le vélo. Mais le gouvernement doit faire plus. Dans mon opinion, c'est les deux. » The French is understandable, but the examiner would mark down the wrong moods, the anglicisms and, above all, the lack of structure.",
-          "A B1 essay needs connectors: to introduce (\"Aujourd'hui, ...\"), to list (\"d'abord\", \"ensuite\", \"enfin\"), to add (\"de plus\", \"en outre\", \"par ailleurs\"), to contrast (\"cependant\", \"pourtant\", \"en revanche\", \"mais\"), to give an example (\"par exemple\"), to explain (\"en effet\", \"car\"), and to conclude (\"en conclusion\", \"pour conclure\", \"finalement\").",
+          "An Intermediate essay needs connectors: to introduce (\"Aujourd'hui, ...\"), to list (\"d'abord\", \"ensuite\", \"enfin\"), to add (\"de plus\", \"en outre\", \"par ailleurs\"), to contrast (\"cependant\", \"pourtant\", \"en revanche\", \"mais\"), to give an example (\"par exemple\"), to explain (\"en effet\", \"car\"), and to conclude (\"en conclusion\", \"pour conclure\", \"finalement\").",
         ],
         examples: [
           { es: "Aujourd'hui, l'écologie est au cœur des débats.", en: "Today, ecology is at the heart of public debate." },

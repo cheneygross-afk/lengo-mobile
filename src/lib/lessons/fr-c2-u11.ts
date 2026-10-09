@@ -15,7 +15,7 @@ export const FR_C2_U11: Lesson[] = [
       {
         heading: "Morphology: taking a word apart",
         body: [
-          "At C2 you will still meet unknown words in every newspaper and every novel, often invented for the occasion. Native readers rarely reach for a dictionary: they take the word apart. Consider \"indéboulonnable\": \"in-\" (not) + \"dé-\" (undo) + \"boulon\" (a bolt) + \"-able\" (that can be). Something that cannot be unbolted: a politician or manager who cannot be removed from office. You can understand it without ever having seen it.",
+          "At the Mastery level you will still meet unknown words in every newspaper and every novel, often invented for the occasion. Native readers rarely reach for a dictionary: they take the word apart. Consider \"indéboulonnable\": \"in-\" (not) + \"dé-\" (undo) + \"boulon\" (a bolt) + \"-able\" (that can be). Something that cannot be unbolted: a politician or manager who cannot be removed from office. You can understand it without ever having seen it.",
           "The key prefixes: \"in-/im-/il-/ir-\" (not: \"irremplaçable\"), \"dé-/dés-\" (undo, remove: \"déverrouiller\"), \"re-/ré-\" (again: \"reconstruire\"), \"mé-/més-\" (badly: \"mésestimer\"), \"sur-\" (over: \"surestimer\"), \"sous-\" (under: \"sous-financé\"), \"a-/an-\" (without: \"apolitique\"), \"anti-\", \"contre-\". The key suffixes: \"-able/-ible\" (can be), \"-age\" and \"-tion\" (action), \"-ité\" and \"-isme\" (quality, doctrine), \"-iser\" (make), \"-ment\" (adverb or action noun), \"-eur/-euse\" (agent).",
           "Press French loves coinages built this way: \"la dédiabolisation\" of a party (making it seem less diabolical), \"la démondialisation\", \"l'infaisabilité\", \"les invisibilisés\". Decomposing them is not just a trick for learners; it is how the French themselves read them, and journalists count on it.",
         ],
@@ -1165,7 +1165,7 @@ export const FR_C2_U11: Lesson[] = [
         body: [
           "Now the reverse: a heavy sentence full of connectors can be made more elegant. \"Comme il avait raté son train, et parce qu'il ne voulait pas être en retard, il a pris un taxi\" → \"Ayant raté son train, il a pris un taxi pour ne pas être en retard.\" The participle absorbs the cause, \"pour\" the purpose.",
           "Other compression tools: the colon (\"il n'est pas venu parce qu'il était malade\" → \"il n'est pas venu : il était malade\"), a nominal phrase (\"parce que les pluies ont été abondantes\" → \"en raison de pluies abondantes\" or \"faute de pluie\"), a detached adjective (\"bien qu'elle fût épuisée\" → \"épuisée, elle continuait\").",
-          "Compression is a mark of C2 writing, but don't overdo it: a text where every link is implicit becomes hard to follow. In a DALF synthesis, the logical structure must stay clear; use implicit links inside paragraphs and explicit connectors between them.",
+          "Compression is a mark of Mastery writing, but don't overdo it: a text where every link is implicit becomes hard to follow. In a DALF synthesis, the logical structure must stay clear; use implicit links inside paragraphs and explicit connectors between them.",
         ],
         examples: [
           { es: "Ayant raté son train, il a pris un taxi pour ne pas être en retard.", en: "Having missed his train, he took a taxi so as not to be late." },
@@ -1209,7 +1209,7 @@ export const FR_C2_U11: Lesson[] = [
         body: [
           "Original paragraph (implicit): « Les centres-villes se vident. Les loyers y ont doublé en dix ans ; les commerces de proximité ferment les uns après les autres. Les municipalités multiplient les annonces. Rien ne change. »",
           "Explicit version: « Les centres-villes se vident, car les loyers y ont doublé en dix ans, si bien que les commerces de proximité ferment les uns après les autres. Les municipalités multiplient les annonces ; pourtant, rien ne change. » Every link is now visible: cause (car), consequence (si bien que), opposition (pourtant).",
-          "The implicit version is more forceful and more journalistic; the explicit version is clearer for a summary or a synthesis. At C2 you should be able to read the first and produce either, depending on the task.",
+          "The implicit version is more forceful and more journalistic; the explicit version is clearer for a summary or a synthesis. At the Mastery level you should be able to read the first and produce either, depending on the task.",
         ],
         examples: [
           { es: "Les centres-villes se vident, car les loyers y ont doublé en dix ans.", en: "Town centres are emptying because rents there have doubled in ten years." },

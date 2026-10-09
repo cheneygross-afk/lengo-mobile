@@ -714,7 +714,7 @@ export const FR_C2_U15: Lesson[] = [
         heading: "From the jump to the bridge",
         body: [
           "An abrupt jump: \"Voilà pour les causes. Les solutions maintenant.\" It is not wrong in a casual meeting, but in a formal presentation it sounds rushed. A transition has two halves: it closes the previous part (a summary in a few words) and opens the next one (an announcement). Transformation: \"Après avoir analysé les causes de ce retard, intéressons-nous maintenant aux solutions.\"",
-          "The workhorse is \"après avoir / être\" + past participle (the past infinitive), which you know from C1: \"après avoir présenté\", \"après être revenu sur\". Its subject must be the same as the main clause, or the main clause must be an imperative including the audience (\"intéressons-nous\", \"passons\", \"voyons\").",
+          "The workhorse is \"après avoir / être\" + past participle (the past infinitive), which you know from the Advanced level: \"après avoir présenté\", \"après être revenu sur\". Its subject must be the same as the main clause, or the main clause must be an imperative including the audience (\"intéressons-nous\", \"passons\", \"voyons\").",
           "A frequent learner error is the dangling transition: \"*Après avoir vu les causes, les solutions sont simples\" (the solutions did not see the causes). Fix it by giving the main clause the right subject: \"Après avoir vu les causes, nous pouvons envisager les solutions.\"",
         ],
         examples: [

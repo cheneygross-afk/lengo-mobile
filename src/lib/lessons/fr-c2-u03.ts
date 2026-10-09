@@ -1364,7 +1364,7 @@ export const FR_C2_U03: Lesson[] = [
         body: [
           "A patient who says \"Docteur, j'ai une céphalée\" sounds odd, slightly pedantic or like someone who has spent too long on medical websites. A doctor who tells a frightened patient \"Vous présentez une dyspnée d'effort avec un œdème des membres inférieurs\" is technically precise and humanly absent. The natural version: \"Vous êtes essoufflé quand vous faites un effort, et vos jambes sont gonflées.\"",
           "Conversely, in a written report or a referral letter, the everyday word sounds vague or unprofessional: \"le patient a mal à la tête et il est fatigué\" tells a colleague less than \"céphalées frontales matinales, asthénie\". In writing, the learned term also carries precision the everyday word lacks: \"une asthénie\" implies pathological fatigue not relieved by rest; \"un hématome\" is a collection of blood that forms a lump, whereas \"une ecchymose\" is flat discolouration; \"un bleu\" covers both.",
-          "The skill at C2 is to choose deliberately. A doctor explaining a report often does both: the term, then its translation: \"Vous avez ce qu'on appelle une tendinite, c'est-à-dire une inflammation du tendon.\" This pattern, \"ce qu'on appelle... c'est-à-dire...\", is the most useful phrase in medical explanation.",
+          "The skill at the Mastery level is to choose deliberately. A doctor explaining a report often does both: the term, then its translation: \"Vous avez ce qu'on appelle une tendinite, c'est-à-dire une inflammation du tendon.\" This pattern, \"ce qu'on appelle... c'est-à-dire...\", is the most useful phrase in medical explanation.",
         ],
         examples: [
           { es: "Vous êtes essoufflé quand vous faites un effort, et vos jambes sont gonflées.", en: "You get out of breath when you exert yourself, and your legs are swollen." },
@@ -2438,7 +2438,7 @@ export const FR_C2_U03: Lesson[] = [
       {
         heading: "Attenuating with the conditional and the subjunctive",
         body: [
-          "You know these structures from C1; here they do delicate work. Possibility takes the subjunctive: \"il est possible que la tumeur soit bénigne\", \"il se peut que le traitement doive être prolongé\", \"il n'est pas exclu que nous ayons à opérer\". The conditional softens further: \"il se pourrait que\" + subjunctive (\"il se pourrait que ce soit une infection\"), \"il semblerait que\" (\"il semblerait que le traitement n'ait pas fonctionné\"), \"nous ne pouvons pas exclure que\" + subjunctive.",
+          "You know these structures from the Advanced level; here they do delicate work. Possibility takes the subjunctive: \"il est possible que la tumeur soit bénigne\", \"il se peut que le traitement doive être prolongé\", \"il n'est pas exclu que nous ayons à opérer\". The conditional softens further: \"il se pourrait que\" + subjunctive (\"il se pourrait que ce soit une infection\"), \"il semblerait que\" (\"il semblerait que le traitement n'ait pas fonctionné\"), \"nous ne pouvons pas exclure que\" + subjunctive.",
           "The trap: probability is not possibility. \"Il est probable que\" and \"il est vraisemblable que\" take the indicative in the affirmative (\"il est probable que la masse est bénigne\"), because they lean towards reality; \"il est possible que\", \"il se peut que\", \"il est peu probable que\" take the subjunctive. Doctors use this gradient on purpose: \"Il est probable que...\" commits more than \"Il n'est pas exclu que...\".",
           "\"Il n'est pas exclu que\" is a double negative that sounds gentle but says something serious: the possibility is real enough to mention. A ne explétif may appear after it in very careful style (\"il n'est pas exclu que la maladie ne progresse\"), but modern doctors usually omit it to avoid ambiguity, since a patient could hear it as a negation.",
         ],
@@ -2512,7 +2512,7 @@ export const FR_C2_U03: Lesson[] = [
         heading: "Empathic formulas and pacing",
         body: [
           "Tact is also rhythm. Prepare: \"J'ai les résultats de la biopsie. Avant que je vous en parle, voulez-vous que quelqu'un vous rejoigne ?\" (\"avant que\" + subjunctive). Announce: \"Je suis désolé d'avoir à vous annoncer que...\", \"Ce n'est pas la nouvelle que vous attendiez, je le sais.\" Acknowledge: \"Je comprends que ce soit difficile à entendre\" (\"comprendre que\" + subjunctive when it means to accept, find understandable), \"Prenez votre temps\", \"C'est normal d'avoir peur.\"",
-          "Then open the next step, without false promises: \"Il existe des traitements, et nous allons en discuter ensemble.\" \"Je ne peux pas vous dire combien de temps, personne ne le peut, mais je peux vous dire ce que nous allons faire.\" \"Quoi qu'il arrive, nous serons là\" (whatever happens: \"quoi que\" + subjunctive, from C1).",
+          "Then open the next step, without false promises: \"Il existe des traitements, et nous allons en discuter ensemble.\" \"Je ne peux pas vous dire combien de temps, personne ne le peut, mais je peux vous dire ce que nous allons faire.\" \"Quoi qu'il arrive, nous serons là\" (whatever happens: \"quoi que\" + subjunctive, from the Advanced level).",
           "Avoid: \"Ne vous inquiétez pas\" (dismissive when there is reason to worry), \"Il faut rester positif\" (puts the burden on the patient), \"Je sais ce que vous ressentez\" (you don't). Prefer: \"Qu'est-ce qui vous inquiète le plus ?\", \"Qu'est-ce qui serait le plus important pour vous maintenant ?\"",
         ],
         examples: [
@@ -2658,14 +2658,14 @@ export const FR_C2_U03: Lesson[] = [
     slug: "c2-vocab-precise-verbs-donner-avoir-mettre",
     level: "FR-C2",
     number: 13,
-    title: "C2 Vocabulary: Precise Verbs Instead of Donner, Avoir and Mettre",
+    title: "Mastery Vocabulary: Precise Verbs Instead of Donner, Avoir and Mettre",
     summary: "Replace the three most worn verbs in French with the precise ones a careful writer uses: conférer, octroyer, accorder, susciter, procurer, revêtir, disposer de, détenir, receler, comporter, apposer and instaurer, with their constructions and traps.",
     duration: "18 min",
     sections: [
       {
         heading: "Instead of donner: conférer, octroyer, accorder, susciter, procurer",
         body: [
-          "\"Donner\" is correct almost everywhere, which is exactly why a C2 text avoids it. Each replacement carries information about who gives, what is given and how. \"Conférer\" means to confer a status, a right or a quality, often by law or by an institution: \"le diplôme confère le titre de docteur\", \"la loi confère au maire un pouvoir de police\". It also works with abstract qualities: \"ce détail confère au récit une certaine étrangeté\".",
+          "\"Donner\" is correct almost everywhere, which is exactly why a Mastery text avoids it. Each replacement carries information about who gives, what is given and how. \"Conférer\" means to confer a status, a right or a quality, often by law or by an institution: \"le diplôme confère le titre de docteur\", \"la loi confère au maire un pouvoir de police\". It also works with abstract qualities: \"ce détail confère au récit une certaine étrangeté\".",
           "\"Octroyer\" is to grant from a position of power, sometimes with a hint of condescension: \"l'État a octroyé une aide exceptionnelle aux agriculteurs\", \"on lui a octroyé un délai de grâce\". \"S'octroyer\" means to allow oneself, often a little cheekily: \"je me suis octroyé une sieste\". \"Accorder\" is the neutral administrative grant (\"accorder un prêt, une autorisation, un rendez-vous\"), but it also means to tune an instrument (\"accorder un piano\") and to make words agree in grammar (\"accorder le participe passé\"); \"s'accorder\" is to agree with someone or to match (\"ces couleurs s'accordent bien\").",
           "\"Susciter\" means to give rise to a feeling or a reaction: \"la réforme a suscité une vive opposition\", \"son discours a suscité l'enthousiasme\". Never \"donner de l'enthousiasme\" in formal writing. \"Procurer\" means to provide or bring something, usually beneficial, and is often used with a person as indirect object: \"ce traitement lui a procuré un soulagement immédiat\", \"pourriez-vous me procurer une copie du contrat ?\". Unlike English \"procure\", it does not suggest purchasing; \"se procurer\" simply means to get hold of (\"je me suis procuré le livre\").",
         ],
@@ -2886,7 +2886,7 @@ export const FR_C2_U03: Lesson[] = [
     slug: "c2-vocab-verbs-of-argument-decision",
     level: "FR-C2",
     number: 14,
-    title: "C2 Vocabulary: Verbs of Argument and Decision",
+    title: "Mastery Vocabulary: Verbs of Argument and Decision",
     summary: "The verbs that structure debate, expertise and judgement: trancher, statuer, entériner, avaliser, démentir, réfuter, infirmer, corroborer, éluder, subordonner, élucider and en déduire, with the false friend infirmer and the difference between denying a fact and refuting an argument.",
     duration: "18 min",
     sections: [

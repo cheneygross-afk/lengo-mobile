@@ -466,7 +466,7 @@ export const FR_A2_U09_EXTRA: Lesson[] = [
       {
         heading: "Recap: the morning of the wedding",
         body: [
-          "The Moreau family has to leave at 10:00 for a cousin's wedding. Listen to them use the unit's verbs: present (\"elle s'habille encore\"), passé composé (\"tu t'es rasé ?\"), infinitives (\"on va se dépêcher\") and two imperative chunks you met in A1's preview: \"dépêche-toi !\" (hurry up!) and \"habille-toi !\" (get dressed!), where the pronoun goes after the verb as \"toi\".",
+          "The Moreau family has to leave at 10:00 for a cousin's wedding. Listen to them use the unit's verbs: present (\"elle s'habille encore\"), passé composé (\"tu t'es rasé ?\"), infinitives (\"on va se dépêcher\") and two imperative chunks you met in the Beginner level's preview: \"dépêche-toi !\" (hurry up!) and \"habille-toi !\" (get dressed!), where the pronoun goes after the verb as \"toi\".",
         ],
         examples: [
           { es: "Dépêche-toi, on part dans vingt minutes !", en: "Hurry up, we're leaving in twenty minutes!" },

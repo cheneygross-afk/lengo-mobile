@@ -2653,7 +2653,7 @@ export const FR_C1_U15: Lesson[] = [
       {
         heading: "Choosing your own French",
         body: [
-          "What should a C1 learner actually say? A good rule: speak a clear standard French, adopt the local word when it's the normal neutral term where you live (\"le dîner\" at noon in Brussels, \"le natel\" in Geneva, \"le dépanneur\" in Montréal, \"septante\" on a Belgian form), and leave the familiar regional slang to natives unless you've genuinely become part of the community.",
+          "What should an Advanced learner actually say? A good rule: speak a clear standard French, adopt the local word when it's the normal neutral term where you live (\"le dîner\" at noon in Brussels, \"le natel\" in Geneva, \"le dépanneur\" in Montréal, \"septante\" on a Belgian form), and leave the familiar regional slang to natives unless you've genuinely become part of the community.",
           "Adapting to local neutral usage shows respect and avoids misunderstandings. Imitating slang or accents too early can sound like mockery. And whatever you choose, be consistent within one message.",
         ],
         examples: [

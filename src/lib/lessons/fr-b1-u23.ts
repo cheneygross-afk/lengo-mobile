@@ -30,7 +30,7 @@ export const FR_B1_U23: Lesson[] = [
       {
         heading: "Before the auxiliary",
         body: [
-          "At A2 you put object pronouns before a conjugated verb: \"je le vois\", \"je lui parle\", \"j'y vais\", \"j'en achète\". In a compound tense (passé composé, plus-que-parfait, futur antérieur), the conjugated verb is the auxiliary, so the pronoun goes before \"avoir\" or \"être\", never before the participle: \"Je l'ai vu\", \"Je lui ai parlé\", \"J'y suis allé\", \"J'en ai acheté trois.\"",
+          "At the Elementary level you put object pronouns before a conjugated verb: \"je le vois\", \"je lui parle\", \"j'y vais\", \"j'en achète\". In a compound tense (passé composé, plus-que-parfait, futur antérieur), the conjugated verb is the auxiliary, so the pronoun goes before \"avoir\" or \"être\", never before the participle: \"Je l'ai vu\", \"Je lui ai parlé\", \"J'y suis allé\", \"J'en ai acheté trois.\"",
           "English puts the pronoun at the end (I saw him, I talked to her), which is why English speakers produce *j'ai le vu or *j'ai lui parlé. Think of the auxiliary and the pronoun as a block: \"l'ai\", \"lui ai\", \"y suis\", \"en ai\".",
           "The same goes for the plus-que-parfait and the futur antérieur: \"Je l'avais oublié\", \"Je t'en aurai parlé avant.\"",
         ],
@@ -51,7 +51,7 @@ export const FR_B1_U23: Lesson[] = [
       {
         heading: "Two pronouns and the negative",
         body: [
-          "Two pronouns form a block before the auxiliary, in the A2 order: \"Je le lui avais dit\" (I had told him), \"Il me l'a donné\" (he gave it to me), \"Je leur en ai parlé\" (I talked to them about it).",
+          "Two pronouns form a block before the auxiliary, in the Elementary order: \"Je le lui avais dit\" (I had told him), \"Il me l'a donné\" (he gave it to me), \"Je leur en ai parlé\" (I talked to them about it).",
           "The negative wraps the whole block plus the auxiliary: \"ne\" before the pronouns, \"pas\" after the auxiliary: \"Je ne le lui ai pas dit.\" \"Je n'y suis jamais allé.\" \"Il ne m'en a pas parlé.\" The participle stays outside.",
           "A useful picture: ne + [pronouns + auxiliary] + pas + participle.",
         ],
@@ -328,7 +328,7 @@ export const FR_B1_U23: Lesson[] = [
         heading: "Le directeur partirait...",
         body: [
           "Sophie's version uses the conditional of hearsay, the news-report way to give unconfirmed information: \"D'après Sophie, le directeur partirait en juin. Il aurait reçu une offre d'une agence parisienne.\" The conditional here means reportedly, not would.",
-          "\"Il aurait reçu\" is the past conditional (aurait + participle): reportedly he has received. Recognise it; you'll use it fully at B2. In conversation people prefer \"il paraît que\" + indicative: \"Il paraît qu'il part en juin.\"",
+          "\"Il aurait reçu\" is the past conditional (aurait + participle): reportedly he has received. Recognise it; you'll use it fully at the Upper-intermediate level. In conversation people prefer \"il paraît que\" + indicative: \"Il paraît qu'il part en juin.\"",
           "Pronouns work the same way in the conditional: \"On le lui aurait proposé en mars\" (they apparently offered it to him in March).",
         ],
         examples: [

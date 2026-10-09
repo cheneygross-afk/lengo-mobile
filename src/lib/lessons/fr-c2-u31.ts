@@ -31,7 +31,7 @@ export const FR_C2_U31: Lesson[] = [
         heading: "Growth, recession and GDP",
         body: [
           "\"La croissance\" is economic growth, measured by \"le PIB\" (produit intérieur brut, GDP). The French statistics office \"l'INSEE\" (Institut national de la statistique et des études économiques) publishes it every quarter: \"le PIB a progressé de 0,3 % au deuxième trimestre\". Growth can be \"atone\" (sluggish), \"molle\" (weak), \"soutenue\" (sustained) or \"vigoureuse\". \"Une récession\" is technically two consecutive quarters of falling GDP; \"un ralentissement\" is a slowdown; \"une reprise\" is a recovery.",
-          "French notation for figures matters at C2: the decimal separator is a comma (\"0,3 %\", read \"zéro virgule trois pour cent\"), with a space before % in careful typography; thousands are separated by a space (\"10 000\"). And \"un milliard\" is a billion (10⁹); \"un billion\" is a trillion (10¹²), a classic false friend.",
+          "French notation for figures matters at the Mastery level: the decimal separator is a comma (\"0,3 %\", read \"zéro virgule trois pour cent\"), with a space before % in careful typography; thousands are separated by a space (\"10 000\"). And \"un milliard\" is a billion (10⁹); \"un billion\" is a trillion (10¹²), a classic false friend.",
           "Typical verbs: \"progresser\", \"augmenter\", \"croître\" (formal: \"le PIB a crû de 1 %\"), \"reculer\", \"se contracter\", \"stagner\", \"rebondir\". With figures, \"de\" gives the size of the change: \"augmenter de 2 %\"; \"à\" gives the new level: \"s'établir à 2 %\", \"atteindre 2 %\".",
         ],
         examples: [
@@ -316,7 +316,7 @@ export const FR_C2_U31: Lesson[] = [
         body: [
           "Economics is about chains of effects. \"Se répercuter sur\" (to have knock-on effects on, to be passed on to) describes a ripple: \"la hausse du prix du pétrole se répercute sur les prix à la pompe\", \"les entreprises répercutent la hausse des coûts sur les consommateurs\" (non-pronominal: to pass on).",
           "Connectors chain the steps: \"si bien que\" (so that, with the result that) + indicative; \"de sorte que\" + indicative for a result; \"d'où\" + noun (hence): \"d'où une baisse de la consommation\"; \"dès lors\" (from then on, consequently); \"par ricochet\" (as a knock-on effect). \"Ce qui\" + verb also links: \"..., ce qui pèse sur les marges\".",
-          "A full chain: \"La BCE a relevé ses taux, si bien que le crédit immobilier s'est contracté ; les ventes de logements ont chuté, d'où des difficultés pour le secteur du bâtiment, qui ont, par ricochet, pesé sur l'emploi.\" Each link uses a different tool, which avoids repetition: a C2 hallmark.",
+          "A full chain: \"La BCE a relevé ses taux, si bien que le crédit immobilier s'est contracté ; les ventes de logements ont chuté, d'où des difficultés pour le secteur du bâtiment, qui ont, par ricochet, pesé sur l'emploi.\" Each link uses a different tool, which avoids repetition: a Mastery hallmark.",
         ],
         examples: [
           { es: "La hausse du pétrole se répercute sur les prix à la pompe.", en: "The rise in oil prices is being passed on to pump prices." },
@@ -691,7 +691,7 @@ export const FR_C2_U31: Lesson[] = [
         body: [
           "The dispatch continues: « L'inflation sous-jacente, qui exclut les prix les plus volatils comme l'énergie et les produits frais, s'établit à 2,1 %. Pour la Banque de France, la hausse des prix devrait rester inférieure à 2 % jusqu'à la fin de l'année prochaine. La BCE, qui a déjà abaissé ses taux directeurs à quatre reprises depuis juin 2024, pourrait procéder à une nouvelle baisse en décembre, selon plusieurs économistes. »",
           "\"L'inflation sous-jacente\" (core inflation) strips out volatile items; the relative clause explains the term for the reader, a typical journalistic gloss. Now the forecasts: they are marked by modal verbs and the conditional. \"Devrait rester\" (should remain) is the standard forecast verb; \"pourrait procéder à\" (could carry out) is weaker, a possibility. Both are attributed: \"pour la Banque de France\", \"selon plusieurs économistes\".",
-          "The press also uses the conditional alone to report a forecast without endorsing it: \"la croissance atteindrait 1 % l'an prochain\" (growth would reach / is expected to reach). This is the hearsay or forecasting conditional you met at C1: the journalist reports, but does not vouch.",
+          "The press also uses the conditional alone to report a forecast without endorsing it: \"la croissance atteindrait 1 % l'an prochain\" (growth would reach / is expected to reach). This is the hearsay or forecasting conditional you met at the Advanced level: the journalist reports, but does not vouch.",
         ],
         examples: [
           { es: "L'inflation sous-jacente s'établit à 2,1 %.", en: "Core inflation stands at 2.1%." },
@@ -1492,7 +1492,7 @@ export const FR_C2_U31: Lesson[] = [
     slug: "c2-vocab-literary-art-criticism",
     level: "FR-C2",
     number: 8,
-    title: "C2 Vocabulary: Literary and Art Criticism",
+    title: "Mastery Vocabulary: Literary and Art Criticism",
     summary: "Hypallage, ekphrasis, leitmotiv, pastiche, épigone, polyphonie, naturalisme, Nouveau Roman, autofiction and éculé: the learned vocabulary of reviews and text commentary.",
     duration: "17 min",
     sections: [

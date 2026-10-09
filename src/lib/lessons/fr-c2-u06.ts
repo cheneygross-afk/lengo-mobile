@@ -67,7 +67,7 @@ export const FR_C2_U06: Lesson[] = [
         body: [
           "The second great source of puns is the double meaning: a word or idiom read both literally and figuratively. \"Ce vigneron a de la bouteille\" is funny because \"avoir de la bouteille\" means to be experienced (like a wine that has aged in the bottle). \"Il a du chien\" (he/she has charm, allure) works on a dog lover. \"Tomber de haut\" (to be bitterly disappointed) becomes a joke about a roofer.",
           "French has a whole genre built on this: \"les combles\". The question \"Quel est le comble pour un électricien ?\" (what is the height of irony for an electrician?) is answered with an idiom that is literally apt: \"Ne pas être au courant\" (not to be up to date, literally 'not in the current'). \"Le comble pour un jardinier ? Raconter des salades\" (to tell lies, literally 'salads'). \"Le comble pour un cordonnier ? Être mal chaussé\", which echoes the proverb about shoemakers.",
-          "To understand a comble, you need the idiom first, which is why they are a great test of C2 vocabulary. To make one, start from an idiom with a concrete image (\"mettre de l'eau dans son vin\", \"avoir un poil dans la main\", \"perdre le fil\") and find the trade for which it is literally true.",
+          "To understand a comble, you need the idiom first, which is why they are a great test of Mastery vocabulary. To make one, start from an idiom with a concrete image (\"mettre de l'eau dans son vin\", \"avoir un poil dans la main\", \"perdre le fil\") and find the trade for which it is literally true.",
         ],
         examples: [
           { es: "Quel est le comble pour un électricien ? Ne pas être au courant.", en: "What's the worst thing for an electrician? Not being 'in the current' (not being informed)." },
@@ -324,7 +324,7 @@ export const FR_C2_U06: Lesson[] = [
         body: [
           "The most sophisticated ambiguity is syntactic: the same string of words can be parsed in two ways. The classic example is \"la petite brise la glace\". Reading 1: \"la petite\" (the little girl) \"brise\" (breaks) \"la glace\" (the ice, or the mirror). Reading 2: \"la petite brise\" (the light breeze) \"la glace\" (freezes it). Every word changes category: \"brise\" is a verb or a noun, \"glace\" a noun or a verb, \"la\" an article or a pronoun.",
           "Its cousin: \"la belle ferme le voile\". Reading 1: the beautiful woman (\"la belle\") closes (\"ferme\") the veil. Reading 2: the beautiful farm (\"la belle ferme\") hides it (\"le voile\", from \"voiler\"). French grammar allows this because many words are both nouns and verbs (\"ferme\", \"brise\", \"voile\", \"porte\", \"garde\") and \"la / le\" are both articles and object pronouns.",
-          "Everyday ambiguities are subtler: \"j'ai observé l'oiseau avec des jumelles\" (did I use binoculars, or did the bird have them?), \"une vieille porte la barre\" (an old woman carries the bar / an old door blocks it). In your own writing, at C2, the skill is the reverse: notice when a sentence is accidentally ambiguous, and fix it.",
+          "Everyday ambiguities are subtler: \"j'ai observé l'oiseau avec des jumelles\" (did I use binoculars, or did the bird have them?), \"une vieille porte la barre\" (an old woman carries the bar / an old door blocks it). In your own writing, at the Mastery level, the skill is the reverse: notice when a sentence is accidentally ambiguous, and fix it.",
         ],
         examples: [
           { es: "La petite brise la glace.", en: "The little girl breaks the ice. / The light breeze freezes it." },
@@ -1222,7 +1222,7 @@ export const FR_C2_U06: Lesson[] = [
       {
         heading: "Verbs of laughter, from a snigger to hysterics",
         body: [
-          "French distinguishes ways of laughing more finely than English, and choosing the right verb is a C2 skill. Loud and open: \"rire aux éclats\" (to roar with laughter), \"éclater de rire\" (to burst out laughing), \"s'esclaffer\" (to guffaw, slightly literary), \"se tordre de rire\" (to double up), \"être mort de rire\" or \"mourir de rire\" (to die laughing), \"avoir le fou rire\" (to have the giggles, uncontrollably).",
+          "French distinguishes ways of laughing more finely than English, and choosing the right verb is a Mastery skill. Loud and open: \"rire aux éclats\" (to roar with laughter), \"éclater de rire\" (to burst out laughing), \"s'esclaffer\" (to guffaw, slightly literary), \"se tordre de rire\" (to double up), \"être mort de rire\" or \"mourir de rire\" (to die laughing), \"avoir le fou rire\" (to have the giggles, uncontrollably).",
           "Suppressed or unkind: \"pouffer\" (to snort with suppressed laughter), \"glousser\" (to giggle, literally to cluck like a hen, often mocking), \"ricaner\" (to snigger, sneer), \"rire sous cape\" (to laugh up one's sleeve, secretly), \"rire jaune\" (to laugh without wanting to, to force a laugh, usually at a joke against you). Informal: \"se marrer\" (to have a laugh), \"se fendre la poire\" (to crack up).",
           "Watch the constructions: \"rire de quelqu'un\" (to laugh at someone), \"rire avec quelqu'un\" (to laugh with), \"faire rire\" (to make laugh), \"prêter à rire\" (to be laughable). And \"sourire\" (to smile) takes \"à\": \"elle m'a souri\". \"Il n'y a pas de quoi rire\" means it's no laughing matter.",
         ],
@@ -1602,7 +1602,7 @@ export const FR_C2_U06: Lesson[] = [
     slug: "c2-vocab-learned-evaluative-adjectives",
     level: "FR-C2",
     number: 8,
-    title: "C2 Vocabulary: Learned Evaluative Adjectives",
+    title: "Mastery Vocabulary: Learned Evaluative Adjectives",
     summary: "Judge precisely in a formal register: anodin, impérieux, colossal, dérisoire, infime, futile, avéré, patent, flagrant, fallacieux, prolixe, succinct, sommaire, acharné.",
     duration: "18 min",
     sections: [
@@ -1856,7 +1856,7 @@ export const FR_C2_U06: Lesson[] = [
       {
         heading: "One verb, a whole family: résoudre",
         body: [
-          "At C2 you multiply your vocabulary by learning families rather than words. Take \"résoudre\" (to solve, to resolve). Its noun has two forms with different uses: \"la résolution\" (of a conflict, a crisis, a screen, a New Year's resolution, a UN resolution) and \"la solution\" (of a problem, an equation, a riddle). You \"résous un problème\" and find \"la solution\", but \"la résolution du conflit\" takes months.",
+          "At the Mastery level you multiply your vocabulary by learning families rather than words. Take \"résoudre\" (to solve, to resolve). Its noun has two forms with different uses: \"la résolution\" (of a conflict, a crisis, a screen, a New Year's resolution, an UN resolution) and \"la solution\" (of a problem, an equation, a riddle). You \"résous un problème\" and find \"la solution\", but \"la résolution du conflit\" takes months.",
           "The adjective \"résolu\" means determined (\"une femme résolue\") as well as solved (\"le problème est résolu\"), and the adverb \"résolument\" means resolutely, decidedly (\"un projet résolument moderne\"). \"Se résoudre à\" + infinitive means to bring oneself to do something reluctantly: \"elle s'est résolue à vendre la maison\". \"Irrésolu\" (indecisive) and \"insoluble\" (unsolvable) complete the family.",
           "Conjugation is part of the family too: \"je résous, nous résolvons, j'ai résolu, il résolut\". Learners often write *\"résolvé\" or *\"je résoud\". The same pattern applies to \"dissoudre\" (to dissolve: \"dissous, dissoute\") and \"absoudre\".",
         ],
@@ -1936,7 +1936,7 @@ export const FR_C2_U06: Lesson[] = [
         body: [
           "English speakers often build nouns from French verbs by analogy with English, and get them wrong. \"Maintenir\" (to maintain) gives \"le maintien\" (keeping, upholding: \"le maintien de l'ordre\", \"le maintien à domicile des personnes âgées\"); \"la maintenance\" exists, but only for technical servicing of machines.",
           "\"Acquérir\" gives \"l'acquisition\" (the act of acquiring) and \"un acquis\" (an achievement, something gained: \"les acquis sociaux\"); the participle is \"acquis\", never *\"acquéri\". \"Détruire\" gives \"la destruction\" and \"destructeur\"; \"construire\", \"la construction\"; \"conduire\", \"la conduite\". \"Conquérir\" gives \"la conquête\" (not *conquération); \"atteindre\" gives \"l'atteinte\" (\"une atteinte à la vie privée\", an invasion of privacy); \"plaindre\", \"la plainte\"; \"craindre\", \"la crainte\"; \"joindre\", \"la jointure\".",
-          "A useful reflex: verbs in \"-indre\" and \"-aindre\" usually form nouns in \"-einte\" or \"-ainte\" (\"atteindre / atteinte\", \"craindre / crainte\"; but \"peindre / peinture\" and \"éteindre / extinction\" break the pattern), verbs in \"-uire\" form nouns in \"-uction\" or \"-uite\", and verbs in \"-érir\" form nouns in \"-ête\" or \"-isition\". When in doubt, check: these nouns are exactly what C2 essays need.",
+          "A useful reflex: verbs in \"-indre\" and \"-aindre\" usually form nouns in \"-einte\" or \"-ainte\" (\"atteindre / atteinte\", \"craindre / crainte\"; but \"peindre / peinture\" and \"éteindre / extinction\" break the pattern), verbs in \"-uire\" form nouns in \"-uction\" or \"-uite\", and verbs in \"-érir\" form nouns in \"-ête\" or \"-isition\". When in doubt, check: these nouns are exactly what Mastery essays need.",
         ],
         examples: [
           { es: "Le maintien de l'ordre a mobilisé deux mille policiers.", en: "Keeping public order required two thousand police officers." },

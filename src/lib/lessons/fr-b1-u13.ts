@@ -267,7 +267,7 @@ export const FR_B1_U13: Lesson[] = [
       {
         heading: "Si j'avais plus de...",
         body: [
-          "The most useful frame for talking about yourself at B1: \"Si j'avais plus de temps, je...\" + conditional. After \"plus de\" (more), \"moins de\" (less) and \"assez de\" (enough) there is no article: \"plus de temps\", \"plus d'argent\", \"plus de courage\", never \"*plus du temps\".",
+          "The most useful frame for talking about yourself at the Intermediate level: \"Si j'avais plus de temps, je...\" + conditional. After \"plus de\" (more), \"moins de\" (less) and \"assez de\" (enough) there is no article: \"plus de temps\", \"plus d'argent\", \"plus de courage\", never \"*plus du temps\".",
           "The \"si\" half describes an imaginary present situation, so it is in the imparfait even though nothing is in the past. English does the same with its past tense (if I had), so think if I had → \"si j'avais\".",
           "In the result half, pick verbs that say something real about you: \"je voyagerais\", \"je lirais\", \"je ferais du sport\", \"j'apprendrais le japonais\", \"je changerais de travail\". Note \"changer de\" + noun with no article for changing one thing for another.",
         ],
@@ -1844,7 +1844,7 @@ export const FR_B1_U13: Lesson[] = [
     slug: "b1-vocabulary-practice-5",
     level: "FR-B1",
     number: 9,
-    title: "B1 Vocabulary Practice, Part 5 of 10",
+    title: "Intermediate Vocabulary Practice, Part 5 of 10",
     summary: "Society and daily concerns: unemployment, housing, public health, safety, pollution, public transport, and the verbs to improve and to get worse.",
     duration: "13 min",
     sections: [

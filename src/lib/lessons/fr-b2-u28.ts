@@ -23,7 +23,7 @@ export const FR_B2_U28: Lesson[] = [
     slug: "b2-challenge-subjunctive-gauntlet",
     level: "FR-B2",
     number: 1,
-    title: "B2 Challenge: The Subjunctive Gauntlet",
+    title: "Upper-intermediate Challenge: The Subjunctive Gauntlet",
     summary: "Relatives, conjunctions, concession and the sequence of tenses: twelve mood decisions in a row, with no hints about which rule applies.",
     duration: "15 min",
     sections: [
@@ -227,7 +227,7 @@ export const FR_B2_U28: Lesson[] = [
     slug: "b2-challenge-conditionals-gauntlet",
     level: "FR-B2",
     number: 2,
-    title: "B2 Challenge: Conditionals of Every Type",
+    title: "Upper-intermediate Challenge: Conditionals of Every Type",
     summary: "Real, unreal present, unreal past and mixed: read the situation, choose the structure, and add regrets and reproaches where they belong.",
     duration: "15 min",
     sections: [
@@ -429,7 +429,7 @@ export const FR_B2_U28: Lesson[] = [
     slug: "b2-challenge-reported-speech-gauntlet",
     level: "FR-B2",
     number: 3,
-    title: "B2 Challenge: Reported Speech Gauntlet",
+    title: "Upper-intermediate Challenge: Reported Speech Gauntlet",
     summary: "Statements, questions, orders and promises: transform them all into indirect speech from the past, with every tense, pronoun and time word shifted.",
     duration: "15 min",
     sections: [
@@ -635,7 +635,7 @@ export const FR_B2_U28: Lesson[] = [
     slug: "b2-challenge-gerondif-causatives-gauntlet",
     level: "FR-B2",
     number: 4,
-    title: "B2 Challenge: Gérondif, Causatives and Change",
+    title: "Upper-intermediate Challenge: Gérondif, Causatives and Change",
     summary: "En + -ant, faire and laisser + infinitive, rendre and devenir: the small forms that trip up English speakers, tested one after another.",
     duration: "15 min",
     sections: [
@@ -836,7 +836,7 @@ export const FR_B2_U28: Lesson[] = [
     slug: "b2-challenge-semaine-a-marseille-1",
     level: "FR-B2",
     number: 5,
-    title: "B2 Challenge: Une Semaine à Marseille, Part 1 of 2",
+    title: "Upper-intermediate Challenge: Une Semaine à Marseille, Part 1 of 2",
     summary: "Laura, a journalist from Lille, spends a week in Marseille reporting on overtourism: read her email, her interview with a fisherman and her talk with a park ranger, then answer comprehension and grammar questions.",
     duration: "18 min",
     sections: [
@@ -1063,7 +1063,7 @@ export const FR_B2_U28: Lesson[] = [
     slug: "b2-challenge-semaine-a-marseille-2",
     level: "FR-B2",
     number: 6,
-    title: "B2 Challenge: Une Semaine à Marseille, Part 2 of 2",
+    title: "Upper-intermediate Challenge: Une Semaine à Marseille, Part 2 of 2",
     summary: "Laura's week ends with a mistral storm, the publication of her report and a farewell at Notre-Dame de la Garde, with reported speech, regrets and emphasis.",
     duration: "18 min",
     sections: [
@@ -1284,7 +1284,7 @@ export const FR_B2_U28: Lesson[] = [
     slug: "b2-challenge-essai-argumente",
     level: "FR-B2",
     number: 7,
-    title: "B2 Challenge: L'Essai Argumenté",
+    title: "Upper-intermediate Challenge: L'Essai Argumenté",
     summary: "Build a DELF B2-style argumentative essay on overtourism step by step: a problématique, two arguments with examples, a concession and a conclusion, all held together by formal connectors.",
     duration: "20 min",
     sections: [
@@ -1377,7 +1377,7 @@ export const FR_B2_U28: Lesson[] = [
       {
         heading: "La concession et la conclusion",
         body: [
-          "A B2 essay must show that you have considered the other side. The classic pair is \"certes..., mais / toutefois / néanmoins...\": you grant a point, then you limit it. With a conjunction, use the subjunctive: \"bien que le tourisme soit utile, il...\", \"quoique ce soit...\".",
+          "An Upper-intermediate essay must show that you have considered the other side. The classic pair is \"certes..., mais / toutefois / néanmoins...\": you grant a point, then you limit it. With a conjunction, use the subjunctive: \"bien que le tourisme soit utile, il...\", \"quoique ce soit...\".",
           "\"Il est vrai que\" takes the indicative (it states a fact); \"il n'en reste pas moins que\" (the fact remains that) takes the indicative too and is a strong way to return to your thesis.",
           "The conclusion sums up (\"en définitive\", \"en somme\", \"pour conclure\"), answers the problématique clearly and opens the debate (\"une ouverture\"), often with a proposal in the conditional or with \"il faudrait que\" + subjunctive.",
         ],
@@ -1531,8 +1531,8 @@ export const FR_B2_U28: Lesson[] = [
     slug: "b2-exit-test",
     level: "FR-B2",
     number: 8,
-    title: "B2 Exit Test: Ready for C1?",
-    summary: "The final B2 test in DELF B2 format: reading and listening comprehension, grammar and vocabulary, a written argument and a spoken opinion task. Pass it and you are ready for C1.",
+    title: "Upper-intermediate Exit Test: Ready for the Advanced level?",
+    summary: "The final Upper-intermediate test in DELF B2 format: reading and listening comprehension, grammar and vocabulary, a written argument and a spoken opinion task. Pass it and you are ready for the Advanced level.",
     duration: "30 min",
     sections: [
       {
@@ -1621,7 +1621,7 @@ export const FR_B2_U28: Lesson[] = [
       {
         heading: "Partie 3: grammaire et lexique",
         body: [
-          "This part checks the core B2 grammar: the subjunctive after conjunctions and expressions of feeling or doubt, the conditionnel passé for unreal past hypotheses, relative pronouns (\"dont\", \"lequel\", \"auquel\"), the gérondif, causative \"faire\" and agreement of the past participle.",
+          "This part checks the core Upper-intermediate grammar: the subjunctive after conjunctions and expressions of feeling or doubt, the conditionnel passé for unreal past hypotheses, relative pronouns (\"dont\", \"lequel\", \"auquel\"), the gérondif, causative \"faire\" and agreement of the past participle.",
           "Vocabulary questions target nuance: register (\"bosser\" versus \"travailler\"), false friends (\"actuellement\" = currently, \"éventuellement\" = possibly) and formal connectors. Work quickly but check every agreement.",
         ],
         examples: [
@@ -1856,7 +1856,7 @@ export const FR_B2_U28: Lesson[] = [
           "Formal letter conventions (\"Madame la Directrice / Monsieur le Directeur\", a formal closing such as \"Veuillez agréer...\") and \"vous\" throughout",
           "A clear position with two arguments, each supported by a precise example",
           "A concession (\"certes\", \"bien que\" + subjunctive) and a proposal with \"il faudrait que\" or the conditional",
-          "Accurate B2 grammar: subjunctive, conditional, relative pronouns, agreement",
+          "Accurate Upper-intermediate grammar: subjunctive, conditional, relative pronouns, agreement",
         ],
         modelAnswer: "Madame la Directrice,\n\nAu nom des salariés que je représente, je souhaiterais réagir à votre projet de rendre le télétravail obligatoire trois jours par semaine.\n\nD'une part, cette mesure présente des avantages indéniables. En effet, plusieurs collègues qui habitent à plus d'une heure du bureau gagneraient un temps précieux. D'autre part, l'entreprise pourrait réduire ses frais, puisqu'elle louerait des locaux plus petits.\n\nCertes, beaucoup d'entre nous apprécient déjà de travailler chez eux. Toutefois, rendre le télétravail obligatoire pose problème. Les jeunes recrues, dont l'intégration repose sur les échanges quotidiens, risquent de se sentir isolées. Par ailleurs, tout le monde ne dispose pas d'un logement adapté : certains travaillent sur la table de la cuisine.\n\nC'est pourquoi il me semble préférable que le télétravail reste un choix. Il faudrait que chaque équipe puisse fixer ses propres jours de présence, et que l'entreprise participe à l'équipement des salariés. Si vous acceptiez cette solution, je suis convaincu qu'elle satisferait la majorité du personnel.\n\nJe vous prie d'agréer, Madame la Directrice, l'expression de mes salutations distinguées.\n\nThéo Garnier, délégué du personnel",
         explanation: "The letter uses formal conventions, \"d'une part... d'autre part\" and \"certes... toutefois\" to structure the argument, \"dont l'intégration\" for precision, the subjunctive after \"il me semble préférable que\" and \"il faudrait que\", and an unreal hypothesis \"si vous acceptiez..., elle satisferait\".",

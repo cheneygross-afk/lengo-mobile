@@ -2207,7 +2207,7 @@ export const FR_A2_U04_EXTRA: Lesson[] = [
         heading: "Quick recap",
         body: [
           "Describe a remembered house in layers: outside, then each room, then the people and the habits. \"La maison de mes grands-parents était au bord d'un lac. Devant, il y avait un grand jardin. Dans la cuisine, il y avait une vieille cuisinière et ça sentait toujours la soupe.\"",
-          "\"Ça sentait\" + noun = it smelled of. Prepositions of place from A1: \"devant\", \"derrière\", \"à côté de\", \"en face de\", \"au premier étage\".",
+          "\"Ça sentait\" + noun = it smelled of. Prepositions of place from the Beginner level: \"devant\", \"derrière\", \"à côté de\", \"en face de\", \"au premier étage\".",
         ],
         examples: [
           { es: "La maison était au bord d'un lac.", en: "The house was by a lake." },

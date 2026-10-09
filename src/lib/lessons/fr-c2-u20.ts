@@ -437,7 +437,7 @@ export const FR_C2_U20: Lesson[] = [
       {
         heading: "The problématique as a question",
         body: [
-          "The French dissertation, and most argued academic writing, turns its subject into \"une problématique\": the question the whole essay answers. You met it at C1. At C2 the expectation is a question that is genuinely open, precise, and not answerable by yes or no in one line.",
+          "The French dissertation, and most argued academic writing, turns its subject into \"une problématique\": the question the whole essay answers. You met it at the Advanced level. At the Mastery level the expectation is a question that is genuinely open, precise, and not answerable by yes or no in one line.",
           "Two forms are acceptable. Direct: \"Dans quelle mesure la gratuité des transports publics peut-elle réduire la place de la voiture en ville ?\", \"En quoi le roman réaliste est-il aussi une œuvre d'imagination ?\". Indirect, more measured: \"Il convient dès lors de se demander dans quelle mesure la gratuité peut réduire...\", \"On peut s'interroger sur ce qui distingue...\".",
           "Rules of thumb: one main question (a list of five questions is not a problématique), formulated with tension (\"si... alors que...\", \"faut-il... ou bien...\"), and placed at the end of the introduction, just before the announcement of the plan.",
         ],
@@ -689,7 +689,7 @@ export const FR_C2_U20: Lesson[] = [
         body: [
           "Opening hypophora: \"Pourquoi fermer la médiathèque ? Pour économiser 180 000 euros. C'est le prix d'un rond-point.\" The answer comes fast, and the comparison does the arguing.",
           "Series and interpellation: \"Où iront les collégiens qui y font leurs devoirs ? Où iront les retraités qui y lisent le journal ? Et vous, mesdames et messieurs les élus, quand y êtes-vous entrés pour la dernière fois ?\". The interpellation turns the series into a challenge.",
-          "Cleft sentences, which you studied at C1, give the closing its weight: \"Ce n'est pas une dépense, c'est un investissement.\" \"Ce que nous demandons, c'est un sursis d'un an et une vraie concertation.\" \"C'est ici que nos enfants ont appris à aimer lire.\" The structure \"ce n'est pas... c'est...\" corrects a frame; \"ce que... c'est...\" builds suspense before the key words.",
+          "Cleft sentences, which you studied at the Advanced level, give the closing its weight: \"Ce n'est pas une dépense, c'est un investissement.\" \"Ce que nous demandons, c'est un sursis d'un an et une vraie concertation.\" \"C'est ici que nos enfants ont appris à aimer lire.\" The structure \"ce n'est pas... c'est...\" corrects a frame; \"ce que... c'est...\" builds suspense before the key words.",
         ],
         examples: [
           { es: "Pourquoi fermer la médiathèque ? Pour économiser 180 000 euros. C'est le prix d'un rond-point.", en: "Why close the library? To save 180,000 euros. That's the price of a roundabout." },
@@ -862,7 +862,7 @@ export const FR_C2_U20: Lesson[] = [
       {
         heading: "Inversion after adverbs at the head of the sentence",
         body: [
-          "When certain adverbs open a sentence in formal French, the subject pronoun moves after the verb, as in a question: \"Sans doute a-t-il raison.\" \"Peut-être faut-il attendre.\" \"À peine était-il élu qu'il trahissait ses promesses.\" With a noun subject, the inversion is complex: the noun stays in front and a pronoun is added: \"Sans doute le ministre a-t-il raison.\" You saw the mechanism at C1; at C2 you use it to give rhythm and authority to argument.",
+          "When certain adverbs open a sentence in formal French, the subject pronoun moves after the verb, as in a question: \"Sans doute a-t-il raison.\" \"Peut-être faut-il attendre.\" \"À peine était-il élu qu'il trahissait ses promesses.\" With a noun subject, the inversion is complex: the noun stays in front and a pronoun is added: \"Sans doute le ministre a-t-il raison.\" You saw the mechanism at the Advanced level; at the Mastery level you use it to give rhythm and authority to argument.",
           "The list to master: \"à peine... que\" (hardly... when), \"sans doute\" (probably), \"peut-être\" (perhaps), \"aussi\" (therefore, NOT also, at the head of a clause), \"ainsi\" (thus, optional inversion), \"encore\" (still, yet, and \"encore faut-il que\" + subjunctive = but only if), \"du moins\" (at least), \"tout au plus\" (at most), \"à plus forte raison\" (all the more so).",
           "If you don't want the inversion, move the adverb (\"il a sans doute raison\") or use \"que\" with \"peut-être\" and \"sans doute\" (\"peut-être qu'il faut attendre\", more spoken). What you cannot do in careful writing is keep the adverb at the head without inverting: \"*Sans doute il a raison*\" is heard in speech but marked as incorrect in an essay.",
         ],
@@ -905,7 +905,7 @@ export const FR_C2_U20: Lesson[] = [
       {
         heading: "Clefts that correct and explain",
         body: [
-          "The cleft sentence \"c'est... qui / que\" isolates the element you want in focus: \"C'est la ministre qui a signé\" (she, not someone else). At C2, its negative and explanatory variants matter most in argument. \"Ce n'est pas... c'est...\" corrects a frame: \"Ce n'est pas l'argent qui manque, c'est la volonté.\"",
+          "The cleft sentence \"c'est... qui / que\" isolates the element you want in focus: \"C'est la ministre qui a signé\" (she, not someone else). At the Mastery level, its negative and explanatory variants matter most in argument. \"Ce n'est pas... c'est...\" corrects a frame: \"Ce n'est pas l'argent qui manque, c'est la volonté.\"",
           "\"Ce n'est pas que\" + subjunctive denies a possible explanation, and \"c'est que\" + indicative gives the true one: \"Ce n'est pas que je refuse de vous aider ; c'est que je n'ai pas le temps.\" (It's not that I refuse..., it's that...). The mood difference is significant: the rejected reason is in the subjunctive.",
           "\"Voilà ce qui\" / \"voilà pourquoi\" sum up what precedes with force: \"Des promesses non tenues, des services fermés, des élus absents : voilà ce qui nourrit la colère.\" The list comes first; \"voilà\" gathers it and names the consequence.",
         ],
@@ -1075,7 +1075,7 @@ export const FR_C2_U20: Lesson[] = [
     slug: "c2-rhetorical-figures-spiral",
     level: "FR-C2",
     number: 6,
-    title: "Spiral Review: Les Figures Rhétoriques du Niveau C2",
+    title: "Spiral Review: Les Figures Rhétoriques",
     summary: "Metaphor, hyperbole, anaphora, hypophora, interpellation, antithesis, chiasmus and prétérition: identify each figure in short extracts from classic texts, speeches and editorials, and say what it does.",
     duration: "18 min",
     sections: [
@@ -1294,14 +1294,14 @@ export const FR_C2_U20: Lesson[] = [
     slug: "c2-vocab-economics-fine",
     level: "FR-C2",
     number: 7,
-    title: "C2 Vocabulary: Fine Economic Vocabulary",
+    title: "Mastery Vocabulary: Fine Economic Vocabulary",
     summary: "The vocabulary of economic news with its exact nuances: déflation and stagflation, rebond and bulle, écart de taux, liquidité and solvabilité, plan de sauvetage, décote, impayés, droits de douane, travail au noir and pouvoir d'achat.",
     duration: "20 min",
     sections: [
       {
         heading: "Prices and cycles: déflation, stagflation, rebond, bulle",
         body: [
-          "\"L'inflation\" is a general rise in prices; \"la désinflation\" is a slowing of that rise (prices still go up, but less fast); \"la déflation\" is a general fall in prices, feared because households postpone purchases. Journalists often confuse désinflation and déflation; a C2 reader doesn't.",
+          "\"L'inflation\" is a general rise in prices; \"la désinflation\" is a slowing of that rise (prices still go up, but less fast); \"la déflation\" is a general fall in prices, feared because households postpone purchases. Journalists often confuse désinflation and déflation; a Mastery reader doesn't.",
           "\"La stagflation\" combines stagnation (weak growth, high unemployment) and inflation, the nightmare of the 1970s oil shocks. \"La récession\" is a fall in output (technically two consecutive quarters of negative growth); \"le rebond\" (rebound) or \"la reprise\" (recovery) follows. A rebound is a short technical bounce; a recovery is lasting.",
           "\"Une bulle\" (spéculative, immobilière) is a rise in asset prices far beyond their real value; it \"gonfle\" (swells) and then \"éclate\" (bursts): \"l'éclatement de la bulle internet\".",
         ],
@@ -1513,7 +1513,7 @@ export const FR_C2_U20: Lesson[] = [
     slug: "c2-vocab-scientific-method",
     level: "FR-C2",
     number: 8,
-    title: "C2 Vocabulary: The Scientific Method",
+    title: "Mastery Vocabulary: The Scientific Method",
     summary: "Read and discuss science precisely: l'échantillon, le groupe témoin, l'essai clinique, le placebo, la corrélation and la causalité, le biais, la marge d'erreur, la significativité statistique, la reproductibilité, l'évaluation par les pairs, extrapoler. Trap: une expérience is both an experiment and an experience.",
     duration: "20 min",
     sections: [

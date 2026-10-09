@@ -671,7 +671,7 @@ export const FR_C2_U07_EXTRA: Lesson[] = [
         heading: "Recap: a scale from soft to brutal",
         body: [
           "The euphemism softens; \"le dysphémisme\" does the opposite, choosing a harsher or more vulgar word for effect, humour or contempt. Many facts can be put on a scale: \"il nous a quittés\" (euphemism), \"il est décédé\" (administrative), \"il est mort\" (neutral, not rude), \"il a cassé sa pipe\" (familiar, jokey), \"il a clamsé\" (slang, brutal). Similarly: \"il a été remercié\" / \"licencié\" / \"viré\"; \"une personne âgée\" / \"un vieux\" / \"un vieux croûton\".",
-          "Choosing the right level is the C2 skill: \"il nous a quittés\" in a condolence card, \"il est mort\" in a news report, \"il a cassé sa pipe\" only among friends and never about someone the listener mourns.",
+          "Choosing the right level is the Mastery skill: \"il nous a quittés\" in a condolence card, \"il est mort\" in a news report, \"il a cassé sa pipe\" only among friends and never about someone the listener mourns.",
         ],
         examples: [
           { es: "Notre voisin nous a quittés cette nuit.", en: "Our neighbour passed away last night." },

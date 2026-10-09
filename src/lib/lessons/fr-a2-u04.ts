@@ -1225,7 +1225,7 @@ export const FR_A2_U04: Lesson[] = [
         body: [
           "English uses 'would' for repeated past actions: 'Every summer we would go to the sea.' This is not the conditional ('would' = hypothetical). In French it's the imparfait: \"Tous les étés, nous allions à la mer.\"",
           "Test: can you replace 'would' with 'used to'? If yes, imparfait. 'Every Sunday my grandfather would make crêpes' = \"Le dimanche, mon grand-père faisait des crêpes\".",
-          "If 'would' is hypothetical ('I would love to come'), that's the conditional (\"j'aimerais\"), which comes in B1. You already know \"je voudrais\" as a polite chunk.",
+          "If 'would' is hypothetical ('I would love to come'), that's the conditional (\"j'aimerais\"), which comes in the Intermediate level. You already know \"je voudrais\" as a polite chunk.",
         ],
         examples: [
           { es: "Tous les étés, nous allions à la mer.", en: "Every summer we would go to the seaside." },

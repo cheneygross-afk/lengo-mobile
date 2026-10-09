@@ -53,7 +53,7 @@ const UNITS: FrenchUnitDef[] = [
   { id: "u16", title: "Neutral vs Colloquial French", description: "Can understand informal spoken French, argot, verlan and abbreviations, and can turn colloquial French into neutral French for a general audience.", lessons: FR_C1_U16, writing: FR_C1_U16_WRITING },
   { id: "u17", title: "Formal Letters & Emails", description: "Can write formal letters and professional emails with the conventions, formulas and tone expected in France.", lessons: FR_C1_U17, writing: FR_C1_U17_WRITING },
   { id: "u18", title: "Academic Writing & Essays", description: "Can write a DALF C1 synthèse de documents and essai argumenté, build a French-style plan, hedge claims and present an exposé orally.", lessons: FR_C1_U18, writing: FR_C1_U18_WRITING },
-  { id: "u19", title: "Advanced Challenges & Exit Test", description: "Can use every C1 structure without hints and is ready to sit the DALF C1.", lessons: FR_C1_U19, writing: FR_C1_U19_WRITING },
+  { id: "u19", title: "Advanced Challenges & Exit Test", description: "Can use every Advanced structure without hints and is ready to sit the DALF C1.", lessons: FR_C1_U19, writing: FR_C1_U19_WRITING },
 ];
 
 const LEVEL = buildFrenchLevel("C1", UNITS);

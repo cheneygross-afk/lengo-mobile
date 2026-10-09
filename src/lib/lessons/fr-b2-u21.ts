@@ -495,7 +495,7 @@ export const FR_B2_U21: Lesson[] = [
         body: [
           "Old shepherds talk about the future of the tradition with verbs of will and necessity, which you studied in Units 5-6: \"je voudrais que\", \"il faut que\", \"il est essentiel que\", \"je tiens à ce que\", \"j'aimerais que\" + subjunctive. Different subject in the second clause → \"que\" + subjunctive; same subject → infinitive.",
           "Remember the irregular stems that come up all the time in these texts: \"qu'ils sachent\" (savoir), \"qu'ils puissent\" (pouvoir), \"qu'ils fassent\" (faire), \"qu'ils aillent\" (aller), \"qu'ils veuillent\" (vouloir), \"qu'ils prennent\" (prendre).",
-          "\"Tenir à ce que\" (to be keen that, to insist that) is very French and very useful at B2: \"Je tiens à ce que mes petits-enfants connaissent les chemins.\"",
+          "\"Tenir à ce que\" (to be keen that, to insist that) is very French and very useful at the Upper-intermediate level: \"Je tiens à ce que mes petits-enfants connaissent les chemins.\"",
         ],
         examples: [
           { es: "Je voudrais que mes petits-enfants sachent garder un troupeau.", en: "I'd like my grandchildren to know how to look after a flock." },
@@ -528,7 +528,7 @@ export const FR_B2_U21: Lesson[] = [
       {
         heading: "In spite of everything: bien que, même si, sans que",
         body: [
-          "The transhumance survives against the odds, so the texts are full of concession: \"bien que\" / \"quoique\" + subjunctive (although), \"même si\" + indicative (even if), \"malgré\" + noun (despite). Mixing up \"bien que\" and \"même si\" is the classic B2 error: \"bien qu'il pleuve\" but \"même s'il pleut\".",
+          "The transhumance survives against the odds, so the texts are full of concession: \"bien que\" / \"quoique\" + subjunctive (although), \"même si\" + indicative (even if), \"malgré\" + noun (despite). Mixing up \"bien que\" and \"même si\" is the classic Upper-intermediate error: \"bien qu'il pleuve\" but \"même s'il pleut\".",
           "\"Sans que\" + subjunctive (without someone doing something) and \"à moins que\" + subjunctive (unless) also appear naturally: \"Les brebis ne montent pas sans que le berger les accompagne.\" In careful writing, \"à moins que\" takes the ne explétif: \"à moins que l'État n'intervienne\".",
           "Same subject? Use the infinitive: \"sans + infinitif\", \"à moins de + infinitif\". \"Il est parti sans dire au revoir\", not *\"sans qu'il dise\".",
         ],

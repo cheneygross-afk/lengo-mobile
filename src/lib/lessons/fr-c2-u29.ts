@@ -1307,7 +1307,7 @@ export const FR_C2_U29: Lesson[] = [
       {
         heading: "Flaubert: ennui and free indirect style",
         body: [
-          "Flaubert's \"Madame Bovary\" (1857) is the great French novel of disappointed longing, and it perfected a technique you met at C1: \"le style indirect libre\", free indirect style, where the narrator's voice slips into the character's thoughts without quotation marks or a reporting verb. Read this passage, near the end of the novel: « N'importe ! elle n'était pas heureuse, ne l'avait jamais été. D'où venait donc cette insuffisance de la vie, cette pourriture instantanée des choses où elle s'appuyait ? »",
+          "Flaubert's \"Madame Bovary\" (1857) is the great French novel of disappointed longing, and it perfected a technique you met at the Advanced level: \"le style indirect libre\", free indirect style, where the narrator's voice slips into the character's thoughts without quotation marks or a reporting verb. Read this passage, near the end of the novel: « N'importe ! elle n'était pas heureuse, ne l'avait jamais été. D'où venait donc cette insuffisance de la vie, cette pourriture instantanée des choses où elle s'appuyait ? »",
           "Who says \"N'importe !\"? Not the narrator: it is Emma's own exclamation, in her rhythm, but in the third person and the imperfect. The question \"D'où venait donc...\" is hers too. That is free indirect style: the grammar of narration (elle, imperfect), the voice of the character (exclamation, \"donc\", the question). Compare the direct version: Elle se dit : « Peu importe ! je ne suis pas heureuse, je ne l'ai jamais été. »",
           "To describe Emma, a critic would use the unit's words: \"un ennui existentiel\", \"une insatisfaction chronique\", \"le désenchantement\", \"elle est tiraillée entre ses rêves romanesques et la médiocrité de sa vie\". The image \"la pourriture instantanée des choses\" (the instant rotting of things) is a metaphor for the way every hope decays as soon as she leans on it.",
         ],
@@ -1510,7 +1510,7 @@ export const FR_C2_U29: Lesson[] = [
     slug: "c2-vocab-pronominal-verbs-prepositions",
     level: "FR-C2",
     number: 8,
-    title: "C2 Vocabulary: Pronominal Verbs and Their Prepositions",
+    title: "Mastery Vocabulary: Pronominal Verbs and Their Prepositions",
     summary: "Se targuer de, s'arroger, s'immiscer dans, s'obstiner à, s'en remettre à, se résoudre à and more: learned verbs with their exact preposition, and the agreement trap of se sont arrogé.",
     duration: "18 min",
     sections: [
@@ -1719,7 +1719,7 @@ export const FR_C2_U29: Lesson[] = [
     slug: "c2-vocab-registers-francophone-words",
     level: "FR-C2",
     number: 9,
-    title: "C2 Vocabulary: One Concept, Three Registers, Five Countries",
+    title: "Mastery Vocabulary: One Concept, Three Registers, Five Countries",
     summary: "Travailler, bosser, taffer; l'argent, le fric, la thune; une voiture, une bagnole, un char: recognise colloquial words by register and region, and choose the neutral form when it counts.",
     duration: "17 min",
     sections: [
@@ -1728,7 +1728,7 @@ export const FR_C2_U29: Lesson[] = [
         body: [
           "French vocabulary is layered by register more sharply than English. For work: \"œuvrer\" (soutenu, often for a cause: \"œuvrer pour la paix\"), \"travailler\" (courant), \"bosser\" (familier, universal in France), \"taffer\" (familier, younger and more urban; \"le taf\" is the job). \"Le boulot\" is the familiar noun for job or work: \"j'ai trouvé un boulot\", \"métro, boulot, dodo\" (the daily grind).",
           "For money: \"les fonds\", \"les deniers\" (soutenu or administrative: \"les deniers publics\", public money), \"l'argent\" (courant), \"le fric\" and \"le pognon\" (familier), \"la thune\" (familier, often in the negative: \"j'ai pas de thunes\"), \"l'oseille\" and \"le blé\" (familier, a bit old-fashioned). Swiss, Belgian and Québec speakers understand them all, but Québec has its own: \"le cash\", \"le foin\" (familier), and \"une piastre\" or \"une piasse\" for a dollar.",
-          "The C2 skill is not to use argot to sound native, but to recognise it instantly and choose the register on purpose. In a cover letter, \"travailler\" and \"rémunération\"; with friends, \"bosser\" and \"thune\"; in an essay, \"exercer une activité professionnelle\" and \"ressources financières\".",
+          "The Mastery skill is not to use argot to sound native, but to recognise it instantly and choose the register on purpose. In a cover letter, \"travailler\" and \"rémunération\"; with friends, \"bosser\" and \"thune\"; in an essay, \"exercer une activité professionnelle\" and \"ressources financières\".",
         ],
         examples: [
           { es: "Elle œuvre depuis vingt ans pour l'accès des femmes à l'éducation.", en: "She has been working for twenty years for women's access to education." },
@@ -1762,7 +1762,7 @@ export const FR_C2_U29: Lesson[] = [
         body: [
           "Some everyday objects change name with the country. A car is \"une voiture\" everywhere; \"une bagnole\" is familiar in France, \"une caisse\" also familiar; in Québec, \"un char\" is the standard spoken word (from the old \"char à bancs\"), not slang at all. A mobile phone is \"un portable\" in France, \"un natel\" in Switzerland (originally a brand name, Swisscom's network), \"un GSM\" in Belgium, \"un cellulaire\" or \"un cell\" in Québec, and \"un téléphone mobile\" in formal writing.",
           "A few more you will meet: shopping is \"faire les courses\" in France, \"faire l'épicerie\" in Québec, \"faire les commissions\" in Belgium and Switzerland. A weekend is \"le week-end\" in France but \"la fin de semaine\" in Québec. The evening meal: \"le dîner\" in France, \"le souper\" in Belgium, Switzerland and Québec, where \"le dîner\" is lunch.",
-          "These words are not mistakes; they are the norm in their country. The C2 reflex is to know which is local and which is shared, so that you understand everyone and choose the neutral form (\"voiture\", \"téléphone portable\", \"repas du soir\") in a text meant for the whole francophone world.",
+          "These words are not mistakes; they are the norm in their country. The Mastery reflex is to know which is local and which is shared, so that you understand everyone and choose the neutral form (\"voiture\", \"téléphone portable\", \"repas du soir\") in a text meant for the whole francophone world.",
         ],
         examples: [
           { es: "Mon char est au garage depuis lundi.", en: "My car's been at the garage since Monday. (Quebec)" },
@@ -1808,7 +1808,7 @@ export const FR_C2_U29: Lesson[] = [
         heading: "Switching registers on purpose",
         body: [
           "Rewriting one sentence in three registers is the best exercise. Familier: « J'ai pas de thunes, je peux pas me payer une bagnole. » Courant: « Je n'ai pas d'argent, je ne peux pas m'acheter de voiture. » Soutenu: « Je ne dispose pas des moyens nécessaires à l'acquisition d'un véhicule. » Notice that grammar moves with vocabulary: ne returns, \"pas de\" becomes a nominal phrase, the verb gets more abstract (\"disposer de\", \"l'acquisition\").",
-          "Mixing registers by accident is what betrays a non-native writer at C2: \"*Je ne dispose pas de thunes\" is comic. Mixing on purpose is a stylistic device used by journalists and novelists: \"Le ministre, qui ne manquait pas d'oseille, découvrit la rigueur budgétaire\" creates irony by dropping a familiar word into a formal sentence.",
+          "Mixing registers by accident is what betrays a non-native writer at the Mastery level: \"*Je ne dispose pas de thunes\" is comic. Mixing on purpose is a stylistic device used by journalists and novelists: \"Le ministre, qui ne manquait pas d'oseille, découvrit la rigueur budgétaire\" creates irony by dropping a familiar word into a formal sentence.",
           "A last trap: a few words feel familiar but are perfectly neutral in France: \"un truc\", \"un copain\", \"sympa\", \"une boîte\" (for a company, familiar but very common). Others feel neutral to learners but are vulgar or marked; when in doubt, check before using them.",
         ],
         examples: [
@@ -1903,7 +1903,7 @@ export const FR_C2_U29: Lesson[] = [
           { left: "le boulot", right: "le travail" },
           { left: "une boîte", right: "une entreprise" },
         ],
-        explanation: "Recognising the familiar word and producing its neutral partner is the core C2 register skill.",
+        explanation: "Recognising the familiar word and producing its neutral partner is the core Mastery register skill.",
       },
       {
         type: "word-order",

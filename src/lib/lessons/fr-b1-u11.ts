@@ -1976,7 +1976,7 @@ export const FR_B1_U11: Lesson[] = [
     slug: "b1-vocabulary-practice-4",
     level: "FR-B1",
     number: 9,
-    title: "B1 Vocabulary Practice, Part 4 of 10",
+    title: "Intermediate Vocabulary Practice, Part 4 of 10",
     summary: "News and information: un article, un titre, les infos, un journaliste, une rumeur, une source, confirmer, démentir, un témoignage, and the trap between les nouvelles and les informations.",
     duration: "13 min",
     sections: [

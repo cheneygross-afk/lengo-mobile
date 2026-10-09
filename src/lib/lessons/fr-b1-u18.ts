@@ -23,7 +23,7 @@ export const FR_B1_U18: Lesson[] = [
     slug: "b1-vocabulary-practice-7",
     level: "FR-B1",
     number: 1,
-    title: "B1 Vocabulary Practice, Part 7 of 10",
+    title: "Intermediate Vocabulary Practice, Part 7 of 10",
     summary: "Health and the body: saying where it hurts, getting a prescription and finding your way around the French health system (médecin traitant, carte Vitale, mutuelle).",
     duration: "14 min",
     sections: [

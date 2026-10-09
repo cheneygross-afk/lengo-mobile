@@ -991,8 +991,8 @@ export const FR_B1_U03: Lesson[] = [
     slug: "b1-vocabulary-practice-1",
     level: "FR-B1",
     number: 5,
-    title: "B1 Vocabulary Practice, Part 1 of 10",
-    summary: "High-frequency B1 words for everyday obligations and errands: un rendez-vous, une démarche, un formulaire, remplir, prévenir, rappeler, être obligé de, avoir le droit de.",
+    title: "Intermediate Vocabulary Practice, Part 1 of 10",
+    summary: "High-frequency Intermediate words for everyday obligations and errands: un rendez-vous, une démarche, un formulaire, remplir, prévenir, rappeler, être obligé de, avoir le droit de.",
     duration: "13 min",
     sections: [
       {

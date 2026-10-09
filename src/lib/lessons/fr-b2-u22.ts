@@ -814,7 +814,7 @@ export const FR_B2_U22: Lesson[] = [
     level: "FR-B2",
     number: 5,
     title: "Thematic Review: Partager un Héritage",
-    summary: "Objects full of memories, siblings who disagree and a house to sell: the whole of B2 in one family conflict.",
+    summary: "Objects full of memories, siblings who disagree and a house to sell: the whole of Upper-intermediate in one family conflict.",
     duration: "15 min",
     sections: [
       {
@@ -1214,7 +1214,7 @@ export const FR_B2_U22: Lesson[] = [
       {
         heading: "Thirty-five years in the classroom",
         body: [
-          "School vocabulary at B2: \"partir à la retraite\" (to retire), \"un enseignant / une enseignante\", \"une salle des profs\" (staff room), \"un collège\" (secondary school, ages 11-15: a false friend, not college), \"un lycée\" (ages 15-18), \"un conseil de classe\", \"redoubler\" (to repeat a year), \"un ancien élève\" (a former pupil), \"la rentrée\" (the start of the school year).",
+          "School vocabulary at the Upper-intermediate level: \"partir à la retraite\" (to retire), \"un enseignant / une enseignante\", \"une salle des profs\" (staff room), \"un collège\" (secondary school, ages 11-15: a false friend, not college), \"un lycée\" (ages 15-18), \"un conseil de classe\", \"redoubler\" (to repeat a year), \"un ancien élève\" (a former pupil), \"la rentrée\" (the start of the school year).",
           "Memories mix the imparfait (background, habits) with the passé composé (events) and the plus-que-parfait (what had happened before): \"Quand je suis arrivée dans ce collège, il n'y avait pas encore d'ordinateurs ; on avait à peine installé le chauffage.\"",
           "\"Depuis\" + present for something still going on: \"J'enseigne ici depuis 1990.\"",
         ],

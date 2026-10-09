@@ -16,7 +16,7 @@ export const FR_B1_U08: Lesson[] = [
         body: [
           "The imperative gives orders, advice, instructions and invitations. It has only three forms, taken from the present tense without the subject pronoun: \"tu finis\" → \"Finis !\", \"nous partons\" → \"Partons !\" (let's leave), \"vous attendez\" → \"Attendez !\".",
           "Choose the person as you would choose tu or vous: \"tu\" for a friend, a child, a family member; \"vous\" for a stranger, a customer, a group; \"nous\" for let's, when you include yourself: \"Prenons un taxi\" (let's take a taxi).",
-          "Two vous forms are irregular in the present, so they're irregular here too: \"Faites attention !\" and \"Dites-moi\" (tell me). And remember from A2: the tu form of -er verbs loses its -s (\"Mange !\", \"Regarde !\"); the next lesson drills this.",
+          "Two vous forms are irregular in the present, so they're irregular here too: \"Faites attention !\" and \"Dites-moi\" (tell me). And remember from the Elementary level: the tu form of -er verbs loses its -s (\"Mange !\", \"Regarde !\"); the next lesson drills this.",
         ],
         examples: [
           { es: "Finis ton assiette, s'il te plaît.", en: "Finish your plate, please." },

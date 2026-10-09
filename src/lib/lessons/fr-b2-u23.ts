@@ -24,7 +24,7 @@ export const FR_B2_U23: Lesson[] = [
     level: "FR-B2",
     number: 1,
     title: "Thematic Review: La Terre de la Famille",
-    summary: "Olive groves, fields and decisions between generations: what is passed on and what is not, with the whole B2 toolkit.",
+    summary: "Olive groves, fields and decisions between generations: what is passed on and what is not, with the whole Upper-intermediate toolkit.",
     duration: "15 min",
     sections: [
       {
@@ -1574,7 +1574,7 @@ export const FR_B2_U23: Lesson[] = [
       {
         heading: "Explain your choice",
         body: [
-          "At B2, examiners value the ability to justify. For each relative, name the construction: \"que\" because \"voir\" takes a direct object; \"dont\" because \"se souvenir de\"; \"auquel\" because \"participer à\"; \"où\" because it's a time.",
+          "At the Upper-intermediate level, examiners value the ability to justify. For each relative, name the construction: \"que\" because \"voir\" takes a direct object; \"dont\" because \"se souvenir de\"; \"auquel\" because \"participer à\"; \"où\" because it's a time.",
           "When two are possible (\"où\" / \"dans lequel\"; \"à qui\" / \"auquel\" for people; \"que\" / \"dont\" with \"se rappeler\" / \"se souvenir\"), both are right: the choice is about register or the verb you picked.",
         ],
         examples: [

@@ -57,7 +57,7 @@ export const FR_C2_U12: Lesson[] = [
       {
         heading: "Fact or opinion?",
         body: [
-          "Experts on the radio mix facts and opinions, and part of C2 listening is separating them. Facts come with sources and figures: \"d'après les chiffres de l'Insee\", \"l'étude porte sur dix mille personnes\", \"en 2022, le taux était de...\". Opinions come with verbs of judgement and evaluation: \"je pense\", \"j'estime\", \"à mon sens\", \"c'est inquiétant\", \"c'est une erreur\".",
+          "Experts on the radio mix facts and opinions, and part of Mastery listening is separating them. Facts come with sources and figures: \"d'après les chiffres de l'Insee\", \"l'étude porte sur dix mille personnes\", \"en 2022, le taux était de...\". Opinions come with verbs of judgement and evaluation: \"je pense\", \"j'estime\", \"à mon sens\", \"c'est inquiétant\", \"c'est une erreur\".",
           "Between the two lie interpretations: \"ces chiffres montrent que\", \"cela révèle\", \"on peut y voir\". They present an opinion as if it followed from the facts. A critical listener asks: does the figure really show that, or is the speaker going further?",
           "Hosts often make the distinction for you: \"C'est un constat ou c'est votre analyse ?\" (Is that an observation or your analysis?). Using these words yourself in a DALF debate shows control: \"Je distinguerais le constat, qui est incontestable, de l'interprétation, qui me paraît discutable.\"",
         ],
@@ -554,7 +554,7 @@ export const FR_C2_U12: Lesson[] = [
         body: [
           "The paratext is everything around the body of the article that helps you read fast: \"le titre\" (headline), \"le surtitre\" (kicker above it), \"le chapô\" (the standfirst, the bold introductory paragraph that summarises the article), \"les intertitres\" (subheadings), \"l'encadré\" (box with extra information), \"la légende\" (photo caption), \"la signature\".",
           "Three reading modes: \"la lecture globale\" (skimming) reads the paratext and the first and last lines of paragraphs to get the gist; \"la lecture sélective\" (scanning) hunts for one piece of information (a date, a figure, a name); \"la lecture approfondie\" (close reading) analyses every word, for nuance and argument.",
-          "A good C2 reader chooses the mode first. For a press review, read globally: title, chapô, intertitres. For a figure, scan the encadré and the paragraphs with numbers. For a tribune you will discuss, read in depth, noting modalisers and implicit links. The next lesson practises the choice.",
+          "A good Mastery reader chooses the mode first. For a press review, read globally: title, chapô, intertitres. For a figure, scan the encadré and the paragraphs with numbers. For a tribune you will discuss, read in depth, noting modalisers and implicit links. The next lesson practises the choice.",
         ],
         examples: [
           { es: "Le chapô résume l'essentiel de l'article en trois lignes.", en: "The standfirst sums up the essence of the article in three lines." },
@@ -735,9 +735,9 @@ export const FR_C2_U12: Lesson[] = [
       {
         heading: "When the mode is wrong",
         body: [
-          "Most reading problems at C2 are not language problems but mode problems. Reading a 3,000-word report in depth when you only need one figure wastes an hour. Skimming a tribune when you must discuss it in an exam leaves you blind to its irony and concessions. Scanning an editorial for keywords misses the argument, which is in the connectors and the modalisers.",
+          "Most reading problems at the Mastery level are not language problems but mode problems. Reading a 3,000-word report in depth when you only need one figure wastes an hour. Skimming a tribune when you must discuss it in an exam leaves you blind to its irony and concessions. Scanning an editorial for keywords misses the argument, which is in the connectors and the modalisers.",
           "Typical mistakes: taking the title as the conclusion (French titles often ask questions or play on words, \"Paris, ville lumière... et chère\"), stopping at the chapô when the body nuances it (\"si la tendance est nette, elle n'est pas générale\"), and treating an encadré figure as the article's thesis.",
-          "Strategy: before you read, write down your goal in one line. Then choose: global (gist), selective (data), in-depth (argument and nuance). And time yourself: a global reading of a press article should take two to three minutes at C2.",
+          "Strategy: before you read, write down your goal in one line. Then choose: global (gist), selective (data), in-depth (argument and nuance). And time yourself: a global reading of a press article should take two to three minutes at the Mastery level.",
         ],
         examples: [
           { es: "Si la tendance est nette, elle n'est pas générale.", en: "While the trend is clear, it is not universal." },
@@ -1805,14 +1805,14 @@ export const FR_C2_U12: Lesson[] = [
     slug: "c2-vocab-verb-noun-collocations",
     level: "FR-C2",
     number: 9,
-    title: "C2 Vocabulary: Verb and Noun Collocations",
+    title: "Mastery Vocabulary: Verb and Noun Collocations",
     summary: "The verb a native chooses without thinking: nourrir des espoirs, émettre des doutes, remporter un succès, essuyer un refus, semer la discorde, clore une polémique, combler une lacune, prendre des mesures... and the calques to avoid.",
     duration: "18 min",
     sections: [
       {
         heading: "Hopes, doubts and decisions",
         body: [
-          "A collocation is a habitual pairing of words. A C2 speaker is recognised less by rare words than by the right verb with a common noun. \"Nourrir des espoirs\" (to cherish hopes, literally feed), \"caresser un projet\" (to toy with a plan), \"émettre des doutes\" or \"des réserves\" (to express doubts, reservations), \"formuler une critique\", \"soulever une question\" (to raise).",
+          "A collocation is a habitual pairing of words. A Mastery speaker is recognised less by rare words than by the right verb with a common noun. \"Nourrir des espoirs\" (to cherish hopes, literally feed), \"caresser un projet\" (to toy with a plan), \"émettre des doutes\" or \"des réserves\" (to express doubts, reservations), \"formuler une critique\", \"soulever une question\" (to raise).",
           "Decisions: \"prendre une décision\" (never \"*faire une décision\", a calque), \"prendre des mesures\" (to take measures: usually plural; \"*prendre une mesure\" in the singular sounds odd where French says \"prendre des mesures\", though \"une mesure\" exists as a noun: \"cette mesure est impopulaire\"), \"trancher une question\" (to settle), \"arrêter une date\" (to fix).",
           "Learning the noun with its verb as one chunk is the only efficient method. When you meet a noun in the press, note the verb in front of it.",
         ],
@@ -1857,7 +1857,7 @@ export const FR_C2_U12: Lesson[] = [
         heading: "Success and failure: remporter, essuyer, subir",
         body: [
           "Success: \"remporter un succès\", \"une victoire\", \"un prix\" (to win), \"connaître un succès\" (to enjoy), \"atteindre un objectif\", \"tenir ses promesses\". Failure: \"essuyer un refus\", \"un échec\", \"une défaite\", \"des critiques\" (to suffer, literally to wipe), \"subir une défaite\", \"des pertes\", \"encaisser un coup\" (to take a blow, familiar).",
-          "\"Essuyer\" is the verb that most marks a C2 writer: \"le ministre a essuyé un refus cinglant\", \"l'équipe a essuyé une lourde défaite\". English speakers default to \"recevoir\" or \"avoir\", which are possible but flat.",
+          "\"Essuyer\" is the verb that most marks a Mastery writer: \"le ministre a essuyé un refus cinglant\", \"l'équipe a essuyé une lourde défaite\". English speakers default to \"recevoir\" or \"avoir\", which are possible but flat.",
           "Watch the article: \"remporter un vif succès\" (a great success), \"essuyer un revers\" (a setback), \"connaître des difficultés\" (to experience difficulties, not 'to know').",
         ],
         examples: [

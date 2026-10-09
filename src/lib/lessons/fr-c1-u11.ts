@@ -16,7 +16,7 @@ export const FR_C1_U11: Lesson[] = [
         heading: "Why French needs clefts",
         body: [
           "English can put focus on any word just by stressing it with the voice: 'I booked the flat', 'I booked the flat'. French can't: its stress always falls on the last syllable of the phrase, so emphasis has to be done with syntax. The main tool is the cleft sentence: \"c'est... qui\" for a subject, \"c'est... que\" for anything else.",
-          "You know the basic forms from B2: \"C'est Julie qui a réservé\" (Julie booked it, not me), \"C'est ce film que je voulais voir\". At C1, the focus can be almost any element: a prepositional phrase, an adverb of time or place, a gérondif, a reason, even a whole clause.",
+          "You know the basic forms from the Upper-intermediate level: \"C'est Julie qui a réservé\" (Julie booked it, not me), \"C'est ce film que je voulais voir\". At the Advanced level, the focus can be almost any element: a prepositional phrase, an adverb of time or place, a gérondif, a reason, even a whole clause.",
           "The key rule: whatever is focused moves between \"c'est\" and \"qui / que\", complete with its preposition. Everything else stays in the \"que\" clause in normal order.",
         ],
         examples: [
@@ -1187,7 +1187,7 @@ export const FR_C1_U11: Lesson[] = [
         body: [
           "French has a whole family of exclamative structures, ranked by register. Spoken and very common: \"Qu'est-ce qu'il fait chaud !\", \"Ce qu'il est bête !\" (How stupid he is!). Neutral, fine everywhere: \"Comme c'est beau !\", \"Comme il a grandi !\". More literary: \"Que c'est beau !\", \"Que vous êtes gentil !\".",
           "Word order: after all of them, the sentence keeps normal statement order: \"Comme elle chante bien !\", not \"*Comme chante-t-elle bien\". And the adjective is not placed right after the exclamative word as in English 'How beautiful it is!': French says \"Comme c'est beau !\", never \"*Comme beau c'est\".",
-          "With nouns: \"Quel talent !\", \"Quelle chance !\" (B2), and the literary \"Que de\" + noun: \"Que de monde !\" (What a lot of people!), \"Que de souvenirs !\". In speech: \"Qu'est-ce qu'il y a comme monde !\"",
+          "With nouns: \"Quel talent !\", \"Quelle chance !\" (Upper-intermediate), and the literary \"Que de\" + noun: \"Que de monde !\" (What a lot of people!), \"Que de souvenirs !\". In speech: \"Qu'est-ce qu'il y a comme monde !\"",
         ],
         examples: [
           { es: "Qu'est-ce qu'il fait chaud aujourd'hui !", en: "It's so hot today!" },

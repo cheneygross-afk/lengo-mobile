@@ -998,7 +998,7 @@ export const FR_C2_U28: Lesson[] = [
       {
         heading: "Distinctions, objections, and a classic text",
         body: [
-          "The argument progresses by distinctions and objections: \"il convient de distinguer la liberté d'indépendance de la liberté d'autonomie\", \"on pourrait objecter que...\", \"à cette objection, on peut répondre que...\", \"cette position, si séduisante soit-elle, se heurte à une difficulté\". The concessive \"si + adjective + soit-il / soit-elle\" (however... it may be) is a C2 classic.",
+          "The argument progresses by distinctions and objections: \"il convient de distinguer la liberté d'indépendance de la liberté d'autonomie\", \"on pourrait objecter que...\", \"à cette objection, on peut répondre que...\", \"cette position, si séduisante soit-elle, se heurte à une difficulté\". The concessive \"si + adjective + soit-il / soit-elle\" (however... it may be) is a Mastery classic.",
           "Rousseau opens \"Du contrat social\" (1762) with a famous paradox: \"L'homme est né libre, et partout il est dans les fers. Tel se croit le maître des autres, qui ne laisse pas d'être plus esclave qu'eux.\" The first sentence opposes nature (\"né libre\") and society (\"dans les fers\"); the second turns the paradox against the powerful. \"Tel... qui\" (a man who... / someone...) and \"ne pas laisser de\" (not to cease to, to be nonetheless) are classical constructions.",
           "Using it in a dissertation: \"Comme le souligne Rousseau dès l'ouverture du Contrat social, la domination ne libère pas le maître : celui qui se croit libre parce qu'il commande aux autres dépend en réalité d'eux.\" Quote briefly, then explain in your own words and connect to the problématique.",
         ],
@@ -1179,7 +1179,7 @@ export const FR_C2_U28: Lesson[] = [
       {
         heading: "The turn and the conclusion",
         body: [
-          "The argument turns on \"mais\" twice. The second \"mais\" introduces a concessive hypothesis: \"quand l'univers l'écraserait, l'homme serait encore plus noble que ce qui le tue\". \"Quand\" + conditional means even if (= \"même si l'univers l'écrasait\"), a structure you saw at C1 with \"quand bien même\". The conditional in both clauses marks a hypothesis pushed to the extreme.",
+          "The argument turns on \"mais\" twice. The second \"mais\" introduces a concessive hypothesis: \"quand l'univers l'écraserait, l'homme serait encore plus noble que ce qui le tue\". \"Quand\" + conditional means even if (= \"même si l'univers l'écrasait\"), a structure you saw at the Advanced level with \"quand bien même\". The conditional in both clauses marks a hypothesis pushed to the extreme.",
           "\"Puisque\" gives the reason as already admitted: man knows he dies, the universe doesn't. Then \"donc\" introduces the conclusion: \"Toute notre dignité consiste donc en la pensée.\" The structure is: weakness (concession), knowledge (reason), dignity (conclusion). Pascal's strategy is to concede everything on the side of force in order to win everything on the side of thought.",
           "To describe it: \"Pascal procède par concession\", \"il pousse l'hypothèse à l'extrême\", \"le connecteur « donc » introduit la conclusion\", \"l'argument repose sur une opposition entre la force et la pensée\".",
         ],
@@ -1405,7 +1405,7 @@ export const FR_C2_U28: Lesson[] = [
         body: [
           "The heart of a strong paragraph is a conceptual distinction. Here: \"Il convient de distinguer la libération, qui consiste à être délivré d'une contrainte, de la liberté, qui suppose la maîtrise de ses choix.\" Technique certainly brings liberation; whether it brings freedom depends on whether we master it or it masters us.",
           "Then a precise, analysed example, not a list: the GPS. \"Le GPS nous délivre de la peur de nous perdre ; mais à force de suivre ses instructions, nous perdons la capacité de nous orienter par nous-mêmes. Libérés d'un effort, nous devenons dépendants d'un outil.\" The example is explained, not just cited: what freedom does it bring, what does it take away?",
-          "Note the participle clause \"Libérés d'un effort, nous devenons dépendants\" (C1): a compact way to state a paradox. And \"à force de\" + infinitive (by dint of, through constantly doing).",
+          "Note the participle clause \"Libérés d'un effort, nous devenons dépendants\" (Advanced): a compact way to state a paradox. And \"à force de\" + infinitive (by dint of, through constantly doing).",
         ],
         examples: [
           { es: "Il convient de distinguer la libération de la liberté.", en: "We should distinguish liberation from freedom." },
@@ -1579,7 +1579,7 @@ export const FR_C2_U28: Lesson[] = [
     slug: "c2-vocab-movement-gesture",
     level: "FR-C2",
     number: 8,
-    title: "C2 Vocabulary: Movement and Gesture",
+    title: "Mastery Vocabulary: Movement and Gesture",
     summary: "Narrate movement precisely: déambuler, flâner, rôder, grouiller, s'esquiver, se tapir, se jucher, trébucher, se vautrer, s'étirer, se dandiner, hausser les sourcils, hausser les épaules.",
     duration: "16 min",
     sections: [

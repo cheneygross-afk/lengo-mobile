@@ -331,11 +331,11 @@ export const FR_B2_U27_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Vocabulary Review",
-    summary: "Mixed vocabulary from all the B2 word webs: art, politics, dreams, technology, the media, psychology, decisions, growth, debate and the stage.",
+    summary: "Mixed vocabulary from all the Upper-intermediate word webs: art, politics, dreams, technology, the media, psychology, decisions, growth, debate and the stage.",
     duration: "12 min",
     sections: [
       {
-        heading: "Recap: the B2 word webs",
+        heading: "Recap: the Upper-intermediate word webs",
         body: [
           "Art: \"une œuvre\", \"un roman\", \"une nouvelle\", \"un vernissage\". Politics: \"un projet de loi\", \"un sondage\", \"une grève\". Dreams: \"rêver de\", \"faire semblant\". Tech: \"les données\", \"un logiciel\", \"le numérique\". Media: \"un quotidien\", \"la une\", \"la rédaction\", \"une infox\".",
           "Mind: \"sensible\", \"susceptible\", \"déçu\", \"épanoui\". Decisions: \"prendre une décision\", \"renoncer à\". Growth: \"une formation\", \"réussir à\". Debate: \"avoir raison\", \"être d'accord avec\". Stage: \"une répétition\", \"un comédien\", \"la première\".",

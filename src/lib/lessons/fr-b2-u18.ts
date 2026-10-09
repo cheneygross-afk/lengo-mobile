@@ -93,7 +93,7 @@ export const FR_B2_U18: Lesson[] = [
       {
         heading: "After the trip: result or purpose?",
         body: [
-          "Two look-alike conjunctions: \"si bien que\" + indicative states a result that happened: \"le car est tombé en panne, si bien que nous sommes rentrés à minuit\". \"De sorte que\" + subjunctive states a purpose: \"le professeur a tout organisé de sorte que chacun puisse se reposer\". (De sorte que + indicative can also mean a result, but at B2 keep it for purpose.)",
+          "Two look-alike conjunctions: \"si bien que\" + indicative states a result that happened: \"le car est tombé en panne, si bien que nous sommes rentrés à minuit\". \"De sorte que\" + subjunctive states a purpose: \"le professeur a tout organisé de sorte que chacun puisse se reposer\". (De sorte que + indicative can also mean a result, but at Upper-intermediate keep it for purpose.)",
           "M. Fabre's final report mixes everything: \"Bien que le retour ait été difficile, les élèves sont ravis. Je remercie les parents, sans qui ce voyage n'aurait pas été possible.\"",
         ],
         examples: [
@@ -480,7 +480,7 @@ export const FR_B2_U18: Lesson[] = [
         heading: "The facts and the request",
         body: [
           "Present the facts in past tenses, precisely and calmly: \"Le lave-linge m'a été livré le 18 mars, soit deux semaines après la date prévue. Lors du déballage, j'ai constaté que la porte était fissurée.\" Useful words: \"livrer\" (deliver), \"la livraison\", \"constater\" (to note, observe), \"endommagé\" (damaged), \"le remboursement\" (refund), \"un échange\".",
-          "The request uses the polite conditional (B1) at its most formal: \"Je vous serais reconnaissant(e) de bien vouloir procéder à l'échange de l'appareil\" (I would be grateful if you could kindly...). \"Bien vouloir\" + infinitive is the formal 'kindly'.",
+          "The request uses the polite conditional (Intermediate) at its most formal: \"Je vous serais reconnaissant(e) de bien vouloir procéder à l'échange de l'appareil\" (I would be grateful if you could kindly...). \"Bien vouloir\" + infinitive is the formal 'kindly'.",
           "Then a firm, polite warning with à moins que + subjunctive or a si clause: \"À moins que vous ne trouviez une solution sous quinze jours, je me verrai dans l'obligation de saisir une association de consommateurs.\" (unless you find a solution within a fortnight, I shall be obliged to contact a consumer association).",
         ],
         examples: [
@@ -1516,7 +1516,7 @@ export const FR_B2_U18: Lesson[] = [
         heading: "The chatbot that talks like him",
         body: [
           "A start-up offers to create a chatbot from the dead person's messages, so that relatives can 'talk' to them. Clémence's brother tried it: \"Il m'a répondu comme si c'était vraiment papa.\" (comme si + imparfait). \"C'était comme s'il n'était jamais parti\" (comme si + plus-que-parfait).",
-          "Opinions on it call for the subjunctive after doubt and emotion (B1, B2 Unit 6): \"je ne pense pas que ce soit sain\", \"j'ai peur que ça empêche de faire son deuil\", \"je comprends qu'on ait envie d'y croire\", versus the indicative after certainty: \"je suis sûre que c'est une illusion\".",
+          "Opinions on it call for the subjunctive after doubt and emotion (Intermediate, Upper-intermediate Unit 6): \"je ne pense pas que ce soit sain\", \"j'ai peur que ça empêche de faire son deuil\", \"je comprends qu'on ait envie d'y croire\", versus the indicative after certainty: \"je suis sûre que c'est une illusion\".",
         ],
         examples: [
           { es: "Il m'a répondu comme si c'était vraiment papa.", en: "It answered me as if it were really Dad." },
@@ -2134,7 +2134,7 @@ export const FR_B2_U18: Lesson[] = [
         heading: "Doubts and regrets",
         body: [
           "Sandrine hesitates. Her fears use avoir peur que / craindre que + subjunctive (\"j'ai peur qu'on me licencie\"), and her regrets the conditionnel passé: \"j'aurais dû signaler le problème plus tôt\", \"il aurait fallu que j'insiste\", \"si j'avais parlé en mars, Paulo n'aurait pas été blessé\".",
-          "A friend advises her with the conditional (B1): \"à ta place, je parlerais\", \"tu devrais contacter un avocat\", \"tu ferais mieux de tout noter\".",
+          "A friend advises her with the conditional (Intermediate): \"à ta place, je parlerais\", \"tu devrais contacter un avocat\", \"tu ferais mieux de tout noter\".",
         ],
         examples: [
           { es: "J'ai peur qu'on me licencie si je parle.", en: "I'm afraid they'll fire me if I speak up." },
@@ -2290,7 +2290,7 @@ export const FR_B2_U18: Lesson[] = [
     level: "FR-B2",
     number: 12,
     title: "Upper-Intermediate Vocabulary Practice, Part 8 of 10",
-    summary: "Test the B2 vocabulary from Units 17-18, lesson by lesson: the family estate, injury, heritage, the homework debate, complaints, digital grief, data ethics and whistle-blowing.",
+    summary: "Test the Upper-intermediate vocabulary from Units 17-18, lesson by lesson: the family estate, injury, heritage, the homework debate, complaints, digital grief, data ethics and whistle-blowing.",
     duration: "15 min",
     sections: [
       {

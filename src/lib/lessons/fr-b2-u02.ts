@@ -115,7 +115,7 @@ export const FR_B2_U02: Lesson[] = [
       {
         heading: "De + lequel = duquel, but usually dont",
         body: [
-          "\"De\" fuses too: \"duquel\", \"desquels\", \"desquelles\", and \"de laquelle\" in the feminine. But with a plain \"de\" (\"parler de\", \"avoir besoin de\", \"se souvenir de\") French prefers \"dont\", which you learned at B1: \"le livre dont je parle\", not \"le livre duquel je parle\".",
+          "\"De\" fuses too: \"duquel\", \"desquels\", \"desquelles\", and \"de laquelle\" in the feminine. But with a plain \"de\" (\"parler de\", \"avoir besoin de\", \"se souvenir de\") French prefers \"dont\", which you learned at the Intermediate level: \"le livre dont je parle\", not \"le livre duquel je parle\".",
           "\"Duquel\" is needed after compound prepositions ending in \"de\": \"près de\", \"à côté de\", \"en face de\", \"au milieu de\", \"autour de\", \"à cause de\", \"au sujet de\", \"au bord de\". \"Le parc près duquel j'habite\", \"la rivière au bord de laquelle on a pique-niqué\", \"les arbres autour desquels...\". \"Dont\" is impossible there.",
           "Quick test: if you can replace the whole preposition by just \"de\", use \"dont\". If the \"de\" is the end of a longer preposition, use \"duquel\".",
         ],

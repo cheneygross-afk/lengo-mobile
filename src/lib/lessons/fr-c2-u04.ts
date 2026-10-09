@@ -107,7 +107,7 @@ export const FR_C2_U04: Lesson[] = [
         body: [
           "\"Avoir d'autres chats à fouetter\" means to have more important things to do, bigger fish to fry. It is often used to dismiss something: \"Ses remarques ? J'ai d'autres chats à fouetter.\" The negative form is also common: \"il n'y a pas de quoi fouetter un chat\" (it's nothing to make a fuss about), a close relative of \"en faire tout un plat\".",
           "\"Mettre son grain de sel\" means to put in one's two cents, usually uninvited: \"Il faut toujours qu'elle mette son grain de sel\" (\"il faut que\" + subjunctive). The possessive agrees with the subject and is fixed in form: \"je mets mon grain de sel\", \"ils mettent leur grain de sel\". It is mildly critical; with a self-deprecating \"si je peux me permettre de mettre mon grain de sel\", you soften your own interruption.",
-          "Register summary for the unit: all the idioms in this lesson are \"familier\" or \"courant\". They are perfect among friends, at the family table and in relaxed workplaces, and out of place in a formal letter or in an exam essay unless quoted. Their frozen grammar is the real C2 test: a native ear instantly notices \"il a des autres chats à fouetter\" (it must be \"d'autres\").",
+          "Register summary for the unit: all the idioms in this lesson are \"familier\" or \"courant\". They are perfect among friends, at the family table and in relaxed workplaces, and out of place in a formal letter or in an exam essay unless quoted. Their frozen grammar is the real Mastery test: a native ear instantly notices \"il a des autres chats à fouetter\" (it must be \"d'autres\").",
         ],
         examples: [
           { es: "Désolé, j'ai d'autres chats à fouetter ce matin.", en: "Sorry, I've got bigger fish to fry this morning." },
@@ -489,7 +489,7 @@ export const FR_C2_U04: Lesson[] = [
         body: [
           "French speakers are very sensitive to register (\"le registre de langue\"): \"familier\", \"courant\" and \"soutenu\". Idioms are mostly familiar or courant, and each has a neutral counterpart. \"Se casser la tête\" (familiar: to rack one's brains, to go to a lot of trouble) corresponds to \"se donner du mal\" or \"se donner de la peine\" (courant), and to \"ne ménager aucun effort\" (soutenu).",
           "\"Ça me gonfle\" (familiar, fairly rude: it's getting on my nerves) corresponds to \"ça m'agace\" or \"cela m'agace\" (courant) and to \"cela m'importune\" or \"je trouve cela fâcheux\" (soutenu). \"Être à côté de la plaque\" (familiar: to be way off the mark) corresponds to \"faire fausse route\" or \"se tromper\" (courant), and to \"commettre une erreur d'appréciation\" (soutenu).",
-          "Notice the grammatical markers of register as well: \"ça\" vs \"cela\", dropped \"ne\" (\"je sais pas\") vs full negation, \"on\" vs \"nous\". An idiom placed in a sentence with \"cela\" and full negation will sound slightly comic, which some writers exploit on purpose. The point at C2 is to choose, not to avoid idioms altogether.",
+          "Notice the grammatical markers of register as well: \"ça\" vs \"cela\", dropped \"ne\" (\"je sais pas\") vs full negation, \"on\" vs \"nous\". An idiom placed in a sentence with \"cela\" and full negation will sound slightly comic, which some writers exploit on purpose. The point at the Mastery level is to choose, not to avoid idioms altogether.",
         ],
         examples: [
           { es: "Je me suis cassé la tête pour trouver un cadeau.", en: "I racked my brains to find a present." },
@@ -565,7 +565,7 @@ export const FR_C2_U04: Lesson[] = [
         heading: "Translating register as well as meaning",
         body: [
           "When you turn an idiom into neutral French, you must keep the meaning and the attitude. \"Il m'a pris la tête\" (familiar: he wound me up) becomes \"il m'a exaspéré\" or \"cette discussion m'a épuisé\", depending on whether the irritation or the fatigue matters most. \"Laisser tomber\" (to drop it) becomes \"renoncer\" or \"abandonner\". \"Ça ne casse pas trois pattes à un canard\" (it's nothing special) becomes \"c'est sans grand intérêt\" or \"c'est assez ordinaire\".",
-          "The reverse is just as useful: if a friend writes \"je suis exaspéré\", you can answer \"je comprends, il te prend la tête\". Matching your partner's register is a C2 social skill. Mirroring in the wrong direction (answering a friend's joke in soutenu) can sound sarcastic.",
+          "The reverse is just as useful: if a friend writes \"je suis exaspéré\", you can answer \"je comprends, il te prend la tête\". Matching your partner's register is a Mastery social skill. Mirroring in the wrong direction (answering a friend's joke in soutenu) can sound sarcastic.",
         ],
         examples: [
           { es: "Ce film ne casse pas trois pattes à un canard.", en: "That film is nothing to write home about." },
@@ -786,7 +786,7 @@ export const FR_C2_U04: Lesson[] = [
         heading: "Regional variants: Québec, Belgium, Switzerland",
         body: [
           "French is spoken across many countries, and everyday idioms differ. In Québec: \"avoir de la misère à\" means to have difficulty (\"j'ai de la misère à comprendre\"), not to be miserable; \"tiguidou\" means great, all good (\"c'est tiguidou\"); \"avoir de la broue dans le toupet\" means to be very busy; \"il fait frette\" means it is very cold. In Belgium: \"ça va, hein\" often closes a sentence and asks for agreement, and \"savoir\" is often used for \"pouvoir\" (\"tu sais me passer le sel ?\"); \"une fois\" is a famous Brussels filler (\"viens ici une fois\").",
-          "In Switzerland: \"ça joue\" means that works, that's fine (\"Mardi à 10 h, ça joue ?\" \"Ça joue !\"); \"il y a pas le feu au lac\" means there's no rush (a reference to Lake Geneva); \"septante\" and \"nonante\" replace \"soixante-dix\" and \"quatre-vingt-dix\" (also in Belgium). These variants are not errors: they are standard locally, and understanding them is part of C2 comprehension. Use them yourself only when speaking with people from the region, or you risk sounding like you are imitating them.",
+          "In Switzerland: \"ça joue\" means that works, that's fine (\"Mardi à 10 h, ça joue ?\" \"Ça joue !\"); \"il y a pas le feu au lac\" means there's no rush (a reference to Lake Geneva); \"septante\" and \"nonante\" replace \"soixante-dix\" and \"quatre-vingt-dix\" (also in Belgium). These variants are not errors: they are standard locally, and understanding them is part of Mastery comprehension. Use them yourself only when speaking with people from the region, or you risk sounding like you are imitating them.",
         ],
         examples: [
           { es: "J'ai de la misère à suivre quand ils parlent vite.", en: "I have trouble following when they talk fast." },
@@ -1405,7 +1405,7 @@ export const FR_C2_U04: Lesson[] = [
     slug: "c2-vocab-verbs-of-change",
     level: "FR-C2",
     number: 7,
-    title: "C2 Vocabulary: Verbs That Weaken, Strengthen or Correct",
+    title: "Mastery Vocabulary: Verbs That Weaken, Strengthen or Correct",
     summary: "Precise verbs for how something grows, weakens or is put right: pallier, atténuer, remédier à, saper, amoindrir, ébranler, accroître, consolider, conforter, dénaturer and se traduire par, with their constructions and the classic error \"pallier à\".",
     duration: "18 min",
     sections: [
@@ -1637,7 +1637,7 @@ export const FR_C2_U04: Lesson[] = [
       {
         heading: "Why collocations matter",
         body: [
-          "A collocation is a combination that native speakers prefer for no logical reason: English \"make a decision\", French \"prendre une décision\". A learner who says \"*faire une décision\" is perfectly understood, but the sentence sounds foreign at once. At C2, grammar is rarely the problem; collocations are. They are learned in blocks, like idioms, except that their meaning is transparent.",
+          "A collocation is a combination that native speakers prefer for no logical reason: English \"make a decision\", French \"prendre une décision\". A learner who says \"*faire une décision\" is perfectly understood, but the sentence sounds foreign at once. At the Mastery level, grammar is rarely the problem; collocations are. They are learned in blocks, like idioms, except that their meaning is transparent.",
           "Core pairs: \"prendre une décision\", \"prendre une mesure\", \"prendre rendez-vous\" (no article), \"poser une question\" (never \"*demander une question\"), \"faire un effort\", \"faire une erreur\" (courant) vs \"commettre une erreur\" (more formal; also \"commettre un crime, une faute\"), \"jouer un rôle\" (also figuratively: \"le climat joue un rôle déterminant\"), \"tirer une conclusion\" or \"tirer des leçons\" (\"de\" quelque chose).",
           "Social and financial pairs: \"engager la conversation\" or \"entamer la conversation\" (to start a conversation), \"nouer des liens\" or \"tisser des liens\" (to form ties), \"contracter des dettes\" (to run up debts), also \"contracter une maladie\", \"contracter un emprunt\", \"contracter mariage\" (legal). \"Rendre visite à quelqu'un\" (not \"visiter\", which is for places), \"rendre service\", \"rendre hommage\".",
         ],

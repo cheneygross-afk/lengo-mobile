@@ -995,7 +995,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
         heading: "Recap: a review that weighs pros and cons",
         body: [
           "A review balances: \"certes, le son était trop fort ; cependant, l'énergie du groupe était irrésistible\". It explains (\"car\", \"comme\"), adds (\"de plus\", \"en outre\"), compares (\"en revanche\") and concludes (\"bref\", \"en somme\").",
-          "To highlight what struck you, use the B1 frame \"ce qui m'a plu, c'est...\" / \"ce que j'ai aimé, c'est...\" (more emphasis structures come in Unit 19). The concert: the band Les Lumières at the Olympia in Paris.",
+          "To highlight what struck you, use the Intermediate frame \"ce qui m'a plu, c'est...\" / \"ce que j'ai aimé, c'est...\" (more emphasis structures come in Unit 19). The concert: the band Les Lumières at the Olympia in Paris.",
         ],
         examples: [
           { es: "Certes, le son était trop fort ; cependant, l'énergie du groupe était irrésistible.", en: "Admittedly, the sound was too loud; the band's energy, however, was irresistible." },
@@ -1107,7 +1107,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
         source: "It was the drummer who impressed me the most.",
         answer: "C'est le batteur qui m'a le plus impressionné.",
         altAnswers: ["C'est le batteur qui m'a le plus impressionnée.", "C'était le batteur qui m'a le plus impressionné.", "C'était le batteur qui m'a le plus impressionnée."],
-        explanation: "\"C'est... qui\" highlights the subject (B1 Unit 16).",
+        explanation: "\"C'est... qui\" highlights the subject (Intermediate Unit 16).",
       },
       {
         type: "translate",

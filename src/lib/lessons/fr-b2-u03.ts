@@ -873,7 +873,7 @@ export const FR_B2_U03: Lesson[] = [
         heading: "Quand + future for future actions",
         body: [
           "After learning \"avant que\" + subjunctive, it's tempting to put every time clause in the subjunctive. Don't: \"quand\", \"lorsque\", \"dès que\", \"aussitôt que\", \"une fois que\", \"pendant que\" take the indicative. They introduce a moment that is treated as real.",
-          "The second trap is the tense. English says 'when I arrive, I'll call you' with a present after 'when'. French is logical: the arrival is in the future, so it goes in the future: \"Quand j'arriverai, je t'appellerai.\" You met this at B1; at B2 it must be automatic.",
+          "The second trap is the tense. English says 'when I arrive, I'll call you' with a present after 'when'. French is logical: the arrival is in the future, so it goes in the future: \"Quand j'arriverai, je t'appellerai.\" You met this at the Intermediate level; at the Upper-intermediate level it must be automatic.",
           "\"Lorsque\" is a more formal \"quand\". For habits and general truths, the present is fine: \"Quand il pleut, je prends le bus.\"",
         ],
         examples: [
@@ -906,7 +906,7 @@ export const FR_B2_U03: Lesson[] = [
         heading: "Dès que, aussitôt que, une fois que",
         body: [
           "\"Dès que\" and \"aussitôt que\" mean 'as soon as'; \"une fois que\" means 'once'. They follow the same rule: indicative, future for a future action. \"Dès que j'aurai la réponse, je te le dirai.\"",
-          "When one action must be completed before the other, use the futur antérieur (B1): \"Dès que j'aurai fini, je t'aiderai\" (as soon as I've finished). English says 'I've finished'; French says 'I will have finished'.",
+          "When one action must be completed before the other, use the futur antérieur (Intermediate): \"Dès que j'aurai fini, je t'aiderai\" (as soon as I've finished). English says 'I've finished'; French says 'I will have finished'.",
         ],
         examples: [
           { es: "Dès que j'aurai la réponse, je te le dirai.", en: "As soon as I have the answer, I'll tell you." },
@@ -1766,7 +1766,7 @@ export const FR_B2_U03: Lesson[] = [
       {
         heading: "Même s'il pleut: a real possibility",
         body: [
-          "\"Même s'il pleut, on sort\" can mean the same as \"bien qu'il pleuve\" (it's raining, we're going out anyway), but it can also cover a real possibility in the future: \"Même s'il pleut demain, on ira à la plage.\" The present after \"si\" works like the open \"si\"-clauses of B1.",
+          "\"Même s'il pleut, on sort\" can mean the same as \"bien qu'il pleuve\" (it's raining, we're going out anyway), but it can also cover a real possibility in the future: \"Même s'il pleut demain, on ira à la plage.\" The present after \"si\" works like the open \"si\"-clauses of the Intermediate level.",
           "Rule of thumb: for a possible future event, use \"même si\" + present (never the future, never the subjunctive).",
         ],
         examples: [
@@ -1797,7 +1797,7 @@ export const FR_B2_U03: Lesson[] = [
       {
         heading: "Même s'il pleuvait: a hypothesis",
         body: [
-          "To imagine an unreal or unlikely situation, combine \"même si\" with the imparfait and the conditional, exactly like \"si\" + imparfait at B1: \"Même s'il pleuvait, on sortirait\" (even if it were raining, we'd go out). Unit 7 will develop this in depth.",
+          "To imagine an unreal or unlikely situation, combine \"même si\" with the imparfait and the conditional, exactly like \"si\" + imparfait at the Intermediate level: \"Même s'il pleuvait, on sortirait\" (even if it were raining, we'd go out). Unit 7 will develop this in depth.",
           "Compare the three: \"Bien qu'il pleuve, on sort\" (fact). \"Même s'il pleut, on sortira\" (possible). \"Même s'il pleuvait, on sortirait\" (hypothetical).",
           "\"Même si\" + imparfait also expresses strong determination: \"Même si tu me payais, je ne le ferais pas\" (even if you paid me, I wouldn't do it).",
         ],

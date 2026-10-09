@@ -1214,7 +1214,7 @@ export const FR_B2_U07: Lesson[] = [
         heading: "Si seulement: the wish with a si-clause",
         body: [
           "\"Si seulement\" + imparfait (if only) expresses a wish about the present that isn't true: \"si seulement j'avais plus de temps !\". It's a si-clause without a result, so it takes the imparfait, like any unreal si-clause.",
-          "For a regret about the past, \"si seulement\" takes the plus-que-parfait, as you saw at B1: \"si seulement j'avais su !\" (if only I'd known!).",
+          "For a regret about the past, \"si seulement\" takes the plus-que-parfait, as you saw at the Intermediate level: \"si seulement j'avais su !\" (if only I'd known!).",
         ],
         examples: [
           { es: "Si seulement j'avais plus de temps !", en: "If only I had more time!" },

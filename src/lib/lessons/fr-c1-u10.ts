@@ -59,7 +59,7 @@ export const FR_C1_U10: Lesson[] = [
         heading: "D'une part... d'autre part: two sides of the same coin",
         body: [
           "\"D'une part... d'autre part\" presents two points that together support the same argument or describe two aspects of one thing: \"Ce projet est risqué, d'une part parce qu'il coûte cher, d'autre part parce que les délais sont trop courts.\" Both halves push in the same direction.",
-          "This is the trap: English 'on the one hand... on the other hand' usually introduces a contrast. When you want to oppose two things, French uses \"d'un côté... de l'autre\" or \"en revanche\" / \"par contre\" (B2): \"D'un côté, le salaire est intéressant ; de l'autre, le trajet est épuisant.\" Using \"d'autre part\" for a contrast is one of the most frequent marker errors in English speakers' essays.",
+          "This is the trap: English 'on the one hand... on the other hand' usually introduces a contrast. When you want to oppose two things, French uses \"d'un côté... de l'autre\" or \"en revanche\" / \"par contre\" (Upper-intermediate): \"D'un côté, le salaire est intéressant ; de l'autre, le trajet est épuisant.\" Using \"d'autre part\" for a contrast is one of the most frequent marker errors in English speakers' essays.",
           "\"D'autre part\" can also stand alone, meaning 'moreover, besides': \"D'autre part, je vous signale que la salle sera fermée lundi.\" Its role is always to add, never to oppose.",
         ],
         examples: [
@@ -241,9 +241,9 @@ export const FR_C1_U10: Lesson[] = [
       {
         heading: "Nuancing: cela dit, toutefois, néanmoins",
         body: [
-          "A C1 speaker rarely states anything flatly. After a claim, French adds a restriction with \"cela dit\" / \"ceci dit\" (that said), \"toutefois\" (however) or \"néanmoins\" (nevertheless). \"Cela dit\" is the most versatile: it works in conversation and in writing, and it signals that you are about to qualify what you've just said: \"Le film est un peu long. Cela dit, la fin est magnifique.\"",
+          "An Advanced speaker rarely states anything flatly. After a claim, French adds a restriction with \"cela dit\" / \"ceci dit\" (that said), \"toutefois\" (however) or \"néanmoins\" (nevertheless). \"Cela dit\" is the most versatile: it works in conversation and in writing, and it signals that you are about to qualify what you've just said: \"Le film est un peu long. Cela dit, la fin est magnifique.\"",
           "\"Ceci dit\" is used just as often in practice, though purists prefer \"cela dit\" because the thing said is behind you (cela points back, ceci forward). In a DALF essay, \"cela dit\" is the safe choice.",
-          "\"Toutefois\" and \"néanmoins\", which you met at B2, are more formal and can sit mid-sentence: \"Il convient toutefois de rester prudent.\" \"Néanmoins\" carries a stronger sense of 'in spite of that': \"Le risque est réel ; nous avons néanmoins décidé de continuer.\"",
+          "\"Toutefois\" and \"néanmoins\", which you met at the Upper-intermediate level, are more formal and can sit mid-sentence: \"Il convient toutefois de rester prudent.\" \"Néanmoins\" carries a stronger sense of 'in spite of that': \"Le risque est réel ; nous avons néanmoins décidé de continuer.\"",
         ],
         examples: [
           { es: "Le restaurant est cher. Cela dit, la cuisine est exceptionnelle.", en: "The restaurant is expensive. That said, the food is exceptional." },
@@ -465,7 +465,7 @@ export const FR_C1_U10: Lesson[] = [
         heading: "From blunt to balanced: adding a 'but'",
         body: [
           "In French professional and academic culture, a blunt statement is often heard as naive or aggressive. The transformation is simple: keep the claim, then add a restriction introduced by \"cela dit\", \"toutefois\" or \"néanmoins\". \"Ce projet est mauvais\" becomes \"Ce projet présente des faiblesses. Cela dit, certaines idées méritent d'être conservées.\"",
-          "Often you also soften the first statement itself: replace \"mauvais\" with \"perfectible\", \"discutable\" or \"présente des faiblesses\"; replace \"c'est faux\" with \"ce n'est pas tout à fait exact\". Combined with the softening subjunctive from Unit 1 (\"je ne suis pas sûr que ce soit...\"), this is how a C1 speaker disagrees.",
+          "Often you also soften the first statement itself: replace \"mauvais\" with \"perfectible\", \"discutable\" or \"présente des faiblesses\"; replace \"c'est faux\" with \"ce n'est pas tout à fait exact\". Combined with the softening subjunctive from Unit 1 (\"je ne suis pas sûr que ce soit...\"), this is how an Advanced speaker disagrees.",
           "Each example below shows the blunt version first, then the nuanced one.",
         ],
         examples: [
@@ -891,8 +891,8 @@ export const FR_C1_U10: Lesson[] = [
       {
         heading: "Cause in formal French: étant donné que, dans la mesure où, en raison de",
         body: [
-          "Beyond \"parce que\", \"car\" and \"puisque\" (B2), formal French has a set of cause markers that give a text its argumentative texture. \"Étant donné que\" (given that) and \"vu que\" (seeing that) present a known, uncontested cause; \"vu que\" is more conversational. Both take the indicative. Their noun forms are \"étant donné\" + noun and \"vu\" + noun: \"étant donné les circonstances\", \"vu la situation\".",
-          "\"Dans la mesure où\" is the C1 marker par excellence. It means 'insofar as' (a limited cause: to the extent that) or simply 'since, given that': \"Nous ne pouvons pas accepter votre offre, dans la mesure où elle ne respecte pas le cahier des charges.\" It takes the indicative (or the conditional for a hypothesis).",
+          "Beyond \"parce que\", \"car\" and \"puisque\" (Upper-intermediate), formal French has a set of cause markers that give a text its argumentative texture. \"Étant donné que\" (given that) and \"vu que\" (seeing that) present a known, uncontested cause; \"vu que\" is more conversational. Both take the indicative. Their noun forms are \"étant donné\" + noun and \"vu\" + noun: \"étant donné les circonstances\", \"vu la situation\".",
+          "\"Dans la mesure où\" is the Advanced marker par excellence. It means 'insofar as' (a limited cause: to the extent that) or simply 'since, given that': \"Nous ne pouvons pas accepter votre offre, dans la mesure où elle ne respecte pas le cahier des charges.\" It takes the indicative (or the conditional for a hypothesis).",
           "With a noun, use \"en raison de\" (owing to, because of: the voice of official announcements, \"en raison d'un incident technique\") or \"du fait de\" (due to, as a result of): \"du fait de la grève, les cours sont annulés\". \"Faute de\" (for lack of) gives a missing cause: \"faute de temps\", \"faute de candidats\", or + infinitive \"faute d'avoir réservé\".",
         ],
         examples: [
@@ -937,7 +937,7 @@ export const FR_C1_U10: Lesson[] = [
         heading: "Consequence: si bien que, de sorte que, d'où",
         body: [
           "\"Si bien que\" (so that, with the result that) introduces a factual result and always takes the indicative: \"Il a neigé toute la nuit, si bien que les routes étaient bloquées.\" It never expresses a purpose.",
-          "\"De sorte que\" is ambiguous, and the mood decides. With the indicative, it is a result like si bien que: \"il a parlé fort, de sorte que tout le monde l'a entendu\". With the subjunctive, it is a purpose ('so that, in order that'): \"parle fort, de sorte que tout le monde t'entende\". You met this at B2; at C1, use it consciously.",
+          "\"De sorte que\" is ambiguous, and the mood decides. With the indicative, it is a result like si bien que: \"il a parlé fort, de sorte que tout le monde l'a entendu\". With the subjunctive, it is a purpose ('so that, in order that'): \"parle fort, de sorte que tout le monde t'entende\". You met this at the Upper-intermediate level; at the Advanced level, use it consciously.",
           "\"D'où\" + noun (hence, whence) is a compact, elegant consequence: \"Les loyers ont flambé, d'où l'exode des familles vers la périphérie.\" It's the perfect marker for nominal style (Unit 3). \"D'où le fait que\" is heavy; prefer \"d'où\" + noun or \"c'est pourquoi\" + clause.",
         ],
         examples: [
@@ -1548,7 +1548,7 @@ export const FR_C1_U10: Lesson[] = [
       {
         heading: "Actuellement, éventuellement",
         body: [
-          "Two classic false friends survive into C1 writing. \"Actuellement\" means currently, at present: \"elle travaille actuellement à Bruxelles\". English 'actually' (in fact) is \"en fait\" or \"en réalité\". A sentence like \"*Actuellement, je ne suis pas d'accord\" intended as 'Actually, I disagree' tells a French reader that you disagree at the moment, but maybe not tomorrow.",
+          "Two classic false friends survive into Advanced writing. \"Actuellement\" means currently, at present: \"elle travaille actuellement à Bruxelles\". English 'actually' (in fact) is \"en fait\" or \"en réalité\". A sentence like \"*Actuellement, je ne suis pas d'accord\" intended as 'Actually, I disagree' tells a French reader that you disagree at the moment, but maybe not tomorrow.",
           "\"Éventuellement\" means possibly, if need be, should the occasion arise: \"je pourrais éventuellement vous dépanner\" (I could possibly help you out). English 'eventually' (in the end) is \"finalement\", \"à terme\" (in the long run) or \"finir par\" + infinitive. The adjective \"éventuel\" works the same way: \"les éventuels retards\" means any possible delays.",
           "Each example pair shows the learner's error and the corrected sentence.",
         ],

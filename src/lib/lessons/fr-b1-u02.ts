@@ -107,7 +107,7 @@ export const FR_B1_U02: Lesson[] = [
       {
         heading: "Il faut que vs il faut + infinitive",
         body: [
-          "You learned \"il faut\" + infinitive at A2: \"il faut partir\" (we/one must leave). It states a general necessity without naming who. As soon as you name the person, French switches to \"que\" + subjunctive: \"il faut que tu partes\", \"il faut que Manon parte\".",
+          "You learned \"il faut\" + infinitive at the Elementary level: \"il faut partir\" (we/one must leave). It states a general necessity without naming who. As soon as you name the person, French switches to \"que\" + subjunctive: \"il faut que tu partes\", \"il faut que Manon parte\".",
           "In the negative, \"il ne faut pas que tu partes\" means you mustn't leave, not you don't have to. That's an important false friend with English: you don't have to is \"tu n'es pas obligé de\" or \"ce n'est pas la peine de\".",
         ],
         examples: [

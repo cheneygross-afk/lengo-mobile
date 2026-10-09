@@ -2432,7 +2432,7 @@ export const FR_A2_U19: Lesson[] = [
         body: [
           "To finish: 'In September, I changed jobs: now I work for a start-up. I've been living in Paris since October. Next year, I'll learn Spanish and I'll go to Mexico.'",
           "\"Changer de travail\" (no article, as with \"changer de chambre\"). The new situation is present, with \"depuis\" for how long: \"j'habite à Paris depuis octobre\". The plans are futur simple: \"j'apprendrai\", \"j'irai\".",
-          "Notice how one short text uses four time frames: imparfait, passé composé, present and future. Choosing the right one for each sentence is the real skill of A2.",
+          "Notice how one short text uses four time frames: imparfait, passé composé, present and future. Choosing the right one for each sentence is the real skill of the Elementary level.",
         ],
         examples: [
           { es: "En septembre, j'ai changé de travail.", en: "In September, I changed jobs." },

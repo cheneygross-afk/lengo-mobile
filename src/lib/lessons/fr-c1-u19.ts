@@ -9,7 +9,7 @@ export const FR_C1_U19: Lesson[] = [
     level: "FR-C1",
     number: 1,
     title: "Advanced Challenge: The Big Error Hunt",
-    summary: "A learner's opinion piece on a Lyon cultural festival, with mixed C1 errors in mood, prepositions, agreement and register to find and correct.",
+    summary: "A learner's opinion piece on a Lyon cultural festival, with mixed Advanced errors in mood, prepositions, agreement and register to find and correct.",
     duration: "20 min",
     sections: [
       {
@@ -52,7 +52,7 @@ export const FR_C1_U19: Lesson[] = [
         body: [
           "Second paragraph: \"Le succès du festival dépend sur les bénévoles, qui participent dans l'organisation depuis vingt ans. Les décisions que la mairie a pris l'an dernier ont été critiqué. Quelque soit le prix des billets, les spectateurs reviennent.\"",
           "Prepositions (Unit 9): \"dépendre de\" (not sur, a calque of depend on), \"participer à\" (not dans). Agreement: with avoir, the past participle agrees with a direct object placed before it: \"les décisions que la mairie a prises\"; with être, it agrees with the subject: \"ont été critiquées\". And \"quel que soit\" is two words, agreeing with its subject: \"quel que soit le prix\" (masculine singular); \"quelque soit\" in one word is a spelling error.",
-          "These errors are invisible to the ear (pris / prises differ, but critiqué / critiquées don't), which is why written French at C1 requires a final proofreading pass dedicated to agreements.",
+          "These errors are invisible to the ear (pris / prises differ, but critiqué / critiquées don't), which is why written French at Advanced requires a final proofreading pass dedicated to agreements.",
         ],
         examples: [
           { es: "Le succès du festival dépend des bénévoles.", en: "The festival's success depends on the volunteers." },
@@ -668,14 +668,14 @@ export const FR_C1_U19: Lesson[] = [
     level: "FR-C1",
     number: 4,
     title: "Advanced Challenge: The Subjunctive Without a Net",
-    summary: "Indicative or subjunctive across every trigger from B1 to C1: superlatives, que-fronting, concessives, universal formulas and verbs that change meaning with the mood.",
+    summary: "Indicative or subjunctive across every trigger from Intermediate to Advanced: superlatives, que-fronting, concessives, universal formulas and verbs that change meaning with the mood.",
     duration: "20 min",
     sections: [
       {
         heading: "The core triggers, and their indicative twins",
         body: [
           "The subjunctive follows a logic: it marks what is wanted, feared, judged, doubted or not yet real, rather than asserted as fact. Will and necessity: \"vouloir que\", \"il faut que\", \"exiger que\". Emotion and judgement: \"être content que\", \"regretter que\", \"il est normal que\". Doubt: \"douter que\", \"ne pas penser que\", \"il est possible que\". Conjunctions of purpose, condition, time-before and concession: \"pour que\", \"à condition que\", \"avant que\", \"bien que\", \"sans que\".",
-          "The trap at C1 is the twins: expressions that look similar but take the indicative because they assert. \"Il est probable que\" + indicative vs \"il est possible que\" + subjunctive. \"Je pense que\" + indicative vs \"je ne pense pas que\" + subjunctive. \"Après que\" + indicative vs \"avant que\" + subjunctive. \"Même si\" + indicative vs \"bien que\" + subjunctive. \"Espérer que\" + indicative (hope looks forward with confidence) vs \"souhaiter que\" + subjunctive.",
+          "The trap at the Advanced level is the twins: expressions that look similar but take the indicative because they assert. \"Il est probable que\" + indicative vs \"il est possible que\" + subjunctive. \"Je pense que\" + indicative vs \"je ne pense pas que\" + subjunctive. \"Après que\" + indicative vs \"avant que\" + subjunctive. \"Même si\" + indicative vs \"bien que\" + subjunctive. \"Espérer que\" + indicative (hope looks forward with confidence) vs \"souhaiter que\" + subjunctive.",
           "Same subject? Then use the infinitive: \"Je veux partir\" (not \"je veux que je parte\"), \"avant de partir\", \"pour comprendre\".",
         ],
         examples: [
@@ -707,7 +707,7 @@ export const FR_C1_U19: Lesson[] = [
         ],
       },
       {
-        heading: "C1 triggers: superlatives, que-fronting, le fait que",
+        heading: "Advanced triggers: superlatives, que-fronting, le fait que",
         body: [
           "After a superlative or \"le seul\", \"l'unique\", \"le premier\", \"le dernier\", \"personne\", \"rien\" + relative clause, the subjunctive expresses a subjective evaluation: \"C'est le meilleur livre que j'aie lu\", \"Il n'y a personne qui sache le faire\". The indicative is kept for an objective, verifiable fact: \"C'est le premier coureur qui est arrivé\" (a recorded result).",
           "When a \"que\" clause opens the sentence, it takes the subjunctive, because it's presented as a topic, not an assertion: \"Qu'il soit compétent, personne n'en doute.\" \"Que tu viennes ou non, on part à huit heures.\" \"Le fait que\" + subjunctive when you evaluate (\"Le fait qu'il soit parti m'étonne\"), indicative when it simply states (\"Le fait qu'il est parti explique son absence\" is possible, though the subjunctive is increasingly the default).",
@@ -2480,7 +2480,7 @@ export const FR_C1_U19: Lesson[] = [
         body: [
           "A fourth message, from Dakar: \"On dit quoi, grand frère ? Tonton Amadou est arrivé, il te salue. Ce soir on va au maquis, présentement je suis à l'essencerie. Ma voiture est gâtée, il faut que je trouve un mécanicien.\" Markers: \"on dit quoi ?\" (what's up?), \"grand frère\", \"tonton\", \"tata\" as respectful address terms for older people who aren't relatives, \"le maquis\" (open-air restaurant, Côte d'Ivoire especially), \"présentement\" (right now), \"l'essencerie\" (petrol station, Senegal), \"gâté\" (broken), \"enjailler\" (to have fun, Ivorian), \"une go\" (a girl, girlfriend).",
           "Forms of address vary more than vocabulary. In much of francophone Africa, respect for age is marked by address terms rather than by vous alone: calling an older man \"tonton\" or \"papa\" is polite, not childish. Greetings are longer: asking after the family is part of the ritual.",
-          "The C1 skill is adaptation: understand all of these, and adjust your own French to the situation (vous with an older Belgian landlord, tu with a Montréal flatmate, \"grand frère\" for a friend's older brother in Abidjan), while keeping your own standard French. Imitating a variety you don't master can sound mocking; understanding it and responding naturally sounds respectful.",
+          "The Advanced skill is adaptation: understand all of these, and adjust your own French to the situation (vous with an older Belgian landlord, tu with a Montréal flatmate, \"grand frère\" for a friend's older brother in Abidjan), while keeping your own standard French. Imitating a variety you don't master can sound mocking; understanding it and responding naturally sounds respectful.",
         ],
         examples: [
           { es: "On dit quoi, grand frère ?", en: "What's up, big brother? (West Africa)" },
@@ -2609,7 +2609,7 @@ export const FR_C1_U19: Lesson[] = [
     slug: "c1-exit-test",
     level: "FR-C1",
     number: 13,
-    title: "Advanced Exit Test: Ready for C2?",
+    title: "Advanced Exit Test: Ready for the Mastery level?",
     summary: "A DALF C1-style exit test: a reading text, a listening-style transcript, synthèse and essai sentences, and grammar from across the whole level.",
     duration: "20 min",
     sections: [
@@ -2618,7 +2618,7 @@ export const FR_C1_U19: Lesson[] = [
         body: [
           "Read this editorial excerpt: \"Depuis 2017, le droit à la déconnexion est inscrit dans le Code du travail. Les entreprises de plus de cinquante salariés sont censées négocier les modalités selon lesquelles leurs employés peuvent ne pas répondre aux courriels en dehors de leurs horaires. Or, force est de constater que la loi est restée largement lettre morte. Selon une enquête récente, près d'un cadre sur deux consulterait ses messages professionnels pendant ses congés.\"",
           "\"Faut-il pour autant légiférer davantage ? Rien n'est moins sûr. Si la loi a le mérite de poser un principe, elle ne saurait à elle seule transformer des habitudes ancrées dans une culture de la disponibilité permanente. C'est moins d'une contrainte que d'un changement de management que viendra la solution, à condition que les dirigeants donnent eux-mêmes l'exemple.\"",
-          "Before the questions, notice the C1 features: \"être censé\", \"selon lesquelles\", \"force est de constater\", \"rester lettre morte\" (to remain a dead letter), the journalistic conditional \"consulterait\", \"pour autant\", \"rien n'est moins sûr\" (litotes: it's very doubtful), \"ne saurait\", the cleft \"c'est moins de... que de... que\", and \"à condition que\" + subjunctive.",
+          "Before the questions, notice the Advanced features: \"être censé\", \"selon lesquelles\", \"force est de constater\", \"rester lettre morte\" (to remain a dead letter), the journalistic conditional \"consulterait\", \"pour autant\", \"rien n'est moins sûr\" (litotes: it's very doubtful), \"ne saurait\", the cleft \"c'est moins de... que de... que\", and \"à condition que\" + subjunctive.",
         ],
         examples: [
           { es: "Le droit à la déconnexion est inscrit dans le Code du travail.", en: "The right to disconnect is written into the Labour Code." },
@@ -2703,7 +2703,7 @@ export const FR_C1_U19: Lesson[] = [
         body: [
           "Production: imagine a synthèse comparing the editorial and the interview. A model paragraph: \"Les deux documents s'accordent à dire que la loi sur la déconnexion reste peu appliquée. Alors que l'éditorialiste insiste sur les limites de l'outil législatif, le sociologue met en évidence le poids d'une culture de la disponibilité. Tous deux voient dans l'exemplarité des dirigeants la clé du changement.\" No opinion, reporting verbs, thematic comparison.",
           "And the essai's problématique and annonce: \"Dans quelle mesure le droit à la déconnexion peut-il protéger les salariés ? Nous verrons d'abord que la loi constitue une avancée indéniable, avant de montrer qu'elle ne saurait suffire sans une transformation des pratiques managériales.\"",
-          "If you can produce these sentences, read the editorial without a dictionary and catch the nuances in the transcript, you're ready for C2.",
+          "If you can produce these sentences, read the editorial without a dictionary and catch the nuances in the transcript, you're ready for the Mastery level.",
         ],
         examples: [
           { es: "Les deux documents s'accordent à dire que la loi reste peu appliquée.", en: "Both documents agree that the law is rarely applied." },
@@ -2830,7 +2830,7 @@ export const FR_C1_U19: Lesson[] = [
       {
         type: "dictation",
         audio: "Force est de constater que la loi est restée lettre morte.",
-        explanation: "\"Force est de constater que\" and \"rester lettre morte\": two C1 fixed expressions.",
+        explanation: "\"Force est de constater que\" and \"rester lettre morte\": two Advanced fixed expressions.",
       },
       {
         type: "speak",
@@ -2844,7 +2844,7 @@ export const FR_C1_U19: Lesson[] = [
 
 export const FR_C1_U19_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Final C1 task. You are an employee representative in a company in Lyon. Write a formal letter to the managing director (a woman) asking for a real right-to-disconnect policy: set out the situation with facts, argue for your proposal while conceding the company's constraints, propose concrete measures, and close with the correct formula. Show the full range of C1 French: subjunctive, concession, nominalization, a cleft or pseudo-cleft, hedging and precise connectors.",
+  prompt: "Final Advanced task. You are an employee representative in a company in Lyon. Write a formal letter to the managing director (a woman) asking for a real right-to-disconnect policy: set out the situation with facts, argue for your proposal while conceding the company's constraints, propose concrete measures, and close with the correct formula. Show the full range of Advanced French: subjunctive, concession, nominalization, a cleft or pseudo-cleft, hedging and precise connectors.",
   minWords: 200,
   maxWords: 300,
   rubric: [

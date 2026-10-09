@@ -102,7 +102,7 @@ export const FR_B2_U24: Lesson[] = [
       {
         heading: "Final sweep: false friends of the whole level",
         body: [
-          "The B2 false friends you must not miss: \"actuellement\" (currently), \"éventuellement\" (possibly), \"en effet\" (indeed, as a matter of fact), \"prétendre\" (to claim), \"assister à\" (to attend), \"rester\" (to stay), \"sensible\" (sensitive), \"une librairie\" (a bookshop), \"un collège\" (a secondary school), \"la monnaie\" (change, currency), \"rendre visite à\" (to visit a person).",
+          "The Upper-intermediate false friends you must not miss: \"actuellement\" (currently), \"éventuellement\" (possibly), \"en effet\" (indeed, as a matter of fact), \"prétendre\" (to claim), \"assister à\" (to attend), \"rester\" (to stay), \"sensible\" (sensitive), \"une librairie\" (a bookshop), \"un collège\" (a secondary school), \"la monnaie\" (change, currency), \"rendre visite à\" (to visit a person).",
           "And from this unit's themes: \"un roman\" (a novel), \"une nouvelle\" (a short story, also a piece of news), \"la politique\" (politics and policy).",
         ],
         examples: [
@@ -1611,7 +1611,7 @@ export const FR_B2_U24: Lesson[] = [
     level: "FR-B2",
     number: 10,
     title: "Thematic Review: Un Mentor Inattendu",
-    summary: "An old craftsman and a troubled teenager: expectations, change and second chances, told with the whole B2 toolkit.",
+    summary: "An old craftsman and a troubled teenager: expectations, change and second chances, told with the whole Upper-intermediate toolkit.",
     duration: "15 min",
     sections: [
       {

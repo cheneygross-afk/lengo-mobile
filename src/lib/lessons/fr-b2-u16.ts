@@ -24,7 +24,7 @@ export const FR_B2_U16: Lesson[] = [
     level: "FR-B2",
     number: 1,
     title: "Upper-Intermediate Vocabulary Practice, Part 7 of 10",
-    summary: "Test the B2 vocabulary of Units 15-16: services and repairs, old trades, verbs of change and the language of biographies.",
+    summary: "Test the Upper-intermediate vocabulary of Units 15-16: services and repairs, old trades, verbs of change and the language of biographies.",
     duration: "14 min",
     sections: [
       {
@@ -1260,7 +1260,7 @@ export const FR_B2_U16: Lesson[] = [
       {
         heading: "The full set",
         body: [
-          "Put together, one situation can produce all three: \"Ce professeur me faisait travailler dur\" (made me work hard), \"il me laissait choisir mes sujets\" (let me choose), \"et il m'a rendu passionné d'histoire\" (made me passionate about history). Being able to switch between them is a mark of B2 French.",
+          "Put together, one situation can produce all three: \"Ce professeur me faisait travailler dur\" (made me work hard), \"il me laissait choisir mes sujets\" (let me choose), \"et il m'a rendu passionné d'histoire\" (made me passionate about history). Being able to switch between them is a mark of Upper-intermediate French.",
         ],
         examples: [
           { es: "Ce professeur me faisait travailler dur.", en: "That teacher made me work hard." },

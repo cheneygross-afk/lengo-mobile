@@ -235,7 +235,7 @@ export const FR_B2_U11: Lesson[] = [
       {
         heading: "Présent → imparfait",
         body: [
-          "The most frequent shift. Take the nous form of the present, drop -ons, add the imparfait endings, exactly as you learned at A2: \"pouvons\" → \"pouvait\", \"savons\" → \"savait\", \"allons\" → \"allait\", \"faisons\" → \"faisait\". Only \"être\" is irregular: \"était\".",
+          "The most frequent shift. Take the nous form of the present, drop -ons, add the imparfait endings, exactly as you learned at the Elementary level: \"pouvons\" → \"pouvait\", \"savons\" → \"savait\", \"allons\" → \"allait\", \"faisons\" → \"faisait\". Only \"être\" is irregular: \"était\".",
           "Impersonal verbs shift too: \"« Il faut partir » → il a dit qu'il fallait partir\"; \"« Il pleut » → elle a dit qu'il pleuvait\".",
           "\"Aller\" + infinitive (the near future) shifts to the imparfait of aller: \"« Je vais déménager » → il a dit qu'il allait déménager\". This is very common in everyday reports.",
         ],
@@ -1628,7 +1628,7 @@ export const FR_B2_U11: Lesson[] = [
         heading: "Choosing and explaining",
         body: [
           "One test decides: is the original sentence a statement or an imperative? \"« Je pars »\" (statement) → \"il m'a dit qu'il partait\". \"« Pars ! »\" (imperative) → \"il m'a dit de partir\". The two can be very close in form but opposite in meaning: in the first, he leaves; in the second, I do.",
-          "You may also meet \"dire que\" + subjunctive for an order (B1): \"il a dit que tout le monde soit là à huit heures\". It's used when the order concerns a third person and sounds more formal. \"Dire de\" is by far the more common.",
+          "You may also meet \"dire que\" + subjunctive for an order (Intermediate): \"il a dit que tout le monde soit là à huit heures\". It's used when the order concerns a third person and sounds more formal. \"Dire de\" is by far the more common.",
           "Other verbs of request follow \"dire de\": \"demander de\", \"conseiller de\", \"ordonner de\", \"interdire de\", \"rappeler de\" (to remind): Unit 12 develops them.",
         ],
         examples: [
@@ -2016,7 +2016,7 @@ export const FR_B2_U11: Lesson[] = [
         heading: "Summarising and attributing: selon lui, d'après elle",
         body: [
           "Good reported speech rarely repeats every word. You summarise with a reporting verb + noun: \"Il a annoncé sa démission\" (instead of il a dit qu'il démissionnait), \"elle a refusé l'invitation\", \"ils se sont plaints du bruit\".",
-          "In writing, especially in the press, you attribute a claim with \"selon\" or \"d'après\" + person: \"Selon le maire, le projet coûtera dix millions.\" When the writer wants to distance themselves from the claim, French uses the conditional of hearsay (B1): \"D'après la police, le suspect serait entré par la fenêtre\" (the suspect allegedly came in through the window). With a past event, the conditionnel passé.",
+          "In writing, especially in the press, you attribute a claim with \"selon\" or \"d'après\" + person: \"Selon le maire, le projet coûtera dix millions.\" When the writer wants to distance themselves from the claim, French uses the conditional of hearsay (Intermediate): \"D'après la police, le suspect serait entré par la fenêtre\" (the suspect allegedly came in through the window). With a past event, the conditionnel passé.",
           "\"Selon lui / elle\", \"d'après eux\": the stressed pronoun follows the preposition.",
         ],
         examples: [

@@ -14,7 +14,7 @@ export const FR_A2_U09: Lesson[] = [
       {
         heading: "The extra pronoun: je me lève, tu te lèves",
         body: [
-          "In A1 you met \"je me lève\" and \"je me couche\" as set phrases. Now for the system behind them. A pronominal verb is a verb that carries a second pronoun, and that pronoun points back at the subject: \"je me lave\" is literally 'I wash myself'. The infinitive is listed with \"se\": \"se lever\", \"se laver\", \"se coucher\".",
+          "In the Beginner level you met \"je me lève\" and \"je me couche\" as set phrases. Now for the system behind them. A pronominal verb is a verb that carries a second pronoun, and that pronoun points back at the subject: \"je me lave\" is literally 'I wash myself'. The infinitive is listed with \"se\": \"se lever\", \"se laver\", \"se coucher\".",
           "The pronoun changes with the person, and it always matches the subject: \"je me\", \"tu te\", \"il se\", \"elle se\", \"on se\", \"nous nous\", \"vous vous\", \"ils se\", \"elles se\". The verb itself is conjugated exactly as usual: \"se laver\" is a regular -er verb, so \"je me lave, nous nous lavons, ils se lavent\".",
           "English hides these verbs in many ways: 'get up' (\"se lever\"), 'wake up' (\"se réveiller\"), 'get dressed' (\"s'habiller\"), 'go to bed' (\"se coucher\"), 'have a shower' (\"se doucher\"), or nothing at all ('I shave' is \"je me rase\"). So don't look for 'myself' in the English: learn the verb with its \"se\".",
         ],
@@ -256,7 +256,7 @@ export const FR_A2_U09: Lesson[] = [
         heading: "Spelling-change verbs: je me lève, nous nous levons",
         body: [
           "\"Se lever\" and \"se promener\" add a grave accent when the next syllable is silent: \"je me lève, tu te lèves, il se lève, ils se lèvent\", but \"nous nous levons, vous vous levez\" with no accent, because there the ending is pronounced.",
-          "\"S'appeler\" does the same job with a double l instead of an accent: \"je m'appelle, tu t'appelles, il s'appelle, ils s'appellent\", but \"nous nous appelons, vous vous appelez\". The pattern is the same 'boot' as in A1 \"acheter\" and \"appeler\": four forms change, nous and vous don't.",
+          "\"S'appeler\" does the same job with a double l instead of an accent: \"je m'appelle, tu t'appelles, il s'appelle, ils s'appellent\", but \"nous nous appelons, vous vous appelez\". The pattern is the same 'boot' as in Beginner \"acheter\" and \"appeler\": four forms change, nous and vous don't.",
           "Listen for it too: \"lève\" has an open è sound, while in \"levons\" the e is almost silent ('lvon').",
         ],
         examples: [
@@ -1084,7 +1084,7 @@ export const FR_A2_U09: Lesson[] = [
         heading: "No agreement with parler, téléphoner, écrire",
         body: [
           "Here's a subtlety worth recognising. With verbs that take \"à\" + person (Unit 8: \"parler à\", \"téléphoner à\", \"écrire à\", \"dire à\"), the reciprocal pronoun means 'to each other', not 'each other', and then the participle does not agree: \"ils se sont parlé\", \"elles se sont téléphoné\", \"nous nous sommes écrit\".",
-          "Compare: \"ils se sont vus\" (voir quelqu'un: direct, agrees) vs \"ils se sont parlé\" (parler à quelqu'un: indirect, no agreement). You don't hear the difference, so it only matters in writing. At A2, recognising it is enough.",
+          "Compare: \"ils se sont vus\" (voir quelqu'un: direct, agrees) vs \"ils se sont parlé\" (parler à quelqu'un: indirect, no agreement). You don't hear the difference, so it only matters in writing. At the Elementary level, recognising it is enough.",
         ],
         examples: [
           { es: "Ils se sont parlé pendant des heures.", en: "They talked to each other for hours." },

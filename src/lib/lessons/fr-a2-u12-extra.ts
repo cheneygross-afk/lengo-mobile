@@ -1063,7 +1063,7 @@ export const FR_A2_U12_EXTRA: Lesson[] = [
         source: "Is there a pool? Yes, there's a pool.",
         answer: "Il y a une piscine ? Oui, il y a une piscine.",
         altAnswers: ["Est-ce qu'il y a une piscine ? Oui, il y a une piscine.", "Y a-t-il une piscine ? Oui, il y a une piscine."],
-        explanation: "\"Il y a\": the y you've known since A1.",
+        explanation: "\"Il y a\": the y you've known since the Beginner level.",
       },
       {
         type: "translate",

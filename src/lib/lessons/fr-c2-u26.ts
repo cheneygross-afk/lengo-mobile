@@ -550,7 +550,7 @@ export const FR_C2_U26: Lesson[] = [
         body: [
           "Debates about technology need verbs that weigh benefits and risks: \"présenter des atouts / des risques\", \"soulever des questions éthiques\", \"faire peser une menace sur\", \"encadrer\" (to regulate: \"encadrer l'usage de l'IA\"), \"réglementer\", \"déléguer à une machine\", \"automatiser\", \"supplanter\" (to replace, take the place of).",
           "An original passage in the style of a newspaper column: \"L'intelligence artificielle n'est ni la panacée que vantent ses promoteurs ni l'apocalypse que redoutent ses détracteurs. Elle soulève toutefois des questions éthiques que le législateur ne peut ignorer : qui est responsable lorsqu'un algorithme se trompe ? Peut-on déléguer à une machine une décision qui engage la vie d'une personne ? Encadrer sans freiner l'innovation : tel est le défi.\"",
-          "Notice \"ni... ni\" to reject two extremes, the relative clause with inversion (\"que vantent ses promoteurs\"), the rhetorical questions, and the closing \"tel est le défi\" (that is the challenge), a C1 inversion that ends paragraphs elegantly.",
+          "Notice \"ni... ni\" to reject two extremes, the relative clause with inversion (\"que vantent ses promoteurs\"), the rhetorical questions, and the closing \"tel est le défi\" (that is the challenge), an Advanced inversion that ends paragraphs elegantly.",
         ],
         examples: [
           { es: "L'IA n'est ni une panacée ni une apocalypse.", en: "AI is neither a cure-all nor an apocalypse." },
@@ -1586,7 +1586,7 @@ export const FR_C2_U26: Lesson[] = [
     slug: "c2-vocab-people-landscapes",
     level: "FR-C2",
     number: 8,
-    title: "C2 Vocabulary: Describing People and Landscapes",
+    title: "Mastery Vocabulary: Describing People and Landscapes",
     summary: "The adjectives of literary description: émacié, sec, trapu, voûté, frais, flétri, fané, diaphane, basané for people; ombragé, touffu, aride, sauvage, lugubre, escarpé for landscapes, with their traps and connotations.",
     duration: "16 min",
     sections: [

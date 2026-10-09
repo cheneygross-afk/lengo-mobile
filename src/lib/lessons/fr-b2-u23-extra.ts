@@ -10,13 +10,13 @@ export const FR_B2_U23_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Translation Relay",
-    summary: "Translate mixed B2 sentences in both directions, one structure per sentence.",
+    summary: "Translate mixed Upper-intermediate sentences in both directions, one structure per sentence.",
     duration: "13 min",
     sections: [
       {
         heading: "Recap: translate the structure, not the words",
         body: [
-          "English and French build B2 structures differently: want someone to do → \"vouloir que\" + subjunctive; the book I need → \"le livre dont j'ai besoin\"; I had it fixed → \"je l'ai fait réparer\"; when you arrive → \"quand tu arriveras\"; I've lived here for ten years → \"j'habite ici depuis dix ans\".",
+          "English and French build Upper-intermediate structures differently: want someone to do → \"vouloir que\" + subjunctive; the book I need → \"le livre dont j'ai besoin\"; I had it fixed → \"je l'ai fait réparer\"; when you arrive → \"quand tu arriveras\"; I've lived here for ten years → \"j'habite ici depuis dix ans\".",
           "Going from French to English, do the reverse: a journalistic conditional (\"aurait menti\") becomes allegedly; \"dont deux\" becomes two of whom; \"avoir beau\" becomes however much.",
         ],
         examples: [

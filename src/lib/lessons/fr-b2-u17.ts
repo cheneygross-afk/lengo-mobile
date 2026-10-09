@@ -2222,7 +2222,7 @@ export const FR_B2_U17: Lesson[] = [
       {
         heading: "The threat",
         body: [
-          "The local paper reports the council's plan with the future passive and the conditional of hearsay (B1): \"la halle sera démolie au printemps\", \"le parking coûterait trois millions d'euros\". \"Selon la mairie\" and \"d'après les opposants\" attribute the claims.",
+          "The local paper reports the council's plan with the future passive and the conditional of hearsay (Intermediate): \"la halle sera démolie au printemps\", \"le parking coûterait trois millions d'euros\". \"Selon la mairie\" and \"d'après les opposants\" attribute the claims.",
           "The council's justification uses cause connectors: \"étant donné que le bâtiment n'est pas classé, il peut être démoli\", \"en raison du manque de places de stationnement\". The opponents answer with \"or\", the turning point of an argument: \"Or, une étude montre que le parking actuel n'est jamais plein.\"",
         ],
         examples: [
@@ -2380,7 +2380,7 @@ export const FR_B2_U17: Lesson[] = [
       {
         heading: "Grammar errors: malgré que and car at the start",
         body: [
-          "These sentences come from real B2 essays. First: *\"Malgré que le loyer soit cher, je reste.\" \"Malgré que\" exists in speech, but it is condemned by grammarians and marked down in exams. Use \"bien que\" + subjunctive (\"bien que le loyer soit cher\"), or \"malgré\" + noun (\"malgré le prix du loyer\").",
+          "These sentences come from real Upper-intermediate essays. First: *\"Malgré que le loyer soit cher, je reste.\" \"Malgré que\" exists in speech, but it is condemned by grammarians and marked down in exams. Use \"bien que\" + subjunctive (\"bien que le loyer soit cher\"), or \"malgré\" + noun (\"malgré le prix du loyer\").",
           "Second: *\"Car le train était en retard, je suis arrivé en retard.\" \"Car\" never opens a sentence. Put the effect first (\"je suis arrivé en retard, car le train...\") or use \"comme\" at the start (\"comme le train était en retard...\").",
           "Third: *\"Il est fatigué, donc il a travaillé toute la nuit.\" The logic is reversed: donc introduces a consequence, not a cause. Either \"il est fatigué, car il a travaillé\" or \"il a travaillé toute la nuit, donc il est fatigué\".",
         ],

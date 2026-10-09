@@ -92,7 +92,7 @@ export const FR_A2_U01: Lesson[] = [
         body: [
           "The order is subject, \"avoir\", participle, then whatever completes the sentence (an object, a place, a time): \"Lucie a préparé le dîner.\" Time words like \"hier\" (yesterday) or \"samedi\" go at the end, or at the very start followed by a comma: \"Hier, j'ai travaillé.\"",
           "With a day of the week, French needs no on: \"samedi\" already means on Saturday. \"Samedi, j'ai joué au foot.\" And \"ce matin\" is this morning, \"ce soir\" this evening.",
-          "Two pieces of A1 grammar still apply: \"jouer au\" for sports and games (\"j'ai joué au tennis\"), \"jouer du\" for instruments (\"il a joué du piano\"), and \"écouter\" and \"regarder\" take no preposition: \"j'ai écouté la radio\", not *écouté à*.",
+          "Two pieces of Beginner grammar still apply: \"jouer au\" for sports and games (\"j'ai joué au tennis\"), \"jouer du\" for instruments (\"il a joué du piano\"), and \"écouter\" and \"regarder\" take no preposition: \"j'ai écouté la radio\", not *écouté à*.",
         ],
         examples: [
           { es: "Hier, j'ai travaillé jusqu'à dix-neuf heures.", en: "Yesterday I worked until 7 p.m." },
@@ -672,7 +672,7 @@ export const FR_A2_U01: Lesson[] = [
         heading: "-ir verbs: finir → fini",
         body: [
           "Regular -ir verbs (the ones with -issons in the nous form) make their participle by dropping the -r: \"finir\" → \"fini\", \"choisir\" → \"choisi\", \"réussir\" → \"réussi\", \"réfléchir\" → \"réfléchi\", \"grossir\" → \"grossi\", \"maigrir\" → \"maigri\", \"remplir\" → \"rempli\".",
-          "The A1 verbs \"dormir\", \"servir\" and \"sentir\" do the same: \"j'ai dormi\", \"il a servi\", \"j'ai senti\". The i is short and clear, never a diphthong.",
+          "The Beginner verbs \"dormir\", \"servir\" and \"sentir\" do the same: \"j'ai dormi\", \"il a servi\", \"j'ai senti\". The i is short and clear, never a diphthong.",
           "\"Réussir\" takes \"à\" before a noun or an infinitive: \"elle a réussi à l'examen\" (she passed the exam), \"j'ai réussi à trouver\" (I managed to find). Don't use \"passer\" for passing an exam: \"passer un examen\" means to take it.",
         ],
         examples: [
@@ -716,7 +716,7 @@ export const FR_A2_U01: Lesson[] = [
         body: [
           "Regular -re verbs replace -re with -u: \"vendre\" → \"vendu\", \"attendre\" → \"attendu\", \"répondre\" → \"répondu\", \"perdre\" → \"perdu\", \"entendre\" → \"entendu\", \"rendre\" → \"rendu\".",
           "The French u is the tight-lipped sound of \"tu\": round your lips as for oo and say ee. \"Vendu\" is not vendoo.",
-          "Keep the A1 prepositions: \"attendre\" takes none (\"j'ai attendu le bus\": I waited for the bus), while \"répondre\" takes \"à\" (\"il a répondu à mon message\"). \"Rendre visite à\" is to visit a person: \"j'ai rendu visite à ma grand-mère\"; \"visiter\" is for places.",
+          "Keep the Beginner prepositions: \"attendre\" takes none (\"j'ai attendu le bus\": I waited for the bus), while \"répondre\" takes \"à\" (\"il a répondu à mon message\"). \"Rendre visite à\" is to visit a person: \"j'ai rendu visite à ma grand-mère\"; \"visiter\" is for places.",
         ],
         examples: [
           { es: "J'ai attendu le bus vingt minutes.", en: "I waited twenty minutes for the bus." },
@@ -895,7 +895,7 @@ export const FR_A2_U01: Lesson[] = [
         question: "Which one means: two days ago?",
         options: ["depuis deux jours", "dans deux jours", "pendant deux jours", "il y a deux jours"],
         correctIndex: 3,
-        explanation: "\"Il y a\" + time = ago. \"Dans deux jours\" is in two days' time; the others come later in A2.",
+        explanation: "\"Il y a\" + time = ago. \"Dans deux jours\" is in two days' time; the others come later in the Elementary level.",
       },
     ],
   },
@@ -912,7 +912,7 @@ export const FR_A2_U01: Lesson[] = [
         body: [
           "In the passé composé, the conjugated verb is \"avoir\", so \"ne...pas\" wraps \"avoir\" and the participle comes after: \"je n'ai pas fini\", \"il n'a pas mangé\", \"nous n'avons pas trouvé\". The most common learner error is wrapping the participle too: *je n'ai fini pas*.",
           "\"Ne\" becomes \"n'\" before the vowel of every form of avoir: \"je n'ai pas\", \"tu n'as pas\", \"ils n'ont pas\".",
-          "The A1 rule still applies: after a negative, \"un\", \"une\", \"des\" and the partitive become \"de\" (or \"d'\"): \"j'ai acheté du pain\" → \"je n'ai pas acheté de pain\"; \"il a mangé une pomme\" → \"il n'a pas mangé de pomme\". \"Le\", \"la\", \"les\" don't change.",
+          "The Beginner rule still applies: after a negative, \"un\", \"une\", \"des\" and the partitive become \"de\" (or \"d'\"): \"j'ai acheté du pain\" → \"je n'ai pas acheté de pain\"; \"il a mangé une pomme\" → \"il n'a pas mangé de pomme\". \"Le\", \"la\", \"les\" don't change.",
         ],
         examples: [
           { es: "Je n'ai pas fini.", en: "I haven't finished." },
