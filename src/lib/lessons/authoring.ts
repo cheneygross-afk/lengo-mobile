@@ -85,7 +85,9 @@ export function authoring(lang: Lang) {
   const toEs = (source: string, answer: string, explanation: string, altAnswers?: string[], prompt?: string): TranslateExercise => ({
     type: "translate",
     direction: "en-es",
-    prompt: prompt ?? p.toEs,
+    // A "Corrige: «…»" source is a correction task, not a translation, so it
+    // gets a matching instruction instead of the translate default.
+    prompt: prompt ?? (/^Corr(ige|ect)\b/.test(source) ? (lang === "es" ? "Corrige la frase." : "Correct the sentence.") : p.toEs),
     source,
     answer,
     ...(altAnswers && altAnswers.length ? { altAnswers } : {}),

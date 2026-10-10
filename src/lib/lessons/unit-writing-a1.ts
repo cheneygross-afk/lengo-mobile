@@ -20,7 +20,7 @@ export const A1_UNIT_WRITING: Record<string, WriteExercise> = {
     "Write four or five short sentences about you: your name, where you live, and two things you have or like. Then read them aloud slowly, every vowel clear.",
     ["Me llamo… and vivo en…", "At least two more sentences about you", "Correct accents where needed (é, á…)", "Short, clear sentences you can read aloud"],
     "Me llamo Ricardo. Vivo en una ciudad bonita cerca del río. Tengo un perro grande que se llama Rocky. Me gusta la música y el café. Hoy hablo español con mi amiga Rosa.",
-    "Spanish vowels never change: read every a, e, i, o, u the same each time. Listen for the rr in perro and the single tap in Ricardo and Rosa's middle sounds."
+    "Spanish vowels never change: read every a, e, i, o, u the same each time. Listen for the trill in perro and at the start of Ricardo, Rocky, río and Rosa, and the single tap in the middle of Ricardo (ri-CAR-do)."
   ),
   "present-tense-ar-verbs": t(
     "Describe a normal weekday: what you do in the morning, at work or school, and in the evening. Use at least four different verbs in the present tense.",

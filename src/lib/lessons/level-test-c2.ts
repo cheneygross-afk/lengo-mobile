@@ -12,7 +12,7 @@ const { fe, sec } = authoring("es");
 export const LEVEL_TEST_C2: LevelTest = {
   title: "Prueba de nivel Profesional y Académico: examen de maestría",
   summary:
-    "La prueba final del nivel Profesional y Académico: comprensión de lectura y auditiva, léxico, registro y expresiones idiomáticas, y una reseña crítica. 46 preguntas sobre lo que enseña de nivel Profesional y Académico; se aprueba con un 70%.",
+    "La prueba final del nivel Profesional y Académico: comprensión de lectura y auditiva, léxico, registro y expresiones idiomáticas, y una reseña crítica. 46 preguntas sobre lo que se enseña en el nivel Profesional y Académico; se aprueba con un 70%.",
   duration: "60 min",
   sections: [
     readingSection(

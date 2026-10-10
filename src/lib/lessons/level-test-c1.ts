@@ -14,7 +14,7 @@ const { fe, sec } = authoring("es");
 export const LEVEL_TEST_C1: LevelTest = {
   title: "Prueba de nivel Maestría: ¿listo para el nivel Profesional y Académico?",
   summary:
-    "La prueba final del nivel Maestría: comprensión de lectura y auditiva, gramática y vocabulario escribiendo en español, y un texto argumentativo. 46 preguntas sobre lo que enseña de nivel Maestría; se aprueba con un 70%.",
+    "La prueba final del nivel Maestría: comprensión de lectura y auditiva, gramática y vocabulario escribiendo en español, y un texto argumentativo. 46 preguntas sobre lo que se enseña en el nivel Maestría; se aprueba con un 70%.",
   duration: "60 min",
   sections: [
     readingSection(

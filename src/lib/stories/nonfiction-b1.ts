@@ -8,7 +8,7 @@ export const B1_NONFICTION: Story[] = [
     genre: "Explainer",
     title: "¿Por qué los españoles cenan tan tarde?",
     subtitle:
-      "Dinner at ten, prime-time TV at eleven: the history of Spain's unusual daily timetable, and the debate about changing it.",
+      "Dinner at ten, prime-time TV at half past ten: the history of Spain's unusual daily timetable, and the debate about changing it.",
     paragraphs: [
       "Los turistas que visitan España suelen sorprenderse por los horarios. Muchos restaurantes no sirven la cena antes de las nueve, el programa más visto de la televisión empieza a las diez y media y en verano las calles están llenas a medianoche. ¿De dónde viene esta costumbre?",
       "Parte de la explicación está en el reloj. Por su posición geográfica, España debería tener la misma hora que Portugal y el Reino Unido. Sin embargo, en 1940 el país adelantó sus relojes una hora para tener la misma hora que Alemania y gran parte de Europa central, y nunca volvió a cambiarlos. Por eso, el sol sale y se pone más tarde que en otros países con la misma hora.",

@@ -78,7 +78,7 @@ export const A2_UNIT_WRITING: Record<string, WriteExercise> = {
   ),
   "por-vs-para-1": t(
     "Write a note to a coworker about a trip you're planning. Say where you're going and why, how you'll get there, how long you'll stay and how much you paid. Use por and para at least three times each.",
-    ["Para for destination and purpose (para Sevilla, para ver…)", "Por for cause, means and duration (por trabajo, por tren, por una semana)", "Por for price or exchange (por cien euros)", "Para for deadlines or recipients"],
+    ["Para for destination and purpose (para Sevilla, para ver…)", "Por for cause, means and duration (por trabajo, por teléfono, por una semana)", "Por for price or exchange (por cien euros)", "Para for deadlines or recipients"],
     "Hola, Carlos: El lunes salgo para Sevilla por trabajo. Voy allí para hablar con un cliente importante. Viajo en tren porque es más rápido. Me quedo allí por tres días. Compré el billete por cien euros. ¿Necesitas algo para el viernes? Te traigo un regalo para tu hija.",
     "Para looks ahead: destination, purpose, deadline, recipient. Por looks at cause and route: reason, means, duration, price or exchange."
   ),
@@ -103,7 +103,7 @@ export const A2_UNIT_WRITING: Record<string, WriteExercise> = {
   "a2g-tu-commands-regular": t(
     "Your friend is staying in your flat while you're away. Write a note with instructions: what to do with the plants, the cat and the keys. Use at least five tú commands, two with pronouns.",
     ["At least five affirmative tú commands (riega, cierra…)", "At least two commands with pronouns attached (dale, ciérrala…)", "An accent where the command + pronoun needs one", "A friendly closing"],
-    "¡Hola, Nacho! Gracias por quedarte en casa. Riega las plantas el lunes y el jueves. Dale de comer al gato por la mañana y por la noche. Cuando salgas, cierra la puerta con llave. Las llaves, déjalas en la mesa de la cocina. Si tienes un problema, llámame. ¡Un abrazo!",
+    "¡Hola, Nacho! Gracias por quedarte en casa. Riega las plantas el lunes y el jueves. Dale de comer al gato por la mañana y por la noche. Al salir, cierra la puerta con llave. Las llaves, déjalas en la mesa de la cocina. Si tienes un problema, llámame. ¡Un abrazo!",
     "Regular tú commands look like the él form: riega, cierra. Pronouns attach to the end, often adding an accent: déjalas, llámame."
   ),
   "at-the-restaurant-1": t(
@@ -139,8 +139,8 @@ export const A2_UNIT_WRITING: Record<string, WriteExercise> = {
   "a2d-cumulative-circuit-3": t(
     "Your little brother keeps borrowing your things. Write a short message telling him what to do with each thing, using commands with pronouns, and say what he did last time.",
     ["Commands with pronouns (devuélvemelo, ponla…)", "A past tense for what he did (la última vez…)", "Object pronouns in the right place", "At least six sentences"],
-    "Javi: la última vez cogiste mi cámara y la dejaste en el coche. Esta vez, por favor, devuélvemela antes del viernes. Mis auriculares no los toques. Si necesitas el cargador, pídemelo primero. Y la chaqueta azul, ponla en mi armario cuando termines. Gracias.",
-    "Pronouns go before a conjugated verb (la dejaste, no los toques) and attach to affirmative commands (devuélvemela, ponla)."
+    "Javi: la última vez cogiste mi cámara y la dejaste en el coche. Esta vez, por favor, devuélvemela antes del viernes. Mis auriculares, déjalos en mi mesa. Si necesitas el cargador, pídemelo primero. Y la chaqueta azul, ponla en mi armario cuando termines. Gracias.",
+    "Pronouns go before a conjugated verb (la dejaste) and attach to affirmative commands (devuélvemela, déjalos, ponla)."
   ),
   "a2r-challenge-buenos-aires-1": t(
     "Imagine you spent a week in Buenos Aires. Write a postcard to a friend: what the city was like, three things you did, what you liked most and what you're going to do next time.",

@@ -306,7 +306,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Adjectives that don't change for gender",
-        "Adjectives ending in -e or a consonant (grande, inteligente, azul, fácil) keep the same form for masculine and feminine. They only change for plural.",
+        "Most adjectives ending in -e or a consonant (grande, inteligente, azul, fácil) keep the same form for masculine and feminine and only change for plural. Exceptions: nationalities and -dor adjectives add -a (see below).",
         [
           ["un chico inteligente / una chica inteligente", "a smart boy / a smart girl"],
           ["el coche azul / los coches azules", "the blue car / the blue cars"],
@@ -365,7 +365,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     "adjective-agreement",
     "a1r-spiral-articles-adjectives-ser",
     "Spiral Review: Articles, Adjectives & Ser",
-    "A cumulative check that reaches back to lessons 1–6 — pronouns, ser, articles and agreement all in one place.",
+    "A cumulative check of everything so far — pronouns, ser, articles and agreement all in one place.",
     "8 min",
     [
       sec(
@@ -716,7 +716,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Which sentences are correct?",
         ["Ellos viven en Chile.", "El problema es fácil.", "Tú hablas muy rápido.", "Nosotros bebemos agua."],
         [0, 1, 2, 3],
-        "All four are correct — ser, a masculine -a noun, an -AR verb and an -ER verb, each used properly."
+        "All four are correct: an -IR verb (ellos viven), ser with a masculine -a noun (el problema es), an -AR verb (tú hablas) and an -ER verb (nosotros bebemos)."
       ),
       toEs("The house is big and white.", "La casa es grande y blanca.", "Grande doesn't change for gender; blanco → blanca.", []),
       toEs("They write emails.", "Escriben correos.", "Ellos/ellas take -en for -ir verbs: escriben. The subject can be dropped.", ["Ellos escriben correos.", "Ellas escriben correos.", "Escriben correos electrónicos.", "Ellos escriben correos electrónicos."]),
@@ -853,7 +853,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     "ser-vs-estar-mastery-check",
     "a1r-spiral-ser-estar-present",
     "Spiral Review: Ser, Estar & Everyday Verbs",
-    "Ser vs. estar meets the present tense and adjective agreement. A cumulative check from lessons 1–13.",
+    "Ser vs. estar meets the present tense and adjective agreement. A cumulative check of everything so far.",
     "8 min",
     [
       sec(
@@ -1044,7 +1044,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
             "How do you say \"I'm 31\"?",
             ["Tengo treinta y un años.", "Soy treinta y uno años.", "Tengo treintaiuno años.", "Estoy treinta y un años."],
             0,
-            "Age uses tener, and before a masculine noun (años) uno shortens to un: treinta y un años. \"Soy\" and \"Estoy\" use the wrong verb, and \"treintaiuno\" fuses the words and doesn't shorten."
+            "Age uses tener, and before a masculine noun (años) uno shortens to un: treinta y un años. \"Soy\" and \"Estoy\" use the wrong verb, and \"treintaiuno años\" doesn't shorten uno to un before a masculine noun."
           ),
         ]
       ),
@@ -1148,7 +1148,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     "telling-time-2",
     "a1r-spiral-numbers-time-possessives",
     "Spiral Review: Numbers, Time & Possessives",
-    "Plan a family day using everything from lessons 14–18 — plus ser, estar and the present tense from before.",
+    "Plan a family day using possessives, numbers and time — plus ser, estar and the present tense from before.",
     "8 min",
     [
       sec(
@@ -1171,7 +1171,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Write the number in words.", "Mis abuelos tienen ___ nietos. (12)", "doce", "12 = doce."),
+      fb("Write the number in words.", "Mis abuelos tienen ___ nietos. (12)", "doce", "Numbers 11–15 (once, doce, trece, catorce, quince) are single irregular words to memorize."),
       mc(
         "Which sentence is correct?",
         ["Son las dos y nuestro coche está en el garaje.", "Es las dos y nuestro coche es en el garaje.", "Son las dos y nuestra coche está en el garaje.", "Son las dos y nuestro coche están en el garaje."],
@@ -1245,10 +1245,10 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "The answer gives origin (de Venezuela), so ¿De dónde son? \"¿Dónde están?\" asks where they are now, \"¿Adónde van?\" asks where they're going, and \"¿Quiénes son?\" asks who they are."
       ),
       mc(
-        "Answer: \"Vamos al cine.\" What was the question?",
-        ["¿Adónde van ustedes?", "¿Dónde están ustedes?", "¿De dónde son ustedes?", "¿Cuándo van ustedes?"],
+        "Answer: \"Viajamos a México.\" What was the question?",
+        ["¿Adónde viajan ustedes?", "¿Dónde están ustedes?", "¿De dónde son ustedes?", "¿Cuándo viajan ustedes?"],
         0,
-        "Vamos al cine is movement toward a place, so ¿Adónde van? \"¿Dónde están?\" asks location, \"¿De dónde son?\" asks origin, and \"¿Cuándo van?\" would need a time."
+        "Viajamos a México is movement toward a place, so ¿Adónde viajan? \"¿Dónde están?\" asks location, \"¿De dónde son?\" asks origin, and \"¿Cuándo viajan?\" would need a time."
       ),
       toEs("Why are you (informal) studying Spanish?", "¿Por qué estudias español?", "Por qué (two words, accent) asks why.", ["¿Por qué tú estudias español?", "¿Por qué estás estudiando español?"]),
       wo("¿Cuántas personas hay en tu familia?", "Cuántas agrees with personas.", "How many people are there in your family?"),
@@ -1279,14 +1279,14 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Contractions: al and del",
-        "A + el → al, and de + el → del. They're not optional. They don't happen with la, los or las, or with the pronoun él.",
+        "A + el → al, and de + el → del. They're not optional. They don't happen with la, los or las, or with the pronoun él. (Voy = I go, vamos = we go: you'll learn ir fully in the 'Key Irregular Verbs: Tener, Ir, Hacer + Hay' lesson.)",
         [
           ["Voy al mercado.", "I'm going to the market."],
           ["Es el libro del profesor.", "It's the teacher's book."],
           ["Es el libro de él.", "It's his book. (no contraction with the pronoun él)"],
         ],
         [
-          fb("Fix the contraction.", "Vamos ___ parque después de clase. (learner wrote: a el)", "al", "A + el always contracts: al parque."),
+          fb("Fix the contraction.", "Caminamos ___ parque después de clase. (learner wrote: a el)", "al", "A + el always contracts: al parque."),
         ]
       ),
     ],
@@ -1312,7 +1312,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "De + el director → del director. De él (pronoun) doesn't contract, and a los never contracts."
       ),
       toEs("When does the class start? I think that it starts at nine.", "¿Cuándo empieza la clase? Creo que empieza a las nueve.", "Cuándo (question) has an accent; que (that) doesn't.", ["¿Cuándo empieza la clase? Pienso que empieza a las nueve.", "¿A qué hora empieza la clase? Creo que empieza a las nueve.", "¿Cuándo es la clase? Creo que es a las nueve.", "¿Cuándo es la clase? Pienso que es a las nueve."]),
-      wo("¿Por qué vas al hospital hoy?", "Por qué + verb + a + el → al.", "Why are you going to the hospital today?"),
+      wo("¿Por qué llegas al hospital tan tarde?", "Por qué + verb + a + el → al.", "Why are you arriving at the hospital so late?"),
     ]
   ),
   L(
@@ -1452,7 +1452,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     "gustar-mastery-check",
     "a1r-spiral-gustar-questions-ser-estar",
     "Spiral Review: Gustar, Questions & Ser/Estar",
-    "Interview a new classmate — every question pulls a different topic from lessons 11–24.",
+    "Interview a new classmate — every question pulls a different topic: ser and estar, question words and gustar.",
     "8 min",
     [
       sec(
@@ -1743,7 +1743,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     "demonstratives-2",
     "a1r-spiral-people-descriptions",
     "Spiral Review: Everything So Far — People & Descriptions",
-    "A cumulative review of lessons 1–28 focused on describing people, places and things.",
+    "A cumulative review of the Beginner level so far, focused on describing people, places and things.",
     "9 min",
     [
       sec(
@@ -1810,7 +1810,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     "demonstratives-2",
     "a1r-spiral-actions-plans",
     "Spiral Review: Everything So Far — Actions & Plans",
-    "Part two of the cumulative review: verbs, time, questions and plans from lessons 7–28.",
+    "Part two of the cumulative review: verbs, time, questions and plans from the Beginner level so far.",
     "9 min",
     [
       sec(
@@ -2617,7 +2617,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Now connect the weather to plans: ir a + infinitive, and tener for how you feel.",
         [
           ["Si hace calor, vamos a ir a la piscina.", "If it's hot, we're going to go to the pool."],
-          ["El domingo voy a estar en casa porque tengo frío.", "On Sunday I'm going to be at home because I'm cold."],
+          ["El domingo voy a estar en casa porque va a hacer frío.", "On Sunday I'm going to be at home because it's going to be cold."],
         ],
         [
           fb("Complete the plan.", "El sábado hace sol, así que ___ a jugar al tenis.", "vamos", "Nosotros → vamos a + infinitive."),
@@ -2758,7 +2758,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Days are lowercase and take el with no preposition: el sábado. \"En el sábado\" adds en, \"Sábado\" has a capital, and \"Sábado voy en la playa\" drops el and uses en for motion."
       ),
-      fb("Write the time in words.", "La reunión es a las ___ y cuarto. (3:15)", "tres", "3:15 = las tres y cuarto."),
+      fb("Write the time in words.", "La reunión es a las ___ y cuarto. (3:15)", "tres", "The hour (tres) comes first, then y cuarto for the 15 minutes."),
       toEs("I work from Monday to Friday.", "Trabajo de lunes a viernes.", "De … a … for a range.", ["Yo trabajo de lunes a viernes."]),
       toEn("Los domingos comemos con mis abuelos.", "On Sundays we eat with my grandparents.", "Los + day means every week: los domingos = on Sundays.", ["On Sundays we have lunch with my grandparents.", "We eat with my grandparents on Sundays."]),
       wo("Los jueves tengo clase de yoga a las siete.", "Day + tener + class + time.", "On Thursdays I have yoga class at seven."),
@@ -3070,7 +3070,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         [
           ["Voy a la biblioteca para leer.", "I go to the library to read."],
           ["Vamos al mercado para comprar fruta.", "We go to the market to buy fruit."],
-          ["Mis padres van al cine para mirar una película.", "My parents go to the movies to watch a film."],
+          ["Mis padres van al cine para ver una película.", "My parents go to the movies to watch a film."],
         ],
         [
           mt(
@@ -3256,7 +3256,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         [
           mc(
             "Why is it \"me encantan\"?",
-            ["Los museos is plural.", "The speaker loves more than one thing.", "Encantar is always plural.", "Because it's the future."],
+            ["Los museos is plural.", "The speaker is more than one person.", "Encantar is always plural.", "Because it's the future."],
             0,
             "Encantar agrees with what is loved, and los museos is plural. It's not about the speaker, encantar isn't always plural, and there's no future here."
           ),
@@ -3400,7 +3400,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
           ["—Está cerca, a diez minutos. Está al lado del jardín botánico.", "It's close, ten minutes away. It's next to the botanical garden."],
         ],
         [
-          fb("Complete Emma's question.", "¿Hay un banco ___ del museo?", "cerca", "Cerca de + el → cerca del."),
+          fb("Complete Emma's question (Is there a bank near the museum?).", "¿Hay un banco ___ del museo?", "cerca", "Cerca de + el → cerca del."),
         ]
       ),
       sec(
@@ -3422,7 +3422,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "\"A diez minutos\" means ten minutes away, not two, thirty or an hour."
       ),
-      fb("Complete the waiter's line.", "Aquí ___ su café, señora.", "está", "Aquí está… = here is… (location)."),
+      { ...fb("Complete the waiter's line.", "Aquí ___ su café, señora.", "está", "Aquí está… = here is… (location). Aquí tiene… (here you have) is just as common from a waiter."), altAnswers: ["tiene"] },
       mt(
         "Match each time to Emma's activity.",
         [
@@ -3516,7 +3516,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "The model profile",
-        "Read the model. It uses nearly every Beginner topic in eight lines.",
+        "Read the model. It uses nearly every Beginner topic in five lines.",
         [
           ["Me llamo Sam y tengo treinta años.", "My name is Sam and I'm thirty."],
           ["Soy de Toronto, pero ahora vivo en Chicago.", "I'm from Toronto, but now I live in Chicago."],

@@ -81,7 +81,7 @@ export const A1_CORE: AnchoredLesson[] = [
       fe("Hoy el Real Madrid ___ el partido.", "gana", "Today Real Madrid [wins] the match.", "ganar → gana."),
       fe("Nunca ___ tu cumpleaños.", "olvido", "I never [forget] your birthday.", "olvidar → olvido (yo)."),
       fe("¿Por qué no ___ tú?", "entras", "Why don't [you go in]?", "entrar → entras."),
-      fe("El tren ___ a las siete.", "comienza", "The train [starts] at seven.", "comenzar → comienza: e → ie in the boot. Empezar means the same."),
+      fe("La película ___ a las siete.", "comienza", "The film [starts] at seven.", "comenzar → comienza: e → ie in the boot. Empezar means the same.", ["empieza"]),
       toEs("I always lose my glasses.", "Siempre pierdo mis gafas.", "perder → pierdo: e → ie. Lentes is common in Latin America.", ["Siempre pierdo las gafas.", "Siempre pierdo mis lentes.", "Siempre pierdo los lentes.", "Yo siempre pierdo mis gafas.", "Pierdo siempre mis gafas."]),
       toEs("Can you show me the room?", "¿Puedes mostrarme la habitación?", "poder + mostrar; the pronoun me goes on the end of the infinitive or before puedes.", ["¿Me puedes mostrar la habitación?", "¿Puede mostrarme la habitación?", "¿Me puede mostrar la habitación?", "¿Puedes enseñarme la habitación?", "¿Me puedes enseñar la habitación?"]),
       toEs("I'll send you an email tonight.", "Te envío un correo esta noche.", "enviar → envío (yo). Spanish often uses the present for a plan.", ["Te envío un email esta noche.", "Esta noche te envío un correo.", "Te mando un correo esta noche."]),
@@ -225,9 +225,9 @@ export const A1_CORE: AnchoredLesson[] = [
     ],
     [
       fe("Es ___ medianoche.", "casi", "It's [almost] midnight.", "casi = almost."),
-      fe("No tengo hambre, ___ como un poco.", "aunque", "I'm not hungry, [although] I eat a little.", "aunque = although."),
+      fe("No tengo hambre, ___ como un poco.", "aunque", "I'm not hungry, [although] I'll eat a little.", "aunque = although."),
       fe("___ el lunes es mejor.", "Quizás", "[Maybe] Monday is better.", "quizás = maybe, perhaps. Tal vez means the same.", ["Tal vez", "Quizá"]),
-      fe("No hay ___ sillas para todos.", "suficientes", "There aren't [enough] chairs for everyone.", "suficiente agrees in number: suficientes sillas."),
+      fe("No hay ___ sillas para todos.", "suficientes", "There aren't [enough] chairs for everyone.", "suficiente agrees in number: suficientes sillas. Bastantes works too.", ["bastantes"]),
       toEs("I still work in the same office.", "Todavía trabajo en la misma oficina.", "todavía = still.", ["Aún trabajo en la misma oficina.", "Sigo trabajando en la misma oficina.", "Yo todavía trabajo en la misma oficina."]),
       toEs("The hotel is cheap and, besides, it's near the beach.", "El hotel es barato y, además, está cerca de la playa.", "además = besides; estar for location.", ["El hotel es barato y además está cerca de la playa."]),
       toEs("She doesn't even have a phone.", "Ni siquiera tiene teléfono.", "ni siquiera = not even.", ["Ella ni siquiera tiene teléfono.", "Ni siquiera tiene un teléfono.", "No tiene ni siquiera teléfono."]),
@@ -274,18 +274,18 @@ export const A1_CORE: AnchoredLesson[] = [
         "Alguno (some, any) and ninguno (no, none) drop the -o before a masculine noun: algún día, ningún problema. Cualquier means any at all, and cualquiera stands alone: anyone, any one.",
         [
           ["¿Tienes alguna pregunta?", "Do you have any questions?"],
-          ["Algún día voy a vivir en la playa.", "Some day I'm going to live at the beach."],
+          ["Algún día quiero vivir en la playa.", "Some day I want to live at the beach."],
           ["No hay ningún problema.", "There's no problem at all."],
           ["Ninguno de mis amigos habla inglés.", "None of my friends speaks English."],
           ["Puedes venir cualquier día.", "You can come any day."],
         ],
         [
-          fe("No tengo ___ idea.", "ninguna", "I have [no] idea.", "ninguna agrees with idea (feminine)."),
+          fe("No tengo ___ idea.", "ninguna", "I have [no] idea.", "ninguna agrees with idea (feminine). (The everyday phrase no tengo ni idea is also right.)", ["ni"]),
         ]
       ),
       sec(
         "Último, único, próximo, propio, cierto",
-        "These go before the noun: el último tren (the last train), el único hotel (the only hotel), la próxima semana (next week), mi propio negocio (my own business). Cierto means certain or true: es cierto (it's true).",
+        "These usually go before the noun (próximo can also follow it: la semana próxima; after the noun, único means \"unique\"): el último tren (the last train), el único hotel (the only hotel), la próxima semana (next week), mi propio negocio (my own business). Cierto means certain or true: es cierto (it's true).",
         [
           ["El último autobús sale a las doce.", "The last bus leaves at twelve."],
           ["Es el único restaurante abierto.", "It's the only restaurant that's open."],
@@ -300,14 +300,14 @@ export const A1_CORE: AnchoredLesson[] = [
       ),
     ],
     [
-      fe("¿Hay ___ farmacia cerca?", "alguna", "Is there [a / any] pharmacy nearby?", "alguna agrees with farmacia."),
+      fe("¿Hay ___ farmacia cerca?", "alguna", "Is there [a / any] pharmacy nearby?", "alguna agrees with farmacia. Una is also fine here.", ["una"]),
       fe("Es la ___ vez que vengo aquí.", "última", "It's the [last] time I come here.", "último → última with vez."),
       fe("No hay ___ problema.", "ningún", "There's [no] problem.", "ninguno → ningún before a masculine noun."),
       fe("Puedes llamar a ___ hora.", "cualquier", "You can call at [any] time.", "cualquier before a noun, masculine or feminine."),
       toEs("Do you want another beer?", "¿Quieres otra cerveza?", "otra, with no una.", ["¿Quiere otra cerveza?", "¿Quiere usted otra cerveza?", "¿Tú quieres otra cerveza?"]),
       toEs("She's my only sister.", "Es mi única hermana.", "único → única with hermana.", ["Ella es mi única hermana."]),
-      toEs("I want to go with you.", "Quiero ir contigo.", "con + ti → contigo; con + mí → conmigo.", ["Yo quiero ir contigo.", "Quiero ir con usted."]),
-      toEs("Next year I want my own apartment.", "El próximo año quiero mi propio apartamento.", "próximo and propio go before the noun.", ["El año próximo quiero mi propio apartamento.", "El próximo año quiero mi propio piso.", "El año que viene quiero mi propio apartamento.", "El año que viene quiero mi propio piso."]),
+      toEs("I want to go with you.", "Quiero ir contigo.", "ir = to go; con + ti → contigo; con + mí → conmigo.", ["Yo quiero ir contigo.", "Quiero ir con usted."]),
+      toEs("Next year I want my own apartment.", "El próximo año quiero mi propio apartamento.", "propio goes before the noun; próximo usually does too, though el año próximo is also correct.", ["El año próximo quiero mi propio apartamento.", "El próximo año quiero mi propio piso.", "El año que viene quiero mi propio apartamento.", "El año que viene quiero mi propio piso."]),
       toEn("¿Es cierto? No tengo ninguna noticia.", "Is it true? I don't have any news.", "Cierto = true; ninguna = no, not any.", ["Is it true? I have no news.", "Is that true? I don't have any news."]),
       ms(
         "Which sentences are correct?",
@@ -653,7 +653,7 @@ export const A1_CORE: AnchoredLesson[] = [
       toEs("My room is upstairs.", "Mi habitación está arriba.", "estar for location; arriba = upstairs.", ["Mi cuarto está arriba.", "Mi dormitorio está arriba."]),
       toEs("The bus goes towards the center.", "El autobús va hacia el centro.", "hacia = towards.", ["El bus va hacia el centro.", "El autobús va hacia el centro de la ciudad."]),
       toEs("I'm against the plan.", "Estoy en contra del plan.", "estar en contra de = to be against (estar contra is also heard).", ["Estoy contra el plan.", "Yo estoy en contra del plan.", "Yo estoy contra el plan."]),
-      toEn("—¿Se puede? —¡Adelante!", "May I come in? — Come in!", "Adelante! invites someone in.", ["Can I come in? — Come in!"]),
+      toEn("—¿Se puede? —¡Adelante!", "May I come in? — Come in!", "¡Adelante! invites someone in.", ["Can I come in? — Come in!"]),
       toEn("Quiero un libro acerca de la cocina peruana.", "I want a book about Peruvian cooking.", "acerca de = about.", ["I want a book about Peruvian food.", "I'd like a book about Peruvian cooking."]),
       mt(
         "Match each word to its meaning.",
@@ -729,11 +729,11 @@ export const A1_CORE: AnchoredLesson[] = [
       ),
     ],
     [
-      fe("¡Qué ___! Ganas un viaje a Cancún.", "suerte", "What [luck]! You win a trip to Cancún.", "¡Qué suerte! = how lucky!"),
+      fe("¡Qué ___! Mañana viajas a Cancún.", "suerte", "What [luck]! Tomorrow you're traveling to Cancún.", "¡Qué suerte! = how lucky!"),
       fe("Es la mejor ciudad del ___.", "mundo", "It's the best city in the [world].", "el mundo = the world."),
       fe("Tengo una mala ___.", "noticia", "I have some bad [news].", "una noticia = a piece of news."),
       fe("No hay otra ___ de hacerlo.", "manera", "There's no other [way] to do it.", "la manera = the way. Forma and modo work too.", ["forma"]),
-      toEs("That's life.", "Así es la vida.", "A set phrase.", ["Es la vida.", "Así es la vida!"]),
+      toEs("That's life.", "Así es la vida.", "A set phrase.", ["Es la vida.", "¡Así es la vida!"]),
       toEs("OK, see you tomorrow.", "De acuerdo, hasta mañana.", "De acuerdo = OK, agreed.", ["De acuerdo, nos vemos mañana.", "Vale, hasta mañana.", "Vale, nos vemos mañana."]),
       toEs("It's a great opportunity for my business.", "Es una gran oportunidad para mi negocio.", "gran before the noun = great.", ["Es una oportunidad grande para mi negocio."]),
       toEs("Actually, I don't know the secret.", "En realidad, no sé el secreto.", "en realidad = actually.", ["En realidad no sé el secreto.", "En realidad, yo no sé el secreto."]),
@@ -745,7 +745,7 @@ export const A1_CORE: AnchoredLesson[] = [
           ["el amor", "love"],
           ["la paz", "peace"],
           ["la esperanza", "hope"],
-          ["el recuerdo", "memory"],
+          ["la suerte", "luck"],
         ],
         "Big words, small lesson."
       ),

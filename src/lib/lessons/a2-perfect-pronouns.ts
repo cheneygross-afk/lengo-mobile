@@ -70,10 +70,10 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       ),
     ],
     [
-      fe("¿___ el correo de la jefa?", "Has leído", "[Have you read] the boss's email?", "haber (has) + leído. Leído takes an accent so the í is its own syllable.", ["Has leido"]),
+      fe("¿___ el correo de la jefa?", "Has leído", "[Have you read] the boss's email?", "haber (has) + leído. Leído takes an accent so the í is its own syllable."),
       fe("Mis padres ___ a Madrid esta mañana.", "han llegado", "My parents [have arrived] in Madrid this morning.", "han + llegado."),
-      fe("Este mes ___ dos kilos.", "he perdido", "This month I've [lost] two kilos.", "he + perdido: -er verbs take -ido."),
-      fe("¿Ustedes ya ___ el museo?", "han visitado", "Have you [visited] the museum yet?", "han + visitado."),
+      fe("Este mes ___ dos kilos.", "he perdido", "This month [I've lost] two kilos.", "he + perdido: -er verbs take -ido."),
+      fe("¿Ustedes ya ___ el museo?", "han visitado", "[Have you visited] the museum yet? (ustedes)", "han + visitado."),
       toEs("Today I've eaten too much.", "Hoy he comido demasiado.", "Hoy is a time that isn't over → present perfect: he comido.", ["He comido demasiado hoy.", "Hoy comí demasiado."]),
       toEs("Have you slept well?", "¿Has dormido bien?", "has + dormido; nothing between them.", ["¿Ha dormido bien?", "¿Dormiste bien?"]),
       toEs("This week we've worked a lot.", "Esta semana hemos trabajado mucho.", "esta semana → present perfect.", ["Hemos trabajado mucho esta semana.", "Esta semana trabajamos mucho."]),
@@ -140,7 +140,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
     [
       fe("Todavía no he ___ la película.", "visto", "I haven't [seen] the film yet.", "ver → visto."),
       fe("¿Quién ha ___ el vaso?", "roto", "Who has [broken] the glass?", "romper → roto."),
-      fe("La tienda ha ___ a las diez.", "abierto", "The shop has [opened] at ten.", "abrir → abierto."),
+      fe("La tienda ha ___ tarde hoy.", "abierto", "The shop has [opened] late today.", "abrir → abierto."),
       fe("Mi abuela ha ___ un libro.", "escrito", "My grandmother has [written] a book.", "escribir → escrito."),
       toEs("What have they said?", "¿Qué han dicho?", "decir → dicho.", ["¿Qué han dicho ellos?", "¿Qué dijeron?"]),
       toEs("Have you seen the new film?", "¿Has visto la nueva película?", "ver → visto.", ["¿Has visto la película nueva?", "¿Ha visto la nueva película?", "¿Ha visto la película nueva?", "¿Viste la nueva película?"]),
@@ -253,7 +253,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       fe("La semana pasada ___ mucho.", "trabajé", "Last week I [worked] a lot.", "La semana pasada is over → preterite: trabajé."),
       fe("Esta semana ___ mucho.", "he trabajado", "This week I [have worked] a lot.", "Esta semana isn't over → present perfect.", ["trabajé"]),
       fe("En 2019 ___ en Chile.", "vivimos", "In 2019 we [lived] in Chile.", "A finished year → preterite: vivimos."),
-      fe("¿Alguna vez ___ en Chile?", "has vivido", "Have you ever [lived] in Chile?", "Experience → present perfect, everywhere."),
+      fe("¿Alguna vez ___ en Chile?", "has vivido", "[Have you ever lived] in Chile? (tú)", "Experience → present perfect, everywhere."),
       toEs("Yesterday I went out with my friends.", "Ayer salí con mis amigos.", "Ayer → preterite.", ["Ayer salí con mis amigas.", "Salí con mis amigos ayer."]),
       toEs("This year we've saved a lot of money.", "Este año hemos ahorrado mucho dinero.", "Este año → present perfect.", ["Este año ahorramos mucho dinero.", "Hemos ahorrado mucho dinero este año."]),
       toEs("Have you ever been to Spain? — Yes, I went in 2018.", "¿Alguna vez has estado en España? —Sí, fui en 2018.", "The experience → he estado; the date → fui.", ["¿Has estado en España alguna vez? —Sí, fui en 2018.", "¿Has estado alguna vez en España? —Sí, fui en 2018."]),
@@ -294,8 +294,8 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       ),
     ],
     [
-      fe("¿Ya ___ los billetes?", "has comprado", "Have you [bought] the tickets yet?", "has + comprado."),
-      fe("Nosotros nunca ___ un accidente.", "hemos tenido", "We've never [had] an accident.", "hemos + tenido."),
+      fe("¿Ya ___ los billetes?", "has comprado", "[Have you bought] the tickets yet? (tú)", "has + comprado."),
+      fe("Nosotros nunca ___ un accidente.", "hemos tenido", "We [have] never [had] an accident.", "hemos + tenido."),
       fe("¿Quién ha ___ la puerta?", "abierto", "Who has [opened] the door?", "abrir → abierto."),
       fe("El año pasado ___ a Japón.", "viajé", "Last year I [traveled] to Japan.", "A finished time → preterite."),
       toEs("I haven't seen the news yet.", "Todavía no he visto las noticias.", "todavía no + he visto.", ["Aún no he visto las noticias.", "No he visto las noticias todavía.", "No he visto las noticias aún."]),
@@ -460,7 +460,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
         "Strong positive adjectives: estupendo (great), impresionante (impressive), brillante (brilliant), adorable. Orgulloso de means proud of.",
         [
           ["¡Qué idea tan estupenda!", "What a great idea!"],
-          ["Tu presentación ha sido impresionante.", "Your presentation was impressive."],
+          ["Tu presentación fue impresionante.", "Your presentation was impressive."],
           ["Es una estudiante brillante.", "She's a brilliant student."],
           ["¡Qué bebé tan adorable!", "What an adorable baby!"],
           ["Estoy muy orgulloso de ti.", "I'm very proud of you."],
@@ -480,8 +480,8 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
           ["Creo que estás equivocado.", "I think you're wrong."],
           ["No aguanto más este calor.", "I can't take this heat any more."],
           ["No soporto a la gente que miente.", "I can't stand people who lie."],
-          ["Me han engañado: el producto no funciona.", "I've been cheated: the product doesn't work."],
-          ["La lluvia ha arruinado nuestro picnic.", "The rain has ruined our picnic."],
+          ["Me engañaron: el producto no funciona.", "They cheated me: the product doesn't work."],
+          ["La lluvia arruinó nuestro picnic.", "The rain ruined our picnic."],
         ],
         [
           mc(
@@ -508,14 +508,14 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       ),
     ],
     [
-      fe("Te ___ unas vacaciones.", "mereces", "You [deserve] a holiday.", "merecer → mereces. Merecerse is also common: te mereces."),
+      fe("Te ___ unas vacaciones.", "mereces", "You [deserve] a holiday.", "merecerse → te mereces: here te is the reflexive pronoun (tú te mereces). Without te, \"Mereces unas vacaciones\" is also correct."),
       fe("No ___ más este ruido.", "aguanto", "I can't [take] this noise any more.", "aguantar = to put up with. Soportar works too.", ["soporto"]),
       fe("Mi hermano está ___ de su profesora.", "enamorado", "My brother is [in love] with his teacher.", "enamorado de = in love with."),
       fe("Siempre ___ el tráfico de la mañana.", "evito", "I always [avoid] the morning traffic.", "evitar → evito."),
       toEs("Thank you, your help is great.", "Gracias, tu ayuda es estupenda.", "estupendo agrees with ayuda.", ["Gracias, su ayuda es estupenda.", "Gracias, tu ayuda es genial."]),
       toEs("We really enjoy the beach.", "Disfrutamos mucho de la playa.", "disfrutar de = to enjoy.", ["Nosotros disfrutamos mucho de la playa.", "Disfrutamos mucho la playa."]),
       toEs("I think the news is fake.", "Creo que la noticia es falsa.", "falso agrees with noticia.", ["Pienso que la noticia es falsa."]),
-      toEn("Me han engañado y han arruinado mis vacaciones.", "They've cheated me and ruined my holiday.", "engañar = to cheat, deceive; arruinar = to ruin.", ["They have deceived me and ruined my vacation.", "I've been cheated and they've ruined my holiday."]),
+      toEn("Me engañaron y arruinaron mis vacaciones.", "They cheated me and ruined my holiday.", "engañar = to cheat, deceive; arruinar = to ruin.", ["They deceived me and ruined my vacation.", "They cheated me and ruined my vacation.", "I was cheated and they ruined my holiday."]),
       mt(
         "Match each word to its meaning.",
         [
@@ -579,7 +579,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       ),
       sec(
         "Linking words",
-        "Debido a (due to), respecto a (regarding), excepto (except), apenas (hardly, barely), inmediatamente (immediately), definitivamente (definitely), afuera (outside).",
+        "Debido a (due to), respecto a (regarding), excepto (except), apenas (hardly, barely), inmediatamente (immediately), definitivamente (for good, once and for all; also definitely), afuera (outside).",
         [
           ["El vuelo está cancelado debido a la niebla.", "The flight is canceled due to the fog."],
           ["Respecto a tu pregunta, no tengo una respuesta.", "Regarding your question, I don't have an answer."],
@@ -607,7 +607,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
           ["el nivel", "level"],
           ["el miembro", "member"],
           ["la posibilidad", "possibility"],
-          ["la elección", "choice, election"],
+          ["la posición", "position"],
         ],
         "Words for plans, work and decisions."
       ),
@@ -695,7 +695,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
         [
           ["¿El secreto? Dímelo.", "The secret? Tell it to me."],
           ["¿El paquete? Dáselo al vecino.", "The package? Give it to the neighbor."],
-          ["¿La sorpresa? No se la cuentes.", "The surprise? Don't tell it to her."],
+          ["¿La sorpresa? Cuéntasela.", "The surprise? Tell it to her."],
         ],
         [
           mc(
@@ -711,9 +711,9 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       fe("¿La foto? Voy a ___ ahora.", "mandártela", "The photo? I'm going to [send it to you] now.", "mandar + te + la, joined with an accent."),
       fe("¿El café? Estoy ___.", "preparándotelo", "The coffee? I'm [making it for you].", "preparando + te + lo, accent on the á."),
       fe("¿Las llaves? ___, por favor.", "Dámelas", "The keys? [Give them to me], please.", "A yes command: da + me + las."),
-      toEs("I can't tell you it.", "No te lo puedo decir.", "te + lo before puedo, or joined: no puedo decírtelo.", ["No puedo decírtelo."]),
+      toEs("I can't tell you (it).", "No te lo puedo decir.", "te + lo before puedo, or joined: no puedo decírtelo.", ["No puedo decírtelo."]),
       toEs("Give it to me, please.", "Dámelo, por favor.", "A yes command joins the pair: dámelo.", ["Dámela, por favor.", "Démelo, por favor."]),
-      toEs("Don't tell it to him.", "No se lo digas.", "A no command: se lo before digas.", ["No se lo digas a él."]),
+      toEs("Tell it to him.", "Díselo.", "A yes command: the pair joins the end, se before lo, with an accent: díselo.", ["Díselo a él."]),
       toEn("¿El regalo? Queremos dárselo mañana.", "The present? We want to give it to him tomorrow.", "dar + se + lo: to give it to him / her / them.", ["The present? We want to give it to her tomorrow.", "The gift? We want to give it to him tomorrow.", "The gift? We want to give it to her tomorrow.", "The present? We want to give it to them tomorrow."]),
       wo("No te lo voy a decir.", "Both pronouns before the conjugated verb.", "I'm not going to tell you."),
     ]

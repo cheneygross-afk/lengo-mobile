@@ -353,7 +353,7 @@ export const B1_GAPS: AnchoredLesson[] = [
       sec(
         "Volver a y dejar de: repetir y parar",
         [
-          "Volver a + infinitivo = hacer algo otra vez: Volvió a llamar (he called again). Es más natural que «llamó otra vez», aunque las dos son correctas.",
+          "Volver a + infinitivo = hacer algo otra vez: Volvió a llamar (he called again). Es muy frecuente y natural; «llamó otra vez» también es correcto.",
           "Dejar de + infinitivo = parar, abandonar una costumbre: Dejé de fumar hace dos años. En negativo, no dejar de = seguir, no olvidar: No dejes de visitar el museo (make sure you visit).",
           "Volver a también expresa promesas: No volverá a pasar = It won't happen again.",
         ],
@@ -409,10 +409,10 @@ export const B1_GAPS: AnchoredLesson[] = [
         "Cada perífrasis tiene su preposición fija: acabar DE, volver A, dejar DE, echarse A, ir A."
       ),
       fe(
-        "Perdona, ¿puedes ___ repetir el número?",
+        "Perdona, ¿puedes ___ decir el número?",
         "volver a",
-        "Sorry, can you repeat the number [again]?",
-        "Volver a + infinitivo = hacer algo otra vez. También se oye «repetir otra vez», aunque es redundante.",
+        "Sorry, can you say the number [again]?",
+        "Volver a + infinitivo = hacer algo otra vez: volver a decir. Ojo: «volver a repetir» y «repetir otra vez» son redundantes.",
         ["volverme a"]
       ),
       fe(
@@ -807,7 +807,7 @@ export const B1_GAPS: AnchoredLesson[] = [
         [
           "Olvidé las llaves y se me olvidaron las llaves son correctas, pero no dicen lo mismo. Con el se accidental, la acción parece algo que te pasó, no algo que hiciste.",
           "Compara: Rompí el plato (puede sonar a que lo hiciste a propósito o que asumes la acción) / Se me rompió el plato (fue un accidente).",
-          "Por eso es tan útil para disculparse: Perdón, se me hizo tarde. Se me pasó la hora. Se me fue la cabeza (I lost my train of thought).",
+          "Por eso es tan útil para disculparse: Perdón, se me hizo tarde. Se me pasó la hora. Se me fue la cabeza (my mind went blank).",
           "Para dar énfasis o aclarar quién, añade a + persona: A mí se me olvidó, pero a ella no.",
         ],
         [

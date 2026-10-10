@@ -787,7 +787,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 5,
     "title": "Review: Pronouns, Ser, Gender & Articles",
-    "summary": "No new material -- a focused review of everything from the first two lessons before adjectives and verbs pile on.",
+    "summary": "No new material -- a focused review of pronouns, ser, gender and articles before adjectives and verbs pile on.",
     "duration": "8 min",
     "sections": [],
     "exercises": [
@@ -2872,7 +2872,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Fill in the possessive adjective for \"my\".",
         "sentence": "___ perro es pequeño.",
         "answer": "mi",
-        "explanation": "\"Mi\" (my) before a singular noun."
+        "explanation": "Perro is singular, so it takes mi; with several dogs it would be mis: mis perros."
       },
       {
         "type": "fill-blank",
@@ -3123,30 +3123,30 @@ const A1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "matching",
-        "instructions": "Match each Spanish ordinal number to its English meaning.",
+        "instructions": "Match each number to its written form.",
         "pairs": [
           {
-            "left": "primero",
-            "right": "first"
+            "left": "16",
+            "right": "dieciséis"
           },
           {
-            "left": "tercero",
-            "right": "third"
+            "left": "22",
+            "right": "veintidós"
           },
           {
-            "left": "quinto",
-            "right": "fifth"
+            "left": "45",
+            "right": "cuarenta y cinco"
           },
           {
-            "left": "octavo",
-            "right": "eighth"
+            "left": "100",
+            "right": "cien"
           },
           {
-            "left": "décimo",
-            "right": "tenth"
+            "left": "500",
+            "right": "quinientos"
           }
         ],
-        "explanation": "Primero (1st), tercero (3rd), quinto (5th), octavo (8th), décimo (10th) — remember primero and tercero shorten to primer/tercer before a masculine singular noun."
+        "explanation": "16–29 are single words (dieciséis, veintidós); from 31 on, tens and units are joined with y (cuarenta y cinco); cien is exactly 100; and 500 is the irregular quinientos."
       }
     ]
   },
@@ -3441,7 +3441,7 @@ const A1_BASE_LESSONS: Lesson[] = [
             "type": "multiple-choice",
             "question": "Which Spanish sentence means \"It's 4:40\"?",
             "options": [
-              "Son las cuatro y cuarenta",
+              "Son las cuatro y cuarto",
               "Son las cinco menos veinte",
               "Son las cuatro menos veinte",
               "Son las cinco y veinte"
@@ -3493,12 +3493,12 @@ const A1_BASE_LESSONS: Lesson[] = [
         "instructions": "Match each Spanish time expression to what it means.",
         "pairs": [
           {
-            "left": "mediodía",
-            "right": "noon"
+            "left": "y cuarto",
+            "right": "quarter past"
           },
           {
-            "left": "medianoche",
-            "right": "midnight"
+            "left": "menos cuarto",
+            "right": "quarter to"
           },
           {
             "left": "en punto",
@@ -3509,7 +3509,7 @@ const A1_BASE_LESSONS: Lesson[] = [
             "right": "half past"
           }
         ],
-        "explanation": "These are common time-telling words and phrases that don't fit the numbered-hour pattern."
+        "explanation": "These phrases follow the hour: y cuarto (:15), y media (:30), menos cuarto (15 minutes to the next hour) and en punto (exactly on the hour)."
       }
     ]
   },
@@ -4142,9 +4142,9 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Fill in the preposition meaning \"without\".",
-        "sentence": "Vivo ___ mis padres ahora.",
+        "sentence": "Tomo el café ___ azúcar.",
         "answer": "sin",
-        "explanation": "Sin means without: I live without my parents now."
+        "explanation": "Sin means without: I drink my coffee without sugar."
       },
       {
         "type": "translate",
@@ -4225,6 +4225,9 @@ const A1_BASE_LESSONS: Lesson[] = [
             "prompt": "Translate to Spanish.",
             "source": "I like music.",
             "answer": "Me gusta la música.",
+            "altAnswers": [
+              "A mí me gusta la música."
+            ],
             "explanation": "\"La música\" is singular, so it takes gusta, with me for \"to me\"."
           }
         ]
@@ -4538,6 +4541,10 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate to Spanish.",
         "source": "We like fish.",
         "answer": "Nos gusta el pescado.",
+        "altAnswers": [
+          "A nosotros nos gusta el pescado.",
+          "A nosotras nos gusta el pescado."
+        ],
         "explanation": "El pescado is one (singular) thing liked → gusta, with nos for \"to us\"."
       },
       {
@@ -4673,6 +4680,13 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate to Spanish.",
         "source": "We really like soccer.",
         "answer": "Nos gusta mucho el fútbol.",
+        "altAnswers": [
+          "A nosotros nos gusta mucho el fútbol.",
+          "A nosotras nos gusta mucho el fútbol.",
+          "Nos encanta el fútbol.",
+          "Nos gusta el fútbol mucho.",
+          "Nos gusta muchísimo el fútbol."
+        ],
         "explanation": "El fútbol is one (singular) thing liked → gusta, with nos for \"to us\" and mucho adding emphasis."
       },
       {
@@ -4743,7 +4757,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "tengo, tienes, tiene, tenemos, tenéis, tienen",
-            "en": "I/you/he.../ have"
+            "en": "I/you/he... have"
           },
           {
             "es": "Tengo 25 años.",
@@ -7562,8 +7576,8 @@ const A1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "¿Quién llamó?",
-            "en": "Who called?"
+            "es": "¿Quién llama?",
+            "en": "Who's calling?"
           },
           {
             "es": "¿Quiénes son ellos?",
@@ -7980,7 +7994,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿ ___ no viniste a la fiesta? — 'Porque estaba enfermo.'",
+        "question": "¿ ___ no vienes a la fiesta? — 'Porque estoy enfermo.'",
         "options": [
           "Por qué",
           "Para qué",
@@ -9194,7 +9208,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "contento"
         ],
         "translation": "I have two brothers and I am happy.",
-        "explanation": "Tengo dos hermanos y estoy contento shows tener used for possession, separate from tener expressions of feeling."
+        "explanation": "Tener for what you have (tengo dos hermanos); estar for how you feel (estoy contento). Contento is an adjective, so it takes estar; tener only goes with feeling nouns like hambre or frío."
       }
     ]
   },
@@ -9827,9 +9841,9 @@ const A1_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "People & occupations (Lesson 1)",
+        "heading": "People & occupations",
         "body": [
-          "Test yourself on these 20 words before checking your work — no peeking back at Lesson 1!"
+          "Test yourself on these 20 words before checking your work — no peeking back at the 'Greetings, Subject Pronouns & Ser' lesson!"
         ],
         "checkpoint": [
           {
@@ -9877,7 +9891,7 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "doctor"
               }
             ],
-            "explanation": "These are the first ten people & occupations words from Lesson 1."
+            "explanation": "These are the first ten people & occupations words from the 'Greetings, Subject Pronouns & Ser' lesson."
           },
           {
             "type": "matching",
@@ -9924,14 +9938,14 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "tourist"
               }
             ],
-            "explanation": "...and the second ten people & occupations words from Lesson 1."
+            "explanation": "...and the second ten people & occupations words from the 'Greetings, Subject Pronouns & Ser' lesson."
           }
         ]
       },
       {
-        "heading": "Around the house (Lesson 2)",
+        "heading": "Around the house",
         "body": [
-          "Test yourself on these 20 words before checking your work — no peeking back at Lesson 2!"
+          "Test yourself on these 20 words before checking your work — no peeking back at the 'Gender, Number & Articles' lesson!"
         ],
         "checkpoint": [
           {
@@ -9979,7 +9993,7 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "closet / cabinet"
               }
             ],
-            "explanation": "These are the first ten around the house words from Lesson 2."
+            "explanation": "These are the first ten around the house words from the 'Gender, Number & Articles' lesson."
           },
           {
             "type": "matching",
@@ -10026,14 +10040,14 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "garden / yard"
               }
             ],
-            "explanation": "...and the second ten around the house words from Lesson 2."
+            "explanation": "...and the second ten around the house words from the 'Gender, Number & Articles' lesson."
           }
         ]
       },
       {
-        "heading": "Colors & everyday descriptions (Lesson 3)",
+        "heading": "Colors & everyday descriptions",
         "body": [
-          "Test yourself on these 20 words before checking your work — no peeking back at Lesson 3!"
+          "Test yourself on these 20 words before checking your work — no peeking back at the 'Adjective Agreement & Placement' lesson!"
         ],
         "checkpoint": [
           {
@@ -10081,7 +10095,7 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "small"
               }
             ],
-            "explanation": "These are the first ten colors & everyday descriptions words from Lesson 3."
+            "explanation": "These are the first ten colors & everyday descriptions words from the 'Adjective Agreement & Placement' lesson."
           },
           {
             "type": "matching",
@@ -10128,7 +10142,7 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "difficult"
               }
             ],
-            "explanation": "...and the second ten colors & everyday descriptions words from Lesson 3."
+            "explanation": "...and the second ten colors & everyday descriptions words from the 'Adjective Agreement & Placement' lesson."
           }
         ]
       }
@@ -10144,7 +10158,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "vecino",
           "vecina"
         ],
-        "explanation": "From the People & occupations list (Lesson 1)."
+        "explanation": "From the People & occupations list (from the 'Greetings, Subject Pronouns & Ser' lesson)."
       },
       {
         "type": "translate",
@@ -10152,14 +10166,14 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate this word to English.",
         "source": "espejo",
         "answer": "mirror",
-        "explanation": "From the Around the house list (Lesson 2)."
+        "explanation": "From the Around the house list (from the 'Gender, Number & Articles' lesson)."
       },
       {
         "type": "fill-blank",
         "prompt": "Fill in the Spanish word.",
         "sentence": "The Spanish word for \"strong\" is ___.",
         "answer": "fuerte",
-        "explanation": "From the Colors & descriptions list (Lesson 3)."
+        "explanation": "From the Colors & descriptions list (from the 'Adjective Agreement & Placement' lesson)."
       }
     ]
   },
@@ -10172,9 +10186,9 @@ const A1_BASE_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "More -ar verbs (Lesson 4)",
+        "heading": "More -ar verbs",
         "body": [
-          "Test yourself on these 20 words before checking your work — no peeking back at Lesson 4!"
+          "Test yourself on these 20 words before checking your work — no peeking back at the 'Present Tense: Regular -AR Verbs' lesson!"
         ],
         "checkpoint": [
           {
@@ -10222,7 +10236,7 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "to carry / wear"
               }
             ],
-            "explanation": "These are the first ten more -ar verbs words from Lesson 4."
+            "explanation": "These are the first ten more -ar verbs words from the 'Present Tense: Regular -AR Verbs' lesson."
           },
           {
             "type": "matching",
@@ -10269,14 +10283,14 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "to paint"
               }
             ],
-            "explanation": "...and the second ten more -ar verbs words from Lesson 4."
+            "explanation": "...and the second ten more -ar verbs words from the 'Present Tense: Regular -AR Verbs' lesson."
           }
         ]
       },
       {
-        "heading": "More -er and -ir verbs (Lesson 5)",
+        "heading": "More -er and -ir verbs",
         "body": [
-          "Test yourself on these 20 words before checking your work — no peeking back at Lesson 5!"
+          "Test yourself on these 20 words before checking your work — no peeking back at the 'Present Tense: Regular -ER and -IR Verbs' lesson!"
         ],
         "checkpoint": [
           {
@@ -10324,7 +10338,7 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "to describe"
               }
             ],
-            "explanation": "These are the first ten more -er and -ir verbs words from Lesson 5."
+            "explanation": "These are the first ten more -er and -ir verbs words from the 'Present Tense: Regular -ER and -IR Verbs' lesson."
           },
           {
             "type": "matching",
@@ -10371,14 +10385,14 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "to divide"
               }
             ],
-            "explanation": "...and the second ten more -er and -ir verbs words from Lesson 5."
+            "explanation": "...and the second ten more -er and -ir verbs words from the 'Present Tense: Regular -ER and -IR Verbs' lesson."
           }
         ]
       },
       {
-        "heading": "Feelings & states (Lesson 6)",
+        "heading": "Feelings & states",
         "body": [
-          "Test yourself on these 20 words before checking your work — no peeking back at Lesson 6!"
+          "Test yourself on these 20 words before checking your work — no peeking back at the 'Ser vs. Estar' lesson!"
         ],
         "checkpoint": [
           {
@@ -10426,7 +10440,7 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "surprised"
               }
             ],
-            "explanation": "These are the first ten feelings & states words from Lesson 6."
+            "explanation": "These are the first ten feelings & states words from the 'Ser vs. Estar' lesson."
           },
           {
             "type": "matching",
@@ -10473,7 +10487,7 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "stressed"
               }
             ],
-            "explanation": "...and the second ten feelings & states words from Lesson 6."
+            "explanation": "...and the second ten feelings & states words from the 'Ser vs. Estar' lesson."
           }
         ]
       }
@@ -10500,7 +10514,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate to Spanish.",
         "source": "to receive",
         "answer": "recibir",
-        "explanation": "From the -er/-ir verbs list (Lesson 5)."
+        "explanation": "From the -er/-ir verbs list (from the 'Present Tense: Regular -ER and -IR Verbs' lesson)."
       },
       {
         "type": "translate",
@@ -10512,7 +10526,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "preocupada",
           "preocupado/a"
         ],
-        "explanation": "From the Feelings & states list (Lesson 6)."
+        "explanation": "From the Feelings & states list (from the 'Ser vs. Estar' lesson)."
       }
     ]
   },
@@ -10525,9 +10539,9 @@ const A1_BASE_LESSONS: Lesson[] = [
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Family & location words (Lesson 7)",
+        "heading": "Family & location words",
         "body": [
-          "Test yourself on these 20 words before checking your work — no peeking back at Lesson 7!"
+          "Test yourself on these 20 words before checking your work — no peeking back at the 'Possessive Adjectives & Basic Prepositions' lesson!"
         ],
         "checkpoint": [
           {
@@ -10575,7 +10589,7 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "boyfriend / girlfriend"
               }
             ],
-            "explanation": "These are the first ten family & location words words from Lesson 7."
+            "explanation": "These are the first ten family & location words from the 'Possessive Adjectives & Basic Prepositions' lesson."
           },
           {
             "type": "matching",
@@ -10622,14 +10636,14 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "around"
               }
             ],
-            "explanation": "...and the second ten family & location words words from Lesson 7."
+            "explanation": "...and the second ten family & location words from the 'Possessive Adjectives & Basic Prepositions' lesson."
           }
         ]
       },
       {
-        "heading": "Time & everyday quantities (Lesson 8)",
+        "heading": "Time & everyday quantities",
         "body": [
-          "Test yourself on these 20 words before checking your work — no peeking back at Lesson 8!"
+          "Test yourself on these 20 words before checking your work — no peeking back at the 'Question Words & Asking Questions' lesson!"
         ],
         "checkpoint": [
           {
@@ -10677,7 +10691,7 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "early"
               }
             ],
-            "explanation": "These are the first ten time & everyday quantities words from Lesson 8."
+            "explanation": "These are the first ten time & everyday quantities words from the 'Question Words & Asking Questions' lesson."
           },
           {
             "type": "matching",
@@ -10724,7 +10738,7 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "nothing"
               }
             ],
-            "explanation": "...and the second ten time & everyday quantities words from Lesson 8."
+            "explanation": "...and the second ten time & everyday quantities words from the 'Question Words & Asking Questions' lesson."
           }
         ]
       }
@@ -10736,14 +10750,14 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate this word to English.",
         "source": "casado/a",
         "answer": "married",
-        "explanation": "From the Feelings & states list (Lesson 6)."
+        "explanation": "From the Feelings & states list (from the 'Ser vs. Estar' lesson)."
       },
       {
         "type": "fill-blank",
         "prompt": "Fill in the Spanish word.",
         "sentence": "The Spanish word for \"between\" is ___.",
         "answer": "entre",
-        "explanation": "From the Family & location words list (Lesson 7)."
+        "explanation": "From the Family & location words list (from the 'Possessive Adjectives & Basic Prepositions' lesson)."
       },
       {
         "type": "translate",
@@ -10751,7 +10765,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate to Spanish.",
         "source": "always",
         "answer": "siempre",
-        "explanation": "From the Time & quantities list (Lesson 8)."
+        "explanation": "From the Time & quantities list (from the 'Question Words & Asking Questions' lesson)."
       }
     ]
   },
@@ -10764,9 +10778,9 @@ const A1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Food & hobbies (Lesson 9)",
+        "heading": "Food & hobbies",
         "body": [
-          "Test yourself on these 20 words before checking your work — no peeking back at Lesson 9!"
+          "Test yourself on these 20 words before checking your work — no peeking back at the 'Gustar and Expressing Likes' lesson!"
         ],
         "checkpoint": [
           {
@@ -10814,7 +10828,7 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "salad"
               }
             ],
-            "explanation": "These are the first ten food & hobbies words from Lesson 9."
+            "explanation": "These are the first ten food & hobbies words from the 'Gustar and Expressing Likes' lesson."
           },
           {
             "type": "matching",
@@ -10861,14 +10875,14 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "song"
               }
             ],
-            "explanation": "...and the second ten food & hobbies words from Lesson 9."
+            "explanation": "...and the second ten food & hobbies words from the 'Gustar and Expressing Likes' lesson."
           }
         ]
       },
       {
-        "heading": "Places around town (Lesson 10)",
+        "heading": "Places around town",
         "body": [
-          "Test yourself on these 20 words before checking your work — no peeking back at Lesson 10!"
+          "Test yourself on these 20 words before checking your work — no peeking back at the 'Key Irregular Verbs: Tener, Ir, Hacer + Hay' lesson!"
         ],
         "checkpoint": [
           {
@@ -10916,7 +10930,7 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "museum"
               }
             ],
-            "explanation": "These are the first ten places around town words from Lesson 10."
+            "explanation": "These are the first ten places around town words from the 'Key Irregular Verbs: Tener, Ir, Hacer + Hay' lesson."
           },
           {
             "type": "matching",
@@ -10963,7 +10977,7 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "gym"
               }
             ],
-            "explanation": "...and the second ten places around town words from Lesson 10."
+            "explanation": "...and the second ten places around town words from the 'Key Irregular Verbs: Tener, Ir, Hacer + Hay' lesson."
           }
         ]
       }
@@ -10990,7 +11004,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate this word to English.",
         "source": "biblioteca",
         "answer": "library",
-        "explanation": "From the Places around town list (Lesson 10)."
+        "explanation": "From the Places around town list (from the 'Key Irregular Verbs: Tener, Ir, Hacer + Hay' lesson)."
       }
     ]
   },
@@ -10999,11 +11013,11 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 57,
     "title": "Beginner Comprehensive Review, Part 1 of 3",
-    "summary": "Recap every grammar principle from the Beginner level, then take a 32-question final test.",
+    "summary": "Recap every grammar principle from the Beginner level, then test yourself on each one.",
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Subject Pronouns & Ser (Lesson 1)",
+        "heading": "Subject Pronouns & Ser",
         "body": [
           "Yo, tú, él/ella/usted, nosotros, vosotros, and ellos/ellas/ustedes are your subject pronouns. Ser (soy, eres, es, somos, sois, son) covers identity, profession, origin, and time."
         ],
@@ -11019,7 +11033,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Gender, Number & Articles (Lesson 2)",
+        "heading": "Gender, Number & Articles",
         "body": [
           "Nouns are masculine or feminine, singular or plural, and the article (el/la/los/las, un/una) has to match."
         ],
@@ -11035,7 +11049,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Adjective Agreement & Placement (Lesson 3)",
+        "heading": "Adjective Agreement & Placement",
         "body": [
           "Adjectives usually follow the noun and must match its gender and number."
         ],
@@ -11051,7 +11065,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "-AR Verbs (Lesson 4)",
+        "heading": "-AR Verbs",
         "body": [
           "Drop -ar and add -o, -as, -a, -amos, -áis, -an."
         ],
@@ -11175,11 +11189,11 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 58,
     "title": "Beginner Comprehensive Review, Part 2 of 3",
-    "summary": "Recap every grammar principle from the Beginner level, then take a 32-question final test.",
+    "summary": "Recap every grammar principle from the Beginner level, then test yourself on each one.",
     "duration": "9 min",
     "sections": [
       {
-        "heading": "-ER and -IR Verbs (Lesson 5)",
+        "heading": "-ER and -IR Verbs",
         "body": [
           "-er verbs add -o, -es, -e, -emos, -éis, -en. -ir verbs are almost the same, but use -imos and -ís instead."
         ],
@@ -11195,7 +11209,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Ser vs. Estar (Lesson 6)",
+        "heading": "Ser vs. Estar",
         "body": [
           "Ser is for lasting traits and identity; estar is for temporary states and location."
         ],
@@ -11211,7 +11225,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Possessives & Prepositions (Lesson 7)",
+        "heading": "Possessives & Prepositions",
         "body": [
           "Possessives (mi, tu, su, nuestro...) agree with the thing owned, not the owner. Common prepositions: en, de, a, con, para, sin."
         ],
@@ -11345,11 +11359,11 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 59,
     "title": "Beginner Comprehensive Review, Part 3 of 3",
-    "summary": "Recap every grammar principle from the Beginner level, then take a 32-question final test.",
+    "summary": "Recap every grammar principle from the Beginner level, then test yourself on each one.",
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Question Words (Lesson 8)",
+        "heading": "Question Words",
         "body": [
           "Qué, quién, dónde, cuándo, cómo, por qué, and cuánto open most questions, framed by upside-down and regular question marks: ¿...?"
         ],
@@ -11361,7 +11375,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Gustar (Lesson 9)",
+        "heading": "Gustar",
         "body": [
           "Gustar flips the sentence: the thing liked is the subject. Use gusta for one thing or an action, gustan for more than one thing."
         ],
@@ -11377,7 +11391,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Tener, Ir, Hacer & Hay (Lesson 10)",
+        "heading": "Tener, Ir, Hacer & Hay",
         "body": [
           "Four essential irregulars: tener (to have, also age and obligation), ir (to go, also the near future with ir a), hacer (to do/make, also weather), and hay (there is/are, which never changes form)."
         ],
@@ -11585,7 +11599,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "La familia López vive cerca del mar. Un sábado por la mañana, deciden ir a la playa. El papá prepara sándwiches y la mamá busca las toallas. Los niños, Sofía y Diego, están muy contentos.",
           "En el coche, todos cantan canciones y miran el cielo azul. Cuando llegan a la playa, el sol brilla mucho. Sofía corre hacia el agua con una sonrisa grande. Diego lleva un balde y una pala amarilla.",
           "Los niños construyen un castillo de arena cerca del agua. Diego pone agua en el balde y Sofía hace las paredes altas. El papá ayuda con las torres y la mamá decora el castillo con conchas. El castillo es el más grande de la playa.",
-          "Después, toda la familia nada en el mar. El agua está fría, pero es muy divertida. Diego aprende a flotar con la ayuda de su papá. Sofía busca conchas de colores cerca de las rocas.",
+          "Después, toda la familia nada en el mar. El agua está fría, pero lo pasan muy bien. Diego aprende a flotar con la ayuda de su papá. Sofía busca conchas de colores cerca de las rocas.",
           "A la hora de comer, la familia se sienta bajo una sombrilla grande. Comen los sándwiches y beben agua fresca. Sofía comparte sus conchas con su hermano. Diego dice que este es el mejor día del verano.",
           "Por la tarde, el sol empieza a bajar y el cielo cambia de color. La familia recoge sus cosas y camina hacia el coche. Todos están cansados pero muy felices. En casa, Sofía guarda una concha especial para recordar el día."
         ]
@@ -11642,8 +11656,8 @@ const A1_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Tomás tiene ocho años y siempre quiere un perro. Un día, su familia va a un refugio de animales. Allí, Tomás ve un cachorro pequeño y marrón. El cachorro mueve la cola y Tomás sonríe mucho.",
-          "La familia decide llevar el cachorro a casa. Tomás lo llama Rocky porque es fuerte y valiente. Rocky corre por toda la casa y huele todos los muebles. Al principio, Rocky está un poco nervioso.",
-          "Cada día, Tomás juega con Rocky en el jardín. Le da agua fresca y comida especial para cachorros. Rocky empieza a conocer a Tomás y ya no tiene miedo. Los dos son mejores amigos rápidamente.",
+          "La familia decide llevar al cachorro a casa. Tomás lo llama Rocky porque es fuerte y valiente. Rocky corre por toda la casa y huele todos los muebles. Al principio, Rocky está un poco nervioso.",
+          "Cada día, Tomás juega con Rocky en el jardín. Le da agua fresca y comida especial para cachorros. Rocky empieza a conocer a Tomás y ya no tiene miedo. Rápidamente, los dos se hacen muy buenos amigos.",
           "Tomás quiere enseñar un truco a Rocky. Todos los días, dice \"siéntate\" y le da un premio pequeño. Al principio, Rocky no entiende y solo salta. Pero Tomás tiene paciencia y practica cada tarde.",
           "Después de dos semanas, algo increíble pasa. Tomás dice \"siéntate\" y Rocky se sienta al instante. Tomás grita de alegría y abraza a su perro. Toda la familia celebra el nuevo truco de Rocky.",
           "Ahora, Rocky sabe muchos trucos más. Tomás está muy orgulloso de su perro inteligente. Cada noche, Rocky duerme cerca de la cama de Tomás. Los dos son una familia perfecta."
@@ -11700,7 +11714,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Hoy es el cumpleaños de Elena, pero ella está triste. Piensa que sus amigos olvidan su cumpleaños porque nadie habla del tema. En realidad, sus amigos planean una fiesta sorpresa. Todos guardan el secreto con mucho cuidado.",
+          "Hoy es el cumpleaños de Elena, pero ella está triste. Piensa que sus amigos no recuerdan su cumpleaños porque nadie habla del tema. En realidad, sus amigos planean una fiesta sorpresa. Todos guardan el secreto con mucho cuidado.",
           "Después de la escuela, Elena camina a casa muy despacio. Su amiga Carla la invita a su casa \"para estudiar\". Elena no quiere ir, pero acepta la invitación. Ella no sabe qué pasa en realidad.",
           "Cuando Elena abre la puerta de la casa de Carla, las luces están apagadas. De repente, todos gritan \"¡Sorpresa!\" y las luces se encienden. Elena ve a todos sus amigos y también a su familia. Hay globos de colores y un pastel de chocolate.",
           "Elena no puede creer lo que ve. Empieza a reír y también a llorar de felicidad. Sus amigos cantan la canción de cumpleaños con mucha energía. Elena abraza a Carla y le da las gracias.",
@@ -11720,7 +11734,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "She has to move away"
         ],
         "correctIndex": 1,
-        "explanation": "The text says she \"piensa que sus amigos olvidan su cumpleaños\" (thinks her friends are forgetting her birthday)."
+        "explanation": "The text says she \"piensa que sus amigos no recuerdan su cumpleaños\" (thinks her friends don't remember her birthday)."
       },
       {
         "type": "multiple-choice",
@@ -11762,7 +11776,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Cada domingo, Andrés visita a su abuela Rosa. Su abuela vive en una casa pequeña con un jardín bonito. Ella siempre prepara una sopa de verduras muy famosa. Toda la familia dice que es la mejor sopa del mundo.",
           "Hoy, Andrés quiere aprender a preparar la sopa. Su abuela sonríe y le dice \"¡Vamos a cocinar juntos!\" Primero, lavan las verduras: zanahorias, papas y cebollas. Andrés corta las verduras con mucho cuidado.",
           "La abuela Rosa pone las verduras en una olla grande con agua. También agrega sal y un poco de pimienta. Andrés pregunta cuál es el secreto de la sopa. Su abuela solo sonríe y no responde todavía.",
-          "Mientras la sopa cocina, la casa huele muy bien. Andrés y su abuela hablan sobre la escuela y los amigos. Después de una hora, la sopa está lista para comer. La abuela sirve dos platos calientes.",
+          "Mientras la sopa se cocina, la casa huele muy bien. Andrés y su abuela hablan sobre la escuela y los amigos. Después de una hora, la sopa está lista para comer. La abuela sirve dos platos calientes.",
           "Antes de comer, la abuela toma un frasco pequeño de la cocina. Dentro hay hierbas frescas de su jardín. \"Este es mi secreto\", dice ella, y pone las hierbas en la sopa. Andrés prueba la sopa y sonríe mucho.",
           "\"¡Está deliciosa, abuela!\" dice Andrés con la boca llena. Su abuela le da un abrazo grande y feliz. Ahora, Andrés también conoce el secreto de la sopa. Los domingos con su abuela son sus días favoritos."
         ]
@@ -11822,7 +11836,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Hoy es el partido más importante del año. El entrenador mira a todos los jugadores en el banco. De repente, dice el nombre de Marcos. \"¡Marcos, entra al partido!\" grita el entrenador.",
           "Marcos corre al campo con el corazón acelerado. Sus compañeros le pasan el balón varias veces. Él corre rápido y practica lo que aprende en los entrenamientos. El público grita y anima a todo el equipo.",
           "En el segundo tiempo, un compañero pasa el balón a Marcos. Marcos ve la portería y respira profundo. Con mucha fuerza, patea el balón hacia la portería. ¡El balón entra! Es un gol.",
-          "Todo el estadio grita de alegría. Los compañeros de Marcos corren hacia él y lo abrazan. El entrenador sonríe desde el banco y aplaude fuerte. Marcos no puede creer que finalmente mete un gol.",
+          "Todo el estadio grita de alegría. Los compañeros de Marcos corren hacia él y lo abrazan. El entrenador sonríe desde el banco y aplaude fuerte. Marcos no puede creerlo: ¡por fin mete un gol!",
           "Después del partido, la familia de Marcos lo espera afuera. Su papá le da un abrazo enorme y está muy orgulloso. Esa noche, Marcos duerme con una sonrisa en la cara. Es el mejor día de su vida como futbolista."
         ]
       }
@@ -11968,7 +11982,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Painting"
         ],
         "correctIndex": 0,
-        "explanation": "The text says \"le enseña a jugar ajedrez los sábados\" (teaches him to play chess on Saturdays)."
+        "explanation": "The text says \"Los sábados, el señor Martín enseña ajedrez a Diego\" (On Saturdays, Mr. Martín teaches Diego chess)."
       },
       {
         "type": "multiple-choice",
@@ -12174,7 +12188,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "body": [
           "Todos los sábados, Mateo va al mercado con su mamá. El mercado está lleno de colores, olores y sonidos. Hay puestos de frutas, verduras, flores y pan fresco. Mateo lleva una bolsa de tela para las compras.",
           "Primero, van al puesto de frutas. La mamá de Mateo compra manzanas, plátanos y naranjas. El vendedor sonríe y le da una fruta pequeña a Mateo para probar. \"¿Qué fruta es esta?\" pregunta Mateo con curiosidad.",
-          "\"Se llama mango\", responde el vendedor amablemente. Mateo prueba el mango y le encanta el sabor dulce. Pide a su mamá comprar varios mangos para la casa. Su mamá dice que sí y compra una bolsa llena.",
+          "\"Se llama mango\", responde el vendedor amablemente. Mateo prueba el mango y le encanta el sabor dulce. Le pide a su mamá que compre varios mangos para la casa. Su mamá dice que sí y compra una bolsa llena.",
           "Después, caminan hacia el puesto de verduras. Compran tomates, zanahorias y una lechuga grande. El vendedor de verduras conoce a la mamá de Mateo desde hace años. Hablan un momento sobre el clima y la familia.",
           "Mateo también quiere comprar flores para su abuela. En el puesto de flores, escoge unas flores amarillas bonitas. Su mamá paga por las flores y Mateo las carga con cuidado. Las flores huelen muy dulce en sus manos.",
           "Al final, compran pan fresco de una panadería pequeña. Caminan a casa con las bolsas llenas de comida. Mateo piensa en el mango delicioso todo el camino. Esa tarde, come mango con toda su familia y sonríe feliz."
@@ -12235,7 +12249,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "El sábado por la mañana, buscan materiales en casa. Usan papel de colores, dos palos de madera y un poco de cuerda. Isabel dibuja estrellas y soles en el papel. Su papá ata los palos con mucho cuidado.",
           "Después de una hora de trabajo, la cometa está lista. Es amarilla y azul, con una cola larga de tela. Isabel está muy orgullosa de su cometa hecha en casa. Los dos caminan al parque cerca de su casa.",
           "En el parque, hace mucho viento ese día. Isabel sostiene la cometa mientras su papá sostiene la cuerda. \"¡Corre!\" dice su papá, y los dos corren juntos por el pasto. La cometa empieza a subir poco a poco hacia el cielo.",
-          "De repente, un viento fuerte levanta la cometa muy alto. Isabel grita de emoción y sostiene la cuerda con fuerza. La cometa vuela sobre los árboles y las nubes blancas. Otros niños del parque miran la cometa con admiración.",
+          "De repente, un viento fuerte levanta la cometa muy alto. Isabel grita de emoción y sostiene la cuerda con fuerza. La cometa vuela sobre los árboles, bajo las nubes blancas. Otros niños del parque miran la cometa con admiración.",
           "Después de volar la cometa por una hora, caminan a casa cansados pero felices. Isabel dice que su cometa es la mejor del parque. Su papá sonríe y le da un abrazo grande. Esa noche, Isabel sueña con volar su cometa otra vez."
         ]
       }
@@ -12393,7 +12407,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Cookies"
         ],
         "correctIndex": 2,
-        "explanation": "The text says they eat \"un pastel de manzana\" (an apple pie)."
+        "explanation": "The text says they eat \"un pastel de manzana\" (an apple cake)."
       }
     ]
   },
@@ -12467,7 +12481,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Sara es una estudiante nueva en la escuela. Su familia se muda a la ciudad hace solo una semana. Sara no conoce a nadie y se siente muy sola. El primer día de clases, ella está muy nerviosa.",
+          "Sara es una estudiante nueva en la escuela. Su familia vive en la ciudad desde hace solo una semana. Sara no conoce a nadie y se siente muy sola. El primer día de clases, ella está muy nerviosa.",
           "En la clase, la maestra presenta a Sara a todos los estudiantes. Algunos niños sonríen, pero Sara no habla mucho. A la hora del almuerzo, Sara se sienta sola en una mesa. Saca su cuaderno y empieza a dibujar un gato.",
           "Una niña llamada Julia ve el dibujo de Sara desde otra mesa. Julia se acerca con curiosidad. \"¡Qué bonito dibujo!\" dice Julia con una sonrisa. \"¿Te gusta dibujar?\" pregunta ella a Sara.",
           "Sara sonríe por primera vez ese día. \"Sí, me encanta dibujar animales\", responde Sara con más confianza. Julia se sienta a su lado y saca su propio cuaderno. Las dos empiezan a dibujar juntas y hablan sobre sus animales favoritos.",
@@ -12586,9 +12600,9 @@ const A1_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Diego recibe una guitarra de regalo en su cumpleaños. Está muy emocionado, pero no sabe tocar ni una nota. Sus papás lo inscriben en clases con un maestro llamado Rafael. La primera clase es un poco difícil para Diego.",
-          "Rafael le enseña a Diego cómo sostener la guitarra correctamente. También le enseña los nombres de las cuerdas. Los dedos de Diego duelen un poco al principio. Practicar es más difícil de lo que Diego piensa.",
+          "Rafael le enseña a Diego cómo sostener la guitarra correctamente. También le enseña los nombres de las cuerdas. Al principio, a Diego le duelen un poco los dedos. Practicar es más difícil de lo que Diego piensa.",
           "Durante las primeras semanas, Diego solo aprende tres acordes simples. Practica todos los días después de la escuela, aunque a veces se frustra. Un día, no puede tocar un acorde correctamente y quiere dejar la guitarra. \"Esto es muy difícil\", piensa Diego con tristeza.",
-          "Su hermana mayor escucha su frustración y decide ayudar. \"Todos los músicos empiezan difícil\", le dice ella con paciencia. Ella le muestra un video de sus canciones favoritas. Diego decide intentarlo una vez más con más calma.",
+          "Su hermana mayor escucha su frustración y decide ayudar. \"Al principio es difícil para todos los músicos\", le dice ella con paciencia. Ella le muestra un video de sus canciones favoritas. Diego decide intentarlo una vez más con más calma.",
           "Poco a poco, los dedos de Diego se sienten más fuertes. Los acordes ya no son tan difíciles como antes. Después de dos meses de práctica, Diego puede tocar una canción completa. Se siente muy orgulloso de su progreso.",
           "En la siguiente clase, Diego toca la canción para Rafael. Su maestro sonríe y aplaude con mucho entusiasmo. \"¡Excelente trabajo, Diego!\" dice Rafael feliz. Esa noche, Diego toca la canción para toda su familia en la sala."
         ]
@@ -12644,7 +12658,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Iker vive en una ciudad donde nunca nieva. Un día de invierno, su familia se muda a un pueblo en las montañas. Iker escucha que allí a veces nieva mucho. Él nunca ve la nieve en persona antes.",
+          "Iker vive en una ciudad donde nunca nieva. Un día de invierno, su familia se muda a un pueblo en las montañas. Iker escucha que allí a veces nieva mucho. Él nunca ha visto la nieve en persona.",
           "Una noche, el cielo está muy gris y hace mucho frío. Iker se duerme pensando en la posibilidad de nieve. A la mañana siguiente, algo diferente pasa cuando abre los ojos. La luz que entra por la ventana es muy blanca y brillante.",
           "Iker corre a la ventana y no puede creer lo que ve. ¡Todo el pueblo está cubierto de nieve blanca! Los árboles, los techos y las calles están completamente blancos. Iker grita de alegría y despierta a toda su familia.",
           "Rápidamente, Iker se pone un abrigo, botas y guantes calientes. Sale al jardín y siente la nieve fría bajo sus pies por primera vez. Su hermana pequeña sale también con una sonrisa enorme. Los dos deciden construir un muñeco de nieve juntos.",
@@ -12705,7 +12719,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "body": [
           "Hoy es el cumpleaños de mamá. Papá y los niños tienen un plan especial. Van a hacer un pastel de chocolate. Mamá no sabe nada.",
           "Papá saca los huevos, la harina y el azúcar. Los niños ayudan en la cocina. Ana mezcla la harina con el azúcar. Su hermano Luis rompe los huevos.",
-          "El pastel huele muy bien. Papá pone el pastel en el horno. Los niños esperan con mucha paciencia. Miran el reloj todo el tiempo.",
+          "Papá pone el pastel en el horno. Pronto, el pastel huele muy bien. Los niños esperan con mucha paciencia. Miran el reloj todo el tiempo.",
           "Después de una hora, el pastel está listo. Es grande y tiene un color marrón bonito. Papá lo saca del horno con cuidado.",
           "Ana decora el pastel con fresas rojas. Luis escribe \"Feliz Cumpleaños\" con chocolate blanco. El pastel está precioso.",
           "Mamá entra en la cocina. Ve el pastel y sonríe. \"¡Qué sorpresa tan bonita!\", dice mamá. Ella está muy feliz.",
@@ -13279,11 +13293,11 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "La abuela Rosa sabe tejer muy bien. Todos los inviernos, teje ropa para su familia. Hoy, quiere enseñar a su nieta Valentina.",
+          "La abuela Rosa sabe tejer muy bien. Todos los inviernos, teje ropa para su familia. Hoy quiere enseñarle a tejer a su nieta Valentina.",
           "Valentina tiene ocho años. Está muy emocionada de aprender. Se sienta al lado de su abuela en el sofá.",
           "La abuela tiene lana de muchos colores. Valentina elige el color azul. \"Es mi color favorito\", dice Valentina.",
           "La abuela muestra los movimientos con las agujas. Primero es difícil para Valentina. Sus manos no saben qué hacer.",
-          "Poco a poco, Valentina practica más. Sus movimientos son más fáciles ahora. La bufanda empieza a crecer, línea por línea.",
+          "Poco a poco, Valentina practica más. Sus movimientos son más fáciles ahora. La bufanda empieza a crecer, vuelta a vuelta.",
           "Después de varios días, la bufanda azul está terminada. Es un poco corta, pero muy bonita. Valentina está muy orgullosa.",
           "Valentina le da la bufanda a su abuela como regalo. \"¡Gracias, mi amor!\", dice la abuela feliz. Ahora la abuela tiene una bufanda especial de su nieta."
         ]
@@ -13788,7 +13802,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "La abuela pone leche en una olla. Añade chocolate y un poco de azúcar. La cocina empieza a oler muy dulce.",
           "Beto mira la olla con curiosidad. \"¿Qué es eso, abuela?\", pregunta. \"Es chocolate caliente. Es perfecto para un día frío\", responde la abuela.",
           "La abuela sirve el chocolate en dos tazas grandes. Pone una nube pequeña de crema encima de cada taza. Las tazas están calientes.",
-          "Iris y Beto se sientan cerca de la ventana. Toman el chocolate caliente despacio. Miran el viento afuera desde adentro, calientes y felices.",
+          "Iris y Beto se sientan cerca de la ventana. Toman el chocolate caliente despacio. Desde adentro, calentitos y felices, miran el viento.",
           "\"Este es el mejor chocolate del mundo, abuela\", dice Beto. La abuela los abraza con cariño. El frío ya no les importa."
         ]
       }
@@ -13840,7 +13854,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Bored"
         ],
         "correctIndex": 1,
-        "explanation": "The story says they are \"calientes y felices\" (warm and happy) and \"El frío ya no les importa\" (the cold no longer bothers them)."
+        "explanation": "The story says they are \"calentitos y felices\" (warm and happy) and \"El frío ya no les importa\" (the cold no longer bothers them)."
       }
     ]
   },
@@ -13857,7 +13871,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "body": [
           "Llega la primavera y los días son más cálidos. El sol brilla más y los pájaros cantan por la mañana. Es el momento perfecto para el jardín.",
           "La familia Vega quiere plantar flores nuevas. Van a la tienda de plantas el sábado. Compran semillas de muchos colores.",
-          "En casa, papá prepara la tierra del jardín. La mamá y los niños abren los paquetes de semillas. Hay semillas rojas, amarillas y moradas.",
+          "En casa, papá prepara la tierra del jardín. La mamá y los niños abren los paquetes de semillas. Hay semillas de flores rojas, amarillas y moradas.",
           "Cada persona planta un tipo de flor. La pequeña Luna planta las semillas amarillas. Su hermano planta las rojas cerca de la puerta.",
           "Riegan las semillas todos los días con mucho cuidado. Esperan pacientemente. El sol ayuda a las plantas a crecer rápido.",
           "Después de dos semanas, aparecen las primeras flores. Son pequeñas pero muy bonitas. Luna está muy emocionada de verlas.",
@@ -14146,7 +14160,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Ana entra en la biblioteca de la escuela. Hay un club de lectura los jueves. A Ana le gusta leer libros de aventuras.",
           "El club tiene seis estudiantes. Cada semana, ellos leen un libro diferente. Hoy leen un libro sobre un dragón.",
           "Ana no habla mucho porque es un poco tímida. Pero le gusta escuchar las ideas de sus compañeros. Ella escribe notas en un cuaderno.",
-          "Un niño se llama Diego. Diego lee muy rápido y siempre tiene preguntas interesantes. Ana quiere ser amiga de Diego.",
+          "Uno de los niños se llama Diego. Diego lee muy rápido y siempre tiene preguntas interesantes. Ana quiere ser amiga de Diego.",
           "Después de leer, los estudiantes hablan del libro. Diego pregunta: \"¿Por qué está triste el dragón?\" Ana piensa un momento y responde.",
           "Ana dice: \"El dragón está triste porque no tiene amigos.\" Diego sonríe. Le gusta mucho la respuesta de Ana.",
           "Al final del club, Diego invita a Ana a leer el próximo libro juntos. Ana está muy feliz. Ahora tiene un nuevo amigo en el club."
@@ -14291,7 +14305,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Pablo es un estudiante nuevo en la clase de teatro. Él es un poco tímido, pero le gusta mucho actuar. Pablo practica todos los días en casa.",
           "La profesora organiza las audiciones. Cada estudiante lee unas líneas frente a la clase. Pablo está nervioso, pero respira profundo.",
           "Cuando es el turno de Pablo, él lee las líneas del zorro. Habla con voz fuerte y clara. Sus compañeros escuchan con atención.",
-          "La profesora sonríe después de la audición de Pablo. \"Tienes mucho talento,\" dice ella. Pablo está muy sorprendido.",
+          "La profesora sonríe después de la audición de Pablo. \"Tienes mucho talento\", dice ella. Pablo está muy sorprendido.",
           "Al día siguiente, la profesora anuncia los papeles. Pablo va a ser el zorro en la obra. Sus compañeros lo felicitan.",
           "Pablo llama a su familia con la buena noticia. Está muy feliz y un poco nervioso también. Ahora practica sus líneas cada noche."
         ]
@@ -14435,9 +14449,9 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Carlos está muy preocupado porque el estuche es un regalo de su abuela. Tiene lápices de colores y una goma especial adentro. Sin el estuche, Carlos no puede terminar su dibujo.",
           "Su amiga Rosa ve la cara triste de Carlos. \"¿Qué buscas?\" pregunta Rosa. Carlos explica el problema con voz baja.",
           "Rosa decide ayudar a Carlos. Los dos buscan en la biblioteca y en el patio. No encuentran el estuche en ningún lugar.",
-          "Rosa tiene una idea. \"¿Prestas tu estuche a alguien hoy?\" pregunta ella. Carlos recuerda algo importante de repente.",
-          "Carlos presta su estuche a Miguel durante la clase de arte. Los dos amigos caminan hacia la mesa de Miguel. El estuche está ahí, debajo de un papel.",
-          "Miguel se disculpa porque olvida devolver el estuche. Carlos está muy contento de tener su estuche otra vez. Rosa y Carlos son buenos amigos ahora."
+          "Rosa tiene una idea. \"¿Le prestaste tu estuche a alguien hoy?\", pregunta ella. Carlos recuerda algo importante de repente.",
+          "Carlos le prestó su estuche a Miguel durante la clase de arte. Los dos amigos caminan hacia la mesa de Miguel. El estuche está ahí, debajo de un papel.",
+          "Miguel se disculpa porque olvidó devolver el estuche. Carlos está muy contento de tener su estuche otra vez. Rosa y Carlos son buenos amigos ahora."
         ]
       }
     ],
@@ -14488,7 +14502,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "It is his own pencil case"
         ],
         "correctIndex": 1,
-        "explanation": "The text says \"Carlos presta su estuche a Miguel durante la clase de arte\" (Carlos lends his pencil case to Miguel during art class)."
+        "explanation": "The text says \"Carlos le prestó su estuche a Miguel durante la clase de arte\" (Carlos lent his pencil case to Miguel during art class)."
       }
     ]
   },
@@ -14507,7 +14521,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "En la clase hay ocho mesas con tableros de ajedrez. Los estudiantes juegan en parejas. El profesor camina entre las mesas y observa.",
           "Hoy Iván juega contra una niña nueva. Se llama Nora y es muy buena jugadora. Iván está un poco nervioso.",
           "El juego dura treinta minutos. Nora mueve sus piezas con mucho cuidado. Iván piensa mucho antes de cada jugada.",
-          "Al final, Nora gana el juego con una jugada inteligente. Iván no está triste porque aprende algo nuevo. \"Buena jugada,\" dice Iván.",
+          "Al final, Nora gana el juego con una jugada inteligente. Iván no está triste porque aprende algo nuevo. \"Buena jugada\", dice Iván.",
           "Nora le enseña a Iván una nueva estrategia con el caballo. Iván escucha con mucho interés. Ahora quiere practicar más en casa.",
           "Al final de la clase, Iván y Nora deciden ser compañeros de juego cada semana. El profesor está contento porque los dos estudiantes trabajan bien juntos."
         ]
@@ -14579,7 +14593,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "En las pruebas, hay veinte estudiantes en la cancha. El entrenador explica los ejercicios. Todos corren, saltan y practican tiros.",
           "Hugo está nervioso porque no es muy alto. Pero él corre muy rápido y pasa el balón bien. El entrenador observa con atención.",
           "Durante un ejercicio, Hugo pasa el balón a su compañero en el momento perfecto. El equipo anota un punto. El entrenador sonríe y escribe algo en su papel.",
-          "Al final de las pruebas, el entrenador habla con cada estudiante. \"Tu velocidad es muy buena,\" dice el entrenador a Hugo. Hugo está feliz con el comentario.",
+          "Al final de las pruebas, el entrenador habla con cada estudiante. \"Tu velocidad es muy buena\", dice el entrenador a Hugo. Hugo está feliz con el comentario.",
           "Al día siguiente, la escuela publica la lista del equipo. Hugo busca su nombre con nervios. ¡Su nombre está en la lista!",
           "Hugo llama a sus padres con la buena noticia. Su familia está muy orgullosa de él. Ahora Hugo practica cada día para el primer partido."
         ]
@@ -14650,7 +14664,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Vera recibe una bicicleta nueva de color azul. Es un regalo de cumpleaños. Vera quiere aprender a montar sin las ruedas pequeñas.",
           "Su hermano mayor, Tomás, decide ayudarla. Van al parque cerca de su casa. El parque tiene un camino largo y plano.",
           "Tomás sostiene la bicicleta mientras Vera se sube. Vera pone los pies en los pedales con cuidado. Está un poco nerviosa al principio.",
-          "\"No mires el suelo, mira adelante,\" dice Tomás. Vera mira hacia el camino. Empieza a pedalear despacio.",
+          "\"No mires el suelo, mira adelante\", dice Tomás. Vera mira hacia el camino. Empieza a pedalear despacio.",
           "Tomás corre al lado de la bicicleta y sostiene el asiento. Poco a poco, Vera pedalea más rápido. De repente, Tomás suelta la bicicleta sin decir nada.",
           "Vera monta sola por unos segundos. Luego mira hacia atrás y ve a Tomás lejos. \"¡Estoy montando sola!\" grita ella muy emocionada.",
           "Vera practica en el parque toda la tarde. Ahora monta su bicicleta con mucha confianza. Está muy orgullosa de su nuevo talento."
@@ -14794,7 +14808,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Todos los miércoles, Clara va a su clase de baile en el centro comunitario. Le gusta mucho bailar salsa. Su profesora se llama Rosa.",
           "Hoy la profesora anuncia un espectáculo especial. Los estudiantes van a bailar frente a las familias. Clara está emocionada, pero también nerviosa.",
           "Clara practica los pasos nuevos con su compañero, Javier. Los dos cuentan los pasos en voz alta: \"Uno, dos, tres, y giro.\"",
-          "Al principio, Clara comete algunos errores con los giros. Javier la ayuda con paciencia. \"Practicamos otra vez,\" dice él con una sonrisa.",
+          "Al principio, Clara comete algunos errores con los giros. Javier la ayuda con paciencia. \"Practicamos otra vez\", dice él con una sonrisa.",
           "Las semanas pasan y Clara mejora mucho. Ya baila los pasos sin pensar mucho. Está muy orgullosa de su progreso.",
           "El día del espectáculo, el salón está lleno de familias. Clara ve a sus padres en la primera fila. Su corazón late muy rápido.",
           "La música empieza y Clara baila con Javier. Los dos bailan perfectamente juntos. Al final, todos aplauden con mucha alegría."
@@ -14868,7 +14882,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "El cuento habla de un ratón que viaja por el mundo. Los niños escuchan con mucha atención. Algunos hacen preguntas sobre el ratón.",
           "Después del cuento, el bibliotecario invita a los niños a buscar sus propios libros. Nora camina entre los estantes altos. Busca un libro sobre el espacio.",
           "Nora encuentra un libro con fotos de planetas y estrellas. Le gusta mucho la portada azul. Decide llevar el libro a casa.",
-          "En la mesa de préstamos, el bibliotecario escanea el libro de Nora. \"Tienes tres semanas para leerlo,\" explica él. Nora sonríe y guarda el libro en su mochila.",
+          "En la mesa de préstamos, el bibliotecario escanea el libro de Nora. \"Tienes tres semanas para leerlo\", explica él. Nora sonríe y guarda el libro en su mochila.",
           "En casa, Nora lee el libro con su hermano pequeño. Los dos miran las fotos de los planetas juntos. Nora ya quiere volver a la biblioteca el próximo sábado."
         ]
       }
@@ -14938,7 +14952,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Cada año, el pueblo organiza un desfile en la calle principal. Hay música, banderas y muchos colores. Toda la familia de Pedro va a ver el desfile.",
           "Pedro y su hermana buscan un buen lugar cerca de la plaza. Se sientan en la acera con otras familias. Todos esperan con emoción.",
           "Primero pasa la banda de música de la escuela. Los músicos tocan trompetas y tambores. Pedro reconoce a su amigo Hugo con un tambor grande.",
-          "Después pasan varios carros decorados con flores. Un carro tiene la forma de un barco. Otro carro tiene globos de muchos colores.",
+          "Después pasan varias carrozas decoradas con flores. Una carroza tiene la forma de un barco. Otra carroza tiene globos de muchos colores.",
           "Pedro ve un grupo de bailarines con trajes tradicionales. Ellos bailan y sonríen mientras caminan. La gente aplaude mucho.",
           "Al final del desfile, pasa un camión de bomberos rojo. Los bomberos saludan a los niños. Pedro y su hermana saludan con las manos.",
           "Después del desfile, la familia camina por la plaza. Comen algo en un puesto pequeño. Pedro dice que este es su desfile favorito de todos."
@@ -14980,7 +14994,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "A house"
         ],
         "correctIndex": 1,
-        "explanation": "The story says \"Un carro tiene la forma de un barco\" (One float has the shape of a boat)."
+        "explanation": "The story says \"Una carroza tiene la forma de un barco\" (One float has the shape of a boat)."
       },
       {
         "type": "multiple-choice",
@@ -15012,7 +15026,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Dentro de la panadería, hay pan de muchas formas y colores. Don Alberto saluda a Lucía con una sonrisa grande. \"¿Qué necesitas hoy?\" pregunta él.",
           "Lucía mira su lista: dos panes y unos pasteles pequeños. Ella señala los pasteles en el estante. Don Alberto los pone en una bolsa de papel.",
           "Lucía cuenta el dinero con cuidado, como su mamá le enseña. Don Alberto cuenta el cambio en voz alta. Lucía guarda las monedas en su bolsillo.",
-          "\"Gracias, y buen trabajo hoy,\" dice don Alberto. Lucía sonríe orgullosa. Camina de vuelta a casa con la bolsa de pan.",
+          "\"Gracias, y buen trabajo hoy\", dice don Alberto. Lucía sonríe orgullosa. Camina de vuelta a casa con la bolsa de pan.",
           "En casa, su mamá abre la bolsa y ve todo correcto. \"Hiciste un trabajo perfecto,\" dice su mamá. Lucía está muy contenta con su primera visita sola."
         ]
       }
@@ -15064,7 +15078,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "\"You need help\""
         ],
         "correctIndex": 1,
-        "explanation": "Her mom says \"Hiciste un trabajo perfecto\" (You did a perfect job)."
+        "explanation": "Her mom says \"¡Es un trabajo perfecto!\" (It's a perfect job!)."
       }
     ]
   },
@@ -15116,7 +15130,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "What does Javier get to touch on the truck?",
+        "question": "What does Javier get to use on the truck?",
         "options": [
           "The steering wheel",
           "The siren",
@@ -15124,7 +15138,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "The door"
         ],
         "correctIndex": 1,
-        "explanation": "The story says \"Javier toca la sirena con permiso de Marcos\" (Javier touches the siren with Marcos's permission)."
+        "explanation": "The story says \"Javier toca la sirena con permiso de Marcos\" (Javier sounds the siren with Marcos's permission)."
       },
       {
         "type": "multiple-choice",
@@ -15152,11 +15166,11 @@ const A1_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Todos los días, Miguel toma el autobús número diez para ir a la escuela. El viaje dura veinte minutos. A Miguel le gusta mirar por la ventana.",
-          "Hoy, el autobús está muy lleno de gente. Miguel no encuentra un asiento libre. Decide quedarse cerca de la puerta con su mochila.",
+          "Hoy, el autobús está muy lleno de gente. Miguel encuentra el último asiento libre, cerca de la puerta, y se sienta con su mochila.",
           "En la siguiente parada, sube una señora mayor con muchas bolsas. La señora busca un lugar para sentarse, pero no hay espacio. Miguel piensa un momento.",
-          "Miguel se levanta y ofrece su lugar a la señora. \"Muchas gracias, joven,\" dice la señora con una sonrisa. Miguel se siente muy bien por ayudar.",
+          "Miguel se levanta y ofrece su lugar a la señora. \"Muchas gracias, joven\", dice la señora con una sonrisa. Miguel se siente muy bien por ayudar.",
           "La señora habla con Miguel durante el viaje. Ella le cuenta sobre su jardín y sus tomates. Miguel escucha con mucho interés.",
-          "Cuando el autobús llega cerca de la escuela, Miguel se despide de la señora. \"¡Que tengas un buen día!\" dice ella. Miguel baja del autobús con una sonrisa.",
+          "Cuando el autobús llega cerca de la escuela, Miguel se despide de la señora. \"¡Que tengas un buen día!\", dice ella. Miguel baja del autobús con una sonrisa.",
           "En la escuela, Miguel cuenta la historia a su maestra. La maestra dice que ayudar a otros es muy importante. Miguel está orgulloso de su buena acción."
         ]
       }
@@ -15295,7 +15309,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Diego y su familia pasan unas vacaciones en una ciudad grande. Se quedan en un hotel cerca del centro. Diego nunca ve edificios tan altos.",
+          "Diego y su familia pasan unas vacaciones en una ciudad grande. Se quedan en un hotel cerca del centro. Diego nunca ha visto edificios tan altos.",
           "El primer día, ellos caminan por las calles llenas de gente. Hay tiendas, restaurantes y músicos en las esquinas. Diego mira todo con los ojos muy abiertos.",
           "Su mamá quiere visitar un museo de arte famoso. Diego prefiere ver los carros y los autobuses de la ciudad. Al final, la familia decide visitar el museo por la mañana.",
           "En el museo, hay pinturas enormes de muchos colores. Un guía explica la historia de cada pintura. Diego encuentra una pintura de un perro y sonríe.",
@@ -15370,7 +15384,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "La clase de Rosa visita el acuario de la ciudad. Todos los estudiantes están muy emocionados. El acuario tiene peces de muchos colores.",
           "Primero, los estudiantes ven un tanque enorme con tiburones. Los tiburones nadan lento y tranquilo. Rosa está un poco nerviosa, pero también fascinada.",
           "Después, caminan hacia una sala con pulpos. Un pulpo cambia de color frente a los estudiantes. \"¡Es mágico!\" dice Rosa muy sorprendida.",
-          "En otra sala, hay un tanque especial donde los niños pueden tocar estrellas de mar. Rosa toca una estrella de mar con mucho cuidado. La estrella se siente suave y un poco áspera.",
+          "En otra sala, hay un tanque especial donde los niños pueden tocar estrellas de mar. Rosa toca una estrella de mar con mucho cuidado. La estrella se siente dura y un poco áspera.",
           "Un guía del acuario habla sobre los pingüinos. Los pingüinos nadan rápido en el agua fría. Rosa ríe cuando un pingüino salta fuera del agua.",
           "A la hora del almuerzo, la clase come cerca de un tanque grande con tortugas marinas. Las tortugas nadan despacio cerca del vidrio. Rosa observa una tortuga mientras come su sándwich.",
           "Antes de salir, Rosa compra un pequeño peluche de pulpo en la tienda del acuario. Está muy contenta con su día. Quiere volver al acuario con su familia pronto."
@@ -15440,7 +15454,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Hoy es un día especial porque Tomás va al parque de atracciones con sus primos. El parque tiene muchos juegos y colores brillantes. Es la primera vez que Tomás visita un parque de atracciones.",
-          "Primero, los primos suben a la rueda de la fortuna. Desde arriba, Tomás ve todo el parque pequeño. También ve las montañas a lo lejos.",
+          "Primero, los primos suben a la rueda de la fortuna. Desde arriba, Tomás ve todo el parque, muy pequeño. También ve las montañas a lo lejos.",
           "Después, ellos caminan hacia la montaña rusa más grande del parque. Tomás está un poco nervioso porque es su primera vez en esa montaña rusa. Su prima Isabel le toma la mano.",
           "La montaña rusa sube muy alto y luego baja muy rápido. Tomás grita fuerte, pero también sonríe mucho. Al final, quiere subir otra vez inmediatamente.",
           "Al mediodía, la familia come algodón de azúcar y palomitas de maíz. Tomás elige un algodón de azúcar rosado. Todos se sientan en una mesa cerca de los juegos.",

@@ -767,7 +767,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
           ["La gripe es una enfermedad muy común en invierno.", "Flu is a very common illness in winter."],
           ["Mi hermana está embarazada de cinco meses.", "My sister is five months pregnant."],
           ["Estoy embarazada, así que no bebo alcohol.", "I'm pregnant, so I'm not drinking alcohol."],
-          ["✗ Estoy embarazada porque me caí. → ✓ Me da vergüenza porque me caí.", "I'm embarrassed because I fell."],
+          ["✗ Estoy embarazada porque me caí. → ✓ Estoy avergonzada porque me caí.", "I'm embarrassed because I fell."],
           ["Es una enfermedad de la piel, pero no es contagiosa.", "It's a skin disease, but it isn't contagious."],
         ],
         [
