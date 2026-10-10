@@ -64,7 +64,7 @@ const A2_FICTION: Story[] = [
       "Rosa mira el collar del perro y ve un número de teléfono. Ella llama inmediatamente a la familia de Tomás. \"Encontré a un perro marrón con un collar azul,\" dice Rosa. \"Creo que es de ustedes.\"",
       "La mamá de Tomás recibe la llamada y le dice a Tomás la buena noticia. Toda la familia va rápidamente a la casa de Rosa. Cuando Tomás ve a Toby, corre hacia él y lo abraza fuerte. Toby mueve la cola con mucha alegría.",
       "Tomás le da las gracias a Rosa muchas veces. \"Usted es muy amable,\" dice Tomás. Rosa sonríe y responde: \"Me gustan mucho los animales. Estoy feliz de ayudar.\" La familia de Tomás decide invitar a Rosa a tomar un café la próxima semana.",
-      "Desde ese día, Tomás siempre pone un collar más seguro en Toby y nunca lo deja correr sin correa en el parque. También visita a Rosa de vez en cuando con Toby, y los dos se hacen buenos amigos del barrio.",
+      "Desde ese día, Tomás siempre le pone a Toby un collar más seguro y nunca lo deja correr sin correa en el parque. También visita a Rosa de vez en cuando con Toby, y los dos se hacen buenos amigos del barrio.",
     ],
     questions: [
       {
@@ -86,7 +86,7 @@ const A2_FICTION: Story[] = [
         options: ["He never walks Toby again", "He gets a new dog", "He puts a more secure collar on Toby and never lets him run off-leash", "He moves to a new house"],
         correctIndex: 2,
         explanation:
-          "\"Tomás siempre pone un collar más seguro en Toby y nunca lo deja correr sin correa\" — he always puts a safer collar on Toby and never lets him run without a leash.",
+          "\"Tomás siempre le pone a Toby un collar más seguro y nunca lo deja correr sin correa\" — he always puts a safer collar on Toby and never lets him run without a leash.",
       },
     ],
   },
@@ -101,7 +101,7 @@ const A2_FICTION: Story[] = [
       "El autobús llega al bosque después de dos horas de viaje. Los estudiantes bajan del autobús y ven árboles altos y un lago azul. \"¡Es hermoso!\", dice Carla, mirando el paisaje. La profesora organiza a los estudiantes en grupos pequeños.",
       "Cada grupo tiene que armar su propia tienda de campaña. Al principio, es difícil para todos. Marco y su grupo no entienden las instrucciones, y la tienda se cae dos veces. Al final, con la ayuda de un guía, todas las tiendas están listas antes de la noche.",
       "Por la tarde, los estudiantes caminan por un sendero cerca del lago. Ven pájaros de colores y aprenden los nombres de varias plantas. El guía les explica cómo identificar las huellas de los animales en la tierra.",
-      "Cuando llega la noche, todos se sientan alrededor de una fogata grande. La profesora cocina malvaviscos y los estudiantes cuentan historias divertidas. Carla canta una canción y todos la acompañan. El cielo está lleno de estrellas y nadie quiere dormir todavía.",
+      "Cuando llega la noche, todos se sientan alrededor de una fogata grande. La profesora tuesta malvaviscos y los estudiantes cuentan historias divertidas. Carla canta una canción y todos la acompañan. El cielo está lleno de estrellas y nadie quiere dormir todavía.",
       "A la mañana siguiente, empieza a llover mucho. Los estudiantes tienen que quedarse dentro de las tiendas. Al principio están tristes porque no pueden caminar por el bosque, pero después juegan a las cartas y cuentan chistes dentro de la tienda.",
       "Por la tarde, la lluvia para y sale el sol. Todos salen de las tiendas y juegan un partido de fútbol en un campo cerca del lago. Marco anota el gol de la victoria y todo el grupo celebra con mucha alegría.",
       "Cuando el autobús regresa a la escuela, los estudiantes están cansados pero muy contentos. \"Fue el mejor viaje de mi vida,\" dice Marco. La señora Vidal sonríe y dice que el próximo año van a organizar otro campamento todavía más grande.",
@@ -142,14 +142,14 @@ const A2_FICTION: Story[] = [
       "Al principio, los dos hermanos no están contentos. \"Yo quiero hacer el sol,\" dice Lucía. \"No, yo quiero hacer el sol,\" responde Mateo. Discuten durante media hora sin decidir nada, y no empiezan el proyecto.",
       "Esa noche, su papá habla con ellos. \"Ustedes son un buen equipo cuando no compiten,\" dice. \"¿Por qué no prueban a trabajar juntos por una vez?\" Lucía y Mateo se miran y deciden intentarlo.",
       "Al día siguiente, dividen las tareas de una manera diferente. Lucía pinta los planetas porque le gusta el arte. Mateo escribe la información sobre cada planeta porque le gusta leer y escribir. Los dos trabajan en la mesa de la cocina toda la tarde.",
-      "Poco a poco, los hermanos empiezan a hablar sin pelear. Mateo ayuda a Lucía a pintar las líneas de Saturno, y Lucía le da ideas a Mateo para su presentación. Los dos se ríen cuando el planeta Marte se cae de la mesa.",
+      "Poco a poco, los hermanos empiezan a hablar sin pelear. Mateo ayuda a Lucía a pintar los anillos de Saturno, y Lucía le da ideas a Mateo para su presentación. Los dos se ríen cuando el planeta Marte se cae de la mesa.",
       "El día de la presentación, Lucía y Mateo muestran su modelo del sistema solar a toda la clase. Es el proyecto más colorido y organizado del salón. La profesora les da la nota más alta de la clase.",
       "Después de la escuela, Lucía y Mateo caminan juntos a casa con el modelo. \"Trabajamos bien juntos,\" dice Mateo. \"Sí, deberíamos hacerlo más,\" responde Lucía. Desde ese día, los hermanos todavía compiten un poco, pero también se ayudan mucho más.",
     ],
     questions: [
       {
         question: "Why are Lucía and Mateo unhappy when the project starts?",
-        options: ["They don't like science", "They both want to paint the sun", "The teacher separates them", "They don't have enough supplies"],
+        options: ["They don't like science", "They both want to make the sun", "The teacher separates them", "They don't have enough supplies"],
         correctIndex: 1,
         explanation:
           "\"Yo quiero hacer el sol\" dice Lucía, and Mateo says the same thing — they both want to make the sun.",
@@ -218,13 +218,13 @@ const A2_FICTION: Story[] = [
       "A girl who only sings alone in her room musters the courage to perform in front of the whole school.",
     paragraphs: [
       "Valentina quiere participar en el show de talentos de su escuela. A ella le encanta cantar, pero solo canta en su habitación, nunca delante de otras personas. Su mejor amiga, Camila, la anima a inscribirse en el show.",
-      "\"Tienes una voz hermosa,\" dice Camila. \"Todos van a amar tu canción.\" Valentina está nerviosa, pero finalmente decide participar. Escribe su nombre en la lista y elige una canción sobre la amistad.",
+      "\"Tienes una voz hermosa,\" dice Camila. \"A todos les va a encantar tu canción.\" Valentina está nerviosa, pero finalmente decide participar. Escribe su nombre en la lista y elige una canción sobre la amistad.",
       "Durante las siguientes dos semanas, Valentina practica todos los días después de la escuela. Camila la escucha y le da consejos. A veces Valentina quiere abandonar porque tiene miedo de olvidar la letra en frente de todos.",
       "La noche del show de talentos, el auditorio está lleno de estudiantes, profesores y padres. Valentina espera detrás del escenario con las manos frías y el corazón acelerado. Ve a otros estudiantes bailar, tocar el piano y hacer magia.",
       "Cuando el presentador dice su nombre, Valentina camina hacia el escenario muy despacio. Mira al público y ve a Camila en la primera fila, sonriendo y levantando el pulgar. Eso le da un poco de confianza.",
       "La música empieza, y Valentina abre la boca para cantar. Al principio, su voz tiembla un poco, pero luego se relaja y canta con todo su corazón. El público escucha en silencio y algunos empiezan a sonreír.",
       "Cuando termina la canción, todo el auditorio aplaude fuerte. Algunas personas se levantan de sus sillas. Valentina no puede creer lo que está pasando. Baja del escenario con una sonrisa enorme en la cara.",
-      "Después del show, Camila corre a abrazarla. \"¡Estuviste increíble!\", dice. Valentina responde: \"No pude hacerlo sin ti.\" Esa noche, Valentina decide que quiere cantar en más shows en el futuro, y ya no tiene tanto miedo del escenario.",
+      "Después del show, Camila corre a abrazarla. \"¡Estuviste increíble!\", dice. Valentina responde: \"No habría podido hacerlo sin ti.\" Esa noche, Valentina decide que quiere cantar en más shows en el futuro, y ya no tiene tanto miedo del escenario.",
     ],
     questions: [
       {
@@ -304,7 +304,7 @@ const A2_FICTION: Story[] = [
       "Marisol saca su radio y habla con otros trabajadores del museo. \"Tenemos un estudiante perdido de la escuela San Martín,\" dice. Mientras esperan noticias, Marisol le muestra a Bruno una sala con objetos de Egipto antiguo para calmarlo.",
       "Después de diez minutos, otro trabajador encuentra al señor Fernández, que está buscando a Bruno con mucha preocupación. El profesor corre hacia la sala de Egipto y abraza a Bruno con alivio. \"¡No puedes separarte del grupo así!\", le dice, pero también está feliz de encontrarlo.",
       "Bruno le da las gracias a Marisol por su ayuda y le pregunta sobre los dinosaurios. Marisol le cuenta datos interesantes sobre el esqueleto que él estaba mirando. Bruno escucha con mucha atención y hace muchas preguntas más.",
-      "Al final de la visita, Bruno camina siempre cerca de su profesor. En el autobús de regreso a la escuela, le cuenta a sus amigos toda la aventura. \"Me perdí, pero conocí a una guía muy simpática que sabe todo sobre dinosaurios,\" dice con una sonrisa.",
+      "Durante el resto de la visita, Bruno camina siempre cerca de su profesor. En el autobús de regreso a la escuela, les cuenta a sus amigos toda la aventura. \"Me perdí, pero conocí a una guía muy simpática que sabe todo sobre dinosaurios,\" dice con una sonrisa.",
     ],
     questions: [
       {
@@ -384,7 +384,7 @@ const A2_FICTION: Story[] = [
       "Leo se entera del problema de Emma por mensaje de texto. Sin pensarlo mucho, decide ir a la casa de Emma con los ingredientes para sus galletas. \"Vamos a mi casa a cocinar los dos,\" dice Leo.",
       "Emma y Leo pasan la tarde en la cocina de Leo. Preparan el pastel de chocolate y las galletas de limón juntos, ayudándose el uno al otro. Se ríen mucho y también prueban un poco de la masa antes de hornear todo.",
       "El día de la competencia, Emma y Leo llegan con sus dos postres. Muchos estudiantes compran el pastel y las galletas, y todos dicen que están deliciosos. Al final del día, el director anuncia que las galletas de Leo ganan el primer premio.",
-      "Emma se alegra por su amigo, sin ningún problema. \"Gracias por ayudarme. Sin ti, no puedo terminar mi pastel,\" dice Emma. Leo responde: \"Y tú me ayudaste mucho con la masa de las galletas.\" Los dos deciden que el próximo año van a competir juntos, como un solo equipo.",
+      "Emma se alegra por su amigo, sin ningún problema. \"Gracias por ayudarme. Sin ti, no habría podido terminar mi pastel,\" dice Emma. Leo responde: \"Y tú me ayudaste mucho con la masa de las galletas.\" Los dos deciden que el próximo año van a competir juntos, como un solo equipo.",
     ],
     questions: [
       {
@@ -463,7 +463,7 @@ const A2_FICTION: Story[] = [
       "Bea se sorprende mucho. \"¿Qué mensaje? Yo no recibí nada de ti,\" dice. Nora no le cree al principio porque piensa que Bea solo busca una excusa. Las dos amigas no se hablan durante toda la semana, y ambas están tristes por la situación.",
       "El sábado, la mamá de Bea encuentra el teléfono viejo de Bea en un cajón. \"Creo que tu teléfono nuevo tiene un problema con los mensajes,\" dice. Bea revisa la configuración de su teléfono y descubre que los mensajes de Nora nunca llegaron por un error técnico.",
       "Bea llama a Nora inmediatamente y le explica todo. \"Mi teléfono tenía un problema. Nunca vi tus mensajes, lo prometo,\" dice Bea. Nora escucha con atención y se da cuenta de que juzgó a su amiga sin tener toda la información.",
-      "\"Lo siento mucho por no creerte,\" dice Nora. \"Debí preguntarte primero antes de enojarme.\" Bea responde: \"Está bien, yo también entiendo por qué pensaste eso.\" Las dos amigas se ríen un poco, aliviadas de resolver el problema.",
+      "\"Siento mucho no haberte creído,\" dice Nora. \"Debí preguntarte primero antes de enojarme.\" Bea responde: \"Está bien, yo también entiendo por qué pensaste eso.\" Las dos amigas se ríen un poco, aliviadas de resolver el problema.",
       "El viernes siguiente, Nora y Bea se juntan de nuevo para ver una película, como siempre. Esta vez, las dos deciden llamarse por teléfono en lugar de solo enviar mensajes, para evitar otro malentendido. Su amistad es más fuerte después de este pequeño problema.",
     ],
     questions: [
@@ -501,9 +501,9 @@ const A2_FICTION: Story[] = [
       "Primero, hablan en secreto con su papá, quien está muy contento con la idea. \"Podemos invitar a los tíos y a los abuelos,\" sugiere Dani. Paula escribe una lista de invitados mientras su papá piensa en cómo mantener a mamá ocupada ese día.",
       "Durante dos semanas, los hermanos planean todo con mucho cuidado. Compran globos y decoraciones cuando su mamá no está en casa. Esconden todo en el garaje para que ella no encuentre nada por accidente.",
       "El día del cumpleaños, el papá lleva a su esposa a comer a un restaurante especial, mientras Dani y Paula preparan la casa con la ayuda de sus abuelos. Cuelgan globos de colores, ponen una mesa larga y hacen un cartel grande que dice \"¡Feliz cumpleaños, mamá!\"",
-      "Paula intenta hacer un pastel de vainilla, pero se le olvida poner un ingrediente importante y el pastel no crece bien en el horno. Dani la ayuda a arreglarlo con un poco de crema y frutas encima, y el pastel se ve bonito de todas formas.",
+      "Paula intenta hacer un pastel de vainilla, pero se le olvida poner un ingrediente importante y el pastel no sube bien en el horno. Dani la ayuda a arreglarlo con un poco de crema y frutas encima, y el pastel se ve bonito de todas formas.",
       "A las siete de la tarde, todos los invitados llegan a la casa y se esconden detrás del sofá. Cuando el papá y la mamá entran por la puerta, todos gritan \"¡Sorpresa!\" al mismo tiempo. La mamá se lleva las manos a la cara, sorprendida y emocionada.",
-      "\"No puedo creer que hicieron todo esto,\" dice la mamá con lágrimas de felicidad. Abraza a Dani y a Paula muy fuerte. Todos cantan la canción de cumpleaños y comen el pastel, que sabe mejor de lo que parece.",
+      "\"No puedo creer que hayan hecho todo esto,\" dice la mamá con lágrimas de felicidad. Abraza a Dani y a Paula muy fuerte. Todos cantan la canción de cumpleaños y comen el pastel, que sabe mejor de lo que parece.",
       "Después de la fiesta, la mamá les da las gracias a sus hijos por el esfuerzo y el cariño. \"Este es el mejor cumpleaños que he tenido en años,\" dice. Dani y Paula deciden que van a organizar una fiesta sorpresa cada año a partir de ahora.",
     ],
     questions: [
@@ -519,7 +519,7 @@ const A2_FICTION: Story[] = [
         options: ["It burns completely", "Paula forgets an ingredient and it doesn't rise well", "It falls on the floor", "They run out of time to make it"],
         correctIndex: 1,
         explanation:
-          "\"se le olvida poner un ingrediente importante y el pastel no crece bien\" — she forgets to add an important ingredient and the cake doesn't rise well.",
+          "\"se le olvida poner un ingrediente importante y el pastel no sube bien\" — she forgets to add an important ingredient and the cake doesn't rise well.",
       },
       {
         question: "How does the family keep mom away while preparing?",
@@ -577,11 +577,11 @@ const A2_FICTION: Story[] = [
     subtitle:
       "A girl feels nervous taking her new kitten for its first checkup, but learns the visit helps keep her pet healthy.",
     paragraphs: [
-      "Martina recibe un gatito nuevo de regalo de sus papás. El gatito es gris con ojos verdes, y Martina decide llamarlo Luna. Desde el primer día, Luna duerme en la cama de Martina y juega con una pelota de lana por toda la casa.",
+      "Martina recibe una gatita nueva de regalo de sus papás. La gatita es gris con ojos verdes, y Martina decide llamarla Luna. Desde el primer día, Luna duerme en la cama de Martina y juega con una pelota de lana por toda la casa.",
       "Una semana después, la mamá de Martina dice que Luna necesita ir al veterinario para un chequeo. Martina se pone nerviosa porque nunca ha llevado a un animal al doctor. \"¿Le va a doler algo a Luna?\", pregunta con preocupación.",
       "Su mamá le explica que el veterinario solo va a revisar que Luna esté sana y le va a poner unas vacunas importantes. \"Las vacunas protegen a Luna de enfermedades,\" dice su mamá. \"Es normal sentir un poco de miedo, pero es algo bueno para ella.\"",
       "El día de la cita, Martina pone a Luna en una caja de transporte especial. Luna maúlla mucho durante el viaje en carro porque no le gusta estar encerrada. Martina habla con ella suavemente todo el camino para calmarla.",
-      "En la clínica veterinaria, hay otros animales esperando: un perro grande, dos gatos y un conejo. Luna se esconde en el fondo de la caja, asustada por los ruidos. Martina la abraza a través de la puerta de la caja y le dice que todo va a estar bien.",
+      "En la clínica veterinaria, hay otros animales esperando: un perro grande, dos gatos y un conejo. Luna se esconde en el fondo de la caja, asustada por los ruidos. Martina la acaricia a través de la puerta de la caja y le dice que todo va a estar bien.",
       "Cuando llega su turno, la veterinaria, la doctora Ríos, examina a Luna con mucho cuidado. Revisa sus ojos, sus oídos y su corazón con un instrumento especial. \"Luna está muy sana,\" dice la doctora Ríos con una sonrisa.",
       "Después, la doctora le pone dos vacunas pequeñas a Luna. La gatita maúlla un poco, pero no parece sentir mucho dolor. Martina la sostiene con cuidado durante todo el proceso y le habla con voz dulce.",
       "Al final de la visita, la doctora le da a Martina algunos consejos sobre cómo cuidar a Luna. Martina se siente orgullosa porque ayudó a su gatita durante una experiencia difícil. En el camino de regreso a casa, Luna ya está más tranquila, y Martina promete llevarla al veterinario cada año sin miedo.",
@@ -623,7 +623,7 @@ const A2_FICTION: Story[] = [
       "El sábado por la mañana, Teo, Yolanda y Simón llegan al parque temprano con nervios. Poco a poco, empiezan a llegar vecinos: familias con niños, una pareja de ancianos y hasta el dueño de la panadería con café gratis para todos.",
       "Todos trabajan juntos durante tres horas. Recogen botellas, papeles y bolsas plásticas del césped y de debajo de los árboles. Los niños más pequeños ayudan a poner la basura en bolsas grandes, mientras los adultos cargan las bolsas hasta los camiones de basura.",
       "Durante la limpieza, encuentran una parte del parque que nadie usaba porque estaba cubierta de plantas y basura. Después de limpiarla, descubren un pequeño espacio con bancos de madera, perfecto para sentarse y descansar. \"¡No sabía que esto estaba aquí!\", dice Simón sorprendido.",
-      "Al final del día, el parque se ve completamente diferente. El césped está limpio, los bancos nuevos están listos para usarse, y todos los vecinos están orgullosos de su trabajo. El dueño de la panadería trae más café y pan para celebrar.",
+      "Al final del día, el parque se ve completamente diferente. El césped está limpio, los bancos están listos para usarse, y todos los vecinos están orgullosos de su trabajo. El dueño de la panadería trae más café y pan para celebrar.",
       "Esa tarde, Teo mira el parque limpio con una sonrisa enorme. \"Hicimos esto entre todos,\" dice a sus amigos. Yolanda propone organizar una limpieza cada tres meses para mantener el parque bonito, y todos los vecinos presentes están de acuerdo con la idea.",
     ],
     questions: [
@@ -701,7 +701,7 @@ const A2_FICTION: Story[] = [
       "Un día, Valeria finalmente pregunta: \"Abuela, ¿me puedes enseñar a tejer?\" Su abuela sonríe con alegría porque nadie en la familia le ha pedido esto antes. \"Por supuesto, mi amor. Vamos a empezar mañana,\" responde.",
       "A la mañana siguiente, la abuela le da a Valeria dos agujas pequeñas y un poco de lana azul. \"Primero, tienes que aprender el punto básico,\" explica la abuela. Le muestra cómo mover las agujas despacio, paso a paso.",
       "Al principio, es muy difícil para Valeria. Sus manos no se mueven de la manera correcta, y la lana se enreda varias veces. Se frustra y quiere dejar de intentarlo. \"No puedo hacerlo,\" dice, tirando las agujas al sofá.",
-      "Su abuela la mira con paciencia y dice: \"Cuando yo aprendí, también cometí muchos errores. Necesitas práctica, no perfección.\" Valeria recoge las agujas de nuevo y sigue practicando, aunque las primeras líneas de su tejido no son perfectas.",
+      "Su abuela la mira con paciencia y dice: \"Cuando yo aprendí, también cometí muchos errores. Necesitas práctica, no perfección.\" Valeria recoge las agujas de nuevo y sigue practicando, aunque las primeras filas de su tejido no son perfectas.",
       "Durante las siguientes semanas, Valeria practica todos los días con su abuela. Poco a poco, sus manos se mueven más rápido y con más seguridad. Un día, se da cuenta de que puede tejer sin mirar constantemente sus manos.",
       "Al final del verano, Valeria termina su primer proyecto: una bufanda pequeña de color azul con algunos errores, pero hecha con mucho amor. Decide dársela a su mamá como regalo cuando regrese a casa.",
       "Cuando Valeria le muestra la bufanda a su mamá, ella se emociona mucho. \"¡La hiciste tú misma!\", dice, abrazándola fuerte. Valeria explica que su abuela le enseñó pacientemente durante todo el verano. Desde ese día, Valeria sigue tejiendo cada vez que visita a su abuela, y ya sabe hacer bufandas mucho mejores.",
@@ -824,7 +824,7 @@ const A2_FICTION: Story[] = [
       "Durante la fiesta, la familia miró fotos viejas de la boda de los abuelos. En las fotos, Rosa llevaba un vestido blanco muy simple y Antonio tenía el pelo negro. Todos se rieron mucho al ver la ropa antigua.",
       "Elena le dio a su abuela un álbum nuevo con fotos de toda la familia. La abuela lo abrió despacio y miró cada foto con cuidado. \"Este es el mejor regalo,\" le dijo a Elena.",
       "Después de comer el pastel, los abuelos bailaron una canción lenta en el centro del jardín. Todos los invitados los miraron y aplaudieron. Fue un momento muy especial para la familia.",
-      "Al final de la noche, el abuelo Antonio dio las gracias a todos por venir. Dijo que cincuenta años con Rosa pasaron muy rápido. La familia prometió celebrar juntos otra fiesta en el futuro.",
+      "Al final de la noche, el abuelo Antonio dio las gracias a todos por venir. Dijo que cincuenta años con Rosa habían pasado muy rápido. La familia prometió celebrar juntos otra fiesta en el futuro.",
     ],
     questions: [
       {
@@ -864,8 +864,8 @@ const A2_FICTION: Story[] = [
     subtitle:
       "A boy learns to be a patient big cousin when his aunt brings home a new baby.",
     paragraphs: [
-      "Diego tenía ocho años y esperaba con mucha emoción la llegada de su primo nuevo. Su tía Carmen estaba embarazada desde hacía nueve meses. Toda la familia hablaba del bebé todos los días.",
-      "Un domingo por la mañana, el teléfono sonó muy temprano. Era el tío Luis, y dijo que el bebé nació esa noche en el hospital. Toda la familia se puso muy contenta con la noticia.",
+      "Diego tenía ocho años y esperaba con mucha emoción la llegada de su primo nuevo. Su tía Carmen estaba embarazada de nueve meses. Toda la familia hablaba del bebé todos los días.",
+      "Un domingo por la mañana, el teléfono sonó muy temprano. Era el tío Luis, y dijo que el bebé había nacido esa noche en el hospital. Toda la familia se puso muy contenta con la noticia.",
       "La familia fue al hospital para conocer al nuevo bebé. Se llamaba Mateo y era muy pequeño. Diego lo miró con los ojos muy abiertos.",
       "\"¿Puedo cargarlo?\" preguntó Diego con cuidado. La tía Carmen le dijo que sí, pero le explicó que debía sentarse primero. Diego se sentó despacio y su tía le puso al bebé en los brazos.",
       "Mateo abrió los ojos y miró a Diego por un momento. Diego sonrió y le habló muy bajito. \"Voy a ser tu primo favorito,\" le dijo con una voz suave.",
@@ -915,7 +915,7 @@ const A2_FICTION: Story[] = [
       "A las seis de la mañana, Camila se despertó primero y despertó a Tomás en silencio. Se vistieron rápido y bajaron a la cocina sin hacer ruido. Su mamá todavía dormía.",
       "Tomás quería hacer huevos y pan tostado. Camila quería preparar jugo de naranja y fruta. Los dos trabajaron juntos, pero Tomás rompió un plato sin querer.",
       "El ruido del plato despertó a su mamá. Ella bajó las escaleras rápidamente porque pensaba que algo malo pasaba en la cocina.",
-      "Cuando su mamá entró en la cocina, vio a sus hijos con harina en la ropa y el piso un poco sucio. Camila le dijo: \"¡Sorpresa! Feliz Día de las Madres, mamá.\" Su mamá se rió y los abrazó a los dos.",
+      "Cuando su mamá entró en la cocina, vio a sus hijos con jugo de naranja en la ropa y el piso un poco sucio. Camila le dijo: \"¡Sorpresa! Feliz Día de las Madres, mamá.\" Su mamá se rió y los abrazó a los dos.",
       "\"No importa el plato roto,\" dijo su mamá. \"Este es el mejor regalo del mundo.\" Se sentaron los tres juntos a la mesa para comer.",
       "El desayuno no era perfecto, pero a su mamá le encantó cada parte. Los huevos estaban un poco quemados, y el jugo era muy dulce. Aun así, su mamá comió todo con una sonrisa grande.",
       "Después de comer, su mamá les dio las gracias por el esfuerzo. Camila y Tomás prometieron hacer el desayuno otra vez el próximo año. Fue una mañana perfecta para toda la familia.",
@@ -964,8 +964,8 @@ const A2_FICTION: Story[] = [
       "La abuela dijo que ya no había nada que comer. Todos estaban tristes porque perdieron casi toda la comida. Los primos más pequeños empezaron a llorar un poco.",
       "En ese momento, un señor que estaba cerca los escuchó hablar del problema. Se acercó y les dijo: \"Yo vendo comida allí, cerca del lago. Puedo ayudarlos.\" Señaló un pequeño puesto de comida.",
       "El señor les vendió pan, queso y frutas frescas a un precio muy bueno. La familia le dio las gracias muchas veces por su ayuda. Compraron suficiente comida para todos.",
-      "Los niños comieron sándwiches nuevos debajo del árbol, lejos de las hormigas. Esta vez, pusieron la comida sobre una manta limpia, no en el suelo. Todos se rieron del problema de las hormigas.",
-      "Al final del día, la familia decidió que el próximo año llevará la comida en cajas cerradas. Fue una tarde divertida a pesar del problema. Todos volvieron a casa cansados pero felices.",
+      "Los niños comieron sándwiches nuevos debajo del árbol, lejos de las hormigas. Esta vez, pusieron la comida sobre una manta limpia, no en la mesa. Todos se rieron del problema de las hormigas.",
+      "Al final del día, la familia decidió que el próximo año iba a llevar la comida en cajas cerradas. Fue una tarde divertida a pesar del problema. Todos volvieron a casa cansados pero felices.",
     ],
     questions: [
       {
@@ -994,7 +994,7 @@ const A2_FICTION: Story[] = [
         options: ["Not have the reunion", "Bring the food in closed boxes", "Eat at a restaurant instead", "Invite fewer people"],
         correctIndex: 1,
         explanation:
-          "The story ends: \"el próximo año llevará la comida en cajas cerradas\" (next year they will bring the food in closed boxes).",
+          "The story ends: \"el próximo año iba a llevar la comida en cajas cerradas\" (next year they were going to bring the food in closed boxes).",
       },
     ],
   },
@@ -1012,7 +1012,7 @@ const A2_FICTION: Story[] = [
       "José abrazó a sus hermanos primero y después se arrodilló para saludar a los niños. \"Ustedes son más altos que en las fotos,\" dijo con una sonrisa. Valentina le dio el cartel que ella misma pintó.",
       "En casa, la abuela preparó la comida favorita de José: empanadas y arroz con pollo. Todos se sentaron juntos a la mesa y hablaron por horas. José contó historias divertidas de su vida en Argentina.",
       "Durante las dos semanas de visita, José llevó a los niños al zoológico y al cine. Les enseñó palabras nuevas en un acento diferente al de ellos. Bruno decidió que quería visitar Argentina algún día.",
-      "El día en que José regresó a su país, todos lloraron un poco en el aeropuerto. José prometió que la próxima visita será más pronto. La familia esperará su regreso con mucha alegría.",
+      "El día en que José regresó a su país, todos lloraron un poco en el aeropuerto. José prometió que la próxima visita iba a ser más pronto. La familia esperará su regreso con mucha alegría.",
     ],
     questions: [
       {
@@ -1052,7 +1052,7 @@ const A2_FICTION: Story[] = [
     subtitle:
       "A girl serves as flower girl at her cousin's wedding and worries about tripping in front of everyone.",
     paragraphs: [
-      "Mi prima Valeria se casaba con su novio Andrés en junio, y yo estaba muy emocionada. Valeria me pidió ser la niña de las flores en la boda. Nunca antes hice algo tan importante en una fiesta.",
+      "Mi prima Valeria se casaba con su novio Andrés en junio, y yo estaba muy emocionada. Valeria me pidió ser la niña de las flores en la boda. Nunca antes había hecho algo tan importante en una fiesta.",
       "Dos semanas antes de la boda, fui con mi mamá a comprar mi vestido. Elegimos un vestido rosado con una cinta blanca en la cintura. Me quedaba un poco largo, así que una costurera lo arregló.",
       "La noche antes de la boda, no pude dormir bien porque estaba nerviosa. Pensaba en caminar por el pasillo delante de cien personas. Tenía miedo de tropezar con el vestido.",
       "El día de la boda, mi tía me ayudó a peinarme y me puso flores pequeñas en el pelo. Me dio una canasta llena de pétalos de rosa. \"Camina despacio y sonríe,\" me dijo con cariño.",
@@ -1106,7 +1106,7 @@ const A2_FICTION: Story[] = [
       "\"No es nada serio,\" dijo la doctora. \"Solo debes comer menos azúcar por unos días.\" Le recomendó tomar mucha agua y comer cosas suaves, como arroz y plátano.",
       "Samuel siguió los consejos de la doctora durante toda la semana. Comió sopa, arroz y frutas, y evitó los dulces por completo. Poco a poco, el dolor de estómago desapareció.",
       "La próxima vez que fue a una fiesta, Samuel recordó lo que pasó. Comió solo un pedazo de pastel y tomó agua en vez de refresco. Se sintió mucho mejor al día siguiente.",
-      "Ahora, Samuel siempre piensa antes de comer demasiado dulce. Le explica a sus amigos por qué es importante comer con moderación. Aprendió una lección importante sobre cuidar su cuerpo.",
+      "Ahora, Samuel siempre piensa antes de comer demasiado dulce. Les explica a sus amigos por qué es importante comer con moderación. Aprendió una lección importante sobre cuidar su cuerpo.",
     ],
     questions: [
       {
@@ -1121,7 +1121,7 @@ const A2_FICTION: Story[] = [
         options: ["A serious infection", "Too much sugar", "A broken bone", "An allergy"],
         correctIndex: 1,
         explanation:
-          "The doctor's mother figure said \"Creo que comiste demasiado dulce\" (I think you ate too much candy), which the doctor confirmed.",
+          "The doctor said \"Solo debes comer menos azúcar por unos días\" (You just need to eat less sugar for a few days), so the problem was too much sugar.",
       },
       {
         question: "What foods did the doctor recommend?",
@@ -1161,7 +1161,7 @@ const A2_FICTION: Story[] = [
         options: ["Riding a bike", "Skateboarding", "Playing soccer", "Running"],
         correctIndex: 1,
         explanation:
-          "The story is about Lucía trying a new trick while she \"andar en patineta\" (skateboarding).",
+          "The story says \"A Lucía le encantaba andar en patineta\" (Lucía loved skateboarding), and she got hurt trying a new trick.",
       },
       {
         question: "What did the doctor say about her ankle?",
@@ -1198,7 +1198,7 @@ const A2_FICTION: Story[] = [
       "El problema era que esa tarde, la fiesta de cumpleaños de su primo Bruno era en el club del barrio. Marco esperaba esa fiesta desde hacía semanas.",
       "Marco le pidió a su mamá ir a la fiesta, pero ella le explicó que necesitaba descansar. \"Si vas así, puedes contagiar a tus primos,\" le dijo con cariño. Marco se puso triste, pero entendió la razón.",
       "Su abuela llegó por la tarde para cuidarlo mientras sus papás trabajaban. Le preparó una sopa caliente de pollo y le trajo té con miel y limón. También le puso una manta suave sobre las piernas.",
-      "Bruno lo llamó por teléfono desde la fiesta para contarle todo. Le dijo que guardó un pedazo de pastel para él. Marco se rió un poco, aunque todavía se sentía mal.",
+      "Bruno lo llamó por teléfono desde la fiesta para contarle todo. Le dijo que había guardado un pedazo de pastel para él. Marco se rió un poco, aunque todavía se sentía mal.",
       "Al día siguiente, Marco se sintió mucho mejor gracias al descanso y la sopa de su abuela. La fiebre bajó y pudo comer normalmente otra vez. Su abuela le dijo que el cuerpo necesita tiempo para curarse.",
       "El fin de semana, Bruno visitó a Marco y le trajo el pedazo de pastel prometido. Los dos primos comieron juntos y hablaron de la fiesta. Marco prometió que la próxima vez no se perdería ninguna fiesta.",
     ],
@@ -1229,7 +1229,7 @@ const A2_FICTION: Story[] = [
         options: ["A gift", "A piece of cake", "Photos from the party", "A video game"],
         correctIndex: 1,
         explanation:
-          "Bruno told Marco \"guardó un pedazo de pastel para él\" (he saved a piece of cake for him).",
+          "Bruno told Marco \"había guardado un pedazo de pastel para él\" (he had saved a piece of cake for him).",
       },
     ],
   },
@@ -1340,7 +1340,7 @@ const A2_FICTION: Story[] = [
       "Su mamá le pagó por ayudar a organizar el garaje durante dos sábados. Con ese dinero extra, Sofía por fin llegó a los veinte dólares. Se sintió muy orgullosa de su esfuerzo.",
       "El día antes del cumpleaños, Sofía fue a la tienda con su mamá. Compró la gorra y pidió que la envolvieran en papel de regalo azul. Caminó a casa con una sonrisa enorme.",
       "El día del cumpleaños, Sofía le dio el regalo a su papá después de la cena. Él abrió la caja despacio y vio la gorra de su equipo favorito. \"¿Cómo pagaste esto?\" preguntó, muy sorprendido.",
-      "Sofía le explicó que ahorró el dinero durante tres meses, poquito a poco. Su papá la abrazó fuerte y le dijo que era el mejor regalo que recibió en años. Desde ese día, Sofía sigue ahorrando para su próxima meta.",
+      "Sofía le explicó que ahorró el dinero durante tres meses, poquito a poco. Su papá la abrazó fuerte y le dijo que era el mejor regalo que había recibido en años. Desde ese día, Sofía sigue ahorrando para su próxima meta.",
     ],
     questions: [
       {
@@ -1384,7 +1384,7 @@ const A2_FICTION: Story[] = [
       "El sábado, Bruno y su mamá fueron al supermercado con la lista y cien dólares en efectivo. \"Solo podemos comprar lo que está en la lista,\" le dijo su mamá. Bruno llevó el carrito con cuidado.",
       "En el pasillo de las frutas, Bruno vio dos tipos de manzanas: unas más caras y otras más baratas. Le preguntó a su mamá por qué había tanta diferencia de precio. Ella le explicó que las manzanas caras venían de otro país.",
       "Decidieron comprar las manzanas más baratas porque sabían casi igual de ricas. Bruno empezó a comparar precios en cada pasillo, como un juego. Encontró arroz más barato en una marca diferente.",
-      "En la caja, la cajera sumó todo el precio de las compras. El total fue noventa y dos dólares, menos de lo que esperaban gastar. Su mamá le sonrió a Bruno y le dijo que ayudó mucho.",
+      "En la caja, la cajera sumó todo el precio de las compras. El total fue noventa y dos dólares, menos de lo que esperaban gastar. Su mamá le sonrió a Bruno y le dijo que había ayudado mucho.",
       "De regreso a casa, su mamá le dio a Bruno los ocho dólares que sobraron. \"Puedes guardarlos o gastarlos en algo pequeño,\" le dijo. Bruno decidió guardarlos para el futuro.",
       "Esa noche, cocinaron juntos con todo lo que compraron. Bruno se sintió orgulloso porque ayudó a su familia a ahorrar dinero. Su mamá le dijo: \"Voy a ir contigo al supermercado cada semana.\"",
       "Desde ese día, Bruno siempre revisa los precios antes de poner algo en el carrito. Aprendió que comparar precios es una manera fácil de ahorrar. Ahora, ayuda a su mamá con la lista cada semana.",
@@ -1527,7 +1527,7 @@ const A2_FICTION: Story[] = [
       "Su mamá le sugirió ir a una librería, porque a Tomás le gustaba mucho leer cómics. Allí, Nico encontró un cómic nuevo de su superhéroe favorito por doce dólares. Era menos caro que las otras opciones.",
       "Nico recordó que Tomás hablaba siempre de ese superhéroe en la escuela. Decidió comprar el cómic y, con el dinero que sobraba, también compró un lápiz especial. Pagó todo en la caja y guardó el cambio.",
       "El día del cumpleaños, Nico le dio el regalo envuelto en papel verde, el color favorito de Tomás. Tomás lo abrió con emoción y vio el cómic que tanto quería. \"¡Es exactamente el que buscaba!\" gritó feliz.",
-      "Tomás le dio un abrazo fuerte a Nico y le dijo que era el mejor regalo de todos los que recibió. Los dos amigos leyeron el cómic juntos esa misma tarde. Nico se sintió muy contento de haber elegido bien.",
+      "Tomás le dio un abrazo fuerte a Nico y le dijo que era el mejor regalo de todos los que había recibido. Los dos amigos leyeron el cómic juntos esa misma tarde. Nico se sintió muy contento de haber elegido bien.",
       "Después de ese día, Nico aprendió que un buen regalo no necesita ser el más caro. Lo importante es pensar en lo que la otra persona realmente quiere. La próxima vez, buscará con la misma atención.",
     ],
     questions: [
@@ -1572,7 +1572,7 @@ const A2_FICTION: Story[] = [
       "Un día, mientras Emilia jugaba sola en el jardín, escuchó una voz al otro lado de la cerca. \"Hola, me llamo Zoe. ¿Quieres jugar?\" Emilia se puso nerviosa, pero le respondió que sí.",
       "Zoe le contó que su familia se mudó desde otra ciudad por el trabajo de su papá. Extrañaba a sus amigos antiguos y no conocía a nadie en el barrio todavía. Emilia le dijo que ella podía ser su nueva amiga.",
       "Las dos niñas empezaron a jugar juntas casi todos los días después de la escuela. Emilia le enseñó a Zoe los mejores lugares del parque cercano. Zoe le enseñó a Emilia un juego nuevo con cartas.",
-      "Un fin de semana, la mamá de Zoe invitó a Emilia y a su familia a cenar. Comieron comida diferente a la que Emilia conocía, con especias que Emilia no probaba antes.",
+      "Un fin de semana, la mamá de Zoe invitó a Emilia y a su familia a cenar. Comieron comida diferente a la que Emilia conocía, con especias que Emilia nunca había probado.",
       "Durante la cena, las dos familias hablaron y se rieron mucho. Los papás de Emilia y de Zoe descubrieron que trabajaban cerca uno del otro. Todos se sintieron muy cómodos, como si se conocieran desde hace tiempo.",
       "Con el paso de las semanas, Emilia y Zoe se hicieron mejores amigas. Se sentaban juntas en el autobús y compartían el almuerzo en la escuela. Zoe ya no se sentía tan sola en el barrio nuevo.",
       "Ahora, las dos familias organizan cenas juntas cada mes. Emilia aprendió que ser un poco valiente al principio puede traer una gran amistad. Está muy contenta de tener a Zoe como su vecina y mejor amiga.",
@@ -1615,7 +1615,7 @@ const A2_FICTION: Story[] = [
     subtitle:
       "Two children notice their elderly neighbor seems lonely and start visiting her, discovering she was once a teacher.",
     paragraphs: [
-      "La señora Rosa vivía sola en la casa azul al final de la calle. Su esposo murió hace dos años, y sus hijos vivían muy lejos. Los niños del barrio casi nunca hablaban con ella.",
+      "La señora Rosa vivía sola en la casa azul al final de la calle. Su esposo había muerto hacía dos años, y sus hijos vivían muy lejos. Los niños del barrio casi nunca hablaban con ella.",
       "Un día, Mateo y su hermana Luna la vieron sentada sola en su porche, mirando la calle. Decidieron acercarse y saludarla. \"Buenas tardes, señora Rosa. ¿Cómo está?\" preguntó Luna con timidez.",
       "La señora Rosa sonrió, sorprendida de que alguien le hablara. Les contó que antes era maestra de escuela primaria, hace muchos años. Los niños se sentaron en las escaleras del porche y escucharon sus historias.",
       "Desde ese día, Mateo y Luna empezaron a visitarla dos veces por semana. A veces le llevaban galletas que hacían con su mamá. Otras veces, solo se sentaban a hablar de la escuela y de sus amigos.",
@@ -1663,7 +1663,7 @@ const A2_FICTION: Story[] = [
       "Kids in the neighborhood work together to find a neighbor's missing cat, following clues around the block.",
     paragraphs: [
       "El señor Díaz, un vecino del barrio, tenía un gato gris llamado Simón. Una tarde, dejó la puerta del jardín abierta, y Simón salió sin que nadie lo viera. Cuando el señor Díaz lo buscó por la casa, no lo encontró en ningún lado.",
-      "Preocupado, el señor Díaz salió a la calle y les preguntó a los vecinos si vieron a su gato. Nadie sabía nada. Los niños del barrio, Elena y Marcos, decidieron ayudarlo a buscar.",
+      "Preocupado, el señor Díaz salió a la calle y les preguntó a los vecinos si habían visto a su gato. Nadie sabía nada. Los niños del barrio, Elena y Marcos, decidieron ayudarlo a buscar.",
       "Hicieron carteles con una foto de Simón y el número de teléfono del señor Díaz. Pusieron los carteles en los postes de la calle y en la tienda de la esquina. Después, caminaron por el barrio llamando al gato por su nombre.",
       "Una vecina les dijo que escuchó un maullido cerca del árbol grande del parque. Elena y Marcos corrieron hacia allí y miraron entre las ramas. No vieron nada al principio, pero escucharon el mismo sonido.",
       "Marcos miró hacia arriba y vio a Simón atrapado en una rama alta del árbol. El gato estaba asustado y no quería bajar solo. Elena corrió a buscar al señor Díaz inmediatamente.",
@@ -1757,7 +1757,7 @@ const A2_FICTION: Story[] = [
       "A nurse who takes photos on her days off enters the city photography contest.",
     paragraphs: [
       "Inés era enfermera en un hospital de Zaragoza. Trabajaba muchas noches, y en sus días libres le encantaba hacer fotos por la ciudad. Tenía una cámara pequeña y vieja, pero la usaba todos los días.",
-      "Un día vio un cartel en el metro: el ayuntamiento organizaba un concurso de fotografía. El tema era «La ciudad despierta». El primer premio era un viaje a Lisboa.",
+      "Un día vio un cartel en el tranvía: el ayuntamiento organizaba un concurso de fotografía. El tema era «La ciudad despierta». El primer premio era un viaje a Lisboa.",
       "Inés tenía una idea. Después de sus turnos de noche, salía del hospital a las siete de la mañana, cuando la ciudad empezaba a despertar. Durante un mes, hizo fotos de camino a casa: panaderos, barrenderos, autobuses vacíos.",
       "Al final eligió una foto: un panadero que sacaba pan del horno, con la luz naranja del amanecer en la ventana. La envió el último día del concurso, a las once y media de la noche.",
       "Dos semanas después, recibió un correo del ayuntamiento. Era finalista. La invitaron a una ceremonia en el museo de la ciudad, con los otros nueve finalistas.",
@@ -1808,7 +1808,7 @@ const A2_FICTION: Story[] = [
       "En la reunión, su jefa, la señora Paredes, pidió los informes a todo el equipo. Diego abrió su portátil, pero no encontró nada. Se puso rojo de vergüenza.",
       "—Lo siento, señora Paredes —dijo Diego—. Ayer vi el fútbol y no terminé el informe. La jefa lo miró seriamente, pero no se enfadó mucho.",
       "—Puedes enviarlo esta tarde —le dijo—, pero la próxima vez quiero tenerlo el viernes. Diego dijo que sí y entendió que necesitaba organizar mejor su tiempo.",
-      "Esa tarde, Diego terminó el informe antes de las cinco. También escribió un horario nuevo para la semana en su agenda. Desde ese día, siempre envió sus informes los viernes, y los domingos vio el fútbol sin preocupaciones.",
+      "Esa tarde, Diego terminó el informe antes de las cinco. También escribió un horario nuevo para la semana en su agenda. Desde ese día, siempre enviaba sus informes los viernes, y los domingos veía el fútbol sin preocupaciones.",
     ],
     questions: [
       {
@@ -1837,7 +1837,7 @@ const A2_FICTION: Story[] = [
         options: ["He stopped watching football", "He sent his reports on Fridays", "He changed jobs", "He asked a coworker to write them"],
         correctIndex: 1,
         explanation:
-          "\"Desde ese día, siempre envió sus informes los viernes.\"",
+          "\"Desde ese día, siempre enviaba sus informes los viernes.\"",
       },
     ],
   },
@@ -1848,18 +1848,18 @@ const A2_FICTION: Story[] = [
     subtitle:
       "A school soccer team loses the championship final on penalty kicks but stays united.",
     paragraphs: [
-      "Mateo jugaba fútbol en el equipo de su escuela. El equipo se llamaba Los Tigres y practicaban tres veces por semana. Ese año, llegaron a la final del campeonato contra Los Águilas.",
+      "Mateo jugaba fútbol en el equipo de su escuela. El equipo se llamaba Los Tigres y practicaban tres veces por semana. Ese año, llegaron a la final del campeonato contra Las Águilas.",
       "Antes del partido, el entrenador, el señor Vega, habló con el equipo. —Ustedes son un equipo fuerte —les dijo—. No importa el resultado, jugaremos con corazón.",
       "El partido fue muy difícil. Los dos equipos jugaron bien y, al final del tiempo normal, el marcador estaba empatado dos a dos. Por eso, el partido terminó con tiros de penalti.",
-      "El entrenador eligió a Mateo para tirar el último penalti. Mateo estaba muy nervioso, pero caminó hacia la pelota con confianza. Pateó la pelota, pero el portero de Los Águilas la atajó.",
-      "Los Tigres perdieron el campeonato por un punto. Mateo se sintió muy triste y pensó que era culpa suya. Se sentó solo en el campo y no quería hablar con nadie.",
+      "El entrenador eligió a Mateo para tirar el último penalti. Mateo estaba muy nervioso, pero caminó hacia la pelota con confianza. Pateó la pelota, pero el portero de Las Águilas la atajó.",
+      "Los Tigres perdieron el campeonato en los penaltis. Mateo se sintió muy triste y pensó que era culpa suya. Se sentó solo en el campo y no quería hablar con nadie.",
       "Sus compañeros de equipo caminaron hacia él. —No es tu culpa —le dijo su amigo Lucas—. Jugamos juntos como equipo, y ganamos y perdemos juntos también.",
       "El entrenador Vega también lo animó. —Ustedes jugaron mejor que el año pasado —dijo con una sonrisa—. El próximo año, entrenaremos más y volveremos a la final. Mateo se sintió mejor y sonrió con sus amigos.",
     ],
     questions: [
       {
         question: "What was the score at the end of regular playing time?",
-        options: ["Los Tigres won 3-2", "The game was tied 2-2", "Los Águilas won 3-1", "The game was cancelled"],
+        options: ["Los Tigres won 3-2", "The game was tied 2-2", "Las Águilas won 3-1", "The game was cancelled"],
         correctIndex: 1,
         explanation:
           "The text says \"el marcador estaba empatado dos a dos\" (the score was tied two to two), which sent the game to penalty kicks.",
@@ -1869,7 +1869,7 @@ const A2_FICTION: Story[] = [
         options: ["He scored the winning goal", "He refused to kick", "He missed the goal completely", "The goalkeeper stopped it"],
         correctIndex: 3,
         explanation:
-          "The story says \"el portero de Los Águilas la atajó\" (Los Águilas' goalkeeper stopped it).",
+          "The story says \"el portero de Las Águilas la atajó\" (Las Águilas' goalkeeper stopped it).",
       },
       {
         question: "How did Mateo feel right after missing the kick?",
@@ -1894,7 +1894,7 @@ const A2_FICTION: Story[] = [
     subtitle:
       "A girl afraid of deep water takes swimming lessons and overcomes her fear.",
     paragraphs: [
-      "Sofía tenía ocho años y nunca sabía nadar. Cada verano, sus amigas iban a la piscina, pero ella se quedaba en casa porque tenía miedo del agua profunda.",
+      "Sofía tenía ocho años y nunca había aprendido a nadar. Cada verano, sus amigas iban a la piscina, pero ella se quedaba en casa porque tenía miedo del agua profunda.",
       "Ese verano, la mamá de Sofía decidió inscribirla en clases de natación. Sofía no quería ir. —No me gusta el agua —le dijo a su mamá—. Tengo miedo.",
       "El primer día de clase, Sofía conoció a su instructora, la señorita Laura. La instructora era muy paciente y le explicó que iban a empezar despacio, en la parte poco profunda de la piscina.",
       "Durante las primeras clases, Sofía solo practicaba cómo poner la cara en el agua y cómo mover los brazos. No entraba en la parte profunda. Poco a poco, se sentía más segura.",
@@ -1944,7 +1944,7 @@ const A2_FICTION: Story[] = [
       "El equipo se llamaba Los Rápidos y practicó todas las tardes durante un mes. Cada persona corría una parte de la carrera y después le pasaba el bastón al siguiente corredor. Iván siempre corría el último y era el más rápido del grupo.",
       "El día de la carrera, muchos padres y maestros miraban desde las gradas. Ana corrió primero y le pasó el bastón a Pablo sin problemas. Pero cuando Pablo corría muy rápido, se puso nervioso y dejó caer el bastón al suelo.",
       "Pablo se detuvo por un segundo, muy avergonzado. Rosa, que esperaba el bastón, le gritó: —¡No pasa nada, Pablo! ¡Recógelo y sigue corriendo! Pablo tomó el bastón otra vez y corrió más rápido que antes.",
-      "Rosa recibió el bastón y corrió su parte con mucha energía. Después, le pasó el bastón a Iván, el corredor más rápido del equipo. Iván corrió con todas sus fuerzas hasta la línea final.",
+      "Rosa recibió el bastón y corrió su parte con mucha energía. Después, le pasó el bastón a Iván, el corredor más rápido del equipo. Iván corrió con todas sus fuerzas hasta la línea de meta.",
       "Los Rápidos terminaron en tercer lugar, no en primer lugar. Pablo estaba triste por el error con el bastón y pensaba que la culpa era suya.",
       "Pero sus compañeros no estaban enojados. —Corriste muy bien después de la caída —le dijo Ana—. El tercer lugar es un premio también. Pablo sonrió, y todo el equipo celebró juntos con un abrazo grupal.",
     ],
@@ -1992,7 +1992,7 @@ const A2_FICTION: Story[] = [
       "Al final de la semana, el entrenador puso una lista en la puerta del gimnasio con los nombres de los jugadores seleccionados. Bruno buscó su nombre, pero no lo encontró. El nombre de Nico sí estaba en la lista.",
       "Bruno se sintió muy decepcionado y casi lloró. Fue a hablar con el entrenador Fernández para entender qué pasó. —Tus tiros necesitan más práctica —le explicó el entrenador—, pero tienes mucho potencial.",
       "El entrenador le ofreció un lugar en el equipo júnior, para estudiantes más jóvenes o con menos experiencia. Bruno aceptó la oferta, aunque quería estar en el equipo principal. Decidió practicar tiros todos los días después de la escuela.",
-      "Con el tiempo, Bruno mejoró mucho sus tiros. El año próximo, va a probar otra vez para el equipo principal, y esta vez está seguro de que lo va a lograr. Nico lo apoya y practican juntos cada semana.",
+      "Con el tiempo, Bruno mejoró mucho sus tiros. El año próximo, va a presentarse otra vez a las pruebas del equipo principal, y esta vez está seguro de que lo va a lograr. Nico lo apoya y practican juntos cada semana.",
     ],
     questions: [
       {
@@ -2032,7 +2032,7 @@ const A2_FICTION: Story[] = [
     subtitle:
       "A girl takes her first airplane flight and discovers she loves flying.",
     paragraphs: [
-      "Camila tenía diez años y nunca viajaba en avión. Ese verano, su familia planeó un viaje a la casa de sus abuelos, que vivían en otra ciudad, muy lejos. Iban a viajar en avión por primera vez.",
+      "Camila tenía diez años y nunca había viajado en avión. Ese verano, su familia planeó un viaje a la casa de sus abuelos, que vivían en otra ciudad, muy lejos. Iban a viajar en avión por primera vez.",
       "Camila estaba emocionada, pero también un poco nerviosa. —¿Y si el avión se cae? —le preguntó a su papá la noche antes del viaje. Su papá se rió un poco y le explicó que viajar en avión era muy seguro.",
       "El día del viaje, la familia llegó al aeropuerto tres horas antes del vuelo. Caminaron por muchos pasillos y pasaron por el control de seguridad. Camila miraba todo con curiosidad: las tiendas, los aviones grandes por las ventanas, la gente de todas partes del mundo.",
       "Cuando subieron al avión, Camila se sentó junto a la ventana. Su corazón latía rápido. Cuando el avión empezó a moverse por la pista, ella cerró los ojos y tomó la mano de su mamá con fuerza.",
@@ -2124,9 +2124,9 @@ const A2_FICTION: Story[] = [
     subtitle:
       "A girl hikes a long mountain trail with her father and reaches the summit.",
     paragraphs: [
-      "Renata y su papá decidieron hacer una caminata a la montaña un sábado por la mañana. El sendero era largo, casi ocho kilómetros hasta la cima. Renata nunca hacía una caminata tan larga.",
+      "Renata y su papá decidieron hacer una caminata a la montaña un sábado por la mañana. El sendero era largo, casi ocho kilómetros hasta la cima. Renata nunca había hecho una caminata tan larga.",
       "Se levantaron temprano y prepararon una mochila con agua, frutas y sándwiches. El papá de Renata le dijo: —Vamos a caminar despacio, paso a paso. No es una carrera.",
-      "Durante la primera hora, Renata caminaba con mucha energía y hablaba sin parar. Pero después de dos horas, sus piernas empezaron a doler y quería regresar a casa. —Estoy muy cansada, papá. No puedo más —dijo.",
+      "Durante la primera hora, Renata caminaba con mucha energía y hablaba sin parar. Pero después de dos horas, le empezaron a doler las piernas y quería regresar a casa. —Estoy muy cansada, papá. No puedo más —dijo.",
       "Su papá se sentó con ella en una roca grande. Le dio agua y una fruta. —Cada persona necesita descansar a veces —le explicó—. Después de descansar, vas a sentirte mejor.",
       "Después de quince minutos de descanso, Renata se sintió con más energía. Decidió continuar, aunque caminaba más lento que antes. Su papá caminaba a su lado y la animaba con cada paso.",
       "Por fin, después de cuatro horas, llegaron a la cima de la montaña. Desde allí, podían ver todo el valle, los ríos y los pueblos pequeños abajo. La vista era increíble.",
@@ -2145,7 +2145,7 @@ const A2_FICTION: Story[] = [
         options: ["Renata's legs started to hurt and she wanted to go back", "Renata ran ahead of her dad", "They got lost on the trail", "It started to rain heavily"],
         correctIndex: 0,
         explanation:
-          "The text says \"sus piernas empezaron a doler y quería regresar a casa\" (her legs started to hurt and she wanted to go back home).",
+          "The text says \"le empezaron a doler las piernas y quería regresar a casa\" (her legs started to hurt and she wanted to go back home).",
       },
       {
         question: "What did Renata's dad do when she got tired?",
@@ -2171,7 +2171,7 @@ const A2_FICTION: Story[] = [
       "Two friends learn to share a new video game controller fairly.",
     paragraphs: [
       "Leo recibió una consola de videojuegos nueva como regalo. Estaba muy emocionado porque el juego más popular de la escuela era «Aventura Espacial», un juego de dos jugadores. Invitó a su mejor amigo, Sam, a jugar en su casa.",
-      "Cuando Sam llegó, los dos niños empezaron a jugar juntos. Al principio, Leo quería jugar solo con el control mejor, el control nuevo. Le dio a Sam el control viejo, que no funcionaba muy bien.",
+      "Cuando Sam llegó, los dos niños empezaron a jugar juntos. Al principio, Leo quería jugar solo con el mejor control, el nuevo. Le dio a Sam el control viejo, que no funcionaba muy bien.",
       "Sam se sintió un poco mal, pero no dijo nada al principio. Después de media hora, Sam perdió el juego varias veces porque su control no respondía bien. —Este control es difícil de usar —le dijo a Leo, un poco frustrado.",
       "Leo se dio cuenta de que estaba siendo egoísta con su mejor amigo. Pensó un momento y comprendió que la situación no era justa. Decidió cambiar los controles.",
       "—Toma, usa el control nuevo —le dijo Leo a Sam—. Es más justo si compartimos. Sam sonrió y aceptó el control nuevo con gusto.",
@@ -2264,7 +2264,7 @@ const A2_FICTION: Story[] = [
     paragraphs: [
       "En la clase de computación, el maestro anunció una prueba de mecanografía para el final del mes. Los estudiantes tenían que escribir en el teclado lo más rápido posible, sin mirar las teclas.",
       "Óscar escribía muy lento porque siempre miraba el teclado para encontrar cada letra. Sus compañeros ya escribían mucho más rápido que él. Óscar estaba preocupado por la prueba.",
-      "Su hermana mayor, Carla, le mostró un juego de computadora para practicar mecanografía. En el juego, las palabras caían desde arriba de la pantalla. Si Óscar no escribía la palabra a tiempo, ella caía al suelo y él perdía un punto.",
+      "Su hermana mayor, Carla, le mostró un juego de computadora para practicar mecanografía. En el juego, las palabras caían desde arriba de la pantalla. Si Óscar no escribía la palabra a tiempo, la palabra caía al suelo y él perdía un punto.",
       "Óscar practicó con el juego todos los días durante veinte minutos. Al principio, perdía el juego rápidamente porque las palabras caían muy rápido para él. Pero con la práctica, empezó a mejorar poco a poco.",
       "Después de dos semanas, Óscar ya no necesitaba mirar el teclado tanto. Sus dedos recordaban dónde estaban las letras. También escribía más palabras por minuto que antes.",
       "El día de la prueba, el maestro les dio un texto para escribir en cinco minutos. Óscar escribió con confianza, sin mirar el teclado casi nunca. Terminó el texto completo con dos minutos de sobra.",
@@ -2357,7 +2357,7 @@ const A2_FICTION: Story[] = [
       "La directora de la escuela quería pintar un mural grande en la pared del patio. Pidió ideas y dibujos a todos los estudiantes de arte. El tema del mural era «Nuestra comunidad».",
       "Paola era una niña muy tímida que casi nunca hablaba en clase. Pero le encantaba dibujar, y en su cuaderno tenía dibujos hermosos de árboles, animales y personas. Nadie en la escuela sabía sobre su talento.",
       "Su maestra de arte, la señora Campos, vio uno de los cuadernos de Paola por accidente. —Paola, tus dibujos son increíbles —le dijo—. ¿Por qué no compartes uno para el mural?",
-      "Paola se puso nerviosa, pero decidió mostrar su dibujo de un árbol grande con pájaros de colores. La señora Campos y los otros estudiantes lo amaron inmediatamente. Eligieron el dibujo de Paola como la idea principal del mural.",
+      "Paola se puso nerviosa, pero decidió mostrar su dibujo de un árbol grande con pájaros de colores. A la señora Campos y a los otros estudiantes les encantó inmediatamente. Eligieron el dibujo de Paola como la idea principal del mural.",
       "Durante dos semanas, un grupo de diez estudiantes trabajó en el mural después de las clases. Paola, aunque tímida, dirigía el proyecto porque sabía exactamente cómo debía verse cada parte.",
       "Al principio, a Paola le costaba dar instrucciones a sus compañeros porque no le gustaba hablar en público. Pero poco a poco, ganó más confianza y empezó a explicar sus ideas con claridad.",
       "Cuando terminaron el mural, toda la escuela lo celebró con una pequeña fiesta. El árbol grande de Paola, con sus pájaros de colores, estaba en el centro de la pared. Desde ese día, Paola habló mucho más en clase y se sintió orgullosa de su talento.",
@@ -2449,7 +2449,7 @@ const A2_FICTION: Story[] = [
       "Ximena jugaba vóleibol en el equipo de su escuela desde hacía un año. Le gustaba mucho el deporte, pero tenía un problema: le costaba mucho sacar bien la pelota. Sus saques casi siempre salían fuera de la cancha.",
       "Antes del partido más importante del año, contra la escuela rival, la entrenadora practicó saques con Ximena todos los días. —Necesitas doblar más las rodillas y mirar la pelota —le explicó la entrenadora.",
       "El día del partido, el gimnasio estaba lleno de estudiantes y padres. Ximena estaba muy nerviosa porque sabía que iba a sacar en algún momento del partido. Su equipo, Las Panteras, jugaba contra Las Estrellas.",
-      "En el segundo set, el marcador estaba muy cerca: catorce a trece para Las Panteras. La entrenadora eligió a Ximena para el próximo saque, un momento muy importante del partido.",
+      "En el segundo set, el marcador estaba muy cerca: veinticuatro a veintitrés para Las Panteras. La entrenadora eligió a Ximena para el próximo saque, un momento muy importante del partido.",
       "Ximena caminó hacia la línea de saque con las manos temblorosas. Recordó las palabras de su entrenadora: doblar las rodillas y mirar la pelota. Respiró profundamente y sacó la pelota con fuerza.",
       "La pelota voló por encima de la red y cayó dentro de la cancha del equipo rival, que no pudo devolverla a tiempo. ¡Las Panteras ganaron el punto y el set! Todo el equipo gritó de alegría y corrió a abrazar a Ximena.",
       "Al final, Las Panteras ganaron el partido completo. Ximena se sintió muy orgullosa porque su saque difícil fue el punto decisivo. Después del partido, siguió practicando cada semana para mejorar aún más.",
@@ -2559,7 +2559,7 @@ const A2_FICTION: Story[] = [
         options: ["She panicked and did nothing", "She left the airport to search outside", "She called the police herself", "She looked for an airport employee to ask for help"],
         correctIndex: 3,
         explanation:
-          "The text says \"Decidió buscar a un empleado del aeropuerto para pedir ayuda\" (She decided to look for an airport employee to ask for help).",
+          "The text says \"Si tienes un problema, busca a un empleado del aeropuerto. Decidió hacer exactamente eso\" (If you have a problem, look for an airport employee. She decided to do exactly that).",
       },
       {
         question: "Where did they find Toby?",
@@ -2586,7 +2586,7 @@ const A2_FICTION: Story[] = [
     paragraphs: [
       "Simón recibió un dron pequeño como regalo de su tío. Estaba muy emocionado porque quería usarlo para un proyecto de la escuela: un video sobre su barrio desde el aire.",
       "El primer día, Simón llevó el dron al parque cerca de su casa. Sin leer las instrucciones, encendió el dron y lo hizo volar muy alto y muy rápido. No sabía controlarlo bien todavía.",
-      "De repente, el dron chocó contra un árbol grande y cayó al suelo. Una de las hélices se rompió. Simón se sintió muy triste porque pensaba que arruinó su regalo nuevo.",
+      "De repente, el dron chocó contra un árbol grande y cayó al suelo. Una de las hélices se rompió. Simón se sintió muy triste porque pensaba que había arruinado su regalo nuevo.",
       "Su tío lo llamó por teléfono esa noche. —Todos los pilotos de drones chocan al principio —le dijo, riéndose—. Necesitas leer el manual y practicar en un espacio abierto y sin árboles.",
       "Simón pidió una hélice nueva y su tío se la envió por correo. Mientras esperaba, leyó todo el manual del dron con mucho cuidado. Aprendió sobre los controles, la velocidad y cómo aterrizar con seguridad.",
       "Con la hélice nueva, Simón practicó en un campo grande y vacío, lejos de árboles y edificios. Al principio, volaba despacio y con cuidado. Poco a poco, ganó más confianza y control.",
@@ -2630,7 +2630,7 @@ const A2_FICTION: Story[] = [
     subtitle:
       "A girl who has never skied falls many times but skis down the whole mountain by the trip's end.",
     paragraphs: [
-      "La escuela de Lucía organizó un viaje de tres días a las montañas para esquiar. Era la primera vez que Lucía iba a esquiar, y estaba muy nerviosa porque nunca practicaba este deporte.",
+      "La escuela de Lucía organizó un viaje de tres días a las montañas para esquiar. Era la primera vez que Lucía iba a esquiar, y estaba muy nerviosa porque nunca había practicado este deporte.",
       "El primer día, un instructor les enseñó a todos los estudiantes cómo ponerse los esquís y cómo pararse sin caerse. Lucía escuchaba con atención, pero cuando intentó pararse por primera vez, se cayó inmediatamente.",
       "Durante toda la mañana, Lucía se cayó muchas veces: en la nieve, cerca del telesilla, y hasta en la pista más fácil de la montaña. Algunos estudiantes se reían un poco, y Lucía se sentía avergonzada.",
       "Su amiga Valeria, que ya sabía esquiar un poco, se quedó con ella para ayudarla. —No te preocupes por las caídas —le dijo—. Todos se caen cuando aprenden. Lo importante es levantarse otra vez.",
@@ -2644,7 +2644,7 @@ const A2_FICTION: Story[] = [
         options: ["Confident and excited only", "Nervous because she had never done this sport", "Bored by the whole idea", "Angry that she had to go"],
         correctIndex: 1,
         explanation:
-          "The text says \"estaba muy nerviosa porque nunca practicaba este deporte\" (she was very nervous because she had never done this sport before).",
+          "The text says \"estaba muy nerviosa porque nunca había practicado este deporte\" (she was very nervous because she had never done this sport before).",
       },
       {
         question: "What happened during Lucía's first morning of skiing?",
@@ -3399,7 +3399,7 @@ const A2_FICTION: Story[] = [
       "A family's day trip to an island goes wrong when they miss the last ferry back, but the night turns into an adventure.",
     paragraphs: [
       "En sus vacaciones en Galicia, la familia Castro decidió visitar las Islas Cíes, unas islas muy bonitas con playas de arena blanca. Tomaron el barco a las diez de la mañana desde el puerto de Vigo.",
-      "El viaje duró cuarenta minutos. Cuando llegaron, la isla les pareció un paraíso: el agua era transparente, había pocos turistas y muchas gaviotas. Caminaron hasta un faro en lo alto de la isla y comieron un picnic con vistas al mar.",
+      "El viaje duró cuarenta minutos. Cuando llegaron, la isla les pareció un paraíso: el agua era transparente, había pocos turistas y muchas gaviotas. Caminaron hasta un faro en lo alto de la isla y hicieron un picnic con vistas al mar.",
       "Por la tarde, se quedaron en la playa. Los niños, Marcos y Sara, nadaron y buscaron conchas. El padre se quedó dormido en la toalla. La madre leía un libro. Nadie miró el reloj.",
       "A las siete y cuarto, la madre miró el billete y se levantó de un salto. ¡El último barco salía a las siete! Corrieron al muelle, pero el barco ya estaba lejos en el mar. Se habían quedado en la isla.",
       "Un trabajador del parque natural les explicó que no había más barcos hasta el día siguiente. Pero les dijo que había un camping en la isla con tiendas de campaña para alquilar. La familia no tenía otra opción.",
@@ -3412,7 +3412,7 @@ const A2_FICTION: Story[] = [
         options: ["They went fishing", "They walked to a lighthouse and had a picnic", "They rented bikes", "They visited a museum"],
         correctIndex: 1,
         explanation:
-          "\"Caminaron hasta un faro en lo alto de la isla y comieron un picnic con vistas al mar.\"",
+          "\"Caminaron hasta un faro en lo alto de la isla y hicieron un picnic con vistas al mar.\"",
       },
       {
         question: "Why did they miss the last ferry?",
@@ -3954,7 +3954,7 @@ const A2_FICTION: Story[] = [
       "Su padre se rio. Hacía quince años que no corría. Trabajaba en una oficina todo el día y tenía barriga. Pero vio la cara de ilusión de su hija y dijo que sí. La carrera era en dos meses.",
       "Empezaron a entrenar tres veces por semana en el parque. Los primeros días fueron difíciles, sobre todo para el padre. Después de solo cinco minutos, se paraba sin aire. Carla lo esperaba y lo animaba: —¡Vamos, papá, solo un poco más!",
       "Poco a poco, el padre mejoró. Primero corrió diez minutos seguidos, luego veinte, luego treinta. Cambió su forma de comer y dejó de tomar refrescos. Carla hizo un calendario en la nevera y marcaba cada entrenamiento con una estrella.",
-      "El día de la carrera, había más de dos mil personas. Carla y su padre empezaron bien, pero en el kilómetro tres, el padre se puso muy cansado. Le dolía una pierna. —Sigue tú, Carla —le dijo—. Yo voy despacio.",
+      "El día de la carrera, había más de dos mil personas. Carla y su padre empezaron bien, pero en el kilómetro tres, el padre se cansó mucho. Le dolía una pierna. —Sigue tú, Carla —le dijo—. Yo voy despacio.",
       "Carla podía terminar mucho más rápido sola. Pero se quedó con él. —Empezamos juntos y terminamos juntos —le dijo. Caminaron un poco, luego corrieron otra vez. La gente en la calle aplaudía y los animaba.",
       "Cruzaron la meta de la mano, en treinta y ocho minutos. No fueron los más rápidos, pero fueron los más felices. Con la carrera, la ciudad recaudó veinte mil euros para el hospital. Desde entonces, Carla y su padre siguen corriendo juntos los domingos, y ya se han apuntado a la carrera del año que viene.",
     ],
@@ -3978,7 +3978,7 @@ const A2_FICTION: Story[] = [
         options: ["The father got very tired and his leg hurt", "Carla fell", "It started raining", "They got lost"],
         correctIndex: 0,
         explanation:
-          "\"En el kilómetro tres, el padre se puso muy cansado. Le dolía una pierna.\"",
+          "\"En el kilómetro tres, el padre se cansó mucho. Le dolía una pierna.\"",
       },
       {
         question: "What did Carla decide to do?",
@@ -3998,7 +3998,7 @@ const A2_FICTION: Story[] = [
     paragraphs: [
       "En octubre, el abuelo de Marina tuvo un problema de corazón y tuvo que quedarse en el hospital durante tres semanas. Marina tenía diez años y quería mucho a su abuelo. Todas las tardes, él la llevaba al parque y le contaba historias de cuando era marinero.",
       "La primera vez que Marina lo visitó en el hospital, se asustó un poco. Su abuelo estaba en una cama blanca, con cables y máquinas a su alrededor. Parecía más pequeño y cansado. Casi no hablaba.",
-      "Una enfermera muy simpática se llamaba Lorena. Ella le explicó a Marina que su abuelo estaba mejorando. Pero también estaba triste porque echaba de menos su casa y el mar. —Los pacientes se recuperan mejor cuando están contentos —le dijo.",
+      "Había una enfermera muy simpática que se llamaba Lorena. Ella le explicó a Marina que su abuelo estaba mejorando. Pero también estaba triste porque echaba de menos su casa y el mar. —Los pacientes se recuperan mejor cuando están contentos —le dijo.",
       "En casa, Marina pensó en cómo alegrar a su abuelo. Su abuelo siempre decía que no había nada mejor que el olor del mar y el sonido de las olas. Pero no podía llevarlo a la playa. Entonces tuvo una idea.",
       "El sábado, Marina fue a la playa con su madre. Grabó el sonido de las olas con el móvil durante media hora. Recogió conchas y una piedra lisa. Llenó un bote pequeño con arena y agua del mar. Luego, hizo un dibujo del barco de su abuelo.",
       "El domingo, llevó todo al hospital. Puso el dibujo en la pared, las conchas en la mesita y le dio a su abuelo el bote de agua de mar para oler. Luego, puso el sonido de las olas. El abuelo cerró los ojos y sonrió por primera vez en una semana.",

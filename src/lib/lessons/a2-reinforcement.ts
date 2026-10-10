@@ -57,7 +57,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Answer the question.", "—¿Ustedes miraron el partido? —Sí, lo ___ en casa de Pedro.", "miramos", "Ustedes question → nosotros answer. -AR nosotros is the same in present and preterite; ayer/el sábado tells you it's past."),
+      fb("Answer the question.", "—¿Ustedes miraron el partido? —Sí, lo ___ en casa de Pedro.", "miramos", "Ustedes question → nosotros answer. -AR nosotros is the same in present and preterite; here the past-tense question (¿miraron?) tells you it's past."),
       fb("Answer the question.", "—¿Qué comiste? —___ una pizza enorme.", "Comí", "-ER preterite yo → -í."),
       fb("Complete with the preterite of escribir.", "Mi hermana me ___ un mensaje muy largo.", "escribió", "-IR él/ella → -ió."),
       mt(
@@ -426,7 +426,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "The arrival is a single event (preterite llegó), and the playing was already happening (imperfect jugaba). The wrong pairs make the arrival ongoing or the playing a completed event."
       ),
       ms(
-        "Which sentences from the story are background (imperfect)?",
+        "Which of these sentences are background (imperfect)?",
         ["Hacía frío.", "Tomás abrió la puerta.", "El perro era pequeño y negro.", "El chico devolvió la bici."],
         [0, 2],
         "Hacía frío (weather) and era pequeño (description) are background, so imperfect. \"Abrió\" and \"devolvió\" are events that move the story, so preterite."
@@ -1252,7 +1252,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     "por-vs-para-mastery-check",
     "a2r-spiral-pronouns-reflexives-por-para",
     "Spiral Review: Pronouns, Reflexives & Por/Para",
-    "Lessons 10–22 in one workout: direct and indirect objects, reflexive verbs, comparisons, the future and por/para.",
+    "Direct and indirect objects, reflexive verbs, comparisons, the future and por/para in one workout.",
     "9 min",
     [
       sec(
@@ -1261,7 +1261,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         [
           ["¡Hola! Ayer me levanté temprano para ir al mercado.", "Hi! Yesterday I got up early to go to the market."],
           ["Vi unas flores preciosas y las compré para tu madre.", "I saw some beautiful flowers and bought them for your mom."],
-          ["Mañana se las daré en la fiesta.", "Tomorrow I'll give them to her at the party."],
+          ["Mañana le daré las flores en la fiesta.", "Tomorrow I'll give her the flowers at the party."],
           ["Por cierto, el mercado nuevo es más grande que el viejo.", "By the way, the new market is bigger than the old one."],
         ],
         [
@@ -1494,7 +1494,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Formal commands use the \"opposite\" vowel: -ar verbs → -e (gire, cruce), -er/-ir verbs → -a (siga, suba).",
         [
           ["Tome la segunda calle a la izquierda.", "Take the second street on the left."],
-          ["Camine dos cuadras y pregunte otra vez.", "Walk two blocks and ask again."],
+          ["Camine dos calles y pregunte otra vez.", "Walk two blocks and ask again."],
         ],
         [
           fb("Complete the direction with doblar.", "___ a la izquierda en la esquina.", "Doble", "Doblar (-ar) → usted command doble."),
@@ -1557,8 +1557,8 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Allergies and special requests",
         "Soy alérgico/a a… (I'm allergic to…), sin (without), ¿Lleva…? (Does it have…?).",
         [
-          ["—¿Este plato lleva nueces? Soy alérgica.", "Does this dish have nuts? I'm allergic."],
-          ["—Sí, lleva. Pero se lo podemos preparar sin nueces.", "Yes, it does. But we can make it for you without nuts."],
+          ["—¿Este plato lleva frutos secos? Soy alérgica.", "Does this dish have nuts? I'm allergic."],
+          ["—Sí, lleva. Pero se lo podemos preparar sin frutos secos.", "Yes, it does. But we can make it for you without nuts."],
         ],
         [
           fb("Complete the request.", "¿Me trae la ensalada ___ cebolla, por favor?", "sin", "Sin means without: sin cebolla."),
@@ -1644,7 +1644,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     "at-the-restaurant-2",
     "a2r-spiral-pronouns-comparisons-future",
     "Spiral Review: Elementary So Far — Tools of Everyday Talk",
-    "Lessons 10–31 revisited: pronouns, reflexives, comparisons, the future, por/para, negatives and adverbs.",
+    "A mixed review of pronouns, reflexives, comparisons, the future, por/para, negatives and adverbs.",
     "9 min",
     [
       sec(
@@ -2055,7 +2055,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "The pronoun attaches to the gerund, which then needs an accent: buscándolas. \"Buscandolas\" misses the accent, \"las buscando\" puts it in the middle, and \"buscando las\" leaves it separate."
       ),
       mc(
-        "\"Don't tell him!\" (A learner wrote \"¡No dígale!\")",
+        "\"Don't tell him!\" (usted; a learner wrote \"¡No dígale!\")",
         ["¡No le diga!", "¡No dígale!", "¡Le no diga!", "¡No diga le!"],
         0,
         "With negative commands, the pronoun goes before the verb: ¡No le diga! \"No dígale\" attaches it as in a positive command, \"Le no diga\" puts no in the wrong place, and \"diga le\" leaves it separate."
@@ -2495,7 +2495,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
             "\"Compré flores por ti\" most likely means…",
             ["I bought flowers because of you / on your behalf.", "I bought flowers to give to you.", "I bought flowers near you.", "I bought flowers before you."],
             0,
-            "Por gives the cause or means on your behalf: because of you or in your place. \"Para ti\" would make the flowers a gift for you, and por doesn't mean near or before."
+            "Here por gives the cause or the person you act for: because of you, or on your behalf. \"Para ti\" would make the flowers a gift for you, and por doesn't mean near or before."
           ),
         ]
       ),
@@ -2608,7 +2608,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Answer like the roommate.", "—¿Tienes algún plan para el sábado? —No, no tengo ___.", "ninguno", "Standing alone without a noun, ningún becomes ninguno: no tengo ninguno."),
+      { ...fb("Answer like the roommate.", "—¿Tienes algún plan para el sábado? —No, no tengo ___.", "ninguno", "Standing alone without a noun, ningún becomes ninguno: no tengo ninguno. (No tengo nada also works.)"), altAnswers: ["nada"] },
       fb("Answer like the roommate.", "—Yo también estoy cansado. —Pues yo ___.", "no", "Disagreeing: pues yo no (well, I'm not)."),
       mc(
         "\"Do you know anyone in this city?\" — the roommate's answer:",
@@ -2630,7 +2630,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     "personal-a-negation-mente-drill-3",
     "a2r-spiral-a-negation-adverbs",
     "Spiral Review: Personal A, Negatives & Adverbs",
-    "A cumulative mix of lessons 23–27 with the past tenses and pronouns from earlier in the Elementary level.",
+    "A cumulative mix of personal a, negative words and -mente adverbs with the past tenses and pronouns from earlier in the Elementary level.",
     "8 min",
     [
       sec(
@@ -2648,7 +2648,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Complete with the adverb (perfecto).", "Lo explicaste ___.", "perfectamente", "Perfecta + -mente."),
-      fb("Complete with the direct object pronoun.", "¿A Juan? No ___ vi en la fiesta.", "lo", "Juan is the direct object (I saw him), so lo, before the verb."),
+      { ...fb("Complete with the direct object pronoun.", "¿A Juan? No ___ vi en la fiesta.", "lo", "Juan is the direct object (I saw him), so lo, before the verb. (In Spain you'll also hear le for a man: no le vi.)"), altAnswers: ["le"] },
       mc(
         "\"I never used to call anybody.\"",
         ["Nunca llamaba a nadie.", "Nunca llamé nadie.", "No llamaba a alguien nunca.", "Nunca llamaba nadie a."],
@@ -2836,7 +2836,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Se me rompió means it broke on me (by accident), with la pantalla as the subject. The other options put me or a mí in the wrong place or make it sound like you broke it on purpose."
       ),
-      toEs("Can you send me the photo by email?", "¿Me puedes mandar la foto por correo?", "Me (to me); por correo = by email.", ["¿Me puedes enviar la foto por correo?", "¿Puedes mandarme la foto por correo?", "¿Me mandas la foto por correo electrónico?", "¿Me puedes mandar la foto por email?"]),
+      toEs("Can you send me the photo by email?", "¿Me puedes mandar la foto por correo?", "Me (to me); por correo = by email.", ["¿Me puedes enviar la foto por correo?", "¿Puedes mandarme la foto por correo?", "¿Me mandas la foto por correo electrónico?", "¿Me puedes mandar la foto por email?", "¿Me puedes mandar la foto por correo electrónico?", "¿Me puedes enviar la foto por correo electrónico?", "¿Puedes mandarme la foto por correo electrónico?", "¿Puedes enviarme la foto por correo electrónico?", "¿Puedes enviarme la foto por correo?"]),
       toEn("No tengo cobertura aquí, te llamo luego.", "I don't have signal here, I'll call you later.", "Cobertura means cell coverage or signal; te llamo luego = I'll call you later.", ["I have no signal here, I'll call you later."]),
       wo("Borré todas las fotos sin querer.", "Sin querer = by accident.", "I deleted all the photos by accident."),
     ]
@@ -3024,7 +3024,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Fix it.", "Gracias ___ ayudarme con la mudanza. (learner wrote: para)", "por", "Gracias always takes por: gracias por ayudarme, not para."),
+      fb("Fix it.", "Gracias ___ ayudarme con la mudanza. (learner wrote: para)", "por", "To say what you are thanking someone for, gracias takes por: gracias por ayudarme, not para."),
       fb("Fix it.", "Nosotros ___ levantamos a las seis. (learner wrote: se)", "nos", "Nosotros takes the reflexive pronoun nos: nos levantamos. Se is for él, ellos or usted."),
       fb("Fix it.", "Mi hermano es ___ que yo. (learner wrote: más mayor)", "mayor", "Mayor is already a comparative (older), so it never takes más: es mayor que yo."),
       fb("Fix it.", "No vino ___ a la reunión. (learner wrote: alguien)", "nadie", "After no + verb → nadie."),
@@ -3152,7 +3152,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "The blueprint gets longer",
-        "Elemental sentences often join two clauses: background + event (cuando, mientras), cause + result (porque, así que), or contrast (pero, aunque). Build each clause, then connect them.",
+        "Elementary sentences often join two clauses: background + event (cuando, mientras), cause + result (porque, así que), or contrast (pero, aunque). Build each clause, then connect them.",
         [
           ["Cuando llegué a casa, mi hermana ya estaba dormida.", "When I got home, my sister was already asleep."],
           ["Como no tenía dinero, no le compré nada.", "Since I didn't have money, I didn't buy him anything."],
@@ -3202,7 +3202,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
           ["Clara abrió la puerta. Era un hombre mayor que tenía mucho frío.", "Clara opened the door. It was an old man who was very cold."],
         ],
         [
-          fb("Link 5.", "El hombre le ___ que su coche se quedó en la nieve. (explicar)", "explicó", "A completed act of explaining → preterite."),
+          fb("Link 5.", "El hombre le ___ que su coche se quedó atascado en la nieve. (explicar)", "explicó", "A completed act of explaining → preterite."),
           fb("Link 6.", "Clara le ___ un té caliente. (preparar)", "preparó", "A completed action → preterite."),
         ]
       ),
@@ -3223,7 +3223,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         [0, 2],
         "Nevaba sin parar and tenía mucho frío describe the scene, so imperfect. Knocking (llamó) and opening the door (abrió) are events, so preterite."
       ),
-      toEs("The cabin was small but it was warm.", "La cabaña era pequeña pero estaba caliente.", "Description of size → ser; temperature at that moment → estar.", ["La cabaña era pequeña, pero estaba calentita.", "La cabaña era pequeña pero hacía calor dentro."]),
+      toEs("The cabin was small but it was warm.", "La cabaña era pequeña pero estaba calentita.", "Description of size → ser; how warm it felt at that moment → estar (calentita = nice and warm).", ["La cabaña era pequeña, pero estaba calentita.", "La cabaña era pequeña pero hacía calor dentro.", "La cabaña era pequeña pero estaba caliente."]),
       wo("Clara nunca olvidó aquella noche de nieve.", "Preterite for the story's conclusion; aquella for a distant past.", "Clara never forgot that snowy night."),
     ]
   ),
@@ -3262,7 +3262,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Continue Rosa's story.", "En la universidad ___ a su esposo, Julio. (conocer)", "conoció", "Meeting someone → preterite of conocer."),
       fb("Continue Rosa's story.", "Cuando era joven, Rosa ___ en la escuela todos los días. (dibujar)", "dibujaba", "A past habit → imperfect."),
       fb("Continue Rosa's story.", "Sus cuadros ___ en museos de todo el mundo. (estar, present)", "están", "Where they are now → están."),
-      fb("Continue Rosa's story.", "Dentro de diez años, sus alumnos ___ sus obras. (continuar, future)", "continuarán", "Future: continuar + -án."),
+      fb("Continue Rosa's story.", "Dentro de diez años, sus alumnos ___ su obra. (continuar, future)", "continuarán", "Future: continuar + -án."),
       mc(
         "\"Rosa was 22 when she moved.\"",
         ["Rosa tenía 22 años cuando se mudó.", "Rosa tuvo 22 años cuando se mudaba.", "Rosa era 22 años cuando se mudó.", "Rosa tenía 22 años cuando se mudaba una vez."],
@@ -3344,7 +3344,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Marco danced much worse than the teacher (\"Yo, no tanto\"), so \"Marco bailó tan bien como la profesora\" is false."
       ),
       toEs("The city is bigger and noisier than I thought.", "La ciudad es más grande y más ruidosa de lo que pensaba.", "With a clause after a comparison, use de lo que.", ["La ciudad es más grande y ruidosa de lo que pensaba."]),
-      wo("Nunca había comido una carne tan rica como aquí.", "Tan + adjective + como.", "I had never eaten meat as good as here."),
+      wo("Nunca he comido una carne tan rica como aquí.", "Tan + adjective + como; nunca he comido = I have never eaten (present perfect).", "I have never eaten meat as good as here."),
     ]
   ),
   L(
@@ -3484,7 +3484,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "a2-comprehensive-review-3",
     "a2r-challenge-comparisons-por-para",
-    "Elemental Challenge: Comparisons, Future & Por/Para",
+    "Elementary Challenge: Comparisons, Future & Por/Para",
     "A final gauntlet for the rest of the Elementary level: comparisons, superlatives, the future, por/para, negatives and adverbs.",
     "8 min",
     [
@@ -3534,7 +3534,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         [
           ["Querida familia Gómez:", "Dear Gómez family,"],
           ["Me llamo Emily y tengo veinte años. Estudio biología en Toronto.", "My name is Emily and I'm twenty. I study biology in Toronto."],
-          ["Empecé a estudiar español hace dos años. De niña, mi abuela me hablaba en español.", "I started studying Spanish two years ago. As a girl, my grandmother spoke Spanish to me."],
+          ["Empecé a estudiar español hace dos años. Cuando yo era niña, mi abuela me hablaba en español.", "I started studying Spanish two years ago. When I was a girl, my grandmother spoke Spanish to me."],
           ["Llegaré el 3 de julio. ¿Necesitan algo de Canadá?", "I'll arrive on July 3rd. Do you need anything from Canada?"],
         ],
         [

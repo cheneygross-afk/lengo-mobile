@@ -115,14 +115,14 @@ export const B1_UNIT_WRITING: Record<string, WriteExercise> = {
   "b1-vocabulary-practice-7": t(
     "Tu madre te ha dado consejos por teléfono para tu viaje. Escribe a un amigo lo que te dijo y lo que quiere que hagas, usando el estilo indirecto: me dijo que…, quiere que…",
     ["Estilo indirecto: me dijo que + indicativo", "Me pidió / quiere que + subjuntivo", "Al menos un mandato de tú irregular para citar (ten, pon, sal, ven…)", "Al menos cinco frases"],
-    "Mi madre me ha llamado esta mañana. Me ha dicho que el tiempo en Escocia es muy malo y que lleve un paraguas. Me ha pedido que la llame cuando llegue al hotel. Quiere que tenga cuidado con la cartera. Sus palabras exactas fueron: «Ten cuidado, pon el pasaporte en un sitio seguro y no salgas solo por la noche». Las madres son así.",
-    "Al contar una orden o un deseo: me pidió / quiere que + subjuntivo (que la llame, que tenga). Al contar información: me dijo que + indicativo (es muy malo)."
+    "Mi madre me ha llamado esta mañana. Me ha dicho que el tiempo en Escocia es muy malo y que hace mucho frío por la noche. Me ha pedido que la llame cuando llegue al hotel. Quiere que tenga cuidado con la cartera. Sus palabras exactas fueron: «Ten cuidado, pon el pasaporte en un sitio seguro y no salgas solo por la noche». Las madres son así.",
+    "Al contar una orden o un deseo: me pidió / quiere que + subjuntivo (que la llame, que tenga). Al contar información: me dijo que + indicativo (es muy malo, hace frío)."
   ),
   "passive-voice-se-1": t(
     "Escribe tres anuncios cortos para el tablón de tu barrio: uno para vender algo, uno para alquilar algo y uno para buscar a una persona. Usa la pasiva refleja y el se impersonal.",
     ["Se vende / se venden con concordancia correcta", "Se alquila / se busca", "Se + verbo para normas o costumbres (se habla, se necesita…)", "Datos de contacto o precio"],
     "Se vende bicicleta de montaña en buen estado. Solo se ha usado dos veces. Precio: 150 euros. Se alquilan dos habitaciones en piso compartido, cerca de la universidad. No se permiten mascotas. Se busca profesora de guitarra para niño de diez años. Se valora experiencia. Interesados, llamar al 600 123 456.",
-    "Se + verbo en singular o plural según el sujeto: se vende una bicicleta, se alquilan dos habitaciones. Con personas se usa a: se busca a alguien."
+    "Se + verbo en singular o plural según el sujeto: se vende una bicicleta, se alquilan dos habitaciones. Con alguien o una persona concreta se usa a (se busca a alguien); en anuncios, con una persona cualquiera, va sin a: se busca profesora."
   ),
   "b1r-contrast-se-pasivo-impersonal": t(
     "Escribe una breve noticia sobre un festival en tu ciudad sin decir quién hace las cosas. Usa la pasiva refleja y el se impersonal.",

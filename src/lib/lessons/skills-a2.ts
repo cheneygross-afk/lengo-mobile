@@ -94,7 +94,7 @@ export const A2_SKILLS: Record<string, Exercise[]> = {
       "La sopa está fría -- \"the soup is cold\" -- and ¿me la podría calentar? asks them to heat it up. Salty would be salada, and the bill la cuenta."
     ),
     spk("Perdone, la sopa está fría. ¿Me la podría calentar?", "Polite tone: a gentle rise at the end of the request.", "\"Excuse me, the soup is cold. Could you heat it up for me?\" Podría softens the request."),
-    spk("¿Este plato lleva nueces? Soy alérgica.", "Lleva: ll like y. Nueces: seseo \"NWE-ses\" or distinción \"NWE-thes\".", "\"Does this dish have nuts in it? I'm allergic.\" A man would say alérgico."),
+    spk("¿Este plato lleva nueces? Soy alérgica.", "Lleva: ll like y. Nueces: seseo \"NWE-ses\" or distinción \"NWE-thes\".", "\"Does this dish have walnuts in it? I'm allergic.\" A man would say alérgico. For nuts in general, say frutos secos."),
     wr(
       "Write a short online review of a restaurant where something went wrong. Say when you went, what you ordered, what the problem was, how the staff reacted, and whether you'd go back.",
       [50, 80],

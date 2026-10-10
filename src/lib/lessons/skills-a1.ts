@@ -184,7 +184,7 @@ export const A1_SKILLS: Record<string, Exercise[]> = {
     spk("¿Tienes frío? Yo tengo calor.", "Rise at the end of the question, fall at the end of the answer.", "\"Are you cold? I'm hot.\" Tener frío, tener calor."),
   ],
   "a1r-mission-describe-a-photo": [
-    spk("En la foto, mi hermana está en la playa y es muy feliz.", "Está: stress on the end, es-TÁ. Playa: y like \"yes\".", "\"In the photo my sister is at the beach and she's very happy.\" Estar for where she is."),
+    spk("En la foto, mi hermana está en la playa y está muy feliz.", "Está: stress on the end, es-TÁ. Playa: y like \"yes\".", "\"In the photo my sister is at the beach and she's very happy.\" Estar for where she is and for how she feels in the photo."),
   ],
   "a1r-challenge-day-in-madrid-morning": [
     spk("Buenos días. Un café con leche y un cruasán, por favor.", "Buenos días: \"BWE-nos DÍ-as\". Keep the r of por a single tap.", "\"Good morning. A white coffee and a croissant, please.\" A typical café order in Spain."),

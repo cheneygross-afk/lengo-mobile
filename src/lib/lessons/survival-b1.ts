@@ -116,7 +116,7 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         "Quería",
         "[I'd like] to book a table for four, please.",
         "El imperfecto de cortesía suaviza la petición. También valen quisiera y me gustaría.",
-        ["Quisiera", "Querría"]
+        ["Quisiera", "Querría", "Me gustaría"]
       ),
       fe(
         "¿___ decirme dónde está la salida?",
@@ -458,7 +458,7 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         "En México la cuenta del día a día se llama cuenta de cheques; en España, cuenta corriente."
       ),
       wo(
-        "¿Cuánto cobran por sacar dinero en otro cajero?",
+        "¿Cuánto cobran por sacar dinero en un cajero de otro banco?",
         "Cobrar (cobran, impersonal) = to charge.",
         "How much do they charge to withdraw money from another bank's machine?"
       ),
@@ -707,8 +707,7 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         "Para el NIE hay que pedir ___ previa por internet.",
         "cita",
         "For the NIE you have to book an [appointment] online.",
-        "Cita previa = appointment booked in advance. En Argentina se dice turno.",
-        ["turno"]
+        "Cita previa = appointment booked in advance. En Argentina se dice sacar turno (sin «previa»).",
       ),
       fe(
         "¿Qué documentos tengo que ___ a la cita?",
@@ -1221,7 +1220,7 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
           ["— ¿Qué experiencia tiene?", "What experience do you have?"],
           ["— He trabajado tres años en la recepción de un hotel en Dublín, y ahora trabajo a media jornada en una agencia de viajes.", "I worked for three years at a hotel reception in Dublin, and now I work part-time at a travel agency."],
           ["— ¿Qué idiomas habla?", "What languages do you speak?"],
-          ["— Inglés, que es mi lengua materna, español con nivel Avanzado y un poco de francés.", "English, which is my mother tongue, Spanish at the Advanced level level and a bit of French."],
+          ["— Inglés, que es mi lengua materna, español de nivel avanzado y un poco de francés.", "English, which is my mother tongue, advanced Spanish and a bit of French."],
         ],
         [
           mc(

@@ -126,7 +126,7 @@ export const A2_GAPS: AnchoredLesson[] = [
         "Two vowels split apart: día, país, río",
         [
           "An i or u next to a, e or o normally blends into one syllable with it: bien, cuando, tiene. When the i or u is stressed and the two vowels are said apart, it gets an accent whatever the other rules say: día, país, río, frío, oído, reúne.",
-          "You already know many of these from verbs: tenía, comían, vivíamos, reír.",
+          "You will meet many of these in verbs: reír, and imperfect forms like tenía, comían, vivíamos (coming soon in the imperfect lessons).",
         ],
         [
           ["Hace frío hoy.", "It's cold today."],
@@ -394,7 +394,7 @@ export const A2_GAPS: AnchoredLesson[] = [
         "\"When I finish, I'll call you.\" → \"___ termine, te llamo.\"",
         ["Cuando", "Cuándo", "¿Cuándo", "Cuanto"],
         0,
-        "Here cuando is a linking word (\"when\"), not a question, so it has no accent. Cuándo is only for questions and indirect questions; cuanto means \"how much\"."
+        "Here cuando is a linking word (\"when\"), not a question, so it has no accent. Cuándo is only for questions and indirect questions; cuanto is a different word (it is cuánto, with an accent, that means \"how much\")."
       ),
     ]
   ),
@@ -1469,8 +1469,7 @@ export const A2_GAPS: AnchoredLesson[] = [
         "(Argentina) ¿Vos ___ de Córdoba?",
         "sos",
         "[Are you] from Córdoba?",
-        "The vos form of ser is sos: vos sos = tú eres.",
-        ["eres"]
+        "The vos form of ser is sos: vos sos = tú eres."
       ),
       toEs(
         "Are you (all) coming tomorrow?",

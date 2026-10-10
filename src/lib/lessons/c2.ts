@@ -26797,7 +26797,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "¿Cuáles palabras designan el mismo objeto en distintos países? (Elige todas las correctas)",
+        "question": "¿Qué palabras designan el mismo objeto en distintos países? (Elige todas las correctas)",
         "options": [
           "el carro",
           "el coche",

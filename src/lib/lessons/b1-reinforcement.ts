@@ -86,7 +86,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Los seis irregulares",
-        "Seis verbos no siguen la receta de la forma yo: ser (sea), estar (esté), ir (vaya), saber (sepa), haber (haya), dar (dé). Los errores típicos inventan formas como «esa» o «sabe».",
+        "Seis verbos no siguen la receta de la forma yo: ser (sea), estar (esté), ir (vaya), saber (sepa), haber (haya), dar (dé). Los errores típicos usan el indicativo («sabe», «es») o inventan formas como «esé» o «vaas».",
         [
           ["✗ Quiero que tú eres feliz. → ✓ Quiero que tú seas feliz.", "I want you to be happy."],
           ["✗ Ojalá que ella sabe la verdad. → ✓ Ojalá que ella sepa la verdad.", "I hope she knows the truth."],
@@ -244,7 +244,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["Echo de menos a mi familia.", "Te sugiero que los llames más a menudo."],
           ["Estoy aburrido del trabajo.", "Quizás es hora de que busques algo nuevo."],
         ],
-        "Todos los consejos usan un verbo de influencia + que + subjuntivo."
+        "Todos los consejos usan una expresión de consejo o valoración (te recomiendo que, es importante que, es hora de que…) + subjuntivo."
       ),
       ms(
         "¿Qué respuestas son correctas?",
@@ -528,7 +528,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Certeza y saber → indicativo; posibilidad y duda → subjuntivo."
       ),
-      toEs("I hope you (tú) feel better. We'll go to the beach when you can.", "Espero que te sientas mejor. Iremos a la playa cuando puedas.", "Esperar que + subjuntivo; cuando + subjuntivo para el futuro.", ["Ojalá que te sientas mejor. Iremos a la playa cuando puedas.", "Espero que te sientas mejor. Vamos a ir a la playa cuando puedas."]),
+      toEs("I hope you (tú) feel better. We'll go to the beach when you can.", "Espero que te sientas mejor. Iremos a la playa cuando puedas.", "Esperar que + subjuntivo. Ojo: «cuando» referido al futuro también lleva subjuntivo (cuando puedas, no cuando puedes); lo verás a fondo más adelante.", ["Ojalá que te sientas mejor. Iremos a la playa cuando puedas.", "Espero que te sientas mejor. Vamos a ir a la playa cuando puedas."]),
       wo("No creo que Laura pueda nadar este verano.", "No creer que + subjuntivo (poder → pueda).", "I don't think Laura will be able to swim this summer."),
     ]
   ),
@@ -907,7 +907,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         [
           ["Si hace frío,", "ponte un abrigo."],
           ["Si estás cansado,", "vete a dormir."],
-          ["Si no hay pan,", "compraré en la esquina."],
+          ["Si no hay pan,", "lo compraré en la tienda de la esquina."],
           ["Si terminas pronto,", "llámame."],
         ],
         "Condición en presente; resultado en mandato o futuro."
@@ -974,7 +974,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "si-clauses-simple-2",
     "b1r-spiral-commands-conditional-si",
     "Repaso en espiral: mandatos, condicional y condiciones",
-    "Lecciones 8–13 juntas, con el subjuntivo de las lecciones 1–7 de fondo.",
+    "Unidades 8–12 juntas (mandatos, condicional y si + presente), con el subjuntivo de las unidades 2–7 de fondo.",
     "8 min",
     [
       sec(
@@ -1218,7 +1218,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Ordena los hechos",
-        "Ya y todavía no son las palabras clave del pluscuamperfecto.",
+        "Ya y todavía no aparecen a menudo con el pluscuamperfecto (aunque también con otros tiempos).",
         [
           ["Cuando llamé, ya habían salido.", "When I called, they had already left."],
           ["Todavía no había amanecido cuando nos fuimos.", "The sun hadn't come up yet when we left."],
@@ -1778,7 +1778,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Corrige.", "¿Las entradas? Ya ___ las di a tus amigos. (el alumno escribió: les)", "se", "Les + las → se las."),
-      fb("Corrige.", "Mi abuela ___ lo contó a mí. (el alumno escribió: lo me)", "me", "El pronombre indirecto va antes que el directo: me lo contó, no «lo me»."),
+      fb("Corrige.", "Mi abuela ___ contó a mí. (el alumno escribió: lo me)", "me lo", "El pronombre indirecto va antes que el directo: me lo contó, no «lo me»."),
       fb("Corrige.", "¿El informe? Voy a ___ ahora. (enviar, a ti; el alumno escribió: enviartelo)", "enviártelo", "Al pegar dos pronombres la palabra queda sobresdrújula → tilde: enviártelo."),
       ms(
         "¿Qué frases tienen un error?",
@@ -2335,7 +2335,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       fb("Cambia el sujeto (ellos).", "Prefiero cenar en casa. → Prefiero que ___ en casa.", "cenen", "Con otro sujeto, prefiero que + subjuntivo: cenen."),
       fb("Cambia el sujeto (nosotros).", "Tengo miedo de llegar tarde. → Tengo miedo de que ___ tarde.", "lleguemos", "Con otro sujeto, tener miedo de que + subjuntivo; llegar → lleguemos (g → gu)."),
       fb("Vuelve al mismo sujeto (yo).", "Quiero que salgas. → Quiero ___.", "salir", "Si el sujeto es el mismo (yo quiero, yo salgo), se usa el infinitivo: quiero salir."),
-      fb("Cambia el sujeto (usted).", "Siento molestar. → Siento que usted ___ que esperar. (tener)", "tenga", "«Sentir que» + otro sujeto → subjuntivo: tenga."),
+      fb("Cambia el sujeto (usted).", "Siento tener que irme. → Siento que usted ___ que irse. (tener)", "tenga", "«Sentir que» + otro sujeto → subjuntivo: tenga."),
       mc(
         "«She's afraid of being alone.»",
         ["Tiene miedo de estar sola.", "Tiene miedo de que esté sola.", "Tiene miedo que está sola.", "Tiene miedo estar sola."],
@@ -2528,7 +2528,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Personal → impersonal",
-        "«Creo que debes descansar» → «Es importante que descanses». El verbo de opinión desaparece y el modo cambia a subjuntivo.",
+        "«Creo que debes descansar» → «Es importante que descanses». El verbo de opinión desaparece; si la expresión impersonal valora o expresa necesidad (es importante que), el modo cambia a subjuntivo, pero si expresa certeza (es verdad que), se queda en indicativo.",
         [
           ["Pienso que tienes que dormir más. → Es necesario que duermas más.", "It's necessary that you sleep more."],
           ["Sé que tienes razón. → Es verdad que tienes razón.", "It's true you're right."],
@@ -2879,7 +2879,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 3],
         "«Quiero que usted me dará» es incorrecta: querer que pide subjuntivo (que me dé), y además suena brusco; mejor: ¿Podría darme un folleto? Las demás son peticiones corteses en condicional."
       ),
-      toEs("I'd like a room with a sea view.", "Me gustaría una habitación con vistas al mar.", "«I'd like» = me gustaría, aquí con un sustantivo.", ["Querría una habitación con vista al mar.", "Me gustaría una habitación con vista al mar.", "Querría una habitación con vistas al mar."]),
+      toEs("I'd like a room with a sea view.", "Me gustaría una habitación con vistas al mar.", "«I'd like» = me gustaría, aquí con un sustantivo.", ["Querría una habitación con vista al mar.", "Me gustaría una habitación con vista al mar.", "Querría una habitación con vistas al mar.", "Quisiera una habitación con vistas al mar.", "Quisiera una habitación con vista al mar."]),
       wo("¿Qué me recomendaría para una luna de miel?", "Condicional de cortesía con usted.", "What would you recommend for a honeymoon?"),
     ]
   ),
@@ -3073,7 +3073,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Marcadores incompatibles",
-        "En España, con ayer, el año pasado o una fecha concreta no se usa el pretérito perfecto: ✗ Ayer he ido → ✓ Ayer fui.",
+        "En el español estándar (de España y de América), con ayer, el año pasado o una fecha concreta no se usa el pretérito perfecto: ✗ Ayer he ido → ✓ Ayer fui.",
         [
           ["✗ El lunes he visto a Pedro. → ✓ El lunes vi a Pedro.", "On Monday I saw Pedro."],
           ["✓ Esta semana he visto a Pedro.", "This week I've seen Pedro."],
@@ -3389,7 +3389,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "passive-voice-possessive-pronouns-drill-3",
     "b1r-error-hunt-se-possessives",
     "Caza de errores: se y posesivos",
-    "«Se vende pisos», «el mío casa», «la de ella libro» — corrige los errores de las lecciones 21–26.",
+    "«Se vende pisos», «el mío casa», «la de ella libro» — corrige los errores del se pasivo y de los posesivos.",
     "7 min",
     [
       sec(
@@ -3415,7 +3415,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Corrige.", "La reunión fue ___ para el lunes. (cancelar; el alumno escribió: cancelado)", "cancelada", "El participio concuerda con «la reunión» (femenino): cancelada."),
+      fb("Corrige.", "La reunión del lunes fue ___. (cancelar; el alumno escribió: cancelado)", "cancelada", "El participio concuerda con «la reunión» (femenino): cancelada."),
       fb("Corrige.", "—¿Esta mochila es de tu hermano? —No, es ___. (tú; el alumno escribió: tu)", "tuya", "Después de ser, solo → tuya."),
       fb("Corrige.", "En esta academia se ___ clases de cocina. (dar; el alumno escribió: da)", "dan", "El verbo concuerda con «clases» (plural): se dan."),
       ms(
@@ -3641,9 +3641,9 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       fb("Completa.", "Añade una ___ de sal. (a pinch)", "pizca", "Una pizca = a pinch."),
       ms(
         "¿Qué verbos se usan con huevos?",
-        ["batir", "freír", "cocer", "pelar"],
+        ["batir", "freír", "cocer", "colgar"],
         [0, 1, 2],
-        "Pelar un huevo cocido es posible, pero aquí se piden formas de cocinarlos: batir, freír, cocer."
+        "Los huevos se baten, se fríen o se cuecen. «Colgar» (to hang) no tiene nada que ver con cocinar."
       ),
       toEs("Don't burn the rice! (tú)", "¡No quemes el arroz!", "Negativo de tú → subjuntivo; quemar → quemes.", ["¡No se te queme el arroz!"]),
       wo("Sirve la sopa caliente con un poco de perejil.", "Mandato de tú (servir → sirve).", "Serve the soup hot with a little parsley."),
@@ -3689,7 +3689,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "«Me prestó dinero de mí» es incorrecta: me ya indica a quién, así que sobra «de mí». Las otras frases usan bien pagar con, pedir prestado y tener que."
       ),
       toEs("I would save more, but everything is very expensive.", "Ahorraría más, pero todo es muy caro.", "Condicional para lo que harías + presente para la realidad.", ["Ahorraría más pero todo es muy caro.", "Yo ahorraría más, pero todo es muy caro."]),
-      wo("Es mejor que no gastes todo tu sueldo.", "Es mejor que + subjuntivo.", "It's better not to spend your whole salary."),
+      wo("Es mejor que no gastes todo tu sueldo.", "Es mejor que + subjuntivo.", "It's better if you don't spend your whole salary."),
     ]
   ),
   L(
@@ -4098,7 +4098,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["Sé que vienes. / Quiero que vengas.", "I know you're coming. / I want you to come."],
         ],
         [
-          fb("¿Indicativo o subjuntivo?", "Estoy seguro de que ___ bien. (salir, todo)", "saldrá", "Certeza → indicativo (futuro)."),
+          { ...fb("¿Indicativo o subjuntivo?", "Estoy seguro de que todo ___ bien. (salir)", "saldrá", "Certeza → indicativo (futuro)."), altAnswers: ["va a salir"] },
           fb("¿Indicativo o subjuntivo?", "Me sorprende que no ___ nadie. (haber)", "haya", "Emoción → subjuntivo."),
         ]
       ),
@@ -4498,7 +4498,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           fb("Completa.", "Me pone nervioso que mis amigos me ___ tocar. (ver)", "vean", "Poner nervioso que + subjuntivo."),
-          fb("Completa el consejo.", "No ___ en los errores; sigue tocando. (pensar, tú)", "pienses", "Negativo de tú: no pienses."),
+          fb("Completa el consejo.", "No ___ en los errores; sigue tocando. (pensar, tú)", "pienses", "Negativo de tú: no + la forma tú del presente de subjuntivo (no pienses). Los mandatos se estudian a fondo más adelante."),
         ]
       ),
     ],
@@ -4836,9 +4836,9 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       ms(
         "¿Qué frases son correctas?",
-        ["¡Que salga todo bien!", "Se ensayó hasta medianoche.", "No creo que estemos listos.", "Ojalá el público nos aplaude."],
+        ["Cuando llegué, ya se habían ido.", "Nunca había visto tanta gente.", "Me dijo que había perdido el tren.", "Cuando llegué, ya se han ido."],
         [0, 1, 2],
-        "Que + subjuntivo, se impersonal y «no creo que» + subjuntivo están bien. «Ojalá el público nos aplaude» es incorrecta: ojalá pide «aplauda»."
+        "«Cuando llegué, ya se han ido» mezcla un pasado con el perfecto: ya se habían ido. Las otras usan bien el pluscuamperfecto."
       ),
       toEs("When the curtain went up, the audience had already filled the theater.", "Cuando se levantó el telón, el público ya había llenado el teatro.", "El momento de referencia va en pretérito (se levantó) y lo anterior en pluscuamperfecto (había llenado).", ["Cuando subió el telón, el público ya había llenado el teatro."]),
       wo("Al final, la función fue un éxito que nadie esperaba.", "Pretérito + relativa en imperfecto.", "In the end, the show was a success nobody expected."),
@@ -4866,7 +4866,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Quéjate con tacto.", "Me molesta un poco que no ___ a las reuniones. (venir, tú)", "vengas", "Molestar que + subjuntivo."),
-      fb("Completa.", "¿Podrías encargar___ de la presentación? (te)", "te", "Con infinitivo, el pronombre reflexivo se pega al final: encargarte."),
+      fb("Completa.", "¿Podrías encargar___ de la presentación? (tú)", "te", "Con infinitivo, el pronombre reflexivo se pega al final: encargarte."),
       fb("Completa.", "Hasta ahora, solo Ana ___ su parte. (terminar, perfecto)", "ha terminado", "Hasta ahora → perfecto."),
       mc(
         "«Let's not argue.»",
@@ -5064,7 +5064,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Completa.", "¿El informe? Se ___ mandé al cliente equivocado. (lo)", "lo", "El informe → lo, detrás de se (le → se): se lo mandé."),
+      fb("Completa.", "¿El informe? Se ___ mandé al cliente equivocado.", "lo", "El informe → lo, detrás de se (le → se): se lo mandé."),
       fb("Completa.", "Es mejor que ___ la verdad cuanto antes. (decir, tú)", "digas", "Es mejor que + subjuntivo."),
       fb("Completa.", "Si lo ocultas, será peor cuando lo ___. (descubrir, ellos)", "descubran", "Cuando + futuro → subjuntivo."),
       mt(
@@ -5826,7 +5826,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Completa.", "Este año ___ más de sesenta horas a la semana. (trabajar, perfecto)", "he trabajado", "Este año → perfecto."),
       fb("Completa.", "Me preocupa que no ___ tiempo para ti misma. (tener, tú)", "tengas", "Preocupar que + subjuntivo."),
-      fb("Completa.", "Si no descansas, ___ enfermo. (ponerse, tú, futuro)", "te pondrás", "Ponerse → te pondrás."),
+      fb("Completa.", "Chicos, no ___ tantas horas; descansad un poco. (trabajar, vosotros)", "trabajéis", "Negativo de vosotros → subjuntivo: no trabajéis."),
       mt(
         "Relaciona cada expresión con su significado.",
         [

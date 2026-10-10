@@ -69,7 +69,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "sonreír", en: "to smile", forms: ["sonreír", "sonriendo"] },
     { es: "abandonar", en: "to give up", forms: ["abandonar"] },
     { es: "acelerado", en: "racing", forms: ["acelerado"] },
-    { es: "amar", en: "to love", forms: ["amar"] },
+    { es: "encantar", en: "to love (something)", forms: ["encantar"] },
     { es: "la amistad", en: "friendship", forms: ["amistad"] },
     { es: "aplaudir", en: "to applaud", forms: ["aplaude"] },
     { es: "la confianza", en: "confidence", forms: ["confianza"] },
@@ -192,8 +192,8 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "reírse", en: "to laugh", forms: ["ríe", "ríen"] },
   ],
   "pets-first-vet-visit": [
-    { es: "veterinario", en: "veterinary", forms: ["veterinaria", "veterinario"] },
-    { es: "el gatito", en: "kitten", forms: ["gatita", "gatito"] },
+    { es: "el veterinario", en: "vet", forms: ["veterinaria", "veterinario"] },
+    { es: "la gatita", en: "kitten", forms: ["gatita"] },
     { es: "maullar", en: "to meow", forms: ["maúlla"] },
     { es: "el chequeo", en: "checkup", forms: ["chequeo"] },
     { es: "el conejo", en: "rabbit", forms: ["conejo"] },
@@ -314,7 +314,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "prometer", en: "to promise", forms: ["prometió"] },
   ],
   "el-bebe-nuevo-de-la-familia": [
-    { es: "andar", en: "to ride", forms: ["andar"] },
+    { es: "andar en bicicleta", en: "to ride a bike", forms: ["andar"] },
     { es: "bajito", en: "very softly", forms: ["bajito"] },
     { es: "crecer", en: "to grow", forms: ["creció"] },
     { es: "deber", en: "should", forms: ["debía"] },
@@ -325,7 +325,6 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
   "el-desayuno-sorpresa-para-mama": [
     { es: "las escaleras", en: "stairs", forms: ["escaleras"] },
     { es: "el esfuerzo", en: "effort", forms: ["esfuerzo"] },
-    { es: "la harina", en: "flour", forms: ["harina"] },
   ],
   "la-reunion-familiar-en-el-parque": [
     { es: "la hormiga", en: "ant", forms: ["hormigas"] },
@@ -537,7 +536,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "el campeonato", en: "championship", forms: ["campeonato"] },
     { es: "la culpa", en: "fault", forms: ["culpa"] },
     { es: "la pelota", en: "ball", forms: ["pelota"] },
-    { es: "el penalti", en: "penalty kick", forms: ["penalti"] },
+    { es: "el penalti", en: "penalty kick", forms: ["penalti", "penaltis"] },
     { es: "sentirse", en: "to feel", forms: ["sintió"] },
     { es: "atajar", en: "to block", forms: ["atajó"] },
     { es: "la confianza", en: "confidence", forms: ["confianza"] },
@@ -666,7 +665,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
   ],
   "el-mural-de-la-escuela": [
     { es: "el pájaro", en: "bird", forms: ["pájaros"] },
-    { es: "amar", en: "to love", forms: ["amaron"] },
+    { es: "encantar", en: "to love (something)", forms: ["encantó"] },
     { es: "aunque", en: "although", forms: ["aunque"] },
     { es: "la claridad", en: "clarity", forms: ["claridad"] },
     { es: "la confianza", en: "confidence", forms: ["confianza"] },
@@ -737,7 +736,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "la hélice", en: "propeller", forms: ["hélice", "hélices"] },
     { es: "chocar", en: "to crash", forms: ["chocan", "chocó"] },
     { es: "volar", en: "to fly", forms: ["volaba", "volar"] },
-    { es: "arruinar", en: "to ruin", forms: ["arruinó"] },
+    { es: "arruinar", en: "to ruin", forms: ["arruinado"] },
     { es: "aterrizar", en: "to land", forms: ["aterrizar"] },
     { es: "caer", en: "to fall", forms: ["cayó"] },
     { es: "la confianza", en: "confidence", forms: ["confianza"] },

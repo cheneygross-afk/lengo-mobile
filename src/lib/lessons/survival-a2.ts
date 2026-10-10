@@ -937,7 +937,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         [
           ["Mañana voy a cortarme el pelo.", "Tomorrow I'm getting my hair cut."],
           ["¿Dónde te cortas el pelo?", "Where do you get your hair cut?"],
-          ["No me cortes mucho el flequillo.", "Don't cut my fringe too much."],
+          ["Córtame solo un poco el flequillo.", "Just cut my fringe a little."],
           ["Tiene el pelo rizado y largo.", "She has long curly hair."],
         ],
         [
@@ -945,8 +945,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
             "El sábado voy a ___ el pelo.",
             "cortarme",
             "On Saturday I'm going to [get my hair cut].",
-            "Cortarse el pelo is reflexive in Spanish, even when a hairdresser does it: voy a cortarme el pelo.",
-            ["cortar"]
+            "Cortarse el pelo is reflexive in Spanish, even when a hairdresser does it: voy a cortarme el pelo."
           ),
         ]
       ),
@@ -1354,7 +1353,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "Dialogue: reporting a lost passport",
         [
           "If you lose your passport or wallet, go to the police station (la comisaría) to report it (poner una denuncia). You'll need the report for your embassy or consulate.",
-          "Perder = to lose. He perdido / Perdí el pasaporte. Or with the accidental se from de nivel Intermedio: Se me ha perdido el pasaporte.",
+          "Perder = to lose. He perdido / Perdí el pasaporte. Or with the accidental se (Intermediate level): Se me ha perdido el pasaporte.",
         ],
         [
           ["— Buenos días. Vengo a denunciar que he perdido el pasaporte.", "Good morning. I've come to report that I've lost my passport."],

@@ -13,7 +13,7 @@ const { fe, sec } = authoring("es");
 export const LEVEL_TEST_B2: LevelTest = {
   title: "Prueba de nivel Avanzado: ¿listo para el nivel Maestría?",
   summary:
-    "La prueba final del nivel Avanzado: comprensión de lectura y auditiva, gramática y vocabulario escribiendo en español, y un texto de opinión. 46 preguntas sobre lo que enseña de nivel Avanzado; se aprueba con un 70%.",
+    "La prueba final del nivel Avanzado: comprensión de lectura y auditiva, gramática y vocabulario escribiendo en español, y un texto de opinión. 46 preguntas sobre lo que se enseña en el nivel Avanzado; se aprueba con un 70%.",
   duration: "55 min",
   sections: [
     readingSection(

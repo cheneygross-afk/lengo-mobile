@@ -767,7 +767,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         "¿Dónde está mi amigo? -- mi amigo links into \"mia-mi-go\", one friend. Friends would be mis amigos and están; \"how\" would be cómo and \"when\" cuándo."
       ),
       dict("¿Cómo estás?", "¿Cómo estás? -- spoken as \"co-moes-tás\", written as two words, with accents on cómo and estás."),
-      dict("Es un amigo.", "Es un amigo -- \"He's a friend.\" You hear \"e-su-na-mi-go\", but it's three separate words plus amigo."),
+      dict("Es un amigo.", "Es un amigo -- \"He's a friend.\" You hear \"e-su-na-mi-go\", but it's three separate words: es, un, amigo."),
       dict("Vamos a comer.", "Vamos a comer -- \"Let's eat\" or \"We're going to eat.\" The a is short but it's there: vamos a + infinitive."),
       dict("¿Tienes hambre?", "¿Tienes hambre? -- \"Are you hungry?\" The rising voice tells you it's a question; write ¿ at the start and ? at the end."),
       spk("¿Cómo estás?", "Link cómo into estás with no break: \"co-moes-tás\".", "¿Cómo estás? -- a question-word question: the voice can fall at the end."),

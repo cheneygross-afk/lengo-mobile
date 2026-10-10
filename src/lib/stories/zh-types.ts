@@ -32,7 +32,7 @@ export type ZhStory = {
   subtitle: string;
   paragraphs: ZhParagraph[];
   keyWords: ZhKeyWord[];
-  /** In English up to B2, in Chinese at C1 and C2 (taught in Chinese). */
+  /** In English at every level (the course is taught in English). */
   questions: StoryQuestion[];
 };
 

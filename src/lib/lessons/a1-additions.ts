@@ -360,7 +360,7 @@ export const A1_ADDITIONS: AnchoredLesson[] = [
           ["Mi cumpleaños es en mayo.", "My birthday is in May."],
         ],
         [
-          fb("Complete.", "Vamos a la playa ___ agosto.", "en", "Use en with months: en agosto."),
+          fb("Complete.", "Viajamos a la playa ___ agosto.", "en", "Use en with months: en agosto."),
         ]
       ),
       sec(

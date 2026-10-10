@@ -172,7 +172,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 2,
     "title": "The Preterite Tense: Regular Verbs, Part 2 of 2",
-    "summary": "Talk about completed actions in the past with regular -ar, -er, and -ir verbs.",
+    "summary": "Use regular preterites in a real weekend conversation and learn 30 words for travel and trips.",
     "duration": "7 min",
     "sections": [
       {
@@ -186,25 +186,30 @@ const A2_BASE_LESSONS: Lesson[] = [
             "en": "What did you do this weekend?"
           },
           {
-            "es": "Viajé a la playa con mi familia."
+            "es": "Viajé a la playa con mi familia.",
+            "en": "I went to the beach with my family."
           },
           {
-            "es": "¿Cómo llegaron?"
+            "es": "¿Cómo llegaron?",
+            "en": "How did you get there?"
           },
           {
-            "es": "Manejamos cuatro horas y llegamos por la tarde."
+            "es": "Manejamos cuatro horas y llegamos por la tarde.",
+            "en": "We drove for four hours and arrived in the afternoon."
           },
           {
-            "es": "¡Qué bien! ¿Nadaron en el mar?"
+            "es": "¡Qué bien! ¿Nadaron en el mar?",
+            "en": "How nice! Did you swim in the sea?"
           },
           {
-            "es": "Sí, y también caminamos por la playa y sacamos muchas fotos."
+            "es": "Sí, y también caminamos por la playa y sacamos muchas fotos.",
+            "en": "Yes, and we also walked on the beach and took lots of photos."
           }
         ],
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "¿Qué hizo la familia en la playa? (Elige todas las correctas)",
+            "question": "¿Qué hizo la familia en el viaje? (Elige todas las correctas)",
             "options": [
               "Manejaron cuatro horas",
               "Nadaron en el mar",
@@ -422,7 +427,8 @@ const A2_BASE_LESSONS: Lesson[] = [
         "answer": "Llegaron al hotel muy tarde.",
         "explanation": "\"They\" is ellos/ellas, so the preterite form is llegaron.",
         "altAnswers": [
-          "Llegaron al hotel muy tarde."
+          "Ellos llegaron al hotel muy tarde.",
+          "Ellas llegaron al hotel muy tarde."
         ]
       },
       {
@@ -648,7 +654,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 4,
     "title": "Common Irregular Preterites, Part 2 of 2",
-    "summary": "Master the high-frequency irregular verbs you'll need to tell almost any story.",
+    "summary": "Hear irregular preterites (vino, pudo, dijo, hice) in a workplace dialogue and learn 30 time expressions for sequencing past events.",
     "duration": "8 min",
     "sections": [
       {
@@ -662,19 +668,24 @@ const A2_BASE_LESSONS: Lesson[] = [
             "en": "What happened at the meeting?"
           },
           {
-            "es": "El jefe vino tarde y no pudo empezar a tiempo."
+            "es": "El jefe vino tarde y no pudo empezar a tiempo.",
+            "en": "The boss came late and couldn't start on time."
           },
           {
-            "es": "¿Y qué dijo sobre el proyecto?"
+            "es": "¿Y qué dijo sobre el proyecto?",
+            "en": "And what did he say about the project?"
           },
           {
-            "es": "Dijo que teníamos que terminar todo antes del viernes."
+            "es": "Dijo que teníamos que terminar todo antes del viernes.",
+            "en": "He said we had to finish everything before Friday."
           },
           {
-            "es": "¡Qué estrés! ¿Hiciste el reporte ya?"
+            "es": "¡Qué estrés! ¿Hiciste el reporte ya?",
+            "en": "How stressful! Did you do the report yet?"
           },
           {
-            "es": "Sí, lo hice anoche. Estuve trabajando hasta las once."
+            "es": "Sí, lo hice anoche. Estuve trabajando hasta las once.",
+            "en": "Yes, I did it last night. I was working until eleven."
           }
         ],
         "checkpoint": [
@@ -1118,7 +1129,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 6,
     "title": "The Imperfect Tense, Part 2 of 2",
-    "summary": "Describe ongoing situations, habits, and background scenes from the past.",
+    "summary": "Read a childhood memory told in the imperfect and learn 30 words for childhood and memories.",
     "duration": "7 min",
     "sections": [
       {
@@ -1132,13 +1143,16 @@ const A2_BASE_LESSONS: Lesson[] = [
             "en": "When I was little, I used to spend summers with my grandmother."
           },
           {
-            "es": "Vivíamos cerca de la playa y todos los días caminábamos por la arena."
+            "es": "Vivíamos cerca de la playa y todos los días caminábamos por la arena.",
+            "en": "We lived near the beach and every day we walked on the sand."
           },
           {
-            "es": "Ella cocinaba platos deliciosos y siempre cantaba en la cocina."
+            "es": "Ella cocinaba platos deliciosos y siempre cantaba en la cocina.",
+            "en": "She cooked delicious dishes and always sang in the kitchen."
           },
           {
-            "es": "Yo la extrañaba mucho cuando volvía a casa en septiembre."
+            "es": "Yo la extrañaba mucho cuando volvía a casa en septiembre.",
+            "en": "I missed her a lot when I went back home in September."
           }
         ],
         "checkpoint": [
@@ -1433,10 +1447,12 @@ const A2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Yo dormía cuando sonó el teléfono."
+            "es": "Yo dormía cuando sonó el teléfono.",
+            "en": "I was sleeping when the phone rang."
           },
           {
-            "es": "Comíamos cuando empezó a llover."
+            "es": "Comíamos cuando empezó a llover.",
+            "en": "We were eating when it started to rain."
           }
         ],
         "checkpoint": [
@@ -1456,10 +1472,12 @@ const A2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Una vez fui a Perú."
+            "es": "Una vez fui a Perú.",
+            "en": "I went to Peru once."
           },
           {
-            "es": "De niño, iba a Perú cada verano."
+            "es": "De niño, iba a Perú cada verano.",
+            "en": "As a child, I went to Peru every summer."
           }
         ],
         "checkpoint": [
@@ -1488,7 +1506,8 @@ const A2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Era una noche fría. Los niños dormían cuando alguien llamó a la puerta."
+            "es": "Era una noche fría. Los niños dormían cuando alguien llamó a la puerta.",
+            "en": "It was a cold night. The children were sleeping when someone knocked at the door."
           }
         ],
         "checkpoint": [
@@ -1506,7 +1525,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Elige pretérito o imperfecto.",
-        "sentence": "___ (llover, imperfecto) toda la tarde cuando decidimos salir.",
+        "sentence": "___ (llover, imperfecto) mucho cuando decidimos salir.",
         "answer": "Llovía",
         "explanation": "La lluvia continua en el fondo va en imperfecto: llovía."
       },
@@ -1552,7 +1571,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 8,
     "title": "Preterite vs. Imperfect, Part 2 of 2",
-    "summary": "Learn to choose the right past tense — and combine both in a single story.",
+    "summary": "Follow a short story that mixes the preterite and imperfect, and learn 30 weather and season words for setting the scene.",
     "duration": "7 min",
     "sections": [
       {
@@ -1562,16 +1581,20 @@ const A2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Era un día normal. Yo caminaba al trabajo cuando vi algo extraño en la calle."
+            "es": "Era un día normal. Yo caminaba al trabajo cuando vi algo extraño en la calle.",
+            "en": "It was a normal day. I was walking to work when I saw something strange in the street."
           },
           {
-            "es": "Un perro pequeño corría solo, sin dueño a la vista."
+            "es": "Un perro pequeño corría solo, sin dueño a la vista.",
+            "en": "A small dog was running alone, with no owner in sight."
           },
           {
-            "es": "Me acerqué despacio y el perro me miró. Tenía mucho miedo."
+            "es": "Me acerqué despacio y el perro me miró. Tenía mucho miedo.",
+            "en": "I went up to it slowly and the dog looked at me. It was very scared."
           },
           {
-            "es": "Al final, encontré a su dueña dos calles más adelante. ¡Qué alivio sentí!"
+            "es": "Al final, encontré a su dueña dos calles más adelante. ¡Qué alivio sentí!",
+            "en": "In the end, I found its owner two streets further on. What a relief I felt!"
           }
         ],
         "checkpoint": [
@@ -1974,7 +1997,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "Eran las doce de la noche cuando sonó el teléfono."
         ],
-        "explanation": "La hora en el pasado siempre va en imperfecto (era); el timbrazo puntual va en pretérito (sonó)."
+        "explanation": "La hora en el pasado siempre va en imperfecto (era); la llamada, un hecho puntual, va en pretérito (sonó)."
       },
       {
         "type": "multiple-choice",
@@ -2121,13 +2144,16 @@ const A2_BASE_LESSONS: Lesson[] = [
             "en": "Do you have this shirt in medium?"
           },
           {
-            "es": "Sí, la tenemos. ¿La quiere probar?"
+            "es": "Sí, la tenemos. ¿La quiere probar?",
+            "en": "Yes, we have it. Would you like to try it on?"
           },
           {
-            "es": "Sí, por favor. También busco unos zapatos negros."
+            "es": "Sí, por favor. También busco unos zapatos negros.",
+            "en": "Yes, please. I'm also looking for some black shoes."
           },
           {
-            "es": "Los tenemos en la sección de allá. ¿Se los muestro?"
+            "es": "Los tenemos en la sección de allá. ¿Quiere verlos?",
+            "en": "We have them in the section over there. Would you like to see them?"
           }
         ],
         "checkpoint": [
@@ -2195,7 +2221,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 11,
     "title": "Direct Object Pronouns, Part 2 of 2",
-    "summary": "Stop repeating nouns — replace them with lo, la, los, and las.",
+    "summary": "Learn 30 shopping words and practice replacing them with lo, la, los and las.",
     "duration": "6 min",
     "sections": [
       {
@@ -2538,13 +2564,16 @@ const A2_BASE_LESSONS: Lesson[] = [
             "en": "Did you buy Marta something for her birthday?"
           },
           {
-            "es": "Sí, le compré un libro. ¿Y tú?"
+            "es": "Sí, le compré un libro. ¿Y tú?",
+            "en": "Yes, I bought her a book. And you?"
           },
           {
-            "es": "Yo le voy a regalar unos audífonos. Los pedí por internet."
+            "es": "Yo le voy a regalar unos audífonos. Los pedí por internet.",
+            "en": "I'm going to give her some headphones. I ordered them online."
           },
           {
-            "es": "Perfecto. ¿Le mandamos un mensaje para avisarle de la fiesta?"
+            "es": "Perfecto. ¿Le mandamos un mensaje para avisarle de la fiesta?",
+            "en": "Perfect. Shall we send her a message to tell her about the party?"
           }
         ],
         "checkpoint": [
@@ -2613,7 +2642,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 13,
     "title": "Indirect Object Pronouns, Part 2 of 2",
-    "summary": "Say to whom or for whom something happens with me, te, le, nos, os, and les.",
+    "summary": "Learn 30 words for phones and messages and use them with indirect object pronouns (te mando, le escribo).",
     "duration": "6 min",
     "sections": [
       {
@@ -2934,16 +2963,20 @@ const A2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Carlos se despierta a las seis y media."
+            "es": "Carlos se despierta a las seis y media.",
+            "en": "Carlos wakes up at six thirty."
           },
           {
-            "es": "Se ducha, se cepilla los dientes y se viste rápido."
+            "es": "Se ducha, se cepilla los dientes y se viste rápido.",
+            "en": "He showers, brushes his teeth and gets dressed quickly."
           },
           {
-            "es": "Después se peina, desayuna algo ligero y se va al trabajo."
+            "es": "Después se peina, desayuna algo ligero y se va al trabajo.",
+            "en": "Then he combs his hair, has a light breakfast and leaves for work."
           },
           {
-            "es": "Los fines de semana, se levanta más tarde y se relaja en casa."
+            "es": "Los fines de semana, se levanta más tarde y se relaja en casa.",
+            "en": "On weekends, he gets up later and relaxes at home."
           }
         ],
         "checkpoint": [
@@ -3009,7 +3042,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 15,
     "title": "Reflexive Verbs & Daily Routine, Part 2 of 2",
-    "summary": "Describe your morning and night routines with verbs that act back on the subject.",
+    "summary": "Learn 30 words for the body and daily routine and practice reflexive verbs with them.",
     "duration": "5 min",
     "sections": [
       {
@@ -3278,7 +3311,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es correcto para comparar cantidades de algo contable?",
+            "question": "¿Cuál es correcto para decir que dos cantidades son iguales (con un sustantivo)?",
             "options": [
               "tan...como",
               "tanto/a/os/as...como",
@@ -3293,7 +3326,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Comparativos irregulares",
         "body": [
-          "Algunos adjetivos tienen formas comparativas especiales: bueno → mejor, malo → peor, viejo → mayor, joven → menor."
+          "Algunos adjetivos tienen formas comparativas especiales: bueno → mejor, malo → peor, viejo → mayor, joven → menor (para la edad de las personas)."
         ],
         "examples": [
           {
@@ -3351,13 +3384,16 @@ const A2_BASE_LESSONS: Lesson[] = [
             "en": "Look, this jacket is prettier than the other one, don't you think?"
           },
           {
-            "es": "Sí, pero es tan cara como el vestido azul."
+            "es": "Sí, pero es tan cara como el vestido azul.",
+            "en": "Yes, but it's as expensive as the blue dress."
           },
           {
-            "es": "Es verdad. Creo que la roja es la mejor opción de todas."
+            "es": "Es verdad. Creo que la roja es la mejor opción de todas.",
+            "en": "That's true. I think the red one is the best option of all."
           },
           {
-            "es": "Y también es la más cómoda. ¡Me la llevo!"
+            "es": "Y también es la más cómoda. ¡Me la llevo!",
+            "en": "And it's also the most comfortable. I'll take it!"
           }
         ],
         "checkpoint": [
@@ -3382,7 +3418,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la comparación.",
         "sentence": "Este suéter es ___ cómodo como ese abrigo. (as...as)",
         "answer": "tan",
-        "explanation": "Tan...como compara cualidades iguales: tan llena el hueco y como se queda fijo."
+        "explanation": "Tan + adjetivo + como expresa igualdad: tan cómodo como ese abrigo."
       },
       {
         "type": "multiple-choice",
@@ -3410,7 +3446,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 17,
     "title": "Comparisons & Superlatives, Part 2 of 2",
-    "summary": "Compare people and things, and single out the best or worst of a group.",
+    "summary": "Learn 30 clothing and size words and use them in comparisons and superlatives.",
     "duration": "6 min",
     "sections": [
       {
@@ -3811,7 +3847,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 19,
     "title": "The Future Tense, Part 2 of 2",
-    "summary": "Talk about what will happen using the simple future — and its handful of irregular stems.",
+    "summary": "Hear the future in a job interview and learn 30 words for work and future plans.",
     "duration": "7 min",
     "sections": [
       {
@@ -3825,13 +3861,16 @@ const A2_BASE_LESSONS: Lesson[] = [
             "en": "Where do you see yourself in five years?"
           },
           {
-            "es": "Creo que tendré más experiencia y seré gerente de mi propio equipo."
+            "es": "Creo que tendré más experiencia y seré gerente de mi propio equipo.",
+            "en": "I think I'll have more experience and I'll be the manager of my own team."
           },
           {
-            "es": "¿Y qué hará para lograr esa meta?"
+            "es": "¿Y qué hará para lograr esa meta?",
+            "en": "And what will you do to reach that goal?"
           },
           {
-            "es": "Trabajaré duro, aprenderé nuevas habilidades y buscaré oportunidades de ascenso."
+            "es": "Trabajaré duro, aprenderé nuevas habilidades y buscaré oportunidades de ascenso.",
+            "en": "I'll work hard, learn new skills and look for chances to be promoted."
           }
         ],
         "checkpoint": [
@@ -4048,7 +4087,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate this sentence to Spanish.",
         "source": "She will be a doctor someday.",
         "answer": "Ella será doctora algún día.",
-        "explanation": "Ser toma la forma irregular será en el futuro."
+        "explanation": "Ser es regular en el futuro: ser + -á = será."
       },
       {
         "type": "multiple-choice",
@@ -4206,7 +4245,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Elige por o para.",
         "sentence": "Este café es ___ ti.",
         "answer": "para",
-        "explanation": "\"Para ti\" indica el destinatario del regalo."
+        "explanation": "\"Para ti\" indica el destinatario: el café es para ti."
       },
       {
         "type": "multiple-choice",
@@ -4250,7 +4289,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 21,
     "title": "Por vs. Para, Part 2 of 2",
-    "summary": "Untangle Spanish's trickiest preposition pair — both mean \"for,\" but they're rarely interchangeable.",
+    "summary": "Hear por and para at the doctor's and learn 30 words for health and medical visits.",
     "duration": "7 min",
     "sections": [
       {
@@ -4264,13 +4303,16 @@ const A2_BASE_LESSONS: Lesson[] = [
             "en": "I've come in because of a very bad headache."
           },
           {
-            "es": "¿Desde cuándo tiene el dolor?"
+            "es": "¿Desde cuándo tiene el dolor?",
+            "en": "How long have you had the pain?"
           },
           {
-            "es": "Desde hace dos días. Tomé una pastilla, pero no funcionó."
+            "es": "Desde hace dos días. Tomé una pastilla, pero no funcionó.",
+            "en": "For two days. I took a pill, but it didn't work."
           },
           {
-            "es": "Le voy a recetar algo para el dolor. Tómelo por la mañana y por la noche."
+            "es": "Le voy a recetar algo para el dolor. Tómelo por la mañana y por la noche.",
+            "en": "I'm going to prescribe you something for the pain. Take it in the morning and at night."
           }
         ],
         "checkpoint": [
@@ -4650,6 +4692,13 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate this sentence to Spanish.",
         "source": "This medicine is for the pain. Take it for seven days, please.",
         "answer": "Esta medicina es para el dolor. Tómala por siete días, por favor.",
+        "altAnswers": [
+          "Esta medicina es para el dolor. Tómela por siete días, por favor.",
+          "Esta medicina es para el dolor. Tómala durante siete días, por favor.",
+          "Esta medicina es para el dolor. Tómela durante siete días, por favor.",
+          "Este medicamento es para el dolor. Tómalo por siete días, por favor.",
+          "Este medicamento es para el dolor. Tómelo por siete días, por favor."
+        ],
         "explanation": "\"Para el dolor\" expresa propósito; \"por siete días\" expresa duración; \"por favor\" es una expresión fija con por."
       },
       {
@@ -4697,6 +4746,12 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate this sentence to Spanish.",
         "source": "We walked through the park for two hours.",
         "answer": "Caminamos por el parque por dos horas.",
+        "altAnswers": [
+          "Caminamos por el parque durante dos horas.",
+          "Caminamos dos horas por el parque.",
+          "Paseamos por el parque durante dos horas.",
+          "Paseamos por el parque por dos horas."
+        ],
         "explanation": "El primer \"por\" indica movimiento a través de un lugar; el segundo indica duración de tiempo."
       }
     ]
@@ -5060,7 +5115,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "___ como nada antes de las ocho de la mañana.",
             "answer": "No",
             "hint": "La palabra negativa nada va después del verbo.",
-            "explanation": "Como nada va después del verbo, la oración necesita no antes del verbo: No como nada."
+            "explanation": "Nada va después del verbo (como), así que la oración necesita no antes del verbo: No como nada."
           }
         ]
       },
@@ -5158,7 +5213,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 25,
     "title": "Palabras Negativas y la Doble Negación, Part 2 of 2",
-    "summary": "Domina nunca, nadie, ninguno, tampoco y ni...ni, y la doble negación obligatoria del español.",
+    "summary": "Practice tampoco and ni...ni, and learn the affirmative/negative word pairs (siempre/nunca, algo/nada, alguien/nadie).",
     "duration": "6 min",
     "sections": [
       {
@@ -5477,9 +5532,13 @@ const A2_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "Respondió la pregunta honesta y directamente.",
           "Contestó la pregunta honesta y directamente.",
-          "Contestó a la pregunta honesta y directamente."
+          "Contestó a la pregunta honesta y directamente.",
+          "Respondió a la pregunta honestamente y directamente.",
+          "Respondió la pregunta honestamente y directamente.",
+          "Contestó la pregunta honestamente y directamente.",
+          "Contestó a la pregunta honestamente y directamente."
         ],
-        "explanation": "Cuando dos adverbios en -mente van seguidos y unidos por y, solo el último lleva el sufijo: honesta y directamente."
+        "explanation": "Cuando dos adverbios en -mente van seguidos y unidos por y, lo más natural es que solo el último lleve el sufijo: honesta y directamente. Honestamente y directamente también es correcto. Verás esta regla en la Parte 2."
       }
     ]
   },
@@ -5488,7 +5547,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 27,
     "title": "Adverbios en -mente, Part 2 of 2",
-    "summary": "Forma adverbios de modo a partir de adjetivos usando el sufijo -mente y aprende sus reglas de acentuación.",
+    "summary": "Aprende a unir dos adverbios en -mente (clara y lentamente) y practica los adverbios en -mente más frecuentes.",
     "duration": "5 min",
     "sections": [
       {
@@ -5641,7 +5700,7 @@ const A2_BASE_LESSONS: Lesson[] = [
                 "right": "especially"
               }
             ],
-            "explanation": "Cada uno de estos adverbios se forma con la femenina del adjetivo correspondiente más -mente."
+            "explanation": "Cada uno de estos adverbios se forma con la forma femenina del adjetivo correspondiente más -mente."
           }
         ]
       }
@@ -5654,7 +5713,13 @@ const A2_BASE_LESSONS: Lesson[] = [
         "source": "Normalmente llego al trabajo a las ocho.",
         "answer": "I normally arrive at work at eight.",
         "altAnswers": [
-          "I usually get to work at eight."
+          "I usually get to work at eight.",
+          "I usually arrive at work at eight.",
+          "I normally get to work at eight.",
+          "Normally I arrive at work at eight.",
+          "Normally, I arrive at work at eight.",
+          "Normally I get to work at eight.",
+          "Normally, I get to work at eight."
         ],
         "explanation": "Normalmente se forma con normal (una sola forma, termina en consonante) + -mente, sin cambios adicionales."
       },
@@ -5758,7 +5823,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Cruce la calle y el museo está enfrente.",
-            "en": "Cross the street and the museum is in front."
+            "en": "Cross the street and the museum is right in front of you."
           }
         ],
         "checkpoint": [
@@ -5980,7 +6045,10 @@ const A2_BASE_LESSONS: Lesson[] = [
         "answer": "Continue straight until the square and then turn left.",
         "altAnswers": [
           "Go straight until the square and then turn left.",
-          "Keep going straight to the square and then turn left."
+          "Keep going straight to the square and then turn left.",
+          "Continue straight to the square and then turn left.",
+          "Go straight to the square and then turn left.",
+          "Keep going straight until the square and then turn left."
         ],
         "explanation": "Continúe es el mandato formal de continuar; hasta indica el punto donde termina esa parte del recorrido."
       },
@@ -6039,7 +6107,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Antes de sentarte, es normal decir si tienes una reserva o no. Si no tienes reserva, puedes preguntar directamente si hay una mesa disponible.",
           "La frase Tengo una reserva a nombre de... se usa para dar tu nombre al camarero o a la camarera cuando llegas.",
           "También puedes pedir un lugar específico, como una mesa junto a la ventana (a table by the window) o una mesa para dos.",
-          "En restaurantes más antiguos o formales, a veces todavía preguntan ¿Fuma o no fuma? (Smoking or non-smoking?), aunque hoy en día casi todos los restaurantes son completamente sin fumar."
+          "Hoy en día está prohibido fumar dentro de los restaurantes en España y en casi toda Latinoamérica, así que a veces te preguntan si prefieres sentarte dentro o en la terraza (outside)."
         ],
         "examples": [
           {
@@ -6071,7 +6139,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "body": [
           "Hay palabras esenciales que necesitas reconocer en cualquier restaurante hispanohablante.",
           "Una diferencia importante es regional: en España se dice el camarero / la camarera para 'waiter/waitress', mientras que en gran parte de Latinoamérica se prefiere el mesero / la mesera. Ambas formas se entienden en casi todas partes, pero es útil saber cuál es más común según el país.",
-          "El menú (también llamado la carta en España) lista las opciones. El plato del día es la sugerencia especial de hoy. Una comida típica se organiza en la entrada (starter), el plato principal (main course) y el postre (dessert), acompañados de una bebida. Al final, no olvides la propina (tip)."
+          "La carta (en muchos países también llamada el menú) presenta los platos; en España, el menú suele ser el menú del día, de precio fijo. El plato del día es la sugerencia especial de hoy. Una comida típica se organiza en la entrada (starter), el plato principal (main course) y el postre (dessert), acompañados de una bebida. Al final, no olvides la propina (tip)."
         ],
         "examples": [
           {
@@ -6428,7 +6496,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "en": "I ate at that restaurant last week."
           },
           {
-            "es": "Vivieron en Madrid por dos años.",
+            "es": "Vivieron en Madrid durante dos años.",
             "en": "They lived in Madrid for two years."
           }
         ],
@@ -6625,7 +6693,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "En '___ profesora durante veinte años', ¿qué verbo es?",
+            "question": "En 'Fue profesora durante veinte años', ¿de qué verbo es fue?",
             "options": [
               "ser",
               "ir",
@@ -6705,7 +6773,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "left": "pude",
-            "right": "I could"
+            "right": "I was able to"
           },
           {
             "left": "puse",
@@ -6775,7 +6843,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Verbos con e→i en la tercera persona",
+        "heading": "Verbos con e→i y o→u en la tercera persona",
         "body": [
           "Verbos -ir como pedir, servir y dormir cambian la vocal de la raíz solo en él/ella y ellos/ellas."
         ],
@@ -7011,6 +7079,13 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al inglés.",
         "source": "Cuando vivíamos en México, comíamos tacos cada semana.",
         "answer": "When we lived in Mexico, we used to eat tacos every week.",
+        "altAnswers": [
+          "When we lived in Mexico, we ate tacos every week.",
+          "When we lived in Mexico, we would eat tacos every week.",
+          "When we were living in Mexico, we used to eat tacos every week.",
+          "When we lived in Mexico we used to eat tacos every week.",
+          "When we lived in Mexico we ate tacos every week."
+        ],
         "explanation": "The imperfect expresses past habits: vivíamos and comíamos = we lived, we used to eat."
       },
       {
@@ -7174,6 +7249,13 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "She was very happy when she was young.",
         "answer": "Ella era muy feliz cuando era joven.",
+        "altAnswers": [
+          "Era muy feliz cuando era joven.",
+          "De joven era muy feliz.",
+          "De joven ella era muy feliz.",
+          "Cuando era joven, era muy feliz.",
+          "Cuando era joven era muy feliz."
+        ],
         "explanation": "Describing how she was in general and her age at the time → imperfect: era... era joven."
       },
       {
@@ -7355,6 +7437,12 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al inglés.",
         "source": "Siempre llovía en abril en esa ciudad.",
         "answer": "It always used to rain in April in that city.",
+        "altAnswers": [
+          "It always rained in April in that city.",
+          "In that city it always rained in April.",
+          "In that city it always used to rain in April.",
+          "It would always rain in April in that city."
+        ],
         "explanation": "Llovía with siempre describes what used to happen: it always used to rain."
       },
       {
@@ -7366,7 +7454,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "cuando",
           "llegaron"
         ],
-        "explanation": "Imperfecto continuo en contexto con pretérito.",
+        "explanation": "Imperfecto (dormíamos) para la acción en curso, interrumpida por el pretérito (llegaron); también se puede decir estábamos durmiendo.",
         "translation": "We were sleeping when they arrived.",
         "altOrders": [["Cuando", "llegaron", "nosotros", "dormíamos"]]
       },
@@ -7396,6 +7484,13 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "We used to visit our grandparents every Sunday.",
         "answer": "Visitábamos a nuestros abuelos cada domingo.",
+        "altAnswers": [
+          "Visitábamos a nuestros abuelos todos los domingos.",
+          "Todos los domingos visitábamos a nuestros abuelos.",
+          "Cada domingo visitábamos a nuestros abuelos.",
+          "Nosotros visitábamos a nuestros abuelos cada domingo.",
+          "Nosotros visitábamos a nuestros abuelos todos los domingos."
+        ],
         "explanation": "A repeated habit (cada domingo) → imperfect: visitábamos. Grandparents are people, so they take the personal a."
       }
     ]
@@ -7839,6 +7934,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al inglés.",
         "source": "Pude terminar el examen a tiempo.",
         "answer": "I managed to finish the exam on time.",
+        "altAnswers": [
+          "I was able to finish the exam on time.",
+          "I managed to finish the exam in time.",
+          "I was able to finish the exam in time."
+        ],
         "explanation": "«Pude» en pretérito indica que la acción se logró: «managed to», no solo «era capaz de»."
       },
       {
@@ -7891,7 +7991,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 41,
     "title": "Pronombres de Objeto Directo e Indirecto: Práctica Extra, Part 1 of 3",
-    "summary": "Practica extra para reforzar el uso y la colocación de los pronombres de objeto directo e indirecto ya estudiados.",
+    "summary": "Práctica extra para reforzar el uso y la colocación de los pronombres de objeto directo e indirecto ya estudiados.",
     "duration": "7 min",
     "sections": [
       {
@@ -8046,7 +8146,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 42,
     "title": "Pronombres de Objeto Directo e Indirecto: Práctica Extra, Part 2 of 3",
-    "summary": "Practica extra para reforzar el uso y la colocación de los pronombres de objeto directo e indirecto ya estudiados.",
+    "summary": "Práctica extra para reforzar el uso y la colocación de los pronombres de objeto directo e indirecto ya estudiados.",
     "duration": "7 min",
     "sections": [
       {
@@ -8202,7 +8302,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 43,
     "title": "Pronombres de Objeto Directo e Indirecto: Práctica Extra, Part 3 of 3",
-    "summary": "Practica extra para reforzar el uso y la colocación de los pronombres de objeto directo e indirecto ya estudiados.",
+    "summary": "Práctica extra para reforzar el uso y la colocación de los pronombres de objeto directo e indirecto ya estudiados.",
     "duration": "8 min",
     "sections": [
       {
@@ -8326,6 +8426,13 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al inglés.",
         "source": "¿Le compraste el regalo a tu papá?",
         "answer": "Did you buy the gift for your dad?",
+        "altAnswers": [
+          "Did you buy your dad the gift?",
+          "Did you buy the present for your dad?",
+          "Did you buy your dad the present?",
+          "Did you buy the gift for your father?",
+          "Did you buy your father the gift?"
+        ],
         "explanation": "\"A tu papá\" aclara a quién se refiere el pronombre indirecto \"le\"."
       },
       {
@@ -8538,6 +8645,13 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "We brush our teeth every morning.",
         "answer": "Nos cepillamos los dientes todas las mañanas.",
+        "altAnswers": [
+          "Nos cepillamos los dientes cada mañana.",
+          "Nos lavamos los dientes todas las mañanas.",
+          "Nos lavamos los dientes cada mañana.",
+          "Todas las mañanas nos cepillamos los dientes.",
+          "Todas las mañanas nos lavamos los dientes."
+        ],
         "explanation": "Cepillarse en presente: nosotros nos cepillamos."
       }
     ]
@@ -8576,6 +8690,11 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Traduce la oración al español.",
             "source": "He goes to bed at eleven at night.",
             "answer": "Él se acuesta a las once de la noche.",
+            "altAnswers": [
+              "Se acuesta a las once de la noche.",
+              "Él se acuesta a las once.",
+              "Se acuesta a las once."
+            ],
             "explanation": "Acostarse (o → ue) means to go to bed: él se acuesta."
           },
           {
@@ -8650,6 +8769,12 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "She got up very early yesterday.",
         "answer": "Ella se levantó muy temprano ayer.",
+        "altAnswers": [
+          "Se levantó muy temprano ayer.",
+          "Ayer se levantó muy temprano.",
+          "Ayer ella se levantó muy temprano.",
+          "Ella ayer se levantó muy temprano."
+        ],
         "explanation": "Levantarse en pretérito: ella se levantó."
       },
       {
@@ -8850,6 +8975,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "We see each other every weekend.",
         "answer": "Nos vemos todos los fines de semana.",
+        "altAnswers": [
+          "Nos vemos cada fin de semana.",
+          "Nosotros nos vemos todos los fines de semana.",
+          "Todos los fines de semana nos vemos."
+        ],
         "explanation": "El uso recíproco de 'nos' expresa una acción mutua."
       },
       {
@@ -9142,7 +9272,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la oración con la forma correcta.",
-        "sentence": "La película fue ___.",
+        "sentence": "La película fue ___. (aburrido)",
         "answer": "aburridísima",
         "hint": "extremely boring (aburrido → -ísimo)",
         "explanation": "\"Aburrido\" pierde la -o final y añade -ísima para concordar con \"película\" (femenino singular)."
@@ -9271,6 +9401,12 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al inglés.",
         "source": "Mi hermana menor es más alta que yo.",
         "answer": "My younger sister is taller than me.",
+        "altAnswers": [
+          "My younger sister is taller than I am.",
+          "My little sister is taller than me.",
+          "My little sister is taller than I am.",
+          "My younger sister is taller than I."
+        ],
         "explanation": "\"Menor\" es el comparativo irregular de joven, y \"más alta que\" es una comparación de superioridad regular."
       },
       {
@@ -9406,6 +9542,12 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Traduce la oración al español.",
             "source": "We will travel next summer.",
             "answer": "Viajaremos el próximo verano.",
+            "altAnswers": [
+              "El próximo verano viajaremos.",
+              "Viajaremos el verano que viene.",
+              "El verano que viene viajaremos.",
+              "Nosotros viajaremos el próximo verano."
+            ],
             "explanation": "Futuro regular, forma de nosotros: viajar + -emos."
           }
         ]
@@ -9609,7 +9751,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "source": "I will call you as soon as I arrive.",
         "answer": "Te llamaré en cuanto llegue.",
         "altAnswers": ["Te llamaré tan pronto como llegue.", "Te llamaré apenas llegue."],
-        "explanation": "'llamaré' es el futuro simple regular de 'llamar'."
+        "explanation": "'Llamaré' es el futuro simple de 'llamar'. Después de 'en cuanto' con sentido futuro se usa el subjuntivo (llegue); apréndelo como bloque por ahora."
       },
       {
         "type": "word-order",
@@ -10124,8 +10266,9 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "How do you say the bold words in Spanish?",
         "sentence": "Salen ___ Buenos Aires el sábado.",
+        "en": "They leave [for] Buenos Aires on Saturday.",
         "answer": "para",
         "hint": "destino",
         "explanation": "“Para” indica el destino de un viaje."
@@ -10622,8 +10765,9 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "How do you say the bold words in Spanish?",
         "sentence": "Escribió el informe clara y ___.",
+        "en": "He wrote the report clearly and [carefully].",
         "answer": "cuidadosamente",
         "hint": "solo el segundo adverbio termina en -mente",
         "explanation": "When two -mente adverbs are joined by y, only the last keeps -mente: clara y cuidadosamente."
@@ -10740,8 +10884,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "How do you say the bold words in Spanish?",
             "sentence": "Me explicó el problema lenta y ___.",
+            "en": "She explained the problem to me slowly and [carefully].",
             "answer": "cuidadosamente",
             "hint": "solo el segundo adverbio lleva -mente",
             "explanation": "When two -mente adverbs are joined by y, only the last keeps -mente: lenta y cuidadosamente."
@@ -10807,8 +10952,9 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "How do you say the bold words in Spanish?",
         "sentence": "___ tengo tiempo para descansar entre semana.",
+        "en": "I [never] have time to rest during the week.",
         "answer": "Nunca",
         "hint": "palabra negativa antes del verbo, sin 'no'",
         "explanation": "Nunca before the verb replaces no. (No tengo tiempo nunca would say the same thing.)"
@@ -10860,7 +11006,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Travel & Trips",
         "body": [
-          "All 30 words from Unit 1's vocabulary section, grouped for review."
+          "Thirty words from the Travel & Trips theme, grouped for review."
         ],
         "checkpoint": [
           {
@@ -11009,7 +11155,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Time Expressions & Frequency",
         "body": [
-          "All 30 words from Unit 2's vocabulary section, grouped for review."
+          "Thirty words from the Time Expressions & Frequency theme, grouped for review."
         ],
         "checkpoint": [
           {
@@ -11159,19 +11305,19 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "Which of these words are related to shopping? (Choose all that apply)",
+        "question": "Which of these words are related to travel? (Choose all that apply)",
         "options": [
-          "la tienda",
-          "el aeropuerto",
+          "la maleta",
           "la farmacia",
-          "el mostrador"
+          "el vuelo",
+          "la aduana"
         ],
         "correctIndexes": [
           0,
           2,
           3
         ],
-        "explanation": "La tienda, la farmacia, and el mostrador are all shopping-related; el aeropuerto is not."
+        "explanation": "La maleta, el vuelo and la aduana are travel words from Unit 1; la farmacia is not."
       },
       {
         "type": "translate",
@@ -11493,42 +11639,42 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "matching",
-        "instructions": "Match each work-related word to its meaning.",
+        "instructions": "Match each childhood word to its meaning.",
         "pairs": [
           {
-            "left": "solicitar",
-            "right": "to apply for"
+            "left": "el columpio",
+            "right": "the swing"
           },
           {
-            "left": "contratar",
-            "right": "to hire"
+            "left": "travieso",
+            "right": "mischievous"
           },
           {
-            "left": "renunciar",
-            "right": "to quit"
+            "left": "el recreo",
+            "right": "recess"
           },
           {
-            "left": "jubilarse",
-            "right": "to retire"
+            "left": "mudarse",
+            "right": "to move (house)"
           },
           {
-            "left": "ascender",
-            "right": "to get promoted"
+            "left": "crecer",
+            "right": "to grow up"
           }
         ],
-        "explanation": "These verbs cover the arc of a career, from applying to retiring."
+        "explanation": "These words describe growing up."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué palabra significa \"the fever\"?",
+        "question": "¿Qué palabra significa \"the umbrella\"?",
         "options": [
-          "la tos",
-          "la fiebre",
-          "el resfriado",
-          "la gripe"
+          "la sombra",
+          "el paraguas",
+          "el hielo",
+          "la nube"
         ],
         "correctIndex": 1,
-        "explanation": "La fiebre means the fever. \"La tos\" is the cough, \"el resfriado\" the cold, and \"la gripe\" the flu."
+        "explanation": "El paraguas means the umbrella; la sombra is the shade, el hielo the ice, la nube the cloud."
       }
     ]
   },
@@ -11842,7 +11988,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Cuáles palabras describen la rutina diaria? (Elige todas las correctas)",
+        "question": "¿Qué palabras describen la rutina diaria? (Elige todas las correctas)",
         "options": [
           "despertarse",
           "el vuelo",
@@ -12220,7 +12366,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "¿Cuáles palabras se relacionan con la tecnología? (Elige todas las correctas)",
+        "question": "¿Qué palabras se relacionan con la tecnología? (Elige todas las correctas)",
         "options": [
           "descargar",
           "la pantalla",
@@ -12241,7 +12387,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 63,
     "title": "Elementary Vocabulary Practice, Part 5 of 5",
-    "summary": "Test yourself on all 300 words from the Elementary vocabulary lists, grouped by lesson.",
+    "summary": "Review the 60 words from the Work & Future Plans and Health & The Doctor vocabulary lists.",
     "duration": "10 min",
     "sections": [
       {
@@ -12598,7 +12744,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 64,
     "title": "Elementary Comprehensive Review, Part 1 of 3",
-    "summary": "Recap every grammar principle from the Elementary level, then take a 34-question final test.",
+    "summary": "Recap the regular and irregular preterite and the imperfect, then check them with a short mixed set of exercises.",
     "duration": "8 min",
     "sections": [
       {
@@ -12753,7 +12899,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 65,
     "title": "Elementary Comprehensive Review, Part 2 of 3",
-    "summary": "Recap every grammar principle from the Elementary level, then take a 34-question final test.",
+    "summary": "Recap preterite vs. imperfect and direct and indirect object pronouns, then check them with a short mixed set of exercises.",
     "duration": "8 min",
     "sections": [
       {
@@ -12833,7 +12979,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la comparación.",
         "sentence": "Mi casa es ___ grande como la tuya. (as...as)",
         "answer": "tan",
-        "explanation": "Tan...como compara cualidades iguales: tan llena el hueco y como se queda fijo."
+        "explanation": "Tan + adjetivo + como expresa igualdad: tan grande como la tuya."
       },
       {
         "type": "multiple-choice",
@@ -12896,7 +13042,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 66,
     "title": "Elementary Comprehensive Review, Part 3 of 3",
-    "summary": "Recap every grammar principle from the Elementary level, then take a 34-question final test.",
+    "summary": "Recap reflexive verbs, comparisons, the future and por vs. para, then check them with a short mixed set of exercises.",
     "duration": "9 min",
     "sections": [
       {
@@ -13143,7 +13289,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Rosa mira el collar del perro y ve un número de teléfono. Ella llama inmediatamente a la familia de Tomás. \"Encontré a un perro marrón con un collar azul,\" dice Rosa. \"Creo que es de ustedes.\"",
           "La mamá de Tomás recibe la llamada y le dice a Tomás la buena noticia. Toda la familia va rápidamente a la casa de Rosa. Cuando Tomás ve a Toby, corre hacia él y lo abraza fuerte. Toby mueve la cola con mucha alegría.",
           "Tomás le da las gracias a Rosa muchas veces. \"Usted es muy amable,\" dice Tomás. Rosa sonríe y responde: \"Me gustan mucho los animales. Estoy feliz de ayudar.\" La familia de Tomás decide invitar a Rosa a tomar un café la próxima semana.",
-          "Desde ese día, Tomás siempre pone un collar más seguro en Toby y nunca lo deja correr sin correa en el parque. También visita a Rosa de vez en cuando con Toby, y los dos se hacen buenos amigos del barrio."
+          "Desde ese día, Tomás siempre le pone a Toby un collar más seguro y nunca lo deja correr sin correa en el parque. También visita a Rosa de vez en cuando con Toby, y los dos se hacen buenos amigos del barrio."
         ]
       }
     ],
@@ -13182,7 +13328,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "He moves to a new house"
         ],
         "correctIndex": 2,
-        "explanation": "\"Tomás siempre pone un collar más seguro en Toby y nunca lo deja correr sin correa\" — he always puts a safer collar on Toby and never lets him run without a leash."
+        "explanation": "\"Tomás siempre le pone a Toby un collar más seguro y nunca lo deja correr sin correa\" — he always puts a safer collar on Toby and never lets him run without a leash."
       }
     ]
   },
@@ -13201,7 +13347,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "El autobús llega al bosque después de dos horas de viaje. Los estudiantes bajan del autobús y ven árboles altos y un lago azul. \"¡Es hermoso!\", dice Carla, mirando el paisaje. La profesora organiza a los estudiantes en grupos pequeños.",
           "Cada grupo tiene que armar su propia tienda de campaña. Al principio, es difícil para todos. Marco y su grupo no entienden las instrucciones, y la tienda se cae dos veces. Al final, con la ayuda de un guía, todas las tiendas están listas antes de la noche.",
           "Por la tarde, los estudiantes caminan por un sendero cerca del lago. Ven pájaros de colores y aprenden los nombres de varias plantas. El guía les explica cómo identificar las huellas de los animales en la tierra.",
-          "Cuando llega la noche, todos se sientan alrededor de una fogata grande. La profesora cocina malvaviscos y los estudiantes cuentan historias divertidas. Carla canta una canción y todos la acompañan. El cielo está lleno de estrellas y nadie quiere dormir todavía.",
+          "Cuando llega la noche, todos se sientan alrededor de una fogata grande. La profesora tuesta malvaviscos y los estudiantes cuentan historias divertidas. Carla canta una canción y todos la acompañan. El cielo está lleno de estrellas y nadie quiere dormir todavía.",
           "A la mañana siguiente, empieza a llover mucho. Los estudiantes tienen que quedarse dentro de las tiendas. Al principio están tristes porque no pueden caminar por el bosque, pero después juegan a las cartas y cuentan chistes dentro de la tienda.",
           "Por la tarde, la lluvia para y sale el sol. Todos salen de las tiendas y juegan un partido de fútbol en un campo cerca del lago. Marco anota el gol de la victoria y todo el grupo celebra con mucha alegría.",
           "Cuando el autobús regresa a la escuela, los estudiantes están cansados pero muy contentos. \"Fue el mejor viaje de mi vida,\" dice Marco. La señora Vidal sonríe y dice que el próximo año van a organizar otro campamento todavía más grande."
@@ -13263,7 +13409,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Al principio, los dos hermanos no están contentos. \"Yo quiero hacer el sol,\" dice Lucía. \"No, yo quiero hacer el sol,\" responde Mateo. Discuten durante media hora sin decidir nada, y no empiezan el proyecto.",
           "Esa noche, su papá habla con ellos. \"Ustedes son un buen equipo cuando no compiten,\" dice. \"¿Por qué no prueban a trabajar juntos por una vez?\" Lucía y Mateo se miran y deciden intentarlo.",
           "Al día siguiente, dividen las tareas de una manera diferente. Lucía pinta los planetas porque le gusta el arte. Mateo escribe la información sobre cada planeta porque le gusta leer y escribir. Los dos trabajan en la mesa de la cocina toda la tarde.",
-          "Poco a poco, los hermanos empiezan a hablar sin pelear. Mateo ayuda a Lucía a pintar las líneas de Saturno, y Lucía le da ideas a Mateo para su presentación. Los dos se ríen cuando el planeta Marte se cae de la mesa.",
+          "Poco a poco, los hermanos empiezan a hablar sin pelear. Mateo ayuda a Lucía a pintar los anillos de Saturno, y Lucía le da ideas a Mateo para su presentación. Los dos se ríen cuando el planeta Marte se cae de la mesa.",
           "El día de la presentación, Lucía y Mateo muestran su modelo del sistema solar a toda la clase. Es el proyecto más colorido y organizado del salón. La profesora les da la nota más alta de la clase.",
           "Después de la escuela, Lucía y Mateo caminan juntos a casa con el modelo. \"Trabajamos bien juntos,\" dice Mateo. \"Sí, deberíamos hacerlo más,\" responde Lucía. Desde ese día, los hermanos todavía compiten un poco, pero también se ayudan mucho más."
         ]
@@ -13275,7 +13421,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "question": "Why are Lucía and Mateo unhappy when the project starts?",
         "options": [
           "They don't like science",
-          "They both want to paint the sun",
+          "They both want to make the sun",
           "The teacher separates them",
           "They don't have enough supplies"
         ],
@@ -13381,13 +13527,13 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Valentina quiere participar en el show de talentos de su escuela. A ella le encanta cantar, pero solo canta en su habitación, nunca delante de otras personas. Su mejor amiga, Camila, la anima a inscribirse en el show.",
-          "\"Tienes una voz hermosa,\" dice Camila. \"Todos van a amar tu canción.\" Valentina está nerviosa, pero finalmente decide participar. Escribe su nombre en la lista y elige una canción sobre la amistad.",
+          "\"Tienes una voz hermosa,\" dice Camila. \"A todos les va a encantar tu canción.\" Valentina está nerviosa, pero finalmente decide participar. Escribe su nombre en la lista y elige una canción sobre la amistad.",
           "Durante las siguientes dos semanas, Valentina practica todos los días después de la escuela. Camila la escucha y le da consejos. A veces Valentina quiere abandonar porque tiene miedo de olvidar la letra en frente de todos.",
           "La noche del show de talentos, el auditorio está lleno de estudiantes, profesores y padres. Valentina espera detrás del escenario con las manos frías y el corazón acelerado. Ve a otros estudiantes bailar, tocar el piano y hacer magia.",
           "Cuando el presentador dice su nombre, Valentina camina hacia el escenario muy despacio. Mira al público y ve a Camila en la primera fila, sonriendo y levantando el pulgar. Eso le da un poco de confianza.",
           "La música empieza, y Valentina abre la boca para cantar. Al principio, su voz tiembla un poco, pero luego se relaja y canta con todo su corazón. El público escucha en silencio y algunos empiezan a sonreír.",
           "Cuando termina la canción, todo el auditorio aplaude fuerte. Algunas personas se levantan de sus sillas. Valentina no puede creer lo que está pasando. Baja del escenario con una sonrisa enorme en la cara.",
-          "Después del show, Camila corre a abrazarla. \"¡Estuviste increíble!\", dice. Valentina responde: \"No pude hacerlo sin ti.\" Esa noche, Valentina decide que quiere cantar en más shows en el futuro, y ya no tiene tanto miedo del escenario."
+          "Después del show, Camila corre a abrazarla. \"¡Estuviste increíble!\", dice. Valentina responde: \"No habría podido hacerlo sin ti.\" Esa noche, Valentina decide que quiere cantar en más shows en el futuro, y ya no tiene tanto miedo del escenario."
         ]
       }
     ],
@@ -13509,7 +13655,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Marisol saca su radio y habla con otros trabajadores del museo. \"Tenemos un estudiante perdido de la escuela San Martín,\" dice. Mientras esperan noticias, Marisol le muestra a Bruno una sala con objetos de Egipto antiguo para calmarlo.",
           "Después de diez minutos, otro trabajador encuentra al señor Fernández, que está buscando a Bruno con mucha preocupación. El profesor corre hacia la sala de Egipto y abraza a Bruno con alivio. \"¡No puedes separarte del grupo así!\", le dice, pero también está feliz de encontrarlo.",
           "Bruno le da las gracias a Marisol por su ayuda y le pregunta sobre los dinosaurios. Marisol le cuenta datos interesantes sobre el esqueleto que él estaba mirando. Bruno escucha con mucha atención y hace muchas preguntas más.",
-          "Al final de la visita, Bruno camina siempre cerca de su profesor. En el autobús de regreso a la escuela, le cuenta a sus amigos toda la aventura. \"Me perdí, pero conocí a una guía muy simpática que sabe todo sobre dinosaurios,\" dice con una sonrisa."
+          "Durante el resto de la visita, Bruno camina siempre cerca de su profesor. En el autobús de regreso a la escuela, les cuenta a sus amigos toda la aventura. \"Me perdí, pero conocí a una guía muy simpática que sabe todo sobre dinosaurios,\" dice con una sonrisa."
         ]
       }
     ],
@@ -13631,7 +13777,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Leo se entera del problema de Emma por mensaje de texto. Sin pensarlo mucho, decide ir a la casa de Emma con los ingredientes para sus galletas. \"Vamos a mi casa a cocinar los dos,\" dice Leo.",
           "Emma y Leo pasan la tarde en la cocina de Leo. Preparan el pastel de chocolate y las galletas de limón juntos, ayudándose el uno al otro. Se ríen mucho y también prueban un poco de la masa antes de hornear todo.",
           "El día de la competencia, Emma y Leo llegan con sus dos postres. Muchos estudiantes compran el pastel y las galletas, y todos dicen que están deliciosos. Al final del día, el director anuncia que las galletas de Leo ganan el primer premio.",
-          "Emma se alegra por su amigo, sin ningún problema. \"Gracias por ayudarme. Sin ti, no puedo terminar mi pastel,\" dice Emma. Leo responde: \"Y tú me ayudaste mucho con la masa de las galletas.\" Los dos deciden que el próximo año van a competir juntos, como un solo equipo."
+          "Emma se alegra por su amigo, sin ningún problema. \"Gracias por ayudarme. Sin ti, no habría podido terminar mi pastel,\" dice Emma. Leo responde: \"Y tú me ayudaste mucho con la masa de las galletas.\" Los dos deciden que el próximo año van a competir juntos, como un solo equipo."
         ]
       }
     ],
@@ -13752,7 +13898,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Bea se sorprende mucho. \"¿Qué mensaje? Yo no recibí nada de ti,\" dice. Nora no le cree al principio porque piensa que Bea solo busca una excusa. Las dos amigas no se hablan durante toda la semana, y ambas están tristes por la situación.",
           "El sábado, la mamá de Bea encuentra el teléfono viejo de Bea en un cajón. \"Creo que tu teléfono nuevo tiene un problema con los mensajes,\" dice. Bea revisa la configuración de su teléfono y descubre que los mensajes de Nora nunca llegaron por un error técnico.",
           "Bea llama a Nora inmediatamente y le explica todo. \"Mi teléfono tenía un problema. Nunca vi tus mensajes, lo prometo,\" dice Bea. Nora escucha con atención y se da cuenta de que juzgó a su amiga sin tener toda la información.",
-          "\"Lo siento mucho por no creerte,\" dice Nora. \"Debí preguntarte primero antes de enojarme.\" Bea responde: \"Está bien, yo también entiendo por qué pensaste eso.\" Las dos amigas se ríen un poco, aliviadas de resolver el problema.",
+          "\"Siento mucho no haberte creído,\" dice Nora. \"Debí preguntarte primero antes de enojarme.\" Bea responde: \"Está bien, yo también entiendo por qué pensaste eso.\" Las dos amigas se ríen un poco, aliviadas de resolver el problema.",
           "El viernes siguiente, Nora y Bea se juntan de nuevo para ver una película, como siempre. Esta vez, las dos deciden llamarse por teléfono en lugar de solo enviar mensajes, para evitar otro malentendido. Su amistad es más fuerte después de este pequeño problema."
         ]
       }
@@ -13811,9 +13957,9 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Primero, hablan en secreto con su papá, quien está muy contento con la idea. \"Podemos invitar a los tíos y a los abuelos,\" sugiere Dani. Paula escribe una lista de invitados mientras su papá piensa en cómo mantener a mamá ocupada ese día.",
           "Durante dos semanas, los hermanos planean todo con mucho cuidado. Compran globos y decoraciones cuando su mamá no está en casa. Esconden todo en el garaje para que ella no encuentre nada por accidente.",
           "El día del cumpleaños, el papá lleva a su esposa a comer a un restaurante especial, mientras Dani y Paula preparan la casa con la ayuda de sus abuelos. Cuelgan globos de colores, ponen una mesa larga y hacen un cartel grande que dice \"¡Feliz cumpleaños, mamá!\"",
-          "Paula intenta hacer un pastel de vainilla, pero se le olvida poner un ingrediente importante y el pastel no crece bien en el horno. Dani la ayuda a arreglarlo con un poco de crema y frutas encima, y el pastel se ve bonito de todas formas.",
+          "Paula intenta hacer un pastel de vainilla, pero se le olvida poner un ingrediente importante y el pastel no sube bien en el horno. Dani la ayuda a arreglarlo con un poco de crema y frutas encima, y el pastel se ve bonito de todas formas.",
           "A las siete de la tarde, todos los invitados llegan a la casa y se esconden detrás del sofá. Cuando el papá y la mamá entran por la puerta, todos gritan \"¡Sorpresa!\" al mismo tiempo. La mamá se lleva las manos a la cara, sorprendida y emocionada.",
-          "\"No puedo creer que hicieron todo esto,\" dice la mamá con lágrimas de felicidad. Abraza a Dani y a Paula muy fuerte. Todos cantan la canción de cumpleaños y comen el pastel, que sabe mejor de lo que parece.",
+          "\"No puedo creer que hayan hecho todo esto,\" dice la mamá con lágrimas de felicidad. Abraza a Dani y a Paula muy fuerte. Todos cantan la canción de cumpleaños y comen el pastel, que sabe mejor de lo que parece.",
           "Después de la fiesta, la mamá les da las gracias a sus hijos por el esfuerzo y el cariño. \"Este es el mejor cumpleaños que he tenido en años,\" dice. Dani y Paula deciden que van a organizar una fiesta sorpresa cada año a partir de ahora."
         ]
       }
@@ -13841,7 +13987,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "They run out of time to make it"
         ],
         "correctIndex": 1,
-        "explanation": "\"se le olvida poner un ingrediente importante y el pastel no crece bien\" — she forgets to add an important ingredient and the cake doesn't rise well."
+        "explanation": "\"se le olvida poner un ingrediente importante y el pastel no sube bien\" — she forgets to add an important ingredient and the cake doesn't rise well."
       },
       {
         "type": "multiple-choice",
@@ -13929,11 +14075,11 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Martina recibe un gatito nuevo de regalo de sus papás. El gatito es gris con ojos verdes, y Martina decide llamarlo Luna. Desde el primer día, Luna duerme en la cama de Martina y juega con una pelota de lana por toda la casa.",
+          "Martina recibe una gatita nueva de regalo de sus papás. La gatita es gris con ojos verdes, y Martina decide llamarla Luna. Desde el primer día, Luna duerme en la cama de Martina y juega con una pelota de lana por toda la casa.",
           "Una semana después, la mamá de Martina dice que Luna necesita ir al veterinario para un chequeo. Martina se pone nerviosa porque nunca ha llevado a un animal al doctor. \"¿Le va a doler algo a Luna?\", pregunta con preocupación.",
           "Su mamá le explica que el veterinario solo va a revisar que Luna esté sana y le va a poner unas vacunas importantes. \"Las vacunas protegen a Luna de enfermedades,\" dice su mamá. \"Es normal sentir un poco de miedo, pero es algo bueno para ella.\"",
           "El día de la cita, Martina pone a Luna en una caja de transporte especial. Luna maúlla mucho durante el viaje en carro porque no le gusta estar encerrada. Martina habla con ella suavemente todo el camino para calmarla.",
-          "En la clínica veterinaria, hay otros animales esperando: un perro grande, dos gatos y un conejo. Luna se esconde en el fondo de la caja, asustada por los ruidos. Martina la abraza a través de la puerta de la caja y le dice que todo va a estar bien.",
+          "En la clínica veterinaria, hay otros animales esperando: un perro grande, dos gatos y un conejo. Luna se esconde en el fondo de la caja, asustada por los ruidos. Martina la acaricia a través de la puerta de la caja y le dice que todo va a estar bien.",
           "Cuando llega su turno, la veterinaria, la doctora Ríos, examina a Luna con mucho cuidado. Revisa sus ojos, sus oídos y su corazón con un instrumento especial. \"Luna está muy sana,\" dice la doctora Ríos con una sonrisa.",
           "Después, la doctora le pone dos vacunas pequeñas a Luna. La gatita maúlla un poco, pero no parece sentir mucho dolor. Martina la sostiene con cuidado durante todo el proceso y le habla con voz dulce.",
           "Al final de la visita, la doctora le da a Martina algunos consejos sobre cómo cuidar a Luna. Martina se siente orgullosa porque ayudó a su gatita durante una experiencia difícil. En el camino de regreso a casa, Luna ya está más tranquila, y Martina promete llevarla al veterinario cada año sin miedo."
@@ -13996,7 +14142,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "El sábado por la mañana, Teo, Yolanda y Simón llegan al parque temprano con nervios. Poco a poco, empiezan a llegar vecinos: familias con niños, una pareja de ancianos y hasta el dueño de la panadería con café gratis para todos.",
           "Todos trabajan juntos durante tres horas. Recogen botellas, papeles y bolsas plásticas del césped y de debajo de los árboles. Los niños más pequeños ayudan a poner la basura en bolsas grandes, mientras los adultos cargan las bolsas hasta los camiones de basura.",
           "Durante la limpieza, encuentran una parte del parque que nadie usaba porque estaba cubierta de plantas y basura. Después de limpiarla, descubren un pequeño espacio con bancos de madera, perfecto para sentarse y descansar. \"¡No sabía que esto estaba aquí!\", dice Simón sorprendido.",
-          "Al final del día, el parque se ve completamente diferente. El césped está limpio, los bancos nuevos están listos para usarse, y todos los vecinos están orgullosos de su trabajo. El dueño de la panadería trae más café y pan para celebrar.",
+          "Al final del día, el parque se ve completamente diferente. El césped está limpio, los bancos están listos para usarse, y todos los vecinos están orgullosos de su trabajo. El dueño de la panadería trae más café y pan para celebrar.",
           "Esa tarde, Teo mira el parque limpio con una sonrisa enorme. \"Hicimos esto entre todos,\" dice a sus amigos. Yolanda propone organizar una limpieza cada tres meses para mantener el parque bonito, y todos los vecinos presentes están de acuerdo con la idea."
         ]
       }
@@ -14116,7 +14262,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Un día, Valeria finalmente pregunta: \"Abuela, ¿me puedes enseñar a tejer?\" Su abuela sonríe con alegría porque nadie en la familia le ha pedido esto antes. \"Por supuesto, mi amor. Vamos a empezar mañana,\" responde.",
           "A la mañana siguiente, la abuela le da a Valeria dos agujas pequeñas y un poco de lana azul. \"Primero, tienes que aprender el punto básico,\" explica la abuela. Le muestra cómo mover las agujas despacio, paso a paso.",
           "Al principio, es muy difícil para Valeria. Sus manos no se mueven de la manera correcta, y la lana se enreda varias veces. Se frustra y quiere dejar de intentarlo. \"No puedo hacerlo,\" dice, tirando las agujas al sofá.",
-          "Su abuela la mira con paciencia y dice: \"Cuando yo aprendí, también cometí muchos errores. Necesitas práctica, no perfección.\" Valeria recoge las agujas de nuevo y sigue practicando, aunque las primeras líneas de su tejido no son perfectas.",
+          "Su abuela la mira con paciencia y dice: \"Cuando yo aprendí, también cometí muchos errores. Necesitas práctica, no perfección.\" Valeria recoge las agujas de nuevo y sigue practicando, aunque las primeras filas de su tejido no son perfectas.",
           "Durante las siguientes semanas, Valeria practica todos los días con su abuela. Poco a poco, sus manos se mueven más rápido y con más seguridad. Un día, se da cuenta de que puede tejer sin mirar constantemente sus manos.",
           "Al final del verano, Valeria termina su primer proyecto: una bufanda pequeña de color azul con algunos errores, pero hecha con mucho amor. Decide dársela a su mamá como regalo cuando regrese a casa.",
           "Cuando Valeria le muestra la bufanda a su mamá, ella se emociona mucho. \"¡La hiciste tú misma!\", dice, abrazándola fuerte. Valeria explica que su abuela le enseñó pacientemente durante todo el verano. Desde ese día, Valeria sigue tejiendo cada vez que visita a su abuela, y ya sabe hacer bufandas mucho mejores."
@@ -14302,7 +14448,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Durante la fiesta, la familia miró fotos viejas de la boda de los abuelos. En las fotos, Rosa llevaba un vestido blanco muy simple y Antonio tenía el pelo negro. Todos se rieron mucho al ver la ropa antigua.",
           "Elena le dio a su abuela un álbum nuevo con fotos de toda la familia. La abuela lo abrió despacio y miró cada foto con cuidado. \"Este es el mejor regalo,\" le dijo a Elena.",
           "Después de comer el pastel, los abuelos bailaron una canción lenta en el centro del jardín. Todos los invitados los miraron y aplaudieron. Fue un momento muy especial para la familia.",
-          "Al final de la noche, el abuelo Antonio dio las gracias a todos por venir. Dijo que cincuenta años con Rosa pasaron muy rápido. La familia prometió celebrar juntos otra fiesta en el futuro."
+          "Al final de la noche, el abuelo Antonio dio las gracias a todos por venir. Dijo que cincuenta años con Rosa habían pasado muy rápido. La familia prometió celebrar juntos otra fiesta en el futuro."
         ]
       }
     ],
@@ -14368,8 +14514,8 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Diego tenía ocho años y esperaba con mucha emoción la llegada de su primo nuevo. Su tía Carmen estaba embarazada desde hacía nueve meses. Toda la familia hablaba del bebé todos los días.",
-          "Un domingo por la mañana, el teléfono sonó muy temprano. Era el tío Luis, y dijo que el bebé nació esa noche en el hospital. Toda la familia se puso muy contenta con la noticia.",
+          "Diego tenía ocho años y esperaba con mucha emoción la llegada de su primo nuevo. Su tía Carmen estaba embarazada de nueve meses. Toda la familia hablaba del bebé todos los días.",
+          "Un domingo por la mañana, el teléfono sonó muy temprano. Era el tío Luis, y dijo que el bebé había nacido esa noche en el hospital. Toda la familia se puso muy contenta con la noticia.",
           "La familia fue al hospital para conocer al nuevo bebé. Se llamaba Mateo y era muy pequeño. Diego lo miró con los ojos muy abiertos.",
           "\"¿Puedo cargarlo?\" preguntó Diego con cuidado. La tía Carmen le dijo que sí, pero le explicó que debía sentarse primero. Diego se sentó despacio y su tía le puso al bebé en los brazos.",
           "Mateo abrió los ojos y miró a Diego por un momento. Diego sonrió y le habló muy bajito. \"Voy a ser tu primo favorito,\" le dijo con una voz suave.",
@@ -14445,7 +14591,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "A las seis de la mañana, Camila se despertó primero y despertó a Tomás en silencio. Se vistieron rápido y bajaron a la cocina sin hacer ruido. Su mamá todavía dormía.",
           "Tomás quería hacer huevos y pan tostado. Camila quería preparar jugo de naranja y fruta. Los dos trabajaron juntos, pero Tomás rompió un plato sin querer.",
           "El ruido del plato despertó a su mamá. Ella bajó las escaleras rápidamente porque pensaba que algo malo pasaba en la cocina.",
-          "Cuando su mamá entró en la cocina, vio a sus hijos con harina en la ropa y el piso un poco sucio. Camila le dijo: \"¡Sorpresa! Feliz Día de las Madres, mamá.\" Su mamá se rió y los abrazó a los dos.",
+          "Cuando su mamá entró en la cocina, vio a sus hijos con jugo de naranja en la ropa y el piso un poco sucio. Camila le dijo: \"¡Sorpresa! Feliz Día de las Madres, mamá.\" Su mamá se rió y los abrazó a los dos.",
           "\"No importa el plato roto,\" dijo su mamá. \"Este es el mejor regalo del mundo.\" Se sentaron los tres juntos a la mesa para comer.",
           "El desayuno no era perfecto, pero a su mamá le encantó cada parte. Los huevos estaban un poco quemados, y el jugo era muy dulce. Aun así, su mamá comió todo con una sonrisa grande.",
           "Después de comer, su mamá les dio las gracias por el esfuerzo. Camila y Tomás prometieron hacer el desayuno otra vez el próximo año. Fue una mañana perfecta para toda la familia."
@@ -14520,8 +14666,8 @@ const A2_BASE_LESSONS: Lesson[] = [
           "La abuela dijo que ya no había nada que comer. Todos estaban tristes porque perdieron casi toda la comida. Los primos más pequeños empezaron a llorar un poco.",
           "En ese momento, un señor que estaba cerca los escuchó hablar del problema. Se acercó y les dijo: \"Yo vendo comida allí, cerca del lago. Puedo ayudarlos.\" Señaló un pequeño puesto de comida.",
           "El señor les vendió pan, queso y frutas frescas a un precio muy bueno. La familia le dio las gracias muchas veces por su ayuda. Compraron suficiente comida para todos.",
-          "Los niños comieron sándwiches nuevos debajo del árbol, lejos de las hormigas. Esta vez, pusieron la comida sobre una manta limpia, no en el suelo. Todos se rieron del problema de las hormigas.",
-          "Al final del día, la familia decidió que el próximo año llevará la comida en cajas cerradas. Fue una tarde divertida a pesar del problema. Todos volvieron a casa cansados pero felices."
+          "Los niños comieron sándwiches nuevos debajo del árbol, lejos de las hormigas. Esta vez, pusieron la comida sobre una manta limpia, no en la mesa. Todos se rieron del problema de las hormigas.",
+          "Al final del día, la familia decidió que el próximo año iba a llevar la comida en cajas cerradas. Fue una tarde divertida a pesar del problema. Todos volvieron a casa cansados pero felices."
         ]
       }
     ],
@@ -14572,7 +14718,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Invite fewer people"
         ],
         "correctIndex": 1,
-        "explanation": "The story ends: \"el próximo año llevará la comida en cajas cerradas\" (next year they will bring the food in closed boxes)."
+        "explanation": "The story ends: \"el próximo año iba a llevar la comida en cajas cerradas\" (next year they were going to bring the food in closed boxes)."
       }
     ]
   },
@@ -14594,7 +14740,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "José abrazó a sus hermanos primero y después se arrodilló para saludar a los niños. \"Ustedes son más altos que en las fotos,\" dijo con una sonrisa. Valentina le dio el cartel que ella misma pintó.",
           "En casa, la abuela preparó la comida favorita de José: empanadas y arroz con pollo. Todos se sentaron juntos a la mesa y hablaron por horas. José contó historias divertidas de su vida en Argentina.",
           "Durante las dos semanas de visita, José llevó a los niños al zoológico y al cine. Les enseñó palabras nuevas en un acento diferente al de ellos. Bruno decidió que quería visitar Argentina algún día.",
-          "El día en que José regresó a su país, todos lloraron un poco en el aeropuerto. José prometió que la próxima visita será más pronto. La familia esperará su regreso con mucha alegría."
+          "El día en que José regresó a su país, todos lloraron un poco en el aeropuerto. José prometió que la próxima visita iba a ser más pronto. La familia esperará su regreso con mucha alegría."
         ]
       }
     ],
@@ -14660,7 +14806,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Mi prima Valeria se casaba con su novio Andrés en junio, y yo estaba muy emocionada. Valeria me pidió ser la niña de las flores en la boda. Nunca antes hice algo tan importante en una fiesta.",
+          "Mi prima Valeria se casaba con su novio Andrés en junio, y yo estaba muy emocionada. Valeria me pidió ser la niña de las flores en la boda. Nunca antes había hecho algo tan importante en una fiesta.",
           "Dos semanas antes de la boda, fui con mi mamá a comprar mi vestido. Elegimos un vestido rosado con una cinta blanca en la cintura. Me quedaba un poco largo, así que una costurera lo arregló.",
           "La noche antes de la boda, no pude dormir bien porque estaba nerviosa. Pensaba en caminar por el pasillo delante de cien personas. Tenía miedo de tropezar con el vestido.",
           "El día de la boda, mi tía me ayudó a peinarme y me puso flores pequeñas en el pelo. Me dio una canasta llena de pétalos de rosa. \"Camina despacio y sonríe,\" me dijo con cariño.",
@@ -14740,7 +14886,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "\"No es nada serio,\" dijo la doctora. \"Solo debes comer menos azúcar por unos días.\" Le recomendó tomar mucha agua y comer cosas suaves, como arroz y plátano.",
           "Samuel siguió los consejos de la doctora durante toda la semana. Comió sopa, arroz y frutas, y evitó los dulces por completo. Poco a poco, el dolor de estómago desapareció.",
           "La próxima vez que fue a una fiesta, Samuel recordó lo que pasó. Comió solo un pedazo de pastel y tomó agua en vez de refresco. Se sintió mucho mejor al día siguiente.",
-          "Ahora, Samuel siempre piensa antes de comer demasiado dulce. Le explica a sus amigos por qué es importante comer con moderación. Aprendió una lección importante sobre cuidar su cuerpo."
+          "Ahora, Samuel siempre piensa antes de comer demasiado dulce. Les explica a sus amigos por qué es importante comer con moderación. Aprendió una lección importante sobre cuidar su cuerpo."
         ]
       }
     ],
@@ -14767,7 +14913,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "An allergy"
         ],
         "correctIndex": 1,
-        "explanation": "The doctor's mother figure said \"Creo que comiste demasiado dulce\" (I think you ate too much candy), which the doctor confirmed."
+        "explanation": "The doctor said \"Solo debes comer menos azúcar por unos días\" (You just need to eat less sugar for a few days), so the problem was too much sugar."
       },
       {
         "type": "multiple-choice",
@@ -14828,7 +14974,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Running"
         ],
         "correctIndex": 1,
-        "explanation": "The story is about Lucía trying a new trick while she \"andar en patineta\" (skateboarding)."
+        "explanation": "The story says \"A Lucía le encantaba andar en patineta\" (Lucía loved skateboarding), and she got hurt trying a new trick."
       },
       {
         "type": "multiple-choice",
@@ -14884,7 +15030,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "El problema era que esa tarde, la fiesta de cumpleaños de su primo Bruno era en el club del barrio. Marco esperaba esa fiesta desde hacía semanas.",
           "Marco le pidió a su mamá ir a la fiesta, pero ella le explicó que necesitaba descansar. \"Si vas así, puedes contagiar a tus primos,\" le dijo con cariño. Marco se puso triste, pero entendió la razón.",
           "Su abuela llegó por la tarde para cuidarlo mientras sus papás trabajaban. Le preparó una sopa caliente de pollo y le trajo té con miel y limón. También le puso una manta suave sobre las piernas.",
-          "Bruno lo llamó por teléfono desde la fiesta para contarle todo. Le dijo que guardó un pedazo de pastel para él. Marco se rió un poco, aunque todavía se sentía mal.",
+          "Bruno lo llamó por teléfono desde la fiesta para contarle todo. Le dijo que había guardado un pedazo de pastel para él. Marco se rió un poco, aunque todavía se sentía mal.",
           "Al día siguiente, Marco se sintió mucho mejor gracias al descanso y la sopa de su abuela. La fiebre bajó y pudo comer normalmente otra vez. Su abuela le dijo que el cuerpo necesita tiempo para curarse.",
           "El fin de semana, Bruno visitó a Marco y le trajo el pedazo de pastel prometido. Los dos primos comieron juntos y hablaron de la fiesta. Marco prometió que la próxima vez no se perdería ninguna fiesta."
         ]
@@ -14937,7 +15083,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "A video game"
         ],
         "correctIndex": 1,
-        "explanation": "Bruno told Marco \"guardó un pedazo de pastel para él\" (he saved a piece of cake for him)."
+        "explanation": "Bruno told Marco \"había guardado un pedazo de pastel para él\" (he had saved a piece of cake for him)."
       }
     ]
   },
@@ -15105,7 +15251,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Su mamá le pagó por ayudar a organizar el garaje durante dos sábados. Con ese dinero extra, Sofía por fin llegó a los veinte dólares. Se sintió muy orgullosa de su esfuerzo.",
           "El día antes del cumpleaños, Sofía fue a la tienda con su mamá. Compró la gorra y pidió que la envolvieran en papel de regalo azul. Caminó a casa con una sonrisa enorme.",
           "El día del cumpleaños, Sofía le dio el regalo a su papá después de la cena. Él abrió la caja despacio y vio la gorra de su equipo favorito. \"¿Cómo pagaste esto?\" preguntó, muy sorprendido.",
-          "Sofía le explicó que ahorró el dinero durante tres meses, poquito a poco. Su papá la abrazó fuerte y le dijo que era el mejor regalo que recibió en años. Desde ese día, Sofía sigue ahorrando para su próxima meta."
+          "Sofía le explicó que ahorró el dinero durante tres meses, poquito a poco. Su papá la abrazó fuerte y le dijo que era el mejor regalo que había recibido en años. Desde ese día, Sofía sigue ahorrando para su próxima meta."
         ]
       }
     ],
@@ -15175,7 +15321,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "El sábado, Bruno y su mamá fueron al supermercado con la lista y cien dólares en efectivo. \"Solo podemos comprar lo que está en la lista,\" le dijo su mamá. Bruno llevó el carrito con cuidado.",
           "En el pasillo de las frutas, Bruno vio dos tipos de manzanas: unas más caras y otras más baratas. Le preguntó a su mamá por qué había tanta diferencia de precio. Ella le explicó que las manzanas caras venían de otro país.",
           "Decidieron comprar las manzanas más baratas porque sabían casi igual de ricas. Bruno empezó a comparar precios en cada pasillo, como un juego. Encontró arroz más barato en una marca diferente.",
-          "En la caja, la cajera sumó todo el precio de las compras. El total fue noventa y dos dólares, menos de lo que esperaban gastar. Su mamá le sonrió a Bruno y le dijo que ayudó mucho.",
+          "En la caja, la cajera sumó todo el precio de las compras. El total fue noventa y dos dólares, menos de lo que esperaban gastar. Su mamá le sonrió a Bruno y le dijo que había ayudado mucho.",
           "De regreso a casa, su mamá le dio a Bruno los ocho dólares que sobraron. \"Puedes guardarlos o gastarlos en algo pequeño,\" le dijo. Bruno decidió guardarlos para el futuro.",
           "Esa noche, cocinaron juntos con todo lo que compraron. Bruno se sintió orgulloso porque ayudó a su familia a ahorrar dinero. Su mamá le dijo: \"Voy a ir contigo al supermercado cada semana.\"",
           "Desde ese día, Bruno siempre revisa los precios antes de poner algo en el carrito. Aprendió que comparar precios es una manera fácil de ahorrar. Ahora, ayuda a su mamá con la lista cada semana."
@@ -15396,7 +15542,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Su mamá le sugirió ir a una librería, porque a Tomás le gustaba mucho leer cómics. Allí, Nico encontró un cómic nuevo de su superhéroe favorito por doce dólares. Era menos caro que las otras opciones.",
           "Nico recordó que Tomás hablaba siempre de ese superhéroe en la escuela. Decidió comprar el cómic y, con el dinero que sobraba, también compró un lápiz especial. Pagó todo en la caja y guardó el cambio.",
           "El día del cumpleaños, Nico le dio el regalo envuelto en papel verde, el color favorito de Tomás. Tomás lo abrió con emoción y vio el cómic que tanto quería. \"¡Es exactamente el que buscaba!\" gritó feliz.",
-          "Tomás le dio un abrazo fuerte a Nico y le dijo que era el mejor regalo de todos los que recibió. Los dos amigos leyeron el cómic juntos esa misma tarde. Nico se sintió muy contento de haber elegido bien.",
+          "Tomás le dio un abrazo fuerte a Nico y le dijo que era el mejor regalo de todos los que había recibido. Los dos amigos leyeron el cómic juntos esa misma tarde. Nico se sintió muy contento de haber elegido bien.",
           "Después de ese día, Nico aprendió que un buen regalo no necesita ser el más caro. Lo importante es pensar en lo que la otra persona realmente quiere. La próxima vez, buscará con la misma atención."
         ]
       }
@@ -15467,7 +15613,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Un día, mientras Emilia jugaba sola en el jardín, escuchó una voz al otro lado de la cerca. \"Hola, me llamo Zoe. ¿Quieres jugar?\" Emilia se puso nerviosa, pero le respondió que sí.",
           "Zoe le contó que su familia se mudó desde otra ciudad por el trabajo de su papá. Extrañaba a sus amigos antiguos y no conocía a nadie en el barrio todavía. Emilia le dijo que ella podía ser su nueva amiga.",
           "Las dos niñas empezaron a jugar juntas casi todos los días después de la escuela. Emilia le enseñó a Zoe los mejores lugares del parque cercano. Zoe le enseñó a Emilia un juego nuevo con cartas.",
-          "Un fin de semana, la mamá de Zoe invitó a Emilia y a su familia a cenar. Comieron comida diferente a la que Emilia conocía, con especias que Emilia no probaba antes.",
+          "Un fin de semana, la mamá de Zoe invitó a Emilia y a su familia a cenar. Comieron comida diferente a la que Emilia conocía, con especias que Emilia nunca había probado.",
           "Durante la cena, las dos familias hablaron y se rieron mucho. Los papás de Emilia y de Zoe descubrieron que trabajaban cerca uno del otro. Todos se sintieron muy cómodos, como si se conocieran desde hace tiempo.",
           "Con el paso de las semanas, Emilia y Zoe se hicieron mejores amigas. Se sentaban juntas en el autobús y compartían el almuerzo en la escuela. Zoe ya no se sentía tan sola en el barrio nuevo.",
           "Ahora, las dos familias organizan cenas juntas cada mes. Emilia aprendió que ser un poco valiente al principio puede traer una gran amistad. Está muy contenta de tener a Zoe como su vecina y mejor amiga."
@@ -15536,7 +15682,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "La señora Rosa vivía sola en la casa azul al final de la calle. Su esposo murió hace dos años, y sus hijos vivían muy lejos. Los niños del barrio casi nunca hablaban con ella.",
+          "La señora Rosa vivía sola en la casa azul al final de la calle. Su esposo había muerto hacía dos años, y sus hijos vivían muy lejos. Los niños del barrio casi nunca hablaban con ella.",
           "Un día, Mateo y su hermana Luna la vieron sentada sola en su porche, mirando la calle. Decidieron acercarse y saludarla. \"Buenas tardes, señora Rosa. ¿Cómo está?\" preguntó Luna con timidez.",
           "La señora Rosa sonrió, sorprendida de que alguien le hablara. Les contó que antes era maestra de escuela primaria, hace muchos años. Los niños se sentaron en las escaleras del porche y escucharon sus historias.",
           "Desde ese día, Mateo y Luna empezaron a visitarla dos veces por semana. A veces le llevaban galletas que hacían con su mamá. Otras veces, solo se sentaban a hablar de la escuela y de sus amigos.",
@@ -15610,7 +15756,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "El señor Díaz, un vecino del barrio, tenía un gato gris llamado Simón. Una tarde, dejó la puerta del jardín abierta, y Simón salió sin que nadie lo viera. Cuando el señor Díaz lo buscó por la casa, no lo encontró en ningún lado.",
-          "Preocupado, el señor Díaz salió a la calle y les preguntó a los vecinos si vieron a su gato. Nadie sabía nada. Los niños del barrio, Elena y Marcos, decidieron ayudarlo a buscar.",
+          "Preocupado, el señor Díaz salió a la calle y les preguntó a los vecinos si habían visto a su gato. Nadie sabía nada. Los niños del barrio, Elena y Marcos, decidieron ayudarlo a buscar.",
           "Hicieron carteles con una foto de Simón y el número de teléfono del señor Díaz. Pusieron los carteles en los postes de la calle y en la tienda de la esquina. Después, caminaron por el barrio llamando al gato por su nombre.",
           "Una vecina les dijo que escuchó un maullido cerca del árbol grande del parque. Elena y Marcos corrieron hacia allí y miraron entre las ramas. No vieron nada al principio, pero escucharon el mismo sonido.",
           "Marcos miró hacia arriba y vio a Simón atrapado en una rama alta del árbol. El gato estaba asustado y no quería bajar solo. Elena corrió a buscar al señor Díaz inmediatamente.",
@@ -15899,11 +16045,11 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Mateo jugaba fútbol en el equipo de su escuela. El equipo se llamaba Los Tigres y practicaban tres veces por semana. Ese año, llegaron a la final del campeonato contra Los Águilas.",
+          "Mateo jugaba fútbol en el equipo de su escuela. El equipo se llamaba Los Tigres y practicaban tres veces por semana. Ese año, llegaron a la final del campeonato contra Las Águilas.",
           "Antes del partido, el entrenador, el señor Vega, habló con el equipo. —Ustedes son un equipo fuerte —les dijo—. No importa el resultado, jugaremos con corazón.",
           "El partido fue muy difícil. Los dos equipos jugaron bien y, al final del tiempo normal, el marcador estaba empatado dos a dos. Por eso, el partido terminó con tiros de penalti.",
-          "El entrenador eligió a Mateo para tirar el último penalti. Mateo estaba muy nervioso, pero caminó hacia la pelota con confianza. Pateó la pelota, pero el portero de Los Águilas la atajó.",
-          "Los Tigres perdieron el campeonato por un punto. Mateo se sintió muy triste y pensó que era culpa suya. Se sentó solo en el campo y no quería hablar con nadie.",
+          "El entrenador eligió a Mateo para tirar el último penalti. Mateo estaba muy nervioso, pero caminó hacia la pelota con confianza. Pateó la pelota, pero el portero de Las Águilas la atajó.",
+          "Los Tigres perdieron el campeonato en los penaltis. Mateo se sintió muy triste y pensó que era culpa suya. Se sentó solo en el campo y no quería hablar con nadie.",
           "Sus compañeros de equipo caminaron hacia él. —No es tu culpa —le dijo su amigo Lucas—. Jugamos juntos como equipo, y ganamos y perdemos juntos también.",
           "El entrenador Vega también lo animó. —Ustedes jugaron mejor que el año pasado —dijo con una sonrisa—. El próximo año, entrenaremos más y volveremos a la final. Mateo se sintió mejor y sonrió con sus amigos."
         ]
@@ -15932,7 +16078,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "The goalkeeper stopped it"
         ],
         "correctIndex": 3,
-        "explanation": "The story says \"el portero de Los Águilas la atajó\" (Los Águilas' goalkeeper stopped it)."
+        "explanation": "The story says \"el portero de Las Águilas la atajó\" (Las Águilas' goalkeeper stopped it)."
       },
       {
         "type": "multiple-choice",
@@ -15971,7 +16117,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Sofía tenía ocho años y nunca sabía nadar. Cada verano, sus amigas iban a la piscina, pero ella se quedaba en casa porque tenía miedo del agua profunda.",
+          "Sofía tenía ocho años y nunca había aprendido a nadar. Cada verano, sus amigas iban a la piscina, pero ella se quedaba en casa porque tenía miedo del agua profunda.",
           "Ese verano, la mamá de Sofía decidió inscribirla en clases de natación. Sofía no quería ir. —No me gusta el agua —le dijo a su mamá—. Tengo miedo.",
           "El primer día de clase, Sofía conoció a su instructora, la señorita Laura. La instructora era muy paciente y le explicó que iban a empezar despacio, en la parte poco profunda de la piscina.",
           "Durante las primeras clases, Sofía solo practicaba cómo poner la cara en el agua y cómo mover los brazos. No entraba en la parte profunda. Poco a poco, se sentía más segura.",
@@ -16047,7 +16193,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "El equipo se llamaba Los Rápidos y practicó todas las tardes durante un mes. Cada persona corría una parte de la carrera y después le pasaba el bastón al siguiente corredor. Iván siempre corría el último y era el más rápido del grupo.",
           "El día de la carrera, muchos padres y maestros miraban desde las gradas. Ana corrió primero y le pasó el bastón a Pablo sin problemas. Pero cuando Pablo corría muy rápido, se puso nervioso y dejó caer el bastón al suelo.",
           "Pablo se detuvo por un segundo, muy avergonzado. Rosa, que esperaba el bastón, le gritó: —¡No pasa nada, Pablo! ¡Recógelo y sigue corriendo! Pablo tomó el bastón otra vez y corrió más rápido que antes.",
-          "Rosa recibió el bastón y corrió su parte con mucha energía. Después, le pasó el bastón a Iván, el corredor más rápido del equipo. Iván corrió con todas sus fuerzas hasta la línea final.",
+          "Rosa recibió el bastón y corrió su parte con mucha energía. Después, le pasó el bastón a Iván, el corredor más rápido del equipo. Iván corrió con todas sus fuerzas hasta la línea de meta.",
           "Los Rápidos terminaron en tercer lugar, no en primer lugar. Pablo estaba triste por el error con el bastón y pensaba que la culpa era suya.",
           "Pero sus compañeros no estaban enojados. —Corriste muy bien después de la caída —le dijo Ana—. El tercer lugar es un premio también. Pablo sonrió, y todo el equipo celebró juntos con un abrazo grupal."
         ]
@@ -16121,7 +16267,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Al final de la semana, el entrenador puso una lista en la puerta del gimnasio con los nombres de los jugadores seleccionados. Bruno buscó su nombre, pero no lo encontró. El nombre de Nico sí estaba en la lista.",
           "Bruno se sintió muy decepcionado y casi lloró. Fue a hablar con el entrenador Fernández para entender qué pasó. —Tus tiros necesitan más práctica —le explicó el entrenador—, pero tienes mucho potencial.",
           "El entrenador le ofreció un lugar en el equipo júnior, para estudiantes más jóvenes o con menos experiencia. Bruno aceptó la oferta, aunque quería estar en el equipo principal. Decidió practicar tiros todos los días después de la escuela.",
-          "Con el tiempo, Bruno mejoró mucho sus tiros. El año próximo, va a probar otra vez para el equipo principal, y esta vez está seguro de que lo va a lograr. Nico lo apoya y practican juntos cada semana."
+          "Con el tiempo, Bruno mejoró mucho sus tiros. El año próximo, va a presentarse otra vez a las pruebas del equipo principal, y esta vez está seguro de que lo va a lograr. Nico lo apoya y practican juntos cada semana."
         ]
       }
     ],
@@ -16187,7 +16333,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Camila tenía diez años y nunca viajaba en avión. Ese verano, su familia planeó un viaje a la casa de sus abuelos, que vivían en otra ciudad, muy lejos. Iban a viajar en avión por primera vez.",
+          "Camila tenía diez años y nunca había viajado en avión. Ese verano, su familia planeó un viaje a la casa de sus abuelos, que vivían en otra ciudad, muy lejos. Iban a viajar en avión por primera vez.",
           "Camila estaba emocionada, pero también un poco nerviosa. —¿Y si el avión se cae? —le preguntó a su papá la noche antes del viaje. Su papá se rió un poco y le explicó que viajar en avión era muy seguro.",
           "El día del viaje, la familia llegó al aeropuerto tres horas antes del vuelo. Caminaron por muchos pasillos y pasaron por el control de seguridad. Camila miraba todo con curiosidad: las tiendas, los aviones grandes por las ventanas, la gente de todas partes del mundo.",
           "Cuando subieron al avión, Camila se sentó junto a la ventana. Su corazón latía rápido. Cuando el avión empezó a moverse por la pista, ella cerró los ojos y tomó la mano de su mamá con fuerza.",
@@ -16331,9 +16477,9 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Renata y su papá decidieron hacer una caminata a la montaña un sábado por la mañana. El sendero era largo, casi ocho kilómetros hasta la cima. Renata nunca hacía una caminata tan larga.",
+          "Renata y su papá decidieron hacer una caminata a la montaña un sábado por la mañana. El sendero era largo, casi ocho kilómetros hasta la cima. Renata nunca había hecho una caminata tan larga.",
           "Se levantaron temprano y prepararon una mochila con agua, frutas y sándwiches. El papá de Renata le dijo: —Vamos a caminar despacio, paso a paso. No es una carrera.",
-          "Durante la primera hora, Renata caminaba con mucha energía y hablaba sin parar. Pero después de dos horas, sus piernas empezaron a doler y quería regresar a casa. —Estoy muy cansada, papá. No puedo más —dijo.",
+          "Durante la primera hora, Renata caminaba con mucha energía y hablaba sin parar. Pero después de dos horas, le empezaron a doler las piernas y quería regresar a casa. —Estoy muy cansada, papá. No puedo más —dijo.",
           "Su papá se sentó con ella en una roca grande. Le dio agua y una fruta. —Cada persona necesita descansar a veces —le explicó—. Después de descansar, vas a sentirte mejor.",
           "Después de quince minutos de descanso, Renata se sintió con más energía. Decidió continuar, aunque caminaba más lento que antes. Su papá caminaba a su lado y la animaba con cada paso.",
           "Por fin, después de cuatro horas, llegaron a la cima de la montaña. Desde allí, podían ver todo el valle, los ríos y los pueblos pequeños abajo. La vista era increíble.",
@@ -16364,7 +16510,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "It started to rain heavily"
         ],
         "correctIndex": 0,
-        "explanation": "The text says \"sus piernas empezaron a doler y quería regresar a casa\" (her legs started to hurt and she wanted to go back home)."
+        "explanation": "The text says \"le empezaron a doler las piernas y quería regresar a casa\" (her legs started to hurt and she wanted to go back home)."
       },
       {
         "type": "multiple-choice",
@@ -16404,7 +16550,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Leo recibió una consola de videojuegos nueva como regalo. Estaba muy emocionado porque el juego más popular de la escuela era «Aventura Espacial», un juego de dos jugadores. Invitó a su mejor amigo, Sam, a jugar en su casa.",
-          "Cuando Sam llegó, los dos niños empezaron a jugar juntos. Al principio, Leo quería jugar solo con el control mejor, el control nuevo. Le dio a Sam el control viejo, que no funcionaba muy bien.",
+          "Cuando Sam llegó, los dos niños empezaron a jugar juntos. Al principio, Leo quería jugar solo con el mejor control, el nuevo. Le dio a Sam el control viejo, que no funcionaba muy bien.",
           "Sam se sintió un poco mal, pero no dijo nada al principio. Después de media hora, Sam perdió el juego varias veces porque su control no respondía bien. —Este control es difícil de usar —le dijo a Leo, un poco frustrado.",
           "Leo se dio cuenta de que estaba siendo egoísta con su mejor amigo. Pensó un momento y comprendió que la situación no era justa. Decidió cambiar los controles.",
           "—Toma, usa el control nuevo —le dijo Leo a Sam—. Es más justo si compartimos. Sam sonrió y aceptó el control nuevo con gusto.",
@@ -16549,7 +16695,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "body": [
           "En la clase de computación, el maestro anunció una prueba de mecanografía para el final del mes. Los estudiantes tenían que escribir en el teclado lo más rápido posible, sin mirar las teclas.",
           "Óscar escribía muy lento porque siempre miraba el teclado para encontrar cada letra. Sus compañeros ya escribían mucho más rápido que él. Óscar estaba preocupado por la prueba.",
-          "Su hermana mayor, Carla, le mostró un juego de computadora para practicar mecanografía. En el juego, las palabras caían desde arriba de la pantalla. Si Óscar no escribía la palabra a tiempo, ella caía al suelo y él perdía un punto.",
+          "Su hermana mayor, Carla, le mostró un juego de computadora para practicar mecanografía. En el juego, las palabras caían desde arriba de la pantalla. Si Óscar no escribía la palabra a tiempo, la palabra caía al suelo y él perdía un punto.",
           "Óscar practicó con el juego todos los días durante veinte minutos. Al principio, perdía el juego rápidamente porque las palabras caían muy rápido para él. Pero con la práctica, empezó a mejorar poco a poco.",
           "Después de dos semanas, Óscar ya no necesitaba mirar el teclado tanto. Sus dedos recordaban dónde estaban las letras. También escribía más palabras por minuto que antes.",
           "El día de la prueba, el maestro les dio un texto para escribir en cinco minutos. Óscar escribió con confianza, sin mirar el teclado casi nunca. Terminó el texto completo con dos minutos de sobra.",
@@ -16694,7 +16840,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "La directora de la escuela quería pintar un mural grande en la pared del patio. Pidió ideas y dibujos a todos los estudiantes de arte. El tema del mural era «Nuestra comunidad».",
           "Paola era una niña muy tímida que casi nunca hablaba en clase. Pero le encantaba dibujar, y en su cuaderno tenía dibujos hermosos de árboles, animales y personas. Nadie en la escuela sabía sobre su talento.",
           "Su maestra de arte, la señora Campos, vio uno de los cuadernos de Paola por accidente. —Paola, tus dibujos son increíbles —le dijo—. ¿Por qué no compartes uno para el mural?",
-          "Paola se puso nerviosa, pero decidió mostrar su dibujo de un árbol grande con pájaros de colores. La señora Campos y los otros estudiantes lo amaron inmediatamente. Eligieron el dibujo de Paola como la idea principal del mural.",
+          "Paola se puso nerviosa, pero decidió mostrar su dibujo de un árbol grande con pájaros de colores. A la señora Campos y a los otros estudiantes les encantó inmediatamente. Eligieron el dibujo de Paola como la idea principal del mural.",
           "Durante dos semanas, un grupo de diez estudiantes trabajó en el mural después de las clases. Paola, aunque tímida, dirigía el proyecto porque sabía exactamente cómo debía verse cada parte.",
           "Al principio, a Paola le costaba dar instrucciones a sus compañeros porque no le gustaba hablar en público. Pero poco a poco, ganó más confianza y empezó a explicar sus ideas con claridad.",
           "Cuando terminaron el mural, toda la escuela lo celebró con una pequeña fiesta. El árbol grande de Paola, con sus pájaros de colores, estaba en el centro de la pared. Desde ese día, Paola habló mucho más en clase y se sintió orgullosa de su talento."
@@ -16838,7 +16984,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Ximena jugaba vóleibol en el equipo de su escuela desde hacía un año. Le gustaba mucho el deporte, pero tenía un problema: le costaba mucho sacar bien la pelota. Sus saques casi siempre salían fuera de la cancha.",
           "Antes del partido más importante del año, contra la escuela rival, la entrenadora practicó saques con Ximena todos los días. —Necesitas doblar más las rodillas y mirar la pelota —le explicó la entrenadora.",
           "El día del partido, el gimnasio estaba lleno de estudiantes y padres. Ximena estaba muy nerviosa porque sabía que iba a sacar en algún momento del partido. Su equipo, Las Panteras, jugaba contra Las Estrellas.",
-          "En el segundo set, el marcador estaba muy cerca: catorce a trece para Las Panteras. La entrenadora eligió a Ximena para el próximo saque, un momento muy importante del partido.",
+          "En el segundo set, el marcador estaba muy cerca: veinticuatro a veintitrés para Las Panteras. La entrenadora eligió a Ximena para el próximo saque, un momento muy importante del partido.",
           "Ximena caminó hacia la línea de saque con las manos temblorosas. Recordó las palabras de su entrenadora: doblar las rodillas y mirar la pelota. Respiró profundamente y sacó la pelota con fuerza.",
           "La pelota voló por encima de la red y cayó dentro de la cancha del equipo rival, que no pudo devolverla a tiempo. ¡Las Panteras ganaron el punto y el set! Todo el equipo gritó de alegría y corrió a abrazar a Ximena.",
           "Al final, Las Panteras ganaron el partido completo. Ximena se sintió muy orgullosa porque su saque difícil fue el punto decisivo. Después del partido, siguió practicando cada semana para mejorar aún más."
@@ -17012,7 +17158,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "She looked for an airport employee to ask for help"
         ],
         "correctIndex": 3,
-        "explanation": "The text says \"Decidió buscar a un empleado del aeropuerto para pedir ayuda\" (She decided to look for an airport employee to ask for help)."
+        "explanation": "The text says \"Si tienes un problema, busca a un empleado del aeropuerto. Decidió hacer exactamente eso\" (If you have a problem, look for an airport employee. She decided to do exactly that)."
       },
       {
         "type": "multiple-choice",
@@ -17053,7 +17199,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "body": [
           "Simón recibió un dron pequeño como regalo de su tío. Estaba muy emocionado porque quería usarlo para un proyecto de la escuela: un video sobre su barrio desde el aire.",
           "El primer día, Simón llevó el dron al parque cerca de su casa. Sin leer las instrucciones, encendió el dron y lo hizo volar muy alto y muy rápido. No sabía controlarlo bien todavía.",
-          "De repente, el dron chocó contra un árbol grande y cayó al suelo. Una de las hélices se rompió. Simón se sintió muy triste porque pensaba que arruinó su regalo nuevo.",
+          "De repente, el dron chocó contra un árbol grande y cayó al suelo. Una de las hélices se rompió. Simón se sintió muy triste porque pensaba que había arruinado su regalo nuevo.",
           "Su tío lo llamó por teléfono esa noche. —Todos los pilotos de drones chocan al principio —le dijo, riéndose—. Necesitas leer el manual y practicar en un espacio abierto y sin árboles.",
           "Simón pidió una hélice nueva y su tío se la envió por correo. Mientras esperaba, leyó todo el manual del dron con mucho cuidado. Aprendió sobre los controles, la velocidad y cómo aterrizar con seguridad.",
           "Con la hélice nueva, Simón practicó en un campo grande y vacío, lejos de árboles y edificios. Al principio, volaba despacio y con cuidado. Poco a poco, ganó más confianza y control.",
@@ -17123,7 +17269,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "La escuela de Lucía organizó un viaje de tres días a las montañas para esquiar. Era la primera vez que Lucía iba a esquiar, y estaba muy nerviosa porque nunca practicaba este deporte.",
+          "La escuela de Lucía organizó un viaje de tres días a las montañas para esquiar. Era la primera vez que Lucía iba a esquiar, y estaba muy nerviosa porque nunca había practicado este deporte.",
           "El primer día, un instructor les enseñó a todos los estudiantes cómo ponerse los esquís y cómo pararse sin caerse. Lucía escuchaba con atención, pero cuando intentó pararse por primera vez, se cayó inmediatamente.",
           "Durante toda la mañana, Lucía se cayó muchas veces: en la nieve, cerca del telesilla, y hasta en la pista más fácil de la montaña. Algunos estudiantes se reían un poco, y Lucía se sentía avergonzada.",
           "Su amiga Valeria, que ya sabía esquiar un poco, se quedó con ella para ayudarla. —No te preocupes por las caídas —le dijo—. Todos se caen cuando aprenden. Lo importante es levantarse otra vez.",
@@ -17144,7 +17290,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Angry that she had to go"
         ],
         "correctIndex": 1,
-        "explanation": "The text says \"estaba muy nerviosa porque nunca practicaba este deporte\" (she was very nervous because she had never done this sport before)."
+        "explanation": "The text says \"estaba muy nerviosa porque nunca había practicado este deporte\" (she was very nervous because she had never done this sport before)."
       },
       {
         "type": "multiple-choice",
