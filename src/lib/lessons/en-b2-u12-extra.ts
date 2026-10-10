@@ -470,7 +470,7 @@ export const EN_B2_U12_EXTRA: Lesson[] = [
           "Spanish «negó haberlo hecho» tempts learners into *denied to have done it. In English it's \"denied doing it\" or \"denied having done it\". And «admitir» in the sense of accepting a fact is \"admit\", but «admitir a alguien en un club» is \"accept / admit\": context decides.",
         ],
         examples: [
-          { es: "He admitted taking the car without asking.", en: "Admitió haberse llevado el coche sin pedir permiso." },
+          { es: "He admitted taking the car without asking.", en: "Admitió haberse llevado el carro sin pedir permiso." },
           { es: "She denied reading my diary.", en: "Negó haber leído mi diario. (incorrecto: *denied to read)" },
           { es: "He denied having been there that night.", en: "Negó haber estado allí esa noche." },
           { es: "She admitted that she had made a mistake.", en: "Admitió que se había equivocado." },
@@ -1085,7 +1085,7 @@ export const EN_B2_U12_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "She begged him not to leave.", en: "Le suplicó que no se fuera." },
-          { es: "The police ordered the driver to get out of the car.", en: "La policía le ordenó al conductor que saliera del coche." },
+          { es: "The police ordered the driver to get out of the car.", en: "La policía le ordenó al conductor que saliera del carro." },
           { es: "He asked for a glass of water.", en: "Pidió un vaso de agua." },
           { es: "He asked me to bring a glass of water.", en: "Me pidió que trajera un vaso de agua." },
         ],
@@ -1107,7 +1107,7 @@ export const EN_B2_U12_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La profesora nos dijo que apagáramos los móviles.",
+        source: "La profesora nos dijo que apagáramos los celulares.",
         answer: "The teacher told us to turn off our phones.",
         altAnswers: ["The teacher told us to turn our phones off.", "The teacher told us to switch off our phones.", "The teacher told us to switch our phones off.", "The teacher told us to turn off our cell phones.", "The teacher told us to turn off our mobile phones.", "The teacher told us to turn off our mobiles."],
         explanation: "Order: \"tell\" + person + \"to\" + base verb. English uses \"our phones\" where Spanish uses «los».",

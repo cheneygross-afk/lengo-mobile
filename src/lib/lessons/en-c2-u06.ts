@@ -13,7 +13,7 @@ export const EN_C2_U06: Lesson[] = [
     slug: "c2-humour-1",
     level: "EN-C2",
     number: 1,
-    title: "Humour and wordplay, Part 1 of 3: puns and double meanings",
+    title: "Humor and wordplay, Part 1 of 3: puns and double meanings",
     summary: "How English puns work: homophones (knight/night), words with two meanings (I used to be a banker, but I lost interest), phrasal verbs and idioms taken literally, and the language for explaining a joke.",
     duration: "12 min",
     sections: [
@@ -47,10 +47,10 @@ export const EN_C2_U06: Lesson[] = [
           {
             type: "listen-choose",
             audio: "What's black and white and read all over? A newspaper.",
-            question: "Which colour is hidden in this riddle?",
-            options: ["red", "green", "blue", "grey"],
+            question: "Which color is hidden in this riddle?",
+            options: ["red", "green", "blue", "gray"],
             correctIndex: 0,
-            explanation: "The past participle \"read\" /red/ sounds exactly like \"red\", so a listener first hears three colours: black, white and red.",
+            explanation: "The past participle \"read\" /red/ sounds exactly like \"red\", so a listener first hears three colors: black, white and red.",
           },
         ],
       },
@@ -128,11 +128,11 @@ export const EN_C2_U06: Lesson[] = [
         heading: "Talking about jokes",
         body: [
           "At the Mastery level you also need the language for discussing humour: \"It's a play on words\", \"It's a pun on the two meanings of interest\", \"The joke hinges on...\", \"It plays on the fact that...\", \"the punchline\" (the final line that delivers the joke), \"a groaner\" and \"a dad joke\" (a corny, innocent pun of the kind fathers are supposed to love).",
-          "If you don't understand, say \"I don't get it\". «No lo pillo» is \"I don't get it\", never *I don't catch it. To understand a joke is to \"get\" it; you \"tell\" or \"crack\" a joke; and «gastar una broma» is \"to play a joke\" or \"play a prank on someone\", not *to make a joke to someone.",
+          "If you don't understand, say \"I don't get it\". «No lo capto» is \"I don't get it\", never *I don't catch it. To understand a joke is to \"get\" it; you \"tell\" or \"crack\" a joke; and «gastar una broma» is \"to play a joke\" or \"play a prank on someone\", not *to make a joke to someone.",
           "A joke that is too obvious or too old is \"corny\", \"cheesy\" or \"lame\". Explaining a joke is famously said to kill it, so when you analyse one, do it lightly: \"It's a pun on dough, which also means money.\"",
         ],
         examples: [
-          { es: "I don't get it. What's the joke?", en: "No lo pillo. ¿Dónde está la gracia?" },
+          { es: "I don't get it. What's the joke?", en: "No lo entiendo. ¿Dónde está la gracia?" },
           { es: "It's a pun on the two meanings of dough.", en: "Es un juego de palabras con los dos significados de \"dough\"." },
           { es: "The whole joke hinges on the word interest.", en: "Todo el chiste depende de la palabra \"interest\"." },
           { es: "That was such a dad joke.", en: "Ese chiste ha sido malísimo, de los que cuentan los padres." },
@@ -142,10 +142,10 @@ export const EN_C2_U06: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "How do you say «No pillo el chiste» naturally?",
+            question: "How do you say «No capto el chiste» naturally?",
             options: ["I don't get the joke.", "I don't catch the joke.", "I don't take the joke.", "I don't reach the joke."],
             correctIndex: 0,
-            explanation: "To understand a joke is to \"get\" it. *Catch is a literal translation of «pillar»; \"take a joke\" means something else: to accept teasing without getting upset.",
+            explanation: "To understand a joke is to \"get\" it. *Catch is a literal translation of «captar»; \"take a joke\" means something else: to accept teasing without getting upset.",
           },
           {
             type: "fill-blank",
@@ -210,13 +210,13 @@ export const EN_C2_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No pillo el chiste. ¿Me lo explicas?",
+        source: "No capto el chiste. ¿Me lo explicas?",
         answer: "I don't get the joke. Can you explain it to me?",
         altAnswers: alts(
           ["I don't get the joke.", "I don't get it."],
           ["Can you explain it to me?", "Could you explain it to me?", "Can you explain it?", "Could you explain it?", "Will you explain it to me?"],
         ),
-        explanation: "«Pillar» a joke is \"get\" it. Remember that \"explain\" takes \"to me\": *explain me is a classic Spanish-speaker error.",
+        explanation: "«Captar» a joke is \"get\" it. Remember that \"explain\" takes \"to me\": *explain me is a classic Spanish-speaker error.",
       },
       {
         type: "word-order",
@@ -295,7 +295,7 @@ export const EN_C2_U06: Lesson[] = [
         examples: [
           { es: "It's a bit chilly out today.", en: "Hace un poco de fresco hoy (dicho a diez grados bajo cero: hace un frío terrible)." },
           { es: "The flight was delayed nine hours, which was not ideal.", en: "El vuelo se retrasó nueve horas, lo cual no fue lo ideal (es decir: fue un desastre)." },
-          { es: "The match was a bit of a disappointment: we lost seven-nil.", en: "El partido fue una pequeña decepción: perdimos siete a cero." },
+          { es: "The match was a bit of a disappointment: we lost seven to nothing.", en: "El partido fue una pequeña decepción: perdimos siete a cero." },
           { es: "I'm slightly concerned that the bridge is on fire.", en: "Me preocupa ligeramente que el puente esté ardiendo." },
           { es: "The new boss has a few rough edges.", en: "El jefe nuevo tiene algún que otro defecto (puede querer decir que es muy difícil de tratar)." },
         ],
@@ -331,7 +331,7 @@ export const EN_C2_U06: Lesson[] = [
           "Polite offers and requests also use litotes: \"I wouldn't say no to a cup of tea\" means \"Yes, please\"; \"I wouldn't mind a break\" means \"I'd like a break\". Spanish has the same pattern («no me vendría mal un café», «no está nada mal»), so these are easy to learn as fixed phrases.",
         ],
         examples: [
-          { es: "Not bad at all! Did you really make this cake yourself?", en: "¡No está nada mal! ¿De verdad has hecho tú esta tarta?" },
+          { es: "Not bad at all! Did you really make this cake yourself?", en: "¡No está nada mal! ¿De verdad hiciste tú este pastel?" },
           { es: "The hotel is lovely, but it's not exactly cheap.", en: "El hotel es precioso, pero no es precisamente barato." },
           { es: "I wouldn't say no to a cup of tea.", en: "No me vendría mal una taza de té." },
           { es: "She's no stranger to hard work.", en: "Sabe muy bien lo que es trabajar duro." },
@@ -450,7 +450,7 @@ export const EN_C2_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "It is minus fifteen and snowing heavily. Your neighbour says: \"Bit nippy this morning.\" Which statement is true?",
+        question: "It is minus fifteen and snowing heavily. Your neighbor says: \"Bit nippy this morning.\" Which statement is true?",
         options: [
           "It is understatement; he means it is extremely cold.",
           "He thinks the weather is mild.",
@@ -464,7 +464,7 @@ export const EN_C2_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El piso es precioso, pero no es precisamente grande.",
+        source: "El departamento es precioso, pero no es precisamente grande.",
         answer: "The apartment is lovely, but it's not exactly big.",
         altAnswers: alts(
           ["The apartment", "The flat"],
@@ -481,7 +481,7 @@ export const EN_C2_U06: Lesson[] = [
           { left: "It's not exactly cheap.", right: "Es caro." },
           { left: "That's a very brave idea.", right: "Me parece una idea arriesgada o mala." },
           { left: "I'll bear it in mind.", right: "Probablemente no haré nada." },
-          { left: "Well, that went well.", right: "Ha salido fatal." },
+          { left: "Well, that went well.", right: "Salió muy mal." },
         ],
         explanation: "All five say less than, or the opposite of, what they mean. Context and tone make the real meaning clear to native listeners.",
       },
@@ -549,11 +549,11 @@ export const EN_C2_U06: Lesson[] = [
           "The flip side is that open boasting sounds odd in Britain. Spanish speakers who list their achievements confidently, which is perfectly normal in many contexts at home, may come across as arrogant; a self-deprecating touch (\"I got lucky\") softens it.",
         ],
         examples: [
-          { es: "I'm hopeless with technology; my phone is smarter than I am.", en: "Soy un desastre con la tecnología; mi móvil es más listo que yo." },
+          { es: "I'm hopeless with technology; my phone is smarter than I am.", en: "Soy un desastre con la tecnología; mi celular es más listo que yo." },
           { es: "My cooking has been known to set off the smoke alarm.", en: "Mi forma de cocinar es famosa por hacer saltar la alarma de humo." },
           { es: "Oh, I just dabble in the piano.", en: "Bah, toco un poco el piano, nada serio (aunque toque muy bien)." },
           { es: "I won, but honestly, I think the judges felt sorry for me.", en: "Gané, pero sinceramente creo que el jurado se compadeció de mí." },
-          { es: "Don't worry, I've got a terrible sense of direction too.", en: "No te preocupes, yo también me oriento fatal." },
+          { es: "Don't worry, I've got a terrible sense of direction too.", en: "No te preocupes, yo también me oriento muy mal." },
         ],
         checkpoint: [
           {
@@ -623,7 +623,7 @@ export const EN_C2_U06: Lesson[] = [
         body: [
           "Irish humour is famous for storytelling: long, meandering anecdotes full of digressions, where the pleasure is in the telling as much as the ending. \"The craic\" (pronounced like \"crack\") means fun, good company and conversation: \"What's the craic?\" means \"What's new?\", and \"The craic was mighty\" means you had a great time. Friends also \"slag\" each other: tease affectionately.",
           "Australian humour is direct, irreverent and full of banter. A tall man may be nicknamed \"Shorty\" and a red-haired one \"Bluey\": the nickname is the opposite of the truth. Australians and Britons both \"take the mickey\" (also \"take the mick\" or \"take the Mickey\"), which means to tease or make fun of someone, usually in a friendly way.",
-          "In both cultures, being teased is often a sign of acceptance. The worst reaction is to look hurt or to explain seriously why the teasing is unfair; the best is to laugh and give some back. You will practise that in the banter lesson of this unit.",
+          "In both cultures, being teased is often a sign of acceptance. The worst reaction is to look hurt or to explain seriously why the teasing is unfair; the best is to laugh and give some back. You will practice that in the banter lesson of this unit.",
         ],
         examples: [
           { es: "What's the craic?", en: "¿Qué tal? ¿Qué se cuenta? (Irlanda)" },
@@ -655,7 +655,7 @@ export const EN_C2_U06: Lesson[] = [
         examples: [
           { es: "Puns almost never survive translation.", en: "Los juegos de palabras casi nunca sobreviven a la traducción." },
           { es: "Irony doesn't always come across in an email.", en: "La ironía no siempre se capta en un correo electrónico." },
-          { es: "The joke went right over their heads.", en: "No pillaron el chiste en absoluto." },
+          { es: "The joke went right over their heads.", en: "No entendieron el chiste en absoluto." },
           { es: "It's an in-joke; you had to be there.", en: "Es una broma interna; había que estar allí." },
           { es: "Sorry, that was a joke! I didn't mean it seriously.", en: "Perdona, ¡era broma! No lo decía en serio." },
         ],
@@ -677,7 +677,7 @@ export const EN_C2_U06: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "The joke went right over their ___.",
             answer: "heads",
-            en: "El chiste les pasó por encima de las [cabezas]: no lo pillaron.",
+            en: "El chiste les pasó por encima de las [cabezas]: no lo entendieron.",
             explanation: "\"Go over someone's head\" means to be too subtle or clever for them to understand.",
           },
         ],
@@ -866,7 +866,7 @@ export const EN_C2_U06: Lesson[] = [
           "These sentences are puzzles rather than jokes, but they show how much English relies on words that can be nouns, verbs or adjectives without changing form. In your own writing, a comma or a relative pronoun (\"that was\") removes the trap.",
         ],
         examples: [
-          { es: "The old man the boats.", en: "Los ancianos manejan los barcos (\"man\" es un verbo: tripular)." },
+          { es: "The old man the boats.", en: "Los ancianos tripulan los barcos (\"man\" es un verbo: tripular)." },
           { es: "The complex houses married and single soldiers and their families.", en: "El complejo aloja a soldados casados y solteros y a sus familias." },
           { es: "The horse raced past the barn fell.", en: "El caballo al que hicieron correr junto al granero se cayó." },
           { es: "While Ana dressed, the baby played in the crib.", en: "Mientras Ana se vestía, el bebé jugaba en la cuna." },
@@ -907,7 +907,7 @@ export const EN_C2_U06: Lesson[] = [
           { es: "Eye drops off shelf.", en: "Retiran de las estanterías un colirio (o: un ojo se cae de una estantería)." },
           { es: "Squad helps dog bite victim.", en: "Un equipo de rescate ayuda a una víctima de mordedura de perro (o: ayuda a un perro a morder a una víctima)." },
           { es: "Stolen painting found by tree.", en: "Encuentran junto a un árbol un cuadro robado (o: un árbol encuentra el cuadro robado)." },
-          { es: "The project was held up by a lack of funding.", en: "El proyecto se retrasó por falta de financiación." },
+          { es: "The project was held up by a lack of funding.", en: "El proyecto se retrasó por falta de financiamiento." },
         ],
         checkpoint: [
           {
@@ -931,7 +931,7 @@ export const EN_C2_U06: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "La burocracia ha retrasado las obras seis meses.",
-        answer: "Red tape has held up the work for six months.",
+        answer: "Red tape has held up the work by six months.",
         altAnswers: alts(
           ["Red tape has held up", "Red tape has delayed", "Bureaucracy has held up", "Bureaucracy has delayed", "Red tape held up", "Red tape delayed", "Bureaucracy has set back", "Red tape has set back"],
           ["the work", "the works", "the construction work", "the building work", "the roadworks"],
@@ -975,7 +975,7 @@ export const EN_C2_U06: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to make the famous garden-path sentence.",
         words: ["The", "old", "man", "the", "boats."],
-        translation: "Los ancianos manejan los barcos.",
+        translation: "Los ancianos tripulan los barcos.",
         explanation: "\"The old\" is the subject (old people) and \"man\" is the verb. The trap is reading \"the old man\" as a noun phrase.",
       },
       {
@@ -1042,7 +1042,7 @@ export const EN_C2_U06: Lesson[] = [
         ],
         examples: [
           { es: "Lovely weather for a barbecue.", en: "Qué tiempo tan estupendo para una barbacoa (ironía: está diluviando)." },
-          { es: "Oh, you're early. The meeting only started forty minutes ago.", en: "Ah, llegas pronto. La reunión solo empezó hace cuarenta minutos (sarcasmo)." },
+          { es: "Oh, you're early. The meeting only started forty minutes ago.", en: "Ah, llegas temprano. La reunión solo empezó hace cuarenta minutos (sarcasmo)." },
           { es: "Climbing Everest was no small achievement.", en: "Subir el Everest no fue un logro menor (lítote: fue un logro enorme)." },
           { es: "I've been waiting for ages.", en: "Llevo una eternidad esperando (hipérbole)." },
           { es: "There was a lot of friendly banter between the two teams.", en: "Hubo muchas pullas amistosas entre los dos equipos." },
@@ -1124,8 +1124,8 @@ export const EN_C2_U06: Lesson[] = [
           "Signs that a remark is friendly: the speaker smiles or laughs, the target is something trivial (your old phone, your football team), and the speaker accepts teasing in return. Signs that it is hostile: it touches something the person is sensitive about, it is repeated after the person shows discomfort, or it comes with \"No offence, but...\".",
         ],
         examples: [
-          { es: "Nice of you to join us.", en: "Qué amable por tu parte acompañarnos (a quien llega tarde)." },
-          { es: "Still using that ancient phone, I see.", en: "Veo que sigues con ese móvil prehistórico." },
+          { es: "Nice of you to join us.", en: "Qué amable de tu parte acompañarnos (a quien llega tarde)." },
+          { es: "Still using that ancient phone, I see.", en: "Veo que sigues con ese celular prehistórico." },
           { es: "He was only teasing; he didn't mean anything by it.", en: "Solo estaba bromeando; no lo decía con mala intención." },
           { es: "Her comment had a bit of an edge to it.", en: "Su comentario tenía cierto retintín." },
           { es: "There's no need to be sarcastic.", en: "No hace falta ser sarcástico." },
@@ -1138,7 +1138,7 @@ export const EN_C2_U06: Lesson[] = [
               "A manager says it in front of the whole team to an employee who is late again.",
               "A friend says it, laughing, as you arrive late to a picnic.",
               "Your brother says it when you finally wake up on a Sunday.",
-              "A teammate says it with a grin as you jog onto the pitch.",
+              "A teammate says it with a grin as you jog onto the field.",
             ],
             correctIndex: 0,
             explanation: "Power, an audience and a repeated problem make the remark a public rebuke. Between equals, with a smile, the same words are banter.",
@@ -1212,7 +1212,7 @@ export const EN_C2_U06: Lesson[] = [
         question: "Which of these is NOT ironic in any way?",
         options: [
           "\"The film was quite long, about two hours.\" (it was two hours long)",
-          "\"Oh, brilliant.\" (your train has just been cancelled)",
+          "\"Oh, brilliant.\" (your train has just been canceled)",
           "\"Nice of you to join us.\" (to someone very late)",
           "\"You don't say!\" (after hearing something obvious)",
         ],
@@ -1222,8 +1222,8 @@ export const EN_C2_U06: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Oh, great. Thanks a lot.",
-        question: "The speaker's flatmate has just finished all the milk. How does the speaker feel?",
-        options: ["Annoyed", "Grateful", "Indifferent", "Happy for the flatmate"],
+        question: "The speaker's roommate has just finished all the milk. How does the speaker feel?",
+        options: ["Annoyed", "Grateful", "Indifferent", "Happy for the roommate"],
         correctIndex: 0,
         explanation: "\"Thanks a lot\" with heavy stress on \"lot\" is a classic sarcastic complaint: the opposite of real thanks.",
       },
@@ -1267,14 +1267,14 @@ export const EN_C2_U06: Lesson[] = [
         body: [
           "In many English-speaking workplaces and friendships, gentle teasing is a sign that you belong. Typical targets are safe and trivial: always being late, an ancient phone, terrible coffee, a football team that keeps losing, dad jokes, enthusiastic karaoke.",
           "The verbs: \"tease\" (general), \"kid\" (joke, pretend), \"pull someone's leg\" (fool them playfully), \"wind someone up\" (British: tease to get a reaction, «picar», «chinchar»), \"mess with someone\" (American, informal), \"rib someone\" (tease in a friendly way). Be careful with \"pick on someone\", which means to bully or criticize unfairly, and \"have a go at someone\" (British), which means to criticize or attack them.",
-          "Spanish speakers sometimes treat friendly teasing as a real criticism and reply with a serious explanation (\"Actually, I was late because the metro...\"). That breaks the game. The teasing invites a light reply, not a defence.",
+          "Spanish speakers sometimes treat friendly teasing as a real criticism and reply with a serious explanation (\"Actually, I was late because the metro...\"). That breaks the game. The teasing invites a light reply, not a defense.",
         ],
         examples: [
           { es: "Are you winding me up?", en: "¿Me estás picando? / ¿Me estás tomando el pelo?" },
           { es: "Don't worry, I'm only kidding.", en: "Tranquilo, que es broma." },
           { es: "They always rib him about his terrible coffee.", en: "Siempre se meten con él, en broma, por lo malo que le sale el café." },
           { es: "Still supporting that team? You must really love suffering.", en: "¿Sigues siendo de ese equipo? Sí que te gusta sufrir." },
-          { es: "Stop picking on your little brother.", en: "Deja de meterte con tu hermano pequeño." },
+          { es: "Stop picking on your little brother.", en: "Deja de meterte con tu hermanito." },
         ],
         checkpoint: [
           {
@@ -1311,8 +1311,8 @@ export const EN_C2_U06: Lesson[] = [
           { es: "I walked right into that one.", en: "Me la has puesto en bandeja y he caído." },
           { es: "Look who's talking!", en: "¡Mira quién habla!" },
           { es: "Says the man who still uses a fax machine.", en: "Dijo el que todavía usa fax." },
-          { es: "Rub it in, why don't you?", en: "Venga, sigue metiendo el dedo en la llaga." },
-          { es: "I'll have you know this phone is a classic.", en: "Para que lo sepas, este móvil es un clásico." },
+          { es: "Rub it in, why don't you?", en: "Anda, sigue metiendo el dedo en la llaga." },
+          { es: "I'll have you know this phone is a classic.", en: "Para que lo sepas, este celular es un clásico." },
         ],
         checkpoint: [
           {
@@ -1348,7 +1348,7 @@ export const EN_C2_U06: Lesson[] = [
           "In the first, Emma agrees and exaggerates. In the second, Tom turns it around. In the third, Sofia plays wounded with obvious irony and then changes the subject, which is a perfectly good way to end a round of banter.",
         ],
         examples: [
-          { es: "Tom: Emma made the coffee? Quick, someone call the fire brigade.", en: "Tom: ¿Ha hecho Emma el café? Rápido, que alguien llame a los bomberos." },
+          { es: "Tom: Emma made the coffee? Quick, someone call the fire department.", en: "Tom: ¿Ha hecho Emma el café? Rápido, que alguien llame a los bomberos." },
           { es: "Emma: What can I say? Burnt is a flavor.", en: "Emma: ¿Qué quieres que te diga? Lo quemado también es un sabor." },
           { es: "Carlos: Another dad joke, Tom? You're getting old.", en: "Carlos: ¿Otro chiste de padre, Tom? Te estás haciendo mayor." },
           { es: "Tom: Says the man who goes to bed at nine.", en: "Tom: Dijo el que se acuesta a las nueve." },
@@ -1373,9 +1373,9 @@ export const EN_C2_U06: Lesson[] = [
           "Avoid \"Can't you take a joke?\": it blames the other person for being hurt and usually makes things worse. \"Take a joke\" means to accept teasing without getting upset; it is fine to say about yourself (\"I can take a joke\") but not as a defence.",
         ],
         examples: [
-          { es: "All right, point taken. Let's leave it there.", en: "Vale, ya lo he pillado. Dejémoslo ahí." },
+          { es: "All right, point taken. Let's leave it there.", en: "Está bien, ya entendí. Dejémoslo ahí." },
           { es: "That's a bit below the belt.", en: "Eso es un golpe bajo." },
-          { es: "Sorry, that was out of line.", en: "Perdona, me he pasado." },
+          { es: "Sorry, that was out of line.", en: "Perdón, me pasé." },
           { es: "I didn't mean it like that.", en: "No lo decía en ese sentido." },
           { es: "I can take a joke, but that wasn't funny.", en: "Aguanto bien las bromas, pero eso no tenía gracia." },
         ],
@@ -1384,7 +1384,7 @@ export const EN_C2_U06: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Perdona, me he pasado.",
+            source: "Perdón, me pasé.",
             answer: "Sorry, that was out of line.",
             altAnswers: ["Sorry, I went too far.", "Sorry, I took it too far.", "Sorry, I overstepped the mark.", "Sorry, I crossed the line.", "Sorry, I was out of line.", "Sorry, I went a bit too far.", "Sorry, that was too far.", "I'm sorry, that was out of line.", "I'm sorry, I went too far.", "Sorry, I've gone too far."],
             explanation: "«Pasarse» (going too far) is \"go too far\", \"be out of line\" or \"cross the line\". *I passed myself is a calque.",
@@ -1410,7 +1410,7 @@ export const EN_C2_U06: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Tranquilo, que es broma. Solo te estaba picando.",
-        answer: "Relax, I'm only joking. I was just winding you up.",
+        answer: "Relax, I'm only kidding. I was just messing with you.",
         altAnswers: alts(
           ["Relax,", "Don't worry,", "Relax.", "Don't worry.", "Chill,", "Take it easy,"],
           ["I'm only joking.", "I'm just joking.", "I'm only kidding.", "I'm just kidding.", "it's a joke.", "it's just a joke.", "it's only a joke."],
@@ -1428,7 +1428,7 @@ export const EN_C2_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "Guilty as ___. I did eat the last biscuit.",
+        sentence: "Guilty as ___. I did eat the last cookie.",
         answer: "charged",
         en: "[Culpable], lo confieso. Sí, me comí la última galleta.",
         explanation: "\"Guilty as charged\" comes from the courtroom. In banter it means \"yes, you caught me\", and it disarms the tease.",
@@ -1491,7 +1491,7 @@ export const EN_C2_U06: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Your English-speaking colleague Tom teases you every Monday about your football team, which lost again at the weekend. Write a short exchange (60-100 words): Tom's tease, your comeback, Tom's reply, and a final line from you that ends the round in a friendly way.",
+        prompt: "Your English-speaking colleague Tom teases you every Monday about your football team, which lost again on the weekend. Write a short exchange (60-100 words): Tom's tease, your comeback, Tom's reply, and a final line from you that ends the round in a friendly way.",
         minWords: 60,
         maxWords: 100,
         rubric: [
@@ -1501,7 +1501,7 @@ export const EN_C2_U06: Lesson[] = [
           "The final line ends the exchange warmly (for example, by changing the subject)",
           "Everything stays good-natured and family-friendly",
         ],
-        modelAnswer: "Tom: Morning! So, how's your team? Oh wait, I saw the score. Five-nil. Ouch.\nMe: Rub it in, why don't you? We were just being generous. The other team needed the points.\nTom: Generous? They let the goalkeeper score from his own half!\nMe: Says the man whose team hasn't won a trophy since before he was born. Anyway, coffee? I'll even let you make it, since you clearly need cheering up more than I do.",
+        modelAnswer: "Tom: Morning! So, how's your team? Oh wait, I saw the score. Five-nothing. Ouch.\nMe: Rub it in, why don't you? We were just being generous. The other team needed the points.\nTom: Generous? They let the goalkeeper score from his own half!\nMe: Says the man whose team hasn't won a trophy since before he was born. Anyway, coffee? I'll even let you make it, since you clearly need cheering up more than I do.",
         explanation: "Good banter is quick, light and two-way. A strong answer shows that you can take the joke and give one back without explaining or getting defensive.",
       },
       {
@@ -1528,22 +1528,22 @@ export const EN_C2_U06: Lesson[] = [
         body: [
           "Native speakers are deliberately vague all the time, and it makes them sound friendly and relaxed. Learners who say everything with full precision (\"I will arrive at seven o'clock\") can sound stiff or even cold in casual conversation, where \"I'll be there at seven-ish\" is normal.",
           "The key tools: \"sort of\" and \"kind of\" (softening an adjective or verb: \"It's kind of weird\"), \"-ish\" (approximately: \"thirty-ish\", \"sevenish\", \"it's greenish\"), and tags that close a list without finishing it: \"and stuff\", \"and things like that\", \"or something\", \"or whatever\". They match Spanish «y tal», «y eso», «o algo así», «más o menos».",
-          "\"Thing\", \"stuff\" and \"thingy\" replace nouns you can't remember or can't be bothered to name: \"Pass me that thingy\". «El chisme» or «el cacharro» is \"the thing\" or \"the thingy\". \"Or whatever\" can sound dismissive if your tone is flat, so use it with a smile.",
+          "\"Thing\", \"stuff\" and \"thingy\" replace nouns you can't remember or can't be bothered to name: \"Pass me that thingy\". «La cosa esa» or «el aparato» is \"the thing\" or \"the thingy\". \"Or whatever\" can sound dismissive if your tone is flat, so use it with a smile.",
         ],
         examples: [
-          { es: "I'll be there at seven-ish.", en: "Llegaré sobre las siete." },
+          { es: "I'll be there at seven-ish.", en: "Llegaré como a las siete." },
           { es: "It was kind of weird, to be honest.", en: "Fue un poco raro, la verdad." },
           { es: "We just chatted and had a few drinks and stuff.", en: "Solo charlamos, tomamos algo y tal." },
           { es: "He's a designer or something.", en: "Es diseñador o algo así." },
           { es: "She's thirty-ish, with short hair.", en: "Tiene unos treinta años, pelo corto." },
-          { es: "Can you pass me that thingy?", en: "¿Me pasas ese chisme?" },
+          { es: "Can you pass me that thingy?", en: "¿Me pasas esa cosa?" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "es-en",
             prompt: "Translate into informal spoken English.",
-            source: "Quedamos sobre las ocho, ¿vale?",
+            source: "Nos vemos como a las ocho, ¿de acuerdo?",
             answer: "Let's meet at eight-ish, okay?",
             altAnswers: [
               "Let's meet around eight, okay?",
@@ -1563,16 +1563,16 @@ export const EN_C2_U06: Lesson[] = [
               "See you around eight, okay?",
               "See you at eight-ish, okay?",
             ],
-            explanation: "«Sobre las ocho» is \"around eight\", \"about eight\" or \"eight-ish\". «¿Vale?» at the end becomes \"okay?\" or (UK) \"yeah?\".",
+            explanation: "«Como a las ocho» is \"around eight\", \"about eight\" or \"eight-ish\". «¿De acuerdo?» at the end becomes \"okay?\" or (UK) \"yeah?\".",
           },
           {
             type: "multiple-choice",
-            question: "A friend asks what you did at the weekend. Which answer sounds most natural?",
+            question: "A friend asks what you did on the weekend. Which answer sounds most natural?",
             options: [
-              "Not much, just watched some films and stuff.",
-              "I watched three films and I did not do other activities.",
-              "During the weekend I have watched films.",
-              "I realized the visualization of films.",
+              "Not much, just watched some movies and stuff.",
+              "I watched three movies and I did not do other activities.",
+              "During the weekend I have watched movies.",
+              "I realized the visualization of movies.",
             ],
             correctIndex: 0,
             explanation: "\"Not much\" plus a vague tag (\"and stuff\") is the relaxed, natural answer. The others are stiff, wrong in tense (\"have watched\" with a finished period) or full of false friends.",
@@ -1588,10 +1588,10 @@ export const EN_C2_U06: Lesson[] = [
         ],
         examples: [
           { es: "Well, I mean, it's not a bad idea, but it's a bit expensive.", en: "Bueno, o sea, no es mala idea, pero es un poco cara." },
-          { es: "It's that place near the station, you know, the one with the red door.", en: "Es ese sitio cerca de la estación, ¿sabes?, el de la puerta roja." },
+          { es: "It's that place near the station, you know, the one with the red door.", en: "Es ese lugar cerca de la estación, ¿sabes?, el de la puerta roja." },
           { es: "So basically, we got lost and missed the train.", en: "Pues nada, que nos perdimos y perdimos el tren." },
           { es: "Actually, I think the meeting's on Tuesday.", en: "En realidad, creo que la reunión es el martes." },
-          { es: "I reckon it'll rain later.", en: "Me da que va a llover más tarde." },
+          { es: "I reckon it'll rain later.", en: "Se me hace que va a llover más tarde." },
           { es: "I guess we could take a taxi.", en: "Supongo que podríamos tomar un taxi." },
         ],
         checkpoint: [
@@ -1630,16 +1630,16 @@ export const EN_C2_U06: Lesson[] = [
         heading: "Everyday informal words, with passports",
         body: [
           "Many informal words are clearly British or American, and using the wrong one can sound odd. UK: \"gutted\" (very disappointed, «hecho polvo, destrozado»), \"knackered\" (exhausted), \"chuffed\" (pleased), \"mate\" (friend), \"cheers\" (thanks or goodbye), \"quid\" (pound). US: \"bummed\" (disappointed), \"beat\" (exhausted), \"sketchy\" (dodgy, unsafe), \"buddy\" or \"dude\" (friend, guy), \"bucks\" (dollars).",
-          "Some have travelled everywhere: \"awesome\" (originally US, now global, «genial»), \"cool\", \"a pain\" («un rollo, un engorro»), \"no worries\" (originally Australian), \"hang out\" («quedar, pasar el rato»), \"grab a coffee\".",
+          "Some have traveled everywhere: \"awesome\" (originally US, now global, «genial»), \"cool\", \"a pain\" («una lata, un fastidio»), \"no worries\" (originally Australian), \"hang out\" («juntarse, pasar el rato»), \"grab a coffee\".",
           "\"Knackered\" and \"gutted\" sound perfectly normal from a British speaker but slightly comic from a learner with an American accent, and vice versa with \"dude\". It is fine to choose one variety and stick to it.",
         ],
         examples: [
           { es: "I'm absolutely knackered.", en: "Estoy hecho polvo. (UK)" },
           { es: "I'm beat. I'm going to bed.", en: "Estoy reventado. Me voy a la cama. (US)" },
           { es: "She was gutted when she didn't get the job.", en: "Se quedó destrozada cuando no le dieron el trabajo. (UK)" },
-          { es: "That neighborhood looks a bit sketchy at night.", en: "Ese barrio parece un poco chungo de noche. (US)" },
+          { es: "That neighborhood looks a bit sketchy at night.", en: "Ese barrio parece medio peligroso de noche. (US)" },
           { es: "We just hung out at Tom's place.", en: "Estuvimos en casa de Tom pasando el rato." },
-          { es: "Filling in this form is a real pain.", en: "Rellenar este formulario es un rollo." },
+          { es: "Filling in this form is a real pain.", en: "Llenar este formulario es una lata." },
         ],
         checkpoint: [
           {
@@ -1674,8 +1674,8 @@ export const EN_C2_U06: Lesson[] = [
             pairs: [
               { left: "gutted (UK)", right: "muy decepcionado" },
               { left: "chuffed (UK)", right: "muy contento" },
-              { left: "sketchy (US)", right: "poco fiable, chungo" },
-              { left: "a pain", right: "un rollo, un engorro" },
+              { left: "sketchy (US)", right: "poco fiable, de mala pinta" },
+              { left: "a pain", right: "una lata, un fastidio" },
               { left: "hang out", right: "pasar el rato" },
             ],
             explanation: "These are very common in casual speech; \"gutted\" and \"chuffed\" are typically British, \"sketchy\" typically American.",
@@ -1840,7 +1840,7 @@ export const EN_C2_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into informal spoken English.",
-        source: "Ese barrio es un poco chungo de noche.",
+        source: "Ese barrio es medio peligroso de noche.",
         answer: "That neighborhood is a bit sketchy at night.",
         altAnswers: [
           "That neighborhood is a bit dodgy at night.",
@@ -1857,7 +1857,7 @@ export const EN_C2_U06: Lesson[] = [
           "That area is a bit dangerous at night.",
           "That neighborhood is a bit dangerous at night.",
         ],
-        explanation: "«Chungo» about a place is \"sketchy\" (US), \"dodgy\" (UK) or \"rough\". \"A bit\" and \"kind of\" are the natural softeners.",
+        explanation: "«Medio peligroso» about a place is \"sketchy\" (US), \"dodgy\" (UK) or \"rough\". \"A bit\" and \"kind of\" are the natural softeners.",
       },
     ],
   },
@@ -1913,7 +1913,7 @@ export const EN_C2_U06: Lesson[] = [
         body: [
           "\"Principal\" as an adjective means main (\"the principal reason\"); as a noun it is the head of a school (American English) or a college, or a sum of money. \"Principle\" is only a noun: a rule or belief (\"a matter of principle\", \"in principle\"). They are homophones, so the error appears only in writing. Spanish «principio» (beginning) is \"beginning\", never *principle.",
           "\"Complement\" means something that completes or goes well with something else (\"The wine is a perfect complement to the fish\"); \"compliment\" is praise (\"pay someone a compliment\"). \"Complimentary\" also means free of charge: \"complimentary drinks\". Spanish «complemento» is \"complement\" or \"accessory\", and «cumplido» is \"compliment\".",
-          "Homophones like these are classic pun material. A favourite dad joke: \"The hotel gave us complimentary mints. They kept telling me how nice I looked.\" (Complimentary = free, read as \"giving compliments\".)",
+          "Homophones like these are classic pun material. A favorite dad joke: \"The hotel gave us complimentary mints. They kept telling me how nice I looked.\" (Complimentary = free, read as \"giving compliments\".)",
         ],
         examples: [
           { es: "The principal reason for the delay was the weather.", en: "La razón principal del retraso fue el tiempo." },
@@ -1955,7 +1955,7 @@ export const EN_C2_U06: Lesson[] = [
         ],
         examples: [
           { es: "The country is going through an economic crisis.", en: "El país atraviesa una crisis económica." },
-          { es: "This car is very economical to run.", en: "Este coche gasta muy poco." },
+          { es: "This car is very economical to run.", en: "Este carro gasta muy poco." },
           { es: "We found a cheap little restaurant near the station.", en: "Encontramos un restaurante pequeño y económico cerca de la estación." },
           { es: "It was a historic victory for the club.", en: "Fue una victoria histórica para el club." },
           { es: "She writes historical novels set in the Middle Ages.", en: "Escribe novelas históricas ambientadas en la Edad Media." },
@@ -2222,7 +2222,7 @@ export const EN_C2_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No lo pillo. ¿Dónde está la gracia?",
+        source: "No lo entiendo. ¿Dónde está la gracia?",
         answer: "I don't get it. What's the joke?",
         altAnswers: alts(
           ["I don't get it.", "I don't get the joke."],
@@ -2289,7 +2289,7 @@ export const EN_C2_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend teases you: \"You're making the coffee? Should I call the fire brigade now or later?\" Which reply is the most natural?",
+        question: "Your friend teases you: \"You're making the coffee? Should I call the fire department now or later?\" Which reply is the most natural?",
         options: [
           "\"Ha ha, very funny. Just for that, you're getting decaf.\"",
           "\"Why? I have never started a fire.\"",

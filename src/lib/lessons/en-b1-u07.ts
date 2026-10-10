@@ -896,7 +896,7 @@ export const EN_B1_U07: Lesson[] = [
         examples: [
           { es: "I think it's a good idea.", en: "Creo que es buena idea." },
           { es: "I'm thinking about the trip.", en: "Estoy pensando en el viaje." },
-          { es: "I have a car.", en: "Tengo coche." },
+          { es: "I have a car.", en: "Tengo carro." },
           { es: "We're having lunch.", en: "Estamos comiendo." },
           { es: "Are you having a good time?", en: "¿Lo estás pasando bien?" },
           { es: "She has two brothers.", en: "Tiene dos hermanos." },
@@ -915,7 +915,7 @@ export const EN_B1_U07: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Tengo un coche nuevo.",
+            source: "Tengo un carro nuevo.",
             answer: "I have a new car.",
             altAnswers: ["I've got a new car."],
             explanation: "Possession is a state: \"I have\" (or \"I've got\"). *I'm having a new car is a typical mistake.",
@@ -1338,7 +1338,7 @@ export const EN_B1_U07: Lesson[] = [
         examples: [
           { es: "I've just started a new job.", en: "Acabo de empezar en un trabajo nuevo." },
           { es: "We've finally found an apartment.", en: "Por fin hemos encontrado piso." },
-          { es: "Guess what? I've passed my driving test!", en: "¿A que no sabes qué? ¡He aprobado el examen de conducir!" },
+          { es: "Guess what? I've passed my driving test!", en: "¿A que no sabes qué? ¡He aprobado el examen de manejar!" },
           { es: "I've been working a lot lately.", en: "Últimamente estoy trabajando mucho." },
           { es: "What have you been up to?", en: "¿Qué es de tu vida?" },
         ],
@@ -1371,7 +1371,7 @@ export const EN_B1_U07: Lesson[] = [
         examples: [
           { es: "Last week I went to Ana's wedding.", en: "La semana pasada fui a la boda de Ana." },
           { es: "We danced until three in the morning.", en: "Bailamos hasta las tres de la mañana." },
-          { es: "I was driving to the wedding when my car broke down.", en: "Iba en coche a la boda cuando se me averió el coche." },
+          { es: "I was driving to the wedding when my car broke down.", en: "Iba en carro a la boda cuando se me averió el carro." },
           { es: "Luckily, I had brought my charger.", en: "Por suerte, me había traído el cargador." },
         ],
         checkpoint: [
@@ -1446,7 +1446,7 @@ export const EN_B1_U07: Lesson[] = [
         sentence: "Guess what? I ___ my driving test!",
         answer: "have passed",
         altAnswers: ["passed"],
-        en: "¿A que no sabes qué? ¡[He aprobado] el examen de conducir!",
+        en: "¿A que no sabes qué? ¡[He aprobado] el examen de manejar!",
         explanation: "Fresh news with no time: present perfect \"I've passed\". \"Pass an exam\" is «aprobar»; «hacer un examen» is \"take an exam\".",
       },
       {
@@ -1571,7 +1571,7 @@ export const EN_B1_U07: Lesson[] = [
         body: [
           "«Llevarse bien con alguien» is \"get along with\" (more American) or \"get on with\" (more British): \"I get along really well with my sister\". The opposite is \"not get along\".",
           "\"Argue\" (or \"have an argument\") is «discutir» in the sense of fighting with words. False friend alert: \"discuss\" means talk about a topic calmly, «hablar de» or «debatir».",
-          "\"Fall out (with someone)\" means stop being friends after an argument («pelearse», «enfadarse con alguien»). \"Make up\" means become friends again («hacer las paces», «reconciliarse»).",
+          "\"Fall out (with someone)\" means stop being friends after an argument («pelearse», «enojarse con alguien»). \"Make up\" means become friends again («hacer las paces», «reconciliarse»).",
         ],
         examples: [
           { es: "I get along really well with my sister.", en: "Me llevo muy bien con mi hermana." },
@@ -1891,8 +1891,8 @@ export const EN_B1_U07: Lesson[] = [
         sentence: "Don't be ___ me. It wasn't my fault!",
         answer: "annoyed with",
         altAnswers: ["angry with", "angry at", "mad at", "annoyed at"],
-        en: "No te [enfades conmigo]. ¡No fue culpa mía!",
-        explanation: "Annoyed or angry \"with\" (or \"at\") a person. «Enfadarse» is \"get angry\" or \"get annoyed\".",
+        en: "No te [enojes conmigo]. ¡No fue culpa mía!",
+        explanation: "Annoyed or angry \"with\" (or \"at\") a person. «Enojarse» is \"get angry\" or \"get annoyed\".",
       },
       {
         type: "translate",

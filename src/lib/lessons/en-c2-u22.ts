@@ -101,7 +101,7 @@ export const EN_C2_U22: Lesson[] = [
         heading: "Too formal is also wrong",
         body: [
           "Spanish professional speech tolerates a high level of ceremony: «usted», elaborate courtesy formulas, impersonal constructions. Translated literally, they make you sound stiff, or even sarcastic, in English. Interviews in the UK, the US and most international companies use a neutral, friendly professional register.",
-          "Skip ceremonial openers such as \"It is an honour and a privilege to be here before this distinguished panel\". \"Thanks for having me\" or \"Thank you for inviting me\" is right. In speech, contractions are normal and expected (\"I've\", \"I'd\", \"it's\"); avoiding them sounds as if you were reading a script.",
+          "Skip ceremonial openers such as \"It is an honor and a privilege to be here before this distinguished panel\". \"Thanks for having me\" or \"Thank you for inviting me\" is right. In speech, contractions are normal and expected (\"I've\", \"I'd\", \"it's\"); avoiding them sounds as if you were reading a script.",
           "Overformal vocabulary is another giveaway: \"I would like to express my gratitude\" instead of \"thank you\", \"in relation to\" instead of \"about\", and \"proceed to\" plus a verb (from «proceder a») instead of just the verb. And do not call the interviewer \"Sir\" or \"Madam\": use their first name if they introduced themselves that way.",
         ],
         examples: [
@@ -118,7 +118,7 @@ export const EN_C2_U22: Lesson[] = [
             question: "Which opener sounds most natural at the start of a UK or US interview?",
             options: [
               "Thanks for having me. It's good to meet you.",
-              "It is an immense honour to be received by this distinguished panel.",
+              "It is an immense honor to be received by this distinguished panel.",
               "Good morning, Madam. I am at your entire disposal.",
               "I proceed to present myself.",
             ],
@@ -268,7 +268,7 @@ export const EN_C2_U22: Lesson[] = [
         source: "Gracias por recibirme.",
         answer: "Thanks for having me.",
         altAnswers: alts(["Thank you", "Thanks"], ["for having me.", "for seeing me.", "for meeting me.", "for meeting with me.", "for inviting me."]),
-        explanation: "A simple thank-you is the right register. Ceremonial formulas such as \"It is an honour to be received\" sound stiff in English.",
+        explanation: "A simple thank-you is the right register. Ceremonial formulas such as \"It is an honor to be received\" sound stiff in English.",
       },
       {
         type: "speak",
@@ -318,7 +318,7 @@ export const EN_C2_U22: Lesson[] = [
           { es: "Work experience", en: "Experiencia profesional" },
           { es: "BSc in Computer Science, University of Seville, 2019", en: "Grado en Ingeniería Informática, Universidad de Sevilla, 2019" },
           { es: "Master's degree in International Marketing", en: "Máster en Marketing Internacional" },
-          { es: "Languages: Spanish (native), English (Mastery), French (Independence)", en: "Idiomas: español (nativo), inglés (Maestría), francés (Independencia)" },
+          { es: "Languages: Spanish (native), English (C2), French (B1)", en: "Idiomas: español (nativo), inglés (C2), francés (B1)" },
         ],
         checkpoint: [
           {
@@ -386,7 +386,7 @@ export const EN_C2_U22: Lesson[] = [
         ],
         examples: [
           { es: "Bilingual marketing manager with eight years' experience in consumer goods.", en: "Responsable de marketing bilingüe con ocho años de experiencia en bienes de consumo." },
-          { es: "Qualified accountant specializing in mergers and acquisitions.", en: "Contable titulada especializada en fusiones y adquisiciones." },
+          { es: "Qualified accountant specializing in mergers and acquisitions.", en: "Contadora titulada especializada en fusiones y adquisiciones." },
           { es: "Proven track record of delivering complex projects on time and on budget.", en: "Trayectoria demostrada en la entrega de proyectos complejos en plazo y dentro del presupuesto." },
           { es: "Currently seeking a senior role in sustainable finance.", en: "Actualmente busco un puesto de responsabilidad en finanzas sostenibles." },
         ],
@@ -566,7 +566,7 @@ export const EN_C2_U22: Lesson[] = [
         heading: "\"Do you have any questions for us?\"",
         body: [
           "Never answer \"No, I think you've covered everything.\" The final question is part of the assessment: it shows how much thought you have given the role. Prepare four or five questions and ask two or three, adapting to what has already been covered.",
-          "The best questions are about the work and the team, not about holidays or perks: what success looks like, the biggest challenges, how the team is structured, how performance is measured. Open them with natural, slightly tentative frames: \"I was wondering...\", \"Could you tell me a bit more about...?\", \"What would you say...?\"",
+          "The best questions are about the work and the team, not about vacation or perks: what success looks like, the biggest challenges, how the team is structured, how performance is measured. Open them with natural, slightly tentative frames: \"I was wondering...\", \"Could you tell me a bit more about...?\", \"What would you say...?\"",
           "Keep the word order straight in indirect questions: \"Could you tell me what the next steps are?\", not *Could you tell me what are the next steps? Spanish keeps the same order in both («¿Podría decirme cuáles son...?»), which is why this slip is so common.",
         ],
         examples: [
@@ -592,9 +592,9 @@ export const EN_C2_U22: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which is the weakest question to ask at the end of a first interview?",
-            options: ["How many days of holiday do I get?", "What would success look like in the first six months?", "What are the biggest challenges facing the team?", "How would you describe the team's culture?"],
+            options: ["How many vacation days do I get?", "What would success look like in the first six months?", "What are the biggest challenges facing the team?", "How would you describe the team's culture?"],
             correctIndex: 0,
-            explanation: "Asking about holidays first suggests you care more about time off than about the work. Keep conditions for the offer stage.",
+            explanation: "Asking about vacation first suggests you care more about time off than about the work. Keep conditions for the offer stage.",
           },
         ],
       },
@@ -632,7 +632,7 @@ export const EN_C2_U22: Lesson[] = [
               "The same as I earn now, more or less.",
             ],
             correctIndex: 0,
-            explanation: "UK and US recruiters think in annual gross figures. A monthly net figure in fourteen payments forces them to do the maths and may be misunderstood.",
+            explanation: "UK and US recruiters think in annual gross figures. A monthly net figure in fourteen payments forces them to do the math and may be misunderstood.",
           },
         ],
       },
@@ -733,7 +733,7 @@ export const EN_C2_U22: Lesson[] = [
         sentence: "My current ___ salary is 40,000 euros, plus a performance bonus.",
         answer: "base",
         altAnswers: ["basic", "fixed"],
-        en: "Mi salario [base] actual es de 40.000 euros, más un bonus por objetivos.",
+        en: "Mi salario [base] actual es de 40.000 euros, más un bono por objetivos.",
         explanation: "\"Base salary\" (UK also \"basic salary\") is the fixed part; the bonus and benefits make up the rest of the package.",
       },
       {
@@ -864,7 +864,7 @@ export const EN_C2_U22: Lesson[] = [
         examples: [
           { es: "I was wondering whether there's any flexibility on the base salary.", en: "Me preguntaba si hay algo de margen en el salario base." },
           { es: "Given my experience, I was hoping for something closer to 58,000 pounds.", en: "Teniendo en cuenta mi experiencia, esperaba algo más cercano a las 58.000 libras." },
-          { es: "Is there any room to move on the bonus?", en: "¿Hay algún margen para mejorar el bonus?" },
+          { es: "Is there any room to move on the bonus?", en: "¿Hay algún margen para mejorar el bono?" },
           { es: "Would you be able to meet me halfway?", en: "¿Podríamos llegar a un punto intermedio?" },
           { es: "If the salary is fixed, could we look at the relocation package instead?", en: "Si el salario es fijo, ¿podríamos revisar en su lugar la ayuda por traslado?" },
           { es: "I understand, and I appreciate you looking into it.", en: "Lo entiendo, y le agradezco que lo haya consultado." },
@@ -1055,7 +1055,7 @@ export const EN_C2_U22: Lesson[] = [
         options: [
           "Que mejoren la ayuda por traslado si el salario no puede subir.",
           "Un salario fijo en lugar de uno variable.",
-          "Que la empresa le busque piso.",
+          "Que la empresa le busque departamento.",
           "Retrasar la fecha de incorporación.",
         ],
         correctIndex: 0,
@@ -1187,7 +1187,7 @@ export const EN_C2_U22: Lesson[] = [
         ],
         examples: [
           { es: "As Tom mentioned earlier, the team is growing quickly.", en: "Como ha comentado Tom antes, el equipo está creciendo rápidamente." },
-          { es: "To pick up on your point about budgets, Emma, we reduced costs by twelve percent.", en: "Retomando lo que decía sobre los presupuestos, Emma, redujimos los costes un doce por ciento." },
+          { es: "To pick up on your point about budgets, Emma, we reduced costs by twelve percent.", en: "Retomando lo que decía sobre los presupuestos, Emma, redujimos los costos un doce por ciento." },
           { es: "Shall I start with the budget question and then come back to the timeline?", en: "¿Empiezo por la pregunta del presupuesto y luego vuelvo al calendario?" },
           { es: "That's a great question, and it links to what Carlos asked earlier.", en: "Es una muy buena pregunta, y enlaza con lo que preguntaba Carlos antes." },
           { es: "I'm happy to go into the technical side in more depth.", en: "Con gusto entro más a fondo en la parte técnica." },
@@ -1331,7 +1331,7 @@ export const EN_C2_U22: Lesson[] = [
       {
         type: "listen-choose",
         audio: "There seems to be a bit of a lag. Shall I turn my camera off for a moment?",
-        question: "¿Qué propone la candidata?",
+        question: "What is the candidate suggesting?",
         options: [
           "Apagar la cámara un momento por el retraso de la conexión.",
           "Llamar más tarde porque no oye nada.",
@@ -1471,7 +1471,7 @@ export const EN_C2_U22: Lesson[] = [
           { es: "We made a few mistakes early on, but we learned from them.", en: "Cometimos algunos errores al principio, pero aprendimos de ellos." },
           { es: "I want to make a real difference in this role.", en: "Quiero marcar una diferencia real en este puesto." },
           { es: "We made a lot of progress in the first quarter.", en: "Avanzamos mucho en el primer trimestre." },
-          { es: "I carried out a detailed analysis of our costs.", en: "Realicé un análisis detallado de nuestros costes." },
+          { es: "I carried out a detailed analysis of our costs.", en: "Realicé un análisis detallado de nuestros costos." },
           { es: "I gave a presentation to the board.", en: "Hice una presentación ante el consejo." },
         ],
         checkpoint: [
@@ -1506,13 +1506,13 @@ export const EN_C2_U22: Lesson[] = [
         heading: "Articles and register",
         body: [
           "Articles: English uses no article for general statements (*The teamwork is essential for me → \"Teamwork is essential for me\"), but needs \"a\" or \"an\" with jobs (*I am engineer → \"I'm an engineer\"). And it keeps \"the\" with specific things: \"the marketing team at my company\".",
-          "Register: a CV extract such as *Person with great capacity of work and dynamism, with high level of English sounds translated. In English, prefer concrete achievements over adjectives: \"Fluent English (Mastery). Delivered three product launches ahead of schedule.\" Adjectives like \"dynamic\" and \"hard-working\" are best shown, not stated.",
+          "Register: a CV extract such as *Person with great capacity of work and dynamism, with high level of English sounds translated. In English, prefer concrete achievements over adjectives: \"Fluent English (C2). Delivered three product launches ahead of schedule.\" Adjectives like \"dynamic\" and \"hard-working\" are best shown, not stated.",
           "In speech, the opposite error appears: overformal written phrases such as *I proceed to explain you my experience. Simply say: \"Let me tell you about my experience.\" Note also that \"explain\" takes \"to\" before the person: \"explain something to someone\".",
         ],
         examples: [
           { es: "Teamwork is essential for me.", en: "El trabajo en equipo es fundamental para mí." },
           { es: "I'm an engineer, and I specialize in renewable energy.", en: "Soy ingeniero y estoy especializado en energías renovables." },
-          { es: "Fluent English (Mastery). Delivered three product launches ahead of schedule.", en: "Inglés fluido (Maestría). Llevé a cabo tres lanzamientos de producto antes de plazo." },
+          { es: "Fluent English (C2). Delivered three product launches ahead of schedule.", en: "Inglés fluido (C2). Llevé a cabo tres lanzamientos de producto antes de plazo." },
           { es: "Let me tell you about my experience.", en: "Paso a explicarle mi experiencia." },
           { es: "Could you explain the role to me in a bit more detail?", en: "¿Podría explicarme el puesto con un poco más de detalle?" },
         ],
@@ -2206,12 +2206,12 @@ export const EN_C2_U22: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Based on my research, I'm looking for something in the region of sixty thousand, but I'm open to discussing the overall package.",
-        question: "¿Qué dice la candidata sobre el salario?",
+        question: "What does the candidate say about salary?",
         options: [
           "Busca unos 60.000 y está abierta a hablar del paquete completo.",
           "Exige 60.000 como mínimo, sin negociación.",
           "No quiere hablar de salario todavía.",
-          "Pide 60.000 más un bonus fijo.",
+          "Pide 60.000 más un bono fijo.",
         ],
         correctIndex: 0,
         explanation: "\"In the region of\" gives an approximate figure, and \"open to discussing the overall package\" signals flexibility.",

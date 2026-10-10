@@ -1684,7 +1684,7 @@ export const EN_A2_U13: Lesson[] = [
         examples: [
           { es: "Give the book to me.", en: "Dame el libro (a mí)." },
           { es: "She sent a photo to her mom.", en: "Le mandó una foto a su mamá." },
-          { es: "I lent my car to my brother.", en: "Le presté el coche a mi hermano." },
+          { es: "I lent my car to my brother.", en: "Le presté el carro a mi hermano." },
           { es: "I made a cake for you.", en: "Hice un pastel para ti." },
           { es: "He bought flowers for his wife.", en: "Compró flores para su esposa." },
           { es: "I gave the keys to the woman at reception.", en: "Le di las llaves a la mujer de recepción." },
@@ -1703,7 +1703,7 @@ export const EN_A2_U13: Lesson[] = [
             prompt: "Escribe en inglés las palabras en negrita.",
             sentence: "I lent my car ___ my brother.",
             answer: "to",
-            en: "Le presté el coche [a] mi hermano.",
+            en: "Le presté el carro [a] mi hermano.",
             explanation: "\"Lend\" usa \"to\" cuando la persona va al final: \"lend something to someone\".",
           },
         ],

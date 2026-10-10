@@ -11,7 +11,7 @@ export const EN_C2_U05_EXTRA: Lesson[] = [
     level: "EN-C2",
     number: 1,
     title: "Extra Practice: Completing and Twisting Proverbs",
-    summary: "Drill recognising half-quoted proverbs (when in Rome..., the early bird...), their exact fixed wording, their real and false Spanish equivalents, and the twisted versions used in headlines and adverts.",
+    summary: "Drill recognizing half-quoted proverbs (when in Rome..., the early bird...), their exact fixed wording, their real and false Spanish equivalents, and the twisted versions used in headlines and ads.",
     duration: "12 min",
     sections: [
       {
@@ -54,7 +54,7 @@ export const EN_C2_U05_EXTRA: Lesson[] = [
         heading: "Real equivalents, false equivalents and twisted proverbs",
         body: [
           "Some refranes have close English twins: \"Like father, like son\" for «De tal palo, tal astilla»; \"Better late than never\" for «Más vale tarde que nunca». Others only partly match: «En boca cerrada no entran moscas» is closer to \"Least said, soonest mended\" or \"Silence is golden\" than to anything with flies.",
-          "Headlines and adverts love twisted proverbs: \"Where there's a will, there's a lawyer\", \"Too many cooks? Not in our kitchen\". The joke only works if the reader knows the original, so recognising the base form is the real skill.",
+          "Headlines and ads love twisted proverbs: \"Where there's a will, there's a lawyer\", \"Too many cooks? Not in our kitchen\". The joke only works if the reader knows the original, so recognising the base form is the real skill.",
           "When a proverb has no equivalent, say the idea plainly rather than inventing one: «Cría cuervos y te sacarán los ojos» → \"Be careful who you help; they may turn on you\", or the idiom \"bite the hand that feeds you\".",
         ],
         examples: [
@@ -263,12 +263,12 @@ export const EN_C2_U05_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "No llores sobre la leche derramada; ya no tiene remedio.",
-        answer: "Don't cry over spilt milk; there's nothing you can do about it now.",
+        answer: "Don't cry over spilled milk; there's nothing you can do about it now.",
         altAnswers: [
           "Don't cry over spilt milk; it can't be helped.",
           "Don't cry over spilt milk; it can't be undone.",
           "Don't cry over spilt milk; what's done is done.",
-          "Don't cry over spilled milk; there's nothing you can do about it now.",
+          "Don't cry over spilt milk; there's nothing you can do about it now.",
           "Don't cry over spilled milk; it can't be helped.",
           "Don't cry over spilled milk; it can't be undone.",
           "Don't cry over spilled milk; what's done is done.",
@@ -322,7 +322,7 @@ export const EN_C2_U05_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "People who live in glass houses shouldn't throw stones.",
-        explanation: "= Don't criticise others for faults you have yourself; close to «Quien tiene tejado de vidrio, que no tire piedras al del vecino».",
+        explanation: "Don't criticize others for faults you have yourself; close to «Quien tiene tejado de vidrio, que no tire piedras al del vecino».",
       },
       {
         type: "speak",

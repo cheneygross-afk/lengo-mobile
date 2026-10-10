@@ -134,7 +134,7 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ojalá apruebes el examen de conducir.",
+        source: "Ojalá apruebes el examen de manejo.",
         answer: "I hope you pass your driving test.",
         altAnswers: [
           "I hope you pass the driving test.",
@@ -153,7 +153,7 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
         sentence: "If only we ___ the earlier train! We wouldn't be stuck here now.",
         answer: "had taken",
         altAnswers: ["had caught", "had got", "had gotten"],
-        en: "¡Ojalá [hubiéramos cogido] el tren anterior! Ahora no estaríamos aquí atrapados.",
+        en: "¡Ojalá [hubiéramos tomado] el tren anterior! Ahora no estaríamos aquí atrapados.",
         explanation: "A regret about a single past decision: \"if only\" + past perfect.",
       },
       {
@@ -209,7 +209,7 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ojalá no le hubiera prestado el coche.",
+        source: "Ojalá no le hubiera prestado el carro.",
         answer: "I wish I hadn't lent him the car.",
         altAnswers: [
           "I wish I hadn't lent him my car.",
@@ -354,7 +354,7 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
         examples: [
           { es: "It's time you went to bed.", en: "Ya es hora de que te vayas a la cama." },
           { es: "It's about time they fixed the heating.", en: "Ya era hora de que arreglaran la calefacción." },
-          { es: "I'd rather walk, if you don't mind.", en: "Prefiero ir andando, si no te importa." },
+          { es: "I'd rather walk, if you don't mind.", en: "Prefiero ir caminando, si no te importa." },
           { es: "I'd rather you came on Friday.", en: "Preferiría que vinieras el viernes." },
           { es: "I'd rather you hadn't invited him.", en: "Habría preferido que no lo invitaras." },
           { es: "Suppose you won the lottery, what would you do?", en: "Imagina que te toca la lotería, ¿qué harías?" },
@@ -362,7 +362,7 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Ya es hora de que busques piso.» Which is correct?",
+            question: "«Ya es hora de que busques departamento.» Which is correct?",
             options: [
               "It's time you looked for a flat.",
               "It's time you look for a flat.",
@@ -715,7 +715,7 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
           { es: "The doctor recommended that she take a few days off.", en: "El médico le recomendó que se tomara unos días libres." },
           { es: "They insisted that he pay the full amount.", en: "Insistieron en que pagara la cantidad completa." },
           { es: "It is essential that every candidate be interviewed in person.", en: "Es imprescindible que se entreviste en persona a todos los candidatos." },
-          { es: "The law requires that all drivers carry a valid licence.", en: "La ley exige que todos los conductores lleven un carné válido." },
+          { es: "The law requires that all drivers carry a valid licence.", en: "La ley exige que todos los conductores lleven una licencia válida." },
         ],
         checkpoint: [
           {
@@ -1121,8 +1121,8 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
           "\"Suggest\" and \"recommend\" have no indirect object without \"to\": *He suggested me a plan is wrong; say \"He suggested a plan to me\". The same goes for \"explain\": *Can you explain me the problem? should be \"Can you explain the problem to me?\"",
         ],
         examples: [
-          { es: "I suggest leaving before the rush hour.", en: "Sugiero salir antes de la hora punta." },
-          { es: "I suggest we leave before the rush hour.", en: "Sugiero que salgamos antes de la hora punta." },
+          { es: "I suggest leaving before the rush hour.", en: "Sugiero salir antes de la hora pico." },
+          { es: "I suggest we leave before the rush hour.", en: "Sugiero que salgamos antes de la hora pico." },
           { es: "She recommended trying the local cheese.", en: "Recomendó probar el queso de la zona." },
           { es: "She advised me to try the local cheese.", en: "Me aconsejó que probara el queso de la zona." },
           { es: "He suggested a different approach to me.", en: "Me sugirió un enfoque diferente." },
@@ -1239,7 +1239,7 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
         sentence: "The guide ___ us not to drink the tap water.",
         answer: "advised",
         altAnswers: ["warned", "told"],
-        en: "El guía nos [aconsejó] que no bebiéramos agua del grifo.",
+        en: "El guía nos [aconsejó] que no bebiéramos agua de la llave.",
         explanation: "Object + to-infinitive (\"us not to drink\") is possible with \"advise\", \"warn\" and \"tell\", but not with \"suggest\" or \"recommend\".",
       },
       {
@@ -1336,7 +1336,7 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["I'd", "recommend", "taking", "a", "taxi", "from", "the", "airport."],
-        translation: "Yo recomendaría coger un taxi desde el aeropuerto.",
+        translation: "Yo recomendaría tomar un taxi desde el aeropuerto.",
         altOrders: [
           ["From", "the", "airport", "I'd", "recommend", "taking", "a", "taxi."],
         ],
@@ -1465,9 +1465,9 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
           "\"In case\" is not \"if\": it means «por si (acaso)», a precaution. \"Take an umbrella in case it rains\" = because it might rain. For «en caso de que» meaning a condition, use \"if\" or, formally, \"in the event that\" / \"should\": \"In the event that the flight is canceled, you will receive a refund.\"",
         ],
         examples: [
-          { es: "You can borrow the car provided you bring it back by ten.", en: "Puedes llevarte el coche siempre que lo devuelvas antes de las diez." },
-          { es: "As long as you're honest with me, I won't be angry.", en: "Mientras seas sincero conmigo, no me enfadaré." },
-          { es: "We'll miss the train unless we hurry.", en: "Perderemos el tren si no nos damos prisa." },
+          { es: "You can borrow the car provided you bring it back by ten.", en: "Puedes llevarte el carro siempre que lo devuelvas antes de las diez." },
+          { es: "As long as you're honest with me, I won't be angry.", en: "Mientras seas sincero conmigo, no me enojaré." },
+          { es: "We'll miss the train unless we hurry.", en: "Perderemos el tren si no nos apuramos." },
           { es: "Supposing he says no, what will we do?", en: "Suponiendo que diga que no, ¿qué haremos?" },
           { es: "Take an umbrella in case it rains.", en: "Llévate un paraguas por si llueve." },
           { es: "In the event that the flight is canceled, passengers will receive a full refund.", en: "En caso de que se cancele el vuelo, los pasajeros recibirán un reembolso completo." },
@@ -1690,7 +1690,7 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Date prisa; si no, llegaremos tarde.",
+        source: "Apúrate; si no, llegaremos tarde.",
         answer: "Hurry up; otherwise we'll be late.",
         altAnswers: [
           "Hurry up, otherwise we'll be late.",

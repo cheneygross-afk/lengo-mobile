@@ -291,7 +291,7 @@ export const EN_A2_U20: Lesson[] = [
           { es: "I don't like coffee either.", en: "Tampoco me gusta el café." },
           { es: "She can't swim either.", en: "Ella tampoco sabe nadar." },
           { es: "I'm not tired. Me neither.", en: "No estoy cansado. Yo tampoco." },
-          { es: "I don't have a car. I don't either.", en: "No tengo coche. Yo tampoco." },
+          { es: "I don't have a car. I don't either.", en: "No tengo carro. Yo tampoco." },
           { es: "He didn't call either.", en: "Él tampoco llamó." },
         ],
         checkpoint: [
@@ -1111,7 +1111,7 @@ export const EN_A2_U20: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "¿Me prestas tu coche?",
+            source: "¿Me prestas tu carro?",
             answer: "Can I borrow your car?",
             altAnswers: [
               "Could I borrow your car?",

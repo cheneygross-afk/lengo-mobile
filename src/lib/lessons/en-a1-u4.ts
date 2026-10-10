@@ -262,7 +262,7 @@ export const EN_A1_U4: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "Normalmente voy al trabajo en coche.",
+            source: "Normalmente voy al trabajo en carro.",
             answer: "I usually drive to work.",
             altAnswers: ["I usually go to work by car.", "Usually I drive to work.", "Usually I go to work by car."],
             explanation: "Es un hábito (\"usually\"), así que va en presente simple, no en continuo.",

@@ -101,10 +101,10 @@ export const EN_A2_U16_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Mi abuela conduce muy despacio.",
+        source: "Mi abuela maneja muy despacio.",
         answer: "My grandmother drives very slowly.",
         altAnswers: ["My grandma drives very slowly.", "My grandmother drives really slowly.", "My grandma drives really slowly."],
-        explanation: "«Despacio» describe cómo conduce: adverbio \"slowly\". \"Drives slow\" se oye, pero \"slowly\" es la forma correcta.",
+        explanation: "«Despacio» describe cómo maneja: adverbio \"slowly\". \"Drives slow\" se oye, pero \"slowly\" es la forma correcta.",
       },
       {
         type: "translate",
@@ -764,7 +764,7 @@ export const EN_A2_U16_EXTRA: Lesson[] = [
       {
         heading: "Recordatorio: too… to, enough to, for + persona",
         body: [
-          "Para decir qué no se puede hacer (o qué sí) se añade \"to\" + verbo: \"too tired to drive\" (demasiado cansado para conducir), \"old enough to vote\" (con edad para votar). El español dice «para conducir», pero el inglés dice \"to drive\", nunca *for drive.",
+          "Para decir qué no se puede hacer (o qué sí) se añade \"to\" + verbo: \"too tired to drive\" (demasiado cansado para manejar), \"old enough to vote\" (con edad para votar). El español dice «para manejar», pero el inglés dice \"to drive\", nunca *for drive.",
           "A quién afecta se dice con \"for\" + persona: \"This coat is too big for me\" (este abrigo me queda demasiado grande).",
         ],
         examples: [
@@ -798,7 +798,7 @@ export const EN_A2_U16_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Este coche es demasiado caro para nosotros.",
+        source: "Este carro es demasiado caro para nosotros.",
         answer: "This car is too expensive for us.",
         explanation: "\"Too expensive\" (demasiado caro) y \"for us\" (para nosotros).",
       },

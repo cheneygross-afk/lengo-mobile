@@ -572,7 +572,7 @@ export const EN_B1_U18: Lesson[] = [
         examples: [
           { es: "Spanish is spoken here.", en: "Aquí se habla español." },
           { es: "The bridge was built in 1890.", en: "El puente se construyó en 1890." },
-          { es: "My car is being repaired.", en: "Están reparando mi coche." },
+          { es: "My car is being repaired.", en: "Están reparando mi carro." },
           { es: "All the tickets have been sold.", en: "Se han vendido todas las entradas." },
           { es: "The new hospital will be opened next year.", en: "El nuevo hospital se inaugurará el año que viene." },
           { es: "This song was written by a teenager.", en: "Esta canción la escribió una adolescente." },
@@ -650,7 +650,7 @@ export const EN_B1_U18: Lesson[] = [
           { es: "The woman who lives next door is a nurse.", en: "La mujer que vive al lado es enfermera." },
           { es: "This is the book I told you about.", en: "Este es el libro del que te hablé." },
           { es: "That's the restaurant where we met.", en: "Ese es el restaurante donde nos conocimos." },
-          { es: "The man whose car was stolen called the police.", en: "El hombre cuyo coche robaron llamó a la policía." },
+          { es: "The man whose car was stolen called the police.", en: "El hombre cuyo carro robaron llamó a la policía." },
           { es: "The phone that I bought last week doesn't work.", en: "El teléfono que compré la semana pasada no funciona." },
         ],
         checkpoint: [
@@ -728,7 +728,7 @@ export const EN_B1_U18: Lesson[] = [
         sentence: "My car ___ at the moment.",
         answer: "is being repaired",
         altAnswers: ["is being fixed"],
-        en: "Mi coche [está en reparación] en este momento.",
+        en: "Mi carro [está en reparación] en este momento.",
         explanation: "An action in progress in the passive is \"is being\" + participle: \"is being repaired\".",
       },
       {
@@ -1178,13 +1178,13 @@ export const EN_B1_U18: Lesson[] = [
         heading: "«Se vende», «me lo arreglaron» and «cuyo»",
         body: [
           "Impersonal «se» is often a passive: «se vende» = \"for sale\" on a sign, \"is sold\" in a sentence; «se dice que» = \"it is said that\" or simply \"people say that\".",
-          "«Me arreglaron el coche» (someone did it for me) is \"I had my car fixed\". «Cuyo» is \"whose\", and «lo que» is \"what\" (or \"which\" after a comma).",
+          "«Me arreglaron el carro» (someone did it for me) is \"I had my car fixed\". «Cuyo» is \"whose\", and «lo que» is \"what\" (or \"which\" after a comma).",
         ],
         examples: [
           { es: "House for sale.", en: "Se vende casa." },
           { es: "Bread is sold here.", en: "Aquí se vende pan." },
           { es: "People say it's the best restaurant in town.", en: "Se dice que es el mejor restaurante de la ciudad." },
-          { es: "I had my car fixed.", en: "Me arreglaron el coche." },
+          { es: "I had my car fixed.", en: "Me arreglaron el carro." },
           { es: "The writer whose book I'm reading is Chilean.", en: "El escritor cuyo libro estoy leyendo es chileno." },
         ],
         checkpoint: [
@@ -1842,7 +1842,7 @@ export const EN_B1_U18: Lesson[] = [
           { es: "He's very sensitive to criticism.", en: "Es muy sensible a las críticas." },
           { es: "I borrowed this book from the library.", en: "Saqué este libro de la biblioteca." },
           { es: "There's a great bookstore near my house.", en: "Hay una librería estupenda cerca de mi casa." },
-          { es: "My father worked in a car factory.", en: "Mi padre trabajó en una fábrica de coches." },
+          { es: "My father worked in a car factory.", en: "Mi padre trabajó en una fábrica de carros." },
           { es: "The concert was a huge success.", en: "El concierto fue un gran éxito." },
         ],
         checkpoint: [

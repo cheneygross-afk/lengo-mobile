@@ -314,7 +314,7 @@ export const EN_C2_U02: Lesson[] = [
           { es: "The guarantors are jointly and severally liable.", en: "Los avalistas son responsables solidarios." },
           { es: "She is responsible for health and safety at the plant.", en: "Ella es la responsable de seguridad y salud en la planta." },
           { es: "Nothing in this Agreement limits liability for death or personal injury caused by negligence.", en: "Nada de lo dispuesto en el presente Contrato limitará la responsabilidad por muerte o lesiones causadas por negligencia." },
-          { es: "Anyone who parks here is liable to a fine.", en: "Quien aparque aquí se expone a una multa." },
+          { es: "Anyone who parks here is liable to a fine.", en: "Quien estacione aquí se expone a una multa." },
         ],
         checkpoint: [
           {
@@ -1234,7 +1234,7 @@ export const EN_C2_U02: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "A Spanish friend who is moving to Manchester asks you: «¿Tendré que ir al notario para alquilar un piso y abrir una cuenta?» Write a short reply in English explaining that a notary is rarely needed in the UK and who does what.",
+        prompt: "A Spanish friend who is moving to Manchester asks you: «¿Tendré que ir al notario para rentar un departamento y abrir una cuenta?» Write a short reply in English explaining that a notary is rarely needed in the UK and who does what.",
         minWords: 60,
         maxWords: 110,
         rubric: [
@@ -1503,10 +1503,10 @@ export const EN_C2_U02: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El casero no puede entrar en el piso sin avisar con 24 horas de antelación, salvo en caso de emergencia.",
-        answer: "The landlord cannot enter the flat without giving 24 hours' notice, except in an emergency.",
+        source: "El casero no puede entrar en el departamento sin avisar con 24 horas de antelación, salvo en caso de emergencia.",
+        answer: "The landlord cannot enter the apartment without giving 24 hours' notice, except in an emergency.",
         altAnswers: [
-          "The landlord cannot enter the apartment without giving 24 hours' notice, except in an emergency.",
+          "The landlord cannot enter the flat without giving 24 hours' notice, except in an emergency.",
           "The landlord can't enter the flat without giving 24 hours' notice, except in an emergency.",
           "The landlord may not enter the flat without giving 24 hours' notice, except in an emergency.",
           "The landlord may not enter the apartment without giving 24 hours' notice, except in an emergency.",
@@ -1904,7 +1904,7 @@ export const EN_C2_U02: Lesson[] = [
         body: [
           "Ana is about to sign a contract to supply translation services to a London agency. Before signing, she goes through it with her solicitor, Mr Hughes. (In the UK a \"solicitor\" advises clients and prepares documents; in the US the same person is an \"attorney\" or simply a \"lawyer\". Spanish «abogado» covers both.)",
           "The most useful question is \"What exactly does this clause commit me to?\". \"Commit someone to something\" means to bind them to it, so it is the natural English for «¿a qué me obliga esta cláusula?». Other good openers: \"Could you walk me through clause 9?\", \"In practical terms, what does this mean for me?\", \"Where does that leave me if the agency goes bust?\".",
-          "Watch the word order in indirect questions, a frequent Spanish-speaker slip: *What means this clause? and *Can you tell me what means this? are wrong; say \"What does this clause mean?\" and \"Can you tell me what this means?\".",
+          "Watch the word order in questions, a frequent Spanish-speaker slip: a direct question needs \"does\" (*What means this clause?), and an indirect question keeps statement order with no \"does\" (*Can you tell me what means this?). Say \"What does this clause mean?\" and \"Can you tell me what this means?\".",
           "To check your understanding, use \"Am I right in thinking that...?\" or \"So, if I understand correctly, ...\". These sound careful, not ignorant.",
         ],
         examples: [
@@ -2240,7 +2240,7 @@ export const EN_C2_U02: Lesson[] = [
           { es: "Re: Penalty Charge Notice AB12345678", en: "Asunto: Multa n.º AB12345678" },
           { es: "Dear Sir or Madam,", en: "Muy señores míos:" },
           { es: "I am writing to appeal against the decision to refuse my application.", en: "Les escribo para recurrir la decisión de denegar mi solicitud." },
-          { es: "I am writing to appeal the parking fine issued on 4 March.", en: "Les escribo para recurrir la multa de aparcamiento impuesta el 4 de marzo." },
+          { es: "I am writing to appeal the parking fine issued on 4 March.", en: "Les escribo para recurrir la multa de estacionamiento impuesta el 4 de marzo." },
           { es: "I wish to challenge the penalty on the following grounds.", en: "Deseo impugnar la sanción por los siguientes motivos." },
         ],
         checkpoint: [
@@ -2249,9 +2249,9 @@ export const EN_C2_U02: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Les escribo para recurrir la decisión de denegar mi solicitud de beca.",
-            answer: "I am writing to appeal against the decision to refuse my scholarship application.",
+            answer: "I am writing to appeal the decision to refuse my scholarship application.",
             altAnswers: [
-              "I am writing to appeal the decision to refuse my scholarship application.",
+              "I am writing to appeal against the decision to refuse my scholarship application.",
               "I am writing to appeal against the decision to reject my scholarship application.",
               "I am writing to appeal the decision to reject my scholarship application.",
               "I am writing to appeal against the decision to refuse my application for a scholarship.",
@@ -2279,7 +2279,7 @@ export const EN_C2_U02: Lesson[] = [
           { es: "Firstly, the sign was hidden by a tree and could not be seen.", en: "En primer lugar, la señal estaba tapada por un árbol y no se veía." },
           { es: "Secondly, I was not given an opportunity to explain my situation.", en: "En segundo lugar, no se me dio la oportunidad de explicar mi situación." },
           { es: "I enclose photographs of the sign taken on the same day.", en: "Adjunto fotografías de la señal tomadas ese mismo día." },
-          { es: "As a result, I could not have known that parking was restricted.", en: "Por consiguiente, no podía saber que el aparcamiento estaba restringido." },
+          { es: "As a result, I could not have known that parking was restricted.", en: "Por consiguiente, no podía saber que el estacionamiento estaba restringido." },
         ],
         checkpoint: [
           {
@@ -2351,7 +2351,7 @@ export const EN_C2_U02: Lesson[] = [
           { es: "I therefore request that the penalty be cancelled.", en: "Por todo lo expuesto, solicito que se anule la sanción." },
           { es: "I would ask you to reconsider your decision.", en: "Les ruego que reconsideren su decisión." },
           { es: "I would be grateful if you could confirm this in writing.", en: "Les agradecería que me lo confirmaran por escrito." },
-          { es: "Please find enclosed a copy of my parking permit.", en: "Adjunto una copia de mi permiso de aparcamiento." },
+          { es: "Please find enclosed a copy of my parking permit.", en: "Adjunto una copia de mi permiso de estacionamiento." },
           { es: "Yours faithfully,", en: "Atentamente, (tras un saludo sin nombre)" },
           { es: "Yours sincerely,", en: "Atentamente, (tras un saludo con nombre)" },
         ],
@@ -2796,10 +2796,10 @@ export const EN_C2_U02: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Como consecuencia, he tenido que alquilar otro coche durante una semana.",
-        answer: "As a result, I have had to hire another car for a week.",
+        source: "Como consecuencia, he tenido que alquilar otro carro durante una semana.",
+        answer: "As a result, I have had to rent another car for a week.",
         altAnswers: [
-          "As a result, I have had to rent another car for a week.",
+          "As a result, I have had to hire another car for a week.",
           "As a consequence, I have had to hire another car for a week.",
           "As a consequence, I have had to rent another car for a week.",
           "Consequently, I have had to hire another car for a week.",

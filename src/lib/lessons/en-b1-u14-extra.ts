@@ -21,7 +21,7 @@ export const EN_B1_U14_EXTRA: Lesson[] = [
           "\"Be\" agrees with the subject: \"The window was broken\", \"The windows were broken\".",
         ],
         examples: [
-          { es: "The car was repaired yesterday.", en: "El coche se reparó ayer." },
+          { es: "The car was repaired yesterday.", en: "El carro se reparó ayer." },
           { es: "These shoes are made by hand.", en: "Estos zapatos están hechos a mano." },
           { es: "The windows were broken in the storm.", en: "Las ventanas se rompieron en la tormenta." },
           { es: "The email is sent every Monday.", en: "El correo se envía todos los lunes." },
@@ -296,7 +296,7 @@ export const EN_B1_U14_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi coche ha sido reparado.",
+        source: "Mi carro ha sido reparado.",
         answer: "My car has been repaired.",
         altAnswers: ["My car has been fixed.", "They've repaired my car.", "They have repaired my car.", "They've fixed my car."],
         explanation: "Present perfect passive: \"has been\" + participle. Spanish «ha sido reparado» matches it exactly.",
@@ -771,7 +771,7 @@ export const EN_B1_U14_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me robaron el móvil en el metro.",
+        source: "Me robaron el celular en el metro.",
         answer: "My phone was stolen on the subway.",
         altAnswers: [
           "My phone was stolen on the metro.",

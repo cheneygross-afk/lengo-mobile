@@ -230,7 +230,7 @@ export const EN_A2_U08_EXTRA: Lesson[] = [
           { es: "She is taller than me.", en: "Ella es más alta que yo." },
           { es: "You're older than him.", en: "Eres mayor que él." },
           { es: "They work harder than us.", en: "Trabajan más que nosotros." },
-          { es: "My car is faster than yours.", en: "Mi coche es más rápido que el tuyo." },
+          { es: "My car is faster than yours.", en: "Mi carro es más rápido que el tuyo." },
           { es: "Is the train cheaper than the bus?", en: "¿Es el tren más barato que el autobús?" },
         ],
         checkpoint: [
@@ -751,7 +751,7 @@ export const EN_A2_U08_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Mi bici es tan rápida como tu coche.",
+        source: "Mi bici es tan rápida como tu carro.",
         answer: "My bike is as fast as your car.",
         altAnswers: ["My bicycle is as fast as your car.", "My bike is as quick as your car."],
         explanation: "\"As fast as\": en afirmativa nunca *so fast as.",

@@ -515,7 +515,7 @@ export const EN_A1_U2_MORE: Lesson[] = [
           { es: "job", en: "trabajo" },
           { es: "jeans", en: "pantalones vaqueros" },
           { es: "June / July", en: "junio / julio" },
-          { es: "juice", en: "jugo, zumo" },
+          { es: "juice", en: "jugo" },
           { es: "Japan", en: "Japón" },
           { es: "orange", en: "naranja" },
         ],
@@ -1521,7 +1521,7 @@ export const EN_A1_U2_MORE: Lesson[] = [
         sentence: "Are you ___?",
         answer: "hungry",
         en: "¿Tienes [hambre]?",
-        explanation: "\"Hungry\" empieza con \"h\" aspirada; sin ella se parece a \"angry\" («enfadado»). Y el hambre va con \"to be\".",
+        explanation: "\"Hungry\" empieza con \"h\" aspirada; sin ella se parece a \"angry\" («enojado»). Y el hambre va con \"to be\".",
       },
       {
         type: "dictation",

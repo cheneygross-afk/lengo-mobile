@@ -23,7 +23,7 @@ export const EN_C1_U11: Lesson[] = [
           { es: "It's impossible to sleep with this noise.", en: "Es imposible dormir con este ruido. (incorrecto: *inpossible)" },
           { es: "These chairs are really uncomfortable.", en: "Estas sillas son muy incómodas. (incorrecto: *inconfortable)" },
           { es: "That was a completely irresponsible decision.", en: "Fue una decisión totalmente irresponsable. (incorrecto: *unresponsible)" },
-          { es: "It's illegal to park here after eight.", en: "Es ilegal aparcar aquí después de las ocho." },
+          { es: "It's illegal to park here after eight.", en: "Es ilegal estacionar aquí después de las ocho." },
           { es: "There's no need to bring anything; it's unnecessary.", en: "No hace falta traer nada; es innecesario." },
           { es: "The plan offers unlimited data for a fixed price.", en: "El plan ofrece datos ilimitados por un precio fijo." },
           { es: "His handwriting is almost illegible.", en: "Su letra es casi ilegible." },
@@ -57,8 +57,8 @@ export const EN_C1_U11: Lesson[] = [
           { es: "I'm afraid I have to disagree with you.", en: "Me temo que no estoy de acuerdo contigo." },
           { es: "I think you misunderstood the question.", en: "Creo que entendiste mal la pregunta." },
           { es: "Your name was misspelled on the certificate.", en: "Escribieron mal tu nombre en el certificado." },
-          { es: "The advert was misleading.", en: "El anuncio era engañoso." },
-          { es: "She works for a non-profit organization.", en: "Trabaja para una organización sin ánimo de lucro." },
+          { es: "The ad was misleading.", en: "El anuncio era engañoso." },
+          { es: "She works for a non-profit organization.", en: "Trabaja para una organización sin fines de lucro." },
           { es: "Public transport in the area is practically non-existent.", en: "El transporte público en la zona es prácticamente inexistente." },
           { es: "It was all a misunderstanding.", en: "Todo fue un malentendido." },
         ],
@@ -133,14 +133,14 @@ export const EN_C1_U11: Lesson[] = [
         body: [
           "\"counter-\" means against or opposite: \"counterproductive\" («contraproducente»), \"counterattack\", \"counterargument\". A \"counterpart\" is the person with the equivalent job in another organization («homólogo»): \"the Spanish minister met her French counterpart\".",
           "\"pseudo-\" means false or not genuine: \"pseudoscience\", \"pseudonym\" («seudónimo»). It sounds critical in front of most nouns: \"pseudo-intellectual\".",
-          "\"self-\" always takes a hyphen: \"self-employed\" («autónomo»), \"self-taught\" («autodidacta»), \"self-confident\", \"self-esteem\" («autoestima»), \"self-sufficient\", \"self-aware\". Spanish «auto-» is often the clue, but not always: «autoestima» is \"self-esteem\", never *autoesteem.",
+          "\"self-\" always takes a hyphen: \"self-employed\" («trabajador independiente»), \"self-taught\" («autodidacta»), \"self-confident\", \"self-esteem\" («autoestima»), \"self-sufficient\", \"self-aware\". Spanish «auto-» is often the clue, but not always: «autoestima» is \"self-esteem\", never *autoesteem.",
         ],
         examples: [
           { es: "Punishing them would be counterproductive.", en: "Castigarlos sería contraproducente." },
           { es: "The minister met her German counterpart in Brussels.", en: "La ministra se reunió con su homólogo alemán en Bruselas." },
           { es: "She published the novel under a pseudonym.", en: "Publicó la novela con seudónimo." },
           { es: "Astrology is a pseudoscience.", en: "La astrología es una pseudociencia." },
-          { es: "My father has been self-employed for twenty years.", en: "Mi padre lleva veinte años siendo autónomo." },
+          { es: "My father has been self-employed for twenty years.", en: "Mi padre lleva veinte años trabajando por su cuenta." },
           { es: "He's a self-taught guitarist.", en: "Es un guitarrista autodidacta." },
           { es: "Sport can do wonders for your self-esteem.", en: "El deporte puede hacer maravillas por tu autoestima." },
         ],
@@ -149,7 +149,7 @@ export const EN_C1_U11: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Mi hermana es autónoma desde 2019.",
+            source: "Mi hermana trabaja por su cuenta desde 2019.",
             answer: "My sister has been self-employed since 2019.",
             altAnswers: ["My sister has been freelance since 2019.", "My sister has been a freelancer since 2019.", "My sister has worked freelance since 2019.", "My sister has been working freelance since 2019."],
             explanation: "«Autónomo» is \"self-employed\" (or \"freelance\"). With «desde», English needs the present perfect: \"has been\", not \"is\".",
@@ -273,13 +273,13 @@ export const EN_C1_U11: Lesson[] = [
       {
         heading: "Making nouns: -ness, -ity, -ance/-ence, -hood, -ship",
         body: [
-          "Spanish «-idad» usually becomes \"-ity\": «curiosidad» / \"curiosity\", «fiabilidad» / \"reliability\", «capacidad» / \"ability\" or \"capacity\". But many English adjectives take \"-ness\" instead, especially short, everyday ones: \"happiness\", \"awareness\", \"weakness\", \"kindness\", \"willingness\". There is no safe rule, so learn the pair together.",
+          "Spanish «-idad» usually becomes \"-ity\": «curiosidad» / \"curiosity\", «confiabilidad» / \"reliability\", «capacidad» / \"ability\" or \"capacity\". But many English adjectives take \"-ness\" instead, especially short, everyday ones: \"happiness\", \"awareness\", \"weakness\", \"kindness\", \"willingness\". There is no safe rule, so learn the pair together.",
           "\"-ance\" and \"-ence\" correspond to «-ancia» and «-encia», and the Spanish vowel is usually a reliable guide: «importancia» / \"importance\", «independencia» / \"independence\", «existencia» / \"existence\". Watch the exceptions: «resistencia» is \"resistance\", and «apariencia» is \"appearance\".",
           "\"-hood\" makes nouns for a stage or state (\"childhood\", \"adulthood\", \"likelihood\" («probabilidad»), \"neighborhood\") and \"-ship\" for a relationship or position (\"friendship\", \"leadership\", \"relationship\", \"ownership\", \"citizenship\"). Spanish has no equivalent suffix, which is why these nouns are easy to forget.",
         ],
         examples: [
           { es: "There is a growing awareness of the problem.", en: "Hay una conciencia creciente del problema." },
-          { es: "Reliability is more important than speed.", en: "La fiabilidad es más importante que la velocidad." },
+          { es: "Reliability is more important than speed.", en: "La confiabilidad es más importante que la velocidad." },
           { es: "The country gained its independence in 1821.", en: "El país obtuvo la independencia en 1821." },
           { es: "She spent her childhood in Valparaiso.", en: "Pasó su infancia en Valparaíso." },
           { es: "What's the likelihood of that happening?", en: "¿Qué probabilidad hay de que pase eso?" },
@@ -292,7 +292,7 @@ export const EN_C1_U11: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "The ___ of the data is our main concern.",
             answer: "reliability",
-            en: "La [fiabilidad] de los datos es nuestra principal preocupación.",
+            en: "La [confiabilidad] de los datos es nuestra principal preocupación.",
             explanation: "reliable + \"-ity\" = \"reliability\": the e of \"-able\" disappears and \"-able\" becomes \"-abil-\".",
           },
           {
@@ -610,7 +610,7 @@ export const EN_C1_U11: Lesson[] = [
           { es: "The decision proved highly profitable.", en: "La decisión resultó muy rentable." },
           { es: "Our competitors underestimated the strength of local demand.", en: "Nuestros competidores subestimaron la fuerza de la demanda local." },
           { es: "Our flexibility allowed us to respond quickly.", en: "Nuestra flexibilidad nos permitió reaccionar rápido." },
-          { es: "The reliability of our network will be our main priority.", en: "La fiabilidad de nuestra red será nuestra principal prioridad." },
+          { es: "The reliability of our network will be our main priority.", en: "La confiabilidad de nuestra red será nuestra principal prioridad." },
         ],
         checkpoint: [
           {
@@ -723,7 +723,7 @@ export const EN_C1_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Nuestra principal prioridad es la fiabilidad.",
+        source: "Nuestra principal prioridad es la confiabilidad.",
         answer: "Our main priority is reliability.",
         altAnswers: ["Our top priority is reliability.", "Reliability is our main priority.", "Reliability is our top priority.", "Our first priority is reliability."],
         explanation: "rely → reliable → \"reliability\". No article before an abstract noun used in general.",
@@ -842,7 +842,7 @@ export const EN_C1_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Es ilegal usar el móvil mientras conduces.",
+        source: "Es ilegal usar el celular mientras manejas.",
         answer: "It's illegal to use your phone while you're driving.",
         altAnswers: [
           "It's illegal to use your phone while driving.",
@@ -931,7 +931,7 @@ export const EN_C1_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Es un sistema muy fiable, pero no es asequible para la mayoría.",
+        source: "Es un sistema muy confiable, pero no es asequible para la mayoría.",
         answer: "It's a very reliable system, but it isn't affordable for most people.",
         altAnswers: [
           "It's a very reliable system, but it's not affordable for most people.",
@@ -976,7 +976,7 @@ export const EN_C1_U11: Lesson[] = [
         ],
         examples: [
           { es: "She's a well-known journalist.", en: "Es una periodista muy conocida." },
-          { es: "Filling in these forms is really time-consuming.", en: "Rellenar estos formularios lleva muchísimo tiempo." },
+          { es: "Filling out these forms is really time-consuming.", en: "Llenar estos formularios lleva muchísimo tiempo." },
           { es: "There's a long-standing dispute between the neighbors.", en: "Hay una disputa que viene de lejos entre los vecinos." },
           { es: "My grandmother is surprisingly open-minded.", en: "Mi abuela es sorprendentemente abierta de mente." },
           { es: "The reform will have far-reaching consequences.", en: "La reforma tendrá consecuencias de gran alcance." },
@@ -1013,11 +1013,11 @@ export const EN_C1_U11: Lesson[] = [
         ],
         examples: [
           { es: "We're going on a two-week holiday to Greece.", en: "Nos vamos de vacaciones dos semanas a Grecia. (incorrecto: *a two-weeks holiday)" },
-          { es: "It's a five-minute walk from the station.", en: "Está a cinco minutos andando de la estación." },
+          { es: "It's a five-minute walk from the station.", en: "Está a cinco minutos caminando de la estación." },
           { es: "They have a ten-year-old daughter.", en: "Tienen una hija de diez años." },
           { es: "Their daughter is ten years old.", en: "Su hija tiene diez años." },
           { es: "I sat through a three-hour meeting.", en: "Aguanté una reunión de tres horas." },
-          { es: "It's about an hour's drive from here.", en: "Está a una hora en coche de aquí." },
+          { es: "It's about an hour's drive from here.", en: "Está a una hora en carro de aquí." },
         ],
         checkpoint: [
           {
@@ -1183,7 +1183,7 @@ export const EN_C1_U11: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["It's", "a", "five-minute", "walk", "from", "the", "hotel."],
-        translation: "Está a cinco minutos andando del hotel.",
+        translation: "Está a cinco minutos caminando del hotel.",
         explanation: "\"A five-minute walk\": number + singular noun as an adjective before \"walk\".",
       },
       {
@@ -1330,13 +1330,13 @@ export const EN_C1_U11: Lesson[] = [
       {
         heading: "carpet, library, exit, success, deception and compromise",
         body: [
-          "Places and things: a \"carpet\" is «alfombra» or «moqueta» (a \"rug\" is a small one); «carpeta» is a \"folder\" or \"file\". A \"library\" is «biblioteca»; «librería» is a \"bookstore\" (US) or \"bookshop\" (UK). An \"exit\" is «salida»; «éxito» is \"success\" (or \"a hit\" for a song or film).",
+          "Places and things: a \"carpet\" is «alfombra» (a \"rug\" is a small one); «carpeta» is a \"folder\" or \"file\". A \"library\" is «biblioteca»; «librería» is a \"bookstore\" (US) or \"bookshop\" (UK). An \"exit\" is «salida»; «éxito» is \"success\" (or \"a hit\" for a song or film).",
           "\"Success\" itself is «éxito», but «suceso» is \"event\" or \"incident\". \"Deception\" is «engaño»; «decepción» is \"disappointment\": \"The film was a big disappointment\".",
           "A \"compromise\" is an agreement where both sides give something up («acuerdo», «término medio», «transigir»): \"We reached a compromise\". «Compromiso» is usually \"commitment\" («nuestro compromiso con el medio ambiente»), \"engagement\" (to marry) or \"prior engagement\" («tengo un compromiso»). As a verb, \"compromise\" can also mean «poner en peligro»: \"compromise security\".",
         ],
         examples: [
           { es: "Put the documents in the blue folder.", en: "Pon los documentos en la carpeta azul." },
-          { es: "We've just had a new carpet fitted.", en: "Acabamos de poner moqueta nueva." },
+          { es: "We've just had a new carpet fitted.", en: "Acabamos de poner alfombra nueva." },
           { es: "I bought it at a bookstore near the university.", en: "Lo compré en una librería cerca de la universidad." },
           { es: "The concert was a huge success.", en: "El concierto fue un éxito enorme." },
           { es: "The film was a real disappointment.", en: "La película fue una auténtica decepción." },
@@ -1360,7 +1360,7 @@ export const EN_C1_U11: Lesson[] = [
               { left: "library", right: "biblioteca" },
               { left: "bookstore", right: "librería" },
               { left: "folder", right: "carpeta" },
-              { left: "carpet", right: "alfombra, moqueta" },
+              { left: "carpet", right: "alfombra" },
               { left: "exit", right: "salida" },
             ],
             explanation: "\"Library\" and \"carpet\" look like «librería» and «carpeta», but they mean «biblioteca» and «alfombra».",
@@ -1420,7 +1420,7 @@ export const EN_C1_U11: Lesson[] = [
         sentence: "Wear ___ shoes; we're going to walk a lot.",
         answer: "comfortable",
         altAnswers: ["sensible", "practical"],
-        en: "Ponte zapatos [cómodos]; vamos a andar mucho.",
+        en: "Ponte zapatos [cómodos]; vamos a caminar mucho.",
         explanation: "«Cómodos» = \"comfortable\", but \"sensible shoes\" (practical, comfortable shoes) is just as natural here. Remember: \"sensible\" means «sensato», never «sensible».",
       },
       {
@@ -1449,9 +1449,9 @@ export const EN_C1_U11: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Mi jefe fue muy comprensivo cuando mi madre estuvo enferma.",
-        answer: "My boss was very sympathetic when my mother was ill.",
+        answer: "My boss was very sympathetic when my mother was sick.",
         altAnswers: [
-          "My boss was very sympathetic when my mother was sick.",
+          "My boss was very sympathetic when my mother was ill.",
           "My boss was very understanding when my mother was ill.",
           "My boss was very understanding when my mother was sick.",
           "My boss was really sympathetic when my mother was ill.",
@@ -1542,7 +1542,7 @@ export const EN_C1_U11: Lesson[] = [
         examples: [
           { es: "All our relatives came to the wedding.", en: "Todos nuestros familiares vinieron a la boda." },
           { es: "This fabric is very soft.", en: "Esta tela es muy suave." },
-          { es: "My uncle works in a car factory.", en: "Mi tío trabaja en una fábrica de coches." },
+          { es: "My uncle works in a car factory.", en: "Mi tío trabaja en una fábrica de carros." },
           { es: "She got a scholarship to study in Boston.", en: "Le dieron una beca para estudiar en Boston." },
           { es: "The school year starts in September.", en: "El año escolar empieza en septiembre." },
           { es: "They recorded the album in two weeks.", en: "Grabaron el disco en dos semanas." },
@@ -1636,7 +1636,7 @@ export const EN_C1_U11: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "Taking part ___ working at weekends.",
+            sentence: "Taking part ___ working on weekends.",
             answer: "involves",
             altAnswers: ["means", "entails", "requires"],
             en: "Participar [implica] trabajar los fines de semana.",
@@ -1661,7 +1661,7 @@ export const EN_C1_U11: Lesson[] = [
           "An \"argument\" is usually a quarrel, an angry disagreement («discusión», «pelea»): \"My parents had an argument\". It can also be a line of reasoning («argumento»): \"a strong argument\". But the story of a film or book is the \"plot\": «El argumento de la película» is \"the plot of the film\".",
         ],
         examples: [
-          { es: "The barrier prevents cars from entering.", en: "La barrera impide que entren coches." },
+          { es: "The barrier prevents cars from entering.", en: "La barrera impide que entren carros." },
           { es: "I warned you it would be cold.", en: "Ya te previne de que haría frío." },
           { es: "She won a photography contest.", en: "Ganó un concurso de fotografía." },
           { es: "He still hasn't answered my email.", en: "Todavía no ha contestado a mi correo." },
@@ -1941,7 +1941,7 @@ export const EN_C1_U11: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "El ayuntamiento va a introducir nuevas normas de aparcamiento.",
+            source: "El ayuntamiento va a introducir nuevas normas de estacionamiento.",
             answer: "The city council is going to introduce new parking rules.",
             altAnswers: [
               "The council is going to introduce new parking rules.",
@@ -2219,8 +2219,8 @@ export const EN_C1_U11: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "La película fue una decepción total.",
-        answer: "The film was a total disappointment.",
-        altAnswers: ["The movie was a total disappointment.", "The film was a complete disappointment.", "The movie was a complete disappointment.", "The film was a huge disappointment.", "The movie was a huge disappointment.", "The film was totally disappointing.", "The movie was totally disappointing.", "The film was a real disappointment.", "The movie was a real disappointment."],
+        answer: "The movie was a total disappointment.",
+        altAnswers: ["The film was a total disappointment.", "The film was a complete disappointment.", "The movie was a complete disappointment.", "The film was a huge disappointment.", "The movie was a huge disappointment.", "The film was totally disappointing.", "The movie was totally disappointing.", "The film was a real disappointment.", "The movie was a real disappointment."],
         explanation: "«Decepción» = \"disappointment\"; \"deception\" = «engaño». Review: False Friends, Part 1.",
       },
       {
@@ -2267,7 +2267,7 @@ export const EN_C1_U11: Lesson[] = [
           { left: "remind", right: "recordar (a alguien)" },
           { left: "insert", right: "introducir (meter)" },
         ],
-        explanation: "Each Spanish verb has an English look-alike (envelop, involve, prevent, record, introduce) that does not fit this meaning. Review: False Friends, Part 2.",
+        explanation: "Each Spanish verb has an English look-alike (envelop, implicate, prevent, record, introduce) that does not fit this meaning. Review: False Friends, Part 2.",
       },
       {
         type: "translate",
@@ -2352,7 +2352,7 @@ export const EN_C1_U11: Lesson[] = [
           "Spanish uses one word, «económico», for both meanings, which is exactly why the error is so frequent: *an economical crisis or *an economic car.",
         ],
         examples: [
-          { es: "The principal reason is the cost.", en: "La razón principal es el coste." },
+          { es: "The principal reason is the cost.", en: "La razón principal es el costo." },
           { es: "I refused on principle.", en: "Me negué por principio." },
           { es: "In principle, the plan seems good.", en: "En principio, el plan parece bueno." },
           { es: "The country is going through an economic crisis.", en: "El país atraviesa una crisis económica." },
@@ -2365,7 +2365,7 @@ export const EN_C1_U11: Lesson[] = [
             sentence: "We bought a small, ___ car.",
             answer: "economical",
             altAnswers: ["cheap", "inexpensive", "fuel-efficient"],
-            en: "Compramos un coche pequeño y [económico].",
+            en: "Compramos un carro pequeño y [económico].",
             explanation: "A car that is cheap to run is \"economical\". \"Economic\" is about the economy.",
           },
           {
@@ -2420,7 +2420,7 @@ export const EN_C1_U11: Lesson[] = [
         examples: [
           { es: "It would be sensible to wait.", en: "Sería sensato esperar." },
           { es: "This is very sensitive information.", en: "Es información muy delicada." },
-          { es: "I keep losing my glasses.", en: "No paro de perder las gafas." },
+          { es: "I keep losing my glasses.", en: "No paro de perder los lentes." },
           { es: "These trousers are too loose.", en: "Estos pantalones me quedan demasiado holgados." },
           { es: "One of the screws is loose.", en: "Uno de los tornillos está flojo." },
         ],
@@ -2430,7 +2430,7 @@ export const EN_C1_U11: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "If we don't hurry, we'll ___ the train.",
             answer: "miss",
-            en: "Si no nos damos prisa, vamos a [perder] el tren.",
+            en: "Si no nos apuramos, vamos a [perder] el tren.",
             explanation: "Careful: you \"miss\" a train, a bus or a chance («perder» something you fail to catch). \"Lose\" is for things you can't find or games you don't win. Never \"loose\".",
           },
           {
@@ -2446,15 +2446,15 @@ export const EN_C1_U11: Lesson[] = [
         heading: "rise / raise / arise and lie / lay",
         body: [
           "\"Rise\" (rose, risen) is intransitive: something goes up by itself («subir», «aumentar»): \"Prices rose\". \"Raise\" (raised, raised) is transitive: you lift or increase something («subir», «levantar», «plantear»): \"They raised prices\", \"raise your hand\", \"raise an issue\". \"Arise\" (arose, arisen) means a problem or situation appears («surgir»): \"If any problems arise, call me\".",
-          "\"Lie\" (lay, lain) is intransitive: «estar tumbado», «tumbarse»: \"I lay on the beach all day\". \"Lay\" (laid, laid) is transitive: «poner», «colocar» something down: \"Lay the baby on the bed\", \"lay the table\". The trap is that the past of \"lie\" is \"lay\". And \"lie\" meaning «mentir» is regular: lied, lied.",
+          "\"Lie\" (lay, lain) is intransitive: «estar acostado», «acostarse»: \"I lay on the beach all day\". \"Lay\" (laid, laid) is transitive: «poner», «colocar» something down: \"Lay the baby on the bed\", \"lay the table\". The trap is that the past of \"lie\" is \"lay\". And \"lie\" meaning «mentir» is regular: lied, lied.",
           "Quick test: is there an object? With an object use \"raise\" or \"lay\"; without one, \"rise\" or \"lie\".",
         ],
         examples: [
-          { es: "Unemployment rose by two percent.", en: "El paro subió un dos por ciento." },
+          { es: "Unemployment rose by two percent.", en: "El desempleo subió un dos por ciento." },
           { es: "The government has raised taxes again.", en: "El gobierno ha vuelto a subir los impuestos." },
           { es: "She raised an important question.", en: "Planteó una cuestión importante." },
           { es: "A problem has arisen with your order.", en: "Ha surgido un problema con su pedido." },
-          { es: "I lay on the sofa and fell asleep.", en: "Me tumbé en el sofá y me quedé dormido." },
+          { es: "I lay on the sofa and fell asleep.", en: "Me acosté en el sofá y me quedé dormido." },
           { es: "She laid the documents on the table.", en: "Dejó los documentos sobre la mesa." },
         ],
         checkpoint: [
@@ -2538,8 +2538,8 @@ export const EN_C1_U11: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Es una película histórica sobre la Guerra Civil.",
-        answer: "It's a historical film about the Civil War.",
-        altAnswers: ["It's a historical movie about the Civil War.", "It is a historical film about the Civil War.", "It's a historical drama about the Civil War.", "It's a period film about the Civil War.", "It's a historical film on the Civil War."],
+        answer: "It's a historical movie about the Civil War.",
+        altAnswers: ["It's a historical film about the Civil War.", "It is a historical film about the Civil War.", "It's a historical drama about the Civil War.", "It's a period film about the Civil War.", "It's a historical film on the Civil War."],
         explanation: "A film set in the past = \"historical\". \"Historic\" would mean the film itself made history.",
       },
       {
@@ -2549,7 +2549,7 @@ export const EN_C1_U11: Lesson[] = [
           { left: "loose", right: "suelto, flojo" },
           { left: "lose", right: "perder" },
           { left: "lay", right: "poner, colocar" },
-          { left: "lie", right: "tumbarse" },
+          { left: "lie", right: "acostarse" },
           { left: "raise", right: "levantar, plantear" },
         ],
         explanation: "\"Lay\" and \"raise\" take an object; \"lie\" and \"rise\" do not.",
@@ -2558,7 +2558,7 @@ export const EN_C1_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Hice esta tarta expresamente para tu cumpleaños.",
+        source: "Hice este pastel expresamente para tu cumpleaños.",
         answer: "I made this cake specially for your birthday.",
         altAnswers: ["I made this cake specifically for your birthday.", "I baked this cake specially for your birthday.", "I baked this cake specifically for your birthday.", "I made this cake just for your birthday.", "I baked this cake just for your birthday."],
         explanation: "«Expresamente», for a particular purpose = \"specially\" (or \"specifically\"). \"Especially\" means «sobre todo», «en especial».",
@@ -2616,7 +2616,7 @@ export const EN_C1_U11: Lesson[] = [
           "Notice that the errors go both ways: Spanish speakers use \"in-\" where English has \"un-\" (*inconfortable) and, when they try to correct themselves, \"un-\" where English has \"in-\" (*unefficient). There is no shortcut: check the dictionary when you are not sure.",
         ],
         examples: [
-          { es: "It is impossible to live in a big city without a car.", en: "Es imposible vivir en una gran ciudad sin coche." },
+          { es: "It is impossible to live in a big city without a car.", en: "Es imposible vivir en una gran ciudad sin carro." },
           { es: "Public transport is inefficient and uncomfortable.", en: "El transporte público es ineficiente e incómodo." },
           { es: "Many drivers are irresponsible.", en: "Muchos conductores son irresponsables." },
           { es: "It is illegal to cycle on most main roads.", en: "Es ilegal ir en bici por la mayoría de las carreteras principales." },
@@ -2654,7 +2654,7 @@ export const EN_C1_U11: Lesson[] = [
         ],
         examples: [
           { es: "The economic situation has worsened.", en: "La situación económica ha empeorado." },
-          { es: "Unemployment is a big problem.", en: "El paro es un gran problema." },
+          { es: "Unemployment is a big problem.", en: "El desempleo es un gran problema." },
           { es: "Young people need more training.", en: "Los jóvenes necesitan más formación." },
           { es: "They lack motivation.", en: "Les falta motivación." },
           { es: "She has had a very successful career.", en: "Ha tenido una carrera de mucho éxito." },
@@ -2714,7 +2714,7 @@ export const EN_C1_U11: Lesson[] = [
               "I've attached the latest data.",
               "Please find the latest data attached.",
             ],
-            explanation: "«Actual» = \"current\" or \"latest\". \"Actual\" means «real»: \"the actual cost\" = «el coste real».",
+            explanation: "«Actual» = \"current\" or \"latest\". \"Actual\" means «real»: \"the actual cost\" = «el costo real».",
           },
           {
             type: "multiple-choice",
@@ -2754,7 +2754,7 @@ export const EN_C1_U11: Lesson[] = [
         sentence: "The ___ cost was much higher than the estimate.",
         answer: "actual",
         altAnswers: ["real", "final"],
-        en: "El coste [real] fue mucho más alto que el presupuesto.",
+        en: "El costo [real] fue mucho más alto que el presupuesto.",
         explanation: "\"Actual\" means «real», «efectivo». «Actual» (present) is \"current\".",
       },
       {
@@ -2836,7 +2836,7 @@ export const EN_C1_U11: Lesson[] = [
     slug: "c1-spiral-word-formation-nominalisation",
     level: "EN-C1",
     number: 12,
-    title: "Spiral Review: Word Formation and Nominalisation",
+    title: "Spiral Review: Word Formation and Nominalization",
     summary: "Turn verbs and adjectives into nouns, combine them with linking words like due to, despite and following, and rewrite everyday sentences in a formal register.",
     duration: "12 min",
     sections: [
@@ -2883,7 +2883,7 @@ export const EN_C1_U11: Lesson[] = [
         examples: [
           { es: "The complexity of the system discourages users.", en: "La complejidad del sistema desanima a los usuarios." },
           { es: "The availability of cheap flights has changed tourism.", en: "La disponibilidad de vuelos baratos ha cambiado el turismo." },
-          { es: "There is a growing awareness of mental health.", en: "Hay una creciente concienciación sobre la salud mental." },
+          { es: "There is a growing awareness of mental health.", en: "Hay una creciente concientización sobre la salud mental." },
           { es: "Water scarcity is a serious problem in the region.", en: "La escasez de agua es un problema grave en la región." },
         ],
         checkpoint: [
@@ -2930,7 +2930,7 @@ export const EN_C1_U11: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Debido a la huelga, se cancelaron todos los vuelos.",
-            answer: "Due to the strike, all flights were cancelled.",
+            answer: "Due to the strike, all flights were canceled.",
             altAnswers: [
               "Due to the strike, all the flights were cancelled.",
               "Because of the strike, all flights were cancelled.",
@@ -3042,10 +3042,10 @@ export const EN_C1_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La falta de concienciación es el principal obstáculo.",
+        source: "La falta de concientización es el principal obstáculo.",
         answer: "The lack of awareness is the main obstacle.",
         altAnswers: ["Lack of awareness is the main obstacle.", "A lack of awareness is the main obstacle.", "The lack of awareness is the biggest obstacle.", "Lack of awareness is the biggest obstacle.", "The lack of awareness is the principal obstacle.", "The lack of awareness is the main barrier.", "Lack of awareness is the main barrier."],
-        explanation: "aware → \"awareness\" («concienciación», «conciencia»). \"Lack of\" + noun is a key formal pattern.",
+        explanation: "aware → \"awareness\" («concientización», «conciencia»). \"Lack of\" + noun is a key formal pattern.",
       },
       {
         type: "fill-blank",
@@ -3133,7 +3133,7 @@ export const EN_C1_U11: Lesson[] = [
           "\"Data\" is uncountable in everyday English: \"The data is stored in the cloud\", \"a lot of data\", never *datas. In academic writing some people treat it as plural (\"the data are\"); both are accepted.",
         ],
         examples: [
-          { es: "The algorithm recommends videos based on your history.", en: "El algoritmo recomienda vídeos según tu historial." },
+          { es: "The algorithm recommends videos based on your history.", en: "El algoritmo recomienda videos según tu historial." },
           { es: "The bank suffered a massive data breach.", en: "El banco sufrió una filtración de datos masiva." },
           { es: "All messages are protected by end-to-end encryption.", en: "Todos los mensajes están protegidos con cifrado de extremo a extremo." },
           { es: "The files are encrypted before they are sent.", en: "Los archivos se cifran antes de enviarlos." },
@@ -3209,15 +3209,15 @@ export const EN_C1_U11: Lesson[] = [
         heading: "streamline and roll out",
         body: [
           "To \"streamline\" a process is to make it simpler and more efficient («agilizar», «simplificar», «racionalizar»): \"We've streamlined the application process\". It is very common in business English.",
-          "To \"roll out\" a product or service is to introduce it, often gradually («lanzar», «implantar», «desplegar»): \"The update will be rolled out next month\". The noun is one word: \"the rollout\" (or \"roll-out\"). Notice the same pattern as Lesson 5: a phrasal verb in two words, a compound noun in one.",
+          "To \"roll out\" a product or service is to introduce it, often gradually («lanzar», «implantar», «desplegar»): \"The update will be rolled out next month\". The noun is one word: \"the rollout\" (or \"roll-out\"). Notice the same pattern as in Compound Nouns and Adjectives: a phrasal verb in two words, a compound noun in one.",
           "Other common verbs: \"upgrade\" (improve to a newer version: «actualizar», «mejorar»), \"update\" (bring up to date), \"scale up\" («ampliar», «escalar»), \"phase out\" (gradually stop using: «eliminar progresivamente»).",
         ],
         examples: [
           { es: "The new system has streamlined our workflow.", en: "El nuevo sistema ha agilizado nuestro flujo de trabajo." },
           { es: "The feature will be rolled out across Europe in spring.", en: "La función se implantará en toda Europa en primavera." },
           { es: "The rollout was delayed by a technical glitch.", en: "El lanzamiento se retrasó por un fallo técnico." },
-          { es: "I need to upgrade my phone.", en: "Tengo que cambiar el móvil por uno mejor." },
-          { es: "Petrol cars will be phased out by 2035.", en: "Los coches de gasolina se irán eliminando de aquí a 2035." },
+          { es: "I need to upgrade my phone.", en: "Tengo que cambiar el celular por uno mejor." },
+          { es: "Gasoline cars will be phased out by 2035.", en: "Los carros de gasolina se irán eliminando de aquí a 2035." },
         ],
         checkpoint: [
           {
@@ -3257,9 +3257,9 @@ export const EN_C1_U11: Lesson[] = [
           "Spanish often borrows the English word or uses a long phrase: «hacer una copia de seguridad» is simply \"back up\"; «darse de baja» from a newsletter is \"unsubscribe\"; «trabajar sin conexión» is \"work offline\".",
         ],
         examples: [
-          { es: "It took ages to upload the video.", en: "Tardé muchísimo en subir el vídeo." },
+          { es: "It took ages to upload the video.", en: "Tardé muchísimo en subir el video." },
           { es: "You can read the articles offline.", en: "Puedes leer los artículos sin conexión." },
-          { es: "Try rebooting your computer.", en: "Prueba a reiniciar el ordenador." },
+          { es: "Try rebooting your computer.", en: "Intenta reiniciar la computadora." },
           { es: "Always back up your files.", en: "Haz siempre una copia de seguridad de tus archivos." },
           { es: "I forgot my login details.", en: "He olvidado mis datos de acceso." },
           { es: "I've unsubscribed from all those newsletters.", en: "Me he dado de baja de todos esos boletines." },

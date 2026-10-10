@@ -170,7 +170,7 @@ export const EN_A1_U8_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Ordena las palabras.",
         words: ["Those", "red", "cars", "are", "very", "fast."],
-        translation: "Esos coches rojos son muy rápidos.",
+        translation: "Esos carros rojos son muy rápidos.",
         explanation: "El adjetivo va delante del sustantivo y no lleva -s: \"those red cars\", nunca *those reds cars.",
       },
       {
@@ -776,7 +776,7 @@ export const EN_A1_U8_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Ordena las palabras.",
         words: ["I", "have", "a", "car,", "but", "I", "can't", "drive."],
-        translation: "Tengo coche, pero no sé conducir.",
+        translation: "Tengo carro, pero no sé manejar.",
         explanation: "\"But\" une dos frases que contrastan, y cada una tiene su sujeto \"I\".",
       },
       {

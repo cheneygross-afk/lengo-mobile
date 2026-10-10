@@ -613,7 +613,7 @@ export const EN_C2_U15: Lesson[] = [
         ],
         examples: [
           { es: "Sales increased by 5% last year.", en: "Las ventas aumentaron un 5 % el año pasado." },
-          { es: "Unemployment fell by two points to 11%.", en: "El paro bajó dos puntos, hasta el 11 %." },
+          { es: "Unemployment fell by two points to 11%.", en: "El desempleo bajó dos puntos, hasta el 11 %." },
           { es: "Revenue rose from 2 million to 2.5 million dollars.", en: "Los ingresos pasaron de 2 a 2,5 millones de dólares." },
           { es: "There was a 10% increase in complaints.", en: "Hubo un aumento del 10 % en las reclamaciones." },
           { es: "Inflation stood at 3.2% in June.", en: "La inflación se situó en el 3,2 % en junio." },
@@ -774,7 +774,7 @@ export const EN_C2_U15: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El paro bajó dos puntos, hasta el 11 %.",
+        source: "El desempleo bajó dos puntos, hasta el 11 %.",
         answer: "Unemployment fell by two points to 11%.",
         altAnswers: alts(
           ["Unemployment"],
@@ -861,7 +861,7 @@ export const EN_C2_U15: Lesson[] = [
               ["We'd be looking at", "We'd be talking about", "We'd be talking", "We're looking at", "We're talking about", "We're talking"],
               ["something in the region of", "something in the ballpark of", "something around", "something like", "around", "roughly", "about", "in the region of"],
               ["50,000 dollars.", "$50,000.", "fifty thousand dollars.", "fifty grand."],
-            ),
+            ).filter((s) => !/about about/.test(s)),
             explanation: "«Estaríamos hablando de» is \"We'd be looking at\" or \"We'd be talking about\". «Del orden de» is \"in the region of\", which softens the figure without weakening it.",
           },
           {
@@ -967,7 +967,7 @@ export const EN_C2_U15: Lesson[] = [
           "\"Bottom line\" has two meanings in negotiation: the lowest you will accept (\"What's your bottom line?\") and the essential point (\"The bottom line is, we need delivery by May\").",
         ],
         examples: [
-          { es: "Could you meet us halfway?", en: "¿Podrían ceder ustedes también y quedarnos a medio camino?" },
+          { es: "Could you meet us halfway?", en: "¿Podríamos llegar a un punto medio?" },
           { es: "Let's split the difference: 52,500.", en: "Partamos la diferencia: 52.500." },
           { es: "What if we paid half up front?", en: "¿Y si pagáramos la mitad por adelantado?" },
           { es: "I'd need to run that by my manager.", en: "Tendría que consultarlo con mi jefa." },
@@ -2012,7 +2012,7 @@ export const EN_C2_U15: Lesson[] = [
         examples: [
           { es: "Last year, our revenue grew by twenty percent.", en: "El año pasado, nuestros ingresos crecieron un veinte por ciento." },
           { es: "And the result? Forty percent. In six months.", en: "¿Y el resultado? Un cuarenta por ciento. En seis meses." },
-          { es: "The new system is faster, cheaper, and more reliable.", en: "El nuevo sistema es más rápido, más barato y más fiable." },
+          { es: "The new system is faster, cheaper, and more reliable.", en: "El nuevo sistema es más rápido, más barato y más confiable." },
           { es: "If there's one thing to remember, it's this.", en: "Si hay que recordar una sola cosa, es esta." },
         ],
         checkpoint: [
@@ -2106,7 +2106,7 @@ export const EN_C2_U15: Lesson[] = [
         sentence: "The new system is faster, cheaper, and more ___.",
         answer: "reliable",
         altAnswers: ["dependable"],
-        en: "El nuevo sistema es más rápido, más barato y más [fiable].",
+        en: "El nuevo sistema es más rápido, más barato y más [confiable].",
         explanation: "In a spoken list, the voice rises on \"faster\" and \"cheaper\" and falls on the last item, \"reliable\", stressed re-LI-a-ble.",
       },
       {
@@ -2134,7 +2134,7 @@ export const EN_C2_U15: Lesson[] = [
       {
         type: "speak",
         text: "Last year, our revenue grew by twenty percent. This year, we expect even more.",
-        tip: "Chunks: Last year / our revenue grew / by twenty percent. // This year / we expect / even more. Falling tone at each full stop.",
+        tip: "Chunks: Last year / our revenue grew / by twenty percent. // This year / we expect / even more. Falling tone at each period.",
         explanation: "Chunking and falling intonation at the end of statements make you sound confident and easy to follow.",
       },
     ],
@@ -2273,12 +2273,21 @@ export const EN_C2_U15: Lesson[] = [
         prompt: "Translate into English.",
         source: "Las acciones se desplomaron tras el anuncio, pero se han recuperado desde entonces.",
         answer: "The shares plummeted after the announcement, but they've recovered since then.",
-        altAnswers: alts(
-          ["The shares", "Shares", "The share price", "The stock", "The stock price"],
-          ["plummeted", "plunged", "collapsed", "crashed", "nosedived"],
-          ["after the announcement,", "following the announcement,"],
-          ["but they've recovered since then.", "but they've recovered since.", "but they've since recovered.", "but have recovered since then.", "but have since recovered.", "but it's recovered since then.", "but it's since recovered.", "but it's recovered since.", "but they've rebounded since then.", "but have since rebounded.", "but it's since rebounded.", "but they've since rebounded."],
-        ),
+        // Plural subjects take "they've", singular ones "it's".
+        altAnswers: [
+          ...alts(
+            ["The shares", "Shares"],
+            ["plummeted", "plunged", "collapsed", "crashed", "nosedived"],
+            ["after the announcement,", "following the announcement,"],
+            ["but they've recovered since then.", "but they've recovered since.", "but they've since recovered.", "but have recovered since then.", "but have since recovered.", "but they've rebounded since then.", "but have since rebounded.", "but they've since rebounded."],
+          ),
+          ...alts(
+            ["The share price", "The stock", "The stock price"],
+            ["plummeted", "plunged", "collapsed", "crashed", "nosedived"],
+            ["after the announcement,", "following the announcement,"],
+            ["but it's recovered since then.", "but it's since recovered.", "but it's recovered since.", "but has recovered since then.", "but has since recovered.", "but it's since rebounded.", "but has since rebounded."],
+          ),
+        ],
         explanation: "«Desplomarse» is \"plummet\" or \"plunge\"; «desde entonces» with a change that continues to now takes the present perfect.",
       },
       {

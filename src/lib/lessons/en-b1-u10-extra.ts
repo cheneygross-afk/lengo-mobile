@@ -77,7 +77,7 @@ export const EN_B1_U10_EXTRA: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Si tuviera un coche, te llevaría al aeropuerto.",
+            source: "Si tuviera un carro, te llevaría al aeropuerto.",
             answer: "If I had a car, I would take you to the airport.",
             altAnswers: ["If I had a car, I would drive you to the airport.", "I would take you to the airport if I had a car.", "I would drive you to the airport if I had a car."],
             explanation: "«Tuviera» tells you it is imaginary: second conditional, \"had\" + \"would take\". «Llevar» a person somewhere is \"take\" or \"drive\".",
@@ -235,7 +235,7 @@ export const EN_B1_U10_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si ganara más dinero, cambiaría de coche.",
+        source: "Si ganara más dinero, cambiaría de carro.",
         answer: "If I earned more money, I would change my car.",
         altAnswers: ["If I earned more money, I would get a new car.", "If I earned more money, I would buy a new car.", "If I made more money, I would change my car.", "If I made more money, I would get a new car.", "If I made more money, I would buy a new car.", "If I earned more, I would change my car."],
         explanation: "«Ganara» (unreal) = \"earned\" or \"made\"; the result is \"would\" + verb. \"Earn money\" or \"make money\", never *win money for a salary.",
@@ -397,7 +397,7 @@ export const EN_B1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Si yo fuera tú, no compraría ese coche.» Which is the best translation?",
+        question: "«Si yo fuera tú, no compraría ese carro.» Which is the best translation?",
         options: [
           "If I were you, I wouldn't buy that car.",
           "If I would be you, I wouldn't buy that car.",

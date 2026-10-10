@@ -131,7 +131,7 @@ export const EN_C1_U09_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say «Mañana hago el examen de conducir»?",
+        question: "How do you say «Mañana presento el examen de manejo»?",
         options: [
           "I'm taking my driving test tomorrow.",
           "I'm making my driving test tomorrow.",
@@ -197,7 +197,7 @@ export const EN_C1_U09_EXTRA: Lesson[] = [
           "I don't like taking risks with my money.",
           "I don't like to take risks with my money.",
         ],
-        explanation: "«Correr un riesgo» is \"take a risk\" (or the more formal \"run a risk\"). *Run risks is possible, but \"take risks\" is far more frequent.",
+        explanation: "«Correr un riesgo» is \"take a risk\" (or the more formal \"run a risk\"). \"Run risks\" is possible, but \"take risks\" is far more frequent.",
       },
       {
         type: "multiple-choice",
@@ -520,7 +520,7 @@ export const EN_C1_U09_EXTRA: Lesson[] = [
           { left: "deeply moved", right: "profundamente conmovido" },
           { left: "perfectly normal", right: "de lo más normal" },
           { left: "widely available", right: "fácil de encontrar" },
-          { left: "bitterly cold", right: "un frío que pela" },
+          { left: "bitterly cold", right: "un frío terrible" },
         ],
         explanation: "These adverb + adjective pairs are fixed: \"fully\" aware, \"highly\" unlikely, \"deeply\" moved, \"perfectly\" normal, \"widely\" available, \"bitterly\" cold.",
       },

@@ -167,7 +167,7 @@ export const EN_A1_U3_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "He washes the car on Sundays.",
         question: "¿Qué has oído?",
-        options: ["Lava el coche los domingos.", "Lavo el coche los domingos.", "Lava el coche hoy.", "Lavan el coche los domingos."],
+        options: ["Lava el carro los domingos.", "Lavo el carro los domingos.", "Lava el carro hoy.", "Lavan el carro los domingos."],
         correctIndex: 0,
         explanation: "\"He washes\": tercera persona del singular, con -es después de -sh.",
       },
@@ -202,7 +202,7 @@ export const EN_A1_U3_EXTRA: Lesson[] = [
         examples: [
           { es: "I don't like fish.", en: "No me gusta el pescado." },
           { es: "She doesn't work on Fridays.", en: "No trabaja los viernes." },
-          { es: "We don't have a car.", en: "No tenemos coche." },
+          { es: "We don't have a car.", en: "No tenemos carro." },
           { es: "It doesn't rain much here.", en: "Aquí no llueve mucho." },
           { es: "My brother doesn't drink coffee.", en: "Mi hermano no bebe café." },
         ],
@@ -402,7 +402,7 @@ export const EN_A1_U3_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Do you like jazz? Yes, I do.", en: "¿Te gusta el jazz? Sí." },
-          { es: "Does he have a car? No, he doesn't.", en: "¿Tiene coche? No." },
+          { es: "Does he have a car? No, he doesn't.", en: "¿Tiene carro? No." },
           { es: "Do they live here? Yes, they do.", en: "¿Viven aquí? Sí." },
         ],
         checkpoint: [
@@ -950,7 +950,7 @@ export const EN_A1_U3_EXTRA: Lesson[] = [
         examples: [
           { es: "I go home at six.", en: "Me voy a casa a las seis." },
           { es: "She goes to bed at ten.", en: "Se acuesta a las diez." },
-          { es: "We go to work by car.", en: "Vamos al trabajo en coche." },
+          { es: "We go to work by car.", en: "Vamos al trabajo en carro." },
           { es: "The kids go to school at eight.", en: "Los niños van al colegio a las ocho." },
         ],
         checkpoint: [

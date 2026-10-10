@@ -138,7 +138,7 @@ export const EN_B1_U13: Lesson[] = [
         examples: [
           { es: "I was wondering if you could help me.", en: "Me preguntaba si podrías ayudarme." },
           { es: "I was wondering if I could leave early today.", en: "Quería saber si podría salir antes hoy." },
-          { es: "Could you possibly lend me your car?", en: "¿Podrías prestarme tu coche? (muy cortés)" },
+          { es: "Could you possibly lend me your car?", en: "¿Podrías prestarme tu carro? (muy cortés)" },
           { es: "Would it be possible to change the date?", en: "¿Sería posible cambiar la fecha?" },
           { es: "I was wondering if you were free on Friday.", en: "Me preguntaba si estarías libre el viernes." },
         ],
@@ -230,7 +230,7 @@ export const EN_B1_U13: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me preguntaba si podrías prestarme tu coche.",
+        source: "Me preguntaba si podrías prestarme tu carro.",
         answer: "I was wondering if you could lend me your car.",
         altAnswers: ["I was wondering whether you could lend me your car."],
         explanation: "«Prestar» (to give for a time) is \"lend\"; \"borrow\" is «pedir prestado». Keep normal word order after \"if\".",
@@ -317,7 +317,7 @@ export const EN_B1_U13: Lesson[] = [
           { es: "Of course you can.", en: "Claro que puedes." },
           { es: "Certainly.", en: "Por supuesto." },
           { es: "I'm afraid not.", en: "Me temo que no." },
-          { es: "Sorry, you can't park here.", en: "Lo siento, aquí no se puede aparcar." },
+          { es: "Sorry, you can't park here.", en: "Lo siento, aquí no se puede estacionar." },
           { es: "I'm sorry, but you can't take photos in here.", en: "Lo siento, pero aquí dentro no se pueden hacer fotos." },
         ],
         checkpoint: [
@@ -351,7 +351,7 @@ export const EN_B1_U13: Lesson[] = [
           { es: "You're not allowed to smoke here.", en: "Aquí no se puede fumar." },
           { es: "Smoking isn't allowed.", en: "No se permite fumar." },
           { es: "Are we allowed to use a dictionary?", en: "¿Se puede usar diccionario?" },
-          { es: "Students aren't allowed to use their phones in class.", en: "Los alumnos no pueden usar el móvil en clase." },
+          { es: "Students aren't allowed to use their phones in class.", en: "Los alumnos no pueden usar el celular en clase." },
           { es: "My boss lets me work from home on Fridays.", en: "Mi jefe me deja trabajar desde casa los viernes." },
           { es: "Dogs are allowed in the park.", en: "Se permiten perros en el parque." },
         ],
@@ -402,7 +402,7 @@ export const EN_B1_U13: Lesson[] = [
           { es: "We weren't allowed to wear jeans at school.", en: "En el colegio no nos dejaban llevar vaqueros." },
           { es: "When I was a child, I could stay up late on Saturdays.", en: "De pequeño, los sábados podía acostarme tarde." },
           { es: "My parents didn't let me go out at night.", en: "Mis padres no me dejaban salir por la noche." },
-          { es: "Were you allowed to have a phone at school?", en: "¿Te dejaban tener móvil en el colegio?" },
+          { es: "Were you allowed to have a phone at school?", en: "¿Te dejaban tener celular en el colegio?" },
           { es: "The teacher was sick, so we were allowed to go home early.", en: "El profesor estaba enfermo, así que nos dejaron irnos a casa antes." },
           { es: "I wasn't allowed to go to the party.", en: "No me dejaron ir a la fiesta." },
         ],
@@ -475,7 +475,7 @@ export const EN_B1_U13: Lesson[] = [
         sentence: "Students ___ use their phones in class.",
         answer: "aren't allowed to",
         altAnswers: ["are not allowed to", "can't", "cannot", "are not permitted to"],
-        en: "Los alumnos [no pueden] usar el móvil en clase.",
+        en: "Los alumnos [no pueden] usar el celular en clase.",
         explanation: "For rules, \"aren't allowed to\" is very natural. Remember the \"to\" and the -ed in \"allowed\".",
       },
       {
@@ -494,7 +494,7 @@ export const EN_B1_U13: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Aquí no se puede aparcar.",
+        source: "Aquí no se puede estacionar.",
         answer: "You can't park here.",
         altAnswers: [
           "You're not allowed to park here.",
@@ -1229,9 +1229,9 @@ export const EN_B1_U13: Lesson[] = [
         examples: [
           { es: "It's necessary to wear a helmet. = You have to wear a helmet.", en: "Es obligatorio llevar casco." },
           { es: "It isn't necessary to bring food. = You don't have to bring food.", en: "No hace falta traer comida." },
-          { es: "It's forbidden to park here. = You mustn't park here.", en: "Está prohibido aparcar aquí." },
+          { es: "It's forbidden to park here. = You mustn't park here.", en: "Está prohibido estacionar aquí." },
           { es: "There's no need to call me. = You don't need to call me.", en: "No hace falta que me llames." },
-          { es: "Phones are not permitted. = You aren't allowed to use phones.", en: "No se permite usar el móvil." },
+          { es: "Phones are not permitted. = You aren't allowed to use phones.", en: "No se permite usar el celular." },
         ],
         checkpoint: [
           {
@@ -1276,7 +1276,7 @@ export const EN_B1_U13: Lesson[] = [
         examples: [
           { es: "It's a good idea to see a doctor. = You should see a doctor.", en: "Deberías ir al médico." },
           { es: "My advice is to take a taxi. = You ought to take a taxi.", en: "Te aconsejo que tomes un taxi." },
-          { es: "It's a bad idea to drive tonight. = You shouldn't drive tonight.", en: "No deberías conducir esta noche." },
+          { es: "It's a bad idea to drive tonight. = You shouldn't drive tonight.", en: "No deberías manejar esta noche." },
           { es: "If I were you, I'd call her. = You should call her.", en: "Yo que tú, la llamaría." },
         ],
         checkpoint: [
@@ -1445,7 +1445,7 @@ export const EN_B1_U13: Lesson[] = [
         sentence: "It was a mistake to buy that car. = I ___ that car.",
         answer: "shouldn't have bought",
         altAnswers: ["should not have bought"],
-        en: "[No debería haber comprado] ese coche.",
+        en: "[No debería haber comprado] ese carro.",
         explanation: "Past regret: \"shouldn't have\" + past participle. \"Bought\" is the participle of \"buy\".",
       },
       {
@@ -1513,7 +1513,7 @@ export const EN_B1_U13: Lesson[] = [
         body: [
           "Modals never change. There is no -s in the third person: \"He can swim\", not *He cans swim. The verb after the modal has no -s either: not *He can swims.",
           "Questions and negatives don't use \"do\": \"Can you help me?\", not *Do you can help me?; \"I can't swim\", not *I don't can swim. Just put the modal before the subject, or add \"not\".",
-          "Modals have no -ing form and no infinitive: *to can doesn't exist. Use \"be able to\" instead: \"I'd like to be able to drive\" («me gustaría saber conducir»).",
+          "Modals have no -ing form and no infinitive: *to can doesn't exist. Use \"be able to\" instead: \"I'd like to be able to drive\" («me gustaría saber manejar»).",
         ],
         examples: [
           { es: "He can swim.", en: "Sabe nadar." },
@@ -1521,7 +1521,7 @@ export const EN_B1_U13: Lesson[] = [
           { es: "Can you help me?", en: "¿Me puedes ayudar?" },
           { es: "I can't swim.", en: "No sé nadar." },
           { es: "Should I call him?", en: "¿Debería llamarlo?" },
-          { es: "I'd like to be able to drive.", en: "Me gustaría saber conducir." },
+          { es: "I'd like to be able to drive.", en: "Me gustaría saber manejar." },
         ],
         checkpoint: [
           {
@@ -1773,7 +1773,7 @@ export const EN_B1_U13: Lesson[] = [
             type: "listen-choose",
             audio: "I can't drive.",
             question: "What did you hear?",
-            options: ["No sé conducir.", "Sé conducir.", "No quiero conducir.", "No debo conducir."],
+            options: ["No sé manejar.", "Sé manejar.", "No quiero manejar.", "No debo manejar."],
             correctIndex: 0,
             explanation: "A strong, stressed vowel means \"can't\". \"Can\" in the middle of a sentence is weak and short.",
           },

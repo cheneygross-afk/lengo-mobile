@@ -1265,14 +1265,14 @@ export const EN_B2_U06: Lesson[] = [
         examples: [
           { es: "If I had gotten the job, I would be living in Boston now.", en: "Si me hubieran dado el trabajo, ahora estaría viviendo en Boston." },
           { es: "If I had moved to Boston, I wouldn't know any of my current friends.", en: "Si me hubiera mudado a Boston, no conocería a ninguno de mis amigos actuales." },
-          { es: "If she hadn't lost her phone, she would have my number.", en: "Si no hubiera perdido el móvil, tendría mi número." },
+          { es: "If she hadn't lost her phone, she would have my number.", en: "Si no hubiera perdido el celular, tendría mi número." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Si no hubiera perdido el móvil, tendría mi número.",
+            source: "Si no hubiera perdido el celular, tendría mi número.",
             answer: "If she hadn't lost her phone, she would have my number.",
             altAnswers: ["If he hadn't lost his phone, he would have my number.", "If she hadn't lost her phone, she'd have my number.", "If he hadn't lost his phone, he'd have my number.", "If you hadn't lost your phone, you would have my number.", "If she hadn't lost her cell phone, she would have my number.", "If he hadn't lost his cell phone, he would have my number."],
             explanation: "Mixed: past cause (\"hadn't lost\") + present result (\"would have my number\" = «tendría»). «Actual» means \"current\", by the way, not \"actual\".",
@@ -1419,7 +1419,7 @@ export const EN_B2_U06: Lesson[] = [
         examples: [
           { es: "If you heat ice, it melts.", en: "Si calientas hielo, se derrite." },
           { es: "If it rains, we'll stay in.", en: "Si llueve, nos quedaremos en casa." },
-          { es: "If I had a car, I'd drive to work.", en: "Si tuviera coche, iría al trabajo en coche." },
+          { es: "If I had a car, I'd drive to work.", en: "Si tuviera carro, iría al trabajo en carro." },
           { es: "If I had known, I'd have come.", en: "Si lo hubiera sabido, habría venido." },
           { es: "If I hadn't met you, I'd be single now.", en: "Si no te hubiera conocido, ahora estaría soltero." },
         ],
@@ -1446,7 +1446,7 @@ export const EN_B2_U06: Lesson[] = [
         ],
         examples: [
           { es: "I'll go unless it rains.", en: "Iré a menos que llueva." },
-          { es: "You can borrow my car as long as you bring it back tomorrow.", en: "Puedes llevarte mi coche siempre que me lo devuelvas mañana." },
+          { es: "You can borrow my car as long as you bring it back tomorrow.", en: "Puedes llevarte mi carro siempre que me lo devuelvas mañana." },
           { es: "Provided that you finish on time, you'll get a bonus.", en: "Siempre y cuando termines a tiempo, cobrarás una prima." },
           { es: "I'll go even if it rains.", en: "Iré aunque llueva." },
         ],
@@ -1455,7 +1455,7 @@ export const EN_B2_U06: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Puedes llevarte mi coche siempre que me lo devuelvas mañana.",
+            source: "Puedes llevarte mi carro siempre que me lo devuelvas mañana.",
             answer: "You can borrow my car as long as you bring it back tomorrow.",
             altAnswers: ["You can take my car as long as you bring it back tomorrow.", "You can borrow my car provided you bring it back tomorrow.", "You can borrow my car provided that you bring it back tomorrow.", "You can borrow my car as long as you give it back tomorrow.", "You can take my car as long as you give it back tomorrow.", "You can borrow my car as long as you return it tomorrow.", "You can borrow my car providing you bring it back tomorrow.", "You can take my car provided you bring it back tomorrow."],
             explanation: "«Siempre que» + subjuntivo (as a condition) = \"as long as\" or \"provided\" + present. «Llevarse prestado» = \"borrow\".",
@@ -1517,10 +1517,10 @@ export const EN_B2_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si tuviera coche, iría al trabajo en coche.",
+        source: "Si tuviera carro, iría al trabajo en carro.",
         answer: "If I had a car, I would drive to work.",
         altAnswers: ["If I had a car, I'd drive to work.", "If I had a car, I would go to work by car."],
-        explanation: "Second conditional. «Ir en coche» = \"drive\" (one verb in English).",
+        explanation: "Second conditional. «Ir en carro» = \"drive\" (one verb in English).",
       },
       {
         type: "translate",

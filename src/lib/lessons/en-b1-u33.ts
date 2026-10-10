@@ -536,17 +536,17 @@ export const EN_B1_U33: Lesson[] = [
       {
         heading: "Catch, miss and take the bus",
         body: [
-          "«Coger» or «tomar» the bus is \"take the bus\" for your usual way of traveling (\"I take the bus to work\") or \"catch the bus\" for getting a specific bus in time (\"I need to catch the 8:15\").",
+          "«Tomar» or «tomar» the bus is \"take the bus\" for your usual way of traveling (\"I take the bus to work\") or \"catch the bus\" for getting a specific bus in time (\"I need to catch the 8:15\").",
           "«Perder el autobús» is \"miss the bus\", never *lose the bus. You \"lose\" things like keys; you \"miss\" a bus, a train, a flight or a class.",
           "«Subir» and «bajar» depend on the vehicle. For buses, trains, planes, boats and bikes, use \"get on\" and \"get off\". For cars and taxis, where you can't stand up, use \"get in\" (or \"get into\") and \"get out of\".",
         ],
         examples: [
           { es: "I usually take the bus to school.", en: "Normalmente voy al colegio en autobús." },
           { es: "Hurry up or we'll miss the train!", en: "¡Date prisa o perderemos el tren!" },
-          { es: "I caught the last bus home.", en: "Cogí el último autobús a casa." },
+          { es: "I caught the last bus home.", en: "Tomé el último autobús a casa." },
           { es: "Get off at the third stop.", en: "Bájate en la tercera parada." },
           { es: "She got into a taxi outside the hotel.", en: "Se subió a un taxi delante del hotel." },
-          { es: "Get out of the car carefully.", en: "Sal del coche con cuidado." },
+          { es: "Get out of the car carefully.", en: "Sal del carro con cuidado." },
         ],
         checkpoint: [
           {
@@ -569,7 +569,7 @@ export const EN_B1_U33: Lesson[] = [
       {
         heading: "Giving someone a ride and getting around",
         body: [
-          "«Llevar a alguien en coche» is \"give someone a ride\" (US) or \"give someone a lift\" (UK): \"Can you give me a ride to the station?\" \"Pick someone up\" is «recoger» and \"drop someone off\" is «dejar» someone at a place.",
+          "«Llevar a alguien en carro» is \"give someone a ride\" (US) or \"give someone a lift\" (UK): \"Can you give me a ride to the station?\" \"Pick someone up\" is «recoger» and \"drop someone off\" is «dejar» someone at a place.",
           "With transport, use \"by\" with no article: \"by car\", \"by bus\", \"by train\", \"by plane\". The exception is walking: \"on foot\", not *by foot. Often we just use a verb: \"I walk to work\", \"I drive to work\".",
           "\"Drive\" is for cars, buses and trucks (you are the driver). \"Ride\" is for bikes, motorcycles and horses: \"She rides her bike to work.\"",
         ],
@@ -640,7 +640,7 @@ export const EN_B1_U33: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Súbete al coche, que te llevo.",
+        source: "Súbete al carro, que te llevo.",
         answer: "Get in the car, I'll give you a ride.",
         altAnswers: ["Get in the car. I'll give you a ride.", "Get in the car, I'll give you a lift.", "Get in the car. I'll give you a lift.", "Get into the car, I'll give you a ride.", "Get into the car, I'll give you a lift.", "Get in the car, I'll drive you.", "Get in the car. I'll drive you.", "Get in the car, I'll take you.", "Get in the car. I'll take you."],
         explanation: "For cars, «subirse» is \"get in\" (not *get on). A spontaneous offer uses \"will\": \"I'll give you a ride\".",
@@ -667,7 +667,7 @@ export const EN_B1_U33: Lesson[] = [
         type: "listen-choose",
         audio: "I got stuck in traffic for two hours.",
         question: "What did you hear?",
-        options: ["Estuve dos horas atascado en el tráfico.", "Tardé dos horas en llegar andando.", "Perdí el tren hace dos horas.", "Cogí dos autobuses para llegar."],
+        options: ["Estuve dos horas atascado en el tráfico.", "Tardé dos horas en llegar andando.", "Perdí el tren hace dos horas.", "Tomé dos autobuses para llegar."],
         correctIndex: 0,
         explanation: "\"Get stuck in traffic\" is «quedarse atascado». \"Stuck\" is the past participle of \"stick\".",
       },
@@ -812,7 +812,7 @@ export const EN_B1_U33: Lesson[] = [
         examples: [
           { es: "Stop showing off!", en: "¡Deja de presumir!" },
           { es: "He's such a show-off.", en: "Es un fanfarrón." },
-          { es: "She wanted to show off her new car.", en: "Quería presumir de coche nuevo." },
+          { es: "She wanted to show off her new car.", en: "Quería presumir de carro nuevo." },
           { es: "He's always bragging about how much he earns.", en: "Siempre está alardeando de lo que gana." },
         ],
         checkpoint: [
@@ -887,7 +887,7 @@ export const EN_B1_U33: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["He", "is", "always", "bragging", "about", "his", "car."],
-        translation: "Siempre está presumiendo de su coche.",
+        translation: "Siempre está presumiendo de su carro.",
         explanation: "\"Always\" goes after \"be\". \"Brag about\" something is «presumir de» something. You can also \"show off\" something (no \"about\").",
       },
       {
@@ -1326,7 +1326,7 @@ export const EN_B1_U33: Lesson[] = [
       {
         type: "multiple-choice",
         question: "A British friend says: \"I was sick on the bus.\" What happened?",
-        options: ["Vomitó en el autobús.", "Se enfadó en el autobús.", "Se durmió en el autobús.", "Se perdió en el autobús."],
+        options: ["Vomitó en el autobús.", "Se enojó en el autobús.", "Se durmió en el autobús.", "Se perdió en el autobús."],
         correctIndex: 0,
         explanation: "In British English \"be sick\" often means «vomitar». In American English \"I was sick\" usually means «estaba enfermo».",
       },
@@ -1687,7 +1687,7 @@ export const EN_B1_U33: Lesson[] = [
         examples: [
           { es: "She got promoted and now earns a much better salary.", en: "La ascendieron y ahora gana un sueldo mucho mejor." },
           { es: "We're moving out at the end of the month.", en: "Dejamos el piso a final de mes." },
-          { es: "I missed the bus, so my neighbor gave me a ride.", en: "Perdí el autobús, así que mi vecino me llevó en coche." },
+          { es: "I missed the bus, so my neighbor gave me a ride.", en: "Perdí el autobús, así que mi vecino me llevó en carro." },
           { es: "The rent went up again this year.", en: "El alquiler ha vuelto a subir este año." },
         ],
         checkpoint: [
@@ -1760,7 +1760,7 @@ export const EN_B1_U33: Lesson[] = [
         answer: "ride",
         altAnswers: ["lift"],
         en: "¿Me puedes [llevar] a la estación?",
-        explanation: "«Llevar a alguien en coche» is \"give someone a ride\" (US) or \"a lift\" (UK).",
+        explanation: "«Llevar a alguien en carro» is \"give someone a ride\" (US) or \"a lift\" (UK).",
       },
       {
         type: "multiple-choice",
@@ -1869,7 +1869,7 @@ export const EN_B1_U33: Lesson[] = [
           { es: "Have you ever eaten sushi?", en: "¿Has comido sushi alguna vez?" },
           { es: "When we got to the theater, the movie had already started.", en: "Cuando llegamos al cine, la película ya había empezado." },
           { es: "I used to play the guitar.", en: "Antes tocaba la guitarra." },
-          { es: "She isn't used to driving on the left.", en: "No está acostumbrada a conducir por la izquierda." },
+          { es: "She isn't used to driving on the left.", en: "No está acostumbrada a manejar por la izquierda." },
         ],
         checkpoint: [
           {
@@ -1909,7 +1909,7 @@ export const EN_B1_U33: Lesson[] = [
         examples: [
           { es: "I'm going to study medicine.", en: "Voy a estudiar medicina." },
           { es: "I'll call you as soon as I land.", en: "Te llamo en cuanto aterrice." },
-          { es: "If you hurry, you'll catch the bus.", en: "Si te das prisa, cogerás el autobús." },
+          { es: "If you hurry, you'll catch the bus.", en: "Si te das prisa, tomarás el autobús." },
           { es: "If I were you, I'd take the job.", en: "Yo que tú, aceptaría el trabajo." },
           { es: "If we had left earlier, we wouldn't have missed the flight.", en: "Si hubiéramos salido antes, no habríamos perdido el vuelo." },
           { es: "I wish I had more free time.", en: "Ojalá tuviera más tiempo libre." },
@@ -1928,7 +1928,7 @@ export const EN_B1_U33: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Si tuviera dinero, me compraría un coche.",
+            source: "Si tuviera dinero, me compraría un carro.",
             answer: "If I had money, I would buy a car.",
             altAnswers: ["If I had the money, I would buy a car.", "If I had money, I would buy myself a car.", "If I had the money, I would buy myself a car.", "I would buy a car if I had money.", "I would buy a car if I had the money.", "I would buy myself a car if I had money.", "If I had money, I'd buy a car.", "If I had the money, I'd buy a car.", "I'd buy a car if I had money.", "I'd buy a car if I had the money."],
             explanation: "Second conditional: \"if\" + past simple, \"would\" + verb. Never *if I would have money.",
@@ -2221,7 +2221,7 @@ export const EN_B1_U33: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Estaba haciendo fotos cuando me robaron el móvil.",
+            source: "Estaba haciendo fotos cuando me robaron el celular.",
             answer: "I was taking photos when someone stole my phone.",
             altAnswers: ["I was taking pictures when someone stole my phone.", "I was taking photos when somebody stole my phone.", "I was taking pictures when somebody stole my phone.", "I was taking photos when my phone was stolen.", "I was taking pictures when my phone was stolen.", "I was taking photos when my phone got stolen.", "I was taking pictures when my phone got stolen.", "I was taking photos when they stole my phone.", "I was taking pictures when they stole my phone."],
             explanation: "Past continuous for the background (\"was taking\"), past simple for the event (\"stole\"). «Hacer fotos» is \"take photos\".",

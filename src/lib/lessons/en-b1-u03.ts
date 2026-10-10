@@ -336,7 +336,7 @@ export const EN_B1_U03: Lesson[] = [
         examples: [
           { es: "By the time we got there, the party had ended.", en: "Para cuando llegamos, la fiesta había terminado." },
           { es: "By the time the police arrived, the thief had escaped.", en: "Para cuando llegó la policía, el ladrón se había escapado." },
-          { es: "She was angry because I had forgotten her birthday.", en: "Estaba enfadada porque me había olvidado de su cumpleaños." },
+          { es: "She was angry because I had forgotten her birthday.", en: "Estaba enojada porque me había olvidado de su cumpleaños." },
           { es: "He was tired because he hadn't slept.", en: "Estaba cansado porque no había dormido." },
         ],
         checkpoint: [
@@ -510,7 +510,7 @@ export const EN_B1_U03: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Estaba enfadada porque él había olvidado su cumpleaños.",
+        source: "Estaba enojada porque él había olvidado su cumpleaños.",
         answer: "She was angry because he had forgotten her birthday.",
         altAnswers: [
           "She was mad because he had forgotten her birthday.",
@@ -829,7 +829,7 @@ export const EN_B1_U03: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Al final encontré las llaves en el coche.",
+            source: "Al final encontré las llaves en el carro.",
             answer: "I eventually found the keys in the car.",
             altAnswers: [
               "I eventually found my keys in the car.",
@@ -1113,7 +1113,7 @@ export const EN_B1_U03: Lesson[] = [
         examples: [
           { es: "Her eyes were red because she had been crying.", en: "Tenía los ojos rojos porque había estado llorando." },
           { es: "The ground was wet because it had been raining.", en: "El suelo estaba mojado porque había estado lloviendo." },
-          { es: "His hands were dirty because he had been fixing the car.", en: "Tenía las manos sucias porque había estado arreglando el coche." },
+          { es: "His hands were dirty because he had been fixing the car.", en: "Tenía las manos sucias porque había estado arreglando el carro." },
         ],
         checkpoint: [
           {
@@ -1221,7 +1221,7 @@ export const EN_B1_U03: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["They", "had", "been", "driving", "for", "six", "hours."],
-        translation: "Llevaban seis horas conduciendo.",
+        translation: "Llevaban seis horas manejando.",
         explanation: "\"Had been\" + -ing + \"for\" + length of time.",
       },
       {
@@ -1715,7 +1715,7 @@ export const EN_B1_U03: Lesson[] = [
         ],
         examples: [
           { es: "I knew him very well.", en: "Lo conocía muy bien." },
-          { es: "I had a small car.", en: "Tenía un coche pequeño." },
+          { es: "I had a small car.", en: "Tenía un carro pequeño." },
           { es: "She didn't understand the question.", en: "No entendía la pregunta." },
           { es: "We wanted to leave.", en: "Queríamos irnos." },
         ],
@@ -1724,7 +1724,7 @@ export const EN_B1_U03: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Tenía un coche pequeño.",
+            source: "Tenía un carro pequeño.",
             answer: "I had a small car.",
             altAnswers: ["He had a small car.", "She had a small car.", "I had a little car.", "I used to have a small car."],
             explanation: "\"Have\" for possession is a state verb, so «tenía» is \"had\", not \"was having\".",

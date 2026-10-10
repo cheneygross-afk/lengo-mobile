@@ -650,7 +650,7 @@ export const EN_A2_U18_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "I love running. - I don't.", en: "Me encanta correr. - A mí no." },
-          { es: "I can't drive. - I can.", en: "No sé conducir. - Yo sí." },
+          { es: "I can't drive. - I can.", en: "No sé manejar. - Yo sí." },
           { es: "I work on Saturdays too.", en: "Yo también trabajo los sábados." },
           { es: "I don't work on Sundays either.", en: "Yo tampoco trabajo los domingos." },
         ],
@@ -667,7 +667,7 @@ export const EN_A2_U18_EXTRA: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "Yo tampoco tengo coche.",
+            source: "Yo tampoco tengo carro.",
             answer: "I don't have a car either.",
             altAnswers: ["I do not have a car either.", "I haven't got a car either."],
             explanation: "En la frase completa, «tampoco» es \"either\" al final de la negativa. No *I also don't have a car.",

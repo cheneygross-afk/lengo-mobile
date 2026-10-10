@@ -20,7 +20,7 @@ export const EN_B2_U08: Lesson[] = [
           "After all these modals, use the base form of the verb, without \"to\": \"must be\", \"might know\", \"can't have\". In Spanish you say «debe de ser», «puede que sea» or «no puede ser», so learners often add \"to\" or change the verb. English keeps it simple: modal + base form.",
         ],
         examples: [
-          { es: "She must be at work. Her car isn't here.", en: "Debe de estar en el trabajo. Su coche no está." },
+          { es: "She must be at work. Her car isn't here.", en: "Debe de estar en el trabajo. Su carro no está." },
           { es: "She might be at the gym.", en: "Puede que esté en el gimnasio." },
           { es: "He may know the answer.", en: "Puede que él sepa la respuesta." },
           { es: "It could be a mistake.", en: "Podría ser un error." },
@@ -152,7 +152,7 @@ export const EN_B2_U08: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "Carlos isn't answering. He ___ .",
             answer: "must be driving",
-            en: "Carlos no contesta. [Debe de estar conduciendo].",
+            en: "Carlos no contesta. [Debe de estar manejando].",
             explanation: "A deduction about an action in progress now: \"must\" + \"be\" + -ing.",
           },
         ],
@@ -269,7 +269,7 @@ export const EN_B2_U08: Lesson[] = [
         sentence: "This ___ the right address. It's a parking lot.",
         answer: "can't be",
         altAnswers: ["cannot be", "couldn't be"],
-        en: "Esta [no puede ser] la dirección correcta. Es un aparcamiento.",
+        en: "Esta [no puede ser] la dirección correcta. Es un estacionamiento.",
         explanation: "The evidence makes it impossible: \"can't be\".",
       },
       {
@@ -374,7 +374,7 @@ export const EN_B2_U08: Lesson[] = [
         ],
         examples: [
           { es: "She must have been sleeping.", en: "Debía de estar durmiendo." },
-          { es: "He might have been driving when you called.", en: "Puede que estuviera conduciendo cuando llamaste." },
+          { es: "He might have been driving when you called.", en: "Puede que estuviera manejando cuando llamaste." },
           { es: "They can't have been listening.", en: "No pueden haber estado escuchando." },
           { es: "You must have been waiting for ages.", en: "Debes de haber estado esperando muchísimo." },
           { es: "It must have been raining all night.", en: "Debe de haber estado lloviendo toda la noche." },
@@ -575,9 +575,9 @@ export const EN_B2_U08: Lesson[] = [
         examples: [
           { es: "I have to work tomorrow.", en: "Mañana tengo que trabajar." },
           { es: "This has to be the best pizza in town.", en: "Esta tiene que ser la mejor pizza de la ciudad." },
-          { es: "You mustn't park here.", en: "No puedes aparcar aquí. (prohibido)" },
+          { es: "You mustn't park here.", en: "No puedes estacionar aquí. (prohibido)" },
           { es: "You don't have to come.", en: "No hace falta que vengas." },
-          { es: "He can't be at home. His car is gone.", en: "No puede estar en casa. Su coche no está." },
+          { es: "He can't be at home. His car is gone.", en: "No puede estar en casa. Su carro no está." },
         ],
         checkpoint: [
           {
@@ -611,7 +611,7 @@ export const EN_B2_U08: Lesson[] = [
           { es: "I had to leave early.", en: "Tuve que irme pronto." },
           { es: "She must have left early.", en: "Debió de irse pronto. (supongo)" },
           { es: "He had to pay a fine.", en: "Tuvo que pagar una multa." },
-          { es: "He must have paid a lot for that car.", en: "Debió de pagar mucho por ese coche." },
+          { es: "He must have paid a lot for that car.", en: "Debió de pagar mucho por ese carro." },
           { es: "You should have left earlier.", en: "Deberías haberte ido antes. (crítica)" },
         ],
         checkpoint: [
@@ -1188,7 +1188,7 @@ export const EN_B2_U08: Lesson[] = [
           "Match the modal to the evidence: strong evidence for \"must\" or \"can't\", weak or no evidence for \"might\", \"may\" or \"could\".",
         ],
         examples: [
-          { es: "She must be at work. I saw her car in the parking lot.", en: "Debe de estar en el trabajo. Vi su coche en el aparcamiento." },
+          { es: "She must be at work. I saw her car in the parking lot.", en: "Debe de estar en el trabajo. Vi su carro en el estacionamiento." },
           { es: "He might be Italian. He has an Italian name.", en: "Puede que sea italiano. Tiene nombre italiano." },
           { es: "It can't be the battery. It's brand new.", en: "No puede ser la batería. Es nueva." },
           { es: "It could be the cable.", en: "Podría ser el cable." },
@@ -1342,7 +1342,7 @@ export const EN_B2_U08: Lesson[] = [
           { es: "I'm sure she isn't hungry. → She can't be hungry.", en: "Seguro que no tiene hambre." },
           { es: "Perhaps they're busy. → They might be busy.", en: "Quizás estén ocupados." },
           { es: "It's possible that he doesn't remember. → He may not remember.", en: "Es posible que no se acuerde." },
-          { es: "It's impossible that this is Ana's phone. → This can't be Ana's phone.", en: "Es imposible que este sea el móvil de Ana." },
+          { es: "It's impossible that this is Ana's phone. → This can't be Ana's phone.", en: "Es imposible que este sea el celular de Ana." },
         ],
         checkpoint: [
           {
@@ -1396,7 +1396,7 @@ export const EN_B2_U08: Lesson[] = [
           "Regular verbs are easy: \"must have missed\", \"might have called\". But be careful with pronunciation: \"missed\" ends in /t/, \"called\" in /d/, and the -ed is not a separate syllable.",
         ],
         examples: [
-          { es: "She must have lost her phone.", en: "Debe de haber perdido el móvil." },
+          { es: "She must have lost her phone.", en: "Debe de haber perdido el celular." },
           { es: "The cat might have hidden it.", en: "Puede que lo haya escondido el gato." },
           { es: "He must have fallen asleep.", en: "Se debió de quedar dormido." },
           { es: "They can't have chosen that color!", en: "¡No pueden haber elegido ese color!" },
@@ -1595,7 +1595,7 @@ export const EN_B2_U08: Lesson[] = [
           { es: "The window must have been broken from inside.", en: "La ventana debió de romperse desde dentro." },
           { es: "Mr. Brown can't have done it. He was at a wedding.", en: "El señor Brown no puede haberlo hecho. Estaba en una boda." },
           { es: "Emma could have done it. She knew the code.", en: "Emma podría haberlo hecho. Sabía el código." },
-          { es: "Tom must have been driving shortly before the police came.", en: "Tom debía de haber estado conduciendo poco antes de que llegara la policía." },
+          { es: "Tom must have been driving shortly before the police came.", en: "Tom debía de haber estado manejando poco antes de que llegara la policía." },
           { es: "He can't have been asleep.", en: "No puede haber estado dormido." },
         ],
         checkpoint: [
@@ -1736,7 +1736,7 @@ export const EN_B2_U08: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "His car engine was warm, so he ___ just before the police came.",
         answer: "must have been driving",
-        en: "El motor de su coche estaba caliente, así que [debía de haber estado conduciendo] justo antes de que llegara la policía.",
+        en: "El motor de su carro estaba caliente, así que [debía de haber estado manejando] justo antes de que llegara la policía.",
         explanation: "An action in progress before a past moment: \"must have been\" + -ing.",
       },
       {
@@ -2297,7 +2297,7 @@ export const EN_B2_U08: Lesson[] = [
         ],
         examples: [
           { es: "I have to renew my passport.", en: "Tengo que renovar el pasaporte." },
-          { es: "You mustn't use your phone while driving.", en: "No debes usar el móvil mientras conduces." },
+          { es: "You mustn't use your phone while driving.", en: "No debes usar el celular mientras manejas." },
           { es: "You don't have to dress up.", en: "No hace falta que te arregles." },
           { es: "You should see a doctor.", en: "Deberías ir al médico." },
           { es: "We didn't have to pay.", en: "No tuvimos que pagar." },
@@ -2593,7 +2593,7 @@ export const EN_B2_U08: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Tuve que llevar el coche al taller.",
+        source: "Tuve que llevar el carro al taller.",
         answer: "I had to take the car to the mechanic.",
         altAnswers: [
           "I had to take the car to the garage.",

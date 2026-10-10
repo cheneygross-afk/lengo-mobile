@@ -158,13 +158,13 @@ export const EN_C2_U04: Lesson[] = [
         heading: "Matching idioms to situations",
         body: [
           "Knowing what an idiom means is not enough; you need to know the situation it describes. \"Break the ice\" is for the awkward start of a meeting or party between people who don't know each other well; it is not a general verb for «empezar». \"Bite the bullet\" («hacer de tripas corazón», «apechugar») is for finally doing something unpleasant that you have been putting off.",
-          "\"The ball is in your court\" means that it is now the other person's turn to act or decide; notice that Spanish puts the ball on a roof («en tu tejado») and English on a tennis court. \"Back to square one\" («volver a empezar de cero») is for a plan that has failed completely. \"Call it a day\" means to stop working for now, and \"call it a night\" is its evening version.",
+          "\"The ball is in your court\" means that it is now the other person's turn to act or decide; in Spain the ball lands on a roof («en tu tejado»), while much of Latin America already says «en tu cancha», like the English tennis court. \"Back to square one\" («volver a empezar de cero») is for a plan that has failed completely. \"Call it a day\" means to stop working for now, and \"call it a night\" is its evening version.",
           "When two idioms look similar, check the situation: you \"bite the bullet\" about something you dread, but you \"take the plunge\" («lanzarse», «dar el paso») when you finally commit to something exciting but risky, like getting married or starting a business.",
         ],
         examples: [
           { es: "Let's play a quick game to break the ice.", en: "Juguemos a algo rápido para romper el hielo." },
           { es: "I finally bit the bullet and booked the dentist.", en: "Por fin hice de tripas corazón y pedí cita con el dentista." },
-          { es: "We've made our offer; the ball is in their court now.", en: "Ya hemos hecho nuestra oferta; ahora la pelota está en su tejado." },
+          { es: "We've made our offer; the ball is in their court now.", en: "Ya hemos hecho nuestra oferta; ahora la pelota está en su cancha." },
           { es: "The investors pulled out, so we're back to square one.", en: "Los inversores se retiraron, así que volvemos a estar como al principio." },
           { es: "It's nearly nine. Shall we call it a day?", en: "Son casi las nueve. ¿Lo dejamos por hoy?" },
           { es: "After years of talking about it, they took the plunge and opened a bakery.", en: "Tras años hablando de ello, se lanzaron y abrieron una panadería." },
@@ -291,7 +291,7 @@ export const EN_C2_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ya hemos hecho nuestra propuesta; ahora la pelota está en su tejado.",
+        source: "Ya hemos hecho nuestra propuesta; ahora la pelota está en su cancha.",
         answer: "We've made our proposal; now the ball is in their court.",
         altAnswers: [
           "We've made our proposal; the ball is in their court now.",
@@ -306,12 +306,12 @@ export const EN_C2_U04: Lesson[] = [
           "We've made our proposal; now the ball is in your court.",
           "We've made our proposal; the ball is in your court now.",
         ],
-        explanation: "The Spanish ball lands on a roof («tejado»), the English one on a tennis court: \"the ball is in their court\". *The ball is on their roof means nothing in English.",
+        explanation: "Here English and Latin American Spanish share the court image: \"the ball is in their court\" (in Spain the ball lands on a roof, «en su tejado», but *The ball is on their roof means nothing in English).",
       },
       {
         type: "listen-choose",
         audio: "Let's call it a day; we can finish this tomorrow.",
-        question: "¿Qué propone la persona?",
+        question: "What is the speaker suggesting?",
         options: [
           "Dejarlo por hoy y terminar mañana.",
           "Trabajar todo el día para terminar.",
@@ -346,7 +346,7 @@ export const EN_C2_U04: Lesson[] = [
           "Mixing the two halves sounds odd (*a spanner in the wrench) and using the wrong variety marks you as an outsider, though nobody will misunderstand you. Most of these pairs are understood everywhere thanks to film and television, but people tend to produce their own variety.",
         ],
         examples: [
-          { es: "He borrowed my car without asking and returned it empty. That really takes the biscuit.", en: "Se llevó mi coche sin pedírmelo y me lo devolvió sin gasolina. Esto ya es el colmo. (británico)" },
+          { es: "He borrowed my car without asking and returned it empty. That really takes the biscuit.", en: "Se llevó mi carro sin pedírmelo y me lo devolvió sin gasolina. Esto ya es el colmo. (británico)" },
           { es: "And then she blamed me for her mistake. That takes the cake!", en: "Y encima me echó la culpa de su error. ¡Es el colmo! (estadounidense)" },
           { es: "The rail strike has thrown a spanner in the works.", en: "La huelga de trenes nos ha fastidiado los planes. (británico)" },
           { es: "The new regulation threw a monkey wrench into our plans.", en: "La nueva normativa nos echó por tierra los planes. (estadounidense)" },
@@ -600,8 +600,9 @@ export const EN_C2_U04: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Yo me tomaría lo que dice con pinzas.",
-        answer: "I'd take what he says with a pinch of salt.",
+        answer: "I'd take what he says with a grain of salt.",
         altAnswers: [
+          "I'd take what he says with a pinch of salt.",
           "I'd take what she says with a pinch of salt.",
           "I'd take what he says with a grain of salt.",
           "I'd take what she says with a grain of salt.",
@@ -617,7 +618,7 @@ export const EN_C2_U04: Lesson[] = [
       {
         type: "listen-choose",
         audio: "When the coach got sick, one of the parents stepped up to the plate.",
-        question: "¿Qué hizo uno de los padres?",
+        question: "What did one of the parents do?",
         options: [
           "Se hizo cargo cuando hacía falta.",
           "Se puso a jugar al béisbol.",
@@ -643,7 +644,7 @@ export const EN_C2_U04: Lesson[] = [
           "States the delay and the new date clearly.",
           "Polite, professional tone.",
         ],
-        modelAnswer: "Hi Mark,\n\nI'm afraid a problem at our supplier has thrown a monkey wrench into our schedule, so your order will be a few days late. The good news is that the delay is small: as a ballpark figure, you should receive everything by March 14. I'll touch base again on Monday with a firm date.\n\nApologies for the inconvenience,\nSofia",
+        modelAnswer: "Hi Mark,\n\nI'm afraid a problem at our supplier has thrown a monkey wrench into our schedule, so your order will be a few days late. The good news is that the delay is small: as a ballpark figure, you should receive everything by March 14. I'll get back to you on Monday with a firm date.\n\nApologies for the inconvenience,\nSofia",
         explanation: "Choosing American variants for an American reader shows control of the regional map; keeping idioms to a minimum keeps the email professional.",
       },
     ],
@@ -667,7 +668,7 @@ export const EN_C2_U04: Lesson[] = [
         examples: [
           { es: "A storm in a cocktail glass", en: "Titular sobre una pelea trivial en un bar de moda (juego con \"a storm in a teacup\")." },
           { es: "Out of the frying pan, into the fryer", en: "Titular sobre un chef que pasa de un mal restaurante a otro peor (juego con \"out of the frying pan, into the fire\": de mal en peor)." },
-          { es: "The early bird catches the bus", en: "Titular sobre billetes más baratos a primera hora (juego con \"the early bird catches the worm\": a quien madruga, Dios le ayuda)." },
+          { es: "The early bird catches the bus", en: "Titular sobre boletos más baratos a primera hora (juego con \"the early bird catches the worm\": a quien madruga, Dios le ayuda)." },
           { es: "Every crowd has a silver lining", en: "Titular sobre un festival que da beneficios pese a la lluvia (juego con \"every cloud has a silver lining\": no hay mal que por bien no venga)." },
           { es: "Bard to the bone", en: "Titular sobre una obsesión por Shakespeare, \"the Bard\" (juego con \"bad to the bone\": malo hasta la médula)." },
         ],
@@ -800,7 +801,7 @@ export const EN_C2_U04: Lesson[] = [
         heading: "Irony: when an idiom changes its register",
         body: [
           "An idiom used sincerely in one context can be used ironically in another, and the irony shifts its meaning and register. \"The icing on the cake\" («la guinda del pastel») normally means a final pleasant extra, but after a disastrous day, \"And then it started to rain. That was the icing on the cake\" means the final blow. Spanish does exactly the same with «la guinda».",
-          "Speakers also signal irony by exaggerating a formal idiom in a trivial situation: calling a sibling's theft of the last biscuit \"a stab in the back\" is mock-tragic. And writers sometimes literalise an idiom for humour: \"The minister has finally let the cat out of the bag, and it turns out to be a very large cat\" keeps the image alive to suggest the secret is bigger than expected.",
+          "Speakers also signal irony by exaggerating a formal idiom in a trivial situation: calling a sibling's theft of the last cookie \"a stab in the back\" is mock-tragic. And writers sometimes literalise an idiom for humour: \"The minister has finally let the cat out of the bag, and it turns out to be a very large cat\" keeps the image alive to suggest the secret is bigger than expected.",
           "\"Went down like a lead balloon\" (British; American \"went over like a lead balloon\") means a joke or proposal was received very badly, and it is almost always used with a wry, self-mocking tone. Recognising irony depends on context and intonation, which is why it is easy to miss in a second language.",
         ],
         examples: [
@@ -814,7 +815,7 @@ export const EN_C2_U04: Lesson[] = [
           {
             type: "listen-choose",
             audio: "The car broke down, the hotel lost our booking, and then my phone died. That really was the icing on the cake.",
-            question: "¿Qué quiere decir la persona?",
+            question: "What does the speaker mean?",
             options: [
               "Que lo del teléfono fue el remate de un día desastroso.",
               "Que lo del teléfono fue lo mejor del día.",
@@ -1044,7 +1045,7 @@ export const EN_C2_U04: Lesson[] = [
           { es: "Hold your horses! We haven't even read the contract yet.", en: "¡Para el carro! Todavía ni hemos leído el contrato." },
           { es: "If I pick up the parcel when I visit my aunt, I'll kill two birds with one stone.", en: "Si recojo el paquete cuando visite a mi tía, mato dos pájaros de un tiro." },
           { es: "The missing key turned out to be a red herring.", en: "La llave desaparecida resultó ser una pista falsa." },
-          { es: "He'll apologise when pigs fly.", en: "Pedirá perdón cuando las ranas críen pelo." },
+          { es: "He'll apologize when pigs fly.", en: "Pedirá perdón cuando las ranas críen pelo." },
           { es: "The lion's share of the budget goes to marketing.", en: "La parte del león del presupuesto se va en marketing." },
         ],
         checkpoint: [
@@ -1086,7 +1087,7 @@ export const EN_C2_U04: Lesson[] = [
       {
         heading: "Weather",
         body: [
-          "\"Under the weather\" means slightly ill («pachucho», «indispuesto»). It is mild: you are \"under the weather\" with a cold, not with pneumonia. \"Steal someone's thunder\" means to take the attention or praise that should have gone to someone else («robarle el protagonismo a alguien»), often by doing or announcing something first.",
+          "\"Under the weather\" means slightly ill («indispuesto», «medio enfermo»). It is mild: you are \"under the weather\" with a cold, not with pneumonia. \"Steal someone's thunder\" means to take the attention or praise that should have gone to someone else («robarle el protagonismo a alguien»), often by doing or announcing something first.",
           "\"A storm in a teacup\" (US \"a tempest in a teapot\") is «una tormenta en un vaso de agua». \"Break the ice\" is the same in both languages. \"Come rain or shine\" means whatever happens («pase lo que pase», «llueva o truene»). \"Take a rain check\" (originally American) means to decline an invitation but suggest accepting it another time («dejarlo para otro día»).",
           "\"On cloud nine\" means extremely happy («en el séptimo cielo»). Notice that Spanish «estar en las nubes» means something different: to be absent-minded. A cloud in English can mean joy, while a Spanish cloud usually means distraction.",
         ],
@@ -1126,15 +1127,15 @@ export const EN_C2_U04: Lesson[] = [
         heading: "Food",
         body: [
           "\"A piece of cake\" is «pan comido»: English eats cake where Spanish eats bread. \"Spill the beans\" is «irse de la lengua» or «soltar prenda». \"In a nutshell\" means in a few words («en pocas palabras», «en resumen»). \"Bring home the bacon\" means to earn the family's money («ganarse el pan», «traer el pan a casa»).",
-          "\"Not my cup of tea\" is «no es lo mío», used for tastes and preferences. \"A hot potato\" is a controversial issue that nobody wants to handle («un tema candente», «una patata caliente» o «una papa caliente»). \"Take something with a pinch of salt\" (US \"a grain of salt\") is «tomárselo con pinzas». \"There's no use crying over spilled milk\" (British \"spilt milk\") is «a lo hecho, pecho».",
+          "\"Not my cup of tea\" is «no es lo mío», used for tastes and preferences. \"A hot potato\" is a controversial issue that nobody wants to handle («un tema candente», «una papa caliente»). \"Take something with a pinch of salt\" (US \"a grain of salt\") is «tomárselo con pinzas». \"There's no use crying over spilled milk\" (British \"spilt milk\") is «a lo hecho, pecho».",
           "\"The best thing since sliced bread\" is a humorous way of saying something is brilliant, often used ironically. And \"have your cake and eat it\" (US also \"have your cake and eat it too\") means to want two incompatible advantages at once («estar en misa y repicando», «querer nadar y guardar la ropa»).",
         ],
         examples: [
           { es: "Don't worry about the test; it'll be a piece of cake.", en: "No te preocupes por el examen; será pan comido." },
-          { es: "Come on, spill the beans! What did he say?", en: "Venga, ¡suéltalo! ¿Qué te dijo?" },
+          { es: "Come on, spill the beans! What did he say?", en: "Anda, ¡suéltalo! ¿Qué te dijo?" },
           { es: "In a nutshell, we need more time and more money.", en: "En pocas palabras, necesitamos más tiempo y más dinero." },
           { es: "Horror films aren't really my cup of tea.", en: "Las películas de terror no son lo mío." },
-          { es: "Immigration has become a political hot potato.", en: "La inmigración se ha convertido en una patata caliente política." },
+          { es: "Immigration has become a political hot potato.", en: "La inmigración se ha convertido en una papa caliente política." },
           { es: "It's no use crying over spilled milk; let's fix it.", en: "A lo hecho, pecho; vamos a solucionarlo." },
           { es: "You can't have your cake and eat it.", en: "No se puede estar en misa y repicando." },
         ],
@@ -1267,7 +1268,7 @@ export const EN_C2_U04: Lesson[] = [
       {
         type: "listen-choose",
         audio: "I'd love to come, but can I take a rain check? I've got too much on this week.",
-        question: "¿Qué responde la persona a la invitación?",
+        question: "How does the speaker answer the invitation?",
         options: [
           "Que no puede ahora, pero le gustaría ir en otra ocasión.",
           "Que irá aunque llueva.",
@@ -1307,7 +1308,7 @@ export const EN_C2_U04: Lesson[] = [
           { es: "I put my foot in it when I asked about his wife.", en: "Metí la pata al preguntarle por su mujer." },
           { es: "Sorry, what did you say? I was miles away.", en: "Perdona, ¿qué has dicho? Estaba en las nubes." },
           { es: "He's a nice guy, but he has his head in the clouds.", en: "Es buen chico, pero vive en las nubes." },
-          { es: "The driving test was a piece of cake.", en: "El examen de conducir fue pan comido." },
+          { es: "The driving test was a piece of cake.", en: "El examen de manejar fue pan comido." },
           { es: "For her, running a marathon is a walk in the park.", en: "Para ella, correr un maratón es pan comido." },
         ],
         checkpoint: [
@@ -1476,7 +1477,7 @@ export const EN_C2_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Venga, no te enfades, solo te estaba tomando el pelo.",
+        source: "Anda, no te enojes, solo te estaba tomando el pelo.",
         answer: "Come on, don't get angry, I was just pulling your leg.",
         altAnswers: [
           "Come on, don't get mad, I was just pulling your leg.",
@@ -1493,7 +1494,7 @@ export const EN_C2_U04: Lesson[] = [
           "Come on, don't get angry, I was only joking.",
           "Come on, don't get cross, I was just pulling your leg.",
         ],
-        explanation: "«Tomar el pelo» is \"pull someone's leg\". In the US \"get mad\" is the usual way to say «enfadarse»; \"cross\" is British.",
+        explanation: "«Tomar el pelo» is \"pull someone's leg\". In the US \"get mad\" is the usual way to say «enojarse»; \"cross\" is British.",
       },
       {
         type: "fill-blank",
@@ -1616,12 +1617,12 @@ export const EN_C2_U04: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Sorry, could you say that again? I was miles away.",
-        question: "¿Qué le pasaba a la persona?",
+        question: "What was the matter with the speaker?",
         options: [
           "Estaba distraída, en las nubes.",
           "Estaba muy lejos de casa.",
           "Estaba de viaje y no tenía cobertura.",
-          "Estaba enfadada y no quería escuchar.",
+          "Estaba enojada y no quería escuchar.",
         ],
         correctIndex: 0,
         explanation: "\"I was miles away\" means I wasn't paying attention, the everyday equivalent of «estaba en las nubes».",
@@ -1931,7 +1932,7 @@ export const EN_C2_U04: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Let's get the ball rolling with a quick update from each team.",
-        question: "¿Qué propone la persona?",
+        question: "What is the speaker suggesting?",
         options: [
           "Empezar la reunión con un breve resumen de cada equipo.",
           "Jugar un partido entre los equipos.",
@@ -1970,7 +1971,7 @@ export const EN_C2_U04: Lesson[] = [
           { es: "He says he'll pay me back next week. I'll believe it when I see it.", en: "Dice que me lo devolverá la semana que viene. Hasta que no lo vea, no me lo creo." },
           { es: "They promised to fix the road, but don't hold your breath.", en: "Prometieron arreglar la carretera, pero espera sentado." },
           { es: "Calling him a genius is a bit of a stretch.", en: "Llamarlo genio es mucho decir." },
-          { es: "Go on, I'm all ears.", en: "Venga, soy todo oídos." },
+          { es: "Go on, I'm all ears.", en: "Anda, cuéntame, soy todo oídos." },
           { es: "Don't worry, my lips are sealed.", en: "Tranquilo, soy una tumba." },
         ],
         checkpoint: [
@@ -2062,7 +2063,7 @@ export const EN_C2_U04: Lesson[] = [
         heading: "Reading between the lines",
         body: [
           "Idioms often carry a message that is never said directly. \"I'm not going to lie\" introduces criticism or an uncomfortable truth. \"With all due respect\" almost always precedes disagreement, sometimes strong. \"It's not rocket science\" implies the listener is making something simple sound difficult, and can sound condescending.",
-          "\"Let's agree to disagree\" ends an argument without either side giving in. \"I hear you\" acknowledges someone's point without agreeing to it. \"Fair enough\" accepts a point, often reluctantly («vale, de acuerdo», «es razonable»). \"We'll see\" from a parent usually means no.",
+          "\"Let's agree to disagree\" ends an argument without either side giving in. \"I hear you\" acknowledges someone's point without agreeing to it. \"Fair enough\" accepts a point, often reluctantly («está bien, de acuerdo», «es razonable»). \"We'll see\" from a parent usually means no.",
           "Tone matters too: \"Thanks a lot\" and \"That's just great\" are often ironic, and only intonation tells you. A Mastery listener interprets the speaker's real intention, not just the dictionary meaning.",
         ],
         examples: [
@@ -2071,18 +2072,18 @@ export const EN_C2_U04: Lesson[] = [
           { es: "It's not rocket science; just follow the instructions.", en: "No es tan difícil; solo sigue las instrucciones." },
           { es: "Okay, let's agree to disagree.", en: "Bueno, aceptemos que no estamos de acuerdo." },
           { es: "I hear you, but the budget is fixed.", en: "Entiendo lo que dices, pero el presupuesto es el que es." },
-          { es: "A: I can't come, I'm working late. B: Fair enough.", en: "A: No puedo ir, trabajo hasta tarde. B: Vale, es comprensible." },
+          { es: "A: I can't come, I'm working late. B: Fair enough.", en: "A: No puedo ir, trabajo hasta tarde. B: Está bien, es comprensible." },
         ],
         checkpoint: [
           {
             type: "listen-choose",
             audio: "I hear you, but we really can't change the deadline.",
-            question: "¿Qué actitud tiene la persona?",
+            question: "What is the speaker's attitude?",
             options: [
               "Entiende la queja, pero no va a cambiar nada.",
               "Está de acuerdo y va a cambiar la fecha.",
               "No ha oído bien lo que le dijeron.",
-              "Está enfadada y no quiere escuchar.",
+              "Está enojada y no quiere escuchar.",
             ],
             correctIndex: 0,
             explanation: "\"I hear you\" acknowledges the other person's point without accepting it; the \"but\" that follows carries the real message.",
@@ -2108,7 +2109,7 @@ export const EN_C2_U04: Lesson[] = [
           "Natives typically use one idiom in a sentence, often at the end, as a punchline or summary: \"We've done everything we can. The ball's in their court now.\" The rest of the sentence is plain. If you notice two idioms in one sentence, delete the weaker one.",
         ],
         examples: [
-          { es: "We've sent the final offer. The ball's in their court now.", en: "Hemos enviado la oferta final. Ahora la pelota está en su tejado." },
+          { es: "We've sent the final offer. The ball's in their court now.", en: "Hemos enviado la oferta final. Ahora la pelota está en su cancha." },
           { es: "It's a risky decision, but it's now or never.", en: "Es una decisión arriesgada, pero es ahora o nunca." },
           { es: "We need a completely new approach, and we need it fast.", en: "Necesitamos un enfoque totalmente nuevo, y rápido. (sin amontonar modismos)" },
         ],
@@ -2228,7 +2229,7 @@ export const EN_C2_U04: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Oh, thanks a lot. Now I have to do the whole thing again.",
-        question: "¿Cómo se siente la persona?",
+        question: "How does the speaker feel?",
         options: [
           "Molesta: el agradecimiento es irónico.",
           "Muy agradecida por la ayuda.",
@@ -2276,7 +2277,7 @@ export const EN_C2_U04: Lesson[] = [
           "No line contains more than one idiom.",
           "Informal, natural tone with short turns.",
         ],
-        modelAnswer: "Ana: Fancy a trip to the coast this weekend?\nTom: Count me in! Where are we staying?\nAna: That's still up in the air. Hotels are so expensive right now.\nTom: Tell me about it. I paid a fortune last month.\nAna: Let's look for a cheap guesthouse and play it by ear.\nTom: Sounds good. What about Lucia?\nAna: She said she'll come if she finishes her project.\nTom: Don't hold your breath, then!",
+        modelAnswer: "Ana: Want to take a trip to the coast this weekend?\nTom: Count me in! Where are we staying?\nAna: That's still up in the air. Hotels are so expensive right now.\nTom: Tell me about it. I paid a fortune last month.\nAna: Let's look for a cheap guesthouse and play it by ear.\nTom: Sounds good. What about Lucia?\nAna: She said she'll come if she finishes her project.\nTom: Don't hold your breath, then!",
         explanation: "Spreading idioms across turns, one at a time, is exactly how they appear in natural conversation.",
       },
     ],
@@ -2302,7 +2303,7 @@ export const EN_C2_U04: Lesson[] = [
           { es: "We need to nip this problem in the bud.", en: "Tenemos que cortar este problema de raíz. (incorrecto: *nip it in the butt)" },
           { es: "Whether he knew or not is a moot point now.", en: "Si lo sabía o no ya es una cuestión irrelevante. (incorrecto: *a mute point)" },
           { es: "Our city is a case in point.", en: "Nuestra ciudad es un buen ejemplo de ello. (incorrecto: *case and point)" },
-          { es: "It's a dog-eat-dog world out there.", en: "Ahí fuera es la ley de la selva. (incorrecto: *doggy-dog world)" },
+          { es: "It's a dog-eat-dog world out there.", en: "Allá afuera es la ley de la selva. (incorrecto: *doggy-dog world)" },
           { es: "The intern was made the scapegoat for the error.", en: "Convirtieron al estudiante en prácticas en el chivo expiatorio del error." },
           { es: "The director gave her free rein to redesign the website.", en: "El director le dio carta blanca para rediseñar la web. (incorrecto: *free reign)" },
         ],
@@ -2338,7 +2339,7 @@ export const EN_C2_U04: Lesson[] = [
         ],
         examples: [
           { es: "Honestly, I couldn't care less what they think.", en: "Sinceramente, me importa un bledo lo que piensen." },
-          { es: "Learning to drive in London is a whole other story.", en: "Aprender a conducir en Londres ya es otra historia." },
+          { es: "Learning to drive in London is a whole other story.", en: "Aprender a manejar en Londres ya es otra historia." },
           { es: "The investigation is homing in on the finance department.", en: "La investigación se está centrando en el departamento de finanzas." },
           { es: "Selling online is a whole different ballgame.", en: "Vender por internet es harina de otro costal. (estadounidense)" },
           { es: "Teaching adults is a different kettle of fish.", en: "Enseñar a adultos es harina de otro costal. (británico)" },
@@ -2553,11 +2554,11 @@ export const EN_C2_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Metí la pata hasta el fondo: le pregunté a mi jefa cuándo salía de cuentas, y no está embarazada.",
-        answer: "I really put my foot in it: I asked my boss when she was due, and she isn't pregnant.",
+        source: "Metí la pata hasta el fondo: le pregunté a mi jefa para cuándo esperaba al bebé, y no está embarazada.",
+        answer: "I really put my foot in my mouth: I asked my boss when she was due, and she isn't pregnant.",
         altAnswers: [
           "I really put my foot in it: I asked my boss when her baby was due, and she isn't pregnant.",
-          "I really put my foot in my mouth: I asked my boss when she was due, and she isn't pregnant.",
+          "I really put my foot in it: I asked my boss when she was due, and she isn't pregnant.",
           "I really put my foot in my mouth: I asked my boss when her baby was due, and she isn't pregnant.",
           "I really put my foot in it: I asked my boss when she was due, and she's not pregnant.",
           "I really put my foot in it: I asked my boss when her due date was, and she isn't pregnant.",
@@ -2567,7 +2568,7 @@ export const EN_C2_U04: Lesson[] = [
           "I really put my foot in it: I asked my boss when she was due, and she wasn't pregnant.",
           "I put my foot in it big time: I asked my boss when she was due, and she isn't pregnant.",
         ],
-        explanation: "«Meter la pata hasta el fondo» is \"really put your foot in it\" (US \"put your foot in your mouth\"). \"Be due\" is the idiom for «salir de cuentas».",
+        explanation: "«Meter la pata hasta el fondo» is \"really put your foot in it\" (US \"put your foot in your mouth\"). \"Be due\" is the idiom for «esperar al bebé para (una fecha)».",
       },
       {
         type: "multiple-choice",
@@ -2632,7 +2633,7 @@ export const EN_C2_U04: Lesson[] = [
         ],
         examples: [
           { es: "The remake can't hold a candle to the original.", en: "La nueva versión no tiene ni punto de comparación con la original." },
-          { es: "A few strings were pulled to get her the visa.", en: "Se movieron algunos hilos para conseguirle el visado." },
+          { es: "A few strings were pulled to get her the visa.", en: "Se movieron algunos hilos para conseguirle la visa." },
           { es: "Our nurses always go the extra mile.", en: "Nuestras enfermeras siempre van más allá de lo que se les pide." },
         ],
         checkpoint: [
@@ -2875,12 +2876,12 @@ export const EN_C2_U04: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Sorry, could you repeat the question? I was miles away.",
-        question: "¿Qué le pasaba a la persona?",
+        question: "What was the matter with the speaker?",
         options: [
           "Estaba distraída.",
           "Estaba de viaje.",
           "Estaba muy contenta.",
-          "Estaba enfadada.",
+          "Estaba enojada.",
         ],
         correctIndex: 0,
         explanation: "\"I was miles away\" means I wasn't paying attention («estaba en las nubes»), not that the speaker was far from home.",

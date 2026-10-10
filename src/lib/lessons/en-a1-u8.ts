@@ -15,13 +15,13 @@ export const EN_A1_U8: Lesson[] = [
       {
         heading: "This y that: cerca y lejos",
         body: [
-          "\"This\" señala algo que está cerca de ti: \"this book\" es «este libro». \"That\" señala algo que está más lejos: \"that car\" es «ese coche» o «aquel coche». El inglés solo tiene dos distancias, no tres como el español.",
+          "\"This\" señala algo que está cerca de ti: \"this book\" es «este libro». \"That\" señala algo que está más lejos: \"that car\" es «ese carro» o «aquel carro». El inglés solo tiene dos distancias, no tres como el español.",
           "No tienen género: \"this\" vale para este, esta y esto; \"that\" vale para ese, esa, eso, aquel y aquella.",
         ],
         examples: [
           { es: "This book is very good.", en: "Este libro es muy bueno." },
           { es: "This house is old.", en: "Esta casa es vieja." },
-          { es: "That car is new.", en: "Ese coche es nuevo." },
+          { es: "That car is new.", en: "Ese carro es nuevo." },
           { es: "That woman is my teacher.", en: "Aquella mujer es mi profesora." },
           { es: "What is this?", en: "¿Qué es esto?" },
         ],
@@ -40,7 +40,7 @@ export const EN_A1_U8: Lesson[] = [
             prompt: "Escribe en inglés las palabras en negrita.",
             sentence: "___ car is new.",
             answer: "That",
-            en: "[Ese] coche es nuevo.",
+            en: "[Ese] carro es nuevo.",
             explanation: "«Ese» y «aquel» son \"that\": algo que no está a tu lado.",
           },
         ],
@@ -57,7 +57,7 @@ export const EN_A1_U8: Lesson[] = [
           { es: "These apples are green.", en: "Estas manzanas son verdes." },
           { es: "Those people are my friends.", en: "Esas personas son mis amigos." },
           { es: "Those houses are very big.", en: "Aquellas casas son muy grandes." },
-          { es: "I like these red cars.", en: "Me gustan estos coches rojos." },
+          { es: "I like these red cars.", en: "Me gustan estos carros rojos." },
         ],
         checkpoint: [
           {
@@ -524,11 +524,11 @@ export const EN_A1_U8: Lesson[] = [
       {
         heading: "Posesivos, números y la hora",
         body: [
-          "«Su» no existe en inglés como palabra única: depende de quién es el dueño. \"His car\" es el coche de él; \"her car\" es el de ella; \"their car\" es el de ellos. Para decir «el coche de Ana» se usa \"Ana's car\".",
+          "«Su» no existe en inglés como palabra única: depende de quién es el dueño. \"His car\" es el carro de él; \"her car\" es el de ella; \"their car\" es el de ellos. Para decir «el carro de Ana» se usa \"Ana's car\".",
           "La hora se pregunta con \"What time is it?\" y se responde con \"it\": \"It's seven thirty\" o \"It's half past seven\".",
         ],
         examples: [
-          { es: "This is her car.", en: "Este es su coche (de ella)." },
+          { es: "This is her car.", en: "Este es su carro (de ella)." },
           { es: "That's Carlos's house.", en: "Esa es la casa de Carlos." },
           { es: "What time is it?", en: "¿Qué hora es?" },
           { es: "It's half past seven.", en: "Son las siete y media." },
@@ -555,7 +555,7 @@ export const EN_A1_U8: Lesson[] = [
           { es: "Where do you live?", en: "¿Dónde vives?" },
           { es: "What does she do?", en: "¿A qué se dedica?" },
           { es: "Do you like dancing?", en: "¿Te gusta bailar?" },
-          { es: "Can you drive?", en: "¿Sabes conducir?" },
+          { es: "Can you drive?", en: "¿Sabes manejar?" },
           { es: "Is there a pharmacy near here?", en: "¿Hay una farmacia cerca de aquí?" },
         ],
         checkpoint: [

@@ -282,7 +282,7 @@ export const EN_C2_U27: Lesson[] = [
     slug: "c2-env-politics-2",
     level: "EN-C2",
     number: 2,
-    title: "Environment and politics, Part 2 of 3: polarised and loaded language",
+    title: "Environment and politics, Part 2 of 3: polarized and loaded language",
     summary: "Loaded vs neutral wording (tax relief vs tax cuts, pro-life vs anti-abortion, illegals vs undocumented immigrants), framing, euphemism, dog whistles, and how to detect bias and rewrite it neutrally.",
     duration: "12 min",
     sections: [
@@ -658,7 +658,7 @@ export const EN_C2_U27: Lesson[] = [
               "Any party that has lost a by-election",
             ],
             correctIndex: 0,
-            explanation: "The Opposition is a formal role: the second-largest party in the Commons, with its own leader and Shadow Cabinet.",
+            explanation: "The Opposition is a formal role: the largest party not in government, with its own leader and Shadow Cabinet.",
           },
         ],
       },
@@ -833,7 +833,7 @@ export const EN_C2_U27: Lesson[] = [
         audio: "Every policy involves trade-offs, and pretending otherwise does voters no favors.",
         question: "What is the speaker's point?",
         options: [
-          "Es mejor reconocer abiertamente que toda política tiene costes.",
+          "Es mejor reconocer abiertamente que toda política tiene costos.",
           "Los votantes deberían recibir más ayudas.",
           "Las buenas políticas no tienen ningún inconveniente.",
           "Los políticos deberían hacer más favores a los votantes.",
@@ -847,7 +847,7 @@ export const EN_C2_U27: Lesson[] = [
         sentence: "The new ___ will ban the sale of new gasoline and diesel cars from 2035.",
         answer: "policy",
         altAnswers: ["measure", "law", "rule", "regulation"],
-        en: "La nueva [política] prohibirá la venta de coches nuevos de gasolina y diésel a partir de 2035.",
+        en: "La nueva [política] prohibirá la venta de carros nuevos de gasolina y diésel a partir de 2035.",
         explanation: "A specific plan or rule is a \"policy\". \"Politics\" is the activity and the field, and is never used for one plan.",
       },
       {
@@ -919,7 +919,7 @@ export const EN_C2_U27: Lesson[] = [
         heading: "Effects: what the warming does",
         body: [
           "Learn the effects as fixed phrases: \"rising sea levels\" (or \"sea-level rise\"), \"extreme weather events\", \"heatwaves\", \"droughts\", \"wildfires\", \"floods\" and \"flash floods\", \"crop failures\", \"water shortages\", \"melting glaciers\" and \"ocean acidification\".",
-          "Spanish speakers tend to translate every «incendio forestal» as \"forest fire\". That is correct, but news reports in the US, Canada and Australia say \"wildfire\" far more, especially when fire spreads across scrub, grassland or hills. Similarly «ola de calor» is \"heatwave\" (one word in modern usage).",
+          "Spanish speakers tend to translate every «incendio forestal» as \"forest fire\". That is correct, but news reports in the US, Canada and Australia say \"wildfire\" far more, especially when fire spreads across scrub, grassland or hills. Similarly «ola de calor» is \"heat wave\" (written as one word, \"heatwave\", in British English).",
           "Human consequences: people are \"displaced\" by floods; \"climate migrants\" or \"climate refugees\" leave areas that become \"uninhabitable\"; \"food security\" is \"under threat\". Note that \"climate refugee\" has no legal status, so careful writers often prefer \"climate migrant\" or \"people displaced by climate change\".",
         ],
         examples: [
@@ -961,8 +961,8 @@ export const EN_C2_U27: Lesson[] = [
       {
         heading: "Policies: what governments do",
         body: [
-          "Targets have their own verbs: you \"set\", \"meet\", \"hit\" or \"miss\" a target, and you can be \"on track to meet\" it. «Cumplir los objetivos» is \"meet the targets\", not *fulfil the targets or *accomplish the targets.",
-          "To end something gradually is to \"phase it out\": \"phase out coal\", \"phase out petrol cars\". The opposite is \"phase in\" (introduce gradually). Policy tools include a \"carbon tax\", \"emissions trading\" (a \"cap-and-trade\" scheme), \"subsidies\" for clean energy, and a \"ban\" on something: \"a ban on single-use plastics\".",
+          "Targets have their own verbs: you \"set\", \"meet\", \"hit\" or \"miss\" a target, and you can be \"on track to meet\" it. «Cumplir los objetivos» is \"meet the targets\", not *fulfill the targets or *accomplish the targets.",
+          "To end something gradually is to \"phase it out\": \"phase out coal\", \"phase out gas cars\". The opposite is \"phase in\" (introduce gradually). Policy tools include a \"carbon tax\", \"emissions trading\" (a \"cap-and-trade\" scheme), \"subsidies\" for clean energy, and a \"ban\" on something: \"a ban on single-use plastics\".",
           "Agreements: countries \"sign\", \"ratify\" and \"pull out of\" agreements and treaties; they \"pledge\" or \"commit to\" goals and are \"held to account\" when they fail. «Subvención» is \"subsidy\", not *subvention, which is very rare.",
         ],
         examples: [
@@ -1053,7 +1053,7 @@ export const EN_C2_U27: Lesson[] = [
           ["on track to meet", "on course to meet", "on track to hit"],
           ["its climate targets.", "their climate targets.", "its climate goals.", "their climate goals."],
         ),
-        explanation: "«Ir camino de» is \"be on track to\" + verb, and targets are \"met\". After \"none of\", both singular and plural verbs are acceptable.",
+        explanation: "«Ir camino de» is \"be on track to\" + verb, and targets are \"met\". \"No G20 country\" takes a singular verb and \"its\"; with \"None of the G20 countries\", both \"is\" and \"are\" are acceptable.",
       },
       {
         type: "fill-blank",
@@ -1098,11 +1098,11 @@ export const EN_C2_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La subvención a los coches eléctricos se retirará el año que viene.",
+        source: "La subvención a los carros eléctricos se retirará el año que viene.",
         answer: "The subsidy for electric cars will be withdrawn next year.",
         altAnswers: alts(
           ["The subsidy for electric cars", "The subsidy on electric cars", "The electric car subsidy", "The electric vehicle subsidy", "The subsidy for electric vehicles"],
-          ["will be withdrawn next year.", "will be scrapped next year.", "will be removed next year.", "will be phased out next year.", "will end next year.", "will be cut next year."],
+          ["will be withdrawn next year.", "will be scrapped next year.", "will be removed next year.", "will be phased out next year.", "will end next year."],
         ),
         explanation: "«Subvención» is \"subsidy\". The passive \"will be withdrawn\" matches the Spanish «se retirará».",
       },
@@ -1203,7 +1203,7 @@ export const EN_C2_U27: Lesson[] = [
         heading: "Adjectives: married to, interested in, responsible for, aware of",
         body: [
           "«Casado con» is \"married to\", never *married with. \"She is married to an engineer\"; \"She got married to him in 2010\" (or simply \"She married him\", with no preposition). «Interesado en» is \"interested in\" (this one matches), but «preocupado por» is \"worried about\" or \"concerned about\".",
-          "«Responsable de» is \"responsible for\": \"The agency is responsible for monitoring emissions.\" «Consciente de» is \"aware of\" or \"conscious of\". «Dependiente de» is \"dependent on\", and its opposite is \"independent of\" (here, and only here, English keeps \"of\").",
+          "«Responsable de» is \"responsible for\": \"The agency is responsible for monitoring emissions.\" «Consciente de» is \"aware of\" or \"conscious of\". «Dependiente de» is \"dependent on\", and its opposite is \"independent of\" (here English keeps \"of\", as in \"aware of\").",
           "Other adjectives that trip Spanish speakers: \"good at\" («bueno en»), \"different from\" (or American \"different than\"), \"similar to\", \"keen on\", \"capable of\", \"famous for\", \"angry with\" a person but \"angry about\" a situation.",
         ],
         examples: [
@@ -1211,7 +1211,7 @@ export const EN_C2_U27: Lesson[] = [
           { es: "The agency is responsible for monitoring emissions.", en: "La agencia es responsable de controlar las emisiones." },
           { es: "Most voters are aware of the risks.", en: "La mayoría de los votantes son conscientes de los riesgos." },
           { es: "The island is heavily dependent on tourism.", en: "La isla depende mucho del turismo." },
-          { es: "Residents are deeply concerned about the new motorway.", en: "Los vecinos están muy preocupados por la nueva autopista." },
+          { es: "Residents are deeply concerned about the new highway.", en: "Los vecinos están muy preocupados por la nueva autopista." },
           { es: "The region is famous for its wines.", en: "La región es famosa por sus vinos." },
         ],
         checkpoint: [
@@ -1253,8 +1253,8 @@ export const EN_C2_U27: Lesson[] = [
           { es: "Deforestation has a huge impact on local rainfall.", en: "La deforestación tiene un enorme impacto en las lluvias locales." },
           { es: "There is no simple solution to the housing crisis.", en: "No hay una solución sencilla a la crisis de la vivienda." },
           { es: "The report predicts a sharp rise in sea levels.", en: "El informe prevé una fuerte subida del nivel del mar." },
-          { es: "Demand for electric cars has doubled.", en: "La demanda de coches eléctricos se ha duplicado." },
-          { es: "The storm caused serious damage to the harbour.", en: "La tormenta causó graves daños en el puerto." },
+          { es: "Demand for electric cars has doubled.", en: "La demanda de carros eléctricos se ha duplicado." },
+          { es: "The storm caused serious damage to the harbor.", en: "La tormenta causó graves daños en el puerto." },
           { es: "Rising temperatures pose a threat to coral reefs.", en: "La subida de las temperaturas supone una amenaza para los arrecifes de coral." },
         ],
         checkpoint: [
@@ -1463,13 +1463,13 @@ export const EN_C2_U27: Lesson[] = [
           "Uses -ing after prepositions where a verb follows.",
           "Avoids Spanish calques (depend of, solution of, increase of, discuss about).",
         ],
-        modelAnswer: "Our town depends on the river for its drinking water, but in recent years there has been a sharp rise in pollution. Local farmers are not entirely responsible for this, although fertiliser run-off clearly has an impact on water quality. Many residents are simply not aware of the problem. The council's plan consists of planting trees along the banks and monitoring the main factories. It is a start, but it is not a complete solution to what has become a serious threat to public health.",
+        modelAnswer: "Our town depends on the river for its drinking water, but in recent years there has been a sharp rise in pollution. Local farmers are not entirely responsible for this, although fertilizer run-off clearly has an impact on water quality. Many residents are simply not aware of the problem. The council's plan consists of planting trees along the banks and monitoring the main factories. It is a start, but it is not a complete solution to what has become a serious threat to public health.",
         explanation: "Every target phrase keeps its English preposition: depend on, rise in, responsible for, impact on, aware of, consist of, solution to, threat to.",
       },
       {
         type: "speak",
         text: "It depends on whether the government is aware of the impact on rural areas.",
-        tip: "Link \"depends on\" into one unit: /dɪˈpendz ɒn/, and \"aware of\" into /əˈweər əv/.",
+        tip: "Link \"depends on\" into one unit: /dɪˈpɛndz ɑn/, and \"aware of\" into /əˈwɛr əv/.",
         explanation: "Dependent prepositions are unstressed and linked to the word before them, which is why learners often fail to hear them.",
       },
     ],
@@ -1479,7 +1479,7 @@ export const EN_C2_U27: Lesson[] = [
     slug: "c2-politics-polarisation-register",
     level: "EN-C2",
     number: 5,
-    title: "Transformations: from polarised to deliberative",
+    title: "Transformations: from polarized to deliberative",
     summary: "Take inflammatory political statements apart and rebuild them in deliberative, neutral language: drop the absolutes and name-calling, attribute claims, acknowledge the other side, and notice what changes in tone and in meaning.",
     duration: "12 min",
     sections: [
@@ -1530,7 +1530,7 @@ export const EN_C2_U27: Lesson[] = [
         examples: [
           { es: "While I understand farmers' concerns, I believe the measure is necessary.", en: "Aunque entiendo la preocupación de los agricultores, creo que la medida es necesaria." },
           { es: "There is a legitimate case for lower fuel taxes, but not at the cost of our climate targets.", en: "Hay argumentos legítimos a favor de bajar los impuestos sobre el combustible, pero no a costa de nuestros objetivos climáticos." },
-          { es: "Opponents of the bill argue that it will raise costs for small businesses.", en: "Los detractores de la ley sostienen que encarecerá los costes de las pequeñas empresas." },
+          { es: "Opponents of the bill argue that it will raise costs for small businesses.", en: "Los detractores de la ley sostienen que encarecerá los costos de las pequeñas empresas." },
           { es: "The impact assessment suggests that some rural areas would be hit hard.", en: "El estudio de impacto indica que algunas zonas rurales se verían muy afectadas." },
           { es: "I take the point that change takes time; however, we have already waited too long.", en: "Acepto que el cambio lleva tiempo; sin embargo, ya hemos esperado demasiado." },
         ],
@@ -1571,7 +1571,7 @@ export const EN_C2_U27: Lesson[] = [
           "Watch out for the opposite trap too: euphemism. Turning \"thousands of jobs will be lost\" into \"the workforce will be rebalanced\" is not deliberative, it is spin. Neutral language names things plainly.",
         ],
         examples: [
-          { es: "The government's cost estimate appears to leave out several major items.", en: "La estimación de costes del gobierno parece omitir varias partidas importantes." },
+          { es: "The government's cost estimate appears to leave out several major items.", en: "La estimación de costos del gobierno parece omitir varias partidas importantes." },
           { es: "Thousands of jobs will be lost, and we should say so plainly.", en: "Se perderán miles de empleos, y deberíamos decirlo claramente." },
           { es: "Toning down the language should not mean watering down the argument.", en: "Suavizar el lenguaje no debería significar diluir el argumento." },
           { es: "The rewrite is calmer, but the criticism is just as sharp.", en: "La nueva versión es más serena, pero la crítica es igual de dura." },
@@ -1823,7 +1823,7 @@ export const EN_C2_U27: Lesson[] = [
         examples: [
           { es: "Clean water is absolutely essential for public health.", en: "El agua limpia es absolutamente esencial para la salud pública." },
           { es: "The report was highly critical of the government.", en: "El informe fue muy crítico con el gobierno." },
-          { es: "The new tram line is a much needed improvement.", en: "La nueva línea de tranvía es una mejora muy necesaria." },
+          { es: "The new tram line is a much-needed improvement.", en: "La nueva línea de tranvía es una mejora muy necesaria." },
           { es: "The city faces a vast and costly reconstruction.", en: "La ciudad se enfrenta a una enorme y costosa reconstrucción." },
           { es: "The plan is far more ambitious than the previous one.", en: "El plan es mucho más ambicioso que el anterior." },
         ],
@@ -1846,14 +1846,14 @@ export const EN_C2_U27: Lesson[] = [
         heading: "Collocations in political and environmental writing",
         body: [
           "Each field has its own set. Politics: \"cast a vote\", \"call an election\", \"hold talks\", \"reach an agreement\", \"break a promise\", \"face criticism\", \"gain support\", \"lose ground\". Environment: \"cut emissions\", \"tackle climate change\", \"meet targets\", \"raise awareness\", \"cause irreversible damage\", \"run out of resources\".",
-          "Spanish speakers often translate the Spanish verb: *do an election («hacer elecciones»); \"lower emissions\" is possible but less idiomatic than \"cut emissions\"; \"fulfil the objectives\" sounds stiff next to \"meet the targets\", and *make conscience («hacer conciencia») is not English at all: \"raise awareness\".",
+          "Spanish speakers often translate the Spanish verb: *do an election («hacer elecciones»); \"lower emissions\" is possible but less idiomatic than \"cut emissions\"; \"fulfill the objectives\" sounds stiff next to \"meet the targets\", and *make conscience («hacer conciencia») is not English at all: \"raise awareness\".",
           "When you are unsure, check a collocation dictionary or a corpus before inventing a combination. At the Mastery level, precision in these small choices is what separates fluent from truly proficient writing.",
         ],
         examples: [
           { es: "The prime minister has called an early election.", en: "El primer ministro ha convocado elecciones anticipadas." },
           { es: "The two leaders held talks behind closed doors.", en: "Los dos líderes mantuvieron conversaciones a puerta cerrada." },
           { es: "The country is unlikely to meet its emissions targets.", en: "Es poco probable que el país cumpla sus objetivos de emisiones." },
-          { es: "The campaign aims to raise awareness of plastic pollution.", en: "La campaña pretende concienciar sobre la contaminación por plásticos." },
+          { es: "The campaign aims to raise awareness of plastic pollution.", en: "La campaña pretende concientizar sobre la contaminación por plásticos." },
           { es: "The spill caused irreversible damage to the wetlands.", en: "El vertido causó daños irreversibles en los humedales." },
         ],
         checkpoint: [
@@ -1921,7 +1921,7 @@ export const EN_C2_U27: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The farmers were ___ disappointed by the court's decision.",
         answer: "bitterly",
-        altAnswers: ["deeply", "hugely", "extremely", "very", "terribly", "sorely"],
+        altAnswers: ["deeply", "hugely", "extremely", "terribly", "sorely"],
         en: "Los agricultores quedaron [amargamente] decepcionados por la decisión del tribunal.",
         explanation: "\"Bitterly disappointed\" is the strongest and most typical collocation; \"deeply\" and \"hugely\" are also common.",
       },
@@ -1980,7 +1980,7 @@ export const EN_C2_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La campaña pretende concienciar a los jóvenes sobre el reciclaje.",
+        source: "La campaña pretende concientizar a los jóvenes sobre el reciclaje.",
         answer: "The campaign aims to raise awareness of recycling among young people.",
         altAnswers: [
           "The campaign aims to raise awareness about recycling among young people.",
@@ -1999,7 +1999,7 @@ export const EN_C2_U27: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["The", "report", "was", "highly", "critical", "of", "the", "council's", "response."],
-        translation: "El informe fue muy crítico con la respuesta del ayuntamiento.",
+        translation: "El informe fue muy crítico con la respuesta del municipio.",
         explanation: "\"Highly critical of\" is the standard collocation; note the preposition \"of\", not *with.",
       },
       {
@@ -2027,7 +2027,7 @@ export const EN_C2_U27: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Upgrade this paragraph (60-100 words) by replacing every \"very\", \"make\" and \"do\" with a precise collocation: \"Climate change makes a very big danger to our region. The council has done a campaign to make people conscious, and it has made some conclusions. But residents are very very worried, and many are very against the new motorway, which will do very bad damage to the river.\"",
+        prompt: "Upgrade this paragraph (60-100 words) by replacing every \"very\", \"make\" and \"do\" with a precise collocation: \"Climate change makes a very big danger to our region. The council has done a campaign to make people conscious, and it has made some conclusions. But residents are very very worried, and many are very against the new highway, which will do very bad damage to the river.\"",
         minWords: 60,
         maxWords: 100,
         rubric: [
@@ -2036,7 +2036,7 @@ export const EN_C2_U27: Lesson[] = [
           "Contains no \"very very\" and no *make a conclusion / *do a campaign.",
           "Keeps the original meaning.",
         ],
-        modelAnswer: "Climate change poses a serious threat to our region. The council has launched a campaign to raise awareness of the problem, and it has drawn some preliminary conclusions from its first survey. However, residents remain deeply concerned, and many are strongly opposed to the new motorway, which they fear will cause irreversible damage to the river. If the council wants to regain public trust, it will need to take decisive action and hold genuine talks with local groups.",
+        modelAnswer: "Climate change poses a serious threat to our region. The council has launched a campaign to raise awareness of the problem, and it has drawn some preliminary conclusions from its first survey. However, residents remain deeply concerned, and many are strongly opposed to the new highway, which they fear will cause irreversible damage to the river. If the council wants to regain public trust, it will need to take decisive action and hold genuine talks with local groups.",
         explanation: "Each vague verb or \"very\" has been replaced by a fixed collocation: pose a threat, launch a campaign, raise awareness, draw conclusions, deeply concerned, strongly opposed, cause irreversible damage.",
       },
       {
@@ -2160,7 +2160,7 @@ export const EN_C2_U27: Lesson[] = [
           { es: "The minister reportedly met the lobbyists twice last month.", en: "Según la prensa, el ministro se reunió dos veces con los grupos de presión el mes pasado." },
           { es: "It has been alleged that the tender was rigged.", en: "Se ha denunciado que el concurso estaba amañado." },
           { es: "It has emerged that the report was edited before publication.", en: "Ha trascendido que el informe se modificó antes de su publicación." },
-          { es: "According to sources close to the party, the leader will not stand again.", en: "Según fuentes cercanas al partido, el líder no volverá a presentarse." },
+          { es: "According to sources close to the party, the leader will not run again.", en: "Según fuentes cercanas al partido, el líder no volverá a presentarse." },
           { es: "The allegedly stolen funds were moved to an offshore account.", en: "Los fondos presuntamente robados se transfirieron a una cuenta en un paraíso fiscal." },
         ],
         checkpoint: [
@@ -2196,7 +2196,7 @@ export const EN_C2_U27: Lesson[] = [
           "Note the verbs used for denial: \"deny\" + noun or -ing (\"deny receiving money\", never *deny to receive), \"reject the allegations\", \"dismiss the claims\".",
         ],
         examples: [
-          { es: "The ministry has confirmed that the contract was cancelled.", en: "El ministerio ha confirmado que se canceló el contrato." },
+          { es: "The ministry has confirmed that the contract was canceled.", en: "El ministerio ha confirmado que se canceló el contrato." },
           { es: "He claims he was not at the meeting.", en: "Asegura que no estuvo en la reunión." },
           { es: "The senator denies receiving any money.", en: "El senador niega haber recibido dinero alguno." },
           { es: "The party has dismissed the allegations as baseless.", en: "El partido ha calificado las acusaciones de infundadas." },
@@ -2355,7 +2355,7 @@ export const EN_C2_U27: Lesson[] = [
         heading: "The shape of a column",
         body: [
           "An opinion column (\"op-ed\" in the US) is short, usually 600 to 900 words in a newspaper, and makes ONE argument. A reliable structure: a \"hook\" (a striking fact, scene or question), a \"thesis\" (your position in one sentence), two or three supporting points, a \"concession\" with a \"rebuttal\", and a closing \"call to action\" or memorable final line.",
-          "State the thesis early and plainly: \"Madrid should ban cars from the city centre, and it should do so this year.\" Spanish opinion writing often builds slowly towards the point; in English, readers expect the position in the first paragraph.",
+          "State the thesis early and plainly: \"Madrid should ban cars from the city center, and it should do so this year.\" Spanish opinion writing often builds slowly towards the point; in English, readers expect the position in the first paragraph.",
           "Keep paragraphs short (two to four sentences) and use the first person sparingly but confidently: \"I believe\" is fine once; repeated, it weakens the voice.",
         ],
         examples: [
@@ -2399,13 +2399,13 @@ export const EN_C2_U27: Lesson[] = [
         heading: "Arguing while acknowledging trade-offs",
         body: [
           "A persuasive column names the costs of its own proposal, then explains why the benefits outweigh them. Useful language: \"This will not be painless.\" \"There is a real trade-off here between X and Y.\" \"The cost is real, but so is the cost of doing nothing.\" \"On balance, the case for... is compelling.\"",
-          "Use concessive structures to show balance: \"Admittedly, ...\", \"It is true that ...; however, ...\", \"Granted, ...\", \"Much as I sympathise with ..., ...\".",
+          "Use concessive structures to show balance: \"Admittedly, ...\", \"It is true that ...; however, ...\", \"Granted, ...\", \"Much as I sympathize with ..., ...\".",
           "\"Outweigh\" is the key verb: \"The benefits outweigh the costs\". «Compensar» in this sense is not *compensate: say \"The benefits outweigh the costs\" or \"It is worth it\".",
         ],
         examples: [
           { es: "Admittedly, the scheme will raise prices in the short term.", en: "Es cierto que el plan subirá los precios a corto plazo." },
           { es: "There is a genuine trade-off between cheap energy and clean air.", en: "Existe un verdadero dilema entre la energía barata y el aire limpio." },
-          { es: "On balance, the benefits clearly outweigh the costs.", en: "En conjunto, los beneficios superan claramente a los costes." },
+          { es: "On balance, the benefits clearly outweigh the costs.", en: "En conjunto, los beneficios superan claramente a los costos." },
           { es: "Granted, no policy is perfect. But this one is better than the alternative.", en: "De acuerdo, ninguna política es perfecta. Pero esta es mejor que la alternativa." },
           { es: "The transition will not be painless, and we should be honest about that.", en: "La transición no será indolora, y deberíamos ser sinceros al respecto." },
         ],
@@ -2414,7 +2414,7 @@ export const EN_C2_U27: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Los beneficios superan con creces a los costes.",
+            source: "Los beneficios superan con creces a los costos.",
             answer: "The benefits far outweigh the costs.",
             altAnswers: [
               "The benefits by far outweigh the costs.",
@@ -2446,8 +2446,8 @@ export const EN_C2_U27: Lesson[] = [
           "Finish with a line that sticks: a call to action (\"The council votes on Thursday. It should vote yes.\"), a return to the opening image, or a short punchy sentence.",
         ],
         examples: [
-          { es: "Those who oppose the plan are not villains; many simply cannot afford a new car.", en: "Quienes se oponen al plan no son villanos; muchos simplemente no pueden permitirse un coche nuevo." },
-          { es: "The council votes on Thursday. It should vote yes.", en: "El ayuntamiento vota el jueves. Debería votar a favor." },
+          { es: "Those who oppose the plan are not villains; many simply cannot afford a new car.", en: "Quienes se oponen al plan no son villanos; muchos simplemente no pueden permitirse un carro nuevo." },
+          { es: "The council votes on Thursday. It should vote yes.", en: "El concejo municipal vota el jueves. Debería votar a favor." },
           { es: "Specific figures persuade more than sweeping claims.", en: "Las cifras concretas convencen más que las afirmaciones generales." },
           { es: "We owe our children more than good intentions.", en: "Les debemos a nuestros hijos algo más que buenas intenciones." },
         ],
@@ -2468,7 +2468,7 @@ export const EN_C2_U27: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Quienes se oponen al plan no son villanos; muchos simplemente no pueden permitirse un coche nuevo.",
+            source: "Quienes se oponen al plan no son villanos; muchos simplemente no pueden permitirse un carro nuevo.",
             answer: "Those who oppose the plan are not villains; many simply cannot afford a new car.",
             altAnswers: alts(
               ["Those who oppose the plan", "People who oppose the plan", "Opponents of the plan", "The plan's opponents"],
@@ -2485,7 +2485,7 @@ export const EN_C2_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Es cierto que el peaje subirá los costes a corto plazo; sin embargo, a la larga reducirá el tráfico y la contaminación.",
+        source: "Es cierto que el peaje subirá los costos a corto plazo; sin embargo, a la larga reducirá el tráfico y la contaminación.",
         answer: "Admittedly, the charge will raise costs in the short term; however, in the long run it will reduce traffic and pollution.",
         altAnswers: alts(
           ["Admittedly, the charge will", "It is true that the charge will", "Admittedly, the congestion charge will", "It is true that the congestion charge will", "Admittedly, the toll will", "It is true that the toll will"],
@@ -2531,21 +2531,21 @@ export const EN_C2_U27: Lesson[] = [
           ["The transition will not be painless, and we should"],
           ["say so frankly.", "say so openly.", "say so honestly.", "be frank about it.", "be honest about it.", "be upfront about it.", "be open about it.", "say so plainly."],
         ),
-        explanation: "\"Say so\" replaces a whole clause (= say that it will not be painless). Never *say it frankly here.",
+        explanation: "\"Say so\" replaces a whole clause (= say that it will not be painless). \"Say it frankly\" is possible but less natural here.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["On", "balance,", "the", "benefits", "clearly", "outweigh", "the", "costs."],
-        translation: "En conjunto, los beneficios superan claramente a los costes.",
+        translation: "En conjunto, los beneficios superan claramente a los costos.",
         altOrders: [["The", "benefits", "clearly", "outweigh", "the", "costs", "on", "balance."]],
-        explanation: "\"On balance\" signals a final judgement after weighing both sides.",
+        explanation: "\"On balance\" signals a final judgment after weighing both sides.",
       },
       {
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El ayuntamiento vota el jueves y debería votar a favor.",
+        source: "El concejo municipal vota el jueves y debería votar a favor.",
         answer: "The council votes on Thursday, and it should vote yes.",
         altAnswers: alts(
           ["The council votes on Thursday,", "The council votes on Thursday", "The council is voting on Thursday,", "The council is voting on Thursday", "The city council votes on Thursday,", "The city council votes on Thursday"],
@@ -2590,7 +2590,7 @@ export const EN_C2_U27: Lesson[] = [
           "Avoids loaded labels and name-calling; describes opponents fairly.",
           "Ends with a call to action or a memorable final line.",
         ],
-        modelAnswer: "Last year, a train from Madrid to Barcelona took two and a half hours. The same journey by plane, once you count security and transfers, took longer. Yet thousands of people still flew it every week. Spain should follow France and ban domestic flights where a train can do the journey in under three hours.\n\nThe case is simple. A short-haul flight emits several times more carbon per passenger than a high-speed train. The rail network already exists; it is simply underused on the busiest routes.\n\nAdmittedly, a ban is a blunt instrument. Travellers in regions with poor rail links would rightly object, which is why the rule should apply only where a fast, frequent train is already available. Airlines will warn of job losses, and that concern deserves a serious answer: retraining and support for affected workers should be part of the plan from day one.\n\nNo single measure will solve the climate crisis. But this one costs little, inconveniences few, and sends a clear signal that we are serious. Parliament debates the proposal next month. It should pass it.",
+        modelAnswer: "Last year, a train from Madrid to Barcelona took two and a half hours. The same journey by plane, once you count security and transfers, took longer. Yet thousands of people still flew it every week. Spain should follow France and ban domestic flights where a train can do the journey in under three hours.\n\nThe case is simple. A short-haul flight emits several times more carbon per passenger than a high-speed train. The rail network already exists; it is simply underused on the busiest routes.\n\nAdmittedly, a ban is a blunt instrument. Travelers in regions with poor rail links would rightly object, which is why the rule should apply only where a fast, frequent train is already available. Airlines will warn of job losses, and that concern deserves a serious answer: retraining and support for affected workers should be part of the plan from day one.\n\nNo single measure will solve the climate crisis. But this one costs little, inconveniences few, and sends a clear signal that we are serious. Parliament debates the proposal next month. It should pass it.",
         explanation: "The model takes a clear position, uses figures and comparisons, concedes the trade-offs, and closes with a call to action.",
       },
     ],
@@ -2668,7 +2668,7 @@ export const EN_C2_U27: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "Raising flood defences is a form of ___, not mitigation.",
+        sentence: "Raising flood defenses is a form of ___, not mitigation.",
         answer: "adaptation",
         en: "Reforzar las defensas contra inundaciones es una forma de [adaptación], no de mitigación.",
         explanation: "Coping with effects already under way is adaptation; reducing emissions is mitigation.",
@@ -2727,7 +2727,7 @@ export const EN_C2_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Aunque entiendo la preocupación de la oposición, creo que los beneficios superan a los costes.",
+        source: "Aunque entiendo la preocupación de la oposición, creo que los beneficios superan a los costos.",
         answer: "While I understand the opposition's concerns, I believe the benefits outweigh the costs.",
         altAnswers: alts(
           ["While I understand", "Although I understand", "Though I understand", "Much as I understand", "Even though I understand"],

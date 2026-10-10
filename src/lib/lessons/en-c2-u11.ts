@@ -304,9 +304,9 @@ export const EN_C2_U11: Lesson[] = [
       {
         heading: "The markers of register",
         body: [
-          "Register is how formal or informal language is. English has no «tú» and «usted», so it marks register through vocabulary and grammar. Formal English prefers Latin-based verbs (\"obtain\", \"commence\", \"reside\"), the passive, nominalisations and full forms. Informal English prefers phrasal verbs (\"get\", \"start\", \"live\"), contractions, vague language (\"and stuff\", \"or whatever\") and slang.",
+          "Register is how formal or informal language is. English has no «tú» and «usted», so it marks register through vocabulary and grammar. Formal English prefers Latin-based verbs (\"obtain\", \"commence\", \"reside\"), the passive, nominalizations and full forms. Informal English prefers phrasal verbs (\"get\", \"start\", \"live\"), contractions, vague language (\"and stuff\", \"or whatever\") and slang.",
           "Most texts stay in one register. That is exactly why a sudden shift is meaningful: when a speaker or writer jumps up or down, it is almost always deliberate, and at the Mastery level you are expected to notice it and interpret it.",
-          "Spanish speakers face an extra trap: \"commence\" («comenzar»), \"reside\" («residir»), \"terminate\" («terminar») and \"edifice\" («edificio») feel neutral to you because their Spanish twins are everyday words. In English they are formal or even pompous, so in a text they may be signalling distance or irony.",
+          "Spanish speakers face an extra trap: \"commence\" («comenzar»), \"reside\" («residir»), \"terminate\" («terminar») and \"edifice\" («edificio») feel neutral to you because their Spanish twins are everyday words. In English they are formal or even pompous, so in a text they may be signaling distance or irony.",
         ],
         examples: [
           { es: "The meeting will commence at nine.", en: "La reunión comenzará a las nueve. (muy formal)" },
@@ -346,7 +346,7 @@ export const EN_C2_U11: Lesson[] = [
         heading: "Shifting down: slang for effect",
         body: [
           "Speakers drop into informal language mid-stream to create closeness, to show what they really think or to puncture pomposity. A lecturer might say: \"The data are, to use the technical term, a mess.\" A manager might end a careful presentation with: \"Long story short, we're broke.\"",
-          "The shift usually signals honesty (this is my real opinion, without the official wrapping), solidarity (I'm one of you) or humour (the contrast itself is funny). Phrases that often announce it include \"basically\", \"let's face it\", \"to put it bluntly\", \"long story short\" and \"in plain English\".",
+          "The shift usually signals honesty (this is my real opinion, without the official wrapping), solidarity (I'm one of you) or humor (the contrast itself is funny). Phrases that often announce it include \"basically\", \"let's face it\", \"to put it bluntly\", \"long story short\" and \"in plain English\".",
           "Watch for the same move in journalism. When a serious article suddenly says that a policy \"bombed\" or that a minister \"got cold feet\", it is revealing the writer's attitude, which the neutral passages keep hidden.",
         ],
         examples: [
@@ -361,7 +361,7 @@ export const EN_C2_U11: Lesson[] = [
             type: "multiple-choice",
             question: "A professor writes: \"Smith's argument is elegant, rigorous and, frankly, a load of rubbish.\" What does the shift at the end signal?",
             options: [
-              "Her real, strongly negative opinion, delivered with humour",
+              "Her real, strongly negative opinion, delivered with humor",
               "That she fully agrees with Smith",
               "That she is quoting Smith's own words",
               "That she has misunderstood Smith",
@@ -393,13 +393,13 @@ export const EN_C2_U11: Lesson[] = [
         heading: "Shifting up: irony through sudden formality",
         body: [
           "The opposite move is just as common and often harder for learners to catch. When an informal conversation suddenly turns formal, the speaker is usually being ironic, sarcastic or cold. A parent to a teenager who appears at noon: \"Ah, so you've decided to grace us with your presence.\"",
-          "Exaggerated politeness can be a weapon: \"I would be most grateful if you could, at your earliest convenience, return my lawnmower\", written to a neighbour who has kept it for a year. The formality itself is the complaint.",
+          "Exaggerated politeness can be a weapon: \"I would be most grateful if you could, at your earliest convenience, return my lawnmower\", written to a neighbor who has kept it for a year. The formality itself is the complaint.",
           "Between friends or partners, a switch to formal language often means anger or hurt: \"I would appreciate it if you didn't speak to me like that.\" In Spanish a sudden «usted» can do the same job; English has to do it with vocabulary and grammar.",
         ],
         examples: [
           { es: "So you've decided to grace us with your presence.", en: "Vaya, por fin te dignas a aparecer. (ironía)" },
           { es: "Thank you so much for your invaluable contribution.", en: "Muchísimas gracias por tu inestimable aportación. (ironía, si no aportó nada)" },
-          { es: "I would appreciate it if you didn't speak to me like that.", en: "Te agradecería que no me hablaras así. (enfado, distancia)" },
+          { es: "I would appreciate it if you didn't speak to me like that.", en: "Te agradecería que no me hablaras así. (enojo, distancia)" },
           { es: "I trust the matter is now resolved to your satisfaction.", en: "Confío en que el asunto esté ya resuelto a su entera satisfacción. (frialdad)" },
           { es: "My esteemed colleague seems to have forgotten the deadline.", en: "Mi estimado colega parece haber olvidado la fecha límite. (sarcasmo)" },
         ],
@@ -407,7 +407,7 @@ export const EN_C2_U11: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Your flatmate usually texts you things like \"hey u ok?\". Today she writes: \"I would be grateful if you could clean the kitchen at your earliest convenience.\" What is she telling you?",
-            options: ["She is annoyed with you.", "She is in a hurry to go out.", "She has decided to be more polite from now on.", "She is practising her formal English."],
+            options: ["She is annoyed with you.", "She is in a hurry to go out.", "She has decided to be more polite from now on.", "She is practicing her formal English."],
             correctIndex: 0,
             explanation: "The jump from her usual casual style to office-letter formality creates distance. Between friends, sudden formality almost always signals irritation.",
           },
@@ -437,7 +437,7 @@ export const EN_C2_U11: Lesson[] = [
         heading: "Reading the relationship",
         body: [
           "Register also tells you about the relationship between people, and how it changes. In a novel or a meeting, notice when someone moves from \"Mr Hughes\" to \"David\", or from \"Would you mind...?\" to \"Can you...?\", or the other way round. Moving down usually means growing closeness; moving up, a cooling or a conflict.",
-          "When you spot a shift, ask three questions. Is it deliberate? Who is it aimed at? What attitude does it reveal: humour, contempt, affection, anger? The answer is often the real point of the passage, and Mastery comprehension questions love to test it.",
+          "When you spot a shift, ask three questions. Is it deliberate? Who is it aimed at? What attitude does it reveal: humor, contempt, affection, anger? The answer is often the real point of the passage, and Mastery comprehension questions love to test it.",
         ],
         examples: [
           { es: "Mr Hughes, could I possibly have a word?", en: "Señor Hughes, ¿podría hablar un momento con usted?" },
@@ -674,7 +674,7 @@ export const EN_C2_U11: Lesson[] = [
       {
         heading: "Assimilation: sounds that change",
         body: [
-          "Assimilation is when a sound changes to become more like its neighbour. An /n/ before /p/, /b/ or /m/ becomes /m/: \"ten pounds\" sounds like \"tem pounds\", \"in bed\" like \"im bed\". An /n/ before /k/ or /g/ becomes the sound in \"sing\": \"in case\" sounds like \"ing case\". A /d/ before /b/ can become /b/: \"good boy\" sounds like \"goob boy\".",
+          "Assimilation is when a sound changes to become more like its neighbor. An /n/ before /p/, /b/ or /m/ becomes /m/: \"ten pounds\" sounds like \"tem pounds\", \"in bed\" like \"im bed\". An /n/ before /k/ or /g/ becomes the sound in \"sing\": \"in case\" sounds like \"ing case\". A /d/ before /b/ can become /b/: \"good boy\" sounds like \"goob boy\".",
           "The most important change for listening is /t/ or /d/ followed by \"you\": \"don't you\" becomes \"doncha\", \"would you\" becomes \"wouldja\", \"did you\" becomes \"didja\" and \"what do you\" becomes \"whaddaya\". This is standard in natural speech, not sloppy pronunciation.",
           "American English adds the flap: a /t/ between vowels sounds like the quick Spanish «r» in «pero». \"Water\", \"better\" and \"a lot of\" all have it, and \"writer\" and \"rider\" sound almost the same. Your Spanish «r» is in fact a very good model for this sound.",
         ],
@@ -796,7 +796,7 @@ export const EN_C2_U11: Lesson[] = [
         prompt: "Put the words in order.",
         words: ["What", "do", "you", "want", "to", "do", "tonight?"],
         translation: "¿Qué quieres hacer esta noche?",
-        explanation: "In fast speech this often sounds like \"Whaddaya wanna do tonight?\". Recognising the reduced version starts with knowing the full one.",
+        explanation: "In fast speech this often sounds like \"Whaddaya wanna do tonight?\". Recognizing the reduced version starts with knowing the full one.",
       },
       {
         type: "listen-choose",
@@ -854,7 +854,7 @@ export const EN_C2_U11: Lesson[] = [
         heading: "Tracking it, this and that",
         body: [
           "Dense English prose constantly points backwards. \"It\" usually refers to a specific noun, while \"this\" and \"that\" often refer to a whole idea, a sentence or even a paragraph: \"Prices rose by 12%. This led to protests.\" Here \"this\" is the rise in prices, not any single word.",
-          "Good writers often add a summarising noun: \"this increase\", \"this decision\", \"such a move\". These nouns are gold for the reader, because they tell you how the writer classifies the earlier idea. \"This blunder\" and \"this bold step\" can refer to the same event while revealing opposite attitudes.",
+          "Good writers often add a summarizing noun: \"this increase\", \"this decision\", \"such a move\". These nouns are gold for the reader, because they tell you how the writer classifies the earlier idea. \"This blunder\" and \"this bold step\" can refer to the same event while revealing opposite attitudes.",
           "Spanish uses «lo cual», «esto» and «ello» in similar ways, so the idea is familiar. The trap is in your own writing: «lo cual» referring to a whole clause is \"which\", never \"what\": \"Prices rose, which led to protests.\"",
         ],
         examples: [
@@ -893,17 +893,17 @@ export const EN_C2_U11: Lesson[] = [
               "It refers to the factory move, and the writer sees it as disloyal to the town.",
               "It refers to a betrayal by the town, and the writer is neutral.",
               "It refers to a secret deal mentioned earlier, and the writer approves.",
-              "It refers to the town's reaction, and the writer criticises the town.",
+              "It refers to the town's reaction, and the writer criticizes the town.",
             ],
             correctIndex: 0,
-            explanation: "The summarising noun points back to the factory move and labels it. A neutral writer would have said \"this decision\" or \"this move\".",
+            explanation: "The summarizing noun points back to the factory move and labels it. A neutral writer would have said \"this decision\" or \"this move\".",
           },
         ],
       },
       {
         heading: "Such, the former and the latter",
         body: [
-          "\"Such\" points back to a type, not a single thing: \"such measures\" means measures of the kind just described. With a singular countable noun, \"a\" comes after \"such\": \"such a decision\" (*a such decision is a typical error, modelled on «una decisión así»).",
+          "\"Such\" points back to a type, not a single thing: \"such measures\" means measures of the kind just described. With a singular countable noun, \"a\" comes after \"such\": \"such a decision\" (*a such decision is a typical error, modeled on «una decisión así»).",
           "\"The former\" and \"the latter\" refer to the first and second of two things already mentioned. They are formal and save repetition: \"Both Rome and Florence were considered; the latter was chosen.\" With three or more items, writers prefer \"the first\" and \"the last\".",
           "\"Respectively\" pairs two lists in order: \"Ana and Diego are 30 and 35 respectively\" means Ana is 30 and Diego is 35. When you read it, go back and match the items one by one.",
         ],
@@ -1114,17 +1114,17 @@ export const EN_C2_U11: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write a short paragraph about a controversial decision taken by your city, school or company. Link your ideas mostly without connectors, and use at least one summarising noun (\"this decision\", \"such a move\"), \"the former\" or \"the latter\", and one substitute (\"do so\", \"did\", \"so\", \"not\").",
+        prompt: "Write a short paragraph about a controversial decision taken by your city, school or company. Link your ideas mostly without connectors, and use at least one summarizing noun (\"this decision\", \"such a move\"), \"the former\" or \"the latter\", and one substitute (\"do so\", \"did\", \"so\", \"not\").",
         minWords: 80,
         maxWords: 120,
         rubric: [
-          "Uses at least one summarising noun phrase with \"this\" or \"such\"",
+          "Uses at least one summarizing noun phrase with \"this\" or \"such\"",
           "Uses \"the former\" or \"the latter\" correctly for one of two items",
           "Uses at least one substitute or ellipsis (\"do so\", \"did\", \"so\", \"not\")",
           "Relies on punctuation and sentence order, not only connectors, to show the links",
         ],
         modelAnswer: "Last year the council had two options for the old market: restore it or sell it to a developer. It chose the latter. This decision divided the town. Supporters pointed to the money it would raise; opponents saw the loss of a place where people had met for a century. The council promised to reinvest the profits in local services, and to some extent it did so. Such compromises rarely satisfy everyone, and this one certainly did not.",
-        explanation: "Notice how the colon, the semicolon and the summarising nouns (\"This decision\", \"Such compromises\") carry the argument with almost no connectors.",
+        explanation: "Notice how the colon, the semicolon and the summarizing nouns (\"This decision\", \"Such compromises\") carry the argument with almost no connectors.",
       },
     ],
   },
@@ -1144,7 +1144,7 @@ export const EN_C2_U11: Lesson[] = [
           "Non-rhotic speakers also add a linking /r/ before a vowel, even where there is no \"r\" in the spelling: \"the idea of it\" can sound like \"the idear of it\". Don't let it make you hear a word that isn't there.",
         ],
         examples: [
-          { es: "We left the car in the car park.", en: "Dejamos el coche en el aparcamiento. (en EE. UU.: \"parking lot\")" },
+          { es: "We left the car in the car park.", en: "Dejamos el carro en el estacionamiento. (en EE. UU.: \"parking lot\")" },
           { es: "It's a quarter past four.", en: "Son las cuatro y cuarto." },
           { es: "The court was packed.", en: "La sala del tribunal estaba llena." },
           { es: "That's the source of the problem.", en: "Ese es el origen del problema." },
@@ -1169,7 +1169,7 @@ export const EN_C2_U11: Lesson[] = [
         heading: "Vowels that move",
         body: [
           "Vowels vary much more than consonants. In Southern British English, \"bath\", \"grass\" and \"can't\" have a long /ɑː/, like a long Spanish «a»; in General American and in the North of England they have the short vowel of \"cat\". The vowel of British \"hot\" and \"stop\" is rounded; in American English it is open and unrounded, closer to a Spanish «a».",
-          "In Australian and New Zealand English the vowels have shifted further. The vowel in \"day\" moves towards the one in \"die\", so \"today\" can sound like \"to die\" to an outsider. New Zealanders centralise the vowel of \"fish\", which can sound like \"fush\" to other speakers.",
+          "In Australian and New Zealand English the vowels have shifted further. The vowel in \"day\" moves towards the one in \"die\", so \"today\" can sound like \"to die\" to an outsider. New Zealanders centralize the vowel of \"fish\", which can sound like \"fush\" to other speakers.",
           "In the North of England, \"cup\" and \"put\" have the same vowel, so \"bus\" rhymes with \"puss\". None of this is a mistake: it is the native speech of millions of people, and you will hear it in films, podcasts and meetings.",
         ],
         examples: [
@@ -1276,7 +1276,7 @@ export const EN_C2_U11: Lesson[] = [
           {
             type: "multiple-choice",
             question: "An Indian colleague emails: \"The call has been preponed to 10 a.m.\" What has happened?",
-            options: ["The call has been moved earlier.", "The call has been postponed.", "The call has been cancelled.", "The call has been confirmed."],
+            options: ["The call has been moved earlier.", "The call has been postponed.", "The call has been canceled.", "The call has been confirmed."],
             correctIndex: 0,
             explanation: "\"Prepone\" is the Indian English opposite of \"postpone\": to bring something forward. Elsewhere you would say \"brought forward\" or \"moved up\".",
           },
@@ -1469,7 +1469,7 @@ export const EN_C2_U11: Lesson[] = [
           "Ireland is famous for \"grand\" (fine, okay: \"I'm grand, thanks\"), \"craic\" (fun, atmosphere: \"What's the craic?\"), \"press\" (kitchen cupboard) and \"giving out\" (complaining, telling someone off: \"My mam was giving out to me\").",
         ],
         examples: [
-          { es: "We live in a flat on the second floor. The lift is broken. (UK)", en: "Vivimos en un piso en la segunda planta. El ascensor está estropeado." },
+          { es: "We live in a flat on the second floor. The lift is broken. (UK)", en: "Vivimos en un departamento en el segundo piso. El elevador no funciona." },
           { es: "Take out the trash and grab some cookies on the way back. (US)", en: "Saca la basura y trae unas galletas a la vuelta." },
           { es: "See you this arvo at the servo. (Australia)", en: "Nos vemos esta tarde en la gasolinera." },
           { es: "Put on your toque, it's freezing outside. (Canada)", en: "Ponte el gorro, que hace un frío que pela." },
@@ -1518,7 +1518,7 @@ export const EN_C2_U11: Lesson[] = [
           { es: "Your English has gotten much better. (US)", en: "Tu inglés ha mejorado mucho." },
           { es: "Your English has got much better. (UK)", en: "Tu inglés ha mejorado mucho." },
           { es: "The team are really happy with the result. (UK)", en: "El equipo está muy contento con el resultado." },
-          { es: "Did you finish your homework yet? (US)", en: "¿Ya has terminado los deberes?" },
+          { es: "Did you finish your homework yet? (US)", en: "¿Ya terminaste la tarea?" },
           { es: "What are you doing at the weekend? (UK)", en: "¿Qué haces el fin de semana?" },
           { es: "She's in the hospital with a broken leg. (US)", en: "Está en el hospital con una pierna rota." },
         ],
@@ -1567,7 +1567,7 @@ export const EN_C2_U11: Lesson[] = [
           "As a learner, you do not need to imitate a particular accent. Clear, consistent pronunciation matters far more. But recognising these features will help you understand films, colleagues and podcasts from every part of the English-speaking world.",
         ],
         examples: [
-          { es: "Park the car in the yard.", en: "Aparca el coche en el patio. (la r se oye en EE. UU., Irlanda y Escocia)" },
+          { es: "Park the car in the yard.", en: "Estaciona el carro en el patio. (la r se oye en EE. UU., Irlanda y Escocia)" },
           { es: "Can I have a glass of water?", en: "¿Me das un vaso de agua? (\"water\" con t suave en EE. UU. y Australia)" },
           { es: "I need a bath after that long walk.", en: "Necesito un baño después de esa caminata tan larga. (\"bath\" con vocal larga en el sur de Inglaterra)" },
           { es: "Let's talk about the house.", en: "Hablemos de la casa. (vocal típica canadiense en \"about\" y \"house\")" },
@@ -1594,7 +1594,7 @@ export const EN_C2_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into American English.",
-        source: "Vivimos en un piso pequeño y el ascensor nunca funciona.",
+        source: "Vivimos en un departamento pequeño y el elevador nunca funciona.",
         answer: "We live in a small apartment and the elevator never works.",
         altAnswers: [
           "We live in a small apartment, and the elevator never works.",
@@ -1611,7 +1611,7 @@ export const EN_C2_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into British English.",
-        source: "Saca la basura y compra patatas fritas de bolsa.",
+        source: "Saca la basura y compra papas fritas de bolsa.",
         answer: "Take out the rubbish and buy some crisps.",
         altAnswers: [
           "Take the rubbish out and buy some crisps.",
@@ -1626,7 +1626,7 @@ export const EN_C2_U11: Lesson[] = [
           "Take out the rubbish and buy a packet of crisps.",
           "Take the rubbish out and buy a bag of crisps.",
         ],
-        explanation: "British \"rubbish\" and \"crisps\" are American \"trash\" (or \"garbage\") and \"chips\". In Britain, \"chips\" are «patatas fritas» (US \"fries\").",
+        explanation: "British \"rubbish\" and \"crisps\" are American \"trash\" (or \"garbage\") and \"chips\". In Britain, \"chips\" are «papas fritas» (US \"fries\").",
       },
       {
         type: "multiple-choice",
@@ -1780,7 +1780,7 @@ export const EN_C2_U11: Lesson[] = [
           { es: "Tell him I called.", en: "Dile que llamé. (se oye \"tell im\")" },
           { es: "Did he see her?", en: "¿La vio? (se oye \"di de see er\")" },
           { es: "I told them to wait.", en: "Les dije que esperaran. (se oye \"I tol 'em\")" },
-          { es: "I left early because I was tired.", en: "Me fui pronto porque estaba cansado. (se oye \"'cause\")" },
+          { es: "I left early because I was tired.", en: "Me fui temprano porque estaba cansado. (se oye \"'cause\")" },
           { es: "I asked him if he'd seen her.", en: "Le pregunté si la había visto." },
         ],
         checkpoint: [
@@ -1917,7 +1917,7 @@ export const EN_C2_U11: Lesson[] = [
         type: "speak",
         text: "What are you going to do about it?",
         tip: "Try the natural fast version: \"whaddaya gonna do aboudit\". Stress only \"what\", \"do\" and \"it\".",
-        explanation: "Saying the reduced form aloud trains your ear to recognise it at full speed.",
+        explanation: "Saying the reduced form aloud trains your ear to recognize it at full speed.",
       },
     ],
   },
@@ -1941,7 +1941,7 @@ export const EN_C2_U11: Lesson[] = [
         ],
         examples: [
           { es: "I want to go for a walk.", en: "Quiero ir a dar un paseo. (to = /tə/, for a = /fərə/)" },
-          { es: "a cup of tea and a piece of cake", en: "una taza de té y un trozo de tarta (of = /ə/, and = /n/)" },
+          { es: "a cup of tea and a piece of cake", en: "una taza de té y un pedazo de pastel (of = /ə/, and = /n/)" },
           { es: "I can speak three languages.", en: "Hablo tres idiomas. (can = /kən/)" },
           { es: "She was at the station.", en: "Estaba en la estación. (was = /wəz/, at = /ət/)" },
           { es: "Where are you from?", en: "¿De dónde eres? (from al final: forma fuerte)" },
@@ -1958,10 +1958,10 @@ export const EN_C2_U11: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English, then say it with weak forms.",
-            source: "Fui a la tienda a por pan y leche.",
-            answer: "I went to the shop for some bread and milk.",
+            source: "Fui a la tienda por pan y leche.",
+            answer: "I went to the store for some bread and milk.",
             altAnswers: [
-              "I went to the store for some bread and milk.",
+              "I went to the shop for some bread and milk.",
               "I went to the shop to get some bread and milk.",
               "I went to the store to get some bread and milk.",
               "I went to the shop for bread and milk.",
@@ -1973,7 +1973,7 @@ export const EN_C2_U11: Lesson[] = [
               "I went to the shop to get bread and milk.",
               "I went to the store to get bread and milk.",
             ],
-            explanation: "Spoken naturally: \"I WENT tə thə SHOP fə səm BREAD ən MILK\". «A por» is \"to get\" or \"for\".",
+            explanation: "Spoken naturally: \"I WENT tə thə STORE fə səm BREAD ən MILK\". «Ir por algo» is \"go for\" or \"go to get\".",
           },
         ],
       },
@@ -1982,7 +1982,7 @@ export const EN_C2_U11: Lesson[] = [
         body: [
           "English speakers don't pause between words in a phrase. A final consonant moves to the start of the next word if it begins with a vowel: \"turn off\" sounds like tur-noff, \"pick it up\" like pi-ki-tup, \"an apple\" like a-napple. Spanish does this too («los_otros»), so use the same instinct in English.",
           "Between two vowels, English inserts a tiny glide. After \"oo\", \"oh\" or \"ow\" sounds you hear a w: \"go out\" (go-w-out), \"do it\" (do-w-it), \"how about\" (how-w-about). After \"ee\", \"ay\" or \"eye\" sounds you hear a y: \"I am\" (I-y-am), \"the end\" (thee-y-end), \"say again\" (say-y-again).",
-          "In non-rhotic accents (most of England, Australia), a written r at the end of a word is pronounced only when a vowel follows: \"far\" has no r, but \"far away\" does (linking r). Many speakers also add an r that isn't written: \"law and order\" sounds like law-r-and order, \"the idea of it\" like idea-r-of it (intrusive r). You don't need to produce intrusive r, but you should recognise it.",
+          "In non-rhotic accents (most of England, Australia), a written r at the end of a word is pronounced only when a vowel follows: \"far\" has no r, but \"far away\" does (linking r). Many speakers also add an r that isn't written: \"law and order\" sounds like law-r-and order, \"the idea of it\" like idea-r-of it (intrusive r). You don't need to produce intrusive r, but you should recognize it.",
         ],
         examples: [
           { es: "Turn off the lights.", en: "Apaga las luces. (turn_off: tur-noff)" },
@@ -2060,7 +2060,7 @@ export const EN_C2_U11: Lesson[] = [
         body: [
           "The extra e: Spanish words can't begin with s + consonant, so Spanish speakers add a vowel: *Espain, *espeak, *estudent, *eschool. This adds a syllable and breaks the rhythm. Trick: link the s to the previous word. \"I'm from Spain\" → I'm from-Spain, with the s straight after \"from\", or start with a long hiss: sss-pain.",
           "Final consonant clusters: Spanish rarely ends words in two or three consonants, so learners drop or add sounds in \"months\", \"texts\", \"asked\", \"world\". Native speakers simplify too (\"texts\" often sounds like tex), but they never add a vowel. It is better to drop a t than to add an e.",
-          "Equal syllables: reading word by word, with every syllable full and the same length, is the strongest marker of a Spanish accent in English. Practise by tapping on the stressed syllables only and fitting the rest in between: \"I WANT tə GO tə thə BEACH ət the WEEKEND\".",
+          "Equal syllables: reading word by word, with every syllable full and the same length, is the strongest marker of a Spanish accent in English. Practice by tapping on the stressed syllables only and fitting the rest in between: \"I WANT tə GO tə thə BEACH ət the WEEKEND\".",
         ],
         examples: [
           { es: "I'm from Spain, but I study in Scotland.", en: "Soy de España, pero estudio en Escocia. (sin e antes de s)" },
@@ -2084,7 +2084,7 @@ export const EN_C2_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Quieres una taza de té y un trozo de tarta?",
+        source: "¿Quieres una taza de té y un pedazo de pastel?",
         answer: "Would you like a cup of tea and a piece of cake?",
         altAnswers: [
           "Do you want a cup of tea and a piece of cake?",
@@ -2101,9 +2101,9 @@ export const EN_C2_U11: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "I went to the shop to get some bread.",
-        altAnswers: ["I went to the store to get some bread."],
-        explanation: "Weak forms: tə thə SHOP tə GET səm BREAD. Write the full words even though you heard reduced ones.",
+        audio: "I went to the store to get some bread.",
+        altAnswers: ["I went to the shop to get some bread."],
+        explanation: "Weak forms: tə thə STORE tə GET səm BREAD. Write the full words even though you heard reduced ones.",
       },
       {
         type: "multiple-choice",
@@ -2224,7 +2224,7 @@ export const EN_C2_U11: Lesson[] = [
         examples: [
           { es: "The fact-checkers soon exposed the senator's mendacious claims.", en: "Los verificadores no tardaron en desmontar las afirmaciones mendaces del senador." },
           { es: "Her perspicacious analysis spotted the flaw that everyone else had missed.", en: "Su perspicaz análisis detectó el fallo que a todos los demás se les había escapado." },
-          { es: "He tried to placate the angry customers with free drinks.", en: "Intentó calmar a los clientes enfadados con bebidas gratis." },
+          { es: "He tried to placate the angry customers with free drinks.", en: "Intentó calmar a los clientes enojados con bebidas gratis." },
           { es: "The basement had a dank, musty smell.", en: "El sótano tenía un olor húmedo y a cerrado." },
         ],
         checkpoint: [
@@ -2273,7 +2273,7 @@ export const EN_C2_U11: Lesson[] = [
               "a translation error",
             ],
             correctIndex: 0,
-            explanation: "\"Ana-\" (against) + \"chron\" (time): something out of its time. Wristwatches did not exist in ancient Rome.",
+            explanation: "\"Ana-\" (back, backwards) + \"chron\" (time): something out of its time. Wristwatches did not exist in ancient Rome.",
           },
           {
             type: "fill-blank",
@@ -2489,7 +2489,7 @@ export const EN_C2_U11: Lesson[] = [
     level: "EN-C2",
     number: 8,
     title: "Spiral review: strategies with Advanced grammar",
-    summary: "Apply the unit's strategies to dense texts full of Advanced grammar: reduced relative clauses, participle clauses, inversion and nominalisation.",
+    summary: "Apply the unit's strategies to dense texts full of Advanced grammar: reduced relative clauses, participle clauses, inversion and nominalization.",
     duration: "12 min",
     sections: [
       {
@@ -2497,7 +2497,7 @@ export const EN_C2_U11: Lesson[] = [
         body: [
           "Relative clauses often lose \"who\", \"which\" or \"that\" plus \"be\": \"The report (that was) published last week shows...\", \"Anyone (who is) wishing to attend should...\". The result is a noun followed by a participle that looks like a main verb.",
           "Strategy: find the real main verb first. In \"The candidates interviewed yesterday were all rejected\", \"interviewed\" is not the main verb; \"were rejected\" is. If a past participle is followed by another verb, it is almost certainly a reduced relative.",
-          "Spanish handles the passive version the same way («el informe publicado la semana pasada»), but it does not use the gerund like this: «quien desee asistir», «los pasajeros que viajen con niños». In English, \"anyone wishing to attend\" and \"passengers travelling with children\" are completely standard.",
+          "Spanish handles the passive version the same way («el informe publicado la semana pasada»), but it does not use the gerund like this: «quien desee asistir», «los pasajeros que viajen con niños». In English, \"anyone wishing to attend\" and \"passengers traveling with children\" are completely standard.",
         ],
         examples: [
           { es: "The report published last week shows a sharp rise in rents.", en: "El informe publicado la semana pasada muestra una fuerte subida de los alquileres." },
@@ -2555,8 +2555,8 @@ export const EN_C2_U11: Lesson[] = [
             options: [
               "cause: she resigned because of the criticism",
               "contrast: she resigned despite the criticism",
-              "condition: she would resign if criticised",
-              "purpose: she resigned in order to be criticised",
+              "condition: she would resign if criticized",
+              "purpose: she resigned in order to be criticized",
             ],
             correctIndex: 0,
             explanation: "The participle clause gives the reason for the main action. Spanish often uses «ante» for this idea: «ante las críticas».",
@@ -2587,7 +2587,7 @@ export const EN_C2_U11: Lesson[] = [
         heading: "Inversion: when a statement looks like a question",
         body: [
           "Formal English inverts subject and auxiliary after negative or limiting adverbials: \"Not only did she win, but she also broke the record\", \"Rarely has a book caused such a stir\", \"Little did they know...\". The meaning is emphatic, not interrogative.",
-          "Conditional inversion is the bigger comprehension trap, because there is no \"if\": \"Had I known\" means \"If I had known\", \"Should you need help\" means \"If you need help\", and \"Were it not for\" means \"If it were not for\". When a sentence starts with \"had\", \"should\" or \"were\" and ends in a full stop, think \"if\".",
+          "Conditional inversion is the bigger comprehension trap, because there is no \"if\": \"Had I known\" means \"If I had known\", \"Should you need help\" means \"If you need help\", and \"Were it not for\" means \"If it were not for\". When a sentence starts with \"had\", \"should\" or \"were\" and ends in a period, think \"if\".",
         ],
         examples: [
           { es: "Not only did she win, but she also broke the record.", en: "No solo ganó, sino que además batió el récord." },
@@ -2630,10 +2630,10 @@ export const EN_C2_U11: Lesson[] = [
         ],
       },
       {
-        heading: "Nominalisation: turn the nouns back into verbs",
+        heading: "Nominalization: turn the nouns back into verbs",
         body: [
           "Academic and official English packs actions into nouns: \"The government's failure to respond to the crisis led to a loss of confidence.\" To understand it, unpack it into verbs and ask who did what: the government failed to respond, so people lost confidence.",
-          "Look for nouns ending in \"-tion\", \"-ment\", \"-al\", \"-ure\" and \"-ance\", and for chains of \"of\". Each one usually hides a verb and its subject or object. Spanish formal prose nominalises a lot too («la no aplicación de la norma»), so the structure is familiar; the challenge is the speed at which English stacks them.",
+          "Look for nouns ending in \"-tion\", \"-ment\", \"-al\", \"-ure\" and \"-ance\", and for chains of \"of\". Each one usually hides a verb and its subject or object. Spanish formal prose nominalizes a lot too («la no aplicación de la norma»), so the structure is familiar; the challenge is the speed at which English stacks them.",
         ],
         examples: [
           { es: "The implementation of the new policy was delayed.", en: "La aplicación de la nueva política se retrasó." },
@@ -2841,7 +2841,7 @@ export const EN_C2_U11: Lesson[] = [
       {
         heading: "Recap: register and attitude",
         body: [
-          "A sudden drop into slang usually signals honesty, solidarity or humour. A sudden rise into formality usually signals irony, sarcasm, coldness or anger.",
+          "A sudden drop into slang usually signals honesty, solidarity or humor. A sudden rise into formality usually signals irony, sarcasm, coldness or anger.",
           "Ask what the shift reveals about the speaker's attitude and relationship: that is often the real point of the passage.",
         ],
         examples: [
@@ -2853,7 +2853,7 @@ export const EN_C2_U11: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A teacher says to a student who arrives forty minutes late: \"How kind of you to join us.\" What is she doing?",
-            options: ["Being sarcastic", "Thanking him sincerely", "Welcoming a new student", "Apologising for starting early"],
+            options: ["Being sarcastic", "Thanking him sincerely", "Welcoming a new student", "Apologizing for starting early"],
             correctIndex: 0,
             explanation: "Formal politeness aimed at someone who has done something wrong is a classic form of sarcasm.",
           },
@@ -2978,7 +2978,7 @@ export const EN_C2_U11: Lesson[] = [
           "They had to leave earlier to catch the train.",
         ],
         correctIndex: 0,
-        explanation: "A sentence beginning with \"had\" + subject and ending in a full stop is an inverted conditional: \"if they had\".",
+        explanation: "A sentence beginning with \"had\" + subject and ending in a period is an inverted conditional: \"if they had\".",
       },
       {
         type: "translate",
@@ -3010,7 +3010,7 @@ export const EN_C2_U11: Lesson[] = [
           "Her future successes",
         ],
         correctIndex: 0,
-        explanation: "\"Such\" points back to a type: the rejection is classified as a \"setback\", and the writer generalises to all setbacks of that kind.",
+        explanation: "\"Such\" points back to a type: the rejection is classified as a \"setback\", and the writer generalizes to all setbacks of that kind.",
       },
       {
         type: "listen-choose",

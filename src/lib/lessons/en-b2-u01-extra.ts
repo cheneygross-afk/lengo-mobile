@@ -25,7 +25,7 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "It was raining when I left the office.", en: "Llovía cuando salí de la oficina." },
-          { es: "I was driving home when my phone rang.", en: "Iba conduciendo a casa cuando sonó el teléfono." },
+          { es: "I was driving home when my phone rang.", en: "Iba manejando a casa cuando sonó el teléfono." },
           { es: "While we were talking, the waiter brought the bill.", en: "Mientras hablábamos, el camarero trajo la cuenta." },
           { es: "The kids were watching TV, so the house was quiet.", en: "Los niños veían la tele, así que la casa estaba tranquila." },
           { es: "When she saw me, she smiled.", en: "Cuando me vio, sonrió." },
@@ -45,11 +45,11 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
         heading: "The imperfect is not always -ing",
         body: [
           "Spanish uses the «imperfecto» for three different things, and English splits them. An action in progress at one moment: past continuous. A state (know, have, be, want, like, believe, understand): past simple. A habit: past simple, \"used to\" or \"would\".",
-          "So «conocía a su hermano» is \"I knew her brother\" (never *I was knowing), «tenía un coche viejo» is \"I had an old car\", and «de niño vivía en Lima» is \"As a child I lived in Lima\". The continuous here sounds strange to a native speaker.",
+          "So «conocía a su hermano» is \"I knew her brother\" (never *I was knowing), «tenía un carro viejo» is \"I had an old car\", and «de niño vivía en Lima» is \"As a child I lived in Lima\". The continuous here sounds strange to a native speaker.",
         ],
         examples: [
           { es: "I knew her brother from school.", en: "Conocía a su hermano del colegio. (incorrecto: *I was knowing)" },
-          { es: "We had an old car that always broke down.", en: "Teníamos un coche viejo que siempre se averiaba." },
+          { es: "We had an old car that always broke down.", en: "Teníamos un carro viejo que siempre se averiaba." },
           { es: "As a child, I lived in Lima.", en: "De niño vivía en Lima." },
           { es: "She wanted to be a pilot.", en: "Quería ser piloto." },
           { es: "I didn't understand the question.", en: "No entendía la pregunta." },
@@ -681,7 +681,7 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "We had been driving ___ six hours when the car broke down.",
         answer: "for",
-        en: "Habíamos estado conduciendo [durante] seis horas cuando se averió el coche.",
+        en: "Habíamos estado manejando [durante] seis horas cuando se averió el carro.",
         explanation: "\"Six hours\" is a period of time, so \"for\". *Since six hours is a calque of «desde hace seis horas».",
       },
       {
@@ -833,11 +833,11 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
         heading: "State verbs stay simple",
         body: [
           "State verbs (know, have for possession, own, be, believe, belong, understand) do not take the continuous, even with a duration: \"I had known her for ten years\", never *I had been knowing her.",
-          "«La conocía desde hacía diez años» and «tenía ese coche desde hacía años» therefore become \"I had known her for ten years\" and \"I had had that car for years\". Yes, \"had had\" is correct.",
+          "«La conocía desde hacía diez años» and «tenía ese carro desde hacía años» therefore become \"I had known her for ten years\" and \"I had had that car for years\". Yes, \"had had\" is correct.",
         ],
         examples: [
           { es: "I had known her for ten years.", en: "La conocía desde hacía diez años. (incorrecto: *I had been knowing her)" },
-          { es: "We had had that car for years.", en: "Teníamos ese coche desde hacía años." },
+          { es: "We had had that car for years.", en: "Teníamos ese carro desde hacía años." },
           { es: "He had been in the hospital for a week.", en: "Llevaba una semana en el hospital." },
           { es: "They had owned the house since 1990.", en: "Eran dueños de la casa desde 1990." },
         ],
@@ -961,7 +961,7 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Tenía ese coche desde hacía años.» Which is correct?",
+        question: "«Tenía ese carro desde hacía años.» Which is correct?",
         options: ["I had had that car for years.", "I had been having that car for years.", "I was having that car for years.", "I had had that car since years."],
         correctIndex: 0,
         explanation: "\"Have\" for possession is a state verb: \"had had ... for years\". It looks strange, but it is perfectly correct.",
@@ -1159,7 +1159,7 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me habían prohibido usar el móvil en clase.",
+        source: "Me habían prohibido usar el celular en clase.",
         answer: "I had been forbidden to use my phone in class.",
         altAnswers: [
           "I had been forbidden from using my phone in class.",

@@ -47,7 +47,7 @@ export const EN_B1_U17: Lesson[] = [
         examples: [
           { es: "My mother, who is a teacher, speaks French.", en: "Mi madre, que es profesora, habla francés." },
           { es: "Emma, who I met at university, is getting married.", en: "Emma, a quien conocí en la universidad, se casa." },
-          { es: "My car, which is ten years old, still runs well.", en: "Mi coche, que tiene diez años, todavía funciona bien." },
+          { es: "My car, which is ten years old, still runs well.", en: "Mi carro, que tiene diez años, todavía funciona bien." },
           { es: "Our dog, which is very old, sleeps all day.", en: "Nuestro perro, que es muy viejo, duerme todo el día." },
           { es: "The Amazon, which is in South America, is a huge river.", en: "El Amazonas, que está en Sudamérica, es un río enorme." },
         ],
@@ -138,7 +138,7 @@ export const EN_B1_U17: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi coche, que tiene diez años, todavía funciona bien.",
+        source: "Mi carro, que tiene diez años, todavía funciona bien.",
         answer: "My car, which is ten years old, still works well.",
         altAnswers: ["My car, which is ten years old, still runs well.", "My car, which is ten years old, still works fine.", "My car, which is ten years old, still runs fine."],
         explanation: "A thing between commas: \"which\". Age uses \"be\": \"is ten years old\", not *has ten years.",
@@ -308,7 +308,7 @@ export const EN_B1_U17: Lesson[] = [
           { es: "There were fifty guests, most of whom I didn't know.", en: "Había cincuenta invitados, a la mayoría de los cuales no conocía." },
           { es: "She wrote ten books, all of which were successful.", en: "Escribió diez libros, todos los cuales tuvieron éxito." },
           { es: "I bought some apples, half of which were bad.", en: "Compré manzanas, la mitad de las cuales estaban malas." },
-          { es: "He has two cars, neither of which works.", en: "Tiene dos coches, y ninguno de los dos funciona." },
+          { es: "He has two cars, neither of which works.", en: "Tiene dos carros, y ninguno de los dos funciona." },
           { es: "We met lots of people, some of whom were very nice.", en: "Conocimos a mucha gente, algunos de los cuales eran muy simpáticos." },
         ],
         checkpoint: [
@@ -536,7 +536,7 @@ export const EN_B1_U17: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "He didn't apologize, ___ made me angry.",
             answer: "which",
-            en: "No pidió perdón, [lo que] me enfadó.",
+            en: "No pidió perdón, [lo que] me enojó.",
             explanation: "«Lo que» after a comma about the whole idea (= «lo cual») is \"which\".",
           },
         ],
@@ -1101,7 +1101,7 @@ export const EN_B1_U17: Lesson[] = [
         ],
         examples: [
           { es: "The book I read was great.", en: "El libro que leí era genial." },
-          { es: "The man whose car was stolen called the police.", en: "El hombre al que le robaron el coche llamó a la policía." },
+          { es: "The man whose car was stolen called the police.", en: "El hombre al que le robaron el carro llamó a la policía." },
           { es: "The girl I told you about is here.", en: "La chica de la que te hablé está aquí." },
         ],
         checkpoint: [
@@ -1206,9 +1206,9 @@ export const EN_B1_U17: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El hombre al que le robaron el coche llamó a la policía.",
+        source: "El hombre al que le robaron el carro llamó a la policía.",
         answer: "The man whose car was stolen called the police.",
-        explanation: "«Al que le robaron el coche» becomes \"whose car was stolen\": \"whose\" + noun + passive.",
+        explanation: "«Al que le robaron el carro» becomes \"whose car was stolen\": \"whose\" + noun + passive.",
       },
       {
         type: "word-order",

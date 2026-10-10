@@ -25,7 +25,7 @@ export const EN_B2_U30: Lesson[] = [
           { es: "If I had known, I would have called you.", en: "Si lo hubiera sabido, te habría llamado." },
           { es: "If I hadn't missed the train, I would be home now.", en: "Si no hubiera perdido el tren, ahora estaría en casa." },
           { es: "Take an umbrella in case it rains.", en: "Llévate un paraguas por si llueve." },
-          { es: "You can borrow my car as long as you bring it back tonight.", en: "Puedes usar mi coche siempre que me lo devuelvas esta noche." },
+          { es: "You can borrow my car as long as you bring it back tonight.", en: "Puedes usar mi carro siempre que me lo devuelvas esta noche." },
         ],
         checkpoint: [
           {
@@ -81,7 +81,7 @@ export const EN_B2_U30: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Ojalá no hubiera comprado este coche.",
+            source: "Ojalá no hubiera comprado este carro.",
             answer: "I wish I hadn't bought this car.",
             altAnswers: [
               "If only I hadn't bought this car.",
@@ -121,7 +121,7 @@ export const EN_B2_U30: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "No deberías haber conducido tan rápido.",
+            source: "No deberías haber manejado tan rápido.",
             answer: "You shouldn't have driven so fast.",
             altAnswers: [
               "You shouldn't have driven that fast.",
@@ -303,14 +303,14 @@ export const EN_B2_U30: Lesson[] = [
         heading: "The passive in every tense",
         body: [
           "The passive is \"be\" in the right tense + past participle: \"is made\", \"is being repaired\", \"has been sold\", \"was built\", \"will be finished\", \"must be signed\". The tense lives in \"be\"; the participle never changes.",
-          "Spanish often uses «se» or an impersonal third-person plural where English uses the passive: «se construyó en 1990» is \"It was built in 1990\" and «me robaron el móvil» is \"My phone was stolen\" or \"I had my phone stolen\".",
+          "Spanish often uses «se» or an impersonal third-person plural where English uses the passive: «se construyó en 1990» is \"It was built in 1990\" and «me robaron el celular» is \"My phone was stolen\" or \"I had my phone stolen\".",
           "Watch out for *I was stolen my phone: in English, the thing stolen is the subject, not the person. Also remember the progressive passive \"is being\" + participle for actions in progress: \"The road is being repaired\".",
         ],
         examples: [
           { es: "The bridge was built in 1990.", en: "El puente se construyó en 1990." },
           { es: "The road is being repaired.", en: "Están arreglando la carretera." },
           { es: "The house has already been sold.", en: "La casa ya se ha vendido." },
-          { es: "My phone was stolen on the subway.", en: "Me robaron el móvil en el metro." },
+          { es: "My phone was stolen on the subway.", en: "Me robaron el celular en el metro." },
           { es: "This form must be signed by a parent.", en: "Este formulario tiene que firmarlo un padre o madre." },
         ],
         checkpoint: [
@@ -352,7 +352,7 @@ export const EN_B2_U30: Lesson[] = [
         ],
         examples: [
           { es: "He is said to be very rich.", en: "Se dice que es muy rico." },
-          { es: "It is believed that the thieves escaped by car.", en: "Se cree que los ladrones huyeron en coche." },
+          { es: "It is believed that the thieves escaped by car.", en: "Se cree que los ladrones huyeron en carro." },
           { es: "The thieves are thought to have left the country.", en: "Se cree que los ladrones han salido del país." },
           { es: "I had my hair cut yesterday.", en: "Ayer me corté el pelo (en la peluquería)." },
           { es: "We're getting the kitchen painted next week.", en: "La semana que viene nos pintan la cocina." },
@@ -381,7 +381,7 @@ export const EN_B2_U30: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Tengo que llevar el coche a que lo revisen.",
+            source: "Tengo que llevar el carro a que lo revisen.",
             answer: "I have to get my car serviced.",
             altAnswers: [
               "I have to get the car serviced.",
@@ -615,7 +615,7 @@ export const EN_B2_U30: Lesson[] = [
           { es: "The book I'm reading is fantastic.", en: "El libro que estoy leyendo es fantástico." },
           { es: "What I need is a vacation.", en: "Lo que necesito son unas vacaciones." },
           { es: "He failed the exam, which surprised everyone.", en: "Suspendió el examen, lo que sorprendió a todos." },
-          { es: "That's the man whose car was stolen.", en: "Ese es el hombre al que le robaron el coche." },
+          { es: "That's the man whose car was stolen.", en: "Ese es el hombre al que le robaron el carro." },
         ],
         checkpoint: [
           {
@@ -903,7 +903,7 @@ export const EN_B2_U30: Lesson[] = [
         ],
         examples: [
           { es: "I enjoy cooking for my friends.", en: "Disfruto cocinando para mis amigos." },
-          { es: "We can't afford to buy a new car.", en: "No podemos permitirnos comprar un coche nuevo." },
+          { es: "We can't afford to buy a new car.", en: "No podemos permitirnos comprar un carro nuevo." },
           { es: "He left without saying goodbye.", en: "Se fue sin despedirse." },
           { es: "I look forward to hearing from you.", en: "Quedo a la espera de su respuesta." },
           { es: "Smoking is bad for your health.", en: "Fumar es malo para la salud." },
@@ -980,7 +980,7 @@ export const EN_B2_U30: Lesson[] = [
           { es: "The course consists of ten lessons.", en: "El curso consta de diez lecciones." },
           { es: "She's married to a Canadian.", en: "Está casada con un canadiense." },
           { es: "I used to live in Bogota.", en: "Antes vivía en Bogotá." },
-          { es: "I'm not used to driving on the left.", en: "No estoy acostumbrado a conducir por la izquierda." },
+          { es: "I'm not used to driving on the left.", en: "No estoy acostumbrado a manejar por la izquierda." },
           { es: "I usually get up at seven.", en: "Suelo levantarme a las siete." },
         ],
         checkpoint: [
@@ -1497,7 +1497,7 @@ export const EN_B2_U30: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Se me rompió el móvil.",
+            source: "Se me rompió el celular.",
             answer: "I broke my phone.",
             altAnswers: ["My phone broke.", "My phone got broken.", "I broke my cell phone.", "My cell phone broke.", "I broke my mobile.", "My mobile broke.", "My phone is broken."],
             explanation: "The accidental «se me» disappears in English: \"I broke my phone\" or \"My phone broke\".",
@@ -1953,7 +1953,7 @@ export const EN_B2_U30: Lesson[] = [
         ],
         examples: [
           { es: "The change did not happen overnight.", en: "El cambio no se produjo de la noche a la mañana." },
-          { es: "They gradually extended the car-free zone.", en: "Ampliaron poco a poco la zona sin coches." },
+          { es: "They gradually extended the car-free zone.", en: "Ampliaron poco a poco la zona sin carros." },
           { es: "Residents were given special permits.", en: "A los vecinos se les dieron permisos especiales." },
           { es: "Pedestrians tend to stop and browse.", en: "Los peatones suelen pararse a mirar escaparates." },
         ],
@@ -2735,7 +2735,7 @@ export const EN_B2_U30: Lesson[] = [
             sentence: "It's ___ to park here without a permit.",
             answer: "illegal",
             altAnswers: ["against the law", "not legal", "not allowed", "forbidden", "prohibited"],
-            en: "Es [ilegal] aparcar aquí sin permiso.",
+            en: "Es [ilegal] estacionar aquí sin permiso.",
             explanation: "Before l, the negative prefix is il-: \"illegal\", \"illogical\".",
           },
         ],

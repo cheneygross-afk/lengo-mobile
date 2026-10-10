@@ -54,7 +54,7 @@ export const EN_A2_U15_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "I have a neighbor who is a doctor.", en: "Tengo una vecina que es médica." },
-          { es: "We bought a car that uses very little gas.", en: "Compramos un coche que gasta muy poca gasolina." },
+          { es: "We bought a car that uses very little gas.", en: "Compramos un carro que gasta muy poca gasolina." },
           { es: "This is the park where we play soccer.", en: "Este es el parque donde jugamos fútbol." },
           { es: "It's a park that has a small lake.", en: "Es un parque que tiene un lago pequeño." },
         ],
@@ -186,7 +186,7 @@ export const EN_A2_U15_EXTRA: Lesson[] = [
         instructions: "Une cada expresión con su significado.",
         pairs: [
           { left: "the man who", right: "el hombre que" },
-          { left: "the car which", right: "el coche que" },
+          { left: "the car which", right: "el carro que" },
           { left: "the town where", right: "el pueblo donde" },
           { left: "the girl whose", right: "la chica cuya" },
           { left: "what I need", right: "lo que necesito" },
@@ -1169,7 +1169,7 @@ export const EN_A2_U15_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "¿Cuál es tu coche? El rojo.",
+        source: "¿Cuál es tu carro? El rojo.",
         answer: "Which one is your car? The red one.",
         altAnswers: ["Which is your car? The red one.", "Which car is yours? The red one.", "Which one is yours? The red one."],
         explanation: "«¿Cuál?» entre varios es \"which one?\", y «el rojo» es \"the red one\".",

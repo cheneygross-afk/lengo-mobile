@@ -131,7 +131,7 @@ export const EN_B2_U16: Lesson[] = [
       {
         heading: "Regret, go on and mean",
         body: [
-          "\"Regret doing\" looks back: \"I regret selling my car\" («me arrepiento de haber vendido el coche»). \"Regret to\" + say/inform/tell is a formal way to give bad news: \"We regret to inform you that your flight has been canceled\" («lamentamos comunicarle»).",
+          "\"Regret doing\" looks back: \"I regret selling my car\" («me arrepiento de haber vendido el carro»). \"Regret to\" + say/inform/tell is a formal way to give bad news: \"We regret to inform you that your flight has been canceled\" («lamentamos comunicarle»).",
           "\"Go on doing\" means continue the same activity: \"She went on talking for an hour\". \"Go on to do\" means move to the next thing: \"After the intro, he went on to explain the plan\" («pasó a explicar»).",
           "\"Mean doing\" means involve or have as a result: \"The new job means moving to Chicago\" («implica mudarse»). \"Mean to do\" means intend: \"I didn't mean to hurt you\" («no era mi intención»).",
         ],
@@ -186,7 +186,7 @@ export const EN_B2_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi abuelo dejó de conducir a los ochenta años.",
+        source: "Mi abuelo dejó de manejar a los ochenta años.",
         answer: "My grandfather stopped driving at eighty.",
         altAnswers: [
           "My grandfather stopped driving when he was eighty.",
@@ -394,7 +394,7 @@ export const EN_B2_U16: Lesson[] = [
       {
         heading: "Perfect and passive forms: having done, being told",
         body: [
-          "The perfect gerund \"having\" + participle stresses that the action happened before: \"He denied having taken the money\" («negó haber cogido el dinero»). After \"remember\", \"regret\" and \"deny\", the simple -ing form usually works too, because the meaning is already clear.",
+          "The perfect gerund \"having\" + participle stresses that the action happened before: \"He denied having taken the money\" («negó haber tomado el dinero»). After \"remember\", \"regret\" and \"deny\", the simple -ing form usually works too, because the meaning is already clear.",
           "The passive gerund \"being\" + participle is for actions done to you: \"I hate being told what to do\" («odio que me digan lo que tengo que hacer»). Spanish uses «que me...» + subjunctive here, but English only needs \"being\" + participle.",
           "The same goes for the infinitive: \"to be\" + participle is passive (\"She expects to be paid on time\") and \"to have\" + participle is perfect (\"I'm glad to have met you\").",
         ],
@@ -601,12 +601,12 @@ export const EN_B2_U16: Lesson[] = [
         heading: "Verbs + -ing: enjoy, avoid, mind and friends",
         body: [
           "Some verbs are always followed by -ing: \"enjoy\", \"avoid\", \"mind\", \"finish\", \"keep\", \"suggest\", \"consider\", \"miss\", \"practice\", \"deny\", \"imagine\", \"can't stand\", \"can't help\", \"feel like\".",
-          "Spanish uses the infinitive after most of them («evito conducir», «¿te importa esperar?»), so *I enjoy to dance and *I avoid to drive are very common mistakes. Learn these verbs as a list.",
+          "Spanish uses the infinitive after most of them («evito manejar», «¿te importa esperar?»), so *I enjoy to dance and *I avoid to drive are very common mistakes. Learn these verbs as a list.",
           "\"Do you mind...?\" is a polite request and takes -ing: \"Do you mind opening the window?\" («¿te importa abrir la ventana?»). The answer \"No, not at all\" means yes, I'll do it.",
         ],
         examples: [
           { es: "I really enjoy dancing.", en: "Me encanta bailar. (incorrecto: *enjoy to dance)" },
-          { es: "Try to avoid driving in the rush hour.", en: "Intenta evitar conducir en hora punta." },
+          { es: "Try to avoid driving in the rush hour.", en: "Intenta evitar manejar en hora punta." },
           { es: "Do you mind closing the door?", en: "¿Te importa cerrar la puerta?" },
           { es: "Have you finished reading the book?", en: "¿Has terminado de leer el libro?" },
           { es: "She keeps calling me at night.", en: "No para de llamarme por la noche." },
@@ -666,7 +666,7 @@ export const EN_B2_U16: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "After two hours, we finally ___ fix the car.",
             answer: "managed to",
-            en: "Después de dos horas, por fin [conseguimos] arreglar el coche.",
+            en: "Después de dos horas, por fin [conseguimos] arreglar el carro.",
             explanation: "«Conseguir» + infinitive is \"manage to\" + base form. \"Get to fix\" means have the chance to, which is different.",
           },
         ],
@@ -728,7 +728,7 @@ export const EN_B2_U16: Lesson[] = [
         sentence: "She suggested ___ a taxi because it was late.",
         answer: "taking",
         altAnswers: ["getting", "calling"],
-        en: "Sugirió [coger] un taxi porque era tarde.",
+        en: "Sugirió [tomar] un taxi porque era tarde.",
         explanation: "\"Suggest\" + -ing (or \"suggest that we take\"). *Suggested to take is a very common error.",
       },
       {
@@ -839,8 +839,8 @@ export const EN_B2_U16: Lesson[] = [
           "Don't rely on Spanish here. «Recordar», «dejar de» and «intentar» do not tell you which form to use. The meaning does.",
         ],
         examples: [
-          { es: "I remembered to lock the car.", en: "Me acordé de cerrar el coche." },
-          { es: "I remember locking the car.", en: "Recuerdo haber cerrado el coche." },
+          { es: "I remembered to lock the car.", en: "Me acordé de cerrar el carro." },
+          { es: "I remember locking the car.", en: "Recuerdo haber cerrado el carro." },
           { es: "He stopped working at six.", en: "Dejó de trabajar a las seis." },
           { es: "He stopped to answer the phone.", en: "Se paró para contestar al teléfono." },
           { es: "Try to relax.", en: "Intenta relajarte." },
@@ -880,7 +880,7 @@ export const EN_B2_U16: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "El coche necesita un lavado.",
+            source: "El carro necesita un lavado.",
             answer: "The car needs washing.",
             altAnswers: ["The car needs to be washed.", "The car needs a wash.", "The car needs cleaning.", "The car needs to be cleaned."],
             explanation: "When the subject is the thing, use \"need\" + -ing or \"need to be\" + participle (passive meaning).",
@@ -1111,7 +1111,7 @@ export const EN_B2_U16: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "No me dejan usar el móvil en el trabajo.",
+            source: "No me dejan usar el celular en el trabajo.",
             answer: "They don't let me use my phone at work.",
             altAnswers: [
               "They don't let me use my cell phone at work.",
@@ -1136,7 +1136,7 @@ export const EN_B2_U16: Lesson[] = [
           "\"It's time\" works the same way: \"It's time you went to bed\" («ya es hora de que te acuestes»), or more neutrally, \"It's time for you to go to bed.\"",
         ],
         examples: [
-          { es: "I prefer walking to driving.", en: "Prefiero caminar a conducir." },
+          { es: "I prefer walking to driving.", en: "Prefiero caminar a manejar." },
           { es: "I'd rather stay home tonight.", en: "Esta noche prefiero quedarme en casa." },
           { es: "I'd rather you stayed.", en: "Prefiero que te quedes." },
           { es: "I'd prefer you to stay.", en: "Preferiría que te quedaras." },
@@ -1289,9 +1289,9 @@ export const EN_B2_U16: Lesson[] = [
         instructions: "Match each English structure with its Spanish meaning.",
         pairs: [
           { left: "She made me laugh.", right: "Me hizo reír." },
-          { left: "She let me drive.", right: "Me dejó conducir." },
-          { left: "She wanted me to drive.", right: "Quería que yo condujera." },
-          { left: "She'd rather I drove.", right: "Prefiere que conduzca yo." },
+          { left: "She let me drive.", right: "Me dejó manejar." },
+          { left: "She wanted me to drive.", right: "Quería que yo manejara." },
+          { left: "She'd rather I drove.", right: "Prefiere que maneje yo." },
         ],
         explanation: "\"Make\" and \"let\" + base form; \"want\" + person + to; \"would rather\" + person + past simple.",
       },
@@ -1639,7 +1639,7 @@ export const EN_B2_U16: Lesson[] = [
         examples: [
           { es: "I used to live alone.", en: "Antes vivía solo." },
           { es: "She used to have very long hair.", en: "Antes tenía el pelo muy largo." },
-          { es: "We didn't use to have a car.", en: "Antes no teníamos coche." },
+          { es: "We didn't use to have a car.", en: "Antes no teníamos carro." },
           { es: "Did you use to play any sports?", en: "¿Practicabas algún deporte?" },
           { es: "I usually get up at seven.", en: "Suelo levantarme a las siete. (incorrecto: *I use to get up)" },
         ],
@@ -1675,7 +1675,7 @@ export const EN_B2_U16: Lesson[] = [
           { es: "She's used to working late.", en: "Está acostumbrada a trabajar hasta tarde. (incorrecto: *used to work)" },
           { es: "We aren't used to this heat.", en: "No estamos acostumbrados a este calor." },
           { es: "He was used to getting up early.", en: "Estaba acostumbrado a madrugar." },
-          { es: "Are you used to driving on the left?", en: "¿Estás acostumbrado a conducir por la izquierda?" },
+          { es: "Are you used to driving on the left?", en: "¿Estás acostumbrado a manejar por la izquierda?" },
         ],
         checkpoint: [
           {
@@ -1708,7 +1708,7 @@ export const EN_B2_U16: Lesson[] = [
           "Spanish «acostumbrarse» is reflexive, but don't add \"myself\": *I got used myself to it is wrong.",
         ],
         examples: [
-          { es: "I'm getting used to driving on the left.", en: "Me estoy acostumbrando a conducir por la izquierda." },
+          { es: "I'm getting used to driving on the left.", en: "Me estoy acostumbrando a manejar por la izquierda." },
           { es: "It took me months to get used to the food.", en: "Tardé meses en acostumbrarme a la comida." },
           { es: "Don't worry, you'll get used to it.", en: "No te preocupes, ya te acostumbrarás." },
           { es: "I'll never get used to getting up at five.", en: "Nunca me acostumbraré a levantarme a las cinco." },
@@ -2104,7 +2104,7 @@ export const EN_B2_U16: Lesson[] = [
           { es: "That movie isn't worth watching.", en: "No merece la pena ver esa película." },
           { es: "There's no point in waiting any longer.", en: "No tiene sentido esperar más." },
           { es: "It's no use crying over spilled milk.", en: "A lo hecho, pecho. (lit. no sirve de nada llorar por la leche derramada)" },
-          { es: "Is it worth taking a taxi?", en: "¿Merece la pena coger un taxi?" },
+          { es: "Is it worth taking a taxi?", en: "¿Merece la pena tomar un taxi?" },
         ],
         checkpoint: [
           {
@@ -2148,7 +2148,7 @@ export const EN_B2_U16: Lesson[] = [
         ],
         examples: [
           { es: "I'd rather stay home tonight.", en: "Prefiero quedarme en casa esta noche. (incorrecto: *I'd rather to stay)" },
-          { es: "I'd rather walk than take the bus.", en: "Prefiero ir andando que coger el autobús." },
+          { es: "I'd rather walk than take the bus.", en: "Prefiero ir andando que tomar el autobús." },
           { es: "I prefer reading to watching TV.", en: "Prefiero leer a ver la tele." },
           { es: "I prefer to read rather than watch TV.", en: "Prefiero leer en lugar de ver la tele." },
           { es: "Would you rather eat in or go out?", en: "¿Prefieres comer en casa o salir?" },
@@ -2429,7 +2429,7 @@ export const EN_B2_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Todavía no me he acostumbrado a conducir por la izquierda.",
+        source: "Todavía no me he acostumbrado a manejar por la izquierda.",
         answer: "I still haven't gotten used to driving on the left.",
         altAnswers: [
           "I still haven't got used to driving on the left.",
@@ -2595,7 +2595,7 @@ export const EN_B2_U16: Lesson[] = [
             sentence: "I ___ hours on my phone every night.",
             answer: "would spend",
             altAnswers: ["used to spend", "spent"],
-            en: "[Me pasaba] horas con el móvil todas las noches.",
+            en: "[Me pasaba] horas con el celular todas las noches.",
             explanation: "A repeated past action: \"would\" or \"used to\" + base form. «Pasar tiempo» is \"spend time\".",
           },
         ],
@@ -2607,7 +2607,7 @@ export const EN_B2_U16: Lesson[] = [
           "Don't forget the change-of-meaning verbs: \"I've tried meditating and it really helps\", \"I regret not starting sooner\", \"I try to remember to drink water\".",
         ],
         examples: [
-          { es: "I've stopped checking my phone before bed.", en: "He dejado de mirar el móvil antes de dormir." },
+          { es: "I've stopped checking my phone before bed.", en: "He dejado de mirar el celular antes de dormir." },
           { es: "I've tried meditating, and it really helps.", en: "He probado a meditar y me ayuda mucho." },
           { es: "I'm used to cooking for myself now.", en: "Ya estoy acostumbrado a cocinar para mí." },
           { es: "I regret not starting sooner.", en: "Me arrepiento de no haber empezado antes." },
@@ -2805,7 +2805,7 @@ export const EN_B2_U16: Lesson[] = [
         sentence: "If you can't sleep, try ___ your phone off an hour before bed.",
         answer: "turning",
         altAnswers: ["switching"],
-        en: "Si no puedes dormir, [prueba a apagar] el móvil una hora antes de acostarte.",
+        en: "Si no puedes dormir, [prueba a apagar] el celular una hora antes de acostarte.",
         explanation: "An experiment to see if it helps: \"try\" + -ing.",
       },
       {
@@ -2871,10 +2871,10 @@ export const EN_B2_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Vi a alguien entrar en tu coche.",
+        source: "Vi a alguien entrar en tu carro.",
         answer: "I saw someone get into your car.",
         altAnswers: ["I saw someone getting into your car.", "I saw somebody get into your car.", "I saw somebody getting into your car.", "I saw someone break into your car.", "I saw somebody break into your car.", "I saw someone get in your car.", "I saw someone getting in your car."],
-        explanation: "\"See\" + object + base form or -ing, never \"to\". «Entrar en un coche» is \"get into\".",
+        explanation: "\"See\" + object + base form or -ing, never \"to\". «Entrar en un carro» is \"get into\".",
       },
       {
         type: "multiple-choice",

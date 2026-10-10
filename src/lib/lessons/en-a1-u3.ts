@@ -245,7 +245,7 @@ export const EN_A1_U3: Lesson[] = [
           { es: "She watches TV.", en: "Ella ve la tele." },
           { es: "He goes to school.", en: "Él va al colegio." },
           { es: "Ana does her homework.", en: "Ana hace sus deberes." },
-          { es: "He washes the car.", en: "Él lava el coche." },
+          { es: "He washes the car.", en: "Él lava el carro." },
           { es: "She teaches English.", en: "Ella enseña inglés." },
           { es: "She kisses her son.", en: "Ella besa a su hijo." },
         ],
@@ -317,7 +317,7 @@ export const EN_A1_U3: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "Ana tiene un coche rojo.",
+            source: "Ana tiene un carro rojo.",
             answer: "Ana has a red car.",
             explanation: "\"Have\" en tercera persona es \"has\". Y el adjetivo va antes del nombre: \"a red car\".",
           },
@@ -499,7 +499,7 @@ export const EN_A1_U3: Lesson[] = [
           { es: "He doesn't eat fish.", en: "Él no come pescado." },
           { es: "Tom doesn't speak Spanish.", en: "Tom no habla español." },
           { es: "It doesn't work.", en: "No funciona." },
-          { es: "Ana doesn't have a car.", en: "Ana no tiene coche." },
+          { es: "Ana doesn't have a car.", en: "Ana no tiene carro." },
         ],
         checkpoint: [
           {
@@ -525,7 +525,7 @@ export const EN_A1_U3: Lesson[] = [
         body: [
           "Para decir que no tienes algo, en inglés americano se usa \"don't have\" o \"doesn't have\": \"I don't have time\", \"She doesn't have a car\".",
           "Quizás oigas \"I haven't got\" en inglés británico, pero \"I haven't a car\" suena muy anticuado. Lo más seguro es siempre \"don't have\".",
-          "Fíjate en que en español decimos «no tengo coche» sin artículo, pero en inglés un nombre contable en singular necesita \"a\": \"I don't have a car\".",
+          "Fíjate en que en español decimos «no tengo carro» sin artículo, pero en inglés un nombre contable en singular necesita \"a\": \"I don't have a car\".",
         ],
         examples: [
           { es: "I don't have time.", en: "No tengo tiempo." },
@@ -538,7 +538,7 @@ export const EN_A1_U3: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "No tengo coche.",
+            source: "No tengo carro.",
             answer: "I don't have a car.",
             altAnswers: ["I haven't got a car."],
             explanation: "\"Don't have\" para la negativa, y \"a car\" con artículo: en inglés un nombre contable en singular necesita \"a\".",
@@ -697,7 +697,7 @@ export const EN_A1_U3: Lesson[] = [
           { es: "Does she speak French?", en: "¿Ella habla francés?" },
           { es: "Does Ana work today?", en: "¿Ana trabaja hoy?" },
           { es: "Does it work?", en: "¿Funciona?" },
-          { es: "Does your brother have a car?", en: "¿Tu hermano tiene coche?" },
+          { es: "Does your brother have a car?", en: "¿Tu hermano tiene carro?" },
         ],
         checkpoint: [
           {
@@ -727,7 +727,7 @@ export const EN_A1_U3: Lesson[] = [
           { es: "Do you speak English? Yes, I do.", en: "¿Hablas inglés? Sí." },
           { es: "Do you smoke? No, I don't.", en: "¿Fumas? No." },
           { es: "Does she live here? Yes, she does.", en: "¿Ella vive aquí? Sí." },
-          { es: "Does he have a car? No, he doesn't.", en: "¿Él tiene coche? No." },
+          { es: "Does he have a car? No, he doesn't.", en: "¿Él tiene carro? No." },
         ],
         checkpoint: [
           {
@@ -835,7 +835,7 @@ export const EN_A1_U3: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "¿Tienes coche?",
+        source: "¿Tienes carro?",
         answer: "Do you have a car?",
         altAnswers: ["Have you got a car?"],
         explanation: "\"Do you have...?\" es la pregunta normal con \"have\". Y \"car\" lleva \"a\".",
@@ -1067,7 +1067,7 @@ export const EN_A1_U3: Lesson[] = [
         type: "listen-choose",
         audio: "He usually walks to work.",
         question: "¿Qué has oído?",
-        options: ["Normalmente va andando al trabajo.", "Nunca va andando al trabajo.", "A veces va en coche al trabajo.", "Siempre trabaja en casa."],
+        options: ["Normalmente va andando al trabajo.", "Nunca va andando al trabajo.", "A veces va en carro al trabajo.", "Siempre trabaja en casa."],
         correctIndex: 0,
         explanation: "\"Usually\" es normalmente y \"walks to work\" es ir andando al trabajo.",
       },

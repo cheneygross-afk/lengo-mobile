@@ -1598,7 +1598,7 @@ export const EN_B1_U02: Lesson[] = [
         heading: "Big changes: move abroad, leave home",
         body: [
           "\"Move\" is to change the place where you live: \"We moved to Canada in 2015.\" \"Move abroad\" is «irse a vivir al extranjero» (no \"to\" before \"abroad\"). British English also says \"move house\" for «mudarse».",
-          "\"Leave home\" is «irse de casa (de los padres)», and \"learn to drive\" or \"get your driver's license\" is «sacarse el carné de conducir».",
+          "\"Leave home\" is «irse de casa (de los padres)», and \"learn to drive\" or \"get your driver's license\" is «sacar la licencia de manejar».",
           "Use the present perfect to count life events up to now: \"I've moved four times.\" Use the past simple for the details: \"The last time, I moved to Monterrey.\"",
         ],
         examples: [
@@ -1988,7 +1988,7 @@ export const EN_B1_U02: Lesson[] = [
           { es: "I've written three emails.", en: "He escrito tres correos." },
           { es: "I've been writing emails all morning.", en: "Llevo toda la mañana escribiendo correos." },
           { es: "I've known him for years.", en: "Lo conozco desde hace años." },
-          { es: "She's had that car since 2018.", en: "Tiene ese coche desde 2018." },
+          { es: "She's had that car since 2018.", en: "Tiene ese carro desde 2018." },
         ],
         checkpoint: [
           {

@@ -49,8 +49,8 @@ export const EN_C1_U14: Lesson[] = [
           "In a formal essay you can also state your position impersonally: \"This essay will argue that...\" or simply state the claim: \"Cities should ban cars from their centres.\"",
         ],
         examples: [
-          { es: "In my view, cities should ban cars from their centres.", en: "En mi opinión, las ciudades deberían prohibir los coches en el centro. (incorrecto: *In my opinion I think...)" },
-          { es: "I believe that homework does more harm than good.", en: "Creo que los deberes hacen más mal que bien." },
+          { es: "In my view, cities should ban cars from their centers.", en: "En mi opinión, las ciudades deberían prohibir los carros en el centro. (incorrecto: *In my opinion I think...)" },
+          { es: "I believe that homework does more harm than good.", en: "Creo que la tarea hace más mal que bien." },
           { es: "Although tourism creates jobs, it is damaging the very places it depends on.", en: "Aunque el turismo crea empleo, está dañando los mismos lugares de los que depende." },
           { es: "This essay will argue that the benefits of remote work outweigh its drawbacks.", en: "En este ensayo se defenderá que las ventajas del teletrabajo superan sus inconvenientes." },
         ],
@@ -59,9 +59,10 @@ export const EN_C1_U14: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "En mi opinión, las ciudades deberían prohibir los coches en el centro.",
-            answer: "In my opinion, cities should ban cars from their centres.",
+            source: "En mi opinión, las ciudades deberían prohibir los carros en el centro.",
+            answer: "In my opinion, cities should ban cars from their centers.",
             altAnswers: [
+              "In my opinion, cities should ban cars from their centres.",
               "In my opinion, cities should ban cars from the city centre.",
               "In my opinion, cities should ban cars in the city centre.",
               "In my opinion, cities should ban cars from their city centres.",
@@ -105,7 +106,7 @@ export const EN_C1_U14: Lesson[] = [
           { es: "The most compelling argument for free transport is environmental.", en: "El argumento más convincente a favor del transporte gratuito es medioambiental." },
           { es: "In Tallinn, for example, passenger numbers rose after fares were abolished.", en: "En Tallin, por ejemplo, el número de pasajeros aumentó tras eliminarse las tarifas." },
           { es: "This suggests that price is a major barrier for many commuters.", en: "Esto indica que el precio es un obstáculo importante para muchos usuarios." },
-          { es: "A second, equally important consideration is cost.", en: "Una segunda consideración, igual de importante, es el coste." },
+          { es: "A second, equally important consideration is cost.", en: "Una segunda consideración, igual de importante, es el costo." },
           { es: "Turning to the question of funding, the picture is less clear.", en: "En cuanto a la financiación, el panorama es menos claro." },
         ],
         checkpoint: [
@@ -122,7 +123,7 @@ export const EN_C1_U14: Lesson[] = [
             type: "word-order",
             prompt: "Put the words in order to make a topic sentence.",
             words: ["A", "second,", "equally", "important", "consideration", "is", "cost."],
-            translation: "Una segunda consideración, igual de importante, es el coste.",
+            translation: "Una segunda consideración, igual de importante, es el costo.",
             explanation: "A topic sentence announces the paragraph's idea at once. \"A second consideration is...\" also signals the structure to the reader.",
           },
         ],
@@ -137,7 +138,7 @@ export const EN_C1_U14: Lesson[] = [
         examples: [
           { es: "A case in point is the city of Copenhagen.", en: "Un buen ejemplo es la ciudad de Copenhague." },
           { es: "Admittedly, free transport would be expensive.", en: "Es cierto que el transporte gratuito sería caro." },
-          { es: "However, this overlooks the cost of pollution.", en: "Sin embargo, esto pasa por alto el coste de la contaminación." },
+          { es: "However, this overlooks the cost of pollution.", en: "Sin embargo, esto pasa por alto el costo de la contaminación." },
           { es: "Opponents of the plan point out that taxes would rise.", en: "Los detractores del plan señalan que subirían los impuestos." },
           { es: "This objection, while valid, is not decisive.", en: "Esta objeción, aunque válida, no es decisiva." },
         ],
@@ -146,7 +147,7 @@ export const EN_C1_U14: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Sin embargo, esto pasa por alto el coste de la contaminación.",
+            source: "Sin embargo, esto pasa por alto el costo de la contaminación.",
             answer: "However, this overlooks the cost of pollution.",
             altAnswers: [
               "However, this ignores the cost of pollution.",
@@ -169,7 +170,7 @@ export const EN_C1_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Creo que los deberes hacen más mal que bien.",
+        source: "Creo que la tarea hace más mal que bien.",
         answer: "I believe that homework does more harm than good.",
         altAnswers: [
           "I believe homework does more harm than good.",
@@ -197,7 +198,7 @@ export const EN_C1_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Es cierto que el plan sería caro; sin embargo, sus beneficios a largo plazo compensarían el coste.",
+        source: "Es cierto que el plan sería caro; sin embargo, sus beneficios a largo plazo compensarían el costo.",
         answer: "Admittedly, the plan would be expensive; however, its long-term benefits would outweigh the cost.",
         altAnswers: [
           "It is true that the plan would be expensive; however, its long-term benefits would outweigh the cost.",
@@ -257,10 +258,10 @@ export const EN_C1_U14: Lesson[] = [
         type: "matching",
         instructions: "Match each part of a PEEL paragraph with its function.",
         pairs: [
-          { left: "Point", right: "la idea principal del párrafo" },
-          { left: "Evidence", right: "un ejemplo, un dato o una cifra" },
-          { left: "Explanation", right: "por qué el dato apoya la idea" },
-          { left: "Link", right: "la conexión con la tesis o el siguiente párrafo" },
+          { left: "Point", right: "the main idea of the paragraph" },
+          { left: "Evidence", right: "an example, a fact or a figure" },
+          { left: "Explanation", right: "why the evidence supports the idea" },
+          { left: "Link", right: "the link to the thesis or the next paragraph" },
         ],
         explanation: "Point, Evidence, Explanation, Link: a simple way to make sure every body paragraph does a complete job.",
       },
@@ -311,7 +312,7 @@ export const EN_C1_U14: Lesson[] = [
         heading: "Presenting views: It could be argued that...",
         body: [
           "Good essays present ideas without always saying who holds them. \"It could be argued that...\", \"It is often claimed that...\" and \"It is widely believed that...\" are the English equivalents of «se podría argumentar que», «a menudo se afirma que» and «se suele pensar que».",
-          "To attribute a view to a group, use \"Critics maintain that...\", \"Supporters of the scheme argue that...\", \"Proponents of X claim that...\". \"Maintain\" here means «sostener». Avoid *Some people say that... in every paragraph: it sounds like Independence.",
+          "To attribute a view to a group, use \"Critics maintain that...\", \"Supporters of the scheme argue that...\", \"Proponents of X claim that...\". \"Maintain\" here means «sostener». Avoid *Some people say that... in every paragraph: it sounds repetitive and below Advanced level.",
           "\"There is a strong case for...\" (+ noun or -ing) means «hay buenas razones para...». The opposite is \"There is little case for...\". Note the preposition: a case \"for\" something, not *a case to do something.",
         ],
         examples: [
@@ -346,9 +347,9 @@ export const EN_C1_U14: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "There is a strong case ___ banning mobile phones in primary schools.",
+            sentence: "There is a strong case ___ banning cell phones in primary schools.",
             answer: "for",
-            en: "Hay [buenas razones para] prohibir los móviles en los colegios de primaria.",
+            en: "Hay [buenas razones para] prohibir los celulares en los colegios de primaria.",
             explanation: "\"A case for\" + -ing or a noun. A common mistake is *a strong case to ban.",
           },
         ],
@@ -361,10 +362,10 @@ export const EN_C1_U14: Lesson[] = [
           "After a concession, signal clearly that your view wins: \"this is not to say that...\", \"nevertheless\", \"even so\", \"this does not alter the fact that...\".",
         ],
         examples: [
-          { es: "While it is true that cars pollute, many people have no alternative.", en: "Si bien es cierto que los coches contaminan, mucha gente no tiene alternativa." },
+          { es: "While it is true that cars pollute, many people have no alternative.", en: "Si bien es cierto que los carros contaminan, mucha gente no tiene alternativa." },
           { es: "Admittedly, the evidence is limited. Nevertheless, it points in one direction.", en: "Es cierto que los datos son limitados. Aun así, apuntan en una dirección." },
           { es: "Granted, the scheme is expensive, but the alternative is worse.", en: "De acuerdo, el plan es caro, pero la alternativa es peor." },
-          { es: "Despite its high cost, the project is worth pursuing.", en: "A pesar de su elevado coste, merece la pena seguir con el proyecto." },
+          { es: "Despite its high cost, the project is worth pursuing.", en: "A pesar de su elevado costo, vale la pena seguir con el proyecto." },
           { es: "This is not to say that technology is harmful.", en: "Esto no quiere decir que la tecnología sea perjudicial." },
         ],
         checkpoint: [
@@ -372,7 +373,7 @@ export const EN_C1_U14: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Si bien es cierto que los coches contaminan, mucha gente no tiene alternativa.",
+            source: "Si bien es cierto que los carros contaminan, mucha gente no tiene alternativa.",
             answer: "While it is true that cars pollute, many people have no alternative.",
             altAnswers: [
               "While it is true that cars cause pollution, many people have no alternative.",
@@ -598,16 +599,16 @@ export const EN_C1_U14: Lesson[] = [
         type: "matching",
         instructions: "Match each phrase with its function in an essay.",
         pairs: [
-          { left: "It could be argued that...", right: "presentar una idea de forma impersonal" },
-          { left: "Admittedly, ...", right: "conceder un punto al otro lado" },
-          { left: "This is not to say that...", right: "evitar que se malinterprete tu idea" },
-          { left: "On balance, ...", right: "concluir tras sopesar ambos lados" },
+          { left: "It could be argued that...", right: "present an idea impersonally" },
+          { left: "Admittedly, ...", right: "concede a point to the other side" },
+          { left: "This is not to say that...", right: "prevent your idea from being misread" },
+          { left: "On balance, ...", right: "conclude after weighing both sides" },
         ],
         explanation: "Each phrase has a job. Using them in the right place matters more than using many of them.",
       },
       {
         type: "write",
-        prompt: "Write a conclusion (60 to 90 words) for an essay on the question: «¿Deberían los colegios sustituir los libros de texto por tabletas?». Weigh up both sides and give your position.",
+        prompt: "Write a conclusion (60 to 90 words) for an essay on the question: \"Should schools replace textbooks with tablets?\". Weigh up both sides and give your position.",
         minWords: 60,
         maxWords: 90,
         rubric: [
@@ -742,7 +743,7 @@ export const EN_C1_U14: Lesson[] = [
           { es: "The introduction of tolls led to a sharp drop in traffic.", en: "La introducción de los peajes provocó un fuerte descenso del tráfico." },
           { es: "Not only do tolls reduce traffic, but they also raise money for public transport.", en: "Los peajes no solo reducen el tráfico, sino que también recaudan dinero para el transporte público." },
           { es: "What cities need is a combination of both measures.", en: "Lo que necesitan las ciudades es una combinación de ambas medidas." },
-          { es: "It is the cost, rather than the principle, that worries most residents.", en: "Lo que preocupa a la mayoría de los vecinos es el coste, más que el principio." },
+          { es: "It is the cost, rather than the principle, that worries most residents.", en: "Lo que preocupa a la mayoría de los vecinos es el costo, más que el principio." },
         ],
         checkpoint: [
           {
@@ -794,7 +795,7 @@ export const EN_C1_U14: Lesson[] = [
           "The lesson: every Advanced phrase has a job. Before using one, ask what relationship it signals (addition, contrast, concession, conclusion) and whether that relationship is really there.",
         ],
         examples: [
-          { es: "Another key factor is the cost of housing.", en: "Otro factor clave es el coste de la vivienda." },
+          { es: "Another key factor is the cost of housing.", en: "Otro factor clave es el costo de la vivienda." },
           { es: "Moreover, the scheme would pay for itself within ten years.", en: "Además, el plan se amortizaría en diez años." },
           { es: "By contrast, cycle lanes benefit only a minority.", en: "En cambio, los carriles bici solo benefician a una minoría." },
           { es: "As a result, many residents have moved out of the centre.", en: "Como consecuencia, muchos vecinos se han ido del centro." },
@@ -889,7 +890,7 @@ export const EN_C1_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Lo que preocupa a la mayoría de los vecinos es el coste, no el principio.",
+        source: "Lo que preocupa a la mayoría de los vecinos es el costo, no el principio.",
         answer: "What worries most residents is the cost, not the principle.",
         altAnswers: [
           "What worries most residents is the cost rather than the principle.",
@@ -947,7 +948,7 @@ export const EN_C1_U14: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write one body paragraph (100 to 140 words) for this essay: «Los gobiernos deberían gravar los billetes de avión para reducir las emisiones. Comenta dos argumentos y di cuál es más convincente.». Use a topic sentence, an example and a counterargument.",
+        prompt: "Write one body paragraph (100 to 140 words) for this essay: \"Governments should tax plane tickets to reduce emissions. Discuss two arguments and say which is more convincing.\". Use a topic sentence, an example and a counterargument.",
         minWords: 100,
         maxWords: 140,
         rubric: [
@@ -1104,7 +1105,7 @@ export const EN_C1_U14: Lesson[] = [
         sentence: "___, the advantages of the scheme outweigh its costs.",
         answer: "On balance",
         altAnswers: ["All things considered", "Taking everything into account", "All in all", "Ultimately", "Overall"],
-        en: "[En definitiva], las ventajas del proyecto superan sus costes.",
+        en: "[En definitiva], las ventajas del proyecto superan sus costos.",
         explanation: "A conclusion after weighing both sides: \"On balance\". Not *At the end. Revisit Part 2 (concluding).",
       },
       {
@@ -1210,7 +1211,7 @@ export const EN_C1_U14: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write an introduction (50 to 80 words) for an essay on this question: «¿Debería ser obligatorio el voto?». End with a clear thesis statement.",
+        prompt: "Write an introduction (50 to 80 words) for an essay on this question: \"Should voting be compulsory?\". End with a clear thesis statement.",
         minWords: 50,
         maxWords: 80,
         rubric: [
@@ -1270,7 +1271,7 @@ export const EN_C1_U14: Lesson[] = [
           "Note the structure: \"The aim of this report is to\" + infinitive. Not *The aim of this report is evaluate (missing \"to\"), and not *The objective of this report is evaluating.",
         ],
         examples: [
-          { es: "The aim of this report is to evaluate the new training programme.", en: "El objetivo de este informe es evaluar el nuevo programa de formación." },
+          { es: "The aim of this report is to evaluate the new training program.", en: "El objetivo de este informe es evaluar el nuevo programa de formación." },
           { es: "This report outlines the main problems with the current booking system.", en: "Este informe expone los principales problemas del sistema de reservas actual." },
           { es: "The findings are based on a survey of 120 employees.", en: "Los resultados se basan en una encuesta a 120 empleados." },
           { es: "It also makes recommendations for improvement.", en: "También incluye recomendaciones de mejora." },
@@ -1281,13 +1282,13 @@ export const EN_C1_U14: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "El objetivo de este informe es evaluar el nuevo programa de formación.",
-            answer: "The aim of this report is to evaluate the new training programme.",
+            answer: "The aim of this report is to evaluate the new training program.",
             altAnswers: [
               "The purpose of this report is to evaluate the new training programme.",
               "The objective of this report is to evaluate the new training programme.",
               "The aim of this report is to assess the new training programme.",
               "The purpose of this report is to assess the new training programme.",
-              "The aim of this report is to evaluate the new training program.",
+              "The aim of this report is to evaluate the new training programme.",
               "The purpose of this report is to evaluate the new training program.",
               "The aim of this report is to assess the new training program.",
               "This report aims to evaluate the new training programme.",
@@ -1366,7 +1367,7 @@ export const EN_C1_U14: Lesson[] = [
           "The recommendations follow logically from the findings: \"In the light of these findings, it is recommended that...\", \"The following measures are suggested:\". In Part 2 you will practise this language in detail.",
         ],
         examples: [
-          { es: "In the light of these findings, the following measures are suggested:", en: "A la vista de estos resultados, se proponen las siguientes medidas:" },
+          { es: "In light of these findings, the following measures are suggested:", en: "A la vista de estos resultados, se proponen las siguientes medidas:" },
           { es: "extending the opening hours", en: "ampliar el horario" },
           { es: "introducing a pre-order system", en: "introducir un sistema de pedidos por adelantado" },
           { es: "offering more vegetarian dishes", en: "ofrecer más platos vegetarianos" },
@@ -1503,9 +1504,9 @@ export const EN_C1_U14: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "A la vista de estos resultados, se proponen las siguientes medidas.",
-        answer: "In the light of these findings, the following measures are proposed.",
+        answer: "In light of these findings, the following measures are proposed.",
         altAnswers: [
-          "In light of these findings, the following measures are proposed.",
+          "In the light of these findings, the following measures are proposed.",
           "In the light of these findings, the following measures are suggested.",
           "In light of these findings, the following measures are suggested.",
           "In the light of these results, the following measures are proposed.",
@@ -1521,8 +1522,8 @@ export const EN_C1_U14: Lesson[] = [
       },
       {
         type: "speak",
-        text: "The aim of this report is to evaluate the new training programme and to make recommendations for improvement.",
-        tip: "\"Evaluate\" has four syllables, stressed on the second: e-VAL-u-ate. \"Programme\" is stressed on the first: PRO-gram.",
+        text: "The aim of this report is to evaluate the new training program and to make recommendations for improvement.",
+        tip: "\"Evaluate\" has four syllables, stressed on the second: e-VAL-u-ate. \"Program\" is stressed on the first syllable: PRO-gram.",
         explanation: "A model opening sentence: purpose plus what the report will do.",
       },
     ],
@@ -1597,7 +1598,7 @@ export const EN_C1_U14: Lesson[] = [
           { es: "Unemployment fell by two percentage points.", en: "El desempleo bajó dos puntos porcentuales." },
           { es: "Membership peaked at 4,500 in 2019.", en: "El número de socios alcanzó su máximo, 4.500, en 2019." },
           { es: "Prices increased from 10 to 12 euros.", en: "Los precios pasaron de 10 a 12 euros." },
-          { es: "After 2020, demand levelled off.", en: "Después de 2020, la demanda se estabilizó." },
+          { es: "After 2020, demand leveled off.", en: "Después de 2020, la demanda se estabilizó." },
         ],
         checkpoint: [
           {
@@ -1700,7 +1701,7 @@ export const EN_C1_U14: Lesson[] = [
           "Finish with a clear request or summary: \"I would therefore urge the committee to approve the proposal.\"",
         ],
         examples: [
-          { es: "This proposal sets out a plan to reduce energy costs.", en: "Esta propuesta presenta un plan para reducir los costes energéticos." },
+          { es: "This proposal sets out a plan to reduce energy costs.", en: "Esta propuesta presenta un plan para reducir los costos energéticos." },
           { es: "The scheme would benefit both staff and customers.", en: "El proyecto beneficiaría tanto al personal como a los clientes." },
           { es: "The initial outlay would be recovered within two years.", en: "La inversión inicial se recuperaría en dos años." },
           { es: "I would therefore urge the committee to approve the proposal.", en: "Por tanto, insto al comité a que apruebe la propuesta." },
@@ -1862,7 +1863,7 @@ export const EN_C1_U14: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Membership peaked at four thousand five hundred in 2019 and has declined steadily since then.",
-        question: "¿Qué describe la frase?",
+        question: "What does the sentence describe?",
         options: [
           "El número de socios alcanzó su máximo en 2019 y desde entonces ha bajado de forma constante.",
           "El número de socios bajó en 2019 y desde entonces se ha mantenido estable.",
@@ -1990,9 +1991,9 @@ export const EN_C1_U14: Lesson[] = [
         ],
         examples: [
           { es: "This proposal sets out three measures to improve the canteen.", en: "Esta propuesta presenta tres medidas para mejorar el comedor." },
-          { es: "A pre-order app would reduce queues at peak times.", en: "Una aplicación de pedidos por adelantado reduciría las colas en las horas punta." },
+          { es: "A pre-order app would reduce queues at peak times.", en: "Una aplicación de pedidos por adelantado reduciría las filas en las horas pico." },
           { es: "Staggering lunch breaks would spread demand more evenly.", en: "Escalonar las pausas para comer repartiría mejor la demanda." },
-          { es: "The total cost is estimated at 8,000 euros.", en: "Se calcula que el coste total será de 8.000 euros." },
+          { es: "The total cost is estimated at 8,000 euros.", en: "Se calcula que el costo total será de 8.000 euros." },
           { es: "I am confident that these changes would be welcomed by staff.", en: "Estoy convencido de que el personal acogería bien estos cambios." },
         ],
         checkpoint: [
@@ -2081,7 +2082,7 @@ export const EN_C1_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Se calcula que el coste total será de 8.000 euros.",
+        source: "Se calcula que el costo total será de 8.000 euros.",
         answer: "The total cost is estimated at 8,000 euros.",
         altAnswers: [
           "The total cost is estimated to be 8,000 euros.",
@@ -2103,7 +2104,7 @@ export const EN_C1_U14: Lesson[] = [
         sentence: "A pre-order app ___ queues at peak times.",
         answer: "would reduce",
         altAnswers: ["would cut", "would shorten", "could reduce"],
-        en: "Una aplicación de pedidos por adelantado [reduciría] las colas en las horas punta.",
+        en: "Una aplicación de pedidos por adelantado [reduciría] las filas en las horas pico.",
         explanation: "Proposals describe the effect of a plan that has not been adopted yet, so they use \"would\".",
       },
       {
@@ -2143,10 +2144,10 @@ export const EN_C1_U14: Lesson[] = [
         type: "matching",
         instructions: "Match each section of the canteen proposal with its content.",
         pairs: [
-          { left: "Current situation", right: "colas largas y quejas por el ruido" },
-          { left: "Proposed changes", right: "una aplicación de pedidos y pausas escalonadas" },
-          { left: "Expected benefits", right: "menos esperas y personal más satisfecho" },
-          { left: "Conclusion", right: "una petición para que se apruebe el plan" },
+          { left: "Current situation", right: "long lines and complaints about noise" },
+          { left: "Proposed changes", right: "an ordering app and staggered breaks" },
+          { left: "Expected benefits", right: "shorter waits and happier staff" },
+          { left: "Conclusion", right: "a request to approve the plan" },
         ],
         explanation: "A proposal moves from the problem to the solution, then to why the solution is worth the cost.",
       },
@@ -2206,8 +2207,9 @@ export const EN_C1_U14: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "El propósito de este informe es analizar las causas del aumento de las quejas.",
-            answer: "The purpose of this report is to analyse the causes of the increase in complaints.",
+            answer: "The purpose of this report is to analyze the causes of the increase in complaints.",
             altAnswers: [
+              "The purpose of this report is to analyse the causes of the increase in complaints.",
               "The aim of this report is to analyse the causes of the increase in complaints.",
               "The purpose of this report is to examine the causes of the increase in complaints.",
               "The aim of this report is to examine the causes of the increase in complaints.",
@@ -2359,9 +2361,9 @@ export const EN_C1_U14: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Las ventas subieron bruscamente en enero y luego se estabilizaron.",
-        answer: "Sales rose sharply in January and then levelled off.",
+        answer: "Sales rose sharply in January and then leveled off.",
         altAnswers: [
-          "Sales rose sharply in January and then leveled off.",
+          "Sales rose sharply in January and then levelled off.",
           "Sales rose sharply in January and then stabilised.",
           "Sales increased sharply in January and then levelled off.",
           "Sales increased sharply in January and then stabilised.",
@@ -2416,13 +2418,13 @@ export const EN_C1_U14: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Se recomienda que el ayuntamiento amplíe el carril bici.",
-        answer: "It is recommended that the council extend the cycle lane.",
+        answer: "It is recommended that the council extend the bike lane.",
         altAnswers: [
           "It is recommended that the council should extend the cycle lane.",
           "It is recommended that the council extends the cycle lane.",
           "It is recommended that the city council extend the cycle lane.",
           "It is recommended that the city council should extend the cycle lane.",
-          "It is recommended that the council extend the bike lane.",
+          "It is recommended that the council extend the cycle lane.",
           "It is recommended that the council should extend the bike lane.",
           "It is recommended that the city council extend the bike lane.",
           "It is recommended that the council widen the cycle lane.",
@@ -2563,7 +2565,7 @@ export const EN_C1_U14: Lesson[] = [
           { es: "What struck me most was the soundtrack.", en: "Lo que más me llamó la atención fue la banda sonora." },
           { es: "I couldn't put it down.", en: "No podía dejar de leerlo." },
           { es: "While the acting is superb, the script lets it down.", en: "Aunque la interpretación es magnífica, el guion la estropea." },
-          { es: "The museum is well worth a visit.", en: "El museo merece mucho la pena." },
+          { es: "The museum is well worth a visit.", en: "El museo vale mucho la pena." },
           { es: "I would thoroughly recommend it to anyone who loves history.", en: "Se lo recomendaría sin reservas a cualquiera a quien le guste la historia." },
           { es: "Unless you're a die-hard fan, give it a miss.", en: "A no ser que seas un fan incondicional, no vayas." },
         ],
@@ -2696,7 +2698,7 @@ export const EN_C1_U14: Lesson[] = [
           { left: "overrated", right: "sobrevalorado" },
           { left: "predictable", right: "previsible" },
           { left: "let someone down", right: "decepcionar a alguien" },
-          { left: "give it a miss", right: "no ir, no verla, pasar de ella" },
+          { left: "give it a miss", right: "no ir, no verla, saltársela" },
         ],
         explanation: "Precise evaluative language does the work that \"very good\" and \"very bad\" cannot.",
       },
@@ -2785,8 +2787,8 @@ export const EN_C1_U14: Lesson[] = [
     slug: "c1-summarising-paraphrasing",
     level: "EN-C1",
     number: 10,
-    title: "Summarising and Paraphrasing",
-    summary: "Report what others say with precise verbs (claim, argue, contend, concede), paraphrase without copying, and summarise the key points. Plus a classic false friend: \"resume\" is not «resumir».",
+    title: "Summarizing and Paraphrasing",
+    summary: "Report what others say with precise verbs (claim, argue, contend, concede), paraphrase without copying, and summarize the key points. Plus a classic false friend: \"resume\" is not «resumir».",
     duration: "12 min",
     sections: [
       {
@@ -2802,7 +2804,7 @@ export const EN_C1_U14: Lesson[] = [
           { es: "Critics contend that the study is biased.", en: "Los críticos sostienen que el estudio es parcial." },
           { es: "She concedes that the sample was small.", en: "Admite que la muestra era pequeña." },
           { es: "He acknowledges that more research is needed.", en: "Reconoce que hace falta más investigación." },
-          { es: "The report points out that costs have tripled.", en: "El informe señala que los costes se han triplicado." },
+          { es: "The report points out that costs have tripled.", en: "El informe señala que los costos se han triplicado." },
         ],
         checkpoint: [
           {
@@ -2894,7 +2896,7 @@ export const EN_C1_U14: Lesson[] = [
         examples: [
           { es: "In the article, the author argues that remote work increases productivity.", en: "En el artículo, el autor sostiene que el teletrabajo aumenta la productividad." },
           { es: "The writer's main point is that schools start too early.", en: "La idea principal del autor es que las clases empiezan demasiado pronto." },
-          { es: "Could you summarise the text in three sentences?", en: "¿Podrías resumir el texto en tres frases?" },
+          { es: "Could you summarize the text in three sentences?", en: "¿Podrías resumir el texto en tres frases?" },
           { es: "To sum up, the evidence is mixed.", en: "En resumen, los datos no son concluyentes." },
           { es: "The talks will resume next week.", en: "Las negociaciones se reanudarán la semana que viene." },
           { es: "Please send your resume and a cover letter.", en: "Envíe su currículum y una carta de presentación. (inglés americano)" },
@@ -2905,8 +2907,9 @@ export const EN_C1_U14: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "¿Podrías resumir el texto en tres frases?",
-            answer: "Could you summarise the text in three sentences?",
+            answer: "Could you summarize the text in three sentences?",
             altAnswers: [
+              "Could you summarise the text in three sentences?",
               "Could you sum up the text in three sentences?",
               "Can you summarise the text in three sentences?",
               "Can you sum up the text in three sentences?",
@@ -2915,7 +2918,7 @@ export const EN_C1_U14: Lesson[] = [
               "Would you be able to summarise the text in three sentences?",
               "Could you give a summary of the text in three sentences?",
             ],
-            explanation: "«Resumir» is \"summarise\" or \"sum up\". \"Resume\" means «reanudar», so *resume the text is wrong.",
+            explanation: "«Resumir» is \"summarize\" or \"sum up\". \"Resume\" means «reanudar», so *resume the text is wrong.",
           },
           {
             type: "fill-blank",
@@ -2986,7 +2989,7 @@ export const EN_C1_U14: Lesson[] = [
         sentence: "The report ___ that costs have tripled since 2015.",
         answer: "points out",
         altAnswers: ["notes", "highlights", "observes", "shows", "states", "reveals"],
-        en: "El informe [señala] que los costes se han triplicado desde 2015.",
+        en: "El informe [señala] que los costos se han triplicado desde 2015.",
         explanation: "«Señalar» a fact is \"point out\" or \"note\". Note \"have tripled\": \"triple\" is a verb, like \"double\".",
       },
       {
@@ -3070,7 +3073,7 @@ export const EN_C1_U14: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Summarise this text in English in 50 to 70 words, using your own words and at least two reporting verbs: «Según un estudio reciente, los adolescentes que duermen menos de siete horas rinden peor en los exámenes. Los autores reconocen que la muestra era pequeña, pero sostienen que los institutos deberían empezar más tarde. Otros expertos señalan que el uso del móvil por la noche es la verdadera causa.».",
+        prompt: "Summarize this text in English in 50 to 70 words, using your own words and at least two reporting verbs: «Según un estudio reciente, los adolescentes que duermen menos de siete horas rinden peor en los exámenes. Los autores reconocen que la muestra era pequeña, pero sostienen que las escuelas secundarias deberían empezar más tarde. Otros expertos señalan que el uso del celular por la noche es la verdadera causa.».",
         minWords: 50,
         maxWords: 70,
         rubric: [
@@ -3159,8 +3162,8 @@ export const EN_C1_U14: Lesson[] = [
         examples: [
           { es: "Some students thrive online; others need a classroom.", en: "Algunos estudiantes rinden muy bien en línea; otros necesitan un aula." },
           { es: "There is only one solution: higher taxes.", en: "Solo hay una solución: subir los impuestos." },
-          { es: "You will need three things: a passport, a visa and a return ticket.", en: "Necesitarás tres cosas: pasaporte, visado y billete de vuelta." },
-          { es: "The main problems are noise and cost.", en: "Los principales problemas son el ruido y el coste." },
+          { es: "You will need three things: a passport, a visa and a return ticket.", en: "Necesitarás tres cosas: pasaporte, visa y boleto de regreso." },
+          { es: "The main problems are noise and cost.", en: "Los principales problemas son el ruido y el costo." },
           { es: "We visited cities such as Lima, Quito and Bogota.", en: "Visitamos ciudades como Lima, Quito y Bogotá." },
         ],
         checkpoint: [
@@ -3214,7 +3217,7 @@ export const EN_C1_U14: Lesson[] = [
           "Titles of books, films and articles usually capitalise every main word (title case): \"The Lord of the Rings\", \"One Hundred Years of Solitude\". Short articles, prepositions and conjunctions stay lower case unless they come first. Spanish capitalises only the first word («Cien años de soledad»).",
         ],
         examples: [
-          { es: "The course starts on Monday, 3 April.", en: "El curso empieza el lunes 3 de abril." },
+          { es: "The course starts on Monday, April 3.", en: "El curso empieza el lunes 3 de abril." },
           { es: "She speaks English, French and Portuguese.", en: "Habla inglés, francés y portugués." },
           { es: "My Spanish teacher is from Argentina.", en: "Mi profesor de español es de Argentina." },
           { es: "We met in the spring of 2019.", en: "Nos conocimos en la primavera de 2019." },
@@ -3227,10 +3230,10 @@ export const EN_C1_U14: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "El curso de francés empieza el lunes 3 de abril.",
-            answer: "The French course starts on Monday, 3 April.",
+            answer: "The French course starts on Monday, April 3.",
             altAnswers: [
               "The French course starts on Monday 3 April.",
-              "The French course starts on Monday, April 3.",
+              "The French course starts on Monday, 3 April.",
               "The French course starts on Monday, April 3rd.",
               "The French course starts on Monday 3rd April.",
               "The French course starts on Monday, the 3rd of April.",
@@ -3755,8 +3758,8 @@ export const EN_C1_U14: Lesson[] = [
         ],
         examples: [
           { es: "The rise in prices has hit low-income families hardest.", en: "La subida de los precios ha afectado sobre todo a las familias con menos ingresos." },
-          { es: "The council's decision to close the library was widely criticised.", en: "La decisión del ayuntamiento de cerrar la biblioteca fue muy criticada." },
-          { es: "Following the closure of the factory, unemployment soared.", en: "Tras el cierre de la fábrica, el paro se disparó." },
+          { es: "The council's decision to close the library was widely criticized.", en: "La decisión del municipio de cerrar la biblioteca fue muy criticada." },
+          { es: "Following the closure of the factory, unemployment soared.", en: "Tras el cierre de la fábrica, el desempleo se disparó." },
           { es: "Due to the lack of funding, the project was abandoned.", en: "Por falta de financiación, se abandonó el proyecto." },
         ],
         checkpoint: [
@@ -3764,7 +3767,7 @@ export const EN_C1_U14: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Tras el cierre de la fábrica, el paro se disparó.",
+            source: "Tras el cierre de la fábrica, el desempleo se disparó.",
             answer: "Following the closure of the factory, unemployment soared.",
             altAnswers: [
               "After the closure of the factory, unemployment soared.",
@@ -3828,7 +3831,7 @@ export const EN_C1_U14: Lesson[] = [
         ],
         examples: [
           { es: "Having analysed the data, the team drew three conclusions.", en: "Después de analizar los datos, el equipo sacó tres conclusiones." },
-          { es: "Faced with rising costs, many firms cut staff.", en: "Ante el aumento de los costes, muchas empresas recortaron plantilla." },
+          { es: "Faced with rising costs, many firms cut staff.", en: "Ante el aumento de los costos, muchas empresas recortaron plantilla." },
           { es: "Rarely has a policy been so unpopular.", en: "Pocas veces una política ha sido tan impopular." },
           { es: "Only by working together can we solve this problem.", en: "Solo trabajando juntos podremos resolver este problema." },
         ],
@@ -3894,8 +3897,9 @@ export const EN_C1_U14: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "La decisión del ayuntamiento de cerrar la biblioteca fue muy criticada.",
-        answer: "The council's decision to close the library was widely criticised.",
+        answer: "The council's decision to close the library was widely criticized.",
         altAnswers: [
+          "The council's decision to close the library was widely criticised.",
           "The council's decision to close the library was heavily criticised.",
           "The council's decision to close the library was strongly criticised.",
           "The city council's decision to close the library was widely criticised.",
@@ -3912,7 +3916,7 @@ export const EN_C1_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ante el aumento de los costes, muchas empresas recortaron plantilla.",
+        source: "Ante el aumento de los costos, muchas empresas recortaron plantilla.",
         answer: "Faced with rising costs, many firms cut staff.",
         altAnswers: [
           "Faced with rising costs, many companies cut staff.",
@@ -4066,7 +4070,7 @@ export const EN_C1_U14: Lesson[] = [
         ],
         examples: [
           { es: "She has a degree in Law from the University of Salamanca.", en: "Es licenciada en Derecho por la Universidad de Salamanca." },
-          { es: "He enrolled on a master's course in data science.", en: "Se matriculó en un máster de ciencia de datos." },
+          { es: "He enrolled in a master's course in data science.", en: "Se matriculó en un máster de ciencia de datos." },
           { es: "Tuition fees have tripled in the last decade.", en: "Las tasas de matrícula se han triplicado en la última década." },
           { es: "She won a scholarship to study in Boston.", en: "Consiguió una beca para estudiar en Boston." },
           { es: "I graduated in 2021.", en: "Me licencié en 2021." },
@@ -4307,10 +4311,10 @@ export const EN_C1_U14: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Se matriculó en un curso de diseño gráfico por internet.",
-        answer: "She enrolled on an online graphic design course.",
+        answer: "She enrolled in an online graphic design course.",
         altAnswers: [
           "He enrolled on an online graphic design course.",
-          "She enrolled in an online graphic design course.",
+          "She enrolled on an online graphic design course.",
           "He enrolled in an online graphic design course.",
           "She signed up for an online graphic design course.",
           "He signed up for an online graphic design course.",
@@ -4372,6 +4376,7 @@ export const EN_C1_U14: Lesson[] = [
         source: "Para entrar en la universidad, tienes que cumplir los requisitos de acceso.",
         answer: "To get into university, you have to meet the entry requirements.",
         altAnswers: [
+          "To get into college, you have to meet the entry requirements.",
           "To get into university, you need to meet the entry requirements.",
           "To get into university, you must meet the entry requirements.",
           "To get into college, you have to meet the admission requirements.",
@@ -4388,7 +4393,7 @@ export const EN_C1_U14: Lesson[] = [
       },
       {
         type: "speak",
-        text: "She did a degree in Law and then enrolled on a master's in Human Rights.",
+        text: "She did a degree in Law and then enrolled in a master's in Human Rights.",
         tip: "\"Degree\" has a long /i/ sound at the end: de-GREE. \"Law\" rhymes with \"saw\": no «au» diphthong as in Spanish.",
         explanation: "\"Degree\" for «carrera», \"enrol on\" for «matricularse en».",
       },

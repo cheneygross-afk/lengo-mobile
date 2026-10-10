@@ -66,7 +66,7 @@ export const EN_A1_U9: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "Tienen tres coches rojos.",
+            source: "Tienen tres carros rojos.",
             answer: "They have three red cars.",
             altAnswers: ["They've got three red cars.", "They have got three red cars."],
             explanation: "El adjetivo va delante y sin plural: \"red cars\", nunca *cars reds ni *reds cars.",

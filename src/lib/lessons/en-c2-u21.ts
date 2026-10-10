@@ -151,7 +151,7 @@ export const EN_C2_U21: Lesson[] = [
           "Practice it aloud until it sounds natural but not memorized. Native interviewers notice when an answer is read off an internal script, so learn the structure and the key phrases, not every word.",
         ],
         examples: [
-          { es: "Currently, I'm a senior accountant at a retail group, where I look after the monthly close.", en: "Actualmente soy contable sénior en un grupo de distribución, donde me encargo del cierre mensual." },
+          { es: "Currently, I'm a senior accountant at a retail group, where I look after the monthly close.", en: "Actualmente soy contador sénior en un grupo de distribución, donde me encargo del cierre mensual." },
           { es: "Before that, I spent four years in audit, which gave me a solid grounding in reporting.", en: "Antes, pasé cuatro años en auditoría, lo que me dio una base sólida en información financiera." },
           { es: "Most recently, I helped cut our closing time from ten days to six.", en: "Hace poco, ayudé a reducir el tiempo de cierre de diez a seis días." },
           { es: "What I'm looking for now is a role with more strategic input.", en: "Lo que busco ahora es un puesto con más peso estratégico." },
@@ -177,11 +177,11 @@ export const EN_C2_U21: Lesson[] = [
         source: "Trabajo en esta empresa desde 2018.",
         answer: "I've worked at this company since 2018.",
         altAnswers: alts(
-          ["I've worked", "I've been working", "I've been"],
+          ["I've worked", "I've been working"],
           ["at", "for", "with", "in"],
           ["this company", "this firm"],
           ["since 2018."],
-        ),
+        ).concat(alts(["I've been"], ["at", "with", "in"], ["this company", "this firm"], ["since 2018."])),
         explanation: "Spanish present + «desde» = English present perfect + \"since\". *I work at this company since 2018 is one of the most common errors in interviews.",
       },
       {
@@ -484,7 +484,7 @@ export const EN_C2_U21: Lesson[] = [
         sentence: "She's always been very ___ numbers.",
         answer: "good with",
         en: "Siempre [se le han dado muy bien] los números.",
-        explanation: "\"Good with\" + people, tools or numbers; \"good at\" + activities or subjects (\"good at maths\", \"good at negotiating\").",
+        explanation: "\"Good with\" + people, tools or numbers; \"good at\" + activities or subjects (\"good at math\", \"good at negotiating\").",
       },
       {
         type: "translate",
@@ -508,7 +508,7 @@ export const EN_C2_U21: Lesson[] = [
         altAnswers: alts(
           ["I have a strong work ethic", "I've got a strong work ethic", "I'm very hard-working"],
           ["and good people skills.", "and strong people skills.", "and great people skills.", "and excellent people skills.", "and I'm very good with people.", "and I'm great with people."],
-        ),
+        ).filter((a) => !/^I'm very hard-working and (good|strong|great|excellent) people/.test(a)),
         explanation: "\"A strong work ethic\" and \"people skills\" are the idiomatic equivalents. *Capacity of work and *gift of people are calques.",
       },
       {
@@ -633,7 +633,7 @@ export const EN_C2_U21: Lesson[] = [
       {
         heading: "False friends and calques to avoid",
         body: [
-          "«Soy muy sensible a las críticas» is \"I'm very sensitive to criticism\". *I'm very sensible to criticism means nothing in English, since \"sensible\" means reasonable. Note too that \"criticism\" is uncountable here: not *the critics, which are people who review films or books.",
+          "«Soy muy sensible a las críticas» is \"I'm very sensitive to criticism\". *I'm very sensible to criticism means nothing in English, since \"sensible\" means reasonable. Note too that \"criticism\" is uncountable here: not *the critics, who are people who review films or books.",
           "«Exigente» about yourself is \"I have very high standards\" or \"I'm very demanding of myself\"; avoid *exigent. «Me agobio» is \"I get overwhelmed\" or \"I get stressed\". «Me pongo nervioso al hablar en público» is \"I get nervous speaking in public\" or \"when I speak in public\".",
           "«Impaciente» works (\"impatient\"), but add the context: \"I can get impatient when decisions take too long\". \"Can\" + verb softens a tendency in English, like «a veces me pasa que...».",
         ],
@@ -821,7 +821,7 @@ export const EN_C2_U21: Lesson[] = [
           { es: "Tell me about a time when you had to deal with an unhappy customer.", en: "Hábleme de alguna vez en que tuvo que tratar con un cliente insatisfecho." },
           { es: "Give me an example of a project that didn't go to plan.", en: "Deme un ejemplo de un proyecto que no salió según lo previsto." },
           { es: "Describe a situation in which you had to persuade someone.", en: "Describa una situación en la que tuvo que convencer a alguien." },
-          { es: "My task was to cut delivery times without increasing costs.", en: "Mi cometido era reducir los plazos de entrega sin aumentar los costes." },
+          { es: "My task was to cut delivery times without increasing costs.", en: "Mi cometido era reducir los plazos de entrega sin aumentar los costos." },
           { es: "In the end, we kept the client and renewed the contract.", en: "Al final, conservamos al cliente y renovamos el contrato." },
         ],
         checkpoint: [
@@ -1012,7 +1012,7 @@ export const EN_C2_U21: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me encargaron reducir los costes de envío sin perder calidad.",
+        source: "Me encargaron reducir los costos de envío sin perder calidad.",
         answer: "I was asked to reduce shipping costs without compromising quality.",
         altAnswers: alts(
           ["I was asked to", "I was tasked with", "My task was to", "I was given the task of"],
@@ -1039,7 +1039,7 @@ export const EN_C2_U21: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Decidí llamarle en lugar de enviarle un correo, porque quería entender el problema.",
+        source: "Decidí llamarlo en lugar de enviarle un correo, porque quería entender el problema.",
         answer: "I decided to call him rather than email him, because I wanted to understand the problem.",
         altAnswers: alts(
           ["I decided to call him"],
@@ -1095,12 +1095,12 @@ export const EN_C2_U21: Lesson[] = [
         heading: "Conflict",
         body: [
           "\"Tell me about a time you had a conflict with a colleague\" tests whether you can disagree professionally. Choose a disagreement about work, not personalities, and show that you listened before you argued.",
-          "Useful language: \"We had different views on...\", \"I asked to meet one-to-one\", \"I made sure I understood her concerns\", \"We agreed on a compromise\", \"We ended up...\". Avoid blaming: \"he was impossible\" tells the interviewer more about you than about him.",
+          "Useful language: \"We had different views on...\", \"I asked to meet one-on-one\", \"I made sure I understood her concerns\", \"We agreed on a compromise\", \"We ended up...\". Avoid blaming: \"he was impossible\" tells the interviewer more about you than about him.",
           "«Discutir» is usually \"disagree\" or \"argue\" here, not \"discuss\". \"Discuss\" means talk about something calmly: \"We discussed the budget\" (no \"about\" after \"discuss\").",
         ],
         examples: [
           { es: "A colleague and I had different views on how to prioritize the backlog.", en: "Un compañero y yo teníamos opiniones distintas sobre cómo priorizar las tareas pendientes." },
-          { es: "I asked to meet him one-to-one, away from the team.", en: "Le pedí que nos reuniéramos a solas, lejos del equipo." },
+          { es: "I asked to meet him one-on-one, away from the team.", en: "Le pedí que nos reuniéramos a solas, lejos del equipo." },
           { es: "I made sure I understood his concerns before I made my case.", en: "Me aseguré de entender sus preocupaciones antes de exponer mis argumentos." },
           { es: "We ended up agreeing on a compromise.", en: "Al final acordamos una solución intermedia." },
           { es: "We discussed the budget at length.", en: "Discutimos el presupuesto largo y tendido." },
@@ -1176,7 +1176,7 @@ export const EN_C2_U21: Lesson[] = [
         ],
         examples: [
           { es: "Nobody owned the problem, so I took the initiative.", en: "Nadie se responsabilizaba del problema, así que tomé la iniciativa." },
-          { es: "I took charge of the project when our manager went on leave.", en: "Me hice cargo del proyecto cuando nuestro jefe se fue de baja." },
+          { es: "I took charge of the project when our manager went on leave.", en: "Me hice cargo del proyecto cuando nuestro jefe se fue de licencia." },
           { es: "We split the work into must-haves and nice-to-haves.", en: "Dividimos el trabajo entre lo imprescindible y lo deseable." },
           { es: "Against all odds, we managed to pull it off.", en: "Contra todo pronóstico, conseguimos sacarlo adelante." },
           { es: "I delegated the reporting so I could focus on the client.", en: "Delegué los informes para poder centrarme en el cliente." },
@@ -1186,7 +1186,7 @@ export const EN_C2_U21: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Me hice cargo del proyecto cuando mi jefa se fue de baja.",
+            source: "Me hice cargo del proyecto cuando mi jefa se fue de licencia.",
             answer: "I took charge of the project when my manager went on leave.",
             altAnswers: alts(
               ["I took charge of the project", "I took over the project", "I took the project over", "I took responsibility for the project"],
@@ -1407,7 +1407,7 @@ export const EN_C2_U21: Lesson[] = [
         ],
         examples: [
           { es: "I'd like to think I made a real difference to the team.", en: "Me gustaría pensar que supuse una diferencia real para el equipo." },
-          { es: "I was fairly pleased that we cut costs by 20%.", en: "Quedé bastante satisfecho de que recortáramos los costes un 20%." },
+          { es: "I was fairly pleased that we cut costs by 20%.", en: "Quedé bastante satisfecho de que recortáramos los costos un 20%." },
           { es: "It went reasonably well, all things considered.", en: "Salió bastante bien, teniendo en cuenta todo." },
           { es: "I'm quite good at keeping meetings on track.", en: "Se me da bastante bien que las reuniones no se desvíen." },
           { es: "It wasn't bad at all, actually.", en: "La verdad es que no estuvo nada mal." },
@@ -1555,7 +1555,7 @@ export const EN_C2_U21: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["I", "was", "fairly", "pleased", "that", "we", "cut", "costs", "by", "20%."],
-        translation: "Quedé bastante satisfecho de que recortáramos los costes un 20%.",
+        translation: "Quedé bastante satisfecho de que recortáramos los costos un 20%.",
         explanation: "Understatement in the frame (\"fairly pleased\"), precision in the facts (\"by 20%\").",
       },
       {
@@ -1633,7 +1633,7 @@ export const EN_C2_U21: Lesson[] = [
         heading: "From buzzwords to actions",
         body: [
           "Buzzwords such as \"team player\", \"passionate\", \"results-driven\", \"think outside the box\" and \"go the extra mile\" are so common that interviewers stop hearing them. If you use one, prove it immediately; better still, describe the behavior and let the interviewer find the label.",
-          "\"I'm a team player\" becomes \"When a colleague was off sick during our audit, I took over her reconciliations so the deadline didn't slip.\" \"I'm passionate about data\" becomes \"I taught myself Python last year so I could automate our weekly reports.\"",
+          "\"I'm a team player\" becomes \"When a colleague was out sick during our audit, I took over her reconciliations so the deadline didn't slip.\" \"I'm passionate about data\" becomes \"I taught myself Python last year so I could automate our weekly reports.\"",
           "«Me apasiona» is often over-translated as \"I'm passionate about\", which in English sounds stronger and more theatrical. \"I really enjoy\", \"I'm very interested in\" or \"what I love about this work is...\" are usually more natural.",
         ],
         examples: [
@@ -1696,7 +1696,7 @@ export const EN_C2_U21: Lesson[] = [
             altAnswers: alts(
               ["I have a degree in economics", "I studied economics", "I graduated in economics", "I have an economics degree", "I hold a degree in economics", "I have a bachelor's in economics", "I have a bachelor's degree in economics"],
               ["and I did a master's in marketing.", "and did a master's in marketing.", "and I did a master's degree in marketing.", "and did a master's degree in marketing.", "and I have a master's in marketing.", "and a master's in marketing.", "and a master's degree in marketing."],
-            ),
+            ).filter((a) => !/^I (studied|graduated in) economics and a master's/.test(a)),
             explanation: "*I'm graduated in and *I did a master are calques. Subjects such as economics and marketing are lowercase in English.",
           },
           {
@@ -1718,7 +1718,7 @@ export const EN_C2_U21: Lesson[] = [
           "Notice the moves: calques corrected, numbers added, buzzwords replaced by a described behavior, and the present perfect or present simple used consistently.",
         ],
         examples: [
-          { es: "I have a degree in business and five years' experience in project management.", en: "Soy licenciado en Empresariales y tengo cinco años de experiencia en gestión de proyectos." },
+          { es: "I have a degree in business and five years' experience in project management.", en: "Soy licenciado en Administración de Empresas y tengo cinco años de experiencia en gestión de proyectos." },
           { es: "In my current role I'm in charge of four international projects.", en: "En mi puesto actual me encargo de cuatro proyectos internacionales." },
           { es: "The largest has a budget of three million euros.", en: "El más grande tiene un presupuesto de tres millones de euros." },
           { es: "What I enjoy most is getting different departments to work towards the same goal.", en: "Lo que más disfruto es conseguir que departamentos distintos trabajen hacia el mismo objetivo." },
@@ -1812,7 +1812,7 @@ export const EN_C2_U21: Lesson[] = [
         type: "multiple-choice",
         question: "Which is the best rewrite of \"I'm a very passionate team player\"?",
         options: [
-          "When a colleague was off sick during year-end, I took over her accounts so we didn't miss the deadline.",
+          "When a colleague was out sick during year-end, I took over her accounts so we didn't miss the deadline.",
           "I'm an extremely passionate and very dedicated team player.",
           "I am the most team player person in my company.",
           "I'm passionated about working in team.",
@@ -1992,7 +1992,7 @@ export const EN_C2_U21: Lesson[] = [
         ],
         examples: [
           { es: "My manager pointed out that we were over budget.", en: "Mi jefe señaló que nos habíamos pasado del presupuesto." },
-          { es: "The CEO stressed the importance of customer retention.", en: "El consejero delegado recalcó la importancia de fidelizar a los clientes." },
+          { es: "The CEO stressed the importance of customer retention.", en: "El director ejecutivo recalcó la importancia de fidelizar a los clientes." },
           { es: "The supplier claimed to have sent the invoice twice.", en: "El proveedor afirmaba haber enviado la factura dos veces." },
           { es: "I argued that we should delay the launch.", en: "Defendí que debíamos retrasar el lanzamiento." },
           { es: "The report states that all procedures were followed.", en: "El informe establece que se siguieron todos los procedimientos." },
@@ -2091,7 +2091,7 @@ export const EN_C2_U21: Lesson[] = [
         sentence: "The CEO ___ the importance of keeping our existing clients.",
         answer: "stressed",
         altAnswers: ["emphasized", "underlined", "highlighted", "underscored"],
-        en: "El consejero delegado [recalcó] la importancia de conservar a nuestros clientes actuales.",
+        en: "El director ejecutivo [recalcó] la importancia de conservar a nuestros clientes actuales.",
         explanation: "\"Stress\" or \"emphasize\" + noun (no \"on\" after \"emphasize\" as a verb: *emphasized on is a common error).",
       },
       {
@@ -2167,7 +2167,7 @@ export const EN_C2_U21: Lesson[] = [
           { es: "Remember to bring a copy of your CV.", en: "Acuérdate de traer una copia de tu currículum." },
           { es: "He stopped smoking ten years ago.", en: "Dejó de fumar hace diez años." },
           { es: "On the way to the interview, she stopped to buy a coffee.", en: "De camino a la entrevista, se paró a comprar un café." },
-          { es: "If the link doesn't work, try copying it into your browser.", en: "Si el enlace no funciona, prueba a copiarlo en el navegador." },
+          { es: "If the link doesn't work, try copying it into your browser.", en: "Si el enlace no funciona, intenta copiarlo en el navegador." },
           { es: "I tried to stay calm, but my voice was shaking.", en: "Intenté mantener la calma, pero me temblaba la voz." },
         ],
         checkpoint: [
@@ -2360,7 +2360,7 @@ export const EN_C2_U21: Lesson[] = [
         sentence: "If the printer jams, try ___ it off and on again.",
         answer: "turning",
         altAnswers: ["switching"],
-        en: "Si la impresora se atasca, [prueba a] apagarla y volver a encenderla.",
+        en: "Si la impresora se atasca, [intenta] apagarla y volver a encenderla.",
         explanation: "\"Try + -ing\" = experiment with a solution and see if it works. \"Try to\" means make an effort.",
       },
       {
@@ -2620,7 +2620,7 @@ export const EN_C2_U21: Lesson[] = [
           ["I have a degree in engineering", "I have an engineering degree", "I studied engineering", "I graduated in engineering", "I hold a degree in engineering"],
           ["and six years' experience", "and six years of experience", "and I have six years' experience", "and I have six years of experience"],
           ["in the energy industry.", "in the energy sector."],
-        ),
+        ).filter((a) => !/^I (studied|graduated in) engineering and six/.test(a)),
         explanation: "No *I'm graduated in; \"experience\" stays singular and takes \"years'\" or \"years of\".",
       },
       {

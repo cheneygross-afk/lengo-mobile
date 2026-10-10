@@ -15,7 +15,7 @@ export const EN_B1_U21: Lesson[] = [
       {
         heading: "«Disfruto nadando», not *I enjoy to swim",
         body: [
-          "In Spanish, when one verb follows another, the second verb is almost always an infinitive: «me gusta nadar», «evito conducir», «terminé de leer». English is different. Some verbs are followed by -ing, some by \"to\" + verb, and you have to learn which is which.",
+          "In Spanish, when one verb follows another, the second verb is almost always an infinitive: «me gusta nadar», «evito manejar», «terminé de leer». English is different. Some verbs are followed by -ing, some by \"to\" + verb, and you have to learn which is which.",
           "This lesson is about verbs that take -ing. The most common is \"enjoy\": \"I enjoy swimming\", never *I enjoy to swim or *I enjoy swim. This is one of the most frequent mistakes Spanish speakers make.",
           "\"Finish\" works the same way: \"I've finished reading the book\". Notice that Spanish says «terminar de leer», but English has no \"of\" and no infinitive: just \"finish\" + -ing.",
         ],
@@ -53,7 +53,7 @@ export const EN_B1_U21: Lesson[] = [
           "To answer \"Do you mind...?\" politely, say \"No, not at all\" (= I'm happy to do it). If you say \"Yes\", you are saying it bothers you!",
         ],
         examples: [
-          { es: "I avoid driving at night.", en: "Evito conducir de noche." },
+          { es: "I avoid driving at night.", en: "Evito manejar de noche." },
           { es: "He keeps making the same mistake.", en: "No para de cometer el mismo error." },
           { es: "Keep walking until you see the bank.", en: "Sigue caminando hasta que veas el banco." },
           { es: "Do you mind waiting a few minutes?", en: "¿Te importa esperar unos minutos?" },
@@ -166,7 +166,7 @@ export const EN_B1_U21: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Evito conducir de noche.",
+        source: "Evito manejar de noche.",
         answer: "I avoid driving at night.",
         explanation: "\"Avoid\" + -ing. *I avoid to drive is wrong.",
       },
@@ -361,12 +361,12 @@ export const EN_B1_U21: Lesson[] = [
         heading: "Manage, afford and seem",
         body: [
           "\"Manage to\" means «conseguir» or «lograr» (something difficult): \"We managed to finish on time\". Don't use \"get\" or \"achieve\" here: *I achieved to finish is wrong.",
-          "\"Afford to\" means having enough money (or time) for something: \"I can't afford to buy a new car\" («no me puedo permitir comprar un coche nuevo»). It's usually used with \"can\" or \"can't\".",
+          "\"Afford to\" means having enough money (or time) for something: \"I can't afford to buy a new car\" («no me puedo permitir comprar un carro nuevo»). It's usually used with \"can\" or \"can't\".",
           "\"Seem to\" means «parecer»: \"She seems to be tired\", \"He seems to know the answer\". With an adjective you can drop \"to be\": \"She seems tired\".",
         ],
         examples: [
           { es: "We managed to finish on time.", en: "Conseguimos terminar a tiempo." },
-          { es: "Did you manage to find a parking space?", en: "¿Lograste encontrar sitio para aparcar?" },
+          { es: "Did you manage to find a parking space?", en: "¿Lograste encontrar sitio para estacionar?" },
           { es: "I can't afford to travel this year.", en: "No me puedo permitir viajar este año." },
           { es: "She seems to be tired.", en: "Parece que está cansada." },
           { es: "He seems to know everyone here.", en: "Parece que conoce a todo el mundo aquí." },
@@ -575,7 +575,7 @@ export const EN_B1_U21: Lesson[] = [
         examples: [
           { es: "I want him to stay.", en: "Quiero que se quede." },
           { es: "They want us to wait outside.", en: "Quieren que esperemos fuera." },
-          { es: "Do you want me to drive?", en: "¿Quieres que conduzca yo?" },
+          { es: "Do you want me to drive?", en: "¿Quieres que maneje yo?" },
           { es: "I want Diego to call me.", en: "Quiero que Diego me llame." },
           { es: "The teacher wants the students to read more.", en: "La profesora quiere que los alumnos lean más." },
         ],
@@ -669,7 +669,7 @@ export const EN_B1_U21: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Quieres que conduzca yo?",
+        source: "¿Quieres que maneje yo?",
         answer: "Do you want me to drive?",
         altAnswers: ["Would you like me to drive?"],
         explanation: "Offers often use \"Do you want me to...?\" or \"Would you like me to...?\"",
@@ -949,7 +949,7 @@ export const EN_B1_U21: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["They're", "thinking", "about", "buying", "a", "car."],
-        translation: "Están pensando en comprarse un coche.",
+        translation: "Están pensando en comprarse un carro.",
         explanation: "«Pensar en» + infinitive = \"think about\" + -ing. Not *think in.",
       },
       {
@@ -1007,7 +1007,7 @@ export const EN_B1_U21: Lesson[] = [
           { es: "She called to ask about the meeting.", en: "Llamó para preguntar por la reunión." },
           { es: "I went to the bakery to buy bread.", en: "Fui a la panadería a comprar pan." },
           { es: "We stopped to have a coffee.", en: "Paramos para tomar un café." },
-          { es: "He's saving to buy a car.", en: "Está ahorrando para comprarse un coche." },
+          { es: "He's saving to buy a car.", en: "Está ahorrando para comprarse un carro." },
         ],
         checkpoint: [
           {
@@ -1044,7 +1044,7 @@ export const EN_B1_U21: Lesson[] = [
           { es: "I went out to get a coffee.", en: "Salí a tomar un café." },
           { es: "I went to the store for some milk.", en: "Fui a la tienda por leche." },
           { es: "I went to the store to buy some milk.", en: "Fui a la tienda a comprar leche." },
-          { es: "We're saving for a new car.", en: "Ahorramos para un coche nuevo." },
+          { es: "We're saving for a new car.", en: "Ahorramos para un carro nuevo." },
         ],
         checkpoint: [
           {
@@ -1329,7 +1329,7 @@ export const EN_B1_U21: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No me puedo permitir comprar un coche.",
+        source: "No me puedo permitir comprar un carro.",
         answer: "I can't afford to buy a car.",
         explanation: "\"Afford\" + \"to\" + verb.",
       },
@@ -1471,7 +1471,7 @@ export const EN_B1_U21: Lesson[] = [
         ],
         examples: [
           { es: "I'm thinking about going to Mexico.", en: "Estoy pensando en ir a México." },
-          { es: "We're thinking of selling the car.", en: "Estamos pensando en vender el coche." },
+          { es: "We're thinking of selling the car.", en: "Estamos pensando en vender el carro." },
           { es: "What are you thinking about?", en: "¿En qué estás pensando?" },
           { es: "I'm starting to think in English.", en: "Estoy empezando a pensar en inglés." },
         ],
@@ -1480,7 +1480,7 @@ export const EN_B1_U21: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Estamos pensando en vender el coche.",
+            source: "Estamos pensando en vender el carro.",
             answer: "We're thinking about selling the car.",
             altAnswers: ["We're thinking of selling the car.", "We're thinking about selling our car.", "We're thinking of selling our car.", "We're considering selling the car."],
             explanation: "«Pensar en» = \"think about/of\" + -ing. Never *think in selling.",

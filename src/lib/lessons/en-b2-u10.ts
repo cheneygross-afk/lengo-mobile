@@ -101,12 +101,12 @@ export const EN_B2_U10: Lesson[] = [
       {
         heading: "Continuous passives: is being rebuilt",
         body: [
-          "The continuous passive is \"be being\" + participle: \"is being repaired\", \"were being interviewed\". It describes an action in progress that is done to the subject: «me están arreglando el coche» is \"My car is being repaired\".",
+          "The continuous passive is \"be being\" + participle: \"is being repaired\", \"were being interviewed\". It describes an action in progress that is done to the subject: «me están arreglando el carro» is \"My car is being repaired\".",
           "Two typical mistakes. First, the base form instead of the participle: *is being build should be \"is being built\". Second, forgetting \"being\": *My car is repairing means the car is repairing something itself.",
           "The past continuous passive works the same way: \"The road was being repaired, so we took a different route\". Forms like \"has been being built\" exist but are very rare; use an active sentence instead: \"They have been building it for years\".",
         ],
         examples: [
-          { es: "My car is being repaired.", en: "Me están arreglando el coche." },
+          { es: "My car is being repaired.", en: "Me están arreglando el carro." },
           { es: "A new hospital is being built near the station.", en: "Están construyendo un hospital nuevo cerca de la estación." },
           { es: "The candidates are being interviewed right now.", en: "Están entrevistando a los candidatos ahora mismo." },
           { es: "The road was being repaired, so we took a different route.", en: "Estaban arreglando la carretera, así que fuimos por otro camino." },
@@ -345,7 +345,7 @@ export const EN_B2_U10: Lesson[] = [
         examples: [
           { es: "I should have been told about the change.", en: "Me deberían haber avisado del cambio." },
           { es: "The accident could have been avoided.", en: "El accidente se podría haber evitado." },
-          { es: "The keys must have been left in the car.", en: "Las llaves se han debido de quedar en el coche." },
+          { es: "The keys must have been left in the car.", en: "Las llaves se han debido de quedar en el carro." },
           { es: "The letter might have been sent to the wrong address.", en: "Puede que la carta se enviara a la dirección equivocada." },
           { es: "The report should have been finished yesterday.", en: "El informe se tendría que haber terminado ayer." },
         ],
@@ -395,7 +395,7 @@ export const EN_B2_U10: Lesson[] = [
           { es: "Nobody likes being lied to.", en: "A nadie le gusta que le mientan." },
           { es: "She expects to be promoted this year.", en: "Espera que la asciendan este año." },
           { es: "He left without being seen.", en: "Se fue sin que lo vieran." },
-          { es: "The car needs washing.", en: "Hay que lavar el coche." },
+          { es: "The car needs washing.", en: "Hay que lavar el carro." },
         ],
         checkpoint: [
           {
@@ -434,7 +434,7 @@ export const EN_B2_U10: Lesson[] = [
         ],
         examples: [
           { es: "He got fired last month.", en: "Lo despidieron el mes pasado." },
-          { es: "My phone got stolen on the bus.", en: "Me robaron el móvil en el autobús." },
+          { es: "My phone got stolen on the bus.", en: "Me robaron el celular en el autobús." },
           { es: "We got stuck in traffic for two hours.", en: "Nos quedamos atascados en el tráfico dos horas." },
           { es: "They got married in June.", en: "Se casaron en junio." },
           { es: "The novel was written by a nurse from Ohio.", en: "La novela la escribió una enfermera de Ohio." },
@@ -597,7 +597,7 @@ export const EN_B2_U10: Lesson[] = [
       {
         heading: "Se vende: the thing becomes the subject",
         body: [
-          "When «se» goes with a verb and a thing (the «pasiva refleja»), the thing is the real subject. In English it goes in front and the verb goes into the passive: «se venden miles de móviles» is \"Thousands of phones are sold\".",
+          "When «se» goes with a verb and a thing (the «pasiva refleja»), the thing is the real subject. In English it goes in front and the verb goes into the passive: «se venden miles de celulares» is \"Thousands of phones are sold\".",
           "English needs a subject before the verb, so don't start with the verb or with a dummy \"it\": \"Are sold houses\" and \"It is sold houses\" are both impossible. The verb agrees with the thing: \"Houses are sold\", \"The house was sold\".",
           "On signs and ads English usually drops the verb: «se vende» is \"For sale\", «se alquila» is \"For rent\" (US) or \"To let\" (UK), «se busca personal» is \"Help wanted\".",
         ],
@@ -605,7 +605,7 @@ export const EN_B2_U10: Lesson[] = [
           { es: "This house is for sale.", en: "Se vende esta casa." },
           { es: "Apartment for rent.", en: "Se alquila piso." },
           { es: "Help wanted.", en: "Se busca personal." },
-          { es: "Thousands of these phones are sold every day.", en: "Se venden miles de estos móviles cada día." },
+          { es: "Thousands of these phones are sold every day.", en: "Se venden miles de estos celulares cada día." },
           { es: "The tickets were sold in two hours.", en: "Las entradas se vendieron en dos horas." },
           { es: "A lot of olive oil is produced in this region.", en: "En esta región se produce mucho aceite de oliva." },
         ],
@@ -778,7 +778,7 @@ export const EN_B2_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "«Aquí no se puede aparcar.» Which option is NOT natural English?",
+            question: "«Aquí no se puede estacionar.» Which option is NOT natural English?",
             options: ["Here can't be parked.", "You can't park here.", "Parking is not allowed here.", "No parking."],
             correctIndex: 0,
             explanation: "\"Here can't be parked\" has no real subject. Use \"you\" in conversation, a passive with \"parking\" in formal rules, or the short sign \"No parking\".",
@@ -868,7 +868,7 @@ export const EN_B2_U10: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Aquí no se puede usar el móvil.",
+        source: "Aquí no se puede usar el celular.",
         answer: "You can't use your phone here.",
         altAnswers: [
           "You can't use your cell phone here.",
@@ -971,7 +971,7 @@ export const EN_B2_U10: Lesson[] = [
           "Some verbs work both ways with different meanings: \"The door opened\" (by itself) and \"The door was opened\" (someone opened it). Spanish uses «se abrió» for both.",
         ],
         examples: [
-          { es: "The car is being repaired.", en: "Están reparando el coche." },
+          { es: "The car is being repaired.", en: "Están reparando el carro." },
           { es: "Prices have risen again.", en: "Los precios han vuelto a subir. (incorrecto: *have been risen)" },
           { es: "The accident happened at midnight.", en: "El accidente ocurrió a medianoche." },
           { es: "Three people died in the fire.", en: "Tres personas murieron en el incendio." },
@@ -2077,7 +2077,7 @@ export const EN_B2_U10: Lesson[] = [
           "Questions and negatives use the auxiliary \"be\", never \"do\": \"When was it built?\", \"It wasn't built in a day\". Not *When did it built? or *It didn't built.",
         ],
         examples: [
-          { es: "Cars are made in this factory.", en: "En esta fábrica se fabrican coches." },
+          { es: "Cars are made in this factory.", en: "En esta fábrica se fabrican carros." },
           { es: "The tower was built in 1889.", en: "La torre se construyó en 1889." },
           { es: "Rome wasn't built in a day.", en: "No se ganó Zamora en una hora." },
           { es: "When was the bridge built?", en: "¿Cuándo se construyó el puente?" },

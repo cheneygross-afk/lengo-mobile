@@ -322,7 +322,7 @@ export const EN_B2_U27: Lesson[] = [
             sentence: "Avoid driving downtown during ___ .",
             answer: "rush hour",
             altAnswers: ["the rush hour"],
-            en: "Evita conducir por el centro en [hora punta].",
+            en: "Evita manejar por el centro en [hora punta].",
             explanation: "«Hora punta» (or «hora pico» in Latin America) is \"rush hour\", usually without \"the\".",
           },
         ],
@@ -359,7 +359,7 @@ export const EN_B2_U27: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Si salimos ahora, podemos coger el tren de las ocho.",
+            source: "Si salimos ahora, podemos tomar el tren de las ocho.",
             answer: "If we leave now, we can catch the eight o'clock train.",
             altAnswers: [
               "If we leave now, we can catch the 8:00 train.",
@@ -372,7 +372,7 @@ export const EN_B2_U27: Lesson[] = [
               "If we leave now, we'll catch the eight o'clock train.",
               "If we go now, we can catch the eight o'clock train.",
             ],
-            explanation: "\"Catch\" a train is to get there in time to board it. Remember: «coger» is \"catch\" or \"take\" here.",
+            explanation: "\"Catch\" a train is to get there in time to board it. Remember: «tomar» is \"catch\" or \"take\" here.",
           },
         ],
       },
@@ -386,7 +386,7 @@ export const EN_B2_U27: Lesson[] = [
         examples: [
           { es: "Get off at the next stop.", en: "Bájate en la próxima parada." },
           { es: "She got on the train at Valencia.", en: "Se subió al tren en Valencia." },
-          { es: "Get in the car, we're late!", en: "¡Sube al coche, que llegamos tarde!" },
+          { es: "Get in the car, we're late!", en: "¡Sube al carro, que llegamos tarde!" },
           { es: "He got out of the taxi and paid the driver.", en: "Se bajó del taxi y pagó al conductor." },
           { es: "Pedestrians must use the crosswalk.", en: "Los peatones deben usar el paso de peatones." },
           { es: "The bus fare is two dollars.", en: "El billete de autobús cuesta dos dólares." },
@@ -405,7 +405,7 @@ export const EN_B2_U27: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Se bajó del coche sin decir nada.",
+            source: "Se bajó del carro sin decir nada.",
             answer: "She got out of the car without saying anything.",
             altAnswers: [
               "He got out of the car without saying anything.",
@@ -1317,7 +1317,7 @@ export const EN_B2_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Tengo que llevar el coche a arreglar.",
+        source: "Tengo que llevar el carro a arreglar.",
         answer: "I need to get my car fixed.",
         altAnswers: [
           "I need to get the car fixed.",
@@ -1474,7 +1474,7 @@ export const EN_B2_U27: Lesson[] = [
             sentence: "___ the potatoes for twenty minutes, then mash them.",
             answer: "Boil",
             altAnswers: ["Cook"],
-            en: "[Cuece] las patatas veinte minutos y luego haz puré.",
+            en: "[Cuece] las papas veinte minutos y luego haz puré.",
             explanation: "Cooking in water is \"boil\". «Cocer» in the oven would be \"bake\".",
           },
           {
@@ -1483,7 +1483,7 @@ export const EN_B2_U27: Lesson[] = [
             pairs: [
               { left: "bake", right: "un bizcocho en el horno" },
               { left: "boil", right: "un huevo en agua" },
-              { left: "fry", right: "patatas en aceite" },
+              { left: "fry", right: "papas en aceite" },
               { left: "roast", right: "un pollo entero en el horno" },
             ],
             explanation: "Both \"bake\" and \"roast\" use the oven: \"bake\" for bread and cakes, \"roast\" for meat and vegetables.",
@@ -2204,7 +2204,7 @@ export const EN_B2_U27: Lesson[] = [
         examples: [
           { es: "Our train leaves at 7:15.", en: "Nuestro tren sale a las 7:15." },
           { es: "We're flying to Lima on Friday.", en: "El viernes volamos a Lima." },
-          { es: "We're going to rent a car and drive along the coast.", en: "Vamos a alquilar un coche y recorrer la costa." },
+          { es: "We're going to rent a car and drive along the coast.", en: "Vamos a alquilar un carro y recorrer la costa." },
           { es: "Don't worry, I'll pick you up.", en: "Tranquilo, yo te recojo." },
           { es: "I'll text you as soon as we land.", en: "Te escribo en cuanto aterricemos." },
         ],
@@ -2249,7 +2249,7 @@ export const EN_B2_U27: Lesson[] = [
           { es: "We're going to have solar panels installed.", en: "Vamos a poner placas solares." },
           { es: "I'll get the lock changed tomorrow.", en: "Mañana mando cambiar la cerradura." },
           { es: "The landlord had the boiler replaced.", en: "El casero hizo cambiar la caldera." },
-          { es: "Have you had your car serviced recently?", en: "¿Le has hecho la revisión al coche últimamente?" },
+          { es: "Have you had your car serviced recently?", en: "¿Le has hecho la revisión al carro últimamente?" },
         ],
         checkpoint: [
           {
@@ -2286,7 +2286,7 @@ export const EN_B2_U27: Lesson[] = [
         ],
         examples: [
           { es: "We're moving next month, so we're having the new place painted.", en: "Nos mudamos el mes que viene, así que nos están pintando el piso nuevo." },
-          { es: "If we miss the last train, we'll get a taxi.", en: "Si perdemos el último tren, cogeremos un taxi." },
+          { es: "If we miss the last train, we'll get a taxi.", en: "Si perdemos el último tren, tomaremos un taxi." },
           { es: "We're going on a trip as soon as the kids finish school.", en: "Nos vamos de viaje en cuanto los niños terminen el colegio." },
           { es: "I'll drop you off at the station before I go to work.", en: "Te dejo en la estación antes de ir al trabajo." },
         ],
@@ -2522,7 +2522,7 @@ export const EN_B2_U27: Lesson[] = [
           { es: "By the time we got to the hotel, they had given our room to someone else.", en: "Para cuando llegamos al hotel, habían dado nuestra habitación a otra persona." },
           { es: "It had been raining for three days when we arrived.", en: "Llevaba tres días lloviendo cuando llegamos." },
           { es: "We were on vacation in Mexico when it happened.", en: "Estábamos de vacaciones en México cuando pasó." },
-          { es: "Someone had stolen our luggage from the car.", en: "Alguien nos había robado el equipaje del coche." },
+          { es: "Someone had stolen our luggage from the car.", en: "Alguien nos había robado el equipaje del carro." },
         ],
         checkpoint: [
           {
@@ -2566,7 +2566,7 @@ export const EN_B2_U27: Lesson[] = [
         ],
         examples: [
           { es: "I wish I had booked the hotel in advance.", en: "Ojalá hubiera reservado el hotel con antelación." },
-          { es: "I wish we hadn't taken the night bus.", en: "Ojalá no hubiéramos cogido el autobús nocturno." },
+          { es: "I wish we hadn't taken the night bus.", en: "Ojalá no hubiéramos tomado el autobús nocturno." },
           { es: "We should have checked the weather forecast.", en: "Deberíamos haber mirado el pronóstico del tiempo." },
           { es: "You shouldn't have packed so much.", en: "No deberías haber metido tanto en la maleta." },
           { es: "If we had left earlier, we wouldn't have missed the ferry.", en: "Si hubiéramos salido antes, no habríamos perdido el ferry." },
@@ -2722,14 +2722,14 @@ export const EN_B2_U27: Lesson[] = [
         sentence: "When we got back to the car, someone ___ the window.",
         answer: "had broken",
         altAnswers: ["had smashed"],
-        en: "Cuando volvimos al coche, alguien [había roto] la ventanilla.",
+        en: "Cuando volvimos al carro, alguien [había roto] la ventanilla.",
         explanation: "It happened before we got back: past perfect, \"had broken\".",
       },
       {
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["If", "we", "had", "left", "earlier,", "we", "would", "have", "caught", "the", "ferry."],
-        translation: "Si hubiéramos salido antes, habríamos cogido el ferry.",
+        translation: "Si hubiéramos salido antes, habríamos tomado el ferry.",
         altOrders: [["We", "would", "have", "caught", "the", "ferry", "if", "we", "had", "left", "earlier."]],
         explanation: "\"Had\" in the \"if\" clause, \"would have\" in the main clause. Never \"would\" in both.",
       },
@@ -2949,7 +2949,7 @@ export const EN_B2_U27: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "I felt so ___ when my phone rang during the exam.",
         answer: "embarrassed",
-        en: "Me dio muchísima [vergüenza] cuando me sonó el móvil durante el examen.",
+        en: "Me dio muchísima [vergüenza] cuando me sonó el celular durante el examen.",
         explanation: "The person feels \"embarrassed\"; the situation is \"embarrassing\".",
       },
       {

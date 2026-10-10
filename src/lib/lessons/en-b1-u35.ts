@@ -60,7 +60,7 @@ export const EN_B1_U35: Lesson[] = [
           { es: "Life is short.", en: "La vida es corta." },
           { es: "I need some advice.", en: "Necesito unos consejos." },
           { es: "The news is very good.", en: "Las noticias son muy buenas." },
-          { es: "They have two red cars.", en: "Tienen dos coches rojos. / Tienen dos carros rojos." },
+          { es: "They have two red cars.", en: "Tienen dos carros rojos. / Tienen dos carros rojos." },
           { es: "People are very friendly here.", en: "La gente es muy simpática aquí." },
         ],
         checkpoint: [
@@ -722,7 +722,7 @@ export const EN_B1_U35: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Me robaron el coche.» Which translation is correct?",
+        question: "«Me robaron el carro.» Which translation is correct?",
         options: ["My car was stolen.", "They robbed my car.", "I was stolen my car.", "My car was robbed me."],
         correctIndex: 0,
         explanation: "Things are \"stolen\"; people and places are \"robbed\". \"My car was stolen\" is the natural passive.",
@@ -789,7 +789,7 @@ export const EN_B1_U35: Lesson[] = [
         examples: [
           { es: "The woman who lives next door is a doctor.", en: "La mujer que vive al lado es médica." },
           { es: "The book I bought yesterday is great.", en: "El libro que compré ayer es buenísimo." },
-          { es: "That's the man whose car was stolen.", en: "Ese es el hombre al que le robaron el coche." },
+          { es: "That's the man whose car was stolen.", en: "Ese es el hombre al que le robaron el carro." },
           { es: "This is the restaurant where we met.", en: "Este es el restaurante donde nos conocimos." },
           { es: "My brother, who lives in Lima, is a teacher.", en: "Mi hermano, que vive en Lima, es profesor." },
         ],
@@ -845,7 +845,7 @@ export const EN_B1_U35: Lesson[] = [
         ],
         examples: [
           { es: "The bridge is being repaired at the moment.", en: "Están reparando el puente en este momento." },
-          { es: "My car has been repaired.", en: "Ya me han arreglado el coche." },
+          { es: "My car has been repaired.", en: "Ya me han arreglado el carro." },
           { es: "The new hospital will be opened next year.", en: "El nuevo hospital se inaugurará el año que viene." },
           { es: "The novel was written by a young teacher.", en: "La novela la escribió un profesor joven." },
         ],
@@ -1047,7 +1047,7 @@ export const EN_B1_U35: Lesson[] = [
           { es: "I've been writing emails all morning.", en: "Llevo toda la mañana escribiendo correos." },
           { es: "Why are you so tired? I've been running.", en: "¿Por qué estás tan cansado? He estado corriendo." },
           { es: "I've known her for ten years.", en: "La conozco desde hace diez años." },
-          { es: "We've had this car since 2018.", en: "Tenemos este coche desde 2018." },
+          { es: "We've had this car since 2018.", en: "Tenemos este carro desde 2018." },
         ],
         checkpoint: [
           {
@@ -1307,7 +1307,7 @@ export const EN_B1_U35: Lesson[] = [
           "Wishes follow the same logic: \"I wish\" + past simple for the present (\"I wish I spoke Chinese\"), and \"I wish\" + past perfect for the past (\"I wish I hadn't said that\"). \"If only\" is a stronger version.",
         ],
         examples: [
-          { es: "If I had a car, I'd drive to work.", en: "Si tuviera coche, iría al trabajo en coche." },
+          { es: "If I had a car, I'd drive to work.", en: "Si tuviera carro, iría al trabajo en carro." },
           { es: "If I were you, I'd talk to her.", en: "Yo que tú, hablaría con ella." },
           { es: "If I had studied, I would have passed.", en: "Si hubiera estudiado, habría aprobado." },
           { es: "I wish I spoke Chinese.", en: "Ojalá hablara chino." },
@@ -1349,7 +1349,7 @@ export const EN_B1_U35: Lesson[] = [
           "\"Can\" and \"could\" are for general ability. For one specific success in the past, use \"was able to\" or \"managed to\": \"The fire was big, but everyone managed to escape\". For the future, use \"will be able to\".",
         ],
         examples: [
-          { es: "You mustn't park here.", en: "No se puede aparcar aquí. / Está prohibido estacionar aquí." },
+          { es: "You mustn't park here.", en: "No se puede estacionar aquí. / Está prohibido estacionar aquí." },
           { es: "You don't have to come if you don't want to.", en: "No hace falta que vengas si no quieres." },
           { es: "You should see a doctor.", en: "Deberías ir al médico." },
           { es: "I had to work late yesterday.", en: "Ayer tuve que trabajar hasta tarde." },
@@ -2322,7 +2322,7 @@ export const EN_B1_U35: Lesson[] = [
           { es: "Life in a village is not as stressful as life in the city.", en: "La vida en un pueblo no es tan estresante como en la ciudad." },
           { es: "Houses in the country are much cheaper.", en: "Las casas en el campo son mucho más baratas." },
           { es: "The bigger the city, the more expensive the rent.", en: "Cuanto más grande es la ciudad, más caro es el alquiler." },
-          { es: "There is less traffic and there are fewer cars.", en: "Hay menos tráfico y hay menos coches." },
+          { es: "There is less traffic and there are fewer cars.", en: "Hay menos tráfico y hay menos carros." },
         ],
         checkpoint: [
           {
@@ -2440,7 +2440,7 @@ export const EN_B1_U35: Lesson[] = [
           "\"Unless\" adds a condition: \"The country is boring unless you love nature\". And \"as long as\" means «siempre que»: \"The city is great as long as you have money\".",
         ],
         examples: [
-          { es: "If I lived in the country, I would need a car.", en: "Si viviera en el campo, necesitaría coche." },
+          { es: "If I lived in the country, I would need a car.", en: "Si viviera en el campo, necesitaría carro." },
           { es: "If you work from home, the country is perfect.", en: "Si trabajas desde casa, el campo es perfecto." },
           { es: "The country is boring unless you love nature.", en: "El campo es aburrido a menos que te encante la naturaleza." },
           { es: "The city is great as long as you have money.", en: "La ciudad es estupenda siempre que tengas dinero." },
@@ -2646,7 +2646,7 @@ export const EN_B1_U35: Lesson[] = [
         examples: [
           { es: "This phone was made in Korea.", en: "Este teléfono se fabricó en Corea." },
           { es: "The tickets have already been sold.", en: "Ya se han vendido las entradas." },
-          { es: "The car I bought is red.", en: "El coche que compré es rojo." },
+          { es: "The car I bought is red.", en: "El carro que compré es rojo." },
           { es: "That's the town where my mother was born.", en: "Ese es el pueblo donde nació mi madre." },
         ],
         checkpoint: [
@@ -2909,7 +2909,7 @@ export const EN_B1_U35: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Decidimos vender el coche.",
+        source: "Decidimos vender el carro.",
         answer: "We decided to sell the car.",
         altAnswers: ["We decided to sell our car."],
         explanation: "Skill 4, verb + \"to\": \"decide to\" + base form, not *decide selling.",

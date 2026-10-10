@@ -68,7 +68,7 @@ export const EN_B2_U13_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "I wonder ___ so angry this morning.",
         answer: "why she was",
-        en: "Me pregunto [por qué estaba] tan enfadada esta mañana.",
+        en: "Me pregunto [por qué estaba] tan enojada esta mañana.",
         explanation: "After \"I wonder\", statement order: \"why she was\", not *why was she.",
       },
       {
@@ -154,7 +154,7 @@ export const EN_B2_U13_EXTRA: Lesson[] = [
         sentence: "Do you remember where ___ the car?",
         answer: "we parked",
         altAnswers: ["we left"],
-        en: "¿Te acuerdas de dónde [aparcamos] el coche?",
+        en: "¿Te acuerdas de dónde [estacionamos] el carro?",
         explanation: "No \"did\" in an indirect question: \"where we parked\", not *where did we park.",
       },
       {
@@ -901,7 +901,7 @@ export const EN_B2_U13_EXTRA: Lesson[] = [
         sentence: "Lucia passed her driving test. ___? That's great news!",
         answer: "Did she",
         altAnswers: ["Really"],
-        en: "Lucia ha aprobado el examen de conducir. [¿En serio?] ¡Qué buena noticia!",
+        en: "Lucia ha aprobado el examen de manejar. [¿En serio?] ¡Qué buena noticia!",
         explanation: "\"Passed\" is past simple: reply with \"Did she?\".",
       },
       {

@@ -403,9 +403,9 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Since", "you're", "tired,", "I'll", "drive."],
-        translation: "Ya que estás cansado, conduzco yo.",
+        translation: "Ya que estás cansado, manejo yo.",
         altOrders: [["I'll", "drive", "since", "you're", "tired."]],
-        explanation: "\"Since\" + clause gives the reason; it can start the sentence. «Conduzco yo» about an offer is \"I'll drive\".",
+        explanation: "\"Since\" + clause gives the reason; it can start the sentence. «Manejo yo» about an offer is \"I'll drive\".",
       },
       {
         type: "translate",
@@ -456,7 +456,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ya que tienes coche, ¿me llevas al aeropuerto?",
+        source: "Ya que tienes carro, ¿me llevas al aeropuerto?",
         answer: "Since you have a car, can you take me to the airport?",
         altAnswers: [
           "As you have a car, can you take me to the airport?",
@@ -940,7 +940,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Perdí el móvil. Por eso no te llamé.",
+        source: "Perdí el celular. Por eso no te llamé.",
         answer: "I lost my phone. That's why I didn't call you.",
         altAnswers: [
           "I lost my cell phone. That's why I didn't call you.",

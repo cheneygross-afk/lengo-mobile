@@ -233,7 +233,7 @@ export const EN_A2_U04: Lesson[] = [
         examples: [
           { es: "I didn't use to like vegetables.", en: "Antes no me gustaban las verduras." },
           { es: "She didn't use to drink coffee.", en: "Antes no tomaba café." },
-          { es: "We didn't use to have a car.", en: "Antes no teníamos coche." },
+          { es: "We didn't use to have a car.", en: "Antes no teníamos carro." },
           { es: "There didn't use to be so many tourists.", en: "Antes no había tantos turistas." },
         ],
         checkpoint: [
@@ -241,7 +241,7 @@ export const EN_A2_U04: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "Antes no teníamos coche.",
+            source: "Antes no teníamos carro.",
             answer: "We didn't use to have a car.",
             altAnswers: ["We did not use to have a car."],
             explanation: "Negativa: \"didn't use to\" + verbo, con \"use\" sin \"-d\" porque \"did\" ya marca el pasado.",
@@ -1274,7 +1274,7 @@ export const EN_A2_U04: Lesson[] = [
         heading: "¡Qué vergüenza! \"Embarrassed\" y otros sentimientos",
         body: [
           "Muchas anécdotas son momentos vergonzosos. «Me dio mucha vergüenza» se dice \"I was so embarrassed\". Ojo: \"embarrassed\" NO significa «embarazada»; «embarazada» es \"pregnant\".",
-          "Otros adjetivos útiles: \"scared\" («asustado»), \"surprised\" («sorprendido»), \"relieved\" («aliviado»), \"angry\" («enfadado», «enojado»). Fíjate en que todos van con \"was\": \"I was scared\", no *I had fear.",
+          "Otros adjetivos útiles: \"scared\" («asustado»), \"surprised\" («sorprendido»), \"relieved\" («aliviado»), \"angry\" («enojado»). Fíjate en que todos van con \"was\": \"I was scared\", no *I had fear.",
         ],
         examples: [
           { es: "I was so embarrassed!", en: "¡Me dio muchísima vergüenza!" },
@@ -1805,7 +1805,7 @@ export const EN_A2_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "No tenía coche, así que caminaba mucho.",
+        source: "No tenía carro, así que caminaba mucho.",
         answer: "She didn't have a car, so she walked a lot.",
         altAnswers: ["She didn't have a car, so she used to walk a lot.", "He didn't have a car, so he walked a lot.", "He didn't have a car, so he used to walk a lot.", "I didn't have a car, so I walked a lot.", "I didn't have a car, so I used to walk a lot.", "She did not have a car, so she walked a lot.", "She didn't use to have a car, so she walked a lot."],
         explanation: "\"Didn't have\" (sin \"-s\" ni \"-ed\") y la costumbre con \"walked\" o \"used to walk\".",

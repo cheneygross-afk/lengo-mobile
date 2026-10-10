@@ -644,7 +644,7 @@ export const EN_A2_U10_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "¿Debería comprar el coche azul o el rojo?",
+        source: "¿Debería comprar el carro azul o el rojo?",
         answer: "Should I buy the blue car or the red one?",
         altAnswers: ["Should I buy the blue car or the red car?", "Should I buy the blue one or the red one?"],
         explanation: "La pregunta con el modal es \"Should I...?\", sin \"do\". «El rojo» es \"the red one\": en inglés el adjetivo no va solo.",
@@ -789,7 +789,7 @@ export const EN_A2_U10_EXTRA: Lesson[] = [
             sentence: "Next year she ___ a new car.",
             answer: "will have to buy",
             altAnswers: ["is going to have to buy", "will need to buy", "is going to need to buy"],
-            en: "El año que viene ella [tendrá que comprar] un coche nuevo.",
+            en: "El año que viene ella [tendrá que comprar] un carro nuevo.",
             explanation: "Futuro: \"will have to\" + verbo base. Aunque el sujeto sea \"she\", es \"will have to\", no *will has to.",
           },
           {
@@ -828,7 +828,7 @@ export const EN_A2_U10_EXTRA: Lesson[] = [
         source: "Ella tendrá que aprender a manejar.",
         answer: "She will have to learn to drive.",
         altAnswers: ["She'll have to learn to drive.", "She will have to learn how to drive.", "She'll have to learn how to drive.", "She is going to have to learn to drive.", "She's going to have to learn to drive.", "She's going to have to learn how to drive."],
-        explanation: "\"Will\" + \"have to\": \"She will have to\", nunca *She will has to. «Manejar» un coche es \"drive\".",
+        explanation: "\"Will\" + \"have to\": \"She will have to\", nunca *She will has to. «Manejar» un carro es \"drive\".",
       },
       {
         type: "translate",

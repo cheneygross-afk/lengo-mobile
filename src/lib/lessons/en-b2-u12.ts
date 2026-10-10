@@ -595,7 +595,7 @@ export const EN_B2_U12: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "We congratulated Lucia ___ her driving test.",
         answer: "on passing",
-        en: "Felicitamos a Lucia [por aprobar] el examen de conducir.",
+        en: "Felicitamos a Lucia [por aprobar] el examen de manejar.",
         explanation: "\"Congratulate someone on\" + -ing. Spanish «por» tempts learners to write \"for\", but the preposition is \"on\".",
       },
       {
@@ -1554,7 +1554,7 @@ export const EN_B2_U12: Lesson[] = [
           { es: "\"I'll definitely call you tomorrow.\" He promised to call me the next day.", en: "Prometió llamarme al día siguiente." },
           { es: "\"Shall I carry that for you?\" She offered to carry it for me.", en: "Se ofreció a llevármelo." },
           { es: "\"No way, I'm not cleaning that.\" He refused to clean it.", en: "Se negó a limpiarlo." },
-          { es: "\"Okay, I'll lend you the car.\" Dad agreed to lend me the car.", en: "Papá accedió a prestarme el coche." },
+          { es: "\"Okay, I'll lend you the car.\" Dad agreed to lend me the car.", en: "Papá accedió a prestarme el carro." },
           { es: "\"Pay now or I'll call the police.\" He threatened to call the police.", en: "Amenazó con llamar a la policía." },
         ],
         checkpoint: [
@@ -1721,7 +1721,7 @@ export const EN_B2_U12: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi madre me advirtió que no condujera de noche.",
+        source: "Mi madre me advirtió que no manejara de noche.",
         answer: "My mother warned me not to drive at night.",
         altAnswers: [
           "My mom warned me not to drive at night.",
@@ -1823,10 +1823,10 @@ export const EN_B2_U12: Lesson[] = [
         audio: "He agreed to lend me his car for the weekend.",
         question: "What did you hear?",
         options: [
-          "Aceptó prestarme el coche para el fin de semana.",
-          "Se negó a prestarme el coche para el fin de semana.",
-          "Me pidió que le prestara el coche el fin de semana.",
-          "Prometió devolverme el coche el fin de semana.",
+          "Aceptó prestarme el carro para el fin de semana.",
+          "Se negó a prestarme el carro para el fin de semana.",
+          "Me pidió que le prestara el carro el fin de semana.",
+          "Prometió devolverme el carro el fin de semana.",
         ],
         correctIndex: 0,
         explanation: "\"Agreed to lend me\" = «aceptó prestarme». Remember: \"lend\" is to give temporarily; \"borrow\" is to take.",
@@ -2745,7 +2745,7 @@ export const EN_B2_U12: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Me preguntó cuánto había pagado por el coche.",
+            source: "Me preguntó cuánto había pagado por el carro.",
             answer: "He asked me how much I had paid for the car.",
             altAnswers: [
               "She asked me how much I had paid for the car.",
@@ -2765,7 +2765,7 @@ export const EN_B2_U12: Lesson[] = [
           "Verb + -ing: deny, admit, suggest, recommend, propose. Preposition + -ing: apologize for, insist on, object to, accuse of, blame for, congratulate on. And never: *said me, *explained me, *suggested me to.",
         ],
         examples: [
-          { es: "He offered to drive.", en: "Se ofreció a conducir." },
+          { es: "He offered to drive.", en: "Se ofreció a manejar." },
           { es: "She persuaded me to stay.", en: "Me convenció para que me quedara." },
           { es: "They suggested meeting at six.", en: "Sugirieron quedar a las seis." },
           { es: "He apologized for interrupting.", en: "Se disculpó por interrumpir." },

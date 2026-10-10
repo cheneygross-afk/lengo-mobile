@@ -10,7 +10,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
     level: "EN-B1",
     number: 1,
     title: "Extra Practice: I Had My Hair Cut",
-    summary: "A drill on have something done in different tenses, for «me corté el pelo», «me arreglaron el coche» and other services.",
+    summary: "A drill on have something done in different tenses, for «me corté el pelo», «me arreglaron el carro» and other services.",
     duration: "10 min",
     sections: [
       {
@@ -22,7 +22,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "I had my hair cut on Saturday.", en: "El sábado me corté el pelo (en la peluquería)." },
-          { es: "I had my car repaired.", en: "Me arreglaron el coche." },
+          { es: "I had my car repaired.", en: "Me arreglaron el carro." },
           { es: "She had her eyes tested.", en: "Se hizo una revisión de la vista." },
           { es: "We had a new door fitted.", en: "Nos pusieron una puerta nueva." },
           { es: "He has his shirts ironed at the dry cleaner's.", en: "Le planchan las camisas en la tintorería." },
@@ -77,7 +77,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me arreglaron el móvil en una tienda del centro.",
+        source: "Me arreglaron el celular en una tienda del centro.",
         answer: "I had my phone repaired at a store downtown.",
         altAnswers: [
           "I had my phone fixed at a store downtown.",
@@ -299,13 +299,13 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
         heading: "Reminder: get + object + participle",
         body: [
           "\"Get something done\" means the same as \"have something done\", but it is more informal and very common in spoken American English: \"I need to get my phone fixed.\"",
-          "The order is always get + OBJECT + participle: \"I got my phone repaired.\" *I got repaired my phone is the classic mistake, because Spanish puts the verb first («me arreglaron el móvil»).",
+          "The order is always get + OBJECT + participle: \"I got my phone repaired.\" *I got repaired my phone is the classic mistake, because Spanish puts the verb first («me arreglaron el celular»).",
           "\"Get\" is irregular: get - got - gotten (American) / got (British). \"I've gotten my car washed\" (US), \"I've got my car washed\" (UK, less common).",
         ],
         examples: [
-          { es: "I need to get my phone fixed.", en: "Tengo que llevar el móvil a arreglar." },
-          { es: "I got my phone repaired.", en: "Me arreglaron el móvil." },
-          { es: "Let's get the car washed before the trip.", en: "Lavemos el coche antes del viaje (en un lavadero)." },
+          { es: "I need to get my phone fixed.", en: "Tengo que llevar el celular a arreglar." },
+          { es: "I got my phone repaired.", en: "Me arreglaron el celular." },
+          { es: "Let's get the car washed before the trip.", en: "Lavemos el carro antes del viaje (en un lavadero)." },
           { es: "Where did you get your nails done?", en: "¿Dónde te hiciste las uñas?" },
           { es: "You should get that cough checked.", en: "Deberías ir a que te miren esa tos." },
         ],
@@ -339,7 +339,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
           { es: "I had my wallet stolen in Rome.", en: "Me robaron la cartera en Roma." },
           { es: "He got his nose broken playing rugby.", en: "Le rompieron la nariz jugando al rugby." },
           { es: "We had our flight canceled.", en: "Nos cancelaron el vuelo." },
-          { es: "They had their car broken into.", en: "Les entraron a robar en el coche." },
+          { es: "They had their car broken into.", en: "Les entraron a robar en el carro." },
         ],
         checkpoint: [
           {
@@ -451,7 +451,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is the most natural for «Me hicieron una revisión del coche»?",
+        question: "Which sentence is the most natural for «Me hicieron una revisión del carro»?",
         options: ["I got my car serviced.", "I got serviced my car.", "I serviced my car.", "My car got me serviced."],
         correctIndex: 0,
         explanation: "\"Get my car serviced\" = a mechanic did it. \"I serviced my car\" means you did it yourself.",
@@ -478,7 +478,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
         sentence: "He ___ his car broken into last night.",
         answer: "had",
         altAnswers: ["got"],
-        en: "Anoche le [entraron a robar] en el coche.",
+        en: "Anoche le [entraron a robar] en el carro.",
         explanation: "Bad experience in the past: \"had\" + object + participle (\"broken into\").",
       },
       {
@@ -903,7 +903,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Primero se lavan las patatas y luego se cortan en trozos.",
+        source: "Primero se lavan las papas y luego se cortan en trozos.",
         answer: "First the potatoes are washed and then they are cut into pieces.",
         altAnswers: [
           "First, the potatoes are washed and then they are cut into pieces.",
@@ -979,7 +979,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Se puede pagar con el móvil?",
+        source: "¿Se puede pagar con el celular?",
         answer: "Can I pay with my phone?",
         altAnswers: [
           "Can I pay by phone?",
@@ -1014,9 +1014,9 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
         instructions: "Match each Spanish sentence with the most natural English.",
         pairs: [
           { left: "English is spoken all over the world.", right: "El inglés se habla en todo el mundo." },
-          { left: "You can't park here.", right: "Aquí no se puede aparcar." },
+          { left: "You can't park here.", right: "Aquí no se puede estacionar." },
           { left: "The ice melted.", right: "El hielo se derritió." },
-          { left: "I dropped my phone.", right: "Se me cayó el móvil." },
+          { left: "I dropped my phone.", right: "Se me cayó el celular." },
         ],
         explanation: "«Se» can be a passive, a general \"you\", a normal active verb, or an accident that happened to someone (\"I dropped\").",
       },

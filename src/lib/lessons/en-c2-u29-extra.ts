@@ -73,7 +73,7 @@ export const EN_C2_U29_EXTRA: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Preferiría que no fumaras en el coche.",
+            source: "Preferiría que no fumaras en el carro.",
             answer: "I'd rather you didn't smoke in the car.",
             altAnswers: [
               "I would rather you didn't smoke in the car.",
@@ -300,7 +300,7 @@ export const EN_C2_U29_EXTRA: Lesson[] = [
       {
         type: "listen-choose",
         audio: "I'd rather you didn't bring it up at dinner.",
-        question: "¿Qué quiere decir la frase?",
+        question: "What does the sentence mean?",
         options: [
           "Preferiría que no sacaras el tema durante la cena.",
           "Prefiero no sacar el tema durante la cena.",

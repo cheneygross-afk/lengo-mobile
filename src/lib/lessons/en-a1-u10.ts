@@ -836,7 +836,7 @@ export const EN_A1_U10: Lesson[] = [
         examples: [
           { es: "Ana likes coffee.", en: "A Ana le gusta el café." },
           { es: "I love her.", en: "La quiero." },
-          { es: "We need a new car.", en: "Necesitamos un coche nuevo." },
+          { es: "We need a new car.", en: "Necesitamos un carro nuevo." },
           { es: "It is late.", en: "Es tarde." },
         ],
         checkpoint: [
@@ -1076,7 +1076,7 @@ export const EN_A1_U10: Lesson[] = [
         heading: "Trampa 1: «tener» que es \"be\"",
         body: [
           "En este relevo cada frase esconde una trampa. La primera: «tener» se dice con \"to be\" en la edad, el hambre, la sed, el frío, el calor, el sueño y la razón: «tienes razón» es \"you're right\".",
-          "Si dudas, pregúntate: ¿es algo que posees (un coche, un hermano)? Entonces es \"have\". ¿Es un estado o la edad? Entonces es \"be\".",
+          "Si dudas, pregúntate: ¿es algo que posees (un carro, un hermano)? Entonces es \"have\". ¿Es un estado o la edad? Entonces es \"be\".",
         ],
         examples: [
           { es: "You're right.", en: "Tienes razón." },
@@ -1589,7 +1589,7 @@ export const EN_A1_U10: Lesson[] = [
           { es: "See you on Monday.", en: "Nos vemos el lunes." },
           { es: "I need some information.", en: "Necesito información." },
           { es: "There are a lot of people here.", en: "Hay mucha gente aquí." },
-          { es: "They have two red cars.", en: "Tienen dos coches rojos." },
+          { es: "They have two red cars.", en: "Tienen dos carros rojos." },
         ],
         checkpoint: [
           {
@@ -1747,7 +1747,7 @@ export const EN_A1_U10: Lesson[] = [
           { es: "She is a doctor.", en: "Es médica." },
           { es: "He doesn't like fish.", en: "No le gusta el pescado." },
           { es: "They are playing now.", en: "Ahora están jugando." },
-          { es: "Can you drive?", en: "¿Sabes conducir?" },
+          { es: "Can you drive?", en: "¿Sabes manejar?" },
         ],
         checkpoint: [
           {
@@ -1881,7 +1881,7 @@ export const EN_A1_U10: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "No sé conducir, pero sé montar en bicicleta.",
+        source: "No sé manejar, pero sé montar en bicicleta.",
         answer: "I can't drive, but I can ride a bike.",
         altAnswers: [
           "I cannot drive, but I can ride a bike.",

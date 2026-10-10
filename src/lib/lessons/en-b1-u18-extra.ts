@@ -318,7 +318,7 @@ export const EN_B1_U18_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ojalá tuviera un coche.",
+        source: "Ojalá tuviera un carro.",
         answer: "I wish I had a car.",
         altAnswers: ["If only I had a car."],
         explanation: "«Ojalá» + imperfect subjunctive for a present wish = \"I wish\" + past simple.",

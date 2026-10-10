@@ -24,7 +24,7 @@ export const EN_A1_U4_MORE: Lesson[] = [
         ],
         examples: [
           { es: "I'm not sleeping. I'm thinking.", en: "No estoy durmiendo. Estoy pensando." },
-          { es: "He isn't driving today.", en: "Hoy él no está conduciendo." },
+          { es: "He isn't driving today.", en: "Hoy él no está manejando." },
           { es: "We aren't waiting for the bus.", en: "No estamos esperando el autobús." },
           { es: "You're not listening to me.", en: "No me estás escuchando." },
           { es: "It isn't raining now.", en: "Ahora no está lloviendo." },
@@ -294,14 +294,14 @@ export const EN_A1_U4_MORE: Lesson[] = [
         body: [
           "Por teléfono o por mensaje, la pregunta típica es \"What are you doing?\". Se contesta con el continuo: \"I'm cleaning the kitchen\", \"I'm walking the dog\".",
           "Ojo: para decir dónde estás no hace falta \"-ing\", basta con \"be\": «estoy en casa» es \"I'm at home\", y «estoy en el autobús», \"I'm on the bus\".",
-          "Frases útiles: \"Are you busy?\" (¿estás ocupado?), \"Can you talk?\" (¿puedes hablar?) y \"Sorry, I'm driving\" (perdona, estoy conduciendo).",
+          "Frases útiles: \"Are you busy?\" (¿estás ocupado?), \"Can you talk?\" (¿puedes hablar?) y \"Sorry, I'm driving\" (perdona, estoy manejando).",
         ],
         examples: [
           { es: "What are you doing at the moment?", en: "¿Qué estás haciendo en este momento?" },
           { es: "I'm on the bus.", en: "Estoy en el autobús." },
           { es: "I'm at home. I'm cleaning the kitchen.", en: "Estoy en casa. Estoy limpiando la cocina." },
           { es: "Are you busy? Yes, I'm in a meeting.", en: "¿Estás ocupado? Sí, estoy en una reunión." },
-          { es: "Sorry, I can't talk. I'm driving.", en: "Perdona, no puedo hablar. Estoy conduciendo." },
+          { es: "Sorry, I can't talk. I'm driving.", en: "Perdona, no puedo hablar. Estoy manejando." },
           { es: "Tom is taking a shower.", en: "Tom se está duchando." },
         ],
         checkpoint: [
@@ -395,7 +395,7 @@ export const EN_A1_U4_MORE: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Perdona, no puedo hablar. Estoy conduciendo.",
+        source: "Perdona, no puedo hablar. Estoy manejando.",
         answer: "Sorry, I can't talk. I'm driving.",
         altAnswers: ["Sorry, I can't speak. I'm driving.", "Sorry, I can't talk now. I'm driving.", "Sorry, I can't talk right now. I'm driving."],
         explanation: "Lo que haces en este momento va en continuo: \"I'm driving\". \"Drive\" pierde la \"e\".",
@@ -1015,7 +1015,7 @@ export const EN_A1_U4_MORE: Lesson[] = [
         ],
         examples: [
           { es: "I know the answer.", en: "Sé la respuesta." },
-          { es: "He has a new car.", en: "Él tiene un coche nuevo." },
+          { es: "He has a new car.", en: "Él tiene un carro nuevo." },
           { es: "They want pizza.", en: "Quieren pizza." },
           { es: "She's having lunch.", en: "Está almorzando." },
         ],

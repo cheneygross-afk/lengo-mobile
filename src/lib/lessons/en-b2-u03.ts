@@ -692,13 +692,13 @@ export const EN_B2_U03: Lesson[] = [
         heading: "Offers, requests and refusals with will",
         body: [
           "Some uses of \"will\" are not really about time. \"I'll ...\" and \"Should I ...?\" make offers: \"I'll do the dishes\", \"Should I open the window?\" British English also uses \"Shall I ...?\"",
-          "\"Will you ...?\" makes a request: \"Will you help me with this box?\" And \"won't\" can mean refuse: \"The car won't start\", \"He won't listen to me.\" Spanish uses the present here: «el coche no arranca», «no me hace caso».",
+          "\"Will you ...?\" makes a request: \"Will you help me with this box?\" And \"won't\" can mean refuse: \"The car won't start\", \"He won't listen to me.\" Spanish uses the present here: «el carro no arranca», «no me hace caso».",
         ],
         examples: [
           { es: "Should I open the window?", en: "¿Abro la ventana?" },
           { es: "I'll do the dishes.", en: "Yo friego los platos." },
           { es: "Will you help me with this box?", en: "¿Me ayudas con esta caja?" },
-          { es: "The car won't start.", en: "El coche no arranca." },
+          { es: "The car won't start.", en: "El carro no arranca." },
           { es: "He won't listen to me.", en: "No me hace caso." },
           { es: "The door won't open.", en: "La puerta no se abre." },
         ],
@@ -707,7 +707,7 @@ export const EN_B2_U03: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "El coche no arranca.",
+            source: "El carro no arranca.",
             answer: "The car won't start.",
             altAnswers: ["My car won't start."],
             explanation: "\"Won't\" expresses refusal, even for machines. *The car doesn't start sounds like a general fact, not today's problem.",
@@ -953,7 +953,7 @@ export const EN_B2_U03: Lesson[] = [
         examples: [
           { es: "I'll call you once I've finished.", en: "Te llamaré una vez que haya terminado." },
           { es: "You can go out when you've done your homework.", en: "Puedes salir cuando hayas hecho los deberes." },
-          { es: "As soon as I've saved enough, I'll buy a car.", en: "En cuanto haya ahorrado lo suficiente, me compraré un coche." },
+          { es: "As soon as I've saved enough, I'll buy a car.", en: "En cuanto haya ahorrado lo suficiente, me compraré un carro." },
           { es: "Don't decide until you've seen the apartment.", en: "No decidas hasta que hayas visto el piso." },
           { es: "After you've read it, give it back to me.", en: "Cuando lo hayas leído, devuélvemelo." },
         ],
@@ -1184,7 +1184,7 @@ export const EN_B2_U03: Lesson[] = [
           { es: "By the end of the month we'll have spent all our money.", en: "Para fin de mes nos habremos gastado todo el dinero." },
           { es: "By 2030 she'll have written five novels.", en: "Para 2030 habrá escrito cinco novelas." },
           { es: "By the time the guests arrive, I'll have cleaned the house.", en: "Para cuando lleguen los invitados, habré limpiado la casa." },
-          { es: "By tonight they'll have driven 800 kilometers.", en: "Para esta noche habrán conducido 800 kilómetros." },
+          { es: "By tonight they'll have driven 800 kilometers.", en: "Para esta noche habrán manejado 800 kilómetros." },
         ],
         checkpoint: [
           {
@@ -1258,7 +1258,7 @@ export const EN_B2_U03: Lesson[] = [
         examples: [
           { es: "I won't be working tomorrow.", en: "Mañana no estaré trabajando." },
           { es: "Will you be working tomorrow?", en: "¿Vas a trabajar mañana?" },
-          { es: "Will you be using the car tonight?", en: "¿Vas a usar el coche esta noche?" },
+          { es: "Will you be using the car tonight?", en: "¿Vas a usar el carro esta noche?" },
           { es: "Will you be coming to the meeting?", en: "¿Vas a venir a la reunión?" },
           { es: "Will you come to the meeting?", en: "¿Vendrás a la reunión? (invitación o petición)" },
           { es: "What will you be doing this time next year?", en: "¿Qué estarás haciendo dentro de un año a esta hora?" },
@@ -1268,7 +1268,7 @@ export const EN_B2_U03: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Vas a usar el coche esta noche?",
+            source: "¿Vas a usar el carro esta noche?",
             answer: "Will you be using the car tonight?",
             altAnswers: [
               "Will you be using the car this evening?",
@@ -1423,7 +1423,7 @@ export const EN_B2_U03: Lesson[] = [
         sentence: "Will you ___ the car tonight? I need it.",
         answer: "be using",
         altAnswers: ["use"],
-        en: "¿[Vas a usar] el coche esta noche? Lo necesito.",
+        en: "¿[Vas a usar] el carro esta noche? Lo necesito.",
         explanation: "\"Will you be using ...?\" is the polite way to check someone's plans before asking for something.",
       },
       {
@@ -1809,7 +1809,7 @@ export const EN_B2_U03: Lesson[] = [
           "Hotel and restaurant staff use it all the time: \"Will you be paying by card?\", \"How many nights will you be staying?\"",
         ],
         examples: [
-          { es: "Will you be using the car tonight?", en: "¿Vas a usar el coche esta noche?" },
+          { es: "Will you be using the car tonight?", en: "¿Vas a usar el carro esta noche?" },
           { es: "Will you be paying by card?", en: "¿Va a pagar con tarjeta?" },
           { es: "How many nights will you be staying?", en: "¿Cuántas noches se va a quedar?" },
           { es: "Will you be joining us for dinner?", en: "¿Nos acompañará a cenar?" },
@@ -2018,7 +2018,7 @@ export const EN_B2_U03: Lesson[] = [
         ],
         examples: [
           { es: "Prices are bound to go up.", en: "Seguro que los precios suben." },
-          { es: "Electric cars are likely to replace gas cars.", en: "Es probable que los coches eléctricos sustituyan a los de gasolina." },
+          { es: "Electric cars are likely to replace gas cars.", en: "Es probable que los carros eléctricos sustituyan a los de gasolina." },
           { es: "Robots might do most of our jobs.", en: "Puede que los robots hagan la mayoría de nuestros trabajos." },
           { es: "Cities could become much hotter.", en: "Las ciudades podrían volverse mucho más calurosas." },
           { es: "People are unlikely to work five days a week.", en: "Es poco probable que la gente trabaje cinco días a la semana." },
@@ -2064,7 +2064,7 @@ export const EN_B2_U03: Lesson[] = [
           { es: "It will probably rain.", en: "Probablemente llueva." },
           { es: "It probably won't rain.", en: "Probablemente no llueva." },
           { es: "We'll definitely need more water.", en: "Sin duda necesitaremos más agua." },
-          { es: "Cars definitely won't disappear.", en: "Los coches no van a desaparecer, seguro." },
+          { es: "Cars definitely won't disappear.", en: "Los carros no van a desaparecer, seguro." },
           { es: "I don't think people will read paper books.", en: "Creo que la gente no leerá libros en papel." },
         ],
         checkpoint: [
@@ -2190,7 +2190,7 @@ export const EN_B2_U03: Lesson[] = [
         sentence: "Cars ___ disappear.",
         answer: "probably won't",
         altAnswers: ["most likely won't", "are unlikely to", "probably will not"],
-        en: "Los coches [probablemente no] desaparecerán.",
+        en: "Los carros [probablemente no] desaparecerán.",
         explanation: "In negative sentences \"probably\" goes before \"won't\".",
       },
       {
@@ -2250,7 +2250,7 @@ export const EN_B2_U03: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Electric cars are ___ replace gas cars.",
         answer: "likely to",
-        en: "[Es probable que] los coches eléctricos sustituyan a los de gasolina.",
+        en: "[Es probable que] los carros eléctricos sustituyan a los de gasolina.",
         explanation: "\"Be likely to\" + base verb. The subject comes first in English: \"Electric cars are likely to ...\".",
       },
       {
@@ -2937,7 +2937,7 @@ export const EN_B2_U03: Lesson[] = [
           { es: "I'll help you.", en: "Te ayudo." },
           { es: "I'm meeting Carlos at six.", en: "He quedado con Carlos a las seis." },
           { es: "By Friday I'll have finished.", en: "Para el viernes habré terminado." },
-          { es: "This time tomorrow I'll be driving to Boston.", en: "Mañana a esta hora estaré conduciendo hacia Boston." },
+          { es: "This time tomorrow I'll be driving to Boston.", en: "Mañana a esta hora estaré manejando hacia Boston." },
           { es: "I was going to call you.", en: "Iba a llamarte." },
         ],
         checkpoint: [

@@ -151,7 +151,7 @@ export const EN_B1_U12: Lesson[] = [
           "Use \"will be able to\" especially for new abilities you don't have yet: \"After this course, you'll be able to understand movies in English.\"",
         ],
         examples: [
-          { es: "I'll be able to drive next year.", en: "El año que viene podré conducir." },
+          { es: "I'll be able to drive next year.", en: "El año que viene podré manejar." },
           { es: "After this course, you'll be able to understand movies in English.", en: "Después de este curso, podrás entender películas en inglés." },
           { es: "I won't be able to come tomorrow.", en: "Mañana no podré venir." },
           { es: "Will you be able to help me?", en: "¿Podrás ayudarme?" },
@@ -162,7 +162,7 @@ export const EN_B1_U12: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "El año que viene podré conducir.",
+            source: "El año que viene podré manejar.",
             answer: "Next year I'll be able to drive.",
             altAnswers: ["I'll be able to drive next year.", "Next year, I'll be able to drive."],
             explanation: "«Podré» is \"will be able to\". *I will can is impossible: two modal verbs can't go together.",
@@ -958,7 +958,7 @@ export const EN_B1_U12: Lesson[] = [
           { es: "She's probably at home.", en: "Estará en casa." },
           { es: "It must be about ten o'clock.", en: "Serán las diez." },
           { es: "He must be about forty.", en: "Tendrá unos cuarenta años." },
-          { es: "Do you think he's angry?", en: "¿Crees que está enfadado?" },
+          { es: "Do you think he's angry?", en: "¿Crees que está enojado?" },
         ],
         checkpoint: [
           {
@@ -1113,7 +1113,7 @@ export const EN_B1_U12: Lesson[] = [
         ],
         examples: [
           { es: "They must be having dinner.", en: "Deben de estar cenando." },
-          { es: "She isn't answering. She might be driving.", en: "No contesta. Puede que esté conduciendo." },
+          { es: "She isn't answering. She might be driving.", en: "No contesta. Puede que esté manejando." },
           { es: "He can't be working. It's Sunday.", en: "No puede estar trabajando. Es domingo." },
           { es: "The kids are very quiet. They must be watching TV.", en: "Los niños están muy callados. Deben de estar viendo la tele." },
           { es: "You must be joking!", en: "¡No lo dirás en serio!" },
@@ -1659,10 +1659,10 @@ export const EN_B1_U12: Lesson[] = [
         body: [
           "Careful Spanish separates «debes llevar casco» (obligation) and «debes de estar agotado» (supposition). In everyday speech, many people say «debe estar agotado» for both, and also «tiene que estar agotado» for a deduction.",
           "So don't translate the words; translate the meaning. Is it a rule or a conclusion? Both can be \"must\" in English, but obligation can also be \"have to\", and deduction can also be \"I'm sure\" or \"probably\".",
-          "«Tiene que estar en casa, su coche está aquí» is a deduction: \"She must be at home. Her car is here.\"",
+          "«Tiene que estar en casa, su carro está aquí» is a deduction: \"She must be at home. Her car is here.\"",
         ],
         examples: [
-          { es: "She must be at home. Her car is here.", en: "Tiene que estar en casa, su coche está aquí." },
+          { es: "She must be at home. Her car is here.", en: "Tiene que estar en casa, su carro está aquí." },
           { es: "You have to wear a helmet.", en: "Tienes que llevar casco." },
           { es: "He must be very busy.", en: "Debe estar muy ocupado." },
           { es: "You have to pay in cash.", en: "Hay que pagar en efectivo." },
@@ -1673,7 +1673,7 @@ export const EN_B1_U12: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Tiene que estar en casa, su coche está aquí.",
+            source: "Tiene que estar en casa, su carro está aquí.",
             answer: "She must be at home. Her car is here.",
             altAnswers: [
               "She must be at home, her car is here.",
@@ -1708,13 +1708,13 @@ export const EN_B1_U12: Lesson[] = [
           { es: "You mustn't park here.", en: "Está prohibido estacionar aquí." },
           { es: "You can't park here.", en: "No puedes estacionar aquí." },
           { es: "You don't have to come.", en: "No hace falta que vengas." },
-          { es: "He can't be rich. He drives a very old car.", en: "No puede ser rico. Tiene un coche muy viejo." },
+          { es: "He can't be rich. He drives a very old car.", en: "No puede ser rico. Tiene un carro muy viejo." },
           { es: "That can't be right.", en: "Eso no puede estar bien." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«No puede ser rico, tiene un coche viejísimo.»",
+            question: "«No puede ser rico, tiene un carro viejísimo.»",
             options: ["He can't be rich.", "He mustn't be rich.", "He doesn't have to be rich.", "He must not to be rich."],
             correctIndex: 0,
             explanation: "Negative deduction = \"can't\". \"Mustn't\" is a prohibition and \"doesn't have to\" means it's not necessary.",
@@ -2143,7 +2143,7 @@ export const EN_B1_U12: Lesson[] = [
           "Spanish speakers think «no debe de estar» = \"mustn't be\", but in English the negative of deduction \"must\" is \"can't\". The same is true in the past: \"He can't have seen us\", not *He mustn't have seen us.",
         ],
         examples: [
-          { es: "He can't be at home. His car isn't here.", en: "No puede estar en casa. Su coche no está." },
+          { es: "He can't be at home. His car isn't here.", en: "No puede estar en casa. Su carro no está." },
           { es: "She can't be hungry. She just had lunch.", en: "No puede tener hambre. Acaba de comer." },
           { es: "He can't have seen us.", en: "Es imposible que nos haya visto." },
           { es: "You mustn't touch that.", en: "No debes tocar eso." },
@@ -2165,7 +2165,7 @@ export const EN_B1_U12: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "No puede estar en casa, su coche no está.",
+            source: "No puede estar en casa, su carro no está.",
             answer: "He can't be at home. His car isn't here.",
             altAnswers: [
               "He can't be at home, his car isn't here.",

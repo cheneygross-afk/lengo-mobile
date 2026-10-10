@@ -141,7 +141,7 @@ export const EN_C2_U16: Lesson[] = [
               "Pause briefly, check your notes and carry on.",
               "Say «bueno» a few times while you think.",
               "Fill the gap with \"um\" until you remember.",
-              "Apologise at length and start the section again.",
+              "Apologize at length and start the section again.",
             ],
             correctIndex: 0,
             explanation: "A short, deliberate pause is invisible to most audiences, while a stream of fillers, Spanish or English, draws attention to the lapse.",
@@ -341,7 +341,7 @@ export const EN_C2_U16: Lesson[] = [
         type: "speak",
         text: "Let me pause there for a moment, and let that sink in.",
         tip: "Stress \"pause\", \"moment\" and \"sink\", and actually stop for a second after \"moment\". Don't fill the gap with «eh».",
-        explanation: "Practising a real pause out loud is the fastest way to stop relying on fillers.",
+        explanation: "Practicing a real pause out loud is the fastest way to stop relying on fillers.",
       },
       {
         type: "translate",
@@ -531,7 +531,7 @@ export const EN_C2_U16: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "During a product launch, a journalist asks about rumours of a merger. You are not allowed to comment. What do you say?",
+            question: "During a product launch, a journalist asks about rumors of a merger. You are not allowed to comment. What do you say?",
             options: [
               "I'd rather not speculate on that, but I'm happy to talk about the product.",
               "I can't say you nothing about that.",
@@ -679,7 +679,7 @@ export const EN_C2_U16: Lesson[] = [
         prompt: "Put the words in order.",
         words: ["I'm", "conscious", "of", "time,", "so", "let", "me", "take", "one", "more", "question."],
         translation: "Soy consciente de la hora, así que voy a responder una pregunta más.",
-        explanation: "\"I'm conscious of time\" is a polite way of signalling that the Q&A must end. \"Let me take one more question\" closes it gracefully.",
+        explanation: "\"I'm conscious of time\" is a polite way of signaling that the Q&A must end. \"Let me take one more question\" closes it gracefully.",
       },
       {
         type: "translate",
@@ -747,7 +747,7 @@ export const EN_C2_U16: Lesson[] = [
           "I'm afraid I don't know offhand, but I'll find out and get back to everyone.",
           "I'm afraid I don't know offhand but I'll find out and get back to you.",
         ],
-        explanation: "«De memoria» in this sense is \"offhand\" or \"off the top of my head\"; \"by heart\" is for things memorised, like a poem. \"Find out\" is «averiguar».",
+        explanation: "«De memoria» in this sense is \"offhand\" or \"off the top of my head\"; \"by heart\" is for things memorized, like a poem. \"Find out\" is «averiguar».",
       },
     ],
   },
@@ -756,7 +756,7 @@ export const EN_C2_U16: Lesson[] = [
     level: "EN-C2",
     number: 3,
     title: "Presentations and negotiation, Part 7 of 8: deadlock and concessions",
-    summary: "Keep a stalled negotiation moving: name the deadlock, park the sticking point, reframe with \"What would it take to...?\", trade conditional concessions, package the deal and summarise common ground.",
+    summary: "Keep a stalled negotiation moving: name the deadlock, park the sticking point, reframe with \"What would it take to...?\", trade conditional concessions, package the deal and summarize common ground.",
     duration: "12 min",
     sections: [
       {
@@ -820,7 +820,7 @@ export const EN_C2_U16: Lesson[] = [
           "Hypothetical proposals keep you from committing too early: \"What if we were to extend the contract to three years?\", \"Suppose we covered the shipping costs. Would that help?\". \"Were to\" makes the idea sound exploratory rather than like a firm offer.",
         ],
         examples: [
-          { es: "Let's park that for now and come back to it later.", en: "Dejemos eso aparcado por ahora y volvamos a ello más tarde." },
+          { es: "Let's park that for now and come back to it later.", en: "Dejemos eso estacionado por ahora y volvamos a ello más tarde." },
           { es: "Can we put that to one side for a moment?", en: "¿Podemos dejar eso de lado un momento?" },
           { es: "What would it take to get this deal over the line?", en: "¿Qué haría falta para cerrar este acuerdo?" },
           { es: "What would you need from us to make this work?", en: "¿Qué necesitarían de nosotros para que esto funcione?" },
@@ -923,9 +923,9 @@ export const EN_C2_U16: Lesson[] = [
         ],
       },
       {
-        heading: "Summarising common ground",
+        heading: "Summarizing common ground",
         body: [
-          "Regularly summarising what you already agree on reminds both sides how close they are and isolates the real problem: \"So, where we agree is...\", \"Let's recap what we've agreed so far\", \"We're agreed on X; the only outstanding issue is Y\", \"We're really not that far apart\".",
+          "Regularly summarizing what you already agree on reminds both sides how close they are and isolates the real problem: \"So, where we agree is...\", \"Let's recap what we've agreed so far\", \"We're agreed on X; the only outstanding issue is Y\", \"We're really not that far apart\".",
           "False friend: \"outstanding\" here means «pendiente», not «sobresaliente». \"Outstanding issues\" are the points still to be resolved, and an \"outstanding invoice\" is an unpaid one.",
           "Note \"We're agreed on\" (be agreed, formal) and \"We agree on\" (everyday): both are correct. But *We are agree is a classic error; in English \"agree\" is a verb, not an adjective.",
         ],
@@ -976,7 +976,7 @@ export const EN_C2_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Parece que hemos llegado a un punto muerto. Dejemos el precio aparcado por ahora.",
+        source: "Parece que hemos llegado a un punto muerto. Dejemos lo del precio pendiente por ahora.",
         answer: "We seem to have reached an impasse. Let's park the price for now.",
         altAnswers: [
           "We seem to have reached a deadlock. Let's park the price for now.",
@@ -1572,7 +1572,7 @@ export const EN_C2_U16: Lesson[] = [
         ],
         examples: [
           { es: "It sounds like price is the real sticking point.", en: "Parece que el verdadero escollo es el precio." },
-          { es: "Can we park that for a moment and look at the rollout first?", en: "¿Podemos aparcar eso un momento y ver primero la implantación?" },
+          { es: "Can we park that for a moment and look at the rollout first?", en: "¿Podemos dejar eso de lado un momento y ver primero la implantación?" },
           { es: "What would it take for you to commit to all 80 hotels for three years?", en: "¿Qué haría falta para que se comprometieran con los 80 hoteles durante tres años?" },
           { es: "If you could bring the price down to 34 dollars, I think I could sell a three-year deal internally.", en: "Si pudieran bajar el precio a 34 dólares, creo que podría convencer a mi empresa de un contrato a tres años." },
           { es: "I'll need to run it by my director.", en: "Tendré que consultarlo con mi directora." },
@@ -1792,7 +1792,7 @@ export const EN_C2_U16: Lesson[] = [
         instructions: "Match each stage of the negotiation with a typical phrase.",
         pairs: [
           { left: "Shall we agree on what we'd like to cover today?", right: "fijar la agenda" },
-          { left: "Can we park that for a moment?", right: "aparcar el escollo" },
+          { left: "Can we park that for a moment?", right: "dejar de lado el escollo" },
           { left: "We could go to 34, provided you commit to three years.", right: "ofrecer una concesión condicionada" },
           { left: "So, do we have a deal?", right: "cerrar el trato" },
           { left: "Please find below a summary of the main terms.", right: "poner el acuerdo por escrito" },
@@ -1994,7 +1994,7 @@ export const EN_C2_U16: Lesson[] = [
         ],
         examples: [
           { es: "I understand why people are worried.", en: "Entiendo que la gente esté preocupada." },
-          { es: "I'd question the assumption that this is about cutting jobs.", en: "Yo cuestionaría la premisa de que esto va de recortar empleo." },
+          { es: "I'd question the assumption that this is about cutting jobs.", en: "Yo cuestionaría la premisa de que esto se trata de recortar empleos." },
           { es: "What I can tell you is that no one will lose their job as a result of this change.", en: "Lo que sí puedo decirle es que nadie perderá su empleo como consecuencia de este cambio." },
           { es: "If I could just finish my answer...", en: "Si me permite terminar la respuesta..." },
           { es: "That's a fair challenge, and I'll answer it directly.", en: "Es una objeción razonable, y le voy a responder directamente." },
@@ -2145,7 +2145,7 @@ export const EN_C2_U16: Lesson[] = [
           { left: "off-topic question", right: "That's a little beyond what we're covering today." },
           { left: "long monologue", right: "In the interests of time, ..." },
         ],
-        explanation: "Recognising the type of question in the first few seconds lets you choose the right technique.",
+        explanation: "Recognizing the type of question in the first few seconds lets you choose the right technique.",
       },
       {
         type: "translate",
@@ -2381,8 +2381,8 @@ export const EN_C2_U16: Lesson[] = [
           { es: "Would it be possible to bring the meeting forward?", en: "¿Sería posible adelantar la reunión?" },
           { es: "I'm afraid that falls outside our remit.", en: "Me temo que eso no es de nuestra competencia." },
           { es: "That's not really our call.", en: "Eso no lo decidimos nosotros." },
-          { es: "That works for us.", en: "Eso nos va bien." },
-          { es: "Sounds good.", en: "Vale, perfecto." },
+          { es: "That works for us.", en: "Eso nos funciona." },
+          { es: "Sounds good.", en: "Perfecto, de acuerdo." },
         ],
         checkpoint: [
           {
@@ -2390,10 +2390,10 @@ export const EN_C2_U16: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "¿Sería posible adelantar la reunión al martes?",
-            answer: "Would it be possible to bring the meeting forward to Tuesday?",
+            answer: "Would it be possible to move the meeting up to Tuesday?",
             altAnswers: [
               "Would it be possible to move the meeting forward to Tuesday?",
-              "Would it be possible to move the meeting up to Tuesday?",
+              "Would it be possible to bring the meeting forward to Tuesday?",
               "Would it be possible to move the meeting to Tuesday?",
               "Would it be possible to bring forward the meeting to Tuesday?",
               "Would it be possible to reschedule the meeting for Tuesday?",
@@ -2688,11 +2688,11 @@ export const EN_C2_U16: Lesson[] = [
         heading: "Recap: deadlock and concessions",
         body: [
           "Name the deadlock (\"We seem to have reached an impasse\", \"Price is the main sticking point\"), park it (\"Let's park that for now\"), reframe (\"What would it take to...?\", \"What if we were to...?\").",
-          "Trade, never give: \"We can move on price if you can move on volume\", \"provided (that)\" + present simple. Summarise common ground: \"We're agreed on X; the only outstanding issue is Y\". Close: \"Do we have a deal?\", \"I think we can live with that\".",
+          "Trade, never give: \"We can move on price if you can move on volume\", \"provided (that)\" + present simple. Summarize common ground: \"We're agreed on X; the only outstanding issue is Y\". Close: \"Do we have a deal?\", \"I think we can live with that\".",
         ],
         examples: [
           { es: "We seem to have reached an impasse.", en: "Parece que hemos llegado a un punto muerto." },
-          { es: "Let's park that for now and come back to it later.", en: "Dejemos eso aparcado por ahora y volvamos a ello más tarde." },
+          { es: "Let's park that for now and come back to it later.", en: "Dejemos eso estacionado por ahora y volvamos a ello más tarde." },
           { es: "We can move on price if you can move on volume.", en: "Podemos ceder en el precio si ustedes ceden en el volumen." },
           { es: "I think we can live with that.", en: "Creo que podemos aceptarlo." },
         ],
@@ -2755,9 +2755,9 @@ export const EN_C2_U16: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Tal y como acordamos, el proveedor entregará el pedido antes del 3 de mayo.",
-            answer: "As agreed, the supplier will deliver the order by 3 May.",
+            answer: "As agreed, the supplier will deliver the order by May 3.",
             altAnswers: [
-              "As agreed, the supplier will deliver the order by May 3.",
+              "As agreed, the supplier will deliver the order by 3 May.",
               "As agreed, the supplier will deliver the order by the 3rd of May.",
               "As agreed, the supplier will deliver the order no later than 3 May.",
               "As agreed, the supplier will deliver the order no later than May 3.",
@@ -2858,7 +2858,7 @@ export const EN_C2_U16: Lesson[] = [
         pairs: [
           { left: "take that offline", right: "hablarlo aparte" },
           { left: "get back to you", right: "contestarle más adelante" },
-          { left: "park that for now", right: "aparcar eso de momento" },
+          { left: "park that for now", right: "dejar eso de lado de momento" },
           { left: "run it by", right: "consultarlo con" },
           { left: "subject to contract", right: "sujeto a la firma del contrato" },
         ],
@@ -2910,9 +2910,9 @@ export const EN_C2_U16: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "La oferta es válida hasta el 30 de junio y está sujeta a la aprobación del consejo.",
-        answer: "The offer is valid until 30 June and is subject to board approval.",
+        answer: "The offer is valid until June 30 and is subject to board approval.",
         altAnswers: [
-          "The offer is valid until June 30 and is subject to board approval.",
+          "The offer is valid until 30 June and is subject to board approval.",
           "The offer is valid until 30 June and subject to board approval.",
           "The offer is valid until June 30 and subject to board approval.",
           "The offer is valid until 30 June and is subject to the board's approval.",
@@ -2938,7 +2938,7 @@ export const EN_C2_U16: Lesson[] = [
           "Nothing is legally binding until a formal contract is signed.",
           "The contract has already been signed.",
           "The summary is the final contract.",
-          "The deal has been cancelled.",
+          "The deal has been canceled.",
         ],
         correctIndex: 0,
         explanation: "\"Subject to contract\" protects both sides: the summary records the agreement, but it does not bind anyone until the formal contract is signed.",

@@ -575,7 +575,7 @@ export const EN_C2_U19: Lesson[] = [
         ],
         examples: [
           { es: "Strange as it may seem, the plan worked.", en: "Por extraño que parezca, el plan funcionó." },
-          { es: "Odd though it sounds, I miss the noise.", en: "Aunque suene raro, echo de menos el ruido." },
+          { es: "Odd though it sounds, I miss the noise.", en: "Aunque suene raro, extraño el ruido." },
           { es: "Tired as she was, she finished the report.", en: "Aunque estaba muy cansada, terminó el informe." },
           { es: "Unlikely as it seems, they are related.", en: "Por improbable que parezca, son parientes." },
           { es: "Hard as it is to believe, he is only nineteen.", en: "Aunque cueste creerlo, solo tiene diecinueve años." },
@@ -672,8 +672,8 @@ export const EN_C2_U19: Lesson[] = [
           { es: "That I don't believe for a second.", en: "Eso no me lo creo ni por un segundo." },
           { es: "Some things I can forgive; lying I cannot.", en: "Hay cosas que puedo perdonar; la mentira, no." },
           { es: "What she said next nobody expected.", en: "Lo que dijo a continuación no se lo esperaba nadie." },
-          { es: "Particularly worrying is the rise in youth unemployment.", en: "Especialmente preocupante es el aumento del paro juvenil." },
-          { es: "Equally important is the question of cost.", en: "Igual de importante es la cuestión del coste." },
+          { es: "Particularly worrying is the rise in youth unemployment.", en: "Especialmente preocupante es el aumento del desempleo juvenil." },
+          { es: "Equally important is the question of cost.", en: "Igual de importante es la cuestión del costo." },
         ],
         checkpoint: [
           {
@@ -790,7 +790,7 @@ export const EN_C2_U19: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Odd", "though", "it", "sounds,", "I", "miss", "the", "noise."],
-        translation: "Aunque suene raro, echo de menos el ruido.",
+        translation: "Aunque suene raro, extraño el ruido.",
         altOrders: [["I", "miss", "the", "noise,", "odd", "though", "it", "sounds."]],
         explanation: "Adjective + \"though\" + subject + verb. The adjective goes first, with no article and no \"although\".",
       },
@@ -833,7 +833,7 @@ export const EN_C2_U19: Lesson[] = [
         sentence: "Particularly ___ the rise in youth unemployment.",
         answer: "worrying is",
         altAnswers: ["concerning is", "alarming is", "troubling is", "worrisome is"],
-        en: "[Especialmente preocupante es] el aumento del paro juvenil.",
+        en: "[Especialmente preocupante es] el aumento del desempleo juvenil.",
         explanation: "A fronted complement is followed by \"be\" and then the subject: \"Particularly worrying is the rise...\". This is formal, report-style English.",
       },
       {
@@ -917,7 +917,7 @@ export const EN_C2_U19: Lesson[] = [
           { es: "It was here that the accident happened.", en: "Fue aquí donde ocurrió el accidente." },
           { es: "It was then that I understood.", en: "Fue entonces cuando lo entendí." },
           { es: "It wasn't until I got home that I noticed.", en: "Hasta que no llegué a casa no me di cuenta." },
-          { es: "It was by chance that we found it.", en: "Fue por casualidad como lo encontramos." },
+          { es: "It was by chance that we found it.", en: "Fue por casualidad que lo encontramos." },
         ],
         checkpoint: [
           {
@@ -2021,7 +2021,7 @@ export const EN_C2_U19: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Lo que de verdad me preocupa es el coste.",
+        source: "Lo que de verdad me preocupa es el costo.",
         answer: "What really worries me is the cost.",
         altAnswers: [
           "What really concerns me is the cost.",

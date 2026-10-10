@@ -409,10 +409,10 @@ export const EN_C2_U24: Lesson[] = [
         body: [
           "Historians often front time expressions with \"only\" or \"not until\" to stress how late something happened. The inversion falls in the main clause, not in the time clause: \"Only after the war had ended did the true cost become clear.\" \"Not until the archives were opened did historians learn the truth.\"",
           "Note the two common errors: inverting the wrong clause (*Only after had the war ended...) and forgetting \"did\" in the main clause (*Only after the war had ended the cost became clear).",
-          "\"Little\" fronted with a verb of knowing expresses dramatic irony, a favourite device in narrative history: \"Little had they suspected that the plot had been betrayed.\" More often, \"Little did they know that...\" (with \"did\" + base form).",
+          "\"Little\" fronted with a verb of knowing expresses dramatic irony, a favorite device in narrative history: \"Little had they suspected that the plot had been betrayed.\" More often, \"Little did they know that...\" (with \"did\" + base form).",
         ],
         examples: [
-          { es: "Only after the war had ended did the true cost become clear.", en: "Solo cuando terminó la guerra quedó claro su verdadero coste." },
+          { es: "Only after the war had ended did the true cost become clear.", en: "Solo cuando terminó la guerra quedó claro su verdadero costo." },
           { es: "Not until the archives were opened did historians learn the truth.", en: "Hasta que no se abrieron los archivos, los historiadores no supieron la verdad." },
           { es: "Little did they know that the plot had been betrayed.", en: "No tenían ni idea de que la conspiración había sido delatada." },
           { es: "Only once the harvest had failed did the government react.", en: "Solo cuando la cosecha ya se había perdido reaccionó el gobierno." },
@@ -422,7 +422,7 @@ export const EN_C2_U24: Lesson[] = [
             type: "word-order",
             prompt: "Put the words in order.",
             words: ["Only", "after", "the", "war", "had", "ended", "did", "the", "cost", "become", "clear."],
-            translation: "Solo cuando terminó la guerra quedó claro el coste.",
+            translation: "Solo cuando terminó la guerra quedó claro el costo.",
             explanation: "The time clause keeps normal order (\"after the war had ended\"); the inversion comes in the main clause: \"did the cost become clear\".",
           },
         ],
@@ -862,7 +862,7 @@ export const EN_C2_U24: Lesson[] = [
         body: [
           "Spanish historiography uses the «presente histórico» constantly, even in serious academic prose: «En 1492 Colón llega a América y en 1493 regresa a Castilla». Translated word for word into an English essay or textbook, it sounds journalistic or like a documentary voice-over.",
           "Formal English history writing is overwhelmingly in the past: \"In 1492 Columbus reached the Caribbean and in 1493 he returned to Castile.\" When you translate Spanish academic history, the default is to convert the «presente histórico» into the past simple.",
-          "This is one of the most common problems in Spanish speakers' written English at the Advanced level and Mastery: the grammar is correct, but the tense choice clashes with the genre.",
+          "This is one of the most common problems in Spanish speakers' written English at advanced and mastery levels: the grammar is correct, but the tense choice clashes with the genre.",
         ],
         examples: [
           { es: "In 1492 Columbus reached the Caribbean.", en: "En 1492 Colón llega al Caribe." },
@@ -1111,7 +1111,7 @@ export const EN_C2_U24: Lesson[] = [
     level: "EN-C2",
     number: 5,
     title: "Historical narrative, Part 5 of 10: free indirect style",
-    summary: "Free indirect speech and thought: a character's words or thoughts told in the narrator's tenses and pronouns, but without a reporting verb (\"Would they ever return? He doubted it.\"). Learn to recognise it and to write it.",
+    summary: "Free indirect speech and thought: a character's words or thoughts told in the narrator's tenses and pronouns, but without a reporting verb (\"Would they ever return? He doubted it.\"). Learn to recognize it and to write it.",
     duration: "12 min",
     sections: [
       {
@@ -1369,7 +1369,7 @@ export const EN_C2_U24: Lesson[] = [
     level: "EN-C2",
     number: 6,
     title: "Contrast: used to, would and the past continuous",
-    summary: "The Spanish «imperfecto» has no single English equivalent. Learn how historians share its work between \"used to\", \"would\", the past continuous and the plain past simple, and avoid the classic Mastery slips: \"would\" with states and a past continuous that never stops.",
+    summary: "The Spanish «imperfecto» has no single English equivalent. Learn how historians share its work between \"used to\", \"would\", the past continuous and the plain past simple, and avoid the classic advanced-level slips: \"would\" with states and a past continuous that never stops.",
     duration: "12 min",
     sections: [
       {
@@ -1410,7 +1410,7 @@ export const EN_C2_U24: Lesson[] = [
         ],
         examples: [
           { es: "This square used to be a slave market.", en: "Esta plaza era (antes) un mercado de esclavos." },
-          { es: "People used to believe that the Earth was the centre of the universe.", en: "La gente creía que la Tierra era el centro del universo." },
+          { es: "People used to believe that the Earth was the center of the universe.", en: "La gente creía que la Tierra era el centro del universo." },
           { es: "Merchants used to cross the desert in long caravans.", en: "Los mercaderes solían cruzar el desierto en largas caravanas." },
           { es: "The city did not use to have walls.", en: "La ciudad no tenía murallas antes." },
           { es: "He lived in Lisbon for ten years.", en: "Vivió diez años en Lisboa. (incorrecto: *used to live con una duración exacta)" },
@@ -1420,7 +1420,7 @@ export const EN_C2_U24: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "Before the bridge was built, travellers ___ the river by ferry.",
+            sentence: "Before the bridge was built, travelers ___ the river by ferry.",
             answer: "used to cross",
             altAnswers: ["would cross", "crossed"],
             en: "Antes de que se construyera el puente, los viajeros [cruzaban] el río en transbordador.",
@@ -1455,7 +1455,7 @@ export const EN_C2_U24: Lesson[] = [
         heading: "Would: repeated actions only",
         body: [
           "\"Would\" + infinitive also describes past habits, with a more literary, nostalgic flavour: \"Every spring the shepherds would drive their flocks north.\" But it has one strict limit: it only works with repeated ACTIONS, never with states. *The king would be very rich and *They would have a large estate are wrong as descriptions of past states; English needs \"was\" / \"used to be\" and \"had\" / \"used to have\".",
-          "This is a typical Mastery slip for Spanish speakers, because the conditional «sería» and the «imperfecto» «era» are both available in Spanish narration (the «condicional de rumor» or of probability: «Serían las diez»). In English, \"He would be poor\" can only mean a hypothesis or a future in the past, never «era pobre».",
+          "This is a typical advanced-level slip for Spanish speakers, because the conditional «sería» and the «imperfecto» «era» are both available in Spanish narration (the «condicional de rumor» or of probability: «Serían las diez»). In English, \"He would be poor\" can only mean a hypothesis or a future in the past, never «era pobre».",
           "\"Would\" usually needs a time frame already set up by the context or by \"used to\". Writers often open with \"used to\" and continue with \"would\": \"The monks used to rise before dawn. They would pray, then they would work in the fields until noon.\" In the negative, \"would not\" usually means refusal («no quería»), so for negative habits prefer \"did not\" or \"never used to\".",
         ],
         examples: [
@@ -1498,12 +1498,12 @@ export const EN_C2_U24: Lesson[] = [
       {
         heading: "Don't let the past continuous run on",
         body: [
-          "The past continuous needs a frame: a moment or another event that the action was in progress at, or a parallel action. \"At midnight the guards were changing shifts\" works; *In the eighteenth century, people were travelling by horse does not, because there is no moment, only a long era. Use the past simple or \"used to\": \"In the eighteenth century, people travelled by horse.\"",
-          "The past continuous with \"always\" or \"constantly\" does express repeated actions, but with an emotional colouring, usually irritation: \"The ambassador was always complaining about the food.\" Use it on purpose, not as a neutral habit marker.",
+          "The past continuous needs a frame: a moment or another event that the action was in progress at, or a parallel action. \"At midnight the guards were changing shifts\" works; *In the eighteenth century, people were traveling by horse does not, because there is no moment, only a long era. Use the past simple or \"used to\": \"In the eighteenth century, people travelled by horse.\"",
+          "The past continuous with \"always\" or \"constantly\" does express repeated actions, but with an emotional coloring, usually irritation: \"The ambassador was always complaining about the food.\" Use it on purpose, not as a neutral habit marker.",
           "A useful test: ask «¿en ese preciso momento?». If the answer is yes, the past continuous fits. If the «imperfecto» describes a period, a habit or a state, it almost certainly does not.",
         ],
         examples: [
-          { es: "In the eighteenth century, people travelled long distances on horseback.", en: "En el siglo XVIII la gente viajaba largas distancias a caballo." },
+          { es: "In the eighteenth century, people traveled long distances on horseback.", en: "En el siglo XVIII la gente viajaba largas distancias a caballo." },
           { es: "At midnight the guards were changing shifts.", en: "A medianoche, los guardias estaban cambiando el turno." },
           { es: "The ambassador was always complaining about the food.", en: "El embajador siempre se estaba quejando de la comida." },
           { es: "While the city slept, the rebels were taking up positions.", en: "Mientras la ciudad dormía, los rebeldes tomaban posiciones." },
@@ -1592,9 +1592,9 @@ export const EN_C2_U24: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Cuando estalló la revolución, el zar estaba de vacaciones en Crimea.",
-        answer: "When the revolution broke out, the tsar was on holiday in Crimea.",
+        answer: "When the revolution broke out, the tsar was on vacation in Crimea.",
         altAnswers: [
-          "When the revolution broke out, the tsar was on vacation in Crimea.",
+          "When the revolution broke out, the tsar was on holiday in Crimea.",
           "When the revolution broke out, the tsar was on holiday in the Crimea.",
           "When the revolution broke out, the tsar was on vacation in the Crimea.",
           "When the revolution broke out, the czar was on holiday in Crimea.",
@@ -1669,8 +1669,8 @@ export const EN_C2_U24: Lesson[] = [
           "Uses the past simple for states and general facts.",
           "Does not use the past continuous without a specific moment of reference.",
         ],
-        modelAnswer: "In medieval villages, life used to follow the seasons. Most families were poor and owned very little. In spring the men would plough the fields, and in autumn the whole village would help with the harvest. On feast days people would dance in the square. Few villagers could read, and most of them never travelled further than the nearest market town.",
-        explanation: "\"Would\" carries the repeated actions (plough, help, dance), while states like \"were poor\", \"owned\" and \"could read\" stay in the past simple.",
+        modelAnswer: "In medieval villages, life used to follow the seasons. Most families were poor and owned very little. In spring the men would plow the fields, and in autumn the whole village would help with the harvest. On feast days people would dance in the square. Few villagers could read, and most of them never travelled further than the nearest market town.",
+        explanation: "\"Would\" carries the repeated actions (plow, help, dance), while states like \"were poor\", \"owned\" and \"could read\" stay in the past simple.",
       },
       {
         type: "speak",
@@ -1777,7 +1777,7 @@ export const EN_C2_U24: Lesson[] = [
         examples: [
           { es: "He is always interrupting me when I speak.", en: "Siempre me está interrumpiendo cuando hablo." },
           { es: "She is forever losing her keys.", en: "No para de perder las llaves." },
-          { es: "I am living with my sister until I find a flat.", en: "Vivo con mi hermana hasta que encuentre un piso." },
+          { es: "I am living with my sister until I find an apartment.", en: "Vivo con mi hermana hasta que encuentre un departamento." },
           { es: "You are being very unreasonable.", en: "Te estás poniendo muy poco razonable." },
           { es: "I am having dinner with my in-laws tomorrow.", en: "Mañana ceno con mis suegros." },
         ],
@@ -1786,10 +1786,10 @@ export const EN_C2_U24: Lesson[] = [
             type: "multiple-choice",
             question: "Which sentence complains about someone's behaviour rather than simply describing a habit?",
             options: [
-              "My neighbour is always playing the drums at midnight.",
-              "My neighbour always plays the drums on Sundays.",
-              "My neighbour plays the drums in a band.",
-              "My neighbour has played the drums for years.",
+              "My neighbor is always playing the drums at midnight.",
+              "My neighbor always plays the drums on Sundays.",
+              "My neighbor plays the drums in a band.",
+              "My neighbor has played the drums for years.",
             ],
             correctIndex: 0,
             explanation: "\"Always\" + present continuous adds irritation («siempre está tocando»). The present simple with \"always\" is a neutral statement of habit.",
@@ -1840,13 +1840,13 @@ export const EN_C2_U24: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La policía ha detenido a dos sospechosos. Los arrestaron anoche en un piso del centro.",
-        answer: "The police have arrested two suspects. They were arrested last night in a flat in the city centre.",
+        source: "La policía ha detenido a dos sospechosos. Los arrestaron anoche en un departamento del centro.",
+        answer: "The police have arrested two suspects. They were arrested last night in a downtown apartment.",
         altAnswers: [
           "The police have arrested two suspects. They arrested them last night in a flat in the city centre.",
           "Police have arrested two suspects. They were arrested last night in a flat in the city centre.",
           "Police have arrested two suspects. They were arrested last night in a downtown apartment.",
-          "The police have arrested two suspects. They were arrested last night in a downtown apartment.",
+          "The police have arrested two suspects. They were arrested last night in a flat in the city centre.",
           "The police have arrested two suspects. They arrested them last night in a downtown apartment.",
           "The police have arrested two suspects. They were arrested last night in an apartment downtown.",
           "The police have arrested two suspects. They were arrested last night in a flat in the town centre.",
@@ -1945,11 +1945,11 @@ export const EN_C2_U24: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Este verano estoy viviendo en casa de mis padres mientras reforman mi piso.",
-        answer: "This summer I am living with my parents while my flat is being renovated.",
+        source: "Este verano estoy viviendo en casa de mis padres mientras remodelan mi departamento.",
+        answer: "This summer I am living with my parents while my apartment is being renovated.",
         altAnswers: [
           "This summer I am staying with my parents while my flat is being renovated.",
-          "This summer I am living with my parents while my apartment is being renovated.",
+          "This summer I am living with my parents while my flat is being renovated.",
           "This summer I am staying with my parents while my apartment is being renovated.",
           "This summer I am living at my parents' place while my flat is being renovated.",
           "This summer I am living at my parents' house while my flat is being renovated.",
@@ -1961,7 +1961,7 @@ export const EN_C2_U24: Lesson[] = [
           "This summer I am living with my parents while they renovate my apartment.",
           "This summer I am living with my parents while my flat is being done up.",
         ],
-        explanation: "The present continuous \"am living\" marks a temporary arrangement. «Reforman mi piso» with an unknown subject is best rendered with the passive continuous \"is being renovated\".",
+        explanation: "The present continuous \"am living\" marks a temporary arrangement. «Remodelan mi departamento» with an unknown subject is best rendered with the passive continuous \"is being renovated\".",
       },
       {
         type: "word-order",
@@ -1981,7 +1981,7 @@ export const EN_C2_U24: Lesson[] = [
           "Uses a stative verb with a dynamic meaning (think of, see, have, taste).",
           "Does not switch randomly between past and present.",
         ],
-        modelAnswer: "So last Friday I get on the train, and the man next to me is on the phone. He is one of those people who are always talking loudly about their private lives. He tells the whole carriage about his divorce, his debts and his new girlfriend. I put my headphones on, but I can still hear him. Then, at Reading, he turns to me and asks if I am going to the conference. It turns out he is giving the opening talk. Now I am thinking of skipping it.",
+        modelAnswer: "So last Friday I get on the train, and the man next to me is on the phone. He is one of those people who are always talking loudly about their private lives. He tells the whole car about his divorce, his debts and his new girlfriend. I put my headphones on, but I can still hear him. Then, at Reading, he turns to me and asks if I am going to the conference. It turns out he is giving the opening talk. Now I am thinking of skipping it.",
         explanation: "The historic present (\"I get on\", \"he turns\") keeps the anecdote vivid; \"always talking\" adds irritation, and \"thinking of\" is the dynamic use of \"think\".",
       },
       {
@@ -1997,7 +1997,7 @@ export const EN_C2_U24: Lesson[] = [
     level: "EN-C2",
     number: 7,
     title: "In practice: hindsight and counterfactual history",
-    summary: "What if the Armada had won? Historians love counterfactuals. Practise third and mixed conditionals, inverted conditionals (\"Had the fleet not been delayed...\") and \"but for\", and learn to weigh counterfactual claims with the right degree of caution.",
+    summary: "What if the Armada had won? Historians love counterfactuals. Practice third and mixed conditionals, inverted conditionals (\"Had the fleet not been delayed...\") and \"but for\", and learn to weigh counterfactual claims with the right degree of caution.",
     duration: "12 min",
     sections: [
       {

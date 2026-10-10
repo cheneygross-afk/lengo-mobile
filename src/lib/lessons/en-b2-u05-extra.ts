@@ -25,7 +25,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
         examples: [
           { es: "If I had known, I would have come.", en: "Si lo hubiera sabido, habría venido. (incorrecto: \"If I would have known\")" },
           { es: "If we had left earlier, we wouldn't have missed the train.", en: "Si hubiéramos salido antes, no habríamos perdido el tren." },
-          { es: "If you had driven more slowly, you could have avoided the accident.", en: "Si hubieras conducido más despacio, podrías haber evitado el accidente." },
+          { es: "If you had driven more slowly, you could have avoided the accident.", en: "Si hubieras manejado más despacio, podrías haber evitado el accidente." },
           { es: "If she'd called, I'd have answered.", en: "Si hubiera llamado, habría contestado. (she'd = she had; I'd = I would)" },
           { es: "What would you have done in my place?", en: "¿Qué habrías hecho tú en mi lugar?" },
         ],
@@ -181,7 +181,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Si hubieras conducido más despacio, podrías haber evitado el accidente.» Which sentence is correct?",
+        question: "«Si hubieras manejado más despacio, podrías haber evitado el accidente.» Which sentence is correct?",
         options: [
           "If you had driven more slowly, you could have avoided the accident.",
           "If you had driven more slowly, you could avoided the accident.",
@@ -295,7 +295,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
           { es: "If I spoke French, I would have understood the movie.", en: "Si hablara francés, habría entendido la película." },
           { es: "If she weren't so shy, she would have talked to him.", en: "Si no fuera tan tímida, habría hablado con él." },
           { es: "If I were more organized, I wouldn't have forgotten the meeting.", en: "Si fuera más organizado, no habría olvidado la reunión." },
-          { es: "If he didn't trust you, he wouldn't have lent you his car.", en: "Si no confiara en ti, no te habría prestado el coche." },
+          { es: "If he didn't trust you, he wouldn't have lent you his car.", en: "Si no confiara en ti, no te habría prestado el carro." },
         ],
         checkpoint: [
           {
@@ -804,7 +804,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
           "The Spanish «en caso de que» usually means \"if\": «en caso de que llame Ana» = \"If Ana calls\" (or formally \"Should Ana call\"). All these linkers take the present simple.",
         ],
         examples: [
-          { es: "You can use my car as long as you bring it back with a full tank.", en: "Puedes usar mi coche siempre que lo devuelvas con el depósito lleno." },
+          { es: "You can use my car as long as you bring it back with a full tank.", en: "Puedes usar mi carro siempre que lo devuelvas con el depósito lleno." },
           { es: "I'll lend you the money provided you pay me back next month.", en: "Te presto el dinero con tal de que me lo devuelvas el mes que viene." },
           { es: "Take an umbrella in case it rains.", en: "Llévate un paraguas por si llueve." },
           { es: "If Ana calls, tell her I'm in a meeting.", en: "En caso de que llame Ana, dile que estoy en una reunión." },
@@ -855,7 +855,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Puedes usar mi coche siempre que lo devuelvas con el depósito lleno.",
+        source: "Puedes usar mi carro siempre que lo devuelvas con el depósito lleno.",
         answer: "You can use my car as long as you bring it back with a full tank.",
         altAnswers: [
           "You can use my car as long as you return it with a full tank.",

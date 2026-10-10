@@ -57,7 +57,7 @@ export const EN_B1_U25: Lesson[] = [
           { es: "I like cats.", en: "Me gustan los gatos." },
           { es: "She hates spiders.", en: "Odia las arañas." },
           { es: "We love horror films.", en: "Nos encantan las películas de terror." },
-          { es: "Electric cars are quiet.", en: "Los coches eléctricos son silenciosos." },
+          { es: "Electric cars are quiet.", en: "Los carros eléctricos son silenciosos." },
         ],
         checkpoint: [
           {
@@ -200,7 +200,7 @@ export const EN_B1_U25: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Electric", "cars", "are", "very", "quiet."],
-        translation: "Los coches eléctricos son muy silenciosos.",
+        translation: "Los carros eléctricos son muy silenciosos.",
         explanation: "Cars in general: no article before \"electric cars\".",
       },
       {

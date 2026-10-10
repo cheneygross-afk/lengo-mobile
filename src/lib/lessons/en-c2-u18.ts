@@ -16,7 +16,7 @@ export const EN_C2_U18: Lesson[] = [
         heading: "Plagiarism, patchwriting and paraphrase",
         body: [
           "In English-speaking universities, plagiarism is not only copying a text without a reference. Copying a source's exact wording without quotation marks is plagiarism even if you cite the author, because you are presenting their language as yours. A citation credits the idea; quotation marks credit the words.",
-          "Between plagiarism and paraphrase there is a grey zone that writing teachers call \"patchwriting\": you keep the original sentence structure and swap in synonyms here and there. It often happens with good intentions, especially when writing in a second language, but most institutions treat it as a form of plagiarism.",
+          "Between plagiarism and paraphrase there is a gray zone that writing teachers call \"patchwriting\": you keep the original sentence structure and swap in synonyms here and there. It often happens with good intentions, especially when writing in a second language, but most institutions treat it as a form of plagiarism.",
           "A genuine paraphrase restates the source's idea in your own structure and your own words, keeps the meaning and the author's degree of certainty intact, and is still followed by a citation. Many Spanish speakers assume that a paraphrase needs no reference once the source appears in the bibliography; in English academic writing, every paraphrase needs an in-text citation.",
         ],
         examples: [
@@ -156,7 +156,7 @@ export const EN_C2_U18: Lesson[] = [
         ],
       },
       {
-        heading: "From plagiarised to acceptable: a scale",
+        heading: "From plagiarized to acceptable: a scale",
         body: [
           "It helps to think of a scale. At one end, verbatim copying without quotation marks (with or without a citation). Next, patchwriting: the original skeleton with new words. Then a paraphrase that is original in wording but has no citation, which is still plagiarism of ideas. At the other end, a paraphrase with its own structure, the original meaning and a citation.",
           "A simple test: cover the original, write your version from memory or from brief notes, and then compare. If you can lay your sentence over the source and match it phrase by phrase, it is too close.",
@@ -210,7 +210,7 @@ export const EN_C2_U18: Lesson[] = [
           "Since the spread of home working, people find it harder to tell where their job ends and their personal life begins.",
         ],
         correctIndex: 0,
-        explanation: "Only the first version has a new structure, the same meaning and a citation. The second and third are patchwriting; the fourth has no citation, so it plagiarises the idea.",
+        explanation: "Only the first version has a new structure, the same meaning and a citation. The second and third are patchwriting; the fourth has no citation, so it plagiarizes the idea.",
       },
       {
         type: "fill-blank",
@@ -329,7 +329,7 @@ export const EN_C2_U18: Lesson[] = [
     slug: "c2-citations-6",
     level: "EN-C2",
     number: 2,
-    title: "Citations and references, Part 6 of 8: summarising sources",
+    title: "Citations and references, Part 6 of 8: summarizing sources",
     summary: "Reduce a text to its essential argument: find the main claim, drop the examples, condense with nouns and keep the author's stance, at whatever length the task demands.",
     duration: "12 min",
     sections: [
@@ -368,11 +368,11 @@ export const EN_C2_U18: Lesson[] = [
         ],
       },
       {
-        heading: "Condensing with nominalisation",
+        heading: "Condensing with nominalization",
         body: [
           "Summaries are dense because they pack clauses into noun phrases. \"Because governments failed to regulate the banks, the crisis spread\" becomes \"Regulatory failure allowed the crisis to spread\". One noun phrase carries what a whole clause used to.",
           "Typical moves: a verb becomes a noun (\"fail\" becomes \"failure\", \"decide\" becomes \"decision\"); an adjective becomes a noun (\"available\" becomes \"availability\"); a series of events becomes one abstract noun (\"the process\", \"this shift\", \"the trend\").",
-          "Do not overdo it. A summary made only of noun stacks (\"labor market policy reform outcome evaluation\") is hard to read. Aim for one or two nominalisations per sentence, and keep a strong verb to drive it.",
+          "Do not overdo it. A summary made only of noun stacks (\"labor market policy reform outcome evaluation\") is hard to read. Aim for one or two nominalizations per sentence, and keep a strong verb to drive it.",
         ],
         examples: [
           { es: "Because governments failed to regulate the banks, the crisis spread.", en: "Como los gobiernos no regularon los bancos, la crisis se extendió." },
@@ -386,7 +386,7 @@ export const EN_C2_U18: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "La subida de los tipos de interés frenó la inversión.",
+            source: "El aumento de las tasas de interés frenó la inversión.",
             answer: "The rise in interest rates slowed investment.",
             altAnswers: [
               "The rise in interest rates slowed down investment.",
@@ -410,7 +410,7 @@ export const EN_C2_U18: Lesson[] = [
             answer: "lack",
             altAnswers: ["shortage", "scarcity", "absence"],
             en: "La [falta] de vivienda asequible es el problema central que señala el informe.",
-            explanation: "\"Lack of\", \"shortage of\" and \"scarcity of\" all nominalise «no hay suficiente». \"Shortage\" suggests the supply does not meet demand.",
+            explanation: "\"Lack of\", \"shortage of\" and \"scarcity of\" all nominalize «no hay suficiente». \"Shortage\" suggests the supply does not meet demand.",
           },
         ],
       },
@@ -599,7 +599,7 @@ export const EN_C2_U18: Lesson[] = [
     level: "EN-C2",
     number: 3,
     title: "Citations and references, Part 7 of 8: the literature review",
-    summary: "How a literature review is organised, how to signal what previous research has and has not done, and how to position your own study in the gap.",
+    summary: "How a literature review is organized, how to signal what previous research has and has not done, and how to position your own study in the gap.",
     duration: "12 min",
     sections: [
       {
@@ -654,7 +654,7 @@ export const EN_C2_U18: Lesson[] = [
         ],
       },
       {
-        heading: "Organising the review: thematic or chronological",
+        heading: "Organizing the review: thematic or chronological",
         body: [
           "A chronological review traces how thinking developed over time: early studies, a turning point, recent work. It suits fields where the history of the debate matters, but it easily slides into \"In 1998 X... In 2004 Y... In 2010 Z...\", a list with dates.",
           "A thematic review groups studies by question, approach or finding: \"Studies on cost\", \"Studies on access\", \"Methodological debates\". It is the default in most disciplines because it forces you to compare sources. You can combine both: themes as sections, chronology inside each.",
@@ -920,7 +920,7 @@ export const EN_C2_U18: Lesson[] = [
     slug: "c2-citations-8",
     level: "EN-C2",
     number: 4,
-    title: "Citations and references, Part 8 of 8: synthesising sources",
+    title: "Citations and references, Part 8 of 8: synthesizing sources",
     summary: "Move from describing sources one by one to synthesis: combining them in a single paragraph to show agreement, contrast, development and shared limitations.",
     duration: "12 min",
     sections: [
@@ -933,7 +933,7 @@ export const EN_C2_U18: Lesson[] = [
         ],
         examples: [
           { es: "Smith (2015) found that homework improves results. Jones (2018) found that homework has no effect.", en: "Descripción: dos fuentes yuxtapuestas." },
-          { es: "Evidence on homework is mixed: while Smith (2015) reports gains, Jones (2018) finds no effect.", en: "Síntesis: una idea y dos fuentes relacionadas. (Los datos sobre los deberes no son concluyentes.)" },
+          { es: "Evidence on homework is mixed: while Smith (2015) reports gains, Jones (2018) finds no effect.", en: "Síntesis: una idea y dos fuentes relacionadas. (Los datos sobre las tareas escolares no son concluyentes.)" },
           { es: "The discrepancy may reflect differences in the age of the pupils studied.", en: "La discrepancia puede deberse a la diferencia de edad de los alumnos estudiados." },
           { es: "A synthesis grid lists sources in rows and themes in columns.", en: "Una tabla de síntesis pone las fuentes en filas y los temas en columnas." },
         ],
@@ -1156,15 +1156,15 @@ export const EN_C2_U18: Lesson[] = [
           "These studies have in common a focus on large cities.",
           "These studies all focus on large cities.",
         ],
-        explanation: "The pseudo-cleft \"What these studies have in common is...\" foregrounds the shared feature. The nominalised \"a focus on\" is more compact than a full clause.",
+        explanation: "The pseudo-cleft \"What these studies have in common is...\" foregrounds the shared feature. The nominalized \"a focus on\" is more compact than a full clause.",
       },
       {
         type: "write",
-        prompt: "Rewrite these three descriptive sentences as ONE synthesised paragraph (50 to 80 words). Use at least two synthesis phrases (e.g. whereas, in line with, building on, both... yet neither). Notes: Ortiz (2019): remote work raises productivity; survey of 2,000 office workers. Chen (2021): productivity gains disappear after the first year; follows the same kind of workers for three years. Ward (2022): agrees with Chen; also finds more loneliness. None of the three studies looks at workers with caring responsibilities.",
+        prompt: "Rewrite these three descriptive sentences as ONE synthesized paragraph (50 to 80 words). Use at least two synthesis phrases (e.g. whereas, in line with, building on, both... yet neither). Notes: Ortiz (2019): remote work raises productivity; survey of 2,000 office workers. Chen (2021): productivity gains disappear after the first year; follows the same kind of workers for three years. Ward (2022): agrees with Chen; also finds more loneliness. None of the three studies looks at workers with caring responsibilities.",
         minWords: 50,
         maxWords: 80,
         rubric: [
-          "Organises the paragraph around an idea, not around one source at a time.",
+          "Organizes the paragraph around an idea, not around one source at a time.",
           "Uses at least two synthesis phrases correctly.",
           "Relates Chen to Ortiz (development or contrast) and Ward to Chen (agreement).",
           "Points out the shared gap: workers with caring responsibilities.",
@@ -1459,7 +1459,7 @@ export const EN_C2_U18: Lesson[] = [
         heading: "The comma splice and the semicolon",
         body: [
           "Spanish prose tolerates long chains of clauses joined by commas («Llegamos tarde, el tren no había salido, tuvimos suerte»). In English, two independent clauses joined only by a comma form a comma splice, which editors and examiners treat as an error: *The results were clear, the team published them immediately.",
-          "There are four fixes: a full stop (\"The results were clear. The team...\"), a conjunction (\"..., and the team...\"), a subordinate clause (\"Because the results were clear, ...\") or a semicolon (\"The results were clear; the team...\"). The semicolon says the two ideas are closely linked and equal in weight.",
+          "There are four fixes: a period (\"The results were clear. The team...\"), a conjunction (\"..., and the team...\"), a subordinate clause (\"Because the results were clear, ...\") or a semicolon (\"The results were clear; the team...\"). The semicolon says the two ideas are closely linked and equal in weight.",
           "With linking adverbs such as \"however\", \"therefore\", \"moreover\" and \"nevertheless\", the comma is never enough: write \"; however,\" or start a new sentence. Semicolons also separate items in a list when the items already contain commas: \"Lima, Peru; Quito, Ecuador; and La Paz, Bolivia\".",
         ],
         examples: [
@@ -1480,7 +1480,7 @@ export const EN_C2_U18: Lesson[] = [
               "The trial was a success however, funding has been cut.",
             ],
             correctIndex: 0,
-            explanation: "\"However\" is an adverb, not a conjunction, so it cannot join two clauses with commas alone. A semicolon (or a full stop) is needed before it.",
+            explanation: "\"However\" is an adverb, not a conjunction, so it cannot join two clauses with commas alone. A semicolon (or a period) is needed before it.",
           },
           {
             type: "multiple-choice",
@@ -1492,7 +1492,7 @@ export const EN_C2_U18: Lesson[] = [
               "As it was late, we went home.",
             ],
             correctIndex: 0,
-            explanation: "\"Therefore\" is a linking adverb, like \"however\": it still needs a semicolon or a full stop before it. \"So\" is a conjunction and works with a comma.",
+            explanation: "\"Therefore\" is a linking adverb, like \"however\": it still needs a semicolon or a period before it. \"So\" is a conjunction and works with a comma.",
           },
         ],
       },
@@ -1567,7 +1567,7 @@ export const EN_C2_U18: Lesson[] = [
           { es: "The employees' union rejected the offer.", en: "El sindicato de los empleados rechazó la oferta." },
           { es: "She signed a five-year contract.", en: "Firmó un contrato de cinco años." },
           { es: "He is a well-known author, but his latest book is not well known.", en: "Es un autor muy conocido, pero su último libro no es muy conocido." },
-          { es: "We need a highly qualified engineer.", en: "Necesitamos un ingeniero muy cualificado." },
+          { es: "We need a highly qualified engineer.", en: "Necesitamos un ingeniero muy calificado." },
         ],
         checkpoint: [
           {
@@ -1601,7 +1601,7 @@ export const EN_C2_U18: Lesson[] = [
           "The museum, was closed, we went to the park instead.",
         ],
         correctIndex: 0,
-        explanation: "\"So\" is a conjunction and can join two clauses with a comma. A semicolon or a full stop would also work.",
+        explanation: "\"So\" is a conjunction and can join two clauses with a comma. A semicolon or a period would also work.",
       },
       {
         type: "translate",
@@ -1716,7 +1716,7 @@ export const EN_C2_U18: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "This paragraph has no correct punctuation. Rewrite it with full stops, semicolons, a colon, commas or dashes, apostrophes and hyphens where needed: \"The citys new mayor a well known economist has one priority affordable housing her five year plan is ambitious however its critics say the citys budget cant support it\"",
+        prompt: "This paragraph has no correct punctuation. Rewrite it with periods, semicolons, a colon, commas or dashes, apostrophes and hyphens where needed: \"The citys new mayor a well known economist has one priority affordable housing her five year plan is ambitious however its critics say the citys budget cant support it\"",
         minWords: 20,
         maxWords: 50,
         rubric: [
@@ -1724,7 +1724,7 @@ export const EN_C2_U18: Lesson[] = [
           "Commas or dashes around \"a well-known economist\"",
           "A colon before \"affordable housing\"",
           "\"well-known\" and \"five-year\" hyphenated",
-          "No comma splice before \"however\": a semicolon or a full stop",
+          "No comma splice before \"however\": a semicolon or a period",
         ],
         modelAnswer: "The city's new mayor, a well-known economist, has one priority: affordable housing. Her five-year plan is ambitious; however, its critics say the city's budget can't support it.",
         explanation: "The model uses commas for the appositive, a colon for the announced priority, a semicolon before \"however\", two possessive apostrophes and two hyphenated compound adjectives.",
@@ -1735,14 +1735,14 @@ export const EN_C2_U18: Lesson[] = [
     slug: "c2-vocab-nominalisation",
     level: "EN-C2",
     number: 6,
-    title: "Mastery vocabulary: nominalisation and academic collocations",
+    title: "Mastery vocabulary: nominalization and academic collocations",
     summary: "Turn verbs and adjectives into nouns for academic density, and master the collocations that go with them, including the uncountable \"research\" and \"evidence\".",
     duration: "11 min",
     sections: [
       {
         heading: "Verbs and adjectives into nouns",
         body: [
-          "Nominalisation turns actions and qualities into things that can be the subject of a sentence: \"analyze\" becomes \"analysis\", \"significant\" becomes \"significance\", \"fail\" becomes \"failure\", \"available\" becomes \"availability\", \"emerge\" becomes \"emergence\". It is the main reason academic English feels dense.",
+          "Nominalization turns actions and qualities into things that can be the subject of a sentence: \"analyze\" becomes \"analysis\", \"significant\" becomes \"significance\", \"fail\" becomes \"failure\", \"available\" becomes \"availability\", \"emerge\" becomes \"emergence\". It is the main reason academic English feels dense.",
           "Learn the suffix families: -tion/-sion (\"decide\" becomes \"decision\", \"reduce\" becomes \"reduction\"), -ment (\"develop\" becomes \"development\"), -ance/-ence (\"rely\" becomes \"reliance\", \"significant\" becomes \"significance\"), -ity (\"reliable\" becomes \"reliability\"), -ness (\"aware\" becomes \"awareness\"), -al (\"approve\" becomes \"approval\", \"refuse\" becomes \"refusal\").",
           "Some nouns are irregular or tricky for Spanish speakers: \"analysis\" (plural \"analyses\"), \"hypothesis\" (\"hypotheses\"), \"criterion\" (\"criteria\"), \"phenomenon\" (\"phenomena\"). And \"a rise in\", \"an increase in\", \"a decline in\" take \"in\", not \"of\".",
         ],
@@ -1778,7 +1778,7 @@ export const EN_C2_U18: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "The ___ of the data has been questioned by several reviewers.",
             answer: "reliability",
-            en: "Varios revisores han puesto en duda la [fiabilidad] de los datos.",
+            en: "Varios revisores han puesto en duda la [confiabilidad] de los datos.",
             explanation: "\"Reliable\" becomes \"reliability\" (-ity). Do not use \"fiability\", which does not exist in English.",
           },
         ],
@@ -1844,7 +1844,7 @@ export const EN_C2_U18: Lesson[] = [
           { es: "Climate change poses a serious challenge to agriculture.", en: "El cambio climático supone un serio desafío para la agricultura." },
           { es: "The study sheds light on how children learn to read.", en: "El estudio arroja luz sobre cómo aprenden a leer los niños." },
           { es: "These findings lend support to the hypothesis.", en: "Estos resultados respaldan la hipótesis." },
-          { es: "Income plays a key role in access to healthcare.", en: "Los ingresos desempeñan un papel clave en el acceso a la atención sanitaria." },
+          { es: "Income plays a key role in access to healthcare.", en: "Los ingresos desempeñan un papel clave en el acceso a la atención médica." },
           { es: "There is strong evidence of a marked difference between the groups.", en: "Hay pruebas sólidas de una diferencia notable entre los grupos." },
         ],
         checkpoint: [
@@ -1998,7 +1998,7 @@ export const EN_C2_U18: Lesson[] = [
         prompt: "Put the words in order.",
         words: ["The", "significance", "of", "this", "result", "is", "often", "overlooked."],
         translation: "A menudo se pasa por alto la importancia de este resultado.",
-        explanation: "\"Significance\" nominalises \"significant\" and becomes the subject. \"Often\" goes between \"is\" and the participle.",
+        explanation: "\"Significance\" nominalizes \"significant\" and becomes the subject. \"Often\" goes between \"is\" and the participle.",
       },
       {
         type: "matching",
@@ -2197,7 +2197,7 @@ export const EN_C2_U18: Lesson[] = [
         heading: "In which case, by which time, at which point",
         body: [
           "A relative can start a phrase that comments on the whole previous clause: \"in which case\" («en cuyo caso»), \"by which time\" («para entonces»), \"at which point\" («momento en el que»), \"for which reason\" (formal: «razón por la cual»).",
-          "\"In which case\" introduces what will happen if the previous situation occurs: \"The flight may be cancelled, in which case we'll take the train.\" Spanish speakers often write *in this case, which breaks the link and usually needs a new sentence.",
+          "\"In which case\" introduces what will happen if the previous situation occurs: \"The flight may be canceled, in which case we'll take the train.\" Spanish speakers often write *in this case, which breaks the link and usually needs a new sentence.",
           "\"By which time\" points to a deadline: \"We won't finish until June, by which time the funding will have run out.\" Note the future perfect, which this structure often requires.",
         ],
         examples: [
@@ -2404,7 +2404,7 @@ export const EN_C2_U18: Lesson[] = [
     level: "EN-C2",
     number: 7,
     title: "Mission: a mini literature review",
-    summary: "Put the whole unit to work: turn summaries of four sources into a short literature review that synthesises them, identifies a gap and cites correctly.",
+    summary: "Put the whole unit to work: turn summaries of four sources into a short literature review that synthesizes them, identifies a gap and cites correctly.",
     duration: "12 min",
     sections: [
       {
@@ -2440,7 +2440,7 @@ export const EN_C2_U18: Lesson[] = [
         body: [
           "Do not write four mini-summaries. Plan by idea: (1) the consensus that gardens raise intake in the short term (Green, Alvarez); (2) the qualification that gains may fade (Brooks) and depend on cooking classes (Nakamura); (3) the shared limitation and your study.",
           "Choose your linking phrases in advance: \"In line with...\" for agreement, \"However, ...\" or \"By contrast, ...\" for the qualification, \"Building on...\" for development, \"Taken together...\" for the overview, and a gap formula such as \"...has yet to be examined\" before \"The present study...\".",
-          "Watch the grammar the unit has practised: \"research\" and \"evidence\" without plural, a rise \"in\", \"few studies\" for a gap, the present perfect for the state of research and the past for individual findings.",
+          "Watch the grammar the unit has practiced: \"research\" and \"evidence\" without plural, a rise \"in\", \"few studies\" for a gap, the present perfect for the state of research and the past for individual findings.",
         ],
         examples: [
           { es: "There is consistent evidence that school gardens raise vegetable intake in the short term.", en: "Hay pruebas coherentes de que los huertos escolares aumentan el consumo de verdura a corto plazo." },
@@ -2614,11 +2614,11 @@ export const EN_C2_U18: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write a mini literature review (120 to 170 words) for a paper on school gardens, using the four sources in this lesson: Green (2016), Alvarez (2018), Brooks (2020) and Nakamura (2022). Synthesise them by idea, identify the gap and position a new study of secondary pupils in Spain.",
+        prompt: "Write a mini literature review (120 to 170 words) for a paper on school gardens, using the four sources in this lesson: Green (2016), Alvarez (2018), Brooks (2020) and Nakamura (2022). Synthesize them by idea, identify the gap and position a new study of secondary pupils in Spain.",
         minWords: 120,
         maxWords: 170,
         rubric: [
-          "Organised by idea (consensus, qualifications, gap), not one source per sentence.",
+          "Organized by idea (consensus, qualifications, gap), not one source per sentence.",
           "Uses at least three synthesis phrases (e.g. in line with, however, building on, taken together, both... yet neither).",
           "Cites all four sources correctly, with author and year.",
           "States the gap with an appropriate formula (e.g. has yet to be examined, few studies have).",
@@ -2641,14 +2641,14 @@ export const EN_C2_U18: Lesson[] = [
     level: "EN-C2",
     number: 8,
     title: "Mastery check: paraphrase and literature reviews",
-    summary: "A hint-free check of the whole unit: paraphrase versus plagiarism, summarising, literature-review language, synthesis and academic collocations.",
+    summary: "A hint-free check of the whole unit: paraphrase versus plagiarism, summarizing, literature-review language, synthesis and academic collocations.",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: paraphrase and summary",
         body: [
           "A paraphrase restates an idea in your own structure and words, keeps the meaning and the author's stance, and is cited. Patchwriting (the original skeleton with synonyms) and copying without quotation marks are plagiarism, citation or not.",
-          "A summary keeps the main claim and its key qualification, drops examples, condenses with nominalisation and uses a reporting verb that reflects the author's stance.",
+          "A summary keeps the main claim and its key qualification, drops examples, condenses with nominalization and uses a reporting verb that reflects the author's stance.",
         ],
         examples: [
           { es: "A citation credits the idea; quotation marks credit the words.", en: "La cita reconoce la idea; las comillas reconocen las palabras." },
@@ -2681,7 +2681,7 @@ export const EN_C2_U18: Lesson[] = [
       {
         heading: "Recap: literature reviews and synthesis",
         body: [
-          "A literature review (not *state of the question) is organised thematically or chronologically, builds an argument, identifies a gap (\"little attention has been paid to\", \"has yet to be examined\", \"few studies have\") and positions the new study (\"the present study addresses this gap by\").",
+          "A literature review (not *state of the question) is organized thematically or chronologically, builds an argument, identifies a gap (\"little attention has been paid to\", \"has yet to be examined\", \"few studies have\") and positions the new study (\"the present study addresses this gap by\").",
           "Synthesis relates sources: \"whereas\", \"in line with\", \"building on\", \"by contrast\", \"taken together\", \"both..., yet neither...\". And remember: \"research\" and \"evidence\" are uncountable; you \"conduct\" research and \"draw\" conclusions.",
         ],
         examples: [
@@ -2847,7 +2847,7 @@ export const EN_C2_U18: Lesson[] = [
           "The shortage of affordable housing poses a major challenge for young people.",
           "A shortage of affordable housing poses a serious challenge for young people.",
         ],
-        explanation: "\"Pose a challenge\" is the key collocation (never *suppose a challenge). «Escasez» is nominalised as \"shortage\", \"lack\" or \"scarcity\".",
+        explanation: "\"Pose a challenge\" is the key collocation (never *suppose a challenge). «Escasez» is nominalized as \"shortage\", \"lack\" or \"scarcity\".",
       },
       {
         type: "word-order",
