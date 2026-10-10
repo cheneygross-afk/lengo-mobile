@@ -97,7 +97,7 @@ export const C1C2_MORE_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "la yerba", en: "yerba mate", forms: ["yerba"] },
     { es: "la bombilla", en: "metal straw for mate", forms: ["bombilla"] },
     { es: "la palta", en: "avocado (Southern Cone)", forms: ["palta"] },
-    { es: "la plata", en: "money (Latin America)", forms: ["plata"] },
+    { es: "la plata", en: "money (Latin America); silver", forms: ["plata"] },
   ],
   "c1-entrevistas-de-salida": [
     { es: "la consultora", en: "consulting firm", forms: ["consultora"] },
@@ -294,7 +294,7 @@ export const C1C2_MORE_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "la sencillez", en: "simplicity", forms: ["sencillez"] },
     { es: "trepar", en: "to climb", forms: ["trepaba"] },
     { es: "la astucia", en: "cunning", forms: ["astucia"] },
-    { es: "la bodega", en: "ration store (Cuba)", forms: ["bodega"] },
+    { es: "la bodega", en: "ration store (Cuba); corner shop; wine cellar", forms: ["bodega"] },
   ],
   "c1-la-cita-previa": [
     { es: "el funcionario", en: "civil servant", forms: ["funcionario"] },
@@ -597,7 +597,7 @@ export const C1C2_MORE_GLOSSES: Record<string, StoryGloss[]> = {
   "c2-el-cayuco": [
     { es: "el cayuco", en: "migrant boat (cayuco)", forms: ["cayucos"] },
     { es: "agrietado", en: "cracked", forms: ["agrietados"] },
-    { es: "amarrar", en: "to moor", forms: ["amarrar"] },
+    { es: "amarrar", en: "to moor, tie up", forms: ["amarrar"] },
     { es: "la barcaza", en: "barge", forms: ["barcaza"] },
     { es: "el buceo", en: "diving", forms: ["buceo"] },
     { es: "la combinación", en: "combination", forms: ["combinación"] },
@@ -666,7 +666,7 @@ export const C1C2_MORE_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "la balsa", en: "raft", forms: ["balsa"] },
     { es: "el celular", en: "mobile phone", forms: ["celulares"] },
     { es: "el chofer", en: "driver", forms: ["chofer"] },
-    { es: "la grasa", en: "grease", forms: ["grasa"] },
+    { es: "la grasa", en: "grease; fat", forms: ["grasa"] },
     { es: "mandar", en: "to send", forms: ["mandaría"] },
     { es: "reunir", en: "to gather, raise", forms: ["reunido"] },
     { es: "soviético", en: "Soviet", forms: ["soviético"] },

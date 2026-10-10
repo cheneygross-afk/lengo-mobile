@@ -1,7 +1,9 @@
 // Synced from cheneygross-afk/lengo:src/lib/glossary/search.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Search over the course glossary (data.ts, built by
 // scripts/glossary/build.ts): Spanish or English, ignoring accents, and
-// a conjugated verb finds its infinitive ("tuvimos" -> tener).
+// a conjugated verb finds its infinitive ("tuvimos" -> tener). Words that
+// differ only in accents are separate entries (hacia, hacía); "hacia"
+// finds both, the one spelled as typed first.
 //
 // Shared by the website and the mobile app. The website fetches the data
 // from /api/glossary instead of bundling it, so this module takes the
@@ -45,7 +47,7 @@ const fold = (s: string) =>
 const ARTICLE = /^(el|la|los|las|un|una|el\/la|la\/el)\s+/;
 const LEVEL_RANK: Record<string, number> = { A1: 1, A2: 2, B1: 3, B2: 4, C1: 5, "C1/C2": 5.5, C2: 6 };
 
-type Prepared = { entry: GlossaryEntry; es: string; bare: string; words: string[]; senses: string[] };
+type Prepared = { entry: GlossaryEntry; es: string; bare: string; exact: string; words: string[]; senses: string[] };
 
 export type Glossary = {
   entries: GlossaryEntry[];
@@ -74,6 +76,7 @@ export function makeGlossary(sources: GlossarySourceRow[], rows: GlossaryEntryRo
       entry,
       es,
       bare: es.replace(ARTICLE, ""),
+      exact: entry.es.normalize("NFC").toLowerCase().trim().replace(ARTICLE, ""),
       words: es.split(/[\s/,()]+/).filter(Boolean),
       senses: entry.def ? [] : entry.senses.map((s) => fold(s).replace(/^to /, "")),
     };
@@ -90,6 +93,7 @@ export function makeGlossary(sources: GlossarySourceRow[], rows: GlossaryEntryRo
   function search(query: string, limit = 50): GlossaryHit[] {
     const q = fold(query).replace(/[¿?¡!.,;:"]/g, "").replace(/\s+/g, " ").trim();
     if (!q) return [];
+    const typed = query.normalize("NFC").toLowerCase().replace(/[¿?¡!.,;:"]/g, "").replace(/\s+/g, " ").trim().replace(ARTICLE, "");
     const qEn = q.replace(/^to /, "");
     const scored = new Map<Prepared, { score: number; formOf?: string }>();
     const bump = (p: Prepared, score: number, formOf?: string) => {
@@ -98,7 +102,7 @@ export function makeGlossary(sources: GlossarySourceRow[], rows: GlossaryEntryRo
     };
     const wordRe = new RegExp(`(^|[^a-z])${qEn.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}($|[^a-z])`);
     for (const p of prepared) {
-      if (p.es === q || p.bare === q) bump(p, 100);
+      if (p.es === q || p.bare === q) bump(p, p.exact === typed ? 101 : 100);
       else if (p.bare.startsWith(q) || p.es.startsWith(q)) bump(p, 80 - Math.min(20, p.bare.length - q.length));
       else if (p.words.some((w) => w.startsWith(q))) bump(p, 55);
       else if (q.length >= 3 && p.es.includes(q)) bump(p, 35);

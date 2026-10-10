@@ -46,10 +46,10 @@ export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
     "El humor verbal juega con la lectura literal de una frase hecha (estar como una cabra) y con palabras emparentadas por la forma (cabrito, cabreado)."
   ),
   "figurative-language-1": t(
-    "Describe una ciudad de noche en un texto literario breve que contenga al menos una metáfora, una metonimia, una personificación y un eufemismo.",
-    ["Una metáfora", "Una metonimia (p. ej., la ciudad duerme por sus habitantes)", "Una personificación", "Un eufemismo"],
-    "La ciudad apaga sus mil ojos amarillos a medianoche. Las calles, cansadas de pisadas, bostezan bajo las farolas. Solo algunas ventanas siguen despiertas: allí trabaja alguien que no puede permitirse dormir. Una ambulancia cruza la avenida, rumbo al hospital donde un anciano está a punto de dejarnos. Todo Madrid duerme, salvo los barrenderos y los poetas, que recogen lo que el día ha dejado caer. Al amanecer, el río de coches volverá a correr por sus venas de asfalto.",
-    "Metáfora: los mil ojos amarillos (las ventanas), el río de coches. Personificación: las calles bostezan. Metonimia: todo Madrid duerme (sus habitantes). Eufemismo: estar a punto de dejarnos (morir)."
+    "Describe una ciudad de noche en un texto literario breve que contenga al menos una metáfora, una metonimia, una personificación y una hipérbole.",
+    ["Una metáfora", "Una metonimia (p. ej., la ciudad duerme por sus habitantes)", "Una personificación", "Una hipérbole"],
+    "La ciudad apaga sus mil ojos amarillos a medianoche. Las calles, cansadas de pisadas, bostezan bajo las farolas. Solo algunas ventanas siguen despiertas: allí trabaja alguien que no puede permitirse dormir. Una ambulancia cruza la avenida a mil por hora, rumbo al hospital. Todo Madrid duerme, salvo los barrenderos y los poetas, que recogen lo que el día ha dejado caer. Al amanecer, el río de coches volverá a correr por sus venas de asfalto.",
+    "Metáfora: los mil ojos amarillos (las ventanas), el río de coches. Personificación: las calles bostezan. Metonimia: todo Madrid duerme (sus habitantes). Hipérbole: cruzar la avenida a mil por hora."
   ),
   "euphemisms-indirect-1": t(
     "Eres responsable de recursos humanos. Escribe un correo para comunicar a un empleado que su contrato no será renovado, con tacto y lenguaje indirecto.",
@@ -88,8 +88,8 @@ export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
     "Conceder (no niego que + subjuntivo, es cierto que) antes de refutar (ahora bien) hace el argumento más sólido. Por consiguiente y en consecuencia marcan las conclusiones."
   ),
   "debate-persuasion-6": t(
-    "Escribe la conclusión de un discurso a favor de la lectura en las escuelas. Usa al menos tres recursos retóricos: anáfora, pregunta retórica, tricolon o antítesis.",
-    ["Una anáfora (repetición al inicio de frases)", "Una pregunta retórica", "Un tricolon (serie de tres)", "Un cierre contundente"],
+    "Escribe la conclusión de un discurso a favor de la lectura en las escuelas. Usa al menos tres recursos retóricos: anáfora, pregunta retórica, tríada o antítesis.",
+    ["Una anáfora (repetición al inicio de frases)", "Una pregunta retórica", "Una tríada (serie de tres)", "Un cierre contundente"],
     "Por eso, termino como empecé. Leer es viajar sin moverse. Leer es dialogar con los muertos y con los que aún no han nacido. Leer es aprender a pensar por uno mismo. ¿Qué sociedad queremos construir si nuestros hijos no saben concentrarse más de dos minutos? Necesitamos bibliotecas abiertas, profesores motivados y familias implicadas. No pido que todos los niños sean lectores apasionados; pido que todos tengan la oportunidad de serlo. Porque un niño que lee hoy será un ciudadano libre mañana.",
     "Anáfora: leer es… repetido. Pregunta retórica: ¿Qué sociedad queremos construir…? Tricolon: bibliotecas, profesores y familias. Antítesis final: hoy / mañana, niño / ciudadano."
   ),
@@ -151,7 +151,7 @@ export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
     "Narra un episodio histórico que conozcas (real) en un párrafo, usando el imperfecto narrativo o el presente histórico, y al menos un pretérito anterior o pluscuamperfecto.",
     ["Presente histórico o imperfecto narrativo", "Pretérito anterior (hubo + participio) o pluscuamperfecto", "Marcadores temporales precisos", "Tono de relato histórico"],
     "El 12 de octubre de 1492, tras más de dos meses de travesía, la tripulación de Colón divisa tierra. Nada más amanecer, los marineros desembarcan en una pequeña isla del Caribe, que los taínos llamaban Guanahaní. Colón está convencido de que ha llegado a las Indias, a las que había prometido llegar navegando hacia el oeste. Nunca sabrá que había alcanzado un continente desconocido para los europeos. Aquel encuentro cambiará para siempre la historia de ambos mundos.",
-    "El presente histórico (divisa, desembarcan) acerca el relato; el pretérito anterior (apenas hubo amanecido) marca la anterioridad inmediata; el futuro de perspectiva (nunca sabrá, cambiará) anticipa desde el pasado."
+    "El presente histórico (divisa, desembarcan) acerca el relato; «nada más amanecer» marca la anterioridad inmediata (equivale al literario «apenas hubo amanecido»); el pluscuamperfecto (había prometido, había alcanzado) recoge los antecedentes; el futuro de perspectiva (nunca sabrá, cambiará) anticipa desde el pasado."
   ),
   "historical-narrative-6": t(
     "Escribe un párrafo de un ensayo histórico sobre la llegada de la imprenta a España, con conectores narrativos, voz del historiador y registro culto.",
@@ -193,7 +193,7 @@ export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
     "Redacta una breve noticia económica sobre la fusión de dos empresas: causas, cifras y posibles consecuencias para los consumidores.",
     ["Vocabulario económico (fusión, cuota de mercado, facturación…)", "Relaciones de causa y efecto (debido a, lo que provocará…)", "Al menos dos cifras", "Registro periodístico"],
     "Las aerolíneas Vuelasur y Aeronorte, dos compañías ficticias para este ejercicio, han anunciado hoy su fusión, una operación valorada en mil millones de euros. Según fuentes del sector, el acuerdo responde a la necesidad de ganar tamaño ante la competencia de las compañías de bajo coste. La nueva empresa controlará cerca del cuarenta por ciento del mercado nacional y superará los cinco mil millones de facturación anual. Las asociaciones de consumidores, sin embargo, temen que la reducción de la competencia provoque una subida de los precios de los billetes. La operación deberá ser aprobada por las autoridades europeas.",
-    "Debido a, responder a y provocar expresan causa y efecto; las cifras (mil millones, el cuarenta por ciento) dan credibilidad al texto periodístico."
+    "«Responder a» y «provocar» expresan causa y efecto; las cifras (mil millones, el cuarenta por ciento) dan credibilidad al texto periodístico."
   ),
   "creative-writing-techniques-1": t(
     "Escribe un microrrelato de entre 80 y 120 palabras con un título, una imagen sensorial potente y un final sorpresivo que se anticipe con un detalle sutil (prefiguración).",
@@ -205,6 +205,6 @@ export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
     "Escribe un texto reflexivo titulado «Lo que significa para mí dominar un idioma», combinando registro culto, recursos retóricos y matices de significado.",
     ["Una tesis personal clara", "Al menos dos recursos retóricos (pregunta retórica, antítesis, metáfora…)", "Vocabulario abstracto y preciso", "Conclusión elaborada"],
     "¿Qué significa dominar un idioma? Durante años pensé que la respuesta era sencilla: no cometer errores. Hoy sé que me equivocaba. Dominar una lengua no es conocer todas sus reglas, sino saber cuándo romperlas; no es hablar como un diccionario, sino como una persona. Es entender la ironía de un amigo, el doble sentido de un titular, la tristeza escondida en un diminutivo. Una lengua es una casa con infinitas habitaciones, y uno nunca termina de recorrerla. Quizá por eso dominar un idioma no es una meta, sino una forma de habitar el mundo.",
-    "Pregunta retórica inicial, antítesis (no es…, sino…), metáfora (una casa con infinitas habitaciones) y tricolon (la ironía, el doble sentido, la tristeza) estructuran el texto."
+    "Pregunta retórica inicial, antítesis (no es…, sino…), metáfora (una casa con infinitas habitaciones) y tríada (la ironía, el doble sentido, la tristeza) estructuran el texto."
   ),
 };

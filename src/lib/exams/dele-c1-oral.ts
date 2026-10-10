@@ -46,7 +46,7 @@ export const DELE_C1_ORAL: ExamPaper = {
     {
       title: "Tarea 2",
       instructions:
-        "Conversación sobre el tema de la Tarea 1. El entrevistador le planteará distintas cuestiones y usted deberá argumentar y matizar sus opiniones durante 4 o 6 minutos.",
+        "Conversación sobre el tema de la Tarea 1. El entrevistador le planteará distintas cuestiones y usted deberá argumentar y matizar sus opiniones durante un tiempo de entre 4 y 6 minutos.",
       speak: {
         prompt: "Conversación: viajar de forma responsable.",
         points: [

@@ -131,7 +131,7 @@ export const DELE_A1_AUDITIVA: ExamPaper = {
       layout: "select",
       items: [
         { n: 11, question: "Antonio, el padre", options: FAMILY_INFO, answer: 0, explanation: "\"Mi padre se llama Antonio y es médico.\"" },
-        { n: 12, question: "Isabel, la madre", options: FAMILY_INFO, answer: 9, explanation: "\"Isabel, es profesora de inglés.\"" },
+        { n: 12, question: "Isabel, la madre", options: FAMILY_INFO, answer: 9, explanation: "\"Mi madre, Isabel, es profesora de inglés.\"" },
         { n: 13, question: "Clara, la hermana", options: FAMILY_INFO, answer: 3, explanation: "\"Mi hermana Clara estudia en la universidad.\"" },
         { n: 14, question: "Pablo, el hermano", options: FAMILY_INFO, answer: 8, explanation: "\"Mi hermano Pablo juega al fútbol.\"" },
         { n: 15, question: "Rosa, la abuela", options: FAMILY_INFO, answer: 7, explanation: "\"Mi abuela Rosa cocina muy bien.\"" },

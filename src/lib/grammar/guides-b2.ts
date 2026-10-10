@@ -150,7 +150,7 @@ export const B2_GUIDES: GrammarGuide[] = [
           "Porque, ya que, puesto que, como (at the start) and así que state facts, so they take the indicative. No porque + subjunctive denies a cause: No lo digo porque sea tu amigo.",
         ],
         examples: [
-          { es: "Como no llegabas, empezamos sin ti.", en: "Since you weren't arriving, we started without you." },
+          { es: "Como no llegabas, empezamos sin ti.", en: "Since you hadn't turned up, we started without you." },
           { es: "Ya que estás aquí, ayúdame.", en: "Since you're here, help me." },
         ],
       },
@@ -159,7 +159,7 @@ export const B2_GUIDES: GrammarGuide[] = [
       {
         wrong: "Cuando llegaré, te llamo.",
         right: "Cuando llegue, te llamo.",
-        why: "Spanish never uses the future after cuando. A future event takes the present subjunctive.",
+        why: "Conjunction cuando never takes the future: a future event takes the present subjunctive. (Only question cuándo can: ¿Cuándo llegarás?)",
       },
       {
         wrong: "Te llamo antes de que salgo.",
@@ -397,7 +397,7 @@ export const B2_GUIDES: GrammarGuide[] = [
       {
         heading: "The forms",
         body: [
-          "Both use haber plus the past participle. The pluperfect subjunctive also has a -se form (hubiese), more common in Spain and in writing.",
+          "Both use haber plus the past participle. The pluperfect subjunctive also has a -se form (hubiese), heard more in Spain than in Latin America and in writing, though hubiera is more frequent everywhere.",
         ],
         table: {
           headers: ["", "Pluperfect subjunctive", "Conditional perfect"],
@@ -848,7 +848,7 @@ export const B2_GUIDES: GrammarGuide[] = [
       },
       {
         q: "Which connectors impress examiners?",
-        a: "Variety and correct use matter more than rare words. A text that uses sin embargo, por lo tanto, además and en cambio correctly already shows al nivel Avanzado range.",
+        a: "Variety and correct use matter more than rare words. A text that uses sin embargo, por lo tanto, además and en cambio correctly already shows Advanced-level range.",
       },
     ],
     related: ["discourse-markers", "concessive-clauses-aunque", "spanish-punctuation"],
@@ -890,7 +890,7 @@ export const B2_GUIDES: GrammarGuide[] = [
       {
         heading: "Cleft sentences: es ... quien / donde / cuando",
         body: [
-          "Ser + the highlighted element + a relative. The verb ser agrees in tense with the main verb, and the relative matches the element: quien/el que for people, donde for places, cuando for times, como for manner.",
+          "Ser + the highlighted element + a relative. The verb ser usually matches the tense of the main verb (though es is common too: Es aquí donde nos conocimos), and the relative matches the element: quien/el que for people, donde for places, cuando for times, como for manner.",
         ],
         examples: [
           { es: "Fue Marta quien me lo contó.", en: "It was Marta who told me." },
@@ -925,7 +925,7 @@ export const B2_GUIDES: GrammarGuide[] = [
       {
         wrong: "El libro tengo yo.",
         right: "El libro lo tengo yo.",
-        why: "A fronted direct object must be repeated with a pronoun.",
+        why: "A fronted definite direct object (el libro, a tu hermano) must be repeated with a pronoun; only bare or emphatic objects skip it (Dinero no tengo).",
       },
       {
         wrong: "Es Marta que me lo contó.",

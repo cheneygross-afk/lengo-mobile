@@ -20,10 +20,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Tengo un amigo que habla ruso."
+            "es": "Tengo un amigo que habla ruso.",
+            "en": "I have a friend who speaks Russian."
           },
           {
-            "es": "Busco un amigo que hable ruso."
+            "es": "Busco un amigo que hable ruso.",
+            "en": "I'm looking for a friend who speaks Russian."
           }
         ],
         "checkpoint": [
@@ -43,10 +45,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "No hay nadie que pueda resolver este problema."
+            "es": "No hay nadie que pueda resolver este problema.",
+            "en": "There's nobody who can solve this problem."
           },
           {
-            "es": "No conozco ningún restaurante que sirva esa comida aquí."
+            "es": "No conozco ningún restaurante que sirva esa comida aquí.",
+            "en": "I don't know any restaurant here that serves that food."
           }
         ],
         "checkpoint": [
@@ -71,10 +75,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Quienquiera que gane, será una victoria justa."
+            "es": "Quienquiera que gane, será una victoria justa.",
+            "en": "Whoever wins, it will be a fair victory."
           },
           {
-            "es": "Cualquier decisión que tomes, te apoyaré."
+            "es": "Cualquier decisión que tomes, te apoyaré.",
+            "en": "Whatever decision you make, I'll support you."
           }
         ],
         "checkpoint": [
@@ -94,10 +100,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "¿Conoces a alguien que hable portugués?"
+            "es": "¿Conoces a alguien que hable portugués?",
+            "en": "Do you know anyone who speaks Portuguese?"
           },
           {
-            "es": "¿Hay algún restaurante por aquí que esté abierto ahora?"
+            "es": "¿Hay algún restaurante por aquí que esté abierto ahora?",
+            "en": "Is there a restaurant around here that's open now?"
           }
         ],
         "checkpoint": [
@@ -125,16 +133,20 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Buscamos un cuadro que combine con este espacio."
+            "es": "Buscamos un cuadro que combine con este espacio.",
+            "en": "We're looking for a painting that goes with this space."
           },
           {
-            "es": "Tenemos varias piezas que podrían funcionar. ¿Qué estilo prefieren?"
+            "es": "Tenemos varias piezas que podrían funcionar. ¿Qué estilo prefieren?",
+            "en": "We have several pieces that could work. What style do you prefer?"
           },
           {
-            "es": "Algo que tenga colores cálidos, y que no sea demasiado abstracto."
+            "es": "Algo que tenga colores cálidos, y que no sea demasiado abstracto.",
+            "en": "Something with warm colors, and not too abstract."
           },
           {
-            "es": "Perfecto. Conozco una obra que cumple exactamente con eso."
+            "es": "Perfecto. Conozco una obra que cumple exactamente con eso.",
+            "en": "Perfect. I know a work that fits that exactly."
           }
         ],
         "checkpoint": [
@@ -187,7 +199,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 2,
     "title": "Subjuntivo en Cláusulas Adjetivas, Part 2 of 2",
-    "summary": "Describe personas y cosas que quizás no existan, o cuya existencia es incierta.",
+    "summary": "Aprende cincuenta palabras del arte y la literatura y repasa el subjuntivo en las oraciones de relativo.",
     "duration": "7 min",
     "sections": [
       {
@@ -489,7 +501,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "la reseña"
         ],
         "correctIndex": 1,
-        "explanation": "«La réplica» es una copia de una obra original. El boceto es un dibujo previo, el manuscrito es un texto escrito a mano y la reseña es una crítica."
+        "explanation": "«La réplica» es una copia de una obra original. El boceto es un dibujo previo, el manuscrito es el texto original antes de publicarse y la reseña es una crítica."
       }
     ]
   },
@@ -508,10 +520,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Cuando llegue a casa, te llamaré."
+            "es": "Cuando llegue a casa, te llamaré.",
+            "en": "When I get home, I'll call you."
           },
           {
-            "es": "Cuando llego a casa, ceno con mi familia."
+            "es": "Cuando llego a casa, ceno con mi familia.",
+            "en": "When I get home, I have dinner with my family."
           }
         ],
         "checkpoint": [
@@ -531,10 +545,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "En cuanto tenga noticias, te escribiré."
+            "es": "En cuanto tenga noticias, te escribiré.",
+            "en": "As soon as I have news, I'll write to you."
           },
           {
-            "es": "Esperé hasta que llegó el autobús."
+            "es": "Esperé hasta que llegó el autobús.",
+            "en": "I waited until the bus arrived."
           }
         ],
         "checkpoint": [
@@ -559,10 +575,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Salimos antes de que empezara la tormenta."
+            "es": "Salimos antes de que empezara la tormenta.",
+            "en": "We left before the storm started."
           },
           {
-            "es": "Llama antes de que sea demasiado tarde."
+            "es": "Llama antes de que sea demasiado tarde.",
+            "en": "Call before it's too late."
           }
         ],
         "checkpoint": [
@@ -582,10 +600,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Aunque llueve, vamos a salir. (sabe que llueve)"
+            "es": "Aunque llueve, vamos a salir. (sabe que llueve)",
+            "en": "Even though it's raining, we're going out. (they know it's raining)"
           },
           {
-            "es": "Aunque llueva, vamos a salir. (no sabe si lloverá)"
+            "es": "Aunque llueva, vamos a salir. (no sabe si lloverá)",
+            "en": "Even if it rains, we're going out. (they don't know if it will rain)"
           }
         ],
         "checkpoint": [
@@ -609,22 +629,27 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Para que: propósito con sujeto distinto",
         "body": [
-          "\"Para que\" siempre lleva subjuntivo cuando el sujeto de las dos cláusulas es diferente. Si el sujeto es el mismo, se usa \"para\" + infinitivo."
+          "\"Para que\" siempre lleva subjuntivo, y se usa cuando el sujeto de las dos cláusulas es diferente. Si el sujeto es el mismo, se usa \"para\" + infinitivo."
         ],
         "examples": [
           {
-            "es": "Te lo explico para que entiendas. (sujetos distintos)"
+            "es": "Te lo explico para que entiendas. (sujetos distintos)",
+            "en": "I'm explaining it to you so that you understand. (different subjects)"
           },
           {
-            "es": "Estudio para entender mejor. (mismo sujeto, infinitivo)"
+            "es": "Estudio para entender mejor. (mismo sujeto, infinitivo)",
+            "en": "I study to understand better. (same subject, infinitive)"
           }
         ],
         "checkpoint": [
           {
             "type": "fill-blank",
             "prompt": "Completa la oración.",
-            "sentence": "Hablé más despacio para que todos ___ (comprender).",
-            "answer": "comprendieran",
+            "sentence": "Hablo despacio para que todos ___ (comprender).",
+            "answer": "comprendan",
+            "altAnswers": [
+              "entiendan"
+            ],
             "explanation": "\"Para que\" con sujetos distintos requiere subjuntivo."
           }
         ]
@@ -636,16 +661,20 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Cuando se apruebe la ley, muchas familias se beneficiarán."
+            "es": "Cuando se apruebe la ley, muchas familias se beneficiarán.",
+            "en": "When the law is passed, many families will benefit."
           },
           {
-            "es": "Aunque estemos de acuerdo con el objetivo, el método nos preocupa."
+            "es": "Aunque estemos de acuerdo con el objetivo, el método nos preocupa.",
+            "en": "Even if we agree with the goal, the method worries us."
           },
           {
-            "es": "Deberíamos revisar el texto antes de que se vote mañana."
+            "es": "Deberíamos revisar el texto antes de que se vote mañana.",
+            "en": "We should review the text before it's voted on tomorrow."
           },
           {
-            "es": "De acuerdo, revisémoslo para que todos entiendan bien los cambios."
+            "es": "De acuerdo, revisémoslo para que todos entiendan bien los cambios.",
+            "en": "Agreed, let's review it so that everyone understands the changes well."
           }
         ],
         "checkpoint": [
@@ -676,13 +705,13 @@ const B2_BASE_LESSONS: Lesson[] = [
         "type": "multiple-choice",
         "question": "¿Cuál es correcta?",
         "options": [
-          "Antes de que llegues, limpio la casa.",
+          "Antes de que llegaste, limpiaré la casa.",
           "Antes de que llegues, limpiaré la casa.",
           "Antes de que llegas, limpiaré la casa.",
           "Antes de que llegarás, limpiaré la casa."
         ],
         "correctIndex": 1,
-        "explanation": "«Antes de que» siempre lleva subjuntivo: antes de que llegues. «Llegas» es indicativo y «llegarás» es futuro; «limpio la casa» sería posible, pero la acción futura suena más natural con «limpiaré»."
+        "explanation": "«Antes de que» siempre lleva subjuntivo: antes de que llegues. «Llegaste» es pretérito, «llegas» es indicativo y «llegarás» es futuro."
       },
       {
         "type": "fill-blank",
@@ -698,7 +727,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 4,
     "title": "Subjuntivo en Cláusulas Adverbiales, Part 2 of 2",
-    "summary": "Domina cuándo usar subjuntivo con cuando, aunque, para que, y otras conjunciones temporales y concesivas.",
+    "summary": "Aprende cincuenta palabras de la política y el gobierno y repasa el subjuntivo con cuando, aunque y para que.",
     "duration": "8 min",
     "sections": [
       {
@@ -1016,15 +1045,17 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Formación",
         "body": [
-          "Toma la forma \"ellos\" del pretérito, quita \"-ron\", y agrega: -ra, -ras, -ra, -ramos (con tilde), -rais, -ran. Existe también la forma -se, más literaria, con el mismo significado.",
+          "Toma la forma \"ellos\" del pretérito, quita \"-ron\", y agrega: -ra, -ras, -ra, -ramos (con tilde en la vocal anterior: habláramos), -rais, -ran. Existe también la forma -se, más literaria, con el mismo significado.",
           "hablaron → hablara, hablaras, hablara, habláramos, hablarais, hablaran. tuvieron → tuviera, tuvieras, tuviera, tuviéramos, tuvierais, tuvieran."
         ],
         "examples": [
           {
-            "es": "Quería que vinieras a la fiesta."
+            "es": "Quería que vinieras a la fiesta.",
+            "en": "I wanted you to come to the party."
           },
           {
-            "es": "Si yo tuviera más tiempo, viajaría más."
+            "es": "Si yo tuviera más tiempo, viajaría más.",
+            "en": "If I had more time, I'd travel more."
           }
         ],
         "checkpoint": [
@@ -1045,10 +1076,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Ojalá fuera más fácil."
+            "es": "Ojalá fuera más fácil.",
+            "en": "I wish it were easier."
           },
           {
-            "es": "Si pudiera, te ayudaría ahora mismo."
+            "es": "Si pudiera, te ayudaría ahora mismo.",
+            "en": "If I could, I'd help you right now."
           }
         ],
         "checkpoint": [
@@ -1069,14 +1102,16 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La secuencia de tiempos",
         "body": [
-          "Cuando el verbo principal está en presente, se usa subjuntivo presente en la cláusula subordinada. Cuando el verbo principal está en un tiempo pasado (pretérito, imperfecto, condicional), se usa el imperfecto de subjuntivo."
+          "Por lo general, cuando el verbo principal está en presente, se usa subjuntivo presente en la cláusula subordinada (pero puede ir imperfecto si la acción es pasada: «No creo que lo supiera»). Cuando el verbo principal está en un tiempo pasado (pretérito, imperfecto, condicional), se usa el imperfecto de subjuntivo."
         ],
         "examples": [
           {
-            "es": "Quiero que vengas. (presente + subjuntivo presente)"
+            "es": "Quiero que vengas. (presente + subjuntivo presente)",
+            "en": "I want you to come. (present + present subjunctive)"
           },
           {
-            "es": "Quería que vinieras. (pasado + imperfecto de subjuntivo)"
+            "es": "Quería que vinieras. (pasado + imperfecto de subjuntivo)",
+            "en": "I wanted you to come. (past + imperfect subjunctive)"
           }
         ],
         "checkpoint": [
@@ -1096,10 +1131,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Era importante que llegáramos a tiempo."
+            "es": "Era importante que llegáramos a tiempo.",
+            "en": "It was important for us to arrive on time."
           },
           {
-            "es": "Ojalá hubiera más opciones. (deseo presente sobre algo improbable)"
+            "es": "Ojalá hubiera más opciones. (deseo presente sobre algo improbable)",
+            "en": "I wish there were more options. (present wish about something unlikely)"
           }
         ],
         "checkpoint": [
@@ -1127,16 +1164,20 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "De niño, siempre quería que mis padres me llevaran al circo."
+            "es": "De niño, siempre quería que mis padres me llevaran al circo.",
+            "en": "As a child, I always wanted my parents to take me to the circus."
           },
           {
-            "es": "Soñaba con poder viajar algún día por todo el mundo."
+            "es": "Soñaba con poder viajar algún día por todo el mundo.",
+            "en": "I dreamed of being able to travel all over the world one day."
           },
           {
-            "es": "Mis maestros dudaban que yo llegara a cumplir esas metas."
+            "es": "Mis maestros dudaban que yo llegara a cumplir esas metas.",
+            "en": "My teachers doubted that I would ever reach those goals."
           },
           {
-            "es": "Pero nunca dejé que sus dudas me detuvieran."
+            "es": "Pero nunca dejé que sus dudas me detuvieran.",
+            "en": "But I never let their doubts stop me."
           }
         ],
         "checkpoint": [
@@ -1189,7 +1230,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 6,
     "title": "Imperfecto de Subjuntivo y Secuencia de Tiempos, Part 2 of 2",
-    "summary": "Usa el subjuntivo en el pasado, y aprende cuándo el verbo principal exige esta forma.",
+    "summary": "Aprende cincuenta palabras sobre los sueños y la imaginación y repasa el imperfecto de subjuntivo.",
     "duration": "7 min",
     "sections": [
       {
@@ -1509,10 +1550,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Si tuviera más dinero, viajaría por el mundo."
+            "es": "Si tuviera más dinero, viajaría por el mundo.",
+            "en": "If I had more money, I'd travel around the world."
           },
           {
-            "es": "Si fuéramos ricos, no trabajaríamos tanto."
+            "es": "Si fuéramos ricos, no trabajaríamos tanto.",
+            "en": "If we were rich, we wouldn't work so much."
           }
         ],
         "checkpoint": [
@@ -1532,10 +1575,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Si tengo tiempo, te ayudo. (real, probable)"
+            "es": "Si tengo tiempo, te ayudo. (real, probable)",
+            "en": "If I have time, I'll help you. (real, likely)"
           },
           {
-            "es": "Si tuviera tiempo, te ayudaría. (hipotético, quizás no lo tenga)"
+            "es": "Si tuviera tiempo, te ayudaría. (hipotético, quizás no lo tenga)",
+            "en": "If I had time, I'd help you. (hypothetical, maybe I don't)"
           }
         ],
         "checkpoint": [
@@ -1560,10 +1605,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Si pudiéramos, cambiaríamos el sistema entero."
+            "es": "Si pudiéramos, cambiaríamos el sistema entero.",
+            "en": "If we could, we'd change the whole system."
           },
           {
-            "es": "Con más recursos, resolveríamos el problema más rápido."
+            "es": "Con más recursos, resolveríamos el problema más rápido.",
+            "en": "With more resources, we'd solve the problem faster."
           }
         ],
         "checkpoint": [
@@ -1577,16 +1624,18 @@ const B2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Como si: siempre imperfecto de subjuntivo",
+        "heading": "Como si: imperfecto (o pluscuamperfecto) de subjuntivo",
         "body": [
           "\"Como si\" (as if) lleva imperfecto de subjuntivo (o pluscuamperfecto, para algo anterior: como si no hubiera pasado nada), porque compara la realidad con algo que no es cierto."
         ],
         "examples": [
           {
-            "es": "Habla como si lo supiera todo."
+            "es": "Habla como si lo supiera todo.",
+            "en": "He talks as if he knew everything."
           },
           {
-            "es": "Me trataron como si fuera un experto."
+            "es": "Me trataron como si fuera un experto.",
+            "en": "They treated me as if I were an expert."
           }
         ],
         "checkpoint": [
@@ -1614,16 +1663,20 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Si las máquinas pudieran razonar como nosotros, ¿qué cambiaría?"
+            "es": "Si las máquinas pudieran razonar como nosotros, ¿qué cambiaría?",
+            "en": "If machines could reason like us, what would change?"
           },
           {
-            "es": "Cambiaría casi todo: el trabajo, la educación, hasta el arte."
+            "es": "Cambiaría casi todo: el trabajo, la educación, hasta el arte.",
+            "en": "Almost everything would change: work, education, even art."
           },
           {
-            "es": "Algunos hablan como si eso ya fuera inevitable."
+            "es": "Algunos hablan como si eso ya fuera inevitable.",
+            "en": "Some people talk as if that were already inevitable."
           },
           {
-            "es": "Tal vez lo sea. Pero si actuáramos con más cuidado, evitaríamos ciertos riesgos."
+            "es": "Tal vez lo sea. Pero si actuáramos con más cuidado, evitaríamos ciertos riesgos.",
+            "en": "Maybe it is. But if we acted more carefully, we'd avoid certain risks."
           }
         ],
         "checkpoint": [
@@ -1676,7 +1729,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 8,
     "title": "Cláusulas Hipotéticas con Si, Part 2 of 2",
-    "summary": "Habla de situaciones imaginarias o contrarias a la realidad presente.",
+    "summary": "Aprende cincuenta palabras de tecnología e inteligencia artificial y repasa las hipótesis con si + imperfecto de subjuntivo.",
     "duration": "7 min",
     "sections": [
       {
@@ -1997,10 +2050,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Habría llamado, pero se me olvidó el teléfono."
+            "es": "Habría llamado, pero se me olvidó el teléfono.",
+            "en": "I would have called, but I forgot my phone."
           },
           {
-            "es": "Con más tiempo, habríamos terminado el proyecto."
+            "es": "Con más tiempo, habríamos terminado el proyecto.",
+            "en": "With more time, we would have finished the project."
           }
         ],
         "checkpoint": [
@@ -2020,10 +2075,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Si hubiera sabido, habría venido antes."
+            "es": "Si hubiera sabido, habría venido antes.",
+            "en": "If I had known, I would have come earlier."
           },
           {
-            "es": "Si hubieras estudiado más, habrías aprobado."
+            "es": "Si hubieras estudiado más, habrías aprobado.",
+            "en": "If you had studied more, you would have passed."
           }
         ],
         "checkpoint": [
@@ -2048,10 +2105,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Si hubiéramos salido antes, no habríamos perdido el vuelo."
+            "es": "Si hubiéramos salido antes, no habríamos perdido el vuelo.",
+            "en": "If we had left earlier, we wouldn't have missed the flight."
           },
           {
-            "es": "Si me hubieras avisado, habría llegado a tiempo."
+            "es": "Si me hubieras avisado, habría llegado a tiempo.",
+            "en": "If you had told me, I would have arrived on time."
           }
         ],
         "checkpoint": [
@@ -2071,10 +2130,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Ojalá hubiera aceptado ese trabajo."
+            "es": "Ojalá hubiera aceptado ese trabajo.",
+            "en": "I wish I had taken that job."
           },
           {
-            "es": "Ojalá no hubiéramos discutido tanto."
+            "es": "Ojalá no hubiéramos discutido tanto.",
+            "en": "I wish we hadn't argued so much."
           }
         ],
         "checkpoint": [
@@ -2102,16 +2163,20 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "A veces pienso que si hubiera aceptado esa beca, mi vida sería diferente."
+            "es": "A veces pienso que si hubiera aceptado esa beca, mi vida sería diferente.",
+            "en": "Sometimes I think that if I had accepted that scholarship, my life would be different."
           },
           {
-            "es": "Todos tenemos arrepentimientos así. Yo habría estudiado otra carrera si hubiera sabido lo que sé ahora."
+            "es": "Todos tenemos arrepentimientos así. Yo habría estudiado otra carrera si hubiera sabido lo que sé ahora.",
+            "en": "We all have regrets like that. I would have studied a different degree if I had known what I know now."
           },
           {
-            "es": "Es curioso cómo una sola decisión habría cambiado tanto."
+            "es": "Es curioso cómo una sola decisión habría cambiado tanto.",
+            "en": "It's funny how a single decision would have changed so much."
           },
           {
-            "es": "Sí, pero al final, no habríamos llegado hasta aquí sin esos errores."
+            "es": "Sí, pero al final, no habríamos llegado hasta aquí sin esos errores.",
+            "en": "Yes, but in the end, we wouldn't have got this far without those mistakes."
           }
         ],
         "checkpoint": [
@@ -2164,7 +2229,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 10,
     "title": "Condicional Perfecto y Pluscuamperfecto de Subjuntivo, Part 2 of 2",
-    "summary": "Expresa arrepentimientos y situaciones hipotéticas sobre el pasado: lo que habría pasado si...",
+    "summary": "Aprende cincuenta palabras sobre arrepentimientos y decisiones de vida y repasa las hipótesis sobre el pasado.",
     "duration": "8 min",
     "sections": [
       {
@@ -2732,14 +2797,16 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El cambio básico de tiempo verbal",
         "body": [
-          "Cuando el verbo introductorio está en pasado (dijo que, me contó que, explicó que), los tiempos verbales retroceden: presente → imperfecto, pretérito → pluscuamperfecto, futuro → condicional."
+          "Cuando el verbo introductorio está en pasado (dijo que, me contó que, explicó que), los tiempos verbales normalmente retroceden: presente → imperfecto, pretérito → pluscuamperfecto, futuro → condicional. Si lo dicho sigue vigente, también puede mantenerse: «Dijo que está cansado»."
         ],
         "examples": [
           {
-            "es": "\"Estoy cansado.\" → Dijo que estaba cansado."
+            "es": "\"Estoy cansado.\" → Dijo que estaba cansado.",
+            "en": "\"I'm tired.\" → He said he was tired."
           },
           {
-            "es": "\"Llegué tarde.\" → Explicó que había llegado tarde."
+            "es": "\"Llegué tarde.\" → Explicó que había llegado tarde.",
+            "en": "\"I arrived late.\" → She explained that she had arrived late."
           }
         ],
         "checkpoint": [
@@ -2759,10 +2826,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "\"Volveré pronto.\" → Prometió que volvería pronto."
+            "es": "\"Volveré pronto.\" → Prometió que volvería pronto.",
+            "en": "\"I'll be back soon.\" → He promised he would be back soon."
           },
           {
-            "es": "\"Te ayudaré.\" → Aseguró que me ayudaría."
+            "es": "\"Te ayudaré.\" → Aseguró que me ayudaría.",
+            "en": "\"I'll help you.\" → She assured me she would help me."
           }
         ],
         "checkpoint": [
@@ -2787,7 +2856,8 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "\"Nos vemos aquí mañana.\" → Dijo que nos veríamos allí al día siguiente."
+            "es": "\"Nos vemos aquí mañana.\" → Dijo que nos veríamos allí al día siguiente.",
+            "en": "\"See you here tomorrow.\" → He said we would see each other there the next day."
           }
         ],
         "checkpoint": [
@@ -2807,10 +2877,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "\"Ven aquí.\" → Me pidió que fuera allí."
+            "es": "\"Ven aquí.\" → Me pidió que fuera allí.",
+            "en": "\"Come here.\" → She asked me to go there."
           },
           {
-            "es": "\"No llegues tarde.\" → Me dijo que no llegara tarde."
+            "es": "\"No llegues tarde.\" → Me dijo que no llegara tarde.",
+            "en": "\"Don't be late.\" → He told me not to be late."
           }
         ],
         "checkpoint": [
@@ -2838,16 +2910,20 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "El portavoz dijo que la nueva política entraría en vigor el mes siguiente."
+            "es": "El portavoz dijo que la nueva política entraría en vigor el mes siguiente.",
+            "en": "The spokesperson said the new policy would come into force the following month."
           },
           {
-            "es": "También explicó que el gobierno había estudiado el tema durante meses."
+            "es": "También explicó que el gobierno había estudiado el tema durante meses.",
+            "en": "He also explained that the government had studied the issue for months."
           },
           {
-            "es": "Añadió que esperaba que los ciudadanos apoyaran la medida."
+            "es": "Añadió que esperaba que los ciudadanos apoyaran la medida.",
+            "en": "He added that he hoped citizens would support the measure."
           },
           {
-            "es": "Finalmente, aseguró que responderían a todas las preguntas al día siguiente."
+            "es": "Finalmente, aseguró que responderían a todas las preguntas al día siguiente.",
+            "en": "Finally, he assured them they would answer all the questions the next day."
           }
         ],
         "checkpoint": [
@@ -2881,17 +2957,20 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Dijo que va a la reunión.",
           "Dijo que iría a la reunión.",
           "Dijo que fue a la reunión.",
-          "Dijo que va a ir a la reunión."
+          "Dijo que fuera a la reunión."
         ],
         "correctIndex": 1,
-        "explanation": "En estilo indirecto con dijo, el futuro (iré) pasa a condicional: iría. «Va» y «va a ir» mantienen el presente, y «fue» cambia el sentido a un hecho pasado."
+        "explanation": "En estilo indirecto con dijo, el futuro (iré) pasa normalmente a condicional: iría. «Va» deja la frase en presente, «fue» cambia el sentido a un hecho pasado y «fuera» la convierte en una orden."
       },
       {
         "type": "fill-blank",
         "prompt": "Convierte la referencia temporal.",
         "sentence": "\"Llegué hoy.\" → Dijo que había llegado ___.",
         "answer": "ese día",
-        "explanation": "\"Hoy\" se convierte en \"ese día\" al reportar algo en pasado."
+        "altAnswers": [
+          "aquel día"
+        ],
+        "explanation": "\"Hoy\" se convierte en \"ese día\" (o \"aquel día\") al reportar algo en pasado."
       }
     ]
   },
@@ -2900,7 +2979,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 13,
     "title": "El Estilo Indirecto, Part 2 of 2",
-    "summary": "Reporta lo que otros dijeron, con los cambios de tiempo verbal y de referencias que esto exige.",
+    "summary": "Aprende cincuenta palabras del periodismo y los medios de comunicación y repasa el estilo indirecto.",
     "duration": "8 min",
     "sections": [
       {
@@ -2939,7 +3018,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "cubrir (una noticia)",
-            "en": "reportar sobre un evento"
+            "en": "informar sobre un acontecimiento"
           },
           {
             "es": "la cobertura mediática",
@@ -2975,7 +3054,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el corresponsal",
-            "en": "periodista que reporta desde otro lugar"
+            "en": "periodista que informa desde otro lugar"
           },
           {
             "es": "la primicia",
@@ -3226,10 +3305,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Ella es inteligente. (característica)"
+            "es": "Ella es inteligente. (característica)",
+            "en": "She's intelligent. (a characteristic)"
           },
           {
-            "es": "Ella está distraída hoy. (estado temporal)"
+            "es": "Ella está distraída hoy. (estado temporal)",
+            "en": "She's distracted today. (a temporary state)"
           }
         ],
         "checkpoint": [
@@ -3249,10 +3330,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Es listo. (inteligente) / Está listo. (preparado)"
+            "es": "Es listo. (inteligente) / Está listo. (preparado)",
+            "en": "He's clever. (intelligent) / He's ready. (prepared)"
           },
           {
-            "es": "Es rico. (tiene mucho dinero) / Está rico. (sabe delicioso)"
+            "es": "Es rico. (tiene mucho dinero) / Está rico. (sabe delicioso)",
+            "en": "He's rich. (has a lot of money) / It's tasty. (tastes delicious)"
           }
         ],
         "checkpoint": [
@@ -3277,10 +3360,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Hay un parque cerca de mi casa."
+            "es": "Hay un parque cerca de mi casa.",
+            "en": "There's a park near my house."
           },
           {
-            "es": "El parque está a dos cuadras de aquí."
+            "es": "El parque está a dos cuadras de aquí.",
+            "en": "The park is two blocks from here."
           }
         ],
         "checkpoint": [
@@ -3289,7 +3374,10 @@ const B2_BASE_LESSONS: Lesson[] = [
             "prompt": "Elige el verbo correcto.",
             "sentence": "___ (haber) mucha gente en la fiesta anoche.",
             "answer": "Había",
-            "explanation": "Haber impersonal introduce la existencia de algo, sin artículo definido: había mucha gente."
+            "altAnswers": [
+              "Hubo"
+            ],
+            "explanation": "Haber impersonal introduce la existencia de algo, sin artículo definido: había mucha gente (o hubo, si cuentas la fiesta como un hecho cerrado)."
           }
         ]
       },
@@ -3300,10 +3388,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "La conferencia es en el auditorio."
+            "es": "La conferencia es en el auditorio.",
+            "en": "The conference is in the auditorium."
           },
           {
-            "es": "El auditorio está al final del pasillo."
+            "es": "El auditorio está al final del pasillo.",
+            "en": "The auditorium is at the end of the hall."
           }
         ],
         "checkpoint": [
@@ -3331,16 +3421,20 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "¿Cómo se ha sentido esta semana?"
+            "es": "¿Cómo se ha sentido esta semana?",
+            "en": "How have you been feeling this week?"
           },
           {
-            "es": "La verdad, he estado bastante ansioso. No es normal en mí ser tan inseguro."
+            "es": "La verdad, he estado bastante ansioso. No es normal en mí ser tan inseguro.",
+            "en": "To be honest, I've been quite anxious. It's not like me to be so insecure."
           },
           {
-            "es": "¿Hay algo en particular que haya provocado ese cambio?"
+            "es": "¿Hay algo en particular que haya provocado ese cambio?",
+            "en": "Is there anything in particular that has caused that change?"
           },
           {
-            "es": "Sí, hay mucha presión en el trabajo últimamente, y eso me tiene agotado."
+            "es": "Sí, hay mucha presión en el trabajo últimamente, y eso me tiene agotado.",
+            "en": "Yes, there's a lot of pressure at work lately, and it's wearing me out."
           }
         ],
         "checkpoint": [
@@ -3396,7 +3490,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 15,
     "title": "Ser, Estar y Haber: Usos Matizados, Part 2 of 2",
-    "summary": "Perfecciona el uso de estos tres verbos fundamentales, incluyendo los adjetivos que cambian de significado.",
+    "summary": "Aprende cincuenta palabras de psicología y personalidad y repasa los usos de ser, estar y haber.",
     "duration": "8 min",
     "sections": [
       {
@@ -3717,10 +3811,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Se puso rojo de vergüenza."
+            "es": "Se puso rojo de vergüenza.",
+            "en": "He went red with embarrassment."
           },
           {
-            "es": "Me pongo nervioso antes de hablar en público."
+            "es": "Me pongo nervioso antes de hablar en público.",
+            "en": "I get nervous before speaking in public."
           }
         ],
         "checkpoint": [
@@ -3740,10 +3836,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Con los años, se volvió más paciente."
+            "es": "Con los años, se volvió más paciente.",
+            "en": "Over the years, he became more patient."
           },
           {
-            "es": "La situación se volvió insostenible."
+            "es": "La situación se volvió insostenible.",
+            "en": "The situation became unbearable."
           }
         ],
         "checkpoint": [
@@ -3768,10 +3866,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Se hizo médico después de diez años de estudio."
+            "es": "Se hizo médico después de diez años de estudio.",
+            "en": "He became a doctor after ten years of study."
           },
           {
-            "es": "Con la práctica, se hizo experto en el tema."
+            "es": "Con la práctica, se hizo experto en el tema.",
+            "en": "With practice, he became an expert on the subject."
           }
         ],
         "checkpoint": [
@@ -3791,16 +3891,18 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Llegó a ser directora de la empresa."
+            "es": "Llegó a ser directora de la empresa.",
+            "en": "She went on to become the company's director."
           },
           {
-            "es": "El pequeño negocio se convirtió en una gran corporación."
+            "es": "El pequeño negocio se convirtió en una gran corporación.",
+            "en": "The small business turned into a big corporation."
           }
         ],
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "¿Qué verbo de cambio corresponde a cada situación? (Elige todas las correctas)",
+            "question": "¿Qué frases usan correctamente un verbo de cambio? (Elige todas las correctas)",
             "options": [
               "Se puso pálido al ver el accidente.",
               "Se hizo millonario invirtiendo con inteligencia.",
@@ -3823,16 +3925,20 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Después del accidente, se puso muy reflexivo sobre su vida."
+            "es": "Después del accidente, se puso muy reflexivo sobre su vida.",
+            "en": "After the accident, he became very reflective about his life."
           },
           {
-            "es": "Decidió dejar su trabajo y, con años de esfuerzo, se hizo chef profesional."
+            "es": "Decidió dejar su trabajo y, con años de esfuerzo, se hizo chef profesional.",
+            "en": "He decided to quit his job and, after years of hard work, became a professional chef."
           },
           {
-            "es": "Con el tiempo, se volvió una persona mucho más segura de sí misma."
+            "es": "Con el tiempo, se volvió una persona mucho más segura de sí misma.",
+            "en": "In time, he became a much more self-confident person."
           },
           {
-            "es": "Hoy, su pequeño restaurante se ha convertido en un referente de la ciudad."
+            "es": "Hoy, su pequeño restaurante se ha convertido en un referente de la ciudad.",
+            "en": "Today, his small restaurant has become a landmark in the city."
           }
         ],
         "checkpoint": [
@@ -3885,7 +3991,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 17,
     "title": "Verbos de Cambio, Part 2 of 2",
-    "summary": "Distingue entre ponerse, volverse, hacerse, llegar a ser y convertirse en para describir transformaciones.",
+    "summary": "Aprende 50 palabras sobre el desarrollo personal y el cambio, y repasa los verbos de cambio en contexto.",
     "duration": "8 min",
     "sections": [
       {
@@ -4263,8 +4369,8 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la oración con el verbo de cambio correcto.",
-        "sentence": "Después del susto, sus manos ___ (ponerse) temblorosas por unos minutos.",
-        "answer": "se pusieron",
+        "sentence": "Después del susto, las manos se le ___ (ponerse) temblorosas durante unos minutos.",
+        "answer": "pusieron",
         "explanation": "Ponerse indica un cambio físico repentino y temporal."
       },
       {
@@ -4442,14 +4548,16 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Conectores de contraste",
         "body": [
-          "Sin embargo, no obstante y aunque introducen una idea que contrasta con la anterior. \"Sin embargo\" y \"no obstante\" empiezan una nueva oración; \"aunque\" conecta dos cláusulas dentro de la misma oración."
+          "Sin embargo, no obstante y aunque introducen una idea que contrasta con la anterior. \"Sin embargo\" y \"no obstante\" suelen ir tras punto o punto y coma, seguidos de coma; \"aunque\" conecta dos cláusulas dentro de la misma oración."
         ],
         "examples": [
           {
-            "es": "El plan parecía sólido. Sin embargo, fracasó por falta de recursos."
+            "es": "El plan parecía sólido. Sin embargo, fracasó por falta de recursos.",
+            "en": "The plan seemed solid. However, it failed for lack of resources."
           },
           {
-            "es": "Aunque el plan parecía sólido, fracasó por falta de recursos."
+            "es": "Aunque el plan parecía sólido, fracasó por falta de recursos.",
+            "en": "Although the plan seemed solid, it failed for lack of resources."
           }
         ],
         "checkpoint": [
@@ -4469,10 +4577,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "A pesar de la lluvia, salimos a caminar."
+            "es": "A pesar de la lluvia, salimos a caminar.",
+            "en": "Despite the rain, we went out for a walk."
           },
           {
-            "es": "A pesar de que llovía, salimos a caminar."
+            "es": "A pesar de que llovía, salimos a caminar.",
+            "en": "Even though it was raining, we went out for a walk."
           }
         ],
         "checkpoint": [
@@ -4497,10 +4607,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "No hubo suficiente inversión; por lo tanto, el proyecto se canceló."
+            "es": "No hubo suficiente inversión; por lo tanto, el proyecto se canceló.",
+            "en": "There wasn't enough investment; therefore, the project was cancelled."
           },
           {
-            "es": "Llovió toda la noche, así que el partido se pospuso."
+            "es": "Llovió toda la noche, así que el partido se pospuso.",
+            "en": "It rained all night, so the match was postponed."
           }
         ],
         "checkpoint": [
@@ -4520,10 +4632,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Ya que insistes, aceptaré la propuesta."
+            "es": "Ya que insistes, aceptaré la propuesta.",
+            "en": "Since you insist, I'll accept the proposal."
           },
           {
-            "es": "El plan es sólido; además, cuenta con el apoyo de todo el equipo."
+            "es": "El plan es sólido; además, cuenta con el apoyo de todo el equipo.",
+            "en": "The plan is solid; moreover, it has the support of the whole team."
           }
         ],
         "checkpoint": [
@@ -4551,16 +4665,20 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "El sistema actual tiene serias limitaciones. Sin embargo, una reforma completa sería arriesgada."
+            "es": "El sistema actual tiene serias limitaciones. Sin embargo, una reforma completa sería arriesgada.",
+            "en": "The current system has serious limitations. However, a complete reform would be risky."
           },
           {
-            "es": "A pesar de esos riesgos, creo que el cambio es necesario, puesto que los resultados actuales son insuficientes."
+            "es": "A pesar de esos riesgos, creo que el cambio es necesario, puesto que los resultados actuales son insuficientes.",
+            "en": "Despite those risks, I think change is necessary, since the current results are not good enough."
           },
           {
-            "es": "Estoy de acuerdo en parte. No obstante, propongo una reforma gradual, ya que evitaría una crisis institucional."
+            "es": "Estoy de acuerdo en parte. No obstante, propongo una reforma gradual, ya que evitaría una crisis institucional.",
+            "en": "I partly agree. Nevertheless, I propose a gradual reform, since it would avoid an institutional crisis."
           },
           {
-            "es": "Por lo tanto, ¿podríamos considerar un plan piloto antes de una reforma total?"
+            "es": "Por lo tanto, ¿podríamos considerar un plan piloto antes de una reforma total?",
+            "en": "So could we consider a pilot scheme before a full reform?"
           }
         ],
         "checkpoint": [
@@ -4613,7 +4731,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 20,
     "title": "Conectores Avanzados, Part 2 of 2",
-    "summary": "Enlaza tus ideas con precisión: contraste, consecuencia, causa y adición, al nivel de un debate formal.",
+    "summary": "Aprende 50 palabras para debatir y argumentar (tesis, refutar, matizar, falacia…) y repasa los conectores.",
     "duration": "8 min",
     "sections": [
       {
@@ -4935,10 +5053,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "A mí me encanta esta canción."
+            "es": "A mí me encanta esta canción.",
+            "en": "I love this song."
           },
           {
-            "es": "Ese libro ya lo leí."
+            "es": "Ese libro ya lo leí.",
+            "en": "That book, I've already read it."
           }
         ],
         "checkpoint": [
@@ -4958,10 +5078,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Fue ella quien tomó la decisión final."
+            "es": "Fue ella quien tomó la decisión final.",
+            "en": "It was she who made the final decision."
           },
           {
-            "es": "Fue en 1990 cuando ocurrió el cambio."
+            "es": "Fue en 1990 cuando ocurrió el cambio.",
+            "en": "It was in 1990 that the change happened."
           }
         ],
         "checkpoint": [
@@ -4986,10 +5108,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "No te imaginas lo complicado que fue organizar todo esto."
+            "es": "No te imaginas lo complicado que fue organizar todo esto.",
+            "en": "You can't imagine how complicated it was to organise all this."
           },
           {
-            "es": "Se dio cuenta de lo importante que era su familia."
+            "es": "Se dio cuenta de lo importante que era su familia.",
+            "en": "He realised how important his family was."
           }
         ],
         "checkpoint": [
@@ -5009,13 +5133,16 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Apenas había llegado cuando sonó el teléfono."
+            "es": "Apenas había llegado cuando sonó el teléfono.",
+            "en": "I had barely arrived when the phone rang."
           },
           {
-            "es": "Jamás había visto algo tan hermoso."
+            "es": "Jamás había visto algo tan hermoso.",
+            "en": "I had never seen anything so beautiful."
           },
           {
-            "es": "No había visto jamás algo tan hermoso."
+            "es": "No había visto jamás algo tan hermoso.",
+            "en": "I had never ever seen anything so beautiful."
           }
         ],
         "checkpoint": [
@@ -5043,16 +5170,20 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Lo que más me impresionó fue la energía del público desde el primer momento."
+            "es": "Lo que más me impresionó fue la energía del público desde el primer momento.",
+            "en": "What impressed me most was the audience's energy from the very first moment."
           },
           {
-            "es": "Fue en el segundo tema cuando la banda realmente conectó con la audiencia."
+            "es": "Fue en el segundo tema cuando la banda realmente conectó con la audiencia.",
+            "en": "It was in the second song that the band really connected with the audience."
           },
           {
-            "es": "No te imaginas lo intenso que fue el final del concierto."
+            "es": "No te imaginas lo intenso que fue el final del concierto.",
+            "en": "You can't imagine how intense the end of the concert was."
           },
           {
-            "es": "A mí, personalmente, me pareció una de las mejores noches del año."
+            "es": "A mí, personalmente, me pareció una de las mejores noches del año.",
+            "en": "Personally, I thought it was one of the best nights of the year."
           }
         ],
         "checkpoint": [
@@ -5105,7 +5236,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 22,
     "title": "Énfasis y Orden de Palabras, Part 2 of 2",
-    "summary": "Da fuerza a tus ideas con estructuras enfáticas: ser...que, lo + adjetivo + que, y la anteposición de elementos.",
+    "summary": "Aprende 50 palabras sobre la música y las artes escénicas y repasa las estructuras enfáticas.",
     "duration": "8 min",
     "sections": [
       {
@@ -5127,8 +5258,8 @@ const B2_BASE_LESSONS: Lesson[] = [
             "en": "conjunto de personas que asisten a un evento"
           },
           {
-            "es": "el simulacro",
-            "en": "ejercicio de práctica que imita una situación real"
+            "es": "el ensayo general",
+            "en": "última práctica completa antes del estreno"
           },
           {
             "es": "ensayar",
@@ -5443,7 +5574,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "La empresa cuyos empleados protestaron cerró la semana pasada.",
-            "en": "the company whose employees protested"
+            "en": "The company whose employees protested closed last week."
           },
           {
             "es": "El escritor cuyas novelas ganaron el premio nacional es colombiano.",
@@ -5468,7 +5599,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "El cual, la cual, los cuales, las cuales: concordancia con el antecedente",
         "body": [
           "A diferencia de \"cuyo\", las formas \"el cual\", \"la cual\", \"los cuales\" y \"las cuales\" concuerdan en género y número con el ANTECEDENTE, es decir, con el sustantivo al que se refieren, igual que \"que\", pero marcando explícitamente el género y el número.",
-          "Se usan sobre todo después de preposiciones, en especial las preposiciones largas o compuestas (según, durante, mediante, sin, para, por, tras...), donde \"que\" solo puede sonar raro o quedar ambiguo."
+          "Se usan sobre todo después de preposiciones, en especial tras preposiciones de varias sílabas o locuciones (según, durante, mediante, a través de...), aunque también tras sin, para, por o tras. Tras preposición, \"que\" solo no basta: necesita artículo (el que) o se sustituye por \"el cual\"."
         ],
         "examples": [
           {
@@ -5484,8 +5615,8 @@ const B2_BASE_LESSONS: Lesson[] = [
             "en": "the documents without which we cannot continue"
           },
           {
-            "es": "Las empleadas para las cuales trabajo son muy amables.",
-            "en": "the employees for whom I work"
+            "es": "Las jefas para las cuales trabajo son muy amables.",
+            "en": "The bosses I work for are very kind."
           }
         ],
         "checkpoint": [
@@ -5558,7 +5689,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 24,
     "title": "Cuyo y El Cual: Pronombres Relativos Avanzados, Part 2 of 2",
-    "summary": "Aprende a usar \"cuyo\" para expresar posesión y \"el cual\" para hablar con precisión y formalidad, especialmente después de preposiciones.",
+    "summary": "Aprende cuándo usar «el cual» en lugar de «que» (registro formal y ambigüedad) y cómo «lo cual» retoma una idea completa.",
     "duration": "8 min",
     "sections": [
       {
@@ -6123,7 +6254,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Japón"
         ],
         "translation": "I don't know anyone who has lived in Japan.",
-        "explanation": "'Nadie' es un antecedente negativo, así que el verbo va en subjuntivo (presente perfecto de subjuntivo): haya vivido."
+        "explanation": "'Nadie' es un antecedente negativo, así que el verbo va en subjuntivo (pretérito perfecto de subjuntivo): haya vivido."
       },
       {
         "type": "multiple-choice",
@@ -6222,7 +6353,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "En cuanto, tan pronto como, hasta que, después de que",
         "body": [
-          "En cuanto, tan pronto como, hasta que y después de que siguen la misma regla que cuando: subjuntivo para el futuro, indicativo para lo habitual o lo ya ocurrido."
+          "En cuanto, tan pronto como, hasta que y después de que siguen la misma regla que cuando: subjuntivo para el futuro, indicativo para lo habitual o lo ya ocurrido (con «después de que» en pasado también es muy frecuente el subjuntivo: «después de que llegara»)."
         ],
         "examples": [
           {
@@ -7089,7 +7220,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Correlación de tiempos: pasado → imperfecto de subjuntivo",
         "body": [
-          "Recuerda: si el verbo principal está en un tiempo pasado (o condicional), la cláusula subordinada usa el imperfecto de subjuntivo."
+          "Recuerda: si el verbo principal está en indefinido, imperfecto o condicional, la cláusula subordinada normalmente usa el imperfecto de subjuntivo."
         ],
         "examples": [
           {
@@ -8286,7 +8417,8 @@ const B2_BASE_LESSONS: Lesson[] = [
             "en": "Ana said: 'I'm tired.' → Ana said she was tired."
           },
           {
-            "es": "Pedro dijo: 'Vivo en Madrid.' → Pedro dijo que vivía en Madrid."
+            "es": "Pedro dijo: 'Vivo en Madrid.' → Pedro dijo que vivía en Madrid.",
+            "en": "Pedro said: 'I live in Madrid.' → Pedro said he lived in Madrid."
           }
         ],
         "checkpoint": [
@@ -8311,7 +8443,8 @@ const B2_BASE_LESSONS: Lesson[] = [
             "en": "Luis said: 'I ate at home.' → Luis said he had eaten at home."
           },
           {
-            "es": "Marta dijo: 'He terminado el informe.' → Marta dijo que había terminado el informe."
+            "es": "Marta dijo: 'He terminado el informe.' → Marta dijo que había terminado el informe.",
+            "en": "Marta said: 'I've finished the report.' → Marta said she had finished the report."
           }
         ],
         "checkpoint": [
@@ -8490,7 +8623,8 @@ const B2_BASE_LESSONS: Lesson[] = [
             "en": "'Where do you live?' → He asked me where I lived."
           },
           {
-            "es": "'¿Qué hora es?' → Me preguntó qué hora era."
+            "es": "'¿Qué hora es?' → Me preguntó qué hora era.",
+            "en": "'What time is it?' → He asked me what time it was."
           }
         ],
         "checkpoint": [
@@ -8619,7 +8753,8 @@ const B2_BASE_LESSONS: Lesson[] = [
             "en": "'Close the door.' → He told me to close the door."
           },
           {
-            "es": "'No fumes aquí.' → Me dijo que no fumara allí."
+            "es": "'No fumes aquí.' → Me dijo que no fumara allí.",
+            "en": "'Don't smoke here.' → He told me not to smoke there."
           }
         ],
         "checkpoint": [
@@ -8644,7 +8779,8 @@ const B2_BASE_LESSONS: Lesson[] = [
             "en": "'Today is my birthday.' → She said that day was her birthday."
           },
           {
-            "es": "'Voy a llamarte mañana desde aquí.' → Dijo que iba a llamarme al día siguiente desde allí."
+            "es": "'Voy a llamarte mañana desde aquí.' → Dijo que iba a llamarme al día siguiente desde allí.",
+            "en": "'I'm going to call you tomorrow from here.' → He said he was going to call me the next day from there."
           }
         ],
         "checkpoint": [
@@ -9337,7 +9473,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Qué verbo se usa típicamente para 'llegar a ser presidente'?",
+        "question": "¿Qué verbo se usa típicamente para un cargo alcanzado tras una larga trayectoria, como '___ presidente'?",
         "options": [
           "ponerse",
           "volverse",
@@ -9364,7 +9500,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "He ended up asleep during the movie."
         ],
-        "explanation": "Quedarse dormido describe el estado resultante de un evento (ver la película), equivalente a 'fell asleep' en inglés."
+        "explanation": "«Quedarse» + participio o adjetivo expresa el estado en que alguien acaba: «se quedó dormido» = 'fell asleep'."
       },
       {
         "type": "translate",
@@ -9822,6 +9958,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con el conector adecuado.",
             "sentence": "Mi hermano estudia medicina; ___, yo estudio arquitectura.",
             "answer": "en cambio",
+            "altAnswers": ["por el contrario", "por otro lado"],
             "hint": "Contraste entre dos oraciones independientes, no subordinación.",
             "explanation": "'En cambio' contrasta dos oraciones independientes; 'aunque' necesitaría una cláusula subordinada, no dos oraciones separadas por punto y coma."
           }
@@ -9876,6 +10013,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con el conector de concesión adecuado.",
         "sentence": "___ el examen era difícil, muchos estudiantes aprobaron.",
         "answer": "Aunque",
+        "altAnswers": ["A pesar de que", "Si bien"],
         "hint": "Introduce una cláusula subordinada de concesión.",
         "explanation": "'Aunque' introduce una subordinada concesiva que contrasta con la oración principal."
       },
@@ -9952,8 +10090,9 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con el conector de consecuencia adecuado.",
         "sentence": "Los precios subieron mucho; ___, las ventas cayeron un veinte por ciento.",
         "answer": "por lo tanto",
+        "altAnswers": ["por consiguiente", "por tanto", "en consecuencia", "por ello"],
         "hint": "Registro formal, propio de un informe económico.",
-        "explanation": "'Por lo tanto' es el conector de consecuencia más formal, adecuado para un contexto económico o técnico."
+        "explanation": "'Por lo tanto' es un conector de consecuencia formal (como 'por consiguiente'), adecuado para un contexto económico o técnico."
       }
     ]
   },
@@ -9986,6 +10125,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con el conector de consecuencia más adecuado al registro.",
             "sentence": "El informe demuestra pérdidas constantes; ___, la empresa cerrará la sucursal.",
             "answer": "por lo tanto",
+            "altAnswers": ["por consiguiente", "por tanto", "en consecuencia"],
             "hint": "Registro formal, propio de un informe.",
             "explanation": "En un texto formal como un informe, 'por lo tanto' es más adecuado que 'así que', que es más coloquial."
           },
@@ -10070,6 +10210,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con el conector de adición adecuado.",
         "sentence": "Todos llegaron tarde a la reunión; ___ el jefe olvidó los documentos.",
         "answer": "incluso",
+        "altAnswers": ["además", "es más"],
         "hint": "Destaca un caso extremo o sorprendente dentro de una serie de hechos.",
         "explanation": "'Incluso' señala el hecho más sorprendente o extremo dentro de la enumeración de problemas."
       },
@@ -10105,6 +10246,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con el conector de consecuencia adecuado.",
         "sentence": "El sistema falló varias veces, ___ tuvimos que reiniciar el servidor por completo.",
         "answer": "de modo que",
+        "altAnswers": ["de manera que", "por lo que"],
         "hint": "Conector formal de consecuencia, similar a 'así que' pero más técnico.",
         "explanation": "'De modo que' introduce una consecuencia directa, con un registro algo más formal que 'así que'."
       }
@@ -10248,6 +10390,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con el conector de contraste adecuado.",
         "sentence": "A mí me encanta el café; ___, mi hermana prefiere el té.",
         "answer": "en cambio",
+        "altAnswers": ["por el contrario", "sin embargo", "por otro lado"],
         "hint": "Contrasta dos oraciones independientes.",
         "explanation": "'En cambio' contrasta dos preferencias distintas expresadas en oraciones independientes."
       },
@@ -10281,13 +10424,13 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 52,
     "title": "Advanced Vocabulary Practice, Part 1 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
+    "summary": "Pon a prueba las 50 palabras de «El arte y la literatura», una de las diez listas del vocabulario del nivel Avanzado.",
     "duration": "6 min",
     "sections": [
       {
         "heading": "El arte y la literatura",
         "body": [
-          "Las 50 palabras de la Lección 1, agrupadas para repasar."
+          "Las 50 palabras de la lección «Subjuntivo en Cláusulas Adjetivas, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -10551,13 +10694,13 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 53,
     "title": "Advanced Vocabulary Practice, Part 2 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
+    "summary": "Pon a prueba las 50 palabras de «La política y el gobierno», una de las diez listas del vocabulario del nivel Avanzado.",
     "duration": "7 min",
     "sections": [
       {
         "heading": "La política y el gobierno",
         "body": [
-          "Las 50 palabras de la Lección 2, agrupadas para repasar."
+          "Las 50 palabras de la lección «Subjuntivo en Cláusulas Adverbiales, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -10813,13 +10956,13 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 54,
     "title": "Advanced Vocabulary Practice, Part 3 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
+    "summary": "Pon a prueba las 50 palabras de «Los sueños y la imaginación», una de las diez listas del vocabulario del nivel Avanzado.",
     "duration": "7 min",
     "sections": [
       {
         "heading": "Los sueños y la imaginación",
         "body": [
-          "Las 50 palabras de la Lección 3, agrupadas para repasar."
+          "Las 50 palabras de la lección «Imperfecto de Subjuntivo y Secuencia de Tiempos, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -11063,30 +11206,30 @@ const B2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "matching",
-        "instructions": "Empareja cada palabra de tecnología con su significado.",
+        "instructions": "Empareja cada palabra de los sueños y la imaginación con su significado.",
         "pairs": [
           {
-            "left": "el algoritmo",
-            "right": "conjunto de pasos para resolver un problema"
+            "left": "la pesadilla",
+            "right": "sueño angustiante"
           },
           {
-            "left": "la brecha digital",
-            "right": "la desigualdad de acceso a la tecnología"
+            "left": "anhelar",
+            "right": "desear intensamente algo"
           },
           {
-            "left": "el servidor",
-            "right": "sistema que almacena y procesa datos a distancia"
+            "left": "la epifanía",
+            "right": "comprensión súbita y reveladora"
           },
           {
-            "left": "automatizar",
-            "right": "hacer que un proceso funcione sin intervención humana"
+            "left": "la quimera",
+            "right": "ilusión o deseo imposible de realizar"
           },
           {
-            "left": "el sesgo",
-            "right": "una inclinación o prejuicio no intencionado"
+            "left": "presentir",
+            "right": "sentir que algo va a ocurrir"
           }
         ],
-        "explanation": "Estas cinco palabras aparecen frecuentemente al hablar de tecnología e inteligencia artificial."
+        "explanation": "Estas cinco palabras aparecen frecuentemente al hablar de los sueños y la imaginación."
       }
     ]
   },
@@ -11095,13 +11238,13 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 55,
     "title": "Advanced Vocabulary Practice, Part 4 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
+    "summary": "Pon a prueba las 50 palabras de «La tecnología y la inteligencia artificial», una de las diez listas del vocabulario del nivel Avanzado.",
     "duration": "7 min",
     "sections": [
       {
         "heading": "La tecnología y la inteligencia artificial",
         "body": [
-          "Las 50 palabras de la Lección 4, agrupadas para repasar."
+          "Las 50 palabras de la lección «Cláusulas Hipotéticas con Si, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -11345,15 +11488,15 @@ const B2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Qué palabra describe el sentimiento de culpa que alguien siente al arrepentirse profundamente de una decisión?",
+        "question": "¿Qué palabra significa \"que ya no es útil o moderno\"?",
         "options": [
-          "el remordimiento",
-          "la ilusión",
-          "el desenlace",
-          "el empeño"
+          "obsoleto",
+          "confiable",
+          "irreversible",
+          "innovador"
         ],
         "correctIndex": 0,
-        "explanation": "«El remordimiento» es el sentimiento de culpa por algo que se hizo o se dejó de hacer. La ilusión es la esperanza, el desenlace es el final y el empeño es el esfuerzo."
+        "explanation": "«Obsoleto» es lo que ya no es útil o moderno. Confiable es digno de confianza, irreversible es lo que no se puede deshacer e innovador es lo que introduce novedades."
       }
     ]
   },
@@ -11362,13 +11505,13 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 56,
     "title": "Advanced Vocabulary Practice, Part 5 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
+    "summary": "Pon a prueba las 50 palabras de «Los arrepentimientos y las decisiones de vida», una de las diez listas del vocabulario del nivel Avanzado.",
     "duration": "8 min",
     "sections": [
       {
         "heading": "Los arrepentimientos y las decisiones de vida",
         "body": [
-          "Las 50 palabras de la Lección 5, agrupadas para repasar."
+          "Las 50 palabras de la lección «Condicional Perfecto y Pluscuamperfecto de Subjuntivo, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -11612,26 +11755,30 @@ const B2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Qué palabras se relacionan con el periodismo? (Elige todas las correctas)",
+        "question": "¿Qué palabras se relacionan con los arrepentimientos y las decisiones? (Elige todas las correctas)",
         "options": [
-          "el cronista",
-          "el encabezado",
-          "la premisa",
-          "verificar"
+          "la encrucijada",
+          "la disyuntiva",
+          "la primicia",
+          "el remordimiento"
         ],
         "correctIndexes": [
           0,
           1,
           3
         ],
-        "explanation": "\"La premisa\" pertenece al tema del debate y la argumentación, no del periodismo."
+        "explanation": "La encrucijada y la disyuntiva son momentos de decisión difícil, y el remordimiento es la culpa por algo hecho. \"La primicia\" es una noticia publicada antes que otros medios: pertenece al periodismo."
       },
       {
         "type": "fill-blank",
         "prompt": "Completa con la palabra correcta.",
-        "sentence": "Es una persona muy ___: siempre analiza sus propios sentimientos.",
-        "answer": "introspectiva",
-        "explanation": "\"Introspectivo/a\" describe a alguien que examina su propia mente y emociones."
+        "sentence": "Antes de decidir, conviene ___ bien los pros y los contras.",
+        "answer": "sopesar",
+        "altAnswers": [
+          "valorar",
+          "evaluar"
+        ],
+        "explanation": "\"Sopesar\" es evaluar cuidadosamente los pros y los contras antes de una decisión."
       }
     ]
   },
@@ -11683,7 +11830,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "cubrir (una noticia)",
-                "right": "reportar sobre un evento"
+                "right": "informar sobre un acontecimiento"
               },
               {
                 "left": "la cobertura mediática",
@@ -11726,7 +11873,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "el corresponsal",
-                "right": "periodista que reporta desde otro lugar"
+                "right": "periodista que informa desde otro lugar"
               },
               {
                 "left": "la primicia",
@@ -11890,30 +12037,30 @@ const B2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "matching",
-        "instructions": "Empareja cada palabra sobre el desarrollo personal con su significado.",
+        "instructions": "Empareja cada palabra sobre el periodismo con su significado.",
         "pairs": [
           {
-            "left": "la transformación",
-            "right": "proceso profundo de convertirse en algo distinto"
+            "left": "la primicia",
+            "right": "noticia publicada antes que otros medios"
           },
           {
-            "left": "progresar",
-            "right": "avanzar hacia una meta con el paso del tiempo"
+            "left": "el corresponsal",
+            "right": "periodista que informa desde otro lugar"
           },
           {
-            "left": "prosperar",
-            "right": "alcanzar un buen desarrollo o éxito"
+            "left": "la desinformación",
+            "right": "información falsa difundida intencionalmente"
           },
           {
-            "left": "la estabilidad",
-            "right": "condición de mantenerse firme y constante"
+            "left": "el portavoz",
+            "right": "persona que habla en nombre de un grupo"
           },
           {
-            "left": "fortalecerse",
-            "right": "volverse más firme o resistente con el tiempo"
+            "left": "la cámara de eco",
+            "right": "entorno donde solo se escuchan opiniones similares"
           }
         ],
-        "explanation": "Estas cinco palabras describen el proceso de cambiar y crecer como persona."
+        "explanation": "Estas cinco palabras son del vocabulario del periodismo y los medios de comunicación."
       }
     ]
   },
@@ -12172,31 +12319,31 @@ const B2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Qué palabra significa lo opuesto de \"refutar\" en un debate?",
+        "question": "¿Qué palabra significa \"capacidad de recuperarse ante la adversidad\"?",
         "options": [
-          "objetar",
-          "respaldar",
-          "la tesis",
-          "insistir"
+          "la vulnerabilidad",
+          "la resiliencia emocional",
+          "la impulsividad",
+          "el apego"
         ],
         "correctIndex": 1,
-        "explanation": "«Respaldar» significa apoyar una idea, lo contrario de refutarla. Objetar es poner objeciones (parecido a refutar), la tesis es la idea que se defiende e insistir es repetir."
+        "explanation": "«La resiliencia emocional» es la capacidad de recuperarse ante la adversidad. La vulnerabilidad es estar expuesto emocionalmente, la impulsividad es actuar sin reflexionar y el apego es un lazo emocional."
       },
       {
         "type": "multi-select",
-        "question": "¿Qué palabras describen la música o las artes escénicas? (Elige todas las correctas)",
+        "question": "¿Qué palabras pertenecen a la psicología y la personalidad? (Elige todas las correctas)",
         "options": [
-          "el ensayo general",
-          "el telón",
-          "la subvención",
-          "la partitura"
+          "la autoestima",
+          "el apego",
+          "el escaño",
+          "la introspección"
         ],
         "correctIndexes": [
           0,
           1,
           3
         ],
-        "explanation": "\"La subvención\" pertenece al tema de la política, no de las artes escénicas."
+        "explanation": "\"El escaño\" es el asiento de un parlamentario: pertenece a la política. La autoestima, el apego y la introspección son palabras de la psicología."
       }
     ]
   },
@@ -12456,9 +12603,9 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa con la palabra correcta.",
-        "sentence": "Antes del estreno, los actores hicieron un último ___ general.",
-        "answer": "ensayo",
-        "explanation": "\"El ensayo general\" es la práctica final antes de una función."
+        "sentence": "Para cambiar de vida, a veces hay que salir de la zona de ___.",
+        "answer": "confort",
+        "explanation": "\"Salir de la zona de confort\" es enfrentarse a situaciones nuevas o incómodas."
       }
     ]
   },
@@ -12717,30 +12864,30 @@ const B2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "matching",
-        "instructions": "Empareja cada palabra sobre los sueños y la imaginación con su significado.",
+        "instructions": "Empareja cada palabra sobre el debate con su significado.",
         "pairs": [
           {
-            "left": "el deseo ferviente",
-            "right": "aspiración muy fuerte de conseguir algo"
+            "left": "matizar",
+            "right": "precisar o suavizar una afirmación"
           },
           {
-            "left": "la fantasía",
-            "right": "idea alejada de la realidad que alguien imagina con gusto"
+            "left": "la falacia",
+            "right": "razonamiento aparentemente lógico pero erróneo"
           },
           {
-            "left": "el sino",
-            "right": "fuerza que, según la creencia popular, determina el curso de la vida"
+            "left": "zanjar (una discusión)",
+            "right": "poner fin de forma definitiva a un debate"
           },
           {
-            "left": "vislumbrar",
-            "right": "percibir algo de forma vaga o parcial"
+            "left": "el contraargumento",
+            "right": "argumento que se opone a otro"
           },
           {
-            "left": "la premonición",
-            "right": "presentimiento de algo que va a ocurrir"
+            "left": "la carga de la prueba",
+            "right": "obligación de demostrar una afirmación"
           }
         ],
-        "explanation": "Estas cinco palabras aparecen al hablar de sueños, deseos y el destino."
+        "explanation": "Estas cinco palabras son del vocabulario del debate y la argumentación."
       }
     ]
   },
@@ -12775,8 +12922,8 @@ const B2_BASE_LESSONS: Lesson[] = [
                 "right": "conjunto de personas que asisten a un evento"
               },
               {
-                "left": "el simulacro",
-                "right": "ejercicio de práctica que imita una situación real"
+                "left": "el ensayo general",
+                "right": "última práctica completa antes del estreno"
               },
               {
                 "left": "ensayar",
@@ -12999,15 +13146,15 @@ const B2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Qué palabra describe la acción de persuadir a alguien mediante razones sólidas y bien construidas?",
+        "question": "¿Qué palabra significa \"aplauso prolongado y entusiasta\"?",
         "options": [
-          "convencer",
-          "cuestionar",
-          "cronista",
-          "escaño"
+          "el estreno",
+          "la ovación",
+          "la taquilla",
+          "el telón"
         ],
-        "correctIndex": 0,
-        "explanation": "«Convencer» es persuadir con razones sólidas. Cuestionar es poner en duda, un cronista es quien escribe crónicas y un escaño es un asiento parlamentario."
+        "correctIndex": 1,
+        "explanation": "«La ovación» es un aplauso prolongado y entusiasta. El estreno es la primera función, la taquilla es donde se venden las entradas y el telón es la cortina del teatro."
       }
     ]
   },
@@ -13016,7 +13163,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 62,
     "title": "Advanced Comprehensive Review, Part 1 of 3",
-    "summary": "Repasa cada principio gramatical del nivel Avanzado y luego realiza un examen final de 30 preguntas.",
+    "summary": "Repasa los principios gramaticales del nivel Avanzado (relativas, adverbiales, secuencia de tiempos y condicionales) y compruébalos con un test breve.",
     "duration": "7 min",
     "sections": [
       {
@@ -13139,7 +13286,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 63,
     "title": "Advanced Comprehensive Review, Part 2 of 3",
-    "summary": "Repasa cada principio gramatical del nivel Avanzado y luego realiza un examen final de 30 preguntas.",
+    "summary": "Repasa condicionales del pasado, estilo indirecto, ser/estar/haber, verbos de cambio y conectores, y compruébalos con un test breve.",
     "duration": "7 min",
     "sections": [
       {
@@ -13239,6 +13386,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con el conector adecuado.",
         "sentence": "Estudió mucho; ___, no aprobó el examen.",
         "answer": "sin embargo",
+        "altAnswers": ["no obstante", "aun así"],
         "explanation": "\"Sin embargo\" introduce un contraste inesperado."
       },
       {
@@ -13274,7 +13422,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 64,
     "title": "Advanced Comprehensive Review, Part 3 of 3",
-    "summary": "Repasa cada principio gramatical del nivel Avanzado y luego realiza un examen final de 30 preguntas.",
+    "summary": "Repasa verbos de cambio, conectores y énfasis, más vocabulario del nivel Avanzado, con un test breve.",
     "duration": "7 min",
     "sections": [
       {
@@ -17317,7 +17465,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Álvaro no había vuelto al piso de la calle Lavapiés desde que su familia se mudó, hacía ya casi treinta años, tras la muerte de su padre. Fue durante la mudanza de su propia madre a una residencia, mientras vaciaban cajas olvidadas en el trastero, cuando encontró un dibujo infantil suyo con una nota escrita al dorso, de su puño y letra de niño de nueve años: \"Aquí escondí el tesoro, detrás del enchufe de mi cuarto\".",
-          "Se rió al principio, pensando que se trataba de algún juego olvidado sin mayor importancia, pero cuanto más lo pensaba, más le costaba recordar qué había escondido exactamente detrás de aquel enchufe. Algo en la vaguedad del recuerdo, en la imposibilidad de reconstruirlo del todo, despertó en él una curiosidad que no esperaba sentir a los treinta y ocho años por un secreto de infancia.",
+          "Se rio al principio, pensando que se trataba de algún juego olvidado sin mayor importancia, pero cuanto más lo pensaba, más le costaba recordar qué había escondido exactamente detrás de aquel enchufe. Algo en la vaguedad del recuerdo, en la imposibilidad de reconstruirlo del todo, despertó en él una curiosidad que no esperaba sentir a los treinta y ocho años por un secreto de infancia.",
           "Consiguió, a través del portero de toda la vida del edificio, que aún trabajaba allí, el contacto de los actuales inquilinos del piso, una pareja joven que, para su sorpresa, aceptó con curiosidad recibirlo una tarde para que pudiera ver \"su antiguo cuarto\". Álvaro subió las escaleras con una sensación extraña, como si estuviera a punto de entrar en un lugar que existía simultáneamente en dos tiempos distintos.",
           "El piso apenas se parecía al que recordaba: habían tirado un tabique, cambiado el suelo, pintado las paredes de colores que él nunca habría elegido. Solo al entrar en lo que había sido su habitación reconoció, con un golpe de emoción inesperado, la disposición de la ventana y el ángulo exacto en que entraba la luz por las tardes, algo que ningún cambio de decoración había logrado borrar del todo.",
           "Con permiso de los inquilinos, y ayudado por un pequeño destornillador que le prestaron, retiró con cuidado el enchufe que, para su alivio, seguía en el mismo lugar de siempre. Detrás, envuelto en un plástico ya amarillento, encontró una caja de cerillas que contenía, no un tesoro en el sentido que su yo adulto había imaginado, sino tres canicas gastadas, un botón dorado y una fotografía pequeña de su padre sonriendo, tomada un verano que Álvaro apenas recordaba.",

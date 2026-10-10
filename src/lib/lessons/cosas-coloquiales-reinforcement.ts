@@ -56,7 +56,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "Geografía festiva."
       ),
       fb("Completa.", "El 6 de enero se come el ___ de Reyes.", "roscón", "Se dice «roscón de Reyes» en España; en México es «rosca de Reyes». Es el dulce típico del 6 de enero."),
-      fb("Completa.", "Las flores naranjas de las ofrendas se llaman ___. (nombre de origen náhuatl; también «flor de muerto»)", "cempasúchil", "Flor típica del Día de Muertos; también se escribe cempoalxóchitl."),
+      { ...fb("Completa.", "Las flores naranjas de las ofrendas se llaman ___. (nombre de origen náhuatl; también «flor de muerto»)", "cempasúchil", "Flor típica del Día de Muertos; también se escribe cempoalxóchitl."), altAnswers: ["cempoalxóchitl", "cempasúchitl", "cempazúchil"] },
       fb("Completa.", "En San Fermín, los toros corren por las calles en los ___.", "encierros", "El encierro es la carrera de los toros por las calles hasta la plaza; en plural, «los encierros» de San Fermín."),
       mc(
         "«Echar la casa por la ventana» en Nochevieja significa…",
@@ -378,7 +378,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Completa.", "El balón se estrella en el ___. (palo horizontal de la portería)", "larguero", "El larguero (o travesaño) es el palo horizontal de la portería; los postes son los verticales."),
+      { ...fb("Completa.", "El balón se estrella en el ___. (palo horizontal de la portería)", "larguero", "El larguero (o travesaño) es el palo horizontal de la portería; los postes son los verticales."), altAnswers: ["travesaño"] },
       fb("Completa.", "Centro al área y ___ de cabeza… ¡gol! (rematar, presente)", "remata", "Los comentaristas narran en presente para dar inmediatez: centro al área y remata."),
       fb("Completa.", "Fue un partido de ___: se decidió en el último minuto.", "infarto", "«Un partido de infarto» es una hipérbole: tan emocionante que casi da un ataque al corazón."),
       mc(
@@ -459,7 +459,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "Letras que hablan en coloquial",
         "Reguetón y música urbana: perrear (bailar reguetón), flow (estilo), janguear (salir, Puerto Rico), parcero/parce (amigo, Colombia), bichota (mujer poderosa). Salsa: gozar (disfrutar bailando), sabor, ¡azúcar!, guaguancó. Tango: lunfardo (jerga porteña): mina (mujer), bulín (cuarto), laburo (trabajo), morfar (comer).",
         [
-          ["Esta noche salimos a janguear, parcero.", "Tonight we're going out, bro."],
+          ["Esta noche salimos a janguear, pana.", "Tonight we're going out, bro."],
           ["Me voy al laburo y después a la milonga.", "I'm off to work and then to the tango dance."],
         ],
         [
@@ -618,7 +618,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Completa.", "¡Qué bien te ___ ese color! (quedar, presente)", "queda", "«Quedarle bien algo a alguien» concuerda con la cosa (el color): te queda."),
+      { ...fb("Completa.", "¡Qué bien te ___ ese color! (quedar, presente)", "queda", "«Quedarle bien algo a alguien» concuerda con la cosa (el color): te queda (también «te sienta»)."), altAnswers: ["sienta"] },
       fb("Completa.", "Los comentarios no deseados en la calle se consideran acoso ___.", "callejero", "«Acoso callejero» es el término para los comentarios no deseados en la vía pública; el adjetivo concuerda con «acoso»."),
       mc(
         "¿Qué determina si un piropo es aceptable hoy?",

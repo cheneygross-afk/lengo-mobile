@@ -285,7 +285,13 @@ export type ReviewProfile = {
   /** Throw when the unit lacks material (Spanish course), or build what
    * it can (false; null when nothing at all). */
   strict: boolean;
+  /** Whether a sentence can be dictated (default: any short one). */
+  dictationOk?: (target: string) => boolean;
 };
+
+// Oral reductions taught as such ("cansao", "na", "pal", "pa'"): their
+// spelling varies (na / na' / nada), so they are never dictated.
+const ORAL_REDUCTION = new RegExp("\\p{L}'|(?<!\\p{L})(?:na|pal|pa|to|cansao|quedao|mojao|pasao|dormío)(?!\\p{L})", "iu");
 
 function spanishProfile(level: Level, start: string): ReviewProfile {
   const copy = level === "A1" || level === "A2" ? EN_COPY : ES_COPY;
@@ -301,6 +307,7 @@ function spanishProfile(level: Level, start: string): ReviewProfile {
     quiz: QUIZ_LEVELS.has(level),
     translationDirection: "en-es",
     strict: true,
+    dictationOk: (es) => !ORAL_REDUCTION.test(es),
   };
 }
 
@@ -360,7 +367,7 @@ export function buildUnitReview(
       explanation: copy.meaningExpl(s),
     });
   }
-  const dictSentences = take(2, (s) => s.es.length <= 60);
+  const dictSentences = take(2, (s) => s.es.length <= 60 && (profile.dictationOk?.(s.es) ?? true));
   if (dictSentences.length < 2) short("short sentences for dictation");
   const dictations: DictationExercise[] = dictSentences.map((s) => ({
     type: "dictation",

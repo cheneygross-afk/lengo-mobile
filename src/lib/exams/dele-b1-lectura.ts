@@ -17,7 +17,7 @@ const ACTIVITIES = [
 ];
 
 const FRAGMENTS = [
-  "A. Además, muchos coinciden en que el ambiente de trabajo ha mejorado.",
+  "A. Además, los clientes se quejaron de que nadie respondía los viernes.",
   "B. Sin embargo, no todas las empresas están preparadas para este cambio.",
   "C. Por eso, la mayoría de los trabajadores prefiere volver a la oficina cinco días.",
   "D. El resultado fue sorprendente: la productividad no bajó, sino que subió un 8 %.",
@@ -156,7 +156,7 @@ export const DELE_B1_LECTURA: ExamPaper = {
         {
           n: 11,
           question: "Al principio, algunos vecinos antiguos…",
-          options: ["no creían que los nuevos se iban a quedar.", "no querían hablar con los nuevos.", "se fueron del pueblo."],
+          options: ["no creían que los nuevos se fueran a quedar.", "no querían hablar con los nuevos.", "se fueron del pueblo."],
           answer: 0,
           explanation: "Julián: \"Pensábamos que se iban a ir en unos meses\".",
         },
@@ -226,7 +226,7 @@ export const DELE_B1_LECTURA: ExamPaper = {
         { n: 21, question: "", options: FRAGMENTS, answer: 6, explanation: "G continúa la lista de usos del viernes libre y anticipa el ejemplo de las gestiones." },
         { n: 22, question: "", options: FRAGMENTS, answer: 4, explanation: "E introduce a quienes tienen más estrés, y la frase siguiente explica por qué." },
         { n: 23, question: "", options: FRAGMENTS, answer: 1, explanation: "B: no todas las empresas pueden hacerlo, como muestran los ejemplos del hospital y la tienda." },
-        { n: 24, question: "", options: FRAGMENTS, answer: 7, explanation: "H añade una última ventaja antes de la conclusión del director. A y C no encajan: C contradice el texto." },
+        { n: 24, question: "", options: FRAGMENTS, answer: 7, explanation: "H añade una última ventaja antes de la conclusión del director. A contradice «Hemos ganado en todo» y C contradice el texto." },
       ],
     },
     {
@@ -238,7 +238,7 @@ export const DELE_B1_LECTURA: ExamPaper = {
           body:
             "Querida Elena:\n\n" +
             "¡Por fin tengo un momento para escribirte! Perdona que no (25) antes, pero este mes he tenido muchísimo trabajo. La semana pasada (26) a Santiago para una reunión y aproveché para ver a tu hermano; me dijo que estás muy contenta en tu nuevo trabajo.\n\n" +
-            "Te escribo porque en agosto quiero hacer el Camino de Santiago y me encantaría que vinieras (27) mí. Serían unos diez días, (28) Sarria hasta Santiago. Si te apetece, dímelo antes del día 15, (29) tengo que reservar los albergues pronto.\n\n" +
+            "Te escribo porque en agosto quiero hacer el Camino de Santiago y me encantaría que vinieras (27) nosotros: voy con mi primo Luis. Serían unos diez días, (28) Sarria hasta Santiago. Si te apetece, dímelo antes del día 15, (29) tengo que reservar los albergues pronto.\n\n" +
             "Espero que (30) todo bien por allí. Un abrazo muy fuerte,\n\nMarta",
         },
       ],
@@ -246,7 +246,7 @@ export const DELE_B1_LECTURA: ExamPaper = {
       items: [
         { n: 25, question: "", options: ["te escribí", "te haya escrito", "te escribo"], answer: 1, explanation: "\"Perdona que\" pide subjuntivo; el perfecto (haya escrito) se refiere a algo ya pasado." },
         { n: 26, question: "", options: ["fui", "iba", "he ido"], answer: 0, explanation: "\"La semana pasada\" marca una acción terminada: pretérito indefinido." },
-        { n: 27, question: "", options: ["por", "con", "de"], answer: 1, explanation: "Venir con alguien: acompañar a alguien." },
+        { n: 27, question: "", options: ["en", "con", "de"], answer: 1, explanation: "Venir con alguien: acompañar a alguien. Ojo: con + mí se dice conmigo." },
         { n: 28, question: "", options: ["desde", "entre", "hacia"], answer: 0, explanation: "Desde... hasta marca el punto de partida y el de llegada." },
         { n: 29, question: "", options: ["aunque", "porque", "sino"], answer: 1, explanation: "Da la causa: tiene que reservar pronto." },
         { n: 30, question: "", options: ["va", "vaya", "irá"], answer: 1, explanation: "\"Espero que\" expresa un deseo y lleva subjuntivo." },

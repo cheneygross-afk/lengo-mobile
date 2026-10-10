@@ -181,7 +181,7 @@ export const DELE_B2_AUDITIVA: ExamPaper = {
             { voice: "f", text: "Trabajé seis años en un estudio que diseñaba torres de oficinas en Oriente Medio. Era un trabajo muy bien pagado, pero un día visité uno de nuestros edificios terminados y estaba medio vacío. Me pregunté para quién estaba trabajando. Volví a mi ciudad, Zaragoza, y empecé con un proyecto pequeño: convertir una antigua fábrica de chocolate en viviendas para jóvenes." },
             { voice: "m", text: "¿Y cómo reaccionaron los vecinos del barrio?" },
             { voice: "f", text: "Al principio, con desconfianza. Pensaban que iba a subir el precio de la zona y que tendrían que irse. Organizamos reuniones abiertas y dejamos que propusieran usos para la planta baja. Al final, allí hay ahora una biblioteca y un comedor social. Esa participación fue la clave del éxito." },
-            { voice: "m", text: "¿Qué le pediría a las administraciones?" },
+            { voice: "m", text: "¿Qué les pediría a las administraciones?" },
             { voice: "f", text: "Sobre todo, que simplifiquen los trámites. Hoy se tarda más en conseguir un permiso para rehabilitar que en hacer la obra. Y ayudas directas para las comunidades de vecinos con menos recursos, que son precisamente las que viven en los edificios más deteriorados." },
           ],
         },

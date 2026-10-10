@@ -24,10 +24,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Espero que tengas un buen día."
+            "es": "Espero que tengas un buen día.",
+            "en": "I hope you have a good day."
           },
           {
-            "es": "Es posible que llueva mañana."
+            "es": "Es posible que llueva mañana.",
+            "en": "It might rain tomorrow."
           }
         ]
       },
@@ -39,10 +41,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Quiero que hables con ella."
+            "es": "Quiero que hables con ella.",
+            "en": "I want you to talk to her."
           },
           {
-            "es": "Es importante que comas bien."
+            "es": "Es importante que comas bien.",
+            "en": "It's important that you eat well."
           }
         ],
         "checkpoint": [
@@ -63,10 +67,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Quiero que tú quieras esto tanto como yo."
+            "es": "Quiero que tú quieras esto tanto como yo.",
+            "en": "I want you to want this as much as I do."
           },
           {
-            "es": "Ojalá que ella pida el mismo plato."
+            "es": "Ojalá que ella pida el mismo plato.",
+            "en": "I hope she orders the same dish."
           }
         ],
         "checkpoint": [
@@ -91,10 +97,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Espero que estés bien."
+            "es": "Espero que estés bien.",
+            "en": "I hope you're well."
           },
           {
-            "es": "Es posible que ella sea la nueva jefa."
+            "es": "Es posible que ella sea la nueva jefa.",
+            "en": "She may be the new boss."
           }
         ],
         "checkpoint": [
@@ -114,16 +122,20 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Espero que tengamos buen tiempo este fin de semana."
+            "es": "Espero que tengamos buen tiempo este fin de semana.",
+            "en": "I hope we have good weather this weekend."
           },
           {
-            "es": "Yo también. Quiero que vayamos a la playa si hace sol."
+            "es": "Yo también. Quiero que vayamos a la playa si hace sol.",
+            "en": "Me too. I want us to go to the beach if it's sunny."
           },
           {
-            "es": "Es posible que llueva el sábado, según el pronóstico."
+            "es": "Es posible que llueva el sábado, según el pronóstico.",
+            "en": "It might rain on Saturday, according to the forecast."
           },
           {
-            "es": "Bueno, ojalá que se equivoquen. ¡Necesito unas vacaciones!"
+            "es": "Bueno, ojalá que se equivoquen. ¡Necesito unas vacaciones!",
+            "en": "Well, let's hope they're wrong. I need a vacation!"
           }
         ],
         "checkpoint": [
@@ -498,10 +510,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Quiero que tú vengas a mi fiesta."
+            "es": "Quiero que tú vengas a mi fiesta.",
+            "en": "I want you to come to my party."
           },
           {
-            "es": "Prefiero que comamos en casa hoy."
+            "es": "Prefiero que comamos en casa hoy.",
+            "en": "I'd rather we eat at home today."
           }
         ],
         "checkpoint": [
@@ -522,10 +536,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Dudo que él llegue a tiempo."
+            "es": "Dudo que él llegue a tiempo.",
+            "en": "I doubt he'll arrive on time."
           },
           {
-            "es": "No creo que sea tan difícil."
+            "es": "No creo que sea tan difícil.",
+            "en": "I don't think it's that hard."
           }
         ],
         "checkpoint": [
@@ -550,10 +566,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Me alegro de que estés aquí."
+            "es": "Me alegro de que estés aquí.",
+            "en": "I'm glad you're here."
           },
           {
-            "es": "Siento que no puedas venir."
+            "es": "Siento que no puedas venir.",
+            "en": "I'm sorry you can't come."
           }
         ],
         "checkpoint": [
@@ -573,10 +591,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Qué bueno que hayas venido."
+            "es": "Qué bueno que hayas venido.",
+            "en": "It's great that you came."
           },
           {
-            "es": "Es una lástima que no puedan quedarse más tiempo."
+            "es": "Es una lástima que no puedan quedarse más tiempo.",
+            "en": "It's a shame they can't stay longer."
           }
         ],
         "checkpoint": [
@@ -605,16 +625,20 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Dudo que terminemos el proyecto para el viernes."
+            "es": "Dudo que terminemos el proyecto para el viernes.",
+            "en": "I doubt we'll finish the project by Friday."
           },
           {
-            "es": "Yo también lo dudo. Espero que el jefe entienda."
+            "es": "Yo también lo dudo. Espero que el jefe entienda.",
+            "en": "I doubt it too. I hope the boss understands."
           },
           {
-            "es": "Me preocupa que se enoje si no cumplimos el plazo."
+            "es": "Me preocupa que se enoje si no cumplimos el plazo.",
+            "en": "I'm worried he'll get angry if we miss the deadline."
           },
           {
-            "es": "Ojalá que podamos explicarle la situación con calma."
+            "es": "Ojalá que podamos explicarle la situación con calma.",
+            "en": "Hopefully we can explain the situation to him calmly."
           }
         ],
         "checkpoint": [
@@ -1218,10 +1242,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Es importante que estudies para el examen."
+            "es": "Es importante que estudies para el examen.",
+            "en": "It's important that you study for the exam."
           },
           {
-            "es": "Es necesario que lleguemos temprano."
+            "es": "Es necesario que lleguemos temprano.",
+            "en": "We need to arrive early."
           }
         ],
         "checkpoint": [
@@ -1241,10 +1267,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Es verdad que el español es útil."
+            "es": "Es verdad que el español es útil.",
+            "en": "It's true that Spanish is useful."
           },
           {
-            "es": "Es obvio que ella trabaja mucho."
+            "es": "Es obvio que ella trabaja mucho.",
+            "en": "It's obvious that she works hard."
           }
         ],
         "checkpoint": [
@@ -1269,10 +1297,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "¡Ojalá tengamos suerte!"
+            "es": "¡Ojalá tengamos suerte!",
+            "en": "Let's hope we're lucky!"
           },
           {
-            "es": "Ojalá que no llueva mañana."
+            "es": "Ojalá que no llueva mañana.",
+            "en": "I hope it doesn't rain tomorrow."
           }
         ],
         "checkpoint": [
@@ -1292,7 +1322,8 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Ojalá que sea posible, porque es importante que lleguemos a un acuerdo."
+            "es": "Ojalá que sea posible, porque es importante que lleguemos a un acuerdo.",
+            "en": "I hope it's possible, because it's important that we reach an agreement."
           }
         ],
         "checkpoint": [
@@ -1320,16 +1351,20 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Ojalá que el vuelo salga a tiempo mañana."
+            "es": "Ojalá que el vuelo salga a tiempo mañana.",
+            "en": "I hope the flight leaves on time tomorrow."
           },
           {
-            "es": "Sí, es importante que lleguemos antes del mediodía."
+            "es": "Sí, es importante que lleguemos antes del mediodía.",
+            "en": "Yes, it's important that we get there before noon."
           },
           {
-            "es": "Es necesario que confirmemos el hotel esta noche."
+            "es": "Es necesario que confirmemos el hotel esta noche.",
+            "en": "We need to confirm the hotel tonight."
           },
           {
-            "es": "Buena idea. ¡Ojalá que todo salga perfecto!"
+            "es": "Buena idea. ¡Ojalá que todo salga perfecto!",
+            "en": "Good idea. Here's hoping everything goes perfectly!"
           }
         ],
         "checkpoint": [
@@ -1702,13 +1737,16 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Habla más despacio, por favor."
+            "es": "Habla más despacio, por favor.",
+            "en": "Speak more slowly, please."
           },
           {
-            "es": "Ten paciencia."
+            "es": "Ten paciencia.",
+            "en": "Be patient."
           },
           {
-            "es": "Ve a la tienda."
+            "es": "Ve a la tienda.",
+            "en": "Go to the store."
           }
         ],
         "checkpoint": [
@@ -1728,10 +1766,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Por favor, espere un momento."
+            "es": "Por favor, espere un momento.",
+            "en": "Please wait a moment."
           },
           {
-            "es": "Firmen aquí, por favor."
+            "es": "Firmen aquí, por favor.",
+            "en": "Sign here, please."
           }
         ],
         "checkpoint": [
@@ -1757,13 +1797,16 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "No llegues tarde."
+            "es": "No llegues tarde.",
+            "en": "Don't be late."
           },
           {
-            "es": "No se preocupe."
+            "es": "No se preocupe.",
+            "en": "Don't worry."
           },
           {
-            "es": "No hagan ruido, por favor."
+            "es": "No hagan ruido, por favor.",
+            "en": "Please don't make any noise."
           }
         ],
         "checkpoint": [
@@ -1784,13 +1827,16 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Vamos a comer algo."
+            "es": "Vamos a comer algo.",
+            "en": "Let's get something to eat."
           },
           {
-            "es": "Sentémonos aquí."
+            "es": "Sentémonos aquí.",
+            "en": "Let's sit here."
           },
           {
-            "es": "¡Vámonos ya!"
+            "es": "¡Vámonos ya!",
+            "en": "Let's go now!"
           }
         ],
         "checkpoint": [
@@ -1818,16 +1864,20 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Corte las cebollas en trozos pequeños."
+            "es": "Corte las cebollas en trozos pequeños.",
+            "en": "Cut the onions into small pieces."
           },
           {
-            "es": "Caliente el aceite en una sartén grande."
+            "es": "Caliente el aceite en una sartén grande.",
+            "en": "Heat the oil in a large frying pan."
           },
           {
-            "es": "Añada las cebollas y cocine por cinco minutos."
+            "es": "Añada las cebollas y cocine por cinco minutos.",
+            "en": "Add the onions and cook for five minutes."
           },
           {
-            "es": "No se olvide de agregar sal y pimienta al final."
+            "es": "No se olvide de agregar sal y pimienta al final.",
+            "en": "Don't forget to add salt and pepper at the end."
           }
         ],
         "checkpoint": [
@@ -2199,10 +2249,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "hablaría, hablarías, hablaría, hablaríamos, hablaríais, hablarían"
+            "es": "hablaría, hablarías, hablaría, hablaríamos, hablaríais, hablarían",
+            "en": "I/you/he/we/you all/they would speak"
           },
           {
-            "es": "Yo viajaría a Japón si tuviera dinero."
+            "es": "Yo viajaría a Japón si tuviera dinero.",
+            "en": "I would travel to Japan if I had money."
           }
         ],
         "checkpoint": [
@@ -2222,10 +2274,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "¿Podrías ayudarme con esto?"
+            "es": "¿Podrías ayudarme con esto?",
+            "en": "Could you help me with this?"
           },
           {
-            "es": "Yo diría que sí."
+            "es": "Yo diría que sí.",
+            "en": "I'd say yes."
           }
         ],
         "checkpoint": [
@@ -2251,10 +2305,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "¿Me pasarías la sal, por favor?"
+            "es": "¿Me pasarías la sal, por favor?",
+            "en": "Would you pass me the salt, please?"
           },
           {
-            "es": "Yo que tú, hablaría con ella primero."
+            "es": "Yo que tú, hablaría con ella primero.",
+            "en": "If I were you, I'd talk to her first."
           }
         ],
         "checkpoint": [
@@ -2274,10 +2330,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Con más tiempo, terminaría el proyecto hoy."
+            "es": "Con más tiempo, terminaría el proyecto hoy.",
+            "en": "With more time, I'd finish the project today."
           },
           {
-            "es": "En tu situación, yo pediría ayuda."
+            "es": "En tu situación, yo pediría ayuda.",
+            "en": "In your situation, I'd ask for help."
           }
         ],
         "checkpoint": [
@@ -2305,16 +2363,20 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Buenas tardes, ¿podría hacer una reserva para esta noche?"
+            "es": "Buenas tardes, ¿podría hacer una reserva para esta noche?",
+            "en": "Good afternoon, could I make a reservation for tonight?"
           },
           {
-            "es": "Claro, ¿para cuántas personas sería?"
+            "es": "Claro, ¿para cuántas personas sería?",
+            "en": "Of course, for how many people would that be?"
           },
           {
-            "es": "Seríamos cuatro personas, a las ocho."
+            "es": "Seríamos cuatro personas, a las ocho.",
+            "en": "There would be four of us, at eight."
           },
           {
-            "es": "Perfecto. ¿Preferirían una mesa adentro o afuera?"
+            "es": "Perfecto. ¿Preferirían una mesa adentro o afuera?",
+            "en": "Perfect. Would you prefer a table inside or outside?"
           }
         ],
         "checkpoint": [
@@ -2685,10 +2747,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Si llueve, no vamos al parque."
+            "es": "Si llueve, no vamos al parque.",
+            "en": "If it rains, we don't go to the park."
           },
           {
-            "es": "Si tienes hambre, come algo."
+            "es": "Si tienes hambre, come algo.",
+            "en": "If you're hungry, eat something."
           }
         ],
         "checkpoint": [
@@ -2708,10 +2772,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Si estudias, aprobarás el examen."
+            "es": "Si estudias, aprobarás el examen.",
+            "en": "If you study, you'll pass the exam."
           },
           {
-            "es": "Si no salimos ahora, llegaremos tarde."
+            "es": "Si no salimos ahora, llegaremos tarde.",
+            "en": "If we don't leave now, we'll be late."
           }
         ],
         "checkpoint": [
@@ -2736,10 +2802,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Si necesitas ayuda, pregúntame."
+            "es": "Si necesitas ayuda, pregúntame.",
+            "en": "If you need help, ask me."
           },
           {
-            "es": "Si ves a Carlos, dile que lo llamé."
+            "es": "Si ves a Carlos, dile que lo llamé.",
+            "en": "If you see Carlos, tell him I called him."
           }
         ],
         "checkpoint": [
@@ -2759,10 +2827,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Si voy a España, visitaré Sevilla. (no es seguro)"
+            "es": "Si voy a España, visitaré Sevilla. (no es seguro)",
+            "en": "If I go to Spain, I'll visit Seville. (not certain)"
           },
           {
-            "es": "Cuando voy a España, visito a mi familia. (rutina)"
+            "es": "Cuando voy a España, visito a mi familia. (rutina)",
+            "en": "When I go to Spain, I visit my family. (routine)"
           }
         ],
         "checkpoint": [
@@ -2790,16 +2860,20 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Si estudiamos juntos esta noche, entenderemos mejor el tema."
+            "es": "Si estudiamos juntos esta noche, entenderemos mejor el tema.",
+            "en": "If we study together tonight, we'll understand the topic better."
           },
           {
-            "es": "Buena idea. Si terminamos temprano, podemos ver una película."
+            "es": "Buena idea. Si terminamos temprano, podemos ver una película.",
+            "en": "Good idea. If we finish early, we can watch a movie."
           },
           {
-            "es": "Perfecto. Y si tienes preguntas, pregúntale al profesor mañana."
+            "es": "Perfecto. Y si tienes preguntas, pregúntale al profesor mañana.",
+            "en": "Perfect. And if you have questions, ask the teacher tomorrow."
           },
           {
-            "es": "Sí, si no entiendo algo, se lo preguntaré."
+            "es": "Sí, si no entiendo algo, se lo preguntaré.",
+            "en": "Yes, if I don't understand something, I'll ask him."
           }
         ],
         "checkpoint": [
@@ -3172,10 +3246,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "He hablado con ella esta mañana."
+            "es": "He hablado con ella esta mañana.",
+            "en": "I've spoken with her this morning."
           },
           {
-            "es": "¿Has comido ya?"
+            "es": "¿Has comido ya?",
+            "en": "Have you eaten yet?"
           }
         ],
         "checkpoint": [
@@ -3195,10 +3271,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "He hecho la tarea."
+            "es": "He hecho la tarea.",
+            "en": "I've done the homework."
           },
           {
-            "es": "¿Has visto la nueva película?"
+            "es": "¿Has visto la nueva película?",
+            "en": "Have you seen the new movie?"
           }
         ],
         "checkpoint": [
@@ -3224,10 +3302,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Nunca he estado en Argentina."
+            "es": "Nunca he estado en Argentina.",
+            "en": "I've never been to Argentina."
           },
           {
-            "es": "Esta semana he trabajado mucho."
+            "es": "Esta semana he trabajado mucho.",
+            "en": "I've worked a lot this week."
           }
         ],
         "checkpoint": [
@@ -3247,10 +3327,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Se lo he dicho muchas veces."
+            "es": "Se lo he dicho muchas veces.",
+            "en": "I've told him many times."
           },
           {
-            "es": "Ya me he duchado."
+            "es": "Ya me he duchado.",
+            "en": "I've already showered."
           }
         ],
         "checkpoint": [
@@ -3278,16 +3360,20 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "¿Alguna vez has viajado a Sudamérica?"
+            "es": "¿Alguna vez has viajado a Sudamérica?",
+            "en": "Have you ever traveled to South America?"
           },
           {
-            "es": "Sí, he estado en Perú y Colombia. He probado platos increíbles."
+            "es": "Sí, he estado en Perú y Colombia. He probado platos increíbles.",
+            "en": "Yes, I've been to Peru and Colombia. I've tried some incredible dishes."
           },
           {
-            "es": "¿Qué es lo más interesante que has visto?"
+            "es": "¿Qué es lo más interesante que has visto?",
+            "en": "What's the most interesting thing you've seen?"
           },
           {
-            "es": "He visto Machu Picchu al amanecer. Nunca he olvidado esa vista."
+            "es": "He visto Machu Picchu al amanecer. Nunca he olvidado esa vista.",
+            "en": "I've seen Machu Picchu at sunrise. I've never forgotten that view."
           }
         ],
         "checkpoint": [
@@ -3659,10 +3745,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Ya había comido cuando llegaste."
+            "es": "Ya había comido cuando llegaste.",
+            "en": "I had already eaten when you arrived."
           },
           {
-            "es": "Nunca habíamos visitado ese país."
+            "es": "Nunca habíamos visitado ese país.",
+            "en": "We had never visited that country."
           }
         ],
         "checkpoint": [
@@ -3682,10 +3770,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Cuando el avión aterrizó, ya había oscurecido."
+            "es": "Cuando el avión aterrizó, ya había oscurecido.",
+            "en": "When the plane landed, it had already gotten dark."
           },
           {
-            "es": "Ellos ya se habían ido cuando yo llegué."
+            "es": "Ellos ya se habían ido cuando yo llegué.",
+            "en": "They had already left when I arrived."
           }
         ],
         "checkpoint": [
@@ -3710,10 +3800,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Todavía no habíamos terminado cuando se fue la luz."
+            "es": "Todavía no habíamos terminado cuando se fue la luz.",
+            "en": "We hadn't finished yet when the power went out."
           },
           {
-            "es": "Nunca antes había probado la comida tailandesa."
+            "es": "Nunca antes había probado la comida tailandesa.",
+            "en": "I had never tried Thai food before."
           }
         ],
         "checkpoint": [
@@ -3733,7 +3825,8 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Cuando llegué a la fiesta, ya se habían ido todos."
+            "es": "Cuando llegué a la fiesta, ya se habían ido todos.",
+            "en": "When I got to the party, everyone had already left."
           }
         ],
         "checkpoint": [
@@ -3761,16 +3854,20 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Cuando llegamos a la iglesia, la ceremonia ya había empezado."
+            "es": "Cuando llegamos a la iglesia, la ceremonia ya había empezado.",
+            "en": "When we got to the church, the ceremony had already started."
           },
           {
-            "es": "¡Qué vergüenza! ¿Por qué llegaron tarde?"
+            "es": "¡Qué vergüenza! ¿Por qué llegaron tarde?",
+            "en": "How embarrassing! Why were you late?"
           },
           {
-            "es": "Habíamos salido a tiempo, pero el tráfico era terrible."
+            "es": "Habíamos salido a tiempo, pero el tráfico era terrible.",
+            "en": "We had left on time, but the traffic was terrible."
           },
           {
-            "es": "Al menos no se habían casado todavía cuando entraron, ¿no?"
+            "es": "Al menos no se habían casado todavía cuando entraron, ¿no?",
+            "en": "At least they hadn't gotten married yet when you walked in, right?"
           }
         ],
         "checkpoint": [
@@ -6203,7 +6300,8 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "hablar → hable, hables, hable, hablemos, habléis, hablen"
+            "es": "hablar → hable, hables, hable, hablemos, habléis, hablen",
+            "en": "to speak → (that) I/you/he/we/you all/they speak"
           },
           {
             "es": "Es importante que trabajes duro.",
@@ -6243,10 +6341,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "comer → coma, comas, coma, comamos, comáis, coman"
+            "es": "comer → coma, comas, coma, comamos, comáis, coman",
+            "en": "to eat → (that) I/you/he/we/you all/they eat"
           },
           {
-            "es": "vivir → viva, vivas, viva, vivamos, viváis, vivan"
+            "es": "vivir → viva, vivas, viva, vivamos, viváis, vivan",
+            "en": "to live → (that) I/you/he/we/you all/they live"
           },
           {
             "es": "Quiero que leas este libro.",
@@ -6270,13 +6370,16 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "buscar → busque, busques, busque, busquemos, busquéis, busquen"
+            "es": "buscar → busque, busques, busque, busquemos, busquéis, busquen",
+            "en": "to look for → (that) I/you/he/we/you all/they look for"
           },
           {
-            "es": "llegar → llegue, llegues, llegue, lleguemos, lleguéis, lleguen"
+            "es": "llegar → llegue, llegues, llegue, lleguemos, lleguéis, lleguen",
+            "en": "to arrive → (that) I/you/he/we/you all/they arrive"
           },
           {
-            "es": "empezar → empiece, empieces, empiece, empecemos, empecéis, empiecen"
+            "es": "empezar → empiece, empieces, empiece, empecemos, empecéis, empiecen",
+            "en": "to begin → (that) I/you/he/we/you all/they begin"
           }
         ],
         "checkpoint": [
@@ -6372,13 +6475,16 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "pensar → piense, pienses, piense, pensemos, penséis, piensen"
+            "es": "pensar → piense, pienses, piense, pensemos, penséis, piensen",
+            "en": "to think → (that) I/you/he/we/you all/they think"
           },
           {
-            "es": "volver → vuelva, vuelvas, vuelva, volvamos, volváis, vuelvan"
+            "es": "volver → vuelva, vuelvas, vuelva, volvamos, volváis, vuelvan",
+            "en": "to return → (that) I/you/he/we/you all/they return"
           },
           {
-            "es": "entender → entienda, entiendas, entienda, entendamos, entendáis, entiendan"
+            "es": "entender → entienda, entiendas, entienda, entendamos, entendáis, entiendan",
+            "en": "to understand → (that) I/you/he/we/you all/they understand"
           }
         ],
         "checkpoint": [
@@ -6410,13 +6516,16 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "pedir → pida, pidas, pida, pidamos, pidáis, pidan"
+            "es": "pedir → pida, pidas, pida, pidamos, pidáis, pidan",
+            "en": "to ask for → (that) I/you/he/we/you all/they ask for"
           },
           {
-            "es": "dormir → duerma, duermas, duerma, durmamos, durmáis, duerman"
+            "es": "dormir → duerma, duermas, duerma, durmamos, durmáis, duerman",
+            "en": "to sleep → (that) I/you/he/we/you all/they sleep"
           },
           {
-            "es": "sentir → sienta, sientas, sienta, sintamos, sintáis, sientan"
+            "es": "sentir → sienta, sientas, sienta, sintamos, sintáis, sientan",
+            "en": "to feel → (that) I/you/he/we/you all/they feel"
           }
         ],
         "checkpoint": [
@@ -6448,22 +6557,28 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "ser → sea, seas, sea, seamos, seáis, sean"
+            "es": "ser → sea, seas, sea, seamos, seáis, sean",
+            "en": "to be → (that) I/you/he/we/you all/they be"
           },
           {
-            "es": "estar → esté, estés, esté, estemos, estéis, estén"
+            "es": "estar → esté, estés, esté, estemos, estéis, estén",
+            "en": "to be → (that) I/you/he/we/you all/they be"
           },
           {
-            "es": "ir → vaya, vayas, vaya, vayamos, vayáis, vayan"
+            "es": "ir → vaya, vayas, vaya, vayamos, vayáis, vayan",
+            "en": "to go → (that) I/you/he/we/you all/they go"
           },
           {
-            "es": "saber → sepa, sepas, sepa, sepamos, sepáis, sepan"
+            "es": "saber → sepa, sepas, sepa, sepamos, sepáis, sepan",
+            "en": "to know → (that) I/you/he/we/you all/they know"
           },
           {
-            "es": "dar → dé, des, dé, demos, deis, den"
+            "es": "dar → dé, des, dé, demos, deis, den",
+            "en": "to give → (that) I/you/he/we/you all/they give"
           },
           {
-            "es": "haber → haya, hayas, haya, hayamos, hayáis, hayan"
+            "es": "haber → haya, hayas, haya, hayamos, hayáis, hayan",
+            "en": "to have (auxiliary) → (that) I/you/he/we/you all/they have"
           }
         ],
         "checkpoint": [
@@ -6570,13 +6685,16 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "tener → tengo → tenga, tengas, tenga, tengamos, tengáis, tengan"
+            "es": "tener → tengo → tenga, tengas, tenga, tengamos, tengáis, tengan",
+            "en": "to have → I have → (that) I/you/he/we/you all/they have"
           },
           {
-            "es": "hacer → hago → haga, hagas, haga, hagamos, hagáis, hagan"
+            "es": "hacer → hago → haga, hagas, haga, hagamos, hagáis, hagan",
+            "en": "to do/make → I do → (that) I/you/he/we/you all/they do"
           },
           {
-            "es": "conocer → conozco → conozca, conozcas, conozca, conozcamos, conozcáis, conozcan"
+            "es": "conocer → conozco → conozca, conozcas, conozca, conozcamos, conozcáis, conozcan",
+            "en": "to know (be familiar with) → I know → (that) I/you/he/we/you all/they know"
           }
         ],
         "checkpoint": [
@@ -8282,10 +8400,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "hablar → hablaría, hablarías, hablaría, hablaríamos, hablaríais, hablarían"
+            "es": "hablar → hablaría, hablarías, hablaría, hablaríamos, hablaríais, hablarían",
+            "en": "to speak → I/you/he/we/you all/they would speak"
           },
           {
-            "es": "vivir → viviría, vivirías, viviría, viviríamos, viviríais, vivirían"
+            "es": "vivir → viviría, vivirías, viviría, viviríamos, viviríais, vivirían",
+            "en": "to live → I/you/he/we/you all/they would live"
           }
         ],
         "checkpoint": [
@@ -14327,7 +14447,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "body": [
           "Martín tenía catorce años y quería ahorrar dinero para comprarse una bicicleta nueva. Vivía en un barrio tranquilo de Montevideo, donde muchas familias tenían perros pero poco tiempo para pasearlos durante el día. Un día, mientras paseaba al perro de su vecina, tuvo una idea: podía empezar un pequeño negocio de paseos de perros.",
           "Hizo carteles a mano con su número de teléfono y los pegó en los postes de luz de su calle. También le pidió a su madre que compartiera la información en el grupo de vecinos del barrio. En menos de una semana, ya tenía tres clientes interesados en contratar sus servicios.",
-          "El primer cliente fue la señora Beatriz, dueña de un perro grande y muy energético llamado Rocco. Martín pensó que sería un paseo fácil, pero Rocco tiraba tan fuerte de la correa que casi lo hizo caer varias veces. Al final del primer paseo, Martín estaba agotado y con las manos rojas.",
+          "El primer cliente fue la señora Beatriz, dueña de un perro grande y muy enérgico llamado Rocco. Martín pensó que sería un paseo fácil, pero Rocco tiraba tan fuerte de la correa que casi lo hizo caer varias veces. Al final del primer paseo, Martín estaba agotado y con las manos rojas.",
           "El segundo cliente fue el señor Osvaldo, quien tenía dos perros pequeños que se peleaban constantemente entre ellos. Martín tuvo que aprender rápidamente a separarlos cada vez que se enojaban por cualquier cosa, algo que no había previsto cuando empezó el negocio.",
           "Después de dos semanas, Martín se dio cuenta de que ganar dinero paseando perros era mucho más difícil de lo que había imaginado al principio. Llegaba a casa cansado, con la ropa sucia y a veces con pequeñas mordidas de correa en las manos. Pensó en dejar el negocio por completo.",
           "Su padre, al notar su frustración, le preguntó por qué había querido empezar el negocio originalmente. Martín le recordó su sueño de comprar una bicicleta nueva, y su padre le dijo: \"Todo negocio tiene problemas al principio. Lo importante es que aprendas a resolverlos, no que te rindas enseguida\".",
@@ -14791,7 +14911,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Valeria estaba nerviosa, especialmente porque sabía que mucha gente del pueblo, incluidos sus propios compañeros de escuela, asistiría al estreno. Rocío le recordó que lo más importante no era ser perfecta, sino contar la historia con sinceridad y esfuerzo genuino.",
           "La noche del estreno llegó rápidamente. El salón municipal estaba completamente lleno, con casi todos los vecinos del pueblo sentados esperando ansiosamente el inicio de la función. Valeria, detrás del telón, sentía que las piernas le temblaban, pero respiró profundo y recordó todo lo que había practicado.",
           "La obra comenzó, y para sorpresa de todos, incluida ella misma, Valeria interpretó su papel con una energía y una emoción genuinas que conmovieron al público. Al final de la función, el pueblo entero se puso de pie para aplaudir, y varios vecinos tenían lágrimas en los ojos.",
-          "Esa misma noche, Daniel llamó a Rocío desde el hospital donde estaba su padre para preguntar cómo había salido todo. Cuando Rocío le contó sobre la actuación sorprendente de Valeria, Daniel se rió y dijo que quizás la obra había encontrado a su verdadera protagonista por accidente."
+          "Esa misma noche, Daniel llamó a Rocío desde el hospital donde estaba su padre para preguntar cómo había salido todo. Cuando Rocío le contó sobre la actuación sorprendente de Valeria, Daniel se rio y dijo que quizás la obra había encontrado a su verdadera protagonista por accidente."
         ]
       }
     ],
@@ -16697,7 +16817,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "body": [
           "Elena tenía veintiocho años cuando decidió caminar el Camino de Santiago sola. Acababa de terminar una relación de seis años y necesitaba pensar en su vida. Compró unas botas nuevas, un mapa y una mochila enorme que llenó de cosas que probablemente no necesitaría. El primer día, mientras subía la primera colina, ya sentía que la mochila pesaba demasiado.",
           "Durante los primeros tres días, a Elena le dolían la espalda y los pies. Caminaba despacio y otros peregrinos la adelantaban sin esfuerzo. En un albergue de Pamplona conoció a Miguel, un hombre de sesenta años que había hecho el Camino cuatro veces. Miguel llevaba una mochila mucho más pequeña que la suya.",
-          "\"No cargues lo que no necesitas\", le dijo Miguel una noche, mientras cenaban juntos, \"el Camino te enseña eso rápido\". Elena se rió, pero al día siguiente no pudo levantarse sin sentir dolor en los hombros. Empezó a pensar que quizás Miguel tenía razón.",
+          "\"No cargues lo que no necesitas\", le dijo Miguel una noche, mientras cenaban juntos, \"el Camino te enseña eso rápido\". Elena se rio, pero al día siguiente no pudo levantarse sin sentir dolor en los hombros. Empezó a pensar que quizás Miguel tenía razón.",
           "Esa tarde, Elena sacó todo lo que había en la mochila y lo puso sobre la cama del albergue. Decidió quedarse solo con lo que necesitaba de verdad: dos camisetas, un jersey, y poco más. \"Es importante que uno se dé cuenta de lo que realmente hace falta\", pensó, \"y no de lo que da miedo perder\". Regaló tres libros y un secador de pelo a otra peregrina.",
           "Elena nunca había caminado tanto en su vida, y por eso cada día era un descubrimiento. Con la mochila más ligera, sus pasos también se volvieron más ligeros. Hablaba con Miguel casi todas las tardes sobre su expareja, sobre su trabajo, sobre lo que quería hacer cuando volviera a casa. Él la escuchaba sin juzgarla y solo le hacía preguntas sencillas.",
           "Cuando por fin llegó a Santiago de Compostela, Elena lloró frente a la catedral. Había caminado casi ochocientos kilómetros y ahora se sentía diferente, más fuerte. \"He aprendido que no necesito tanto como pensaba\", le escribió a su hermana esa noche. \"Si hubiera sabido esto antes, habría empezado el Camino mucho más ligera\".",
@@ -16840,7 +16960,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Carmen trabajaba doce horas al día en una oficina de contabilidad y, al llegar a casa, solo tenía energía para ver la televisión. Una amiga la invitó a probar una clase de cerámica los jueves por la noche. Carmen dudó al principio porque nunca había hecho nada artístico en su vida. Al final aceptó, sobre todo porque no quería decepcionar a su amiga.",
-          "La primera clase fue un desastre. El barro se le escapaba de las manos y el jarrón que intentaba hacer se cayó dos veces. El profesor, un hombre paciente llamado Óscar, le dijo: \"No te preocupes, relaja las manos y deja que el barro se mueva contigo\". Carmen se rió, pero decidió volver la semana siguiente.",
+          "La primera clase fue un desastre. El barro se le escapaba de las manos y el jarrón que intentaba hacer se cayó dos veces. El profesor, un hombre paciente llamado Óscar, le dijo: \"No te preocupes, relaja las manos y deja que el barro se mueva contigo\". Carmen se rio, pero decidió volver la semana siguiente.",
           "Con el paso de las semanas, algo cambió. Cuando Carmen se sentaba frente al torno, se olvidaba completamente del trabajo y de los correos sin contestar. \"Es raro que algo tan simple me haga sentir tan tranquila\", le confesó a Óscar una noche. Él sonrió y le contestó que eso era exactamente lo que buscaba mucha gente en su clase.",
           "Después de dos meses, Carmen ya había hecho varios tazones y un plato que, aunque torcido, le encantaba. Lo que más le gustaba era que nadie esperaba perfección; el barro permitía errores y segundas oportunidades. Nunca había pensado que trabajar con las manos pudiera calmarla tanto como una hora de meditación.",
           "Un día, Óscar le propuso que presentara una pieza en la exposición anual del taller. Carmen se negó al principio, convencida de que sus piezas no eran lo suficientemente buenas para mostrarlas. \"Preséntala\", insistió Óscar, \"aunque no sea perfecta, forma parte de tu proceso\". Después de pensarlo varios días, Carmen aceptó.",
@@ -17636,7 +17756,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Julio le explicó que muchos buceadores habían empezado con miedos parecidos y que era normal sentir ansiedad al principio. \"Es importante que respetes tu propio ritmo, no el de tus amigos\", le dijo Julio, y Tomás pasó dos días extra practicando en la piscina antes de bajar al mar abierto con el resto del grupo.",
           "La primera vez que Tomás bajó al mar de verdad, con el equipo completo de buceo, sintió que el corazón le latía con mucha fuerza. Julio nadaba justo a su lado, haciéndole señales tranquilas con la mano cada pocos segundos. Poco a poco, la respiración de Tomás se fue calmando, y empezó a fijarse en los peces de colores que nadaban a su alrededor.",
           "Nunca había visto nada parecido bajo el agua, un mundo silencioso y lleno de vida que, desde la superficie, era imposible imaginar. Durante casi veinte minutos, Tomás se olvidó completamente de su miedo, concentrado solo en respirar despacio y en observar los corales. Al salir a la superficie, sus amigos lo esperaban con gritos de celebración.",
-          "Los días siguientes, Tomás bajó al mar cada mañana, cada vez con más confianza y menos miedo. Julio le dijo el último día del curso: \"Si me hubieras dicho el primer día que ibas a terminar el curso, no te habría creído, tenías demasiado miedo\". Tomás se rió, todavía sorprendido de sí mismo.",
+          "Los días siguientes, Tomás bajó al mar cada mañana, cada vez con más confianza y menos miedo. Julio le dijo el último día del curso: \"Si me hubieras dicho el primer día que ibas a terminar el curso, no te habría creído, tenías demasiado miedo\". Tomás se rio, todavía sorprendido de sí mismo.",
           "Al final del viaje, Tomás recibió su certificado de buceo, algo que meses atrás le habría parecido completamente imposible. Guardó el certificado en su cartera, no tanto por el buceo en sí, sino como recuerdo de que había logrado enfrentar un miedo de casi quince años. \"Ojalá hubiera intentado esto mucho antes\", pensó, mientras miraba el mar desde el barco de vuelta a la isla."
         ]
       }

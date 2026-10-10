@@ -204,7 +204,7 @@ export const DELE_A2_LECTURA: ExamPaper = {
       items: [
         {
           n: 14,
-          question: "¿Quién vive en la misma zona toda su vida?",
+          question: "¿Quién ha vivido siempre en la misma zona?",
           options: ["A. Javier", "B. Elena", "C. Manuel"],
           answer: 2,
           explanation: "Manuel: \"Vivo en el mismo barrio desde que nací.\"",

@@ -154,17 +154,17 @@ export const C1_SKILLS: Record<string, Exercise[]> = {
   ],
   "c1r-challenge-final-formal-email": [
     wr(
-      "Escribe un correo formal a la dirección de un hotel donde organizaste un congreso. Varias cosas salieron mal (sala, equipo técnico, catering). Expón los hechos con precisión, valora las consecuencias y solicita una compensación, manteniendo un tono firme pero cortés.",
+      "Escribe un correo formal completo a la Fundación Lumen para solicitar su beca de investigación. Preséntate y expón el motivo, justifica tu candidatura con argumentos bien enlazados, formula tu petición con cortesía, menciona los documentos adjuntos y cierra adecuadamente.",
       [180, 230],
       [
-        "Asunto, saludo y despedida adecuados",
-        "Exposición ordenada de los hechos con fechas y detalles",
-        "Valoración con estructuras atenuadas o concesivas (lamento tener que…, si bien…)",
-        "Petición concreta con subjuntivo o condicional (solicito que…, le agradecería que…)",
-        "Registro formal coherente en todo el texto",
+        "Asunto, saludo y despedida adecuados (Estimados miembros del comité:, Atentamente)",
+        "Motivo del correo con una fórmula de apertura formal (me dirijo a ustedes para…)",
+        "Argumentos enlazados con conectores (en primer lugar, asimismo, además, por último…)",
+        "Petición cortés con condicional + subjuntivo (les agradecería que…)",
+        "Mención de los documentos adjuntos y fórmula de cierre (quedo a la espera de…)",
       ],
-      "Asunto: Incidencias durante el congreso del 14 y 15 de octubre. Estimado señor Aguirre: Me dirijo a usted en calidad de coordinadora del IX Congreso de Traducción, celebrado en su hotel los días 14 y 15 de octubre. Lamento tener que comunicarle que se produjeron varias incidencias que afectaron seriamente al desarrollo del encuentro. En primer lugar, la sala principal, que habíamos reservado para 200 personas, tenía capacidad real para 150, por lo que numerosos asistentes tuvieron que seguir las ponencias de pie. En segundo lugar, el proyector falló durante toda la mañana del primer día y no se nos facilitó ningún técnico hasta pasado el mediodía. Por último, el almuerzo del día 15 se sirvió con una hora de retraso, lo que obligó a suprimir una mesa redonda. Si bien quiero reconocer la amabilidad del personal de recepción, comprenderá que estos problemas han dañado la imagen de nuestra institución ante los participantes. Por todo ello, le solicito que se nos aplique un descuento del 30 % sobre el importe total de la factura y le agradecería que me indicara qué medidas piensan adoptar para evitar situaciones similares. Quedo a la espera de su respuesta. Atentamente, Elena Robles Vidal",
-      "La reclamación eficaz ordena los hechos (en primer lugar, en segundo lugar, por último), los valora sin agresividad (lamento tener que…, si bien quiero reconocer…) y termina con una petición precisa: solicito que + subjuntivo (se nos aplique), le agradecería que + imperfecto de subjuntivo (me indicara)."
+      "Asunto: Solicitud de la beca de investigación Lumen. Estimados miembros del comité: Me dirijo a ustedes para solicitar la beca de investigación que convoca la Fundación Lumen para el próximo curso. Soy licenciada en Biología por la Universidad de Granada y actualmente curso un máster en Ecología Marina. Considero que mi perfil se ajusta a los requisitos de la convocatoria por varias razones. En primer lugar, cuento con dos años de experiencia en un proyecto sobre la conservación de las praderas de posidonia. Asimismo, he publicado dos artículos en revistas especializadas y he presentado mis resultados en un congreso internacional. Además, domino el inglés y el francés, lo que me permitiría colaborar con los equipos internacionales que apoya la Fundación. Por último, el proyecto que propongo, centrado en el impacto del turismo en el litoral andaluz, podría contribuir de forma directa a los objetivos de la Fundación. Por todo ello, les agradecería que tuvieran en cuenta mi candidatura. Encontrarán adjuntos mi currículum, el proyecto de investigación y dos cartas de recomendación. Quedo a la espera de su respuesta y a su disposición para cualquier aclaración. Agradezco de antemano su atención. Atentamente, Lucía Ortega Marín",
+      "El correo sigue el orden de la misión: saludo colectivo formal, motivo («me dirijo a ustedes para…»), argumentos enlazados (en primer lugar, asimismo, por último), petición cortés con condicional + imperfecto de subjuntivo («les agradecería que tuvieran en cuenta…»), documentos adjuntos (concordancia: «adjuntos mi currículum… y dos cartas») y cierre fijo («quedo a la espera de…», «Atentamente»)."
     ),
   ],
   "c1r-mission-concessive-review": [

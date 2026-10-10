@@ -76,7 +76,7 @@ export const C1_GUIDES: GrammarGuide[] = [
       {
         wrong: "Aunque tendré tiempo, no iré.",
         right: "Aunque tenga tiempo, no iré.",
-        why: "A future possibility after aunque takes the present subjunctive, never the future.",
+        why: "To mean \"even if I have time\", use the present subjunctive. Aunque tendré tiempo only works as news (\"even though I will have time\").",
       },
       {
         wrong: "Por mucho que estudias, no apruebas.",

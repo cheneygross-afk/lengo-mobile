@@ -284,7 +284,7 @@ export const DELE_C1_LECTURA: ExamPaper = {
         { n: 32, question: "", options: ["por", "como", "para"], answer: 0, explanation: "Por ejemplo." },
         { n: 33, question: "", options: ["en el", "desde el", "hasta el"], answer: 1, explanation: "Desde el primer día: el efecto empezó entonces y continúa." },
         { n: 34, question: "", options: ["les", "los", "las"], answer: 1, explanation: "Multar a los vehículos: complemento directo masculino plural." },
-        { n: 35, question: "", options: ["por", "a", "para"], answer: 2, explanation: "Resultar inquietante para alguien." },
+        { n: 35, question: "", options: ["por", "con", "para"], answer: 2, explanation: "Resultar inquietante para alguien." },
         { n: 36, question: "", options: ["prefieren", "prefieran", "preferirían"], answer: 0, explanation: "Relativa explicativa con un hecho constatado: indicativo." },
         { n: 37, question: "", options: ["pero", "sino", "sin embargo"], answer: 1, explanation: "No es A, sino B: corrección tras una negación." },
         { n: 38, question: "", options: ["disponen", "dedican", "aprovechan"], answer: 0, explanation: "Disponer de algo: el régimen \"de su tiempo libre\" solo es posible con disponer." },

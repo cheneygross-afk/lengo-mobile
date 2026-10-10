@@ -80,7 +80,7 @@ const CORE_GUIDES: GrammarGuide[] = [
       {
         wrong: "Está profesora.",
         right: "Es profesora.",
-        why: "Professions are identity, so they take ser, even if it's a temporary job.",
+        why: "Professions are identity, so they take ser. (For a temporary job Spanish can use estar de: Está de profesora este año.)",
       },
     ],
     faqs: [
@@ -163,7 +163,7 @@ const CORE_GUIDES: GrammarGuide[] = [
       {
         wrong: "Trabajo por ganar dinero.",
         right: "Trabajo para ganar dinero.",
-        why: "\"In order to\" is a purpose, which always uses para.",
+        why: "\"In order to\" is a purpose, which uses para. (Por + infinitive gives a motive instead: Lo hice por ayudarte.)",
       },
       {
         wrong: "Lo cambié para uno nuevo.",
@@ -331,7 +331,7 @@ const CORE_GUIDES: GrammarGuide[] = [
       {
         wrong: "Cuando llego, te llamo.",
         right: "Cuando llegue, te llamo.",
-        why: "Cuando pointing to the future takes the subjunctive.",
+        why: "Cuando pointing to the future takes the subjunctive. Cuando llego, te llamo only works as a habit (\"whenever I arrive, I call you\").",
       },
     ],
     faqs: [
@@ -579,7 +579,7 @@ const CORE_GUIDES: GrammarGuide[] = [
       },
       {
         q: "What is leísmo?",
-        a: "In parts of Spain, people use le instead of lo for a male person: Le vi ayer (\"I saw him yesterday\"). It's accepted for people, but lo is the standard everywhere.",
+        a: "In parts of Spain, people use le instead of lo for a male person: Le vi ayer (\"I saw him yesterday\"). It's accepted only for a single male person (not for women or things), and lo is the standard everywhere.",
       },
     ],
     related: ["gustar-and-similar-verbs", "spanish-commands", "reflexive-verbs"],
@@ -688,7 +688,7 @@ const CORE_GUIDES: GrammarGuide[] = [
       {
         heading: "Irregular stems",
         body: [
-          "A dozen common verbs use a shortened stem with the same endings: tener (tendr-), poner (pondr-), salir (saldr-), venir (vendr-), poder (podr-), saber (sabr-), haber (habr-), querer (querr-), decir (dir-), hacer (har-).",
+          "Twelve common verbs use a shortened stem with the same endings: tener (tendr-), poner (pondr-), salir (saldr-), venir (vendr-), poder (podr-), saber (sabr-), haber (habr-), querer (querr-), decir (dir-), hacer (har-), valer (valdr-), caber (cabr-).",
         ],
         examples: [
           { es: "Tendré tiempo el lunes.", en: "I'll have time on Monday." },
@@ -848,7 +848,7 @@ const CORE_GUIDES: GrammarGuide[] = [
       {
         wrong: "Si tendría dinero, viajaría.",
         right: "Si tuviera dinero, viajaría.",
-        why: "The conditional never goes right after si. Use the imperfect subjunctive.",
+        why: "After si meaning \"if\", never use the conditional; use the imperfect subjunctive. (Si meaning \"whether\" can take it: No sé si iría.)",
       },
       {
         wrong: "Si llueva, no salgo.",
@@ -928,7 +928,7 @@ const CORE_GUIDES: GrammarGuide[] = [
     faqs: [
       {
         q: "What's the difference between -ra and -se endings?",
-        a: "Hablara and hablase mean the same thing. The -se forms are more common in Spain and in writing.",
+        a: "Hablara and hablase mean the same thing. The -ra forms are more common everywhere; -se is heard more in Spain than in Latin America and is more frequent in writing.",
       },
       {
         q: "Is the imperfect subjunctive used in everyday speech?",

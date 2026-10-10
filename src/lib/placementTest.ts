@@ -140,7 +140,7 @@ export const ROUTER_QUESTIONS: PlacementQuestion[] = [
     "grammar",
     "preterite-vs-imperfect-drill-1",
     "Cuando yo ___ niño, ___ en Madrid.",
-    ["era / vivía", "fui / viví", "era / viví", "fui / vivía"],
+    ["era / vivía", "fui / viví", "estuve / vivía", "fui / vivía"],
     0,
     "Being a child and living somewhere are ongoing states in the past, so both take the imperfect: era, vivía."
   ),
@@ -374,8 +374,8 @@ export const LEVEL_QUESTIONS: Record<PlacementLevel, PlacementQuestion[]> = {
       "Todavía ___ la tarea.",
       "no he terminado",
       "I still [haven't finished] the homework.",
-      "Con todavía no y una acción que llega hasta ahora se usa el pretérito perfecto: no he terminado.",
-      ["no he acabado", "no he hecho"]
+      "Con todavía no y una acción que llega hasta ahora se usa el pretérito perfecto en España (no he terminado); en gran parte de América, el indefinido (no terminé).",
+      ["no he acabado", "no he hecho", "no terminé", "no acabé", "no hice"]
     ),
     typed(
       "b1-si-llueve",

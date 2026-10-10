@@ -29,7 +29,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   "subjunctive-mastery-review-4": [
     fe("Eso no significa que ___ la única solución.", "sea", "That doesn't mean it [is] the only solution.", "«No significa que» niega una implicación lógica, no un hecho: en el registro culto lleva subjuntivo («sea»)."),
     fe("No es que no ___ ayudarte; es que hoy no puedo.", "quiera", "It's not that I don't [want] to help you; it's that I can't today.", "«No es que» + subjuntivo descarta una interpretación y atenúa una posible acusación."),
-    fe("No digo que ___, solo que entiendo tu punto.", "tengas razón", "I'm not saying [you're right], just that I understand your point.", "«No digo que» + subjuntivo suaviza la afirmación y evita la confrontación directa.", ["lleves razón"]),
+    fe("No digo que ___, solo que entiendo tu punto de vista.", "tengas razón", "I'm not saying [you're right], just that I understand your point of view.", "«No digo que» + subjuntivo suaviza la afirmación y evita la confrontación directa.", ["lleves razón"]),
   ],
   "c1r-transform-universal-concessive": [
     fe("___, siempre lo reconocían.", "Fuera donde fuera", "[Wherever he went], people always recognized him.", "Con referencia pasada, la fórmula reduplicativa va en imperfecto de subjuntivo: «fuera donde fuera» (o «fuese donde fuese»).", ["Fuera adonde fuera", "Fuera a donde fuera"]),
@@ -54,10 +54,10 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   "concessive-aunque-1": [
     fe("Aunque ___ toda la noche, no aprobó el examen.", "estudió", "Although she [studied] all night, she didn't pass the exam.", "En la narración de hechos pasados ya conocidos, «aunque» va con indicativo.", ["había estudiado", "estuvo estudiando"]),
     fe("Aunque ___ tarde, todavía podemos llegar.", "es", "Although it [is] late, we can still make it.", "Aunque + indicativo: el hablante afirma como hecho que ya es tarde."),
-    fe("Aunque no lo ___, es una persona muy tímida.", "parece", "Although he doesn't [seem] like it, he is a very shy person.", "Indicativo: se presenta como hecho constatado, no como suposición.", ["aparenta"]),
+    fe("Aunque no lo ___, es una persona muy tímida.", "parece", "Although he doesn't [seem] like it, he is a very shy person.", "Indicativo: se presenta como hecho constatado, no como suposición. También es muy frecuente «aunque no lo parezca», que resta importancia a la apariencia.", ["aparenta", "parezca", "aparente"]),
   ],
   "concessive-aunque-2": [
-    fe("Aunque ___ mi jefe, no voy a tolerar ese trato.", "sea", "Even if he [is] my boss, I'm not going to tolerate that treatment.", "El subjuntivo no pone en duda que sea el jefe: presenta ese hecho como irrelevante para la conclusión."),
+    fe("Aunque ___ mi jefe, no voy a tolerar ese trato.", "sea", "He may well [be] my boss, but I'm not going to tolerate that treatment.", "El subjuntivo no pone en duda que sea el jefe: presenta ese hecho como irrelevante para la conclusión."),
     fe("Aunque ___ una fortuna, lo compraré.", "cueste", "Even if it [costs] a fortune, I'll buy it.", "Aunque + subjuntivo: el precio, sea cual sea, no altera la decisión.", ["valga"]),
   ],
   "c1r-error-hunt-concessives": [
@@ -406,7 +406,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   "advanced-discourse-markers-1": [
     fe("El plan es ambicioso. ___, su coste sigue siendo un obstáculo.", "Ahora bien", "The plan is ambitious. [That said], its cost is still an obstacle.", "«Ahora bien» introduce una salvedad tras aceptar lo dicho, de forma menos abrupta que «pero».", ["Dicho esto", "No obstante", "Sin embargo", "Con todo"]),
     fe("Reconozco que el argumento tiene fuerza. ___, no comparto la conclusión.", "Dicho esto", "I admit the argument is strong. [Having said that], I don't share the conclusion.", "«Dicho esto» cierra un bloque argumentativo y relativiza lo anterior.", ["Ahora bien", "No obstante", "Sin embargo", "Con todo"]),
-    fe("Es cierto que mejoraron los resultados; ahora bien, todavía ___ del objetivo.", "están lejos", "It's true that results improved; however, they are still [far from] the target.", "Concesión parcial seguida de una matización relevante.", ["quedan lejos"]),
+    fe("Es cierto que mejoraron los resultados; ahora bien, todavía ___ del objetivo.", "están lejos", "It's true that results improved; however, they [are] still [far] from the target.", "Concesión parcial seguida de una matización relevante.", ["quedan lejos"]),
   ],
   "advanced-discourse-markers-2": [
     fe("___ que las ventas crecieron un veinte por ciento este trimestre.", "Cabe destacar", "[It is worth highlighting] that sales grew by twenty percent this quarter.", "«Cabe destacar» pone en primer plano un dato especialmente relevante.", ["Cabe señalar", "Conviene destacar", "Hay que destacar", "Cabe resaltar"]),
@@ -424,10 +424,10 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   "advanced-discourse-markers-4": [
     fe("Deberá abandonar el edificio, ___ ser sancionado.", "so pena de", "You must leave the building, [on pain of] being penalized.", "«So pena de» (muy formal, casi arcaico) introduce una sanción impuesta desde fuera.", ["bajo pena de"]),
     fe("Queda prohibido fumar en estas instalaciones, ___ multa.", "bajo pena de", "Smoking is prohibited on these premises, [on pain of a] fine.", "«Bajo pena de» + sustantivo: registro jurídico.", ["so pena de"]),
-    fe("Lo diré con claridad, ___ que algunos se sientan incómodos.", "a riesgo de", "I'll say it clearly, [at the risk] that some people may feel uncomfortable.", "«A riesgo de» introduce un riesgo que el propio hablante asume; con «que» lleva subjuntivo.", ["aun a riesgo de"]),
+    fe("Lo diré con claridad, ___ que algunos se sientan incómodos.", "a riesgo de", "I'll say it clearly, [at the risk of] some people feeling uncomfortable.", "«A riesgo de» introduce un riesgo que el propio hablante asume; con «que» lleva subjuntivo.", ["aun a riesgo de"]),
   ],
   "c1r-contrast-conclusion-markers": [
-    fe("___, la decisión es del consejo.", "En última instancia", "[Ultimately], the decision rests with the board.", "«En última instancia» señala quién o qué decide al final.", ["En último término", "A fin de cuentas", "Al fin y al cabo"]),
+    fe("___, la decisión es del consejo.", "En última instancia", "[Ultimately], the decision rests with the board.", "«En última instancia» señala quién o qué decide al final.", ["En último término"]),
   ],
   "c1r-error-hunt-risk-markers": [
     fe("___ parecer pesado, lo repetiré.", "A riesgo de", "[At the risk of] sounding tiresome, I'll repeat it.", "A riesgo de + infinitivo: aceptando el riesgo de.", ["Aun a riesgo de"]),
@@ -456,7 +456,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   ],
   "emphatic-structures-2": [
     fe("___ es más tiempo, no más dinero.", "Lo que necesitamos", "[What we need] is more time, not more money.", "Pseudoescindida: lo que + verbo + ser + elemento focalizado."),
-    fe("Lo que deberíamos hacer ___ replantear todo el proyecto.", "es", "What we should do [is] rethink the whole project.", "En la pseudoescindida, «ser» va en presente cuando se habla del ahora, aunque el verbo anterior vaya en condicional."),
+    fe("Lo que deberíamos hacer ___ replantear todo el proyecto.", "es", "What we should do [is] rethink the whole project.", "En la pseudoescindida, «ser» suele ir en presente cuando se habla del ahora, aunque el verbo anterior vaya en condicional; «sería» también es correcto.", ["sería"]),
     fe("___ me preocupa es el plazo, no el precio.", "Lo que", "[What] worries me is the deadline, not the price.", "«Lo que» es el relativo neutro que abre la pseudoescindida."),
   ],
   "c1r-transform-cleft-sentences": [
@@ -473,7 +473,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   "emphatic-structures-4": [
     fe("No es que no quiera ayudar, ___ no puede hacerlo ahora.", "sino que", "It's not that she doesn't want to help, [but rather that] she can't do it right now.", "«No… sino que» rechaza una posibilidad y afirma la correcta; ante un verbo conjugado se usa «sino que»."),
     fe("Si algo le sobra a este equipo, ___ talento.", "eso es", "If there's one thing this team has plenty of, [it's] talent.", "«Si algo…, eso es…» aísla el elemento focalizado tras una concesión mínima."),
-    fe("Yo ___ se lo advertí, aunque no me hiciera caso.", "sí que", "I [did] warn him, even though he didn't listen to me.", "«Sí que» + verbo refuerza la veracidad frente a una suposición contraria; en inglés equivale al «did» enfático.", ["sí"]),
+    fe("Yo ___ se lo advertí, aunque no me hizo caso.", "sí que", "I [did] warn him, even though he didn't listen to me.", "«Sí que» + verbo refuerza la veracidad frente a una suposición contraria; en inglés equivale al «did» enfático.", ["sí"]),
   ],
   "emphatic-structures-5": [
     fe("Fue en esa reunión ___ entendí que no podía seguir así.", "donde", "It was at that meeting [that] I realized I couldn't go on like that.", "Hendida que focaliza un lugar (donde) o un momento (cuando).", ["en la que", "cuando"]),
@@ -588,7 +588,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   "voseo-part-2-2": [
     fe("Che, ¿vos ___ de acá o estás de paso?", "sos", "Hey, [are] you from here or just passing through? (vos)", "Ser con vos: sos."),
     fe("Una vez que te ___, no cuesta nada entenderlo.", "acostumbrás", "Once you [get used to it], it's not hard at all to understand. (vos)", "Presente voseante de acostumbrarse: te acostumbrás."),
-    fe("Las formas agudas del voseo, como «tenés», llevan ___.", "tilde", "Stressed-final voseo forms, like «tenés», carry [a written accent].", "Las formas voseantes son agudas terminadas en -s: llevan tilde.", ["acento gráfico", "acento"]),
+    fe("Las formas agudas del voseo, como «tenés», llevan ___.", "tilde", "Stressed-final voseo forms, like «tenés», carry [a written accent].", "Las formas voseantes de varias sílabas son agudas terminadas en -s: llevan tilde (los monosílabos como «sos» no).", ["acento gráfico", "acento"]),
     fe("En Costa Rica también ___.", "voseamos", "In Costa Rica we [use vos] too.", "«Vosear»: usar vos.", ["usamos el vos", "usamos vos"]),
   ],
   "voseo-part-2-3": [
