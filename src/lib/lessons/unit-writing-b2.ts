@@ -86,7 +86,7 @@ export const B2_UNIT_WRITING: Record<string, WriteExercise> = {
     "Describe una fiesta a la que fuiste: dónde fue, cómo estaba la gente, qué había y cómo era el anfitrión. Juega con los cambios de significado de ser y estar.",
     ["Ser para eventos (la fiesta fue en…)", "Estar para el estado (estaba aburrido, estaba lleno)", "Hay / había para la existencia", "Al menos un adjetivo que cambia con ser y estar (listo, aburrido, rico…)"],
     "La fiesta fue en casa de Álvaro, que es muy listo pero bastante aburrido. El salón estaba lleno de gente y había comida por todas partes. La tarta estaba riquísima, aunque la música era horrible. Al principio yo estaba aburrida, pero luego llegó Clara, que es la persona más divertida que conozco. A las dos todavía había gente bailando y Álvaro ya estaba listo para dormir.",
-    "Ser para dónde ocurre un evento (fue en casa de Álvaro) y para cómo es alguien (es listo); estar para cómo está (estaba lista para dormir). Había para lo que existía."
+    "Ser para dónde ocurre un evento (fue en casa de Álvaro) y para cómo es alguien (es listo); estar para el estado o la disposición (Álvaro estaba listo para dormir = preparado). Había para lo que existía."
   ),
   "b2r-error-hunt-ser-estar-haber": t(
     "Escribe un retrato de una persona que conoces bien: su carácter, cómo está últimamente y dónde está ahora. Usa ser, estar y haber con precisión.",

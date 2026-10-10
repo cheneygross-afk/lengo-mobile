@@ -42,7 +42,7 @@ export const A2_GUIDES: GrammarGuide[] = [
       {
         heading: "When there is no personal a",
         body: [
-          "Leave it out when the person is unspecified or hypothetical (often after buscar or necesitar with un/una), and after tener and hay, even with people.",
+          "Leave it out when the person is unspecified or hypothetical (often after buscar or necesitar with un/una), and usually after tener and hay, even with people (though tener takes a with a specific person: Tengo a mi madre en el hospital).",
           "Don't confuse it with the a of direction (Voy a Madrid) or with the a before an indirect object (Le doy el libro a Ana), which is always there.",
         ],
         examples: [
@@ -62,7 +62,7 @@ export const A2_GUIDES: GrammarGuide[] = [
       {
         wrong: "Tengo a dos hijos.",
         right: "Tengo dos hijos.",
-        why: "Tener doesn't take the personal a.",
+        why: "Tener stating possession or how many relatives you have doesn't take the personal a.",
       },
       {
         wrong: "Veo a la película.",
@@ -456,7 +456,7 @@ export const A2_GUIDES: GrammarGuide[] = [
       {
         wrong: "tan alto que yo",
         right: "tan alto como yo",
-        why: "Equality always pairs tan with como.",
+        why: "Comparisons of equality pair tan with como. (Tan ... que means \"so ... that\": Es tan alto que no cabe.)",
       },
       {
         wrong: "más que diez euros",
@@ -748,7 +748,7 @@ export const A2_GUIDES: GrammarGuide[] = [
       },
       {
         q: "Does \"solo\" still take an accent?",
-        a: "Not any more. Since 2010 the Academia recommends writing solo (only) and the demonstratives (este, ese) without accents. Older texts use sólo and éste.",
+        a: "Normally not. Since 2010 the Academia recommends writing solo (only) and the demonstratives (este, ese) without accents; since 2023 it allows the accent where the writer sees real ambiguity. Older texts use sólo and éste.",
       },
       {
         q: "Does an accent change pronunciation?",

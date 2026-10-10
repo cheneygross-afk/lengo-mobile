@@ -65,7 +65,7 @@ export const C1_UNIT_WRITING: Record<string, WriteExercise> = {
   ),
   "advanced-discourse-markers-1": t(
     "Escribe un párrafo argumentativo sobre la semana laboral de cuatro días. Usa marcadores discursivos avanzados para ordenar, matizar y concluir.",
-    ["Marcadores de orden (en primer lugar, por otra parte…)", "Marcadores de matiz o contraste (ahora bien, con todo…)", "Un reformulador (es decir, dicho de otro modo…)", "Un marcador de conclusión (en definitiva, dicho esto…)"],
+    ["Marcadores de orden (en primer lugar, por otra parte…)", "Marcadores de matiz o contraste (ahora bien, con todo…)", "Un reformulador (es decir, dicho de otro modo…)", "Un marcador de conclusión (en definitiva, en suma…)"],
     "La semana laboral de cuatro días gana defensores en toda Europa. En primer lugar, varios estudios indican que la productividad no disminuye; es decir, se trabaja menos sin producir menos. Por otra parte, los empleados descansan más y faltan menos por enfermedad. Ahora bien, no todos los sectores pueden aplicarla: un hospital no puede cerrar los viernes. Con todo, la idea merece un debate serio. En definitiva, el reto será adaptarla a cada empresa.",
     "Ahora bien introduce una objeción; con todo concede y mantiene la tesis; es decir reformula; en definitiva cierra el argumento."
   ),
@@ -91,7 +91,7 @@ export const C1_UNIT_WRITING: Record<string, WriteExercise> = {
     "Escribe un mensaje de WhatsApp de un argentino a un amigo para invitarlo a un asado. Usa el voseo en presente y en imperativo.",
     ["Al menos cuatro formas de voseo en presente (tenés, venís, querés…)", "Al menos dos imperativos de voseo (vení, traé…)", "Vocabulario rioplatense (che, asado, re…)", "Coherencia: sin formas de tú mezcladas"],
     "¡Che, Nico! ¿Qué hacés el sábado? Vamos a hacer un asado en lo de mi viejo y queremos que vengas. ¿Podés traer algo para tomar? Si tenés tiempo, vení temprano así me ayudás con el fuego. Traé también la guitarra, que la última vez estuvo re lindo. Ah, y si querés, decile a Sofi que también está invitada. Avisame cualquier cosa. ¡Abrazo!",
-    "El voseo rioplatense acentúa la última sílaba en presente (hacés, podés, tenés) e imperativo (vení, traé, avisame). Vos convive con te: si querés, te espero."
+    "El voseo rioplatense acentúa la última sílaba en presente (hacés, podés, tenés) e imperativo (vení, traé, avisame). En el presente de subjuntivo se suelen usar las formas de tú: queremos que vengas."
   ),
   "regional-lexical-variation-1": t(
     "Escribe una breve guía para un viajero que va a recorrer México, Argentina y España, con al menos seis diferencias de vocabulario cotidiano.",

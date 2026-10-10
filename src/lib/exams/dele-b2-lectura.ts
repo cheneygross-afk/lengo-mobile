@@ -185,7 +185,7 @@ export const DELE_B2_LECTURA: ExamPaper = {
           body:
             "Pocas costumbres se asocian tanto a España (23) la siesta. Sin embargo, según una encuesta reciente, solo uno de cada cinco españoles la duerme a diario, y la mayoría de ellos (24) jubilados o personas que trabajan desde casa.\n\n" +
             "Los médicos, curiosamente, llevan años defendiendo sus beneficios. Una siesta corta, de no más de veinte minutos, mejora la memoria y la concentración, (25) una siesta demasiado larga puede producir el efecto contrario: nos despertamos cansados y de mal humor. \"Lo ideal es acostarse (26) haber comido y no dormir en la cama, sino en un sillón\", recomienda la neuróloga Ana Ferrer. \"Así evitamos que el cuerpo (27) en un sueño profundo\".\n\n" +
-            "El problema, (28) los expertos, es que el horario laboral español no facilita esta costumbre. La jornada partida, con dos o tres horas para comer, se ha ido sustituyendo (30) la jornada continua, y cada vez son (29) las empresas que dejan tiempo para descansar después del almuerzo. Es verdad que algunas compañías tecnológicas han instalado salas de descanso en sus oficinas, (31) se trata de casos aislados.\n\n" +
+            "El problema, (28) los expertos, es que el horario laboral español no facilita esta costumbre. La jornada partida, con dos o tres horas para comer, se ha ido sustituyendo (29) la jornada continua, y cada vez son (30) las empresas que dejan tiempo para descansar después del almuerzo. Es verdad que algunas compañías tecnológicas han instalado salas de descanso en sus oficinas, (31) se trata de casos aislados.\n\n" +
             "Hay quien (32) que la siesta es incompatible con la vida moderna. Otros, en cambio, creen que sería una buena idea recuperarla. \"Si (33) una pausa de veinte minutos después de comer, seríamos más productivos por la tarde\", asegura Ferrer. En países como Japón, (34) la cultura del trabajo es muy exigente, se ha puesto de moda el inemuri, una breve cabezada en el lugar de trabajo que se considera señal de dedicación.\n\n" +
             "Sea como sea, la siesta sigue formando parte del imaginario español. Y aunque no la (35) todos los días, pocos renuncian a ella los domingos de verano, cuando el calor no (36) hacer otra cosa.",
         },
@@ -193,18 +193,18 @@ export const DELE_B2_LECTURA: ExamPaper = {
       layout: "choice",
       items: [
         { n: 23, question: "", options: ["como", "que", "de"], answer: 0, explanation: "Tanto… como: comparación de igualdad." },
-        { n: 24, question: "", options: ["están", "son", "sean"], answer: 1, explanation: "Ser + sustantivo que clasifica (jubilados). Indicativo, porque es un dato." },
+        { n: 24, question: "", options: ["están", "son", "sean"], answer: 1, explanation: "Son: el verbo tiene dos atributos, «jubilados o personas que trabajan desde casa»; «están jubilados» sería posible solo, pero no «están personas». Indicativo, porque es un dato." },
         { n: 25, question: "", options: ["por lo tanto", "mientras que", "ya que"], answer: 1, explanation: "Mientras que contrapone la siesta corta a la larga." },
         { n: 26, question: "", options: ["después de", "antes que", "tras de"], answer: 0, explanation: "Después de + infinitivo." },
         { n: 27, question: "", options: ["entra", "entre", "entrará"], answer: 1, explanation: "Evitar que + subjuntivo." },
         { n: 28, question: "", options: ["según", "para", "sobre"], answer: 0, explanation: "Según introduce la fuente de una opinión." },
-        { n: 29, question: "", options: ["más", "menos", "tantas"], answer: 1, explanation: "Si la jornada continua sustituye a la partida, cada vez hay menos empresas que dejan tiempo." },
-        { n: 30, question: "", options: ["por", "para", "con"], answer: 0, explanation: "Sustituir algo por otra cosa." },
-        { n: 31, question: "", options: ["sino", "pero", "aunque"], answer: 1, explanation: "Es verdad que…, pero…: se admite un hecho y se le opone otro. \"Sino\" necesita una negación antes." },
-        { n: 32, question: "", options: ["piense", "piensa", "pensara"], answer: 1, explanation: "\"Hay quien\" + indicativo cuando se afirma que esas personas existen." },
+        { n: 29, question: "", options: ["por", "para", "con"], answer: 0, explanation: "Sustituir algo por otra cosa." },
+        { n: 30, question: "", options: ["más", "menos", "tantas"], answer: 1, explanation: "Si la jornada continua sustituye a la partida, cada vez hay menos empresas que dejan tiempo." },
+        { n: 31, question: "", options: ["sino", "pero", "así que"], answer: 1, explanation: "Es verdad que…, pero…: se admite un hecho y se le opone otro. \"Sino\" necesita una negación antes." },
+        { n: 32, question: "", options: ["piensen", "piensa", "pensara"], answer: 1, explanation: "\"Hay quien\" + indicativo cuando se afirma que esas personas existen. Quien es singular, así que el verbo va en singular." },
         { n: 33, question: "", options: ["hacemos", "hiciéramos", "hubiéramos hecho"], answer: 1, explanation: "Condicional hipotética de presente: si + imperfecto de subjuntivo, condicional (seríamos)." },
         { n: 34, question: "", options: ["donde", "cuando", "que"], answer: 0, explanation: "Relativo de lugar referido a Japón." },
-        { n: 35, question: "", options: ["duermen", "duerman", "dormirán"], answer: 1, explanation: "Aunque + subjuntivo cuando no importa si el hecho es cierto o se presenta como conocido." },
+        { n: 35, question: "", options: ["durmieran", "duerman", "dormirán"], answer: 1, explanation: "Aunque + subjuntivo presenta un hecho ya sabido (solo uno de cada cinco españoles duerme la siesta a diario) que no impide lo que se afirma después." },
         { n: 36, question: "", options: ["deja", "hace", "impide"], answer: 0, explanation: "No dejar + infinitivo: el calor no deja hacer otra cosa. \"No impide\" diría lo contrario." },
       ],
     },

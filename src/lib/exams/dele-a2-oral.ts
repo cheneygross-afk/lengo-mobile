@@ -78,7 +78,7 @@ export const DELE_A2_ORAL: ExamPaper = {
         examinerQuestions: [
           "Buenos días, ¿qué desea?",
           "¿Qué talla usa su amigo?",
-          "Tenemos esta en azul y en negro. ¿Cuál prefiere?",
+          "Tenemos este en azul y en negro. ¿Cuál prefiere?",
           "¿Va a pagar con tarjeta o en efectivo?",
         ],
         prepMinutes: 0,

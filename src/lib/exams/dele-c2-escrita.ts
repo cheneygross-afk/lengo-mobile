@@ -39,11 +39,11 @@ export const DELE_C2_ESCRITA: ExamPaper = {
           minWords: 200,
           maxWords: 250,
           rubric: [
-            "Summarizes the talk and the report accurately, with the key figures",
-            "Weighs risks and opportunities, not only one side",
-            "Proposes a concrete, argued course of action",
-            "Organizes the text with learned connectors and paragraphs",
-            "Uses a precise, varied C2 register with no errors that hinder reading",
+            "Resume con precisión la intervención y el informe, con los datos clave.",
+            "Valora riesgos y oportunidades, no solo una de las dos caras.",
+            "Propone una línea de actuación concreta y argumentada.",
+            "Organiza el texto en párrafos, con conectores cultos.",
+            "Usa un registro preciso y variado, propio de C2, sin errores que dificulten la lectura.",
           ],
           modelAnswer:
             "La inteligencia artificial ya forma parte de la vida universitaria, lo admitan o no los reglamentos. Según un informe reciente, el 78 % de los estudiantes recurre a ella cada semana, aunque solo uno de cada cinco ha recibido orientación institucional. El profesorado, por su parte, se muestra receloso: casi dos tercios la asocian al plagio, pero apenas un 30 % ha revisado su manera de evaluar.\n\n" +
@@ -71,10 +71,10 @@ export const DELE_C2_ESCRITA: ExamPaper = {
           minWords: 150,
           maxWords: 180,
           rubric: [
-            "Keeps every fact: three months of works, harm to shops, the accident, no answer by phone",
-            "States clear requests: end date, fences and lighting, help for businesses",
-            "Uses formal letter conventions (greeting, closing, usted forms)",
-            "Replaces colloquialisms with neutral formal equivalents",
+            "Mantiene todos los datos: tres meses de obras, perjuicio a los comercios, el accidente, la falta de respuesta por teléfono.",
+            "Formula peticiones claras: fecha de finalización, vallas e iluminación, ayudas para los negocios.",
+            "Respeta las convenciones de la carta formal (saludo, despedida, tratamiento de usted).",
+            "Sustituye los coloquialismos por equivalentes formales y neutros.",
           ],
           modelAnswer:
             "Estimada señora concejala:\n\n" +
@@ -96,10 +96,10 @@ export const DELE_C2_ESCRITA: ExamPaper = {
           minWords: 150,
           maxWords: 180,
           rubric: [
-            "Takes a clear position and sustains it",
-            "Argues with examples and anticipates an objection",
-            "Has a personal, columnist's voice (irony, rhetorical questions, imagery)",
-            "Ends with a memorable conclusion",
+            "Adopta una postura clara y la mantiene.",
+            "Argumenta con ejemplos y se adelanta a una objeción.",
+            "Tiene una voz personal de columnista (ironía, preguntas retóricas, imágenes).",
+            "Termina con una conclusión memorable.",
           ],
           modelAnswer:
             "Cada mañana de verano, un edificio de quince plantas atraca en nuestro puerto y vierte sobre el casco antiguo a cinco mil personas con cuatro horas por delante. Se les llama turistas, aunque apenas tienen tiempo de serlo: recorren la misma calle, se fotografían en la misma plaza y regresan a bordo para comer. ¿Qué deja en la ciudad semejante visita? Poco más que aglomeraciones y un aire más denso.\n\n" +
@@ -113,10 +113,10 @@ export const DELE_C2_ESCRITA: ExamPaper = {
           minWords: 150,
           maxWords: 180,
           rubric: [
-            "Situates the work briefly (author, genre, context)",
-            "Evaluates with concrete arguments, both strengths and weaknesses",
-            "Uses precise evaluative vocabulary",
-            "Ends with a clear recommendation",
+            "Sitúa brevemente la obra (autor, género, contexto).",
+            "Valora la obra con argumentos concretos, tanto sus virtudes como sus defectos.",
+            "Usa un vocabulario valorativo preciso.",
+            "Termina con una recomendación clara.",
           ],
           modelAnswer:
             "En «Los girasoles ciegos», Alberto Méndez reunió cuatro relatos sobre la posguerra española que, publicados poco antes de su muerte, se convirtieron en un pequeño clásico contemporáneo. No hay en ellos grandes batallas ni héroes, sino derrotados: un capitán que se rinde el día en que su bando gana la guerra, un poeta adolescente que muere en el monte, un preso que se niega a mentir para salvarse.\n\n" +

@@ -12,7 +12,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 1,
     "title": "Subjuntivo: Repaso y Matices Avanzados, Part 1 of 6",
-    "summary": "Una síntesis de nivel avanzado sobre el uso del subjuntivo en todos sus tiempos, centrada en los matices de certeza, duda y cortesía que distinguen al hablante nativo.",
+    "summary": "Distingue el presente y el perfecto de subjuntivo según el aspecto: acción abierta o futura frente a acción ya concluida.",
     "duration": "10 min",
     "sections": [
       {
@@ -100,7 +100,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 2,
     "title": "Subjuntivo: Repaso y Matices Avanzados, Part 2 of 6",
-    "summary": "Una síntesis de nivel avanzado sobre el uso del subjuntivo en todos sus tiempos, centrada en los matices de certeza, duda y cortesía que distinguen al hablante nativo.",
+    "summary": "Usa el imperfecto y el pluscuamperfecto de subjuntivo midiendo la anterioridad desde el verbo principal en pasado.",
     "duration": "7 min",
     "sections": [
       {
@@ -163,7 +163,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 3,
     "title": "Subjuntivo: Repaso y Matices Avanzados, Part 3 of 6",
-    "summary": "Una síntesis de nivel avanzado sobre el uso del subjuntivo en todos sus tiempos, centrada en los matices de certeza, duda y cortesía que distinguen al hablante nativo.",
+    "summary": "Domina las fórmulas concesivo-universales (cueste lo que cueste, pase lo que pase, diga lo que diga), que siempre llevan subjuntivo.",
     "duration": "10 min",
     "sections": [
       {
@@ -231,21 +231,17 @@ const C1_BASE_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multi-select",
-        "question": "¿Cuáles de las siguientes oraciones emplean el subjuntivo con un valor pragmático de atenuación, más allá de la exigencia sintáctica estricta?",
-        "options": [
-          "No digo que tengas razón, solo que lo entiendo.",
-          "Quiero que vengas mañana.",
-          "Eso no significa que sea la única opción.",
-          "Dudo que llueva esta tarde.",
-          "No es que no te crea."
+        "type": "word-order",
+        "prompt": "Ordena las palabras para formar una oración con subjuntivo de valoración retrospectiva.",
+        "words": [
+          "me",
+          "alegra",
+          "que",
+          "hayas",
+          "venido"
         ],
-        "correctIndexes": [
-          0,
-          2,
-          4
-        ],
-        "explanation": "Las oraciones marcadas emplean el subjuntivo para suavizar una afirmación o distanciarse de un juicio, no solo porque el verbo lo exija mecánicamente; «querer que» y «dudar que» son exigencias de régimen verbal estándar."
+        "translation": "I'm glad you came.",
+        "explanation": "El perfecto de subjuntivo «hayas venido» presenta la llegada como un hecho ya concluido que se valora después de ocurrido."
       }
     ]
   },
@@ -254,7 +250,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 4,
     "title": "Subjuntivo: Repaso y Matices Avanzados, Part 4 of 6",
-    "summary": "Una síntesis de nivel avanzado sobre el uso del subjuntivo en todos sus tiempos, centrada en los matices de certeza, duda y cortesía que distinguen al hablante nativo.",
+    "summary": "Usa el subjuntivo para atenuar y matizar: no digo que…, no es que…, eso no significa que…",
     "duration": "8 min",
     "sections": [
       {
@@ -265,7 +261,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "No digo que tengas razón, solo que entiendo tu punto.",
+            "es": "No digo que tengas razón, solo que entiendo tu punto de vista.",
             "en": "El subjuntivo suaviza la afirmación y evita la confrontación directa."
           },
           {
@@ -299,17 +295,21 @@ const C1_BASE_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración con subjuntivo de valoración retrospectiva.",
-        "words": [
-          "me",
-          "alegra",
-          "que",
-          "hayas",
-          "venido"
+        "type": "multi-select",
+        "question": "¿Cuáles de las siguientes oraciones emplean el subjuntivo con un valor pragmático de atenuación, más allá de la exigencia sintáctica estricta?",
+        "options": [
+          "No digo que tengas razón, solo que lo entiendo.",
+          "Quiero que vengas mañana.",
+          "Eso no significa que sea la única opción.",
+          "Dudo que llueva esta tarde.",
+          "No es que no te crea."
         ],
-        "translation": "I'm glad you came.",
-        "explanation": "El perfecto de subjuntivo «hayas venido» presenta la llegada como un hecho ya concluido que se valora después de ocurrido."
+        "correctIndexes": [
+          0,
+          2,
+          4
+        ],
+        "explanation": "Las oraciones marcadas emplean el subjuntivo para suavizar una afirmación o distanciarse de un juicio, no solo porque el verbo lo exija mecánicamente; «querer que» y «dudar que» son exigencias de régimen verbal estándar."
       }
     ]
   },
@@ -318,7 +318,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 5,
     "title": "Subjuntivo: Repaso y Matices Avanzados, Part 5 of 6",
-    "summary": "Una síntesis de nivel avanzado sobre el uso del subjuntivo en todos sus tiempos, centrada en los matices de certeza, duda y cortesía que distinguen al hablante nativo.",
+    "summary": "Repasa en un diálogo real los tiempos del subjuntivo, las fórmulas concesivas y la atenuación.",
     "duration": "5 min",
     "sections": [
       {
@@ -366,7 +366,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 6,
     "title": "Subjuntivo: Repaso y Matices Avanzados, Part 6 of 6",
-    "summary": "Una síntesis de nivel avanzado sobre el uso del subjuntivo en todos sus tiempos, centrada en los matices de certeza, duda y cortesía que distinguen al hablante nativo.",
+    "summary": "Aprende 35 términos para hablar del subjuntivo (anterioridad, atenuación, conjetura…) y expresiones como «a ciencia cierta» o «cabe la posibilidad de que».",
     "duration": "10 min",
     "sections": [
       {
@@ -538,7 +538,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 7,
     "title": "El Subjuntivo con Aunque y Otras Concesivas, Part 1 of 5",
-    "summary": "Un análisis de precisión sobre cómo el modo verbal tras «aunque» y otros conectores concesivos codifica la certeza, la duda o la irrelevancia argumentativa de un hecho.",
+    "summary": "Usa «aunque» + indicativo para conceder un hecho que presentas como cierto.",
     "duration": "7 min",
     "sections": [
       {
@@ -601,7 +601,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 8,
     "title": "El Subjuntivo con Aunque y Otras Concesivas, Part 2 of 5",
-    "summary": "Un análisis de precisión sobre cómo el modo verbal tras «aunque» y otros conectores concesivos codifica la certeza, la duda o la irrelevancia argumentativa de un hecho.",
+    "summary": "Usa «aunque» + subjuntivo para una objeción hipotética o para restar importancia a un hecho cierto.",
     "duration": "9 min",
     "sections": [
       {
@@ -676,7 +676,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 9,
     "title": "El Subjuntivo con Aunque y Otras Concesivas, Part 3 of 5",
-    "summary": "Un análisis de precisión sobre cómo el modo verbal tras «aunque» y otros conectores concesivos codifica la certeza, la duda o la irrelevancia argumentativa de un hecho.",
+    "summary": "Compara «a pesar de que» con «aunque»: indicativo para obstáculos reales, subjuntivo para obstáculos posibles.",
     "duration": "9 min",
     "sections": [
       {
@@ -761,7 +761,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 10,
     "title": "El Subjuntivo con Aunque y Otras Concesivas, Part 4 of 5",
-    "summary": "Un análisis de precisión sobre cómo el modo verbal tras «aunque» y otros conectores concesivos codifica la certeza, la duda o la irrelevancia argumentativa de un hecho.",
+    "summary": "Usa «por más que» y «por mucho (+ sustantivo) que» para conceder con intensidad, con indicativo o subjuntivo.",
     "duration": "10 min",
     "sections": [
       {
@@ -814,7 +814,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "Elena: Por más que insistas en el plazo, la calidad no se puede improvisar.",
           "Roberto: Aunque tienes razón en eso, el cliente no va a esperar indefinidamente.",
           "Elena: Aunque el cliente presione, no vamos a sacrificar la calidad del trabajo.",
-          "Roberto: Por mucho que me convenzas, sigo pensando que necesitamos más recursos.",
+          "Roberto: Por mucho que intentes convencerme, sigo pensando que necesitamos más recursos.",
           "Elena: A pesar de que faltan recursos, hemos logrado avances importantes.",
           "Roberto: Aunque sea difícil admitirlo, quizás tengas razón después de todo."
         ]
@@ -851,7 +851,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 11,
     "title": "El Subjuntivo con Aunque y Otras Concesivas, Part 5 of 5",
-    "summary": "Un análisis de precisión sobre cómo el modo verbal tras «aunque» y otros conectores concesivos codifica la certeza, la duda o la irrelevancia argumentativa de un hecho.",
+    "summary": "Aprende 35 palabras para conceder, matizar y discrepar (salvedad, ponderar, matizar, discrepancia…).",
     "duration": "9 min",
     "sections": [
       {
@@ -1023,14 +1023,14 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 12,
     "title": "Nominalización y Sustantivación (Parte 1 de 2), Part 1 of 3",
-    "summary": "Un estudio de los recursos con los que el español convierte verbos y adjetivos en sustantivos abstractos para lograr un registro más formal, compacto y académico.",
+    "summary": "Usa «el hecho de que» para convertir una oración entera en sujeto o complemento, y elige el modo adecuado.",
     "duration": "8 min",
     "sections": [
       {
         "heading": "El hecho de que: nominalizar una proposición entera",
         "body": [
           "«El hecho de que» permite convertir una oración completa en el sujeto o el complemento de otra, otorgándole el estatus sintáctico de un sustantivo. Esta construcción resulta indispensable en el registro académico y periodístico porque permite tratar un suceso o una afirmación como una entidad sobre la que se puede opinar, valorar o argumentar, sin necesidad de repetir la proposición como oración subordinada tradicional.",
-          "El modo verbal dentro de «el hecho de que» genera cierta controversia entre gramáticos: la norma más extendida prefiere el subjuntivo por tratarse de una proposición presentada como tema ya conocido pero no afirmado directamente por el hablante, aunque el uso del indicativo no es infrecuente cuando el hablante quiere subrayar la certeza objetiva del hecho. En el español peninsular culto, el subjuntivo domina claramente en «el hecho de que»; en ciertas variedades americanas, el indicativo gana terreno cuando el hecho se percibe como plenamente comprobado."
+          "El modo verbal dentro de «el hecho de que» genera cierta controversia entre gramáticos: la norma más extendida prefiere el subjuntivo por tratarse de una proposición presentada como tema ya conocido pero no afirmado directamente por el hablante, aunque el uso del indicativo no es infrecuente cuando el hablante quiere subrayar la certeza objetiva del hecho. En el español culto, el subjuntivo domina claramente en «el hecho de que»; en todas las variedades, el indicativo aparece sobre todo cuando el hablante presenta el hecho como información nueva o plenamente comprobada."
         ],
         "examples": [
           {
@@ -1086,7 +1086,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 13,
     "title": "Nominalización y Sustantivación (Parte 1 de 2), Part 2 of 3",
-    "summary": "Un estudio de los recursos con los que el español convierte verbos y adjetivos en sustantivos abstractos para lograr un registro más formal, compacto y académico.",
+    "summary": "Usa «lo + adjetivo» (lo interesante, lo difícil de…) para destacar un aspecto concreto de algo.",
     "duration": "9 min",
     "sections": [
       {
@@ -1161,7 +1161,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 14,
     "title": "Nominalización y Sustantivación (Parte 1 de 2), Part 3 of 3",
-    "summary": "Un estudio de los recursos con los que el español convierte verbos y adjetivos en sustantivos abstractos para lograr un registro más formal, compacto y académico.",
+    "summary": "Reconoce los sufijos -ción, -miento, -dad y -eza y el matiz de registro de cada uno.",
     "duration": "8 min",
     "sections": [
       {
@@ -1270,7 +1270,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Según lo estudiado, ¿qué modo verbal gana terreno dentro de «el hecho de que» en ciertas variedades americanas, cuando el hecho se percibe como plenamente comprobado?",
+        "question": "Según lo estudiado, ¿qué modo verbal puede aparecer dentro de «el hecho de que» cuando el hablante presenta el hecho como información nueva o plenamente comprobada?",
         "options": [
           "El subjuntivo, de forma exclusiva y sin ninguna excepción.",
           "El indicativo, que subraya la certeza objetiva del hecho.",
@@ -1278,7 +1278,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "El imperativo, para dar mayor énfasis a la proposición."
         ],
         "correctIndex": 1,
-        "explanation": "Aunque el subjuntivo domina en el español peninsular culto, en ciertas variedades americanas el indicativo gana terreno dentro de «el hecho de que» cuando el hablante quiere subrayar la certeza objetiva del hecho enunciado. No es «de forma exclusiva» el subjuntivo, y ni el condicional ni el imperativo tienen cabida en esta estructura."
+        "explanation": "Aunque el subjuntivo domina en el español culto, el indicativo aparece dentro de «el hecho de que» cuando el hablante presenta el hecho como información nueva o quiere subrayar su certeza objetiva. No es «de forma exclusiva» el subjuntivo, y ni el condicional ni el imperativo tienen cabida en esta estructura."
       },
       {
         "type": "fill-blank",
@@ -1413,7 +1413,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "El hecho de que el comité rechazara la propuesta no significa que el proyecto se haya terminado."
         ],
-        "explanation": "«El hecho de que» nominaliza toda la proposición sobre el rechazo de la propuesta, tratándola como una entidad sobre la que se predica algo, con el subjuntivo exigido por la norma culta."
+        "explanation": "«El hecho de que» nominaliza toda la proposición sobre el rechazo de la propuesta, tratándola como una entidad sobre la que se predica algo, con el subjuntivo preferido por la norma culta."
       },
       {
         "type": "translate",
@@ -1461,7 +1461,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 16,
     "title": "Nominalización y Sustantivación (Parte 2 de 2), Part 1 of 3",
-    "summary": "Un estudio de los recursos con los que el español convierte verbos y adjetivos en sustantivos abstractos para lograr un registro más formal, compacto y académico.",
+    "summary": "Descubre los efectos estilísticos de la nominalización (compactación, objetividad) y el riesgo de abusar de ella.",
     "duration": "8 min",
     "sections": [
       {
@@ -1537,7 +1537,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 17,
     "title": "Nominalización y Sustantivación (Parte 2 de 2), Part 2 of 3",
-    "summary": "Un estudio de los recursos con los que el español convierte verbos y adjetivos en sustantivos abstractos para lograr un registro más formal, compacto y académico.",
+    "summary": "Lee un texto formal lleno de nominalizaciones y aprende 18 términos para analizarlas.",
     "duration": "10 min",
     "sections": [
       {
@@ -1556,7 +1556,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: la nominalización",
         "body": [
-          "Primera tanda: 18 palabras relacionadas con la nominalización; las 17 restantes llegan en la lección siguiente."
+          "Primera tanda: 18 palabras relacionadas con la nominalización; las 17 restantes llegan en la Parte 3 de 3 de esta serie, después de unas lecciones de práctica."
         ],
         "examples": [
           {
@@ -1665,7 +1665,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 18,
     "title": "Nominalización y Sustantivación (Parte 2 de 2), Part 3 of 3",
-    "summary": "Un estudio de los recursos con los que el español convierte verbos y adjetivos en sustantivos abstractos para lograr un registro más formal, compacto y académico.",
+    "summary": "Aprende 17 términos más para analizar el estilo nominal (farragoso, condensar, circunloquio…).",
     "duration": "7 min",
     "sections": [
       {
@@ -1765,7 +1765,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 19,
     "title": "Gerundio vs. Infinitivo: Usos Avanzados (Parte 1 de 2), Part 1 of 3",
-    "summary": "Un examen detallado de los usos avanzados del gerundio y el infinitivo, desde el temido gerundio de posterioridad hasta las perífrasis verbales que codifican matices aspectuales precisos.",
+    "summary": "Distingue el gerundio de simultaneidad del de posterioridad y sustituye este por una oración coordinada.",
     "duration": "10 min",
     "sections": [
       {
@@ -1818,6 +1818,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa identificando el matiz temporal del gerundio.",
             "sentence": "En «se cayó de la bicicleta, rompiéndose el brazo», el gerundio expresa ___.",
             "answer": "posterioridad",
+            "altAnswers": ["una acción posterior", "consecuencia", "una consecuencia", "posterioridad o consecuencia"],
             "explanation": "Romperse el brazo es la consecuencia posterior de la caída, no un hecho simultáneo a ella; por eso se trata de un gerundio de posterioridad.",
             "hint": "Piensa en el orden real de los sucesos: primero la caída, después la fractura."
           }
@@ -1844,7 +1845,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 20,
     "title": "Gerundio vs. Infinitivo: Usos Avanzados (Parte 1 de 2), Part 2 of 3",
-    "summary": "Un examen detallado de los usos avanzados del gerundio y el infinitivo, desde el temido gerundio de posterioridad hasta las perífrasis verbales que codifican matices aspectuales precisos.",
+    "summary": "Usa el infinitivo como sujeto (Fumar perjudica la salud) y como mandato impersonal en carteles (No fumar).",
     "duration": "8 min",
     "sections": [
       {
@@ -1894,11 +1895,12 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa con la perífrasis de infinitivo que exprese interrupción de un hábito.",
-        "sentence": "Mi abuelo ___ (dejar) de fumar hace veinte años.",
-        "answer": "dejó",
-        "explanation": "«Dejar de» + infinitivo expresa la interrupción de un hábito, con matiz de abandono.",
-        "hint": "Se trata de un hábito que se interrumpió por completo."
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "___ en exceso perjudica la salud.",
+        "answer": "Comer",
+        "altAnswers": ["El comer"],
+        "en": "[Eating] too much is bad for your health.",
+        "explanation": "El infinitivo funciona como sujeto de la oración: donde el inglés usa la forma en -ing, el español usa el infinitivo («comer»)."
       }
     ]
   },
@@ -1907,7 +1909,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 21,
     "title": "Gerundio vs. Infinitivo: Usos Avanzados (Parte 1 de 2), Part 3 of 3",
-    "summary": "Un examen detallado de los usos avanzados del gerundio y el infinitivo, desde el temido gerundio de posterioridad hasta las perífrasis verbales que codifican matices aspectuales precisos.",
+    "summary": "Distingue seguir/continuar + gerundio de terminar de, dejar de y acabar de + infinitivo.",
     "duration": "10 min",
     "sections": [
       {
@@ -1927,7 +1929,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Dejó de fumar hace dos años.",
-            "en": "Se interrumpe un hábito, con matiz de abandono definitivo."
+            "en": "Se interrumpe un hábito; por el contexto se entiende que lo ha abandonado."
           }
         ]
       },
@@ -1974,7 +1976,7 @@ const C1_BASE_LESSONS: Lesson[] = [
               "años"
             ],
             "translation": "He quit smoking two years ago.",
-            "explanation": "«Dejar de fumar» expresa la interrupción de un hábito, con matiz de abandono definitivo."
+            "explanation": "«Dejar de fumar» expresa la interrupción de un hábito; aquí, por el contexto, se entiende como abandono."
           }
         ]
       }
@@ -1994,6 +1996,14 @@ const C1_BASE_LESSONS: Lesson[] = [
           2
         ],
         "explanation": "«Seguir» y «continuar» + gerundio presuponen una acción o tendencia ya iniciada; «empezar a» marca, por el contrario, el inicio de una acción nueva, y «terminar de» marca su cierre, no su continuidad previa."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa con la perífrasis de infinitivo que exprese interrupción de un hábito.",
+        "sentence": "Mi abuelo ___ (dejar) de fumar hace veinte años.",
+        "answer": "dejó",
+        "explanation": "«Dejar de» + infinitivo expresa la interrupción de un hábito, con matiz de abandono.",
+        "hint": "Se trata de un hábito que se interrumpió por completo."
       }
     ]
   },
@@ -2206,7 +2216,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 23,
     "title": "Gerundio vs. Infinitivo: Usos Avanzados (Parte 2 de 2), Part 1 of 3",
-    "summary": "Un examen detallado de los usos avanzados del gerundio y el infinitivo, desde el temido gerundio de posterioridad hasta las perífrasis verbales que codifican matices aspectuales precisos.",
+    "summary": "Distingue estar, ir, venir y llevar + gerundio: acción en curso, progresión, persistencia y duración.",
     "duration": "10 min",
     "sections": [
       {
@@ -2275,16 +2285,18 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar un mandato impersonal propio de un cartel.",
+        "prompt": "Ordena las palabras para formar una oración con llevar + gerundio.",
         "words": [
-          "mantener",
-          "la",
-          "distancia",
-          "de",
-          "seguridad"
+          "llevo",
+          "dos",
+          "horas",
+          "esperando",
+          "el",
+          "autobús"
         ],
-        "translation": "Keep a safe distance.",
-        "explanation": "El infinitivo formula aquí un mandato impersonal, sin destinatario concreto, característico de carteles y avisos."
+        "altOrders": [["llevo", "esperando", "el", "autobús", "dos", "horas"]],
+        "translation": "I've been waiting for the bus for two hours.",
+        "explanation": "«Llevar» + tiempo + gerundio expresa la duración de una acción que empezó en el pasado y sigue en curso."
       }
     ]
   },
@@ -2293,7 +2305,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 24,
     "title": "Gerundio vs. Infinitivo: Usos Avanzados (Parte 2 de 2), Part 2 of 3",
-    "summary": "Un examen detallado de los usos avanzados del gerundio y el infinitivo, desde el temido gerundio de posterioridad hasta las perífrasis verbales que codifican matices aspectuales precisos.",
+    "summary": "Practica las perífrasis de gerundio en un diálogo y aprende 18 términos sobre aspecto y perífrasis.",
     "duration": "10 min",
     "sections": [
       {
@@ -2312,7 +2324,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: el gerundio y el infinitivo",
         "body": [
-          "Primera tanda: 18 palabras relacionadas con el gerundio y el infinitivo; las 17 restantes llegan en la lección siguiente."
+          "Primera tanda: 18 palabras relacionadas con el gerundio y el infinitivo; las 17 restantes llegan en la Parte 3 de 3 de esta serie, después de unas lecciones de práctica."
         ],
         "examples": [
           {
@@ -2421,7 +2433,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 25,
     "title": "Gerundio vs. Infinitivo: Usos Avanzados (Parte 2 de 2), Part 3 of 3",
-    "summary": "Un examen detallado de los usos avanzados del gerundio y el infinitivo, desde el temido gerundio de posterioridad hasta las perífrasis verbales que codifican matices aspectuales precisos.",
+    "summary": "Aprende 17 términos más sobre tiempo, aspecto y avisos (a la larga, reanudar, preceptivo…).",
     "duration": "6 min",
     "sections": [
       {
@@ -2699,7 +2711,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "Sustituye a un sustantivo concreto dentro de la oración."
         ],
         "correctIndex": 1,
-        "explanation": "El infinitivo en carteles y avisos formula un mandato impersonal, más distante y general que el imperativo directo, característico del registro escrito normativo estudiado en la primera parte de esta lección. No es sujeto de una reflexión (como «fumar perjudica»), no narra acciones simultáneas y no sustituye a ningún sustantivo."
+        "explanation": "El infinitivo en carteles y avisos formula un mandato impersonal, más distante y general que el imperativo directo, característico del registro escrito normativo estudiado en la Parte 1 de «Gerundio vs. Infinitivo». No es sujeto de una reflexión (como «fumar perjudica»), no narra acciones simultáneas y no sustituye a ningún sustantivo."
       },
       {
         "type": "fill-blank",
@@ -2733,7 +2745,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 27,
     "title": "Voz Pasiva, Se Pasivo y Se Impersonal: Dominio Completo, Part 1 of 6",
-    "summary": "Una síntesis completa de las cuatro estructuras que el español emplea para expresar pasividad o estado resultante, y de los criterios reales que guían la elección entre ellas.",
+    "summary": "Usa la pasiva con ser + participio y reconoce cuándo resulta natural (registro formal, agente relevante).",
     "duration": "8 min",
     "sections": [
       {
@@ -2796,7 +2808,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 28,
     "title": "Voz Pasiva, Se Pasivo y Se Impersonal: Dominio Completo, Part 2 of 6",
-    "summary": "Una síntesis completa de las cuatro estructuras que el español emplea para expresar pasividad o estado resultante, y de los criterios reales que guían la elección entre ellas.",
+    "summary": "Usa el se pasivo haciendo concordar el verbo con el sujeto paciente (se vende / se venden).",
     "duration": "7 min",
     "sections": [
       {
@@ -2851,7 +2863,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 29,
     "title": "Voz Pasiva, Se Pasivo y Se Impersonal: Dominio Completo, Part 3 of 6",
-    "summary": "Una síntesis completa de las cuatro estructuras que el español emplea para expresar pasividad o estado resultante, y de los criterios reales que guían la elección entre ellas.",
+    "summary": "Usa el se impersonal con «a» + persona, siempre en singular (se busca a los candidatos).",
     "duration": "10 min",
     "sections": [
       {
@@ -2940,7 +2952,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 30,
     "title": "Voz Pasiva, Se Pasivo y Se Impersonal: Dominio Completo, Part 4 of 6",
-    "summary": "Una síntesis completa de las cuatro estructuras que el español emplea para expresar pasividad o estado resultante, y de los criterios reales que guían la elección entre ellas.",
+    "summary": "Distingue el proceso (ser + participio) del estado resultante (estar + participio) y elige entre las cuatro estructuras.",
     "duration": "8 min",
     "sections": [
       {
@@ -3019,7 +3031,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 31,
     "title": "Voz Pasiva, Se Pasivo y Se Impersonal: Dominio Completo, Part 5 of 6",
-    "summary": "Una síntesis completa de las cuatro estructuras que el español emplea para expresar pasividad o estado resultante, y de los criterios reales que guían la elección entre ellas.",
+    "summary": "Repasa las cuatro estructuras en una noticia y aprende 18 términos sobre la pasiva y el se impersonal.",
     "duration": "9 min",
     "sections": [
       {
@@ -3147,7 +3159,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 32,
     "title": "Voz Pasiva, Se Pasivo y Se Impersonal: Dominio Completo, Part 6 of 6",
-    "summary": "Una síntesis completa de las cuatro estructuras que el español emplea para expresar pasividad o estado resultante, y de los criterios reales que guían la elección entre ellas.",
+    "summary": "Aprende 17 términos más para analizar construcciones y redactar informes (llevarse a cabo, idóneo, poner de relieve…).",
     "duration": "6 min",
     "sections": [
       {
@@ -3247,7 +3259,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 33,
     "title": "Estilo Indirecto Libre y Narración Literaria (Parte 1 de 2), Part 1 of 3",
-    "summary": "Una exploración del estilo indirecto libre como recurso narrativo que funde la voz del narrador con la conciencia de un personaje, sin verbos introductores ni marcas tipográficas.",
+    "summary": "Reconoce el estilo indirecto libre y distínguelo del estilo directo y del indirecto.",
     "duration": "8 min",
     "sections": [
       {
@@ -3310,7 +3322,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 34,
     "title": "Estilo Indirecto Libre y Narración Literaria (Parte 1 de 2), Part 2 of 3",
-    "summary": "Una exploración del estilo indirecto libre como recurso narrativo que funde la voz del narrador con la conciencia de un personaje, sin verbos introductores ni marcas tipográficas.",
+    "summary": "Aplica los desplazamientos temporales del estilo indirecto libre: presente → imperfecto, futuro → condicional.",
     "duration": "8 min",
     "sections": [
       {
@@ -3365,7 +3377,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 35,
     "title": "Estilo Indirecto Libre y Narración Literaria (Parte 1 de 2), Part 3 of 3",
-    "summary": "Una exploración del estilo indirecto libre como recurso narrativo que funde la voz del narrador con la conciencia de un personaje, sin verbos introductores ni marcas tipográficas.",
+    "summary": "Detecta las marcas de la voz del personaje: exclamaciones, preguntas retóricas, deícticos y coloquialismos.",
     "duration": "8 min",
     "sections": [
       {
@@ -3662,7 +3674,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 37,
     "title": "Estilo Indirecto Libre y Narración Literaria (Parte 2 de 2), Part 1 of 3",
-    "summary": "Una exploración del estilo indirecto libre como recurso narrativo que funde la voz del narrador con la conciencia de un personaje, sin verbos introductores ni marcas tipográficas.",
+    "summary": "Compara el estilo indirecto libre con el directo y el indirecto, y entiende su efecto de inmediatez.",
     "duration": "10 min",
     "sections": [
       {
@@ -3735,7 +3747,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 38,
     "title": "Estilo Indirecto Libre y Narración Literaria (Parte 2 de 2), Part 2 of 3",
-    "summary": "Una exploración del estilo indirecto libre como recurso narrativo que funde la voz del narrador con la conciencia de un personaje, sin verbos introductores ni marcas tipográficas.",
+    "summary": "Lee un fragmento en estilo indirecto libre y aprende 18 términos de teoría narrativa.",
     "duration": "10 min",
     "sections": [
       {
@@ -3754,7 +3766,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: la narración y el estilo indirecto libre",
         "body": [
-          "Primera tanda: 18 palabras relacionadas con la narración y el estilo indirecto libre; las 17 restantes llegan en la lección siguiente."
+          "Primera tanda: 18 palabras relacionadas con la narración y el estilo indirecto libre; las 17 restantes llegan en la Parte 3 de 3 de esta serie, después de unas lecciones de práctica."
         ],
         "examples": [
           {
@@ -3863,7 +3875,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 39,
     "title": "Estilo Indirecto Libre y Narración Literaria (Parte 2 de 2), Part 3 of 3",
-    "summary": "Una exploración del estilo indirecto libre como recurso narrativo que funde la voz del narrador con la conciencia de un personaje, sin verbos introductores ni marcas tipográficas.",
+    "summary": "Aprende 17 términos más para analizar la voz narrativa (distancia narrativa, retrospección, trasunto…).",
     "duration": "7 min",
     "sections": [
       {
@@ -4183,7 +4195,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 41,
     "title": "Por y Para: Precisión Profesional, Part 1 of 6",
-    "summary": "Un análisis de los usos más ambiguos de por y para en contextos laborales, contractuales y legales, donde la elección de una u otra preposición cambia el sentido real del mensaje.",
+    "summary": "Distingue «trabajar/firmar por alguien» (sustitución, representación) de «trabajar para alguien» (empleador, destinatario).",
     "duration": "8 min",
     "sections": [
       {
@@ -4246,13 +4258,13 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 42,
     "title": "Por y Para: Precisión Profesional, Part 2 of 6",
-    "summary": "Un análisis de los usos más ambiguos de por y para en contextos laborales, contractuales y legales, donde la elección de una u otra preposición cambia el sentido real del mensaje.",
+    "summary": "Usa «por» para la causa y «para» para la finalidad en textos legales y de empresa.",
     "duration": "8 min",
     "sections": [
       {
         "heading": "Por y para en contextos legales y empresariales: causa y finalidad",
         "body": [
-          "En el ámbito legal y empresarial, la distinción entre «por» de causa y «para» de finalidad adquiere una precisión casi técnica: «por» introduce siempre la razón, el motivo o el antecedente que explica un hecho ya ocurrido o una obligación ya contraída, mientras que «para» introduce el propósito, el objetivo o el destino hacia el cual se orienta una acción futura o en curso.",
+          "En el ámbito legal y empresarial, la distinción entre «por» de causa y «para» de finalidad adquiere una precisión casi técnica: «por» introduce la razón, el motivo o el antecedente que explica un hecho, a menudo ya ocurrido, o una obligación ya contraída, mientras que «para» introduce el propósito, el objetivo o el destino hacia el cual se orienta una acción futura o en curso.",
           "Esta oposición retrospectiva/prospectiva resulta especialmente relevante en la redacción de contratos y documentos legales, donde una cláusula introducida por «por» describe una condición o un motivo ya dado, mientras que una introducida por «para» describe la función o el objetivo que dicha cláusula persigue. Confundir ambas preposiciones en este contexto puede alterar si una disposición se interpreta como justificación de algo pasado o como propósito de algo futuro, una diferencia con consecuencias jurídicas reales."
         ],
         "examples": [
@@ -4295,7 +4307,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa con la preposición que exprese un plazo límite.",
+        "prompt": "Completa con «por» o «para».",
         "sentence": "Necesitamos la propuesta final ___ el próximo lunes.",
         "answer": "para",
         "explanation": "«Para» marca un plazo límite, una fecha tope hacia la cual se orienta la entrega de la propuesta.",
@@ -4308,7 +4320,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 43,
     "title": "Por y Para: Precisión Profesional, Part 3 of 6",
-    "summary": "Un análisis de los usos más ambiguos de por y para en contextos laborales, contractuales y legales, donde la elección de una u otra preposición cambia el sentido real del mensaje.",
+    "summary": "Usa «para» para un plazo límite y «por» para una duración aproximada.",
     "duration": "7 min",
     "sections": [
       {
@@ -4338,8 +4350,8 @@ const C1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa con la preposición que exprese un plazo límite preciso.",
-            "sentence": "El contrato debe firmarse ___ el próximo miércoles a más tardar.",
+            "prompt": "Completa con «por» o «para».",
+            "sentence": "El contrato debe estar firmado ___ el próximo miércoles.",
             "answer": "para",
             "explanation": "«Para» marca aquí un plazo límite concreto, una fecha tope hacia la cual se orienta la firma del contrato.",
             "hint": "Se trata de una fecha tope, no de una duración aproximada."
@@ -4370,13 +4382,13 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 44,
     "title": "Por y Para: Precisión Profesional, Part 4 of 6",
-    "summary": "Un análisis de los usos más ambiguos de por y para en contextos laborales, contractuales y legales, donde la elección de una u otra preposición cambia el sentido real del mensaje.",
+    "summary": "Aprende expresiones fijas con por y para: estar por, estar para, por si acaso, para colmo, por lo pronto.",
     "duration": "7 min",
     "sections": [
       {
         "heading": "Excepciones idiomáticas fijas con por y para",
         "body": [
-          "Existen expresiones fijas con «por» y «para» cuyo significado no se deriva de forma transparente de las reglas generales de causa y finalidad, sino que se ha fijado por convención y debe aprenderse como bloque. «Estar por» + infinitivo indica que una acción está a punto de suceder o que todavía no se ha realizado, con un matiz de inminencia o de pendiente. «Estar para» + infinitivo, en cambio, se acerca más a la idea de estar en disposición o en el momento adecuado para algo, aunque en algunas variedades regionales ambas expresiones se solapan considerablemente.",
+          "Existen expresiones fijas con «por» y «para» cuyo significado no se deriva de forma transparente de las reglas generales de causa y finalidad, sino que se ha fijado por convención y debe aprenderse como bloque. «Estar por» + infinitivo indica que una acción todavía no se ha realizado («está por hacer») o, con sujeto de persona, que alguien está tentado de hacerla; en buena parte de América significa además «estar a punto de». «Estar para» + infinitivo, en cambio, se acerca más a la idea de estar en disposición o en el momento adecuado para algo, aunque en algunas variedades regionales ambas expresiones se solapan considerablemente.",
           "Otras fórmulas fijas, como «por si acaso», «para colmo» o «por lo pronto», forman parte del repertorio idiomático que un hablante avanzado debe dominar sin analizarlas composicionalmente, puesto que su sentido excede la suma de sus partes."
         ],
         "examples": [
@@ -4408,7 +4420,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "pairs": [
               {
                 "left": "estar por + infinitivo",
-                "right": "la acción todavía no se ha realizado, con matiz de inminencia"
+                "right": "la acción todavía no se ha realizado; está pendiente"
               },
               {
                 "left": "por si acaso",
@@ -4452,7 +4464,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 45,
     "title": "Por y Para: Precisión Profesional, Part 5 of 6",
-    "summary": "Un análisis de los usos más ambiguos de por y para en contextos laborales, contractuales y legales, donde la elección de una u otra preposición cambia el sentido real del mensaje.",
+    "summary": "Practica por y para en un diálogo de oficina y aprende 18 términos profesionales.",
     "duration": "8 min",
     "sections": [
       {
@@ -4556,7 +4568,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "pairs": [
           {
             "left": "estar por + infinitivo",
-            "right": "la acción todavía no se ha realizado, con matiz de inminencia"
+            "right": "la acción todavía no se ha realizado; está pendiente"
           },
           {
             "left": "por si acaso",
@@ -4580,7 +4592,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 46,
     "title": "Por y Para: Precisión Profesional, Part 6 of 6",
-    "summary": "Un análisis de los usos más ambiguos de por y para en contextos laborales, contractuales y legales, donde la elección de una u otra preposición cambia el sentido real del mensaje.",
+    "summary": "Aprende 17 términos más de contratos y trabajo (rescindir, vinculante, a más tardar, en calidad de…).",
     "duration": "6 min",
     "sections": [
       {
@@ -4666,7 +4678,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "question": "En un contrato, ¿qué diferencia hay entre una cláusula introducida por «por incumplimiento» y otra introducida por «para evitar el incumplimiento»?",
         "options": [
           "Ninguna; ambas expresiones son intercambiables en un contrato.",
-          "La primera describe la causa de una sanción ya contraída; la segunda, el propósito de una medida preventiva.",
+          "La primera describe la causa de una sanción ya impuesta; la segunda, el propósito de una medida preventiva.",
           "La primera solo se usa en contratos verbales.",
           "La segunda es gramaticalmente incorrecta en textos legales."
         ],
@@ -4680,7 +4692,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 47,
     "title": "Ser, Estar y Haber: Casos Límite (Parte 1 de 2), Part 1 of 3",
-    "summary": "Un recorrido por los casos genuinamente ambiguos de ser, estar y haber, donde la elección no depende de la permanencia o la transitoriedad, sino de matices ontológicos, evaluativos y discursivos más finos.",
+    "summary": "Localiza eventos con «ser» (la reunión es en…) y objetos o lugares con «estar».",
     "duration": "8 min",
     "sections": [
       {
@@ -4743,7 +4755,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 48,
     "title": "Ser, Estar y Haber: Casos Límite (Parte 1 de 2), Part 2 of 3",
-    "summary": "Un recorrido por los casos genuinamente ambiguos de ser, estar y haber, donde la elección no depende de la permanencia o la transitoriedad, sino de matices ontológicos, evaluativos y discursivos más finos.",
+    "summary": "Distingue los adjetivos que cambian de significado con ser y estar (violento, interesado).",
     "duration": "7 min",
     "sections": [
       {
@@ -4792,11 +4804,11 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa con «hay» o la forma de «estar» que corresponda.",
-        "sentence": "___ varios documentos importantes en esa carpeta.",
-        "answer": "Hay",
-        "explanation": "«Hay» introduce entidades nuevas y no identificadas, en este caso «varios documentos», sin artículo definido.",
-        "hint": "La entidad todavía no se ha mencionado ni identificado en el discurso."
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Mi hermana ___ muy interesada en tu propuesta.",
+        "answer": "está",
+        "en": "My sister [is] very interested in your proposal.",
+        "explanation": "«Estar interesado en» expresa atracción o curiosidad por algo; «ser interesado» significaría actuar solo por el propio beneficio."
       }
     ]
   },
@@ -4805,7 +4817,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 49,
     "title": "Ser, Estar y Haber: Casos Límite (Parte 1 de 2), Part 3 of 3",
-    "summary": "Un recorrido por los casos genuinamente ambiguos de ser, estar y haber, donde la elección no depende de la permanencia o la transitoriedad, sino de matices ontológicos, evaluativos y discursivos más finos.",
+    "summary": "Elige entre «hay» (entidad nueva, indeterminada) y «estar» (entidad ya identificada).",
     "duration": "9 min",
     "sections": [
       {
@@ -4871,6 +4883,14 @@ const C1_BASE_LESSONS: Lesson[] = [
           2
         ],
         "explanation": "«Estar interesada» y «estar violento» describen estados puntuales y circunstanciales; las otras dos oraciones, con «ser», atribuyen rasgos estables de carácter."
+      },
+      {
+        "type": "fill-blank",
+        "prompt": "Completa con «hay» o la forma de «estar» que corresponda.",
+        "sentence": "___ varios documentos importantes en esa carpeta.",
+        "answer": "Hay",
+        "explanation": "«Hay» introduce entidades nuevas y no identificadas, en este caso «varios documentos», sin artículo definido.",
+        "hint": "La entidad todavía no se ha mencionado ni identificado en el discurso."
       }
     ]
   },
@@ -4888,6 +4908,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa localizando correctamente el evento dentro del recinto universitario.",
         "sentence": "La ceremonia de graduación ___ en el paraninfo, aunque la recepción posterior tendrá lugar en los jardines.",
         "answer": "es",
+        "altAnswers": ["será"],
         "hint": "Piensa en la naturaleza eventiva del sustantivo que se está localizando.",
         "explanation": "«Ceremonia» designa un suceso, no un objeto físico; los sustantivos eventivos se localizan siempre con «ser», con independencia de si el lugar es habitual u ocasional."
       },
@@ -4989,7 +5010,9 @@ const C1_BASE_LESSONS: Lesson[] = [
         "source": "He's normally a very calm person, but he got really aggressive during the shareholders' meeting.",
         "answer": "Normalmente es una persona muy tranquila, pero se puso muy violento durante la junta de accionistas.",
         "altAnswers": [
-          "Por lo general es una persona muy tranquila, pero se puso muy violento durante la reunión de accionistas."
+          "Por lo general es una persona muy tranquila, pero se puso muy violento durante la reunión de accionistas.",
+          "Normalmente es una persona muy tranquila, pero se puso muy agresivo durante la junta de accionistas.",
+          "Por lo general es una persona muy tranquila, pero se puso muy agresivo durante la reunión de accionistas."
         ],
         "explanation": "El rasgo estable de carácter («es una persona tranquila») se expresa con «ser»; el comportamiento puntual provocado por la reunión («se puso violento») se expresa mediante un cambio de estado transitorio, la misma familia semántica que «estar violento»."
       },
@@ -5097,7 +5120,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 51,
     "title": "Ser, Estar y Haber: Casos Límite (Parte 2 de 2), Part 1 of 3",
-    "summary": "Un recorrido por los casos genuinamente ambiguos de ser, estar y haber, donde la elección no depende de la permanencia o la transitoriedad, sino de matices ontológicos, evaluativos y discursivos más finos.",
+    "summary": "Matiza con es/está claro y es/está bueno: juicio general frente a percepción o evidencia inmediata.",
     "duration": "8 min",
     "sections": [
       {
@@ -5116,7 +5139,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "Evidencia inmediata y perceptible a partir de la situación actual."
           },
           {
-            "es": "Es bueno este restaurante en general.",
+            "es": "Este restaurante es bueno en general.",
             "en": "Valoración de una cualidad estable e inherente."
           },
           {
@@ -5174,7 +5197,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 52,
     "title": "Ser, Estar y Haber: Casos Límite (Parte 2 de 2), Part 2 of 3",
-    "summary": "Un recorrido por los casos genuinamente ambiguos de ser, estar y haber, donde la elección no depende de la permanencia o la transitoriedad, sino de matices ontológicos, evaluativos y discursivos más finos.",
+    "summary": "Repasa ser, estar y haber en un diálogo y aprende 18 términos para describir estos casos.",
     "duration": "10 min",
     "sections": [
       {
@@ -5193,7 +5216,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: los casos límite de ser, estar y haber",
         "body": [
-          "Primera tanda: 18 palabras relacionadas con los casos límite de ser, estar y haber; las 17 restantes llegan en la lección siguiente."
+          "Primera tanda: 18 palabras relacionadas con los casos límite de ser, estar y haber; las 17 restantes llegan en la Parte 3 de 3 de esta serie, después de unas lecciones de práctica."
         ],
         "examples": [
           {
@@ -5302,7 +5325,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 53,
     "title": "Ser, Estar y Haber: Casos Límite (Parte 2 de 2), Part 3 of 3",
-    "summary": "Un recorrido por los casos genuinamente ambiguos de ser, estar y haber, donde la elección no depende de la permanencia o la transitoriedad, sino de matices ontológicos, evaluativos y discursivos más finos.",
+    "summary": "Aprende 17 términos más para describir y valorar (inherente, coyuntural, de por sí…).",
     "duration": "7 min",
     "sections": [
       {
@@ -5478,7 +5501,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           0,
           1
         ],
-        "explanation": "«Es evidente» funciona correctamente con una verdad objetiva y atemporal; «está clarísimo» funciona correctamente con una evidencia perceptible e inmediata (los ojos hinchados). Las otras dos oraciones invierten el matiz: una verdad lógica atemporal no admite «estar», y una evidencia observada en el momento no encaja con «es»."
+        "explanation": "«Es evidente» funciona correctamente con una verdad objetiva y atemporal; «está clarísimo» funciona correctamente con una evidencia perceptible e inmediata (los ojos hinchados). Las otras dos no son idiomáticas: «evidente» no se construye con «estar» («está evidente»), y con «claro» ante una evidencia observada el español prefiere «está claro que»; «es clarísimo que» suena forzado."
       },
       {
         "type": "multiple-choice",
@@ -5608,7 +5631,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 55,
     "title": "Verbos Preposicionales y Régimen Verbal (Parte 1 de 2), Part 1 of 3",
-    "summary": "Un estudio de los verbos cuya preposición fija forma parte inseparable de su significado, y de los errores más frecuentes que surgen al confundir verbos semánticamente próximos con régimen distinto.",
+    "summary": "Entiende qué es el régimen verbal y memoriza verbos como contar con, consistir en y soñar con.",
     "duration": "9 min",
     "sections": [
       {
@@ -5671,7 +5694,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 56,
     "title": "Verbos Preposicionales y Régimen Verbal (Parte 1 de 2), Part 2 of 3",
-    "summary": "Un estudio de los verbos cuya preposición fija forma parte inseparable de su significado, y de los errores más frecuentes que surgen al confundir verbos semánticamente próximos con régimen distinto.",
+    "summary": "Distingue los verbos con «con»: contar con, dar con, encontrarse con, enfrentarse con.",
     "duration": "8 min",
     "sections": [
       {
@@ -5741,7 +5764,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 57,
     "title": "Verbos Preposicionales y Régimen Verbal (Parte 1 de 2), Part 3 of 3",
-    "summary": "Un estudio de los verbos cuya preposición fija forma parte inseparable de su significado, y de los errores más frecuentes que surgen al confundir verbos semánticamente próximos con régimen distinto.",
+    "summary": "Aprende los verbos con «en»: consistir, empeñarse, quedar, insistir y fijarse en.",
     "duration": "8 min",
     "sections": [
       {
@@ -6151,7 +6174,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: los verbos preposicionales",
         "body": [
-          "Primera tanda: 18 palabras relacionadas con los verbos preposicionales; las 17 restantes llegan en la lección siguiente."
+          "Primera tanda: 18 palabras relacionadas con los verbos preposicionales; las 17 restantes llegan en la parte 3 de esta serie."
         ],
         "examples": [
           {
@@ -6771,7 +6794,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "So pena de, bajo pena de y a riesgo de",
         "body": [
-          "«So pena de», «bajo pena de» y «a riesgo de» son conectores condicional-consecutivos de registro sumamente formal —el primero, prácticamente arcaico fuera de textos jurídicos y solemnes— que introducen una consecuencia negativa como advertencia si no se cumple una determinada condición. «So pena de» y «bajo pena de» proceden del lenguaje jurídico y conservan ese matiz de amenaza institucional o normativa.",
+          "«So pena de» y «bajo pena de» son locuciones de registro sumamente formal —la primera, prácticamente arcaica fuera de textos jurídicos y solemnes— que introducen una consecuencia negativa como advertencia si no se cumple una determinada condición. Ambas proceden del lenguaje jurídico y conservan ese matiz de amenaza institucional o normativa.",
           "«A riesgo de», en cambio, pertenece a un registro formal pero no exclusivamente jurídico, y suele introducir una consecuencia negativa que el propio hablante asume como posible al llevar a cabo una acción, más que una sanción impuesta externamente. La diferencia fundamental entre ambos grupos radica en el origen de la consecuencia negativa: una sanción institucional impuesta por otros, frente a un riesgo asumido voluntariamente por el propio hablante."
         ],
         "examples": [
@@ -6788,7 +6811,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "Riesgo asumido voluntariamente por el propio hablante."
           },
           {
-            "es": "Se comprometió a terminarlo a tiempo, a riesgo de trabajar todo el fin de semana.",
+            "es": "Se comprometió a terminarlo a tiempo, a riesgo de tener que trabajar todo el fin de semana.",
             "en": "Consecuencia negativa asumida como posible por el hablante."
           }
         ],
@@ -6849,7 +6872,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "Experta: Al fin y al cabo, ningún proyecto está exento de riesgos por completo.",
           "Moderador: Entonces, ¿cuál sería, en definitiva, la recomendación final del panel?",
           "Experto: En última instancia, recomendamos aprobar el proyecto con supervisión estricta.",
-          "Experta: Estoy de acuerdo, aunque insisto en que debe cumplirse, so pena de suspender la financiación."
+          "Experta: Estoy de acuerdo, aunque insisto en que debe cumplirse, so pena de que se suspenda la financiación."
         ]
       },
       {
@@ -7023,7 +7046,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "en último término",
-            "en": "como última instancia, en última conclusión"
+            "en": "en última instancia, como último recurso"
           },
           {
             "es": "con todo",
@@ -7084,7 +7107,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Fue esa decisión la que cambió el rumbo de la empresa.",
-            "en": "Se focaliza el complemento directo como el elemento más relevante."
+            "en": "Se focaliza el sujeto (inanimado) como el elemento más relevante."
           },
           {
             "es": "Fue en esa reunión donde se acordaron los nuevos plazos.",
@@ -7270,7 +7293,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "Concesión hipotética mínima seguida de una afirmación enfática del elemento focalizado."
           },
           {
-            "es": "Yo sí que se lo advertí, aunque no me hiciera caso.",
+            "es": "Yo sí que se lo advertí, aunque no me hizo caso.",
             "en": "El «sí que» enfático refuerza la veracidad frente a una duda implícita."
           },
           {
@@ -7745,7 +7768,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "A lo mejor frente a quizás, quizá y tal vez",
         "body": [
           "«A lo mejor» se distingue de «quizás», «quizá» y «tal vez» en un rasgo gramatical decisivo: mientras que estos últimos admiten tanto el indicativo como el subjuntivo, con una diferencia de grado de probabilidad según la posición respecto al verbo, «a lo mejor» exige siempre el indicativo, sin excepción alguna. «Quizás venga mañana» y «quizás viene mañana» son ambas gramaticales, aunque con un matiz de mayor incertidumbre en la variante con subjuntivo.",
-          "Esta diferencia refleja distintos orígenes históricos de cada expresión: «a lo mejor» se ha fijado como locución adverbial que no altera el modo del verbo que sigue, mientras que «quizás» y sus variantes conservan una capacidad selectora de modo verbal que le permite matizar sutilmente el grado de probabilidad percibida. En el registro coloquial, «a lo mejor» resulta considerablemente más frecuente que «quizás», que se percibe como ligeramente más formal o literario."
+          "Esta diferencia refleja distintos orígenes históricos de cada expresión: «a lo mejor» se ha fijado como locución adverbial que no altera el modo del verbo que sigue, mientras que «quizás» y sus variantes conservan una capacidad selectora de modo verbal que les permite matizar sutilmente el grado de probabilidad percibida. En el registro coloquial, «a lo mejor» resulta considerablemente más frecuente que «quizás», que se percibe como ligeramente más formal o literario."
         ],
         "examples": [
           {
@@ -8219,6 +8242,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la afirmación sobre el fenómeno colombiano descrito en el texto.",
             "sentence": "En algunas regiones de Colombia, el ustedeo funciona como una fórmula ___, no de distancia.",
             "answer": "afectiva",
+            "altAnswers": ["de cariño", "cariñosa"],
             "explanation": "El texto explica que en ciertas zonas de Colombia el usted se usa entre personas cercanas precisamente como muestra de cariño.",
             "hint": "Piensa en el sentimiento que transmite ese trato entre parejas y amigos íntimos."
           }
@@ -8624,7 +8648,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "perder el diptongo",
-            "en": "simplificar una vocal doble de la raíz verbal, como ocurre en tenés frente a tienes"
+            "en": "no presentar el diptongo (ie, ue) de la raíz verbal, como ocurre en tenés frente a tienes"
           },
           {
             "es": "el imperativo voseante",
@@ -8940,7 +8964,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "left": "Paraguay",
-            "right": "voseo generalizado, junto con una fuerte influencia del guaraní"
+            "right": "voseo generalizado, igual que en sus vecinos del Río de la Plata"
           }
         ],
         "explanation": "La extensión geográfica y el prestigio social del voseo varían considerablemente de una región a otra, aunque en todas ellas responde a la misma continuidad histórica de la forma medieval vos."
@@ -9061,7 +9085,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "— Para nada. Nosotros decimos vos tenés, vos podés, igual que ustedes, aunque el tonito cambia bastante.",
           "— Ah, mirá vos. ¿Y usan usted también, o el vos les alcanza para todo?",
           "— Usamos usted igual, sobre todo con la gente mayor o con alguien que no conocemos.",
-          "— Acá pasa lo mismo. El usted no desapareció, nomás cambió de compañero: antes era tú y usted, ahora es vos y usted.",
+          "— Acá pasa lo mismo. El usted no desapareció, nomás tiene otro compañero: donde otros dicen tú y usted, acá es vos y usted.",
           "— Tal cual. Lo que sí, cuando escucho hablar a alguien de España, me choca un poco el tú, se me hace medio raro.",
           "— A mí también, che, aunque una vez que te acostumbrás, no cuesta nada entenderlo."
         ]
@@ -9069,7 +9093,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: el voseo",
         "body": [
-          "Primera tanda: 18 palabras relacionadas con el voseo; las 17 restantes llegan en la lección siguiente."
+          "Primera tanda: 18 palabras relacionadas con el voseo; las 17 restantes llegan en la parte 3 de esta serie."
         ],
         "examples": [
           {
@@ -9647,7 +9671,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la oración con el nombre que reciben las palomitas de maíz en Argentina.",
-        "sentence": "En el cine, en Argentina no se pide palomitas, sino ___.",
+        "sentence": "En el cine, en Argentina no se piden palomitas, sino ___.",
         "answer": "pochoclo",
         "explanation": "El texto menciona pochoclo como el nombre argentino de las palomitas de maíz, frente a cabritas en Chile o canchita en Perú."
       }
@@ -9821,7 +9845,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "— Qué interesante. En mi país, si digo camión, todo el mundo entiende que es el transporte público, no un vehículo de carga.",
           "— Y en Chile le dicen micro, y en España, autobús a secas. Cada país con lo suyo.",
           "— Lo que más me costó al llegar fue lo de las palomitas. Pedí palomitas en el cine y la señora no entendió nada.",
-          "— Claro, acá es pochoclo. Con el tiempo vas agarrando el oído para estas cosas.",
+          "— Claro, acá es pochoclo. Con el tiempo le vas agarrando la mano a estas cosas.",
           "— Sí, ya me di cuenta de que lo mejor es preguntar sin pena cuando algo no me cierra.",
           "— Esa es la actitud correcta. Nadie espera que sepas todas las palabras de cada país."
         ]
@@ -10716,10 +10740,10 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la fórmula fija que se emplea para retomar un intercambio previo sin resumirlo por completo.",
-        "sentence": "En relación con el ___ de la referencia, le escribo para confirmar los detalles acordados.",
-        "answer": "asunto",
-        "explanation": "La expresión fija asunto de la referencia permite retomar un tema previamente tratado sin necesidad de resumirlo íntegramente."
+        "prompt": "Completa la fórmula de cortesía que se añade antes de la despedida final.",
+        "sentence": "Quedo a su ___ para cualquier consulta. Atentamente,",
+        "answer": "disposición",
+        "explanation": "La fórmula fija quedo a su disposición para cualquier consulta añade una nota de cortesía adicional antes de la despedida final."
       }
     ]
   },
@@ -10782,19 +10806,19 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Cuáles de las siguientes exigencias debe equilibrar un buen escrito formal, según lo estudiado?",
+        "question": "¿Cuáles de las siguientes son fórmulas fijas del cuerpo de un escrito formal, según lo estudiado?",
         "options": [
-          "La precisión",
-          "La cortesía",
-          "La extensión ilimitada",
-          "La concisión"
+          "Por medio de la presente",
+          "En relación con el asunto de la referencia",
+          "Un texto hueco",
+          "Agradezco de antemano su atención"
         ],
         "correctIndexes": [
           0,
           1,
           3
         ],
-        "explanation": "Un buen escrito formal equilibra precisión, cortesía y concisión; la extensión ilimitada no es un objetivo deseable en la correspondencia formal."
+        "explanation": "«Por medio de la presente» introduce el motivo, «en relación con el asunto de la referencia» retoma un intercambio previo y «agradezco de antemano su atención» cierra una petición. «Un texto hueco» no es una fórmula: es el defecto de abusar de ellas sin aportar contenido."
       }
     ]
   },
@@ -10886,7 +10910,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "Estimada señora Reyes:",
           "Por medio de la presente, me dirijo a usted en relación con el asunto de la referencia, tratado en nuestra reunión del pasado lunes.",
           "Le escribo para confirmar que la documentación solicitada ha sido remitida como adjunto al presente correo, junto con la constancia correspondiente.",
-          "Asimismo, quisiera solicitarle amablemente que, de ser posible, se sirva confirmar la recepción de dichos documentos a la mayor brevedad, dado que el plazo indicado vence a final de mes.",
+          "Asimismo, quisiera rogarle que, de ser posible, se sirva confirmar la recepción de dichos documentos a la mayor brevedad, dado que el plazo indicado vence a final de mes.",
           "Le agradezco de antemano su atención y quedo a la espera de su respuesta.",
           "Sin otro particular, aprovecho la ocasión para saludarla.",
           "Atentamente,",
@@ -11215,11 +11239,10 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "type": "fill-blank",
             "prompt": "Reescribe la idea evitando la primera persona, según la convención académica estudiada.",
-            "sentence": "En vez de decir 'creo que los resultados son concluyentes', el registro académico prefiere decir que los resultados ___ concluyentes.",
-            "answer": "resultan",
-            "altAnswers": ["parecen", "son"],
-            "explanation": "El registro académico prefiere formulaciones impersonales como los resultados resultan (o parecen) concluyentes, que desplazan el énfasis del autor hacia la evidencia misma.",
-            "hint": "Piensa en un verbo que describa la evidencia sin mencionar al autor."
+            "sentence": "En vez de decir 'creo que los resultados son concluyentes', el registro académico prefiere decir: «___ afirmar que los resultados son concluyentes».",
+            "answer": "Cabe",
+            "explanation": "El registro académico prefiere formulaciones impersonales como cabe afirmar que, que desplazan el énfasis del autor hacia el razonamiento mismo.",
+            "hint": "Piensa en el verbo impersonal de la fórmula «___ afirmar que»."
           }
         ]
       }
@@ -11228,10 +11251,10 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la oración evitando la primera persona, según la convención académica.",
-        "sentence": "En vez de decir 'pienso que la evidencia es suficiente', el registro académico prefiere decir que la evidencia ___ suficiente.",
-        "answer": "resulta",
-        "altAnswers": ["parece", "es"],
-        "explanation": "El registro académico evita la primera persona y prefiere formulaciones impersonales como la evidencia resulta suficiente."
+        "sentence": "En vez de decir 'pienso que la evidencia es suficiente', el registro académico prefiere decir: «___ que la evidencia es suficiente».",
+        "answer": "Se observa",
+        "altAnswers": ["Cabe afirmar", "Se constata", "Cabe sostener"],
+        "explanation": "El registro académico evita la primera persona y prefiere formulaciones impersonales como se observa que o cabe afirmar que."
       }
     ]
   },
@@ -11309,19 +11332,18 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Cuáles de las siguientes expresiones cumplen una función de atenuación en el discurso académico?",
+        "question": "¿Cuáles de los siguientes conectores añaden un argumento sin contradecir el anterior?",
         "options": [
-          "Los datos sugieren",
-          "Es evidente que, sin excepción",
-          "Parecería razonable pensar que",
-          "Todo indica que"
+          "Asimismo",
+          "Sin embargo",
+          "Por otra parte",
+          "Por consiguiente"
         ],
         "correctIndexes": [
           0,
-          2,
-          3
+          2
         ],
-        "explanation": "Las expresiones sugieren, parecería razonable pensar que y todo indica que atenúan la certeza de una afirmación; es evidente que, sin excepción constituye, en cambio, una afirmación categórica."
+        "explanation": "Asimismo y por otra parte añaden un argumento adicional; sin embargo introduce una objeción y por consiguiente marca una conclusión."
       }
     ]
   },
@@ -11384,7 +11406,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "«El primer factor explica una parte considerable del fenómeno estudiado. ___, conviene no descartar la influencia de variables externas no contempladas en el modelo». ¿Qué conector completa mejor esta oración, sin contradecir la idea anterior?",
+        "question": "«El primer factor explica una parte considerable del fenómeno estudiado. ___, el segundo factor contribuye de manera significativa al mismo fenómeno». ¿Qué conector completa mejor esta oración, sin contradecir la idea anterior?",
         "options": [
           "Sin embargo",
           "Asimismo",
@@ -11441,7 +11463,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "estudio"
         ],
         "translation": "Likewise, the methodological limitations of the study should be noted.",
-        "explanation": "«Asimismo» introduce aquí un argumento adicional sin contradecir lo anterior, cumpliendo la misma función aditiva que «por otra parte»."
+        "explanation": "«Asimismo» introduce aquí un argumento adicional sin contradecir lo anterior, cumpliendo la misma función aditiva que «además» o «igualmente»."
       },
       {
         "type": "translate",
@@ -11450,7 +11472,10 @@ const C1_BASE_LESSONS: Lesson[] = [
         "source": "I believe the sample size was too small to draw reliable conclusions.",
         "answer": "Cabe señalar que el tamaño de la muestra resultó insuficiente para extraer conclusiones fiables.",
         "altAnswers": [
-          "Cabe apuntar que el tamaño muestral fue insuficiente para extraer conclusiones fiables."
+          "Cabe apuntar que el tamaño muestral fue insuficiente para extraer conclusiones fiables.",
+          "Cabe señalar que el tamaño de la muestra fue insuficiente para extraer conclusiones fiables.",
+          "Todo indica que el tamaño de la muestra era demasiado reducido para extraer conclusiones fiables.",
+          "Parece que el tamaño de la muestra fue demasiado pequeño para extraer conclusiones fiables."
         ],
         "explanation": "«Cabe señalar que» desplaza el énfasis del autor hacia el razonamiento mismo, sustituyendo con una construcción impersonal el «I believe» de la fuente en inglés."
       },
@@ -11542,7 +11567,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 118,
     "title": "Lenguaje Académico y Ensayos Argumentativos (Parte 2 de 2), Part 1 of 4",
-    "summary": "Aprende a estructurar un argumento académico en español, dominar los conectores lógicos, evitar la primera persona y emplear la atenuación propia del discurso académico maduro.",
+    "summary": "Aprende a atenuar tus afirmaciones académicas («los datos sugieren», «todo indica que», «parecería») y a evitar las afirmaciones categóricas.",
     "duration": "9 min",
     "sections": [
       {
@@ -11612,7 +11637,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 119,
     "title": "Lenguaje Académico y Ensayos Argumentativos (Parte 2 de 2), Part 2 of 4",
-    "summary": "Aprende a estructurar un argumento académico en español, dominar los conectores lógicos, evitar la primera persona y emplear la atenuación propia del discurso académico maduro.",
+    "summary": "Analiza un ensayo académico modelo y practica sus conectores lógicos y sus fórmulas impersonales («cabe señalar», «conviene reconocer»).",
     "duration": "6 min",
     "sections": [
       {
@@ -11659,7 +11684,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 120,
     "title": "Lenguaje Académico y Ensayos Argumentativos (Parte 2 de 2), Part 3 of 4",
-    "summary": "Aprende a estructurar un argumento académico en español, dominar los conectores lógicos, evitar la primera persona y emplear la atenuación propia del discurso académico maduro.",
+    "summary": "Primera tanda de vocabulario académico: tesis, premisa, marco teórico, corpus, matiz, atenuar y otros términos clave.",
     "duration": "7 min",
     "sections": [
       {
@@ -11746,7 +11771,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Según el texto, ¿qué efecto produce en un lector experimentado un ensayo que abusa de afirmaciones categóricas sin matizarlas?",
+        "question": "Según lo visto sobre la atenuación en la primera parte de esta serie, ¿qué efecto produce en un lector experimentado un ensayo que abusa de afirmaciones categóricas sin matizarlas?",
         "options": [
           "Aumenta automáticamente la credibilidad del autor",
           "Genera desconfianza, porque ignora la posibilidad de excepciones legítimas",
@@ -11763,7 +11788,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 121,
     "title": "Lenguaje Académico y Ensayos Argumentativos (Parte 2 de 2), Part 4 of 4",
-    "summary": "Aprende a estructurar un argumento académico en español, dominar los conectores lógicos, evitar la primera persona y emplear la atenuación propia del discurso académico maduro.",
+    "summary": "Segunda tanda de vocabulario académico: recursos de impersonalidad, partes del ensayo y conceptos de la argumentación.",
     "duration": "4 min",
     "sections": [
       {
@@ -11967,7 +11992,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "sentence": "Por muy inteligente que ___ (ser), nadie lo sabe todo.",
             "answer": "sea",
             "hint": "Presente de subjuntivo de 'ser'.",
-            "explanation": "Por muy + adjetivo + que siempre requiere subjuntivo; aquí 'sea' es la forma correcta de 'ser'."
+            "explanation": "Por muy + adjetivo + que lleva normalmente subjuntivo (con hechos pasados o habituales admite indicativo); aquí 'sea' es la forma correcta de 'ser'."
           }
         ]
       },
@@ -12020,7 +12045,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "sentence": "Por muy caro que ___ (ser) el coche, lo voy a comprar.",
         "answer": "sea",
         "hint": "Presente de subjuntivo de 'ser'.",
-        "explanation": "Por muy + adjetivo + que siempre exige subjuntivo; la forma correcta es 'sea'."
+        "explanation": "Por muy + adjetivo + que exige aquí subjuntivo (hecho hipotético); la forma correcta es 'sea'."
       },
       {
         "type": "translate",
@@ -12051,7 +12076,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "sentence": "El hecho de que ___ (haber) tanta gente no significa que el evento sea un éxito.",
         "answer": "haya",
         "hint": "Presente de subjuntivo de 'haber'.",
-        "explanation": "'El hecho de que' siempre lleva subjuntivo; aquí corresponde 'haya' (haber)."
+        "explanation": "'El hecho de que' lleva normalmente subjuntivo; aquí corresponde 'haya' (haber)."
       },
       {
         "type": "multiple-choice",
@@ -12127,7 +12152,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "sentence": "El hecho de que ___ (vivir) lejos no impide que nos veamos cada semana.",
             "answer": "viva",
             "hint": "Presente de subjuntivo de 'vivir'.",
-            "explanation": "'El hecho de que' siempre requiere subjuntivo, aunque el hecho sea cierto; aquí la forma correcta es 'viva'."
+            "explanation": "'El hecho de que' lleva normalmente subjuntivo, aunque el hecho sea cierto; aquí la forma correcta es 'viva'."
           }
         ]
       },
@@ -12182,7 +12207,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "es-en",
         "prompt": "Traduce la oración al inglés.",
-        "source": "Quienquiera que gane las elecciones, tendrá que enfrentar la crisis económica.",
+        "source": "Quienquiera que gane las elecciones tendrá que enfrentar la crisis económica.",
         "answer": "Whoever wins the elections will have to face the economic crisis.",
         "altAnswers": [
           "Whoever wins the election will have to deal with the economic crisis."
@@ -12305,7 +12330,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Quienquiera, dondequiera, comoquiera que + subjuntivo",
         "body": [
-          "Estas formas compuestas con -quiera son concesivas cultas y siempre requieren subjuntivo en la cláusula que introducen."
+          "Estas formas compuestas con -quiera son concesivas cultas y suelen llevar subjuntivo en la cláusula que introducen (el indicativo aparece con hechos reales o habituales: «dondequiera que iba, lo reconocían»)."
         ],
         "examples": [
           {
@@ -12428,7 +12453,7 @@ const C1_BASE_LESSONS: Lesson[] = [
               "Importante lo es terminar el proyecto a tiempo."
             ],
             "correctIndex": 0,
-            "explanation": "Con 'lo + adjetivo' el adjetivo siempre va en forma masculina singular, sin importar a qué se refiera; por eso es 'lo importante', no 'la importante'. «La importante» y «el importante» exigirían un sustantivo detrás («la parte importante»), y «Importante lo es…» altera el orden de la estructura."
+            "explanation": "Con 'lo + adjetivo' que nombra una cualidad abstracta, el adjetivo va en masculino singular (en «lo + adjetivo + que», en cambio, concuerda: «lo cansada que está»); por eso es 'lo importante', no 'la importante'. «La importante» y «el importante» exigirían un sustantivo detrás («la parte importante»), y «Importante lo es…» altera el orden de la estructura."
           }
         ]
       },
@@ -12958,15 +12983,16 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El gerundio de posterioridad (error que se debe evitar)",
         "body": [
-          "No se debe usar el gerundio para expresar una acción posterior a otra; en su lugar se usa 'y' más el verbo conjugado."
+          "No se debe usar el gerundio para expresar una acción claramente posterior a otra (la norma solo lo tolera si la posterioridad es inmediata, casi simultánea: «Salió dando un portazo»); en su lugar se usa 'y' más el verbo conjugado."
         ],
         "examples": [
           {
-            "es": "Se cayó y se rompió la pierna. (correcto)",
-            "en": "He fell and broke his leg."
+            "es": "Estudió en Salamanca y después se trasladó a Madrid. (correcto)",
+            "en": "He studied in Salamanca and later moved to Madrid."
           },
           {
-            "es": "*Se cayó rompiéndose la pierna. (incorrecto)"
+            "es": "*Estudió en Salamanca, trasladándose después a Madrid. (incorrecto)",
+            "en": "*He studied in Salamanca, moving to Madrid afterwards. (incorrect)"
           }
         ],
         "checkpoint": [
@@ -12974,13 +13000,13 @@ const C1_BASE_LESSONS: Lesson[] = [
             "type": "multiple-choice",
             "question": "¿Cuál de las siguientes oraciones es gramaticalmente correcta?",
             "options": [
-              "Se cayó rompiéndose la pierna.",
-              "Se cayó y se rompió la pierna.",
-              "Se cayó rompiendo la pierna.",
-              "Cayéndose se rompió la pierna."
+              "Estudió en Salamanca, trasladándose después a Madrid.",
+              "Estudió en Salamanca y después se trasladó a Madrid.",
+              "Estudió en Salamanca, trasladando después a Madrid.",
+              "Trasladándose después a Madrid, estudió en Salamanca."
             ],
             "correctIndex": 1,
-            "explanation": "No se puede usar el gerundio para expresar una acción posterior (gerundio de posterioridad); lo correcto es unir las dos acciones con 'y' más el verbo conjugado. «Rompiéndose» y «rompiendo» presentan la fractura como consecuencia posterior con gerundio, y «Cayéndose se rompió…» es forzado y poco natural."
+            "explanation": "No se puede usar el gerundio para expresar una acción claramente posterior (gerundio de posterioridad); lo correcto es unir las dos acciones con 'y' más el verbo conjugado. «Trasladándose después» presenta con gerundio una acción posterior, «trasladando» además pierde el pronombre de «trasladarse», y «Trasladándose después a Madrid, estudió…» invierte el orden de los hechos."
           }
         ]
       }
@@ -13689,11 +13715,11 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "left": "Se vive tranquilo en el campo.",
-            "right": "Se impersonal"
+            "right": "Se impersonal con verbo intransitivo"
           },
           {
             "left": "Se dice que lloverá mañana.",
-            "right": "Se impersonal"
+            "right": "Se impersonal con verbo de comunicación"
           }
         ],
         "explanation": "La voz pasiva con ser usa 'ser + participio' y suele mencionar el agente; la pasiva refleja usa 'se' con un sujeto paciente que concuerda en número; el se impersonal usa 'se' con el verbo siempre en singular y sin sujeto paciente claro."
@@ -13728,6 +13754,9 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "It is said that this restaurant has the best paella in the city.",
         "answer": "Se dice que este restaurante tiene la mejor paella de la ciudad.",
+        "altAnswers": [
+          "Dicen que este restaurante tiene la mejor paella de la ciudad."
+        ],
         "explanation": "'Se dice que' es la construcción impersonal fija para 'it is said that', seguida de una oración subordinada."
       }
     ]
@@ -13859,12 +13888,12 @@ const C1_BASE_LESSONS: Lesson[] = [
         "question": "¿Qué oración corrige el error de concordancia en 'Se vende tres apartamentos en el centro'?",
         "options": [
           "Se venden tres apartamentos en el centro.",
-          "Se vendieron tres apartamentos en el centro, siendo esta la única opción correcta.",
+          "Se venden tres apartamento en el centro.",
           "Se vende a tres apartamentos en el centro.",
           "Se ha vendido tres apartamentos en el centro."
         ],
         "correctIndex": 0,
-        "explanation": "El sujeto paciente 'tres apartamentos' es plural, así que el verbo debe concordar en plural: 'se venden tres apartamentos'. «Se vendieron» cambia el tiempo sin necesidad, «Se vende a tres apartamentos» usa la «a» personal con cosas y «Se ha vendido tres…» mantiene el error de concordancia."
+        "explanation": "El sujeto paciente 'tres apartamentos' es plural, así que el verbo debe concordar en plural: 'se venden tres apartamentos'. «Se venden tres apartamento» rompe la concordancia del sustantivo, «Se vende a tres apartamentos» usa la «a» personal con cosas y «Se ha vendido tres…» mantiene el error de concordancia."
       },
       {
         "type": "translate",
@@ -14501,10 +14530,10 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la oración con 'ser' o 'estar' en la forma correcta.",
-        "sentence": "La ventana ___ rota por el granizo durante la tormenta de ayer.",
+        "sentence": "La ventana ___ rota por unos vándalos durante la noche.",
         "answer": "fue",
-        "hint": "Aquí se narra la acción con su causa.",
-        "explanation": "'Ser rota' aquí narra el evento pasivo con agente causante ('por el granizo'), no solo el estado final."
+        "hint": "Aquí se narra la acción con su agente.",
+        "explanation": "'Ser rota' aquí narra el evento pasivo con su agente ('por unos vándalos'), no solo el estado final."
       },
       {
         "type": "translate",
@@ -14724,10 +14753,10 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la oración con la forma correcta del verbo 'tener'.",
-        "sentence": "Los socios ___ a bien remitir la documentación antes del plazo indicado.",
-        "answer": "tienen",
+        "sentence": "Se ruega a los socios que ___ a bien remitir la documentación antes del plazo indicado.",
+        "answer": "tengan",
         "hint": "Es una fórmula fija de cortesía en textos formales.",
-        "explanation": "'Tener a bien' + infinitivo es una expresión formal que significa 'tener la amabilidad de, dignarse'; suele aparecer en peticiones corteses («le ruego que tenga a bien…»)."
+        "explanation": "'Tener a bien' + infinitivo es una expresión formal que significa 'tener la amabilidad de, dignarse'; aparece en peticiones corteses, como aquí: «se ruega… que tengan a bien», con subjuntivo tras «rogar que»."
       }
     ]
   },
@@ -14814,8 +14843,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "The report was drafted by the committee, but it is still being reviewed."
           },
           {
-            "es": "El menú del día está a quince euros; el menú degustación es cuarenta y cinco.",
-            "en": "The set menu is at fifteen euros; the tasting menu is forty-five."
+            "es": "El pescado está hoy a quince euros el kilo; el menú degustación es cuarenta y cinco.",
+            "en": "Fish is fifteen euros a kilo today; the tasting menu is forty-five."
           }
         ],
         "checkpoint": [
@@ -14912,7 +14941,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Traduce la oración al español.",
-        "source": "Lately, she's been being unusually patient with the interns.",
+        "source": "Lately, she's being unusually patient with the interns.",
         "answer": "Últimamente, está siendo inusualmente paciente con los becarios.",
         "altAnswers": [
           "Últimamente, está siendo inusualmente paciente con los becarios en prácticas."
@@ -15020,8 +15049,8 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "El examen consiste en tres partes.",
-            "en": "The exam consists of three parts."
+            "es": "El examen consiste en resolver tres casos prácticos.",
+            "en": "The exam consists of solving three case studies."
           },
           {
             "es": "Fíjate en los detalles antes de firmar.",
@@ -15068,10 +15097,10 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la oración con la forma correcta.",
-        "sentence": "El curso consiste ___ diez módulos de gramática.",
+        "sentence": "El curso consiste ___ repasar la gramática en diez módulos.",
         "answer": "en",
         "hint": "consistir + preposición",
-        "explanation": "'Consistir' siempre lleva la preposición EN."
+        "explanation": "'Consistir' siempre lleva la preposición EN. Para enumerar las partes de algo se prefiere «constar de» («el curso consta de diez módulos»)."
       },
       {
         "type": "translate",
@@ -15748,7 +15777,10 @@ const C1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con el imperativo negativo correcto.",
             "sentence": "No ___ (abrir) la puerta.",
             "answer": "abras",
-            "explanation": "El imperativo negativo de vos usa el subjuntivo, que en el uso estándar coincide con el de tú: no abras."
+            "altAnswers": [
+              "abrás"
+            ],
+            "explanation": "El imperativo negativo de vos usa el subjuntivo, que en el uso estándar coincide con el de tú: no abras (en el habla rioplatense también se oye «no abrás»)."
           }
         ]
       },
@@ -15857,7 +15889,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "source": "¿Vos sos de Uruguay?",
         "answer": "Are you from Uruguay?",
         "altAnswers": [
-          "Are you from Uruguay, right?"
+          "You're from Uruguay?"
         ],
         "explanation": "'Sos' es la forma de vos del verbo ser, equivalente a 'eres' con tú."
       }
@@ -15909,7 +15941,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vos y tú: reconocimiento regional",
         "body": [
-          "El voseo es una variante regional que conviene reconocer al leer o escuchar, aunque elijas usar tú en tu propio habla."
+          "El voseo es una variante regional que conviene reconocer al leer o escuchar, aunque elijas usar tú en tu propia habla."
         ],
         "examples": [
           {

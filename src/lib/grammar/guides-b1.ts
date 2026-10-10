@@ -75,7 +75,7 @@ export const B1_GUIDES: GrammarGuide[] = [
       {
         heading: "Word order: nothing goes between haber and the participle",
         body: [
-          "Object and reflexive pronouns go before haber, and so does no. Nothing can separate haber from the participle, unlike English \"I have often thought.\"",
+          "Object and reflexive pronouns go before haber, and so does no. In normal usage nothing separates haber from the participle, unlike English \"I have often thought.\" (Literary Spanish occasionally inserts ya or casi.)",
         ],
         examples: [
           { es: "No lo he visto.", en: "I haven't seen it." },
@@ -189,7 +189,7 @@ export const B1_GUIDES: GrammarGuide[] = [
       {
         wrong: "Había ya salido.",
         right: "Ya había salido.",
-        why: "As with all compound tenses, nothing goes between haber and the participle.",
+        why: "In everyday Spanish nothing goes between haber and the participle; put ya before haber. (Había ya salido is only literary.)",
       },
     ],
     faqs: [
@@ -543,7 +543,7 @@ export const B1_GUIDES: GrammarGuide[] = [
       {
         heading: "The -d drops before os",
         body: [
-          "With reflexive verbs, the -d disappears before os: levantad + os = levantaos. -ir verbs add an accent: vestíos, idos (the one exception that keeps the d). In speech, many people in Spain use the infinitive instead (¡Sentaros!), which is common but considered incorrect in writing.",
+          "With reflexive verbs, the -d disappears before os: levantad + os = levantaos. -ir verbs add an accent on the í: vestíos, divertíos. Irse is the one exception that keeps the d: idos (no accent; iros is now also accepted). In speech, many people in Spain use the infinitive instead (¡Sentaros!), which is common but considered incorrect in writing.",
         ],
         examples: [
           { es: "Levantaos, que es tarde.", en: "Get up, it's late." },
@@ -1006,7 +1006,7 @@ export const B1_GUIDES: GrammarGuide[] = [
     faqs: [
       {
         q: "What's the difference between deber and deber de?",
-        a: "Traditionally, deber + infinitive is obligation (Debes descansar) and deber de + infinitive is probability (Debe de estar cansado). In speech the two are often mixed, but keeping them apart is the standard.",
+        a: "Traditionally, deber + infinitive is obligation (Debes descansar) and deber de + infinitive is probability (Debe de estar cansado). In speech the two are often mixed. The RAE also accepts deber + infinitive for probability (Debe estar cansado), but discourages deber de for obligation.",
       },
       {
         q: "Is \"hace tres años que estudio\" the same as \"llevo tres años estudiando\"?",

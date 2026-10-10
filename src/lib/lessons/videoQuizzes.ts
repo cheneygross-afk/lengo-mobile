@@ -175,7 +175,7 @@ export const VIDEO_QUIZZES: Record<string, VideoQuiz> = {
           "You must always leave a big tip",
           "It's fine not to leave a tip",
           "Leaving a tip is bad manners",
-          "You leave a tip only in the elevator",
+          "You leave a tip only for very good service",
         ],
         answerIndex: 1,
         explanation:
@@ -2112,7 +2112,7 @@ export const VIDEO_QUIZZES: Record<string, VideoQuiz> = {
       },
       {
         question: "Instead of prison, what does the officer give the thief?",
-        options: ["A fine", "A warning", "A coffee", "A gift"],
+        options: ["A fine", "A warning", "A medal", "A gift"],
         answerIndex: 0,
         explanation:
           'Around 3:27 she has an idea: no prison, only "una multa" (a fine).',
@@ -3049,7 +3049,7 @@ export const VIDEO_QUIZZES: Record<string, VideoQuiz> = {
   "-juyR8dX2fw": {
     questions: [
       {
-        question: "¿Qué carácter tiene este vídeo según la propia hablante?",
+        question: "¿Cómo presenta la propia hablante este vídeo?",
         options: [
           "Una guía completa de los museos de Madrid",
           "Una pequeña introducción a Madrid para que el público le diga qué temas le interesan",

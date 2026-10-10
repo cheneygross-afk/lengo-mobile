@@ -221,7 +221,7 @@ const ROWS: Row[] = [
   ["observar", "to observe"],
   ["indicar", "to indicate"],
   ["imaginar", "to imagine", "prn"],
-  ["soler", "to usually (do)", "ue", { note: "Soler is used almost only in the present and imperfect (suelo, solía), always followed by an infinitive." }],
+  ["soler", "to usually (do)", "ue", { noImp: true, note: "Soler is used almost only in the present and imperfect (suelo, solía), always followed by an infinitive." }],
   ["detener", "to stop, to arrest", "prn", { from: ["de", "tener"], enSe: "to stop (oneself)" }],
   ["desarrollar", "to develop"],
   ["señalar", "to point out"],

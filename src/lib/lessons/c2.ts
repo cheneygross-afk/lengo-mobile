@@ -150,7 +150,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El aparato del proceso judicial y la resolución administrativa",
         "body": [
-          "El vocabulario propio del proceso judicial distingue con cuidado los distintos papeles y momentos de un litigio: el demandante es quien inicia una acción legal contra otra persona, denominada demandado; la resolución que pone fin a un proceso ante un tribunal recibe el nombre de sentencia o fallo, según el contexto y el país. Cada uno de estos términos designa una realidad procesal precisa que no admite sinónimos intercambiables sin riesgo de imprecisión.",
+          "El vocabulario propio del proceso judicial distingue con cuidado los distintos papeles y momentos de un litigio: el demandante es quien inicia una acción legal contra otra persona, denominada demandado; la resolución que pone fin a un proceso ante un tribunal recibe el nombre de sentencia, y la parte de ella que contiene la decisión se denomina fallo. Cada uno de estos términos designa una realidad procesal precisa que no admite sinónimos intercambiables sin riesgo de imprecisión.",
           "Fuera del ámbito estrictamente judicial, la administración pública emplea su propio vocabulario para sus actuaciones: una resolución administrativa resuelve un trámite iniciado por un particular, mientras que una notificación fehaciente certifica que dicha resolución ha llegado efectivamente a conocimiento del interesado. El plazo perentorio que suele acompañar estas notificaciones indica un límite temporal que, una vez vencido, extingue el derecho a actuar, salvo que se conceda una prórroga expresa."
         ],
         "examples": [
@@ -265,7 +265,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Doña Marta es la demandada y su sobrino el demandante."
         ],
         "correctIndex": 1,
-        "explanation": "El otorgante es quien concede algo mediante un documento —en este caso, doña Marta concede el poder—, mientras que el compareciente es quien se presenta físicamente ante el notario para realizar el acto, función que aquí cumple el sobrino en representación de su tía. La compareciente no es doña Marta, que no acude, y ninguno de los dos es fedatario (lo es el notario); «demandante» y «demandado» son términos de un litigio, no de un poder."
+        "explanation": "El otorgante es quien concede algo mediante un documento —en este caso, doña Marta concede el poder—, mientras que el compareciente es quien se presenta físicamente ante el notario para realizar el acto, función que cumplirá el sobrino cuando firme la escritura en representación de su tía. Al otorgar el poder, doña Marta también comparece ante el notario (o este acude a su domicilio), pero lo que la define en este acto es ser la otorgante; ninguno de los dos es fedatario (lo es el notario); «demandante» y «demandado» son términos de un litigio, no de un poder."
       },
       {
         "type": "fill-blank",
@@ -390,7 +390,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "El suscrito declara, por medio de la presente, que la información proporcionada es veraz y exacta."
         ],
-        "explanation": "«El suscrito» y «por la presente» son fórmulas fijas del registro jurídico y administrativo, ambas estudiadas en esta lección, que sustituyen con precisión formal a expresiones más coloquiales del inglés como «the undersigned» y «hereby»."
+        "explanation": "«El suscrito» y «por la presente» son fórmulas fijas del registro jurídico y administrativo, ambas estudiadas en esta lección, que equivalen a las fórmulas jurídicas inglesas «the undersigned» y «hereby»."
       },
       {
         "type": "translate",
@@ -422,7 +422,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 5,
     "title": "Español Jurídico y Administrativo (Parte 2 de 2), Part 1 of 4",
-    "summary": "Familiarízate con el vocabulario y las fórmulas fijas de los documentos legales y administrativos, desde el suscrito y el compareciente hasta la sentencia y el poder notarial.",
+    "summary": "Aprende el vocabulario de los contratos: cláusulas, incumplimiento contractual y responsabilidad solidaria, además del apoderado y la legalización de firma.",
     "duration": "6 min",
     "sections": [
       {
@@ -473,7 +473,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 6,
     "title": "Español Jurídico y Administrativo (Parte 2 de 2), Part 2 of 4",
-    "summary": "Familiarízate con el vocabulario y las fórmulas fijas de los documentos legales y administrativos, desde el suscrito y el compareciente hasta la sentencia y el poder notarial.",
+    "summary": "Aprende a actuar en nombre de otro (poder notarial, apoderado, legalización de firma) y lee esos términos en una escritura notarial real.",
     "duration": "9 min",
     "sections": [
       {
@@ -553,7 +553,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 7,
     "title": "Español Jurídico y Administrativo (Parte 2 de 2), Part 3 of 4",
-    "summary": "Familiarízate con el vocabulario y las fórmulas fijas de los documentos legales y administrativos, desde el suscrito y el compareciente hasta la sentencia y el poder notarial.",
+    "summary": "Repasa el banco de vocabulario jurídico y administrativo: el suscrito, el compareciente, el otorgante, dar fe, la escritura pública y el notario.",
     "duration": "7 min",
     "sections": [
       {
@@ -657,7 +657,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 8,
     "title": "Español Jurídico y Administrativo (Parte 2 de 2), Part 4 of 4",
-    "summary": "Familiarízate con el vocabulario y las fórmulas fijas de los documentos legales y administrativos, desde el suscrito y el compareciente hasta la sentencia y el poder notarial.",
+    "summary": "Amplía el vocabulario jurídico: cláusula resolutoria, normativa vigente, jurisdicción competente, litigio, demanda, plazos y prórrogas.",
     "duration": "4 min",
     "sections": [
       {
@@ -1145,10 +1145,10 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con el término que designa el proceso de recuperación tras una cirugía.",
-        "sentence": "Durante la ___, el paciente debe evitar esfuerzos físicos intensos.",
-        "answer": "convalecencia",
-        "explanation": "La convalecencia es el proceso de recuperación gradual tras una enfermedad o una intervención quirúrgica."
+        "prompt": "Completa la oración con el término que designa una condición de fondo que explica síntomas inconexos.",
+        "sentence": "Las pruebas revelaron una ___ subyacente que explicaba el cansancio.",
+        "answer": "patología",
+        "explanation": "La patología subyacente es una condición médica de fondo que explica síntomas aparentemente independientes."
       }
     ]
   },
@@ -1214,7 +1214,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Cuáles de los siguientes datos forma parte de una anamnesis completa, según lo estudiado?",
+        "question": "¿Cuáles de los siguientes datos forman parte de una anamnesis completa, según lo estudiado?",
         "options": [
           "Los antecedentes familiares",
           "El resultado de una biopsia ya realizada",
@@ -2540,10 +2540,10 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa el término que designa la imitación exagerada de un estilo con fines cómicos o críticos.",
-        "sentence": "El programa hizo una ___ tan exagerada del discurso del político que todos reconocieron enseguida a quién se refería.",
-        "answer": "parodia",
-        "explanation": "La parodia es la imitación exagerada de una obra o estilo con fines cómicos o críticos."
+        "prompt": "Completa el término que designa la manera indirecta y socarrona de hablar, típica del humor gallego.",
+        "sentence": "Mi abuelo contestó con tanta ___ que nunca supimos si hablaba en serio.",
+        "answer": "retranca",
+        "explanation": "La retranca es la manera indirecta y socarrona de hablar, típica del humor gallego, que insinúa más de lo que dice."
       }
     ]
   },
@@ -2993,15 +2993,15 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Cuál de las siguientes opciones es un ejemplo de hipérbole?",
+        "question": "¿Cuál de las siguientes opciones es un ejemplo de personificación?",
         "options": [
-          "te lo he dicho un millón de veces",
+          "el viento susurraba entre los árboles",
           "el tiempo es oro",
-          "el Palacio anunció una reforma",
-          "hay que ganarse el pan"
+          "sus ojos brillan como luceros",
+          "el pie de la mesa"
         ],
         "correctIndex": 0,
-        "explanation": "Te lo he dicho un millón de veces es una exageración deliberada, característica de la hipérbole; las demás opciones son metáfora, metonimia y sinécdoque respectivamente."
+        "explanation": "«El viento susurraba» atribuye al viento una acción humana: es una personificación. «El tiempo es oro» es una metáfora, «brillan como luceros» es un símil y «el pie de la mesa» es una catacresis."
       },
       {
         "type": "fill-blank",
@@ -3059,7 +3059,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "options": [
               "el Palacio anunció una reforma",
               "me muero de hambre",
-              "toda la ciudad salió a celebrar",
+              "hay cuatro bocas que alimentar",
               "hay que ganarse el pan"
             ],
             "correctIndexes": [
@@ -3147,7 +3147,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "pairs": [
           {
             "left": "el oxímoron",
-            "right": "combinación de dos términos de significado contradictorio en una sola expresión"
+            "right": "un silencio atronador"
           },
           {
             "left": "la paradoja",
@@ -3182,7 +3182,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Profesora: Exacto, y además hay una personificación: se le da al silencio la capacidad de gritar, una acción humana.",
           "Estudiante: ¿Y si el poema dijera que la habitación le susurró un secreto al poeta?",
           "Profesora: Ahí tendríamos ya una prosopopeya, porque la habitación no solo actúa como persona, sino que llega a comunicarse.",
-          "Estudiante: Entonces la metáfora y la personificación pueden combinarse en una misma imagen.",
+          "Estudiante: Entonces la paradoja y la personificación pueden combinarse en una misma imagen.",
           "Profesora: Así es. La buena literatura rara vez usa una sola figura de manera aislada; suele entrelazar varias para construir una imagen más rica y sugerente.",
           "Estudiante: Empiezo a entender por qué este poema me pareció tan intenso al leerlo la primera vez.",
           "Profesora: Precisamente por eso: el lenguaje figurado no adorna el texto, sino que construye buena parte de su significado."
@@ -3477,6 +3477,10 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa el eufemismo que se usa para referirse de forma respetuosa a alguien de edad avanzada.",
         "sentence": "El centro cultural organiza actividades específicas para las ___ de la zona.",
         "answer": "personas de la tercera edad",
+        "altAnswers": [
+          "personas mayores",
+          "personas de edad avanzada"
+        ],
         "explanation": "La persona de la tercera edad es la expresión respetuosa y suavizada para referirse a alguien de edad avanzada."
       }
     ]
@@ -3693,7 +3697,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "poner a alguien en la calle",
-            "en": "expresión que indica de manera indirecta que alguien pierde su empleo"
+            "en": "expresión coloquial y cruda (más disfemismo que eufemismo) para decir que se despide a alguien"
           },
           {
             "es": "el reajuste de plantilla",
@@ -4067,7 +4071,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Marcos: ¿Y la nueva oficina está lejos de aquí?",
           "Lucía: Para nada, está a diez minutos caminando. Eso sí que es una buena noticia.",
           "Marcos: Menos mal. ¡Menuda sorpresa me has dado con lo del cierre, pensaba que era broma!",
-          "Lucía: ¡Ni de broma! Va totalmente en serio, ya verás la semana que viene.",
+          "Lucía: ¡Qué va! Te lo digo totalmente en serio, ya verás la semana que viene.",
           "Marcos: Bueno, al menos la ubicación nueva compensa un poco el disgusto inicial."
         ]
       },
@@ -4932,7 +4936,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "hincar el diente a un proyecto",
-            "en": "empezar a trabajar en un proyecto con determinación tras haberlo pospuesto"
+            "en": "empezar a abordar en serio un proyecto o asunto, sobre todo si es difícil"
           }
         ],
         "checkpoint": [
@@ -5106,7 +5110,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "hincar el diente a un proyecto",
-            "en": "empezar a trabajar en un proyecto con determinación tras haberlo pospuesto"
+            "en": "empezar a abordar en serio un proyecto o asunto, sobre todo si es difícil"
           },
           {
             "es": "poner sobre el tapete",
@@ -5174,7 +5178,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 36,
     "title": "Estrategias de Comprensión Auditiva y Lectora, Part 1 of 8",
-    "summary": "Aprende a inferir significado del contexto, reconocer cambios de registro y seguir conexiones lógicas implícitas en el español hablado a gran velocidad y en los textos escritos más densos.",
+    "summary": "Aprende a deducir el sentido de palabras desconocidas por el contexto y a distinguir una ambigüedad intencionada de una simple laguna léxica.",
     "duration": "8 min",
     "sections": [
       {
@@ -5220,7 +5224,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 37,
     "title": "Estrategias de Comprensión Auditiva y Lectora, Part 2 of 8",
-    "summary": "Aprende a inferir significado del contexto, reconocer cambios de registro y seguir conexiones lógicas implícitas en el español hablado a gran velocidad y en los textos escritos más densos.",
+    "summary": "Decide cuándo conviene seguir leyendo sin resolver una duda y cuándo dejar abierta una ambigüedad intencionada.",
     "duration": "5 min",
     "sections": [
       {
@@ -5257,19 +5261,18 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Cuáles de los siguientes fenómenos dificultan la comprensión del habla nativa rápida?",
+        "question": "¿Cuándo conviene seguir adelante sin resolver una duda?",
         "options": [
-          "La sinalefa entre palabras",
-          "La reducción de sílabas átonas",
-          "El uso de conectores explícitos",
-          "La fusión de dos palabras en una sola unidad fónica"
+          "Cuando solo se trata de una palabra desconocida",
+          "Cuando la ambigüedad es intencionada y conviene dejar la interpretación abierta",
+          "Cuando la duda afecta a la tesis central del texto",
+          "Nunca: hay que aclarar cada palabra antes de continuar"
         ],
         "correctIndexes": [
           0,
-          1,
-          3
+          1
         ],
-        "explanation": "La sinalefa, la reducción de sílabas átonas y la fusión de palabras son fenómenos propios del habla espontánea que exigen entrenamiento auditivo específico. Los conectores explícitos, en cambio, facilitan la comprensión porque anuncian la estructura del discurso."
+        "explanation": "Ante una palabra desconocida, lo mejor es seguir leyendo para no perder el hilo; ante una ambigüedad intencionada, conviene dejar la interpretación abierta. Si la duda afecta a la tesis central, sí hay que resolverla, y detenerse en cada palabra rompe la lectura."
       }
     ]
   },
@@ -5278,7 +5281,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 38,
     "title": "Estrategias de Comprensión Auditiva y Lectora, Part 3 of 8",
-    "summary": "Aprende a inferir significado del contexto, reconocer cambios de registro y seguir conexiones lógicas implícitas en el español hablado a gran velocidad y en los textos escritos más densos.",
+    "summary": "Reconoce los cambios de registro dentro de un mismo discurso y lo que comunican: cercanía, ironía o distancia.",
     "duration": "7 min",
     "sections": [
       {
@@ -5320,7 +5323,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 39,
     "title": "Estrategias de Comprensión Auditiva y Lectora, Part 4 of 8",
-    "summary": "Aprende a inferir significado del contexto, reconocer cambios de registro y seguir conexiones lógicas implícitas en el español hablado a gran velocidad y en los textos escritos más densos.",
+    "summary": "Detecta el cambio de tono intencionado y reconstruye las conexiones lógicas que el texto escrito no explicita.",
     "duration": "9 min",
     "sections": [
       {
@@ -5402,7 +5405,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 40,
     "title": "Estrategias de Comprensión Auditiva y Lectora, Part 5 of 8",
-    "summary": "Aprende a inferir significado del contexto, reconocer cambios de registro y seguir conexiones lógicas implícitas en el español hablado a gran velocidad y en los textos escritos más densos.",
+    "summary": "Repón los conectores ausentes y el saber compartido de la prosa madura, y aplica estrategias para seguir el habla nativa rápida.",
     "duration": "10 min",
     "sections": [
       {
@@ -5464,8 +5467,8 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "el significado implícito que subyace bajo las palabras literales"
           },
           {
-            "left": "el trasfondo implícito",
-            "right": "significado no dicho abiertamente que se percibe detrás de un mensaje"
+            "left": "la economía de conectores",
+            "right": "el uso deliberadamente escaso de enlaces explícitos en la prosa madura"
           },
           {
             "left": "la escucha activa",
@@ -5476,7 +5479,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "la idea que se da por supuesta sin expresarla de forma directa"
           }
         ],
-        "explanation": "Estos cuatro conceptos son herramientas centrales para describir cómo se construye y se percibe el significado implícito en la comunicación avanzada."
+        "explanation": "Estos cuatro conceptos describen cómo se construye y se percibe lo que un texto o un hablante no dice de forma explícita."
       }
     ]
   },
@@ -5485,7 +5488,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 41,
     "title": "Estrategias de Comprensión Auditiva y Lectora, Part 6 of 8",
-    "summary": "Aprende a inferir significado del contexto, reconocer cambios de registro y seguir conexiones lógicas implícitas en el español hablado a gran velocidad y en los textos escritos más densos.",
+    "summary": "Entrena el oído con distintas variedades del español y escucha una entrevista radiofónica sobre el habla juvenil.",
     "duration": "10 min",
     "sections": [
       {
@@ -5557,7 +5560,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 42,
     "title": "Estrategias de Comprensión Auditiva y Lectora, Part 7 of 8",
-    "summary": "Aprende a inferir significado del contexto, reconocer cambios de registro y seguir conexiones lógicas implícitas en el español hablado a gran velocidad y en los textos escritos más densos.",
+    "summary": "Vocabulario clave para describir las estrategias avanzadas de comprensión auditiva y lectora.",
     "duration": "5 min",
     "sections": [
       {
@@ -5714,7 +5717,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 43,
     "title": "Estrategias de Comprensión Auditiva y Lectora, Part 8 of 8",
-    "summary": "Aprende a inferir significado del contexto, reconocer cambios de registro y seguir conexiones lógicas implícitas en el español hablado a gran velocidad y en los textos escritos más densos.",
+    "summary": "Más vocabulario de la comprensión: lo no dicho, los procesos de interpretación y los rasgos de la escucha.",
     "duration": "4 min",
     "sections": [
       {
@@ -5863,7 +5866,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 44,
     "title": "El Debate y la Argumentación Persuasiva, Part 1 of 9",
-    "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
+    "summary": "Aprende a conceder un punto al rival antes de refutarlo: la concesión como estrategia persuasiva.",
     "duration": "8 min",
     "sections": [
       {
@@ -5909,7 +5912,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 45,
     "title": "El Debate y la Argumentación Persuasiva, Part 2 of 9",
-    "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
+    "summary": "Concede con estrategia sin rendirte: admite un punto menor para ganar credibilidad y reforzar tu tesis.",
     "duration": "4 min",
     "sections": [
       {
@@ -5946,19 +5949,19 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Cuáles de las siguientes son falacias argumentativas?",
+        "question": "¿Qué fórmulas introducen una concesión estratégica?",
         "options": [
-          "La falacia ad hominem",
-          "La concesión estratégica",
-          "El argumento circular",
-          "La falacia del hombre de paja"
+          "Es cierto que…",
+          "No cabe negar que…",
+          "Eso es absurdo.",
+          "Admito que…"
         ],
         "correctIndexes": [
           0,
-          2,
+          1,
           3
         ],
-        "explanation": "La falacia ad hominem, el argumento circular y la falacia del hombre de paja son razonamientos defectuosos; la concesión estratégica, en cambio, es una técnica argumentativa legítima."
+        "explanation": "«Es cierto que…», «No cabe negar que…» y «Admito que…» reconocen un punto menor del rival antes de reforzar la tesis propia. «Eso es absurdo» lo niega todo de raíz, que es justo lo que resta autoridad."
       }
     ]
   },
@@ -5967,7 +5970,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 46,
     "title": "El Debate y la Argumentación Persuasiva, Part 3 of 9",
-    "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
+    "summary": "Reconoce y evita las falacias más frecuentes: ad hominem, hombre de paja, falacia de autoridad y otras.",
     "duration": "7 min",
     "sections": [
       {
@@ -5999,6 +6002,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la fórmula de desacuerdo respetuoso.",
         "sentence": "No comparto del todo esa ___, aunque entiendo de dónde parte.",
         "answer": "lectura",
+        "altAnswers": ["opinión", "interpretación", "visión", "postura"],
         "explanation": "«No comparto del todo esa lectura» es una fórmula que matiza un desacuerdo sin resultar hostil hacia el interlocutor.",
         "hint": "sinónimo de interpretación"
       }
@@ -6009,7 +6013,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 47,
     "title": "El Debate y la Argumentación Persuasiva, Part 4 of 9",
-    "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
+    "summary": "Dos falacias frecuentes: la pendiente resbaladiza y la petición de principio, y cómo desmontarlas.",
     "duration": "4 min",
     "sections": [
       {
@@ -6071,13 +6075,13 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 48,
     "title": "El Debate y la Argumentación Persuasiva, Part 5 of 9",
-    "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
+    "summary": "Discrepa con firmeza y respeto: fórmulas para matizar el desacuerdo sin convertirlo en un ataque personal.",
     "duration": "10 min",
     "sections": [
       {
         "heading": "Discrepar con respeto: fórmulas para el desacuerdo",
         "body": [
-          "Discrepar de manera respetuosa es una de las competencias más exigentes del debate avanzado, porque exige transmitir firmeza sin caer en la hostilidad. El español dispone de un repertorio amplio de fórmulas para ello: «entiendo tu punto, pero...», «discrepo respetuosamente en...», «no comparto del todo esa lectura porque...». Estas expresiones matizan el desacuerdo sin diluirlo, y evitan que el intercambio se perciba como un ataque personal.",
+          "Discrepar de manera respetuosa es una de las competencias más exigentes del debate avanzado, porque exige transmitir firmeza sin caer en la hostilidad. El español dispone de un repertorio amplio de fórmulas para ello: «entiendo tu postura, pero...», «discrepo respetuosamente en...», «no comparto del todo esa lectura porque...». Estas expresiones matizan el desacuerdo sin diluirlo, y evitan que el intercambio se perciba como un ataque personal.",
           "El tono importa tanto como las palabras elegidas. Un matiz condescendiente —por ejemplo, sugerir que el otro «no ha entendido bien» la cuestión— suele cerrar cualquier posibilidad de diálogo constructivo, mientras que un matiz conciliador, que reconoce la complejidad del tema antes de defender la propia postura, mantiene abierta la conversación incluso en medio de un desacuerdo profundo.",
           "El objetivo último no siempre es «ganar» el debate, sino avanzar hacia algún tipo de consenso o, cuando este resulta imposible, dejar constancia de que ambas posturas se han comprendido mutuamente. Un desacuerdo bien gestionado deja al interlocutor con la sensación de haber sido escuchado, aunque las conclusiones sigan siendo distintas."
         ],
@@ -6146,7 +6150,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 49,
     "title": "El Debate y la Argumentación Persuasiva, Part 6 of 9",
-    "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
+    "summary": "Recursos retóricos que refuerzan un argumento: la analogía, la hipérbole, el llamamiento emocional y la estructura del discurso.",
     "duration": "8 min",
     "sections": [
       {
@@ -6192,7 +6196,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 50,
     "title": "El Debate y la Argumentación Persuasiva, Part 7 of 9",
-    "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
+    "summary": "Reitera sin cansar y persuade sin perder crédito, y analiza un turno de réplica en un debate real.",
     "duration": "8 min",
     "sections": [
       {
@@ -6232,7 +6236,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Doctor Ibarra: Es cierto que existen riesgos, no voy a negarlo. Ahora bien, prohibir la herramienta por completo equivale a tirar al niño junto con el agua de la bañera.",
           "Doctora Salas: Discrepo respetuosamente en ese punto. Nadie ha hablado de prohibir nada; hablamos de regular con criterios claros.",
           "Doctor Ibarra: Comprendo la distinción, pero permítame señalar que su propuesta, tal como está redactada, funcionaría en la práctica como una prohibición encubierta.",
-          "Doctora Salas: Ahí incurre usted, si me lo permite, en una falacia de la pendiente resbaladiza. Regular no equivale a prohibir, por mucho que quiera presentarlo así.",
+          "Doctora Salas: Ahí incurre usted, si me lo permite, en una falacia del hombre de paja. Regular no equivale a prohibir, por mucho que quiera presentarlo así.",
           "Doctor Ibarra: No pretendo deformar su postura, solo advertir de una consecuencia probable si la norma se aplica con rigidez excesiva.",
           "Moderadora: Interesante intercambio. ¿Ven ambos algún punto en común desde el que avanzar?",
           "Doctora Salas: Sin duda. Los dos coincidimos en que la transparencia del sistema es indispensable; discrepamos solo en el mecanismo para lograrla.",
@@ -6247,7 +6251,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 51,
     "title": "El Debate y la Argumentación Persuasiva, Part 8 of 9",
-    "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
+    "summary": "Vocabulario del debate y la persuasión: concesión, refutación, réplica y otros términos clave.",
     "duration": "5 min",
     "sections": [
       {
@@ -6407,7 +6411,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 52,
     "title": "El Debate y la Argumentación Persuasiva, Part 9 of 9",
-    "summary": "Estructura un argumento persuasivo mediante la concesión estratégica, reconoce las falacias más comunes y aprende a discrepar con firmeza y respeto en un debate en español.",
+    "summary": "Más vocabulario del debate: la réplica, las falacias y las actitudes ante el desacuerdo.",
     "duration": "4 min",
     "sections": [
       {
@@ -6564,7 +6568,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 53,
     "title": "Presentaciones Orales y Negociación, Part 1 of 8",
-    "summary": "Estructura una presentación profesional memorable y domina el vocabulario y las tácticas de la negociación: proponer contraofertas, ceder terreno con inteligencia y llegar a acuerdos beneficiosos.",
+    "summary": "Estructura una presentación oral de alto nivel: un preámbulo breve, bloques temáticos y un hilo conductor claro.",
     "duration": "8 min",
     "sections": [
       {
@@ -6610,7 +6614,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 54,
     "title": "Presentaciones Orales y Negociación, Part 2 of 8",
-    "summary": "Estructura una presentación profesional memorable y domina el vocabulario y las tácticas de la negociación: proponer contraofertas, ceder terreno con inteligencia y llegar a acuerdos beneficiosos.",
+    "summary": "Cierra una presentación con fuerza: el cierre memorable y la ronda de preguntas.",
     "duration": "5 min",
     "sections": [
       {
@@ -6647,19 +6651,19 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Cuáles de las siguientes son tácticas propias de una negociación eficaz?",
+        "question": "¿Qué recursos refuerzan el final de una presentación?",
         "options": [
-          "Ceder en aspectos secundarios sin comprometer lo esencial",
-          "Ignorar por completo las intenciones reales de la otra parte",
-          "Sondear las intenciones detrás de las posturas declaradas",
-          "Fraccionar el acuerdo en cláusulas independientes"
+          "Un cierre memorable",
+          "Terminar con un simple «eso es todo»",
+          "Aprovechar la ronda de preguntas para insistir en los puntos clave",
+          "Resumir la idea central"
         ],
         "correctIndexes": [
           0,
           2,
           3
         ],
-        "explanation": "Ceder de forma estratégica, sondear intenciones y fraccionar el acuerdo son tácticas que facilitan superar un punto muerto en la negociación. Ignorar las intenciones reales de la otra parte, en cambio, dificulta cualquier acuerdo."
+        "explanation": "El cierre memorable, el resumen de la idea central y la ronda de preguntas refuerzan el mensaje. Terminar con «eso es todo» desaprovecha el final, que es lo que el público recuerda."
       }
     ]
   },
@@ -6668,7 +6672,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 55,
     "title": "Presentaciones Orales y Negociación, Part 3 of 8",
-    "summary": "Estructura una presentación profesional memorable y domina el vocabulario y las tácticas de la negociación: proponer contraofertas, ceder terreno con inteligencia y llegar a acuerdos beneficiosos.",
+    "summary": "Negocia con contraofertas y aprende a ceder terreno con inteligencia.",
     "duration": "9 min",
     "sections": [
       {
@@ -6729,7 +6733,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 56,
     "title": "Presentaciones Orales y Negociación, Part 4 of 8",
-    "summary": "Estructura una presentación profesional memorable y domina el vocabulario y las tácticas de la negociación: proponer contraofertas, ceder terreno con inteligencia y llegar a acuerdos beneficiosos.",
+    "summary": "Supera un punto muerto en la negociación y cierra bien el acuerdo.",
     "duration": "9 min",
     "sections": [
       {
@@ -6810,7 +6814,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 57,
     "title": "Presentaciones Orales y Negociación, Part 5 of 8",
-    "summary": "Estructura una presentación profesional memorable y domina el vocabulario y las tácticas de la negociación: proponer contraofertas, ceder terreno con inteligencia y llegar a acuerdos beneficiosos.",
+    "summary": "El lenguaje corporal y la seguridad al negociar y al exponer en público.",
     "duration": "8 min",
     "sections": [
       {
@@ -6867,7 +6871,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 58,
     "title": "Presentaciones Orales y Negociación, Part 6 of 8",
-    "summary": "Estructura una presentación profesional memorable y domina el vocabulario y las tácticas de la negociación: proponer contraofertas, ceder terreno con inteligencia y llegar a acuerdos beneficiosos.",
+    "summary": "Recursos de seguridad en la negociación (el as bajo la manga, la escucha activa) y una negociación real.",
     "duration": "9 min",
     "sections": [
       {
@@ -6939,7 +6943,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 59,
     "title": "Presentaciones Orales y Negociación, Part 7 of 8",
-    "summary": "Estructura una presentación profesional memorable y domina el vocabulario y las tácticas de la negociación: proponer contraofertas, ceder terreno con inteligencia y llegar a acuerdos beneficiosos.",
+    "summary": "Vocabulario de las presentaciones y la negociación.",
     "duration": "5 min",
     "sections": [
       {
@@ -7098,7 +7102,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 60,
     "title": "Presentaciones Orales y Negociación, Part 8 of 8",
-    "summary": "Estructura una presentación profesional memorable y domina el vocabulario y las tácticas de la negociación: proponer contraofertas, ceder terreno con inteligencia y llegar a acuerdos beneficiosos.",
+    "summary": "Más vocabulario de presentación y negociación.",
     "duration": "4 min",
     "sections": [
       {
@@ -7247,7 +7251,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 61,
     "title": "Citas, Referencias y Estilo de Citación, Part 1 of 8",
-    "summary": "Domina las convenciones de la cita textual y la paráfrasis, las fórmulas de atribución más habituales y los límites entre una reformulación legítima y el plagio en la escritura formal.",
+    "summary": "Distingue la cita textual de la cita indirecta y cómo se marca cada una.",
     "duration": "8 min",
     "sections": [
       {
@@ -7293,7 +7297,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 62,
     "title": "Citas, Referencias y Estilo de Citación, Part 2 of 8",
-    "summary": "Domina las convenciones de la cita textual y la paráfrasis, las fórmulas de atribución más habituales y los límites entre una reformulación legítima y el plagio en la escritura formal.",
+    "summary": "Cuándo y cómo citar literalmente: delimitar el entrecomillado y elegir la cita frente a la paráfrasis.",
     "duration": "5 min",
     "sections": [
       {
@@ -7330,19 +7334,18 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Qué elementos componen el aparato crítico de un texto académico?",
+        "question": "¿Cuándo se prefiere la cita textual a la paráfrasis?",
         "options": [
-          "Las notas al pie",
-          "Las referencias cruzadas",
-          "La estrategia de anclaje",
-          "La bibliografía final"
+          "Cuando la formulación exacta del autor es insustituible",
+          "Cuando el pasaje contiene un término técnico que no conviene alterar",
+          "Cuando basta con resumir la idea con palabras propias",
+          "Cuando se quiere evitar marcar el inicio y el final de la cita"
         ],
         "correctIndexes": [
           0,
-          1,
-          3
+          1
         ],
-        "explanation": "El aparato crítico incluye notas al pie, referencias cruzadas y bibliografía; la estrategia de anclaje pertenece al ámbito de la negociación, no de la citación."
+        "explanation": "La cita textual se reserva para formulaciones insustituibles, como un término técnico, y exige marcar con precisión dónde empieza y acaba el entrecomillado. Para resumir una idea con palabras propias basta la paráfrasis."
       }
     ]
   },
@@ -7351,7 +7354,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 63,
     "title": "Citas, Referencias y Estilo de Citación, Part 3 of 8",
-    "summary": "Domina las convenciones de la cita textual y la paráfrasis, las fórmulas de atribución más habituales y los límites entre una reformulación legítima y el plagio en la escritura formal.",
+    "summary": "Fórmulas de atribución en la prosa formal: según, afirma, sostiene y otras.",
     "duration": "7 min",
     "sections": [
       {
@@ -7393,7 +7396,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 64,
     "title": "Citas, Referencias y Estilo de Citación, Part 4 of 8",
-    "summary": "Domina las convenciones de la cita textual y la paráfrasis, las fórmulas de atribución más habituales y los límites entre una reformulación legítima y el plagio en la escritura formal.",
+    "summary": "Cómo el verbo de atribución también opina, y qué son el corpus documental y el aparato crítico.",
     "duration": "9 min",
     "sections": [
       {
@@ -7469,7 +7472,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 65,
     "title": "Citas, Referencias y Estilo de Citación, Part 5 of 8",
-    "summary": "Domina las convenciones de la cita textual y la paráfrasis, las fórmulas de atribución más habituales y los límites entre una reformulación legítima y el plagio en la escritura formal.",
+    "summary": "Fuentes indirectas, marco teórico y los límites entre reformular y plagiar.",
     "duration": "10 min",
     "sections": [
       {
@@ -7560,7 +7563,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 66,
     "title": "Citas, Referencias y Estilo de Citación, Part 6 of 8",
-    "summary": "Domina las convenciones de la cita textual y la paráfrasis, las fórmulas de atribución más habituales y los límites entre una reformulación legítima y el plagio en la escritura formal.",
+    "summary": "Los riesgos de la reformulación y de depender de una sola fuente, aplicados a un caso práctico.",
     "duration": "10 min",
     "sections": [
       {
@@ -7628,7 +7631,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 67,
     "title": "Citas, Referencias y Estilo de Citación, Part 7 of 8",
-    "summary": "Domina las convenciones de la cita textual y la paráfrasis, las fórmulas de atribución más habituales y los límites entre una reformulación legítima y el plagio en la escritura formal.",
+    "summary": "Vocabulario de las citas y referencias.",
     "duration": "5 min",
     "sections": [
       {
@@ -7782,7 +7785,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 68,
     "title": "Citas, Referencias y Estilo de Citación, Part 8 of 8",
-    "summary": "Domina las convenciones de la cita textual y la paráfrasis, las fórmulas de atribución más habituales y los límites entre una reformulación legítima y el plagio en la escritura formal.",
+    "summary": "Más vocabulario de citación.",
     "duration": "4 min",
     "sections": [
       {
@@ -7935,7 +7938,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 69,
     "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 1 of 7",
-    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipófora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "summary": "Comprende la función persuasiva de la pregunta retórica: una afirmación disfrazada de pregunta.",
     "duration": "8 min",
     "sections": [
       {
@@ -7948,7 +7951,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "¿acaso alguien lo duda?",
-            "en": "una pregunta retórica que da por sentada la respuesta afirmativa del oyente"
+            "en": "una pregunta retórica que da por sentada la respuesta negativa del oyente («nadie lo duda»)"
           },
           {
             "es": "una afirmación disfrazada de pregunta",
@@ -7981,7 +7984,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 70,
     "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 2 of 7",
-    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipófora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "summary": "La pregunta capciosa, la que da la respuesta por hecha y la hipófora (preguntar y responder uno mismo).",
     "duration": "10 min",
     "sections": [
       {
@@ -8044,15 +8047,15 @@ const C2_BASE_LESSONS: Lesson[] = [
         "options": [
           "La hipófora",
           "La cita textual",
-          "La interpelación",
-          "La anáfora interrogativa"
+          "La pregunta capciosa",
+          "La pregunta retórica que da la respuesta por hecha"
         ],
         "correctIndexes": [
           0,
           2,
           3
         ],
-        "explanation": "La hipófora, la interpelación y la anáfora interrogativa son recursos que emplean la pregunta con fines persuasivos; la cita textual pertenece a otro ámbito, el de las referencias."
+        "explanation": "La hipófora, la pregunta capciosa y la pregunta retórica que da la respuesta por hecha usan la interrogación para persuadir, no para informarse; la cita textual pertenece a otro ámbito, el de las referencias."
       }
     ]
   },
@@ -8061,7 +8064,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 71,
     "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 3 of 7",
-    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipófora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "summary": "Usa la hipófora con medida y construye un clímax con la anáfora interrogativa.",
     "duration": "10 min",
     "sections": [
       {
@@ -8117,10 +8120,10 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la definición del recurso retórico.",
-        "sentence": "La ___ dirige una pregunta directamente a una persona o a un colectivo para comprometerlo emocionalmente con el argumento.",
-        "answer": "interpelación",
-        "explanation": "La interpelación es una pregunta directa que busca implicar emocionalmente al oyente con el razonamiento planteado.",
-        "hint": "sustantivo derivado del verbo interpelar"
+        "sentence": "La ___ interrogativa repite la misma estructura de pregunta al inicio de frases sucesivas.",
+        "answer": "anáfora",
+        "explanation": "La anáfora interrogativa encadena preguntas que empiezan igual («¿quién ha de…? ¿quién ha de…?») y construye un clímax que intensifica el efecto persuasivo.",
+        "hint": "figura de repetición al inicio de frase"
       }
     ]
   },
@@ -8129,7 +8132,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 72,
     "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 4 of 7",
-    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipófora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "summary": "El efecto y el riesgo de la anáfora, y otras estructuras de énfasis: la interpelación y la duda fingida.",
     "duration": "10 min",
     "sections": [
       {
@@ -8213,7 +8216,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 73,
     "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 5 of 7",
-    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipófora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "summary": "Para qué sirven la duda fingida y la interpelación, aplicadas a un discurso real.",
     "duration": "9 min",
     "sections": [
       {
@@ -8291,7 +8294,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 74,
     "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 6 of 7",
-    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipófora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "summary": "Vocabulario de las preguntas retóricas.",
     "duration": "7 min",
     "sections": [
       {
@@ -8395,7 +8398,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 75,
     "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 7 of 7",
-    "summary": "Comprende cómo funciona la pregunta retórica y otras estructuras interrogativas de énfasis, como la hipófora, la interpelación y la duda fingida, en el discurso persuasivo hablado y escrito.",
+    "summary": "Más vocabulario de la pregunta retórica y las estructuras de énfasis.",
     "duration": "4 min",
     "sections": [
       {
@@ -8550,7 +8553,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 76,
     "title": "Español para Entrevistas de Trabajo, Part 1 of 7",
-    "summary": "Aprende a describir fortalezas, puntos de mejora y logros profesionales con el registro natural, confiable y apropiadamente formal que exige una entrevista de trabajo en español.",
+    "summary": "Describe tus fortalezas sin fanfarronería, con ejemplos concretos y ajustados al puesto.",
     "duration": "10 min",
     "sections": [
       {
@@ -8626,7 +8629,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 77,
     "title": "Español para Entrevistas de Trabajo, Part 2 of 7",
-    "summary": "Aprende a describir fortalezas, puntos de mejora y logros profesionales con el registro natural, confiable y apropiadamente formal que exige una entrevista de trabajo en español.",
+    "summary": "Habla de un punto de mejora con honestidad estratégica y respáldalo con resultados.",
     "duration": "10 min",
     "sections": [
       {
@@ -8703,7 +8706,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 78,
     "title": "Español para Entrevistas de Trabajo, Part 3 of 7",
-    "summary": "Aprende a describir fortalezas, puntos de mejora y logros profesionales con el registro natural, confiable y apropiadamente formal que exige una entrevista de trabajo en español.",
+    "summary": "Responde a la entrevista por competencias con un relato estructurado: situación, tarea, acción y resultado.",
     "duration": "9 min",
     "sections": [
       {
@@ -8758,12 +8761,11 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la frase sobre el cierre de una entrevista.",
-        "sentence": "Preguntar por el margen de crecimiento demuestra una ___ que va más allá del interés económico.",
-        "answer": "motivación intrínseca",
-        "altAnswers": ["motivación", "motivación genuina"],
-        "explanation": "Las preguntas sobre desarrollo profesional reflejan un interés genuino por el puesto, más allá de la pretensión salarial.",
-        "hint": "expresión de dos palabras relacionada con el impulso interno"
+        "prompt": "Completa la frase sobre el relato estructurado.",
+        "sentence": "La respuesta ideal a una pregunta por competencias termina con un resultado ___, es decir, medible.",
+        "answer": "cuantificable",
+        "explanation": "El relato estructurado (situación, tarea, acciones y resultado) se cierra con un resultado cuantificable, con cifras que el entrevistador pueda valorar.",
+        "hint": "adjetivo: que se puede expresar con cifras"
       }
     ]
   },
@@ -8772,7 +8774,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 79,
     "title": "Español para Entrevistas de Trabajo, Part 4 of 7",
-    "summary": "Aprende a describir fortalezas, puntos de mejora y logros profesionales con el registro natural, confiable y apropiadamente formal que exige una entrevista de trabajo en español.",
+    "summary": "Cierra la entrevista con preguntas propias, habla de la pretensión salarial y despídete con seguridad.",
     "duration": "9 min",
     "sections": [
       {
@@ -8852,7 +8854,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 80,
     "title": "Español para Entrevistas de Trabajo, Part 5 of 7",
-    "summary": "Aprende a describir fortalezas, puntos de mejora y logros profesionales con el registro natural, confiable y apropiadamente formal que exige una entrevista de trabajo en español.",
+    "summary": "Una entrevista de trabajo completa, de las fortalezas al cierre, en un diálogo real.",
     "duration": "8 min",
     "sections": [
       {
@@ -8901,7 +8903,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 81,
     "title": "Español para Entrevistas de Trabajo, Part 6 of 7",
-    "summary": "Aprende a describir fortalezas, puntos de mejora y logros profesionales con el registro natural, confiable y apropiadamente formal que exige una entrevista de trabajo en español.",
+    "summary": "Vocabulario de las entrevistas de trabajo.",
     "duration": "7 min",
     "sections": [
       {
@@ -9005,7 +9007,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 82,
     "title": "Español para Entrevistas de Trabajo, Part 7 of 7",
-    "summary": "Aprende a describir fortalezas, puntos de mejora y logros profesionales con el registro natural, confiable y apropiadamente formal que exige una entrevista de trabajo en español.",
+    "summary": "Más vocabulario de la entrevista de trabajo.",
     "duration": "4 min",
     "sections": [
       {
@@ -9162,7 +9164,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 83,
     "title": "Resolución de Conflictos y Mediación Verbal, Part 1 of 7",
-    "summary": "Aprende a desactivar la tensión, reconocer la perspectiva ajena y proponer acuerdos que restauren la relación en una disputa verbal, con las herramientas propias de la mediación.",
+    "summary": "Aprende a desactivar la tensión antes de abordar el fondo de una disputa: bajar el tono y usar la escucha empática («Entiendo que esto te resulte frustrante»).",
     "duration": "10 min",
     "sections": [
       {
@@ -9238,7 +9240,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 84,
     "title": "Resolución de Conflictos y Mediación Verbal, Part 2 of 7",
-    "summary": "Aprende a desactivar la tensión, reconocer la perspectiva ajena y proponer acuerdos que restauren la relación en una disputa verbal, con las herramientas propias de la mediación.",
+    "summary": "Aprende a reconocer la perspectiva ajena sin renunciar a la tuya («Entiendo por qué desde tu posición…») y a detectar los malentendidos que alimentan una disputa.",
     "duration": "9 min",
     "sections": [
       {
@@ -9285,19 +9287,19 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Qué caracteriza a la negociación colaborativa en la resolución de conflictos?",
+        "question": "Según la lección, ¿qué implica reconocer la perspectiva ajena?",
         "options": [
-          "Se concentra en los intereses subyacentes de ambas partes",
-          "Busca que ambas partes salgan beneficiadas del acuerdo",
-          "Exige que una parte ceda por completo sin contrapartida",
-          "Tiende puentes entre posturas aparentemente irreconciliables"
+          "Comprender genuinamente por qué el otro sostiene su postura",
+          "Verbalizar esa comprensión antes de exponer la propia",
+          "Renunciar a la propia postura y darle la razón por completo",
+          "Detectar si parte del desacuerdo nace de un simple malentendido"
         ],
         "correctIndexes": [
           0,
           1,
           3
         ],
-        "explanation": "La negociación colaborativa busca beneficios mutuos centrándose en los intereses de fondo, no en que una parte ceda unilateralmente."
+        "explanation": "Reconocer la perspectiva ajena es comprenderla y decirlo («entiendo por qué desde tu posición…»), lo que a menudo revela un malentendido. No exige abandonar la propia postura ni dar la razón al otro."
       }
     ]
   },
@@ -9306,7 +9308,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 85,
     "title": "Resolución de Conflictos y Mediación Verbal, Part 3 of 7",
-    "summary": "Aprende a desactivar la tensión, reconocer la perspectiva ajena y proponer acuerdos que restauren la relación en una disputa verbal, con las herramientas propias de la mediación.",
+    "summary": "Aprende a buscar un término medio con la negociación colaborativa: delimitar el punto de fricción, atender a los intereses de fondo y formular un acuerdo claro.",
     "duration": "7 min",
     "sections": [
       {
@@ -9335,12 +9337,12 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la frase sobre la reconciliación.",
-        "sentence": "Una disculpa sincera reconoce el daño causado sin ___ que lo diluyan.",
-        "answer": "condicionantes",
-        "altAnswers": ["justificaciones", "excusas", "peros"],
-        "explanation": "Una disculpa condicionada por justificaciones adicionales pierde buena parte de su valor reparador.",
-        "hint": "sustantivo plural relacionado con condicionar algo"
+        "prompt": "Completa la frase sobre la negociación colaborativa.",
+        "sentence": "La negociación colaborativa se concentra en los intereses ___ de ambas partes, en lugar de aferrarse a las posturas iniciales.",
+        "answer": "subyacentes",
+        "altAnswers": ["de fondo", "reales"],
+        "explanation": "Los intereses subyacentes son lo que de verdad motiva a cada parte, más allá de la postura con la que llega a la negociación.",
+        "hint": "adjetivo plural: que están por debajo, no a la vista"
       }
     ]
   },
@@ -9349,7 +9351,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 86,
     "title": "Resolución de Conflictos y Mediación Verbal, Part 4 of 7",
-    "summary": "Aprende a desactivar la tensión, reconocer la perspectiva ajena y proponer acuerdos que restauren la relación en una disputa verbal, con las herramientas propias de la mediación.",
+    "summary": "Aprende a formular un acuerdo claro y percibido como justo, y a pedir una disculpa sincera, sin condicionantes, que ayude a restaurar la relación.",
     "duration": "9 min",
     "sections": [
       {
@@ -9434,7 +9436,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 87,
     "title": "Resolución de Conflictos y Mediación Verbal, Part 5 of 7",
-    "summary": "Aprende a desactivar la tensión, reconocer la perspectiva ajena y proponer acuerdos que restauren la relación en una disputa verbal, con las herramientas propias de la mediación.",
+    "summary": "Aprende por qué la reconciliación exige tiempo y bajar la guardia, y observa una mediación completa en acción.",
     "duration": "10 min",
     "sections": [
       {
@@ -9514,7 +9516,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 88,
     "title": "Resolución de Conflictos y Mediación Verbal, Part 6 of 7",
-    "summary": "Aprende a desactivar la tensión, reconocer la perspectiva ajena y proponer acuerdos que restauren la relación en una disputa verbal, con las herramientas propias de la mediación.",
+    "summary": "Repasa el vocabulario clave de la mediación (término medio, escucha empática, limar asperezas, conflicto latente…) y úsalo en contexto.",
     "duration": "7 min",
     "sections": [
       {
@@ -9618,7 +9620,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 89,
     "title": "Resolución de Conflictos y Mediación Verbal, Part 7 of 7",
-    "summary": "Aprende a desactivar la tensión, reconocer la perspectiva ajena y proponer acuerdos que restauren la relación en una disputa verbal, con las herramientas propias de la mediación.",
+    "summary": "Amplía el vocabulario de la mediación (punto de fricción, tender puentes, deponer las hostilidades, pacto de convivencia…) para describir acciones, actitudes y resultados.",
     "duration": "4 min",
     "sections": [
       {
@@ -9935,7 +9937,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El pretérito anterior: un tiempo para reconocer",
         "body": [
-          "El pretérito anterior («hubo terminado», «hubieron llegado») expresa una acción inmediatamente anterior a otra pasada. Solo aparece tras conectores de inmediatez: «apenas», «no bien», «tan pronto como», «así que», «luego que», «una vez que», «después (de) que»: «Apenas hubo firmado el tratado, se retiró a su finca».",
+          "El pretérito anterior («hubo terminado», «hubieron llegado») expresa una acción inmediatamente anterior a otra pasada. Aparece casi siempre tras conectores temporales de anterioridad inmediata: «cuando», «apenas», «no bien», «tan pronto como», «así que», «luego que», «una vez que», «después (de) que»: «Apenas hubo firmado el tratado, se retiró a su finca».",
           "Hoy es casi exclusivo de la lengua literaria y de la historiografía de estilo clásico. En el habla y en la prosa actual se sustituye por el indefinido («Apenas firmó el tratado…»), por el pluscuamperfecto («Apenas había firmado…», que marca anterioridad sin inmediatez) o por construcciones como «nada más firmar» o «una vez firmado». Un hablante C2 debe reconocerlo, no necesariamente usarlo."
         ],
         "examples": [
@@ -10852,7 +10854,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Ordena las palabras.",
         "words": [
           "Al",
-          "parecer",
+          "parecer,",
           "el",
           "general",
           "huyó",
@@ -11251,7 +11253,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Prefijos y nombres que no son neutrales",
         "body": [
-          "Prefijos de periodización: pre- (prerromano, precolombino, prebélico), pos(t)- (posguerra, posbélico, posmoderno; la RAE prefiere «pos-» salvo ante vocal o en palabras ya asentadas: «posguerra», «postimpresionismo»), entre- («periodo de entreguerras»), tardo- («tardofranquismo», «tardorromano»).",
+          "Prefijos de periodización: pre- (prerromano, precolombino, prebélico), pos(t)- (posguerra, posbélico, posmoderno; la RAE prefiere «pos-» —«posguerra», «posoperatorio», «posimpresionismo»— y mantiene «post-» ante palabras que empiezan por s-: «postsimbolismo»), entre- («periodo de entreguerras»), tardo- («tardofranquismo», «tardorromano»).",
           "Los nombres de las épocas implican una interpretación: «Reconquista» presupone una recuperación de algo propio y hoy muchos historiadores la matizan; «descubrimiento de América» se sustituye a menudo por «llegada de los europeos a América» o «encuentro de dos mundos»; «Edad Media» nació como término despectivo (una edad «intermedia» entre dos esplendores)."
         ],
         "examples": [
@@ -11516,7 +11518,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 101,
     "title": "Español para las Ciencias y la Tecnología, Part 2 of 3",
-    "summary": "Explora el vocabulario y el registro necesarios para hablar de hipótesis, experimentos e innovación tecnológica con la precisión de una publicación científica o un reportaje especializado.",
+    "summary": "Aprende a hablar de innovación (disruptiva, incremental, escalabilidad) y de los dilemas éticos de la inteligencia artificial: sesgo algorítmico, caja negra y rendición de cuentas.",
     "duration": "9 min",
     "sections": [
       {
@@ -11607,7 +11609,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               1,
               3
             ],
-            "explanation": "El texto plantea el sesgo algorítmico, la falta de explicabilidad y la difusa atribución de responsabilidad como problemas éticos centrales; en ningún momento afirma que los algoritmos sean más justos que las personas. El texto no afirma que los algoritmos sean siempre más justos que las personas; precisamente advierte de sus sesgos."
+            "explanation": "El texto plantea el sesgo algorítmico, la falta de explicabilidad y la difusa atribución de responsabilidad como problemas éticos centrales; en ningún momento afirma que los algoritmos sean más justos que las personas; precisamente advierte de sus sesgos."
           }
         ]
       }
@@ -11654,7 +11656,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 102,
     "title": "Español para las Ciencias y la Tecnología, Part 3 of 3",
-    "summary": "Explora el vocabulario y el registro necesarios para hablar de hipótesis, experimentos e innovación tecnológica con la precisión de una publicación científica o un reportaje especializado.",
+    "summary": "Escucha una entrevista a una científica sobre un hallazgo y repasa el vocabulario clave de la ciencia y la tecnología.",
     "duration": "7 min",
     "sections": [
       {
@@ -11961,19 +11963,19 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "¿Cuáles de los siguientes son mecanismos o fenómenos políticos?",
+        "question": "¿Cuáles de las siguientes son medidas de política medioambiental mencionadas en el texto?",
         "options": [
-          "El clientelismo político",
-          "La captura regulatoria",
-          "El referéndum",
-          "La fotosíntesis"
+          "Reconvertir industrias enteras hacia las energías renovables",
+          "Imponer aranceles a productos fabricados con procesos muy contaminantes",
+          "Traducir el desarrollo sostenible en metas verificables, con plazos y sanciones",
+          "Eliminar toda regulación ambiental para favorecer el crecimiento"
         ],
         "correctIndexes": [
           0,
           1,
           2
         ],
-        "explanation": "El clientelismo, la captura regulatoria y el referéndum son fenómenos políticos; la fotosíntesis no pertenece a este dominio temático."
+        "explanation": "El texto menciona la reconversión de industrias hacia las renovables, los aranceles a productos muy contaminantes (el llamado proteccionismo ambiental) y las metas verificables con plazos y sanciones. Eliminar toda regulación es lo contrario de una política medioambiental."
       }
     ]
   },
@@ -11982,7 +11984,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 104,
     "title": "Español para el Medio Ambiente y la Política, Part 2 of 3",
-    "summary": "Domina el vocabulario y los matices necesarios para debatir el cambio climático, la política medioambiental y la vida institucional con la sofisticación de un análisis periodístico serio.",
+    "summary": "Aprende a analizar la polarización, el populismo y los grupos de presión, y a hablar de gobernanza, rendición de cuentas, clientelismo y captura regulatoria.",
     "duration": "8 min",
     "sections": [
       {
@@ -12114,7 +12116,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 105,
     "title": "Español para el Medio Ambiente y la Política, Part 3 of 3",
-    "summary": "Domina el vocabulario y los matices necesarios para debatir el cambio climático, la política medioambiental y la vida institucional con la sofisticación de un análisis periodístico serio.",
+    "summary": "Escucha a dos comentaristas debatir sobre política climática y repasa el vocabulario clave de medio ambiente y política.",
     "duration": "7 min",
     "sections": [
       {
@@ -12302,7 +12304,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "question": "En el diálogo de 'En la práctica', ¿en qué punto coinciden finalmente los dos comentaristas?",
         "options": [
           "En que la transición energética debe posponerse indefinidamente",
-          "En que sin metas verificables y consenso, cualquier reforma se queda en retórica vacía",
+          "En que sin metas verificables y sin rendición de cuentas, cualquier reforma se queda en retórica vacía",
           "En que el electorado no merece políticas concretas",
           "En que la huella de carbono no tiene relación con la política"
         ],
@@ -12420,10 +12422,11 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la frase con el término filosófico adecuado.",
-        "sentence": "Un argumento puede ser lógicamente ___ y, sin embargo, partir de premisas falsas.",
-        "answer": "válido",
-        "explanation": "La validez concierne a la forma del razonamiento, no a la verdad de sus premisas.",
-        "hint": "Es la propiedad de un argumento cuya conclusión se sigue necesariamente de sus premisas."
+        "sentence": "La moral de una época puede aceptar una práctica que, sin embargo, resulte éticamente ___.",
+        "answer": "cuestionable",
+        "altAnswers": ["injustificable", "reprochable", "indefendible"],
+        "explanation": "Una práctica puede ser moral (ajustarse a las costumbres vigentes) y, aun así, éticamente cuestionable si descansa sobre premisas injustas, como la esclavitud.",
+        "hint": "Adjetivo: que se puede poner en duda o discutir."
       }
     ]
   },
@@ -12432,7 +12435,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 107,
     "title": "Español para la Filosofía y los Conceptos Abstractos, Part 2 of 3",
-    "summary": "Adquiere el vocabulario abstracto necesario para razonar en español sobre el libre albedrío, la ética, la naturaleza de la realidad y la estructura de un buen argumento.",
+    "summary": "Aprende a hablar de las grandes posturas sobre la realidad (materialismo, idealismo, dualismo, monismo) y a analizar argumentos: premisas, validez, falacias y contradicción.",
     "duration": "9 min",
     "sections": [
       {
@@ -12585,7 +12588,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 108,
     "title": "Español para la Filosofía y los Conceptos Abstractos, Part 3 of 3",
-    "summary": "Adquiere el vocabulario abstracto necesario para razonar en español sobre el libre albedrío, la ética, la naturaleza de la realidad y la estructura de un buen argumento.",
+    "summary": "Escucha un debate sobre determinismo y compatibilismo y repasa el vocabulario filosófico clave.",
     "duration": "7 min",
     "sections": [
       {
@@ -12916,7 +12919,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 110,
     "title": "Español para la Psicología y las Emociones Complejas, Part 2 of 3",
-    "summary": "Aprende a nombrar con precisión los estados emocionales y psicológicos más matizados, desde la ambivalencia hasta la resiliencia, con el vocabulario propio de la introspección madura.",
+    "summary": "Aprende a distinguir melancolía, nostalgia, anhelo y desazón, y a hablar con precisión de resiliencia, duelo y vulnerabilidad.",
     "duration": "8 min",
     "sections": [
       {
@@ -13015,11 +13018,11 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Cuáles de los siguientes son mecanismos de defensa mencionados en la lección?",
+        "question": "¿Cuáles de los siguientes se orientan hacia algo ausente, según la lección?",
         "options": [
-          "La represión",
-          "La proyección psicológica",
-          "El autoengaño",
+          "La nostalgia",
+          "El anhelo",
+          "La añoranza",
           "La plenitud"
         ],
         "correctIndexes": [
@@ -13027,7 +13030,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           1,
           2
         ],
-        "explanation": "La represión, la proyección y el autoengaño son mecanismos de defensa; la plenitud es, en cambio, un estado de satisfacción vital."
+        "explanation": "La nostalgia (un recuerdo concreto), el anhelo (algo deseado, a menudo futuro) y la añoranza (una persona o una época ausente) apuntan a algo que falta; la plenitud es, en cambio, un estado de satisfacción vital."
       },
       {
         "type": "word-order",
@@ -13053,7 +13056,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 111,
     "title": "Español para la Psicología y las Emociones Complejas, Part 3 of 3",
-    "summary": "Aprende a nombrar con precisión los estados emocionales y psicológicos más matizados, desde la ambivalencia hasta la resiliencia, con el vocabulario propio de la introspección madura.",
+    "summary": "Escucha una sesión de terapia en la que se nombran emociones complejas y repasa el vocabulario clave de la psicología.",
     "duration": "7 min",
     "sections": [
       {
@@ -13257,7 +13260,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 112,
     "title": "Crítica de Arte, Cine y Literatura, Part 1 of 3",
-    "summary": "Adopta el registro y el vocabulario de la crítica cultural para analizar con precisión la trama, la puesta en escena y la composición visual de una obra.",
+    "summary": "Aprende el vocabulario crítico para analizar la trama, el personaje y la verosimilitud, y para comentar el simbolismo, la metáfora y la intertextualidad de una obra.",
     "duration": "8 min",
     "sections": [
       {
@@ -13361,10 +13364,10 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la frase con el término adecuado.",
-        "sentence": "La ___ engloba todo lo que el director dispone deliberadamente frente a la cámara.",
-        "answer": "puesta en escena",
-        "explanation": "La puesta en escena incluye la posición de los actores, la iluminación, el vestuario y la ambientación.",
-        "hint": "Es el conjunto de decisiones visuales y espaciales del director."
+        "sentence": "La ___ puede extenderse a lo largo de toda una obra, como la casa que se deteriora junto con la familia.",
+        "answer": "metáfora",
+        "explanation": "Una metáfora sostenida organiza la estructura profunda de una obra: la casa que se deteriora representa el colapso de la familia.",
+        "hint": "Recurso que traslada el sentido de una expresión a otro campo de significado."
       }
     ]
   },
@@ -13373,7 +13376,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 113,
     "title": "Crítica de Arte, Cine y Literatura, Part 2 of 3",
-    "summary": "Adopta el registro y el vocabulario de la crítica cultural para analizar con precisión la trama, la puesta en escena y la composición visual de una obra.",
+    "summary": "Aprende a comentar una película (puesta en escena, fotografía, actuación) y un cuadro (composición, pincelada, paleta), y a sopesar la originalidad frente a la profundidad.",
     "duration": "8 min",
     "sections": [
       {
@@ -13519,7 +13522,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 114,
     "title": "Crítica de Arte, Cine y Literatura, Part 3 of 3",
-    "summary": "Adopta el registro y el vocabulario de la crítica cultural para analizar con precisión la trama, la puesta en escena y la composición visual de una obra.",
+    "summary": "Escucha a dos críticos que discrepan sobre una película y repasa el vocabulario clave de la crítica de arte, cine y literatura.",
     "duration": "7 min",
     "sections": [
       {
@@ -13543,7 +13546,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "la peripecia",
-            "en": "sucesión de incidentes que hacen avanzar la acción de una historia"
+            "en": "cambio repentino de situación que da un giro a la acción de una historia"
           },
           {
             "es": "el arquetipo",
@@ -13694,8 +13697,8 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "texto breve que valora y analiza una obra artística"
           },
           {
-            "left": "el juicio crítico",
-            "right": "valoración razonada que un especialista hace sobre una obra"
+            "left": "el subtexto",
+            "right": "lo que una obra comunica sin decirlo explícitamente"
           },
           {
             "left": "el cliché",
@@ -13723,7 +13726,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 115,
     "title": "Español para los Negocios y la Economía, Part 1 of 3",
-    "summary": "Domina el vocabulario estratégico y macroeconómico que emplea el periodismo financiero para analizar fusiones, inflación y comercio internacional.",
+    "summary": "Aprende a explicar la oferta y la demanda, la elasticidad y el monopolio, y a distinguir fusión, adquisición y capital de riesgo como lo hace la prensa económica.",
     "duration": "9 min",
     "sections": [
       {
@@ -13992,7 +13995,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 117,
     "title": "Español para los Negocios y la Economía, Part 3 of 3",
-    "summary": "Domina el vocabulario estratégico y macroeconómico que emplea el periodismo financiero para analizar fusiones, inflación y comercio internacional.",
+    "summary": "Escucha una entrevista sobre una fusión y la subida de los tipos de interés, y repasa el vocabulario clave de la economía y las finanzas.",
     "duration": "7 min",
     "sections": [
       {
@@ -14001,7 +14004,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Presentadora: Esta semana, la fusión entre las dos aerolíneas ha dominado las noticias económicas. ¿Cómo debemos interpretarla?",
           "Analista: La operación busca ganar cuota de mercado y reducir costes compartiendo la cadena de suministro de repuestos y mantenimiento.",
           "Presentadora: ¿Y qué opina de las críticas que hablan de un riesgo de monopolio en ciertas rutas?",
-          "Analista: Es una preocupación legítima. Si una sola empresa controla la oferta en una ruta concreta, la demanda pierde capacidad de negociar precios más bajos.",
+          "Analista: Es una preocupación legítima. Si una sola empresa controla la oferta en una ruta concreta, los pasajeros pierden capacidad de negociar precios más bajos.",
           "Presentadora: Cambiando de tema, ¿cómo está afectando la inflación reciente a las decisiones de inversión de las empresas?",
           "Analista: Con las tasas de interés al alza, muchas compañías están posponiendo proyectos que dependían de crédito barato para financiarse.",
           "Presentadora: ¿Existe riesgo de recesión si el banco central sigue endureciendo la política monetaria?",
@@ -14196,7 +14199,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 118,
     "title": "Escritura Creativa: Técnicas Literarias Avanzadas, Part 1 of 3",
-    "summary": "Domina las herramientas del oficio literario, desde la prefiguración hasta el clímax narrativo, con el vocabulario preciso que emplea un escritor para hablar de su propio oficio.",
+    "summary": "Aprenderás a reconocer y nombrar la prefiguración, la tensión narrativa, el suspense y los distintos tipos de narrador (confiable, poco confiable, polifonía, monólogo interior).",
     "duration": "9 min",
     "sections": [
       {
@@ -14313,6 +14316,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la frase con el término adecuado.",
         "sentence": "Un narrador poco ___ obliga al lector a interpretar con sospecha lo que se cuenta.",
         "answer": "confiable",
+        "altAnswers": ["fiable"],
         "explanation": "Un narrador poco confiable introduce una distancia crítica que exige al lector una lectura más activa y desconfiada.",
         "hint": "Se opone al narrador cuyo relato el lector puede aceptar sin sospecha."
       }
@@ -14323,7 +14327,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 119,
     "title": "Escritura Creativa: Técnicas Literarias Avanzadas, Part 2 of 3",
-    "summary": "Domina las herramientas del oficio literario, desde la prefiguración hasta el clímax narrativo, con el vocabulario preciso que emplea un escritor para hablar de su propio oficio.",
+    "summary": "Aprenderás a identificar el símil, la sinestesia, la personificación y la hipérbole, y a describir la estructura de un relato: arco narrativo, clímax, in medias res y analepsis.",
     "duration": "8 min",
     "sections": [
       {
@@ -14456,7 +14460,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 120,
     "title": "Escritura Creativa: Técnicas Literarias Avanzadas, Part 3 of 3",
-    "summary": "Domina las herramientas del oficio literario, desde la prefiguración hasta el clímax narrativo, con el vocabulario preciso que emplea un escritor para hablar de su propio oficio.",
+    "summary": "Aplicarás el vocabulario de las técnicas literarias en una conversación de edición y repasarás los términos clave (focalización, prolepsis, leitmotiv, mise en abyme…).",
     "duration": "7 min",
     "sections": [
       {
@@ -14467,7 +14471,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Editora: Ese orden puede funcionar, pero revisa cada escena anterior para plantar al menos un indicio que, en retrospectiva, justifique ese giro.",
           "Escritor: ¿Y qué opinas de la voz narrativa? Dudo entre un narrador confiable y uno más ambiguo.",
           "Editora: Dado que tu protagonista se autoengaña constantemente, un narrador poco confiable encajaría mejor con esa psicología.",
-          "Escritor: Tiene sentido. Así el lector desconfiaría de sus propias justificaciones, igual que hace el propio personaje.",
+          "Escritor: Tiene sentido. Así el lector desconfiaría de sus justificaciones, aunque el propio personaje se las crea.",
           "Editora: Exacto. Y cuidado con el monólogo interior del capítulo tres: se vuelve una digresión narrativa que retrasa demasiado la acción.",
           "Escritor: Lo recortaré. Prefiero sostener la tensión hasta el clímax en lugar de diluirla en detalles secundarios."
         ]
@@ -14635,7 +14639,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "comenzar un relato en pleno desarrollo de la acción"
           }
         ],
-        "explanation": "Estos recursos permiten a quien escribe manipular deliberadamente el orden temporal en que se revela la información al lector."
+        "explanation": "El narrador omnisciente determina cuánto sabe la voz que cuenta; el símbolo recurrente acumula significado al repetirse; el in medias res altera el orden temporal al empezar en plena acción."
       },
       {
         "type": "multiple-choice",
@@ -14672,7 +14676,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Se cree a pie juntillas todo lo que lee en las redes.",
-            "en": "He believes everything he reads on social media, lock, stock and barrel."
+            "en": "He swallows everything he reads on social media hook, line and sinker."
           },
           {
             "es": "Así, a bote pronto, diría que el presupuesto no alcanza.",
@@ -14805,7 +14809,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "Se creyó a pie ___ la versión oficial.",
         "answer": "juntillas",
         "explanation": "«A pie juntillas» = sin la menor duda; suele acompañar a «creer» o «seguir». No existe «a pie junto» con este sentido.",
-        "en": "She believed the official version [lock, stock and barrel]."
+        "en": "She swallowed the official version [hook, line and sinker]."
       },
       {
         "type": "fill-blank",
@@ -14813,12 +14817,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "No ___ ojo en toda la noche por los nervios.",
         "answer": "pegué",
         "explanation": "«No pegar ojo» = no dormir nada. Es de polaridad negativa: exige «no». Aquí, primera persona del pretérito: pegué.",
-        "en": "I [didn't sleep] a wink all night because of my nerves.",
-        "altAnswers": [
-          "pegó",
-          "pegamos",
-          "pegaron"
-        ]
+        "en": "I [didn't sleep] a wink all night because of my nerves."
       },
       {
         "type": "multiple-choice",
@@ -14853,7 +14852,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "que",
           "se",
           "lo",
-          "pedimos",
+          "pedimos,",
           "no",
           "dio",
           "su",
@@ -15398,7 +15397,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Prometieron",
           "una",
           "reforma",
-          "profunda",
+          "profunda,",
           "pero",
           "del",
           "dicho",
@@ -15711,7 +15710,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "como",
           "confirman",
           "los",
-          "datos",
+          "datos,",
           "más",
           "vale",
           "prevenir",
@@ -15804,7 +15803,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la fórmula de rechazo.",
             "sentence": "No ha ___ a lo solicitado por la parte actora.",
             "answer": "lugar",
-            "explanation": "«No ha lugar» es la fórmula procesal de denegación; «ha» es aquí el verbo «haber» con su antiguo sentido de «tener».",
+            "explanation": "«No ha lugar» es la fórmula procesal de denegación; «ha» es aquí la antigua forma impersonal de «haber», equivalente a «hay»: «no ha lugar» = «no hay lugar a ello».",
             "en": "The claimant's request [is denied]."
           }
         ]
@@ -16941,17 +16940,15 @@ const C2_BASE_LESSONS: Lesson[] = [
           "poema",
           "juega",
           "con",
-          "la",
-          "paradoja",
+          "el",
+          "oxímoron",
           "de",
           "una",
           "música",
-          "que",
-          "no",
-          "suena."
+          "callada."
         ],
-        "translation": "The poem plays with the paradox of music that makes no sound.",
-        "explanation": "La paradoja es un enunciado aparentemente absurdo con sentido profundo."
+        "translation": "The poem plays with the oxymoron of a silent music.",
+        "explanation": "«Música callada» une en un solo sintagma dos términos opuestos: es un oxímoron, no una paradoja (que es un enunciado completo)."
       }
     ]
   },
@@ -17435,7 +17432,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Su juventud no es óbice para dirigir el equipo.",
           "Que sea joven no es óbice para que dirija el equipo."
         ],
-        "explanation": "«No ser óbice para que» + subjuntivo (dirija), porque el hecho se presenta como posible, no afirmado."
+        "explanation": "«No ser óbice para que» + subjuntivo (dirija): «para que» rige siempre subjuntivo."
       },
       {
         "type": "word-order",
@@ -18352,9 +18349,9 @@ const C2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Hacer daño, efecto o un documento",
+        "heading": "Hacer un informe, una pregunta o un trabajo",
         "body": [
-          "Cada sustantivo tiene su verbo: se inflige un daño, se surte efecto, se redacta un informe.",
+          "Cada sustantivo tiene su verbo: se redacta un informe, se formula una pregunta, se desempeña un cargo.",
           "«redactar»: poner por escrito un texto con orden y cuidado.",
           "«confeccionar»: elaborar algo con varios elementos (una lista, un traje, un menú).",
           "«formular»: expresar con precisión una pregunta, una queja, una teoría o una objeción.",
@@ -19049,11 +19046,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "No ___ de datos suficientes.",
         "answer": "disponemos",
         "explanation": "«disponer de»: tener algo a disposición para usarlo.",
-        "en": "We [do not have] enough data.",
-        "altAnswers": [
-          "contamos con",
-          "tenemos"
-        ]
+        "en": "We [do not have] enough data."
       },
       {
         "type": "fill-blank",
@@ -19392,7 +19385,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Corregir y aliviar",
         "body": [
-          "Verbos para reducir un daño o corregir un error.",
+          "Verbos para aliviar un daño o corregir un error, y también para agravarlo o debilitar algo.",
           "«paliar»: atenuar los efectos de un mal sin eliminarlo.",
           "«mitigar»: moderar o suavizar algo negativo (dolor, riesgo, impacto).",
           "«subsanar»: corregir un defecto o reparar un error.",
@@ -20540,7 +20533,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "«realizar»: hacer, efectuar (no «darse cuenta», to realize).",
           "«soportar»: aguantar algo molesto (no «apoyar», to support).",
           "«aplicar»: poner algo en práctica o sobre algo (para un puesto se dice «solicitar» o «postularse»).",
-          "«evidencia»: certeza clara y manifiesta (en el sentido judicial, «prueba»).",
+          "«evidencia»: certeza clara y manifiesta (para el sentido judicial del inglés «evidence» se dice «prueba»).",
           "«argumento»: razonamiento, o trama de una obra (una pelea es «discusión»)."
         ],
         "examples": [
@@ -20679,7 +20672,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "aplicar"
         ],
         "correctIndex": 3,
-        "explanation": "«aplicar» significa poner algo en práctica o sobre algo (para un puesto se dice «solicitar» o «postularse»). En cambio, «evidencia» significa certeza clara y manifiesta (en el sentido judicial, «prueba»); «injuria» significa agravio u ofensa grave de palabra (una lesión física es «lesión»); «asumir» significa aceptar una responsabilidad o un cargo (no «suponer», to assume)."
+        "explanation": "«aplicar» significa poner algo en práctica o sobre algo (para un puesto se dice «solicitar» o «postularse»). En cambio, «evidencia» significa certeza clara y manifiesta (para el sentido judicial del inglés «evidence» se dice «prueba»); «injuria» significa agravio u ofensa grave de palabra (una lesión física es «lesión»); «asumir» significa aceptar una responsabilidad o un cargo (no «suponer», to assume)."
       },
       {
         "type": "multiple-choice",
@@ -20706,7 +20699,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la palabra adecuada.",
         "sentence": "La fiscalía no presentó ___ suficientes.",
         "answer": "pruebas",
-        "explanation": "«evidencia»: certeza clara y manifiesta (en el sentido judicial, «prueba»).",
+        "explanation": "«evidencia»: certeza clara y manifiesta (para el sentido judicial del inglés «evidence» se dice «prueba»).",
         "en": "The prosecution did not present sufficient [evidence].",
         "altAnswers": [
           "indicios"
@@ -21242,26 +21235,32 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa con la palabra adecuada.",
-        "sentence": "___ modo, el proyecto costará un millón.",
-        "answer": "Grosso",
+        "sentence": "___, el proyecto costará un millón.",
+        "answer": "Grosso modo",
         "explanation": "«grosso modo»: a grandes rasgos, aproximadamente (sin «a» delante).",
-        "en": "[Roughly] speaking, the project will cost a million."
+        "en": "[Roughly speaking], the project will cost a million.",
+        "altAnswers": [
+          "A grandes rasgos"
+        ]
       },
       {
         "type": "fill-blank",
         "prompt": "Completa con la palabra adecuada.",
-        "sentence": "Es fácil criticar la decisión ___ posteriori.",
-        "answer": "a",
+        "sentence": "Es fácil criticar la decisión ___.",
+        "answer": "a posteriori",
         "explanation": "«a posteriori»: después de examinar el asunto o de que ocurra el hecho.",
-        "en": "It's easy to criticise the decision [with] hindsight."
+        "en": "It's easy to criticise the decision [with hindsight]."
       },
       {
         "type": "fill-blank",
         "prompt": "Completa con la palabra adecuada.",
-        "sentence": "Se creó una comisión ___ hoc para investigar el caso.",
-        "answer": "ad",
+        "sentence": "Se creó una comisión ___ para investigar el caso.",
+        "answer": "ad hoc",
         "explanation": "«ad hoc»: creado específicamente para un fin concreto.",
-        "en": "An [ad] hoc committee was set up to investigate the case."
+        "en": "A [special-purpose] committee was set up to investigate the case.",
+        "altAnswers": [
+          "especial"
+        ]
       },
       {
         "type": "fill-blank",
@@ -21278,18 +21277,25 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa con la palabra adecuada.",
-        "sentence": "___ priori, la propuesta parece razonable.",
-        "answer": "A",
+        "sentence": "___, la propuesta parece razonable.",
+        "answer": "A priori",
         "explanation": "«a priori»: antes de examinar el asunto, en principio.",
-        "en": "[A] priori, the proposal seems reasonable."
+        "en": "[On the face of it], the proposal seems reasonable.",
+        "altAnswers": [
+          "En principio"
+        ]
       },
       {
         "type": "fill-blank",
         "prompt": "Completa con la palabra adecuada.",
-        "sentence": "La policía reconoció el ___ operandi de la banda.",
-        "answer": "modus",
+        "sentence": "La policía reconoció el ___ de la banda.",
+        "answer": "modus operandi",
         "explanation": "«modus operandi»: manera característica de actuar.",
-        "en": "The police recognised the gang's [modus] operandi."
+        "en": "The police recognised the gang's [way of operating].",
+        "altAnswers": [
+          "método",
+          "modo de actuar"
+        ]
       },
       {
         "type": "matching",
@@ -21714,7 +21720,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "La luz entraba a raudales por el ventanal.",
-            "en": "Light poured in in abundance through the big window."
+            "en": "Light flooded in through the big window."
           },
           {
             "es": "A la chita callando, se hizo con la mayoría de las acciones.",
@@ -21894,7 +21900,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Colocaciones que no se deducen: se abrigan dudas, se cosechan éxitos, se exhala el último suspiro.",
           "«albergar esperanzas»: tener esperanzas.",
           "«abrigar dudas»: tener dudas, especialmente persistentes.",
-          "«cosechar éxitos»: obtener éxitos (o fracasos) como resultado de un esfuerzo.",
+          "«cosechar éxitos»: obtener éxitos como resultado de un esfuerzo (también se cosechan fracasos).",
           "«sembrar la discordia»: provocar enfrentamientos.",
           "«conciliar el sueño»: lograr dormirse.",
           "«aunar esfuerzos»: unir esfuerzos para un fin común.",
@@ -21945,7 +21951,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "cosechar éxitos",
-                "right": "obtener éxitos (o fracasos) como resultado de un esfuerzo"
+                "right": "obtener éxitos como resultado de un esfuerzo (también se cosechan fracasos)"
               },
               {
                 "left": "sembrar la discordia",
@@ -22055,7 +22061,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la palabra adecuada.",
         "sentence": "La obra ___ un éxito rotundo.",
         "answer": "cosechó",
-        "explanation": "«cosechar éxitos»: obtener éxitos (o fracasos) como resultado de un esfuerzo.",
+        "explanation": "«cosechar éxitos»: obtener éxitos como resultado de un esfuerzo (también se cosechan fracasos).",
         "en": "The play [reaped] a resounding success.",
         "altAnswers": [
           "obtuvo"
@@ -23297,7 +23303,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "«la correlación»: relación estadística entre dos variables, que no implica causa.",
           "«la causalidad»: relación de causa y efecto (no confundir con «casualidad», azar).",
           "«el margen de error»: intervalo dentro del cual se estima que está el valor real.",
-          "«la significación estadística»: probabilidad baja de que un resultado se deba al azar.",
+          "«la significación estadística»: indica que un resultado sería muy improbable si solo actuara el azar.",
           "«la replicabilidad»: posibilidad de obtener los mismos resultados repitiendo el estudio.",
           "«la revisión por pares»: evaluación de un artículo por otros expertos antes de publicarlo.",
           "«extrapolar»: aplicar conclusiones obtenidas en un ámbito a otro distinto."
@@ -23351,7 +23357,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "la significación estadística",
-                "right": "probabilidad baja de que un resultado se deba al azar"
+                "right": "indica que un resultado sería muy improbable si solo actuara el azar"
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
@@ -23512,7 +23518,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Las deudas de la herencia yacente siguen generando intereses.",
-            "en": "The debts of the unclaimed estate keep accruing interest."
+            "en": "The debts of the estate not yet accepted by the heirs keep accruing interest."
           },
           {
             "es": "La finca tiene una servidumbre de paso a favor del vecino.",
@@ -24580,7 +24586,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 165,
     "title": "Vocabulario C2: verbos de sonido y de luz, Part 24 of 30",
-    "summary": "Crepitar, chirriar, retumbar, bisbisear, rechinar, tintinear, fulgurar, centellear, titilar, refulgir, destellar, parpadear, resplandecer: el verbo exacto para lo que se oye y lo que brilla.",
+    "summary": "Crepitar, chirriar, retumbar, bisbisear, rechinar, tintinear, zumbar, fulgurar, centellear, titilar, refulgir, parpadear, resplandecer, tamizar: el verbo exacto para lo que se oye y para la luz.",
     "duration": "10 min",
     "sections": [
       {
@@ -24614,7 +24620,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Le rechinaban los dientes mientras dormía.",
-            "en": "His teeth ground while he slept."
+            "en": "He ground his teeth in his sleep."
           },
           {
             "es": "Los vasos tintineaban en la bandeja.",
@@ -25569,7 +25575,12 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "Está ___ en un restaurante del centro.",
         "answer": "chambeando",
         "explanation": "«chambear»: trabajar (coloquial, México, Perú y otros países).",
-        "en": "He's [working] at a restaurant downtown."
+        "en": "He's [working] at a restaurant downtown.",
+        "altAnswers": [
+          "trabajando",
+          "currando",
+          "laburando"
+        ]
       },
       {
         "type": "fill-blank",
@@ -25577,7 +25588,12 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "¿Tienes ___ para el taxi?",
         "answer": "lana",
         "explanation": "«la lana»: dinero (coloquial, México).",
-        "en": "Have you got [money] for the taxi?"
+        "en": "Have you got [money] for the taxi?",
+        "altAnswers": [
+          "dinero",
+          "plata",
+          "pasta"
+        ]
       },
       {
         "type": "fill-blank",
@@ -25596,7 +25612,14 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "¡Qué ___ que viniste!",
         "answer": "chido",
         "explanation": "«chido»: estupendo (coloquial, México).",
-        "en": "How [great] that you came!"
+        "en": "How [great] that you came!",
+        "altAnswers": [
+          "chévere",
+          "bacán",
+          "padre",
+          "guay",
+          "bueno"
+        ]
       },
       {
         "type": "fill-blank",
@@ -26469,83 +26492,83 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 172,
     "title": "C1/C2 Comprehensive Review, Part 1 of 3",
-    "summary": "Repasa los 43 temas gramaticales y de registro de C1/C2, y realiza un examen final de preguntas.",
+    "summary": "Repasarás los grandes temas gramaticales de C1/C2 (subjuntivo, concesivas, nominalización, gerundio, pasiva, por/para, ser/estar, conectores, énfasis, conjetura, registro) y los pondrás a prueba en ejercicios.",
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Subjuntivo: Repaso y Matices Avanzados",
+        "heading": "Subjuntivo: repaso y matices avanzados",
         "body": [
           "El subjuntivo expresa antecedentes inciertos, deseos, dudas y emociones. En C1/C2, la elección entre presente, imperfecto, perfecto y pluscuamperfecto de subjuntivo depende de la relación temporal con el verbo principal y del grado de certeza que se quiera transmitir."
         ]
       },
       {
-        "heading": "El Subjuntivo con Aunque y Otras Concesivas",
+        "heading": "El subjuntivo con aunque y otras concesivas",
         "body": [
           "\"Aunque\" lleva indicativo cuando el hablante presenta el hecho como cierto, y subjuntivo cuando lo presenta como hipotético o irrelevante para su argumento. \"A pesar de que\", \"por más que\" y \"por mucho que\" siguen la misma lógica."
         ]
       },
       {
-        "heading": "Nominalización y Sustantivación",
+        "heading": "Nominalización y sustantivación",
         "body": [
           "El español culto convierte verbos y adjetivos en sustantivos abstractos (\"el hecho de que\", \"lo + adjetivo\", sufijos como -ción, -miento, -dad) para lograr un registro más formal y compacto."
         ]
       },
       {
-        "heading": "Gerundio vs. Infinitivo: Usos Avanzados",
+        "heading": "Gerundio vs. infinitivo: usos avanzados",
         "body": [
           "El gerundio de posterioridad (usar el gerundio para una acción que ocurre después, no simultáneamente) es un error común que debe evitarse. El infinitivo funciona como sujeto o como mandato formal impersonal."
         ]
       },
       {
-        "heading": "Voz Pasiva, Se Pasivo y Se Impersonal",
+        "heading": "Voz pasiva, se pasivo y se impersonal",
         "body": [
           "\"Ser + participio\" es propio del registro formal y escrito. El se pasivo concuerda en número con el sustantivo. El se impersonal siempre es singular y no tiene sujeto explícito."
         ]
       },
       {
-        "heading": "Estilo Indirecto Libre y Narración Literaria",
+        "heading": "Estilo indirecto libre y narración literaria",
         "body": [
           "El estilo indirecto libre mezcla los pensamientos de un personaje con la voz del narrador, sin verbos introductorios explícitos como \"dijo que\", creando una cercanía narrativa particular."
         ]
       },
       {
-        "heading": "Por y Para: Precisión Profesional",
+        "heading": "Por y para: precisión profesional",
         "body": [
           "En contextos profesionales, \"para\" indica destinatario, propósito o plazo, mientras que \"por\" indica causa, medio o intercambio. Ciertas expresiones fijas escapan a esta regla general."
         ]
       },
       {
-        "heading": "Ser, Estar y Haber: Casos Límite",
+        "heading": "Ser, estar y haber: casos límite",
         "body": [
           "Los casos más ambiguos incluyen adjetivos que cambian de significado según el verbo, y la distinción entre \"haber\" (existencia general) y \"estar\" (ubicación de algo específico y conocido)."
         ]
       },
       {
-        "heading": "Verbos Preposicionales y Régimen Verbal",
+        "heading": "Verbos preposicionales y régimen verbal",
         "body": [
-          "Muchos verbos exigen una preposición fija que no siempre coincide con la lógica del español general (\"contar con\", \"consistir en\", \"empeñarse en\"), y deben memorizarse como unidades completas."
+          "Muchos verbos exigen una preposición fija que no siempre coincide con la del inglés (\"contar con\", \"consistir en\", \"empeñarse en\"), y deben memorizarse como unidades completas."
         ]
       },
       {
-        "heading": "Conectores Discursivos Avanzados",
+        "heading": "Conectores discursivos avanzados",
         "body": [
           "Conectores como \"ahora bien\", \"dicho esto\" y \"cabe destacar\" organizan un discurso formal complejo, señalando transiciones, matizaciones y conclusiones."
         ]
       },
       {
-        "heading": "Estructuras Enfáticas y Focalización",
+        "heading": "Estructuras enfáticas y focalización",
         "body": [
           "Las oraciones hendidas (\"fue entonces cuando\", \"lo que hizo fue\") permiten destacar un elemento concreto de la oración, dándole un peso especial dentro del discurso."
         ]
       },
       {
-        "heading": "Futuro y Condicional para Conjetura",
+        "heading": "Futuro y condicional para conjetura",
         "body": [
           "El futuro y el condicional simples expresan probabilidad o conjetura sobre el presente y el pasado respectivamente (\"serán las tres\", \"tendría unos treinta años\"), sin necesidad de subjuntivo."
         ]
       },
       {
-        "heading": "Registro Formal vs. Informal",
+        "heading": "Registro formal vs. informal",
         "body": [
           "La elección entre tú, usted y vos depende del contexto social, la edad, la jerarquía y la región. Un mismo trato puede resultar cercano en un país y ofensivo en otro."
         ]
@@ -26647,91 +26670,91 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 173,
     "title": "C1/C2 Comprehensive Review, Part 2 of 3",
-    "summary": "Repasa los 43 temas gramaticales y de registro de C1/C2, y realiza un examen final de preguntas.",
+    "summary": "Repasarás la variación regional (voseo, léxico), los registros (correspondencia, académico, jurídico, médico) y el lenguaje figurado y expresivo de C1/C2.",
     "duration": "10 min",
     "sections": [
       {
-        "heading": "El Voseo",
+        "heading": "El voseo",
         "body": [
           "El voseo sustituye a \"tú\" por \"vos\" con conjugaciones propias (vos tenés, vos podés) en Argentina, Uruguay y partes de Centroamérica, y convive con sus propias normas de formalidad."
         ]
       },
       {
-        "heading": "Variación Léxica Regional",
+        "heading": "Variación léxica regional",
         "body": [
           "Una misma realidad puede tener varios nombres según el país (el carro, el coche, el auto), y reconocer estas variantes es clave para entender el español de distintas regiones."
         ]
       },
       {
-        "heading": "Español Neutro vs. Coloquial",
+        "heading": "Español neutro vs. coloquial",
         "body": [
           "El español neutro se usa en medios y contextos internacionales para minimizar marcas regionales; el coloquial refleja la variedad y la espontaneidad del habla cotidiana de una comunidad concreta."
         ]
       },
       {
-        "heading": "Cartas y Correos Formales",
+        "heading": "Cartas y correos formales",
         "body": [
           "La correspondencia formal sigue fórmulas fijas de apertura y cierre (\"estimado/a\", \"quedo a la espera de su respuesta\", \"atentamente\") que estructuran el tono profesional del mensaje."
         ]
       },
       {
-        "heading": "Lenguaje Académico y Ensayos Argumentativos",
+        "heading": "Lenguaje académico y ensayos argumentativos",
         "body": [
           "Un ensayo argumentativo se organiza en torno a una tesis sostenida por premisas y evidencia, limitando la primera persona del singular y empleando conectores que marcan la progresión lógica del razonamiento."
         ]
       },
       {
-        "heading": "Español Jurídico y Administrativo",
+        "heading": "Español jurídico y administrativo",
         "body": [
           "El registro jurídico y burocrático emplea fórmulas fijas (\"por la presente\", \"en virtud de\", \"el suscrito\") que dan al texto una precisión y una formalidad propias de los documentos oficiales."
         ]
       },
       {
-        "heading": "Español Médico y de la Salud",
+        "heading": "Español médico y de la salud",
         "body": [
           "El registro clínico exige precisión al describir síntomas, antecedentes y diagnósticos, yendo más allá de expresiones básicas como \"me duele\" hacia una terminología más técnica."
         ]
       },
       {
-        "heading": "Modismos y Expresiones Idiomáticas",
+        "heading": "Modismos y expresiones idiomáticas",
         "body": [
           "Los modismos (\"tomar el pelo\", \"estar en las nubes\") no se interpretan literalmente; su significado se aprende como una unidad fija dentro de la cultura hispanohablante."
         ]
       },
       {
-        "heading": "Refranes y Dichos Populares",
+        "heading": "Refranes y dichos populares",
         "body": [
           "Los refranes condensan una enseñanza o una observación sobre la vida (\"más vale tarde que nunca\") transmitida de generación en generación."
         ]
       },
       {
-        "heading": "Humor y Juegos de Palabras",
+        "heading": "Humor y juegos de palabras",
         "body": [
           "El humor en español se construye a menudo mediante el doble sentido, la ironía y el juego fonético entre palabras parecidas, variando considerablemente según la región."
         ]
       },
       {
-        "heading": "Metáforas y Lenguaje Figurado",
+        "heading": "Metáforas y lenguaje figurado",
         "body": [
           "El lenguaje figurado —metáforas, símiles, hipérboles— añade color y profundidad expresiva tanto al habla cotidiana como a la escritura literaria."
         ]
       },
       {
-        "heading": "Eufemismos y Lenguaje Indirecto",
+        "heading": "Eufemismos y lenguaje indirecto",
         "body": [
           "Los eufemismos suavizan temas delicados (la muerte, el dinero, un despido) sustituyendo una expresión directa por otra más aceptable socialmente."
         ]
       },
       {
-        "heading": "Expresiones de Sorpresa y Énfasis",
+        "heading": "Expresiones de sorpresa y énfasis",
         "body": [
           "Expresiones como \"¡qué va!\" o \"¡no me digas!\" transmiten sorpresa, incredulidad o énfasis de una manera mucho más natural que las fórmulas de manual."
         ]
       },
       {
-        "heading": "Diminutivos, Aumentativos y su Valor Expresivo",
+        "heading": "Diminutivos, aumentativos y su valor expresivo",
         "body": [
-          "Sufijos como -ito, -ísimo o -ón no solo indican tamaño: también transmiten afecto, sarcasmo o intensidad, y su uso varía notablemente según el país."
+          "Sufijos como -ito, -illo, -ón o -azo no solo indican tamaño: también transmiten afecto, sarcasmo o intensidad, y su uso varía notablemente según el país."
         ]
       }
     ],
@@ -26809,7 +26832,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           1,
           2
         ],
-        "explanation": "El carro, el coche y el auto son variantes regionales de la misma palabra; \"la bicicleta\" designa un objeto distinto."
+        "explanation": "El carro, el coche y el auto son variantes regionales que designan el mismo objeto; \"la bicicleta\" designa un objeto distinto."
       },
       {
         "type": "fill-blank",
@@ -26843,6 +26866,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la expresión jurídica correcta.",
         "sentence": "___ la presente, se notifica al interesado la resolución adoptada.",
         "answer": "Por medio de",
+        "altAnswers": ["Por", "Mediante"],
         "explanation": "\"Por medio de la presente\" es una fórmula fija del registro administrativo y jurídico."
       }
     ]
@@ -26852,101 +26876,101 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 174,
     "title": "C1/C2 Comprehensive Review, Part 3 of 3",
-    "summary": "Repasa los 43 temas gramaticales y de registro de C1/C2, y realiza un examen final de preguntas.",
+    "summary": "Repasarás el español profesional y temático de C1/C2: negocios, debate, negociación, citas, narrativa histórica, ciencia, filosofía, crítica y escritura creativa.",
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Modismos del Mundo de los Negocios",
+        "heading": "Modismos del mundo de los negocios",
         "body": [
           "Expresiones como \"ir al grano\" o \"poner las cartas sobre la mesa\" son parte del registro profesional cotidiano en el mundo empresarial hispanohablante."
         ]
       },
       {
-        "heading": "Estrategias de Comprensión Auditiva y Lectora",
+        "heading": "Estrategias de comprensión auditiva y lectora",
         "body": [
           "Comprender un discurso rápido o un texto denso exige inferir significados a partir del contexto y reconocer los cambios de registro que un hablante nativo no siempre explicita."
         ]
       },
       {
-        "heading": "El Debate y la Argumentación Persuasiva",
+        "heading": "El debate y la argumentación persuasiva",
         "body": [
           "Un buen argumento persuasivo suele reconocer primero un punto válido del contrario antes de refutarlo, evitando así una confrontación directa poco eficaz."
         ]
       },
       {
-        "heading": "Presentaciones Orales y Negociación",
+        "heading": "Presentaciones orales y negociación",
         "body": [
           "El lenguaje de la negociación incluye fórmulas para proponer, ceder y llegar a acuerdos, equilibrando firmeza y flexibilidad según el momento de la conversación."
         ]
       },
       {
-        "heading": "Citas, Referencias y Estilo de Citación",
+        "heading": "Citas, referencias y estilo de citación",
         "body": [
           "Citar con precisión implica distinguir entre la cita textual y la paráfrasis, y documentar siempre el origen de la información con claridad."
         ]
       },
       {
-        "heading": "Preguntas Retóricas y Estructuras de Énfasis",
+        "heading": "Preguntas retóricas y estructuras de énfasis",
         "body": [
           "Una pregunta retórica no busca respuesta, sino producir un efecto persuasivo o reflexivo en quien escucha o lee."
         ]
       },
       {
-        "heading": "Español para Entrevistas de Trabajo",
+        "heading": "Español para entrevistas de trabajo",
         "body": [
           "Describir la propia trayectoria profesional en una entrevista exige un registro seguro, natural y apropiadamente formal, sin caer en la rigidez ni en la informalidad excesiva."
         ]
       },
       {
-        "heading": "Resolución de Conflictos y Mediación Verbal",
+        "heading": "Resolución de conflictos y mediación verbal",
         "body": [
           "Mediar un conflicto verbalmente implica reconocer la perspectiva de la otra parte antes de proponer una solución que ambas puedan aceptar."
         ]
       },
       {
-        "heading": "Narrativa Histórica: Tiempos Verbales y Estructura",
+        "heading": "Narrativa histórica: tiempos verbales y estructura",
         "body": [
           "El relato histórico combina el pretérito para los hechos puntuales, el imperfecto para el contexto y el pluscuamperfecto para lo ocurrido antes de esos hechos."
         ]
       },
       {
-        "heading": "Español para las Ciencias y la Tecnología",
+        "heading": "Español para las ciencias y la tecnología",
         "body": [
           "Explicar una idea científica o tecnológica en español exige un vocabulario preciso para describir hipótesis, métodos y hallazgos con el registro propio del periodismo especializado."
         ]
       },
       {
-        "heading": "Español para el Medio Ambiente y la Política",
+        "heading": "Español para el medio ambiente y la política",
         "body": [
           "El discurso político y ambiental combina vocabulario técnico (la gobernanza, la degradación ambiental) con estructuras propias de la argumentación pública."
         ]
       },
       {
-        "heading": "Español para la Filosofía y los Conceptos Abstractos",
+        "heading": "Español para la filosofía y los conceptos abstractos",
         "body": [
           "Razonar filosóficamente en español requiere dominar el vocabulario abstracto necesario para contraponer posturas como el libre albedrío y el determinismo, o el idealismo y el materialismo."
         ]
       },
       {
-        "heading": "Español para la Psicología y las Emociones Complejas",
+        "heading": "Español para la psicología y las emociones complejas",
         "body": [
           "Describir estados emocionales complejos —la ambivalencia, el desapego, la introspección— exige un vocabulario más preciso que el de las emociones básicas."
         ]
       },
       {
-        "heading": "Crítica de Arte, Cine y Literatura",
+        "heading": "Crítica de arte, cine y literatura",
         "body": [
           "Un crítico evalúa una obra atendiendo a su trama, su estilo y su impronta artística, empleando un vocabulario especializado propio del análisis cultural."
         ]
       },
       {
-        "heading": "Español para los Negocios y la Economía",
+        "heading": "Español para los negocios y la economía",
         "body": [
           "El registro económico y empresarial describe estrategias, acuerdos y balances con una precisión terminológica propia del periodismo financiero."
         ]
       },
       {
-        "heading": "Escritura Creativa: Técnicas Literarias Avanzadas",
+        "heading": "Escritura creativa: técnicas literarias avanzadas",
         "body": [
           "Un escritor recurre conscientemente a técnicas como la analepsis, la prolepsis o el punto de vista narrativo para construir el efecto que busca en el lector."
         ]
@@ -26987,7 +27011,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa con el eufemismo adecuado.",
-        "sentence": "Tras años de servicio, la empresa decidió ___ a varios empleados.",
+        "sentence": "Tras años de servicio, la empresa decidió ___ varios empleados.",
         "answer": "prescindir de",
         "explanation": "\"Prescindir de\" es una manera indirecta y menos dura de decir \"despedir\"."
       },

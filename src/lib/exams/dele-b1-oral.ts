@@ -105,7 +105,7 @@ export const DELE_B1_ORAL: ExamPaper = {
           "Lo siento, no encuentro ninguna reserva a su nombre. ¿Cuándo la hizo?",
           "Esta noche solo nos queda una habitación individual sin vistas. ¿Le interesa?",
           "También puedo buscarle una habitación en otro hotel de la cadena, a quince minutos.",
-          "¿Qué le parecería si le invitamos al desayuno?",
+          "¿Qué le parece si le invitamos al desayuno?",
         ],
         prepMinutes: 0,
         speakMinutes: 3,

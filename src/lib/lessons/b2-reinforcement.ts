@@ -208,7 +208,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Completa.", "No me iré hasta que me ___ la verdad. (decir, tú)", "digas", "Hasta que + futuro → subjuntivo."),
       fb("Completa.", "Esperé hasta que ___ el autobús. (llegar)", "llegó", "Pasado real → indicativo."),
       fb("Completa.", "Tan pronto como ___ las notas, te aviso. (saber, yo)", "sepa", "Futuro → subjuntivo."),
-      fb("Completa.", "Después de que ___ la película, siempre hablamos de ella. (ver, nosotros)", "vemos", "Hábito → indicativo."),
+      fb("Completa.", "Después de que los niños ___ la película, siempre hablamos de ella. (ver)", "ven", "Hábito → indicativo."),
       mt(
         "Relaciona cada principio con su final.",
         [
@@ -603,7 +603,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           fb("Completa.", "Si ___ el despertador, no habría llegado tarde. (oír, yo; pluscuamperfecto de subjuntivo)", "hubiera oído", "Hubiera + participio."),
-          fb("Completa.", "Si hubieras venido, ___ pasado muy bien. (pasarlo, tú; condicional perfecto)", "lo habrías", "Condicional perfecto con el pronombre delante: lo habrías pasado."),
+          fb("Completa.", "Si hubieras venido, ___ muy bien. (pasarlo, tú; condicional perfecto)", "lo habrías pasado", "Condicional perfecto con el pronombre delante: lo habrías pasado."),
         ]
       ),
     ],
@@ -769,7 +769,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Transforma.", "«Te espero aquí.» → Me dijo que me esperaría ___.", "allí", "En estilo indirecto, «aquí» suele pasar a «allí», porque ya no estamos en ese lugar."),
-      fb("Transforma.", "«Este viernes cenamos juntos.» → Dijo que ___ viernes cenaríamos juntos.", "aquel", "En estilo indirecto, «este» suele pasar a «aquel», porque ese viernes ya queda lejos."),
+      fb("Transforma.", "«Este viernes cenamos juntos.» → Dijo que ___ viernes cenaríamos juntos.", "aquel", "En estilo indirecto, «este» pasa a «aquel» o «ese», porque ese viernes ya queda lejos."),
       fb("Transforma.", "«Mañana te devuelvo el libro.» → Me dijo que me devolvería el libro al día ___.", "siguiente", "En estilo indirecto, «mañana» pasa a «al día siguiente»."),
       mc(
         "Mensaje: «No te preocupes, ya he pagado la factura.» → en estilo indirecto:",
@@ -847,10 +847,10 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           mc(
-            "«La sopa ___ riquísima.»",
+            "«Pruébala: hoy la sopa ___ riquísima.»",
             ["está", "es", "hay", "son"],
             0,
-            "Para el sabor de una comida en un momento se usa «estar»: «está riquísima». «Es rica» describiría una característica permanente, y «hay» solo expresa existencia."
+            "Para el sabor de una comida en un momento concreto («hoy») se usa «estar»: «está riquísima». «Es rica» describiría una característica permanente, y «hay» solo expresa existencia."
           ),
         ]
       ),
@@ -1010,7 +1010,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Completa la biografía.", "Al ver al público, la cantante ___ muy nerviosa. (ponerse, pretérito)", "se puso", "Cambio rápido y temporal → ponerse."),
       fb("Completa la biografía.", "Con los años, el empresario ___ cada vez más desconfiado. (volverse, pretérito)", "se volvió", "Cambio de carácter gradual → volverse."),
-      fb("Completa la biografía.", "Estudió muchísimo y ___ abogada. (hacerse, pretérito)", "se hizo", "Profesión por esfuerzo → hacerse."),
+      { ...fb("Completa la biografía.", "Estudió muchísimo y ___ abogada. (hacerse, pretérito)", "se hizo", "Profesión por esfuerzo → hacerse."), altAnswers: ["llegó a ser"] },
       fb("Completa la biografía.", "Aquel pequeño taller ___ en una gran empresa. (convertirse, pretérito)", "se convirtió", "Transformación → convertirse en."),
       mt(
         "Relaciona cada cambio con su verbo.",
@@ -1022,7 +1022,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Cada verbo tiene su tipo de cambio."
       ),
-      toEs("Her dream became reality.", "Su sueño se convirtió en realidad.", "«Convertirse en» + sustantivo expresa una transformación completa.", ["Su sueño se hizo realidad.", "Su sueño se volvió realidad."]),
+      toEs("Her dream became reality.", "Su sueño se hizo realidad.", "«Hacerse realidad» es la expresión fija; «convertirse en realidad» también es correcto.", ["Su sueño se convirtió en realidad.", "Su sueño se cumplió.", "Su sueño se volvió realidad."]),
       wo("Con el tiempo, aquella niña tímida llegó a ser una gran líder.", "Llegar a ser = logro gradual.", "Over time, that shy girl became a great leader."),
     ]
   ),
@@ -1177,7 +1177,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Corrige.", "El vuelo se retrasó debido ___ la niebla. (el alumno escribió: que)", "a", "«Debido a» va con sustantivo: «debido a la niebla»; «debido a que» necesita un verbo."),
       fb("Corrige.", "___ tenía fiebre, fue a trabajar. (el alumno escribió: A pesar de)", "A pesar de que", "Verbo conjugado → a pesar de que."),
-      fb("Corrige.", "No vino; ___, no nos avisó. (además; el alumno escribió: sin embargo)", "además", "Se suma otra queja → adición, no contraste."),
+      { ...fb("Corrige.", "No vino; ___, no nos avisó. (el alumno escribió: sin embargo)", "además", "Se suma otra queja → adición, no contraste."), altAnswers: ["es más", "encima"] },
       ms(
         "¿Qué frases son correctas?",
         ["Ya que estás aquí, ayúdame.", "Aunque llueve, iremos.", "Por lo tanto que no vino, empezamos.", "Gracias a tu ayuda, terminamos a tiempo."],
@@ -1223,7 +1223,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
           ["pero", "no obstante"],
           ["porque", "puesto que"],
           ["así que", "por consiguiente"],
-          ["además", "asimismo"],
+          ["y también", "asimismo"],
         ],
         "Equivalencias de registro."
       ),
@@ -1305,11 +1305,11 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
           ["Compré las entradas ayer.", "Las entradas las compré ayer."],
           ["El batería me impresionó.", "Fue el batería quien me impresionó."],
         ],
-        "Exclamación, inversión, anteposición y frase hendida."
+        "Exclamación, adverbio negativo al principio (sin «no»), anteposición y frase hendida."
       ),
       ms(
         "¿Qué frases son correctas?",
-        ["¡Qué voz tan bonita!", "Lo difícil que es conseguir entradas.", "El concierto lo vi desde la primera fila.", "Lo bonitos que son las canciones."],
+        ["¡Qué voz tan bonita!", "¡Lo difícil que es conseguir entradas!", "El concierto lo vi desde la primera fila.", "Lo bonitos que son las canciones."],
         [0, 1, 2],
         "En «lo + adjetivo + que», el adjetivo concuerda con el sustantivo: «lo bonitas que son las canciones». «Lo bonitos» es incorrecta porque «canciones» es femenino."
       ),
@@ -1344,7 +1344,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Hazlo enfático (tema antepuesto).", "Compré el pan esta mañana. → El pan ___ compré esta mañana.", "lo", "El complemento directo antepuesto se retoma con pronombre: «el pan» → «lo»."),
-      fb("Hazlo enfático (contraste).", "Llamé a tu madre, no a tu padre. → Fue a tu madre a ___ llamé.", "quien", "Frase hendida con preposición: a quien."),
+      { ...fb("Hazlo enfático (contraste).", "Llamé a tu madre, no a tu padre. → Fue a tu madre a ___ llamé.", "quien", "Frase hendida con preposición: a quien."), altAnswers: ["la que"] },
       fb("Hazlo enfático (grado).", "Hemos subido montañas enormes. → ¡No sabes lo ___ que son las montañas! (alto)", "altas", "Lo + adjetivo concordado + que."),
       mt(
         "Relaciona cada versión con su función.",
@@ -1436,7 +1436,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Corrige.", "El señor ___ hijas viven en Canadá es mi tío. (el alumno escribió: cuyo)", "cuyas", "«Cuyo» concuerda con lo poseído («hijas»), no con «el señor»: «cuyas»."),
-      fb("Corrige.", "Perdí el tren, ___ significa que llegaré tarde. (el alumno escribió: el cual)", "lo cual", "Para referirse a toda la idea anterior se usa el neutro «lo cual», no «el cual»."),
+      { ...fb("Corrige.", "Perdí el tren, ___ significa que llegaré tarde. (el alumno escribió: el cual)", "lo cual", "Para referirse a toda la idea anterior se usa el neutro «lo cual», no «el cual»."), altAnswers: ["lo que"] },
       fb("Corrige.", "Es el puente debajo ___ dormían los mendigos. (el alumno escribió: que)", "del cual", "«Debajo» necesita «de» + artículo: «debajo del cual» (o «debajo del que»); «debajo que» es incorrecto."),
       ms(
         "¿Qué frases son correctas?",
@@ -1474,8 +1474,8 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Completa la nota de prensa.", "La exposición se prorrogará hasta junio, ___ permitirá recibir a más visitantes.", "lo cual", "Para referirse a toda la idea anterior (la prórroga) se usa el neutro «lo cual»."),
-      fb("Completa la nota de prensa.", "Los cuadros, algunos de ___ nunca se habían expuesto, llegarán de Madrid.", "los cuales", "Tras cuantificadores como «algunos de» se usa «los cuales», concordando con «cuadros»."),
+      { ...fb("Completa la nota de prensa.", "La exposición se prorrogará hasta junio, ___ permitirá recibir a más visitantes.", "lo cual", "Para referirse a toda la idea anterior (la prórroga) se usa el neutro «lo cual»."), altAnswers: ["lo que"] },
+      { ...fb("Completa la nota de prensa.", "Los cuadros, algunos de ___ nunca se habían expuesto, llegarán de Madrid.", "los cuales", "Tras cuantificadores como «algunos de» se usa «los cuales», concordando con «cuadros»."), altAnswers: ["los que"] },
       fb("Completa la nota de prensa.", "La directora, ___ gestión ha sido muy elogiada, se jubila este año.", "cuya", "«Cuyo» concuerda con lo poseído: «gestión» es femenino singular."),
       mt(
         "Relaciona cada relativo con su uso.",
@@ -1526,7 +1526,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Completa.", "No hay nadie que ___ tanto como tú. (saber)", "sepa", "Antecedente inexistente."),
       fb("Completa.", "Te lo explico para que no ___ el mismo error. (cometer, tú)", "cometas", "Para que + subjuntivo."),
-      fb("Completa.", "Me pidió que no le ___ a nadie. (decir, yo)", "dijera", "Pasado → imperfecto de subjuntivo."),
+      fb("Completa.", "Me pidió que no se lo ___ a nadie. (decir, yo)", "dijera", "Pasado → imperfecto de subjuntivo."),
       fb("Completa.", "Si ___ más dinero, me compraría un piso. (ganar, yo)", "ganara", "Tipo 2."),
       mc(
         "«I wish I had listened to you.»",
@@ -1908,7 +1908,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "Solo las formas en -ra de querer, deber y poder se usan como condicional cortés: Quisiera un café (= querría). Debieras descansar (= deberías).",
         [
           ["Quisiera hacer una reserva.", "I'd like to make a reservation."],
-          ["Pudiera ser que tengas razón.", "It could be that you're right. (literario)"],
+          ["Pudiera ser que tuvieras razón.", "It could be that you're right. (literario)"],
         ],
         [
           mc(
@@ -1921,7 +1921,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Da la forma en -se.", "pudiéramos → ___", "pudiésemos", "Tilde en la sílaba anterior: pudiésemos."),
+      fb("Da la forma en -se.", "pudiéramos → ___", "pudiésemos", "Como «pudiéramos», la forma en -se es esdrújula y lleva tilde en la «e» de «-ié-»: pudiésemos."),
       fb("Da la forma en -ra.", "hiciese → ___", "hiciera", "Las formas en «-se» y «-ra» son equivalentes: «hiciese» = «hiciera»."),
       fb("Da la forma en -ra.", "dijesen → ___", "dijeran", "Las formas en «-se» y «-ra» son equivalentes: «dijesen» = «dijeran»."),
       mt(
@@ -2005,7 +2005,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Completa.", "Si los animales ___ hablar, ¿qué nos dirían? (saber)", "supieran", "Saber → supieran."),
+      { ...fb("Completa.", "Si los animales ___ hablar, ¿qué nos dirían? (saber)", "supieran", "Saber → supieran; «pudieran» también vale."), altAnswers: ["pudieran"] },
       fb("Completa.", "Si no hubiera coches, las ciudades ___ más silenciosas. (ser)", "serían", "Condicional."),
       fb("Completa.", "¿Qué harías si ___ invisible un día? (ser, tú)", "fueras", "Ser → fueras."),
       mt(
@@ -2632,7 +2632,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Completa la carta.", "Si bien es cierto que ___ problemas, la solución no es prohibir. (haber, presente)", "hay", "Si bien es cierto que + indicativo."),
       fb("Completa la carta.", "___ definitiva, la propuesta perjudica a los vecinos.", "En", "«En definitiva» introduce una conclusión o un resumen final."),
-      fb("Completa la carta.", "Lo que más me indigna es que nadie nos ___ consultado. (haber)", "haya", "Lo que + indignar que + perfecto de subjuntivo."),
+      fb("Completa la carta.", "Lo que más me indigna es que nadie nos ___ consultado. (haber)", "haya", "Lo que más me indigna es que + perfecto de subjuntivo."),
       mt(
         "Relaciona cada conector con su función en la carta.",
         [
@@ -2718,7 +2718,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Añade un conector.", "Es caro. Vale la pena. → Es caro; ___, vale la pena.", "no obstante", "«No obstante» marca contraste en registro formal, igual que «sin embargo»."),
+      { ...fb("Añade un conector.", "Es caro. Vale la pena. → Es caro; ___, vale la pena.", "no obstante", "«No obstante» marca contraste en registro formal, igual que «sin embargo»."), altAnswers: ["sin embargo", "aun así"] },
       fb("Añade énfasis.", "Me sorprendió su éxito. → ___ que me sorprendió fue su éxito.", "Lo", "Para destacar algo se usa «lo que» + verbo + «ser»: «Lo que me sorprendió fue…»."),
       fb("Antepón el complemento.", "Presentaron el proyecto en marzo. → El proyecto ___ presentaron en marzo.", "lo", "El complemento directo antepuesto se retoma con pronombre: «el proyecto» → «lo»."),
       fb("Añade un conector de consecuencia.", "Nadie se opuso; ___, se aprobó por unanimidad.", "por consiguiente", "Consecuencia formal (también: por lo tanto)."),
@@ -3111,7 +3111,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 3],
         "«No estoy de acuerdo», «Eso no es del todo cierto» y «Discrepo» sirven para rebatir. «Tienes toda la razón» expresa acuerdo."
       ),
-      toEs("Although you (tú) may be right, I don't agree.", "Aunque puede que tengas razón, no estoy de acuerdo.", "Puede que + subjuntivo; aunque + indicativo.", ["Aunque tengas razón, no estoy de acuerdo.", "Puede que tengas razón, pero no estoy de acuerdo."]),
+      toEs("Although you (tú) may be right, I don't agree.", "Aunque puede que tengas razón, no estoy de acuerdo.", "«Puede que» va con subjuntivo; aquí «aunque» lleva indicativo (puede). «Aunque tengas razón» (aunque + subjuntivo) también es correcta.", ["Aunque tengas razón, no estoy de acuerdo.", "Puede que tengas razón, pero no estoy de acuerdo."]),
       wo("Lo que no se puede negar es que el problema existe.", "Lo que + se impersonal + negar.", "What can't be denied is that the problem exists."),
     ]
   ),
@@ -3226,7 +3226,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "Verbos de cambio y pasados.",
         [
           ["—¡Cuánto has cambiado! Te has vuelto mucho más tranquilo.", "You've changed so much! You've become much calmer."],
-          ["—Es que desde que me hice padre, veo las cosas de otra manera.", "Since I became a father, I see things differently."],
+          ["—Es que desde que me convertí en padre, veo las cosas de otra manera.", "Since I became a father, I see things differently."],
         ],
         [
           fb("Completa.", "Y tú ___ en toda una experta en arte. (convertirse, perfecto)", "te has convertido", "Convertirse en."),
@@ -4059,7 +4059,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           fb("Completa.", "Me miran como si no ___ de aquí. (ser, yo)", "fuera", "Como si + imperfecto de subjuntivo."),
-          fb("Completa.", "Con los años, ___ más consciente de mis raíces. (hacerse, perfecto)", "me he hecho", "Hacerse + adjetivo (proceso)."),
+          { ...fb("Completa.", "Con los años, ___ más consciente de mis raíces. (volverse, perfecto)", "me he vuelto", "Volverse + adjetivo: cambio gradual de carácter o actitud («hacerse» también es posible)."), altAnswers: ["me he hecho"] },
         ]
       ),
     ],
@@ -4119,9 +4119,9 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       ms(
         "¿Qué frases son correctas?",
-        ["Fue en el desván donde encontramos los cuadros.", "Nos pidió que no se lo dijéramos a nadie.", "Ojalá la hubiéramos conocido de joven.", "Los cuadros eran pintados por ella."],
+        ["Fue en el desván donde encontramos los cuadros.", "Nos pidió que no se lo dijéramos a nadie.", "Ojalá la hubiéramos conocido de joven.", "Los cuadros estuvieron pintados por ella."],
         [0, 1, 2],
-        "La pasiva de una acción pasada concreta se forma con «ser» en indefinido: «fueron pintados por ella». «Eran pintados» suena a acción habitual y es incorrecta aquí."
+        "La pasiva con agente («por ella») se forma con «ser»: «fueron pintados por ella». «Estar» + participio expresa un estado resultante y no admite así el agente."
       ),
       toEs("She had given up her dream so that her children could study.", "Había renunciado a su sueño para que sus hijos pudieran estudiar.", "Pluscuamperfecto + para que + imperfecto de subjuntivo.", ["Había renunciado a su sueño para que sus hijos pudiesen estudiar."]),
       wo("Nunca imaginamos que detrás de aquella mujer tranquila hubiera una artista.", "Imaginar (negado) + subjuntivo.", "We never imagined there was an artist behind that quiet woman."),
@@ -4211,7 +4211,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "En una negociación formal se usan el condicional de cortesía y condiciones («siempre que haya…»). «¡Eso es una tontería!» es demasiado directa y descortés."
       ),
       toEs("Both governments stated that they would continue talking.", "Ambos gobiernos afirmaron que seguirían dialogando.", "En estilo indirecto con «afirmaron», el futuro pasa a condicional: «seguirían».", ["Los dos gobiernos afirmaron que seguirían dialogando.", "Ambos gobiernos declararon que seguirían dialogando."]),
-      wo("Fue gracias a la mediación de un tercer país como se llegó a un acuerdo.", "Frase hendida de modo con como.", "It was thanks to a third country's mediation that an agreement was reached."),
+      wo("Fue gracias a la mediación de un tercer país como se llegó a un acuerdo.", "Para destacar la causa («gracias a…») con ser, la norma prefiere «como» o «por lo que» al «que»: «Fue gracias a… como se llegó a un acuerdo».", "It was thanks to a third country's mediation that an agreement was reached."),
     ]
   ),
   L(
@@ -4333,8 +4333,8 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "Vocabulario musical."
       ),
       mc(
-        "«It's not that I'm against change; it's that I'm afraid of losing it.»",
-        ["No es que esté en contra del cambio; es que tengo miedo de perderla.", "No es que estoy en contra del cambio; es que tenga miedo de perderla.", "No es que estuviera en contra; es que tendría miedo ayer.", "No es estar en contra, que tengo miedo perderla."],
+        "«It's not that I'm against change; it's that I'm afraid of losing the tradition.»",
+        ["No es que esté en contra del cambio; es que tengo miedo de perder la tradición.", "No es que estoy en contra del cambio; es que tenga miedo de perder la tradición.", "No es que estuviera en contra; es que tendría miedo ayer.", "No es estar en contra, que tengo miedo perder la tradición."],
         0,
         "«No es que» + subjuntivo niega una causa y «es que» + indicativo da la real: «no esté… tengo». En «estoy… tenga» los modos están al revés."
       ),
@@ -4401,7 +4401,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
           ["Lo pinto para que la gente recuerde lo que fue esta fábrica.", "I'm painting it so people remember what this factory was."],
         ],
         [
-          fb("Completa.", "Quiero pintar algo que ___ a los trabajadores. (homenajear)", "homenajee", "Relativa con finalidad/deseo → subjuntivo."),
+          { ...fb("Completa.", "Quiero pintar algo que ___ a los trabajadores. (homenajear)", "homenajee", "Relativa con finalidad/deseo → subjuntivo."), altAnswers: ["rinda homenaje"] },
           fb("Completa.", "Aunque el mural ___ pronto, habrá valido la pena. (desaparecer)", "desaparezca", "Aunque + subjuntivo (futuro)."),
         ]
       ),
@@ -4541,7 +4541,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Completa.", "Si no hubiera insistido, su padre no la ___ llevado. (haber)", "habría", "Tipo 3."),
       fb("Completa.", "Es la última generación que ___ este oficio. (conocer)", "conoce", "Antecedente conocido → indicativo."),
-      fb("Completa.", "Por muchos kilómetros que ___, no se quejaba. (caminar, ella)", "caminara", "Por mucho que + imperfecto de subjuntivo (pasado)."),
+      { ...fb("Completa.", "Por muchos kilómetros que ___, no se quejaba. (caminar, ella)", "caminara", "Por mucho que + imperfecto de subjuntivo (pasado)."), altAnswers: ["caminaba", "caminase"] },
       mt(
         "Relaciona cada palabra con su significado.",
         [
@@ -4584,7 +4584,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Completa.", "Si no la restauran, la fachada se ___. (derrumbar, futuro)", "derrumbará", "Tipo 1."),
-      fb("Completa.", "Busca a un aprendiz que ___ paciencia. (tener)", "tenga", "Antecedente desconocido."),
+      fb("Completa.", "Busca un aprendiz que ___ paciencia. (tener)", "tenga", "Antecedente desconocido."),
       fb("Completa.", "Trabajaba con tanto cuidado como si la casa ___ suya. (ser)", "fuera", "Como si + imperfecto."),
       mt(
         "Relaciona cada palabra con su significado.",
@@ -4718,12 +4718,12 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Completa.", "No aceptaremos ningún proyecto que ___ el molino. (destruir)", "destruya", "Antecedente indeterminado."),
       fb("Completa.", "Si el molino desapareciera, el pueblo ___ su símbolo. (perder)", "perdería", "Tipo 2."),
       mt(
-        "Relaciona cada argumento con su bando.",
+        "Relaciona cada argumento con la idea que defiende.",
         [
-          ["Traerá empleo y turismo.", "a favor del complejo"],
-          ["Destruirá el paisaje y la memoria.", "a favor del molino"],
-          ["Los jóvenes podrán quedarse en el pueblo.", "argumento económico"],
-          ["El molino es patrimonio de todos.", "argumento cultural"],
+          ["Traerá empleo y turismo.", "beneficio económico"],
+          ["Destruirá el paisaje y la memoria.", "daño irreparable"],
+          ["Los jóvenes podrán quedarse en el pueblo.", "freno a la despoblación"],
+          ["El molino es patrimonio de todos.", "valor cultural compartido"],
         ],
         "Argumentos del debate."
       ),
@@ -4862,7 +4862,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "Tras una negación, para corregir se usa «sino», no «pero»: «no era oír su voz, sino despedirse». Para destacar una idea se usa «lo que», no «el que»."
       ),
       toEs("It's normal that you (tú) want to hold on to his memory.", "Es normal que quieras aferrarte a su recuerdo.", "Las valoraciones como «es normal que» exigen subjuntivo: «quieras».", ["Es normal que quieras agarrarte a su recuerdo.", "Es normal que te quieras aferrar a su recuerdo."]),
-      wo("Por mucho que la tecnología avance, no puede devolvernos a quien perdimos.", "Por mucho que + subjuntivo.", "However much technology advances, it can't bring back those we've lost."),
+      wo("Por mucho que la tecnología avance, no puede devolvernos a quienes hemos perdido.", "Por mucho que + subjuntivo.", "However much technology advances, it can't bring back those we've lost."),
     ]
   ),
   L(
@@ -4905,7 +4905,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 2],
         "Tras «si» condicional nunca va «habría»: lo correcto es «Si hubiera sabido, no lo habría hecho». Las otras tres frases son correctas."
       ),
-      toEs("Technology is not good or bad; it depends on who uses it.", "La tecnología no es buena ni mala; depende de quién la use.", "«Depender de quién» va con subjuntivo porque la persona no está determinada: «la use».", ["La tecnología no es buena ni mala: depende de quién la use.", "La tecnología no es ni buena ni mala; depende de quién la utilice."]),
+      toEs("Technology is not good or bad; it depends on who uses it.", "La tecnología no es buena ni mala; depende de quién la use.", "Tras «depender de quién» lo más habitual es el subjuntivo, porque la persona no está determinada: «la use»; el indicativo («la usa») también es correcto.", ["La tecnología no es buena ni mala; depende de quién la usa.", "La tecnología no es buena ni mala: depende de quién la use.", "La tecnología no es ni buena ni mala; depende de quién la utilice."]),
       wo("Fue en ese momento cuando decidió hacerlo público.", "Frase hendida temporal.", "It was at that moment that he decided to make it public."),
     ]
   ),

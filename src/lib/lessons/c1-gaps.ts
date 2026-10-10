@@ -204,7 +204,7 @@ export const C1_GAPS: AnchoredLesson[] = [
         [
           ["Lo di un regalo a Pablo. (loísmo)", "I gave Pablo a present."],
           ["Le di un regalo a Pablo. (norma)", "I gave Pablo a present."],
-          ["¿Los resultados? Ya se los dije. (correcto: los = los resultados)", "The results? I already told them."],
+          ["¿Los resultados? Ya se los dije. (correcto: los = los resultados)", "The results? I already told him what they were."],
           ["Ya se los dije, chicos. (coloquial en América: se lo dije a ustedes)", "I already told you, guys."],
         ],
         [

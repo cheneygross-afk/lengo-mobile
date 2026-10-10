@@ -183,7 +183,7 @@ export const LEVEL_TEST_C1: LevelTest = {
           "Por lo que respecta",
           "[As far as] the budget [is concerned], there are no changes.",
           "Locución formal: por lo que respecta a (o en lo que respecta a, con respecto a).",
-          ["En lo que respecta", "En lo que se refiere", "Con respecto", "Respecto"]
+          ["En cuanto", "En lo que respecta", "En lo que se refiere", "Por lo que se refiere", "Con respecto", "Respecto"]
         ),
         fe("Estoy convencido ___ tiene razón.", "de que", "I'm convinced [that] he's right.", "Se está convencido de algo: de que. Omitir el de sería queísmo."),
         fe("Pienso ___ deberíamos esperar.", "que", "I think [that] we should wait.", "Se piensa algo: pienso que. «Pienso de que» es dequeísmo."),

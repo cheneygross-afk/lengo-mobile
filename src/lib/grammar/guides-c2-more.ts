@@ -14,7 +14,7 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
     level: "C2",
     readingLevelPath: "c1c2",
     intro: [
-      "By de nivel Maestría you know the triggers: querer que, es posible que, para que. At the Professional & Academic level the interesting cases are the ones where both moods are grammatical and the choice changes what you mean, or how committed you are to it.",
+      "By the Mastery level you know the triggers: querer que, es posible que, para que. At the Professional & Academic level the interesting cases are the ones where both moods are grammatical and the choice changes what you mean, or how committed you are to it.",
       "The underlying idea is simple: the indicative asserts information as new or true; the subjunctive presents it as not asserted, because it's a wish, a hypothesis, already known, or under discussion.",
     ],
     sections: [

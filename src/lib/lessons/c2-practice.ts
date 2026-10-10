@@ -16,7 +16,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Un contrato es un documento ___ para ambas partes.", "vinculante", "A contract is a [binding] document for both parties.", "«Vinculante»: genera obligaciones legales exigibles.", ["obligatorio"]),
   ],
   "legal-administrative-spanish-part-1-2": [
-    fe("El notario ___ de que las firmas son auténticas.", "da fe", "The notary [certifies] that the signatures are genuine.", "«Dar fe de algo»: certificar oficialmente que es cierto.", ["certifica"]),
+    fe("El notario ___ de que las firmas son auténticas.", "da fe", "The notary [certifies] that the signatures are genuine.", "«Dar fe de algo»: certificar oficialmente que es cierto."),
     fe("El ___ concedió un poder a su sobrino para vender la casa.", "otorgante", "The [grantor] gave his nephew a power of attorney to sell the house.", "«El otorgante» concede algo mediante un documento, como un poder."),
     fe("La compraventa es un ___ jurídico con efectos legales.", "negocio", "A sale is a legal [transaction] with legal effects.", "«Un negocio jurídico»: acuerdo entre partes que produce efectos legales."),
   ],
@@ -25,7 +25,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   ],
   "legal-administrative-spanish-part-1-3": [
     fe("El ___ reclama una indemnización a la empresa.", "demandante", "The [plaintiff] is claiming compensation from the company.", "«El demandante» inicia la acción legal; «el demandado» la recibe.", ["actor"]),
-    fe("El tribunal dictó ___ a favor del demandado.", "sentencia", "The court [ruled] in favor of the defendant.", "«Dictar sentencia»: emitir la resolución que pone fin al litigio.", ["un fallo", "una sentencia"]),
+    fe("El tribunal dictó ___ a favor del demandado.", "sentencia", "The court handed down a [judgment] in favor of the defendant.", "«Dictar sentencia»: emitir la resolución que pone fin al litigio.", ["un fallo", "una sentencia"]),
     fe("Dispone de un plazo ___ de diez días para recurrir.", "perentorio", "You have a [strict] ten-day deadline to appeal.", "«Un plazo perentorio»: su vencimiento extingue el derecho a actuar.", ["improrrogable"]),
   ],
   "legal-administrative-spanish-part-1-mastery-check": [
@@ -53,7 +53,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   ],
   "legal-administrative-spanish-part-2-4": [
     fe("Solicitó una ___ de plazo para presentar los documentos.", "prórroga", "She requested an [extension] of the deadline to submit the documents.", "«La prórroga de plazo»: ampliación de un límite temporal ya fijado.", ["ampliación"]),
-    fe("Para completar el trámite hace falta pagar el ___ fiscal.", "timbre", "To complete the procedure you need to pay the [stamp duty].", "«El timbre fiscal»: comprobante de pago exigido para ciertos trámites.", ["impuesto"]),
+    fe("Para completar el trámite hace falta pagar el ___ fiscal.", "timbre", "To complete the procedure you need to pay the [stamp duty].", "«El timbre fiscal»: comprobante de pago exigido para ciertos trámites."),
   ],
   "c2r-story-detective-notification": [
     fe("Dispone de un plazo de diez días ___ para subsanar los defectos.", "hábiles", "You have ten [working] days to correct the errors.", "«Días hábiles» excluye sábados, domingos y festivos.", ["laborables"]),
@@ -156,7 +156,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Su humor tiene una ___ que no perdona a nadie.", "mordacidad", "His humor has a [biting sharpness] that spares no one.", "«Mordacidad»: crítica ingeniosa y sin piedad."),
   ],
   "humor-wordplay-3": [
-    fe("El ___ del chiste llegó tarde y nadie se rió.", "remate", "The [punchline] of the joke came too late and nobody laughed.", "«Remate»: frase final que provoca el efecto cómico."),
+    fe("El ___ del chiste llegó tarde y nadie se rio.", "remate", "The [punchline] of the joke came too late and nobody laughed.", "«Remate»: frase final que provoca el efecto cómico."),
     fe("Esconderle las llaves fue una ___ que no le hizo ninguna gracia.", "broma pesada", "Hiding his keys was a [practical joke gone too far] that he didn't find funny at all.", "«Broma pesada»: burla que se pasa de la medida."),
     fe("Al oír la ocurrencia, soltó una ___.", "carcajada", "When he heard the witty remark, he let out a [loud laugh].", "«Soltar una carcajada»: reír fuerte de repente.", ["risotada"]),
   ],
@@ -166,22 +166,22 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   ],
   "figurative-language-1": [
     fe("Decir que «el tiempo es oro» es usar una ___.", "metáfora", "Saying that «time is gold» is using a [metaphor].", "La metáfora identifica dos realidades sin partícula comparativa."),
-    fe("«Duerme como un tronco» es un ___, porque usa «como».", "símil", "«He sleeps like a log» is a [simile], because it uses «como».", "El símil compara con un nexo explícito («como», «cual»).", ["simil", "comparación"]),
+    fe("«Duerme como un tronco» es un ___, porque usa «como».", "símil", "«He sleeps like a log» is a [simile], because it uses «como».", "El símil compara con un nexo explícito («como», «cual»).", ["comparación"]),
   ],
   "c2r-figurative-metaphor-simile": [
     fe("Sus palabras fueron ___ para todos.", "un jarro de agua fría", "His words were [a bucket of cold water] for everyone.", "Metáfora lexicalizada: «un jarro de agua fría» es una decepción repentina.", ["una ducha de agua fría"]),
   ],
   "figurative-language-2": [
-    fe("Te lo he dicho ___ veces.", "un millón de", "I've told you [a million] times.", "Hipérbole: exageración deliberada para dar énfasis.", ["mil", "cien mil", "un millón"]),
-    fe("Aquí tienes ___: nos faltan manos para terminar.", "trabajo de sobra", "Here you've got [more than enough work]: we're short of hands to finish.", "«Faltan manos» es una sinécdoque: la parte (las manos) por el todo (los trabajadores).", ["trabajo de sobras", "mucho trabajo"]),
+    fe("Te lo he dicho ___ veces.", "un millón de", "I've told you [a million] times.", "Hipérbole: exageración deliberada para dar énfasis.", ["mil", "cien mil"]),
+    fe("Aquí tienes trabajo de sobra: nos faltan ___ para terminar.", "manos", "Here you've got more than enough work: we're short of [hands] to finish.", "«Faltan manos» es una sinécdoque: la parte (las manos) por el todo (los trabajadores).", ["brazos"]),
   ],
   "c2r-figurative-metonymy-synecdoche": [
     fe("Esta noche vamos a escuchar ___.", "a Mozart", "Tonight we're going to listen to [Mozart].", "Metonimia autor por obra; delante de persona va la «a» personal.", ["Mozart"]),
   ],
   "figurative-language-3": [
-    fe("La ciudad ___ bajo la lluvia.", "dormía", "The city [was sleeping] in the rain.", "Personificación: atribuye una acción humana a algo inanimado.", ["duerme", "dormía tranquila"]),
+    fe("La ciudad ___ bajo la lluvia.", "dormía", "The city [was sleeping] in the rain.", "Personificación: atribuye una acción humana a algo inanimado.", ["estaba durmiendo"]),
     fe("Este libro es ___ para el alma.", "un bálsamo", "This book is [a balm] for the soul.", "Metáfora: el libro se identifica con algo que alivia.", ["bálsamo", "una medicina"]),
-    fe("Su voz era ___ en medio del ruido.", "como un susurro", "Her voice was [like a whisper] amid the noise.", "Símil con «como»: compara de forma explícita.", ["un susurro"]),
+    fe("Su voz era ___ en medio del ruido.", "como un susurro", "Her voice was [like a whisper] amid the noise.", "Símil con «como»: compara de forma explícita."),
   ],
   "euphemisms-indirect-1": [
     fe("Su abuelo ___ el invierno pasado.", "pasó a mejor vida", "His grandfather [passed away] last winter.", "Eufemismo para «murió»; también «falleció», «nos dejó».", ["falleció", "nos dejó", "murió"]),
@@ -239,7 +239,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Antes de negociar, conviene ___ sobre la mesa.", "poner las cartas", "Before negotiating, it's best to [lay your cards] on the table.", "«Poner las cartas sobre la mesa»: mostrar las intenciones con claridad.", ["poner todas las cartas"]),
   ],
   "business-idioms-2": [
-    fe("Para este lanzamiento vamos a ___.", "tirar la casa por la ventana", "For this launch we're going to [spare no expense].", "«Tirar la casa por la ventana»: gastar sin escatimar.", ["echar la casa por la ventana"]),
+    fe("Para este lanzamiento vamos a ___.", "tirar la casa por la ventana", "For this launch we're going to [spare no expense].", "«Tirar (o echar) la casa por la ventana» (modismo nuevo): gastar sin reparar en gastos, típico de celebraciones o lanzamientos.", ["echar la casa por la ventana"]),
     fe("Tras la crisis, la empresa ___ en su estrategia.", "dio un giro de ciento ochenta grados", "After the crisis, the company [made a complete U-turn] in its strategy.", "«Dar un giro de 180 grados»: cambiar radicalmente.", ["dio un giro de 180 grados", "dio un giro radical"]),
   ],
   "c2r-business-idioms-crisis-rewrite": [
@@ -286,7 +286,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Para entender a hablantes de otros países, conviene escuchar ___ variedades.", "distintas", "To understand speakers from other countries, it's good to listen to [different] varieties.", "«Variedades» del español: andaluza, rioplatense, caribeña…", ["diferentes", "diversas", "varias"]),
   ],
   "c2r-strategy-radio-interview": [
-    fe("Yo no ___ de alarma, sino de cambio.", "hablaría", "I [wouldn't speak] of alarm, but of change.", "El condicional atenúa la discrepancia.", ["diría"]),
+    fe("Yo no ___ de alarma, sino de cambio.", "hablaría", "I [wouldn't speak] of alarm, but of change.", "El condicional atenúa la discrepancia."),
   ],
   "listening-reading-strategies-6": [
     fe("Escuchar pódcast de distintos países ayuda a ___ el oído.", "entrenar", "Listening to podcasts from different countries helps [train] your ear.", "«Entrenar» o «educar el oído».", ["educar", "acostumbrar"]),
@@ -362,7 +362,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Eso no es un argumento, es un ___.", "sofisma", "That's not an argument, it's a [sophism].", "«Sofisma»: argumento engañoso con apariencia de válido.", ["falacia"]),
   ],
   "debate-persuasion-9": [
-    fe("Tras un largo debate, llegaron a una ___.", "avenencia", "After a long debate, they reached an [agreement].", "«Avenencia»: acuerdo alcanzado tras discrepar.", ["acuerdo", "conciliación"]),
+    fe("Tras un largo debate, llegaron a una ___.", "avenencia", "After a long debate, they reached a [settlement].", "«Avenencia»: acuerdo alcanzado tras discrepar.", ["conciliación", "concordia"]),
     fe("Su ___ impidió cualquier acuerdo.", "intransigencia", "His [intransigence] prevented any agreement.", "«Intransigencia»: negativa a ceder."),
   ],
   "c2r-present-openings": [
@@ -371,7 +371,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "presentations-negotiation-2": [
     fe("Para ___, les dejo con una pregunta.", "terminar", "To [finish], I'll leave you with a question.", "Fórmulas de cierre: «para terminar», «para concluir», «en definitiva».", ["concluir", "cerrar", "acabar", "finalizar"]),
     fe("Muchas gracias por su ___. ¿Alguna pregunta?", "atención", "Thank you very much for your [attention]. Any questions?", "Fórmula de cortesía al cerrar una presentación."),
-    fe("En el ___, la ponente situó el tema y captó la atención del auditorio.", "preámbulo", "In the [introduction], the speaker set out the topic and caught the audience's attention.", "«Preámbulo»: introducción de una exposición.", ["introducción", "inicio"]),
+    fe("En el ___, la ponente situó el tema y captó la atención del auditorio.", "preámbulo", "In the [opening], the speaker set out the topic and caught the audience's attention.", "«Preámbulo»: introducción de una exposición.", ["inicio"]),
   ],
   "presentations-negotiation-3": [
     fe("Nos han hecho una ___ con un precio un 10 % más bajo.", "contraoferta", "They've made us a [counteroffer] with a price 10% lower.", "«Contraoferta»: respuesta a una oferta con condiciones distintas."),
@@ -452,7 +452,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("El comité recomendó que se ___ el experimento.", "repitiera", "The committee recommended that the experiment [be repeated].", "Verbo de influencia en pasado + imperfecto de subjuntivo.", ["repitiese"]),
   ],
   "c2r-vocab-gender-meaning": [
-    fe("La empresa necesita más ___ para crecer.", "capital", "The company needs more [capital] to grow.", "«El capital» (dinero) frente a «la capital» (ciudad).", ["el capital", "dinero"]),
+    fe("La empresa necesita más ___ para crecer.", "capital", "The company needs more [capital] to grow.", "«El capital» (dinero) frente a «la capital» (ciudad).", ["dinero"]),
     fe("El general dio ___ de retirada.", "la orden", "The general gave [the order] to retreat.", "«La orden» (mandato) frente a «el orden» (disposición).", ["orden"]),
   ],
   "rhetorical-questions-1": [
@@ -502,7 +502,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Queremos pan. ___ trabajo. Queremos dignidad.", "Queremos", "We want bread. [We want] work. We want dignity.", "Anáfora: repetición al inicio de frases sucesivas."),
   ],
   "job-interview-spanish-1": [
-    fe("Una de mis ___ es la capacidad de organización.", "fortalezas", "One of my [strengths] is my ability to organize.", "«Fortalezas» frente a «puntos de mejora».", ["virtudes", "puntos fuertes"]),
+    fe("Una de mis ___ es la capacidad de organización.", "fortalezas", "One of my [strengths] is my ability to organize.", "«Fortalezas» frente a «puntos de mejora».", ["virtudes"]),
     fe("En mi último puesto ___ un equipo de ocho personas.", "dirigí", "In my last position [I managed] a team of eight people.", "Pretérito indefinido para logros concretos.", ["coordiné", "lideré", "gestioné"]),
     fe("Me gustaría ___ mi experiencia al puesto que ofrecen.", "aportar", "I'd like to [bring] my experience to the position you're offering.", "«Aportar»: contribuir con algo valioso.", ["adaptar", "aplicar"]),
   ],
@@ -555,7 +555,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "conflict-resolution-3": [
     fe("Busquemos un término ___.", "medio", "Let's look for a [middle ground].", "«Término medio»: solución intermedia."),
     fe("Al final llegaron a un ___ mutuo.", "acuerdo", "In the end they reached a mutual [agreement].", "«Acuerdo mutuo»: aceptado por ambas partes.", ["entendimiento"]),
-    fe("Siento ___ hecho daño.", "haberte", "I'm sorry [I hurt you].", "Disculpa sincera: «siento + infinitivo compuesto».", ["haberle"]),
+    fe("Siento ___ hecho daño.", "haberte", "I'm sorry [to have] hurt you.", "Disculpa sincera: «siento + infinitivo compuesto».", ["haberle"]),
     fe("Los dos tendréis que ___ un poco.", "ceder", "You'll both have to [give a little].", "«Ceder»: renunciar a parte de lo que se pide.", ["transigir"]),
   ],
   "conflict-resolution-4": [
@@ -618,7 +618,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Reducir las ___ de gases es urgente.", "emisiones", "Reducing gas [emissions] is urgent.", "«Emisiones de gases de efecto invernadero»."),
   ],
   "c2r-climate-vocab-web": [
-    fe("Plantar árboles en la ciudad es una medida de ___.", "adaptación", "Planting trees in the city is an [adaptation] measure.", "Adaptación: prepararse para los efectos del cambio climático."),
+    fe("Plantar cultivos resistentes a la sequía es una medida de ___.", "adaptación", "Planting drought-resistant crops is an [adaptation] measure.", "Adaptación: prepararse para los efectos del cambio climático."),
   ],
   "environment-politics-spanish-2": [
     fe("La ___ política dificulta cualquier acuerdo.", "polarización", "Political [polarization] makes any agreement difficult.", "Polarización: división en bandos enfrentados."),
@@ -662,11 +662,11 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "psychology-emotions-3": [
     fe("Mostrar ___ puede fortalecer los vínculos.", "vulnerabilidad", "Showing [vulnerability] can strengthen bonds.", "La vulnerabilidad posibilita la intimidad emocional."),
     fe("Le invade una ___ difusa que no sabe explicar.", "melancolía", "He's overcome by a vague [melancholy] he can't explain.", "Melancolía: tristeza difusa sin causa concreta.", ["tristeza"]),
-    fe("Tras la ruptura, adoptó una actitud de ___.", "desapego", "After the breakup, he adopted an attitude of [detachment].", "Desapego: distancia emocional.", ["indiferencia", "distanciamiento"]),
+    fe("Tras la ruptura, adoptó una actitud de ___.", "desapego", "After the breakup, he adopted an attitude of [detachment].", "Desapego: distancia emocional sana, que no equivale a la indiferencia.", ["distanciamiento"]),
   ],
   "art-film-literature-criticism-1": [
     fe("La trama carece de ___: los personajes actúan sin lógica.", "verosimilitud", "The plot lacks [plausibility]: the characters act without logic.", "Verosimilitud: coherencia con las reglas del propio mundo narrativo.", ["coherencia", "credibilidad"]),
-    fe("La ___ en escena de la película es impecable.", "puesta", "The film's [mise-en-scène] is impeccable.", "«Puesta en escena»: todo lo que el director dispone ante la cámara."),
+    fe("La novela está llena de ___: alude constantemente a los clásicos.", "intertextualidad", "The novel is full of [intertextuality]: it constantly alludes to the classics.", "«Intertextualidad»: el diálogo consciente de una obra con otras obras previas."),
   ],
   "art-film-literature-criticism-2": [
     fe("La ___ del cuadro guía la mirada hacia el centro.", "composición", "The painting's [composition] draws the eye towards the center.", "Composición: disposición de los elementos en la obra."),
@@ -692,7 +692,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   ],
   "creative-writing-techniques-1": [
     fe("Desde el primer capítulo, el autor ___ el final con pequeños indicios.", "prefigura", "From the first chapter, the author [foreshadows] the ending with small clues.", "Prefigurar: anticipar sutilmente un hecho posterior.", ["anticipa", "presagia"]),
-    fe("El ___ omnisciente conoce los pensamientos de todos los personajes.", "narrador", "The omniscient [narrator] knows the thoughts of all the characters.", "Tipos de narrador: omnisciente, protagonista, testigo."),
+    fe("El ___ omnisciente conoce los pensamientos de todos los personajes.", "narrador", "The omniscient [narrator] knows the thoughts of all the characters.", "«Narrador» es la voz que cuenta la historia; el omnisciente lo sabe todo, incluidos los pensamientos de todos los personajes."),
   ],
   "creative-writing-techniques-2": [
     fe("El ___ de la novela llega en el último capítulo.", "clímax", "The novel's [climax] comes in the last chapter.", "Clímax: punto de máxima tensión.", ["climax"]),
@@ -722,7 +722,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Es cierto que el tráfico es un problema; ___, talar el parque no es la solución.", "ahora bien", "It's true that traffic is a problem; [that said], cutting down the park is not the solution.", "Concesión seguida de refutación.", ["sin embargo", "no obstante", "pero"]),
   ],
   "c2r-challenge-argue-to-the-limit": [
-    fe("Mis intereses no ___ los datos.", "invalidan", "My interests don't [invalidate] the data.", "Respuesta a un ataque ad hominem.", ["anulan", "desmienten"]),
+    fe("Mis intereses no ___ los datos.", "invalidan", "My interests don't [invalidate] the data.", "«Invalidar» = quitar validez: la réplica separa los intereses de la persona del valor de los datos, que es como se desactiva un ad hominem.", ["anulan", "desmienten"]),
   ],
   "presentations-negotiation-1": [
     fe("Mi presentación ___ de tres partes.", "consta", "My presentation [consists] of three parts.", "«Constar de»: estar formado por.", ["se compone"]),

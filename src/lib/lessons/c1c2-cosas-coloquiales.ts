@@ -81,6 +81,9 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la palabra que designa el altar dedicado a un familiar fallecido durante esta celebración.",
             "sentence": "Cada año, la familia prepara ___ con fotos, flores y la comida favorita de la abuela.",
             "answer": "la ofrenda",
+            "altAnswers": [
+              "una ofrenda"
+            ],
             "hint": "Es lo que se le entrega u ofrece a alguien como muestra de cariño.",
             "explanation": "La ofrenda es el altar tradicional del Día de los Muertos, montado con fotos, flores de cempasúchil y los platillos preferidos del difunto."
           }
@@ -102,10 +105,10 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la expresión que describe gastar sin límite para celebrar algo por todo lo alto.",
-        "sentence": "Para la graduación de su hija, decidieron ___ y alquilaron un salón enorme.",
-        "answer": "echar la casa por la ventana",
-        "explanation": "Echar la casa por la ventana significa gastar sin límite para celebrar algo con generosidad, tal como describe la situación de alquilar un salón enorme."
+        "prompt": "Completa la expresión que describe organizar o animar una celebración.",
+        "sentence": "Cuando llegaron los primos con la guitarra, en cinco minutos ___ y nadie quiso irse a casa.",
+        "answer": "armaron la fiesta",
+        "explanation": "Armar la fiesta significa organizar o animar una celebración (a veces también un alboroto), justo lo que hacen los primos al llegar con la guitarra."
       }
     ]
   },
@@ -354,8 +357,9 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "source": "He seemed calm, but he was suffering inside.",
         "answer": "Parecía tranquilo, pero la procesión le iba por dentro.",
         "altAnswers": [
-          "Se le veía tranquilo, pero por dentro la procesión le iba",
-          "Estaba tranquilo por fuera, pero la procesión le iba por dentro"
+          "Se le veía tranquilo, pero la procesión le iba por dentro.",
+          "Parecía tranquilo, pero la procesión iba por dentro.",
+          "Estaba tranquilo por fuera, pero la procesión le iba por dentro."
         ],
         "explanation": "La procesión va por dentro describe exactamente la idea de sufrir o preocuparse sin mostrarlo exteriormente."
       }
@@ -447,22 +451,22 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Un amigo lleva semanas callado sobre un problema que, de repente, explota en una discusión enorme. ¿Qué expresión describe mejor ese proceso?",
+        "question": "Antes de comer, tomamos una caña con unas aceitunas en el bar. ¿Qué palabra describe ese momento?",
         "options": [
-          "cocerse a fuego lento",
-          "ser pan comido",
-          "hacer sobremesa",
-          "no caber ni un alfiler"
+          "el aperitivo",
+          "la sobremesa",
+          "levantarse de la mesa",
+          "irse de tapas"
         ],
         "correctIndex": 0,
-        "explanation": "«Cocerse a fuego lento» describe algo que se va gestando poco a poco hasta estallar. «Ser pan comido» significa ser muy fácil, «hacer sobremesa» es charlar tras la comida y «no caber ni un alfiler» indica que un lugar está abarrotado."
+        "explanation": "«El aperitivo» es la bebida o tapa ligera que se toma antes de la comida principal. «La sobremesa» es la charla después de comer, «levantarse de la mesa» es terminar la comida e «irse de tapas» es recorrer varios bares comiendo raciones pequeñas."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la expresión que describe estar completamente lleno después de comer.",
-        "sentence": "No puedo comer ni un bocado más, estoy que ___.",
-        "answer": "reviento",
-        "explanation": "«Estoy que reviento» (o «estoy a reventar») describe haber comido tanto que ya no cabe nada más. El verbo concuerda con el sujeto: yo estoy que reviento, él está que revienta."
+        "prompt": "Completa la expresión que describe comer pequeñas cantidades entre comidas.",
+        "sentence": "Antes de cenar, vamos a ___ algo en el bar.",
+        "answer": "picar",
+        "explanation": "«Picar algo» es comer una pequeña cantidad, generalmente entre comidas: unas aceitunas, unas patatas o una tapa antes de cenar."
       }
     ]
   },
@@ -812,15 +816,15 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Una empresa estaba a punto de quebrar, pero cambió de estrategia y terminó el año con ganancias récord. ¿Qué expresión futbolística describe mejor ese cambio?",
+        "question": "Ana preparó todo el proyecto, pero en la reunión decisiva no la dejaron participar. ¿Qué expresión futbolística describe mejor su situación?",
         "options": [
-          "remontar",
           "quedarse en el banquillo",
+          "meterle un gol a alguien",
           "pasar la pelota",
           "picarse con alguien"
         ],
         "correctIndex": 0,
-        "explanation": "«Remontar» es darle la vuelta a un resultado adverso, como la empresa que pasa de la quiebra al récord. «Quedarse en el banquillo» es no participar, «pasar la pelota» es delegar una responsabilidad y «picarse con alguien» es enfadarse o competir con él."
+        "explanation": "«Quedarse en el banquillo» (en gran parte de América, «en la banca») es quedar relegado o sin participación en algo importante, como Ana en la reunión. «Meterle un gol a alguien» es engañarlo, «pasar la pelota» es delegar una responsabilidad y «picarse con alguien» es entrar en rivalidad con él."
       },
       {
         "type": "fill-blank",
@@ -1117,22 +1121,22 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "En la boda, la banda tocó una canción y todo el mundo se levantó de golpe a bailar con entusiasmo. ¿Qué expresión describe mejor lo que hizo la banda?",
+        "question": "En la boda, las parejas bailaron un bolero muy cerca la una de la otra. ¿Qué expresión describe cómo bailaron?",
         "options": [
-          "prender la fiesta",
+          "bailar pegado",
           "no tener oído",
           "tanguear",
           "el arrabal"
         ],
         "correctIndex": 0,
-        "explanation": "«Prender la fiesta» es animarla de golpe, lo que consigue la banda al levantar a todos. «No tener oído» es una carencia musical, «tanguear» es bailar tango y «el arrabal» es el barrio periférico donde nació el tango."
+        "explanation": "«Bailar pegado» es bailar muy cerca de la pareja, típico del bolero o la salsa. «No tener oído» es una carencia musical, «tanguear» es bailar tango y «el arrabal» es el barrio periférico donde nació el tango."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la expresión que describe perder la timidez y disfrutar plenamente al bailar.",
-        "sentence": "Al principio no quería bailar, pero después de un rato se ___ y no paró en toda la noche.",
-        "answer": "soltó el pelo",
-        "explanation": "Soltarse el pelo significa perder la timidez y disfrutar plenamente, especialmente al bailar, tal como describe la situación."
+        "prompt": "Completa la expresión que describe a quien no percibe bien el ritmo ni la melodía.",
+        "sentence": "Me encanta cantar, pero no tengo ___: siempre desafino.",
+        "answer": "oído",
+        "explanation": "No tener oído significa carecer de habilidad para percibir o reproducir el ritmo o la melodía; por eso quien no lo tiene desafina."
       },
       {
         "type": "multi-select",
@@ -1434,25 +1438,28 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la expresión que se usa como precaución ante una posibilidad remota de mala suerte.",
-        "sentence": "No creo que llueva, pero llevo el paraguas ___.",
-        "answer": "por si las moscas",
-        "explanation": "Por si las moscas significa por precaución, ante la posibilidad remota de algo, encajando con llevar el paraguas sin estar seguro de que va a llover."
+        "prompt": "Completa la expresión que describe un período sostenido de buena o mala suerte.",
+        "sentence": "Ha ganado tres torneos seguidos este mes: está ___.",
+        "answer": "de racha",
+        "altAnswers": [
+          "en racha"
+        ],
+        "explanation": "Estar de racha (también «estar en racha») es atravesar un período sostenido de buena o mala suerte; aquí, de buena suerte, con tres victorias seguidas."
       },
       {
         "type": "multi-select",
-        "question": "¿Cuáles de las siguientes expresiones están relacionadas con desear o esperar buena suerte?",
+        "question": "¿Cuáles de las siguientes expresiones nombran un gesto o ritual para proteger o mejorar la suerte?",
         "options": [
-          "cruzar los dedos",
-          "de buen agüero",
+          "tocar madera",
+          "cambiar la suerte",
           "ser gafe",
-          "de mal agüero"
+          "traer mala suerte"
         ],
         "correctIndexes": [
           0,
           1
         ],
-        "explanation": "Cruzar los dedos y de buen agüero están asociadas a desear o esperar buena suerte; ser gafe y de mal agüero se refieren, en cambio, a la mala suerte."
+        "explanation": "Tocar madera protege lo bueno para que no se malogre, y cambiar la suerte es modificar una racha con un gesto o ritual; ser gafe y traer mala suerte se refieren, en cambio, a provocar mala suerte."
       }
     ]
   },
@@ -1747,30 +1754,31 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "¿Cuáles de estas son formas de suavizar una petición?",
+        "question": "¿Cuáles de estas frases son corteses según las normas de la lección?",
         "options": [
-          "Si no es mucha molestia",
-          "Quería pedirte un favor",
-          "Hazlo ahora mismo",
-          "Cuando tengas un segundo"
+          "Qué amable, gracias por el cumplido.",
+          "¿Puedo traer algo para la cena?",
+          "¿Y a ti qué te importa?",
+          "¿Nos tuteamos?"
         ],
         "correctIndexes": [
           0,
           1,
           3
         ],
-        "explanation": "«Si no es mucha molestia» y «Cuando tengas un segundo» son frases colchón, y «Quería pedirte un favor» usa el imperfecto de cortesía: todas suavizan la petición. «Hazlo ahora mismo» es un imperativo directo con urgencia, lo contrario de suavizar."
+        "explanation": "«Qué amable, gracias por el cumplido» recibe un piropo sin sobreactuar, «¿Puedo traer algo para la cena?» es la cortesía básica del invitado y «¿Nos tuteamos?» propone más confianza de forma explícita. «¿Y a ti qué te importa?» es una respuesta brusca, nada cortés."
       },
       {
         "type": "translate",
         "direction": "en-es",
         "prompt": "Traduce la frase al español usando una expresión coloquial de la lección.",
-        "source": "I don't know if you could give me a hand with this.",
-        "answer": "No sé si podrías echarme una manita con esto.",
+        "source": "You're a sweetheart, you always help me without my asking.",
+        "answer": "Eres un sol, siempre me ayudas sin que te lo pida.",
         "altAnswers": [
-          "No sé si podrías echarme una mano con esto."
+          "Eres un sol: siempre me ayudas sin que te lo pida.",
+          "Eres un sol, siempre me ayudas sin que yo te lo pida."
         ],
-        "explanation": "\"Echar una manita\" es una forma coloquial de decir 'ayudar'."
+        "explanation": "«Eres un sol» es un piropo cotidiano que significa 'eres una persona encantadora'; «sin que» lleva subjuntivo: «sin que te lo pida»."
       }
     ]
   },
