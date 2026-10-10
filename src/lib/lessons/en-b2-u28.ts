@@ -788,7 +788,7 @@ export const EN_B2_U28: Lesson[] = [
           { es: "We're looking forward to meeting you.", en: "Tenemos muchas ganas de conocerte." },
           { es: "I look forward to hearing from you.", en: "Quedo a la espera de su respuesta." },
           { es: "We ran out of gas on the highway.", en: "Nos quedamos sin gasolina en la autopista." },
-          { es: "My phone is running out of battery.", en: "Me estoy quedando sin batería en el móvil." },
+          { es: "My phone is running out of battery.", en: "Me estoy quedando sin batería en el celular." },
           { es: "Hurry up, time is running out!", en: "¡Date prisa, se acaba el tiempo!" },
         ],
         checkpoint: [
@@ -1673,13 +1673,13 @@ export const EN_B2_U28: Lesson[] = [
         heading: "Borrow or lend?",
         body: [
           "Spanish «prestar» and «pedir prestado» correspond to two English verbs, and the direction matters. You \"lend\" something to someone («prestar»): \"Can you lend me your car?\" (lend, lent, lent). You \"borrow\" something from someone («pedir prestado», «tomar prestado»): \"Can I borrow your car?\".",
-          "So «¿Me prestas tu coche?» can be \"Can you lend me your car?\" or \"Can I borrow your car?\". What you can't say is *Can you borrow me your car?, a very common mistake.",
+          "So «¿Me prestas tu carro?» can be \"Can you lend me your car?\" or \"Can I borrow your car?\". What you can't say is *Can you borrow me your car?, a very common mistake.",
         ],
         examples: [
           { es: "Can I borrow your pen?", en: "¿Me prestas el boli?" },
           { es: "Could you lend me twenty dollars?", en: "¿Me podrías prestar veinte dólares?" },
           { es: "I borrowed this book from the library.", en: "Saqué este libro de la biblioteca." },
-          { es: "I lent him my car last weekend.", en: "Le presté el coche el fin de semana pasado." },
+          { es: "I lent him my car last weekend.", en: "Le presté el carro el fin de semana pasado." },
         ],
         checkpoint: [
           {
@@ -1808,7 +1808,7 @@ export const EN_B2_U28: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No me acuerdo de dónde aparqué.",
+        source: "No me acuerdo de dónde estacioné.",
         answer: "I don't remember where I parked.",
         altAnswers: ["I can't remember where I parked.", "I don't remember where I parked the car.", "I can't remember where I parked the car."],
         explanation: "«Acordarse de» = \"remember\" (no \"of\" before a clause). \"Remind\" would need another person.",
@@ -1848,7 +1848,7 @@ export const EN_B2_U28: Lesson[] = [
           { es: "Actually, I've never been to London.", en: "La verdad es que nunca he estado en Londres." },
           { es: "She looks young, but she's actually forty.", en: "Parece joven, pero en realidad tiene cuarenta años." },
           { es: "I'm currently working in Madrid.", en: "Actualmente trabajo en Madrid." },
-          { es: "We eventually found a parking space.", en: "Al final encontramos sitio para aparcar." },
+          { es: "We eventually found a parking space.", en: "Al final encontramos sitio para estacionar." },
           { es: "He eventually agreed to help us.", en: "Finalmente aceptó ayudarnos." },
         ],
         checkpoint: [
@@ -2246,10 +2246,10 @@ export const EN_B2_U28: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Aparcó en doble fila y se salió con la suya.",
+        source: "Estacionó en doble fila y se salió con la suya.",
         answer: "He double-parked and got away with it.",
         altAnswers: ["She double-parked and got away with it.", "He double parked and got away with it.", "She double parked and got away with it."],
-        explanation: "\"Get away with it\" = not be punished. «Aparcar en doble fila» = \"double-park\".",
+        explanation: "\"Get away with it\" = not be punished. «Estacionar en doble fila» = \"double-park\".",
       },
       {
         type: "matching",
@@ -2556,7 +2556,7 @@ export const EN_B2_U28: Lesson[] = [
         ],
         examples: [
           { es: "She applied for a job at a bank.", en: "Solicitó un puesto en un banco." },
-          { es: "We can't afford a new car right now.", en: "Ahora mismo no podemos permitirnos un coche nuevo." },
+          { es: "We can't afford a new car right now.", en: "Ahora mismo no podemos permitirnos un carro nuevo." },
           { es: "I'm saving up for a trip to Japan.", en: "Estoy ahorrando para un viaje a Japón." },
           { es: "I asked for a refund.", en: "Pedí que me devolvieran el dinero." },
           { es: "My commute takes an hour each way.", en: "Tardo una hora en ir al trabajo y otra en volver." },
@@ -2708,7 +2708,7 @@ export const EN_B2_U28: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Estoy ahorrando para comprarme un coche.",
+        source: "Estoy ahorrando para comprarme un carro.",
         answer: "I'm saving up to buy a car.",
         altAnswers: ["I'm saving up for a car.", "I'm saving to buy a car.", "I'm saving for a car.", "I'm saving up to buy myself a car.", "I'm saving money to buy a car.", "I'm saving up for a new car."],
         explanation: "\"Save up for\" + noun, or \"save up to\" + verb.",

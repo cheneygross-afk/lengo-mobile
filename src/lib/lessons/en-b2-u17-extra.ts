@@ -257,7 +257,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Aunque el coche es viejo, funciona perfectamente.",
+        source: "Aunque el carro es viejo, funciona perfectamente.",
         answer: "Although the car is old, it works perfectly.",
         altAnswers: [
           "Even though the car is old, it works perfectly.",

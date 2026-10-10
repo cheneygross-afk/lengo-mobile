@@ -488,7 +488,7 @@ export const EN_C2_U23: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Cualquiera se habría enfadado en tu lugar.",
+        source: "Cualquiera se habría enojado en tu lugar.",
         answer: "Anyone would have been annoyed in your position.",
         altAnswers: alts(
           ["Anyone would have been", "Anybody would have been", "Anyone would have got", "Anyone would have gotten", "Anybody would have gotten"],
@@ -511,7 +511,7 @@ export const EN_C2_U23: Lesson[] = [
     slug: "c2-conflict-3",
     level: "EN-C2",
     number: 3,
-    title: "Conflict resolution, Part 3 of 7: apologising properly",
+    title: "Conflict resolution, Part 3 of 7: apologizing properly",
     summary: "The anatomy of a real apology, the non-apologies to avoid (I'm sorry if you felt..., mistakes were made), taking responsibility and offering repair in personal and professional settings.",
     duration: "12 min",
     sections: [
@@ -875,11 +875,14 @@ export const EN_C2_U23: Lesson[] = [
             source: "¿Y si cada uno cede un poco y llegamos a un punto intermedio?",
             answer: "What if we each give a little and meet halfway?",
             altAnswers: alts(
-              ["What if we each give a little and", "What if we both give a little and", "How about we each give a little and", "How about we both give a little and", "What if we each gave a little and", "What if we both gave a little and"],
+              ["What if we each give a little and", "What if we both give a little and", "How about we each give a little and", "How about we both give a little and"],
               ["meet halfway?", "meet in the middle?", "meet each other halfway?", "find a middle ground?", "find some middle ground?"],
             ).concat(alts(
-              ["What if we each compromise a little and", "What if we both compromise a little and", "What if we each compromised a little and", "What if we both compromised a little and"],
+              ["What if we each compromise a little and", "What if we both compromise a little and"],
               ["meet halfway?", "meet in the middle?", "find a middle ground?"],
+            )).concat(alts(
+              ["What if we each gave a little and", "What if we both gave a little and", "What if we each compromised a little and", "What if we both compromised a little and"],
+              ["met halfway?", "met in the middle?", "met each other halfway?", "found a middle ground?", "found some middle ground?"],
             )),
             explanation: "\"What if we...?\" proposes without imposing. \"Meet halfway\" and \"meet in the middle\" are the natural idioms for «llegar a un punto intermedio».",
           },
@@ -1007,7 +1010,7 @@ export const EN_C2_U23: Lesson[] = [
         source: "¿Y si retrasáramos el lanzamiento una semana?",
         answer: "What if we delayed the launch by a week?",
         altAnswers: alts(
-          ["What if we", "How about if we", "What if we were to"],
+          ["What if we", "How about if we"],
           ["delayed the launch by a week?", "delayed the launch by one week?", "delayed the launch a week?", "pushed back the launch by a week?", "pushed the launch back by a week?", "pushed the launch back a week?", "postponed the launch by a week?", "postponed the launch for a week?"],
         ).concat([
           "What if we delay the launch by a week?",
@@ -1060,11 +1063,11 @@ export const EN_C2_U23: Lesson[] = [
     level: "EN-C2",
     number: 5,
     title: "Conflict resolution, Part 5 of 7: I-statements and difficult feedback",
-    summary: "Giving critical feedback without blame: describing behaviour instead of character, real and fake I-statements, the situation-behaviour-impact model and softeners such as I wonder whether...",
+    summary: "Giving critical feedback without blame: describing behavior instead of character, real and fake I-statements, the situation-behaviour-impact model and softeners such as I wonder whether...",
     duration: "12 min",
     sections: [
       {
-        heading: "Describe the behaviour, not the person",
+        heading: "Describe the behavior, not the person",
         body: [
           "Criticism that targets character (\"You're so disorganized\", \"You're lazy\", \"You never listen\") forces the other person to defend their identity, so the conversation stops being about the problem.",
           "Feedback that describes observable behaviour is harder to argue with and easier to act on: \"The last two reports arrived after the deadline\", \"In the meeting, you checked your phone while Ana was presenting\".",
@@ -1074,7 +1077,7 @@ export const EN_C2_U23: Lesson[] = [
           { es: "You're so disorganized.", en: "Eres un desastre. (ataca a la persona)" },
           { es: "The last two reports arrived after the deadline.", en: "Los dos últimos informes llegaron después del plazo. (describe la conducta)" },
           { es: "You never listen.", en: "Nunca escuchas. (generaliza)" },
-          { es: "You checked your phone while Ana was presenting.", en: "Miraste el móvil mientras Ana presentaba. (hecho observable)" },
+          { es: "You checked your phone while Ana was presenting.", en: "Miraste el celular mientras Ana presentaba. (hecho observable)" },
           { es: "You've been late three times this week.", en: "Has llegado tarde tres veces esta semana." },
         ],
         checkpoint: [
@@ -1117,7 +1120,7 @@ export const EN_C2_U23: Lesson[] = [
               "I think you're making everyone's life harder.",
             ],
             correctIndex: 0,
-            explanation: "Only the first names an emotion and a specific situation. The others use \"I feel that\", \"I feel like\" or \"I think\" to deliver a judgement.",
+            explanation: "Only the first names an emotion and a specific situation. The others use \"I feel that\", \"I feel like\" or \"I think\" to deliver a judgment.",
           },
           {
             type: "translate",
@@ -1135,7 +1138,7 @@ export const EN_C2_U23: Lesson[] = [
         ],
       },
       {
-        heading: "Situation, behaviour, impact",
+        heading: "Situation, behavior, impact",
         body: [
           "The situation-behaviour-impact (SBI) model gives feedback a clear shape. Situation: when and where (\"In yesterday's client meeting\"). Behaviour: what the person did, as a camera would record it (\"you interrupted Ana three times\"). Impact: the effect (\"and she didn't get to present her figures\").",
           "Then open the conversation instead of closing it: \"How did you see it?\", \"Was there something going on that I'm not aware of?\", \"What do you think would help?\".",
@@ -1282,7 +1285,7 @@ export const EN_C2_U23: Lesson[] = [
       {
         type: "multiple-choice",
         question: "In the SBI model, which part is \"so the client had to wait an extra week for the proposal\"?",
-        options: ["Impact", "Situation", "Behaviour", "Request"],
+        options: ["Impact", "Situation", "Behavior", "Request"],
         correctIndex: 0,
         explanation: "The impact is the consequence of the behaviour: here, the effect on the client.",
       },
@@ -1732,7 +1735,7 @@ export const EN_C2_U23: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "Employees who wish to ___ should first speak to their line manager.",
+        sentence: "Employees who wish to ___ should first speak to their direct manager.",
         answer: "raise a grievance",
         altAnswers: ["file a grievance", "lodge a grievance", "make a complaint", "file a complaint", "lodge a complaint", "raise a complaint"],
         en: "Los empleados que deseen [presentar una queja formal] deben hablar primero con su superior directo.",
@@ -1835,7 +1838,7 @@ export const EN_C2_U23: Lesson[] = [
           "Requests a specific outcome and a response within a time frame",
           "Formal register throughout",
         ],
-        modelAnswer: "Dear Ms. Jones,\n\nI am writing to raise a formal grievance regarding my transfer to the logistics team.\n\nOn May 12, I was informed by email that, from May 19, I would be moving to the logistics team on a 10 a.m. to 6 p.m. schedule. I was not consulted beforehand, and my contract states that changes to working hours require prior discussion (section 4.2, attached).\n\nThe new schedule makes it impossible for me to collect my son from school at 4:30 p.m., as I have done for the past three years.\n\nI request that the transfer be reviewed and that I be allowed to keep my current hours while it is discussed. I would be grateful for a response within ten working days.\n\nYours sincerely,\nLucia Fernandez",
+        modelAnswer: "Dear Ms. Jones,\n\nI am writing to raise a formal grievance regarding my transfer to the logistics team.\n\nOn May 12, I was informed by email that, from May 19, I would be moving to the logistics team on a 10 a.m. to 6 p.m. schedule. I was not consulted beforehand, and my contract states that changes to working hours require prior discussion (section 4.2, attached).\n\nThe new schedule makes it impossible for me to collect my son from school at 4:30 p.m., as I have done for the past three years.\n\nI request that the transfer be reviewed and that I be allowed to keep my current hours while it is discussed. I would be grateful for a response within ten working days.\n\nSincerely,\nLucia Fernandez",
         explanation: "A strong grievance is factual, cites evidence, describes the impact without emotion and ends with a precise request and a time frame.",
       },
     ],
@@ -1847,7 +1850,7 @@ export const EN_C2_U23: Lesson[] = [
     level: "EN-C2",
     number: 8,
     title: "Contrast: sorry, excuse me, pardon and apologies",
-    summary: "One Spanish «perdón», many English words: excuse me before you disturb, sorry after, how to ask for repetition, the scale from my bad to please accept my apologies, sorry for sympathy, and British over-apologising.",
+    summary: "One Spanish «perdón», many English words: excuse me before you disturb, sorry after, how to ask for repetition, the scale from my bad to please accept my apologies, sorry for sympathy, and British over-apologizing.",
     duration: "10 min",
     sections: [
       {
@@ -1947,10 +1950,10 @@ export const EN_C2_U23: Lesson[] = [
         ],
       },
       {
-        heading: "Over-apologising and under-apologising",
+        heading: "Over-apologizing and under-apologizing",
         body: [
           "British English is famous for reflexive \"sorry\": people say it when someone else bumps into them, before asking a question (\"Sorry, is this seat taken?\") or as a mild complaint (\"Sorry, I think I was here first\"). American English uses it a little less, but still far more than Spanish uses «perdón».",
-          "The risk for Spanish speakers is under-apologising by English standards: walking through a crowd without \"Excuse me\", or stopping someone with a plain question and no opener. These feel normal in Spanish but can come across as abrupt in English.",
+          "The risk for Spanish speakers is under-apologizing by English standards: walking through a crowd without \"Excuse me\", or stopping someone with a plain question and no opener. These feel normal in Spanish but can come across as abrupt in English.",
           "Useful polite openers: \"Sorry to bother you, but...\", \"Sorry to interrupt\", \"Sorry to keep you waiting\". They soften a request without apologizing for anything serious.",
         ],
         examples: [
@@ -2411,7 +2414,7 @@ export const EN_C2_U23: Lesson[] = [
           { es: "You were supposed to call me last night.", en: "Se suponía que ibas a llamarme anoche." },
           { es: "The report was meant to be confidential.", en: "Se suponía que el informe era confidencial." },
           { es: "This restaurant is supposed to be excellent.", en: "Dicen que este restaurante es excelente." },
-          { es: "You're not supposed to use your phone in here.", en: "Aquí dentro no se puede usar el móvil." },
+          { es: "You're not supposed to use your phone in here.", en: "Aquí dentro no se puede usar el celular." },
           { es: "If you keep secrets from the team, they're bound to find out.", en: "Si le ocultas cosas al equipo, se van a enterar seguro." },
           { es: "There are bound to be disagreements at first.", en: "Es inevitable que al principio haya desacuerdos." },
         ],

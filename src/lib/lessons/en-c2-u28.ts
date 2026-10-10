@@ -162,9 +162,9 @@ export const EN_C2_U28: Lesson[] = [
       {
         heading: "Stating a position with modal nuance",
         body: [
-          "The free-will debate turns on one modal phrase: \"could have done otherwise\". The principle of alternative possibilities says you are responsible for an act only if you could have done otherwise. Spanish «podría haber actuado de otra manera» becomes \"could have acted otherwise\"; *could act otherwise in the past is a frequent error, because the perfect infinitive is needed for an unrealised past possibility.",
+          "The free-will debate turns on one modal phrase: \"could have done otherwise\". The principle of alternative possibilities says you are responsible for an act only if you could have done otherwise. Spanish «podría haber actuado de otra manera» becomes \"could have acted otherwise\"; *could act otherwise in the past is a frequent error, because the perfect infinitive is needed for an unrealized past possibility.",
           "To argue cautiously, philosophers stack modals and hedges: \"It might be argued that...\", \"One could object that...\", \"This need not mean that...\", \"It would seem that...\". \"Need not\" is especially useful: \"Determinism need not undermine responsibility\" («no tiene por qué socavar»).",
-          "For deduction, \"must have\" and \"can't have\" express near certainty about the past: \"If he was hypnotised, he can't have acted freely\". American English also uses uncontracted \"must not have\" for a weaker negative guess (\"He must not have heard me\"), but the safest negative of deductive \"must have\" is \"can't have\" or \"couldn't have\".",
+          "For deduction, \"must have\" and \"can't have\" express near certainty about the past: \"If he was hypnotized, he can't have acted freely\". American English also uses uncontracted \"must not have\" for a weaker negative guess (\"He must not have heard me\"), but the safest negative of deductive \"must have\" is \"can't have\" or \"couldn't have\".",
         ],
         examples: [
           { es: "Could she have done otherwise?", en: "¿Podría haber actuado de otra manera?" },
@@ -194,7 +194,7 @@ export const EN_C2_U28: Lesson[] = [
               "You are only responsible for an action if you could have acted differently.",
               "You are only responsible for an act if you could have done something else.",
             ],
-            explanation: "An unrealised past possibility needs \"could have\" + past participle: \"could have acted otherwise\". *Could act otherwise only refers to present or general ability.",
+            explanation: "An unrealized past possibility needs \"could have\" + past participle: \"could have acted otherwise\". *Could act otherwise only refers to present or general ability.",
           },
           {
             type: "multiple-choice",
@@ -268,7 +268,7 @@ export const EN_C2_U28: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No tiene sentido culparle de algo que fue cuestión de mala suerte.",
+        source: "No tiene sentido culparlo de algo que fue cuestión de mala suerte.",
         answer: "There's no point blaming him for something that was down to bad luck.",
         altAnswers: [
           "There's no point in blaming him for something that was down to bad luck.",
@@ -288,7 +288,7 @@ export const EN_C2_U28: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A colleague says the hypnotised man «no puede haber elegido libremente». Which is the natural English?",
+        question: "A colleague says the hypnotized man «no puede haber elegido libremente». Which is the natural English?",
         options: [
           "He can't have chosen freely.",
           "He mustn't choose freely.",
@@ -708,7 +708,7 @@ export const EN_C2_U28: Lesson[] = [
     slug: "c2-philosophy-3",
     level: "EN-C2",
     number: 3,
-    title: "Philosophy and abstract ideas, Part 3 of 3: analysing arguments",
+    title: "Philosophy and abstract ideas, Part 3 of 3: analyzing arguments",
     summary: "The working vocabulary of argument analysis: premises and conclusions, valid and sound arguments, necessary and sufficient conditions, counterexamples and reductio ad absurdum, and the phrases that signal each move.",
     duration: "12 min",
     sections: [
@@ -1062,7 +1062,7 @@ export const EN_C2_U28: Lesson[] = [
           "Uses at least two terms from the lesson correctly (valid, sound, premise, counterexample, necessary, sufficient).",
           "Uses articles correctly with abstract nouns (happiness, money, nature).",
         ],
-        modelAnswer: "The argument runs as follows. Since natural substances have evolved alongside us, they are safe; anything safe is good for you; therefore anything natural is good for you. The argument is valid, but it is not sound. Hemlock is entirely natural, yet it killed Socrates. This single counterexample shows that the first premise is false: being natural is neither necessary nor sufficient for being safe.",
+        modelAnswer: "The argument runs as follows. Since natural substances have evolved alongside us, they are safe; anything safe is good for you; therefore anything natural is good for you. The argument is valid, but it is not sound. Hemlock is entirely natural, yet it killed Socrates. This single counterexample shows that the first premise is false: being natural is not sufficient for being safe.",
         explanation: "A good refutation identifies exactly which premise fails rather than simply rejecting the conclusion.",
       },
     ],
@@ -1382,11 +1382,11 @@ export const EN_C2_U28: Lesson[] = [
     level: "EN-C2",
     number: 5,
     title: "Articles at the Mastery level: Generic, Unique and Abstract Reference",
-    summary: "«El hombre es mortal», «la naturaleza», «la gente dice»: Spanish puts \"the\" in front of generic and abstract nouns, English usually does not. Master the three ways of talking about a whole class, abstract nouns, institutions like \"go to hospital\", names of places and organisations, and the stripped-down grammar of headlines.",
+    summary: "«El hombre es mortal», «la naturaleza», «la gente dice»: Spanish puts \"the\" in front of generic and abstract nouns, English usually does not. Master the three ways of talking about a whole class, abstract nouns, institutions like \"go to hospital\", names of places and organizations, and the stripped-down grammar of headlines.",
     duration: "12 min",
     sections: [
       {
-        heading: "Three ways to generalise: tigers, the tiger, a tiger",
+        heading: "Three ways to generalize: tigers, the tiger, a tiger",
         body: [
           "English has three ways to talk about a whole class, and they are not interchangeable. The zero article with a plural (or an uncountable noun) is the everyday choice: \"Tigers are endangered\", \"Philosophers disagree about free will\". Spanish says «Los tigres están en peligro», and the calque *The tigers are endangered means only a particular group of tigers.",
           "\"The\" + singular noun presents the class as a single type, typical of scientific, encyclopaedic or formal style: \"The tiger is the largest of the big cats\", \"The printing press transformed Europe\". It works best with animals, plants, inventions and instruments, not with ordinary groups of people (*The teenager is often rebellious sounds odd; say \"Teenagers are often rebellious\").",
@@ -1463,10 +1463,10 @@ export const EN_C2_U28: Lesson[] = [
             type: "fill-blank",
             prompt: "Write the bold words in English.",
             sentence: "Some argue that ___ is shaped more by society than by nature.",
-            answer: "human behaviour",
+            answer: "human behavior",
             altAnswers: ["human behavior"],
             en: "Hay quien sostiene que [el comportamiento humano] está más determinado por la sociedad que por la naturaleza.",
-            explanation: "\"Human behaviour\" is a general abstract noun phrase: no article, even with an adjective in front.",
+            explanation: "\"Human behavior\" is a general abstract noun phrase: no article, even with an adjective in front.",
           },
         ],
       },
@@ -1501,10 +1501,10 @@ export const EN_C2_U28: Lesson[] = [
         ],
       },
       {
-        heading: "Names, organisations and headlines",
+        heading: "Names, organizations and headlines",
         body: [
           "Most singular place names take no article: countries (\"Spain\", \"France\"), cities, continents, single lakes and mountains (\"Lake Geneva\", \"Mount Everest\"). \"The\" is needed with plural names and with names containing a common noun: \"the United States\", \"the Netherlands\", \"the Philippines\", \"the United Kingdom\", \"the Czech Republic\", and with rivers, seas, oceans, deserts and mountain ranges: \"the Ebro\", \"the Mediterranean\", \"the Sahara\", \"the Andes\".",
-          "Organisations with \"of\" or a common noun usually take \"the\": \"the United Nations\", \"the European Union\", \"the University of Salamanca\", \"the Prado\" (Museum). Names built on a person or a place name often do not: \"Salamanca University\", \"Oxford University\", \"Harvard\". Acronyms pronounced as words drop the article (\"NATO\", \"UNESCO\"); those read letter by letter keep it (\"the UN\", \"the EU\", \"the BBC\").",
+          "Organizations with \"of\" or a common noun usually take \"the\": \"the United Nations\", \"the European Union\", \"the University of Salamanca\", \"the Prado\" (Museum). Names built on a person or a place name often do not: \"Salamanca University\", \"Oxford University\", \"Harvard\". Acronyms pronounced as words drop the article (\"NATO\", \"UNESCO\"); those read letter by letter keep it (\"the UN\", \"the EU\", \"the BBC\").",
           "Headlines and titles strip articles to save space: \"Minister Resigns Over Scandal\", \"Floods Hit Coastal Towns\", \"Scientists Discover New Species\". Do not copy this compressed style into your normal prose.",
         ],
         examples: [
@@ -1562,7 +1562,7 @@ export const EN_C2_U28: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence would you find in an encyclopaedia entry about the instrument?",
+        question: "Which sentence would you find in an encyclopedia entry about the instrument?",
         options: [
           "The violin developed in northern Italy in the sixteenth century.",
           "A violin developed in northern Italy in the sixteenth century.",
@@ -1586,8 +1586,9 @@ export const EN_C2_U28: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Su madre lleva una semana en el hospital.",
-        answer: "His mother has been in hospital for a week.",
+        answer: "His mother has been in the hospital for a week.",
         altAnswers: [
+          "His mother has been in hospital for a week.",
           "Her mother has been in hospital for a week.",
           "His mother has been in the hospital for a week.",
           "Her mother has been in the hospital for a week.",
@@ -1685,10 +1686,10 @@ export const EN_C2_U28: Lesson[] = [
         rubric: [
           "Uses abstract nouns in a general sense without an article (nature, society, history, freedom).",
           "Uses \"the\" when an abstract noun is made specific (the nature of..., the history of...).",
-          "Uses a zero-article plural for a generalisation about people or things.",
+          "Uses a zero-article plural for a generalization about people or things.",
           "Avoids calques such as *the people say, *the society, *the life.",
         ],
-        modelAnswer: "Philosophers have long disagreed about whether human nature is fixed. Some argue that biology sets firm limits: people everywhere feel fear, jealousy and love. Others insist that society shapes almost everything we are, and point to the history of slavery or of women's rights as proof that attitudes can change radically. Perhaps the truth lies in between. The nature of a child may be given at birth, but education and culture decide which of its possibilities are realised.",
+        modelAnswer: "Philosophers have long disagreed about whether human nature is fixed. Some argue that biology sets firm limits: people everywhere feel fear, jealousy and love. Others insist that society shapes almost everything we are, and point to the history of slavery or of women's rights as proof that attitudes can change radically. Perhaps the truth lies in between. The nature of a child may be given at birth, but education and culture decide which of its possibilities are realized.",
         explanation: "General abstract nouns (human nature, biology, society, education, culture) take no article; \"the history of slavery\" and \"the nature of a child\" are made specific; \"philosophers\" and \"people\" are generic plurals.",
       },
       {
@@ -1704,7 +1705,7 @@ export const EN_C2_U28: Lesson[] = [
     level: "EN-C2",
     number: 5,
     title: "Dialogue lab: the free-will debate",
-    summary: "A university seminar on free will. Practise the moves of a good philosophical discussion in English: taking a position with the right degree of commitment, asking someone to clarify their terms, challenging an argument politely, and conceding a point without giving up your view.",
+    summary: "A university seminar on free will. Practice the moves of a good philosophical discussion in English: taking a position with the right degree of commitment, asking someone to clarify their terms, challenging an argument politely, and conceding a point without giving up your view.",
     duration: "11 min",
     sections: [
       {
@@ -1757,7 +1758,7 @@ export const EN_C2_U28: Lesson[] = [
       {
         heading: "Asking for clarification of terms",
         body: [
-          "Daniel isn't sure what Maya means: \"Sorry, can I just ask what you mean when you say we don't choose? Are you saying we never choose anything, or that our choices have causes?\" In philosophy, half the work is agreeing on terms, and asking is a sign of rigour, not ignorance.",
+          "Daniel isn't sure what Maya means: \"Sorry, can I just ask what you mean when you say we don't choose? Are you saying we never choose anything, or that our choices have causes?\" In philosophy, half the work is agreeing on terms, and asking is a sign of rigor, not ignorance.",
           "Useful formulas: \"What exactly do you mean by...?\", \"When you say..., are you using it in the sense of...?\", \"Could you unpack that a bit?\" (\"unpack\" means explain the parts of an idea), \"Are you saying that...?\", \"Just to be clear, is your claim that...?\".",
           "To check your own understanding, paraphrase: \"So, if I've understood you correctly, ...\", \"In other words, ...\", \"So your point is that...\". A good paraphrase also lets the speaker correct you: \"Not quite. What I'm saying is...\".",
         ],
@@ -1856,7 +1857,7 @@ export const EN_C2_U28: Lesson[] = [
           "To close a discussion constructively: \"Maybe we agree more than it seems\", \"Perhaps the disagreement is really about what we mean by free\", \"Let's agree to disagree\". The tutor might sum up: \"So the real question is whether responsibility requires alternative possibilities.\"",
         ],
         examples: [
-          { es: "Fair enough, I'll grant you that.", en: "Vale, eso te lo concedo." },
+          { es: "Fair enough, I'll grant you that.", en: "De acuerdo, eso te lo concedo." },
           { es: "I take your point, but it doesn't change my conclusion.", en: "Entiendo lo que dices, pero no cambia mi conclusión." },
           { es: "Even if that's true, it doesn't show that we're responsible.", en: "Aunque eso sea cierto, no demuestra que seamos responsables." },
           { es: "That said, I think the objection misses something.", en: "Dicho esto, creo que a la objeción se le escapa algo." },
@@ -2147,7 +2148,7 @@ export const EN_C2_U28: Lesson[] = [
         ],
         examples: [
           { es: "The argument tacitly assumes that correlation implies causation.", en: "El argumento da por supuesto tácitamente que la correlación implica causalidad." },
-          { es: "It overlooks the possibility that unhappy teenagers use their phones more.", en: "Pasa por alto la posibilidad de que los adolescentes infelices usen más el móvil." },
+          { es: "It overlooks the possibility that unhappy teenagers use their phones more.", en: "Pasa por alto la posibilidad de que los adolescentes infelices usen más el celular." },
           { es: "Perhaps the causation runs the other way.", en: "Quizá la causalidad vaya en sentido contrario." },
           { es: "A third factor could explain both.", en: "Un tercer factor podría explicar ambas cosas." },
           { es: "The policy recommendation is a separate claim that needs its own evidence.", en: "La recomendación política es una afirmación aparte que necesita sus propias pruebas." },
@@ -2196,9 +2197,9 @@ export const EN_C2_U28: Lesson[] = [
       {
         heading: "Naming the weak link",
         body: [
-          "Once the argument is laid out, say exactly where it fails. Common weak links: \"equivocation\" (a key word changes meaning midway), a \"false dilemma\" (only two options are presented when there are more), a \"slippery slope\" (an unsupported chain of consequences), and a \"hasty generalisation\" (a general rule drawn from too few cases).",
+          "Once the argument is laid out, say exactly where it fails. Common weak links: \"equivocation\" (a key word changes meaning midway), a \"false dilemma\" (only two options are presented when there are more), a \"slippery slope\" (an unsupported chain of consequences), and a \"hasty generalization\" (a general rule drawn from too few cases).",
           "Make your verdict precise and proportionate: \"The weak link is P2\", \"The argument trades on an ambiguity in the word...\", \"This step is unwarranted\", \"The conclusion overreaches: at most, the evidence shows...\". \"Unwarranted\" (not justified by the evidence) and \"overreach\" are valuable Mastery words.",
-          "A fair analyst also says what survives: \"Even so, the argument shows that...\", \"A weaker version of the conclusion might still hold\". This is the principle of charity: reconstruct the strongest version of a view before criticising it.",
+          "A fair analyst also says what survives: \"Even so, the argument shows that...\", \"A weaker version of the conclusion might still hold\". This is the principle of charity: reconstruct the strongest version of a view before criticizing it.",
         ],
         examples: [
           { es: "The weak link is the second premise.", en: "El eslabón débil es la segunda premisa." },
@@ -2216,7 +2217,7 @@ export const EN_C2_U28: Lesson[] = [
               { left: "equivocation", right: "una palabra cambia de sentido a mitad del argumento" },
               { left: "false dilemma", right: "se presentan solo dos opciones cuando hay más" },
               { left: "slippery slope", right: "una cadena de consecuencias sin justificar" },
-              { left: "hasty generalisation", right: "una regla general sacada de pocos casos" },
+              { left: "hasty generalization", right: "una regla general sacada de pocos casos" },
             ],
             explanation: "Note that \"equivocation\" in logic does not mean «equivocación» (a mistake): it means using a word in two senses.",
           },
@@ -2403,7 +2404,7 @@ export const EN_C2_U28: Lesson[] = [
         body: [
           "A philosophical paragraph is not an essay in miniature with an introduction and a summary. It makes one claim and defends it. The classic shape has five moves: thesis, definition, argument, objection, reply. A final sentence may state what follows.",
           "Here is a model on the question \"Can we be blamed for our beliefs?\": \"I want to argue that we can be blamed for some of our beliefs. By blame I mean the judgment that someone has fallen short of a standard they could reasonably have met. ...\" Notice that the thesis comes first and is stated plainly; English academic style values directness, while Spanish essays often build up to the thesis at the end.",
-          "Avoid two common habits of Spanish-speaking writers: very long sentences joined by commas (English needs a full stop or a semicolon between independent clauses), and openings like *Since the beginning of time, humanity has wondered..., which English readers find empty.",
+          "Avoid two common habits of Spanish-speaking writers: very long sentences joined by commas (English needs a period or a semicolon between independent clauses), and openings like *Since the beginning of time, humanity has wondered..., which English readers find empty.",
         ],
         examples: [
           { es: "I want to argue that we can be blamed for some of our beliefs.", en: "Quiero defender que se nos puede culpar de algunas de nuestras creencias." },
@@ -2674,7 +2675,7 @@ export const EN_C2_U28: Lesson[] = [
           "Blame requires the control, we do not control our beliefs directly.",
         ],
         correctIndex: 0,
-        explanation: "English does not allow a comma alone between two independent clauses (the \"comma splice\"). Use a semicolon, a full stop or a conjunction. Also, adverbs do not go between the verb and its object (*control directly our beliefs).",
+        explanation: "English does not allow a comma alone between two independent clauses (the \"comma splice\"). Use a semicolon, a period or a conjunction. Also, adverbs do not go between the verb and its object (*control directly our beliefs).",
       },
       {
         type: "translate",
@@ -2800,7 +2801,7 @@ export const EN_C2_U28: Lesson[] = [
         ],
       },
       {
-        heading: "Recap: analysing and writing arguments",
+        heading: "Recap: analyzing and writing arguments",
         body: [
           "Arguments are \"valid\" or \"invalid\", \"sound\" or \"unsound\"; statements are \"true\" or \"false\". A conclusion \"follows from\" premises; we \"draw\" a conclusion; a claim \"falls to\" a \"counterexample\". Know \"necessary\" versus \"sufficient\", \"begging the question\", \"straw man\" and \"reductio ad absurdum\".",
           "In a paragraph: thesis first, then \"By X I mean...\", \"It might be objected that...\", and a reply that denies a premise, draws a distinction or shows the objection \"proves too much\".",

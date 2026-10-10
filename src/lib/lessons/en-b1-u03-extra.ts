@@ -953,7 +953,7 @@ export const EN_B1_U03_EXTRA: Lesson[] = [
         audio: "We had been driving for hours when we finally saw the sea.",
         answer: "We had been driving for hours when we finally saw the sea.",
         altAnswers: ["We'd been driving for hours when we finally saw the sea."],
-        explanation: "Long activity (\"had been driving for hours\") + short event (\"saw\"). «Llevábamos horas conduciendo cuando por fin vimos el mar.»",
+        explanation: "Long activity (\"had been driving for hours\") + short event (\"saw\"). «Llevábamos horas manejando cuando por fin vimos el mar.»",
       },
       {
         type: "translate",

@@ -33,7 +33,7 @@ export const EN_A2_U09_EXTRA: Lesson[] = [
             prompt: "Escribe en inglés las palabras en negrita.",
             sentence: "She ___ a new car.",
             answer: "is going to buy",
-            en: "Ella [va a comprar] un coche nuevo.",
+            en: "Ella [va a comprar] un carro nuevo.",
             explanation: "\"She\" + \"is going to\" + verbo en forma base: \"is going to buy\".",
           },
           {
@@ -198,7 +198,7 @@ export const EN_A2_U09_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Ordena las palabras.",
         words: ["Is", "he", "going", "to", "sell", "his", "car?"],
-        translation: "¿Va a vender su coche?",
+        translation: "¿Va a vender su carro?",
         explanation: "\"Is\" + sujeto + \"going to\" + verbo + complemento.",
       },
       {
@@ -1072,7 +1072,7 @@ export const EN_A2_U09_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Voy a comprar un coche nuevo.",
+        source: "Voy a comprar un carro nuevo.",
         answer: "I'm going to buy a new car.",
         explanation: "«Voy a» + verbo es \"going to\". Con \"will\" perdería el sentido de plan.",
       },

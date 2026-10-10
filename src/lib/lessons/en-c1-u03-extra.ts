@@ -21,8 +21,8 @@ export const EN_C1_U03_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: the right suffix",
         body: [
-          "Each verb has its own noun, and the suffix has to be learned with the word: decide > decision, fail > failure, refuse > refusal, rely > reliance, analyse > analysis, maintain > maintenance, explain > explanation. From adjectives: able > ability, aware > awareness, reliable > reliability.",
-          "Invented suffixes are the typical error: *decidement, *refusement, *arrivement, *the analyse. Some nouns look exactly like the verb: increase, rise, fall, delay, cut, change, need.",
+          "Each verb has its own noun, and the suffix has to be learned with the word: decide > decision, fail > failure, refuse > refusal, rely > reliance, analyze > analysis, maintain > maintenance, explain > explanation. From adjectives: able > ability, aware > awareness, reliable > reliability.",
+          "Invented suffixes are the typical error: *decidement, *refusement, *arrivement, *the analyze. Some nouns look exactly like the verb: increase, rise, fall, delay, cut, change, need.",
           "Remember the special pattern of \"failure\": «no hacer algo» often becomes \"failure to do something\": \"the government's failure to act\".",
         ],
         examples: [
@@ -37,9 +37,9 @@ export const EN_C1_U03_EXTRA: Lesson[] = [
           {
             type: "multiple-choice",
             question: "\"The ___ of the data took three weeks.\" Which word fits?",
-            options: ["analysis", "analyse", "analysement", "analyzation"],
+            options: ["analysis", "analyze", "analysement", "analyzation"],
             correctIndex: 0,
-            explanation: "The noun is \"analysis\" (plural \"analyses\"). \"Analyse\" (US \"analyze\") is only the verb, and the other two forms do not exist.",
+            explanation: "The noun is \"analysis\" (plural \"analyses\"). \"Analyze\" (British \"analyse\") is only the verb, and the other two forms do not exist.",
           },
           {
             type: "fill-blank",
@@ -128,7 +128,7 @@ export const EN_C1_U03_EXTRA: Lesson[] = [
           "The analysis of the results is going to take several weeks.",
           "It will take several weeks to analyse the results.",
         ],
-        explanation: "The noun is \"analysis\", not *the analyse, which is only the verb. A specific analysis (of these results) takes \"the\".",
+        explanation: "The noun is \"analysis\", not *the analyze, which is only the verb. A specific analysis (of these results) takes \"the\".",
       },
       {
         type: "fill-blank",
@@ -298,7 +298,7 @@ export const EN_C1_U03_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "There has been a sharp rise in unemployment.", en: "Ha habido un fuerte aumento del desempleo." },
-          { es: "Demand for electric cars is growing.", en: "La demanda de coches eléctricos está creciendo." },
+          { es: "Demand for electric cars is growing.", en: "La demanda de carros eléctricos está creciendo." },
           { es: "What was the reason for the delay?", en: "¿Cuál fue el motivo del retraso?" },
           { es: "The new tax will have an impact on small businesses.", en: "El nuevo impuesto tendrá un impacto en las pequeñas empresas." },
           { es: "The key to success is patience.", en: "La clave del éxito es la paciencia." },
@@ -416,7 +416,7 @@ export const EN_C1_U03_EXTRA: Lesson[] = [
         type: "matching",
         instructions: "Match each English phrase with its Spanish meaning.",
         pairs: [
-          { left: "demand for skilled workers", right: "demanda de trabajadores cualificados" },
+          { left: "demand for skilled workers", right: "demanda de trabajadores calificados" },
           { left: "a cure for cancer", right: "una cura contra el cáncer" },
           { left: "the key to success", right: "la clave del éxito" },
           { left: "the effect on children", right: "el efecto en los niños" },
@@ -493,7 +493,7 @@ export const EN_C1_U03_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["There", "is", "a", "growing", "demand", "for", "electric", "cars"],
-        translation: "Hay una demanda creciente de coches eléctricos.",
+        translation: "Hay una demanda creciente de carros eléctricos.",
         explanation: "\"Demand for\" + noun. With an adjective like \"growing\", \"a\" is normal: \"a growing demand for\".",
       },
       {
@@ -553,13 +553,13 @@ export const EN_C1_U03_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: general means no article",
         body: [
-          "Spanish uses «el/la/los/las» for things in general: «La vida es corta», «La gente está preocupada por el paro». English uses no article: \"Life is short\", \"People are worried about unemployment\". This applies to abstract nouns (life, love, crime, health, education, society, nature, history) and to plural nouns in general (\"Children need attention\", \"Prices are rising\").",
+          "Spanish uses «el/la/los/las» for things in general: «La vida es corta», «La gente está preocupada por el desempleo». English uses no article: \"Life is short\", \"People are worried about unemployment\". This applies to abstract nouns (life, love, crime, health, education, society, nature, history) and to plural nouns in general (\"Children need attention\", \"Prices are rising\").",
           "\"The\" comes back when the noun is specific, usually because something follows and limits it: \"the life of a nurse\", \"the history of this town\", \"the education I received\", \"the music in this film\".",
           "A qualified abstract noun can take \"a/an\": \"a good education\", \"a deep knowledge of\", \"a strong sense of humor\", \"a fear of heights\", \"a love of music\".",
         ],
         examples: [
           { es: "Life is too short to argue.", en: "La vida es demasiado corta para discutir." },
-          { es: "Unemployment is rising again.", en: "El paro vuelve a subir." },
+          { es: "Unemployment is rising again.", en: "El desempleo vuelve a subir." },
           { es: "The life of a nurse is not easy.", en: "La vida de una enfermera no es fácil." },
           { es: "She received a very good education.", en: "Recibió una educación muy buena." },
           { es: "He has a deep knowledge of Roman history.", en: "Tiene un profundo conocimiento de la historia romana." },

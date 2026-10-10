@@ -25,7 +25,7 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
           "Spanish helps here, but watch the spelling: \"illegal\" and \"irresponsible\" have a double consonant, and \"impossible\" a double s. \"Dis-\" reverses or negates (\"disagree\", \"dishonest\"), \"mis-\" means «mal», wrongly (\"misunderstand\", \"mislead\"), and \"non-\" simply means «no» (\"non-smoker\", \"non-profit\").",
         ],
         examples: [
-          { es: "It's illegal to park here.", en: "Es ilegal aparcar aquí. (incorrecto: *unlegal, *ilegal)" },
+          { es: "It's illegal to park here.", en: "Es ilegal estacionar aquí. (incorrecto: *unlegal, *ilegal)" },
           { es: "That was completely irresponsible.", en: "Eso fue totalmente irresponsable. (incorrecto: *unresponsible)" },
           { es: "I think you've misunderstood me.", en: "Creo que me has malinterpretado." },
           { es: "This is a non-smoking hotel.", en: "Este es un hotel para no fumadores." },
@@ -34,7 +34,7 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Es ilegal aparcar aquí.» Choose the correct sentence.",
+            question: "«Es ilegal estacionar aquí.» Choose the correct sentence.",
             options: [
               "It's illegal to park here.",
               "It's ilegal to park here.",
@@ -50,7 +50,7 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
         heading: "Quick recap: noun suffixes",
         body: [
           "\"-ness\" turns adjectives into nouns: \"aware\" → \"awareness\", \"kind\" → \"kindness\". A final -y becomes -i: \"happy\" → \"happiness\", never *happyness. \"-ment\" turns verbs into nouns: \"improve\" → \"improvement\", \"agree\" → \"agreement\".",
-          "Spanish «-dad» usually corresponds to English \"-ty\" or \"-ity\": «seguridad» = \"security\", «responsabilidad» = \"responsibility\", «fiabilidad» = \"reliability\". Don't keep the Spanish root: *securidad and *responsability are typical errors.",
+          "Spanish «-dad» usually corresponds to English \"-ty\" or \"-ity\": «seguridad» = \"security\", «responsabilidad» = \"responsibility\", «confiabilidad» = \"reliability\". Don't keep the Spanish root: *securidad and *responsability are typical errors.",
         ],
         examples: [
           { es: "Happiness doesn't depend on money.", en: "La felicidad no depende del dinero." },
@@ -76,7 +76,7 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Es imposible hablar con él cuando está enfadado.",
+        source: "Es imposible hablar con él cuando está enojado.",
         answer: "It's impossible to talk to him when he's angry.",
         altAnswers: [
           "It's impossible to talk with him when he's angry.",
@@ -194,7 +194,7 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi compañero de piso es muy poco fiable.",
+        source: "Mi compañero de departamento es muy poco confiable.",
         answer: "My roommate is very unreliable.",
         altAnswers: [
           "My roommate is really unreliable.",
@@ -257,7 +257,7 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Es una organización sin ánimo de lucro.",
+        source: "Es una organización sin fines de lucro.",
         answer: "It's a non-profit organization.",
         altAnswers: [
           "It's a nonprofit organization.",
@@ -297,7 +297,7 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
         heading: "Quick recap: the Spanish word and the English trap",
         body: [
           "These pairs look alike but mean different things. «Actualmente» is \"currently\" or \"at the moment\" (\"actually\" = «en realidad»); «eventualmente» is \"possibly\" or \"occasionally\" (\"eventually\" = «al final»); «asistir a» is \"attend\" (\"assist\" = «ayudar»); «pretender» is \"intend\", \"mean\" or \"try to\" (\"pretend\" = «fingir»); «realizar» is \"carry out\" (\"realize\" = «darse cuenta»).",
-          "Others are nouns: «carpeta» = \"folder\" (\"carpet\" = «alfombra, moqueta»), «librería» = \"bookstore\" (\"library\" = «biblioteca»), «fábrica» = \"factory\" (\"fabric\" = «tela»), «éxito» = \"success\" (\"exit\" = «salida»), «decepción» = \"disappointment\" (\"deception\" = «engaño»), «compromiso» = \"commitment\" (\"compromise\" = «acuerdo en el que ambas partes ceden»).",
+          "Others are nouns: «carpeta» = \"folder\" (\"carpet\" = «alfombra»), «librería» = \"bookstore\" (\"library\" = «biblioteca»), «fábrica» = \"factory\" (\"fabric\" = «tela»), «éxito» = \"success\" (\"exit\" = «salida»), «decepción» = \"disappointment\" (\"deception\" = «engaño»), «compromiso» = \"commitment\" (\"compromise\" = «acuerdo en el que ambas partes ceden»).",
         ],
         examples: [
           { es: "I'm currently living in Lima.", en: "Actualmente vivo en Lima." },
@@ -380,7 +380,7 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
         answer: "folder",
         altAnswers: ["file"],
         en: "Dejé mis apuntes en una [carpeta] azul en tu escritorio.",
-        explanation: "«Carpeta» is \"folder\". A \"carpet\" is «alfombra» or «moqueta».",
+        explanation: "«Carpeta» is \"folder\". A \"carpet\" is «alfombra».",
       },
       {
         type: "translate",
@@ -479,7 +479,7 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Los camareros fueron muy simpáticos con nosotros.",
+        source: "Los meseros fueron muy simpáticos con nosotros.",
         answer: "The waiters were very friendly to us.",
         altAnswers: [
           "The waiters were really friendly to us.",
@@ -619,9 +619,9 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
           "«Subir» splits into \"rise\" (no object: \"Prices rose\") and \"raise\" (with an object: \"They raised prices\"). «Afectar» is the verb \"affect\"; its noun «efecto» is \"effect\". \"Have an effect on\" = \"affect\".",
         ],
         examples: [
-          { es: "Can I borrow your pen?", en: "¿Me prestas tu boli? (incorrecto: *Can you borrow me...)" },
+          { es: "Can I borrow your pen?", en: "¿Me prestas tu pluma? (incorrecto: *Can you borrow me...)" },
           { es: "Could you lend me ten dollars?", en: "¿Me podrías prestar diez dólares?" },
-          { es: "Someone stole my phone.", en: "Alguien me robó el móvil." },
+          { es: "Someone stole my phone.", en: "Alguien me robó el celular." },
           { es: "Two men robbed a jewelry store.", en: "Dos hombres robaron una joyería." },
           { es: "The temperature rose to 40 degrees.", en: "La temperatura subió a 40 grados." },
           { es: "The noise affected my concentration.", en: "El ruido afectó a mi concentración." },
@@ -649,14 +649,14 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
         heading: "Quick recap: look-alikes",
         body: [
           "\"Lose\" /luːz/ is «perder»; \"loose\" /luːs/ is «suelto», «flojo». \"Principal\" is an adjective («principal») or the head of a school; \"principle\" is a noun («principio»). \"Economic\" is about the economy; \"economical\" means cheap to run. \"Historic\" means important in history; \"historical\" means about or from the past.",
-          "\"Lie\" (lay, lain) means «estar tumbado» and has no object; \"lay\" (laid, laid) means «poner», «colocar» and needs one. The confusion comes from \"lay\", which is both the past of \"lie\" and a verb of its own.",
+          "\"Lie\" (lay, lain) means «estar acostado» and has no object; \"lay\" (laid, laid) means «poner», «colocar» and needs one. The confusion comes from \"lay\", which is both the past of \"lie\" and a verb of its own.",
         ],
         examples: [
           { es: "Don't lose your passport.", en: "No pierdas el pasaporte." },
           { es: "One of the screws is loose.", en: "Uno de los tornillos está flojo." },
           { es: "It's a matter of principle.", en: "Es una cuestión de principios." },
-          { es: "This car is very economical.", en: "Este coche gasta muy poco." },
-          { es: "I lay down on the sofa.", en: "Me tumbé en el sofá." },
+          { es: "This car is very economical.", en: "Este carro gasta muy poco." },
+          { es: "I lay down on the sofa.", en: "Me acosté en el sofá." },
           { es: "She laid the papers on the table.", en: "Dejó los papeles sobre la mesa." },
         ],
         checkpoint: [
@@ -715,7 +715,7 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
         sentence: "These jeans are too ___ on me; I need a belt.",
         answer: "loose",
         altAnswers: ["big", "baggy"],
-        en: "Estos vaqueros me quedan demasiado [flojos]; necesito un cinturón.",
+        en: "Estos jeans me quedan demasiado [flojos]; necesito un cinturón.",
         explanation: "\"Loose\" (/luːs/, with one o sound and an s) means «flojo», «suelto». \"Lose\" (/luːz/) is the verb «perder».",
       },
       {
@@ -774,7 +774,7 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
         sentence: "My new car is very ___: it uses hardly any gas.",
         answer: "economical",
         altAnswers: ["fuel-efficient", "efficient", "cheap to run"],
-        en: "Mi coche nuevo es muy [económico]: casi no gasta gasolina.",
+        en: "Mi carro nuevo es muy [económico]: casi no gasta gasolina.",
         explanation: "\"Economical\" means cheap to run or saving money. \"Economic\" is about the economy: \"economic growth\".",
       },
       {
@@ -819,7 +819,7 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Estoy cansado; me voy a tumbar un rato.",
+        source: "Estoy cansado; me voy a acostar un rato.",
         answer: "I'm tired; I'm going to lie down for a while.",
         altAnswers: [
           "I'm tired; I'm going to lie down for a bit.",

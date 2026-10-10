@@ -67,7 +67,7 @@ export const EN_C2_U07_EXTRA: Lesson[] = [
         heading: "Spanish images that do not travel",
         body: [
           "Some Spanish metaphors have an English equivalent built on a different image. «Echar leña al fuego» is \"add fuel to the fire\" (or \"fan the flames\"); «la gota que colmó el vaso» is \"the last straw\"; «caer en saco roto» is \"fall on deaf ears\"; «correr como la pólvora» is \"spread like wildfire\".",
-          "Others travel almost intact: «dar luz verde» is \"give the green light\", «poner el listón alto» is \"set the bar high\" and «lluvia de ideas» is simply \"brainstorming\" (a storm in the brain, not rain).",
+          "Others travel almost intact: «dar luz verde» is \"give the green light\", «poner la vara alta» is \"set the bar high\" and «lluvia de ideas» is simply \"brainstorming\" (a storm in the brain, not rain).",
           "The rule of thumb at the Mastery level: if you cannot remember having heard the English image, assume it does not exist and look for the native equivalent.",
         ],
         examples: [
@@ -171,9 +171,9 @@ export const EN_C2_U07_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Esta empresa emergente tiene un futuro muy prometedor.",
-        answer: "This start-up has a very bright future.",
+        answer: "This startup has a very bright future.",
         altAnswers: [
-          "This startup has a very bright future.",
+          "This start-up has a very bright future.",
           "This start-up has a very promising future.",
           "This startup has a very promising future.",
           "This start-up has a really bright future.",
@@ -208,7 +208,7 @@ export const EN_C2_U07_EXTRA: Lesson[] = [
           { left: "the last straw", right: "la gota que colmó el vaso" },
           { left: "fall on deaf ears", right: "caer en saco roto" },
           { left: "add fuel to the fire", right: "echar leña al fuego" },
-          { left: "raise the bar", right: "subir el listón" },
+          { left: "raise the bar", right: "subir la vara" },
           { left: "brainstorming", right: "lluvia de ideas" },
           { left: "spread like wildfire", right: "correr como la pólvora" },
         ],
@@ -217,7 +217,7 @@ export const EN_C2_U07_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "When he cancelled at the last minute again, that was ___.",
+        sentence: "When he canceled at the last minute again, that was ___.",
         answer: "the last straw",
         altAnswers: ["the final straw", "the straw that broke the camel's back"],
         en: "Cuando volvió a cancelar en el último momento, fue [la gota que colmó el vaso].",
@@ -281,8 +281,8 @@ export const EN_C2_U07_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Her", "first", "novel", "set", "the", "bar", "very", "high."],
-        translation: "Su primera novela puso el listón muy alto.",
-        explanation: "\"Set the bar high\" («poner el listón alto») comes from the high jump. \"Raise the bar\" means «subir el listón».",
+        translation: "Su primera novela puso la vara muy alta.",
+        explanation: "\"Set the bar high\" («poner la vara alta») comes from the high jump. \"Raise the bar\" means «subir la vara».",
       },
       {
         type: "fill-blank",

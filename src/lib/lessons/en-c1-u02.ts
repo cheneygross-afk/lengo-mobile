@@ -196,7 +196,7 @@ export const EN_C1_U02: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No fue hasta los treinta cuando aprendí a conducir.",
+        source: "No fue hasta los treinta cuando aprendí a manejar.",
         answer: "It wasn't until I was thirty that I learned to drive.",
         altAnswers: [
           "It wasn't until I was thirty that I learned how to drive.",
@@ -294,7 +294,7 @@ export const EN_C1_U02: Lesson[] = [
         ],
         examples: [
           { es: "What I need is a break.", en: "Lo que necesito es un descanso." },
-          { es: "What worries me is the cost.", en: "Lo que me preocupa es el coste." },
+          { es: "What worries me is the cost.", en: "Lo que me preocupa es el costo." },
           { es: "What I like about this city is the light.", en: "Lo que me gusta de esta ciudad es la luz." },
           { es: "What we don't know is how long it will take.", en: "Lo que no sabemos es cuánto tiempo llevará." },
           { es: "What surprised me most was his reaction.", en: "Lo que más me sorprendió fue su reacción." },
@@ -349,7 +349,7 @@ export const EN_C1_U02: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Lo que hice fue apagar el móvil.",
+            source: "Lo que hice fue apagar el celular.",
             answer: "What I did was turn off my phone.",
             altAnswers: [
               "What I did was to turn off my phone.",
@@ -602,10 +602,10 @@ export const EN_C1_U02: Lesson[] = [
           "When the focus is the object, \"that\" can be dropped in informal speech: \"It's not the money I care about\". When the focus is the subject, keep \"who/that\": \"It was Diego who paid\", not *It was Diego paid.",
         ],
         examples: [
-          { es: "It was Tuesday, not Monday, that we agreed on.", en: "Quedamos el martes, no el lunes." },
+          { es: "It was Tuesday, not Monday, that we agreed on.", en: "Acordamos el martes, no el lunes." },
           { es: "It's not the money I care about, it's the principle.", en: "No es el dinero lo que me importa, es el principio." },
           { es: "It was Diego who paid, not me.", en: "Fue Diego quien pagó, no yo." },
-          { es: "It's not you I'm angry with, it's the situation.", en: "No es contigo con quien estoy enfadado, es con la situación." },
+          { es: "It's not you I'm angry with, it's the situation.", en: "No es contigo con quien estoy enojado, es con la situación." },
           { es: "It isn't the heat that bothers me, it's the humidity.", en: "No es el calor lo que me molesta, es la humedad." },
         ],
         checkpoint: [
@@ -792,7 +792,7 @@ export const EN_C1_U02: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No es contigo con quien estoy enfadada.",
+        source: "No es contigo con quien estoy enojada.",
         answer: "It's not you I'm angry with.",
         altAnswers: [
           "It isn't you I'm angry with.",
@@ -1072,8 +1072,8 @@ export const EN_C1_U02: Lesson[] = [
         type: "multi-select",
         question: "Which sentences are correct? Choose all that apply.",
         options: [
-          "What I need is a holiday.",
-          "What I need it is a holiday.",
+          "What I need is a vacation.",
+          "What I need it is a vacation.",
           "It was my sister who told me.",
           "It were my sisters who told me.",
           "All I want is to go home.",
@@ -1160,7 +1160,7 @@ export const EN_C1_U02: Lesson[] = [
         ],
         examples: [
           { es: "I like the idea. It's just that it's a bit expensive.", en: "La idea me gusta. Es que es un poco cara." },
-          { es: "You see, my car broke down, so I had to walk.", en: "Es que se me estropeó el coche y tuve que ir andando." },
+          { es: "You see, my car broke down, so I had to walk.", en: "Es que se me descompuso el carro y tuve que ir caminando." },
           { es: "It's not that I don't want to, it's just that I'm tired.", en: "No es que no quiera, es que estoy cansado." },
           { es: "It's not that she's rude, she's just very direct.", en: "No es que sea maleducada, es que es muy directa." },
         ],
@@ -1273,7 +1273,7 @@ export const EN_C1_U02: Lesson[] = [
         sentence: "___, I've never driven on the left before.",
         answer: "You see",
         altAnswers: ["The thing is", "Well, you see"],
-        en: "[Es que] nunca he conducido por la izquierda.",
+        en: "[Es que] nunca he manejado por la izquierda.",
         explanation: "\"You see, ...\" gives background the listener doesn't know, often to justify something.",
       },
       {
@@ -1320,7 +1320,7 @@ export const EN_C1_U02: Lesson[] = [
         type: "listen-choose",
         audio: "It's not that I'm angry, it's just that I'm disappointed.",
         question: "How does the speaker feel?",
-        options: ["Decepcionado, no enfadado.", "Enfadado, no decepcionado.", "Enfadado y decepcionado.", "Ni enfadado ni decepcionado."],
+        options: ["Decepcionado, no enojado.", "Enojado, no decepcionado.", "Enojado y decepcionado.", "Ni enojado ni decepcionado."],
         correctIndex: 0,
         explanation: "\"It's not that A, it's just that B\" rejects A and confirms B. Note the false friend: \"disappointed\" is «decepcionado», but «decepción» is \"disappointment\", not \"deception\" (which means «engaño»).",
       },
@@ -1734,7 +1734,7 @@ export const EN_C1_U02: Lesson[] = [
         examples: [
           { es: "Why on earth did you say that?", en: "¿Por qué demonios dijiste eso?" },
           { es: "What on earth is that noise?", en: "¿Qué diablos es ese ruido?" },
-          { es: "Where on earth have you been?", en: "¿Dónde narices has estado?" },
+          { es: "Where on earth have you been?", en: "¿Dónde diablos has estado?" },
           { es: "Whoever told you that?", en: "¿Quién te habrá dicho eso?" },
           { es: "How on earth did you manage it?", en: "¿Cómo demonios lo conseguiste?" },
         ],
@@ -2004,7 +2004,7 @@ export const EN_C1_U02: Lesson[] = [
         ],
         examples: [
           { es: "What we need is a long-term plan.", en: "Lo que necesitamos es un plan a largo plazo." },
-          { es: "It is not funding that is lacking, but leadership.", en: "No es financiación lo que falta, sino liderazgo." },
+          { es: "It is not funding that is lacking, but leadership.", en: "No es financiamiento lo que falta, sino liderazgo." },
           { es: "Popular as the measure is, it will not solve the problem.", en: "Por muy popular que sea la medida, no resolverá el problema." },
           { es: "The new law does have some advantages.", en: "Es cierto que la nueva ley tiene algunas ventajas." },
         ],
@@ -2034,7 +2034,7 @@ export const EN_C1_U02: Lesson[] = [
             type: "multiple-choice",
             question: "Which sentence uses emphasis most effectively in an essay?",
             options: [
-              "What is needed is better public transport.",
+              "What is needed is better public transportation.",
               "What it is really absolutely needed is better public transport.",
               "It is what is needed that better public transport is.",
               "Better public transport it is what is needed.",
@@ -2192,7 +2192,7 @@ export const EN_C1_U02: Lesson[] = [
           { es: "I didn't SAY she took it.", en: "Yo no dije que se lo hubiera llevado (quizá lo insinué)." },
           { es: "I didn't say she TOOK it.", en: "Yo no dije que se lo llevara sin más (quizá lo tomó prestado)." },
           { es: "I asked for a LARGE coffee, not a small one.", en: "Pedí un café grande, no uno pequeño." },
-          { es: "It's HIS car, not hers.", en: "El coche es de él, no de ella." },
+          { es: "It's HIS car, not hers.", en: "El carro es de él, no de ella." },
         ],
         checkpoint: [
           {
@@ -2219,7 +2219,7 @@ export const EN_C1_U02: Lesson[] = [
       {
         heading: "Where the main stress goes: new information, not old",
         body: [
-          "In a neutral sentence, the main (nuclear) stress falls on the last content word: \"I'm going to the CINEMA.\" Function words such as \"to\", \"for\", \"of\", \"can\", \"was\" and pronouns are normally weak: \"I can SWIM\" sounds like \"I c'n SWIM\".",
+          "In a neutral sentence, the main (nuclear) stress falls on the last content word: \"I'm going to the MOVIES.\" Function words such as \"to\", \"for\", \"of\", \"can\", \"was\" and pronouns are normally weak: \"I can SWIM\" sounds like \"I c'n SWIM\".",
           "But old (given) information loses its stress, and the stress moves back to whatever is new: \"Do you want some coffee?\" \"I don't DRINK coffee.\" Repeating the stress on \"coffee\" would sound as if you were contrasting coffee with something else. Spanish speakers often stress the last word by default, or give strong stress to pronouns and prepositions.",
           "Auxiliaries and \"be\" take strong stress for emphasis or contradiction: \"I DID lock the door!\", \"She HAS apologized\", \"It IS expensive, I agree\". This is how English says «sí que» or «claro que»: «¡Sí que cerré la puerta!» = \"I DID lock the door!\"",
         ],
@@ -2228,7 +2228,7 @@ export const EN_C1_U02: Lesson[] = [
           { es: "I've got a new dog. Oh, I LOVE dogs.", en: "Tengo un perro nuevo. Ay, me encantan los perros." },
           { es: "I DID lock the door!", en: "¡Sí que cerré la puerta con llave!" },
           { es: "She HAS apologized. Twice.", en: "Sí que se ha disculpado. Dos veces." },
-          { es: "It IS expensive, I agree, but it's worth it.", en: "Es caro, lo reconozco, pero merece la pena." },
+          { es: "It IS expensive, I agree, but it's worth it.", en: "Es caro, lo reconozco, pero vale la pena." },
           { es: "I can SWIM, but I CAN'T dive.", en: "Sé nadar, pero no sé tirarme de cabeza al agua." },
         ],
         checkpoint: [
@@ -3223,7 +3223,7 @@ export const EN_C1_U02: Lesson[] = [
           "Check three things every time: the tense is preserved, no word is added that changes the meaning, and the structure has no extra subject (*What I need it is).",
         ],
         examples: [
-          { es: "I need a holiday. → What I need is a holiday.", en: "Necesito unas vacaciones. → Lo que necesito son unas vacaciones." },
+          { es: "I need a vacation. → What I need is a vacation.", en: "Necesito unas vacaciones. → Lo que necesito son unas vacaciones." },
           { es: "Ana broke it. → It was Ana who broke it.", en: "Lo rompió Ana. → Fue Ana quien lo rompió." },
           { es: "I only want to sleep. → All I want is to sleep.", en: "Solo quiero dormir. → Lo único que quiero es dormir." },
           { es: "I locked the door. → I did lock the door.", en: "Cerré la puerta con llave. → Que sí cerré la puerta con llave." },
@@ -3249,7 +3249,7 @@ export const EN_C1_U02: Lesson[] = [
         examples: [
           { es: "What surprised me was the weather.", en: "Lo que me sorprendió fue el tiempo." },
           { es: "What she did was resign.", en: "Lo que hizo fue dimitir." },
-          { es: "What happened was that the car broke down.", en: "Lo que pasó fue que se averió el coche." },
+          { es: "What happened was that the car broke down.", en: "Lo que pasó fue que se averió el carro." },
           { es: "All you have to do is sign.", en: "Lo único que tienes que hacer es firmar." },
         ],
         checkpoint: [
@@ -3659,7 +3659,7 @@ export const EN_C1_U02: Lesson[] = [
           "Includes one other emphatic device (fronting, emphatic do, an intensifier).",
           "No inversion after \"that\" in a cleft.",
         ],
-        modelAnswer: "Never has our town center been as crowded and noisy as it is today. What we need is not another car park but streets where people can walk safely. Car-free weekends do work: they have been tried in many European cities, and it is the local shops that benefit most. Popular as driving is, few residents would miss the traffic. Should the council decide to try it, I am convinced that within a year nobody would want to go back.",
+        modelAnswer: "Never has our town center been as crowded and noisy as it is today. What we need is not another parking lot but streets where people can walk safely. Car-free weekends do work: they have been tried in many European cities, and it is the local shops that benefit most. Popular as driving is, few residents would miss the traffic. Should the council decide to try it, I am convinced that within a year nobody would want to go back.",
         explanation: "The model uses negative inversion, a wh-cleft, emphatic do, an it-cleft, concessive fronting and conditional inversion, each in its own sentence.",
       },
     ],
@@ -3681,9 +3681,9 @@ export const EN_C1_U02: Lesson[] = [
         ],
         examples: [
           { es: "She was furious with me for being late.", en: "Estaba furiosa conmigo por llegar tarde." },
-          { es: "My dad was livid when he saw the car.", en: "Mi padre se puso hecho una furia cuando vio el coche." },
+          { es: "My dad was livid when he saw the car.", en: "Mi padre se puso hecho una furia cuando vio el carro." },
           { es: "We're thrilled with the results.", en: "Estamos encantadísimos con los resultados." },
-          { es: "I was thrilled to hear the news.", en: "Me hizo muchísima ilusión enterarme de la noticia." },
+          { es: "I was thrilled to hear the news.", en: "Me emocionó muchísimo enterarme de la noticia." },
           { es: "The team was elated after the win.", en: "El equipo estaba eufórico tras la victoria." },
         ],
         checkpoint: [
@@ -3691,7 +3691,7 @@ export const EN_C1_U02: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Me hizo muchísima ilusión que me llamaras.",
+            source: "Me emocionó muchísimo que me llamaras.",
             answer: "I was thrilled that you called me.",
             altAnswers: [
               "I was thrilled you called me.",
@@ -3704,7 +3704,7 @@ export const EN_C1_U02: Lesson[] = [
               "I was delighted you called.",
               "I was really happy that you called me.",
             ],
-            explanation: "«Hacer ilusión» has no direct equivalent; \"thrilled\" or \"delighted\" captures the strong joy. Note that English uses the past simple, not a subjunctive, after \"that\".",
+            explanation: "«Me emocionó muchísimo» is \"I was thrilled\" or \"delighted\": they capture the strong joy. Note that English uses the past simple, not a subjunctive, after \"that\".",
           },
           {
             type: "multiple-choice",
@@ -3767,7 +3767,7 @@ export const EN_C1_U02: Lesson[] = [
           "Avoid \"absolutely\" with ordinary adjectives: *absolutely angry sounds wrong to native ears. Some common collocations: \"absolutely thrilled\", \"utterly appalled\", \"completely overwhelmed\", \"absolutely livid\".",
         ],
         examples: [
-          { es: "He was very angry.", en: "Estaba muy enfadado." },
+          { es: "He was very angry.", en: "Estaba muy enojado." },
           { es: "He was absolutely furious.", en: "Estaba furioso perdido." },
           { es: "She was utterly devastated.", en: "Estaba completamente destrozada." },
           { es: "I'm absolutely thrilled for you.", en: "Me alegro muchísimo por ti." },

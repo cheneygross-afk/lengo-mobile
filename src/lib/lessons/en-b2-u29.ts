@@ -359,7 +359,7 @@ export const EN_B2_U29: Lesson[] = [
         ],
         examples: [
           { es: "She must be tired after that trip.", en: "Debe de estar cansada después de ese viaje." },
-          { es: "He can't be at home; his car isn't here.", en: "No puede estar en casa; su coche no está." },
+          { es: "He can't be at home; his car isn't here.", en: "No puede estar en casa; su carro no está." },
           { es: "They must have missed the train.", en: "Deben de haber perdido el tren." },
           { es: "She might have forgotten about the meeting.", en: "Puede que se haya olvidado de la reunión." },
           { es: "You should have told me.", en: "Deberías habérmelo dicho." },
@@ -377,7 +377,7 @@ export const EN_B2_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say «No puede estar en casa; he visto su coche en la oficina»?",
+            question: "How do you say «No puede estar en casa; he visto su carro en la oficina»?",
             options: [
               "He can't be at home; I've seen his car at the office.",
               "He mustn't be at home; I've seen his car at the office.",
@@ -478,7 +478,7 @@ export const EN_B2_U29: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Te dejo el coche siempre que me lo devuelvas mañana.",
+        source: "Te dejo el carro siempre que me lo devuelvas mañana.",
         answer: "I'll lend you the car as long as you give it back tomorrow.",
         altAnswers: [
           "I'll lend you the car as long as you return it tomorrow.",
@@ -550,7 +550,7 @@ export const EN_B2_U29: Lesson[] = [
         ],
         examples: [
           { es: "The bridge was built in 1990.", en: "El puente se construyó en 1990." },
-          { es: "My car is being repaired.", en: "Me están arreglando el coche." },
+          { es: "My car is being repaired.", en: "Me están arreglando el carro." },
           { es: "The house has been sold.", en: "Han vendido la casa." },
           { es: "The results will be announced tomorrow.", en: "Los resultados se anunciarán mañana." },
           { es: "I was given a watch for my birthday.", en: "Me regalaron un reloj por mi cumpleaños." },
@@ -705,7 +705,7 @@ export const EN_B2_U29: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me robaron el móvil en el metro.",
+        source: "Me robaron el celular en el metro.",
         answer: "My phone was stolen on the subway.",
         altAnswers: [
           "I had my phone stolen on the subway.",
@@ -871,7 +871,7 @@ export const EN_B2_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say «Ya me he acostumbrado a conducir por la izquierda»?",
+            question: "How do you say «Ya me he acostumbrado a manejar por la izquierda»?",
             options: [
               "I've got used to driving on the left.",
               "I've got used to drive on the left.",
@@ -879,7 +879,7 @@ export const EN_B2_U29: Lesson[] = [
               "I've got use to driving on the left.",
             ],
             correctIndex: 0,
-            explanation: "«Acostumbrarse a» is \"get used to\" + -ing. \"I used to drive\" means «antes conducía», a past habit.",
+            explanation: "«Acostumbrarse a» is \"get used to\" + -ing. \"I used to drive\" means «antes manejaba», a past habit.",
           },
         ],
       },
@@ -927,7 +927,7 @@ export const EN_B2_U29: Lesson[] = [
           "For general statements English uses no article: \"Life is short\", \"Money doesn't bring happiness\", \"I love dogs\". Spanish says «la vida», «el dinero», «los perros», which causes the common mistake *The life is short.",
         ],
         examples: [
-          { es: "This phone is much better than the old one.", en: "Este móvil es mucho mejor que el antiguo." },
+          { es: "This phone is much better than the old one.", en: "Este celular es mucho mejor que el antiguo." },
           { es: "The more you practice, the easier it gets.", en: "Cuanto más practicas, más fácil resulta." },
           { es: "Most people work from Monday to Friday.", en: "La mayoría de la gente trabaja de lunes a viernes." },
           { es: "There's very little milk left.", en: "Queda muy poca leche." },
@@ -1342,7 +1342,7 @@ export const EN_B2_U29: Lesson[] = [
           "Spanish speakers often write \"what\" for «lo que» after a comma (it should be \"which\") and \"that\" in non-defining clauses with commas (it should be \"who\" or \"which\").",
         ],
         examples: [
-          { es: "The woman whose car was stolen called the police.", en: "La mujer a la que le robaron el coche llamó a la policía." },
+          { es: "The woman whose car was stolen called the police.", en: "La mujer a la que le robaron el carro llamó a la policía." },
           { es: "He lost his keys, which meant we had to wait outside.", en: "Perdió las llaves, lo que significó que tuvimos que esperar fuera." },
           { es: "Despite the rain, the concert went ahead.", en: "A pesar de la lluvia, el concierto se celebró." },
           { es: "We'll miss the train unless we leave now.", en: "Perderemos el tren a menos que salgamos ya." },
@@ -1897,7 +1897,7 @@ export const EN_B2_U29: Lesson[] = [
         ],
         examples: [
           { es: "It's impossible to sleep with this noise.", en: "Es imposible dormir con este ruido." },
-          { es: "Parking here is illegal.", en: "Aparcar aquí es ilegal." },
+          { es: "Parking here is illegal.", en: "Estacionar aquí es ilegal." },
           { es: "That was very irresponsible of you.", en: "Eso fue muy irresponsable por tu parte." },
           { es: "He's been unemployed since March.", en: "Está desempleado desde marzo." },
           { es: "I think you misunderstood me.", en: "Creo que me has entendido mal." },

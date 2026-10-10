@@ -337,7 +337,7 @@ export const EN_C2_U01: Lesson[] = [
           { es: "The Company may, at its sole discretion, refuse any application.", en: "La empresa podrá, a su entera discreción, rechazar cualquier solicitud." },
           { es: "The Employee is entitled to 25 days' paid leave per year.", en: "El empleado tiene derecho a 25 días de vacaciones retribuidas al año." },
           { es: "Prices may change without notice.", en: "Los precios pueden cambiar sin previo aviso." },
-          { es: "Visitors may use the parking lot free of charge.", en: "Los visitantes pueden usar el aparcamiento de forma gratuita." },
+          { es: "Visitors may use the parking lot free of charge.", en: "Los visitantes pueden usar el estacionamiento de forma gratuita." },
         ],
         checkpoint: [
           {
@@ -418,7 +418,7 @@ export const EN_C2_U01: Lesson[] = [
         ],
         examples: [
           { es: "You must pay the rent on the first day of each month.", en: "Debe pagar el alquiler el primer día de cada mes." },
-          { es: "You must not keep pets in the apartment.", en: "No puede tener mascotas en el piso." },
+          { es: "You must not keep pets in the apartment.", en: "No puede tener mascotas en el departamento." },
           { es: "You may end this agreement by giving us two months' notice.", en: "Puede poner fin a este contrato avisándonos con dos meses de antelación." },
           { es: "We will send you an invoice each month.", en: "Le enviaremos una factura cada mes." },
         ],
@@ -1716,7 +1716,7 @@ export const EN_C2_U01: Lesson[] = [
         ],
         examples: [
           { es: "She sued the airline for compensation.", en: "Demandó a la aerolínea para obtener una indemnización." },
-          { es: "He was prosecuted for driving without insurance.", en: "Lo procesaron por conducir sin seguro." },
+          { es: "He was prosecuted for driving without insurance.", en: "Lo procesaron por manejar sin seguro." },
           { es: "Two men have been charged with armed robbery.", en: "Dos hombres han sido acusados formalmente de robo a mano armada." },
           { es: "She accused him of stealing her ideas.", en: "Lo acusó de robarle las ideas." },
           { es: "Shoplifters will be prosecuted.", en: "Se procesará a quien robe en la tienda." },
@@ -1726,7 +1726,7 @@ export const EN_C2_U01: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "He has been charged ___ dangerous driving.",
+            sentence: "He has been charged ___ reckless driving.",
             answer: "with",
             en: "Ha sido acusado formalmente [de] conducción temeraria.",
             explanation: "\"Charge\" takes \"with\"; \"accuse\" and \"convict\" take \"of\".",
@@ -1749,7 +1749,7 @@ export const EN_C2_U01: Lesson[] = [
         ],
         examples: [
           { es: "Crime has fallen in most big cities.", en: "La delincuencia ha bajado en la mayoría de las grandes ciudades." },
-          { es: "It is an offense to drive without a valid license.", en: "Conducir sin un permiso válido es una infracción penal." },
+          { es: "It is an offense to drive without a valid license.", en: "Manejar sin un permiso válido es una infracción penal." },
           { es: "Shoplifting is usually charged as a misdemeanor.", en: "El hurto en tiendas suele imputarse como delito leve." },
           { es: "Armed robbery is a felony in every US state.", en: "El robo a mano armada es un delito grave en todos los estados de EE. UU." },
           { es: "He committed the offense while he was on bail.", en: "Cometió el delito mientras estaba en libertad bajo fianza." },

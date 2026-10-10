@@ -91,7 +91,7 @@ export const EN_B1_U11: Lesson[] = [
         examples: [
           { es: "I had to work late yesterday.", en: "Ayer tuve que trabajar hasta tarde." },
           { es: "We had to walk home.", en: "Tuvimos que volver a casa andando." },
-          { es: "Did you have to pay for parking?", en: "¿Tuviste que pagar el aparcamiento?" },
+          { es: "Did you have to pay for parking?", en: "¿Tuviste que pagar el estacionamiento?" },
           { es: "You'll have to wait a few minutes.", en: "Tendrás que esperar unos minutos." },
           { es: "She'll have to find a new job.", en: "Tendrá que buscar otro trabajo." },
           { es: "When I was a kid, I had to wear a uniform.", en: "De pequeño tenía que llevar uniforme." },
@@ -220,8 +220,8 @@ export const EN_B1_U11: Lesson[] = [
         ],
         examples: [
           { es: "You mustn't tell anyone.", en: "No se lo debes contar a nadie." },
-          { es: "Students must not use their phones during the exam.", en: "Los alumnos no pueden usar el móvil durante el examen." },
-          { es: "You must not park in front of the gate.", en: "Prohibido aparcar delante de la puerta." },
+          { es: "Students must not use their phones during the exam.", en: "Los alumnos no pueden usar el celular durante el examen." },
+          { es: "You must not park in front of the gate.", en: "Prohibido estacionar delante de la puerta." },
           { es: "We mustn't be late.", en: "No podemos llegar tarde." },
           { es: "You mustn't swim here. It's dangerous.", en: "No debes nadar aquí. Es peligroso." },
         ],
@@ -303,7 +303,7 @@ export const EN_B1_U11: Lesson[] = [
         ],
         examples: [
           { es: "You must arrive on time.", en: "Hay que llegar puntual." },
-          { es: "You mustn't use your phone in class.", en: "Está prohibido usar el móvil en clase." },
+          { es: "You mustn't use your phone in class.", en: "Está prohibido usar el celular en clase." },
           { es: "You don't have to bring a dictionary.", en: "No hace falta traer diccionario." },
           { es: "Employees must wear a badge.", en: "Los empleados deben llevar la tarjeta identificativa." },
           { es: "You mustn't share your password.", en: "No debes compartir tu contraseña." },
@@ -315,7 +315,7 @@ export const EN_B1_U11: Lesson[] = [
             instructions: "Match each rule with its meaning.",
             pairs: [
               { left: "You must arrive on time.", right: "Hay que llegar puntual." },
-              { left: "You mustn't use your phone.", right: "Está prohibido usar el móvil." },
+              { left: "You mustn't use your phone.", right: "Está prohibido usar el celular." },
               { left: "You don't have to bring a dictionary.", right: "No hace falta traer diccionario." },
               { left: "You have to wear a badge.", right: "Es obligatorio llevar la tarjeta." },
             ],
@@ -356,7 +356,7 @@ export const EN_B1_U11: Lesson[] = [
         sentence: "Students ___ use their phones during the exam.",
         answer: "must not",
         altAnswers: ["can't", "cannot", "aren't allowed to", "are not allowed to"],
-        en: "Los alumnos [no pueden] usar el móvil durante el examen.",
+        en: "Los alumnos [no pueden] usar el celular durante el examen.",
         explanation: "A rule that prohibits something: \"must not\" (written rules) or \"can't\".",
       },
       {
@@ -435,7 +435,7 @@ export const EN_B1_U11: Lesson[] = [
           { es: "You don't need to call me.", en: "No hace falta que me llames." },
           { es: "She doesn't need to come.", en: "No hace falta que venga." },
           { es: "You needn't worry.", en: "No hace falta que te preocupes." },
-          { es: "We didn't need to take a taxi.", en: "No nos hizo falta coger un taxi." },
+          { es: "We didn't need to take a taxi.", en: "No nos hizo falta tomar un taxi." },
           { es: "Do I need to bring my passport?", en: "¿Tengo que traer el pasaporte?" },
         ],
         checkpoint: [
@@ -458,7 +458,7 @@ export const EN_B1_U11: Lesson[] = [
           "It has a past too: \"I wasn't allowed to go out on weeknights\" = «no me dejaban salir entre semana». Notice that English makes the person the subject: «no me dejaban» becomes \"I wasn't allowed to\" or \"My parents didn't let me\".",
         ],
         examples: [
-          { es: "You can't park here.", en: "Aquí no se puede aparcar." },
+          { es: "You can't park here.", en: "Aquí no se puede estacionar." },
           { es: "Are we allowed to use a dictionary?", en: "¿Podemos usar el diccionario?" },
           { es: "Kids aren't allowed to go in.", en: "Los niños no pueden entrar." },
           { es: "You're allowed to bring one bag.", en: "Se permite llevar una bolsa." },
@@ -491,7 +491,7 @@ export const EN_B1_U11: Lesson[] = [
           "In speech it sounds like \"supposta\": the d disappears. But in writing, never drop the d or the verb \"be\": \"You're supposed to\", not *You suppose to or *You supposed to.",
         ],
         examples: [
-          { es: "You're not supposed to park here.", en: "Aquí no se debería aparcar." },
+          { es: "You're not supposed to park here.", en: "Aquí no se debería estacionar." },
           { es: "We're supposed to be there at nine.", en: "Se supone que tenemos que estar allí a las nueve." },
           { es: "I was supposed to call her yesterday.", en: "Ayer tenía que llamarla (y no lo hice)." },
           { es: "What am I supposed to do?", en: "¿Y qué se supone que tengo que hacer?" },
@@ -502,7 +502,7 @@ export const EN_B1_U11: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Se supone que no se puede aparcar aquí.",
+            source: "Se supone que no se puede estacionar aquí.",
             answer: "You're not supposed to park here.",
             altAnswers: ["You aren't supposed to park here.", "We're not supposed to park here.", "We aren't supposed to park here."],
             explanation: "«Se supone que» = \"be supposed to\". English needs a subject; with general rules we use \"you\".",
@@ -528,7 +528,7 @@ export const EN_B1_U11: Lesson[] = [
           { es: "You don't need to print the ticket.", en: "No hace falta imprimir la entrada." },
           { es: "You aren't allowed to bring food.", en: "No se permite traer comida." },
           { es: "You can sit anywhere.", en: "Puedes sentarte donde quieras." },
-          { es: "You're supposed to turn off your phone.", en: "Se supone que hay que apagar el móvil." },
+          { es: "You're supposed to turn off your phone.", en: "Se supone que hay que apagar el celular." },
         ],
         checkpoint: [
           {
@@ -599,10 +599,10 @@ export const EN_B1_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No nos hizo falta coger un taxi.",
+        source: "No nos hizo falta tomar un taxi.",
         answer: "We didn't need to take a taxi.",
         altAnswers: ["We didn't have to take a taxi.", "We didn't need to get a taxi.", "We didn't have to get a taxi.", "We didn't need to take a cab.", "We didn't have to take a cab."],
-        explanation: "Past of \"don't need to\" is \"didn't need to\". Careful: in Latin America «coger» can be vulgar, but in English it's just \"take\" or \"get\" a taxi.",
+        explanation: "Past of \"don't need to\" is \"didn't need to\". In English you \"take\" or \"get\" a taxi.",
       },
       {
         type: "multiple-choice",
@@ -615,7 +615,7 @@ export const EN_B1_U11: Lesson[] = [
         type: "listen-choose",
         audio: "You're not supposed to park here.",
         question: "What does it mean?",
-        options: ["Aquí no se debería aparcar.", "No hace falta aparcar aquí.", "Tienes que aparcar aquí.", "Puedes aparcar aquí."],
+        options: ["Aquí no se debería estacionar.", "No hace falta estacionar aquí.", "Tienes que estacionar aquí.", "Puedes estacionar aquí."],
         correctIndex: 0,
         explanation: "\"Not supposed to\" = the rule says no. In speech it sounds like \"supposta\".",
       },
@@ -877,7 +877,7 @@ export const EN_B1_U11: Lesson[] = [
         examples: [
           { es: "I shouldn't have eaten so much.", en: "No debería haber comido tanto." },
           { es: "I'm sorry. I shouldn't have said that.", en: "Perdona. No debería haber dicho eso." },
-          { es: "He shouldn't have driven so fast.", en: "No debería haber conducido tan rápido." },
+          { es: "He shouldn't have driven so fast.", en: "No debería haber manejado tan rápido." },
           { es: "We shouldn't have stayed up so late.", en: "No deberíamos habernos acostado tan tarde." },
           { es: "Oh, you shouldn't have!", en: "¡Ay, no tenías que haberte molestado!" },
         ],
@@ -1053,7 +1053,7 @@ export const EN_B1_U11: Lesson[] = [
           "Rules and plans that people expect, but don't always follow: \"be supposed to\".",
         ],
         examples: [
-          { es: "You can't use your phone here.", en: "Aquí no se puede usar el móvil." },
+          { es: "You can't use your phone here.", en: "Aquí no se puede usar el celular." },
           { es: "Are we allowed to take photos?", en: "¿Se pueden hacer fotos?" },
           { es: "You're supposed to wear a helmet.", en: "Se supone que hay que llevar casco." },
         ],
@@ -1106,7 +1106,7 @@ export const EN_B1_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Aquí no se puede usar el móvil.",
+        source: "Aquí no se puede usar el celular.",
         answer: "You can't use your phone here.",
         altAnswers: ["You can't use your cell phone here.", "You can't use your mobile here.", "You can't use your mobile phone here.", "You mustn't use your phone here.", "You aren't allowed to use your phone here.", "You're not allowed to use your phone here.", "You can't use phones here.", "You can't use your cellphone here."],
         explanation: "Prohibition: \"can't\", \"mustn't\" or \"aren't allowed to\". Spanish «se» becomes \"you\" in general rules.",
@@ -1117,7 +1117,7 @@ export const EN_B1_U11: Lesson[] = [
         sentence: "___ tell her the truth, or she'll be really angry.",
         answer: "You'd better",
         altAnswers: ["You had better", "You should"],
-        en: "[Más vale que] le digas la verdad, o se va a enfadar mucho.",
+        en: "[Más vale que] le digas la verdad, o se va a enojar mucho.",
         explanation: "Advice with a warning (\"or she'll be angry\") = \"had better\".",
       },
       {
@@ -1156,7 +1156,7 @@ export const EN_B1_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say «No deberías haber conducido tan rápido»?",
+        question: "How do you say «No deberías haber manejado tan rápido»?",
         options: ["You shouldn't have driven so fast.", "You shouldn't drove so fast.", "You shouldn't have drove so fast.", "You didn't should drive so fast."],
         correctIndex: 0,
         explanation: "\"Shouldn't have\" + past participle: \"driven\", not the past simple \"drove\".",
@@ -2020,7 +2020,7 @@ export const EN_B1_U11: Lesson[] = [
         type: "listen-choose",
         audio: "I think I caught a cold.",
         question: "What does it mean?",
-        options: ["Creo que me he resfriado.", "Creo que tengo frío.", "Creo que he cogido algo frío.", "Creo que estoy estreñido."],
+        options: ["Creo que me he resfriado.", "Creo que tengo frío.", "Creo que he tomado algo frío.", "Creo que estoy estreñido."],
         correctIndex: 0,
         explanation: "\"Catch a cold\" = «resfriarse». \"I'm cold\" would be «tengo frío».",
       },

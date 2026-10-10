@@ -21,11 +21,11 @@ export const EN_B1_U21_EXTRA: Lesson[] = [
         heading: "Quick recap: the -ing group",
         body: [
           "These verbs are followed by -ing, never by \"to\": \"enjoy\", \"avoid\", \"mind\", \"finish\", \"suggest\", \"keep\", \"consider\", \"practice\", \"miss\", \"give up\" and \"can't stand\".",
-          "Spanish uses an infinitive after all of them («disfruto nadando / me gusta nadar», «evito conducir», «terminé de leer»), so the typical mistakes are *I enjoy to swim, *avoid to drive, *I suggest to go. There is no \"of\" either: *finish of reading.",
+          "Spanish uses an infinitive after all of them («disfruto nadando / me gusta nadar», «evito manejar», «terminé de leer»), so the typical mistakes are *I enjoy to swim, *avoid to drive, *I suggest to go. There is no \"of\" either: *finish of reading.",
         ],
         examples: [
           { es: "I enjoy walking in the rain.", en: "Disfruto caminando bajo la lluvia." },
-          { es: "She avoids driving downtown.", en: "Evita conducir por el centro." },
+          { es: "She avoids driving downtown.", en: "Evita manejar por el centro." },
           { es: "Would you mind waiting outside?", en: "¿Le importaría esperar fuera?" },
           { es: "He suggested ordering pizza.", en: "Propuso pedir pizza." },
           { es: "My phone keeps freezing.", en: "Mi teléfono no para de bloquearse." },
@@ -61,7 +61,7 @@ export const EN_B1_U21_EXTRA: Lesson[] = [
           { es: "I hope to see you soon.", en: "Espero verte pronto." },
           { es: "They agreed to help.", en: "Accedieron a ayudar." },
           { es: "He refused to answer.", en: "Se negó a contestar." },
-          { es: "I managed to find a parking spot.", en: "Logré encontrar aparcamiento." },
+          { es: "I managed to find a parking spot.", en: "Logré encontrar estacionamiento." },
           { es: "She promised not to tell anyone.", en: "Prometió no decírselo a nadie." },
         ],
         checkpoint: [
@@ -512,7 +512,7 @@ export const EN_B1_U21_EXTRA: Lesson[] = [
         examples: [
           { es: "Swimming is great exercise.", en: "Nadar es un ejercicio estupendo." },
           { es: "Learning languages takes time.", en: "Aprender idiomas lleva tiempo." },
-          { es: "Driving at night makes me nervous.", en: "Conducir de noche me pone nervioso." },
+          { es: "Driving at night makes me nervous.", en: "Manejar de noche me pone nervioso." },
           { es: "Eating out every day is expensive.", en: "Comer fuera todos los días es caro." },
         ],
         checkpoint: [

@@ -98,7 +98,7 @@ export const EN_C1_U03: Lesson[] = [
           { es: "Her performance was outstanding.", en: "Su actuación fue extraordinaria." },
           { es: "We have no evidence of the existence of life on Mars.", en: "No tenemos pruebas de la existencia de vida en Marte." },
           { es: "The complexity of the problem surprised the experts.", en: "La complejidad del problema sorprendió a los expertos." },
-          { es: "Public awareness of the issue is growing.", en: "La concienciación pública sobre el tema está creciendo." },
+          { es: "Public awareness of the issue is growing.", en: "La concientización pública sobre el tema está creciendo." },
           { es: "The release of the report was postponed.", en: "La publicación del informe se aplazó." },
         ],
         checkpoint: [
@@ -239,7 +239,7 @@ export const EN_C1_U03: Lesson[] = [
         pairs: [
           { left: "refusal", right: "negativa" },
           { left: "failure", right: "fracaso" },
-          { left: "awareness", right: "concienciación" },
+          { left: "awareness", right: "concientización" },
           { left: "departure", right: "salida" },
           { left: "approval", right: "aprobación" },
         ],
@@ -274,7 +274,7 @@ export const EN_C1_U03: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Her ___ to pay the rent led to her eviction.",
         answer: "failure",
-        en: "[El hecho de que no pagara] el alquiler llevó a su desahucio.",
+        en: "[El hecho de que no pagara] el alquiler llevó a su desalojo.",
         explanation: "\"Failure to do something\" is the standard nominal way of saying that someone did not do it: \"her failure to pay\".",
       },
       {
@@ -420,9 +420,9 @@ export const EN_C1_U03: Lesson[] = [
           "Do not chain «de» as in Spanish. «El informe del director del departamento de ventas» becomes \"the sales director's report\", not *the report of the director of the department of sales.",
         ],
         examples: [
-          { es: "The company's profits doubled.", en: "Los beneficios de la empresa se duplicaron." },
+          { es: "The company's profits doubled.", en: "Las ganancias de la empresa se duplicaron." },
           { es: "Last year's results were disappointing.", en: "Los resultados del año pasado fueron decepcionantes." },
-          { es: "The cost of living keeps going up.", en: "El coste de la vida no deja de subir." },
+          { es: "The cost of living keeps going up.", en: "El costo de la vida no deja de subir." },
           { es: "We reached the end of the road.", en: "Llegamos al final del camino." },
           { es: "The sales director's report was very clear.", en: "El informe del director de ventas fue muy claro." },
         ],
@@ -441,7 +441,7 @@ export const EN_C1_U03: Lesson[] = [
             question: "Which phrase is natural English?",
             options: ["the cost of living", "the living's cost", "the cost of the life", "the life's cost"],
             correctIndex: 0,
-            explanation: "With abstract ideas use \"of\". \"The cost of living\" is a fixed phrase: «el coste de la vida».",
+            explanation: "With abstract ideas use \"of\". \"The cost of living\" is a fixed phrase: «el costo de la vida».",
           },
         ],
       },
@@ -510,7 +510,7 @@ export const EN_C1_U03: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "There is growing demand ___ electric cars.",
         answer: "for",
-        en: "Hay una demanda creciente [de] coches eléctricos.",
+        en: "Hay una demanda creciente [de] carros eléctricos.",
         explanation: "\"Demand for\", like \"need for\" and \"reason for\".",
       },
       {
@@ -642,7 +642,7 @@ export const EN_C1_U03: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "La subida de los tipos de interés provocó una caída de la demanda.",
+            source: "La subida de las tasas de interés provocó una caída de la demanda.",
             answer: "The rise in interest rates led to a fall in demand.",
             altAnswers: [
               "The rise in interest rates led to a drop in demand.",
@@ -677,7 +677,7 @@ export const EN_C1_U03: Lesson[] = [
           "\"Due to\" is a preposition, so it needs a noun, not a clause. Spanish «debido a que los precios subieron» is \"because prices rose\" or \"due to the rise in prices\", never *due to prices rose.",
         ],
         examples: [
-          { es: "Higher costs led to a drop in profits.", en: "El aumento de los costes provocó una caída de los beneficios." },
+          { es: "Higher costs led to a drop in profits.", en: "El aumento de los costos provocó una caída de las ganancias." },
           { es: "The storm resulted in serious damage.", en: "La tormenta causó daños graves." },
           { es: "The damage resulted from the storm.", en: "Los daños fueron consecuencia de la tormenta." },
           { es: "Poor management contributed to the crisis.", en: "La mala gestión contribuyó a la crisis." },
@@ -793,7 +793,7 @@ export const EN_C1_U03: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El aumento del paro se debe al cierre de varias fábricas.",
+        source: "El aumento del desempleo se debe al cierre de varias fábricas.",
         answer: "The rise in unemployment is due to the closure of several factories.",
         altAnswers: [
           "The increase in unemployment is due to the closure of several factories.",
@@ -854,7 +854,7 @@ export const EN_C1_U03: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Higher costs ___ to a drop in profits.",
         answer: "led",
-        en: "El aumento de los costes [provocó] una caída de los beneficios.",
+        en: "El aumento de los costos [provocó] una caída de las ganancias.",
         explanation: "\"Lead to\" (past \"led\") links a cause to its effect. \"Contributed to\" would suggest it was only one of several causes.",
       },
       {
@@ -921,7 +921,7 @@ export const EN_C1_U03: Lesson[] = [
         examples: [
           { es: "her refusal to comment", en: "su negativa a hacer comentarios" },
           { es: "the closure of the airport", en: "el cierre del aeropuerto" },
-          { es: "a lack of awareness", en: "una falta de concienciación" },
+          { es: "a lack of awareness", en: "una falta de concientización" },
         ],
         checkpoint: [
           {
@@ -951,7 +951,7 @@ export const EN_C1_U03: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "The decision had a huge effect ___ staff morale.",
             answer: "on",
-            en: "La decisión tuvo un efecto enorme [en] la moral de la plantilla.",
+            en: "La decisión tuvo un efecto enorme [en] la moral del personal.",
             explanation: "\"Effect on\", \"impact on\", \"influence on\". If this was hard, revisit Nominalisation, Part 2 of 2.",
           },
         ],
@@ -1038,7 +1038,7 @@ export const EN_C1_U03: Lesson[] = [
           "The government's refusal to provide explanations outraged the opposition.",
           "The government's refusal to provide an explanation outraged the opposition.",
         ],
-        explanation: "\"The government's refusal to...\": possessive + \"refusal\" + infinitive. Parts 1 and 3.",
+        explanation: "\"The government's refusal to...\": possessive + \"refusal\" + infinitive. Part 1 and Nominalization in Practice.",
       },
       {
         type: "fill-blank",
@@ -1077,7 +1077,7 @@ export const EN_C1_U03: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Public ___ of climate change has grown.",
         answer: "awareness",
-        en: "La [concienciación] pública sobre el cambio climático ha aumentado.",
+        en: "La [concientización] pública sobre el cambio climático ha aumentado.",
         explanation: "\"Aware\" > \"awareness\" (-ness), followed by \"of\". Part 1.",
       },
       {
@@ -1109,7 +1109,7 @@ export const EN_C1_U03: Lesson[] = [
           "Due to prices increased sharply, car sales fell.",
         ],
         correctIndex: 0,
-        explanation: "Adjective + noun + \"in\": \"a sharp increase in prices\", \"a fall in car sales\". Part 3.",
+        explanation: "Adjective + noun + \"in\": \"a sharp increase in prices\", \"a fall in car sales\". Nominalization in Practice.",
       },
       {
         type: "translate",
@@ -1128,7 +1128,7 @@ export const EN_C1_U03: Lesson[] = [
           "The delay was caused by a technical issue.",
           "The delay was caused by a technical glitch.",
         ],
-        explanation: "\"Due to\" + noun phrase. Part 3.",
+        explanation: "\"Due to\" + noun phrase. Nominalization in Practice.",
       },
       {
         type: "fill-blank",
@@ -1306,7 +1306,7 @@ export const EN_C1_U03: Lesson[] = [
         sentence: "Please ___ the form and send it back.",
         answer: "fill out",
         altAnswers: ["fill in", "complete"],
-        en: "Por favor, [cumplimente] el formulario y envíelo.",
+        en: "Por favor, [llene] el formulario y envíelo.",
         explanation: "«Cumplimentar» is \"fill out\" (American), \"fill in\" (British) or \"complete\". Never *cumplimentate or *implement.",
       },
       {
@@ -1427,14 +1427,14 @@ export const EN_C1_U03: Lesson[] = [
       {
         heading: "General ideas take no article",
         body: [
-          "When you talk about an abstract idea in general, English uses no article: \"Society is changing\", \"Life is short\", \"Unemployment has risen\", \"Education is the key to progress\", \"Time is money\". Spanish always uses «el/la» here («la sociedad», «la vida», «el paro»), so even advanced learners write *The society is changing in their essays.",
+          "When you talk about an abstract idea in general, English uses no article: \"Society is changing\", \"Life is short\", \"Unemployment has risen\", \"Education is the key to progress\", \"Time is money\". Spanish always uses «el/la» here («la sociedad», «la vida», «el desempleo»), so even advanced learners write *The society is changing in their essays.",
           "This applies to all uncountable nouns used in a general sense: love, money, nature, technology, crime, poverty, health, happiness, history, politics, art, music.",
           "An adjective does not change this: \"modern society\", \"human nature\", \"Western culture\", \"public health\", \"Spanish history\" are still general, so still no article.",
         ],
         examples: [
           { es: "Society is changing faster than ever.", en: "La sociedad está cambiando más rápido que nunca." },
           { es: "Life is too short to worry about money.", en: "La vida es demasiado corta para preocuparse por el dinero." },
-          { es: "Unemployment has risen for the third month in a row.", en: "El paro ha subido por tercer mes consecutivo." },
+          { es: "Unemployment has risen for the third month in a row.", en: "El desempleo ha subido por tercer mes consecutivo." },
           { es: "Education is the key to progress.", en: "La educación es la clave del progreso." },
           { es: "Human nature never changes.", en: "La naturaleza humana no cambia nunca." },
           { es: "Technology has changed the way we work.", en: "La tecnología ha cambiado nuestra forma de trabajar." },
@@ -1462,7 +1462,7 @@ export const EN_C1_U03: Lesson[] = [
       {
         heading: "Plural nouns in general",
         body: [
-          "The same rule applies to plural nouns used in a general sense: \"People think...\", \"Young people today...\", \"Children need routines\", \"Smartphones have changed our lives\". Spanish says «la gente», «los jóvenes», «los niños», «los móviles».",
+          "The same rule applies to plural nouns used in a general sense: \"People think...\", \"Young people today...\", \"Children need routines\", \"Smartphones have changed our lives\". Spanish says «la gente», «los jóvenes», «los niños», «los celulares».",
           "\"The people\" exists, but it means a specific group (\"the people I met\") or the nation as a political body (\"the will of the people\"). In an essay, «la gente piensa que...» is simply \"people think that...\".",
           "Watch \"most\": «la mayoría de la gente» is \"most people\", not *the most of the people or *the most people. Use \"most of\" only before a determiner: \"most of the people in this room\".",
         ],
@@ -1788,7 +1788,7 @@ export const EN_C1_U03: Lesson[] = [
           { es: "She has a good knowledge of the market.", en: "Tiene un buen conocimiento del mercado." },
           { es: "We need a better understanding of the problem.", en: "Necesitamos comprender mejor el problema." },
           { es: "The job involves a high level of stress.", en: "El trabajo implica un alto nivel de estrés." },
-          { es: "There is a growing awareness of the risks.", en: "Hay una creciente concienciación de los riesgos." },
+          { es: "There is a growing awareness of the risks.", en: "Hay una creciente concientización de los riesgos." },
           { es: "She gave me good advice.", en: "Me dio un buen consejo." },
           { es: "There is strong evidence for this theory.", en: "Hay pruebas sólidas a favor de esta teoría." },
         ],
@@ -1798,7 +1798,7 @@ export const EN_C1_U03: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "There has been ___ growing awareness of the problem.",
             answer: "a",
-            en: "Ha habido [una] creciente concienciación del problema.",
+            en: "Ha habido [una] creciente concientización del problema.",
             explanation: "\"Awareness\" is uncountable, but with an adjective it often takes \"a\": \"a growing awareness\".",
           },
           {
@@ -1974,7 +1974,7 @@ export const EN_C1_U03: Lesson[] = [
         examples: [
           { es: "Poverty is a global problem.", en: "La pobreza es un problema global." },
           { es: "The poverty I saw there shocked me.", en: "La pobreza que vi allí me impactó." },
-          { es: "The government has cut spending on health.", en: "El Gobierno ha recortado el gasto en sanidad." },
+          { es: "The government has cut spending on health.", en: "El Gobierno ha recortado el gasto en salud." },
         ],
         checkpoint: [
           {
@@ -2116,7 +2116,7 @@ export const EN_C1_U03: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La mayoría de los expertos coinciden en que el paro seguirá bajando.",
+        source: "La mayoría de los expertos coinciden en que el desempleo seguirá bajando.",
         answer: "Most experts agree that unemployment will continue to fall.",
         altAnswers: [
           "Most experts agree that unemployment will keep falling.",
@@ -2348,12 +2348,12 @@ export const EN_C1_U03: Lesson[] = [
         question: "Find the mistake: *The unemployment of the young people is a serious problem. Which is the best correction?",
         options: [
           "Youth unemployment is a serious problem.",
-          "The unemployment of young people is a serious problem.",
+          "The unemployment of youngs is a serious problem.",
           "The youth's unemployment is a serious problem.",
           "Unemployment of the youths is a serious problem.",
         ],
         correctIndex: 0,
-        explanation: "\"Youth unemployment\" is the standard compound. *The unemployment of the young people copies the Spanish «el paro de los jóvenes».",
+        explanation: "\"Youth unemployment\" is the standard compound. *The unemployment of the young people copies the Spanish «el desempleo de los jóvenes».",
       },
       {
         type: "translate",
@@ -2532,7 +2532,7 @@ export const EN_C1_U03: Lesson[] = [
           { es: "His inability to concentrate worried his teachers.", en: "Su incapacidad para concentrarse preocupaba a sus profesores." },
           { es: "The disappearance of the painting is still a mystery.", en: "La desaparición del cuadro sigue siendo un misterio." },
           { es: "There was a disagreement about the budget.", en: "Hubo un desacuerdo sobre el presupuesto." },
-          { es: "Youth unemployment has fallen.", en: "El paro juvenil ha bajado." },
+          { es: "Youth unemployment has fallen.", en: "El desempleo juvenil ha bajado." },
         ],
         checkpoint: [
           {
@@ -2759,7 +2759,7 @@ export const EN_C1_U03: Lesson[] = [
         ],
         examples: [
           { es: "An increase in thefts has been reported.", en: "Se ha informado de un aumento de los robos." },
-          { es: "A decision has been made to cut costs.", en: "Se ha decidido recortar costes." },
+          { es: "A decision has been made to cut costs.", en: "Se ha decidido recortar costos." },
           { es: "Prices are expected to rise.", en: "Se espera que suban los precios." },
           { es: "The minister is said to be considering resigning.", en: "Se dice que el ministro está pensando en dimitir." },
         ],
@@ -2905,10 +2905,10 @@ export const EN_C1_U03: Lesson[] = [
         audio: "A decision has been made to cut costs.",
         question: "What did you hear?",
         options: [
-          "Se ha decidido recortar costes.",
-          "Se va a decidir si se recortan costes.",
-          "Han decidido no recortar costes.",
-          "Se decidió aumentar los costes.",
+          "Se ha decidido recortar costos.",
+          "Se va a decidir si se recortan costos.",
+          "Han decidido no recortar costos.",
+          "Se decidió aumentar los costos.",
         ],
         correctIndex: 0,
         explanation: "\"A decision has been made to\" = «se ha decidido». \"Cut\" here means «recortar».",
@@ -3001,7 +3001,7 @@ export const EN_C1_U03: Lesson[] = [
           { es: "The documents are thought to have been destroyed.", en: "Se cree que los documentos fueron destruidos." },
           { es: "There are thought to be over a thousand species in the area.", en: "Se calcula que hay más de mil especies en la zona." },
           { es: "There is believed to have been a fire in the building.", en: "Se cree que hubo un incendio en el edificio." },
-          { es: "The thieves were reported to have escaped by car.", en: "Se informó de que los ladrones habían huido en coche." },
+          { es: "The thieves were reported to have escaped by car.", en: "Se informó de que los ladrones habían huido en carro." },
         ],
         checkpoint: [
           {
@@ -3446,7 +3446,6 @@ export const EN_C1_U03: Lesson[] = [
               "She is a researcher at a Boston university.",
               "She's a researcher at a university in Boston.",
               "She works as a researcher at a university in Boston.",
-              "He is a researcher at a university in Boston.",
             ],
             explanation: "«Investigador/a» in science is \"researcher\", not *investigator (a police or official role). Note \"at a university\".",
           },
@@ -3701,7 +3700,7 @@ export const EN_C1_U03: Lesson[] = [
           "\"Facilitate\" (\"fa-CIL-i-tate\") means to make a process easier: \"The new software facilitates communication\". Its object is a process, not a person: you facilitate the process, not the client. False friend: «facilitar los datos» (give) is \"provide the data\", not *facilitate the data.",
         ],
         examples: [
-          { es: "Women constitute 60% of the workforce.", en: "Las mujeres constituyen el 60 % de la plantilla." },
+          { es: "Women constitute 60% of the workforce.", en: "Las mujeres constituyen el 60 % del personal." },
           { es: "This constitutes a serious threat to public health.", en: "Esto constituye una grave amenaza para la salud pública." },
           { es: "The new software facilitates communication between teams.", en: "El nuevo software facilita la comunicación entre equipos." },
           { es: "Please provide your contact details.", en: "Facilite sus datos de contacto, por favor. (incorrecto: *facilitate your details)" },

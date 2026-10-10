@@ -205,7 +205,7 @@ export const EN_C2_U13_EXTRA: Lesson[] = [
         type: "matching",
         instructions: "Match the beginnings with the endings.",
         pairs: [
-          { left: "She insisted that he", right: "pay for the damage." },
+          { left: "She insisted that he", right: "pay for the damage himself." },
           { left: "I'd recommend", right: "booking a table." },
           { left: "The report urges that the plant", right: "be closed immediately." },
           { left: "It is imperative that nobody", right: "leave the building." },
@@ -385,7 +385,7 @@ export const EN_C2_U13_EXTRA: Lesson[] = [
         examples: [
           { es: "Should you have any questions, please contact reception.", en: "Si tiene alguna pregunta, diríjase a recepción." },
           { es: "Were we to accept these terms, we would lose control of the company.", en: "Si aceptáramos estas condiciones, perderíamos el control de la empresa." },
-          { es: "Had they known about the strike, they would have driven.", en: "De haber sabido lo de la huelga, habrían ido en coche." },
+          { es: "Had they known about the strike, they would have driven.", en: "De haber sabido lo de la huelga, habrían ido en carro." },
           { es: "Had I not seen the sign, I would have missed the exit.", en: "Si no hubiera visto el cartel, me habría saltado la salida." },
           { es: "But for the rescue team, they would have died.", en: "De no ser por el equipo de rescate, habrían muerto." },
         ],
@@ -406,7 +406,7 @@ export const EN_C2_U13_EXTRA: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Si no hubiera sido por tu ayuda, habría suspendido.",
+            source: "Si no hubiera sido por tu ayuda, habría reprobado.",
             answer: "Had it not been for your help, I would have failed.",
             altAnswers: [
               "Had it not been for your help, I'd have failed.",
@@ -608,7 +608,7 @@ export const EN_C2_U13_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Puedes usar mi coche siempre que me lo devuelvas con el depósito lleno.",
+        source: "Puedes usar mi carro siempre que me lo devuelvas con el tanque lleno.",
         answer: "You can use my car provided you give it back with a full tank.",
         altAnswers: [
           "You can use my car provided that you give it back with a full tank.",
@@ -808,7 +808,7 @@ export const EN_C2_U13_EXTRA: Lesson[] = [
         sentence: "Visitors may take photographs, ___ they do not use a flash.",
         answer: "provided that",
         altAnswers: ["provided", "providing", "providing that", "as long as", "so long as", "on condition that"],
-        en: "Los visitantes pueden hacer fotos, [siempre que] no usen flash.",
+        en: "Los visitantes pueden tomar fotos, [siempre que] no usen flash.",
         explanation: "«Siempre que» + subjunctive = \"provided (that)\" or \"as long as\" + present simple.",
       },
       {

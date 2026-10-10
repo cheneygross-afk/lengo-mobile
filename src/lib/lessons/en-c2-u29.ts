@@ -26,7 +26,7 @@ export const EN_C2_U29: Lesson[] = [
           { es: "She has mixed feelings about going back to her hometown.", en: "Tiene sentimientos encontrados sobre volver a su pueblo." },
           { es: "Most voters are still on the fence.", en: "La mayoría de los votantes todavía no se ha decidido." },
           { es: "He felt deeply ambivalent about becoming a father.", en: "Tenía sentimientos muy contradictorios sobre lo de ser padre." },
-          { es: "Honestly, I'm indifferent: either option is fine.", en: "Sinceramente, me da igual: cualquiera de las dos opciones me vale." },
+          { es: "Honestly, I'm indifferent: either option is fine.", en: "Sinceramente, me da igual: cualquiera de las dos opciones me parece bien." },
         ],
         checkpoint: [
           {
@@ -60,7 +60,7 @@ export const EN_C2_U29: Lesson[] = [
       {
         heading: "Bittersweet: two feelings at the same time",
         body: [
-          "Some moments are happy and sad at once: a graduation, a farewell party, the last day of a holiday. English calls these \"bittersweet\". You can also name the mixture directly: \"a mixture of relief and guilt\", \"pride tinged with sadness\", \"joy laced with regret\".",
+          "Some moments are happy and sad at once: a graduation, a farewell party, the last day of a vacation. English calls these \"bittersweet\". You can also name the mixture directly: \"a mixture of relief and guilt\", \"pride tinged with sadness\", \"joy laced with regret\".",
           "To split yourself in two, English uses \"part of me\": \"Part of me wants to stay, but another part of me knows I have to go.\" Spanish «por una parte... por otra» works for arguments, but for feelings \"part of me... (and) part of me\" sounds far more natural.",
           "\"Tinged with\" (teñido de) is the Mastery way to say that one feeling has a little of another inside it: \"Her joy was tinged with sadness.\"",
         ],
@@ -173,7 +173,7 @@ export const EN_C2_U29: Lesson[] = [
               "\"I didn't really want that promotion anyway; it would have been too stressful.\"",
               "\"I'm going to reorganize the department to cut costs.\"",
               "\"I feel happy and sad at the same time.\"",
-              "\"I can't decide between the two flats.\"",
+              "\"I can't decide between the two apartments.\"",
             ],
             correctIndex: 0,
             explanation: "Rationalizing is inventing a reasonable-sounding excuse after the fact (here, a classic case of \"sour grapes\"). Reorganizing to save money is \"streamlining\", not rationalizing.",
@@ -298,7 +298,7 @@ export const EN_C2_U29: Lesson[] = [
           "It's a classic case of cognitive dissonance: she worries about the climate but flies every weekend.",
           "It's a classic case of cognitive dissonance: he worries about the climate but flies every weekend.",
         ],
-        explanation: "English needs a subject (\"she\" or \"he\") where Spanish leaves it out. «Coger un avión» is simply \"fly\" or \"take a plane\".",
+        explanation: "English needs a subject (\"she\" or \"he\") where Spanish leaves it out. «Tomar un avión» is simply \"fly\" or \"take a plane\".",
       },
       {
         type: "speak",
@@ -334,7 +334,7 @@ export const EN_C2_U29: Lesson[] = [
         heading: "Looking back: wistful, nostalgic, rueful",
         body: [
           "\"Nostalgic\" is the warm, slightly sad longing for a happy past: \"nostalgic for my childhood\". \"Wistful\" is softer and more vague: a gentle sadness about something you can't have, or no longer have. It often describes a look or a smile: \"a wistful smile\".",
-          "\"Rueful\" is looking back on your own mistake with regret, but with a touch of humour: \"a rueful grin\", \"he admitted ruefully\". Spanish has no single word; it is something like «con pesar, pero sonriendo».",
+          "\"Rueful\" is looking back on your own mistake with regret, but with a touch of humor: \"a rueful grin\", \"he admitted ruefully\". Spanish has no single word; it is something like «con pesar, pero sonriendo».",
           "Notice that these adjectives very often describe the face or the voice rather than the person: a wistful look, a rueful smile, a nostalgic tone.",
         ],
         examples: [
@@ -350,7 +350,7 @@ export const EN_C2_U29: Lesson[] = [
             question: "Tom admits, with a small laugh, that he lost all his savings on a bad investment. Which word best describes his smile?",
             options: ["rueful", "smug", "elated", "apprehensive"],
             correctIndex: 0,
-            explanation: "\"Rueful\" is regret about your own mistake, often softened with humour. \"Smug\" would mean he was pleased with himself.",
+            explanation: "\"Rueful\" is regret about your own mistake, often softened with humor. \"Smug\" would mean he was pleased with himself.",
           },
           {
             type: "fill-blank",
@@ -374,7 +374,7 @@ export const EN_C2_U29: Lesson[] = [
           { es: "We were elated by the news.", en: "La noticia nos llenó de alegría." },
           { es: "She was elated to be offered the part.", en: "Estaba eufórica porque le habían ofrecido el papel." },
           { es: "He had a smug look on his face.", en: "Tenía una cara de suficiencia." },
-          { es: "Don't be so smug; you only won by luck.", en: "No te pongas tan chulito, que ganaste de chiripa." },
+          { es: "Don't be so smug; you only won by luck.", en: "No te pongas tan presumido, que ganaste de pura suerte." },
           { es: "There's no need to gloat.", en: "No hace falta que te regodees." },
         ],
         checkpoint: [
@@ -413,7 +413,7 @@ export const EN_C2_U29: Lesson[] = [
         ],
         examples: [
           { es: "He came back with a sheepish grin.", en: "Volvió con una sonrisa avergonzada." },
-          { es: "She looked a bit sheepish when I asked about the cake.", en: "Se le notó algo cortada cuando le pregunté por la tarta." },
+          { es: "She looked a bit sheepish when I asked about the cake.", en: "Se le notó algo apenada cuando le pregunté por el pastel." },
           { es: "He's resentful of his brother's success.", en: "Le guarda rencor a su hermano por su éxito." },
           { es: "I resent having to work every weekend.", en: "Me molesta muchísimo tener que trabajar todos los fines de semana." },
           { es: "\"For the last time, put your shoes on!\" she said, exasperated.", en: "«¡Por última vez, ponte los zapatos!», dijo exasperada." },
@@ -444,8 +444,8 @@ export const EN_C2_U29: Lesson[] = [
             options: [
               "Explaining the same rule to a colleague for the fifth time.",
               "Waiting nervously for the results of a medical test.",
-              "Remembering a happy holiday from years ago.",
-              "Being caught eating the last biscuit.",
+              "Remembering a happy vacation from years ago.",
+              "Being caught eating the last cookie.",
             ],
             correctIndex: 0,
             explanation: "Exasperation builds up through repetition. The others are apprehensive, nostalgic and sheepish.",
@@ -461,10 +461,10 @@ export const EN_C2_U29: Lesson[] = [
         ],
         examples: [
           { es: "I'm a little apprehensive about the operation.", en: "Estoy un poco inquieto por la operación." },
-          { es: "She looked crestfallen when they announced the winner.", en: "Se quedó chafada cuando anunciaron al ganador." },
+          { es: "She looked crestfallen when they announced the winner.", en: "Se quedó desanimada cuando anunciaron al ganador." },
           { es: "His face fell when he saw the price.", en: "Se le cambió la cara cuando vio el precio." },
           { es: "He's very squeamish about blood.", en: "Es muy aprensivo con la sangre." },
-          { es: "The children were crestfallen when the trip was cancelled.", en: "Los niños se quedaron hundidos cuando se canceló la excursión." },
+          { es: "The children were crestfallen when the trip was canceled.", en: "Los niños se quedaron hundidos cuando se canceló la excursión." },
         ],
         checkpoint: [
           {
@@ -509,7 +509,7 @@ export const EN_C2_U29: Lesson[] = [
         pairs: [
           { left: "crestfallen", right: "Te dicen que no has conseguido el puesto que esperabas." },
           { left: "smug", right: "Presumes de haber acertado cuando los demás se equivocaron." },
-          { left: "sheepish", right: "Te pillan comiéndote el último trozo de tarta." },
+          { left: "sheepish", right: "Te descubren comiéndote el último pedazo de pastel." },
           { left: "apprehensive", right: "Mañana tienes una entrevista difícil." },
           { left: "nostalgic", right: "Escuchas la canción de tu viaje de fin de curso." },
         ],
@@ -614,9 +614,9 @@ export const EN_C2_U29: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["The", "children", "looked", "crestfallen", "when", "the", "trip", "was", "cancelled."],
+        words: ["The", "children", "looked", "crestfallen", "when", "the", "trip", "was", "canceled."],
         translation: "Los niños se quedaron hundidos cuando se canceló la excursión.",
-        altOrders: [["When", "the", "trip", "was", "cancelled,", "the", "children", "looked", "crestfallen."]],
+        altOrders: [["When", "the", "trip", "was", "canceled,", "the", "children", "looked", "crestfallen."]],
         explanation: "\"Look\" + adjective: \"look crestfallen\", \"look sheepish\", \"look smug\".",
       },
       {
@@ -658,7 +658,7 @@ export const EN_C2_U29: Lesson[] = [
     level: "EN-C2",
     number: 3,
     title: "Psychology and complex emotions, Part 3 of 3: naming emotions and therapy talk",
-    summary: "Talk about mental health and wellbeing the way people do today: bottling things up, processing, triggers, boundaries, burnout, resilience, self-esteem and mindfulness, and why \"I'm so OCD\" can hurt.",
+    summary: "Talk about mental health and well-being the way people do today: bottling things up, processing, triggers, boundaries, burnout, resilience, self-esteem and mindfulness, and why \"I'm so OCD\" can hurt.",
     duration: "12 min",
     sections: [
       {
@@ -702,7 +702,7 @@ export const EN_C2_U29: Lesson[] = [
             sentence: "We broke up last week and I'm still ___ it.",
             answer: "processing",
             altAnswers: ["coming to terms with", "getting over", "trying to process", "taking in"],
-            en: "Cortamos la semana pasada y todavía estoy [asimilándolo].",
+            en: "Terminamos la semana pasada y todavía estoy [asimilándolo].",
             explanation: "\"Process\" a loss or a shock = take time to understand and accept it emotionally. \"Come to terms with\" is a more traditional synonym.",
           },
         ],
@@ -711,7 +711,7 @@ export const EN_C2_U29: Lesson[] = [
         heading: "Triggers, boundaries and burnout",
         body: [
           "A \"trigger\" (noun or verb) is something that brings back a painful memory or a strong reaction: \"Loud bangs can trigger his anxiety.\" In casual talk, \"triggered\" is also used jokingly for someone who gets upset easily; avoid that use in serious contexts.",
-          "\"Boundaries\" (límites) are the limits you set to protect your time and wellbeing. You \"set\", \"have\", \"respect\" or \"cross\" boundaries. Note the plural: Spanish «poner límites» becomes \"set boundaries\", not *put limits.",
+          "\"Boundaries\" (límites) are the limits you set to protect your time and well-being. You \"set\", \"have\", \"respect\" or \"cross\" boundaries. Note the plural: Spanish «poner límites» becomes \"set boundaries\", not *put limits.",
           "\"Burnout\" (noun) and \"burned out\" or \"burnt out\" (adjective) describe exhaustion caused by long-term stress, usually at work. Spanish often borrows the word directly («tener burnout», «estar quemado»); in English you \"are burned out\" or \"suffer from burnout\".",
         ],
         examples: [
@@ -719,7 +719,7 @@ export const EN_C2_U29: Lesson[] = [
           { es: "Seeing the photos triggered painful memories.", en: "Ver las fotos le despertó recuerdos dolorosos." },
           { es: "You need to set clearer boundaries with your boss.", en: "Tienes que ponerle límites más claros a tu jefe." },
           { es: "I felt he had crossed a line.", en: "Sentí que se había pasado de la raya." },
-          { es: "After three years without a holiday, she was completely burned out.", en: "Tras tres años sin vacaciones, estaba completamente quemada." },
+          { es: "After three years without a vacation, she was completely burned out.", en: "Tras tres años sin vacaciones, estaba completamente quemada." },
           { es: "Burnout is especially common among nurses.", en: "El síndrome de desgaste profesional es especialmente común entre las enfermeras." },
         ],
         checkpoint: [
@@ -1053,7 +1053,7 @@ export const EN_C2_U29: Lesson[] = [
           { es: "He's not very keen on spicy food.", en: "No le entusiasma mucho la comida picante." },
           { es: "We're very proud of you.", en: "Estamos muy orgullosos de ti." },
           { es: "I'm disappointed in you.", en: "Me has decepcionado." },
-          { es: "She was angry about the delay, not with you.", en: "Estaba enfadada por el retraso, no contigo." },
+          { es: "She was angry about the delay, not with you.", en: "Estaba enojada por el retraso, no contigo." },
         ],
         checkpoint: [
           {
@@ -1088,7 +1088,7 @@ export const EN_C2_U29: Lesson[] = [
       {
         heading: "Noun, verb and adjective families",
         body: [
-          "Mastery speakers move freely between word classes: \"resent\" (verb), \"resentment\" (noun), \"resentful\" (adjective); \"dread\" / \"dread\" / \"dreadful\"; \"exasperate\" / \"exasperation\" / \"exasperated\"; \"elate\" is rare, but \"elation\" and \"elated\" are common.",
+          "Mastery speakers move freely between word classes: \"resent\" (verb), \"resentment\" (noun), \"resentful\" (adjective); \"dread\" (noun and verb; note that \"dreadful\" means «terrible», not «temeroso»); \"exasperate\" / \"exasperation\" / \"exasperated\"; \"elate\" is rare, but \"elation\" and \"elated\" are common.",
           "\"Resent\" is a false friend of «resentirse» (to be weakened or to hurt): \"I resent that comment\" means «me molesta ese comentario, me ofende», and it is followed by a noun or -ing: \"She resents having to work weekends.\"",
           "\"Dread\" is deep fear about something that is coming: \"I dread Mondays\", \"I'm dreading the exam\", \"a sense of dread\".",
         ],
@@ -1104,7 +1104,7 @@ export const EN_C2_U29: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Le sienta fatal tener que trabajar los fines de semana.",
+            source: "Le molesta muchísimo tener que trabajar los fines de semana.",
             answer: "She resents having to work weekends.",
             altAnswers: [
               "He resents having to work weekends.",
@@ -1463,7 +1463,7 @@ export const EN_C2_U29: Lesson[] = [
         sentence: "He was so ___ with his phone that he didn't hear me.",
         answer: "preoccupied",
         altAnswers: ["absorbed", "engrossed", "busy", "distracted"],
-        en: "Estaba tan [absorto] con el móvil que no me oyó.",
+        en: "Estaba tan [absorto] con el celular que no me oyó.",
         explanation: "\"Preoccupied with\" = with your attention fully on something else. It does not mean «preocupado».",
       },
       {
@@ -1544,7 +1544,7 @@ export const EN_C2_U29: Lesson[] = [
         ],
         examples: [
           { es: "You seem a bit down lately. Is everything OK?", en: "Te noto un poco decaído últimamente. ¿Va todo bien?" },
-          { es: "Do you want to talk about it? No pressure.", en: "¿Quieres hablar de ello? Sin compromiso." },
+          { es: "Do you want to talk about it? No pressure.", en: "¿Quieres hablar de ello? Solo si quieres." },
           { es: "What's been on your mind?", en: "¿Qué es lo que te ronda por la cabeza?" },
           { es: "How did that make you feel?", en: "¿Cómo te sentiste con eso?" },
           { es: "I'm here whenever you're ready.", en: "Aquí estoy para cuando quieras." },
@@ -1818,7 +1818,7 @@ export const EN_C2_U29: Lesson[] = [
           { es: "I wish I had told him how I felt.", en: "Ojalá le hubiera dicho lo que sentía." },
           { es: "If only I could stop worrying about everything.", en: "Ojalá pudiera dejar de preocuparme por todo." },
           { es: "If only we had left earlier!", en: "¡Ojalá hubiéramos salido antes!" },
-          { es: "I wish you would stop checking your phone.", en: "Me gustaría que dejaras de mirar el móvil." },
+          { es: "I wish you would stop checking your phone.", en: "Me gustaría que dejaras de mirar el celular." },
           { es: "I wish I were more patient with my kids.", en: "Ojalá tuviera más paciencia con mis hijos." },
         ],
         checkpoint: [
@@ -2385,9 +2385,9 @@ export const EN_C2_U29: Lesson[] = [
         ],
       },
       {
-        heading: "Recap: wellbeing talk and false friends",
+        heading: "Recap: well-being talk and false friends",
         body: [
-          "Wellbeing: bottle up, open up, vent, process, trigger, set boundaries, burned out, resilient, low self-esteem, mindfulness. Avoid casual clinical labels such as \"I'm so OCD\".",
+          "Well-being: bottle up, open up, vent, process, trigger, set boundaries, burned out, resilient, low self-esteem, mindfulness. Avoid casual clinical labels such as \"I'm so OCD\".",
           "False friends: embarrassed (avergonzado), excited (ilusionado), sensible (sensato), sensitive (sensible), sympathetic (comprensivo), preoccupied (absorto), deception (engaño), disappointment (decepción), bother (molestar).",
         ],
         examples: [
@@ -2461,9 +2461,9 @@ export const EN_C2_U29: Lesson[] = [
         type: "matching",
         instructions: "Match each emotion with the situation.",
         pairs: [
-          { left: "crestfallen", right: "le acaban de rechazar en el casting" },
+          { left: "crestfallen", right: "lo acaban de rechazar en el casting" },
           { left: "smug", right: "presume de haber tenido razón" },
-          { left: "sheepish", right: "le pillan comiéndose la tarta de otro" },
+          { left: "sheepish", right: "lo descubren comiéndose el pastel de otro" },
           { left: "wistful", right: "mira fotos viejas con nostalgia" },
           { left: "apprehensive", right: "espera los resultados de una prueba médica" },
         ],
@@ -2496,7 +2496,7 @@ export const EN_C2_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which reply is the most supportive when a friend says \"My dad's in hospital again\"?",
+        question: "Which reply is the most supportive when a friend says \"My dad's in the hospital again\"?",
         options: [
           "Oh no, that must be really worrying. How are you holding up?",
           "At least he's getting good care.",
@@ -2556,7 +2556,7 @@ export const EN_C2_U29: Lesson[] = [
           "It was a real disappointment, and I was really embarrassed.",
           "It was a big disappointment, and I felt really embarrassed.",
         ],
-        explanation: "Two false friends in one: «decepción» = \"disappointment\" (not \"deception\") and «vergüenza» = \"embarrassed\" (not \"pregnant\").",
+        explanation: "Two false friends in one: «decepción» = \"disappointment\" (not \"deception\") and «me dio vergüenza» = \"I felt embarrassed\" (\"embarrassed\" is not «embarazada», which is \"pregnant\").",
       },
       {
         type: "word-order",

@@ -563,7 +563,7 @@ export const EN_C1_U13: Lesson[] = [
           { es: "Subject: Spanish teacher training course: availability", en: "Asunto: Curso de formación de profesores de español: plazas" },
           { es: "Dear Admissions Team,", en: "Estimado equipo de admisiones:" },
           { es: "I am writing to inquire about your teacher training course in July.", en: "Les escribo para informarme sobre su curso de formación de profesores de julio." },
-          { es: "Could you tell me whether there are still places available, and what the total cost is?", en: "¿Podrían decirme si todavía quedan plazas y cuál es el coste total?" },
+          { es: "Could you tell me whether there are still places available, and what the total cost is?", en: "¿Podrían decirme si todavía quedan plazas y cuál es el costo total?" },
           { es: "I would also be grateful if you could send me the course timetable.", en: "También les agradecería que me enviaran el horario del curso." },
           { es: "Thank you in advance for your help. Kind regards, Lucia Moreno", en: "Gracias de antemano por su ayuda. Un saludo, Lucía Moreno" },
         ],
@@ -1310,10 +1310,10 @@ export const EN_C1_U13: Lesson[] = [
         type: "matching",
         instructions: "Match each phrase with its function in a complaint.",
         pairs: [
-          { left: "I am writing to complain about...", right: "propósito" },
-          { left: "On 4 March, I ordered...", right: "antecedentes" },
-          { left: "As a result, I have been without...", right: "consecuencias" },
-          { left: "I would therefore ask you to...", right: "solución que se pide" },
+          { left: "I am writing to complain about...", right: "purpose" },
+          { left: "On March 4, I ordered...", right: "background" },
+          { left: "As a result, I have been without...", right: "consequences" },
+          { left: "I would therefore ask you to...", right: "action requested" },
         ],
         explanation: "Purpose, background, impact and outcome: the four moves give the reader everything they need to act.",
       },
@@ -1356,8 +1356,8 @@ export const EN_C1_U13: Lesson[] = [
     slug: "c1-responding-to-complaints",
     level: "EN-C1",
     number: 6,
-    title: "Apologising and Responding to Complaints",
-    summary: "Answer a complaint professionally: thank, apologise properly, take responsibility instead of offering a non-apology, and propose a concrete solution.",
+    title: "Apologizing and Responding to Complaints",
+    summary: "Answer a complaint professionally: thank, apologize properly, take responsibility instead of offering a non-apology, and propose a concrete solution.",
     duration: "11 min",
     sections: [
       {
@@ -1394,7 +1394,7 @@ export const EN_C1_U13: Lesson[] = [
         ],
       },
       {
-        heading: "Apologising properly",
+        heading: "Apologizing properly",
         body: [
           "Formal apologies: \"Please accept our apologies for the delay.\", \"We apologize for any inconvenience caused.\", \"I am very sorry for the mistake.\" \"Apologize\" takes \"for\" + the problem and \"to\" + the person: \"We apologize to our customers for the delay\" (never *apologize the delay).",
           "«Disculpe las molestias» is a trap: *Sorry for the inconveniences sounds wrong, because in this phrase \"inconvenience\" is uncountable. Say \"Sorry for the inconvenience\" or \"We apologize for any inconvenience (this may have caused)\".",
@@ -1502,7 +1502,7 @@ export const EN_C1_U13: Lesson[] = [
         ],
         examples: [
           { es: "We have issued a full refund.", en: "Le hemos reembolsado el importe íntegro." },
-          { es: "As a gesture of goodwill, we would like to offer you a 20% discount on your next stay.", en: "Como muestra de buena voluntad, nos gustaría ofrecerle un 20 % de descuento en su próxima estancia." },
+          { es: "As a gesture of goodwill, we would like to offer you a 20% discount on your next stay.", en: "Como muestra de buena voluntad, nos gustaría ofrecerle un 20 % de descuento en su próxima estadía." },
           { es: "We have taken steps to ensure this does not happen again.", en: "Hemos tomado medidas para que esto no vuelva a ocurrir." },
           { es: "Please let me know if there is anything else I can do.", en: "No dude en decirme si puedo hacer algo más." },
         ],
@@ -1659,7 +1659,7 @@ export const EN_C1_U13: Lesson[] = [
     slug: "c1-requests-follow-ups",
     level: "EN-C1",
     number: 7,
-    title: "Requests, Enquiries and Follow-ups",
+    title: "Requests, Inquiries and Follow-ups",
     summary: "Ask for information politely, then chase an unanswered email in steps that become firmer without becoming rude, and know why \"As per my last email\" can sound passive-aggressive.",
     duration: "12 min",
     sections: [
@@ -1670,7 +1670,7 @@ export const EN_C1_U13: Lesson[] = [
           "Polite enquiries often use indirect questions: \"Could you tell me whether the price includes VAT?\", \"I was wondering if you could tell me...\". Remember: after \"whether\" or \"if\", use statement word order, with no auxiliary \"do\". Write \"whether the price includes VAT\", not *whether does the price include VAT.",
         ],
         examples: [
-          { es: "I would like to enquire about the availability of your conference rooms.", en: "Quisiera informarme sobre la disponibilidad de sus salas de conferencias." },
+          { es: "I would like to inquire about the availability of your conference rooms.", en: "Quisiera informarme sobre la disponibilidad de sus salas de conferencias." },
           { es: "Could you tell me whether the price includes VAT?", en: "¿Podría decirme si el precio incluye el IVA?" },
           { es: "I was wondering if you could tell me when the store opens.", en: "Quería saber si podría decirme a qué hora abre la tienda." },
           { es: "I am writing to ask whether you offer group discounts.", en: "Le escribo para preguntarle si ofrecen descuentos para grupos." },
@@ -1739,7 +1739,7 @@ export const EN_C1_U13: Lesson[] = [
       {
         heading: "Getting firmer",
         body: [
-          "If the first follow-up gets no answer, the second can be firmer, but the firmness should come from clarity, a reason and a deadline, not from tone: \"I'm writing again regarding the contract, as I haven't yet received a reply. Could you let me know by Friday, as we need to finalise the order?\"",
+          "If the first follow-up gets no answer, the second can be firmer, but the firmness should come from clarity, a reason and a deadline, not from tone: \"I'm writing again regarding the contract, as I haven't yet received a reply. Could you let me know by Friday, as we need to finalize the order?\"",
           "A third message can escalate politely, for example by copying a manager or offering a call: \"Would it be easier to discuss this by phone?\", \"I have copied my manager, Tom Hayes, as we need a decision this week.\"",
           "\"As per my last email\" literally means «según mi último correo», but in English office culture it is famous as a passive-aggressive way of saying \"you did not read my email\". Neutral alternatives: \"As mentioned in my previous email, ...\", \"To recap, ...\", or simply repeat the information.",
         ],
@@ -1787,7 +1787,7 @@ export const EN_C1_U13: Lesson[] = [
       {
         heading: "Chasing without being rude",
         body: [
-          "Things to avoid when chasing: capitals (\"URGENT\", \"ASAP\"), multiple question marks, \"I've already told you\", sarcasm (\"I hope my email didn't get lost in the post\"), and long lists of everything the person has failed to do.",
+          "Things to avoid when chasing: capitals (\"URGENT\", \"ASAP\"), multiple question marks, \"I've already told you\", sarcasm (\"I hope my email didn't get lost in the mail\"), and long lists of everything the person has failed to do.",
           "Things that work: a reason (\"as we need to place the order\"), a specific deadline (\"by 3 p.m. on Thursday\"), an offer of help (\"Is there anything you need from me?\"), and a change of channel (\"Would a quick call help?\").",
         ],
         examples: [
@@ -1858,8 +1858,9 @@ export const EN_C1_U13: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "¿Podría decírmelo antes del viernes? Necesitamos cerrar el pedido.",
-        answer: "Could you let me know by Friday, as we need to finalise the order?",
+        answer: "Could you let me know by Friday, as we need to finalize the order?",
         altAnswers: [
+          "Could you let me know by Friday, as we need to finalise the order?",
           "Could you let me know by Friday? We need to finalise the order.",
           "Could you let me know before Friday? We need to finalise the order.",
           "Could you let me know before Friday, as we need to finalise the order?",
@@ -1914,10 +1915,10 @@ export const EN_C1_U13: Lesson[] = [
         type: "matching",
         instructions: "Match each follow-up with its level of firmness.",
         pairs: [
-          { left: "Just checking in on this.", right: "suave" },
-          { left: "Could you let me know by Friday, as we need to finalise the order?", right: "más firme" },
-          { left: "I have copied my manager, as we need a decision this week.", right: "escalada educada" },
-          { left: "As per my last email...", right: "pasivo-agresivo" },
+          { left: "Just checking in on this.", right: "gentle" },
+          { left: "Could you let me know by Friday, as we need to finalize the order?", right: "firmer" },
+          { left: "I have copied my manager, as we need a decision this week.", right: "polite escalation" },
+          { left: "As per my last email...", right: "passive-aggressive" },
         ],
         explanation: "A good chain moves from gentle to firm through clearer deadlines and wider involvement, never through rudeness.",
       },
@@ -1977,7 +1978,7 @@ export const EN_C1_U13: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Les escribo para presentar mi candidatura al puesto de contable.",
+            source: "Les escribo para presentar mi candidatura al puesto de contador.",
             answer: "I am writing to apply for the position of accountant.",
             altAnswers: [
               "I am writing to apply for the accountant position.",
@@ -2129,7 +2130,7 @@ export const EN_C1_U13: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Dirigí un equipo de diez personas y reduje los costes un 15 %.",
+        source: "Dirigí un equipo de diez personas y reduje los costos un 15 %.",
         answer: "I led a team of ten people and reduced costs by 15%.",
         altAnswers: [
           "I led a team of ten and reduced costs by 15%.",
@@ -2250,7 +2251,7 @@ export const EN_C1_U13: Lesson[] = [
           { es: "Will do.", en: "Hecho. / Lo hago." },
           { es: "Happy to help.", en: "Encantado de ayudar." },
           { es: "Sounds good.", en: "Me parece bien." },
-          { es: "On it.", en: "Me pongo con ello." },
+          { es: "On it.", en: "Ya me encargo." },
           { es: "Just a heads-up: the client meeting has moved to 3 p.m.", en: "Para que lo sepas: la reunión con el cliente se ha pasado a las 15:00." },
           { es: "Quick question: do we have the final figures yet?", en: "Una pregunta rápida: ¿ya tenemos las cifras definitivas?" },
         ],
@@ -2364,9 +2365,9 @@ export const EN_C1_U13: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Estaré fuera de la oficina hasta el 3 de agosto.",
-            answer: "I will be out of the office until 3 August.",
+            answer: "I will be out of the office until August 3.",
             altAnswers: [
-              "I will be out of the office until August 3.",
+              "I will be out of the office until 3 August.",
               "I will be out of the office until August 3rd.",
               "I will be out of the office until the 3rd of August.",
               "I will be out of the office until 3rd August.",
@@ -2388,7 +2389,7 @@ export const EN_C1_U13: Lesson[] = [
           { left: "Will do.", right: "Lo hago." },
           { left: "Thanks for flagging.", right: "Gracias por avisar del problema." },
           { left: "Just a heads-up.", right: "Para que lo sepas." },
-          { left: "On it.", right: "Me pongo con ello ahora." },
+          { left: "On it.", right: "Me encargo ahora mismo." },
         ],
         explanation: "These short formulas are normal in workplace chat, not in formal letters.",
       },
@@ -2602,10 +2603,10 @@ export const EN_C1_U13: Lesson[] = [
         type: "matching",
         instructions: "Match each situation with the most suitable sign-off.",
         pairs: [
-          { left: "Yours faithfully,", right: "carta británica que empieza con \"Dear Sir or Madam\"" },
-          { left: "Sincerely,", right: "carta formal a un cliente estadounidense" },
-          { left: "Kind regards,", right: "correo profesional a alguien que no conoces bien" },
-          { left: "Cheers,", right: "mensaje a un compañero británico de confianza" },
+          { left: "Yours faithfully,", right: "a British letter that begins \"Dear Sir or Madam\"" },
+          { left: "Sincerely,", right: "a formal letter to a US client" },
+          { left: "Kind regards,", right: "a professional email to someone you don't know well" },
+          { left: "Cheers,", right: "a message to a British colleague you know well" },
         ],
         explanation: "Formality, relationship and variety of English decide the sign-off.",
       },
@@ -2709,7 +2710,7 @@ export const EN_C1_U13: Lesson[] = [
         body: [
           "*Dear Mr. Juan: a title never goes with a first name. Correct: \"Dear Mr. Lopez\" or \"Dear Juan\".",
           "*Estimated Ms. Lopez: «Estimado» is \"Dear\". *Dear Sirs is not wrong grammatically, but it is outdated and excludes women: use \"Dear Sir or Madam\" or a role.",
-          "*Hello Mr. Juan: same problem as above, in a less formal register. Correct: \"Hello Mr. Lopez\" or \"Hi Juan\". And in English the greeting ends in a comma, not a colon: \"Dear Ms. Lopez,\".",
+          "*Hello Mr. Juan: same problem as above, in a less formal register. Correct: \"Hello Mr. Lopez\" or \"Hi Juan\". And in an English email the greeting ends in a comma: \"Dear Ms. Lopez,\". A colon appears only in formal US business letters.",
         ],
         examples: [
           { es: "Dear Mr. Lopez,", en: "Estimado Sr. López: (incorrecto: *Dear Mr. Juan)" },
@@ -3091,8 +3092,8 @@ export const EN_C1_U13: Lesson[] = [
         examples: [
           { es: "Unless we receive payment by Friday, we will cancel the order.", en: "A menos que recibamos el pago antes del viernes, cancelaremos el pedido." },
           { es: "If we do not receive payment by Friday, we will cancel the order.", en: "Si no recibimos el pago antes del viernes, cancelaremos el pedido." },
-          { es: "We were unable to deliver your parcel.", en: "No pudimos entregar su paquete." },
-          { es: "It was not possible for us to deliver your parcel.", en: "No nos fue posible entregar su paquete." },
+          { es: "We were unable to deliver your package.", en: "No pudimos entregar su paquete." },
+          { es: "It was not possible for us to deliver your package.", en: "No nos fue posible entregar su paquete." },
         ],
         checkpoint: [
           {
@@ -3153,9 +3154,9 @@ export const EN_C1_U13: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "No nos fue posible entregar su paquete.",
-        answer: "We were unable to deliver your parcel.",
+        answer: "We were unable to deliver your package.",
         altAnswers: [
-          "We were unable to deliver your package.",
+          "We were unable to deliver your parcel.",
           "It was not possible for us to deliver your parcel.",
           "It was not possible for us to deliver your package.",
           "We were not able to deliver your parcel.",
@@ -3275,7 +3276,7 @@ export const EN_C1_U13: Lesson[] = [
         examples: [
           { es: "Should you require any further information, please do not hesitate to contact me.", en: "Si necesita más información, no dude en ponerse en contacto conmigo." },
           { es: "Should you have any questions, please let me know.", en: "Si tiene alguna pregunta, hágamelo saber." },
-          { es: "Were we to extend the deadline, the costs would increase.", en: "Si ampliáramos el plazo, los costes aumentarían." },
+          { es: "Were we to extend the deadline, the costs would increase.", en: "Si ampliáramos el plazo, los costos aumentarían." },
           { es: "Had we known about the problem, we would have acted sooner.", en: "Si hubiéramos sabido lo del problema, habríamos actuado antes." },
         ],
         checkpoint: [

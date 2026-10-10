@@ -330,14 +330,14 @@ export const EN_B2_U11: Lesson[] = [
         body: [
           "In Spanish, «me corté el pelo» can mean that you cut it yourself or that a hairdresser did it. In English, \"I cut my hair\" means you did it yourself, with your own scissors. If a professional did it, say \"I had my hair cut\" or \"I got my hair cut\".",
           "This is the causative: \"have\" + object + past participle. The object is the thing, and the participle says what was done to it: \"I had my car repaired\", \"We had the house painted\", \"She has her nails done every month\".",
-          "The same happens with «me hice un tatuaje», «me arreglaron el coche», «nos pintaron la casa»: if someone else did the work, English uses the causative. *I made a tattoo is a typical Spanish-speaker error; say \"I got a tattoo\" or \"I had a tattoo done\".",
+          "The same happens with «me hice un tatuaje», «me arreglaron el carro», «nos pintaron la casa»: if someone else did the work, English uses the causative. *I made a tattoo is a typical Spanish-speaker error; say \"I got a tattoo\" or \"I had a tattoo done\".",
         ],
         examples: [
           { es: "I had my hair cut yesterday.", en: "Ayer me corté el pelo (en la peluquería)." },
           { es: "I cut my hair myself during the lockdown.", en: "Durante el confinamiento me corté el pelo yo mismo." },
           { es: "We had the house painted last summer.", en: "El verano pasado nos pintaron la casa." },
           { es: "She has her nails done every month.", en: "Se hace las uñas cada mes." },
-          { es: "He had his car repaired at the garage.", en: "Le arreglaron el coche en el taller." },
+          { es: "He had his car repaired at the garage.", en: "Le arreglaron el carro en el taller." },
           { es: "I got a tattoo on my arm.", en: "Me hice un tatuaje en el brazo. (incorrecto: *I made a tattoo)" },
         ],
         checkpoint: [
@@ -377,12 +377,12 @@ export const EN_B2_U11: Lesson[] = [
           "Questions and negatives use the normal auxiliaries: \"Where do you get your hair cut?\", \"Did you have the package delivered?\", \"I didn't get my suit cleaned in time\". Don't say *Where do you cut your hair? unless you really mean you cut it yourself.",
         ],
         examples: [
-          { es: "I'm getting my car serviced tomorrow.", en: "Mañana me hacen la revisión del coche." },
+          { es: "I'm getting my car serviced tomorrow.", en: "Mañana me hacen la revisión del carro." },
           { es: "I've just had my eyes tested.", en: "Me acaban de revisar la vista." },
           { es: "We're having our kitchen redone.", en: "Nos están reformando la cocina." },
           { es: "Where do you get your hair cut?", en: "¿Dónde te cortas el pelo?" },
           { es: "You should get that cough checked.", en: "Deberías hacerte ver esa tos." },
-          { es: "I'm going to have my phone screen replaced.", en: "Voy a hacer que me cambien la pantalla del móvil." },
+          { es: "I'm going to have my phone screen replaced.", en: "Voy a hacer que me cambien la pantalla del celular." },
         ],
         checkpoint: [
           {
@@ -398,7 +398,7 @@ export const EN_B2_U11: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Mañana me revisan el coche.",
+            source: "Mañana me revisan el carro.",
             answer: "I'm getting my car serviced tomorrow.",
             altAnswers: [
               "I'm having my car serviced tomorrow.",
@@ -428,7 +428,7 @@ export const EN_B2_U11: Lesson[] = [
         ],
         examples: [
           { es: "She had her bag stolen on the subway.", en: "Le robaron el bolso en el metro." },
-          { es: "We had our car broken into last night.", en: "Anoche nos forzaron el coche." },
+          { es: "We had our car broken into last night.", en: "Anoche nos forzaron el carro." },
           { es: "He had his license taken away for speeding.", en: "Le quitaron el carné por exceso de velocidad." },
           { es: "I had my flight canceled at the last minute.", en: "Me cancelaron el vuelo en el último momento." },
           { es: "My account was hacked.", en: "Me hackearon la cuenta." },
@@ -436,7 +436,7 @@ export const EN_B2_U11: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which is correct for «me robaron el móvil en el concierto»?",
+            question: "Which is correct for «me robaron el celular en el concierto»?",
             options: [
               "I had my phone stolen at the concert.",
               "I was stolen my phone at the concert.",
@@ -456,8 +456,8 @@ export const EN_B2_U11: Lesson[] = [
           "If you want to say who did it, add \"by\": \"I had my portrait painted by a street artist\". Usually, though, the person is obvious or not important, so we leave it out.",
         ],
         examples: [
-          { es: "I had my car repaired.", en: "Me arreglaron el coche." },
-          { es: "I had repaired my car before the trip.", en: "Yo había arreglado mi coche antes del viaje." },
+          { es: "I had my car repaired.", en: "Me arreglaron el carro." },
+          { es: "I had repaired my car before the trip.", en: "Yo había arreglado mi carro antes del viaje." },
           { es: "She got her dress shortened.", en: "Le acortaron el vestido (lo llevó a arreglar)." },
           { es: "I had my portrait painted by a street artist.", en: "Un artista callejero me hizo un retrato." },
         ],
@@ -566,7 +566,7 @@ export const EN_B2_U11: Lesson[] = [
         sentence: "I've just ___ .",
         answer: "had my phone screen replaced",
         altAnswers: ["got my phone screen replaced", "gotten my phone screen replaced", "had the screen of my phone replaced"],
-        en: "Me acaban de [cambiar la pantalla del móvil].",
+        en: "Me acaban de [cambiar la pantalla del celular].",
         explanation: "Present perfect of \"have\" (\"I've had\") + object + participle. «Me acaban de» = \"I've just\".",
       },
       {
@@ -587,7 +587,7 @@ export const EN_B2_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Anoche nos forzaron el coche.",
+        source: "Anoche nos forzaron el carro.",
         answer: "We had our car broken into last night.",
         altAnswers: [
           "Our car was broken into last night.",
@@ -627,7 +627,7 @@ export const EN_B2_U11: Lesson[] = [
           { es: "My parents didn't let me go to the party.", en: "Mis padres no me dejaron ir a la fiesta." },
           { es: "That movie made me cry.", en: "Esa película me hizo llorar." },
           { es: "The teacher made us rewrite the essay.", en: "La profesora nos hizo reescribir la redacción." },
-          { es: "Let's not make him angry.", en: "No lo hagamos enfadar." },
+          { es: "Let's not make him angry.", en: "No lo hagamos enojar." },
         ],
         checkpoint: [
           {
@@ -710,7 +710,7 @@ export const EN_B2_U11: Lesson[] = [
           { es: "She was made to apologize.", en: "La obligaron a pedir perdón." },
           { es: "We weren't allowed to take photos.", en: "No nos dejaron hacer fotos." },
           { es: "They didn't let us in.", en: "No nos dejaron entrar." },
-          { es: "Are we allowed to park here?", en: "¿Se puede aparcar aquí?" },
+          { es: "Are we allowed to park here?", en: "¿Se puede estacionar aquí?" },
         ],
         checkpoint: [
           {
@@ -775,7 +775,7 @@ export const EN_B2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Conseguí que mi hermana me prestara el coche.» Which is correct?",
+        question: "«Conseguí que mi hermana me prestara el carro.» Which is correct?",
         options: [
           "I got my sister to lend me her car.",
           "I got my sister lend me her car.",
@@ -1149,12 +1149,12 @@ export const EN_B2_U11: Lesson[] = [
         heading: "Error 2: the order of object and participle",
         body: [
           "*I had stolen my phone is a dramatic error: it means you were the thief. The participle must come after the object: \"I had my phone stolen\".",
-          "In the same way, *I got repaired the car is wrong; say \"I got the car repaired\". Spanish word order («me arreglaron el coche») puts the verb first, which is why learners move the participle forward.",
+          "In the same way, *I got repaired the car is wrong; say \"I got the car repaired\". Spanish word order («me arreglaron el carro») puts the verb first, which is why learners move the participle forward.",
           "Rule of thumb: have / get + THING + PARTICIPLE. If the participle comes right after \"had\", you have written a past perfect.",
         ],
         examples: [
-          { es: "I had my phone stolen.", en: "Me robaron el móvil. (incorrecto: *I had stolen my phone)" },
-          { es: "I got the car repaired.", en: "Me arreglaron el coche. (incorrecto: *I got repaired the car)" },
+          { es: "I had my phone stolen.", en: "Me robaron el celular. (incorrecto: *I had stolen my phone)" },
+          { es: "I got the car repaired.", en: "Me arreglaron el carro. (incorrecto: *I got repaired the car)" },
           { es: "She had her passport renewed.", en: "Le renovaron el pasaporte." },
           { es: "We need to get the heating checked.", en: "Tenemos que hacer revisar la calefacción." },
         ],
@@ -1214,9 +1214,9 @@ export const EN_B2_U11: Lesson[] = [
           "In American English, the past participle of \"get\" is usually \"gotten\": \"I've gotten my car serviced\". British English uses \"got\": \"I've got my car serviced\". The form with \"had\" works everywhere: \"I've had my car serviced\".",
         ],
         examples: [
-          { es: "I had my car serviced yesterday.", en: "Ayer me revisaron el coche." },
-          { es: "I've had my car serviced.", en: "Ya me han revisado el coche." },
-          { es: "I've gotten my car serviced.", en: "Ya me han revisado el coche. (inglés americano)" },
+          { es: "I had my car serviced yesterday.", en: "Ayer me revisaron el carro." },
+          { es: "I've had my car serviced.", en: "Ya me han revisado el carro." },
+          { es: "I've gotten my car serviced.", en: "Ya me han revisado el carro. (inglés americano)" },
           { es: "We'll have the documents translated.", en: "Mandaremos traducir los documentos." },
         ],
         checkpoint: [
@@ -1458,7 +1458,7 @@ export const EN_B2_U11: Lesson[] = [
         ],
         examples: [
           { es: "Where do you get your hair cut?", en: "¿Dónde te cortas el pelo?" },
-          { es: "How much did it cost to get your car fixed?", en: "¿Cuánto te costó arreglar el coche?" },
+          { es: "How much did it cost to get your car fixed?", en: "¿Cuánto te costó arreglar el carro?" },
           { es: "How long does it take to get a key copied?", en: "¿Cuánto se tarda en hacer una copia de una llave?" },
           { es: "Where can I get these photos printed?", en: "¿Dónde puedo imprimir estas fotos?" },
           { es: "They do it while you wait.", en: "Te lo hacen en el momento." },
@@ -1468,7 +1468,7 @@ export const EN_B2_U11: Lesson[] = [
             type: "word-order",
             prompt: "Put the words in order.",
             words: ["How", "much", "did", "it", "cost", "to", "get", "your", "car", "fixed?"],
-            translation: "¿Cuánto te costó arreglar el coche?",
+            translation: "¿Cuánto te costó arreglar el carro?",
             explanation: "\"How much did it cost to get\" + object + participle.",
           },
           {
@@ -1965,7 +1965,7 @@ export const EN_B2_U11: Lesson[] = [
           "The same pattern describes bad experiences: \"He had his bike stolen\". Remember the order: object before participle.",
         ],
         examples: [
-          { es: "I'm getting my car serviced tomorrow.", en: "Mañana me hacen la revisión del coche." },
+          { es: "I'm getting my car serviced tomorrow.", en: "Mañana me hacen la revisión del carro." },
           { es: "He had his bike stolen.", en: "Le robaron la bici." },
           { es: "We've had the house rewired.", en: "Nos han cambiado toda la instalación eléctrica." },
         ],

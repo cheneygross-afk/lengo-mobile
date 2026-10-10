@@ -962,7 +962,7 @@ export const EN_A2_U21: Lesson[] = [
           { es: "Do I have to change trains?", en: "¿Tengo que hacer transbordo?" },
           { es: "Where do I change?", en: "¿Dónde hago transbordo?" },
           { es: "We got on the wrong bus.", en: "Nos subimos al autobús equivocado." },
-          { es: "Get in the car!", en: "¡Sube al coche!" },
+          { es: "Get in the car!", en: "¡Sube al carro!" },
         ],
         checkpoint: [
           {
@@ -979,7 +979,7 @@ export const EN_A2_U21: Lesson[] = [
             question: "¿Cómo dices «sube al taxi»?",
             options: ["Get in the taxi.", "Get on the taxi.", "Go up the taxi.", "Climb the taxi."],
             correctIndex: 0,
-            explanation: "A los coches y taxis se sube con \"get in\". \"Get on\" es para autobuses, trenes y aviones.",
+            explanation: "A los carros y taxis se sube con \"get in\". \"Get on\" es para autobuses, trenes y aviones.",
           },
         ],
       },
@@ -1316,7 +1316,7 @@ export const EN_A2_U21: Lesson[] = [
           {
             type: "multiple-choice",
             question: "¿Qué significa \"I'm afraid\" en \"I'm afraid the room is dirty\"?",
-            options: ["Me temo que...", "Tengo miedo de que...", "Estoy enfadado porque...", "Me alegro de que..."],
+            options: ["Me temo que...", "Tengo miedo de que...", "Estoy enojado porque...", "Me alegro de que..."],
             correctIndex: 0,
             explanation: "En las quejas, \"I'm afraid\" es un suavizador que equivale a «me temo que» o «lo siento, pero».",
           },

@@ -406,7 +406,7 @@ export const EN_B2_U18: Lesson[] = [
           { es: "The hotel was expensive; however, the service was excellent.", en: "El hotel era caro; sin embargo, el servicio era excelente." },
           { es: "The flight was canceled. Therefore, we had to stay another night.", en: "Cancelaron el vuelo. Por lo tanto, tuvimos que quedarnos otra noche." },
           { es: "The event was postponed due to bad weather.", en: "El evento se aplazó debido al mal tiempo." },
-          { es: "In addition, we offer free parking.", en: "Además, ofrecemos aparcamiento gratuito." },
+          { es: "In addition, we offer free parking.", en: "Además, ofrecemos estacionamiento gratuito." },
         ],
         checkpoint: [
           {
@@ -748,7 +748,7 @@ export const EN_B2_U18: Lesson[] = [
           "Conclude with \"To sum up,\", \"In conclusion,\", \"All things considered,\" or \"On balance,\" and restate your opinion in new words. Avoid \"As a conclusion\" and \"Resuming\": English \"resume\" means «reanudar», not «resumir».",
         ],
         examples: [
-          { es: "Admittedly, electric cars are still expensive.", en: "Es cierto que los coches eléctricos todavía son caros." },
+          { es: "Admittedly, electric cars are still expensive.", en: "Es cierto que los carros eléctricos todavía son caros." },
           { es: "Although some people argue that zoos protect animals, I believe they should be closed.", en: "Aunque algunos sostienen que los zoológicos protegen a los animales, creo que deberían cerrarse." },
           { es: "On the other hand, working from home can be lonely.", en: "Por otro lado, trabajar desde casa puede resultar solitario. (incorrecto: *On the other side)" },
           { es: "To sum up, the benefits are greater than the risks.", en: "En resumen, los beneficios son mayores que los riesgos. (incorrecto: *Resuming)" },
@@ -974,7 +974,7 @@ export const EN_B2_U18: Lesson[] = [
           "\"Such\" means «este tipo de» or «tal»: \"such a decision\", \"such measures\". Note the word order: \"such a\" + singular noun (\"such a policy\"), never *a such policy (from «una tal política»).",
         ],
         examples: [
-          { es: "The city banned cars from the center. This decision angered many shop owners.", en: "La ciudad prohibió los coches en el centro. Esta decisión enfadó a muchos comerciantes." },
+          { es: "The city banned cars from the center. This decision angered many shop owners.", en: "La ciudad prohibió los carros en el centro. Esta decisión enojó a muchos comerciantes." },
           { es: "Rents have doubled in five years. This situation is forcing young people to leave.", en: "Los alquileres se han duplicado en cinco años. Esta situación está obligando a los jóvenes a irse." },
           { es: "The school introduced shorter classes and more breaks. These changes were popular.", en: "El colegio introdujo clases más cortas y más descansos. Estos cambios tuvieron buena acogida." },
           { es: "Such measures are expensive.", en: "Medidas de este tipo son caras." },
@@ -1636,7 +1636,7 @@ export const EN_B2_U18: Lesson[] = [
           { es: "Over half of the students live with their parents.", en: "Más de la mitad de los estudiantes viven con sus padres." },
           { es: "A significant number of staff work overtime.", en: "Un número considerable de empleados hace horas extra." },
           { es: "Only a few customers complained.", en: "Solo unos pocos clientes se quejaron." },
-          { es: "Sixty percent of users access the site from their phones.", en: "El sesenta por ciento de los usuarios accede a la web desde el móvil." },
+          { es: "Sixty percent of users access the site from their phones.", en: "El sesenta por ciento de los usuarios accede a la web desde el celular." },
         ],
         checkpoint: [
           {

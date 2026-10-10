@@ -28,7 +28,7 @@ export const EN_C2_U11_EXTRA: Lesson[] = [
           { es: "I was waiting for them at the station.", en: "Los estaba esperando en la estación. (/aɪ wəz ˈweɪtɪŋ fər əm ət ðə ˈsteɪʃn/)" },
           { es: "She can swim, but she can't dive.", en: "Sabe nadar, pero no sabe tirarse de cabeza." },
           { es: "We should have left earlier.", en: "Deberíamos habernos ido antes. (\"should have\" suena /ˈʃʊdəv/)" },
-          { es: "A cup of tea and a slice of cake, please.", en: "Un té y un trozo de tarta, por favor." },
+          { es: "A cup of tea and a slice of cake, please.", en: "Un té y un pedazo de pastel, por favor." },
           { es: "Tell them to wait.", en: "Diles que esperen. (\"tell them\" suena /ˈtel əm/)" },
         ],
         checkpoint: [

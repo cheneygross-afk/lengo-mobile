@@ -380,7 +380,7 @@ export const EN_B2_U17: Lesson[] = [
           "For a negative purpose, use \"so as not to\" or \"in order not to\": \"We left early so as not to miss the train\". A plain \"not to\" sounds odd here; \"so that we wouldn't miss the train\" is another natural option.",
         ],
         examples: [
-          { es: "I'm saving money to buy a car.", en: "Estoy ahorrando para comprarme un coche." },
+          { es: "I'm saving money to buy a car.", en: "Estoy ahorrando para comprarme un carro." },
           { es: "I study English to get a better job.", en: "Estudio inglés para conseguir un trabajo mejor. (incorrecto: *for get, *for to get)" },
           { es: "She called in order to apologize.", en: "Llamó para pedir disculpas." },
           { es: "We left early so as not to miss the train.", en: "Salimos temprano para no perder el tren." },
@@ -1325,10 +1325,10 @@ export const EN_B2_U17: Lesson[] = [
         audio: "Even if I had the money, I wouldn't buy that car.",
         question: "What does the speaker mean?",
         options: [
-          "No tiene el dinero, y aunque lo tuviera, no compraría ese coche.",
-          "Tiene el dinero, pero no va a comprar ese coche.",
-          "Va a comprar ese coche cuando tenga el dinero.",
-          "Compró el coche aunque no tenía dinero.",
+          "No tiene el dinero, y aunque lo tuviera, no compraría ese carro.",
+          "Tiene el dinero, pero no va a comprar ese carro.",
+          "Va a comprar ese carro cuando tenga el dinero.",
+          "Compró el carro aunque no tenía dinero.",
         ],
         correctIndex: 0,
         explanation: "\"Even if\" + past simple + \"would\" is an imaginary situation: the speaker doesn't have the money.",
@@ -1406,7 +1406,7 @@ export const EN_B2_U17: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Aunque lo intentó varias veces, no aprobó el examen de conducir.",
+            source: "Aunque lo intentó varias veces, no aprobó el examen de manejar.",
             answer: "Although he tried several times, he didn't pass his driving test.",
             altAnswers: [
               "Although she tried several times, she didn't pass her driving test.",
@@ -1638,7 +1638,7 @@ export const EN_B2_U17: Lesson[] = [
           { es: "In spite of being ill, she went to work.", en: "A pesar de estar enferma, fue a trabajar." },
           { es: "Despite the cold, we had lunch outside.", en: "A pesar del frío, comimos fuera." },
           { es: "Despite the fact that she was ill, she went to work.", en: "A pesar de que estaba enferma, fue a trabajar." },
-          { es: "Despite never having driven before, he did very well.", en: "A pesar de no haber conducido nunca, lo hizo muy bien." },
+          { es: "Despite never having driven before, he did very well.", en: "A pesar de no haber manejado nunca, lo hizo muy bien." },
           { es: "In spite of his age, he runs every day.", en: "A pesar de su edad, corre todos los días." },
         ],
         checkpoint: [
@@ -2246,7 +2246,7 @@ export const EN_B2_U17: Lesson[] = [
           { es: "Public transport is cheap. Having said that, it's not very reliable.", en: "El transporte público es barato. Dicho esto, no es muy fiable." },
           { es: "That said, I think we should try it.", en: "Dicho esto, creo que deberíamos probarlo." },
           { es: "It's expensive. Even so, I think it's worth it.", en: "Es caro. Aun así, creo que vale la pena." },
-          { es: "It's true that cars are convenient, but they pollute a lot.", en: "Es verdad que los coches son cómodos, pero contaminan mucho." },
+          { es: "It's true that cars are convenient, but they pollute a lot.", en: "Es verdad que los carros son cómodos, pero contaminan mucho." },
           { es: "Admittedly, it's a risk. Still, I'd do it.", en: "Hay que reconocer que es un riesgo. Aun así, yo lo haría." },
         ],
         checkpoint: [

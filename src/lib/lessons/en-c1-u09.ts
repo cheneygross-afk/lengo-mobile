@@ -78,7 +78,7 @@ export const EN_C1_U09: Lesson[] = [
         ],
         examples: [
           { es: "The government has taken steps to reduce unemployment.", en: "El gobierno ha tomado medidas para reducir el desempleo." },
-          { es: "You have to take into account the cost of living.", en: "Tienes que tener en cuenta el coste de la vida." },
+          { es: "You have to take into account the cost of living.", en: "Tienes que tener en cuenta el costo de la vida." },
           { es: "We need to take the next step.", en: "Tenemos que dar el siguiente paso. (incorrecto: *give the next step)" },
           { es: "The decision gave rise to a heated debate.", en: "La decisión dio lugar a un debate acalorado." },
           { es: "Anger gave way to relief.", en: "La rabia dio paso al alivio." },
@@ -91,7 +91,7 @@ export const EN_C1_U09: Lesson[] = [
             sentence: "Before you sign, ___ the hidden costs.",
             answer: "take into account",
             altAnswers: ["bear in mind", "keep in mind", "consider", "take account of", "think about"],
-            en: "Antes de firmar, [ten en cuenta] los costes ocultos.",
+            en: "Antes de firmar, [ten en cuenta] los costos ocultos.",
             explanation: "«Tener en cuenta» is \"take into account\", \"bear in mind\" or \"keep in mind\". With a long noun phrase, \"into account\" goes before the object.",
           },
           {
@@ -127,7 +127,7 @@ export const EN_C1_U09: Lesson[] = [
           { es: "What conclusions can we draw from the data?", en: "¿Qué conclusiones podemos sacar de los datos?" },
           { es: "After hours of talks, they finally reached an agreement.", en: "Tras horas de negociaciones, por fin llegaron a un acuerdo." },
           { es: "Her report raises some important questions.", en: "Su informe plantea algunas preguntas importantes." },
-          { es: "The campaign aims to raise awareness of mental health.", en: "La campaña pretende concienciar sobre la salud mental." },
+          { es: "The campaign aims to raise awareness of mental health.", en: "La campaña busca concientizar sobre la salud mental." },
           { es: "I'd like to draw your attention to the last paragraph.", en: "Me gustaría llamar su atención sobre el último párrafo." },
         ],
         checkpoint: [
@@ -759,7 +759,7 @@ export const EN_C1_U09: Lesson[] = [
         sentence: "Small farmers ___ due to rising costs.",
         answer: "face serious difficulties",
         altAnswers: ["are facing serious difficulties", "face serious problems", "are facing serious problems", "encounter serious difficulties", "have serious difficulties", "are having serious difficulties", "have serious problems", "experience serious difficulties"],
-        en: "Los pequeños agricultores [tienen graves dificultades] debido al aumento de los costes.",
+        en: "Los pequeños agricultores [tienen graves dificultades] debido al aumento de los costos.",
         explanation: "In formal English \"have problems\" becomes \"face\" or \"encounter difficulties\". Remember the adjective goes before the noun: \"serious difficulties\".",
       },
       {
@@ -1051,7 +1051,7 @@ export const EN_C1_U09: Lesson[] = [
         sentence: "The campaign aims to ___ awareness of the dangers of smoking.",
         answer: "raise",
         altAnswers: ["increase", "spread"],
-        explanation: "\"Raise awareness\" («concienciar»). Not *rise awareness: \"rise\" has no object. Review Part 1: Pay, draw, reach, raise.",
+        explanation: "\"Raise awareness\" («concientizar»). Not *rise awareness: \"rise\" has no object. Review Part 1: Pay, draw, reach, raise.",
       },
     ],
   },
@@ -1119,7 +1119,7 @@ export const EN_C1_U09: Lesson[] = [
           { es: "Prices in this area are very high.", en: "Los precios en esta zona son muy altos. (incorrecto: *very expensive prices)" },
           { es: "The city has high levels of air pollution.", en: "La ciudad tiene altos niveles de contaminación del aire." },
           { es: "A large number of people attended the protest.", en: "Una gran cantidad de personas asistió a la protesta." },
-          { es: "They found a large amount of cash in the car.", en: "Encontraron una gran cantidad de dinero en efectivo en el coche." },
+          { es: "They found a large amount of cash in the car.", en: "Encontraron una gran cantidad de dinero en efectivo en el carro." },
           { es: "Families on low incomes will receive help.", en: "Las familias con bajos ingresos recibirán ayuda." },
           { es: "Please handle this with great care.", en: "Por favor, manipúlelo con mucho cuidado." },
         ],
@@ -1338,7 +1338,7 @@ export const EN_C1_U09: Lesson[] = [
           { es: "I'm very tired.", en: "Estoy muy cansado." },
           { es: "I'm absolutely exhausted.", en: "Estoy agotadísimo. (incorrecto: *very exhausted)" },
           { es: "It's extremely cold outside.", en: "Hace muchísimo frío fuera." },
-          { es: "It's absolutely freezing in here.", en: "Aquí dentro hace un frío que pela." },
+          { es: "It's absolutely freezing in here.", en: "Aquí adentro hace muchísimo frío." },
           { es: "That's completely impossible.", en: "Eso es completamente imposible. (incorrecto: *very impossible)" },
           { es: "The food was really delicious.", en: "La comida estaba buenísima." },
         ],
@@ -1594,7 +1594,7 @@ export const EN_C1_U09: Lesson[] = [
           { es: "The staff were extremely helpful.", en: "El personal fue muy atento." },
           { es: "They gave us a warm welcome.", en: "Nos dieron una cálida bienvenida." },
           { es: "The service was painfully slow.", en: "El servicio era desesperantemente lento." },
-          { es: "The museum is well worth a visit.", en: "Merece mucho la pena visitar el museo." },
+          { es: "The museum is well worth a visit.", en: "Vale mucho la pena visitar el museo." },
           { es: "The ending was a bitter disappointment.", en: "El final fue una amarga decepción." },
         ],
         checkpoint: [
@@ -1663,7 +1663,7 @@ export const EN_C1_U09: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Los costes fueron mucho más altos de lo previsto.",
+            source: "Los costos fueron mucho más altos de lo previsto.",
             answer: "Costs were significantly higher than expected.",
             altAnswers: [
               "The costs were significantly higher than expected.",
@@ -1781,8 +1781,8 @@ export const EN_C1_U09: Lesson[] = [
         sentence: "The old town is ___.",
         answer: "well worth a visit",
         altAnswers: ["well worth visiting", "definitely worth a visit", "definitely worth visiting", "really worth a visit", "really worth visiting", "worth a visit", "worth visiting"],
-        en: "El casco antiguo [merece mucho la pena visitarlo].",
-        explanation: "«Merecer la pena» is \"be worth\" + noun or -ing; \"well\" intensifies it: \"well worth a visit\".",
+        en: "El casco antiguo [vale mucho la pena visitarlo].",
+        explanation: "«Valer la pena» is \"be worth\" + noun or -ing; \"well\" intensifies it: \"well worth a visit\".",
       },
       {
         type: "matching",
@@ -1807,7 +1807,7 @@ export const EN_C1_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Es muy probable que suban los tipos de interés.",
+        source: "Es muy probable que suban las tasas de interés.",
         answer: "It's highly likely that interest rates will rise.",
         altAnswers: [
           "It's highly likely that interest rates will go up.",
@@ -1885,7 +1885,7 @@ export const EN_C1_U09: Lesson[] = [
         ],
         examples: [
           { es: "very tired, absolutely exhausted", en: "muy cansado, agotadísimo" },
-          { es: "extremely cold, absolutely freezing", en: "mucho frío, un frío que pela" },
+          { es: "extremely cold, absolutely freezing", en: "mucho frío, muchísimo frío" },
           { es: "highly unlikely, fully aware, deeply concerned", en: "muy improbable, plenamente consciente, profundamente preocupado" },
         ],
         checkpoint: [
@@ -1995,7 +1995,7 @@ export const EN_C1_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Los precios de los billetes son muy altos en agosto.",
+        source: "Los precios de los boletos son muy altos en agosto.",
         answer: "Ticket prices are very high in August.",
         altAnswers: [
           "Ticket prices are really high in August.",
@@ -2111,7 +2111,7 @@ export const EN_C1_U09: Lesson[] = [
           { es: "Are you aware of the consequences?", en: "¿Eres consciente de las consecuencias?" },
           { es: "She's married to a doctor.", en: "Está casada con un médico. (incorrecto: *married with)" },
           { es: "This town is famous for its cheese.", en: "Este pueblo es famoso por su queso." },
-          { es: "Your phone is similar to mine.", en: "Tu móvil es parecido al mío." },
+          { es: "Your phone is similar to mine.", en: "Tu celular es parecido al mío." },
         ],
         checkpoint: [
           {
@@ -2152,7 +2152,7 @@ export const EN_C1_U09: Lesson[] = [
           "«La solución al problema» is \"the solution to the problem\". *The solution of the problem is understood, but it sounds foreign.",
         ],
         examples: [
-          { es: "There's been an increase in demand for electric cars.", en: "Ha habido un aumento de la demanda de coches eléctricos." },
+          { es: "There's been an increase in demand for electric cars.", en: "Ha habido un aumento de la demanda de carros eléctricos." },
           { es: "We still haven't found a solution to the problem.", en: "Todavía no hemos encontrado una solución al problema." },
           { es: "Who's in charge of the project?", en: "¿Quién está a cargo del proyecto?" },
           { es: "These species are at risk of extinction.", en: "Estas especies están en peligro de extinción." },
@@ -2339,7 +2339,7 @@ export const EN_C1_U09: Lesson[] = [
           "I'm aware of how difficult it is.",
           "I'm aware of how hard it is.",
         ],
-        explanation: "\"Aware of\" + noun, but \"aware that\" + clause (the \"of\" disappears before \"that\"). «Consciente» is never *conscious in this sense.",
+        explanation: "\"Aware of\" + noun, but \"aware that\" + clause (the \"of\" disappears before \"that\"). For «consciente de» here, \"aware of\" is the natural choice; \"conscious of\" is more formal and often means self-conscious.",
       },
       {
         type: "word-order",
@@ -2524,8 +2524,8 @@ export const EN_C1_U09: Lesson[] = [
           {
             type: "word-order",
             prompt: "Put the words in order.",
-            words: ["It's", "a", "risky", "plan,", "so", "let's", "not", "rule", "it", "out", "yet."],
-            translation: "Es un plan arriesgado, así que no lo descartemos todavía.",
+            words: ["It's", "a", "risky", "plan,", "but", "let's", "not", "rule", "it", "out", "yet."],
+            translation: "Es un plan arriesgado, pero no lo descartemos todavía.",
             explanation: "With a pronoun, the separable verb splits: \"rule it out\". *Rule out it is wrong.",
           },
           {
@@ -2730,7 +2730,7 @@ export const EN_C1_U09: Lesson[] = [
           { es: "Just do your best.", en: "Simplemente haz lo que puedas." },
           { es: "Everyone makes mistakes.", en: "Todo el mundo comete errores." },
           { es: "Could you do me a favor?", en: "¿Me podrías hacer un favor?" },
-          { es: "I'll make the bed if you do the dishes.", en: "Yo hago la cama si tú friegas los platos." },
+          { es: "I'll make the bed if you do the dishes.", en: "Yo hago la cama si tú lavas los platos." },
           { es: "We've done business with them for years.", en: "Llevamos años haciendo negocios con ellos." },
         ],
         checkpoint: [
@@ -2807,7 +2807,7 @@ export const EN_C1_U09: Lesson[] = [
           "And \"make an argument\" means «presentar un argumento», while \"have an argument\" means «discutir», «pelearse».",
         ],
         examples: [
-          { es: "We had a great time at the wedding.", en: "Lo pasamos genial en la boda. (incorrecto: *passed a great time)" },
+          { es: "We had a great time at the wedding.", en: "La pasamos genial en la boda. (incorrecto: *passed a great time)" },
           { es: "The kids had a lot of fun at the beach.", en: "Los niños se divirtieron mucho en la playa." },
           { es: "Stop making fun of your brother.", en: "Deja de burlarte de tu hermano." },
           { es: "The ceremony will take place at noon.", en: "La ceremonia tendrá lugar a mediodía. (incorrecto: *will have place)" },
@@ -2850,7 +2850,7 @@ export const EN_C1_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Lo pasamos genial en tu fiesta.",
+        source: "La pasamos genial en tu fiesta.",
         answer: "We had a great time at your party.",
         altAnswers: [
           "We had a wonderful time at your party.",
@@ -2953,7 +2953,7 @@ export const EN_C1_U09: Lesson[] = [
         sentence: "They ___ about who should drive.",
         answer: "had an argument",
         altAnswers: ["argued", "had a fight", "had a row", "got into an argument"],
-        en: "[Discutieron] sobre quién debía conducir.",
+        en: "[Discutieron] sobre quién debía manejar.",
         explanation: "«Discutir» in the sense of «pelearse» is \"argue\" or \"have an argument\". \"Discuss\" means talking calmly about a topic.",
       },
       {
@@ -3064,7 +3064,7 @@ export const EN_C1_U09: Lesson[] = [
           "Corrected: \"I had a great time at the wedding, but now I'm absolutely exhausted. My cousin is married to an Australian, and we talked about moving there. Can you do me a favor and remind me to call her?\"",
         ],
         examples: [
-          { es: "I had a great time at the wedding.", en: "Lo pasé genial en la boda. (incorrecto: *I passed a great time)" },
+          { es: "I had a great time at the wedding.", en: "La pasé genial en la boda. (incorrecto: *I passed a great time)" },
           { es: "Now I'm absolutely exhausted.", en: "Ahora estoy agotadísimo. (incorrecto: *very exhausted)" },
           { es: "My cousin is married to an Australian.", en: "Mi prima está casada con un australiano. (incorrecto: *married with)" },
           { es: "We discussed moving there.", en: "Hablamos de mudarnos allí. (incorrecto: *discussed about)" },
@@ -3280,7 +3280,7 @@ export const EN_C1_U09: Lesson[] = [
         examples: [
           { es: "The board devised a new strategy.", en: "La junta ideó una nueva estrategia." },
           { es: "We came up with a plan over coffee.", en: "Se nos ocurrió un plan tomando un café." },
-          { es: "The report fails to address the issue of cost.", en: "El informe no aborda la cuestión del coste." },
+          { es: "The report fails to address the issue of cost.", en: "El informe no aborda la cuestión del costo." },
           { es: "Don't worry, I'll deal with it.", en: "Tranquilo, yo me encargo." },
           { es: "Can we put it off until Monday?", en: "¿Podemos dejarlo para el lunes?" },
         ],
@@ -3312,7 +3312,7 @@ export const EN_C1_U09: Lesson[] = [
         ],
         examples: [
           { es: "We need to cut down on costs.", en: "Tenemos que recortar gastos." },
-          { es: "The company aims to reduce operating costs.", en: "La empresa pretende reducir los costes operativos." },
+          { es: "The company aims to reduce operating costs.", en: "La empresa pretende reducir los costos operativos." },
           { es: "I'll find out what time the movie starts.", en: "Me entero de a qué hora empieza la película." },
           { es: "The committee will determine the final budget.", en: "El comité determinará el presupuesto final." },
           { es: "As the report points out, sales have fallen.", en: "Como señala el informe, las ventas han bajado." },
@@ -3481,8 +3481,8 @@ export const EN_C1_U09: Lesson[] = [
           "Fog is \"thick\" or \"dense\" («niebla espesa»); light fog is \"mist\". Fog \"lifts\" or \"clears\" when it disappears.",
         ],
         examples: [
-          { es: "It's only drizzling. You don't need an umbrella.", en: "Solo está chispeando. No necesitas paraguas." },
-          { es: "We got caught in a downpour.", en: "Nos pilló un chaparrón." },
+          { es: "It's only drizzling. You don't need an umbrella.", en: "Solo está lloviznando. No necesitas paraguas." },
+          { es: "We got caught in a downpour.", en: "Nos agarró un aguacero." },
           { es: "Torrential rain caused flooding across the region.", en: "Las lluvias torrenciales provocaron inundaciones en toda la región." },
           { es: "A gentle breeze was blowing from the sea.", en: "Soplaba una brisa suave del mar." },
           { es: "It's very windy today.", en: "Hoy hace mucho viento. (incorrecto: *it makes much wind)" },
@@ -3556,7 +3556,7 @@ export const EN_C1_U09: Lesson[] = [
             sentence: "Take a coat. It's ___ outside.",
             answer: "freezing",
             altAnswers: ["bitterly cold", "freezing cold", "really cold", "very cold", "extremely cold", "absolutely freezing"],
-            en: "Coge un abrigo. Fuera [hace un frío que pela].",
+            en: "Toma un abrigo. Afuera [hace muchísimo frío].",
             explanation: "«Hace un frío que pela» is \"It's freezing\" or \"bitterly cold\". Weather uses \"it\" + \"be\", never *makes cold.",
           },
         ],
@@ -3564,7 +3564,7 @@ export const EN_C1_U09: Lesson[] = [
       {
         heading: "Landscapes and natural events",
         body: [
-          "Natural disasters: \"a flood\" («inundación»), \"a landslide\" («corrimiento de tierras», «desprendimiento»), \"an avalanche\", \"a wildfire\" («incendio forestal»). A river that overflows \"bursts its banks\" («se desborda»).",
+          "Natural disasters: \"a flood\" («inundación»), \"a landslide\" («deslizamiento de tierra», «derrumbe»), \"an avalanche\", \"a wildfire\" («incendio forestal»). A river that overflows \"bursts its banks\" («se desborda»).",
           "Landscape collocations: \"rolling hills\" («colinas onduladas»), \"a rugged coastline\" («una costa escarpada»), \"a dense forest\", \"a breathtaking view\", \"a barren landscape\" («un paisaje árido»).",
           "Useful verbs: a storm \"hits\" or \"strikes\" a place; people \"take shelter\" («se refugian») from the rain; the wind \"drops\" («amaina»); the sun \"breaks through\" the clouds.",
         ],
@@ -3605,7 +3605,7 @@ export const EN_C1_U09: Lesson[] = [
           { left: "downpour", right: "chaparrón" },
           { left: "drought", right: "sequía" },
           { left: "heatwave", right: "ola de calor" },
-          { left: "landslide", right: "corrimiento de tierras" },
+          { left: "landslide", right: "deslizamiento de tierra" },
         ],
         explanation: "These five words cover the most frequent weather news in English-speaking media.",
       },
@@ -3698,7 +3698,7 @@ export const EN_C1_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Las lluvias torrenciales provocaron un corrimiento de tierras.",
+        source: "Las lluvias torrenciales provocaron un deslizamiento de tierra.",
         answer: "The torrential rain caused a landslide.",
         altAnswers: [
           "Torrential rain caused a landslide.",
@@ -3948,7 +3948,7 @@ export const EN_C1_U09: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The company ___ into South America last year.",
         answer: "expanded",
-        altAnswers: ["moved", "branched out", "grew"],
+        altAnswers: ["moved", "branched out"],
         en: "La empresa [se expandió] a Sudamérica el año pasado.",
         explanation: "\"Expand into\" a new market or region. The noun is \"expansion\": \"the company's expansion into South America\".",
       },

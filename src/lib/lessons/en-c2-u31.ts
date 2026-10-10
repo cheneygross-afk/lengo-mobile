@@ -18,13 +18,13 @@ export const EN_C2_U31: Lesson[] = [
       {
         heading: "Causing: drive, fuel, trigger, give rise to",
         body: [
-          "Spanish leans heavily on «provocar» and «causar». Economic English has a richer set of verbs, and each one carries a picture. \"Drive\" is a steady force pushing from behind: \"Strong consumer spending drove growth.\" \"Fuel\" adds energy to something that is already burning, so it collocates with inflation, speculation, fears and booms: \"Cheap credit fuelled a housing boom.\"",
+          "Spanish leans heavily on «provocar» and «causar». Economic English has a richer set of verbs, and each one carries a picture. \"Drive\" is a steady force pushing from behind: \"Strong consumer spending drove growth.\" \"Fuel\" adds energy to something that is already burning, so it collocates with inflation, speculation, fears and booms: \"Cheap credit fueled a housing boom.\"",
           "\"Trigger\" and \"spark\" are sudden: one event sets off a reaction. They collocate with a crisis, a sell-off, panic, a wave of something, a recession. Avoid translating «provocar» as *provoke in this context: in English, \"provoke\" is mainly for reactions from people (\"provoke outrage\", \"provoke a backlash\"), not for market mechanics.",
           "\"Give rise to\" and \"bring about\" are more neutral and formal. \"Lead to\" is the all-purpose option; it takes a noun or an -ing form, never a bare verb: \"led to factories cutting output\", not *led to factories cut output.",
         ],
         examples: [
           { es: "Strong consumer spending drove growth in the third quarter.", en: "El fuerte consumo de los hogares impulsó el crecimiento en el tercer trimestre." },
-          { es: "Cheap credit fuelled a housing boom.", en: "El crédito barato alimentó un auge inmobiliario." },
+          { es: "Cheap credit fueled a housing boom.", en: "El crédito barato alimentó un auge inmobiliario." },
           { es: "The bank's collapse triggered a wave of panic selling.", en: "La quiebra del banco desencadenó una oleada de ventas por pánico." },
           { es: "The announcement sparked fears of a trade war.", en: "El anuncio desató temores de una guerra comercial." },
           { es: "The reforms gave rise to a new generation of small investors.", en: "Las reformas dieron lugar a una nueva generación de pequeños inversores." },
@@ -35,7 +35,7 @@ export const EN_C2_U31: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "La subida de los tipos de interés desencadenó una oleada de ventas.",
+            source: "La subida de las tasas de interés desencadenó una oleada de ventas.",
             answer: "The rise in interest rates triggered a wave of selling.",
             altAnswers: [
               "The rise in interest rates triggered a sell-off.",
@@ -55,7 +55,7 @@ export const EN_C2_U31: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Low interest rates ___ a speculative boom in property.",
-            options: ["fuelled", "provoked", "originated", "derived"],
+            options: ["fueled", "provoked", "originated", "derived"],
             correctIndex: 0,
             explanation: "\"Fuel\" is the natural verb for feeding a boom, inflation or speculation. *Provoked a boom is a calque of «provocar», \"originate\" needs a different structure, and \"derive\" does not mean cause.",
           },
@@ -110,7 +110,7 @@ export const EN_C2_U31: Lesson[] = [
         ],
         examples: [
           { es: "The factory closure had a knock-on effect on local shops.", en: "El cierre de la fábrica tuvo un efecto dominó en los comercios de la zona." },
-          { es: "Higher rates cool demand, which in turn eases pressure on prices.", en: "Unos tipos más altos enfrían la demanda, lo que a su vez alivia la presión sobre los precios." },
+          { es: "Higher rates cool demand, which in turn eases pressure on prices.", en: "Unas tasas más altas enfrían la demanda, lo que a su vez alivia la presión sobre los precios." },
           { es: "Falling prices make people delay purchases, which deepens the slump.", en: "La caída de los precios hace que la gente retrase sus compras, lo que agrava la crisis." },
           { es: "It is a classic vicious circle.", en: "Es un clásico círculo vicioso." },
           { es: "Economists fear a wage-price spiral.", en: "Los economistas temen una espiral de precios y salarios." },
@@ -122,10 +122,10 @@ export const EN_C2_U31: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "La huelga tuvo un efecto dominó en los supermercados.",
-            answer: "The strike had a knock-on effect on supermarkets.",
+            answer: "The strike had a domino effect on supermarkets.",
             altAnswers: [
               "The strike had a knock-on effect on the supermarkets.",
-              "The strike had a domino effect on supermarkets.",
+              "The strike had a knock-on effect on supermarkets.",
               "The strike had a domino effect on the supermarkets.",
               "The strike had a ripple effect on supermarkets.",
               "The strike had a ripple effect on the supermarkets.",
@@ -139,7 +139,7 @@ export const EN_C2_U31: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "Higher wages push up costs, which ___ push up prices.",
             answer: "in turn",
-            en: "Los salarios más altos encarecen los costes, lo que [a su vez] hace subir los precios.",
+            en: "Los salarios más altos encarecen los costos, lo que [a su vez] hace subir los precios.",
             explanation: "«A su vez» in a chain of causes is \"in turn\". Do not write *at its turn or *at the same time, which means «al mismo tiempo».",
           },
         ],
@@ -153,7 +153,7 @@ export const EN_C2_U31: Lesson[] = [
         ],
         examples: [
           { es: "Demand for chips has outstripped supply for two years.", en: "La demanda de chips lleva dos años superando a la oferta." },
-          { es: "A global shortage of semiconductors pushed up car prices.", en: "La escasez mundial de semiconductores hizo subir los precios de los coches." },
+          { es: "A global shortage of semiconductors pushed up car prices.", en: "La escasez mundial de semiconductores hizo subir los precios de los carros." },
           { es: "A glut of oil drove prices down to a ten-year low.", en: "El exceso de oferta de petróleo hundió los precios hasta mínimos de diez años." },
           { es: "Coffee prices soared after the frost in Brazil.", en: "Los precios del café se dispararon tras la helada en Brasil." },
           { es: "The company raised its prices by 5%.", en: "La empresa subió sus precios un 5 %." },
@@ -197,7 +197,7 @@ export const EN_C2_U31: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "El crédito barato alimentó una burbuja inmobiliaria.",
-        answer: "Cheap credit fuelled a property bubble.",
+        answer: "Cheap credit fueled a housing bubble.",
         altAnswers: [
           "Cheap credit fueled a property bubble.",
           "Cheap credit fuelled a housing bubble.",
@@ -257,7 +257,7 @@ export const EN_C2_U31: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Higher", "rates", "cool", "demand,", "which", "in", "turn", "eases", "inflation."],
-        translation: "Unos tipos más altos enfrían la demanda, lo que a su vez modera la inflación.",
+        translation: "Unas tasas más altas enfrían la demanda, lo que a su vez modera la inflación.",
         explanation: "\"Which in turn\" links the next step in a causal chain; \"which\" refers to the whole previous clause.",
       },
       {
@@ -387,7 +387,7 @@ export const EN_C2_U31: Lesson[] = [
           { es: "Online sales now account for a third of revenue.", en: "Las ventas en línea representan ahora un tercio de los ingresos." },
           { es: "The firm turns over about 5 million pounds a year.", en: "La empresa factura unos 5 millones de libras al año." },
           { es: "Staff turnover in the call center is very high.", en: "La rotación de personal en el centro de atención telefónica es muy alta." },
-          { es: "Revenue grew strongly, but costs grew even faster.", en: "Los ingresos crecieron con fuerza, pero los costes crecieron aún más deprisa." },
+          { es: "Revenue grew strongly, but costs grew even faster.", en: "Los ingresos crecieron con fuerza, pero los costos crecieron aún más deprisa." },
         ],
         checkpoint: [
           {
@@ -431,10 +431,10 @@ export const EN_C2_U31: Lesson[] = [
         ],
         examples: [
           { es: "The group made a net profit of 3 million euros.", en: "El grupo obtuvo un beneficio neto de 3 millones de euros." },
-          { es: "We made a loss in our first two years.", en: "Tuvimos pérdidas en nuestros dos primeros años." },
+          { es: "We lost money in our first two years.", en: "Tuvimos pérdidas en nuestros dos primeros años." },
           { es: "Supermarkets operate on wafer-thin margins.", en: "Los supermercados trabajan con márgenes muy estrechos." },
           { es: "Rising energy costs have squeezed our margins.", en: "El encarecimiento de la energía ha reducido nuestros márgenes." },
-          { es: "Overheads account for almost 30% of our costs.", en: "Los gastos generales suponen casi el 30 % de nuestros costes." },
+          { es: "Overheads account for almost 30% of our costs.", en: "Los gastos generales suponen casi el 30 % de nuestros costos." },
           { es: "The startup expects to break even next year.", en: "La empresa emergente espera alcanzar el punto de equilibrio el año que viene." },
           { es: "The job comes with generous benefits, including health insurance.", en: "El puesto incluye buenas prestaciones, entre ellas un seguro médico." },
         ],
@@ -452,7 +452,7 @@ export const EN_C2_U31: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "La subida de los costes ha reducido nuestros márgenes.",
+            source: "La subida de los costos ha reducido nuestros márgenes.",
             answer: "Rising costs have squeezed our margins.",
             altAnswers: [
               "Rising costs have eroded our margins.",
@@ -529,8 +529,8 @@ export const EN_C2_U31: Lesson[] = [
           { es: "The business was profitable but kept running into cash-flow problems.", en: "El negocio era rentable, pero no dejaba de tener problemas de liquidez." },
           { es: "The startup is burning through cash at an alarming rate.", en: "La empresa emergente está quemando dinero a un ritmo alarmante." },
           { es: "The board decided to cut the dividend.", en: "El consejo decidió recortar el dividendo." },
-          { es: "Shareholders will receive a dividend of 40 cents per share.", en: "Los accionistas recibirán un dividendo de 40 céntimos por acción." },
-          { es: "Sales were up 8% year on year.", en: "Las ventas subieron un 8 % interanual." },
+          { es: "Shareholders will receive a dividend of 40 cents per share.", en: "Los accionistas recibirán un dividendo de 40 centavos por acción." },
+          { es: "Sales were up 8% year over year.", en: "Las ventas subieron un 8 % interanual." },
           { es: "Third-quarter earnings beat analysts' expectations.", en: "Los beneficios del tercer trimestre superaron las previsiones de los analistas." },
         ],
         checkpoint: [
@@ -585,11 +585,11 @@ export const EN_C2_U31: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "La empresa tuvo pérdidas por tercer año consecutivo.",
-        answer: "The company made a loss for the third year in a row.",
+        answer: "The company posted a loss for the third year in a row.",
         altAnswers: [
           "The company made a loss for the third consecutive year.",
           "The company made a loss for the third straight year.",
-          "The company posted a loss for the third year in a row.",
+          "The company made a loss for the third year in a row.",
           "The company posted a loss for the third consecutive year.",
           "The company posted a loss for the third straight year.",
           "The company reported a loss for the third year in a row.",
@@ -618,7 +618,7 @@ export const EN_C2_U31: Lesson[] = [
         sentence: "Supermarkets work with ___, so a small rise in costs hurts.",
         answer: "very thin margins",
         altAnswers: ["wafer-thin margins", "razor-thin margins", "thin margins", "very narrow margins", "narrow margins", "very tight margins", "tight margins", "very slim margins", "slim margins", "wafer thin margins", "razor thin margins"],
-        en: "Los supermercados trabajan con [márgenes muy estrechos], así que una pequeña subida de los costes les hace daño.",
+        en: "Los supermercados trabajan con [márgenes muy estrechos], así que una pequeña subida de los costos les hace daño.",
         explanation: "Margins are \"thin\" or \"narrow\"; the intensified idioms are \"wafer-thin\" and \"razor-thin\".",
       },
       {
@@ -626,8 +626,9 @@ export const EN_C2_U31: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Los ingresos crecieron un 6 % interanual, pero el beneficio neto cayó.",
-        answer: "Revenue grew 6% year on year, but net profit fell.",
+        answer: "Revenue grew 6% year over year, but net profit fell.",
         altAnswers: [
+          "Revenue grew 6% year on year, but net profit fell.",
           "Revenue grew by 6% year on year, but net profit fell.",
           "Revenue rose 6% year on year, but net profit fell.",
           "Revenue rose by 6% year on year, but net profit fell.",
@@ -663,10 +664,10 @@ export const EN_C2_U31: Lesson[] = [
         audio: "The company is highly leveraged, so higher interest rates will hurt.",
         question: "What did you hear?",
         options: [
-          "La empresa está muy endeudada, así que la subida de los tipos de interés le hará daño.",
-          "La empresa tiene mucha liquidez, así que la subida de los tipos de interés la beneficiará.",
-          "La empresa tiene mucha influencia, así que la subida de los tipos le dará igual.",
-          "La empresa está creciendo mucho, así que necesita tipos de interés más altos.",
+          "La empresa está muy endeudada, así que la subida de las tasas de interés le hará daño.",
+          "La empresa tiene mucha liquidez, así que la subida de las tasas de interés la beneficiará.",
+          "La empresa tiene mucha influencia, así que la subida de las tasas le dará igual.",
+          "La empresa está creciendo mucho, así que necesita tasas de interés más altas.",
         ],
         correctIndex: 0,
         explanation: "\"Highly leveraged\" means that a company has borrowed heavily relative to its equity, so rising interest costs hit it hard.",
@@ -733,14 +734,14 @@ export const EN_C2_U31: Lesson[] = [
         body: [
           "\"Inflation\" is uncountable and takes no article in general statements: \"Inflation rose to 4% in May\", \"Inflation is running at 3%\". Headlines say it \"hits\", \"peaks at\", \"eases\" or \"cools\". «El IPC» is the \"CPI\" (consumer price index), and «inflación subyacente» is \"core inflation\", which excludes food and energy.",
           "\"Deflation\" means prices are actually falling. \"Disinflation\" means inflation is falling but still positive: prices are rising more slowly. Journalists often confuse the two; at the Mastery level you should not.",
-          "«Tipos de interés» is \"interest rates\" (never *interest types). A central bank \"raises\" (informally \"hikes\"), \"cuts\" or \"holds\" rates; it \"keeps rates on hold\" or \"leaves rates unchanged\". Small moves are measured in \"basis points\": a quarter of a percentage point is 25 basis points.",
+          "«Tasas de interés» (in Spain, «tipos de interés») is \"interest rates\" (never *interest types). A central bank \"raises\" (informally \"hikes\"), \"cuts\" or \"holds\" rates; it \"keeps rates on hold\" or \"leaves rates unchanged\". Small moves are measured in \"basis points\": a quarter of a percentage point is 25 basis points.",
         ],
         examples: [
           { es: "Inflation rose to 4.2% in May.", en: "La inflación subió al 4,2 % en mayo." },
           { es: "Core inflation remains stubbornly high.", en: "La inflación subyacente sigue obstinadamente alta." },
           { es: "Inflation has eased, but prices are still rising.", en: "La inflación se ha moderado, pero los precios siguen subiendo." },
-          { es: "The central bank raised interest rates by 25 basis points.", en: "El banco central subió los tipos de interés un cuarto de punto." },
-          { es: "The Fed left rates unchanged for the third meeting in a row.", en: "La Reserva Federal mantuvo los tipos sin cambios por tercera reunión consecutiva." },
+          { es: "The central bank raised interest rates by 25 basis points.", en: "El banco central subió las tasas de interés un cuarto de punto." },
+          { es: "The Fed left rates unchanged for the third meeting in a row.", en: "La Reserva Federal mantuvo las tasas sin cambios por tercera reunión consecutiva." },
           { es: "Japan struggled with deflation for years.", en: "Japón luchó durante años contra la deflación." },
         ],
         checkpoint: [
@@ -748,7 +749,7 @@ export const EN_C2_U31: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "El Banco Central Europeo ha mantenido los tipos de interés sin cambios.",
+            source: "El Banco Central Europeo ha mantenido las tasas de interés sin cambios.",
             answer: "The European Central Bank has left interest rates unchanged.",
             altAnswers: [
               "The European Central Bank has kept interest rates unchanged.",
@@ -768,7 +769,7 @@ export const EN_C2_U31: Lesson[] = [
               "The ECB has held rates.",
               "The ECB has left rates unchanged.",
             ],
-            explanation: "«Tipos de interés» is \"interest rates\". «Mantener sin cambios» is \"leave unchanged\", \"hold steady\" or simply \"hold\".",
+            explanation: "«Tasas de interés» is \"interest rates\". «Mantener sin cambios» is \"leave unchanged\", \"hold steady\" or simply \"hold\".",
           },
           {
             type: "multiple-choice",
@@ -876,10 +877,10 @@ export const EN_C2_U31: Lesson[] = [
             type: "multiple-choice",
             question: "Which sentence is correct?",
             options: [
-              "The telecoms giant made a bid for its smaller rival.",
-              "The telecoms giant made a bid to its smaller rival.",
-              "The telecoms giant made a bid on its smaller rival.",
-              "The telecoms giant did a bid for its smaller rival.",
+              "The telecom giant made a bid for its smaller rival.",
+              "The telecom giant made a bid to its smaller rival.",
+              "The telecom giant made a bid on its smaller rival.",
+              "The telecom giant did a bid for its smaller rival.",
             ],
             correctIndex: 0,
             explanation: "You \"make a bid for\" a company. The verb is \"make\", not *do, and the preposition is \"for\".",
@@ -941,14 +942,14 @@ export const EN_C2_U31: Lesson[] = [
         type: "matching",
         instructions: "Match the English with the Spanish.",
         pairs: [
-          { left: "interest rates", right: "tipos de interés" },
+          { left: "interest rates", right: "tasas de interés" },
           { left: "slowdown", right: "desaceleración" },
           { left: "takeover bid", right: "OPA, oferta de compra" },
           { left: "stake", right: "participación" },
           { left: "stimulus package", right: "plan de estímulo" },
           { left: "core inflation", right: "inflación subyacente" },
         ],
-        explanation: "Several of these are false-friend traps: «tipos» is not \"types\", and «participación» is not \"participation\".",
+        explanation: "Several of these are false-friend traps: «tasas» is not \"taxes\" (and Spain\'s «tipos» is not \"types\"), and «participación» is not \"participation\".",
       },
       {
         type: "translate",
@@ -1140,7 +1141,7 @@ export const EN_C2_U31: Lesson[] = [
           { es: "Growth was 2.5% last year.", en: "El crecimiento fue del 2,5 % el año pasado." },
           { es: "The share price closed at 14.75.", en: "La acción cerró a 14,75." },
           { es: "The company employs 12,000 people.", en: "La empresa da empleo a 12.000 personas." },
-          { es: "Unemployment fell to 0.8% in the region.", en: "El paro bajó al 0,8 % en la región." },
+          { es: "Unemployment fell to 0.8% in the region.", en: "El desempleo bajó al 0,8 % en la región." },
           { es: "Revenue came in at four point two billion dollars.", en: "Los ingresos fueron de 4.200 millones de dólares." },
         ],
         checkpoint: [
@@ -1170,10 +1171,10 @@ export const EN_C2_U31: Lesson[] = [
           "Fractions: a half, a third, two-thirds, a quarter (US also \"a fourth\"), three-quarters. «Uno de cada cinco» is \"one in five\", not *one of each five. «El doble» is \"twice as much\" or \"double\": \"twice as many customers\", \"double the price\".",
         ],
         examples: [
-          { es: "Unemployment rose by two percentage points, to 9%.", en: "El paro subió dos puntos porcentuales, hasta el 9 %." },
+          { es: "Unemployment rose by two percentage points, to 9%.", en: "El desempleo subió dos puntos porcentuales, hasta el 9 %." },
           { es: "Sales rose by 20 percent.", en: "Las ventas subieron un 20 %." },
           { es: "A high percentage of our clients are small businesses.", en: "Un alto porcentaje de nuestros clientes son pequeñas empresas." },
-          { es: "One in five young people is out of work.", en: "Uno de cada cinco jóvenes está en paro." },
+          { es: "One in five young people is out of work.", en: "Uno de cada cinco jóvenes está desempleado." },
           { es: "Two-thirds of the profit comes from Latin America.", en: "Dos tercios del beneficio proceden de América Latina." },
           { es: "We now have twice as many customers as in 2020.", en: "Ahora tenemos el doble de clientes que en 2020." },
         ],
@@ -1182,7 +1183,7 @@ export const EN_C2_U31: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "El paro bajó tres puntos porcentuales.",
+            source: "El desempleo bajó tres puntos porcentuales.",
             answer: "Unemployment fell by three percentage points.",
             altAnswers: [
               "Unemployment fell three percentage points.",
@@ -1248,7 +1249,7 @@ export const EN_C2_U31: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "«El paro subió al 8 %» means:",
+            question: "«El desempleo subió al 8 %» means:",
             options: [
               "Unemployment rose to 8%.",
               "Unemployment rose by 8%.",
@@ -1379,7 +1380,7 @@ export const EN_C2_U31: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Revenue came in at four point two billion dollars, up three percentage points on last year's growth rate.",
+        text: "Revenue came in at four point two billion dollars, up three percent from last year.",
         tip: "Say the currency word last: \"four point two billion DOLLARS\". Stress \"per-CENT-age\".",
         explanation: "Reading figures aloud in the right order is essential in presentations and earnings calls.",
       },
@@ -1411,20 +1412,20 @@ export const EN_C2_U31: Lesson[] = [
     level: "EN-C2",
     number: 5,
     title: "Agreement and Quantifiers: A Number Of, Neither, Collective Nouns",
-    summary: "Is it \"the staff is\" or \"the staff are\"? \"A number of firms has\" or \"have\"? \"Data is\" or \"data are\"? Master the subject-verb agreement that business reports get wrong: quantifiers, \"neither\" and \"none\", collective nouns in American and British English, percentages, and the uncountable nouns that Spanish speakers pluralise.",
+    summary: "Is it \"the staff is\" or \"the staff are\"? \"A number of firms has\" or \"have\"? \"Data is\" or \"data are\"? Master the subject-verb agreement that business reports get wrong: quantifiers, \"neither\" and \"none\", collective nouns in American and British English, percentages, and the uncountable nouns that Spanish speakers pluralize.",
     duration: "12 min",
     sections: [
       {
         heading: "A number of, the number of, a majority of",
         body: [
           "\"A number of\" means «varios», «bastantes», and the real subject is the plural noun after it, so the verb is plural: \"A number of firms have cut their prices.\" \"The number of\" means «el número de», and the subject is \"number\", so the verb is singular: \"The number of firms has fallen.\"",
-          "The same logic applies to \"a majority of\", \"a lot of\", \"plenty of\", \"a range of\", \"a variety of\": the verb agrees with the noun that follows. \"A majority of shareholders were in favour\"; \"A lot of the money was wasted.\" When \"majority\" stands alone, British English often uses a plural verb (\"The majority are against it\"), American English often a singular one.",
+          "The same logic applies to \"a majority of\", \"a lot of\", \"plenty of\", \"a range of\", \"a variety of\": the verb agrees with the noun that follows. \"A majority of shareholders were in favor\"; \"A lot of the money was wasted.\" When \"majority\" stands alone, British English often uses a plural verb (\"The majority are against it\"), American English often a singular one.",
           "Spanish speakers usually agree with the first noun, as in «El número de empresas ha bajado», which is right for \"the number of\" but wrong for \"a number of\": *A number of investors has complained.",
         ],
         examples: [
           { es: "A number of firms have cut their prices.", en: "Varias empresas han bajado sus precios." },
-          { es: "The number of start-ups has doubled since 2020.", en: "El número de empresas emergentes se ha duplicado desde 2020." },
-          { es: "A majority of shareholders were in favour of the merger.", en: "La mayoría de los accionistas estaban a favor de la fusión." },
+          { es: "The number of startups has doubled since 2020.", en: "El número de empresas emergentes se ha duplicado desde 2020." },
+          { es: "A majority of shareholders were in favor of the merger.", en: "La mayoría de los accionistas estaban a favor de la fusión." },
           { es: "A lot of the money was spent on consultants.", en: "Gran parte del dinero se gastó en consultores." },
           { es: "A range of options is available.", en: "Hay disponible una serie de opciones. (también: \"A range of options are available.\")" },
         ],
@@ -1476,7 +1477,7 @@ export const EN_C2_U31: Lesson[] = [
           { es: "Every employee has access to the pension plan.", en: "Todos los empleados tienen acceso al plan de pensiones." },
           { es: "Each of the partners has one vote.", en: "Cada uno de los socios tiene un voto." },
           { es: "Neither of the proposals is acceptable to the unions.", en: "Ninguna de las dos propuestas es aceptable para los sindicatos." },
-          { es: "Neither the CEO nor the directors were informed.", en: "Ni el consejero delegado ni los directores fueron informados." },
+          { es: "Neither the CEO nor the directors were informed.", en: "Ni el director general ni los directores fueron informados." },
           { es: "None of the bids was successful.", en: "Ninguna de las ofertas tuvo éxito. (también: \"None of the bids were successful.\")" },
           { es: "None of the money has been recovered.", en: "No se ha recuperado nada del dinero." },
         ],
@@ -1536,13 +1537,13 @@ export const EN_C2_U31: Lesson[] = [
         heading: "Data, percentages, fractions and uncountables",
         body: [
           "\"Data\" is historically plural (\"The data are clear\"), and many scientists still treat it that way, but in business and everyday English it is normally an uncountable singular: \"The data shows a slowdown.\" Both are acceptable; choose one and be consistent. \"Media\" follows a similar pattern (\"The media is / are obsessed with the story\").",
-          "Percentages, fractions and \"half of\" agree with the noun that follows: \"Forty per cent of the workforce is part-time\" (uncountable or collective singular), \"Forty per cent of employees are part-time\" (plural); \"Two-thirds of the budget has been spent\" vs \"Two-thirds of the shops have closed.\"",
+          "Percentages, fractions and \"half of\" agree with the noun that follows: \"Forty percent of the workforce is part-time\" (uncountable or collective singular), \"Forty percent of employees are part-time\" (plural); \"Two-thirds of the budget has been spent\" vs \"Two-thirds of the stores have closed.\"",
           "Finally, a group of nouns are uncountable in English but countable in Spanish, so they never take -s or \"a\": information, advice, equipment, research, evidence, feedback, furniture, news (singular verb: \"The news is good\"). *Informations, *advices and *researches are classic errors. To count them, use \"a piece of\", \"an item of\" or a countable synonym: \"two pieces of advice\", \"a study\", \"a tip\".",
         ],
         examples: [
           { es: "The data shows a clear slowdown in consumer spending.", en: "Los datos muestran una clara desaceleración del consumo." },
-          { es: "Forty per cent of the workforce is employed part-time.", en: "El cuarenta por ciento de la plantilla trabaja a tiempo parcial." },
-          { es: "Two-thirds of the shops on this street have closed.", en: "Dos tercios de las tiendas de esta calle han cerrado." },
+          { es: "Forty percent of the workforce is employed part-time.", en: "El cuarenta por ciento del personal trabaja a tiempo parcial." },
+          { es: "Two-thirds of the stores on this street have closed.", en: "Dos tercios de las tiendas de esta calle han cerrado." },
           { es: "The information you sent was very useful.", en: "La información que enviaste fue muy útil." },
           { es: "She gave me two useful pieces of advice.", en: "Me dio dos consejos útiles." },
           { es: "The news is better than expected.", en: "Las noticias son mejores de lo esperado." },
@@ -1615,7 +1616,7 @@ export const EN_C2_U31: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "Thirty per cent of our customers ___ under twenty-five.",
+        sentence: "Thirty percent of our customers ___ under twenty-five.",
         answer: "are",
         en: "El treinta por ciento de nuestros clientes [tiene] menos de veinticinco años.",
         explanation: "A percentage agrees with the noun after it: \"customers\" is plural, so \"are\". Note also \"be\" for age, not *have.",
@@ -1719,7 +1720,7 @@ export const EN_C2_U31: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write a short paragraph (70-110 words) for a company report summarising staff survey results. Use \"the number of\", \"a number of\", a percentage, \"neither\" or \"none of\", a collective noun, and \"data\" or \"feedback\", all with correct agreement.",
+        prompt: "Write a short paragraph (70-110 words) for a company report summarizing staff survey results. Use \"the number of\", \"a number of\", a percentage, \"neither\" or \"none of\", a collective noun, and \"data\" or \"feedback\", all with correct agreement.",
         minWords: 70,
         maxWords: 110,
         rubric: [
@@ -1729,7 +1730,7 @@ export const EN_C2_U31: Lesson[] = [
           "Uses a collective noun consistently (verb and pronoun).",
           "Treats \"feedback\", \"information\" or \"advice\" as uncountable.",
         ],
-        modelAnswer: "This year's staff survey received 640 responses. The number of employees who describe themselves as satisfied has risen to 72%, although a number of departments have reported concerns about workload. Sixty per cent of respondents say they would recommend the company as an employer, while 15% of the workforce is considering leaving within a year. Neither of the two pilot schemes has had a measurable effect yet. The board has reviewed the data and has asked each department to submit its own action plan. All feedback will be published on the intranet.",
+        modelAnswer: "This year's staff survey received 640 responses. The number of employees who describe themselves as satisfied has risen to 72%, although a number of departments have reported concerns about workload. Sixty percent of respondents say they would recommend the company as an employer, while 15% of the workforce is considering leaving within a year. Neither of the two pilot schemes has had a measurable effect yet. The board has reviewed the data and has asked each department to submit its own action plan. All feedback will be published on the intranet.",
         explanation: "Each subject controls its verb: \"the number ... has\", \"a number of departments have\", \"60% of respondents say\", \"15% of the workforce is\", \"neither ... has\", \"the board has ... its\" and uncountable \"feedback\".",
       },
       {
@@ -1760,10 +1761,10 @@ export const EN_C2_U31: Lesson[] = [
         examples: [
           { es: "Shares slumped amid fears of a strike.", en: "Las acciones se desplomaron en medio de temores a una huelga." },
           { es: "Oil stocks rallied on the back of higher crude prices.", en: "Las petroleras repuntaron gracias a la subida del crudo." },
-          { es: "In the wake of the scandal, the CEO resigned.", en: "A raíz del escándalo, el consejero delegado dimitió." },
+          { es: "In the wake of the scandal, the CEO resigned.", en: "A raíz del escándalo, el director general renunció." },
           { es: "Weak demand from China weighed on mining stocks.", en: "La débil demanda de China lastró a las mineras." },
           { es: "Markets were buoyed by strong jobs data.", en: "Los mercados se vieron impulsados por unos buenos datos de empleo." },
-          { es: "The flight was cancelled owing to a technical fault.", en: "El vuelo se canceló debido a una avería técnica." },
+          { es: "The flight was canceled owing to a technical fault.", en: "El vuelo se canceló debido a una avería técnica." },
         ],
         checkpoint: [
           {
@@ -1813,7 +1814,7 @@ export const EN_C2_U31: Lesson[] = [
           { es: "GDP grew 0.4% in the third quarter.", en: "El PIB creció un 0,4 % en el tercer trimestre." },
           { es: "Growth is expected to slow next year.", en: "Se espera que el crecimiento se ralentice el año que viene." },
           { es: "The IMF has revised down its growth forecast for Spain.", en: "El FMI ha rebajado su previsión de crecimiento para España." },
-          { es: "Unemployment is set to rise above 10%.", en: "El paro va a superar el 10 %." },
+          { es: "Unemployment is set to rise above 10%.", en: "El desempleo va a superar el 10 %." },
           { es: "The country is on course to miss its deficit target.", en: "El país va camino de incumplir su objetivo de déficit." },
           { es: "Inflation is projected to fall to 2% by 2027.", en: "Se prevé que la inflación baje al 2 % en 2027." },
         ],
@@ -1864,7 +1865,7 @@ export const EN_C2_U31: Lesson[] = [
           { es: "There are tentative signs of a recovery.", en: "Hay indicios incipientes de recuperación." },
           { es: "The minister said she was cautiously optimistic.", en: "La ministra dijo que era moderadamente optimista." },
           { es: "Risks to the outlook remain tilted to the downside.", en: "Los riesgos para las perspectivas siguen inclinados a la baja." },
-          { es: "Barring a shock, rates will start falling in spring.", en: "Salvo sorpresas, los tipos empezarán a bajar en primavera." },
+          { es: "Barring a shock, rates will start falling in spring.", en: "Salvo sorpresas, las tasas empezarán a bajar en primavera." },
           { es: "House prices could fall further this year.", en: "Los precios de la vivienda podrían seguir bajando este año." },
         ],
         checkpoint: [
@@ -1884,10 +1885,10 @@ export const EN_C2_U31: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "No se puede descartar una nueva subida de tipos.",
-            answer: "A further rate rise cannot be ruled out.",
+            source: "No se puede descartar una nueva subida de las tasas de interés.",
+            answer: "A further rate hike cannot be ruled out.",
             altAnswers: [
-              "A further rate hike cannot be ruled out.",
+              "A further rate rise cannot be ruled out.",
               "A further interest rate rise cannot be ruled out.",
               "A further interest rate hike cannot be ruled out.",
               "Another rate rise cannot be ruled out.",
@@ -1921,7 +1922,7 @@ export const EN_C2_U31: Lesson[] = [
           { es: "The economy faces strong headwinds.", en: "La economía se enfrenta a fuertes vientos en contra." },
           { es: "The Fed is hoping for a soft landing.", en: "La Reserva Federal espera un aterrizaje suave." },
           { es: "The bank has tightened monetary policy aggressively.", en: "El banco ha endurecido la política monetaria de forma agresiva." },
-          { es: "The governor struck a dovish tone.", en: "El gobernador adoptó un tono partidario de bajar los tipos." },
+          { es: "The governor struck a dovish tone.", en: "El gobernador adoptó un tono partidario de bajar las tasas." },
           { es: "In plain English, borrowing is going to get more expensive.", en: "Dicho de forma sencilla, pedir préstamos va a salir más caro." },
         ],
         checkpoint: [
@@ -2025,10 +2026,10 @@ export const EN_C2_U31: Lesson[] = [
         audio: "Barring a shock, the central bank is set to cut rates in June.",
         question: "What did you hear?",
         options: [
-          "Salvo sorpresas, el banco central va a bajar los tipos en junio.",
-          "Tras un susto, el banco central bajó los tipos en junio.",
-          "El banco central descarta bajar los tipos en junio.",
-          "Si hay un sobresalto, el banco central subirá los tipos en junio.",
+          "Salvo sorpresas, el banco central va a bajar las tasas en junio.",
+          "Tras un susto, el banco central bajó las tasas en junio.",
+          "El banco central descarta bajar las tasas en junio.",
+          "Si hay un sobresalto, el banco central subirá las tasas en junio.",
         ],
         correctIndex: 0,
         explanation: "\"Barring\" means «salvo» or «a menos que haya», and \"set to\" signals a strong expectation.",
@@ -2108,7 +2109,7 @@ export const EN_C2_U31: Lesson[] = [
         examples: [
           { es: "The strategic rationale is simple.", en: "La lógica estratégica es sencilla." },
           { es: "Combined, we would have a 30% market share.", en: "Juntos, tendríamos una cuota de mercado del 30 %." },
-          { es: "We have identified around 80 million in annual cost synergies.", en: "Hemos identificado unos 80 millones en sinergias de costes anuales." },
+          { es: "We have identified around 80 million in annual cost synergies.", en: "Hemos identificado unos 80 millones en sinergias de costos anuales." },
           { es: "The merger would give us real economies of scale.", en: "La fusión nos daría verdaderas economías de escala." },
           { es: "Integration is where most mergers fail.", en: "La integración es donde fracasan la mayoría de las fusiones." },
           { es: "I am not sure about the cultural fit.", en: "No tengo claro que las dos culturas empresariales encajen." },
@@ -2153,8 +2154,8 @@ export const EN_C2_U31: Lesson[] = [
           { es: "Could you walk us through how you arrived at that figure?", en: "¿Podrías explicarnos paso a paso cómo has llegado a esa cifra?" },
           { es: "What assumptions underpin the revenue forecast?", en: "¿En qué supuestos se basa la previsión de ingresos?" },
           { es: "Could you break that down by region?", en: "¿Podrías desglosarlo por regiones?" },
-          { es: "Is that a one-off cost or a recurring one?", en: "¿Es un coste puntual o recurrente?" },
-          { es: "Just to clarify, is that before or after integration costs?", en: "Solo para aclararlo: ¿eso es antes o después de los costes de integración?" },
+          { es: "Is that a one-time cost or a recurring one?", en: "¿Es un costo puntual o recurrente?" },
+          { es: "Just to clarify, is that before or after integration costs?", en: "Solo para aclararlo: ¿eso es antes o después de los costos de integración?" },
           { es: "Over what time frame do you expect to realize those savings?", en: "¿En qué plazo esperan materializar esos ahorros?" },
         ],
         checkpoint: [
@@ -2206,7 +2207,7 @@ export const EN_C2_U31: Lesson[] = [
           { es: "I don't doubt the strategic logic, but I'm not entirely convinced by the numbers.", en: "No dudo de la lógica estratégica, pero los números no me acaban de convencer." },
           { es: "My one reservation is the timeline.", en: "Mi única reserva es el calendario." },
           { es: "I'd just like to flag the regulatory risk.", en: "Solo quería señalar el riesgo regulatorio." },
-          { es: "Are we being overly optimistic about the cost savings?", en: "¿No estaremos siendo demasiado optimistas con el ahorro de costes?" },
+          { es: "Are we being overly optimistic about the cost savings?", en: "¿No estaremos siendo demasiado optimistas con el ahorro de costos?" },
           { es: "I'd question whether the integration can be done in two years.", en: "Yo pondría en duda que la integración se pueda hacer en dos años." },
           { es: "I wonder if we're underestimating the cultural differences.", en: "Me pregunto si no estaremos subestimando las diferencias culturales." },
         ],
@@ -2257,7 +2258,7 @@ export const EN_C2_U31: Lesson[] = [
           { es: "Let's not lose sight of the bigger picture.", en: "No perdamos de vista la visión de conjunto." },
           { es: "I suggest we commission an independent review.", en: "Propongo que encarguemos una revisión independiente." },
           { es: "Can we agree in principle, pending due diligence?", en: "¿Podemos llegar a un acuerdo de principio, a la espera de la auditoría previa?" },
-          { es: "Let's park the question of the brand for now.", en: "Dejemos aparcada de momento la cuestión de la marca." },
+          { es: "Let's park the question of the brand for now.", en: "Dejemos estacionada de momento la cuestión de la marca." },
           { es: "The deal is subject to regulatory approval.", en: "La operación está sujeta a la aprobación de los reguladores." },
         ],
         checkpoint: [
@@ -2278,7 +2279,7 @@ export const EN_C2_U31: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi única reserva es el coste de la integración.",
+        source: "Mi única reserva es el costo de la integración.",
         answer: "My one reservation is the cost of integration.",
         altAnswers: [
           "My only reservation is the cost of integration.",
@@ -2304,20 +2305,20 @@ export const EN_C2_U31: Lesson[] = [
           "move the meeting to another room",
         ],
         correctIndex: 0,
-        explanation: "To \"park\" a topic is to set it aside temporarily, like Spanish «aparcar» in the same figurative sense.",
+        explanation: "To \"park\" a topic is to set it aside temporarily, like Spanish «estacionar» in the same figurative sense.",
       },
       {
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
         source: "¿Ese ahorro es puntual o recurrente?",
-        answer: "Is that saving a one-off or recurring?",
+        answer: "Is that a one-time saving or a recurring one?",
         altAnswers: [
           "Is that saving one-off or recurring?",
           "Is that a one-off saving or a recurring one?",
           "Is that saving a one-off or a recurring one?",
           "Is that a one-off or a recurring saving?",
-          "Is that a one-time saving or a recurring one?",
+          "Is that saving a one-off or recurring?",
           "Is that saving one-time or recurring?",
           "Are those savings one-off or recurring?",
           "Are those savings one-time or recurring?",
@@ -2373,10 +2374,10 @@ export const EN_C2_U31: Lesson[] = [
         audio: "I'd just like to flag that the integration costs aren't included in that figure.",
         question: "What is the speaker doing?",
         options: [
-          "Señalando que la cifra no incluye los costes de integración.",
+          "Señalando que la cifra no incluye los costos de integración.",
           "Aprobando la cifra sin reservas.",
           "Pidiendo que se aplace la reunión.",
-          "Diciendo que los costes de integración son demasiado altos.",
+          "Diciendo que los costos de integración son demasiado altos.",
         ],
         correctIndex: 0,
         explanation: "To \"flag\" something is to point it out as a possible problem, without yet arguing about it.",
@@ -2501,7 +2502,7 @@ export const EN_C2_U31: Lesson[] = [
         body: [
           "Investors want proof. \"Traction\" is evidence that the business works: customers, revenue, growth. \"We've grown revenue threefold in twelve months\", \"We now have 400 paying customers\", \"Our churn is below 2% a month\" (\"churn\" is the rate at which customers cancel).",
           "Subscription businesses talk about \"recurring revenue\" (\"annual recurring revenue\", ARR), \"customer acquisition cost\" (CAC) and \"lifetime value\" (LTV). Keep the key ratios simple: \"Each customer costs us 300 dollars to acquire and is worth around 3,000 over their lifetime.\"",
-          "Use verbs that describe the trend precisely: revenue \"tripled\", \"has grown threefold\", \"has grown tenfold\", \"has doubled year on year\". «Multiplicar por tres» is \"triple\" or \"grow threefold\", not *multiply by three, which sounds like a math exercise.",
+          "Use verbs that describe the trend precisely: revenue \"tripled\", \"has grown threefold\", \"has grown tenfold\", \"has doubled year over year\". «Multiplicar por tres» is \"triple\" or \"grow threefold\", not *multiply by three, which sounds like a math exercise.",
         ],
         examples: [
           { es: "We've grown revenue threefold in twelve months.", en: "Hemos multiplicado por tres los ingresos en doce meses." },
@@ -2848,8 +2849,8 @@ export const EN_C2_U31: Lesson[] = [
           { es: "It was found that most customers left within six months.", en: "Se observó que la mayoría de los clientes se iban en seis meses." },
           { es: "It is estimated that the project will cost 2 million euros.", en: "Se estima que el proyecto costará 2 millones de euros." },
           { es: "The data suggest that demand has peaked.", en: "Los datos indican que la demanda ha tocado techo." },
-          { es: "There was a sharp rise in energy costs.", en: "Hubo una fuerte subida de los costes energéticos." },
-          { es: "Cost reduction must be a priority.", en: "La reducción de costes debe ser una prioridad." },
+          { es: "There was a sharp rise in energy costs.", en: "Hubo una fuerte subida de los costos energéticos." },
+          { es: "Cost reduction must be a priority.", en: "La reducción de costos debe ser una prioridad." },
           { es: "A decline in margins was observed in all regions.", en: "Se observó un descenso de los márgenes en todas las regiones." },
         ],
         checkpoint: [
@@ -2881,7 +2882,7 @@ export const EN_C2_U31: Lesson[] = [
             type: "word-order",
             prompt: "Put the words in order.",
             words: ["There", "was", "a", "sharp", "rise", "in", "operating", "costs."],
-            translation: "Hubo una fuerte subida de los costes operativos.",
+            translation: "Hubo una fuerte subida de los costos operativos.",
             explanation: "A nominal version of \"operating costs rose sharply\". The noun \"rise\" takes \"in\".",
           },
         ],
@@ -2896,7 +2897,7 @@ export const EN_C2_U31: Lesson[] = [
         examples: [
           { es: "The company should close the Lima store.", en: "La empresa debería cerrar la tienda de Lima." },
           { es: "We recommend that the board approve the plan.", en: "Recomendamos que el consejo apruebe el plan." },
-          { es: "It is essential that costs be reduced by 10%.", en: "Es fundamental que se reduzcan los costes un 10 %." },
+          { es: "It is essential that costs be reduced by 10%.", en: "Es fundamental que se reduzcan los costos un 10 %." },
           { es: "We recommend closing the store by June.", en: "Recomendamos cerrar la tienda antes de junio." },
           { es: "It is vital that the merger be completed this year.", en: "Es vital que la fusión se complete este año." },
           { es: "We suggest that the company should seek a partner.", en: "Sugerimos que la empresa busque un socio." },
@@ -3059,13 +3060,13 @@ export const EN_C2_U31: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Hubo un fuerte aumento de los costes de transporte.",
-        answer: "There was a sharp increase in transport costs.",
+        source: "Hubo un fuerte aumento de los costos de transporte.",
+        answer: "There was a sharp increase in transportation costs.",
         altAnswers: [
           "There was a sharp rise in transport costs.",
           "There was a steep increase in transport costs.",
           "There was a steep rise in transport costs.",
-          "There was a sharp increase in transportation costs.",
+          "There was a sharp increase in transport costs.",
           "There was a sharp rise in transportation costs.",
           "There was a steep rise in transportation costs.",
           "There was a significant increase in transport costs.",
@@ -3081,7 +3082,7 @@ export const EN_C2_U31: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write the \"Recommendations\" section of a report (70-110 words). The company's online store is growing fast, but two of its five physical shops are losing money. Make three recommendations.",
+        prompt: "Write the \"Recommendations\" section of a report (70-110 words). The company's online store is growing fast, but two of its five physical stores are losing money. Make three recommendations.",
         minWords: 70,
         maxWords: 110,
         rubric: [
@@ -3090,7 +3091,7 @@ export const EN_C2_U31: Lesson[] = [
           "Includes \"should\" or \"recommend\" + -ing at least once.",
           "Gives three clear, logically linked recommendations.",
         ],
-        modelAnswer: "In light of the findings above, three recommendations are made. First, it is recommended that the two loss-making shops be closed by the end of the financial year, as neither is expected to break even in the foreseeable future. Second, the savings generated should be reinvested in the online store, in particular in logistics and customer service. Finally, we recommend that the three remaining shops be repositioned as showrooms and collection points, so that they support online sales rather than compete with them. It is essential that staff be consulted at every stage of this process.",
+        modelAnswer: "In light of the findings above, three recommendations are made. First, it is recommended that the two money-losing stores be closed by the end of the fiscal year, as neither is expected to break even in the foreseeable future. Second, the savings generated should be reinvested in the online store, in particular in logistics and customer service. Finally, we recommend that the three remaining stores be repositioned as showrooms and collection points, so that they support online sales rather than compete with them. It is essential that staff be consulted at every stage of this process.",
         explanation: "A strong recommendations section is impersonal, numbered or sequenced, and justifies each step briefly.",
       },
     ],
@@ -3110,15 +3111,15 @@ export const EN_C2_U31: Lesson[] = [
         heading: "Report or proposal? Purpose statements and headings",
         body: [
           "A report answers «¿qué pasó y qué encontramos?»: it describes a situation, presents findings and ends with recommendations. A proposal answers «¿qué deberíamos hacer y por qué?»: it describes a problem or an opportunity, puts forward a plan and argues for it, usually with costs and benefits. Both share one skeleton: a title, short headings, a purpose statement, headed or numbered sections and a closing recommendation.",
-          "The purpose statement comes first and names the genre, the task and the audience: \"The purpose of this report is to evaluate the staff training programme and to recommend improvements.\" \"This proposal sets out a plan to reduce energy costs at the Valencia plant.\" Say who asked for it and how the information was gathered: \"This report was commissioned by the Marketing Director and is based on a survey of 200 customers.\"",
+          "The purpose statement comes first and names the genre, the task and the audience: \"The purpose of this report is to evaluate the staff training program and to recommend improvements.\" \"This proposal sets out a plan to reduce energy costs at the Valencia plant.\" Say who asked for it and how the information was gathered: \"This report was commissioned by the Marketing Director and is based on a survey of 200 customers.\"",
           "Writers trained in Spanish tend to open like an essay: a general reflection («Hoy en día, en un mundo cada vez más competitivo...») followed by one long paragraph with no headings. In English that is the wrong genre. A report with no headings, or a proposal that argues in the abstract instead of proposing concrete steps, loses marks and loses readers. State the purpose, label the sections, and keep your opinion for the recommendations.",
         ],
         examples: [
-          { es: "The purpose of this report is to evaluate the staff training programme and to recommend improvements.", en: "El objetivo de este informe es evaluar el programa de formación del personal y recomendar mejoras." },
-          { es: "This proposal sets out a plan to reduce energy costs at the Valencia plant.", en: "Esta propuesta expone un plan para reducir los costes energéticos de la planta de Valencia." },
+          { es: "The purpose of this report is to evaluate the staff training program and to recommend improvements.", en: "El objetivo de este informe es evaluar el programa de formación del personal y recomendar mejoras." },
+          { es: "This proposal sets out a plan to reduce energy costs at the Valencia plant.", en: "Esta propuesta expone un plan para reducir los costos energéticos de la planta de Valencia." },
           { es: "This report was commissioned by the Marketing Director.", en: "Este informe fue encargado por la directora de marketing." },
           { es: "It is based on a survey of 200 customers and on interviews with branch managers.", en: "Se basa en una encuesta a 200 clientes y en entrevistas con los directores de sucursal." },
-          { es: "The proposal covers costs, timing and expected benefits.", en: "La propuesta abarca costes, plazos y beneficios previstos." },
+          { es: "The proposal covers costs, timing and expected benefits.", en: "La propuesta abarca costos, plazos y beneficios previstos." },
           { es: "The report is divided into four sections: introduction, findings, conclusions and recommendations.", en: "El informe se divide en cuatro apartados: introducción, resultados, conclusiones y recomendaciones." },
         ],
         checkpoint: [
@@ -3126,7 +3127,7 @@ export const EN_C2_U31: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Esta propuesta expone un plan para reducir el absentismo en el almacén.",
+            source: "Esta propuesta expone un plan para reducir el ausentismo en el almacén.",
             answer: "This proposal sets out a plan to reduce absenteeism in the warehouse.",
             altAnswers: [
               "This proposal outlines a plan to reduce absenteeism in the warehouse.",
@@ -3278,7 +3279,7 @@ export const EN_C2_U31: Lesson[] = [
           { es: "Replace the booking system by the end of the year.", en: "Sustituir el sistema de reservas antes de fin de año." },
           { es: "Train all front-desk staff in the new system.", en: "Formar a todo el personal de recepción en el nuevo sistema." },
           { es: "As outlined above, the current system cannot handle peak demand.", en: "Como se ha expuesto más arriba, el sistema actual no puede absorber los picos de demanda." },
-          { es: "Full costings are set out in Appendix A.", en: "Los costes detallados figuran en el anexo A." },
+          { es: "Full costings are set out in Appendix A.", en: "Los costos detallados figuran en el anexo A." },
           { es: "In conclusion, the company should proceed with Option B.", en: "En conclusión, la empresa debería optar por la opción B." },
         ],
         checkpoint: [
@@ -3298,7 +3299,7 @@ export const EN_C2_U31: Lesson[] = [
             type: "word-order",
             prompt: "Put the words in order.",
             words: ["Full", "costings", "are", "set", "out", "in", "Appendix", "A."],
-            translation: "Los costes detallados figuran en el anexo A.",
+            translation: "Los costos detallados figuran en el anexo A.",
             explanation: "\"Set out\" in the passive is the standard signpost for «figurar», «exponerse».",
           },
         ],
@@ -3309,7 +3310,7 @@ export const EN_C2_U31: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El objetivo de esta propuesta es presentar un plan para reducir los costes energéticos de la fábrica.",
+        source: "El objetivo de esta propuesta es presentar un plan para reducir los costos energéticos de la fábrica.",
         answer: "The purpose of this proposal is to present a plan to reduce energy costs at the factory.",
         altAnswers: [
           "The aim of this proposal is to present a plan to reduce energy costs at the factory.",
@@ -3333,7 +3334,7 @@ export const EN_C2_U31: Lesson[] = [
           "This proposal aims to present a plan to reduce energy costs at the factory.",
           "This proposal sets out a plan to reduce energy costs at the factory.",
         ],
-        explanation: "\"The purpose / aim of this proposal is to...\" is the purpose statement every proposal opens with. «Los costes de la fábrica» is \"costs at the factory\" or \"the factory's costs\".",
+        explanation: "\"The purpose / aim of this proposal is to...\" is the purpose statement every proposal opens with. «Los costos de la fábrica» is \"costs at the factory\" or \"the factory's costs\".",
       },
       {
         type: "multiple-choice",
@@ -3352,7 +3353,7 @@ export const EN_C2_U31: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "It is recommended that the company ___ a four-day week on a trial basis.",
         answer: "adopt",
-        altAnswers: ["should adopt", "introduce", "should introduce", "adopts", "introduces"],
+        altAnswers: ["should adopt", "introduce", "should introduce"],
         en: "Se recomienda que la empresa [adopte] la semana de cuatro días a modo de prueba.",
         explanation: "After \"it is recommended that\", formal English uses the mandative subjunctive \"adopt\" (no -s) or British \"should adopt\". Spanish uses a subjunctive here too: «adopte».",
       },
@@ -3361,7 +3362,7 @@ export const EN_C2_U31: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Se consultó a los empleados de las tres sedes y la mayoría se mostró a favor del cambio.",
-        answer: "Employees at all three sites were consulted and most were in favour of the change.",
+        answer: "Employees at all three sites were consulted and most were in favor of the change.",
         altAnswers: [
           "Employees at the three sites were consulted and most were in favour of the change.",
           "Employees at all three sites were consulted, and most were in favour of the change.",
@@ -3386,7 +3387,7 @@ export const EN_C2_U31: Lesson[] = [
           "The employees at the three sites were consulted and most were in favour of the change.",
           "Employees at all three sites were consulted and most of them supported the change.",
         ],
-        explanation: "«Se consultó a los empleados» becomes a passive with a subject: \"Employees were consulted\" (never *It was consulted to the employees). «Mostrarse a favor» is \"be in favour of\".",
+        explanation: "«Se consultó a los empleados» becomes a passive with a subject: \"Employees were consulted\" (never *It was consulted to the employees). «Mostrarse a favor» is \"be in favor of\".",
       },
       {
         type: "matching",
@@ -3490,7 +3491,7 @@ export const EN_C2_U31: Lesson[] = [
         options: [
           "In my opinion the system is terrible and should be replaced.",
           "The system was found to be unable to handle peak demand.",
-          "Forty per cent of users reported at least one failed booking a week.",
+          "Forty percent of users reported at least one failed booking a week.",
           "It emerged that no training had been provided since 2022.",
         ],
         correctIndex: 0,
@@ -3531,7 +3532,7 @@ export const EN_C2_U31: Lesson[] = [
           "Accounts: \"revenue\" or \"turnover\" (top line), \"gross\", \"operating\" and \"net profit\" (bottom line), \"margins\", \"assets\" and \"liabilities\", \"cash flow\", \"write off\", \"dividend\". «Beneficios» is \"profits\", never *benefits.",
         ],
         examples: [
-          { es: "Cheap credit fuelled the boom.", en: "El crédito barato alimentó el auge." },
+          { es: "Cheap credit fueled the boom.", en: "El crédito barato alimentó el auge." },
           { es: "The losses stem from a bad acquisition.", en: "Las pérdidas se derivan de una mala adquisición." },
           { es: "Net profit fell despite higher revenue.", en: "El beneficio neto cayó a pesar del aumento de los ingresos." },
           { es: "The bank wrote off the loan.", en: "El banco dio por perdido el préstamo." },
@@ -3541,7 +3542,7 @@ export const EN_C2_U31: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "La mitad de la caída del beneficio es atribuible a la subida de los costes energéticos.",
+            source: "La mitad de la caída del beneficio es atribuible a la subida de los costos energéticos.",
             answer: "Half of the fall in profit is attributable to higher energy costs.",
             altAnswers: [
               "Half of the drop in profit is attributable to higher energy costs.",
@@ -3572,7 +3573,7 @@ export const EN_C2_U31: Lesson[] = [
           "Numbers: «mil millones» = \"billion\", «billón» = \"trillion\"; decimal point, thousands comma; \"percentage points\" for changes in rates; \"rise by\" (change) versus \"rise to\" (level). Reports: \"This report examines...\", \"It is estimated that...\", \"We recommend that the board approve...\".",
         ],
         examples: [
-          { es: "The ECB is expected to hold rates.", en: "Se espera que el BCE mantenga los tipos." },
+          { es: "The ECB is expected to hold rates.", en: "Se espera que el BCE mantenga las tasas." },
           { es: "The fund has taken a 7% stake in the airline.", en: "El fondo ha tomado una participación del 7 % en la aerolínea." },
           { es: "Public debt has passed two trillion dollars.", en: "La deuda pública ha superado los dos billones de dólares." },
           { es: "We recommend that the plant be closed.", en: "Recomendamos que se cierre la planta." },
@@ -3580,7 +3581,7 @@ export const EN_C2_U31: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Los tipos pasaron del 3 % al 3,5 %.» Which description is correct?",
+            question: "«Las tasas pasaron del 3 % al 3,5 %.» Which description is correct?",
             options: [
               "Rates rose by half a percentage point.",
               "Rates rose by half a percent.",
@@ -3802,7 +3803,7 @@ export const EN_C2_U31: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write a short executive summary (80-120 words) for a report on this situation: «Las ventas de la empresa subieron un 8 % hasta 120 millones de euros, pero el beneficio neto cayó un 30 % por la subida de los costes energéticos. Hay una oferta de compra de un rival por 9 euros por acción.» Include one recommendation.",
+        prompt: "Write a short executive summary (80-120 words) for a report on this situation: «Las ventas de la empresa subieron un 8 % hasta 120 millones de euros, pero el beneficio neto cayó un 30 % por la subida de los costos energéticos. Hay una oferta de compra de un rival por 9 euros por acción.» Include one recommendation.",
         minWords: 80,
         maxWords: 120,
         rubric: [
@@ -3812,7 +3813,7 @@ export const EN_C2_U31: Lesson[] = [
           "Mentions the takeover bid with correct collocations (a bid for, per share).",
           "Ends with a recommendation using recommend that + base form, or should.",
         ],
-        modelAnswer: "This report assesses the company's 2025 results and the takeover bid received from a rival. Revenue rose by 8% to 120 million euros, driven by strong export demand. However, net profit fell by 30%, a decline largely attributable to higher energy costs, which squeezed margins across all divisions. A competitor has since made a bid of 9 euros a share for the company. Given that the offer does not reflect the expected recovery in margins once energy prices stabilize, we recommend that the board reject the bid and that it commission an independent valuation before entering into any further talks.",
+        modelAnswer: "This report assesses the company's 2025 results and the takeover bid received from a rival. Revenue rose by 8% to 120 million euros. However, net profit fell by 30%, a decline largely attributable to higher energy costs, which squeezed margins across all divisions. A competitor has since made a bid of 9 euros a share for the company. Given that the offer does not reflect the expected recovery in margins once energy prices stabilize, we recommend that the board reject the bid and that it commission an independent valuation before entering into any further talks.",
         explanation: "The summary combines every strand of the unit: numbers, cause and effect, corporate news and report recommendations.",
       },
     ],

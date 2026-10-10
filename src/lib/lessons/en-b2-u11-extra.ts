@@ -259,7 +259,7 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
         examples: [
           { es: "I had my hair cut on Saturday.", en: "El sábado me corté el pelo (en la peluquería)." },
           { es: "We're having the kitchen painted next week.", en: "La semana que viene nos pintan la cocina." },
-          { es: "I need to get my car serviced.", en: "Tengo que llevar el coche a revisión." },
+          { es: "I need to get my car serviced.", en: "Tengo que llevar el carro a revisión." },
           { es: "Where do you get your nails done?", en: "¿Dónde te haces las uñas?" },
           { es: "I've just had my eyes tested.", en: "Me acaban de revisar la vista." },
         ],
@@ -289,7 +289,7 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Me arreglaron el coche en el taller.» Which is correct?",
+            question: "«Me arreglaron el carro en el taller.» Which is correct?",
             options: ["I had my car repaired at the garage.", "I repaired my car at the garage.", "I had repaired my car at the garage.", "They repaired me my car at the garage."],
             correctIndex: 0,
             explanation: "A mechanic did it: \"had my car repaired\". \"I had repaired my car\" is the past perfect and means you did it yourself.",
@@ -347,7 +347,7 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Tengo que llevar el coche a revisión.",
+        source: "Tengo que llevar el carro a revisión.",
         answer: "I need to get my car serviced.",
         altAnswers: [
           "I need to have my car serviced.",
@@ -514,7 +514,7 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
         examples: [
           { es: "I had my wallet stolen on the subway.", en: "Me robaron la cartera en el metro." },
           { es: "My wallet was stolen on the subway.", en: "Me robaron la cartera en el metro." },
-          { es: "We had our car broken into last night.", en: "Anoche nos forzaron el coche." },
+          { es: "We had our car broken into last night.", en: "Anoche nos forzaron el carro." },
           { es: "He had his flight canceled at the last minute.", en: "Le cancelaron el vuelo en el último momento." },
         ],
         checkpoint: [
@@ -645,7 +645,7 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Le rompieron la ventanilla del coche.» Which is correct?",
+        question: "«Le rompieron la ventanilla del carro.» Which is correct?",
         options: ["He had his car window broken.", "He had broken his car window.", "They broke him his car window.", "He was broken his car window."],
         correctIndex: 0,
         explanation: "Something done to him: \"had his car window broken\". \"He had broken\" (past perfect) means he did it himself.",
@@ -729,7 +729,7 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "A Lucia le pincharon las ruedas del coche.",
+        source: "A Lucia le pincharon las ruedas del carro.",
         answer: "Lucia had her tires slashed.",
         altAnswers: [
           "Lucia had her car tires slashed.",

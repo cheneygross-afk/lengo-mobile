@@ -63,7 +63,7 @@ export const EN_A2_U11_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "A lo mejor compro un coche nuevo este año.",
+        source: "A lo mejor compro un carro nuevo este año.",
         answer: "I might buy a new car this year.",
         altAnswers: ["I may buy a new car this year.", "Maybe I'll buy a new car this year.", "Maybe I will buy a new car this year.", "This year I might buy a new car."],
         explanation: "«A lo mejor» + presente del español es \"might\" + verbo base en inglés: \"I might buy\".",

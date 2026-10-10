@@ -248,7 +248,7 @@ export const EN_A2_U03_EXTRA: Lesson[] = [
         examples: [
           { es: "I was cooking when the phone rang.", en: "Estaba cocinando cuando sonó el teléfono." },
           { es: "While I was cooking, the phone rang.", en: "Mientras cocinaba, sonó el teléfono." },
-          { es: "She was driving when she saw the accident.", en: "Iba conduciendo cuando vio el accidente." },
+          { es: "She was driving when she saw the accident.", en: "Iba manejando cuando vio el accidente." },
           { es: "When I arrived, they were having lunch.", en: "Cuando llegué, estaban almorzando." },
           { es: "While we were talking, the teacher came in.", en: "Mientras hablábamos, entró el profesor." },
         ],
@@ -650,7 +650,7 @@ export const EN_A2_U03_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Cuando entré, todos estaban mirando el móvil.",
+        source: "Cuando entré, todos estaban mirando el celular.",
         answer: "When I came in, everyone was looking at their phones.",
         altAnswers: [
           "When I came in, everybody was looking at their phones.",
@@ -716,7 +716,7 @@ export const EN_A2_U03_EXTRA: Lesson[] = [
         examples: [
           { es: "I knew the answer.", en: "Sabía la respuesta." },
           { es: "She wanted a new bike.", en: "Ella quería una bici nueva." },
-          { es: "We had a big car.", en: "Teníamos un coche grande." },
+          { es: "We had a big car.", en: "Teníamos un carro grande." },
           { es: "We were having lunch when he arrived.", en: "Estábamos comiendo cuando llegó." },
           { es: "I didn't understand the question.", en: "No entendía la pregunta." },
         ],
@@ -762,7 +762,7 @@ export const EN_A2_U03_EXTRA: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "The cat ___ under a car.",
         answer: "was hiding",
-        en: "El gato [se estaba escondiendo] debajo de un coche.",
+        en: "El gato [se estaba escondiendo] debajo de un carro.",
         explanation: "Lo que estaba pasando en ese momento: \"was hiding\" (\"hide\" pierde la \"-e\").",
       },
       {

@@ -136,7 +136,7 @@ export const EN_C2_U09_EXTRA: Lesson[] = [
         sentence: "We had ___ that we didn't want to leave.",
         answer: "such a good time",
         altAnswers: ["such a great time", "such a lovely time", "such a wonderful time", "such fun", "such a nice time"],
-        en: "Lo pasamos [tan bien] que no queríamos irnos.",
+        en: "La pasamos [tan bien] que no queríamos irnos.",
         explanation: "\"Have a good time\" is a noun phrase, so the result pattern is \"such a good time that...\". *So good time is a calque of «tan bien».",
       },
       {
@@ -182,7 +182,7 @@ export const EN_C2_U09_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¡Qué rápido conduce tu hermano!",
+        source: "¡Qué rápido maneja tu hermano!",
         answer: "How fast your brother drives!",
         altAnswers: [
           "How quickly your brother drives!",
@@ -338,7 +338,7 @@ export const EN_C2_U09_EXTRA: Lesson[] = [
           "Very often English uses \"un-\" where Spanish uses «in-»: «inesperado» = \"unexpected\", «incómodo» = \"uncomfortable\", «innecesario» = \"unnecessary\", «ilimitado» = \"unlimited\", «irreal» = \"unreal\". Spanish «des-» is usually \"dis-\" or \"un-\": «deshonesto» = \"dishonest\", «desconocido» = \"unknown\".",
         ],
         examples: [
-          { es: "It's illegal to drive without insurance.", en: "Es ilegal conducir sin seguro. (incorrecto: *ilegal, con una sola l)" },
+          { es: "It's illegal to drive without insurance.", en: "Es ilegal manejar sin seguro. (incorrecto: *ilegal, con una sola l)" },
           { es: "That was a very irresponsible thing to do.", en: "Eso fue una irresponsabilidad. (incorrecto: *inresponsible)" },
           { es: "He's still quite immature for his age.", en: "Todavía es bastante inmaduro para su edad." },
           { es: "This meeting is completely unnecessary.", en: "Esta reunión es totalmente innecesaria." },
@@ -527,7 +527,7 @@ export const EN_C2_U09_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Es un desafío casi imposible para una organización sin ánimo de lucro.",
+        source: "Es un desafío casi imposible para una organización sin fines de lucro.",
         answer: "It's an almost impossible challenge for a non-profit organization.",
         altAnswers: [
           "It's an almost impossible challenge for a nonprofit organization.",
@@ -543,7 +543,7 @@ export const EN_C2_U09_EXTRA: Lesson[] = [
           "It's a nearly impossible challenge for a charity.",
           "It is an almost impossible challenge for a non-profit organization.",
         ],
-        explanation: "\"Im-\" before p and double s in \"impossible\"; «sin ánimo de lucro» is \"non-profit\" (British English also says \"not-for-profit\").",
+        explanation: "\"Im-\" before p and double s in \"impossible\"; «sin fines de lucro» is \"non-profit\" (British English also says \"not-for-profit\").",
       },
       {
         type: "fill-blank",
@@ -612,7 +612,7 @@ export const EN_C2_U09_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "It's not illegal, but it's irresponsible and frankly unnecessary.",
-        tip: "Pronounce the prefixes with ONE consonant sound even though they are spelled with two: /ɪˈliːɡl/, /ˌɪrɪˈspɒnsəbl/, /ʌnˈnesəsəri/ (in \"unnecessary\" the n is slightly lengthened).",
+        tip: "Pronounce the prefixes with ONE consonant sound even though they are spelled with two: /ɪˈliːɡl/, /ˌɪrɪˈspɑːnsəbl/, /ʌnˈnesəsəri/ (in \"unnecessary\" the n is slightly lengthened).",
         explanation: "Double letters in prefixes are a spelling matter: in speech, \"illegal\" sounds like one l.",
       },
     ],
@@ -633,7 +633,7 @@ export const EN_C2_U09_EXTRA: Lesson[] = [
         heading: "Quick recap: nouns in -ness, -ity, -ment, -ance/-ence",
         body: [
           "\"-ness\" is the most productive noun suffix and is added to the adjective as it is, except that final -y becomes -i-: \"happy\" > \"happiness\", \"lazy\" > \"laziness\", \"aware\" > \"awareness\". \"-ity\" comes from Latin and matches Spanish «-idad», but the spelling inside the word changes: \"curious\" > \"curiosity\" (the u disappears), \"generous\" > \"generosity\", \"responsible\" > \"responsibility\" (with i, unlike Spanish «responsabilidad»).",
-          "\"-ment\" turns verbs into nouns and keeps the verb intact: \"govern\" > \"government\" (don't drop the n: *goverment), \"develop\" > \"development\" (no e: *developement), \"achieve\" > \"achievement\". The exception is \"argue\" > \"argument\", which loses its e.",
+          "\"-ment\" turns verbs into nouns and keeps the verb intact: \"govern\" > \"government\" (don't drop the n: *goverment), \"develop\" > \"development\" (no e: *developement), \"achieve\" > \"achievement\". The main exception is \"argue\" > \"argument\", which loses its e (US English also drops it in \"judgment\" and \"acknowledgment\").",
           "\"-ance\" and \"-ence\" follow the adjective: \"-ant\" > \"-ance\", \"-ent\" > \"-ence\". So \"independent\" > \"independence\" (*independance), \"relevant\" > \"relevance\", and the verb \"rely\" > \"reliance\". Watch \"maintain\" > \"maintenance\" (*maintainance) and \"pronounce\" > \"pronunciation\" (*pronounciation).",
         ],
         examples: [
@@ -641,8 +641,8 @@ export const EN_C2_U09_EXTRA: Lesson[] = [
           { es: "She takes full responsibility for the error.", en: "Asume toda la responsabilidad del error. (incorrecto: *responsability)" },
           { es: "The government announced new measures.", en: "El Gobierno anunció nuevas medidas." },
           { es: "The country celebrated its independence.", en: "El país celebró su independencia. (incorrecto: *independance)" },
-          { es: "Our reliance on cars is growing.", en: "Nuestra dependencia del coche va en aumento." },
-          { es: "The lift is closed for maintenance.", en: "El ascensor está cerrado por mantenimiento." },
+          { es: "Our reliance on cars is growing.", en: "Nuestra dependencia del carro va en aumento." },
+          { es: "The elevator is closed for maintenance.", en: "El ascensor está cerrado por mantenimiento." },
         ],
         checkpoint: [
           {
@@ -659,7 +659,7 @@ export const EN_C2_U09_EXTRA: Lesson[] = [
             answer: "achievement",
             altAnswers: ["feat", "accomplishment"],
             en: "El nuevo puente es un gran [logro] de la ingeniería.",
-            explanation: "\"Achieve\" + \"-ment\" keeps the e: \"achievement\". Only \"argue\" > \"argument\" drops it.",
+            explanation: "\"Achieve\" + \"-ment\" keeps the e: \"achievement\". \"Argue\" > \"argument\" (and US \"judgment\") are the exceptions that drop it.",
           },
         ],
       },
@@ -727,7 +727,7 @@ export const EN_C2_U09_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La pereza no es excusa para no hacer los deberes.",
+        source: "La pereza no es excusa para no hacer la tarea.",
         answer: "Laziness is no excuse for not doing your homework.",
         altAnswers: [
           "Laziness is not an excuse for not doing your homework.",
@@ -780,7 +780,7 @@ export const EN_C2_U09_EXTRA: Lesson[] = [
         type: "matching",
         instructions: "Match each English noun with its Spanish equivalent.",
         pairs: [
-          { left: "awareness", right: "concienciación" },
+          { left: "awareness", right: "concientización" },
           { left: "development", right: "desarrollo" },
           { left: "argument", right: "discusión" },
           { left: "appearance", right: "aspecto" },

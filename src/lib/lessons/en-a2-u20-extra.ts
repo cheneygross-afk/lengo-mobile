@@ -24,7 +24,7 @@ export const EN_A2_U20_EXTRA: Lesson[] = [
           "\"Sensible\" es «sensato»; «sensible» es \"sensitive\". Error típico: *She is very sensible (para decir que llora con facilidad).",
         ],
         examples: [
-          { es: "Actually, I don't have a car.", en: "En realidad no tengo coche." },
+          { es: "Actually, I don't have a car.", en: "En realidad no tengo carro." },
           { es: "I'm currently looking for a job.", en: "Actualmente busco trabajo." },
           { es: "I realized I had the wrong number.", en: "Me di cuenta de que tenía el número equivocado." },
           { es: "I was so embarrassed at the party.", en: "Pasé mucha vergüenza en la fiesta." },
@@ -108,7 +108,7 @@ export const EN_A2_U20_EXTRA: Lesson[] = [
         sentence: "She suddenly ___ her phone was in the car.",
         answer: "realized",
         altAnswers: ["realised"],
-        en: "De repente [se dio cuenta de] que su teléfono estaba en el coche.",
+        en: "De repente [se dio cuenta de] que su teléfono estaba en el carro.",
         explanation: "«Darse cuenta de» es \"realize\", sin preposición: \"realized her phone was...\". No significa «realizar».",
       },
       {
@@ -298,7 +298,7 @@ export const EN_A2_U20_EXTRA: Lesson[] = [
           { es: "My cousin is in college in Texas.", en: "Mi primo está en la universidad en Texas." },
           { es: "Did you attend the lecture?", en: "¿Asististe a la conferencia?" },
           { es: "I need two meters of this fabric.", en: "Necesito dos metros de esta tela." },
-          { es: "The factory makes car parts.", en: "La fábrica hace piezas de coche." },
+          { es: "The factory makes car parts.", en: "La fábrica hace piezas de carro." },
         ],
         checkpoint: [
           {
@@ -323,14 +323,14 @@ export const EN_A2_U20_EXTRA: Lesson[] = [
         heading: "Repaso rápido: hablar, discutir, molestar y recordar",
         body: [
           "\"Sympathetic\" es «comprensivo»; «simpático» es \"nice\" o \"friendly\". \"Eventually\" es «al final», «con el tiempo»; no significa «eventualmente».",
-          "«Molestar» es \"bother\" o \"annoy\"; \"molest\" tiene un sentido sexual muy grave y nunca se usa para eso. \"Argument\" es una «discusión» con enfado (una pelea); \"discussion\" es una conversación tranquila sobre un tema.",
+          "«Molestar» es \"bother\" o \"annoy\"; \"molest\" tiene un sentido sexual muy grave y nunca se usa para eso. \"Argument\" es una «discusión» con enojo (una pelea); \"discussion\" es una conversación tranquila sobre un tema.",
           "\"Record\" es «grabar»; «recordar» es \"remember\". \"Exit\" es «salida»; «éxito» es \"success\". Error típico: *I don't record his name.",
         ],
         examples: [
           { es: "Everyone was very sympathetic.", en: "Todos fueron muy comprensivos." },
           { es: "Eventually, they got married.", en: "Al final se casaron." },
           { es: "Is the music bothering you?", en: "¿Te molesta la música?" },
-          { es: "They had an argument about the car.", en: "Tuvieron una discusión por el coche." },
+          { es: "They had an argument about the car.", en: "Tuvieron una discusión por el carro." },
           { es: "We had a long discussion about the plan.", en: "Tuvimos una larga conversación sobre el plan." },
           { es: "I don't remember her address.", en: "No recuerdo su dirección." },
         ],
@@ -504,7 +504,7 @@ export const EN_A2_U20_EXTRA: Lesson[] = [
           "Last night we had a huge argument.",
           "Last night we had a big fight.",
         ],
-        explanation: "Una «discusión» con enfado es \"argument\" (o \"fight\"). \"Discussion\" es una conversación tranquila.",
+        explanation: "Una «discusión» con enojo es \"argument\" (o \"fight\"). \"Discussion\" es una conversación tranquila.",
       },
       {
         type: "translate",
@@ -527,7 +527,7 @@ export const EN_A2_U20_EXTRA: Lesson[] = [
         sentence: "I don't ___ where I parked the car.",
         answer: "remember",
         altAnswers: ["recall"],
-        en: "No [recuerdo] dónde aparqué el coche.",
+        en: "No [recuerdo] dónde estacioné el carro.",
         explanation: "«Recordar» es \"remember\". \"Record\" significa «grabar».",
       },
       {

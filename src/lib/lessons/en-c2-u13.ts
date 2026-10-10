@@ -76,7 +76,7 @@ export const EN_C2_U13: Lesson[] = [
           { es: "The figures look good. That said, we should be cautious.", en: "Las cifras pintan bien. Dicho esto, deberíamos ser prudentes." },
           { es: "The trial was small. Even so, the results are striking.", en: "El ensayo fue pequeño. Aun así, los resultados son llamativos." },
           { es: "While it is true that prices have risen, wages have risen faster.", en: "Si bien es cierto que los precios han subido, los salarios han subido más." },
-          { es: "Although the method is slow, it is extremely reliable.", en: "Aunque el método es lento, es extremadamente fiable. (incorrecto: *Although the method is slow, but...)" },
+          { es: "Although the method is slow, it is extremely reliable.", en: "Aunque el método es lento, es extremadamente confiable. (incorrecto: *Although the method is slow, but...)" },
           { es: "Much as I sympathize with the strikers, I cannot support the blockade.", en: "Por mucho que simpatice con los huelguistas, no puedo apoyar el bloqueo." },
           { es: "It's a risky strategy. Having said that, doing nothing is riskier.", en: "Es una estrategia arriesgada. Dicho esto, no hacer nada es más arriesgado." },
         ],
@@ -457,14 +457,14 @@ export const EN_C2_U13: Lesson[] = [
       {
         heading: "Consequence and means: hence, thereby, whereby",
         body: [
-          "\"Hence\" means «de ahí» or «por eso». In formal writing it often takes just a noun phrase, with no verb: \"The trains were cancelled; hence the chaos at the station\" («de ahí el caos»). This verbless use is very elegant and has no exact Spanish match.",
+          "\"Hence\" means «de ahí» or «por eso». In formal writing it often takes just a noun phrase, with no verb: \"The trains were canceled; hence the chaos at the station\" («de ahí el caos»). This verbless use is very elegant and has no exact Spanish match.",
           "\"Thereby\" means «con ello» or «de ese modo» and is usually followed by an -ing form: \"The bank cut interest rates, thereby making loans cheaper.\" It links an action to its direct result.",
           "\"Whereby\" means «mediante el cual» or «por el que». It introduces a relative clause describing a system or arrangement: \"a scheme whereby employees can buy shares\". Learners often fall back on a vague \"where\"; \"whereby\" is more precise when the clause describes how something works, and more formal than \"by which\".",
         ],
         examples: [
-          { es: "The trains were cancelled; hence the chaos at the station.", en: "Se cancelaron los trenes; de ahí el caos en la estación." },
+          { es: "The trains were canceled; hence the chaos at the station.", en: "Se cancelaron los trenes; de ahí el caos en la estación." },
           { es: "The data was incomplete, hence the delay.", en: "Los datos estaban incompletos; de ahí el retraso." },
-          { es: "The bank cut interest rates, thereby making loans cheaper.", en: "El banco bajó los tipos de interés, abaratando así los préstamos." },
+          { es: "The bank cut interest rates, thereby making loans cheaper.", en: "El banco bajó las tasas de interés, abaratando así los préstamos." },
           { es: "She resigned, thereby avoiding a public scandal.", en: "Dimitió, evitando con ello un escándalo público." },
           { es: "They set up a scheme whereby employees can buy shares.", en: "Crearon un plan mediante el cual los empleados pueden comprar acciones." },
           { es: "It is a process whereby old laws are reviewed every ten years.", en: "Es un proceso por el que las leyes antiguas se revisan cada diez años." },
@@ -494,7 +494,7 @@ export const EN_C2_U13: Lesson[] = [
             sentence: "The city introduced a system ___ residents can park for free.",
             answer: "whereby",
             altAnswers: ["by which", "under which", "through which"],
-            en: "La ciudad introdujo un sistema [mediante el cual] los residentes pueden aparcar gratis.",
+            en: "La ciudad introdujo un sistema [mediante el cual] los residentes pueden estacionar gratis.",
             explanation: "\"Whereby\" introduces the mechanism of a system or arrangement, like «mediante el cual».",
           },
         ],
@@ -591,7 +591,7 @@ export const EN_C2_U13: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The factory closed, ___ the rise in unemployment.",
         answer: "hence",
-        en: "La fábrica cerró; [de ahí] el aumento del paro.",
+        en: "La fábrica cerró; [de ahí] el aumento del desempleo.",
         explanation: "\"Hence + noun phrase\" means «de ahí + sustantivo», with no verb needed.",
       },
       {
@@ -1029,7 +1029,7 @@ export const EN_C2_U13: Lesson[] = [
             sentence: "___ is the city of Bogota, which has cut traffic deaths by half.",
             answer: "A case in point",
             altAnswers: ["A good example", "One example", "A prime example"],
-            en: "[Un buen ejemplo] es la ciudad de Bogotá, que ha reducido a la mitad las muertes en carretera.",
+            en: "[Un buen ejemplo] es la ciudad de Bogotá, que ha reducido a la mitad las muertes por accidentes de tránsito.",
             explanation: "\"A case in point\" introduces an example that illustrates exactly what you have just claimed.",
           },
         ],
@@ -1240,7 +1240,7 @@ export const EN_C2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the best repair of this weak argument: «La tecnología es mala porque mi sobrino está enganchado al móvil»?",
+        question: "Which is the best repair of this weak argument: «La tecnología es mala porque mi sobrino está enganchado al celular»?",
         options: [
           "Excessive smartphone use harms teenagers' sleep, as several large studies have shown.",
           "Technology is very, very bad, because my nephew is addicted to his phone.",
@@ -1614,13 +1614,13 @@ export const EN_C2_U13: Lesson[] = [
         heading: "The scale by strength",
         body: [
           "Think of agreement and disagreement as a line with ten or more points, not as a yes/no switch. At one end: \"I couldn't agree more\", \"Spot on\", \"Absolutely\". Then partial agreement: \"Fair enough\", \"You've got a point\", \"Up to a point\". In the middle, doubt: \"I'm not so sure\", \"I have my reservations\". Then firm disagreement: \"I beg to differ\", \"I'd dispute that\". At the far end: \"That's simply not the case\", \"No way\", \"Rubbish\".",
-          "\"Fair enough\" deserves a note: it means «vale, es razonable», accepting a point without enthusiasm. It is not a strong agreement, and its tone can even suggest that the speaker is moving on.",
+          "\"Fair enough\" deserves a note: it means «está bien, es razonable», accepting a point without enthusiasm. It is not a strong agreement, and its tone can even suggest that the speaker is moving on.",
           "\"I have my reservations\" («tengo mis reservas») is a classic understatement: it usually means quite serious doubts, expressed politely.",
         ],
         examples: [
           { es: "Spot on. That's exactly the problem.", en: "Has dado en el clavo. Ese es exactamente el problema." },
           { es: "I'm with you on that.", en: "En eso estoy contigo." },
-          { es: "Fair enough, but we still need a plan B.", en: "Vale, es razonable, pero aun así necesitamos un plan B." },
+          { es: "Fair enough, but we still need a plan B.", en: "Está bien, es razonable, pero aun así necesitamos un plan B." },
           { es: "I have my reservations about the timing.", en: "Tengo mis reservas sobre el momento elegido." },
           { es: "I'm not so sure about that.", en: "Yo eso no lo tengo tan claro." },
           { es: "No way. That would never work.", en: "Ni hablar. Eso no funcionaría nunca." },
@@ -1713,8 +1713,8 @@ export const EN_C2_U13: Lesson[] = [
           { es: "Could we look at this another way?", en: "¿Podríamos verlo de otra manera?" },
           { es: "I'd question the assumption that growth is always good.", en: "Yo pondría en duda la premisa de que el crecimiento siempre es bueno." },
           { es: "I'm not sure the data supports that.", en: "No estoy seguro de que los datos respalden eso." },
-          { es: "You're not seriously suggesting we walk there?", en: "¿No estarás sugiriendo en serio que vayamos andando?" },
-          { es: "Oh, come on! That's not what happened.", en: "¡Venga ya! No fue eso lo que pasó." },
+          { es: "You're not seriously suggesting we walk there?", en: "¿No estarás sugiriendo en serio que vayamos caminando?" },
+          { es: "Oh, come on! That's not what happened.", en: "¡Por favor! No fue eso lo que pasó." },
         ],
         checkpoint: [
           {
@@ -1886,7 +1886,7 @@ export const EN_C2_U13: Lesson[] = [
           { es: "Those who oppose the stadium apparently want our city to stand still forever.", en: "Al parecer, quienes se oponen al estadio quieren que nuestra ciudad se quede estancada para siempre." },
           { es: "Opposing this stadium is not the same as opposing all development.", en: "Oponerse a este estadio no es lo mismo que oponerse a todo desarrollo." },
           { es: "This is the thin end of the wedge.", en: "Esto es solo el principio de algo peor." },
-          { es: "Today it's a sugar tax; before we know it, they'll be banning birthday cakes.", en: "Hoy es un impuesto al azúcar; cuando queramos darnos cuenta, prohibirán las tartas de cumpleaños." },
+          { es: "Today it's a sugar tax; before we know it, they'll be banning birthday cakes.", en: "Hoy es un impuesto al azúcar; cuando queramos darnos cuenta, prohibirán los pasteles de cumpleaños." },
           { es: "We have no choice but to sell the land.", en: "No nos queda más remedio que vender el terreno." },
         ],
         checkpoint: [
@@ -2252,7 +2252,7 @@ export const EN_C2_U13: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "It is essential that every complaint ___ investigated.",
             answer: "be",
-            altAnswers: ["should be", "is"],
+            altAnswers: ["should be"],
             en: "Es fundamental que cada queja [sea] investigada.",
             explanation: "After \"it is essential that\", formal English uses the base form \"be\" for every subject.",
           },
@@ -2416,7 +2416,7 @@ export const EN_C2_U13: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write a short closing statement for a debate on «prohibir los coches en el centro de la ciudad». Use at least one inverted conditional (\"Were it not for\", \"Should\", \"Had\") and one mandative subjunctive (\"I propose that...\").",
+        prompt: "Write a short closing statement for a debate on «prohibir los carros en el centro de la ciudad». Use at least one inverted conditional (\"Were it not for\", \"Should\", \"Had\") and one mandative subjunctive (\"I propose that...\").",
         minWords: 60,
         maxWords: 110,
         rubric: [
@@ -2448,7 +2448,7 @@ export const EN_C2_U13: Lesson[] = [
           "Never combine \"although\" and \"but\" in one sentence, and remember that \"ignore\" means to disregard on purpose, not «no saber».",
         ],
         examples: [
-          { es: "Granted, it's cheaper. That said, it's far less reliable.", en: "Es cierto que es más barato. Dicho esto, es mucho menos fiable." },
+          { es: "Granted, it's cheaper. That said, it's far less reliable.", en: "Es cierto que es más barato. Dicho esto, es mucho menos confiable." },
           { es: "It doesn't follow that we should give up.", en: "De ahí no se deduce que debamos rendirnos." },
           { es: "While it is true that the rules are strict, they are clear.", en: "Si bien es cierto que las normas son estrictas, son claras." },
         ],
@@ -2581,7 +2581,7 @@ export const EN_C2_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The airline cancelled forty flights, ___ the queues at every desk.",
+        sentence: "The airline canceled forty flights, ___ the queues at every desk.",
         answer: "hence",
         en: "La aerolínea canceló cuarenta vuelos; [de ahí] las colas en todos los mostradores.",
         explanation: "\"Hence\" + noun phrase means «de ahí + sustantivo», with no verb needed.",

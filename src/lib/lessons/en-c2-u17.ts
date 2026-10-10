@@ -401,8 +401,8 @@ export const EN_C2_U17: Lesson[] = [
       {
         heading: "Tentative and strong verbs",
         body: [
-          "Tentative verbs report a cautious claim: \"suggest\", \"propose\", \"hypothesise\", \"speculate\", \"imply\", \"hint\". If the source hedges (\"may\", \"possibly\"), your verb must hedge too: turning a cautious finding into \"Smith proves\" misrepresents it.",
-          "Strong verbs report a firm position: \"argue\", \"maintain\", \"contend\", \"insist\", \"assert\", \"emphasise\", \"stress\". \"Argue\" in English is not «discutir» (have a row) here: it means to put forward a reasoned position. \"Contend\" and \"maintain\" suggest holding a view against opposition.",
+          "Tentative verbs report a cautious claim: \"suggest\", \"propose\", \"hypothesize\", \"speculate\", \"imply\", \"hint\". If the source hedges (\"may\", \"possibly\"), your verb must hedge too: turning a cautious finding into \"Smith proves\" misrepresents it.",
+          "Strong verbs report a firm position: \"argue\", \"maintain\", \"contend\", \"insist\", \"assert\", \"emphasize\", \"stress\". \"Argue\" in English is not «discutir» (have a row) here: it means to put forward a reasoned position. \"Contend\" and \"maintain\" suggest holding a view against opposition.",
           "\"Show\", \"demonstrate\", \"establish\" and \"prove\" go further: they say the source is right. Use them only when you accept the conclusion. \"Prove\" is rare outside mathematics and law; \"demonstrate\" or \"show\" is the normal academic choice.",
         ],
         examples: [
@@ -449,8 +449,8 @@ export const EN_C2_U17: Lesson[] = [
       {
         heading: "Distance and agreement: claim, allege, purport, concede",
         body: [
-          "Some verbs let you report a source while keeping your distance. \"Claim\" suggests the statement is open to doubt; \"allege\" is stronger, typical of accusations not yet proven; \"purport to\" means to appear or profess to do something, with strong scepticism (\"a study that purports to show...\"). Using \"claim\" for a source you agree with sends the wrong signal.",
-          "Other verbs show the source accepts something against its own position: \"acknowledge\", \"admit\", \"concede\", \"recognise\". \"Even Smith concedes that...\" is a powerful move in an argument.",
+          "Some verbs let you report a source while keeping your distance. \"Claim\" suggests the statement is open to doubt; \"allege\" is stronger, typical of accusations not yet proven; \"purport to\" means to appear or profess to do something, with strong skepticism (\"a study that purports to show...\"). Using \"claim\" for a source you agree with sends the wrong signal.",
+          "Other verbs show the source accepts something against its own position: \"acknowledge\", \"admit\", \"concede\", \"recognize\". \"Even Smith concedes that...\" is a powerful move in an argument.",
           "You can also add your stance with an adverb: \"Smith rightly points out\", \"Jones correctly observes\", \"Taylor wrongly assumes\", \"Lee persuasively argues\". This is often more precise than changing the verb.",
         ],
         examples: [
@@ -467,8 +467,8 @@ export const EN_C2_U17: Lesson[] = [
             sentence: "The report ___ to show that the policy worked, but its data are unreliable.",
             answer: "purports",
             altAnswers: ["claims"],
-            en: "El informe [pretende] demostrar que la política funcionó, pero sus datos no son fiables.",
-            explanation: "\"Purport to\" + infinitive means to profess to do something, with clear scepticism. «Pretender» is not \"pretend\" («fingir»).",
+            en: "El informe [pretende] demostrar que la política funcionó, pero sus datos no son confiables.",
+            explanation: "\"Purport to\" + infinitive means to profess to do something, with clear skepticism. «Pretender» is not \"pretend\" («fingir»).",
           },
           {
             type: "translate",
@@ -498,16 +498,16 @@ export const EN_C2_U17: Lesson[] = [
         ],
       },
       {
-        heading: "Patterns: suggest that, emphasise something, explain to someone",
+        heading: "Patterns: suggest that, emphasize something, explain to someone",
         body: [
           "The verb decides the structure. \"Suggest\" takes a that-clause or an -ing form, never an infinitive with a person: «sugiere a los gobiernos revisar...» is \"suggests that governments (should) review...\". Likewise \"propose that\", \"recommend that\" or \"recommend + -ing\".",
-          "\"Emphasise\" and \"stress\" are transitive: you emphasise a point, not on a point. The «enfatizar en» pattern turns into a typical error; only the noun takes \"on\" (\"an emphasis on\"). \"Explain\" needs \"to\" before a person: \"explains to the reader that\", never *explains the reader.",
+          "\"Emphasize\" and \"stress\" are transitive: you emphasize a point, not on a point. The «enfatizar en» pattern turns into a typical error; only the noun takes \"on\" (\"an emphasis on\"). \"Explain\" needs \"to\" before a person: \"explains to the reader that\", never *explains the reader.",
           "Other patterns to know: \"argue that\" or \"argue for/against something\", \"claim to have found\", \"purport to show\", \"insist on something\" or \"insist that\", \"comment on\", \"object to\", \"warn that\" or \"warn against + -ing\".",
         ],
         examples: [
           { es: "The authors suggest that the government reconsider the policy.", en: "Los autores sugieren que el Gobierno reconsidere la política." },
           { es: "The report recommends reducing the number of exams.", en: "El informe recomienda reducir el número de exámenes." },
-          { es: "Patel emphasises the role of the church.", en: "Patel hace hincapié en el papel de la Iglesia." },
+          { es: "Patel emphasizes the role of the church.", en: "Patel hace hincapié en el papel de la Iglesia." },
           { es: "The author explains to the reader that the letters were never sent.", en: "El autor explica al lector que las cartas nunca se enviaron." },
           { es: "Clark argues for a more cautious approach.", en: "Clark aboga por un enfoque más prudente." },
           { es: "The researchers claim to have found the original manuscript.", en: "Los investigadores aseguran haber encontrado el manuscrito original." },
@@ -530,7 +530,7 @@ export const EN_C2_U17: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "El autor hace hincapié en la importancia de las fuentes primarias.",
-            answer: "The author emphasises the importance of primary sources.",
+            answer: "The author emphasizes the importance of primary sources.",
             altAnswers: [
               "The author stresses the importance of primary sources.",
               "The author underlines the importance of primary sources.",
@@ -540,7 +540,7 @@ export const EN_C2_U17: Lesson[] = [
               "The author puts emphasis on the importance of primary sources.",
               "The author lays emphasis on the importance of primary sources.",
             ],
-            explanation: "\"Emphasise\" and \"stress\" take a direct object: no \"on\". Only the noun takes the preposition: \"place emphasis on\".",
+            explanation: "\"Emphasize\" and \"stress\" take a direct object: no \"on\". Only the noun takes the preposition: \"place emphasis on\".",
           },
         ],
       },
@@ -707,7 +707,7 @@ export const EN_C2_U17: Lesson[] = [
         examples: [
           { es: "Unemployment fell sharply after the reform (Smith, 2019, p. 4).", en: "El desempleo bajó de forma notable tras la reforma (Smith, 2019, p. 4). (cita parentética, APA)" },
           { es: "Smith (2019) found that unemployment fell sharply.", en: "Smith (2019) observó que el desempleo bajaba de forma notable. (cita narrativa, APA)" },
-          { es: "The narrator is never fully reliable (Smith 45).", en: "El narrador nunca es del todo fiable (Smith 45). (MLA: autor y página)" },
+          { es: "The narrator is never fully reliable (Smith 45).", en: "El narrador nunca es del todo confiable (Smith 45). (MLA: autor y página)" },
           { es: "Check which referencing style the journal requires.", en: "Comprueba qué estilo de citación exige la revista." },
           { es: "The citation should come at the end of the sentence, before the period.", en: "La cita debe ir al final de la oración, antes del punto." },
         ],
@@ -1066,7 +1066,7 @@ export const EN_C2_U17: Lesson[] = [
               { left: "passim", right: "aquí y allá, a lo largo del texto" },
               { left: "ff.", right: "y páginas siguientes" },
             ],
-            explanation: "All four are Latin or Latin-based. \"Ibid.\" is still common; \"op. cit.\" is fading in favour of short titles.",
+            explanation: "All four are Latin or Latin-based. \"Ibid.\" is still common; \"op. cit.\" is fading in favor of short titles.",
           },
         ],
       },
@@ -1089,13 +1089,13 @@ export const EN_C2_U17: Lesson[] = [
             type: "multiple-choice",
             question: "Which sentence uses the abbreviation correctly?",
             options: [
-              "The poem uses three classical metres (i.e., the hexameter, the pentameter and the iambic trimeter).",
-              "The poem uses three classical metres (e.g., the hexameter, the pentameter and the iambic trimeter).",
-              "The poem uses classical metres (i.e., the hexameter, etc.).",
-              "The poem uses classical metres (e.g., the hexameter, etc.).",
+              "The poem uses three classical meters (i.e., the hexameter, the pentameter and the iambic trimeter).",
+              "The poem uses three classical meters (e.g., the hexameter, the pentameter and the iambic trimeter).",
+              "The poem uses classical meters (i.e., the hexameter, etc.).",
+              "The poem uses classical meters (e.g., the hexameter, etc.).",
             ],
             correctIndex: 0,
-            explanation: "\"Three metres\" followed by exactly three names is a complete specification, so \"i.e.\" is right. \"E.g.\" would imply there are other examples, contradicting \"three\". \"Etc.\" after \"e.g.\" is redundant, and after \"i.e.\" it is contradictory.",
+            explanation: "\"Three meters\" followed by exactly three names is a complete specification, so \"i.e.\" is right. \"E.g.\" would imply there are other examples, contradicting \"three\". \"Etc.\" after \"e.g.\" is redundant, and after \"i.e.\" it is contradictory.",
           },
           {
             type: "fill-blank",
@@ -1300,7 +1300,7 @@ export const EN_C2_U17: Lesson[] = [
           "Uses any abbreviation (\"cf.\", \"e.g.\", \"i.e.\") correctly",
           "Keeps a formal, concise register",
         ],
-        modelAnswer: "For a fuller discussion of the novel's reception in Madrid, see chapter 4 below; cf. Moore, who reads the same reviews as evidence of indifference rather than hostility. I am grateful to Dr Emma Hall for drawing my attention to the serialised first edition. All translations are my own unless otherwise stated.",
+        modelAnswer: "For a fuller discussion of the novel's reception in Madrid, see chapter 4 below; cf. Moore, who reads the same reviews as evidence of indifference rather than hostility. I am grateful to Dr Emma Hall for drawing my attention to the serialized first edition. All translations are my own unless otherwise stated.",
         explanation: "A good discursive note does several small jobs in very few words: it signposts, situates your view against others, acknowledges help and clarifies your method.",
       },
     ],
@@ -1310,7 +1310,7 @@ export const EN_C2_U17: Lesson[] = [
     level: "EN-C2",
     number: 5,
     title: "Word web: attribution verbs",
-    summary: "Build a web of attribution verbs: sort them by strength and stance, learn their patterns (that-clause, \"describe X as\", \"criticise X for\", \"credit X with\"), use their noun forms (\"the claim that\", \"her contention that\") and respond to sources with \"dispute\", \"challenge\" and \"refute\".",
+    summary: "Build a web of attribution verbs: sort them by strength and stance, learn their patterns (that-clause, \"describe X as\", \"criticize X for\", \"credit X with\"), use their noun forms (\"the claim that\", \"her contention that\") and respond to sources with \"dispute\", \"challenge\" and \"refute\".",
     duration: "11 min",
     sections: [
       {
@@ -1318,7 +1318,7 @@ export const EN_C2_U17: Lesson[] = [
         body: [
           "Picture the verbs on a scale. At the cautious end: \"hint\", \"imply\", \"speculate\", \"suggest\", \"propose\". In the middle, neutral: \"say\", \"state\", \"report\", \"note\", \"observe\". Further up, committed: \"argue\", \"maintain\", \"contend\", \"assert\", \"insist\". At the top, endorsing: \"show\", \"demonstrate\", \"establish\", \"prove\".",
           "Across that scale runs a second axis: your attitude. \"Claim\", \"allege\" and \"purport\" distance you from the source; \"acknowledge\", \"concede\" and \"admit\" show the source yielding a point; \"rightly\", \"persuasively\" and \"convincingly\" add your approval.",
-          "\"Assert\" deserves a note: it is strong and confident, and depending on context it can sound neutral or slightly sceptical (\"asserts without evidence\"). \"Insist\" usually suggests a position held against objections.",
+          "\"Assert\" deserves a note: it is strong and confident, and depending on context it can sound neutral or slightly skeptical (\"asserts without evidence\"). \"Insist\" usually suggests a position held against objections.",
         ],
         examples: [
           { es: "The data hint at a seasonal pattern.", en: "Los datos apuntan a una pauta estacional." },
@@ -1355,16 +1355,16 @@ export const EN_C2_U17: Lesson[] = [
         ],
       },
       {
-        heading: "Patterns: describe X as, criticise X for, credit X with",
+        heading: "Patterns: describe X as, criticize X for, credit X with",
         body: [
-          "Many attribution verbs take an object followed by \"as\": \"describe\", \"characterise\", \"portray\", \"depict\", \"present\", \"regard\", \"view\", \"see\", \"dismiss\". «Calificar de» and «tachar de» both become \"describe as\" or \"dismiss as\", never *qualify of.",
-          "Judgement verbs take an object plus a preposition: \"criticise X for\", \"praise X for\", \"commend X for\", \"fault X for\" + noun or -ing; \"credit X with\" + noun or -ing; \"accuse X of\"; \"attribute X to Y\" (\"The poem is attributed to Donne\").",
+          "Many attribution verbs take an object followed by \"as\": \"describe\", \"characterize\", \"portray\", \"depict\", \"present\", \"regard\", \"view\", \"see\", \"dismiss\". «Calificar de» and «tachar de» both become \"describe as\" or \"dismiss as\", never *qualify of.",
+          "Judgment verbs take an object plus a preposition: \"criticize X for\", \"praise X for\", \"commend X for\", \"fault X for\" + noun or -ing; \"credit X with\" + noun or -ing; \"accuse X of\"; \"attribute X to Y\" (\"The poem is attributed to Donne\").",
           "Note the direction of \"credit\" and \"attribute\": you credit a person with an idea, and you attribute an idea to a person. Spanish «atribuir a» maps onto \"attribute to\".",
         ],
         examples: [
           { es: "Hall describes the period as a golden age.", en: "Hall califica el período de edad de oro." },
           { es: "Critics dismissed the book as propaganda.", en: "Los críticos tacharon el libro de propaganda." },
-          { es: "Reviewers criticised the study for its small sample.", en: "Los reseñadores criticaron el estudio por su muestra reducida." },
+          { es: "Reviewers criticized the study for its small sample.", en: "Los reseñadores criticaron el estudio por su muestra reducida." },
           { es: "Lee is credited with coining the term.", en: "Se atribuye a Lee la acuñación del término." },
           { es: "The quotation is often attributed to Churchill.", en: "La cita se atribuye a menudo a Churchill." },
           { es: "Taylor portrays the king as a weak ruler.", en: "Taylor presenta al rey como un gobernante débil." },
@@ -1422,7 +1422,7 @@ export const EN_C2_U17: Lesson[] = [
           { es: "Moore puts forward a compelling argument.", en: "Moore plantea un argumento muy convincente." },
           { es: "These findings lend support to Smith's view.", en: "Estos resultados respaldan la opinión de Smith." },
           { es: "New evidence has cast doubt on this account.", en: "Nuevas pruebas han puesto en duda esta versión." },
-          { es: "Much criticism has been levelled at the report.", en: "El informe ha recibido muchas críticas." },
+          { es: "Much criticism has been leveled at the report.", en: "El informe ha recibido muchas críticas." },
         ],
         checkpoint: [
           {
@@ -1511,19 +1511,19 @@ export const EN_C2_U17: Lesson[] = [
         instructions: "Match each verb with its pattern.",
         pairs: [
           { left: "describe the reform", right: "as a failure" },
-          { left: "criticise the author", right: "for ignoring the data" },
+          { left: "criticize the author", right: "for ignoring the data" },
           { left: "credit Lee", right: "with the discovery" },
           { left: "attribute the poem", right: "to Donne" },
           { left: "accuse the minister", right: "of lying" },
         ],
-        explanation: "Each verb has a fixed preposition: describe as, criticise for, credit with, attribute to, accuse of.",
+        explanation: "Each verb has a fixed preposition: describe as, criticize for, credit with, attribute to, accuse of.",
       },
       {
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Los reseñadores criticaron el estudio por no tener en cuenta el factor edad.",
-        answer: "Reviewers criticised the study for not taking age into account.",
+        answer: "Reviewers criticized the study for not taking age into account.",
         altAnswers: [
           "Reviewers criticised the study for failing to take age into account.",
           "Reviewers criticised the study for not taking into account age.",
@@ -1539,7 +1539,7 @@ export const EN_C2_U17: Lesson[] = [
           "Reviewers criticised the study for not taking the age factor into account.",
           "Reviewers criticised the study for overlooking age.",
         ],
-        explanation: "\"Criticise X for\" + -ing: the preposition is \"for\", and after it comes the -ing form (\"for not taking\", \"for failing to take\").",
+        explanation: "\"Criticize X for\" + -ing: the preposition is \"for\", and after it comes the -ing form (\"for not taking\", \"for failing to take\").",
       },
       {
         type: "multiple-choice",
@@ -1652,9 +1652,9 @@ export const EN_C2_U17: Lesson[] = [
     duration: "12 min",
     sections: [
       {
-        heading: "Quote, paraphrase or summarise?",
+        heading: "Quote, paraphrase or summarize?",
         body: [
-          "Quote only when the exact words matter: a memorable phrase, a key term, a definition, or language you are going to analyse. Otherwise \"paraphrase\" (restate a specific point in your own words and structure) or \"summarise\" (condense a longer passage to its main idea). Both still need a citation.",
+          "Quote only when the exact words matter: a memorable phrase, a key term, a definition, or language you are going to analyze. Otherwise \"paraphrase\" (restate a specific point in your own words and structure) or \"summarize\" (condense a longer passage to its main idea). Both still need a citation.",
           "A paraphrase that keeps the original's sentence structure and swaps a few synonyms is called \"patchwriting\", and many universities treat it as plagiarism. Change the structure, not just the vocabulary: turn verbs into nouns, reorder the information, split or combine sentences.",
           "A useful middle way is the \"partial quotation\": paraphrase the sentence, but keep one or two striking words in quotation marks. This shows you understood the source and preserves its voice where it counts.",
         ],
@@ -1972,7 +1972,7 @@ export const EN_C2_U17: Lesson[] = [
           "Uses a suitable reporting verb and pattern (\"describes X as\", \"reports that\")",
           "Adds a clearly separated comment of the writer's own",
         ],
-        modelAnswer: "Ortiz (2021) describes the new curriculum as \"a well-meaning but chaotic experiment,\" while conceding that her judgement may be mistaken. Her main evidence is that teachers report never having been consulted. This point deserves more weight than she gives it: a reform designed without the people who must deliver it is unlikely to survive its first year.",
+        modelAnswer: "Ortiz (2021) describes the new curriculum as \"a well-meaning but chaotic experiment,\" while conceding that her judgment may be mistaken. Her main evidence is that teachers report never having been consulted. This point deserves more weight than she gives it: a reform designed without the people who must deliver it is unlikely to survive its first year.",
         explanation: "A good integration changes the person, keeps the hedge, quotes only the memorable phrase and leaves a clear boundary between the source and your own voice.",
       },
     ],
@@ -2268,7 +2268,7 @@ export const EN_C2_U17: Lesson[] = [
         words: ["Several", "studies", "have", "shown", "a", "link", "between", "sleep", "and", "memory."],
         translation: "Varios estudios han demostrado una relación entre el sueño y la memoria.",
         altOrders: [["Several", "studies", "have", "shown", "a", "link", "between", "memory", "and", "sleep."]],
-        explanation: "The present perfect summarises research up to now. \"A link between X and Y\" is the standard collocation.",
+        explanation: "The present perfect summarizes research up to now. \"A link between X and Y\" is the standard collocation.",
       },
       {
         type: "translate",
@@ -2319,7 +2319,7 @@ export const EN_C2_U17: Lesson[] = [
     level: "EN-C2",
     number: 8,
     title: "Error hunt: citations and quotations",
-    summary: "Find and fix the citation errors that give away a Spanish-speaking writer: punctuation around quotations, the double subject in \"according to Smith\", \"suggest to\", false friends such as \"affirm\" and \"pretend\", \"et. al.\", \"e.g.\" for \"i.e.\", inconsistent referencing and calques like \"realise a study\".",
+    summary: "Find and fix the citation errors that give away a Spanish-speaking writer: punctuation around quotations, the double subject in \"according to Smith\", \"suggest to\", false friends such as \"affirm\" and \"pretend\", \"et. al.\", \"e.g.\" for \"i.e.\", inconsistent referencing and calques like \"realize a study\".",
     duration: "12 min",
     sections: [
       {
@@ -2367,7 +2367,7 @@ export const EN_C2_U17: Lesson[] = [
         body: [
           "The double subject: *According to Smith, he says that the plan failed. «Según Smith» already reports the source, so English needs either \"According to Smith, the plan failed\" or \"Smith says that the plan failed\", not both. Similarly, *As says Smith copies Spanish inversion: write \"As Smith says\" or \"As Smith puts it\".",
           "\"According to\" introduces someone else's view, never your own: *According to me is wrong; write \"In my view\" or \"I would argue that\".",
-          "Pattern errors: *suggests to reduce (suggests reducing, or suggests that we reduce), *emphasises on the role (emphasises the role), *explains us (explains to us), *the author affirms (states, asserts), *pretends to show (purports to show, sets out to show).",
+          "Pattern errors: *suggests to reduce (suggests reducing, or suggests that we reduce), *emphasizes on the role (emphasizes the role), *explains us (explains to us), *the author affirms (states, asserts), *pretends to show (purports to show, sets out to show).",
         ],
         examples: [
           { es: "According to Smith, the plan failed.", en: "Según Smith, el plan fracasó." },
@@ -2455,7 +2455,7 @@ export const EN_C2_U17: Lesson[] = [
         heading: "Academic vocabulary calques",
         body: [
           "\"Research\" is uncountable: «una investigación» is \"a study\" or \"a piece of research\", and «investigaciones recientes» is \"recent research\" or \"recent studies\". \"Investigation\" suggests police or official inquiries. Likewise \"evidence\", \"information\" and \"advice\" take no plural -s.",
-          "«Realizar un estudio» is \"carry out\" or \"conduct a study\", never \"realise\", which means to become aware. «Actual» is \"current\" (\"the current debate\"), not \"actual\", which means real. «El artículo de Smith» is more naturally \"Smith's article\" than \"the article of Smith\".",
+          "«Realizar un estudio» is \"carry out\" or \"conduct a study\", never \"realize\", which means to become aware. «Actual» is \"current\" (\"the current debate\"), not \"actual\", which means real. «El artículo de Smith» is more naturally \"Smith's article\" than \"the article of Smith\".",
           "«Pretender» is \"aim\", \"seek\" or \"set out to\", not \"pretend\" («fingir»). «Bibliografía» in the sense of the scholarly literature on a topic is \"the literature\".",
         ],
         examples: [
@@ -2484,7 +2484,7 @@ export const EN_C2_U17: Lesson[] = [
               "The study was done in three schools in Madrid.",
               "The study was performed in three schools in Madrid.",
             ],
-            explanation: "«Realizar» a study is \"carry out\" or \"conduct\". \"Realise\" means to become aware of something, a classic false friend.",
+            explanation: "«Realizar» a study is \"carry out\" or \"conduct\". \"Realize\" means to become aware of something, a classic false friend.",
           },
           {
             type: "translate",
@@ -2552,7 +2552,7 @@ export const EN_C2_U17: Lesson[] = [
           "The author sets out to show that the war was avoidable.",
           "The author pretends to show that the war was avoidable.",
           "The author pretends showing that the war was avoidable.",
-          "The author realises to show that the war was avoidable.",
+          "The author realizes to show that the war was avoidable.",
         ],
         correctIndex: 0,
         explanation: "«Pretender demostrar» is \"set out to show\", \"aim to show\" or \"seek to show\". \"Pretend\" means «fingir».",
@@ -2719,7 +2719,7 @@ export const EN_C2_U17: Lesson[] = [
         heading: "Recap: reporting verbs and stance",
         body: [
           "Neutral: \"state\", \"report\", \"note\", \"observe\". Tentative: \"suggest\", \"speculate\", \"imply\". Strong: \"argue\", \"maintain\", \"contend\", \"insist\". Endorsing: \"show\", \"demonstrate\", \"establish\". Distancing: \"claim\", \"allege\", \"purport to\". Yielding: \"acknowledge\", \"concede\", \"admit\".",
-          "Patterns: \"suggest that\" or \"suggest + -ing\"; \"emphasise\" + object; \"explain to\" + person; \"describe/dismiss X as\"; \"criticise X for\"; \"credit X with\"; \"attribute X to\"; noun + that-clause (\"the claim that\").",
+          "Patterns: \"suggest that\" or \"suggest + -ing\"; \"emphasize\" + object; \"explain to\" + person; \"describe/dismiss X as\"; \"criticize X for\"; \"credit X with\"; \"attribute X to\"; noun + that-clause (\"the claim that\").",
         ],
         examples: [
           { es: "The authors speculate that the site was abandoned after a fire.", en: "Los autores especulan con que el yacimiento se abandonara tras un incendio." },
@@ -2732,7 +2732,7 @@ export const EN_C2_U17: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Taylor critica al gobierno por no haber consultado a los expertos.",
-            answer: "Taylor criticises the government for not consulting the experts.",
+            answer: "Taylor criticizes the government for not consulting the experts.",
             altAnswers: [
               "Taylor criticises the government for not having consulted the experts.",
               "Taylor criticises the government for failing to consult the experts.",
@@ -2745,7 +2745,7 @@ export const EN_C2_U17: Lesson[] = [
               "Taylor criticises the government for not seeking the advice of experts.",
               "Taylor criticises the government for not asking the experts.",
             ],
-            explanation: "\"Criticise X for\" + -ing. \"Consult\" takes a direct object: \"consult the experts\", with no \"to\".",
+            explanation: "\"Criticize X for\" + -ing. \"Consult\" takes a direct object: \"consult the experts\", with no \"to\".",
           },
           {
             type: "multiple-choice",
@@ -2795,7 +2795,7 @@ export const EN_C2_U17: Lesson[] = [
         heading: "Recap: transformations and common errors",
         body: [
           "Transforming a quotation: change the person (\"we\" becomes \"the authors\"), anchor time and place, report questions with statement order (\"asks why the reform failed\"), use \"urge X to\" or \"call for\" for demands, and keep the hedges. Present simple for views, past for specific studies, present perfect for the state of research.",
-          "Errors to hunt: the double subject after \"according to\" (*According to Smith, he says); *according to me; *suggest to do; *emphasise on; *explain someone; false friends such as *affirm, *pretend to show, *realise a study and *the actual debate; *researches and *informations; *et. al.; and \"e.g.\" where \"i.e.\" is meant.",
+          "Errors to hunt: the double subject after \"according to\" (*According to Smith, he says); *according to me; *suggest to do; *emphasize on; *explain someone; false friends such as *affirm, *pretend to show, *realize a study and *the actual debate; *researches and *informations; *et. al.; and \"e.g.\" where \"i.e.\" is meant.",
         ],
         examples: [
           { es: "Hall asks why the letters were never published.", en: "Hall se pregunta por qué nunca se publicaron las cartas." },
@@ -2889,7 +2889,7 @@ export const EN_C2_U17: Lesson[] = [
           "The author admits that the sample is unrepresentative.",
           "The author concedes that the sample is unrepresentative.",
         ],
-        explanation: "\"Acknowledge\", \"admit\" and \"concede\" show the author granting a weakness in her own study. «Reconocer» here is not \"recognise\" in the sense of identifying something.",
+        explanation: "\"Acknowledge\", \"admit\" and \"concede\" show the author granting a weakness in her own study. «Reconocer» here is not \"recognize\" in the sense of identifying something.",
       },
       {
         type: "fill-blank",

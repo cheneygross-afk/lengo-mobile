@@ -476,7 +476,7 @@ export const EN_B2_U22: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Había tantos coches que tardamos dos horas.",
+        source: "Había tantos carros que tardamos dos horas.",
         answer: "There were so many cars that it took us two hours.",
         altAnswers: [
           "There were so many cars it took us two hours.",
@@ -1080,7 +1080,7 @@ export const EN_B2_U22: Lesson[] = [
         ],
         examples: [
           { es: "It's far too late to call.", en: "Es demasiado tarde para llamar." },
-          { es: "She isn't old enough to drive.", en: "No tiene edad suficiente para conducir." },
+          { es: "She isn't old enough to drive.", en: "No tiene edad suficiente para manejar." },
           { es: "This one is slightly more expensive.", en: "Este es un poco más caro." },
           { es: "The train is much faster than the bus.", en: "El tren es mucho más rápido que el autobús. (incorrecto: *very faster)" },
         ],
@@ -1114,7 +1114,7 @@ export const EN_B2_U22: Lesson[] = [
           { es: "I have a few friends here.", en: "Tengo unos cuantos amigos aquí." },
           { es: "Few people came to the meeting.", en: "Vino poca gente a la reunión." },
           { es: "We need a little help.", en: "Necesitamos un poco de ayuda." },
-          { es: "Fewer cars means less noise.", en: "Menos coches significa menos ruido." },
+          { es: "Fewer cars means less noise.", en: "Menos carros significa menos ruido." },
         ],
         checkpoint: [
           {
@@ -1599,7 +1599,7 @@ export const EN_B2_U22: Lesson[] = [
           "Watch the Spanish singulars: «mucha gente» is \"a lot of people\" and takes a plural verb (\"people are\"); «hay mucho tráfico» is \"there's a lot of traffic\" (uncountable, singular).",
         ],
         examples: [
-          { es: "There are fewer cars and less pollution.", en: "Hay menos coches y menos contaminación." },
+          { es: "There are fewer cars and less pollution.", en: "Hay menos carros y menos contaminación." },
           { es: "There's plenty of green space.", en: "Hay muchos espacios verdes." },
           { es: "There are hardly any shops in the village.", en: "Apenas hay tiendas en el pueblo." },
           { es: "There are too many tourists in the center.", en: "Hay demasiados turistas en el centro." },
@@ -1649,7 +1649,7 @@ export const EN_B2_U22: Lesson[] = [
           { es: "Rent is high. On the other hand, salaries are better.", en: "El alquiler es caro. En cambio, los sueldos son mejores. (incorrecto: *in the other hand)" },
           { es: "Unlike my sister, I love the countryside.", en: "A diferencia de mi hermana, a mí me encanta el campo." },
           { es: "Although the village is quiet, it's a bit boring.", en: "Aunque el pueblo es tranquilo, es un poco aburrido." },
-          { es: "In the city you can walk everywhere, while in the country you need a car.", en: "En la ciudad puedes ir andando a todas partes, mientras que en el campo necesitas coche." },
+          { es: "In the city you can walk everywhere, while in the country you need a car.", en: "En la ciudad puedes ir andando a todas partes, mientras que en el campo necesitas carro." },
         ],
         checkpoint: [
           {

@@ -25,7 +25,7 @@ export const EN_A2_U04_EXTRA: Lesson[] = [  // ---------------------------------
         examples: [
           { es: "I used to play tennis.", en: "Antes jugaba al tenis. / Solía jugar al tenis." },
           { es: "She used to live in Lima.", en: "Ella vivía antes en Lima." },
-          { es: "We didn't use to have a car.", en: "Antes no teníamos coche." },
+          { es: "We didn't use to have a car.", en: "Antes no teníamos carro." },
           { es: "Did you use to wear glasses?", en: "¿Antes llevabas gafas?" },
           { es: "There used to be a cinema here.", en: "Aquí antes había un cine." },
         ],
@@ -430,9 +430,9 @@ export const EN_A2_U04_EXTRA: Lesson[] = [  // ---------------------------------
         type: "listen-choose",
         audio: "I used to take the train, but now I usually drive.",
         question: "¿Cómo va normalmente ahora?",
-        options: ["En coche.", "En tren.", "Caminando.", "En autobús."],
+        options: ["En carro.", "En tren.", "Caminando.", "En autobús."],
         correctIndex: 0,
-        explanation: "\"Now I usually drive\" = ahora suele ir en coche. El tren era antes (\"used to\").",
+        explanation: "\"Now I usually drive\" = ahora suele ir en carro. El tren era antes (\"used to\").",
       },
       {
         type: "write",

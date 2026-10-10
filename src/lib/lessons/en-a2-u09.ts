@@ -21,7 +21,7 @@ export const EN_A2_U09: Lesson[] = [
         ],
         examples: [
           { es: "I'm going to study medicine.", en: "Voy a estudiar medicina." },
-          { es: "She's going to buy a car.", en: "Va a comprarse un coche." },
+          { es: "She's going to buy a car.", en: "Va a comprarse un carro." },
           { es: "We're going to visit my grandparents.", en: "Vamos a visitar a mis abuelos." },
           { es: "They're going to move to Chicago.", en: "Se van a mudar a Chicago." },
           { es: "He's going to learn to drive.", en: "Va a aprender a manejar." },
@@ -126,7 +126,7 @@ export const EN_A2_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Ella va a comprar un coche.",
+        source: "Ella va a comprar un carro.",
         answer: "She's going to buy a car.",
         explanation: "\"She is going to\" + forma base. Sin \"is\", la frase queda incompleta.",
       },
@@ -871,7 +871,7 @@ export const EN_A2_U09: Lesson[] = [
             source: "Te llevo al aeropuerto.",
             answer: "I'll drive you to the airport.",
             altAnswers: ["I'll take you to the airport.", "I'll give you a ride to the airport.", "I'll give you a lift to the airport."],
-            explanation: "Es un ofrecimiento: \"I'll\". «Llevar a alguien en coche» es \"drive\" o \"take\" (o \"give someone a ride\").",
+            explanation: "Es un ofrecimiento: \"I'll\". «Llevar a alguien en carro» es \"drive\" o \"take\" (o \"give someone a ride\").",
           },
         ],
       },
@@ -1049,7 +1049,7 @@ export const EN_A2_U09: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Ves que el coche de delante va directo hacia un árbol. ¿Qué dices?",
+            question: "Ves que el carro de delante va directo hacia un árbol. ¿Qué dices?",
             options: ["It's going to crash!", "It's going crash!", "It crashes!", "It will to crash!"],
             correctIndex: 0,
             explanation: "Lo estás viendo: predicción con pruebas, \"going to\".",

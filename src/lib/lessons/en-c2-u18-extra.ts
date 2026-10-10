@@ -11,7 +11,7 @@ export const EN_C2_U18_EXTRA: Lesson[] = [
     optional: true,
     level: "EN-C2",
     number: 1,
-    title: "Extra Practice: Nominalisation for Academic Style",
+    title: "Extra Practice: Nominalization for Academic Style",
     summary: "Drill turning clauses into noun phrases (\"prices rose sharply\" into \"a sharp rise in prices\") and back again. Fix the preposition after the noun (*an increase of prices), the article, and noun stacks so heavy that nobody can read them.",
     duration: "12 min",
     sections: [
@@ -19,8 +19,8 @@ export const EN_C2_U18_EXTRA: Lesson[] = [
         heading: "Quick recap: from clause to noun phrase",
         body: [
           "Academic English packs actions into nouns. The verb becomes a noun, the adverb becomes an adjective, and the subject or object becomes an \"of\" phrase or a premodifier: \"Prices rose sharply\" becomes \"a sharp rise in prices\"; \"The government failed to act\" becomes \"the government's failure to act\"; \"They analyzed the data carefully\" becomes \"a careful analysis of the data\".",
-          "The noun phrase can then be the subject of a new sentence, which lets you build an argument: \"The sharp rise in prices led to a fall in demand.\" This is why nominalisation feels so typical of reports and papers.",
-          "Spanish nominalises too («el aumento de los precios»), but the prepositions differ. Change nouns take \"in\" for what changes and \"of\" for the amount: \"an increase in prices\", \"an increase of 5%\"; \"a fall in unemployment of two points\". «Aumento de los precios» is never *increase of the prices.",
+          "The noun phrase can then be the subject of a new sentence, which lets you build an argument: \"The sharp rise in prices led to a fall in demand.\" This is why nominalization feels so typical of reports and papers.",
+          "Spanish nominalizes too («el aumento de los precios»), but the prepositions differ. Change nouns take \"in\" for what changes and \"of\" for the amount: \"an increase in prices\", \"an increase of 5%\"; \"a fall in unemployment of two points\". «Aumento de los precios» is never *increase of the prices.",
         ],
         examples: [
           { es: "There was a sharp rise in prices.", en: "Hubo una fuerte subida de los precios. (incorrecto: *rise of prices)" },
@@ -33,7 +33,7 @@ export const EN_C2_U18_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which noun phrase correctly nominalises \"Unemployment fell dramatically\"?",
+            question: "Which noun phrase correctly nominalizes \"Unemployment fell dramatically\"?",
             options: [
               "a dramatic fall in unemployment",
               "a dramatic fall of unemployment",
@@ -56,7 +56,7 @@ export const EN_C2_U18_EXTRA: Lesson[] = [
       {
         heading: "Articles, possessives and knowing when to stop",
         body: [
-          "A nominalised phrase needs a determiner when it refers to a specific event: \"the introduction of the tax\", \"its implementation\". General processes can go without: \"Urbanization brings both risks and opportunities.\" Spanish speakers tend to overuse \"the\" with general abstract nouns: *The urbanization brings risks.",
+          "A nominalized phrase needs a determiner when it refers to a specific event: \"the introduction of the tax\", \"its implementation\". General processes can go without: \"Urbanization brings both risks and opportunities.\" Spanish speakers tend to overuse \"the\" with general abstract nouns: *The urbanization brings risks.",
           "The agent can be a possessive or a \"by\" phrase: \"the committee's decision\", \"the decision by the committee\". Nouns that come from verbs with an object take \"of\" for that object: \"the destruction of the archive\", \"the treatment of patients\".",
           "Don't overdo it. Strings of nouns such as *the government housing policy reform implementation delay are hard to read. Unpack them: \"the delay in implementing the government's reform of housing policy\". And when a sentence becomes all nouns and no verbs, turn one noun back into a verb.",
         ],
@@ -130,7 +130,7 @@ export const EN_C2_U18_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Rewrite as one sentence in academic English, using a noun phrase as the subject.",
-        source: "Los tipos de interés subieron rápidamente y, como consecuencia, la inversión se redujo.",
+        source: "Las tasas de interés subieron rápidamente y, como consecuencia, la inversión se redujo.",
         answer: "The rapid rise in interest rates led to a reduction in investment.",
         altAnswers: [
           "The rapid rise in interest rates led to a fall in investment.",
@@ -190,7 +190,7 @@ export const EN_C2_U18_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Hay una demanda creciente de profesionales cualificados.",
+        source: "Hay una demanda creciente de profesionales calificados.",
         answer: "There is a growing demand for skilled professionals.",
         altAnswers: [
           "There is growing demand for skilled professionals.",
@@ -262,7 +262,7 @@ export const EN_C2_U18_EXTRA: Lesson[] = [
           "Management needs to carry out a thorough review of the procedures.",
           "Management must carry out a thorough review of the procedures.",
         ],
-        explanation: "Spanish bureaucratic style stacks nouns («la realización de una revisión»); in English, \"review\" alone does the job. Nominalise for density, not for padding.",
+        explanation: "Spanish bureaucratic style stacks nouns («la realización de una revisión»); in English, \"review\" alone does the job. Nominalize for density, not for padding.",
       },
       {
         type: "matching",
@@ -313,15 +313,15 @@ export const EN_C2_U18_EXTRA: Lesson[] = [
           "Membership and fees both rose sharply.",
         ],
         correctIndex: 0,
-        explanation: "\"The sharp decline in membership\" (effect) \"was due to\" \"the increase in fees\" (cause). Nominalised sentences often state cause and effect with \"due to\", \"led to\", \"resulted in\".",
+        explanation: "\"The sharp decline in membership\" (effect) \"was due to\" \"the increase in fees\" (cause). Nominalized sentences often state cause and effect with \"due to\", \"led to\", \"resulted in\".",
       },
       {
         type: "write",
-        prompt: "Rewrite this informal paragraph in academic style (40-70 words), using at least three nominalisations: \"Lots of people moved to the cities, so housing got much more expensive. Because the government didn't build enough homes, young people couldn't leave their parents' houses.\"",
+        prompt: "Rewrite this informal paragraph in academic style (40-70 words), using at least three nominalizations: \"Lots of people moved to the cities, so housing got much more expensive. Because the government didn't build enough homes, young people couldn't leave their parents' houses.\"",
         minWords: 40,
         maxWords: 70,
         rubric: [
-          "At least three nominalisations (migration, rise, failure...)",
+          "At least three nominalizations (migration, rise, failure...)",
           "Correct prepositions after the nouns (rise in, failure to, demand for)",
           "No noun stacks; still readable",
           "Formal register throughout",

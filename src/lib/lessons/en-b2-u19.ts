@@ -49,7 +49,7 @@ export const EN_B2_U19: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "It took me months to get used to ___ on the right.",
             answer: "driving",
-            en: "Me costó meses acostumbrarme a [conducir] por la derecha.",
+            en: "Me costó meses acostumbrarme a [manejar] por la derecha.",
             explanation: "After \"get used to\" the verb takes -ing, because \"to\" is a preposition here, not part of an infinitive.",
           },
           {
@@ -537,7 +537,7 @@ export const EN_B2_U19: Lesson[] = [
         sentence: "She saved money ___ buy a car.",
         answer: "to",
         altAnswers: ["in order to", "so as to"],
-        en: "Ahorró dinero [para] comprarse un coche.",
+        en: "Ahorró dinero [para] comprarse un carro.",
         explanation: "Purpose = to-infinitive. *For to buy and *for buy are wrong.",
       },
       {
@@ -724,7 +724,7 @@ export const EN_B2_U19: Lesson[] = [
         ],
         examples: [
           { es: "In addition, I speak three languages.", en: "Además, hablo tres idiomas." },
-          { es: "As well as speaking three languages, I have a driver's license.", en: "Además de hablar tres idiomas, tengo carné de conducir." },
+          { es: "As well as speaking three languages, I have a driver's license.", en: "Además de hablar tres idiomas, tengo licencia de manejar." },
           { es: "In addition to managing the budget, I trained new staff.", en: "Además de gestionar el presupuesto, formaba al personal nuevo." },
           { es: "Furthermore, I have experience in event planning.", en: "Además, tengo experiencia en organización de eventos." },
           { es: "Apart from that, I am available to start immediately.", en: "Aparte de eso, puedo empezar de inmediato." },
@@ -734,7 +734,7 @@ export const EN_B2_U19: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Además de hablar tres idiomas, tengo carné de conducir.",
+            source: "Además de hablar tres idiomas, tengo licencia de manejar.",
             answer: "As well as speaking three languages, I have a driver's license.",
             altAnswers: [
               "Besides speaking three languages, I have a driver's license.",
@@ -1201,7 +1201,7 @@ export const EN_B2_U19: Lesson[] = [
           "\"Suggest\" is a trap: never *suggest to do. Say \"I suggest going\" or \"I suggest (that) we go\".",
         ],
         examples: [
-          { es: "I can't afford to buy a new car.", en: "No me puedo permitir comprar un coche nuevo." },
+          { es: "I can't afford to buy a new car.", en: "No me puedo permitir comprar un carro nuevo." },
           { es: "Do you mind waiting a moment?", en: "¿Te importa esperar un momento?" },
           { es: "She refused to answer.", en: "Se negó a contestar." },
           { es: "I suggest leaving early.", en: "Propongo salir temprano." },
@@ -1234,7 +1234,7 @@ export const EN_B2_U19: Lesson[] = [
         examples: [
           { es: "I want you to come to the party.", en: "Quiero que vengas a la fiesta." },
           { es: "My boss asked me to stay late.", en: "Mi jefe me pidió que me quedara hasta tarde." },
-          { es: "They don't allow us to use our phones.", en: "No nos permiten usar el móvil." },
+          { es: "They don't allow us to use our phones.", en: "No nos permiten usar el celular." },
           { es: "Remind me to call her.", en: "Recuérdame que la llame." },
         ],
         checkpoint: [
@@ -1367,7 +1367,7 @@ export const EN_B2_U19: Lesson[] = [
         sentence: "We weren't ___ to use our phones in class.",
         answer: "allowed",
         altAnswers: ["permitted"],
-        en: "No nos [dejaban] usar el móvil en clase.",
+        en: "No nos [dejaban] usar el celular en clase.",
         explanation: "\"Let\" has no normal passive: use \"be allowed to\".",
       },
       {
@@ -1428,7 +1428,7 @@ export const EN_B2_U19: Lesson[] = [
           { es: "Back home, I used to walk everywhere.", en: "En mi país, iba andando a todas partes." },
           { es: "On Sundays we would have lunch with my grandparents.", en: "Los domingos comíamos con mis abuelos." },
           { es: "I used to have a lot of friends there.", en: "Allí tenía muchos amigos." },
-          { es: "I've gotten used to driving everywhere.", en: "Me he acostumbrado a ir en coche a todas partes." },
+          { es: "I've gotten used to driving everywhere.", en: "Me he acostumbrado a ir en carro a todas partes." },
           { es: "I'll never get used to tipping twenty percent.", en: "Nunca me acostumbraré a dejar un veinte por ciento de propina." },
         ],
         checkpoint: [
@@ -1448,10 +1448,10 @@ export const EN_B2_U19: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Me he acostumbrado a ir en coche a todas partes.",
+            source: "Me he acostumbrado a ir en carro a todas partes.",
             answer: "I've gotten used to driving everywhere.",
             altAnswers: ["I've got used to driving everywhere.", "I'm used to driving everywhere now.", "I've gotten used to going everywhere by car.", "I've got used to going everywhere by car."],
-            explanation: "«Acostumbrarse a» = \"get used to\" + -ing. «Ir en coche» is simply \"drive\".",
+            explanation: "«Acostumbrarse a» = \"get used to\" + -ing. «Ir en carro» is simply \"drive\".",
           },
         ],
       },
@@ -1628,7 +1628,7 @@ export const EN_B2_U19: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ojalá no hubiera vendido mi coche antes de mudarme.",
+        source: "Ojalá no hubiera vendido mi carro antes de mudarme.",
         answer: "I wish I hadn't sold my car before moving.",
         altAnswers: [
           "I wish I hadn't sold my car before I moved.",
@@ -1693,7 +1693,7 @@ export const EN_B2_U19: Lesson[] = [
           { es: "Eating vegetables is good for your health.", en: "Comer verdura es bueno para la salud." },
           { es: "Walking to work helps me relax.", en: "Ir andando al trabajo me ayuda a relajarme." },
           { es: "Not getting enough sleep is dangerous.", en: "No dormir lo suficiente es peligroso." },
-          { es: "Checking your phone before bed keeps you awake.", en: "Mirar el móvil antes de dormir te quita el sueño." },
+          { es: "Checking your phone before bed keeps you awake.", en: "Mirar el celular antes de dormir te quita el sueño." },
         ],
         checkpoint: [
           {
@@ -1738,7 +1738,7 @@ export const EN_B2_U19: Lesson[] = [
           { es: "I gave up eating sugar last year.", en: "Dejé el azúcar el año pasado." },
           { es: "I'm trying to cut down on coffee.", en: "Estoy intentando tomar menos café." },
           { es: "I'm trying to stop biting my nails.", en: "Estoy intentando dejar de morderme las uñas." },
-          { es: "Have you tried turning off your phone at night?", en: "¿Has probado a apagar el móvil por la noche?" },
+          { es: "Have you tried turning off your phone at night?", en: "¿Has probado a apagar el celular por la noche?" },
           { es: "He's always leaving his socks on the floor!", en: "¡Siempre está dejando los calcetines en el suelo!" },
         ],
         checkpoint: [
@@ -1796,7 +1796,7 @@ export const EN_B2_U19: Lesson[] = [
         ],
         examples: [
           { es: "I go to bed early to feel rested.", en: "Me acuesto temprano para sentirme descansado." },
-          { es: "I leave my phone in the kitchen so that I don't check it at night.", en: "Dejo el móvil en la cocina para no mirarlo por la noche." },
+          { es: "I leave my phone in the kitchen so that I don't check it at night.", en: "Dejo el celular en la cocina para no mirarlo por la noche." },
           { es: "I set two alarms so as not to oversleep.", en: "Pongo dos alarmas para no quedarme dormido." },
           { es: "She cooks on Sundays so that she doesn't have to cook during the week.", en: "Cocina los domingos para no tener que cocinar entre semana." },
           { es: "I walk for exercise.", en: "Camino para hacer ejercicio." },

@@ -2404,7 +2404,7 @@ export const EN_A2_U23: Lesson[] = [
           {
             type: "multiple-choice",
             question: "¿Qué significa \"I'm really embarrassed\"?",
-            options: ["Me da mucha vergüenza.", "Estoy embarazada.", "Estoy muy enfadada.", "Estoy muy cansada."],
+            options: ["Me da mucha vergüenza.", "Estoy embarazada.", "Estoy muy enojada.", "Estoy muy cansada."],
             correctIndex: 0,
             explanation: "\"Embarrassed\" es un falso amigo: significa «avergonzado». «Embarazada» es \"pregnant\".",
           },

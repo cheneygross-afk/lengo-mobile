@@ -25,7 +25,7 @@ export const EN_C1_U04: Lesson[] = [
           { es: "Is it going to cost a lot? I'm afraid so.", en: "¿Va a costar mucho? Me temo que sí." },
           { es: "Did she get the job? I believe so.", en: "¿Consiguió el trabajo? Creo que sí." },
           { es: "Are we nearly there? I guess so.", en: "¿Ya casi hemos llegado? Supongo que sí." },
-          { es: "Can I borrow the car? I suppose so.", en: "¿Me prestas el coche? Bueno, supongo que sí." },
+          { es: "Can I borrow the car? I suppose so.", en: "¿Me prestas el carro? Bueno, supongo que sí." },
         ],
         checkpoint: [
           {
@@ -55,7 +55,7 @@ export const EN_C1_U04: Lesson[] = [
         ],
         examples: [
           { es: "Will it rain tomorrow? I don't think so.", en: "¿Lloverá mañana? Creo que no." },
-          { es: "Is there any cake left? I'm afraid not.", en: "¿Queda tarta? Me temo que no." },
+          { es: "Is there any cake left? I'm afraid not.", en: "¿Queda pastel? Me temo que no." },
           { es: "You won't be late, will you? I hope not.", en: "No vas a llegar tarde, ¿no? Espero que no." },
           { es: "Will he apologize? I don't expect so.", en: "¿Pedirá perdón? No creo." },
           { es: "So we can't go in? I guess not.", en: "¿Entonces no podemos entrar? Supongo que no." },
@@ -64,7 +64,7 @@ export const EN_C1_U04: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "Is the meeting cancelled? I ___.",
+            sentence: "Is the meeting canceled? I ___.",
             answer: "hope not",
             en: "¿Se ha cancelado la reunión? [Espero que no].",
             explanation: "With \"hope\", the negative goes on the pro-form: \"I hope not\". *I don't hope so is not English.",
@@ -119,7 +119,7 @@ export const EN_C1_U04: Lesson[] = [
           { es: "Which one do you want? The one on the left.", en: "¿Cuál quieres? El de la izquierda." },
           { es: "The new offices are nicer than the old ones.", en: "Las oficinas nuevas son más bonitas que las antiguas." },
           { es: "I prefer red wine to white.", en: "Prefiero el vino tinto al blanco." },
-          { es: "My car is the grey one next to the van.", en: "Mi coche es el gris que está al lado de la furgoneta." },
+          { es: "My car is the gray one next to the van.", en: "Mi carro es el gris que está al lado de la camioneta." },
         ],
         checkpoint: [
           {
@@ -136,7 +136,7 @@ export const EN_C1_U04: Lesson[] = [
             prompt: "Translate into English.",
             source: "Esta llave no abre. Prueba con la que está encima de la mesa.",
             answer: "This key doesn't work. Try the one on the table.",
-            altAnswers: ["This key doesn't open it. Try the one on the table.", "This key doesn't work. Try the one that's on the table.", "This key won't open it. Try the one on the table.", "This key doesn't work. Try the one on top of the table.", "This key doesn't fit. Try the one on the table.", "This key won't work. Try the one on the table.", "This key doesn't open the door. Try the one on the table.", "This key doesn't work. Try with the one on the table."],
+            altAnswers: ["This key doesn't open it. Try the one on the table.", "This key doesn't work. Try the one that's on the table.", "This key won't open it. Try the one on the table.", "This key doesn't work. Try the one on top of the table.", "This key doesn't fit. Try the one on the table.", "This key won't work. Try the one on the table.", "This key doesn't open the door. Try the one on the table."],
             explanation: "«La que está encima de la mesa» becomes \"the one on the table\": \"one\" replaces \"key\". Note that a key \"doesn't work\" rather than *doesn't open on its own.",
           },
         ],
@@ -153,7 +153,7 @@ export const EN_C1_U04: Lesson[] = [
           { es: "Spain's climate is warmer than England's.", en: "El clima de España es más cálido que el de Inglaterra." },
           { es: "Her results were better than those of her classmates.", en: "Sus resultados fueron mejores que los de sus compañeros." },
           { es: "The population of Mexico City is larger than that of New York.", en: "La población de Ciudad de México es mayor que la de Nueva York." },
-          { es: "My phone is older than my brother's.", en: "Mi móvil es más viejo que el de mi hermano." },
+          { es: "My phone is older than my brother's.", en: "Mi celular es más viejo que el de mi hermano." },
         ],
         checkpoint: [
           {
@@ -368,7 +368,7 @@ export const EN_C1_U04: Lesson[] = [
           { es: "She earns more than I do.", en: "Ella gana más que yo." },
           { es: "It isn't as hard as it looks.", en: "No es tan difícil como parece." },
           { es: "I've read more books this year than last.", en: "Este año he leído más libros que el pasado." },
-          { es: "She picked up the phone and dialed the number.", en: "Cogió el teléfono y marcó el número." },
+          { es: "She picked up the phone and dialed the number.", en: "Tomó el teléfono y marcó el número." },
           { es: "Ana studied law, and Carlos medicine.", en: "Ana estudió Derecho y Carlos, Medicina." },
         ],
         checkpoint: [
@@ -397,7 +397,7 @@ export const EN_C1_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Te apetece venir a cenar el sábado? Me encantaría, pero no puedo.",
+        source: "¿Tienes ganas de venir a cenar el sábado? Me encantaría, pero no puedo.",
         answer: "Would you like to come to dinner on Saturday? I'd love to, but I can't.",
         altAnswers: ["Do you want to come to dinner on Saturday? I'd love to, but I can't.", "Would you like to come for dinner on Saturday? I'd love to, but I can't.", "Do you want to come for dinner on Saturday? I'd love to, but I can't.", "Would you like to come over for dinner on Saturday? I'd love to, but I can't.", "Do you fancy coming to dinner on Saturday? I'd love to, but I can't.", "Would you like to have dinner with us on Saturday? I'd love to, but I can't.", "Do you feel like coming to dinner on Saturday? I'd love to, but I can't.", "Would you like to come to dinner on Saturday? I would love to, but I can't."],
         explanation: "Keep the \"to\" when the verb is understood: \"I'd love to\". \"I can't\" also ends at the modal.",
@@ -452,8 +452,8 @@ export const EN_C1_U04: Lesson[] = [
       {
         type: "listen-choose",
         audio: "I'd like to, but I'm not allowed to.",
-        question: "¿Qué has oído?",
-        options: ["Me gustaría, pero no me dejan.", "Me gustaría, pero no me apetece.", "Me gustó, pero no me dejaron.", "Me gustaría, pero no sé hacerlo."],
+        question: "What did you hear?",
+        options: ["Me gustaría, pero no me dejan.", "Me gustaría, pero no tengo ganas.", "Me gustó, pero no me dejaron.", "Me gustaría, pero no sé hacerlo."],
         correctIndex: 0,
         explanation: "Both verbs keep the \"to\": \"I'd like to\" and \"I'm not allowed to\" («no me dejan»).",
       },
@@ -486,7 +486,7 @@ export const EN_C1_U04: Lesson[] = [
         examples: [
           { es: "Are you coming to the party? I might.", en: "¿Vienes a la fiesta? Puede que sí." },
           { es: "Will it be expensive? Probably not.", en: "¿Será caro? Seguramente no." },
-          { es: "Has the parcel arrived? Not yet.", en: "¿Ha llegado el paquete? Todavía no." },
+          { es: "Has the package arrived? Not yet.", en: "¿Ha llegado el paquete? Todavía no." },
           { es: "Will you be late again? Hopefully not.", en: "¿Vas a llegar tarde otra vez? Espero que no." },
           { es: "Can you finish it by Friday? I should.", en: "¿Puedes terminarlo para el viernes? Debería poder." },
           { es: "Do you mind if I open the window? Not at all.", en: "¿Te importa si abro la ventana? Para nada." },
@@ -518,8 +518,8 @@ export const EN_C1_U04: Lesson[] = [
           "Use these tools only when the reference is clear. If the reader has to go back to check, simply repeat the noun or rewrite the sentence.",
         ],
         examples: [
-          { es: "Students may retake the exam, but only those who failed may do so.", en: "Los alumnos pueden repetir el examen, pero solo pueden hacerlo los que suspendieron." },
-          { es: "The unemployment rate in the south is double that of the north.", en: "La tasa de paro del sur es el doble que la del norte." },
+          { es: "Students may retake the exam, but only those who failed may do so.", en: "Los alumnos pueden repetir el examen, pero solo pueden hacerlo los que reprobaron." },
+          { es: "The unemployment rate in the south is double that of the north.", en: "La tasa de desempleo del sur es el doble que la del norte." },
           { es: "We considered Lisbon and Porto; the latter was cheaper.", en: "Barajamos Lisboa y Oporto; esta última era más barata." },
           { es: "The company has offices in Madrid and Lima, the former being the headquarters.", en: "La empresa tiene oficinas en Madrid y Lima; la primera es la sede central." },
         ],
@@ -538,11 +538,11 @@ export const EN_C1_U04: Lesson[] = [
         heading: "When NOT to shorten",
         body: [
           "Ellipsis needs a clear antecedent. If too much text separates the original verb from the auxiliary, the reader gets lost: repeat the verb instead.",
-          "\"Do so\" does not work with state verbs (know, own, believe, seem). \"She owns a flat in Paris, and her brother does too\" is fine; *her brother does so too is not.",
+          "\"Do so\" does not work with state verbs (know, own, believe, seem). \"She owns an apartment in Paris, and her brother does too\" is fine; *her brother does so too is not.",
           "Short answers are informal in tone. In a formal letter, write a complete sentence: \"We are unable to attend the meeting\", not just \"We can't.\"",
         ],
         examples: [
-          { es: "She owns a flat in Paris, and her brother does too.", en: "Ella tiene un piso en París, y su hermano también." },
+          { es: "She owns an apartment in Paris, and her brother does too.", en: "Ella tiene un departamento en París, y su hermano también." },
           { es: "I believed him, and so did everyone else.", en: "Yo le creí, y todos los demás también." },
           { es: "Unfortunately, we are unable to attend the meeting.", en: "Lamentablemente, no podemos asistir a la reunión." },
         ],
@@ -566,7 +566,7 @@ export const EN_C1_U04: Lesson[] = [
           { es: "Are you coming to Lucia's party? I'd like to, but I'm not sure I can.", en: "¿Vienes a la fiesta de Lucia? Me gustaría, pero no sé si podré." },
           { es: "Is Carlos going? I think so.", en: "¿Va Carlos? Creo que sí." },
           { es: "Should I bring a present? You don't have to, but you can if you want.", en: "¿Llevo un regalo? No hace falta, pero puedes si quieres." },
-          { es: "I'll bring a cake, then. A big one!", en: "Pues llevo una tarta. ¡Una grande!" },
+          { es: "I'll bring a cake, then. A big one!", en: "Pues llevo un pastel. ¡Uno grande!" },
         ],
         checkpoint: [
           {
@@ -603,7 +603,7 @@ export const EN_C1_U04: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Visitors may take photographs, but they may not ___ inside the chapel.",
         answer: "do so",
-        en: "Los visitantes pueden hacer fotos, pero no pueden [hacerlo] dentro de la capilla.",
+        en: "Los visitantes pueden tomar fotos, pero no pueden [hacerlo] dentro de la capilla.",
         explanation: "In a formal notice, \"do so\" replaces \"take photographs\". \"Do it\" would sound less formal.",
       },
       {
@@ -617,7 +617,7 @@ export const EN_C1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In an essay you have mentioned \"public transport\" and then \"private cars\". You want to refer to private cars. What do you write?",
+        question: "In an essay you have mentioned \"public transportation\" and then \"private cars\". You want to refer to private cars. What do you write?",
         options: ["the latter", "the last", "the former", "the second one of them"],
         correctIndex: 0,
         explanation: "\"The latter\" is the second of two. \"The former\" is the first, and *the last is a calque of «el último».",
@@ -641,8 +641,8 @@ export const EN_C1_U04: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Will you need the car tomorrow? Hopefully not.",
-        question: "¿Qué responde la persona?",
-        options: ["Espera no necesitar el coche.", "Seguro que necesitará el coche.", "Ya no tiene coche.", "Necesitará el coche, por desgracia."],
+        question: "How does the person reply?",
+        options: ["Espera no necesitar el carro.", "Seguro que necesitará el carro.", "Ya no tiene carro.", "Necesitará el carro, por desgracia."],
         correctIndex: 0,
         explanation: "\"Hopefully not\" means «espero que no». The adverb stands alone, followed by \"not\".",
       },
@@ -679,8 +679,8 @@ export const EN_C1_U04: Lesson[] = [
           "If you miss items in this part, go back to \"Substitution, Part 1 of 2\".",
         ],
         examples: [
-          { es: "Is he still angry? I'm afraid so.", en: "¿Sigue enfadado? Me temo que sí." },
-          { es: "Which glasses are yours? The ones with the black frames.", en: "¿Cuáles son tus gafas? Las de montura negra." },
+          { es: "Is he still angry? I'm afraid so.", en: "¿Sigue enojado? Me temo que sí." },
+          { es: "Which glasses are yours? The ones with the black frames.", en: "¿Cuáles son tus lentes? Los de armazón negro." },
           { es: "The quality of the first edition is better than that of the second.", en: "La calidad de la primera edición es mejor que la de la segunda." },
         ],
         checkpoint: [
@@ -835,7 +835,7 @@ export const EN_C1_U04: Lesson[] = [
       {
         type: "listen-choose",
         audio: "I'm not sure I can, but I'll try to.",
-        question: "¿Qué dice la persona?",
+        question: "What does the speaker say?",
         options: ["No sabe si podrá, pero lo intentará.", "Seguro que puede hacerlo.", "No quiere intentarlo.", "Ya lo intentó y no pudo."],
         correctIndex: 0,
         explanation: "\"I can\" and \"I'll try to\" both leave out the verb. (Review: Ellipsis, Part 2 of 2.)",
@@ -877,7 +877,7 @@ export const EN_C1_U04: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English, as an informal reply.",
-            source: "¿Quedamos a las ocho? Me parece bien.",
+            source: "¿Nos vemos a las ocho? Me parece bien.",
             answer: "Shall we meet at eight? Sounds good.",
             altAnswers: ["Should we meet at eight? Sounds good.", "Shall we meet at eight? Sounds good to me.", "Should we meet at eight? Sounds good to me.", "Meet at eight? Sounds good.", "How about meeting at eight? Sounds good.", "Shall we meet at eight? Sounds great.", "Should we meet at eight? Sounds great.", "Shall we meet at eight? Sounds fine.", "Should we meet at 8? Sounds good."],
             explanation: "\"Sounds good\" drops \"It\" or \"That\" at the start. It is the standard informal way to accept a plan.",
@@ -962,7 +962,7 @@ export const EN_C1_U04: Lesson[] = [
         sentence: "___ my phone? I can't find it anywhere.",
         answer: "Seen",
         altAnswers: ["Have you seen"],
-        en: "¿[Has visto] mi móvil? No lo encuentro por ninguna parte.",
+        en: "¿[Has visto] mi celular? No lo encuentro por ninguna parte.",
         explanation: "In speech, \"Have you seen...?\" is often clipped to \"Seen...?\". Both forms are correct.",
       },
       {
@@ -1005,7 +1005,7 @@ export const EN_C1_U04: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Anyone want a coffee? Making some.",
-        question: "¿Qué dice la persona?",
+        question: "What does the speaker say?",
         options: ["Va a hacer café y ofrece a los demás.", "Quiere que alguien le haga un café.", "No queda café.", "Pregunta dónde está el café."],
         correctIndex: 0,
         explanation: "Full form: \"Does anyone want a coffee? I'm making some.\" Both auxiliaries and the subject \"I\" are dropped.",
@@ -1042,7 +1042,7 @@ export const EN_C1_U04: Lesson[] = [
           { es: "Will they win? I expect so.", en: "¿Ganarán? Supongo que sí." },
           { es: "Is it far? I imagine so.", en: "¿Está lejos? Me imagino que sí." },
           { es: "The food here is the best in town. If you say so.", en: "La comida de aquí es la mejor de la ciudad. Si tú lo dices." },
-          { es: "You can't park here. Who says so?", en: "Aquí no puedes aparcar. ¿Quién lo dice?" },
+          { es: "You can't park here. Who says so?", en: "Aquí no puedes estacionar. ¿Quién lo dice?" },
           { es: "I told you so!", en: "¡Ya te lo dije!" },
         ],
         checkpoint: [
@@ -1201,7 +1201,7 @@ export const EN_C1_U04: Lesson[] = [
       {
         type: "listen-choose",
         audio: "You were right. I should have listened. I told you so!",
-        question: "¿Qué pasa en este diálogo?",
+        question: "What happens in this dialogue?",
         options: ["Una persona admite su error y la otra le recuerda que ya se lo había advertido.", "Las dos personas están de acuerdo desde el principio.", "Una persona pide un consejo.", "Una persona no sabe qué decir."],
         correctIndex: 0,
         explanation: "\"I told you so\" means «ya te lo dije»: the speaker had warned the other person before.",
@@ -1226,12 +1226,12 @@ export const EN_C1_U04: Lesson[] = [
         heading: "\"This\" + summary noun",
         body: [
           "Good English texts often refer back to a whole idea with \"this\" or \"these\" + a noun that sums it up: \"The city banned cars from the center. This decision angered many shop owners.\" The noun (decision, approach, problem, trend, measure) tells the reader exactly what you are referring to.",
-          "Spanish writers often repeat the full noun phrase («la prohibición de los coches en el centro») or use a vague «esto». In English, a summary noun is cleaner and more precise than either.",
+          "Spanish writers often repeat the full noun phrase («la prohibición de los carros en el centro») or use a vague «esto». In English, a summary noun is cleaner and more precise than either.",
           "Useful summary nouns: approach, situation, issue, problem, change, decision, measure, trend, view, argument, development, process.",
         ],
         examples: [
           { es: "Prices rose by 12% in a single year. This increase hit low-income families hardest.", en: "Los precios subieron un 12 % en un solo año. Esta subida afectó sobre todo a las familias con menos ingresos." },
-          { es: "Some schools have banned phones in class. This measure has had mixed results.", en: "Algunos colegios han prohibido los móviles en clase. Esta medida ha tenido resultados desiguales." },
+          { es: "Some schools have banned phones in class. This measure has had mixed results.", en: "Algunos colegios han prohibido los celulares en clase. Esta medida ha tenido resultados desiguales." },
           { es: "More people are working from home. This trend is changing city centers.", en: "Cada vez más gente trabaja desde casa. Esta tendencia está cambiando los centros urbanos." },
           { es: "Many experts disagree with this view.", en: "Muchos expertos no están de acuerdo con este punto de vista." },
         ],
@@ -1241,8 +1241,8 @@ export const EN_C1_U04: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "El ayuntamiento ha subido el precio del transporte público. Esta decisión ha provocado protestas.",
-            answer: "The city council has raised the price of public transport. This decision has led to protests.",
-            altAnswers: ["The city council has raised the price of public transportation. This decision has led to protests.", "The city council has raised public transport fares. This decision has led to protests.", "The city council has raised public transportation fares. This decision has led to protests.", "The city council has increased the price of public transport. This decision has led to protests.", "The city council has increased the price of public transportation. This decision has led to protests.", "The city council has raised the price of public transport. This decision has sparked protests.", "The city council has raised the price of public transportation. This decision has sparked protests.", "The city council has raised the price of public transport. This decision has caused protests.", "The city council has raised the price of public transportation. This decision has caused protests.", "The council has raised the price of public transport. This decision has led to protests.", "The city has raised the price of public transportation. This decision has led to protests.", "The city council has raised the price of public transport. This decision has provoked protests."],
+            answer: "The city council has raised the price of public transportation. This decision has led to protests.",
+            altAnswers: ["The city council has raised the price of public transport. This decision has led to protests.", "The city council has raised public transport fares. This decision has led to protests.", "The city council has raised public transportation fares. This decision has led to protests.", "The city council has increased the price of public transport. This decision has led to protests.", "The city council has increased the price of public transportation. This decision has led to protests.", "The city council has raised the price of public transport. This decision has sparked protests.", "The city council has raised the price of public transportation. This decision has sparked protests.", "The city council has raised the price of public transport. This decision has caused protests.", "The city council has raised the price of public transportation. This decision has caused protests.", "The council has raised the price of public transport. This decision has led to protests.", "The city has raised the price of public transportation. This decision has led to protests.", "The city council has raised the price of public transport. This decision has provoked protests."],
             explanation: "\"This decision\" sums up the whole previous sentence. Repeating the full idea would be heavy, and a bare \"this\" would be vaguer.",
           },
         ],
@@ -1340,7 +1340,7 @@ export const EN_C1_U04: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "To apply, you will need ___: a CV, a cover letter and two references.",
+        sentence: "To apply, you will need ___: a résumé, a cover letter and two references.",
         answer: "the following",
         en: "Para solicitar el puesto, necesitará [lo siguiente]: un currículum, una carta de presentación y dos referencias.",
         explanation: "\"The following\" introduces a list that comes next. It works as a noun phrase, with no extra noun needed.",
@@ -1453,7 +1453,7 @@ export const EN_C1_U04: Lesson[] = [
         ],
         examples: [
           { es: "The old system was slow; the new one is much faster.", en: "El sistema antiguo era lento; el nuevo es mucho más rápido." },
-          { es: "Customers can return items within 14 days, but those who do so must keep the receipt.", en: "Los clientes pueden devolver artículos en un plazo de 14 días, pero quienes lo hagan deben conservar el tique." },
+          { es: "Customers can return items within 14 days, but those who do so must keep the receipt.", en: "Los clientes pueden devolver artículos en un plazo de 14 días, pero quienes lo hagan deben conservar el recibo." },
           { es: "The views of young voters differ sharply from those of older voters.", en: "Las opiniones de los votantes jóvenes difieren mucho de las de los mayores." },
           { es: "Sales fell in the first quarter. This decline was mainly due to the weather.", en: "Las ventas cayeron en el primer trimestre. Este descenso se debió sobre todo al tiempo." },
         ],
@@ -1714,7 +1714,7 @@ export const EN_C1_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Este piso es más pequeño que el que vimos ayer.",
+        source: "Este departamento es más pequeño que el que vimos ayer.",
         answer: "This apartment is smaller than the one we saw yesterday.",
         altAnswers: ["This flat is smaller than the one we saw yesterday.", "This apartment is smaller than the one that we saw yesterday.", "This flat is smaller than the one that we saw yesterday.", "This apartment is smaller than the one we looked at yesterday.", "This flat is smaller than the one we looked at yesterday.", "This apartment is smaller than the one we viewed yesterday.", "This flat is smaller than the one we viewed yesterday."],
         explanation: "«El que vimos» = \"the one we saw\". *The that we saw is a calque of the Spanish article + que.",
@@ -1769,7 +1769,7 @@ export const EN_C1_U04: Lesson[] = [
         examples: [
           { es: "She said she would help us, and she did.", en: "Dijo que nos ayudaría, y lo hizo. (antes: \"and she helped us\")" },
           { es: "The red dress is nice, but I prefer the blue one.", en: "El vestido rojo es bonito, pero prefiero el azul. (antes: \"the blue dress\")" },
-          { es: "Unemployment in the south is higher than that in the north.", en: "El paro en el sur es más alto que en el norte. (antes: \"unemployment in the north\")" },
+          { es: "Unemployment in the south is higher than that in the north.", en: "El desempleo en el sur es más alto que en el norte. (antes: \"unemployment in the north\")" },
           { es: "Are they still together? I don't think so.", en: "¿Siguen juntos? Creo que no. (antes: \"I don't think they are still together\")" },
         ],
         checkpoint: [
@@ -1800,7 +1800,7 @@ export const EN_C1_U04: Lesson[] = [
         examples: [
           { es: "Do you want to come to my party on Saturday? I'd love to!", en: "¿Quieres venir a mi fiesta el sábado? ¡Me encantaría!" },
           { es: "Has he called you back? Not yet.", en: "¿Te ha devuelto la llamada? Todavía no." },
-          { es: "Can you lend me ten dollars? I suppose so.", en: "¿Me prestas diez dólares? Bueno, vale." },
+          { es: "Can you lend me ten dollars? I suppose so.", en: "¿Me prestas diez dólares? Bueno, está bien." },
         ],
         checkpoint: [
           {
@@ -1882,7 +1882,7 @@ export const EN_C1_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English, as briefly as possible.",
-        source: "¿Vas a llamarla? Debería, pero no me apetece.",
+        source: "¿Vas a llamarla? Debería, pero no tengo ganas.",
         answer: "Are you going to call her? I should, but I don't feel like it.",
         altAnswers: ["Are you going to call her? I should, but I don't want to.", "Are you going to call her? I should, but I don't really want to.", "Are you going to call her? I should, but I don't really feel like it.", "Will you call her? I should, but I don't feel like it.", "Are you going to phone her? I should, but I don't feel like it.", "Are you going to ring her? I should, but I don't feel like it.", "Are you going to call her? I ought to, but I don't feel like it.", "Are you going to call her? I should, but I'm not in the mood.", "Will you call her? I should, but I don't want to."],
         explanation: "\"I should\" ends at the modal. \"I don't feel like it\" needs \"it\" (the call); \"I don't want to\" keeps the \"to\".",
@@ -2115,7 +2115,7 @@ export const EN_C1_U04: Lesson[] = [
         ],
         examples: [
           { es: "I've never been to Asia. Neither have I.", en: "Nunca he estado en Asia. Yo tampoco." },
-          { es: "My phone doesn't charge. Neither does mine.", en: "Mi móvil no carga. El mío tampoco." },
+          { es: "My phone doesn't charge. Neither does mine.", en: "Mi celular no carga. El mío tampoco." },
           { es: "Ana was furious. So was her mother.", en: "Ana estaba furiosa. Y su madre también." },
           { es: "I should study more. So should I.", en: "Debería estudiar más. Yo también." },
         ],
@@ -2311,7 +2311,7 @@ export const EN_C1_U04: Lesson[] = [
       {
         heading: "When relationships go wrong",
         body: [
-          "\"Fall out (with someone)\" means to argue and stop being friends («pelearse», «enfadarse con alguien»): \"She fell out with her best friend over money.\" The noun is \"a falling-out\".",
+          "\"Fall out (with someone)\" means to argue and stop being friends («pelearse», «enojarse con alguien»): \"She fell out with her best friend over money.\" The noun is \"a falling-out\".",
           "\"Drift apart\" describes a slow, gradual loss of closeness, usually without a fight: \"We drifted apart after university.\"",
           "\"Take someone for granted\" means not to appreciate someone because they are always there («no valorar a alguien»). \"Clingy\" describes someone who needs too much attention or closeness from a partner or friend; it is informal and negative.",
         ],
@@ -2416,7 +2416,7 @@ export const EN_C1_U04: Lesson[] = [
       {
         type: "listen-choose",
         audio: "We used to be close, but we drifted apart after college.",
-        question: "¿Qué pasó con su amistad?",
+        question: "What happened to their friendship?",
         options: ["Se fue enfriando poco a poco después de la universidad.", "Se pelearon en la universidad.", "Se hicieron amigos en la universidad.", "Siguen siendo íntimos."],
         correctIndex: 0,
         explanation: "\"Drift apart\" is a gradual loss of closeness, without a fight. \"College\" is the usual American word for university.",

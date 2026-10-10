@@ -262,14 +262,14 @@ export const EN_C1_U05_EXTRA: Lesson[] = [
           "Social media always causes anxiety.",
         ],
         correctIndex: 0,
-        explanation: "\"May\" and \"to some extent\" both soften the claim. The other options state it as a fact.",
+        explanation: "\"May\" and \"to some extent\" both soften the claim; two light hedges are fine, but avoid stacking three or more. The other options state it as a fact.",
       },
       {
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Al parecer, la reunión se ha cancelado.",
-        answer: "Apparently, the meeting has been cancelled.",
+        answer: "Apparently, the meeting has been canceled.",
         altAnswers: [
           "It seems that the meeting has been cancelled.",
           "It seems the meeting has been cancelled.",
@@ -446,7 +446,7 @@ export const EN_C1_U05_EXTRA: Lesson[] = [
           "There is much chances that it will rain.",
         ],
         correctIndex: 0,
-        explanation: "\"Chance\" is a countable noun: \"a good chance\", \"every chance\", \"little chance\". *Many chance copies «muchas posibilidades».",
+        explanation: "\"Chance\" is a countable noun: \"a good chance\", \"every chance\", \"a slim chance\". *Many chance copies «muchas posibilidades».",
       },
       {
         type: "fill-blank",

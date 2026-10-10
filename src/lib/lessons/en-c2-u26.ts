@@ -289,7 +289,7 @@ export const EN_C2_U26: Lesson[] = [
           ["Participants who slept less", "The participants who slept less", "Participants who got less sleep", "The participants who got less sleep"],
           ["tended to make", "tended to take"],
           ["riskier decisions.", "more risky decisions.", "riskier choices."],
-        ),
+        ).filter((a) => !/take riskier choices/.test(a)),
         explanation: "\"Tend to\" is a built-in hedge for a general pattern. We \"make\" decisions; \"take a decision\" is British and less common in American English.",
       },
       {
@@ -356,7 +356,7 @@ export const EN_C2_U26: Lesson[] = [
         ],
         examples: [
           { es: "Streaming services disrupted the entire music industry.", en: "Los servicios de streaming revolucionaron toda la industria musical." },
-          { es: "Digital cameras rendered film almost obsolete.", en: "Las cámaras digitales dejaron el carrete casi obsoleto." },
+          { es: "Digital cameras rendered film almost obsolete.", en: "Las cámaras digitales dejaron el rollo fotográfico casi obsoleto." },
           { es: "Many of these skills will become obsolete within a decade.", en: "Muchas de estas competencias quedarán obsoletas en una década." },
           { es: "The software is outdated, but the company still uses it.", en: "El programa está anticuado, pero la empresa todavía lo usa." },
           { es: "Critics accuse manufacturers of planned obsolescence.", en: "Los críticos acusan a los fabricantes de obsolescencia programada." },
@@ -398,7 +398,7 @@ export const EN_C2_U26: Lesson[] = [
         ],
         examples: [
           { es: "The government will roll out the new system nationwide in May.", en: "El gobierno implantará el nuevo sistema en todo el país en mayo." },
-          { es: "Gas and diesel cars are being phased out.", en: "Los coches de gasolina y diésel se están retirando progresivamente." },
+          { es: "Gas and diesel cars are being phased out.", en: "Los carros de gasolina y diésel se están retirando progresivamente." },
           { es: "The model works in a lab, but is it scalable?", en: "El modelo funciona en un laboratorio, pero ¿es escalable?" },
           { es: "The hard part is manufacturing the batteries at scale.", en: "Lo difícil es fabricar las baterías a gran escala." },
           { es: "Early adopters were willing to pay a premium.", en: "Los primeros usuarios estaban dispuestos a pagar más." },
@@ -513,7 +513,7 @@ export const EN_C2_U26: Lesson[] = [
         source: "El reto es fabricar el medicamento a gran escala y a un precio asequible.",
         answer: "The challenge is to manufacture the drug at scale and at an affordable price.",
         altAnswers: alts(
-          ["The challenge is to", "The challenge is"],
+          ["The challenge is to"],
           ["manufacture", "produce"],
           ["the drug", "the medicine", "the medication"],
           ["at scale", "on a large scale", "at large scale"],
@@ -1289,7 +1289,7 @@ export const EN_C2_U26: Lesson[] = [
       {
         type: "listen-choose",
         audio: "That's a fair point, and it's one of the limitations we acknowledge in the paper.",
-        question: "¿Cómo reacciona la científica a la objeción?",
+        question: "How does the scientist respond to the objection?",
         options: [
           "Reconoce que la objeción es razonable y que ya la mencionan en el artículo.",
           "Rechaza la objeción porque no es justa.",
@@ -1597,7 +1597,7 @@ export const EN_C2_U26: Lesson[] = [
           { es: "The data indicate a link between air pollution and asthma.", en: "Los datos apuntan a una relación entre la contaminación del aire y el asma." },
           { es: "Older patients tend to respond more slowly to treatment.", en: "Los pacientes de más edad suelen responder más despacio al tratamiento." },
           { es: "The results clearly demonstrate the effectiveness of the vaccine.", en: "Los resultados demuestran claramente la eficacia de la vacuna." },
-          { es: "This study proves that sugar causes depression.", en: "(demasiado categórico para un solo estudio; mejor: \"This study suggests a link between sugar and depression.\")" },
+          { es: "This study proves that sugar causes depression.", en: "Este estudio demuestra que el azúcar causa depresión. (Demasiado categórico para un solo estudio; mejor: \"This study suggests a link between sugar and depression.\")" },
         ],
         checkpoint: [
           {
@@ -1643,7 +1643,7 @@ export const EN_C2_U26: Lesson[] = [
               "Smokers tend to underestimate the risk.",
               "Smokers typically underestimate the risks.",
             ],
-            explanation: "«Soler» in a generalisation is best rendered by \"tend to\", the classic academic hedge for patterns that are not universal.",
+            explanation: "«Soler» in a generalization is best rendered by \"tend to\", the classic academic hedge for patterns that are not universal.",
           },
           {
             type: "fill-blank",
@@ -1674,10 +1674,10 @@ export const EN_C2_U26: Lesson[] = [
             type: "multiple-choice",
             question: "Which booster is most appropriate in a formal paper, right after presenting a table that supports the claim?",
             options: [
-              "As Table 1 clearly shows, enrolment rose by 40%.",
-              "Obviously everybody knows that enrolment rose by 40%.",
-              "It is totally evident without any doubt that enrolment rose by 40%.",
-              "Enrolment rose by 40%, for sure.",
+              "As Table 1 clearly shows, enrollment rose by 40%.",
+              "Obviously everybody knows that enrollment rose by 40%.",
+              "It is totally evident without any doubt that enrollment rose by 40%.",
+              "Enrollment rose by 40%, for sure.",
             ],
             correctIndex: 0,
             explanation: "\"Clearly\" tied to visible evidence is the standard academic booster. The others are too informal or pile up boosters.",
@@ -1688,7 +1688,7 @@ export const EN_C2_U26: Lesson[] = [
         heading: "Overhedging and editing an abstract",
         body: [
           "Stacking hedges is a common fault in learners' writing: *It might possibly be suggested that the results could perhaps indicate... One hedge per claim is usually enough, two at most (\"The results suggest that X may...\"). Each extra hedge makes the writer sound unsure of their own work.",
-          "When you edit, ask three questions about each claim: How strong is my evidence? Is this my finding or established knowledge? Am I generalising beyond my sample? Strong evidence and established facts take neutral verbs or boosters; your own new findings take one hedge; generalisations beyond the sample take a hedge plus a limit of scope (\"in this population\", \"under these conditions\").",
+          "When you edit, ask three questions about each claim: How strong is my evidence? Is this my finding or established knowledge? Am I generalizing beyond my sample? Strong evidence and established facts take neutral verbs or boosters; your own new findings take one hedge; generalisations beyond the sample take a hedge plus a limit of scope (\"in this population\", \"under these conditions\").",
           "Compare an overclaimed sentence, \"Our study proves that remote work increases productivity\", with a calibrated one: \"Our findings indicate that, in this sample, remote work was associated with higher productivity.\" Note \"was associated with\", which avoids claiming causation.",
         ],
         examples: [
@@ -1810,7 +1810,7 @@ export const EN_C2_U26: Lesson[] = [
           { left: "it is well established that", right: "está bien establecido que" },
           { left: "broadly speaking", right: "a grandes rasgos" },
         ],
-        explanation: "The first three hedge, the fourth boosts, and \"broadly speaking\" limits the scope of a generalisation.",
+        explanation: "The first three hedge, the fourth boosts, and \"broadly speaking\" limits the scope of a generalization.",
       },
       {
         type: "translate",
@@ -1841,7 +1841,7 @@ export const EN_C2_U26: Lesson[] = [
         answer: "tend to",
         altAnswers: ["generally", "usually", "typically", "often"],
         en: "Los adultos mayores [suelen] dormir menos que los jóvenes.",
-        explanation: "\"Tend to\" turns a generalisation into a pattern rather than a universal rule.",
+        explanation: "\"Tend to\" turns a generalization into a pattern rather than a universal rule.",
       },
       {
         type: "word-order",
@@ -1858,11 +1858,11 @@ export const EN_C2_U26: Lesson[] = [
         rubric: [
           "Replaces \"proves\" and \"causes\" with hedged, non-causal language (suggest, be associated with).",
           "Limits the scope to the sample (one school, 200 students).",
-          "Removes the overgeneralisation \"all teenagers\".",
+          "Removes the overgeneralization \"all teenagers\".",
           "Turns the policy demand into a cautious implication or call for further research.",
           "Does not stack more than two hedges on any single claim.",
         ],
-        modelAnswer: "This study examined the relationship between social media use and anxiety among teenagers. We surveyed 200 students at a single secondary school. The results suggest that heavy social media use is associated with higher levels of self-reported anxiety, particularly among younger students. However, the design does not allow us to establish causation, and the sample may not be representative of the wider population. These findings indicate that schools could consider guidance on phone use, but further research, ideally longitudinal and across several schools, is needed before firm policy recommendations can be made.",
+        modelAnswer: "This study examined the relationship between social media use and anxiety among teenagers. We surveyed 200 students at a single high school. The results suggest that heavy social media use is associated with higher levels of self-reported anxiety, particularly among younger students. However, the design does not allow us to establish causation, and the sample may not be representative of the wider population. These findings indicate that schools could consider guidance on phone use, but further research, ideally longitudinal and across several schools, is needed before firm policy recommendations can be made.",
         explanation: "The rewrite keeps the finding but hedges it once (\"suggest\", \"is associated with\"), limits the scope, and replaces the demand with a cautious implication.",
       },
       {
@@ -1913,7 +1913,7 @@ export const EN_C2_U26: Lesson[] = [
             question: "Which hook is best for a popular-science explainer about a study on sleep and memory?",
             options: [
               "What if the secret to a better memory were simply an extra hour in bed?",
-              "This paper analyses sleep-dependent memory consolidation in a cohort of 64 adults.",
+              "This paper analyzes sleep-dependent memory consolidation in a cohort of 64 adults.",
               "Sleep is very important and everybody needs it.",
               "Scientists have finally proved that sleeping cures forgetfulness.",
             ],
@@ -1941,7 +1941,7 @@ export const EN_C2_U26: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Un estudio relaciona el uso nocturno del móvil con un peor descanso.",
+            source: "Un estudio relaciona el uso nocturno del celular con un peor descanso.",
             answer: "Study links nighttime phone use to poorer sleep.",
             altAnswers: alts(
               ["Study links", "A study links", "New study links"],
@@ -2276,8 +2276,9 @@ export const EN_C2_U26: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The results remained robust after controlling ___ age and income.",
-        answer: "for",
+        sentence: "The results remained robust after ___ age and income.",
+        answer: "controlling for",
+        altAnswers: ["adjusting for"],
         en: "Los resultados se mantuvieron sólidos tras [controlar] la edad y los ingresos.",
         explanation: "In statistics a researcher \"controls for\" or \"adjusts for\" a variable; without \"for\" the verb means to dominate or manage.",
       },

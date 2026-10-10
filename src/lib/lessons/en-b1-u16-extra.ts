@@ -48,7 +48,7 @@ export const EN_B1_U16_EXTRA: Lesson[] = [
           "The relative word is already the subject, so don't repeat it: *the people who they live here should be \"the people who live here\". And check the verb: \"the woman who lives\" but \"the people who live\".",
         ],
         examples: [
-          { es: "The car that I bought is red.", en: "El coche que compré es rojo." },
+          { es: "The car that I bought is red.", en: "El carro que compré es rojo." },
           { es: "The people who live here are quiet.", en: "La gente que vive aquí es tranquila." },
           { es: "The girl who sits next to me is Irish.", en: "La chica que se sienta a mi lado es irlandesa." },
         ],
@@ -251,7 +251,7 @@ export const EN_B1_U16_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "The man who sold me the car was very honest.",
-        explanation: "\"Who sold me the car\" tells us which man. Notice the silent h in \"honest\". «El hombre que me vendió el coche era muy honrado.»",
+        explanation: "\"Who sold me the car\" tells us which man. Notice the silent h in \"honest\". «El hombre que me vendió el carro era muy honrado.»",
       },
     ],
   },
@@ -552,7 +552,7 @@ export const EN_B1_U16_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: whose + noun",
         body: [
-          "\"Whose\" shows possession and is always followed by a noun: \"the woman whose car was stolen\" («la mujer a la que le robaron el coche», «cuyo coche»). Spanish often avoids «cuyo» in speech, but English uses \"whose\" all the time.",
+          "\"Whose\" shows possession and is always followed by a noun: \"the woman whose car was stolen\" («la mujer a la que le robaron el carro», «cuyo carro»). Spanish often avoids «cuyo» in speech, but English uses \"whose\" all the time.",
           "Don't build it with \"who\" + a possessive: *the woman who her car was stolen. \"Whose\" replaces both words.",
           "\"Who's\" sounds the same but means \"who is\" or \"who has\": \"Who's that?\" Never write *the man who's car.",
         ],
@@ -714,7 +714,7 @@ export const EN_B1_U16_EXTRA: Lesson[] = [
         type: "matching",
         instructions: "Match the English with the Spanish.",
         pairs: [
-          { left: "whose car", right: "cuyo coche" },
+          { left: "whose car", right: "cuyo carro" },
           { left: "who's there", right: "quién está ahí" },
           { left: "who has won", right: "quién ha ganado" },
           { left: "whose keys", right: "de quién son las llaves" },
@@ -725,10 +725,10 @@ export const EN_B1_U16_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ayudamos a un hombre cuyo coche se había averiado.",
+        source: "Ayudamos a un hombre cuyo carro se había averiado.",
         answer: "We helped a man whose car had broken down.",
         altAnswers: ["We helped a man whose car broke down."],
-        explanation: "«Averiarse» is \"break down\". \"Whose car\" = «cuyo coche».",
+        explanation: "«Averiarse» is \"break down\". \"Whose car\" = «cuyo carro».",
       },
       {
         type: "fill-blank",
@@ -764,7 +764,7 @@ export const EN_B1_U16_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "I have a neighbor whose cat sleeps on my car.",
-        explanation: "\"Whose cat\" = «cuyo gato». Remember the -s in \"sleeps\". «Tengo un vecino cuyo gato duerme encima de mi coche.»",
+        explanation: "\"Whose cat\" = «cuyo gato». Remember the -s in \"sleeps\". «Tengo un vecino cuyo gato duerme encima de mi carro.»",
       },
     ],
   },
@@ -986,7 +986,7 @@ export const EN_B1_U16_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The man ___ I sold my car was very rude.",
         answer: "to whom",
-        en: "El hombre [al que] le vendí mi coche era muy maleducado.",
+        en: "El hombre [al que] le vendí mi carro era muy maleducado.",
         explanation: "With the preposition in front, people take \"whom\": \"to whom\". Everyday version: \"the man I sold my car to\".",
       },
       {

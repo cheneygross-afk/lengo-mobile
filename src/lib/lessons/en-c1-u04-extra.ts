@@ -31,7 +31,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
           { es: "Will it be expensive? I'm afraid so.", en: "¿Será caro? Me temo que sí." },
           { es: "Will they cancel the flight? I hope not.", en: "¿Cancelarán el vuelo? Espero que no." },
           { es: "You're late again. I know, I'm sorry.", en: "Llegas tarde otra vez. Ya lo sé, lo siento." },
-          { es: "Are you free on Friday? If so, let's meet.", en: "¿Estás libre el viernes? Si es así, quedamos." },
+          { es: "Are you free on Friday? If so, let's meet.", en: "¿Estás libre el viernes? Si es así, nos vemos." },
         ],
         checkpoint: [
           {
@@ -44,7 +44,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "Has the meeting been cancelled? I'm afraid ___.",
+            sentence: "Has the meeting been canceled? I'm afraid ___.",
             answer: "so",
             en: "¿Se ha cancelado la reunión? Me temo que [sí].",
             explanation: "«Me temo que sí» is \"I'm afraid so\". The negative would be \"I'm afraid not\".",
@@ -170,7 +170,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Are you free tomorrow? If ___, we can meet for lunch.",
         answer: "so",
-        en: "¿Estás libre mañana? Si [es así], podemos quedar para comer.",
+        en: "¿Estás libre mañana? Si [es así], podemos vernos para comer.",
         explanation: "\"If so\" replaces the whole clause «si estás libre». The negative is \"if not\".",
       },
       {
@@ -224,7 +224,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "I'm afraid so. The flight has been cancelled.",
+        audio: "I'm afraid so. The flight has been canceled.",
         explanation: "\"I'm afraid so\" gives bad news politely.",
       },
       {
@@ -372,7 +372,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Estas galletas están buenísimas; ¿puedo coger otra?",
+        source: "Estas galletas están buenísimas; ¿puedo tomar otra?",
         answer: "These cookies are delicious; can I have another one?",
         altAnswers: [
           "These cookies are delicious. Can I have another one?",
@@ -463,7 +463,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi coche es más viejo que el de mi hermano.",
+        source: "Mi carro es más viejo que el de mi hermano.",
         answer: "My car is older than my brother's.",
         altAnswers: ["My car is older than my brother's car."],
         explanation: "«El de mi hermano» is \"my brother's\". *The one of my brother is a calque.",
@@ -522,7 +522,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
           { es: "She can't swim, but I can.", en: "Ella no sabe nadar, pero yo sí." },
           { es: "He didn't go to the meeting, but I did.", en: "Él no fue a la reunión, pero yo sí." },
           { es: "I haven't read it, but Tom has.", en: "Yo no lo he leído, pero Tom sí." },
-          { es: "Was he angry? He might have been.", en: "¿Estaba enfadado? Puede que sí." },
+          { es: "Was he angry? He might have been.", en: "¿Estaba enojado? Puede que sí." },
           { es: "They weren't invited, but we were.", en: "Ellos no estaban invitados, pero nosotros sí." },
         ],
         checkpoint: [
@@ -698,7 +698,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«—¿Estaba enfadado? —Puede que lo estuviera.» Which reply is correct?",
+        question: "«—¿Estaba enojado? —Puede que lo estuviera.» Which reply is correct?",
         options: ["He might have been.", "He might have.", "He might be it.", "He might been."],
         correctIndex: 0,
         explanation: "The verb is \"be\", so keep \"been\": \"He might have been\".",
@@ -766,7 +766,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "The council closed the library. This angered local residents.", en: "El ayuntamiento cerró la biblioteca. Esto indignó a los vecinos." },
-          { es: "He failed the exam, which surprised everyone.", en: "Suspendió el examen, lo cual sorprendió a todos." },
+          { es: "He failed the exam, which surprised everyone.", en: "Reprobó el examen, lo cual sorprendió a todos." },
           { es: "If that's the case, we'll have to wait.", en: "Si ese es el caso, tendremos que esperar." },
           { es: "She refused to apologize, which made things worse.", en: "Se negó a disculparse, lo que empeoró las cosas." },
         ],
@@ -819,7 +819,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Suspendió el examen, lo cual me sorprendió.",
+        source: "Reprobó el examen, lo cual me sorprendió.",
         answer: "He failed the exam, which surprised me.",
         altAnswers: [
           "She failed the exam, which surprised me.",
@@ -834,7 +834,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
         sentence: "The company cut salaries by 10%. ___ decision caused anger among staff.",
         answer: "This",
         altAnswers: ["That"],
-        en: "La empresa recortó los sueldos un 10 %. [Esta] decisión provocó indignación entre la plantilla.",
+        en: "La empresa recortó los sueldos un 10 %. [Esta] decisión provocó indignación entre el personal.",
         explanation: "\"This\" + a summarizing noun (\"this decision\") points back clearly to the whole previous sentence.",
       },
       {

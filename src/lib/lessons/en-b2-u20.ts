@@ -581,14 +581,14 @@ export const EN_B2_U20: Lesson[] = [
           { es: "The meeting isn't on Monday, it's on Tuesday.", en: "La reunión no es el lunes, es el martes." },
           { es: "I said fifteen, not fifty.", en: "Dije quince, no cincuenta." },
           { es: "It's not that I don't like her. It's that I don't trust her.", en: "No es que no me caiga bien. Es que no me fío de ella." },
-          { es: "It was the blue car that hit us, not the red one.", en: "Fue el coche azul el que nos chocó, no el rojo." },
+          { es: "It was the blue car that hit us, not the red one.", en: "Fue el carro azul el que nos chocó, no el rojo." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "No es que esté enfadado; es que estoy cansado.",
+            source: "No es que esté enojado; es que estoy cansado.",
             answer: "It's not that I'm angry; it's that I'm tired.",
             altAnswers: [
               "It isn't that I'm angry; it's that I'm tired.",
@@ -612,7 +612,7 @@ export const EN_B2_U20: Lesson[] = [
           { es: "I was listening! You said nine o'clock.", en: "¡Que sí te escuchaba! Dijiste a las nueve." },
           { es: "I do like the house, but it's too expensive.", en: "La casa sí me gusta, pero es demasiado cara." },
           { es: "She does work hard. She's just slow.", en: "Sí que trabaja mucho. Lo que pasa es que es lenta." },
-          { es: "I can drive! I just don't like it.", en: "¡Sí sé conducir! Es que no me gusta." },
+          { es: "I can drive! I just don't like it.", en: "¡Sí sé manejar! Es que no me gusta." },
         ],
         checkpoint: [
           {
@@ -819,7 +819,7 @@ export const EN_B2_U20: Lesson[] = [
         examples: [
           { es: "He's too young to vote.", en: "Es demasiado joven para votar." },
           { es: "This coffee is too hot for me to drink.", en: "Este café está demasiado caliente para que me lo tome." },
-          { es: "The car was too expensive.", en: "El coche era demasiado caro." },
+          { es: "The car was too expensive.", en: "El carro era demasiado caro." },
           { es: "It's way too expensive.", en: "Es carísimo, demasiado caro." },
           { es: "There's too much sugar in this cake.", en: "Este pastel tiene demasiado azúcar." },
           { es: "The box was too heavy to lift.", en: "La caja pesaba demasiado para levantarla." },
@@ -859,7 +859,7 @@ export const EN_B2_U20: Lesson[] = [
           "\"Not + adjective + enough\" is often the polite version of \"too\": \"He's too young to vote\" means the same as \"He isn't old enough to vote\".",
         ],
         examples: [
-          { es: "She's old enough to drive.", en: "Tiene edad suficiente para conducir." },
+          { es: "She's old enough to drive.", en: "Tiene edad suficiente para manejar." },
           { es: "He isn't old enough to vote.", en: "No tiene edad para votar." },
           { es: "We don't have enough time.", en: "No tenemos suficiente tiempo." },
           { es: "The table is big enough for six people.", en: "La mesa es lo bastante grande para seis personas." },
@@ -872,7 +872,7 @@ export const EN_B2_U20: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "My sister isn't ___ to drive yet.",
             answer: "old enough",
-            en: "Mi hermana todavía no tiene [edad suficiente] para conducir.",
+            en: "Mi hermana todavía no tiene [edad suficiente] para manejar.",
             explanation: "\"Enough\" follows the adjective: \"old enough\". *Enough old is wrong.",
           },
           {
@@ -973,7 +973,7 @@ export const EN_B2_U20: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No tengo suficiente dinero para comprar un coche.",
+        source: "No tengo suficiente dinero para comprar un carro.",
         answer: "I don't have enough money to buy a car.",
         altAnswers: ["I haven't got enough money to buy a car.", "I don't have enough money for a car."],
         explanation: "Before a noun, \"enough\" comes first: \"enough money\". Then the to-infinitive: \"to buy\".",
@@ -1002,7 +1002,7 @@ export const EN_B2_U20: Lesson[] = [
         pairs: [
           { left: "too expensive", right: "demasiado caro" },
           { left: "too much sugar", right: "demasiado azúcar" },
-          { left: "too many cars", right: "demasiados coches" },
+          { left: "too many cars", right: "demasiados carros" },
           { left: "cheap enough", right: "lo bastante barato" },
           { left: "enough money", right: "suficiente dinero" },
         ],
@@ -1045,7 +1045,7 @@ export const EN_B2_U20: Lesson[] = [
           { es: "hungry / starving", en: "con hambre / muerto de hambre" },
           { es: "big / huge", en: "grande / enorme" },
           { es: "small / tiny", en: "pequeño / diminuto" },
-          { es: "angry / furious", en: "enfadado / furioso" },
+          { es: "angry / furious", en: "enojado / furioso" },
           { es: "funny / hilarious", en: "gracioso / desternillante" },
           { es: "scared / terrified", en: "asustado / aterrorizado" },
         ],
@@ -1374,7 +1374,7 @@ export const EN_B2_U20: Lesson[] = [
           "\"Very exhausted\", \"very delicious\": extreme adjectives take \"absolutely\" or \"really\". \"Absolutely tired\": gradable adjectives take \"very\" or \"extremely\".",
         ],
         examples: [
-          { es: "He's not old enough to drive.", en: "No tiene edad para conducir. (incorrecto: *enough old)" },
+          { es: "He's not old enough to drive.", en: "No tiene edad para manejar. (incorrecto: *enough old)" },
           { es: "It's too expensive.", en: "Es demasiado caro. (incorrecto: *too much expensive)" },
           { es: "The paella was absolutely delicious.", en: "La paella estaba buenísima. (incorrecto: *very delicious)" },
           { es: "I'm very tired.", en: "Estoy muy cansado. (incorrecto: *absolutely tired)" },
@@ -2315,7 +2315,7 @@ export const EN_B2_U20: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No tengo edad suficiente para alquilar un coche.",
+        source: "No tengo edad suficiente para alquilar un carro.",
         answer: "I'm not old enough to rent a car.",
         altAnswers: ["I'm too young to rent a car.", "I'm not old enough to hire a car.", "I'm too young to hire a car."],
         explanation: "Adjective + \"enough\": \"old enough\".",

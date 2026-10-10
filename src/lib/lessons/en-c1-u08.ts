@@ -201,7 +201,7 @@ export const EN_C1_U08: Lesson[] = [
         sentence: "I'd rather you ___ the car tonight.",
         answer: "didn't take",
         altAnswers: ["did not take", "didn't use", "did not use"],
-        en: "Preferiría que [no te llevaras] el coche esta noche.",
+        en: "Preferiría que [no te llevaras] el carro esta noche.",
         explanation: "\"Would rather\" + another person + past simple: \"you didn't take\". The present (*you don't take) is the typical calque.",
       },
       {
@@ -263,7 +263,7 @@ export const EN_C1_U08: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["She", "looked", "as", "though", "she", "hadn't", "slept", "for", "days."],
-        translation: "Tenía pinta de no haber dormido en días.",
+        translation: "Parecía que no había dormido en días.",
         explanation: "\"As though\" + past perfect compares with an earlier, imaginary event: \"as though she hadn't slept\".",
       },
       {
@@ -290,7 +290,7 @@ export const EN_C1_U08: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "It's about time they ___ us the truth.",
         answer: "told",
-        altAnswers: ["gave"],
+        altAnswers: [],
         en: "Ya era hora de que nos [dijeran] la verdad.",
         explanation: "\"It's about time\" + past simple, with an impatient tone: they should have done it already.",
       },
@@ -331,7 +331,7 @@ export const EN_C1_U08: Lesson[] = [
           "Careful with «siempre que»: it can also mean \"whenever\" («cada vez que»). «Siempre que viene, trae flores» is \"Whenever she comes, she brings flowers\", not \"as long as\".",
         ],
         examples: [
-          { es: "You can borrow the car as long as you bring it back by ten.", en: "Puedes llevarte el coche siempre que lo devuelvas antes de las diez." },
+          { es: "You can borrow the car as long as you bring it back by ten.", en: "Puedes llevarte el carro siempre que lo devuelvas antes de las diez." },
           { es: "I'll lend you the money, provided you pay me back next month.", en: "Te presto el dinero con tal de que me lo devuelvas el mes que viene." },
           { es: "Providing the weather is good, we'll eat outside.", en: "Si hace buen tiempo, comeremos fuera." },
           { es: "He was released on condition that he report to the police every week.", en: "Lo pusieron en libertad a condición de que se presentara ante la policía cada semana." },
@@ -417,7 +417,7 @@ export const EN_C1_U08: Lesson[] = [
         examples: [
           { es: "But for your help, we would have failed.", en: "De no ser por tu ayuda, habríamos fracasado." },
           { es: "If it hadn't been for the rain, we'd have won.", en: "Si no hubiera sido por la lluvia, habríamos ganado." },
-          { es: "Hurry up, otherwise we'll miss the train.", en: "Date prisa; si no, perderemos el tren." },
+          { es: "Hurry up, otherwise we'll miss the train.", en: "Apúrate; si no, perderemos el tren." },
           { es: "I had a map; otherwise I would have got lost.", en: "Tenía un mapa; de lo contrario, me habría perdido." },
           { es: "Write it down, or else you'll forget.", en: "Apúntalo, que si no se te olvida." },
         ],
@@ -565,9 +565,9 @@ export const EN_C1_U08: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Si no hubiera sido por el GPS, nos habríamos perdido.",
-        answer: "If it hadn't been for the GPS, we would have got lost.",
+        answer: "If it hadn't been for the GPS, we would have gotten lost.",
         altAnswers: [
-          "If it hadn't been for the GPS, we would have gotten lost.",
+          "If it hadn't been for the GPS, we would have got lost.",
           "But for the GPS, we would have got lost.",
           "But for the GPS, we would have gotten lost.",
           "Without the GPS, we would have got lost.",
@@ -658,7 +658,7 @@ export const EN_C1_U08: Lesson[] = [
           "Notice how \"It's time we admitted\" is both a suggestion and a mild criticism: we should already have said it. In Spanish, the same tone would come from «ya va siendo hora de que reconozcamos...».",
         ],
         examples: [
-          { es: "What if we brought in a freelancer?", en: "¿Y si contratáramos a un autónomo?" },
+          { es: "What if we brought in a freelancer?", en: "¿Y si contratáramos a un trabajador independiente?" },
           { es: "Suppose we did. Who would manage them?", en: "Pongamos que lo hacemos. ¿Quién lo gestionaría?" },
           { es: "It's time we admitted the deadline is unrealistic.", en: "Ya va siendo hora de que reconozcamos que el plazo no es realista." },
           { es: "Supposing we offered them a discount?", en: "¿Y si les ofreciéramos un descuento?" },
@@ -699,7 +699,7 @@ export const EN_C1_U08: Lesson[] = [
           { es: "I'd rather we didn't mention it to the client.", en: "Preferiría que no se lo mencionáramos al cliente." },
           { es: "It's about time they fixed the lift.", en: "Ya era hora de que arreglaran el ascensor." },
           { es: "About time!", en: "¡Ya era hora!" },
-          { es: "It was as if we had three flatmates, not two.", en: "Era como si tuviéramos tres compañeros de piso, no dos." },
+          { es: "It was as if we had three flatmates, not two.", en: "Era como si tuviéramos tres compañeros de departamento, no dos." },
         ],
         checkpoint: [
           {
@@ -942,8 +942,8 @@ export const EN_C1_U08: Lesson[] = [
         ],
         examples: [
           { es: "You can stay as long as you like.", en: "Puedes quedarte todo el tiempo que quieras." },
-          { es: "I'll take a sweater in case it gets cold.", en: "Me llevaré un jersey por si refresca." },
-          { es: "Even though he apologized, she was still angry.", en: "Aunque se disculpó, ella seguía enfadada." },
+          { es: "I'll take a sweater in case it gets cold.", en: "Me llevaré un suéter por si refresca." },
+          { es: "Even though he apologized, she was still angry.", en: "Aunque se disculpó, ella seguía enojada." },
         ],
       },
     ],
@@ -1055,7 +1055,7 @@ export const EN_C1_U08: Lesson[] = [
         sentence: "Keep the receipt ___ you need to return it.",
         answer: "in case",
         altAnswers: ["just in case"],
-        en: "Guarda el tique [por si] tienes que devolverlo.",
+        en: "Guarda el recibo [por si] tienes que devolverlo.",
         explanation: "«Por si» is \"in case\": a precaution taken now. Review Part 2, section 4.",
       },
       {
@@ -1165,7 +1165,7 @@ export const EN_C1_U08: Lesson[] = [
           { es: "It is essential that she attend the meeting.", en: "Es imprescindible que asista a la reunión." },
           { es: "I suggest that he be informed immediately.", en: "Sugiero que se le informe de inmediato." },
           { es: "They insisted that we not tell anyone.", en: "Insistieron en que no se lo dijéramos a nadie." },
-          { es: "The board demanded that the CEO resign.", en: "El consejo exigió que el consejero delegado dimitiera." },
+          { es: "The board demanded that the CEO resign.", en: "El consejo exigió que el director ejecutivo renunciara." },
         ],
         checkpoint: [
           {
@@ -1578,7 +1578,7 @@ export const EN_C1_U08: Lesson[] = [
         ],
         examples: [
           { es: "Even so, we still need the money.", en: "Aun así, seguimos necesitando el dinero." },
-          { es: "Fine. If they want to leave, let them.", en: "Vale. Si quieren irse, que se vayan." },
+          { es: "Fine. If they want to leave, let them.", en: "De acuerdo. Si quieren irse, que se vayan." },
           { es: "We can work at the weekend if necessary.", en: "Podemos trabajar el fin de semana si es necesario." },
           { es: "Let's just say the party got out of hand.", en: "Digamos que la fiesta se descontroló." },
         ],
@@ -1820,7 +1820,7 @@ export const EN_C1_U08: Lesson[] = [
         examples: [
           { es: "They asked that he leave the room.", en: "Pidieron que saliera de la sala. (formal)" },
           { es: "They asked him to leave the room.", en: "Le pidieron que saliera de la sala." },
-          { es: "The manager urged us to hurry.", en: "El jefe nos instó a darnos prisa." },
+          { es: "The manager urged us to hurry.", en: "El jefe nos instó a apurarnos." },
           { es: "The manager suggested that we hurry.", en: "El jefe sugirió que nos diéramos prisa." },
           { es: "It is essential for every candidate to bring ID.", en: "Es imprescindible que todos los candidatos traigan su documento de identidad." },
         ],
@@ -1848,7 +1848,7 @@ export const EN_C1_U08: Lesson[] = [
           "Finally, after \"hope\" and \"want\" English never uses a subjunctive: \"I hope he comes\", \"I want you to come\" (not *I want that you come, a frequent calque of «quiero que vengas»).",
         ],
         examples: [
-          { es: "The report suggests that costs have risen.", en: "El informe indica que los costes han subido." },
+          { es: "The report suggests that costs have risen.", en: "El informe indica que los costos han subido." },
           { es: "He insisted that he hadn't been told.", en: "Insistió en que no se lo habían dicho." },
           { es: "Could you give them a call?", en: "¿Puedes llamarlos?" },
           { es: "I hope he comes.", en: "Espero que venga." },
@@ -2402,7 +2402,7 @@ export const EN_C1_U08: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "At that time she was only a waitress, but she ___ one of the country's top chefs.",
             answer: "was to become",
-            en: "Por aquel entonces solo era camarera, pero [llegaría a ser] una de las mejores chefs del país.",
+            en: "Por aquel entonces solo era mesera, pero [llegaría a ser] una de las mejores chefs del país.",
             altAnswers: ["would become", "would go on to become", "went on to become", "was to go on to become"],
             explanation: "\"Was to\" + base form for destiny in a narrative: what the future held, seen from the past. \"Would become\" is also correct.",
           },
@@ -2531,7 +2531,7 @@ export const EN_C1_U08: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Pensaba que no iba a aprobar, pero aprobé con nota.",
+        source: "Pensaba que no iba a aprobar, pero aprobé con muy buena calificación.",
         answer: "I thought I wasn't going to pass, but I passed with flying colors.",
         altAnswers: [
           "I thought I wouldn't pass, but I passed with flying colors.",
@@ -2595,9 +2595,9 @@ export const EN_C1_U08: Lesson[] = [
           "\"Suggest\" + to-infinitive is also wrong: *She suggested to take a taxi. A Spanish speaker's safest habit: after \"suggest\", think \"-ing\" or \"that\".",
         ],
         examples: [
-          { es: "She suggested taking a taxi.", en: "Propuso coger un taxi." },
-          { es: "She suggested that we take a taxi.", en: "Sugirió que cogiéramos un taxi." },
-          { es: "She suggested I take a taxi.", en: "Me sugirió que cogiera un taxi." },
+          { es: "She suggested taking a taxi.", en: "Propuso tomar un taxi." },
+          { es: "She suggested that we take a taxi.", en: "Sugirió que tomáramos un taxi." },
+          { es: "She suggested I take a taxi.", en: "Me sugirió que tomara un taxi." },
           { es: "Can you suggest a good hotel?", en: "¿Me puedes recomendar un buen hotel?" },
           { es: "He suggested a new approach to the team.", en: "Le sugirió al equipo un nuevo enfoque." },
         ],
@@ -2693,10 +2693,10 @@ export const EN_C1_U08: Lesson[] = [
             type: "multiple-choice",
             question: "What does \"How do you propose to get there without a car?\" mean?",
             options: [
-              "¿Y cómo piensas llegar allí sin coche?",
-              "¿Qué propones para llegar allí sin coche?",
-              "¿Me propones ir allí sin coche?",
-              "¿Propones que vayamos sin coche?",
+              "¿Y cómo piensas llegar allí sin carro?",
+              "¿Qué propones para llegar allí sin carro?",
+              "¿Me propones ir allí sin carro?",
+              "¿Propones que vayamos sin carro?",
             ],
             correctIndex: 0,
             explanation: "\"Propose to\" + infinitive means «pensar», «tener la intención de». The question often sounds sceptical.",
@@ -2945,7 +2945,7 @@ export const EN_C1_U08: Lesson[] = [
         examples: [
           { es: "He talks as if he knew everything.", en: "Habla como si lo supiera todo. (y no lo sabe)" },
           { es: "It looks as if it's going to rain.", en: "Parece que va a llover. (es probable)" },
-          { es: "You look as if you need a holiday.", en: "Tienes pinta de necesitar unas vacaciones." },
+          { es: "You look as if you need a holiday.", en: "Parece que necesitas unas vacaciones." },
         ],
         checkpoint: [
           {
@@ -3061,7 +3061,7 @@ export const EN_C1_U08: Lesson[] = [
           "Hurry up, otherwise you'll miss the bus.",
         ],
         correctIndex: 0,
-        explanation: "\"Unless\" already contains the negative, so the extra \"don't\" reverses the meaning. It is a calque of «si no te das prisa».",
+        explanation: "\"Unless\" already contains the negative, so the extra \"don't\" reverses the meaning. It is a calque of «si no te apuras».",
       },
       {
         type: "translate",
@@ -3205,9 +3205,9 @@ export const EN_C1_U08: Lesson[] = [
           "Strategy: identify the structure the key word needs (UNLESS: affirmative verb; RATHER: past tense; BUT FOR: noun phrase), check what the first sentence really means, and count your words. Contractions count as two words in the exam.",
         ],
         examples: [
-          { es: "If you don't hurry, you'll be late.", en: "Si no te das prisa, llegarás tarde." },
+          { es: "If you don't hurry, you'll be late.", en: "Si no te apuras, llegarás tarde." },
           { es: "Unless you hurry, you'll be late.", en: "A menos que te des prisa, llegarás tarde." },
-          { es: "Hurry, otherwise you'll be late.", en: "Date prisa; si no, llegarás tarde." },
+          { es: "Hurry, otherwise you'll be late.", en: "Apúrate; si no, llegarás tarde." },
         ],
         checkpoint: [
           {
@@ -3259,7 +3259,7 @@ export const EN_C1_U08: Lesson[] = [
           "AS IF: \"He isn't the boss, but he behaves like one\" becomes \"He behaves as if he were the boss\". SUPPOSE: \"What would you do if...?\" becomes \"Suppose you..., what would you do?\". In each case, the tense of the gapped part is the key point being tested.",
         ],
         examples: [
-          { es: "I'd rather you didn't smoke in the car.", en: "Preferiría que no fumaras en el coche." },
+          { es: "I'd rather you didn't smoke in the car.", en: "Preferiría que no fumaras en el carro." },
           { es: "It's high time you started revising.", en: "Ya va siendo hora de que empieces a repasar." },
           { es: "He behaves as if he were the boss.", en: "Se comporta como si fuera el jefe." },
           { es: "Suppose you lost your passport. What would you do?", en: "Pongamos que perdieras el pasaporte. ¿Qué harías?" },
@@ -3271,7 +3271,7 @@ export const EN_C1_U08: Lesson[] = [
             sentence: "I'd prefer you not to smoke in the car. / I'd ___ in the car.",
             answer: "rather you didn't smoke",
             altAnswers: ["rather you did not smoke"],
-            en: "[Preferiría que no fumaras] en el coche.",
+            en: "[Preferiría que no fumaras] en el carro.",
             explanation: "\"Would rather\" + different subject + past simple: \"you didn't smoke\".",
           },
           {
@@ -3494,10 +3494,10 @@ export const EN_C1_U08: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ojalá no hubiera vendido el piso.",
-        answer: "I wish I hadn't sold the flat.",
+        source: "Ojalá no hubiera vendido el departamento.",
+        answer: "I wish I hadn't sold the apartment.",
         altAnswers: [
-          "I wish I hadn't sold the apartment.",
+          "I wish I hadn't sold the flat.",
           "I wish I had not sold the flat.",
           "I wish I had not sold the apartment.",
           "If only I hadn't sold the flat.",
@@ -3538,14 +3538,14 @@ export const EN_C1_U08: Lesson[] = [
         sentence: "___ earlier, we would have caught the train.",
         answer: "Had we left",
         altAnswers: ["If we had left", "If we'd left", "Had we set off", "If we had set off"],
-        en: "[Si hubiéramos salido] antes, habríamos cogido el tren.",
+        en: "[Si hubiéramos salido] antes, habríamos tomado el tren.",
         explanation: "The formal inverted third conditional drops \"if\": \"Had we left\" = \"If we had left\".",
       },
       {
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "A ver si dejas de mirar el móvil mientras hablo.",
+        source: "A ver si dejas de mirar el celular mientras hablo.",
         answer: "I wish you would stop looking at your phone while I'm talking.",
         altAnswers: [
           "I wish you'd stop looking at your phone while I'm talking.",
@@ -3578,7 +3578,7 @@ export const EN_C1_U08: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si fuera más organizado, no habría perdido los billetes.",
+        source: "Si fuera más organizado, no habría perdido los boletos.",
         answer: "If I were more organized, I wouldn't have lost the tickets.",
         altAnswers: [
           "If I was more organized, I wouldn't have lost the tickets.",
@@ -3656,7 +3656,7 @@ export const EN_C1_U08: Lesson[] = [
         question: "What does the speaker want?",
         options: [
           "Que ella llame (y le molesta que no lo haga).",
-          "Haber llamado a ella antes.",
+          "Haberla llamado antes.",
           "Que ella no hubiera llamado.",
           "Llamarla él mismo.",
         ],
@@ -3807,7 +3807,7 @@ export const EN_C1_U08: Lesson[] = [
       {
         heading: "Crimes and loopholes",
         body: [
-          "\"Fraud\" («fraude», «estafa») is uncountable as a crime: \"He was convicted of fraud\". The person is \"a fraudster\" or, informally, \"a con artist\". Other key crimes: \"theft\" («robo», «hurto»), \"robbery\" («atraco», «robo con violencia»), \"burglary\" («robo en una vivienda»), \"bribery\" («soborno»), \"money laundering\" («blanqueo de capitales»).",
+          "\"Fraud\" («fraude», «estafa») is uncountable as a crime: \"He was convicted of fraud\". The person is \"a fraudster\" or, informally, \"a con artist\". Other key crimes: \"theft\" («robo», «hurto»), \"robbery\" («atraco», «robo con violencia»), \"burglary\" («robo en una vivienda»), \"bribery\" («soborno»), \"money laundering\" («lavado de dinero»).",
           "A \"loophole\" is «un vacío legal» or «una laguna legal»: a gap in the law that lets people avoid it legally. \"Tax loophole\", \"close a loophole\", \"exploit a loophole\".",
           "Collocations matter at the Advanced level: you \"commit\" a crime (not *make or *do), \"break\" the law, \"face\" charges, \"file\" a lawsuit, \"settle out of court\" («llegar a un acuerdo extrajudicial»), \"appeal\" a decision («recurrir»).",
         ],
@@ -3817,7 +3817,7 @@ export const EN_C1_U08: Lesson[] = [
           { es: "The government has promised to close the loophole.", en: "El gobierno ha prometido cerrar la laguna legal." },
           { es: "They settled out of court.", en: "Llegaron a un acuerdo extrajudicial." },
           { es: "She plans to appeal the decision.", en: "Piensa recurrir la decisión." },
-          { es: "He is facing charges of money laundering.", en: "Se enfrenta a cargos de blanqueo de capitales." },
+          { es: "He is facing charges of money laundering.", en: "Enfrenta cargos de lavado de dinero." },
         ],
         checkpoint: [
           {
@@ -3943,7 +3943,7 @@ export const EN_C1_U08: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El exalcalde se enfrenta a cargos de soborno y blanqueo de capitales.",
+        source: "El exalcalde se enfrenta a cargos de soborno y lavado de dinero.",
         answer: "The former mayor is facing charges of bribery and money laundering.",
         altAnswers: [
           "The former mayor faces charges of bribery and money laundering.",

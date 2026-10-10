@@ -258,12 +258,12 @@ export const EN_B1_U27: Lesson[] = [
         heading: "Two rules you already know",
         body: [
           "First, in English adjectives go before the noun, not after it: \"a red car\", not *a car red. Second, adjectives never take a plural \"-s\": \"two red cars\", never *two reds cars.",
-          "Spanish puts most adjectives after the noun and makes them agree: «unos coches rojos». English adjectives never change: \"a tall man\", \"tall women\", \"tall trees\".",
+          "Spanish puts most adjectives after the noun and makes them agree: «unos carros rojos». English adjectives never change: \"a tall man\", \"tall women\", \"tall trees\".",
           "After verbs like \"be\", \"look\" and \"seem\", the adjective goes after the verb, just like in Spanish: \"The house is old\", \"You look tired\".",
         ],
         examples: [
-          { es: "a red car", en: "un coche rojo" },
-          { es: "two red cars", en: "dos coches rojos" },
+          { es: "a red car", en: "un carro rojo" },
+          { es: "two red cars", en: "dos carros rojos" },
           { es: "They're very nice people.", en: "Son personas muy agradables." },
           { es: "We have three big dogs.", en: "Tenemos tres perros grandes." },
           { es: "The houses are very old.", en: "Las casas son muy antiguas." },
@@ -447,7 +447,7 @@ export const EN_B1_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Es un coche japonés viejo.",
+        source: "Es un carro japonés viejo.",
         answer: "It's an old Japanese car.",
         explanation: "Age before origin: \"an old Japanese car\". Note \"an\" before the vowel sound of \"old\".",
       },
@@ -568,7 +568,7 @@ export const EN_B1_U27: Lesson[] = [
           { es: "These chairs are really uncomfortable.", en: "Estas sillas son muy incómodas." },
           { es: "That's impossible!", en: "¡Eso es imposible!" },
           { es: "Don't be so impatient.", en: "No seas tan impaciente." },
-          { es: "It's illegal to park here.", en: "Es ilegal aparcar aquí." },
+          { es: "It's illegal to park here.", en: "Es ilegal estacionar aquí." },
           { es: "He's a bit disorganized.", en: "Es un poco desorganizado." },
           { es: "The waiter was very unfriendly.", en: "El camarero fue muy antipático." },
         ],
@@ -659,7 +659,7 @@ export const EN_B1_U27: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "It's ___ to drive without a license.",
         answer: "illegal",
-        en: "Es [ilegal] conducir sin licencia.",
+        en: "Es [ilegal] manejar sin licencia.",
         explanation: "Before l, the negative prefix is \"il-\": \"illegal\", with a double l.",
       },
       {
@@ -808,7 +808,7 @@ export const EN_B1_U27: Lesson[] = [
         ],
         examples: [
           { es: "My phone is the same as yours.", en: "Mi teléfono es igual que el tuyo." },
-          { es: "She has the same car as me.", en: "Tiene el mismo coche que yo." },
+          { es: "She has the same car as me.", en: "Tiene el mismo carro que yo." },
           { es: "We go to the same school as them.", en: "Vamos al mismo colegio que ellos." },
           { es: "Your bag is similar to mine.", en: "Tu bolso es parecido al mío." },
           { es: "British English is a bit different from American English.", en: "El inglés británico es un poco diferente del americano." },
@@ -889,7 +889,7 @@ export const EN_B1_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi coche es igual que el tuyo.",
+        source: "Mi carro es igual que el tuyo.",
         answer: "My car is the same as yours.",
         altAnswers: ["My car is just like yours.", "My car is exactly the same as yours."],
         explanation: "«Igual que» is \"the same as\", and «el tuyo» is \"yours\" (no \"the\").",
@@ -1414,7 +1414,7 @@ export const EN_B1_U27: Lesson[] = [
         body: [
           "Spanish has many reflexive verbs that are NOT reflexive in English: «me ducho» is \"I take a shower\" or \"I shower\", «me relajo» is \"I relax\", «me levanto» is \"I get up\", «me visto» is \"I get dressed\", «me acuerdo» is \"I remember\", «me siento» is \"I sit down\" or \"I feel\".",
           "Typical mistakes: *I relax myself, *I shower me, *I feel myself tired. The correct versions are \"I relax\", \"I take a shower\" and \"I feel tired\".",
-          "Many «se» verbs become \"get\" + an adjective or participle in English: «casarse» is \"get married\", «enfadarse» is \"get angry\", «perderse» is \"get lost\", «cansarse» is \"get tired\".",
+          "Many «se» verbs become \"get\" + an adjective or participle in English: «casarse» is \"get married\", «enojarse» is \"get angry\", «perderse» is \"get lost\", «cansarse» is \"get tired\".",
         ],
         examples: [
           { es: "I usually shower in the morning.", en: "Normalmente me ducho por la mañana." },
@@ -1457,7 +1457,7 @@ export const EN_B1_U27: Lesson[] = [
           { es: "Help yourself to some cake.", en: "Sírvete pastel." },
           { es: "Make yourself at home.", en: "Estás en tu casa." },
           { es: "Did you enjoy yourselves?", en: "¿Lo pasaron bien?" },
-          { es: "I fixed the car myself.", en: "Arreglé el coche yo mismo." },
+          { es: "I fixed the car myself.", en: "Arreglé el carro yo mismo." },
         ],
         checkpoint: [
           {
@@ -1664,7 +1664,7 @@ export const EN_B1_U27: Lesson[] = [
           { es: "We live near the beach.", en: "Vivimos cerca de la playa." },
           { es: "I nearly fell.", en: "Casi me caigo." },
           { es: "It's nearly ten o'clock.", en: "Son casi las diez." },
-          { es: "He drives too fast.", en: "Conduce demasiado rápido." },
+          { es: "He drives too fast.", en: "Maneja demasiado rápido." },
           { es: "You speak English very well.", en: "Hablas inglés muy bien." },
         ],
         checkpoint: [
@@ -1796,7 +1796,7 @@ export const EN_B1_U27: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["I", "really", "like", "your", "new", "car."],
-        translation: "Me gusta mucho tu coche nuevo.",
+        translation: "Me gusta mucho tu carro nuevo.",
         explanation: "\"Really\" goes before the verb \"like\"; the object comes straight after the verb.",
       },
       {
@@ -1940,7 +1940,7 @@ export const EN_B1_U27: Lesson[] = [
         sentence: "It's a ___ drive from here.",
         answer: "two-hour",
         altAnswers: ["two hour"],
-        en: "Está a [dos horas] en coche de aquí.",
+        en: "Está a [dos horas] en carro de aquí.",
         explanation: "\"Two-hour\" is an adjective before \"drive\", so \"hour\" stays singular.",
       },
       {

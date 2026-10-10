@@ -90,7 +90,7 @@ export const EN_A1_U5_MORE: Lesson[] = [
           { es: "Their house is very big.", en: "Su casa es muy grande." },
           { es: "My keys are there.", en: "Mis llaves están ahí." },
           { es: "They're my cousins.", en: "Son mis primos." },
-          { es: "They're in their car.", en: "Están en su coche." },
+          { es: "They're in their car.", en: "Están en su carro." },
           { es: "Put your bag there.", en: "Pon tu bolso ahí." },
         ],
         checkpoint: [
@@ -125,7 +125,7 @@ export const EN_A1_U5_MORE: Lesson[] = [
           { es: "my grandparents' farm", en: "la granja de mis abuelos" },
           { es: "the children's toys", en: "los juguetes de los niños" },
           { es: "Ana and Tom's apartment", en: "el apartamento de Ana y Tom" },
-          { es: "my friend's car / my friends' car", en: "el coche de mi amigo / el coche de mis amigos" },
+          { es: "my friend's car / my friends' car", en: "el carro de mi amigo / el carro de mis amigos" },
           { es: "My father's name is Luis.", en: "Mi padre se llama Luis." },
         ],
         checkpoint: [
@@ -187,7 +187,7 @@ export const EN_A1_U5_MORE: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Mis hermanos están en su coche.",
+        source: "Mis hermanos están en su carro.",
         answer: "My brothers are in their car.",
         altAnswers: ["My siblings are in their car."],
         explanation: "Los dueños son varios, así que «su» es \"their\". Suena igual que \"there\" y \"they're\", pero se escribe distinto.",
@@ -277,7 +277,7 @@ export const EN_A1_U5_MORE: Lesson[] = [
         examples: [
           { es: "This bag is mine.", en: "Este bolso es mío." },
           { es: "Is this pen yours?", en: "¿Este bolígrafo es tuyo?" },
-          { es: "The red car is his.", en: "El coche rojo es de él." },
+          { es: "The red car is his.", en: "El carro rojo es de él." },
           { es: "The black coat is hers.", en: "El abrigo negro es de ella." },
           { es: "That house is ours.", en: "Esa casa es nuestra." },
           { es: "These seats are theirs.", en: "Estos asientos son de ellos." },
@@ -486,14 +486,14 @@ export const EN_A1_U5_MORE: Lesson[] = [
       {
         heading: "\"In\": dentro de algo",
         body: [
-          "El español usa «en» para casi todo; el inglés elige entre \"in\", \"on\" y \"at\". \"In\" significa «dentro de»: una habitación, una caja, un bolso, un coche, una ciudad o un país.",
+          "El español usa «en» para casi todo; el inglés elige entre \"in\", \"on\" y \"at\". \"In\" significa «dentro de»: una habitación, una caja, un bolso, un carro, una ciudad o un país.",
           "Pregúntate: ¿está rodeado por todos los lados? Entonces es \"in\": \"in the living room\", \"in my bag\", \"in the car\".",
         ],
         examples: [
           { es: "My wallet is in my bag.", en: "Mi cartera está en mi bolso." },
           { es: "The kids are in the living room.", en: "Los niños están en la sala." },
           { es: "The milk is in the fridge.", en: "La leche está en el refrigerador." },
-          { es: "We're in the car.", en: "Estamos en el coche." },
+          { es: "We're in the car.", en: "Estamos en el carro." },
           { es: "My parents live in Mexico.", en: "Mis padres viven en México." },
         ],
         checkpoint: [
@@ -512,7 +512,7 @@ export const EN_A1_U5_MORE: Lesson[] = [
         heading: "\"On\": sobre una superficie, y en el autobús",
         body: [
           "\"On\" significa «sobre» o «encima de», tocando una superficie: la mesa, la pared, el suelo, el sofá. El error típico es decir *in the table porque en español decimos «en la mesa»: si la cosa está encima, es \"on the table\".",
-          "Con los transportes en los que puedes ponerte de pie y caminar se usa \"on\": \"on the bus\", \"on the train\", \"on the plane\". Con el coche y el taxi se usa \"in\": \"in the car\", \"in a taxi\".",
+          "Con los transportes en los que puedes ponerte de pie y caminar se usa \"on\": \"on the bus\", \"on the train\", \"on the plane\". Con el carro y el taxi se usa \"in\": \"in the car\", \"in a taxi\".",
         ],
         examples: [
           { es: "Your phone is on the desk.", en: "Tu teléfono está en el escritorio." },
@@ -860,7 +860,7 @@ export const EN_A1_U5_MORE: Lesson[] = [
           { es: "two thousand five", en: "2005" },
           { es: "twenty twenty-four", en: "2024" },
           { es: "I was born in 1998.", en: "Nací en 1998." },
-          { es: "My car is from 2015.", en: "Mi coche es de 2015." },
+          { es: "My car is from 2015.", en: "Mi carro es de 2015." },
         ],
         checkpoint: [
           {
@@ -1296,7 +1296,7 @@ export const EN_A1_U5_MORE: Lesson[] = [
         examples: [
           { es: "Lucia is with her boyfriend.", en: "Lucia está con su novio." },
           { es: "Carlos calls his girlfriend every day.", en: "Carlos llama a su novia todos los días." },
-          { es: "my father's car", en: "el coche de mi padre" },
+          { es: "my father's car", en: "el carro de mi padre" },
           { es: "It's a good hotel. Its rooms are big.", en: "Es un buen hotel. Sus habitaciones son grandes." },
           { es: "This seat is mine.", en: "Este asiento es mío." },
         ],
@@ -1312,10 +1312,10 @@ export const EN_A1_U5_MORE: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "Es el coche de mi padre.",
+            source: "Es el carro de mi padre.",
             answer: "It is my father's car.",
             altAnswers: ["It is my dad's car.", "That is my father's car.", "That is my dad's car.", "This is my father's car.", "This is my dad's car."],
-            explanation: "«El coche de mi padre» es \"my father's car\". *The car of my father se entiende, pero no es natural.",
+            explanation: "«El carro de mi padre» es \"my father's car\". *The car of my father se entiende, pero no es natural.",
           },
         ],
       },

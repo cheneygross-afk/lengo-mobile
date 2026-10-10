@@ -126,7 +126,7 @@ export const EN_C2_U12_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "Headline: \"Star in bid to save theatre\". Meaning: A famous actor is ___ to save the theater.",
+        sentence: "Headline: \"Star in bid to save theater\". Meaning: A famous actor is ___ to save the theater.",
         answer: "trying",
         altAnswers: ["attempting", "making an attempt", "making a bid"],
         en: "Titular: «Un famoso intenta salvar el teatro». Significado: Un actor famoso [está intentando] salvar el teatro.",
@@ -191,7 +191,7 @@ export const EN_C2_U12_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El alcalde ha prometido limitar los pisos turísticos.",
+        source: "El alcalde ha prometido limitar las rentas vacacionales.",
         answer: "The mayor has promised to limit holiday rentals.",
         altAnswers: [
           "The mayor has promised to limit tourist apartments.",
@@ -275,7 +275,7 @@ export const EN_C2_U12_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El Gobierno estudia prohibir los coches en el centro.",
+        source: "El Gobierno estudia prohibir los carros en el centro.",
         answer: "The government is considering banning cars from the city center.",
         altAnswers: [
           "The government is considering banning cars in the city center.",
@@ -290,7 +290,7 @@ export const EN_C2_U12_EXTRA: Lesson[] = [
           "The government is looking at banning cars from the city center.",
           "The government is studying a ban on cars in the city center.",
         ],
-        explanation: "\"Consider\" takes the -ing form: \"considering banning\", never *considering to ban. A headline would say \"Government eyes city centre car ban\".",
+        explanation: "\"Consider\" takes the -ing form: \"considering banning\", never *considering to ban. A headline would say \"Government eyes city center car ban\".",
       },
       {
         type: "listen-choose",

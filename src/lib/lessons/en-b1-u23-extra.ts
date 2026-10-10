@@ -184,7 +184,7 @@ export const EN_B1_U23_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No recuerdo dónde aparqué el coche.",
+        source: "No recuerdo dónde estacioné el carro.",
         answer: "I don't remember where I parked the car.",
         altAnswers: ["I can't remember where I parked the car.", "I don't remember where I parked my car.", "I can't remember where I parked my car."],
         explanation: "Indirect questions also follow \"I don't remember\", \"I'm not sure\", \"I don't know\": \"where I parked\", not *where did I park.",
@@ -612,7 +612,7 @@ export const EN_B1_U23_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Sabe conducir, ¿no?» (talking about Lucia) Which is correct?",
+        question: "«Sabe manejar, ¿no?» (talking about Lucia) Which is correct?",
         options: ["Lucia can drive, can't she?", "Lucia can drive, doesn't she?", "Lucia can drive, can't Lucia?", "Lucia can drive, isn't it?"],
         correctIndex: 0,
         explanation: "Copy the modal: \"can\" → \"can't\", and use a pronoun, not the name: \"can't she?\".",

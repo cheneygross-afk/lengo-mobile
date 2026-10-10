@@ -258,7 +258,7 @@ export const EN_C1_U01: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Little did they suspect that the butler was lying.",
-        question: "¿Qué significa lo que has oído?",
+        question: "What does it mean?",
         options: [
           "No sospechaban en absoluto que el mayordomo mentía.",
           "Sospechaban un poco que el mayordomo mentía.",
@@ -639,7 +639,7 @@ export const EN_C1_U01: Lesson[] = [
       {
         heading: "Natural or pompous?",
         body: [
-          "In everyday conversation, most inversions sound theatrical. If a friend asks about your lunch and you say \"Never have I eaten such good pizza\", it sounds like a joke, or like a TV advert. Neutral order is the default: \"I've never had such good pizza\".",
+          "In everyday conversation, most inversions sound theatrical. If a friend asks about your lunch and you say \"Never have I eaten such good pizza\", it sounds like a joke, or like a TV commercial. Neutral order is the default: \"I've never had such good pizza\".",
           "Some inverted phrases are common in speech, though, especially for strong emotion: \"No way am I paying that!\", \"Not once did she call me\", \"Not in a million years would I do that\". These sound natural because they express indignation.",
           "A good rule: in speech, invert when you are angry, amazed or making a point; in writing, invert when you want to sound formal, persuasive or literary.",
         ],
@@ -798,7 +798,7 @@ export const EN_C1_U01: Lesson[] = [
         sentence: "Not in a million years ___ him my car.",
         answer: "would I lend",
         altAnswers: ["would I give", "would I loan"],
-        en: "Ni en un millón de años le [prestaría] mi coche.",
+        en: "Ni en un millón de años le [prestaría] mi carro.",
         explanation: "An emphatic spoken inversion: \"Not in a million years\" + \"would I\" + base verb. «Prestar» (to someone) is \"lend\".",
       },
       {
@@ -902,12 +902,12 @@ export const EN_C1_U01: Lesson[] = [
         heading: "Key-word transformations",
         body: [
           "In the Cambridge C1 Advanced exam (Part 4), you rewrite a sentence using a given word so that it means the same. Inversion is a favorite: the word given is often NEVER, ONLY, SOONER, UNTIL or LITTLE.",
-          "For example: \"I had no idea he was married\" (LITTLE) becomes \"Little did I know he was married\". \"As soon as I got in the shower, the doorbell rang\" (SOONER) becomes \"No sooner had I got in the shower than the doorbell rang\".",
+          "For example: \"I had no idea he was married\" (LITTLE) becomes \"Little did I know he was married\". \"As soon as I got in the shower, the doorbell rang\" (SOONER) becomes \"No sooner had I gotten in the shower than the doorbell rang\".",
           "Keep the meaning and the time frame identical. Check the tense of the auxiliary against the original sentence.",
         ],
         examples: [
           { es: "Little did I know he was married.", en: "No tenía ni idea de que estaba casado." },
-          { es: "No sooner had I got in the shower than the doorbell rang.", en: "Nada más meterme en la ducha, sonó el timbre." },
+          { es: "No sooner had I gotten in the shower than the doorbell rang.", en: "Nada más meterme en la ducha, sonó el timbre." },
           { es: "Not until I read the letter did I understand.", en: "Hasta que no leí la carta no lo entendí." },
           { es: "Never had I felt so proud.", en: "Nunca me había sentido tan orgulloso." },
         ],
@@ -925,10 +925,10 @@ export const EN_C1_U01: Lesson[] = [
             type: "fill-blank",
             prompt: "Write the bold words in English.",
             sentence: "No sooner ___ in the shower than the doorbell rang.",
-            answer: "had I got",
-            altAnswers: ["had I gotten", "had I stepped"],
+            answer: "had I gotten",
+            altAnswers: ["had I got", "had I stepped"],
             en: "Nada más [meterme] en la ducha, sonó el timbre.",
-            explanation: "«Nada más + infinitivo» is a perfect match for \"No sooner had I...\". American English also accepts \"gotten\".",
+            explanation: "«Nada más + infinitivo» is a perfect match for \"No sooner had I...\". British English also uses \"got\".",
           },
         ],
       },
@@ -1001,7 +1001,7 @@ export const EN_C1_U01: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "Not only ___ the exam, but she got the highest mark in the class.",
+        sentence: "Not only ___ the exam, but she got the highest grade in the class.",
         answer: "did she pass",
         en: "No solo [aprobó] el examen, sino que sacó la nota más alta de la clase.",
         explanation: "Past simple with \"not only\" in front: \"did she pass\". Spanish speakers often write *Not only she passed.",
@@ -1079,7 +1079,7 @@ export const EN_C1_U01: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Not once did he look at me during dinner.",
-        question: "¿Qué has oído?",
+        question: "What did you hear?",
         options: [
           "No me miró ni una sola vez durante la cena.",
           "Me miró una vez durante la cena.",
@@ -1255,7 +1255,7 @@ export const EN_C1_U01: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No sé por qué está tan enfadada.",
+        source: "No sé por qué está tan enojada.",
         answer: "I don't know why she is so angry.",
         altAnswers: [
           "I don't know why she is so upset.",
@@ -1294,13 +1294,13 @@ export const EN_C1_U01: Lesson[] = [
         type: "multiple-choice",
         question: "Which sentence needs inversion to be correct?",
         options: [
-          "Seldom she goes to the cinema.",
-          "Often she goes to the cinema.",
-          "Only she goes to the cinema.",
-          "Sometimes she goes to the cinema.",
+          "Seldom she goes to the movies.",
+          "Often she goes to the movies.",
+          "Only she goes to the movies.",
+          "Sometimes she goes to the movies.",
         ],
         correctIndex: 0,
-        explanation: "Only \"seldom\" is restrictive: \"Seldom does she go to the cinema\". The other sentences are already correct.",
+        explanation: "Only \"seldom\" is restrictive: \"Seldom does she go to the movies\". The other sentences are already correct.",
       },
       {
         type: "translate",
@@ -1430,7 +1430,7 @@ export const EN_C1_U01: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "___ for the rain, the match would have been perfect.",
             answer: "Had it not been",
-            altAnswers: ["If it hadn't been", "If it had not been", "If it weren't", "Were it not"],
+            altAnswers: ["If it hadn't been", "If it had not been"],
             en: "[De no haber sido por] la lluvia, el partido habría sido perfecto.",
             explanation: "\"Had it not been for\" = «de no haber sido por». The negative stays uncontracted after inverted \"had\".",
           },
@@ -1441,13 +1441,13 @@ export const EN_C1_U01: Lesson[] = [
         body: [
           "\"Should\" + subject + base verb replaces \"if\" for something possible but not very likely in the future: \"Should you need any help, call me\" («Si necesitara ayuda...», «En caso de que necesite ayuda...»). The main clause is often an imperative or uses \"will\".",
           "This is extremely common in polite business English: \"Should you have any questions, please contact us\". Spanish speakers sometimes write *Would you need any help, call me, which is wrong: \"would\" is not used in the if-clause.",
-          "The negative is \"Should you not...\": \"Should you not receive the parcel by Friday, let us know\".",
+          "The negative is \"Should you not...\": \"Should you not receive the package by Friday, let us know\".",
         ],
         examples: [
           { es: "Should you need any help, just call me.", en: "Si necesitas ayuda, llámame." },
           { es: "Should you have any questions, please contact us.", en: "Si tiene alguna pregunta, no dude en contactarnos." },
           { es: "Should the flight be delayed, we will send you a text.", en: "En caso de que el vuelo se retrase, le enviaremos un mensaje." },
-          { es: "Should you not receive the parcel by Friday, let us know.", en: "Si no recibe el paquete antes del viernes, avísenos." },
+          { es: "Should you not receive the package by Friday, let us know.", en: "Si no recibe el paquete antes del viernes, avísenos." },
         ],
         checkpoint: [
           {
@@ -1491,7 +1491,7 @@ export const EN_C1_U01: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Si no fuera por el ruido, el piso sería perfecto.",
+            source: "Si no fuera por el ruido, el departamento sería perfecto.",
             answer: "Were it not for the noise, the apartment would be perfect.",
             altAnswers: [
               "Were it not for the noise, the flat would be perfect.",
@@ -1508,7 +1508,7 @@ export const EN_C1_U01: Lesson[] = [
               "The apartment would be perfect were it not for the noise.",
               "The flat would be perfect if it weren't for the noise.",
             ],
-            explanation: "«Si no fuera por» = \"Were it not for\" (formal) or \"If it weren't for\". «Piso» is \"apartment\" in American English and \"flat\" in British English.",
+            explanation: "«Si no fuera por» = \"Were it not for\" (formal) or \"If it weren't for\". «Departamento» is \"apartment\" in American English and \"flat\" in British English.",
           },
         ],
       },
@@ -1689,11 +1689,11 @@ export const EN_C1_U01: Lesson[] = [
       {
         heading: "Such + be + noun",
         body: [
-          "\"Such\" at the front works with \"be\" and a noun subject: \"Such was his anger that he couldn't speak\" («Tal era su enfado que...», «Era tal su enfado que...»). Here \"such\" means \"so great\" and stands on its own before \"was\".",
+          "\"Such\" at the front works with \"be\" and a noun subject: \"Such was his anger that he couldn't speak\" («Tal era su enojo que...», «Era tal su enojo que...»). Here \"such\" means \"so great\" and stands on its own before \"was\".",
           "Notice the difference: \"So + adjective + be + subject\" (\"So angry was he...\") but \"Such + be + noun\" (\"Such was his anger...\"). Don't mix them: *Such angry was he is wrong.",
         ],
         examples: [
-          { es: "Such was his anger that he couldn't speak.", en: "Tal era su enfado que no podía hablar." },
+          { es: "Such was his anger that he couldn't speak.", en: "Tal era su enojo que no podía hablar." },
           { es: "Such was the success of the book that it was translated into 30 languages.", en: "Fue tal el éxito del libro que se tradujo a treinta idiomas." },
           { es: "Such is the power of social media today.", en: "Así de grande es hoy el poder de las redes sociales." },
         ],
@@ -1741,7 +1741,7 @@ export const EN_C1_U01: Lesson[] = [
             sentence: "Ana left the party early, ___.",
             answer: "as did her friends",
             altAnswers: ["as her friends did", "and so did her friends", "and her friends did too"],
-            en: "Ana se fue pronto de la fiesta, [igual que sus amigas].",
+            en: "Ana se fue temprano de la fiesta, [igual que sus amigas].",
             explanation: "\"As\" + auxiliary + subject: \"as did her friends\". The past simple verb \"left\" is replaced by \"did\".",
           },
         ],
@@ -1887,7 +1887,7 @@ export const EN_C1_U01: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Down came the rain and washed the spider out.",
-        question: "¿Qué has oído?",
+        question: "What did you hear?",
         options: [
           "Cayó la lluvia y arrastró a la araña.",
           "La araña bajó cuando paró la lluvia.",
@@ -2120,7 +2120,7 @@ export const EN_C1_U01: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "___ to terminate this contract early, a penalty would apply.",
         answer: "Were the tenant",
-        altAnswers: ["Were the client", "Should the tenant wish", "Should the tenant decide", "Were the tenant to decide"],
+        altAnswers: ["Should the tenant wish", "Should the tenant decide", "Were the tenant to decide"],
         en: "[Si el inquilino] rescindiera este contrato antes de tiempo, se aplicaría una penalización.",
         explanation: "\"Were\" + subject + \"to\" + base verb: a formal hypothetical condition, typical of contracts.",
       },
@@ -2159,7 +2159,6 @@ export const EN_C1_U01: Lesson[] = [
           "If the product doesn't work, we will send you a replacement.",
           "Should the product be faulty, we will send you a new one.",
           "Should the product be faulty, we will send you a replacement.",
-          "In case the product doesn't work, we will send you a new one.",
           "In the event that the product does not work, we will send you a new one.",
           "Should the product not work, we'll send you a new one.",
           "If the product fails to work, we will send you a new one.",
@@ -2178,7 +2177,7 @@ export const EN_C1_U01: Lesson[] = [
           "Formal register: no contractions, polite but firm.",
           "A clear request at the end (refund, explanation, compensation).",
         ],
-        modelAnswer: "Dear Sir or Madam, I am writing to complain about my recent stay. When I arrived, I was told that my room was not available. At no time was I informed of this before my arrival. Had I been told in advance, I would have booked another hotel. I would therefore like a full refund. Should you require a copy of my booking confirmation, I will be happy to send it. Yours faithfully, Ana Torres",
+        modelAnswer: "To Whom It May Concern: I am writing to complain about my recent stay. When I arrived, I was told that my room was not available. At no time was I informed of this before my arrival. Had I been told in advance, I would have booked another hotel. I would therefore like a full refund. Should you require a copy of my booking confirmation, I will be happy to send it. Yours faithfully, Ana Torres",
         explanation: "A strong complaint combines a clear account of facts, firm inverted structures and a precise request.",
       },
     ],
@@ -3066,7 +3065,7 @@ export const EN_C1_U01: Lesson[] = [
         sentence: "I wish you ___ your phone at dinner.",
         answer: "wouldn't use",
         altAnswers: ["would stop using", "didn't use", "wouldn't look at", "would not use"],
-        en: "Ojalá [no usaras] el móvil en la cena.",
+        en: "Ojalá [no usaras] el celular en la cena.",
         explanation: "\"Wish\" + \"would\" complains about someone else's habit. \"Didn't use\" is also possible as a simple present wish.",
       },
       {
@@ -3143,7 +3142,7 @@ export const EN_C1_U01: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Had I known you were coming, I would have baked a cake.",
-        question: "¿Qué significa lo que has oído?",
+        question: "What does it mean?",
         options: [
           "Si hubiera sabido que venías, habría hecho un pastel.",
           "Sabía que venías, así que hice un pastel.",
@@ -3164,7 +3163,7 @@ export const EN_C1_U01: Lesson[] = [
           "Consistent tense logic (past result vs. present result).",
           "No \"would\" in the if-clause or after \"if only\".",
         ],
-        modelAnswer: "Five years ago I turned down a job in Canada. Sometimes I wish I had accepted it. Had I gone, I would probably be speaking fluent French by now. On the other hand, were it not for that decision, I would never have met my partner. If only I could have both lives!",
+        modelAnswer: "Five years ago I turned down a job in Canada. Sometimes I wish I had accepted it. Had I gone, I would probably be speaking fluent French by now. On the other hand, had it not been for that decision, I would never have met my partner. If only I could have both lives!",
         explanation: "A good answer mixes regret (wish) and alternative histories (inverted conditionals) while keeping the time frames clear.",
       },
     ],

@@ -92,7 +92,7 @@ export const EN_A2_U17: Lesson[] = [
           { es: "The horse jumped over the fence.", en: "El caballo saltó por encima de la valla." },
           { es: "The boat went under the bridge.", en: "El barco pasó por debajo del puente." },
           { es: "He walked toward the station.", en: "Caminó hacia la estación." },
-          { es: "We drove around the lake.", en: "Dimos la vuelta al lago en coche." },
+          { es: "We drove around the lake.", en: "Dimos la vuelta al lago en carro." },
         ],
         checkpoint: [
           {
@@ -124,7 +124,7 @@ export const EN_A2_U17: Lesson[] = [
         examples: [
           { es: "He ran across the street.", en: "Cruzó la calle corriendo." },
           { es: "She ran out of the room.", en: "Salió corriendo de la habitación." },
-          { es: "We drove through the city.", en: "Atravesamos la ciudad en coche." },
+          { es: "We drove through the city.", en: "Atravesamos la ciudad en carro." },
           { es: "The kids ran into the house.", en: "Los niños entraron corriendo en la casa." },
           { es: "Come in!", en: "¡Pasa!" },
         ],
@@ -497,9 +497,9 @@ export const EN_A2_U17: Lesson[] = [
       {
         heading: "\"By\" + medio de transporte, sin artículo",
         body: [
-          "Para decir cómo viajas se usa \"by\" + el medio de transporte, sin artículo: \"by car\", \"by bus\", \"by train\", \"by plane\", \"by bike\", \"by taxi\", \"by subway\". Equivale al «en» de «voy en coche».",
-          "Con artículo o posesivo, \"by\" ya no funciona: *by the bus y *by my car son errores. Tampoco digas *with the car: «con el coche» o «en el coche» se dice \"by car\" o \"in my car\".",
-          "Muy natural también es usar \"take\": \"I take the bus to work\" («tomo el autobús para ir al trabajo»), \"Let's take a taxi\". Y si conduces tú: \"I drive to work\".",
+          "Para decir cómo viajas se usa \"by\" + el medio de transporte, sin artículo: \"by car\", \"by bus\", \"by train\", \"by plane\", \"by bike\", \"by taxi\", \"by subway\". Equivale al «en» de «voy en carro».",
+          "Con artículo o posesivo, \"by\" ya no funciona: *by the bus y *by my car son errores. Tampoco digas *with the car: «con el carro» o «en el carro» se dice \"by car\" o \"in my car\".",
+          "Muy natural también es usar \"take\": \"I take the bus to work\" («tomo el autobús para ir al trabajo»), \"Let's take a taxi\". Y si manejas tú: \"I drive to work\".",
         ],
         examples: [
           { es: "I go to work by bus.", en: "Voy al trabajo en autobús." },
@@ -507,7 +507,7 @@ export const EN_A2_U17: Lesson[] = [
           { es: "We went to Paris by plane.", en: "Fuimos a París en avión." },
           { es: "I take the subway every day.", en: "Tomo el metro todos los días." },
           { es: "Let's take a taxi.", en: "Tomemos un taxi." },
-          { es: "He drives to work.", en: "Va al trabajo en coche (manejando)." },
+          { es: "He drives to work.", en: "Va al trabajo en carro (manejando)." },
         ],
         checkpoint: [
           {
@@ -556,7 +556,7 @@ export const EN_A2_U17: Lesson[] = [
       {
         heading: "\"In a taxi\" pero \"on the bus\"",
         body: [
-          "Cuando el vehículo lleva artículo o posesivo, la preposición cambia. Los vehículos pequeños, en los que vas sentado y no puedes caminar (coche, taxi), van con \"in\": \"in a taxi\", \"in my car\".",
+          "Cuando el vehículo lleva artículo o posesivo, la preposición cambia. Los vehículos pequeños, en los que vas sentado y no puedes caminar (carro, taxi), van con \"in\": \"in a taxi\", \"in my car\".",
           "Los grandes, en los que puedes ponerte de pie o caminar (autobús, tren, avión, barco, metro), van con \"on\": \"on the bus\", \"on the train\", \"on a plane\". La bici y la moto también llevan \"on\": \"on my bike\".",
           "Así, «estoy en el autobús» es \"I'm on the bus\" y «estoy en el taxi» es \"I'm in the taxi\".",
         ],
@@ -564,7 +564,7 @@ export const EN_A2_U17: Lesson[] = [
           { es: "I'm on the bus.", en: "Estoy en el autobús." },
           { es: "We met on the train.", en: "Nos conocimos en el tren." },
           { es: "She's in a taxi.", en: "Está en un taxi." },
-          { es: "I left my phone in your car.", en: "Dejé el teléfono en tu coche." },
+          { es: "I left my phone in your car.", en: "Dejé el teléfono en tu carro." },
           { es: "There were three hundred people on the plane.", en: "Había trescientas personas en el avión." },
           { es: "He goes to school on his bike.", en: "Va a la escuela en su bici." },
         ],
@@ -579,22 +579,22 @@ export const EN_A2_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "«Estoy en el coche de mi madre.» ¿Cuál es correcta?",
+            question: "«Estoy en el carro de mi madre.» ¿Cuál es correcta?",
             options: ["I'm in my mom's car.", "I'm on my mom's car.", "I'm at my mom's car.", "I'm by my mom's car."],
             correctIndex: 0,
-            explanation: "Coche y taxi llevan \"in\". \"On my mom's car\" sería estar encima del coche, y \"by my mom's car\", al lado.",
+            explanation: "Carro y taxi llevan \"in\". \"On my mom's car\" sería estar encima del carro, y \"by my mom's car\", al lado.",
           },
         ],
       },
       {
         heading: "Subir y bajar: get in / get out of, get on / get off",
         body: [
-          "«Subir» y «bajar» de un vehículo siguen la misma lógica: coche y taxi llevan \"get in\" y \"get out of\"; autobús, tren, avión, metro y bici llevan \"get on\" y \"get off\".",
+          "«Subir» y «bajar» de un vehículo siguen la misma lógica: carro y taxi llevan \"get in\" y \"get out of\"; autobús, tren, avión, metro y bici llevan \"get on\" y \"get off\".",
           "No traduzcas «subir» por \"go up\" ni «bajar» por \"go down\": «bajarse del autobús» es \"get off the bus\", no *go down of the bus. Fíjate en que \"get off\" va sin \"of\": \"get off the train\".",
           "Para decir dónde te bajas se usa \"at\": \"Get off at the next stop\" («bájate en la próxima parada»).",
         ],
         examples: [
-          { es: "Get in the car!", en: "¡Sube al coche!" },
+          { es: "Get in the car!", en: "¡Sube al carro!" },
           { es: "She got out of the taxi.", en: "Se bajó del taxi." },
           { es: "We got on the bus at the station.", en: "Subimos al autobús en la estación." },
           { es: "Get off at the next stop.", en: "Bájate en la próxima parada." },
@@ -616,8 +616,8 @@ export const EN_A2_U17: Lesson[] = [
             sentence: "Diego ___ the car.",
             answer: "got out of",
             altAnswers: [],
-            en: "Diego [se bajó del] coche.",
-            explanation: "Del coche y del taxi uno se baja con \"get out of\"; \"get off\" es para el autobús o el tren.",
+            en: "Diego [se bajó del] carro.",
+            explanation: "Del carro y del taxi uno se baja con \"get out of\"; \"get off\" es para el autobús o el tren.",
           },
         ],
       },
@@ -627,7 +627,7 @@ export const EN_A2_U17: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Mi hermana va al trabajo en coche.",
+        source: "Mi hermana va al trabajo en carro.",
         answer: "My sister goes to work by car.",
         altAnswers: ["My sister drives to work.", "My sister goes to work in her car."],
         explanation: "\"By car\" sin artículo, o simplemente \"drives to work\". Nunca *with the car.",
@@ -662,10 +662,10 @@ export const EN_A2_U17: Lesson[] = [
         pairs: [
           { left: "get on the bus", right: "subir al autobús" },
           { left: "get off the train", right: "bajar del tren" },
-          { left: "get in the car", right: "subir al coche" },
+          { left: "get in the car", right: "subir al carro" },
           { left: "get out of the taxi", right: "bajar del taxi" },
         ],
-        explanation: "Coche y taxi: \"get in\" y \"get out of\". Autobús, tren y avión: \"get on\" y \"get off\".",
+        explanation: "Carro y taxi: \"get in\" y \"get out of\". Autobús, tren y avión: \"get on\" y \"get off\".",
       },
       {
         type: "translate",
@@ -695,7 +695,7 @@ export const EN_A2_U17: Lesson[] = [
         type: "listen-choose",
         audio: "I left my umbrella on the train.",
         question: "¿Qué has oído?",
-        options: ["Dejé el paraguas en el tren.", "Dejé el paraguas en el coche.", "Perdí el tren por el paraguas.", "Llevé el paraguas al tren."],
+        options: ["Dejé el paraguas en el tren.", "Dejé el paraguas en el carro.", "Perdí el tren por el paraguas.", "Llevé el paraguas al tren."],
         correctIndex: 0,
         explanation: "\"Left\" es «dejé» y \"on the train\", «en el tren».",
       },
@@ -717,7 +717,7 @@ export const EN_A2_U17: Lesson[] = [
           "Usa \"get on\", \"get off\", \"get in\" o \"get out of\".",
         ],
         modelAnswer: "I usually walk to work because it's only fifteen minutes on foot. When it rains, I take the bus and get off at the stop next to my office. On weekends I go downtown by subway. For vacations we usually travel by plane, and we take a taxi to the airport.",
-        explanation: "Revisa que \"by\" vaya sin artículo y que uses \"on\" con el autobús y el tren, e \"in\" con el coche y el taxi.",
+        explanation: "Revisa que \"by\" vaya sin artículo y que uses \"on\" con el autobús y el tren, e \"in\" con el carro y el taxi.",
       },
     ],
   },
@@ -1226,7 +1226,7 @@ export const EN_A2_U17: Lesson[] = [
           "Cuidado con \"look\": \"look at\" es «mirar», \"look for\" es «buscar» y \"look after\" es «cuidar». Y no digas *wait to the bus: \"wait to\" solo va con verbos, como en \"I can't wait to see you\".",
         ],
         examples: [
-          { es: "I listen to the radio in the car.", en: "Escucho la radio en el coche." },
+          { es: "I listen to the radio in the car.", en: "Escucho la radio en el carro." },
           { es: "We're waiting for the bus.", en: "Estamos esperando el autobús." },
           { es: "Look at this photo!", en: "¡Mira esta foto!" },
           { es: "I'm looking for my keys.", en: "Estoy buscando las llaves." },
@@ -1468,7 +1468,7 @@ export const EN_A2_U17: Lesson[] = [
       {
         heading: "\"In\": dentro de un espacio",
         body: [
-          "El español usa «en» para casi todo, pero el inglés distingue. \"In\" es «dentro de» un espacio con límites: una habitación, una caja, un coche, una ciudad, un país: \"in the kitchen\", \"in my bag\", \"in Brazil\".",
+          "El español usa «en» para casi todo, pero el inglés distingue. \"In\" es «dentro de» un espacio con límites: una habitación, una caja, un carro, una ciudad, un país: \"in the kitchen\", \"in my bag\", \"in Brazil\".",
           "También van con \"in\": \"in bed\" («en la cama»), \"in the shower\" («en la ducha»), \"in the photo\" («en la foto») y \"in the sky\" («en el cielo»).",
         ],
         examples: [
@@ -1477,7 +1477,7 @@ export const EN_A2_U17: Lesson[] = [
           { es: "She lives in Bogota.", en: "Vive en Bogotá." },
           { es: "He's still in bed.", en: "Todavía está en la cama." },
           { es: "Who is that in the photo?", en: "¿Quién es ese de la foto?" },
-          { es: "We waited in the car.", en: "Esperamos en el coche." },
+          { es: "We waited in the car.", en: "Esperamos en el carro." },
         ],
         checkpoint: [
           {
@@ -1561,7 +1561,7 @@ export const EN_A2_U17: Lesson[] = [
       {
         heading: "Y a veces \"by\"",
         body: [
-          "Con medios de transporte sin artículo, «en» es \"by\": \"by car\", \"by bus\" («en coche», «en autobús»). Con artículo vuelve \"in\" u \"on\": \"in my car\", \"on the bus\".",
+          "Con medios de transporte sin artículo, «en» es \"by\": \"by car\", \"by bus\" («en carro», «en autobús»). Con artículo vuelve \"in\" u \"on\": \"in my car\", \"on the bus\".",
           "Con el tiempo, «en» puede ser \"in\" (\"in July\", \"in 2010\", \"in five minutes\") o \"at\" (\"at Christmas\"). Y «en verano» es \"in the summer\" o \"in summer\".",
           "Resumen: dentro de algo, \"in\"; encima o en un medio, \"on\"; en un punto o una actividad, \"at\"; medio de transporte sin artículo, \"by\".",
         ],
@@ -1649,7 +1649,7 @@ export const EN_A2_U17: Lesson[] = [
           { left: "in bed", right: "en la cama" },
           { left: "on the phone", right: "al teléfono" },
           { left: "at work", right: "en el trabajo" },
-          { left: "by car", right: "en coche" },
+          { left: "by car", right: "en carro" },
           { left: "on the second floor", right: "en el segundo piso" },
         ],
         explanation: "Un solo «en» en español, cuatro preposiciones en inglés.",

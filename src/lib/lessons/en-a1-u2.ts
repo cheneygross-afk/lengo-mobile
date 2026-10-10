@@ -410,9 +410,9 @@ export const EN_A1_U2: Lesson[] = [
         type: "listen-choose",
         audio: "I'm hungry.",
         question: "¿Qué has oído?",
-        options: ["Tengo hambre.", "Estoy enfadado.", "Tengo prisa.", "Estoy feliz."],
+        options: ["Tengo hambre.", "Estoy enojado.", "Tengo prisa.", "Estoy feliz."],
         correctIndex: 0,
-        explanation: "\"Hungry\" («hambriento») empieza con \"h\" aspirada. Sin ella se parece a \"angry\" («enfadado»).",
+        explanation: "\"Hungry\" («hambriento») empieza con \"h\" aspirada. Sin ella se parece a \"angry\" («enojado»).",
       },
       {
         type: "fill-blank",
@@ -514,7 +514,7 @@ export const EN_A1_U2: Lesson[] = [
         ],
         examples: [
           { es: "cats, books, cups", en: "gatos, libros, tazas (suena /s/)" },
-          { es: "dogs, cars, days", en: "perros, coches, días (suena /z/)" },
+          { es: "dogs, cars, days", en: "perros, carros, días (suena /z/)" },
           { es: "buses, boxes, watches", en: "autobuses, cajas, relojes (suena /ɪz/)" },
           { es: "one page, two pages", en: "una página, dos páginas" },
         ],
@@ -546,7 +546,7 @@ export const EN_A1_U2: Lesson[] = [
         examples: [
           { es: "cat / cap / cab", en: "gato / gorra / taxi" },
           { es: "bed / bet", en: "cama / apuesta" },
-          { es: "card / car", en: "tarjeta / coche" },
+          { es: "card / car", en: "tarjeta / carro" },
           { es: "a big dog", en: "un perro grande" },
           { es: "two cats", en: "dos gatos" },
         ],
@@ -557,7 +557,7 @@ export const EN_A1_U2: Lesson[] = [
             question: "¿Qué palabra has oído?",
             options: ["card", "car"],
             correctIndex: 0,
-            explanation: "\"Card\" («tarjeta») termina en d. \"Car\" («coche») termina en r. La consonante final cambia la palabra.",
+            explanation: "\"Card\" («tarjeta») termina en d. \"Car\" («carro») termina en r. La consonante final cambia la palabra.",
           },
         ],
       },
@@ -621,7 +621,7 @@ export const EN_A1_U2: Lesson[] = [
         instructions: "Une cada palabra con su significado.",
         pairs: [
           { left: "card", right: "tarjeta" },
-          { left: "car", right: "coche" },
+          { left: "car", right: "carro" },
           { left: "bed", right: "cama" },
           { left: "bet", right: "apuesta" },
         ],

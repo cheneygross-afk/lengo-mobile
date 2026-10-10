@@ -129,7 +129,7 @@ export const EN_C1_U10_EXTRA: Lesson[] = [
           { left: "play it by ear", right: "ir improvisando" },
           { left: "kill two birds with one stone", right: "matar dos pájaros de un tiro" },
         ],
-        explanation: "Only the last one uses a similar image in both languages. The others must be learned as different pictures for the same idea.",
+        explanation: "Only \"kill two birds with one stone\" («matar dos pájaros de un tiro») uses the same image in both languages. The others must be learned as different pictures for the same idea.",
       },
       {
         type: "multiple-choice",
@@ -311,7 +311,7 @@ export const EN_C1_U10_EXTRA: Lesson[] = [
           { es: "I just want some peace and quiet.", en: "Solo quiero un poco de paz y tranquilidad." },
           { es: "I still go back to my hometown now and then.", en: "Todavía vuelvo a mi pueblo de vez en cuando." },
           { es: "The climbers returned safe and sound.", en: "Los escaladores volvieron sanos y salvos." },
-          { es: "I bought a round-trip ticket.", en: "Compré un billete de ida y vuelta." },
+          { es: "I bought a round-trip ticket.", en: "Compré un boleto de ida y vuelta." },
         ],
         checkpoint: [
           {
@@ -397,7 +397,7 @@ export const EN_C1_U10_EXTRA: Lesson[] = [
         sentence: "I bought a ___ ticket to Boston.",
         answer: "round-trip",
         altAnswers: ["round trip", "return"],
-        en: "Compré un billete de [ida y vuelta] a Boston.",
+        en: "Compré un boleto de [ida y vuelta] a Boston.",
         explanation: "«Ida y vuelta» is \"round-trip\" in American English and \"return\" in British English. *Go and back ticket is a calque.",
       },
       {
@@ -582,7 +582,7 @@ export const EN_C1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Sooner or later, you'll have to weigh up the pros and cons.",
+        text: "Sooner or later, you'll have to weigh the pros and cons.",
         tip: "Binomials are said as one unit, with the stress on the last word: \"sooner or LATer\", \"pros and CONS\".",
         explanation: "\"Sooner or later\" and \"the pros and cons\" are two of the most frequent binomials in English.",
       },

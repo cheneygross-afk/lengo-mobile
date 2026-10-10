@@ -16,11 +16,11 @@ export const EN_B2_U23: Lesson[] = [
         heading: "Telling the story",
         body: [
           "This review brings together grammar from several Upper Intermediate units around one topic: a trip where everything went wrong. Start with the story itself. The past simple moves the action forward, the past continuous sets the scene, the past perfect jumps back to an earlier event, and the past perfect continuous says how long something had been happening before another past moment.",
-          "The past perfect continuous is the star of travel stories: \"We had been driving for six hours when the car broke down\". Spanish says «llevábamos seis horas conduciendo» or «hacía seis horas que conducíamos», so learners often produce *We were driving since six hours. A duration up to a moment in the past needs \"had been\" + -ing, with \"for\" before the length of time.",
+          "The past perfect continuous is the star of travel stories: \"We had been driving for six hours when the car broke down\". Spanish says «llevábamos seis horas manejando» or «hacía seis horas que conducíamos», so learners often produce *We were driving since six hours. A duration up to a moment in the past needs \"had been\" + -ing, with \"for\" before the length of time.",
           "And remember: not every Spanish imperfect becomes \"was\" + -ing. States and habits take the past simple: \"The hotel was awful\", \"We didn't have a map\".",
         ],
         examples: [
-          { es: "We had been driving for six hours when the car broke down.", en: "Llevábamos seis horas conduciendo cuando se averió el coche." },
+          { es: "We had been driving for six hours when the car broke down.", en: "Llevábamos seis horas manejando cuando se averió el carro." },
           { es: "It was getting dark and we didn't have a map.", en: "Estaba anocheciendo y no teníamos mapa." },
           { es: "When we got to the airport, our flight had already left.", en: "Cuando llegamos al aeropuerto, nuestro vuelo ya había salido." },
           { es: "We were waiting at the gate when they announced the delay.", en: "Estábamos esperando en la puerta de embarque cuando anunciaron el retraso." },
@@ -180,7 +180,7 @@ export const EN_B2_U23: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No deberías haber dejado el coche abierto.",
+        source: "No deberías haber dejado el carro abierto.",
         answer: "You shouldn't have left the car unlocked.",
         altAnswers: ["You shouldn't have left the car open.", "You shouldn't have left the car unlocked!"],
         explanation: "Criticism of a past action: \"shouldn't have\" + past participle. A car that is «abierto» is usually \"unlocked\" in English.",
@@ -557,7 +557,7 @@ export const EN_B2_U23: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Han robado tres coches en mi calle.",
+            source: "Han robado tres carros en mi calle.",
             answer: "Three cars have been stolen on my street.",
             altAnswers: [
               "Three cars have been stolen in my street.",
@@ -620,7 +620,7 @@ export const EN_B2_U23: Lesson[] = [
         examples: [
           { es: "The thief must have had a key.", en: "El ladrón debió de tener una llave." },
           { es: "It can't have been him: he was in the hospital.", en: "No puede haber sido él: estaba en el hospital." },
-          { es: "Someone might have seen the car.", en: "Puede que alguien haya visto el coche." },
+          { es: "Someone might have seen the car.", en: "Puede que alguien haya visto el carro." },
           { es: "The witness said she had heard a scream.", en: "La testigo dijo que había oído un grito." },
           { es: "The officer told reporters that the investigation was ongoing.", en: "El agente dijo a los periodistas que la investigación seguía abierta." },
         ],
@@ -688,7 +688,7 @@ export const EN_B2_U23: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La policía dijo que el coche había sido robado la noche anterior.",
+        source: "La policía dijo que el carro había sido robado la noche anterior.",
         answer: "The police said that the car had been stolen the night before.",
         altAnswers: [
           "The police said the car had been stolen the night before.",
@@ -1066,7 +1066,7 @@ export const EN_B2_U23: Lesson[] = [
         examples: [
           { es: "By 2050, sea levels will have risen considerably.", en: "Para 2050, el nivel del mar habrá subido considerablemente." },
           { es: "By the end of the decade, the city will have planted a million trees.", en: "Para finales de la década, la ciudad habrá plantado un millón de árboles." },
-          { es: "In 2040, most of us will be driving electric cars.", en: "En 2040, la mayoría estaremos conduciendo coches eléctricos." },
+          { es: "In 2040, most of us will be driving electric cars.", en: "En 2040, la mayoría estaremos manejando carros eléctricos." },
           { es: "By next year, scientists will have been studying this glacier for a century.", en: "El año que viene hará un siglo que los científicos estudian este glaciar." },
         ],
         checkpoint: [
@@ -1081,7 +1081,7 @@ export const EN_B2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "«Para 2035 habrán prohibido los coches de gasolina.» Which preposition fits? \"___ 2035, gasoline cars will have been banned.\"",
+            question: "«Para 2035 habrán prohibido los carros de gasolina.» Which preposition fits? \"___ 2035, gasoline cars will have been banned.\"",
             options: ["By", "Until", "For", "Since"],
             correctIndex: 0,
             explanation: "\"By\" marks a deadline (at or before that time). \"Until\" means a situation continues up to that time.",
@@ -1846,7 +1846,7 @@ export const EN_B2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say «Aprobé el examen de conducir»?",
+            question: "How do you say «Aprobé el examen de manejar»?",
             options: ["I passed my driving test.", "I approved my driving test.", "I approved my driving license.", "I approved the driving exam."],
             correctIndex: 0,
             explanation: "«Aprobar un examen» = \"pass a test/exam\". \"Approve\" is for plans, proposals or budgets.",
@@ -2117,7 +2117,7 @@ export const EN_B2_U23: Lesson[] = [
           { es: "How long have you been learning English?", en: "¿Cuánto tiempo llevas aprendiendo inglés?" },
           { es: "I've been studying English for three years.", en: "Estudio inglés desde hace tres años." },
           { es: "How long have you known Carlos?", en: "¿Desde cuándo conoces a Carlos?" },
-          { es: "I've had this car since 2015.", en: "Tengo este coche desde 2015." },
+          { es: "I've had this car since 2015.", en: "Tengo este carro desde 2015." },
           { es: "It's been raining since this morning.", en: "Llueve desde esta mañana." },
         ],
         checkpoint: [
@@ -2371,7 +2371,7 @@ export const EN_B2_U23: Lesson[] = [
           "Remember that Spanish «ojalá» also expresses hope about the future («ojalá haga sol mañana»). For that, English uses \"I hope\" + present or \"will\": \"I hope it's sunny tomorrow\", not *I wish it is sunny.",
         ],
         examples: [
-          { es: "I wish I had a car.", en: "Ojalá tuviera coche." },
+          { es: "I wish I had a car.", en: "Ojalá tuviera carro." },
           { es: "I wish I had saved more money.", en: "Ojalá hubiera ahorrado más dinero." },
           { es: "I wish the neighbors would turn the music down.", en: "A ver si los vecinos bajan la música de una vez." },
           { es: "I wish I could sing.", en: "Ojalá supiera cantar." },
@@ -2581,7 +2581,7 @@ export const EN_B2_U23: Lesson[] = [
           { es: "The bridge is being repaired.", en: "Están arreglando el puente." },
           { es: "The house has been sold.", en: "Han vendido la casa." },
           { es: "The contract must be signed by Friday.", en: "El contrato tiene que estar firmado antes del viernes." },
-          { es: "I'm having my car fixed.", en: "Me están arreglando el coche." },
+          { es: "I'm having my car fixed.", en: "Me están arreglando el carro." },
           { es: "I had the plumber check the pipes.", en: "Hice que el fontanero revisara las tuberías." },
           { es: "I got my brother to help me.", en: "Conseguí que mi hermano me ayudara." },
         ],
@@ -2804,7 +2804,7 @@ export const EN_B2_U23: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Not", "having", "a", "car,", "we", "had", "to", "take", "the", "bus."],
-        translation: "Como no teníamos coche, tuvimos que ir en autobús.",
+        translation: "Como no teníamos carro, tuvimos que ir en autobús.",
         explanation: "A negative participle clause of reason: \"Not having...\" = because we didn't have.",
       },
       {

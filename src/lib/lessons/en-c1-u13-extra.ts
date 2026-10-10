@@ -17,7 +17,7 @@ export const EN_C1_U13_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: the greeting, its punctuation and a matching sign-off",
         body: [
-          "Open with \"Dear\" + title + surname + comma: \"Dear Ms. Navarro,\". Never *Estimated Mr. Navarro (a calque of «Estimado») and never a title with a first name (*Dear Mr. Pablo). Where Spanish puts a colon after the greeting, English puts a comma, and the first sentence starts on a new line with a capital letter.",
+          "Open with \"Dear\" + title + surname + comma: \"Dear Ms. Navarro,\". Never *Estimated Mr. Navarro (a calque of «Estimado») and never a title with a first name (*Dear Mr. Pablo). Where Spanish puts a colon after the greeting, an email in English puts a comma (only formal US business letters use a colon), and the first sentence starts on a new line with a capital letter.",
           "Keep both ends of the email at the same level. \"Dear Sir or Madam,\" goes with \"Yours faithfully,\" in British letters; a named reader goes with \"Yours sincerely,\" (American \"Sincerely,\"). In formal email \"Kind regards,\" or \"Best regards,\" are safe with any opening, but \"Best,\", \"Cheers,\" or «Un abrazo» equivalents after \"Dear Sir or Madam\" clash badly.",
           "Spanish emails often end with «Quedo a la espera de su respuesta». English does not say *Waiting for your answer or *Waiting your news: the fixed last line is \"I look forward to hearing from you.\", with \"to\" + -ing.",
         ],
@@ -122,7 +122,7 @@ export const EN_C1_U13_EXTRA: Lesson[] = [
         answer: "Further to",
         altAnswers: ["Following", "Following on from", "After"],
         en: "[Tras] nuestra llamada de esta mañana, le escribo para confirmar la nueva fecha de entrega.",
-        explanation: "\"Further to\" (formal, British) or \"Following\" refers back to earlier contact. *After our call is not wrong but sounds less formal.",
+        explanation: "\"Further to\" (formal, British) or \"Following\" refers back to earlier contact. \"After our call\" is not wrong, but it sounds less formal.",
       },
       {
         type: "translate",
@@ -499,7 +499,7 @@ export const EN_C1_U13_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Con respecto a su consulta, me complace informarle de que aún quedan plazas.",
-        answer: "With regard to your enquiry, I am pleased to inform you that there are still places available.",
+        answer: "With regard to your inquiry, I am pleased to inform you that there are still places available.",
         altAnswers: [
           "With regard to your enquiry, I am pleased to inform you that there are still places left.",
           "With regard to your enquiry, I am pleased to inform you that there are still some places available.",
@@ -516,7 +516,7 @@ export const EN_C1_U13_EXTRA: Lesson[] = [
           "With regard to your enquiry, I am happy to let you know that there are still places left.",
           "With regard to your enquiry, I am happy to let you know that there are still some places available.",
           "With regard to your enquiry, I am happy to let you know that there are still spaces available.",
-          "With regard to your inquiry, I am pleased to inform you that there are still places available.",
+          "With regard to your enquiry, I am pleased to inform you that there are still places available.",
           "With regard to your inquiry, I am pleased to inform you that there are still places left.",
           "With regard to your inquiry, I am pleased to inform you that there are still some places available.",
           "With regard to your inquiry, I am pleased to inform you that there are still spaces available.",
@@ -655,7 +655,7 @@ export const EN_C1_U13_EXTRA: Lesson[] = [
           "Mentions the attachment correctly (\"Please find attached...\", not *I attach you)",
           "Ends with \"I look forward to hearing from you.\" and a sign-off that matches the opening",
         ],
-        modelAnswer: "Dear Admissions Team,\n\nI am writing to enquire about your intensive summer course in English. I would be grateful if you could tell me the exact dates of the July and August sessions and the total price, including materials.\n\nI am currently at the Upper Intermediate level level and would like to reach Advanced before applying to a university abroad. Please find attached my most recent certificate so that you can place me in the right group.\n\nCould you also let me know whether accommodation with a host family is available?\n\nThank you in advance for your help. I look forward to hearing from you.\n\nKind regards,\nAndrea Molina",
+        modelAnswer: "Dear Admissions Team,\n\nI am writing to enquire about your intensive summer course in English. I would be grateful if you could tell me the exact dates of the July and August sessions and the total price, including materials.\n\nI am currently at the Upper Intermediate level and would like to reach Advanced before applying to a university abroad. Please find attached my most recent certificate so that you can place me in the right group.\n\nCould you also let me know whether accommodation with a host family is available?\n\nThank you in advance for your help. I look forward to hearing from you.\n\nKind regards,\nAndrea Molina",
         explanation: "A model of a short formal enquiry: clear purpose, polite requests, a correct attachment line and a closing that matches the opening.",
       },
     ],
