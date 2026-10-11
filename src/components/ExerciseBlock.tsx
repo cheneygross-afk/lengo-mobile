@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { View, Text, Pressable, TextInput, StyleSheet, type StyleProp, type TextStyle } from "react-native";
 import type { Exercise } from "@/lib/lessons/types";
 import { speak, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
-import TapText, { voiceFor } from "@/components/TapText";
+import TapText, { isTargetText } from "@/components/TapText";
 import {
   gradeFillBlank,
   gradeTranslate,
@@ -245,7 +245,7 @@ function MultipleChoice({
                 // hearing it doesn't give away the answer. Speaking and
                 // selecting on the same tap means every word in a lesson
                 // is heard the same way: tap it.
-                speak(opt, voiceFor(opt, lang));
+                if (isTargetText(opt, lang)) speak(opt, lang);
                 setSelected(i);
               }}
               style={[
@@ -298,7 +298,7 @@ function MultiSelect({
               key={i}
               disabled={checked}
               onPress={() => {
-                speak(opt, voiceFor(opt, lang));
+                if (isTargetText(opt, lang)) speak(opt, lang);
                 toggle(i);
               }}
               style={[
@@ -638,7 +638,7 @@ function Matching({
               key={i}
               disabled={checked || usedTiles.has(i)}
               onPress={() => {
-                speak(right, voiceFor(right, lang));
+                if (isTargetText(right, lang)) speak(right, lang);
                 chooseRight(i);
               }}
               style={[s.matchPill, usedTiles.has(i) && s.chipUsed]}

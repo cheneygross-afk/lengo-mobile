@@ -13,6 +13,7 @@ import {
 } from "react-native";
 import type { LessonHighlight } from "@/lib/highlights";
 import { speak, type SpeechLang } from "@/lib/speech";
+import { targetWordTest } from "@/components/TapText";
 
 // Mobile has no equivalent of the web app's window.getSelection() (see
 // src/components/lessons/HighlightableText.tsx there), so this builds
@@ -54,8 +55,12 @@ type Props = {
   // "hear a word" gesture that sits alongside drag-to-highlight (which
   // still requires the deliberate drag + confirm pill to actually save)
   // and works even for a logged-out learner or before `enabled` turns
-  // on, unlike highlighting.
-  lang: SpeechLang;
+  // on, unlike highlighting. Null for text in the learner's own
+  // language, which isn't voiced.
+  lang: SpeechLang | null;
+  // English framing around target-language words (a lesson's
+  // explanation): only the target-language words are voiced.
+  mixed?: boolean;
   // Optional: words to mark with a dotted underline (a story's glossed
   // words, see StoryReaderScreen), and a callback for every plain word
   // tap, alongside the usual tap-to-hear.
@@ -106,6 +111,7 @@ export default function HighlightableText({
   style,
   markColor,
   lang,
+  mixed = false,
   isMarked,
   onWordTap,
   onWordLongPress,
@@ -125,6 +131,13 @@ export default function HighlightableText({
 
   const tokens = useMemo(() => tokenize(text), [text]);
   const words = useMemo(() => tokens.filter((t) => t.isWord), [tokens]);
+  // Which words tap-to-hear plays: only the language being learned.
+  const voiced = useMemo(() => {
+    if (!lang) return () => false;
+    if (!mixed) return () => true;
+    const isTarget = targetWordTest(text, lang);
+    return (t: Token) => isTarget(t.start, t.end);
+  }, [text, lang, mixed]);
 
   function measureOrigin(cb?: () => void) {
     rowRef.current?.measureInWindow((x, y) => {
@@ -183,7 +196,7 @@ export default function HighlightableText({
       setPending(null);
       return;
     }
-    speak(word.value, lang);
+    if (lang && voiced(word)) speak(word.value, lang);
     onWordTap?.(word.value);
   }
 

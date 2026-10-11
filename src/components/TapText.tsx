@@ -3,17 +3,18 @@ import { Text, StyleSheet, type StyleProp, type TextStyle } from "react-native";
 import { speak, ENGLISH_LANG, type SpeechLang } from "@/lib/speech";
 import { targetSpans } from "@/lib/targetSpans";
 
-// Makes every word in a block of text tap-to-hear -- the rule for lesson
-// screens is that any word the learner can see can be heard.
+// Makes every target-language word in a block of text tap-to-hear -- the
+// rule for lesson screens is that any word in the language being learned
+// can be heard. English (prompts, glosses, explanations) is plain text
+// with no voice.
 //
 // `mode` says what language the text is in:
 // - "target": all target language (a Spanish sentence, an answer).
-// - "english": all English (an English prompt to translate).
+// - "english": all English (an English prompt to translate). Not voiced.
 // - "mixed": English framing around target-language words (a question,
-//   an explanation). Each word is voiced in the language it's most likely
-//   in: target-language spans found by targetSpans(), plus any word with
-//   Spanish-only letters or a Spanish infinitive ending, go to the target
-//   voice; everything else is read as English.
+//   an explanation). Only the target-language words are voiced: spans
+//   found by targetSpans(), plus any word with Spanish-only letters or a
+//   Spanish infinitive ending; the English around them is plain text.
 //
 // With `boldBrackets`, text inside [square brackets] is shown bold and the
 // brackets themselves are hidden (see FillBlankExercise.en).
@@ -93,18 +94,35 @@ function pieces(text: string, lang: SpeechLang, mode: Mode, boldBrackets: boolea
       wordLang =
         inSpan || (lang !== ENGLISH_LANG && (lang === "es-ES" || lang === "fr-FR") && looksTargetWord(word, lang)) ? lang : ENGLISH_LANG;
     }
-    push(word, wordLang, start);
+    // Only the language being learned is voiced.
+    push(word, mode !== "english" && wordLang === lang ? wordLang : null, start);
     pos = start + word.length;
   }
   if (pos < plain.length) push(plain.slice(pos), null, pos);
   return out;
 }
 
+/** For mixed text (English framing around target-language words): a
+ * test for whether the word at [start, end) is in the target language,
+ * by the same rule TapText's "mixed" mode uses. */
+export function targetWordTest(text: string, lang: SpeechLang): (start: number, end: number) => boolean {
+  const spans = targetSpans(text, lang);
+  return (start, end) =>
+    spans.some((sp) => start < sp.end && end > sp.start) ||
+    ((lang === "es-ES" || lang === "fr-FR") && looksTargetWord(text.slice(start, end).replace(/[^A-Za-z\u00C0-\u024F'’-]/g, ""), lang));
+}
+
 /** Which voice a whole short string (an answer option, a matching card)
- * should be read in. */
+ * should be read in; see isTargetText for whether to voice it at all. */
 export function voiceFor(text: string, lang: SpeechLang): SpeechLang {
   if (targetSpans(text, lang).length > 0) return lang;
   return text.split(/\s+/).some((w) => looksTargetWord(w, lang)) ? lang : ENGLISH_LANG;
+}
+
+/** Whether a short string (an answer option, a matching card) is in the
+ * language being learned, so tapping it should play it. */
+export function isTargetText(text: string, lang: SpeechLang): boolean {
+  return voiceFor(text, lang) === lang;
 }
 
 export default function TapText({
