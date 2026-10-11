@@ -151,6 +151,12 @@ export function setPronunciationEnabled(enabled: boolean): void {
   }
 }
 
+// Start loading the settings when the app starts, not on the first tap.
+setTimeout(() => {
+  void loadPronunciationPrefs();
+  void loadSpanishVariety();
+}, 0);
+
 function loadPronunciationPrefs(): Promise<void> {
   if (prefsLoaded) return Promise.resolve();
   if (prefsLoadPromise) return prefsLoadPromise;
@@ -278,7 +284,37 @@ function tryPlayRemote(url: string, rate = 1): Promise<boolean> {
         sub.remove();
       }
     });
-    setTimeout(() => finish(false), 4000);
+    // A clip that hasn't started in 1.5 s gives way to the device voice:
+    // a slow connection shouldn't leave a tap silent.
+    setTimeout(() => {
+      if (!started) player.remove();
+      finish(false);
+    }, 1500);
+  });
+}
+
+// Stops and frees the clip that's loading or playing (its load may still
+// be in flight when the clip turns out not to exist).
+function dropCurrentPlayer(): void {
+  const player: AudioPlayer | null = currentPlayer;
+  player?.remove();
+  currentPlayer = null;
+}
+
+// Clips known to exist (played or checked this session): no need to ask
+// storage again before playing them.
+const knownClips = new Set<string>();
+// Clips being generated right now, so a second tap doesn't ask again.
+const generating = new Set<string>();
+
+/** Has the cloud clip made (the website's /api/pronounce) in the
+ * background, so the next tap on this text plays it at once. */
+function generateInBackground(text: string, lang: SpeechLang, voice: PronunciationVoice, url: string): void {
+  if (generating.has(url)) return;
+  generating.add(url);
+  void requestGeneration(text, lang, voice).then((generated) => {
+    generating.delete(url);
+    if (generated) knownClips.add(generated);
   });
 }
 
@@ -319,9 +355,10 @@ async function speakOnDevice(clean: string, lang: SpeechLang, rate = 1) {
 }
 
 // Speaks `text` in `lang`: plays the cached cloud recording when one
-// exists, generates it on the fly the first time this exact text is ever
-// requested anywhere, and falls back to the device's own voice if the
-// cloud path fails or isn't offered for this language. Cancels anything
+// exists; the first time this exact text is ever requested anywhere, says
+// it with the device's own voice at once and has the recording made in
+// the background for next time. The device voice also covers a failed
+// or slow clip and languages without a cloud voice. Cancels anything
 // already playing/speaking first so rapid taps (flipping through
 // flashcards, tapping several words) don't pile up overlapping audio.
 // `rate` below 1 slows playback down (dictation's "slow" replay).
@@ -350,12 +387,26 @@ export function speak(text: string, requestedLang: SpeechLang, rate = 1) {
     await ensureAudioMode();
     const voice = preferredVoice;
     const cachedUrl = audioUrl(clean, lang, voice);
-    const cached = await clipExists(cachedUrl);
-    if (run !== readAloudRun) return;
-    if (cached && (await tryPlayRemote(cachedUrl, rate))) return;
-    const generatedUrl = await requestGeneration(clean, lang, voice);
-    if (run !== readAloudRun) return;
-    if (generatedUrl && (await tryPlayRemote(generatedUrl, rate))) return;
+    // Start loading the clip straight away, and (unless it's known to
+    // exist) check in parallel that it's there: one round trip, not two.
+    const playing = tryPlayRemote(cachedUrl, rate);
+    if (!knownClips.has(cachedUrl)) {
+      const cached = await clipExists(cachedUrl);
+      if (run !== readAloudRun) return;
+      if (!cached) {
+        // Nobody has asked for this text yet. Making the clip takes a
+        // second or two, so speak it on the device now and have the clip
+        // made for next time.
+        dropCurrentPlayer();
+        generateInBackground(clean, lang, voice, cachedUrl);
+        void speakOnDevice(clean, lang, rate);
+        return;
+      }
+    }
+    if (await playing) {
+      knownClips.add(cachedUrl);
+      return;
+    }
     if (run !== readAloudRun) return;
     void speakOnDevice(clean, lang, rate);
   })();
