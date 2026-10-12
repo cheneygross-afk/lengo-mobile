@@ -6,6 +6,8 @@ import { B1_SURVIVAL } from "./survival-b1";
 import { B1_REINFORCEMENT } from "./b1-reinforcement";
 import { B1_DRILLS } from "./b1-drills";
 import { B1_COMMON_WORDS } from "./b1-common-words";
+import { B1_WRITING_TASKS } from "./writing-tasks-b1";
+import { withUnitWriting } from "./unitWriting";
 
 const B1_BASE_LESSONS: Lesson[] = [
   {
@@ -18253,4 +18255,4 @@ const B1_BASE_LESSONS: Lesson[] = [
 // the same way; at a shared anchor they follow the reinforcement lessons.
 // sequencing.ts applies the course order (moved topics, spread-out
 // vocabulary, optional Extra Practice) after weaving.
-export const B1_LESSONS: Lesson[] = buildLevel("B1", B1_BASE_LESSONS, [...B1_REINFORCEMENT, ...B1_DRILLS, ...B1_COMMON_WORDS, ...B1_GAPS, ...B1_SURVIVAL]);
+export const B1_LESSONS: Lesson[] = withUnitWriting(buildLevel("B1", B1_BASE_LESSONS, [...B1_REINFORCEMENT, ...B1_DRILLS, ...B1_COMMON_WORDS, ...B1_GAPS, ...B1_SURVIVAL]), B1_WRITING_TASKS);
