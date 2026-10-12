@@ -8,6 +8,8 @@ import { A1_CORE_PLACES } from "./a1-core";
 import { A2_PLACES } from "./a2-perfect-pronouns";
 import { withLevelTest } from "./level-tests";
 import { withUnitReviews } from "./unit-reviews";
+import { withExtraDrills } from "./extra-drills";
+import { withHonestDuration } from "./lessonTime";
 
 // Course order on top of weave.ts. weaveLessons can only place a lesson
 // right after another one, so the reordering that came out of the
@@ -333,6 +335,9 @@ export function buildLevel(level: Level, base: Lesson[], extras: AnchoredLesson[
   // Listening, speaking and writing practice (skills.ts), a review lesson
   // at the end of every unit (unit-reviews.ts), then the four-skill level
   // test in place of the exit lesson (level-tests.ts).
+  // Extra drills (extra-drills.ts) go in before the unit reviews, which
+  // draw on lessons' exercises, and every duration is the honest estimate.
   const exit = LEVEL_EXIT_SLUGS[level];
-  return withLevelTest(level, renumber(withUnitReviews(level, withSkills(level, lessons), exit)), exit);
+  const drilled = withExtraDrills(level, lessons);
+  return withLevelTest(level, renumber(withUnitReviews(level, withSkills(level, drilled), exit)), exit).map(withHonestDuration);
 }
