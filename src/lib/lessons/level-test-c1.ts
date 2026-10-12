@@ -203,8 +203,8 @@ export const LEVEL_TEST_C1: LevelTest = {
           "Marcador consecutivo: por consiguiente (por lo tanto, en consecuencia, así pues).",
           ["por lo tanto", "por tanto", "en consecuencia", "así pues", "así que"]
         ),
-        fe("No contesta. ___ dormido.", "Estará", "He's not answering. [He must be] asleep.", "Conjetura sobre el presente: futuro simple, estará."),
-        fe("Cuando llegamos, ___ las doce.", "serían", "When we arrived, [it must have been] twelve o'clock.", "Conjetura sobre el pasado: condicional, serían."),
+        fe("No contesta. ___ dormido.", "Estará", "He's not answering. [He must be] asleep.", "Conjetura sobre el presente: el futuro simple (estará) equivale a «debe de estar».", ["Debe de estar", "Debe estar"]),
+        fe("Cuando llegamos, ___ las doce.", "serían", "When we arrived, [it must have been] twelve o'clock.", "Conjetura sobre el pasado: el condicional (serían) equivale a «debían de ser».", ["debían de ser", "debían ser", "deberían de ser", "deberían ser"]),
         fe(
           "¿Dónde ___ las llaves? No las encuentro.",
           "habré puesto",

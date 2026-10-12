@@ -513,7 +513,7 @@ export const LEVEL_QUESTIONS: Record<PlacementLevel, PlacementQuestion[]> = {
       "—¿Por qué no habrá venido Ana? —No sé, ___ algún problema con el coche.",
       ["tenga", "habrá tenido", "ha tenido", "tuvo"],
       1,
-      "Para suponer algo sobre un pasado reciente se usa el futuro compuesto: habrá tenido. «Ha tenido» o «tuvo» lo afirmarían, y no encaja después de «no sé»."
+      "Para suponer algo sobre un pasado reciente se usa el futuro compuesto: habrá tenido. «Ha tenido» o «tuvo» lo afirmarían, lo que no encaja después de «no sé»; y «tenga» necesitaría un inductor como «quizá» o «puede que»."
     ),
     listen(
       "c1-no-es-que",
@@ -623,8 +623,8 @@ export const PLACEMENT_TOTAL = ROUTER_QUESTIONS.length + 2 * LEVEL_QUESTIONS.A1.
 /** The two adjacent levels stage 2 tests. */
 export type PlacementBand = [PlacementLevel, PlacementLevel];
 
-// Router score (of 12) → band. Chance alone on the eight multiple-choice
-// router questions averages about 2, so a true beginner lands in A1-A2;
+// Router score (of 12) → band. Chance alone on the ten multiple-choice and
+// listening router questions averages about 2.5, so a true beginner lands in A1-A2;
 // each band then needs roughly the router questions up to its lower
 // level right, plus a few above it.
 const BAND_CUTOFFS: [minCorrect: number, band: PlacementBand][] = [

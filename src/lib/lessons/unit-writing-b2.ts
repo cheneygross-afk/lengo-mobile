@@ -50,7 +50,7 @@ export const B2_UNIT_WRITING: Record<string, WriteExercise> = {
     "¿Qué harías si pudieras vivir un año en cualquier país del mundo? Escribe dónde vivirías, qué harías y qué echarías de menos. Usa también como si.",
     ["Si + imperfecto de subjuntivo, condicional", "Al menos cuatro condicionales", "Como si + imperfecto de subjuntivo", "Al menos un verbo irregular (pudiera, tuviera, fuera…)"],
     "Si pudiera vivir un año en cualquier país, elegiría Japón. Si tuviera tiempo, estudiaría japonés antes de ir. Viviría en Kioto, en una casa tradicional, y trabajaría como profesora de español. Si fuera posible, viajaría a Hokkaido en invierno para ver la nieve. Echaría de menos a mi familia y el pan de mi barrio. Mis amigos me miran como si estuviera loca, pero es mi sueño desde niña.",
-    "Condición poco probable: si + imperfecto de subjuntivo, consecuencia en condicional (si pudiera, elegiría). Como si siempre lleva imperfecto de subjuntivo: como si estuviera loca."
+    "Condición poco probable: si + imperfecto de subjuntivo, consecuencia en condicional (si pudiera, elegiría). Como si siempre lleva imperfecto (o pluscuamperfecto) de subjuntivo: como si estuviera loca."
   ),
   "b2r-contrast-si-tengo-tuviera": t(
     "Un amigo duda entre aceptar un trabajo en otra ciudad o quedarse. Escríbele dos escenarios (si acepta / si no acepta) y tu consejo con «si yo fuera tú».",

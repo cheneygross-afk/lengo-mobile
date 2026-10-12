@@ -44,7 +44,7 @@ export const C1_SKILLS: Record<string, Exercise[]> = {
   ],
   "c1r-dialogue-lab-porteno": [
     lc(
-      "—¿Vos venís a la juntada del sábado? —Dale, pero llevo algo para tomar, ¿qué querés?",
+      "—¿Vos venís a la juntada del sábado? —Dale, y llevo algo para tomar, ¿qué querés?",
       "Escucha. ¿Qué responde la segunda persona?",
       ["Que irá y llevará algo de beber", "Que no puede ir el sábado", "Que prefiere quedarse en casa", "Que no sabe qué es una juntada"],
       0,

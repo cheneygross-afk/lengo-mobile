@@ -91,7 +91,7 @@ export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
     "Escribe la conclusión de un discurso a favor de la lectura en las escuelas. Usa al menos tres recursos retóricos: anáfora, pregunta retórica, tríada o antítesis.",
     ["Una anáfora (repetición al inicio de frases)", "Una pregunta retórica", "Una tríada (serie de tres)", "Un cierre contundente"],
     "Por eso, termino como empecé. Leer es viajar sin moverse. Leer es dialogar con los muertos y con los que aún no han nacido. Leer es aprender a pensar por uno mismo. ¿Qué sociedad queremos construir si nuestros hijos no saben concentrarse más de dos minutos? Necesitamos bibliotecas abiertas, profesores motivados y familias implicadas. No pido que todos los niños sean lectores apasionados; pido que todos tengan la oportunidad de serlo. Porque un niño que lee hoy será un ciudadano libre mañana.",
-    "Anáfora: leer es… repetido. Pregunta retórica: ¿Qué sociedad queremos construir…? Tricolon: bibliotecas, profesores y familias. Antítesis final: hoy / mañana, niño / ciudadano."
+    "Anáfora: leer es… repetido. Pregunta retórica: ¿Qué sociedad queremos construir…? Tríada: bibliotecas, profesores y familias. Antítesis final: hoy / mañana, niño / ciudadano."
   ),
   "presentations-negotiation-1": t(
     "Escribe la apertura y la primera transición de una presentación para convencer a unos inversores de financiar tu aplicación de idiomas.",
@@ -148,10 +148,10 @@ export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
     "Reconocer sin conceder (entiendo que estéis molestos), reformular en neutro (el problema no es quién…, sino…) y proponer algo verificable desactiva el conflicto."
   ),
   "historical-narrative-1": t(
-    "Narra un episodio histórico que conozcas (real) en un párrafo, usando el imperfecto narrativo o el presente histórico, y al menos un pretérito anterior o pluscuamperfecto.",
-    ["Presente histórico o imperfecto narrativo", "Pretérito anterior (hubo + participio) o pluscuamperfecto", "Marcadores temporales precisos", "Tono de relato histórico"],
-    "El 12 de octubre de 1492, tras más de dos meses de travesía, la tripulación de Colón divisa tierra. Nada más amanecer, los marineros desembarcan en una pequeña isla del Caribe, que los taínos llamaban Guanahaní. Colón está convencido de que ha llegado a las Indias, a las que había prometido llegar navegando hacia el oeste. Nunca sabrá que había alcanzado un continente desconocido para los europeos. Aquel encuentro cambiará para siempre la historia de ambos mundos.",
-    "El presente histórico (divisa, desembarcan) acerca el relato; «nada más amanecer» marca la anterioridad inmediata (equivale al literario «apenas hubo amanecido»); el pluscuamperfecto (había prometido, había alcanzado) recoge los antecedentes; el futuro de perspectiva (nunca sabrá, cambiará) anticipa desde el pasado."
+    "Narra un episodio histórico que conozcas (real) en un párrafo, usando el imperfecto narrativo o el presente histórico, y al menos un pretérito anterior o pluscuamperfecto (con eje en pasado) o, con presente histórico, un perfecto o indefinido de anterioridad.",
+    ["Presente histórico o imperfecto narrativo", "Pretérito anterior o pluscuamperfecto (con eje pasado) o perfecto compuesto e indefinido (con presente histórico)", "Marcadores temporales precisos", "Tono de relato histórico"],
+    "El 12 de octubre de 1492, tras más de dos meses de travesía, la tripulación de Colón divisa tierra. Nada más amanecer, los marineros desembarcan en una pequeña isla del Caribe, que los taínos llamaban Guanahaní. Colón está convencido de que ha llegado a las Indias, a las que prometió llegar navegando hacia el oeste. Nunca sabrá que ha alcanzado un continente desconocido para los europeos. Aquel encuentro cambiará para siempre la historia de ambos mundos.",
+    "El presente histórico (divisa, desembarcan) acerca el relato; «nada más amanecer» marca la anterioridad inmediata (equivale al literario «apenas hubo amanecido»); con eje en presente, los antecedentes van en perfecto o indefinido (ha llegado, prometió, ha alcanzado), y el pluscuamperfecto se reserva para relatos con eje en pasado; el futuro de perspectiva (nunca sabrá, cambiará) anticipa desde el pasado."
   ),
   "historical-narrative-6": t(
     "Escribe un párrafo de un ensayo histórico sobre la llegada de la imprenta a España, con conectores narrativos, voz del historiador y registro culto.",

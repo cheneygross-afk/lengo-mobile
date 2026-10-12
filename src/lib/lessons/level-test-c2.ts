@@ -10,7 +10,7 @@ import { listeningItems, mcFirst, readingSection, type LevelTest } from "./level
 const { fe, sec } = authoring("es");
 
 export const LEVEL_TEST_C2: LevelTest = {
-  title: "Prueba de nivel Profesional y Académico: examen de maestría",
+  title: "Prueba de nivel Profesional y Académico: examen de dominio",
   summary:
     "La prueba final del nivel Profesional y Académico: comprensión de lectura y auditiva, léxico, registro y expresiones idiomáticas, y una reseña crítica. 46 preguntas sobre lo que se enseña en el nivel Profesional y Académico; se aprueba con un 70%.",
   duration: "60 min",
@@ -29,7 +29,7 @@ export const LEVEL_TEST_C2: LevelTest = {
           "«Desestimar el recurso y confirmar la sanción»: desestimar es rechazar.",
         ],
         [
-          "¿Por qué?",
+          "¿Por qué desestima el recurso la Dirección?",
           ["El interesado no aportó pruebas que contradijeran los hechos", "La Inspección cometió un error", "El recurso se presentó fuera de plazo", "El interesado reconoció los hechos"],
           "«No ha aportado prueba alguna que desvirtúe los hechos»: desvirtuar es quitar valor o fundamento.",
         ],
@@ -228,14 +228,14 @@ export const LEVEL_TEST_C2: LevelTest = {
       "Parte 4 · Expresión escrita. Escriba una reseña crítica de una película, una novela o una exposición que conozca bien: sitúe la obra, valore sus aciertos y sus carencias con argumentos y termine con una valoración global. Use un registro culto, con alguna cita o referencia y algún recurso retórico.",
       [200, 260],
       [
-        "Sitúa la obra (autor, contexto, género) en pocas líneas",
-        "Valora aciertos y carencias con argumentos concretos, no solo con adjetivos",
-        "Usa léxico preciso y evaluativo, y al menos un recurso retórico (pregunta retórica, metáfora, ironía)",
-        "Incluye una cita o referencia con un verbo de cita adecuado",
-        "Cierra con una valoración global coherente con lo anterior",
+        "Sitúe la obra (autor, contexto, género) en pocas líneas",
+        "Valore aciertos y carencias con argumentos concretos, no solo con adjetivos",
+        "Use léxico preciso y evaluativo, y al menos un recurso retórico (pregunta retórica, metáfora, ironía)",
+        "Incluya una cita o referencia con un verbo de cita adecuado",
+        "Cierre con una valoración global coherente con lo anterior",
       ],
-      "Con «La casa de los espíritus», Isabel Allende inauguró en 1982 una trayectoria que la convertiría en una de las voces más leídas de la literatura en español. La novela narra, a lo largo de cuatro generaciones, la historia de la familia Trueba, y en ella resuenan, sin nombrarse, los años más convulsos de la historia chilena. Su mayor acierto reside en la construcción de personajes femeninos: Clara, Blanca y Alba no son meros testigos, sino el hilo que cose la memoria familiar frente al olvido. La prosa, generosa en imágenes, convierte lo cotidiano en prodigio sin que el lector sienta artificio alguno. ¿Puede pedirse más a una primera novela? Quizá sí. La deuda con García Márquez resulta, por momentos, demasiado evidente, y algunos críticos han señalado que el realismo mágico funciona aquí más como decorado que como necesidad del relato. Tampoco el desenlace escapa a cierto didactismo: la voluntad de cerrar las heridas pesa más que la ambigüedad que la historia venía cultivando. Con todo, sería injusto reducir la obra a sus influencias. Como escribió una novelista, escribir es una forma de «recuperar lo perdido», y esa urgencia se percibe en cada página. En suma, una novela imperfecta pero imprescindible, que sigue interpelando a quien se acerca a ella.",
-      "La reseña sitúa la obra, argumenta aciertos y carencias con ejemplos, usa una pregunta retórica y una metáfora («el hilo que cose la memoria»), cita con un verbo adecuado (escribió) y cierra con una valoración matizada («imperfecta pero imprescindible»)."
+      "Con «La casa de los espíritus», Isabel Allende inauguró en 1982 una trayectoria que la convertiría en una de las voces más leídas de la literatura en español. La novela narra, a lo largo de cuatro generaciones, la historia de la familia Trueba, y en ella resuenan, sin nombrarse, los años más convulsos de la historia chilena. Su mayor acierto reside en la construcción de personajes femeninos: Clara, Blanca y Alba no son meros testigos, sino el hilo que cose la memoria familiar frente al olvido. La prosa, generosa en imágenes, convierte lo cotidiano en prodigio sin que el lector sienta artificio alguno. ¿Puede pedirse más a una primera novela? Quizá sí. La deuda con García Márquez resulta, por momentos, demasiado evidente, y algunos críticos han señalado que el realismo mágico funciona aquí más como decorado que como necesidad del relato. Tampoco el desenlace escapa a cierto didactismo: la voluntad de cerrar las heridas pesa más que la ambigüedad que la historia venía cultivando. Con todo, sería injusto reducir la obra a sus influencias. Como ha contado la propia autora, la novela nació de una carta a su abuelo moribundo, y esa urgencia por salvar la memoria se percibe en cada página. En suma, una novela imperfecta pero imprescindible, que sigue interpelando a quien se acerca a ella.",
+      "La reseña sitúa la obra, argumenta aciertos y carencias con ejemplos, usa una pregunta retórica y una metáfora («el hilo que cose la memoria»), cita con un verbo adecuado (ha contado) y cierra con una valoración matizada («imperfecta pero imprescindible»)."
     ),
   ],
 };

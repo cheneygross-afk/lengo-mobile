@@ -185,7 +185,7 @@ export const LEVEL_TEST_B2: LevelTest = {
         fe("La rana ___ en un príncipe.", "se convirtió", "The frog [turned] into a prince.", "Transformación completa: convertirse en.", ["se transformó"]),
         fe("Está lloviendo; ___, saldremos.", "sin embargo", "It's raining; [however], we'll go out.", "Contraste: sin embargo (no obstante, aun así).", ["no obstante", "aun así"]),
         fe("___ estaba enfermo, no fue a clase.", "Como", "[Since] he was ill, he didn't go to class.", "Causa al principio de la frase: como (ya que, puesto que, dado que).", ["Ya que", "Puesto que", "Dado que"]),
-        fe("___ rompió el jarrón fue el gato.", "Quien", "[The one who] broke the vase was the cat.", "Oración hendida: quien (o el que) rompió el jarrón fue el gato.", ["El que"]),
+        fe("___ rompió el jarrón fue el gato.", "El que", "[The one who] broke the vase was the cat.", "Oración hendida: el que rompió el jarrón fue el gato. Quien solo se usa para personas, así que con un animal se dice el que."),
         fe("La casa, ___ dueño vive en París, está en venta.", "cuyo", "The house, [whose] owner lives in Paris, is for sale.", "Cuyo concuerda con lo poseído: cuyo dueño."),
         fe("No sabes lo ___ que es este examen.", "difícil", "You don't know how [difficult] this exam is.", "Lo + adjetivo + que: lo difícil que es."),
       ]

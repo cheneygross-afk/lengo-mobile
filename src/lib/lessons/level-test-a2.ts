@@ -178,8 +178,7 @@ export const LEVEL_TEST_A2: LevelTest = {
           "Mi abuela me ___ cuentos cuando era pequeña.",
           "contaba",
           "My grandmother [used to tell] me stories when I was little.",
-          "A habit in the past: imperfect, contaba (leía, \"used to read\", also fits).",
-          ["leía"]
+          "A habit in the past takes the imperfect: contaba (contar → contaba, with no o → ue change in the imperfect)."
         ),
         fe("Anoche no ___ nada.", "comí", "Last night I didn't [eat] anything.", "Comer → comí; no ... nada is the normal double negative."),
       ]

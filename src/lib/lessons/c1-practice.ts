@@ -669,7 +669,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   "neutral-vs-colloquial-3": [
     fe("Un buen periodista sabe ___ con soltura entre registros.", "moverse", "A good journalist knows how to [move] comfortably between registers.", "«Moverse con soltura»: actuar con naturalidad entre opciones.", ["pasar", "cambiar"]),
     fe("Un registro coloquial en un informe no resulta ___.", "pertinente", "A colloquial register in a report isn't [appropriate].", "El criterio es la pertinencia, no la superioridad de un registro.", ["adecuado", "apropiado", "oportuno"]),
-    fe("La publicidad suele ___ registros conscientemente.", "combinar", "Advertising often [combines] registers deliberately.", "Soler + infinitivo: acción habitual.", ["mezclar"]),
+    fe("La publicidad suele ___ registros conscientemente.", "combinar", "Advertising often [combines] registers deliberately.", "«Combinar registros»: mezclar a propósito lo formal y lo coloquial para lograr un efecto, como cercanía sin perder claridad.", ["mezclar"]),
   ],
   "neutral-vs-colloquial-4": [
     fe("Lo que hizo fue una auténtica ___ de pata.", "metida", "What he did was a real [blunder].", "«Una metida de pata» (América) o «metedura de pata» (España): un error torpe, dicho con complicidad.", ["metedura"]),

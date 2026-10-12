@@ -131,7 +131,7 @@ export const LEVEL_TEST_A1: LevelTest = {
         fe("___ libro es muy interesante.", "Este", "[This] book is very interesting.", "Near the speaker, masculine: este libro."),
         fe("Son las ___.", "tres y media", "It's [half past three].", "Half past: y media. Son las tres y media."),
         fe("Mi cumpleaños es el ___ de mayo.", "quince", "My birthday is on the [fifteenth] of May.", "Dates use plain numbers: el quince de mayo.", ["15"]),
-        fe("¿___ te llamas?", "Cómo", "[What]'s your name?", "Spanish asks \"how are you called\": ¿Cómo te llamas?"),
+        fe("¿___ te llamas?", "Cómo", "[What's] your name? (literally: how do you call yourself?)", "Spanish asks \"how are you called\": ¿Cómo te llamas?"),
         fe("¿___ cuesta el billete?", "Cuánto", "[How much] is the ticket?", "Prices: ¿Cuánto cuesta?"),
         fe(
           "Ahora mismo ___ la cena.",

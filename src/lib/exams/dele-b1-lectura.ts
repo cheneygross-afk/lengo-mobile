@@ -45,7 +45,7 @@ export const DELE_B1_LECTURA: ExamPaper = {
             "1. BEATRIZ: Acabo de jubilarme y tengo mucho tiempo libre. Me gustaría hacer algo útil para los demás, sobre todo para personas de mi edad que viven solas.\n\n" +
             "2. RAÚL: Trabajo toda la semana en una oficina y los sábados necesito salir de la ciudad, respirar aire limpio y hacer ejercicio en la naturaleza.\n\n" +
             "3. NURIA: Me encanta cantar, pero solo lo hago en la ducha. Quiero perder la vergüenza y cantar con otras personas.\n\n" +
-            "4. TOMÁS: Mi mujer y yo nos casamos en junio y en la boda queremos sorprender a los invitados con un buen vals.\n\n" +
+            "4. TOMÁS: Mi novia y yo nos casamos en junio y en la boda queremos sorprender a los invitados con un buen vals.\n\n" +
             "5. INÉS: Estudio alemán y necesito practicar la conversación. A cambio, puedo ayudar a otras personas con su español.\n\n" +
             "6. MARCOS: Voy al trabajo en bici todos los días y siempre tengo algún problema: una rueda pinchada, los frenos… Quiero aprender a arreglarla yo mismo.",
         },
@@ -117,7 +117,7 @@ export const DELE_B1_LECTURA: ExamPaper = {
         {
           title: "El pueblo que volvió a tener escuela",
           body:
-            "Hace diez años, Valdelinares, un pueblo de la provincia de Teruel, tenía solo cuarenta habitantes, casi todos mayores de sesenta y cinco años. La escuela había cerrado en 2009 porque no había niños y el último bar abría solo en verano, cuando volvían los hijos de los antiguos vecinos. Hoy el pueblo tiene ciento veinte habitantes y la escuela ha vuelto a abrir con catorce alumnos.\n\n" +
+            "Hace diez años, Valdeolmos del Río, un pequeño pueblo de la provincia de Teruel, tenía solo cuarenta habitantes, casi todos mayores de sesenta y cinco años. La escuela había cerrado en 2009 porque no había niños y el último bar abría solo en verano, cuando volvían los hijos de los antiguos vecinos. Hoy el pueblo tiene ciento veinte habitantes y la escuela ha vuelto a abrir con catorce alumnos.\n\n" +
             "El cambio empezó con una idea de la alcaldesa, Pilar Gómez. \"Teníamos casas vacías y buena conexión a internet gracias a un proyecto europeo. Pensamos que había mucha gente en las ciudades que podía trabajar desde cualquier sitio\", explica. El ayuntamiento compró cinco casas abandonadas, las reformó y empezó a alquilarlas a precios muy bajos, con una condición: los nuevos vecinos tenían que vivir en el pueblo todo el año.\n\n" +
             "Entre los primeros en llegar estuvieron Andrés y Lucía, una pareja de diseñadores gráficos de Barcelona. \"En la ciudad pagábamos mil doscientos euros por un piso pequeño y pasábamos una hora al día en el metro. Aquí pagamos trescientos por una casa con jardín\", cuenta Lucía. Reconoce que el primer invierno fue duro: \"Nieva mucho y la tienda más cercana está a veinte kilómetros. Tuvimos que aprender a planificar la compra\".\n\n" +
             "Los vecinos de toda la vida recibieron a los recién llegados con curiosidad y, al principio, con algo de desconfianza. \"Pensábamos que se iban a ir en unos meses\", admite Julián, de setenta y ocho años. Ahora es él quien enseña a los niños a cuidar el huerto de la escuela. El bar abre todo el año y este verano se ha inaugurado un pequeño espacio de trabajo compartido. La próxima meta, dice la alcaldesa, es conseguir que un médico pase consulta en el pueblo dos días por semana en vez de uno.",
@@ -127,7 +127,7 @@ export const DELE_B1_LECTURA: ExamPaper = {
       items: [
         {
           n: 7,
-          question: "Según el texto, hace diez años en Valdelinares…",
+          question: "Según el texto, hace diez años en Valdeolmos del Río…",
           options: ["no había ningún bar.", "la mayoría de los vecinos eran mayores.", "había una escuela con pocos alumnos."],
           answer: 1,
           explanation: "Tenía cuarenta habitantes, \"casi todos mayores de sesenta y cinco años\". La escuela estaba cerrada y el bar abría en verano.",
@@ -246,7 +246,7 @@ export const DELE_B1_LECTURA: ExamPaper = {
       items: [
         { n: 25, question: "", options: ["te escribí", "te haya escrito", "te escribo"], answer: 1, explanation: "\"Perdona que\" pide subjuntivo; el perfecto (haya escrito) se refiere a algo ya pasado." },
         { n: 26, question: "", options: ["fui", "iba", "he ido"], answer: 0, explanation: "\"La semana pasada\" marca una acción terminada: pretérito indefinido." },
-        { n: 27, question: "", options: ["en", "con", "de"], answer: 1, explanation: "Venir con alguien: acompañar a alguien. Ojo: con + mí se dice conmigo." },
+        { n: 27, question: "", options: ["en", "con", "de"], answer: 1, explanation: "Venir con alguien = acompañarlo. «Venir en» indica el medio de transporte (en tren) y «venir de», el origen." },
         { n: 28, question: "", options: ["desde", "entre", "hacia"], answer: 0, explanation: "Desde... hasta marca el punto de partida y el de llegada." },
         { n: 29, question: "", options: ["aunque", "porque", "sino"], answer: 1, explanation: "Da la causa: tiene que reservar pronto." },
         { n: 30, question: "", options: ["va", "vaya", "irá"], answer: 1, explanation: "\"Espero que\" expresa un deseo y lleva subjuntivo." },

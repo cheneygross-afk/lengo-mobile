@@ -195,7 +195,7 @@ export const DELE_B2_LECTURA: ExamPaper = {
         { n: 23, question: "", options: ["como", "que", "de"], answer: 0, explanation: "Tanto… como: comparación de igualdad." },
         { n: 24, question: "", options: ["están", "son", "sean"], answer: 1, explanation: "Son: el verbo tiene dos atributos, «jubilados o personas que trabajan desde casa»; «están jubilados» sería posible solo, pero no «están personas». Indicativo, porque es un dato." },
         { n: 25, question: "", options: ["por lo tanto", "mientras que", "ya que"], answer: 1, explanation: "Mientras que contrapone la siesta corta a la larga." },
-        { n: 26, question: "", options: ["después de", "antes que", "tras de"], answer: 0, explanation: "Después de + infinitivo." },
+        { n: 26, question: "", options: ["después de", "antes que", "tras de"], answer: 0, explanation: "Después de + infinitivo: la siesta va tras la comida. «Antes que» invertiría el orden lógico (no se duerme la siesta antes de comer) y «tras de» + infinitivo resulta hoy anticuado (se dice «tras comer» o «después de comer»)." },
         { n: 27, question: "", options: ["entra", "entre", "entrará"], answer: 1, explanation: "Evitar que + subjuntivo." },
         { n: 28, question: "", options: ["según", "para", "sobre"], answer: 0, explanation: "Según introduce la fuente de una opinión." },
         { n: 29, question: "", options: ["por", "para", "con"], answer: 0, explanation: "Sustituir algo por otra cosa." },

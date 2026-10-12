@@ -1403,8 +1403,8 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "en": "refrán que advierte contra tomar decisiones importantes un martes trece"
           },
           {
-            "es": "estar de racha",
-            "en": "atravesar un período sostenido de buena o mala suerte"
+            "es": "estar en racha",
+            "en": "atravesar un período sostenido de buena suerte (también: tener una buena / mala racha)"
           },
           {
             "es": "cambiar la suerte",
@@ -1438,13 +1438,13 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la expresión que describe un período sostenido de buena o mala suerte.",
+        "prompt": "Completa la expresión que describe un período sostenido de buena suerte.",
         "sentence": "Ha ganado tres torneos seguidos este mes: está ___.",
-        "answer": "de racha",
+        "answer": "en racha",
         "altAnswers": [
-          "en racha"
+          "de racha"
         ],
-        "explanation": "Estar de racha (también «estar en racha») es atravesar un período sostenido de buena o mala suerte; aquí, de buena suerte, con tres victorias seguidas."
+        "explanation": "Estar en racha (también se oye «estar de racha») es atravesar un período sostenido de buena suerte; aquí, con tres victorias seguidas."
       },
       {
         "type": "multi-select",
@@ -1557,8 +1557,8 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "en": "refrán contra decisiones importantes en martes trece"
           },
           {
-            "es": "estar de racha",
-            "en": "atravesar un período sostenido de buena o mala suerte"
+            "es": "estar en racha",
+            "en": "atravesar un período sostenido de buena suerte (también: tener una buena / mala racha)"
           },
           {
             "es": "cambiar la suerte",
@@ -1609,7 +1609,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "right": "funcionar de maravilla, como un remedio milagroso"
           },
           {
-            "left": "estar de racha",
+            "left": "estar en racha",
             "right": "atravesar un período sostenido de suerte"
           },
           {

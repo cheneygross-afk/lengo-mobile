@@ -179,10 +179,20 @@ function unitSentences(
     : [];
   // Sentences from the unit's optional practice lessons come first: same
   // grammar, but most learners haven't seen them yet.
-  const fromVariants = variants.length ? shuffled(collect(examplesOf(variants)), random) : [];
+  // Round-robin over lessons so one lesson with many examples can't fill
+  // the whole review (e.g. every listening item on one topic).
+  const spread = (list: Sentence[]): Sentence[] => {
+    const groups = new Map<string, Sentence[]>();
+    for (const s of list) groups.set(s.lesson ?? "", [...(groups.get(s.lesson ?? "") ?? []), s]);
+    const out: Sentence[] = [];
+    for (let i = 0; out.length < list.length; i++)
+      for (const g of groups.values()) if (i < g.length) out.push(g[i]);
+    return out;
+  };
+  const fromVariants = variants.length ? spread(shuffled(collect(examplesOf(variants)), random)) : [];
   return [
     ...fromVariants,
-    ...shuffled(collect(examplesOf(lessons)), random),
+    ...spread(shuffled(collect(examplesOf(lessons)), random)),
     ...shuffled(collect(fromExercises), random),
     ...shuffled(collect(prose), random),
   ];

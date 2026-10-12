@@ -302,7 +302,7 @@ export const B1_GUIDES: GrammarGuide[] = [
       },
       {
         q: "How do I say \"would have\"?",
-        a: "Use the conditional perfect: habría ido, \"I would have gone.\" See the guide on the pluperfect subjunctive and conditional perfect.",
+        a: "Use the conditional perfect: habría ido, \"I would have gone.\" See the guide Would Have and Had Done: Habría and Hubiera.",
       },
     ],
     related: ["si-clauses", "spanish-future-tense", "future-and-conditional-of-probability"],
@@ -516,7 +516,7 @@ export const B1_GUIDES: GrammarGuide[] = [
     level: "B1",
     readingLevelPath: "b1",
     intro: [
-      "The tú command guide covers talking to one friend. This one covers everyone else: vosotros (a group of friends, in Spain), usted (one person, formally) and ustedes (a group, formally, and every group in Latin America).",
+      "The Spanish Commands guide focuses on tú, talking to one friend. This one covers everyone else: vosotros (a group of friends, in Spain), usted (one person, formally) and ustedes (a group, formally, and every group in Latin America).",
     ],
     sections: [
       {
@@ -796,9 +796,9 @@ export const B1_GUIDES: GrammarGuide[] = [
         why: "The passive se doesn't take a por + agent phrase.",
       },
       {
-        wrong: "Yo olvidé accidentalmente mis llaves.",
+        wrong: "Se me olvidó las llaves.",
         right: "Se me olvidaron las llaves.",
-        why: "Not wrong grammatically, but for accidents Spanish naturally uses se + pronoun.",
+        why: "In the accidental se the verb agrees with the thing (las llaves), not with the person: se me olvidaron.",
       },
     ],
     faqs: [
@@ -951,7 +951,7 @@ export const B1_GUIDES: GrammarGuide[] = [
       {
         heading: "With an infinitive: obligation and habit",
         body: [
-          "Tener que (have to, personal obligation), hay que (one has to, general), deber (should, must), deber de (must, probability), soler (usually, as a habit; only in present and imperfect).",
+          "Tener que (have to, personal obligation), hay que (one has to, general), deber (should, must), deber de (must, probability), soler (usually, as a habit; mainly in the present and imperfect).",
         ],
         examples: [
           { es: "Tengo que estudiar.", en: "I have to study." },
@@ -1000,7 +1000,7 @@ export const B1_GUIDES: GrammarGuide[] = [
       {
         wrong: "Solí ir.",
         right: "Solía ir.",
-        why: "Soler describes habits, so it's used only in the present and imperfect.",
+        why: "Soler describes habits, so it isn't used in the preterite; use the imperfect (solía) for past habits.",
       },
     ],
     faqs: [

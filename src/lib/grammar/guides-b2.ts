@@ -88,7 +88,7 @@ export const B2_GUIDES: GrammarGuide[] = [
       },
       {
         q: "Does \"el que\" take the subjunctive?",
-        a: "It can: El que llegue primero, gana (Whoever arrives first wins). The same known/unknown rule applies.",
+        a: "It can: El que llegue primero gana (Whoever arrives first wins). The same known/unknown rule applies.",
       },
     ],
     related: ["relative-pronouns", "spanish-subjunctive", "subjunctive-adverbial-clauses"],
@@ -361,7 +361,7 @@ export const B2_GUIDES: GrammarGuide[] = [
       {
         wrong: "Me preguntó que si tenía hambre.",
         right: "Me preguntó si tenía hambre.",
-        why: "Que si is common in speech, but standard written Spanish uses si alone.",
+        why: "Que si is grammatical and very common in speech, but careful written Spanish uses si alone.",
       },
       {
         wrong: "Me dijo que cierro la puerta.",
@@ -833,7 +833,7 @@ export const B2_GUIDES: GrammarGuide[] = [
       {
         wrong: "Porque llovía, nos quedamos.",
         right: "Como llovía, nos quedamos.",
-        why: "To give the cause first, use como. Porque usually comes after the main clause.",
+        why: "To give the cause first, como is the natural choice. Porque normally comes after the main clause; at the start it sounds marked.",
       },
       {
         wrong: "Sin embargo el hotel era bueno.",

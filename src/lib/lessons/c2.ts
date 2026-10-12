@@ -11,7 +11,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 1,
     "title": "Español Jurídico y Administrativo (Parte 1 de 2), Part 1 of 3",
-    "summary": "Familiarízate con el vocabulario y las fórmulas fijas de los documentos legales y administrativos, desde el suscrito y el compareciente hasta la sentencia y el poder notarial.",
+    "summary": "Descubre por qué el lenguaje jurídico conserva fórmulas fijas y aprende a usar «por la presente», «en virtud de» y «vinculante».",
     "duration": "9 min",
     "sections": [
       {
@@ -82,7 +82,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 2,
     "title": "Español Jurídico y Administrativo (Parte 1 de 2), Part 2 of 3",
-    "summary": "Familiarízate con el vocabulario y las fórmulas fijas de los documentos legales y administrativos, desde el suscrito y el compareciente hasta la sentencia y el poder notarial.",
+    "summary": "Distingue a los sujetos de un documento jurídico: el suscrito, el compareciente, el otorgante y el fedatario que da fe.",
     "duration": "8 min",
     "sections": [
       {
@@ -144,7 +144,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 3,
     "title": "Español Jurídico y Administrativo (Parte 1 de 2), Part 3 of 3",
-    "summary": "Familiarízate con el vocabulario y las fórmulas fijas de los documentos legales y administrativos, desde el suscrito y el compareciente hasta la sentencia y el poder notarial.",
+    "summary": "Aprende el vocabulario del proceso judicial y administrativo: demandante, demandado, sentencia, resolución administrativa, notificación fehaciente y plazo perentorio.",
     "duration": "8 min",
     "sections": [
       {
@@ -260,12 +260,12 @@ const C2_BASE_LESSONS: Lesson[] = [
         "question": "Doña Marta, que no puede viajar por motivos de salud, otorga un poder notarial para que su sobrino la represente y firme la escritura en su nombre. ¿Qué término corresponde a doña Marta en este acto, y cuál a su sobrino?",
         "options": [
           "Doña Marta es la compareciente y su sobrino es el otorgante.",
-          "Doña Marta es la otorgante, ya que concede el poder; su sobrino será el compareciente que se presente físicamente ante el notario para firmar.",
+          "Doña Marta es la otorgante, ya que concede el poder; su sobrino es el apoderado (quien la representará), que comparecerá ante el notario para firmar la escritura.",
           "Ambos son, en este caso, fedatarios del acto notarial.",
           "Doña Marta es la demandada y su sobrino el demandante."
         ],
         "correctIndex": 1,
-        "explanation": "El otorgante es quien concede algo mediante un documento —en este caso, doña Marta concede el poder—, mientras que el compareciente es quien se presenta físicamente ante el notario para realizar el acto, función que cumplirá el sobrino cuando firme la escritura en representación de su tía. Al otorgar el poder, doña Marta también comparece ante el notario (o este acude a su domicilio), pero lo que la define en este acto es ser la otorgante; ninguno de los dos es fedatario (lo es el notario); «demandante» y «demandado» son términos de un litigio, no de un poder."
+        "explanation": "El otorgante es quien concede algo mediante un documento —en este caso, doña Marta concede el poder—, mientras que el sobrino recibe el poder: es el apoderado, es decir, su representante, y será compareciente (quien se presenta físicamente ante el notario) cuando firme la escritura en representación de su tía. Al otorgar el poder, doña Marta también comparece ante el notario (o este acude a su domicilio), pero lo que la define en este acto es ser la otorgante; ninguno de los dos es fedatario (lo es el notario); «demandante» y «demandado» son términos de un litigio, no de un poder."
       },
       {
         "type": "fill-blank",
@@ -285,7 +285,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el otorgante"
         ],
         "correctIndex": 1,
-        "explanation": "El demandante es quien inicia una acción legal contra otra persona, denominada esta última demandado; ninguno de los otros dos términos designa a una parte de un litigio judicial. El demandado es la parte contra la que se dirige la acción, el compareciente es quien se presenta ante un notario o una autoridad y el otorgante es quien concede algo en un documento."
+        "explanation": "El demandante es quien inicia una acción legal contra otra persona, denominada esta última demandado. El demandado es la parte contra la que se dirige la acción, el compareciente es quien se presenta ante un notario o una autoridad y el otorgante es quien concede algo en un documento; estos dos últimos no designan a una parte del litigio."
       },
       {
         "type": "fill-blank",
@@ -378,7 +378,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "y",
           "definitiva"
         ],
-        "translation": "The judgment issued by the court is final and binding.",
+        "translation": "The judgment issued by the court is final and conclusive.",
         "explanation": "Una sentencia firme es aquella contra la que ya no cabe recurso alguno, y por tanto pone fin de manera definitiva al litigio entre las partes."
       },
       {
@@ -518,7 +518,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Que, por medio de la presente escritura, se deja constancia del acuerdo alcanzado entre las partes respecto de las cláusulas previamente negociadas.",
           "Que el notario, en su calidad de fedatario público, da fe de la identidad de los comparecientes y de la voluntad libremente expresada por ambas partes.",
           "Que cualquier incumplimiento contractual derivado del presente instrumento dará lugar a la responsabilidad solidaria de los obligados, conforme a la normativa vigente.",
-          "En prueba de conformidad, firman los comparecientes en presencia del notario, quien procede a la legalización de las firmas correspondientes."
+          "En prueba de conformidad, firman los comparecientes en presencia del notario, quien autoriza la presente escritura."
         ]
       }
     ],
@@ -553,7 +553,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 7,
     "title": "Español Jurídico y Administrativo (Parte 2 de 2), Part 3 of 4",
-    "summary": "Repasa el banco de vocabulario jurídico y administrativo: el suscrito, el compareciente, el otorgante, dar fe, la escritura pública y el notario.",
+    "summary": "Repasa el banco de vocabulario jurídico: del suscrito, la escritura pública y el notario a la cláusula resolutoria, la normativa vigente, la jurisdicción competente y el litigio.",
     "duration": "7 min",
     "sections": [
       {
@@ -640,7 +640,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Qué consecuencia tiene, según el texto, el vencimiento de un plazo perentorio sin que se conceda una prórroga?",
+        "question": "¿Qué consecuencia tiene, según lo estudiado, el vencimiento de un plazo perentorio sin que se conceda una prórroga?",
         "options": [
           "El derecho a actuar se extingue",
           "El plazo se renueva automáticamente sin necesidad de solicitud",
@@ -648,7 +648,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "La resolución administrativa pierde toda validez legal"
         ],
         "correctIndex": 0,
-        "explanation": "El texto explica que, una vez vencido un plazo perentorio, el derecho a actuar se extingue, salvo que se conceda una prórroga expresa. El plazo no se renueva automáticamente, el trámite no queda suspendido sin más y la resolución no pierde su validez."
+        "explanation": "Una vez vencido un plazo perentorio, el derecho a actuar se extingue, salvo que se conceda una prórroga expresa. El plazo no se renueva automáticamente, el trámite no queda suspendido sin más y la resolución no pierde su validez."
       }
     ]
   },
@@ -657,7 +657,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 8,
     "title": "Español Jurídico y Administrativo (Parte 2 de 2), Part 4 of 4",
-    "summary": "Amplía el vocabulario jurídico: cláusula resolutoria, normativa vigente, jurisdicción competente, litigio, demanda, plazos y prórrogas.",
+    "summary": "Amplía el vocabulario jurídico: demandante, sentencia y fallo, instancia y diligencia judicial, requerimiento formal, plazos y prórrogas, poder notarial y timbre fiscal.",
     "duration": "4 min",
     "sections": [
       {
@@ -1024,7 +1024,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 10,
     "title": "Español Médico y de la Salud, Part 1 of 6",
-    "summary": "Aprende a describir síntomas, antecedentes y tratamientos con precisión clínica, y a comprender el registro técnico que emplean los profesionales de la salud más allá de las fórmulas básicas.",
+    "summary": "Aprende a describir el dolor y la evolución de los síntomas con precisión: punzante, sordo, exacerbación, remisión, recaída y diagnóstico diferencial.",
     "duration": "9 min",
     "sections": [
       {
@@ -1095,7 +1095,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 11,
     "title": "Español Médico y de la Salud, Part 2 of 6",
-    "summary": "Aprende a describir síntomas, antecedentes y tratamientos con precisión clínica, y a comprender el registro técnico que emplean los profesionales de la salud más allá de las fórmulas básicas.",
+    "summary": "Aprende el vocabulario de la anamnesis: antecedentes familiares y patológicos, alergias medicamentosas, patología subyacente y contraindicaciones.",
     "duration": "8 min",
     "sections": [
       {
@@ -1157,7 +1157,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 12,
     "title": "Español Médico y de la Salud, Part 3 of 6",
-    "summary": "Aprende a describir síntomas, antecedentes y tratamientos con precisión clínica, y a comprender el registro técnico que emplean los profesionales de la salud más allá de las fórmulas básicas.",
+    "summary": "Aprende a hablar de la exploración física y las pruebas complementarias: auscultación, palpación, análisis de sangre y biopsia.",
     "duration": "8 min",
     "sections": [
       {
@@ -1235,7 +1235,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 13,
     "title": "Español Médico y de la Salud, Part 4 of 6",
-    "summary": "Aprende a describir síntomas, antecedentes y tratamientos con precisión clínica, y a comprender el registro técnico que emplean los profesionales de la salud más allá de las fórmulas básicas.",
+    "summary": "Comprende el vocabulario del tratamiento: posología, efectos secundarios, derivación al especialista, postoperatorio, convalecencia y consentimiento informado.",
     "duration": "7 min",
     "sections": [
       {
@@ -1312,7 +1312,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 14,
     "title": "Español Médico y de la Salud, Part 5 of 6",
-    "summary": "Aprende a describir síntomas, antecedentes y tratamientos con precisión clínica, y a comprender el registro técnico que emplean los profesionales de la salud más allá de las fórmulas básicas.",
+    "summary": "Sigue una consulta médica real y repasa el vocabulario clínico: sintomatología, exacerbación, remisión, pauta, posología y pronóstico.",
     "duration": "9 min",
     "sections": [
       {
@@ -1437,7 +1437,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 15,
     "title": "Español Médico y de la Salud, Part 6 of 6",
-    "summary": "Aprende a describir síntomas, antecedentes y tratamientos con precisión clínica, y a comprender el registro técnico que emplean los profesionales de la salud más allá de las fórmulas básicas.",
+    "summary": "Amplía el vocabulario de la consulta: exploración física, intervención quirúrgica, postoperatorio, afección crónica, brote epidémico y receta médica.",
     "duration": "6 min",
     "sections": [
       {
@@ -1520,7 +1520,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Según el texto, ¿qué se entiende por una patología subyacente?",
+        "question": "Según lo estudiado, ¿qué se entiende por una patología subyacente?",
         "options": [
           "Un síntoma pasajero sin ninguna causa identificable",
           "Una condición médica de fondo que explica síntomas aparentemente independientes",
@@ -1537,7 +1537,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 16,
     "title": "Modismos y Expresiones Idiomáticas, Part 1 of 2",
-    "summary": "Un recorrido por los modismos cotidianos más usados por hablantes nativos: su registro, la imagen figurada que los sostiene, las familias verbales que los organizan y los errores más comunes al emplearlos.",
+    "summary": "Aprende modismos cotidianos según su registro, la imagen que los sostiene y el verbo que los organiza: meter la pata, tirar la toalla, estar hasta las narices…",
     "duration": "10 min",
     "sections": [
       {
@@ -1711,7 +1711,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 17,
     "title": "Modismos y Expresiones Idiomáticas, Part 2 of 2",
-    "summary": "Un recorrido por los modismos cotidianos más usados por hablantes nativos: su registro, la imagen figurada que los sostiene, las familias verbales que los organizan y los errores más comunes al emplearlos.",
+    "summary": "Evita los errores típicos con los modismos (traducción literal y cruces) y repasa un banco amplio de expresiones en un diálogo real.",
     "duration": "9 min",
     "sections": [
       {
@@ -1982,7 +1982,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 18,
     "title": "Refranes y Dichos Populares, Part 1 of 3",
-    "summary": "Un estudio de los refranes clásicos del español: sus diferencias con el proverbio y el dicho, su estructura poética, sus aparentes contradicciones y las claves para citarlos con naturalidad en la conversación.",
+    "summary": "Distingue refrán, proverbio y dicho, y reconoce la rima y la estructura bimembre que te permiten completar un refrán.",
     "duration": "7 min",
     "sections": [
       {
@@ -2071,15 +2071,15 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Un amigo insiste en que dos personas muy distintas en carácter jamás podrían llevarse bien en pareja. ¿Qué refrán resume esa idea?",
+        "question": "Un amigo te advierte de que, si sigues saliendo con un grupo de gente conflictiva, los demás pensarán que eres como ellos. ¿Qué refrán resume esa idea?",
         "options": [
-          "cada oveja con su pareja",
+          "dime con quién andas y te diré quién eres",
           "más vale tarde que nunca",
-          "las paredes oyen",
-          "a lo hecho, pecho"
+          "en boca cerrada no entran moscas",
+          "perro que ladra no muerde"
         ],
         "correctIndex": 0,
-        "explanation": "«Cada oveja con su pareja» expresa que cada cual encaja mejor con alguien de condición o gustos semejantes. «Más vale tarde que nunca» trata de la tardanza, «las paredes oyen» aconseja discreción y «a lo hecho, pecho» pide asumir las consecuencias."
+        "explanation": "«Dime con quién andas y te diré quién eres» expresa que se juzga a las personas por sus compañías. «Más vale tarde que nunca» trata de la tardanza, «en boca cerrada no entran moscas» aconseja callar y «perro que ladra no muerde» dice que quien amenaza mucho rara vez actúa."
       },
       {
         "type": "fill-blank",
@@ -2095,7 +2095,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 19,
     "title": "Refranes y Dichos Populares, Part 2 of 3",
-    "summary": "Un estudio de los refranes clásicos del español: sus diferencias con el proverbio y el dicho, su estructura poética, sus aparentes contradicciones y las claves para citarlos con naturalidad en la conversación.",
+    "summary": "Entiende por qué hay refranes que se contradicen y aprende a citarlos con naturalidad («como dice el refrán…»).",
     "duration": "7 min",
     "sections": [
       {
@@ -2200,15 +2200,15 @@ const C2_BASE_LESSONS: Lesson[] = [
         "question": "¿Cuáles de los siguientes refranes tratan sobre las consecuencias negativas de hablar de más o de forma imprudente?",
         "options": [
           "en boca cerrada no entran moscas",
-          "el que mucho habla, mucho yerra",
-          "no hay atajo sin trabajo",
-          "quien calla otorga"
+          "las paredes oyen",
+          "quien no arriesga no gana",
+          "al mal tiempo, buena cara"
         ],
         "correctIndexes": [
           0,
           1
         ],
-        "explanation": "«En boca cerrada no entran moscas» y «el que mucho habla, mucho yerra» advierten del riesgo de hablar demasiado. «No hay atajo sin trabajo» habla del esfuerzo y «quien calla otorga» interpreta el silencio como consentimiento, no como prudencia."
+        "explanation": "«En boca cerrada no entran moscas» aconseja callar para no meterse en líos y «las paredes oyen» advierte de que lo que se dice puede llegar a oídos indeseados. «Quien no arriesga no gana» anima a atreverse y «al mal tiempo, buena cara» pide afrontar con optimismo las dificultades."
       },
       {
         "type": "matching",
@@ -2240,7 +2240,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 20,
     "title": "Refranes y Dichos Populares, Part 3 of 3",
-    "summary": "Un estudio de los refranes clásicos del español: sus diferencias con el proverbio y el dicho, su estructura poética, sus aparentes contradicciones y las claves para citarlos con naturalidad en la conversación.",
+    "summary": "Escucha refranes en una conversación real y repasa un banco amplio de refranes con su enseñanza.",
     "duration": "7 min",
     "sections": [
       {
@@ -2439,7 +2439,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 21,
     "title": "Humor y Juegos de Palabras, Part 1 of 3",
-    "summary": "Un análisis de los mecanismos del humor verbal en español: el doble sentido, la ironía y sus variantes regionales, el humor absurdo y las diferencias de estilo cómico entre los distintos países hispanohablantes.",
+    "summary": "Reconoce el doble sentido y el albur, y distingue la ironía, el sarcasmo, la retranca gallega y el choteo cubano.",
     "duration": "7 min",
     "sections": [
       {
@@ -2552,7 +2552,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 22,
     "title": "Humor y Juegos de Palabras, Part 2 of 3",
-    "summary": "Un análisis de los mecanismos del humor verbal en español: el doble sentido, la ironía y sus variantes regionales, el humor absurdo y las diferencias de estilo cómico entre los distintos países hispanohablantes.",
+    "summary": "Distingue el humor absurdo, el disparate y la agudeza, y conoce la guasa, la mordacidad, el humor negro y el humor blanco.",
     "duration": "7 min",
     "sections": [
       {
@@ -2678,20 +2678,20 @@ const C2_BASE_LESSONS: Lesson[] = [
         "instructions": "Relaciona cada término con su descripción.",
         "pairs": [
           {
-            "left": "el remate",
-            "right": "frase final de un chiste que provoca el efecto cómico buscado"
+            "left": "el disparate",
+            "right": "idea absurda dicha con total naturalidad"
           },
           {
-            "left": "el escarnio",
-            "right": "burla pública y humillante dirigida contra alguien"
+            "left": "la mordacidad",
+            "right": "crítica ingeniosa que hiere sin piedad"
           },
           {
-            "left": "la ocurrencia ingeniosa",
-            "right": "comentario inesperado y gracioso que sorprende por su agudeza"
+            "left": "la agudeza",
+            "right": "capacidad de encontrar una salida ingeniosa e inesperada"
           },
           {
-            "left": "el ingenio",
-            "right": "habilidad mental para idear soluciones o respuestas originales"
+            "left": "el chascarrillo",
+            "right": "anécdota breve y graciosa que anima una conversación"
           }
         ],
         "explanation": "Cada uno de estos términos describe un mecanismo o una cualidad distinta dentro del amplio terreno del humor verbal."
@@ -2703,7 +2703,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 23,
     "title": "Humor y Juegos de Palabras, Part 3 of 3",
-    "summary": "Un análisis de los mecanismos del humor verbal en español: el doble sentido, la ironía y sus variantes regionales, el humor absurdo y las diferencias de estilo cómico entre los distintos países hispanohablantes.",
+    "summary": "Identifica recursos humorísticos en una conversación real y amplía el vocabulario para analizar chistes: remate, chascarrillo, broma pesada…",
     "duration": "7 min",
     "sections": [
       {
@@ -2904,7 +2904,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 24,
     "title": "Metáforas y Lenguaje Figurado, Part 1 of 3",
-    "summary": "Un mapa detallado de las principales figuras retóricas del español: metáfora, símil, personificación, hipérbole, metonimia y sinécdoque, junto con los recursos que intensifican el lenguaje literario frente al uso cotidiano.",
+    "summary": "Distingue metáfora, símil, metáfora lexicalizada y catacresis, y reconoce la personificación y la prosopopeya.",
     "duration": "7 min",
     "sections": [
       {
@@ -3005,10 +3005,10 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa el término que designa el significado adicional y subjetivo de una palabra más allá de su definición literal.",
-        "sentence": "La palabra hogar tiene una fuerte carga de ___ relacionada con la calidez y la pertenencia.",
-        "answer": "connotación",
-        "explanation": "La connotación es el significado adicional y subjetivo que una palabra adquiere más allá de su definición literal, como ocurre con hogar frente a casa."
+        "prompt": "Completa el término que designa la figura que da voz a algo que no la tiene.",
+        "sentence": "En «el viejo reloj me dijo: “Se te acaba el tiempo”» hay un ejemplo de ___.",
+        "answer": "prosopopeya",
+        "explanation": "La prosopopeya va más allá de la personificación: el objeto o la idea (aquí, el reloj) llega a hablar con voz propia."
       }
     ]
   },
@@ -3017,7 +3017,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 25,
     "title": "Metáforas y Lenguaje Figurado, Part 2 of 3",
-    "summary": "Un mapa detallado de las principales figuras retóricas del español: metáfora, símil, personificación, hipérbole, metonimia y sinécdoque, junto con los recursos que intensifican el lenguaje literario frente al uso cotidiano.",
+    "summary": "Diferencia hipérbole, metonimia y sinécdoque, y reconoce recursos literarios como la anáfora, la aliteración, la gradación y la sinestesia.",
     "duration": "8 min",
     "sections": [
       {
@@ -3131,38 +3131,37 @@ const C2_BASE_LESSONS: Lesson[] = [
         "options": [
           "la anáfora",
           "la aliteración",
-          "el oxímoron",
-          "el polisíndeton"
+          "la sinestesia",
+          "la gradación"
         ],
         "correctIndexes": [
           0,
-          1,
-          3
+          1
         ],
-        "explanation": "La anáfora, la aliteración y el polisíndeton se construyen mediante distintos tipos de repetición; el oxímoron, en cambio, combina dos términos contradictorios sin repetición."
+        "explanation": "La anáfora repite una palabra al comienzo de versos o frases y la aliteración repite sonidos consonánticos. La sinestesia, en cambio, combina sensaciones de distintos sentidos y la gradación ordena los elementos por intensidad creciente o decreciente, sin basarse en la repetición."
       },
       {
         "type": "matching",
         "instructions": "Relaciona cada figura con su ejemplo correspondiente.",
         "pairs": [
           {
-            "left": "el oxímoron",
-            "right": "un silencio atronador"
+            "left": "la hipérbole",
+            "right": "me muero de hambre"
           },
           {
-            "left": "la paradoja",
-            "right": "cuanto menos tengo, más feliz me siento"
+            "left": "la metonimia",
+            "right": "se bebió dos copas de un trago"
           },
           {
-            "left": "la antítesis",
-            "right": "eres mi luz y mi sombra al mismo tiempo"
+            "left": "la sinécdoque",
+            "right": "hay cuatro bocas que alimentar"
           },
           {
-            "left": "la onomatopeya",
-            "right": "el reloj hacía tictac en la pared"
+            "left": "la sinestesia",
+            "right": "un verde chillón"
           }
         ],
-        "explanation": "Cada figura tiene un mecanismo distinto: el oxímoron combina dos términos contradictorios, la paradoja encierra una verdad bajo una apariencia contradictoria, la antítesis contrapone ideas opuestas y la onomatopeya imita un sonido."
+        "explanation": "Cada figura tiene un mecanismo distinto: la hipérbole exagera, la metonimia nombra una cosa por otra relacionada con ella (el recipiente por el contenido), la sinécdoque nombra el todo por la parte (las bocas por las personas) y la sinestesia mezcla sensaciones de distintos sentidos (un color que «chilla»)."
       }
     ]
   },
@@ -3171,7 +3170,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 26,
     "title": "Metáforas y Lenguaje Figurado, Part 3 of 3",
-    "summary": "Un mapa detallado de las principales figuras retóricas del español: metáfora, símil, personificación, hipérbole, metonimia y sinécdoque, junto con los recursos que intensifican el lenguaje literario frente al uso cotidiano.",
+    "summary": "Analiza figuras combinadas en un verso y repasa el banco completo de términos retóricos (oxímoron, paradoja, antítesis, onomatopeya…).",
     "duration": "7 min",
     "sections": [
       {
@@ -3179,10 +3178,10 @@ const C2_BASE_LESSONS: Lesson[] = [
         "body": [
           "Profesora: Fíjense en este verso: «el silencio gritaba en la habitación vacía». ¿Qué figura reconocen aquí?",
           "Estudiante: Es una especie de contradicción, porque el silencio no puede gritar.",
-          "Profesora: Exacto, y además hay una personificación: se le da al silencio la capacidad de gritar, una acción humana.",
+          "Profesora: Exacto, es un oxímoron, porque une dos ideas opuestas: silencio y grito. Y además hay una personificación: se le da al silencio la capacidad de gritar, una acción humana.",
           "Estudiante: ¿Y si el poema dijera que la habitación le susurró un secreto al poeta?",
           "Profesora: Ahí tendríamos ya una prosopopeya, porque la habitación no solo actúa como persona, sino que llega a comunicarse.",
-          "Estudiante: Entonces la paradoja y la personificación pueden combinarse en una misma imagen.",
+          "Estudiante: Entonces el oxímoron y la personificación pueden combinarse en una misma imagen.",
           "Profesora: Así es. La buena literatura rara vez usa una sola figura de manera aislada; suele entrelazar varias para construir una imagen más rica y sugerente.",
           "Estudiante: Empiezo a entender por qué este poema me pareció tan intenso al leerlo la primera vez.",
           "Profesora: Precisamente por eso: el lenguaje figurado no adorna el texto, sino que construye buena parte de su significado."
@@ -3373,7 +3372,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 27,
     "title": "Eufemismos y Lenguaje Indirecto, Part 1 of 3",
-    "summary": "Un análisis de cómo el español suaviza temas delicados como la muerte, el dinero y el despido laboral mediante el eufemismo, y de las claves para reconocer lo que realmente se comunica detrás del lenguaje indirecto.",
+    "summary": "Aprende cómo el eufemismo (y su contrario, el disfemismo) suaviza la muerte y el dinero: pasar a mejor vida, estar en números rojos, apretarse el cinturón.",
     "duration": "7 min",
     "sections": [
       {
@@ -3428,7 +3427,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "estar en números rojos",
-            "en": "eufemismo para indicar que las cuentas de alguien están en deuda"
+            "en": "eufemismo para indicar que alguien tiene la cuenta con saldo negativo o está endeudado"
           },
           {
             "es": "pasar apuros económicos",
@@ -3450,10 +3449,10 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa el eufemismo que indica que las cuentas de alguien están en deuda.",
+            "prompt": "Completa el eufemismo que indica que alguien tiene la cuenta con saldo negativo o está endeudado.",
             "sentence": "Desde que perdió el empleo, la familia está ___ y ha tenido que replantear sus gastos.",
             "answer": "en números rojos",
-            "explanation": "Estar en números rojos es el eufemismo habitual para indicar que las cuentas de alguien están en deuda.",
+            "explanation": "Estar en números rojos es el eufemismo habitual para indicar que alguien tiene la cuenta con saldo negativo o está endeudado.",
             "hint": "Piensa en el color que suele asociarse con las pérdidas en un balance financiero."
           }
         ]
@@ -3462,26 +3461,22 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Una empresa anuncia que llevará a cabo una reestructuración empresarial. ¿Qué suele encubrir habitualmente esta expresión?",
+        "question": "Una empresa anuncia que atraviesa un bajón económico. ¿Qué suele encubrir habitualmente esta expresión?",
         "options": [
-          "cambios organizativos que a menudo incluyen despidos",
+          "una caída de ingresos o una crisis más seria de lo que se admite",
           "un aumento generalizado de sueldos",
           "la apertura de nuevas oficinas",
           "una celebración interna de la empresa"
         ],
         "correctIndex": 0,
-        "explanation": "La reestructuración empresarial es un eufemismo que suele encubrir cambios organizativos que incluyen despidos, aunque se presente con un tono neutro. No anuncia subidas de sueldo, aperturas de oficinas ni celebraciones: si fuera algo positivo, no haría falta un eufemismo."
+        "explanation": "«Bajón económico» es una forma atenuada de referirse a una caída o crisis económica, aunque se presente con un tono coloquial y pasajero. No anuncia subidas de sueldo, aperturas de oficinas ni celebraciones: si fuera algo positivo, no haría falta un eufemismo."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa el eufemismo que se usa para referirse de forma respetuosa a alguien de edad avanzada.",
-        "sentence": "El centro cultural organiza actividades específicas para las ___ de la zona.",
-        "answer": "personas de la tercera edad",
-        "altAnswers": [
-          "personas mayores",
-          "personas de edad avanzada"
-        ],
-        "explanation": "La persona de la tercera edad es la expresión respetuosa y suavizada para referirse a alguien de edad avanzada."
+        "prompt": "Completa el eufemismo que indica la necesidad de reducir gastos.",
+        "sentence": "Con la subida de precios, este año toda la familia tendrá que ___.",
+        "answer": "apretarse el cinturón",
+        "explanation": "«Apretarse el cinturón» es la forma suavizada de decir que hay que gastar menos porque el dinero no alcanza."
       }
     ]
   },
@@ -3490,7 +3485,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 28,
     "title": "Eufemismos y Lenguaje Indirecto, Part 2 of 3",
-    "summary": "Un análisis de cómo el español suaviza temas delicados como la muerte, el dinero y el despido laboral mediante el eufemismo, y de las claves para reconocer lo que realmente se comunica detrás del lenguaje indirecto.",
+    "summary": "Reconoce los eufemismos laborales (prescindir de los servicios, reajuste de plantilla) y aprende a leer entre líneas el rodeo verbal.",
     "duration": "7 min",
     "sections": [
       {
@@ -3619,12 +3614,12 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "el despido de un trabajador"
           },
           {
-            "left": "la persona en situación de calle",
-            "right": "la falta de vivienda"
+            "left": "el reajuste de plantilla",
+            "right": "una reducción de personal"
           },
           {
-            "left": "estar delicado de salud",
-            "right": "una enfermedad grave"
+            "left": "pasar a mejor vida",
+            "right": "la muerte"
           }
         ],
         "explanation": "Cada eufemismo sustituye una expresión más directa para suavizar un tema considerado socialmente delicado."
@@ -3636,7 +3631,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 29,
     "title": "Eufemismos y Lenguaje Indirecto, Part 3 of 3",
-    "summary": "Un análisis de cómo el español suaviza temas delicados como la muerte, el dinero y el despido laboral mediante el eufemismo, y de las claves para reconocer lo que realmente se comunica detrás del lenguaje indirecto.",
+    "summary": "Sigue una conversación en la que se comunica un despido y repasa el banco completo de eufemismos y del vocabulario del lenguaje indirecto.",
     "duration": "7 min",
     "sections": [
       {
@@ -3681,7 +3676,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "estar en números rojos",
-            "en": "eufemismo para indicar que las cuentas de alguien están en deuda"
+            "en": "eufemismo para indicar que alguien tiene la cuenta con saldo negativo o está endeudado"
           },
           {
             "es": "pasar apuros económicos",
@@ -3837,7 +3832,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 30,
     "title": "Expresiones de Sorpresa y Énfasis, Part 1 of 2",
-    "summary": "Un repaso de las exclamaciones coloquiales que los hablantes nativos usan de verdad para negar con firmeza, mostrar sorpresa, reforzar una afirmación o expresar fastidio resignado, más allá de las fórmulas básicas de manual.",
+    "summary": "Aprende a negar con fuerza (¡ni hablar!), mostrar sorpresa (¡no me digas!) y reforzar un acuerdo (¡ya te digo!) eligiendo la intensidad adecuada.",
     "duration": "9 min",
     "sections": [
       {
@@ -3984,10 +3979,14 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la exclamación que se usa para advertir a alguien con firmeza que no haga algo.",
-        "sentence": "¡___ decir nada de esto delante de tu jefe, podría meterte en problemas!",
-        "answer": "ni se te ocurra",
-        "explanation": "Ni se te ocurra es una prohibición tajante ante la posibilidad de que alguien haga algo, adecuada para advertir sobre las consecuencias de hablar de más."
+        "prompt": "Completa la exclamación que rechaza de forma firme e informal una propuesta o afirmación.",
+        "sentence": "—Esta noche te toca fregar a ti otra vez. —¡___! Ayer fregué yo.",
+        "answer": "de eso nada",
+        "altAnswers": [
+          "ni hablar",
+          "ni de broma"
+        ],
+        "explanation": "«¡De eso nada!» rechaza con firmeza, en registro informal, lo que el otro propone o afirma; aquí niega que le toque fregar. «¡Ni hablar!» y «¡ni de broma!» también valen."
       },
       {
         "type": "multi-select",
@@ -4011,7 +4010,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 31,
     "title": "Expresiones de Sorpresa y Énfasis, Part 2 of 2",
-    "summary": "Un repaso de las exclamaciones coloquiales que los hablantes nativos usan de verdad para negar con firmeza, mostrar sorpresa, reforzar una afirmación o expresar fastidio resignado, más allá de las fórmulas básicas de manual.",
+    "summary": "Expresa fastidio y resignación (¡vaya tela!, ¡qué remedio!) y repasa en un diálogo el banco completo de exclamaciones.",
     "duration": "10 min",
     "sections": [
       {
@@ -4282,7 +4281,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 32,
     "title": "Diminutivos, Aumentativos y su Valor Expresivo, Part 1 of 2",
-    "summary": "Un estudio del valor expresivo de los sufijos -ito, -ísimo, -ón y -azo más allá del tamaño literal: afecto, ironía, torpeza, admiración y las preferencias regionales que determinan su uso.",
+    "summary": "Reconoce el valor afectivo, irónico y despectivo del diminutivo, y el aumentativo que expresa torpeza o admiración (manazas, golazo, buenísimo).",
     "duration": "10 min",
     "sections": [
       {
@@ -4417,15 +4416,15 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Alguien comenta que un compañero hizo un papelón en la reunión al equivocarse de presentación delante de todos. ¿Qué connotación tiene esa palabra?",
+        "question": "Alguien comenta que un compañero es un bocazas porque contó en la reunión un secreto que le habían confiado. ¿Qué connotación tiene esa palabra?",
         "options": [
-          "una situación vergonzosa o ridícula",
-          "una situación de gran éxito",
-          "una tarea sencilla",
+          "una persona que habla más de la cuenta o revela secretos",
+          "una persona muy elocuente y persuasiva",
+          "una persona tímida y callada",
           "una muestra de cariño"
         ],
         "correctIndex": 0,
-        "explanation": "El papelón describe una situación vergonzosa o ridícula que alguien protagoniza, en este caso el error durante la presentación. «Papelón» tiene connotación negativa: no se refiere a un éxito, ni a una tarea sencilla, ni a una muestra de cariño."
+        "explanation": "«Bocazas» es un aumentativo despectivo que designa a quien habla más de la cuenta o revela lo que debería callar, como el compañero que contó el secreto. Tiene connotación negativa: no elogia la elocuencia, no describe a alguien tímido ni expresa cariño."
       },
       {
         "type": "fill-blank",
@@ -4456,7 +4455,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 33,
     "title": "Diminutivos, Aumentativos y su Valor Expresivo, Part 2 of 2",
-    "summary": "Un estudio del valor expresivo de los sufijos -ito, -ísimo, -ón y -azo más allá del tamaño literal: afecto, ironía, torpeza, admiración y las preferencias regionales que determinan su uso.",
+    "summary": "Conoce las variantes regionales del diminutivo (-ico, -ete) y repasa en un diálogo diminutivos y aumentativos con su matiz expresivo.",
     "duration": "10 min",
     "sections": [
       {
@@ -4871,20 +4870,20 @@ const C2_BASE_LESSONS: Lesson[] = [
         "type": "multiple-choice",
         "question": "Un ejecutivo decide finalmente comenzar a trabajar en un proyecto que llevaba meses postergando. ¿Qué modismo describe mejor esa decisión?",
         "options": [
-          "hincar el diente a un proyecto",
+          "poner en marcha un proyecto",
           "dar carpetazo a algo",
           "tantear el terreno",
-          "quedarse con el puesto"
+          "jugársela"
         ],
         "correctIndex": 0,
-        "explanation": "«Hincar el diente a un proyecto» es ponerse a trabajar en él con determinación. «Dar carpetazo» es archivarlo o darlo por terminado, «tantear el terreno» es sondear antes de actuar y «quedarse con el puesto» es conseguir un empleo."
+        "explanation": "«Poner en marcha un proyecto» es iniciarlo, hacer que empiece a funcionar. «Dar carpetazo» es archivarlo o darlo por terminado, «tantear el terreno» es sondear antes de actuar y «jugársela» es arriesgarse."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa el modismo que indica llegar a un acuerdo definitivo entre las partes de una negociación.",
-        "sentence": "Después de meses de reuniones, por fin lograron ___ con el proveedor.",
-        "answer": "cerrar un trato",
-        "explanation": "Cerrar un trato significa llegar a un acuerdo definitivo entre las partes de una negociación, adecuado para el resultado final de las reuniones."
+        "prompt": "Completa el modismo que indica aprobar formalmente una propuesta.",
+        "sentence": "Después de meses de reuniones, la dirección por fin decidió ___ al acuerdo con el proveedor.",
+        "answer": "dar el visto bueno",
+        "explanation": "«Dar el visto bueno» significa aprobar algo de forma oficial, adecuado para el final de una larga negociación."
       },
       {
         "type": "multi-select",
@@ -5313,6 +5312,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la frase sobre la lectura de textos densos.",
         "sentence": "Un texto avanzado suele omitir los conectores explícitos y confiar en que el lector ___ por sí mismo la relación lógica entre las ideas.",
         "answer": "reconstruya",
+        "altAnswers": ["deduzca", "infiera", "establezca"],
         "explanation": "La prosa madura confía en la capacidad del lector de reconstruir las conexiones lógicas implícitas.",
         "hint": "forma del subjuntivo de un verbo que significa recomponer algo"
       }
@@ -5429,6 +5429,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la reflexión sobre la lectura avanzada.",
             "sentence": "En la prosa madura, el lector debe ___ las relaciones lógicas que el texto no explicita mediante conectores.",
             "answer": "reconstruir",
+            "altAnswers": ["reponer", "deducir", "inferir"],
             "explanation": "La prosa avanzada confía en que el lector reconstruya por sí mismo las relaciones lógicas implícitas entre las ideas.",
             "hint": "verbo que significa recomponer algo a partir de indicios"
           }
@@ -5488,7 +5489,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 41,
     "title": "Estrategias de Comprensión Auditiva y Lectora, Part 6 of 8",
-    "summary": "Entrena el oído con distintas variedades del español y escucha una entrevista radiofónica sobre el habla juvenil.",
+    "summary": "Entrena el oído con distintas variedades del español y lee una entrevista radiofónica sobre el habla juvenil.",
     "duration": "10 min",
     "sections": [
       {
@@ -7102,7 +7103,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 60,
     "title": "Presentaciones Orales y Negociación, Part 8 of 8",
-    "summary": "Más vocabulario de presentación y negociación.",
+    "summary": "Amplía tu vocabulario de exposición (preámbulo, argumento de cierre, ronda de preguntas) y de táctica negociadora (estrategia de anclaje, cesión mutua, límite infranqueable, contraparte).",
     "duration": "4 min",
     "sections": [
       {
@@ -7785,7 +7786,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 68,
     "title": "Citas, Referencias y Estilo de Citación, Part 8 of 8",
-    "summary": "Más vocabulario de citación.",
+    "summary": "Amplía tu vocabulario de citación: fórmulas de atribución (según se desprende de), formato de las citas (norma y estilo de citación, aparato crítico) y ética de la cita (crédito intelectual, cotejar fuentes).",
     "duration": "4 min",
     "sections": [
       {
@@ -7917,6 +7918,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con el término de la lección.",
         "sentence": "___ se desprende del informe, la inflación seguirá bajando este año.",
         "answer": "Según",
+        "altAnswers": ["Como", "Tal como"],
         "explanation": "«Según se desprende de» introduce una conclusión basada en el contenido de una fuente."
       },
       {
@@ -8173,7 +8175,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Otras estructuras de énfasis: la interpelación y la duda fingida",
         "body": [
           "Además de la pregunta retórica propiamente dicha, el español dispone de otras estructuras interrogativas orientadas al énfasis más que a la obtención de información. La interpelación dirige la pregunta directamente a una persona o a un colectivo concreto —«¿y usted, qué haría en mi lugar?»— con el fin de comprometerlo emocionalmente con el argumento, aunque no se espere en realidad una respuesta articulada en ese momento.",
-          "La duda retórica, por su parte, finge incertidumbre sobre algo que el hablante en realidad tiene muy claro, con el propósito de suavizar una afirmación que, dicha de manera directa, podría resultar demasiado tajante. Expresiones como «¿será posible que sigamos ignorando esta evidencia?» combinan la duda fingida con una crítica implícita, generando un matiz irónico de la pregunta que refuerza el mensaje sin formularlo de manera abiertamente agresiva.",
+          "La duda retórica, por su parte, finge incertidumbre sobre algo que el hablante en realidad tiene muy claro, con el propósito de realzar una afirmación o una crítica sin formularla de manera abiertamente agresiva. Expresiones como «¿será posible que sigamos ignorando esta evidencia?» combinan la duda fingida con una crítica implícita, generando un matiz irónico de la pregunta que refuerza el mensaje sin formularlo de manera abiertamente agresiva.",
           "La pregunta ecoica, que repite literalmente parte de lo dicho por el interlocutor pero con una entonación distinta, resulta un recurso especialmente eficaz para desafiar al interlocutor sin recurrir a una réplica frontal: repetir sus propias palabras, con el matiz adecuado, puede bastar para exponer una contradicción o una debilidad en su argumento."
         ],
         "examples": [
@@ -8222,7 +8224,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Duda fingida e interpelación: para qué sirven",
         "body": [
-          "La duda retórica permite suavizar una crítica sin formularla directamente, y la interpelación compromete emocionalmente al oyente al dirigirle la pregunta a él."
+          "La duda retórica permite realzar una crítica sin formularla directamente, y la interpelación compromete emocionalmente al oyente al dirigirle la pregunta a él."
         ],
         "examples": [
           {
@@ -8685,19 +8687,19 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Qué elementos forman parte de una respuesta bien estructurada en una entrevista por competencias?",
+        "question": "¿Qué elementos forman parte de una buena respuesta sobre un punto de mejora?",
         "options": [
-          "La situación de partida",
+          "El punto de mejora real",
           "Las acciones concretas emprendidas",
-          "Una lista genérica de virtudes personales",
-          "El resultado obtenido"
+          "Disfrazar una fortaleza como debilidad",
+          "El resultado ya visible"
         ],
         "correctIndexes": [
           0,
           1,
           3
         ],
-        "explanation": "La estructura eficaz combina situación, acciones concretas y resultado; una lista genérica de virtudes no aporta el ejemplo verificable que este tipo de pregunta exige."
+        "explanation": "La respuesta convincente nombra un punto de mejora real, describe las acciones emprendidas para corregirlo y muestra un resultado ya visible; disfrazar una fortaleza como debilidad suena evasivo."
       }
     ]
   },
@@ -9845,11 +9847,8 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Reescribe con imperfecto narrativo (efecto de inmediatez).",
         "sentence": "El 12 de octubre de 1492 la expedición ___ a tierra. (llegar)",
         "answer": "llegaba",
-        "explanation": "Imperfecto narrativo: hecho puntual con fecha precisa contado en imperfecto para situar al lector en el momento. El indefinido «llegó» también sería correcto, pero más neutro.",
-        "en": "On 12 October 1492 the expedition [reached] land.",
-        "altAnswers": [
-          "llegó"
-        ]
+        "explanation": "Imperfecto narrativo: hecho puntual con fecha precisa contado en imperfecto para situar al lector en el momento. El indefinido «llegó» también sería correcto, pero más neutro; aquí se pide el imperfecto narrativo.",
+        "en": "On 12 October 1492 the expedition [reached] land."
       },
       {
         "type": "multiple-choice",
@@ -9931,7 +9930,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 91,
     "title": "Narrativa histórica C2: pluscuamperfecto y pretérito anterior, Part 2 of 10",
-    "summary": "Reconocer el pretérito anterior (hubo llegado) en textos literarios e históricos, saber por qué hoy se sustituye y qué formas modernas lo reemplazan.",
+    "summary": "Distinguir el pluscuamperfecto (había firmado: anterioridad sin inmediatez) del pretérito anterior (hubo firmado: anterioridad inmediata), reconocer este último en textos literarios e históricos y sustituirlo por formas modernas.",
     "duration": "9 min",
     "sections": [
       {
@@ -9988,7 +9987,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa con pluscuamperfecto.",
+            "prompt": "Completa con el tiempo adecuado.",
             "sentence": "Cuando Fernando VII regresó, las Cortes ya ___ la Constitución. (aprobar)",
             "answer": "habían aprobado",
             "explanation": "Hecho anterior a otro pasado, sin inmediatez: pluscuamperfecto. El pretérito anterior («hubieron aprobado») exigiría un conector de inmediatez como «apenas».",
@@ -10782,7 +10781,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa con subjuntivo.",
+        "prompt": "Completa con la forma verbal adecuada.",
         "sentence": "Es probable que el cronista ___ las cifras de muertos. (exagerar)",
         "answer": "exagerara",
         "explanation": "«Es probable que» exige subjuntivo; referido al pasado, imperfecto de subjuntivo: exagerara / exagerase.",
@@ -11155,11 +11154,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "La Revolución de 1910 es el gran ___ de la historia mexicana.",
         "answer": "parteaguas",
         "explanation": "«Parteaguas» (muy usado en México y otros países de América) = momento que divide una historia en un antes y un después.",
-        "en": "The 1910 Revolution is the great [watershed] of Mexican history.",
-        "altAnswers": [
-          "punto de inflexión",
-          "hito"
-        ]
+        "en": "The 1910 Revolution is the great [watershed] of Mexican history."
       },
       {
         "type": "multiple-choice",
@@ -11796,7 +11791,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "la protección de datos",
-            "en": "conjunto de medidas para resguardar la información digital de accesos no autorizados"
+            "en": "conjunto de normas y medidas que garantizan el tratamiento lícito de los datos personales y la privacidad de sus titulares"
           },
           {
             "es": "el microprocesador",
@@ -12799,7 +12794,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "La ambivalencia y la disonancia cognitiva",
         "body": [
           "La ambivalencia designa ese estado en el que dos sentimientos opuestos hacia una misma persona o situación coexisten sin anularse mutuamente: se puede admirar profundamente a alguien y, al mismo tiempo, sentir un resentimiento genuino hacia esa misma persona, sin que ninguno de los dos sentimientos resulte falso. Tolerar esa coexistencia, en lugar de forzar una resolución artificial hacia un solo polo, constituye a menudo un signo de madurez emocional.",
-          "La disonancia cognitiva surge cuando una persona sostiene simultáneamente dos creencias, o una creencia y una conducta, que resultan mutuamente incompatibles, generando un malestar psicológico que el individuo tiende a resolver, no siempre de manera racional, sino reinterpretando alguno de los dos elementos en conflicto hasta que la contradicción deja de percibirse como tal.",
+          "La disonancia cognitiva surge cuando una persona sostiene simultáneamente dos creencias, o una creencia y una conducta, que resultan mutuamente incompatibles, generando un malestar psicológico que el individuo tiende a resolver, no siempre de manera racional, reinterpretando alguno de los dos elementos en conflicto hasta que la contradicción deja de percibirse como tal.",
           "Un ejemplo clásico de disonancia cognitiva se produce cuando alguien invierte un gran esfuerzo en una decisión que luego resulta claramente errónea: en lugar de admitir el error, la persona suele reevaluar retrospectivamente la decisión para que parezca más razonable de lo que efectivamente fue, protegiendo así su propia imagen de sí misma como alguien coherente y racional."
         ],
         "examples": [
@@ -14199,7 +14194,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 118,
     "title": "Escritura Creativa: Técnicas Literarias Avanzadas, Part 1 of 3",
-    "summary": "Aprenderás a reconocer y nombrar la prefiguración, la tensión narrativa, el suspense y los distintos tipos de narrador (confiable, poco confiable, polifonía, monólogo interior).",
+    "summary": "Aprenderás a reconocer y nombrar la prefiguración, la tensión narrativa, el suspenso (en España, suspense) y los distintos tipos de narrador (confiable, poco confiable, polifonía, monólogo interior).",
     "duration": "9 min",
     "sections": [
       {
@@ -14451,7 +14446,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "tensión."
         ],
         "translation": "The narrative climax concentrates the point of maximum tension.",
-        "explanation": "La oración describe la función central del clímax dentro de la estructura de una obra narrativa."
+        "explanation": "Sujeto con adjetivo pospuesto («El clímax narrativo») + verbo + complemento: «concentra el punto de máxima tensión», la definición del clímax que estudiaste."
       }
     ]
   },
@@ -15093,7 +15088,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "A río revuelto, ganancia de pescadores.",
-            "en": "It's an ill wind that blows nobody any good. (original)"
+            "en": "There's good fishing in troubled waters. (original)"
           },
           {
             "es": "A río revuelto, ganancia de fondos buitre.",
@@ -15835,7 +15830,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "certificado por el registrador"
             ],
             "correctIndex": 0,
-            "explanation": "El «escribano» rioplatense ejerce la función notarial: su equivalente español es el notario. El secretario judicial (hoy letrado de la Administración de Justicia) y el registrador son figuras distintas, y «escritor» es un falso amigo."
+            "explanation": "El «escribano» rioplatense ejerce la función notarial: su equivalente español es el notario. El secretario judicial (hoy letrado de la Administración de Justicia) y el registrador son figuras distintas, y «escritor» es solo un parónimo de «escribano»."
           }
         ]
       }
@@ -16222,13 +16217,14 @@ const C2_BASE_LESSONS: Lesson[] = [
         "direction": "en-es",
         "prompt": "Traduce al español.",
         "source": "Without prejudice to the foregoing, either party may terminate the agreement with thirty days' notice.",
-        "answer": "Sin perjuicio de lo anterior, cualquiera de las partes podrá resolver el contrato con un preaviso de treinta días.",
+        "answer": "Sin perjuicio de lo anterior, cualquiera de las partes podrá rescindir el contrato con un preaviso de treinta días.",
         "altAnswers": [
-          "Sin perjuicio de lo anterior, cualquiera de las partes podrá rescindir el contrato con un preaviso de treinta días.",
+          "Sin perjuicio de lo anterior, cualquiera de las partes podrá resolver el contrato con un preaviso de treinta días.",
+          "Sin perjuicio de lo expuesto, cualquiera de las partes podrá rescindir el contrato con un preaviso de treinta días.",
           "Sin perjuicio de lo expuesto, cualquiera de las partes podrá resolver el contrato con un preaviso de treinta días.",
           "Sin perjuicio de lo anterior, cualquiera de las partes podrá rescindir el contrato avisando con treinta días de antelación."
         ],
-        "explanation": "«Without prejudice to» = «sin perjuicio de»; «notice» = «preaviso». «Resolver» o «rescindir» el contrato."
+        "explanation": "«Without prejudice to» = «sin perjuicio de»; «notice» = «preaviso». Para poner fin al contrato por voluntad de una parte con preaviso, lo más preciso es «rescindir» (o «desistir del contrato»); en sentido técnico, «resolver» se reserva al incumplimiento, aunque en la práctica también se usa."
       },
       {
         "type": "word-order",
@@ -18904,7 +18900,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "«Tener» también se sustituye: se ostenta un cargo, se alberga una duda, se adolece de un defecto.",
           "«ostentar»: tener un cargo, un título o un récord (también: mostrar con presunción).",
           "«albergar»: tener dentro de sí un sentimiento, una duda o una esperanza; también alojar.",
-          "«adolecer de»: tener un defecto o una carencia.",
+          "«adolecer de»: tener o padecer un defecto (no equivale a «carecer de»: se adolece de falta de algo).",
           "«entrañar»: contener o llevar dentro algo, normalmente un riesgo o dificultad.",
           "«gozar de»: tener algo bueno o útil (salud, prestigio, un derecho).",
           "«disponer de»: tener algo a disposición para usarlo.",
@@ -18920,8 +18916,8 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "He still harbours doubts about the project."
           },
           {
-            "es": "El informe adolece de rigor metodológico.",
-            "en": "The report lacks methodological rigour."
+            "es": "El informe adolece de falta de rigor metodológico.",
+            "en": "The report suffers from a lack of methodological rigour."
           },
           {
             "es": "La operación entraña riesgos considerables.",
@@ -18955,7 +18951,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "adolecer de",
-                "right": "tener un defecto o una carencia"
+                "right": "tener o padecer un defecto"
               },
               {
                 "left": "entrañar",
@@ -19032,13 +19028,10 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa con la palabra adecuada.",
-        "sentence": "El informe ___ de rigor metodológico.",
+        "sentence": "El informe ___ de falta de rigor metodológico.",
         "answer": "adolece",
-        "explanation": "«adolecer de»: tener un defecto o una carencia.",
-        "en": "The report [lacks] methodological rigour.",
-        "altAnswers": [
-          "carece"
-        ]
+        "explanation": "«adolecer de»: tener o padecer un defecto. No significa «carecer de»: el informe no «adolece de rigor», sino que adolece de falta de rigor (o carece de rigor).",
+        "en": "The report [suffers from] a lack of methodological rigour."
       },
       {
         "type": "fill-blank",
@@ -20596,8 +20589,8 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Sustantivos y adjetivos engañosos",
         "body": [
           "Palabras cuyo sentido principal en español no es el del inglés.",
-          "«audiencia»: tribunal, o recepción que concede una autoridad (el público de un acto es «el público»).",
-          "«agenda»: cuaderno o calendario de citas (los temas de una reunión son el «orden del día»).",
+          "«audiencia»: tribunal, o recepción que concede una autoridad (también el público de radio o televisión; para los asistentes a un acto se prefiere «el público»).",
+          "«agenda»: cuaderno o calendario de citas (para los temas de una reunión, en registro formal se prefiere «orden del día», aunque también se dice «agenda»).",
           "«comprensivo»: que comprende y tolera a los demás (lo que abarca todo es «exhaustivo» o «integral»).",
           "«educado»: cortés, de buenos modales (una persona con estudios es «culta» o «instruida»).",
           "«consistente»: sólido, espeso, con consistencia (lo que no se contradice es «coherente»).",
@@ -20641,11 +20634,11 @@ const C2_BASE_LESSONS: Lesson[] = [
             "pairs": [
               {
                 "left": "audiencia",
-                "right": "tribunal, o recepción que concede una autoridad (el público de un acto es «el público»)"
+                "right": "tribunal, o recepción que concede una autoridad (también el público de radio o televisión; para los asistentes a un acto se prefiere «el público»)"
               },
               {
                 "left": "agenda",
-                "right": "cuaderno o calendario de citas (los temas de una reunión son el «orden del día»)"
+                "right": "cuaderno o calendario de citas (para los temas de una reunión, en registro formal se prefiere «orden del día», aunque también se dice «agenda»)"
               },
               {
                 "left": "comprensivo",
@@ -20684,7 +20677,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "argumento"
         ],
         "correctIndex": 0,
-        "explanation": "«consistente» significa sólido, espeso, con consistencia (lo que no se contradice es «coherente»). En cambio, «agenda» significa cuaderno o calendario de citas (los temas de una reunión son el «orden del día»); «soportar» significa aguantar algo molesto (no «apoyar», to support); «argumento» significa razonamiento, o trama de una obra (una pelea es «discusión»)."
+        "explanation": "«consistente» significa sólido, espeso, con consistencia (lo que no se contradice es «coherente»). En cambio, «agenda» significa cuaderno o calendario de citas (para los temas de una reunión, en registro formal se prefiere «orden del día», aunque también se dice «agenda»); «soportar» significa aguantar algo molesto (no «apoyar», to support); «argumento» significa razonamiento, o trama de una obra (una pelea es «discusión»)."
       },
       {
         "type": "fill-blank",
@@ -20744,7 +20737,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la palabra adecuada.",
         "sentence": "Llegaron a una solución de ___.",
         "answer": "compromiso",
-        "explanation": "«compromiso»: obligación contraída o cita (un término medio es una «solución de compromiso» o «concesión»).",
+        "explanation": "Aquí «compromiso» sí equivale a «compromise»: en la locución «solución de compromiso» significa término medio o acuerdo. Fuera de ella, «compromiso» suele ser obligación contraída o cita (ceder en algo es hacer una «concesión»).",
         "en": "They reached a [compromise] solution."
       },
       {
@@ -20757,7 +20750,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "left": "agenda",
-            "right": "cuaderno o calendario de citas (los temas de una reunión son el «orden del día»)"
+            "right": "cuaderno o calendario de citas (para los temas de una reunión, en registro formal se prefiere «orden del día», aunque también se dice «agenda»)"
           },
           {
             "left": "aplicar",
@@ -21270,8 +21263,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "explanation": "«cuórum»: número mínimo de miembros presentes para que una votación sea válida (forma adaptada de «quorum»).",
         "en": "The vote couldn't take place for lack of a [quorum].",
         "altAnswers": [
-          "quorum",
-          "quórum"
+          "quorum"
         ]
       },
       {
@@ -21427,7 +21419,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "«el neófito»: persona recién iniciada en una actividad o una doctrina.",
           "«el acólito»: seguidor incondicional de alguien (a menudo despectivo).",
           "«la sinergia»: acción conjunta que produce un efecto mayor que la suma de las partes.",
-          "«la anatema»: condena o reprobación enérgica (en género, hoy se usa en masculino y en femenino)."
+          "«el anatema»: condena o reprobación enérgica (de género ambiguo, pero hoy se usa casi siempre en masculino)."
         ],
         "examples": [
           {
@@ -21572,7 +21564,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la palabra adecuada.",
         "sentence": "Para el partido, subir impuestos es ___.",
         "answer": "anatema",
-        "explanation": "«la anatema»: condena o reprobación enérgica (en género, hoy se usa en masculino y en femenino).",
+        "explanation": "«el anatema»: condena o reprobación enérgica (de género ambiguo, pero hoy se usa casi siempre en masculino).",
         "en": "For the party, raising taxes is [anathema]."
       },
       {
@@ -24523,7 +24515,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la palabra adecuada.",
         "sentence": "El salón es un espacio ___ sin columnas.",
         "answer": "diáfano",
-        "explanation": "«diáfano»: claro, luminoso, que deja pasar la luz; también fácil de entender.",
+        "explanation": "«diáfano»: claro, luminoso; aplicado a un espacio, sin tabiques ni obstáculos (open-plan); también fácil de entender.",
         "en": "The living room is an [open-plan] space without columns.",
         "altAnswers": [
           "abierto"
@@ -25410,7 +25402,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Trabajo y dinero",
         "body": [
-          "Coloquialismos muy frecuentes con marca regional clara. La forma neutra está entre paréntesis.",
+          "Coloquialismos muy frecuentes con marca regional clara. La forma neutra va tras los dos puntos; entre paréntesis, el registro y la zona.",
           "«currar»: trabajar (coloquial, España).",
           "«laburar»: trabajar (coloquial, Río de la Plata).",
           "«chambear»: trabajar (coloquial, México, Perú y otros países).",
@@ -25634,8 +25626,11 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la palabra adecuada.",
         "sentence": "___ cuando me dijeron el precio.",
         "answer": "Flipé",
-        "explanation": "«flipar»: asombrarse mucho (coloquial, España).",
-        "en": "I [was blown away] when they told me the price."
+        "explanation": "«flipar»: asombrarse mucho (coloquial, España). También vale «alucinar»: Aluciné.",
+        "en": "I [was blown away] when they told me the price.",
+        "altAnswers": [
+          "Aluciné"
+        ]
       },
       {
         "type": "matching",
@@ -26422,8 +26417,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "explanation": "«la tautología»: repetición inútil de una misma idea con distintas palabras.",
         "en": "Saying 'it is what it is' is a [tautology].",
         "altAnswers": [
-          "redundancia",
-          "perogrullada"
+          "redundancia"
         ]
       },
       {
@@ -26442,8 +26436,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "explanation": "«la perogrullada»: verdad tan evidente que resulta tonto decirla.",
         "en": "That water is wet is a [truism].",
         "altAnswers": [
-          "obviedad",
-          "tautología"
+          "obviedad"
         ]
       },
       {
@@ -26516,7 +26509,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Gerundio vs. infinitivo: usos avanzados",
         "body": [
-          "El gerundio de posterioridad (usar el gerundio para una acción que ocurre después, no simultáneamente) es un error común que debe evitarse. El infinitivo funciona como sujeto o como mandato formal impersonal."
+          "El gerundio de posterioridad (usar el gerundio para una acción claramente posterior: «Estudió en Madrid, trasladándose luego a Roma») es un error común; solo se admite cuando la acción sigue inmediatamente («Salió dando un portazo»). El infinitivo funciona como sujeto o como mandato formal impersonal."
         ]
       },
       {
@@ -26622,7 +26615,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración usa correctamente el se impersonal?",
+        "question": "¿Cuál de estas oraciones tiene se impersonal (y no pasiva refleja)?",
         "options": [
           "Se venden casas.",
           "Se vive tranquilo en este pueblo.",
@@ -26761,10 +26754,11 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa con la preposición correcta.",
-        "sentence": "Al final, el proyecto consistió ___ digitalizar todo el archivo histórico.",
-        "answer": "en",
-        "explanation": "\"Consistir en\" es un verbo preposicional de régimen fijo."
+        "prompt": "Completa con el término clínico.",
+        "sentence": "El paciente refiere ___ al subir escaleras.",
+        "answer": "disnea",
+        "explanation": "En el registro clínico, «me ahogo» o «me falta el aire» se convierte en «disnea»; «refiere» es el verbo del informe médico para lo que cuenta el paciente.",
+        "en": "The patient reports [shortness of breath] when climbing stairs."
       },
       {
         "type": "multiple-choice",
@@ -26780,17 +26774,20 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una estructura enfática.",
+        "prompt": "Ordena las palabras para formar una expresión figurada.",
         "words": [
-          "Fue",
-          "entonces",
-          "cuando",
-          "comprendí",
-          "la",
-          "verdad."
+          "La",
+          "noticia",
+          "cayó",
+          "como",
+          "un",
+          "jarro",
+          "de",
+          "agua",
+          "fría."
         ],
-        "translation": "It was then that I understood the truth.",
-        "explanation": "\"Fue... cuando\" es una estructura hendida que enfatiza el momento preciso de la acción."
+        "translation": "The news came as a bucket of cold water.",
+        "explanation": "«Caer como un jarro de agua fría» es un símil lexicalizado: la noticia decepciona o desanima de golpe. El lenguaje figurado se aprende como una unidad fija."
       },
       {
         "type": "fill-blank",

@@ -70,7 +70,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 2],
         "La ofrenda, las calaveritas de azúcar y el pan de muerto son elementos del Día de Muertos mexicano. La mascletà, en cambio, es el estruendo de petardos de las Fallas de Valencia."
       ),
-      wo("En Nochevieja nos comemos una uva con cada campanada.", "Tradición española.", "On New Year's Eve we eat one grape with each chime."),
+      wo("En Nochevieja nos comemos una uva con cada campanada.", "«Comerse» con «nos» subraya que se come la uva entera; «con cada campanada» indica una uva por cada golpe del reloj a medianoche.", "On New Year's Eve we eat one grape with each chime."),
     ]
   ),
   L(
@@ -114,7 +114,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "«Ser la leche» es coloquial de España y, en positivo, significa ser increíble o estupendo. No se toma en sentido literal (no hay leche), y aquí el tono entusiasta descarta «aburridas» o «peligrosas»."
       ),
       toEs("There's a dance in the square tonight.", "Esta noche hay verbena en la plaza.", "«Verbena» es el baile popular nocturno de las fiestas; «hay verbena» funciona sin artículo, como «hay baile».", ["Esta noche hay baile en la plaza.", "Hay verbena en la plaza esta noche."]),
-      wo("Las fiestas del pueblo son en honor a su santo patrón.", "Fiestas patronales.", "The village festival is in honor of its patron saint."),
+      wo("Las fiestas del pueblo son en honor a su santo patrón.", "«Las fiestas» del pueblo va en plural (verbo «son»), y «en honor a (o de)» indica a quién se dedican: al santo patrón del lugar.", "The village festival is in honor of its patron saint."),
     ]
   ),
   L(
@@ -158,7 +158,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "En la ofrenda se ponen fotos del difunto, velas y su comida favorita para recibir su visita. La calabaza con cara de miedo es un símbolo de Halloween, ajeno a esta tradición."
       ),
       toEs("It's not about being scared; it's about remembering.", "No se trata de tener miedo, sino de recordar.", "«No se trata de X, sino de Y» corrige la idea: tras la negación, «sino» introduce la alternativa verdadera.", ["No se trata de asustarse, sino de recordar.", "No es cuestión de tener miedo, sino de recordar."]),
-      wo("Ese día las familias visitan el panteón y comparten comida con sus difuntos.", "Ritual.", "That day families visit the cemetery and share food with their departed."),
+      wo("Ese día las familias visitan el panteón y comparten comida con sus difuntos.", "«Panteón» es la palabra mexicana habitual para el cementerio; «compartir comida con sus difuntos» refleja la idea de que los muertos vuelven a convivir con la familia.", "That day families visit the cemetery and share food with their departed."),
     ]
   ),
   L(
@@ -206,7 +206,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "El picoteo es una comida informal a base de cosas variadas para picar. Una cena de gala con varios platos es lo contrario; «solo bebidas» no incluye comida, y llevar la comida de casa no es lo que indica la palabra."
       ),
       toEs("We stayed chatting at the table for hours.", "Nos quedamos de sobremesa durante horas.", "«Quedarse (o estar) de sobremesa» es la forma natural de decir que se sigue charlando en la mesa tras comer.", ["Estuvimos de sobremesa durante horas.", "Nos quedamos horas de sobremesa."]),
-      wo("Antes de comer siempre tomamos el aperitivo en el bar de la esquina.", "Aperitivo.", "Before lunch we always have a drink and snack at the corner bar."),
+      wo("Antes de comer siempre tomamos el aperitivo en el bar de la esquina.", "«Tomar el aperitivo» (con artículo) es la colocación fija para la bebida y la tapa antes de comer; «siempre» va delante del verbo.", "Before lunch we always have a drink and snack at the corner bar."),
     ]
   ),
   L(
@@ -255,7 +255,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 2],
         "Elogiar la comida, quedarse a la sobremesa e insistir en pagar son gestos esperados de buena educación. Levantarse sin despedirse, en cambio, se considera descortés."
       ),
-      wo("Esta vez no te dejo pagar, que la última invitaste tú.", "Pugna por invitar.", "This time I won't let you pay, since you treated last time."),
+      wo("Esta vez no te dejo pagar, que la última invitaste tú.", "«No te dejo pagar» (dejar + infinitivo) rechaza que el otro pague; «que» introduce la justificación coloquial (= porque) e «invitar» es pagar por otros.", "This time I won't let you pay, since you treated last time."),
     ]
   ),
   L(
@@ -302,7 +302,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "Fases de la despedida."
       ),
       toEs("Well, I'd better get going.", "Bueno, ya me voy yendo.", "«Me voy yendo» es la fórmula coloquial para empezar a despedirse, con el gerundio que suaviza la marcha.", ["Bueno, me voy yendo.", "Bueno, me tengo que ir yendo."]),
-      wo("Venga, que lo he pasado genial; a la próxima invito yo.", "Despedida final.", "Come on, I've had a great time; next time it's on me."),
+      wo("Venga, que lo he pasado genial; a la próxima invito yo.", "«Venga» marca el cierre definitivo; «que lo he pasado genial» justifica la despedida con «que» causal, y «a la próxima invito yo» deja abierto el reencuentro.", "Come on, I've had a great time; next time it's on me."),
     ]
   ),
   L(
@@ -350,7 +350,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "«Sacar tarjeta roja» a algo es rechazarlo de forma tajante, como el árbitro que expulsa a un jugador. No equivale a aprobar, posponer ni mejorar la propuesta."
       ),
       toEs("He always passes the buck to someone else.", "Siempre le pasa la pelota a otro.", "«Pasar la pelota» a alguien es traspasarle una responsabilidad incómoda; equivale a «to pass the buck».", ["Siempre le pasa la pelota a otra persona.", "Siempre pasa la pelota a otro."]),
-      wo("Cuando le preguntaron por el error, echó balones fuera.", "Eludir.", "When asked about the mistake, he dodged the question."),
+      wo("Cuando le preguntaron por el error, echó balones fuera.", "«Echar balones fuera» es esquivar una pregunta o responsabilidad, como el jugador que despeja el balón fuera del campo; «preguntar por» algo lleva «por».", "When asked about the mistake, he dodged the question."),
     ]
   ),
   L(
@@ -397,7 +397,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "Léxico futbolístico."
       ),
       toEs("What a goal! A goal from another planet!", "¡Qué golazo! ¡Un gol de otro planeta!", "«Golazo» (aumentativo) y «de otro planeta» son hipérboles típicas de la narración deportiva.", ["¡Menudo golazo! ¡Un gol de otro planeta!", "¡Qué golazo, de otro planeta!"]),
-      wo("La hinchada no para de cantar en ningún momento del partido.", "Léxico.", "The fans don't stop singing for a moment during the match."),
+      wo("La hinchada no para de cantar en ningún momento del partido.", "«La hinchada» es un colectivo singular, así que el verbo va en singular («no para»); «no parar de» + infinitivo = no dejar de hacer algo.", "The fans don't stop singing for a moment during the match."),
     ]
   ),
   L(
@@ -445,7 +445,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "Tocar las palmas es acompañar el ritmo con palmadas, una técnica esencial del flamenco. No es un saludo, ni un instrumento de madera (eso serían las castañuelas o el cajón), ni significa dejar de cantar."
       ),
       toEs("That singer really has soul.", "Ese cantaor tiene mucho duende.", "«Tener duende» expresa la emoción profunda que transmite un artista; «cantaor» es el cantante de flamenco.", ["Ese cantante tiene mucho duende.", "Esa cantaora tiene mucho duende."]),
-      wo("La cumbia nació en Colombia y hoy se baila en toda Latinoamérica.", "Géneros.", "Cumbia was born in Colombia and is now danced all over Latin America."),
+      wo("La cumbia nació en Colombia y hoy se baila en toda Latinoamérica.", "Los géneros musicales llevan artículo («la cumbia»); «nacer en» indica el origen y «se baila» es pasiva refleja.", "Cumbia was born in Colombia and is now danced all over Latin America."),
     ]
   ),
   L(
@@ -498,7 +498,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "El lunfardo nació en Buenos Aires y Montevideo, a orillas del Río de la Plata. Madrid, La Habana y Ciudad de México tienen sus propias jergas (el cheli, la jerga cubana, el caló mexicano), pero no el lunfardo."
       ),
       toEs("Tonight we're going out dancing, bro. (Colombia)", "Esta noche salimos a bailar, parce.", "«Parce» o «parcero» es la forma colombiana, sobre todo de Medellín, de decir amigo o colega.", ["Esta noche nos vamos a bailar, parcero.", "Esta noche salimos a bailar, parcero."]),
-      wo("Después del laburo nos vamos a la milonga del barrio.", "Lunfardo.", "After work we're going to the neighborhood tango dance."),
+      wo("Después del laburo nos vamos a la milonga del barrio.", "«Laburo» es lunfardo por «trabajo» (del italiano lavoro) y «la milonga» es la reunión o el local donde se baila tango.", "After work we're going to the neighborhood tango dance."),
     ]
   ),
   L(
@@ -542,7 +542,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "Abrir un paraguas bajo techo, derramar la sal y pasar por debajo de una escalera son supersticiones clásicas de mala suerte. El trébol de cuatro hojas, en cambio, trae buena suerte."
       ),
       toEs("Everything's going fine, knock on wood.", "Todo va bien, toco madera.", "El equivalente de «knock on wood» es «toco madera», en presente y primera persona.", ["Todo marcha bien, toco madera.", "Va todo bien, toco madera."]),
-      wo("Mi abuela nunca abre un paraguas dentro de casa.", "Superstición.", "My grandmother never opens an umbrella indoors."),
+      wo("Mi abuela nunca abre un paraguas dentro de casa.", "Abrir un paraguas dentro de casa se considera de mala suerte; «dentro de casa» (sin artículo) es la forma habitual de decir indoors.", "My grandmother never opens an umbrella indoors."),
     ]
   ),
   L(
@@ -590,7 +590,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "«Creer sin creer del todo» describe a quien dice no ser supersticioso pero, por si acaso, cumple los rituales. No es no hacer nada, ni una devoción religiosa, ni miedo real."
       ),
       toEs("We eat lentils so that we won't lack money.", "Comemos lentejas para que no nos falte el dinero.", "«Para que» + subjuntivo expresa finalidad: para que no nos falte.", ["Comemos lentejas para que no nos falte dinero."]),
-      wo("No es que sea supersticiosa, pero por si acaso me pongo algo amarillo.", "Creer sin creer.", "It's not that I'm superstitious, but just in case I wear something yellow."),
+      wo("No es que sea supersticiosa, pero por si acaso me pongo algo amarillo.", "«No es que» + subjuntivo («sea») niega la razón aparente, y «por si acaso» (= just in case) justifica el ritual: es el «creer sin creer del todo» de la lección.", "It's not that I'm superstitious, but just in case I wear something yellow."),
     ]
   ),
   L(
@@ -639,7 +639,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "Entre amigos, esta frase es un piropo humorístico y cariñoso: nadie la toma como una propuesta seria de matrimonio. La confianza es lo que impide que sea un insulto o acoso."
       ),
       toEs("That color really suits you.", "Ese color te queda muy bien.", "«Quedarle bien» o «sentarle bien» algo a alguien equivale a «to suit»: te queda muy bien.", ["Ese color te sienta muy bien.", "Te queda genial ese color."]),
-      wo("Entre amigos, un piropo ingenioso puede ser una muestra de cariño.", "Contexto.", "Among friends, a witty compliment can be a sign of affection."),
+      wo("Entre amigos, un piropo ingenioso puede ser una muestra de cariño.", "La confianza («entre amigos») es lo que convierte el piropo en cariño; «muestra de cariño» = sign of affection.", "Among friends, a witty compliment can be a sign of affection."),
     ]
   ),
   L(
@@ -686,7 +686,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "Estrategias de cortesía."
       ),
       toEs("You're just being kind.", "Eres muy amable.", "Ante un cumplido se responde con modestia, atribuyéndolo a la amabilidad o el cariño del otro.", ["Qué amable eres.", "Lo dices porque me quieres.", "Eso es que me miras con buenos ojos.", "Me miras con buenos ojos."]),
-      wo("Qué va, si esta camisa la compré en un mercadillo.", "Restar importancia.", "Oh no, I bought this shirt at a street market."),
+      wo("Qué va, si esta camisa la compré en un mercadillo.", "«Qué va» resta importancia al cumplido y el «si» enfático introduce la justificación; el objeto antepuesto «esta camisa» se retoma con «la».", "Oh no, I bought this shirt at a street market."),
     ]
   ),
 ];

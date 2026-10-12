@@ -36,7 +36,7 @@ export const DELE_A2_ESCRITA: ExamPaper = {
             "Uses the present and ir a + infinitive correctly",
           ],
           modelAnswer:
-            "¡Hola, Álex!\n\nMuchas gracias por la invitación. ¡Qué bien que tienes piso nuevo! Sí, el sábado puedo ir a tu fiesta, pero voy a llegar un poco tarde, sobre las nueve, porque trabajo hasta las ocho. Voy a llevar una tortilla de patatas y una botella de vino. ¿Cómo puedo llegar a tu casa? ¿Hay una parada de metro cerca?\n\nNos vemos el sábado.\nUn beso,\nSara",
+            "¡Hola, Álex!\n\nMuchas gracias por la invitación. ¡Qué bien, tienes piso nuevo! Sí, el sábado puedo ir a tu fiesta, pero voy a llegar un poco tarde, sobre las nueve, porque trabajo hasta las ocho. Voy a llevar una tortilla de patatas y una botella de vino. ¿Cómo puedo llegar a tu casa? ¿Hay una parada de metro cerca?\n\nNos vemos el sábado.\nUn beso,\nSara",
         },
       ],
     },

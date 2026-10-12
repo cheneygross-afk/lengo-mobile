@@ -221,8 +221,8 @@ export const LEVEL_TEST_B1: LevelTest = {
         "Propón un plan con si + presente (si quieres, si hace buen tiempo...)",
         "Saluda y despídete como en un correo informal",
       ],
-      "¡Hola, Javi! ¿Cómo estás? Yo estoy muy bien. Esta semana he empezado un curso de fotografía y me encanta: el sábado pasado fuimos al puerto y saqué fotos preciosas. Sobre lo que me contaste de tu compañero de piso, te recomiendo que hables con él tranquilamente. Yo que tú, le propondría un horario para limpiar la cocina. Seguro que lo entiende. Por cierto, si hace buen tiempo el domingo, podríamos ir en bici al lago. ¿Qué te parece? Si quieres, te llamo el viernes y lo organizamos. ¡Un abrazo fuerte! Laura",
-      "Recomendar que pide subjuntivo (que hables); «yo que tú» va con condicional (propondría); y después de si se usa el presente, nunca el futuro (si hace buen tiempo)."
+      "¡Hola, Javi! ¿Cómo estás? Yo estoy muy bien. Este mes he empezado un curso de fotografía y me encanta: el sábado pasado fuimos al puerto y saqué fotos preciosas. Sobre lo que me contaste de tu compañero de piso, te recomiendo que hables con él tranquilamente. Yo que tú, le propondría un horario para limpiar la cocina. Seguro que lo entiende. Por cierto, si hace buen tiempo el domingo, podríamos ir en bici al lago. ¿Qué te parece? Si quieres, te llamo el viernes y lo organizamos. ¡Un abrazo fuerte! Laura",
+      "Recomendar que pide subjuntivo (que hables); «yo que tú» va con condicional (propondría); y después del si condicional se usa el presente, no el futuro (si hace buen tiempo)."
     ),
   ],
 };
