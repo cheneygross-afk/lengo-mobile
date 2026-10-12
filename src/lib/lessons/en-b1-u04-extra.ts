@@ -155,7 +155,7 @@ export const EN_B1_U04_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["My", "dad", "would", "always", "sing", "in", "the", "car."],
-        translation: "Mi papá siempre cantaba en el coche.",
+        translation: "Mi papá siempre cantaba en el carro.",
         explanation: "\"Would\" + \"always\" + base verb for a repeated past action: \"would always sing\".",
       },
       {
@@ -281,8 +281,8 @@ export const EN_B1_U04_EXTRA: Lesson[] = [
         examples: [
           { es: "I used to get up early.", en: "Antes me levantaba temprano." },
           { es: "I'm used to getting up early.", en: "Estoy acostumbrado a levantarme temprano." },
-          { es: "He used to drive at night.", en: "Antes conducía de noche." },
-          { es: "He's used to driving at night.", en: "Está acostumbrado a conducir de noche." },
+          { es: "He used to drive at night.", en: "Antes manejaba de noche." },
+          { es: "He's used to driving at night.", en: "Está acostumbrado a manejar de noche." },
         ],
         checkpoint: [
           {
@@ -348,7 +348,7 @@ export const EN_B1_U04_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Estás acostumbrado a conducir por la izquierda?",
+        source: "¿Estás acostumbrado a manejar por la izquierda?",
         answer: "Are you used to driving on the left?",
         altAnswers: ["Are you used to driving on the left side?", "Are you used to driving on the left-hand side?", "Are you used to driving on the left side of the road?"],
         explanation: "Question with \"be\": \"Are you used to\" + -ing. «Por la izquierda» when driving is \"on the left\".",
@@ -545,7 +545,7 @@ export const EN_B1_U04_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Al final se acostumbró a vivir sin coche.",
+        source: "Al final se acostumbró a vivir sin carro.",
         answer: "In the end, he got used to living without a car.",
         altAnswers: [
           "In the end, she got used to living without a car.",
@@ -749,9 +749,9 @@ export const EN_B1_U04_EXTRA: Lesson[] = [
           "Two more reminders: after \"didn't\" and \"did\", write \"use to\" without -d; and \"'s\" before \"used to\" is \"is\", never \"has\".",
         ],
         examples: [
-          { es: "She used to drive to work.", en: "Antes iba en coche al trabajo." },
-          { es: "She's used to driving in the snow.", en: "Está acostumbrada a conducir con nieve." },
-          { es: "She's getting used to driving in the city.", en: "Se está acostumbrando a conducir en la ciudad." },
+          { es: "She used to drive to work.", en: "Antes iba en carro al trabajo." },
+          { es: "She's used to driving in the snow.", en: "Está acostumbrada a manejar con nieve." },
+          { es: "She's getting used to driving in the city.", en: "Se está acostumbrando a manejar en la ciudad." },
         ],
         checkpoint: [
           {
@@ -839,7 +839,7 @@ export const EN_B1_U04_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Todavía no me acostumbro a conducir con nieve.",
+        source: "Todavía no me acostumbro a manejar con nieve.",
         answer: "I'm still not used to driving in the snow.",
         altAnswers: [
           "I still haven't gotten used to driving in the snow.",

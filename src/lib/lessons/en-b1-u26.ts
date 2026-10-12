@@ -23,7 +23,7 @@ export const EN_B1_U26: Lesson[] = [
           { es: "Turn off the TV. / Turn the TV off.", en: "Apaga la tele." },
           { es: "Put on your coat. / Put your coat on.", en: "Ponte el abrigo." },
           { es: "Take off your shoes. / Take your shoes off.", en: "Quítate los zapatos." },
-          { es: "She picked up her bag. / She picked her bag up.", en: "Cogió su bolso. / Agarró su bolso." },
+          { es: "She picked up her bag. / She picked her bag up.", en: "Tomó su bolso. / Agarró su bolso." },
           { es: "Can you turn the music down?", en: "¿Puedes bajar la música?" },
         ],
         checkpoint: [
@@ -85,7 +85,7 @@ export const EN_B1_U26: Lesson[] = [
       {
         heading: "Pick up, put on, take off",
         body: [
-          "\"Pick up\" has several meanings: lift something from the floor or a table («recoger», «coger»), collect a person by car («recoger», «ir a buscar») and answer the phone («contestar»). \"Can you pick me up from the airport?\"",
+          "\"Pick up\" has several meanings: lift something from the floor or a table («recoger», «tomar»), collect a person by car («recoger», «ir a buscar») and answer the phone («contestar»). \"Can you pick me up from the airport?\"",
           "\"Put on\" is to start wearing clothes, glasses or makeup («ponerse»); \"take off\" is the opposite («quitarse»). \"Take off\" also means a plane leaves the ground («despegar»): \"The plane took off at six\". In that meaning there is no object.",
           "Don't confuse \"put on\" with \"wear\": \"put on\" is the action (a second), \"wear\" is the state (all day). \"I put on a jacket\" (me puse) but \"I'm wearing a jacket\" (llevo).",
         ],
@@ -291,7 +291,7 @@ export const EN_B1_U26: Lesson[] = [
           { es: "We've run out of coffee.", en: "Se nos ha acabado el café." },
           { es: "I can't put up with this noise any longer.", en: "No aguanto más este ruido." },
           { es: "Go ahead. I'll catch up with you later.", en: "Sigue tú. Ya te alcanzo luego." },
-          { es: "Our car ran out of gas on the highway.", en: "Nuestro coche se quedó sin gasolina en la autopista." },
+          { es: "Our car ran out of gas on the highway.", en: "Nuestro carro se quedó sin gasolina en la autopista." },
         ],
         checkpoint: [
           {
@@ -737,7 +737,7 @@ export const EN_B1_U26: Lesson[] = [
         heading: "Getting on and falling out",
         body: [
           "\"Get on with\" someone is «llevarse bien con» them. Americans usually say \"get along with\". Add \"well\" or \"really well\" for emphasis: \"I get on really well with my in-laws.\"",
-          "\"Fall out with\" someone is «pelearse» or «enfadarse con» and stop being friends for a while: \"She fell out with her best friend over money.\" It's more British; in the US you'll hear \"have a falling-out with\" or \"have a fight with\".",
+          "\"Fall out with\" someone is «pelearse» or «enojarse con» and stop being friends for a while: \"She fell out with her best friend over money.\" It's more British; in the US you'll hear \"have a falling-out with\" or \"have a fight with\".",
           "Remember: these are three-part verbs, so the person goes at the end: \"I don't get on with him\", never *get him on with.",
         ],
         examples: [
@@ -1268,7 +1268,7 @@ export const EN_B1_U26: Lesson[] = [
           { es: "I'll get some bread on the way home.", en: "Compraré pan de camino a casa." },
           { es: "Did you get my email?", en: "¿Recibiste mi correo?" },
           { es: "Can I get you a drink?", en: "¿Te traigo algo de beber?" },
-          { es: "How much did you get for your old car?", en: "¿Cuánto te dieron por tu coche viejo?" },
+          { es: "How much did you get for your old car?", en: "¿Cuánto te dieron por tu carro viejo?" },
         ],
         checkpoint: [
           {
@@ -1294,13 +1294,13 @@ export const EN_B1_U26: Lesson[] = [
       {
         heading: "Get + adjective: become",
         body: [
-          "\"Get\" + adjective means a change of state, like Spanish «ponerse», «volverse» or a reflexive verb: \"get tired\" (cansarse), \"get angry\" (enfadarse), \"get nervous\" (ponerse nervioso), \"get bored\" (aburrirse), \"get dark\" (oscurecer), \"get better\" (mejorar), \"get worse\" (empeorar).",
+          "\"Get\" + adjective means a change of state, like Spanish «ponerse», «volverse» or a reflexive verb: \"get tired\" (cansarse), \"get angry\" (enojarse), \"get nervous\" (ponerse nervioso), \"get bored\" (aburrirse), \"get dark\" (oscurecer), \"get better\" (mejorar), \"get worse\" (empeorar).",
           "This is how English translates many Spanish reflexive verbs. «Me canso mucho» is \"I get very tired\", not *I tire me.",
           "\"Get\" + comparative shows a gradual change: \"It's getting colder\", \"English is getting easier\".",
         ],
         examples: [
           { es: "I get nervous before exams.", en: "Me pongo nervioso antes de los exámenes." },
-          { es: "Don't get angry with me.", en: "No te enfades conmigo." },
+          { es: "Don't get angry with me.", en: "No te enojes conmigo." },
           { es: "It gets dark very early in winter.", en: "En invierno oscurece muy pronto." },
           { es: "Your English is getting better and better.", en: "Tu inglés está mejorando cada vez más." },
           { es: "The kids got bored after an hour.", en: "Los niños se aburrieron después de una hora." },
@@ -1426,7 +1426,7 @@ export const EN_B1_U26: Lesson[] = [
         question: "In which sentence does \"get\" mean «llegar»?",
         options: ["We got there at nine.", "I got a new phone.", "It's getting late.", "She got angry."],
         correctIndex: 0,
-        explanation: "\"Get there\" = «llegar allí». The others mean «comprar/conseguir», «hacerse» and «enfadarse».",
+        explanation: "\"Get there\" = «llegar allí». The others mean «comprar/conseguir», «hacerse» and «enojarse».",
       },
       {
         type: "translate",
@@ -1508,7 +1508,7 @@ export const EN_B1_U26: Lesson[] = [
           { es: "I take a shower every morning.", en: "Me ducho todas las mañanas." },
           { es: "Let's take a ten-minute break.", en: "Hagamos un descanso de diez minutos." },
           { es: "I usually take a nap after lunch.", en: "Suelo echarme la siesta después de comer." },
-          { es: "Can you take a look at my car?", en: "¿Puedes echarle un vistazo a mi coche?" },
+          { es: "Can you take a look at my car?", en: "¿Puedes echarle un vistazo a mi carro?" },
           { es: "We had a great time.", en: "Lo pasamos muy bien." },
         ],
         checkpoint: [
@@ -1541,7 +1541,7 @@ export const EN_B1_U26: Lesson[] = [
         ],
         examples: [
           { es: "Can you take a picture of us?", en: "¿Nos puedes hacer una foto?" },
-          { es: "I'm taking my driving test on Monday.", en: "El lunes hago el examen de conducir." },
+          { es: "I'm taking my driving test on Monday.", en: "El lunes hago el examen de manejar." },
           { es: "Please take a seat.", en: "Siéntese, por favor." },
           { es: "It takes forty minutes to get to work.", en: "Se tarda cuarenta minutos en llegar al trabajo." },
           { es: "Thirty students took part in the competition.", en: "Treinta estudiantes participaron en el concurso." },
@@ -1568,7 +1568,7 @@ export const EN_B1_U26: Lesson[] = [
       {
         heading: "Give and pay",
         body: [
-          "\"Give\" goes with \"a talk\", \"a speech\", \"a presentation\" (dar una charla), \"advice\" (aconsejar), \"someone a call\" (llamar), \"someone a hand\" (echar una mano) and \"someone a ride\" (llevar en coche; BrE \"a lift\").",
+          "\"Give\" goes with \"a talk\", \"a speech\", \"a presentation\" (dar una charla), \"advice\" (aconsejar), \"someone a call\" (llamar), \"someone a hand\" (echar una mano) and \"someone a ride\" (llevar en carro; BrE \"a lift\").",
           "\"Pay\" goes with \"attention\": «prestar atención» is \"pay attention\", never *lend attention or *put attention. Also \"pay someone a visit\" (hacer una visita) and \"pay someone a compliment\" (hacer un cumplido).",
           "Remember that \"advice\" is uncountable: \"some advice\", \"a piece of advice\", never *an advice or *advices.",
         ],
@@ -1682,7 +1682,7 @@ export const EN_B1_U26: Lesson[] = [
         instructions: "Match each phrase with its meaning.",
         pairs: [
           { left: "take a nap", right: "echarse la siesta" },
-          { left: "give someone a ride", right: "llevar a alguien en coche" },
+          { left: "give someone a ride", right: "llevar a alguien en carro" },
           { left: "pay someone a visit", right: "hacerle una visita a alguien" },
           { left: "give advice", right: "aconsejar" },
           { left: "take a seat", right: "sentarse" },
@@ -2147,7 +2147,7 @@ export const EN_B1_U26: Lesson[] = [
           { es: "Tom: Fair enough. But we keep running out of things too.", en: "Vale, es justo. Pero también nos quedamos sin cosas todo el rato." },
           { es: "Tom: Someone used up all the milk and didn't buy more.", en: "Alguien se terminó toda la leche y no compró más." },
           { es: "Emma: Oops, that was me. Sorry.", en: "Uy, fui yo. Perdón." },
-          { es: "Tom: Why don't we set up a shared shopping list on our phones?", en: "¿Por qué no creamos una lista de la compra compartida en el móvil?" },
+          { es: "Tom: Why don't we set up a shared shopping list on our phones?", en: "¿Por qué no creamos una lista de la compra compartida en el celular?" },
           { es: "Emma: Good idea. And we could take turns doing the shopping.", en: "Buena idea. Y podríamos turnarnos para hacer la compra." },
         ],
         checkpoint: [
@@ -2270,7 +2270,7 @@ export const EN_B1_U26: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Your roommate says: \"Don't make a big deal of it.\" What does she mean?",
-        options: ["No le des tanta importancia.", "No hagas un trato.", "No lo hagas muy grande.", "No te enfades conmigo."],
+        options: ["No le des tanta importancia.", "No hagas un trato.", "No lo hagas muy grande.", "No te enojes conmigo."],
         correctIndex: 0,
         explanation: "\"Make a big deal of something\" = exaggerate its importance. Notice \"make\" again.",
       },

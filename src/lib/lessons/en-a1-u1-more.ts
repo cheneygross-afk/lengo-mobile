@@ -652,7 +652,7 @@ export const EN_A1_U1_MORE: Lesson[] = [
             sentence: "Where are my books? ___ in the car.",
             answer: "They're",
             altAnswers: ["They are"],
-            en: "¿Dónde están mis libros? [Están] en el coche.",
+            en: "¿Dónde están mis libros? [Están] en el carro.",
             explanation: "Varias cosas → \"they\": \"They're in the car\". El sujeto no se omite ni en la respuesta.",
           },
         ],
@@ -1357,7 +1357,7 @@ export const EN_A1_U1_MORE: Lesson[] = [
           { es: "They're German.", en: "Son alemanes." },
           { es: "Spanish is a beautiful language.", en: "El español es un idioma precioso." },
           { es: "a Brazilian singer", en: "un cantante brasileño" },
-          { es: "two Japanese cars", en: "dos coches japoneses" },
+          { es: "two Japanese cars", en: "dos carros japoneses" },
         ],
         checkpoint: [
           {
@@ -1857,7 +1857,7 @@ export const EN_A1_U1_MORE: Lesson[] = [
         examples: [
           { es: "two old friends", en: "dos viejos amigos" },
           { es: "They're Peruvian.", en: "Son peruanos." },
-          { es: "It's a Japanese car.", en: "Es un coche japonés." },
+          { es: "It's a Japanese car.", en: "Es un carro japonés." },
         ],
         checkpoint: [
           {

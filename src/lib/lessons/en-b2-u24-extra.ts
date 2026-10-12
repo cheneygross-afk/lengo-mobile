@@ -276,7 +276,7 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
           { es: "The minimum wage went up this year.", en: "El salario mínimo subió este año. (incorrecto: *minimum salary)" },
           { es: "Could we have the check, please?", en: "¿Nos trae la cuenta, por favor?" },
           { es: "We sent the client an invoice.", en: "Le enviamos una factura al cliente." },
-          { es: "Can you lend me your car?", en: "¿Me prestas el coche? (incorrecto: *borrow me)" },
+          { es: "Can you lend me your car?", en: "¿Me prestas el carro? (incorrecto: *borrow me)" },
           { es: "If you have any spare money, save it.", en: "Si te sobra dinero, ahórralo." },
         ],
         checkpoint: [
@@ -1105,7 +1105,7 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Le pusieron una multa por aparcar en doble fila.",
+        source: "Le pusieron una multa por estacionar en doble fila.",
         answer: "He got a fine for double-parking.",
         altAnswers: [
           "She got a fine for double-parking.",
@@ -1253,10 +1253,10 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
         audio: "Two teenagers were arrested for breaking into a car.",
         question: "What does the speaker mean?",
         options: [
-          "Detuvieron a dos adolescentes por forzar un coche para robar.",
-          "Dos adolescentes robaron un coche y huyeron.",
-          "Dos adolescentes chocaron contra un coche.",
-          "Detuvieron a dos adolescentes por conducir sin carné.",
+          "Detuvieron a dos adolescentes por forzar un carro para robar.",
+          "Dos adolescentes robaron un carro y huyeron.",
+          "Dos adolescentes chocaron contra un carro.",
+          "Detuvieron a dos adolescentes por manejar sin carné.",
         ],
         correctIndex: 0,
         explanation: "\"Break into\" a car or a house is to force your way in, usually to steal. \"Were arrested\" is «los detuvieron».",

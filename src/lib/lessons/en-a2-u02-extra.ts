@@ -23,7 +23,7 @@ export const EN_A2_U02_EXTRA: Lesson[] = [  // ---------------------------------
           { es: "We went to the beach.", en: "Fuimos a la playa." },
           { es: "I had a sandwich.", en: "Me comí un sándwich." },
           { es: "She got a new job.", en: "Consiguió un trabajo nuevo." },
-          { es: "They came by car.", en: "Vinieron en coche." },
+          { es: "They came by car.", en: "Vinieron en carro." },
           { es: "He took a lot of photos.", en: "Sacó muchas fotos." },
         ],
         checkpoint: [
@@ -556,7 +556,7 @@ export const EN_A2_U02_EXTRA: Lesson[] = [  // ---------------------------------
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Mi padre no condujo; tomó el tren.",
+        source: "Mi padre no manejó; tomó el tren.",
         answer: "My father didn't drive; he took the train.",
         altAnswers: ["My dad didn't drive; he took the train.", "My father didn't drive. He took the train.", "My dad didn't drive. He took the train.", "My father didn't drive, he took the train.", "My dad didn't drive, he took the train."],
         explanation: "Negativa: \"didn't drive\" (base). Afirmativa: \"took\" (pasado). Y la segunda frase necesita el sujeto \"he\".",
@@ -756,7 +756,7 @@ export const EN_A2_U02_EXTRA: Lesson[] = [  // ---------------------------------
         type: "word-order",
         prompt: "Ordena las palabras.",
         words: ["Why", "were", "you", "so", "angry?"],
-        translation: "¿Por qué estabas tan enfadado?",
+        translation: "¿Por qué estabas tan enojado?",
         explanation: "\"Angry\" es un adjetivo: \"Why were you so angry?\", sin \"did\".",
       },
       {

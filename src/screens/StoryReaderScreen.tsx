@@ -28,8 +28,7 @@ import { creditStudyOnce, type CreditResult } from "@/lib/studyDays";
 import { storyMinutes } from "@/lib/studyCredit";
 import StudyCreditNote from "@/components/StudyCreditNote";
 import { readinessLabel } from "@/lib/stories/pickStory";
-import { FR_STORY_TRANSLATION_STORAGE_KEY } from "@/lib/stories/englishPrefs";
-import { findFrenchStory, frenchStoriesIfLoaded, isFrenchStorySlug, loadFrenchStories, type FrenchStories } from "@/lib/stories/french";
+import { STORY_COURSES, storyCourseOf, type CourseStories } from "@/lib/stories/courseStories";
 
 type Props = NativeStackScreenProps<AppStackParamList, "StoryReader">;
 
@@ -44,32 +43,35 @@ type Props = NativeStackScreenProps<AppStackParamList, "StoryReader">;
 // story, so this reuses it exactly as-is (same table, same columns).
 export default function StoryReaderScreen({ route, navigation }: Props) {
   const { slug } = route.params;
-  // A French-course story (slug "fr-...", levelPath "fr/a1" ...) comes from
-  // the French stories, loaded on demand (stories/french.ts): French text,
-  // an English translation, English questions.
-  const french = isFrenchStorySlug(slug) || !!route.params.levelPath?.startsWith("fr/");
-  const [frenchStories, setFrenchStories] = useState<FrenchStories | null>(frenchStoriesIfLoaded);
+  // A French- or German-course story (slug "fr-..."/"de-...", levelPath
+  // "fr/a1"/"de/a1" ...) comes from that course's stories, loaded on demand
+  // (stories/courseStories.ts): text in the course language, an English
+  // translation, English questions.
+  const storyCourse = storyCourseOf(slug, route.params.levelPath);
+  const courseConfig = storyCourse ? STORY_COURSES[storyCourse] : null;
+  const courseStory = !!courseConfig;
+  const [courseStories, setCourseStories] = useState<CourseStories | null>(() => courseConfig?.ifLoaded() ?? null);
   useEffect(() => {
-    if (!french || frenchStories) return;
+    if (!courseConfig || courseStories) return;
     let cancelled = false;
-    loadFrenchStories().then((d) => {
-      if (!cancelled) setFrenchStories(d);
+    courseConfig.load().then((d) => {
+      if (!cancelled) setCourseStories(d);
     });
     return () => {
       cancelled = true;
     };
-  }, [french, frenchStories]);
+  }, [courseConfig, courseStories]);
   // Looks the slug up across every level (see stories/registry.ts); "Next"
   // stays within the story's own level, same as the website's reader.
   const found = useMemo(() => {
-    if (!french) {
+    if (!courseStory) {
       const hit = findStory(slug);
       // Mirrors the folder names the website's readings routes use
       // (/readings/a1, /readings/c1c2, ...).
       return hit ? { story: hit.story, next: hit.next, levelPath: hit.level.levelPath as string } : null;
     }
-    return frenchStories ? findFrenchStory(frenchStories, slug) : null;
-  }, [slug, french, frenchStories]);
+    return courseStories && courseConfig ? courseConfig.find(courseStories, slug) : null;
+  }, [slug, courseStory, courseStories, courseConfig]);
   const story = found?.story;
   const nextStory = found?.next;
   const exercises = useMemo(() => (story ? toExercises(story.questions) : []), [story]);
@@ -80,33 +82,35 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
   // shaded), and dotted-underlined glossed words whose English meaning
   // shows in a card when tapped.
   const glosses = useMemo(
-    () => (story ? (french ? frenchStories?.glosses(story.slug) ?? [] : storyGlosses(story.slug)) : []),
-    [story, french, frenchStories]
+    () => (story ? (courseStory ? courseStories?.glosses(story.slug) ?? [] : storyGlosses(story.slug)) : []),
+    [story, courseStory, courseStories]
   );
   const lookup = useMemo(() => glossLookup(glosses), [glosses]);
   // Pre-reading key vocabulary for A1/A2 stories (the website shows the same).
   const keyWords = useMemo(
     () =>
-      story && ["A1", "A2", "FR-A1", "FR-A2"].includes(story.level) ? storyKeyWords(story.paragraphs, glosses) : [],
-    [story, glosses]
+      story && ["A1", "A2", ...(courseConfig?.keyWordLevels ?? [])].includes(story.level)
+        ? storyKeyWords(story.paragraphs, glosses)
+        : [],
+    [story, glosses, courseConfig]
   );
   const chunks = useMemo(
     () => (story ? story.paragraphs.flatMap((p, pi) => speechChunks(p).map((text) => ({ text, pi }))) : []),
     [story]
   );
   // "Show English" (A1/A2 stories with a translation): off by default at
-  // every level, remembered per level on this device. French stories all
-  // have one ("Show translation"), remembered under their own key.
+  // every level, remembered per level on this device. French and German
+  // stories all have one ("Show translation"), remembered under their own key.
   const english = useMemo(
     () =>
       story
-        ? french
-          ? frenchStories?.english(story.slug, story.paragraphs.length) ?? null
+        ? courseStory
+          ? courseStories?.english(story.slug, story.paragraphs.length) ?? null
           : storyEnglish(story.slug, story.paragraphs.length)
         : null,
-    [story, french, frenchStories]
+    [story, courseStory, courseStories]
   );
-  const englishPrefKey = french ? FR_STORY_TRANSLATION_STORAGE_KEY : STORY_ENGLISH_STORAGE_KEY;
+  const englishPrefKey = courseConfig ? courseConfig.translationStorageKey : STORY_ENGLISH_STORAGE_KEY;
   const [englishPrefs, setEnglishPrefs] = useState<Record<string, boolean> | null>(null);
   useEffect(() => {
     let cancelled = false;
@@ -215,7 +219,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
       return;
     }
     setSaveNotice({ es: key, message: "Saving…" });
-    const outcome = await fetchTranslation(key, french ? "fr-en" : "es-en");
+    const outcome = await fetchTranslation(key, courseConfig ? courseConfig.direction : "es-en");
     if (outcome.ok) await saveWord(key, outcome.result.senses[0].translation);
     else setSaveNotice({ es: key, message: outcome.error });
   }
@@ -287,7 +291,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
     }
   }
 
-  if (french && !frenchStories) {
+  if (courseStory && !courseStories) {
     return (
       <View style={s.center}>
         <ActivityIndicator />
@@ -309,8 +313,17 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
           {story.band ?? story.level} · {storyKind(story)}
           {readinessLabel(story.slug) ? ` · ${readinessLabel(story.slug)}` : ""}
         </Text>
-        <Text style={s.title}>{story.title}</Text>
-        <Text style={s.subtitle}>{story.subtitle}</Text>
+        {courseConfig ? (
+          // French and German titles are in the course language: tap to hear.
+          <TapText text={story.title} lang={courseConfig.lang} mode="target" style={s.title} />
+        ) : (
+          <Text style={s.title}>{story.title}</Text>
+        )}
+        {courseConfig ? (
+          <TapText text={story.subtitle} lang={courseConfig.lang} mode="mixed" style={s.subtitle} />
+        ) : (
+          <Text style={s.subtitle}>{story.subtitle}</Text>
+        )}
 
         <View style={s.listenRow}>
           <Pressable style={s.listenButton} onPress={toggleListen} accessibilityRole="button">
@@ -324,7 +337,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
               accessibilityState={{ selected: showEnglish }}
             >
               <Text style={s.listenButtonText}>
-                {french ? (showEnglish ? "Hide translation" : "Show translation") : showEnglish ? "Hide English" : "Show English"}
+                {courseStory ? (showEnglish ? "Hide translation" : "Show translation") : showEnglish ? "Hide English" : "Show English"}
               </Text>
             </Pressable>
           ) : null}
@@ -353,7 +366,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
             {showWordList &&
               glosses.map((g) => (
                 <Text key={g.es + g.forms.join()} style={s.wordRow}>
-                  <Text style={s.wordEs}>{g.es}</Text> · {g.en}
+                  <TapText text={g.es} lang={langForLevelPath(levelPath)} mode="target" style={s.wordEs} /> · {g.en}
                 </Text>
               ))}
             {!showWordList && <Text style={s.wordHint}>Tap a dotted word in the story for its meaning.</Text>}
@@ -426,7 +439,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
               style={s.nextButton}
               onPress={() =>
                 nextStory
-                  ? navigation.replace("StoryReader", french ? { slug: nextStory.slug, levelPath } : { slug: nextStory.slug })
+                  ? navigation.replace("StoryReader", courseStory ? { slug: nextStory.slug, levelPath } : { slug: nextStory.slug })
                   : navigation.goBack()
               }
             >
@@ -439,7 +452,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
       </ScrollView>
       {shownGloss && (
         <Pressable style={s.glossCard} onPress={() => setShownGloss(null)} accessibilityRole="button">
-          <Text style={s.glossEs}>{shownGloss.es}</Text>
+          <TapText text={shownGloss.es} lang={langForLevelPath(levelPath)} mode="target" style={s.glossEs} />
           <Text style={s.glossEn}>{shownGloss.en}</Text>
           <Pressable
             onPress={() => {
@@ -456,7 +469,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
       )}
       {saveNotice && !shownGloss && (
         <Pressable style={s.glossCard} onPress={() => setSaveNotice(null)} accessibilityRole="button">
-          <Text style={s.glossEs}>{saveNotice.es}</Text>
+          <TapText text={saveNotice.es} lang={langForLevelPath(levelPath)} mode="target" style={s.glossEs} />
           <Text style={s.glossEn}>{saveNotice.message}</Text>
         </Pressable>
       )}

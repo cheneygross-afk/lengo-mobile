@@ -265,7 +265,7 @@ export const EN_B1_U19: Lesson[] = [
         ],
         examples: [
           { es: "Ana said she loved her job.", en: "Ana dijo que le encantaba su trabajo." },
-          { es: "Carlos said his car was new.", en: "Carlos dijo que su coche era nuevo." },
+          { es: "Carlos said his car was new.", en: "Carlos dijo que su carro era nuevo." },
           { es: "Sofia said her brother was in London.", en: "Sofia dijo que su hermano estaba en Londres." },
           { es: "They said their house was small.", en: "Dijeron que su casa era pequeña." },
           { es: "She told me I was late.", en: "Me dijo que llegaba tarde." },
@@ -1118,7 +1118,7 @@ export const EN_B1_U19: Lesson[] = [
           "Punctuation of direct speech in English: a comma before or after the quote, and the final comma or period goes inside the quotation marks: She said, \"I'm tired.\" / \"I'm tired,\" she said.",
         ],
         examples: [
-          { es: "She said she had lost her phone. \"I've lost my phone.\"", en: "Dijo que había perdido el móvil. «He perdido el móvil»." },
+          { es: "She said she had lost her phone. \"I've lost my phone.\"", en: "Dijo que había perdido el celular. «He perdido el celular»." },
           { es: "He said he would help us. \"I'll help you.\"", en: "Dijo que nos ayudaría. «Los ayudaré»." },
           { es: "They said they couldn't swim. \"We can't swim.\"", en: "Dijeron que no sabían nadar. «No sabemos nadar»." },
           { es: "\"I'm tired,\" she said.", en: "«Estoy cansada», dijo." },

@@ -439,7 +439,7 @@ export const EN_C2_U02_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Sujeto a disponibilidad»",
+            question: "«Sujeto a disponibilidad» Which is the best English translation?",
             options: [
               "subject to availability",
               "subjected to availability",
@@ -601,7 +601,7 @@ export const EN_C2_U02_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«En nombre de la empresa, les damos la bienvenida.»",
+        question: "«En nombre de la empresa, les damos la bienvenida.» Which is the best English translation?",
         options: [
           "On behalf of the company, we welcome you.",
           "In name of the company, we welcome you.",
@@ -671,7 +671,7 @@ export const EN_C2_U02_EXTRA: Lesson[] = [
           "in connection with",
           "on",
         ],
-        en: "Hemos recibido varias consultas [en relación con] las nuevas normas de aparcamiento.",
+        en: "Hemos recibido varias consultas [en relación con] las nuevas normas de estacionamiento.",
         explanation: "\"With regard to\" (no -s) is the formal choice; \"regarding\" and \"about\" are lighter. *In relation of is a calque.",
       },
       {

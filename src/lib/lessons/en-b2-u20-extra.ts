@@ -519,7 +519,7 @@ export const EN_B2_U20_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Había tantos coches que tardamos una hora en aparcar.",
+        source: "Había tantos carros que tardamos una hora en estacionar.",
         answer: "There were so many cars that it took us an hour to park.",
         altAnswers: alts(
           "There were so many cars that it took us an hour to park.",
@@ -812,7 +812,7 @@ export const EN_B2_U20_EXTRA: Lesson[] = [
         answer: "I was a bit tired after the trip.",
         altAnswers: alts(
           "I was a bit tired after the trip.",
-          "{I|He|She} was {a bit|a little|slightly|somewhat} tired after the {trip|journey|flight}.",
+          "{I|He} was {a bit|a little|slightly|somewhat} tired after the {trip|journey|flight}.",
         ),
         explanation: "\"A bit\" / \"slightly\" go with gradable adjectives like \"tired\". *A bit exhausted sounds odd.",
       },
@@ -877,7 +877,7 @@ export const EN_B2_U20_EXTRA: Lesson[] = [
           "The main verb goes back to the base form: \"did call\", \"does want\", never *did called or *does wants. In imperatives, \"Do\" sounds warm and polite: \"Do sit down\", \"Do come again\".",
         ],
         examples: [
-          { es: "I did call you! Check your phone.", en: "¡Que sí te llamé! Mira el móvil. (incorrecto: *I did called)" },
+          { es: "I did call you! Check your phone.", en: "¡Que sí te llamé! Mira el celular. (incorrecto: *I did called)" },
           { es: "Tom does want to come; he's just busy.", en: "Tom sí que quiere venir; es que está ocupado." },
           { es: "I do believe you.", en: "Sí que te creo." },
           { es: "Do come in and sit down.", en: "Pase y siéntese, por favor." },

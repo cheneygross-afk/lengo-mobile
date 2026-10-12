@@ -25,7 +25,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
           "Verb + to: decide, manage, afford, refuse, tend, agree, offer, promise, plan, hope, expect, seem, fail, learn, deserve.",
         ],
         examples: [
-          { es: "I avoid driving in the city center.", en: "Evito conducir por el centro. (incorrecto: *I avoid to drive)" },
+          { es: "I avoid driving in the city center.", en: "Evito manejar por el centro. (incorrecto: *I avoid to drive)" },
           { es: "She enjoys cooking for friends.", en: "Le gusta mucho cocinar para sus amigos. (incorrecto: *enjoys to cook)" },
           { es: "Would you mind closing the window?", en: "¿Te importaría cerrar la ventana?" },
           { es: "We can't afford to buy a house.", en: "No nos podemos permitir comprar una casa." },
@@ -150,7 +150,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
         sentence: "My grandfather has finally agreed ___ a cell phone.",
         answer: "to get",
         altAnswers: ["to buy", "to have"],
-        en: "Mi abuelo por fin ha aceptado [tener] un móvil.",
+        en: "Mi abuelo por fin ha aceptado [tener] un celular.",
         explanation: "\"Agree\" + to. «Aceptar hacer algo» is \"agree to do something\".",
       },
       {
@@ -734,7 +734,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
           { es: "I used to play the piano.", en: "Antes tocaba el piano." },
           { es: "I didn't use to like coffee.", en: "Antes no me gustaba el café. (incorrecto: *I didn't used to)" },
           { es: "I usually get up at seven.", en: "Suelo levantarme a las siete. (incorrecto: *I use to get up)" },
-          { es: "She's used to driving on the left.", en: "Está acostumbrada a conducir por la izquierda." },
+          { es: "She's used to driving on the left.", en: "Está acostumbrada a manejar por la izquierda." },
           { es: "I'm getting used to my new job.", en: "Me estoy acostumbrando a mi nuevo trabajo." },
           { es: "You'll soon get used to it.", en: "Pronto te acostumbrarás." },
         ],

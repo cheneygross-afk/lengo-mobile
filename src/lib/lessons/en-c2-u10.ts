@@ -119,7 +119,7 @@ export const EN_C2_U10: Lesson[] = [
           { es: "The client keeps moving the goalposts.", en: "El cliente no para de cambiar las reglas del juego." },
           { es: "They moved the goalposts halfway through the project.", en: "Cambiaron los objetivos a mitad de proyecto." },
           { es: "Fixing the checkout page would be a quick win.", en: "Arreglar la página de pago sería un logro rápido." },
-          { es: "Let's go for the low-hanging fruit first.", en: "Vayamos primero a por lo más fácil." },
+          { es: "Let's go for the low-hanging fruit first.", en: "Vayamos primero por lo más fácil." },
           { es: "We've picked all the low-hanging fruit; the rest will be harder.", en: "Ya hemos hecho todo lo fácil; lo que queda costará más." },
         ],
         checkpoint: [
@@ -284,7 +284,7 @@ export const EN_C2_U10: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Let's", "go", "for", "the", "low-hanging", "fruit", "first."],
-        translation: "Vayamos primero a por lo más fácil.",
+        translation: "Vayamos primero por lo más fácil.",
         altOrders: [["First,", "let's", "go", "for", "the", "low-hanging", "fruit."]],
         explanation: "\"Go for\" means to aim at or attempt. \"The low-hanging fruit\" is singular in form and has no -s.",
       },
@@ -335,7 +335,7 @@ export const EN_C2_U10: Lesson[] = [
         examples: [
           { es: "We've been firefighting all week.", en: "Llevamos toda la semana apagando fuegos." },
           { es: "I spend half my day putting out fires.", en: "Me paso media jornada apagando fuegos." },
-          { es: "Rising costs and a supplier strike created a perfect storm.", en: "La subida de costes y una huelga de proveedores provocaron la tormenta perfecta." },
+          { es: "Rising costs and a supplier strike created a perfect storm.", en: "El aumento de costos y una huelga de proveedores provocaron la tormenta perfecta." },
           { es: "We have enough cash to weather the storm.", en: "Tenemos liquidez suficiente para capear el temporal." },
           { es: "Most small retailers rode out the storm.", en: "La mayoría de los pequeños comercios aguantaron el temporal." },
         ],
@@ -364,7 +364,7 @@ export const EN_C2_U10: Lesson[] = [
             options: [
               "Sales fell, a key supplier went bankrupt and the exchange rate collapsed in the same month.",
               "The office was closed for a day because of heavy snow.",
-              "One large client cancelled a contract.",
+              "One large client canceled a contract.",
               "The team worked overtime to finish a project on time.",
             ],
             correctIndex: 0,
@@ -430,7 +430,7 @@ export const EN_C2_U10: Lesson[] = [
           { es: "The company has been in the red for three quarters.", en: "La empresa lleva tres trimestres en números rojos." },
           { es: "We expect to be back in the black by the end of the year.", en: "Esperamos volver a tener beneficios antes de fin de año." },
           { es: "The project should break even in its second year.", en: "El proyecto debería cubrir gastos en su segundo año." },
-          { es: "Cutting energy costs will improve the bottom line.", en: "Reducir los costes energéticos mejorará el resultado neto." },
+          { es: "Cutting energy costs will improve the bottom line.", en: "Reducir los costos energéticos mejorará el resultado neto." },
           { es: "The bottom line is that we need more customers.", en: "En resumidas cuentas, necesitamos más clientes." },
         ],
         checkpoint: [
@@ -546,7 +546,7 @@ export const EN_C2_U10: Lesson[] = [
           { left: "weather the storm", right: "capear el temporal" },
           { left: "break even", right: "cubrir gastos" },
         ],
-        explanation: "Red and black come from the colour of the ink in old account books.",
+        explanation: "Red and black come from the color of the ink in old account books.",
       },
       {
         type: "fill-blank",
@@ -561,7 +561,7 @@ export const EN_C2_U10: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La subida de los tipos de interés y la caída de la demanda provocaron la tormenta perfecta.",
+        source: "La subida de las tasas de interés y la caída de la demanda provocaron la tormenta perfecta.",
         answer: "Rising interest rates and falling demand created a perfect storm.",
         altAnswers: [
           "The rise in interest rates and the fall in demand created a perfect storm.",
@@ -693,10 +693,10 @@ export const EN_C2_U10: Lesson[] = [
         examples: [
           { es: "Can I give you a ballpark? Adding payments is another six weeks, give or take.", en: "¿Te doy una cifra aproximada? Añadir los pagos son otras seis semanas, más o menos." },
           { es: "And something in the ballpark of 30,000 dollars in extra costs.", en: "Y unos 30.000 dólares de costes adicionales, más o menos." },
-          { es: "OK. What are the quick wins here?", en: "Vale. ¿Qué podemos conseguir rápido?" },
+          { es: "OK. What are the quick wins here?", en: "De acuerdo. ¿Qué podemos conseguir rápido?" },
           { es: "The login fixes are low-hanging fruit. We can ship those this week.", en: "Los arreglos del inicio de sesión son lo más fácil. Podemos sacarlos esta semana." },
           { es: "Can we take the budget question offline?", en: "¿Podemos hablar lo del presupuesto aparte?" },
-          { es: "Let's put a pin in that and come back to it on Thursday.", en: "Dejemos eso aparcado y lo retomamos el jueves." },
+          { es: "Let's put a pin in that and come back to it on Thursday.", en: "Dejemos eso pendiente y lo retomamos el jueves." },
         ],
         checkpoint: [
           {
@@ -792,11 +792,11 @@ export const EN_C2_U10: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Se acordó lanzar la aplicación el 1 de junio sin la función de pago.",
-            answer: "It was agreed to launch the app on 1 June without the payment feature.",
+            answer: "It was agreed to launch the app on June 1 without the payment feature.",
             altAnswers: [
               "It was agreed that the app would launch on 1 June without the payment feature.",
               "It was agreed that the app would be launched on 1 June without the payment feature.",
-              "It was agreed to launch the app on June 1 without the payment feature.",
+              "It was agreed to launch the app on 1 June without the payment feature.",
               "It was agreed to launch the app on the first of June without the payment feature.",
               "It was agreed to launch the application on 1 June without the payment feature.",
               "It was agreed to launch the app on 1 June without the payment function.",
@@ -827,7 +827,7 @@ export const EN_C2_U10: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Dejemos eso aparcado de momento.",
+        source: "Dejemos eso pendiente de momento.",
         answer: "Let's park that for now.",
         altAnswers: [
           "Let's put a pin in that for now.",
@@ -911,7 +911,7 @@ export const EN_C2_U10: Lesson[] = [
           { left: "meet them halfway", right: "llegar a un punto intermedio" },
           { left: "to recap", right: "resumiendo" },
         ],
-        explanation: "These are the connective phrases of a meeting: agreeing, estimating, parking, compromising and summarising.",
+        explanation: "These are the connective phrases of a meeting: agreeing, estimating, parking, compromising and summarizing.",
       },
       {
         type: "word-order",
@@ -1028,7 +1028,7 @@ export const EN_C2_U10: Lesson[] = [
         heading: "Version 2: the international update",
         body: [
           "Now the same update must go to partners in Germany, Brazil, Japan and Mexico, most of whom read English as a second language. Idioms are the first thing to remove: \"went belly up\" could be read literally, and sports images (baseball especially) mean nothing to many readers.",
-          "Further rules for an international audience: prefer one clear verb to a phrasal verb when the meaning is not obvious (\"postpone\" rather than \"put off\", \"continue\" rather than \"carry on\"); write dates in full (\"Friday 14 June\", never 6/14 or 14/6); keep one idea per sentence; avoid humour, irony and cultural references.",
+          "Further rules for an international audience: prefer one clear verb to a phrasal verb when the meaning is not obvious (\"postpone\" rather than \"put off\", \"continue\" rather than \"carry on\"); write dates in full (\"Friday 14 June\", never 6/14 or 14/6); keep one idea per sentence; avoid humor, irony and cultural references.",
           "This is one area where Spanish speakers have an advantage: Latin-based verbs like \"continue\", \"resolve\" and \"postpone\" are often clearer to international readers than Anglo-Saxon phrasal verbs. Use that advantage, but do not overdo it: *We proceed to inform you remains stiff in any version.",
         ],
         examples: [
@@ -1355,7 +1355,7 @@ export const EN_C2_U10: Lesson[] = [
             type: "multiple-choice",
             question: "A new colleague from Brazil reads: \"We need to leverage our synergies and do a deep dive going forward.\" What is the best advice for the writer?",
             options: [
-              "Say exactly what will happen: \"From now on, the two teams will analyse the data together in detail.\"",
+              "Say exactly what will happen: \"From now on, the two teams will analyze the data together in detail.\"",
               "Add more context with other business terms, such as \"bandwidth\".",
               "Write the jargon words in capital letters so they stand out.",
               "Keep the sentence: everyone in business understands these words.",
@@ -1500,7 +1500,7 @@ export const EN_C2_U10: Lesson[] = [
     level: "EN-C2",
     number: 6,
     title: "Mastery vocabulary: business false friends",
-    summary: "The false friends that cause real misunderstandings at work: actual and eventual, assist, attend, apply, compromise, balance, rent and «renta», realise and «realizar», carpet, exit and sensible, practised by correcting workplace emails.",
+    summary: "The false friends that cause real misunderstandings at work: actual and eventual, assist, attend, apply, compromise, balance, rent and «renta», realize and «realizar», carpet, exit and sensible, practiced by correcting workplace emails.",
     duration: "12 min",
     sections: [
       {
@@ -1553,7 +1553,7 @@ export const EN_C2_U10: Lesson[] = [
         heading: "Assist, attend, apply and compromise",
         body: [
           "\"Assist\" means help: «ayudar». «Asistir a una reunión» is \"attend a meeting\" (no preposition after \"attend\"). To complicate things, «atender a un cliente» is \"serve\", \"see\" or \"deal with\" a customer, and \"attend to\" means to deal with something: \"I have a few things to attend to\".",
-          "«Solicitar un puesto» is \"apply for a job\" (with \"for\"); \"apply to\" names the organisation: \"apply to a company\". «Aplicar» a rule or a discount is also \"apply\", so that part transfers. A smartphone «aplicación» is an \"app\" or \"application\", but \"application\" alone at work often means a job application.",
+          "«Solicitar un puesto» is \"apply for a job\" (with \"for\"); \"apply to\" names the organization: \"apply to a company\". «Aplicar» a rule or a discount is also \"apply\", so that part transfers. A smartphone «aplicación» is an \"app\" or \"application\", but \"application\" alone at work often means a job application.",
           "\"Compromise\" (noun) is an agreement in which both sides give something up: «un acuerdo intermedio», «una solución de compromiso». «Un compromiso» meaning an obligation is \"a commitment\", and «comprometerse a» is \"commit to\" + -ing. The verb \"compromise\" can also mean to damage or endanger: \"compromise security\".",
         ],
         examples: [
@@ -1654,16 +1654,16 @@ export const EN_C2_U10: Lesson[] = [
       {
         heading: "Carpeta, éxito, realizar and sensible",
         body: [
-          "A «carpeta» is a \"folder\", physical or digital. A \"carpet\" is a «moqueta» or «alfombra». \"Exit\" is «salida»; «éxito» is \"success\", and «tener éxito» is \"succeed\" or \"be successful\".",
+          "A «carpeta» is a \"folder\", physical or digital. A \"carpet\" is an «alfombra». \"Exit\" is «salida»; «éxito» is \"success\", and «tener éxito» is \"succeed\" or \"be successful\".",
           "\"Realise\" (US \"realize\") means to become aware of something: «darse cuenta». «Realizar» is \"carry out\", \"do\", \"make\" or \"conduct\", depending on the noun: «realizar un pago» is \"make a payment\", «realizar un estudio» is \"carry out a study\" or \"conduct a study\", «realizar un pedido» is \"place an order\". In business English \"realise\" also means to achieve (\"realise a profit\", \"realise your potential\"), which makes the confusion even easier.",
-          "\"Sensible\" means reasonable, showing good judgement: «sensato». «Sensible» is \"sensitive\": «datos sensibles» are \"sensitive data\", «un tema sensible» is \"a sensitive issue\".",
+          "\"Sensible\" means reasonable, showing good judgment: «sensato». «Sensible» is \"sensitive\": «datos sensibles» are \"sensitive data\", «un tema sensible» is \"a sensitive issue\".",
         ],
         examples: [
           { es: "I've saved the contracts in the shared folder.", en: "He guardado los contratos en la carpeta compartida." },
           { es: "The campaign was a huge success.", en: "La campaña fue todo un éxito." },
           { es: "We need to carry out a market study.", en: "Tenemos que realizar un estudio de mercado." },
           { es: "I didn't realize the deadline was today.", en: "No me di cuenta de que el plazo acababa hoy." },
-          { es: "The payment was made on 3 May.", en: "El pago se realizó el 3 de mayo." },
+          { es: "The payment was made on May 3.", en: "El pago se realizó el 3 de mayo." },
           { es: "This file contains sensitive customer data.", en: "Este archivo contiene datos sensibles de clientes." },
           { es: "That seems a sensible decision.", en: "Parece una decisión sensata." },
         ],
@@ -1673,9 +1673,9 @@ export const EN_C2_U10: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "El pago se realizó el 3 de mayo.",
-            answer: "The payment was made on 3 May.",
+            answer: "The payment was made on May 3.",
             altAnswers: [
-              "The payment was made on May 3.",
+              "The payment was made on 3 May.",
               "The payment was made on the third of May.",
               "The payment was made on May 3rd.",
               "Payment was made on 3 May.",
@@ -1989,13 +1989,13 @@ export const EN_C2_U10: Lesson[] = [
       {
         heading: "When the pairs are not interchangeable",
         body: [
-          "The pairs overlap, but rarely completely. \"Set up\" a company = \"establish\" it, but \"set up\" a meeting = \"arrange\" it, and \"set up\" a computer = \"configure\" it. \"Discover\" suits something new to everyone (\"discover a new species\"); for everyday information, only \"find out\" is natural: \"I found out the train was cancelled\", not *I discovered the train time.",
+          "The pairs overlap, but rarely completely. \"Set up\" a company = \"establish\" it, but \"set up\" a meeting = \"arrange\" it, and \"set up\" a computer = \"configure\" it. \"Discover\" suits something new to everyone (\"discover a new species\"); for everyday information, only \"find out\" is natural: \"I found out the train was canceled\", not *I discovered the train time.",
           "Grammar matters too. With a pronoun object, separable phrasal verbs must split: \"put it off\", \"turn it down\", \"look it up\", never *put off it. Some phrasal verbs are not separable: \"look into it\", \"come across it\", \"go over it\".",
           "Finally, \"carry out\" and \"conduct\" go with research, a survey, an investigation or an experiment; \"perform\" with an operation, a task or a play; Spanish «realizar» covers all of them, but never \"realize\" («darse cuenta»).",
         ],
         examples: [
           { es: "Can you set up a meeting with the client?", en: "¿Puedes organizar una reunión con el cliente?" },
-          { es: "I found out the train had been cancelled.", en: "Me enteré de que habían cancelado el tren." },
+          { es: "I found out the train had been canceled.", en: "Me enteré de que habían cancelado el tren." },
           { es: "The offer was good, but she turned it down.", en: "La oferta era buena, pero la rechazó." },
           { es: "We'll look into it tomorrow.", en: "Lo miraremos mañana." },
           { es: "The survey was conducted among 2,000 adults.", en: "La encuesta se realizó entre 2.000 adultos." },
@@ -2177,11 +2177,11 @@ export const EN_C2_U10: Lesson[] = [
         maxWords: 80,
         rubric: [
           "Replaces put off with postpone (or reschedule) and looking into with investigating, considering or identifying.",
-          "Replaces sorted it out with confirmed, arranged or finalised.",
+          "Replaces sorted it out with confirmed, arranged or finalized.",
           "Uses an impersonal or formal structure (passive voice, We regret...).",
           "Removes casual elements such as Hi all and Sorry about that!",
         ],
-        modelAnswer: "Training session postponed\n\nPlease note that the training session scheduled for Thursday has been postponed owing to the trainer's illness. Alternative dates are currently being considered, and a new date will be announced as soon as it has been confirmed. We apologise for any inconvenience this may cause.",
+        modelAnswer: "Training session postponed\n\nPlease note that the training session scheduled for Thursday has been postponed owing to the trainer's illness. Alternative dates are currently being considered, and a new date will be announced as soon as it has been confirmed. We apologize for any inconvenience this may cause.",
         explanation: "Notice how the formal version uses the passive and Latinate verbs (postponed, considered, confirmed, announced) and replaces \"Sorry about that\" with a formal apology.",
       },
     ],
@@ -2209,7 +2209,7 @@ export const EN_C2_U10: Lesson[] = [
           { es: "I'll touch base with you next week.", en: "Te escribo la semana que viene para ver cómo va. (incorrecto: touch basis)" },
           { es: "Let's make sure we're on the same page.", en: "Asegurémonos de que estamos en la misma onda. (incorrecto: in the same page)" },
           { es: "We need to think outside the box.", en: "Tenemos que pensar de forma original." },
-          { es: "The new laptops work out of the box.", en: "Los portátiles nuevos funcionan nada más sacarlos de la caja." },
+          { es: "The new laptops work out of the box.", en: "Las laptops nuevas funcionan apenas las sacas de la caja." },
           { es: "We kick off the project on Monday.", en: "Arrancamos el proyecto el lunes." },
         ],
         checkpoint: [
@@ -2239,7 +2239,7 @@ export const EN_C2_U10: Lesson[] = [
       {
         heading: "Right words, wrong meaning",
         body: [
-          "Some errors are subtler: the form is correct, but the idiom does not fit the situation. \"A perfect storm\" needs several problems at once, not one bad day. \"Low-hanging fruit\" means easy opportunities, not low-quality work. \"The bottom line\" is the key point or the net result, not the lowest price you will accept (that is \"the bottom price\" or \"your floor\").",
+          "Some errors are subtler: the form is correct, but the idiom does not fit the situation. \"A perfect storm\" needs several problems at once, not one bad day. \"Low-hanging fruit\" means easy opportunities, not low-quality work. \"The bottom line\" is the key point or the net result, and in negotiation it can also mean the lowest price you will accept, so check which sense fits.",
           "\"In the red\" means losing money, not \"in danger\" in general. \"Back to the drawing board\" means starting again after a failure, so it cannot describe a project that is going well. And \"circle back\" is about returning to a topic, not about calling someone back for the first time.",
           "When in doubt, check the image: a storm needs several weather systems, the fruit is easy to reach, the bottom line is the last line of the accounts.",
         ],
@@ -2257,10 +2257,10 @@ export const EN_C2_U10: Lesson[] = [
               "Strikes, floods and a cyberattack in the same week created a perfect storm.",
               "My train was late this morning; it was a perfect storm.",
               "The report was full of typos; it was low-hanging fruit.",
-              "Our bottom line for this contract is 9 dollars a unit, no lower.",
+              "We weathered the storm by closing the company.",
             ],
             correctIndex: 0,
-            explanation: "A perfect storm needs several problems combining. A late train is just bad luck, low-hanging fruit means easy wins, and a minimum price is \"our lowest price\" or \"our floor\".",
+            explanation: "A perfect storm needs several problems combining. A late train is just bad luck, low-hanging fruit means easy wins, and to weather the storm is to survive a crisis, not to give up.",
           },
         ],
       },
@@ -2522,7 +2522,7 @@ export const EN_C2_U10: Lesson[] = [
         heading: "Recap: jargon, false friends and common errors",
         body: [
           "Jargon: \"leverage\" (use), \"synergy\" (working well together, or cost savings), \"bandwidth\" (time), \"deep dive\" (detailed analysis), \"going forward\" (from now on).",
-          "False friends: \"actually\" is «en realidad» (currently is «actualmente»), \"eventually\" is «al final», \"assist\" is «ayudar», \"compromise\" is «solución intermedia», \"rent\" is «alquiler», \"realize\" is «darse cuenta», \"carpet\" is «moqueta», \"exit\" is «salida», \"sensible\" is «sensato».",
+          "False friends: \"actually\" is «en realidad» (currently is «actualmente»), \"eventually\" is «al final», \"assist\" is «ayudar», \"compromise\" is «solución intermedia», \"rent\" is «alquiler», \"realize\" is «darse cuenta», \"carpet\" is «alfombra», \"exit\" is «salida», \"sensible\" is «sensato».",
           "Errors to avoid: *touch basis, *in the same page, *think out of the box, *make a meeting, *explain me, *discuss about, *advices, *I send you attached.",
         ],
         examples: [
@@ -2602,7 +2602,7 @@ export const EN_C2_U10: Lesson[] = [
         options: [
           "The topic is set aside to be discussed later.",
           "The topic is marked as approved.",
-          "The topic is cancelled permanently.",
+          "The topic is canceled permanently.",
           "Someone writes the topic on a noticeboard.",
         ],
         correctIndex: 0,

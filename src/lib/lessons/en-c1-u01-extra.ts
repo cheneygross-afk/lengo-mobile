@@ -719,7 +719,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Bajo ninguna circunstancia debe dejar a los niños solos en el coche.",
+        source: "Bajo ninguna circunstancia debe dejar a los niños solos en el carro.",
         answer: "Under no circumstances should you leave children alone in the car.",
         altAnswers: [
           "Under no circumstances should you leave the children alone in the car.",
@@ -740,7 +740,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
         question: "Which phrase at the start of a sentence does NOT trigger inversion?",
         options: ["Not long ago", "On no account", "At no time", "Not once"],
         correctIndex: 0,
-        explanation: "\"Not long ago\" means «hace poco» and the sentence is positive: \"Not long ago, I moved house\". The other three mean \"never\" and invert.",
+        explanation: "\"Not long ago\" means «hace poco» and the sentence is positive: \"Not long ago, I moved\". The other three mean \"never\" and invert.",
       },
       {
         type: "translate",
@@ -910,7 +910,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
         instructions: "Match the English phrases with their Spanish equivalents.",
         pairs: [
           { left: "Under no circumstances", right: "Bajo ninguna circunstancia" },
-          { left: "On no account", right: "Bajo ningún concepto" },
+          { left: "At no time", right: "En ningún momento" },
           { left: "At no time", right: "En ningún momento" },
           { left: "In no time", right: "En un santiamén" },
         ],
@@ -971,7 +971,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
           { es: "Had I known, I would have called you.", en: "De haberlo sabido, te habría llamado." },
           { es: "Should you need anything, just let me know.", en: "Si necesitas algo, dímelo." },
           { es: "Were she to resign, the whole team would follow her.", en: "Si ella dimitiera, todo el equipo la seguiría." },
-          { es: "Were it not for the noise, this would be the perfect apartment.", en: "Si no fuera por el ruido, este sería el piso perfecto." },
+          { es: "Were it not for the noise, this would be the perfect apartment.", en: "Si no fuera por el ruido, este sería el departamento perfecto." },
           { es: "Had it not been for the doctor, he wouldn't have survived.", en: "De no haber sido por el médico, no habría sobrevivido." },
           { es: "Had we not stopped, we would have run out of gas.", en: "Si no hubiéramos parado, nos habríamos quedado sin gasolina." },
         ],
@@ -1115,7 +1115,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si no fuera por su ayuda, todavía estaríamos buscando piso.",
+        source: "Si no fuera por su ayuda, todavía estaríamos buscando departamento.",
         answer: "Were it not for her help, we would still be looking for an apartment.",
         altAnswers: [
           "Were it not for his help, we would still be looking for an apartment.",
@@ -1146,7 +1146,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
           "Without your help, we would still be looking for an apartment.",
           "Without your help, we would still be looking for a flat.",
         ],
-        explanation: "Present situation, so \"Were it not for\" (= «si no fuera por»). «Su» can be his, her, their or your; «piso» is \"apartment\" (US) or \"flat\" (UK).",
+        explanation: "Present situation, so \"Were it not for\" (= «si no fuera por»). «Su» can be his, her, their or your; «departamento» is \"apartment\" (US) or \"flat\" (UK).",
       },
       {
         type: "word-order",
@@ -1271,7 +1271,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "So great was the noise that we couldn't sleep.", en: "Era tan grande el ruido que no pudimos dormir." },
-          { es: "So fast did he drive that the police stopped him.", en: "Conducía tan rápido que la policía lo paró." },
+          { es: "So fast did he drive that the police stopped him.", en: "Manejaba tan rápido que la policía lo paró." },
           { es: "Such was the noise that we couldn't sleep.", en: "Era tal el ruido que no pudimos dormir." },
           { es: "Such was her talent that she won every prize.", en: "Era tal su talento que ganó todos los premios." },
           { es: "So beautiful was the view that nobody spoke.", en: "La vista era tan bonita que nadie habló." },
@@ -1459,7 +1459,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Such", "was", "his", "anger", "that", "nobody", "dared", "to", "speak."],
-        translation: "Tal era su enfado que nadie se atrevía a hablar.",
+        translation: "Tal era su enojo que nadie se atrevía a hablar.",
         explanation: "\"Such\" + \"was\" + noun subject (\"his anger\") + \"that\" clause.",
       },
       {

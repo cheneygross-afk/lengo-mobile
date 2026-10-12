@@ -15,7 +15,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
     level: "EN-B2",
     number: 1,
     title: "Extra Practice: Travel Words",
-    summary: "Drill the words Spanish squeezes into «viaje», «coger» and «perder»: travel, trip, journey, voyage, get on and get in, miss, catch and book.",
+    summary: "Drill the words Spanish squeezes into «viaje», «tomar» and «perder»: travel, trip, journey, voyage, get on and get in, miss, catch and book.",
     duration: "10 min",
     sections: [
       {
@@ -50,13 +50,13 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
         heading: "Quick recap: get on, get in, miss, catch, book",
         body: [
           "Big vehicles you can walk around in (bus, train, plane, ship) and bikes: \"get on\" and \"get off\". Cars and taxis: \"get in\" and \"get out of\". So *get in the bus and *get off the car sound wrong.",
-          "«Perder el tren» is \"miss the train\" (\"lose\" is for things you can't find). «Coger el autobús» is \"catch\" or \"take the bus\"; avoid «coger» calques like *pick the bus. «Reservar» is \"book\" (or \"reserve\").",
+          "«Perder el tren» is \"miss the train\" (\"lose\" is for things you can't find). «Tomar el autobús» is \"catch\" or \"take the bus\"; avoid «tomar» calques like *pick the bus. «Reservar» is \"book\" (or \"reserve\").",
         ],
         examples: [
           { es: "She got on the train at the last minute.", en: "Se subió al tren en el último momento." },
-          { es: "Get out of the car carefully.", en: "Baja del coche con cuidado." },
+          { es: "Get out of the car carefully.", en: "Baja del carro con cuidado." },
           { es: "We missed the bus by two minutes.", en: "Perdimos el autobús por dos minutos. (incorrecto: *lost the bus)" },
-          { es: "I usually catch the 7:30 train.", en: "Normalmente cojo el tren de las 7:30." },
+          { es: "I usually catch the 7:30 train.", en: "Normalmente tomo el tren de las 7:30." },
           { es: "Have you booked the flights yet?", en: "¿Ya has reservado los vuelos?" },
         ],
         checkpoint: [
@@ -120,8 +120,8 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
         sentence: "If we leave now, we can still ___ the 9:15 train.",
         answer: "catch",
         altAnswers: ["get", "make", "take"],
-        en: "Si salimos ahora, todavía podemos [coger] el tren de las 9:15.",
-        explanation: "«Coger» a train or bus in time is \"catch\" (or \"make\"). \"Take\" is fine for your usual route.",
+        en: "Si salimos ahora, todavía podemos [tomar] el tren de las 9:15.",
+        explanation: "«Tomar» a train or bus in time is \"catch\" (or \"make\"). \"Take\" is fine for your usual route.",
       },
       {
         type: "translate",

@@ -647,7 +647,7 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "In my view, homework should be optional.", en: "En mi opinión, los deberes deberían ser opcionales. (incorrecto: *According to me)" },
-          { es: "Firstly, public transport is cheaper than driving.", en: "En primer lugar, el transporte público es más barato que el coche." },
+          { es: "Firstly, public transport is cheaper than driving.", en: "En primer lugar, el transporte público es más barato que el carro." },
           { es: "On the other hand, buses are often slow.", en: "Por otro lado, los autobuses suelen ser lentos. (incorrecto: *In the other hand)" },
           { es: "According to a recent study, most teenagers sleep too little.", en: "Según un estudio reciente, la mayoría de los adolescentes duerme poco." },
           { es: "To sum up, the advantages outweigh the disadvantages.", en: "En resumen, las ventajas superan a los inconvenientes. (incorrecto: *Resuming)" },
@@ -670,7 +670,7 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "On the one hand, cars are convenient. On the ___ hand, they pollute the air.",
             answer: "other",
-            en: "Por un lado, los coches son cómodos. Por [otro] lado, contaminan el aire.",
+            en: "Por un lado, los carros son cómodos. Por [otro] lado, contaminan el aire.",
             explanation: "The pair is \"On the one hand... On the other hand...\", both with \"on\".",
           },
         ],
@@ -740,7 +740,7 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Por ejemplo, muchas ciudades han prohibido los coches en el centro.",
+        source: "Por ejemplo, muchas ciudades han prohibido los carros en el centro.",
         answer: "For example, many cities have banned cars from the center.",
         altAnswers: [
           "For instance, many cities have banned cars from the center.",
@@ -1045,7 +1045,7 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«el coche de mis padres» Which is correct?",
+        question: "«el carro de mis padres» Which is correct?",
         options: ["my parents' car", "my parent's car", "my parents car", "the car of my parents'"],
         correctIndex: 0,
         explanation: "Plural owner ending in -s: apostrophe after the s, \"parents'\". \"My parent's car\" would mean only one parent.",
@@ -1056,7 +1056,7 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
         sentence: "___ raining again! I'll take the car.",
         answer: "It's",
         altAnswers: ["It is"],
-        en: "¡[Está] lloviendo otra vez! Me llevaré el coche.",
+        en: "¡[Está] lloviendo otra vez! Me llevaré el carro.",
         explanation: "\"It's\" = \"it is\", with an apostrophe. Weather always needs \"it\" as the subject.",
       },
       {

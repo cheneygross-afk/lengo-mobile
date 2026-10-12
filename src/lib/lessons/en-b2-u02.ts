@@ -62,7 +62,7 @@ export const EN_B2_U02: Lesson[] = [
           { es: "I had just finished my exams, so I felt free.", en: "Acababa de terminar los exámenes, así que me sentía libre." },
           { es: "When I got to the station, the train had already left.", en: "Cuando llegué a la estación, el tren ya había salido." },
           { es: "I had never seen the sea before that day.", en: "Nunca había visto el mar antes de ese día." },
-          { es: "She was nervous because she hadn't driven in years.", en: "Estaba nerviosa porque hacía años que no conducía." },
+          { es: "She was nervous because she hadn't driven in years.", en: "Estaba nerviosa porque hacía años que no manejaba." },
         ],
         checkpoint: [
           {
@@ -94,7 +94,7 @@ export const EN_B2_U02: Lesson[] = [
         ],
         examples: [
           { es: "I had been waiting for two hours when the bus finally came.", en: "Llevaba dos horas esperando cuando por fin llegó el autobús." },
-          { es: "We had been driving all day, so we were tired.", en: "Llevábamos todo el día conduciendo, así que estábamos cansados." },
+          { es: "We had been driving all day, so we were tired.", en: "Llevábamos todo el día manejando, así que estábamos cansados." },
           { es: "How long had you been living there when you met him?", en: "¿Cuánto tiempo llevabas viviendo allí cuando lo conociste?" },
           { es: "She had been studying for months before the interview.", en: "Llevaba meses estudiando antes de la entrevista." },
           { es: "My eyes were red because I had been crying.", en: "Tenía los ojos rojos porque había estado llorando." },
@@ -181,7 +181,7 @@ export const EN_B2_U02: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["She", "was", "nervous", "because", "she", "hadn't", "driven", "in", "years."],
-        translation: "Estaba nerviosa porque hacía años que no conducía.",
+        translation: "Estaba nerviosa porque hacía años que no manejaba.",
         altOrders: [["Because", "she", "hadn't", "driven", "in", "years", "she", "was", "nervous."]],
         explanation: "«Hacía años que no...» is \"hadn't + past participle + in/for years\". English does not use \"it made years\" for «hacía años».",
       },
@@ -1026,7 +1026,7 @@ export const EN_B2_U02: Lesson[] = [
         examples: [
           { es: "He'd told his family he'd be back by dinner.", en: "Le había dicho a su familia que volvería para la cena." },
           { es: "The police had closed the road.", en: "La policía había cortado la carretera." },
-          { es: "They'd found his car near the trail.", en: "Habían encontrado su coche cerca del sendero." },
+          { es: "They'd found his car near the trail.", en: "Habían encontrado su carro cerca del sendero." },
           { es: "His sister had called the police on Friday night.", en: "Su hermana había llamado a la policía el viernes por la noche." },
         ],
         checkpoint: [
@@ -1223,7 +1223,7 @@ export const EN_B2_U02: Lesson[] = [
         ],
         examples: [
           { es: "She had been working there for ten years when the company closed.", en: "Llevaba diez años trabajando allí cuando cerró la empresa." },
-          { es: "We had been driving for six hours, so we stopped for coffee.", en: "Llevábamos seis horas conduciendo, así que paramos a tomar un café." },
+          { es: "We had been driving for six hours, so we stopped for coffee.", en: "Llevábamos seis horas manejando, así que paramos a tomar un café." },
           { es: "They had been dating for a year when they got engaged.", en: "Llevaban un año saliendo cuando se prometieron." },
           { es: "He had been studying since lunchtime.", en: "Llevaba estudiando desde la hora de comer." },
           { es: "I had been living in Boston for two months when I found a job.", en: "Llevaba dos meses viviendo en Boston cuando encontré trabajo." },
@@ -1233,7 +1233,7 @@ export const EN_B2_U02: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Llevábamos seis horas conduciendo, así que paramos a tomar un café.",
+            source: "Llevábamos seis horas manejando, así que paramos a tomar un café.",
             answer: "We had been driving for six hours, so we stopped for coffee.",
             altAnswers: ["We had been driving for six hours, so we stopped for a coffee.", "We had been driving for six hours so we stopped for coffee.", "We had been driving for six hours, so we stopped to have a coffee.", "We had been driving for six hours, so we stopped to have coffee.", "We had been driving for six hours, so we stopped to get coffee.", "We had been driving for six hours, so we stopped to get a coffee.", "We had been driving six hours, so we stopped for coffee."],
             explanation: "«Llevábamos + tiempo + gerundio» = \"had been + -ing + for + time\". The verb comes before the time in English.",

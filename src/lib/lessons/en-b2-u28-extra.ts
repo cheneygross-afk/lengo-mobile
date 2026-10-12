@@ -219,7 +219,7 @@ export const EN_B2_U28_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Durante un año nos apañamos con un solo coche.",
+        source: "Durante un año nos apañamos con un solo carro.",
         answer: "For a year we got by with just one car.",
         altAnswers: [
           "For a year we got by with only one car.",
@@ -1759,9 +1759,9 @@ export const EN_B2_U28_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "She told me she was leaving.", en: "Me dijo que se iba. (incorrecto: *She said me)" },
-          { es: "Someone stole my phone at the concert.", en: "Me robaron el móvil en el concierto." },
+          { es: "Someone stole my phone at the concert.", en: "Me robaron el celular en el concierto." },
           { es: "Two men robbed a jewelry store downtown.", en: "Dos hombres atracaron una joyería en el centro." },
-          { es: "Could you lend me your car this weekend?", en: "¿Me prestas el coche este fin de semana?" },
+          { es: "Could you lend me your car this weekend?", en: "¿Me prestas el carro este fin de semana?" },
           { es: "Can I borrow your pen for a second?", en: "¿Me dejas el boli un segundo?" },
           { es: "Nurses don't earn enough.", en: "Las enfermeras no ganan lo suficiente." },
         ],

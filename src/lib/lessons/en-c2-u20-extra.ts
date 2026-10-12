@@ -106,7 +106,7 @@ export const EN_C2_U20_EXTRA: Lesson[] = [
             options: [
               "She isn't sure and wants you to confirm.",
               "She is sure and is making small talk.",
-              "She is criticising you for sending it.",
+              "She is criticizing you for sending it.",
               "She is asking you to send it now.",
             ],
             correctIndex: 0,

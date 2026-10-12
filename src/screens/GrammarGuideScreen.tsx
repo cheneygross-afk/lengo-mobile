@@ -7,12 +7,13 @@ import { GRAMMAR_GUIDES } from "@/lib/grammar/guides";
 import { lessonsForGuide } from "@/lib/lessons/grammarLinks";
 import { findLessonBySlug } from "@/lib/lessons/registry";
 import TapText from "@/components/TapText";
-import { ENGLISH_LANG, FRENCH_LANG, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
+import { ENGLISH_LANG, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
 import type { GrammarGuide } from "@/lib/grammar/types";
-import type { FrGrammarGuide } from "@/lib/grammar/fr-types";
-import { loadFrenchGuides } from "@/lib/grammar/french";
+import { GUIDE_COURSES, type CourseGuide, type GuideCourse } from "@/lib/grammar/courseGuides";
 import type { FrenchLevelKey } from "@/lib/lessons/french";
+import type { GermanLevelKey } from "@/lib/lessons/german";
 import type { FrenchStoryLevel } from "@/lib/stories/fr";
+import type { GermanStoryLevel } from "@/lib/stories/de";
 
 type Props = NativeStackScreenProps<AppStackParamList, "GrammarGuide">;
 
@@ -29,7 +30,12 @@ const LESSONS_FOR_LEVEL: Record<string, LessonModuleKey> = {
 // Every word is tap-to-hear: English prose with Spanish mixed in is read
 // word by word in whichever language each word is in.
 export default function GrammarGuideScreen(props: Props) {
-  return props.route.params.lang === "fr" ? <FrenchGrammarGuideScreen {...props} /> : <SpanishGrammarGuideScreen {...props} />;
+  const lang = props.route.params.lang;
+  return lang === "fr" || lang === "de" ? (
+    <CourseGrammarGuideScreen {...props} course={lang} />
+  ) : (
+    <SpanishGrammarGuideScreen {...props} />
+  );
 }
 
 // What the guide layout below needs, whichever course the guide is from.
@@ -71,20 +77,21 @@ function SpanishGrammarGuideScreen({ route, navigation }: Props) {
   );
 }
 
-// A French grammar guide (src/lib/grammar/fr-guides*.ts, loaded on demand):
-// the same layout, read in the French voice, with links into the French
-// lessons and stories.
-function FrenchGrammarGuideScreen({ route, navigation }: Props) {
-  const [guides, setGuides] = useState<FrGrammarGuide[] | null>(null);
+// A French or German grammar guide (lib/grammar/courseGuides.ts, loaded on
+// demand): the same layout, read in that course's voice, with links into
+// its own lessons and stories.
+function CourseGrammarGuideScreen({ route, navigation, course }: Props & { course: GuideCourse }) {
+  const config = GUIDE_COURSES[course];
+  const [guides, setGuides] = useState<CourseGuide[] | null>(null);
   useEffect(() => {
     let cancelled = false;
-    loadFrenchGuides().then((g) => {
+    config.load().then((g) => {
       if (!cancelled) setGuides(g);
     });
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [config]);
   if (!guides) {
     return (
       <View style={[s.screen, s.loading]}>
@@ -100,30 +107,36 @@ function FrenchGrammarGuideScreen({ route, navigation }: Props) {
       </View>
     );
   }
-  const levelPath = `fr/${guide.level.toLowerCase()}`;
+  const key = guide.level.toLowerCase();
+  const levelPath = `${course}/${key}`;
   const firstLesson = guide.lessons[0];
   const related = guide.related
     .map((slug) => guides.find((g) => g.slug === slug))
-    .filter((g): g is FrGrammarGuide => !!g);
-  // The layout's examples are { es, en }: the target language and English.
-  const body: GuideBody = {
-    ...guide,
-    sections: guide.sections.map((sec) => ({ ...sec, examples: sec.examples?.map((ex) => ({ es: ex.fr, en: ex.en })) })),
-  };
+    .filter((g): g is CourseGuide => !!g);
   return (
     <GuideLayout
-      guide={body}
-      lang={FRENCH_LANG}
+      guide={guide}
+      lang={config.lang}
       practiceLabel={firstLesson ? "Practice this in lessons" : `Practice with the ${guide.level} lessons`}
       onPractice={() =>
         firstLesson
           ? navigation.navigate("LessonRunner", { slug: firstLesson, levelPath })
-          : navigation.navigate("LessonList", { frenchLevel: guide.level.toLowerCase() as FrenchLevelKey })
+          : navigation.navigate(
+              "LessonList",
+              course === "fr" ? { frenchLevel: key as FrenchLevelKey } : { germanLevel: key as GermanLevelKey }
+            )
       }
       storyLabel={`Read a ${guide.level} story`}
-      onStory={() => navigation.navigate("ReadingsList", { frenchLevel: guide.level.toLowerCase() as FrenchStoryLevel["path"] })}
+      onStory={() =>
+        navigation.navigate(
+          "ReadingsList",
+          course === "fr"
+            ? { frenchLevel: key as FrenchStoryLevel["path"] }
+            : { germanLevel: key as GermanStoryLevel["path"] }
+        )
+      }
       related={related}
-      onRelated={(slug) => navigation.push("GrammarGuide", { slug, lang: "fr" })}
+      onRelated={(slug) => navigation.push("GrammarGuide", { slug, lang: course })}
     />
   );
 }

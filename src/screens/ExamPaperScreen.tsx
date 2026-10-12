@@ -29,9 +29,10 @@ type Props = NativeStackScreenProps<AppStackParamList, "ExamPaper">;
 // "write" exercise (with feedback when available) and speaking gives a
 // cue card with timers and a model answer, both marked 1-5 per task.
 // Timed mode runs the paper's real time limit and, in listening, allows
-// each recording two plays, as in the exam.
-// With course "fr" it runs a DELF/DALF paper: the same runner, in French
-// (see components/exams/examCourse.ts).
+// each recording two plays (or the recording's own limit), as in the exam.
+// With course "fr" it runs a DELF/DALF paper and with "de" a
+// Goethe-Zertifikat paper: the same runner, in that language (see
+// components/exams/examCourse.ts).
 export default function ExamPaperScreen({ route, navigation }: Props) {
   const course = route.params.course ?? "es";
   const exams = useCourseExams(course);

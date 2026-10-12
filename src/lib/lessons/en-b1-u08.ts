@@ -23,7 +23,7 @@ export const EN_B1_U08: Lesson[] = [
           { es: "If I had more time, I would travel more.", en: "Si tuviera más tiempo, viajaría más." },
           { es: "If I lived near the beach, I would swim every day.", en: "Si viviera cerca de la playa, nadaría todos los días." },
           { es: "If she knew the answer, she would tell us.", en: "Si supiera la respuesta, nos la diría." },
-          { es: "If we had a car, we would visit you more often.", en: "Si tuviéramos coche, te visitaríamos más a menudo." },
+          { es: "If we had a car, we would visit you more often.", en: "Si tuviéramos carro, te visitaríamos más a menudo." },
           { es: "If he spoke English, he would get a better job.", en: "Si hablara inglés, conseguiría un trabajo mejor." },
         ],
         checkpoint: [
@@ -131,7 +131,7 @@ export const EN_B1_U08: Lesson[] = [
         examples: [
           { es: "If I had time, I would help you.", en: "Si tuviera tiempo, te ayudaría." },
           { es: "I would help you if I had time.", en: "Te ayudaría si tuviera tiempo." },
-          { es: "She would be angry if she found out.", en: "Se enfadaría si se enterara." },
+          { es: "She would be angry if she found out.", en: "Se enojaría si se enterara." },
           { es: "If we didn't have children, we wouldn't need a big house.", en: "Si no tuviéramos hijos, no necesitaríamos una casa grande." },
         ],
         checkpoint: [
@@ -183,7 +183,7 @@ export const EN_B1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Choose the correct translation of «Si tuviéramos coche, te visitaríamos más».",
+        question: "Choose the correct translation of «Si tuviéramos carro, te visitaríamos más».",
         options: [
           "If we had a car, we would visit you more.",
           "If we would have a car, we would visit you more.",
@@ -206,7 +206,7 @@ export const EN_B1_U08: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["If", "she", "found", "out,", "she", "would", "be", "angry."],
-        translation: "Si se enterara, se enfadaría.",
+        translation: "Si se enterara, se enojaría.",
         explanation: "If-clause with the past simple (\"found out\"), comma, then \"would\" + base form.",
       },
       {
@@ -257,7 +257,7 @@ export const EN_B1_U08: Lesson[] = [
         examples: [
           { es: "If I were you, I'd talk to her.", en: "Yo que tú, hablaría con ella." },
           { es: "If I were you, I'd see a doctor.", en: "Yo en tu lugar, iría al médico." },
-          { es: "If I were you, I wouldn't buy that car.", en: "Yo que tú, no compraría ese coche." },
+          { es: "If I were you, I wouldn't buy that car.", en: "Yo que tú, no compraría ese carro." },
           { es: "I'd call him if I were you.", en: "Yo que tú, lo llamaría." },
           { es: "If I were you, I'd take the job.", en: "Yo en tu lugar, aceptaría el trabajo." },
         ],
@@ -276,7 +276,7 @@ export const EN_B1_U08: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "If I were you, I ___ that car.",
             answer: "wouldn't buy",
-            en: "Yo que tú, [no compraría] ese coche.",
+            en: "Yo que tú, [no compraría] ese carro.",
             explanation: "Negative advice: \"I wouldn't\" + base form.",
           },
         ],
@@ -483,13 +483,13 @@ export const EN_B1_U08: Lesson[] = [
       {
         heading: "Spanish already shows you the difference",
         body: [
-          "Good news: Spanish makes the same contrast. «Si gano, me compraré un coche» is a real possibility. «Si ganara, me compraría un coche» is imaginary or unlikely.",
+          "Good news: Spanish makes the same contrast. «Si gano, me compraré un carro» is a real possibility. «Si ganara, me compraría un carro» is imaginary or unlikely.",
           "English follows the same pattern. Real: \"if\" + present, \"will\" + base form: \"If I win, I'll buy a car.\" Imaginary: \"if\" + past, \"would\" + base form: \"If I won, I'd buy a car.\"",
           "So a quick test: if your Spanish sentence has «si gano», use the first conditional; if it has «si ganara», use the second.",
         ],
         examples: [
-          { es: "If I win, I'll buy a car.", en: "Si gano, me compraré un coche." },
-          { es: "If I won, I'd buy a car.", en: "Si ganara, me compraría un coche." },
+          { es: "If I win, I'll buy a car.", en: "Si gano, me compraré un carro." },
+          { es: "If I won, I'd buy a car.", en: "Si ganara, me compraría un carro." },
           { es: "If it rains, we'll stay home.", en: "Si llueve, nos quedaremos en casa." },
           { es: "If I had a garden, I'd grow tomatoes.", en: "Si tuviera jardín, cultivaría tomates." },
           { es: "If you study, you'll pass.", en: "Si estudias, aprobarás." },
@@ -499,7 +499,7 @@ export const EN_B1_U08: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Si gano, me compraré un coche.",
+            source: "Si gano, me compraré un carro.",
             answer: "If I win, I will buy a car.",
             altAnswers: ["I will buy a car if I win.", "If I win, I will buy myself a car.", "If I win, I'm going to buy a car."],
             explanation: "«Si gano» is a real possibility: \"if\" + present, \"will\" + base form.",
@@ -508,7 +508,7 @@ export const EN_B1_U08: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Si ganara, me compraría un coche.",
+            source: "Si ganara, me compraría un carro.",
             answer: "If I won, I would buy a car.",
             altAnswers: ["I would buy a car if I won.", "If I won, I would buy myself a car."],
             explanation: "«Si ganara» is imaginary: \"if\" + past simple, \"would\" + base form.",
@@ -705,7 +705,7 @@ export const EN_B1_U08: Lesson[] = [
           "Like \"would\", \"could\" is followed by the base form, with no \"to\": \"I could drive\", never *I could to drive.",
         ],
         examples: [
-          { es: "If I had a car, I could drive you.", en: "Si tuviera coche, podría llevarte." },
+          { es: "If I had a car, I could drive you.", en: "Si tuviera carro, podría llevarte." },
           { es: "If you lived closer, we could see each other more.", en: "Si vivieras más cerca, podríamos vernos más." },
           { es: "If she spoke French, she could work in Paris.", en: "Si hablara francés, podría trabajar en París." },
           { es: "If we left now, we could catch the train.", en: "Si saliéramos ahora, podríamos tomar el tren." },
@@ -716,7 +716,7 @@ export const EN_B1_U08: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Si tuviera coche, podría llevarte.",
+            source: "Si tuviera carro, podría llevarte.",
             answer: "If I had a car, I could drive you.",
             altAnswers: ["If I had a car, I could take you.", "If I had a car, I could give you a ride.", "If I had a car, I could give you a lift.", "If I had a car, I would be able to drive you.", "If I had a car, I would be able to take you.", "I could drive you if I had a car.", "I could take you if I had a car.", "I could give you a ride if I had a car."],
             explanation: "«Podría» in a second conditional is usually \"could\" (= would be able to). «Llevar a alguien» in a car is \"drive\" or \"give someone a ride\".",
@@ -875,10 +875,10 @@ export const EN_B1_U08: Lesson[] = [
         audio: "If I had a car, I could pick you up.",
         question: "What did you hear?",
         options: [
-          "Si tuviera coche, podría recogerte.",
-          "Si tengo coche, te recogeré.",
-          "Tenía coche y te recogí.",
-          "Si tuviera coche, a lo mejor te recogería.",
+          "Si tuviera carro, podría recogerte.",
+          "Si tengo carro, te recogeré.",
+          "Tenía carro y te recogí.",
+          "Si tuviera carro, a lo mejor te recogería.",
         ],
         correctIndex: 0,
         explanation: "\"Could pick you up\" = «podría recogerte». \"Might\" would be «a lo mejor».",
@@ -963,12 +963,12 @@ export const EN_B1_U08: Lesson[] = [
         heading: "Quick recap: could and might",
         body: [
           "In the result, \"could\" = would be able to (\"I could help you\"), and \"might\" = maybe would (\"I might help you\").",
-          "After \"if\", \"could\" is the past of \"can\": \"If I could drive, I'd take you.\" (= «si supiera conducir, te llevaría»).",
+          "After \"if\", \"could\" is the past of \"can\": \"If I could drive, I'd take you.\" (= «si supiera manejar, te llevaría»).",
         ],
         examples: [
-          { es: "If I had a car, I could take you.", en: "Si tuviera coche, podría llevarte." },
+          { es: "If I had a car, I could take you.", en: "Si tuviera carro, podría llevarte." },
           { es: "If you asked her, she might say yes.", en: "Si se lo pidieras, a lo mejor diría que sí." },
-          { es: "If I could drive, I'd take you.", en: "Si supiera conducir, te llevaría." },
+          { es: "If I could drive, I'd take you.", en: "Si supiera manejar, te llevaría." },
         ],
       },
     ],
@@ -1283,7 +1283,7 @@ export const EN_B1_U08: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["If", "he", "knew", "the", "truth,", "he", "would", "be", "angry."],
-        translation: "Si supiera la verdad, se enfadaría.",
+        translation: "Si supiera la verdad, se enojaría.",
         explanation: "\"If\" + past simple (\"knew\"), comma, \"would\" + base form (\"be\").",
       },
       {
@@ -1322,7 +1322,7 @@ export const EN_B1_U08: Lesson[] = [
           { es: "I'd give some money to my parents.", en: "Les daría algo de dinero a mis padres." },
           { es: "I'd quit my job and travel for a year.", en: "Dejaría mi trabajo y viajaría durante un año." },
           { es: "I might invest some of it.", en: "A lo mejor invertiría una parte." },
-          { es: "I'd treat myself to a really nice car.", en: "Me daría el capricho de un coche muy bonito." },
+          { es: "I'd treat myself to a really nice car.", en: "Me daría el capricho de un carro muy bonito." },
         ],
         checkpoint: [
           {
@@ -1434,7 +1434,7 @@ export const EN_B1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Choose the correct translation of «Me daría el capricho de un coche muy bonito».",
+        question: "Choose the correct translation of «Me daría el capricho de un carro muy bonito».",
         options: [
           "I'd treat myself to a really nice car.",
           "I'd give me the whim of a very pretty car.",
@@ -1476,7 +1476,7 @@ export const EN_B1_U08: Lesson[] = [
         options: [
           "Una casa junto al mar",
           "Un barco",
-          "Un coche nuevo",
+          "Un carro nuevo",
           "Un apartamento en la ciudad",
         ],
         correctIndex: 0,
@@ -1548,7 +1548,7 @@ export const EN_B1_U08: Lesson[] = [
         examples: [
           { es: "If I were you, I'd talk to him calmly.", en: "Yo que tú, hablaría con él con calma." },
           { es: "You could make a cleaning schedule together.", en: "Podrías hacer con él un horario de limpieza." },
-          { es: "I wouldn't shout or leave angry notes.", en: "Yo no gritaría ni dejaría notas enfadadas." },
+          { es: "I wouldn't shout or leave angry notes.", en: "Yo no gritaría ni dejaría notas enojadas." },
           { es: "You could ask him to use headphones.", en: "Podrías pedirle que use auriculares." },
           { es: "If it doesn't work, you could look for a new place.", en: "Si no funciona, podrías buscar otro sitio." },
         ],
@@ -1677,8 +1677,8 @@ export const EN_B1_U08: Lesson[] = [
         audio: "If I were you, I wouldn't leave angry notes. You could talk to him instead.",
         question: "What is the advice?",
         options: [
-          "Hablar con él en vez de dejar notas enfadadas",
-          "Dejarle notas enfadadas",
+          "Hablar con él en vez de dejar notas enojadas",
+          "Dejarle notas enojadas",
           "Mudarse a otro apartamento",
           "No decirle nada",
         ],
@@ -1960,7 +1960,7 @@ export const EN_B1_U08: Lesson[] = [
         examples: [
           { es: "Can you lend me ten dollars?", en: "¿Me prestas diez dólares?" },
           { es: "Can I borrow your pen?", en: "¿Me dejas tu bolígrafo?" },
-          { es: "I borrowed the car from my brother.", en: "Mi hermano me prestó el coche." },
+          { es: "I borrowed the car from my brother.", en: "Mi hermano me prestó el carro." },
           { es: "She lent me her laptop.", en: "Me prestó su portátil." },
           { es: "They took out a loan to start a business.", en: "Pidieron un préstamo para montar un negocio." },
           { es: "We have a thirty-year mortgage.", en: "Tenemos una hipoteca a treinta años." },
@@ -1968,7 +1968,7 @@ export const EN_B1_U08: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "How do you say «¿Me prestas tu coche?»",
+            question: "How do you say «¿Me prestas tu carro?»",
             options: [
               "Can you lend me your car?",
               "Can you borrow me your car?",
@@ -1993,13 +1993,13 @@ export const EN_B1_U08: Lesson[] = [
         heading: "Owe and afford",
         body: [
           "\"Owe\" means «deber» dinero: \"I owe you twenty dollars\" (= «te debo veinte dólares»). Don't use \"must\" for money: *I must you twenty is wrong.",
-          "\"Afford\" means having enough money for something: \"I can't afford a new car\" (= «no me puedo permitir un coche nuevo»). It's almost always used with \"can\" or \"can't\", or \"could\" / \"couldn't\".",
+          "\"Afford\" means having enough money for something: \"I can't afford a new car\" (= «no me puedo permitir un carro nuevo»). It's almost always used with \"can\" or \"can't\", or \"could\" / \"couldn't\".",
           "Two patterns: \"can't afford\" + noun (\"I can't afford it\") and \"can't afford to\" + verb (\"We can't afford to go on vacation\").",
         ],
         examples: [
           { es: "I owe you twenty dollars.", en: "Te debo veinte dólares." },
           { es: "How much do I owe you?", en: "¿Cuánto te debo?" },
-          { es: "I can't afford a new car.", en: "No me puedo permitir un coche nuevo." },
+          { es: "I can't afford a new car.", en: "No me puedo permitir un carro nuevo." },
           { es: "We can't afford to go on vacation this year.", en: "Este año no nos podemos permitir ir de vacaciones." },
           { es: "If I could afford it, I'd buy a house.", en: "Si me lo pudiera permitir, me compraría una casa." },
         ],
@@ -2008,7 +2008,7 @@ export const EN_B1_U08: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "No me puedo permitir un coche nuevo.",
+            source: "No me puedo permitir un carro nuevo.",
             answer: "I can't afford a new car.",
             explanation: "«Permitirse» (money) is \"afford\", usually with \"can't\". Not *I can't permit me.",
           },

@@ -138,7 +138,7 @@ export const EN_C2_U10_EXTRA: Lesson[] = [
           "The two companies reached an agreement after months of talks.",
           "After months of talks, the two companies reached an agreement.",
         ],
-        explanation: "«Llegar a un acuerdo» is \"reach\" or \"come to an agreement\", or \"strike a deal\". *Arrive at an agreement exists, but it is much less common.",
+        explanation: "«Llegar a un acuerdo» is \"reach\" or \"come to an agreement\", or \"strike a deal\". \"Arrive at an agreement\" also exists, but it is less common.",
       },
       {
         type: "multiple-choice",

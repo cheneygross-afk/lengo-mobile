@@ -232,12 +232,12 @@ export const EN_B1_U27_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: before the noun, no plural",
         body: [
-          "In English, adjectives go before the noun: \"a red car\", not *a car red. Spanish usually puts them after («un coche rojo»), so this is the first thing to check.",
+          "In English, adjectives go before the noun: \"a red car\", not *a car red. Spanish usually puts them after («un carro rojo»), so this is the first thing to check.",
           "Adjectives never change for plural: \"red cars\", not *reds cars. Only the noun takes -s.",
           "After verbs like \"be\", \"look\" or \"seem\", the adjective comes after the verb, as in Spanish: \"The car is red.\"",
         ],
         examples: [
-          { es: "She has a red car.", en: "Ella tiene un coche rojo. (incorrecto: *a car red)" },
+          { es: "She has a red car.", en: "Ella tiene un carro rojo. (incorrecto: *a car red)" },
           { es: "They sell cheap shoes.", en: "Venden zapatos baratos. (incorrecto: *cheaps shoes)" },
           { es: "The rooms are small but clean.", en: "Las habitaciones son pequeñas pero limpias." },
           { es: "I need new glasses.", en: "Necesito gafas nuevas." },
@@ -264,7 +264,7 @@ export const EN_B1_U27_EXTRA: Lesson[] = [
         examples: [
           { es: "a beautiful big house", en: "una casa grande y preciosa" },
           { es: "a small round table", en: "una mesa pequeña y redonda" },
-          { es: "an old Italian car", en: "un coche italiano antiguo" },
+          { es: "an old Italian car", en: "un carro italiano antiguo" },
           { es: "a black leather jacket", en: "una chaqueta de cuero negra" },
           { es: "a nice new silk scarf", en: "un pañuelo de seda nuevo y bonito" },
           { es: "comfortable walking shoes", en: "zapatos cómodos para caminar" },
@@ -285,7 +285,7 @@ export const EN_B1_U27_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Tiene un coche rojo grande.",
+        source: "Tiene un carro rojo grande.",
         answer: "He has a big red car.",
         altAnswers: ["She has a big red car.", "He's got a big red car.", "She's got a big red car.", "He has a large red car.", "She has a large red car."],
         explanation: "Size before color: \"big red car\". *A car red big keeps the Spanish order.",
@@ -403,7 +403,7 @@ export const EN_B1_U27_EXTRA: Lesson[] = [
         sentence: "My grandfather has a ___ car.",
         answer: "beautiful old American",
         altAnswers: ["lovely old American", "nice old American", "gorgeous old American"],
-        en: "Mi abuelo tiene un coche [americano antiguo precioso].",
+        en: "Mi abuelo tiene un carro [americano antiguo precioso].",
         explanation: "Opinion, age, origin: \"beautiful old American car\".",
       },
       {

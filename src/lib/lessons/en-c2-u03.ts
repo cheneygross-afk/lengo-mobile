@@ -347,7 +347,7 @@ export const EN_C2_U03: Lesson[] = [
         examples: [
           { es: "You've had a heart attack.", en: "Ha sufrido un infarto (dicho al paciente)." },
           { es: "Patient admitted with an acute myocardial infarction.", en: "Paciente ingresado por infarto agudo de miocardio (en el informe)." },
-          { es: "Your blood pressure is a bit high.", en: "Tiene la tensión un poco alta." },
+          { es: "Your blood pressure is a bit high.", en: "Tiene la presión un poco alta." },
           { es: "History of hypertension, well controlled.", en: "Antecedentes de hipertensión, bien controlada." },
           { es: "He's had a nosebleed that won't stop.", en: "Le sangra la nariz y no para." },
         ],
@@ -371,22 +371,22 @@ export const EN_C2_U03: Lesson[] = [
         body: [
           "Learn these in pairs, lay word first: \"heart attack\" / \"myocardial infarction\" (MI); \"high blood pressure\" / \"hypertension\"; \"stroke\" / \"cerebrovascular accident\" (CVA); \"shingles\" / \"herpes zoster\"; \"nosebleed\" / \"epistaxis\"; \"chickenpox\" / \"varicella\"; \"kidney stones\" / \"renal calculi\"; \"bruise\" / \"contusion\".",
           "Note the trap in «infarto»: on its own, in everyday Spanish, it means a heart attack. In English, \"infarct\" is a technical term for any area of dead tissue (a brain infarct, a kidney infarct), and patients never use it. Say \"heart attack\".",
-          "Also: «tensión» for blood pressure is \"blood pressure\", never *tension (\"tension\" is stress or tightness). «Tener la tensión alta/baja» is \"to have high/low blood pressure\". And «hematoma» for an ordinary bruise is \"bruise\"; in English \"hematoma\" suggests a larger collection of blood that a doctor might need to drain.",
+          "Also: «la presión» (in Spain, «la tensión») for blood pressure is \"blood pressure\"; «tensión» is never *tension (\"tension\" is stress or tightness). «Tener la presión alta/baja» is \"to have high/low blood pressure\". And «hematoma» for an ordinary bruise is \"bruise\"; in English \"hematoma\" suggests a larger collection of blood that a doctor might need to drain.",
         ],
         examples: [
-          { es: "She has high blood pressure.", en: "Tiene la tensión alta." },
+          { es: "She has high blood pressure.", en: "Tiene la presión alta." },
           { es: "My grandfather had a stroke last year.", en: "Mi abuelo tuvo un ictus el año pasado." },
           { es: "Shingles can be very painful, especially in older people.", en: "El herpes zóster puede ser muy doloroso, sobre todo en personas mayores." },
           { es: "Did you have chickenpox as a child?", en: "¿Pasó la varicela de pequeño?" },
           { es: "Kidney stones are among the most painful conditions there are.", en: "Los cálculos renales están entre las dolencias más dolorosas que existen." },
-          { es: "I've got a huge bruise on my thigh.", en: "Tengo un moratón enorme en el muslo." },
+          { es: "I've got a huge bruise on my thigh.", en: "Tengo un moretón enorme en el muslo." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Mi padre tiene la tensión alta y el año pasado le dio un infarto.",
+            source: "Mi padre tiene la presión alta y el año pasado le dio un infarto.",
             answer: "My father has high blood pressure, and last year he had a heart attack.",
             altAnswers: [
               "My father has high blood pressure and last year he had a heart attack.",
@@ -399,7 +399,7 @@ export const EN_C2_U03: Lesson[] = [
               "My father has high blood pressure and he had a heart attack last year.",
               "My dad has high blood pressure and he had a heart attack last year.",
             ],
-            explanation: "In everyday speech «tensión alta» is \"high blood pressure\" and «infarto» is \"a heart attack\". \"Hypertension\" and \"myocardial infarction\" would sound strangely clinical from a family member.",
+            explanation: "In everyday speech «presión alta» (Spain: «tensión alta») is \"high blood pressure\" and «infarto» is \"a heart attack\". \"Hypertension\" and \"myocardial infarction\" would sound strangely clinical from a family member.",
           },
           {
             type: "matching",
@@ -502,7 +502,7 @@ export const EN_C2_U03: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Your ___ is a little high, so we'll check it again next week.",
         answer: "blood pressure",
-        en: "Tiene la [tensión] un poco alta, así que se la volveremos a tomar la semana que viene.",
+        en: "Tiene la [presión] un poco alta, así que se la volveremos a tomar la semana que viene.",
         explanation: "«Tensión» in the medical sense is \"blood pressure\". *Tension means stress or tightness.",
       },
       {
@@ -551,14 +551,14 @@ export const EN_C2_U03: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "He fell off his bike and has a big ___ on his hip.",
         answer: "bruise",
-        en: "Se cayó de la bici y tiene un [moratón] grande en la cadera.",
-        explanation: "An ordinary «moratón» or «cardenal» is a \"bruise\". \"Hematoma\" in English suggests something more serious.",
+        en: "Se cayó de la bici y tiene un [moretón] grande en la cadera.",
+        explanation: "An ordinary «moretón» (Spain: «moratón» or «cardenal») is a \"bruise\". \"Hematoma\" in English suggests something more serious.",
       },
       {
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Tiene lo que llamamos hipertensión, que quiere decir que su tensión está alta de forma continuada.",
+        source: "Tiene lo que llamamos hipertensión, que quiere decir que su presión está alta de forma continuada.",
         answer: "You have what we call hypertension, which means your blood pressure is consistently high.",
         altAnswers: [
           "You have what we call hypertension, which means that your blood pressure is consistently high.",
@@ -644,7 +644,7 @@ export const EN_C2_U03: Lesson[] = [
         body: [
           "The most important question after the opener is \"How long have you had it?\" or \"How long has this been going on?\". It is also where Spanish speakers make their most persistent error: *I am dizzy since a week, *I have this pain since two days.",
           "English uses the present perfect (continuous) for states and activities that started in the past and continue now. With verbs of state like \"have\" or \"be\", use the simple form: \"I've had this rash for ten days\", \"I've been unwell since Friday\". With verbs of activity or feeling, the continuous is more natural: \"I've been feeling dizzy for a week\", \"I've been coughing all night\".",
-          "\"For\" goes with a period (for a week, for three months); \"since\" with a starting point (since Monday, since the accident). «Llevo una semana con fiebre» is \"I've had a temperature for a week\" (in British English \"a temperature\" is the everyday word for a fever; American English prefers \"a fever\").",
+          "\"For\" goes with a period (for a week, for three months); \"since\" with a starting point (since Monday, since the accident). «Llevo una semana con fiebre» is \"I've had a fever for a week\" (in British English \"a temperature\" is the everyday word: \"I've had a temperature for a week\").",
         ],
         examples: [
           { es: "How long have you had the rash?", en: "¿Desde cuándo tiene el sarpullido?" },
@@ -924,7 +924,7 @@ export const EN_C2_U03: Lesson[] = [
         ],
         examples: [
           { es: "The doctor gave me a prescription for antibiotics.", en: "El médico me recetó antibióticos." },
-          { es: "I need to get this prescription filled.", en: "Tengo que ir a por los medicamentos de esta receta." },
+          { es: "I need to get this prescription filled.", en: "Tengo que ir a comprar los medicamentos de esta receta." },
           { es: "You can buy it over the counter at any pharmacy.", en: "Se puede comprar sin receta en cualquier farmacia." },
           { es: "This medicine is only available on prescription.", en: "Este medicamento solo se vende con receta." },
           { es: "I've run out of my pills; I need a refill.", en: "Se me han acabado las pastillas; necesito otra receta." },
@@ -981,13 +981,13 @@ export const EN_C2_U03: Lesson[] = [
           { es: "Have you taken your medicine?", en: "¿Te has tomado la medicina?" },
           { es: "She's on medication for her thyroid.", en: "Toma medicación para el tiroides." },
           { es: "The drug is still in clinical trials.", en: "El fármaco aún está en ensayos clínicos." },
-          { es: "Some drugs interact with grapefruit juice.", en: "Algunos fármacos interactúan con el zumo de pomelo." },
+          { es: "Some drugs interact with grapefruit juice.", en: "Algunos fármacos interactúan con el jugo de pomelo." },
           { es: "Take two tablets with a glass of water.", en: "Tómese dos comprimidos con un vaso de agua." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "A patient says: «Tomo medicación para la tensión». Which is the most natural translation?",
+            question: "A patient says: «Tomo medicación para la presión». Which is the most natural translation?",
             options: [
               "I'm on medication for my blood pressure.",
               "I take drugs for my tension.",
@@ -995,7 +995,7 @@ export const EN_C2_U03: Lesson[] = [
               "I'm on drugs for my tension.",
             ],
             correctIndex: 0,
-            explanation: "\"Medication\" for long-term treatment, \"on\" for regular use, and \"blood pressure\" for «tensión». \"I take drugs\" sounds like illegal drug use.",
+            explanation: "\"Medication\" for long-term treatment, \"on\" for regular use, and \"blood pressure\" for «presión». \"I take drugs\" sounds like illegal drug use.",
           },
         ],
       },
@@ -1010,7 +1010,7 @@ export const EN_C2_U03: Lesson[] = [
           { es: "Take one tablet twice daily with food.", en: "Tomar un comprimido dos veces al día con las comidas." },
           { es: "Take on an empty stomach, half an hour before breakfast.", en: "Tomar en ayunas, media hora antes del desayuno." },
           { es: "Do not exceed the stated dose.", en: "No superar la dosis indicada." },
-          { es: "May cause drowsiness. Do not drive or operate machinery.", en: "Puede producir somnolencia. No conduzca ni maneje maquinaria." },
+          { es: "May cause drowsiness. Do not drive or operate machinery.", en: "Puede producir somnolencia. No maneje ni opere maquinaria." },
           { es: "Make sure you finish the whole course, even if you feel better.", en: "Asegúrese de terminar todo el tratamiento, aunque se encuentre mejor." },
           { es: "Take one or two tablets every four to six hours as needed.", en: "Tomar uno o dos comprimidos cada cuatro a seis horas, según sea necesario." },
         ],
@@ -1284,7 +1284,7 @@ export const EN_C2_U03: Lesson[] = [
       {
         heading: "Abbreviations and the \"?\"",
         body: [
-          "Notes are full of abbreviations. The ones to know: BP (blood pressure), HR (heart rate), Hx (history), Dx (diagnosis), Rx (treatment or prescription), Tx (treatment), c/o (complains of), SOB (shortness of breath), PMH (past medical history), NKDA (no known drug allergies), O/E (on examination), NAD (no abnormality detected), FU or F/U (follow-up).",
+          "Notes are full of abbreviations. The ones to know: BP (blood pressure), HR (heart rate), Hx (history), Dx (diagnosis), Rx (treatment or prescription), Tx (treatment), c/o (complains of), SOB (shortness of breath), PMH (past medical history), NKDA (no known drug allergies), O/E (on examination), NAD (no abnormality detected), FU or F/U (follow-up). Time spans are written as fractions, mainly in British notes: 4/52 = four weeks, 3/7 = three days, 6/12 = six months.",
           "NBM means \"nil by mouth\" («dieta absoluta»): the patient must not eat or drink, usually before surgery. It is British; American notes write NPO, from the Latin «nil per os».",
           "A question mark before a diagnosis means \"query\", that is, \"suspected, not yet confirmed\": \"?appendicitis\" is read aloud as \"query appendicitis\" and means «sospecha de apendicitis». American notes more often write \"r/o appendicitis\" (rule out) or \"suspected appendicitis\".",
         ],
@@ -1644,7 +1644,7 @@ export const EN_C2_U03: Lesson[] = [
           "Avoid absolute, hope-destroying phrases such as \"There's nothing more we can do\". Say instead \"We can't cure this, but there is a lot we can do to keep you comfortable\". And never \"I know how you feel\": you don't. \"I can only imagine how hard this is\" is better.",
         ],
         examples: [
-          { es: "I can see this has come as a shock.", en: "Veo que esto le ha pillado por sorpresa." },
+          { es: "I can see this has come as a shock.", en: "Veo que esto le ha tomado por sorpresa." },
           { es: "This must be very hard to hear.", en: "Debe de ser muy duro oír esto." },
           { es: "We can't cure it, but there's a lot we can do to keep you comfortable.", en: "No podemos curarlo, pero podemos hacer mucho para que esté cómodo." },
           { es: "I can only imagine how difficult this is for you.", en: "Solo puedo imaginar lo difícil que es esto para usted." },
@@ -1835,13 +1835,13 @@ export const EN_C2_U03: Lesson[] = [
         heading: "Pain by intensity",
         body: [
           "Pain words form a scale. At the mild end: \"discomfort\", \"a twinge\" (a brief, slight pain), \"sore\" (aching, as after exercise), \"achy\". In the middle: \"aching\", \"nagging\" (persistent and annoying), \"painful\". At the severe end: \"sharp\", \"severe\", \"intense\", \"excruciating\" (unbearable), \"agonizing\".",
-          "\"Sore\" deserves attention because Spanish has no single equivalent: \"a sore throat\" («dolor de garganta»), \"sore muscles\" («agujetas»), \"My eyes are sore\". \"Agujetas\" in particular is a classic gap: English says \"I'm stiff\" or \"My legs are sore\" after a workout.",
+          "\"Sore\" deserves attention because Spanish has no single equivalent: \"a sore throat\" («dolor de garganta»), \"sore muscles\" («músculos adoloridos»; in Spain, «agujetas»), \"My eyes are sore\". Muscle soreness after exercise is a classic gap: English says \"I'm stiff\" or \"My legs are sore\" after a workout.",
           "Collocations matter more than synonyms: \"a twinge of pain\", \"a nagging pain\", \"excruciating pain\", \"mild discomfort\", \"a splitting headache\" (very bad), \"a stiff neck\" («tortícolis»).",
         ],
         examples: [
           { es: "I felt a twinge in my knee as I stood up.", en: "Sentí una punzadita en la rodilla al levantarme." },
           { es: "I've got a sore throat and a stiff neck.", en: "Tengo dolor de garganta y tortícolis." },
-          { es: "My legs are really sore after yesterday's run.", en: "Tengo unas agujetas tremendas en las piernas por la carrera de ayer." },
+          { es: "My legs are really sore after yesterday's run.", en: "Tengo las piernas muy adoloridas por la carrera de ayer." },
           { es: "It's a nagging pain that never quite goes away.", en: "Es un dolor persistente que nunca termina de irse." },
           { es: "The pain from the kidney stone was excruciating.", en: "El dolor del cálculo renal era insoportable." },
           { es: "I woke up with a splitting headache.", en: "Me desperté con un dolor de cabeza terrible." },
@@ -1851,7 +1851,7 @@ export const EN_C2_U03: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Tengo unas agujetas horribles desde el partido del domingo.",
+            source: "Tengo los músculos muy adoloridos desde el partido del domingo.",
             answer: "I've been really sore since Sunday's game.",
             altAnswers: [
               "My legs have been really sore since Sunday's game.",
@@ -1871,7 +1871,7 @@ export const EN_C2_U03: Lesson[] = [
               "I've had really sore muscles since the game on Sunday.",
               "I've had really sore legs since Sunday's game.",
             ],
-            explanation: "English has no single word for «agujetas»: use \"sore\" or \"stiff\". With \"since\" the present perfect is required.",
+            explanation: "English has no single noun for muscle soreness after exercise (Spain: «agujetas»): use \"sore\" or \"stiff\". With \"since\" the present perfect is required.",
           },
           {
             type: "multiple-choice",
@@ -1897,7 +1897,7 @@ export const EN_C2_U03: Lesson[] = [
           { es: "I get a tingling feeling in my toes.", en: "Noto un hormigueo en los dedos de los pies." },
           { es: "I felt lightheaded and thought I was going to faint.", en: "Me sentí aturdido y pensé que me iba a desmayar." },
           { es: "She gets breathless climbing the stairs.", en: "Se queda sin aliento al subir las escaleras." },
-          { es: "I always get carsick on long journeys.", en: "Siempre me mareo en el coche en los viajes largos." },
+          { es: "I always get carsick on long journeys.", en: "Siempre me mareo en el carro en los viajes largos." },
         ],
         checkpoint: [
           {
@@ -2047,7 +2047,7 @@ export const EN_C2_U03: Lesson[] = [
         sentence: "She gets ___ just walking to the bus stop.",
         answer: "breathless",
         altAnswers: ["out of breath", "short of breath"],
-        en: "Se queda [sin aliento] solo con ir andando a la parada del autobús.",
+        en: "Se queda [sin aliento] solo con caminar hasta la parada del autobús.",
         explanation: "\"Breathless\", \"out of breath\" and \"short of breath\" all describe breathing difficulty; the clinical noun is \"shortness of breath\".",
       },
       {
@@ -2096,7 +2096,7 @@ export const EN_C2_U03: Lesson[] = [
       {
         heading: "Constipated and intoxicated",
         body: [
-          "The most famous trap: «estar constipado» means having a cold, but \"to be constipated\" means «estar estreñido». A Spanish speaker who tells a doctor *I'm constipated, I have a runny nose will get a puzzled look. Say \"I've got a cold\" or \"I'm all stuffed up\" (blocked nose).",
+          "The most famous trap: in Spain «estar constipado» means having a cold (most of Latin America says «estar resfriado»), but \"to be constipated\" means «estar estreñido». A Spanish speaker who tells a doctor *I'm constipated, I have a runny nose will get a puzzled look. Say \"I've got a cold\" or \"I'm all stuffed up\" (blocked nose).",
           "\"Intoxication\" in everyday English almost always means drunkenness: \"driving while intoxicated\". «Intoxicación alimentaria» is \"food poisoning\", and «intoxicación por monóxido de carbono» is \"carbon monoxide poisoning\". In toxicology \"intoxication\" can mean poisoning, but with patients and in daily life use \"poisoning\".",
           "Remember the countability: \"I've got a cold\" (countable, with \"a\"), \"I've got flu\" (UK) or \"I've got the flu\" (US).",
         ],
@@ -2105,7 +2105,7 @@ export const EN_C2_U03: Lesson[] = [
           { es: "I'm all stuffed up and I can't breathe through my nose.", en: "Tengo la nariz taponada y no puedo respirar por ella." },
           { es: "I've been constipated for four days.", en: "Llevo cuatro días estreñido." },
           { es: "We all got food poisoning at the wedding.", en: "Todos tuvimos una intoxicación alimentaria en la boda." },
-          { es: "He was arrested for driving while intoxicated.", en: "Lo detuvieron por conducir en estado de embriaguez." },
+          { es: "He was arrested for driving while intoxicated.", en: "Lo detuvieron por manejar en estado de embriaguez." },
         ],
         checkpoint: [
           {
@@ -2288,7 +2288,7 @@ export const EN_C2_U03: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Organic food usually has no artificial ___.",
         answer: "preservatives",
-        en: "La comida ecológica no suele llevar [conservantes] artificiales.",
+        en: "La comida orgánica no suele llevar [conservantes] artificiales.",
         explanation: "«Conservante» is \"preservative\". A «preservativo» is a \"condom\".",
       },
       {
@@ -2446,7 +2446,7 @@ export const EN_C2_U03: Lesson[] = [
         heading: "Present deduction: may well, must, can't",
         body: [
           "For present possibility: \"may\", \"might\" and \"could\" all mean «puede que», with \"might\" slightly weaker. \"May well\" and \"could well\" raise the probability: «es muy posible que». For near certainty, \"must\" (affirmative) and \"can't\" (negative): \"With a fever that high, it must be an infection\", \"It can't be appendicitis; the pain is on the wrong side\".",
-          "Two Spanish-speaker traps. First, the negative of deduction \"must\" is \"can't\", not *mustn't: \"mustn't\" is a prohibition (\"You mustn't drink alcohol with this\"). Second, \"can\" is not a possibility for a specific case: *It can be a virus sounds like a general statement; say \"It could be a virus\" or \"It may be a virus\".",
+          "Two Spanish-speaker traps. First, the safe negative of deduction \"must\" is \"can't\". Contracted \"mustn't\" is normally a prohibition (\"You mustn't drink alcohol with this\"); American English does use uncontracted \"must not\" for deduction (\"It must not be serious\"), but \"can't\" is clearer and works everywhere. Second, \"can\" is not a possibility for a specific case: *It can be a virus sounds like a general statement; say \"It could be a virus\" or \"It may be a virus\".",
           "Adverbs and adjectives give a finer scale: \"almost certainly\" > \"very likely\" > \"probably\" > \"possibly\" > \"unlikely\" > \"highly unlikely\". \"It's unlikely to be serious\" is a common reassurance.",
         ],
         examples: [
@@ -2462,7 +2462,7 @@ export const EN_C2_U03: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "It ___ be a heart problem; your ECG and blood tests are completely normal.",
             answer: "can't",
-            altAnswers: ["cannot", "can not", "couldn't"],
+            altAnswers: ["cannot", "can not", "couldn't", "must not"],
             en: "[No puede] ser un problema de corazón; el electro y los análisis son completamente normales.",
             explanation: "Negative deduction uses \"can't\". *Mustn't would mean that something is forbidden.",
           },
@@ -2483,14 +2483,14 @@ export const EN_C2_U03: Lesson[] = [
       {
         heading: "Past deduction: must have, can't have, might have",
         body: [
-          "To reason about what caused something, use modal + \"have\" + past participle. \"He must have been exposed to the virus at work\" («debió de contagiarse en el trabajo»); \"It can't have been the medication; she'd stopped taking it a month earlier\" («no puede haber sido»); \"She might have picked it up on holiday\" («puede que lo cogiera»).",
+          "To reason about what caused something, use modal + \"have\" + past participle. \"He must have been exposed to the virus at work\" («debió de contagiarse en el trabajo»); \"It can't have been the medication; she'd stopped taking it a month earlier\" («no puede haber sido»); \"She might have picked it up on vacation\" («puede que se contagiara»).",
           "The passive is frequent in medicine: \"must have been exposed\", \"may have been contaminated\", \"could have been caused by\". Keep \"been\": *must have exposed is active and changes the meaning.",
           "Spanish «debe de haber» / «debió de» corresponds to \"must have\" for deduction. Do not confuse it with obligation in the past, which is \"had to\": \"He had to have surgery\" («tuvo que operarse», he was obliged) vs \"He must have had surgery\" («debió de operarse», I deduce it from the scar).",
         ],
         examples: [
           { es: "He must have been exposed to the virus at work.", en: "Debió de contagiarse del virus en el trabajo." },
           { es: "It can't have been the medication; she'd stopped taking it a month earlier.", en: "No puede haber sido la medicación; había dejado de tomarla un mes antes." },
-          { es: "She might have picked it up on holiday.", en: "Puede que lo pillara en las vacaciones." },
+          { es: "She might have picked it up on vacation.", en: "Puede que se contagiara en las vacaciones." },
           { es: "The water may have been contaminated.", en: "Puede que el agua estuviera contaminada." },
           { es: "From the scar, he must have had surgery on that knee.", en: "Por la cicatriz, debió de operarse de esa rodilla." },
         ],
@@ -2500,8 +2500,9 @@ export const EN_C2_U03: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Debió de contraer la infección en el hospital.",
-            answer: "She must have caught the infection in hospital.",
+            answer: "She must have caught the infection in the hospital.",
             altAnswers: [
+              "She must have caught the infection in hospital.",
               "He must have caught the infection in hospital.",
               "She must have caught the infection in the hospital.",
               "He must have caught the infection in the hospital.",
@@ -2623,7 +2624,7 @@ export const EN_C2_U03: Lesson[] = [
           "It hasn't to be the medication.",
         ],
         correctIndex: 0,
-        explanation: "Negative past deduction is \"can't have\" + past participle. *Mustn't have is not used for deduction in standard English.",
+        explanation: "Negative past deduction is \"can't have\" + past participle. \"Mustn't have\" is unusual: American English uses uncontracted \"must not have\" for a confident negative guess, but «no puede haber sido» (it is impossible) is \"can't have\".",
       },
       {
         type: "translate",
@@ -2652,9 +2653,9 @@ export const EN_C2_U03: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["She", "might", "have", "picked", "it", "up", "on", "holiday."],
-        translation: "Puede que lo pillara en las vacaciones.",
-        altOrders: [["On", "holiday", "she", "might", "have", "picked", "it", "up."]],
+        words: ["She", "might", "have", "picked", "it", "up", "on", "vacation."],
+        translation: "Puede que se contagiara en las vacaciones.",
+        altOrders: [["On", "vacation", "she", "might", "have", "picked", "it", "up."]],
         explanation: "Modal + \"have\" + past participle for past possibility. With a pronoun object, \"pick it up\" keeps the pronoun between verb and particle.",
       },
       {

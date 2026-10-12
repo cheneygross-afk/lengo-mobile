@@ -16,12 +16,12 @@ export const EN_A2_U16: Lesson[] = [
         heading: "Adjetivo + -ly: el «-mente» del inglés",
         body: [
           "Los adverbios de modo dicen cómo se hace algo. En español muchos terminan en «-mente» («lentamente», «claramente»). En inglés se forman casi siempre añadiendo \"-ly\" al adjetivo: \"slow\" → \"slowly\", \"careful\" → \"carefully\", \"quiet\" → \"quietly\".",
-          "El adjetivo describe a una persona o una cosa; el adverbio describe la acción: \"She is a careful driver\" (es una conductora prudente) frente a \"She drives carefully\" (conduce con cuidado).",
+          "El adjetivo describe a una persona o una cosa; el adverbio describe la acción: \"She is a careful driver\" (es una conductora prudente) frente a \"She drives carefully\" (maneja con cuidado).",
           "Muchas veces el español no usa «-mente» sino otra expresión, como «con cuidado», «despacio» o «en silencio». En inglés lo normal es el adverbio en \"-ly\": \"carefully\", \"slowly\", \"quietly\".",
         ],
         examples: [
           { es: "He speaks slowly.", en: "Habla despacio." },
-          { es: "Drive carefully!", en: "¡Conduce con cuidado!" },
+          { es: "Drive carefully!", en: "¡Maneja con cuidado!" },
           { es: "The children are playing quietly.", en: "Los niños están jugando en silencio." },
           { es: "She explained it clearly.", en: "Lo explicó claramente." },
           { es: "I answered quickly.", en: "Contesté rápidamente." },
@@ -86,11 +86,11 @@ export const EN_A2_U16: Lesson[] = [
         body: [
           "El adverbio de \"good\" no es *goodly sino \"well\": \"He is a good singer. He sings well.\" Por eso *He speaks English very good es un error típico; lo correcto es \"He speaks English very well\".",
           "Algunos adverbios son iguales que el adjetivo: \"fast\" (rápido), \"hard\" (duro, mucho), \"late\" (tarde) y \"early\" (temprano). *Fastly no existe: se dice \"She drives fast\".",
-          "\"Quickly\" también significa «rápidamente», pero se usa más para acciones cortas (\"Come here quickly!\"). Para la velocidad al conducir, correr o hablar, \"fast\" es lo más natural.",
+          "\"Quickly\" también significa «rápidamente», pero se usa más para acciones cortas (\"Come here quickly!\"). Para la velocidad al manejar, correr o hablar, \"fast\" es lo más natural.",
         ],
         examples: [
           { es: "She speaks English very well.", en: "Habla inglés muy bien." },
-          { es: "My brother drives too fast.", en: "Mi hermano conduce demasiado rápido." },
+          { es: "My brother drives too fast.", en: "Mi hermano maneja demasiado rápido." },
           { es: "They work hard.", en: "Trabajan duro." },
           { es: "The train arrived late.", en: "El tren llegó tarde." },
           { es: "I get up early.", en: "Me levanto temprano." },
@@ -108,7 +108,7 @@ export const EN_A2_U16: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Elige la frase correcta: «Conduce muy rápido».",
+            question: "Elige la frase correcta: «Maneja muy rápido».",
             options: ["She drives very fast.", "She drives very fastly.", "She drives very quick.", "She very fast drives."],
             correctIndex: 0,
             explanation: "\"Fast\" es adjetivo y adverbio a la vez. *Fastly no existe.",
@@ -249,11 +249,11 @@ export const EN_A2_U16: Lesson[] = [
           "Truco: si en español puedes decir «es…» o «está…» delante de la palabra, en inglés es un adjetivo.",
         ],
         examples: [
-          { es: "She is careful. She drives carefully.", en: "Es prudente. Conduce con cuidado." },
+          { es: "She is careful. She drives carefully.", en: "Es prudente. Maneja con cuidado." },
           { es: "The exam was easy.", en: "El examen fue fácil." },
           { es: "I passed the exam easily.", en: "Aprobé el examen fácilmente." },
           { es: "He is a bad driver.", en: "Es mal conductor." },
-          { es: "He drives badly.", en: "Conduce mal." },
+          { es: "He drives badly.", en: "Maneja mal." },
         ],
         checkpoint: [
           {
@@ -305,7 +305,7 @@ export const EN_A2_U16: Lesson[] = [
         body: [
           "El español usa «parecer» para todo; el inglés elige el verbo según el sentido. \"Look\" es por lo que ves, \"sound\" por lo que oyes (por ejemplo, al teléfono) y \"seem\" es una impresión general.",
           "Los tres van con adjetivo: \"You look happy\", \"You sound tired\", \"He seems nice\".",
-          "\"Get\" + adjetivo también es muy común para los cambios de estado, como «ponerse» o «-se» en español: \"get tired\" (cansarse), \"get angry\" (enfadarse), \"get cold\" (enfriarse).",
+          "\"Get\" + adjetivo también es muy común para los cambios de estado, como «ponerse» o «-se» en español: \"get tired\" (cansarse), \"get angry\" (enojarse), \"get cold\" (enfriarse).",
         ],
         examples: [
           { es: "You sound tired.", en: "Te noto cansado. (por la voz)" },
@@ -329,13 +329,13 @@ export const EN_A2_U16: Lesson[] = [
       {
         heading: "Look at, mirar: entonces sí, adverbio",
         body: [
-          "Cuidado: \"look\" también puede ser una acción, «mirar» (\"look at\"). En ese caso se describe con un adverbio: \"She looked at me angrily\" (me miró con enfado).",
-          "Compara: \"She looks angry\" (parece enfadada: adjetivo) y \"She looked at me angrily\" (me miró enfadada: adverbio, porque describe cómo miró).",
+          "Cuidado: \"look\" también puede ser una acción, «mirar» (\"look at\"). En ese caso se describe con un adverbio: \"She looked at me angrily\" (me miró con enojo).",
+          "Compara: \"She looks angry\" (parece enojada: adjetivo) y \"She looked at me angrily\" (me miró enojada: adverbio, porque describe cómo miró).",
           "Lo mismo pasa con \"taste\" y \"smell\" cuando son acciones: \"He smelled the milk carefully\" (olió la leche con cuidado).",
         ],
         examples: [
-          { es: "She looks angry.", en: "Parece enfadada." },
-          { es: "She looked at me angrily.", en: "Me miró con enfado." },
+          { es: "She looks angry.", en: "Parece enojada." },
+          { es: "She looked at me angrily.", en: "Me miró con enojo." },
           { es: "He looked at the photo sadly.", en: "Miró la foto con tristeza." },
           { es: "He smelled the milk carefully.", en: "Olió la leche con cuidado." },
         ],
@@ -400,7 +400,7 @@ export const EN_A2_U16: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "She looked at me ___.",
         answer: "angrily",
-        en: "Me miró [con enfado].",
+        en: "Me miró [con enojo].",
         explanation: "\"Look at\" es la acción de mirar, así que lleva adverbio: \"angry\" → \"angrily\" (la \"y\" pasa a \"i\").",
       },
       {
@@ -630,7 +630,7 @@ export const EN_A2_U16: Lesson[] = [
         type: "listen-choose",
         audio: "He drives his car carefully.",
         question: "¿Qué has oído?",
-        options: ["Conduce su coche con cuidado.", "Conduce su coche muy rápido.", "Lava su coche con cuidado.", "Nunca conduce su coche."],
+        options: ["Maneja su carro con cuidado.", "Maneja su carro muy rápido.", "Lava su carro con cuidado.", "Nunca maneja su carro."],
         correctIndex: 0,
         explanation: "\"Carefully\" va al final, detrás del objeto \"his car\".",
       },
@@ -944,16 +944,16 @@ export const EN_A2_U16: Lesson[] = [
       {
         heading: "Too… to, …enough to",
         body: [
-          "Detrás de \"too\" + adjetivo o de adjetivo + \"enough\" puedes añadir \"to\" + verbo para decir qué no se puede o qué sí se puede hacer: \"I'm too tired to drive\" (estoy demasiado cansado para conducir), \"She's old enough to vote\" (tiene edad para votar).",
-          "Fíjate en que el español dice «para conducir»; el inglés dice \"to drive\", nunca *for drive.",
+          "Detrás de \"too\" + adjetivo o de adjetivo + \"enough\" puedes añadir \"to\" + verbo para decir qué no se puede o qué sí se puede hacer: \"I'm too tired to drive\" (estoy demasiado cansado para manejar), \"She's old enough to vote\" (tiene edad para votar).",
+          "Fíjate en que el español dice «para manejar»; el inglés dice \"to drive\", nunca *for drive.",
           "Para decir a quién afecta se usa \"for\" + persona: \"This shirt is too big for me\" (esta camisa me queda demasiado grande).",
         ],
         examples: [
-          { es: "I'm too tired to drive.", en: "Estoy demasiado cansado para conducir." },
+          { es: "I'm too tired to drive.", en: "Estoy demasiado cansado para manejar." },
           { es: "She's old enough to vote.", en: "Tiene edad suficiente para votar." },
           { es: "The tea is too hot to drink.", en: "El té está demasiado caliente para beberlo." },
           { es: "It's too late to call him.", en: "Es demasiado tarde para llamarlo." },
-          { es: "He isn't old enough to drive.", en: "No tiene edad para conducir." },
+          { es: "He isn't old enough to drive.", en: "No tiene edad para manejar." },
           { es: "This shirt is too big for me.", en: "Esta camisa me queda demasiado grande." },
         ],
         checkpoint: [
@@ -969,7 +969,7 @@ export const EN_A2_U16: Lesson[] = [
             type: "word-order",
             prompt: "Ordena las palabras.",
             words: ["She", "is", "old", "enough", "to", "drive"],
-            translation: "Tiene edad suficiente para conducir.",
+            translation: "Tiene edad suficiente para manejar.",
             explanation: "Adjetivo + \"enough\" + \"to\" + verbo: \"old enough to drive\".",
           },
         ],
@@ -1291,20 +1291,20 @@ export const EN_A2_U16: Lesson[] = [
         heading: "Delante del sustantivo y sin -s",
         body: [
           "Ya lo sabes desde el nivel Fundamentos, pero conviene repasarlo: en inglés el adjetivo va delante del sustantivo. «Una casa bonita» es \"a nice house\", no *a house nice.",
-          "Y el adjetivo nunca cambia: no tiene plural ni masculino o femenino. «Coches rojos» es \"red cars\", no *reds cars; «unas chicas altas» es \"some tall girls\".",
+          "Y el adjetivo nunca cambia: no tiene plural ni masculino o femenino. «Carros rojos» es \"red cars\", no *reds cars; «unas chicas altas» es \"some tall girls\".",
           "Después de \"be\" o \"look\" el adjetivo va detrás, como en español, pero tampoco lleva -s: \"The cars are red\", \"These shoes look expensive\".",
         ],
         examples: [
           { es: "a nice house", en: "una casa bonita" },
-          { es: "red cars", en: "coches rojos" },
+          { es: "red cars", en: "carros rojos" },
           { es: "two big dogs", en: "dos perros grandes" },
           { es: "These are expensive shoes.", en: "Estos zapatos son caros." },
-          { es: "The cars are red.", en: "Los coches son rojos." },
+          { es: "The cars are red.", en: "Los carros son rojos." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "¿Cómo se dice «coches rojos»?",
+            question: "¿Cómo se dice «carros rojos»?",
             options: ["red cars", "reds cars", "cars red", "cars reds"],
             correctIndex: 0,
             explanation: "El adjetivo va delante y no lleva -s: \"red cars\".",
@@ -1360,7 +1360,7 @@ export const EN_A2_U16: Lesson[] = [
           "El origen va con mayúscula, como todas las nacionalidades: \"a Mexican restaurant\", \"Italian shoes\".",
         ],
         examples: [
-          { es: "a beautiful small Italian car", en: "un coche italiano pequeño precioso" },
+          { es: "a beautiful small Italian car", en: "un carro italiano pequeño precioso" },
           { es: "a lovely old French restaurant", en: "un restaurante francés antiguo encantador" },
           { es: "a small Mexican town", en: "un pueblo mexicano pequeño" },
           { es: "a white cotton shirt", en: "una camisa blanca de algodón" },
@@ -1426,7 +1426,7 @@ export const EN_A2_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Mi hermano tiene un coche azul viejo.",
+        source: "Mi hermano tiene un carro azul viejo.",
         answer: "My brother has an old blue car.",
         altAnswers: ["My brother's got an old blue car.", "My brother has got an old blue car."],
         explanation: "Edad antes que color: \"old blue\". Y con \"old\", el artículo es \"an\".",
@@ -1558,7 +1558,7 @@ export const EN_A2_U16: Lesson[] = [
         ],
         examples: [
           { es: "She's a good singer. She sings well.", en: "Es buena cantante. Canta bien." },
-          { es: "He's a bad driver. He drives badly.", en: "Es mal conductor. Conduce mal." },
+          { es: "He's a bad driver. He drives badly.", en: "Es mal conductor. Maneja mal." },
           { es: "It's fine. Don't worry.", en: "Está bien. No te preocupes." },
           { es: "The pizza looks good.", en: "La pizza tiene buena pinta." },
           { es: "I did well on the exam.", en: "Me fue bien en el examen." },
@@ -1572,7 +1572,7 @@ export const EN_A2_U16: Lesson[] = [
             answer: "bad",
             altAnswers: ["terrible"],
             en: "Es una [mala] conductora.",
-            explanation: "Delante de un sustantivo (\"driver\") va el adjetivo \"bad\". «Conduce mal» sería \"She drives badly\".",
+            explanation: "Delante de un sustantivo (\"driver\") va el adjetivo \"bad\". «Maneja mal» sería \"She drives badly\".",
           },
           {
             type: "translate",
@@ -1621,14 +1621,14 @@ export const EN_A2_U16: Lesson[] = [
       {
         heading: "«Habla claro», «trabaja duro»",
         body: [
-          "En español a veces usamos un adjetivo como adverbio: «habla claro», «trabaja duro», «conduce rápido», «habla alto». En inglés unos pocos funcionan igual y muchos necesitan \"-ly\".",
-          "Sin \"-ly\": \"work hard\" (trabajar duro), \"drive fast\" (conducir rápido), \"arrive late\" (llegar tarde), \"get up early\" (levantarse temprano).",
+          "En español a veces usamos un adjetivo como adverbio: «habla claro», «trabaja duro», «maneja rápido», «habla alto». En inglés unos pocos funcionan igual y muchos necesitan \"-ly\".",
+          "Sin \"-ly\": \"work hard\" (trabajar duro), \"drive fast\" (manejar rápido), \"arrive late\" (llegar tarde), \"get up early\" (levantarse temprano).",
           "Con \"-ly\": \"speak clearly\" (hablar claro), \"speak loudly\" (hablar alto), \"speak quietly\" o \"speak softly\" (hablar bajo), \"answer quickly\" (contestar rápido). En la conversación informal se oye \"talk loud\", pero \"loudly\" es lo correcto en cualquier contexto.",
         ],
         examples: [
           { es: "Please speak clearly.", en: "Habla claro, por favor." },
           { es: "They work very hard.", en: "Trabajan muy duro." },
-          { es: "My dad drives fast.", en: "Mi padre conduce rápido." },
+          { es: "My dad drives fast.", en: "Mi padre maneja rápido." },
           { es: "Don't speak so loudly.", en: "No hables tan alto." },
           { es: "She speaks very quietly.", en: "Habla muy bajo." },
         ],
@@ -1732,7 +1732,7 @@ export const EN_A2_U16: Lesson[] = [
         type: "word-order",
         prompt: "Ordena las palabras.",
         words: ["He", "drives", "too", "fast"],
-        translation: "Conduce demasiado rápido.",
+        translation: "Maneja demasiado rápido.",
         explanation: "\"Fast\" es adverbio sin \"-ly\" y va detrás del verbo.",
       },
       {
@@ -1751,7 +1751,7 @@ export const EN_A2_U16: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Describe en inglés a alguien que conoces: cómo es (adjetivos) y qué hace bien o mal (adverbios). Por ejemplo: cocina, conduce, canta, habla inglés…",
+        prompt: "Describe en inglés a alguien que conoces: cómo es (adjetivos) y qué hace bien o mal (adverbios). Por ejemplo: cocina, maneja, canta, habla inglés…",
         minWords: 30,
         maxWords: 70,
         rubric: [
@@ -1781,7 +1781,7 @@ export const EN_A2_U16: Lesson[] = [
         examples: [
           { es: "He speaks English very well.", en: "Habla inglés muy bien." },
           { es: "He speaks very good English.", en: "Habla muy bien inglés." },
-          { es: "She drives fast.", en: "Conduce rápido." },
+          { es: "She drives fast.", en: "Maneja rápido." },
           { es: "He works hard.", en: "Trabaja duro." },
         ],
         checkpoint: [
@@ -1827,7 +1827,7 @@ export const EN_A2_U16: Lesson[] = [
         examples: [
           { es: "I'm bored in class.", en: "Me aburro en clase." },
           { es: "The class is boring.", en: "La clase es aburrida." },
-          { es: "The car isn't big enough.", en: "El coche no es lo bastante grande." },
+          { es: "The car isn't big enough.", en: "El carro no es lo bastante grande." },
           { es: "It's too expensive.", en: "Es demasiado caro." },
         ],
         checkpoint: [
@@ -2008,7 +2008,7 @@ export const EN_A2_U16: Lesson[] = [
         examples: [
           { es: "I'm bored. This game is boring.", en: "Me aburro. Este juego es aburrido." },
           { es: "It's too late to go out.", en: "Es demasiado tarde para salir." },
-          { es: "She's old enough to drive.", en: "Tiene edad para conducir." },
+          { es: "She's old enough to drive.", en: "Tiene edad para manejar." },
           { es: "It's a bit expensive.", en: "Es un poco caro." },
           { es: "I'm absolutely exhausted.", en: "Estoy agotadísimo." },
         ],
@@ -2029,7 +2029,7 @@ export const EN_A2_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Mi padre conduce con mucho cuidado.",
+        source: "Mi padre maneja con mucho cuidado.",
         answer: "My father drives very carefully.",
         altAnswers: ["My dad drives very carefully.", "My father drives really carefully.", "My dad drives really carefully."],
         explanation: "«Con cuidado» es el adverbio \"carefully\" (doble \"l\"), y «mucho» delante de él es \"very\".",

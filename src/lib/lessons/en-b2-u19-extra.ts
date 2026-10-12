@@ -340,7 +340,7 @@ export const EN_B2_U19_EXTRA: Lesson[] = [
         examples: [
           { es: "I love the idea of living by the sea.", en: "Me encanta la idea de vivir junto al mar." },
           { es: "There's a possibility of losing the deal.", en: "Existe la posibilidad de perder el contrato. (incorrecto: *possibility to lose)" },
-          { es: "She insisted on driving me home.", en: "Insistió en llevarme a casa en coche." },
+          { es: "She insisted on driving me home.", en: "Insistió en llevarme a casa en carro." },
           { es: "He apologized for being rude.", en: "Pidió perdón por haber sido maleducado." },
           { es: "She left without saying goodbye.", en: "Se fue sin despedirse." },
         ],
@@ -443,7 +443,7 @@ export const EN_B2_U19_EXTRA: Lesson[] = [
         answer: "They insisted on walking me home.",
         altAnswers: alts(
           "They insisted on walking me home.",
-          "They insisted on {walking me home|taking me home|seeing me home|coming home with me|going home with me|driving me home}.",
+          "They insisted on {walking me home|taking me home|seeing me home|coming home with me|going home with me}.",
         ),
         explanation: "\"Insist on\" + -ing. *Insisted in or *insisted to walk are typical errors.",
       },

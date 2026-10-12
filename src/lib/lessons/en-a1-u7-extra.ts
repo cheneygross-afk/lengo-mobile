@@ -55,7 +55,7 @@ export const EN_A1_U7_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "No me gusta conducir de noche.",
+        source: "No me gusta manejar de noche.",
         answer: "I don't like driving at night.",
         altAnswers: ["I don't like to drive at night."],
         explanation: "\"Don't like\" + verbo en -ing. «De noche» es \"at night\".",
@@ -219,7 +219,7 @@ export const EN_A1_U7_EXTRA: Lesson[] = [
           { es: "My son can ride a bike.", en: "Mi hijo sabe montar en bici." },
           { es: "She can speak three languages.", en: "Ella sabe hablar tres idiomas." },
           { es: "I can't go to the party.", en: "No puedo ir a la fiesta." },
-          { es: "Can you drive? No, I can't.", en: "¿Sabes conducir? No." },
+          { es: "Can you drive? No, I can't.", en: "¿Sabes manejar? No." },
           { es: "Can I use your phone?", en: "¿Puedo usar tu teléfono?" },
         ],
         checkpoint: [
@@ -232,7 +232,7 @@ export const EN_A1_U7_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "¿Cómo se dice «¿sabes conducir?»?",
+            question: "¿Cómo se dice «¿sabes manejar?»?",
             options: ["Can you drive?", "Do you can drive?", "Can you to drive?", "Do you know drive?"],
             correctIndex: 0,
             explanation: "\"Can\" hace la pregunta solo, sin \"do\": \"Can you drive?\".",
@@ -405,7 +405,7 @@ export const EN_A1_U7_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "My sister has two cats.", en: "Mi hermana tiene dos gatos." },
-          { es: "I don't have a car.", en: "No tengo coche." },
+          { es: "I don't have a car.", en: "No tengo carro." },
           { es: "Do you have an eraser?", en: "¿Tienes una goma de borrar?" },
           { es: "He doesn't have a girlfriend.", en: "No tiene novia." },
           { es: "We've got a big house.", en: "Tenemos una casa grande." },
@@ -413,7 +413,7 @@ export const EN_A1_U7_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "¿Cómo se dice «no tengo coche» en el inglés de hoy?",
+            question: "¿Cómo se dice «no tengo carro» en el inglés de hoy?",
             options: ["I don't have a car.", "I haven't a car.", "I don't have car.", "I not have a car."],
             correctIndex: 0,
             explanation: "\"I don't have a car\" (o \"I haven't got a car\"). Y \"car\" se cuenta, así que lleva \"a\".",
@@ -577,9 +577,9 @@ export const EN_A1_U7_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "She doesn't have a car, but she has a motorcycle.",
         question: "¿Qué tiene ella?",
-        options: ["Una moto.", "Un coche.", "Un coche y una moto.", "Una bici."],
+        options: ["Una moto.", "Un carro.", "Un carro y una moto.", "Una bici."],
         correctIndex: 0,
-        explanation: "\"She doesn't have a car\" (no tiene coche), \"but she has a motorcycle\" (pero tiene moto).",
+        explanation: "\"She doesn't have a car\" (no tiene carro), \"but she has a motorcycle\" (pero tiene moto).",
       },
       {
         type: "dictation",
@@ -952,7 +952,7 @@ export const EN_A1_U7_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Hay muchos coches en la calle.",
+        source: "Hay muchos carros en la calle.",
         answer: "There are a lot of cars in the street.",
         altAnswers: [
           "There are a lot of cars on the street.",

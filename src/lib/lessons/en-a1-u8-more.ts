@@ -290,7 +290,7 @@ export const EN_A1_U8_MORE: Lesson[] = [
           "Así que, si hablas de una casa, una película o una mesa, el pronombre es \"it\", aunque en español digas «la». En plural, para personas o cosas, siempre \"them\".",
         ],
         examples: [
-          { es: "I have a new car. I love it.", en: "Tengo un coche nuevo. Me encanta." },
+          { es: "I have a new car. I love it.", en: "Tengo un carro nuevo. Me encanta." },
           { es: "Where's my bag? I can't find it.", en: "¿Dónde está mi bolso? No lo encuentro." },
           { es: "This movie is good. Watch it!", en: "Esta película es buena. ¡Mírala!" },
           { es: "Where are my glasses? I need them.", en: "¿Dónde están mis gafas? Las necesito." },
@@ -1640,7 +1640,7 @@ export const EN_A1_U8_MORE: Lesson[] = [
         heading: "¿Cómo estás? Estados con \"to be\"",
         body: [
           "Los sentimientos y estados van con \"to be\": \"I'm happy\" (estoy contento), \"She's tired\" (está cansada). En inglés no hay diferencia entre ser y estar: todo es \"be\".",
-          "Las palabras básicas: \"happy\" (contento, feliz), \"sad\" (triste), \"tired\" (cansado), \"angry\" (enojado, enfadado), \"nervous\" (nervioso), \"worried\" (preocupado), \"hungry\" (con hambre) y \"thirsty\" (con sed).",
+          "Las palabras básicas: \"happy\" (contento, feliz), \"sad\" (triste), \"tired\" (cansado), \"angry\" (enojado), \"nervous\" (nervioso), \"worried\" (preocupado), \"hungry\" (con hambre) y \"thirsty\" (con sed).",
           "Ojo con \"hungry\" y \"thirsty\": «tengo hambre» es \"I'm hungry\", nunca *I have hunger. Pasa lo mismo que con la edad.",
         ],
         examples: [
@@ -1823,7 +1823,7 @@ export const EN_A1_U8_MORE: Lesson[] = [
         pairs: [
           { left: "happy", right: "contento" },
           { left: "worried", right: "preocupado" },
-          { left: "angry", right: "enojado / enfadado" },
+          { left: "angry", right: "enojado" },
           { left: "tired", right: "cansado" },
         ],
         explanation: "Todas van con \"to be\": \"I'm happy\", \"She's worried\".",
@@ -2379,9 +2379,9 @@ export const EN_A1_U8_MORE: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "Este es el coche de mi hermano.",
+            source: "Este es el carro de mi hermano.",
             answer: "This is my brother's car.",
-            explanation: "«El coche de mi hermano» es \"my brother's car\": el dueño va primero, con \"'s\".",
+            explanation: "«El carro de mi hermano» es \"my brother's car\": el dueño va primero, con \"'s\".",
           },
         ],
       },
@@ -2427,7 +2427,7 @@ export const EN_A1_U8_MORE: Lesson[] = [
         examples: [
           { es: "Are there any good restaurants here?", en: "¿Hay buenos restaurantes aquí?" },
           { es: "There isn't a gym in my building.", en: "No hay gimnasio en mi edificio." },
-          { es: "Does your brother have a car?", en: "¿Tu hermano tiene coche?" },
+          { es: "Does your brother have a car?", en: "¿Tu hermano tiene carro?" },
           { es: "My city has a beautiful river.", en: "Mi ciudad tiene un río precioso." },
           { es: "I can't come tomorrow.", en: "Mañana no puedo venir." },
         ],
@@ -2443,7 +2443,7 @@ export const EN_A1_U8_MORE: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "Mi hermana no tiene coche.",
+            source: "Mi hermana no tiene carro.",
             answer: "My sister doesn't have a car.",
             altAnswers: ["My sister hasn't got a car.", "My sister has no car."],
             explanation: "Negativa con \"doesn't\" + \"have\", sin -s. Y \"a car\" lleva artículo aunque el español no lo ponga.",

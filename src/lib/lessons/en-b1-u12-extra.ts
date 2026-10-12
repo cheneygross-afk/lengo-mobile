@@ -30,7 +30,7 @@ export const EN_B1_U12_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Después de tres intentos, logré aprobar el examen de conducir.» Which is the best translation?",
+            question: "«Después de tres intentos, logré aprobar el examen de manejar.» Which is the best translation?",
             options: [
               "After three tries, I managed to pass my driving test.",
               "After three tries, I could pass my driving test.",
@@ -114,7 +114,7 @@ export const EN_B1_U12_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Por fin logramos encontrar aparcamiento.",
+        source: "Por fin logramos encontrar estacionamiento.",
         answer: "We finally managed to find a parking space.",
         altAnswers: ["We finally managed to find parking.", "We finally managed to find a parking spot.", "We finally managed to find a place to park.", "We were finally able to find a parking space.", "We were finally able to find parking.", "We were finally able to find a parking spot.", "We were finally able to find a place to park.", "Finally we managed to find a parking space.", "Finally, we managed to find a parking space.", "At last we managed to find a parking space."],
         explanation: "«Logramos» on one occasion = \"managed to\" or \"were able to\", not \"could\". \"Finally\" goes before the main verb.",

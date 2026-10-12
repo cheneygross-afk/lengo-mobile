@@ -460,9 +460,9 @@ export const EN_C2_U20: Lesson[] = [
       {
         heading: "Hearing the attitude",
         body: [
-          "Intonation decides the meaning of many of these phrases. \"Really?\" with a high rise is genuine surprise; with a low fall it is sceptical. \"Oh, great\" on a flat, falling tone means the opposite of great.",
+          "Intonation decides the meaning of many of these phrases. \"Really?\" with a high rise is genuine surprise; with a low fall it is skeptical. \"Oh, great\" on a flat, falling tone means the opposite of great.",
           "In tags, a rising tone asks; a falling tone expects agreement; and a falling tone after a negative statement (\"You haven't finished, have you?\") often signals disappointment or reproach.",
-          "Spanish speakers tend to use a rising tone on every tag because «¿no?» rises. Practise falling tags when you mean to confirm or challenge, or you will sound unsure of yourself.",
+          "Spanish speakers tend to use a rising tone on every tag because «¿no?» rises. Practice falling tags when you mean to confirm or challenge, or you will sound unsure of yourself.",
         ],
         examples: [
           { es: "Oh, great. Another meeting.", en: "Genial. Otra reunión. (con ironía)" },
@@ -621,7 +621,7 @@ export const EN_C2_U20: Lesson[] = [
           "Formal Spanish speeches often open with thanks and a frame («En primer lugar, quisiera agradecer...»). In a one-minute slot in English, cut it: start with the hook, and thank people, if at all, at the very end.",
         ],
         examples: [
-          { es: "Picture a city with no cars.", en: "Imaginen una ciudad sin coches." },
+          { es: "Picture a city with no cars.", en: "Imaginen una ciudad sin carros." },
           { es: "Every year, we throw away a third of the food we produce.", en: "Cada año tiramos un tercio de los alimentos que producimos." },
           { es: "Why do we still accept this?", en: "¿Por qué seguimos aceptando esto?" },
           { es: "Here is the one thing I want you to remember.", en: "Esto es lo único que quiero que recuerden." },
@@ -704,7 +704,7 @@ export const EN_C2_U20: Lesson[] = [
           { es: "What we need is not more money but more time.", en: "Lo que necesitamos no es más dinero, sino más tiempo." },
           { es: "Never has the choice been clearer.", en: "Nunca ha estado tan clara la elección." },
           { es: "Let me be clear: this is not about money.", en: "Que quede claro: esto no es una cuestión de dinero." },
-          { es: "Make no mistake: the cost of waiting will be higher.", en: "No nos engañemos: el coste de esperar será mayor." },
+          { es: "Make no mistake: the cost of waiting will be higher.", en: "No nos engañemos: el costo de esperar será mayor." },
           { es: "This we cannot afford.", en: "Esto no nos lo podemos permitir." },
         ],
         checkpoint: [
@@ -798,7 +798,7 @@ export const EN_C2_U20: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No nos engañemos: el coste de esperar será mayor.",
+        source: "No nos engañemos: el costo de esperar será mayor.",
         answer: "Make no mistake: the cost of waiting will be higher.",
         altAnswers: [
           "Make no mistake: the cost of waiting will be greater.",
@@ -1862,7 +1862,7 @@ export const EN_C2_U20: Lesson[] = [
           "Start by writing your key sentence, the one line you want the audience to repeat afterwards. Everything else, from hook to close, exists to deliver that sentence.",
         ],
         examples: [
-          { es: "City centers should be car-free.", en: "Los centros de las ciudades deberían estar libres de coches." },
+          { es: "City centers should be car-free.", en: "Los centros de las ciudades deberían estar libres de carros." },
           { es: "Sixteen-year-olds should have the vote.", en: "Los jóvenes de dieciséis años deberían poder votar." },
           { es: "A four-day week would make us healthier and more productive.", en: "Una semana de cuatro días nos haría más sanos y más productivos." },
           { es: "Here is the one thing I want you to take away.", en: "Esto es lo único que quiero que se lleven." },
@@ -1912,7 +1912,7 @@ export const EN_C2_U20: Lesson[] = [
           { es: "Expensive it may be, but doing nothing will cost far more.", en: "Será caro, pero no hacer nada costará mucho más." },
           { es: "This we can no longer ignore.", en: "Esto ya no lo podemos ignorar." },
           { es: "Never has the case been clearer.", en: "Nunca ha estado tan claro." },
-          { es: "Car-free streets are cleaner, safer and better for business.", en: "Las calles sin coches son más limpias, más seguras y mejores para el comercio." },
+          { es: "Car-free streets are cleaner, safer and better for business.", en: "Las calles sin carros son más limpias, más seguras y mejores para el comercio." },
         ],
         checkpoint: [
           {
@@ -1958,7 +1958,7 @@ export const EN_C2_U20: Lesson[] = [
           "Notice what is missing: no thanks, no \"today I'm going to talk about\", no fourth or fifth reason. The close echoes the hook (\"picture your street\") and ends on a short, stressed antithesis.",
         ],
         examples: [
-          { es: "Picture your street without a single car.", en: "Imaginen su calle sin un solo coche. (gancho)" },
+          { es: "Picture your street without a single car.", en: "Imaginen su calle sin un solo carro. (gancho)" },
           { es: "Better for business? Surely shops need drivers?", en: "¿Mejor para el comercio? ¿Acaso las tiendas no necesitan conductores? (hipófora)" },
           { es: "In city after city that has tried it, shops have not emptied; they have filled.", en: "En una ciudad tras otra que lo ha probado, las tiendas no se han vaciado: se han llenado." },
           { es: "Every change has its critics.", en: "Todo cambio tiene sus detractores." },
@@ -2050,7 +2050,7 @@ export const EN_C2_U20: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Imaginen su calle sin un solo coche.",
+        source: "Imaginen su calle sin un solo carro.",
         answer: "Picture your street without a single car.",
         altAnswers: [
           "Imagine your street without a single car.",
@@ -2099,7 +2099,7 @@ export const EN_C2_U20: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Car-free", "streets", "are", "cleaner,", "safer", "and", "better", "for", "business."],
-        translation: "Las calles sin coches son más limpias, más seguras y mejores para el comercio.",
+        translation: "Las calles sin carros son más limpias, más seguras y mejores para el comercio.",
         altOrders: [
           ["Car-free", "streets", "are", "safer,", "cleaner", "and", "better", "for", "business."],
         ],

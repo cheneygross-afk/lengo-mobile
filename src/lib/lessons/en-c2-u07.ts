@@ -77,7 +77,7 @@ export const EN_C2_U07: Lesson[] = [
           { es: "Taking the train will save you an hour.", en: "Si vas en tren, te ahorrarás una hora." },
           { es: "That mistake cost us a whole afternoon.", en: "Ese error nos costó una tarde entera." },
           { es: "We're running out of time.", en: "Se nos acaba el tiempo." },
-          { es: "It's worth investing time in a good plan.", en: "Merece la pena dedicar tiempo a un buen plan." },
+          { es: "It's worth investing time in a good plan.", en: "Vale la pena dedicar tiempo a un buen plan." },
         ],
         checkpoint: [
           {
@@ -150,10 +150,10 @@ export const EN_C2_U07: Lesson[] = [
         body: [
           "English links happiness, success, quantity and control with \"up\", and their opposites with \"down\". You \"feel down\", someone \"cheers you up\", things are \"looking up\", you \"hit rock bottom\", you are \"at the top of your game\" and prices \"soar\" or \"plummet\".",
           "Spanish has the same orientation («estar de bajón», «venirse arriba», «tocar fondo»), so the logic transfers; what needs learning is the exact verb or particle. «Estar de bajón» is \"feel down\" or \"be feeling low\"; «tocar fondo» is \"hit rock bottom\"; «venirse arriba» is \"get carried away\" or \"get fired up\", depending on context.",
-          "The same metaphor organises power: you are \"on top of\" your work when you control it, an employee reports to someone \"higher up\", and a problem can \"get on top of\" you when it overwhelms you.",
+          "The same metaphor organizes power: you are \"on top of\" your work when you control it, an employee reports to someone \"higher up\", and a problem can \"get on top of\" you when it overwhelms you.",
         ],
         examples: [
-          { es: "I've been feeling a bit down lately.", en: "Últimamente estoy un poco de bajón." },
+          { es: "I've been feeling a bit down lately.", en: "Últimamente ando un poco decaído." },
           { es: "Things are finally looking up.", en: "Por fin las cosas empiezan a ir mejor." },
           { es: "After the divorce he hit rock bottom.", en: "Tras el divorcio tocó fondo." },
           { es: "House prices have soared this year.", en: "El precio de la vivienda se ha disparado este año." },
@@ -227,7 +227,7 @@ export const EN_C2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend says «Estoy de bajón». Which is the natural English?",
+        question: "Your friend says «Ando decaído». Which is the natural English?",
         options: ["I'm feeling down.", "I'm feeling under.", "I'm in low.", "I'm feeling downed."],
         correctIndex: 0,
         explanation: "\"Feel down\" or \"be feeling low\" express sadness through the down-is-bad metaphor. The other options are not English.",
@@ -269,7 +269,7 @@ export const EN_C2_U07: Lesson[] = [
       {
         type: "listen-choose",
         audio: "The deal is on borrowed time.",
-        question: "¿Qué significa lo que has oído?",
+        question: "What does the sentence you heard mean?",
         options: [
           "El acuerdo tiene los días contados.",
           "El acuerdo se firmó con retraso.",
@@ -362,7 +362,7 @@ export const EN_C2_U07: Lesson[] = [
       {
         heading: "Synecdoche: the part for the whole",
         body: [
-          "Synecdoche is a type of metonymy in which a part stands for the whole. \"All hands on deck\" means everybody must help (from sailors on a ship). \"Hired hands\" and \"farmhands\" are workers. \"Mouths to feed\" are dependants, and \"a roof over your head\" is a home.",
+          "Synecdoche is a type of metonymy in which a part stands for the whole. \"All hands on deck\" means everybody must help (from sailors on a ship). \"Hired hands\" and \"farmhands\" are workers. \"Mouths to feed\" are dependents, and \"a roof over your head\" is a home.",
           "Spanish has its own versions, and they do not always match. «Bocas que alimentar» is \"mouths to feed\" (same image), «un techo» is \"a roof over your head\", «a tanto por cabeza» is \"per head\", but «mano de obra» is \"labor\" or \"workforce\", never *hand of work.",
           "Other everyday synecdoche: \"a fresh pair of eyes\" (someone new to review something), \"boots on the ground\" (soldiers deployed), \"new wheels\" (a new car, informal), \"head count\" (number of staff).",
         ],
@@ -372,7 +372,7 @@ export const EN_C2_U07: Lesson[] = [
           { es: "At least we have a roof over our heads.", en: "Al menos tenemos un techo." },
           { es: "The dinner costs fifty dollars per head.", en: "La cena cuesta cincuenta dólares por cabeza." },
           { es: "Can you give this report a fresh pair of eyes?", en: "¿Puedes revisar este informe con otros ojos?" },
-          { es: "The region lacks skilled labor.", en: "La región carece de mano de obra cualificada." },
+          { es: "The region lacks skilled labor.", en: "La región carece de mano de obra calificada." },
         ],
         checkpoint: [
           {
@@ -466,11 +466,11 @@ export const EN_C2_U07: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "La cena de empresa sale a cuarenta euros por cabeza.",
-        answer: "The company dinner works out at forty euros per head.",
+        answer: "The company dinner works out to forty euros per head.",
         altAnswers: [
           "The company dinner comes to forty euros per head.",
           "The company dinner costs forty euros per head.",
-          "The company dinner works out to forty euros per head.",
+          "The company dinner works out at forty euros per head.",
           "The company dinner comes out at forty euros per head.",
           "The company dinner is forty euros per head.",
           "The company dinner works out at forty euros a head.",
@@ -542,7 +542,7 @@ export const EN_C2_U07: Lesson[] = [
       {
         type: "listen-choose",
         audio: "The top brass are furious about the leak.",
-        question: "¿Quiénes están furiosos?",
+        question: "Who is furious?",
         options: ["Los altos mandos o la dirección", "Los músicos de la banda", "Los periodistas", "Los empleados más jóvenes"],
         correctIndex: 0,
         explanation: "\"The top brass\" originally meant senior military officers (from the brass on their uniforms); now it means the bosses in any organization.",
@@ -673,7 +673,7 @@ export const EN_C2_U07: Lesson[] = [
         ],
       },
       {
-        heading: "Synaesthesia and the transferred epithet",
+        heading: "Synesthesia and the transferred epithet",
         body: [
           "Synaesthesia describes one sense in terms of another: a \"loud\" shirt (sight described as sound), a \"warm\" voice (sound as touch), \"sharp\" cheese (taste as touch), a \"sweet\" melody (sound as taste). Spanish also has «colores chillones» and «una voz cálida», but the specific adjectives differ: «colores chillones» are \"loud\" or \"garish\" colors, not *screaming colors.",
           "In a transferred epithet, an adjective describing a person's state is attached to something else: \"a sleepless night\" (the person did not sleep, not the night), \"a nervous laugh\", \"an angry letter\", \"a hopeful glance\". Spanish uses some of these naturally («una noche en vela», «una risa nerviosa»).",
@@ -708,7 +708,7 @@ export const EN_C2_U07: Lesson[] = [
           {
             type: "multiple-choice",
             question: "\"The trumpet gave a bright, golden sound.\" Which figure is this?",
-            options: ["Synaesthesia", "Zeugma", "Litotes", "Chiasmus"],
+            options: ["Synesthesia", "Zeugma", "Litotes", "Chiasmus"],
             correctIndex: 0,
             explanation: "A sound is described with visual words (\"bright\", \"golden\"): one sense is expressed through another.",
           },
@@ -769,7 +769,7 @@ export const EN_C2_U07: Lesson[] = [
       {
         type: "multiple-choice",
         question: "\"Fair is foul, and foul is fair\" (Macbeth). Which figure is this?",
-        options: ["Chiasmus", "Zeugma", "Synaesthesia", "Transferred epithet"],
+        options: ["Chiasmus", "Zeugma", "Synesthesia", "Transferred epithet"],
         correctIndex: 0,
         explanation: "The pattern A-B, B-A (fair-foul, foul-fair) is a chiasmus, and the reversal also creates antithesis between good and evil.",
       },
@@ -891,7 +891,7 @@ export const EN_C2_U07: Lesson[] = [
         heading: "Fixed similes with like",
         body: [
           "The second family uses \"like + noun phrase\", usually after a verb: \"sleep like a log\", \"drink like a fish\", \"smoke like a chimney\", \"eat like a horse\" (a lot) or \"eat like a bird\" (very little), \"spread like wildfire\".",
-          "Again, compare the images. «Dormir como un tronco» is \"sleep like a log\" (close), but «beber como un cosaco» is \"drink like a fish\", «fumar como un carretero» is \"smoke like a chimney\", «correr como la pólvora» is \"spread like wildfire\", and «como un elefante en una cacharrería» is \"like a bull in a china shop\".",
+          "Again, compare the images. «Dormir como un tronco» is \"sleep like a log\" (close), but «beber como un cosaco» is \"drink like a fish\", «fumar como un carretero» is \"smoke like a chimney\", «correr como la pólvora» is \"spread like wildfire\", and «como elefante en cristalería» is \"like a bull in a china shop\".",
           "\"Like a fish out of water\" matches «como pez fuera del agua» exactly. \"Like water off a duck's back\" (criticism has no effect on someone) is close to «como quien oye llover».",
         ],
         examples: [
@@ -900,7 +900,7 @@ export const EN_C2_U07: Lesson[] = [
           { es: "She smokes like a chimney.", en: "Fuma como un carretero." },
           { es: "The rumor spread like wildfire.", en: "El rumor corrió como la pólvora." },
           { es: "I felt like a fish out of water at that party.", en: "En esa fiesta me sentí como pez fuera del agua." },
-          { es: "He charged in like a bull in a china shop.", en: "Entró como un elefante en una cacharrería." },
+          { es: "He charged in like a bull in a china shop.", en: "Entró como elefante en cristalería." },
           { es: "Criticism is like water off a duck's back to her.", en: "Las críticas le entran por un oído y le salen por el otro." },
         ],
         checkpoint: [
@@ -1009,7 +1009,7 @@ export const EN_C2_U07: Lesson[] = [
           { left: "as clear as day", right: "más claro que el agua" },
           { left: "smoke like a chimney", right: "fumar como un carretero" },
           { left: "as blind as a bat", right: "más ciego que un topo" },
-          { left: "like a bull in a china shop", right: "como un elefante en una cacharrería" },
+          { left: "like a bull in a china shop", right: "como elefante en cristalería" },
         ],
         explanation: "The meanings match, but the images rarely do: learn the English simile as a whole.",
       },
@@ -1017,10 +1017,10 @@ export const EN_C2_U07: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Trabajó de camarero durante la carrera.",
-        answer: "He worked as a waiter while he was at university.",
+        source: "Trabajó de mesero durante la carrera.",
+        answer: "He worked as a waiter while he was in college.",
         altAnswers: [
-          "He worked as a waiter while he was at college.",
+          "He worked as a waiter while he was at university.",
           "He worked as a waiter during college.",
           "He worked as a waiter during university.",
           "He worked as a waiter while he was in college.",
@@ -1252,7 +1252,7 @@ export const EN_C2_U07: Lesson[] = [
         body: [
           "In fiction and poetry, personification gives nature, objects and abstractions human actions or feelings: \"The wind howled\", \"The old house groaned\", \"Time crept by\", \"Darkness swallowed the road\". Emily Dickinson famously turns death into a polite carriage driver: \"Because I could not stop for Death, / He kindly stopped for me\".",
           "Many of these verbs are so common that they are almost literal (\"the wind howls\", \"the fire crackled\"). Others are striking because they attribute intention: \"The sea waited for them\".",
-          "When you analyse personification, ask what attitude it creates: a threatening house, a kindly death, an indifferent city. That is the effect, and it is what an examiner wants you to explain.",
+          "When you analyze personification, ask what attitude it creates: a threatening house, a kindly death, an indifferent city. That is the effect, and it is what an examiner wants you to explain.",
         ],
         examples: [
           { es: "The wind howled all night.", en: "El viento aulló toda la noche." },
@@ -1311,7 +1311,7 @@ export const EN_C2_U07: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Higher interest rates are beginning to ___.",
         answer: "bite",
-        en: "Los tipos de interés más altos empiezan a [hacerse notar].",
+        en: "Las tasas de interés más altas empiezan a [hacerse notar].",
         explanation: "In financial journalism, a policy or price \"bites\" when it starts to hurt: the rates are personified as an animal with teeth.",
       },
       {
@@ -1364,7 +1364,7 @@ export const EN_C2_U07: Lesson[] = [
       {
         type: "listen-choose",
         audio: "The old floorboards groaned under our feet.",
-        question: "¿Qué efecto produce la personificación?",
+        question: "What effect does the personification create?",
         options: [
           "La casa parece vieja y casi viva, quejándose.",
           "La casa parece nueva y alegre.",
@@ -1417,11 +1417,11 @@ export const EN_C2_U07: Lesson[] = [
         body: [
           "Headlines need short, strong words, and figurative language supplies them. Conflict is war: a minister is \"under fire\", an opposition \"launches an attack\", rivals \"clash\", a company \"axes\" jobs. Economics is weather or health: \"storm clouds gather\", the housing market \"cools\", markets \"bleed\", the economy is \"in intensive care\".",
           "Headline grammar compresses everything: articles and \"be\" disappear, the present simple reports past events, and the infinitive marks the future: \"PM to visit Madrid\" (the Prime Minister will visit Madrid).",
-          "Spanish headlines use similar images («el Gobierno, en el punto de mira»), but English favours very short verbs that learners rarely meet elsewhere: \"slam\" (criticise strongly), \"axe\" (cut), \"bid\" (attempt), \"row\" (dispute), \"probe\" (investigation), \"vow\" (promise).",
+          "Spanish headlines use similar images («el Gobierno, en el punto de mira»), but English favors very short verbs that learners rarely meet elsewhere: \"slam\" (criticize strongly), \"axe\" (cut), \"bid\" (attempt), \"row\" (dispute), \"probe\" (investigation), \"vow\" (promise).",
         ],
         examples: [
           { es: "PM under fire over hospital waiting lists", en: "El primer ministro, en el punto de mira por las listas de espera" },
-          { es: "Car maker axes 500 jobs", en: "Un fabricante de coches recorta 500 empleos" },
+          { es: "Car maker axes 500 jobs", en: "Un fabricante de carros recorta 500 empleos" },
           { es: "Markets bleed as oil price soars", en: "Los mercados se desangran mientras se dispara el petróleo" },
           { es: "Storm clouds gather over eurozone economy", en: "Se ciernen nubarrones sobre la economía de la eurozona" },
           { es: "Housing market cools after record year", en: "El mercado inmobiliario se enfría tras un año récord" },
@@ -1446,7 +1446,7 @@ export const EN_C2_U07: Lesson[] = [
             sentence: "Health minister ___ over vaccine delays",
             answer: "under fire",
             altAnswers: ["comes under fire", "faces criticism"],
-            en: "El ministro de Sanidad, [en el punto de mira] por los retrasos de las vacunas",
+            en: "El ministro de Salud, [en el punto de mira] por los retrasos de las vacunas",
             explanation: "\"Under fire\" (being shot at) is the war metaphor for being strongly criticized. Headlines often drop the verb: \"Minister under fire\".",
           },
         ],
@@ -1462,7 +1462,7 @@ export const EN_C2_U07: Lesson[] = [
           { es: "Number 10 digs in over tax rise", en: "Downing Street se atrinchera en la subida de impuestos" },
           { es: "Brussels blinks first in trade standoff", en: "Bruselas es la primera en ceder en el pulso comercial" },
           { es: "Beijing hits back with new tariffs", en: "Pekín contraataca con nuevos aranceles" },
-          { es: "Wall Street rallies after rate cut", en: "Wall Street se recupera tras la bajada de tipos" },
+          { es: "Wall Street rallies after rate cut", en: "Wall Street se recupera tras la baja de tasas" },
           { es: "Hollywood mourns screen legend", en: "Hollywood llora a una leyenda del cine" },
         ],
         checkpoint: [
@@ -1674,7 +1674,7 @@ export const EN_C2_U07: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Union leaders slam pay offer.",
-        question: "¿Qué ha pasado?",
+        question: "What has happened?",
         options: [
           "Los sindicatos han criticado duramente la oferta salarial.",
           "Los sindicatos han aceptado la oferta salarial.",
@@ -1731,14 +1731,14 @@ export const EN_C2_U07: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Antes de decidir, conviene sopesar todas las opciones.",
-            answer: "Before deciding, it's a good idea to weigh up all the options.",
+            answer: "Before deciding, it's a good idea to weigh all the options.",
             altAnswers: [
               "Before deciding, it's best to weigh up all the options.",
               "Before deciding, it's wise to weigh up all the options.",
               "Before deciding, it's advisable to weigh up all the options.",
               "Before deciding, you should weigh up all the options.",
               "Before deciding, we should weigh up all the options.",
-              "Before deciding, it's a good idea to weigh all the options.",
+              "Before deciding, it's a good idea to weigh up all the options.",
               "Before deciding, it's best to weigh all the options.",
               "Before deciding, you should weigh all the options.",
               "Before making a decision, it's a good idea to weigh up all the options.",
@@ -1813,7 +1813,7 @@ export const EN_C2_U07: Lesson[] = [
           { es: "His comments sparked a fierce debate.", en: "Sus comentarios desataron un debate encendido." },
           { es: "The delay only fueled speculation.", en: "El retraso no hizo más que avivar las especulaciones." },
           { es: "The crash triggered a global recession.", en: "El desplome desencadenó una recesión mundial." },
-          { es: "The bank raised rates to curb inflation.", en: "El banco subió los tipos para frenar la inflación." },
+          { es: "The bank raised rates to curb inflation.", en: "El banco subió las tasas para frenar la inflación." },
           { es: "These leaks undermine trust in the government.", en: "Estas filtraciones socavan la confianza en el gobierno." },
           { es: "The school fosters creativity and independence.", en: "La escuela fomenta la creatividad y la autonomía." },
         ],
@@ -1860,7 +1860,7 @@ export const EN_C2_U07: Lesson[] = [
         examples: [
           { es: "The new documents shed light on the affair.", en: "Los nuevos documentos arrojan luz sobre el asunto." },
           { es: "She skillfully steered the conversation back to the budget.", en: "Recondujo hábilmente la conversación hacia el presupuesto." },
-          { es: "The report glosses over the environmental costs.", en: "El informe pasa de puntillas por los costes medioambientales." },
+          { es: "The report glosses over the environmental costs.", en: "El informe pasa de puntillas por los costos ambientales." },
           { es: "Let's not dwell on the past.", en: "No nos recreemos en el pasado." },
           { es: "You need to flesh out the second section.", en: "Tienes que desarrollar más la segunda parte." },
           { es: "The talk only touched on the issue of funding.", en: "La charla solo mencionó de pasada el tema de la financiación." },
@@ -1976,7 +1976,7 @@ export const EN_C2_U07: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El banco central subió los tipos de interés para frenar la inflación.",
+        source: "El banco central subió las tasas de interés para frenar la inflación.",
         answer: "The central bank raised interest rates to curb inflation.",
         altAnswers: [
           "The central bank raised interest rates in order to curb inflation.",
@@ -2015,7 +2015,7 @@ export const EN_C2_U07: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El informe pasa de puntillas por los costes reales del proyecto.",
+        source: "El informe pasa de puntillas por los costos reales del proyecto.",
         answer: "The report glosses over the real costs of the project.",
         altAnswers: [
           "The report glosses over the actual costs of the project.",
@@ -2201,7 +2201,7 @@ export const EN_C2_U07: Lesson[] = [
         ],
       },
       {
-        heading: "From naming to analysing",
+        heading: "From naming to analyzing",
         body: [
           "Compare two comments on \"The city slept under a blanket of fog\". Naming: \"The writer uses personification and metaphor\". Analysing: \"By making the city sleep under a blanket of fog, the writer suggests a peaceful, protected stillness that the next scene will shatter\".",
           "A useful pattern: \"By + -ing (the device), the writer + verb of effect + (what)\". Verbs of effect: suggests, conveys, evokes, emphasizes, foreshadows, undercuts, heightens.",
@@ -2311,7 +2311,7 @@ export const EN_C2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which comment ANALYSES rather than just NAMES the figure in \"The wind howled like a wounded animal\"?",
+        question: "Which comment ANALYZES rather than just NAMES the figure in \"The wind howled like a wounded animal\"?",
         options: [
           "The simile turns the wind into a creature in pain, creating a sense of threat and suffering.",
           "The writer uses a simile with like.",
@@ -2365,21 +2365,21 @@ export const EN_C2_U07: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Only then did she understand what the silence had been trying to tell her.",
-        question: "¿Qué recurso aparece, además de la inversión?",
+        question: "Which device appears, besides the inversion?",
         options: ["Personificación del silencio", "Lítote", "Zeugma", "Juego de palabras"],
         correctIndex: 0,
         explanation: "\"The silence had been trying to tell her\" gives the silence a human intention: personification.",
       },
       {
         type: "write",
-        prompt: "Write a short literary paragraph (3 to 4 sentences) about arriving in a city at night. Include one participle clause, one inversion after a negative adverbial and one figure from this unit. Then add one sentence analysing the effect of your figure.",
+        prompt: "Write a short literary paragraph (3 to 4 sentences) about arriving in a city at night. Include one participle clause, one inversion after a negative adverbial and one figure from this unit. Then add one sentence analyzing the effect of your figure.",
         minWords: 60,
         maxWords: 120,
         rubric: [
           "One correct participle clause with the same subject as the main clause",
           "One correct inversion (Never had..., Only then did..., No sooner had... than...)",
           "At least one figure (simile, personification, oxymoron, transferred epithet...)",
-          "A final sentence that analyses the effect, not just names the device",
+          "A final sentence that analyzes the effect, not just names the device",
         ],
         modelAnswer: "Stepping off the last train, I found the city wide awake. Neon signs muttered to one another across the empty square, and a lonely taxi idled by the curb. Never had I felt so small, nor so welcome. By making the signs mutter like gossiping neighbors, I wanted to suggest a city that is alive and slightly suspicious of strangers.",
         explanation: "The task recycles Advanced narrative grammar and Mastery figurative language, and ends with analysis: the skill examiners reward.",

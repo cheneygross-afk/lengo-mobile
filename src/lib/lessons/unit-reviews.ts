@@ -128,7 +128,7 @@ const stripNote = (t: string) => t.replace(/\s*\([^()]*\)\s*$/, "").trim();
 
 /** A target-language sentence (`es`, named as in LessonExample) with its
  * translation into the learner's language (`en`), when usable. */
-export type Sentence = { es: string; en?: string };
+export type Sentence = { es: string; en?: string; /** The lesson it came from. */ lesson?: string };
 
 const ENGLISH_PROSE = /\b(the|and|is|are|you|of|with|this|that|it|which)\b/i;
 
@@ -142,32 +142,66 @@ function proseSentences(paragraph: string): LessonExample[] {
  * after them, as fallbacks) sentences from its exercises' answers and,
  * from B1 up, where the explanations are in Spanish, from the lessons'
  * explanations (untranslated, so only for reading aloud and dictation). */
-function unitSentences(lessons: readonly Lesson[], random: () => number, profile: ReviewProfile): Sentence[] {
+function unitSentences(
+  lessons: readonly Lesson[],
+  random: () => number,
+  profile: ReviewProfile,
+  variants: readonly Lesson[] = []
+): Sentence[] {
   const { prose: spanishProse, glossOk, targetAnswerDirection } = profile;
   const seen = new Set<string>();
-  const collect = (list: LessonExample[]): Sentence[] => {
+  type Tagged = LessonExample & { lesson: string };
+  const collect = (list: Tagged[]): Sentence[] => {
     const out: Sentence[] = [];
     for (const ex of list) {
       const es = stripNote(ex.es);
       const en = ex.en === undefined ? undefined : stripNote(ex.en);
       if (!usableEs(es, 140) || seen.has(es.toLowerCase())) continue;
       seen.add(es.toLowerCase());
-      out.push({ es, en: glossOk(en, es) ? en : undefined });
+      out.push({ es, en: glossOk(en, es) ? en : undefined, lesson: ex.lesson });
     }
     return out;
   };
-  const examples = lessons.flatMap((l) => l.sections.flatMap((s) => s.examples ?? []));
+  const examplesOf = (ls: readonly Lesson[]): Tagged[] =>
+    ls.flatMap((l) => l.sections.flatMap((s) => (s.examples ?? []).map((ex) => ({ ...ex, lesson: l.slug }))));
   const fromExercises = lessons
-    .flatMap((l) => [...l.sections.flatMap((s) => s.checkpoint ?? []), ...l.exercises])
-    .flatMap((e): LessonExample[] => {
-      if (e.type === "translate") return [e.direction === targetAnswerDirection ? { es: e.answer, en: e.source } : { es: e.source, en: e.answer }];
+    .flatMap((l) => [...l.sections.flatMap((s) => s.checkpoint ?? []), ...l.exercises].map((e) => ({ e, lesson: l.slug })))
+    .flatMap(({ e, lesson }): Tagged[] => {
+      if (e.type === "translate")
+        return [e.direction === targetAnswerDirection ? { es: e.answer, en: e.source, lesson } : { es: e.source, en: e.answer, lesson }];
       if (e.type === "fill-blank" && e.en && e.sentence.split("___").length === 2) {
-        return [{ es: e.sentence.replace("___", e.answer), en: e.en.replace(/[[\]]/g, "") }];
+        return [{ es: e.sentence.replace("___", e.answer), en: e.en.replace(/[[\]]/g, ""), lesson }];
       }
       return [];
     });
-  const prose = spanishProse ? lessons.flatMap((l) => l.sections.flatMap((s) => s.body.flatMap(proseSentences))) : [];
-  return [...shuffled(collect(examples), random), ...shuffled(collect(fromExercises), random), ...shuffled(collect(prose), random)];
+  const prose = spanishProse
+    ? lessons.flatMap((l) => l.sections.flatMap((s) => s.body.flatMap(proseSentences).map((ex) => ({ ...ex, lesson: l.slug }))))
+    : [];
+  // Sentences from the unit's optional practice lessons come first: same
+  // grammar, but most learners haven't seen them yet.
+  const fromVariants = variants.length ? shuffled(collect(examplesOf(variants)), random) : [];
+  return [
+    ...fromVariants,
+    ...shuffled(collect(examplesOf(lessons)), random),
+    ...shuffled(collect(fromExercises), random),
+    ...shuffled(collect(prose), random),
+  ];
+}
+
+const wordList = (t: string) => t.toLowerCase().match(/[a-z']+/g) ?? [];
+
+/** How good a wrong option `o` is for `s`: its target-language sentence
+ * shares words and length with `s` (so the learner has to listen for the
+ * difference, not spot an unrelated topic), and from the same lesson
+ * (the same grammar point) it scores higher. */
+function similarity(s: Sentence, o: Sentence): number {
+  const a = wordList(s.es);
+  const b = wordList(o.es);
+  const sb = new Set(b);
+  const shared = new Set(a.filter((w) => sb.has(w))).size;
+  const union = new Set([...a, ...b]).size || 1;
+  const length = 1 - Math.abs(a.length - b.length) / Math.max(a.length, b.length, 1);
+  return shared / union + 0.5 * length + (s.lesson && s.lesson === o.lesson ? 0.3 : 0);
 }
 
 const STOP: ReadonlySet<string> = new Set(
@@ -285,9 +319,25 @@ export type ReviewProfile = {
   /** Throw when the unit lacks material (Spanish course), or build what
    * it can (false; null when nothing at all). */
   strict: boolean;
+  /** Harder, fresher items (English course): wrong listening options that
+   * look like the right one (similar length and words, same lesson first)
+   * instead of random ones, and material from the unit's optional
+   * practice lessons (`variants`) before the required lessons the
+   * learner has just done: their own listening items, with the options
+   * their author wrote, and up to MAX_VARIANT_QUIZ quiz questions. */
+  matched?: boolean;
   /** Whether a sentence can be dictated (default: any short one). */
   dictationOk?: (target: string) => boolean;
 };
+
+/** With `matched`: at most this many of the 3 meaning clips are authored
+ * listening items from the optional lessons (the rest are made from the
+ * unit's sentences), and at most this many quiz questions or translations
+ * come from them (the rest from the required lessons, so the quiz still
+ * spreads over the unit). */
+const MAX_VARIANT_LISTENING = 2;
+const MAX_VARIANT_QUIZ = 4;
+const MAX_VARIANT_TRANSLATIONS = 2;
 
 // Oral reductions taught as such ("cansao", "na", "pal", "pa'"): their
 // spelling varies (na / na' / nada), so they are never dictated.
@@ -319,13 +369,15 @@ function spanishProfile(level: Level, start: string): ReviewProfile {
  */
 export function buildUnitReview(
   profile: ReviewProfile,
-  unit: { number: number; title: string; lessons: Lesson[] },
+  unit: { number: number; title: string; lessons: Lesson[]; variants?: Lesson[] },
   writing: WriteExercise | undefined
 ): Lesson | null {
   const { copy } = profile;
   const { number, title, lessons } = unit;
+  const matched = !!profile.matched;
+  const variants = matched ? (unit.variants ?? []).filter((l) => !l.unitReview) : [];
   const random = seeded(profile.seed);
-  const sentences = unitSentences(lessons, random, profile);
+  const sentences = unitSentences(lessons, random, profile, variants);
   const used = new Set<string>();
   const take = (n: number, ok: (s: Sentence) => boolean): Sentence[] => {
     const out: Sentence[] = [];
@@ -344,12 +396,32 @@ export function buildUnitReview(
 
   // Listening: meaning, then dictation.
   const withEn = sentences.filter((s) => s.en);
-  const meaning = take(3, (s) => !!s.en && s.es.length <= 120);
-  if (meaning.length < 3) short("translated sentences");
-  const listen: ListenChooseExercise[] = [];
+  // Authored listening items from the optional lessons, options and all.
+  const authored: ListenChooseExercise[] = [];
+  if (matched) {
+    const pool = variants
+      .flatMap((l) => [...l.sections.flatMap((s) => s.checkpoint ?? []), ...l.exercises])
+      .filter((e): e is ListenChooseExercise => e.type === "listen-choose" && e.options.length >= 3 && e.audio.length <= 120);
+    for (const e of shuffled(pool, random)) {
+      if (authored.length >= MAX_VARIANT_LISTENING) break;
+      if (used.has(e.audio)) continue;
+      used.add(e.audio);
+      authored.push(e);
+    }
+  }
+  const meaning = take(3 - authored.length, (s) => !!s.en && s.es.length <= 120);
+  if (authored.length + meaning.length < 3) short("translated sentences");
+  const listen: ListenChooseExercise[] = [...authored];
   for (const s of meaning) {
     const distractors: string[] = [];
-    for (const o of shuffled(withEn, random)) {
+    // Matched: the most similar sentences first (ties in seeded order).
+    const candidates = matched
+      ? shuffled(withEn, random)
+          .map((o) => ({ o, score: similarity(s, o) }))
+          .sort((x, y) => y.score - x.score)
+          .map(({ o }) => o)
+      : shuffled(withEn, random);
+    for (const o of candidates) {
       if (distractors.length >= 3) break;
       if (o.es === s.es || [s.en!, ...distractors].some((d) => profile.tooClose(d, o.en!))) continue;
       distractors.push(o.en!);
@@ -390,14 +462,31 @@ export function buildUnitReview(
   // The quiz, or translations from the unit (C1/C2).
   let final: Exercise[];
   const { quiz } = profile;
+  const inListening = new Set<Exercise>(authored);
   if (quiz) {
-    final = pickUnitTestQuestions(lessons, UNIT_QUIZ_QUESTIONS, random).map((q) => q.exercise);
+    const fresh = variants.length
+      ? pickUnitTestQuestions(
+          variants.map((l) => ({ ...l, optional: false })),
+          UNIT_QUIZ_QUESTIONS,
+          random
+        )
+          .map((q) => q.exercise)
+          .filter((e) => !inListening.has(e))
+          .slice(0, MAX_VARIANT_QUIZ)
+      : [];
+    const rest = pickUnitTestQuestions(lessons, UNIT_QUIZ_QUESTIONS, random)
+      .map((q) => q.exercise)
+      .slice(0, UNIT_QUIZ_QUESTIONS - fresh.length);
+    final = fresh.length ? shuffled([...fresh, ...rest], random) : rest;
   } else {
-    const pool = lessons.flatMap((l) => [...l.sections.flatMap((s) => s.checkpoint ?? []), ...l.exercises]);
-    const translations = pool.filter(
-      (e): e is TranslateExercise => e.type === "translate" && e.direction === profile.translationDirection
-    );
-    final = shuffled(translations, random).slice(0, 3);
+    const translationsOf = (ls: readonly Lesson[]) =>
+      ls
+        .flatMap((l) => [...l.sections.flatMap((s) => s.checkpoint ?? []), ...l.exercises])
+        .filter((e): e is TranslateExercise => e.type === "translate" && e.direction === profile.translationDirection);
+    const fresh = shuffled(translationsOf(variants), random).slice(0, MAX_VARIANT_TRANSLATIONS);
+    const freshSources = new Set(fresh.map((e) => e.source));
+    const rest = shuffled(translationsOf(lessons), random).filter((e) => !freshSources.has(e.source));
+    final = [...fresh, ...rest].slice(0, 3);
   }
 
   const section = ([heading, body]: [string, string], checkpoint: Exercise[]): LessonSection => ({

@@ -16,7 +16,11 @@ import ConceptCanDoCard from "@/components/ConceptCanDoCard";
 import { CAN_DO_STATEMENTS } from "@/lib/lessons/canDo";
 import { LEVEL_WATCH_VIDEOS } from "@/lib/lessons/lessonVideos";
 import type { SpanishLevelPath } from "@/lib/lessons/levels";
-import { frenchLevelIfLoaded, frenchLevelInfo, loadFrenchLevel, type FrenchLevelData } from "@/lib/lessons/french";
+import { frenchLevelIfLoaded, frenchLevelInfo, loadFrenchLevel } from "@/lib/lessons/french";
+import { germanLevelIfLoaded, germanLevelInfo, loadGermanLevel } from "@/lib/lessons/german";
+
+// A French or German level, loaded on demand (lessons/french.ts, lessons/german.ts).
+type LazyLevelData = { levelPath: string; lessons: Lesson[]; units: ModuleUnit[] };
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonList">;
 
@@ -38,33 +42,42 @@ type Section = { key: string; unit?: ModuleUnit; title: string; data: Row[] };
 // show their assembled units the same way, with a test-out drawn from
 // the item bank, and their can-do statements ticked off from progress.
 // The Japanese beta's modules (see JapaneseLevelsScreen) stay one flat
-// list. A French level (route param frenchLevel) shows its units the same
-// way, once its lessons have loaded (lessons/french.ts).
+// list. A French level (route param frenchLevel) or German level
+// (germanLevel) shows its units the same way, once its lessons have loaded
+// (lessons/french.ts, lessons/german.ts).
 export default function LessonListScreen({ navigation, route }: Props) {
   const frenchKey = route.params?.frenchLevel ?? null;
-  // Unused for a French level (its data comes from frenchData below).
+  const germanKey = route.params?.germanLevel ?? null;
+  // The French or German level shown, if any: "fr/a1", "de/b2" ...
+  const lazyInfo = frenchKey ? frenchLevelInfo(frenchKey) : germanKey ? germanLevelInfo(germanKey) : null;
+  const lazyLevelPath = lazyInfo?.levelPath ?? null;
+  // Unused for a French or German level (its data comes from lazyData below).
   const moduleKey: LessonModuleKey = route.params?.moduleKey ?? "a1";
-  const [frenchData, setFrenchData] = useState<FrenchLevelData | null>(() =>
-    frenchKey ? frenchLevelIfLoaded(frenchKey) ?? null : null
+  const [lazyData, setLazyData] = useState<LazyLevelData | null>(() =>
+    frenchKey ? frenchLevelIfLoaded(frenchKey) ?? null : germanKey ? germanLevelIfLoaded(germanKey) ?? null : null
   );
   useEffect(() => {
-    if (!frenchKey || frenchData?.key === frenchKey) return;
+    if (!lazyLevelPath || lazyData?.levelPath === lazyLevelPath) return;
     let cancelled = false;
-    loadFrenchLevel(frenchKey).then((data) => {
-      if (!cancelled) setFrenchData(data);
+    const load: Promise<LazyLevelData> | null = frenchKey
+      ? loadFrenchLevel(frenchKey)
+      : germanKey
+        ? loadGermanLevel(germanKey)
+        : null;
+    load?.then((data) => {
+      if (!cancelled) setLazyData(data);
     });
     return () => {
       cancelled = true;
     };
-  }, [frenchKey, frenchData?.key]);
+  }, [frenchKey, germanKey, lazyLevelPath, lazyData?.levelPath]);
   const source: Pick<LessonSource, "levelPath" | "title" | "lessons" | "units" | "canDo"> = useMemo(() => {
-    if (!frenchKey) return LESSON_SOURCES[moduleKey];
-    const info = frenchLevelInfo(frenchKey);
-    return { levelPath: info.levelPath, title: info.label, lessons: frenchData?.lessons ?? [], units: frenchData?.units };
-  }, [frenchKey, moduleKey, frenchData]);
-  // French lessons are opened with their levelPath (see LessonRunner).
+    if (!lazyInfo) return LESSON_SOURCES[moduleKey];
+    return { levelPath: lazyInfo.levelPath, title: lazyInfo.label, lessons: lazyData?.lessons ?? [], units: lazyData?.units };
+  }, [lazyInfo, moduleKey, lazyData]);
+  // French and German lessons are opened with their levelPath (see LessonRunner).
   const openLesson = (slug: string) =>
-    navigation.navigate("LessonRunner", frenchKey ? { slug, levelPath: source.levelPath } : { slug });
+    navigation.navigate("LessonRunner", lazyInfo ? { slug, levelPath: source.levelPath } : { slug });
   const [completed, setCompleted] = useState<Record<string, boolean>>({});
   const [pendingReview, setPendingReview] = useState<PendingReviewBatch | null>(null);
   // Units opened or closed by hand; the rest follow the default.
@@ -93,13 +106,14 @@ export default function LessonListScreen({ navigation, route }: Props) {
     }, [source.levelPath])
   );
 
-  const hasUnits = !frenchKey && isUnitLevelPath(moduleKey);
+  const hasUnits = !lazyInfo && isUnitLevelPath(moduleKey);
 
   // Spanish levels are titled with their plain-English name ("Advanced"),
-  // like the website's level header; French levels with theirs.
+  // like the website's level header; French and German levels with theirs.
+  const isLazy = !!lazyInfo;
   useLayoutEffect(() => {
-    if (frenchKey || (hasUnits && moduleKey !== "cosas-coloquiales")) navigation.setOptions({ title: source.title });
-  }, [navigation, moduleKey, hasUnits, source.title, frenchKey]);
+    if (isLazy || (hasUnits && moduleKey !== "cosas-coloquiales")) navigation.setOptions({ title: source.title });
+  }, [navigation, moduleKey, hasUnits, source.title, isLazy]);
 
   const lessons = source.lessons;
   const units: ModuleUnit[] | null = useMemo(
@@ -141,7 +155,7 @@ export default function LessonListScreen({ navigation, route }: Props) {
         {completedCount} of {required.length} required lessons completed
         {units ? ` · ${units.length} units` : ""}
       </Text>
-      {!frenchKey && moduleKey in CAN_DO_STATEMENTS && <CanDoCard levelPath={moduleKey as SpanishLevelPath} />}
+      {!lazyInfo && moduleKey in CAN_DO_STATEMENTS && <CanDoCard levelPath={moduleKey as SpanishLevelPath} />}
       {source.canDo && <ConceptCanDoCard statements={source.canDo} lessons={lessons} completed={completed} />}
       {next && units && (
         <Pressable style={styles.continueCard} onPress={() => openLesson(next.slug)}>
@@ -174,7 +188,7 @@ export default function LessonListScreen({ navigation, route }: Props) {
     </View>
   );
 
-  if (frenchKey && !frenchData) {
+  if (lazyInfo && lazyData?.levelPath !== lazyInfo.levelPath) {
     return (
       <View style={[styles.container, styles.loading]}>
         <ActivityIndicator />
@@ -191,7 +205,7 @@ export default function LessonListScreen({ navigation, route }: Props) {
         stickySectionHeadersEnabled={false}
         ListHeaderComponent={header}
         ListFooterComponent={
-          !frenchKey && moduleKey in LEVEL_WATCH_VIDEOS ? <LevelWatchSection levelPath={moduleKey as SpanishLevelPath} /> : null
+          !lazyInfo && moduleKey in LEVEL_WATCH_VIDEOS ? <LevelWatchSection levelPath={moduleKey as SpanishLevelPath} /> : null
         }
         renderSectionHeader={({ section }) => {
           const unit = section.unit;

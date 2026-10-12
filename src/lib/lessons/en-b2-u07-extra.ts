@@ -449,7 +449,7 @@ export const EN_B2_U07_EXTRA: Lesson[] = [
         sentence: "I wish my brother ___ my things without asking.",
         answer: "wouldn't take",
         altAnswers: ["would not take", "wouldn't borrow", "didn't take"],
-        en: "Ojalá mi hermano no [cogiera] mis cosas sin preguntar.",
+        en: "Ojalá mi hermano no [tomara] mis cosas sin preguntar.",
         explanation: "Irritating habit of another person: \"wish\" + \"wouldn't\" + base form.",
       },
       {
@@ -775,7 +775,7 @@ export const EN_B2_U07_EXTRA: Lesson[] = [
         examples: [
           { es: "I'd rather stay home tonight.", en: "Prefiero quedarme en casa esta noche." },
           { es: "I'd rather not talk about it.", en: "Prefiero no hablar de ello." },
-          { es: "I'd rather walk than take the bus.", en: "Prefiero ir andando que coger el autobús." },
+          { es: "I'd rather walk than take the bus.", en: "Prefiero ir andando que tomar el autobús." },
           { es: "I'd rather you didn't smoke here.", en: "Preferiría que no fumaras aquí. (incorrecto: *I'd rather that you don't smoke)" },
           { es: "Would you rather I came tomorrow?", en: "¿Prefieres que venga mañana?" },
         ],
@@ -819,7 +819,7 @@ export const EN_B2_U07_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Preferiría que no usaras mi coche.",
+        source: "Preferiría que no usaras mi carro.",
         answer: "I'd rather you didn't use my car.",
         altAnswers: ["I would rather you didn't use my car.", "I would rather you did not use my car.", "I'd prefer it if you didn't use my car.", "I'd prefer you not to use my car.", "I'd prefer you didn't use my car."],
         explanation: "Different subjects: \"I'd rather you\" + past simple \"didn't use\". \"I'd prefer it if you didn't\" is a correct alternative.",
@@ -830,7 +830,7 @@ export const EN_B2_U07_EXTRA: Lesson[] = [
         sentence: "I'd rather ___ a taxi. It's raining.",
         answer: "take",
         altAnswers: ["get", "catch"],
-        en: "Prefiero [coger] un taxi. Está lloviendo.",
+        en: "Prefiero [tomar] un taxi. Está lloviendo.",
         explanation: "Same subject: \"would rather\" + base form, without \"to\": \"I'd rather take a taxi\".",
       },
       {
@@ -869,7 +869,7 @@ export const EN_B2_U07_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Prefiero caminar que ir en coche.» Which is correct?",
+        question: "«Prefiero caminar que ir en carro.» Which is correct?",
         options: ["I'd rather walk than drive.", "I'd rather to walk than to drive.", "I'd rather walking than driving.", "I'd rather walk that drive."],
         correctIndex: 0,
         explanation: "\"Would rather\" + base form + \"than\" + base form. No \"to\", no -ing, and \"than\", not \"that\".",

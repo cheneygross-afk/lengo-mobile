@@ -556,7 +556,7 @@ export const EN_C2_U25: Lesson[] = [
     level: "EN-C2",
     number: 8,
     title: "Historical narrative, Part 8 of 10: the learned register",
-    summary: "English has two layers of vocabulary: short Germanic words (begin, find out, help) and long Latinate ones (commence, ascertain, assist). Spanish speakers lean towards the Latinate layer. Learn when each fits, how nominalisation works, and how to keep formal prose readable.",
+    summary: "English has two layers of vocabulary: short Germanic words (begin, find out, help) and long Latinate ones (commence, ascertain, assist). Spanish speakers lean toward the Latinate layer. Learn when each fits, how nominalization works, and how to keep formal prose readable.",
     duration: "12 min",
     sections: [
       {
@@ -602,17 +602,17 @@ export const EN_C2_U25: Lesson[] = [
         ],
       },
       {
-        heading: "Nominalisation: turning verbs into nouns",
+        heading: "Nominalization: turning verbs into nouns",
         body: [
           "Academic English often turns actions into nouns: \"The army withdrew\" becomes \"the withdrawal of the army\"; \"they expanded the railways\" becomes \"the expansion of the railways\". Nominalisation packs information and lets the writer make the event the subject of the next sentence: \"The withdrawal of the army left the city defenceless.\"",
           "Common nominalisations in history: collapse, decline, expansion, withdrawal, emergence, rise, fall, abolition, introduction, failure, refusal, outbreak (of war), signing (of a treaty).",
           "Spanish does this too («la retirada del ejército»), so the structure is familiar. The difference is the preposition: English normally uses \"of\" and keeps the agent with \"by\": \"the abolition of slavery by Parliament\", \"the refusal of the king to negotiate\" or \"the king's refusal to negotiate\".",
         ],
         examples: [
-          { es: "The withdrawal of the army left the city defenceless.", en: "La retirada del ejército dejó la ciudad indefensa." },
+          { es: "The withdrawal of the army left the city defenseless.", en: "La retirada del ejército dejó la ciudad indefensa." },
           { es: "The expansion of the railways transformed rural life.", en: "La expansión del ferrocarril transformó la vida rural." },
           { es: "The king's refusal to negotiate made war inevitable.", en: "La negativa del rey a negociar hizo inevitable la guerra." },
-          { es: "The outbreak of war in 1939 ended the reform programme.", en: "El estallido de la guerra en 1939 puso fin al programa de reformas." },
+          { es: "The outbreak of war in 1939 ended the reform program.", en: "El estallido de la guerra en 1939 puso fin al programa de reformas." },
           { es: "The abolition of slavery by Parliament came in 1833.", en: "La abolición de la esclavitud por el Parlamento llegó en 1833." },
           { es: "The emergence of a middle class changed politics.", en: "La aparición de una clase media cambió la política." },
         ],
@@ -753,8 +753,9 @@ export const EN_C2_U25: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "La retirada de las tropas dejó la frontera indefensa.",
-        answer: "The withdrawal of the troops left the border defenceless.",
+        answer: "The withdrawal of the troops left the border defenseless.",
         altAnswers: [
+          "The withdrawal of the troops left the border defenceless.",
           "The withdrawal of the troops left the border undefended.",
           "The withdrawal of the troops left the frontier defenceless.",
           "The withdrawal of the troops left the frontier undefended.",
@@ -1072,7 +1073,7 @@ export const EN_C2_U25: Lesson[] = [
     slug: "c2-history-10",
     level: "EN-C2",
     number: 10,
-    title: "Historical narrative, Part 10 of 10: periodisation and dates",
+    title: "Historical narrative, Part 10 of 10: periodization and dates",
     summary: "The 1920s, not the 20s years; the 19th century, not the XIX century. Learn how English names decades, centuries and periods, how to say and write BC, AD, BCE, CE and circa, and the phrases historians use for the edges of a period.",
     duration: "11 min",
     sections: [
@@ -1647,7 +1648,7 @@ export const EN_C2_U25: Lesson[] = [
         heading: "Imply and infer, compose and comprise",
         body: [
           "The speaker implies; the listener infers. To \"imply\" is to suggest something without saying it («insinuar», «dar a entender»); to \"infer\" is to reach a conclusion from evidence («deducir», «inferir»). \"Are you implying that I lied?\" but \"From his silence, I inferred that he disagreed.\" Using \"infer\" for \"imply\" is common in speech but marked as wrong in careful writing.",
-          "\"Comprise\" means consist of: the whole comprises the parts. \"The committee comprises twelve members.\" \"Compose\" works the other way round, usually in the passive: the whole is composed of the parts. \"The committee is composed of twelve members\"; \"Twelve members make up the committee.\" The hybrid *is comprised of is widely used but criticised by many editors, so avoid it in formal writing.",
+          "\"Comprise\" means consist of: the whole comprises the parts. \"The committee comprises twelve members.\" \"Compose\" works the other way round, usually in the passive: the whole is composed of the parts. \"The committee is composed of twelve members\"; \"Twelve members make up the committee.\" The hybrid *is comprised of is widely used but criticized by many editors, so avoid it in formal writing.",
           "Spanish «constar de», «estar compuesto por» and «componerse de» can all be rendered with \"consist of\", \"be composed of\", \"comprise\" or \"be made up of\". Note that \"consist\" is never passive: *is consisted of is always wrong.",
         ],
         examples: [
@@ -1748,7 +1749,7 @@ export const EN_C2_U25: Lesson[] = [
         sentence: "A smaller car is far more ___ to run.",
         answer: "economical",
         altAnswers: ["efficient"],
-        en: "Un coche más pequeño es mucho más [económico] de mantener.",
+        en: "Un carro más pequeño es mucho más [económico] de mantener.",
         explanation: "Cheap to run, not wasteful: \"economical\". \"Economic\" refers to the economy.",
       },
       {
@@ -2112,7 +2113,7 @@ export const EN_C2_U25: Lesson[] = [
     level: "EN-C2",
     number: 13,
     title: "Spiral review: narrative grammar and register",
-    summary: "A review of both history units through three Advanced structures that historians use constantly: participle clauses (Having crossed the river, the army...), passive reporting (He is said to have...) and relative clauses (the city, which had resisted for months...).",
+    summary: "A review of both history units through three advanced structures that historians use constantly: participle clauses (Having crossed the river, the army...), passive reporting (He is said to have...) and relative clauses (the city, which had resisted for months...).",
     duration: "12 min",
     sections: [
       {
@@ -2395,7 +2396,7 @@ export const EN_C2_U25: Lesson[] = [
     level: "EN-C2",
     number: 14,
     title: "Mastery check: writing history",
-    summary: "A hint-free check of the whole unit: connectors of historical narrative, the historian's voice, the learned register, the vocabulary of historical processes and periodisation.",
+    summary: "A hint-free check of the whole unit: connectors of historical narrative, the historian's voice, the learned register, the vocabulary of historical processes and periodization.",
     duration: "12 min",
     sections: [
       {
@@ -2434,11 +2435,11 @@ export const EN_C2_U25: Lesson[] = [
       {
         heading: "Recap: register, vocabulary and periods",
         body: [
-          "Prefer natural verbs (begin, end, help, find out) and keep Latinate ones (commence, terminate, assist, ascertain) for formal or precise contexts. Use nominalisation (the withdrawal of, the outbreak of) to state processes, then return to concrete subjects.",
+          "Prefer natural verbs (begin, end, help, find out) and keep Latinate ones (commence, terminate, assist, ascertain) for formal or precise contexts. Use nominalization (the withdrawal of, the outbreak of) to state processes, then return to concrete subjects.",
           "Use precise terms with their collocations: \"stage a coup\", \"seize power\", \"wage war\", \"lay siege to\", \"sign a treaty\", \"secede from\". Name periods correctly: \"the 1920s\", \"the nineteenth century\", \"the late Middle Ages\", \"44 BC\", \"c. 1450\".",
         ],
         examples: [
-          { es: "The outbreak of war ended the reform programme.", en: "El estallido de la guerra puso fin al programa de reformas." },
+          { es: "The outbreak of war ended the reform program.", en: "El estallido de la guerra puso fin al programa de reformas." },
           { es: "The army laid siege to the city in the late fifteenth century.", en: "El ejército sitió la ciudad a finales del siglo XV." },
           { es: "The temple was built c. 500 BC.", en: "El templo se construyó hacia el 500 a. C." },
         ],
@@ -2571,7 +2572,7 @@ export const EN_C2_U25: Lesson[] = [
           "The withdrawal of foreign troops was complete in 1989.",
           "The withdrawal of foreign troops was completed by 1989.",
         ],
-        explanation: "«La retirada» is \"the withdrawal\", a typical nominalisation in historical prose.",
+        explanation: "«La retirada» is \"the withdrawal\", a typical nominalization in historical prose.",
       },
       {
         type: "fill-blank",

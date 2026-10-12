@@ -765,7 +765,7 @@ export const EN_A1_U6_MORE: Lesson[] = [
         body: [
           "La edad se pregunta con \"how old\" + \"to be\": \"How old are you?\". La pregunta literal *How many years do you have? no se usa nunca en inglés.",
           "Se responde también con \"to be\": \"I'm 28.\" o \"I'm 28 years old.\". Nunca *I have 28 years. Si añades \"years\", añade también \"old\": *I'm 28 years a secas está mal.",
-          "\"How old\" sirve también para cosas: \"How old is your car?\" (¿Cuántos años tiene tu coche?).",
+          "\"How old\" sirve también para cosas: \"How old is your car?\" (¿Cuántos años tiene tu carro?).",
         ],
         examples: [
           { es: "How old are your kids?", en: "¿Cuántos años tienen tus hijos?" },
@@ -1103,11 +1103,11 @@ export const EN_A1_U6_MORE: Lesson[] = [
         heading: "Preguntas de sí o no: el auxiliar primero",
         body: [
           "Sin palabra interrogativa, la pregunta empieza directamente por el auxiliar: \"Do you have a car?\", \"Does your sister live here?\", \"Is your father at home?\".",
-          "En español basta con la entonación: «¿Tienes coche?». En inglés escrito y cuidado, *You have a car? sin \"do\" es un error: se oye en conversación informal, pero no es la forma correcta de preguntar.",
+          "En español basta con la entonación: «¿Tienes carro?». En inglés escrito y cuidado, *You have a car? sin \"do\" es un error: se oye en conversación informal, pero no es la forma correcta de preguntar.",
           "La respuesta corta repite el auxiliar: \"Yes, I do.\", \"No, she doesn't.\", \"Yes, he is.\".",
         ],
         examples: [
-          { es: "Do you have a car? Yes, I do.", en: "¿Tienes coche? Sí." },
+          { es: "Do you have a car? Yes, I do.", en: "¿Tienes carro? Sí." },
           { es: "Does your sister live here? No, she doesn't.", en: "¿Tu hermana vive aquí? No." },
           { es: "Is your father at home?", en: "¿Está tu padre en casa?" },
           { es: "Do your cousins speak English?", en: "¿Tus primos hablan inglés?" },
@@ -1266,7 +1266,7 @@ export const EN_A1_U6_MORE: Lesson[] = [
           { es: "What's your email address?", en: "¿Cuál es tu correo electrónico?" },
           { es: "What's the capital of Peru?", en: "¿Cuál es la capital de Perú?" },
           { es: "What's your favorite color?", en: "¿Cuál es tu color favorito?" },
-          { es: "Which is your car, the red one or the blue one?", en: "¿Cuál es tu coche, el rojo o el azul?" },
+          { es: "Which is your car, the red one or the blue one?", en: "¿Cuál es tu carro, el rojo o el azul?" },
           { es: "Which one do you want?", en: "¿Cuál quieres?" },
         ],
         checkpoint: [
@@ -1297,7 +1297,7 @@ export const EN_A1_U6_MORE: Lesson[] = [
           "Ojo: «¿Qué es esto?» es \"What is this?\", nunca *Which is this?.",
         ],
         examples: [
-          { es: "What color is your car?", en: "¿De qué color es tu coche?" },
+          { es: "What color is your car?", en: "¿De qué color es tu carro?" },
           { es: "Which bag is yours?", en: "¿Qué bolsa es la tuya?" },
           { es: "What day is it today?", en: "¿Qué día es hoy?" },
           { es: "Which train goes to Boston?", en: "¿Qué tren va a Boston?" },
@@ -1317,7 +1317,7 @@ export const EN_A1_U6_MORE: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "¿De qué color es tu coche?",
+            source: "¿De qué color es tu carro?",
             answer: "What color is your car?",
             altAnswers: ["What colour is your car?"],
             explanation: "«¿De qué color?» es \"What color\", sin \"of\" delante. En el Reino Unido se escribe \"colour\".",
@@ -1431,7 +1431,7 @@ export const EN_A1_U6_MORE: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "¿Cuál es tu coche, el blanco o el negro?",
+        source: "¿Cuál es tu carro, el blanco o el negro?",
         answer: "Which is your car, the white one or the black one?",
         altAnswers: ["Which car is yours, the white one or the black one?", "Which one is your car, the white one or the black one?"],
         explanation: "Dos opciones concretas: \"which\". «El blanco» es \"the white one\": el adjetivo inglés necesita \"one\".",
@@ -1650,10 +1650,10 @@ export const EN_A1_U6_MORE: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "¿Cuál es tu número de móvil?",
+        source: "¿Cuál es tu número de celular?",
         answer: "What is your cell phone number?",
         altAnswers: ["What is your cell number?", "What is your mobile number?", "What is your mobile phone number?", "What is your phone number?", "What is your cellphone number?"],
-        explanation: "Corrige *Which is your number?: respuesta abierta → \"what\". En EE. UU. «móvil» es \"cell phone\"; en el Reino Unido, \"mobile\".",
+        explanation: "Corrige *Which is your number?: respuesta abierta → \"what\". En EE. UU. «celular» es \"cell phone\"; en el Reino Unido, \"mobile\".",
       },
       {
         type: "multiple-choice",

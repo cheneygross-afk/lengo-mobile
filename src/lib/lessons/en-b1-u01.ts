@@ -754,11 +754,11 @@ export const EN_B1_U01: Lesson[] = [
         body: [
           "Some verbs describe states, not actions, and are almost never used in the continuous: \"know\", \"believe\", \"understand\", \"like\", \"love\", \"want\", \"need\", \"belong\", \"be\", and \"have\" when it means possession.",
           "With these verbs, use the present perfect simple even for \"how long\": \"I've known him for ten years\". *I've been knowing him is wrong.",
-          "\"Have\" for possession: \"I've had this car since 2018\" («tengo este coche desde 2018»). But \"have\" as an action can be continuous: \"We've been having lunch\".",
+          "\"Have\" for possession: \"I've had this car since 2018\" («tengo este carro desde 2018»). But \"have\" as an action can be continuous: \"We've been having lunch\".",
         ],
         examples: [
           { es: "I've known him for ten years.", en: "Lo conozco desde hace diez años." },
-          { es: "I've had this car since 2018.", en: "Tengo este coche desde 2018." },
+          { es: "I've had this car since 2018.", en: "Tengo este carro desde 2018." },
           { es: "She's always wanted to visit Japan.", en: "Siempre ha querido visitar Japón." },
           { es: "We've been friends since school.", en: "Somos amigos desde el colegio." },
           { es: "I've never believed that story.", en: "Nunca me he creído esa historia." },
@@ -837,7 +837,7 @@ export const EN_B1_U01: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Tengo este coche desde 2018.",
+        source: "Tengo este carro desde 2018.",
         answer: "I've had this car since 2018.",
         explanation: "Possession with \"since\": \"I've had\". Not *I have this car since 2018 and not \"I've been having\".",
       },
@@ -1508,7 +1508,7 @@ export const EN_B1_U01: Lesson[] = [
         ],
         examples: [
           { es: "I've been looking for an apartment for a month.", en: "Llevo un mes buscando piso." },
-          { es: "She's been learning to drive since May.", en: "Aprende a conducir desde mayo." },
+          { es: "She's been learning to drive since May.", en: "Aprende a manejar desde mayo." },
           { es: "I've known him for years.", en: "Hace años que lo conozco." },
           { es: "They've been arguing since lunch.", en: "Están discutiendo desde la comida." },
         ],

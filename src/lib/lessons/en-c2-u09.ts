@@ -24,7 +24,7 @@ export const EN_C2_U09: Lesson[] = [
           "You can add an adjective in the middle, and that is in fact the most common use: «¡Qué casa más bonita!» is \"What a beautiful house!\". English has no equivalent of «más» here: *What a house more beautiful! is impossible.",
         ],
         examples: [
-          { es: "What a mess!", en: "¡Qué desastre! / ¡Menudo lío!" },
+          { es: "What a mess!", en: "¡Qué desastre! / ¡Qué lío!" },
           { es: "What a beautiful house!", en: "¡Qué casa más bonita!" },
           { es: "What awful weather!", en: "¡Qué tiempo más horrible!" },
           { es: "What lovely flowers!", en: "¡Qué flores tan bonitas!" },
@@ -65,7 +65,7 @@ export const EN_C2_U09: Lesson[] = [
           { es: "That's so weird!", en: "¡Qué raro!" },
           { es: "How well she speaks!", en: "¡Qué bien habla!" },
           { es: "How fast they grow up!", en: "¡Qué rápido crecen!" },
-          { es: "How thoughtful of her!", en: "¡Qué detalle por su parte!" },
+          { es: "How thoughtful of her!", en: "¡Qué detalle de su parte!" },
         ],
         checkpoint: [
           {
@@ -99,7 +99,7 @@ export const EN_C2_U09: Lesson[] = [
         examples: [
           { es: "Such a shame!", en: "¡Qué pena!" },
           { es: "It's such a pity you can't come.", en: "¡Qué lástima que no puedas venir!" },
-          { es: "They're such nice people.", en: "Son gente tan maja." },
+          { es: "They're such nice people.", en: "Son gente tan amable." },
           { es: "So kind of you!", en: "¡Qué amable!" },
           { es: "That's such a good idea!", en: "¡Qué buena idea!" },
           { es: "There were so many people!", en: "¡Había tanta gente!" },
@@ -126,14 +126,14 @@ export const EN_C2_U09: Lesson[] = [
       {
         heading: "No way! You're kidding! Good grief!",
         body: [
-          "Natives react with short fixed tokens. Disbelief: \"No way!\", \"You're kidding!\", \"You're joking!\", \"Seriously?\", \"Get out of here!\" (US, jokey). These are the equivalents of «¡No me digas!», «¡Venga ya!», «¡Anda ya!».",
+          "Natives react with short fixed tokens. Disbelief: \"No way!\", \"You're kidding!\", \"You're joking!\", \"Seriously?\", \"Get out of here!\" (US, jokey). These are the equivalents of «¡No me digas!», «¡No puede ser!», «¡No te creo!».",
           "Exasperation or dismay: \"Good grief!\", \"Oh, for heaven's sake!\", \"Oh no!\", \"Oh dear\" (gentle, rather British). Surprise: \"Wow!\", \"Gosh!\", \"Oh my gosh!\", \"Blimey!\" (British, informal), \"Whoa!\".",
           "Register matters. \"Oh my God\" is everyday in US speech but some religious people find it offensive; \"Oh my gosh\" or \"Oh my goodness\" are the safe versions. \"Blimey\" marks you as British, so an American would sound odd using it.",
           "Avoid translating Spanish tokens literally. «¡Hombre!» is not *Man! (except in some American slang), «¡Madre mía!» is not *My mother!, and «¡Ojo!» is not *Eye! Use \"Wow\", \"Oh my goodness\" and \"Careful!\" or \"Watch out!\" instead.",
         ],
         examples: [
           { es: "No way!", en: "¡No me digas! / ¡Imposible!" },
-          { es: "You're kidding!", en: "¡No me digas! / ¡Venga ya!" },
+          { es: "You're kidding!", en: "¡No me digas! / ¡No puede ser!" },
           { es: "Seriously?", en: "¿En serio?" },
           { es: "Good grief!", en: "¡Madre mía! / ¡Por Dios!" },
           { es: "Oh my goodness!", en: "¡Madre mía!" },
@@ -152,10 +152,10 @@ export const EN_C2_U09: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Que te han despedido? ¡Venga ya!",
+            source: "¿Que te despidieron? ¡No puede ser!",
             answer: "They fired you? You're kidding!",
             altAnswers: ["They fired you? You're joking!", "They fired you? No way!", "You got fired? You're kidding!", "You got fired? You're joking!", "You got fired? No way!", "They sacked you? You're kidding!", "They sacked you? You're joking!", "They sacked you? No way!", "You got sacked? You're kidding!", "You got sacked? No way!", "You got sacked? You're joking!", "They fired you? Seriously?", "You got fired? Seriously?", "They let you go? You're kidding!", "They let you go? No way!"],
-            explanation: "Spanish «¿Que...?» echoes what you just heard; English uses a plain rising statement: \"They fired you?\". «¡Venga ya!» is \"You're kidding!\" or \"No way!\".",
+            explanation: "Spanish «¿Que...?» echoes what you just heard; English uses a plain rising statement: \"They fired you?\". «¡No puede ser!» is \"You're kidding!\" or \"No way!\".",
           },
         ],
       },
@@ -199,7 +199,7 @@ export const EN_C2_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¡Son gente tan maja!",
+        source: "¡Son gente tan amable!",
         answer: "They're such nice people!",
         altAnswers: ["They're such lovely people!", "They are such nice people!", "They are such lovely people!", "They're such great people!", "What nice people they are!", "What lovely people they are!", "They're so nice!", "They're so lovely!", "They're such good people!"],
         explanation: "\"Such\" before a noun phrase, \"so\" before an adjective alone. \"People\" is plural, so no article: \"such nice people\".",
@@ -215,16 +215,16 @@ export const EN_C2_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¡Qué amable por tu parte!",
+        source: "¡Qué amable de tu parte!",
         answer: "How kind of you!",
         altAnswers: ["That's so kind of you!", "So kind of you!", "That's very kind of you!", "That's really kind of you!", "How nice of you!", "That's so nice of you!", "That's really nice of you!", "How sweet of you!", "That's so sweet of you!", "How thoughtful of you!", "That's very nice of you!", "That's kind of you!", "That's nice of you!"],
-        explanation: "The adjective takes \"of you\": \"kind of you\". *Kind for you is a calque of «por tu parte».",
+        explanation: "The adjective takes \"of you\": \"kind of you\". *Kind from you is a calque of «de tu parte».",
       },
       {
         type: "matching",
         instructions: "Match each reaction with its closest Spanish equivalent.",
         pairs: [
-          { left: "You're kidding!", right: "¡Venga ya!" },
+          { left: "You're kidding!", right: "¡No puede ser!" },
           { left: "Good grief!", right: "¡Por Dios! (exasperación)" },
           { left: "Such a shame!", right: "¡Qué pena!" },
           { left: "Careful!", right: "¡Ojo!" },
@@ -313,7 +313,7 @@ export const EN_C2_U09: Lesson[] = [
         examples: [
           { es: "I'm absolutely exhausted.", en: "Estoy agotadísimo. (nunca *very exhausted)" },
           { es: "It's really cold today.", en: "Hoy hace mucho frío." },
-          { es: "It's absolutely freezing outside.", en: "Fuera hace un frío que pela." },
+          { es: "It's absolutely freezing outside.", en: "Afuera hace un frío que pela." },
           { es: "That's utterly ridiculous.", en: "Eso es completamente ridículo." },
           { es: "The food was absolutely superb.", en: "La comida estaba buenísima." },
           { es: "It's completely impossible.", en: "Es totalmente imposible." },
@@ -340,7 +340,7 @@ export const EN_C2_U09: Lesson[] = [
       {
         heading: "Intensifier collocations: downright rude, sheer luck",
         body: [
-          "Many intensifiers have favourite partners, and using the right one is a strong Mastery marker. \"Downright\" goes with negative words: \"downright rude\", \"downright dangerous\", \"a downright lie\". \"Utterly\" prefers negative or extreme ones: \"utterly ridiculous\", \"utterly pointless\". \"Highly\" goes with words of probability and evaluation: \"highly unlikely\", \"highly recommended\", \"highly successful\" (never *highly tired).",
+          "Many intensifiers have favorite partners, and using the right one is a strong Mastery marker. \"Downright\" goes with negative words: \"downright rude\", \"downright dangerous\", \"a downright lie\". \"Utterly\" prefers negative or extreme ones: \"utterly ridiculous\", \"utterly pointless\". \"Highly\" goes with words of probability and evaluation: \"highly unlikely\", \"highly recommended\", \"highly successful\" (never *highly tired).",
           "\"Sheer\" and \"pure\" intensify nouns: \"sheer luck\" («pura suerte», «chiripa»), \"sheer madness\", \"sheer coincidence\", \"pure chance\". \"Complete\" and \"total\" do the same: \"a complete waste of time\", \"a total disaster\".",
           "Superlatives have their own intensifiers: \"by far the best\", \"easily the best\", \"the best by far\", \"the very best\". \"The very\" also marks exactness: \"the very thing I needed\" («justo lo que necesitaba»), \"at the very end\", \"on that very day\".",
           "Strongly held opinions can be boosted with \"of all\": \"He, of all people, should know better\" («Él, precisamente él...»), \"today of all days\".",
@@ -378,18 +378,18 @@ export const EN_C2_U09: Lesson[] = [
       {
         heading: "Whatever, whoever, on earth, and mild expletives",
         body: [
-          "To show surprise, anger or bafflement in a question, English attaches \"-ever\" to the question word or adds \"on earth\" after it: \"Whatever did you do that for?\", \"Whoever told you that?\", \"Where on earth have you been?\", \"Why on earth would she say that?\". Spanish uses «demonios», «narices» or simply intonation: «¿Pero dónde te habías metido?».",
+          "To show surprise, anger or bafflement in a question, English attaches \"-ever\" to the question word or adds \"on earth\" after it: \"Whatever did you do that for?\", \"Whoever told you that?\", \"Where on earth have you been?\", \"Why on earth would she say that?\". Spanish uses «demonios», «diablos» or simply intonation: «¿Pero dónde te habías metido?».",
           "Write \"whatever\" as one word here, but \"what on earth\" as three. A more informal and stronger version uses \"the hell\" or \"the heck\": \"What the heck is that?\". \"Heck\" and \"darn\" are the polite American substitutes for \"hell\" and \"damn\".",
           "Expletives sit on a scale. Mild and safe almost anywhere: \"Gosh\", \"Goodness\", \"Darn\", \"Oh, for goodness' sake\". Informal: \"Damn\", \"Hell\", and in British English \"bloody\" (\"bloody brilliant\"), which is ruder than it sounds to many learners. Strong swear words are best understood rather than used until you have a native ear for the room.",
           "Remember that Spanish swear words are often much milder in effect than their literal English translations. «¡Joder!» may be everyday in Spain, but its literal English equivalent would shock in most settings; \"Damn!\" or \"Oh no!\" is usually the right level.",
         ],
         examples: [
           { es: "Where on earth have you been?", en: "¿Pero dónde demonios te habías metido?" },
-          { es: "Whatever did you do that for?", en: "¿Pero por qué narices hiciste eso?" },
+          { es: "Whatever did you do that for?", en: "¿Pero por qué diablos hiciste eso?" },
           { es: "Whoever told you that?", en: "¿Pero quién te ha dicho eso?" },
           { es: "What the heck is going on?", en: "¿Qué demonios está pasando?" },
           { es: "Oh, for goodness' sake!", en: "¡Por el amor de Dios!" },
-          { es: "Damn, I've missed the train.", en: "Mierda, he perdido el tren." },
+          { es: "Damn, I've missed the train.", en: "Mierda, perdí el tren." },
         ],
         checkpoint: [
           {
@@ -528,7 +528,7 @@ export const EN_C2_U09: Lesson[] = [
           { es: "Her presentation was excellent.", en: "Su presentación fue excelente." },
           { es: "The view from the top is superb.", en: "La vista desde arriba es magnífica." },
           { es: "He's an outstanding student.", en: "Es un alumno sobresaliente." },
-          { es: "The concert was absolutely amazing.", en: "El concierto fue una pasada." },
+          { es: "The concert was absolutely amazing.", en: "El concierto fue increíble." },
         ],
         checkpoint: [
           {
@@ -543,7 +543,7 @@ export const EN_C2_U09: Lesson[] = [
       {
         heading: "From bad to atrocious",
         body: [
-          "The negative ladder: \"bad\" → \"poor\" → \"awful\" / \"terrible\" / \"dreadful\" → \"appalling\" → \"atrocious\". \"Poor\" is the polite, formal word for low quality (\"poor service\"), while \"appalling\" and \"atrocious\" express shock and moral outrage (\"appalling conditions\", \"atrocious behaviour\").",
+          "The negative ladder: \"bad\" → \"poor\" → \"awful\" / \"terrible\" / \"dreadful\" → \"appalling\" → \"atrocious\". \"Poor\" is the polite, formal word for low quality (\"poor service\"), while \"appalling\" and \"atrocious\" express shock and moral outrage (\"appalling conditions\", \"atrocious behavior\").",
           "\"Atrocious\" and \"appalling\" are also used, half-jokingly, for everyday things: \"atrocious handwriting\", \"appalling taste in music\". And \"terrible\" in English usually just means «muy malo»: \"a terrible film\" is a bad film, not a frightening one.",
           "Other scales worth knowing: \"cold\" → \"freezing\"; \"hot\" → \"boiling\"; \"hungry\" → \"starving\"; \"tired\" → \"exhausted\"; \"angry\" → \"furious\"; \"funny\" → \"hilarious\"; \"surprised\" → \"astonished\"; \"small\" → \"tiny\"; \"big\" → \"huge\" / \"enormous\"; \"dirty\" → \"filthy\"; \"scared\" → \"terrified\".",
         ],
@@ -573,8 +573,8 @@ export const EN_C2_U09: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "La película era malísima.",
-            answer: "The film was awful.",
-            altAnswers: ["The movie was awful.", "The film was terrible.", "The movie was terrible.", "The film was dreadful.", "The movie was dreadful.", "The film was absolutely awful.", "The movie was absolutely awful.", "The film was absolutely terrible.", "The movie was absolutely terrible.", "The film was really bad.", "The movie was really bad.", "The film was atrocious.", "The movie was atrocious.", "The film was appalling.", "The movie was appalling.", "The film was really awful.", "The movie was really awful.", "The film was really terrible.", "The movie was really terrible.", "The film was abysmal.", "The movie was abysmal."],
+            answer: "The movie was awful.",
+            altAnswers: ["The film was awful.", "The film was terrible.", "The movie was terrible.", "The film was dreadful.", "The movie was dreadful.", "The film was absolutely awful.", "The movie was absolutely awful.", "The film was absolutely terrible.", "The movie was absolutely terrible.", "The film was really bad.", "The movie was really bad.", "The film was atrocious.", "The movie was atrocious.", "The film was appalling.", "The movie was appalling.", "The film was really awful.", "The movie was really awful.", "The film was really terrible.", "The movie was really terrible.", "The film was abysmal.", "The movie was abysmal."],
             explanation: "The «-ísimo» suffix is best rendered with a stronger word (\"awful\", \"terrible\", \"dreadful\") rather than *very very bad.",
           },
         ],
@@ -725,7 +725,7 @@ export const EN_C2_U09: Lesson[] = [
         examples: [
           { es: "I've just quit my job. / Have you?", en: "Acabo de dejar el trabajo. / ¿Ah, sí?" },
           { es: "Tom's moving to Canada. / Is he?", en: "Tom se muda a Canadá. / ¿En serio?" },
-          { es: "She failed the exam. / Did she?", en: "Suspendió el examen. / ¿Ah, sí?" },
+          { es: "She failed the exam. / Did she?", en: "Reprobó el examen. / ¿Ah, sí?" },
           { es: "I don't eat meat. / Don't you?", en: "No como carne. / ¿Ah, no?" },
           { es: "We can't make it on Friday. / Can't you?", en: "No podemos el viernes. / ¿No?" },
           { es: "Oh, really?", en: "¿Ah, sí? / ¿De verdad?" },
@@ -737,7 +737,7 @@ export const EN_C2_U09: Lesson[] = [
             sentence: "My sister lives in Tokyo now. / ___ That's amazing!",
             answer: "Does she?",
             altAnswers: ["Does she", "Really?", "Really", "Oh, really?", "Oh really?", "Oh, does she?", "Oh does she?"],
-            en: "Mi hermana vive ahora en Tokio. / [¿Ah, sí?] ¡Qué pasada!",
+            en: "Mi hermana vive ahora en Tokio. / [¿Ah, sí?] ¡Qué increíble!",
             explanation: "Present simple \"lives\" → echo with \"does\" + pronoun: \"Does she?\". *Ah, yes? would sound like agreement, not surprise.",
           },
           {
@@ -754,14 +754,14 @@ export const EN_C2_U09: Lesson[] = [
         body: [
           "For bad news: \"Oh no!\", \"Oh, that's a shame\", \"Oh, I'm sorry to hear that\", \"That's awful\", \"Poor you!\" (light, informal). «¡Qué pena!» and «¡Vaya!» map here. For serious news, \"I'm so sorry\" is the minimum; \"What a shame\" would sound too light for a death.",
           "For good news: \"That's great!\", \"Good for you!\", \"Congratulations!\", \"Oh, brilliant!\" (British), \"Awesome!\" (American). «¡Qué bien!» is \"That's great!\" or \"Good for you!\", not *What good!",
-          "For agreement: \"Tell me about it!\" means «¡Ni que lo digas!» (you know exactly what they mean from experience), \"You can say that again!\", \"Absolutely\", \"Exactly\", \"I know!\". \"Fair enough\" accepts someone's reason, even if you do not fully share it, like «Vale, es razonable» or «Bueno, normal».",
+          "For agreement: \"Tell me about it!\" means «¡Ni que lo digas!» (you know exactly what they mean from experience), \"You can say that again!\", \"Absolutely\", \"Exactly\", \"I know!\". \"Fair enough\" accepts someone's reason, even if you do not fully share it, like «Está bien, es razonable» or «Bueno, es lógico».",
           "Other everyday tokens: \"No wonder!\" («¡Normal! / ¡Con razón!»), \"I bet!\" («¡Me imagino!»), \"Fancy that!\" (British, slightly old-fashioned), \"You don't say!\" (sometimes sarcastic: the news is obvious).",
         ],
         examples: [
           { es: "Oh, I'm sorry to hear that.", en: "Vaya, lo siento mucho." },
           { es: "Good for you!", en: "¡Qué bien! / ¡Me alegro por ti!" },
           { es: "Tell me about it!", en: "¡Ni que lo digas!" },
-          { es: "Fair enough.", en: "Vale, es razonable." },
+          { es: "Fair enough.", en: "Está bien, es razonable." },
           { es: "No wonder you're tired!", en: "¡Normal que estés cansado!" },
           { es: "I bet you were nervous.", en: "Me imagino que estabas nervioso." },
         ],
@@ -777,7 +777,7 @@ export const EN_C2_U09: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Has dormido tres horas? ¡Con razón estás tan cansado!",
+            source: "¿Dormiste tres horas? ¡Con razón estás tan cansado!",
             answer: "You slept three hours? No wonder you're so tired!",
             altAnswers: ["You only slept three hours? No wonder you're so tired!", "You've slept three hours? No wonder you're so tired!", "You got three hours of sleep? No wonder you're so tired!", "You only got three hours of sleep? No wonder you're so tired!", "You slept for three hours? No wonder you're so tired!", "You only slept for three hours? No wonder you're so tired!", "You slept three hours? No wonder you're so tired.", "You slept three hours? It's no wonder you're so tired!", "Three hours of sleep? No wonder you're so tired!", "You slept three hours? Small wonder you're so tired!", "You got three hours' sleep? No wonder you're so tired!", "You only got three hours' sleep? No wonder you're so tired!"],
             explanation: "«Con razón» and the colloquial «normal que» are \"No wonder\" + clause.",
@@ -792,7 +792,7 @@ export const EN_C2_U09: Lesson[] = [
           "Avoid \"Yes, yes, yes\" in quick repetition: it can sound impatient («ya, ya, ya»). And do not answer news with a bare \"OK\" in a flat tone, which can sound cold; add an echo question or a reaction token.",
         ],
         examples: [
-          { es: "Mm-hmm. Right. And then what?", en: "Ajá. Vale. ¿Y entonces?" },
+          { es: "Mm-hmm. Right. And then what?", en: "Ajá. Okey. ¿Y entonces?" },
           { es: "Go on, I'm listening.", en: "Sigue, te escucho." },
           { es: "Wait, so you're saying he knew all along?", en: "A ver, ¿me estás diciendo que lo sabía desde el principio?" },
           { es: "So what did you do?", en: "¿Y qué hiciste?" },
@@ -827,7 +827,7 @@ export const EN_C2_U09: Lesson[] = [
         sentence: "She's going to resign. / ___ Why?",
         answer: "Is she?",
         altAnswers: ["Is she", "Really?", "Really", "Oh, really?", "Oh really?", "Oh, is she?", "Oh is she?", "Seriously?"],
-        en: "Va a dimitir. / [¿En serio?] ¿Por qué?",
+        en: "Va a renunciar. / [¿En serio?] ¿Por qué?",
         explanation: "\"She's going to\" contains \"is\", so the echo question is \"Is she?\".",
       },
       {
@@ -841,7 +841,7 @@ export const EN_C2_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "—Me han dado el trabajo. —¡Qué bien! ¡Me alegro mucho por ti!",
+        source: "—Me dieron el trabajo. —¡Qué bien! ¡Me alegro mucho por ti!",
         answer: "I got the job. That's great! I'm so happy for you!",
         altAnswers: ["I got the job. Good for you! I'm so happy for you!", "I got the job. That's great! I'm really happy for you!", "I got the job. That's fantastic! I'm so happy for you!", "I got the job. That's wonderful! I'm so happy for you!", "I got the job. That's brilliant! I'm so happy for you!", "I got the job. That's great! I'm so pleased for you!", "I got the job. That's great! I'm really pleased for you!", "They gave me the job. That's great! I'm so happy for you!", "They've given me the job. That's great! I'm so happy for you!", "I've got the job. That's great! I'm so happy for you!", "I got the job. That's amazing! I'm so happy for you!", "I got the job. Great! I'm so happy for you!", "I got the job. That's great! I'm very happy for you!", "I got the job. That's great news! I'm so happy for you!"],
         explanation: "«¡Qué bien!» is \"That's great!\" or \"Good for you!\", never *What good! «Me alegro por ti» is \"I'm (so) happy / pleased for you\".",
@@ -870,7 +870,7 @@ export const EN_C2_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "—Ayer perdí la cartera. —Vaya, lo siento mucho.",
+        source: "—Ayer perdí la billetera. —Vaya, lo siento mucho.",
         answer: "I lost my wallet yesterday. Oh, I'm so sorry.",
         altAnswers: ["I lost my wallet yesterday. Oh no, I'm so sorry.", "I lost my wallet yesterday. Oh, I'm really sorry.", "I lost my wallet yesterday. Oh, I'm sorry to hear that.", "I lost my wallet yesterday. Oh no, I'm sorry to hear that.", "I lost my wallet yesterday. Oh no! I'm so sorry.", "I lost my wallet yesterday. Oh dear, I'm so sorry.", "I lost my wallet yesterday. Oh, that's a shame.", "I lost my wallet yesterday. Oh no, that's awful.", "Yesterday I lost my wallet. Oh, I'm so sorry.", "I lost my wallet yesterday. Oh, I'm very sorry.", "I lost my wallet yesterday. Oh no, that's a pain.", "I lost my wallet yesterday. Oh, I'm so sorry to hear that.", "I lost my wallet yesterday. Oh no, I'm really sorry."],
         explanation: "«Vaya» is \"Oh\" or \"Oh no\" here, not *Go! Then \"I'm so sorry\" or \"I'm sorry to hear that\".",
@@ -913,14 +913,14 @@ export const EN_C2_U09: Lesson[] = [
         heading: "Little, tiny, wee: size and affection in separate words",
         body: [
           "Spanish can add «-ito», «-illo» or «-ico» to almost any word: «casita», «cochecito», «ratito», even «ahorita» and «cerquita». English has no such productive suffix. You cannot add -ito equivalents to new words: *housie, *carlet and *bookette do not exist.",
-          "Instead, English uses separate adjectives. \"Little\" carries both size and affection: \"a little house by the sea\" is cosy, not just small. \"Tiny\" stresses very small size (\"a tiny flat\"). \"Small\" is neutral and factual. \"Wee\" is Scottish and Irish, and also used jokily elsewhere: \"a wee dram\", \"a wee bit\".",
+          "Instead, English uses separate adjectives. \"Little\" carries both size and affection: \"a little house by the sea\" is cozy, not just small. \"Tiny\" stresses very small size (\"a tiny apartment\"). \"Small\" is neutral and factual. \"Wee\" is Scottish and Irish, and also used jokily elsewhere: \"a wee dram\", \"a wee bit\".",
           "Note that \"little\" sits in a fixed place, just before the noun and after opinion words: \"a lovely little cafe\", \"a nice little earner\", not *a little lovely cafe.",
         ],
         examples: [
           { es: "We rented a little house by the sea.", en: "Alquilamos una casita junto al mar." },
-          { es: "They live in a tiny flat in the centre.", en: "Viven en un pisito diminuto en el centro." },
-          { es: "There's a lovely little cafe round the corner.", en: "Hay un cafecito encantador a la vuelta de la esquina." },
-          { es: "Could I have a wee bit more?", en: "¿Me pones un poquito más?" },
+          { es: "They live in a tiny apartment downtown.", en: "Viven en un departamentito diminuto en el centro." },
+          { es: "There's a lovely little cafe around the corner.", en: "Hay un cafecito encantador a la vuelta de la esquina." },
+          { es: "Could I have a wee bit more?", en: "¿Me da un poquito más?" },
           { es: "She was a tiny baby.", en: "Era un bebé chiquitito." },
         ],
         checkpoint: [
@@ -952,9 +952,9 @@ export const EN_C2_U09: Lesson[] = [
         examples: [
           { es: "Look at the little doggie!", en: "¡Mira el perrito!" },
           { es: "Please read the booklet before you start.", en: "Lee el folleto antes de empezar." },
-          { es: "The flat has a kitchenette.", en: "El piso tiene una cocinita americana." },
+          { es: "The apartment has a kitchenette.", en: "El departamento tiene una cocineta." },
           { es: "The duck had six ducklings.", en: "La pata tuvo seis patitos." },
-          { es: "Fancy a cuppa?", en: "¿Te apetece un tecito?" },
+          { es: "Fancy a cuppa?", en: "¿Quieres un tecito?" },
           { es: "I bought her a little pressie.", en: "Le compré un regalito." },
         ],
         checkpoint: [
@@ -975,14 +975,14 @@ export const EN_C2_U09: Lesson[] = [
         heading: "Brekkie and arvo: Australian clippings",
         body: [
           "Australian English is famous for its clip-and-add habit: the word is shortened and given -ie, -y or -o. \"Brekkie\" (breakfast), \"arvo\" (afternoon), \"barbie\" (barbecue), \"sunnies\" (sunglasses), \"servo\" (petrol station), \"ambo\" (paramedic), \"Aussie\" itself.",
-          "Some of these have spread across the English-speaking world (\"brekkie\", \"barbie\"), but most mark you as Australian. Recognise them; use them only if you live there or are joking.",
+          "Some of these have spread across the English-speaking world (\"brekkie\", \"barbie\"), but most mark you as Australian. Recognize them; use them only if you live there or are joking.",
           "Spanish speakers sometimes hear these as diminutives, but their function is informality and in-group friendliness, not smallness: a \"barbie\" is not a small barbecue.",
         ],
         examples: [
           { es: "Let's grab some brekkie.", en: "Vamos a desayunar algo." },
           { es: "See you this arvo!", en: "¡Nos vemos esta tarde!" },
           { es: "We're having a barbie on Saturday.", en: "Hacemos una barbacoa el sábado." },
-          { es: "Don't forget your sunnies.", en: "No te olvides las gafas de sol." },
+          { es: "Don't forget your sunnies.", en: "No olvides tus lentes de sol." },
         ],
         checkpoint: [
           {
@@ -1015,9 +1015,9 @@ export const EN_C2_U09: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Te apetece un cafecito antes de la reunión?",
-            answer: "Do you fancy a quick coffee before the meeting?",
-            altAnswers: ["Do you want a quick coffee before the meeting?", "Fancy a quick coffee before the meeting?", "Do you feel like a quick coffee before the meeting?", "Would you like a quick coffee before the meeting?", "How about a quick coffee before the meeting?", "Do you want to grab a quick coffee before the meeting?", "Want to grab a quick coffee before the meeting?", "Do you fancy a coffee before the meeting?", "Would you like a coffee before the meeting?", "Do you want a coffee before the meeting?", "Do you feel like a coffee before the meeting?", "Want a quick coffee before the meeting?", "Shall we grab a quick coffee before the meeting?", "Do you want to grab a coffee before the meeting?"],
+            source: "¿Quieres un cafecito antes de la reunión?",
+            answer: "Do you want a quick coffee before the meeting?",
+            altAnswers: ["Do you fancy a quick coffee before the meeting?", "Fancy a quick coffee before the meeting?", "Do you feel like a quick coffee before the meeting?", "Would you like a quick coffee before the meeting?", "How about a quick coffee before the meeting?", "Do you want to grab a quick coffee before the meeting?", "Want to grab a quick coffee before the meeting?", "Do you fancy a coffee before the meeting?", "Would you like a coffee before the meeting?", "Do you want a coffee before the meeting?", "Do you feel like a coffee before the meeting?", "Want a quick coffee before the meeting?", "Shall we grab a quick coffee before the meeting?", "Do you want to grab a coffee before the meeting?"],
             explanation: "«Cafecito» suggests a short, friendly break, so \"a quick coffee\" is the natural rendering. *A little coffee would sound like a tiny amount.",
           },
           {
@@ -1046,7 +1046,7 @@ export const EN_C2_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¡Ay, pobrecito! Se ha hecho daño en la patita.",
+        source: "¡Ay, pobrecito! Se lastimó la patita.",
         answer: "Oh, poor thing! He's hurt his little paw.",
         altAnswers: ["Oh, poor little thing! He's hurt his paw.", "Oh, poor thing! He's hurt his paw.", "Oh, poor little thing! He's hurt his little paw.", "Oh, poor thing! It's hurt its paw.", "Oh, poor thing! It's hurt its little paw.", "Oh, poor little thing! It's hurt its paw.", "Oh, poor thing! He hurt his paw.", "Oh, poor thing! He hurt his little paw.", "Oh, poor thing! She's hurt her paw.", "Oh, poor thing! She's hurt her little paw.", "Oh, poor little thing! She's hurt her paw.", "Aw, poor thing! He's hurt his paw.", "Aw, poor thing! He's hurt his little paw.", "Oh, poor thing! He's hurt his leg.", "Oh, poor baby! He's hurt his paw."],
         explanation: "«Pobrecito» is \"poor thing\" or \"poor little thing\". For a pet, natives usually say \"he\" or \"she\" rather than \"it\".",
@@ -1091,10 +1091,10 @@ export const EN_C2_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Vivimos en un pisito muy mono en el centro.",
-        answer: "We live in a lovely little flat in the center.",
-        altAnswers: ["We live in a lovely little apartment downtown.", "We live in a cute little apartment downtown.", "We live in a cute little flat in the centre.", "We live in a lovely little flat in the city centre.", "We live in a cute little flat in the city centre.", "We live in a nice little flat in the centre.", "We live in a lovely little apartment in the center.", "We live in a cute little apartment in the center.", "We live in a lovely little apartment in the city center.", "We live in a cute little apartment in the city center.", "We live in a really cute little flat in the centre.", "We live in a sweet little flat in the centre.", "We live in a lovely little flat in town.", "We live in a cute little place in the centre.", "We live in a lovely little place in the centre.", "We live in a really nice little flat in the centre.", "We live in a nice little apartment downtown.", "We live in a pretty little flat in the centre.", "We live in a very cute little flat in the centre.", "We live in a really lovely little flat in the centre.", "We live in a very nice little flat in the centre."],
-        explanation: "Opinion adjective first, then \"little\": \"a lovely little flat\" (UK) or \"a cute little apartment\" (US). «Mono» here is \"cute\" or \"lovely\".",
+        source: "Vivimos en un departamentito muy lindo en el centro.",
+        answer: "We live in a cute little apartment downtown.",
+        altAnswers: ["We live in a lovely little apartment downtown.", "We live in a lovely little flat in the center.", "We live in a cute little flat in the centre.", "We live in a lovely little flat in the city centre.", "We live in a cute little flat in the city centre.", "We live in a nice little flat in the centre.", "We live in a lovely little apartment in the center.", "We live in a cute little apartment in the center.", "We live in a lovely little apartment in the city center.", "We live in a cute little apartment in the city center.", "We live in a really cute little flat in the centre.", "We live in a sweet little flat in the centre.", "We live in a lovely little flat in town.", "We live in a cute little place in the centre.", "We live in a lovely little place in the centre.", "We live in a really nice little flat in the centre.", "We live in a nice little apartment downtown.", "We live in a pretty little flat in the centre.", "We live in a very cute little flat in the centre.", "We live in a really lovely little flat in the centre.", "We live in a very nice little flat in the centre."],
+        explanation: "Opinion adjective first, then \"little\": \"a lovely little flat\" (UK) or \"a cute little apartment\" (US). «Lindo» here is \"cute\" or \"lovely\".",
       },
       {
         type: "word-order",
@@ -1113,17 +1113,17 @@ export const EN_C2_U09: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "A Spanish-speaking friend has written this message to an English colleague and asks you to make it sound natural: «¡Hola! ¿Nos tomamos un cafecito esta tarde? Hay un sitio monísimo cerquita de la oficina. Solo un ratito, que luego tengo que volver.» Write the English version.",
+        prompt: "A Spanish-speaking friend has written this message to an English colleague and asks you to make it sound natural: «¡Hola! ¿Nos tomamos un cafecito esta tarde? Hay un lugar lindísimo cerquita de la oficina. Solo un ratito, que luego tengo que volver.» Write the English version.",
         minWords: 25,
         maxWords: 60,
         rubric: [
           "Renders «cafecito» as a quick coffee (not a little coffee).",
-          "Uses an opinion adjective + little, or another natural phrase, for «sitio monísimo».",
-          "Expresses closeness naturally (really close, just round the corner).",
+          "Uses an opinion adjective + little, or another natural phrase, for «lugar lindísimo».",
+          "Expresses closeness naturally (really close, just around the corner).",
           "Renders «un ratito» as a short time (just for a bit, only for half an hour) without inventing a suffix.",
         ],
-        modelAnswer: "Hi! Do you fancy a quick coffee this afternoon? There's a lovely little place just round the corner from the office. Only for a bit, though, because I have to get back afterwards.",
-        explanation: "Each diminutive was translated by meaning: brevity (\"quick\", \"for a bit\"), affection (\"lovely little\") and closeness (\"just round the corner\").",
+        modelAnswer: "Hi! Want to grab a quick coffee this afternoon? There's a lovely little place just around the corner from the office. Only for a bit, though, because I have to get back afterwards.",
+        explanation: "Each diminutive was translated by meaning: brevity (\"quick\", \"for a bit\"), affection (\"lovely little\") and closeness (\"just around the corner\").",
       },
     ],
   },
@@ -1151,7 +1151,7 @@ export const EN_C2_U09: Lesson[] = [
           { es: "It was a great game.", en: "Fue un partidazo." },
           { es: "He scored a stunning goal.", en: "Metió un golazo." },
           { es: "Prices rose by a whopping 40%.", en: "Los precios subieron nada menos que un 40%." },
-          { es: "They live in a massive house.", en: "Viven en un casoplón." },
+          { es: "They live in a massive house.", en: "Viven en un caserón." },
         ],
         checkpoint: [
           {
@@ -1159,8 +1159,8 @@ export const EN_C2_U09: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Se ha comprado un cochazo.",
-            answer: "He's bought himself a flash car.",
-            altAnswers: ["He's bought a flash car.", "She's bought a flash car.", "She's bought herself a flash car.", "He's bought himself a fancy car.", "He's bought a fancy car.", "She's bought a fancy car.", "She's bought herself a fancy car.", "He's bought an amazing car.", "She's bought an amazing car.", "He's bought himself an amazing car.", "He bought himself a flash car.", "He bought a flash car.", "He bought a fancy car.", "She bought a fancy car.", "She bought a flash car.", "He's bought a really nice car.", "She's bought a really nice car.", "He's bought himself a really nice car.", "He's bought a seriously nice car.", "He's bought a flashy car.", "She's bought a flashy car.", "He's bought himself a flashy car.", "He's bought a luxury car.", "She's bought a luxury car.", "He's bought a fantastic car.", "He's bought a posh car.", "He's bought a swanky car."],
+            answer: "He's bought himself a fancy car.",
+            altAnswers: ["He's bought a flash car.", "She's bought a flash car.", "She's bought herself a flash car.", "He's bought himself a flash car.", "He's bought a fancy car.", "She's bought a fancy car.", "She's bought herself a fancy car.", "He's bought an amazing car.", "She's bought an amazing car.", "He's bought himself an amazing car.", "He bought himself a flash car.", "He bought a flash car.", "He bought a fancy car.", "She bought a fancy car.", "She bought a flash car.", "He's bought a really nice car.", "She's bought a really nice car.", "He's bought himself a really nice car.", "He's bought a seriously nice car.", "He's bought a flashy car.", "She's bought a flashy car.", "He's bought himself a flashy car.", "He's bought a luxury car.", "She's bought a luxury car.", "He's bought a fantastic car.", "He's bought a posh car.", "He's bought a swanky car."],
             explanation: "«Cochazo» means impressive, not just big: \"a flash / fancy / seriously nice car\". *A big car would miss the admiration.",
           },
         ],
@@ -1219,8 +1219,8 @@ export const EN_C2_U09: Lesson[] = [
         heading: "Pejoratives: solterón, casucha, -ish and -y",
         body: [
           "«-ón», «-ucho», «-aco» and «-ejo» often add contempt. English again uses words, not suffixes. «Un solterón» is \"a confirmed bachelor\" or \"an old bachelor\"; avoid the female equivalent \"old maid\", which is dated and offensive. «Una casucha» is \"a hovel\" or \"a shabby little house\"; «un cuartucho» is \"a poky little room\"; «un pueblucho» is \"a dump\" or \"a one-horse town\".",
-          "Character nouns in «-ón» usually become adjectives or compounds in English: «mandón» is \"bossy\", «llorón» is \"a crybaby\" or \"whiny\", «comilón» is \"a big eater\", «dormilón» is \"a sleepyhead\", «cotilla» is \"nosy\".",
-          "Two small suffixes do evaluative work. \"-y\" forms judgemental adjectives: \"bossy\", \"pushy\", \"nosy\", \"preachy\", \"flashy\". \"-ish\" softens or blurs: \"biggish\", \"tallish\", \"sevenish\" (around seven), \"childish\" (pejorative, «infantil»), as opposed to \"childlike\" (positive, «inocente»).",
+          "Character nouns in «-ón» usually become adjectives or compounds in English: «mandón» is \"bossy\", «llorón» is \"a crybaby\" or \"whiny\", «comilón» is \"a big eater\", «dormilón» is \"a sleepyhead\", «chismoso» is \"nosy\".",
+          "Two small suffixes do evaluative work. \"-y\" forms judgmental adjectives: \"bossy\", \"pushy\", \"nosy\", \"preachy\", \"flashy\". \"-ish\" softens or blurs: \"biggish\", \"tallish\", \"sevenish\" (around seven), \"childish\" (pejorative, «infantil»), as opposed to \"childlike\" (positive, «inocente»).",
         ],
         examples: [
           { es: "He's a confirmed bachelor.", en: "Es un solterón empedernido." },
@@ -1228,7 +1228,7 @@ export const EN_C2_U09: Lesson[] = [
           { es: "My room was a poky little attic.", en: "Mi cuarto era un cuartucho en el ático." },
           { es: "Don't be so bossy!", en: "¡No seas tan mandona!" },
           { es: "He's a real sleepyhead.", en: "Es un dormilón." },
-          { es: "Let's meet at sevenish.", en: "Quedamos sobre las siete." },
+          { es: "Let's meet at sevenish.", en: "Nos vemos como a las siete." },
           { es: "That's a bit childish.", en: "Eso es un poco infantil." },
         ],
         checkpoint: [
@@ -1239,7 +1239,7 @@ export const EN_C2_U09: Lesson[] = [
             answer: "bossy",
             altAnswers: ["domineering", "controlling", "overbearing"],
             en: "Mi hermano es muy [mandón]; siempre le dice a todo el mundo lo que tiene que hacer.",
-            explanation: "«Mandón» is the adjective \"bossy\" (boss + -y). The -y suffix often makes a judgemental adjective.",
+            explanation: "«Mandón» is the adjective \"bossy\" (boss + -y). The -y suffix often makes a judgmental adjective.",
           },
           {
             type: "multiple-choice",
@@ -1257,8 +1257,8 @@ export const EN_C2_U09: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "La película fue un exitazo de taquilla.",
-        answer: "The film was a huge box-office hit.",
-        altAnswers: ["The film was a box-office smash.", "The film was a huge box office hit.", "The movie was a huge box-office hit.", "The movie was a huge box office hit.", "The film was a massive box-office hit.", "The movie was a massive box-office hit.", "The film was a box-office blockbuster.", "The movie was a box-office blockbuster.", "The film was a smash hit at the box office.", "The movie was a smash hit at the box office.", "The film was a huge hit at the box office.", "The movie was a huge hit at the box office.", "The film was a massive hit at the box office.", "The movie was a massive hit at the box office.", "The film was a box-office smash hit.", "The movie was a box-office smash hit.", "The film was a blockbuster.", "The movie was a blockbuster.", "The film was a massive box office hit.", "The movie was a box-office smash.", "The film was a huge success at the box office.", "The movie was a huge success at the box office."],
+        answer: "The movie was a huge box-office hit.",
+        altAnswers: ["The film was a box-office smash.", "The film was a huge box office hit.", "The film was a huge box-office hit.", "The movie was a huge box office hit.", "The film was a massive box-office hit.", "The movie was a massive box-office hit.", "The film was a box-office blockbuster.", "The movie was a box-office blockbuster.", "The film was a smash hit at the box office.", "The movie was a smash hit at the box office.", "The film was a huge hit at the box office.", "The movie was a huge hit at the box office.", "The film was a massive hit at the box office.", "The movie was a massive hit at the box office.", "The film was a box-office smash hit.", "The movie was a box-office smash hit.", "The film was a blockbuster.", "The movie was a blockbuster.", "The film was a massive box office hit.", "The movie was a box-office smash.", "The film was a huge success at the box office.", "The movie was a huge success at the box office."],
         explanation: "«Exitazo» = \"a huge hit\" or \"a smash hit\"; for films, \"blockbuster\" or \"box-office smash\".",
       },
       {
@@ -1299,7 +1299,7 @@ export const EN_C2_U09: Lesson[] = [
         type: "matching",
         instructions: "Match each Spanish word with its English equivalent.",
         pairs: [
-          { left: "nosy", right: "cotilla" },
+          { left: "nosy", right: "chismoso" },
           { left: "a big eater", right: "comilón" },
           { left: "sleepyhead", right: "dormilón" },
           { left: "a poky little room", right: "un cuartucho" },
@@ -1313,7 +1313,7 @@ export const EN_C2_U09: Lesson[] = [
         source: "Las ventas subieron nada menos que un 60%.",
         answer: "Sales rose by a whopping 60%.",
         altAnswers: ["Sales went up by a whopping 60%.", "Sales rose a whopping 60%.", "Sales went up a whopping 60%.", "Sales increased by a whopping 60%.", "Sales rose by no less than 60%.", "Sales rose by as much as 60%.", "Sales went up by no less than 60%.", "Sales increased by no less than 60%.", "Sales increased by as much as 60%.", "Sales jumped by a whopping 60%.", "Sales jumped a whopping 60%.", "Sales soared by a whopping 60%.", "Sales rose by a staggering 60%.", "Sales went up by a staggering 60%.", "Sales rose by a massive 60%.", "Sales shot up by a whopping 60%.", "Sales increased by a staggering 60%."],
-        explanation: "\"A whopping\" (informal) or \"no less than\" (neutral) emphasises a big number. Note \"a whopping 60%\": the article is required.",
+        explanation: "\"A whopping\" (informal) or \"no less than\" (neutral) emphasizes a big number. Note \"a whopping 60%\": the article is required.",
       },
       {
         type: "fill-blank",
@@ -1360,9 +1360,9 @@ export const EN_C2_U09: Lesson[] = [
           "\"Dis-\" is the default for some others: \"dishonest\" (not *unhonest), \"disloyal\", \"disagree\", \"dislike\", \"disadvantage\", \"discontented\". When in doubt, check the dictionary: the same root can even vary across a family, as in \"unstable\" but \"instability\", \"unable\" but \"inability\".",
         ],
         examples: [
-          { es: "It's impossible to park here.", en: "Es imposible aparcar aquí. (nunca *unpossible)" },
+          { es: "It's impossible to park here.", en: "Es imposible estacionar aquí. (nunca *unpossible)" },
           { es: "That was completely irresponsible.", en: "Eso fue totalmente irresponsable." },
-          { es: "Selling it without a licence is illegal.", en: "Venderlo sin licencia es ilegal." },
+          { es: "Selling it without a license is illegal.", en: "Venderlo sin licencia es ilegal." },
           { es: "These chairs are really uncomfortable.", en: "Estas sillas son muy incómodas." },
           { es: "He was accused of being dishonest.", en: "Lo acusaron de ser deshonesto." },
           { es: "Unemployment has fallen.", en: "El desempleo ha bajado." },
@@ -1430,7 +1430,7 @@ export const EN_C2_U09: Lesson[] = [
         body: [
           "\"-wise\" in fixed words means direction or manner: \"clockwise\", \"likewise\", \"otherwise\". In modern informal English it is productive and means «en cuanto a»: \"Budget-wise, we're fine\", \"Weather-wise, it was perfect\". Many careful writers dislike this use, so keep it out of formal texts.",
           "\"-esque\" means in the style of: \"Kafkaesque\" («kafkiano»), \"picturesque\" («pintoresco»), \"statuesque\" and \"Tarantino-esque\" follow the model. \"-ism\" names systems, attitudes and prejudices: \"populism\", \"ageism\" (discrimination by age), \"ableism\", \"cynicism\".",
-          "\"-ize\" (British also \"-ise\") turns nouns and adjectives into verbs: \"prioritize\", \"finalize\", \"digitize\", \"modernize\". Not every Spanish «-izar» verb has an English twin: «concienciar» is \"raise awareness\", «responsabilizar» is \"hold responsible\" or \"blame\", «visibilizar» is \"make visible\" or \"raise the profile of\".",
+          "\"-ize\" (British also \"-ise\") turns nouns and adjectives into verbs: \"prioritize\", \"finalize\", \"digitize\", \"modernize\". Not every Spanish «-izar» verb has an English twin: «concientizar» is \"raise awareness\", «responsabilizar» is \"hold responsible\" or \"blame\", «visibilizar» is \"make visible\" or \"raise the profile of\".",
         ],
         examples: [
           { es: "Budget-wise, we're doing fine.", en: "En cuanto al presupuesto, vamos bien." },
@@ -1439,16 +1439,16 @@ export const EN_C2_U09: Lesson[] = [
           { es: "It's a picturesque fishing village.", en: "Es un pueblo pesquero pintoresco." },
           { es: "Ageism is a problem in the tech industry.", en: "La discriminación por edad es un problema en el sector tecnológico." },
           { es: "We need to prioritize the most urgent cases.", en: "Tenemos que priorizar los casos más urgentes." },
-          { es: "The campaign aims to raise awareness of the issue.", en: "La campaña pretende concienciar sobre el problema." },
+          { es: "The campaign aims to raise awareness of the issue.", en: "La campaña busca concientizar sobre el problema." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "El objetivo es concienciar a los jóvenes sobre los riesgos.",
-            answer: "The aim is to raise awareness among young people of the risks.",
-            altAnswers: ["The aim is to make young people aware of the risks.", "The goal is to make young people aware of the risks.", "The aim is to raise young people's awareness of the risks.", "The goal is to raise young people's awareness of the risks.", "The objective is to make young people aware of the risks.", "The objective is to raise young people's awareness of the risks.", "The aim is to raise awareness of the risks among young people.", "The goal is to raise awareness of the risks among young people.", "The objective is to raise awareness of the risks among young people.", "The goal is to raise awareness among young people of the risks.", "The aim is to raise awareness among young people about the risks.", "The aim is to raise awareness about the risks among young people.", "The goal is to raise awareness about the risks among young people.", "The aim is to educate young people about the risks.", "The goal is to educate young people about the risks."],
+            source: "El objetivo es concientizar a los jóvenes sobre los riesgos.",
+            answer: "The aim is to make young people aware of the risks.",
+            altAnswers: ["The aim is to raise awareness among young people of the risks.", "The goal is to make young people aware of the risks.", "The aim is to raise young people's awareness of the risks.", "The goal is to raise young people's awareness of the risks.", "The objective is to make young people aware of the risks.", "The objective is to raise young people's awareness of the risks.", "The aim is to raise awareness of the risks among young people.", "The goal is to raise awareness of the risks among young people.", "The objective is to raise awareness of the risks among young people.", "The goal is to raise awareness among young people of the risks.", "The aim is to raise awareness among young people about the risks.", "The aim is to raise awareness about the risks among young people.", "The goal is to raise awareness about the risks among young people.", "The aim is to educate young people about the risks.", "The goal is to educate young people about the risks."],
             explanation: "There is no verb *to conscientize: use \"raise awareness (of/about)\" or \"make someone aware of\".",
           },
           {
@@ -1514,7 +1514,7 @@ export const EN_C2_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Creo que has malinterpretado lo que dije.",
+        source: "Creo que malinterpretaste lo que dije.",
         answer: "I think you've misunderstood what I said.",
         altAnswers: ["I think you misunderstood what I said.", "I think you've misinterpreted what I said.", "I think you misinterpreted what I said.", "I think you've misunderstood me.", "I think you misunderstood me.", "I think you've misread what I said.", "I think you've got the wrong idea about what I said.", "I think you've taken what I said the wrong way.", "I think you took what I said the wrong way."],
         explanation: "«Malinterpretar» = \"misunderstand\" or \"misinterpret\": \"mis-\" means wrongly.",
@@ -1552,14 +1552,14 @@ export const EN_C2_U09: Lesson[] = [
         sentence: "The hotel is in a ___ little village in the mountains.",
         answer: "picturesque",
         altAnswers: ["charming", "quaint", "pretty"],
-        en: "El hotel está en un pueblecito [pintoresco] en la montaña.",
+        en: "El hotel está en un pueblito [pintoresco] en la montaña.",
         explanation: "«Pintoresco» = \"picturesque\" (\"-esque\": like a picture).",
       },
       {
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Es una organización sin ánimo de lucro.",
+        source: "Es una organización sin fines de lucro.",
         answer: "It's a non-profit organization.",
         altAnswers: ["It's a nonprofit organization.", "It's a not-for-profit organization.", "It's a non-profit.", "It's a nonprofit.", "It is a non-profit organization.", "It's a non-profit organisation.", "It's a not-for-profit organisation.", "It's a charity."],
         explanation: "\"Non-\" classifies neutrally: \"non-profit\" (US also \"nonprofit\"), British also \"not-for-profit\".",
@@ -1594,7 +1594,7 @@ export const EN_C2_U09: Lesson[] = [
         heading: "Why stress matters more in English than in Spanish",
         body: [
           "In Spanish, an unstressed vowel keeps its quality: the three a's of «Panamá» all sound like /a/. In English, unstressed vowels usually shrink to a quick, neutral schwa /ə/. So when the stress moves, the whole word changes shape: in \"photograph\" the second o is a weak schwa, but in \"photography\" it is the strong, stressed vowel.",
-          "This is why wrong stress causes real misunderstandings, not just an accent. A listener searches for words by their stressed syllable; if you say \"develOPment\" (ve-LOP) instead of deVELopment, they may not recognise the word at all, even if every sound is correct.",
+          "This is why wrong stress causes real misunderstandings, not just an accent. A listener searches for words by their stressed syllable; if you say \"develOPment\" (ve-LOP) instead of deVELopment, they may not recognize the word at all, even if every sound is correct.",
           "In this lesson, capital letters in the explanations show the stressed syllable (PHO-to-graph). A dictionary marks it with a raised tick before the syllable: /ˈfoʊtəɡræf/.",
         ],
         examples: [
@@ -1745,8 +1745,8 @@ export const EN_C2_U09: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "¿Puedes grabar el partido esta noche?",
-        answer: "Can you record the match tonight?",
-        altAnswers: ["Can you record the game tonight?", "Could you record the match tonight?", "Could you record the game tonight?", "Can you record the match this evening?", "Can you record the game this evening?"],
+        answer: "Can you record the game tonight?",
+        altAnswers: ["Can you record the match tonight?", "Could you record the match tonight?", "Could you record the game tonight?", "Can you record the match this evening?", "Can you record the game this evening?"],
         explanation: "The verb is re-CORD; the noun (a RE-cord, «un récord» or «un disco») is stressed on the first syllable.",
       },
       {
@@ -1865,11 +1865,11 @@ export const EN_C2_U09: Lesson[] = [
         heading: "Recap: reactions and word building",
         body: [
           "React with echo questions (\"Did she?\", \"Haven't you?\") and fixed tokens (\"Tell me about it\", \"Fair enough\", \"No wonder\"), not *Ah, yes?",
-          "Translate diminutives and augmentatives by meaning: \"a quick coffee\", \"nice and warm\", \"a flash car\", \"slam the door\". Choose prefixes word by word (\"impossible\", \"uncomfortable\", \"dishonest\") and watch stress shifts.",
+          "Translate diminutives and augmentatives by meaning: \"a quick coffee\", \"nice and warm\", \"a fancy car\", \"slam the door\". Choose prefixes word by word (\"impossible\", \"uncomfortable\", \"dishonest\") and watch stress shifts.",
         ],
         examples: [
           { es: "Tell me about it!", en: "¡Ni que lo digas!" },
-          { es: "It's nice and quiet here.", en: "Aquí se está tranquilito." },
+          { es: "It's nice and quiet here.", en: "Aquí está bien tranquilito." },
           { es: "He slammed the door.", en: "Dio un portazo." },
           { es: "That's completely unacceptable.", en: "Eso es totalmente inaceptable." },
         ],
@@ -1992,12 +1992,12 @@ export const EN_C2_U09: Lesson[] = [
         rubric: [
           "Includes at least one correct exclamation (what / how / such).",
           "Uses an extreme adjective with absolutely / utterly / really, not very.",
-          "Renders a diminutive or augmentative idea naturally (lovely little place, nice and cosy, a massive portion).",
+          "Renders a diminutive or augmentative idea naturally (lovely little place, nice and cozy, a massive portion).",
           "Uses at least one word with a correct negative prefix (unpretentious, impossible, unbelievable, unforgettable).",
           "Keeps an informal, enthusiastic register suitable for a review app.",
         ],
-        modelAnswer: "What a find! This lovely little place is tucked away just round the corner from the cathedral, and it's nice and cosy inside. The food was absolutely superb: the croquettes were unbelievably creamy and the portions were massive. The service was friendly and completely unpretentious. It's tiny, so booking ahead is a must, otherwise it's almost impossible to get a table at weekends. Such a gem!",
-        explanation: "The model combines \"What a find!\" and \"Such a gem!\", \"absolutely superb\", \"lovely little place\" and \"nice and cosy\" for Spanish diminutives, and the prefixes in \"unbelievably\", \"unpretentious\" and \"impossible\".",
+        modelAnswer: "What a find! This lovely little place is tucked away just around the corner from the cathedral, and it's nice and cozy inside. The food was absolutely superb: the croquettes were unbelievably creamy and the portions were massive. The service was friendly and completely unpretentious. It's tiny, so booking ahead is a must, otherwise it's almost impossible to get a table on weekends. Such a gem!",
+        explanation: "The model combines \"What a find!\" and \"Such a gem!\", \"absolutely superb\", \"lovely little place\" and \"nice and cozy\" for Spanish diminutives, and the prefixes in \"unbelievably\", \"unpretentious\" and \"impossible\".",
       },
     ],
   },

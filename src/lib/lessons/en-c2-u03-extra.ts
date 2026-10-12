@@ -17,13 +17,13 @@ export const EN_C2_U03_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: the dangerous ones",
         body: [
-          "«Estar constipado» is \"to have a cold\"; \"constipated\" means «estreñido». «Intoxicación alimentaria» is \"food poisoning\"; \"intoxication\" in everyday English means being drunk. A doctor writes a \"prescription\" («receta»); a \"recipe\" is for cooking and a \"receipt\" is what a shop gives you.",
+          "«Estar constipado» (Spain; «estar resfriado» in most of Latin America) is \"to have a cold\"; \"constipated\" means «estreñido». «Intoxicación alimentaria» is \"food poisoning\"; \"intoxication\" in everyday English means being drunk. A doctor writes a \"prescription\" («receta»); a \"recipe\" is for cooking and a \"receipt\" is what a shop gives you.",
           "A footballer's «lesión» is an \"injury\"; \"lesion\" is a clinical word for damaged or abnormal tissue (a skin lesion). «Injuria» is an insult. «Operarse» is \"to have an operation\" or \"to have surgery\" (usually uncountable: \"She had surgery\"; American English also counts it, \"two surgeries\", while in British English \"a surgery\" is a doctor's office).",
           "\"Sensitive\" is «sensible» (\"sensitive teeth\"); \"sensible\" is «sensato». «La consulta» is the \"appointment\" or \"consultation\", and the place is the \"doctor's office\" (US) or \"surgery\" (UK).",
         ],
         examples: [
           { es: "I've got a bad cold and a sore throat.", en: "Estoy muy constipado y me duele la garganta." },
-          { es: "Half the guests got food poisoning from the prawns.", en: "La mitad de los invitados sufrió una intoxicación alimentaria por las gambas." },
+          { es: "Half the guests got food poisoning from the shrimp.", en: "La mitad de los invitados sufrió una intoxicación alimentaria por los camarones." },
           { es: "Can I have a repeat prescription for my inhaler?", en: "¿Me puede renovar la receta del inhalador?" },
           { es: "He's out for six weeks with a knee injury.", en: "Estará de baja seis semanas por una lesión de rodilla." },
           { es: "My mother had surgery on her hip last year.", en: "A mi madre la operaron de la cadera el año pasado." },
@@ -32,7 +32,7 @@ export const EN_C2_U03_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Llevo tres días constipado.»",
+            question: "«Llevo tres días constipado.» Which is the best English translation?",
             options: [
               "I've had a cold for three days.",
               "I've been constipated for three days.",
@@ -77,7 +77,7 @@ export const EN_C2_U03_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "«Fue pura casualidad que nos encontráramos en urgencias.»",
+            question: "«Fue pura casualidad que nos encontráramos en urgencias.» Which is the best English translation?",
             options: [
               "It was pure coincidence that we met in the ER.",
               "It was a pure casualty that we met in the ER.",
@@ -254,7 +254,7 @@ export const EN_C2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Es una persona muy sensata; seguro que pide una segunda opinión.»",
+        question: "«Es una persona muy sensata; seguro que pide una segunda opinión.» Which is the best English translation?",
         options: [
           "She's very sensible; I'm sure she'll get a second opinion.",
           "She's very sensitive; I'm sure she'll get a second opinion.",
@@ -394,7 +394,7 @@ export const EN_C2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Tengo una herida en la mano.»",
+        question: "«Tengo una herida en la mano.» Which is the best English translation?",
         options: [
           "I have a cut on my hand.",
           "I have an injure on my hand.",
@@ -519,7 +519,7 @@ export const EN_C2_U03_EXTRA: Lesson[] = [
         examples: [
           { es: "The patient is likely to make a full recovery.", en: "Es probable que el paciente se recupere por completo." },
           { es: "The tumour is unlikely to be malignant.", en: "Es poco probable que el tumor sea maligno." },
-          { es: "The data suggest a link between sleep and blood pressure.", en: "Los datos apuntan a una relación entre el sueño y la tensión arterial." },
+          { es: "The data suggest a link between sleep and blood pressure.", en: "Los datos apuntan a una relación entre el sueño y la presión arterial." },
           { es: "He will most likely be discharged tomorrow.", en: "Lo más probable es que le den el alta mañana." },
         ],
         checkpoint: [

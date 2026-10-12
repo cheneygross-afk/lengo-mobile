@@ -24,8 +24,8 @@ export const EN_C2_U04_EXTRA: Lesson[] = [
         examples: [
           { es: "Don't spill the beans about the surprise party!", en: "¡No te vayas de la lengua con lo de la fiesta sorpresa!" },
           { es: "I'm still on the fence about the job offer.", en: "Todavía estoy indeciso con la oferta de trabajo." },
-          { es: "I'm feeling a bit under the weather today.", en: "Hoy estoy un poco pachucho." },
-          { es: "The exam was a piece of cake.", en: "El examen estuvo tirado." },
+          { es: "I'm feeling a bit under the weather today.", en: "Hoy estoy un poco indispuesto." },
+          { es: "The exam was a piece of cake.", en: "El examen fue pan comido." },
           { es: "Fixing the roof cost an arm and a leg.", en: "Arreglar el tejado costó un ojo de la cara." },
         ],
         checkpoint: [
@@ -39,7 +39,7 @@ export const EN_C2_U04_EXTRA: Lesson[] = [
               "I'm a bit under weather.",
             ],
             correctIndex: 0,
-            explanation: "\"Under the weather\" («pachucho», «indispuesto») is fixed: preposition \"under\", article \"the\", singular \"weather\".",
+            explanation: "\"Under the weather\" («indispuesto», «medio enfermo») is fixed: preposition \"under\", article \"the\", singular \"weather\".",
           },
           {
             type: "fill-blank",
@@ -55,12 +55,12 @@ export const EN_C2_U04_EXTRA: Lesson[] = [
       {
         heading: "Do or make? And other verb slips",
         body: [
-          "Many idioms depend on a verb that Spanish would choose differently: \"make ends meet\" («llegar a fin de mes»), \"make a fuss\" («armar un escándalo»), \"do someone a favour\" («hacer un favor»), \"make the most of\" («aprovechar al máximo»), \"take something with a pinch of salt\" («tomar con pinzas»), \"pay attention\" (not *make attention).",
+          "Many idioms depend on a verb that Spanish would choose differently: \"make ends meet\" («llegar a fin de mes»), \"make a fuss\" («armar un escándalo»), \"do someone a favor\" («hacer un favor»), \"make the most of\" («aprovechar al máximo»), \"take something with a pinch of salt\" («tomar con pinzas»), \"pay attention\" (not *make attention).",
           "Mixing two idioms (*We'll burn that bridge when we come to it) is a well-known slip. It can be funny on purpose, but in serious writing it looks careless.",
         ],
         examples: [
           { es: "With two part-time jobs, she can barely make ends meet.", en: "Con dos trabajos a tiempo parcial, apenas llega a fin de mes." },
-          { es: "Could you do me a favour and water the plants?", en: "¿Me haces un favor y riegas las plantas?" },
+          { es: "Could you do me a favor and water the plants?", en: "¿Me haces un favor y riegas las plantas?" },
           { es: "Let's make the most of the sunshine.", en: "Aprovechemos el sol al máximo." },
           { es: "There's no need to make a fuss.", en: "No hace falta montar un escándalo." },
           { es: "We'll cross that bridge when we come to it.", en: "Ya nos ocuparemos de eso cuando llegue el momento." },
@@ -68,7 +68,7 @@ export const EN_C2_U04_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Me cuesta llegar a fin de mes.»",
+            question: "«Me cuesta llegar a fin de mes.» Which is the best English translation?",
             options: [
               "I find it hard to make ends meet.",
               "I find it hard to do ends meet.",
@@ -192,7 +192,7 @@ export const EN_C2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Estás en las nubes.»",
+        question: "«Estás en las nubes.» Which is the best English translation?",
         options: [
           "You've got your head in the clouds.",
           "You're in the clouds.",
@@ -234,10 +234,10 @@ export const EN_C2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Choose the correct verb: Could you ___ me a favour?",
+        question: "Choose the correct verb: Could you ___ me a favor?",
         options: ["do", "make", "give", "take"],
         correctIndex: 0,
-        explanation: "English \"does\" a favour: \"do someone a favour\". *Make me a favour copies «hacer».",
+        explanation: "English \"does\" a favor: \"do someone a favor\". *Make me a favour copies «hacer».",
       },
       {
         type: "translate",
@@ -295,8 +295,8 @@ export const EN_C2_U04_EXTRA: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the bold words in English.",
         sentence: "Take his promises ___.",
-        answer: "with a pinch of salt",
-        altAnswers: ["with a grain of salt"],
+        answer: "with a grain of salt",
+        altAnswers: ["with a pinch of salt"],
         en: "Tómate sus promesas [con pinzas].",
         explanation: "«Tomar con pinzas» = \"take with a pinch of salt\" (British) or \"with a grain of salt\" (American). No tweezers in English.",
       },
@@ -311,7 +311,7 @@ export const EN_C2_U04_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "It's a piece of cake once you get the hang of it.",
-        explanation: "Two idioms: \"a piece of cake\" (very easy) and \"get the hang of something\" («cogerle el truco»).",
+        explanation: "Two idioms: \"a piece of cake\" (very easy) and \"get the hang of something\" («agarrarle la onda», «tomarle la mano»).",
       },
       {
         type: "write",

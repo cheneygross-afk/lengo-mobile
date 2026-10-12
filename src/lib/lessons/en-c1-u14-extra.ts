@@ -451,7 +451,7 @@ export const EN_C1_U14_EXTRA: Lesson[] = [
           "The manager said, \"We will review the figures\".",
         ],
         correctIndex: 0,
-        explanation: "English uses \"...\" rather than «...», and in American English the full stop goes inside the closing quotation mark.",
+        explanation: "English uses \"...\" rather than «...», and in American English the period goes inside the closing quotation mark.",
       },
       {
         type: "dictation",
@@ -498,7 +498,7 @@ export const EN_C1_U14_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Hay dos razones: el coste y el tiempo.",
+        source: "Hay dos razones: el costo y el tiempo.",
         answer: "There are two reasons: cost and time.",
         altAnswers: ["There are two reasons: the cost and the time.", "There are two reasons: the cost and time."],
         explanation: "\"There are two reasons\" is a complete clause, so a colon can introduce the list. In English \"cost\" and \"time\" in a general sense often go without \"the\".",
@@ -524,7 +524,7 @@ export const EN_C1_U14_EXTRA: Lesson[] = [
         examples: [
           { es: "The government decided to raise taxes. / The government's decision to raise taxes...", en: "El gobierno decidió subir los impuestos. / La decisión del gobierno de subir los impuestos..." },
           { es: "Applications have increased sharply. / There has been a sharp increase in applications.", en: "Las solicitudes han aumentado mucho. / Ha habido un fuerte aumento de las solicitudes." },
-          { es: "Although the policy was expensive, it worked. / Despite its high cost, the policy worked.", en: "Aunque la política era cara, funcionó. / A pesar de su elevado coste, la política funcionó." },
+          { es: "Although the policy was expensive, it worked. / Despite its high cost, the policy worked.", en: "Aunque la política era cara, funcionó. / A pesar de su elevado costo, la política funcionó." },
           { es: "Few people attended. / Only a small number of people attended.", en: "Asistió poca gente. / Solo asistió un número reducido de personas." },
         ],
         checkpoint: [

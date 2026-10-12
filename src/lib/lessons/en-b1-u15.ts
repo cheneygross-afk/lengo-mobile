@@ -17,7 +17,7 @@ export const EN_B1_U15: Lesson[] = [
         body: [
           "In Spanish, «me corté el pelo» usually means you went to the hairdresser. Nobody thinks you did it yourself. In English, \"I cut my hair\" means exactly that: you took the scissors and did it yourself.",
           "When another person does a job for you, usually because you pay them, English uses the causative: \"I had my hair cut\". A very common mistake is *I cut my hair at the hairdresser's, which sounds as if you cut it yourself in the shop.",
-          "The same happens with «me hice las uñas», «me arreglaron el coche» or «pintamos la casa» when a professional did the work: use \"have something done\".",
+          "The same happens with «me hice las uñas», «me arreglaron el carro» or «pintamos la casa» when a professional did the work: use \"have something done\".",
         ],
         examples: [
           { es: "I had my hair cut yesterday.", en: "Ayer me corté el pelo (en la peluquería)." },
@@ -53,7 +53,7 @@ export const EN_B1_U15: Lesson[] = [
           "Always use the past participle, not the base form: \"I had my car repaired\", never *I had my car repair. With irregular verbs, use the third form: \"cut\", \"done\", \"taken\", \"made\".",
         ],
         examples: [
-          { es: "I had my car repaired.", en: "Me arreglaron el coche." },
+          { es: "I had my car repaired.", en: "Me arreglaron el carro." },
           { es: "She has her windows cleaned every month.", en: "Le limpian las ventanas cada mes." },
           { es: "We had a new kitchen installed.", en: "Nos instalaron una cocina nueva." },
           { es: "He had his photo taken for his passport.", en: "Se hizo la foto para el pasaporte." },
@@ -64,7 +64,7 @@ export const EN_B1_U15: Lesson[] = [
             type: "word-order",
             prompt: "Put the words in order.",
             words: ["I", "had", "my", "car", "repaired."],
-            translation: "Me arreglaron el coche (en el taller).",
+            translation: "Me arreglaron el carro (en el taller).",
             explanation: "Have + object + participle: \"had my car repaired\". \"I had repaired my car\" would mean that you did it yourself.",
           },
           {
@@ -80,12 +80,12 @@ export const EN_B1_U15: Lesson[] = [
         heading: "Different tenses: only \"have\" changes",
         body: [
           "Only \"have\" changes tense; the object and the participle stay the same. Present simple for routines: \"I have my hair cut every month\". Past simple for finished actions: \"I had it cut last week\".",
-          "Use the present continuous for something happening now or arranged for the future: \"I'm having my car repaired\" («me están arreglando el coche»). For plans: \"We're going to have the walls painted\".",
+          "Use the present continuous for something happening now or arranged for the future: \"I'm having my car repaired\" («me están arreglando el carro»). For plans: \"We're going to have the walls painted\".",
           "Questions and negatives use \"do\", \"does\" and \"did\", as with any normal verb: \"Did you have your hair cut?\", \"I don't have my shirts ironed\". Don't say *Had you your hair cut?.",
         ],
         examples: [
           { es: "I have my hair cut every month.", en: "Me corto el pelo cada mes." },
-          { es: "I'm having my car repaired this week.", en: "Esta semana me están arreglando el coche." },
+          { es: "I'm having my car repaired this week.", en: "Esta semana me están arreglando el carro." },
           { es: "We're going to have the walls painted.", en: "Vamos a mandar pintar las paredes." },
           { es: "Did you have your hair cut?", en: "¿Te cortaste el pelo?" },
           { es: "I don't have my shirts ironed. I iron them myself.", en: "No me planchan las camisas. Las plancho yo." },
@@ -95,7 +95,7 @@ export const EN_B1_U15: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Me están arreglando el coche.",
+            source: "Me están arreglando el carro.",
             answer: "I'm having my car repaired.",
             altAnswers: [
               "I'm having my car fixed.",
@@ -125,10 +125,10 @@ export const EN_B1_U15: Lesson[] = [
         heading: "Useful services",
         body: [
           "These combinations are very common. Spanish often uses «hacerse», «me hicieron» or «llevar algo a...» for them, so learn them as whole phrases.",
-          "Notice \"service\" as a verb: \"have your car serviced\" is the regular check at the garage («hacer la revisión del coche»). And \"have your eyes tested\" (also \"checked\") is «graduarse la vista».",
+          "Notice \"service\" as a verb: \"have your car serviced\" is the regular check at the garage («hacer la revisión del carro»). And \"have your eyes tested\" (also \"checked\") is «graduarse la vista».",
         ],
         examples: [
-          { es: "have your car serviced", en: "hacer la revisión del coche" },
+          { es: "have your car serviced", en: "hacer la revisión del carro" },
           { es: "have your eyes tested", en: "graduarse la vista" },
           { es: "have a tooth taken out", en: "sacarse una muela" },
           { es: "have a suit dry-cleaned", en: "llevar un traje a la tintorería" },
@@ -140,7 +140,7 @@ export const EN_B1_U15: Lesson[] = [
             type: "matching",
             instructions: "Match each English phrase with its meaning.",
             pairs: [
-              { left: "have your car serviced", right: "hacer la revisión del coche" },
+              { left: "have your car serviced", right: "hacer la revisión del carro" },
               { left: "have your eyes tested", right: "graduarse la vista" },
               { left: "have a tooth taken out", right: "sacarse una muela" },
               { left: "have your nails done", right: "hacerse las uñas" },
@@ -270,7 +270,7 @@ export const EN_B1_U15: Lesson[] = [
     level: "EN-B1",
     number: 2,
     title: "Have Something Done, Part 2 of 2",
-    summary: "Get something done in informal English, the causative in more tenses, and «me robaron el móvil»: I had my phone stolen.",
+    summary: "Get something done in informal English, the causative in more tenses, and «me robaron el celular»: I had my phone stolen.",
     duration: "11 min",
     sections: [
       {
@@ -282,7 +282,7 @@ export const EN_B1_U15: Lesson[] = [
         ],
         examples: [
           { es: "I got my hair cut.", en: "Me corté el pelo." },
-          { es: "I need to get my car fixed.", en: "Tengo que llevar el coche a arreglar." },
+          { es: "I need to get my car fixed.", en: "Tengo que llevar el carro a arreglar." },
           { es: "Where did you get your nails done?", en: "¿Dónde te hiciste las uñas?" },
           { es: "We finally got the washing machine fixed.", en: "Por fin nos arreglaron la lavadora." },
           { es: "You should get that checked.", en: "Deberías hacértelo mirar." },
@@ -355,15 +355,15 @@ export const EN_B1_U15: Lesson[] = [
       {
         heading: "Bad experiences: I had my phone stolen",
         body: [
-          "The same structure describes something bad that happened to you: \"I had my phone stolen\" («me robaron el móvil»), \"She had her flight canceled\" («le cancelaron el vuelo»). Nobody paid anyone here; the person just suffered the action.",
+          "The same structure describes something bad that happened to you: \"I had my phone stolen\" («me robaron el celular»), \"She had her flight canceled\" («le cancelaron el vuelo»). Nobody paid anyone here; the person just suffered the action.",
           "Spanish speakers often say \"I had stolen my phone\", which means that you stole it! Keep the order: have + the thing + participle. The simple passive is also fine: \"My phone was stolen\".",
           "Don't say *They stole me my phone either. In English, \"steal\" doesn't take the victim as an object: \"Someone stole my phone\". If you mention the person, use \"rob\": \"I was robbed\".",
         ],
         examples: [
-          { es: "I had my phone stolen on the subway.", en: "Me robaron el móvil en el metro." },
-          { es: "My phone was stolen.", en: "Me robaron el móvil." },
+          { es: "I had my phone stolen on the subway.", en: "Me robaron el celular en el metro." },
+          { es: "My phone was stolen.", en: "Me robaron el celular." },
           { es: "She had her flight canceled.", en: "Le cancelaron el vuelo." },
-          { es: "He had his car broken into last night.", en: "Anoche le forzaron el coche." },
+          { es: "He had his car broken into last night.", en: "Anoche le forzaron el carro." },
           { es: "We had our bags searched at the airport.", en: "Nos registraron las maletas en el aeropuerto." },
         ],
         checkpoint: [
@@ -397,12 +397,12 @@ export const EN_B1_U15: Lesson[] = [
       {
         heading: "Not \"make\": have someone do something",
         body: [
-          "Spanish «hacer» + infinitive («hice arreglar el coche») makes learners say *I made repair my car. This is wrong. For services, use \"have\" or \"get\": \"I had my car repaired\".",
+          "Spanish «hacer» + infinitive («hice arreglar el carro») makes learners say *I made repair my car. This is wrong. For services, use \"have\" or \"get\": \"I had my car repaired\".",
           "\"Make someone do something\" means to force them: \"My boss made me work late\". It's not a service you pay for.",
           "If you mention the person who does the job, use \"have\" + person + base verb: \"I had the mechanic check the brakes\". With \"get\", add \"to\": \"I got the mechanic to check the brakes\".",
         ],
         examples: [
-          { es: "I had my car repaired.", en: "Hice arreglar el coche." },
+          { es: "I had my car repaired.", en: "Hice arreglar el carro." },
           { es: "My boss made me work late.", en: "Mi jefe me obligó a quedarme hasta tarde." },
           { es: "I had the mechanic check the brakes.", en: "Le pedí al mecánico que revisara los frenos." },
           { es: "I got my brother to help me.", en: "Conseguí que mi hermano me ayudara." },
@@ -630,7 +630,7 @@ export const EN_B1_U15: Lesson[] = [
           { es: "She is believed to be the richest woman in the country.", en: "Se cree que es la mujer más rica del país." },
           { es: "The castle is said to be haunted.", en: "Se dice que el castillo está embrujado." },
           { es: "He is thought to be in Mexico.", en: "Se cree que está en México." },
-          { es: "The thieves are said to have escaped by car.", en: "Se dice que los ladrones escaparon en coche." },
+          { es: "The thieves are said to have escaped by car.", en: "Se dice que los ladrones escaparon en carro." },
           { es: "The bridge is expected to open in May.", en: "Se espera que el puente abra en mayo." },
         ],
         checkpoint: [
@@ -690,7 +690,7 @@ export const EN_B1_U15: Lesson[] = [
         sentence: "The thieves are said to ___ by car.",
         answer: "have escaped",
         altAnswers: ["have gotten away", "have got away", "have fled"],
-        en: "Se dice que los ladrones [escaparon] en coche.",
+        en: "Se dice que los ladrones [escaparon] en carro.",
         explanation: "For a past action after \"is said\", use \"to have\" + past participle: \"to have escaped\".",
       },
       {
@@ -909,7 +909,7 @@ export const EN_B1_U15: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Primero se lavan las patatas.",
+        source: "Primero se lavan las papas.",
         answer: "First, the potatoes are washed.",
         altAnswers: ["First the potatoes are washed.", "First of all, the potatoes are washed.", "The potatoes are washed first."],
         explanation: "Sequencer + subject + \"are\" + participle. Not *First are washed the potatoes.",
@@ -1110,7 +1110,7 @@ export const EN_B1_U15: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No se puede aparcar aquí.",
+        source: "No se puede estacionar aquí.",
         answer: "You can't park here.",
         altAnswers: ["Parking is not allowed here.", "Parking isn't allowed here.", "You're not allowed to park here.", "You aren't allowed to park here.", "No parking here."],
         explanation: "In speech, general \"you\": \"You can't park here\". On a sign: \"No parking\" or \"Parking is not allowed\".",
@@ -1174,7 +1174,7 @@ export const EN_B1_U15: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me robaron el coche anoche.",
+        source: "Me robaron el carro anoche.",
         answer: "My car was stolen last night.",
         altAnswers: [
           "I had my car stolen last night.",
@@ -1244,11 +1244,11 @@ export const EN_B1_U15: Lesson[] = [
       {
         heading: "Error 2: *I made repair my car",
         body: [
-          "Spanish «hice arreglar el coche» becomes *I made repair my car in many learners' English. \"Make\" doesn't work here, and the word order is wrong.",
+          "Spanish «hice arreglar el carro» becomes *I made repair my car in many learners' English. \"Make\" doesn't work here, and the word order is wrong.",
           "Correct: \"I had my car repaired\" or \"I got my car repaired\". Use \"make\" only when you force a person: \"She made me apologize\".",
         ],
         examples: [
-          { es: "I had my car repaired.", en: "Hice arreglar el coche." },
+          { es: "I had my car repaired.", en: "Hice arreglar el carro." },
           { es: "I got my watch fixed.", en: "Me arreglaron el reloj." },
           { es: "She made me apologize.", en: "Me obligó a pedir perdón." },
         ],
@@ -1257,7 +1257,7 @@ export const EN_B1_U15: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Hice arreglar el coche.",
+            source: "Hice arreglar el carro.",
             answer: "I had my car repaired.",
             altAnswers: [
               "I had my car fixed.",
@@ -1356,7 +1356,7 @@ export const EN_B1_U15: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me robaron el móvil en el autobús.",
+        source: "Me robaron el celular en el autobús.",
         answer: "I had my phone stolen on the bus.",
         altAnswers: [
           "My phone was stolen on the bus.",
@@ -1388,7 +1388,7 @@ export const EN_B1_U15: Lesson[] = [
         sentence: "I need to ___ before the trip.",
         answer: "have my car serviced",
         altAnswers: ["get my car serviced", "have the car serviced", "get the car serviced", "have my car checked", "get my car checked"],
-        en: "Tengo que [llevar el coche a revisión] antes del viaje.",
+        en: "Tengo que [llevar el carro a revisión] antes del viaje.",
         explanation: "Base form after \"need to\": \"need to have my car serviced\". Not *I need to make my car service.",
       },
       {
@@ -1542,7 +1542,7 @@ export const EN_B1_U15: Lesson[] = [
           "False friend: «presupuesto» here is not \"budget\". Your \"budget\" is the money you plan to spend: \"My budget is 500 dollars\".",
         ],
         examples: [
-          { es: "I need to get my car serviced.", en: "Tengo que llevar el coche a revisión." },
+          { es: "I need to get my car serviced.", en: "Tengo que llevar el carro a revisión." },
           { es: "Could you take a look at the brakes?", en: "¿Podrían echar un vistazo a los frenos?" },
           { es: "Can you give me an estimate?", en: "¿Me pueden dar un presupuesto?" },
           { es: "How much will it cost?", en: "¿Cuánto costará?" },
@@ -2102,7 +2102,7 @@ export const EN_B1_U15: Lesson[] = [
         ],
         examples: [
           { es: "You should have your eyes tested.", en: "Deberías graduarte la vista." },
-          { es: "You have to get your car serviced every year.", en: "Hay que pasar la revisión del coche cada año." },
+          { es: "You have to get your car serviced every year.", en: "Hay que pasar la revisión del carro cada año." },
           { es: "I've just had my suitcase stolen.", en: "Me acaban de robar la maleta." },
         ],
         checkpoint: [
@@ -2110,7 +2110,7 @@ export const EN_B1_U15: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Tienes que llevar el coche a revisión.",
+            source: "Tienes que llevar el carro a revisión.",
             answer: "You have to have your car serviced.",
             altAnswers: [
               "You have to get your car serviced.",

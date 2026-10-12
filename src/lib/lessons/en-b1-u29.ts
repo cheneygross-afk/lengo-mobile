@@ -174,7 +174,7 @@ export const EN_B1_U29: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me preguntó si tenía coche.",
+        source: "Me preguntó si tenía carro.",
         answer: "He asked me if I had a car.",
         altAnswers: [
           "She asked me if I had a car.",
@@ -338,7 +338,7 @@ export const EN_B1_U29: Lesson[] = [
         ],
         examples: [
           { es: "This jacket is too expensive.", en: "Esta chaqueta es demasiado cara." },
-          { es: "He isn't old enough to drive.", en: "No tiene edad suficiente para conducir." },
+          { es: "He isn't old enough to drive.", en: "No tiene edad suficiente para manejar." },
           { es: "We don't have enough time.", en: "No tenemos tiempo suficiente." },
           { es: "It was such a good movie.", en: "Fue una película tan buena." },
           { es: "I was so tired that I fell asleep.", en: "Estaba tan cansado que me quedé dormido." },
@@ -552,7 +552,7 @@ export const EN_B1_U29: Lesson[] = [
             type: "word-order",
             prompt: "Put the words in order.",
             words: ["a", "nice", "old", "Italian", "car"],
-            translation: "un coche italiano antiguo y bonito",
+            translation: "un carro italiano antiguo y bonito",
             explanation: "Opinion (\"nice\") + age (\"old\") + origin (\"Italian\") + noun.",
           },
         ],
@@ -604,7 +604,7 @@ export const EN_B1_U29: Lesson[] = [
           { es: "Despite the rain, we went out.", en: "A pesar de la lluvia, salimos." },
           { es: "Despite being tired, she kept working.", en: "A pesar de estar cansada, siguió trabajando." },
           { es: "The hotel was nice. However, it was very expensive.", en: "El hotel era bonito. Sin embargo, era muy caro." },
-          { es: "I'm saving money to buy a car.", en: "Estoy ahorrando para comprarme un coche." },
+          { es: "I'm saving money to buy a car.", en: "Estoy ahorrando para comprarme un carro." },
           { es: "I spoke slowly so that everyone could understand.", en: "Hablé despacio para que todos entendieran." },
         ],
         checkpoint: [
@@ -1690,7 +1690,7 @@ export const EN_B1_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "«¿Vamos en coche o en tren? Tú decides.» Which is the most natural?",
+            question: "«¿Vamos en carro o en tren? Tú decides.» Which is the most natural?",
             options: ["Shall we go by car or by train? It's up to you.", "Shall we go by car or by train? You decide it.", "Shall we go by car or by train? It's on you.", "Shall we go by car or by train? It depends of you."],
             correctIndex: 0,
             explanation: "\"It's up to you\" means the decision is yours. \"It's on you\" means you are responsible or you pay.",
@@ -1715,7 +1715,7 @@ export const EN_B1_U29: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Con razón no contestaba, tenía el móvil apagado.",
+            source: "Con razón no contestaba, tenía el celular apagado.",
             answer: "No wonder he didn't answer, his phone was off.",
             altAnswers: [
               "No wonder she didn't answer, her phone was off.",
@@ -1728,7 +1728,7 @@ export const EN_B1_U29: Lesson[] = [
               "No wonder he didn't answer, his cell phone was off.",
               "No wonder she didn't answer, her cell phone was off.",
             ],
-            explanation: "«Con razón» or «no me extraña» is \"No wonder\". «Móvil» is \"phone\" or \"cell phone\" (US), \"mobile\" (UK).",
+            explanation: "«Con razón» or «no me extraña» is \"No wonder\". «Celular» is \"phone\" or \"cell phone\" (US), \"mobile\" (UK).",
           },
           {
             type: "multiple-choice",
@@ -2162,7 +2162,7 @@ export const EN_B1_U29: Lesson[] = [
         examples: [
           { es: "Most people have a smartphone.", en: "La mayoría de la gente tiene un smartphone." },
           { es: "Most of my friends use Instagram.", en: "La mayoría de mis amigos usa Instagram." },
-          { es: "I spend too much time on my phone.", en: "Paso demasiado tiempo con el móvil." },
+          { es: "I spend too much time on my phone.", en: "Paso demasiado tiempo con el celular." },
           { es: "I get too many notifications.", en: "Recibo demasiadas notificaciones." },
           { es: "I have hardly any followers.", en: "Casi no tengo seguidores." },
           { es: "None of my friends use Facebook.", en: "Ninguno de mis amigos usa Facebook." },
@@ -2172,7 +2172,7 @@ export const EN_B1_U29: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "La mayoría de la gente mira el móvil antes de dormir.",
+            source: "La mayoría de la gente mira el celular antes de dormir.",
             answer: "Most people look at their phones before going to sleep.",
             altAnswers: [
               "Most people check their phones before going to sleep.",
@@ -2239,7 +2239,7 @@ export const EN_B1_U29: Lesson[] = [
           "Combine with verb patterns: \"Schools should teach children to recognize fake news\" (teach + person + to).",
         ],
         examples: [
-          { es: "You should take a break from your phone.", en: "Deberías desconectar un poco del móvil." },
+          { es: "You should take a break from your phone.", en: "Deberías desconectar un poco del celular." },
           { es: "Parents shouldn't let young children use social media.", en: "Los padres no deberían dejar que los niños pequeños usen redes sociales." },
           { es: "You'd better delete that post.", en: "Más vale que borres esa publicación." },
           { es: "Schools should teach children to recognize fake news.", en: "Los colegios deberían enseñar a los niños a reconocer las noticias falsas." },
@@ -2289,7 +2289,7 @@ export const EN_B1_U29: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Deberíamos pasar menos tiempo con el móvil.",
+        source: "Deberíamos pasar menos tiempo con el celular.",
         answer: "We should spend less time on our phones.",
         altAnswers: ["We should spend less time on our phone.", "We should spend less time on the phone.", "We should spend less time on our cell phones.", "We should spend less time looking at our phones.", "We should spend less time on our mobiles.", "We should spend less time with our phones."],
         explanation: "\"Should\" + bare infinitive. \"Less\" with uncountable \"time\"; \"on our phones\" is the natural preposition.",

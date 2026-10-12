@@ -75,7 +75,7 @@ export const EN_C2_U14: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "La sanidad no es un gasto, sino una inversión.",
+            source: "La salud pública no es un gasto, sino una inversión.",
             answer: "Healthcare is not a cost but an investment.",
             altAnswers: [
               "Healthcare is not an expense but an investment.",
@@ -145,7 +145,7 @@ export const EN_C2_U14: Lesson[] = [
         examples: [
           { es: "We want a bigger, better, bolder city.", en: "Queremos una ciudad más grande, mejor y más audaz." },
           { es: "The welfare state looked after people from cradle to grave.", en: "El estado del bienestar cuidaba de la gente desde la cuna hasta la tumba." },
-          { es: "Our energy must be safe, secure and sustainable.", en: "Nuestra energía debe ser segura, fiable y sostenible." },
+          { es: "Our energy must be safe, secure and sustainable.", en: "Nuestra energía debe ser segura, confiable y sostenible." },
           { es: "This is a policy of panic, not of planning.", en: "Esta es una política del pánico, no de la planificación." },
         ],
         checkpoint: [
@@ -329,7 +329,7 @@ export const EN_C2_U14: Lesson[] = [
           "Be careful with intensity. English-speaking audiences, particularly in Britain, often distrust open emotion and respond better to understatement: \"That is not a small thing\" can hit harder than «¡es una auténtica tragedia!».",
         ],
         examples: [
-          { es: "Picture a nurse finishing a twelve-hour shift and sleeping in her car.", en: "Imaginen a una enfermera que termina un turno de doce horas y duerme en su coche." },
+          { es: "Picture a nurse finishing a twelve-hour shift and sleeping in her car.", en: "Imaginen a una enfermera que termina un turno de doce horas y duerme en su carro." },
           { es: "Imagine being told your child's school will close next month.", en: "Imaginen que les dicen que el colegio de su hijo cierra el mes que viene." },
           { es: "The government has slashed funding for mental health.", en: "El gobierno ha recortado drásticamente la financiación de la salud mental." },
           { es: "For thousands of families, that is not a small thing.", en: "Para miles de familias, eso no es poca cosa." },
@@ -416,7 +416,7 @@ export const EN_C2_U14: Lesson[] = [
           "Each appeal fails when overused. Too much ethos sounds arrogant, too much pathos sounds manipulative, too much logos sounds cold. The skill is the transition: \"Those are the numbers. But numbers do not sleep in cars; people do.\"",
         ],
         examples: [
-          { es: "Those are the numbers. But numbers do not sleep in cars; people do.", en: "Esas son las cifras. Pero las cifras no duermen en coches; las personas, sí." },
+          { es: "Those are the numbers. But numbers do not sleep in cars; people do.", en: "Esas son las cifras. Pero las cifras no duermen en carros; las personas, sí." },
           { es: "I am not asking you to take my word for it. Look at the evidence.", en: "No les pido que me crean sin más. Miren las pruebas." },
           { es: "The data is clear, and so is our responsibility.", en: "Los datos son claros, y también lo es nuestra responsabilidad." },
         ],
@@ -442,7 +442,7 @@ export const EN_C2_U14: Lesson[] = [
     exercises: [
       {
         type: "multiple-choice",
-        question: "\"As a paediatrician with twenty years in public hospitals, I have seen...\" Which appeal is this?",
+        question: "\"As a pediatrician with twenty years in public hospitals, I have seen...\" Which appeal is this?",
         options: ["Ethos", "Pathos", "Logos", "None of them"],
         correctIndex: 0,
         explanation: "The speaker is establishing credibility through professional experience: ethos.",
@@ -544,7 +544,7 @@ export const EN_C2_U14: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Those are the numbers. But numbers do not sleep in cars; people do.",
-        question: "¿Qué hace el orador en esta frase?",
+        question: "What is the speaker doing in this sentence?",
         options: [
           "Pasa de los datos (logos) a la emoción (pathos).",
           "Pasa de la emoción (pathos) a los datos (logos).",
@@ -635,7 +635,7 @@ export const EN_C2_U14: Lesson[] = [
         ],
         examples: [
           { es: "I began with a question; let me end with the answer.", en: "Empecé con una pregunta; permítanme terminar con la respuesta." },
-          { es: "Remember the nurse I mentioned at the start? Tonight she will sleep in her car again.", en: "¿Recuerdan a la enfermera que mencioné al principio? Esta noche volverá a dormir en su coche." },
+          { es: "Remember the nurse I mentioned at the start? Tonight she will sleep in her car again.", en: "¿Recuerdan a la enfermera que mencioné al principio? Esta noche volverá a dormir en su carro." },
           { es: "We started in a single classroom, so let's end there too.", en: "Empezamos en un aula, así que terminemos también ahí." },
           { es: "Let me close where I began.", en: "Permítanme terminar donde empecé." },
         ],
@@ -695,8 +695,8 @@ export const EN_C2_U14: Lesson[] = [
             sentence: "We ___ the council to keep the library open.",
             answer: "call on",
             altAnswers: ["urge", "ask", "appeal to"],
-            en: "[Hacemos un llamamiento] al ayuntamiento para que mantenga abierta la biblioteca.",
-            explanation: "«Hacer un llamamiento a alguien para que...» is \"call on someone to...\" (or \"appeal to someone to...\"). Note the infinitive, not a «para que» clause.",
+            en: "[Hacemos un llamado] al ayuntamiento para que mantenga abierta la biblioteca.",
+            explanation: "«Hacer un llamado a alguien para que...» is \"call on someone to...\" (or \"appeal to someone to...\"). Note the infinitive, not a «para que» clause.",
           },
         ],
       },
@@ -875,7 +875,7 @@ export const EN_C2_U14: Lesson[] = [
         ],
         examples: [
           { es: "This House believes that social media does more harm than good.", en: "Esta Cámara considera que las redes sociales hacen más mal que bien." },
-          { es: "This House would ban private cars from city centers.", en: "Esta Cámara prohibiría los coches particulares en los centros urbanos." },
+          { es: "This House would ban private cars from city centers.", en: "Esta Cámara prohibiría los carros particulares en los centros urbanos." },
           { es: "I rise to propose the motion.", en: "Me pongo en pie para defender la moción." },
           { es: "I am proud to oppose this motion.", en: "Me enorgullece oponerme a esta moción." },
           { es: "The motion was carried by 112 votes to 87.", en: "La moción fue aprobada por 112 votos contra 87." },
@@ -1107,7 +1107,7 @@ export const EN_C2_U14: Lesson[] = [
       {
         type: "listen-choose",
         audio: "On that point! Isn't it true that the scheme was tried in Denmark and abandoned?",
-        question: "¿Qué está haciendo este orador?",
+        question: "What is this speaker doing?",
         options: [
           "Ofrece un punto de información durante el discurso de su oponente.",
           "Abre el turno de preguntas del público.",
@@ -1132,7 +1132,7 @@ export const EN_C2_U14: Lesson[] = [
     level: "EN-C2",
     number: 5,
     title: "Dialogue lab: conceding gracefully",
-    summary: "Follow a formal debate exchange and practise conceding minor points without giving up your position: \"I'll grant you that...\", \"Fair point, but...\", \"Even if we accept..., it doesn't follow that...\".",
+    summary: "Follow a formal debate exchange and practice conceding minor points without giving up your position: \"I'll grant you that...\", \"Fair point, but...\", \"Even if we accept..., it doesn't follow that...\".",
     duration: "11 min",
     sections: [
       {
@@ -1358,7 +1358,7 @@ export const EN_C2_U14: Lesson[] = [
       {
         type: "listen-choose",
         audio: "My opponent is quite right that the trial was successful. What he fails to mention is that it lasted only six weeks.",
-        question: "¿Qué estrategia usa la oradora?",
+        question: "What strategy does the speaker use?",
         options: [
           "Concede un dato y señala lo que el oponente omite.",
           "Rechaza todos los datos del oponente.",
@@ -1468,13 +1468,13 @@ export const EN_C2_U14: Lesson[] = [
         heading: "Purpose and result: to that end, in so doing, thereby",
         body: [
           "\"To that end\" («con ese fin», «para ello») links a goal to the action taken to achieve it: \"We want to cut emissions by half. To that end, the council will ban diesel buses.\"",
-          "\"In so doing\" («al hacerlo») and \"thereby\" («con ello», «de ese modo») show the consequence of an action. \"Thereby\" is followed by an -ing form: \"The city closed the centre to cars, thereby cutting pollution by a third.\"",
+          "\"In so doing\" («al hacerlo») and \"thereby\" («con ello», «de ese modo») show the consequence of an action. \"Thereby\" is followed by an -ing form: \"The city closed the center to cars, thereby cutting pollution by a third.\"",
           "\"Hence\" («de ahí») introduces a conclusion and is often followed by a noun, with no verb at all: \"The data were incomplete; hence the delay.\"",
         ],
         examples: [
           { es: "We aim to cut waste by half. To that end, we have hired an expert.", en: "Queremos reducir los residuos a la mitad. Con ese fin, hemos contratado a una experta." },
           { es: "She challenged the board and, in so doing, risked her career.", en: "Se enfrentó a la junta y, al hacerlo, arriesgó su carrera." },
-          { es: "The city closed the centre to cars, thereby cutting pollution by a third.", en: "La ciudad cerró el centro al tráfico, reduciendo con ello la contaminación en un tercio." },
+          { es: "The city closed the center to cars, thereby cutting pollution by a third.", en: "La ciudad cerró el centro al tráfico, reduciendo con ello la contaminación en un tercio." },
           { es: "The figures were incomplete; hence the delay.", en: "Las cifras estaban incompletas; de ahí el retraso." },
         ],
         checkpoint: [
@@ -1548,7 +1548,7 @@ export const EN_C2_U14: Lesson[] = [
               "The plan is cheap. At the end, it is slow.",
             ],
             correctIndex: 0,
-            explanation: "\"However\" joins two sentences only with a semicolon or a full stop. The phrase is \"on the other hand\", and \"at the end\" does not mean «al fin y al cabo».",
+            explanation: "\"However\" joins two sentences only with a semicolon or a period. The phrase is \"on the other hand\", and \"at the end\" does not mean «al fin y al cabo».",
           },
         ],
       },
@@ -1734,7 +1734,7 @@ export const EN_C2_U14: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write a short paragraph (60-100 words) on whether cities should ban cars from their centres. Use at least four of these: that said, conversely, to that end, thereby, the former/the latter, this + summary noun, such.",
+        prompt: "Write a short paragraph (60-100 words) on whether cities should ban cars from their centers. Use at least four of these: that said, conversely, to that end, thereby, the former/the latter, this + summary noun, such.",
         minWords: 60,
         maxWords: 100,
         rubric: [
@@ -1743,7 +1743,7 @@ export const EN_C2_U14: Lesson[] = [
           "No *in the other hand, *at the end for «al final» or *besides for formal «además»",
           "Correct punctuation around \"however\" and similar linkers",
         ],
-        modelAnswer: "Banning cars from city centres would cut pollution and noise. That said, shopkeepers fear losing customers who drive in from the suburbs. Such concerns are understandable, but evidence from several cities suggests otherwise: footfall often rises once streets are pedestrianised. This pattern has a simple explanation. Pedestrians linger; drivers do not. Cities should therefore phase in restrictions gradually and, to that end, improve public transport first, thereby giving suburban shoppers a genuine alternative.",
+        modelAnswer: "Banning cars from city centers would cut pollution and noise. That said, shopkeepers fear losing customers who drive in from the suburbs. Such concerns are understandable, but evidence from several cities suggests otherwise: footfall often rises once streets are pedestrianized. This pattern has a simple explanation. Pedestrians linger; drivers do not. Cities should therefore phase in restrictions gradually and, to that end, improve public transport first, thereby giving suburban shoppers a genuine alternative.",
         explanation: "The model uses \"That said\", \"Such concerns\", \"This pattern\", \"to that end\" and \"thereby\", each with a clear logical job.",
       },
     ],
@@ -2159,7 +2159,7 @@ export const EN_C2_U14: Lesson[] = [
           "\"The same\" replaces a whole phrase: \"I'll have the same\" («lo mismo»), \"She resigned, and I would do the same\". Do not use \"one\" with uncountable nouns: \"I prefer white wine to red\", not *red one.",
         ],
         examples: [
-          { es: "This laptop is slow. I need a faster one.", en: "Este portátil es lento. Necesito uno más rápido." },
+          { es: "This laptop is slow. I need a faster one.", en: "Esta laptop es lenta. Necesito una más rápida." },
           { es: "The old offices were dark; the new ones are bright.", en: "Las oficinas antiguas eran oscuras; las nuevas son luminosas." },
           { es: "The climate of the coast is milder than that of the interior.", en: "El clima de la costa es más suave que el del interior." },
           { es: "Our results are similar to those of earlier studies.", en: "Nuestros resultados son similares a los de estudios anteriores." },
@@ -2329,7 +2329,7 @@ export const EN_C2_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ella prefiere los coches eléctricos a los de gasolina.",
+        source: "Ella prefiere los carros eléctricos a los de gasolina.",
         answer: "She prefers electric cars to petrol ones.",
         altAnswers: [
           "She prefers electric cars to gas ones.",

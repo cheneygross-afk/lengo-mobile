@@ -26,7 +26,7 @@ export type WritingFeedback = {
 };
 
 export type WritingFeedbackRequest = {
-  level: string; // CEFR level: "A1" ... "C2"
+  level: string; // CEFR level: "A1" ... "C2", or a course's level: "EN-B1", "JA-A2", "ZH-Pinyin" ...
   prompt: string;
   rubric: string[];
   minWords: number;
@@ -38,14 +38,45 @@ export type WritingFeedbackRequest = {
 export const WRITING_MAX_CHARS = 3000;
 
 /** Words in a learner's text, as the word-count hint counts them. */
+// Han characters, kana and Hangul: each one counts as a word, since
+// Chinese and Japanese aren't written with spaces between words.
+const CJK_CHAR = /[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\uac00-\ud7af]/g;
+
+/** Words in a learner's text, as the word-count hint counts them. For
+ * Chinese and Japanese, every character counts as one. */
 export function countWords(text: string): number {
-  const t = text.trim();
-  return t ? t.split(/\s+/).length : 0;
+  const cjk = (text.match(CJK_CHAR) ?? []).length;
+  const t = text.replace(CJK_CHAR, " ").replace(/[\p{P}\p{S}]/gu, " ").trim();
+  return cjk + (t ? t.split(/\s+/).length : 0);
 }
 
-/** A1/A2 get their feedback in English; B1 and up in Spanish. */
+/** A1/A2 get their feedback in English; B1 and up in Spanish. The
+ * English for Spanish speakers beta ("EN-A1" ...) is the mirror image:
+ * Spanish at A1/A2, English from B1 up. The Japanese ("JA-...") and
+ * Chinese ("ZH-..."), French ("FR-...") and German ("DE-...") courses are taught in English throughout, so their
+ * feedback is always English. */
 export function feedbackLanguage(level: string): "English" | "Spanish" {
+  if (level.startsWith("JA-") || level.startsWith("ZH-") || level.startsWith("FR-") || level.startsWith("DE-")) return "English";
+  if (level.startsWith("EN-")) return /^EN-A[12]/.test(level) ? "Spanish" : "English";
   return /^A[12]/.test(level) ? "English" : "Spanish";
+}
+
+/** The language the learner is writing in, from the level's course prefix. */
+function writingLanguage(level: string): string {
+  if (level.startsWith("EN-")) return "English";
+  if (level.startsWith("JA-")) return "Japanese";
+  if (level.startsWith("ZH-")) return "Mandarin Chinese";
+  if (level.startsWith("FR-")) return "French";
+  if (level.startsWith("DE-")) return "German";
+  return "Spanish";
+}
+
+/** The CEFR level without the course prefix; the Japanese kana module and
+ * the Chinese pinyin module come before A1, so they're judged as A1. */
+function cefrLevel(level: string): string {
+  const bare = level.replace(/^(EN|JA|ZH|FR|DE)-/, "");
+  if (bare === "Culture") return "C1";
+  return /^(A1|A2|B1|B2|C1|C2)/.test(bare) ? bare : "A1";
 }
 
 /** Checks a request body; returns the cleaned request or an error message. */
@@ -59,7 +90,7 @@ export function parseWritingRequest(body: unknown): WritingFeedbackRequest | str
   if (!text) return "Nothing to check.";
   if (text.length > WRITING_MAX_CHARS) return "That's too long.";
   if (!prompt || prompt.length > 1000) return "Missing task.";
-  if (!/^(A1|A2|B1|B2|C1|C2)/.test(level)) return "Unknown level.";
+  if (!/^((EN-|JA-|ZH-|FR-|DE-)?(A1|A2|B1|B2|C1|C2)|JA-Alphabets|ZH-Pinyin|FR-Culture|DE-Culture)/.test(level)) return "Unknown level.";
   const rubric = Array.isArray(b.rubric)
     ? b.rubric.filter((r): r is string => typeof r === "string").map((r) => r.trim()).filter(Boolean).slice(0, 10)
     : [];
@@ -107,8 +138,10 @@ export const WRITING_FEEDBACK_SCHEMA = {
 
 export function writingSystemPrompt(level: string): string {
   const lang = feedbackLanguage(level);
+  const target = writingLanguage(level);
+  const cefr = cefrLevel(level);
   return [
-    `You are a supportive, precise Spanish teacher giving feedback on a short piece of writing by a learner at CEFR level ${level}.`,
+    `You are a supportive, precise ${target} teacher giving feedback on a short piece of writing by a learner at CEFR level ${cefr}.`,
     "Judge the text against what a learner at that level can be expected to do; don't demand grammar from later levels.",
     "Return:",
     "- corrected: the learner's text with its mistakes fixed, changing as little as possible so it stays their own text.",
@@ -117,7 +150,12 @@ export function writingSystemPrompt(level: string): string {
     `- rubric: one entry per rubric item, in the order given, with the item text copied exactly, whether the text meets it, and a short comment in ${lang}.`,
     "- score: an integer 1-5 for how well the text does the task at this level (5 = does everything asked with only minor slips).",
     `- comment: one or two encouraging sentences in ${lang} saying what went well and the one thing to work on next.`,
-    "If the text is not in Spanish or ignores the task, say so kindly in the comment and score it 1.",
+    `If the text is not in ${target} or ignores the task, say so kindly in the comment and score it 1.`,
+    ...(target === "Japanese"
+      ? ["Kana, kanji or a mix are all fine; don't mark a word wrong only for being written in kana."]
+      : target === "Mandarin Chinese"
+        ? ["Simplified or traditional characters are both fine; pinyin alone counts as Chinese at the beginner levels."]
+        : []),
   ].join("\n");
 }
 

@@ -28,7 +28,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
           { es: "My father, who is a doctor, works in Lima.", en: "Mi padre, que es médico, trabaja en Lima. (incorrecto: *My father, that is a doctor)" },
           { es: "The doctor who saw me was very kind.", en: "El médico que me atendió fue muy amable." },
           { es: "Madrid, which is the capital, has six million people.", en: "Madrid, que es la capital, tiene seis millones de habitantes." },
-          { es: "The car that I bought last year has already broken down.", en: "El coche que compré el año pasado ya se ha averiado." },
+          { es: "The car that I bought last year has already broken down.", en: "El carro que compré el año pasado ya se ha averiado." },
           { es: "Our teacher, whose husband is Irish, speaks with a slight accent.", en: "Nuestra profesora, cuyo marido es irlandés, habla con un ligero acento." },
         ],
         checkpoint: [
@@ -490,7 +490,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Aprobó el carné de conducir a la primera, lo cual es raro.» Which is correct?",
+        question: "«Aprobó el licencia de manejar a la primera, lo cual es raro.» Which is correct?",
         options: [
           "He passed his driving test the first time, which is unusual.",
           "He passed his driving test the first time, what is unusual.",
@@ -538,7 +538,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
           "\"Whose\" works for people and also for things or organizations: \"a company whose products sell worldwide\". Never use \"which\" for people: *the doctor which saw me.",
         ],
         examples: [
-          { es: "That's the man whose car was stolen.", en: "Ese es el hombre al que le robaron el coche. (incorrecto: *the man who his car)" },
+          { es: "That's the man whose car was stolen.", en: "Ese es el hombre al que le robaron el carro. (incorrecto: *the man who his car)" },
           { es: "I have a friend whose mother is a judge.", en: "Tengo un amigo cuya madre es jueza." },
           { es: "It's a company whose products sell all over the world.", en: "Es una empresa cuyos productos se venden en todo el mundo." },
           { es: "The singer, whose new album came out today, is on tour.", en: "La cantante, cuyo nuevo disco salió hoy, está de gira." },
@@ -1068,7 +1068,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
           { es: "Who's the man standing by the door?", en: "¿Quién es el hombre que está de pie junto a la puerta?" },
           { es: "People living near the airport complain about the noise.", en: "La gente que vive cerca del aeropuerto se queja del ruido. (incorrecto: *people who living)" },
           { es: "It's a novel written in 1900.", en: "Es una novela escrita en 1900." },
-          { es: "Most of the cars made in this factory are exported.", en: "La mayoría de los coches fabricados en esta fábrica se exportan." },
+          { es: "Most of the cars made in this factory are exported.", en: "La mayoría de los carros fabricados en esta fábrica se exportan." },
           { es: "Anyone wanting a ticket should call this number.", en: "Cualquiera que quiera una entrada debe llamar a este número." },
         ],
         checkpoint: [
@@ -1344,7 +1344,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
           { es: "The man who lives next door is a pilot.", en: "El hombre que vive al lado es piloto. (incorrecto: *The man lives next door is a pilot)" },
           { es: "Is this the book you lent me?", en: "¿Es este el libro que me prestaste? (incorrecto: *the book that you lent me it)" },
           { es: "Everything she cooks is delicious.", en: "Todo lo que cocina está buenísimo." },
-          { es: "My car, which I bought in May, is already scratched.", en: "Mi coche, que compré en mayo, ya está rayado." },
+          { es: "My car, which I bought in May, is already scratched.", en: "Mi carro, que compré en mayo, ya está rayado." },
         ],
         checkpoint: [
           {
@@ -1549,7 +1549,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["The", "man", "who", "fixed", "my", "car", "charged", "me", "too", "much."],
-        translation: "El hombre que me arregló el coche me cobró demasiado.",
+        translation: "El hombre que me arregló el carro me cobró demasiado.",
         explanation: "\"Who\" is the subject of \"fixed\", so it cannot be dropped.",
       },
       {

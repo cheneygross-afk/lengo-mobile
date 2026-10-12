@@ -249,7 +249,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Al no tener coche, voy a todas partes en bici.",
+        source: "Al no tener carro, voy a todas partes en bici.",
         answer: "Not having a car, I go everywhere by bike.",
         altAnswers: [
           "Not having a car, I get everywhere by bike.",
@@ -328,7 +328,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
           "Although he had read",
           "Even though he had read",
         ],
-        en: "[Pese a haber leído] las instrucciones con atención, seguía sin poder montar la estantería.",
+        en: "[Pese a haber leído] las instrucciones con atención, seguía sin poder armar el librero.",
         explanation: "\"Despite having read\" combines a contrast marker with a perfect participle: the reading came first, and it did not help. Never *despite of having read.",
       },
       {
@@ -411,7 +411,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
           "Spanish is more tolerant here: «Al entrar en la sala, se hizo el silencio» is fine in Spanish, but *On entering the room, silence fell is a dangling participle. English needs a matching subject or a full clause: \"When I entered the room, everyone went quiet\".",
         ],
         examples: [
-          { es: "Walking down the street, I got caught in the rain.", en: "Mientras iba por la calle, me pilló la lluvia." },
+          { es: "Walking down the street, I got caught in the rain.", en: "Mientras iba por la calle, me agarró la lluvia." },
           { es: "As I was walking down the street, it started to rain.", en: "Mientras iba por la calle, empezó a llover." },
           { es: "Being Spanish, I found the food familiar.", en: "Como soy español, la comida me resultaba familiar." },
           { es: "Because I'm Spanish, the food was familiar to me.", en: "Como soy español, la comida me resultaba familiar." },
@@ -440,9 +440,9 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
           "Watch out for passive main clauses: they are the most common source of dangling participles in formal writing. *Using this method, costs were reduced: who used the method? Write \"Using this method, we reduced costs\".",
         ],
         examples: [
-          { es: "Having finished dinner, we washed the dishes.", en: "Después de cenar, fregamos los platos." },
-          { es: "After we had finished dinner, the dishes were washed.", en: "Después de que termináramos de cenar, se fregaron los platos." },
-          { es: "Using this method, we reduced costs by a third.", en: "Con este método, redujimos los costes en un tercio." },
+          { es: "Having finished dinner, we washed the dishes.", en: "Después de cenar, lavamos los platos." },
+          { es: "After we had finished dinner, the dishes were washed.", en: "Después de que termináramos de cenar, se lavaron los platos." },
+          { es: "Using this method, we reduced costs by a third.", en: "Con este método, redujimos los costos en un tercio." },
           { es: "Arriving late, she found the doors locked.", en: "Al llegar tarde, se encontró las puertas cerradas." },
         ],
         checkpoint: [
@@ -451,7 +451,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "Having missed the last train, ___ had to take a taxi.",
             answer: "we",
-            en: "Como habíamos perdido el último tren, [nosotros] tuvimos que coger un taxi.",
+            en: "Como habíamos perdido el último tren, [nosotros] tuvimos que tomar un taxi.",
             explanation: "The people who missed the train must be the subject of the main clause: \"we\". *A taxi had to be taken would leave the participle dangling.",
           },
         ],
@@ -981,7 +981,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Tengo dos coches, ninguno de los cuales funciona.",
+        source: "Tengo dos carros, ninguno de los cuales funciona.",
         answer: "I have two cars, neither of which works.",
         altAnswers: [
           "I have two cars, neither of which is working.",
@@ -1022,7 +1022,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "It's an old car ___ engine still runs perfectly.",
         answer: "whose",
-        en: "Es un coche viejo [cuyo] motor sigue funcionando perfectamente.",
+        en: "Es un carro viejo [cuyo] motor sigue funcionando perfectamente.",
         explanation: "\"Whose\" is used for things as well as people. *An old car which its engine is a direct calque of Spanish speech patterns.",
       },
       {
@@ -1269,7 +1269,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "My brother, who lives in Leeds, is a nurse.", en: "Mi hermano, que vive en Leeds, es enfermero." },
-          { es: "The flat that we rented last summer was tiny.", en: "El piso que alquilamos el verano pasado era diminuto." },
+          { es: "The flat that we rented last summer was tiny.", en: "El departamento que alquilamos el verano pasado era diminuto." },
           { es: "Madrid, which is the capital of Spain, is very lively.", en: "Madrid, que es la capital de España, es muy animada." },
           { es: "The employees who refused to sign were dismissed.", en: "Los empleados que se negaron a firmar fueron despedidos." },
           { es: "The employees, who refused to sign, were dismissed.", en: "Los empleados, que se negaron a firmar, fueron despedidos." },
@@ -1381,7 +1381,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi abuela, que tiene noventa años, todavía conduce.",
+        source: "Mi abuela, que tiene noventa años, todavía maneja.",
         answer: "My grandmother, who is ninety, still drives.",
         altAnswers: [
           "My grandma, who is ninety, still drives.",

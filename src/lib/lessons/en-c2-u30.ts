@@ -14,7 +14,7 @@ export const EN_C2_U30: Lesson[] = [
     level: "EN-C2",
     number: 1,
     title: "Art, film and literary criticism, Part 1 of 3: plot and character",
-    summary: "The vocabulary of narrative (plot, subplot, twist, pacing, arc, protagonist, well-rounded vs flat characters) and the convention of summarising a plot in the present tense.",
+    summary: "The vocabulary of narrative (plot, subplot, twist, pacing, arc, protagonist, well-rounded vs flat characters) and the convention of summarizing a plot in the present tense.",
     duration: "12 min",
     sections: [
       {
@@ -22,11 +22,11 @@ export const EN_C2_U30: Lesson[] = [
         body: [
           "In English, critics, teachers and blurb writers narrate a plot in the present simple: \"Elena returns to her village after twenty years and discovers that her brother has sold the family house.\" This is called the literary or narrative present, and it is the default in any review, essay or synopsis.",
           "Spanish speakers often switch to the past (*Elena returned to her village and discovered...) because a story feels finished. In English that sounds like you are telling an anecdote, not discussing a text. Keep the present for what happens in the work, the present perfect for what has happened before a given point, and the past only for real-world facts: \"Woolf wrote the novel in 1927.\"",
-          "The setting goes with \"be set in\": \"The novel is set in 1950s Lisbon.\" Spanish «transcurre en» or «está ambientada en» tempts learners into *takes place in the 1950s (possible, but weaker) or *is situated in. \"Set in\" is the critic's phrase.",
+          "The setting goes with \"be set in\": \"The novel is set in 1950s Lisbon.\" Spanish «transcurre en» or «está ambientada en» tempts learners into \"takes place in the 1950s\" (possible, but weaker) or *is situated in. \"Set in\" is the critic's phrase.",
         ],
         examples: [
           { es: "The novel is set in a fishing village on the Galician coast.", en: "La novela está ambientada en un pueblo pesquero de la costa gallega." },
-          { es: "After her father's death, Marta inherits a bookshop she has never seen.", en: "Tras la muerte de su padre, Marta hereda una librería que nunca ha visto." },
+          { es: "After her father's death, Marta inherits a bookstore she has never seen.", en: "Tras la muerte de su padre, Marta hereda una librería que nunca ha visto." },
           { es: "The film opens with a funeral and ends with a wedding.", en: "La película empieza con un funeral y termina con una boda." },
           { es: "Halfway through, the narrator reveals that he has been lying all along.", en: "A mitad del libro, el narrador revela que ha estado mintiendo desde el principio." },
           { es: "Ishiguro published the novel in 1989.", en: "Ishiguro publicó la novela en 1989. (hecho real: pasado)" },
@@ -57,7 +57,7 @@ export const EN_C2_U30: Lesson[] = [
       {
         heading: "Plot, subplot, twist and pacing",
         body: [
-          "The \"plot\" is the sequence of events; a \"subplot\" is a secondary line of action. A \"twist\" (or \"plot twist\") is an unexpected turn, and a twist at the very end is a \"twist ending\". \"Argumento\" is a false friend here: an \"argument\" in English is a quarrel or a line of reasoning, never the story of a film.",
+          "The \"plot\" is the sequence of events; a \"subplot\" is a secondary line of action. A \"twist\" (or \"plot twist\") is an unexpected turn, and a twist at the very end is a \"twist ending\". «Argumento» is a false friend here: an \"argument\" in English is a quarrel or a line of reasoning, never the story of a film.",
           "\"Pacing\" is the speed at which the story moves: a film can be \"tightly paced\", \"slow-paced\" or \"uneven\", and its middle section can \"drag\" or \"sag\". The plot \"unfolds\", \"thickens\" or \"hinges on\" a single event.",
           "Other key words: the \"premise\" (the basic situation: \"The premise is simple: two strangers swap lives\"), the \"climax\" (the moment of greatest tension) and the \"resolution\" or \"denouement\". A \"spoiler\" reveals the ending; a careful critic writes \"without giving too much away\".",
         ],
@@ -237,7 +237,7 @@ export const EN_C2_U30: Lesson[] = [
       {
         type: "listen-choose",
         audio: "The supporting cast is little more than a collection of stock characters.",
-        question: "¿Qué opina el crítico de los personajes secundarios?",
+        question: "What does the critic think of the supporting characters?",
         options: [
           "Que son tópicos y poco elaborados.",
           "Que están mejor escritos que el protagonista.",
@@ -374,7 +374,7 @@ export const EN_C2_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A critic writes: \"The score swells just when we need it least.\" What is being criticised?",
+            question: "A critic writes: \"The score swells just when we need it least.\" What is being criticized?",
             options: [
               "The music composed for the film.",
               "The marks given by other critics.",
@@ -495,7 +495,7 @@ export const EN_C2_U30: Lesson[] = [
     level: "EN-C2",
     number: 3,
     title: "Art, film and literary criticism, Part 3 of 3: evaluating a work",
-    summary: "Precise evaluative adjectives (gripping, derivative, overwrought, understated, poignant, self-indulgent, uneven, a tour de force) and how to build balanced judgements instead of saying interesting or nice.",
+    summary: "Precise evaluative adjectives (gripping, derivative, overwrought, understated, poignant, self-indulgent, uneven, a tour de force) and how to build balanced judgments instead of saying interesting or nice.",
     duration: "12 min",
     sections: [
       {
@@ -580,7 +580,7 @@ export const EN_C2_U30: Lesson[] = [
         ],
       },
       {
-        heading: "Balanced judgements",
+        heading: "Balanced judgments",
         body: [
           "A mature review weighs strengths and weaknesses. Useful frames: \"For all its flaws, ...\", \"Despite a sagging middle, ...\", \"What it lacks in X, it makes up for in Y\", \"It never quite lives up to its premise\", \"It is let down by ...\".",
           "\"For all\" means «a pesar de todo»: \"For all its flaws, it is a remarkable debut.\" \"Let down by\" means a weakness spoils something otherwise good: \"A fine cast is let down by a weak script.\"",
@@ -591,14 +591,14 @@ export const EN_C2_U30: Lesson[] = [
           { es: "What it lacks in subtlety, it makes up for in energy.", en: "Lo que le falta de sutileza lo compensa con energía." },
           { es: "A superb cast is let down by a clumsy script.", en: "Un reparto magnífico se ve lastrado por un guion torpe." },
           { es: "It never quite lives up to its brilliant premise.", en: "Nunca acaba de estar a la altura de su brillante premisa." },
-          { es: "It may not be a masterpiece, but it is well worth seeing.", en: "Quizá no sea una obra maestra, pero merece mucho la pena verla." },
+          { es: "It may not be a masterpiece, but it is well worth seeing.", en: "Quizá no sea una obra maestra, pero vale mucho la pena verla." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Pese a sus defectos, merece mucho la pena leerla.",
+            source: "Pese a sus defectos, vale mucho la pena leerla.",
             answer: "For all its flaws, it is well worth reading.",
             altAnswers: alts(
               ["For all its flaws,", "Despite its flaws,", "In spite of its flaws,", "For all its faults,", "Despite its faults,", "In spite of its faults,"],
@@ -653,7 +653,7 @@ export const EN_C2_U30: Lesson[] = [
           "The director forgives his characters too easily.",
         ],
         correctIndex: 0,
-        explanation: "\"Self-indulgent\" criticises an artist who gives in to his own tastes (excessive length, private jokes) at the audience's expense.",
+        explanation: "\"Self-indulgent\" criticizes an artist who gives in to his own tastes (excessive length, private jokes) at the audience's expense.",
       },
       {
         type: "fill-blank",
@@ -723,7 +723,7 @@ export const EN_C2_U30: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write a short balanced judgement (4-5 sentences) of a film, series or novel you know. Avoid \"interesting\", \"nice\", \"good\" and \"bad\".",
+        prompt: "Write a short balanced judgment (4-5 sentences) of a film, series or novel you know. Avoid \"interesting\", \"nice\", \"good\" and \"bad\".",
         minWords: 60,
         maxWords: 100,
         rubric: [
@@ -732,7 +732,7 @@ export const EN_C2_U30: Lesson[] = [
           "Ends with a clear verdict or recommendation.",
           "Uses the present tense to discuss the work.",
         ],
-        modelAnswer: "The Quiet Year is a sensitive, understated drama about a farmer caring for his ageing mother. The first hour is genuinely gripping, and the final scene is quietly poignant. For all its strengths, though, the film is let down by a derivative subplot about a land dispute and some stilted dialogue. It may not be a masterpiece, but it is well worth seeing for Carlos Ruiz's restrained central performance.",
+        modelAnswer: "The Quiet Year is a sensitive, understated drama about a farmer caring for his aging mother. The first hour is genuinely gripping, and the final scene is quietly poignant. For all its strengths, though, the film is let down by a derivative subplot about a land dispute and some stilted dialogue. It may not be a masterpiece, but it is well worth seeing for Carlos Ruiz's restrained central performance.",
         explanation: "Notice how every adjective does a specific job and the verdict is clear but nuanced.",
       },
     ],
@@ -810,7 +810,7 @@ export const EN_C2_U30: Lesson[] = [
             answer: "The lead is hammy and the supporting cast is wooden.",
             altAnswers: alts(
               ["The lead is hammy", "The lead is over-the-top", "The lead actor is hammy", "The lead actor overacts", "The lead overacts"],
-              ["and the supporting cast is wooden.", "and the supporting actors are wooden.", "and the supporting cast wooden.", "while the supporting cast is wooden.", "while the supporting actors are wooden.", ", and the supporting cast is wooden.", ", and the supporting actors are wooden."],
+              ["and the supporting cast is wooden.", "and the supporting actors are wooden.", "and the supporting cast wooden.", "while the supporting cast is wooden.", "while the supporting actors are wooden."],
             ).map((s) => s.replace(" ,", ",")),
             explanation: "\"Hammy\" or \"over-the-top\" is exaggerated acting; \"wooden\" is stiff acting. Use \"lead\" for «protagonista» when you mean the actor.",
           },
@@ -903,7 +903,7 @@ export const EN_C2_U30: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "He gives a ___ performance as the ageing boxer.",
+        sentence: "He gives a ___ performance as the aging boxer.",
         answer: "nuanced",
         altAnswers: ["subtle", "finely nuanced"],
         en: "Hace una interpretación [llena de matices] del boxeador entrado en años.",
@@ -919,7 +919,7 @@ export const EN_C2_U30: Lesson[] = [
           ["The cinematography is striking,", "The cinematography is stunning,", "The photography is striking,", "The visuals are striking,"],
           ["but the story is thinly sketched.", "but the story is barely sketched out.", "but the story is underdeveloped.", "but the story is sketchy."],
         ),
-        explanation: "\"Striking\" praises visuals; \"thinly sketched\" or \"underdeveloped\" criticises a story that lacks substance.",
+        explanation: "\"Striking\" praises visuals; \"thinly sketched\" or \"underdeveloped\" criticizes a story that lacks substance.",
       },
       {
         type: "multiple-choice",
@@ -965,7 +965,7 @@ export const EN_C2_U30: Lesson[] = [
     level: "EN-C2",
     number: 5,
     title: "Text detective: damning with faint praise",
-    summary: "How English-language critics criticise indirectly with words like competent, perfectly adequate, ambitious and serviceable, and how to decode a reviewer's real verdict.",
+    summary: "How English-language critics criticize indirectly with words like competent, perfectly adequate, ambitious and serviceable, and how to decode a reviewer's real verdict.",
     duration: "10 min",
     sections: [
       {
@@ -1153,7 +1153,7 @@ export const EN_C2_U30: Lesson[] = [
       {
         type: "listen-choose",
         audio: "It's a watchable enough way to spend a rainy afternoon, I suppose.",
-        question: "¿Qué recomienda realmente el crítico?",
+        question: "What is the critic really recommending?",
         options: [
           "Que solo vale la pena si no hay nada mejor que hacer.",
           "Que es imprescindible verla en el cine.",
@@ -1412,7 +1412,7 @@ export const EN_C2_U30: Lesson[] = [
           { es: "A single candle flickered in the window.", en: "Una sola vela parpadeaba en la ventana." },
           { es: "The lights of the village glimmered in the distance.", en: "Las luces del pueblo titilaban a lo lejos." },
           { es: "The knife gleamed in the moonlight.", en: "El cuchillo relucía a la luz de la luna." },
-          { es: "The sun glared off the windshields of the parked cars.", en: "El sol deslumbraba al reflejarse en los parabrisas de los coches aparcados." },
+          { es: "The sun glared off the windshields of the parked cars.", en: "El sol deslumbraba al reflejarse en los parabrisas de los carros estacionados." },
           { es: "The embers glowed long after the fire had died.", en: "Las brasas siguieron brillando mucho después de que se apagara el fuego." },
           { es: "The film received glowing reviews.", en: "La película recibió críticas entusiastas." },
         ],
@@ -1440,8 +1440,8 @@ export const EN_C2_U30: Lesson[] = [
         heading: "Verbs of sound",
         body: [
           "Sound verbs are often onomatopoeic. \"Rustle\" is the soft sound of leaves, paper or silk; \"creak\" is a wooden door or floorboard; \"hum\" is a low continuous sound (a fridge, an engine, a person singing with closed lips); \"thud\" is a dull heavy impact (a body falling, a book dropped on carpet).",
-          "Others: \"clatter\" (hard objects knocking, like plates), \"rattle\" (short repeated knocks, a window in the wind), \"crackle\" (fire, a bad phone line), \"screech\" (tyres, a bird), \"murmur\" (soft voices, a stream), \"thump\" (a heavy blow, a heartbeat), \"buzz\" (an insect, a busy room).",
-          "These verbs are equally common as nouns: \"the creak of the stairs\", \"the hum of traffic\", \"a dull thud\". «Crujir» can be \"creak\" (wood), \"crunch\" (gravel, crisps) or \"crackle\" (fire): choose by what makes the sound.",
+          "Others: \"clatter\" (hard objects knocking, like plates), \"rattle\" (short repeated knocks, a window in the wind), \"crackle\" (fire, a bad phone line), \"screech\" (tires, a bird), \"murmur\" (soft voices, a stream), \"thump\" (a heavy blow, a heartbeat), \"buzz\" (an insect, a busy room).",
+          "These verbs are equally common as nouns: \"the creak of the stairs\", \"the hum of traffic\", \"a dull thud\". «Crujir» can be \"creak\" (wood), \"crunch\" (gravel, chips) or \"crackle\" (fire): choose by what makes the sound.",
         ],
         examples: [
           { es: "The leaves rustled in the wind.", en: "Las hojas susurraban con el viento." },
@@ -1492,7 +1492,7 @@ export const EN_C2_U30: Lesson[] = [
           { es: "He staggered into the room, clutching his side.", en: "Entró en la habitación tambaleándose, sujetándose el costado." },
           { es: "A cat darted across the road.", en: "Un gato cruzó la carretera como una flecha." },
           { es: "She strode into the meeting and sat at the head of the table.", en: "Entró en la reunión con paso decidido y se sentó a la cabecera de la mesa." },
-          { es: "The old man shuffled to the door in his slippers.", en: "El anciano fue arrastrando los pies hasta la puerta en zapatillas." },
+          { es: "The old man shuffled to the door in his slippers.", en: "El anciano fue arrastrando los pies hasta la puerta en pantuflas." },
         ],
         checkpoint: [
           {
@@ -1524,7 +1524,7 @@ export const EN_C2_U30: Lesson[] = [
         source: "Un niño cruzó la calle corriendo sin mirar.",
         answer: "A child darted across the street without looking.",
         altAnswers: alts(
-          ["A child", "A boy", "A girl", "A kid"],
+          ["A child", "A boy", "A kid"],
           ["darted across", "ran across", "dashed across", "raced across", "shot across"],
           ["the street without looking.", "the road without looking."],
         ),
@@ -1601,7 +1601,7 @@ export const EN_C2_U30: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Somewhere in the house, a floorboard creaked.",
-        question: "¿Qué oyó el narrador?",
+        question: "What did the narrator hear?",
         options: [
           "El crujido de una tabla del suelo.",
           "El zumbido de una nevera.",
@@ -1692,7 +1692,7 @@ export const EN_C2_U30: Lesson[] = [
             answer: "I'd recommend seeing it in the original language.",
             altAnswers: alts(
               ["I'd recommend seeing it", "I recommend seeing it", "I recommend watching it", "I'd recommend watching it"],
-              ["in the original language.", "in the original version.", "in its original language.", "in its original version.", "with subtitles."],
+              ["in the original language.", "in the original version.", "in its original language.", "in its original version."],
             ),
             explanation: "\"Recommend\" + -ing: never *I recommend to see it. «Versión original» is usually \"the original language\" (with subtitles).",
           },
@@ -1752,7 +1752,7 @@ export const EN_C2_U30: Lesson[] = [
         answer: "The weak link is the script, which spells everything out.",
         altAnswers: alts(
           ["The weak link is the script,", "The weak point is the script,", "The weakness is the script,"],
-          ["which spells everything out.", "which overexplains everything.", "which underlines everything.", "which explains everything.", "which spells out everything."],
+          ["which spells everything out.", "which overexplains everything.", "which underlines everything.", "which spells out everything."],
         ),
         explanation: "\"Spell everything out\" means explaining too much, leaving nothing to the viewer.",
       },
@@ -1774,7 +1774,7 @@ export const EN_C2_U30: Lesson[] = [
         sentence: "If you are not a fan of the genre, give this one a ___.",
         answer: "miss",
         en: "Si no te gusta el género, [sáltate] esta.",
-        explanation: "\"Give something a miss\" is an informal way of saying «no verlo, saltárselo».",
+        explanation: "\"Give something a miss\" is an informal British way of saying «no verlo, saltárselo».",
       },
       {
         type: "translate",
@@ -1793,7 +1793,7 @@ export const EN_C2_U30: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Not", "quite", "a", "masterpiece,", "but", "well", "worth", "seeing."],
-        translation: "No llega a ser una obra maestra, pero merece mucho la pena verla.",
+        translation: "No llega a ser una obra maestra, pero vale mucho la pena verla.",
         explanation: "A compact, nuanced verdict: \"not quite\" softens, \"well worth\" recommends.",
       },
       {
@@ -1816,8 +1816,8 @@ export const EN_C2_U30: Lesson[] = [
         maxWords: 300,
         rubric: [
           "Opens with a hook rather than announcing the review.",
-          "Summarises briefly in the present tense without spoilers.",
-          "Analyses at least two aspects (acting, structure, visuals, prose, sound...) and links them to effects.",
+          "Summarizes briefly in the present tense without spoilers.",
+          "Analyzes at least two aspects (acting, structure, visuals, prose, sound...) and links them to effects.",
           "Uses precise evaluative language, including some balance (for all its flaws, is let down by...).",
           "Ends with a clear verdict or recommendation.",
         ],
@@ -2014,7 +2014,7 @@ export const EN_C2_U30: Lesson[] = [
           "Names at least one technique and its effect.",
           "Includes at least two precise evaluative adjectives (no interesting, nice or good).",
           "Uses at least two vivid verbs (flicker, creak, trudge, gleam...).",
-          "Ends with a nuanced judgement.",
+          "Ends with a nuanced judgment.",
         ],
         modelAnswer: "The most poignant scene in the film is almost silent. An old man trudges up the stairs of his empty house; every step creaks, and the camera, placed at the top of the staircase, makes him look small and fragile. When he reaches his wife's room, a single lamp flickers and dies. There is no score, only the hum of the fridge downstairs, which makes the absence of her voice unbearable. It is an understated, deeply moving sequence, and it shows a director in complete control of her material, even if the rest of the film never quite reaches this level.",
         explanation: "The model combines technique, effect, precise adjectives and vivid verbs in one tight paragraph.",

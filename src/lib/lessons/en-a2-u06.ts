@@ -182,7 +182,7 @@ export const EN_A2_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Él acaba de comprar un coche nuevo.",
+        source: "Él acaba de comprar un carro nuevo.",
         answer: "He's just bought a new car.",
         altAnswers: ["He just bought a new car."],
         explanation: "\"Has just\" + participio (\"bought\"). El adjetivo va delante del sustantivo: \"a new car\".",
@@ -537,7 +537,7 @@ export const EN_A2_U06: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "I've had this car ___ six months.",
         answer: "for",
-        en: "Tengo este coche [desde hace] seis meses.",
+        en: "Tengo este carro [desde hace] seis meses.",
         explanation: "Seis meses es una duración: \"for six months\".",
       },
       {
@@ -638,11 +638,11 @@ export const EN_A2_U06: Lesson[] = [
         body: [
           "Algunos verbos describen estados, no acciones: \"know\" (conocer, saber), \"have\" (tener), \"be\" (ser, estar), \"like\" (gustar). Con \"for\" y \"since\" van en presente perfecto simple: \"I've known her since school\".",
           "Nunca *I've been knowing her ni *I'm knowing her: estos verbos casi nunca se usan en forma continua.",
-          "\"Have\" en el sentido de «tener» también va así: \"I've had this car for ages\" («tengo este coche desde hace siglos»). \"For ages\" es una forma muy coloquial de decir «desde hace mucho tiempo».",
+          "\"Have\" en el sentido de «tener» también va así: \"I've had this car for ages\" («tengo este carro desde hace siglos»). \"For ages\" es una forma muy coloquial de decir «desde hace mucho tiempo».",
         ],
         examples: [
           { es: "I've known her since school.", en: "La conozco desde el colegio." },
-          { es: "I've had this car for ages.", en: "Tengo este coche desde hace siglos." },
+          { es: "I've had this car for ages.", en: "Tengo este carro desde hace siglos." },
           { es: "We've been friends for ten years.", en: "Somos amigos desde hace diez años." },
           { es: "She's had a dog since she was little.", en: "Ella tiene perro desde que era pequeña." },
           { es: "I've always liked jazz.", en: "Siempre me ha gustado el jazz." },
@@ -764,7 +764,7 @@ export const EN_A2_U06: Lesson[] = [
         type: "word-order",
         prompt: "Ordena las palabras.",
         words: ["I've", "had", "this", "car", "for", "ages."],
-        translation: "Tengo este coche desde hace siglos.",
+        translation: "Tengo este carro desde hace siglos.",
         explanation: "\"For ages\" es una forma coloquial de decir «desde hace mucho tiempo».",
       },
       {

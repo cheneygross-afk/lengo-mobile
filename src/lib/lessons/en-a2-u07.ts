@@ -996,7 +996,7 @@ export const EN_A2_U07: Lesson[] = [
         ],
         examples: [
           { es: "There's too much traffic.", en: "Hay demasiado tráfico." },
-          { es: "There are too many cars.", en: "Hay demasiados coches." },
+          { es: "There are too many cars.", en: "Hay demasiados carros." },
           { es: "There are too many people here.", en: "Aquí hay demasiada gente." },
           { es: "I drink too much coffee.", en: "Bebo demasiado café." },
           { es: "You work too much.", en: "Trabajas demasiado." },
@@ -1101,7 +1101,7 @@ export const EN_A2_U07: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "There are ___ cars in the city center.",
         answer: "too many",
-        en: "Hay [demasiados] coches en el centro.",
+        en: "Hay [demasiados] carros en el centro.",
         explanation: "\"Cars\" es plural: \"too many cars\", no *too much cars.",
       },
       {
@@ -1755,7 +1755,7 @@ export const EN_A2_U07: Lesson[] = [
         ],
         examples: [
           { es: "I have a few friends here.", en: "Tengo unos cuantos amigos aquí." },
-          { es: "There are too many cars.", en: "Hay demasiados coches." },
+          { es: "There are too many cars.", en: "Hay demasiados carros." },
           { es: "It's too expensive.", en: "Es demasiado caro." },
           { es: "We have enough time.", en: "Tenemos tiempo suficiente." },
         ],
@@ -1833,7 +1833,7 @@ export const EN_A2_U07: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "There are ___ cars on this street.",
         answer: "too many",
-        en: "Hay [demasiados] coches en esta calle.",
+        en: "Hay [demasiados] carros en esta calle.",
         explanation: "\"Cars\" es plural: \"too many\", no *too much.",
       },
       {

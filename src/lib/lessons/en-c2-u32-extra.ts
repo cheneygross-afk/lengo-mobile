@@ -29,7 +29,7 @@ export const EN_C2_U32_EXTRA: Lesson[] = [
           { es: "She said, \"I'm tired.\"", en: "Ella dijo: «Estoy cansada»." },
           { es: "\"Where,\" he asked, \"did you put the keys?\"", en: "—¿Dónde —preguntó él— has puesto las llaves?" },
           { es: "\"It's late,\" Emma said. \"Let's go.\"", en: "—Es tarde —dijo Emma—. Vámonos." },
-          { es: "\"Fine.\" He shrugged.", en: "—Vale. —Se encogió de hombros." },
+          { es: "\"Fine.\" He shrugged.", en: "—Está bien. —Se encogió de hombros." },
         ],
         checkpoint: [
           {

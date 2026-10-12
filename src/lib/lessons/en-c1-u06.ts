@@ -192,7 +192,7 @@ export const EN_C1_U06: Lesson[] = [
         sentence: "The apartment is tiny. ___, the location is perfect.",
         answer: "Mind you",
         altAnswers: ["Then again", "Still", "That said", "Having said that", "But then again"],
-        en: "El piso es diminuto. [Eso sí], la ubicación es perfecta.",
+        en: "El departamento es diminuto. [Eso sí], la ubicación es perfecta.",
         explanation: "\"Mind you\" adds a qualification that balances what you have just said, like «eso sí».",
       },
       {
@@ -326,7 +326,7 @@ export const EN_C1_U06: Lesson[] = [
         ],
         examples: [
           { es: "The hotel was expensive. Having said that, the service was excellent.", en: "El hotel era caro. Dicho esto, el servicio era excelente." },
-          { es: "We could take the train. Then again, driving would be cheaper.", en: "Podríamos ir en tren. Aunque, bien pensado, en coche saldría más barato." },
+          { es: "We could take the train. Then again, driving would be cheaper.", en: "Podríamos ir en tren. Aunque, bien pensado, en carro saldría más barato." },
           { es: "I know you're busy. Still, you could call your grandmother.", en: "Ya sé que estás ocupado. Aun así, podrías llamar a tu abuela." },
           { es: "It probably won't work, but let's try it all the same.", en: "Probablemente no funcione, pero probémoslo de todas formas." },
           { es: "Thanks all the same.", en: "Gracias de todos modos." },
@@ -416,7 +416,7 @@ export const EN_C1_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si te soy sincero, no me apetece nada ir.",
+        source: "Si te soy sincero, no tengo nada de ganas de ir.",
         answer: "To be honest, I really don't feel like going.",
         altAnswers: [
           "To be honest, I don't feel like going at all.",
@@ -429,7 +429,7 @@ export const EN_C1_U06: Lesson[] = [
           "To tell you the truth, I don't want to go at all.",
           "To be honest, I'm not in the mood to go at all.",
         ],
-        explanation: "«Si te soy sincero» = \"to be honest\" or \"to tell you the truth\". «No me apetece» = \"I don't feel like\" + -ing.",
+        explanation: "«Si te soy sincero» = \"to be honest\" or \"to tell you the truth\". «No tengo ganas de» = \"I don't feel like\" + -ing.",
       },
       {
         type: "multiple-choice",
@@ -501,7 +501,7 @@ export const EN_C1_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No te enfades con ella. Al fin y al cabo, solo intentaba ayudar.",
+        source: "No te enojes con ella. Al fin y al cabo, solo intentaba ayudar.",
         answer: "Don't be angry with her. After all, she was only trying to help.",
         altAnswers: [
           "Don't get angry with her. After all, she was only trying to help.",
@@ -623,7 +623,7 @@ export const EN_C1_U06: Lesson[] = [
         heading: "Taking part in a discussion",
         body: [
           "In meetings or debates, markers help you agree, disagree and keep your turn. To disagree politely, concede first: \"I see what you mean, but...\", \"That's a fair point. Having said that...\". To hold the floor: \"Hang on, let me finish.\" To go back: \"Going back to what Emma said...\"",
-          "To agree, you can say \"Fair enough\" («vale, es razonable»), \"Exactly\" or \"That's true\". Spanish speakers often answer «claro» with *Clear!, which is not English. Say \"Sure\", \"Of course\" or \"Right\" instead.",
+          "To agree, you can say \"Fair enough\" («está bien, es razonable»), \"Exactly\" or \"That's true\". Spanish speakers often answer «claro» with *Clear!, which is not English. Say \"Sure\", \"Of course\" or \"Right\" instead.",
           "Formal spoken contexts like presentations allow a little more: \"In addition\", \"On the other hand\", \"To sum up\". \"Moreover\" is still rare even there.",
         ],
         examples: [
@@ -631,7 +631,7 @@ export const EN_C1_U06: Lesson[] = [
           { es: "That's a fair point. Having said that, we don't have the budget.", en: "Es un argumento razonable. Dicho esto, no tenemos presupuesto." },
           { es: "Hang on, let me finish.", en: "Espera, déjame terminar." },
           { es: "Going back to what Emma said, I think she's right.", en: "Volviendo a lo que ha dicho Emma, creo que tiene razón." },
-          { es: "Fair enough. Let's do it your way.", en: "Vale, es razonable. Hagámoslo a tu manera." },
+          { es: "Fair enough. Let's do it your way.", en: "Está bien, es razonable. Hagámoslo a tu manera." },
         ],
         checkpoint: [
           {
@@ -727,7 +727,7 @@ export const EN_C1_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Vale, es razonable. Pero volviendo a lo que decía Tom, ¿quién lo va a pagar?",
+        source: "Está bien, es razonable. Pero volviendo a lo que decía Tom, ¿quién lo va a pagar?",
         answer: "Fair enough. But going back to what Tom was saying, who's going to pay for it?",
         altAnswers: [
           "Fair enough. But going back to what Tom said, who's going to pay for it?",
@@ -1107,9 +1107,9 @@ export const EN_C1_U06: Lesson[] = [
           "\"Accordingly\" means «en consecuencia» in the sense of acting in a way that matches the situation: \"The rules have changed. Accordingly, we have updated our policy.\"",
         ],
         examples: [
-          { es: "Sales fell sharply. Consequently, fifty workers lost their jobs.", en: "Las ventas cayeron en picado. Por consiguiente, cincuenta trabajadores perdieron su empleo." },
-          { es: "The bridge was closed, hence the traffic jams.", en: "El puente estaba cerrado; de ahí los atascos." },
-          { es: "The city banned cars from the center, thereby reducing pollution.", en: "La ciudad prohibió los coches en el centro, con lo cual redujo la contaminación." },
+          { es: "Sales fell sharply. Consequently, fifty workers lost their jobs.", en: "Las ventas cayeron en picada. Por consiguiente, cincuenta trabajadores perdieron su empleo." },
+          { es: "The bridge was closed, hence the traffic jams.", en: "El puente estaba cerrado; de ahí los embotellamientos." },
+          { es: "The city banned cars from the center, thereby reducing pollution.", en: "La ciudad prohibió los carros en el centro, con lo cual redujo la contaminación." },
           { es: "Demand has doubled; thus, prices are likely to rise.", en: "La demanda se ha duplicado; por lo tanto, es probable que suban los precios." },
           { es: "The client's needs have changed, and we have adjusted the plan accordingly.", en: "Las necesidades del cliente han cambiado y hemos ajustado el plan en consecuencia." },
         ],
@@ -1202,10 +1202,10 @@ export const EN_C1_U06: Lesson[] = [
           "Summary markers differ: \"in short\" and \"in brief\" condense, \"all in all\" gives an overall view, \"on balance\" («sopesándolo todo») weighs pros and cons, and \"in conclusion\" opens the final paragraph of an essay.",
         ],
         examples: [
-          { es: "Finally, I will consider the cost of the project.", en: "Por último, analizaré el coste del proyecto." },
+          { es: "Finally, I will consider the cost of the project.", en: "Por último, analizaré el costo del proyecto." },
           { es: "After months of negotiations, they reached an agreement at last.", en: "Tras meses de negociaciones, por fin llegaron a un acuerdo." },
           { es: "To sum up, the plan is ambitious but realistic.", en: "En resumen, el plan es ambicioso pero realista." },
-          { es: "In short, we need more funding.", en: "En pocas palabras, necesitamos más financiación." },
+          { es: "In short, we need more funding.", en: "En pocas palabras, necesitamos más financiamiento." },
           { es: "On balance, the benefits outweigh the risks.", en: "Sopesándolo todo, los beneficios superan los riesgos." },
           { es: "All in all, it was a successful year.", en: "En general, fue un año de éxito." },
         ],
@@ -1420,7 +1420,7 @@ export const EN_C1_U06: Lesson[] = [
         ],
         examples: [
           { es: "Remote work saves commuting time. However, it can lead to isolation.", en: "El teletrabajo ahorra tiempo de desplazamiento. Sin embargo, puede provocar aislamiento." },
-          { es: "Remote work saves commuting time. It also reduces office costs.", en: "El teletrabajo ahorra tiempo de desplazamiento. También reduce los costes de oficina." },
+          { es: "Remote work saves commuting time. It also reduces office costs.", en: "El teletrabajo ahorra tiempo de desplazamiento. También reduce los costos de oficina." },
           { es: "Many employees live far from the office. As a result, they welcome remote work.", en: "Muchos empleados viven lejos de la oficina. Por eso, ven con buenos ojos el teletrabajo." },
           { es: "Some sectors, for instance retail, cannot work remotely.", en: "Algunos sectores, por ejemplo el comercio, no pueden teletrabajar." },
         ],
@@ -1480,14 +1480,14 @@ export const EN_C1_U06: Lesson[] = [
       {
         heading: "A paragraph, start to finish",
         body: [
-          "Look at how markers support an argument here: \"Tourism brings undeniable economic benefits to coastal towns. Admittedly, it also drives up rents, and many locals can no longer afford to live in the center. Nevertheless, a ban would be counterproductive. A better solution would be to cap holiday rentals, thereby protecting housing without discouraging visitors. In short, the aim should be to manage tourism, not to stop it.\"",
+          "Look at how markers support an argument here: \"Tourism brings undeniable economic benefits to coastal towns. Admittedly, it also drives up rents, and many locals can no longer afford to live in the center. Nevertheless, a ban would be counterproductive. A better solution would be to cap vacation rentals, thereby protecting housing without discouraging visitors. In short, the aim should be to manage tourism, not to stop it.\"",
           "There are only four markers in five sentences, each with a clear function: concession (\"admittedly\"), counter-argument (\"nevertheless\"), effect (\"thereby\") and summary (\"in short\"). The first sentence needs none.",
           "Reports, unlike essays, prefer neutral markers that organize facts: \"in addition\", \"as a result\", \"overall\", \"by contrast\". Keep the very argumentative ones (\"admittedly\", \"what is more\") for essays and opinion pieces.",
         ],
         examples: [
           { es: "Admittedly, it also drives up rents.", en: "Es cierto que también encarece los alquileres." },
           { es: "Nevertheless, a ban would be counterproductive.", en: "Aun así, una prohibición sería contraproducente." },
-          { es: "A better solution would be to cap holiday rentals, thereby protecting housing.", en: "Una solución mejor sería limitar los pisos turísticos, protegiendo así la vivienda." },
+          { es: "A better solution would be to cap vacation rentals, thereby protecting housing.", en: "Una solución mejor sería limitar las rentas vacacionales, protegiendo así la vivienda." },
           { es: "In short, the aim should be to manage tourism, not to stop it.", en: "En resumen, el objetivo debería ser gestionar el turismo, no frenarlo." },
           { es: "Overall, sales rose by 4% in the first quarter.", en: "En conjunto, las ventas subieron un 4% en el primer trimestre." },
         ],
@@ -1577,7 +1577,7 @@ export const EN_C1_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La ciudad prohibió los coches en el centro. Esta medida redujo la contaminación un 30%.",
+        source: "La ciudad prohibió los carros en el centro. Esta medida redujo la contaminación un 30%.",
         answer: "The city banned cars from the center. This measure reduced pollution by 30%.",
         altAnswers: [
           "The city banned cars in the center. This measure reduced pollution by 30%.",
@@ -1642,7 +1642,7 @@ export const EN_C1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Cars are the main source of urban pollution. ___, cities should invest in public transport.\" Which marker matches the logic?",
+        question: "\"Cars are the main source of urban pollution. ___, cities should invest in public transportation.\" Which marker matches the logic?",
         options: ["Therefore", "Admittedly", "Whereas", "Conversely"],
         correctIndex: 0,
         explanation: "The second sentence is a conclusion drawn from the first, so you need a result marker such as \"therefore\" or \"consequently\".",
@@ -1680,7 +1680,7 @@ export const EN_C1_U06: Lesson[] = [
         examples: [
           { es: "Actually, I've changed my mind.", en: "La verdad es que he cambiado de opinión." },
           { es: "It's late, isn't it?", en: "Es tarde, ¿no?" },
-          { es: "It's a long drive. Then again, the views are amazing.", en: "Es un viaje largo en coche. Aunque, bien pensado, las vistas son increíbles." },
+          { es: "It's a long drive. Then again, the views are amazing.", en: "Es un viaje largo en carro. Aunque, bien pensado, las vistas son increíbles." },
           { es: "He's always late. Plus, he never apologizes.", en: "Siempre llega tarde. Y encima nunca pide perdón." },
         ],
         checkpoint: [
@@ -1749,7 +1749,7 @@ export const EN_C1_U06: Lesson[] = [
           "Neutral markers such as \"however\", \"in addition\", \"as a result\" and \"overall\" work in reports, emails and presentations. Choose by function first, then by register.",
         ],
         examples: [
-          { es: "It was late, so we took a taxi.", en: "Era tarde, así que cogimos un taxi. (oral)" },
+          { es: "It was late, so we took a taxi.", en: "Era tarde, así que tomamos un taxi. (oral)" },
           { es: "It was late; consequently, the participants took a taxi.", en: "Era tarde; por consiguiente, los participantes tomaron un taxi. (escrito)" },
           { es: "The room was small. Nice view, though.", en: "La habitación era pequeña. Bonitas vistas, eso sí. (oral)" },
           { es: "The room was small. Nevertheless, it offered a fine view.", en: "La habitación era pequeña. No obstante, ofrecía unas vistas magníficas. (escrito)" },
@@ -1776,9 +1776,9 @@ export const EN_C1_U06: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "El hotel era viejo. Eso sí, el personal era encantador.",
-        answer: "The hotel was old. Mind you, the staff were lovely.",
+        answer: "The hotel was old. Mind you, the staff was lovely.",
         altAnswers: [
-          "The hotel was old. Mind you, the staff was lovely.",
+          "The hotel was old. Mind you, the staff were lovely.",
           "The hotel was old. Mind you, the staff were charming.",
           "The hotel was old. Mind you, the staff was charming.",
           "The hotel was old. Mind you, the staff were really nice.",
@@ -1915,7 +1915,7 @@ export const EN_C1_U06: Lesson[] = [
         sentence: "The company invested in solar panels, ___ cutting its energy bills by 40%.",
         answer: "thereby",
         altAnswers: ["thus"],
-        en: "La empresa invirtió en placas solares, [reduciendo así] su factura energética en un 40%.",
+        en: "La empresa invirtió en paneles solares, [reduciendo así] su factura energética en un 40%.",
         explanation: "\"Thereby\" or \"thus\" + -ing = the effect of the action. Revisit Written Discourse Markers, Part 2.",
       },
       {
@@ -1979,7 +1979,7 @@ export const EN_C1_U06: Lesson[] = [
           { es: "I currently work for a small consultancy.", en: "Actualmente trabajo en una pequeña consultora." },
           { es: "Nowadays, most people pay by card.", en: "Actualmente, la mayoría de la gente paga con tarjeta." },
           { es: "Actually, I've never been to Mexico.", en: "En realidad, nunca he estado en México." },
-          { es: "The actual cost was twice the estimate.", en: "El coste real fue el doble de lo previsto." },
+          { es: "The actual cost was twice the estimate.", en: "El costo real fue el doble de lo previsto." },
           { es: "The current situation is unsustainable.", en: "La situación actual es insostenible." },
         ],
         checkpoint: [
@@ -2123,7 +2123,7 @@ export const EN_C1_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "En realidad no estoy enfadado, solo cansado.",
+        source: "En realidad no estoy enojado, solo cansado.",
         answer: "Actually, I'm not angry, just tired.",
         altAnswers: [
           "I'm not actually angry, just tired.",
@@ -2221,7 +2221,7 @@ export const EN_C1_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El coste real del proyecto fue mucho mayor.",
+        source: "El costo real del proyecto fue mucho mayor.",
         answer: "The actual cost of the project was much higher.",
         altAnswers: [
           "The real cost of the project was much higher.",
@@ -2434,7 +2434,7 @@ export const EN_C1_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Por un lado, el piso es precioso. Por otro, está lejísimos del trabajo.",
+        source: "Por un lado, el departamento es precioso. Por otro, está lejísimos del trabajo.",
         answer: "On the one hand, the apartment is beautiful. On the other hand, it's really far from work.",
         altAnswers: [
           "On the one hand, the apartment is beautiful. On the other, it's really far from work.",
@@ -2677,7 +2677,7 @@ export const EN_C1_U06: Lesson[] = [
           "\"Though\" as a conjunction starts a clause (\"Though it was late, we stayed\"). As a contrast adverb it goes at the end or after the subject, not at the start of a sentence with a comma: *Though, I liked it. Say \"I liked it, though\" or \"However, I liked it.\"",
         ],
         examples: [
-          { es: "Lastly, I will discuss the costs.", en: "Por último, hablaré de los costes. (incorrecto: *at last)" },
+          { es: "Lastly, I will discuss the costs.", en: "Por último, hablaré de los costos. (incorrecto: *at last)" },
           { es: "I'm too tired to go out. Besides, it's raining.", en: "Estoy demasiado cansado para salir. Además, está lloviendo." },
           { es: "In addition, the policy has reduced crime.", en: "Además, la medida ha reducido la delincuencia." },
           { es: "The ending was weak. I liked the movie, though.", en: "El final era flojo. Aun así, la película me gustó." },
@@ -2700,7 +2700,7 @@ export const EN_C1_U06: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Fue un viaje agotador. Mereció la pena, eso sí.",
+            source: "Fue un viaje agotador. Valió la pena, eso sí.",
             answer: "It was an exhausting trip. It was worth it, though.",
             altAnswers: [
               "It was an exhausting journey. It was worth it, though.",
@@ -2726,10 +2726,10 @@ export const EN_C1_U06: Lesson[] = [
         type: "multiple-choice",
         question: "Find the correct sentence.",
         options: [
-          "On the other hand, public transport is cheaper.",
-          "In the other hand, public transport is cheaper.",
-          "At the other hand, public transport is cheaper.",
-          "By other hand, public transport is cheaper.",
+          "On the other hand, public transportation is cheaper.",
+          "In the other hand, public transportation is cheaper.",
+          "At the other hand, public transportation is cheaper.",
+          "By other hand, public transportation is cheaper.",
         ],
         correctIndex: 0,
         explanation: "Only \"on the other hand\" is correct.",
@@ -2816,7 +2816,7 @@ export const EN_C1_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Como había huelga de metro, fuimos andando.",
+        source: "Como había huelga de metro, fuimos caminando.",
         answer: "Because there was a subway strike, we walked.",
         altAnswers: [
           "As there was a subway strike, we walked.",
@@ -2858,7 +2858,7 @@ export const EN_C1_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No me apetece salir. Además, mañana tengo que madrugar.",
+        source: "No tengo ganas de salir. Además, mañana tengo que madrugar.",
         answer: "I don't feel like going out. Besides, I have to get up early tomorrow.",
         altAnswers: [
           "I don't feel like going out. Besides, I've got to get up early tomorrow.",
@@ -2970,7 +2970,7 @@ export const EN_C1_U06: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English, using \"thereby\".",
-            source: "El banco bajó los tipos de interés, con lo que abarató las hipotecas.",
+            source: "El banco bajó las tasas de interés, con lo que abarató las hipotecas.",
             answer: "The bank lowered interest rates, thereby making mortgages cheaper.",
             altAnswers: [
               "The bank cut interest rates, thereby making mortgages cheaper.",
@@ -2990,12 +2990,12 @@ export const EN_C1_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence means the same as: \"The train was cancelled. That's why we arrived late.\"",
+            question: "Which sentence means the same as: \"The train was canceled. That's why we arrived late.\"",
             options: [
-              "The train was cancelled, hence our late arrival.",
-              "The train was cancelled, thereby we arrived late.",
-              "The train was cancelled, hence we late arrival.",
-              "The train was cancelled, whereas we arrived late.",
+              "The train was canceled, hence our late arrival.",
+              "The train was canceled, thereby we arrived late.",
+              "The train was canceled, hence we late arrival.",
+              "The train was canceled, whereas we arrived late.",
             ],
             correctIndex: 0,
             explanation: "\"Hence\" + noun phrase (\"our late arrival\"). \"Thereby\" can't introduce a new subject + verb.",
@@ -3012,8 +3012,8 @@ export const EN_C1_U06: Lesson[] = [
         examples: [
           { es: "Notwithstanding the delays, the project was a success.", en: "A pesar de los retrasos, el proyecto fue un éxito." },
           { es: "Despite the delays, the project was a success.", en: "Pese a los retrasos, el proyecto fue un éxito." },
-          { es: "Sales rose while costs fell.", en: "Las ventas subieron mientras bajaban los costes." },
-          { es: "Even so, the company did not hire anyone, hence the overworked staff.", en: "Aun así, la empresa no contrató a nadie, de ahí la sobrecarga de la plantilla." },
+          { es: "Sales rose while costs fell.", en: "Las ventas subieron mientras bajaban los costos." },
+          { es: "Even so, the company did not hire anyone, hence the overworked staff.", en: "Aun así, la empresa no contrató a nadie, de ahí la sobrecarga del personal." },
         ],
         checkpoint: [
           {
@@ -3085,7 +3085,7 @@ export const EN_C1_U06: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["The", "city", "banned", "cars,", "thereby", "cutting", "pollution", "by", "half."],
-        translation: "La ciudad prohibió los coches, reduciendo así la contaminación a la mitad.",
+        translation: "La ciudad prohibió los carros, reduciendo así la contaminación a la mitad.",
         explanation: "Main clause + \"thereby\" + -ing: the effect of the city's action.",
       },
       {
@@ -3122,7 +3122,7 @@ export const EN_C1_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English, using \"thereby\".",
-        source: "La empresa automatizó la producción, con lo que redujo costes un 20%.",
+        source: "La empresa automatizó la producción, con lo que redujo costos un 20%.",
         answer: "The company automated production, thereby reducing costs by 20%.",
         altAnswers: [
           "The company automated its production, thereby reducing costs by 20%.",
@@ -3250,7 +3250,7 @@ export const EN_C1_U06: Lesson[] = [
           "Advanced upgrades: \"so as to\" (slightly formal) and especially the negatives \"so as not to\" and \"in order not to\", which sound much better than \"to not\": \"We left early so as not to miss the train.\" In very formal texts, \"in order that\" + clause replaces \"so that\".",
         ],
         examples: [
-          { es: "I'm saving money in order to buy a car.", en: "Estoy ahorrando para comprarme un coche." },
+          { es: "I'm saving money in order to buy a car.", en: "Estoy ahorrando para comprarme un carro." },
           { es: "She spoke slowly so that everyone could understand.", en: "Habló despacio para que todos pudieran entenderla." },
           { es: "We left early so as not to miss the train.", en: "Salimos temprano para no perder el tren." },
           { es: "He whispered so as not to wake the baby.", en: "Susurró para no despertar al bebé." },
@@ -3295,11 +3295,11 @@ export const EN_C1_U06: Lesson[] = [
         ],
         examples: [
           { es: "I won't sign unless they change the contract.", en: "No firmaré a menos que cambien el contrato." },
-          { es: "You can use my car as long as you fill up the tank.", en: "Puedes usar mi coche siempre que llenes el depósito." },
+          { es: "You can use my car as long as you fill up the tank.", en: "Puedes usar mi carro siempre que llenes el tanque." },
           { es: "Provided that the weather is good, the event will be held outdoors.", en: "Siempre que haga buen tiempo, el acto se celebrará al aire libre." },
           { es: "He agreed to stay on condition that he could work from home.", en: "Accedió a quedarse con la condición de poder trabajar desde casa." },
           { es: "Take an umbrella in case it rains.", en: "Llévate un paraguas por si llueve." },
-          { es: "In the event that the flight is cancelled, you will receive a full refund.", en: "En caso de que se cancele el vuelo, recibirá un reembolso completo." },
+          { es: "In the event that the flight is canceled, you will receive a full refund.", en: "En caso de que se cancele el vuelo, recibirá un reembolso completo." },
         ],
         checkpoint: [
           {
@@ -3381,7 +3381,7 @@ export const EN_C1_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Puedes quedarte con el piso siempre que pagues el alquiler a tiempo.",
+        source: "Puedes quedarte con el departamento siempre que pagues el alquiler a tiempo.",
         answer: "You can keep the apartment as long as you pay the rent on time.",
         altAnswers: [
           "You can keep the apartment provided that you pay the rent on time.",
@@ -3482,7 +3482,7 @@ export const EN_C1_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "A pesar de haber estudiado mucho, suspendió el examen.",
+        source: "A pesar de haber estudiado mucho, reprobó el examen.",
         answer: "Despite having studied hard, he failed the exam.",
         altAnswers: [
           "Despite having studied hard, she failed the exam.",
@@ -3572,15 +3572,15 @@ export const EN_C1_U06: Lesson[] = [
         body: [
           "\"Bias\" («sesgo», «parcialidad») is a tendency to favor one side; a newspaper with bias is \"biased\": \"The coverage was heavily biased.\" Coverage that exaggerates to shock or excite is \"sensationalist\" («sensacionalista»).",
           "In Britain, \"tabloids\" are popular papers with big headlines, celebrity gossip and sensationalist stories, and \"broadsheets\" are serious papers (the name comes from their large format). In the US, \"tabloid\" also suggests sensationalism. An \"op-ed\" (mainly American) is an opinion piece by a writer who isn't on the paper's staff; the \"editorial\" expresses the paper's own view.",
-          "\"Misinformation\" is false information, whether or not it is spread on purpose; \"disinformation\" is deliberately false. «Un bulo» is \"a hoax\" or, informally, \"fake news\". Checking claims is \"fact-checking\".",
+          "\"Misinformation\" is false information, whether or not it is spread on purpose; \"disinformation\" is deliberately false. «Un engaño» or «una noticia falsa» is \"a hoax\" or, informally, \"fake news\". Checking claims is \"fact-checking\".",
         ],
         examples: [
           { es: "The report was accused of bias against the government.", en: "Se acusó al reportaje de parcialidad contra el gobierno." },
           { es: "I stopped reading that paper. It's so biased.", en: "Dejé de leer ese periódico. Es muy tendencioso." },
-          { es: "The tabloids are full of celebrity gossip.", en: "La prensa sensacionalista está llena de cotilleos sobre famosos." },
+          { es: "The tabloids are full of celebrity gossip.", en: "La prensa sensacionalista está llena de chismes sobre famosos." },
           { es: "She wrote an op-ed criticizing the new law.", en: "Escribió una tribuna de opinión criticando la nueva ley." },
           { es: "Misinformation spreads faster than the truth on social media.", en: "La desinformación se propaga más rápido que la verdad en las redes sociales." },
-          { es: "The photo turned out to be a hoax.", en: "La foto resultó ser un bulo." },
+          { es: "The photo turned out to be a hoax.", en: "La foto resultó ser un engaño." },
         ],
         checkpoint: [
           {
@@ -3739,7 +3739,7 @@ export const EN_C1_U06: Lesson[] = [
           { left: "coverage", right: "cobertura" },
           { left: "leak", right: "filtración" },
           { left: "bias", right: "sesgo" },
-          { left: "hoax", right: "bulo" },
+          { left: "hoax", right: "engaño" },
           { left: "breaking news", right: "última hora" },
         ],
         explanation: "These are the core words for talking about the media at the Advanced level.",
@@ -3771,7 +3771,7 @@ export const EN_C1_U06: Lesson[] = [
         options: [
           "A famous person has left a show after an argument.",
           "A famous person will leave a show after a rowing race.",
-          "A show has been cancelled because of the stars.",
+          "A show has been canceled because of the stars.",
           "A famous person has joined a show after a fight.",
         ],
         correctIndex: 0,

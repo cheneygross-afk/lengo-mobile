@@ -13,14 +13,22 @@ import { EN_C2_UNIT_WRITING } from "./en-unit-writing-c2";
 // (en-units.ts) with the Spanish course's machinery (unit-reviews.ts):
 //   - Listening: three "¿Qué significa?" clips and two dictations from the
 //     unit's own example sentences (LessonExample.es is the English,
-//     .en the Spanish meaning);
+//     .en the Spanish meaning). Up to two clips are authored listening
+//     items from the unit's optional practice lessons, with their own
+//     options; the others get wrong options from sentences that look like
+//     the right one (similar length and words, same lesson first);
 //   - Speaking: two sentences to read aloud, then two Spanish cues to say
 //     in English;
 //   - Writing: the unit's task from en-unit-writing-<level>.ts, keyed by
 //     unit id ("u1", "u07"...). A unit with no task yet simply has no
 //     writing section;
 //   - EN-A1..EN-B2: a 6-question unit quiz from the unit's lessons' final
-//     reviews; EN-C1/C2: three Spanish-to-English translations instead.
+//     reviews (up to four from its optional practice lessons, which most
+//     learners haven't seen, the rest from the required lessons);
+//     EN-C1/C2: three Spanish-to-English translations instead (up to two
+//     from the optional lessons).
+// Sentences for dictation and speaking also come from the optional
+// lessons first (see `matched` in unit-reviews.ts).
 // Instructions are in Spanish at EN-A1/A2 and in English from EN-B1 (the
 // inverse of the Spanish course). The review goes right after the unit's
 // last required lesson; in a unit that ends the level, right before its
@@ -103,7 +111,7 @@ const SPANISH_COPY: Copy = {
 const ENGLISH_COPY: Copy = {
   title: (n, unit) => `Unit ${n} review: ${unit}`,
   summary: (unit, quiz) =>
-    `Listen, speak and write with what you learned in «${unit}»${quiz ? ", then a short unit quiz" : ", then translate three sentences"}.`,
+    `Listen, speak and write with what you learned in "${unit}"${quiz ? ", then a short unit quiz" : ", then translate three sentences"}.`,
   listening: [
     "Listening",
     "Sentences from this unit's lessons. Play each one as often as you like before you answer: first pick what it means, then type exactly what you hear (🐢 plays it slowly).",
@@ -157,10 +165,14 @@ export function withEnglishUnitReview(
     quiz: QUIZ_LEVELS.has(levelCode),
     translationDirection: "es-en",
     strict: false,
+    matched: true,
   };
+  // The unit's optional practice lessons (-extra, -more): fresh variants
+  // of the same grammar, used before the required lessons' own items.
+  const variants = lessons.filter((l) => l.optional && !l.unitReview);
   const review = buildUnitReview(
     profile,
-    { number: unit.number, title: unit.title, lessons: material },
+    { number: unit.number, title: unit.title, lessons: material, variants },
     EN_UNIT_WRITING[levelCode][unit.id]
   );
   if (!review) return lessons;

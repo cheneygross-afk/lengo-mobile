@@ -18,8 +18,9 @@ export type GradeResult = { correct: boolean; note?: string };
 // English contractions; "other" (Japanese) gets the plain rules only.
 // "zh" (the Chinese beta) takes characters or pinyin -- see
 // lessons/zh/pinyin.ts; "fr" (French) gets the plain rules plus a
-// forgotten hyphen as a slip ("est ce que").
-export type AnswerLanguage = "es" | "en" | "zh" | "fr" | "other";
+// forgotten hyphen as a slip ("est ce que"); "de" (German) takes ss for ß,
+// and ae/oe/ue or a missing umlaut as a slip with a note.
+export type AnswerLanguage = "es" | "en" | "zh" | "fr" | "de" | "other";
 
 /** Share of a lesson's questions that must be right the first time for the lesson to count as complete. */
 export const LESSON_PASS_PERCENT = 70;
@@ -245,6 +246,11 @@ export function contractEnglish(cleaned: string): string {
 
 type Match = { rank: number; note?: string }; // 3 exact, 2 accent slip, 1 typo, 0 wrong
 
+/** "Mädchen" -> "maedchen": German umlauts written out. */
+function foldUmlauts(s: string): string {
+  return s.replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue");
+}
+
 function compare(typedClean: string, candidateClean: string, display: string, lang: AnswerLanguage): Match {
   if (typedClean === candidateClean) return { rank: 3 };
   const typed = typedClean.split(" ");
@@ -269,6 +275,11 @@ function compare(typedClean: string, candidateClean: string, display: string, la
       accentSlips++;
       continue;
     }
+    // German: "ae" for "ä" (the standard keyboard-less spelling).
+    if (lang === "de" && foldUmlauts(t) === foldUmlauts(c)) {
+      accentSlips++;
+      continue;
+    }
     // A slip has to leave the last two letters alone -- that's where
     // Spanish marks person, tense, gender and number.
     if (tl.length < 3 || cl.length < 3 || tl.slice(-2) !== cl.slice(-2)) return { rank: 0 };
@@ -278,7 +289,8 @@ function compare(typedClean: string, candidateClean: string, display: string, la
   }
   if (typoEdits > 2) return { rank: 0 };
   if (typoEdits > 0) return typo;
-  if (accentSlips > 0) return { rank: 2, note: `Correct -- just watch the accent mark: "${display}".` };
+  if (accentSlips > 0)
+    return { rank: 2, note: lang === "de" ? `Correct -- just watch the umlaut: "${display}".` : `Correct -- just watch the accent mark: "${display}".` };
   return { rank: 3 };
 }
 
@@ -330,7 +342,9 @@ export function gradeFreeText(value: string, answers: string[], opts: GradeOptio
       ? contractEnglish(cleanAnswer(s))
       : opts.lang === "fr"
         ? cleanAnswer(s).replace(/-/g, " ").replace(/\s+/g, " ")
-        : cleanAnswer(s);
+        : opts.lang === "de"
+          ? cleanAnswer(s).replace(/ß/g, "ss").replace(/„/g, " ").replace(/\s+/g, " ").trim()
+          : cleanAnswer(s);
   const typed = prep(value);
   if (!typed) return { correct: false };
   let best: Match = { rank: 0 };
@@ -344,10 +358,11 @@ export function gradeFreeText(value: string, answers: string[], opts: GradeOptio
   return best.rank > 0 ? { correct: true, note: best.note } : { correct: false };
 }
 
-/** "es-ES" -> "es", "zh-CN" -> "zh", "fr-FR" -> "fr", anything else (Japanese) -> "other". */
+/** "es-ES" -> "es", "zh-CN" -> "zh", "fr-FR" -> "fr", "de-DE" -> "de", anything else (Japanese) -> "other". */
 export function answerLanguageFor(speechLang: string): AnswerLanguage {
   if (speechLang.startsWith("zh")) return "zh";
   if (speechLang.startsWith("fr")) return "fr";
+  if (speechLang.startsWith("de")) return "de";
   return speechLang.startsWith("es") ? "es" : "other";
 }
 

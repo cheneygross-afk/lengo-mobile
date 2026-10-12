@@ -12,12 +12,14 @@ const BRAND = "#7A1F1F";
 // Mobile port of the website's /exams page: one full-length DELE practice
 // exam per level (src/lib/exams, synced from the website). With course
 // "fr", the French course's DELF/DALF exams (src/lib/exams/fr), as on the
-// website's /lessons/fr/tools/delf.
+// website's /lessons/fr/tools/delf; with "de", the German course's
+// Goethe-Zertifikat exams (src/lib/exams/de, /lessons/de/tools/goethe).
 export default function ExamsScreen({ navigation, route }: Props) {
   const course = route.params?.course ?? "es";
   const exams = useCourseExams(course);
   useLayoutEffect(() => {
     if (course === "fr") navigation.setOptions({ title: "DELF & DALF practice" });
+    if (course === "de") navigation.setOptions({ title: "Goethe-Zertifikat practice" });
   }, [navigation, course]);
   if (!exams) {
     return (
@@ -31,7 +33,9 @@ export default function ExamsScreen({ navigation, route }: Props) {
       <Text style={s.intro}>
         {course === "fr"
           ? "Practice exams in the format of the DELF and DALF, A1 to C2: listening with audio, reading, writing with feedback and speaking with timers and model answers, marked the way the real exam is."
-          : "Full-length practice exams modelled on the DELE: reading, listening with audio, writing with feedback and speaking with timers and model answers, marked the way the real exam is."}
+          : course === "de"
+            ? "Full-length practice exams modelled on the Goethe-Zertifikat, A1 to C2: reading, listening with audio, writing with feedback and speaking with timers and model answers, marked the way the real exam is."
+            : "Full-length practice exams modelled on the DELE: reading, listening with audio, writing with feedback and speaking with timers and model answers, marked the way the real exam is."}
       </Text>
       {exams.map((exam) => {
         const total = exam.papers.reduce((m, p) => m + p.minutes, 0);
@@ -39,14 +43,14 @@ export default function ExamsScreen({ navigation, route }: Props) {
           <Pressable
             key={exam.slug}
             style={s.card}
-            onPress={() => navigation.navigate("Exam", course === "fr" ? { slug: exam.slug, course } : { slug: exam.slug })}
+            onPress={() => navigation.navigate("Exam", course === "es" ? { slug: exam.slug } : { slug: exam.slug, course })}
           >
             <View style={s.titleRow}>
               <Text style={s.badge}>{exam.level}</Text>
               <Text style={s.title}>{exam.title}</Text>
             </View>
             <Text style={s.meta}>
-              {course === "fr" ? exam.papers.length : 4} papers · about {formatMinutes(total)}
+              {course === "es" ? 4 : exam.papers.length} papers · about {formatMinutes(total)}
             </Text>
             <Text style={s.description}>{exam.description}</Text>
           </Pressable>
@@ -55,7 +59,9 @@ export default function ExamsScreen({ navigation, route }: Props) {
       <Text style={s.note}>
         {course === "fr"
           ? "DELF and DALF are diplomas of the French Ministry of Education, administered by France Éducation international. These practice exams are written by Deep End and are not official exam material."
-          : "DELE is a trademark of the Instituto Cervantes. These practice exams are written by Deep End and are not official exam material."}
+          : course === "de"
+            ? "The Goethe-Zertifikat is an exam of the Goethe-Institut. These practice exams are written by Deep End and are not official exam material."
+            : "DELE is a trademark of the Instituto Cervantes. These practice exams are written by Deep End and are not official exam material."}
       </Text>
     </ScrollView>
   );

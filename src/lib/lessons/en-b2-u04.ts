@@ -61,7 +61,7 @@ export const EN_B2_U04: Lesson[] = [
           { es: "Next year I'm going to look for a new job.", en: "El año que viene voy a buscar otro trabajo." },
           { es: "I'm planning to take a course in data analysis.", en: "Tengo pensado hacer un curso de análisis de datos." },
           { es: "We're thinking of moving to the coast.", en: "Estamos pensando en mudarnos a la costa." },
-          { es: "I'm hoping to save enough for a car.", en: "Espero ahorrar lo suficiente para un coche." },
+          { es: "I'm hoping to save enough for a car.", en: "Espero ahorrar lo suficiente para un carro." },
           { es: "I hope I pass the exam in June.", en: "Espero aprobar el examen en junio." },
           { es: "I'd really like to learn to play the guitar.", en: "Me gustaría mucho aprender a tocar la guitarra." },
         ],
@@ -202,7 +202,7 @@ export const EN_B2_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Para 2030 habré terminado de pagar el coche.",
+        source: "Para 2030 habré terminado de pagar el carro.",
         answer: "By 2030, I'll have paid off the car.",
         altAnswers: [
           "By 2030, I'll have finished paying for the car.",
@@ -419,7 +419,7 @@ export const EN_B2_U04: Lesson[] = [
         examples: [
           { es: "At ten tomorrow I'll be working.", en: "Mañana a las diez estaré trabajando." },
           { es: "This time tomorrow I'll be flying to Lima.", en: "Mañana a esta hora estaré volando a Lima." },
-          { es: "Will you be using the car tonight?", en: "¿Vas a usar el coche esta noche?" },
+          { es: "Will you be using the car tonight?", en: "¿Vas a usar el carro esta noche?" },
           { es: "Don't call at nine. We'll be having dinner.", en: "No llames a las nueve. Estaremos cenando." },
           { es: "I'll be seeing Emma at the meeting anyway.", en: "De todas formas voy a ver a Emma en la reunión." },
         ],
@@ -1289,7 +1289,7 @@ export const EN_B2_U04: Lesson[] = [
         ],
         examples: [
           { es: "Once I've finished this email, I'll help you.", en: "Una vez que haya terminado este correo, te ayudo." },
-          { es: "When I've saved enough money, I'll buy a car.", en: "Cuando haya ahorrado suficiente dinero, me compraré un coche." },
+          { es: "When I've saved enough money, I'll buy a car.", en: "Cuando haya ahorrado suficiente dinero, me compraré un carro." },
           { es: "Once you've read the contract, sign it and send it back.", en: "Cuando hayas leído el contrato, fírmalo y devuélvelo." },
           { es: "After I pay, I'll send you the receipt.", en: "Después de pagar, te mando el recibo." },
           { es: "Once we've moved, we'll have a party.", en: "Cuando nos hayamos mudado, haremos una fiesta." },
@@ -1569,7 +1569,7 @@ export const EN_B2_U04: Lesson[] = [
           { es: "I'm going to repaint the bedroom.", en: "Voy a pintar el dormitorio otra vez. (plan)" },
           { es: "I'm having dinner with Tom tonight.", en: "Esta noche ceno con Tom. (cita acordada)" },
           { es: "The bus leaves at 7:40.", en: "El autobús sale a las 7:40. (horario)" },
-          { es: "At nine I'll be driving to work.", en: "A las nueve estaré conduciendo al trabajo. (en curso)" },
+          { es: "At nine I'll be driving to work.", en: "A las nueve estaré manejando al trabajo. (en curso)" },
           { es: "By nine I'll have arrived.", en: "Para las nueve ya habré llegado. (terminado)" },
         ],
         checkpoint: [
@@ -1590,10 +1590,10 @@ export const EN_B2_U04: Lesson[] = [
         heading: "Decision now or plan before?",
         body: [
           "The most frequent choice is between \"will\" and \"going to\". If you decide at the moment of speaking, use \"will\": \"The phone's ringing. I'll get it.\" If you decided earlier, use \"going to\": \"I'm going to call the bank tomorrow; I've been meaning to for days.\"",
-          "Spanish uses the present for both («lo cojo yo», «mañana llamo al banco»), so you cannot rely on the Spanish verb. Rely on when the decision was made.",
+          "Spanish uses the present for both («contesto yo», «mañana llamo al banco»), so you cannot rely on the Spanish verb. Rely on when the decision was made.",
         ],
         examples: [
-          { es: "The phone's ringing. I'll get it.", en: "Está sonando el teléfono. Lo cojo yo." },
+          { es: "The phone's ringing. I'll get it.", en: "Está sonando el teléfono. Contesto yo." },
           { es: "I'm going to call the bank tomorrow.", en: "Mañana llamo al banco." },
           { es: "I'll have the chicken, please.", en: "Para mí, el pollo, por favor." },
           { es: "We're going to get married next spring.", en: "Nos casamos la primavera que viene." },
@@ -1771,7 +1771,7 @@ export const EN_B2_U04: Lesson[] = [
         examples: [
           { es: "We're flying to Lisbon on the 12th.", en: "Volamos a Lisboa el día 12." },
           { es: "We're staying in a small hotel near the river.", en: "Nos quedamos en un hotelito cerca del río." },
-          { es: "We're going to rent a car for a couple of days.", en: "Vamos a alquilar un coche un par de días." },
+          { es: "We're going to rent a car for a couple of days.", en: "Vamos a alquilar un carro un par de días." },
           { es: "How was your trip?", en: "¿Qué tal el viaje?" },
           { es: "I've already booked the flights.", en: "Ya he reservado los vuelos." },
         ],
@@ -1849,7 +1849,7 @@ export const EN_B2_U04: Lesson[] = [
           "\"In case\" means «por si»: it's a precaution, and it also takes the present. «Llévate un paraguas por si llueve» is \"Take an umbrella in case it rains\". Don't confuse it with \"if\": \"Take an umbrella if it rains\" means only take it when it is raining.",
         ],
         examples: [
-          { es: "As soon as we land, we'll pick up the rental car.", en: "En cuanto aterricemos, recogeremos el coche de alquiler." },
+          { es: "As soon as we land, we'll pick up the rental car.", en: "En cuanto aterricemos, recogeremos el carro de alquiler." },
           { es: "We'll go to the beach after we check in.", en: "Iremos a la playa después de registrarnos en el hotel." },
           { es: "Take an umbrella in case it rains.", en: "Llévate un paraguas por si llueve." },
           { es: "I'll bring some cash in case they don't take cards.", en: "Llevaré algo de efectivo por si no aceptan tarjeta." },
@@ -1879,7 +1879,7 @@ export const EN_B2_U04: Lesson[] = [
             sentence: "As soon as ___ , we'll pick up the car.",
             answer: "we land",
             altAnswers: ["we arrive", "we get there", "we get in", "we've landed"],
-            en: "En cuanto [aterricemos], recogeremos el coche.",
+            en: "En cuanto [aterricemos], recogeremos el carro.",
             explanation: "\"As soon as\" + present simple: \"we land\", not *we will land.",
           },
         ],
@@ -2376,7 +2376,7 @@ export const EN_B2_U04: Lesson[] = [
         ],
         examples: [
           { es: "It was raining, and I had forgotten my umbrella.", en: "Llovía y me había olvidado el paraguas." },
-          { es: "I missed the bus, so I took a taxi.", en: "Perdí el autobús, así que cogí un taxi." },
+          { es: "I missed the bus, so I took a taxi.", en: "Perdí el autobús, así que tomé un taxi." },
           { es: "I used to work in a bank.", en: "Antes trabajaba en un banco." },
           { es: "When I got there, the meeting had already started.", en: "Cuando llegué, la reunión ya había empezado." },
         ],
@@ -2439,7 +2439,7 @@ export const EN_B2_U04: Lesson[] = [
           "Careful with completed actions: «iba al gimnasio todos los martes» is a habit, not a plan, so it is \"I went to the gym every Tuesday\" or \"I used to go\", not *I was going to go.",
         ],
         examples: [
-          { es: "I was going to call you, but my phone died.", en: "Iba a llamarte, pero se me murió el móvil." },
+          { es: "I was going to call you, but my phone died.", en: "Iba a llamarte, pero se me murió el celular." },
           { es: "We were about to leave when it started to rain.", en: "Estábamos a punto de salir cuando empezó a llover." },
           { es: "The package was supposed to arrive yesterday.", en: "El paquete tenía que llegar ayer." },
           { es: "I used to go to the gym every Tuesday.", en: "Iba al gimnasio todos los martes." },

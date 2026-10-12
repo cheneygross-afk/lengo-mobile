@@ -140,7 +140,7 @@ export const EN_B1_U06_EXTRA: Lesson[] = [
         sentence: "I'm not going to buy a car until I ___ a job.",
         answer: "have",
         altAnswers: ["find", "get", "'ve got", "have got", "have found", "'ve found", "have a job", "find a job", "get a job"],
-        en: "No voy a comprar un coche hasta que [tenga] trabajo.",
+        en: "No voy a comprar un carro hasta que [tenga] trabajo.",
         explanation: "«Hasta que tenga» is present in English: \"until I have a job\" (or \"find\" / \"get\" a job). \"Going to\" in the main clause is fine.",
       },
       {
@@ -392,10 +392,10 @@ export const EN_B1_U06_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si llegamos tarde, mi madre se enfadará.",
+        source: "Si llegamos tarde, mi madre se enojará.",
         answer: "If we're late, my mother will get angry.",
         altAnswers: ["If we arrive late, my mother will get angry.", "My mother will get angry if we're late.", "If we're late, my mom will get angry.", "If we're late, my mother will be angry.", "If we're late, my mom will be angry.", "My mom will get angry if we're late.", "If we get there late, my mother will get angry.", "If we're late, my mother will get mad.", "If we're late, my mom will get mad.", "If we arrive late, my mom will get angry.", "If we're late, my mum will get angry.", "If we're late, my mum will be angry."],
-        explanation: "«Llegar tarde» is \"be late\" in everyday English. «Enfadarse» is \"get angry\" (US also \"get mad\"), with \"will\" in the result.",
+        explanation: "«Llegar tarde» is \"be late\" in everyday English. «Enojarse» is \"get angry\" (US also \"get mad\"), with \"will\" in the result.",
       },
       {
         type: "multiple-choice",
@@ -717,7 +717,7 @@ export const EN_B1_U06_EXTRA: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Voy a cargar el móvil por si me llama mi madre.",
+            source: "Voy a cargar el celular por si me llama mi madre.",
             answer: "I'm going to charge my phone in case my mom calls me.",
             altAnswers: ["I'm going to charge my phone in case my mom calls.", "I'm going to charge my phone in case my mother calls.", "I'm going to charge my phone in case my mother calls me.", "I'll charge my phone in case my mom calls.", "I'll charge my phone in case my mother calls.", "I'm going to charge my phone in case my mum calls.", "I'm going to charge my phone in case my mum calls me.", "I'll charge my phone in case my mom calls me.", "I'll charge my phone in case my mother calls me.", "I'm going to charge my cell phone in case my mom calls.", "I'm going to charge my mobile in case my mum calls."],
             explanation: "A precaution, so \"in case my mom calls\": present, with the third-person \"-s\".",
@@ -733,7 +733,7 @@ export const EN_B1_U06_EXTRA: Lesson[] = [
         examples: [
           { es: "In case of fire, do not use the elevator.", en: "En caso de incendio, no use el ascensor." },
           { es: "In case of emergency, call this number.", en: "En caso de emergencia, llame a este número." },
-          { es: "Keep some water in the car in case there's an emergency.", en: "Ten algo de agua en el coche por si hay una emergencia." },
+          { es: "Keep some water in the car in case there's an emergency.", en: "Ten algo de agua en el carro por si hay una emergencia." },
         ],
         checkpoint: [
           {

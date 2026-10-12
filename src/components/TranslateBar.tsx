@@ -24,6 +24,24 @@ import {
   type TranslationResult,
 } from "@/lib/translate/api";
 import { buildCustomFlashcardEntry, loadFlashcards, saveFlashcards } from "@/lib/flashcards/store";
+import TapText from "@/components/TapText";
+import { ENGLISH_LANG, FRENCH_LANG, GERMAN_LANG, JAPANESE_LANG, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
+
+// The voice for one side of a direction ("en-de" -> English, then German):
+// the course language's words in a result are tap-to-hear, English isn't.
+const SIDE_LANG: Record<string, SpeechLang> = {
+  en: ENGLISH_LANG,
+  es: SPANISH_LANG,
+  ja: JAPANESE_LANG,
+  fr: FRENCH_LANG,
+  de: GERMAN_LANG,
+};
+
+function ResultText({ text, side, style }: { text: string; side: string; style: object }) {
+  const lang = SIDE_LANG[side] ?? ENGLISH_LANG;
+  if (lang === ENGLISH_LANG) return <Text style={style}>{text}</Text>;
+  return <TapText text={text} lang={lang} mode="target" style={style} />;
+}
 
 // Mobile port of the web app's TranslateSearch, moved from the top nav
 // bar (where the website keeps it, next to Log in/Settings) to a bar
@@ -76,7 +94,7 @@ function convertJapaneseInput(
   return toHiragana(raw);
 }
 
-export default function TranslateBar({ language }: { language: "es" | "ja" | "fr" }) {
+export default function TranslateBar({ language }: { language: "es" | "ja" | "fr" | "de" }) {
   const [query, setQuery] = useState("");
   const [manualOverride, setManualOverride] = useState<Direction | null>(null);
   const direction = manualOverride ?? detectDirection(query, language);
@@ -142,11 +160,13 @@ export default function TranslateBar({ language }: { language: "es" | "ja" | "fr
     if (!result) return;
     const isJapanese = result.direction === "en-ja" || result.direction === "ja-en";
     const isFrench = result.direction === "en-fr" || result.direction === "fr-en";
+    const isGerman = result.direction === "en-de" || result.direction === "de-en";
     // The flashcards store's "es" field always holds the foreign-language
     // term (Spanish or Japanese) and "en" holds the English side,
     // regardless of which direction this lookup ran in -- same
     // convention the website's TranslateSearch uses.
-    const foreignIsTranslation = result.direction === "en-es" || result.direction === "en-ja" || result.direction === "en-fr";
+    const foreignIsTranslation =
+      result.direction === "en-es" || result.direction === "en-ja" || result.direction === "en-fr" || result.direction === "en-de";
     const [es, en] = foreignIsTranslation ? [sense.translation, result.input] : [result.input, sense.translation];
     const note = sense.example ? `e.g. "${sense.example.source}"` : sense.note;
     const entry = buildCustomFlashcardEntry({
@@ -158,8 +178,9 @@ export default function TranslateBar({ language }: { language: "es" | "ja" | "fr
       // same as one typed there directly (see levelPath / FlashcardsScreen).
       // A French one goes in the French deck ("fr", as the website files
       // hand-written French cards).
-      levelPath: isJapanese ? "ja" : isFrench ? "fr" : undefined,
-      guessPos: !isJapanese && !isFrench,
+      // A German one goes in the German deck ("de"), the same way.
+      levelPath: isJapanese ? "ja" : isFrench ? "fr" : isGerman ? "de" : undefined,
+      guessPos: !isJapanese && !isFrench && !isGerman,
     });
     const map = await loadFlashcards();
     map[entry.id] = entry;
@@ -223,8 +244,9 @@ export default function TranslateBar({ language }: { language: "es" | "ja" | "fr
                       <View style={s.senseTop}>
                         <View style={s.senseTextWrap}>
                           <Text style={s.senseTranslation}>
-                            {sense.gender ? (sense.gender === "m" ? "el " : "la ") : ""}
-                            {sense.translation}
+                            {/* Gender is only given for Spanish nouns ("el"/"la"). */}
+                            {sense.gender && result.direction === "en-es" ? (sense.gender === "m" ? "el " : "la ") : ""}
+                            <ResultText text={sense.translation} side={result.direction.slice(3)} style={s.senseTranslation} />
                           </Text>
                           {(sense.partOfSpeech || sense.note) && (
                             <Text style={s.senseMeta}>
@@ -244,7 +266,9 @@ export default function TranslateBar({ language }: { language: "es" | "ja" | "fr
                       </View>
                       {sense.example && (
                         <Text style={s.senseExample}>
-                          "{sense.example.source}" <Text style={s.senseExampleArrow}>→</Text> {sense.example.target}
+                          "<ResultText text={sense.example.source} side={result.direction.slice(0, 2)} style={s.senseExample} />"{" "}
+                          <Text style={s.senseExampleArrow}>→</Text>{" "}
+                          <ResultText text={sense.example.target} side={result.direction.slice(3)} style={s.senseExample} />
                         </Text>
                       )}
                     </View>

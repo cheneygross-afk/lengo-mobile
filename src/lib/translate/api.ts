@@ -2,10 +2,10 @@ import { supabase } from "@/lib/supabase/client";
 
 // Mobile port of the web app's TranslateSearch direction-detection and
 // fetch logic (src/components/TranslateSearch.tsx). Now covers both
-// tracks the app offers -- Spanish and the Japanese beta -- same as the
+// tracks the app offers -- Spanish, French, German and the Japanese beta -- same as the
 // website: which pair is active follows whichever language is selected
 // on Home, not a fixed Spanish/English pair.
-export type Direction = "en-es" | "es-en" | "en-ja" | "ja-en" | "en-fr" | "fr-en";
+export type Direction = "en-es" | "es-en" | "en-ja" | "ja-en" | "en-fr" | "fr-en" | "en-de" | "de-en";
 
 export type TranslationSense = {
   translation: string;
@@ -61,12 +61,29 @@ function detectFrenchDirection(text: string): Direction {
   return "en-fr";
 }
 
+// Words that start a German phrase far more often than an English one
+// (the website's TranslateSearch list).
+const COMMON_GERMAN_WORDS = new Set([
+  "der", "die", "das", "den", "dem", "ein", "eine", "einen", "und", "ist", "ich", "du", "er", "sie", "es", "wir",
+  "ihr", "nicht", "kein", "keine", "mit", "von", "zu", "auf", "aus", "bei", "nach", "für", "ja", "nein", "danke",
+  "bitte", "hallo", "guten", "sehr", "auch", "wie", "wo", "wer", "warum", "sein", "haben", "werden", "bin", "bist",
+]);
+
+/** Which way a German-course lookup goes: German in (by its letters or
+ * first word), else English to German. */
+function detectGermanDirection(text: string): Direction {
+  if (/[äöüß]/i.test(text)) return "de-en";
+  const firstWord = text.trim().split(/\s+/)[0]?.toLowerCase() ?? "";
+  return COMMON_GERMAN_WORDS.has(firstWord) ? "de-en" : "en-de";
+}
+
 // `context` is which language is selected on Home -- absent any
 // script/vocabulary signal (plain ASCII, nothing recognized as Spanish),
 // this decides whether typing falls back to "en-es" or "en-ja". The
-// French course has its own pair (en-fr / fr-en).
-export function detectDirection(text: string, context: "es" | "ja" | "fr"): Direction {
+// French and German courses have their own pairs (en-fr / fr-en, en-de / de-en).
+export function detectDirection(text: string, context: "es" | "ja" | "fr" | "de"): Direction {
   if (context === "fr") return detectFrenchDirection(text);
+  if (context === "de") return detectGermanDirection(text);
   const japaneseContext = context === "ja";
   if (JAPANESE_SCRIPT.test(text)) return "ja-en";
   if (/[áéíóúñü¿¡]/i.test(text)) return "es-en";
@@ -89,6 +106,10 @@ export function swapDirection(direction: Direction): Direction {
       return "fr-en";
     case "fr-en":
       return "en-fr";
+    case "en-de":
+      return "de-en";
+    case "de-en":
+      return "en-de";
   }
 }
 
@@ -106,6 +127,10 @@ export function directionPillLabel(direction: Direction): string {
       return "EN→FR";
     case "fr-en":
       return "FR→EN";
+    case "en-de":
+      return "EN→DE";
+    case "de-en":
+      return "DE→EN";
   }
 }
 
@@ -123,6 +148,10 @@ export function directionHeading(direction: Direction): string {
       return "English → French";
     case "fr-en":
       return "French → English";
+    case "en-de":
+      return "English → German";
+    case "de-en":
+      return "German → English";
   }
 }
 

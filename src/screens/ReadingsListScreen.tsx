@@ -7,7 +7,7 @@ import { readinessLabel } from "@/lib/stories/pickStory";
 import { LEVEL_INTROS } from "@/lib/readings/levelIntros";
 import type { Story } from "@/lib/stories/types";
 import type { Reading } from "@/lib/readings/types";
-import { frenchStoriesIfLoaded, loadFrenchStories, type FrenchStories } from "@/lib/stories/french";
+import { STORY_COURSES, type CourseStories, type StoryCourse } from "@/lib/stories/courseStories";
 import { loadStoriesRead } from "@/lib/storiesRead";
 
 type Props = NativeStackScreenProps<AppStackParamList, "ReadingsList">;
@@ -19,18 +19,20 @@ type Props = NativeStackScreenProps<AppStackParamList, "ReadingsList">;
 type Row = { kind: "story"; story: Story } | { kind: "book"; reading: Reading };
 
 export default function ReadingsListScreen(props: Props) {
-  return props.route.params?.frenchLevel ? <FrenchStoriesList {...props} /> : <SpanishReadingsList {...props} />;
+  if (props.route.params?.frenchLevel) return <CourseStoriesList {...props} course="fr" path={props.route.params.frenchLevel} />;
+  if (props.route.params?.germanLevel) return <CourseStoriesList {...props} course="de" path={props.route.params.germanLevel} />;
+  return <SpanishReadingsList {...props} />;
 }
 
-// One French level's stories (lib/stories/french.ts), read ones ticked.
-function FrenchStoriesList({ route, navigation }: Props) {
-  const path = route.params?.frenchLevel ?? "a1";
-  const [data, setData] = useState<FrenchStories | null>(frenchStoriesIfLoaded);
+// One French or German level's stories (lib/stories/courseStories.ts), read ones ticked.
+function CourseStoriesList({ navigation, course, path }: Props & { course: StoryCourse; path: string }) {
+  const config = STORY_COURSES[course];
+  const [data, setData] = useState<CourseStories | null>(config.ifLoaded);
   const [read, setRead] = useState<Record<string, number>>({});
   useEffect(() => {
     let cancelled = false;
     if (!data)
-      loadFrenchStories().then((d) => {
+      config.load().then((d) => {
         if (!cancelled) setData(d);
       });
     loadStoriesRead().then((r) => {
@@ -39,7 +41,7 @@ function FrenchStoriesList({ route, navigation }: Props) {
     return () => {
       cancelled = true;
     };
-  }, [data]);
+  }, [data, config]);
   const level = data?.levels.find((l) => l.path === path);
   if (!level) {
     return (
@@ -65,7 +67,7 @@ function FrenchStoriesList({ route, navigation }: Props) {
       renderItem={({ item }) => (
         <Pressable
           style={styles.row}
-          onPress={() => navigation.navigate("StoryReader", { slug: item.slug, levelPath: `fr/${level.path}` })}
+          onPress={() => navigation.navigate("StoryReader", { slug: item.slug, levelPath: `${course}/${level.path}` })}
         >
           <Text style={styles.rowTitle}>
             {read[item.slug] ? "✓ " : ""}

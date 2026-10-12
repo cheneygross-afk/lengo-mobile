@@ -3,8 +3,7 @@ import { View, Text, Pressable, StyleSheet, SectionList, ActivityIndicator } fro
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { GRAMMAR_GUIDES } from "@/lib/grammar/guides";
-import { loadFrenchGuides } from "@/lib/grammar/french";
-import { DIPLOMA_FOR_LEVEL, type FrGrammarGuide } from "@/lib/grammar/fr-types";
+import { GUIDE_COURSES, type CourseGuide, type GuideCourse } from "@/lib/grammar/courseGuides";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Grammar">;
 
@@ -13,25 +12,32 @@ const LEVEL_ORDER = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
 // Mobile port of the website's /grammar index: the free grammar guides
 // (src/lib/grammar, synced from the website), grouped by level.
 export default function GrammarListScreen(props: Props) {
-  return props.route.params?.lang === "fr" ? <FrenchGrammarList {...props} /> : <SpanishGrammarList {...props} />;
+  const lang = props.route.params?.lang;
+  return lang === "fr" || lang === "de" ? (
+    <CourseGrammarList {...props} course={lang} key={lang} />
+  ) : (
+    <SpanishGrammarList {...props} />
+  );
 }
 
-// The French course's grammar guides (lib/grammar/fr-guides*.ts, loaded on
-// demand), by level, as on the website's /lessons/fr/tools/grammar.
-function FrenchGrammarList({ navigation }: Props) {
-  const [guides, setGuides] = useState<FrGrammarGuide[] | null>(null);
+// The French or German course's grammar guides (lib/grammar/courseGuides.ts,
+// loaded on demand), by level, as on the website's /lessons/fr/tools/grammar
+// and /lessons/de/tools/grammar.
+function CourseGrammarList({ navigation, course }: Props & { course: GuideCourse }) {
+  const config = GUIDE_COURSES[course];
+  const [guides, setGuides] = useState<CourseGuide[] | null>(null);
   useLayoutEffect(() => {
-    navigation.setOptions({ title: "French grammar" });
-  }, [navigation]);
+    navigation.setOptions({ title: `${config.name} grammar` });
+  }, [navigation, config.name]);
   useEffect(() => {
     let cancelled = false;
-    loadFrenchGuides().then((g) => {
+    config.load().then((g) => {
       if (!cancelled) setGuides(g);
     });
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [config]);
   if (!guides) {
     return (
       <View style={[styles.container, styles.loading]}>
@@ -40,7 +46,7 @@ function FrenchGrammarList({ navigation }: Props) {
     );
   }
   const sections = LEVEL_ORDER.map((level) => ({
-    title: `${level} · ${DIPLOMA_FOR_LEVEL[level]}`,
+    title: `${level} · ${config.diploma[level]}`,
     data: guides.filter((g) => g.level === level),
   })).filter((s) => s.data.length > 0);
   return (
@@ -52,12 +58,12 @@ function FrenchGrammarList({ navigation }: Props) {
       stickySectionHeadersEnabled={false}
       ListHeaderComponent={
         <Text style={styles.subtitle}>
-          Clear explanations of French grammar from A1 to C2, with tables, examples and the mistakes to avoid.
+          Clear explanations of {config.name} grammar from A1 to C2, with tables, examples and the mistakes to avoid.
         </Text>
       }
       renderSectionHeader={({ section }) => <Text style={styles.sectionHeader}>{section.title}</Text>}
       renderItem={({ item }) => (
-        <Pressable style={styles.card} onPress={() => navigation.navigate("GrammarGuide", { slug: item.slug, lang: "fr" })}>
+        <Pressable style={styles.card} onPress={() => navigation.navigate("GrammarGuide", { slug: item.slug, lang: course })}>
           <Text style={styles.cardTitle}>{item.title}</Text>
           <Text style={styles.cardBody} numberOfLines={3}>
             {item.description}

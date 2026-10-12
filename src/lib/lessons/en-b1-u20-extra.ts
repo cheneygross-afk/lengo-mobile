@@ -100,7 +100,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Le pregunté a Diego cuánto le había costado el móvil.",
+        source: "Le pregunté a Diego cuánto le había costado el celular.",
         answer: "I asked Diego how much his phone had cost.",
         altAnswers: ["I asked Diego how much his cell phone had cost.", "I asked Diego how much his mobile had cost.", "I asked Diego how much he had paid for his phone.", "I asked Diego how much his phone cost.", "I asked Diego how much his mobile phone had cost."],
         explanation: "\"How much did your phone cost?\" becomes \"how much his phone had cost\". No *did, and \"your\" becomes \"his\".",
@@ -258,7 +258,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
           { es: "He asked me whether I liked jazz.", en: "Me preguntó si me gustaba el jazz. (incorrecto: *asked me do I like)" },
           { es: "They asked if we had eaten.", en: "Nos preguntaron si habíamos comido." },
           { es: "I asked her whether or not she was coming.", en: "Le pregunté si venía o no." },
-          { es: "We talked about whether to sell the car.", en: "Hablamos de si vender el coche." },
+          { es: "We talked about whether to sell the car.", en: "Hablamos de si vender el carro." },
         ],
         checkpoint: [
           {
@@ -301,7 +301,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "No sé si Tom tiene coche.",
+            source: "No sé si Tom tiene carro.",
             answer: "I don't know if Tom has a car.",
             altAnswers: ["I don't know whether Tom has a car.", "I don't know if Tom has got a car.", "I don't know whether Tom has got a car."],
             explanation: "\"If\" + statement order. Not *does Tom have; and remember \"a\" before \"car\".",
@@ -407,7 +407,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me preguntó si estaba enfadado con ella.",
+        source: "Me preguntó si estaba enojado con ella.",
         answer: "She asked me if I was angry with her.",
         altAnswers: ["She asked me whether I was angry with her.", "She asked me if I was mad at her.", "She asked me whether I was mad at her.", "She asked if I was angry with her.", "She asked me if I was angry at her.", "She asked me if I was upset with her."],
         explanation: "\"Are you angry with me?\" becomes \"if I was angry with her\": the pronouns change too.",
@@ -541,7 +541,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me dijo que esperara en el coche.",
+        source: "Me dijo que esperara en el carro.",
         answer: "He told me to wait in the car.",
         altAnswers: ["She told me to wait in the car."],
         explanation: "«Me dijo que esperara» is \"told me to wait\". English uses \"to\" + verb, not a subjunctive.",
@@ -750,7 +750,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
         examples: [
           { es: "I recommend that you book early.", en: "Te recomiendo que reserves pronto." },
           { es: "She recommended a good restaurant.", en: "Recomendó un buen restaurante." },
-          { es: "He offered to drive.", en: "Se ofreció a conducir." },
+          { es: "He offered to drive.", en: "Se ofreció a manejar." },
           { es: "He offered me a drink.", en: "Me ofreció algo de beber." },
         ],
         checkpoint: [

@@ -74,7 +74,7 @@ export const EN_C2_U19_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Not until the lights came on did we see the damage.", en: "Hasta que no se encendieron las luces no vimos los daños." },
-          { es: "Only after the vote did the true cost emerge.", en: "Solo después de la votación salió a la luz el verdadero coste." },
+          { es: "Only after the vote did the true cost emerge.", en: "Solo después de la votación salió a la luz el verdadero costo." },
           { es: "No sooner had we sat down than the alarm went off.", en: "Nada más sentarnos, saltó la alarma." },
           { es: "Hardly had the speech begun when the protesters stood up.", en: "Apenas había empezado el discurso cuando los manifestantes se levantaron." },
           { es: "So severe were the floods that the bridge collapsed.", en: "Tan graves fueron las inundaciones que el puente se derrumbó." },
@@ -198,7 +198,7 @@ export const EN_C2_U19_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English using inversion.",
-        source: "Nada más aterrizar el avión, los pasajeros encendieron los móviles.",
+        source: "Nada más aterrizar el avión, los pasajeros encendieron los celulares.",
         answer: "No sooner had the plane landed than the passengers switched on their phones.",
         altAnswers: [
           "No sooner had the plane landed than the passengers turned on their phones.",
@@ -491,14 +491,14 @@ export const EN_C2_U19_EXTRA: Lesson[] = [
         sentence: "It wasn't the cost ___ worried us; it was the risk.",
         answer: "that",
         altAnswers: ["which"],
-        en: "No fue el coste [lo que] nos preocupó, sino el riesgo.",
+        en: "No fue el costo [lo que] nos preocupó, sino el riesgo.",
         explanation: "In an it-cleft, a non-human focus is followed by \"that\". «Lo que» in this structure is \"that\", not \"what\": *It wasn't the cost what worried us.",
       },
       {
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Lo único que hizo fue hacer una pregunta, y todo el mundo se enfadó.",
+        source: "Lo único que hizo fue hacer una pregunta, y todo el mundo se enojó.",
         answer: "All she did was ask a question, and everyone got angry.",
         altAnswers: [
           "All he did was ask a question, and everyone got angry.",
@@ -702,7 +702,7 @@ export const EN_C2_U19_EXTRA: Lesson[] = [
           { es: "I did lock the door. I'm sure of it.", en: "Que sí cerré la puerta. Estoy seguro." },
           { es: "It does seem expensive, but it will last for years.", en: "La verdad es que parece caro, pero durará años." },
           { es: "I don't eat meat, but I do eat fish.", en: "No como carne, pero pescado sí." },
-          { es: "Do help yourself to more cake.", en: "Sírvete más tarta, de verdad." },
+          { es: "Do help yourself to more cake.", en: "Sírvete más pastel, de verdad." },
           { es: "She is ready. She's just waiting for the taxi.", en: "Sí que está lista. Solo está esperando el taxi. (acento en \"is\")" },
         ],
         checkpoint: [

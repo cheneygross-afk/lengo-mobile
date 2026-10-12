@@ -176,9 +176,9 @@ export const EN_A1_U5_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Su coche es azul. (el coche de ella)",
+        source: "Su carro es azul. (el carro de ella)",
         answer: "Her car is blue.",
-        explanation: "El coche es de ella: \"her car\".",
+        explanation: "El carro es de ella: \"her car\".",
       },
       {
         type: "translate",
@@ -228,17 +228,17 @@ export const EN_A1_U5_EXTRA: Lesson[] = [
     optional: true,
     number: 2,
     title: "Práctica: el genitivo 's",
-    summary: "De «el coche de mi padre» a \"my father's car\": practica el 's con personas, con plurales como \"my parents'\" y con \"children's\".",
+    summary: "De «el carro de mi padre» a \"my father's car\": practica el 's con personas, con plurales como \"my parents'\" y con \"children's\".",
     duration: "10 min",
     sections: [
       {
         heading: "Recordatorio: dueño + 's + cosa",
         body: [
-          "Para decir de quién es algo, el inglés pone primero al dueño con \"'s\" y después la cosa: «el coche de mi padre» es \"my father's car\". La traducción palabra por palabra *the car of my father suena muy rara.",
+          "Para decir de quién es algo, el inglés pone primero al dueño con \"'s\" y después la cosa: «el carro de mi padre» es \"my father's car\". La traducción palabra por palabra *the car of my father suena muy rara.",
           "El artículo «el» desaparece: \"Ana's phone\", nunca *the Ana's phone. Y \"my\" va con el dueño: \"my sister's room\".",
         ],
         examples: [
-          { es: "my father's car", en: "el coche de mi padre" },
+          { es: "my father's car", en: "el carro de mi padre" },
           { es: "Ana's phone", en: "el teléfono de Ana" },
           { es: "my sister's room", en: "la habitación de mi hermana" },
           { es: "Tom's girlfriend", en: "la novia de Tom" },
@@ -300,7 +300,7 @@ export const EN_A1_U5_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Cuál es la forma natural de decir «el coche de mi padre»?",
+        question: "¿Cuál es la forma natural de decir «el carro de mi padre»?",
         options: ["my father's car", "the car of my father", "my father car", "the my father's car"],
         correctIndex: 0,
         explanation: "Dueño + \"'s\" + cosa, sin artículo: \"my father's car\".",
@@ -406,8 +406,8 @@ export const EN_A1_U5_EXTRA: Lesson[] = [
         type: "matching",
         instructions: "Une cada expresión con su significado.",
         pairs: [
-          { left: "my sister's car", right: "el coche de mi hermana" },
-          { left: "my sisters' car", right: "el coche de mis hermanas" },
+          { left: "my sister's car", right: "el carro de mi hermana" },
+          { left: "my sisters' car", right: "el carro de mis hermanas" },
           { left: "the children's books", right: "los libros de los niños" },
           { left: "my friend's house", right: "la casa de mi amigo" },
         ],
@@ -604,7 +604,7 @@ export const EN_A1_U5_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Hay un perro debajo del coche.",
+        source: "Hay un perro debajo del carro.",
         answer: "There is a dog under the car.",
         altAnswers: ["There's a dog underneath the car.", "A dog is under the car."],
         explanation: "\"There is\" + \"a dog\" + \"under the car\". «Hay» es \"there is\", nunca *it has.",

@@ -61,7 +61,7 @@ export const EN_C1_U06_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "The plan was well designed. However, it was never put into practice.", en: "El plan estaba bien diseñado. Sin embargo, nunca se llevó a la práctica." },
-          { es: "Sales rose last year; profits, however, fell.", en: "Las ventas subieron el año pasado; los beneficios, sin embargo, bajaron." },
+          { es: "Sales rose last year; profits, however, fell.", en: "Las ventas subieron el año pasado; las ganancias, sin embargo, bajaron." },
           { es: "The risks were considerable. Nevertheless, the board approved the project.", en: "Los riesgos eran considerables. Aun así, la junta aprobó el proyecto." },
           { es: "However hard I try, I can't get it right.", en: "Por mucho que lo intente, no me sale bien." },
           { es: "It was a long shot. Even so, it was worth trying.", en: "Era muy poco probable. Aun así, valía la pena intentarlo." },
@@ -581,7 +581,7 @@ export const EN_C1_U06_EXTRA: Lesson[] = [
             sentence: "It's a lovely flat. ___, it's a bit noisy at night.",
             answer: "Mind you",
             altAnswers: ["Then again", "Having said that", "That said"],
-            en: "Es un piso precioso. [Eso sí], es un poco ruidoso por la noche.",
+            en: "Es un departamento precioso. [Eso sí], es un poco ruidoso por la noche.",
             explanation: "\"Mind you\" adds a contrasting afterthought to what you just said, exactly like «eso sí». It is informal and very common in British English; \"that said\" works everywhere.",
           },
           {
@@ -642,14 +642,14 @@ export const EN_C1_U06_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "I don't really fancy going out tonight. ___, I'm tired, and it's freezing outside.",
+        sentence: "I don't really feel like going out tonight. ___, I'm tired, and it's freezing outside.",
         answer: "I mean",
-        en: "No me apetece mucho salir esta noche. [O sea], estoy cansado y hace un frío que pela.",
+        en: "No tengo muchas ganas de salir esta noche. [O sea], estoy cansado y hace un frío que pela.",
         explanation: "\"I mean\" explains or expands on what you just said. Never *or be for «o sea».",
       },
       {
         type: "multiple-choice",
-        question: "«Bueno, vale, si insistes.» Which is the most natural English?",
+        question: "«Bueno, está bien, si insistes.» Which is the most natural English?",
         options: [
           "Well, OK, if you insist.",
           "Good, OK, if you insist.",
@@ -657,7 +657,7 @@ export const EN_C1_U06_EXTRA: Lesson[] = [
           "So, good, if you insist.",
         ],
         correctIndex: 0,
-        explanation: "Reluctant acceptance starts with \"well\" or \"oh well\", not *good. «Vale» here is \"OK\" or \"fine\".",
+        explanation: "Reluctant acceptance starts with \"well\" or \"oh well\", not *good. «Está bien» here is \"OK\" or \"fine\".",
       },
       {
         type: "translate",
@@ -690,7 +690,7 @@ export const EN_C1_U06_EXTRA: Lesson[] = [
         sentence: "The food was nothing special. ___, the waiters were really friendly.",
         answer: "To be fair",
         altAnswers: ["In fairness", "Mind you", "That said", "Having said that", "Still"],
-        en: "La comida no era nada del otro mundo. [La verdad es que] los camareros eran muy amables.",
+        en: "La comida no era nada del otro mundo. [La verdad es que] los meseros eran muy amables.",
         explanation: "\"To be fair\" adds a point in favor of someone or something you have just criticized, like «para ser justos» or «la verdad es que».",
       },
       {
@@ -710,7 +710,7 @@ export const EN_C1_U06_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Es caro. Eso sí, merece la pena.",
+        source: "Es caro. Eso sí, vale la pena.",
         answer: "It's expensive. Mind you, it's worth it.",
         altAnswers: [
           "It's expensive. That said, it's worth it.",
@@ -929,7 +929,7 @@ export const EN_C1_U06_EXTRA: Lesson[] = [
           { es: "The data was incomplete; therefore, we repeated the test.", en: "Los datos estaban incompletos; por lo tanto, repetimos la prueba." },
           { es: "Demand fell sharply. Consequently, prices dropped.", en: "La demanda cayó bruscamente. En consecuencia, los precios bajaron." },
           { es: "The roads were icy, hence the delay.", en: "Las carreteras estaban heladas; de ahí el retraso." },
-          { es: "The new system automates the process, thus reducing costs.", en: "El nuevo sistema automatiza el proceso, reduciendo así los costes." },
+          { es: "The new system automates the process, thus reducing costs.", en: "El nuevo sistema automatiza el proceso, reduciendo así los costos." },
           { es: "She works nights, which is why she's always tired.", en: "Trabaja de noche, y por eso siempre está cansada." },
           { es: "I missed the bus. That's why I'm late.", en: "Perdí el autobús. Por eso llego tarde." },
         ],
@@ -971,7 +971,7 @@ export const EN_C1_U06_EXTRA: Lesson[] = [
         sentence: "Production costs have risen; ___, we will have to raise our prices.",
         answer: "therefore",
         altAnswers: ["consequently", "as a result", "as a consequence"],
-        en: "Los costes de producción han subido; [por lo tanto], tendremos que subir los precios.",
+        en: "Los costos de producción han subido; [por lo tanto], tendremos que subir los precios.",
         explanation: "After a semicolon, a sentence adverb such as \"therefore\" or \"consequently\" introduces the result, followed by a comma.",
       },
       {
@@ -1249,7 +1249,7 @@ export const EN_C1_U06_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["The", "event", "was", "postponed", "owing", "to", "a", "lack", "of", "funding."],
-        translation: "El evento se aplazó por falta de financiación.",
+        translation: "El evento se pospuso por falta de financiamiento.",
         altOrders: [
           ["Owing", "to", "a", "lack", "of", "funding", "the", "event", "was", "postponed."],
         ],

@@ -14,7 +14,7 @@ export const EN_C2_U08_EXTRA: Lesson[] = [
     level: "EN-C2",
     number: 1,
     title: "Extra Practice: British Understatement and Indirectness",
-    summary: "Decode what British speakers really mean by \"not bad\", \"quite good\", \"with respect\", \"I hear what you say\" and \"a bit of a problem\", and practise softening your own messages instead of answering too directly.",
+    summary: "Decode what British speakers really mean by \"not bad\", \"quite good\", \"with respect\", \"I hear what you say\" and \"a bit of a problem\", and practice softening your own messages instead of answering too directly.",
     duration: "12 min",
     sections: [
       {

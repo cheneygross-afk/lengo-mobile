@@ -49,7 +49,7 @@ import { LESSON_PASS_PERCENT, lessonPassed } from "@/lib/grading";
 import { getSpanishVariety, loadSpanishVariety, type SpanishVariety } from "@/lib/spanishVariety";
 import { isVosotrosFocused, requiresVosotros, vosotrosNote } from "@/lib/vosotros";
 import { setListenFirst, useListenFirst } from "@/lib/listenFirstPref";
-import { frenchLevelIfLoaded, frenchLevelKeyOf, loadFrenchLevel, type FrenchLevelData } from "@/lib/lessons/french";
+import { isLazyLevelPath, lazyLevelIfLoaded, loadLazyLevel, type LazyLevelData } from "@/lib/lessons/lazyLevels";
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonRunner">;
 
@@ -86,54 +86,54 @@ type Step =
 
 export default function LessonRunnerScreen({ route, navigation }: Props) {
   const { slug } = route.params;
-  // A French lesson comes with its levelPath ("fr/a1"): French slugs can
-  // repeat a Spanish one, and its level is loaded on demand (see
-  // lessons/french.ts) -- until it is, the screen shows a spinner.
-  const frenchKey = route.params.levelPath ? frenchLevelKeyOf(route.params.levelPath) : null;
-  const [frenchData, setFrenchData] = useState<FrenchLevelData | null>(() =>
-    frenchKey ? frenchLevelIfLoaded(frenchKey) ?? null : null
+  // A French or German lesson comes with its levelPath ("fr/a1", "de/a1"):
+  // their slugs can repeat a Spanish one, and its level is loaded on demand
+  // (see lessons/lazyLevels.ts) -- until it is, the screen shows a spinner.
+  const lazyPath = isLazyLevelPath(route.params.levelPath) ? route.params.levelPath : null;
+  const [lazyData, setLazyData] = useState<LazyLevelData | null>(() =>
+    lazyPath ? lazyLevelIfLoaded(lazyPath) ?? null : null
   );
   useEffect(() => {
-    if (!frenchKey || frenchData?.key === frenchKey) return;
+    if (!lazyPath || lazyData?.levelPath === lazyPath) return;
     let cancelled = false;
-    loadFrenchLevel(frenchKey).then((data) => {
-      if (!cancelled) setFrenchData(data);
+    loadLazyLevel(lazyPath)?.then((data) => {
+      if (!cancelled) setLazyData(data);
     });
     return () => {
       cancelled = true;
     };
-  }, [frenchKey, frenchData?.key]);
+  }, [lazyPath, lazyData?.levelPath]);
   // Every other track's slugs are unique across the Spanish, Japanese and
   // Chinese courses, so the slug alone finds the lesson regardless of which
   // one the learner came from -- LessonList, Review, or a level picker.
   // The track is the lesson's level: its levelPath and lessons.
   const track = useMemo<{ levelPath: string; lessons: Lesson[] } | null>(() => {
-    if (frenchKey) return frenchData && frenchData.key === frenchKey ? frenchData : null;
+    if (lazyPath) return lazyData && lazyData.levelPath === lazyPath ? lazyData : null;
     const found = findLessonBySlug(slug);
     if (!found) return null;
     const source = LESSON_SOURCES[moduleKeyForLesson(found)];
     return { levelPath: source.levelPath, lessons: source.lessons };
-  }, [slug, frenchKey, frenchData]);
+  }, [slug, lazyPath, lazyData]);
   const lesson = useMemo(
-    () => (frenchKey ? track?.lessons.find((l) => l.slug === slug) : findLessonBySlug(slug)),
-    [slug, frenchKey, track]
+    () => (lazyPath ? track?.lessons.find((l) => l.slug === slug) : findLessonBySlug(slug)),
+    [slug, lazyPath, track]
   );
   const levelPath = track?.levelPath ?? "a1";
   const trackLessons = useMemo(() => track?.lessons ?? [], [track]);
   const lang = useMemo(() => langForLevelPath(levelPath), [levelPath]);
   // A lesson from this track by slug (the lesson a review question came from).
-  const lessonInTrack = (s: string) => (frenchKey ? trackLessons.find((l) => l.slug === s) : findLessonBySlug(s));
+  const lessonInTrack = (s: string) => (lazyPath ? trackLessons.find((l) => l.slug === s) : findLessonBySlug(s));
   // The title as the lesson list shows it (one "Part X of Y", see
   // levels.ts displayTitle), and the unit it belongs to.
   const shownTitle = useMemo(() => (lesson ? displayTitle(lesson, trackLessons) : ""), [lesson, trackLessons]);
   const unitLabel = useMemo(
     () =>
       lesson
-        ? frenchData && frenchKey
-          ? frenchData.units.find((u) => [...u.required, ...u.optional].some((l) => l.slug === lesson.slug))?.label
+        ? lazyData && lazyPath
+          ? lazyData.units.find((u) => [...u.required, ...u.optional].some((l) => l.slug === lesson.slug))?.label
           : unitOf(levelPath, lesson.slug)?.label
         : undefined,
-    [lesson, levelPath, frenchData, frenchKey]
+    [lesson, levelPath, lazyData, lazyPath]
   );
 
   // Missed questions from this track that are due again, read once when
@@ -296,11 +296,11 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lesson?.slug, loggedIn, levelPath]);
 
-  // A French lesson's highlights are its levelPath's; a Spanish one never
-  // shows a French lesson's that happens to share its slug.
+  // A French or German lesson's highlights are its levelPath's; a Spanish
+  // one never shows a French or German lesson's that happens to share its slug.
   async function loadHighlights(lessonSlug: string): Promise<LessonHighlight[]> {
-    if (frenchKey) return loadLessonHighlights(lessonSlug, levelPath);
-    return (await loadLessonHighlights(lessonSlug)).filter((h) => !h.levelPath.startsWith("fr/"));
+    if (lazyPath) return loadLessonHighlights(lessonSlug, levelPath);
+    return (await loadLessonHighlights(lessonSlug)).filter((h) => !h.levelPath.startsWith("fr/") && !h.levelPath.startsWith("de/"));
   }
 
   function highlightsFor(blockKey: string): LessonHighlight[] {
@@ -361,7 +361,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentStep, lesson]);
 
-  if (frenchKey && !track) {
+  if (lazyPath && !track) {
     return (
       <View style={s.center}>
         <ActivityIndicator />
@@ -543,7 +543,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
                 const from = currentStep.source.slug === lesson?.slug ? lesson : lessonInTrack(currentStep.source.slug);
                 if (from)
                   void recordLessonAttempt(
-                    frenchKey ? levelPath : LESSON_SOURCES[moduleKeyForLesson(from)].levelPath,
+                    lazyPath ? levelPath : LESSON_SOURCES[moduleKeyForLesson(from)].levelPath,
                     from,
                     currentStep.exercise,
                     correct
@@ -577,7 +577,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
             nextLessonTitle={nextLesson ? displayTitle(nextLesson, trackLessons) : null}
             onNextLesson={() =>
               nextLesson &&
-              navigation.replace("LessonRunner", frenchKey ? { slug: nextLesson.slug, levelPath } : { slug: nextLesson.slug })
+              navigation.replace("LessonRunner", lazyPath ? { slug: nextLesson.slug, levelPath } : { slug: nextLesson.slug })
             }
             elapsedMs={Date.now() - startedAt.current}
             finishing={finishing}

@@ -84,7 +84,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
       {
         heading: "Lo que se puede (y no se puede) hacer",
         body: [
-          "\"Can\" también habla de posibilidades y normas: \"You can pay here\" (se puede pagar aquí), \"You can't park here\" (aquí no se puede aparcar/estacionar). Recuerda que el inglés usa \"you\" donde el español usa «se».",
+          "\"Can\" también habla de posibilidades y normas: \"You can pay here\" (se puede pagar aquí), \"You can't park here\" (aquí no se puede estacionar/estacionar). Recuerda que el inglés usa \"you\" donde el español usa «se».",
           "Con los verbos de los sentidos, el inglés suele añadir \"can\": «veo el mar» es \"I can see the sea\" y «no te oigo» es \"I can't hear you\". Decir solo \"I don't hear you\" suena raro.",
           "Para habilidades, como ya sabes, «saber + verbo» es \"can\": \"I can drive, but I can't ride a bike\".",
         ],
@@ -110,7 +110,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "Aquí no se puede aparcar.",
+            source: "Aquí no se puede estacionar.",
             answer: "You can't park here.",
             altAnswers: ["You cannot park here.", "You can't park around here.", "You cannot park around here."],
             explanation: "Las normas generales con «se puede / no se puede» se dicen con \"you can\" / \"you can't\".",
@@ -294,7 +294,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
           "\"I haven't a car\" suena anticuado o incorrecto. Usa \"I don't have a car\" (lo normal en Estados Unidos) o \"I haven't got a car\" (muy británico).",
         ],
         examples: [
-          { es: "I don't have a car.", en: "No tengo coche." },
+          { es: "I don't have a car.", en: "No tengo carro." },
           { es: "He doesn't have a job.", en: "No tiene trabajo." },
           { es: "We don't have a TV.", en: "No tenemos tele." },
           { es: "They don't have children.", en: "No tienen hijos." },
@@ -312,7 +312,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "¿Cómo se dice «no tengo coche»?",
+            question: "¿Cómo se dice «no tengo carro»?",
             options: ["I don't have a car.", "I haven't a car.", "I don't have car.", "I not have a car."],
             correctIndex: 0,
             explanation: "La negativa normal es \"I don't have\". \"I haven't a car\" es anticuado, y \"car\" necesita \"a\".",
@@ -364,7 +364,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
         ],
         examples: [
           { es: "She's got blue eyes.", en: "Tiene los ojos azules." },
-          { es: "I haven't got a car.", en: "No tengo coche." },
+          { es: "I haven't got a car.", en: "No tengo carro." },
           { es: "Have you got a pen?", en: "¿Tienes un bolígrafo?" },
           { es: "Yes, I have.", en: "Sí (tengo)." },
           { es: "He hasn't got time.", en: "No tiene tiempo." },
@@ -450,14 +450,14 @@ export const EN_A1_U7_MORE: Lesson[] = [
         sentence: "Do you have a car? No, I ___.",
         answer: "don't",
         altAnswers: ["do not"],
-        en: "¿Tienes coche? No, [no tengo].",
+        en: "¿Tienes carro? No, [no tengo].",
         explanation: "Si la pregunta lleva \"do\", la respuesta corta también: \"No, I don't\". Con \"have got\" sería \"No, I haven't\".",
       },
       {
         type: "word-order",
         prompt: "Ordena las palabras.",
         words: ["She", "hasn't", "got", "a", "car."],
-        translation: "Ella no tiene coche.",
+        translation: "Ella no tiene carro.",
         explanation: "\"Have got\" en negativa: \"hasn't got\", sin \"do\". Es inglés británico; en Estados Unidos: \"She doesn't have a car\".",
       },
       {
@@ -535,7 +535,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
         examples: [
           { es: "There are a lot of people at the party.", en: "En la fiesta hay mucha gente." },
           { es: "There is a lot of traffic today.", en: "Hoy hay mucho tráfico." },
-          { es: "There are three people in the car.", en: "Hay tres personas en el coche." },
+          { es: "There are three people in the car.", en: "Hay tres personas en el carro." },
           { es: "There is a lot of noise on this street.", en: "En esta calle hay mucho ruido." },
           { es: "There are some good shops downtown.", en: "En el centro hay algunas tiendas buenas." },
         ],
@@ -724,7 +724,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
         heading: "Contables: a, an y plural",
         body: [
           "Los nombres contables son cosas que se pueden contar una a una: \"an apple\", \"two apples\", \"a chair\", \"three chairs\". En singular necesitan \"a\" o \"an\" delante; no pueden ir solos.",
-          "Por eso «tengo coche» no es *I have car, sino \"I have a car\". El español a veces omite el artículo, el inglés no lo omite nunca con un contable singular.",
+          "Por eso «tengo carro» no es *I have car, sino \"I have a car\". El español a veces omite el artículo, el inglés no lo omite nunca con un contable singular.",
         ],
         examples: [
           { es: "I eat an apple every day.", en: "Me como una manzana todos los días." },
@@ -1278,7 +1278,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
       {
         heading: "Bebidas",
         body: [
-          "Bebidas básicas: \"water\", \"milk\", \"juice\" (jugo, zumo), \"coffee\", \"tea\", \"beer\" (cerveza), \"wine\" (vino). Son incontables: \"I drink a lot of water\".",
+          "Bebidas básicas: \"water\", \"milk\", \"juice\" (jugo), \"coffee\", \"tea\", \"beer\" (cerveza), \"wine\" (vino). Son incontables: \"I drink a lot of water\".",
           "Pero al pedir en un bar o un café, se cuentan como tazas o vasos: \"a coffee\" (un café), \"two teas\", \"an orange juice\". Es lo mismo que decir \"a cup of coffee\" o \"a glass of orange juice\".",
         ],
         examples: [
@@ -1716,7 +1716,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
           { es: "Are you thirsty?", en: "¿Tienes sed?" },
           { es: "She's cold.", en: "Ella tiene frío." },
           { es: "My son is ten.", en: "Mi hijo tiene diez años." },
-          { es: "Our teacher has a new car.", en: "Nuestro profesor tiene un coche nuevo." },
+          { es: "Our teacher has a new car.", en: "Nuestro profesor tiene un carro nuevo." },
         ],
         checkpoint: [
           {

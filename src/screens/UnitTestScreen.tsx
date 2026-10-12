@@ -16,13 +16,12 @@ import { LESSON_SOURCES, type LessonModuleKey } from "@/lib/lessons/registry";
 import { curriculumFor } from "@/lib/lessons/curricula";
 import { testOutItems } from "@/lib/curriculum/assess";
 import type { Lesson } from "@/lib/lessons/types";
-import { frenchLevelIfLoaded, frenchLevelKeyOf, loadFrenchLevel } from "@/lib/lessons/french";
+import { isLazyLevelPath, lazyLevelIfLoaded, loadLazyLevel } from "@/lib/lessons/lazyLevels";
 
 /** A unit from units.ts (Spanish), a module's assembled units (Chinese),
- * or a French level's units (once that level is loaded). */
+ * or a French or German level's units (once that level is loaded). */
 function lookUpUnit(levelPath: string, unitId: string): { label: string; required: Lesson[] } | undefined {
-  const frenchKey = frenchLevelKeyOf(levelPath);
-  if (frenchKey) return frenchLevelIfLoaded(frenchKey)?.units.find((u) => u.id === unitId);
+  if (isLazyLevelPath(levelPath)) return lazyLevelIfLoaded(levelPath)?.units.find((u) => u.id === unitId);
   return findUnit(levelPath, unitId) ?? LESSON_SOURCES[levelPath as LessonModuleKey]?.units?.find((u) => u.id === unitId);
 }
 
@@ -50,15 +49,15 @@ type Phase = "intro" | "testing" | "saving" | "passed" | "failed";
 // markLessonCompleted a finished lesson uses, so the website sees it too.
 export default function UnitTestScreen({ route, navigation }: Props) {
   const { levelPath, unitId } = route.params;
-  // A French level is normally loaded already (the test is opened from its
-  // lesson list); if not, it's loaded here and the unit looked up again.
-  const [frenchLoads, setFrenchLoads] = useState(0);
+  // A French or German level is normally loaded already (the test is opened
+  // from its lesson list); if not, it's loaded here and the unit looked up again.
+  const [lazyLoads, setLazyLoads] = useState(0);
   useEffect(() => {
-    const key = frenchLevelKeyOf(levelPath);
-    if (key && !frenchLevelIfLoaded(key)) void loadFrenchLevel(key).then(() => setFrenchLoads((n) => n + 1));
+    if (isLazyLevelPath(levelPath) && !lazyLevelIfLoaded(levelPath))
+      void loadLazyLevel(levelPath)?.then(() => setLazyLoads((n) => n + 1));
   }, [levelPath]);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const unit = useMemo(() => lookUpUnit(levelPath, unitId), [levelPath, unitId, frenchLoads]);
+  const unit = useMemo(() => lookUpUnit(levelPath, unitId), [levelPath, unitId, lazyLoads]);
   const lang = langForLevelPath(levelPath);
 
   const [phase, setPhase] = useState<Phase>("intro");

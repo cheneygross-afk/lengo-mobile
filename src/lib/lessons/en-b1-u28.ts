@@ -121,7 +121,7 @@ export const EN_B1_U28: Lesson[] = [
             sentence: "The car is old. ___, it works perfectly.",
             answer: "However",
             altAnswers: ["Nevertheless", "Still"],
-            en: "El coche es viejo. [Sin embargo], funciona perfectamente.",
+            en: "El carro es viejo. [Sin embargo], funciona perfectamente.",
             explanation: "«Sin embargo» at the start of a sentence is \"However,\" with a comma after it.",
           },
         ],
@@ -840,7 +840,7 @@ export const EN_B1_U28: Lesson[] = [
         ],
         examples: [
           { es: "I went to the bank to get some money.", en: "Fui al banco para sacar dinero." },
-          { es: "She's saving money to buy a car.", en: "Está ahorrando para comprarse un coche." },
+          { es: "She's saving money to buy a car.", en: "Está ahorrando para comprarse un carro." },
           { es: "We got up early to catch the train.", en: "Nos levantamos temprano para tomar el tren." },
           { es: "I'm learning English to get a better job.", en: "Estoy aprendiendo inglés para conseguir un trabajo mejor." },
           { es: "I called to say thank you.", en: "Llamé para darte las gracias." },
@@ -2303,7 +2303,7 @@ export const EN_B1_U28: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me gustaría saber si el hotel tiene aparcamiento.",
+        source: "Me gustaría saber si el hotel tiene estacionamiento.",
         answer: "I would like to know if the hotel has parking.",
         altAnswers: [
           "I would like to know whether the hotel has parking.",

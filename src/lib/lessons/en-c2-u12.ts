@@ -63,7 +63,7 @@ export const EN_C2_U12: Lesson[] = [
       {
         heading: "Skimming: where the gist lives",
         body: [
-          "In well-organised English prose the gist sits in predictable places: the title and subheadings, the first paragraph (which often states the thesis), the first sentence of each paragraph (the topic sentence) and the last paragraph. Skimming means reading those and letting your eyes run lightly over the rest.",
+          "In well-organized English prose the gist sits in predictable places: the title and subheadings, the first paragraph (which often states the thesis), the first sentence of each paragraph (the topic sentence) and the last paragraph. Skimming means reading those and letting your eyes run lightly over the rest.",
           "Spanish essays and newspaper columns often build up to their main point; English expository writing tends to state it first and then support it. So when you skim in English, trust the topic sentence: \"Remote work has not reduced productivity\" tells you what the next ten lines will argue.",
           "Watch the turning points. \"However\", \"nevertheless\" and \"yet\" announce a change of direction, and the real point usually comes after them. \"In short\", \"in a nutshell\" and \"the upshot is\" announce a conclusion, which is exactly what a skimmer wants.",
         ],
@@ -147,7 +147,7 @@ export const EN_C2_U12: Lesson[] = [
         examples: [
           { es: "He pored over the small print for an hour.", en: "Se pasó una hora estudiando a fondo la letra pequeña." },
           { es: "She leafed through a magazine in the waiting room.", en: "Hojeó una revista en la sala de espera." },
-          { es: "I had to plough through three hundred pages of minutes.", en: "Tuve que tragarme trescientas páginas de actas." },
+          { es: "I had to plow through three hundred pages of minutes.", en: "Tuve que tragarme trescientas páginas de actas." },
           { es: "The claim is largely, but not entirely, accurate.", en: "La afirmación es en gran parte, aunque no del todo, exacta." },
           { es: "Skim first, then scan, then read the key paragraph closely.", en: "Primero lee por encima, luego busca, y después lee con atención el párrafo clave." },
         ],
@@ -240,10 +240,10 @@ export const EN_C2_U12: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the bold words in English.",
         sentence: "I had to ___ two hundred pages of legal jargon.",
-        answer: "plough through",
-        altAnswers: ["plow through", "wade through", "slog through", "get through", "trawl through"],
+        answer: "plow through",
+        altAnswers: ["plough through", "wade through", "slog through", "get through", "trawl through"],
         en: "Tuve que [tragarme] doscientas páginas de jerga jurídica.",
-        explanation: "«Tragarse» a long, boring text is \"plough through\" (American spelling \"plow\") or \"wade through\". *Swallow would be understood only as a joke.",
+        explanation: "«Tragarse» a long, boring text is \"plow through\" (British spelling \"plough\") or \"wade through\". *Swallow would be understood only as a joke.",
       },
       {
         type: "matching",
@@ -277,7 +277,7 @@ export const EN_C2_U12: Lesson[] = [
           "Sales soared by thirty per cent in the first quarter.",
           "Sales soared by 30% in the first quarter.",
         ],
-        explanation: "«Dispararse» is \"soar\", \"shoot up\" or \"surge\". These are exactly the paraphrases a scanner must recognise when the question simply says \"increase\".",
+        explanation: "«Dispararse» is \"soar\", \"shoot up\" or \"surge\". These are exactly the paraphrases a scanner must recognize when the question simply says \"increase\".",
       },
       {
         type: "listen-choose",
@@ -347,7 +347,7 @@ export const EN_C2_U12: Lesson[] = [
       {
         heading: "Facts, opinions and opinions dressed as facts",
         body: [
-          "A fact can, at least in principle, be checked: \"The bridge opened in 1932.\" An opinion is a judgement: \"The bridge is an eyesore.\" The hard part at the Mastery level is the ground between them: opinions phrased as facts (\"This is a disastrous policy\"), facts chosen to support an opinion, and claims that sound verifiable but are not (\"Experts agree that...\").",
+          "A fact can, at least in principle, be checked: \"The bridge opened in 1932.\" An opinion is a judgment: \"The bridge is an eyesore.\" The hard part at the Mastery level is the ground between them: opinions phrased as facts (\"This is a disastrous policy\"), facts chosen to support an opinion, and claims that sound verifiable but are not (\"Experts agree that...\").",
           "Opinion leaves fingerprints: evaluative adjectives and adverbs (\"misguided\", \"admirably\", \"woefully\"), modals of obligation (\"should\", \"ought to\"), comparatives with no standard (\"fairer\", \"better\"), and sentence adverbs such as \"regrettably\", \"tellingly\" and \"predictably\", which judge the whole sentence.",
           "Careful with \"evidently\". In English it usually means «por lo visto» or «al parecer», a conclusion drawn from evidence, so \"Evidently, he had left\" means «Por lo visto, se había ido». For «evidentemente» in the sense of «claro», say \"obviously\" or \"clearly\".",
         ],
@@ -370,7 +370,7 @@ export const EN_C2_U12: Lesson[] = [
               "Unemployment fell to a disappointing 6 percent in June.",
             ],
             correctIndex: 0,
-            explanation: "Only the first sentence can be checked without sharing anyone's judgement. \"Welcome\", \"predictably\" and \"disappointing\" add the writer's evaluation to the same figure.",
+            explanation: "Only the first sentence can be checked without sharing anyone's judgment. \"Welcome\", \"predictably\" and \"disappointing\" add the writer's evaluation to the same figure.",
           },
           {
             type: "translate",
@@ -447,7 +447,7 @@ export const EN_C2_U12: Lesson[] = [
         body: [
           "The verb a writer uses to report someone else reveals stance. \"Said\" and \"stated\" are neutral. \"Claimed\", \"insisted\" and \"maintained\" keep the writer at a distance. \"Admitted\" and \"conceded\" suggest the statement was reluctant or damaging. \"Pointed out\", \"noted\" and \"showed\" signal that the writer accepts it as true.",
           "Compare \"She claimed that the figures were accurate\" (I doubt it) with \"She pointed out that the figures were accurate\" (and they were). The facts reported are identical; the stance is opposite.",
-          "Selective quotation works the same way. A review that \"described the plan as ambitious\" may have left out the words \"but unworkable\". Small words matter too: \"He even admitted...\" implies surprise, \"She merely suggested...\" minimises.",
+          "Selective quotation works the same way. A review that \"described the plan as ambitious\" may have left out the words \"but unworkable\". Small words matter too: \"He even admitted...\" implies surprise, \"She merely suggested...\" minimizes.",
         ],
         examples: [
           { es: "She claimed that the figures were accurate.", en: "Afirmó que las cifras eran correctas." },
@@ -482,16 +482,16 @@ export const EN_C2_U12: Lesson[] = [
               "The manager admitted that mistakes had been made.",
               "The head admitted that mistakes had been made.",
             ],
-            explanation: "«Reconocer» a fault is \"admit\", \"acknowledge\" or \"concede\", all of which imply reluctance. *Recognised that mistakes had been made is understood but sounds translated.",
+            explanation: "«Reconocer» a fault is \"admit\", \"acknowledge\" or \"concede\", all of which imply reluctance. *Recognized that mistakes had been made is understood but sounds translated.",
           },
         ],
       },
       {
         heading: "Naming the tone precisely",
         body: [
-          "At the Mastery level you are expected to describe tone with exact words, not just \"positive\" or \"negative\". \"Wry\" is dry, gently mocking humour («socarrón»). \"Sardonic\" is mocking and cynical. \"Scathing\", \"withering\" and \"caustic\" describe fierce criticism («demoledor», «mordaz»). \"Even-handed\" and \"balanced\" mean fair to all sides («ecuánime»); \"measured\" means calm and careful.",
+          "At the Mastery level you are expected to describe tone with exact words, not just \"positive\" or \"negative\". \"Wry\" is dry, gently mocking humor («socarrón»). \"Sardonic\" is mocking and cynical. \"Scathing\", \"withering\" and \"caustic\" describe fierce criticism («demoledor», «mordaz»). \"Even-handed\" and \"balanced\" mean fair to all sides («ecuánime»); \"measured\" means calm and careful.",
           "Other useful words: \"strident\" (loud and aggressive), \"wistful\" (sadly nostalgic, «melancólico»), \"tongue-in-cheek\" (not meant seriously), \"deadpan\" (joking with a completely serious face), \"dismissive\" (treating something as unworthy of attention), \"grudging\" (given unwillingly: grudging praise).",
-          "Avoid using \"ironic\" for every kind of humour, and remember that \"sensible\" means «sensato»: a sensible review is a reasonable one, not a «sensible» (sensitive) one.",
+          "Avoid using \"ironic\" for every kind of humor, and remember that \"sensible\" means «sensato»: a sensible review is a reasonable one, not a «sensible» (sensitive) one.",
         ],
         examples: [
           { es: "She gave a wry smile when they mentioned her promotion.", en: "Esbozó una sonrisa socarrona cuando mencionaron su ascenso." },
@@ -603,7 +603,7 @@ export const EN_C2_U12: Lesson[] = [
           "The speaker has forgotten the reform's real name.",
         ],
         correctIndex: 0,
-        explanation: "Before a noun, \"so-called\" usually signals scepticism: it is called a reform, but the speaker thinks it is not one.",
+        explanation: "Before a noun, \"so-called\" usually signals skepticism: it is called a reform, but the speaker thinks it is not one.",
       },
       {
         type: "word-order",
@@ -658,7 +658,7 @@ export const EN_C2_U12: Lesson[] = [
           "Uses at least one stance-revealing reporting verb (claim, concede, point out...)",
           "Names the tone with a precise word (wry, scathing, even-handed, measured...)",
         ],
-        modelAnswer: "The column argues that the city's new tourist tax is overdue. The writer accepts the official figures, pointing out that visitor numbers have doubled in ten years, but she treats the hotel industry's warnings with open scepticism: owners merely \"claim\" that bookings will fall. Her tone is wry rather than scathing; she jokes that the only thing more crowded than the old town is the list of excuses for doing nothing. It is persuasive, but hardly even-handed, since no opponent is quoted at length.",
+        modelAnswer: "The column argues that the city's new tourist tax is overdue. The writer accepts the official figures, pointing out that visitor numbers have doubled in ten years, but she treats the hotel industry's warnings with open skepticism: owners merely \"claim\" that bookings will fall. Her tone is wry rather than scathing; she jokes that the only thing more crowded than the old town is the list of excuses for doing nothing. It is persuasive, but hardly even-handed, since no opponent is quoted at length.",
         explanation: "A good description of stance separates what the writer reports from what the writer judges, and names the tone with one exact word.",
       },
     ],
@@ -672,7 +672,7 @@ export const EN_C2_U12: Lesson[] = [
     level: "EN-C2",
     number: 3,
     title: "Listening and reading strategies, Part 7 of 8: radio interviews and podcasts",
-    summary: "Following unscripted speech: filtering fillers and false starts, keeping track of interruptions and overlaps, recognising challenges and evasions, and catching fast connected forms like gonna and dunno.",
+    summary: "Following unscripted speech: filtering fillers and false starts, keeping track of interruptions and overlaps, recognizing challenges and evasions, and catching fast connected forms like gonna and dunno.",
     duration: "12 min",
     sections: [
       {
@@ -815,7 +815,7 @@ export const EN_C2_U12: Lesson[] = [
       {
         heading: "Fast connected speech",
         body: [
-          "In relaxed speech, common sequences shrink: \"going to\" becomes \"gonna\", \"want to\" becomes \"wanna\", \"got to\" becomes \"gotta\", \"kind of\" becomes \"kinda\", \"don't know\" becomes \"dunno\", \"let me\" becomes \"lemme\" and \"do you\" becomes \"d'you\". You need to recognise these forms; you do not need to write them.",
+          "In relaxed speech, common sequences shrink: \"going to\" becomes \"gonna\", \"want to\" becomes \"wanna\", \"got to\" becomes \"gotta\", \"kind of\" becomes \"kinda\", \"don't know\" becomes \"dunno\", \"let me\" becomes \"lemme\" and \"do you\" becomes \"d'you\". You need to recognize these forms; you do not need to write them.",
           "Spanish speakers who expect every syllable to be pronounced often miss these reductions, and also the weak forms of little words: \"to\" sounds like \"tuh\", \"and\" like \"n\", \"of\" like \"uh\". Listen for the stressed content words (nouns, main verbs, adjectives) and rebuild the grammar around them.",
           "Podcasts add another layer: hosts banter, refer to earlier episodes and drift off topic. Phrases like \"anyway\", \"but I digress\" and \"back to the point\" tell you the digression is over.",
         ],
@@ -864,7 +864,7 @@ export const EN_C2_U12: Lesson[] = [
           { left: "So you're saying the plan has failed?", right: "reformular para acorralar" },
           { left: "Or rather, a partial success.", right: "corregirse" },
         ],
-        explanation: "Recognising the function of each phrase lets you follow the shape of an interview even when you miss some words.",
+        explanation: "Recognizing the function of each phrase lets you follow the shape of an interview even when you miss some words.",
       },
       {
         type: "listen-choose",
@@ -957,13 +957,13 @@ export const EN_C2_U12: Lesson[] = [
     level: "EN-C2",
     number: 4,
     title: "Listening and reading strategies, Part 8 of 8: lecture note-taking",
-    summary: "Recognising how lecturers signpost structure, emphasis and digressions, using standard abbreviations and symbols, choosing a note format (outline, Cornell, mind map) and turning notes back into full sentences.",
+    summary: "Recognizing how lecturers signpost structure, emphasis and digressions, using standard abbreviations and symbols, choosing a note format (outline, Cornell, mind map) and turning notes back into full sentences.",
     duration: "12 min",
     sections: [
       {
         heading: "Signposting: the lecturer's road signs",
         body: [
-          "Lecturers tell you, out loud, how their talk is organised. Structure: \"Today I'd like to look at three things\", \"First of all\", \"I'd like to turn now to\", \"Moving on to\", \"That brings me to\". Each of these is a cue to start a new heading in your notes.",
+          "Lecturers tell you, out loud, how their talk is organized. Structure: \"Today I'd like to look at three things\", \"First of all\", \"I'd like to turn now to\", \"Moving on to\", \"That brings me to\". Each of these is a cue to start a new heading in your notes.",
           "Emphasis: \"The key point here is\", \"What I want you to take away is\", \"It's worth stressing that\", \"Bear in mind that\". Whatever follows deserves a star or underlining. Digression: \"As an aside\", \"Incidentally\", \"To digress for a moment\", and then \"But I digress\" or \"Anyway, back to...\" when the lecturer returns. Summary: \"To sum up\", \"So, to recap\".",
           "Spanish lecturers say «paso a» or «en cuanto a»; in English that is \"I'll now turn to\" or \"As for\", never *I pass to. And «lo importante aquí es» is \"the key point here is\", not *the important here is: English needs a noun after the adjective.",
         ],
@@ -1054,7 +1054,7 @@ export const EN_C2_U12: Lesson[] = [
         heading: "Choosing a note structure",
         body: [
           "An outline uses headings and indented points: main topic, subtopic, detail. It suits lectures that are clearly signposted (\"first... second... third...\"). The Cornell method divides the page into a wide notes column, a narrow cue column on the left for questions and keywords added after the lecture, and a box at the bottom for a summary in your own words.",
-          "A mind map puts the topic in the centre with branches for each subtopic. It works well for discussions that jump around, and for seeing connections, but it is harder to turn back into linear prose.",
+          "A mind map puts the topic in the center with branches for each subtopic. It works well for discussions that jump around, and for seeing connections, but it is harder to turn back into linear prose.",
           "Vocabulary: «tomar apuntes» is \"take notes\" (British English also says \"make notes\"); «apuntar algo rápido» is \"jot something down\" or \"note something down\"; «pasar los apuntes a limpio» is \"write up your notes\". Careful: \"take note of something\" means «tomar nota, prestar atención», not «tomar apuntes».",
         ],
         examples: [
@@ -1062,14 +1062,14 @@ export const EN_C2_U12: Lesson[] = [
           { es: "Jot down any questions in the left-hand column.", en: "Apunta cualquier pregunta en la columna de la izquierda." },
           { es: "Write up your notes the same evening.", en: "Pasa los apuntes a limpio esa misma tarde." },
           { es: "Please take note of the new deadline.", en: "Por favor, tomen nota del nuevo plazo." },
-          { es: "Summarise the page in two sentences at the bottom.", en: "Resume la página en dos frases al final." },
+          { es: "Summarize the page in two sentences at the bottom.", en: "Resume la página en dos frases al final." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Me dejas tus apuntes de la clase de ayer?",
+            source: "¿Me prestas tus apuntes de la clase de ayer?",
             answer: "Can I borrow your notes from yesterday's class?",
             altAnswers: [
               "Could I borrow your notes from yesterday's class?",
@@ -1085,7 +1085,7 @@ export const EN_C2_U12: Lesson[] = [
               "Can I borrow your notes for yesterday's class?",
               "Can I borrow your notes from yesterday's lesson?",
             ],
-            explanation: "«Apuntes» are \"notes\". «¿Me dejas...?» is \"Can I borrow...?\" or \"Can you lend me...?\": borrow is to take, lend is to give, a pair Spanish covers with «dejar».",
+            explanation: "«Apuntes» are \"notes\". «¿Me prestas...?» is \"Can I borrow...?\" or \"Can you lend me...?\": borrow is to take, lend is to give, a pair Spanish covers with «prestar».",
           },
           {
             type: "fill-blank",
@@ -1107,7 +1107,7 @@ export const EN_C2_U12: Lesson[] = [
         ],
         examples: [
           { es: "Unemployment rose because of automation.", en: "El desempleo aumentó a causa de la automatización." },
-          { es: "Higher interest rates lead to lower investment.", en: "Unos tipos de interés más altos conllevan una menor inversión." },
+          { es: "Higher interest rates lead to lower investment.", en: "Unas tasas de interés más altas conllevan una menor inversión." },
           { es: "The treaty was signed in 1648, i.e. after thirty years of war.", en: "El tratado se firmó en 1648, es decir, tras treinta años de guerra." },
           { es: "Did you get the date she mentioned?", en: "¿Apuntaste la fecha que mencionó?" },
           { es: "I've got a gap here; what did he say about prices?", en: "Aquí me falta algo; ¿qué dijo sobre los precios?" },
@@ -1237,7 +1237,7 @@ export const EN_C2_U12: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Higher", "interest", "rates", "lead", "to", "lower", "investment."],
-        translation: "Unos tipos de interés más altos conllevan una menor inversión.",
+        translation: "Unas tasas de interés más altas conllevan una menor inversión.",
         explanation: "This is the written-up version of a note with an arrow. General truths in economics are stated in the present simple.",
       },
       {
@@ -1258,9 +1258,9 @@ export const EN_C2_U12: Lesson[] = [
           "Expands every abbreviation and symbol correctly",
           "Uses past tenses for the historical facts",
           "Turns the arrow into a cause-and-effect verb (led to, resulted in...)",
-          "Keeps the example and the emphasis on child labour",
+          "Keeps the example and the emphasis on child labor",
         ],
-        modelAnswer: "The Industrial Revolution took place in Britain between approximately 1760 and 1840. It led to a rapid increase in urbanisation, as people moved from the countryside to work in the new factories. Working conditions were poor: employees often worked fourteen-hour days. It is worth noting that child labour was common until the Factory Act of 1833 began to regulate it.",
+        modelAnswer: "The Industrial Revolution took place in Britain between approximately 1760 and 1840. It led to a rapid increase in urbanization, as people moved from the countryside to work in the new factories. Working conditions were poor: employees often worked fourteen-hour days. It is worth noting that child labor was common until the Factory Act of 1833 began to regulate it.",
         explanation: "Writing up notes means restoring articles, verbs and linking words, and choosing the right tense for the content.",
       },
     ],
@@ -1280,16 +1280,16 @@ export const EN_C2_U12: Lesson[] = [
       {
         heading: "Part one: setting out the positions",
         body: [
-          "In this lesson you follow a radio interview in four parts. Ruth Adams presents a morning news programme; her guest is Daniel Price, the city's transport commissioner, who is defending a new congestion charge: a daily fee for driving into the city centre.",
+          "In this lesson you follow a radio interview in four parts. Ruth Adams presents a morning news program; her guest is Daniel Price, the city's transport commissioner, who is defending a new congestion charge: a daily fee for driving into the city center.",
           "As you read and listen, keep three columns of notes: claims (what Price says is true or will happen), challenges (how Adams pushes back) and evasions (questions he does not answer). A fair summary needs all three.",
           "In the opening, notice how each speaker frames the issue. Adams calls it \"a tax on commuters\"; Price calls it \"a charge on congestion\". The choice of label is the first clue to each speaker's stance.",
         ],
         examples: [
-          { es: "Adams: From Monday, drivers will pay twelve dollars a day to enter the city centre. Isn't this just a tax on commuters?", en: "Adams: A partir del lunes, los conductores pagarán doce dólares al día por entrar en el centro. ¿No es esto simplemente un impuesto a quienes vienen a trabajar?" },
-          { es: "Price: Well, I'd, um, I'd call it a charge on congestion, not on people.", en: "Price: Bueno, yo, este, yo lo llamaría un cargo sobre los atascos, no sobre las personas." },
-          { es: "Price: Traffic in the centre has risen by a third in five years, and something has to give.", en: "Price: El tráfico en el centro ha aumentado un tercio en cinco años, y algo tiene que cambiar." },
-          { es: "Adams: But plenty of people have no alternative to the car.", en: "Adams: Pero mucha gente no tiene alternativa al coche." },
-          { es: "Price: That's precisely why every cent we raise goes into transport.", en: "Price: Precisamente por eso cada céntimo que recaudemos irá al transporte." },
+          { es: "Adams: From Monday, drivers will pay twelve dollars a day to enter the city center. Isn't this just a tax on commuters?", en: "Adams: A partir del lunes, los conductores pagarán doce dólares al día por entrar en el centro. ¿No es esto simplemente un impuesto a quienes vienen a trabajar?" },
+          { es: "Price: Well, I'd, um, I'd call it a charge on congestion, not on people.", en: "Price: Bueno, yo, este, yo lo llamaría un cargo sobre el tráfico, no sobre las personas." },
+          { es: "Price: Traffic in the center has risen by a third in five years, and something has to give.", en: "Price: El tráfico en el centro ha aumentado un tercio en cinco años, y algo tiene que cambiar." },
+          { es: "Adams: But plenty of people have no alternative to the car.", en: "Adams: Pero mucha gente no tiene alternativa al carro." },
+          { es: "Price: That's precisely why every cent we raise goes into transport.", en: "Price: Precisamente por eso cada centavo que recaudemos irá al transporte." },
         ],
         checkpoint: [
           {
@@ -1336,7 +1336,7 @@ export const EN_C2_U12: Lesson[] = [
         ],
         examples: [
           { es: "Adams: Your own figures suggest that only part of the revenue will go to public transport.", en: "Adams: Sus propias cifras indican que solo una parte de lo recaudado irá al transporte público." },
-          { es: "Price: No, no, that's, with respect, that's a misreading. Every cent goes into transport.", en: "Price: No, no, eso es, con todo respeto, eso es una mala interpretación. Cada céntimo va al transporte." },
+          { es: "Price: No, no, that's, with respect, that's a misreading. Every cent goes into transport.", en: "Price: No, no, eso es, con todo respeto, eso es una mala interpretación. Cada centavo va al transporte." },
           { es: "Adams: Into transport, or into public transport? Because those are not the same thing.", en: "Adams: ¿Al transporte o al transporte público? Porque no son lo mismo." },
           { es: "Price: Transport broadly, which includes, yes, road maintenance, but mostly buses.", en: "Price: Al transporte en general, lo que incluye, sí, el mantenimiento de las carreteras, pero sobre todo autobuses." },
           { es: "Adams: So not every cent goes to buses.", en: "Adams: Así que no todo va a los autobuses." },
@@ -1385,7 +1385,7 @@ export const EN_C2_U12: Lesson[] = [
         examples: [
           { es: "Adams: Will the charge go up next year?", en: "Adams: ¿Subirá el cargo el año que viene?" },
           { es: "Price: I'm not going to speculate about future budgets. What I can tell you is that the charge is fair.", en: "Price: No voy a especular sobre presupuestos futuros. Lo que sí puedo decirle es que el cargo es justo." },
-          { es: "Adams: That's not what I asked. Can you rule out an increase?", en: "Adams: No es eso lo que le he preguntado. ¿Puede descartar una subida?" },
+          { es: "Adams: That's not what I asked. Can you rule out an increase?", en: "Adams: Eso no es lo que le pregunté. ¿Puede descartar una subida?" },
           { es: "Price: Look, nobody can rule anything out for ever. What matters is that people see results.", en: "Price: Mire, nadie puede descartar nada para siempre. Lo que importa es que la gente vea resultados." },
           { es: "Adams: So that's a no. You can't rule it out.", en: "Adams: O sea, que no. No puede descartarlo." },
         ],
@@ -1426,13 +1426,13 @@ export const EN_C2_U12: Lesson[] = [
       {
         heading: "Writing the neutral summary",
         body: [
-          "A neutral summary reports; it does not judge. Use neutral reporting verbs (\"said\", \"argued\", \"stated\", \"maintained\"), \"acknowledged\" for a clear concession, and factual descriptions of non-answers: \"declined to\", \"would not say whether\". Avoid \"dodged\", \"claimed\" and \"admitted\" when they add a judgement, and evaluative adjectives such as \"weak\" or \"convincing\".",
+          "A neutral summary reports; it does not judge. Use neutral reporting verbs (\"said\", \"argued\", \"stated\", \"maintained\"), \"acknowledged\" for a clear concession, and factual descriptions of non-answers: \"declined to\", \"would not say whether\". Avoid \"dodged\", \"claimed\" and \"admitted\" when they add a judgment, and evaluative adjectives such as \"weak\" or \"convincing\".",
           "A good structure: one sentence of context (who, where, what about), the guest's main claims, the interviewer's main challenges, and what remained unanswered. Report in the past, with natural backshift: \"He said traffic had risen by a third\".",
           "The participle clause \"Asked whether..., he said...\" is very useful: it reports a question and its answer in one compact sentence.",
         ],
         examples: [
           { es: "In a radio interview, the transport commissioner defended the new congestion charge.", en: "En una entrevista en la radio, el comisario de transportes defendió el nuevo cargo por congestión." },
-          { es: "He argued that traffic in the centre had risen by a third in five years.", en: "Argumentó que el tráfico en el centro había aumentado un tercio en cinco años." },
+          { es: "He argued that traffic in the center had risen by a third in five years.", en: "Argumentó que el tráfico en el centro había aumentado un tercio en cinco años." },
           { es: "He acknowledged that part of the revenue would go to road maintenance.", en: "Reconoció que parte de lo recaudado iría al mantenimiento de carreteras." },
           { es: "Asked whether the charge would rise, he declined to rule out an increase.", en: "Preguntado por si el cargo subiría, no quiso descartar un aumento." },
           { es: "The interviewer questioned whether drivers had any real alternative.", en: "La entrevistadora cuestionó que los conductores tuvieran una alternativa real." },
@@ -1544,7 +1544,7 @@ export const EN_C2_U12: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No es eso lo que le he preguntado.",
+        source: "Eso no es lo que le pregunté.",
         answer: "That's not what I asked.",
         altAnswers: [
           "That's not what I asked you.",
@@ -1572,13 +1572,13 @@ export const EN_C2_U12: Lesson[] = [
         minWords: 80,
         maxWords: 130,
         rubric: [
-          "Opens with context: who was interviewed, on what programme, about what",
+          "Opens with context: who was interviewed, on what program, about what",
           "Reports Price's main claims with neutral reporting verbs",
           "Includes Adams's main challenges",
           "States what Price conceded and what he declined to answer",
           "Contains no evaluative words (dodged, weak, convincing...)",
         ],
-        modelAnswer: "In an interview on a morning news programme, the city's transport commissioner, Daniel Price, defended the new congestion charge of twelve dollars a day. He argued that traffic in the centre had risen by a third in five years and that the revenue would be spent on transport. The presenter, Ruth Adams, suggested that the charge was a tax on commuters with no alternative to the car, and pointed to figures indicating that only part of the money would go to public transport. Price acknowledged that some of it would fund road maintenance. Asked whether the charge would rise next year, he declined to rule out an increase.",
+        modelAnswer: "In an interview on a morning news program, the city's transport commissioner, Daniel Price, defended the new congestion charge of twelve dollars a day. He argued that traffic in the center had risen by a third in five years and that the revenue would be spent on transport. The presenter, Ruth Adams, suggested that the charge was a tax on commuters with no alternative to the car, and pointed to figures indicating that only part of the money would go to public transport. Price acknowledged that some of it would fund road maintenance. Asked whether the charge would rise next year, he declined to rule out an increase.",
         explanation: "A neutral summary keeps claims, challenges and concessions in proportion and reports non-answers factually.",
       },
     ],
@@ -1650,7 +1650,7 @@ export const EN_C2_U12: Lesson[] = [
           { es: "So, why do they form? There are three main causes.", en: "Bien, ¿por qué se forman? Hay tres causas principales." },
           { es: "First, dark surfaces such as asphalt absorb heat during the day and release it at night.", en: "En primer lugar, las superficies oscuras como el asfalto absorben calor durante el día y lo liberan por la noche." },
           { es: "Second, there is less vegetation, and trees cool the air through shade and evaporation.", en: "En segundo lugar, hay menos vegetación, y los árboles refrescan el aire con su sombra y la evaporación." },
-          { es: "Third, and this is often overlooked, there is waste heat from cars, air conditioners and factories.", en: "En tercer lugar, y esto se pasa por alto a menudo, está el calor residual de coches, aires acondicionados y fábricas." },
+          { es: "Third, and this is often overlooked, there is waste heat from cars, air conditioners and factories.", en: "En tercer lugar, y esto se pasa por alto a menudo, está el calor residual de carros, aires acondicionados y fábricas." },
           { es: "The key point here is that these causes reinforce each other.", en: "Lo importante aquí es que estas causas se refuerzan entre sí." },
         ],
         checkpoint: [
@@ -1660,7 +1660,7 @@ export const EN_C2_U12: Lesson[] = [
             sentence: "Third, and this is often ___, there is waste heat from cars.",
             answer: "overlooked",
             altAnswers: ["ignored", "forgotten", "neglected", "missed"],
-            en: "En tercer lugar, y esto se [pasa por alto] a menudo, está el calor residual de los coches.",
+            en: "En tercer lugar, y esto se [pasa por alto] a menudo, está el calor residual de los carros.",
             explanation: "«Pasar por alto» is \"overlook\". Do not confuse it with \"oversee\" («supervisar»).",
           },
           {
@@ -1683,7 +1683,7 @@ export const EN_C2_U12: Lesson[] = [
         ],
         examples: [
           { es: "I'd like to turn now to solutions.", en: "Paso ahora a las soluciones." },
-          { es: "Cool roofs, that is, roofs painted white, can lower roof temperatures by up to thirty degrees.", en: "Los tejados frescos, es decir, los pintados de blanco, pueden reducir la temperatura del tejado hasta treinta grados." },
+          { es: "Cool roofs, that is, roofs painted white, can lower roof temperatures by up to thirty degrees.", en: "Los techos frescos, es decir, los pintados de blanco, pueden reducir la temperatura del techo hasta treinta grados." },
           { es: "Incidentally, the ancient Greeks whitewashed their houses for the same reason.", en: "Por cierto, los antiguos griegos encalaban sus casas por la misma razón." },
           { es: "But I digress. The second solution is green infrastructure, for example parks and street trees.", en: "Pero me desvío del tema. La segunda solución es la infraestructura verde, por ejemplo parques y árboles en las calles." },
           { es: "Bear in mind, though, that trees need water, which may be scarce.", en: "Pero tengan en cuenta que los árboles necesitan agua, que puede escasear." },
@@ -1730,9 +1730,9 @@ export const EN_C2_U12: Lesson[] = [
         ],
         examples: [
           { es: "The lecture defined an urban heat island as a city that is warmer than its surroundings.", en: "La conferencia definió la isla de calor urbana como una ciudad más cálida que su entorno." },
-          { es: "The lecturer identified three main causes.", en: "La conferenciante señaló tres causas principales." },
+          { es: "The lecturer identified three main causes.", en: "La conferencista señaló tres causas principales." },
           { es: "She stressed that these causes reinforce each other.", en: "Subrayó que estas causas se refuerzan entre sí." },
-          { es: "She proposed two solutions: cool roofs and green infrastructure.", en: "Propuso dos soluciones: los tejados frescos y la infraestructura verde." },
+          { es: "She proposed two solutions: cool roofs and green infrastructure.", en: "Propuso dos soluciones: los techos frescos y la infraestructura verde." },
           { es: "However, she noted that trees require water, which may be in short supply.", en: "No obstante, señaló que los árboles necesitan agua, que puede escasear." },
         ],
         checkpoint: [
@@ -1740,7 +1740,7 @@ export const EN_C2_U12: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "La conferenciante subrayó que las causas se refuerzan entre sí.",
+            source: "La conferencista subrayó que las causas se refuerzan entre sí.",
             answer: "The lecturer stressed that the causes reinforce each other.",
             altAnswers: [
               "The lecturer stressed that the causes reinforced each other.",
@@ -1766,7 +1766,7 @@ export const EN_C2_U12: Lesson[] = [
         pairs: [
           { left: "UHI = city warmer than surroundings", right: "Una isla de calor es una ciudad más cálida que su entorno." },
           { left: "up to 7 degrees at night", right: "La diferencia puede llegar a siete grados de noche." },
-          { left: "waste heat: cars, AC, factories", right: "El calor residual procede de coches, aire acondicionado y fábricas." },
+          { left: "waste heat: cars, AC, factories", right: "El calor residual procede de carros, aire acondicionado y fábricas." },
           { left: "BUT trees need water", right: "Sin embargo, los árboles necesitan agua." },
         ],
         explanation: "Good notes are short but unambiguous: you should be able to rebuild each full sentence from them weeks later.",
@@ -1803,7 +1803,7 @@ export const EN_C2_U12: Lesson[] = [
         sentence: "Cool roofs, ___ roofs painted white, can lower temperatures significantly.",
         answer: "i.e.",
         altAnswers: ["ie", "that is", "that is to say", "in other words", "meaning"],
-        en: "Los tejados frescos, [es decir,] los pintados de blanco, pueden reducir la temperatura considerablemente.",
+        en: "Los techos frescos, [es decir,] los pintados de blanco, pueden reducir la temperatura considerablemente.",
         explanation: "\"I.e.\" restates or defines; it is read aloud as \"that is\". \"E.g.\" would introduce examples instead.",
       },
       {
@@ -1834,14 +1834,14 @@ export const EN_C2_U12: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["The", "lecturer", "identified", "three", "main", "causes."],
-        translation: "La conferenciante señaló tres causas principales.",
+        translation: "La conferencista señaló tres causas principales.",
         explanation: "\"Identify\" is a useful neutral verb for summaries: \"identified three causes\", \"identified two solutions\".",
       },
       {
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Propuso dos soluciones: los tejados frescos y la infraestructura verde.",
+        source: "Propuso dos soluciones: los techos frescos y la infraestructura verde.",
         answer: "She proposed two solutions: cool roofs and green infrastructure.",
         altAnswers: [
           "She suggested two solutions: cool roofs and green infrastructure.",
@@ -1925,20 +1925,20 @@ export const EN_C2_U12: Lesson[] = [
               "Neither writer proposes a ban on tourism.",
               "Neither author proposes a ban on tourism.",
             ],
-            explanation: "«Ninguno de los dos» is \"neither\" with a singular noun and verb (\"Neither writer suggests\"). \"Suggest\" and \"propose\" take the -ing form or a noun, never *suggest to ban.",
+            explanation: "«Ninguno de los dos» is \"neither\" with a singular noun and verb (\"Neither writer suggests\"). \"Suggest\" takes the -ing form, a noun or a that-clause, never *suggest to ban (\"propose\" can also take to + infinitive).",
           },
         ],
       },
       {
         heading: "A worked example: choosing the key points",
         body: [
-          "Text A says that visitors keep the historic centre's shops and restaurants alive, and quotes a cafe owner and a museum director to prove it. However, it admits that holiday flats have pushed rents beyond what local families can pay.",
+          "Text A says that visitors keep the historic center's shops and restaurants alive, and quotes a cafe owner and a museum director to prove it. However, it admits that holiday flats have pushed rents beyond what local families can pay.",
           "Text B argues that cities can manage tourism with nightly taxes and limits on holiday lets, and mentions Venice and Amsterdam as examples. It warns, though, that strict caps may hurt small businesses that depend on visitors.",
           "Key points are claims, causes and consequences. The cafe owner, the museum director, Venice and Amsterdam are only evidence, so they disappear from the summary. What remains is four ideas: income, rising rents, regulation, and the risk to small businesses.",
         ],
         examples: [
           { es: "Key point: tourism sustains local businesses.", en: "Idea clave: el turismo sostiene el comercio local." },
-          { es: "Key point: holiday rentals push up housing costs.", en: "Idea clave: los pisos turísticos encarecen la vivienda." },
+          { es: "Key point: holiday rentals push up housing costs.", en: "Idea clave: las rentas vacacionales encarecen la vivienda." },
           { es: "Key point: taxes and limits on lets can control numbers.", en: "Idea clave: los impuestos y los límites a los alquileres pueden controlar el número de visitantes." },
           { es: "Key point: strict caps may damage small firms.", en: "Idea clave: los topes estrictos pueden perjudicar a las pequeñas empresas." },
           { es: "Cut: the quotation from the cafe owner.", en: "Se elimina: la cita del dueño de la cafetería." },
@@ -1968,7 +1968,7 @@ export const EN_C2_U12: Lesson[] = [
         examples: [
           { es: "Both writers acknowledge that tourism is an important source of income.", en: "Ambos autores reconocen que el turismo es una fuente importante de ingresos." },
           { es: "Whereas the first text stresses the benefits, the second focuses on how to limit the harm.", en: "Mientras que el primer texto destaca los beneficios, el segundo se centra en cómo limitar los perjuicios." },
-          { es: "The rise in holiday rentals has priced many residents out of the centre.", en: "El aumento de los pisos turísticos ha expulsado a muchos vecinos del centro por los precios." },
+          { es: "The rise in holiday rentals has priced many residents out of the center.", en: "El aumento de las rentas vacacionales ha expulsado a muchos vecinos del centro por los precios." },
           { es: "Local businesses depend heavily on visitors.", en: "El comercio local depende en gran medida de los visitantes." },
           { es: "Regulation, the second writer warns, carries risks of its own.", en: "La regulación, advierte el segundo autor, conlleva sus propios riesgos." },
         ],
@@ -2010,7 +2010,7 @@ export const EN_C2_U12: Lesson[] = [
       {
         heading: "Comparing two summaries",
         body: [
-          "Summary 1: \"Text A says tourism keeps the historic centre's shops and restaurants alive, as a cafe owner explains. But holiday flats have pushed rents beyond what local families can pay. Text B says cities can use taxes, like Venice. I think this is the best solution.\"",
+          "Summary 1: \"Text A says tourism keeps the historic center's shops and restaurants alive, as a cafe owner explains. But holiday flats have pushed rents beyond what local families can pay. Text B says cities can use taxes, like Venice. I think this is the best solution.\"",
           "Summary 2: \"Both writers recognize that tourism sustains local businesses, yet the first warns that the spread of holiday rentals has made housing unaffordable for residents. The second argues that taxes and limits on lets can keep visitor numbers in check, although it concedes that strict caps could hurt the very businesses tourism supports.\"",
           "Summary 1 copies a whole phrase, keeps an example, adds an opinion and treats the texts separately. Summary 2 merges, paraphrases, cuts the examples and links the ideas with \"yet\", \"although\" and \"the very businesses\", a phrase that ties the end back to the beginning. That is what Mastery cohesion looks like.",
         ],
@@ -2105,7 +2105,7 @@ export const EN_C2_U12: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El auge de los pisos turísticos ha encarecido la vivienda para los residentes.",
+        source: "El auge de las rentas vacacionales ha encarecido la vivienda para los residentes.",
         answer: "The boom in holiday rentals has made housing more expensive for residents.",
         altAnswers: [
           "The rise in holiday rentals has made housing more expensive for residents.",
@@ -2124,7 +2124,7 @@ export const EN_C2_U12: Lesson[] = [
           "The boom in short-term rentals has made housing more expensive for residents.",
           "The rise in short-term rentals has made housing more expensive for residents.",
         ],
-        explanation: "A nominalised subject (\"The boom in...\") packs a whole clause into a phrase, which saves words. «Encarecer» has no single verb: \"make more expensive\" or \"push up the cost of\".",
+        explanation: "A nominalized subject (\"The boom in...\") packs a whole clause into a phrase, which saves words. «Encarecer» has no single verb: \"make more expensive\" or \"push up the cost of\".",
       },
       {
         type: "word-order",
@@ -2249,19 +2249,19 @@ export const EN_C2_U12: Lesson[] = [
               "Three people were injured in a factory fire.",
               "Three people were hurt in a factory fire.",
             ],
-            explanation: "A participle alone is passive in headlines: \"Three hurt\" = three people were hurt. The noun \"factory\" works as an adjective before \"fire\", and \"blaze\" is a favourite headline synonym.",
+            explanation: "A participle alone is passive in headlines: \"Three hurt\" = three people were hurt. The noun \"factory\" works as an adjective before \"fire\", and \"blaze\" is a favorite headline synonym.",
           },
         ],
       },
       {
         heading: "Short, punchy verbs",
         body: [
-          "Headlines need short words, so they use a special vocabulary: \"axe\" (cut or close), \"probe\" (investigate, or an investigation), \"slam\" (criticise strongly), \"vow\" (promise), \"bid\" (attempt), \"quit\" (resign), \"curb\" (limit), \"hike\" (increase, especially prices or taxes), \"oust\" (force out of power), \"quiz\" (question), \"back\" (support), \"eye\" (consider), \"spark\" (cause) and \"hit\" (affect badly).",
+          "Headlines need short words, so they use a special vocabulary: \"axe\" (cut or close), \"probe\" (investigate, or an investigation), \"slam\" (criticize strongly), \"vow\" (promise), \"bid\" (attempt), \"quit\" (resign), \"curb\" (limit), \"hike\" (increase, especially prices or taxes), \"oust\" (force out of power), \"quiz\" (question), \"back\" (support), \"eye\" (consider), \"spark\" (cause) and \"hit\" (affect badly).",
           "Many are both nouns and verbs, which is part of what makes headlines hard: \"Firm axes 500 jobs\" (verb), \"Tax hike sparks protests\" (\"hike\" noun, \"sparks\" verb), \"Police probe fraud claims\" (verb), \"Fraud probe widens\" (noun).",
           "These words rarely appear in ordinary conversation with the same meaning. Nobody says \"I'm going to probe my bank statement\"; when you rewrite a headline, translate them back into neutral English.",
         ],
         examples: [
-          { es: "Carmaker axes 2,000 jobs", en: "Un fabricante de coches suprime 2.000 empleos." },
+          { es: "Carmaker axes 2,000 jobs", en: "Un fabricante de carros suprime 2.000 empleos." },
           { es: "Police probe death of tourist", en: "La policía investiga la muerte de un turista." },
           { es: "Union slams pay offer", en: "El sindicato critica duramente la oferta salarial." },
           { es: "PM vows to cut waiting lists", en: "El primer ministro promete reducir las listas de espera." },
@@ -2347,13 +2347,13 @@ export const EN_C2_U12: Lesson[] = [
         body: [
           "To rewrite a headline as a normal sentence, restore four things: the articles, the auxiliary verbs, the real tense, and neutral vocabulary. \"Minister quits over expenses row\" becomes \"A minister has resigned after a dispute about expenses\".",
           "Check the tense carefully: present simple usually becomes the present perfect or past simple; \"to\" + verb becomes \"is going to\" or \"will\"; a participle becomes a passive (\"Two arrested\" = Two people have been arrested).",
-          "Replace the dramatic verbs: \"slams\" becomes \"has strongly criticised\", \"axes\" becomes \"is cutting\" or \"has closed\", \"bid\" becomes \"attempt\". A good full sentence sounds like a news reader, not like a tabloid.",
+          "Replace the dramatic verbs: \"slams\" becomes \"has strongly criticized\", \"axes\" becomes \"is cutting\" or \"has closed\", \"bid\" becomes \"attempt\". A good full sentence sounds like a news reader, not like a tabloid.",
         ],
         examples: [
           { es: "A minister has resigned after a dispute about expenses.", en: "Un ministro ha dimitido tras una polémica por sus gastos." },
           { es: "The Prime Minister is going to visit Madrid.", en: "El primer ministro va a visitar Madrid." },
           { es: "Two people have been arrested after a robbery.", en: "Dos personas han sido detenidas tras un robo." },
-          { es: "The union has strongly criticised the pay offer.", en: "El sindicato ha criticado duramente la oferta salarial." },
+          { es: "The union has strongly criticized the pay offer.", en: "El sindicato ha criticado duramente la oferta salarial." },
           { es: "The city is trying to host the Olympic Games.", en: "La ciudad intenta organizar los Juegos Olímpicos." },
         ],
         checkpoint: [
@@ -2377,7 +2377,7 @@ export const EN_C2_U12: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Dimite la ministra de Sanidad.",
+        source: "Dimite la ministra de Salud.",
         answer: "Health minister quits",
         altAnswers: [
           "Health minister resigns",
@@ -2402,7 +2402,7 @@ export const EN_C2_U12: Lesson[] = [
         sentence: "Carmaker ___ 2,000 jobs",
         answer: "axes",
         altAnswers: ["cuts", "slashes", "sheds"],
-        en: "Un fabricante de coches [suprime] 2.000 empleos.",
+        en: "Un fabricante de carros [suprime] 2.000 empleos.",
         explanation: "\"Axe\" is headline language for cutting jobs or closing services. In a normal sentence: \"is cutting 2,000 jobs\".",
       },
       {
@@ -2505,7 +2505,7 @@ export const EN_C2_U12: Lesson[] = [
           "City in bid to host Olympics",
           "City bids to host Olympics",
         ],
-        explanation: "«Organizar» an event as the host city is \"host\", not *organise the Olympics. The headline version is \"City in bid to host Olympics\".",
+        explanation: "«Organizar» an event as the host city is \"host\", not *organize the Olympics. The headline version is \"City in bid to host Olympics\".",
       },
       {
         type: "write",
@@ -2603,7 +2603,7 @@ export const EN_C2_U12: Lesson[] = [
         heading: "Recap: headlines",
         body: [
           "Headlines drop articles and auxiliaries, use the present simple for recent past events, the to-infinitive for the future and a bare participle for the passive. They rely on short verbs such as \"axe\", \"probe\", \"slam\", \"vow\" and \"curb\", and on noun stacks read from right to left.",
-          "To rewrite a headline, restore the grammar and neutralise the vocabulary: \"Union slams offer\" becomes \"The union has strongly criticised the offer\".",
+          "To rewrite a headline, restore the grammar and neutralize the vocabulary: \"Union slams offer\" becomes \"The union has strongly criticized the offer\".",
         ],
         examples: [
           { es: "Government to curb rent rises", en: "El gobierno pondrá freno a las subidas de los alquileres." },
@@ -2618,7 +2618,7 @@ export const EN_C2_U12: Lesson[] = [
               "The government is going to limit rent increases.",
               "The government has raised rents.",
               "The government has stopped all rents.",
-              "The government is criticising landlords.",
+              "The government is criticizing landlords.",
             ],
             correctIndex: 0,
             explanation: "\"To\" + verb in a headline refers to the future, and \"curb\" means to limit or restrain.",
@@ -2660,7 +2660,7 @@ export const EN_C2_U12: Lesson[] = [
           "The minister defended the policy on Tuesday.",
         ],
         correctIndex: 0,
-        explanation: "\"Reckless\" is a judgement, stated without attribution. The third option attributes the same judgement to critics, which is a reportable fact.",
+        explanation: "\"Reckless\" is a judgment, stated without attribution. The third option attributes the same judgment to critics, which is a reportable fact.",
       },
       {
         type: "fill-blank",

@@ -24,7 +24,7 @@ export const EN_A2_U17_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "She ran into the house.", en: "Entró corriendo en la casa." },
-          { es: "We drove through the tunnel.", en: "Atravesamos el túnel en coche." },
+          { es: "We drove through the tunnel.", en: "Atravesamos el túnel en carro." },
           { es: "They walked along the river.", en: "Caminaron a lo largo del río." },
           { es: "The ball went over the wall.", en: "La pelota pasó por encima del muro." },
           { es: "He walked toward the door.", en: "Caminó hacia la puerta." },
@@ -198,7 +198,7 @@ export const EN_A2_U17_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "El perro saltó dentro del coche.",
+        source: "El perro saltó dentro del carro.",
         answer: "The dog jumped into the car.",
         altAnswers: ["The dog jumped in the car."],
         explanation: "Movimiento hacia dentro: \"into\". En conversación también se oye \"jumped in the car\".",
@@ -805,7 +805,7 @@ export const EN_A2_U17_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Tiene miedo de conducir de noche.» ¿Cuál es correcta?",
+        question: "«Tiene miedo de manejar de noche.» ¿Cuál es correcta?",
         options: ["He's afraid of driving at night.", "He's afraid of drive at night.", "He has fear of driving at night.", "He's afraid to driving at night."],
         correctIndex: 0,
         explanation: "\"Be afraid of\" + verbo en -ing. El miedo se expresa con \"be\", no con \"have\".",
@@ -1141,7 +1141,7 @@ export const EN_A2_U17_EXTRA: Lesson[] = [
             question: "«Estoy en el autobús.» ¿Cuál es correcta?",
             options: ["I'm on the bus.", "I'm in the bus.", "I'm at the bus.", "I'm by the bus."],
             correctIndex: 0,
-            explanation: "Los transportes grandes llevan \"on\": \"on the bus\", \"on the train\". \"In\" es para el coche y el taxi.",
+            explanation: "Los transportes grandes llevan \"on\": \"on the bus\", \"on the train\". \"In\" es para el carro y el taxi.",
           },
           {
             type: "fill-blank",
@@ -1319,7 +1319,7 @@ export const EN_A2_U17_EXTRA: Lesson[] = [
         sentence: "I left my phone ___ the taxi.",
         answer: "in",
         en: "Me dejé el teléfono [en] el taxi.",
-        explanation: "Coche y taxi llevan \"in\"; autobús, tren y avión llevan \"on\".",
+        explanation: "Carro y taxi llevan \"in\"; autobús, tren y avión llevan \"on\".",
       },
       {
         type: "translate",

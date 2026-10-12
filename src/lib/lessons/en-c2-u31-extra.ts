@@ -30,7 +30,7 @@ export const EN_C2_U31_EXTRA: Lesson[] = [
           { es: "Prices fell from 50 to 40 euros.", en: "Los precios bajaron de 50 a 40 euros." },
           { es: "There has been a sharp rise in energy prices.", en: "Ha habido una fuerte subida de los precios de la energía. (incorrecto: *a rise of energy prices)" },
           { es: "The company reported a 7% increase in revenue.", en: "La empresa anunció un aumento del 7 % en los ingresos." },
-          { es: "Unemployment currently stands at 9%.", en: "El paro se sitúa actualmente en el 9 %." },
+          { es: "Unemployment currently stands at 9%.", en: "El desempleo se sitúa actualmente en el 9 %." },
         ],
         checkpoint: [
           {
@@ -122,7 +122,7 @@ export const EN_C2_U31_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Unemployment fell from 11% ___ 8% over the period.",
         answer: "to",
-        en: "El paro bajó del 11 % [al] 8 % durante el periodo.",
+        en: "El desempleo bajó del 11 % [al] 8 % durante el periodo.",
         explanation: "\"From... to...\" gives the starting and end points. No article before percentages: *to the 8% is a calque of «al 8 %».",
       },
       {
@@ -338,7 +338,7 @@ export const EN_C2_U31_EXTRA: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Shares rose by two dollars to forty-five dollars.",
-        question: "¿Cuál era el precio de las acciones antes de la subida?",
+        question: "What was the share price before the rise?",
         options: ["43 dólares", "45 dólares", "47 dólares", "2 dólares"],
         correctIndex: 0,
         explanation: "\"By\" gives the difference (2 dollars) and \"to\" the new price (45), so the starting price was 43.",

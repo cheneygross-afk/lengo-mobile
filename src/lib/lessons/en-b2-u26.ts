@@ -651,13 +651,13 @@ export const EN_B2_U26: Lesson[] = [
       {
         heading: "Falling out and making up",
         body: [
-          "\"Fall out (with someone)\" means argue and stop being friends, at least for a while: «pelearse, enfadarse con alguien». The past is \"fell out\": \"I fell out with my best friend over money.\" Note \"over\" or \"about\" for the reason.",
+          "\"Fall out (with someone)\" means argue and stop being friends, at least for a while: «pelearse, enojarse con alguien». The past is \"fell out\": \"I fell out with my best friend over money.\" Note \"over\" or \"about\" for the reason.",
           "\"Make up\" means become friends again after an argument: «hacer las paces, reconciliarse». \"They argued, but they made up the next day.\"",
           "\"Argue\" means «discutir» with angry words, and an \"argument\" is «una discusión». \"Discuss\" is calm («hablar de, tratar») and takes no preposition: \"We discussed the plan\", not *discussed about the plan.",
         ],
         examples: [
           { es: "Emma and Sofia fell out last year.", en: "Emma y Sofia se pelearon el año pasado." },
-          { es: "They fell out over a stupid joke.", en: "Se enfadaron por una broma tonta." },
+          { es: "They fell out over a stupid joke.", en: "Se enojaron por una broma tonta." },
           { es: "Have you made up with your sister yet?", en: "¿Ya hiciste las paces con tu hermana?" },
           { es: "My neighbors argue all the time.", en: "Mis vecinos discuten todo el tiempo." },
           { es: "We had a big argument about money.", en: "Tuvimos una gran discusión por dinero." },
@@ -1271,7 +1271,7 @@ export const EN_B2_U26: Lesson[] = [
           "\"Mindset\" is a way of thinking («mentalidad»): \"a positive mindset\". \"Open-minded\" is «de mente abierta».",
         ],
         examples: [
-          { es: "I can't make up my mind about which car to buy.", en: "No me decido sobre qué coche comprar." },
+          { es: "I can't make up my mind about which car to buy.", en: "No me decido sobre qué carro comprar." },
           { es: "Make up your mind! We're late.", en: "¡Decídete! Llegamos tarde." },
           { es: "He was going to come, but he changed his mind.", en: "Iba a venir, pero cambió de opinión." },
           { es: "Keep in mind that it might rain.", en: "Ten en cuenta que puede llover." },
@@ -1441,7 +1441,7 @@ export const EN_B2_U26: Lesson[] = [
           "To prepare for an exam is \"study\", \"review\" (US) or \"revise\" (UK): «repasar». \"Grades\" (US) or \"marks\" (UK) are «notas». \"Notes\" are what you write in class («apuntes»).",
         ],
         examples: [
-          { es: "I'm taking my driving test next week.", en: "La semana que viene me presento al examen de conducir." },
+          { es: "I'm taking my driving test next week.", en: "La semana que viene me presento al examen de manejar." },
           { es: "Did you pass?", en: "¿Aprobaste?" },
           { es: "He failed the math exam, so he has to retake it.", en: "Reprobó el examen de matemáticas, así que tiene que volver a presentarse." },
           { es: "I'm reviewing for my finals.", en: "Estoy repasando para los exámenes finales." },
@@ -1956,7 +1956,7 @@ export const EN_B2_U26: Lesson[] = [
             sentence: "Their new car cost ___.",
             answer: "an arm and a leg",
             altAnswers: ["a fortune"],
-            en: "Su coche nuevo les costó [un ojo de la cara].",
+            en: "Su carro nuevo les costó [un ojo de la cara].",
             explanation: "\"Cost an arm and a leg\" = «costar un ojo de la cara». The body parts are different, but the idea is the same.",
           },
           {
@@ -2503,7 +2503,7 @@ export const EN_B2_U26: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "No me di cuenta de que estabas enfadado.",
+            source: "No me di cuenta de que estabas enojado.",
             answer: "I didn't realize you were angry.",
             altAnswers: ["I didn't realize that you were angry.", "I didn't notice you were angry.", "I didn't notice that you were angry.", "I didn't realize you were upset.", "I didn't realize you were mad."],
             explanation: "«Darse cuenta» = \"realize\". It never means «realizar».",

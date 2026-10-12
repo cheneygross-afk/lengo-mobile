@@ -772,7 +772,7 @@ export const EN_B2_U21_EXTRA: Lesson[] = [  // ---------------------------------
         prompt: "Write the bold words in English.",
         sentence: "You can park on ___ side of the street; it doesn't matter.",
         answer: "either",
-        en: "Puedes aparcar en [cualquiera de los dos] lados de la calle; da igual.",
+        en: "Puedes estacionar en [cualquiera de los dos] lados de la calle; da igual.",
         explanation: "\"Either\" + singular noun = one or the other of two.",
       },
       {
@@ -827,7 +827,7 @@ export const EN_B2_U21_EXTRA: Lesson[] = [  // ---------------------------------
       },
       {
         type: "multiple-choice",
-        question: "«Los dos coches son rojos.» Which is correct?",
+        question: "«Los dos carros son rojos.» Which is correct?",
         options: ["Both cars are red.", "Both two cars are red.", "The both cars are red.", "Both the two cars are red."],
         correctIndex: 0,
         explanation: "\"Both\" already means «los dos»: \"both cars\" or \"the two cars\", never together.",

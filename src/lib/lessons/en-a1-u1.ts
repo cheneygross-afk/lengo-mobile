@@ -662,9 +662,9 @@ export const EN_A1_U1: Lesson[] = [
         type: "listen-choose",
         audio: "We're very hungry.",
         question: "¿Qué has oído?",
-        options: ["Tenemos mucha hambre.", "Estamos muy enfadados.", "Tenemos mucha prisa.", "Somos muy jóvenes."],
+        options: ["Tenemos mucha hambre.", "Estamos muy enojados.", "Tenemos mucha prisa.", "Somos muy jóvenes."],
         correctIndex: 0,
-        explanation: "\"Hungry\" es «hambriento». No lo confundas con \"angry\" («enfadado»), que no lleva \"h\".",
+        explanation: "\"Hungry\" es «hambriento». No lo confundas con \"angry\" («enojado»), que no lleva \"h\".",
       },
       {
         type: "translate",
@@ -932,8 +932,8 @@ export const EN_A1_U1: Lesson[] = [
           "\"The\" suena /ðə/ delante de consonante (\"the book\") y /ði/ delante de vocal (\"the apple\").",
         ],
         examples: [
-          { es: "the car", en: "el coche" },
-          { es: "the cars", en: "los coches" },
+          { es: "the car", en: "el carro" },
+          { es: "the cars", en: "los carros" },
           { es: "Dogs are friendly.", en: "Los perros son cariñosos. (en general)" },
           { es: "The dogs are in the garden.", en: "Los perros están en el jardín. (unos perros concretos)" },
           { es: "Coffee is expensive.", en: "El café es caro. (en general)" },
@@ -1092,7 +1092,7 @@ export const EN_A1_U1: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Las cajas están en el coche.",
+        source: "Las cajas están en el carro.",
         answer: "The boxes are in the car.",
         explanation: "\"Box\" termina en \"-x\", así que su plural es \"boxes\".",
       },
@@ -1348,17 +1348,17 @@ export const EN_A1_U1: Lesson[] = [
       {
         heading: "El adjetivo va delante del sustantivo",
         body: [
-          "En inglés el adjetivo va antes del sustantivo: \"a red car\" («un coche rojo»), \"a big house\" («una casa grande»). *A car red es un calco del español.",
-          "Después de \"to be\" el adjetivo va detrás, igual que en español: \"The car is red\" («el coche es rojo»).",
-          "Recuerda que \"a\" o \"an\" depende de la palabra que va justo después, que muchas veces es el adjetivo: \"an old car\" («un coche viejo»), pero \"a big apple\" («una manzana grande»).",
+          "En inglés el adjetivo va antes del sustantivo: \"a red car\" («un carro rojo»), \"a big house\" («una casa grande»). *A car red es un calco del español.",
+          "Después de \"to be\" el adjetivo va detrás, igual que en español: \"The car is red\" («el carro es rojo»).",
+          "Recuerda que \"a\" o \"an\" depende de la palabra que va justo después, que muchas veces es el adjetivo: \"an old car\" («un carro viejo»), pero \"a big apple\" («una manzana grande»).",
         ],
         examples: [
-          { es: "a red car", en: "un coche rojo" },
+          { es: "a red car", en: "un carro rojo" },
           { es: "a big house", en: "una casa grande" },
           { es: "a new phone", en: "un teléfono nuevo" },
-          { es: "an old car", en: "un coche viejo" },
+          { es: "an old car", en: "un carro viejo" },
           { es: "an interesting book", en: "un libro interesante" },
-          { es: "The car is red.", en: "El coche es rojo." },
+          { es: "The car is red.", en: "El carro es rojo." },
         ],
         checkpoint: [
           {
@@ -1385,7 +1385,7 @@ export const EN_A1_U1: Lesson[] = [
           "El plural lo lleva solo el sustantivo: \"red cars\", nunca *reds cars. Es uno de los errores más frecuentes de los hispanohablantes, porque en español el adjetivo concuerda.",
         ],
         examples: [
-          { es: "a red car, two red cars", en: "un coche rojo, dos coches rojos" },
+          { es: "a red car, two red cars", en: "un carro rojo, dos carros rojos" },
           { es: "a tall woman, two tall women", en: "una mujer alta, dos mujeres altas" },
           { es: "The houses are small.", en: "Las casas son pequeñas." },
           { es: "They're happy.", en: "Están contentos. / Están contentas." },
@@ -1417,7 +1417,7 @@ export const EN_A1_U1: Lesson[] = [
         examples: [
           { es: "It's very good.", en: "Es muy bueno." },
           { es: "I'm very hungry.", en: "Tengo mucha hambre." },
-          { es: "Which car? The blue one.", en: "¿Qué coche? El azul." },
+          { es: "Which car? The blue one.", en: "¿Qué carro? El azul." },
           { es: "The red ones are cheap.", en: "Los rojos son baratos." },
         ],
         checkpoint: [
@@ -1426,7 +1426,7 @@ export const EN_A1_U1: Lesson[] = [
             prompt: "Escribe en inglés las palabras en negrita.",
             sentence: "The red car is new, and ___ is old.",
             answer: "the blue one",
-            en: "El coche rojo es nuevo y [el azul] es viejo.",
+            en: "El carro rojo es nuevo y [el azul] es viejo.",
             explanation: "El adjetivo no puede ir solo: \"the blue one\", no \"the blue\".",
           },
           {
@@ -1478,7 +1478,7 @@ export const EN_A1_U1: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Es un coche rojo.",
+        source: "Es un carro rojo.",
         answer: "It's a red car.",
         explanation: "El adjetivo va delante: \"a red car\".",
       },
@@ -1486,10 +1486,10 @@ export const EN_A1_U1: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Los coches rojos son caros.",
+        source: "Los carros rojos son caros.",
         answer: "Red cars are expensive.",
         altAnswers: ["The red cars are expensive."],
-        explanation: "\"Red\" no lleva \"-s\". Sin \"the\" hablas de los coches rojos en general; con \"the\", de unos concretos.",
+        explanation: "\"Red\" no lleva \"-s\". Sin \"the\" hablas de los carros rojos en general; con \"the\", de unos concretos.",
       },
       {
         type: "fill-blank",
