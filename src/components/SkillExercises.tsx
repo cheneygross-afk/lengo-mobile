@@ -459,7 +459,7 @@ export function Write({
           ))}
         </View>
       )}
-      {(state.kind === "feedback" || state.kind === "selfcheck") && (
+      {(state.kind === "feedback" || state.kind === "selfcheck") && !!exercise.modelAnswer && (
         <View style={s.panel}>
           <Text style={s.muted}>A model answer:</Text>
           <TapText text={exercise.modelAnswer} lang={lang} mode="target" style={s.revealedText} />
@@ -477,8 +477,13 @@ function FeedbackView({ feedback, lang }: { feedback: WritingFeedback; lang: Spe
         <Text style={s.scoreOff}>{"★".repeat(5 - feedback.score)}</Text> {feedback.score}/5
       </Text>
       {!!feedback.comment && <TapText text={feedback.comment} lang={lang} style={s.body} />}
-      <Text style={[s.muted, { marginTop: 8 }]}>Corrected version:</Text>
-      <TapText text={feedback.corrected} lang={lang} mode="target" style={s.revealedText} />
+      {/* Empty for a long text, where the corrections stand in for it. */}
+      {!!feedback.corrected && (
+        <>
+          <Text style={[s.muted, { marginTop: 8 }]}>Corrected version:</Text>
+          <TapText text={feedback.corrected} lang={lang} mode="target" style={s.revealedText} />
+        </>
+      )}
       {feedback.corrections.map((c, i) => (
         <View key={i} style={{ marginTop: 8 }}>
           <Text>
