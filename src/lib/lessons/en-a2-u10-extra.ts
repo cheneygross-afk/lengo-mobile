@@ -24,7 +24,7 @@ export const EN_A2_U10_EXTRA: Lesson[] = [
         examples: [
           { es: "I have to get up at six.", en: "Tengo que levantarme a las seis." },
           { es: "She has to work on Saturdays.", en: "Ella tiene que trabajar los sábados. (incorrecto: *She have to)" },
-          { es: "We don't have to hurry.", en: "No tenemos que darnos prisa." },
+          { es: "We don't have to hurry.", en: "No tenemos que apurarnos." },
           { es: "Does he have to wear a tie?", en: "¿Él tiene que llevar corbata? (incorrecto: *Has he to wear)" },
           { es: "I had to take the bus.", en: "Tuve que tomar el autobús." },
           { es: "Did you have to pay?", en: "¿Tuviste que pagar?" },
@@ -299,8 +299,8 @@ export const EN_A2_U10_EXTRA: Lesson[] = [
         sentence: "Visitors ___ photos in the museum.",
         answer: "mustn't take",
         altAnswers: ["must not take", "can't take", "cannot take"],
-        en: "Los visitantes [no deben hacer] fotos en el museo.",
-        explanation: "«Hacer fotos» es \"take photos\" (nunca *make photos). La prohibición es \"mustn't\" + verbo base.",
+        en: "Los visitantes [no deben tomar] fotos en el museo.",
+        explanation: "«Tomar fotos» es \"take photos\" (nunca *make photos). La prohibición es \"mustn't\" + verbo base.",
       },
       {
         type: "fill-blank",
@@ -419,7 +419,7 @@ export const EN_A2_U10_EXTRA: Lesson[] = [
           {
             type: "multiple-choice",
             question: "En el aeropuerto: «No se pueden llevar líquidos en el equipaje de mano». ¿Cuál es la frase?",
-            options: ["You mustn't take liquids in your hand luggage.", "You don't have to take liquids in your hand luggage.", "You don't need to take liquids in your hand luggage.", "You haven't to take liquids in your hand luggage."],
+            options: ["You mustn't take liquids in your carry-on bag.", "You don't have to take liquids in your carry-on bag.", "You don't need to take liquids in your carry-on bag.", "You haven't to take liquids in your carry-on bag."],
             correctIndex: 0,
             explanation: "Es una prohibición: \"mustn't\" (o \"can't\"). \"Don't have to\" significaría que es opcional llevarlos.",
           },
@@ -604,7 +604,7 @@ export const EN_A2_U10_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "¿Cómo se dice «No creo que debas llamarle ahora»?",
+            question: "¿Cómo se dice «No creo que debas llamarlo ahora»?",
             options: ["I don't think you should call him now.", "I think you shouldn't call him now.", "I don't think you should to call him now.", "I no think you should call him now."],
             correctIndex: 0,
             explanation: "El inglés niega el verbo principal: \"I don't think you should\". Y nunca \"should to\".",

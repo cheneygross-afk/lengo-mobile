@@ -118,7 +118,7 @@ export const EN_B2_U21_EXTRA: Lesson[] = [  // ---------------------------------
       },
       {
         type: "multiple-choice",
-        question: "«Su piso es el triple de grande que el mío.» Which is correct?",
+        question: "«Su departamento es el triple de grande que el mío.» Which is correct?",
         options: [
           "Her apartment is three times as big as mine.",
           "Her apartment is three times as big than mine.",
@@ -534,7 +534,7 @@ export const EN_B2_U21_EXTRA: Lesson[] = [  // ---------------------------------
         sentence: "There's ___ milk left. Can you buy some?",
         answer: "very little",
         altAnswers: ["little", "hardly any", "not much"],
-        en: "Queda [muy poca] leche. ¿Puedes comprar?",
+        en: "Queda [muy poca] leche. ¿Puedes comprar más?",
         explanation: "\"Milk\" is uncountable: \"very little\". *Very few milk is wrong.",
       },
       {
@@ -1055,13 +1055,13 @@ export const EN_B2_U21_EXTRA: Lesson[] = [  // ---------------------------------
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Los niños van al colegio andando.",
+        source: "Los niños van al colegio caminando.",
         answer: "The children walk to school.",
         altAnswers: alts(
           "The children walk to school.",
           "{The children|The kids|Children|Kids} {walk to school|go to school on foot}.",
         ),
-        explanation: "\"Go / walk to school\" with no article. «Andando» = \"walk\" or \"on foot\".",
+        explanation: "\"Go / walk to school\" with no article. «Caminando» = \"walk\" or \"on foot\".",
       },
       {
         type: "translate",

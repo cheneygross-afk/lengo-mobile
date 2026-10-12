@@ -102,7 +102,7 @@ export const EN_B2_U16: Lesson[] = [
           "Spanish «intentar» usually matches \"try to\", and «probar a» matches \"try doing\". In advice, \"try\" + -ing is very common: \"Have you tried restarting it?\"",
         ],
         examples: [
-          { es: "I tried to open the jar, but I couldn't.", en: "Intenté abrir el bote, pero no pude." },
+          { es: "I tried to open the jar, but I couldn't.", en: "Intenté abrir el frasco, pero no pude." },
           { es: "Try adding a little salt.", en: "Prueba a añadir un poco de sal." },
           { es: "Have you tried turning it off and on again?", en: "¿Has probado a apagarlo y encenderlo otra vez?" },
           { es: "She tried to stay calm.", en: "Intentó mantener la calma." },
@@ -139,7 +139,7 @@ export const EN_B2_U16: Lesson[] = [
           { es: "I regret not studying harder at school.", en: "Me arrepiento de no haber estudiado más en el colegio." },
           { es: "We regret to inform you that the position has been filled.", en: "Lamentamos comunicarle que el puesto ya está cubierto." },
           { es: "He went on working after he turned seventy.", en: "Siguió trabajando después de cumplir setenta años." },
-          { es: "She started as a waitress and went on to open her own restaurant.", en: "Empezó de camarera y luego llegó a abrir su propio restaurante." },
+          { es: "She started as a waitress and went on to open her own restaurant.", en: "Empezó de mesera y luego llegó a abrir su propio restaurante." },
           { es: "Taking this job means working weekends.", en: "Aceptar este trabajo implica trabajar los fines de semana." },
           { es: "Sorry, I didn't mean to wake you up.", en: "Perdona, no era mi intención despertarte." },
         ],
@@ -683,7 +683,7 @@ export const EN_B2_U16: Lesson[] = [
           { es: "Smoking is not allowed here.", en: "Aquí no se permite fumar." },
           { es: "It's important to sleep well.", en: "Es importante dormir bien. (incorrecto: *Is important to sleep)" },
           { es: "Learning a language takes time.", en: "Aprender un idioma lleva tiempo." },
-          { es: "It's hard to find a cheap apartment here.", en: "Es difícil encontrar un piso barato aquí." },
+          { es: "It's hard to find a cheap apartment here.", en: "Es difícil encontrar un departamento barato aquí." },
         ],
         checkpoint: [
           {
@@ -1427,15 +1427,15 @@ export const EN_B2_U16: Lesson[] = [
         heading: "Email 2: suggest, worth, can't stand",
         body: [
           "Now a message from Sofia to a friend: \"My cousin suggested to go to the coast, but I think the old town is worth to see. Also, I can't stand to wait in long lines at the beach!\"",
-          "\"Suggest\" never takes \"to\" + verb: say \"She suggested going\" or \"She suggested that we go\". \"Worth\" always takes -ing: \"It's worth seeing\" («merece la pena verlo»).",
+          "\"Suggest\" never takes \"to\" + verb: say \"She suggested going\" or \"She suggested that we go\". \"Worth\" always takes -ing: \"It's worth seeing\" («vale la pena verlo»).",
           "\"Can't stand\" usually takes -ing: \"I can't stand waiting\". You may hear \"I can't stand to see him like this\" in American English, but -ing is the safe choice, especially for habits.",
         ],
         examples: [
           { es: "My cousin suggested going to the coast.", en: "Mi primo sugirió ir a la costa. (incorrecto: *suggested to go)" },
           { es: "She suggested that we take the train.", en: "Sugirió que fuéramos en tren." },
-          { es: "The old town is worth seeing.", en: "Merece la pena ver el casco antiguo. (incorrecto: *worth to see)" },
-          { es: "It's not worth waiting for him.", en: "No merece la pena esperarlo." },
-          { es: "I can't stand waiting in long lines.", en: "No soporto hacer colas largas." },
+          { es: "The old town is worth seeing.", en: "Vale la pena ver el casco antiguo. (incorrecto: *worth to see)" },
+          { es: "It's not worth waiting for him.", en: "No vale la pena esperarlo." },
+          { es: "I can't stand waiting in long lines.", en: "No soporto hacer filas largas." },
         ],
         checkpoint: [
           {
@@ -1532,7 +1532,7 @@ export const EN_B2_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Merece la pena visitar esa playa.",
+        source: "Vale la pena visitar esa playa.",
         answer: "That beach is worth visiting.",
         altAnswers: [
           "It's worth visiting that beach.",
@@ -1939,7 +1939,7 @@ export const EN_B2_U16: Lesson[] = [
             sentence: "We ___ in a small apartment near the river.",
             answer: "used to live",
             altAnswers: ["lived"],
-            en: "[Vivíamos] en un piso pequeño cerca del río.",
+            en: "[Vivíamos] en un departamento pequeño cerca del río.",
             explanation: "\"Live\" here is a state, so \"used to\" or past simple. Not *would live.",
           },
         ],
@@ -2095,16 +2095,16 @@ export const EN_B2_U16: Lesson[] = [
       {
         heading: "It's not worth, there's no point, it's no use",
         body: [
-          "These three expressions say that an action is useless, and all of them take -ing: \"It's not worth arguing\", \"There's no point (in) arguing\", \"It's no use arguing\". Spanish uses the infinitive: «no merece la pena discutir», «no tiene sentido discutir», «no sirve de nada discutir».",
-          "\"Worth\" can also have the thing as the subject: \"That movie isn't worth watching\" («no merece la pena ver esa película»). You can't do this with \"no point\" or \"no use\".",
+          "These three expressions say that an action is useless, and all of them take -ing: \"It's not worth arguing\", \"There's no point (in) arguing\", \"It's no use arguing\". Spanish uses the infinitive: «no vale la pena discutir», «no tiene sentido discutir», «no sirve de nada discutir».",
+          "\"Worth\" can also have the thing as the subject: \"That movie isn't worth watching\" («no vale la pena ver esa película»). You can't do this with \"no point\" or \"no use\".",
           "In exams you often rewrite one with another: \"It's useless to complain\" becomes \"It's no use complaining\" or \"There's no point in complaining\".",
         ],
         examples: [
-          { es: "It's not worth arguing about it.", en: "No merece la pena discutir por eso." },
-          { es: "That movie isn't worth watching.", en: "No merece la pena ver esa película." },
+          { es: "It's not worth arguing about it.", en: "No vale la pena discutir por eso." },
+          { es: "That movie isn't worth watching.", en: "No vale la pena ver esa película." },
           { es: "There's no point in waiting any longer.", en: "No tiene sentido esperar más." },
           { es: "It's no use crying over spilled milk.", en: "A lo hecho, pecho. (lit. no sirve de nada llorar por la leche derramada)" },
-          { es: "Is it worth taking a taxi?", en: "¿Merece la pena tomar un taxi?" },
+          { es: "Is it worth taking a taxi?", en: "¿Vale la pena tomar un taxi?" },
         ],
         checkpoint: [
           {
@@ -2131,11 +2131,11 @@ export const EN_B2_U16: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "The book is good, but the film isn't ___.",
+            sentence: "The book is good, but the movie isn't ___.",
             answer: "worth watching",
             altAnswers: ["worth seeing", "worth it"],
-            en: "El libro es bueno, pero no [merece la pena ver] la película.",
-            explanation: "The thing can be the subject of \"worth\" + -ing: \"The film isn't worth watching\".",
+            en: "El libro es bueno, pero no [vale la pena ver] la película.",
+            explanation: "The thing can be the subject of \"worth\" + -ing: \"The movie isn't worth watching\".",
           },
         ],
       },
@@ -2148,7 +2148,7 @@ export const EN_B2_U16: Lesson[] = [
         ],
         examples: [
           { es: "I'd rather stay home tonight.", en: "Prefiero quedarme en casa esta noche. (incorrecto: *I'd rather to stay)" },
-          { es: "I'd rather walk than take the bus.", en: "Prefiero ir andando que tomar el autobús." },
+          { es: "I'd rather walk than take the bus.", en: "Prefiero ir caminando que tomar el autobús." },
           { es: "I prefer reading to watching TV.", en: "Prefiero leer a ver la tele." },
           { es: "I prefer to read rather than watch TV.", en: "Prefiero leer en lugar de ver la tele." },
           { es: "Would you rather eat in or go out?", en: "¿Prefieres comer en casa o salir?" },
@@ -2247,7 +2247,7 @@ export const EN_B2_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Merece la pena ir a la exposición?",
+        source: "¿Vale la pena ir a la exposición?",
         answer: "Is it worth going to the exhibition?",
         altAnswers: ["Is the exhibition worth going to?", "Is the exhibition worth seeing?", "Is the exhibition worth visiting?", "Is it worth seeing the exhibition?", "Is it worth visiting the exhibition?", "Is the exhibit worth seeing?", "Is it worth going to the exhibit?"],
         explanation: "\"Is it worth\" + -ing, or the thing as subject: \"Is the exhibition worth seeing?\"",
@@ -2257,7 +2257,7 @@ export const EN_B2_U16: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "I'd rather walk ___ wait for the bus in the rain.",
         answer: "than",
-        en: "Prefiero ir andando [que] esperar el autobús bajo la lluvia.",
+        en: "Prefiero ir caminando [que] esperar el autobús bajo la lluvia.",
         explanation: "\"Would rather A than B\", both in the base form.",
       },
       {
@@ -2303,7 +2303,7 @@ export const EN_B2_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No merece la pena arreglar este ordenador; es muy viejo.",
+        source: "No vale la pena arreglar esta computadora; es muy vieja.",
         answer: "This computer isn't worth fixing; it's very old.",
         altAnswers: [
           "This computer isn't worth fixing. It's very old.",
@@ -2559,9 +2559,9 @@ export const EN_B2_U16: Lesson[] = [
         ],
         examples: [
           { es: "When I was a student, I used to stay up until three.", en: "Cuando era estudiante, me quedaba despierto hasta las tres." },
-          { es: "We would meet at the same bar every Friday.", en: "Quedábamos en el mismo bar todos los viernes." },
+          { es: "We would meet at the same bar every Friday.", en: "Nos veíamos en el mismo bar todos los viernes." },
           { es: "These days I usually go to bed at eleven.", en: "Hoy en día suelo acostarme a las once." },
-          { es: "I've stopped eating junk food.", en: "He dejado de comer comida basura." },
+          { es: "I've stopped eating junk food.", en: "He dejado de comer comida chatarra." },
           { es: "I'm getting used to going to bed early.", en: "Me estoy acostumbrando a acostarme pronto." },
         ],
         checkpoint: [
@@ -2749,7 +2749,7 @@ export const EN_B2_U16: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Paramos a hacer fotos del lago.",
+            source: "Paramos a tomar fotos del lago.",
             answer: "We stopped to take photos of the lake.",
             altAnswers: ["We stopped to take pictures of the lake.", "We stopped to take some photos of the lake.", "We stopped to take some pictures of the lake.", "We stopped to photograph the lake."],
             explanation: "«Parar a» = \"stop to\" (purpose).",
@@ -2851,7 +2851,7 @@ export const EN_B2_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No merece la pena discutir con él.",
+        source: "No vale la pena discutir con él.",
         answer: "It's not worth arguing with him.",
         altAnswers: ["It isn't worth arguing with him.", "There's no point in arguing with him.", "There's no point arguing with him.", "It's no use arguing with him.", "It's pointless arguing with him.", "It's pointless to argue with him."],
         explanation: "\"It's not worth\" + -ing.",

@@ -27,7 +27,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
         examples: [
           { es: "My father, who is a doctor, works in Lima.", en: "Mi padre, que es médico, trabaja en Lima. (incorrecto: *My father, that is a doctor)" },
           { es: "The doctor who saw me was very kind.", en: "El médico que me atendió fue muy amable." },
-          { es: "Madrid, which is the capital, has six million people.", en: "Madrid, que es la capital, tiene seis millones de habitantes." },
+          { es: "Madrid, which is the capital, has more than three million people.", en: "Madrid, que es la capital, tiene más de tres millones de habitantes." },
           { es: "The car that I bought last year has already broken down.", en: "El carro que compré el año pasado ya se ha averiado." },
           { es: "Our teacher, whose husband is Irish, speaks with a slight accent.", en: "Nuestra profesora, cuyo marido es irlandés, habla con un ligero acento." },
         ],
@@ -61,7 +61,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "\"The tourists, who were hungry, went to a restaurant.\" ¿Qué significa?",
+            question: "\"The tourists, who were hungry, went to a restaurant.\" What does this mean?",
             options: [
               "All the tourists were hungry and went to a restaurant.",
               "Only the hungry tourists went to a restaurant.",
@@ -99,7 +99,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El portátil que me prestaste no enciende.",
+        source: "La laptop que me prestaste no enciende.",
         answer: "The laptop that you lent me won't turn on.",
         altAnswers: [
           "The laptop you lent me won't turn on.",
@@ -116,7 +116,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Cuál de estas frases NO es correcta?",
+        question: "Which sentence is NOT correct?",
         options: [
           "The Amazon, that flows through Brazil, is the largest river in the world.",
           "The Amazon, which flows through Brazil, is the largest river in the world.",
@@ -179,7 +179,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"I gave the books which were damaged to the library.\" ¿Qué significa?",
+        question: "\"I gave the books which were damaged to the library.\" What does this mean?",
         options: [
           "I gave only the damaged books to the library.",
           "All the books were damaged, and I gave them to the library.",
@@ -254,7 +254,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
       {
         type: "listen-choose",
         audio: "My cousin, who works in a bank, lent me the money.",
-        question: "¿Qué oíste?",
+        question: "What did you hear?",
         options: [
           "Mi primo, que trabaja en un banco, me prestó el dinero.",
           "Mi primo trabaja en el banco que me prestó el dinero.",
@@ -295,15 +295,15 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
         heading: "Quick recap: which or what?",
         body: [
           "When «lo que / lo cual» comments on the WHOLE previous sentence, English uses a comma and \"which\": «Llegó tarde, lo que me molestó» is \"He was late, which annoyed me\". *He was late, what annoyed me is a very common mistake.",
-          "When «lo que» means «la cosa que» (there is no previous sentence it refers to), English uses \"what\": \"What I need is a holiday\", \"I don't know what he wants\".",
+          "When «lo que» means «la cosa que» (there is no previous sentence it refers to), English uses \"what\": \"What I need is a vacation\", \"I don't know what he wants\".",
           "Never put \"what\" after a noun: *the thing what I want, *everything what I have. After a noun or \"all / everything\", use \"that\" or nothing: \"everything (that) I have\", \"all I know\".",
         ],
         examples: [
           { es: "He was late, which annoyed me.", en: "Llegó tarde, lo que me molestó. (incorrecto: *what annoyed me)" },
-          { es: "What I need is a holiday.", en: "Lo que necesito son unas vacaciones." },
+          { es: "What I need is a vacation.", en: "Lo que necesito son unas vacaciones." },
           { es: "I don't know what he wants.", en: "No sé lo que quiere." },
           { es: "That's all I know.", en: "Eso es todo lo que sé." },
-          { es: "The thing that worries me is the cost.", en: "La cosa que me preocupa es el coste." },
+          { es: "The thing that worries me is the cost.", en: "La cosa que me preocupa es el costo." },
           { es: "She passed all her exams, which surprised everyone.", en: "Aprobó todos los exámenes, lo cual sorprendió a todos." },
         ],
         checkpoint: [
@@ -394,7 +394,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Cuál de estas frases NO es correcta?",
+        question: "Which sentence is NOT correct?",
         options: [
           "The thing what I don't understand is the price.",
           "What I don't understand is the price.",
@@ -490,7 +490,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Aprobó el licencia de manejar a la primera, lo cual es raro.» Which is correct?",
+        question: "«Aprobó el examen de manejo a la primera, lo cual es raro.» Which is correct?",
         options: [
           "He passed his driving test the first time, which is unusual.",
           "He passed his driving test the first time, what is unusual.",
@@ -623,7 +623,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Cuál de estas frases NO es correcta?",
+        question: "Which sentence is NOT correct?",
         options: [
           "We interviewed ten candidates, most of them who were very good.",
           "We interviewed ten candidates, most of whom were very good.",
@@ -834,7 +834,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Este es el piso en el que vivíamos.",
+        source: "Este es el departamento en el que vivíamos.",
         answer: "This is the apartment where we used to live.",
         altAnswers: [
           "This is the apartment we used to live in.",
@@ -855,7 +855,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Cuál de estas frases NO es correcta?",
+        question: "Which sentence is NOT correct?",
         options: [
           "The town where I was born in is very small.",
           "The town where I was born is very small.",
@@ -1159,7 +1159,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Cuál de estas frases tiene un error?",
+        question: "Which sentence has a mistake?",
         options: [
           "Looking out of the window, the mountains were beautiful.",
           "Looking out of the window, I could see the mountains.",
@@ -1349,7 +1349,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multi-select",
-            question: "¿En qué frases puedes quitar \"that\"? Elige todas las correctas.",
+            question: "In which sentences can you leave out \"that\"? Choose all that apply.",
             options: [
               "The cake that you made was delicious.",
               "The bus that goes to the airport is the 42.",
@@ -1382,7 +1382,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Cuál de estas frases NO es correcta?",
+        question: "Which sentence is NOT correct?",
         options: [
           "The woman works in that shop is my aunt.",
           "The woman who works in that shop is my aunt.",
@@ -1390,7 +1390,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
           "The woman you saw in that shop is my aunt.",
         ],
         correctIndex: 0,
-        explanation: "\"Who\" is the subject of \"works\", so it cannot be dropped. In the last option \"you\" is the subject, so dropping is fine.",
+        explanation: "\"Who\" is the subject of \"works\", so it cannot be dropped. In \"The woman you saw in that shop\", \"you\" is the subject, so dropping is fine.",
       },
       {
         type: "translate",
@@ -1423,7 +1423,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No encuentro las gafas que dejé aquí.",
+        source: "No encuentro los lentes que dejé aquí.",
         answer: "I can't find the glasses I left here.",
         altAnswers: [
           "I can't find the glasses that I left here.",
@@ -1435,7 +1435,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Cuál de estas frases es correcta?",
+        question: "Which sentence is correct?",
         options: [
           "The email I sent you yesterday had a mistake.",
           "The email that I sent it to you yesterday had a mistake.",
@@ -1555,7 +1555,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
       {
         type: "listen-choose",
         audio: "The house we wanted to buy has already been sold.",
-        question: "¿Qué oíste?",
+        question: "What did you hear?",
         options: [
           "La casa que queríamos comprar ya se ha vendido.",
           "Queríamos comprar una casa, pero no se vendía.",

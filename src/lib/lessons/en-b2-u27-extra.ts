@@ -65,7 +65,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "Hurry up or we'll ___ the last bus.",
             answer: "miss",
-            en: "Date prisa o [perderemos] el último autobús.",
+            en: "Apúrate o [perderemos] el último autobús.",
             explanation: "You \"miss\" transport that leaves without you. \"Lose\" means you can't find something: *lose the bus is a Spanish-speaker error.",
           },
           {
@@ -105,14 +105,14 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Se subió al autobús sin billete.",
+        source: "Se subió al autobús sin boleto.",
         answer: "He got on the bus without a ticket.",
         altAnswers: [
           "She got on the bus without a ticket.",
           "He boarded the bus without a ticket.",
           "She boarded the bus without a ticket.",
         ],
-        explanation: "With a bus you \"get on\", not *get in or *go up. «Billete» for transport is \"ticket\".",
+        explanation: "With a bus you \"get on\", not *get in or *go up. «Boleto» for transport is \"ticket\".",
       },
       {
         type: "fill-blank",
@@ -221,7 +221,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Fue un trayecto largo y agotador, pero mereció la pena.",
+        source: "Fue un trayecto largo y agotador, pero valió la pena.",
         answer: "It was a long, exhausting journey, but it was worth it.",
         altAnswers: [
           "It was a long and exhausting journey, but it was worth it.",
@@ -232,7 +232,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
           "It was a long, tiring trip, but it was worth it.",
           "It was a long and tiring trip, but it was worth it.",
         ],
-        explanation: "Getting from A to B is \"journey\" (or \"trip\"). «Merecer la pena» is \"be worth it\".",
+        explanation: "Getting from A to B is \"journey\" (or \"trip\"). «Valer la pena» is \"be worth it\".",
       },
       {
         type: "fill-blank",
@@ -331,15 +331,15 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: renting a place",
         body: [
-          "«Piso» is \"apartment\" in American English and \"flat\" in British English. The money you pay every month is \"rent\" (a noun and a verb: \"We rent a small apartment\"). The owner is the \"landlord\" (a woman is often called a \"landlady\"), and you are the \"tenant\".",
+          "«Departamento» («piso» in Spain) is \"apartment\" in American English and \"flat\" in British English. The money you pay every month is \"rent\" (a noun and a verb: \"We rent a small apartment\"). The owner is the \"landlord\" (a woman is often called a \"landlady\"), and you are the \"tenant\".",
           "«La fianza» is the \"deposit\" or \"security deposit\". People you share with are \"roommates\" (US) or \"flatmates\" (UK). «Los gastos» are \"bills\" or \"utilities\": \"Is the rent with bills included?\"",
         ],
         examples: [
-          { es: "We rent a two-bedroom apartment near the park.", en: "Alquilamos un piso de dos dormitorios cerca del parque." },
+          { es: "We rent a two-bedroom apartment near the park.", en: "Alquilamos un departamento de dos dormitorios cerca del parque." },
           { es: "The rent goes up every January.", en: "El alquiler sube cada enero." },
           { es: "Our landlord lives in the same building.", en: "Nuestro casero vive en el mismo edificio." },
           { es: "We paid two months' rent as a deposit.", en: "Pagamos dos meses de alquiler como fianza." },
-          { es: "I share a flat with two flatmates.", en: "Comparto piso con dos compañeros. (inglés británico)" },
+          { es: "I share an apartment with two roommates.", en: "Comparto departamento con dos compañeros." },
         ],
         checkpoint: [
           {
@@ -348,7 +348,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
             sentence: "The ___ says we can't have pets in the apartment.",
             answer: "landlord",
             altAnswers: ["landlady", "owner"],
-            en: "[El casero] dice que no podemos tener mascotas en el piso.",
+            en: "[El casero] dice que no podemos tener mascotas en el departamento.",
             explanation: "The person who rents out a home is the \"landlord\" (or \"landlady\"). The person who pays rent is the \"tenant\".",
           },
         ],
@@ -363,8 +363,8 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
           { es: "My father is a much better cook than me.", en: "Mi padre cocina mucho mejor que yo. (incorrecto: *a better cooker)" },
           { es: "Turn off the stove before you go out.", en: "Apaga la cocina antes de salir." },
           { es: "This recipe only takes twenty minutes.", en: "Esta receta solo lleva veinte minutos." },
-          { es: "I've lost the receipt, so I can't return it.", en: "He perdido el ticket, así que no puedo devolverlo." },
-          { es: "The bedroom has a thick blue carpet.", en: "El dormitorio tiene una moqueta azul gruesa." },
+          { es: "I've lost the receipt, so I can't return it.", en: "Perdí el recibo, así que no puedo devolverlo." },
+          { es: "The bedroom has a thick blue carpet.", en: "El dormitorio tiene una alfombra azul gruesa." },
           { es: "Put the documents in the green folder.", en: "Pon los documentos en la carpeta verde." },
         ],
         checkpoint: [
@@ -406,7 +406,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Keep the ___ in case the shoes don't fit.",
         answer: "receipt",
-        en: "Guarda [el ticket] por si los zapatos no te quedan bien.",
+        en: "Guarda [el recibo] por si los zapatos no te quedan bien.",
         explanation: "The paper you get when you pay is a \"receipt\". Do not confuse it with \"recipe\" (a cooking «receta»).",
       },
       {
@@ -472,7 +472,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
         sentence: "We spilled coffee on the new ___ in the living room.",
         answer: "carpet",
         altAnswers: ["rug"],
-        en: "Derramamos café en [la moqueta] nueva del salón.",
+        en: "Derramamos café en [la alfombra] nueva de la sala.",
         explanation: "«Moqueta» (or a large «alfombra») is \"carpet\"; a small one is a \"rug\". «Carpeta» is a false friend: \"folder\".",
       },
       {
@@ -515,7 +515,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
           { left: "cooker", right: "cocina (el aparato)" },
           { left: "recipe", right: "receta de cocina" },
           { left: "receipt", right: "ticket, recibo" },
-          { left: "carpet", right: "moqueta, alfombra" },
+          { left: "carpet", right: "alfombra" },
           { left: "folder", right: "carpeta" },
         ],
         explanation: "Three classic traps: a \"cooker\" is not a person, a \"receipt\" is not a recipe, and a \"carpet\" is not a folder.",
@@ -559,7 +559,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Vivimos en un piso de dos dormitorios en el centro.",
+        source: "Vivimos en un departamento de dos dormitorios en el centro.",
         answer: "We live in a two-bedroom apartment downtown.",
         altAnswers: [
           "We live in a two-bedroom apartment in the center.",
@@ -575,7 +575,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
           "We live in a two-bedroom flat in town.",
           "We live in a two-bedroom apartment in town.",
         ],
-        explanation: "«Piso» is \"apartment\" (US) or \"flat\" (UK). Note \"two-bedroom\" with no -s: a compound adjective before a noun is singular.",
+        explanation: "«Departamento» is \"apartment\" (US) or \"flat\" (UK). Note \"two-bedroom\" with no -s: a compound adjective before a noun is singular.",
       },
       {
         type: "fill-blank",
@@ -589,7 +589,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mis compañeros de piso nunca friegan los platos.",
+        source: "Mis compañeros de cuarto nunca lavan los platos.",
         answer: "My roommates never do the dishes.",
         altAnswers: [
           "My roommates never wash the dishes.",
@@ -601,7 +601,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
           "My roommates never wash up.",
           "My roommates never do the washing-up.",
         ],
-        explanation: "«Compañeros de piso» are \"roommates\" (US) or \"flatmates\" (UK). «Fregar los platos» is \"do the dishes\" (UK also \"do the washing-up\").",
+        explanation: "«Compañeros de cuarto» are \"roommates\" (US) or \"flatmates\" (UK). «Lavar los platos» is \"do the dishes\" (UK also \"do the washing-up\").",
       },
       {
         type: "word-order",
@@ -615,7 +615,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Busco un piso de alquiler cerca de la universidad.",
+        source: "Busco un departamento de alquiler cerca de la universidad.",
         answer: "I'm looking for an apartment to rent near the university.",
         altAnswers: [
           "I'm looking for a flat to rent near the university.",
@@ -635,9 +635,9 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
         audio: "Put the folder on the desk, not on the carpet.",
         question: "What did you hear?",
         options: [
-          "Pon la carpeta en el escritorio, no en la moqueta.",
+          "Pon la carpeta en el escritorio, no en la alfombra.",
           "Pon la alfombra en la mesa, no en la carpeta.",
-          "Deja la carpeta en la moqueta, no en el escritorio.",
+          "Deja la carpeta en la alfombra, no en el escritorio.",
         ],
         correctIndex: 0,
         explanation: "\"Folder\" is «carpeta» and \"carpet\" is «moqueta» or «alfombra»: the two words are false friends.",
@@ -697,7 +697,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
           "\"Sensible\" means «sensato» (with good judgment); «sensible» is \"sensitive\". \"Fabric\" is «tela»; «fábrica» is \"factory\".",
         ],
         examples: [
-          { es: "I've had a cold all week.", en: "He estado constipado toda la semana." },
+          { es: "I've had a cold all week.", en: "He estado resfriado toda la semana." },
           { es: "The film was a huge success in Mexico.", en: "La película fue un gran éxito en México." },
           { es: "Please use the exit at the back.", en: "Por favor, usen la salida del fondo." },
           { es: "Wear sensible shoes; we'll walk a lot.", en: "Ponte zapatos cómodos; vamos a caminar mucho." },
@@ -947,7 +947,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Estoy muy constipado y no puedo dejar de estornudar.",
+        source: "Estoy muy resfriado y no puedo dejar de estornudar.",
         answer: "I have a terrible cold and I can't stop sneezing.",
         altAnswers: [
           "I have a terrible cold and can't stop sneezing.",
@@ -966,7 +966,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
           "I've got a very bad cold and I can't stop sneezing.",
           "I've got a very bad cold and can't stop sneezing.",
         ],
-        explanation: "«Estar constipado» is \"have a cold\". *I'm very constipated would mean something quite different.",
+        explanation: "«Estar resfriado» (Spain: «constipado») is \"have a cold\". *I'm very constipated would mean something quite different.",
       },
       {
         type: "multiple-choice",
@@ -997,7 +997,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The old ___ was turned into apartments.",
         answer: "factory",
-        en: "La antigua [fábrica] se convirtió en pisos.",
+        en: "La antigua [fábrica] se convirtió en departamentos.",
         explanation: "«Fábrica» is \"factory\". \"Fabric\" is «tela».",
       },
       {

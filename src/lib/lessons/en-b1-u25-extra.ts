@@ -20,7 +20,7 @@ export const EN_B1_U25_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: things in general take no article",
         body: [
-          "Spanish uses the article for generalisations («la vida», «los perros», «la música»); English uses nothing: \"Life is hard\", \"Dogs are loyal\", \"I love music\". This applies to plural nouns and uncountable or abstract nouns when you mean all of them.",
+          "Spanish uses the article for generalizations («la vida», «los perros», «la música»); English uses nothing: \"Life is hard\", \"Dogs are loyal\", \"I love music\". This applies to plural nouns and uncountable or abstract nouns when you mean all of them.",
           "The typical mistakes are *The life is hard, *The people are friendly and *I like the chocolate. If you mean the thing in general, delete \"the\".",
         ],
         examples: [
@@ -182,7 +182,7 @@ export const EN_B1_U25_EXTRA: Lesson[] = [
         source: "La gente dice que el inglés es difícil.",
         answer: "People say English is difficult.",
         altAnswers: ["People say that English is difficult.", "People say English is hard.", "People say that English is hard."],
-        explanation: "Two generalisations in one sentence, so no article twice: \"people\" and \"English\".",
+        explanation: "Two generalizations in one sentence, so no article twice: \"people\" and \"English\".",
       },
       {
         type: "fill-blank",
@@ -223,7 +223,7 @@ export const EN_B1_U25_EXTRA: Lesson[] = [
     level: "EN-B1",
     number: 2,
     title: "Extra Practice: The or Nothing?",
-    summary: "Contrast drill: general (\"music\") vs specific (\"the music at the wedding\"). Practise both mistakes: adding \"the\" where English has none, and forgetting it where English needs it.",
+    summary: "Contrast drill: general (\"music\") vs specific (\"the music at the wedding\"). Practice both mistakes: adding \"the\" where English has none, and forgetting it where English needs it.",
     duration: "10 min",
     sections: [
       {
@@ -495,7 +495,7 @@ export const EN_B1_U25_EXTRA: Lesson[] = [
         prompt: "Translate into English.",
         source: "Me voy a casa. ¡Hasta mañana!",
         answer: "I'm going home. See you tomorrow!",
-        altAnswers: ["I'm going home. Until tomorrow!", "I'm off home. See you tomorrow!", "I'm heading home. See you tomorrow!"],
+        altAnswers: ["I'm off home. See you tomorrow!", "I'm heading home. See you tomorrow!"],
         explanation: "\"Go home\" has no article and no \"to\": *go to the home and *go to home are both wrong.",
       },
       {
@@ -856,7 +856,7 @@ export const EN_B1_U25_EXTRA: Lesson[] = [
           { es: "She gave me some good advice.", en: "Me dio buenos consejos." },
           { es: "The news is on at nine.", en: "Las noticias son a las nueve." },
           { es: "We need new furniture.", en: "Necesitamos muebles nuevos." },
-          { es: "How much homework do you have?", en: "¿Cuántos deberes tienes?" },
+          { es: "How much homework do you have?", en: "¿Cuánta tarea tienes?" },
           { es: "Your luggage is very heavy.", en: "Tu equipaje pesa mucho." },
         ],
         checkpoint: [
@@ -908,7 +908,7 @@ export const EN_B1_U25_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No tengo muchos deberes hoy.",
+        source: "No tengo mucha tarea hoy.",
         answer: "I don't have much homework today.",
         altAnswers: ["I haven't got much homework today.", "I don't have a lot of homework today.", "I haven't got a lot of homework today.", "I don't have lots of homework today."],
         explanation: "\"Homework\" is uncountable, so \"much\" (not *many) and no -s: never *homeworks.",

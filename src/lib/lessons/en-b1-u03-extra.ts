@@ -162,7 +162,7 @@ export const EN_B1_U03_EXTRA: Lesson[] = [
         sentence: "He ___ his homework before dinner.",
         answer: "had done",
         altAnswers: ["had already done", "had finished", "had already finished"],
-        en: "Él [había hecho] los deberes antes de cenar.",
+        en: "Él [había hecho] la tarea antes de cenar.",
         explanation: "\"Do, did, done\": the past perfect is \"had done\", never *had did. Everyone says \"do homework\", never *make homework.",
       },
       {
@@ -723,8 +723,8 @@ export const EN_B1_U03_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["She", "was", "crying", "because", "she", "had", "failed", "the", "exam."],
-        translation: "Estaba llorando porque había suspendido el examen.",
-        explanation: "Action in progress (\"was crying\") explained by an earlier event (\"had failed\"). «Suspender» an exam is \"fail\", not *suspend.",
+        translation: "Estaba llorando porque había reprobado el examen.",
+        explanation: "Action in progress (\"was crying\") explained by an earlier event (\"had failed\"). «Reprobar» («suspender» in Spain) an exam is \"fail\", not *suspend.",
       },
       {
         type: "listen-choose",
@@ -1146,7 +1146,7 @@ export const EN_B1_U03_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "They got married in 2010. They ___ each other since high school.",
         answer: "had known",
-        en: "Se casaron en 2010. [Se conocían] desde el instituto.",
+        en: "Se casaron en 2010. [Se conocían] desde la secundaria.",
         explanation: "\"Know\" is a state verb, so even with duration (\"since high school\") it takes the simple form: \"had known\", never *had been knowing.",
       },
       {

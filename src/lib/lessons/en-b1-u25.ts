@@ -8,7 +8,7 @@ export const EN_B1_U25: Lesson[] = [
     slug: "b1-articles-generalisations-1",
     level: "EN-B1",
     number: 1,
-    title: "Articles in Generalisations, Part 1 of 2",
+    title: "Articles in Generalizations, Part 1 of 2",
     summary: "Why English says \"Life is short\" and \"Dogs are loyal\" with no article, when Spanish says «la vida» and «los perros».",
     duration: "10 min",
     sections: [
@@ -232,7 +232,7 @@ export const EN_B1_U25: Lesson[] = [
     slug: "b1-articles-generalisations-2",
     level: "EN-B1",
     number: 2,
-    title: "Articles in Generalisations, Part 2 of 2",
+    title: "Articles in Generalizations, Part 2 of 2",
     summary: "When \"the\" comes back: specific things (the music in this film, the people next door) and the + singular for species and inventions.",
     duration: "10 min",
     sections: [
@@ -339,7 +339,7 @@ export const EN_B1_U25: Lesson[] = [
       {
         heading: "The + singular: species and inventions",
         body: [
-          "There is one special use of \"the\" for generalisations: \"the\" + a singular noun to talk about a whole species of animal or a type of invention. \"The tiger is in danger\", \"The bicycle was invented in the 19th century\".",
+          "There is one special use of \"the\" for generalizations: \"the\" + a singular noun to talk about a whole species of animal or a type of invention. \"The tiger is in danger\", \"The bicycle was invented in the 19th century\".",
           "This style is a bit formal. You see it in science, history and documentaries. In conversation, the plural with no article is more common and means the same: \"Tigers are in danger\".",
           "It works with animals, plants, machines and inventions (\"the wheel\", \"the telephone\", \"the smartphone\"), and with musical instruments after \"play\": \"She plays the piano\".",
         ],
@@ -709,7 +709,7 @@ export const EN_B1_U25: Lesson[] = [
           { es: "I'm a teacher.", en: "Soy profesor." },
           { es: "He's an engineer.", en: "Es ingeniero." },
           { es: "They're nurses.", en: "Son enfermeras." },
-          { es: "I work as a waiter.", en: "Trabajo de camarero." },
+          { es: "I work as a waiter.", en: "Trabajo de mesero." },
           { es: "She wants to become a lawyer.", en: "Quiere ser abogada." },
         ],
         checkpoint: [
@@ -725,7 +725,7 @@ export const EN_B1_U25: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Trabajo de camarero.",
+            source: "Trabajo de mesero.",
             answer: "I work as a waiter.",
             altAnswers: ["I'm a waiter.", "I work as a server.", "I'm a server."],
             explanation: "«Trabajar de» is \"work as\", and the job still needs \"a\": \"as a waiter\".",
@@ -813,7 +813,7 @@ export const EN_B1_U25: Lesson[] = [
           { es: "a hundred people", en: "cien personas" },
           { es: "a thousand dollars", en: "mil dólares" },
           { es: "half an hour", en: "media hora" },
-          { es: "Can I have another coffee?", en: "¿Me pones otro café?" },
+          { es: "Can I have another coffee?", en: "¿Me trae otro café?" },
         ],
         checkpoint: [
           {
@@ -907,7 +907,7 @@ export const EN_B1_U25: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Me pones otro café?",
+        source: "¿Me trae otro café?",
         answer: "Can I have another coffee?",
         altAnswers: ["Could I have another coffee?", "Can I get another coffee?", "Could I get another coffee?", "Can you give me another coffee?", "May I have another coffee?"],
         explanation: "«Otro» is \"another\", one word. *An other coffee is wrong.",
@@ -940,7 +940,7 @@ export const EN_B1_U25: Lesson[] = [
           { es: "I have some good news.", en: "Tengo una buena noticia." },
           { es: "We bought new furniture.", en: "Compramos muebles nuevos." },
           { es: "How much luggage do you have?", en: "¿Cuántas maletas llevas?" },
-          { es: "I have a lot of homework.", en: "Tengo muchos deberes." },
+          { es: "I have a lot of homework.", en: "Tengo mucha tarea." },
         ],
         checkpoint: [
           {
@@ -971,7 +971,7 @@ export const EN_B1_U25: Lesson[] = [
         examples: [
           { es: "The information is very useful.", en: "La información es muy útil." },
           { es: "The news is good.", en: "Las noticias son buenas." },
-          { es: "How much homework do you have?", en: "¿Cuántos deberes tienes?" },
+          { es: "How much homework do you have?", en: "¿Cuánta tarea tienes?" },
           { es: "There isn't much evidence.", en: "No hay muchas pruebas." },
           { es: "Your luggage is over there.", en: "Tus maletas están allí." },
         ],
@@ -989,7 +989,7 @@ export const EN_B1_U25: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "___ homework do you have?",
             answer: "How much",
-            en: "¿[Cuántos] deberes tienes?",
+            en: "¿[Cuánta] tarea tienes?",
             explanation: "\"Homework\" is uncountable, so it's \"how much\", not *how many.",
           },
         ],
@@ -1086,7 +1086,7 @@ export const EN_B1_U25: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["I have many homeworks.", "I have a lot of homework.", "I have a lot of homeworks.", "I have much homeworks."],
         correctIndex: 1,
-        explanation: "\"Homework\" is uncountable: no plural. «Muchos deberes» is \"a lot of homework\".",
+        explanation: "\"Homework\" is uncountable: no plural. «Mucha tarea» is \"a lot of homework\".",
       },
       {
         type: "translate",
@@ -1234,9 +1234,9 @@ export const EN_B1_U25: Lesson[] = [
           "Careful: in British English \"pants\" means underwear! In American English it means «pantalones». \"Clothes\" is also plural-only: \"Your clothes are on the bed\".",
         ],
         examples: [
-          { es: "My jeans are dirty.", en: "Mis vaqueros están sucios." },
+          { es: "My jeans are dirty.", en: "Mis jeans están sucios." },
           { es: "I need a new pair of pants.", en: "Necesito un pantalón nuevo." },
-          { es: "Where are my glasses?", en: "¿Dónde están mis gafas?" },
+          { es: "Where are my glasses?", en: "¿Dónde están mis lentes?" },
           { es: "These scissors don't cut well.", en: "Estas tijeras no cortan bien." },
           { es: "Your clothes are on the bed.", en: "Tu ropa está en la cama." },
         ],
@@ -1255,7 +1255,7 @@ export const EN_B1_U25: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "Where ___?",
             answer: "are my glasses",
-            en: "¿Dónde [están mis gafas]?",
+            en: "¿Dónde [están mis lentes]?",
             explanation: "\"Glasses\" is plural: \"are\".",
           },
         ],
@@ -1308,7 +1308,7 @@ export const EN_B1_U25: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mis vaqueros están sucios.",
+        source: "Mis jeans están sucios.",
         answer: "My jeans are dirty.",
         explanation: "\"Jeans\" is always plural: \"are\".",
       },
@@ -1350,7 +1350,7 @@ export const EN_B1_U25: Lesson[] = [
         sentence: "I bought ___ jeans.",
         answer: "a pair of",
         altAnswers: ["some"],
-        en: "Me compré [unos] vaqueros.",
+        en: "Me compré [unos] jeans.",
         explanation: "To count plural-only nouns, use \"a pair of\": \"a pair of jeans\".",
       },
       {
@@ -1358,7 +1358,7 @@ export const EN_B1_U25: Lesson[] = [
         instructions: "Match each English word with its meaning.",
         pairs: [
           { left: "pants", right: "pantalón" },
-          { left: "glasses", right: "gafas" },
+          { left: "glasses", right: "lentes" },
           { left: "scissors", right: "tijeras" },
           { left: "pajamas", right: "pijama" },
         ],
@@ -1386,7 +1386,7 @@ export const EN_B1_U25: Lesson[] = [
     level: "EN-B1",
     number: 7,
     title: "Mastery Check: Articles & Nouns",
-    summary: "A no-hints check of the whole unit: articles in generalisations, places, jobs and rates, uncountable nouns and plural-only nouns.",
+    summary: "A no-hints check of the whole unit: articles in generalizations, places, jobs and rates, uncountable nouns and plural-only nouns.",
     duration: "12 min",
     sections: [
       {
@@ -1552,7 +1552,7 @@ export const EN_B1_U25: Lesson[] = [
     duration: "10 min",
     sections: [
       {
-        heading: "Error 1: \"the\" in generalisations",
+        heading: "Error 1: \"the\" in generalizations",
         body: [
           "*The life is hard and *The women live longer than the men are word-for-word translations of Spanish. When you mean life, women or men in general, English uses no article.",
           "Correct: \"Life is hard\", \"Women live longer than men\". Keep \"the\" only for specific things: \"The women in my office all cycle to work\".",
@@ -1722,7 +1722,7 @@ export const EN_B1_U25: Lesson[] = [
         sentence: "We bought ___ for the living room.",
         answer: "some furniture",
         altAnswers: ["furniture"],
-        en: "Compramos [unos muebles] para el salón.",
+        en: "Compramos [unos muebles] para la sala.",
         explanation: "\"Furniture\" is uncountable: \"some furniture\", not *some furnitures.",
       },
       {
@@ -2043,7 +2043,7 @@ export const EN_B1_U25: Lesson[] = [
         examples: [
           { es: "The panda is an endangered species.", en: "El panda es una especie en peligro de extinción." },
           { es: "Many species are in danger.", en: "Muchas especies están en peligro." },
-          { es: "Dinosaurs are extinct.", en: "Los dinosaurios están extinguidos." },
+          { es: "Dinosaurs are extinct.", en: "Los dinosaurios están extintos." },
           { es: "We need to protect wildlife.", en: "Tenemos que proteger la fauna." },
           { es: "Deforestation is destroying the Amazon.", en: "La deforestación está destruyendo el Amazonas." },
         ],

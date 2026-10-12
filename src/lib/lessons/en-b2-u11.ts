@@ -313,7 +313,7 @@ export const EN_B2_U11: Lesson[] = [
         type: "speak",
         text: "The thief is believed to have escaped through the window.",
         tip: "In fast speech, \"to have\" sounds like \"tuh-uv\": the \"have\" is weak and the h almost disappears.",
-        explanation: "The perfect infinitive is very common in news English; practise saying it smoothly.",
+        explanation: "The perfect infinitive is very common in news English; practice saying it smoothly.",
       },
     ],
   },
@@ -429,7 +429,7 @@ export const EN_B2_U11: Lesson[] = [
         examples: [
           { es: "She had her bag stolen on the subway.", en: "Le robaron el bolso en el metro." },
           { es: "We had our car broken into last night.", en: "Anoche nos forzaron el carro." },
-          { es: "He had his license taken away for speeding.", en: "Le quitaron el carné por exceso de velocidad." },
+          { es: "He had his license taken away for speeding.", en: "Le quitaron la licencia por exceso de velocidad." },
           { es: "I had my flight canceled at the last minute.", en: "Me cancelaron el vuelo en el último momento." },
           { es: "My account was hacked.", en: "Me hackearon la cuenta." },
         ],
@@ -668,7 +668,7 @@ export const EN_B2_U11: Lesson[] = [
           "Compare with the structure from the previous lesson: \"I had the mechanic fix my car\" (person + infinitive) and \"I had my car fixed\" (thing + participle) say almost the same thing. Use the second one when the person doing the work doesn't matter.",
         ],
         examples: [
-          { es: "I'll have my assistant call you.", en: "Le diré a mi asistente que le llame." },
+          { es: "I'll have my assistant call you.", en: "Le diré a mi asistente que lo llame." },
           { es: "I finally got my brother to help me move.", en: "Por fin conseguí que mi hermano me ayudara con la mudanza." },
           { es: "Can you get the kids to tidy their rooms?", en: "¿Puedes conseguir que los niños ordenen sus cuartos?" },
           { es: "The manager had us stay late.", en: "El gerente nos hizo quedarnos hasta tarde." },
@@ -681,7 +681,7 @@ export const EN_B2_U11: Lesson[] = [
             sentence: "I finally ___ the dishes.",
             answer: "got my son to do",
             altAnswers: ["got my son to wash", "managed to get my son to do", "got my son to wash up"],
-            en: "Por fin [conseguí que mi hijo fregara] los platos.",
+            en: "Por fin [conseguí que mi hijo lavara] los platos.",
             explanation: "«Conseguir que alguien haga algo» = \"get\" + person + \"to\" + infinitive.",
           },
           {
@@ -708,7 +708,7 @@ export const EN_B2_U11: Lesson[] = [
         examples: [
           { es: "We were made to wait outside.", en: "Nos hicieron esperar fuera." },
           { es: "She was made to apologize.", en: "La obligaron a pedir perdón." },
-          { es: "We weren't allowed to take photos.", en: "No nos dejaron hacer fotos." },
+          { es: "We weren't allowed to take photos.", en: "No nos dejaron tomar fotos." },
           { es: "They didn't let us in.", en: "No nos dejaron entrar." },
           { es: "Are we allowed to park here?", en: "¿Se puede estacionar aquí?" },
         ],
@@ -717,7 +717,7 @@ export const EN_B2_U11: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "No nos dejaron hacer fotos en el museo.",
+            source: "No nos dejaron tomar fotos en el museo.",
             answer: "We weren't allowed to take photos in the museum.",
             altAnswers: [
               "We weren't allowed to take pictures in the museum.",
@@ -874,7 +874,7 @@ export const EN_B2_U11: Lesson[] = [
         body: [
           "Every rumor can be rewritten in two ways. Start with \"People say (that) he is rich\". Pattern A keeps the \"that\" clause: \"It is said that he is rich\". Pattern B moves the person to the front: \"He is said to be rich\".",
           "In Pattern A, the verb in the \"that\" clause doesn't change. In Pattern B, the verb becomes an infinitive, so you must decide which one: \"to be\", \"to be doing\", \"to have done\" or \"to have been done\".",
-          "Journalists like Pattern B because the news (the person or the event) comes first. Spanish has only «se dice que», so you will need to practise choosing between the two.",
+          "Journalists like Pattern B because the news (the person or the event) comes first. Spanish has only «se dice que», so you will need to practice choosing between the two.",
         ],
         examples: [
           { es: "People say that he is rich.", en: "La gente dice que es rico." },
@@ -1380,7 +1380,7 @@ export const EN_B2_U11: Lesson[] = [
     level: "EN-B2",
     number: 6,
     title: "Dialogue Lab: Getting Things Done",
-    summary: "Follow a conversation about errands and services, getting the boiler fixed, having a suit made, getting a document translated, and practise the questions people really ask.",
+    summary: "Follow a conversation about errands and services, getting the boiler fixed, having a suit made, getting a document translated, and practice the questions people really ask.",
     duration: "11 min",
     sections: [
       {
@@ -1421,10 +1421,10 @@ export const EN_B2_U11: Lesson[] = [
         ],
         examples: [
           { es: "Emma: I need to get my birth certificate translated.", en: "Emma: Tengo que hacer traducir mi partida de nacimiento." },
-          { es: "Carlos: Does it need to be certified too?", en: "Carlos: ¿También hay que compulsarla?" },
+          { es: "Carlos: Does it need to be certified too?", en: "Carlos: ¿También hay que certificarla?" },
           { es: "Emma: Yes, I have to get it done by a sworn translator.", en: "Emma: Sí, la tiene que hacer un traductor jurado." },
           { es: "Carlos: And your passport needs to be renewed, doesn't it?", en: "Carlos: Y tu pasaporte hay que renovarlo, ¿no?" },
-          { es: "Emma: Don't remind me. I still need to have my photo taken.", en: "Emma: No me lo recuerdes. Todavía tengo que hacerme la foto." },
+          { es: "Emma: Don't remind me. I still need to have my photo taken.", en: "Emma: No me lo recuerdes. Todavía tengo que tomarme la foto." },
         ],
         checkpoint: [
           {
@@ -1536,7 +1536,7 @@ export const EN_B2_U11: Lesson[] = [
         sentence: "I still need to ___ for my passport.",
         answer: "have my photo taken",
         altAnswers: ["get my photo taken", "have my picture taken", "get my picture taken", "have a photo taken", "get a photo taken"],
-        en: "Todavía tengo que [hacerme la foto] para el pasaporte.",
+        en: "Todavía tengo que [tomarme la foto] para el pasaporte.",
         explanation: "A photographer takes it: \"have/get my photo taken\". \"Take my photo\" would mean you take it yourself.",
       },
       {
@@ -1563,7 +1563,7 @@ export const EN_B2_U11: Lesson[] = [
           { left: "get a document translated", right: "hacer traducir un documento" },
           { left: "have a suit made", right: "hacerse un traje a medida" },
           { left: "get a key copied", right: "hacer una copia de una llave" },
-          { left: "have your photo taken", right: "hacerse una foto" },
+          { left: "have your photo taken", right: "tomarse una foto" },
           { left: "get the boiler fixed", right: "hacer arreglar la caldera" },
         ],
         explanation: "In each one, a professional does the job: \"have/get\" + object + participle.",
@@ -1633,7 +1633,7 @@ export const EN_B2_U11: Lesson[] = [
           { es: "We're going to pack the books ourselves.", en: "Los libros los vamos a empaquetar nosotros." },
           { es: "We're having the furniture delivered on Saturday.", en: "El sábado nos traen los muebles." },
           { es: "We're going to get the walls painted.", en: "Vamos a hacer pintar las paredes." },
-          { es: "OK, I'll get the carpets cleaned too.", en: "Vale, también mandaré limpiar las alfombras." },
+          { es: "OK, I'll get the carpets cleaned too.", en: "Está bien, también mandaré limpiar las alfombras." },
           { es: "We'll paint the kitchen ourselves to save money.", en: "La cocina la pintaremos nosotros para ahorrar dinero." },
         ],
         checkpoint: [
@@ -1685,7 +1685,7 @@ export const EN_B2_U11: Lesson[] = [
           { es: "We haven't had the internet connected yet.", en: "Todavía no nos han conectado internet." },
           { es: "Have you had the electricity switched on?", en: "¿Ya te han dado de alta la luz?" },
           { es: "We've gotten the walls painted.", en: "Ya nos han pintado las paredes. (inglés americano)" },
-          { es: "By Friday we'll have had the whole place cleaned.", en: "Para el viernes ya nos habrán limpiado todo el piso." },
+          { es: "By Friday we'll have had the whole place cleaned.", en: "Para el viernes ya nos habrán limpiado todo el departamento." },
         ],
         checkpoint: [
           {
@@ -1936,7 +1936,7 @@ export const EN_B2_U11: Lesson[] = [
       {
         heading: "Recap: Spanish «se» and impersonal reports",
         body: [
-          "Spanish «se» has several English equivalents. «Se venden pisos» = \"Apartments for sale\" or \"Apartments are sold here\". «Aquí se habla inglés» = \"English is spoken here\". «Se dice que...» = \"It is said that...\", \"X is said to...\" or \"They say...\". «No se puede fumar» = \"You can't smoke\" or \"Smoking is not allowed\".",
+          "Spanish «se» has several English equivalents. «Se venden departamentos» = \"Apartments for sale\" or \"Apartments are sold here\". «Aquí se habla inglés» = \"English is spoken here\". «Se dice que...» = \"It is said that...\", \"X is said to...\" or \"They say...\". «No se puede fumar» = \"You can't smoke\" or \"Smoking is not allowed\".",
           "Never start with *It is sold houses or *Is spoken English: in English the thing becomes the subject.",
           "For reports, choose the infinitive by time: \"is said to be\" (now), \"is said to be doing\" (in progress), \"is said to have done\" (earlier), \"is said to have been done\" (earlier and passive).",
         ],
@@ -1985,7 +1985,7 @@ export const EN_B2_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Están reparando mi portátil.",
+        source: "Están reparando mi laptop.",
         answer: "My laptop is being repaired.",
         altAnswers: [
           "My laptop is being fixed.",
@@ -2187,10 +2187,10 @@ export const EN_B2_U11: Lesson[] = [
         body: [
           "When we describe changes in a city, the buildings and streets are usually more important than the people who changed them, so English uses the passive: \"The old factory has been turned into apartments\".",
           "Use the present perfect passive for changes with a visible result now: \"The square has been pedestrianized\", \"Several bike lanes have been added\". Use the present continuous passive for work in progress: \"The station is being renovated\".",
-          "Spanish often uses «se» or a third-person plural here: «han convertido la fábrica en pisos», «se ha peatonalizado la plaza». In English, start with the place.",
+          "Spanish often uses «se» or a third-person plural here: «han convertido la fábrica en departamentos», «se ha peatonalizado la plaza». In English, start with the place.",
         ],
         examples: [
-          { es: "The old factory has been turned into apartments.", en: "Han convertido la antigua fábrica en pisos." },
+          { es: "The old factory has been turned into apartments.", en: "Han convertido la antigua fábrica en departamentos." },
           { es: "The main square has been pedestrianized.", en: "Se ha peatonalizado la plaza mayor." },
           { es: "Several bike lanes have been added.", en: "Se han añadido varios carriles bici." },
           { es: "The station is being renovated.", en: "Están renovando la estación." },
@@ -2247,8 +2247,9 @@ export const EN_B2_U11: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Antes había un cine en esta calle.",
-            answer: "There used to be a cinema on this street.",
+            answer: "There used to be a movie theater on this street.",
             altAnswers: [
+              "There used to be a cinema on this street.",
               "There used to be a movie theater on this street.",
               "There was a cinema on this street before.",
               "There was a movie theater on this street before.",

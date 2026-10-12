@@ -759,7 +759,7 @@ export const EN_B2_U20: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Your flatmate says you never take out the trash and that you broke the microwave. Write a reply (text message) correcting the misunderstanding: use at least one it-cleft, one emphatic do/did and one what-cleft.",
+        prompt: "Your roommate says you never take out the trash and that you broke the microwave. Write a reply (text message) correcting the misunderstanding: use at least one it-cleft, one emphatic do/did and one what-cleft.",
         minWords: 40,
         maxWords: 80,
         rubric: [
@@ -1096,7 +1096,7 @@ export const EN_B2_U20: Lesson[] = [
           "\"Really\" works with both groups: \"really cold\", \"really freezing\", \"really delicious\". \"Delicious\" is treated as extreme, so \"very delicious\" sounds odd to many speakers: say \"really delicious\" or \"absolutely delicious\".",
         ],
         examples: [
-          { es: "It's absolutely freezing outside!", en: "¡Fuera hace un frío que pela!" },
+          { es: "It's absolutely freezing outside!", en: "¡Afuera hace un frío tremendo!" },
           { es: "I'm completely exhausted.", en: "Estoy agotadísimo." },
           { es: "The food was absolutely delicious.", en: "La comida estaba buenísima." },
           { es: "Their new house is absolutely huge.", en: "Su casa nueva es enorme." },
@@ -2130,8 +2130,8 @@ export const EN_B2_U20: Lesson[] = [
         sentence: "She didn't study, ___ she failed the exam.",
         answer: "so",
         altAnswers: ["and so"],
-        en: "No estudió, [así que] suspendió el examen.",
-        explanation: "\"So\" links a cause with its result. \"Fail\" an exam = «suspender»; \"pass\" = «aprobar».",
+        en: "No estudió, [así que] reprobó el examen.",
+        explanation: "\"So\" links a cause with its result. \"Fail\" an exam = «reprobar»; \"pass\" = «aprobar».",
       },
       {
         type: "translate",

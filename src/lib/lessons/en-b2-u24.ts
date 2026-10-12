@@ -86,12 +86,12 @@ export const EN_B2_U24: Lesson[] = [
       {
         heading: "Leaving a job",
         body: [
-          "If you decide to leave, you \"resign\" (formal), \"quit\" (informal) or \"hand in your notice\" («presentar la dimisión», «despedirse»). The noun is \"resignation\".",
+          "If you decide to leave, you \"resign\" (formal), \"quit\" (informal) or \"hand in your notice\" («presentar la renuncia», «renunciar»). The noun is \"resignation\".",
           "If the company ends your contract, there are two very different situations. You are \"fired\" (or \"sacked\" in the UK) when it is your fault. You are \"laid off\" or \"made redundant\" (UK) when the company cuts jobs for economic reasons. Spanish «me despidieron» can be either, so choose carefully: \"laid off\" sounds much less negative about you.",
           "When people stop working because of age, they \"retire\" («jubilarse»). \"Retire\" does not mean «retirar» money; for that, say \"withdraw\".",
         ],
         examples: [
-          { es: "She resigned after ten years at the bank.", en: "Dimitió después de diez años en el banco." },
+          { es: "She resigned after ten years at the bank.", en: "Renunció después de diez años en el banco." },
           { es: "I'm going to quit my job and travel.", en: "Voy a dejar el trabajo y viajar." },
           { es: "He was fired for stealing.", en: "Lo despidieron por robar." },
           { es: "Two hundred workers were laid off last month.", en: "Despidieron a doscientos trabajadores el mes pasado." },
@@ -118,8 +118,8 @@ export const EN_B2_U24: Lesson[] = [
           { es: "We have to meet the deadline on Friday.", en: "Tenemos que cumplir el plazo el viernes." },
           { es: "I missed the deadline by one day.", en: "Me pasé de la fecha límite por un día." },
           { es: "My workload has doubled this year.", en: "Mi carga de trabajo se ha duplicado este año." },
-          { es: "She works freelance as a translator.", en: "Trabaja como traductora autónoma." },
-          { es: "I work part-time in a bookstore.", en: "Trabajo a media jornada en una librería." },
+          { es: "She works freelance as a translator.", en: "Trabaja como traductora independiente." },
+          { es: "I work part-time in a bookstore.", en: "Trabajo medio tiempo en una librería." },
           { es: "We often work overtime in December.", en: "En diciembre solemos hacer horas extra." },
         ],
         checkpoint: [
@@ -148,7 +148,7 @@ export const EN_B2_U24: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Estoy buscando un trabajo a media jornada.",
+        source: "Estoy buscando un trabajo de medio tiempo.",
         answer: "I'm looking for a part-time job.",
         explanation: "\"A job\" is countable; \"part-time\" goes before the noun with a hyphen. Never *a part-time work.",
       },
@@ -182,9 +182,9 @@ export const EN_B2_U24: Lesson[] = [
         instructions: "Match the English with the Spanish.",
         pairs: [
           { left: "deadline", right: "plazo, fecha límite" },
-          { left: "resign", right: "dimitir" },
+          { left: "resign", right: "renunciar" },
           { left: "retire", right: "jubilarse" },
-          { left: "freelance", right: "autónomo" },
+          { left: "freelance", right: "independiente, por cuenta propia" },
           { left: "workload", right: "carga de trabajo" },
         ],
         explanation: "\"Retire\" is «jubilarse», not «retirar». \"Freelance\" can be an adjective or adverb: \"I work freelance\".",
@@ -244,8 +244,8 @@ export const EN_B2_U24: Lesson[] = [
         audio: "I'm a freelance designer, so I can work from home.",
         question: "What did you hear?",
         options: [
-          "Soy diseñador autónomo, así que puedo trabajar desde casa.",
-          "Soy diseñador en paro, así que estoy en casa.",
+          "Soy diseñador independiente, así que puedo trabajar desde casa.",
+          "Soy diseñador desempleado, así que estoy en casa.",
           "Soy diseñador gratis, así que trabajo en casa.",
           "Soy diseñador a tiempo completo en una oficina.",
         ],
@@ -623,7 +623,7 @@ export const EN_B2_U24: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "They can't ___ a bigger apartment.",
             answer: "afford",
-            en: "No [se pueden permitir] un piso más grande.",
+            en: "No [se pueden permitir] un departamento más grande.",
             explanation: "\"Can't afford\" + noun = not have enough money for it. No reflexive pronoun: never *afford themselves.",
           },
           {
@@ -768,7 +768,7 @@ export const EN_B2_U24: Lesson[] = [
           "Other useful words: \"a sale\" («rebajas»: \"The shoes were on sale\"), \"a discount\" («descuento»), and \"a deal\" (a special offer: \"buy one, get one free\").",
         ],
         examples: [
-          { es: "I got this coat for half price. What a bargain!", en: "Compré este abrigo a mitad de precio. ¡Qué chollo!" },
+          { es: "I got this coat for half price. What a bargain!", en: "Compré este abrigo a mitad de precio. ¡Qué ganga!" },
           { es: "That restaurant is a total rip-off.", en: "Ese restaurante es un robo." },
           { es: "The taxi driver ripped us off.", en: "El taxista nos timó." },
           { es: "Everything is on sale this week.", en: "Esta semana está todo rebajado." },
@@ -801,7 +801,7 @@ export const EN_B2_U24: Lesson[] = [
           "A \"warranty\" or \"guarantee\" is the promise to repair or replace a product if it breaks («garantía»): \"It's still under warranty.\"",
         ],
         examples: [
-          { es: "Do you have the receipt?", en: "¿Tiene el ticket?" },
+          { es: "Do you have the receipt?", en: "¿Tiene el recibo?" },
           { es: "I'd like a refund, please.", en: "Quisiera que me devolvieran el dinero, por favor." },
           { es: "Can I exchange this for a smaller size?", en: "¿Puedo cambiar esto por una talla más pequeña?" },
           { es: "The laptop is still under warranty.", en: "El portátil todavía está en garantía." },
@@ -813,7 +813,7 @@ export const EN_B2_U24: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "Keep the ___ in case you need to return it.",
             answer: "receipt",
-            en: "Guarda el [ticket] por si tienes que devolverlo.",
+            en: "Guarda el [recibo] por si tienes que devolverlo.",
             explanation: "The shop's proof of purchase is a \"receipt\". A \"ticket\" is for transport or events.",
           },
           {
@@ -924,7 +924,7 @@ export const EN_B2_U24: Lesson[] = [
         type: "matching",
         instructions: "Match the English with the Spanish.",
         pairs: [
-          { left: "receipt", right: "ticket de compra" },
+          { left: "receipt", right: "recibo (de compra)" },
           { left: "warranty", right: "garantía" },
           { left: "brand", right: "marca" },
           { left: "complaint", right: "reclamación, queja" },
@@ -1011,8 +1011,8 @@ export const EN_B2_U24: Lesson[] = [
         examples: [
           { es: "Poverty affects millions of children.", en: "La pobreza afecta a millones de niños. (incorrecto: *The poverty affects...)" },
           { es: "Inequality has grown in the last decade.", en: "La desigualdad ha aumentado en la última década." },
-          { es: "Unemployment is falling.", en: "El paro está bajando." },
-          { es: "My cousin has been unemployed for a year.", en: "Mi primo lleva un año en paro." },
+          { es: "Unemployment is falling.", en: "El desempleo está bajando." },
+          { es: "My cousin has been unemployed for a year.", en: "Mi primo lleva un año desempleado." },
           { es: "Homelessness is a big problem in this city.", en: "La gente sin hogar es un gran problema en esta ciudad." },
           { es: "There are many homeless people in the park.", en: "Hay muchas personas sin hogar en el parque." },
         ],
@@ -1040,8 +1040,8 @@ export const EN_B2_U24: Lesson[] = [
             sentence: "Since the factory closed, half the town is ___.",
             answer: "unemployed",
             altAnswers: ["out of work"],
-            en: "Desde que cerró la fábrica, la mitad del pueblo está [en paro].",
-            explanation: "«Estar en paro» is \"be unemployed\" or \"be out of work\". \"Unemployment\" is the noun for the problem.",
+            en: "Desde que cerró la fábrica, la mitad del pueblo está [desempleada].",
+            explanation: "«Estar desempleado» is \"be unemployed\" or \"be out of work\". \"Unemployment\" is the noun for the problem.",
           },
         ],
       },
@@ -1054,15 +1054,15 @@ export const EN_B2_U24: Lesson[] = [
         ],
         examples: [
           { es: "We need to tackle the root causes of poverty.", en: "Tenemos que abordar las causas profundas de la pobreza." },
-          { es: "The report addresses the issue of youth unemployment.", en: "El informe trata el problema del paro juvenil." },
-          { es: "The campaign raised awareness of homelessness.", en: "La campaña concienció a la gente sobre el sinhogarismo." },
+          { es: "The report addresses the issue of youth unemployment.", en: "El informe trata el problema del desempleo juvenil." },
+          { es: "The campaign raised awareness of homelessness.", en: "La campaña concientizó a la gente sobre la falta de vivienda." },
           { es: "Discrimination is a growing problem online.", en: "La discriminación es un problema creciente en internet." },
           { es: "She does volunteer work at a food bank.", en: "Hace voluntariado en un banco de alimentos." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Queremos concienciar a la gente sobre el cambio climático.» Which is correct?",
+            question: "«Queremos concientizar a la gente sobre el cambio climático.» Which is correct?",
             options: [
               "We want to raise awareness of climate change.",
               "We want to rise awareness of climate change.",
@@ -1082,7 +1082,7 @@ export const EN_B2_U24: Lesson[] = [
           "As nouns: \"a rise\" in prices, unemployment or crime («un aumento»). For salary, Americans say \"a raise\" and the British say \"a pay rise\". Quick test: if you can ask \"raise what?\", you need \"raise\".",
         ],
         examples: [
-          { es: "Unemployment rose to twelve percent.", en: "El paro subió al doce por ciento." },
+          { es: "Unemployment rose to twelve percent.", en: "El desempleo subió al doce por ciento." },
           { es: "The government has raised taxes again.", en: "El gobierno ha vuelto a subir los impuestos." },
           { es: "We raised five thousand dollars for the hospital.", en: "Recaudamos cinco mil dólares para el hospital." },
           { es: "She raised three children on her own.", en: "Crió sola a tres hijos." },
@@ -1152,7 +1152,7 @@ export const EN_B2_U24: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El gobierno tiene que combatir el paro juvenil.",
+        source: "El gobierno tiene que combatir el desempleo juvenil.",
         answer: "The government has to tackle youth unemployment.",
         altAnswers: [
           "The government must tackle youth unemployment.",
@@ -1167,7 +1167,7 @@ export const EN_B2_U24: Lesson[] = [
           "The government has to combat youth unemployment.",
           "The government must combat youth unemployment.",
         ],
-        explanation: "\"Tackle\", \"fight\", \"combat\" and \"address\" all work with social problems. «Paro juvenil» is \"youth unemployment\".",
+        explanation: "\"Tackle\", \"fight\", \"combat\" and \"address\" all work with social problems. «Desempleo juvenil» is \"youth unemployment\".",
       },
       {
         type: "matching",
@@ -1175,8 +1175,8 @@ export const EN_B2_U24: Lesson[] = [
         pairs: [
           { left: "homelessness", right: "sinhogarismo" },
           { left: "inequality", right: "desigualdad" },
-          { left: "unemployed", right: "en paro" },
-          { left: "raise awareness", right: "concienciar" },
+          { left: "unemployed", right: "desempleado" },
+          { left: "raise awareness", right: "concientizar" },
           { left: "a rise", right: "un aumento" },
         ],
         explanation: "\"Unemployed\" is the adjective; \"unemployment\" is the noun.",
@@ -1194,7 +1194,7 @@ export const EN_B2_U24: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["The", "campaign", "aims", "to", "raise", "awareness", "of", "discrimination."],
-        translation: "La campaña pretende concienciar sobre la discriminación.",
+        translation: "La campaña pretende concientizar sobre la discriminación.",
         explanation: "\"Aim to\" + verb; \"raise awareness of\" + noun.",
       },
       {
@@ -1271,7 +1271,7 @@ export const EN_B2_U24: Lesson[] = [
           { es: "The next election is in two years.", en: "Las próximas elecciones son dentro de dos años." },
           { es: "Who did you vote for?", en: "¿A quién votaste?" },
           { es: "She's running for president.", en: "Se presenta a la presidencia." },
-          { es: "He decided to run for office at forty.", en: "Decidió presentarse a un cargo público a los cuarenta." },
+          { es: "He decided to run for office at forty.", en: "Decidió postularse para un cargo público a los cuarenta." },
           { es: "The campaign starts next week.", en: "La campaña empieza la semana que viene." },
           { es: "Voters are tired of the same promises.", en: "Los votantes están cansados de las mismas promesas." },
         ],
@@ -1305,10 +1305,10 @@ export const EN_B2_U24: Lesson[] = [
         ],
         examples: [
           { es: "The government passed a new law on housing.", en: "El gobierno aprobó una nueva ley de vivienda." },
-          { es: "The opposition voted against the budget.", en: "La oposición votó en contra de los presupuestos." },
+          { es: "The opposition voted against the budget.", en: "La oposición votó en contra del presupuesto." },
           { es: "The party has been in power for eight years.", en: "El partido lleva ocho años en el poder." },
           { es: "She was re-elected with a large majority.", en: "Fue reelegida con una amplia mayoría." },
-          { es: "It's a left-wing newspaper.", en: "Es un periódico de izquierdas." },
+          { es: "It's a left-wing newspaper.", en: "Es un periódico de izquierda." },
         ],
         checkpoint: [
           {
@@ -1358,7 +1358,7 @@ export const EN_B2_U24: Lesson[] = [
           { left: "voter", right: "votante" },
           { left: "policy", right: "política (medida concreta)" },
           { left: "politics", right: "política (en general)" },
-          { left: "run for office", right: "presentarse a un cargo" },
+          { left: "run for office", right: "postularse para un cargo" },
         ],
         explanation: "\"Politics\" is the field; a \"policy\" is a specific plan.",
       },
@@ -1658,9 +1658,9 @@ export const EN_B2_U24: Lesson[] = [
           "Because the rule has many exceptions, the best strategy is to learn the noun together with its verb, as a single block.",
         ],
         examples: [
-          { es: "I made a cake for her birthday.", en: "Hice una tarta para su cumpleaños." },
-          { es: "Have you done your homework?", en: "¿Has hecho los deberes? (incorrecto: *made your homework)" },
-          { es: "I'll do the dishes tonight.", en: "Esta noche friego yo los platos." },
+          { es: "I made a cake for her birthday.", en: "Hice un pastel para su cumpleaños." },
+          { es: "Have you done your homework?", en: "¿Hiciste la tarea? (incorrecto: *made your homework)" },
+          { es: "I'll do the dishes tonight.", en: "Esta noche lavo yo los platos." },
           { es: "Don't make so much noise.", en: "No hagas tanto ruido." },
           { es: "I didn't do anything wrong.", en: "No hice nada malo." },
           { es: "What do you do?", en: "¿A qué te dedicas?" },
@@ -1671,7 +1671,7 @@ export const EN_B2_U24: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "I always ___ my homework after dinner.",
             answer: "do",
-            en: "Siempre [hago] los deberes después de cenar.",
+            en: "Siempre [hago] la tarea después de cenar.",
             explanation: "Homework is a task, so \"do\". *Make homework is a very common Spanish-speaker mistake.",
           },
         ],
@@ -1851,7 +1851,7 @@ export const EN_B2_U24: Lesson[] = [
           { es: "Actually, I don't like coffee.", en: "En realidad, no me gusta el café." },
           { es: "After three interviews, she eventually got the job.", en: "Tras tres entrevistas, al final consiguió el trabajo." },
           { es: "The current manager is very young.", en: "El gerente actual es muy joven." },
-          { es: "The actual cost was much higher.", en: "El coste real fue mucho más alto." },
+          { es: "The actual cost was much higher.", en: "El costo real fue mucho más alto." },
         ],
         checkpoint: [
           {
@@ -1920,7 +1920,7 @@ export const EN_B2_U24: Lesson[] = [
           { es: "He's very sensitive to criticism.", en: "Es muy sensible a las críticas." },
           { es: "I bought it at a bookstore near the office.", en: "Lo compré en una librería cerca de la oficina." },
           { es: "Put the contracts in the blue folder.", en: "Mete los contratos en la carpeta azul." },
-          { es: "The new office has a gray carpet.", en: "La oficina nueva tiene moqueta gris." },
+          { es: "The new office has a gray carpet.", en: "La oficina nueva tiene alfombra gris." },
         ],
         checkpoint: [
           {
@@ -2244,7 +2244,7 @@ export const EN_B2_U24: Lesson[] = [
         prompt: "Put the words in order.",
         words: ["All", "her", "hard", "work", "finally", "paid", "off."],
         translation: "Por fin dio fruto todo su esfuerzo.",
-        explanation: "Without an object, \"pay off\" means «dar fruto», «merecer la pena».",
+        explanation: "Without an object, \"pay off\" means «dar fruto», «valer la pena».",
       },
       {
         type: "translate",
@@ -2283,7 +2283,7 @@ export const EN_B2_U24: Lesson[] = [
           { es: "She earns more than her husband.", en: "Gana más que su marido." },
           { es: "Can I borrow your charger?", en: "¿Me dejas tu cargador?" },
           { es: "They robbed a gas station.", en: "Atracaron una gasolinera." },
-          { es: "The bank has raised interest rates.", en: "El banco ha subido los tipos de interés." },
+          { es: "The bank has raised interest rates.", en: "El banco subió las tasas de interés." },
           { es: "We need to make a decision by Friday.", en: "Tenemos que tomar una decisión antes del viernes." },
         ],
         checkpoint: [
@@ -2503,7 +2503,7 @@ export const EN_B2_U24: Lesson[] = [
         heading: "Talking about the economy",
         body: [
           "\"The economy\" (with \"the\") is the economic system of a country: \"The economy is growing.\" \"Economics\" is the academic subject («la economía» as a degree). \"Economic\" means related to the economy (\"economic growth\"); \"economical\" means cheap to run («económico», «ahorrador»: \"an economical car\").",
-          "Key words: \"growth\" («crecimiento»), \"recession\" («recesión»), \"inflation\" («inflación»), \"interest rates\" («tipos de interés»), \"taxes\" («impuestos»), \"the cost of living\" («el coste de la vida»), \"GDP\" («PIB»).",
+          "Key words: \"growth\" («crecimiento»), \"recession\" («recesión»), \"inflation\" («inflación»), \"interest rates\" («tasas de interés»), \"taxes\" («impuestos»), \"the cost of living\" («el costo de la vida»), \"GDP\" («PIB»).",
           "Verbs for trends: \"rise\", \"go up\", \"increase\", \"fall\", \"drop\", \"go down\", \"decrease\". Remember: \"raise\" only when someone does it to something (\"raise interest rates\").",
         ],
         examples: [
@@ -2511,8 +2511,8 @@ export const EN_B2_U24: Lesson[] = [
           { es: "She studied economics at university.", en: "Estudió Economía en la universidad." },
           { es: "The country is in a recession.", en: "El país está en recesión." },
           { es: "Inflation has fallen to three percent.", en: "La inflación ha bajado al tres por ciento." },
-          { es: "The central bank raised interest rates.", en: "El banco central subió los tipos de interés." },
-          { es: "The cost of living keeps going up.", en: "El coste de la vida no para de subir." },
+          { es: "The central bank raised interest rates.", en: "El banco central subió las tasas de interés." },
+          { es: "The cost of living keeps going up.", en: "El costo de la vida no para de subir." },
         ],
         checkpoint: [
           {
@@ -2541,10 +2541,10 @@ export const EN_B2_U24: Lesson[] = [
           "Careful: \"so\" is not used at the start of a formal written sentence to mean «por lo tanto». And «así que» is \"so\", never \"so that\" (which means «para que»).",
         ],
         examples: [
-          { es: "Interest rates went up, so mortgages became more expensive.", en: "Subieron los tipos de interés, así que las hipotecas se encarecieron." },
+          { es: "Interest rates went up, so mortgages became more expensive.", en: "Subieron las tasas de interés, así que las hipotecas se encarecieron." },
           { es: "Exports fell sharply. As a result, many factories closed.", en: "Las exportaciones cayeron mucho. Como consecuencia, cerraron muchas fábricas." },
-          { es: "Costs have increased. Therefore, we must raise prices.", en: "Los costes han aumentado. Por lo tanto, debemos subir los precios." },
-          { es: "As a result of the recession, unemployment rose.", en: "Como consecuencia de la recesión, subió el paro." },
+          { es: "Costs have increased. Therefore, we must raise prices.", en: "Los costos han aumentado. Por lo tanto, debemos subir los precios." },
+          { es: "As a result of the recession, unemployment rose.", en: "Como consecuencia de la recesión, subió el desempleo." },
           { es: "Demand is low; consequently, prices are falling.", en: "La demanda es baja; en consecuencia, los precios están bajando." },
         ],
         checkpoint: [
@@ -2578,7 +2578,7 @@ export const EN_B2_U24: Lesson[] = [
           "\"Unless\" = \"if... not\": \"Unless they cut costs, they'll go bankrupt.\"",
         ],
         examples: [
-          { es: "If interest rates go up, fewer people will buy houses.", en: "Si suben los tipos de interés, menos gente comprará casas." },
+          { es: "If interest rates go up, fewer people will buy houses.", en: "Si suben las tasas de interés, menos gente comprará casas." },
           { es: "If I earned more, I would save more.", en: "Si ganara más, ahorraría más." },
           { es: "If they had invested earlier, they would have made a profit.", en: "Si hubieran invertido antes, habrían tenido beneficios." },
           { es: "Unless we cut costs, we'll make a loss.", en: "Si no reducimos gastos, tendremos pérdidas." },
@@ -2656,8 +2656,8 @@ export const EN_B2_U24: Lesson[] = [
         type: "matching",
         instructions: "Match the English with the Spanish.",
         pairs: [
-          { left: "interest rates", right: "tipos de interés" },
-          { left: "cost of living", right: "coste de la vida" },
+          { left: "interest rates", right: "tasas de interés" },
+          { left: "cost of living", right: "costo de la vida" },
           { left: "growth", right: "crecimiento" },
           { left: "GDP", right: "PIB" },
           { left: "recession", right: "recesión" },
@@ -2708,7 +2708,7 @@ export const EN_B2_U24: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El paro ha bajado; por lo tanto, el gobierno está contento.",
+        source: "El desempleo ha bajado; por lo tanto, el gobierno está contento.",
         answer: "Unemployment has fallen; therefore, the government is happy.",
         altAnswers: [
           "Unemployment has gone down; therefore, the government is happy.",

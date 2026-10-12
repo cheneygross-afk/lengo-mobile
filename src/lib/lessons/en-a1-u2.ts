@@ -274,7 +274,7 @@ export const EN_A1_U2: Lesson[] = [
         heading: "La \"th\" de \"this\"",
         body: [
           "En \"this\", \"that\", \"the\", \"they\" o \"mother\" la \"th\" es sonora (/ð/): la lengua está en la misma posición, entre los dientes, pero las cuerdas vocales vibran. Se parece a la «d» suave de «nada» o «cada», con la lengua un poco más adelante.",
-          "Este sonido aparece en palabras pequeñas y frecuentísimas (\"the\", \"this\", \"that\", \"they\", \"there\"), así que merece la pena practicarlo. No digas «dis» ni «de»: \"they\" dicho con «d» suena a \"day\" («día»).",
+          "Este sonido aparece en palabras pequeñas y frecuentísimas (\"the\", \"this\", \"that\", \"they\", \"there\"), así que vale la pena practicarlo. No digas «dis» ni «de»: \"they\" dicho con «d» suena a \"day\" («día»).",
         ],
         examples: [
           { es: "this", en: "esto / este" },

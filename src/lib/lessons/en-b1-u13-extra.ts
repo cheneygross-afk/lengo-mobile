@@ -308,11 +308,11 @@ export const EN_B1_U13_EXTRA: Lesson[] = [
           "Modals never take \"to\" or \"do\": \"Can I go?\", not *Do I can go? or *Can I to go?.",
         ],
         examples: [
-          { es: "Can I borrow your pen?", en: "¿Me dejas tu boli?" },
+          { es: "Can I borrow your pen?", en: "¿Me prestas tu pluma?" },
           { es: "May I leave my coat here?", en: "¿Puedo dejar el abrigo aquí? (formal)" },
           { es: "You can't eat in the library.", en: "No se puede comer en la biblioteca." },
           { es: "As a child, I could play outside until dark.", en: "De niño, podía jugar fuera hasta que se hacía de noche." },
-          { es: "Visitors may not take photos.", en: "Los visitantes no pueden hacer fotos. (norma escrita)" },
+          { es: "Visitors may not take photos.", en: "Los visitantes no pueden tomar fotos. (norma escrita)" },
         ],
         checkpoint: [
           {
@@ -517,7 +517,7 @@ export const EN_B1_U13_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["We", "weren't", "allowed", "to", "take", "photos", "inside."],
-        translation: "No nos dejaron hacer fotos dentro.",
+        translation: "No nos dejaron tomar fotos adentro.",
         explanation: "\"Be allowed to\" + base verb. The \"to\" is never dropped.",
       },
       {
@@ -575,7 +575,7 @@ export const EN_B1_U13_EXTRA: Lesson[] = [
           { es: "Perhaps he's busy. = He might be busy.", en: "A lo mejor está ocupado." },
           { es: "I'm sure she's tired. = She must be tired.", en: "Seguro que está cansada." },
           { es: "It isn't necessary to wait. = You needn't wait.", en: "No hace falta esperar." },
-          { es: "It's a good idea to book early. = You should book early.", en: "Conviene reservar pronto." },
+          { es: "It's a good idea to book early. = You should book early.", en: "Conviene reservar con anticipación." },
           { es: "Are you able to swim? = Can you swim?", en: "¿Sabes nadar?" },
         ],
         checkpoint: [

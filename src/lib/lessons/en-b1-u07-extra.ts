@@ -49,7 +49,7 @@ export const EN_B1_U07_EXTRA: Lesson[] = [
       {
         heading: "Two meanings: think, have, see, taste",
         body: [
-          "Some verbs are states in one meaning and actions in another. \"I think it's a good idea\" (opinion = state) vs \"I'm thinking about my holiday\" (the process in your head = action).",
+          "Some verbs are states in one meaning and actions in another. \"I think it's a good idea\" (opinion = state) vs \"I'm thinking about my vacation\" (the process in your head = action).",
           "\"Have\" for possession is a state: \"She has a car\", not *She is having a car. But \"have\" in expressions like \"have lunch\", \"have a shower\", \"have a good time\" is an action: \"We're having dinner\".",
           "\"See\" = notice with your eyes (state), but \"I'm seeing the doctor tomorrow\" = a meeting (action). \"Taste\" = have a flavor (\"It tastes great\") vs try the flavor (\"I'm tasting the soup\").",
         ],
@@ -173,8 +173,8 @@ export const EN_B1_U07_EXTRA: Lesson[] = [
         sentence: "I ___ my old friends from school tonight. We're going for pizza.",
         answer: "am seeing",
         altAnswers: ["'m seeing", "am meeting", "'m meeting"],
-        en: "Esta noche [quedo con] mis viejos amigos del colegio. Vamos a comer pizza.",
-        explanation: "\"See\" meaning «quedar con» is an action, and the present continuous is used for arrangements: \"I'm seeing my friends tonight\".",
+        en: "Esta noche [me veo con] mis viejos amigos del colegio. Vamos a comer pizza.",
+        explanation: "\"See\" meaning «verse con» is an action, and the present continuous is used for arrangements: \"I'm seeing my friends tonight\".",
       },
       {
         type: "translate",
@@ -302,7 +302,7 @@ export const EN_B1_U07_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "This morning I ___ the bus, so I was late for work.",
         answer: "missed",
-        en: "Esta mañana [he perdido] el autobús, así que he llegado tarde al trabajo.",
+        en: "Esta mañana [perdí] el autobús, así que llegué tarde al trabajo.",
         explanation: "In the afternoon, \"this morning\" is finished time, and the story has details (\"so I was late\"), so English uses the past simple even where Spain uses «he perdido».",
       },
       {

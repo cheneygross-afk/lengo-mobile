@@ -83,10 +83,10 @@ export const EN_B2_U07_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ojalá mi piso fuera más grande.",
+        source: "Ojalá mi departamento fuera más grande.",
         answer: "I wish my apartment were bigger.",
         altAnswers: ["I wish my apartment was bigger.", "I wish my flat were bigger.", "I wish my flat was bigger.", "If only my apartment were bigger.", "If only my apartment was bigger.", "If only my flat were bigger.", "If only my flat was bigger.", "I wish my apartment were larger.", "I wish my apartment was larger."],
-        explanation: "\"Wish\" + \"were\" (or \"was\") for a present situation. «Piso» is \"apartment\" in the US and \"flat\" in the UK.",
+        explanation: "\"Wish\" + \"were\" (or \"was\") for a present situation. «Departamento» is \"apartment\" (British \"flat\").",
       },
       {
         type: "fill-blank",
@@ -171,7 +171,7 @@ export const EN_B2_U07_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["I", "wish", "I", "didn't", "have", "so", "much", "homework"],
-        translation: "Ojalá no tuviera tantos deberes.",
+        translation: "Ojalá no tuviera tanta tarea.",
         explanation: "\"Wish\" + subject + \"didn't have\". \"Homework\" is uncountable: \"so much homework\", never *so many homeworks.",
       },
       {
@@ -515,7 +515,7 @@ export const EN_B2_U07_EXTRA: Lesson[] = [
         sentence: "I wish this computer ___ faster.",
         answer: "were",
         altAnswers: ["was", "would go", "would run", "worked"],
-        en: "Ojalá este ordenador [fuera] más rápido.",
+        en: "Ojalá esta computadora [fuera] más rápida.",
         explanation: "«Fuera más rápido» describes a state, so \"were\" (or \"was\"). With an action verb you could also say \"I wish it would go faster\".",
       },
       {
@@ -547,7 +547,7 @@ export const EN_B2_U07_EXTRA: Lesson[] = [
         type: "matching",
         instructions: "Match the English with the Spanish.",
         pairs: [
-          { left: "I wish you would hurry up.", right: "Ojalá te dieras prisa." },
+          { left: "I wish you would hurry up.", right: "Ojalá te apuraras." },
           { left: "I wish you were taller.", right: "Ojalá fueras más alto." },
           { left: "I wish you had come.", right: "Ojalá hubieras venido." },
           { left: "I hope you come.", right: "Espero que vengas." },
@@ -775,7 +775,7 @@ export const EN_B2_U07_EXTRA: Lesson[] = [
         examples: [
           { es: "I'd rather stay home tonight.", en: "Prefiero quedarme en casa esta noche." },
           { es: "I'd rather not talk about it.", en: "Prefiero no hablar de ello." },
-          { es: "I'd rather walk than take the bus.", en: "Prefiero ir andando que tomar el autobús." },
+          { es: "I'd rather walk than take the bus.", en: "Prefiero ir caminando que tomar el autobús." },
           { es: "I'd rather you didn't smoke here.", en: "Preferiría que no fumaras aquí. (incorrecto: *I'd rather that you don't smoke)" },
           { es: "Would you rather I came tomorrow?", en: "¿Prefieres que venga mañana?" },
         ],
@@ -953,7 +953,7 @@ export const EN_B2_U07_EXTRA: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Your flatmate has some annoying habits. Write a friendly but honest message (40-70 words) using \"I'd rather you didn't...\", \"It's time we...\" and \"I wish you would...\".",
+        prompt: "Your roommate has some annoying habits. Write a friendly but honest message (40-70 words) using \"I'd rather you didn't...\", \"It's time we...\" and \"I wish you would...\".",
         minWords: 40,
         maxWords: 70,
         rubric: ["Uses \"I'd rather you\" + past simple", "Uses \"It's time we\" or \"It's high time\" + past simple", "Uses \"I wish you would\" or \"I wish you wouldn't\"", "Friendly but clear tone"],

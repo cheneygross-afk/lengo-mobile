@@ -53,15 +53,15 @@ export const EN_B2_U28: Lesson[] = [
       {
         heading: "Get by and get on with",
         body: [
-          "\"Get by\" means to manage, with just enough money, knowledge or resources, but not much more («apañárselas», «arreglárselas»). With money we say \"get by on\": \"I get by on 1,000 euros a month\". With a language: \"I can get by in French\".",
+          "\"Get by\" means to manage, with just enough money, knowledge or resources, but not much more («arreglárselas»). With money we say \"get by on\": \"I get by on 1,000 euros a month\". With a language: \"I can get by in French\".",
           "\"Get on with\" something means to continue doing it or to start doing it, especially after an interruption or a delay: \"Let's get on with the meeting\", \"Stop complaining and get on with it!\".",
           "\"Get on with\" someone means to have a good relationship with them («llevarse bien con»). This use is mainly British; American English prefers \"get along with\". Both are understood everywhere.",
         ],
         examples: [
-          { es: "My Italian isn't great, but I can get by.", en: "Mi italiano no es muy bueno, pero me las apaño." },
+          { es: "My Italian isn't great, but I can get by.", en: "Mi italiano no es muy bueno, pero me las arreglo." },
           { es: "How do students get by on so little money?", en: "¿Cómo se las arreglan los estudiantes con tan poco dinero?" },
           { es: "Right, let's get on with the meeting.", en: "Bueno, sigamos con la reunión." },
-          { es: "Stop talking and get on with your homework.", en: "Deja de hablar y ponte con los deberes." },
+          { es: "Stop talking and get on with your homework.", en: "Deja de hablar y ponte a hacer la tarea." },
           { es: "I get along really well with my coworkers.", en: "Me llevo muy bien con mis compañeros de trabajo." },
           { es: "She doesn't get on with her sister.", en: "No se lleva bien con su hermana." },
         ],
@@ -72,7 +72,7 @@ export const EN_B2_U28: Lesson[] = [
             sentence: "My Portuguese isn't perfect, but I can ___.",
             answer: "get by",
             altAnswers: ["manage"],
-            en: "Mi portugués no es perfecto, pero [me las apaño].",
+            en: "Mi portugués no es perfecto, pero [me las arreglo].",
             explanation: "\"Get by\" means to manage with just enough. It needs no object: \"I can get by\".",
           },
           {
@@ -166,7 +166,7 @@ export const EN_B2_U28: Lesson[] = [
         instructions: "Match each phrasal verb with its meaning.",
         pairs: [
           { left: "get over", right: "superar, recuperarse de" },
-          { left: "get by", right: "apañárselas" },
+          { left: "get by", right: "arreglárselas" },
           { left: "get away with", right: "salirse con la suya" },
           { left: "get around to", right: "encontrar por fin el momento de" },
           { left: "get through", right: "sobrevivir a, terminar" },
@@ -189,7 +189,7 @@ export const EN_B2_U28: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Con lo que gano, apenas me las apaño.",
+        source: "Con lo que gano, apenas me las arreglo.",
         answer: "I can barely get by on what I earn.",
         altAnswers: [
           "I barely get by on what I earn.",
@@ -244,7 +244,7 @@ export const EN_B2_U28: Lesson[] = [
         type: "listen-choose",
         audio: "We'll get through this together.",
         question: "What does it mean?",
-        options: ["Saldremos de esta juntos.", "Lo terminaremos por separado.", "Nos llevaremos bien.", "Nos las apañaremos solos."],
+        options: ["Saldremos de esta juntos.", "Lo terminaremos por separado.", "Nos llevaremos bien.", "Nos las arreglaremos solos."],
         correctIndex: 0,
         explanation: "\"Get through\" a difficult situation = survive it, come out the other side.",
       },
@@ -564,11 +564,11 @@ export const EN_B2_U28: Lesson[] = [
       {
         heading: "Come down with",
         body: [
-          "\"Come down with\" an illness means to start having it, usually something minor like a cold or the flu («caer enfermo de», «pillar»). It is very common in the continuous: \"I think I'm coming down with something\" («creo que estoy incubando algo»).",
+          "\"Come down with\" an illness means to start having it, usually something minor like a cold or the flu («enfermarse de», «agarrar»). It is very common in the continuous: \"I think I'm coming down with something\" («creo que estoy incubando algo»).",
           "Spanish speakers sometimes say \"catch\" for everything. \"Catch a cold\" is correct too, but \"come down with\" focuses on the moment the illness starts, and it works with more illnesses: \"come down with the flu\", \"come down with a fever\".",
         ],
         examples: [
-          { es: "I think I'm coming down with a cold.", en: "Creo que estoy pillando un resfriado." },
+          { es: "I think I'm coming down with a cold.", en: "Creo que me estoy resfriando." },
           { es: "Half the office came down with the flu.", en: "Media oficina cayó con gripe." },
           { es: "She came down with a fever the night before the exam.", en: "La noche antes del examen le dio fiebre." },
           { es: "I feel awful. I must be coming down with something.", en: "Me encuentro fatal. Debo de estar incubando algo." },
@@ -580,7 +580,7 @@ export const EN_B2_U28: Lesson[] = [
             sentence: "I think I'm ___ a cold.",
             answer: "coming down with",
             altAnswers: ["getting", "catching"],
-            en: "Creo que [estoy pillando] un resfriado.",
+            en: "Creo que [me está dando] un resfriado.",
             explanation: "\"Come down with\" = start to have an illness, often in the continuous: \"I'm coming down with...\".",
           },
         ],
@@ -789,7 +789,7 @@ export const EN_B2_U28: Lesson[] = [
           { es: "I look forward to hearing from you.", en: "Quedo a la espera de su respuesta." },
           { es: "We ran out of gas on the highway.", en: "Nos quedamos sin gasolina en la autopista." },
           { es: "My phone is running out of battery.", en: "Me estoy quedando sin batería en el celular." },
-          { es: "Hurry up, time is running out!", en: "¡Date prisa, se acaba el tiempo!" },
+          { es: "Hurry up, time is running out!", en: "¡Apúrate, se acaba el tiempo!" },
         ],
         checkpoint: [
           {
@@ -1110,7 +1110,7 @@ export const EN_B2_U28: Lesson[] = [
           "Some adjectives are already extreme, like \"freezing\", \"exhausted\" or \"amazing\". They don't take \"very\"; use \"absolutely\" or \"really\": \"absolutely exhausted\", not *very exhausted.",
         ],
         examples: [
-          { es: "It was bitterly cold this morning.", en: "Esta mañana hacía un frío que pelaba." },
+          { es: "It was bitterly cold this morning.", en: "Esta mañana hacía un frío tremendo." },
           { es: "This restaurant is highly recommended.", en: "Este restaurante es muy recomendable." },
           { es: "We are deeply sorry for the delay.", en: "Lamentamos profundamente el retraso." },
           { es: "I'm fully aware of the risks.", en: "Soy plenamente consciente de los riesgos." },
@@ -1643,10 +1643,10 @@ export const EN_B2_U28: Lesson[] = [
         ],
         examples: [
           { es: "I've lost my wallet.", en: "He perdido la cartera." },
-          { es: "Hurry up or we'll miss the train.", en: "Date prisa o perderemos el tren." },
+          { es: "Hurry up or we'll miss the train.", en: "Apúrate o perderemos el tren." },
           { es: "I missed the meeting because I was sick.", en: "Me perdí la reunión porque estaba enfermo." },
           { es: "I really miss my family.", en: "Echo mucho de menos a mi familia." },
-          { es: "Can you bring me my glasses?", en: "¿Me traes las gafas?" },
+          { es: "Can you bring me my glasses?", en: "¿Me traes los lentes?" },
           { es: "I'll take the kids to school.", en: "Yo llevo a los niños al colegio." },
           { es: "Should I bring anything to the party?", en: "¿Llevo algo a la fiesta?" },
         ],
@@ -1676,7 +1676,7 @@ export const EN_B2_U28: Lesson[] = [
           "So «¿Me prestas tu carro?» can be \"Can you lend me your car?\" or \"Can I borrow your car?\". What you can't say is *Can you borrow me your car?, a very common mistake.",
         ],
         examples: [
-          { es: "Can I borrow your pen?", en: "¿Me prestas el boli?" },
+          { es: "Can I borrow your pen?", en: "¿Me prestas la pluma?" },
           { es: "Could you lend me twenty dollars?", en: "¿Me podrías prestar veinte dólares?" },
           { es: "I borrowed this book from the library.", en: "Saqué este libro de la biblioteca." },
           { es: "I lent him my car last weekend.", en: "Le presté el carro el fin de semana pasado." },
@@ -2074,7 +2074,7 @@ export const EN_B2_U28: Lesson[] = [
           { es: "He had run out of coffee.", en: "Se le había acabado el café." },
           { es: "He finally got through to his boss.", en: "Por fin consiguió hablar con su jefe." },
           { es: "He came up with an excuse.", en: "Se inventó una excusa." },
-          { es: "He was coming down with a cold.", en: "Estaba pillando un resfriado." },
+          { es: "He was coming down with a cold.", en: "Se estaba resfriando." },
           { es: "He put off his gym session.", en: "Aplazó su sesión de gimnasio." },
         ],
         checkpoint: [
@@ -2348,7 +2348,7 @@ export const EN_B2_U28: Lesson[] = [
           "Notice the confused pairs: she \"lay\" in bed (past of \"lie\"), and she decided to \"raise\" her rates (with an object).",
         ],
         examples: [
-          { es: "She came down with a bad cold.", en: "Pilló un resfriado fuerte." },
+          { es: "She came down with a bad cold.", en: "Agarró un resfriado fuerte." },
           { es: "She lay in bed all morning.", en: "Se quedó tumbada en la cama toda la mañana." },
           { es: "She couldn't afford to lose a whole day.", en: "No podía permitirse perder un día entero." },
           { es: "I'll definitely recommend you to my colleagues.", en: "Sin duda te recomendaré a mis compañeros." },
@@ -2384,7 +2384,7 @@ export const EN_B2_U28: Lesson[] = [
           { es: "They still keep in touch.", en: "Siguen manteniendo el contacto." },
           { es: "I wish I could take a real vacation.", en: "Ojalá pudiera tomarme unas vacaciones de verdad." },
           { es: "You've been working too hard lately.", en: "Últimamente has estado trabajando demasiado." },
-          { es: "It was bitterly cold, so she stayed in.", en: "Hacía un frío que pelaba, así que se quedó en casa." },
+          { es: "It was bitterly cold, so she stayed in.", en: "Hacía un frío tremendo, así que se quedó en casa." },
         ],
         checkpoint: [
           {
@@ -2479,7 +2479,7 @@ export const EN_B2_U28: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["She", "came", "down", "with", "a", "bad", "cold."],
-        translation: "Pilló un resfriado fuerte.",
+        translation: "Agarró un resfriado fuerte.",
         explanation: "\"Come down with\" + illness, and the collocation \"a bad cold\" (not *a strong cold).",
       },
       {
@@ -2583,7 +2583,7 @@ export const EN_B2_U28: Lesson[] = [
       {
         heading: "Phrasal verbs and collocations",
         body: [
-          "Phrasal verbs: \"get over\" («superar»), \"get by\" («apañárselas»), \"take after\" («parecerse a»), \"put off\" («aplazar»), \"put up with\" («aguantar»), \"come up with\" («idear»), \"go through\" («pasar por»), \"run out of\" («quedarse sin»), \"look forward to\" («tener ganas de»).",
+          "Phrasal verbs: \"get over\" («superar»), \"get by\" («arreglárselas»), \"take after\" («parecerse a»), \"put off\" («aplazar»), \"put up with\" («aguantar»), \"come up with\" («idear»), \"go through\" («pasar por»), \"run out of\" («quedarse sin»), \"look forward to\" («tener ganas de»).",
           "Collocations: \"heavy traffic\", \"strong coffee\", \"high prices\", \"a bad cold\", \"fast asleep\", \"highly recommended\"; \"take a break\", \"take part in\", \"have a look\", \"pay attention\", \"keep in touch\", \"make a decision\".",
           "Remember the word order: separable verbs split with pronouns (\"put it off\"), inseparable and three-part verbs never do (\"get over it\", \"put up with it\").",
         ],
@@ -2779,10 +2779,10 @@ export const EN_B2_U28: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi hermano siempre se las apaña.",
+        source: "Mi hermano siempre se las arregla.",
         answer: "My brother always gets by.",
         altAnswers: ["My brother always manages.", "My brother always finds a way.", "My brother always muddles through."],
-        explanation: "«Apañárselas» = \"get by\" or \"manage\".",
+        explanation: "«Arreglárselas» = \"get by\" or \"manage\".",
       },
       {
         type: "word-order",

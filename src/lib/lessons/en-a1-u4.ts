@@ -529,7 +529,7 @@ export const EN_A1_U4: Lesson[] = [
           "Recuerda que el español usa el presente simple para lo que pasa ahora («¿Qué haces?», «Llueve»); el inglés, no.",
         ],
         examples: [
-          { es: "I usually walk, but today I'm taking the bus.", en: "Normalmente voy andando, pero hoy voy en autobús." },
+          { es: "I usually walk, but today I'm taking the bus.", en: "Normalmente voy caminando, pero hoy voy en autobús." },
           { es: "I like this song.", en: "Me gusta esta canción." },
           { es: "What are you doing?", en: "¿Qué haces?" },
         ],
@@ -617,7 +617,7 @@ export const EN_A1_U4: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "I ___ a new computer.",
         answer: "need",
-        en: "[Necesito] un ordenador nuevo.",
+        en: "[Necesito] una computadora nueva.",
         explanation: "\"Need\" es un verbo de estado: \"I need\", no *I'm needing.",
       },
       {

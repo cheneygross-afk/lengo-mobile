@@ -83,7 +83,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Cuál de estas frases NO es correcta?",
+        question: "Which sentence is NOT correct?",
         options: [
           "I really enjoy to travel by train.",
           "I really enjoy traveling by train.",
@@ -134,7 +134,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si no te das prisa, te arriesgas a perder el tren.",
+        source: "Si no te apuras, te arriesgas a perder el tren.",
         answer: "If you don't hurry, you risk missing the train.",
         altAnswers: [
           "If you don't hurry up, you risk missing the train.",
@@ -382,7 +382,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"After the break, the teacher went on to explain the past perfect.\" ¿Qué significa?",
+        question: "\"After the break, the teacher went on to explain the past perfect.\" What does this mean?",
         options: [
           "After the break, the teacher moved on to a new topic: the past perfect.",
           "After the break, the teacher continued explaining the same thing as before.",
@@ -555,7 +555,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Cuál de estas frases NO es correcta?",
+        question: "Which sentence is NOT correct?",
         options: [
           "I'm thinking about to change jobs.",
           "I'm thinking about changing jobs.",
@@ -803,7 +803,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Cuál de estas frases NO es correcta?",
+        question: "Which sentence is NOT correct?",
         options: [
           "I use to go to the gym on Mondays.",
           "I usually go to the gym on Mondays.",
@@ -895,7 +895,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"She used to work at night.\" ¿Qué significa?",
+        question: "\"She used to work at night.\" What does this mean?",
         options: [
           "Antes trabajaba de noche, pero ya no.",
           "Está acostumbrada a trabajar de noche.",
@@ -1021,7 +1021,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Cuál de estas frases NO es correcta?",
+        question: "Which sentence is NOT correct?",
         options: [
           "The teacher wants we finish the project by Friday.",
           "The teacher wants us to finish the project by Friday.",
@@ -1130,7 +1130,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Le convencí para que viniera con nosotros.",
+        source: "Lo convencí para que viniera con nosotros.",
         answer: "I persuaded him to come with us.",
         altAnswers: [
           "I persuaded her to come with us.",
@@ -1182,7 +1182,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
         heading: "Quick recap: adjective + to",
         body: [
           "After many adjectives English uses the to-infinitive: \"It's easy to use\", \"I'm glad to see you\", \"She was surprised to hear it\". Spanish speakers often write *easy of use (from «fácil de usar») or *It's difficult that I understand.",
-          "To say WHO finds it easy or hard, use \"for + object + to\": \"It's hard for me to understand him\" («me cuesta entenderle»), \"It's important for the kids to sleep\" («es importante que los niños duerman»).",
+          "To say WHO finds it easy or hard, use \"for + object + to\": \"It's hard for me to understand him\" («me cuesta entenderlo»), \"It's important for the kids to sleep\" («es importante que los niños duerman»).",
           "\"too + adjective + to\" = more than enough, so not possible: \"It's too cold to swim\". \"adjective + enough + to\": \"She's old enough to drive\". Note that \"enough\" goes AFTER the adjective.",
         ],
         examples: [
@@ -1239,7 +1239,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Cuál de estas frases NO es correcta?",
+        question: "Which sentence is NOT correct?",
         options: [
           "This machine is very easy of use.",
           "This machine is very easy to use.",

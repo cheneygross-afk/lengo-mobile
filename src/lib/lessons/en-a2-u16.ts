@@ -721,7 +721,7 @@ export const EN_A2_U16: Lesson[] = [
           { es: "I was so embarrassed!", en: "¡Qué vergüenza pasé!" },
           { es: "It was an embarrassing moment.", en: "Fue un momento vergonzoso." },
           { es: "My sister is pregnant.", en: "Mi hermana está embarazada." },
-          { es: "I'm very excited about the trip.", en: "Estoy muy ilusionado con el viaje." },
+          { es: "I'm very excited about the trip.", en: "Estoy muy emocionado con el viaje." },
           { es: "The game was really exciting.", en: "El partido fue muy emocionante." },
         ],
         checkpoint: [
@@ -752,7 +752,7 @@ export const EN_A2_U16: Lesson[] = [
         examples: [
           { es: "I'm interested in art.", en: "Me interesa el arte." },
           { es: "She's worried about her exam.", en: "Está preocupada por su examen." },
-          { es: "We're excited about the concert.", en: "Estamos ilusionados con el concierto." },
+          { es: "We're excited about the concert.", en: "Estamos emocionados con el concierto." },
           { es: "I'm tired of this weather.", en: "Estoy harto de este tiempo." },
         ],
         checkpoint: [
@@ -989,7 +989,7 @@ export const EN_A2_U16: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "These jeans are ___ small.",
         answer: "too",
-        en: "Estos vaqueros son [demasiado] pequeños.",
+        en: "Estos jeans son [demasiado] pequeños.",
         explanation: "«Demasiado» delante de un adjetivo es solo \"too\", sin \"much\".",
       },
       {
@@ -1044,7 +1044,7 @@ export const EN_A2_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«No es lo bastante alto para jugar al baloncesto.» ¿Cuál es correcta?",
+        question: "«No es lo bastante alto para jugar básquetbol.» ¿Cuál es correcta?",
         options: ["He isn't tall enough to play basketball.", "He isn't enough tall to play basketball.", "He isn't tall enough for play basketball.", "He isn't too tall to play basketball."],
         correctIndex: 0,
         explanation: "\"Tall enough\" (adjetivo + \"enough\") y \"to play\" (no *for play).",
@@ -1167,7 +1167,7 @@ export const EN_A2_U16: Lesson[] = [
         ],
         examples: [
           { es: "The food was absolutely delicious.", en: "La comida estaba buenísima." },
-          { es: "It's absolutely freezing outside.", en: "Fuera hace un frío horrible." },
+          { es: "It's absolutely freezing outside.", en: "Afuera hace un frío horrible." },
           { es: "Their house is huge.", en: "Su casa es enorme." },
           { es: "I'm absolutely exhausted.", en: "Estoy agotadísimo." },
           { es: "I'm starving!", en: "¡Me muero de hambre!" },
@@ -1257,7 +1257,7 @@ export const EN_A2_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Fuera hace un frío horrible.",
+        source: "Afuera hace un frío horrible.",
         answer: "It's absolutely freezing outside.",
         altAnswers: ["It's freezing outside.", "It's really freezing outside.", "It's freezing out.", "It's absolutely freezing out."],
         explanation: "\"Freezing\" ya es «muy frío», así que se refuerza con \"absolutely\" o \"really\", no con \"very\".",
@@ -1560,7 +1560,7 @@ export const EN_A2_U16: Lesson[] = [
           { es: "She's a good singer. She sings well.", en: "Es buena cantante. Canta bien." },
           { es: "He's a bad driver. He drives badly.", en: "Es mal conductor. Maneja mal." },
           { es: "It's fine. Don't worry.", en: "Está bien. No te preocupes." },
-          { es: "The pizza looks good.", en: "La pizza tiene buena pinta." },
+          { es: "The pizza looks good.", en: "La pizza se ve buena." },
           { es: "I did well on the exam.", en: "Me fue bien en el examen." },
           { es: "You did well!", en: "¡Lo hiciste bien!" },
         ],
@@ -1594,7 +1594,7 @@ export const EN_A2_U16: Lesson[] = [
         ],
         examples: [
           { es: "How are you? I'm good, thanks.", en: "¿Qué tal? Bien, gracias." },
-          { es: "I don't feel well.", en: "No me encuentro bien." },
+          { es: "I don't feel well.", en: "No me siento bien." },
           { es: "I feel good today.", en: "Hoy me siento bien." },
           { es: "No, thanks. I'm good.", en: "No, gracias. Así estoy bien." },
           { es: "Get well soon!", en: "¡Que te mejores!" },
@@ -1613,7 +1613,7 @@ export const EN_A2_U16: Lesson[] = [
             sentence: "I don't feel ___.",
             answer: "well",
             altAnswers: ["good"],
-            en: "No me encuentro [bien].",
+            en: "No me siento [bien].",
             explanation: "Para la salud, \"I don't feel well\" (en Estados Unidos también se oye mucho \"I don't feel good\").",
           },
         ],

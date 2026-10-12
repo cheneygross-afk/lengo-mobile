@@ -16,16 +16,16 @@ export const EN_B1_U33: Lesson[] = [
         heading: "Company, firm, business and staff",
         body: [
           "The general word for «empresa» is \"company\": \"She works for a big tech company.\" A \"firm\" is also a company, but we use it mostly for professional services: \"a law firm\", \"an accounting firm\". \"Business\" can mean a company, often a small one (\"They have a family business\"), or the activity of buying and selling (\"Business is good this year\").",
-          "\"Staff\" means all the people who work for an organization, like «la plantilla» or «el personal». It is a group noun, so we never say *staffs for people. For one person, say \"a member of staff\", \"a staff member\" or \"an employee\".",
+          "\"Staff\" means all the people who work for an organization, like «el personal». It is a group noun, so we never say *staffs for people. For one person, say \"a member of staff\", \"a staff member\" or \"an employee\".",
           "Careful: «el personal» is not *the personal. In English, \"personal\" is only an adjective, meaning «privado» or «individual»: \"personal information\".",
         ],
         examples: [
           { es: "She works for a big software company.", en: "Trabaja para una gran empresa de software." },
           { es: "My sister works at a law firm.", en: "Mi hermana trabaja en un bufete de abogados." },
           { es: "They have a small family business.", en: "Tienen una pequeña empresa familiar." },
-          { es: "The hotel staff were very friendly.", en: "El personal del hotel fue muy amable." },
+          { es: "The hotel staff was very friendly.", en: "El personal del hotel fue muy amable." },
           { es: "We have twenty employees.", en: "Tenemos veinte empleados." },
-          { es: "He's a new member of staff.", en: "Es un nuevo miembro de la plantilla." },
+          { es: "He's a new member of staff.", en: "Es un nuevo miembro del personal." },
         ],
         checkpoint: [
           {
@@ -87,7 +87,7 @@ export const EN_B1_U33: Lesson[] = [
         body: [
           "«Contratar» is \"hire\" (very common in the US), \"employ\" or \"take on\". «Despedir» is \"fire\" when it's the worker's fault, and \"lay off\" when the company needs to cut jobs: \"Fifty workers were laid off.\" Spanish often says «lo despidieron»; English prefers the passive: \"He was fired\" or \"He got fired\".",
           "If you get a better position in the same company, you \"get promoted\" or \"are promoted\" (\"to manager\"). The noun is \"a promotion\" («un ascenso»).",
-          "When you decide to leave your job, you \"quit\" (informal) or \"resign\" (formal). «Dimitir» is \"resign\", but \"resign\" never means «resignarse».",
+          "When you decide to leave your job, you \"quit\" (informal) or \"resign\" (formal). «Renunciar» is \"resign\", but \"resign\" never means «resignarse».",
         ],
         examples: [
           { es: "They hired three new engineers.", en: "Contrataron a tres ingenieros nuevos." },
@@ -95,7 +95,7 @@ export const EN_B1_U33: Lesson[] = [
           { es: "The factory laid off two hundred workers.", en: "La fábrica despidió a doscientos trabajadores." },
           { es: "She got promoted to manager last month.", en: "La ascendieron a gerente el mes pasado." },
           { es: "I quit my job to start my own business.", en: "Dejé mi trabajo para montar mi propio negocio." },
-          { es: "The minister resigned yesterday.", en: "El ministro dimitió ayer." },
+          { es: "The minister resigned yesterday.", en: "El ministro renunció ayer." },
         ],
         checkpoint: [
           {
@@ -120,13 +120,13 @@ export const EN_B1_U33: Lesson[] = [
         heading: "Running a business: profit, loss and launch",
         body: [
           "«Llevar» or «dirigir» a company is \"run\" it: \"She runs a small coffee shop.\" \"Manage\" is also possible, especially for a department, a team or a hotel. «Montar una empresa» is \"start\" or \"set up\" a business.",
-          "A company \"makes a profit\" («obtiene beneficios») or \"loses money\" (British English also says \"makes a loss\"). Again, not *wins. \"Profits are up\" means the company is earning more.",
+          "A company \"makes a profit\" («obtiene ganancias») or \"loses money\" (British English also says \"makes a loss\"). Again, not *wins. \"Profits are up\" means the company is earning more.",
           "To «lanzar» a new product is to \"launch\" it: \"They launched a new app.\" The noun is the same: \"the launch of the new phone\".",
         ],
         examples: [
           { es: "She runs a small restaurant downtown.", en: "Lleva un pequeño restaurante en el centro." },
           { es: "They set up the company in 2019.", en: "Montaron la empresa en 2019." },
-          { es: "The business made a profit in its first year.", en: "El negocio obtuvo beneficios en su primer año." },
+          { es: "The business made a profit in its first year.", en: "El negocio obtuvo ganancias en su primer año." },
           { es: "We lost money last year.", en: "Perdimos dinero el año pasado." },
           { es: "They're launching a new product in May.", en: "Lanzan un producto nuevo en mayo." },
         ],
@@ -146,7 +146,7 @@ export const EN_B1_U33: Lesson[] = [
             sentence: "The company ___ a profit last year.",
             answer: "made",
             altAnswers: ["turned"],
-            en: "La empresa [obtuvo] beneficios el año pasado.",
+            en: "La empresa [obtuvo] ganancias el año pasado.",
             explanation: "The collocation is \"make a profit\". *Win a profit is a typical mistake from «ganar».",
           },
         ],
@@ -261,8 +261,8 @@ export const EN_B1_U33: Lesson[] = [
           "\"Home\" is the place where you live, whatever type it is; \"house\" is a type of building. «Estoy en casa» is \"I'm at home\" or \"I'm home\".",
         ],
         examples: [
-          { es: "We live in a two-bedroom apartment.", en: "Vivimos en un piso de dos habitaciones." },
-          { es: "They live in a block of flats near the station.", en: "Viven en un bloque de pisos cerca de la estación." },
+          { es: "We live in a two-bedroom apartment.", en: "Vivimos en un departamento de dos habitaciones." },
+          { es: "They live in a block of flats near the station.", en: "Viven en un edificio de departamentos cerca de la estación." },
           { es: "My parents have a detached house with a garden.", en: "Mis padres tienen un chalet con jardín." },
           { es: "It's a semi-detached house on a quiet street.", en: "Es una casa pareada en una calle tranquila." },
           { es: "I rent a small studio downtown.", en: "Alquilo un estudio pequeño en el centro." },
@@ -272,7 +272,7 @@ export const EN_B1_U33: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Vivo en un piso en el centro.",
+            source: "Vivo en un departamento en el centro.",
             answer: "I live in an apartment downtown.",
             altAnswers: ["I live in a flat downtown.", "I live in an apartment in the city center.", "I live in a flat in the city centre.", "I live in a flat in the city center.", "I live in an apartment in the city centre.", "I live in an apartment in the center.", "I live in a flat in the centre.", "I live in a flat in the town centre.", "I live in an apartment in the center of town."],
             explanation: "«Piso» is \"apartment\" (US) or \"flat\" (UK), never *floor in this sense. «En el centro» is \"downtown\" (US) or \"in the city center\".",
@@ -290,14 +290,14 @@ export const EN_B1_U33: Lesson[] = [
         heading: "Renting and buying: rent, landlord, deposit, mortgage",
         body: [
           "\"Rent\" is both the verb («alquilar», as the person who lives there) and the noun («el alquiler»): \"I rent an apartment. The rent is 900 dollars a month.\" The owner \"rents out\" the place. The owner is the \"landlord\" (or \"landlady\"), and you are the \"tenant\" («inquilino»).",
-          "Before you move in, you usually pay a \"deposit\" («fianza») and sign a \"lease\" («contrato de alquiler»).",
+          "Before you move in, you usually pay a \"deposit\" («depósito») and sign a \"lease\" («contrato de alquiler»).",
           "If you borrow money from the bank to buy a home, you have a \"mortgage\" («hipoteca»). The t is silent: MOR-gij. «Somos propietarios» is simply \"We own our home\".",
         ],
         examples: [
           { es: "How much is the rent?", en: "¿Cuánto es el alquiler?" },
           { es: "Our landlord lives upstairs.", en: "Nuestro casero vive en el piso de arriba." },
-          { es: "They rent out their apartment to students.", en: "Alquilan su piso a estudiantes." },
-          { es: "We paid a deposit of one month's rent.", en: "Pagamos una fianza de un mes de alquiler." },
+          { es: "They rent out their apartment to students.", en: "Rentan su departamento a estudiantes." },
+          { es: "We paid a deposit of one month's rent.", en: "Pagamos un depósito de un mes de alquiler." },
           { es: "They got a thirty-year mortgage.", en: "Pidieron una hipoteca a treinta años." },
           { es: "We don't rent; we own our house.", en: "No vivimos de alquiler; la casa es nuestra." },
         ],
@@ -306,10 +306,10 @@ export const EN_B1_U33: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "El casero no quiere devolvernos la fianza.",
+            source: "El casero no quiere devolvernos el depósito.",
             answer: "The landlord doesn't want to give us back the deposit.",
             altAnswers: ["The landlord doesn't want to give us our deposit back.", "The landlord doesn't want to give us the deposit back.", "The landlord doesn't want to give us back our deposit.", "The landlord doesn't want to return the deposit.", "The landlord doesn't want to return our deposit.", "The landlord won't give us back the deposit.", "The landlord won't give us our deposit back.", "The landlord won't give us the deposit back.", "The landlord won't give us back our deposit.", "The landlord won't return our deposit.", "The landlord won't return the deposit."],
-            explanation: "«Casero» is \"landlord\" and «fianza» is \"deposit\". «Devolver» money is \"give back\" or \"return\".",
+            explanation: "«Casero» is \"landlord\" and «depósito» is \"deposit\". «Devolver» money is \"give back\" or \"return\".",
           },
           {
             type: "fill-blank",
@@ -326,14 +326,14 @@ export const EN_B1_U33: Lesson[] = [
         body: [
           "«Mudarse» is simply \"move\": \"We moved last year.\" Use \"move to\" + place: \"She moved to Chicago.\" Don't say *move me or *change house.",
           "\"Move in\" means start living in a new place, and \"move out\" means leave it: \"We move in on Friday.\" \"My son moved out when he was twenty.\" «Irse a vivir con alguien» is \"move in with someone\".",
-          "«Compartir piso» is \"share an apartment\" (US) or \"share a flat\" (UK). The person you live with is a \"roommate\" (US) or \"flatmate\" (UK).",
+          "«Compartir departamento» is \"share an apartment\" (US) or \"share a flat\" (UK). The person you live with is a \"roommate\" (US) or \"flatmate\" (UK).",
         ],
         examples: [
           { es: "We moved to a bigger place last year.", en: "Nos mudamos a un sitio más grande el año pasado." },
           { es: "When are you moving in?", en: "¿Cuándo te mudas (a la casa nueva)?" },
           { es: "I moved out of my parents' house at twenty-two.", en: "Me fui de casa de mis padres a los veintidós." },
           { es: "She's moving in with her boyfriend.", en: "Se va a vivir con su novio." },
-          { es: "I share an apartment with two roommates.", en: "Comparto piso con dos compañeros." },
+          { es: "I share an apartment with two roommates.", en: "Comparto departamento con dos compañeros." },
         ],
         checkpoint: [
           {
@@ -361,7 +361,7 @@ export const EN_B1_U33: Lesson[] = [
           "«Quejarse» is \"complain\": \"complain to\" a person \"about\" something: \"We complained to the landlord about the noise.\"",
         ],
         examples: [
-          { es: "Our new neighbors are really nice.", en: "Nuestros vecinos nuevos son muy majos." },
+          { es: "Our new neighbors are really nice.", en: "Nuestros vecinos nuevos son muy amables." },
           { es: "It's a quiet neighborhood with lots of parks.", en: "Es un barrio tranquilo con muchos parques." },
           { es: "The people next door play loud music every night.", en: "Los de al lado ponen música alta todas las noches." },
           { es: "I can't sleep because of the noise.", en: "No puedo dormir por el ruido." },
@@ -418,10 +418,10 @@ export const EN_B1_U33: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Comparto piso con dos amigos.",
+        source: "Comparto departamento con dos amigos.",
         answer: "I share an apartment with two friends.",
         altAnswers: ["I share a flat with two friends."],
-        explanation: "«Compartir piso» is \"share an apartment\" (US) or \"share a flat\" (UK).",
+        explanation: "«Compartir departamento» is \"share an apartment\" (US) or \"share a flat\" (UK).",
       },
       {
         type: "matching",
@@ -429,7 +429,7 @@ export const EN_B1_U33: Lesson[] = [
         pairs: [
           { left: "landlord", right: "casero" },
           { left: "tenant", right: "inquilino" },
-          { left: "deposit", right: "fianza" },
+          { left: "deposit", right: "depósito" },
           { left: "mortgage", right: "hipoteca" },
         ],
         explanation: "The \"landlord\" owns the place and the \"tenant\" pays rent. A \"mortgage\" is a loan to buy a home.",
@@ -455,7 +455,7 @@ export const EN_B1_U33: Lesson[] = [
         type: "listen-choose",
         audio: "We're still paying off the mortgage.",
         question: "What did you hear?",
-        options: ["Todavía estamos pagando la hipoteca.", "Todavía no hemos pagado el alquiler.", "Ya hemos pagado la fianza.", "Estamos buscando un piso de alquiler."],
+        options: ["Todavía estamos pagando la hipoteca.", "Todavía no hemos pagado el alquiler.", "Ya hemos pagado el depósito.", "Estamos buscando un departamento en renta."],
         correctIndex: 0,
         explanation: "\"Mortgage\" (MOR-gij) is «hipoteca», and \"pay off\" means to pay a debt completely.",
       },
@@ -502,15 +502,15 @@ export const EN_B1_U33: Lesson[] = [
         heading: "Commuting, traffic and rush hour",
         body: [
           "To \"commute\" is to travel to work or school and back every day. It's a verb and a noun: \"I commute by train.\" \"My commute takes an hour.\" Spanish has no single word for it: «el trayecto al trabajo», «ir y volver del trabajo». A person who does it is a \"commuter\".",
-          "\"Rush hour\" is «la hora punta»: \"at rush hour\" or \"during rush hour\". A \"traffic jam\" is «un atasco», and \"get stuck in traffic\" is «quedarse atascado» or «pillar un atasco».",
+          "\"Rush hour\" is «la hora pico»: \"at rush hour\" or \"during rush hour\". A \"traffic jam\" is «un embotellamiento» or «un tráfico», and \"get stuck in traffic\" is «quedarse atorado en el tráfico».",
           "\"Traffic\" is uncountable: \"There was a lot of traffic\", never *a lot of traffics or *a traffic. With uncountable nouns, use \"less\": \"There's less traffic on Sundays.\"",
         ],
         examples: [
           { es: "I commute to work by train.", en: "Voy al trabajo en tren." },
           { es: "My commute takes about forty minutes.", en: "Tardo unos cuarenta minutos en llegar al trabajo." },
-          { es: "The roads are always busy at rush hour.", en: "Las carreteras siempre están llenas en hora punta." },
+          { es: "The roads are always busy at rush hour.", en: "Las carreteras siempre están llenas en hora pico." },
           { es: "Sorry I'm late. I got stuck in traffic.", en: "Perdón por el retraso. Me quedé atascado en el tráfico." },
-          { es: "There was a huge traffic jam on the highway.", en: "Había un atasco enorme en la autopista." },
+          { es: "There was a huge traffic jam on the highway.", en: "Había un embotellamiento enorme en la autopista." },
           { es: "There's a lot of traffic today.", en: "Hay mucho tráfico hoy." },
         ],
         checkpoint: [
@@ -528,7 +528,7 @@ export const EN_B1_U33: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "There's always a ___ on this road at eight.",
             answer: "traffic jam",
-            en: "Siempre hay un [atasco] en esta carretera a las ocho.",
+            en: "Siempre hay un [embotellamiento] en esta carretera a las ocho.",
             explanation: "«Atasco» is \"traffic jam\". You can also say \"There's always a lot of traffic\".",
           },
         ],
@@ -536,13 +536,13 @@ export const EN_B1_U33: Lesson[] = [
       {
         heading: "Catch, miss and take the bus",
         body: [
-          "«Tomar» or «tomar» the bus is \"take the bus\" for your usual way of traveling (\"I take the bus to work\") or \"catch the bus\" for getting a specific bus in time (\"I need to catch the 8:15\").",
+          "«Tomar» the bus is \"take the bus\" for your usual way of traveling (\"I take the bus to work\") or \"catch the bus\" for getting a specific bus in time (\"I need to catch the 8:15\").",
           "«Perder el autobús» is \"miss the bus\", never *lose the bus. You \"lose\" things like keys; you \"miss\" a bus, a train, a flight or a class.",
           "«Subir» and «bajar» depend on the vehicle. For buses, trains, planes, boats and bikes, use \"get on\" and \"get off\". For cars and taxis, where you can't stand up, use \"get in\" (or \"get into\") and \"get out of\".",
         ],
         examples: [
           { es: "I usually take the bus to school.", en: "Normalmente voy al colegio en autobús." },
-          { es: "Hurry up or we'll miss the train!", en: "¡Date prisa o perderemos el tren!" },
+          { es: "Hurry up or we'll miss the train!", en: "¡Apúrate o perderemos el tren!" },
           { es: "I caught the last bus home.", en: "Tomé el último autobús a casa." },
           { es: "Get off at the third stop.", en: "Bájate en la tercera parada." },
           { es: "She got into a taxi outside the hotel.", en: "Se subió a un taxi delante del hotel." },
@@ -578,7 +578,7 @@ export const EN_B1_U33: Lesson[] = [
           { es: "I'll pick you up at seven.", en: "Te recojo a las siete." },
           { es: "Could you drop me off at the corner?", en: "¿Me puedes dejar en la esquina?" },
           { es: "We went by train.", en: "Fuimos en tren." },
-          { es: "I walk to work; it's only ten minutes.", en: "Voy andando al trabajo; son solo diez minutos." },
+          { es: "I walk to work; it's only ten minutes.", en: "Voy caminando al trabajo; son solo diez minutos." },
           { es: "My son rides his bike to school.", en: "Mi hijo va en bici al colegio." },
         ],
         checkpoint: [
@@ -617,7 +617,7 @@ export const EN_B1_U33: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "We have to hurry or we'll ___ the flight.",
         answer: "miss",
-        en: "Tenemos que darnos prisa o [perderemos] el vuelo.",
+        en: "Tenemos que apurarnos o [perderemos] el vuelo.",
         explanation: "«Perder» a flight, bus or train is \"miss\". *Lose the flight is a typical Spanish-speaker mistake.",
       },
       {
@@ -649,8 +649,8 @@ export const EN_B1_U33: Lesson[] = [
         type: "matching",
         instructions: "Match each expression with its meaning.",
         pairs: [
-          { left: "rush hour", right: "hora punta" },
-          { left: "traffic jam", right: "atasco" },
+          { left: "rush hour", right: "hora pico" },
+          { left: "traffic jam", right: "embotellamiento" },
           { left: "drop someone off", right: "dejar a alguien en un sitio" },
           { left: "get off", right: "bajarse (del autobús o del tren)" },
         ],
@@ -667,7 +667,7 @@ export const EN_B1_U33: Lesson[] = [
         type: "listen-choose",
         audio: "I got stuck in traffic for two hours.",
         question: "What did you hear?",
-        options: ["Estuve dos horas atascado en el tráfico.", "Tardé dos horas en llegar andando.", "Perdí el tren hace dos horas.", "Tomé dos autobuses para llegar."],
+        options: ["Estuve dos horas atascado en el tráfico.", "Tardé dos horas en llegar caminando.", "Perdí el tren hace dos horas.", "Tomé dos autobuses para llegar."],
         correctIndex: 0,
         explanation: "\"Get stuck in traffic\" is «quedarse atascado». \"Stuck\" is the past participle of \"stick\".",
       },
@@ -710,7 +710,7 @@ export const EN_B1_U33: Lesson[] = [
         ],
         examples: [
           { es: "Your children are very polite.", en: "Tus hijos son muy educados." },
-          { es: "He was really rude to the waiter.", en: "Fue muy maleducado con el camarero." },
+          { es: "He was really rude to the waiter.", en: "Fue muy maleducado con el mesero." },
           { es: "She's a highly educated woman.", en: "Es una mujer con muchos estudios." },
           { es: "It's rude to interrupt people.", en: "Es de mala educación interrumpir a la gente." },
           { es: "He has very good table manners.", en: "Tiene muy buenos modales en la mesa." },
@@ -742,7 +742,7 @@ export const EN_B1_U33: Lesson[] = [
           "Other useful words: \"kind\" («amable»), \"selfish\" («egoísta») and \"thoughtful\" («atento», «considerado»: someone who thinks about others). \"That's so thoughtful\" is like «¡Qué detalle!».",
         ],
         examples: [
-          { es: "It was very generous of you to pay for dinner.", en: "Fue muy generoso por tu parte pagar la cena." },
+          { es: "It was very generous of you to pay for dinner.", en: "Fue muy generoso de tu parte pagar la cena." },
           { es: "He's so stingy; he never buys anyone a drink.", en: "Es tan tacaño que nunca invita a nadie a una copa." },
           { es: "Stop being mean to your brother!", en: "¡Deja de ser malo con tu hermano!" },
           { es: "She's very kind to everyone.", en: "Es muy amable con todo el mundo." },
@@ -798,7 +798,7 @@ export const EN_B1_U33: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "Thank you for ___ me with my homework.",
             answer: "helping",
-            en: "Gracias por [ayudarme] con los deberes.",
+            en: "Gracias por [ayudarme] con la tarea.",
             explanation: "After \"thank you for\", the verb takes -ing: \"for helping\", not *for help or *for to help.",
           },
         ],
@@ -806,7 +806,7 @@ export const EN_B1_U33: Lesson[] = [
       {
         heading: "Showing off",
         body: [
-          "To \"show off\" is «presumir», «fardar» or «chulear»: doing or saying things so that people admire you. \"He's always showing off.\" A person who does this is \"a show-off\".",
+          "To \"show off\" is «presumir» or «lucirse»: doing or saying things so that people admire you. \"He's always showing off.\" A person who does this is \"a show-off\".",
           "You can also \"show off\" something: \"She was showing off her new ring.\" Similar verbs are \"brag\" and \"boast\" («alardear», «jactarse»), followed by \"about\": \"He's always bragging about his salary.\"",
         ],
         examples: [
@@ -941,7 +941,7 @@ export const EN_B1_U33: Lesson[] = [
         heading: "Wild animals and pets",
         body: [
           "\"Wild animals\" («animales salvajes») live in nature: lions, wolves, bears. A \"pet\" («mascota») lives with people: \"Do you have any pets?\" Farm animals include cows, pigs, sheep and chickens.",
-          "English often calls pets \"he\" or \"she\", but other animals are normally \"it\". People \"adopt\" a pet, often from an \"animal shelter\" («protectora»).",
+          "English often calls pets \"he\" or \"she\", but other animals are normally \"it\". People \"adopt\" a pet, often from an \"animal shelter\" («refugio de animales»).",
           "Remember that \"sheep\" and \"fish\" don't change in the plural: \"ten sheep\", \"three fish\".",
         ],
         examples: [
@@ -949,7 +949,7 @@ export const EN_B1_U33: Lesson[] = [
           { es: "We have a dog and two cats.", en: "Tenemos un perro y dos gatos." },
           { es: "Bears are wild animals; never feed them.", en: "Los osos son animales salvajes; nunca les des de comer." },
           { es: "My grandparents have sheep and chickens on their farm.", en: "Mis abuelos tienen ovejas y gallinas en su granja." },
-          { es: "We adopted our cat from a shelter.", en: "Adoptamos a nuestro gato en una protectora." },
+          { es: "We adopted our cat from a shelter.", en: "Adoptamos a nuestro gato de un refugio." },
         ],
         checkpoint: [
           {
@@ -974,7 +974,7 @@ export const EN_B1_U33: Lesson[] = [
         heading: "Species, endangered animals and habitats",
         body: [
           "\"Species\" («especie») is the same in singular and plural: \"one species\", \"many species\". The final s is always there. It sounds like SPEE-sheez.",
-          "«En peligro de extinción» is \"endangered\": \"an endangered species\". When no animals are left, the species is \"extinct\" («extinguido»): \"Dinosaurs are extinct.\" We \"protect\" animals and their \"habitat\".",
+          "«En peligro de extinción» is \"endangered\": \"an endangered species\". When no animals are left, the species is \"extinct\" («extinto»): \"Dinosaurs are extinct.\" We \"protect\" animals and their \"habitat\".",
           "Where animals live: a \"forest\" («bosque»), a \"rainforest\" («selva tropical»), a \"jungle\", the \"ocean\" or the \"desert\". Watch the spelling: \"desert\" is «desierto» and \"dessert\" is «postre».",
         ],
         examples: [
@@ -1182,7 +1182,7 @@ export const EN_B1_U33: Lesson[] = [
           { es: "He bought a leather jacket.", en: "Se compró una chaqueta de cuero." },
           { es: "My neck hurts from sleeping badly.", en: "Me duele el cuello de dormir mal." },
           { es: "I have a sore throat.", en: "Me duele la garganta." },
-          { es: "She hurt her knee playing soccer.", en: "Se hizo daño en la rodilla jugando al fútbol." },
+          { es: "She hurt her knee playing soccer.", en: "Se lastimó la rodilla jugando fútbol." },
           { es: "My shoulders are sunburned.", en: "Tengo los hombros quemados por el sol." },
         ],
         checkpoint: [
@@ -1275,12 +1275,12 @@ export const EN_B1_U33: Lesson[] = [
         body: [
           "«Quedar con alguien» has no single equivalent. To arrange to see someone is \"meet up (with)\" or just \"meet\": \"Let's meet up on Saturday.\" To spend relaxed time together is \"hang out (with)\": \"I hung out with my cousins all weekend.\" Never *stay with, which means «alojarse en casa de alguien».",
           "To «ponerse al día» with a friend you haven't seen for a while is \"catch up\": \"We met for lunch to catch up.\" \"Let's catch up soon!\" is a very common way to end a message.",
-          "For plans you've already made, use the present continuous: «He quedado con Ana mañana» is \"I'm meeting Ana tomorrow\".",
+          "For plans you've already made, use the present continuous: «Voy a verme con Ana mañana» is \"I'm meeting Ana tomorrow\".",
         ],
         examples: [
           { es: "Do you want to meet up this weekend?", en: "¿Quieres quedar este fin de semana?" },
           { es: "We usually hang out at the park after school.", en: "Solemos quedar en el parque después del colegio." },
-          { es: "I'm hanging out with some friends tonight.", en: "Esta noche he quedado con unos amigos." },
+          { es: "I'm hanging out with some friends tonight.", en: "Esta noche voy a salir con unos amigos." },
           { es: "It was great to catch up with you!", en: "¡Qué bien ponernos al día!" },
           { es: "We have so much to catch up on.", en: "Tenemos tantas cosas que contarnos." },
         ],
@@ -1289,7 +1289,7 @@ export const EN_B1_U33: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "He quedado con Ana mañana.",
+            source: "Voy a verme con Ana mañana.",
             answer: "I'm meeting Ana tomorrow.",
             altAnswers: ["I'm meeting up with Ana tomorrow.", "I'm seeing Ana tomorrow.", "I'm hanging out with Ana tomorrow.", "I'm going to meet Ana tomorrow.", "I'm going to meet up with Ana tomorrow.", "I've arranged to meet Ana tomorrow.", "I'm going to see Ana tomorrow."],
             explanation: "An arrangement takes the present continuous: \"I'm meeting Ana\". Never *I stay with Ana for «quedar con».",
@@ -1523,7 +1523,7 @@ export const EN_B1_U33: Lesson[] = [
           { es: "We go camping every summer.", en: "Vamos de camping todos los veranos." },
           { es: "The campground has showers and a small store.", en: "El camping tiene duchas y una pequeña tienda." },
           { es: "We found a campsite near the river.", en: "Encontramos un sitio para acampar cerca del río." },
-          { es: "It took us an hour to put up the tent.", en: "Tardamos una hora en montar la tienda." },
+          { es: "It took us an hour to put up the tent.", en: "Tardamos una hora en armar la carpa." },
         ],
         checkpoint: [
           {
@@ -1537,10 +1537,10 @@ export const EN_B1_U33: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Me ayudas a montar la tienda?",
+            source: "¿Me ayudas a armar la carpa?",
             answer: "Can you help me put up the tent?",
             altAnswers: ["Could you help me put up the tent?", "Can you help me put the tent up?", "Could you help me put the tent up?", "Will you help me put up the tent?", "Can you help me to put up the tent?", "Can you help me pitch the tent?", "Could you help me pitch the tent?", "Can you help me set up the tent?", "Could you help me set up the tent?"],
-            explanation: "«Montar una tienda» is \"put up\" (or \"pitch\", \"set up\") a tent. Not *mount.",
+            explanation: "«Armar una carpa» is \"put up\" (or \"pitch\", \"set up\") a tent. Not *mount.",
           },
         ],
       },
@@ -1611,7 +1611,7 @@ export const EN_B1_U33: Lesson[] = [
         type: "listen-choose",
         audio: "There's a hole in the bottom of the boat.",
         question: "What did you hear?",
-        options: ["Hay un agujero en el fondo de la barca.", "Toda la barca está en el fondo.", "Hay una roca debajo de la barca.", "Hay barro en el fondo de la barca."],
+        options: ["Hay un agujero en el fondo del bote.", "Todo el bote está en el fondo.", "Hay una roca debajo del bote.", "Hay barro en el fondo del bote."],
         correctIndex: 0,
         explanation: "\"Hole\" (agujero) sounds exactly like \"whole\" (entero). Context tells you which one it is.",
       },
@@ -1649,7 +1649,7 @@ export const EN_B1_U33: Lesson[] = [
         heading: "Recap: false friends from the Independence level",
         body: [
           "Many Independence words look like Spanish words but mean something different. \"Actually\" means «en realidad», not «actualmente» (that's \"currently\" or \"at the moment\"). \"Embarrassed\" means «avergonzado»; «embarazada» is \"pregnant\". \"Library\" is «biblioteca»; a «librería» is a \"bookstore\".",
-          "More: \"educated\" means «con estudios» (polite people are \"polite\"); \"sensible\" means «sensato» («sensible» is \"sensitive\"); \"carpet\" is «moqueta» or «alfombra» («carpeta» is \"folder\"); \"assist\" means «ayudar», while «asistir a» is \"attend\"; and \"realize\" means «darse cuenta», not «realizar».",
+          "More: \"educated\" means «con estudios» (polite people are \"polite\"); \"sensible\" means «sensato» («sensible» is \"sensitive\"); \"carpet\" is «alfombra» («carpeta» is \"folder\"); \"assist\" means «ayudar», while «asistir a» is \"attend\"; and \"realize\" means «darse cuenta», not «realizar».",
         ],
         examples: [
           { es: "Actually, I'm a teacher.", en: "En realidad, soy profesor." },
@@ -1686,7 +1686,7 @@ export const EN_B1_U33: Lesson[] = [
         ],
         examples: [
           { es: "She got promoted and now earns a much better salary.", en: "La ascendieron y ahora gana un sueldo mucho mejor." },
-          { es: "We're moving out at the end of the month.", en: "Dejamos el piso a final de mes." },
+          { es: "We're moving out at the end of the month.", en: "Dejamos el departamento a final de mes." },
           { es: "I missed the bus, so my neighbor gave me a ride.", en: "Perdí el autobús, así que mi vecino me llevó en carro." },
           { es: "The rent went up again this year.", en: "El alquiler ha vuelto a subir este año." },
         ],
@@ -1782,7 +1782,7 @@ export const EN_B1_U33: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Fue muy maleducado con la camarera.",
+        source: "Fue muy maleducado con la mesera.",
         answer: "He was very rude to the waitress.",
         altAnswers: ["He was really rude to the waitress.", "He was very rude to the server.", "He was really rude to the server.", "He was very impolite to the waitress."],
         explanation: "«Maleducado» is \"rude\", and we are rude \"to\" someone, not \"with\" them.",
@@ -1819,7 +1819,7 @@ export const EN_B1_U33: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Quedemos el sábado para ponernos al día.",
+        source: "Veámonos el sábado para ponernos al día.",
         answer: "Let's meet up on Saturday to catch up.",
         altAnswers: ["Let's meet on Saturday to catch up.", "Let's meet up on Saturday and catch up.", "Let's meet on Saturday and catch up.", "Let's get together on Saturday to catch up.", "Let's get together on Saturday and catch up."],
         explanation: "«Quedar» is \"meet up\" or \"meet\", and «ponerse al día» is \"catch up\".",
@@ -1909,7 +1909,7 @@ export const EN_B1_U33: Lesson[] = [
         examples: [
           { es: "I'm going to study medicine.", en: "Voy a estudiar medicina." },
           { es: "I'll call you as soon as I land.", en: "Te llamo en cuanto aterrice." },
-          { es: "If you hurry, you'll catch the bus.", en: "Si te das prisa, tomarás el autobús." },
+          { es: "If you hurry, you'll catch the bus.", en: "Si te apuras, tomarás el autobús." },
           { es: "If I were you, I'd take the job.", en: "Yo que tú, aceptaría el trabajo." },
           { es: "If we had left earlier, we wouldn't have missed the flight.", en: "Si hubiéramos salido antes, no habríamos perdido el vuelo." },
           { es: "I wish I had more free time.", en: "Ojalá tuviera más tiempo libre." },
@@ -2221,10 +2221,10 @@ export const EN_B1_U33: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Estaba haciendo fotos cuando me robaron el celular.",
+            source: "Estaba tomando fotos cuando me robaron el celular.",
             answer: "I was taking photos when someone stole my phone.",
             altAnswers: ["I was taking pictures when someone stole my phone.", "I was taking photos when somebody stole my phone.", "I was taking pictures when somebody stole my phone.", "I was taking photos when my phone was stolen.", "I was taking pictures when my phone was stolen.", "I was taking photos when my phone got stolen.", "I was taking pictures when my phone got stolen.", "I was taking photos when they stole my phone.", "I was taking pictures when they stole my phone."],
-            explanation: "Past continuous for the background (\"was taking\"), past simple for the event (\"stole\"). «Hacer fotos» is \"take photos\".",
+            explanation: "Past continuous for the background (\"was taking\"), past simple for the event (\"stole\"). «Tomar fotos» is \"take photos\".",
           },
           {
             type: "fill-blank",
@@ -2307,7 +2307,7 @@ export const EN_B1_U33: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mientras hacía cola, conocí a un chico australiano.",
+        source: "Mientras hacía fila, conocí a un chico australiano.",
         answer: "While I was waiting in line, I met an Australian guy.",
         altAnswers: ["While I was waiting in line, I met an Australian boy.", "While I was standing in line, I met an Australian guy.", "While I was queuing, I met an Australian guy.", "While I was waiting in line, I met a guy from Australia.", "I met an Australian guy while I was waiting in line.", "I met an Australian guy while I was standing in line.", "While I was in line, I met an Australian guy.", "While I was waiting in the queue, I met an Australian guy."],
         explanation: "Past continuous (\"was waiting\") for the background, past simple (\"met\") for the event. «Hacer cola» is \"wait in line\" (US) or \"queue\" (UK).",
@@ -2338,7 +2338,7 @@ export const EN_B1_U33: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Espero que te lo pases genial en el viaje.» Which sentence is correct?",
+        question: "«Espero que te la pases genial en el viaje.» Which sentence is correct?",
         options: ["I hope you have a great time on your trip.", "I wish you have a great time on your trip.", "I hope you would have a great time on your trip.", "I wait that you have a great time on your trip."],
         correctIndex: 0,
         explanation: "For real possibilities in the future, use \"hope\" + present. \"Wish\" is for things that are unreal or impossible.",

@@ -25,7 +25,7 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "I applied for a job at a bank.", en: "Solicité un trabajo en un banco." },
-          { es: "He works as a waiter on weekends.", en: "Trabaja de camarero los fines de semana. (incorrecto: *works of waiter)" },
+          { es: "He works as a waiter on weekends.", en: "Trabaja de mesero los fines de semana. (incorrecto: *works of waiter)" },
           { es: "She earns a living teaching English.", en: "Se gana la vida dando clases de inglés." },
           { es: "My aunt and uncle run a small hotel.", en: "Mis tíos llevan un hotel pequeño." },
           { es: "We have to meet the deadline.", en: "Tenemos que cumplir el plazo." },
@@ -34,10 +34,10 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Trabaja de camarero.» Which is correct?",
+            question: "«Trabaja de mesero.» Which is correct?",
             options: ["He works as a waiter.", "He works of waiter.", "He works like a waiter.", "He works as waiter."],
             correctIndex: 0,
-            explanation: "A job role takes \"as\" + \"a/an\": \"works as a waiter\". \"Like a waiter\" means «como si fuera camarero».",
+            explanation: "A job role takes \"as\" + \"a/an\": \"works as a waiter\". \"Like a waiter\" means «como si fuera mesero».",
           },
         ],
       },
@@ -245,7 +245,7 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: words that look Spanish",
         body: [
-          "\"Actually\" means «en realidad / de hecho»; «actualmente» is \"currently\" or \"at the moment\". A \"carpet\" is «una moqueta / alfombra»; «una carpeta» is \"a folder\". A \"career\" is your working life; the university «carrera» is \"a degree\" (\"I did a law degree\", \"I studied law\").",
+          "\"Actually\" means «en realidad / de hecho»; «actualmente» is \"currently\" or \"at the moment\". A \"carpet\" is «una alfombra»; «una carpeta» is \"a folder\". A \"career\" is your working life; the university «carrera» is \"a degree\" (\"I did a law degree\", \"I studied law\").",
           "\"Rent\" is only «el alquiler». «La renta» meaning money you receive is \"income\", and «hacer la declaración de la renta» is \"file a tax return\" or \"do your taxes\".",
         ],
         examples: [
@@ -253,7 +253,7 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
           { es: "Actually, the trip was cheaper than we thought.", en: "En realidad, el viaje salió más barato de lo que pensábamos." },
           { es: "The documents are in the blue folder.", en: "Los documentos están en la carpeta azul." },
           { es: "She did a law degree in Bogota.", en: "Estudió la carrera de Derecho en Bogotá." },
-          { es: "I have to file my tax return.", en: "Tengo que hacer la declaración de la renta." },
+          { es: "I have to file my tax return.", en: "Tengo que hacer la declaración de impuestos." },
         ],
         checkpoint: [
           {
@@ -330,7 +330,7 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Tengo que hacer la declaración de la renta.",
+        source: "Tengo que hacer la declaración de impuestos.",
         answer: "I have to file my tax return.",
         altAnswers: [
           "I have to do my taxes.",
@@ -373,7 +373,7 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi abuela me prestó el dinero para la entrada del piso.",
+        source: "Mi abuela me prestó el dinero para el pago inicial del departamento.",
         answer: "My grandmother lent me the money for the down payment on the apartment.",
         altAnswers: [
           "My grandma lent me the money for the down payment on the apartment.",
@@ -596,7 +596,7 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Quién friega los platos en tu casa?",
+        source: "¿Quién lava los platos en tu casa?",
         answer: "Who does the dishes in your house?",
         altAnswers: [
           "Who does the dishes at your house?",
@@ -669,7 +669,7 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "My dad ___ the cooking and my mom does the shopping.",
         answer: "does",
-        en: "Mi padre [se encarga de] cocinar y mi madre hace la compra.",
+        en: "Mi padre [se encarga de] cocinar y mi madre hace las compras.",
         explanation: "\"Do the cooking / the shopping / the cleaning\" for regular household tasks.",
       },
       {
@@ -778,13 +778,13 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
         heading: "Quick recap: groups and abstract nouns",
         body: [
           "\"The\" + adjective names a whole group of people: the unemployed, the homeless, the poor, the rich, the elderly. It is plural (\"the poor are\"), has no -s and does not add \"people\": say \"the unemployed\" or \"unemployed people\", not *the unemployed people (unless you mean a specific group).",
-          "Abstract nouns used in general take no article: \"Unemployment is rising\", \"Inequality is a serious problem\", \"Poverty affects children most\". Spanish «el paro», «la desigualdad» push learners into *the unemployment is rising.",
+          "Abstract nouns used in general take no article: \"Unemployment is rising\", \"Inequality is a serious problem\", \"Poverty affects children most\". Spanish «el desempleo», «la desigualdad» push learners into *the unemployment is rising.",
         ],
         examples: [
           { es: "The government should help the unemployed.", en: "El gobierno debería ayudar a los desempleados." },
           { es: "The homeless need more support.", en: "Las personas sin hogar necesitan más apoyo." },
           { es: "The rich should pay more taxes.", en: "Los ricos deberían pagar más impuestos." },
-          { es: "Unemployment is the country's biggest problem.", en: "El paro es el mayor problema del país. (incorrecto: *The unemployment is)" },
+          { es: "Unemployment is the country's biggest problem.", en: "El desempleo es el mayor problema del país. (incorrecto: *The unemployment is)" },
           { es: "Inequality is growing.", en: "La desigualdad está aumentando." },
         ],
         checkpoint: [
@@ -1017,7 +1017,7 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
           { es: "Two men robbed a bank downtown.", en: "Dos hombres atracaron un banco en el centro." },
           { es: "I was robbed on my way home.", en: "Me robaron de camino a casa." },
           { es: "A burglar broke into our house.", en: "Un ladrón entró a robar en nuestra casa." },
-          { es: "The shoplifter was caught at the exit.", en: "Pillaron al ladrón en la salida de la tienda." },
+          { es: "The shoplifter was caught at the exit.", en: "Atraparon al ladrón en la salida de la tienda." },
         ],
         checkpoint: [
           {
@@ -1225,7 +1225,7 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si te pillan robando en una tienda, te pueden detener.",
+        source: "Si te atrapan robando en una tienda, te pueden detener.",
         answer: "If you're caught shoplifting, you can be arrested.",
         altAnswers: [
           "If you get caught shoplifting, you can get arrested.",
@@ -1239,7 +1239,7 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
           "If you get caught stealing from a store, you can be arrested.",
           "If you're caught stealing from a shop, you can be arrested.",
         ],
-        explanation: "«Robar en una tienda» is \"shoplift\". «Te pillan» is the passive \"you're caught\" or \"you get caught\".",
+        explanation: "«Robar en una tienda» is \"shoplift\". «Te atrapan» is the passive \"you're caught\" or \"you get caught\".",
       },
       {
         type: "multiple-choice",
@@ -1256,7 +1256,7 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
           "Detuvieron a dos adolescentes por forzar un carro para robar.",
           "Dos adolescentes robaron un carro y huyeron.",
           "Dos adolescentes chocaron contra un carro.",
-          "Detuvieron a dos adolescentes por manejar sin carné.",
+          "Detuvieron a dos adolescentes por manejar sin licencia.",
         ],
         correctIndex: 0,
         explanation: "\"Break into\" a car or a house is to force your way in, usually to steal. \"Were arrested\" is «los detuvieron».",

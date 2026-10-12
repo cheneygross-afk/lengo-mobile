@@ -119,8 +119,8 @@ export const EN_A1_U7_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Ordena las palabras.",
         words: ["Tom", "doesn't", "like", "washing", "the", "dishes."],
-        translation: "A Tom no le gusta fregar los platos.",
-        explanation: "\"Doesn't\" + \"like\" sin -s + verbo en -ing. «Fregar los platos» es \"wash the dishes\".",
+        translation: "A Tom no le gusta lavar los platos.",
+        explanation: "\"Doesn't\" + \"like\" sin -s + verbo en -ing. «Lavar los platos» es \"wash the dishes\".",
       },
       {
         type: "translate",
@@ -216,7 +216,7 @@ export const EN_A1_U7_EXTRA: Lesson[] = [
           "En las preguntas \"can\" se pone delante del sujeto, sin \"do\": \"Can you drive?\", nunca *Do you can drive?. Respuesta corta: \"Yes, I can.\" / \"No, I can't.\".",
         ],
         examples: [
-          { es: "My son can ride a bike.", en: "Mi hijo sabe montar en bici." },
+          { es: "My son can ride a bike.", en: "Mi hijo sabe andar en bici." },
           { es: "She can speak three languages.", en: "Ella sabe hablar tres idiomas." },
           { es: "I can't go to the party.", en: "No puedo ir a la fiesta." },
           { es: "Can you drive? No, I can't.", en: "¿Sabes manejar? No." },
@@ -245,10 +245,10 @@ export const EN_A1_U7_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Mi hijo sabe montar en bicicleta.",
+        source: "Mi hijo sabe andar en bicicleta.",
         answer: "My son can ride a bike.",
         altAnswers: ["My son can ride a bicycle.", "My son knows how to ride a bike.", "My son knows how to ride a bicycle."],
-        explanation: "«Saber hacer algo» es \"can\" + verbo. «Montar en bici» es \"ride a bike\".",
+        explanation: "«Saber hacer algo» es \"can\" + verbo. «Andar en bici» es \"ride a bike\".",
       },
       {
         type: "translate",
@@ -346,7 +346,7 @@ export const EN_A1_U7_EXTRA: Lesson[] = [
         question: "¿Puede venir hoy?",
         options: ["No, no puede.", "Sí, puede.", "Sí, pero tarde.", "No lo sabe."],
         correctIndex: 0,
-        explanation: "\"Can't\" suena con una a larga y abierta, y la t casi no se oye. \"Can\" suele sonar corto y débil, «kn».",
+        explanation: "\"Can't\" suena fuerte, con la a abierta de \"cat\" (en el Reino Unido, una a larga), y la t casi no se oye. \"Can\" suele sonar corto y débil, «kn».",
       },
       {
         type: "translate",
@@ -365,7 +365,7 @@ export const EN_A1_U7_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "I can swim, but I can't dance.",
-        tip: "\"Can\" suena corto, «kn»; \"can't\" se dice más fuerte y con una a abierta, «kaant». Así se distinguen aunque la t no se oiga.",
+        tip: "\"Can\" suena corto, «kn»; \"can't\" se dice más fuerte y con la a abierta de \"cat\", /kænt/. Así se distinguen aunque la t no se oiga.",
         explanation: "Afirmación y negación con \"can\" en la misma frase.",
       },
       {
@@ -666,7 +666,7 @@ export const EN_A1_U7_EXTRA: Lesson[] = [
         source: "Hay dos baños en el departamento.",
         answer: "There are two bathrooms in the apartment.",
         altAnswers: ["There are two bathrooms in the flat."],
-        explanation: "Plural: \"there are\". En el Reino Unido, «departamento» o «piso» es \"flat\".",
+        explanation: "Plural: \"there are\". En el Reino Unido, «departamento» es \"flat\".",
       },
       {
         type: "translate",
@@ -1147,7 +1147,7 @@ export const EN_A1_U7_EXTRA: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Would you like anything else?",
-        question: "¿Qué te pregunta el camarero?",
+        question: "¿Qué te pregunta el mesero?",
         options: ["Si quieres algo más.", "Si te gusta la comida.", "Qué quieres beber.", "Si quieres pagar."],
         correctIndex: 0,
         explanation: "\"Anything else?\" es «¿algo más?».",
@@ -1173,11 +1173,11 @@ export const EN_A1_U7_EXTRA: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Escribe un diálogo corto en un café: el camarero ofrece algo y tú pides comida y bebida con educación.",
+        prompt: "Escribe un diálogo corto en un café: el mesero ofrece algo y tú pides comida y bebida con educación.",
         minWords: 25,
         maxWords: 60,
         rubric: [
-          "El camarero usa \"Would you like...?\" o \"What would you like?\".",
+          "El mesero usa \"Would you like...?\" o \"What would you like?\".",
           "Pides con \"I'd like...\" o \"Can I have...?\" y \"please\".",
           "Respondes a una oferta con \"Yes, please\" o \"No, thank you\".",
         ],

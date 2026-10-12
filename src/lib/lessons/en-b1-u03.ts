@@ -53,7 +53,7 @@ export const EN_B1_U03: Lesson[] = [
           "In speech, \"had\" usually contracts to 'd: \"I'd finished\", \"she'd gone\". Careful: 'd can also mean \"would\". If a past participle follows (\"I'd seen\"), it means \"had\". If a base verb follows (\"I'd see\"), it means \"would\".",
         ],
         examples: [
-          { es: "I had finished my homework.", en: "Yo había terminado los deberes." },
+          { es: "I had finished my homework.", en: "Yo había terminado la tarea." },
           { es: "She'd already gone home.", en: "Ella ya se había ido a casa." },
           { es: "They had never seen snow.", en: "Nunca habían visto la nieve." },
           { es: "We had worked there for years.", en: "Habíamos trabajado allí durante años." },
@@ -609,9 +609,9 @@ export const EN_B1_U03: Lesson[] = [
           "Ask yourself where the action is compared to the moment of the story: after it (past simple), around it (past continuous) or before it (past perfect).",
         ],
         examples: [
-          { es: "When I got home, my roommate cooked dinner.", en: "Cuando llegué a casa, mi compañera de piso hizo la cena." },
-          { es: "When I got home, my roommate was cooking dinner.", en: "Cuando llegué a casa, mi compañera de piso estaba haciendo la cena." },
-          { es: "When I got home, my roommate had cooked dinner.", en: "Cuando llegué a casa, mi compañera de piso había hecho la cena." },
+          { es: "When I got home, my roommate cooked dinner.", en: "Cuando llegué a casa, mi compañera de departamento hizo la cena." },
+          { es: "When I got home, my roommate was cooking dinner.", en: "Cuando llegué a casa, mi compañera de departamento estaba haciendo la cena." },
+          { es: "When I got home, my roommate had cooked dinner.", en: "Cuando llegué a casa, mi compañera de departamento había hecho la cena." },
         ],
         checkpoint: [
           {
@@ -674,7 +674,7 @@ export const EN_B1_U03: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Cuando llegué a casa, mi compañera de piso estaba cocinando.",
+        source: "Cuando llegué a casa, mi compañera de departamento estaba cocinando.",
         answer: "When I got home, my roommate was cooking.",
         altAnswers: [
           "When I arrived home, my roommate was cooking.",
@@ -820,7 +820,7 @@ export const EN_B1_U03: Lesson[] = [
         ],
         examples: [
           { es: "We waited for two hours, and eventually the bus came.", en: "Esperamos dos horas y al final llegó el autobús." },
-          { es: "I eventually found my keys in the fridge.", en: "Al final encontré las llaves en la nevera." },
+          { es: "I eventually found my keys in the fridge.", en: "Al final encontré las llaves en el refrigerador." },
           { es: "I occasionally work from home.", en: "Trabajo desde casa de vez en cuando." },
           { es: "Finally, after ten hours, we arrived.", en: "Por fin, después de diez horas, llegamos." },
         ],
@@ -2138,7 +2138,7 @@ export const EN_B1_U03: Lesson[] = [
         examples: [
           { es: "This happened a few years ago.", en: "Esto pasó hace unos años." },
           { es: "Did I ever tell you about the time I got lost in Tokyo?", en: "¿Alguna vez te conté la vez que me perdí en Tokio?" },
-          { es: "You won't believe what happened to me last week.", en: "No te vas a creer lo que me pasó la semana pasada." },
+          { es: "You won't believe what happened to me last week.", en: "No vas a creer lo que me pasó la semana pasada." },
           { es: "I was living in Dublin at the time.", en: "Por aquel entonces vivía en Dublín." },
         ],
         checkpoint: [
@@ -2200,9 +2200,9 @@ export const EN_B1_U03: Lesson[] = [
           "Finish with the result and how you felt: \"In the end, a stranger paid for my ticket.\" \"I've never been so embarrassed in my life!\"",
         ],
         examples: [
-          { es: "Just then, the waiter brought the bill.", en: "Justo entonces, el camarero trajo la cuenta." },
+          { es: "Just then, the waiter brought the bill.", en: "Justo entonces, el mesero trajo la cuenta." },
           { es: "I realized I had left my wallet at the hotel.", en: "Me di cuenta de que me había dejado la cartera en el hotel." },
-          { es: "In the end, a stranger paid for my ticket.", en: "Al final, un desconocido me pagó el billete." },
+          { es: "In the end, a stranger paid for my ticket.", en: "Al final, un desconocido me pagó el boleto." },
           { es: "I've never been so embarrassed in my life!", en: "¡Nunca he pasado tanta vergüenza en mi vida!" },
         ],
         checkpoint: [
@@ -2232,7 +2232,7 @@ export const EN_B1_U03: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No te vas a creer lo que me pasó ayer.",
+        source: "No vas a creer lo que me pasó ayer.",
         answer: "You won't believe what happened to me yesterday.",
         altAnswers: ["You're not going to believe what happened to me yesterday."],
         explanation: "A classic way to open an anecdote. «Me pasó» is \"happened to me\", with \"to\".",
@@ -2243,7 +2243,7 @@ export const EN_B1_U03: Lesson[] = [
         sentence: "___, the waiter brought the bill.",
         answer: "Just then",
         altAnswers: ["At that moment", "Suddenly"],
-        en: "[Justo entonces], el camarero trajo la cuenta.",
+        en: "[Justo entonces], el mesero trajo la cuenta.",
         explanation: "\"Just then\" introduces something that happened at that exact moment of the story.",
       },
       {

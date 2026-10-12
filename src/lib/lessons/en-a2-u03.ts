@@ -320,7 +320,7 @@ export const EN_A2_U03: Lesson[] = [
         examples: [
           { es: "I was reading and the kids were playing.", en: "Yo estaba leyendo y los niños estaban jugando." },
           { es: "While I was cooking, my husband was setting the table.", en: "Mientras yo cocinaba, mi marido ponía la mesa." },
-          { es: "She was talking on the phone while he was driving.", en: "Ella hablaba por teléfono mientras él manejaba (manejaba)." },
+          { es: "She was talking on the phone while he was driving.", en: "Ella hablaba por teléfono mientras él manejaba." },
           { es: "We were dancing and our friends were singing.", en: "Nosotros bailábamos y nuestros amigos cantaban." },
         ],
         checkpoint: [

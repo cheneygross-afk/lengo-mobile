@@ -94,11 +94,11 @@ export const EN_A1_U3_MORE: Lesson[] = [
         heading: "Make y do: los dos «hacer»",
         body: [
           "El español usa «hacer» para todo, pero el inglés tiene dos verbos. \"Make\" es crear o preparar algo: \"make dinner\", \"make a cake\", \"make the bed\", \"make a mistake\" (cometer un error). \"Do\" es realizar una actividad o una tarea: \"do homework\", \"do the dishes\", \"do exercise\".",
-          "Un error muy típico es *make homework. Los deberes se hacen con \"do\": \"I do my homework\". Fíjate en el posesivo: en inglés se dice «mis deberes», \"my homework\". Y \"homework\" no tiene plural: nunca *homeworks.",
+          "Un error muy típico es *make homework. La tarea se hace con \"do\": \"I do my homework\". Fíjate en el posesivo: en inglés se dice «mi tarea», \"my homework\". Y \"homework\" no tiene plural: nunca *homeworks.",
           "\"Do\" con \"he\", \"she\" e \"it\" es \"does\", que rima con \"buzz\": \"He does the dishes\".",
         ],
         examples: [
-          { es: "I do my homework after dinner.", en: "Hago los deberes después de cenar." },
+          { es: "I do my homework after dinner.", en: "Hago la tarea después de cenar." },
           { es: "She makes dinner for the family.", en: "Ella hace la cena para la familia." },
           { es: "He does the dishes every night.", en: "Él lava los platos todas las noches." },
           { es: "I make my bed every morning.", en: "Hago la cama todas las mañanas." },
@@ -181,7 +181,7 @@ export const EN_A1_U3_MORE: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Mi hermano hace los deberes en su habitación.",
+        source: "Mi hermano hace la tarea en su habitación.",
         answer: "My brother does his homework in his room.",
         altAnswers: [
           "My brother does his homework in his bedroom.",
@@ -220,7 +220,7 @@ export const EN_A1_U3_MORE: Lesson[] = [
         instructions: "Une cada expresión con su significado.",
         pairs: [
           { left: "make the bed", right: "hacer la cama" },
-          { left: "do homework", right: "hacer los deberes" },
+          { left: "do homework", right: "hacer la tarea" },
           { left: "take a photo", right: "sacar una foto" },
           { left: "have dinner", right: "cenar" },
           { left: "go home", right: "ir a casa" },
@@ -1203,7 +1203,7 @@ export const EN_A1_U3_MORE: Lesson[] = [
             prompt: "Escribe en inglés las palabras en negrita.",
             sentence: "Sofia ___ her homework in the library.",
             answer: "does",
-            en: "Sofia [hace] sus deberes en la biblioteca.",
+            en: "Sofia [hace] su tarea en la biblioteca.",
             explanation: "\"Do homework\" con \"she\" es \"does\". Ojo: «biblioteca» es \"library\"; la librería es \"bookstore\".",
           },
         ],
@@ -1333,7 +1333,7 @@ export const EN_A1_U3_MORE: Lesson[] = [
       {
         heading: "Los trabajos más comunes",
         body: [
-          "Algunos trabajos básicos: \"teacher\" (profesor), \"doctor\" (médico), \"nurse\" (enfermero), \"engineer\" (ingeniero), \"lawyer\" (abogado), \"waiter\" (camarero, mesero), \"cook\" (cocinero) y \"shop assistant\" (dependiente). En inglés americano, en vez de \"shop assistant\" se dice \"salesclerk\" o \"sales associate\".",
+          "Algunos trabajos básicos: \"teacher\" (profesor), \"doctor\" (médico), \"nurse\" (enfermero), \"engineer\" (ingeniero), \"lawyer\" (abogado), \"waiter\" (mesero), \"cook\" (cocinero) y \"shop assistant\" (dependiente). En inglés americano, en vez de \"shop assistant\" se dice \"salesclerk\" o \"sales associate\".",
           "Casi todos los trabajos sirven igual para hombres y mujeres: \"a teacher\", \"a doctor\", \"a nurse\". \"Waitress\" existe, pero hoy muchos dicen \"server\" para los dos.",
           "Cuidado con \"cooker\": no es «cocinero», sino la cocina (el aparato) en inglés británico. El cocinero es \"cook\" o \"chef\".",
         ],
@@ -1341,9 +1341,9 @@ export const EN_A1_U3_MORE: Lesson[] = [
           { es: "She's a nurse.", en: "Es enfermera." },
           { es: "My uncle is a lawyer.", en: "Mi tío es abogado." },
           { es: "He's an engineer.", en: "Es ingeniero." },
-          { es: "My cousin is a waiter.", en: "Mi primo es camarero." },
+          { es: "My cousin is a waiter.", en: "Mi primo es mesero." },
           { es: "She's a cook in a restaurant.", en: "Es cocinera en un restaurante." },
-          { es: "I'm a shop assistant.", en: "Soy dependienta." },
+          { es: "I'm a sales associate.", en: "Soy vendedora." },
         ],
         checkpoint: [
           {
@@ -1353,7 +1353,7 @@ export const EN_A1_U3_MORE: Lesson[] = [
               { left: "teacher", right: "profesor" },
               { left: "nurse", right: "enfermero" },
               { left: "lawyer", right: "abogado" },
-              { left: "waiter", right: "camarero" },
+              { left: "waiter", right: "mesero" },
               { left: "engineer", right: "ingeniero" },
             ],
             explanation: "Ninguno cambia según sea hombre o mujer: \"a nurse\" es «un enfermero» o «una enfermera».",
@@ -1437,7 +1437,7 @@ export const EN_A1_U3_MORE: Lesson[] = [
         examples: [
           { es: "What does your sister do?", en: "¿A qué se dedica tu hermana?" },
           { es: "She's a dentist.", en: "Es dentista." },
-          { es: "I work as a waiter on weekends.", en: "Trabajo de camarero los fines de semana." },
+          { es: "I work as a waiter on weekends.", en: "Trabajo de mesero los fines de semana." },
           { es: "He works as a driver.", en: "Trabaja de conductor." },
           { es: "What are you doing? I'm cooking.", en: "¿Qué estás haciendo? Estoy cocinando." },
         ],
@@ -1475,7 +1475,7 @@ export const EN_A1_U3_MORE: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Mi hermano es camarero.",
+        source: "Mi hermano es mesero.",
         answer: "My brother is a waiter.",
         altAnswers: ["My brother is a server."],
         explanation: "\"A waiter\", con artículo. En Estados Unidos también se dice \"server\".",

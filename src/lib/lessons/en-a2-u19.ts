@@ -259,14 +259,14 @@ export const EN_A2_U19: Lesson[] = [
         body: [
           "Para los síntomas, el inglés usa mucho \"have\" + \"a\": \"I have a cough\" (tengo tos), \"I have a sore throat\" (me duele la garganta), \"I have a runny nose\" (me moquea la nariz), \"I have a headache\" (me duele la cabeza).",
           "«Tener fiebre» es \"have a fever\" (también \"have a temperature\", sobre todo en inglés británico). El error típico es olvidar el artículo: *I have fever suena mal; se dice \"I have a fever\".",
-          "\"I feel sick\" significa «me encuentro mal» o «tengo náuseas». También se dice \"I feel dizzy\" (estoy mareado) o \"I don't feel well\" (no me encuentro bien).",
+          "\"I feel sick\" significa «me siento mal» o «tengo náuseas». También se dice \"I feel dizzy\" (estoy mareado) o \"I don't feel well\" (no me siento bien).",
         ],
         examples: [
           { es: "I have a cough.", en: "Tengo tos." },
           { es: "I have a sore throat.", en: "Me duele la garganta." },
           { es: "She has a fever.", en: "Tiene fiebre." },
           { es: "I have a runny nose.", en: "Me moquea la nariz." },
-          { es: "I feel sick.", en: "Me encuentro mal. / Tengo náuseas." },
+          { es: "I feel sick.", en: "Me siento mal. / Tengo náuseas." },
           { es: "I don't feel well.", en: "No me encuentro bien." },
         ],
         checkpoint: [
@@ -1037,7 +1037,7 @@ export const EN_A2_U19: Lesson[] = [
             sentence: "Can I have a ___, please?",
             answer: "receipt",
             en: "¿Me da [el ticket], por favor?",
-            explanation: "El ticket de compra es \"a receipt\" (la \"p\" no se pronuncia: ri-SEET). \"Ticket\" es una entrada o un billete de transporte.",
+            explanation: "El ticket de compra es \"a receipt\" (la \"p\" no se pronuncia: ri-SEET). \"Ticket\" es una entrada o un boleto de transporte.",
           },
         ],
       },
@@ -1051,15 +1051,15 @@ export const EN_A2_U19: Lesson[] = [
           { es: "Can we have the check, please?", en: "¿Nos trae la cuenta, por favor?" },
           { es: "I have to pay the phone bill.", en: "Tengo que pagar la factura del teléfono." },
           { es: "I only have a fifty-dollar bill.", en: "Solo tengo un billete de cincuenta dólares." },
-          { es: "I bought a train ticket.", en: "Compré un billete de tren." },
+          { es: "I bought a train ticket.", en: "Compré un boleto de tren." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "¿Cómo se dice «Compré dos billetes de avión»?",
+            question: "¿Cómo se dice «Compré dos boletos de avión»?",
             options: ["I bought two plane tickets.", "I bought two plane bills.", "I bought two plane notes.", "I bought two tickets of plane."],
             correctIndex: 0,
-            explanation: "El billete de transporte es \"ticket\". Y el sustantivo que describe va delante: \"plane tickets\".",
+            explanation: "El boleto de transporte es \"ticket\". Y el sustantivo que describe va delante: \"plane tickets\".",
           },
         ],
       },
@@ -1125,7 +1125,7 @@ export const EN_A2_U19: Lesson[] = [
           { left: "discount", right: "descuento" },
           { left: "owe", right: "deber (dinero)" },
         ],
-        explanation: "\"Receipt\" es el ticket de compra; \"ticket\" es una entrada o un billete.",
+        explanation: "\"Receipt\" es el ticket de compra; \"ticket\" es una entrada o un boleto.",
       },
       {
         type: "word-order",
@@ -1364,19 +1364,19 @@ export const EN_A2_U19: Lesson[] = [
     level: "EN-A2",
     number: 7,
     title: "Red de palabras: los estudios",
-    summary: "El colegio, la universidad, las asignaturas y los exámenes, y los falsos amigos que más líos causan: «carrera», «apuntes», «aprobar», «suspender» y «colegio».",
+    summary: "El colegio, la universidad, las asignaturas y los exámenes, y los falsos amigos que más líos causan: «carrera», «apuntes», «aprobar», «reprobar» y «colegio».",
     duration: "12 min",
     sections: [
       {
         heading: "Las etapas y las asignaturas",
         body: [
-          "En Estados Unidos, la primaria es \"elementary school\", luego viene \"middle school\" y después \"high school\" (el instituto). En el Reino Unido se dice \"primary school\" y \"secondary school\".",
+          "En Estados Unidos, la primaria es \"elementary school\", luego viene \"middle school\" y después \"high school\" (la preparatoria o el bachillerato). En el Reino Unido se dice \"primary school\" y \"secondary school\".",
           "Después llega \"college\" o \"university\". En inglés americano \"college\" se usa para hablar de la universidad en general: \"I went to college in Texas\". Ojo: «el colegio» no es \"college\"; para niños se dice \"school\".",
           "Las asignaturas se llaman \"subjects\": \"math\" (en británico \"maths\"), \"science\", \"history\", \"geography\", \"English\", \"art\", \"PE\" (educación física). Los idiomas llevan mayúscula: \"Spanish\", \"French\".",
         ],
         examples: [
           { es: "My daughter is in elementary school.", en: "Mi hija está en primaria." },
-          { es: "I'm in high school.", en: "Estoy en el instituto." },
+          { es: "I'm in high school.", en: "Estoy en la preparatoria." },
           { es: "He goes to a school near our house.", en: "Va a un colegio cerca de casa." },
           { es: "She's in college.", en: "Está en la universidad." },
           { es: "My favorite subject is history.", en: "Mi asignatura favorita es la historia." },
@@ -1437,7 +1437,7 @@ export const EN_A2_U19: Lesson[] = [
         ],
       },
       {
-        heading: "Los exámenes: aprobar, suspender y la nota",
+        heading: "Los exámenes: aprobar, reprobar y la nota",
         body: [
           "«Hacer» un examen es \"take an exam\" en inglés americano. En inglés británico también es muy común \"do an exam\" (y, más formal, \"sit an exam\"). Lo que no se dice es *make an exam.",
           "«Aprobar» es \"pass\": \"I passed the exam\". \"Approve\" significa «dar el visto bueno» a algo: \"The boss approved the plan\". *I approved the exam es un error muy típico. «Suspender» (o «reprobar») es \"fail\": \"I failed math\". \"Suspend\" es «expulsar temporalmente».",
@@ -1446,7 +1446,7 @@ export const EN_A2_U19: Lesson[] = [
         examples: [
           { es: "I have to take an exam tomorrow.", en: "Mañana tengo que hacer un examen." },
           { es: "I passed!", en: "¡Aprobé!" },
-          { es: "She failed her driving test.", en: "Suspendió el examen de manejar." },
+          { es: "She failed her driving test.", en: "Suspendió el examen de manejo." },
           { es: "I got a good grade in English.", en: "Saqué buena nota en inglés." },
           { es: "I need to study for my exam.", en: "Tengo que estudiar para el examen." },
           { es: "We reviewed everything before the test.", en: "Repasamos todo antes del examen." },
@@ -1466,7 +1466,7 @@ export const EN_A2_U19: Lesson[] = [
             prompt: "Escribe en inglés las palabras en negrita.",
             sentence: "Diego ___ two subjects.",
             answer: "failed",
-            en: "Diego [suspendió] dos asignaturas.",
+            en: "Diego [reprobó] dos materias.",
             explanation: "«Suspender» o «reprobar» es \"fail\". \"Suspend\" significa expulsar a alguien temporalmente.",
           },
         ],
@@ -1481,7 +1481,7 @@ export const EN_A2_U19: Lesson[] = [
           { es: "I went to school in Lima.", en: "Fui al colegio en Lima." },
           { es: "I have a degree in English.", en: "Soy licenciada en Filología Inglesa." },
           { es: "I didn't go to class yesterday.", en: "Ayer no fui a clase." },
-          { es: "Did you pass or fail?", en: "¿Aprobaste o suspendiste?" },
+          { es: "Did you pass or fail?", en: "¿Aprobaste o reprobaste?" },
         ],
         checkpoint: [
           {
@@ -1491,7 +1491,7 @@ export const EN_A2_U19: Lesson[] = [
               { left: "degree", right: "carrera (universitaria)" },
               { left: "notes", right: "apuntes" },
               { left: "pass", right: "aprobar" },
-              { left: "fail", right: "suspender" },
+              { left: "fail", right: "reprobar" },
               { left: "school", right: "colegio" },
             ],
             explanation: "\"Career\", \"approve\", \"suspend\" y \"college\" son las trampas: se parecen al español pero significan otra cosa.",
@@ -1852,7 +1852,7 @@ export const EN_A2_U19: Lesson[] = [
       {
         heading: "Cualidades negativas",
         body: [
-          "Algunos adjetivos menos amables: \"shy\" (tímido), \"lazy\" (vago, perezoso), \"rude\" (maleducado, grosero), \"selfish\" (egoísta) y \"mean\".",
+          "Algunos adjetivos menos amables: \"shy\" (tímido), \"lazy\" (perezoso, flojo), \"rude\" (maleducado, grosero), \"selfish\" (egoísta) y \"mean\".",
           "\"Mean\" en inglés americano significa sobre todo «malo» o «cruel» con los demás: \"Don't be mean to your sister\". En inglés británico también significa «tacaño», que en americano se dice \"cheap\" o \"stingy\".",
           "Para suavizar, se usa mucho \"a bit\" o \"a little\": \"He's a bit lazy\" (es un poco vago).",
         ],

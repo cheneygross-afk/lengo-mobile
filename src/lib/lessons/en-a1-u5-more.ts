@@ -1680,7 +1680,7 @@ export const EN_A1_U5_MORE: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "El supermercado está enfrente del banco.",
         answer: "The supermarket is across from the bank.",
-        altAnswers: ["The supermarket is opposite the bank.", "The supermarket is in front of the bank."],
+        altAnswers: ["The supermarket is opposite the bank."],
         explanation: "«Enfrente de» es \"across from\" (EE. UU.) u \"opposite\" (Reino Unido), sin \"of\".",
       },
       {

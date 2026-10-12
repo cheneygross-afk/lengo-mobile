@@ -279,8 +279,8 @@ export const EN_A2_U02_EXTRA: Lesson[] = [  // ---------------------------------
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "She ___ her phone on the bus.",
         answer: "left",
-        en: "[Se dejó] el teléfono en el autobús.",
-        explanation: "«Dejarse algo» en un lugar es \"leave\" → \"left\".",
+        en: "[Dejó] el teléfono en el autobús.",
+        explanation: "«Dejar algo» en un lugar es \"leave\" → \"left\".",
       },
       {
         type: "fill-blank",
@@ -490,7 +490,7 @@ export const EN_A2_U02_EXTRA: Lesson[] = [  // ---------------------------------
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "I ___ my homework last night.",
         answer: "did",
-        en: "Anoche [hice] los deberes.",
+        en: "Anoche [hice] la tarea.",
         explanation: "Aquí \"did\" es el verbo «hacer» en pasado afirmativo. En la negativa sería \"I didn't do my homework\".",
       },
       {
@@ -863,9 +863,9 @@ export const EN_A2_U02_EXTRA: Lesson[] = [  // ---------------------------------
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "¿Cuánto pagaste por el billete?",
+        source: "¿Cuánto pagaste por el boleto?",
         answer: "How much did you pay for the ticket?",
-        explanation: "\"How much did you pay...?\": \"did\" + verbo base \"pay\". «Billete» (de transporte) es \"ticket\".",
+        explanation: "\"How much did you pay...?\": \"did\" + verbo base \"pay\". «Boleto» es \"ticket\".",
       },
       {
         type: "translate",

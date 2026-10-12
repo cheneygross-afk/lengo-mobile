@@ -191,7 +191,7 @@ export const EN_A1_U4_MORE: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "¿Está estudiando Diego? No.",
         answer: "Is Diego studying? No, he isn't.",
-        altAnswers: ["Is Diego studying? No, he's not.", "Is Diego studying? No.", "Is Diego studying? No, he is not."],
+        altAnswers: ["Is Diego studying? No, he's not.", "Is Diego studying? No, he is not."],
         explanation: "\"Is\" delante del sujeto. La respuesta natural es corta: \"No, he isn't\". \"Study\" mantiene la \"y\": \"studying\".",
       },
       {
@@ -618,7 +618,7 @@ export const EN_A1_U4_MORE: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "En una cafetería, el camarero te pregunta qué quieres. ¿Qué dices?",
+        question: "En una cafetería, el mesero te pregunta qué quieres. ¿Qué dices?",
         options: ["I'd like a tea, please.", "I'm wanting a tea, please.", "I'm liking a tea, please.", "I wanting a tea, please."],
         correctIndex: 0,
         explanation: "\"I'd like\" es la forma educada de pedir. \"Want\" y \"like\" no van en continuo.",
@@ -734,13 +734,13 @@ export const EN_A1_U4_MORE: Lesson[] = [
       {
         heading: "Siempre en plural: pants, jeans, glasses",
         body: [
-          "Las prendas con dos piernas son plurales en inglés: \"pants\" (pantalones; en Reino Unido, \"trousers\"), \"jeans\" (vaqueros), \"shorts\" (pantalones cortos) y \"pajamas\" (pijama). Lo mismo con \"glasses\" (gafas, lentes). No existe *a pant ni *a trouser.",
+          "Las prendas con dos piernas son plurales en inglés: \"pants\" (pantalones; en Reino Unido, \"trousers\"), \"jeans\" (jeans), \"shorts\" (pantalones cortos) y \"pajamas\" (pijama). Lo mismo con \"glasses\" (lentes). No existe *a pant ni *a trouser.",
           "Por eso el verbo va en plural: \"My jeans are new\", \"Your glasses are on the table\". Y se dice \"these\" o \"those\": \"I like these pants\".",
-          "Para contarlas se usa \"a pair of\": \"a pair of jeans\" (unos vaqueros), \"two pairs of shoes\". Cuidado: en Reino Unido \"pants\" es ropa interior, así que en Londres di \"trousers\".",
+          "Para contarlas se usa \"a pair of\": \"a pair of jeans\" (unos jeans), \"two pairs of shoes\". Cuidado: en Reino Unido \"pants\" es ropa interior, así que en Londres di \"trousers\".",
         ],
         examples: [
-          { es: "My jeans are new.", en: "Mis vaqueros son nuevos." },
-          { es: "Where are my glasses?", en: "¿Dónde están mis gafas?" },
+          { es: "My jeans are new.", en: "Mis jeans son nuevos." },
+          { es: "Where are my glasses?", en: "¿Dónde están mis lentes?" },
           { es: "I need a pair of black pants.", en: "Necesito unos pantalones negros." },
           { es: "She has three pairs of sneakers.", en: "Ella tiene tres pares de zapatillas." },
           { es: "These shorts are too big.", en: "Estos pantalones cortos son demasiado grandes." },
@@ -775,7 +775,7 @@ export const EN_A1_U4_MORE: Lesson[] = [
           { es: "She's wearing a red dress.", en: "Lleva un vestido rojo." },
           { es: "He's carrying a heavy bag.", en: "Él lleva una bolsa pesada." },
           { es: "I'm taking my son to the doctor.", en: "Estoy llevando a mi hijo al médico." },
-          { es: "Tom is wearing a hat and sunglasses.", en: "Tom lleva sombrero y gafas de sol." },
+          { es: "Tom is wearing a hat and sunglasses.", en: "Tom lleva sombrero y lentes de sol." },
           { es: "My father always wears a tie.", en: "Mi padre siempre lleva corbata." },
           { es: "Why are you wearing a coat? It's hot!", en: "¿Por qué llevas abrigo? ¡Hace calor!" },
         ],
@@ -812,7 +812,7 @@ export const EN_A1_U4_MORE: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Mis gafas están en la mesa.",
+        source: "Mis lentes están en la mesa.",
         answer: "My glasses are on the table.",
         explanation: "\"Glasses\" es plural, así que va con \"are\". «En la mesa» es \"on the table\".",
       },
@@ -822,7 +822,7 @@ export const EN_A1_U4_MORE: Lesson[] = [
         sentence: "I need ___ new jeans.",
         answer: "a pair of",
         altAnswers: ["some"],
-        en: "Necesito [unos] vaqueros nuevos.",
+        en: "Necesito [unos] jeans nuevos.",
         explanation: "\"Jeans\" no lleva \"a\": se dice \"a pair of jeans\" o \"some jeans\".",
       },
       {

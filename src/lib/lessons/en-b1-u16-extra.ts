@@ -185,7 +185,7 @@ export const EN_B1_U16_EXTRA: Lesson[] = [
         sentence: "Do you know anyone ___ can fix computers?",
         answer: "who",
         altAnswers: ["that"],
-        en: "¿Conoces a alguien [que] sepa arreglar ordenadores?",
+        en: "¿Conoces a alguien [que] sepa arreglar computadoras?",
         explanation: "\"Anyone\" is a person: \"who\" or \"that\". Spanish uses the subjunctive («sepa»); English just uses \"can\".",
       },
       {
@@ -788,7 +788,7 @@ export const EN_B1_U16_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "She's the person I talked to.", en: "Es la persona con la que hablé." },
-          { es: "This is the apartment we live in.", en: "Este es el piso en el que vivimos." },
+          { es: "This is the apartment we live in.", en: "Este es el departamento en el que vivimos." },
           { es: "That's the guy I told you about.", en: "Ese es el chico del que te hablé." },
           { es: "The friends I went with were from Lima.", en: "Los amigos con los que fui eran de Lima." },
         ],
@@ -835,7 +835,7 @@ export const EN_B1_U16_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Este es el piso en el que vivo.",
+        source: "Este es el departamento en el que vivo.",
         answer: "This is the apartment I live in.",
         altAnswers: [
           "This is the apartment that I live in.",

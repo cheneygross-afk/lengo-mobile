@@ -244,7 +244,7 @@ export const EN_A1_U3: Lesson[] = [
         examples: [
           { es: "She watches TV.", en: "Ella ve la tele." },
           { es: "He goes to school.", en: "Él va al colegio." },
-          { es: "Ana does her homework.", en: "Ana hace sus deberes." },
+          { es: "Ana does her homework.", en: "Ana hace su tarea." },
           { es: "He washes the car.", en: "Él lava el carro." },
           { es: "She teaches English.", en: "Ella enseña inglés." },
           { es: "She kisses her son.", en: "Ella besa a su hijo." },
@@ -334,7 +334,7 @@ export const EN_A1_U3: Lesson[] = [
           { es: "works, eats, speaks", en: "/s/" },
           { es: "lives, plays, goes", en: "/z/" },
           { es: "watches, washes, dances", en: "/ɪz/ (una sílaba más)" },
-          { es: "He uses a computer.", en: "Él usa un ordenador." },
+          { es: "He uses a computer.", en: "Él usa una computadora." },
         ],
         checkpoint: [
           {
@@ -367,7 +367,7 @@ export const EN_A1_U3: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "He ___ his homework after dinner.",
         answer: "does",
-        en: "Él [hace] los deberes después de cenar.",
+        en: "Él [hace] la tarea después de cenar.",
         explanation: "\"Do\" termina en \"-o\": \"does\". Se pronuncia parecido a «das».",
       },
       {
@@ -530,7 +530,7 @@ export const EN_A1_U3: Lesson[] = [
         examples: [
           { es: "I don't have time.", en: "No tengo tiempo." },
           { es: "We don't have a dog.", en: "No tenemos perro." },
-          { es: "He doesn't have a computer.", en: "Él no tiene ordenador." },
+          { es: "He doesn't have a computer.", en: "Él no tiene computadora." },
           { es: "They don't have children.", en: "No tienen hijos." },
         ],
         checkpoint: [
@@ -881,7 +881,7 @@ export const EN_A1_U3: Lesson[] = [
         heading: "De siempre a nunca",
         body: [
           "Estos adverbios dicen con qué frecuencia pasa algo, de más a menos: \"always\" (siempre), \"usually\" (normalmente), \"often\" (a menudo), \"sometimes\" (a veces), \"rarely\" (casi nunca, rara vez) y \"never\" (nunca).",
-          "En \"often\" la \"t\" normalmente no se pronuncia: suena como \"ofen\". Y en \"usually\" la \"s\" suena como la \"j\" francesa, parecida a la «ll» de Argentina.",
+          "En \"often\" la \"t\" normalmente no se pronuncia: suena como \"ofen\". Y en \"usually\" la \"s\" suena parecida a la «ll» o «y» de Argentina (/ʒ/), no como una s.",
           "«Casi nunca» también se dice \"hardly ever\": \"I hardly ever drink coffee\". Es más frecuente en la conversación que \"rarely\".",
         ],
         examples: [
@@ -1067,9 +1067,9 @@ export const EN_A1_U3: Lesson[] = [
         type: "listen-choose",
         audio: "He usually walks to work.",
         question: "¿Qué has oído?",
-        options: ["Normalmente va andando al trabajo.", "Nunca va andando al trabajo.", "A veces va en carro al trabajo.", "Siempre trabaja en casa."],
+        options: ["Normalmente va caminando al trabajo.", "Nunca va caminando al trabajo.", "A veces va en carro al trabajo.", "Siempre trabaja en casa."],
         correctIndex: 0,
-        explanation: "\"Usually\" es normalmente y \"walks to work\" es ir andando al trabajo.",
+        explanation: "\"Usually\" es normalmente y \"walks to work\" es ir caminando al trabajo.",
       },
       {
         type: "write",
@@ -1167,7 +1167,7 @@ export const EN_A1_U3: Lesson[] = [
           "\"Never\" ya es negativo: \"I never drink\", no *I don't never drink. Las expresiones como \"every day\" van al final.",
         ],
         examples: [
-          { es: "I usually walk to work.", en: "Normalmente voy andando al trabajo." },
+          { es: "I usually walk to work.", en: "Normalmente voy caminando al trabajo." },
           { es: "She is often busy.", en: "Ella está ocupada a menudo." },
           { es: "He never cooks.", en: "Él nunca cocina." },
           { es: "We eat fish once a week.", en: "Comemos pescado una vez a la semana." },

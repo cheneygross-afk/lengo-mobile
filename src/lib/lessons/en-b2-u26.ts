@@ -16,7 +16,7 @@ export const EN_B2_U26: Lesson[] = [
         heading: "Positive traits",
         body: [
           "To ask about someone's personality, say \"What is she like?\" («¿cómo es?»). \"What does she look like?\" asks about her appearance, and \"How is she?\" asks about her health or how she is doing. Spanish uses «cómo» for all three, so these questions are easy to mix up.",
-          "Some key positive adjectives: \"outgoing\" (sociable, «extrovertido»), \"easy-going\" (relaxed, «tranquilo, de trato fácil»), \"reliable\" (you can trust them to do what they say, «fiable, responsable»), \"self-confident\" («seguro de sí mismo»), \"hard-working\" («trabajador») and \"generous\".",
+          "Some key positive adjectives: \"outgoing\" (sociable, «extrovertido»), \"easy-going\" (relaxed, «tranquilo, de trato fácil»), \"reliable\" (you can trust them to do what they say, «confiable, responsable»), \"self-confident\" («seguro de sí mismo»), \"hard-working\" («trabajador») and \"generous\".",
           "Careful with «simpático». English \"sympathetic\" means understanding and kind when you have a problem («comprensivo»). For «simpático», say \"nice\", \"friendly\" or \"likeable\".",
         ],
         examples: [
@@ -47,7 +47,7 @@ export const EN_B2_U26: Lesson[] = [
             sentence: "You can always count on Diego. He's very ___.",
             answer: "reliable",
             altAnswers: ["dependable", "trustworthy", "responsible"],
-            en: "Siempre puedes contar con Diego. Es muy [fiable].",
+            en: "Siempre puedes contar con Diego. Es muy [confiable].",
             explanation: "\"Reliable\" describes someone who always does what they promise. It comes from \"rely on\" («contar con»).",
           },
         ],
@@ -183,7 +183,7 @@ export const EN_B2_U26: Lesson[] = [
         instructions: "Match the English adjectives with their Spanish meanings.",
         pairs: [
           { left: "outgoing", right: "extrovertido" },
-          { left: "reliable", right: "fiable" },
+          { left: "reliable", right: "confiable" },
           { left: "bossy", right: "mandón" },
           { left: "stubborn", right: "terco" },
           { left: "sensible", right: "sensato" },
@@ -260,7 +260,7 @@ export const EN_B2_U26: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Necesitamos a alguien fiable y seguro de sí mismo.",
+        source: "Necesitamos a alguien confiable y seguro de sí mismo.",
         answer: "We need someone reliable and self-confident.",
         altAnswers: [
           "We need someone who is reliable and self-confident.",
@@ -273,7 +273,7 @@ export const EN_B2_U26: Lesson[] = [
           "We need someone trustworthy and self-confident.",
           "We need someone trustworthy and confident.",
         ],
-        explanation: "Adjectives can follow \"someone\" directly: \"someone reliable\" («alguien fiable»). Note there is no \"a\" before \"someone\".",
+        explanation: "Adjectives can follow \"someone\" directly: \"someone reliable\" («alguien confiable»). Note there is no \"a\" before \"someone\".",
       },
       {
         type: "speak",
@@ -292,7 +292,7 @@ export const EN_B2_U26: Lesson[] = [
           "Gives an example of the person's behavior",
           "Uses \"sensible\" or \"sensitive\" correctly, if used",
         ],
-        modelAnswer: "My brother Tom is one of the most easy-going people I know. He's very outgoing and he makes friends everywhere he goes. He's also really reliable: if you need help moving house, he's always the first to arrive. However, he can be a bit stubborn. Once he has decided something, it's almost impossible to make him change his mind. He's also quite sensitive, so I'm careful with my jokes.",
+        modelAnswer: "My brother Tom is one of the most easy-going people I know. He's very outgoing and he makes friends everywhere he goes. He's also really reliable: if you need help moving, he's always the first to arrive. However, he can be a bit stubborn. Once he has decided something, it's almost impossible to make him change his mind. He's also quite sensitive, so I'm careful with my jokes.",
         explanation: "Check that each adjective fits: \"sensible\" = «sensato», \"sensitive\" = «sensible», \"nice\" (not \"sympathetic\") = «simpático».",
       },
     ],
@@ -938,7 +938,7 @@ export const EN_B2_U26: Lesson[] = [
         body: [
           "«Estar constipado» (Spain) or «estar resfriado» is \"to have a cold\": \"I have a cold\" or \"I've caught a cold\". In English, \"constipated\" means «estreñido», so saying \"I'm constipated\" to a doctor tells a very different story!",
           "\"Catch a cold\" or \"catch the flu\" means get the illness («resfriarse, contagiarse de gripe»). In American English, it is \"the flu\": \"I have the flu.\"",
-          "A doctor's «receta» is a \"prescription\", and «recetar» is \"prescribe\". A \"receipt\" is what a store gives you after you pay («tique, recibo»). For «medicamento», \"medicine\" or \"medication\" is safer than \"drugs\", which often means illegal drugs.",
+          "A doctor's «receta» is a \"prescription\", and «recetar» is \"prescribe\". A \"receipt\" is what a store gives you after you pay («recibo»). For «medicamento», \"medicine\" or \"medication\" is safer than \"drugs\", which often means illegal drugs.",
         ],
         examples: [
           { es: "I think I'm catching a cold.", en: "Creo que me estoy resfriando." },
@@ -975,7 +975,7 @@ export const EN_B2_U26: Lesson[] = [
           "A \"wound\" (pronounced like \"spoon\", /wuːnd/) is «una herida», usually from a knife or a gun. A \"bruise\" is «un moretón».",
         ],
         examples: [
-          { es: "I sprained my ankle playing basketball.", en: "Me torcí el tobillo jugando al baloncesto." },
+          { es: "I sprained my ankle playing basketball.", en: "Me torcí el tobillo jugando básquetbol." },
           { es: "She broke her leg skiing.", en: "Se rompió la pierna esquiando." },
           { es: "Two people were seriously injured in the accident.", en: "Dos personas resultaron gravemente heridas en el accidente." },
           { es: "He has a knee injury.", en: "Tiene una lesión de rodilla." },
@@ -1441,7 +1441,7 @@ export const EN_B2_U26: Lesson[] = [
           "To prepare for an exam is \"study\", \"review\" (US) or \"revise\" (UK): «repasar». \"Grades\" (US) or \"marks\" (UK) are «notas». \"Notes\" are what you write in class («apuntes»).",
         ],
         examples: [
-          { es: "I'm taking my driving test next week.", en: "La semana que viene me presento al examen de manejar." },
+          { es: "I'm taking my driving test next week.", en: "La semana que viene me presento al examen de manejo." },
           { es: "Did you pass?", en: "¿Aprobaste?" },
           { es: "He failed the math exam, so he has to retake it.", en: "Reprobó el examen de matemáticas, así que tiene que volver a presentarse." },
           { es: "I'm reviewing for my finals.", en: "Estoy repasando para los exámenes finales." },
@@ -1528,7 +1528,7 @@ export const EN_B2_U26: Lesson[] = [
           { es: "I didn't go to class yesterday.", en: "Ayer no fui a clase." },
           { es: "He's a history professor at Yale.", en: "Es profesor de historia en Yale." },
           { es: "My kids go to the school near our house.", en: "Mis hijos van al colegio que está cerca de casa." },
-          { es: "She's in her last year of high school.", en: "Está en el último año de instituto." },
+          { es: "She's in her last year of high school.", en: "Está en el último año de preparatoria." },
           { es: "Can I help you?", en: "¿Le puedo ayudar? (más natural que \"Can I assist you?\")" },
         ],
         checkpoint: [
@@ -1567,7 +1567,7 @@ export const EN_B2_U26: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Suspendí el examen de inglés.",
+        source: "Reprobé el examen de inglés.",
         answer: "I failed my English exam.",
         altAnswers: ["I failed the English exam.", "I failed my English test.", "I failed the English test."],
         explanation: "«Suspender / reprobar» = \"fail\".",
@@ -2755,7 +2755,7 @@ export const EN_B2_U26: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Es la persona más fiable que conozco.",
+        source: "Es la persona más confiable que conozco.",
         answer: "He is the most reliable person I know.",
         altAnswers: [
           "She is the most reliable person I know.",

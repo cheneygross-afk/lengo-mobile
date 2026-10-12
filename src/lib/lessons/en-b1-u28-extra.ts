@@ -101,7 +101,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El piso es bonito. Sin embargo, está muy lejos.",
+        source: "El departamento es bonito. Sin embargo, está muy lejos.",
         answer: "The apartment is nice. However, it's very far away.",
         altAnswers: [
           "The apartment is nice. However, it's very far.",
@@ -113,7 +113,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
           "The apartment is nice. However, it's a long way away.",
           "The apartment is nice. However, it's really far away.",
         ],
-        explanation: "\"However\" starts the second sentence and is followed by a comma. «Piso» is \"apartment\" in American English, \"flat\" in British.",
+        explanation: "\"However\" starts the second sentence and is followed by a comma. «Departamento» is \"apartment\" in American English, \"flat\" in British.",
       },
       {
         type: "fill-blank",
@@ -293,7 +293,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
         examples: [
           { es: "It was raining, so we stayed home.", en: "Llovía, así que nos quedamos en casa." },
           { es: "I missed the train. That's why I was late.", en: "Perdí el tren. Por eso llegué tarde. (incorrecto: *For that I was late)" },
-          { es: "The road was closed. Therefore, we took another route.", en: "La carretera estaba cortada. Por lo tanto, tomamos otra ruta." },
+          { es: "The road was closed. Therefore, we took another route.", en: "La carretera estaba cerrada. Por lo tanto, tomamos otra ruta." },
           { es: "She was tired, so she went to bed early.", en: "Estaba cansada, así que se acostó temprano." },
         ],
         checkpoint: [
@@ -827,7 +827,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
         sentence: "The apartment is small. ___, it's very bright.",
         answer: "However",
         altAnswers: ["Still", "Even so", "Nevertheless", "But"],
-        en: "El piso es pequeño. [Sin embargo], tiene mucha luz.",
+        en: "El departamento es pequeño. [Sin embargo], tiene mucha luz.",
         explanation: "After a full stop: \"However\" + comma.",
       },
       {

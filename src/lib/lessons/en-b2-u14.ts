@@ -1870,7 +1870,7 @@ export const EN_B2_U14: Lesson[] = [
         heading: "Asking for the word",
         body: [
           "To ask for a word, say \"What do you call the thing that...?\" or \"What's the word for...?\". Spanish speakers often say \"How do you call...?\" from «¿Cómo se llama...?», but in English you ask WHAT you call something.",
-          "Other helpful phrases: \"It's on the tip of my tongue\" («lo tengo en la punta de la lengua»), \"You know what I mean?\", \"What's it called?\" and \"the whatchamacallit\" (very informal, like «el chisme» or «el cacharro»).",
+          "Other helpful phrases: \"It's on the tip of my tongue\" («lo tengo en la punta de la lengua»), \"You know what I mean?\", \"What's it called?\" and \"the whatchamacallit\" (very informal, like «la cosa esa» or «el cómo se llama»).",
         ],
         examples: [
           { es: "What do you call the thing that keeps food cold?", en: "¿Cómo se llama la cosa que mantiene la comida fría?" },
@@ -1905,7 +1905,7 @@ export const EN_B2_U14: Lesson[] = [
         ],
         examples: [
           { es: "You know, the guy whose sister works at the bank?", en: "¿Sabes, el chico cuya hermana trabaja en el banco?" },
-          { es: "Which teacher? The one who wears glasses.", en: "¿Qué profesor? El que lleva gafas." },
+          { es: "Which teacher? The one who wears glasses.", en: "¿Qué profesor? El que usa lentes." },
           { es: "I mean that friend of yours who lived in Japan.", en: "Me refiero a ese amigo tuyo que vivió en Japón." },
           { es: "It's that bar we went to after the concert.", en: "Es ese bar al que fuimos después del concierto." },
           { es: "The ones on the left are mine.", en: "Los de la izquierda son míos." },
@@ -1930,7 +1930,7 @@ export const EN_B2_U14: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "Which teacher? ___ who wears glasses.",
             answer: "The one",
-            en: "¿Qué profesor? [El] que lleva gafas.",
+            en: "¿Qué profesor? [El] que usa lentes.",
             explanation: "«El que» about a person is \"the one who\". English can't say \"the who\".",
           },
         ],
@@ -1970,7 +1970,7 @@ export const EN_B2_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Qué profesor? El que lleva gafas.",
+        source: "¿Qué profesor? El que usa lentes.",
         answer: "Which teacher? The one who wears glasses.",
         altAnswers: [
           "Which teacher? The one that wears glasses.",
@@ -2130,7 +2130,7 @@ export const EN_B2_U14: Lesson[] = [
               "GreenBox, that was founded in 2015, employs now 200 people.",
             ],
             correctIndex: 0,
-            explanation: "A participle phrase, an appositive and one main clause. The second option strings sentences together with commas; the others put \"now\" between the verb and its object, and the last uses \"that\" after a comma.",
+            explanation: "A participle phrase, an appositive and one main clause. The \"GreenBox is a start-up, it was founded...\" version strings sentences together with commas; the others put \"now\" between the verb and its object, and \"GreenBox, that was founded...\" uses \"that\" after a comma.",
           },
         ],
       },
@@ -2335,7 +2335,7 @@ export const EN_B2_U14: Lesson[] = [
         examples: [
           { es: "The woman who interviewed me was very nice.", en: "La mujer que me entrevistó fue muy amable." },
           { es: "The job I applied for was in Boston.", en: "El trabajo que solicité era en Boston." },
-          { es: "My manager, whose office is next to mine, is on vacation.", en: "Mi jefe, cuyo despacho está al lado del mío, está de vacaciones." },
+          { es: "My manager, whose office is next to mine, is on vacation.", en: "Mi jefe, cuya oficina está al lado de la mía, está de vacaciones." },
           { es: "They offered me the job, which was a big surprise.", en: "Me ofrecieron el trabajo, lo que fue una gran sorpresa." },
         ],
         checkpoint: [
@@ -2496,10 +2496,10 @@ export const EN_B2_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi jefe, cuyo despacho está al lado del mío, está de vacaciones.",
+        source: "Mi jefe, cuya oficina está al lado de la mía, está de vacaciones.",
         answer: "My boss, whose office is next to mine, is on vacation.",
         altAnswers: ["My boss, whose office is next to mine, is on holiday.", "My manager, whose office is next to mine, is on vacation.", "My manager, whose office is next to mine, is on holiday."],
-        explanation: "\"Whose office\" replaces «cuyo despacho». \"On vacation\" is American; \"on holiday\" is British.",
+        explanation: "\"Whose office\" replaces «cuya oficina». \"On vacation\" is American; \"on holiday\" is British.",
       },
       {
         type: "word-order",

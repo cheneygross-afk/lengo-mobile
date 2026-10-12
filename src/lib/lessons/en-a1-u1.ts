@@ -530,7 +530,7 @@ export const EN_A1_U1: Lesson[] = [
         body: [
           "En español la edad se tiene: «tengo 20 años». En inglés se es: \"I'm 20 years old\" o, más corto, \"I'm 20\". Decir *I have 20 years es el error más típico de los hispanohablantes.",
           "Puedes decir la frase completa (\"I'm 20 years old\") o solo el número (\"I'm 20\"), pero no *I'm 20 years sin \"old\".",
-          "Para preguntar la edad se dice \"How old are you?\" (literalmente, «¿cómo de viejo eres?»). No es nada ofensivo: es la pregunta normal.",
+          "Para preguntar la edad se dice \"How old are you?\" (literalmente, «¿qué tan viejo eres?»). No es nada ofensivo: es la pregunta normal.",
         ],
         examples: [
           { es: "I'm 20 years old.", en: "Tengo 20 años." },
@@ -1280,7 +1280,7 @@ export const EN_A1_U1: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "¿Está lejos? —No.",
         answer: "Is it far? No, it isn't.",
-        altAnswers: ["Is it far? No, it's not.", "Is it far? No."],
+        altAnswers: ["Is it far? No, it's not."],
         explanation: "Para una cosa o un lugar el sujeto es \"it\". La respuesta natural es \"No, it isn't\".",
       },
       {

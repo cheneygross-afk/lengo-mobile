@@ -56,7 +56,7 @@ export const EN_A2_U03_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "We were making dinner.", en: "Estábamos haciendo la cena." },
-          { es: "The dog was lying on the floor.", en: "El perro estaba tumbado en el suelo." },
+          { es: "The dog was lying on the floor.", en: "El perro estaba acostado en el suelo." },
           { es: "He was running in the park.", en: "Él estaba corriendo en el parque." },
           { es: "I was sitting near the door.", en: "Estaba sentado cerca de la puerta." },
         ],
@@ -257,7 +257,7 @@ export const EN_A2_U03_EXTRA: Lesson[] = [
             type: "multiple-choice",
             question: "¿Cuál une bien las dos acciones?",
             options: [
-              "I was having a shower when the doorbell rang.",
+              "I was taking a shower when the doorbell rang.",
               "I had a shower while the doorbell rang.",
               "I was having a shower while the doorbell was ringing suddenly.",
               "I had a shower when the doorbell was ringing.",
@@ -507,13 +507,13 @@ export const EN_A2_U03_EXTRA: Lesson[] = [
       {
         heading: "Repaso rápido: costumbres del pasado",
         body: [
-          "Ojo con el imperfecto español de costumbre: «De niño jugaba al fútbol» NO es *I was playing football. Para costumbres repetidas se usa el pasado simple (\"I played football\") o \"used to\" (\"I used to play football\"), que verás en la próxima unidad.",
-          "El continuo solo describe lo que estaba pasando en UN momento concreto: \"At five o'clock I was playing football.\"",
+          "Ojo con el imperfecto español de costumbre: «De niño jugaba al fútbol» NO es *I was playing soccer. Para costumbres repetidas se usa el pasado simple (\"I played soccer\") o \"used to\" (\"I used to play soccer\"), que verás en la próxima unidad.",
+          "El continuo solo describe lo que estaba pasando en UN momento concreto: \"At five o'clock I was playing soccer.\"",
         ],
         examples: [
-          { es: "When I was a child, I played football every day.", en: "De niño jugaba al fútbol todos los días." },
+          { es: "When I was a child, I played soccer every day.", en: "De niño jugaba al fútbol todos los días." },
           { es: "We went to the beach every summer.", en: "Íbamos a la playa todos los veranos." },
-          { es: "At five o'clock I was playing football.", en: "A las cinco estaba jugando al fútbol." },
+          { es: "At five o'clock I was playing soccer.", en: "A las cinco estaba jugando al fútbol." },
         ],
         checkpoint: [
           {
@@ -540,8 +540,8 @@ export const EN_A2_U03_EXTRA: Lesson[] = [
         type: "fill-blank",
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "At ten o'clock last night, I ___ a shower.",
-        answer: "was having",
-        altAnswers: ["was taking"],
+        answer: "was taking",
+        altAnswers: ["was having"],
         en: "Anoche a las diez [me estaba dando] una ducha.",
         explanation: "Hora concreta + acción en curso = pasado continuo. «Darse una ducha» es \"have a shower\" o \"take a shower\".",
       },
@@ -641,7 +641,7 @@ export const EN_A2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Elige la opción correcta: \"When the film ended, everybody ___.\"",
+        question: "Elige la opción correcta: \"When the movie ended, everybody ___.\"",
         options: ["clapped", "clap", "were clapping", "clapping"],
         correctIndex: 0,
         explanation: "Primero termina la película y después aplauden: dos hechos seguidos, pasado simple. \"When\" + simple + simple = una cosa después de otra.",
@@ -924,7 +924,7 @@ export const EN_A2_U03_EXTRA: Lesson[] = [
           "Usa al menos tres verbos en pasado simple para los hechos.",
           "No pone verbos de estado (\"know\", \"want\", \"have\" = tener) en continuo.",
         ],
-        modelAnswer: "It was a sunny afternoon. I was sitting in the park when a small dog ran to me. It didn't have a collar and it looked hungry. Some children were playing football near me, and their dad was reading a newspaper. I asked them about the dog, but they didn't know who the owner was. Then a woman arrived. She was crying. It was her dog!",
+        modelAnswer: "It was a sunny afternoon. I was sitting in the park when a small dog ran to me. It didn't have a collar and it looked hungry. Some children were playing soccer near me, and their dad was reading a newspaper. I asked them about the dog, but they didn't know who the owner was. Then a woman arrived. She was crying. It was her dog!",
         explanation: "En una historia, el continuo pinta la escena y el simple cuenta lo que pasó.",
       },
       {
@@ -1005,7 +1005,7 @@ export const EN_A2_U03_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Yo hacía los deberes cuando llegó mi papá.",
+        source: "Yo hacía la tarea cuando llegó mi papá.",
         answer: "I was doing my homework when my dad arrived.",
         altAnswers: [
           "I was doing my homework when my father arrived.",
@@ -1014,7 +1014,7 @@ export const EN_A2_U03_EXTRA: Lesson[] = [
           "I was doing my homework when my dad came.",
           "I was doing homework when my dad arrived.",
         ],
-        explanation: "«Hacía» interrumpido por otra acción = pasado continuo: \"was doing\". «Hacer los deberes» es \"do homework\".",
+        explanation: "«Hacía» interrumpido por otra acción = pasado continuo: \"was doing\". «Hacer la tarea» es \"do homework\".",
       },
       {
         type: "multiple-choice",

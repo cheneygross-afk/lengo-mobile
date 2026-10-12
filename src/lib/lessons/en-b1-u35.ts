@@ -60,7 +60,7 @@ export const EN_B1_U35: Lesson[] = [
           { es: "Life is short.", en: "La vida es corta." },
           { es: "I need some advice.", en: "Necesito unos consejos." },
           { es: "The news is very good.", en: "Las noticias son muy buenas." },
-          { es: "They have two red cars.", en: "Tienen dos carros rojos. / Tienen dos carros rojos." },
+          { es: "They have two red cars.", en: "Tienen dos carros rojos." },
           { es: "People are very friendly here.", en: "La gente es muy simpática aquí." },
         ],
         checkpoint: [
@@ -396,7 +396,7 @@ export const EN_B1_U35: Lesson[] = [
         heading: "Turn 4: Catching up with an old friend",
         body: [
           "\"What have you been up to?\" means «¿qué has hecho últimamente?» or «¿en qué andas?». The answer often uses the present perfect continuous: \"I've been working a lot\", \"I've been learning to drive\".",
-          "To talk about the past habits that you no longer have, use \"used to\": \"We used to play football every day\". The question is \"Did you use to...?\", without -d.",
+          "To talk about the past habits that you no longer have, use \"used to\": \"We used to play soccer every day\". The question is \"Did you use to...?\", without -d.",
           "Spanish «hace mucho que no te veo» is \"I haven't seen you for ages\" or \"It's been ages\". English uses the negative present perfect, not the present.",
         ],
         examples: [
@@ -404,7 +404,7 @@ export const EN_B1_U35: Lesson[] = [
           { es: "I haven't seen you for ages.", en: "Hace siglos que no te veo." },
           { es: "What have you been up to?", en: "¿Qué has hecho últimamente?" },
           { es: "I've been looking for a new job.", en: "He estado buscando trabajo nuevo." },
-          { es: "We used to play football every day.", en: "Jugábamos al fútbol todos los días." },
+          { es: "We used to play soccer every day.", en: "Jugábamos al fútbol todos los días." },
         ],
         checkpoint: [
           {
@@ -1284,7 +1284,7 @@ export const EN_B1_U35: Lesson[] = [
         examples: [
           { es: "If you heat ice, it melts.", en: "Si calientas el hielo, se derrite." },
           { es: "If it rains tomorrow, we'll stay home.", en: "Si llueve mañana, nos quedaremos en casa." },
-          { es: "If you don't hurry, you'll miss the bus.", en: "Si no te das prisa, perderás el autobús." },
+          { es: "If you don't hurry, you'll miss the bus.", en: "Si no te apuras, perderás el autobús." },
           { es: "I'll call you if I need help.", en: "Te llamaré si necesito ayuda." },
         ],
         checkpoint: [
@@ -1292,7 +1292,7 @@ export const EN_B1_U35: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Si no te das prisa, llegarás tarde.",
+            source: "Si no te apuras, llegarás tarde.",
             answer: "If you don't hurry, you'll be late.",
             altAnswers: ["If you don't hurry up, you'll be late.", "You'll be late if you don't hurry.", "You'll be late if you don't hurry up.", "If you don't hurry, you'll arrive late.", "If you don't hurry, you're going to be late."],
             explanation: "First conditional: \"if\" + present, \"will\" + base form. «Llegar tarde» is usually \"be late\".",
@@ -1568,16 +1568,16 @@ export const EN_B1_U35: Lesson[] = [
       {
         heading: "Tuesday: looking for a flat",
         body: [
-          "Flat-hunting vocabulary: \"rent\" («alquiler»), \"deposit\" («fianza»), \"landlord\" («casero», «propietario»), \"bills included\" («gastos incluidos») and \"to move in\" («mudarse», «entrar a vivir»).",
+          "Flat-hunting vocabulary: \"rent\" («alquiler»), \"deposit\" («depósito»), \"landlord\" («casero», «propietario»), \"bills included\" («gastos incluidos») and \"to move in\" («mudarse», «entrar a vivir»).",
           "Lucia compares the flats she sees: \"The second one was bigger than the first, but it wasn't as bright\", \"It's much more expensive\". Remember: short adjectives take -er (\"cheaper\"), long ones take \"more\" (\"more comfortable\").",
-          "To describe what she wants, she uses relative clauses: \"I'm looking for a flat that is close to the Tube\", \"an area where I can feel safe\". «Busco un piso que tenga...» has a subjunctive in Spanish, but English uses the normal present: \"a flat that has a balcony\".",
+          "To describe what she wants, she uses relative clauses: \"I'm looking for a flat that is close to the Tube\", \"an area where I can feel safe\". «Busco un departamento que tenga...» has a subjunctive in Spanish, but English uses the normal present: \"a flat that has a balcony\".",
         ],
         examples: [
           { es: "How much is the rent?", en: "¿Cuánto es el alquiler?" },
           { es: "Are bills included?", en: "¿Están incluidos los gastos?" },
-          { es: "I've seen five flats so far.", en: "He visto cinco pisos hasta ahora." },
+          { es: "I've seen five flats so far.", en: "He visto cinco departamentos hasta ahora." },
           { es: "The second one was bigger, but it wasn't as bright.", en: "El segundo era más grande, pero no tan luminoso." },
-          { es: "I'm looking for a flat that has a balcony.", en: "Busco un piso que tenga balcón." },
+          { es: "I'm looking for a flat that has a balcony.", en: "Busco un departamento que tenga balcón." },
           { es: "When can I move in?", en: "¿Cuándo puedo entrar a vivir?" },
         ],
         checkpoint: [
@@ -1585,7 +1585,7 @@ export const EN_B1_U35: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Este piso es más grande que el otro, pero es más caro.",
+            source: "Este departamento es más grande que el otro, pero es más caro.",
             answer: "This apartment is bigger than the other one, but it's more expensive.",
             altAnswers: [
               "This flat is bigger than the other one, but it's more expensive.",
@@ -1601,8 +1601,8 @@ export const EN_B1_U35: Lesson[] = [
             question: "Lucia asks the landlord: Are bills included? What does she want to know?",
             options: [
               "Si los gastos de luz, agua y gas están incluidos en el alquiler.",
-              "Si el piso tiene muebles.",
-              "Si tiene que pagar una fianza.",
+              "Si el departamento tiene muebles.",
+              "Si tiene que pagar un depósito.",
               "Si puede pagar con billetes.",
             ],
             correctIndex: 0,
@@ -1687,14 +1687,14 @@ export const EN_B1_U35: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "I've seen five apartments ___.",
         answer: "so far",
-        en: "He visto cinco pisos [hasta ahora].",
+        en: "He visto cinco departamentos [hasta ahora].",
         explanation: "\"So far\" (up to now) goes with the present perfect.",
       },
       {
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Busco un piso que esté cerca del trabajo.",
+        source: "Busco un departamento que esté cerca del trabajo.",
         answer: "I'm looking for an apartment that is close to work.",
         altAnswers: [
           "I'm looking for a flat that is close to work.",
@@ -1804,7 +1804,7 @@ export const EN_B1_U35: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Quieres que te ayude a fregar los platos?",
+            source: "¿Quieres que te ayude a lavar los platos?",
             answer: "Do you want me to help you with the dishes?",
             altAnswers: [
               "Do you want me to help you wash the dishes?",
@@ -2159,7 +2159,7 @@ export const EN_B1_U35: Lesson[] = [
         examples: [
           { es: "Your staff should have informed us.", en: "Su personal debería habernos informado." },
           { es: "You should have offered us a hotel.", en: "Deberían habernos ofrecido un hotel." },
-          { es: "I would be grateful if you could refund the cost of my ticket.", en: "Les agradecería que me reembolsaran el importe del billete." },
+          { es: "I would be grateful if you could refund the cost of my ticket.", en: "Les agradecería que me reembolsaran el importe del boleto." },
           { es: "I would like to request compensation.", en: "Quisiera solicitar una indemnización." },
         ],
         checkpoint: [
@@ -2595,7 +2595,7 @@ export const EN_B1_U35: Lesson[] = [
           { es: "I've been learning English for three years.", en: "Llevo tres años aprendiendo inglés." },
           { es: "I started in 2023.", en: "Empecé en 2023." },
           { es: "When I arrived, the meeting had already started.", en: "Cuando llegué, la reunión ya había empezado." },
-          { es: "I'm meeting my teacher tomorrow.", en: "Mañana he quedado con mi profesora." },
+          { es: "I'm meeting my teacher tomorrow.", en: "Mañana me voy a ver con mi profesora." },
         ],
         checkpoint: [
           {

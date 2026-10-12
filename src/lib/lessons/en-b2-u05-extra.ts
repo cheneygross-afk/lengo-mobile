@@ -140,8 +140,8 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
         sentence: "She wouldn't have failed if she ___ harder.",
         answer: "had studied",
         altAnswers: ["'d studied", "had worked", "'d worked"],
-        en: "No habría suspendido si [hubiera estudiado] más.",
-        explanation: "The if-clause can come second; it still takes the past perfect: \"if she had studied\". «Suspender» = \"fail\" an exam.",
+        en: "No habría reprobado si [hubiera estudiado] más.",
+        explanation: "The if-clause can come second; it still takes the past perfect: \"if she had studied\". «Reprobar» = \"fail\" an exam.",
       },
       {
         type: "word-order",
@@ -255,7 +255,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
     level: "EN-B2",
     number: 2,
     title: "Extra Practice: Mixed Conditionals",
-    summary: "Practise conditionals that mix times: a past condition with a present result (\"If I had taken the job, I'd be in London now\") and a present condition with a past result (\"If I spoke French, I'd have understood\").",
+    summary: "Practice conditionals that mix times: a past condition with a present result (\"If I had taken the job, I'd be in London now\") and a present condition with a past result (\"If I spoke French, I'd have understood\").",
     duration: "11 min",
     sections: [
       {
@@ -516,7 +516,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
     level: "EN-B2",
     number: 3,
     title: "Extra Practice: Second or Third?",
-    summary: "Choose between the second conditional (unreal now) and the third (unreal past), and practise \"If I were\" vs \"If I was\". Targets *If I would be and using the third conditional for present situations.",
+    summary: "Choose between the second conditional (unreal now) and the third (unreal past), and practice \"If I were\" vs \"If I was\". Targets *If I would be and using the third conditional for present situations.",
     duration: "10 min",
     sections: [
       {
@@ -715,7 +715,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
           { left: "If I know, I'll tell you.", right: "Si lo sé, te lo digo." },
           { left: "If I knew, I'd have told you.", right: "Si lo supiera, te lo habría dicho." },
         ],
-        explanation: "First conditional = real possibility; second = unreal now; third = unreal past; the last one is mixed (present condition, past result).",
+        explanation: "First conditional = real possibility; second = unreal now; third = unreal past; the mixed one has a present condition and a past result.",
       },
       {
         type: "listen-choose",
@@ -778,7 +778,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "I won't go unless you invite me.", en: "No iré a menos que me invites." },
-          { es: "Unless you hurry, you'll miss the train.", en: "A menos que te des prisa, perderás el tren. (incorrecto: \"unless you don't hurry\")" },
+          { es: "Unless you hurry, you'll miss the train.", en: "A menos que te apures, perderás el tren. (incorrecto: \"unless you don't hurry\")" },
           { es: "You won't understand it unless you read it twice.", en: "No lo entenderás a menos que lo leas dos veces." },
         ],
         checkpoint: [
@@ -804,7 +804,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
           "The Spanish «en caso de que» usually means \"if\": «en caso de que llame Ana» = \"If Ana calls\" (or formally \"Should Ana call\"). All these linkers take the present simple.",
         ],
         examples: [
-          { es: "You can use my car as long as you bring it back with a full tank.", en: "Puedes usar mi carro siempre que lo devuelvas con el depósito lleno." },
+          { es: "You can use my car as long as you bring it back with a full tank.", en: "Puedes usar mi carro siempre que lo devuelvas con el tanque lleno." },
           { es: "I'll lend you the money provided you pay me back next month.", en: "Te presto el dinero con tal de que me lo devuelvas el mes que viene." },
           { es: "Take an umbrella in case it rains.", en: "Llévate un paraguas por si llueve." },
           { es: "If Ana calls, tell her I'm in a meeting.", en: "En caso de que llame Ana, dile que estoy en una reunión." },
@@ -855,7 +855,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Puedes usar mi carro siempre que lo devuelvas con el depósito lleno.",
+        source: "Puedes usar mi carro siempre que lo devuelvas con el tanque lleno.",
         answer: "You can use my car as long as you bring it back with a full tank.",
         altAnswers: [
           "You can use my car as long as you return it with a full tank.",
@@ -872,7 +872,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«A menos que te des prisa, perderás el tren.» Which sentence is correct?",
+        question: "«A menos que te apures, perderás el tren.» Which sentence is correct?",
         options: [
           "Unless you hurry, you'll miss the train.",
           "Unless you don't hurry, you'll miss the train.",
@@ -1277,7 +1277,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
     level: "EN-B2",
     number: 6,
     title: "Extra Practice: Conditionals in Real Speech",
-    summary: "Practise the conditional words people use every day besides \"if\": \"otherwise\", \"or else\", \"what if\", \"supposing\", \"imagine\" and \"but for\". Targets «si no» translated as *in other case.",
+    summary: "Practice the conditional words people use every day besides \"if\": \"otherwise\", \"or else\", \"what if\", \"supposing\", \"imagine\" and \"but for\". Targets «si no» translated as *in other case.",
     duration: "10 min",
     sections: [
       {
@@ -1287,7 +1287,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
           "Careful with the false friend: \"on the contrary\" means «al contrario», not «de lo contrario». For a past situation, \"otherwise\" is followed by \"would have\": \"Good thing I had my umbrella; otherwise I would have gotten soaked.\"",
         ],
         examples: [
-          { es: "Hurry up, otherwise we'll miss the bus.", en: "Date prisa; si no, perderemos el autobús." },
+          { es: "Hurry up, otherwise we'll miss the bus.", en: "Apúrate; si no, perderemos el autobús." },
           { es: "Write it down, or else you'll forget it.", en: "Apúntalo, o si no se te olvidará." },
           { es: "Call me first, or I won't be able to let you in.", en: "Llámame antes; si no, no podré abrirte." },
           { es: "Good thing I had my umbrella; otherwise I would have gotten soaked.", en: "Menos mal que llevaba el paraguas; si no, me habría empapado." },
@@ -1339,7 +1339,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Date prisa; si no, perderemos el autobús.",
+        source: "Apúrate; si no, perderemos el autobús.",
         answer: "Hurry up, otherwise we'll miss the bus.",
         altAnswers: [
           "Hurry up, or else we'll miss the bus.",
@@ -1349,7 +1349,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
           "Hurry up, otherwise we're going to miss the bus.",
           "Hurry up or we're going to miss the bus.",
         ],
-        explanation: "«Si no» meaning «si no te das prisa» = \"otherwise\", \"or else\" or \"or\". *In other case is not English.",
+        explanation: "«Si no» meaning «si no te apuras» = \"otherwise\", \"or else\" or \"or\". *In other case is not English.",
       },
       {
         type: "fill-blank",

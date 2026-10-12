@@ -50,7 +50,7 @@ export const EN_B1_U04_EXTRA: Lesson[] = [
         examples: [
           { es: "I didn't use to like coffee.", en: "Antes no me gustaba el café." },
           { es: "Did you use to play soccer?", en: "¿Antes jugabas al fútbol?" },
-          { es: "I usually walk to work.", en: "Suelo ir andando al trabajo. (incorrecto: *I use to walk)" },
+          { es: "I usually walk to work.", en: "Suelo ir caminando al trabajo. (incorrecto: *I use to walk)" },
           { es: "There used to be a market here.", en: "Aquí antes había un mercado." },
         ],
         checkpoint: [
@@ -160,7 +160,7 @@ export const EN_B1_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Antes iba andando al colegio.» Which is correct?",
+        question: "«Antes iba caminando al colegio.» Which is correct?",
         options: ["I used to walk to school.", "I use to walk to school.", "I would used to walk to school.", "I am used to walk to school."],
         correctIndex: 0,
         explanation: "Affirmative past habit: \"used to\" with -d + base verb. \"Am used to\" means something different (accustomed) and needs -ing.",
@@ -596,7 +596,7 @@ export const EN_B1_U04_EXTRA: Lesson[] = [
         sentence: "She ___ to her new glasses yet.",
         answer: "hasn't gotten used",
         altAnswers: ["hasn't got used", "has not gotten used", "has not got used", "isn't used"],
-        en: "Ella todavía [no se ha acostumbrado] a sus gafas nuevas.",
+        en: "Ella todavía [no se ha acostumbrado] a sus lentes nuevos.",
         explanation: "Present perfect negative: \"hasn't gotten used to\". \"Yet\" at the end translates «todavía no».",
       },
       {

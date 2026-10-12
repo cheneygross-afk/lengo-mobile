@@ -169,7 +169,7 @@ export const EN_B1_U10_EXTRA: Lesson[] = [
         sentence: "If we don't hurry, we ___ the train.",
         answer: "will miss",
         altAnswers: ["'ll miss", "are going to miss"],
-        en: "Si no nos damos prisa, [perderemos] el tren.",
+        en: "Si no nos apuramos, [perderemos] el tren.",
         explanation: "First conditional result: \"will\" + verb. «Perder» a train or bus is \"miss\", never \"lose\".",
       },
       {
@@ -333,7 +333,7 @@ export const EN_B1_U10_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si tienes hambre, hay pizza en la nevera.",
+        source: "Si tienes hambre, hay pizza en el refrigerador.",
         answer: "If you're hungry, there's pizza in the fridge.",
         altAnswers: ["If you're hungry, there is pizza in the fridge.", "If you're hungry, there's pizza in the refrigerator.", "If you are hungry, there's some pizza in the fridge.", "There's pizza in the fridge if you're hungry."],
         explanation: "«Tener hambre» is \"be hungry\", never *have hunger. Real situation: present in both halves.",
@@ -390,7 +390,7 @@ export const EN_B1_U10_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si no comes, te pondrás enfermo.",
+        source: "Si no comes, te vas a enfermar.",
         answer: "If you don't eat, you'll get sick.",
         altAnswers: ["If you don't eat, you will get sick.", "If you don't eat, you'll get ill.", "If you don't eat, you'll be sick.", "You'll get sick if you don't eat."],
         explanation: "«Ponerse enfermo» = \"get sick\" (American) or \"get ill\" (British). Present after \"if\", \"will\" in the result.",
@@ -436,7 +436,7 @@ export const EN_B1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Si no te das prisa, llegaremos tarde.» Which is the best translation?",
+        question: "«Si no te apuras, llegaremos tarde.» Which is the best translation?",
         options: [
           "If you don't hurry, we'll be late.",
           "If you don't hurry, we're late.",
@@ -561,7 +561,7 @@ export const EN_B1_U10_EXTRA: Lesson[] = [
         sentence: "If I ___ that apartment, I would live downtown now.",
         answer: "had bought",
         altAnswers: ["'d bought"],
-        en: "Si [hubiera comprado] ese piso, ahora viviría en el centro.",
+        en: "Si [hubiera comprado] ese departamento, ahora viviría en el centro.",
         explanation: "The cause is in the past («hubiera comprado» = \"had bought\"); the result is now («viviría»).",
       },
       {

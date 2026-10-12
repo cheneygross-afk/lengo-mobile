@@ -513,7 +513,7 @@ export const EN_A1_U2_MORE: Lesson[] = [
         ],
         examples: [
           { es: "job", en: "trabajo" },
-          { es: "jeans", en: "pantalones vaqueros" },
+          { es: "jeans", en: "jeans, pantalones de mezclilla" },
           { es: "June / July", en: "junio / julio" },
           { es: "juice", en: "jugo" },
           { es: "Japan", en: "Japón" },
@@ -1434,7 +1434,7 @@ export const EN_A1_U2_MORE: Lesson[] = [
         examples: [
           { es: "speak", en: "hablar" },
           { es: "sport", en: "deporte" },
-          { es: "glasses", en: "gafas, lentes (dos sílabas)" },
+          { es: "glasses", en: "lentes (dos sílabas)" },
           { es: "knee", en: "rodilla (sin k)" },
           { es: "half", en: "mitad (sin l)" },
         ],
@@ -1464,7 +1464,7 @@ export const EN_A1_U2_MORE: Lesson[] = [
           "En la frase, las palabras de contenido suenan fuertes y las de gramática débiles, con contracciones (\"I'm\", \"don't\", \"can't\"). Las preguntas de sí o no suben al final; las de \"what\" o \"where\" bajan.",
         ],
         examples: [
-          { es: "computer", en: "computadora, ordenador (com-PU-ter)" },
+          { es: "computer", en: "computadora (com-PU-ter)" },
           { es: "family", en: "familia (FAM-ly)" },
           { es: "breakfast", en: "desayuno (BREK-fəst)" },
           { es: "important", en: "importante (im-POR-tant)" },

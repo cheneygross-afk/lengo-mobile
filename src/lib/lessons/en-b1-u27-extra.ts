@@ -122,7 +122,7 @@ export const EN_B1_U27_EXTRA: Lesson[] = [
         instructions: "Match the English with the Spanish.",
         pairs: [
           { left: "confused", right: "confundido" },
-          { left: "confusing", right: "que confunde, lioso" },
+          { left: "confusing", right: "que confunde, confuso" },
           { left: "frightened", right: "asustado" },
           { left: "frightening", right: "que da miedo" },
           { left: "embarrassed", right: "avergonzado" },
@@ -240,7 +240,7 @@ export const EN_B1_U27_EXTRA: Lesson[] = [
           { es: "She has a red car.", en: "Ella tiene un carro rojo. (incorrecto: *a car red)" },
           { es: "They sell cheap shoes.", en: "Venden zapatos baratos. (incorrecto: *cheaps shoes)" },
           { es: "The rooms are small but clean.", en: "Las habitaciones son pequeñas pero limpias." },
-          { es: "I need new glasses.", en: "Necesito gafas nuevas." },
+          { es: "I need new glasses.", en: "Necesito lentes nuevos." },
         ],
         checkpoint: [
           {
@@ -590,7 +590,7 @@ export const EN_B1_U27_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Hoy me encuentro un poco peor.",
+        source: "Hoy me siento un poco peor.",
         answer: "I feel a bit worse today.",
         altAnswers: ["I feel a little worse today.", "Today I feel a bit worse.", "I'm feeling a bit worse today.", "I'm feeling a little worse today.", "Today I feel a little worse.", "I feel slightly worse today."],
         explanation: "\"Worse\" is the comparative of \"bad\": never *more bad or *more worse.",
@@ -599,7 +599,7 @@ export const EN_B1_U27_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Cuanto más grande es la ciudad, más caros son los pisos.",
+        source: "Cuanto más grande es la ciudad, más caros son los departamentos.",
         answer: "The bigger the city, the more expensive the apartments.",
         altAnswers: [
           "The bigger the city is, the more expensive the apartments are.",
@@ -654,11 +654,11 @@ export const EN_B1_U27_EXTRA: Lesson[] = [
         heading: "Quick recap: like vs as",
         body: [
           "\"Like\" + noun means «como» in the sense of «parecido a», not really: \"He swims like a fish\" (he isn't a fish).",
-          "\"As\" + noun means a real role or job: \"She works as a nurse\" (she really is one). Spanish «trabaja de camarero» is \"he works as a waiter\", never *works like a waiter or *works of a waiter.",
+          "\"As\" + noun means a real role or job: \"She works as a nurse\" (she really is one). Spanish «trabaja de mesero» is \"he works as a waiter\", never *works like a waiter or *works of a waiter.",
           "\"As\" is also used in fixed phrases: \"as usual\", \"as you know\", \"as if\".",
         ],
         examples: [
-          { es: "She works as a waitress.", en: "Trabaja de camarera." },
+          { es: "She works as a waitress.", en: "Trabaja de mesera." },
           { es: "He sings like a professional.", en: "Canta como un profesional. (no lo es)" },
           { es: "As usual, the bus was late.", en: "Como siempre, el autobús llegó tarde." },
           { es: "I used the box as a table.", en: "Usé la caja como mesa." },

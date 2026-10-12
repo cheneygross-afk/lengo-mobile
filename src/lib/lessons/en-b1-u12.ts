@@ -1184,7 +1184,7 @@ export const EN_B1_U12: Lesson[] = [
           { es: "That sounds like a good idea.", en: "Parece una buena idea." },
           { es: "She looks like her mother.", en: "Se parece a su madre." },
           { es: "It looks like it's going to rain.", en: "Parece que va a llover." },
-          { es: "It sounds like you had a great time.", en: "Parece que lo pasaste genial." },
+          { es: "It sounds like you had a great time.", en: "Parece que la pasaste genial." },
           { es: "It looks as if nobody is home.", en: "Parece que no hay nadie en casa." },
         ],
         checkpoint: [
@@ -1328,13 +1328,13 @@ export const EN_B1_U12: Lesson[] = [
         audio: "It sounds like you had a great time.",
         question: "What does it mean?",
         options: [
-          "Parece que lo pasaste genial.",
+          "Parece que la pasaste genial.",
           "Parece que vas a pasarlo genial.",
           "Suena a que tienes mucho tiempo.",
           "Parece que no tienes tiempo.",
         ],
         correctIndex: 0,
-        explanation: "\"It sounds like\" + sentence = «parece que» (from what you hear or are told). \"Had a great time\" is «lo pasaste genial».",
+        explanation: "\"It sounds like\" + sentence = «parece que» (from what you hear or are told). \"Had a great time\" is «la pasaste genial».",
       },
       {
         type: "matching",
@@ -2593,8 +2593,8 @@ export const EN_B1_U12: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["They", "must", "have", "left", "in", "a", "hurry."],
-        translation: "Deben de haberse ido con prisas.",
-        explanation: "\"Must have\" + participle \"left\". \"In a hurry\" means «con prisas».",
+        translation: "Deben de haberse ido de prisa.",
+        explanation: "\"Must have\" + participle \"left\". \"In a hurry\" means «de prisa» or «apurados».",
       },
       {
         type: "listen-choose",
@@ -2715,7 +2715,7 @@ export const EN_B1_U12: Lesson[] = [
           { es: "She has long curly black hair.", en: "Tiene el pelo largo, rizado y negro." },
           { es: "He has blue eyes.", en: "Tiene los ojos azules." },
           { es: "He's bald and has a gray beard.", en: "Es calvo y tiene barba canosa." },
-          { es: "She has freckles and wears glasses.", en: "Tiene pecas y lleva gafas." },
+          { es: "She has freckles and wears glasses.", en: "Tiene pecas y usa lentes." },
           { es: "He has a scar on his chin.", en: "Tiene una cicatriz en la barbilla." },
           { es: "Her hair is straight.", en: "Tiene el pelo liso." },
         ],
@@ -2827,7 +2827,7 @@ export const EN_B1_U12: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "She has ___ and wears glasses.",
         answer: "freckles",
-        en: "Tiene [pecas] y lleva gafas.",
+        en: "Tiene [pecas] y usa lentes.",
         explanation: "\"Freckles\" is usually plural. Glasses are \"worn\": \"wears glasses\".",
       },
       {

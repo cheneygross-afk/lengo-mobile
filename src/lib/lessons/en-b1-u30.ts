@@ -15,14 +15,14 @@ export const EN_B1_U30: Lesson[] = [
       {
         heading: "I'd like... instead of I want...",
         body: [
-          "In Spanish, «Quiero un café» or «Me pone un café» is completely normal in a bar. In English, \"I want a coffee\" sounds direct, even a little rude or childish. Waiters, shop assistants and receptionists expect softer phrases.",
+          "In Spanish, «Quiero un café» or «Me da un café» is completely normal in a bar. In English, \"I want a coffee\" sounds direct, even a little rude or childish. Waiters, shop assistants and receptionists expect softer phrases.",
           "The safest choice is \"I'd like\" + noun (\"I'd like a coffee, please\") or \"I'd like to\" + verb (\"I'd like to return this\"). \"I'd\" is short for \"I would\". Another very common option, especially in the US, is \"Can I get...?\" or \"Can I have...?\".",
           "Add \"please\" at the end. English uses \"please\" and \"thank you\" much more often than Spanish, and leaving them out can sound cold, even if your grammar is perfect.",
         ],
         examples: [
           { es: "I'd like a large coffee, please.", en: "Un café grande, por favor." },
           { es: "I'd like to return these shoes.", en: "Quería devolver estos zapatos." },
-          { es: "Can I get a glass of water, please?", en: "¿Me pones un vaso de agua, por favor?" },
+          { es: "Can I get a glass of water, please?", en: "¿Me das un vaso de agua, por favor?" },
           { es: "Could I have the bill, please?", en: "¿Me trae la cuenta, por favor?" },
           { es: "I'd like to make an appointment.", en: "Quería pedir una cita." },
           { es: "We'd like a table for four, please.", en: "Queríamos una mesa para cuatro, por favor." },
@@ -259,7 +259,7 @@ export const EN_B1_U30: Lesson[] = [
           { es: "I'll put you through.", en: "Le paso." },
           { es: "Hang on a second.", en: "Espera un segundo." },
           { es: "Sorry, I have to hang up now.", en: "Perdona, tengo que colgar ya." },
-          { es: "The line is busy.", en: "Está comunicando." },
+          { es: "The line is busy.", en: "Está ocupado." },
         ],
         checkpoint: [
           {
@@ -374,7 +374,7 @@ export const EN_B1_U30: Lesson[] = [
         pairs: [
           { left: "Who's calling?", right: "¿De parte de quién?" },
           { left: "I'll put you through.", right: "Le paso." },
-          { left: "The line is busy.", right: "Está comunicando." },
+          { left: "The line is busy.", right: "Está ocupado." },
           { left: "Can I take a message?", right: "¿Quiere dejar un recado?" },
         ],
         explanation: "These are the phrases receptionists use most often on the phone.",
@@ -421,12 +421,12 @@ export const EN_B1_U30: Lesson[] = [
         body: [
           "To open an account, say \"I'd like to open an account\". In the US the everyday account is a \"checking account\"; in the UK it is a \"current account\". An account where you keep money and get interest is a \"savings account\".",
           "The bank will ask for ID (your passport) and \"proof of address\" (a bill or a rental contract with your name and address). You can ask: \"What documents do I need?\".",
-          "Some useful words: \"balance\" = «saldo», \"fee\" or \"charge\" = «comisión», \"withdraw money\" = «sacar dinero», \"deposit money\" = «ingresar dinero». Be careful: \"commission\" exists, but for bank charges people usually say \"fee\".",
+          "Some useful words: \"balance\" = «saldo», \"fee\" or \"charge\" = «comisión», \"withdraw money\" = «sacar dinero», \"deposit money\" = «depositar dinero». Be careful: \"commission\" exists, but for bank charges people usually say \"fee\".",
         ],
         examples: [
           { es: "I'd like to open a checking account.", en: "Quería abrir una cuenta corriente." },
           { es: "What documents do I need?", en: "¿Qué documentos necesito?" },
-          { es: "You'll need your passport and proof of address.", en: "Necesitará el pasaporte y un justificante de domicilio." },
+          { es: "You'll need your passport and proof of address.", en: "Necesitará el pasaporte y un comprobante de domicilio." },
           { es: "Is there a monthly fee?", en: "¿Hay alguna comisión mensual?" },
           { es: "I'd like to withdraw two hundred dollars.", en: "Quería sacar doscientos dólares." },
           { es: "What's my balance?", en: "¿Cuál es mi saldo?" },
@@ -623,12 +623,12 @@ export const EN_B1_U30: Lesson[] = [
           "When you visit an apartment before renting it, British people call it a \"viewing\". Americans usually say \"I'd like to see the apartment\" or \"Can I come and take a look?\".",
         ],
         examples: [
-          { es: "I'm looking for a two-bedroom apartment.", en: "Busco un piso de dos habitaciones." },
+          { es: "I'm looking for a two-bedroom apartment.", en: "Busco un departamento de dos habitaciones." },
           { es: "I live on the fourth floor.", en: "Vivo en el cuarto piso." },
           { es: "Is it still available?", en: "¿Sigue disponible?" },
-          { es: "Could I come and see the apartment on Saturday?", en: "¿Podría ir a ver el piso el sábado?" },
+          { es: "Could I come and see the apartment on Saturday?", en: "¿Podría ir a ver el departamento el sábado?" },
           { es: "My landlord lives in the same building.", en: "Mi casero vive en el mismo edificio." },
-          { es: "I share a flat with two flatmates.", en: "Comparto piso con dos compañeros." },
+          { es: "I share a flat with two flatmates.", en: "Comparto departamento con dos compañeros." },
         ],
         checkpoint: [
           {
@@ -642,7 +642,7 @@ export const EN_B1_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "«Busco un piso de dos habitaciones.» Which sentence is correct?",
+            question: "«Busco un departamento de dos habitaciones.» Which sentence is correct?",
             options: ["I'm looking for a two-bedroom apartment.", "I'm looking for a two-bedrooms apartment.", "I'm looking a two-bedroom floor.", "I search an apartment of two rooms."],
             correctIndex: 0,
             explanation: "\"Look for\" = «buscar». A number + noun before another noun stays singular: \"a two-bedroom apartment\".",
@@ -652,7 +652,7 @@ export const EN_B1_U30: Lesson[] = [
       {
         heading: "Rent, deposit and bills",
         body: [
-          "Before you sign, ask about the money. \"How much is the rent?\", \"How much is the deposit?\" (= «fianza»; in the US also \"security deposit\") and \"Are bills included?\" In the US, bills like water, gas and electricity are often called \"utilities\": \"Are utilities included?\".",
+          "Before you sign, ask about the money. \"How much is the rent?\", \"How much is the deposit?\" (= «depósito»; in the US also \"security deposit\") and \"Are bills included?\" In the US, bills like water, gas and electricity are often called \"utilities\": \"Are utilities included?\".",
           "The contract is a \"lease\" (US) or a \"tenancy agreement\" (UK). Ask: \"How long is the lease?\" and \"Can I see the contract before I sign?\". An apartment can be \"furnished\" (with furniture) or \"unfurnished\".",
           "\"Furniture\" is uncountable: \"a lot of furniture\", \"a piece of furniture\", never *furnitures. Spanish «muebles» is plural, so this is a very common mistake.",
         ],
@@ -660,8 +660,8 @@ export const EN_B1_U30: Lesson[] = [
           { es: "How much is the rent?", en: "¿Cuánto es el alquiler?" },
           { es: "Are bills included?", en: "¿Están incluidos los gastos?" },
           { es: "Are utilities included in the rent?", en: "¿Los suministros están incluidos en el alquiler?" },
-          { es: "The deposit is one month's rent.", en: "La fianza es un mes de alquiler." },
-          { es: "Is the apartment furnished?", en: "¿El piso está amueblado?" },
+          { es: "The deposit is one month's rent.", en: "El depósito es un mes de alquiler." },
+          { es: "Is the apartment furnished?", en: "¿El departamento está amueblado?" },
           { es: "The lease is for twelve months.", en: "El contrato es de doce meses." },
         ],
         checkpoint: [
@@ -679,7 +679,7 @@ export const EN_B1_U30: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "The apartment comes with all the ___.",
             answer: "furniture",
-            en: "El piso viene con todos los [muebles].",
+            en: "El departamento viene con todos los [muebles].",
             explanation: "\"Furniture\" is uncountable in English: no -s, and it takes a singular verb.",
           },
         ],
@@ -696,7 +696,7 @@ export const EN_B1_U30: Lesson[] = [
           { es: "Am I allowed to paint the walls?", en: "¿Puedo pintar las paredes?" },
           { es: "The heating isn't working.", en: "La calefacción no funciona." },
           { es: "There's a leak in the bathroom.", en: "Hay una fuga de agua en el baño." },
-          { es: "The kitchen sink is clogged.", en: "El fregadero está atascado." },
+          { es: "The kitchen sink is clogged.", en: "El fregadero está tapado." },
           { es: "Could you send someone to fix it?", en: "¿Podría mandar a alguien a arreglarlo?" },
         ],
         checkpoint: [
@@ -724,7 +724,7 @@ export const EN_B1_U30: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Cuánto es la fianza?",
+        source: "¿Cuánto es el depósito?",
         answer: "How much is the deposit?",
         altAnswers: ["How much is the security deposit?", "What's the deposit?", "How much is the damage deposit?"],
         explanation: "«Fianza» is \"deposit\" or \"security deposit\". \"How much is...?\" is the normal way to ask about a price.",
@@ -750,7 +750,7 @@ export const EN_B1_U30: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El piso está en el tercer piso y no tiene ascensor.",
+        source: "El departamento está en el tercer piso y no tiene ascensor.",
         answer: "The apartment is on the third floor and it doesn't have an elevator.",
         altAnswers: [
           "The apartment is on the third floor and doesn't have an elevator.",
@@ -763,7 +763,7 @@ export const EN_B1_U30: Lesson[] = [
           "The apartment is on the third floor and it has no elevator.",
           "The flat is on the third floor and it has no lift.",
         ],
-        explanation: "The first «piso» is the home (\"apartment\" or \"flat\"); the second is the level (\"floor\"). «Ascensor» is \"elevator\" (US) or \"lift\" (UK).",
+        explanation: "«Departamento» is the home (\"apartment\" or \"flat\"); the second is the level (\"floor\"). «Ascensor» is \"elevator\" (US) or \"lift\" (UK).",
       },
       {
         type: "multiple-choice",
@@ -788,7 +788,7 @@ export const EN_B1_U30: Lesson[] = [
           { left: "landlord", right: "casero" },
           { left: "tenant", right: "inquilino" },
           { left: "lease", right: "contrato de alquiler" },
-          { left: "deposit", right: "fianza" },
+          { left: "deposit", right: "depósito" },
           { left: "furnished", right: "amueblado" },
         ],
         explanation: "The key words for renting. \"Lease\" is American; in the UK people say \"tenancy agreement\".",
@@ -839,7 +839,7 @@ export const EN_B1_U30: Lesson[] = [
         examples: [
           { es: "I'd like to register with a GP.", en: "Quería darme de alta en un médico de cabecera." },
           { es: "I'd like to make an appointment, please.", en: "Quería pedir cita, por favor." },
-          { es: "Is there anything available today?", en: "¿Hay algún hueco hoy?" },
+          { es: "Is there anything available today?", en: "¿Hay alguna cita disponible hoy?" },
           { es: "It's not urgent, but I'd like to see a doctor this week.", en: "No es urgente, pero me gustaría ver a un médico esta semana." },
           { es: "Do I need an appointment?", en: "¿Necesito cita?" },
         ],
@@ -867,14 +867,14 @@ export const EN_B1_U30: Lesson[] = [
         body: [
           "Many symptoms use \"have\" + a: \"I have a headache\", \"I have a sore throat\" (= «me duele la garganta»), \"I have a fever\" (= «tengo fiebre»), \"I have a cough\". For other parts of the body, use \"hurt\": \"My back hurts\", \"My ear hurts\". Not *It hurts me the back: the body part is the subject.",
           "To say how long, use the present perfect + for or since: \"I've had a cough for three days\" (= «llevo tres días con tos»). Spanish speakers often say *I have a cough since three days, but \"since\" goes with a starting point (\"since Monday\") and \"for\" with a length of time.",
-          "Careful with false friends. \"I'm constipated\" means «estoy estreñido», not «estoy constipado». For «estoy constipado» say \"I have a cold\". \"I feel sick\" in British English means «tengo náuseas»; in American English it usually means «me encuentro mal». \"I feel dizzy\" = «estoy mareado».",
+          "Careful with false friends. \"I'm constipated\" means «estoy estreñido», not «estoy constipado». For «estoy resfriado» (Spain: «constipado») say \"I have a cold\". \"I feel sick\" in British English means «tengo náuseas»; in American English it usually means «me siento mal». \"I feel dizzy\" = «estoy mareado».",
         ],
         examples: [
           { es: "I have a sore throat and a fever.", en: "Me duele la garganta y tengo fiebre." },
           { es: "My back hurts when I bend down.", en: "Me duele la espalda cuando me agacho." },
           { es: "I've had a cough for three days.", en: "Llevo tres días con tos." },
-          { es: "I've been feeling dizzy since yesterday.", en: "Llevo mareado desde ayer." },
-          { es: "I think I have a cold.", en: "Creo que estoy constipado." },
+          { es: "I've been feeling dizzy since yesterday.", en: "Estoy mareado desde ayer." },
+          { es: "I think I have a cold.", en: "Creo que estoy resfriado." },
           { es: "I'm allergic to penicillin.", en: "Soy alérgico a la penicilina." },
         ],
         checkpoint: [
@@ -889,7 +889,7 @@ export const EN_B1_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "«Estoy constipado.» What do you say to the doctor?",
+            question: "«Estoy resfriado.» What do you say to the doctor?",
             options: ["I have a cold.", "I'm constipated.", "I'm constipation.", "I have constipated."],
             correctIndex: 0,
             explanation: "«Constipado» (a cold) is \"I have a cold\". \"Constipated\" means «estreñido», a very different problem.",
@@ -1040,7 +1040,7 @@ export const EN_B1_U30: Lesson[] = [
           { es: "I'm afraid the air conditioning isn't working.", en: "Me temo que el aire acondicionado no funciona." },
           { es: "There's no hot water in the shower.", en: "No hay agua caliente en la ducha." },
           { es: "There aren't any towels in the bathroom.", en: "No hay toallas en el baño." },
-          { es: "The Wi-Fi keeps disconnecting.", en: "El wifi se desconecta todo el rato." },
+          { es: "The Wi-Fi keeps disconnecting.", en: "El wifi se desconecta todo el tiempo." },
           { es: "This is room 304.", en: "Le llamo de la habitación 304." },
         ],
         checkpoint: [
@@ -1269,14 +1269,14 @@ export const EN_B1_U30: Lesson[] = [
         body: [
           "Spanish «perder» has two English translations. You \"miss\" a plane, a train or a connection when you arrive too late: \"I missed my flight\". You \"lose\" a thing when you can't find it: \"I lost my passport\".",
           "So «He perdido el vuelo» is \"I've missed my flight\", never *I've lost my flight. And \"I missed my connection\" (= «He perdido la conexión / el enlace») is what you say when your first flight was late.",
-          "A short stop between two flights is a \"layover\" (US) or \"stopover\" (UK, usually longer). Ask: \"Will I make my connection?\" (= «¿Llegaré a tiempo para el enlace?»).",
+          "A short stop between two flights is a \"layover\" (US) or \"stopover\" (UK, usually longer). Ask: \"Will I make my connection?\" (= «¿Llegaré a tiempo para la conexión?»).",
         ],
         examples: [
-          { es: "I've missed my connection.", en: "He perdido el enlace." },
+          { es: "I've missed my connection.", en: "Perdí la conexión." },
           { es: "We missed the flight because of the traffic.", en: "Perdimos el vuelo por el tráfico." },
           { es: "I've lost my boarding pass.", en: "He perdido la tarjeta de embarque." },
           { es: "I have a two-hour layover in Miami.", en: "Tengo una escala de dos horas en Miami." },
-          { es: "Will I make my connection?", en: "¿Llegaré a tiempo para el enlace?" },
+          { es: "Will I make my connection?", en: "¿Llegaré a tiempo para la conexión?" },
         ],
         checkpoint: [
           {
@@ -1339,7 +1339,7 @@ export const EN_B1_U30: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Nuestro vuelo se ha retrasado y hemos perdido el enlace.",
+        source: "Nuestro vuelo se ha retrasado y perdimos la conexión.",
         answer: "Our flight has been delayed and we've missed our connection.",
         altAnswers: ["Our flight was delayed and we missed our connection.", "Our flight has been delayed and we've missed the connection.", "Our flight was delayed and we missed the connection.", "Our flight was delayed and we've missed our connection.", "Our flight has been delayed and we've missed our connecting flight.", "Our flight was delayed and we missed our connecting flight."],
         explanation: "Passive for the delay (\"has been delayed\") and \"miss\" for the connection: you arrived too late.",
@@ -1441,10 +1441,10 @@ export const EN_B1_U30: Lesson[] = [
           "Remember the verbs: you \"get on\" a bus or train (= «subirse») and \"get off\" (= «bajarse»). You \"take\" or \"catch\" a bus. For cars and taxis, use \"get in\" and \"get out of\".",
         ],
         examples: [
-          { es: "A one-way ticket to Boston, please.", en: "Un billete de ida a Boston, por favor." },
-          { es: "A return to Oxford, please.", en: "Un billete de ida y vuelta a Oxford, por favor." },
-          { es: "How much is a round-trip ticket?", en: "¿Cuánto cuesta un billete de ida y vuelta?" },
-          { es: "Is there a cheaper off-peak fare?", en: "¿Hay alguna tarifa más barata fuera de la hora punta?" },
+          { es: "A one-way ticket to Boston, please.", en: "Un boleto de ida a Boston, por favor." },
+          { es: "A return to Oxford, please.", en: "Un boleto de ida y vuelta a Oxford, por favor." },
+          { es: "How much is a round-trip ticket?", en: "¿Cuánto cuesta un boleto de ida y vuelta?" },
+          { es: "Is there a cheaper off-peak fare?", en: "¿Hay alguna tarifa más barata fuera de la hora pico?" },
           { es: "I usually take the bus to work.", en: "Normalmente tomo el autobús para ir al trabajo." },
           { es: "Get off at the next stop.", en: "Bájate en la próxima parada." },
         ],
@@ -1453,7 +1453,7 @@ export const EN_B1_U30: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Un billete de ida y vuelta a Filadelfia, por favor.",
+            source: "Un boleto de ida y vuelta a Filadelfia, por favor.",
             answer: "A round-trip ticket to Philadelphia, please.",
             altAnswers: ["A return ticket to Philadelphia, please.", "A return to Philadelphia, please.", "One round-trip ticket to Philadelphia, please.", "A round trip ticket to Philadelphia, please.", "Can I have a round-trip ticket to Philadelphia, please?", "Could I have a round-trip ticket to Philadelphia, please?", "Can I get a round-trip ticket to Philadelphia, please?", "I'd like a round-trip ticket to Philadelphia, please."],
             explanation: "«Ida y vuelta» is \"round-trip\" (US) or \"return\" (UK). «Ida» alone is \"one-way\" or \"single\".",
@@ -1511,7 +1511,7 @@ export const EN_B1_U30: Lesson[] = [
           "If you don't understand, ask someone: \"Sorry, what did they just say?\" or \"Is this the train to Brighton?\". People are usually happy to help.",
         ],
         examples: [
-          { es: "I'd like a weekly pass, please.", en: "Quería un abono semanal, por favor." },
+          { es: "I'd like a weekly pass, please.", en: "Quería un pase semanal, por favor." },
           { es: "Where can I top up my card?", en: "¿Dónde puedo recargar la tarjeta?" },
           { es: "Tap your card on the reader.", en: "Pase la tarjeta por el lector." },
           { es: "This train is delayed by about ten minutes.", en: "Este tren lleva un retraso de unos diez minutos." },
@@ -1593,11 +1593,11 @@ export const EN_B1_U30: Lesson[] = [
         type: "matching",
         instructions: "Match each word with its meaning.",
         pairs: [
-          { left: "one-way ticket", right: "billete de ida" },
-          { left: "round-trip ticket", right: "billete de ida y vuelta" },
-          { left: "fare", right: "precio del billete" },
-          { left: "off-peak", right: "fuera de la hora punta" },
-          { left: "weekly pass", right: "abono semanal" },
+          { left: "one-way ticket", right: "boleto de ida" },
+          { left: "round-trip ticket", right: "boleto de ida y vuelta" },
+          { left: "fare", right: "precio del boleto" },
+          { left: "off-peak", right: "fuera de la hora pico" },
+          { left: "weekly pass", right: "pase semanal" },
         ],
         explanation: "\"One-way\" and \"round-trip\" are American; British English says \"single\" and \"return\".",
       },
@@ -1668,7 +1668,7 @@ export const EN_B1_U30: Lesson[] = [
         ],
         examples: [
           { es: "Lovely day, isn't it?", en: "Hace un día precioso, ¿verdad?" },
-          { es: "It's freezing today, isn't it?", en: "Hoy hace un frío que pela, ¿no?" },
+          { es: "It's freezing today, isn't it?", en: "Hoy hace muchísimo frío, ¿no?" },
           { es: "It's been raining all week, hasn't it?", en: "Lleva toda la semana lloviendo, ¿verdad?" },
           { es: "You work at the hospital, don't you?", en: "Trabajas en el hospital, ¿no?" },
           { es: "It was a great party, wasn't it?", en: "Fue una fiesta genial, ¿verdad?" },
@@ -1687,7 +1687,7 @@ export const EN_B1_U30: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Vives en el tercero, ¿no?",
+            source: "Vives en el tercer piso, ¿no?",
             answer: "You live on the third floor, don't you?",
             altAnswers: ["You live on the third floor, right?", "You're on the third floor, aren't you?", "You're on the third floor, right?"],
             explanation: "\"Live\" is present simple, so the tag uses \"don't\": \"don't you?\". \"Right?\" is also very common in informal American English.",
@@ -1876,7 +1876,7 @@ export const EN_B1_U30: Lesson[] = [
           { es: "She's unconscious, but she's breathing.", en: "Está inconsciente, pero respira." },
           { es: "Someone stole my wallet on the subway.", en: "Me han robado la cartera en el metro." },
           { es: "I've been robbed.", en: "Me han robado." },
-          { es: "Our apartment has been broken into.", en: "Han entrado a robar en nuestro piso." },
+          { es: "Our apartment has been broken into.", en: "Han entrado a robar en nuestro departamento." },
         ],
         checkpoint: [
           {
@@ -2006,7 +2006,7 @@ export const EN_B1_U30: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Our", "apartment", "has", "been", "broken", "into."],
-        translation: "Han entrado a robar en nuestro piso.",
+        translation: "Han entrado a robar en nuestro departamento.",
         explanation: "\"Break into\" a place = enter illegally to steal. In the passive, \"into\" stays at the end.",
       },
       {

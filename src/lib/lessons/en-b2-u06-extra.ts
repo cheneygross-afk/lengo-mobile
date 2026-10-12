@@ -155,7 +155,7 @@ export const EN_B2_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Si hubiera sabido que venías, habría hecho una tarta.» Which sentence is correct?",
+        question: "«Si hubiera sabido que venías, habría hecho un pastel.» Which sentence is correct?",
         options: [
           "If I'd known you were coming, I'd have made a cake.",
           "If I'd have known you were coming, I'd made a cake.",
@@ -163,7 +163,7 @@ export const EN_B2_U06_EXTRA: Lesson[] = [
           "If I knew you were coming, I'd make a cake.",
         ],
         correctIndex: 0,
-        explanation: "\"I'd known\" = \"I had known\"; \"I'd have made\" = \"I would have made\". The last option is a second conditional and refers to the present.",
+        explanation: "\"I'd known\" = \"I had known\"; \"I'd have made\" = \"I would have made\". \"If I knew you were coming, I'd make a cake\" is a second conditional and refers to the present.",
       },
       {
         type: "translate",
@@ -284,7 +284,7 @@ export const EN_B2_U06_EXTRA: Lesson[] = [
         type: "speak",
         text: "If I'd known you were coming, I'd have made a cake.",
         tip: "Two different 'd sounds: \"I'd known\" (had) and \"I'd have\" (would). Say \"I'd have\" as \"I'd-uv\".",
-        explanation: "«Si hubiera sabido que venías, habría hecho una tarta», in natural spoken English.",
+        explanation: "«Si hubiera sabido que venías, habría hecho un pastel», in natural spoken English.",
       },
     ],
   },
@@ -530,7 +530,7 @@ export const EN_B2_U06_EXTRA: Lesson[] = [
         type: "speak",
         text: "You'd better hurry up, or you'll miss the train.",
         tip: "The 'd in \"You'd better\" is very light, but keep a tiny pause: \"yood-BET-er\". Stress \"hurry\" and \"miss\".",
-        explanation: "«Más vale que te des prisa, o perderás el tren»: \"had better\" + base form, then \"or\" for the consequence.",
+        explanation: "«Más vale que te apures, o perderás el tren»: \"had better\" + base form, then \"or\" for the consequence.",
       },
       {
         type: "write",

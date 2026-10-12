@@ -85,7 +85,7 @@ export const EN_B1_U17: Lesson[] = [
           { es: "This book, which I read last summer, is great.", en: "Este libro, que leí el verano pasado, es genial." },
           { es: "Carlos, who you met yesterday, is my cousin.", en: "Carlos, al que conociste ayer, es mi primo." },
           { es: "Carlos, whom you met yesterday, is my cousin.", en: "Carlos, a quien conociste ayer, es mi primo. (formal)" },
-          { es: "The cake, which my grandmother made, was delicious.", en: "La tarta, que hizo mi abuela, estaba riquísima." },
+          { es: "The cake, which my grandmother made, was delicious.", en: "El pastel, que hizo mi abuela, estaba riquísimo." },
         ],
         checkpoint: [
           {
@@ -280,7 +280,7 @@ export const EN_B1_U17: Lesson[] = [
         examples: [
           { es: "We won, which was great.", en: "Ganamos, lo cual fue genial." },
           { es: "The train was canceled, which means we'll arrive late.", en: "Cancelaron el tren, lo que significa que llegaremos tarde." },
-          { es: "I was tired, which is why I went to bed early.", en: "Estaba cansado, por eso me fui a la cama pronto." },
+          { es: "I was tired, which is why I went to bed early.", en: "Estaba cansado, por eso me fui a la cama temprano." },
           { es: "He forgot her birthday, which made her very sad.", en: "Se olvidó de su cumpleaños, lo cual la puso muy triste." },
           { es: "She speaks four languages, which is amazing.", en: "Habla cuatro idiomas, lo cual es increíble." },
         ],
@@ -359,7 +359,7 @@ export const EN_B1_U17: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "I was tired, ___ I went to bed early.",
         answer: "which is why",
-        en: "Estaba cansada, [por eso] me fui a la cama pronto.",
+        en: "Estaba cansada, [por eso] me fui a la cama temprano.",
         explanation: "\"Which is why\" links a fact to its result, like «por eso». You could also say \"so I went to bed early\".",
       },
       {

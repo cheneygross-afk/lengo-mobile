@@ -21,7 +21,7 @@ export const EN_B2_U04: Lesson[] = [
         ],
         examples: [
           { es: "I'm having lunch with my parents on Saturday.", en: "El sábado como con mis padres." },
-          { es: "We're meeting some friends for dinner on Friday night.", en: "El viernes por la noche quedamos con unos amigos para cenar." },
+          { es: "We're meeting some friends for dinner on Friday night.", en: "El viernes por la noche nos vemos con unos amigos para cenar." },
           { es: "I'm going to clean the apartment.", en: "Voy a limpiar el apartamento." },
           { es: "I might go hiking if the weather is nice.", en: "Puede que vaya de excursión si hace buen tiempo." },
           { es: "I'll probably just stay home and relax.", en: "Seguramente me quede en casa a descansar." },
@@ -329,13 +329,13 @@ export const EN_B2_U04: Lesson[] = [
         heading: "«Voy a» and «quedamos a las 8»",
         body: [
           "«Voy a» + infinitive usually translates as \"going to\": «voy a pintar la cocina» is \"I'm going to paint the kitchen\". But when «voy a» describes an arrangement with a time and other people, the present continuous is often more natural: «voy a ver a Carlos el martes» is \"I'm seeing Carlos on Tuesday\".",
-          "«Quedar» has no single English verb. For an arrangement that is already made, use the present continuous of \"meet\": «he quedado con Ana a las 8» is \"I'm meeting Ana at 8\". To suggest a time, use \"Let's meet\" or ask \"What time shall we meet?\" (\"should\" is more common in American English).",
-          "Avoid *I have stayed with Ana: in English \"stay\" means «quedarse», remain somewhere, not «quedar con alguien».",
+          "«Quedar de verse» has no single English verb. For an arrangement that is already made, use the present continuous of \"meet\": «quedé de verme con Ana a las 8» is \"I'm meeting Ana at 8\". To suggest a time, use \"Let's meet\" or ask \"What time shall we meet?\" (\"should\" is more common in American English).",
+          "Avoid *I have stayed with Ana: in English \"stay\" means «quedarse», remain somewhere, not «quedar de verse con alguien».",
         ],
         examples: [
           { es: "I'm going to paint the kitchen this weekend.", en: "Este fin de semana voy a pintar la cocina." },
           { es: "I'm seeing Carlos on Tuesday.", en: "El martes voy a ver a Carlos." },
-          { es: "I'm meeting Ana at eight.", en: "He quedado con Ana a las ocho." },
+          { es: "I'm meeting Ana at eight.", en: "Voy a verme con Ana a las ocho." },
           { es: "Let's meet at eight outside the station.", en: "Quedamos a las ocho delante de la estación." },
           { es: "What time should we meet?", en: "¿A qué hora quedamos?" },
           { es: "We've arranged to meet at the cafe.", en: "Hemos quedado en la cafetería." },
@@ -345,7 +345,7 @@ export const EN_B2_U04: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "He quedado con Diego a las ocho.",
+            source: "Quedé de verme con Diego a las ocho.",
             answer: "I'm meeting Diego at eight.",
             altAnswers: [
               "I'm meeting Diego at 8 o'clock.",
@@ -355,12 +355,12 @@ export const EN_B2_U04: Lesson[] = [
               "I'm supposed to meet Diego at eight.",
               "I'm going to meet Diego at eight.",
             ],
-            explanation: "«Quedar con alguien» is an arrangement: present continuous of \"meet\". \"I have stayed with Diego\" means something completely different.",
+            explanation: "«Quedar de verse con alguien» is an arrangement: present continuous of \"meet\". \"I have stayed with Diego\" means something completely different.",
           },
           {
             type: "multiple-choice",
             question: "How do you suggest a time to a friend, as in «¿Quedamos a las siete?»",
-            options: ["Shall we meet at seven?", "Do we stay at seven?", "Will we stay at seven?", "Are we staying at seven?"],
+            options: ["Should we meet at seven?", "Do we stay at seven?", "Will we stay at seven?", "Are we staying at seven?"],
             correctIndex: 0,
             explanation: "\"Shall we...?\" or \"Should we...?\" makes a suggestion. \"Stay\" means remain in a place.",
           },
@@ -443,13 +443,13 @@ export const EN_B2_U04: Lesson[] = [
         heading: "When the Spanish present means future",
         body: [
           "Spanish uses the present for quick decisions, offers and promises: «te llamo luego», «¿te ayudo?», «mañana te lo devuelvo». English cannot do this. A decision or promise made now needs \"will\": \"I'll call you later\", \"I'll give it back tomorrow\".",
-          "Offers become \"Shall I...?\" or \"Should I...?\", \"Do you want me to...?\" or \"Let me...\": «¿te ayudo con las bolsas?» is \"Do you want me to help you with the bags?\" or \"Shall I help you with the bags?\". *Do I help you? is not English.",
+          "Offers become \"Should I...?\" (British \"Shall I...?\"), \"Do you want me to...?\" or \"Let me...\": «¿te ayudo con las bolsas?» is \"Do you want me to help you with the bags?\" or \"Should I help you with the bags?\". *Do I help you? is not English.",
           "The present simple is correct in English only for timetables and schedules: \"The train leaves at 6\", \"The course starts on Monday\".",
         ],
         examples: [
           { es: "I'll call you later.", en: "Te llamo luego." },
           { es: "I'll give it back to you tomorrow, I promise.", en: "Mañana te lo devuelvo, te lo prometo." },
-          { es: "Shall I open the window?", en: "¿Abro la ventana?" },
+          { es: "Should I open the window?", en: "¿Abro la ventana?" },
           { es: "Do you want me to help you with the bags?", en: "¿Te ayudo con las bolsas?" },
           { es: "The train leaves at six.", en: "El tren sale a las seis." },
         ],
@@ -473,7 +473,7 @@ export const EN_B2_U04: Lesson[] = [
               "Want me to help you with the bags?",
               "Can I help with the bags?",
             ],
-            explanation: "An offer cannot use the present simple in English. Use \"Shall I...?\", \"Do you want me to...?\" or \"Can I...?\".",
+            explanation: "An offer cannot use the present simple in English. Use \"Should I...?\", \"Do you want me to...?\" or \"Can I...?\".",
           },
         ],
       },
@@ -778,7 +778,7 @@ export const EN_B2_U04: Lesson[] = [
         examples: [
           { es: "On Saturday we're going to the beach.", en: "El sábado vamos a la playa." },
           { es: "I'm going to get the guest room ready.", en: "Voy a preparar la habitación de invitados." },
-          { es: "By the time you arrive, I'll have cleaned the whole apartment.", en: "Para cuando llegues, habré limpiado todo el piso." },
+          { es: "By the time you arrive, I'll have cleaned the whole apartment.", en: "Para cuando llegues, habré limpiado todo el departamento." },
           { es: "I'll call you tomorrow to talk about it.", en: "Mañana te llamo para hablarlo." },
         ],
         checkpoint: [
@@ -960,7 +960,7 @@ export const EN_B2_U04: Lesson[] = [
         heading: "Asking about deadlines",
         body: [
           "The future perfect question \"Will you have finished it by Thursday?\" asks whether a task will be complete at a deadline. A simpler, very common alternative is \"Will it be ready by Thursday?\" or \"Can you get it done by Thursday?\".",
-          "To ask about the deadline itself, say \"When do you need it by?\" (with \"by\" at the end) or \"When is it due?\". «Para cuándo es?» is \"When is it due?\", and the answer is \"It's due on Friday\" or \"The deadline is Friday\".",
+          "To ask about the deadline itself, say \"When do you need it by?\" (with \"by\" at the end) or \"When is it due?\". «¿Para cuándo es?» is \"When is it due?\", and the answer is \"It's due on Friday\" or \"The deadline is Friday\".",
           "A typical Spanish-speaker error is *For when do you need it?. English puts the preposition at the end of the question, and the preposition for deadlines is \"by\".",
         ],
         examples: [
@@ -995,13 +995,13 @@ export const EN_B2_U04: Lesson[] = [
         heading: "Describing your schedule",
         body: [
           "To explain why you are busy, English uses the future continuous: \"I'll be working on the budget all day tomorrow\", \"I'll be in meetings all morning\". It paints a picture of what you will be in the middle of.",
-          "Fixed absences are often in the present continuous or with \"be\" + preposition: \"I'm working from home on Friday\", \"I'm off tomorrow\" («mañana libro»), \"I'll be out of the office until Monday\".",
+          "Fixed absences are often in the present continuous or with \"be\" + preposition: \"I'm working from home on Friday\", \"I'm off tomorrow\" («mañana tengo el día libre»), \"I'll be out of the office until Monday\".",
           "Remember \"by\" and \"until\": \"I'll be away until Monday\" (the whole period, «hasta el lunes»), but \"I'll reply by Monday\" (a deadline, «antes del lunes»).",
         ],
         examples: [
           { es: "I'll be in meetings all morning.", en: "Estaré en reuniones toda la mañana." },
           { es: "I'm working from home on Friday.", en: "El viernes trabajo desde casa." },
-          { es: "I'm off tomorrow.", en: "Mañana libro." },
+          { es: "I'm off tomorrow.", en: "Mañana tengo el día libre." },
           { es: "I'll be out of the office until Monday.", en: "Estaré fuera de la oficina hasta el lunes." },
           { es: "I'll be traveling most of next week.", en: "Estaré de viaje casi toda la semana que viene." },
         ],
@@ -1175,7 +1175,7 @@ export const EN_B2_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mañana libro, así que no estaré en la oficina.",
+        source: "Mañana tengo el día libre, así que no estaré en la oficina.",
         answer: "I'm off tomorrow, so I won't be in the office.",
         altAnswers: [
           "I'm off tomorrow, so I won't be at the office.",
@@ -1378,7 +1378,7 @@ export const EN_B2_U04: Lesson[] = [
           { es: "Call me when you get home.", en: "Llámame cuando llegues a casa." },
           { es: "I'm going to relax when the exams are over.", en: "Voy a descansar cuando terminen los exámenes." },
           { es: "You can leave once you've finished.", en: "Puedes irte cuando hayas terminado." },
-          { es: "I'm meeting them after I finish work.", en: "He quedado con ellos después de salir de trabajar." },
+          { es: "I'm meeting them after I finish work.", en: "Voy a verme con ellos después de salir del trabajo." },
         ],
         checkpoint: [
           {

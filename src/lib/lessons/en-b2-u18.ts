@@ -153,7 +153,7 @@ export const EN_B2_U18: Lesson[] = [
           { es: "Thank you for your time and consideration.", en: "Gracias por su tiempo y atención." },
           { es: "Sincerely,", en: "Atentamente, (EE. UU.)" },
           { es: "Kind regards,", en: "Un cordial saludo," },
-          { es: "I look forward to meeting you.", en: "Espero conocerle en persona." },
+          { es: "I look forward to meeting you.", en: "Espero conocerlo en persona." },
         ],
         checkpoint: [
           {
@@ -672,7 +672,7 @@ export const EN_B2_U18: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "En mi opinión, los deberes son necesarios.",
+            source: "En mi opinión, la tarea es necesaria.",
             answer: "In my opinion, homework is necessary.",
             altAnswers: [
               "In my view, homework is necessary.",
@@ -915,7 +915,7 @@ export const EN_B2_U18: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write the introduction and conclusion of an opinion essay (70–100 words in total) on this question: \"Should mobile phones be banned in schools?\"",
+        prompt: "Write the introduction and conclusion of an opinion essay (70–100 words in total) on this question: \"Should cell phones be banned in schools?\"",
         minWords: 70,
         maxWords: 100,
         rubric: [
@@ -1047,7 +1047,7 @@ export const EN_B2_U18: Lesson[] = [
       {
         heading: "Run-on sentences and flow",
         body: [
-          "Spanish tolerates long sentences joined with commas. English does not: *The service was slow, the food was cold, we left early is a run-on sentence (a comma splice). Use a full stop, a semicolon or a linker: \"The service was slow and the food was cold, so we left early.\"",
+          "Spanish tolerates long sentences joined with commas. English does not: *The service was slow, the food was cold, we left early is a run-on sentence (a comma splice). Use a period, a semicolon or a linker: \"The service was slow and the food was cold, so we left early.\"",
           "A good paragraph moves from general to specific and uses signposts: \"For example,\", \"For instance,\", \"In particular,\", \"As a result,\", \"In other words,\".",
           "Vary sentence length: a short sentence after two long ones gives emphasis. But each sentence should contain one clear idea, with its own subject. Remember that English sentences always need a subject: \"Is important to...\" must be \"It is important to...\".",
         ],
@@ -1197,7 +1197,7 @@ export const EN_B2_U18: Lesson[] = [
           "No run-on sentences (no two clauses joined only by a comma)",
           "Every sentence has a subject",
         ],
-        modelAnswer: "Tourism has changed my city in both positive and negative ways. On the one hand, it has created thousands of jobs in hotels and restaurants. This growth has helped many young people stay in the area. On the other hand, rents in the center have risen sharply because many apartments are now holiday rentals. Such changes have forced some families to move to the suburbs. In other words, the city is richer, but it is also less affordable for the people who live there.",
+        modelAnswer: "Tourism has changed my city in both positive and negative ways. On the one hand, it has created thousands of jobs in hotels and restaurants. This growth has helped many young people stay in the area. On the other hand, rents in the center have risen sharply because many apartments are now vacation rentals. Such changes have forced some families to move to the suburbs. In other words, the city is richer, but it is also less affordable for the people who live there.",
         explanation: "A clear topic sentence plus reference words (\"This growth\", \"Such changes\") makes the paragraph easy to follow.",
       },
     ],
@@ -1285,14 +1285,14 @@ export const EN_B2_U18: Lesson[] = [
       {
         heading: "Recommending",
         body: [
-          "Useful phrases: \"I'd highly recommend it\", \"I'd recommend it to anyone who...\", \"It's well worth seeing / reading / a visit\", \"It's a must-see\", \"Don't miss it!\". To advise against: \"I wouldn't recommend it\", \"Give it a miss\", \"Save your money\".",
+          "Useful phrases: \"I'd highly recommend it\", \"I'd recommend it to anyone who...\", \"It's well worth seeing / reading / a visit\", \"It's a must-see\", \"Don't miss it!\". To advise against: \"I wouldn't recommend it\", \"Skip it\", \"Save your money\".",
           "Grammar trap: \"worth\" is followed by -ing or a noun: \"It's worth seeing\", \"It's worth the money\", never *It's worth to see.",
           "Another trap: \"recommend\" doesn't take person + to-infinitive in standard English. Say \"I recommend seeing it\", \"I recommend that you see it\" or \"I'd recommend it to you\", not *I recommend you to see it.",
         ],
         examples: [
           { es: "I'd highly recommend this book to anyone who loves history.", en: "Recomiendo mucho este libro a cualquiera a quien le guste la historia." },
           { es: "The exhibition is well worth a visit.", en: "Merece mucho la pena visitar la exposición." },
-          { es: "It's definitely worth seeing on the big screen.", en: "Sin duda merece la pena verla en pantalla grande. (incorrecto: *worth to see)" },
+          { es: "It's definitely worth seeing on the big screen.", en: "Sin duda vale la pena verla en pantalla grande. (incorrecto: *worth to see)" },
           { es: "I recommend booking a table in advance.", en: "Recomiendo reservar mesa con antelación." },
           { es: "I recommend that you try the dessert.", en: "Te recomiendo que pruebes el postre. (incorrecto: *I recommend you to try)" },
           { es: "If you're expecting a comedy, give it a miss.", en: "Si esperas una comedia, mejor no la veas." },
@@ -1302,7 +1302,7 @@ export const EN_B2_U18: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Merece la pena leer el libro antes de ver la película.",
+            source: "Vale la pena leer el libro antes de ver la película.",
             answer: "It's worth reading the book before seeing the film.",
             altAnswers: [
               "It's worth reading the book before seeing the movie.",
@@ -1444,7 +1444,7 @@ export const EN_B2_U18: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Aunque el final es algo predecible, la película merece la pena.",
+        source: "Aunque el final es algo predecible, la película vale la pena.",
         answer: "Although the ending is somewhat predictable, the film is worth seeing.",
         altAnswers: [
           "Although the ending is somewhat predictable, the movie is worth seeing.",
@@ -1542,7 +1542,7 @@ export const EN_B2_U18: Lesson[] = [
           "The introduction states the purpose: \"The aim of this report is to...\", \"The purpose of this report is to...\", \"This report examines / evaluates...\". The \"to\" after \"aim\" and \"purpose\" is followed by a base verb.",
         ],
         examples: [
-          { es: "The aim of this report is to evaluate the new canteen.", en: "El objetivo de este informe es evaluar el nuevo comedor." },
+          { es: "The aim of this report is to evaluate the new cafeteria.", en: "El objetivo de este informe es evaluar el nuevo comedor." },
           { es: "This report examines the causes of the delays.", en: "Este informe analiza las causas de los retrasos." },
           { es: "The information was gathered through an online survey.", en: "La información se recogió mediante una encuesta en línea." },
           { es: "Findings", en: "Resultados (encabezado)" },
@@ -1799,8 +1799,8 @@ export const EN_B2_U18: Lesson[] = [
         type: "multiple-choice",
         question: "Which sentence suits a report rather than an opinion essay?",
         options: [
-          "Seventy percent of students said the canteen was too expensive.",
-          "I am absolutely convinced that the canteen is a disaster.",
+          "Seventy percent of students said the cafeteria was too expensive.",
+          "I am absolutely convinced that the cafeteria is a disaster.",
           "Have you ever eaten in a worse place?",
           "In my humble opinion, the food is awful.",
         ],
@@ -3093,7 +3093,7 @@ export const EN_B2_U18: Lesson[] = [
         examples: [
           { es: "Whereas my brother loves cities, I prefer the countryside.", en: "Mientras que a mi hermano le encantan las ciudades, yo prefiero el campo." },
           { es: "Even though it was late, the shop was still open.", en: "Aunque era tarde, la tienda seguía abierta." },
-          { es: "In spite of the cost, the project was approved.", en: "A pesar del coste, el proyecto se aprobó." },
+          { es: "In spite of the cost, the project was approved.", en: "A pesar del costo, el proyecto se aprobó." },
         ],
       },
       {

@@ -87,7 +87,7 @@ export const EN_A1_UNIT_WRITING: Record<string, WriteExercise> = {
       "\"I can\" o \"I can't\" + verbo sin \"to\"",
       "\"have\" o \"has\" (\"My town has a beach\")",
     ],
-    "I live in a small town near the sea. There is a big park and there are two supermarkets. My town has a beautiful beach. I like swimming and I like the cafes in the square. I can swim very well, but I can't surf. There isn't a cinema, and that's a problem!",
+    "I live in a small town near the sea. There is a big park and there are two supermarkets. My town has a beautiful beach. I like swimming and I like the cafes in the square. I can swim very well, but I can't surf. There isn't a movie theater, and that's a problem!",
     "«Hay» se dice \"there is\" con singular y \"there are\" con plural, nunca *it has. Después de \"can\" el verbo va sin \"to\": \"I can swim\", no *I can to swim."
   ),
   u8: t(

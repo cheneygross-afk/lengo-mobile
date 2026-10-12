@@ -15,7 +15,7 @@ export const EN_B2_U27: Lesson[] = [
       {
         heading: "Travel, trip or journey?",
         body: [
-          "Spanish uses «viaje» for almost everything. English splits it into three words. \"Travel\" is mainly a verb (\"I love to travel\") or an uncountable noun for travelling in general (\"Travel broadens the mind\"). You cannot say *a travel: «un viaje» is \"a trip\".",
+          "Spanish uses «viaje» for almost everything. English splits it into three words. \"Travel\" is mainly a verb (\"I love to travel\") or an uncountable noun for traveling in general (\"Travel broadens the mind\"). You cannot say *a travel: «un viaje» is \"a trip\".",
           "\"Trip\" is a visit to a place and back, short or long: \"a business trip\", \"a school trip\", \"a trip to Peru\". The usual verbs are \"go on a trip\" and \"take a trip\". Never *make a trip in this sense. To ask about someone's «viaje», say \"How was your trip?\", not *How was your travel?",
           "\"Journey\" is the act of getting from one place to another, especially a long one: \"The journey from Madrid to Lisbon takes nine hours by bus\". Americans often just say \"trip\" or \"ride\" for this too. \"Journey\" also has a figurative use: \"a journey of self-discovery\".",
         ],
@@ -290,9 +290,9 @@ export const EN_B2_U27: Lesson[] = [
         examples: [
           { es: "I commute to work by bike.", en: "Voy y vengo del trabajo en bici." },
           { es: "My commute takes about forty minutes.", en: "Mi trayecto al trabajo dura unos cuarenta minutos." },
-          { es: "The subway is packed during rush hour.", en: "El metro va lleno en hora punta." },
+          { es: "The subway is packed during rush hour.", en: "El metro va lleno en hora pico." },
           { es: "We were stuck in traffic for two hours.", en: "Estuvimos dos horas metidos en un atasco." },
-          { es: "Public transportation here is cheap and reliable.", en: "El transporte público aquí es barato y fiable." },
+          { es: "Public transportation here is cheap and reliable.", en: "El transporte público aquí es barato y confiable." },
         ],
         checkpoint: [
           {
@@ -322,8 +322,8 @@ export const EN_B2_U27: Lesson[] = [
             sentence: "Avoid driving downtown during ___ .",
             answer: "rush hour",
             altAnswers: ["the rush hour"],
-            en: "Evita manejar por el centro en [hora punta].",
-            explanation: "«Hora punta» (or «hora pico» in Latin America) is \"rush hour\", usually without \"the\".",
+            en: "Evita manejar por el centro en [hora pico].",
+            explanation: "«Hora pico» (Spain: «hora punta») is \"rush hour\", usually without \"the\".",
           },
         ],
       },
@@ -335,9 +335,9 @@ export const EN_B2_U27: Lesson[] = [
           "\"Delay\" is the noun and the verb: \"There was a two-hour delay\", \"Our flight was delayed\". If the service does not run at all, it is \"canceled\". «Retrasarse» for a person is \"be late\", not *be delayed (that sounds like someone held you up).",
         ],
         examples: [
-          { es: "Hurry up or we'll miss the train!", en: "¡Date prisa o perderemos el tren! (incorrecto: *lose the train)" },
+          { es: "Hurry up or we'll miss the train!", en: "¡Apúrate o perderemos el tren! (incorrecto: *lose the train)" },
           { es: "I missed my flight because of the traffic.", en: "Perdí el vuelo por el tráfico." },
-          { es: "We just managed to catch the last bus.", en: "Por los pelos pillamos el último autobús." },
+          { es: "We just managed to catch the last bus.", en: "Alcanzamos el último autobús de milagro." },
           { es: "I usually take the subway to work.", en: "Normalmente voy al trabajo en metro." },
           { es: "Our flight was delayed by three hours.", en: "Nuestro vuelo se retrasó tres horas." },
           { es: "Sorry I'm late. The train was delayed.", en: "Perdón por llegar tarde. El tren venía con retraso." },
@@ -345,7 +345,7 @@ export const EN_B2_U27: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "How do you say «perdí el autobús y tuve que ir andando»?",
+            question: "How do you say «perdí el autobús y tuve que ir caminando»?",
             options: [
               "I missed the bus and had to walk.",
               "I lost the bus and had to walk.",
@@ -389,7 +389,7 @@ export const EN_B2_U27: Lesson[] = [
           { es: "Get in the car, we're late!", en: "¡Sube al carro, que llegamos tarde!" },
           { es: "He got out of the taxi and paid the driver.", en: "Se bajó del taxi y pagó al conductor." },
           { es: "Pedestrians must use the crosswalk.", en: "Los peatones deben usar el paso de peatones." },
-          { es: "The bus fare is two dollars.", en: "El billete de autobús cuesta dos dólares." },
+          { es: "The bus fare is two dollars.", en: "El boleto de autobús cuesta dos dólares." },
         ],
         checkpoint: [
           {
@@ -484,7 +484,7 @@ export const EN_B2_U27: Lesson[] = [
           { left: "sidewalk", right: "acera" },
           { left: "crosswalk", right: "paso de peatones" },
           { left: "subway", right: "metro" },
-          { left: "fare", right: "precio del billete" },
+          { left: "fare", right: "precio del boleto" },
           { left: "commuter", right: "persona que se desplaza a diario al trabajo" },
         ],
         explanation: "British English says \"pavement\", \"zebra crossing\" and \"the underground\" (in London, \"the Tube\").",
@@ -500,7 +500,7 @@ export const EN_B2_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "En hora punta el metro va lleno de gente.",
+        source: "En hora pico el metro va lleno de gente.",
         answer: "During rush hour the subway is packed.",
         altAnswers: [
           "During rush hour the subway is full of people.",
@@ -660,7 +660,7 @@ export const EN_B2_U27: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Se están construyendo muchos pisos nuevos en el barrio.",
+            source: "Se están construyendo muchos departamentos nuevos en el barrio.",
             answer: "A lot of new apartments are being built in the neighborhood.",
             altAnswers: [
               "Lots of new apartments are being built in the neighborhood.",
@@ -675,7 +675,7 @@ export const EN_B2_U27: Lesson[] = [
               "They are building lots of new apartments in the neighborhood.",
               "They're building a lot of new flats in the neighborhood.",
             ],
-            explanation: "«Se están construyendo» is the present continuous passive: \"are being built\". «Piso» is \"apartment\" (American) or \"flat\" (British).",
+            explanation: "«Se están construyendo» is the present continuous passive: \"are being built\". «Departamento» is \"apartment\" (American) or \"flat\" (British).",
           },
           {
             type: "fill-blank",
@@ -832,7 +832,7 @@ export const EN_B2_U27: Lesson[] = [
         examples: [
           { es: "We moved to a bigger place last year.", en: "El año pasado nos mudamos a un sitio más grande." },
           { es: "They're moving house next month.", en: "Se mudan el mes que viene. (inglés británico)" },
-          { es: "When are you moving in?", en: "¿Cuándo te mudas (al piso nuevo)?" },
+          { es: "When are you moving in?", en: "¿Cuándo te mudas (al departamento nuevo)?" },
           { es: "I moved out of my parents' place when I was 25.", en: "Me fui de casa de mis padres a los 25." },
           { es: "She moved in with her boyfriend.", en: "Se fue a vivir con su novio." },
           { es: "The move took the whole weekend.", en: "La mudanza nos llevó todo el fin de semana." },
@@ -885,8 +885,8 @@ export const EN_B2_U27: Lesson[] = [
           { es: "Our landlord is very slow to fix things.", en: "Nuestro casero tarda mucho en arreglar las cosas." },
           { es: "The tenants complained about the heating.", en: "Los inquilinos se quejaron de la calefacción." },
           { es: "We had to pay two months' rent as a deposit.", en: "Tuvimos que pagar dos meses de fianza." },
-          { es: "She rents out her apartment to students.", en: "Alquila su piso a estudiantes." },
-          { es: "I'm looking for a roommate.", en: "Busco compañero de piso." },
+          { es: "She rents out her apartment to students.", en: "Alquila su departamento a estudiantes." },
+          { es: "I'm looking for a roommate.", en: "Busco compañero de cuarto." },
           { es: "We signed a one-year lease.", en: "Firmamos un contrato de alquiler de un año." },
         ],
         checkpoint: [
@@ -903,7 +903,7 @@ export const EN_B2_U27: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Comparto piso con dos compañeros.",
+            source: "Comparto departamento con dos compañeros.",
             answer: "I share an apartment with two roommates.",
             altAnswers: [
               "I share a flat with two flatmates.",
@@ -917,7 +917,7 @@ export const EN_B2_U27: Lesson[] = [
               "I share an apartment with two people.",
               "I share a flat with two people.",
             ],
-            explanation: "«Compañero de piso» is \"roommate\" (American) or \"flatmate\" (British).",
+            explanation: "«Compañero de cuarto» is \"roommate\" (American) or \"flatmate\" (British).",
           },
         ],
       },
@@ -1050,7 +1050,7 @@ export const EN_B2_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi casera alquila el piso de abajo a turistas.",
+        source: "Mi casera alquila el departamento de abajo a turistas.",
         answer: "My landlady rents out the apartment downstairs to tourists.",
         altAnswers: [
           "My landlady rents the apartment downstairs to tourists.",
@@ -1119,10 +1119,10 @@ export const EN_B2_U27: Lesson[] = [
           "British and American English differ here: Americans \"do the dishes\" and \"vacuum\"; British speakers also say \"do the washing-up\" and \"hoover\" (from the brand name). \"Chores\" is the general word for these jobs: \"I hate doing chores\".",
         ],
         examples: [
-          { es: "We take turns doing the dishes.", en: "Nos turnamos para fregar los platos." },
-          { es: "I do the laundry on Sundays.", en: "Pongo la lavadora los domingos." },
+          { es: "We take turns doing the dishes.", en: "Nos turnamos para lavar los platos." },
+          { es: "I do the laundry on Sundays.", en: "Lavo la ropa los domingos." },
           { es: "Make your bed before you go to school.", en: "Haz la cama antes de ir al colegio." },
-          { es: "Who's doing the washing-up tonight?", en: "¿Quién friega esta noche? (inglés británico)" },
+          { es: "Who's doing the washing-up tonight?", en: "¿Quién lava los platos esta noche? (inglés británico)" },
           { es: "The kids made a mess in the kitchen.", en: "Los niños lo dejaron todo hecho un desastre en la cocina." },
           { es: "I vacuum the living room twice a week.", en: "Paso la aspiradora por el salón dos veces por semana." },
         ],
@@ -1143,7 +1143,7 @@ export const EN_B2_U27: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Yo cocino y tú friegas los platos.",
+            source: "Yo cocino y tú lavas los platos.",
             answer: "I'll cook and you do the dishes.",
             altAnswers: [
               "I cook and you do the dishes.",
@@ -1159,7 +1159,7 @@ export const EN_B2_U27: Lesson[] = [
               "I cook, you do the dishes.",
               "I'll cook and you can do the dishes.",
             ],
-            explanation: "«Fregar los platos» is \"do the dishes\" or \"wash the dishes\" (British \"do the washing-up\").",
+            explanation: "«Lavar los platos» is \"do the dishes\" or \"wash the dishes\" (British \"do the washing-up\").",
           },
         ],
       },
@@ -1167,7 +1167,7 @@ export const EN_B2_U27: Lesson[] = [
         heading: "Keeping the place tidy",
         body: [
           "\"Tidy\" means organized, with things in their place. \"Tidy up\" (mainly British) and \"clean up\" or \"pick up\" (American) mean put things back where they belong: \"Tidy up your room!\". \"Clean\" means remove dirt.",
-          "Other everyday verbs: \"dust\" («quitar el polvo»), \"mop the floor\" («fregar el suelo»), \"sweep\" («barrer»), \"take out the trash\" (American) or \"take the rubbish out\" (British), \"put away\" («guardar»): \"Put your toys away\".",
+          "Other everyday verbs: \"dust\" («quitar el polvo»), \"mop the floor\" («trapear / fregar el piso»), \"sweep\" («barrer»), \"take out the trash\" (American) or \"take the rubbish out\" (British), \"put away\" («guardar»): \"Put your toys away\".",
           "Notice that \"put away\" and \"take out\" are separable: with a pronoun, the pronoun goes in the middle: \"put them away\", \"take it out\".",
         ],
         examples: [
@@ -1295,7 +1295,7 @@ export const EN_B2_U27: Lesson[] = [
         pairs: [
           { left: "vacuum", right: "pasar la aspiradora" },
           { left: "sweep", right: "barrer" },
-          { left: "mop the floor", right: "fregar el suelo" },
+          { left: "mop the floor", right: "trapear el piso" },
           { left: "dust", right: "quitar el polvo" },
           { left: "do the laundry", right: "lavar la ropa" },
         ],
@@ -1383,10 +1383,10 @@ export const EN_B2_U27: Lesson[] = [
         audio: "Whose turn is it to do the dishes?",
         question: "What did you hear?",
         options: [
-          "¿A quién le toca fregar los platos?",
+          "¿A quién le toca lavar los platos?",
           "¿Quién ha roto los platos?",
           "¿De quién son estos platos?",
-          "¿Cuándo vas a fregar los platos?",
+          "¿Cuándo vas a lavar los platos?",
         ],
         correctIndex: 0,
         explanation: "\"Whose turn is it to...?\" is «¿A quién le toca...?».",
@@ -1415,8 +1415,8 @@ export const EN_B2_U27: Lesson[] = [
           "The things you need for a recipe are the \"ingredients\". A \"cook\" is a person who cooks; a \"cooker\" is the British word for a stove. So «es muy buen cocinero» is \"He's a very good cook\", never *a good cooker.",
         ],
         examples: [
-          { es: "This is my grandmother's recipe for apple pie.", en: "Esta es la receta de tarta de manzana de mi abuela." },
-          { es: "Could I have a receipt, please?", en: "¿Me da el ticket, por favor?" },
+          { es: "This is my grandmother's recipe for apple pie.", en: "Esta es la receta de pie de manzana de mi abuela." },
+          { es: "Could I have a receipt, please?", en: "¿Me da el recibo, por favor?" },
           { es: "You need a prescription for these pills.", en: "Para estas pastillas hace falta receta." },
           { es: "Keep the receipt in case you want to return it.", en: "Guarda el recibo por si quieres devolverlo." },
           { es: "My brother is an excellent cook.", en: "Mi hermano es un cocinero excelente." },
@@ -1510,7 +1510,7 @@ export const EN_B2_U27: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "No me apetece cocinar. ¿Comemos fuera?",
+            source: "No tengo ganas de cocinar. ¿Comemos fuera?",
             answer: "I don't feel like cooking. Shall we eat out?",
             altAnswers: [
               "I don't feel like cooking. Should we eat out?",
@@ -1524,7 +1524,7 @@ export const EN_B2_U27: Lesson[] = [
               "I don't want to cook. Shall we eat out?",
               "I don't want to cook. Should we eat out?",
             ],
-            explanation: "«Comer fuera» is \"eat out\". «No me apetece» is \"I don't feel like\" + -ing.",
+            explanation: "«Comer fuera» is \"eat out\". «No tengo ganas de» is \"I don't feel like\" + -ing.",
           },
           {
             type: "fill-blank",
@@ -1543,7 +1543,7 @@ export const EN_B2_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Guarde el ticket por si tiene que devolverlo.",
+        source: "Guarde el recibo por si tiene que devolverlo.",
         answer: "Keep the receipt in case you need to return it.",
         altAnswers: [
           "Keep the receipt in case you have to return it.",
@@ -1582,7 +1582,7 @@ export const EN_B2_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Esta tarta está riquísima. ¿Me das la receta?",
+        source: "Este pastel está riquísimo. ¿Me das la receta?",
         answer: "This cake is delicious. Can I have the recipe?",
         altAnswers: [
           "This cake is delicious. Could I have the recipe?",
@@ -1609,7 +1609,7 @@ export const EN_B2_U27: Lesson[] = [
           { left: "savory", right: "salado (no dulce)" },
           { left: "salty", right: "con demasiada sal" },
           { left: "spicy", right: "picante" },
-          { left: "rich", right: "pesado, con mucha grasa o nata" },
+          { left: "rich", right: "pesado, con mucha grasa o crema" },
         ],
         explanation: "\"Rich\" food is heavy and creamy. For «rico» use \"delicious\".",
       },
@@ -2246,7 +2246,7 @@ export const EN_B2_U27: Lesson[] = [
         ],
         examples: [
           { es: "We're having the bathroom redone next month.", en: "El mes que viene nos reforman el baño." },
-          { es: "We're going to have solar panels installed.", en: "Vamos a poner placas solares." },
+          { es: "We're going to have solar panels installed.", en: "Vamos a poner paneles solares." },
           { es: "I'll get the lock changed tomorrow.", en: "Mañana mando cambiar la cerradura." },
           { es: "The landlord had the boiler replaced.", en: "El casero hizo cambiar la caldera." },
           { es: "Have you had your car serviced recently?", en: "¿Le has hecho la revisión al carro últimamente?" },
@@ -2285,7 +2285,7 @@ export const EN_B2_U27: Lesson[] = [
           "Watch the key word traps from this unit: \"trip\" not *travel, \"miss\" not *lose the train, \"move\" not *move myself, \"recipe\" not \"receipt\", \"beat\" a team not *win it.",
         ],
         examples: [
-          { es: "We're moving next month, so we're having the new place painted.", en: "Nos mudamos el mes que viene, así que nos están pintando el piso nuevo." },
+          { es: "We're moving next month, so we're having the new place painted.", en: "Nos mudamos el mes que viene, así que nos están pintando el departamento nuevo." },
           { es: "If we miss the last train, we'll get a taxi.", en: "Si perdemos el último tren, tomaremos un taxi." },
           { es: "We're going on a trip as soon as the kids finish school.", en: "Nos vamos de viaje en cuanto los niños terminen el colegio." },
           { es: "I'll drop you off at the station before I go to work.", en: "Te dejo en la estación antes de ir al trabajo." },
@@ -2350,7 +2350,7 @@ export const EN_B2_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Antes de alquilar el piso, el casero va a hacer pintar las paredes.",
+        source: "Antes de alquilar el departamento, el casero va a hacer pintar las paredes.",
         answer: "Before renting out the apartment, the landlord is going to have the walls painted.",
         altAnswers: [
           "Before renting the apartment out, the landlord is going to have the walls painted.",
@@ -2507,7 +2507,7 @@ export const EN_B2_U27: Lesson[] = [
     slug: "b2-word-web-tema-holiday",
     level: "EN-B2",
     number: 10,
-    title: "Themed Review: A Holiday to Remember",
+    title: "Themed Review: A Vacation to Remember",
     summary: "Tell the story of a trip that went wrong using this unit's vocabulary, narrative tenses and regrets: I wish I had booked, we should have checked, if we had left earlier...",
     duration: "12 min",
     sections: [
@@ -2698,7 +2698,7 @@ export const EN_B2_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No deberíamos haber alquilado un piso tan lejos del centro.",
+        source: "No deberíamos haber alquilado un departamento tan lejos del centro.",
         answer: "We shouldn't have rented an apartment so far from downtown.",
         altAnswers: [
           "We shouldn't have rented an apartment so far from the center.",
@@ -2787,12 +2787,12 @@ export const EN_B2_U27: Lesson[] = [
       {
         heading: "At the doctor's: constipated and embarrassed",
         body: [
-          "«Estar constipado» means having a cold. In English, \"constipated\" means «estreñido»: unable to go to the toilet easily. So «estoy constipado» is \"I have a cold\" or \"I've got a cold\". Saying *I'm constipated at work will produce some strange looks.",
+          "In Spain, «estar constipado» means having a cold (in much of Latin America it means a blocked nose, or even constipation). In English, \"constipated\" means «estreñido»: unable to go to the toilet easily. So «estoy constipado» is \"I have a cold\" or \"I've got a cold\". Saying *I'm constipated at work will produce some strange looks.",
           "«Embarazada» means \"pregnant\". \"Embarrassed\" means «avergonzado» or «con vergüenza», the feeling after doing something awkward in public: \"I was so embarrassed when I fell over\". The adjective for the situation is \"embarrassing\": \"an embarrassing moment\".",
           "Both mistakes are classic because the words look so similar. Learn them as pairs: «constipado» = \"have a cold\"; «estreñido» = \"constipated\"; «embarazada» = \"pregnant\"; «avergonzado» = \"embarrassed\".",
         ],
         examples: [
-          { es: "I have a terrible cold.", en: "Estoy muy constipado." },
+          { es: "I have a terrible cold.", en: "Estoy muy resfriado (en España: constipado)." },
           { es: "If you're constipated, eat more fiber.", en: "Si estás estreñido, come más fibra." },
           { es: "My sister is pregnant with twins.", en: "Mi hermana está embarazada de gemelos." },
           { es: "I was really embarrassed when I forgot his name.", en: "Me dio muchísima vergüenza cuando olvidé su nombre." },
@@ -2803,7 +2803,7 @@ export const EN_B2_U27: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "No puedo ir hoy; estoy constipado.",
+            source: "No puedo ir hoy; estoy resfriado.",
             answer: "I can't go today; I have a cold.",
             altAnswers: [
               "I can't go today. I have a cold.",
@@ -2996,7 +2996,7 @@ export const EN_B2_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Tuvimos que cambiar la moqueta porque estaba muy vieja.",
+        source: "Tuvimos que cambiar la alfombra porque estaba muy vieja.",
         answer: "We had to change the carpet because it was very old.",
         altAnswers: [
           "We had to replace the carpet because it was very old.",
@@ -3017,9 +3017,9 @@ export const EN_B2_U27: Lesson[] = [
         type: "listen-choose",
         audio: "I've got a cold, so I'm staying at home.",
         question: "What is the problem?",
-        options: ["Está constipado.", "Está estreñido.", "Está embarazada.", "Está avergonzado."],
+        options: ["Está resfriado.", "Está estreñido.", "Está embarazada.", "Está avergonzado."],
         correctIndex: 0,
-        explanation: "\"I've got a cold\" is «estoy constipado». \"Constipated\" would be «estreñido».",
+        explanation: "\"I've got a cold\" is «estoy resfriado». \"Constipated\" would be «estreñido».",
       },
       {
         type: "speak",

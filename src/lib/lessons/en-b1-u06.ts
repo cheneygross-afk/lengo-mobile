@@ -21,7 +21,7 @@ export const EN_B1_U06: Lesson[] = [
         ],
         examples: [
           { es: "I'll call you when I get home.", en: "Te llamaré cuando llegue a casa." },
-          { es: "When she finishes school, she'll go to university.", en: "Cuando termine el colegio, irá a la universidad." },
+          { es: "When she finishes school, she'll go to college.", en: "Cuando termine el colegio, irá a la universidad." },
           { es: "We'll have dinner when Dad arrives.", en: "Cenaremos cuando llegue papá." },
           { es: "When you see Tom, tell him to call me.", en: "Cuando veas a Tom, dile que me llame." },
           { es: "What will you do when you retire?", en: "¿Qué harás cuando te jubiles?" },
@@ -55,14 +55,14 @@ export const EN_B1_U06: Lesson[] = [
         body: [
           "\"As soon as\" means «en cuanto» or «tan pronto como». It works exactly like \"when\": present in the time clause, \"will\" in the main clause. \"I'll text you as soon as I land.\"",
           "\"After\" («después de que») and \"before\" («antes de que») follow the same rule. Spanish uses the subjunctive («antes de que te vayas»); English uses the present: \"before you leave\".",
-          "When both parts have the same subject, you can also use -ing: \"I'll have a shower before I go out\" or \"before going out\". Never *before to go out, a word-for-word copy of «antes de salir».",
+          "When both parts have the same subject, you can also use -ing: \"I'll take a shower before I go out\" or \"before going out\". Never *before to go out, a word-for-word copy of «antes de salir».",
         ],
         examples: [
           { es: "I'll text you as soon as I land.", en: "Te escribiré en cuanto aterrice." },
           { es: "As soon as the movie ends, we'll go home.", en: "En cuanto termine la película, nos iremos a casa." },
           { es: "I'll clean the kitchen after they leave.", en: "Limpiaré la cocina después de que se vayan." },
           { es: "Close the windows before you leave.", en: "Cierra las ventanas antes de irte." },
-          { es: "I'll have a shower before going out.", en: "Me ducharé antes de salir." },
+          { es: "I'll take a shower before going out.", en: "Me ducharé antes de salir." },
           { es: "After you read the email, you'll understand.", en: "Después de leer el correo, lo entenderás." },
         ],
         checkpoint: [
@@ -162,7 +162,7 @@ export const EN_B1_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "When she ___ school, she'll go to university.",
+        sentence: "When she ___ school, she'll go to college.",
         answer: "finishes",
         altAnswers: ["leaves", "graduates from"],
         en: "Cuando [termine] el colegio, irá a la universidad.",
@@ -220,8 +220,8 @@ export const EN_B1_U06: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Me ducharé antes de salir.",
-        answer: "I'll have a shower before I go out.",
-        altAnswers: ["I'll take a shower before I go out.", "I'll have a shower before going out.", "I'll take a shower before going out.", "I'll shower before I go out.", "I'll shower before going out.", "I'll take a shower before I leave.", "I'll have a shower before I leave.", "I'll shower before I leave.", "I'll take a shower before leaving.", "I'll have a shower before leaving.", "I'll shower before leaving."],
+        answer: "I'll take a shower before I go out.",
+        altAnswers: ["I'll have a shower before I go out.", "I'll have a shower before going out.", "I'll take a shower before going out.", "I'll shower before I go out.", "I'll shower before going out.", "I'll take a shower before I leave.", "I'll have a shower before I leave.", "I'll shower before I leave.", "I'll take a shower before leaving.", "I'll have a shower before leaving.", "I'll shower before leaving."],
         explanation: "\"Before I go out\" or \"before going out\". \"Before to go out\" is a calque of «antes de salir».",
       },
       {
@@ -525,7 +525,7 @@ export const EN_B1_U06: Lesson[] = [
         examples: [
           { es: "If it rains tomorrow, we'll stay home.", en: "Si llueve mañana, nos quedaremos en casa." },
           { es: "If you come, I'll be happy.", en: "Si vienes, me alegraré." },
-          { es: "If we don't hurry, we'll miss the train.", en: "Si no nos damos prisa, perderemos el tren." },
+          { es: "If we don't hurry, we'll miss the train.", en: "Si no nos apuramos, perderemos el tren." },
           { es: "If you see Ana, say hi from me.", en: "Si ves a Ana, salúdala de mi parte." },
           { es: "If she passes the exam, she might go to Canada.", en: "Si aprueba el examen, puede que vaya a Canadá." },
         ],
@@ -561,7 +561,7 @@ export const EN_B1_U06: Lesson[] = [
           "Questions use \"will\" in the result part: \"What will you do if they say no?\"",
         ],
         examples: [
-          { es: "If I miss the bus, I walk.", en: "Si pierdo el autobús, voy andando." },
+          { es: "If I miss the bus, I walk.", en: "Si pierdo el autobús, voy caminando." },
           { es: "If I miss the bus tomorrow, I'll take a taxi.", en: "Si mañana pierdo el autobús, tomaré un taxi." },
           { es: "If you don't study, you won't pass.", en: "Si no estudias, no aprobarás." },
           { es: "What will you do if they say no?", en: "¿Qué harás si te dicen que no?" },
@@ -594,7 +594,7 @@ export const EN_B1_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si no nos damos prisa, perderemos el tren.",
+        source: "Si no nos apuramos, perderemos el tren.",
         answer: "If we don't hurry, we'll miss the train.",
         altAnswers: ["If we don't hurry up, we'll miss the train.", "We'll miss the train if we don't hurry.", "We'll miss the train if we don't hurry up."],
         explanation: "«Perder el tren» is \"miss the train\" (not \"lose\"). Present after \"if\", \"will\" in the result.",
@@ -695,7 +695,7 @@ export const EN_B1_U06: Lesson[] = [
           { es: "I won't go unless you come.", en: "No iré a menos que vengas tú." },
           { es: "We'll have lunch outside unless it rains.", en: "Comeremos fuera a no ser que llueva." },
           { es: "You can't come in unless you have a ticket.", en: "No puedes entrar a menos que tengas entrada." },
-          { es: "Unless you hurry, you'll miss the bus.", en: "Si no te das prisa, perderás el autobús." },
+          { es: "Unless you hurry, you'll miss the bus.", en: "Si no te apuras, perderás el autobús." },
           { es: "I'll be there at six unless the traffic is terrible.", en: "Estaré allí a las seis a no ser que haya muchísimo tráfico." },
         ],
         checkpoint: [
@@ -725,12 +725,12 @@ export const EN_B1_U06: Lesson[] = [
       {
         heading: "No double negative with unless",
         body: [
-          "\"Unless\" already contains the \"not\". If you add another negative, you change the meaning: \"Unless you don't hurry\" means «a menos que no te des prisa», which is not what you want to say.",
+          "\"Unless\" already contains the \"not\". If you add another negative, you change the meaning: \"Unless you don't hurry\" means «a menos que no te apures», which is not what you want to say.",
           "So: \"unless you hurry\" (= if you don't hurry), never *unless you don't hurry. The verb after \"unless\" is almost always affirmative.",
           "A quick test: change \"unless\" to \"if... not\". If you get two negatives (*if you don't not hurry), your sentence is wrong.",
         ],
         examples: [
-          { es: "Unless you hurry, we'll be late.", en: "Si no te das prisa, llegaremos tarde." },
+          { es: "Unless you hurry, we'll be late.", en: "Si no te apuras, llegaremos tarde." },
           { es: "She won't call unless she needs something.", en: "No llamará a menos que necesite algo." },
           { es: "Don't touch it unless you know what you're doing.", en: "No lo toques a menos que sepas lo que haces." },
           { es: "Unless he apologizes, I won't talk to him.", en: "Si no se disculpa, no hablaré con él." },
@@ -738,7 +738,7 @@ export const EN_B1_U06: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "How do you say «Si no te das prisa, llegaremos tarde» with unless?",
+            question: "How do you say «Si no te apuras, llegaremos tarde» with unless?",
             options: [
               "Unless you hurry, we'll be late.",
               "Unless you don't hurry, we'll be late.",
@@ -836,7 +836,7 @@ export const EN_B1_U06: Lesson[] = [
         sentence: "Unless you ___, you'll miss the bus.",
         answer: "hurry",
         altAnswers: ["hurry up"],
-        en: "Si [no te das prisa], perderás el autobús.",
+        en: "Si [no te apuras], perderás el autobús.",
         explanation: "After \"unless\" the verb is affirmative: \"unless you hurry\" = \"if you don't hurry\".",
       },
       {
@@ -922,7 +922,7 @@ export const EN_B1_U06: Lesson[] = [
       {
         type: "speak",
         text: "I won't go unless you come.",
-        tip: "\"Won't\" rhymes with \"don't\", not with \"want\". Stress \"un-\" in \"unless\" lightly: \"un-LESS\".",
+        tip: "\"Won't\" rhymes with \"don't\", not with \"want\". In \"unless\" the stress is on the second syllable: \"un-LESS\".",
         explanation: "\"Won't\" (/woʊnt/) and \"want\" (/wɑːnt/) are easy to confuse; the difference changes the meaning.",
       },
     ],
@@ -1204,7 +1204,7 @@ export const EN_B1_U06: Lesson[] = [
         ],
         examples: [
           { es: "Take water in case you get thirsty.", en: "Lleva agua por si te da sed." },
-          { es: "In case of doubt, ask the teacher.", en: "En caso de duda, pregunta al profesor." },
+          { es: "In case of fire, use the stairs.", en: "En caso de incendio, usa las escaleras." },
         ],
         checkpoint: [
           {
@@ -1344,7 +1344,7 @@ export const EN_B1_U06: Lesson[] = [
         body: [
           "Wrong: *When I will finish, I call you. There are two mistakes. After \"when\", no \"will\": \"when I finish\". In the main clause, a promise needs \"will\": \"I'll call you\".",
           "Correct: \"When I finish, I'll call you.\" The \"will\" moves from the time clause to the main clause. This is exactly the opposite of what Spanish speakers tend to do.",
-          "The same goes for \"until\", \"as soon as\", \"before\" and \"after\": \"I'll wait until you will come\" becomes \"I'll wait until you come\".",
+          "The same goes for \"until\", \"as soon as\", \"before\" and \"after\": *I'll wait until you will come becomes \"I'll wait until you come\".",
         ],
         examples: [
           { es: "When I finish, I'll call you.", en: "Cuando termine, te llamo." },
@@ -1383,8 +1383,8 @@ export const EN_B1_U06: Lesson[] = [
           "Correct: \"Unless you hurry, we'll be late\" or \"If you don't hurry, we'll be late.\" Choose one negative, not two.",
         ],
         examples: [
-          { es: "Unless you hurry, we'll be late.", en: "Si no te das prisa, llegaremos tarde." },
-          { es: "If you don't hurry, we'll be late.", en: "Si no te das prisa, llegaremos tarde." },
+          { es: "Unless you hurry, we'll be late.", en: "Si no te apuras, llegaremos tarde." },
+          { es: "If you don't hurry, we'll be late.", en: "Si no te apuras, llegaremos tarde." },
           { es: "I won't buy it unless it's cheap.", en: "No lo compraré a menos que sea barato." },
         ],
         checkpoint: [
@@ -1507,7 +1507,7 @@ export const EN_B1_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si no te das prisa, llegaremos tarde.",
+        source: "Si no te apuras, llegaremos tarde.",
         answer: "If you don't hurry, we'll be late.",
         altAnswers: ["Unless you hurry, we'll be late.", "If you don't hurry up, we'll be late.", "Unless you hurry up, we'll be late.", "We'll be late if you don't hurry.", "We'll be late unless you hurry.", "We'll be late if you don't hurry up.", "We'll be late unless you hurry up."],
         explanation: "Either \"if you don't hurry\" or \"unless you hurry\". «Llegar tarde» is \"be late\".",
@@ -1792,8 +1792,8 @@ export const EN_B1_U06: Lesson[] = [
         ],
         examples: [
           { es: "If I don't sleep well, I won't be able to concentrate.", en: "Si no duermo bien, no podré concentrarme." },
-          { es: "If I can't concentrate, I might fail the exam.", en: "Si no puedo concentrarme, puede que suspenda el examen." },
-          { es: "If I fail the exam, I'll have to repeat the course.", en: "Si suspendo el examen, tendré que repetir el curso." },
+          { es: "If I can't concentrate, I might fail the exam.", en: "Si no puedo concentrarme, puede que repruebe el examen." },
+          { es: "If I fail the exam, I'll have to repeat the course.", en: "Si repruebo el examen, tendré que repetir el curso." },
           { es: "If I save money, I can travel next summer.", en: "Si ahorro, podré viajar el verano que viene." },
         ],
         checkpoint: [
@@ -1815,8 +1815,8 @@ export const EN_B1_U06: Lesson[] = [
             sentence: "If I can't concentrate, I ___ the exam.",
             answer: "might fail",
             altAnswers: ["may fail", "could fail"],
-            en: "Si no puedo concentrarme, [puede que suspenda] el examen.",
-            explanation: "«Puede que» + subjunctive is \"might\" or \"may\" + verb. «Suspender» an exam is \"fail\".",
+            en: "Si no puedo concentrarme, [puede que repruebe] el examen.",
+            explanation: "«Puede que» + subjunctive is \"might\" or \"may\" + verb. «Reprobar» («suspender» in Spain) an exam is \"fail\".",
           },
         ],
       },
@@ -1859,10 +1859,10 @@ export const EN_B1_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si suspendo el examen, tendré que repetir el curso.",
+        source: "Si repruebo el examen, tendré que repetir el curso.",
         answer: "If I fail the exam, I'll have to repeat the course.",
         altAnswers: ["If I fail the exam, I'll have to retake the course.", "If I fail the exam, I'll have to take the course again.", "If I fail the exam, I'll have to do the course again.", "I'll have to repeat the course if I fail the exam.", "If I fail the test, I'll have to repeat the course.", "If I fail the exam, I'm going to have to repeat the course."],
-        explanation: "«Tendré que» is \"I'll have to\". «Suspender» is \"fail\" (not \"suspend\").",
+        explanation: "«Tendré que» is \"I'll have to\". «Reprobar» («suspender» in Spain) is \"fail\" (not \"suspend\").",
       },
       {
         type: "fill-blank",

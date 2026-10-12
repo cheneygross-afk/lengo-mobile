@@ -84,7 +84,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
       {
         heading: "Lo que se puede (y no se puede) hacer",
         body: [
-          "\"Can\" también habla de posibilidades y normas: \"You can pay here\" (se puede pagar aquí), \"You can't park here\" (aquí no se puede estacionar/estacionar). Recuerda que el inglés usa \"you\" donde el español usa «se».",
+          "\"Can\" también habla de posibilidades y normas: \"You can pay here\" (se puede pagar aquí), \"You can't park here\" (aquí no se puede estacionar). Recuerda que el inglés usa \"you\" donde el español usa «se».",
           "Con los verbos de los sentidos, el inglés suele añadir \"can\": «veo el mar» es \"I can see the sea\" y «no te oigo» es \"I can't hear you\". Decir solo \"I don't hear you\" suena raro.",
           "Para habilidades, como ya sabes, «saber + verbo» es \"can\": \"I can drive, but I can't ride a bike\".",
         ],
@@ -467,7 +467,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
         source: "Nuestro departamento tiene dos baños.",
         answer: "Our apartment has two bathrooms.",
         altAnswers: ["Our flat has two bathrooms.", "Our apartment has got two bathrooms.", "Our flat has got two bathrooms."],
-        explanation: "\"Our apartment\" es \"it\": \"has\". En Reino Unido «departamento/piso» es \"flat\".",
+        explanation: "\"Our apartment\" es \"it\": \"has\". En Reino Unido «departamento» es \"flat\".",
       },
       {
         type: "listen-choose",
@@ -780,14 +780,14 @@ export const EN_A1_U7_MORE: Lesson[] = [
       {
         heading: "Trampas: information, advice, furniture, homework",
         body: [
-          "Algunas palabras son contables en español pero incontables en inglés: \"information\" (información, informaciones), \"advice\" (consejo, consejos), \"furniture\" (muebles), \"homework\" (deberes, tarea) y \"news\" (noticias). Nunca llevan -s ni \"a/an\".",
+          "Algunas palabras son contables en español pero incontables en inglés: \"information\" (información, informaciones), \"advice\" (consejo, consejos), \"furniture\" (muebles), \"homework\" (tarea, tareas) y \"news\" (noticias). Nunca llevan -s ni \"a/an\".",
           "Así que no se dice *informations, *an advice ni *furnitures. Para hablar de uno solo: \"a piece of advice\", \"a piece of furniture\". Lo más habitual es simplemente \"some advice\", \"some information\".",
           "Van con el verbo en singular: \"The information is wrong\", \"This furniture is new\".",
         ],
         examples: [
           { es: "I need some information.", en: "Necesito información." },
           { es: "Can you give me some advice?", en: "¿Me puedes dar un consejo?" },
-          { es: "We have a lot of homework.", en: "Tenemos muchos deberes." },
+          { es: "We have a lot of homework.", en: "Tenemos mucha tarea." },
           { es: "This furniture is new.", en: "Estos muebles son nuevos." },
           { es: "That's a good piece of advice.", en: "Es un buen consejo." },
         ],
@@ -989,7 +989,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
           { es: "How much milk is there?", en: "¿Cuánta leche hay?" },
           { es: "How much time do we have?", en: "¿Cuánto tiempo tenemos?" },
           { es: "How much water do you drink?", en: "¿Cuánta agua bebes?" },
-          { es: "How much homework do you have?", en: "¿Cuántos deberes tienes?" },
+          { es: "How much homework do you have?", en: "¿Cuántas tareas tienes?" },
         ],
         checkpoint: [
           {
@@ -1006,8 +1006,8 @@ export const EN_A1_U7_MORE: Lesson[] = [
             prompt: "Escribe en inglés las palabras en negrita.",
             sentence: "___ homework do you have?",
             answer: "How much",
-            en: "¿[Cuántos] deberes tienes?",
-            explanation: "En español es plural («cuántos deberes»), pero \"homework\" es incontable en inglés: \"How much homework\".",
+            en: "¿[Cuántas] tareas tienes?",
+            explanation: "En español puede ir en plural («cuántas tareas»), pero \"homework\" es incontable en inglés: \"How much homework\".",
           },
         ],
       },
@@ -1176,7 +1176,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
         body: [
           "Las tres comidas son \"breakfast\" (desayuno), \"lunch\" (almuerzo, comida del mediodía) y \"dinner\" (cena). Van sin artículo: \"have lunch\", no *have the lunch.",
           "Para comer y beber, el verbo más útil es \"have\": \"have lunch\", \"have a coffee\", \"have some juice\". \"Eat breakfast\" y \"eat dinner\" también son correctos, sobre todo en Estados Unidos, pero \"have\" sirve para todo.",
-          "En España se dice «tomar un café», pero en inglés no se usa \"take\": nunca *take a coffee. Se dice \"have a coffee\" o \"drink coffee\". Para «¿qué desayunas?»: \"What do you have for breakfast?\".",
+          "En español se dice «tomar un café», pero en inglés no se usa \"take\": nunca *take a coffee. Se dice \"have a coffee\" o \"drink coffee\". Para «¿qué desayunas?»: \"What do you have for breakfast?\".",
         ],
         examples: [
           { es: "What time do you have lunch?", en: "¿A qué hora almuerzas?" },
@@ -1408,7 +1408,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
         heading: "Pedir: \"I'd like...\" y \"Can I have...?\"",
         body: [
           "Para pedir en un café o restaurante, lo más natural es \"I'd like...\" o \"Can I have...?\", siempre con \"please\": \"I'd like a tea with milk, please\", \"Can I have a croissant, please?\". \"Could I have...?\" es aún más educado.",
-          "En español decimos «¿me pones un café?» o «¿me da un café?». En inglés no se traduce con \"put\" ni \"give\": se dice \"Can I have a coffee?\".",
+          "En español decimos «¿me trae un café?» o «¿me da un café?». En inglés no se traduce con \"bring\" ni \"give\": se dice \"Can I have a coffee?\".",
           "En Estados Unidos también es muy común \"Can I get...?\": \"Can I get a latte, please?\". Es informal pero perfectamente educado.",
         ],
         examples: [
@@ -1443,7 +1443,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
         heading: "I'd like, I want, I like",
         body: [
           "\"I like coffee\" significa «me gusta el café» (en general). \"I'd like a coffee\" significa «quisiera un café» (ahora). La \"'d\" es pequeña pero cambia todo: escúchala y pronúnciala.",
-          "\"I want a coffee\" es gramaticalmente correcto, pero a un camarero le suena demasiado directo, casi como una orden. Con amigos o en familia, \"I want\" no tiene problema.",
+          "\"I want a coffee\" es gramaticalmente correcto, pero a un mesero le suena demasiado directo, casi como una orden. Con amigos o en familia, \"I want\" no tiene problema.",
           "Lo mismo en las preguntas: \"Do you like tea?\" (¿te gusta el té?) frente a \"Would you like a tea?\" (¿quieres un té?).",
         ],
         examples: [
@@ -1477,7 +1477,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
       {
         heading: "Te ofrecen: \"Would you like...?\"",
         body: [
-          "El camarero te ofrecerá cosas con \"Would you like...?\": \"Would you like something to drink?\", \"Would you like milk with that?\". También \"Anything else?\" (¿algo más?).",
+          "El mesero te ofrecerá cosas con \"Would you like...?\": \"Would you like something to drink?\", \"Would you like milk with that?\". También \"Anything else?\" (¿algo más?).",
           "Responde con \"Yes, please\" o \"No, thanks\". También \"Yes, I would\", pero nunca *Yes, I would like a secas: a \"like\" le falta algo detrás. Para terminar: \"That's all, thanks\" (eso es todo).",
           "En Estados Unidos te preguntarán \"For here or to go?\" (¿para tomar aquí o para llevar?). En Reino Unido: \"Eat in or take away?\".",
         ],
@@ -1586,7 +1586,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Une cada frase del camarero con su significado.",
+        instructions: "Une cada frase del mesero con su significado.",
         pairs: [
           { left: "Anything else?", right: "¿Algo más?" },
           { left: "For here or to go?", right: "¿Para tomar aquí o para llevar?" },
@@ -1614,11 +1614,11 @@ export const EN_A1_U7_MORE: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Escribe un diálogo corto en un café: el camarero te ofrece algo, tú pides dos cosas, dices que no quieres nada más y pides la cuenta.",
+        prompt: "Escribe un diálogo corto en un café: el mesero te ofrece algo, tú pides dos cosas, dices que no quieres nada más y pides la cuenta.",
         minWords: 30,
         maxWords: 80,
         rubric: [
-          "El camarero usa \"Would you like...?\" o \"What can I get you?\".",
+          "El mesero usa \"Would you like...?\" o \"What can I get you?\".",
           "Pides con \"I'd like...\" o \"Can I have...?\" y \"please\".",
           "Respondes con \"Yes, please\", \"No, thanks\" o \"That's all, thanks\".",
           "Pides la cuenta con \"Could I have the check, please?\".",
@@ -2024,7 +2024,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "En un café, el camarero dice \"Would you like some water?\". ¿Qué respondes si no quieres?",
+        question: "En un café, el mesero dice \"Would you like some water?\". ¿Qué respondes si no quieres?",
         options: ["No, thanks.", "No, I wouldn't like.", "No, I don't like.", "No, I don't want."],
         correctIndex: 0,
         explanation: "\"No, thanks\" es la respuesta natural. Las otras quedan incompletas o suenan bruscas.",

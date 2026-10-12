@@ -449,7 +449,6 @@ export const EN_A2_U17: Lesson[] = [
           "We went to the city center yesterday.",
           "We went to the city centre yesterday.",
           "We went into town yesterday.",
-          "We went to the center yesterday.",
         ],
         explanation: "En inglés americano «ir al centro» es \"go downtown\", sin \"to\". En el Reino Unido se dice \"go into town\" o \"go to the city centre\".",
       },
@@ -1528,7 +1527,7 @@ export const EN_A2_U17: Lesson[] = [
         body: [
           "\"At\" presenta el lugar como un punto o como el sitio de una actividad, sin pensar en si estás dentro: \"at home\", \"at work\", \"at school\", \"at the bus stop\", \"at the door\", \"at the station\".",
           "También van con \"at\" los eventos: \"at the party\", \"at the concert\", \"at a wedding\", \"at the meeting\". Y las direcciones con número: \"at 25 Oak Street\" (sin número, en inglés americano, \"on Oak Street\").",
-          "Con edificios a veces valen \"in\" y \"at\": \"I'm at the supermarket\" (estoy haciendo la compra) y \"It's cold in the supermarket\" (dentro del edificio). Si lo importante es estar dentro, usa \"in\".",
+          "Con edificios a veces valen \"in\" y \"at\": \"I'm at the supermarket\" (estoy haciendo las compras) y \"It's cold in the supermarket\" (dentro del edificio). Si lo importante es estar dentro, usa \"in\".",
         ],
         examples: [
           { es: "I'm at home.", en: "Estoy en casa." },
@@ -1730,7 +1729,7 @@ export const EN_A2_U17: Lesson[] = [
         body: [
           "\"In foot\" se dice \"on foot\"; \"by the bus\" se dice \"by bus\" o \"on the bus\"; \"with the car\" se dice \"by car\" o \"in my car\".",
           "*During two hours se dice \"for two hours\": con una cantidad de tiempo, \"for\". Y si es un plazo («para el viernes»), \"by Friday\", no *until Friday.",
-          "Del de nivel Fundamentos: \"on Monday\", \"in July\", \"at five o'clock\", \"at night\", y nada de preposición con \"next\", \"last\" o \"every\".",
+          "Del nivel Fundamentos: \"on Monday\", \"in July\", \"at five o'clock\", \"at night\", y nada de preposición con \"next\", \"last\" o \"every\".",
         ],
         examples: [
           { es: "I came on foot.", en: "Vine a pie." },

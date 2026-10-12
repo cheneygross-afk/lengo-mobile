@@ -603,7 +603,7 @@ export const EN_B2_U10: Lesson[] = [
         ],
         examples: [
           { es: "This house is for sale.", en: "Se vende esta casa." },
-          { es: "Apartment for rent.", en: "Se alquila piso." },
+          { es: "Apartment for rent.", en: "Se renta departamento." },
           { es: "Help wanted.", en: "Se busca personal." },
           { es: "Thousands of these phones are sold every day.", en: "Se venden miles de estos celulares cada día." },
           { es: "The tickets were sold in two hours.", en: "Las entradas se vendieron en dos horas." },
@@ -612,7 +612,7 @@ export const EN_B2_U10: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "A sign says «Se venden pisos». What would the English sign say?",
+            question: "A sign says «Se venden departamentos». What would the English sign say?",
             options: ["Apartments for sale.", "It is sold apartments.", "Are sold apartments.", "Sell apartments."],
             correctIndex: 0,
             explanation: "Signs drop the verb: \"for sale\". English never starts with the verb or with a dummy \"it\" to copy «se».",
@@ -1513,7 +1513,7 @@ export const EN_B2_U10: Lesson[] = [
           { es: "Has my order been shipped?", en: "¿Ya se ha enviado mi pedido?" },
           { es: "When will it be delivered?", en: "¿Cuándo lo entregarán?" },
           { es: "Is it still being repaired?", en: "¿Todavía lo están reparando?" },
-          { es: "Has anything been done about my complaint?", en: "¿Se ha hecho algo con mi reclamación?" },
+          { es: "Has anything been done about my complaint?", en: "¿Se ha hecho algo con mi reclamo?" },
         ],
         checkpoint: [
           {
@@ -1565,7 +1565,7 @@ export const EN_B2_U10: Lesson[] = [
             sentence: "Your complaint ___ .",
             answer: "is being processed",
             altAnswers: ["is being dealt with", "is being handled", "is being looked into"],
-            en: "Su reclamación [se está tramitando].",
+            en: "Su reclamo [se está tramitando].",
             explanation: "In progress and done to the complaint: \"is being\" + participle.",
           },
           {
@@ -1641,7 +1641,7 @@ export const EN_B2_U10: Lesson[] = [
           { es: "It should have been sent back already.", en: "Ya me lo tendrían que haber devuelto." },
           { es: "The part has just been delivered.", en: "Acaban de entregar la pieza." },
           { es: "It'll be fixed by tomorrow.", en: "Estará arreglado para mañana." },
-          { es: "You'll be called as soon as it's ready.", en: "Le llamaremos en cuanto esté listo." },
+          { es: "You'll be called as soon as it's ready.", en: "Lo llamaremos en cuanto esté listo." },
         ],
         checkpoint: [
           {
@@ -1755,9 +1755,9 @@ export const EN_B2_U10: Lesson[] = [
         audio: "It's being looked at right now, and you'll be called when it's ready.",
         question: "What did you hear?",
         options: [
-          "Lo están revisando ahora mismo y le llamarán cuando esté listo.",
+          "Lo están revisando ahora mismo y lo llamarán cuando esté listo.",
           "Lo revisaron ayer y ya está listo.",
-          "Lo revisarán mañana y le llamarán.",
+          "Lo revisarán mañana y lo llamarán.",
           "Ya lo han revisado y le han llamado.",
         ],
         correctIndex: 0,
@@ -2079,7 +2079,7 @@ export const EN_B2_U10: Lesson[] = [
         examples: [
           { es: "Cars are made in this factory.", en: "En esta fábrica se fabrican carros." },
           { es: "The tower was built in 1889.", en: "La torre se construyó en 1889." },
-          { es: "Rome wasn't built in a day.", en: "No se ganó Zamora en una hora." },
+          { es: "Rome wasn't built in a day.", en: "Roma no se hizo en un día." },
           { es: "When was the bridge built?", en: "¿Cuándo se construyó el puente?" },
           { es: "Where are these phones made?", en: "¿Dónde se fabrican estos teléfonos?" },
         ],
@@ -2252,7 +2252,7 @@ export const EN_B2_U10: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Odio que me hagan fotos.",
+        source: "Odio que me tomen fotos.",
         answer: "I hate having my picture taken.",
         altAnswers: [
           "I hate having my photo taken.",

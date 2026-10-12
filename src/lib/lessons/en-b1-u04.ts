@@ -17,7 +17,7 @@ export const EN_B1_U04: Lesson[] = [
         body: [
           "We use \"used to\" + the base form of a verb to talk about things that happened regularly in the past, or situations that were true in the past, but are not true now: \"I used to live in Lima\" (I don't live there now).",
           "It works for repeated actions (\"I used to play soccer every Saturday\") and for states (\"She used to have long hair\", \"There used to be a park here\").",
-          "In Spanish you often say this with the imperfect («vivía», «jugaba») or with «solía» / «antes»: «Antes vivía en Lima». In English, the imperfect has no single form, and \"used to\" is the best way to show that something was a habit that has now changed.",
+          "In Spanish you often say this with the imperfect («vivía», «jugaba») or with «solía» / «antes»: «Antes vivía en Lima». English has no single tense for the Spanish imperfect, and \"used to\" is the best way to show that something was a habit that has now changed.",
         ],
         examples: [
           { es: "I used to live in Lima.", en: "Antes vivía en Lima." },
@@ -170,7 +170,7 @@ export const EN_B1_U04: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "There ___ a cinema on this street.",
+        sentence: "There ___ a movie theater on this street.",
         answer: "used to be",
         en: "Antes [había] un cine en esta calle.",
         explanation: "«Antes había» = \"there used to be\". It describes a past situation that is not true now.",
@@ -2344,7 +2344,7 @@ export const EN_B1_U04: Lesson[] = [
         examples: [
           { es: "The rent is due on the first of the month.", en: "El alquiler se paga el primero de cada mes." },
           { es: "I called the landlord about the heating.", en: "Llamé al casero por lo de la calefacción." },
-          { es: "My roommate never does the dishes.", en: "Mi compañero de piso nunca lava los platos." },
+          { es: "My roommate never does the dishes.", en: "Mi compañero de departamento nunca lava los platos." },
           { es: "I share an apartment with two roommates.", en: "Comparto departamento con dos compañeros." },
         ],
         checkpoint: [
@@ -2354,7 +2354,7 @@ export const EN_B1_U04: Lesson[] = [
             sentence: "My ___ never does the dishes.",
             answer: "roommate",
             altAnswers: ["flatmate"],
-            en: "Mi [compañero de piso] nunca lava los platos.",
+            en: "Mi [compañero de departamento] nunca lava los platos.",
             explanation: "\"Roommate\" (American) or \"flatmate\" (British). Note \"does\" with -s for the third person.",
           },
         ],
@@ -2367,7 +2367,7 @@ export const EN_B1_U04: Lesson[] = [
         examples: [
           { es: "My mom used to do all the housework.", en: "Mi mamá hacía todas las tareas de la casa." },
           { es: "I'm not used to doing my own laundry.", en: "No estoy acostumbrado a lavar mi propia ropa." },
-          { es: "I'm getting used to living with roommates.", en: "Me estoy acostumbrando a vivir con compañeros de piso." },
+          { es: "I'm getting used to living with roommates.", en: "Me estoy acostumbrando a vivir con compañeros de departamento." },
           { es: "We used to have a big carpet in the living room.", en: "Teníamos una alfombra grande en la sala." },
         ],
         checkpoint: [
@@ -2451,7 +2451,7 @@ export const EN_B1_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me estoy acostumbrando a vivir con compañeros de piso.",
+        source: "Me estoy acostumbrando a vivir con compañeros de departamento.",
         answer: "I'm getting used to living with roommates.",
         altAnswers: ["I'm getting used to living with flatmates.", "I'm getting used to sharing an apartment.", "I'm getting used to sharing a flat."],
         explanation: "\"Get used to\" + -ing. \"Roommates\" (American) / \"flatmates\" (British).",

@@ -83,7 +83,7 @@ export const EN_A2_U17_EXTRA: Lesson[] = [
         source: "El avión voló por encima de las montañas.",
         answer: "The plane flew over the mountains.",
         altAnswers: ["The airplane flew over the mountains."],
-        explanation: "«Por encima de», de un lado a otro, es \"over\". *Flew above the mountains se entiende, pero \"over\" es lo natural para el movimiento.",
+        explanation: "«Por encima de», de un lado a otro, es \"over\". \"Flew above the mountains\" se entiende, pero \"over\" es lo natural para el movimiento.",
       },
       {
         type: "fill-blank",
@@ -1129,7 +1129,7 @@ export const EN_A2_U17_EXTRA: Lesson[] = [
           "Errores típicos: *in the bus (se dice \"on the bus\"), *in the work (\"at work\"), *in the wall (\"on the wall\").",
         ],
         examples: [
-          { es: "Your glasses are on the kitchen table.", en: "Tus gafas están en la mesa de la cocina." },
+          { es: "Your glasses are on the kitchen table.", en: "Tus lentes están en la mesa de la cocina." },
           { es: "There's nobody in the office today.", en: "No hay nadie en la oficina hoy." },
           { es: "I'm on the bus.", en: "Estoy en el autobús." },
           { es: "She lives on the fifth floor.", en: "Vive en el quinto piso." },
@@ -1148,7 +1148,7 @@ export const EN_A2_U17_EXTRA: Lesson[] = [
             prompt: "Escribe en inglés las palabras en negrita.",
             sentence: "Your glasses are ___ the kitchen table.",
             answer: "on",
-            en: "Tus gafas están [en] la mesa de la cocina.",
+            en: "Tus lentes están [en] la mesa de la cocina.",
             explanation: "Sobre una superficie: \"on the table\".",
           },
         ],

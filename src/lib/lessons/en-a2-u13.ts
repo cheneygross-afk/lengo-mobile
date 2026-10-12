@@ -15,7 +15,7 @@ export const EN_A2_U13: Lesson[] = [
       {
         heading: "Un verbo en español, dos en inglés",
         body: [
-          "En español «hacer» sirve para casi todo. El inglés lo reparte entre dos verbos: \"do\" y \"make\". No son intercambiables: *I make my homework suena tan raro a un nativo como «yo fabrico mis deberes».",
+          "En español «hacer» sirve para casi todo. El inglés lo reparte entre dos verbos: \"do\" y \"make\". No son intercambiables: *I make my homework suena tan raro a un nativo como «yo fabrico mi tarea».",
           "La idea general es sencilla. \"Do\" es realizar una actividad, una tarea o un trabajo: lo importante es la acción. \"Make\" es crear, fabricar o producir algo que antes no existía: lo importante es el resultado.",
           "Ya conoces \"do\" como auxiliar (\"Do you work?\"), pero también es un verbo normal: \"What do you do?\" significa «¿a qué te dedicas?», y \"What are you doing?\" es «¿qué estás haciendo?».",
         ],
@@ -48,7 +48,7 @@ export const EN_A2_U13: Lesson[] = [
       {
         heading: "\"Do\": tareas, trabajo y actividades",
         body: [
-          "Con \"do\" van las tareas de casa y del estudio: \"do the shopping\" (hacer la compra), \"do the housework\" (hacer las tareas de la casa), \"do homework\", \"do an exercise\" (un ejercicio del libro).",
+          "Con \"do\" van las tareas de casa y del estudio: \"do the shopping\" (hacer las compras), \"do the housework\" (hacer las tareas de la casa), \"do homework\", \"do an exercise\" (un ejercicio del libro).",
           "También va con palabras generales como \"something\", \"nothing\", \"anything\" y \"everything\": \"I did nothing yesterday\" (no hice nada ayer). Y con \"your best\": \"Do your best\" es «haz lo mejor que puedas».",
           "Para el deporte, en inglés americano lo más natural es usar el verbo directamente: \"I exercise\" o \"I work out\" (hago ejercicio). \"Do exercise\" también se entiende. Lo que nunca se dice es \"make exercise\".",
         ],
@@ -313,14 +313,14 @@ export const EN_A2_U13: Lesson[] = [
         heading: "Cuando «hacer» no es \"make\" ni \"do\"",
         body: [
           "Muchas veces «hacer» no se traduce con ninguno de los dos. Para el tiempo se usa \"it is\" + adjetivo: «hace frío» es \"it's cold\", «hace sol» es \"it's sunny\", «hace calor» es \"it's hot\". Nunca *it makes cold.",
-          "«Hacer una pregunta» es \"ask a question\" (no *make a question), y «hacer» o «sacar una foto» es \"take a photo\" o \"take a picture\".",
+          "«Hacer una pregunta» es \"ask a question\" (no *make a question), y «tomar» o «sacar una foto» es \"take a photo\" o \"take a picture\".",
           "Otras: «hacer una fiesta» es \"have a party\", «hacer cola» es \"wait in line\" y «hacer daño» es \"hurt\".",
         ],
         examples: [
           { es: "It's very cold today.", en: "Hoy hace mucho frío." },
           { es: "It's sunny.", en: "Hace sol." },
           { es: "Can I ask a question?", en: "¿Puedo hacer una pregunta?" },
-          { es: "Let's take a photo.", en: "Hagamos una foto." },
+          { es: "Let's take a photo.", en: "Tomemos una foto." },
           { es: "We're having a party on Saturday.", en: "Hacemos una fiesta el sábado." },
           { es: "We waited in line for an hour.", en: "Hicimos cola durante una hora." },
         ],
@@ -419,7 +419,7 @@ export const EN_A2_U13: Lesson[] = [
         question: "¿Qué frase es correcta?",
         options: ["Can I take a photo?", "Can I make a photo?", "Can I do a photo?", "Can I make a picture of you?"],
         correctIndex: 0,
-        explanation: "«Hacer una foto» es \"take a photo\" o \"take a picture\".",
+        explanation: "«Tomar una foto» es \"take a photo\" o \"take a picture\".",
       },
       {
         type: "matching",
@@ -554,7 +554,7 @@ export const EN_A2_U13: Lesson[] = [
       {
         heading: "\"Take\": transporte, fotos y más",
         body: [
-          "Los medios de transporte van con \"take\": \"take the bus\", \"take a taxi\", \"take the train\". También \"take a photo\" (hacer o sacar una foto) y \"take a seat\" (tomar asiento).",
+          "Los medios de transporte van con \"take\": \"take the bus\", \"take a taxi\", \"take the train\". También \"take a photo\" (tomar o sacar una foto) y \"take a seat\" (tomar asiento).",
           "Las medicinas también: \"take medicine\", \"take a pill\". Y con el tiempo que dura algo, se usa \"it takes\": \"It takes twenty minutes\" (se tarda veinte minutos).",
           "Recuerda las formas: \"take, took, taken\".",
         ],
@@ -618,7 +618,7 @@ export const EN_A2_U13: Lesson[] = [
         direction: "es-en",
         prompt: "Traduce al inglés.",
         source: "¿Tomamos un café?",
-        answer: "Shall we have a coffee?",
+        answer: "Should we have a coffee?",
         altAnswers: ["Should we have a coffee?", "Do you want to have a coffee?", "Do you want to get a coffee?", "Let's have a coffee.", "Shall we get a coffee?", "Should we get a coffee?", "Want to get a coffee?", "Do you want a coffee?"],
         explanation: "«Tomar un café» es \"have a coffee\" o \"get a coffee\". Nunca *take a coffee.",
       },
@@ -999,10 +999,10 @@ export const EN_A2_U13: Lesson[] = [
         ],
       },
       {
-        heading: "Salir, volver y darse prisa",
+        heading: "Salir, volver y apurarse",
         body: [
           "\"Go out\" es «salir», sobre todo para divertirse: \"We go out on Saturdays\". \"Come back\" es «volver» (hacia donde está quien habla) y \"go back\", «volver» a otro lugar.",
-          "\"Hurry up!\" es «¡date prisa!» o «¡apúrate!». Se usa mucho en imperativo.",
+          "\"Hurry up!\" es «¡apúrate!» o «¡date prisa!». Se usa mucho en imperativo.",
           "En pasado solo cambia el verbo, nunca la partícula: \"went out\", \"came back\", \"got up\", \"woke up\".",
         ],
         examples: [
@@ -1028,7 +1028,7 @@ export const EN_A2_U13: Lesson[] = [
             sentence: "___! We're late.",
             answer: "Hurry up",
             en: "¡[Apúrate]! Llegamos tarde.",
-            explanation: "«¡Date prisa!» o «¡apúrate!» es \"Hurry up!\".",
+            explanation: "«¡Apúrate!» o «¡date prisa!» es \"Hurry up!\".",
           },
         ],
       },
@@ -1925,7 +1925,7 @@ export const EN_A2_U13: Lesson[] = [
             source: "Hacemos una foto.",
             answer: "We take a photo.",
             altAnswers: ["We take a picture.", "We're taking a photo.", "We're taking a picture.", "Let's take a photo.", "Let's take a picture."],
-            explanation: "«Hacer» o «sacar una foto» es \"take a photo\" o \"take a picture\", nunca *make a photo.",
+            explanation: "«Tomar» o «sacar una foto» es \"take a photo\" o \"take a picture\", nunca *make a photo.",
           },
         ],
       },

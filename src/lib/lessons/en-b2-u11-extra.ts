@@ -791,11 +791,11 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
         heading: "The passive: be made to, be allowed to",
         body: [
           "In the passive, \"make\" DOES take \"to\": \"We were made to wait outside\" («Nos hicieron esperar fuera»). It is one of the rare places where the active and passive patterns differ.",
-          "\"Let\" is not normally used in the passive with a following verb; use \"be allowed to\": «No nos dejaron hacer fotos» is \"We weren't allowed to take photos\".",
+          "\"Let\" is not normally used in the passive with a following verb; use \"be allowed to\": «No nos dejaron tomar fotos» is \"We weren't allowed to take photos\".",
         ],
         examples: [
           { es: "We were made to wait outside.", en: "Nos hicieron esperar fuera." },
-          { es: "We weren't allowed to take photos.", en: "No nos dejaron hacer fotos." },
+          { es: "We weren't allowed to take photos.", en: "No nos dejaron tomar fotos." },
           { es: "They made us take off our shoes.", en: "Nos hicieron quitarnos los zapatos." },
         ],
         checkpoint: [
@@ -925,9 +925,9 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
         instructions: "Match each English sentence with its Spanish meaning.",
         pairs: [
           { left: "She made him apologize.", right: "Lo obligó a pedir perdón." },
-          { left: "She let him apologize.", right: "Le dejó pedir perdón." },
+          { left: "She let him apologize.", right: "Lo dejó pedir perdón." },
           { left: "She got him to apologize.", right: "Consiguió que pidiera perdón." },
-          { left: "He was made to apologize.", right: "Le obligaron a pedir perdón." },
+          { left: "He was made to apologize.", right: "Lo obligaron a pedir perdón." },
         ],
         explanation: "make (force), let (allow), get ... to (persuade), be made to (passive of make).",
       },

@@ -819,13 +819,13 @@ export const EN_A2_U23: Lesson[] = [
     level: "EN-A2",
     number: 4,
     title: "Desafío de nivel Ganando fluidez: la cadena de la historia",
-    summary: "Construye una historia frase a frase eligiendo el pasado correcto, el ordenador y el conector en cada paso, y al final cuéntala tú.",
+    summary: "Construye una historia frase a frase eligiendo el pasado correcto, la palabra de orden y el conector en cada paso, y al final cuéntala tú.",
     duration: "12 min",
     sections: [
       {
         heading: "Paso 1: la escena",
         body: [
-          "En este desafío construyes una historia frase a frase. En cada paso eliges el tiempo verbal, el ordenador o el conector correcto, y al final la cuentas tú.",
+          "En este desafío construyes una historia frase a frase. En cada paso eliges el tiempo verbal, la palabra de orden o el conector correcto, y al final la cuentas tú.",
           "Las historias en inglés suelen describir la escena con el pasado continuo (lo que estaba pasando) y contar los hechos con el pasado simple: \"Emma was having breakfast when her phone rang.\"",
           "Regla clave: la acción larga va en pasado continuo y la acción corta que la interrumpe, en pasado simple. \"When\" suele ir con la acción corta y \"while\" con la larga.",
         ],
@@ -834,7 +834,7 @@ export const EN_A2_U23: Lesson[] = [
           { es: "Emma was having breakfast when her phone rang.", en: "Emma estaba desayunando cuando sonó su teléfono." },
           { es: "It was her friend Diego.", en: "Era su amigo Diego." },
           { es: "He wanted to go hiking in the mountains.", en: "Quería ir de excursión a la montaña." },
-          { es: "While she was getting ready, Diego was waiting outside.", en: "Mientras ella se preparaba, Diego esperaba fuera." },
+          { es: "While she was getting ready, Diego was waiting outside.", en: "Mientras ella se preparaba, Diego esperaba afuera." },
         ],
         checkpoint: [
           {
@@ -849,7 +849,7 @@ export const EN_A2_U23: Lesson[] = [
             prompt: "Escribe en inglés las palabras en negrita.",
             sentence: "While she ___ ready, Diego was waiting outside.",
             answer: "was getting",
-            en: "Mientras ella [se preparaba], Diego esperaba fuera.",
+            en: "Mientras ella [se preparaba], Diego esperaba afuera.",
             explanation: "Dos acciones largas a la vez: pasado continuo en las dos. «Prepararse» es \"get ready\".",
           },
         ],
@@ -857,7 +857,7 @@ export const EN_A2_U23: Lesson[] = [
       {
         heading: "Paso 2: ordenar los hechos",
         body: [
-          "Para encadenar hechos se usan ordenadores: \"first\" («primero»), \"then\" y \"after that\" («luego», «después de eso»), \"later\" («más tarde») y \"finally\" o \"in the end\" («al final»).",
+          "Para encadenar hechos se usan palabras de orden: \"first\" («primero»), \"then\" y \"after that\" («luego», «después de eso»), \"later\" («más tarde») y \"finally\" o \"in the end\" («al final»).",
           "Cuidado con \"after\": necesita algo detrás (\"after lunch\", \"after we arrived\"). Para decir «después» solo, usa \"after that\", \"then\" o \"afterwards\". *After, we went home es un error típico.",
           "Y \"at the end\" no es \"in the end\": \"at the end of the day\" es «al final del día» (un momento); \"in the end\" es «al final, finalmente» (el resultado).",
         ],
@@ -924,7 +924,7 @@ export const EN_A2_U23: Lesson[] = [
       {
         heading: "Paso 4: la historia completa",
         body: [
-          "Esta es la historia entera. Léela en voz alta y fíjate en cómo se combinan los tiempos, los ordenadores y los conectores:",
+          "Esta es la historia entera. Léela en voz alta y fíjate en cómo se combinan los tiempos, las palabras de orden y los conectores:",
           "\"It was a sunny Saturday morning. Emma was having breakfast when her phone rang. It was Diego. He wanted to go hiking, so they took the bus to the mountains. First, they walked for two hours. After that, the weather changed and it started to rain. While they were running to a cafe, Diego slipped and fell. He couldn't walk because his ankle hurt, so they called a taxi. In the end, they got home very late, but they laughed about it for weeks.\"",
         ],
         examples: [
@@ -1034,17 +1034,17 @@ export const EN_A2_U23: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Vuelve a contar la historia de Emma y Diego con tus palabras, o cuenta un día en que algo salió mal. Usa el pasado simple y el continuo, al menos tres ordenadores (\"first\", \"then\", \"after that\", \"in the end\") y conectores como \"so\", \"because\" y \"but\".",
+        prompt: "Vuelve a contar la historia de Emma y Diego con tus palabras, o cuenta un día en que algo salió mal. Usa el pasado simple y el continuo, al menos tres palabras de orden (\"first\", \"then\", \"after that\", \"in the end\") y conectores como \"so\", \"because\" y \"but\".",
         minWords: 60,
         maxWords: 120,
         rubric: [
           "Describe la escena con el pasado continuo y cuenta los hechos con el pasado simple.",
-          "Usa al menos tres ordenadores, sin \"after\" suelto.",
+          "Usa al menos tres palabras de orden, sin \"after\" suelto.",
           "Une ideas con \"so\", \"because\" y \"but\", sin omitir el sujeto.",
           "La historia tiene principio, desarrollo y final.",
         ],
         modelAnswer: "Last Saturday was a terrible day. I was sleeping when my alarm rang at six, so I got up very fast. First, I had a quick breakfast. Then I ran to the station, but I missed the train because I was late. While I was waiting for the next one, it started to rain and I didn't have an umbrella. After that, I arrived at work completely wet. In the end, my boss laughed and gave me a towel. It was a bad day, but now it's a funny story.",
-        explanation: "Una buena historia mezcla escena (pasado continuo), hechos (pasado simple), ordenadores y conectores.",
+        explanation: "Una buena historia mezcla escena (pasado continuo), hechos (pasado simple), palabras de orden y conectores.",
       },
     ],
   },
@@ -1527,7 +1527,7 @@ export const EN_A2_U23: Lesson[] = [
       {
         type: "speak",
         text: "Excuse me, how do I get to Central Park?",
-        tip: "\"Excuse me\" se dice «ex-KIUS-mi», con la z sonando como una s suave. Une \"get to\": «GE-tu».",
+        tip: "\"Excuse me\" se dice «ex-KIUS-mi», con la \"s\" sonando como un zumbido de abeja (/z/). Une \"get to\": «GE-tu».",
         explanation: "\"How do I get to...?\" es la forma más natural de preguntar cómo llegar a un sitio.",
       },
     ],
@@ -1868,7 +1868,7 @@ export const EN_A2_U23: Lesson[] = [
         examples: [
           { es: "Look at those clouds. It's going to rain.", en: "Mira esas nubes. Va a llover." },
           { es: "The phone's ringing. I'll get it.", en: "Suena el teléfono. Ya contesto yo." },
-          { es: "I'm meeting Ana at six.", en: "He quedado con Ana a las seis." },
+          { es: "I'm meeting Ana at six.", en: "Voy a ver a Ana a las seis." },
           { es: "We're going to paint the kitchen this weekend.", en: "Vamos a pintar la cocina este fin de semana." },
           { es: "I think you'll like this movie.", en: "Creo que te gustará esta película." },
           { es: "Shall I open the window?", en: "¿Abro la ventana?" },
@@ -1885,10 +1885,10 @@ export const EN_A2_U23: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "He quedado con Tom esta noche.",
+            source: "Voy a ver a Tom esta noche.",
             answer: "I am meeting Tom tonight.",
             altAnswers: ["I am seeing Tom tonight.", "I am going to meet Tom tonight.", "I am going to see Tom tonight.", "Tonight I am meeting Tom.", "Tonight I am seeing Tom."],
-            explanation: "Una cita organizada: presente continuo. «Quedar con alguien» es \"meet\" o \"see\" alguien.",
+            explanation: "Una cita organizada: presente continuo. «Verse con alguien» es \"meet\" o \"see\" alguien.",
           },
         ],
       },

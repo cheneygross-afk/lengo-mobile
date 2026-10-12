@@ -132,7 +132,7 @@ export const EN_B2_U13_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Tienes idea de cuánto cuesta un billete a Tokio?",
+        source: "¿Tienes idea de cuánto cuesta un boleto a Tokio?",
         answer: "Do you have any idea how much a ticket to Tokyo costs?",
         altAnswers: ["Do you have any idea how much a ticket to Tokyo is?", "Have you got any idea how much a ticket to Tokyo costs?", "Any idea how much a ticket to Tokyo costs?", "Do you have any idea how much a flight to Tokyo costs?", "Do you have any idea how much a plane ticket to Tokyo costs?", "Do you know how much a ticket to Tokyo costs?"],
         explanation: "\"Do you have any idea\" + statement order: \"how much a ticket costs\". No \"of\" before \"how much\".",
@@ -227,7 +227,7 @@ export const EN_B2_U13_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«¿Quién se comió mi bocadillo?» Which is correct?",
+            question: "«¿Quién se comió mi sándwich?» Which is correct?",
             options: ["Who ate my sandwich?", "Who did eat my sandwich?", "Who did ate my sandwich?", "Who ate did my sandwich?"],
             correctIndex: 0,
             explanation: "\"Who\" is the subject (someone ate it), so no \"did\": \"Who ate my sandwich?\".",
@@ -581,7 +581,7 @@ export const EN_B2_U13_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "You haven't seen my glasses, have you?",
         question: "What is the speaker doing?",
-        options: ["Preguntando con educación si has visto sus gafas.", "Diciendo que has visto sus gafas.", "Diciendo que encontró sus gafas.", "Pidiéndote que compres gafas."],
+        options: ["Preguntando con educación si has visto sus lentes.", "Diciendo que has visto sus lentes.", "Diciendo que encontró sus lentes.", "Pidiéndote que compres lentes."],
         correctIndex: 0,
         explanation: "A negative sentence + positive tag is a very common polite way to ask for something: \"You haven't seen..., have you?\".",
       },
@@ -618,7 +618,7 @@ export const EN_B2_U13_EXTRA: Lesson[] = [
           { es: "Where are you going?", en: "¿Adónde vas? (incorrecto: *To where are you going?)" },
           { es: "What are you laughing at?", en: "¿De qué te ríes?" },
           { es: "I don't know what he's so worried about.", en: "No sé de qué está tan preocupado." },
-          { es: "This is the apartment I told you about.", en: "Este es el piso del que te hablé." },
+          { es: "This is the apartment I told you about.", en: "Este es el departamento del que te hablé." },
         ],
         checkpoint: [
           {
@@ -827,7 +827,7 @@ export const EN_B2_U13_EXTRA: Lesson[] = [
           "Never use a fixed *Yes? or *Is it? for everything. With no auxiliary, use \"do / does / did\": \"We live near the beach.\" \"Do you? Lucky you!\"",
         ],
         examples: [
-          { es: "I've just bought a house. Have you? Congratulations!", en: "Me acabo de comprar una casa. ¿Ah, sí? ¡Enhorabuena!" },
+          { es: "I've just bought a house. Have you? Congratulations!", en: "Me acabo de comprar una casa. ¿Ah, sí? ¡Felicidades!" },
           { es: "Ana doesn't eat fish. Doesn't she?", en: "Ana no come pescado. ¿Ah, no?" },
           { es: "We met at university. Did you? I didn't know that.", en: "Nos conocimos en la universidad. ¿En serio? No lo sabía." },
           { es: "I'm getting married. Are you? That's wonderful!", en: "Me caso. ¿De verdad? ¡Qué maravilla!" },
@@ -901,7 +901,7 @@ export const EN_B2_U13_EXTRA: Lesson[] = [
         sentence: "Lucia passed her driving test. ___? That's great news!",
         answer: "Did she",
         altAnswers: ["Really"],
-        en: "Lucia ha aprobado el examen de manejar. [¿En serio?] ¡Qué buena noticia!",
+        en: "Lucia ha aprobado el examen de manejo. [¿En serio?] ¡Qué buena noticia!",
         explanation: "\"Passed\" is past simple: reply with \"Did she?\".",
       },
       {

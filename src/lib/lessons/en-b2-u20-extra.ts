@@ -45,7 +45,7 @@ export const EN_B2_U20_EXTRA: Lesson[] = [
           { es: "What happened was that the train broke down.", en: "Lo que pasó fue que el tren se averió." },
           { es: "All I want is a quiet weekend.", en: "Lo único que quiero es un fin de semana tranquilo." },
           { es: "What we did was call a taxi.", en: "Lo que hicimos fue llamar a un taxi." },
-          { es: "The thing that worries me is the cost.", en: "Lo que me preocupa es el coste. (incorrecto: *The thing what...)" },
+          { es: "The thing that worries me is the cost.", en: "Lo que me preocupa es el costo. (incorrecto: *The thing what...)" },
         ],
         checkpoint: [
           {
@@ -463,7 +463,7 @@ export const EN_B2_U20_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "It was such a beautiful day that we went to the beach.", en: "Hacía un día tan bonito que fuimos a la playa. (incorrecto: *such beautiful day)" },
-          { es: "They're such nice neighbors.", en: "Son unos vecinos tan majos." },
+          { es: "They're such nice neighbors.", en: "Son unos vecinos tan amables." },
           { es: "There were so many people that we couldn't get in.", en: "Había tanta gente que no pudimos entrar. (incorrecto: *so much people)" },
           { es: "I ate so much that I felt sick.", en: "Comí tanto que me sentó mal." },
         ],
@@ -546,13 +546,13 @@ export const EN_B2_U20_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Son unos vecinos tan majos.",
+        source: "Son unos vecinos tan amables.",
         answer: "They're such nice neighbors.",
         altAnswers: alts(
           "They're such nice neighbors.",
           "They{'re| are} such {nice|friendly|kind|lovely|good} neighbors.",
         ),
-        explanation: "\"Such\" + adjective + plural noun, no \"a\". «Majo» = \"nice\" or \"friendly\".",
+        explanation: "\"Such\" + adjective + plural noun, no \"a\". «Amable» = \"nice\" or \"friendly\".",
       },
       {
         type: "translate",
@@ -635,14 +635,14 @@ export const EN_B2_U20_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Queda tan poco tiempo que tenemos que darnos prisa.",
+        source: "Queda tan poco tiempo que tenemos que apurarnos.",
         answer: "There's so little time left that we have to hurry.",
         altAnswers: alts(
           "There's so little time left that we have to hurry.",
           "There{'s| is} so little time {left|remaining}{ that|} we {have to|need to|must} hurry{| up}.",
           "We have so little time left{ that|} we {have to|need to|must} hurry{| up}.",
         ),
-        explanation: "\"So little\" + uncountable noun; \"so few\" + plural. «Darse prisa» = \"hurry (up)\".",
+        explanation: "\"So little\" + uncountable noun; \"so few\" + plural. «Apurarse» = \"hurry (up)\".",
       },
       {
         type: "fill-blank",
@@ -682,7 +682,7 @@ export const EN_B2_U20_EXTRA: Lesson[] = [
           { es: "I'm very tired.", en: "Estoy muy cansado." },
           { es: "I'm absolutely exhausted.", en: "Estoy agotado. (incorrecto: *very exhausted)" },
           { es: "The paella was absolutely delicious.", en: "La paella estaba buenísima. (incorrecto: *very delicious)" },
-          { es: "It's freezing outside.", en: "Fuera hace un frío que pela." },
+          { es: "It's freezing outside.", en: "Afuera hace un frío tremendo." },
           { es: "Their kitchen is really tiny.", en: "Su cocina es minúscula." },
         ],
         checkpoint: [

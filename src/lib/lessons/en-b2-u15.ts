@@ -164,7 +164,7 @@ export const EN_B2_U15: Lesson[] = [
         sentence: "I ___ yesterday, and I need new glasses.",
         answer: "had my eyes tested",
         altAnswers: ["got my eyes tested", "had my eyes checked", "got my eyes checked", "had my eyes examined", "got my eyes examined"],
-        en: "Ayer [me revisaron la vista] y necesito gafas nuevas.",
+        en: "Ayer [me revisaron la vista] y necesito lentes nuevos.",
         explanation: "An optician did the test, so English uses the causative: \"had my eyes tested\".",
       },
       {
@@ -586,8 +586,8 @@ export const EN_B2_U15: Lesson[] = [
           "\"Explain\" needs \"to\" before the person, and the thing usually comes first: \"explained the new strategy to us\". *Explained us is as wrong as *said us. Other verbs, like \"advise\", \"ask\", \"tell\" and \"encourage\", do take a person + \"to\": \"She advised us to wait\".",
         ],
         examples: [
-          { es: "The director suggested that we reduce costs.", en: "El director nos sugirió que redujéramos costes." },
-          { es: "The director suggested reducing costs.", en: "El director sugirió reducir costes." },
+          { es: "The director suggested that we reduce costs.", en: "El director nos sugirió que redujéramos costos." },
+          { es: "The director suggested reducing costs.", en: "El director sugirió reducir costos." },
           { es: "He explained the new strategy to us.", en: "Nos explicó la nueva estrategia." },
           { es: "He recommended that we hire two more people.", en: "Nos recomendó contratar a dos personas más." },
           { es: "She advised us to wait.", en: "Nos aconsejó que esperáramos." },
@@ -1253,7 +1253,7 @@ export const EN_B2_U15: Lesson[] = [
         sentence: "My laptop ___ yesterday.",
         answer: "was stolen",
         altAnswers: ["got stolen"],
-        en: "Ayer [me robaron] el portátil.",
+        en: "Ayer [me robaron] la laptop.",
         explanation: "With \"my laptop\" as subject, «me robaron» is a simple past passive: \"was stolen\".",
       },
       {
@@ -1487,7 +1487,7 @@ export const EN_B2_U15: Lesson[] = [
         heading: "Extra details: relatives in the news",
         body: [
           "News sentences pack in background with non-defining clauses: \"The factory, which employs 300 people, will remain closed\". Quantity expressions with \"of whom\" and \"of which\" are especially common: \"the workers, most of whom live nearby\".",
-          "Spanish «muchos de los cuales» or «la mayoría de los cuales» become \"many of whom\" (people) or \"many of which\" (things). Don't use \"them\" here: \"most of them live nearby\" is a separate sentence and needs a full stop or \"and\" before it.",
+          "Spanish «muchos de los cuales» or «la mayoría de los cuales» become \"many of whom\" (people) or \"many of which\" (things). Don't use \"them\" here: \"most of them live nearby\" is a separate sentence and needs a period or \"and\" before it.",
         ],
         examples: [
           { es: "The factory, which employs 300 people, will remain closed.", en: "La fábrica, que emplea a 300 personas, seguirá cerrada." },
@@ -1942,7 +1942,7 @@ export const EN_B2_U15: Lesson[] = [
           { es: "It's a machine designed to wash dishes.", en: "Es una máquina diseñada para lavar platos." },
           { es: "Invented in China, paper reached Europe centuries later.", en: "Inventado en China, el papel llegó a Europa siglos después." },
           { es: "Marie Curie, whose research changed medicine, won two Nobel Prizes.", en: "Marie Curie, cuyas investigaciones cambiaron la medicina, ganó dos premios Nobel." },
-          { es: "One of the first computers, known as ENIAC, filled a whole room.", en: "Uno de los primeros ordenadores, conocido como ENIAC, ocupaba una habitación entera." },
+          { es: "One of the first computers, known as ENIAC, filled a whole room.", en: "Una de las primeras computadoras, conocida como ENIAC, ocupaba una habitación entera." },
         ],
         checkpoint: [
           {

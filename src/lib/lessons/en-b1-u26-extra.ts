@@ -154,7 +154,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Estoy buscando mis gafas. ¿Las has visto?",
+        source: "Estoy buscando mis lentes. ¿Los has visto?",
         answer: "I'm looking for my glasses. Have you seen them?",
         altAnswers: ["I'm looking for my glasses. Did you see them?"],
         explanation: "\"Look for\" is inseparable: \"looking for them\", never *looking them for.",
@@ -216,7 +216,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
     level: "EN-B1",
     number: 2,
     title: "Extra Practice: Phrasal Verbs in Context",
-    summary: "Meaning drill for high-frequency phrasal verbs: give up, put off, find out, run out of, get on with, look forward to, come up with. Practise using them instead of formal verbs, with the right particles.",
+    summary: "Meaning drill for high-frequency phrasal verbs: give up, put off, find out, run out of, get on with, look forward to, come up with. Practice using them instead of formal verbs, with the right particles.",
     duration: "10 min",
     sections: [
       {
@@ -423,7 +423,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         examples: [
           { es: "Everybody makes mistakes.", en: "Todo el mundo comete errores." },
           { es: "We need to make a decision.", en: "Tenemos que tomar una decisión." },
-          { es: "I do the shopping on Saturdays.", en: "Hago la compra los sábados." },
+          { es: "I do the shopping on Saturdays.", en: "Hago las compras los sábados." },
           { es: "Can you do me a favor?", en: "¿Me haces un favor?" },
           { es: "She made a lot of friends at college.", en: "Hizo muchos amigos en la universidad." },
         ],
@@ -440,12 +440,12 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: when «hacer» is neither",
         body: [
-          "Spanish «hacer» often becomes a different verb: «hacer una pregunta» = \"ask a question\", «hacer una foto» = \"take a photo\", «hacer una fiesta» = \"have a party\", «hacer cola» = \"wait in line\" (UK \"queue\"), «hacer un viaje» = \"take a trip\".",
+          "Spanish «hacer» often becomes a different verb: «hacer una pregunta» = \"ask a question\", «hacer una fiesta» = \"have a party\", «hacer fila» = \"wait in line\" (UK \"queue\"), «hacer un viaje» = \"take a trip\".",
           "And «¿A qué te dedicas?» is \"What do you do?\".",
         ],
         examples: [
           { es: "Can I ask you a question?", en: "¿Puedo hacerte una pregunta?" },
-          { es: "We took a lot of photos.", en: "Hicimos muchas fotos." },
+          { es: "We took a lot of photos.", en: "Tomamos muchas fotos." },
           { es: "We waited in line for an hour.", en: "Hicimos cola durante una hora." },
         ],
         checkpoint: [
@@ -476,7 +476,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Hice los deberes antes de cenar.",
+        source: "Hice la tarea antes de cenar.",
         answer: "I did my homework before dinner.",
         altAnswers: ["I did my homework before having dinner.", "I did the homework before dinner.", "I did my homework before I had dinner.", "I did my homework before eating dinner."],
         explanation: "\"Do homework\", never *make homework. English also prefers \"my homework\".",
@@ -604,7 +604,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
     level: "EN-B1",
     number: 4,
     title: "Extra Practice: Get, Get, Get",
-    summary: "Drill on the main meanings of \"get\": receive, obtain or buy, arrive, become, understand, and get + participle (get married, get lost). Practise translating «ponerse», «volverse» and «llegar» with get, and replacing get with a more precise verb.",
+    summary: "Drill on the main meanings of \"get\": receive, obtain or buy, arrive, become, understand, and get + participle (get married, get lost). Practice translating «ponerse», «volverse» and «llegar» with get, and replacing get with a more precise verb.",
     duration: "10 min",
     sections: [
       {
@@ -666,7 +666,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "En invierno oscurece muy pronto.",
+        source: "En invierno oscurece muy temprano.",
         answer: "In winter it gets dark very early.",
         altAnswers: ["It gets dark very early in winter.", "In the winter it gets dark very early.", "It gets dark very early in the winter.", "In winter it gets dark really early.", "It gets dark really early in winter."],
         explanation: "«Oscurecer» is \"get dark\", with the subject \"it\". «Pronto» here means \"early\", not \"soon\".",
@@ -744,7 +744,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Hurry up and ___! We're late.",
         answer: "get dressed",
-        en: "¡Date prisa y [vístete]! Llegamos tarde.",
+        en: "¡Apúrate y [vístete]! Llegamos tarde.",
         explanation: "«Vestirse» = \"get dressed\". Spanish reflexive verbs often become get + participle.",
       },
       {
@@ -763,7 +763,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["We", "got", "lost", "in", "the", "old", "town."],
-        translation: "Nos perdimos en el casco antiguo.",
+        translation: "Nos perdimos en el centro histórico.",
         explanation: "«Perderse» = \"get lost\".",
       },
       {
@@ -802,25 +802,25 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: take and have",
         body: [
-          "\"Take\": take a photo, take a seat, take a break, take a bus or taxi, take an exam (a test), take a look, take a nap, take a shower (US). Spanish says «hacer una foto», but never *make a photo.",
+          "\"Take\": take a photo, take a seat, take a break, take a bus or taxi, take an exam (a test), take a look, take a nap, take a shower (US). Spanish says «tomar una foto», so \"take\" is easy; just never *make a photo.",
           "\"Have\": have breakfast, lunch or dinner, have a shower (UK and US), have a party, have a good time, have a problem, have a look (UK).",
         ],
         examples: [
-          { es: "Can you take a photo of us?", en: "¿Nos puedes hacer una foto?" },
+          { es: "Can you take a photo of us?", en: "¿Nos puedes tomar una foto?" },
           { es: "Come in and take a seat.", en: "Pasa y toma asiento." },
           { es: "Let's take a short break.", en: "Hagamos un descanso corto." },
           { es: "We're having a party on Saturday.", en: "Hacemos una fiesta el sábado." },
-          { es: "Did you have a good time?", en: "¿Lo pasaste bien?" },
+          { es: "Did you have a good time?", en: "¿La pasaste bien?" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Puedes hacernos una foto?",
+            source: "¿Puedes tomarnos una foto?",
             answer: "Can you take a photo of us?",
             altAnswers: ["Could you take a photo of us?", "Can you take our photo?", "Could you take our photo?", "Can you take a picture of us?", "Could you take a picture of us?", "Can you take our picture?", "Could you take our picture?"],
-            explanation: "«Hacer una foto» is \"take a photo\", never *make a photo.",
+            explanation: "«Tomar una foto» is \"take a photo\", never *make a photo.",
           },
         ],
       },
@@ -853,7 +853,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         type: "matching",
         instructions: "Match each English phrase with its meaning.",
         pairs: [
-          { left: "take a photo", right: "hacer una foto" },
+          { left: "take a photo", right: "tomar una foto" },
           { left: "pay attention", right: "prestar atención" },
           { left: "have a party", right: "hacer una fiesta" },
           { left: "give someone a hand", right: "echar una mano a alguien" },
@@ -915,7 +915,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mañana hago el examen de manejar.",
+        source: "Mañana hago el examen de manejo.",
         answer: "I'm taking my driving test tomorrow.",
         altAnswers: ["Tomorrow I'm taking my driving test.", "I'm taking the driving test tomorrow.", "I'm taking my driver's test tomorrow.", "Tomorrow I'm taking my driver's test.", "I'm going to take my driving test tomorrow.", "Tomorrow I'm going to take my driving test.", "I take my driving test tomorrow.", "I have my driving test tomorrow.", "Tomorrow I have my driving test."],
         explanation: "«Hacer un examen» is usually \"take a test\" or \"take an exam\", never *make an exam.",

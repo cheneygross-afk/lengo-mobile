@@ -83,7 +83,7 @@ export const EN_A2_U07: Lesson[] = [
       {
         heading: "\"Information\", \"advice\", \"furniture\": incontables en inglés",
         body: [
-          "Algunas palabras que en español se usan en plural o se cuentan son incontables en inglés. Las más importantes: \"information\" (información, datos), \"advice\" (consejos), \"furniture\" (muebles), \"luggage\" (equipaje, maletas), \"homework\" (deberes, tarea) y \"research\" (investigación, estudios).",
+          "Algunas palabras que en español se usan en plural o se cuentan son incontables en inglés. Las más importantes: \"information\" (información, datos), \"advice\" (consejos), \"furniture\" (muebles), \"luggage\" (equipaje, maletas), \"homework\" (tarea) y \"research\" (investigación, estudios).",
           "Estas palabras nunca llevan \"a\" ni \"-s\": no existen *informations, *an advice ni *furnitures. Para hablar de cantidad se usa \"some\", \"any\", \"much\" o \"a lot of\": \"She gave me some advice\" («me dio unos consejos»).",
           "Y como son incontables, el verbo va en singular: \"The information is wrong\", \"This furniture is new\".",
         ],
@@ -92,7 +92,7 @@ export const EN_A2_U07: Lesson[] = [
           { es: "Can you give me some advice?", en: "¿Me puedes dar unos consejos?" },
           { es: "Our furniture is very old.", en: "Nuestros muebles son muy viejos." },
           { es: "Where is your luggage?", en: "¿Dónde están tus maletas? / ¿Dónde está tu equipaje?" },
-          { es: "I have a lot of homework.", en: "Tengo muchos deberes. / Tengo mucha tarea." },
+          { es: "I have a lot of homework.", en: "Tengo mucha tarea." },
           { es: "There isn't much research on this.", en: "No hay muchos estudios sobre esto." },
         ],
         checkpoint: [
@@ -190,7 +190,7 @@ export const EN_A2_U07: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Hoy no tengo deberes.",
+        source: "Hoy no tengo tarea.",
         answer: "I don't have any homework today.",
         altAnswers: [
           "I have no homework today.",
@@ -232,7 +232,7 @@ export const EN_A2_U07: Lesson[] = [
           { left: "information", right: "información" },
           { left: "furniture", right: "muebles" },
           { left: "luggage", right: "equipaje" },
-          { left: "homework", right: "deberes, tarea" },
+          { left: "homework", right: "tarea" },
           { left: "advice", right: "consejos" },
         ],
         explanation: "Todas son incontables en inglés: nunca llevan \"a\" ni \"-s\".",

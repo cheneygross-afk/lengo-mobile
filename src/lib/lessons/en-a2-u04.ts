@@ -81,14 +81,14 @@ export const EN_A2_U04: Lesson[] = [
         heading: "Estados del pasado: vivir, tener, ser",
         body: [
           "\"Used to\" no es solo para acciones repetidas. También sirve para situaciones que duraron un tiempo y ya cambiaron: dónde vivías, qué tenías, cómo eras.",
-          "\"I used to have long hair\" es «antes tenía el pelo largo». \"There used to be a cinema here\" es «aquí antes había un cine».",
+          "\"I used to have long hair\" es «antes tenía el pelo largo». \"There used to be a movie theater here\" es «aquí antes había un cine».",
           "Fíjate en que el español aquí usa el imperfecto («vivía», «tenía», «era»). En inglés, cuando quieres subrayar que ya no es así, \"used to\" es la opción más natural.",
         ],
         examples: [
           { es: "We used to live in Quito.", en: "Antes vivíamos en Quito." },
           { es: "I used to have long hair.", en: "Antes tenía el pelo largo." },
           { es: "He used to be very shy.", en: "Antes era muy tímido." },
-          { es: "There used to be a cinema here.", en: "Aquí antes había un cine." },
+          { es: "There used to be a movie theater here.", en: "Aquí antes había un cine." },
           { es: "This street used to be very quiet.", en: "Esta calle antes era muy tranquila." },
         ],
         checkpoint: [
@@ -103,7 +103,7 @@ export const EN_A2_U04: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Escribe en inglés las palabras en negrita.",
-            sentence: "There ___ a cinema here.",
+            sentence: "There ___ a movie theater here.",
             answer: "used to be",
             en: "Aquí antes [había] un cine.",
             explanation: "«Antes había» es \"there used to be\": el \"there is\" de siempre, pasado a hábito con \"used to\".",
@@ -964,10 +964,10 @@ export const EN_A2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Después de terminar los deberes, vi la tele.» ¿Cuál es correcta?",
+        question: "«Después de terminar la tarea, vi la tele.» ¿Cuál es correcta?",
         options: ["After finishing my homework, I watched TV.", "After to finish my homework, I watched TV.", "After of finishing my homework, I watched TV.", "After finish my homework, I watched TV."],
         correctIndex: 0,
-        explanation: "\"After\" + \"-ing\": \"after finishing\". «Los deberes» es \"my homework\", incontable.",
+        explanation: "\"After\" + \"-ing\": \"after finishing\". «La tarea» es \"my homework\", incontable.",
       },
       {
         type: "translate",

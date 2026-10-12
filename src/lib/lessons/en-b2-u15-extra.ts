@@ -311,7 +311,7 @@ export const EN_B2_U15_EXTRA: Lesson[] = [
           { es: "She suggested that we wait until Monday.", en: "Sugirió que esperáramos hasta el lunes. (incorrecto: *suggested us to wait)" },
           { es: "She suggested waiting until Monday.", en: "Sugirió esperar hasta el lunes." },
           { es: "The engineer who designed it has left the company.", en: "El ingeniero que lo diseñó ha dejado la empresa. (incorrecto: *the engineer which)" },
-          { es: "I was given a new laptop.", en: "Me dieron un portátil nuevo." },
+          { es: "I was given a new laptop.", en: "Me dieron una laptop nueva." },
         ],
         checkpoint: [
           {
@@ -355,7 +355,7 @@ export const EN_B2_U15_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La consultora que contratamos nos aconsejó reducir costes.",
+        source: "La consultora que contratamos nos aconsejó reducir costos.",
         answer: "The consultant we hired advised us to cut costs.",
         altAnswers: [
           "The consultant that we hired advised us to cut costs.",

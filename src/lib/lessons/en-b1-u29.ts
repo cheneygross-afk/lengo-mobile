@@ -468,7 +468,7 @@ export const EN_B1_U29: Lesson[] = [
         type: "listen-choose",
         audio: "Only a few people came, but we had such a great time.",
         question: "¿Qué dice?",
-        options: ["Vino poca gente, pero lo pasamos genial.", "No vino nadie y fue aburrido.", "Vino mucha gente y lo pasamos genial.", "Vinieron algunos amigos, pero se fueron pronto."],
+        options: ["Vino poca gente, pero la pasamos genial.", "No vino nadie y fue aburrido.", "Vino mucha gente y la pasamos genial.", "Vinieron algunos amigos, pero se fueron pronto."],
         correctIndex: 0,
         explanation: "\"Only a few people\" means a small number; \"such a great time\" means we had a great time.",
       },
@@ -476,7 +476,7 @@ export const EN_B1_U29: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Hoy tengo muchos deberes.",
+        source: "Hoy tengo mucha tarea.",
         answer: "I have a lot of homework today.",
         altAnswers: ["I have lots of homework today.", "Today I have a lot of homework.", "Today I have lots of homework.", "I've got a lot of homework today.", "I've got lots of homework today."],
         explanation: "\"Homework\" is uncountable: \"a lot of homework\", not *many homeworks.",
@@ -496,14 +496,14 @@ export const EN_B1_U29: Lesson[] = [
         body: [
           "Phrasal verbs are everywhere in spoken English: \"find out\" («enterarse»), \"give up\" («dejar», «rendirse»), \"look for\" («buscar»), \"turn down\" («rechazar», «bajar»), \"get on with\" («llevarse bien con»). With an object pronoun, separable verbs put it in the middle: \"turn it off\", not *turn off it.",
           "\"Make\" is for creating or producing something: \"make a cake\", \"make a mistake\", \"make a decision\", \"make money\", \"make noise\". \"Do\" is for tasks and activities: \"do homework\", \"do the dishes\", \"do exercise\", \"do someone a favor\".",
-          "Spanish «hacer» covers both, so learners say *do a mistake. And some «hacer» expressions use other verbs: «hacer una foto» is \"take a picture\", «hacer una pregunta» is \"ask a question\", «hacer una fiesta» is \"have a party\".",
+          "Spanish «hacer» covers both, so learners say *do a mistake. And some «hacer» expressions use other verbs: «hacer una pregunta» is \"ask a question\", «hacer una fiesta» is \"have a party\".",
         ],
         examples: [
           { es: "I found out the truth yesterday.", en: "Ayer me enteré de la verdad." },
           { es: "The music is too loud. Can you turn it down?", en: "La música está muy alta. ¿Puedes bajarla?" },
           { es: "I made a mistake.", en: "Cometí un error." },
-          { es: "Have you done your homework?", en: "¿Has hecho los deberes?" },
-          { es: "Can I take a picture?", en: "¿Puedo hacer una foto?" },
+          { es: "Have you done your homework?", en: "¿Has hecho la tarea?" },
+          { es: "Can I take a picture?", en: "¿Puedo tomar una foto?" },
           { es: "Can I ask you a question?", en: "¿Te puedo hacer una pregunta?" },
         ],
         checkpoint: [
@@ -565,7 +565,7 @@ export const EN_B1_U29: Lesson[] = [
           "\"The more..., the more...\" links two changes: \"The more you practice, the better you get\". «Cada vez más» is a repeated comparative: \"It's getting colder and colder\", \"more and more expensive\".",
         ],
         examples: [
-          { es: "My new apartment is much bigger than the old one.", en: "Mi piso nuevo es mucho más grande que el antiguo." },
+          { es: "My new apartment is much bigger than the old one.", en: "Mi departamento nuevo es mucho más grande que el antiguo." },
           { es: "This exam was a bit easier than the last one.", en: "Este examen fue un poco más fácil que el anterior." },
           { es: "It's not as hard as I thought.", en: "No es tan difícil como pensaba." },
           { es: "The more you practice, the better you get.", en: "Cuanto más practicas, mejor lo haces." },
@@ -641,19 +641,19 @@ export const EN_B1_U29: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Puedes hacernos una foto?",
+        source: "¿Puedes tomarnos una foto?",
         answer: "Can you take a picture of us?",
         altAnswers: ["Could you take a picture of us?", "Can you take a photo of us?", "Could you take a photo of us?", "Can you take our picture?", "Could you take our picture?", "Can you take our photo?", "Could you take our photo?"],
-        explanation: "«Hacer una foto» is \"take a picture\" or \"take a photo\", never *make a photo.",
+        explanation: "«Tomar una foto» is \"take a picture\" or \"take a photo\", never *make a photo.",
       },
       {
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Aunque es caro, merece la pena.",
+        source: "Aunque es caro, vale la pena.",
         answer: "Although it's expensive, it's worth it.",
         altAnswers: ["Even though it's expensive, it's worth it.", "It's worth it, although it's expensive.", "It's worth it even though it's expensive.", "Though it's expensive, it's worth it."],
-        explanation: "\"Although\" + full clause. «Merece la pena» is \"it's worth it\".",
+        explanation: "\"Although\" + full clause. «Vale la pena» is \"it's worth it\".",
       },
       {
         type: "fill-blank",
@@ -966,7 +966,7 @@ export const EN_B1_U29: Lesson[] = [
     level: "EN-B1",
     number: 5,
     title: "Translation Relay: Second Half",
-    summary: "A relay of Spanish sentences full of second-half traps: «me dijo que», «quiero que», «¿sabes dónde está?», «la vida es», «hacer una foto» and «aunque». Translate fast, then check the rule.",
+    summary: "A relay of Spanish sentences full of second-half traps: «me dijo que», «quiero que», «¿sabes dónde está?», «la vida es», «tomar una foto» and «aunque». Translate fast, then check the rule.",
     duration: "12 min",
     sections: [
       {
@@ -1037,7 +1037,7 @@ export const EN_B1_U29: Lesson[] = [
         ],
       },
       {
-        heading: "Leg 3: «la vida es», «hacer una foto»",
+        heading: "Leg 3: «la vida es», «tomar una foto»",
         body: [
           "«La vida es...», «los niños son...», «el café me pone nervioso»: when the noun means the thing in general, English drops the article: \"Life is...\", \"Children are...\", \"Coffee makes me nervous\".",
           "«Hacer» has many translations: \"take a picture\", \"ask a question\", \"have a party\", \"make a mistake\", \"do the shopping\", \"pay a visit\". Also «hace frío» is \"it's cold\" and «hace dos años» is \"two years ago\".",
@@ -1045,9 +1045,9 @@ export const EN_B1_U29: Lesson[] = [
         examples: [
           { es: "Children need a lot of sleep.", en: "Los niños necesitan dormir mucho." },
           { es: "Coffee makes me nervous.", en: "El café me pone nervioso." },
-          { es: "Let's take a picture.", en: "Vamos a hacer una foto." },
+          { es: "Let's take a picture.", en: "Vamos a tomar una foto." },
           { es: "We're having a party on Saturday.", en: "Vamos a hacer una fiesta el sábado." },
-          { es: "I do the shopping on Fridays.", en: "Hago la compra los viernes." },
+          { es: "I do the shopping on Fridays.", en: "Hago las compras los viernes." },
         ],
         checkpoint: [
           {
@@ -1153,10 +1153,10 @@ export const EN_B1_U29: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Nos hicimos una foto delante de la catedral.",
+        source: "Nos tomamos una foto delante de la catedral.",
         answer: "We took a picture in front of the cathedral.",
         altAnswers: ["We took a photo in front of the cathedral.", "We took a picture of ourselves in front of the cathedral.", "We took a photo of ourselves in front of the cathedral.", "We took a selfie in front of the cathedral."],
-        explanation: "«Hacerse una foto» is \"take a picture\" (or \"a photo\"). *Make a photo is wrong.",
+        explanation: "«Tomarse una foto» is \"take a picture\" (or \"a photo\"). *Make a photo is wrong.",
       },
       {
         type: "translate",
@@ -1912,7 +1912,7 @@ export const EN_B1_U29: Lesson[] = [
         ],
         examples: [
           { es: "On the one hand, I save time. On the other hand, I feel lonely.", en: "Por un lado, ahorro tiempo. Por otro lado, me siento solo." },
-          { es: "Although I like working from home, I miss my colleagues.", en: "Aunque me gusta teletrabajar, echo de menos a mis compañeros." },
+          { es: "Although I like working from home, I miss my colleagues.", en: "Aunque me gusta teletrabajar, extraño a mis compañeros." },
           { es: "Despite the flexibility, it can be stressful.", en: "A pesar de la flexibilidad, puede ser estresante." },
           { es: "I don't commute, so I have more free time.", en: "No tengo que desplazarme, así que tengo más tiempo libre." },
           { es: "I like the silence, whereas Carlos prefers the office.", en: "A mí me gusta el silencio, mientras que Carlos prefiere la oficina." },
@@ -1929,7 +1929,7 @@ export const EN_B1_U29: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Echo de menos a mis compañeros.",
+            source: "Extraño a mis compañeros.",
             answer: "I miss my colleagues.",
             altAnswers: ["I miss my coworkers.", "I miss my co-workers.", "I miss my workmates."],
             explanation: "«Echar de menos a alguien» is \"miss someone\", with no preposition.",

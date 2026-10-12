@@ -342,7 +342,7 @@ export const EN_B2_U08: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "Somebody ___ the window. There's glass everywhere.",
             answer: "must have broken",
-            en: "Alguien [debe de haber roto] la ventana. Hay cristales por todas partes.",
+            en: "Alguien [debe de haber roto] la ventana. Hay vidrios por todas partes.",
             explanation: "\"Must have\" + past participle: \"broken\", not *broke.",
           },
           {
@@ -603,13 +603,13 @@ export const EN_B2_U08: Lesson[] = [
       {
         heading: "In the past: had to vs must have",
         body: [
-          "This is where the two systems separate completely. Past obligation is \"had to\": \"I had to leave early\" («tuve que irme pronto»). Past deduction is \"must have\" + participle: \"She must have left early\" («debió de irse pronto»).",
-          "\"Must have\" is NEVER a past obligation. If you say *I must have left early for «tuve que irme pronto», you are saying «debí de irme pronto» (I suppose I left early), which makes no sense about yourself.",
+          "This is where the two systems separate completely. Past obligation is \"had to\": \"I had to leave early\" («tuve que irme temprano»). Past deduction is \"must have\" + participle: \"She must have left early\" («debió de irse temprano»).",
+          "\"Must have\" is NEVER a past obligation. If you say *I must have left early for «tuve que irme temprano», you are saying «debí de irme temprano» (I suppose I left early), which makes no sense about yourself.",
           "Spanish «debió irse» is ambiguous: it can mean «tuvo que irse» (obligation) or «debió de irse» (deduction). Ask yourself which one you mean, then choose \"had to\" or \"must have\". And if you mean a criticism («debería haberse ido»), that is \"should have\".",
         ],
         examples: [
-          { es: "I had to leave early.", en: "Tuve que irme pronto." },
-          { es: "She must have left early.", en: "Debió de irse pronto. (supongo)" },
+          { es: "I had to leave early.", en: "Tuve que irme temprano." },
+          { es: "She must have left early.", en: "Debió de irse temprano. (supongo)" },
           { es: "He had to pay a fine.", en: "Tuvo que pagar una multa." },
           { es: "He must have paid a lot for that car.", en: "Debió de pagar mucho por ese carro." },
           { es: "You should have left earlier.", en: "Deberías haberte ido antes. (crítica)" },
@@ -994,7 +994,7 @@ export const EN_B2_U08: Lesson[] = [
         sentence: "I ___ wear a suit, so I went in jeans.",
         answer: "didn't have to",
         altAnswers: ["didn't need to"],
-        en: "[No tenía que] llevar traje, así que fui en vaqueros.",
+        en: "[No tenía que] llevar traje, así que fui de jeans.",
         explanation: "No obligation in the past: \"didn't have to\" or \"didn't need to\". *I mustn't wear would mean it was forbidden.",
       },
       {
@@ -1020,7 +1020,7 @@ export const EN_B2_U08: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Se suponía que ibas a traer la tarta.",
+        source: "Se suponía que ibas a traer el pastel.",
         answer: "You were supposed to bring the cake.",
         altAnswers: [
           "You were meant to bring the cake.",
@@ -1285,7 +1285,7 @@ export const EN_B2_U08: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Someone ___ my yogurt. It was in the fridge this morning.",
         answer: "must have eaten",
-        en: "Alguien [debe de haberse comido] mi yogur. Estaba en la nevera esta mañana.",
+        en: "Alguien [debe de haberse comido] mi yogur. Estaba en el refrigerador esta mañana.",
         explanation: "\"Eat, ate, eaten\": the participle is \"eaten\". *Must have ate is a common error.",
       },
       {
@@ -1675,7 +1675,7 @@ export const EN_B2_U08: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The glass was outside, so the window ___ from inside.",
         answer: "must have been broken",
-        en: "Los cristales estaban fuera, así que la ventana [debió de romperse] desde dentro.",
+        en: "Los vidrios estaban afuera, así que la ventana [debió de romperse] desde adentro.",
         explanation: "A passive deduction: \"must have been\" + participle. Spanish uses «romperse», English uses the passive.",
       },
       {
@@ -2405,7 +2405,7 @@ export const EN_B2_U08: Lesson[] = [
         sentence: "We ___ a taxi, but we decided to walk.",
         answer: "could have taken",
         altAnswers: ["could have gotten", "could have got", "could have caught"],
-        en: "[Podríamos haber tomado] un taxi, pero decidimos ir andando.",
+        en: "[Podríamos haber tomado] un taxi, pero decidimos ir caminando.",
         explanation: "A past option that didn't happen: \"could have\" + participle.",
       },
       {

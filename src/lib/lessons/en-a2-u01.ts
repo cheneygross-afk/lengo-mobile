@@ -746,7 +746,7 @@ export const EN_A2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Cuál de estos verbos tiene dos sílabas?",
+        question: "¿En cuál de estos verbos la terminación \"-ed\" añade una sílaba?",
         options: ["decided", "danced", "cooked", "opened"],
         correctIndex: 0,
         explanation: "\"Decide\" termina en /d/, así que \"decided\" añade /ɪd/. \"Opened\" tiene dos sílabas porque \"open\" ya las tiene, y \"-ed\" no añade ninguna: /ˈoʊpənd/.",
@@ -755,7 +755,7 @@ export const EN_A2_U01: Lesson[] = [
         type: "listen-choose",
         audio: "We needed help.",
         question: "¿Qué has oído?",
-        options: ["Necesitábamos ayuda.", "Necesitamos ayuda.", "No necesitamos ayuda.", "Necesitan ayuda."],
+        options: ["Necesitábamos ayuda.", "Vamos a necesitar ayuda.", "No necesitamos ayuda.", "Necesitan ayuda."],
         correctIndex: 0,
         explanation: "\"Needed\" tiene dos sílabas: /ˈniːdɪd/. Esa sílaba final te dice que es pasado.",
       },

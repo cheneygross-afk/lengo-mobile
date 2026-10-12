@@ -300,7 +300,7 @@ export const EN_A1_U10: Lesson[] = [
     level: "EN-A1",
     number: 2,
     title: "Desafío: un día en Londres (mañana)",
-    summary: "Acompaña a Sofia en su primera mañana en Londres: llega al hotel, pide el desayuno, pregunta el camino, compra un billete y mira la hora.",
+    summary: "Acompaña a Sofia en su primera mañana en Londres: llega al hotel, pide el desayuno, pregunta el camino, compra un boleto y mira la hora.",
     duration: "12 min",
     sections: [
       {
@@ -349,7 +349,7 @@ export const EN_A1_U10: Lesson[] = [
         heading: "El desayuno: \"I'd like...\"",
         body: [
           "Para pedir con educación se usa \"I'd like\" (la forma corta de \"I would like\"), que equivale a «quisiera» o «me gustaría». \"I want\" suena demasiado directo en una cafetería o un restaurante.",
-          "También es muy común \"Can I have...?\": \"Can I have a coffee, please?\". El camarero puede preguntar \"Anything else?\" (¿algo más?) y tú respondes \"No, thanks\" o \"That's all, thanks\".",
+          "También es muy común \"Can I have...?\": \"Can I have a coffee, please?\". El mesero puede preguntar \"Anything else?\" (¿algo más?) y tú respondes \"No, thanks\" o \"That's all, thanks\".",
           "No olvides \"please\" y \"thank you\": en inglés se usan mucho más que en español, y sin ellos la frase puede sonar brusca.",
         ],
         examples: [
@@ -427,15 +427,15 @@ export const EN_A1_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Un billete y la hora",
+        heading: "Un boleto y la hora",
         body: [
-          "Para comprar un billete (o boleto): \"A ticket to Oxford, please\". «Para» un destino es \"to\". Para preguntar el precio: \"How much is a ticket?\".",
+          "Para comprar un boleto: \"A ticket to Oxford, please\". «Para» un destino es \"to\". Para preguntar el precio: \"How much is a ticket?\".",
           "Para la hora: \"What time is it?\" o \"What's the time?\". Se responde con \"It's\": \"It's nine o'clock\", \"It's half past nine\" (las nueve y media), \"It's a quarter to ten\" (las diez menos cuarto). También puedes decir los números: \"It's nine thirty\".",
           "Nunca respondas «son las...» con \"They are\": la hora siempre lleva \"it\".",
         ],
         examples: [
-          { es: "A ticket to Oxford, please.", en: "Un billete para Oxford, por favor." },
-          { es: "How much is a ticket?", en: "¿Cuánto cuesta un billete?" },
+          { es: "A ticket to Oxford, please.", en: "Un boleto para Oxford, por favor." },
+          { es: "How much is a ticket?", en: "¿Cuánto cuesta un boleto?" },
           { es: "What time is it?", en: "¿Qué hora es?" },
           { es: "It's half past nine.", en: "Son las nueve y media." },
           { es: "It's a quarter to ten.", en: "Son las diez menos cuarto." },
@@ -456,8 +456,8 @@ export const EN_A1_U10: Lesson[] = [
             prompt: "Escribe en inglés las palabras en negrita.",
             sentence: "One ___ to Oxford, please.",
             answer: "ticket",
-            en: "Un [billete] para Oxford, por favor.",
-            explanation: "«Billete» o «boleto» de transporte es \"ticket\". Un \"bill\" es un billete de dinero (en EE. UU.) o una factura.",
+            en: "Un [boleto] para Oxford, por favor.",
+            explanation: "«Boleto» de transporte es \"ticket\". Un \"bill\" es un billete de dinero (en EE. UU.) o una factura.",
           },
         ],
       },
@@ -529,7 +529,7 @@ export const EN_A1_U10: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "¿Cuánto cuesta un billete para Oxford?",
+        source: "¿Cuánto cuesta un boleto para Oxford?",
         answer: "How much is a ticket to Oxford?",
         altAnswers: ["How much does a ticket to Oxford cost?"],
         explanation: "\"How much is...?\" o \"How much does... cost?\". El destino va con \"to\", no con \"for\".",
@@ -592,7 +592,7 @@ export const EN_A1_U10: Lesson[] = [
         examples: [
           { es: "How much is this T-shirt?", en: "¿Cuánto cuesta esta camiseta?" },
           { es: "It's twenty pounds.", en: "Cuesta veinte libras." },
-          { es: "How much are those jeans?", en: "¿Cuánto cuestan esos vaqueros?" },
+          { es: "How much are those jeans?", en: "¿Cuánto cuestan esos jeans?" },
           { es: "They're forty-five pounds.", en: "Cuestan cuarenta y cinco libras." },
           { es: "Can I try it on?", en: "¿Me lo puedo probar?" },
           { es: "I'd like this one, please.", en: "Quisiera este, por favor." },
@@ -1124,7 +1124,7 @@ export const EN_A1_U10: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "¿Hay huevos en la nevera?",
+            source: "¿Hay huevos en el refrigerador?",
             answer: "Are there any eggs in the fridge?",
             altAnswers: ["Are there eggs in the fridge?", "Are there any eggs in the refrigerator?", "Are there eggs in the refrigerator?"],
             explanation: "«¿Hay...?» con un plural es \"Are there...?\". En preguntas se suele añadir \"any\".",
@@ -1881,7 +1881,7 @@ export const EN_A1_U10: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "No sé manejar, pero sé montar en bicicleta.",
+        source: "No sé manejar, pero sé andar en bicicleta.",
         answer: "I can't drive, but I can ride a bike.",
         altAnswers: [
           "I cannot drive, but I can ride a bike.",
@@ -1889,7 +1889,7 @@ export const EN_A1_U10: Lesson[] = [
           "I cannot drive, but I can ride a bicycle.",
           "I can't drive but I can ride a bike.",
         ],
-        explanation: "Las habilidades van con \"can\" y \"can't\". «Montar en bicicleta» es \"ride a bike\". Si fallas, repasa la unidad 7.",
+        explanation: "Las habilidades van con \"can\" y \"can't\". «Andar en bicicleta» es \"ride a bike\". Si fallas, repasa la unidad 7.",
       },
       {
         type: "translate",

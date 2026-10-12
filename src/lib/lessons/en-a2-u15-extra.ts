@@ -316,7 +316,7 @@ export const EN_A2_U15_EXTRA: Lesson[] = [
               "The dog that bit me was small.",
             ],
             correctIndex: 0,
-            explanation: "Solo en la primera \"that\" es el objeto (nosotros pedimos la pizza): \"the pizza we ordered\". En las otras es el sujeto del verbo.",
+            explanation: "Solo en la frase de la pizza \"that\" es el objeto (nosotros pedimos la pizza): \"the pizza we ordered\". En las otras es el sujeto del verbo.",
           },
           {
             type: "translate",
