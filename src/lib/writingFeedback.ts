@@ -18,7 +18,7 @@ export type WritingRubricCheck = {
 };
 
 export type WritingFeedback = {
-  corrected: string; // the learner's text with its mistakes fixed
+  corrected: string; // the learner's text with its mistakes fixed; empty for a long text (LONG_TEXT_WORDS)
   corrections: WritingCorrection[];
   rubric: WritingRubricCheck[];
   score: number; // 1-5
@@ -34,8 +34,14 @@ export type WritingFeedbackRequest = {
   text: string;
 };
 
-/** Longest text the route accepts, in characters. */
-export const WRITING_MAX_CHARS = 3000;
+/** Longest text the route accepts, in characters: room for the two-page
+ * essays the Writing practice pages ask for at C2. */
+export const WRITING_MAX_CHARS = 9000;
+
+/** Above this many words the feedback skips the fully corrected copy of the
+ * text (it would take too long to write out) and lists more corrections
+ * instead. */
+export const LONG_TEXT_WORDS = 350;
 
 /** Words in a learner's text, as the word-count hint counts them. */
 // Han characters, kana and Hangul: each one counts as a word, since
@@ -144,8 +150,9 @@ export function writingSystemPrompt(level: string): string {
     `You are a supportive, precise ${target} teacher giving feedback on a short piece of writing by a learner at CEFR level ${cefr}.`,
     "Judge the text against what a learner at that level can be expected to do; don't demand grammar from later levels.",
     "Return:",
-    "- corrected: the learner's text with its mistakes fixed, changing as little as possible so it stays their own text.",
-    "- corrections: the 3 to 6 most useful corrections (fewer if the text has fewer mistakes, none if it is correct). " +
+    "- corrected: the learner's text with its mistakes fixed, changing as little as possible so it stays their own text. " +
+      `If the text is longer than ${LONG_TEXT_WORDS} words, leave corrected as an empty string.`,
+    "- corrections: the 3 to 6 most useful corrections (up to 12 for a text longer than " + LONG_TEXT_WORDS + " words; fewer if the text has fewer mistakes, none if it is correct). " +
       `Each quotes the learner's words exactly as written (original), gives the fixed version (correction), and a one-line reason in ${lang}.`,
     `- rubric: one entry per rubric item, in the order given, with the item text copied exactly, whether the text meets it, and a short comment in ${lang}.`,
     "- score: an integer 1-5 for how well the text does the task at this level (5 = does everything asked with only minor slips).",
@@ -164,6 +171,7 @@ export function writingUserMessage(req: WritingFeedbackRequest): string {
   return [
     `Task: ${req.prompt}`,
     `Length asked for: ${req.minWords}-${req.maxWords} words.`,
+    ...(countWords(req.text) > LONG_TEXT_WORDS ? [`This text is longer than ${LONG_TEXT_WORDS} words: leave corrected empty.`] : []),
     `Rubric:\n${rubric}`,
     "Learner's text:",
     "<text>",
@@ -194,8 +202,8 @@ export function parseWritingFeedback(raw: unknown): WritingFeedback | null {
   if (!data || typeof data !== "object") return null;
   const d = data as Record<string, unknown>;
   const s = (v: unknown) => (typeof v === "string" ? v.trim() : "");
+  // Empty only for a long text (see LONG_TEXT_WORDS): the corrections stand in for it.
   const corrected = s(d.corrected);
-  if (!corrected) return null;
   const score = typeof d.score === "number" && Number.isFinite(d.score) ? Math.min(5, Math.max(1, Math.round(d.score))) : NaN;
   if (Number.isNaN(score)) return null;
   const corrections: WritingCorrection[] = Array.isArray(d.corrections)
@@ -205,7 +213,7 @@ export function parseWritingFeedback(raw: unknown): WritingFeedback | null {
           return { original: s(o.original), correction: s(o.correction), reason: s(o.reason) };
         })
         .filter((c) => c.original && c.correction && c.original !== c.correction)
-        .slice(0, 6)
+        .slice(0, 12)
     : [];
   const rubric: WritingRubricCheck[] = Array.isArray(d.rubric)
     ? d.rubric
@@ -216,5 +224,6 @@ export function parseWritingFeedback(raw: unknown): WritingFeedback | null {
         })
         .filter((r) => r.item)
     : [];
+  if (!corrected && !corrections.length && !rubric.length) return null;
   return { corrected, corrections, rubric, score, comment: s(d.comment) };
 }
