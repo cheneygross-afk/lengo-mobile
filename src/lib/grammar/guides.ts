@@ -260,7 +260,7 @@ const CORE_GUIDES: GrammarGuide[] = [
       },
       {
         q: "Do some verbs change meaning between the two tenses?",
-        a: "Yes. Conocí means \"I met\" while conocía means \"I knew.\" Supe means \"I found out\" while sabía means \"I knew.\" Quise means \"I tried\" while quería means \"I wanted.\"",
+        a: "Yes. Conocí means \"I met\" while conocía means \"I knew.\" Supe means \"I found out\" while sabía means \"I knew.\" Quise often means \"I tried\" (and no quise means \"I refused\") while quería means \"I wanted.\"",
       },
     ],
     related: ["por-vs-para", "spanish-subjunctive", "saber-vs-conocer"],
@@ -379,7 +379,7 @@ const CORE_GUIDES: GrammarGuide[] = [
       {
         heading: "Adding a mí, a ti, a ella",
         body: [
-          "Le and les can refer to several people, so Spanish often adds a + person to be clear. You can also add it for emphasis. The pronoun stays even when you add the a phrase.",
+          "Le and les can refer to different people (le = him, her or you), so Spanish often adds a + person to be clear. You can also add it for emphasis. The pronoun stays even when you add the a phrase.",
         ],
         examples: [
           { es: "A María le gusta el té.", en: "María likes tea." },

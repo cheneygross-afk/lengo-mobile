@@ -16,9 +16,7 @@ const T4_STATEMENTS = [
   "G. Le sorprendió la relación entre profesores y alumnos.",
   "H. Se sintió solo durante los primeros meses.",
   "I. Tuvo que cambiar sus planes por motivos económicos.",
-  "J. Cree que la estancia fue demasiado corta.",
-  "K. Viajó por todo el país los fines de semana.",
-  "L. Descubrió una vocación profesional nueva.",
+  "J. Descubrió una vocación profesional nueva.",
 ];
 
 export const DELE_B2_AUDITIVA: ExamPaper = {
@@ -64,7 +62,7 @@ export const DELE_B2_AUDITIVA: ExamPaper = {
           label: "Conversación 4",
           lines: [
             { voice: "m", text: "¿Qué te pareció la obra de teatro?" },
-            { voice: "f", text: "Los actores estaban muy bien, sobre todo la protagonista. Lo que no me convenció fue el final: todo se resolvía demasiado deprisa, como si tuvieran prisa por terminar." },
+            { voice: "f", text: "Los actores estaban muy bien, sobre todo la protagonista. Lo que no me convenció fue el final: todo se resolvía demasiado deprisa, como si el autor quisiera acabar cuanto antes." },
             { voice: "m", text: "Pues a mí me pareció lo mejor, tan inesperado." },
           ],
         },
@@ -240,7 +238,7 @@ export const DELE_B2_AUDITIVA: ExamPaper = {
     {
       title: "Tarea 4",
       instructions:
-        "Usted va a escuchar a seis personas que hablan de su experiencia estudiando en el extranjero. Escuchará a cada persona dos veces. Seleccione el enunciado (A-L) que corresponde al tema del que habla cada persona (19-24). Hay doce enunciados; seleccione solamente seis.",
+        "Usted va a escuchar a seis personas que hablan de su experiencia estudiando en el extranjero. Escuchará a cada persona dos veces. Seleccione el enunciado (A-J) que corresponde al tema del que habla cada persona (19-24). Hay diez enunciados; seleccione solamente seis.",
       audio: [
         {
           label: "Persona 19",
@@ -285,7 +283,7 @@ export const DELE_B2_AUDITIVA: ExamPaper = {
         { n: 20, source: 1, question: "Persona 20", options: T4_STATEMENTS, answer: 8, explanation: "Estados Unidos era demasiado caro y se fue a Polonia." },
         { n: 21, source: 2, question: "Persona 21", options: T4_STATEMENTS, answer: 6, explanation: "Trato cercano con los profesores, impensable en su universidad." },
         { n: 22, source: 3, question: "Persona 22", options: T4_STATEMENTS, answer: 7, explanation: "Los primeros meses los pasó encerrado en la residencia." },
-        { n: 23, source: 4, question: "Persona 23", options: T4_STATEMENTS, answer: 11, explanation: "Descubrió que quería trabajar con personas y cambió de carrera." },
+        { n: 23, source: 4, question: "Persona 23", options: T4_STATEMENTS, answer: 9, explanation: "Descubrió que quería trabajar con personas y cambió de carrera." },
         { n: 24, source: 5, question: "Persona 24", options: T4_STATEMENTS, answer: 1, explanation: "Cree que lo contrataron por su año en Dublín." },
       ],
     },

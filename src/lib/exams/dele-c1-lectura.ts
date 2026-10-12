@@ -4,7 +4,7 @@ import type { ExamPaper } from "./types";
 // DELE C1 practice exam -- Prueba 1: Comprensión de lectura y uso de la
 // lengua. 90 minutes, 5 tasks, 40 items, as in the real exam.
 const T2_FRAGMENTS = [
-  "A. Ese mismo año, el ayuntamiento aprobó una ordenanza que prohibía expresamente dar de comer a los animales en la vía pública.",
+  "A. Paralelamente, el ayuntamiento aprobó una ordenanza que prohibía expresamente dar de comer a los animales en la vía pública.",
   "B. La paradoja es que, cuanto más se esfuerza una ciudad por eliminar a las palomas, más atractiva resulta para ellas.",
   "C. No siempre fue así: durante siglos, la paloma fue un animal apreciado, criado en palomares por su carne y por su estiércol, excelente abono.",
   "D. Lo que antes era un recurso valioso se convirtió, en pocas décadas, en un simple estorbo.",
@@ -268,7 +268,7 @@ export const DELE_C1_LECTURA: ExamPaper = {
           title: "El silencio, un lujo contemporáneo",
           body:
             "Hace apenas un siglo, el silencio era la norma y el ruido, la excepción. Hoy ocurre (27) contrario: el tráfico, las obras y los dispositivos que nos acompañan a todas partes han convertido la tranquilidad en un bien escaso. No es de extrañar, por tanto, que (28) surgido todo un mercado en torno a ella: auriculares que anulan el sonido, retiros en monasterios, hoteles que prometen \"desconexión total\".\n\n" +
-            "La Organización Mundial de la Salud considera el ruido el segundo factor ambiental más perjudicial para la salud, solo (29) de la contaminación del aire. Sus efectos no se limitan al oído: la exposición prolongada (30) relaciona con el insomnio, la hipertensión y las dificultades de aprendizaje. (31) nos acostumbramos a él, el cuerpo sigue reaccionando como ante una amenaza.\n\n" +
+            "La Organización Mundial de la Salud considera el ruido el segundo factor ambiental más perjudicial para la salud, solo por (29) de la contaminación del aire. Sus efectos no se limitan al oído: la exposición prolongada (30) relaciona con el insomnio, la hipertensión y las dificultades de aprendizaje. (31) nos acostumbramos a él, el cuerpo sigue reaccionando como ante una amenaza.\n\n" +
             "Algunas ciudades han empezado a tomar medidas. Barcelona, (32) ejemplo, ha reducido el tráfico en varias manzanas del centro, y los vecinos aseguran que el cambio se nota (33) primer día. París ha instalado radares que detectan los vehículos más ruidosos y (34) multan automáticamente.\n\n" +
             "Sin embargo, el silencio absoluto tampoco es deseable. Los estudios muestran que un entorno demasiado silencioso resulta inquietante (35) la mayoría de las personas, que (36) sonidos naturales, como el agua o el viento, al vacío total. Lo que buscamos, en realidad, no es la ausencia de sonido, (37) la ausencia de ruido impuesto.\n\n" +
             "Quizá por eso cada vez más personas (38) de su tiempo libre para caminar por el campo o sentarse en un parque sin auriculares. No se trata de huir del mundo, sino de recuperar algo que dábamos por sentado. Como escribió un poeta, el silencio no es lo que queda cuando todo (39) calla, sino el espacio en el que por fin podemos (40) a nosotros mismos.",
@@ -278,14 +278,14 @@ export const DELE_C1_LECTURA: ExamPaper = {
       items: [
         { n: 27, question: "", options: ["el", "lo", "al"], answer: 1, explanation: "Lo contrario: artículo neutro con adjetivo sustantivado." },
         { n: 28, question: "", options: ["ha", "haya", "hubiera"], answer: 1, explanation: "No es de extrañar que + subjuntivo; perfecto porque el hecho llega hasta el presente." },
-        { n: 29, question: "", options: ["delante", "antes", "detrás"], answer: 2, explanation: "Es el segundo factor: va detrás de la contaminación del aire." },
+        { n: 29, question: "", options: ["delante", "antes", "detrás"], answer: 2, explanation: "Es el segundo factor: va por detrás de la contaminación del aire." },
         { n: 30, question: "", options: ["se", "le", "lo"], answer: 0, explanation: "Pasiva refleja: la exposición se relaciona con…" },
         { n: 31, question: "", options: ["Aunque", "Puesto que", "Siempre que"], answer: 0, explanation: "Concesión: aunque nos acostumbremos o nos acostumbramos, el cuerpo sigue reaccionando." },
-        { n: 32, question: "", options: ["por", "como", "para"], answer: 0, explanation: "Por ejemplo." },
+        { n: 32, question: "", options: ["por", "como", "para"], answer: 0, explanation: "«Por ejemplo» es una locución fija; «como ejemplo» y «para ejemplo» no introducen así un caso ilustrativo." },
         { n: 33, question: "", options: ["en el", "desde el", "hasta el"], answer: 1, explanation: "Desde el primer día: el efecto empezó entonces y continúa." },
         { n: 34, question: "", options: ["les", "los", "las"], answer: 1, explanation: "Multar a los vehículos: complemento directo masculino plural." },
         { n: 35, question: "", options: ["por", "con", "para"], answer: 2, explanation: "Resultar inquietante para alguien." },
-        { n: 36, question: "", options: ["prefieren", "prefieran", "preferirían"], answer: 0, explanation: "Relativa explicativa con un hecho constatado: indicativo." },
+        { n: 36, question: "", options: ["prefieren", "prefieran", "prefiriendo"], answer: 0, explanation: "Relativa explicativa con un hecho constatado: indicativo." },
         { n: 37, question: "", options: ["pero", "sino", "sin embargo"], answer: 1, explanation: "No es A, sino B: corrección tras una negación." },
         { n: 38, question: "", options: ["disponen", "dedican", "aprovechan"], answer: 0, explanation: "Disponer de algo: el régimen \"de su tiempo libre\" solo es posible con disponer." },
         { n: 39, question: "", options: ["se", "lo", "le"], answer: 0, explanation: "Callarse: todo se calla." },

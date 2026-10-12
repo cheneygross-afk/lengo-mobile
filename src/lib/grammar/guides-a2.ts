@@ -389,7 +389,7 @@ export const A2_GUIDES: GrammarGuide[] = [
       {
         heading: "More and less",
         body: [
-          "Put más or menos before the adjective, adverb or noun, and que before the second item. Before a number, use de instead of que.",
+          "Put más or menos before the adjective, adverb or noun, and que before the second item. Before a number, use de instead of que (except in no ... más que, which means \"only\": No tengo más que diez euros).",
         ],
         examples: [
           { es: "Madrid es más grande que Sevilla.", en: "Madrid is bigger than Seville." },

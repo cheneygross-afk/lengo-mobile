@@ -405,7 +405,7 @@ export const GUIDE_LESSON_LINKS: GuideLessonLink[] = [
   },
   {
     guide: "future-subjunctive",
-    lessons: at("c2", "legal-administrative-spanish-part-1-1", "c2r-extra-proverbs-rhythm"),
+    lessons: at("c2", "c2r-spiral-legal-subjunctive-participle", "espanol-juridico-administrativo-drill-2", "refranes-dichos-populares-drill-2", "c2r-extra-proverbs-rhythm"),
     practice: { c2: /legal-subjunctive/ },
   },
   {
@@ -435,7 +435,7 @@ export const GUIDE_LESSON_LINKS: GuideLessonLink[] = [
   },
   {
     guide: "regional-grammar-variation",
-    lessons: at("c2", "c2r-humor-regional-styles", "c2r-diminutive-regional-lexicalized", "modismos-expresiones-idiomaticas-drill-2"),
+    lessons: [...at("c1", "c1r-contrast-ustedeo-regions", "voseo-part-1-1", "c1g-leismo"), ...at("c2", "c2r-diminutive-regional-lexicalized")],
   },
   {
     guide: "dequeismo-and-queismo",

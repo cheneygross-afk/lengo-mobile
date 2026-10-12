@@ -279,7 +279,7 @@ export const A1_GUIDES: GrammarGuide[] = [
       {
         heading: "Where adjectives go",
         body: [
-          "Descriptive adjectives (color, shape, nationality, most qualities) go after the noun. Numbers, quantities and possessives go before it: dos, muchos, poco, mi, este.",
+          "Descriptive adjectives (color, shape, nationality, most qualities) go after the noun. Numbers, quantities, possessives and demonstratives go before it: dos, muchos, pocos, mi, este.",
           "Bueno, malo, primero, tercero and alguno/ninguno drop their final -o before a masculine singular noun: buen, mal, primer, tercer, algún, ningún. Grande becomes gran before any singular noun.",
         ],
         examples: [
@@ -404,7 +404,7 @@ export const A1_GUIDES: GrammarGuide[] = [
     ],
     mistakes: [
       {
-        wrong: "¿Do tú hablas inglés? / ¿Hablas tú inglés, sí?",
+        wrong: "¿Do tú hablas inglés? / ¿Haces tú hablar inglés?",
         right: "¿Hablas inglés?",
         why: "There's no helper verb like \"do\" in Spanish questions. The verb alone, with question intonation, is enough.",
       },
@@ -604,9 +604,9 @@ export const A1_GUIDES: GrammarGuide[] = [
         why: "Age uses tener, and there's no word for \"old.\"",
       },
       {
-        wrong: "Hacen muchos coches en la calle.",
+        wrong: "Están muchos coches en la calle.",
         right: "Hay muchos coches en la calle.",
-        why: "\"There are\" is hay, which never becomes plural.",
+        why: "\"There is/there are\" is hay, which never becomes plural; estar locates things already known (Los coches están en la calle).",
       },
       {
         wrong: "Yo hazo / Yo teno",
@@ -617,7 +617,7 @@ export const A1_GUIDES: GrammarGuide[] = [
     faqs: [
       {
         q: "Is \"estoy calor\" or \"soy frío\" ever right?",
-        a: "No. Feeling hot or cold is tener calor / tener frío. The weather is hace calor / hace frío. Estar caliente/frío describes objects (la sopa está fría).",
+        a: "Not for feeling hot or cold: that is tener calor / tener frío. (Soy frío exists, but it means \"I'm a cold, unaffectionate person,\" and estar caliente said of a person can mean sexually aroused.) The weather is hace calor / hace frío. Estar caliente/frío describes objects (la sopa está fría).",
       },
       {
         q: "What's the difference between hay and está?",
@@ -1041,7 +1041,7 @@ export const A1_GUIDES: GrammarGuide[] = [
       {
         heading: "When not to use it",
         body: [
-          "Don't use the progressive for future plans (use the present or ir a), for states like tener, saber or querer, or for going and coming, where the simple verb is normal.",
+          "Don't use the progressive for future plans (use the present or ir a), for states like tener, saber or querer, or for wearing clothes (llevar) and going and coming, where the simple verb is normal.",
         ],
         examples: [
           { es: "Salgo mañana para Madrid.", en: "I'm leaving for Madrid tomorrow." },
@@ -1064,7 +1064,7 @@ export const A1_GUIDES: GrammarGuide[] = [
       {
         wrong: "Estoy lavandome.",
         right: "Estoy lavándome.",
-        why: "Attaching a pronoun to the gerund moves the stress count, so it needs a written accent.",
+        why: "Attaching a pronoun adds a syllable after the stress, so the stress falls third from the end (la-VÁN-do-me) and needs a written accent.",
       },
     ],
     faqs: [
@@ -1088,7 +1088,7 @@ export const A1_GUIDES: GrammarGuide[] = [
     level: "A1",
     readingLevelPath: "a1",
     intro: [
-      "A, en, de and con are among the ten most frequent words in Spanish. Each has a core meaning, but none lines up one-to-one with an English preposition: en can be \"in,\" \"on\" or \"at,\" and de can be \"of,\" \"from\" or \"about.\"",
+      "A, en, de and con are among the most frequent words in Spanish. Each has a core meaning, but none lines up one-to-one with an English preposition: en can be \"in,\" \"on\" or \"at,\" and de can be \"of,\" \"from\" or \"about.\"",
       "Learn each preposition by its main jobs, and learn common phrases whole.",
     ],
     sections: [

@@ -228,7 +228,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   ],
   "diminutives-augmentatives-2": [
     fe("La película ha sido un ___ de taquilla.", "exitazo", "The film has been a [huge success] at the box office.", "El aumentativo -azo expresa admiración o gran magnitud.", ["éxito enorme", "gran éxito", "bombazo"]),
-    fe("Eres un ___: has vuelto a romper el vaso.", "manazas", "You're [so clumsy]: you've broken the glass again.", "«Manazas»: persona torpe con las manos.", ["torpe", "patoso", "patosa"]),
+    fe("Eres un ___: has vuelto a romper el vaso.", "manazas", "You're [so clumsy]: you've broken the glass again.", "«Manazas»: persona torpe con las manos.", ["torpe", "patoso"]),
   ],
   "c2r-diminutive-regional-lexicalized": [
     fe("Abre la ___ del coche, que hace calor.", "ventanilla", "Open the car [window], it's hot.", "«Ventanilla» está lexicalizada: no significa «ventana pequeña».", ["ventana"]),
@@ -239,7 +239,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Antes de negociar, conviene ___ sobre la mesa.", "poner las cartas", "Before negotiating, it's best to [lay your cards] on the table.", "«Poner las cartas sobre la mesa»: mostrar las intenciones con claridad.", ["poner todas las cartas"]),
   ],
   "business-idioms-2": [
-    fe("Para este lanzamiento vamos a ___.", "tirar la casa por la ventana", "For this launch we're going to [spare no expense].", "«Tirar (o echar) la casa por la ventana» (modismo nuevo): gastar sin reparar en gastos, típico de celebraciones o lanzamientos.", ["echar la casa por la ventana"]),
+    fe("Para este lanzamiento vamos a ___.", "tirar la casa por la ventana", "For this launch we're going to [spare no expense].", "«Tirar (o echar) la casa por la ventana» (modismo nuevo): gastar sin reparar en gastos, típico de celebraciones o lanzamientos.", ["echar la casa por la ventana", "no reparar en gastos", "no escatimar en gastos", "no escatimar gastos"]),
     fe("Tras la crisis, la empresa ___ en su estrategia.", "dio un giro de ciento ochenta grados", "After the crisis, the company [made a complete U-turn] in its strategy.", "«Dar un giro de 180 grados»: cambiar radicalmente.", ["dio un giro de 180 grados", "dio un giro radical"]),
   ],
   "c2r-business-idioms-crisis-rewrite": [
@@ -273,7 +273,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   ],
   "listening-reading-strategies-4": [
     fe("De repente cambió de ___ y se puso muy serio.", "tono", "Suddenly he changed his [tone] and became very serious.", "«Cambiar de tono»: señal de una nueva intención comunicativa.", ["registro"]),
-    fe("No lo dijo directamente, pero lo dio a ___.", "entender", "He didn't say it directly, but he [implied it].", "«Dar a entender»: comunicar algo de forma implícita.", ["entenderlo"]),
+    fe("No lo dijo directamente, pero lo dio a ___.", "entender", "He didn't say it directly, but he [implied it].", "«Dar a entender»: comunicar algo de forma implícita."),
     fe("Hay que leer ___ para captar la crítica.", "entre líneas", "You have to read [between the lines] to catch the criticism.", "«Leer entre líneas»: captar lo implícito."),
   ],
   "c2r-strategy-fast-speech": [
@@ -342,7 +342,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "debate-persuasion-6": [
     fe("Recortar en sanidad es ___ quitarle el paraguas a alguien en plena tormenta.", "como", "Cutting health spending is [like] taking someone's umbrella away in the middle of a storm.", "Analogía: hace comprensible un argumento abstracto."),
     fe("Abusar del llamamiento ___ resta credibilidad.", "emocional", "Overusing [emotional] appeals undermines credibility.", "Pathos: apelar a las emociones del público.", ["a las emociones", "sentimental"]),
-    fe("Una buena ___ hace tangible una estadística.", "anécdota", "A good [anecdote] makes a statistic tangible.", "El ejemplo concreto convence más que el dato abstracto.", ["historia", "ejemplo"]),
+    fe("Una buena ___ hace tangible una estadística.", "anécdota", "A good [anecdote] makes a statistic tangible.", "El ejemplo concreto convence más que el dato abstracto.", ["historia"]),
     fe("¿___ alguien puede estar en contra de la educación pública?", "Acaso", "[Can] anyone [really] be against public education?", "Pregunta retórica: no espera respuesta.", ["De verdad"]),
   ],
   "c2r-debate-rhetorical-devices": [
@@ -359,7 +359,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   ],
   "debate-persuasion-8": [
     fe("Su ___ me convenció más que sus datos.", "elocuencia", "His [eloquence] convinced me more than his data.", "«Elocuencia»: capacidad de expresarse con eficacia persuasiva.", ["oratoria"]),
-    fe("Eso no es un argumento, es un ___.", "sofisma", "That's not an argument, it's a [sophism].", "«Sofisma»: argumento engañoso con apariencia de válido.", ["falacia"]),
+    fe("Eso no es un argumento, es un ___.", "sofisma", "That's not an argument, it's a [sophism].", "«Sofisma»: argumento engañoso con apariencia de válido."),
   ],
   "debate-persuasion-9": [
     fe("Tras un largo debate, llegaron a una ___.", "avenencia", "After a long debate, they reached a [settlement].", "«Avenencia»: acuerdo alcanzado tras discrepar.", ["conciliación", "concordia"]),
@@ -466,12 +466,12 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   ],
   "rhetorical-questions-2": [
     fe("¿Qué nos queda? ___.", "La esperanza", "What do we have left? [Hope].", "Hipófora: el propio hablante formula la pregunta y la responde.", ["Esperanza"]),
-    fe("¿No le parece que ya hemos esperado ___?", "bastante", "Don't you think we've waited [long enough]?", "Pregunta que da la respuesta por hecha.", ["suficiente", "demasiado"]),
-    fe("¿Y por qué ___ esto? Porque nadie más lo hará.", "hacemos", "And why [are we doing] this? Because nobody else will.", "Hipófora: pregunta y respuesta inmediata.", ["hago"]),
+    fe("¿No le parece que ya hemos esperado ___?", "bastante", "Don't you think we've waited [long enough]?", "Pregunta que da la respuesta por hecha.", ["suficiente"]),
+    fe("¿Y por qué ___ esto? Porque nadie más lo hará.", "hacemos", "And why [are we doing] this? Because nobody else will.", "Hipófora: pregunta y respuesta inmediata."),
   ],
   "rhetorical-questions-3": [
     fe("¿Hasta cuándo vamos a ___ con los brazos cruzados?", "seguir", "How much longer are we going to [keep] sitting idly by?", "Pregunta retórica de indignación.", ["estar", "quedarnos"]),
-    fe("Usada sin ___, la hipófora resulta monótona.", "medida", "Used [excessively], hypophora becomes monotonous.", "«Con / sin medida»: con o sin moderación.", ["moderación", "mesura"]),
+    fe("Usada sin ___, la hipófora resulta monótona.", "medida", "Used without [restraint], hypophora becomes monotonous.", "«Con / sin medida»: con o sin moderación.", ["moderación", "mesura"]),
     fe("¿Dónde estaban ustedes? ¿Dónde estaban ___ los necesitábamos?", "cuando", "Where were you? Where were you [when] we needed you?", "Reiteración interrogativa (anáfora)."),
   ],
   "rhetorical-questions-4": [
@@ -504,12 +504,12 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "job-interview-spanish-1": [
     fe("Una de mis ___ es la capacidad de organización.", "fortalezas", "One of my [strengths] is my ability to organize.", "«Fortalezas» frente a «puntos de mejora».", ["virtudes"]),
     fe("En mi último puesto ___ un equipo de ocho personas.", "dirigí", "In my last position [I managed] a team of eight people.", "Pretérito indefinido para logros concretos.", ["coordiné", "lideré", "gestioné"]),
-    fe("Me gustaría ___ mi experiencia al puesto que ofrecen.", "aportar", "I'd like to [bring] my experience to the position you're offering.", "«Aportar»: contribuir con algo valioso.", ["adaptar", "aplicar"]),
+    fe("Me gustaría ___ mi experiencia al puesto que ofrecen.", "aportar", "I'd like to [bring] my experience to the position you're offering.", "«Aportar»: contribuir con algo valioso.", ["aplicar"]),
   ],
   "job-interview-spanish-2": [
     fe("Un punto de ___ es que me cuesta delegar.", "mejora", "One [area for improvement] is that I find it hard to delegate.", "Eufemismo profesional de «debilidad»."),
     fe("Estoy ___ en ello con un curso de gestión del tiempo.", "trabajando", "I'm [working] on it with a time-management course.", "Muestra acciones concretas para mejorar."),
-    fe("Gracias a ese cambio, ___ los plazos de entrega en un 20 %.", "redujimos", "Thanks to that change, [we cut] delivery times by 20%.", "Resultado medible: verbo en indefinido + dato.", ["reducimos", "acortamos"]),
+    fe("Gracias a ese cambio, ___ los plazos de entrega en un 20 %.", "redujimos", "Thanks to that change, [we cut] delivery times by 20%.", "Resultado medible: verbo en indefinido + dato.", ["acortamos"]),
   ],
   "job-interview-spanish-3": [
     fe("Le pondré un ___ concreto.", "ejemplo", "I'll give you a concrete [example].", "En la entrevista por competencias, siempre ejemplos concretos.", ["caso"]),
@@ -555,7 +555,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "conflict-resolution-3": [
     fe("Busquemos un término ___.", "medio", "Let's look for a [middle ground].", "«Término medio»: solución intermedia."),
     fe("Al final llegaron a un ___ mutuo.", "acuerdo", "In the end they reached a mutual [agreement].", "«Acuerdo mutuo»: aceptado por ambas partes.", ["entendimiento"]),
-    fe("Siento ___ hecho daño.", "haberte", "I'm sorry [to have] hurt you.", "Disculpa sincera: «siento + infinitivo compuesto».", ["haberle"]),
+    fe("Siento ___ hecho daño.", "haberte", "I'm sorry [to have] hurt you.", "Disculpa sincera: «siento + infinitivo compuesto» (haber + participio); el pronombre se une a «haber»: haberte hecho daño.", ["haberle"]),
     fe("Los dos tendréis que ___ un poco.", "ceder", "You'll both have to [give a little].", "«Ceder»: renunciar a parte de lo que se pide.", ["transigir"]),
   ],
   "conflict-resolution-4": [
@@ -566,7 +566,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "conflict-resolution-5": [
     fe("Todo fue un ___: entendí mal su mensaje.", "malentendido", "It was all a [misunderstanding]: I misread his message.", "«Malentendido»: interpretación equivocada."),
     fe("La confianza tarda en ___.", "recuperarse", "Trust takes time to [be restored].", "La reconciliación lleva tiempo.", ["reconstruirse", "recobrarse"]),
-    fe("Una disculpa con «pero» ___ la responsabilidad.", "diluye", "An apology with a «but» [dilutes] responsibility.", "La disculpa sincera no traslada la culpa.", ["traslada", "reduce"]),
+    fe("Una disculpa con «pero» ___ la responsabilidad.", "diluye", "An apology with a «but» [dilutes] responsibility.", "«Diluir» (to dilute) la responsabilidad: un «pero» le quita fuerza al reconocimiento, porque la disculpa sincera no se justifica ni traslada la culpa.", ["reduce", "resta"]),
   ],
   "c2r-conflict-story-detective": [
     fe("Si te ___ bien, lo que te duele es no sentirte valorada.", "entiendo", "If I [understand] you correctly, what hurts is not feeling valued.", "Reformulación: técnica de escucha activa.", ["he entendido"]),
@@ -633,7 +633,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("La transición energética debe ser ___ con las regiones mineras.", "justa", "The energy transition must be [fair] to mining regions.", "«Transición justa»: no dejar atrás a nadie.", ["equitativa", "solidaria"]),
   ],
   "philosophy-abstract-concepts-1": [
-    fe("¿Tenemos libre ___ o todo está determinado?", "albedrío", "Do we have free [will] or is everything determined?", "«Libre albedrío» frente a «determinismo».", ["albedrio"]),
+    fe("¿Tenemos libre ___ o todo está determinado?", "albedrío", "Do we have free [will] or is everything determined?", "«Libre albedrío» frente a «determinismo»."),
     fe("Según el ___, todo acontecimiento tiene una causa previa.", "determinismo", "According to [determinism], every event has a prior cause.", "Determinismo: todo está causalmente determinado."),
   ],
   "philosophy-abstract-concepts-2": [
@@ -679,7 +679,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   ],
   "business-economics-spanish-1": [
     fe("Si la oferta supera a la ___, los precios bajan.", "demanda", "If supply exceeds [demand], prices fall.", "Ley de la oferta y la demanda."),
-    fe("La empresa anunció la ___ de una startup tecnológica.", "adquisición", "The company announced the [acquisition] of a tech startup.", "Adquisición: compra de una empresa por otra.", ["compra"]),
+    fe("La empresa anunció la ___ de una empresa emergente tecnológica.", "adquisición", "The company announced the [acquisition] of a tech startup.", "Adquisición: compra de una empresa por otra.", ["compra"]),
   ],
   "business-economics-spanish-2": [
     fe("La inflación erosiona el poder ___.", "adquisitivo", "Inflation erodes [purchasing] power.", "«Poder adquisitivo»: capacidad de compra."),
@@ -688,7 +688,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "business-economics-spanish-3": [
     fe("Este año el Estado ha cerrado con ___: ha gastado más de lo que ha ingresado.", "déficit", "This year the state ended with a [deficit]: it spent more than it took in.", "Déficit frente a superávit."),
     fe("La fusión podría crear un ___ en algunas rutas.", "monopolio", "The merger could create a [monopoly] on some routes.", "Monopolio: un solo proveedor domina el mercado."),
-    fe("El banco central ha subido los tipos de ___.", "interés", "The central bank has raised interest [rates].", "«Tipos de interés» (España) o «tasas de interés» (América).", ["interes"]),
+    fe("El banco central ha subido los tipos de ___.", "interés", "The central bank has raised interest [rates].", "«Tipos de interés» (España) o «tasas de interés» (América)."),
   ],
   "creative-writing-techniques-1": [
     fe("Desde el primer capítulo, el autor ___ el final con pequeños indicios.", "prefigura", "From the first chapter, the author [foreshadows] the ending with small clues.", "Prefigurar: anticipar sutilmente un hecho posterior.", ["anticipa", "presagia"]),
@@ -719,7 +719,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   ],
   "c2r-challenge-text-detective": [
     fe("En palabras ___, el concejal afirmó que el proyecto mejorará la movilidad.", "textuales", "In his [exact] words, the councillor stated that the project will improve mobility.", "«En palabras textuales»: cita literal.", ["literales"]),
-    fe("Es cierto que el tráfico es un problema; ___, talar el parque no es la solución.", "ahora bien", "It's true that traffic is a problem; [that said], cutting down the park is not the solution.", "Concesión seguida de refutación.", ["sin embargo", "no obstante", "pero"]),
+    fe("Es cierto que el tráfico es un problema; ___, talar el parque no es la solución.", "ahora bien", "It's true that traffic is a problem; [that said], cutting down the park is not the solution.", "Concesión seguida de refutación.", ["sin embargo", "no obstante"]),
   ],
   "c2r-challenge-argue-to-the-limit": [
     fe("Mis intereses no ___ los datos.", "invalidan", "My interests don't [invalidate] the data.", "«Invalidar» = quitar validez: la réplica separa los intereses de la persona del valor de los datos, que es como se desactiva un ad hominem.", ["anulan", "desmienten"]),

@@ -40,7 +40,7 @@ export const DELE_C2_LECTURA: ExamPaper = {
       layout: "choice",
       items: [
         { n: 1, question: "", options: ["síntoma", "emblema", "pretexto"], answer: 1, explanation: "Erigirse en emblema de algo: convertirse en su símbolo. Un síntoma es un indicio, y un pretexto, una excusa." },
-        { n: 2, question: "", options: ["fuerza", "peso", "altura"], answer: 0, explanation: "La colocación es «cobrar fuerza»: ganar intensidad o importancia." },
+        { n: 2, question: "", options: ["fuerza", "medida", "altura"], answer: 0, explanation: "La colocación es «cobrar fuerza»: ganar intensidad o importancia." },
         { n: 3, question: "", options: ["derogar", "rescindir", "desterrar"], answer: 2, explanation: "Desterrar es expulsar o eliminar por completo. Derogar se dice de una ley y rescindir, de un contrato." },
         { n: 4, question: "", options: ["eco", "cargo", "alarde"], answer: 0, explanation: "Hacerse eco de algo: recogerlo y difundirlo. Hacerse cargo es responsabilizarse, y hacer alarde, presumir." },
         { n: 5, question: "", options: ["concederse", "permitirse", "otorgarse"], answer: 1, explanation: "La locución fija es «permitirse el lujo de»." },

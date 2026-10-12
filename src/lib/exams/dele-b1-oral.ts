@@ -25,7 +25,7 @@ export const DELE_B1_ORAL: ExamPaper = {
           "Qué ventajas e inconvenientes cree que tiene.",
           "Si conoce a alguien que lo haga y qué le ha contado.",
         ],
-        prepMinutes: 8,
+        prepMinutes: 15,
         speakMinutes: 3,
         modelAnswer:
           "Me gustaría trabajar como guía de montaña. Consiste en acompañar a grupos de personas en rutas por los Pirineos o los Alpes, explicarles el paisaje y, sobre todo, cuidar de su seguridad.\n\nMe interesa desde que era pequeño, porque mis padres me llevaban todos los veranos a caminar por Asturias. Me encanta estar al aire libre y conocer gente de otros países.\n\nPara conseguirlo tengo que hacer un curso oficial de dos años, aprender primeros auxilios y mejorar mi inglés y mi francés, porque muchos clientes son extranjeros.\n\nLa ventaja principal es que trabajaría en un lugar precioso y nunca me aburriría. El inconveniente es que es un trabajo de temporada y a veces peligroso: el tiempo en la montaña cambia muy rápido.\n\nUn amigo de mi hermano es guía y me ha contado que es muy duro físicamente, pero que no cambiaría su trabajo por una oficina.",

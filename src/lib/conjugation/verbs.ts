@@ -688,6 +688,17 @@ const ROWS: Row[] = [
   ["hornear", "to bake"],
   ["remar", "to row"],
   ["arbitrar", "to referee"],
+  ["asir", "to grasp, to seize", "prn", { yo: "asgo", enSe: "to cling to, to hold on to" }],
+  ["erguir", "to raise, to lift (head, body)", "i prn", { enSe: "to stand up straight", note: "Yergo, yergues, yergue, yerguen (subjunctive yerga…) are the more common forms of the present; irgo, irgues… are also correct." }],
+  ["pudrir", "to rot", "prn", { part: "podrido", enSe: "to rot", note: "The infinitive podrir is also correct; the participle is always podrido." }],
+  ["desoír", "to ignore, to disregard (advice, a warning)", "", { from: ["des", "oír"] }],
+  ["discernir", "to discern, to distinguish", "ie", { ger: "discerniendo", over: { pret: { el: "discernió", ellos: "discernieron" }, spres: { nos: "discernamos", vosotros: "discernáis" }, simpfRa: { yo: "discerniera", tu: "discernieras", el: "discerniera", nos: "discerniéramos", vosotros: "discernierais", ellos: "discernieran" }, simpfSe: { yo: "discerniese", tu: "discernieses", el: "discerniese", nos: "discerniésemos", vosotros: "discernieseis", ellos: "discerniesen" }, sfut: { yo: "discerniere", tu: "discernieres", el: "discerniere", nos: "discerniéremos", vosotros: "discerniereis", ellos: "discernieren" } } }],
+  ["escocer", "to sting, to smart", "ue nozc"],
+  ["inquirir", "to inquire", "i>ie"],
+  ["raer", "to scrape", "", { yo: "raigo", note: "Rayo and raya are also correct for the yo present and the subjunctive." }],
+  ["agorar", "to augur, to foretell", "ue", { note: "The diphthong is written üe: agüero, agüera." }],
+  ["ahincar", "to press, to urge", "acc"],
+  ["henchir", "to fill, to swell", "i prn", { enSe: "to swell (with pride)" }],
   ["argüir", "to argue", "", {
     over: {
       pres: { yo: "arguyo", tu: "arguyes", el: "arguye", ellos: "arguyen" },

@@ -30,7 +30,7 @@ export const DELE_A1_ESCRITA: ExamPaper = {
           maxWords: 55,
           rubric: [
             "Fills in every field of the form",
-            "Gives the nationality and profession with the right agreement (estadounidense, profesora...)",
+            "Gives the nationality and profession with the right agreement (inglesa, profesora...)",
             "Says days and times correctly (los lunes, por la tarde, a las seis)",
             "Gives a simple reason with porque",
           ],

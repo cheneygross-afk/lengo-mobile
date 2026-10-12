@@ -208,7 +208,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Completa.", "No me iré hasta que me ___ la verdad. (decir, tú)", "digas", "Hasta que + futuro → subjuntivo."),
       fb("Completa.", "Esperé hasta que ___ el autobús. (llegar)", "llegó", "Pasado real → indicativo."),
       fb("Completa.", "Tan pronto como ___ las notas, te aviso. (saber, yo)", "sepa", "Futuro → subjuntivo."),
-      fb("Completa.", "Después de que los niños ___ la película, siempre hablamos de ella. (ver)", "ven", "Hábito → indicativo."),
+      fb("Completa.", "Después de que los niños ___ la película, siempre hablamos de ella. (ver)", "ven", "Hábito → indicativo (con «después de que» también es frecuente el subjuntivo: vean)."),
       mt(
         "Relaciona cada principio con su final.",
         [
@@ -232,7 +232,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "La fiesta sorpresa",
-        "Planificar exige muchas conjunciones: para que (propósito), antes de que (anterioridad), a menos que (condición negativa), siempre que (condición).",
+        "Planificar exige muchas conjunciones: para que (propósito), antes de que (anterioridad), a menos que (condición negativa), siempre que y con tal de que (condición), en caso de que (eventualidad) y no sea que (precaución); todas llevan subjuntivo.",
         [
           ["Escondeos antes de que llegue Ana.", "Hide before Ana arrives."],
           ["Apagad las luces para que no sospeche.", "Turn off the lights so she doesn't suspect."],
@@ -603,7 +603,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           fb("Completa.", "Si ___ el despertador, no habría llegado tarde. (oír, yo; pluscuamperfecto de subjuntivo)", "hubiera oído", "Hubiera + participio."),
-          fb("Completa.", "Si hubieras venido, ___ muy bien. (pasarlo, tú; condicional perfecto)", "lo habrías pasado", "Condicional perfecto con el pronombre delante: lo habrías pasado."),
+          fb("Completa.", "Si hubieras venido, ___ muy bien. (pasarlo, tú; condicional perfecto)", "lo habrías pasado", "Condicional perfecto con el pronombre delante: lo habrías pasado (en América también «la habrías pasado»)."),
         ]
       ),
     ],
@@ -718,7 +718,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "¿Qué te dijo?",
-        "En estilo indirecto con verbo en pasado, los tiempos retroceden: presente → imperfecto, pretérito → pluscuamperfecto, futuro → condicional.",
+        "En estilo indirecto con verbo en pasado, los tiempos retroceden: presente → imperfecto, pretérito → pluscuamperfecto, futuro → condicional. Las preguntas de sí o no se cuentan con «si» (Me preguntó si tenía tiempo) y las demás con el interrogativo con tilde (Me preguntó dónde vivía).",
         [
           ["Ana: «Estoy embarazada». → Ana me dijo que estaba embarazada.", "Ana told me she was pregnant."],
           ["Luis: «Me voy a mudar». → Luis dijo que se iba a mudar.", "Luis said he was going to move."],
@@ -815,9 +815,9 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Corrige.", "Me contó que ___ a su exnovia la semana anterior. (ver; el alumno escribió: vio)", "había visto", "Pretérito → pluscuamperfecto (también se acepta el pretérito en el habla, pero la norma escrita retrocede)."),
       ms(
         "¿Qué frases son correctas?",
-        ["Me preguntó dónde estaba el baño.", "Le dije que no se preocupara.", "Me preguntó que si quería bailar.", "Dijo que llegará ayer."],
+        ["Me preguntó dónde estaba el baño.", "Le dije que no se preocupara.", "Me preguntó si quería bailar.", "Dijo que llegará ayer."],
         [0, 1, 2],
-        "«Que si» es habitual y correcto en el habla. «Dijo que llegará ayer» es incoherente."
+        "Las preguntas de sí o no se transmiten con «si» (Me preguntó si quería bailar). «Dijo que llegará ayer» es incoherente: mezcla un futuro con «ayer»; lo correcto sería «Dijo que había llegado ayer»."
       ),
       mc(
         "«Close the door», he told me. → en estilo indirecto:",
@@ -863,7 +863,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
           ["Estoy negro con este ordenador.", "I'm furious with this computer."],
         ],
         [
-          fb("Completa.", "Todavía no puedes comerte las fresas; ___ verdes.", "están", "«Estar verde» significa no estar maduro; «ser verde» es el color."),
+          fb("Completa.", "Todavía no puedes comerte las fresas; ___ verdes.", "están", "«Estar verde» significa no estar maduro; «ser verde» es el color (o, en sentido figurado, ser inexperto)."),
         ]
       ),
     ],
@@ -1066,7 +1066,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "«He became famous overnight.»",
         ["Se hizo famoso de la noche a la mañana.", "Se puso famoso de la noche a la mañana.", "Se quedó famoso de la noche a la mañana.", "Llegó a famoso de la noche a la mañana."],
         0,
-        "«Hacerse famoso» (o «volverse famoso») expresa ese cambio. «Ponerse» es para estados pasajeros, «quedarse» para resultados, y «llegar a» necesita «ser»."
+        "«Hacerse famoso» (o «volverse famoso») expresa ese cambio. «Ponerse» es para estados pasajeros, «quedarse» para resultados, y «llegar a (ser)» implica un proceso largo, incompatible con «de la noche a la mañana»."
       ),
       wo("Cuando vio el precio, se quedó sin palabras.", "Quedarse sin + sustantivo = resultado.", "When he saw the price, he was left speechless."),
     ]
@@ -1144,7 +1144,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     "advanced-connectors-2",
     "b2r-error-hunt-connectors",
     "Caza de errores: los conectores",
-    "«A pesar de que el frío», «sin embargo que», «por eso de que» — corrige los conectores mal construidos.",
+    "«A pesar de que el frío», «sin embargo que», «debido a llovía» — corrige los conectores mal construidos.",
     "7 min",
     [
       sec(
@@ -1301,7 +1301,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "Relaciona cada frase neutra con su versión enfática.",
         [
           ["Toca muy bien.", "¡Lo bien que toca!"],
-          ["Nunca había visto nada igual.", "Jamás había visto nada igual."],
+          ["No había visto nunca nada igual.", "Jamás había visto nada igual."],
           ["Compré las entradas ayer.", "Las entradas las compré ayer."],
           ["El batería me impresionó.", "Fue el batería quien me impresionó."],
         ],
@@ -1501,7 +1501,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     "cuyo-el-cual-2",
     "b2r-spiral-subjunctive-universe",
     "Repaso en espiral: el universo del subjuntivo",
-    "Lecciones 1–11 del nivel Avanzado: relativas, adverbiales, imperfecto de subjuntivo y condicionales de tipo 2 y 3.",
+    "Repaso de las primeras unidades del nivel Avanzado: relativas, adverbiales, imperfecto de subjuntivo y condicionales de tipo 2 y 3.",
     "9 min",
     [
       sec(
@@ -1542,7 +1542,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     "cuyo-el-cual-2",
     "b2r-spiral-precision-tools",
     "Repaso en espiral: las herramientas de precisión",
-    "Lecciones 12–24 del nivel Avanzado: estilo indirecto, ser/estar/haber, verbos de cambio, conectores, énfasis y relativos.",
+    "Repaso de las unidades centrales del nivel Avanzado: estilo indirecto, ser/estar/haber, verbos de cambio, conectores, énfasis y relativos.",
     "9 min",
     [
       sec(
@@ -1760,7 +1760,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Las condiciones",
-        "Las conjunciones condicionales siempre llevan subjuntivo: con tal de que, siempre que (= si), a menos que, a no ser que, a condición de que.",
+        "Las conjunciones condicionales siempre llevan subjuntivo: con tal de que, siempre que (= con tal de que), a menos que, a no ser que, a condición de que.",
         [
           ["—Puedes ir con tal de que nos llames cada noche.", "You can go as long as you call us every night."],
           ["—No irás a menos que apruebes todo.", "You won't go unless you pass everything."],
@@ -1979,7 +1979,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 3],
         "«Pedir que» exige subjuntivo, y en pasado imperfecto: «que llegáramos puntuales». «Que llegamos» usa indicativo y es incorrecta."
       ),
-      toEs("They didn't allow us to go out at night.", "No nos permitían que saliéramos de noche.", "Permitir que + imperfecto de subjuntivo.", ["No nos dejaban salir de noche.", "No nos permitían salir por la noche.", "No nos dejaban salir por la noche."]),
+      toEs("They didn't allow us to go out at night.", "No nos permitían que saliéramos de noche.", "Permitir que + imperfecto de subjuntivo.", ["No nos dejaron salir de noche.", "No nos permitieron salir de noche.", "No nos dejaban salir de noche.", "No nos permitían salir por la noche.", "No nos dejaban salir por la noche."]),
       wo("Fue el mejor viaje que habíamos hecho nunca.", "Superlativo + pluscuamperfecto.", "It was the best trip we had ever taken."),
     ]
   ),
@@ -2302,10 +2302,10 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "Una orden negativa en estilo indirecto en pasado va con «que no» + imperfecto de subjuntivo: «que no tocara». «Que no toques… ayer» no concuerda, y «no tocaba» es indicativo."
       ),
       ms(
-        "¿Qué versiones indirectas son correctas?",
+        "¿Qué versiones indirectas son correctas (lo cuentas una semana después)?",
         ["Dijo que estaba cansado.", "Preguntó dónde vivíamos.", "Me pidió que la esperara.", "Me dijo que venga mañana."],
         [0, 1, 2],
-        "Con «dijo» en pasado, una orden va en imperfecto de subjuntivo y «mañana» pasa a «al día siguiente»: «que viniera al día siguiente». «Me dijo que venga mañana» no hace esos cambios."
+        "Con «dijo» en pasado, una orden va en imperfecto de subjuntivo y «mañana» pasa a «al día siguiente»: «que viniera al día siguiente». «Me dijo que venga mañana» no hace esos cambios (solo valdría si la orden siguiera pendiente al contarla)."
       ),
       toEs("He told me he would call me when he arrived.", "Me dijo que me llamaría cuando llegara.", "Futuro → condicional; cuando + imperfecto de subjuntivo.", ["Me dijo que me llamaría cuando llegase."]),
       wo("Al final nadie sabía exactamente qué había dicho Ana.", "Pregunta indirecta con qué + pluscuamperfecto.", "In the end nobody knew exactly what Ana had said."),
@@ -2372,7 +2372,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           fb("Completa.", "Mi padre ___ diabético desde hace años.", "es", "Condición crónica como rasgo → ser."),
-          fb("Completa.", "Hoy ___ muy cansado y sin apetito.", "estoy", "Un estado físico de hoy se expresa con «estar»: «estoy cansado»."),
+          { ...fb("Completa.", "Hoy ___ muy cansado y sin apetito.", "estoy", "Un estado físico de hoy se expresa con «estar»: «estoy cansado»."), altAnswers: ["está"] },
         ]
       ),
     ],
@@ -2713,7 +2713,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
           ["Fue el propio alcalde quien lo presentó.", "It was the mayor himself who presented it."],
         ],
         [
-          fb("Añade énfasis.", "El alcalde lo presentó. → Fue el alcalde ___ lo presentó.", "quien", "En las hendidas de persona se usa «quien» (o «el que»): «Fue el alcalde quien…»."),
+          { ...fb("Añade énfasis.", "El alcalde lo presentó. → Fue el alcalde ___ lo presentó.", "quien", "En las hendidas de persona se usa «quien» (o «el que»): «Fue el alcalde quien…»."), altAnswers: ["el que"] },
         ]
       ),
     ],
@@ -3145,7 +3145,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       mc("¿Cuál no encaja?", ["el violín", "el violonchelo", "la viola", "la batuta"], 3, "«El violín», «el violonchelo» y «la viola» son instrumentos de cuerda. «La batuta» es el palo que usa el director."),
-      fb("Completa.", "Fue la soprano ___ recibió la ovación más larga.", "quien", "En las hendidas de persona se usa «quien» (o «la que»): «Fue la soprano quien…»."),
+      { ...fb("Completa.", "Fue la soprano ___ recibió la ovación más larga.", "quien", "En las hendidas de persona se usa «quien» (o «la que»): «Fue la soprano quien…»."), altAnswers: ["la que"] },
       fb("Completa.", "No te imaginas lo ___ que estaban los músicos. (nervioso)", "nerviosos", "Lo + adjetivo concordado + que."),
       fb("Completa.", "La obra ___ estrenada en 1936. (ser, pretérito)", "fue", "Pasiva con ser."),
       ms(
@@ -3372,7 +3372,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Cuatro tipos",
-        "Tipo 1 (real): si + presente, futuro. Tipo 2 (improbable/irreal): si + imperfecto de subjuntivo, condicional. Tipo 3 (pasado irreal): si + pluscuamperfecto de subjuntivo, condicional perfecto. Mixta: si + pluscuamperfecto, condicional simple.",
+        "Tipo 1 (real): si + presente, futuro. Tipo 2 (improbable/irreal): si + imperfecto de subjuntivo, condicional. Tipo 3 (pasado irreal): si + pluscuamperfecto de subjuntivo, condicional perfecto. Mixtas: si + pluscuamperfecto de subjuntivo, condicional simple (pasado → presente), o si + imperfecto de subjuntivo, condicional perfecto (presente → pasado).",
         [
           ["Si llueve, me mojaré. / Si lloviera, me mojaría. / Si hubiera llovido, me habría mojado.", "Three degrees of reality."],
         ],
@@ -3393,7 +3393,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
           ["Si estudias,", "aprobarás."],
           ["Si estudiaras,", "aprobarías."],
           ["Si hubieras estudiado,", "habrías aprobado."],
-          ["Si hubieras estudiado más,", "ahora no estarías tan nervioso."],
+          ["Si hubieras desayunado,", "ahora no tendrías hambre."],
         ],
         "Tipo 1, 2, 3 y mixta."
       ),
@@ -3468,7 +3468,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Completa.", "¿___ algún problema? Te veo preocupado.", "Hay", "«Hay» pregunta por la existencia de algo: «¿Hay algún problema?»."),
       fb("Completa.", "Tras el divorcio, ___ muy desconfiado. (volverse, pretérito)", "se volvió", "Cambio de carácter."),
       fb("Completa.", "Se ___ sin batería en mitad de la llamada. (quedar, él, pretérito)", "quedó", "Resultado → quedarse sin."),
-      fb("Completa.", "Esta fruta ___ verde; no te la comas.", "está", "«Estar verde» significa no estar maduro; «ser verde» es el color."),
+      fb("Completa.", "Esta fruta ___ verde; no te la comas.", "está", "«Estar verde» significa no estar maduro; «ser verde» es el color (o, en sentido figurado, ser inexperto)."),
       mc(
         "«He's a very lively person, but today he's quiet.»",
         ["Es una persona muy animada, pero hoy está callado.", "Está una persona muy animada, pero hoy es callado.", "Es una persona muy animada, pero hoy es callado.", "Hay una persona muy animada, pero hoy está callado."],
@@ -3573,7 +3573,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Sábado: la despedida.", "Mis nuevos amigos me hicieron prometer que ___. (volver, yo, condicional)", "volvería", "Prometer que + condicional."),
       fb("Sábado: la despedida.", "Ojalá ___ quedarme un mes más. (poder, yo)", "pudiera", "Ojalá + imperfecto (deseo irreal)."),
-      fb("Sábado: la despedida.", "Lo que más echaré de menos ___ la gente.", "es", "La hendida «lo que + verbo» se completa con «es» + lo destacado."),
+      { ...fb("Sábado: la despedida.", "Lo que más echaré de menos ___ la gente.", "es", "La hendida «lo que + verbo» se completa con «es» + lo destacado (con «echaré» también vale «será»)."), altAnswers: ["será"] },
       mc(
         "«I'll write the article as soon as I get to Madrid.»",
         ["Escribiré el artículo en cuanto llegue a Madrid.", "Escribiré el artículo en cuanto llegaré a Madrid.", "Escribiría el artículo en cuanto llegue a Madrid ayer.", "Escribo el artículo en cuanto llegara a Madrid."],
@@ -3723,7 +3723,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           fb("Completa.", "Está previsto que el edificio ___ demolido en otoño. (ser)", "sea", "Está previsto que + subjuntivo."),
-          fb("Completa.", "La fachada, ___ azulejos son originales, debe protegerse.", "cuyos", "«Cuyo» concuerda con lo poseído, no con el poseedor: «azulejos» → «cuyos»."),
+          fb("Completa con la forma de «cuyo» (whose).", "La fachada, ___ azulejos son originales, debe protegerse.", "cuyos", "«Cuyo» concuerda con lo poseído, no con el poseedor: «azulejos» → «cuyos»."),
         ]
       ),
     ],
@@ -3787,7 +3787,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       ms(
         "¿Qué frases son correctas?",
-        ["Si no hubiera actuado rápido, la situación habría empeorado.", "Es necesario que todos se vacunen.", "El paciente está grave, pero estable.", "Hubieron muchos contagios."],
+        ["Si no actuáramos rápido, la situación empeoraría.", "Es necesario que todos se vacunen.", "El paciente está grave, pero estable.", "Hubieron muchos contagios."],
         [0, 1, 2],
         "«Haber» impersonal va siempre en singular: «hubo muchos contagios», no «hubieron». Las otras frases son correctas."
       ),
@@ -4026,7 +4026,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Completa.", "Ojalá los jóvenes ___ interés por estas técnicas. (mostrar)", "mostraran", "Ojalá + imperfecto (deseo poco probable)."),
       fb("Completa.", "Si nadie lo aprende, el oficio ___ con él. (desaparecer, futuro)", "desaparecerá", "Tipo 1."),
-      fb("Completa.", "El taller, ___ herramientas tienen cien años, parece un museo.", "cuyas", "«Cuyo» concuerda con lo poseído, no con el poseedor: «herramientas» → «cuyas»."),
+      fb("Completa con la forma de «cuyo» (whose).", "El taller, ___ herramientas tienen cien años, parece un museo.", "cuyas", "«Cuyo» concuerda con lo poseído, no con el poseedor: «herramientas» → «cuyas»."),
       mc(
         "«He works as if he had all the time in the world.»",
         ["Trabaja como si tuviera todo el tiempo del mundo.", "Trabaja como si tiene todo el tiempo del mundo.", "Trabaja como si tendría todo el tiempo del mundo.", "Trabaja como si tenga todo el tiempo del mundo."],
@@ -4182,7 +4182,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "Negociar con palabras",
         "La diplomacia suaviza todo: condicional de cortesía (estaríamos dispuestos), condiciones (siempre que, con tal de que) y estilo indirecto formal.",
         [
-          ["Estaríamos dispuestos a ceder siempre que se respetara la frontera actual.", "We'd be willing to compromise as long as the current border were respected."],
+          ["Estaríamos dispuestos a ceder siempre que se respetara la frontera actual.", "We'd be willing to compromise as long as the current border was respected."],
           ["El ministro declaró que su país no aceptaría ninguna amenaza.", "The minister declared his country would accept no threats."],
         ],
         [
@@ -5057,7 +5057,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           fb("Completa.", "Los documentos ___ enviados de forma anónima. (ser, pretérito)", "fueron", "Pasiva."),
-          fb("Completa.", "La fuente pidió que no ___ su nombre. (revelar, ella)", "revelara", "Pedir (pasado) + imperfecto."),
+          fb("Completa.", "La fuente le pidió que no ___ su nombre. (revelar, ella)", "revelara", "Pedir (pasado) + imperfecto."),
         ]
       ),
     ],

@@ -150,11 +150,13 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la fórmula concesiva de valor universal.",
-        "sentence": "___ lo que pase, no cambiaré de opinión.",
-        "answer": "Pase",
-        "explanation": "«Pase lo que pase» es una fórmula fija de valor concesivo-universal que siempre lleva subjuntivo.",
-        "hint": "Piensa en la fórmula fija formada con el verbo «pasar» duplicado."
+        "prompt": "¿Cómo se dicen en español las palabras en negrita?",
+        "sentence": "Sentía que ya se ___ ido.",
+        "answer": "hubieran",
+        "altAnswers": ["hubiesen"],
+        "en": "She was sorry that they [had] already left.",
+        "explanation": "Con «sentía» en pasado, la partida es anterior al sentimiento: pluscuamperfecto de subjuntivo («se hubieran/hubiesen ido»).",
+        "hint": "La anterioridad se mide desde «sentía», no desde el presente."
       }
     ]
   },
@@ -232,16 +234,17 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración con subjuntivo de valoración retrospectiva.",
+        "prompt": "Ordena las palabras para formar una fórmula concesiva fija seguida de la afirmación principal.",
         "words": [
-          "me",
-          "alegra",
+          "digan",
+          "lo",
           "que",
-          "hayas",
-          "venido"
+          "digan",
+          "seguiré",
+          "adelante"
         ],
-        "translation": "I'm glad you came.",
-        "explanation": "El perfecto de subjuntivo «hayas venido» presenta la llegada como un hecho ya concluido que se valora después de ocurrido."
+        "translation": "Whatever they say, I'll keep going.",
+        "explanation": "La fórmula «digan lo que digan» (subjuntivo + lo que + el mismo verbo) declara irrelevante cualquier opinión ajena y antecede a la afirmación principal «seguiré adelante»."
       }
     ]
   },
@@ -338,7 +341,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "matching",
-        "instructions": "Relaciona cada tiempo de subjuntivo con el matiz temporal que expresa respecto al verbo principal.",
+        "instructions": "Relaciona cada tiempo de subjuntivo con el matiz temporal que expresa respecto a su punto de referencia.",
         "pairs": [
           {
             "left": "presente de subjuntivo",
@@ -1125,7 +1128,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           {
             "type": "fill-blank",
             "prompt": "Completa con la estructura de sustantivación adecuada.",
-            "sentence": "___ (interesante) de su propuesta es que nadie la había pensado antes.",
+            "sentence": "___ (interesante) de su propuesta es que a nadie se le había ocurrido antes.",
             "answer": "Lo interesante",
             "explanation": "«Lo + adjetivo» convierte la cualidad «interesante» en el núcleo nominal que funciona como sujeto de la oración.",
             "hint": "Se necesita el artículo neutro seguido del adjetivo."
@@ -1168,7 +1171,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "Sufijos derivativos: matices de productividad y registro",
         "body": [
           "Los sufijos nominalizadores -ción, -miento, -dad, -eza y -ura no son intercambiables ni completamente predecibles: cada uno impone restricciones morfológicas y connotaciones de registro que un hablante avanzado debe reconocer más que memorizar como reglas fijas. El sufijo -ción, de origen latino, resulta el más productivo con verbos en -ar y aporta un matiz de proceso formal o técnico; -miento, en cambio, se combina con verbos de las tres conjugaciones (nombramiento, crecimiento, sufrimiento) y a menudo describe procesos más concretos o físicos, aunque ambos compiten en ciertos casos.",
-          "Los sufijos -dad y -eza nominalizan adjetivos, pero con distinta procedencia y matiz: -dad, de raíz culta, tiende a formar sustantivos más abstractos y de registro elevado, mientras que -eza, de raíz más patrimonial, produce sustantivos con un matiz ligeramente más cotidiano o perceptible. Reconocer qué sufijo corresponde a cada base léxica —y detectar los casos en que la lengua ha fijado una sola opción por convención histórica, no por regla productiva— es una marca distintiva del dominio nativo del vocabulario culto."
+          "Los sufijos -dad y -eza nominalizan adjetivos, pero con distinta procedencia y matiz: -dad (sobre todo en su variante culta -idad: sinceridad, posibilidad) tiende a formar sustantivos más abstractos y de registro elevado, mientras que -eza, de evolución patrimonial, produce sustantivos con un matiz ligeramente más cotidiano o perceptible. Reconocer qué sufijo corresponde a cada base léxica —y detectar los casos en que la lengua ha fijado una sola opción por convención histórica, no por regla productiva— es una marca distintiva del dominio nativo del vocabulario culto."
         ],
         "examples": [
           {
@@ -1207,7 +1210,7 @@ const C1_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "-dad",
-                "right": "de raíz culta; forma sustantivos abstractos de registro elevado"
+                "right": "sobre todo en su forma culta -idad; forma sustantivos abstractos de registro elevado"
               },
               {
                 "left": "-eza",
@@ -1314,7 +1317,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "left": "la sensibilidad (de sensible)",
-            "right": "-dad: raíz culta, registro elevado y abstracto"
+            "right": "-idad: variante culta, registro elevado y abstracto"
           },
           {
             "left": "la limpieza (de limpio)",
@@ -1344,7 +1347,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "question": "¿Qué distingue, en términos de registro, al sufijo -dad del sufijo -eza al nominalizar un adjetivo?",
         "options": [
           "No existe ninguna diferencia de registro entre ambos sufijos.",
-          "-dad, de raíz culta, tiende a formar sustantivos más abstractos y de registro elevado; -eza, de raíz patrimonial, produce sustantivos con un matiz más cotidiano.",
+          "-dad (sobre todo en su variante culta -idad) tiende a formar sustantivos más abstractos y de registro elevado; -eza, de evolución patrimonial, produce sustantivos con un matiz más cotidiano.",
           "-eza solo puede combinarse con verbos, nunca con adjetivos.",
           "-dad es exclusivo del español medieval y ya no se emplea en la actualidad."
         ],
@@ -2647,7 +2650,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce empleando la perífrasis que exprese acumulación persistente con matiz de reclamo.",
+        "prompt": "Traduce empleando la perífrasis que exprese acumulación persistente con matiz de reproche.",
         "source": "The company has been claiming for years that the merger will create more jobs.",
         "answer": "La empresa viene afirmando desde hace años que la fusión creará más empleo.",
         "altAnswers": [
@@ -2715,11 +2718,11 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa con la perífrasis neutra que describe una acción en curso, sin matiz añadido.",
-        "sentence": "___ (estar) trabajando en la propuesta desde esta mañana, sin ningún contratiempo especial.",
-        "answer": "Estoy",
-        "hint": "Se trata de una descripción neutra, sin matiz de progresión, acumulación o duración medida.",
-        "explanation": "«Estar + gerundio» describe aquí la acción en curso de forma neutra, sin el matiz de progresión de «ir», de acumulación de «venir» ni de duración medida de «llevar»."
+        "prompt": "Completa con la perífrasis que mide la duración de una acción hasta ahora.",
+        "sentence": "___ (llevar) trabajando en la propuesta desde esta mañana, sin ningún contratiempo especial.",
+        "answer": "Llevo",
+        "hint": "«Desde esta mañana» mide el tiempo transcurrido hasta ahora.",
+        "explanation": "«Llevar + gerundio + desde» mide la duración de la acción hasta el momento presente: «llevo trabajando desde esta mañana». «Estoy trabajando desde esta mañana» también es posible, pero más neutro: no destaca el tiempo acumulado."
       },
       {
         "type": "word-order",
@@ -2752,7 +2755,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "Ser + participio: la pasiva perifrástica formal",
         "body": [
           "La pasiva perifrástica con «ser» + participio traslada el objeto directo de una oración activa a la posición de sujeto paciente, mientras el agente original —si se menciona— pasa a un complemento introducido por «por». Esta construcción resulta plenamente gramatical en español pero se percibe como marcadamente formal y escrita; en el habla espontánea suena forzada y rara vez se emplea fuera del periodismo, los textos legales o los informes técnicos.",
-          "Una restricción importante limita su uso: la pasiva con «ser» exige un verbo transitivo cuyo agente sea relevante o recuperable en el contexto, y funciona mejor cuando ese agente se expresa explícitamente o cuando el énfasis retórico recae precisamente en el paciente. Usar «ser + participio» sin necesidad comunicativa clara —por ejemplo, en una conversación cotidiana donde bastaría un verbo activo— resulta un calco estilístico que delata una traducción poco natural."
+          "Una restricción importante limita su uso: la pasiva con «ser» exige un verbo transitivo y resulta más natural cuando el agente es relevante o recuperable en el contexto, sobre todo cuando ese agente se expresa explícitamente o cuando el énfasis retórico recae precisamente en el paciente. Usar «ser + participio» sin necesidad comunicativa clara —por ejemplo, en una conversación cotidiana donde bastaría un verbo activo— resulta un calco estilístico que delata una traducción poco natural."
         ],
         "examples": [
           {
@@ -4362,18 +4365,19 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Cuáles de las siguientes oraciones emplean «por» con valor de causa retrospectiva?",
+        "question": "¿Qué oraciones usan bien «para» (plazo límite) o «por» (duración aproximada)?",
         "options": [
-          "Se le multó por conducir sin licencia.",
-          "Se aprobó el presupuesto para financiar el proyecto.",
-          "El vuelo se canceló por las condiciones climáticas.",
-          "Se contrató a un experto para asesorar al equipo."
+          "Necesito el informe para el jueves.",
+          "Estuvo de baja por unas semanas.",
+          "Entréguelo por el día 15 sin falta.",
+          "La obra debe estar acabada para junio."
         ],
         "correctIndexes": [
           0,
-          2
+          1,
+          3
         ],
-        "explanation": "Las oraciones marcadas emplean «por» para introducir la causa de un hecho ya ocurrido; las otras dos emplean «para» con valor de finalidad."
+        "explanation": "«Para» marca la fecha tope; «por» + periodo, una duración aproximada. «Por el día 15» no fija un plazo, sino una fecha aproximada: con «sin falta» debe ser «para el día 15»."
       }
     ]
   },
@@ -5591,15 +5595,15 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Un hablante dice: «Es cierto que el proyecto tiene problemas de financiación». Más tarde, tras revisar las cuentas, añade: «Está clarísimo que no vamos a llegar a fin de mes». ¿Qué explica el cambio de «es» a «está» entre ambas oraciones?",
+        "question": "Un hablante dice: «Es claro que el proyecto tiene problemas de financiación». Más tarde, tras revisar las cuentas, añade: «Está clarísimo que no vamos a llegar a fin de mes». ¿Qué explica el cambio de «es» a «está» entre ambas oraciones?",
         "options": [
           "Un simple error gramatical del hablante, sin ninguna motivación.",
           "El paso de una afirmación general y ya sabida a una conclusión basada en una evidencia concreta y recién observada.",
-          "Que «cierto» y «claro» son sinónimos perfectos e intercambiables en cualquier contexto.",
+          "Que «claro» solo admite «estar», de modo que «es claro» sería incorrecto.",
           "Que la segunda oración se refiere a un evento, no a una deducción."
         ],
         "correctIndex": 1,
-        "explanation": "La primera oración plantea una afirmación general y ya conocida sobre el proyecto; la segunda surge de revisar las cuentas —una evidencia inmediata y reciente—, lo cual motiva el cambio hacia «estar». No es un error, «cierto» y «claro» no son intercambiables en todos los contextos y la segunda oración expresa una deducción, no un evento."
+        "explanation": "La primera oración plantea una afirmación general y ya conocida sobre el proyecto; la segunda surge de revisar las cuentas —una evidencia inmediata y reciente—, lo cual motiva el cambio hacia «estar». El adjetivo es el mismo (con «cierto» no habría elección: solo «es cierto»), así que el cambio no es léxico; no es un error, «es claro» es correcto y la segunda oración expresa una deducción, no un evento."
       },
       {
         "type": "multi-select",
@@ -5700,7 +5704,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Verbos preposicionales con con",
         "body": [
-          "Un grupo especialmente productivo de verbos preposicionales se construye con «con», aunque con matices semánticos que conviene distinguir con precisión. «Contar con alguien» significa confiar en la disponibilidad o el apoyo de esa persona; «dar con algo» significa encontrar, a menudo tras una búsqueda, algo que se buscaba; «encontrarse con alguien» describe un encuentro, casual o planeado; y «enfrentarse con alguien» describe una confrontación directa, física o dialéctica.",
+          "Un grupo especialmente productivo de verbos preposicionales se construye con «con», aunque con matices semánticos que conviene distinguir con precisión. «Contar con alguien» significa confiar en la disponibilidad o el apoyo de esa persona; «dar con algo» significa encontrar, a menudo tras una búsqueda, algo que se buscaba; «encontrarse con alguien» describe un encuentro, casual o planeado; y «enfrentarse con alguien» (o, más frecuente, «enfrentarse a alguien») describe una confrontación directa, física o dialéctica.",
           "La proximidad semántica entre estos verbos —todos ellos implican, en cierto sentido, una relación de coincidencia o encuentro— explica por qué resultan especialmente propensos a la confusión entre hablantes no nativos, que tienden a extender la preposición «con» a otros verbos donde no corresponde, o a sustituirla por «en» o «a» por analogía con estructuras de su propia lengua. Distinguir estos matices exige atender no solo a la preposición, sino al significado específico que cada verbo adquiere en combinación con ella."
         ],
         "examples": [
@@ -5840,7 +5844,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "«Quedar», «insistir» y «fijarse», en los sentidos estudiados, exigen «en»; «dar» y «enfrentarse» exigen «con»."
+        "explanation": "«Quedar», «insistir» y «fijarse», en los sentidos estudiados, exigen «en»; «dar» se construye con «con», y «enfrentarse», con «con» o (más a menudo) con «a»."
       }
     ]
   },
@@ -5973,7 +5977,9 @@ const C1_BASE_LESSONS: Lesson[] = [
         "source": "She agreed to meet him at the station before the train left.",
         "answer": "Quedó en encontrarse con él en la estación antes de que saliera el tren.",
         "altAnswers": [
-          "Quedaron en encontrarse en la estación antes de que el tren saliera."
+          "Quedó en encontrarse con él en la estación antes de que el tren saliera.",
+          "Quedó en verse con él en la estación antes de que saliera el tren.",
+          "Quedó en verse con él en la estación antes de que el tren saliera."
         ],
         "explanation": "«Quedar en» introduce el contenido de un acuerdo concertado, mientras que «encontrarse con» describe el encuentro mismo; ambos verbos preposicionales, con regímenes distintos, se combinan aquí con naturalidad."
       },
@@ -6072,7 +6078,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "de"
         ],
         "correctIndex": 1,
-        "explanation": "En el sentido de sostener una confrontación directa, física o dialéctica, «enfrentarse» se ha estudiado en esta lección con la preposición «con», formando parte de la familia de verbos preposicionales que comparten esa preposición fija."
+        "explanation": "En el sentido de sostener una confrontación directa, física o dialéctica, «enfrentarse» se ha estudiado en esta lección con la preposición «con», dentro de la familia de verbos preposicionales con «con»; también es muy frecuente, y del todo correcto, «enfrentarse a»."
       }
     ]
   },
@@ -6081,7 +6087,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 59,
     "title": "Verbos Preposicionales y Régimen Verbal (Parte 2 de 2), Part 1 of 3",
-    "summary": "Un estudio de los verbos cuya preposición fija forma parte inseparable de su significado, y de los errores más frecuentes que surgen al confundir verbos semánticamente próximos con régimen distinto.",
+    "summary": "Aprenderás de dónde vienen los errores de régimen (el calco de otra lengua y la analogía interna) y a no confundir pensar en / pensar de ni depender de / basarse en.",
     "duration": "9 min",
     "sections": [
       {
@@ -6155,7 +6161,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 60,
     "title": "Verbos Preposicionales y Régimen Verbal (Parte 2 de 2), Part 2 of 3",
-    "summary": "Un estudio de los verbos cuya preposición fija forma parte inseparable de su significado, y de los errores más frecuentes que surgen al confundir verbos semánticamente próximos con régimen distinto.",
+    "summary": "Un diálogo de trabajo con consistir en, contar con, empeñarse en, quedar en y dar con, y una primera tanda de vocabulario sobre el régimen verbal (el calco, la interferencia, subsanar, toparse con).",
     "duration": "9 min",
     "sections": [
       {
@@ -6283,7 +6289,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 61,
     "title": "Verbos Preposicionales y Régimen Verbal (Parte 2 de 2), Part 3 of 3",
-    "summary": "Un estudio de los verbos cuya preposición fija forma parte inseparable de su significado, y de los errores más frecuentes que surgen al confundir verbos semánticamente próximos con régimen distinto.",
+    "summary": "Segunda tanda de vocabulario: verbos cultos de preposición fija (carecer de, prescindir de, atenerse a, incurrir en, abogar por, redundar en) y sustantivos para opinar y argumentar.",
     "duration": "7 min",
     "sections": [
       {
@@ -6590,7 +6596,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 63,
     "title": "Conectores Discursivos Avanzados, Part 1 of 6",
-    "summary": "Un repertorio de conectores propios de la argumentación formal escrita y oral, capaces de matizar, jerarquizar y cerrar un razonamiento con la precisión propia del registro culto.",
+    "summary": "Aprenderás a matizar tras una concesión con «ahora bien» y «dicho esto», y en qué se diferencian de «pero».",
     "duration": "8 min",
     "sections": [
       {
@@ -6653,7 +6659,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 64,
     "title": "Conectores Discursivos Avanzados, Part 2 of 6",
-    "summary": "Un repertorio de conectores propios de la argumentación formal escrita y oral, capaces de matizar, jerarquizar y cerrar un razonamiento con la precisión propia del registro culto.",
+    "summary": "Aprenderás a destacar un dato o hacer una precisión con «cabe destacar», «cabe señalar» y «conviene precisar», y el matiz de cada fórmula.",
     "duration": "7 min",
     "sections": [
       {
@@ -6719,7 +6725,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 65,
     "title": "Conectores Discursivos Avanzados, Part 3 of 6",
-    "summary": "Un repertorio de conectores propios de la argumentación formal escrita y oral, capaces de matizar, jerarquizar y cerrar un razonamiento con la precisión propia del registro culto.",
+    "summary": "Aprenderás a cerrar un razonamiento con «en definitiva», «en última instancia» y «al fin y al cabo», y qué matiz aporta cada uno.",
     "duration": "9 min",
     "sections": [
       {
@@ -6788,14 +6794,14 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 66,
     "title": "Conectores Discursivos Avanzados, Part 4 of 6",
-    "summary": "Un repertorio de conectores propios de la argumentación formal escrita y oral, capaces de matizar, jerarquizar y cerrar un razonamiento con la precisión propia del registro culto.",
+    "summary": "Aprenderás a anunciar una consecuencia negativa con «so pena de», «bajo pena de» y «a riesgo de», y en qué se diferencian.",
     "duration": "8 min",
     "sections": [
       {
         "heading": "So pena de, bajo pena de y a riesgo de",
         "body": [
           "«So pena de» y «bajo pena de» son locuciones de registro sumamente formal —la primera, prácticamente arcaica fuera de textos jurídicos y solemnes— que introducen una consecuencia negativa como advertencia si no se cumple una determinada condición. Ambas proceden del lenguaje jurídico y conservan ese matiz de amenaza institucional o normativa.",
-          "«A riesgo de», en cambio, pertenece a un registro formal pero no exclusivamente jurídico, y suele introducir una consecuencia negativa que el propio hablante asume como posible al llevar a cabo una acción, más que una sanción impuesta externamente. La diferencia fundamental entre ambos grupos radica en el origen de la consecuencia negativa: una sanción institucional impuesta por otros, frente a un riesgo asumido voluntariamente por el propio hablante."
+          "«A riesgo de», en cambio, pertenece a un registro formal pero no exclusivamente jurídico, y suele introducir una consecuencia negativa que el propio hablante asume como posible al llevar a cabo una acción, más que una sanción impuesta externamente. La diferencia fundamental radica en qué provoca la consecuencia negativa: con «so pena de» / «bajo pena de», la consecuencia (a menudo una sanción) llega si NO se hace algo; con «a riesgo de», es un riesgo que el hablante acepta AL hacer algo."
         ],
         "examples": [
           {
@@ -6821,12 +6827,12 @@ const C1_BASE_LESSONS: Lesson[] = [
             "question": "¿Qué diferencia principal existe entre «so pena de» y «a riesgo de»?",
             "options": [
               "No hay ninguna diferencia; son completamente intercambiables.",
-              "«So pena de» introduce una sanción institucional impuesta por otros; «a riesgo de» introduce un riesgo asumido voluntariamente por el hablante.",
+              "«So pena de» introduce la consecuencia negativa (a menudo una sanción) que sobrevendrá si no se hace algo; «a riesgo de» introduce un riesgo que el hablante acepta al hacer algo.",
               "«A riesgo de» solo se usa en textos jurídicos.",
               "«So pena de» es un conector moderno de uso coloquial frecuente."
             ],
             "correctIndex": 1,
-            "explanation": "«So pena de» procede del lenguaje jurídico y señala una sanción impuesta institucionalmente; «a riesgo de» introduce una consecuencia negativa que el propio hablante asume voluntariamente. Por eso no son intercambiables; «so pena de» es un giro culto y arcaizante, no coloquial, y «a riesgo de» se usa fuera del ámbito jurídico («a riesgo de parecer pesado…»)."
+            "explanation": "«So pena de» procede del lenguaje jurídico y señala la consecuencia negativa, a menudo una sanción, de no hacer algo («so pena de ser sancionado», «so pena de perderlo todo»); «a riesgo de» introduce una consecuencia negativa que el propio hablante acepta como posible al actuar. Por eso no son intercambiables; «so pena de» es un giro culto y arcaizante, no coloquial, y «a riesgo de» se usa fuera del ámbito jurídico («a riesgo de parecer pesado…»)."
           }
         ]
       }
@@ -6859,7 +6865,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 67,
     "title": "Conectores Discursivos Avanzados, Part 5 of 6",
-    "summary": "Un repertorio de conectores propios de la argumentación formal escrita y oral, capaces de matizar, jerarquizar y cerrar un razonamiento con la precisión propia del registro culto.",
+    "summary": "Un debate de expertos que pone en juego los conectores de la unidad, y una primera tanda de vocabulario sobre los conectores discursivos.",
     "duration": "9 min",
     "sections": [
       {
@@ -6987,7 +6993,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 68,
     "title": "Conectores Discursivos Avanzados, Part 6 of 6",
-    "summary": "Un repertorio de conectores propios de la argumentación formal escrita y oral, capaces de matizar, jerarquizar y cerrar un razonamiento con la precisión propia del registro culto.",
+    "summary": "Segunda tanda de vocabulario: conectores para argumentar (a saber, esto es, con todo, por consiguiente, huelga decir que) y palabras como la ponderación, sopesar o el ensayo argumentativo.",
     "duration": "6 min",
     "sections": [
       {
@@ -7073,12 +7079,12 @@ const C1_BASE_LESSONS: Lesson[] = [
         "question": "¿Cuál es la diferencia principal entre «so pena de» y «a riesgo de»?",
         "options": [
           "No existe ninguna diferencia entre ambos conectores.",
-          "«So pena de» introduce una sanción institucional impuesta por otros; «a riesgo de» introduce un riesgo asumido voluntariamente por el hablante.",
+          "«So pena de» introduce la consecuencia negativa (a menudo una sanción) que sobrevendrá si no se hace algo; «a riesgo de» introduce un riesgo que el hablante acepta al hacer algo.",
           "«A riesgo de» pertenece exclusivamente al lenguaje jurídico.",
           "«So pena de» es un conector de uso coloquial y frecuente hoy en día."
         ],
         "correctIndex": 1,
-        "explanation": "«So pena de» procede del lenguaje jurídico y señala una sanción impuesta institucionalmente; «a riesgo de» introduce una consecuencia negativa que el propio hablante asume voluntariamente. Sí hay diferencia; «a riesgo de» no es jurídico («a riesgo de equivocarme…») y «so pena de» es culto y arcaizante, poco frecuente en el habla coloquial."
+        "explanation": "«So pena de» procede del lenguaje jurídico y señala la consecuencia negativa, a menudo una sanción, de no hacer algo («so pena de ser sancionado», «so pena de perderlo todo»); «a riesgo de» introduce una consecuencia negativa que el propio hablante acepta como posible al actuar. Sí hay diferencia; «a riesgo de» no es jurídico («a riesgo de equivocarme…») y «so pena de» es culto y arcaizante, poco frecuente en el habla coloquial."
       }
     ]
   },
@@ -7087,7 +7093,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 69,
     "title": "Estructuras Enfáticas y Focalización, Part 1 of 6",
-    "summary": "Un recorrido por los recursos sintácticos que el español emplea para destacar un elemento concreto del discurso: oraciones escindidas, pseudoescindidas, anteposición y otras fórmulas de énfasis.",
+    "summary": "Aprenderás a formar oraciones escindidas con «ser» (fue entonces cuando, fue él quien) y a elegir el relativo según lo que destacas.",
     "duration": "9 min",
     "sections": [
       {
@@ -7150,7 +7156,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 70,
     "title": "Estructuras Enfáticas y Focalización, Part 2 of 6",
-    "summary": "Un recorrido por los recursos sintácticos que el español emplea para destacar un elemento concreto del discurso: oraciones escindidas, pseudoescindidas, anteposición y otras fórmulas de énfasis.",
+    "summary": "Aprenderás a destacar una acción entera con oraciones pseudoescindidas («lo que hizo fue renunciar») y en qué se diferencian de las escindidas con «ser».",
     "duration": "9 min",
     "sections": [
       {
@@ -7205,7 +7211,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 71,
     "title": "Estructuras Enfáticas y Focalización, Part 3 of 6",
-    "summary": "Un recorrido por los recursos sintácticos que el español emplea para destacar un elemento concreto del discurso: oraciones escindidas, pseudoescindidas, anteposición y otras fórmulas de énfasis.",
+    "summary": "Aprenderás a focalizar sin «ser», adelantando el complemento al principio de la oración, y qué efecto tiene frente al orden neutro.",
     "duration": "10 min",
     "sections": [
       {
@@ -7274,7 +7280,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 72,
     "title": "Estructuras Enfáticas y Focalización, Part 4 of 6",
-    "summary": "Un recorrido por los recursos sintácticos que el español emplea para destacar un elemento concreto del discurso: oraciones escindidas, pseudoescindidas, anteposición y otras fórmulas de énfasis.",
+    "summary": "Aprenderás otros recursos de énfasis: «no… sino que», «si algo…, eso es…» y el «sí» enfático («yo sí que se lo advertí»).",
     "duration": "8 min",
     "sections": [
       {
@@ -7346,7 +7352,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 73,
     "title": "Estructuras Enfáticas y Focalización, Part 5 of 6",
-    "summary": "Un recorrido por los recursos sintácticos que el español emplea para destacar un elemento concreto del discurso: oraciones escindidas, pseudoescindidas, anteposición y otras fórmulas de énfasis.",
+    "summary": "Una conversación sobre dejar un trabajo que reúne las estructuras enfáticas de la unidad, y una primera tanda de vocabulario sobre el énfasis.",
     "duration": "10 min",
     "sections": [
       {
@@ -7474,7 +7480,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 74,
     "title": "Estructuras Enfáticas y Focalización, Part 6 of 6",
-    "summary": "Un recorrido por los recursos sintácticos que el español emplea para destacar un elemento concreto del discurso: oraciones escindidas, pseudoescindidas, anteposición y otras fórmulas de énfasis.",
+    "summary": "Segunda tanda de vocabulario: palabras para describir cómo se resalta algo (resaltar, encabezar, la reduplicación, el realce) y qué funciones de la oración pueden enfatizarse.",
     "duration": "6 min",
     "sections": [
       {
@@ -7574,7 +7580,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 75,
     "title": "Futuro y Condicional para Conjetura, Part 1 of 6",
-    "summary": "Un estudio de los usos epistémicos del futuro y el condicional para expresar conjetura sobre el presente y el pasado, junto con otras fórmulas de probabilidad como deber de, a lo mejor y quizás.",
+    "summary": "Aprenderás a usar el futuro simple para hacer conjeturas sobre el presente (serán las tres, tendrá cuarenta años).",
     "duration": "9 min",
     "sections": [
       {
@@ -7637,7 +7643,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 76,
     "title": "Futuro y Condicional para Conjetura, Part 2 of 6",
-    "summary": "Un estudio de los usos epistémicos del futuro y el condicional para expresar conjetura sobre el presente y el pasado, junto con otras fórmulas de probabilidad como deber de, a lo mejor y quizás.",
+    "summary": "Aprenderás a usar el condicional para hacer conjeturas sobre el pasado (serían las diez, tendría veinte años) sin confundirlo con el condicional de irrealidad.",
     "duration": "8 min",
     "sections": [
       {
@@ -7692,7 +7698,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 77,
     "title": "Futuro y Condicional para Conjetura, Part 3 of 6",
-    "summary": "Un estudio de los usos epistémicos del futuro y el condicional para expresar conjetura sobre el presente y el pasado, junto con otras fórmulas de probabilidad como deber de, a lo mejor y quizás.",
+    "summary": "Aprenderás la diferencia normativa entre «deber + infinitivo» (obligación) y «deber de + infinitivo» (conjetura), y cómo se usan hoy.",
     "duration": "8 min",
     "sections": [
       {
@@ -7761,7 +7767,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 78,
     "title": "Futuro y Condicional para Conjetura, Part 4 of 6",
-    "summary": "Un estudio de los usos epistémicos del futuro y el condicional para expresar conjetura sobre el presente y el pasado, junto con otras fórmulas de probabilidad como deber de, a lo mejor y quizás.",
+    "summary": "Aprenderás por qué «a lo mejor» va con indicativo mientras «quizás», «quizá» y «tal vez» admiten también el subjuntivo.",
     "duration": "8 min",
     "sections": [
       {
@@ -7828,7 +7834,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 79,
     "title": "Futuro y Condicional para Conjetura, Part 5 of 6",
-    "summary": "Un estudio de los usos epistémicos del futuro y el condicional para expresar conjetura sobre el presente y el pasado, junto con otras fórmulas de probabilidad como deber de, a lo mejor y quizás.",
+    "summary": "Una conversación llena de conjeturas (¿qué hora será?, estará en el metro, a lo mejor, quizás), y una primera tanda de vocabulario sobre la conjetura y la probabilidad.",
     "duration": "9 min",
     "sections": [
       {
@@ -7838,7 +7844,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "Marisa: Serán las nueve, más o menos, por la luz que entra por la ventana.",
           "Pablo: ¿Y dónde estará Carlos? Ya debería haber llegado.",
           "Marisa: Estará todavía en el metro; a lo mejor hay algún retraso en la línea.",
-          "Pablo: Tendría unos veinte minutos de camino la última vez que vino, ¿no?",
+          "Pablo: Tardaría unos veinte minutos la última vez que vino, ¿no?",
           "Marisa: Sí, aunque quizás haya tomado un camino distinto esta vez.",
           "Pablo: Debe de estar al llegar, entonces. Vamos preparando algo mientras tanto.",
           "Marisa: Buena idea. Tal vez le apetezca comer algo nada más entrar."
@@ -7952,7 +7958,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 80,
     "title": "Futuro y Condicional para Conjetura, Part 6 of 6",
-    "summary": "Un estudio de los usos epistémicos del futuro y el condicional para expresar conjetura sobre el presente y el pasado, junto con otras fórmulas de probabilidad como deber de, a lo mejor y quizás.",
+    "summary": "Segunda tanda de vocabulario: expresiones para situar la conjetura en su registro (vete a saber, a buen seguro) y para graduar la certeza o una cifra (a lo sumo, y pico, en torno a).",
     "duration": "6 min",
     "sections": [
       {
@@ -8052,7 +8058,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 81,
     "title": "Registro Formal vs. Informal: Tú, Usted y Vos, Part 1 of 6",
-    "summary": "Domina los matices pragmáticos del tuteo, el ustedeo y el voseo, y aprende a leer el contexto social para elegir el tratamiento adecuado en cualquier país hispanohablante.",
+    "summary": "Aprenderás que elegir tú o usted es un acto pragmático que comunica distancia, jerarquía o afecto, y a leer la situación antes de elegir.",
     "duration": "8 min",
     "sections": [
       {
@@ -8123,13 +8129,13 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 82,
     "title": "Registro Formal vs. Informal: Tú, Usted y Vos, Part 2 of 6",
-    "summary": "Domina los matices pragmáticos del tuteo, el ustedeo y el voseo, y aprende a leer el contexto social para elegir el tratamiento adecuado en cualquier país hispanohablante.",
+    "summary": "Aprenderás qué factores deciden el tratamiento (la edad, el ámbito, la jerarquía, la confianza y la norma de cada país) y cómo se combinan.",
     "duration": "9 min",
     "sections": [
       {
         "heading": "Los factores que condicionan la elección del tratamiento",
         "body": [
-          "La edad relativa suele ser el factor más determinante: en casi todo el mundo hispanohablante, dirigirse a una persona considerablemente mayor con tú, sin que medie una invitación explícita, puede percibirse como una falta de respeto. Del mismo modo, el ámbito profesional impone sus propias reglas: quien se dirige a una autoridad, o un empleado que se dirige a la dirección general, recurrirá casi siempre al usted, independientemente de la edad de ambos.",
+          "La edad relativa es uno de los factores más determinantes: en casi todo el mundo hispanohablante, dirigirse a una persona considerablemente mayor con tú, sin que medie una invitación explícita, puede percibirse como una falta de respeto. Del mismo modo, el ámbito profesional impone sus propias reglas: quien se dirige a una autoridad, o un empleado que se dirige a la dirección general, recurrirá casi siempre al usted, independientemente de la edad de ambos.",
           "La jerarquía institucional actúa de forma parecida a la edad: en un hospital, en un cuartel o en una notaría, el tratamiento suele reflejar la posición de cada persona dentro de esa estructura, más que su relación personal. Sin embargo, el factor más difícil de calibrar para quien aprende español es la norma regional, precisamente porque varía tanto de un país a otro que una fórmula perfectamente natural en un lugar puede sonar fría, e incluso ofensiva, en otro."
         ],
         "examples": [
@@ -8201,7 +8207,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 83,
     "title": "Registro Formal vs. Informal: Tú, Usted y Vos, Part 3 of 6",
-    "summary": "Domina los matices pragmáticos del tuteo, el ustedeo y el voseo, y aprende a leer el contexto social para elegir el tratamiento adecuado en cualquier país hispanohablante.",
+    "summary": "Aprenderás cuándo tutear es natural y cuándo resulta una falta de respeto en España y en América, y por qué en Colombia el usted puede ser cariñoso.",
     "duration": "8 min",
     "sections": [
       {
@@ -8264,7 +8270,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 84,
     "title": "Registro Formal vs. Informal: Tú, Usted y Vos, Part 4 of 6",
-    "summary": "Domina los matices pragmáticos del tuteo, el ustedeo y el voseo, y aprende a leer el contexto social para elegir el tratamiento adecuado en cualquier país hispanohablante.",
+    "summary": "Aprenderás cómo cambia el tratamiento dentro de una misma conversación: del usted al tú cuando surge la confianza y del tú al usted para marcar distancia.",
     "duration": "7 min",
     "sections": [
       {
@@ -8303,15 +8309,15 @@ const C1_BASE_LESSONS: Lesson[] = [
               "la",
               "negociación",
               "comenzó",
-              "en",
+              "de",
               "usted",
               "y",
               "terminó",
-              "en",
+              "de",
               "tú"
             ],
             "translation": "The negotiation began with usted and ended with tú.",
-            "explanation": "La oración describe el tránsito típico de una conversación formal hacia una más cercana: 'La negociación comenzó en usted y terminó en tú'."
+            "explanation": "Se dice «hablar/tratarse de usted» y «de tú», con «de»: la negociación comenzó de usted y pasó al tú cuando surgió la confianza."
           }
         ]
       }
@@ -8330,7 +8336,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "confianza"
         ],
         "translation": "Both sides decided to use tú after gaining trust.",
-        "explanation": "La oración resultante describe cómo dos personas pasan del usted al tú una vez que se genera confianza mutua: 'Ambas partes decidieron tutearse tras ganar confianza'."
+        "explanation": "«Tutearse» es recíproco (se tratan de tú el uno al otro), por eso lleva «se»; «tras + infinitivo» equivale a «después de»."
       }
     ]
   },
@@ -8339,7 +8345,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 85,
     "title": "Registro Formal vs. Informal: Tú, Usted y Vos, Part 5 of 6",
-    "summary": "Domina los matices pragmáticos del tuteo, el ustedeo y el voseo, y aprende a leer el contexto social para elegir el tratamiento adecuado en cualquier país hispanohablante.",
+    "summary": "Una reunión de trabajo que empieza de usted y pasa al tú con un «¿nos tuteamos?», para ver el cambio de registro en acción.",
     "duration": "6 min",
     "sections": [
       {
@@ -8389,7 +8395,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 86,
     "title": "Registro Formal vs. Informal: Tú, Usted y Vos, Part 6 of 6",
-    "summary": "Domina los matices pragmáticos del tuteo, el ustedeo y el voseo, y aprende a leer el contexto social para elegir el tratamiento adecuado en cualquier país hispanohablante.",
+    "summary": "Vocabulario para hablar del registro y del tratamiento: las palabras con que se describen la cortesía, la distancia y el paso del usted al tú.",
     "duration": "9 min",
     "sections": [
       {
@@ -8561,7 +8567,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 87,
     "title": "El Voseo: Gramática y Uso (Parte 1 de 2), Part 1 of 3",
-    "summary": "Estudia la conjugación, la extensión geográfica y los usos sociales del voseo, desde el vos rioplatense hasta las variantes centroamericanas, y aprende a reconocerlo y emplearlo con corrección dentro de su propia norma.",
+    "summary": "Aprenderás de dónde viene el voseo y en qué países es la forma general o convive con el tuteo.",
     "duration": "7 min",
     "sections": [
       {
@@ -8632,14 +8638,14 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 88,
     "title": "El Voseo: Gramática y Uso (Parte 1 de 2), Part 2 of 3",
-    "summary": "Estudia la conjugación, la extensión geográfica y los usos sociales del voseo, desde el vos rioplatense hasta las variantes centroamericanas, y aprende a reconocerlo y emplearlo con corrección dentro de su propia norma.",
+    "summary": "Aprenderás a conjugar con vos el presente (tenés, podés, sos) y el imperativo (vení, decí), y qué tiempos no cambian en la norma culta.",
     "duration": "8 min",
     "sections": [
       {
         "heading": "La conjugación voseante en el presente y el imperativo",
         "body": [
           "La marca más reconocible del voseo aparece en el presente de indicativo, donde la forma verbal se acentúa en la última sílaba y pierde el diptongo característico de la conjugación tuteante: vos tenés, vos podés, vos querés, frente a tú tienes, tú puedes, tú quieres. Esta desinencia aguda —terminada en -ás, -és o -ís según la conjugación— es la que delata de inmediato a un hablante voseante ante cualquier oído entrenado.",
-          "El imperativo sigue una lógica parecida y resulta, de hecho, más regular que el tuteante: vení, tené, decí, conservan el acento en la misma sílaba que el infinitivo, sin las irregularidades que complican el imperativo de tú, como ven o ten. En cambio, otros tiempos verbales —el pretérito, el futuro, el subjuntivo— no presentan diferencias con la conjugación tuteante, por lo que el voseo, lejos de ser un sistema paralelo completo, se concentra sobre todo en el presente y el imperativo."
+          "El imperativo sigue una lógica parecida y resulta, de hecho, más regular que el tuteante: vení, tené, decí, conservan el acento en la misma sílaba que el infinitivo, sin las irregularidades que complican el imperativo de tú, como ven o ten. En cambio, otros tiempos verbales —el pretérito, el futuro, el subjuntivo— no presentan, en la norma culta, diferencias con la conjugación tuteante (en el habla coloquial se oyen formas como «que tengás»), por lo que el voseo, lejos de ser un sistema paralelo completo, se concentra sobre todo en el presente y el imperativo."
         ],
         "examples": [
           {
@@ -8706,7 +8712,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 89,
     "title": "El Voseo: Gramática y Uso (Parte 1 de 2), Part 3 of 3",
-    "summary": "Estudia la conjugación, la extensión geográfica y los usos sociales del voseo, desde el vos rioplatense hasta las variantes centroamericanas, y aprende a reconocerlo y emplearlo con corrección dentro de su propia norma.",
+    "summary": "Aprenderás que el voseo no borra la distinción de registro: en las zonas voseantes, vos ocupa el lugar del tú y usted conserva su función formal.",
     "duration": "7 min",
     "sections": [
       {
@@ -8921,7 +8927,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "¿Vos de dónde sos? ¿También hablás portugués?"
         ],
-        "explanation": "«Sos» y «hablás» son las formas voseantes de «ser» y «hablar» en presente, ambas con la desinencia aguda característica y, en el caso de «hablás», sin el diptongo que presentaría la forma tuteante."
+        "explanation": "«Sos» y «hablás» son las formas voseantes de «ser» y «hablar» en presente, ambas propias del voseo: «sos» sustituye a «eres» y «hablás» lleva el acento en la última sílaba (tú «hablas»)."
       },
       {
         "type": "translate",
@@ -8959,7 +8965,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "right": "el voseo medieval desapareció por completo hace siglos"
           },
           {
-            "left": "Costa Rica y Nicaragua",
+            "left": "Nicaragua",
             "right": "el voseo predomina como forma no marcada, usada por defecto"
           },
           {
@@ -8991,7 +8997,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 91,
     "title": "El Voseo: Gramática y Uso (Parte 2 de 2), Part 1 of 3",
-    "summary": "Estudia la conjugación, la extensión geográfica y los usos sociales del voseo, desde el vos rioplatense hasta las variantes centroamericanas, y aprende a reconocerlo y emplearlo con corrección dentro de su propia norma.",
+    "summary": "Aprenderás por qué el voseo rioplatense tiene pleno prestigio mientras otras variantes cargan con un estigma social sin fundamento lingüístico.",
     "duration": "9 min",
     "sections": [
       {
@@ -9073,7 +9079,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 92,
     "title": "El Voseo: Gramática y Uso (Parte 2 de 2), Part 2 of 3",
-    "summary": "Estudia la conjugación, la extensión geográfica y los usos sociales del voseo, desde el vos rioplatense hasta las variantes centroamericanas, y aprende a reconocerlo y emplearlo con corrección dentro de su propia norma.",
+    "summary": "Una charla entre un rioplatense y alguien de Costa Rica sobre cómo vosean en sus países, y una primera tanda de vocabulario sobre el voseo.",
     "duration": "10 min",
     "sections": [
       {
@@ -9195,7 +9201,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 93,
     "title": "El Voseo: Gramática y Uso (Parte 2 de 2), Part 3 of 3",
-    "summary": "Estudia la conjugación, la extensión geográfica y los usos sociales del voseo, desde el vos rioplatense hasta las variantes centroamericanas, y aprende a reconocerlo y emplearlo con corrección dentro de su propia norma.",
+    "summary": "Segunda tanda de vocabulario: términos de dialectología (la isoglosa, el continuo dialectal), de valoración social (el estigma, el prestigio) y rasgos rioplatenses como el yeísmo rehilado.",
     "duration": "6 min",
     "sections": [
       {
@@ -9246,7 +9252,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el yeísmo rehilado",
-            "en": "la pronunciación de la ll y la y con un sonido similar al de la sh, típica del Río de la Plata"
+            "en": "la pronunciación de la ll y la y con un sonido rehilado, sonoro (como la s de «measure») o, hoy más frecuente en Buenos Aires, sordo (como la sh), típica del Río de la Plata"
           },
           {
             "es": "vernáculo",
@@ -9373,7 +9379,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "left": "el yeísmo rehilado",
-            "right": "la pronunciación de la ll y la y con un sonido similar al de la sh, típica del habla rioplatense"
+            "right": "la pronunciación de la ll y la y con un sonido rehilado, sonoro (como la s de «measure») o, hoy más frecuente en Buenos Aires, sordo (como la sh), típica del habla rioplatense"
           }
         ],
         "explanation": "Este vocabulario técnico permite describir con precisión tanto la variación geográfica del español como los juicios sociales, a menudo infundados, que recaen sobre algunas de sus variedades."
@@ -9507,7 +9513,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 95,
     "title": "Variación Léxica Regional, Part 1 of 7",
-    "summary": "Descubre cómo el vocabulario cotidiano cambia radicalmente de un país hispanohablante a otro, identifica los falsos amigos dialectales más comunes y desarrolla estrategias para comunicarte con soltura en cualquier región.",
+    "summary": "Aprenderás qué significa que el español sea una lengua policéntrica y por qué carro, coche y auto son igual de correctos.",
     "duration": "8 min",
     "sections": [
       {
@@ -9578,7 +9584,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 96,
     "title": "Variación Léxica Regional, Part 2 of 7",
-    "summary": "Descubre cómo el vocabulario cotidiano cambia radicalmente de un país hispanohablante a otro, identifica los falsos amigos dialectales más comunes y desarrolla estrategias para comunicarte con soltura en cualquier región.",
+    "summary": "Aprenderás los contrastes léxicos más conocidos (palomitas, pochoclo, cabritas; guagua, autobús) y la trampa de las palabras que cambian de sentido según el país.",
     "duration": "7 min",
     "sections": [
       {
@@ -9626,7 +9632,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 97,
     "title": "Variación Léxica Regional, Part 3 of 7",
-    "summary": "Descubre cómo el vocabulario cotidiano cambia radicalmente de un país hispanohablante a otro, identifica los falsos amigos dialectales más comunes y desarrolla estrategias para comunicarte con soltura en cualquier región.",
+    "summary": "Practicarás los contrastes entre países y tres expresiones para comentarlos: resultar proverbial, una atención fina y designar un objeto.",
     "duration": "5 min",
     "sections": [
       {
@@ -9682,7 +9688,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 98,
     "title": "Variación Léxica Regional, Part 4 of 7",
-    "summary": "Descubre cómo el vocabulario cotidiano cambia radicalmente de un país hispanohablante a otro, identifica los falsos amigos dialectales más comunes y desarrolla estrategias para comunicarte con soltura en cualquier región.",
+    "summary": "Aprenderás qué son los falsos amigos dialectales, palabras neutras en un país y malsonantes en otro como «coger», y por qué, ante la duda, conviene elegir la variante más neutra.",
     "duration": "7 min",
     "sections": [
       {
@@ -9755,7 +9761,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 99,
     "title": "Variación Léxica Regional, Part 5 of 7",
-    "summary": "Descubre cómo el vocabulario cotidiano cambia radicalmente de un país hispanohablante a otro, identifica los falsos amigos dialectales más comunes y desarrolla estrategias para comunicarte con soltura en cualquier región.",
+    "summary": "Aprenderás estrategias para moverte entre variedades: preferir el término de mayor alcance, adoptar el vocabulario local y preguntar sin complejos.",
     "duration": "8 min",
     "sections": [
       {
@@ -9833,7 +9839,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 100,
     "title": "Variación Léxica Regional, Part 6 of 7",
-    "summary": "Descubre cómo el vocabulario cotidiano cambia radicalmente de un país hispanohablante a otro, identifica los falsos amigos dialectales más comunes y desarrolla estrategias para comunicarte con soltura en cualquier región.",
+    "summary": "Una conversación entre una persona de México y otra de Argentina sobre colectivo, camión, micro y pochoclo, para ver la variación léxica en acción.",
     "duration": "5 min",
     "sections": [
       {
@@ -9871,7 +9877,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 101,
     "title": "Variación Léxica Regional, Part 7 of 7",
-    "summary": "Descubre cómo el vocabulario cotidiano cambia radicalmente de un país hispanohablante a otro, identifica los falsos amigos dialectales más comunes y desarrolla estrategias para comunicarte con soltura en cualquier región.",
+    "summary": "Vocabulario para hablar de la variación léxica regional: los términos con que se describen las diferencias de vocabulario entre países.",
     "duration": "7 min",
     "sections": [
       {
@@ -10092,7 +10098,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 102,
     "title": "Español Neutro vs. Coloquial, Part 1 of 6",
-    "summary": "Distingue el español neutro de los medios y la documentación técnica del habla coloquial de la vida cotidiana, y aprende a elegir el registro adecuado según la intención y el contexto comunicativo.",
+    "summary": "Aprenderás qué es el español neutro, por qué se creó (medios, doblaje, documentación técnica) y qué rasgos regionales evita.",
     "duration": "8 min",
     "sections": [
       {
@@ -10163,7 +10169,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 103,
     "title": "Español Neutro vs. Coloquial, Part 2 of 6",
-    "summary": "Distingue el español neutro de los medios y la documentación técnica del habla coloquial de la vida cotidiana, y aprende a elegir el registro adecuado según la intención y el contexto comunicativo.",
+    "summary": "Aprenderás los rasgos del habla coloquial (muletillas, diminutivos, interjecciones, ironía, hipérbole) y por qué no es una versión pobre de la lengua.",
     "duration": "9 min",
     "sections": [
       {
@@ -10242,7 +10248,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 104,
     "title": "Español Neutro vs. Coloquial, Part 3 of 6",
-    "summary": "Distingue el español neutro de los medios y la documentación técnica del habla coloquial de la vida cotidiana, y aprende a elegir el registro adecuado según la intención y el contexto comunicativo.",
+    "summary": "Aprenderás a elegir el registro según la situación, con la pertinencia como criterio, y a combinar lo neutro y lo coloquial a propósito.",
     "duration": "8 min",
     "sections": [
       {
@@ -10300,7 +10306,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 105,
     "title": "Español Neutro vs. Coloquial, Part 4 of 6",
-    "summary": "Distingue el español neutro de los medios y la documentación técnica del habla coloquial de la vida cotidiana, y aprende a elegir el registro adecuado según la intención y el contexto comunicativo.",
+    "summary": "Aprenderás cómo un mismo contenido cambia de efecto según el registro («desacertada» frente a «una metida de pata») y por qué el riesgo es mayor por escrito.",
     "duration": "8 min",
     "sections": [
       {
@@ -10362,7 +10368,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "propia"
         ],
         "translation": "Colloquial speech has its own expressive richness.",
-        "explanation": "La oración resultante resume la idea de que el registro coloquial no es una versión pobre de la lengua sino una variedad con sus propios recursos: 'El habla coloquial posee una riqueza expresiva propia'."
+        "explanation": "«Habla» es femenino pero lleva «el» por empezar por a tónica; «propia» va detrás del sustantivo y concuerda con «riqueza»."
       }
     ]
   },
@@ -10371,7 +10377,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 106,
     "title": "Español Neutro vs. Coloquial, Part 5 of 6",
-    "summary": "Distingue el español neutro de los medios y la documentación técnica del habla coloquial de la vida cotidiana, y aprende a elegir el registro adecuado según la intención y el contexto comunicativo.",
+    "summary": "Una conversación entre dos hablantes rioplatenses que comparan un comunicado oficial con los comentarios del público, y una primera tanda de vocabulario sobre los dos registros.",
     "duration": "9 min",
     "sections": [
       {
@@ -10499,7 +10505,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 107,
     "title": "Español Neutro vs. Coloquial, Part 6 of 6",
-    "summary": "Distingue el español neutro de los medios y la documentación técnica del habla coloquial de la vida cotidiana, y aprende a elegir el registro adecuado según la intención y el contexto comunicativo.",
+    "summary": "Segunda tanda de vocabulario: recursos del habla coloquial (el diminutivo afectivo, la hipérbole, la coletilla, el taco) y tipos de expresiones fijas (la frase hecha, el refrán).",
     "duration": "6 min",
     "sections": [
       {
@@ -10599,7 +10605,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 108,
     "title": "Cartas y Correos Formales, Part 1 of 6",
-    "summary": "Aprende la estructura, las fórmulas fijas y el equilibrio entre precisión y cortesía que distinguen una carta o un correo formal bien redactado en español.",
+    "summary": "Aprenderás la estructura de una carta o un correo formal (saludo, cuerpo, cierre) y a plantear el asunto desde el primer párrafo.",
     "duration": "8 min",
     "sections": [
       {
@@ -10670,7 +10676,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 109,
     "title": "Cartas y Correos Formales, Part 2 of 6",
-    "summary": "Aprende la estructura, las fórmulas fijas y el equilibrio entre precisión y cortesía que distinguen una carta o un correo formal bien redactado en español.",
+    "summary": "Aprenderás a elegir las fórmulas de saludo y despedida según la formalidad y la relación con el destinatario (Estimado señor, Atentamente, Quedo a la espera de su respuesta).",
     "duration": "10 min",
     "sections": [
       {
@@ -10752,7 +10758,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 110,
     "title": "Cartas y Correos Formales, Part 3 of 6",
-    "summary": "Aprende la estructura, las fórmulas fijas y el equilibrio entre precisión y cortesía que distinguen una carta o un correo formal bien redactado en español.",
+    "summary": "Aprenderás las fórmulas fijas que ordenan el cuerpo del escrito, como «por medio de la presente» o «en relación con el asunto de la referencia», y para qué sirven.",
     "duration": "8 min",
     "sections": [
       {
@@ -10827,7 +10833,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 111,
     "title": "Cartas y Correos Formales, Part 4 of 6",
-    "summary": "Aprende la estructura, las fórmulas fijas y el equilibrio entre precisión y cortesía que distinguen una carta o un correo formal bien redactado en español.",
+    "summary": "Aprenderás a equilibrar precisión, cortesía y concisión en un escrito formal, y a revisarlo para quitar rodeos sin perder amabilidad.",
     "duration": "7 min",
     "sections": [
       {
@@ -10892,7 +10898,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "respuesta"
         ],
         "translation": "I look forward to your reply.",
-        "explanation": "La oración resultante es una de las fórmulas de cierre más comunes en la correspondencia formal: 'Quedo a la espera de su respuesta'."
+        "explanation": "«Quedar a la espera de» (no «esperar por») es la fórmula fija de cierre; «su» mantiene el trato de usted."
       }
     ]
   },
@@ -10901,7 +10907,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 112,
     "title": "Cartas y Correos Formales, Part 5 of 6",
-    "summary": "Aprende la estructura, las fórmulas fijas y el equilibrio entre precisión y cortesía que distinguen una carta o un correo formal bien redactado en español.",
+    "summary": "Un correo formal completo para analizar sus fórmulas de principio a fin, y una primera tanda de vocabulario sobre la correspondencia formal.",
     "duration": "9 min",
     "sections": [
       {
@@ -11029,7 +11035,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 113,
     "title": "Cartas y Correos Formales, Part 6 of 6",
-    "summary": "Aprende la estructura, las fórmulas fijas y el equilibrio entre precisión y cortesía que distinguen una carta o un correo formal bien redactado en español.",
+    "summary": "Segunda tanda de vocabulario: tipos de escrito (el oficio, la circular, la instancia), partes del documento (la rúbrica, el sello), fórmulas de cierre y cualidades de la buena redacción.",
     "duration": "6 min",
     "sections": [
       {
@@ -11129,7 +11135,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 114,
     "title": "Lenguaje Académico y Ensayos Argumentativos (Parte 1 de 2), Part 1 of 3",
-    "summary": "Aprende a estructurar un argumento académico en español, dominar los conectores lógicos, evitar la primera persona y emplear la atenuación propia del discurso académico maduro.",
+    "summary": "Aprenderás a distinguir tesis e hipótesis y a formular una tesis defendible que admita una postura contraria razonable.",
     "duration": "8 min",
     "sections": [
       {
@@ -11200,7 +11206,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 115,
     "title": "Lenguaje Académico y Ensayos Argumentativos (Parte 1 de 2), Part 2 of 3",
-    "summary": "Aprende a estructurar un argumento académico en español, dominar los conectores lógicos, evitar la primera persona y emplear la atenuación propia del discurso académico maduro.",
+    "summary": "Aprenderás a evitar la primera persona en el texto académico con construcciones impersonales, la pasiva refleja o el plural de modestia.",
     "duration": "7 min",
     "sections": [
       {
@@ -11263,7 +11269,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 116,
     "title": "Lenguaje Académico y Ensayos Argumentativos (Parte 1 de 2), Part 3 of 3",
-    "summary": "Aprende a estructurar un argumento académico en español, dominar los conectores lógicos, evitar la primera persona y emplear la atenuación propia del discurso académico maduro.",
+    "summary": "Aprenderás a enlazar las ideas de un ensayo con conectores argumentativos (por consiguiente, sin embargo, asimismo) y a elegir cada uno según la relación lógica.",
     "duration": "8 min",
     "sections": [
       {
@@ -11545,6 +11551,11 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Reescribe la idea evitando la primera persona, según la convención académica estudiada.",
         "sentence": "En vez de decir 'pienso que deberíamos reconsiderar el enfoque metodológico', el registro académico prefiere decir que ___ reconsiderar el enfoque metodológico.",
         "answer": "cabría",
+        "altAnswers": [
+          "convendría",
+          "habría que",
+          "sería conveniente"
+        ],
         "hint": "Piensa en una construcción modal impersonal equivalente a «sería conveniente».",
         "explanation": "«Cabría reconsiderar» desplaza el énfasis del autor individual hacia una recomendación formulada de manera impersonal y atenuada, evitando tanto la primera persona como una afirmación excesivamente categórica."
       },
@@ -12159,7 +12170,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "No porque... (sino porque) + subjuntivo",
         "body": [
-          "Cuando 'no porque' rechaza una razón para dar paso a la verdadera, el verbo va siempre en subjuntivo."
+          "Cuando 'no porque' rechaza una razón para dar paso a la verdadera, el verbo va normalmente en subjuntivo (el indicativo también se oye, pero el subjuntivo deja claro que esa razón se rechaza)."
         ],
         "examples": [
           {
@@ -12269,7 +12280,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 124,
     "title": "Matices Avanzados del Subjuntivo: Práctica Extra, Part 3 of 3",
-    "summary": "Practica usos avanzados y sutiles del subjuntivo: quizás/tal vez, por muy...que, exclamaciones independientes, el hecho de que, no porque, y expresiones fijas como sea como sea o cueste lo que cueste.",
+    "summary": "Practica el subjuntivo en fórmulas fijas: expresiones reduplicativas como sea como sea, pase lo que pase o digan lo que digan, y las formas en -quiera (quienquiera, dondequiera, comoquiera que), mezcladas con otros usos avanzados ya vistos.",
     "duration": "8 min",
     "sections": [
       {
@@ -12439,7 +12450,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "No comprendo lo extraño de su comportamiento.",
-            "en": "I don't understand the strange part of his behavior."
+            "en": "I don't understand what's so strange about his behavior."
           }
         ],
         "checkpoint": [
@@ -12805,7 +12816,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "La faltura de comunicación es lo que más me preocupa."
         ],
         "correctIndex": 0,
-        "explanation": "'La falta' es ya un sustantivo (de 'faltar') y se usa directamente; las demás opciones inventan formas que no existen en español."
+        "explanation": "'La falta' es ya el sustantivo de 'faltar' y se usa directamente. «La faltando» pone un gerundio tras el artículo, «el faltar de comunicación» no es una construcción natural y «la faltura» no existe."
       }
     ]
   },
@@ -13052,7 +13063,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "de",
           "firmar",
           "el",
-          "contrato",
+          "contrato,",
           "léelo",
           "con",
           "atención"
@@ -13934,7 +13945,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Reconocer los tres estilos",
         "body": [
-          "Recuerda que el estilo indirecto libre combina el cambio de tiempos del estilo indirecto con la ausencia de comillas y de verbos como \"dijo que\" del estilo directo."
+          "Recuerda que el estilo indirecto libre toma del estilo indirecto el cambio de tiempos y de persona, prescinde de las comillas y de verbos como \"dijo que\", y conserva del estilo directo la expresividad del personaje (preguntas, exclamaciones)."
         ],
         "examples": [
           {
@@ -14574,7 +14585,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con la forma correcta.",
         "sentence": "La cena para dos personas ___ sesenta euros, con el servicio incluido.",
         "answer": "es",
-        "hint": "Es un precio total y cerrado, no por unidad.",
+        "hint": "Se trata de un precio total y cerrado, no por unidad.",
         "explanation": "Se usa 'ser' porque se indica un precio fijo y total, no un valor variable por unidad como en 'estar a'."
       }
     ]
@@ -14608,7 +14619,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con la forma correcta.",
             "sentence": "El alquiler ___ setecientos euros al mes, sin contar los gastos de comunidad.",
             "answer": "es",
-            "hint": "Es un precio fijo y estable.",
+            "hint": "Se trata de un precio fijo y estable.",
             "explanation": "Se usa 'ser' porque el alquiler es una cifra fija acordada, no un precio que fluctúa día a día."
           },
           {
@@ -15646,7 +15657,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con la forma correcta del verbo entre paréntesis.",
             "sentence": "Vos ___ (decir) la verdad siempre.",
             "answer": "decís",
-            "explanation": "'Decir' es irregular; la forma de vos es decís."
+            "explanation": "'Decir' es irregular con tú (dices), pero la forma de vos se forma con regularidad desde el infinitivo: decís."
           }
         ]
       }

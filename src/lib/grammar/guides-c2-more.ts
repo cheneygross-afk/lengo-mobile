@@ -42,7 +42,7 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
         examples: [
           { es: "Que no te guste el trabajo no significa que debas dejarlo.", en: "The fact that you don't like the job doesn't mean you should quit." },
           { es: "El hecho de que haya dimitido no cambia nada.", en: "The fact that she has resigned changes nothing." },
-          { es: "El hecho de que ha dimitido ya es oficial.", en: "The fact that she has resigned is now official. (new information)" },
+          { es: "Nadie mencionó el hecho de que había dimitido.", en: "Nobody mentioned the fact that she had resigned. (presented as information)" },
         ],
       },
       {
@@ -72,7 +72,7 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
       {
         heading: "Negated opinions and questions",
         body: [
-          "No creo que + subjunctive is the norm. But no creo que + indicative is possible when the speaker is actually certain and is correcting someone, and ¿no crees que...? with the indicative invites agreement with what the speaker believes.",
+          "No creo que + subjunctive is the norm. No creo que + indicative is heard in some varieties but is nonstandard, while ¿no crees que...? with the indicative invites agreement with what the speaker believes.",
         ],
         examples: [
           { es: "No creo que sea verdad.", en: "I don't think it's true." },
@@ -365,7 +365,7 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
       {
         wrong: "La casa está siendo pintada.",
         right: "Están pintando la casa. / Se está pintando la casa.",
-        why: "The progressive ser passive is grammatical but sounds like a translation from English.",
+        why: "Not an error, but the progressive ser passive sounds like a translation from English; Spanish prefers se or the third-person plural.",
       },
       {
         wrong: "Se venden piso.",
@@ -547,7 +547,7 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
       {
         heading: "Verbs that allow both",
         body: [
-          "A few verbs change meaning or allow both. Advertir que (warn) vs. advertir de que (inform of a danger), both accepted. Avisar (de) que, informar (de) que (Spain prefers de que with informar), dudar (de) que are accepted with or without de.",
+          "A few verbs change meaning or allow both. Advertir (de) que meaning \"warn\" is accepted with or without de; advertir que meaning \"notice\" never takes de. Avisar (de) que, informar (de) que (Spain prefers de que with informar), dudar (de) que are accepted with or without de.",
         ],
       },
     ],

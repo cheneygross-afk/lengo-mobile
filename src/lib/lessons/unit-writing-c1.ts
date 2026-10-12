@@ -49,7 +49,7 @@ export const C1_UNIT_WRITING: Record<string, WriteExercise> = {
     "Redacta un correo profesional para confirmar un encargo a un proveedor. Usa por y para con precisión en plazos, precios, finalidad, causa y medio.",
     ["Para + plazo o destinatario", "Por + precio, medio o causa", "Al menos dos expresiones fijas (por lo tanto, para entonces, por escrito…)", "Registro profesional"],
     "Estimado señor Ramos: Le confirmo el pedido de quinientas sillas para el nuevo auditorio. Según lo acordado por teléfono, el precio será de cuarenta euros por unidad. Necesitamos la mercancía para el 15 de junio, ya que la inauguración está prevista para el día 20. Le ruego que nos envíe la factura por correo electrónico. Por motivos de seguridad, el pago se realizará por transferencia. Le agradecería que nos lo confirmara por escrito. Atentamente, Lucía Gómez",
-    "Para con destino y plazo (para el auditorio, para el 15 de junio); por con precio, medio y causa (por unidad, por transferencia, por motivos de seguridad)."
+    "«Para» con destino y plazo (para el auditorio, para el 15 de junio); «por» con precio, medio y causa (por unidad, por transferencia, por motivos de seguridad)."
   ),
   "ser-estar-haber-limits-part-1-1": t(
     "Escribe la crónica de un congreso. Juega con los casos límite: ser para eventos, estar para resultados, adjetivos valorativos y haber frente a estar.",

@@ -78,7 +78,7 @@ export const C1_GAPS: AnchoredLesson[] = [
         [
           "Algunos verbos alternan de forma legítima: con verbos de afección (preocupar, molestar, asustar, sorprender, divertir), le es habitual cuando el sujeto es una cosa y la acción no es voluntaria: Le preocupa la situación. Le molesta el ruido. Con sujeto de persona y acción voluntaria, lo / la: Lo asustaron a propósito.",
           "Con el se impersonal y un CD de persona, en España es normal le: Se le considera el mejor pintor de su generación. En gran parte de América se prefiere lo / la: Se lo considera...",
-          "Llamar con un complemento predicativo lleva le: Le llaman «el Rubio». Pero llamar por teléfono es transitivo: Lo / La llamé ayer (y le llamé con persona masculina, por leísmo aceptado).",
+          "Llamar con un complemento predicativo lleva tradicionalmente le: Le llaman «el Rubio»; hoy, sobre todo en América, también lo / la: La llaman «la Rubia». Pero llamar por teléfono es transitivo: Lo / La llamé ayer (y le llamé con persona masculina, por leísmo aceptado).",
           "Ayudar, obedecer, creer y avisar dudan entre los dos usos según la región: Le ayudo / Lo ayudo. Ambas se oyen en textos cuidados.",
         ],
         [

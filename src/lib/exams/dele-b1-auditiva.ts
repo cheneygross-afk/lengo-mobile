@@ -143,7 +143,7 @@ export const DELE_B1_AUDITIVA: ExamPaper = {
         "Usted va a escuchar a una mujer que cuenta una experiencia personal. Escuchará el audio dos veces. Después, debe contestar a las preguntas (7-12). Seleccione la opción correcta (a, b o c).",
       audio: [
         {
-          label: "Un año en Galicia",
+          label: "Mi experiencia en Galicia",
           lines: [
             { voice: "f", text: "Me llamo Clara y soy de Valencia. Hace tres años, cuando terminé la carrera de Biología, no encontraba trabajo en mi ciudad, así que acepté una beca en un centro de investigación marina en Vigo, en Galicia. Al principio pensaba quedarme solo seis meses." },
             { voice: "f", text: "Lo que más me costó fue el clima. Yo venía del Mediterráneo, con sol casi todo el año, y allí llovió durante semanas enteras. Los primeros meses me sentía un poco triste, sobre todo los domingos, cuando no conocía a nadie." },
@@ -251,7 +251,7 @@ export const DELE_B1_AUDITIVA: ExamPaper = {
           n: 13,
           source: 0,
           question: "Según la noticia, los jóvenes de Zaragoza…",
-          options: ["pagarán la mitad del billete.", "no pagarán el autobús con una tarjeta especial.", "tendrán autobuses nuevos."],
+          options: ["pagarán la mitad del billete.", "viajarán gratis en autobús con una tarjeta especial.", "tendrán autobuses nuevos."],
           answer: 1,
           explanation: "Los autobuses serán gratuitos para menores de 18 con una tarjeta que se solicita en internet o en oficinas.",
         },

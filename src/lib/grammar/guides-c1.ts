@@ -79,9 +79,9 @@ export const C1_GUIDES: GrammarGuide[] = [
         why: "To mean \"even if I have time\", use the present subjunctive. Aunque tendré tiempo only works as news (\"even though I will have time\").",
       },
       {
-        wrong: "Por mucho que estudias, no apruebas.",
-        right: "Por mucho que estudies, no apruebas.",
-        why: "Por mucho que normally takes the subjunctive; the indicative is possible for a known fact, but the subjunctive is the safer default.",
+        wrong: "Por mucho que estudiarás, no aprobarás.",
+        right: "Por mucho que estudies, no aprobarás.",
+        why: "Por mucho que never takes the future: for a future or hypothetical situation, use the present subjunctive. (The indicative, estudias, is possible only for a known fact.)",
       },
       {
         wrong: "Si bien sea difícil...",

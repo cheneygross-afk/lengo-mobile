@@ -3,7 +3,7 @@ import type { ExamPaper } from "./types";
 
 // DELE C1 practice exam -- Prueba 4: Destrezas integradas: comprensión
 // de lectura y expresión e interacción orales. 20 minutes with the
-// examiner, after 20 minutes to prepare tasks 1 and 2.
+// examiner, after 20 minutes to prepare Tarea 1.
 export const DELE_C1_ORAL: ExamPaper = {
   id: "oral",
   kind: "speaking",
@@ -37,7 +37,7 @@ export const DELE_C1_ORAL: ExamPaper = {
           "¿Qué responsabilidad tienen los propios turistas?",
           "¿Cómo imagina estas ciudades dentro de veinte años?",
         ],
-        prepMinutes: 10,
+        prepMinutes: 20,
         speakMinutes: 7,
         modelAnswer:
           "El texto plantea una paradoja: algunas de las ciudades más admiradas del mundo corren el riesgo de morir de éxito. Venecia es el ejemplo más extremo: veinte millones de visitantes al año frente a una población residente que ya apenas supera los cincuenta mil habitantes en el centro.\n\nEl autor presenta dos posturas. Por un lado, quienes defienden el turismo recuerdan que crea empleo y que financia la conservación del patrimonio. Por otro, sus críticos señalan que expulsa a los vecinos, dispara el precio de la vivienda y transforma los barrios históricos en simples escenarios.\n\nEn cuanto a las medidas, me parecen interesantes, aunque insuficientes por separado. La tasa de Venecia tiene un valor simbólico, pero dudo que disuada a quien ya ha viajado miles de kilómetros. Limitar los cruceros, como hace Dubrovnik, me parece más eficaz, porque ataca el tipo de visita que menos deja en la ciudad y más la satura.\n\nMi postura es que el problema no es el turismo en sí, sino la falta de planificación. Una ciudad patrimonio debe seguir siendo, ante todo, un lugar donde se pueda vivir. Por eso creo que la prioridad debería ser proteger la vivienda: limitar los pisos turísticos, garantizar alquileres asequibles y mantener el comercio de proximidad. Si los vecinos se van, lo que queda ya no es una ciudad, sino un museo al aire libre, y eso, a la larga, tampoco interesa a los turistas.",
@@ -61,7 +61,7 @@ export const DELE_C1_ORAL: ExamPaper = {
           "¿Alguna vez ha cambiado un plan de viaje por motivos éticos o ecológicos?",
           "¿Qué papel deberían tener los vecinos en las decisiones sobre el turismo de su ciudad?",
         ],
-        prepMinutes: 10,
+        prepMinutes: 0,
         speakMinutes: 6,
         modelAnswer:
           "—¿Qué entiende por viajar de forma responsable?\n—Para mí, significa ser consciente del impacto que tiene tu visita: alojarte donde el dinero se quede en la comunidad, respetar las costumbres locales y no visitar un lugar solo para hacerte la foto.\n—Hay quien dice que el turismo sostenible es solo marketing.\n—En parte tienen razón: muchas empresas se ponen la etiqueta \"sostenible\" sin cambiar nada. Aun así, no creo que debamos descartar el concepto; lo que hace falta es una certificación seria que distinga lo real de lo cosmético.\n—¿Limitaría los vuelos baratos?\n—Es una cuestión delicada. Por mucho que me preocupe el medio ambiente, los vuelos baratos han permitido viajar a gente que antes no podía. Yo empezaría por eliminar los vuelos cortos cuando existe una alternativa en tren razonable, como se ha hecho en Francia.\n—¿Ha cambiado algún plan de viaje por motivos éticos?\n—Sí. Iba a hacer un crucero por el Mediterráneo y, después de leer sobre su impacto en ciudades como Dubrovnik, preferí recorrer la costa en tren. De haberlo sabido antes, habría viajado así desde el principio.\n—¿Qué papel deberían tener los vecinos?\n—Uno central. Son quienes sufren las consecuencias, así que deberían participar en las decisiones, por ejemplo mediante consultas vinculantes.",

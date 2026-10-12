@@ -142,8 +142,8 @@ export const CAN_DO_STATEMENTS: Record<SpanishLevelPath, CanDoStatement[]> = {
     },
     {
       skill: "speaking",
-      en: "Report what other people said, asked or recommended, and speculate about what might have happened.",
-      es: "Transmitir lo que otros dijeron, preguntaron o recomendaron, y hacer hipótesis sobre lo que pudo haber pasado.",
+      en: "Report what other people said, asked or recommended, and talk about hypothetical situations and what would have happened if things had gone differently.",
+      es: "Transmitir lo que otros dijeron, preguntaron o recomendaron, y hablar de situaciones hipotéticas y de lo que habría pasado si las cosas hubieran sido distintas.",
     },
     {
       skill: "listening",
@@ -211,7 +211,7 @@ export const CAN_DO_STATEMENTS: Record<SpanishLevelPath, CanDoStatement[]> = {
     },
     {
       skill: "conversation",
-      en: "Move between registers at will, from formal to colloquial, and use idioms, irony and humour naturally.",
+      en: "Move between registers at will, from formal to colloquial, and use idioms, irony and humor naturally.",
       es: "Pasar de un registro a otro a voluntad, del formal al coloquial, y usar modismos, ironía y humor con naturalidad.",
     },
     {
@@ -220,9 +220,14 @@ export const CAN_DO_STATEMENTS: Record<SpanishLevelPath, CanDoStatement[]> = {
       es: "Redactar informes, artículos y reseñas complejos con un estilo adecuado al lector y una estructura lógica que le ayude a seguirlos.",
     },
     {
-      skill: "conversation",
+      skill: "speaking",
       en: "Summarize and reconstruct arguments from different spoken and written sources into a coherent presentation.",
       es: "Resumir y reconstruir argumentos de distintas fuentes orales y escritas en una exposición coherente.",
+    },
+    {
+      skill: "conversation",
+      en: "Handle professional situations such as job interviews, negotiations and mediation, and read legal and medical documents.",
+      es: "Desenvolverte en situaciones profesionales, como entrevistas de trabajo, negociaciones y mediaciones, y leer documentos jurídicos y médicos.",
     },
   ],
 };

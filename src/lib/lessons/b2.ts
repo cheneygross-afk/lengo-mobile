@@ -541,7 +541,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Otras conjunciones temporales",
         "body": [
-          "En cuanto, tan pronto como, hasta que y después de que siguen el mismo patrón que \"cuando\": subjuntivo para el futuro, indicativo para hábitos o el pasado."
+          "En cuanto, tan pronto como, hasta que y después de que siguen el mismo patrón que \"cuando\": subjuntivo para el futuro, indicativo para hábitos o el pasado (con «después de que» en pasado también es muy frecuente el subjuntivo: después de que se fueran)."
         ],
         "examples": [
           {
@@ -665,8 +665,8 @@ const B2_BASE_LESSONS: Lesson[] = [
             "en": "When the law is passed, many families will benefit."
           },
           {
-            "es": "Aunque estemos de acuerdo con el objetivo, el método nos preocupa.",
-            "en": "Even if we agree with the goal, the method worries us."
+            "es": "Aunque estamos de acuerdo con el objetivo, el método nos preocupa.",
+            "en": "Although we agree with the goal, the method worries us."
           },
           {
             "es": "Deberíamos revisar el texto antes de que se vote mañana.",
@@ -1601,7 +1601,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El condicional en la cláusula principal",
         "body": [
-          "El condicional es casi siempre el tiempo correcto para la consecuencia hipotética, aunque en el habla informal a veces se usa también el imperfecto de subjuntivo en la cláusula principal."
+          "El condicional es casi siempre el tiempo correcto para la consecuencia hipotética, aunque en el habla coloquial a veces se oye el imperfecto de indicativo en la principal (Si tuviera dinero, me compraba un coche); el imperfecto de subjuntivo ahí (comprara) es regional o literario."
         ],
         "examples": [
           {
@@ -1720,7 +1720,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración.",
         "sentence": "Habla como si ___ (ser) el dueño de la empresa.",
         "answer": "fuera",
-        "explanation": "\"Como si\" siempre lleva imperfecto de subjuntivo."
+        "explanation": "\"Como si\" siempre lleva imperfecto (o pluscuamperfecto) de subjuntivo."
       }
     ]
   },
@@ -2367,8 +2367,8 @@ const B2_BASE_LESSONS: Lesson[] = [
             "en": "lo que una persona deja tras de sí"
           },
           {
-            "es": "trascender un error",
-            "en": "superar algo negativo del pasado"
+            "es": "enmendar un error",
+            "en": "corregir o reparar algo que se hizo mal"
           },
           {
             "es": "la brújula moral",
@@ -2660,7 +2660,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Si sabría la verdad, habría actuado distinto."
         ],
         "correctIndex": 0,
-        "explanation": "La cláusula con «si» lleva pluscuamperfecto de subjuntivo (hubiera sabido) y la principal, condicional perfecto (habría actuado). «Si habría sabido» y «Si sabría» ponen el condicional justo después de «si», algo incorrecto, y la versión con «hubiera actuado distinto igual» no usa condicional perfecto y además «igual» no tiene sentido ahí."
+        "explanation": "La cláusula con «si» lleva pluscuamperfecto de subjuntivo (hubiera sabido) y la principal, condicional perfecto (habría actuado). «Si habría sabido» y «Si sabría» ponen el condicional justo después de «si», algo incorrecto, y en la versión con «hubiera actuado distinto igual» sobra «igual», que no tiene sentido ahí (aunque «hubiera actuado» en la principal sería aceptable)."
       },
       {
         "type": "multiple-choice",
@@ -2711,8 +2711,8 @@ const B2_BASE_LESSONS: Lesson[] = [
             "right": "lo que una persona deja tras de sí"
           },
           {
-            "left": "trascender un error",
-            "right": "superar algo negativo del pasado"
+            "left": "enmendar un error",
+            "right": "corregir o reparar algo que se hizo mal"
           },
           {
             "left": "el destino alternativo",
@@ -3259,7 +3259,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "Con el verbo introductorio en pasado, los tiempos retroceden: presente → imperfecto, futuro → condicional, pretérito → pluscuamperfecto. «Presente → presente» es la opción falsa: el presente retrocede a imperfecto."
+        "explanation": "Con el verbo introductorio en pasado, los tiempos retroceden: presente → imperfecto, futuro → condicional, pretérito → pluscuamperfecto. «Presente → presente» no es el cambio general: el presente retrocede a imperfecto, y solo se mantiene si lo dicho sigue vigente (Dijo que está cansado)."
       },
       {
         "type": "word-order",
@@ -4266,7 +4266,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "\"Se hizo las tres\" y \"se puso ser doctor\" no son estructuras correctas para estos verbos."
+        "explanation": "\"Se volvió muy exigente\" (cambio de carácter) y \"Llegó a ser el mejor de su clase\" (logro tras un proceso) son correctas. \"Se hizo las tres\" falla por la concordancia: con una hora en plural el verbo va en plural (\"se hicieron las tres\", como \"se hizo tarde\"). Y \"ponerse\" no se combina con \"ser\": se dice \"se hizo doctor\" o \"llegó a ser doctor\"."
       },
       {
         "type": "word-order",
@@ -4566,6 +4566,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración.",
             "sentence": "El proyecto era ambicioso; ___, logramos completarlo a tiempo.",
             "answer": "sin embargo",
+            "altAnswers": ["no obstante", "aun así"],
             "explanation": "\"Sin embargo\" introduce un contraste con la idea anterior."
           }
         ]
@@ -4621,6 +4622,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración.",
             "sentence": "Los precios subieron mucho; ___, muchas familias redujeron sus gastos.",
             "answer": "por lo tanto",
+            "altAnswers": ["por consiguiente", "por tanto", "en consecuencia"],
             "explanation": "\"Por lo tanto\" introduce la consecuencia lógica de la subida de precios."
           }
         ]
@@ -4703,6 +4705,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración.",
         "sentence": "El equipo perdió el partido. ___, mantuvieron una actitud positiva.",
         "answer": "Sin embargo",
+        "altAnswers": ["No obstante", "Aun así"],
         "explanation": "\"Sin embargo\" introduce un contraste con la idea anterior."
       },
       {
@@ -5599,7 +5602,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "El cual, la cual, los cuales, las cuales: concordancia con el antecedente",
         "body": [
           "A diferencia de \"cuyo\", las formas \"el cual\", \"la cual\", \"los cuales\" y \"las cuales\" concuerdan en género y número con el ANTECEDENTE, es decir, con el sustantivo al que se refieren, igual que \"que\", pero marcando explícitamente el género y el número.",
-          "Se usan sobre todo después de preposiciones, en especial tras preposiciones de varias sílabas o locuciones (según, durante, mediante, a través de...), aunque también tras sin, para, por o tras. Tras preposición, \"que\" solo no basta: necesita artículo (el que) o se sustituye por \"el cual\"."
+          "Se usan sobre todo después de preposiciones, en especial tras preposiciones de varias sílabas o locuciones (según, durante, mediante, a través de...), aunque también tras sin, para, por o tras. Tras estas preposiciones, \"que\" solo no basta: necesita artículo (el que) o se sustituye por \"el cual\". Solo tras algunas preposiciones breves (en, de, con) se admite a veces \"que\" sin artículo: la casa en que vivo."
         ],
         "examples": [
           {
@@ -6510,7 +6513,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Aunque: concreto vs. hipotético",
         "body": [
-          "Aunque lleva subjuntivo cuando la información es hipotética o desconocida, e indicativo cuando expresa un hecho real y conocido."
+          "Aunque lleva subjuntivo cuando la información es hipotética o desconocida, o cuando el hablante no le da importancia a un hecho conocido; lleva indicativo cuando afirma un hecho real."
         ],
         "examples": [
           {
@@ -6599,7 +6602,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "'Aunque ___ (ganar) mucho dinero, no es feliz.' (Sabemos que gana mucho dinero.)",
+        "question": "'Aunque ___ (ganar) mucho dinero, no es feliz.' (Es un hecho conocido: tiene un sueldo altísimo.)",
         "options": [
           "gana",
           "gane",
@@ -6623,7 +6626,12 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Traduce la oración al español.",
         "source": "Take an umbrella in case it rains.",
         "answer": "Lleva un paraguas en caso de que llueva.",
-        "explanation": "'En caso de que' siempre requiere subjuntivo (llueva), sin importar el contexto."
+        "altAnswers": [
+          "Llévate un paraguas en caso de que llueva.",
+          "Lleva un paraguas por si llueve.",
+          "Llévate un paraguas por si llueve."
+        ],
+        "explanation": "'En caso de que' siempre requiere subjuntivo (llueva), sin importar el contexto. «Por si», en cambio, va con indicativo: por si llueve."
       },
       {
         "type": "word-order",
@@ -6818,7 +6826,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "left": "Aunque hace frío ahora mismo,",
-            "right": "no llevo abrigo."
+            "right": "he salido sin abrigo."
           },
           {
             "left": "Aunque haga frío mañana,",
@@ -8488,7 +8496,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Elige la transformación correcta: Laura dijo: 'Estudio medicina.'",
+        "question": "Elige la transformación correcta (lo dijo hace años; ya es médica): Laura dijo: 'Estudio medicina.'",
         "options": [
           "Laura dijo que estudia medicina.",
           "Laura dijo que estudiaba medicina.",
@@ -8496,7 +8504,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Laura dijo que estudiaría medicina."
         ],
         "correctIndex": 1,
-        "explanation": "Con dijo, el presente (estudio) pasa a imperfecto: estudiaba. «Estudia» se mantiene si sigue siendo verdad, pero la transformación estándar es estudiaba; «había estudiado» es anterior y «estudiaría» es futuro."
+        "explanation": "Con dijo, el presente (estudio) pasa a imperfecto: estudiaba. «Estudia» solo se mantendría si siguiera siendo verdad, y Laura ya terminó la carrera; «había estudiado» es anterior y «estudiaría» es futuro."
       },
       {
         "type": "fill-blank",
@@ -8515,7 +8523,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "Él dijo que me llamaría al día siguiente."
         ],
-        "explanation": "El futuro del inglés 'would call' corresponde al condicional español 'llamaría', y 'the next day' se traduce como 'al día siguiente'."
+        "explanation": "'Would call' (el futuro visto desde el pasado) corresponde al condicional español 'llamaría', y 'the next day' se traduce como 'al día siguiente'."
       },
       {
         "type": "word-order",
@@ -8533,7 +8541,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Elige la transformación correcta: 'He perdido las llaves.'",
+        "question": "Elige la transformación más precisa (lo contó hace un mes): 'He perdido las llaves.'",
         "options": [
           "Dijo que ha perdido las llaves.",
           "Dijo que perdió las llaves.",
@@ -8541,7 +8549,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Dijo que perdería las llaves."
         ],
         "correctIndex": 2,
-        "explanation": "Con dijo, el pretérito perfecto (he perdido) pasa a pluscuamperfecto: había perdido. «Ha perdido» no retrocede, «perdió» pierde la anterioridad y «perdería» es futuro del pasado."
+        "explanation": "Con dijo, el pretérito perfecto (he perdido) pasa a pluscuamperfecto: había perdido. «Ha perdido» solo valdría para un mensaje muy reciente, «perdió» es frecuente en la lengua oral pero no marca que la pérdida fue anterior a lo que contó, y «perdería» es futuro del pasado."
       },
       {
         "type": "fill-blank",
@@ -8833,7 +8841,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Dijo que me vería ese día allí."
         ],
         "correctIndex": 0,
-        "explanation": "El presente con valor de futuro (te veo mañana) pasa a condicional (vería), mañana → al día siguiente y aquí → allí. Las otras opciones dejan sin cambiar el tiempo o los marcadores."
+        "explanation": "El presente con valor de futuro (te veo mañana) pasa a condicional (vería) o a imperfecto (veía), mañana → al día siguiente y aquí → allí. Las otras opciones dejan sin cambiar algún marcador o el tiempo («me veía al día siguiente aquí» falla por «aquí»)."
       },
       {
         "type": "fill-blank",
@@ -10024,7 +10032,9 @@ const B2_BASE_LESSONS: Lesson[] = [
         "source": "Since it was raining, we stayed home.",
         "answer": "Ya que llovía, nos quedamos en casa.",
         "altAnswers": [
-          "Puesto que llovía, nos quedamos en casa."
+          "Puesto que llovía, nos quedamos en casa.",
+          "Como llovía, nos quedamos en casa.",
+          "Dado que llovía, nos quedamos en casa."
         ],
         "explanation": "'Ya que' y 'puesto que' introducen una causa que se presenta como conocida o evidente, equivalente a 'since' en este contexto."
       },
@@ -10430,7 +10440,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El arte y la literatura",
         "body": [
-          "Las 50 palabras de la lección «Subjuntivo en Cláusulas Adjetivas, Part 2 of 2», agrupadas para repasar."
+          "Las 50 palabras de la lección «Subjuntivo en Cláusulas Adjetivas, Parte 2 de 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -10700,7 +10710,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La política y el gobierno",
         "body": [
-          "Las 50 palabras de la lección «Subjuntivo en Cláusulas Adverbiales, Part 2 of 2», agrupadas para repasar."
+          "Las 50 palabras de la lección «Subjuntivo en Cláusulas Adverbiales, Parte 2 de 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -10962,7 +10972,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Los sueños y la imaginación",
         "body": [
-          "Las 50 palabras de la lección «Imperfecto de Subjuntivo y Secuencia de Tiempos, Part 2 of 2», agrupadas para repasar."
+          "Las 50 palabras de la lección «Imperfecto de Subjuntivo y Secuencia de Tiempos, Parte 2 de 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -11244,7 +11254,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La tecnología y la inteligencia artificial",
         "body": [
-          "Las 50 palabras de la lección «Cláusulas Hipotéticas con Si, Part 2 of 2», agrupadas para repasar."
+          "Las 50 palabras de la lección «Cláusulas Hipotéticas con Si, Parte 2 de 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -11511,7 +11521,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Los arrepentimientos y las decisiones de vida",
         "body": [
-          "Las 50 palabras de la lección «Condicional Perfecto y Pluscuamperfecto de Subjuntivo, Part 2 of 2», agrupadas para repasar."
+          "Las 50 palabras de la lección «Condicional Perfecto y Pluscuamperfecto de Subjuntivo, Parte 2 de 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -11668,8 +11678,8 @@ const B2_BASE_LESSONS: Lesson[] = [
                 "right": "lo que una persona deja tras de sí"
               },
               {
-                "left": "trascender un error",
-                "right": "superar algo negativo del pasado"
+                "left": "enmendar un error",
+                "right": "corregir o reparar algo que se hizo mal"
               },
               {
                 "left": "la brújula moral",
@@ -11787,13 +11797,13 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 57,
     "title": "Advanced Vocabulary Practice, Part 6 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
+    "summary": "Pon a prueba las 50 palabras de «El periodismo y los medios de comunicación», una de las diez listas del vocabulario del nivel Avanzado.",
     "duration": "8 min",
     "sections": [
       {
         "heading": "El periodismo y los medios de comunicación",
         "body": [
-          "Las 50 palabras de la Lección 6, agrupadas para repasar."
+          "Las 50 palabras de la lección «El Estilo Indirecto, Parte 2 de 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -12069,13 +12079,13 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 58,
     "title": "Advanced Vocabulary Practice, Part 7 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
+    "summary": "Pon a prueba las 50 palabras de «La psicología y la personalidad», una de las diez listas del vocabulario del nivel Avanzado.",
     "duration": "8 min",
     "sections": [
       {
         "heading": "La psicología y la personalidad",
         "body": [
-          "Las 50 palabras de la Lección 7, agrupadas para repasar."
+          "Las 50 palabras de la lección «Ser, Estar y Haber: Usos Matizados, Parte 2 de 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -12352,13 +12362,13 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 59,
     "title": "Advanced Vocabulary Practice, Part 8 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
+    "summary": "Pon a prueba las 50 palabras de «El desarrollo personal y el cambio», una de las diez listas del vocabulario del nivel Avanzado.",
     "duration": "8 min",
     "sections": [
       {
         "heading": "El desarrollo personal y el cambio",
         "body": [
-          "Las 50 palabras de la Lección 8, agrupadas para repasar."
+          "Las 50 palabras de la lección «Verbos de Cambio, Parte 2 de 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -12614,13 +12624,13 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 60,
     "title": "Advanced Vocabulary Practice, Part 9 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
+    "summary": "Pon a prueba las 50 palabras de «El debate y la argumentación», una de las diez listas del vocabulario del nivel Avanzado.",
     "duration": "8 min",
     "sections": [
       {
         "heading": "El debate y la argumentación",
         "body": [
-          "Las 50 palabras de la Lección 9, agrupadas para repasar."
+          "Las 50 palabras de la lección «Conectores Avanzados, Parte 2 de 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -12896,13 +12906,13 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 61,
     "title": "Advanced Vocabulary Practice, Part 10 of 10",
-    "summary": "Pon a prueba las 500 palabras del vocabulario del nivel Avanzado, organizadas por lección.",
+    "summary": "Pon a prueba las 50 palabras de «La música y las artes escénicas», una de las diez listas del vocabulario del nivel Avanzado.",
     "duration": "8 min",
     "sections": [
       {
         "heading": "La música y las artes escénicas",
         "body": [
-          "Las 50 palabras de la Lección 10, agrupadas para repasar."
+          "Las 50 palabras de la lección «Énfasis y Orden de Palabras, Parte 2 de 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -13154,7 +13164,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "el telón"
         ],
         "correctIndex": 1,
-        "explanation": "«La ovación» es un aplauso prolongado y entusiasta. El estreno es la primera función, la taquilla es donde se venden las entradas y el telón es la cortina del teatro."
+        "explanation": "«La ovación» es un aplauso prolongado y entusiasta. El estreno es la primera función, la taquilla es la recaudación por la venta de entradas (y también el lugar donde se venden) y el telón es la cortina del teatro."
       }
     ]
   },
@@ -13480,7 +13490,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "matching",
-        "instructions": "Empareja cada tiempo verbal con su uso principal.",
+        "instructions": "Empareja cada tiempo o estructura con su uso principal.",
         "pairs": [
           {
             "left": "el subjuntivo presente",

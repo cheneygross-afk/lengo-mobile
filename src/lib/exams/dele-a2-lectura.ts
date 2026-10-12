@@ -113,7 +113,7 @@ export const DELE_A2_LECTURA: ExamPaper = {
           n: 6,
           source: 0,
           question: "Texto 1. En agosto, en la biblioteca…",
-          options: ["no se pueden devolver libros por la tarde.", "se pueden devolver libros aunque esté cerrada.", "no se pueden sacar libros."],
+          options: ["no se pueden devolver libros por la tarde.", "se pueden devolver libros cuando está cerrada.", "no se pueden sacar libros."],
           answer: 1,
           explanation: "Books can be returned in the box at the entrance at any time.",
         },
