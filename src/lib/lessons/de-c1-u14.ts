@@ -2035,7 +2035,7 @@ export const DE_C1_U14: Lesson[] = [
         heading: "Germany: public broadcasters",
         body: [
           "Germany's public broadcasters are funded by a household fee (\"der Rundfunkbeitrag\"). The ARD network runs \"Das Erste\" and its evening news \"die Tagesschau\" at 8 p.m., the most-watched news programme in the country; ZDF has \"heute\" and \"heute journal\". Deutschlandfunk (DLF) is the national public radio for news and culture, with long interviews in clear standard German.",
-          "Deutsche Welle (DW), the international broadcaster, has a whole learning section: \"Langsam gesprochene Nachrichten\" (news read slowly), \"Top-Thema\" with vocabulary lists, and \"Nicos Weg\". At C1, the normal-speed Tagesschau and DLF podcasts are your best training ground; the \"Tagesschau in 100 Sekunden\" is a quick daily option.",
+          "Deutsche Welle (DW), the international broadcaster, has a whole learning section: \"Langsam gesprochene Nachrichten\" (news read slowly), \"Top-Thema\" with vocabulary lists, and \"Nicos Weg\". At the Advanced level, the normal-speed Tagesschau and DLF podcasts are your best training ground; the \"Tagesschau in 100 Sekunden\" is a quick daily option.",
           "Regional broadcasters (NDR, WDR, BR, MDR, SWR) carry regional accents and local topics. BR in Bavaria or MDR in Saxony is a good way to get used to regional standard.",
         ],
         examples: [
@@ -2270,7 +2270,7 @@ export const DE_C1_U14: Lesson[] = [
         body: [
           "Text 2, a Luxembourger talking about school: \"Bei uns spricht man zu Hause Luxemburgisch. In der Grundschule lernen wir auf Deutsch lesen, ab dem zweiten Schuljahr kommt Französisch dazu. Im Lycée ist Mathe dann auf Französisch.\" Features: three languages with clear roles, \"das Lycée\" (secondary school, a French loan).",
           "Text 3, three speakers at a train station: A: \"Moin! Kommst du auch mit nach Kiel?\" B: \"Nee, ick bleib in Berlin, wa?\" C: \"Des isch mir z'weit, i schaff morgen.\" Where are they from? A: north (Moin), B: Berlin (ick, wa), C: Swabia (des isch, schaff).",
-          "Remember: when you hear these features you don't need to imitate them; recognising them is the C1 skill.",
+          "Remember: when you hear these features you don't need to imitate them; recognising them is the Advanced skill.",
         ],
         examples: [
           { es: "Bei uns spricht man zu Hause Luxemburgisch.", en: "At home we speak Luxembourgish." },
@@ -2303,7 +2303,7 @@ export const DE_C1_U14: Lesson[] = [
         heading: "Attitudes in context",
         body: [
           "Text 4, an online comment under a Swiss news video: \"Ich verstehe nicht, warum sich Deutsche über unser Hochdeutsch lustig machen. Es ist halt Schweizer Hochdeutsch, nicht falsches Deutsch.\" And a reply from Vienna: \"Bei uns genauso! Jänner ist kein Fehler.\"",
-          "These comments sum up the pluricentric view: Swiss and Austrian speakers often feel that Germans treat their standard as provincial. At C1, you should be able to explain the idea in German: \"Es gibt nicht ein richtiges Deutsch, sondern mehrere Standardvarietäten.\"",
+          "These comments sum up the pluricentric view: Swiss and Austrian speakers often feel that Germans treat their standard as provincial. At the Advanced level, you should be able to explain the idea in German: \"Es gibt nicht ein richtiges Deutsch, sondern mehrere Standardvarietäten.\"",
           "Use \"sich lustig machen über\" (to make fun of), \"als ... gelten\" (to be considered), \"abwerten\" (to look down on) to discuss attitudes.",
         ],
         examples: [

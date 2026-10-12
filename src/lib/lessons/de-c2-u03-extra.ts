@@ -15,7 +15,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
       {
         heading: "Recap: two vocabularies for one body",
         body: [
-          "German medicine runs on two parallel vocabularies. Doctors write \"Hypertonie\", \"Myokardinfarkt\", \"Apoplex\", \"Fraktur\", \"Zephalgie\"; patients say \"Bluthochdruck\", \"Herzinfarkt\", \"Schlaganfall\", \"Bruch\", \"Kopfschmerzen\". A C2 speaker switches without hesitation, depending on the listener.",
+          "German medicine runs on two parallel vocabularies. Doctors write \"Hypertonie\", \"Myokardinfarkt\", \"Apoplex\", \"Fraktur\", \"Zephalgie\"; patients say \"Bluthochdruck\", \"Herzinfarkt\", \"Schlaganfall\", \"Bruch\", \"Kopfschmerzen\". A Mastery-level speaker switches without hesitation, depending on the listener.",
           "German everyday terms are often transparent compounds: \"Magenschleimhautentzündung\" (stomach + lining + inflammation) for Gastritis, \"Gehirnerschütterung\" (brain + shaking) for Commotio cerebri, \"Zuckerkrankheit\" for Diabetes. The last element gives the gender: \"die Entzündung\", \"die Erschütterung\", \"die Krankheit\".",
         ],
         examples: [

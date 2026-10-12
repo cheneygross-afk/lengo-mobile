@@ -16,7 +16,7 @@ export const DE_C2_U06: Lesson[] = [
         body: [
           "The simplest German pun is the same as in English: one word with two unrelated meanings. \"Die Bank\" is both a bench and a bank, \"das Schloss\" is a castle and a lock, \"der Hahn\" is a rooster and a tap, \"die Birne\" is a pear, a light bulb and (colloquially) your head, \"das Gericht\" is a court of law and a dish. A joke sets up one meaning and then lands on the other.",
           "German adds a twist English does not have: grammatical gender can separate the two meanings. \"Der Leiter\" is the head of a department, \"die Leiter\" is a ladder; \"das Steuer\" is the steering wheel, \"die Steuer\" is a tax; \"der Kiefer\" is the jaw, \"die Kiefer\" is a pine tree; \"der See\" is a lake, \"die See\" is the sea. In speech the article gives the game away, so puns often hide it in the plural or in a case where both genders look the same.",
-          "Watch the plurals too: \"die Bänke\" are benches but \"die Banken\" are banks, \"die Mütter\" are mothers but \"die Muttern\" are nuts (for bolts). Native speakers enjoy exactly these collisions, and recognising them is a C2 skill: the Goethe C2 exam likes texts that play on them.",
+          "Watch the plurals too: \"die Bänke\" are benches but \"die Banken\" are banks, \"die Mütter\" are mothers but \"die Muttern\" are nuts (for bolts). Native speakers enjoy exactly these collisions, and recognising them is a Mastery-level skill: the Goethe C2 exam likes texts that play on them.",
         ],
         examples: [
           { es: "Ich sitze auf der Bank und warte auf mein Geld.", en: "I'm sitting on the bench (bank) waiting for my money." },
@@ -1391,7 +1391,7 @@ export const DE_C2_U06: Lesson[] = [
     slug: "c2-vocab-learned-evaluative-adjectives",
     level: "DE-C2",
     number: 8,
-    title: "C2 Vocabulary: Learned Evaluative Adjectives",
+    title: "Mastery Vocabulary: Learned Evaluative Adjectives",
     summary: "Judge a text, a joke or a performance with precision: geistreich, scharfsinnig, treffend, subtil, hintersinnig versus banal, trivial, plump, abgeschmackt, prätentiös.",
     duration: "16 min",
     sections: [
@@ -1638,7 +1638,7 @@ export const DE_C2_U06: Lesson[] = [
         body: [
           "\"Stellen\" (to put upright) is one of the most productive roots. \"Die Stelle\" (place, job), \"die Vorstellung\" (performance; idea; introduction), \"die Einstellung\" (attitude; setting; hiring), \"die Ausstellung\" (exhibition), \"die Bestellung\" (order), \"die Darstellung\" (depiction, account), \"die Herstellung\" (production), \"die Feststellung\" (finding, observation), \"die Unterstellung\" (insinuation).",
           "The verbs follow the pattern: \"sich vorstellen\" (to introduce oneself; with dative: to imagine, \"Ich kann mir das vorstellen\"), \"einstellen\" (to hire; to adjust; to stop: \"Die Produktion wurde eingestellt\"), \"darstellen\" (to represent, depict), \"feststellen\" (to notice, establish), \"unterstellen\" (to insinuate: \"Willst du mir Faulheit unterstellen?\").",
-          "Notice how one German word can carry several English meanings: \"die Einstellung\" can be your attitude, your camera setting or your appointment to a job. Context decides, and C2 texts play on this.",
+          "Notice how one German word can carry several English meanings: \"die Einstellung\" can be your attitude, your camera setting or your appointment to a job. Context decides, and Mastery-level texts play on this.",
         ],
         examples: [
           { es: "Ich kann mir das gut vorstellen.", en: "I can easily imagine that." },

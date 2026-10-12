@@ -86,7 +86,7 @@ export const DE_B1_U33: Lesson[] = [
         body: [
           "Imagining a different start uses Konjunktiv II: \"Wenn ich noch einmal anfangen würde, würde ich mehr mit Muttersprachlern sprechen.\" Or more simply: \"Heute würde ich mehr sprechen und weniger Vokabeln auswendig lernen.\"",
           "Advice to a beginner works the same way: \"An deiner Stelle würde ich jeden Tag ein bisschen lernen\", \"Du solltest keine Angst vor Fehlern haben\", \"Es wäre gut, wenn du ein Tandem finden würdest.\"",
-          "Wishes for the future: \"Ich möchte nächstes Jahr die B2-Prüfung machen\", \"Ich hätte gern mehr Zeit für Deutsch\", \"Am liebsten würde ich ein halbes Jahr in Berlin wohnen.\"",
+          "Wishes for the future: \"Ich möchte nächstes Jahr die Deutschprüfung machen\", \"Ich hätte gern mehr Zeit für Deutsch\", \"Am liebsten würde ich ein halbes Jahr in Berlin wohnen.\"",
         ],
         examples: [
           { es: "Wenn ich noch einmal anfangen würde, würde ich mehr sprechen.", en: "If I started again, I'd speak more." },
@@ -197,9 +197,9 @@ export const DE_B1_U33: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "I'd like to take the B2 exam next year.",
-        answer: "Ich möchte nächstes Jahr die B2-Prüfung machen.",
-        altAnswers: ["Nächstes Jahr möchte ich die B2-Prüfung machen.", "Ich würde nächstes Jahr gern die B2-Prüfung machen.", "Ich will nächstes Jahr die B2-Prüfung machen."],
+        source: "I'd like to take the German exam next year.",
+        answer: "Ich möchte nächstes Jahr die Deutschprüfung machen.",
+        altAnswers: ["Nächstes Jahr möchte ich die Deutschprüfung machen.", "Ich würde nächstes Jahr gern die Deutschprüfung machen.", "Ich will nächstes Jahr die Deutschprüfung machen."],
         explanation: "Take an exam is \"eine Prüfung machen\"; \"nächstes Jahr\" needs no preposition.",
       },
       {
@@ -831,7 +831,7 @@ export const DE_B1_U33: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Cumulative Circuit: The Intermediate Final Exam",
-    summary: "One item from every B1 unit in exam format: the pasts and time clauses, Konjunktiv II, relative and infinitive clauses, the passive, prepositions, endings and connectors.",
+    summary: "One item from every Intermediate unit in exam format: the pasts and time clauses, Konjunktiv II, relative and infinitive clauses, the passive, prepositions, endings and connectors.",
     duration: "15 min",
     sections: [
       {

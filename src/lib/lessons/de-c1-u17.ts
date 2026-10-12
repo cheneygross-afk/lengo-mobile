@@ -2346,7 +2346,7 @@ export const DE_C1_U17: Lesson[] = [
     level: "DE-C1",
     number: 12,
     title: "Spiral Review: Correspondence, Konjunktiv and Markers",
-    summary: "Formal letters meet earlier C1 grammar: Konjunktiv II requests and conditions without wenn, the nominal style of offices, and discourse markers that link a letter's paragraphs.",
+    summary: "Formal letters meet earlier Advanced grammar: Konjunktiv II requests and conditions without wenn, the nominal style of offices, and discourse markers that link a letter's paragraphs.",
     duration: "18 min",
     sections: [
       {

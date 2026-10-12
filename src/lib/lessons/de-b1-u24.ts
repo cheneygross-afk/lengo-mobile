@@ -452,7 +452,7 @@ export const DE_B1_U24: Lesson[] = [
         body: [
           "The same idea can be said with \"obwohl\" (although), a subordinating conjunction: the verb goes to the end of its clause. \"Obwohl es regnet, gehen wir spazieren\" = \"Es regnet, trotzdem gehen wir spazieren\".",
           "The difference is grammar, not meaning: \"obwohl\" introduces the obstacle (and sends its verb to the end), \"trotzdem\" introduces the result (with the verb straight after). If the obwohl-clause comes first, the main clause starts with its verb: \"Obwohl ich müde war, bin ich mitgekommen\".",
-          "This is just a preview: obwohl-clauses are practised in depth at B2. For now, recognise them and use the simple pattern \"Obwohl..., [verb] [subject]...\".",
+          "This is just a preview: obwohl-clauses are practised in depth at the Upper-intermediate level. For now, recognise them and use the simple pattern \"Obwohl..., [verb] [subject]...\".",
         ],
         examples: [
           { es: "Obwohl es regnet, gehen wir spazieren.", en: "Although it's raining, we're going for a walk." },
@@ -1871,7 +1871,7 @@ export const DE_B1_U24: Lesson[] = [
         heading: "Moving day",
         body: [
           "\"Am Samstag regnete es. Sie mussten die Kisten schnell tragen, sonst wären die Bücher nass geworden. Der Aufzug war kaputt, also trugen sie alles in den vierten Stock. Außerdem passte das Sofa nicht durch die Tür. Stattdessen mussten sie es über den Balkon heben.\"",
-          "\"Sonst wären ... nass geworden\" is Konjunktiv II past (would have got wet), which you'll meet properly at B2; here just recognise it. \"Also\" = so. \"Außerdem\" adds a problem; \"stattdessen\" gives the alternative solution.",
+          "\"Sonst wären ... nass geworden\" is Konjunktiv II past (would have got wet), which you'll meet properly at the Upper-intermediate level; here just recognise it. \"Also\" = so. \"Außerdem\" adds a problem; \"stattdessen\" gives the alternative solution.",
           "\"Die Kiste\" (box, crate), \"der Umzugskarton\" (moving box), \"tragen\" (to carry), \"heben\" (to lift).",
         ],
         examples: [
@@ -1911,7 +1911,7 @@ export const DE_B1_U24: Lesson[] = [
         heading: "The thank-you",
         body: [
           "\"Am Abend waren alle total erschöpft. Leon bestellte Pizza für alle, denn er wollte sich bedanken. Jonas war zwar müde, aber glücklich. Als er nach Hause fuhr, dachte er: Wenn ich umziehe, rufe ich Leon an!\"",
-          "\"Sich bedanken\" (to say thank you), \"zwar...aber\", an als-clause for a single past event, and a wenn-clause for the future. Every connector you've learned at B1 appears in this short story.",
+          "\"Sich bedanken\" (to say thank you), \"zwar...aber\", an als-clause for a single past event, and a wenn-clause for the future. Every connector you've learned at the Intermediate level appears in this short story.",
         ],
         examples: [
           { es: "Am Abend waren alle total erschöpft.", en: "In the evening everyone was completely exhausted." },

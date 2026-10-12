@@ -303,7 +303,7 @@ export const DE_C2_U16: Lesson[] = [
         body: [
           "A negotiation report turns stage directions into narrative Präteritum and links signal and interpretation: \"Herr Berger lehnte sich zurück und verschränkte die Arme, was als Abwehr gedeutet werden kann.\" The relative \"was\" refers back to the whole clause, exactly like English which.",
           "Useful structures: \"Auffällig war, dass...\" (what stood out was that), \"Er reagierte mit einem Kopfschütteln\" (nominalised gesture: \"das Kopfschütteln\", \"das Nicken\", \"das Achselzucken\", \"das Stirnrunzeln\"), and the participle construction \"Sichtlich verärgert verließ er den Raum\" (visibly annoyed, he left the room).",
-          "\"Sichtlich\" (visibly) and \"merklich\" (noticeably) are the C2 adverbs for observable emotion: \"sichtlich erleichtert\", \"merklich kühler\". English speakers often write \"sichtbar\" here, which describes things that can be seen at all (\"Der Fehler ist kaum sichtbar\"), not emotions.",
+          "\"Sichtlich\" (visibly) and \"merklich\" (noticeably) are the Mastery-level adverbs for observable emotion: \"sichtlich erleichtert\", \"merklich kühler\". English speakers often write \"sichtbar\" here, which describes things that can be seen at all (\"Der Fehler ist kaum sichtbar\"), not emotions.",
         ],
         examples: [
           { es: "Herr Berger verschränkte die Arme, was als Abwehr gedeutet werden kann.", en: "Mr Berger crossed his arms, which can be interpreted as defensiveness." },
@@ -1465,7 +1465,7 @@ export const DE_C2_U16: Lesson[] = [
     slug: "c2-negotiation-register-spiral",
     level: "DE-C2",
     number: 8,
-    title: "Spiral Review: Verhandeln mit der C1-Grammatik",
+    title: "Spiral Review: Verhandeln mit Fortgeschrittener Grammatik",
     summary: "Recombine Konjunktiv II proposals, conditions, Konjunktiv I and nominal style across one negotiation: the talk, the email and the Protokoll.",
     duration: "18 min",
     sections: [
@@ -1659,14 +1659,14 @@ export const DE_C2_U16: Lesson[] = [
     slug: "c2-vocab-paronyms",
     level: "DE-C2",
     number: 9,
-    title: "C2 Vocabulary: Paronyms That Fool Even Natives",
+    title: "Mastery Vocabulary: Paronyms That Fool Even Natives",
     summary: "Separate the look-alike pairs that trip up native speakers too: scheinbar / anscheinend, lösen / löschen, wieder / wider, seid / seit, das / dass, Leere / Lehre, voraussichtlich / vorsichtig, Kongruenz / Konkurrenz.",
     duration: "18 min",
     sections: [
       {
         heading: "scheinbar / anscheinend, voraussichtlich / vorsichtig",
         body: [
-          "The most famous pair: \"anscheinend\" means apparently, as it seems (and it is probably true): \"Er ist anscheinend krank\" (it looks like he's ill). \"Scheinbar\" means seemingly but not really: \"Er ist scheinbar ruhig\" (he only looks calm, he isn't). Many Germans use \"scheinbar\" for both in speech, but in careful writing the difference matters, and C2 exams test it.",
+          "The most famous pair: \"anscheinend\" means apparently, as it seems (and it is probably true): \"Er ist anscheinend krank\" (it looks like he's ill). \"Scheinbar\" means seemingly but not really: \"Er ist scheinbar ruhig\" (he only looks calm, he isn't). Many Germans use \"scheinbar\" for both in speech, but in careful writing the difference matters, and Mastery-level exams test it.",
           "\"Voraussichtlich\" (expected, probably, as forecast) comes from \"voraussehen\" (foresee): \"Die Lieferung kommt voraussichtlich am Montag.\" \"Vorsichtig\" means careful, cautious: \"Fahr vorsichtig!\" Learners confuse them because both start with vor- and contain -sicht-.",
           "A test for scheinbar: if you can add \"aber in Wirklichkeit nicht\" (but not really), it's \"scheinbar\". If you can add \"wie es aussieht\" (by the look of it), it's \"anscheinend\".",
         ],

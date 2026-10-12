@@ -59,7 +59,7 @@ export const DE_C2_U28: Lesson[] = [
         body: [
           "Adjectives become abstract neuter nouns in the same way: \"das Gute\" (the good, what is good), \"das Wahre\" (the true), \"das Schöne\" (the beautiful), \"das Böse\" (evil), \"das Erhabene\" (the sublime, a key idea of Kant and Schiller). Plato's triad is \"das Wahre, das Gute und das Schöne\".",
           "They keep their adjective endings: \"des Guten\", \"im Guten wie im Bösen\", \"etwas Gutes\" (something good), \"nichts Neues\" (nothing new), \"viel Gutes tun\" (do a lot of good), \"alles Gute\" (all the best). Without an article they take strong endings.",
-          "English often needs a paraphrase: \"das Entscheidende\" is what's crucial, \"das Neue an dieser Theorie\" is what's new about this theory. This is one of the most useful patterns for compact argument at C2.",
+          "English often needs a paraphrase: \"das Entscheidende\" is what's crucial, \"das Neue an dieser Theorie\" is what's new about this theory. This is one of the most useful patterns for compact argument at the Mastery level.",
         ],
         examples: [
           { es: "Für Platon gehören das Wahre, das Gute und das Schöne zusammen.", en: "For Plato, the true, the good and the beautiful belong together." },
@@ -1548,7 +1548,7 @@ export const DE_C2_U28: Lesson[] = [
     slug: "c2-vocab-movement-gesture",
     level: "DE-C2",
     number: 8,
-    title: "C2 Vocabulary: Movement and Gesture",
+    title: "Mastery Vocabulary: Movement and Gesture",
     summary: "Verbs that pack the manner of movement into one word (schlendern, schleichen, taumeln, stolpern, huschen, hasten) and the vocabulary of gestures and body language (nicken, winken, zucken, die Stirn runzeln, die Augen verdrehen).",
     duration: "16 min",
     sections: [
@@ -1775,7 +1775,7 @@ export const DE_C2_U28: Lesson[] = [
         body: [
           "German has many synonym triplets that differ in register. To get: \"kriegen\" (colloquial: \"Hast du meine Mail gekriegt?\"), \"bekommen\" (neutral; remember the false friend: it never means become, which is \"werden\"), \"erhalten\" (formal, in letters: \"Wir haben Ihre Bewerbung erhalten\"). \"Kriegen\" also means to catch: \"Den Bus kriegen wir nicht mehr.\"",
           "To leave: \"abhauen\" (colloquial: to clear off, to run away; \"Hau ab!\" is rude), \"weggehen\" (neutral), \"sich entfernen\" (formal, typical of police reports: \"Der Fahrer entfernte sich unerlaubt vom Unfallort\").",
-          "At C2, the skill is not knowing the words but choosing the one that fits: \"kriegen\" in a job application sounds sloppy, and \"erhalten\" in a text to a friend sounds stiff or ironic.",
+          "At the Mastery level, the skill is not knowing the words but choosing the one that fits: \"kriegen\" in a job application sounds sloppy, and \"erhalten\" in a text to a friend sounds stiff or ironic.",
         ],
         examples: [
           { es: "Hast du meine Nachricht gekriegt?", en: "Did you get my message? (casual)" },

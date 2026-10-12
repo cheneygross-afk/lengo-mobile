@@ -2083,7 +2083,7 @@ export const DE_A2_U22: Lesson[] = [
         heading: "Links 7-9: als, wenn, and the future ending",
         body: [
           "Close the story with a time clause and a look ahead: \"Als er abends nach Hause kam, hat seine Mitbewohnerin Pizza gemacht. Ab jetzt wird er zwei Wecker stellen.\" One link per structure: \"als\" (one past moment), \"wenn\" (whenever / if), \"werden\" (future).",
-          "Rule of thumb for a strong A2 story: three tenses, two kinds of clause, and at least one connector of each type (sequence, reason, contrast).",
+          "Rule of thumb for a strong Elementary story: three tenses, two kinds of clause, and at least one connector of each type (sequence, reason, contrast).",
         ],
         examples: [
           { es: "Als er abends nach Hause kam, hat seine Mitbewohnerin Pizza gemacht.", en: "When he got home in the evening, his flatmate made pizza." },
@@ -2245,7 +2245,7 @@ export const DE_A2_U22: Lesson[] = [
       {
         heading: "Joining the events",
         body: [
-          "A list of dates becomes a story with connectors: \"Nach dem Abitur ist sie nach Berlin gezogen, weil sie dort studieren wollte.\" \"Nach\" + dative noun (\"nach dem Studium\") is easier at A2 than a full clause.",
+          "A list of dates becomes a story with connectors: \"Nach dem Abitur ist sie nach Berlin gezogen, weil sie dort studieren wollte.\" \"Nach\" + dative noun (\"nach dem Studium\") is easier at the Elementary level than a full clause.",
           "Add \"vor\" (ago) and \"später\" (later): \"Vor zwei Jahren hat sie geheiratet. Zwei Jahre später ist ihre Tochter Elif auf die Welt gekommen.\"",
         ],
         examples: [

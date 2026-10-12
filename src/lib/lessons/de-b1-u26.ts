@@ -62,7 +62,7 @@ export const DE_B1_U26: Lesson[] = [
       {
         heading: "Complaining with jemand, niemand and man",
         body: [
-          "\"Jemand\" and \"niemand\" take endings in the other cases, just like \"der\": accusative \"jemanden / niemanden\", dative \"jemandem / niemandem\". In speech many Germans drop the accusative ending (\"Ich habe niemand gesehen\"), but in writing and at B1 use the endings: \"Ich habe niemanden gehört.\"",
+          "\"Jemand\" and \"niemand\" take endings in the other cases, just like \"der\": accusative \"jemanden / niemanden\", dative \"jemandem / niemandem\". In speech many Germans drop the accusative ending (\"Ich habe niemand gesehen\"), but in writing and at the Intermediate level use the endings: \"Ich habe niemanden gehört.\"",
           "\"Man\" is the impersonal pronoun (one, you, people). In the other cases it borrows from \"ein\": \"einen\" in the accusative and \"einem\" in the dative. \"Das nervt einen\" (that gets on your nerves), \"Hier hilft einem keiner\" (nobody helps you here). English uses you for all of these; German keeps \"du\" for a real person.",
           "Typical complaint verbs from the unit: \"sich beschweren über\" + accusative (to complain about), \"sich ärgern über\" (to be annoyed about), \"stören\" (to bother): \"Es stört mich, dass...\". Each one sends the thing you complain about into a dass-clause or a noun phrase after the preposition.",
         ],
@@ -699,7 +699,7 @@ export const DE_B1_U26: Lesson[] = [
     slug: "b1-vocabulary-practice-9",
     level: "DE-B1",
     number: 4,
-    title: "B1 Vocabulary Practice, Part 9 of 10",
+    title: "Intermediate Vocabulary Practice, Part 9 of 10",
     summary: "High-frequency abstract nouns in -ung, -heit and -keit with the verbs and adjectives they come from, used in everyday sentences.",
     duration: "14 min",
     sections: [
@@ -794,7 +794,7 @@ export const DE_B1_U26: Lesson[] = [
       {
         heading: "Word families: one root, three words",
         body: [
-          "The fastest way to grow your vocabulary at B1 is to learn families, not single words. From one root you get a verb, an adjective and a noun: \"freuen\" / \"freudig\" / \"die Freude\"; \"erfahren\" / \"erfahren\" (experienced) / \"die Erfahrung\"; \"sich entspannen\" / \"entspannt\" / \"die Entspannung\".",
+          "The fastest way to grow your vocabulary at the Intermediate level is to learn families, not single words. From one root you get a verb, an adjective and a noun: \"freuen\" / \"freudig\" / \"die Freude\"; \"erfahren\" / \"erfahren\" (experienced) / \"die Erfahrung\"; \"sich entspannen\" / \"entspannt\" / \"die Entspannung\".",
           "When you meet a new noun in -ung, -heit or -keit, try to see the verb or adjective inside it: \"die Verspätung\" (delay) hides \"spät\", \"die Unabhängigkeit\" (independence) hides \"abhängig\" plus un-. Guessing like this works more often than not, and it also gives you the gender for free.",
         ],
         examples: [
@@ -932,7 +932,7 @@ export const DE_B1_U26: Lesson[] = [
         body: [
           "German has two families of apology. \"Entschuldigung\" / \"Entschuldigen Sie\" / \"Entschuldige\" is for small things and for getting attention (excuse me). \"Es tut mir leid\" is real regret: I'm sorry. For a mistake you made, you usually need both: \"Entschuldigung, das tut mir wirklich leid.\"",
           "To say what you're sorry about, use a dass-clause with the Perfekt: \"Es tut mir leid, dass ich nicht angerufen habe\" (I'm sorry I didn't call). Or a noun with \"für\": \"Entschuldigung für die Verspätung\" (sorry for the delay). \"Ich entschuldige mich für...\" is more formal.",
-          "Trap: English I should have called is a B2 structure in German (\"hätte ... sollen\"). At B1, apologise with what actually happened: \"Es tut mir leid, dass ich nicht angerufen habe.\" It is just as sincere and completely natural.",
+          "Trap: English I should have called is an Upper-intermediate structure in German (\"hätte ... sollen\"). At the Intermediate level, apologise with what actually happened: \"Es tut mir leid, dass ich nicht angerufen habe.\" It is just as sincere and completely natural.",
         ],
         examples: [
           { es: "Es tut mir leid, dass ich nicht angerufen habe.", en: "I'm sorry I didn't call." },

@@ -30,7 +30,7 @@ export const DE_C1_U05: Lesson[] = [
         heading: "Every tense of the Vorgangspassiv",
         body: [
           "The German process passive (Vorgangspassiv) is built with \"werden\" + Partizip II, and the tense lives entirely in \"werden\": \"Die Brücke wird gebaut\" (is being built), \"Die Brücke wurde gebaut\" (was built), \"Die Brücke ist gebaut worden\" (has been / was built), \"Die Brücke war gebaut worden\" (had been built), \"Die Brücke wird gebaut werden\" (will be built).",
-          "In the Perfekt and Plusquamperfekt the passive auxiliary takes \"sein\", and its participle is \"worden\", without ge-: \"ist ... worden\", \"war ... worden\". \"Geworden\" is the participle of \"werden\" as a full verb, to become: \"Sie ist Ärztin geworden\" (she became a doctor) vs \"Sie ist befördert worden\" (she was promoted). The form \"*ist gebaut geworden\" is the classic C1 mistake: two participles with ge- never stand side by side in the passive.",
+          "In the Perfekt and Plusquamperfekt the passive auxiliary takes \"sein\", and its participle is \"worden\", without ge-: \"ist ... worden\", \"war ... worden\". \"Geworden\" is the participle of \"werden\" as a full verb, to become: \"Sie ist Ärztin geworden\" (she became a doctor) vs \"Sie ist befördert worden\" (she was promoted). The form \"*ist gebaut geworden\" is the classic Advanced mistake: two participles with ge- never stand side by side in the passive.",
           "Which past tense? In news and writing the Präteritum \"wurde gebaut\" dominates; in speech the Perfekt \"ist gebaut worden\" is common, and both are correct in most sentences. The Futur I passive (\"wird gebaut werden\") exists but sounds heavy: Germans normally use the present with a time phrase, \"Die Brücke wird 2028 fertiggestellt\".",
           "English is/was + -ed is ambiguous between process and state (the shop is closed). German separates them: \"wird geschlossen\" is the act of closing, \"ist geschlossen\" the resulting state. This lesson is about the process; the state passive comes later in the unit.",
         ],
@@ -75,7 +75,7 @@ export const DE_C1_U05: Lesson[] = [
         body: [
           "The passive combines with the Konjunktiv in the same way as the active. Konjunktiv II present: \"würde gebaut\" (would be built). Konjunktiv II past: \"wäre gebaut worden\" (would have been built). Konjunktiv I in reported speech, mostly in the news: \"Die Entscheidung sei bereits getroffen worden\" (the decision had allegedly already been taken).",
           "With a modal verb the passive infinitive is participle + \"werden\": \"Der Antrag muss eingereicht werden\" (must be submitted), \"Das kann nicht geändert werden\". In the past the modal goes into the Präteritum: \"musste eingereicht werden\".",
-          "The C1 form is the modal passive in the past Konjunktiv II, the bread and butter of complaints and post-mortems: \"Die Anwohner hätten früher informiert werden müssen\" (the residents should have been informed earlier). \"Hätte\" is the finite verb, and at the end stands a block of three: participle + \"werden\" + modal infinitive (\"müssen\", \"sollen\", \"können\"), in that order.",
+          "The Advanced form is the modal passive in the past Konjunktiv II, the bread and butter of complaints and post-mortems: \"Die Anwohner hätten früher informiert werden müssen\" (the residents should have been informed earlier). \"Hätte\" is the finite verb, and at the end stands a block of three: participle + \"werden\" + modal infinitive (\"müssen\", \"sollen\", \"können\"), in that order.",
           "English should have been done / could have been avoided / ought to have been checked all land on this pattern: \"hätte gemacht werden sollen\", \"hätte vermieden werden können\", \"hätte geprüft werden müssen\". Note the modal is an infinitive, not a participle: never \"*hätte informiert werden gemusst\".",
         ],
         examples: [
@@ -110,7 +110,7 @@ export const DE_C1_U05: Lesson[] = [
         body: [
           "In a subordinate clause the finite verb normally goes last: \"..., dass die Brücke gebaut wird\", \"..., weil der Täter festgenommen worden ist\", \"..., obwohl das Fest abgesagt worden wäre\".",
           "There is one exception you already know from the double infinitive: when the verb cluster ends in two or more infinitives (\"informiert werden müssen\"), the finite auxiliary \"hätte\" jumps to the front of the whole cluster: \"Ich finde, dass die Anwohner früher hätten informiert werden müssen.\" Not \"*informiert werden müssen hätten\".",
-          "The same jump happens with \"werden\" in the future and with \"haben\" in the Perfekt of a modal passive: \"Es ist klar, dass das Gebäude hat geräumt werden müssen\" (rare and formal: most speakers switch to the Präteritum \"geräumt werden musste\"). For everyday writing remember the main C1 case: \"hätte\" before the three-verb block.",
+          "The same jump happens with \"werden\" in the future and with \"haben\" in the Perfekt of a modal passive: \"Es ist klar, dass das Gebäude hat geräumt werden müssen\" (rare and formal: most speakers switch to the Präteritum \"geräumt werden musste\"). For everyday writing remember the main Advanced case: \"hätte\" before the three-verb block.",
         ],
         examples: [
           { es: "Ich weiß nicht, wann das Rathaus gebaut worden ist.", en: "I don't know when the town hall was built." },
@@ -2358,7 +2358,7 @@ export const DE_C1_U05: Lesson[] = [
         heading: "Nominal style meets the passive",
         body: [
           "From Unit 3 you know that official German turns verbs into nouns. Combined with the passive or an empty verb (\"erfolgen\", \"stattfinden\") this gives the typical formal sentence: \"Die Ablesung der Zähler erfolgt am 12. Dezember\" (the meters will be read on 12 December) = \"Die Zähler werden am 12. Dezember abgelesen\".",
-          "Both versions are correct. The verbal passive is easier to read; the nominal one sounds more official. A good C1 writer can switch between them: \"Die Zahlung ist bis Monatsende zu leisten\" = \"Die Miete ist bis Monatsende zu zahlen\".",
+          "Both versions are correct. The verbal passive is easier to read; the nominal one sounds more official. A good Advanced writer can switch between them: \"Die Zahlung ist bis Monatsende zu leisten\" = \"Die Miete ist bis Monatsende zu zahlen\".",
           "Watch the genitive in the nominal version: the object of the verb becomes a genitive after the noun (\"die Zähler ablesen\" → \"die Ablesung der Zähler\"; \"den Vertrag kündigen\" → \"die Kündigung des Vertrags\").",
         ],
         examples: [

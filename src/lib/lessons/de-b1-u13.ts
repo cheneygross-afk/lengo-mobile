@@ -1588,8 +1588,8 @@ export const DE_B1_U13: Lesson[] = [
     slug: "b1-vocabulary-practice-5",
     level: "DE-B1",
     number: 9,
-    title: "B1 Vocabulary Practice, Part 5 of 10",
-    summary: "High-frequency B1 words for society, rules, the state and public services: das Amt, der Antrag, das Formular, die Gebühr, erlaubt and verboten.",
+    title: "Intermediate Vocabulary Practice, Part 5 of 10",
+    summary: "High-frequency Intermediate words for society, rules, the state and public services: das Amt, der Antrag, das Formular, die Gebühr, erlaubt and verboten.",
     duration: "12 min",
     sections: [
       {

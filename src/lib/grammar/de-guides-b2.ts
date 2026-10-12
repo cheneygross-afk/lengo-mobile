@@ -12,7 +12,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
     intro: [
       `English builds its unreal past with would have + participle: if I had known, I would have come. German needs only two little words for both halves of that sentence: "hätte" and "wäre". "Wenn ich das gewusst hätte, wäre ich gekommen." There is no "würde" anywhere.`,
       `The choice between "hätte" and "wäre" follows exactly the same rule as the Perfekt: verbs that take "haben" in the Perfekt take "hätte", verbs that take "sein" take "wäre". If you can say "ich bin gefahren", you can say "ich wäre gefahren".`,
-      `The real B2 challenge is the modal verbs. To say I should have called, German does not use a participle of "sollen" at all; it uses two infinitives side by side: "Ich hätte anrufen sollen." This double infinitive is one of the most recognisable patterns of educated German.`,
+      `The real Upper-intermediate challenge is the modal verbs. To say I should have called, German does not use a participle of "sollen" at all; it uses two infinitives side by side: "Ich hätte anrufen sollen." This double infinitive is one of the most recognisable patterns of educated German.`,
     ],
     sections: [
       {
@@ -279,7 +279,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
       "Five ways to avoid werden in German: the Zustandspassiv (ist geöffnet), man, sich lassen (das lässt sich reparieren), sein + zu (ist zu bezahlen) and adjectives in -bar, with the nuances of possibility and obligation.",
     level: "B2",
     intro: [
-      `By B1 you can form the werden-passive: "Die Tür wird geöffnet." Good German writing, however, uses a whole family of structures that do a similar job: they put the thing in focus and leave out the person doing the action. Signs, forms, instructions and newspapers are full of them.`,
+      `By the Intermediate level you can form the werden-passive: "Die Tür wird geöffnet." Good German writing, however, uses a whole family of structures that do a similar job: they put the thing in focus and leave out the person doing the action. Signs, forms, instructions and newspapers are full of them.`,
       `Two ideas run through this family. Some structures add possibility (can be done): "sich lassen", adjectives in "-bar". Others add necessity (must be done): "sein + zu" can mean either, depending on context. And the Zustandspassiv describes not an action but the state that results from it.`,
     ],
     sections: [
@@ -881,7 +881,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
     slug: "concessive-and-consequential-clauses",
     title: "Concession, Cause and Consequence: Obwohl, Trotzdem, Zumal, Sodass, Indem",
     description:
-      "The B2 toolkit for linking ideas in German: obwohl vs trotzdem vs trotz, zwar ... aber, während and wohingegen for contrast, da and zumal for causes, sodass and so ... dass for results, and indem, ohne dass, anstatt dass for means and manner.",
+      "The Upper-intermediate toolkit for linking ideas in German: obwohl vs trotzdem vs trotz, zwar ... aber, während and wohingegen for contrast, da and zumal for causes, sodass and so ... dass for results, and indem, ohne dass, anstatt dass for means and manner.",
     level: "B2",
     intro: [
       `One idea, three grammatical shapes: "Obwohl es regnete, gingen wir spazieren" (conjunction, verb at the end), "Es regnete, trotzdem gingen wir spazieren" (adverb, verb second), "Trotz des Regens gingen wir spazieren" (preposition + genitive). English uses although, nevertheless and despite in the same way, but German punishes the wrong word order immediately.`,
@@ -1387,11 +1387,11 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
     slug: "fixed-prepositions-in-depth",
     title: "Verbs, Nouns and Adjectives with Fixed Prepositions: Warten Auf, Stolz Auf, Angst Vor",
     description:
-      "The B2 view of German prepositional verbs: an and auf with accusative or dative, verbs that change meaning with the preposition (sich freuen auf / über, halten für / von), nouns and adjectives with prepositions, and da-compounds before clauses.",
+      "The Upper-intermediate view of German prepositional verbs: an and auf with accusative or dative, verbs that change meaning with the preposition (sich freuen auf / über, halten für / von), nouns and adjectives with prepositions, and da-compounds before clauses.",
     level: "B2",
     intro: [
       `Many German verbs, nouns and adjectives come with a fixed preposition, and it is often not the one English would choose: "warten auf" (wait for), "Angst vor" (fear of), "stolz auf" (proud of), "abhängen von" (depend on). There is no logic to deduce; the preposition is part of the word.`,
-      `At B1 you met the common verbs. At B2 you need the whole system: which case follows two-way prepositions like "an" and "auf", verbs whose meaning changes with the preposition, the same patterns in nouns and adjectives, and the da-compounds that announce a following clause.`,
+      `At the Intermediate level you met the common verbs. At the Upper-intermediate level you need the whole system: which case follows two-way prepositions like "an" and "auf", verbs whose meaning changes with the preposition, the same patterns in nouns and adjectives, and the da-compounds that announce a following clause.`,
     ],
     sections: [
       {
@@ -1529,11 +1529,11 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
     slug: "weak-nouns-in-depth",
     title: "Weak Nouns in Depth: Der Kollege, Den Kollegen; Der Name, Des Namens",
     description:
-      "The German n-declension at B2: which masculine nouns add -n or -en (Kollege, Student, Präsident, Mensch, Herr), the special group with -ns in the genitive (Name, Gedanke, Glaube), das Herz, and the colloquial habit of dropping the ending.",
+      "The German n-declension at the Upper-intermediate level: which masculine nouns add -n or -en (Kollege, Student, Präsident, Mensch, Herr), the special group with -ns in the genitive (Name, Gedanke, Glaube), das Herz, and the colloquial habit of dropping the ending.",
     level: "B2",
     intro: [
       `A small but important group of masculine nouns adds "-n" or "-en" in every case except the nominative singular: "der Kollege", but "den Kollegen", "dem Kollegen", "des Kollegen". These are the weak nouns (the n-Deklination).`,
-      `They are few, but they are frequent: people ("der Mensch", "der Nachbar", "der Kunde"), professions in "-ent" and "-ist", animals ("der Bär", "der Affe"). At B2, errors with them stand out, especially in formal writing.`,
+      `They are few, but they are frequent: people ("der Mensch", "der Nachbar", "der Kunde"), professions in "-ent" and "-ist", animals ("der Bär", "der Affe"). At the Upper-intermediate level, errors with them stand out, especially in formal writing.`,
     ],
     sections: [
       {

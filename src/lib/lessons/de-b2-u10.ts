@@ -8,7 +8,7 @@ export const DE_B2_U10: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Upper-Intermediate Vocabulary Practice, Part 3 of 10",
-    summary: "Test the B2 vocabulary from Units 6-9: notices, housing ads, feelings, reports and CVs.",
+    summary: "Test the Upper-intermediate vocabulary from Units 6-9: notices, housing ads, feelings, reports and CVs.",
     duration: "15 min",
     sections: [
       {
@@ -1880,7 +1880,7 @@ export const DE_B2_U10: Lesson[] = [
     level: "DE-B2",
     number: 11,
     title: "Upper-Intermediate Vocabulary Practice, Part 4 of 10",
-    summary: "Test the B2 vocabulary of Unit 10: Funktionsverbgefüge with their prepositions and articles.",
+    summary: "Test the Upper-intermediate vocabulary of Unit 10: Funktionsverbgefüge with their prepositions and articles.",
     duration: "15 min",
     sections: [
       {

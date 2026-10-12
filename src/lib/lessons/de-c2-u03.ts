@@ -2647,7 +2647,7 @@ export const DE_C2_U03: Lesson[] = [
     slug: "c2-vocab-precise-verbs-geben-haben-setzen",
     level: "DE-C2",
     number: 13,
-    title: "C2 Vocabulary: Precise Verbs Instead of Geben, Haben and Setzen",
+    title: "Mastery Vocabulary: Precise Verbs Instead of Geben, Haben and Setzen",
     summary: "Replace geben, haben and setzen with the verb a native writer would choose: erteilen, gewähren, verabreichen, verfügen über, aufweisen, besitzen, einsetzen, anbringen and platzieren, with their fixed objects.",
     duration: "17 min",
     sections: [
@@ -2841,7 +2841,7 @@ export const DE_C2_U03: Lesson[] = [
     slug: "c2-vocab-verbs-of-argument-decision",
     level: "DE-C2",
     number: 14,
-    title: "C2 Vocabulary: Verbs of Argument and Decision",
+    title: "Mastery Vocabulary: Verbs of Argument and Decision",
     summary: "Weigh, support, reject and decide in precise German: abwägen, erwägen, befürworten, ablehnen, beharren auf, untermauern, einlenken, beschließen, sich entschließen and festlegen, with their prepositions and cases.",
     duration: "18 min",
     sections: [

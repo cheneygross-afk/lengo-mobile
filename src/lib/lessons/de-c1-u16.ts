@@ -1323,7 +1323,7 @@ export const DE_C1_U16: Lesson[] = [
         body: [
           "Neutral German softens with \"leider\", \"etwas\", \"ein wenig\", Konjunktiv II and questions: \"Der Bericht wäre eigentlich schon gestern fällig gewesen.\" This is criticism, but face-saving.",
           "Colloquial German strengthens with intensifiers (\"total\", \"voll\", \"echt\", \"mega\") and exclamations (\"Mensch!\", \"Mann!\"). Vulgar German adds swear words, which mostly add emotion, not meaning.",
-          "A useful C1 skill: translating emotion into a neutral sentence that still makes your point. \"Das ist doch Scheiße!\" can become \"Das ist wirklich nicht akzeptabel.\"",
+          "A useful Advanced skill: translating emotion into a neutral sentence that still makes your point. \"Das ist doch Scheiße!\" can become \"Das ist wirklich nicht akzeptabel.\"",
         ],
         examples: [
           { es: "Der Bericht wäre eigentlich schon gestern fällig gewesen.", en: "The report was actually due yesterday." },

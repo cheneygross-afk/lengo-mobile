@@ -14,7 +14,7 @@ export const DE_B2_U01: Lesson[] = [
       {
         heading: "Hätte + Partizip II: what would have happened",
         body: [
-          "At B1 you used the Konjunktiv II to imagine the present: \"Ich hätte gern mehr Zeit\", \"Ich würde gern kommen\". To imagine the past, things that could have happened but didn't, German builds the Konjunktiv II on the Perfekt. Take the Perfekt (\"ich habe angerufen\") and turn the auxiliary into its Konjunktiv II form: \"ich hätte angerufen\" (I would have called).",
+          "At the Intermediate level you used the Konjunktiv II to imagine the present: \"Ich hätte gern mehr Zeit\", \"Ich würde gern kommen\". To imagine the past, things that could have happened but didn't, German builds the Konjunktiv II on the Perfekt. Take the Perfekt (\"ich habe angerufen\") and turn the auxiliary into its Konjunktiv II form: \"ich hätte angerufen\" (I would have called).",
           "So the whole recipe is: \"hätte\" in the normal verb position, the Partizip II at the end. The forms of \"hätte\" are the ones you know: \"ich hätte, du hättest, er/sie/es hätte, wir hätten, ihr hättet, sie/Sie hätten\". The participle never changes.",
           "This one form covers English would have done, and also could have done or might have done in many contexts. Notice what it does not contain: no \"würde\". English speakers translate would have literally and produce \"*ich würde angerufen haben\". That form technically exists, but no German says it; the natural form is always \"ich hätte angerufen\".",
           "Watch the umlaut: \"ich hatte angerufen\" (no umlaut) is the Plusquamperfekt, a real event: I had called. \"Ich hätte angerufen\" (with ä) is unreal: I would have called, but I didn't.",
@@ -50,7 +50,7 @@ export const DE_B2_U01: Lesson[] = [
       {
         heading: "Wäre + Partizip II: the same choice as the Perfekt",
         body: [
-          "Verbs that take \"sein\" in the Perfekt take \"wäre\" in the unreal past. The rule is exactly the one you learned at A2: movement from A to B (\"gehen, fahren, fliegen, kommen\"), change of state (\"aufwachen, einschlafen, sterben, werden\"), plus \"sein\", \"bleiben\" and \"passieren\". \"Sie ist gekommen\" → \"sie wäre gekommen\".",
+          "Verbs that take \"sein\" in the Perfekt take \"wäre\" in the unreal past. The rule is exactly the one you learned at the Elementary level: movement from A to B (\"gehen, fahren, fliegen, kommen\"), change of state (\"aufwachen, einschlafen, sterben, werden\"), plus \"sein\", \"bleiben\" and \"passieren\". \"Sie ist gekommen\" → \"sie wäre gekommen\".",
           "The forms: \"ich wäre, du wär(e)st, er/sie/es wäre, wir wären, ihr wär(e)t, sie/Sie wären\". Again, the participle stays the same and goes to the end.",
           "If you're unsure about a verb, just say its Perfekt in your head: \"Er ist geblieben\" → \"er wäre geblieben\". \"Wir haben gewartet\" → \"wir hätten gewartet\". The mood changes, the auxiliary choice never does.",
         ],
@@ -1043,7 +1043,7 @@ export const DE_B2_U01: Lesson[] = [
         heading: "Answering: An deiner Stelle hätte ich ...",
         body: [
           "The answer mirrors the question: \"An deiner Stelle hätte ich gekündigt\" (In your place I would have quit), \"An deiner Stelle wäre ich nicht mitgefahren\". \"An deiner Stelle\" takes position 1, so the verb comes next and then \"ich\".",
-          "At B1 you gave present advice: \"An deiner Stelle würde ich ...\" or \"Du solltest ...\". Now you're judging something that's already happened, so the verb goes into the past form. Compare: \"An deiner Stelle würde ich kündigen\" (advice for now) and \"An deiner Stelle hätte ich gekündigt\" (verdict on the past).",
+          "At the Intermediate level you gave present advice: \"An deiner Stelle würde ich ...\" or \"Du solltest ...\". Now you're judging something that's already happened, so the verb goes into the past form. Compare: \"An deiner Stelle würde ich kündigen\" (advice for now) and \"An deiner Stelle hätte ich gekündigt\" (verdict on the past).",
           "To soften your verdict, add \"wahrscheinlich\" (probably), \"vielleicht\" or \"ehrlich gesagt\": \"Ich hätte wahrscheinlich dasselbe gemacht\" (I'd probably have done the same).",
         ],
         examples: [
@@ -1681,7 +1681,7 @@ export const DE_B2_U01: Lesson[] = [
         heading: "Your verdict",
         body: [
           "Finish with how you feel about it now. No regrets: \"Ich bereue nichts\", \"Im Nachhinein war es die richtige Entscheidung\" (in hindsight it was the right decision). Some regrets: \"Manchmal frage ich mich, was passiert wäre, wenn ...\" (sometimes I wonder what would have happened if ...).",
-          "That last structure is a great B2 sentence: an indirect question with \"was\" + Konjunktiv II past, plus a wenn-clause. Both verbs go to the end of their clauses: \"..., was passiert wäre, wenn ich Ja gesagt hätte.\"",
+          "That last structure is a great Upper-intermediate sentence: an indirect question with \"was\" + Konjunktiv II past, plus a wenn-clause. Both verbs go to the end of their clauses: \"..., was passiert wäre, wenn ich Ja gesagt hätte.\"",
           "Now say a few sentences about your own decision aloud before doing the final review.",
         ],
         examples: [

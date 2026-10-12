@@ -15,7 +15,7 @@ export const DE_B2_U09: Lesson[] = [
         heading: "Why German loves nouns",
         body: [
           "Reports, news, official letters and CVs in German are full of nouns where speech would use verbs. Spoken: \"Weil es stark geregnet hat, ist das Spiel ausgefallen.\" Written: \"Wegen des starken Regens fiel das Spiel aus.\" This noun-heavy style is called \"Nominalstil\", and turning a verb into a noun is \"Nominalisierung\".",
-          "Nominal style packs more information into less space and sounds objective and formal. Its downside is that it can sound stiff and bureaucratic (\"Amtsdeutsch\"). At B2 you need both skills: understanding it fluently and producing it in formal writing, and turning it back into normal German (Part 2 of this topic).",
+          "Nominal style packs more information into less space and sounds objective and formal. Its downside is that it can sound stiff and bureaucratic (\"Amtsdeutsch\"). At the Upper-intermediate level you need both skills: understanding it fluently and producing it in formal writing, and turning it back into normal German (Part 2 of this topic).",
           "English does this too (the arrival of the train, because of the heavy rain), but German does it far more, especially in writing.",
         ],
         examples: [

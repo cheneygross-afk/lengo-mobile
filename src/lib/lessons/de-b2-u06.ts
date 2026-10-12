@@ -1659,7 +1659,7 @@ export const DE_B2_U06: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Upper-Intermediate Vocabulary Practice, Part 2 of 10",
-    summary: "Test the B2 vocabulary from Units 4-5: news and police reports, renovation and repairs, forms and deadlines.",
+    summary: "Test the Upper-intermediate vocabulary from Units 4-5: news and police reports, renovation and repairs, forms and deadlines.",
     duration: "15 min",
     sections: [
       {

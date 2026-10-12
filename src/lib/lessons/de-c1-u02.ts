@@ -14,8 +14,8 @@ export const DE_C1_U02: Lesson[] = [
       {
         heading: "Obwohl, obgleich, obschon, wenngleich",
         body: [
-          "You know \"obwohl\" (although) from B1: it introduces a subordinate clause, so the verb goes to the end. At C1 you need its formal siblings, which mean exactly the same and follow the same word order: \"obgleich\", \"obschon\" and \"wenngleich\".",
-          "Register: \"obwohl\" is neutral and fits everywhere. \"Obgleich\" and \"wenngleich\" are typical of written German: reports, essays, quality journalism. \"Obschon\" is elevated and a bit old-fashioned in Germany, but common in Switzerland. Using one of them in an essay signals C1 style; in a chat with a friend it sounds pompous.",
+          "You know \"obwohl\" (although) from the Intermediate level: it introduces a subordinate clause, so the verb goes to the end. At the Advanced level you need its formal siblings, which mean exactly the same and follow the same word order: \"obgleich\", \"obschon\" and \"wenngleich\".",
+          "Register: \"obwohl\" is neutral and fits everywhere. \"Obgleich\" and \"wenngleich\" are typical of written German: reports, essays, quality journalism. \"Obschon\" is elevated and a bit old-fashioned in Germany, but common in Switzerland. Using one of them in an essay signals Advanced style; in a chat with a friend it sounds pompous.",
           "\"Wenngleich\" has a special talent: it can also introduce a shortened clause without a verb, often after the main clause: \"Das Hotel war schön, wenngleich etwas teuer\" (The hotel was nice, if somewhat expensive). \"Obwohl\" can do the same in speech: \"..., obwohl teuer\".",
           "Trap: the verb really must go to the end. \"*Obwohl er war müde\" is a typical error from English word order.",
         ],
@@ -1911,7 +1911,7 @@ export const DE_C1_U02: Lesson[] = [
       {
         heading: "Während, wohingegen, (an)statt dass",
         body: [
-          "To weigh two sides against each other (B2 recap), German uses adversative conjunctions with the verb at the end: \"während\" (whereas, while), \"wohingegen\" (whereas; formal). \"Mia liebt die Stadt, während ihr Bruder lieber auf dem Land lebt.\"",
+          "To weigh two sides against each other (Upper-intermediate recap), German uses adversative conjunctions with the verb at the end: \"während\" (whereas, while), \"wohingegen\" (whereas; formal). \"Mia liebt die Stadt, während ihr Bruder lieber auf dem Land lebt.\"",
           "\"(An)statt dass\" (instead of + a different subject) contrasts what happens with what should happen: \"Anstatt dass die Stadt Radwege baut, werden die Straßen verbreitert.\" With the same subject, use \"(an)statt ... zu\": \"Anstatt zu helfen, hat er nur kritisiert.\"",
           "A balanced argument often combines a concession, a contrast and a limitation: \"Zwar ist die Wohnung teurer, während die alte günstiger war, aber immerhin sparen wir die Fahrtkosten.\"",
         ],
@@ -2265,7 +2265,7 @@ export const DE_C1_U02: Lesson[] = [
     level: "DE-C1",
     number: 11,
     title: "Spiral Review: Concession and Condition",
-    summary: "Recombine B1/B2 wenn, falls, sofern and the Konjunktiv II with auch wenn, selbst wenn, es sei denn and wie ... auch in everyday arguments.",
+    summary: "Recombine the Intermediate and Upper-intermediate wenn, falls, sofern and the Konjunktiv II with auch wenn, selbst wenn, es sei denn and wie ... auch in everyday arguments.",
     duration: "17 min",
     sections: [
       {

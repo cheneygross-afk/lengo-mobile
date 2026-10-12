@@ -501,7 +501,7 @@ export const DE_A1_U07: Lesson[] = [
       {
         heading: "Mir ist kalt: I'm cold",
         body: [
-          "To say you feel cold, German doesn't use \"ich bin\". It says to me it is cold: \"Mir ist kalt.\" Likewise \"Mir ist warm\" (I'm warm, I'm too hot). Learn \"mir ist\" as a fixed chunk; the full explanation (\"mir\" is a dative pronoun) comes in A2.",
+          "To say you feel cold, German doesn't use \"ich bin\". It says to me it is cold: \"Mir ist kalt.\" Likewise \"Mir ist warm\" (I'm warm, I'm too hot). Learn \"mir ist\" as a fixed chunk; the full explanation (\"mir\" is a dative pronoun) comes at the Elementary level.",
           "\"Ich bin kalt\" is a classic English-speaker slip: it describes your personality (I'm a cold person). And \"Ich bin heiß\" can sound like a comment on your sex appeal. So: \"Mir ist kalt\", \"Mir ist heiß\".",
         ],
         examples: [
@@ -898,7 +898,7 @@ export const DE_A1_U07: Lesson[] = [
         heading: "Die Schweiz, die Türkei, die USA",
         body: [
           "A few countries always have an article: \"die Schweiz\" (Switzerland), \"die Türkei\", \"die Niederlande\" and \"die USA\" (both plural). The article travels with them, and the prepositions change: to them is \"in\" instead of \"nach\".",
-          "Learn them as chunks: \"in der Schweiz\" (in Switzerland), \"in die Schweiz\" (to Switzerland), \"aus der Schweiz\" (from Switzerland). The same with \"der Türkei\". For the plural USA: \"in den USA, in die USA, aus den USA\". Why the articles change is the case system; you'll meet it properly in A2.",
+          "Learn them as chunks: \"in der Schweiz\" (in Switzerland), \"in die Schweiz\" (to Switzerland), \"aus der Schweiz\" (from Switzerland). The same with \"der Türkei\". For the plural USA: \"in den USA, in die USA, aus den USA\". Why the articles change is the case system; you'll meet it properly at the Elementary level.",
           "\"Aus Schweiz\" and \"nach Schweiz\" are typical slips: if a country has an article, it never goes missing.",
         ],
         examples: [

@@ -8,7 +8,7 @@ export const DE_B2_U24: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Upper-Intermediate Vocabulary Practice, Part 10 of 10",
-    summary: "Test the B2 vocabulary from Units 21-23 (traditions, journalism, inheritance, privacy, museums) and take a final sweep of the level.",
+    summary: "Test the Upper-intermediate vocabulary from Units 21-23 (traditions, journalism, inheritance, privacy, museums) and take a final sweep of the level.",
     duration: "15 min",
     sections: [
       {
@@ -82,7 +82,7 @@ export const DE_B2_U24: Lesson[] = [
         heading: "Museums and a final sweep",
         body: [
           "Museums: \"die Restaurierung\" (restoration), \"restaurieren\", \"das Exponat\" (exhibit), \"die Dauerausstellung\" (permanent exhibition) vs \"die Sonderausstellung\" (special exhibition), \"die Leihgabe\" (loan), \"die Erinnerungskultur\" (culture of remembrance), \"das Denkmal\" (monument).",
-          "Final sweep of the level, some words that B2 learners still mix up: \"sich erinnern an\" (remember) vs \"erinnern an\" (remind of); \"bekommen\" (receive, not become); \"eventuell\" (possibly, not eventually); \"die Chance\" vs \"die Gelegenheit\" (opportunity); \"aktuell\" (current, not actual).",
+          "Final sweep of the level, some words that Upper-intermediate learners still mix up: \"sich erinnern an\" (remember) vs \"erinnern an\" (remind of); \"bekommen\" (receive, not become); \"eventuell\" (possibly, not eventually); \"die Chance\" vs \"die Gelegenheit\" (opportunity); \"aktuell\" (current, not actual).",
         ],
         examples: [
           { es: "Die Sonderausstellung ist nur noch bis Sonntag zu sehen.", en: "The special exhibition can only be seen until Sunday." },

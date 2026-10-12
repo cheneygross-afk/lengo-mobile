@@ -235,7 +235,7 @@ export const DE_C2_U26: Lesson[] = [
         heading: "From certain to cautious: dürfte, könnte, müsste",
         body: [
           "Scientists rarely say \"Das ist so.\" German grades certainty with the Konjunktiv II of modal verbs, used subjectively (as an estimate, not as permission or ability). From strongest to weakest: \"Das müsste so sein\" (that should be the case, a logical expectation), \"Das dürfte so sein\" (that is probably the case), \"Das könnte so sein\" (that could be the case).",
-          "\"Dürfte\" is the C2 favourite and the trap: it has nothing to do with permission here. \"Die Ergebnisse dürften auch für Kinder gelten\" means the results probably also apply to children. English speakers tend to say \"wahrscheinlich\" every time; \"dürfte\" is more elegant and more typical of written German.",
+          "\"Dürfte\" is the Mastery-level favourite and the trap: it has nothing to do with permission here. \"Die Ergebnisse dürften auch für Kinder gelten\" means the results probably also apply to children. English speakers tend to say \"wahrscheinlich\" every time; \"dürfte\" is more elegant and more typical of written German.",
           "For the past, put the perfect infinitive after the modal: \"Das Virus könnte schon im Herbst zirkuliert haben\" (could have been circulating), \"Der Fehler dürfte bei der Messung entstanden sein\" (probably arose). The transformation always keeps the content and only changes the degree of certainty.",
         ],
         examples: [
@@ -1554,7 +1554,7 @@ export const DE_C2_U26: Lesson[] = [
     slug: "c2-vocab-people-landscapes",
     level: "DE-C2",
     number: 8,
-    title: "C2 Vocabulary: Describing People and Landscapes",
+    title: "Mastery Vocabulary: Describing People and Landscapes",
     summary: "Precise descriptive vocabulary: Gesichtszüge, Statur and Gang for people; Mittelgebirge, Heide, Moor, Watt and Alm for German landscapes; and adjectives like karg, lieblich, schroff and sanft.",
     duration: "16 min",
     sections: [

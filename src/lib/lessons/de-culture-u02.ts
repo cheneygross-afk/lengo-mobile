@@ -501,7 +501,7 @@ export const DE_CULTURE_U02: Lesson[] = [
         body: [
           "Because of the Nazi past, waving the national flag was long viewed with unease in West Germany: a black-red-gold flag on a balcony could look nationalist. The 2006 home World Cup changed that overnight. Suddenly flags were everywhere, on cars, faces and balconies, and commentators spoke of a new, relaxed \"Party-Patriotismus\".",
           "The debate never fully went away. Some see the flags as harmless fun and a sign of a normal, democratic country; others are uneasy about any national display. Discussions about the diversity of the team and who counts as German come up at every tournament.",
-          "To take part in such a conversation at C1, you need hedging and opinion frames: \"Ich finde es eigentlich unproblematisch, dass ...\", \"Man muss dabei bedenken, dass ...\", \"Das sehe ich etwas anders\" (I see that a bit differently), and the Vorfeld for emphasis: \"Die Fahnen selbst finde ich harmlos; die Diskussion darüber finde ich wichtig.\"",
+          "To take part in such a conversation at the Advanced level, you need hedging and opinion frames: \"Ich finde es eigentlich unproblematisch, dass ...\", \"Man muss dabei bedenken, dass ...\", \"Das sehe ich etwas anders\" (I see that a bit differently), and the Vorfeld for emphasis: \"Die Fahnen selbst finde ich harmlos; die Diskussion darüber finde ich wichtig.\"",
         ],
         examples: [
           { es: "Vor 2006 hätte kaum jemand eine Fahne auf den Balkon gehängt.", en: "Before 2006 hardly anyone would have hung a flag on their balcony." },
@@ -1512,7 +1512,7 @@ export const DE_CULTURE_U02: Lesson[] = [
         body: [
           "Deutschrap loves wordplay: double meanings, rhymes across languages, and puns on brand names. Fettes Brot's \"Jein\" turned a pun into a dictionary word. Sido's \"Mein Block\" and many later tracks play with the gap between street slang and standard German, and part of the fun for fans is decoding them.",
           "At weddings, Feste and office parties, the same songs come round: Schlager like \"Atemlos\", carnival hits, \"Ein Stern (der deinen Namen trägt)\", and Ballermann songs. People join a \"Polonaise\" (a conga line) and sing along whether or not they like the genre: \"Bei Hochzeiten singt man das halt mit\" (At weddings you just sing along).",
-          "In 2022 the Ballermann hit \"Layla\", number one in the charts, was banned at some Feste because of its sexist lyrics. The debate split the country: was it overdue respect, or censorship and paternalism? A good C1 topic, which needs the language of balanced argument: \"Einerseits ..., andererseits ...\", \"Ich kann beide Seiten verstehen\", \"Es kommt darauf an, ...\".",
+          "In 2022 the Ballermann hit \"Layla\", number one in the charts, was banned at some Feste because of its sexist lyrics. The debate split the country: was it overdue respect, or censorship and paternalism? A good Advanced topic, which needs the language of balanced argument: \"Einerseits ..., andererseits ...\", \"Ich kann beide Seiten verstehen\", \"Es kommt darauf an, ...\".",
         ],
         examples: [
           { es: "Bei Hochzeiten singt man das halt mit.", en: "At weddings you just sing along." },

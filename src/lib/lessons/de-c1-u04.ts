@@ -14,7 +14,7 @@ export const DE_C1_U04: Lesson[] = [
       {
         heading: "Extended participial attributes, revisited",
         body: [
-          "At B2 you built participial attributes like \"die geplante Brücke\" and \"die von der Stadt geplante Brücke\". At C1 they grow: several adverbials and objects can stand between the article and the participle: \"die seit Jahren von der Stadt geplante neue Brücke\" (the new bridge that the city has been planning for years).",
+          "At the Upper-intermediate level you built participial attributes like \"die geplante Brücke\" and \"die von der Stadt geplante Brücke\". At the Advanced level they grow: several adverbials and objects can stand between the article and the participle: \"die seit Jahren von der Stadt geplante neue Brücke\" (the new bridge that the city has been planning for years).",
           "Order inside the attribute follows the Mittelfeld of a clause: time (seit Jahren) – agent/cause (von der Stadt) – manner – place – participle. A plain adjective (\"neue\") comes right before the noun, after the participle.",
           "Endings: the participle and any adjective take the same ending as ordinary adjectives: \"die geplante neue Brücke\", \"mit der geplanten neuen Brücke\", \"eines lange erwarteten Berichts\".",
         ],
@@ -2973,7 +2973,7 @@ export const DE_C1_U04: Lesson[] = [
         body: [
           "One idea, four forms: relative clause \"die Wohnungen, die im letzten Jahr gebaut wurden\"; participial attribute \"die im letzten Jahr gebauten Wohnungen\"; nominal phrase \"der Bau von Wohnungen im letzten Jahr\"; zu-infinitive \"Es ist geplant, im nächsten Jahr Wohnungen zu bauen.\"",
           "Choosing: relative clause for speech and clarity; participial attribute for compact writing; nominal phrase when the action itself is the topic; zu-infinitive for intentions, plans and evaluations.",
-          "A good C1 report varies them so that no structure repeats in every sentence.",
+          "A good Advanced report varies them so that no structure repeats in every sentence.",
         ],
         examples: [
           { es: "die Wohnungen, die im letzten Jahr gebaut wurden", en: "the flats that were built last year" },

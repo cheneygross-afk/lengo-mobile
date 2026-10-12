@@ -9,7 +9,7 @@ export const DE_B2_U23_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Translation Relay",
-    summary: "Translate short English texts into German, choosing the right B2 structure each time.",
+    summary: "Translate short English texts into German, choosing the right Upper-intermediate structure each time.",
     duration: "14 min",
     sections: [
       {

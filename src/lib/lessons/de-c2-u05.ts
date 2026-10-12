@@ -274,7 +274,7 @@ export const DE_C2_U05: Lesson[] = [
       {
         heading: "From proverb to plain German",
         body: [
-          "A useful C2 skill, and a standard Goethe C2 task, is to restate a proverb in neutral, modern German: no rhyme, no old words, the plain claim. \"Wer zuletzt lacht, lacht am besten\" becomes \"Man sollte sich nicht zu früh freuen; wer am Ende Erfolg hat, ist der eigentliche Gewinner.\" Paraphrasing forces you to say exactly what the proverb claims, which is also how you check you understand it.",
+          "A useful Mastery-level skill, and a standard Goethe C2 task, is to restate a proverb in neutral, modern German: no rhyme, no old words, the plain claim. \"Wer zuletzt lacht, lacht am besten\" becomes \"Man sollte sich nicht zu früh freuen; wer am Ende Erfolg hat, ist der eigentliche Gewinner.\" Paraphrasing forces you to say exactly what the proverb claims, which is also how you check you understand it.",
           "\"Wer A sagt, muss auch B sagen\": whoever starts something must see it through and accept the consequences: \"Wer etwas anfängt, muss es auch zu Ende führen.\" \"Kommt Zeit, kommt Rat\": time will bring a solution, don't rush a decision. Note the verb-first word order, an old way of saying \"wenn\": \"Wenn Zeit kommt, kommt Rat.\" \"Was lange währt, wird endlich gut\": what takes a long time turns out well in the end. \"Währen\" (to last) is literary, and \"endlich\" has its old meaning in the end.",
           "\"Kleinvieh macht auch Mist\" (small livestock also produces manure) means small amounts add up: said of saving small sums or of modest donations. It is earthy but not vulgar, fine in a bank advert.",
         ],
@@ -780,7 +780,7 @@ export const DE_C2_U05: Lesson[] = [
         heading: "Why speakers choose one or the other",
         body: [
           "Because contradictory proverbs coexist, a proverb is never a proof, only a rhetorical move. In an argument, a well-chosen proverb makes your view sound like common sense; your opponent can answer with its opposite, and the exchange becomes almost a game: \"Eile mit Weile!\" \"Ja, aber wer zu spät kommt ...\"",
-          "Germans often comment on the contradiction itself: \"Für jedes Sprichwort gibt es ein Gegensprichwort\" (for every proverb there is a counter-proverb). A neat C2 move in a discussion is to name both and then decide: \"Man sagt zwar, Gegensätze ziehen sich an, aber im Alltag gilt wohl eher: Gleich und Gleich gesellt sich gern.\" Note \"zwar ..., aber\" (admittedly ..., but) and \"wohl eher\" (probably rather), which frame the choice.",
+          "Germans often comment on the contradiction itself: \"Für jedes Sprichwort gibt es ein Gegensprichwort\" (for every proverb there is a counter-proverb). A neat Mastery-level move in a discussion is to name both and then decide: \"Man sagt zwar, Gegensätze ziehen sich an, aber im Alltag gilt wohl eher: Gleich und Gleich gesellt sich gern.\" Note \"zwar ..., aber\" (admittedly ..., but) and \"wohl eher\" (probably rather), which frame the choice.",
         ],
         examples: [
           { es: "Für jedes Sprichwort gibt es ein Gegensprichwort.", en: "For every proverb there's one that says the opposite." },
@@ -1211,7 +1211,7 @@ export const DE_C2_U05: Lesson[] = [
         body: [
           "The fairy tales of the Brothers Grimm end with \"Und wenn sie nicht gestorben sind, dann leben sie noch heute\" (and if they haven't died, they're still alive today), the German happily ever after. Adults quote it ironically about anything that drags on: a never-ending building project, a couple who keep breaking up and making up.",
           "Wilhelm Busch, the 19th-century humorist and creator of \"Max und Moritz\", left many sayings: \"Vater werden ist nicht schwer, Vater sein dagegen sehr\" (becoming a father isn't hard, being one is), and \"Dieses war der erste Streich, doch der zweite folgt sogleich\" (that was the first prank, but the second follows right away), quoted after the first of several setbacks or jokes.",
-          "Because everyone knows the originals, Germans love \"Antisprichwörter\": twisted proverbs. \"Wer andern eine Bratwurst brät, der hat ein Bratwurstbratgerät\" (whoever fries others a sausage owns a sausage-frying device), \"Wer im Glashaus sitzt, sollte im Keller duschen\", \"Morgenstund hat Blei im Hintern\". Advertising uses them constantly. The joke only works if the listener hears the original underneath, which is why recognising them is a real C2 skill.",
+          "Because everyone knows the originals, Germans love \"Antisprichwörter\": twisted proverbs. \"Wer andern eine Bratwurst brät, der hat ein Bratwurstbratgerät\" (whoever fries others a sausage owns a sausage-frying device), \"Wer im Glashaus sitzt, sollte im Keller duschen\", \"Morgenstund hat Blei im Hintern\". Advertising uses them constantly. The joke only works if the listener hears the original underneath, which is why recognising them is a real Mastery-level skill.",
         ],
         examples: [
           { es: "Und wenn sie nicht gestorben sind, dann streiten sie noch heute.", en: "And if they haven't died, they're still arguing to this day." },
@@ -1555,7 +1555,7 @@ export const DE_C2_U05: Lesson[] = [
     slug: "c2-vocab-character-adjectives",
     level: "DE-C2",
     number: 8,
-    title: "C2 Vocabulary: Character Adjectives",
+    title: "Mastery Vocabulary: Character Adjectives",
     summary: "Precise words for character (gewissenhaft, eigensinnig, kleinlich, großzügig, verschroben, umgänglich, nachtragend, besonnen, leichtfertig, spießig) with their nouns, opposites and traps.",
     duration: "18 min",
     sections: [

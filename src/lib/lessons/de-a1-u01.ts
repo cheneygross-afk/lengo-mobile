@@ -1888,14 +1888,14 @@ export const DE_A1_U01: Lesson[] = [
         heading: "Sehr, ziemlich, zu, ganz",
         body: [
           "These go right before the adjective: \"sehr\" (very), \"ziemlich\" (quite, fairly), \"zu\" (too): \"Das Hotel ist zu teuer.\" \"Ganz\" is tricky: unstressed, \"ganz gut\" means pretty good, quite good; stressed, \"ganz neu\" means completely new.",
-          "Coming later (A2): before a noun, adjectives do take endings: \"ein großes Haus\" (a big house). For now, just recognise them; after sein you never need them.",
+          "Coming later, at the Elementary level: before a noun, adjectives do take endings: \"ein großes Haus\" (a big house). For now, just recognise them; after sein you never need them.",
         ],
         examples: [
           { es: "Das Hotel ist zu teuer.", en: "The hotel is too expensive." },
           { es: "Der Film ist ziemlich lang.", en: "The film is quite long." },
           { es: "Das Essen ist ganz gut.", en: "The food is pretty good." },
           { es: "Die Lehrerin ist sehr freundlich.", en: "The teacher is very friendly." },
-          { es: "Das ist ein großes Haus.", en: "That's a big house. (adjective ending: A2)" },
+          { es: "Das ist ein großes Haus.", en: "That's a big house. (adjective ending: Elementary level)" },
         ],
         checkpoint: [
           {

@@ -2818,7 +2818,7 @@ export const FR_C1_U08: Lesson[] = [
     slug: "c1-spiral-core-verbs-c1",
     level: "FR-C1",
     number: 14,
-    title: "Spiral Review: Core Verbs at the Advanced level Level",
+    title: "Spiral Review: Core Verbs at the Advanced Level",
     summary: "Être, avoir and faire idioms combined with the passive and impersonal constructions from unit 5.",
     duration: "18 min",
     sections: [

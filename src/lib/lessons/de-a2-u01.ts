@@ -15,7 +15,7 @@ export const DE_A2_U01: Lesson[] = [
         heading: "One German past for three English ones",
         body: [
           "English has several ways to talk about the past: I made, I have made, I did make. Spoken German mostly uses just one, the Perfekt: \"ich habe gemacht\". It covers all three, so you never need a separate word for did in questions or negatives.",
-          "The Perfekt has two parts: a form of \"haben\" in the present (\"ich habe\", \"du hast\", \"er hat\"...) and the past participle (\"gemacht\", \"gekauft\", \"gespielt\"). You already know \"haben\" from A1; now it works as a helper verb, like English have in I have made.",
+          "The Perfekt has two parts: a form of \"haben\" in the present (\"ich habe\", \"du hast\", \"er hat\"...) and the past participle (\"gemacht\", \"gekauft\", \"gespielt\"). You already know \"haben\" from the Beginner level; now it works as a helper verb, like English have in I have made.",
           "Don't be misled by the look of it: \"Ich habe Pizza gemacht\" is the normal way to say I made pizza last night, even with a time word like \"gestern\" (yesterday). English would never say I have made pizza yesterday, but German happily does.",
         ],
         examples: [
@@ -468,7 +468,7 @@ export const DE_A2_U01: Lesson[] = [
       {
         heading: "Time first: verb still second",
         body: [
-          "German often starts with a time word: \"Gestern\", \"Am Samstag\", \"Letzte Woche\". The rule from A1 still applies: the conjugated verb, here the auxiliary, stays in position 2, so the subject moves after it: \"Gestern habe ich Pizza gemacht.\"",
+          "German often starts with a time word: \"Gestern\", \"Am Samstag\", \"Letzte Woche\". The rule from the Beginner level still applies: the conjugated verb, here the auxiliary, stays in position 2, so the subject moves after it: \"Gestern habe ich Pizza gemacht.\"",
           "*Gestern ich habe Pizza gemacht* is the English-order slip. Count the time phrase as one block, however long it is: \"Am Samstagabend\" is position 1, \"habe\" is position 2.",
           "The participle doesn't care what's at the front: it's always last.",
         ],
@@ -842,7 +842,7 @@ export const DE_A2_U01: Lesson[] = [
         body: [
           "Yes/no questions start with the auxiliary: \"Hast du gekocht?\" (Did you cook? / Have you cooked?). W-questions start with the question word, then the auxiliary: \"Was hast du gemacht?\", \"Wann hast du ihn gefragt?\", \"Wo habt ihr gewohnt?\", \"Wie lange hast du gewartet?\"",
           "The participle still goes last. English needs did; German just uses the Perfekt.",
-          "\"Was hast du am Wochenende gemacht?\" is probably the most useful A2 sentence there is: you'll hear it every Monday.",
+          "\"Was hast du am Wochenende gemacht?\" is probably the most useful Elementary sentence there is: you'll hear it every Monday.",
         ],
         examples: [
           { es: "Hast du schon gekocht?", en: "Have you cooked yet?" },
@@ -1708,7 +1708,7 @@ export const DE_A2_U01: Lesson[] = [
         source: "Yesterday Ayşe listened to music with her sister.",
         answer: "Gestern hat Ayşe mit ihrer Schwester Musik gehört.",
         altAnswers: ["Ayşe hat gestern mit ihrer Schwester Musik gehört.", "Gestern hat Ayşe Musik mit ihrer Schwester gehört."],
-        explanation: "\"Mit ihrer Schwester\" (dative after mit, from A1) inside the bracket.",
+        explanation: "\"Mit ihrer Schwester\" (dative after mit, from the Beginner level) inside the bracket.",
       },
       {
         type: "multiple-choice",

@@ -14,7 +14,7 @@ export const DE_C1_U01: Lesson[] = [
       {
         heading: "Käme, ginge, bliebe: the synthetic forms of strong verbs",
         body: [
-          "Up to B2 you have mostly built the Konjunktiv II in two ways: the one-word forms of a handful of verbs (\"wäre\", \"hätte\", \"könnte\", \"müsste\", \"dürfte\", \"sollte\", \"wollte\") and \"würde\" + infinitive for everything else. Educated German, written and spoken, uses a wider set of one-word (synthetic) forms. Recognising and using them is one of the clearest markers of C1 German.",
+          "Up to the Upper-intermediate level you have mostly built the Konjunktiv II in two ways: the one-word forms of a handful of verbs (\"wäre\", \"hätte\", \"könnte\", \"müsste\", \"dürfte\", \"sollte\", \"wollte\") and \"würde\" + infinitive for everything else. Educated German, written and spoken, uses a wider set of one-word (synthetic) forms. Recognising and using them is one of the clearest markers of Advanced German.",
           "The recipe for strong verbs: take the Präteritum stem, add an umlaut where possible, and add the endings \"-e, -est, -e, -en, -et, -en\". \"Kommen\" → \"kam\" → \"käme\"; \"gehen\" → \"ging\" → \"ginge\" (no vowel to umlaut); \"bleiben\" → \"blieb\" → \"bliebe\"; \"finden\" → \"fand\" → \"fände\"; \"geben\" → \"gab\" → \"gäbe\"; \"nehmen\" → \"nahm\" → \"nähme\"; \"lassen\" → \"ließ\" → \"ließe\"; \"tun\" → \"tat\" → \"täte\".",
           "The ones you will hear and read constantly are \"käme\", \"ginge\", \"gäbe\", \"fände\", \"bliebe\", \"ließe\" and \"täte\" (mainly in \"es täte mir leid\" and \"das täte gut\"). \"Es gäbe\" (there would be) is far more common than \"es würde geben\", and \"ich fände es gut\" is the standard way to say I would think it's good.",
           "Why bother when \"würde\" exists? Because with these verbs the synthetic form is shorter, more elegant and in many fixed contexts simply the normal form: \"Wie wäre es, wenn wir morgen kämen?\", \"Das ginge auch\" (That would work too), \"Wenn es nur so einfach ginge!\".",
@@ -104,7 +104,7 @@ export const DE_C1_U01: Lesson[] = [
           "With weak (regular) verbs the synthetic Konjunktiv II looks exactly like the Präteritum: \"wenn ich ein Auto kaufte\" could mean if I bought (hypothetical) or when I bought (past). To avoid this ambiguity German uses \"würde\" + infinitive: \"Wenn ich ein Auto kaufen würde, ...\". So for \"kaufen, machen, sagen, arbeiten, wohnen\" and most other weak verbs, \"würde\" is the normal choice.",
           "Many strong verbs also sound stiff or old-fashioned in their synthetic form, especially in speech: \"ich flöge\", \"ich schriebe\", \"ich läse\", \"ich tränke\". Here too, \"würde fliegen / schreiben / lesen\" is standard.",
           "The opposite trap is the English one: would pushes English speakers to use \"würde\" everywhere. With \"sein\", \"haben\", \"wissen\" and the modal verbs, \"würde\" + infinitive sounds clumsy or wrong: say \"ich wäre\", \"ich hätte\", \"ich wüsste\", \"ich könnte\", never \"ich würde sein / haben / wissen / können\".",
-          "A rule of thumb for C1: sein, haben, the modals and wissen always synthetic; kommen, gehen, geben, finden, bleiben, lassen, tun and brauchen usually synthetic; weak verbs and rarer strong verbs with \"würde\". Both are possible in a wenn-clause, but avoid stacking \"würde\" in both halves in careful writing.",
+          "A rule of thumb for the Advanced level: sein, haben, the modals and wissen always synthetic; kommen, gehen, geben, finden, bleiben, lassen, tun and brauchen usually synthetic; weak verbs and rarer strong verbs with \"würde\". Both are possible in a wenn-clause, but avoid stacking \"würde\" in both halves in careful writing.",
         ],
         examples: [
           { es: "Wenn ich mehr verdienen würde, würde ich mir ein E-Bike kaufen.", en: "If I earned more, I'd buy an e-bike." },
@@ -393,7 +393,7 @@ export const DE_C1_U01: Lesson[] = [
         body: [
           "In everyday speech many Germans use the indicative after \"als ob\": \"Du tust so, als ob ich das nicht weiß.\" It is accepted in informal speech, especially when the speaker isn't sure the comparison is unreal. In writing and in any formal context, use the Konjunktiv II.",
           "In newspapers and literature you will also meet the Konjunktiv I: \"Er tat, als sei er der Chef\", \"als habe er nichts gewusst\". It is a perfectly correct, slightly more distanced and literary variant. Konjunktiv I comes back in Parts 5 and 6.",
-          "For your own production at C1: Konjunktiv II is always safe; recognise the other two when you read or hear them.",
+          "For your own production at the Advanced level: Konjunktiv II is always safe; recognise the other two when you read or hear them.",
         ],
         examples: [
           { es: "Du tust so, als ob ich das nicht weiß.", en: "You act as if I don't know that. (casual speech)" },
@@ -566,7 +566,7 @@ export const DE_C1_U01: Lesson[] = [
         heading: "Hätte kommen können vs könnte gekommen sein",
         body: [
           "With modal verbs, two structures look alike but mean different things. \"Er hätte kommen können\" is the past Konjunktiv II of \"können\": he could have come (it was possible, but he didn't). It talks about an unreal possibility in the past.",
-          "\"Er könnte gekommen sein\" is the Konjunktiv II of \"können\" in its subjective meaning (supposition, from B2) + a past infinitive: he might have come (I'm guessing now about the past; perhaps he did). It is a present guess about a past event.",
+          "\"Er könnte gekommen sein\" is the Konjunktiv II of \"können\" in its subjective meaning (supposition, from the Upper-intermediate level) + a past infinitive: he might have come (I'm guessing now about the past; perhaps he did). It is a present guess about a past event.",
           "Test: can you add 'but he didn't'? Then it's \"hätte ... können\". Can you add 'I'm not sure'? Then it's \"könnte ... sein / haben\". The same pair exists with other modals: \"Sie hätte es wissen müssen\" (she should have known, reproach) vs \"Sie müsste es gewusst haben\" (she must have known, I assume).",
         ],
         examples: [
@@ -1808,7 +1808,7 @@ export const DE_C1_U01: Lesson[] = [
       {
         heading: "The forms: infinitive stem + e",
         body: [
-          "At B2 you learned the Konjunktiv I for indirect speech, mainly in the third person: \"Sie sagt, sie habe keine Zeit.\" Now the full system. The Konjunktiv I is built from the infinitive stem + the endings \"-e, -est, -e, -en, -et, -en\": \"kommen\" → \"ich komme, du kommest, er komme, wir kommen, ihr kommet, sie kommen\".",
+          "At the Upper-intermediate level you learned the Konjunktiv I for indirect speech, mainly in the third person: \"Sie sagt, sie habe keine Zeit.\" Now the full system. The Konjunktiv I is built from the infinitive stem + the endings \"-e, -est, -e, -en, -et, -en\": \"kommen\" → \"ich komme, du kommest, er komme, wir kommen, ihr kommet, sie kommen\".",
           "There are no vowel changes: \"er gebe\" (not gibt), \"er fahre\" (not fährt), \"er nehme\", \"er wisse\", \"er könne\", \"er müsse\", \"er wolle\". Modals keep their infinitive vowel: \"er könne, er dürfe, er möge\".",
           "\"Sein\" is the exception and the most useful verb: \"ich sei, du sei(e)st, er sei, wir seien, ihr seiet, sie seien\". \"Werden\" gives \"er werde\" (used for the future: \"er werde kommen\").",
         ],
@@ -2140,7 +2140,7 @@ export const DE_C1_U01: Lesson[] = [
         body: [
           "Several everyday idioms are frozen Konjunktiv I: \"koste es, was es wolle\" (whatever it takes, at any cost), \"wie dem auch sei\" (be that as it may), \"sei’s drum\" (never mind, so be it), \"sei es ... sei es\" (whether ... or), \"es sei denn\" (unless; much more in Unit 2).",
           "\"Seien Sie unbesorgt\" (Don't worry; formal), \"Sei’s drum\" (casual). \"Es sei denn\" is followed by a main clause: \"Wir gehen wandern, es sei denn, es regnet.\"",
-          "These are high-frequency in educated speech and writing; using them correctly signals C1 level.",
+          "These are high-frequency in educated speech and writing; using them correctly signals an Advanced level.",
         ],
         examples: [
           { es: "Wir müssen das Projekt retten, koste es, was es wolle.", en: "We have to save the project, whatever it takes." },
@@ -2481,14 +2481,14 @@ export const DE_C1_U01: Lesson[] = [
     slug: "c1-spiral-konjunktiv-b2-c1",
     level: "DE-C1",
     number: 12,
-    title: "Spiral Review: The Konjunktiv from B2 to C1",
-    summary: "Mix B2 hätte ... sollen, regrets, indirect speech and als ob with C1 synthetic forms, verb-first conditions, fast + Konjunktiv II and Konjunktiv I formulas in real messages.",
+    title: "Spiral Review: The Konjunktiv from Upper-Intermediate to Advanced",
+    summary: "Mix Upper-intermediate hätte ... sollen, regrets, indirect speech and als ob with Advanced synthetic forms, verb-first conditions, fast + Konjunktiv II and Konjunktiv I formulas in real messages.",
     duration: "18 min",
     sections: [
       {
-        heading: "Regrets and reproaches, now with C1 forms",
+        heading: "Regrets and reproaches, now with Advanced forms",
         body: [
-          "From B2: \"Ich hätte früher anfangen sollen\" (I should have started earlier), \"Du hättest mir Bescheid sagen können\" (You could have let me know), \"Wenn ich doch nur ...!\" (If only I had ...!). Now combine them with this unit's tools: verb-first wishes (\"Hätte ich doch nur früher angefangen!\"), \"fast\" for a near miss, and synthetic forms.",
+          "From the Upper-intermediate level: \"Ich hätte früher anfangen sollen\" (I should have started earlier), \"Du hättest mir Bescheid sagen können\" (You could have let me know), \"Wenn ich doch nur ...!\" (If only I had ...!). Now combine them with this unit's tools: verb-first wishes (\"Hätte ich doch nur früher angefangen!\"), \"fast\" for a near miss, and synthetic forms.",
           "Wish sentences without wenn put the verb first and need \"doch\" and/or \"nur\": \"Wäre ich bloß zu Hause geblieben!\" (If only I'd stayed at home!). Present wishes: \"Wüsste ich nur, was er denkt!\"",
           "A message from Jonas after a bad day: „Hätte ich bloß den früheren Zug genommen! Ich wäre fast zu spät zum Vorstellungsgespräch gekommen. Ich hätte mich besser vorbereiten sollen.“",
         ],

@@ -1801,7 +1801,7 @@ export const DE_B1_U05: Lesson[] = [
     slug: "b1-vocabulary-practice-2",
     level: "DE-B1",
     number: 10,
-    title: "B1 Vocabulary Practice, Part 2 of 10",
+    title: "Intermediate Vocabulary Practice, Part 2 of 10",
     summary: "Housing, moving, furniture and household appliances, with genders and plurals.",
     duration: "15 min",
     sections: [

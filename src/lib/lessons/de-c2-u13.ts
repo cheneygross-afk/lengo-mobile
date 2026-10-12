@@ -104,7 +104,7 @@ export const DE_C2_U13: Lesson[] = [
         body: [
           "The Schlussfolgerung pulls the argument together. Formulas: \"Daraus folgt, dass ...\" (it follows that), \"Daraus lässt sich schließen, dass ...\", \"Folglich ...\", \"Insgesamt zeigt sich, dass ...\", \"Abschließend lässt sich festhalten, dass ...\", \"Alles in allem ...\".",
           "\"Folglich\", \"somit\" and \"demnach\" are adverbs (position 1, verb next). \"Daraus folgt\" is a main clause whose subject is the dass-clause. In speech, a debate conclusion often ends with an appeal: \"Deshalb sollten wir ...\", \"Es ist an der Zeit, ...\".",
-          "At C2 avoid announcing a conclusion you then don't draw. \"Zusammenfassend lässt sich sagen\" must be followed by a genuinely condensed claim, not by a new argument.",
+          "At the Mastery level avoid announcing a conclusion you then don't draw. \"Zusammenfassend lässt sich sagen\" must be followed by a genuinely condensed claim, not by a new argument.",
         ],
         examples: [
           { es: "Daraus folgt, dass wir umdenken müssen.", en: "It follows that we have to rethink." },

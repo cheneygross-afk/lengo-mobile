@@ -2093,7 +2093,7 @@ export const FR_C2_U33: Lesson[] = [
     slug: "c2-mastery-exam",
     level: "FR-C2",
     number: 10,
-    title: "Mastery Mastery Exam (DALF C2-Style)",
+    title: "Mastery Exam (DALF C2-Style)",
     summary: "A final exam in the spirit of the DALF C2: listening and reading comprehension, an oral exposé and debate, a structured text written from a dossier, and precision in vocabulary, register and phraseology. Aim for 70% or more.",
     duration: "20 min",
     sections: [

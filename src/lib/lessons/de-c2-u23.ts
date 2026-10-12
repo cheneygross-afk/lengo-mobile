@@ -2644,7 +2644,7 @@ export const DE_C2_U23: Lesson[] = [
         heading: "Opening and summarising: indirect speech",
         body: [
           "A mediation in a Cologne shared flat (\"WG\"): Jonas and Mia are in conflict over cleaning and guests; their flatmate Lena mediates. After both have spoken, Lena summarises neutrally. In a formal setting she would use Konjunktiv I (\"Jonas sagt, er habe das Gefühl, allein zu putzen\"), but among friends Konjunktiv I sounds stiff. More natural: \"Jonas, du sagst, du hättest das Gefühl, dass du allein putzt\", or simply the indicative with \"dass\".",
-          "The register choice is part of C2: Konjunktiv I (\"er habe\", \"sie sei\") in formal mediation, minutes and reports; Konjunktiv II or indicative in everyday mediation between friends. All three are grammatical; the effect differs.",
+          "The register choice is part of the Mastery level: Konjunktiv I (\"er habe\", \"sie sei\") in formal mediation, minutes and reports; Konjunktiv II or indicative in everyday mediation between friends. All three are grammatical; the effect differs.",
           "Lena: \"Mia, wenn ich dich richtig verstehe, geht es dir weniger ums Putzen als darum, dass deine Freunde hier willkommen sind.\" Note \"weniger um ... als darum, dass ...\": it reframes the issue from position to interest.",
         ],
         examples: [
@@ -2837,7 +2837,7 @@ export const DE_C2_U23: Lesson[] = [
     slug: "c2-vocab-medicine-press",
     level: "DE-C2",
     number: 15,
-    title: "C2 Vocabulary: Medicine in the Press",
+    title: "Mastery Vocabulary: Medicine in the Press",
     summary: "Read German health news: Gesundheitswesen, Pflegenotstand, Fallpauschale, Impfquote, Wartezeit, Bürgerversicherung, Zusatzbeitrag, and the hedging of Studie zeigt / legt nahe.",
     duration: "16 min",
     sections: [

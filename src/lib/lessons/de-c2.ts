@@ -80,7 +80,7 @@ const UNITS: GermanUnitDef[] = [
   { id: "u30", title: "Art, Film & Literary Criticism", description: "Can analyse and evaluate literature, film and art in the language of German criticism and write a concise review.", lessons: DE_C2_U30, writing: DE_C2_U30_WRITING },
   { id: "u31", title: "Business & Economics", description: "Can analyse economic news, company results and market developments, and write precise business reports and emails in German.", lessons: DE_C2_U31, extra: DE_C2_U31_EXTRA, writing: DE_C2_U31_WRITING },
   { id: "u32", title: "Creative Writing", description: "Can write short fiction and creative texts in German with control of tense, perspective, dialogue and imagery, and revise them with an editor's eye.", lessons: DE_C2_U32, writing: DE_C2_U32_WRITING },
-  { id: "u33", title: "Mastery Review & Goethe C2-Style Exam", description: "Can bring together the grammar, registers and phraseology of the C1 and C2 levels under exam conditions and pass a Goethe-Zertifikat C2 (GDS)-style mastery exam.", lessons: DE_C2_U33, writing: DE_C2_U33_WRITING },
+  { id: "u33", title: "Mastery Review & Goethe C2-Style Exam", description: "Can bring together the grammar, registers and phraseology of the Advanced and Mastery levels under exam conditions and pass a Goethe-Zertifikat C2 (GDS)-style mastery exam.", lessons: DE_C2_U33, writing: DE_C2_U33_WRITING },
 ];
 
 const LEVEL = buildGermanLevel("C2", UNITS);

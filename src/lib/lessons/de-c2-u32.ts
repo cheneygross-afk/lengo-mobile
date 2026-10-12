@@ -1516,7 +1516,7 @@ export const DE_C2_U32: Lesson[] = [
     slug: "c2-vocab-philosophy-thought",
     level: "DE-C2",
     number: 8,
-    title: "C2 Vocabulary: Philosophy and Thought",
+    title: "Mastery Vocabulary: Philosophy and Thought",
     summary: "The verbs and nouns of thinking, used precisely: erwägen, sinnieren, grübeln, reflektieren, nachdenken über vs denken an, and Gedankengang, Einsicht, Erkenntnis and Überlegung.",
     duration: "16 min",
     sections: [
@@ -1824,7 +1824,7 @@ export const DE_C2_U32: Lesson[] = [
         heading: "Bringen",
         body: [
           "\"Bringen\" forms many Funktionsverbgefüge, where the noun carries the meaning: \"zum Ausdruck bringen\" (express), \"zur Sprache bringen\" (bring up, raise a topic), \"in Erfahrung bringen\" (find out), \"in Verbindung bringen mit\" (associate with), \"zum Abschluss bringen\" (complete), \"in Ordnung bringen\" (sort out), \"auf den Punkt bringen\" (sum up precisely).",
-          "They are more formal than the simple verbs: \"zum Ausdruck bringen\" = \"ausdrücken\", \"in Erfahrung bringen\" = \"herausfinden\". In written German and at C2 they show command of register; in speech, overusing them sounds like Amtsdeutsch.",
+          "They are more formal than the simple verbs: \"zum Ausdruck bringen\" = \"ausdrücken\", \"in Erfahrung bringen\" = \"herausfinden\". In written German and at the Mastery level they show command of register; in speech, overusing them sounds like Amtsdeutsch.",
           "Colloquially \"bringen\" alone means to be useful (\"Das bringt nichts\": that's pointless) or to manage (\"Sie hat es weit gebracht\": she has come a long way).",
         ],
         examples: [

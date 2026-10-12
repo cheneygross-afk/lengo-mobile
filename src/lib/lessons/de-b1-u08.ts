@@ -1061,7 +1061,7 @@ export const DE_B1_U08: Lesson[] = [
         body: [
           "In writing (and in slightly formal speech) you can leave out \"wenn\" and put the verb first instead: \"Hätte ich mehr Geld, würde ich ein Haus kaufen\" = \"Wenn ich mehr Geld hätte, ...\". English does the same in had I known... or should you need help....",
           "It works for real conditions too: \"Regnet es, bleiben wir zu Hause\" (If it rains, we stay at home), \"Haben Sie Fragen, rufen Sie uns an\" (Should you have any questions, call us). The main clause often adds \"dann\" or \"so\".",
-          "Past unreal conditions (if I had known: \"hätte ich gewusst\") are a B2 topic; for now stick to the present.",
+          "Past unreal conditions (if I had known: \"hätte ich gewusst\") are an Upper-intermediate topic; for now stick to the present.",
         ],
         examples: [
           { es: "Hätte ich mehr Geld, würde ich ein Haus kaufen.", en: "If I had more money, I'd buy a house." },

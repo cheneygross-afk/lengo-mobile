@@ -302,7 +302,7 @@ export const DE_C1_U18: Lesson[] = [
       {
         heading: "Transitions that turn the argument",
         body: [
-          "The turning point of a dialectical text needs a clear signal. The classic C1 transitions: \"Nachdem die Vorteile dargelegt wurden, sollen nun die Nachteile betrachtet werden.\" (Having set out the advantages, let us now consider the disadvantages.) \"Dem steht entgegen, dass ...\" (This is countered by the fact that ...). \"Demgegenüber ...\", \"Auf der anderen Seite ...\", \"Gegen ... spricht allerdings, dass ...\".",
+          "The turning point of a dialectical text needs a clear signal. The classic Advanced transitions: \"Nachdem die Vorteile dargelegt wurden, sollen nun die Nachteile betrachtet werden.\" (Having set out the advantages, let us now consider the disadvantages.) \"Dem steht entgegen, dass ...\" (This is countered by the fact that ...). \"Demgegenüber ...\", \"Auf der anderen Seite ...\", \"Gegen ... spricht allerdings, dass ...\".",
           "\"Dem steht entgegen\" is worth learning as a block: \"dem\" is the demonstrative referring back to the previous argument, in the dative because \"entgegenstehen\" takes the dative; the subject is the dass-clause. \"Dem steht jedoch entgegen, dass die Kosten erheblich sind.\"",
           "Inside each side, connect with \"zudem\", \"darüber hinaus\", \"hinzu kommt, dass ...\" (in addition there's the fact that) and \"nicht zuletzt\". \"Hinzu kommt\" is another useful block: \"Hinzu kommt, dass viele Familien kein Auto besitzen.\"",
         ],
@@ -464,7 +464,7 @@ export const DE_C1_U18: Lesson[] = [
         heading: "The Fragestellung",
         body: [
           "After the lead-in comes the question your text will answer. Typical forms: \"Inwiefern ...?\" (to what extent), \"Ist es sinnvoll, ...?\", \"Welche Vor- und Nachteile hat ...?\", or as a statement: \"Es stellt sich daher die Frage, ob ...\" or \"Daraus ergibt sich die Frage, inwieweit ...\".",
-          "\"Inwiefern\" and \"inwieweit\" are the C1 words here: they ask to what extent something is true, inviting a nuanced answer instead of a yes or no. \"Inwiefern trägt das Homeoffice zur Gleichberechtigung bei?\"",
+          "\"Inwiefern\" and \"inwieweit\" are the Advanced words here: they ask to what extent something is true, inviting a nuanced answer instead of a yes or no. \"Inwiefern trägt das Homeoffice zur Gleichberechtigung bei?\"",
           "In indirect form (\"Es stellt sich die Frage, ob ...\") the verb goes to the end and there is no question mark. In direct form it's a real question with the verb first or after the question word: \"Ist es sinnvoll, ein Tempolimit einzuführen?\"",
         ],
         examples: [
@@ -1695,7 +1695,7 @@ export const DE_C1_U18: Lesson[] = [
       {
         heading: "From over-hedged back to clear",
         body: [
-          "The opposite problem is just as common in C1 essays: a text so full of \"vielleicht\", \"eventuell\", \"möglicherweise\" and \"könnte\" that it says nothing. \"Es könnte unter Umständen eventuell sein, dass die Mieten möglicherweise steigen\" contains four hedges for one weak claim. Keep one: \"Die Mieten dürften steigen.\"",
+          "The opposite problem is just as common in Advanced essays: a text so full of \"vielleicht\", \"eventuell\", \"möglicherweise\" and \"könnte\" that it says nothing. \"Es könnte unter Umständen eventuell sein, dass die Mieten möglicherweise steigen\" contains four hedges for one weak claim. Keep one: \"Die Mieten dürften steigen.\"",
           "When the evidence is solid, state it clearly: \"Die Daten zeigen eindeutig, dass ...\", \"Es steht außer Frage, dass ...\" (it is beyond question), \"Zweifellos ...\". Hedging everything makes a reader doubt the claims that are actually well supported.",
           "A good rule: hedge predictions and interpretations, state facts and your final position clearly. In the Schluss, \"Meines Erachtens überwiegen die Vorteile deutlich\" is better than \"Vielleicht könnten die Vorteile eventuell überwiegen.\"",
         ],
@@ -2293,7 +2293,7 @@ export const DE_C1_U18: Lesson[] = [
         heading: "Handling questions",
         body: [
           "After the presentation the examiners or your partner ask questions. Buy time politely: \"Das ist eine interessante Frage.\" \"Da muss ich kurz überlegen.\" Check understanding: \"Wenn ich Sie richtig verstanden habe, möchten Sie wissen, ob ...\" \"Meinen Sie damit, dass ...?\"",
-          "If you don't know the answer: \"Darüber habe ich mir ehrlich gesagt noch keine Gedanken gemacht, aber ich könnte mir vorstellen, dass ...\" This turns a gap into a hedged answer, which is exactly the C1 skill.",
+          "If you don't know the answer: \"Darüber habe ich mir ehrlich gesagt noch keine Gedanken gemacht, aber ich könnte mir vorstellen, dass ...\" This turns a gap into a hedged answer, which is exactly the Advanced skill.",
           "Asking a question yourself: \"Darf ich kurz nachfragen: ...?\", \"Sie haben vorhin erwähnt, dass ... Könnten Sie das noch etwas ausführen?\" (ausführen = to elaborate).",
         ],
         examples: [

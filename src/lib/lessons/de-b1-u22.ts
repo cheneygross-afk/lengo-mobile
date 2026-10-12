@@ -7,8 +7,8 @@ export const DE_B1_U22: Lesson[] = [
     slug: "b1-vocabulary-practice-8",
     level: "DE-B1",
     number: 1,
-    title: "B1 Vocabulary Practice, Part 8 of 10",
-    summary: "High-frequency B1 vocabulary for work, careers and the office: applying, contracts, meetings, deadlines and colleagues.",
+    title: "Intermediate Vocabulary Practice, Part 8 of 10",
+    summary: "High-frequency Intermediate vocabulary for work, careers and the office: applying, contracts, meetings, deadlines and colleagues.",
     duration: "15 min",
     sections: [
       {

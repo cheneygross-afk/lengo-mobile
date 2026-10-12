@@ -223,7 +223,7 @@ export const DE_B2_U02: Lesson[] = [
       {
         heading: "Du solltest vs du hättest ... sollen",
         body: [
-          "At B1 you learned advice: \"Du solltest mehr schlafen\" (you should sleep more). That's the Konjunktiv II present of \"sollen\" and refers to now or the future. Moving it into the past turns advice into reproach or regret: \"Du hättest mehr schlafen sollen\" (you should have slept more).",
+          "At the Intermediate level you learned advice: \"Du solltest mehr schlafen\" (you should sleep more). That's the Konjunktiv II present of \"sollen\" and refers to now or the future. Moving it into the past turns advice into reproach or regret: \"Du hättest mehr schlafen sollen\" (you should have slept more).",
           "The same pair exists for \"können\": \"Du könntest fragen\" (you could ask: a suggestion) vs \"Du hättest fragen können\" (you could have asked: a reproach). And for \"müssen\": \"Wir müssten mal wieder aufräumen\" (we really ought to tidy up) vs \"Wir hätten aufräumen müssen\" (we would have had to tidy up).",
           "Trap: \"du solltest\" looks like a past (and it is also the Präteritum!). \"Du solltest um acht kommen\" can mean you were supposed to come at eight. Context decides, but for a clear should have, always use \"hättest ... sollen\".",
         ],
@@ -476,7 +476,7 @@ export const DE_B2_U02: Lesson[] = [
         body: [
           "In a subordinate clause (after \"dass\", \"weil\", \"obwohl\"...), the conjugated verb normally goes to the very end. The double infinitive is the big exception: \"hätte\" goes in front of both infinitives. \"..., dass ich hätte anrufen sollen\" (that I should have called).",
           "So \"*..., dass ich anrufen sollen hätte\" is wrong, even though it follows the usual rule. You may hear \"..., dass ich anrufen hätte sollen\" in southern Germany and Austria, but the standard is \"hätte anrufen sollen\".",
-          "This is one of the strangest rules in German grammar, and even native speakers sometimes avoid it by rephrasing. But it's what you'll read in newspapers and need for B2 writing.",
+          "This is one of the strangest rules in German grammar, and even native speakers sometimes avoid it by rephrasing. But it's what you'll read in newspapers and need for Upper-intermediate writing.",
         ],
         examples: [
           { es: "Ich weiß, dass ich hätte anrufen sollen.", en: "I know that I should have called." },

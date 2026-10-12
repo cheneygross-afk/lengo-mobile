@@ -269,7 +269,7 @@ export const DE_C2_U30: Lesson[] = [
         body: [
           "\"Die Figurenkonstellation\" is the network of relationships between the figures: who is allied with whom, who stands against whom. German school essays often draw it as a diagram. \"Der Protagonist / die Protagonistin\" is the central figure, \"der Gegenspieler / die Gegenspielerin\" (or \"der Antagonist\") the opponent, \"die Nebenfigur\" a minor figure and \"die Titelfigur\" the one the work is named after.",
           "Figures \"entwickeln sich\" (develop), \"wachsen über sich hinaus\" (rise above themselves), \"scheitern an\" + dative (fail because of: \"Sie scheitert an den Erwartungen ihrer Familie\") or \"geraten in einen Konflikt\". The noun for their development is \"die Entwicklung\"; a figure who does not change is \"statisch\".",
-          "Note the weak masculine nouns: \"der Protagonist, den Protagonisten, dem Protagonisten, des Protagonisten\". Forgetting the -en is a C2 giveaway.",
+          "Note the weak masculine nouns: \"der Protagonist, den Protagonisten, dem Protagonisten, des Protagonisten\". Forgetting the -en is a Mastery-level giveaway.",
         ],
         examples: [
           { es: "Die Figurenkonstellation ist einfach: zwei Brüder, eine Frau, ein Hof.", en: "The constellation of characters is simple: two brothers, a woman, a farm." },
@@ -1346,7 +1346,7 @@ export const DE_C2_U30: Lesson[] = [
         heading: "The five moves of a short review",
         body: [
           "Your mission: a 150-word review for the culture page of a city magazine. At that length every sentence has a job. Use five moves: (1) \"der Einstieg\", a hook (a striking detail, a question, a paradox); (2) \"die Einordnung\", context in one sentence (author, earlier work, genre); (3) the plot or subject in two sentences, present tense; (4) \"die Bewertung\", strengths and weaknesses, with evidence; (5) \"das Fazit\", a one-line verdict the reader can act on.",
-          "Compression is the C2 skill here. Use participial attributes (\"Kehlmanns 2005 erschienener Roman\"), appositions (\"Juli Zeh, Juristin und Schriftstellerin, ...\"), and nominal phrases (\"nach dem Tod des Vaters\" instead of \"nachdem der Vater gestorben ist\"). Cut every \"ich finde\": the review is your opinion by definition.",
+          "Compression is the Mastery-level skill here. Use participial attributes (\"Kehlmanns 2005 erschienener Roman\"), appositions (\"Juli Zeh, Juristin und Schriftstellerin, ...\"), and nominal phrases (\"nach dem Tod des Vaters\" instead of \"nachdem der Vater gestorben ist\"). Cut every \"ich finde\": the review is your opinion by definition.",
           "Keep the tenses clean: the work in the present, its history (publication, premiere, prizes) in the Präteritum or Perfekt: \"Der Roman erschien 2016\" but \"Der Roman erzählt...\".",
         ],
         examples: [
@@ -1548,7 +1548,7 @@ export const DE_C2_U30: Lesson[] = [
     slug: "c2-vocab-headline-words",
     level: "DE-C2",
     number: 8,
-    title: "C2 Vocabulary: The Language of Headlines",
+    title: "Mastery Vocabulary: The Language of Headlines",
     summary: "Read and write German headlines: dropped articles and verbs, the present tense for past events, bare participles, and the punchy nouns of the press: Eklat, Debakel, Wende, Machtwort, Paukenschlag, Rückzieher, Zoff.",
     duration: "16 min",
     sections: [

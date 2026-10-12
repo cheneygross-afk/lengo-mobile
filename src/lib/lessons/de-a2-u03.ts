@@ -215,7 +215,7 @@ export const DE_A2_U03: Lesson[] = [
       {
         heading: "Bin, bist, ist",
         body: [
-          "The singular forms of \"sein\": \"ich bin gegangen\", \"du bist gegangen\", \"er/sie/es ist gegangen\". You know them from A1; the only new part is the participle at the end.",
+          "The singular forms of \"sein\": \"ich bin gegangen\", \"du bist gegangen\", \"er/sie/es ist gegangen\". You know them from the Beginner level; the only new part is the participle at the end.",
           "Unlike French, the German participle never agrees with the subject: \"sie ist gegangen\" and \"er ist gegangen\" are identical. No extra -e, no plural -s.",
         ],
         examples: [
@@ -603,7 +603,7 @@ export const DE_A2_U03: Lesson[] = [
       {
         heading: "Prefix + ge- + participle",
         body: [
-          "You know separable verbs from A1: \"Ich stehe um sieben auf\", \"Ich kaufe heute ein\". In the Perfekt, the prefix and the verb come back together at the end, with ge- squeezed in between: \"aufstehen\" → \"aufgestanden\", \"einkaufen\" → \"eingekauft\", \"anrufen\" → \"angerufen\".",
+          "You know separable verbs from the Beginner level: \"Ich stehe um sieben auf\", \"Ich kaufe heute ein\". In the Perfekt, the prefix and the verb come back together at the end, with ge- squeezed in between: \"aufstehen\" → \"aufgestanden\", \"einkaufen\" → \"eingekauft\", \"anrufen\" → \"angerufen\".",
           "Build it in two steps: make the participle of the base verb (\"stehen\" → \"gestanden\", \"kaufen\" → \"gekauft\", \"rufen\" → \"gerufen\"), then stick the prefix on the front: \"auf\" + \"gestanden\". It's written as one word.",
           "The base verb decides regular or strong: \"einkaufen\" is regular like \"kaufen\" (\"eingekauft\"); \"ankommen\" is strong like \"kommen\" (\"angekommen\"); \"fernsehen\" like \"sehen\" (\"ferngesehen\").",
         ],
@@ -1577,7 +1577,7 @@ export const DE_A2_U03: Lesson[] = [
     level: "DE-A2",
     number: 9,
     title: "Spiral Review: The Perfekt + Beginner Essentials",
-    summary: "Mix the Perfekt with haben and sein with A1 essentials: verb-second, the accusative, separable verbs, modals and the time.",
+    summary: "Mix the Perfekt with haben and sein with Beginner essentials: verb-second, the accusative, separable verbs, modals and the time.",
     duration: "13 min",
     sections: [
       {
@@ -1618,7 +1618,7 @@ export const DE_A2_U03: Lesson[] = [
         heading: "Accusative and time in the Perfekt",
         body: [
           "The accusative works the same in any tense: \"Ich habe einen Kaffee getrunken\", \"Hast du den Schlüssel gefunden?\", \"Wir haben keinen Tisch bekommen\". Only masculine nouns show it (den, einen, keinen).",
-          "Clock times from A1: \"um halb acht\" (7:30), \"um Viertel nach drei\" (3:15), \"um Viertel vor neun\" (8:45). \"Der Film hat um Viertel nach acht angefangen\" (the film started at 8:15).",
+          "Clock times from the Beginner level: \"um halb acht\" (7:30), \"um Viertel nach drei\" (3:15), \"um Viertel vor neun\" (8:45). \"Der Film hat um Viertel nach acht angefangen\" (the film started at 8:15).",
         ],
         examples: [
           { es: "Ich habe um halb acht einen Kaffee getrunken.", en: "I drank a coffee at half past seven." },

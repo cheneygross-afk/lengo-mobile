@@ -1393,7 +1393,7 @@ export const DE_C2_U14: Lesson[] = [
       {
         heading: "Scoring in Goethe C2 Sprechen Teil 2",
         body: [
-          "In the C2 oral exam, part 2 is a discussion with a partner on a controversial topic. Examiners assess how you develop arguments, react to your partner, and steer towards a result. They want to hear: clear positions, reasons with examples, reactions to what your partner actually said, polite disagreement, and an attempt at consensus.",
+          "In the Mastery-level oral exam, part 2 is a discussion with a partner on a controversial topic. Examiners assess how you develop arguments, react to your partner, and steer towards a result. They want to hear: clear positions, reasons with examples, reactions to what your partner actually said, polite disagreement, and an attempt at consensus.",
           "Useful moves: react (\"Da möchte ich direkt anknüpfen\", I'd like to pick up on that), ask (\"Wie sehen Sie das?\"), agree partially (\"insofern ... als\"), propose a compromise (\"Könnten wir uns darauf einigen, dass ...?\"), and summarise at the end (\"Wir sind uns also einig, dass ..., sehen aber ... unterschiedlich\").",
           "Common mistake: delivering prepared monologues. The exam rewards interaction: refer to your partner's words.",
         ],
@@ -1721,7 +1721,7 @@ export const DE_C2_U14: Lesson[] = [
     slug: "c2-vocab-intensifying-collocations",
     level: "DE-C2",
     number: 9,
-    title: "C2 Vocabulary: Intensifying Collocations",
+    title: "Mastery Vocabulary: Intensifying Collocations",
     summary: "The fixed adjective-noun pairs that intensify: heftige Kritik, scharfe Worte, tiefe Besorgnis, hohes Ansehen, krasser Gegensatz, bittere Enttäuschung, schwerer Fehler, große Resonanz.",
     duration: "16 min",
     sections: [

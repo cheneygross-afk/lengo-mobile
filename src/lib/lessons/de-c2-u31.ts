@@ -273,7 +273,7 @@ export const DE_C2_U31: Lesson[] = [
         body: [
           "The third version makes the cause the subject: \"Der Zinsanstieg führte dazu, dass weniger Wohnungen gebaut wurden\" or, fully nominal, \"Der Zinsanstieg führte zu einem Rückgang des Wohnungsbaus.\" \"Führen zu\" takes the dative; when what follows is a whole clause, German needs the pronominal adverb \"dazu\" + dass-clause.",
           "Other verbs work the same way: \"bewirken, dass...\" (bring about), \"zur Folge haben, dass...\" (result in), \"verursachen\" + accusative (cause), \"auslösen\" + accusative (trigger). From the effect's side: \"Der Rückgang ist auf den Zinsanstieg zurückzuführen\", \"Der Rückgang geht auf ... zurück\", \"Der Rückgang resultiert aus ...\" (+ dative).",
-          "This is the C2 skill the Goethe exam tests: say the same thing in a different structure without changing the meaning. Watch the ripple: every preposition brings its case (\"zu\" + dative, \"auf\" + accusative here, \"aus\" + dative).",
+          "This is the Mastery-level skill the Goethe exam tests: say the same thing in a different structure without changing the meaning. Watch the ripple: every preposition brings its case (\"zu\" + dative, \"auf\" + accusative here, \"aus\" + dative).",
         ],
         examples: [
           { es: "Der Zinsanstieg führte dazu, dass weniger Wohnungen gebaut wurden.", en: "The rise in interest rates meant that fewer flats were built." },
@@ -316,7 +316,7 @@ export const DE_C2_U31: Lesson[] = [
         body: [
           "To start from the cause and end with the result, use connectors of consequence. \"Sodass\" (also \"so dass\") is a subordinating conjunction: verb last. \"Weshalb\" and \"weswegen\" (which is why) are relative adverbs: verb last too. \"Folglich\", \"somit\", \"daher\", \"deshalb\" and \"infolgedessen\" are adverbs: they take the first position or sit after the verb, and the verb stays second.",
           "Compare: \"Die Kosten stiegen, sodass die Firma die Preise erhöhte\" / \"Die Kosten stiegen, weshalb die Firma die Preise erhöhte\" / \"Die Kosten stiegen; folglich erhöhte die Firma die Preise\" / \"Die Kosten stiegen. Die Firma erhöhte daher die Preise.\" Same content, four structures.",
-          "The most common C2 slip: putting the verb in the wrong place after \"folglich\" (\"folglich die Firma erhöhte\"): in German, an adverb in first position always pulls the verb into second.",
+          "The most common Mastery-level slip: putting the verb in the wrong place after \"folglich\" (\"folglich die Firma erhöhte\"): in German, an adverb in first position always pulls the verb into second.",
         ],
         examples: [
           { es: "Die Rohstoffpreise stiegen, sodass die Margen schrumpften.", en: "Raw material prices rose, so margins shrank." },
@@ -1176,7 +1176,7 @@ export const DE_C2_U31: Lesson[] = [
         heading: "The reply: concede, then push back",
         body: [
           "Demir: „Herr Richter hat insofern recht, als viele Fusionen scheitern. Aber hier liegt der Fall anders: Beide Häuser arbeiten seit Jahren zusammen, die Kulturen sind ähnlich. Und was die Kunden angeht: Ohne Investitionen in die Netze steigen die Preise ohnehin. Ein größeres Unternehmen kommt günstiger an Kapital.“ Becker: „Und Ihr Fazit?“ Demir: „Unter Auflagen, etwa dem Verkauf einiger Stadtwerke-Beteiligungen, halte ich die Fusion für sinnvoll.“ Richter: „Da sind wir gar nicht so weit auseinander. Mit strengen Auflagen könnte ich damit leben.“",
-          "\"Insofern recht haben, als...\" (be right insofar as) is the elegant C2 concession: it grants a limited point. \"Hier liegt der Fall anders\" (this case is different) turns it. \"Was ... angeht\" (as far as ... is concerned) introduces a new aspect. \"Ohnehin\" (anyway) neutralises the opponent's argument.",
+          "\"Insofern recht haben, als...\" (be right insofar as) is the elegant Mastery-level concession: it grants a limited point. \"Hier liegt der Fall anders\" (this case is different) turns it. \"Was ... angeht\" (as far as ... is concerned) introduces a new aspect. \"Ohnehin\" (anyway) neutralises the opponent's argument.",
           "The ending shows the German debating ideal of a reasonable consensus: \"Da sind wir gar nicht so weit auseinander\" (we're not so far apart there), \"damit könnte ich leben\" (I could live with that).",
         ],
         examples: [
@@ -1513,7 +1513,7 @@ export const DE_C2_U31: Lesson[] = [
     slug: "c2-vocab-literary-art-criticism",
     level: "DE-C2",
     number: 8,
-    title: "C2 Vocabulary: Literary and Art Criticism",
+    title: "Mastery Vocabulary: Literary and Art Criticism",
     summary: "Revisit the language of criticism in new contexts: Werk, Gattung, Epoche, Stilrichtung, Rezeption, Wirkung, Deutung, Interpretation and Ambivalenz, with their collocations and the traps around them.",
     duration: "16 min",
     sections: [
@@ -1557,7 +1557,7 @@ export const DE_C2_U31: Lesson[] = [
         body: [
           "\"Die Rezeption\" is how a work was received by readers, critics and later generations: \"Die Rezeption des Romans war zunächst verhalten\" (initially muted). It is not the reception desk of a hotel (that is also \"die Rezeption\", but context makes it clear). \"Die Wirkung\" is the effect a work has (\"die Wirkung auf den Leser\"), and \"die Wirkungsgeschichte\" its influence over time.",
           "Collocations: a work \"stößt auf Ablehnung\" (meets with rejection), \"findet großen Anklang\" (meets with great approval), \"löst eine Debatte aus\", \"erregt Aufsehen\" (causes a stir), \"gerät in Vergessenheit\" (falls into oblivion) and \"wird wiederentdeckt\" (is rediscovered).",
-          "\"Wirken\" as a verb has two uses at C2: to come across as (\"Das Bild wirkt bedrohlich\") and to have an effect or influence (\"Brechts Theater wirkt bis heute nach\": still has an effect today).",
+          "\"Wirken\" as a verb has two uses at the Mastery level: to come across as (\"Das Bild wirkt bedrohlich\") and to have an effect or influence (\"Brechts Theater wirkt bis heute nach\": still has an effect today).",
         ],
         examples: [
           { es: "Die Rezeption des Romans war zunächst verhalten.", en: "The novel's reception was initially muted." },

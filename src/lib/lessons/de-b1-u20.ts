@@ -625,7 +625,7 @@ export const DE_B1_U20: Lesson[] = [
         heading: "Partizip I: something happening now",
         body: [
           "The Partizip I is the infinitive + d: \"warten\" gives \"wartend\", \"steigen\" gives \"steigend\", \"kochen\" gives \"kochend\". Before a noun it takes adjective endings: \"der wartende Kunde\" (the waiting customer), \"die steigenden Preise\" (the rising prices), \"kochendes Wasser\" (boiling water).",
-          "The meaning is active and ongoing: the customer is waiting right now. Compare \"kochendes Wasser\" (water that is boiling) with \"gekochtes Wasser\" (water that has been boiled). At B1 keep these to one word before the noun; long participle phrases come later.",
+          "The meaning is active and ongoing: the customer is waiting right now. Compare \"kochendes Wasser\" (water that is boiling) with \"gekochtes Wasser\" (water that has been boiled). At the Intermediate level keep these to one word before the noun; long participle phrases come later.",
         ],
         examples: [
           { es: "Der wartende Kunde ist schon ungeduldig.", en: "The waiting customer is already impatient." },

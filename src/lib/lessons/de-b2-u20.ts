@@ -1954,7 +1954,7 @@ export const DE_B2_U20: Lesson[] = [
     level: "DE-B2",
     number: 11,
     title: "Upper-Intermediate Vocabulary Practice, Part 9 of 10",
-    summary: "Test the B2 vocabulary from Units 19-20: reviews, emotions, crafts, automation and art.",
+    summary: "Test the Upper-intermediate vocabulary from Units 19-20: reviews, emotions, crafts, automation and art.",
     duration: "15 min",
     sections: [
       {

@@ -557,7 +557,7 @@ export const DE_B1_U21: Lesson[] = [
         heading: "In speech: von + dative",
         body: [
           "Spoken German uses the genitive much less than written German. In conversation the usual way to say whose is \"von\" + dative: \"das Auto von meinem Bruder\", \"die Wohnung von Anna\", \"ein Freund von mir\". This is perfectly correct, not sloppy; it's just less formal.",
-          "In some cases \"von\" is the only option: when there's no article to show the genitive (\"der Preis von Äpfeln\" sounds better than *der Preis Äpfel*), and with pronouns (\"ein Freund von mir\", a friend of mine). In emails, reports and essays, though, use the genitive: it's what B1 exams expect in writing.",
+          "In some cases \"von\" is the only option: when there's no article to show the genitive (\"der Preis von Äpfeln\" sounds better than *der Preis Äpfel*), and with pronouns (\"ein Freund von mir\", a friend of mine). In emails, reports and essays, though, use the genitive: it's what Intermediate exams expect in writing.",
           "So you have three ways to talk about Anna's brother's car: written \"das Auto des Bruders von Anna\" or \"das Auto von Annas Bruder\", and spoken \"das Auto von Annas Bruder\" or \"das Auto vom Bruder von Anna\". Mixing a name genitive with \"von\" like this is very common.",
         ],
         examples: [
@@ -932,7 +932,7 @@ export const DE_B1_U21: Lesson[] = [
         heading: "Innerhalb, außerhalb and a few more",
         body: [
           "\"Innerhalb\" (within, inside) and \"außerhalb\" (outside) take the genitive for both time and place: \"innerhalb einer Woche\" (within a week), \"innerhalb der Stadt\", \"außerhalb der Öffnungszeiten\" (outside opening hours), \"Wir wohnen außerhalb der Stadt\".",
-          "Official German has many more genitive prepositions (\"aufgrund\", \"bezüglich\", \"laut\", \"infolge\"), and you'll see them in letters from your bank or landlord. At B1, recognise \"aufgrund\" (owing to: \"aufgrund des Streiks\") and \"laut\" (according to: \"laut des Berichts\", though \"laut dem Bericht\" is also common).",
+          "Official German has many more genitive prepositions (\"aufgrund\", \"bezüglich\", \"laut\", \"infolge\"), and you'll see them in letters from your bank or landlord. At the Intermediate level, recognise \"aufgrund\" (owing to: \"aufgrund des Streiks\") and \"laut\" (according to: \"laut des Berichts\", though \"laut dem Bericht\" is also common).",
           "When there's no article and nothing to show the genitive, these prepositions switch to \"von\" + dative: \"innerhalb von zwei Wochen\", \"außerhalb von Berlin\". That's why you'll hear \"innerhalb von drei Tagen\" much more than *innerhalb drei Tage*.",
         ],
         examples: [
@@ -967,7 +967,7 @@ export const DE_B1_U21: Lesson[] = [
         body: [
           "After an article, an adjective in the genitive always ends in -en: \"wegen des schlechten Wetters\", \"trotz der hohen Preise\", \"während eines langen Gesprächs\", \"innerhalb meiner ersten Woche\".",
           "With no article the adjective takes over the article's job, but in the masculine and neuter genitive it ends in -en anyway, because the noun's -s already shows the case: \"wegen starken Verkehrs\" (because of heavy traffic), \"trotz schlechten Wetters\". Feminine and plural without an article end in -er: \"trotz großer Probleme\", \"wegen hoher Kosten\".",
-          "Keep the noun ending as well: the masculine or neuter noun still needs its -s or -es (\"Verkehrs\", \"Wetters\"). Leaving it off is the most common mistake in written B1 German.",
+          "Keep the noun ending as well: the masculine or neuter noun still needs its -s or -es (\"Verkehrs\", \"Wetters\"). Leaving it off is the most common mistake in written Intermediate German.",
         ],
         examples: [
           { es: "Wegen des schlechten Wetters wurde das Spiel abgesagt.", en: "The match was called off because of the bad weather." },
@@ -1182,7 +1182,7 @@ export const DE_B1_U21: Lesson[] = [
         heading: "Set phrases: letzten Endes, meines Wissens",
         body: [
           "A few genitive phrases are frozen expressions that you'll meet in discussions and essays: \"letzten Endes\" (in the end, ultimately), \"meines Wissens\" (as far as I know), \"guter Laune sein\" (to be in a good mood), \"schlechter Laune sein\", and \"keinesfalls\" or \"jedenfalls\" (by no means, in any case), which grew out of genitives.",
-          "These are great for sounding more fluent in a B1 speaking or writing exam. \"Letzten Endes ist es deine Entscheidung\" (In the end it's your decision). \"Meines Wissens ist das Museum montags geschlossen\" (As far as I know the museum is closed on Mondays).",
+          "These are great for sounding more fluent in an Intermediate speaking or writing exam. \"Letzten Endes ist es deine Entscheidung\" (In the end it's your decision). \"Meines Wissens ist das Museum montags geschlossen\" (As far as I know the museum is closed on Mondays).",
           "In everyday speech \"soviel ich weiß\" is the more common alternative to \"meines Wissens\"; both are correct.",
         ],
         examples: [
@@ -1215,7 +1215,7 @@ export const DE_B1_U21: Lesson[] = [
       {
         heading: "Meiner Meinung nach: it looks genitive, but it's dative",
         body: [
-          "\"Meiner Meinung nach\" (in my opinion) is one of the most useful phrases at B1, and a trap. \"Nach\" here follows its noun and takes the dative, as \"nach\" always does. \"Meiner Meinung\" is dative feminine, which happens to look identical to the genitive.",
+          "\"Meiner Meinung nach\" (in my opinion) is one of the most useful phrases at the Intermediate level, and a trap. \"Nach\" here follows its noun and takes the dative, as \"nach\" always does. \"Meiner Meinung\" is dative feminine, which happens to look identical to the genitive.",
           "You can see it with other people: \"seiner Meinung nach\" (in his opinion), \"ihrer Meinung nach\" (in her or their opinion), \"nach Ansicht der Experten\" (according to the experts).",
           "The phrase fills position 1, so the verb comes next: \"Meiner Meinung nach ist das zu teuer\". *Meiner Meinung nach das ist zu teuer* is the classic English-speaker slip.",
         ],
@@ -1660,7 +1660,7 @@ export const DE_B1_U21: Lesson[] = [
         body: [
           "Reading official texts, you'll often want to say the same thing in a relaxed way. Go backwards: \"des\" → \"vom\" or \"von dem\", \"der\" (feminine) → \"von der\", \"der\" (plural) → \"von den\" + -n on the noun.",
           "Written: \"Die Öffnungszeiten der Bibliothek haben sich geändert.\" Spoken: \"Die Öffnungszeiten von der Bibliothek haben sich geändert.\" Written: \"Das Fahrrad des Jungen wurde gestohlen.\" Spoken: \"Das Fahrrad vom Jungen ist geklaut worden\" (\"klauen\" is the casual word for steal).",
-          "Both directions are B1 skills: understanding formal genitives, and not sounding like a newspaper when you chat.",
+          "Both directions are Intermediate skills: understanding formal genitives, and not sounding like a newspaper when you chat.",
         ],
         examples: [
           { es: "Die Öffnungszeiten der Bibliothek haben sich geändert.", en: "The library's opening hours have changed. (written)" },

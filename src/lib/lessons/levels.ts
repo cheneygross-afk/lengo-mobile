@@ -92,11 +92,13 @@ const SPANISH_WORDS = /\b(de|del|la|el|los|las|y|con|en|para|por|que|práctica|r
 
 /** Whether a title reads as English: by its function words, or, when
  * that's a tie, by the level's instruction language (English at A1/A2,
- * Spanish from B1 up). Japanese and Chinese titles are always English. */
+ * Spanish from B1 up). Japanese, Chinese, French and German titles are
+ * always English. */
 function isEnglishTitle(title: string, level: Lesson["level"]): boolean {
-  // The Japanese and Chinese courses are taught in English throughout, so
-  // their titles never take Spanish part numbering ("Parte 1 de 2").
-  if (level.startsWith("JA-") || level.startsWith("ZH-")) return true;
+  // The Japanese, Chinese, French and German courses are taught in English
+  // throughout, so their titles never take Spanish part numbering ("Parte 1
+  // de 2").
+  if (/^(?:JA|ZH|FR|DE)-/.test(level)) return true;
   const en = title.match(ENGLISH_WORDS)?.length ?? 0;
   const es = title.match(SPANISH_WORDS)?.length ?? 0;
   return en === es ? ENGLISH_TITLE_LEVELS.has(level) : en > es;
@@ -168,14 +170,16 @@ const TITLE_LEVEL_NAMES: Record<string, Record<string, string>> = {
   en: { A1: "Fundamentos", A2: "Ganando fluidez", B1: "Independencia", B2: "Intermedio alto", C1: "Avanzado", C2: "Maestría", "C1/C2": "Avanzado y Maestría" },
   zh: { A1: "Foundations", A2: "Everyday Chinese", B1: "Independent Chinese", B2: "Upper-Intermediate Chinese", C1: "Advanced Chinese", C2: "Proficient Chinese" },
   fr: { A1: "Beginner", A2: "Elementary", B1: "Intermediate", B2: "Upper-intermediate", C1: "Advanced", C2: "Mastery" },
+  de: { A1: "Beginner", A2: "Elementary", B1: "Intermediate", B2: "Upper-intermediate", C1: "Advanced", C2: "Mastery" },
 };
 
 /** A title with any CEFR codes replaced by the course's level names. */
 export function withoutLevelCodes(text: string, level: string, english = true): string {
-  const prefix = /^(EN|JA|ZH|FR)-/i.exec(level)?.[1].toLowerCase();
+  const prefix = /^(EN|JA|ZH|FR|DE)-/i.exec(level)?.[1].toLowerCase();
   const names = TITLE_LEVEL_NAMES[prefix ?? (english ? "es-en" : "es-es")];
-  // An exam's own name keeps its level: "DELF A1", "DALF C2", "DELE B2".
-  return text.replace(/(\b(?:DELF|DALF|DELE|SIELE)\s+)?\b(?:C1\/C2|[ABC][12])\b/g, (code, exam) =>
+  // An exam's own name keeps its level: "DELF A1", "DALF C2", "DELE B2",
+  // "Goethe-Zertifikat B1", "Goethe C2".
+  return text.replace(/(\b(?:DELF|DALF|DELE|SIELE|Goethe(?:-Zertifikat)?)[\s-]+)?\b(?:C1\/C2|[ABC][12])\b/g, (code, exam) =>
     exam ? code : (names[code] ?? code),
   );
 }

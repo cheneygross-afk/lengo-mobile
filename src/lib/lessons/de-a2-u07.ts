@@ -422,7 +422,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         heading: "Mir and dir",
         body: [
-          "The dative pronouns for I and you: \"mir\" (to me, me) and \"dir\" (to you, you: one friend). You've used them since A1 in chunks: \"Wie geht es dir?\" (How are you?, literally how goes it to you?) and \"Mir geht es gut\".",
+          "The dative pronouns for I and you: \"mir\" (to me, me) and \"dir\" (to you, you: one friend). You've used them since the Beginner level in chunks: \"Wie geht es dir?\" (How are you?, literally how goes it to you?) and \"Mir geht es gut\".",
           "Compare with the accusative: \"mich\" and \"dich\". Which one you need depends on the verb: \"helfen\" takes the dative (\"Kannst du mir helfen?\"), \"sehen\" takes the accusative (\"Siehst du mich?\").",
           "The pairs are easy to hear: m-ich / m-ir, d-ich / d-ir. The -r is the dative signal, just like in \"der\" for the feminine dative.",
         ],

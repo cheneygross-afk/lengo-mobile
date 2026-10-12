@@ -872,10 +872,10 @@ export const DE_A2_U21: Lesson[] = [
         heading: "Next year: werden, planen, möchten",
         body: [
           "For the future, mix three tools: the present with a time word (\"Nächsten Sommer fahre ich nach Wien\"), \"werden\" for firm plans and predictions (\"Ich werde die Prüfung machen\"), and wishes with \"möchte\" or \"ich will\" (\"Ich möchte besser Deutsch sprechen\").",
-          "Finish with a \"wenn\" clause: \"Wenn alles gut geht, mache ich im Mai die B1-Prüfung.\" The \"wenn\" clause counts as position 1, so the main verb follows it immediately: verb, comma, verb.",
+          "Finish with a \"wenn\" clause: \"Wenn alles gut geht, mache ich im Mai die Deutschprüfung.\" The \"wenn\" clause counts as position 1, so the main verb follows it immediately: verb, comma, verb.",
         ],
         examples: [
-          { es: "Nächstes Jahr werde ich die B1-Prüfung machen.", en: "Next year I'll take the B1 exam." },
+          { es: "Nächstes Jahr werde ich die Deutschprüfung machen.", en: "Next year I'll take the German exam." },
           { es: "Ich möchte besser Deutsch sprechen.", en: "I'd like to speak better German." },
           { es: "Im Sommer fahren wir nach Wien.", en: "We're going to Vienna in the summer." },
           { es: "Wenn alles gut geht, ziehen wir nach Hamburg.", en: "If all goes well, we'll move to Hamburg." },
@@ -1613,7 +1613,7 @@ export const DE_A2_U21: Lesson[] = [
         heading: "Perfekt → Präteritum: for sein, haben and modals",
         body: [
           "With \"sein\", \"haben\" and the modals, the natural past in speech is the Präteritum, a single word in position 2: \"Ich bin müde\" → \"Ich war müde\"; \"Wir haben Hunger\" → \"Wir hatten Hunger\"; \"Sie kann nicht kommen\" → \"Sie konnte nicht kommen\".",
-          "In written stories, every verb can go into the Präteritum: \"Mia fuhr mit dem Zug nach Köln\". Separable verbs split again: \"Er rief seine Mutter an\". At A2 you need to recognise these; producing them is mainly for sein, haben and the modals.",
+          "In written stories, every verb can go into the Präteritum: \"Mia fuhr mit dem Zug nach Köln\". Separable verbs split again: \"Er rief seine Mutter an\". At the Elementary level you need to recognise these; producing them is mainly for sein, haben and the modals.",
         ],
         examples: [
           { es: "Ich war gestern müde.", en: "I was tired yesterday." },

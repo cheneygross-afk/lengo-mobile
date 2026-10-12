@@ -17,7 +17,7 @@ export const DE_C1_U03: Lesson[] = [
           "Written German, from news to administration to academia, likes to express actions as nouns. The most productive way is the suffix \"-ung\" on the verb stem: \"untersuchen\" → \"die Untersuchung\", \"entwickeln\" → \"die Entwicklung\", \"erhöhen\" → \"die Erhöhung\", \"anmelden\" → \"die Anmeldung\", \"verspäten\" → \"die Verspätung\".",
           "Every -ung noun is feminine, with no exceptions, and the plural is always \"-ungen\". That makes them easy: \"die Lösung, die Lösungen\".",
           "-ung nouns can mean the action or its result: \"die Übersetzung\" is the act of translating or the translation (text). Often they come from verbs with prefixes (be-, ver-, er-, ent-, an-, ein-...), because simple verbs tend to use other forms (see stem nouns below).",
-          "Trap: not every verb has an -ung noun. You can't say \"*die Ankommung\" (arrival is \"die Ankunft\") or \"*die Verlierung\" (loss is \"der Verlust\"). When unsure, check a dictionary; inventing -ung nouns is a classic C1 learner error.",
+          "Trap: not every verb has an -ung noun. You can't say \"*die Ankommung\" (arrival is \"die Ankunft\") or \"*die Verlierung\" (loss is \"der Verlust\"). When unsure, check a dictionary; inventing -ung nouns is a classic Advanced learner error.",
         ],
         examples: [
           { es: "Die Untersuchung hat gezeigt, dass das Wasser sauber ist.", en: "The investigation showed that the water is clean." },
@@ -338,7 +338,7 @@ export const DE_C1_U03: Lesson[] = [
         body: [
           "Latin-based adjectives take \"-ität\" (feminine): \"stabil\" → \"die Stabilität\", \"aktiv\" → \"die Aktivität\", \"flexibel\" → \"die Flexibilität\", \"real\" → \"die Realität\". These are easy because English has the same words in -ity.",
           "\"-schaft\" (feminine) mostly attaches to nouns (\"die Freundschaft\") but also to some adjectives and participles: \"bereit\" → \"die Bereitschaft\" (willingness), \"verwandt\" → \"die Verwandtschaft\". \"-ismus\" is the one masculine suffix: \"real\" → \"der Realismus\", \"optimistisch\" → \"der Optimismus\".",
-          "B1 recap: adjectives can also become nouns directly, keeping their adjective endings: \"das Gute\" (the good thing), \"das Wichtigste\" (the most important thing), \"etwas Neues\" (something new), \"nichts Besonderes\", \"die Alte\" (the old woman).",
+          "Intermediate recap: adjectives can also become nouns directly, keeping their adjective endings: \"das Gute\" (the good thing), \"das Wichtigste\" (the most important thing), \"etwas Neues\" (something new), \"nichts Besonderes\", \"die Alte\" (the old woman).",
         ],
         examples: [
           { es: "Die Stabilität des Systems hat oberste Priorität.", en: "The stability of the system has top priority." },
@@ -1437,7 +1437,7 @@ export const DE_C1_U03: Lesson[] = [
       {
         heading: "Left attributes: the participle sandwich",
         body: [
-          "German packs information before the noun that English puts after it. From B2 you know the extended participial attribute: \"die im letzten Jahr gestiegene Zahl\" (the number that rose last year). Everything between the article and the noun belongs to the participle: \"die [im letzten Jahr deutlich gestiegene] Zahl\".",
+          "German packs information before the noun that English puts after it. From the Upper-intermediate level you know the extended participial attribute: \"die im letzten Jahr gestiegene Zahl\" (the number that rose last year). Everything between the article and the noun belongs to the participle: \"die [im letzten Jahr deutlich gestiegene] Zahl\".",
           "Partizip II = completed or passive (\"die gestern veröffentlichte Studie\": the study published yesterday). Partizip I = ongoing or active (\"die ständig steigenden Preise\": the constantly rising prices). Both take adjective endings.",
           "Reading strategy: 1. Find the article. 2. Jump forward to the noun it belongs to (the first noun whose gender and case match). 3. Read the participle just before the noun. 4. Then unpack the words in between as if they were a relative clause: \"die Zahl, die im letzten Jahr deutlich gestiegen ist\".",
         ],
@@ -1514,7 +1514,7 @@ export const DE_C1_U03: Lesson[] = [
         body: [
           "To build a noun phrase from a sentence: \"Die Zahl der Arbeitslosen ist im Mai leicht gesunken\" → \"die im Mai leicht gesunkene Zahl der Arbeitslosen\". The finite verb becomes a participle with an ending, adverbials move before it, and the subject becomes the head.",
           "To unpack, reverse the process: \"die von der Regierung geplante Erhöhung der Steuern\" → \"Die Regierung plant, die Steuern zu erhöhen\" or \"die Erhöhung der Steuern, die die Regierung plant\".",
-          "English almost always needs a relative clause or post-modifier: German left attributes are a major reading skill at C1, and a style choice in your own writing. Don't overload: two or three words before the participle are elegant; eight are a puzzle.",
+          "English almost always needs a relative clause or post-modifier: German left attributes are a major reading skill at the Advanced level, and a style choice in your own writing. Don't overload: two or three words before the participle are elegant; eight are a puzzle.",
         ],
         examples: [
           { es: "die im Mai leicht gesunkene Zahl der Arbeitslosen", en: "the number of unemployed, which fell slightly in May" },
@@ -1941,7 +1941,7 @@ export const DE_C1_U03: Lesson[] = [
         heading: "Nouns, empty verbs and Funktionsverbgefüge",
         body: [
           "Nominal style moves the meaning into a noun and uses a general verb to carry tense: \"Ich kann nicht persönlich vorsprechen\" → \"Eine persönliche Vorsprache ist mir nicht möglich.\" \"Kann ich das online machen?\" → \"Besteht die Möglichkeit einer Online-Ummeldung?\"",
-          "Typical carrier verbs: \"bestehen\" (Es besteht die Möglichkeit ...), \"erfolgen\" (Die Zahlung erfolgt per Überweisung), \"vornehmen\" (eine Änderung vornehmen), plus B2 Funktionsverbgefüge: \"in Anspruch nehmen\", \"zur Verfügung stellen\", \"in Kenntnis setzen\".",
+          "Typical carrier verbs: \"bestehen\" (Es besteht die Möglichkeit ...), \"erfolgen\" (Die Zahlung erfolgt per Überweisung), \"vornehmen\" (eine Änderung vornehmen), plus the Upper-intermediate Funktionsverbgefüge: \"in Anspruch nehmen\", \"zur Verfügung stellen\", \"in Kenntnis setzen\".",
           "The result is impersonal and objective, exactly what administrative German wants. But don't overdo it: one or two nominal constructions per sentence are enough.",
         ],
         examples: [
@@ -2425,7 +2425,7 @@ export const DE_C1_U03: Lesson[] = [
         body: [
           "Choose nominal style for: headlines, notices, reports, academic abstracts, official letters, forms. It is compact and impersonal.",
           "Choose verbal style for: emails to colleagues and customers, speech, instructions for the public, anything that should be easy to understand. It names who does what.",
-          "The C1 skill is switching: \"Nach erfolgter Anmeldung erhalten Sie eine Bestätigung\" (written notice) vs \"Wenn Sie sich angemeldet haben, bekommen Sie eine Bestätigung\" (email) vs \"Wenn du dich angemeldet hast, kriegst du eine Mail\" (chat).",
+          "The Advanced skill is switching: \"Nach erfolgter Anmeldung erhalten Sie eine Bestätigung\" (written notice) vs \"Wenn Sie sich angemeldet haben, bekommen Sie eine Bestätigung\" (email) vs \"Wenn du dich angemeldet hast, kriegst du eine Mail\" (chat).",
         ],
         examples: [
           { es: "Nach erfolgter Anmeldung erhalten Sie eine Bestätigung.", en: "After registering you will receive a confirmation. (notice)" },
@@ -2787,7 +2787,7 @@ export const DE_C1_U03: Lesson[] = [
     level: "DE-C1",
     number: 13,
     title: "Spiral Review: Nominal Style and Funktionsverbgefüge",
-    summary: "Recombine B2 Funktionsverbgefüge (zur Verfügung stellen, in Kraft treten, zur Sprache bringen) and the passive with this unit's nominalisations in an official notice.",
+    summary: "Recombine the Upper-intermediate Funktionsverbgefüge (zur Verfügung stellen, in Kraft treten, zur Sprache bringen) and the passive with this unit's nominalisations in an official notice.",
     duration: "17 min",
     sections: [
       {

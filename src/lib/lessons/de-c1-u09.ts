@@ -523,7 +523,7 @@ export const DE_C1_U09: Lesson[] = [
         body: [
           "\"Sprechen mit\" + dative is talk to or with someone; \"sprechen über\" + accusative is talk about a topic in some depth; \"sprechen von\" + dative is mention, talk of, often more in passing: \"Er hat von seiner Reise gesprochen\". In news German, \"von\" also means call something something: \"Die Polizei spricht von einem Unfall\".",
           "\"Kommen auf\" + accusative is hit on, think of an idea: \"Wie bist du auf die Idee gekommen?\", \"Ich komme nicht auf den Namen\" (I can't think of the name). \"Kommen um\" is lose, be deprived of: \"ums Leben kommen\" (die in an accident or disaster), \"um sein Geld kommen\". And \"zu sich kommen\" is come round, regain consciousness.",
-          "These are typical of C1: one preposition switch turns an everyday verb into a different meaning. Learn them as fixed expressions in a sentence.",
+          "These are typical of the Advanced level: one preposition switch turns an everyday verb into a different meaning. Learn them as fixed expressions in a sentence.",
         ],
         examples: [
           { es: "Ich muss dringend mit dir sprechen.", en: "I urgently need to talk to you." },
@@ -906,7 +906,7 @@ export const DE_C1_U09: Lesson[] = [
         body: [
           "A handful of verbs take a genitive object. They sound formal or literary, but you meet them in speeches, news and legal texts: \"gedenken\" (commemorate: \"der Opfer gedenken\"), \"bedürfen\" (require: \"Das bedarf einer Erklärung\"), \"sich schämen\" (be ashamed of: \"sich seiner Herkunft schämen\"; everyday: \"sich schämen für\"), \"sich bedienen\" (make use of), \"sich enthalten\" (abstain from: \"sich der Stimme enthalten\").",
           "Legal verbs take a person in the accusative and the matter in the genitive: \"jemanden eines Verbrechens beschuldigen / anklagen / verdächtigen / überführen\" (accuse, charge, suspect, convict someone of a crime). English of becomes a genitive, not \"von\".",
-          "In everyday speech most of these are replaced: \"brauchen\" for \"bedürfen\", \"sich schämen für\", \"erinnern an\" for \"gedenken\". At C1 you should recognise the genitive versions and use a few in writing.",
+          "In everyday speech most of these are replaced: \"brauchen\" for \"bedürfen\", \"sich schämen für\", \"erinnern an\" for \"gedenken\". At the Advanced level you should recognise the genitive versions and use a few in writing.",
         ],
         examples: [
           { es: "Am 9. November gedenkt die Stadt der Opfer.", en: "On 9 November the city commemorates the victims." },
@@ -2069,7 +2069,7 @@ export const DE_C1_U09: Lesson[] = [
         body: [
           "The Korrelat also introduces infinitive clauses when the subject is the same: \"Er hat sich daran gewöhnt, früh aufzustehen\" (he's got used to getting up early); \"Ich freue mich darauf, dich zu sehen\"; \"Sie denkt darüber nach, die Stelle zu wechseln\".",
           "And it introduces indirect questions with \"ob\" or a w-word: \"Es kommt darauf an, ob es regnet\" (it depends on whether it rains); \"Es hängt davon ab, wie viel es kostet\"; \"Wir haben darüber gesprochen, wer die Kinder abholt.\"",
-          "\"Es kommt darauf an\" (it depends) is one of the most useful phrases at C1. Alone: \"Kommt darauf an.\" With a noun: \"Es kommt auf das Wetter an.\" With a clause: \"Es kommt darauf an, wann du ankommst.\" Also: \"Darauf kommt es an\" = that's what matters.",
+          "\"Es kommt darauf an\" (it depends) is one of the most useful phrases at the Advanced level. Alone: \"Kommt darauf an.\" With a noun: \"Es kommt auf das Wetter an.\" With a clause: \"Es kommt darauf an, wann du ankommst.\" Also: \"Darauf kommt es an\" = that's what matters.",
         ],
         examples: [
           { es: "Ich habe mich daran gewöhnt, im Homeoffice zu arbeiten.", en: "I've got used to working from home." },

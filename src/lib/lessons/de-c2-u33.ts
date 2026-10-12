@@ -7,8 +7,8 @@ export const DE_C2_U33: Lesson[] = [
     slug: "c2-comprehensive-review-1",
     level: "DE-C2",
     number: 1,
-    title: "C1 and C2 Comprehensive Review, Part 1 of 3",
-    summary: "Pull the grammar of C1 and C2 together: Konjunktiv I and II in all tenses, concession and hypothesis, the passive and its alternatives, participial attributes, word order and emphasis, and modal particles, ending with a cumulative quiz.",
+    title: "Advanced and Mastery Comprehensive Review, Part 1 of 3",
+    summary: "Pull the grammar of the Advanced and Mastery levels together: Konjunktiv I and II in all tenses, concession and hypothesis, the passive and its alternatives, participial attributes, word order and emphasis, and modal particles, ending with a cumulative quiz.",
     duration: "20 min",
     sections: [
       {
@@ -16,7 +16,7 @@ export const DE_C2_U33: Lesson[] = [
         body: [
           "Konjunktiv I reports: present \"er sei, habe, komme\"; past \"er sei gekommen, habe gesagt\"; future \"er werde kommen\". Where its form equals the indicative (\"sie haben\", \"wir kommen\"), switch to Konjunktiv II (\"sie hätten\", \"wir kämen\"), and where that is old-fashioned (\"sie kämen\"), use \"würde\" + infinitive in everyday writing.",
           "Konjunktiv II imagines: present \"wäre, hätte, könnte, würde kommen\"; past \"wäre gekommen, hätte gesagt\"; with modals, the double infinitive: \"Er hätte anrufen sollen\" (he should have called), and in a subordinate clause \"..., dass er hätte anrufen sollen\" (\"hätte\" before the two infinitives).",
-          "Typical C2 uses: unreal past (\"Wäre ich nur früher gegangen!\"), polite criticism (\"Man hätte sich mehr Mut gewünscht\"), hedged forecast (\"Die Rate dürfte steigen\"), and reported speech that distances the writer (\"Der Minister erklärte, er habe von nichts gewusst\").",
+          "Typical Mastery-level uses: unreal past (\"Wäre ich nur früher gegangen!\"), polite criticism (\"Man hätte sich mehr Mut gewünscht\"), hedged forecast (\"Die Rate dürfte steigen\"), and reported speech that distances the writer (\"Der Minister erklärte, er habe von nichts gewusst\").",
         ],
         examples: [
           { es: "Die Sprecherin erklärte, das Unternehmen sei gut aufgestellt.", en: "The spokeswoman said the company was well positioned." },
@@ -50,7 +50,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         heading: "Concession and hypothesis; the passive and its alternatives",
         body: [
-          "Concession at C2 goes beyond \"obwohl\": \"wenngleich\", \"wiewohl\" (formal), \"zwar ... aber\", \"so ... auch\" (\"So sehr ich ihn schätze, ...\"), \"wie ... auch immer\", \"auch wenn\", \"selbst wenn\" (even if), and the verb-first concession \"Mag er auch recht haben, ...\" (however right he may be). Hypothesis without \"wenn\": verb first (\"Hätte ich das gewusst, ...\"), \"angenommen, dass...\", \"gesetzt den Fall, dass...\", \"im Falle eines Falles\".",
+          "Concession at the Mastery level goes beyond \"obwohl\": \"wenngleich\", \"wiewohl\" (formal), \"zwar ... aber\", \"so ... auch\" (\"So sehr ich ihn schätze, ...\"), \"wie ... auch immer\", \"auch wenn\", \"selbst wenn\" (even if), and the verb-first concession \"Mag er auch recht haben, ...\" (however right he may be). Hypothesis without \"wenn\": verb first (\"Hätte ich das gewusst, ...\"), \"angenommen, dass...\", \"gesetzt den Fall, dass...\", \"im Falle eines Falles\".",
           "The passive has five common alternatives: \"man\" (\"Man repariert die Brücke\"), \"sich lassen\" + infinitive (\"Das lässt sich ändern\": can be changed), \"sein\" + zu-infinitive (\"Die Gebühr ist bis Freitag zu zahlen\": must be paid), \"-bar\" adjectives (\"Das ist nicht machbar\"), and \"bekommen / erhalten\" + participle for the recipient (\"Sie bekam den Preis verliehen\").",
           "Choose by meaning: \"sein zu\" can mean must or can (\"Das ist nicht zu ändern\": can't be changed), \"sich lassen\" always means can.",
         ],
@@ -232,8 +232,8 @@ export const DE_C2_U33: Lesson[] = [
     slug: "c2-comprehensive-review-2",
     level: "DE-C2",
     number: 2,
-    title: "C1 and C2 Comprehensive Review, Part 2 of 3",
-    summary: "Review register and vocabulary across the C2 themes: legal, medical, economic and academic German, false friends and paronyms, collocations, and moving one message between umgangssprachlich, neutral and gehoben.",
+    title: "Advanced and Mastery Comprehensive Review, Part 2 of 3",
+    summary: "Review register and vocabulary across the Mastery-level themes: legal, medical, economic and academic German, false friends and paronyms, collocations, and moving one message between umgangssprachlich, neutral and gehoben.",
     duration: "20 min",
     sections: [
       {
@@ -241,7 +241,7 @@ export const DE_C2_U33: Lesson[] = [
         body: [
           "Each specialist register has its fixed formulas. Legal: \"hiermit\", \"gemäß § 5\", \"der Mieter hat ... zu tragen\", \"Widerspruch einlegen\" (lodge an objection), \"in Kraft treten\". Medical: \"der Befund\" (findings), \"die Diagnose stellen\", \"eine Überweisung\" (referral), \"verschreiben\", \"die Nebenwirkung\". Economic: \"der Umsatz\" vs \"der Gewinn\", \"um\" vs \"auf\", \"zurückzuführen sein auf\". Academic: \"laut\", \"zufolge\", \"es wird argumentiert, dass...\", \"im Folgenden\", \"die vorliegende Arbeit\".",
           "What unites them is nominal style and Funktionsverbgefüge: \"zur Anwendung kommen\" (be applied), \"in Betracht ziehen\" (consider), \"Anspruch erheben auf\" (lay claim to), \"zur Verfügung stellen\" (provide). Use them in formal writing, and turn them back into simple verbs when you speak.",
-          "The test at C2 is not knowing these words but switching: explaining a Bescheid from the Finanzamt to a friend in plain German, or turning your notes into a paragraph of a Hausarbeit.",
+          "The test at the Mastery level is not knowing these words but switching: explaining a Bescheid from the Finanzamt to a friend in plain German, or turning your notes into a paragraph of a Hausarbeit.",
         ],
         examples: [
           { es: "Gegen den Bescheid kann innerhalb eines Monats Widerspruch eingelegt werden.", en: "An objection to the decision can be lodged within one month." },
@@ -273,7 +273,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         heading: "False friends and paronyms",
         body: [
-          "False friends at C2 are the ones you think you've mastered: \"eventuell\" (possibly, not eventually: \"schließlich\"), \"aktuell\" (current, not actual: \"tatsächlich\"), \"konsequent\" (consistent, not consequent), \"sensibel\" (sensitive, not sensible: \"vernünftig\"), \"die Provision\" (commission), \"das Gymnasium\" (grammar school), \"der Chef\" (boss), \"die Billion\" (trillion), \"die Kaution\" (deposit).",
+          "False friends at the Mastery level are the ones you think you've mastered: \"eventuell\" (possibly, not eventually: \"schließlich\"), \"aktuell\" (current, not actual: \"tatsächlich\"), \"konsequent\" (consistent, not consequent), \"sensibel\" (sensitive, not sensible: \"vernünftig\"), \"die Provision\" (commission), \"das Gymnasium\" (grammar school), \"der Chef\" (boss), \"die Billion\" (trillion), \"die Kaution\" (deposit).",
           "Paronyms are German pairs that look alike but differ: \"scheinbar\" (seemingly, but not really) vs \"anscheinend\" (apparently, probably really); \"kindisch\" (childish) vs \"kindlich\" (childlike); \"geschäftlich\" (on business) vs \"geschäftig\" (busy, bustling); \"wunderbar\" vs \"wunderlich\" (odd); \"effektiv\" (effective) vs \"effizient\" (efficient).",
           "The scheinbar / anscheinend pair is the classic: \"Er ist scheinbar ruhig\" (he only seems calm, but isn't), \"Er ist anscheinend krank\" (it appears he is ill, and he probably is). In everyday speech many Germans blur the two, but careful writing keeps them apart.",
         ],
@@ -450,14 +450,14 @@ export const DE_C2_U33: Lesson[] = [
     slug: "c2-comprehensive-review-3",
     level: "DE-C2",
     number: 3,
-    title: "C1 and C2 Comprehensive Review, Part 3 of 3",
+    title: "Advanced and Mastery Comprehensive Review, Part 3 of 3",
     summary: "Review discourse skills: building and refuting an argument, rhetoric, quotation and synthesis, narrative and criticism, and how the four Goethe C2 modules (Lesen, Hören, Schreiben, Sprechen) test them.",
     duration: "20 min",
     sections: [
       {
         heading: "Argument and rhetoric",
         body: [
-          "A C2 argument has a visible structure: thesis (\"Ich vertrete die These, dass...\"), arguments with evidence (\"Dafür spricht vor allem...\", \"Belegt wird dies durch...\"), anticipated objection and concession (\"Man könnte einwenden, dass... Zwar trifft es zu, dass...\"), refutation (\"Dieser Einwand greift jedoch zu kurz, weil...\") and conclusion (\"Alles in allem...\", \"Daraus folgt...\").",
+          "A Mastery-level argument has a visible structure: thesis (\"Ich vertrete die These, dass...\"), arguments with evidence (\"Dafür spricht vor allem...\", \"Belegt wird dies durch...\"), anticipated objection and concession (\"Man könnte einwenden, dass... Zwar trifft es zu, dass...\"), refutation (\"Dieser Einwand greift jedoch zu kurz, weil...\") and conclusion (\"Alles in allem...\", \"Daraus folgt...\").",
           "Rhetorical devices you have practised: the rhetorical question (\"Wer möchte das ernsthaft bestreiten?\"), the triad (\"Wir brauchen Mut, Geduld und Geld\"), the contrast (\"nicht weniger, sondern mehr Europa\"), anaphora (\"Wir wollen... Wir wollen... Wir wollen...\"), and the concession that disarms (\"Ich gebe zu, dass...\").",
           "\"Greift zu kurz\" (falls short), \"lässt außer Acht\" (ignores), \"verkennt\" (misjudges) and \"ist nicht von der Hand zu weisen\" (can't be dismissed) are the verbs of a German debate.",
         ],
@@ -495,7 +495,7 @@ export const DE_C2_U33: Lesson[] = [
         body: [
           "Quoting and synthesising: \"laut\" + dative, \"X zufolge\", \"wie X betont\", \"X weist darauf hin, dass...\" and Konjunktiv I for paraphrase; \"Während X ..., vertritt Y die Auffassung, dass...\" to contrast sources; \"Beide Positionen stimmen darin überein, dass...\" for common ground.",
           "Narrative: Präteritum for the story, Plusquamperfekt for earlier events, \"sollte\" for foreshadowing, erlebte Rede for thoughts, German dialogue punctuation. Criticism: present tense of commentary, \"Figur\" not \"Charakter\", participial attributes and appositions, the evaluative scale (gelungen, solide, durchwachsen), litotes and Konjunktiv II hedges.",
-          "These are not separate skills: a good C2 text often combines them, quoting a critic, narrating a scene and arguing a position in one piece.",
+          "These are not separate skills: a good Mastery-level text often combines them, quoting a critic, narrating a scene and arguing a position in one piece.",
         ],
         examples: [
           { es: "Laut einer Studie der Universität Mannheim schlafen Jugendliche zu wenig.", en: "According to a study by the University of Mannheim, teenagers don't sleep enough." },
@@ -654,7 +654,7 @@ export const DE_C2_U33: Lesson[] = [
         text: "Man könnte einwenden, dass das zu teuer ist. Dieser Einwand greift jedoch zu kurz.",
         prompt: "Say it in German: One could object that it's too expensive. However, that objection falls short.",
         tip: "Raise your voice slightly on \"jedoch\": it marks the turn of the argument.",
-        explanation: "Anticipate, then refute: the core move of C2 argumentation.",
+        explanation: "Anticipate, then refute: the core move of Mastery-level argumentation.",
       },
     ],
   },
@@ -662,7 +662,7 @@ export const DE_C2_U33: Lesson[] = [
     slug: "c2-challenge-error-hunt",
     level: "DE-C2",
     number: 4,
-    title: "C2 Challenge: The Great Error Hunt",
+    title: "Mastery Challenge: The Great Error Hunt",
     summary: "Find and fix the subtle errors in ambitious texts: case and adjective endings, Konjunktiv, prepositions, collocations and register slips of the kind even very advanced writers make, and learn to leave correct forms alone.",
     duration: "20 min",
     sections: [
@@ -887,7 +887,7 @@ export const DE_C2_U33: Lesson[] = [
     slug: "c2-challenge-register-chameleon",
     level: "DE-C2",
     number: 5,
-    title: "C2 Challenge: The Register Chameleon",
+    title: "Mastery Challenge: The Register Chameleon",
     summary: "Say the same thing four times: as a WhatsApp to a friend, an email to a colleague, an official letter in Amtsdeutsch and a feuilleton paragraph, changing vocabulary, syntax, particles and tone each time.",
     duration: "20 min",
     sections: [
@@ -897,7 +897,7 @@ export const DE_C2_U33: Lesson[] = [
           "The message: the street party planned for Saturday has been postponed by a week because of a storm warning, and anyone who wants a stall has to register by Wednesday. You will write it four times. Start at the bottom of the register scale, a WhatsApp to a friend who is helping you organise it:",
           "„Hey Mia, Planänderung: Das Straßenfest fällt am Samstag ins Wasser, is ne Unwetterwarnung raus. Wir machen's jetzt eine Woche später, also am 21. Wer 'nen Stand will, muss sich bis Mittwoch melden. Sagst du's den anderen? Hab grad null Nerven für die Gruppe 😅 lg“",
           "What makes it colloquial: dropped endings and contractions (\"is\", \"ne\", \"'nen\", \"hab\", \"grad\", \"wir machen's\"), the idiom \"ins Wasser fallen\" (to be called off, literally to fall into the water, which suits a storm), short main clauses, no subordinate clauses, the casual intensifier \"null\" (\"null Nerven\": no patience at all), the question as a request (\"Sagst du's den anderen?\") and the greeting abbreviation \"lg\" (liebe Grüße).",
-          "Writing like this is a skill too: a C2 speaker who can only write Amtsdeutsch sounds stiff among friends. But keep the grammar intact underneath: \"Wer einen Stand will, muss sich melden\" is still a correct relative clause with \"wer\".",
+          "Writing like this is a skill too: a Mastery-level speaker who can only write Amtsdeutsch sounds stiff among friends. But keep the grammar intact underneath: \"Wer einen Stand will, muss sich melden\" is still a correct relative clause with \"wer\".",
         ],
         examples: [
           { es: "Das Straßenfest fällt ins Wasser.", en: "The street party is off. (colloquial)" },
@@ -1019,7 +1019,7 @@ export const DE_C2_U33: Lesson[] = [
           "Finally the top of the scale: a columnist turns the same banal event into a reflection. Feuilleton style is gehoben but personal, likes irony, allusion and long, balanced sentences:",
           "„Es gehört zu den stillen Tugenden dieser Stadt, dass sie sich vom Himmel noch etwas sagen lässt. Kaum hatte der Deutsche Wetterdienst seine Warnung ausgesprochen, wurde das Straßenfest, monatelang geplant und mit Lichterketten bereits halb geschmückt, um eine Woche vertagt. Man mag darin bürokratische Übervorsicht sehen; ebenso gut aber ließe sich behaupten, dass eine Gesellschaft, die ihre Feste verschieben kann, ohne sie aufzugeben, mehr Gelassenheit besitzt, als ihr gemeinhin nachgesagt wird.“",
           "The tools: an impersonal frame (\"Es gehört zu ...\"), the elegant verb \"vertagen\" (adjourn), an appositive participle phrase between commas (\"monatelang geplant und ... geschmückt\"), \"kaum hatte ..., wurde ...\" (no sooner had ... than), a concession with \"mögen\" (\"Man mag darin ... sehen\"), Konjunktiv II for a cautious claim (\"ließe sich behaupten\"), and the idiom \"jemandem etwas nachsagen\" (to say something of someone, usually a reputation).",
-          "Gehoben does not mean Amtsdeutsch: the feuilleton avoids the official formulas and the faceless passive chains, and it lets a voice be heard. The gap between the two is one of the clearest markers of C2 control.",
+          "Gehoben does not mean Amtsdeutsch: the feuilleton avoids the official formulas and the faceless passive chains, and it lets a voice be heard. The gap between the two is one of the clearest markers of Mastery-level control.",
         ],
         examples: [
           { es: "Kaum hatte der Wetterdienst gewarnt, wurde das Fest vertagt.", en: "No sooner had the weather service issued a warning than the party was adjourned." },
@@ -1156,7 +1156,7 @@ export const DE_C2_U33: Lesson[] = [
     slug: "c2-challenge-translation-relay",
     level: "DE-C2",
     number: 6,
-    title: "C2 Challenge: Translation Relay",
+    title: "Mastery Challenge: Translation Relay",
     summary: "Carry idiomatic English into natural German and back again: swap idiom for idiom, dodge calques and false friends, and rebuild English -ing forms, passives and cleft sentences the way German actually says them.",
     duration: "20 min",
     sections: [
@@ -1422,14 +1422,14 @@ export const DE_C2_U33: Lesson[] = [
     slug: "c2-challenge-phraseology-no-hints",
     level: "DE-C2",
     number: 7,
-    title: "C2 Challenge: Phraseology Without Hints",
+    title: "Mastery Challenge: Phraseology Without Hints",
     summary: "Complete idioms, proverbs, Funktionsverbgefüge and collocations from memory, with no options to choose from: the fixed expressions that make German sound native rather than merely correct.",
     duration: "20 min",
     sections: [
       {
         heading: "Redewendungen: idioms from memory",
         body: [
-          "Phraseology is the part of a language you cannot work out: you know it or you don't. At C2 the test is active recall, so in this lesson there are no options. Before each check, cover the examples and try to produce the whole expression yourself.",
+          "Phraseology is the part of a language you cannot work out: you know it or you don't. At the Mastery level the test is active recall, so in this lesson there are no options. Before each check, cover the examples and try to produce the whole expression yourself.",
           "The idioms below all came up in earlier units: \"ins Fettnäpfchen treten\" (to put your foot in it, literally to step into the little pot of grease), \"auf dem Holzweg sein\" (to be on the wrong track), \"den Nagel auf den Kopf treffen\" (to hit the nail on the head), \"unter einer Decke stecken\" (to be in cahoots), \"die Flinte ins Korn werfen\" (to throw in the towel), \"etwas auf die lange Bank schieben\" (to put something off), \"jemandem reinen Wein einschenken\" (to tell someone the plain truth).",
           "Watch the small words: the preposition and the article are part of the idiom and cannot be swapped (\"auf dem Holzweg\", not \"im Holzweg\"; \"ins Fettnäpfchen\", accusative, because you step into it). Verbs inflect normally, and separable parts go to the end: \"Er schob die Entscheidung auf die lange Bank.\"",
         ],
@@ -1695,7 +1695,7 @@ export const DE_C2_U33: Lesson[] = [
     slug: "c2-challenge-text-detective",
     level: "DE-C2",
     number: 8,
-    title: "C2 Challenge: Text Detective",
+    title: "Mastery Challenge: Text Detective",
     summary: "Work through a dense feuilleton column on train delays: infer what the author means but doesn't say, decode irony and literary allusion, track exactly who claims what, and summarise the argument in your own German.",
     duration: "20 min",
     sections: [
@@ -1705,7 +1705,7 @@ export const DE_C2_U33: Lesson[] = [
           "The text is a column from the feuilleton section of a national daily, headed \"Die Kunst des Wartens\". Read the first paragraph:",
           "„Wer in diesen Wochen mit der Bahn von Hamburg nach München reist, lernt eine Tugend, die in unserer beschleunigten Gegenwart selten geworden ist: die Geduld. Der ICE, so verheißt es der Fahrplan, benötigt knapp sechs Stunden. Dass es am Ende achteinhalb werden, ist kein Versagen, sondern, folgt man der Logik des Konzerns, ein Angebot zur Entschleunigung, kostenlos, versteht sich.“",
           "Nothing in the paragraph says the train service is bad, and yet that is its message. The clues: \"lernt eine Tugend\" presents a delay as an education; \"so verheißt es der Fahrplan\" (so the timetable promises, with the biblical verb \"verheißen\") marks the timetable as a promise rather than a fact; \"folgt man der Logik des Konzerns\" (if one follows the company's logic) attributes the absurd reinterpretation to the railway; and \"kostenlos, versteht sich\" (free of charge, of course) is pure sarcasm, since nobody pays extra for a delay.",
-          "Inference questions at C2 ask what the author implies, not what the words literally say. Look for evaluative verbs, distancing phrases and the gap between a neutral surface and an absurd claim.",
+          "Inference questions at the Mastery level ask what the author implies, not what the words literally say. Look for evaluative verbs, distancing phrases and the gap between a neutral surface and an absurd claim.",
         ],
         examples: [
           { es: "Der ICE benötigt, so verheißt es der Fahrplan, knapp sechs Stunden.", en: "The ICE takes, or so the timetable promises, just under six hours." },
@@ -1780,7 +1780,7 @@ export const DE_C2_U33: Lesson[] = [
         body: [
           "„Die Bahn verweist auf Nachfrage darauf, dass sich die Pünktlichkeit im Fernverkehr zuletzt leicht verbessert habe. Ursache der Verspätungen sei vor allem das marode Schienennetz, dessen Sanierung noch Jahre in Anspruch nehmen werde. Ein Sprecher will von einer Krise nichts wissen. Fahrgastverbände hingegen sprechen von einem ‚Systemversagen‘; der Bund soll die notwendigen Investitionen jahrzehntelang verschleppt haben.“",
           "Track the voices. The railway's position appears in Konjunktiv I (\"habe\", \"sei\", \"werde\"): the author reports it without endorsing it. \"Will von einer Krise nichts wissen\" uses \"wollen\" for a claim the author doubts (literally wants to know nothing of a crisis: refuses to acknowledge it). Passenger associations speak of a \"Systemversagen\" in quotation marks, which marks it as their word. And \"soll ... verschleppt haben\" is hearsay \"sollen\" + perfect infinitive: it is said that the federal government delayed the investment.",
-          "None of these sentences is the author's own claim. In an exam, a question like \"Was behauptet der Autor?\" must be answered only from sentences in the indicative and in the author's voice. Confusing reported positions with the author's view is the most common error in C2 reading.",
+          "None of these sentences is the author's own claim. In an exam, a question like \"Was behauptet der Autor?\" must be answered only from sentences in the indicative and in the author's voice. Confusing reported positions with the author's view is the most common error in Mastery-level reading.",
         ],
         examples: [
           { es: "Die Bahn verweist darauf, dass sich die Pünktlichkeit verbessert habe.", en: "The railway points out that punctuality has improved." },
@@ -1957,7 +1957,7 @@ export const DE_C2_U33: Lesson[] = [
     slug: "c2-challenge-argue-to-the-limit",
     level: "DE-C2",
     number: 9,
-    title: "C2 Challenge: Argue to the Limit",
+    title: "Mastery Challenge: Argue to the Limit",
     summary: "Defend a position on a compulsory year of social service against ever sharper objections, as in the Goethe C2 Sprechen module: state and structure your thesis, concede without giving ground, refute precisely and keep the floor with emphasis.",
     duration: "20 min",
     sections: [
@@ -2001,7 +2001,7 @@ export const DE_C2_U33: Lesson[] = [
         heading: "Round 2: conceding without giving in",
         body: [
           "The examiner objects: \"Ist ein Zwangsdienst nicht ein massiver Eingriff in die Freiheit junger Menschen?\" A strong answer first grants what is true, then shows it doesn't decide the matter. Concession formulas, from light to heavy: \"Da ist etwas dran, aber ...\" (there's something in that), \"Das mag sein, ändert aber nichts daran, dass ...\" (that may be, but it doesn't change the fact that), \"Zugegeben, ... Dennoch ...\", \"Ich gebe Ihnen insofern recht, als ...\" (I agree with you insofar as), \"Das ist ein berechtigter Einwand, den ich ernst nehme. Allerdings ...\".",
-          "\"Insofern ..., als\" is the precise C2 tool: it limits your agreement to one aspect. \"Ich gebe Ihnen insofern recht, als jede Pflicht die Freiheit einschränkt. Aber auch die Schulpflicht tut das, und niemand stellt sie ernsthaft infrage.\" You concede the general point and move the debate to your ground with an analogy.",
+          "\"Insofern ..., als\" is the precise Mastery-level tool: it limits your agreement to one aspect. \"Ich gebe Ihnen insofern recht, als jede Pflicht die Freiheit einschränkt. Aber auch die Schulpflicht tut das, und niemand stellt sie ernsthaft infrage.\" You concede the general point and move the debate to your ground with an analogy.",
           "Avoid conceding too much (\"Sie haben völlig recht\") unless you then change your position; and avoid conceding nothing, which sounds rigid. Examiners reward the visible move: concession, turn, counter-argument.",
         ],
         examples: [
@@ -2219,7 +2219,7 @@ export const DE_C2_U33: Lesson[] = [
     slug: "c2-mastery-exam",
     level: "DE-C2",
     number: 10,
-    title: "C2 Mastery Exam (Goethe C2-Style)",
+    title: "Mastery Exam (Goethe C2-Style)",
     summary: "A full mastery exam in the format of the Goethe-Zertifikat C2 (GDS): an essay to read for stance and nuance, a radio discussion to follow, a text to write and one to rewrite in another register, a presentation and a debate, then a cumulative test of the whole level.",
     duration: "20 min",
     sections: [
@@ -2228,7 +2228,7 @@ export const DE_C2_U33: Lesson[] = [
         body: [
           "Read the extract from an essay in a cultural magazine:",
           "„Kaum eine Klage ist so alt wie die über den Verfall der Sprache. Schon im 17. Jahrhundert beschworen Sprachgesellschaften die Reinheit des Deutschen gegen das allgegenwärtige Französisch; heute richtet sich der Unmut gegen Anglizismen, Gendersternchen und die angebliche Verrohung im Netz. Gewiss, nicht jede Neuerung ist ein Gewinn, und wer im Büro nur noch ‚committet‘ und ‚gemeetet‘ wird, darf sich über Spott nicht wundern. Doch die Vorstellung, eine Sprache könne gleichsam unter Denkmalschutz gestellt werden, verkennt, was Sprache ist: kein Museum, sondern eine Baustelle. Dass das Deutsche lebendig ist, zeigt sich gerade daran, dass es fremde Wörter nicht nur übernimmt, sondern sich anverwandelt, bis kaum noch jemand weiß, dass ‚Fenster‘ einst aus dem Lateinischen kam. Sorge bereiten sollte uns weniger der Wandel als die Gleichgültigkeit: eine Gesellschaft, die nicht mehr über ihre Sprache streitet, hat sie womöglich schon aufgegeben.“",
-          "C2 reading tests whether you can separate the positions the author describes from the one the author holds. The structure here: a historical frame (\"Kaum eine Klage ist so alt wie ...\"), a concession (\"Gewiss, nicht jede Neuerung ist ein Gewinn\"), the turn (\"Doch ... verkennt\"), a central metaphor (\"kein Museum, sondern eine Baustelle\"), evidence (\"Fenster\" from Latin fenestra) and a pointed conclusion that reverses the usual worry.",
+          "Mastery-level reading tests whether you can separate the positions the author describes from the one the author holds. The structure here: a historical frame (\"Kaum eine Klage ist so alt wie ...\"), a concession (\"Gewiss, nicht jede Neuerung ist ein Gewinn\"), the turn (\"Doch ... verkennt\"), a central metaphor (\"kein Museum, sondern eine Baustelle\"), evidence (\"Fenster\" from Latin fenestra) and a pointed conclusion that reverses the usual worry.",
           "Note \"angeblich\" (alleged) and the Konjunktiv I \"könne\": both distance the author from the views of the language purists.",
         ],
         examples: [
@@ -2311,7 +2311,7 @@ export const DE_C2_U33: Lesson[] = [
         body: [
           "Schreiben has two parts. Teil 1: an extended text on a topic such as \"Brauchen wir in Zeiten maschineller Übersetzung noch Fremdsprachenunterricht?\", with an introduction, a clear thesis, arguments and counterarguments, sources paraphrased in Konjunktiv I, and a conclusion. Teil 2: reformulate an existing text for a different reader, for example turning a casual blog post into a formal statement, without losing information.",
           "For Teil 2, imagine this blog sentence: \"Ehrlich gesagt kapier ich nicht, warum die Uni ständig neue Regeln raushaut, die eh keiner liest.\" In a formal statement it becomes: \"Es ist nicht nachvollziehbar, weshalb die Universitätsleitung fortlaufend neue Regelungen erlässt, die erfahrungsgemäß kaum zur Kenntnis genommen werden.\" Every colloquial element has a formal counterpart: \"kapieren\" becomes \"nachvollziehen\", \"raushauen\" becomes \"erlassen\", \"eh keiner liest\" becomes \"kaum zur Kenntnis genommen werden\".",
-          "Plan your time: about two thirds for Teil 1. Check, at the end, the four things that cost most marks at C2: adjective endings, verb position in subordinate clauses, the choice of Konjunktiv, and register consistency.",
+          "Plan your time: about two thirds for Teil 1. Check, at the end, the four things that cost most marks at the Mastery level: adjective endings, verb position in subordinate clauses, the choice of Konjunktiv, and register consistency.",
         ],
         examples: [
           { es: "Angesichts immer besserer Übersetzungsprogramme stellt sich die Frage, ob Fremdsprachenunterricht noch zeitgemäß ist.", en: "Given ever better translation software, the question arises whether foreign-language teaching is still relevant." },
@@ -2346,7 +2346,7 @@ export const DE_C2_U33: Lesson[] = [
         body: [
           "Sprechen has a short presentation on a topic you draw (for example \"Sollten Museen koloniale Objekte zurückgeben?\") followed by a discussion with the examiner, who challenges your position. You are assessed on range, accuracy, fluency, coherence and how you interact.",
           "A strong presentation in three moves: a frame (\"Die Frage, ob ..., wird seit Jahren kontrovers diskutiert\"), a position with two or three arguments and an anticipated objection, and a conclusion that looks ahead (\"Abschließend lässt sich sagen, dass ...\", \"Es bleibt abzuwarten, ob ...\"). In the discussion, concede, limit, refute and summarise, as you practised in the last lesson.",
-          "Spoken C2 also means flexibility of register: you may quote an idiom (\"Das ist ein zweischneidiges Schwert\": a double-edged sword), use particles naturally, and correct yourself elegantly (\"Genauer gesagt ...\", \"Oder besser: ...\").",
+          "Spoken German at the Mastery level also means flexibility of register: you may quote an idiom (\"Das ist ein zweischneidiges Schwert\": a double-edged sword), use particles naturally, and correct yourself elegantly (\"Genauer gesagt ...\", \"Oder besser: ...\").",
         ],
         examples: [
           { es: "Die Frage, ob Museen koloniale Objekte zurückgeben sollten, wird seit Jahren kontrovers diskutiert.", en: "The question whether museums should return colonial objects has been hotly debated for years." },
@@ -2494,7 +2494,7 @@ export const DE_C2_U33_WRITING: WriteExercise = {
   rubric: [
     "Structures the argument visibly: thesis (\"Ich vertrete die These, dass\"), arguments (\"Dafür spricht\", \"Hinzu kommt\"), a concession and turn (\"Zwar ... doch\", \"Man mag einwenden ..., doch\") and a conclusion (\"Unterm Strich\", \"Es bleibt abzuwarten\")",
     "Reports at least one position in Konjunktiv I (\"Befürworter argumentieren, Maschinen könnten ...\") and marks distance with \"angeblich\", \"sollen\" or \"wollen\" where useful",
-    "Uses C2 structures accurately: a participial attribute, a passive alternative (\"sich lassen\", \"sein zu\"), a verb-first or mixed conditional, and nominal phrases with \"angesichts\" or \"aufgrund\" + genitive",
+    "Uses Mastery-level structures accurately: a participial attribute, a passive alternative (\"sich lassen\", \"sein zu\"), a verb-first or mixed conditional, and nominal phrases with \"angesichts\" or \"aufgrund\" + genitive",
     "Keeps a consistent gehoben register with precise collocations and at least one apt idiom or image, avoiding both colloquialisms and stiff Amtsdeutsch",
   ],
   modelAnswer: "Kaum eine Technologie hat unser Verhältnis zu fremden Sprachen so rasch verändert wie die maschinelle Übersetzung. Wer heute eine Speisekarte in Lissabon oder einen Vertrag aus Seoul verstehen will, zückt das Smartphone, und Sekunden später liegt eine erstaunlich brauchbare Fassung vor. Angesichts dieser Entwicklung drängt sich die Frage auf, ob der mühsame Fremdsprachenunterricht an Schulen noch zeitgemäß ist.\n\nIch vertrete die These, dass er wichtiger ist denn je, wenn auch in veränderter Form.\n\nBefürworter einer radikalen Kürzung argumentieren, Maschinen könnten Sprachkenntnisse in absehbarer Zeit vollständig ersetzen; die so gewonnenen Unterrichtsstunden seien in Informatik oder Wirtschaft besser angelegt. Zwar ist nicht von der Hand zu weisen, dass sich viele Alltagssituationen inzwischen ohne Fremdsprachenkenntnisse bewältigen lassen. Doch dieser Einwand greift zu kurz, denn er reduziert Sprache auf die Übertragung von Information.\n\nDafür, am Unterricht festzuhalten, spricht zunächst, dass Sprache mehr transportiert als Inhalte: Ironie, Höflichkeit, Zwischentöne. Wer nie erfahren hat, wie schwer sich ein englisches „I'm afraid“ angemessen wiedergeben lässt, wird auch der Maschine blind vertrauen müssen. Hinzu kommt, dass das Erlernen einer Fremdsprache den Blick auf die eigene schärft. Die oft beschworene Weltoffenheit beginnt nicht mit einem Programm, sondern mit der Erfahrung, sich in einer anderen Sprache mühsam verständlich zu machen.\n\nHätte man vor zwanzig Jahren gefragt, ob Taschenrechner den Mathematikunterricht überflüssig machten, wäre die Antwort eindeutig gewesen: Sie verändern ihn, sie ersetzen ihn nicht. Ähnliches gilt hier. Der Unterricht der Zukunft wird weniger Vokabellisten abfragen und mehr Wert auf Kommunikation, Kultur und den kritischen Umgang mit maschinellen Übersetzungen legen müssen.\n\nUnterm Strich bleibe ich dabei: Die Maschine ist ein hervorragendes Werkzeug, aber ein schlechter Ersatz für Verständigung. Es bleibt abzuwarten, ob die Bildungspolitik diese Einsicht beherzigt oder, wie so oft, das Kind mit dem Bade ausschüttet.",

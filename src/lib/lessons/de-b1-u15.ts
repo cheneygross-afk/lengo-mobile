@@ -402,8 +402,8 @@ export const DE_B1_U15: Lesson[] = [
     slug: "b1-vocabulary-practice-6",
     level: "DE-B1",
     number: 6,
-    title: "B1 Vocabulary Practice, Part 6 of 10",
-    summary: "High-frequency B1 vocabulary: repairs, tools, damage and insurance (die Versicherung, der Schaden, kaputtgehen).",
+    title: "Intermediate Vocabulary Practice, Part 6 of 10",
+    summary: "High-frequency Intermediate vocabulary: repairs, tools, damage and insurance (die Versicherung, der Schaden, kaputtgehen).",
     duration: "15 min",
     sections: [
       {

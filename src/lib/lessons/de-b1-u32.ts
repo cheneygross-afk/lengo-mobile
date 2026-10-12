@@ -909,8 +909,8 @@ export const DE_B1_U32: Lesson[] = [
         heading: "Das Besondere daran: success late in life",
         body: [
           "\"Heute hängen Klaus Beckers Bilder in einer Galerie in Hannover. Das Besondere daran ist, dass er nie einen Kurs gemacht hat. In einem Interview sagte er: Das Schönste ist, dass ich jeden Tag etwas Neues entdecke. Ich hätte nie gedacht, dass in mir ein Künstler steckt.\"",
-          "\"Das Besondere\" (the special thing), \"das Schönste\" (the best thing, the most beautiful thing): nominalised adjectives with \"das\" take the weak ending -e in the nominative. \"Das Besondere daran ist, dass...\" (what's special about it is that...) is a great B1 phrase for any story.",
-          "\"Ich hätte nie gedacht\" (I'd never have thought) is a fixed Konjunktiv II past phrase worth learning as a chunk, even before the full past subjunctive at B2.",
+          "\"Das Besondere\" (the special thing), \"das Schönste\" (the best thing, the most beautiful thing): nominalised adjectives with \"das\" take the weak ending -e in the nominative. \"Das Besondere daran ist, dass...\" (what's special about it is that...) is a great Intermediate phrase for any story.",
+          "\"Ich hätte nie gedacht\" (I'd never have thought) is a fixed Konjunktiv II past phrase worth learning as a chunk, even before the full past subjunctive at the Upper-intermediate level.",
         ],
         examples: [
           { es: "Das Besondere daran ist, dass er nie einen Kurs gemacht hat.", en: "What's special about it is that he never took a course." },
@@ -1116,7 +1116,7 @@ export const DE_B1_U32: Lesson[] = [
         examples: [
           { es: "Sie hat die Prüfung mit einer Eins bestanden.", en: "She passed the exam with top marks." },
           { es: "Ich bin leider durch die Fahrprüfung gefallen.", en: "Unfortunately I failed my driving test." },
-          { es: "Nächste Woche mache ich die B1-Prüfung.", en: "I'm taking the B1 exam next week." },
+          { es: "Nächste Woche mache ich die Deutschprüfung.", en: "I'm taking the German exam next week." },
           { es: "Ich habe eine Drei in Chemie bekommen.", en: "I got a 3, a C, in chemistry." },
           { es: "Nach dem Studium ist er Lehrer geworden.", en: "After his degree he became a teacher." },
         ],

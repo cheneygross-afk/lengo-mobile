@@ -89,7 +89,7 @@ export const DE_A1_U04: Lesson[] = [
         heading: "Will is not will",
         body: [
           "Big trap: German \"ich will\" means I want (you'll meet it in this unit). It does not mean I will. \"Ich will Arzt werden\" is I want to become a doctor.",
-          "German does have a future with \"werden\" + infinitive (\"Ich werde kommen\", I will come), but you'll learn it at A2. For now, recognise it when you see it; to talk about the future, use the present with a time word: \"Ich komme morgen\".",
+          "German does have a future with \"werden\" + infinitive (\"Ich werde kommen\", I will come), but you'll learn it at the Elementary level. For now, recognise it when you see it; to talk about the future, use the present with a time word: \"Ich komme morgen\".",
         ],
         examples: [
           { es: "Ich werde Lehrer.", en: "I'm going to be a teacher." },

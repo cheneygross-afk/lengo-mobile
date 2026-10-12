@@ -14,7 +14,7 @@ export const DE_C2_U11: Lesson[] = [
       {
         heading: "Compounds: read them from the right",
         body: [
-          "At C2 the words that stop you are rarely short. They are compounds like \"Haftpflichtversicherungsvertrag\", and the trick is to read them from the right. The last element (the Grundwort) tells you what the thing is and gives the gender: \"der Vertrag\", a contract. Everything to its left narrows it down: a contract for \"Versicherung\" (insurance), more precisely \"Haftpflichtversicherung\" (liability insurance). So: a liability insurance contract.",
+          "At the Mastery level the words that stop you are rarely short. They are compounds like \"Haftpflichtversicherungsvertrag\", and the trick is to read them from the right. The last element (the Grundwort) tells you what the thing is and gives the gender: \"der Vertrag\", a contract. Everything to its left narrows it down: a contract for \"Versicherung\" (insurance), more precisely \"Haftpflichtversicherung\" (liability insurance). So: a liability insurance contract.",
           "Look for the joints. A linking \"-s-\" (the Fugen-s) or \"-n-\" / \"-en-\" often marks where one word ends: \"Versicherung-s-vertrag\", \"Arbeit-s-markt\", \"Sonne-n-energie\", \"Fachkräfte-mangel\". The Fugen-s is especially common after \"-ung\", \"-heit\", \"-keit\", \"-ion\" and \"-tät\", so \"-ungs-\" inside a word is almost always a joint.",
           "English builds the same meaning with of-phrases read left to right (the shortage of skilled workers); German puts the core noun last. When you translate a compound into English, you usually start at the end: \"Kinderbetreuungskosten\" is costs (Kosten) of childcare (Kinderbetreuung). And remember that a compound is not always literal: \"Mietpreisbremse\" is not a brake but a legal cap on rent increases.",
         ],
@@ -120,7 +120,7 @@ export const DE_C2_U11: Lesson[] = [
             source: "The plan is hardly feasible.",
             answer: "Der Plan ist kaum machbar.",
             altAnswers: ["Der Plan ist kaum umsetzbar.", "Der Plan ist kaum realisierbar.", "Der Plan lässt sich kaum umsetzen."],
-            explanation: "\"-bar\" makes an adjective meaning can be done: \"machbar\", \"umsetzbar\", \"realisierbar\". \"Kaum\" (hardly) is a negation at C2 level.",
+            explanation: "\"-bar\" makes an adjective meaning can be done: \"machbar\", \"umsetzbar\", \"realisierbar\". \"Kaum\" (hardly) is a negation at the Mastery level.",
           },
           {
             type: "listen-choose",
@@ -311,7 +311,7 @@ export const DE_C2_U11: Lesson[] = [
         body: [
           "The column ends: \"Die App, ein Ladenhüter unter den Behörden-Apps, wird nun überarbeitet. Die Verantwortlichen geben sich unbeirrbar: Man sei auf einem guten Weg.\"",
           "\"Ladenhüter\" is literally a shop-keeper in the sense of something that guards the shop because nobody takes it away: an item that won't sell, a flop. \"Unbeirrbar\" is \"un-\" + \"beirren\" (to put off course) + \"-bar\": impossible to put off course, unshakeable. Here it is ironic: the officials are unshakeable in the face of obvious failure.",
-          "Finally, the Konjunktiv I \"Man sei auf einem guten Weg\" marks reported speech: the columnist quotes the officials without endorsing them. Recognising this distance is part of reading at C2: the grammar carries the irony.",
+          "Finally, the Konjunktiv I \"Man sei auf einem guten Weg\" marks reported speech: the columnist quotes the officials without endorsing them. Recognising this distance is part of reading at the Mastery level: the grammar carries the irony.",
         ],
         examples: [
           { es: "Die App ist ein Ladenhüter: Kaum jemand hat sie heruntergeladen.", en: "The app is a flop: hardly anyone has downloaded it." },
@@ -1392,7 +1392,7 @@ export const DE_C2_U11: Lesson[] = [
       {
         heading: "Regional colour: north, south, Switzerland and Austria",
         body: [
-          "Most Germans speak standard German with a regional colour, and C2 listening includes it. In the north, final -g is often pronounced like ch (\"Tach\" for Tag, \"König\" ending like \"-ich\") and Low German shines through in Hamburg and on the coast: \"Moin\", \"nee\", \"ne?\" at the end of sentences. Berlin says \"icke\" or \"ick\" for ich, \"det\" for das and \"wat\" for was.",
+          "Most Germans speak standard German with a regional colour, and Mastery-level listening includes it. In the north, final -g is often pronounced like ch (\"Tach\" for Tag, \"König\" ending like \"-ich\") and Low German shines through in Hamburg and on the coast: \"Moin\", \"nee\", \"ne?\" at the end of sentences. Berlin says \"icke\" or \"ick\" for ich, \"det\" for das and \"wat\" for was.",
           "In the south, \"ich\" can shrink to \"i\" in Bavarian and Austrian speech, \"nicht\" becomes \"net\" or \"ned\", and the -e endings drop (\"Ich hab\", \"heut\"). Swabians add \"-le\" diminutives and say \"gell?\" for isn't it. The r is often rolled at the tip of the tongue in the south and in Switzerland.",
           "Swiss Standard German (Schweizer Hochdeutsch) is slower, with a strong ch even after e and i, stress on the first syllable of loanwords (\"BÜro\", \"MErci\"), and words like \"parkieren\" and \"das Velo\". Austrian German has \"Jänner\" (January), \"heuer\" (this year), and the perfect with \"sein\" for sitzen and liegen. You don't need to produce these; you need to not be thrown by them.",
         ],

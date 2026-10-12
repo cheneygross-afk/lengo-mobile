@@ -846,14 +846,14 @@ export const DE_B2_U27: Lesson[] = [
     slug: "b2-spiral-dictation-b2-sentences",
     level: "DE-B2",
     number: 5,
-    title: "Spiral Review: Dictation: B2 Sentences",
-    summary: "Hear and write long sentences that combine the B2 structures, then translate similar ones yourself.",
+    title: "Spiral Review: Dictation: Upper-Intermediate Sentences",
+    summary: "Hear and write long sentences that combine the Upper-intermediate structures, then translate similar ones yourself.",
     duration: "15 min",
     sections: [
       {
         heading: "Listening for the verbs at the end",
         body: [
-          "B2 sentences often end in a cluster of verbs: \"..., dass er hätte anrufen sollen\", \"..., weil die Brücke renoviert werden muss\", \"... wird das Projekt abgeschlossen haben.\" When you take dictation, listen for the last three words and work backwards.",
+          "Upper-intermediate sentences often end in a cluster of verbs: \"..., dass er hätte anrufen sollen\", \"..., weil die Brücke renoviert werden muss\", \"... wird das Projekt abgeschlossen haben.\" When you take dictation, listen for the last three words and work backwards.",
           "Tips: write the main clause first, then the subordinate clause; remember the comma before every subordinate clause; capitalise nouns, including nominalised verbs (\"beim Kochen\") and adjectives (\"das Beste\"); and decide early whether you heard \"hätte\" or \"hatte\", \"wäre\" or \"war\", \"würde\" or \"wurde\".",
           "The umlaut is often the only clue to the mood: \"Er wurde gefragt\" (he was asked) vs \"Er würde gefragt\" (he would be asked).",
         ],
@@ -1276,7 +1276,7 @@ export const DE_B2_U27: Lesson[] = [
     slug: "b2-challenge-big-error-hunt",
     level: "DE-B2",
     number: 7,
-    title: "B2 Challenge: The Big Error Hunt",
+    title: "Upper-Intermediate Challenge: The Big Error Hunt",
     summary: "A long email with mistakes from across the whole level: find, correct and explain them.",
     duration: "18 min",
     sections: [
@@ -1284,7 +1284,7 @@ export const DE_B2_U27: Lesson[] = [
         heading: "Part 1: the Konjunktiv and auxiliaries",
         body: [
           "Tom, a British engineer working in Stuttgart, writes an email to his landlady, Frau Schneider, about a water leak (\"der Wasserschaden\") while he was on holiday. His German is good, but every sentence below has exactly one mistake. Read the wrong version, decide what's wrong, then write the correct German.",
-          "Typical B2 slips in this part: \"würde\" in the unreal past (\"*wenn ich es würde gewusst haben\"), the wrong auxiliary (\"*ich hätte sofort gekommen\"), and a participle instead of the double infinitive (\"*Sie hätten mich informieren gemusst\").",
+          "Typical Upper-intermediate slips in this part: \"würde\" in the unreal past (\"*wenn ich es würde gewusst haben\"), the wrong auxiliary (\"*ich hätte sofort gekommen\"), and a participle instead of the double infinitive (\"*Sie hätten mich informieren gemusst\").",
           "Remember: \"wäre\" for movement and change of state; \"hätte\" + infinitive + modal infinitive for should / could have.",
         ],
         examples: [
@@ -1492,7 +1492,7 @@ export const DE_B2_U27: Lesson[] = [
     slug: "b2-challenge-dialogue-marathon",
     level: "DE-B2",
     number: 8,
-    title: "B2 Challenge: Dialogue Marathon",
+    title: "Upper-Intermediate Challenge: Dialogue Marathon",
     summary: "Four conversations, a complaint, a negotiation, a discussion and some gossip, that each need the right structure at every turn.",
     duration: "18 min",
     sections: [
@@ -1701,7 +1701,7 @@ export const DE_B2_U27: Lesson[] = [
     slug: "b2-challenge-translation-relay",
     level: "DE-B2",
     number: 9,
-    title: "B2 Challenge: Translation Relay",
+    title: "Upper-Intermediate Challenge: Translation Relay",
     summary: "Translate English paragraphs into German, choosing register, mood, word order and idiomatic vocabulary.",
     duration: "18 min",
     sections: [
@@ -1909,7 +1909,7 @@ export const DE_B2_U27: Lesson[] = [
     slug: "b2-challenge-build-the-sentence",
     level: "DE-B2",
     number: 10,
-    title: "B2 Challenge: Build the Sentence",
+    title: "Upper-Intermediate Challenge: Build the Sentence",
     summary: "Build long, correct sentences from given elements: clauses, participle attributes, connectors and genitive prepositions.",
     duration: "16 min",
     sections: [
@@ -1979,7 +1979,7 @@ export const DE_B2_U27: Lesson[] = [
       {
         heading: "Putting it all together",
         body: [
-          "The longest B2 sentences combine a connector, a subordinate clause, a noun phrase and a verb cluster: \"Obwohl die Wohnung, deren Miete gestiegen ist, sehr klein ist, wollen wir nicht umziehen.\" Build them step by step: main clause first, then insert the subordinate and relative clauses.",
+          "The longest Upper-intermediate sentences combine a connector, a subordinate clause, a noun phrase and a verb cluster: \"Obwohl die Wohnung, deren Miete gestiegen ist, sehr klein ist, wollen wir nicht umziehen.\" Build them step by step: main clause first, then insert the subordinate and relative clauses.",
           "Read your sentence back and check: one finite verb per clause, in the right place; commas before every subordinate clause; endings on every adjective and participle.",
         ],
         examples: [
@@ -2106,7 +2106,7 @@ export const DE_B2_U27: Lesson[] = [
 
 export const DE_B2_U27_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write a formal email to the manager of a language school where you took a B2 course. Report what your teacher and classmates said about the course, describe what went well and what didn't, say what should have been done differently, and make polite suggestions for the future.",
+  prompt: "Write a formal email to the manager of a language school where you took an evening course. Report what your teacher and classmates said about the course, describe what went well and what didn't, say what should have been done differently, and make polite suggestions for the future.",
   minWords: 120,
   maxWords: 220,
   rubric: [
@@ -2115,6 +2115,6 @@ export const DE_B2_U27_WRITING: WriteExercise = {
     "Uses the passive or a passive alternative and a regret or reproach with the double infinitive (\"Der Raum hätte früher renoviert werden müssen\").",
     "Structures the text with formal connectors and a genitive preposition (\"zudem\", \"jedoch\", \"folglich\", \"aufgrund\", \"während\").",
   ],
-  modelAnswer: "Sehr geehrte Frau Becker,\n\nich habe von März bis Juni den Abendkurs B2 an Ihrer Schule besucht und möchte Ihnen eine kurze Rückmeldung geben.\n\nZunächst das Positive: Der Unterricht war abwechslungsreich, und unsere Lehrerin, Frau Weber, hat sich sehr viel Mühe gegeben. Auch meine Mitschüler fanden, der Kurs sei gut strukturiert gewesen und man habe viel gelernt. Besonders die Übungen zum Konjunktiv waren hilfreich.\n\nAllerdings gab es auch Probleme. Aufgrund der Bauarbeiten im Gebäude war es in den ersten Wochen oft sehr laut, sodass wir uns kaum konzentrieren konnten. Meines Erachtens hätten die Teilnehmer vorher informiert werden müssen. Zudem fielen während des Kurses drei Termine aus, die leider nicht nachgeholt wurden.\n\nFür die Zukunft hätte ich zwei Vorschläge: Ausgefallene Stunden sollten grundsätzlich nachgeholt werden, und es wäre schön, wenn die Kursunterlagen online zur Verfügung gestellt würden.\n\nIch wäre Ihnen dankbar, wenn Sie meine Anregungen an das Team weitergeben könnten. Ich würde mich jedenfalls freuen, im Herbst den C1-Kurs bei Ihnen zu besuchen.\n\nMit freundlichen Grüßen\nSarah Miller",
+  modelAnswer: "Sehr geehrte Frau Becker,\n\nich habe von März bis Juni den Abendkurs für Fortgeschrittene an Ihrer Schule besucht und möchte Ihnen eine kurze Rückmeldung geben.\n\nZunächst das Positive: Der Unterricht war abwechslungsreich, und unsere Lehrerin, Frau Weber, hat sich sehr viel Mühe gegeben. Auch meine Mitschüler fanden, der Kurs sei gut strukturiert gewesen und man habe viel gelernt. Besonders die Übungen zum Konjunktiv waren hilfreich.\n\nAllerdings gab es auch Probleme. Aufgrund der Bauarbeiten im Gebäude war es in den ersten Wochen oft sehr laut, sodass wir uns kaum konzentrieren konnten. Meines Erachtens hätten die Teilnehmer vorher informiert werden müssen. Zudem fielen während des Kurses drei Termine aus, die leider nicht nachgeholt wurden.\n\nFür die Zukunft hätte ich zwei Vorschläge: Ausgefallene Stunden sollten grundsätzlich nachgeholt werden, und es wäre schön, wenn die Kursunterlagen online zur Verfügung gestellt würden.\n\nIch wäre Ihnen dankbar, wenn Sie meine Anregungen an das Team weitergeben könnten. Ich würde mich jedenfalls freuen, im Herbst den Aufbaukurs bei Ihnen zu besuchen.\n\nMit freundlichen Grüßen\nSarah Miller",
   explanation: "The classmates' opinion is reported with Konjunktiv I (\"sei ... gewesen\", \"habe ... gelernt\"). \"Hätten ... informiert werden müssen\" combines a passive with the double infinitive for a reproach, and \"nachgeholt werden\", \"zur Verfügung gestellt würden\" are passives with a Funktionsverbgefüge. \"Aufgrund\" and \"während\" take the genitive, and \"allerdings\", \"sodass\", \"zudem\" and \"meines Erachtens\" structure the argument in a formal register.",
 };

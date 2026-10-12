@@ -7,7 +7,7 @@ export const DE_B1_U34: Lesson[] = [
     slug: "b1-comprehensive-review-1",
     level: "DE-B1",
     number: 1,
-    title: "B1 Comprehensive Review, Part 1 of 3",
+    title: "Intermediate Comprehensive Review, Part 1 of 3",
     summary: "Bring back the pasts, the time clauses, Konjunktiv II and conditional sentences in fresh, mixed sentences.",
     duration: "15 min",
     sections: [
@@ -16,7 +16,7 @@ export const DE_B1_U34: Lesson[] = [
         body: [
           "Three pasts, three jobs. The Perfekt is the spoken past (\"Ich habe gestern lange gearbeitet\"); the Präteritum is the written and narrative past, and in speech the past of \"sein\", \"haben\" and the modals (\"Ich war müde, ich konnte nicht schlafen\"); the Plusquamperfekt goes one step further back (\"Ich hatte schon gegessen, als er kam\").",
           "The auxiliary is the same choice in Perfekt and Plusquamperfekt: \"sein\" for movement from A to B and change of state (\"Wir waren schon losgefahren\"), \"haben\" for everything else. \"Sein\", \"bleiben\" and \"werden\" also take \"sein\".",
-          "A frequent B1 slip is using the Plusquamperfekt as a general past, the way some English speakers overuse had: *Gestern hatte ich Pizza gegessen*. Use it only when one past event comes before another.",
+          "A frequent Intermediate slip is using the Plusquamperfekt as a general past, the way some English speakers overuse had: *Gestern hatte ich Pizza gegessen*. Use it only when one past event comes before another.",
         ],
         examples: [
           { es: "Wir sind gestern ins Kino gegangen.", en: "We went to the cinema yesterday." },
@@ -378,7 +378,7 @@ export const DE_B1_U34: Lesson[] = [
     slug: "b1-comprehensive-review-2",
     level: "DE-B1",
     number: 3,
-    title: "B1 Comprehensive Review, Part 2 of 3",
+    title: "Intermediate Comprehensive Review, Part 2 of 3",
     summary: "Bring back relative clauses, infinitive clauses, um...zu and damit, the passive, prepositional verbs and da-compounds.",
     duration: "15 min",
     sections: [
@@ -789,7 +789,7 @@ export const DE_B1_U34: Lesson[] = [
     slug: "b1-comprehensive-review-3",
     level: "DE-B1",
     number: 5,
-    title: "B1 Comprehensive Review, Part 3 of 3",
+    title: "Intermediate Comprehensive Review, Part 3 of 3",
     summary: "Bring back adjective endings, n-declension and the genitive, connectors, indefinite pronouns, word formation and spoken German.",
     duration: "15 min",
     sections: [
@@ -1000,8 +1000,8 @@ export const DE_B1_U34: Lesson[] = [
     slug: "b1-challenge-great-error-hunt",
     level: "DE-B1",
     number: 6,
-    title: "B1 Challenge: The Great Error Hunt",
-    summary: "Long learner texts with mistakes from every B1 unit: find each error, explain it and write the corrected German.",
+    title: "Intermediate Challenge: The Great Error Hunt",
+    summary: "Long learner texts with mistakes from every Intermediate unit: find each error, explain it and write the corrected German.",
     duration: "15 min",
     sections: [
       {
@@ -1076,7 +1076,7 @@ export const DE_B1_U34: Lesson[] = [
         body: [
           "Finally a short story: \"Gestern habe ich mit mein neuer Kollege Mittag gegessen. Er hat mir von seine Reise nach Island erzählt. Sein Koffer ist am Flughafen gestohlen geworden. Der Mann, dem den Koffer gestohlen hat, wurde nie gefunden. Trotz dem Problem hatte er einen tollen Urlaub.\"",
           "Errors: (1) \"mit\" + dative and n-noun: \"mit meinem neuen Kollegen\". (2) \"von\" + dative: \"von seiner Reise\". (3) Passive Perfekt: \"ist gestohlen worden\". (4) Subject relative pronoun: \"der den Koffer gestohlen hat\". (5) \"Trotz\" + genitive in writing: \"trotz des Problems\".",
-          "This is the B1 grammar in one paragraph: cases after prepositions, adjective endings, n-declension, the passive, relative pronouns and the genitive.",
+          "This is the Intermediate grammar in one paragraph: cases after prepositions, adjective endings, n-declension, the passive, relative pronouns and the genitive.",
         ],
         examples: [
           { es: "Ich habe mit meinem neuen Kollegen Mittag gegessen.", en: "I had lunch with my new colleague." },
@@ -1215,7 +1215,7 @@ export const DE_B1_U34: Lesson[] = [
     slug: "b1-challenge-dialogue-marathon",
     level: "DE-B1",
     number: 7,
-    title: "B1 Challenge: Dialogue Marathon",
+    title: "Intermediate Challenge: Dialogue Marathon",
     summary: "A chain of everyday conversations without hints: on the phone, at the bank, with the landlord, at the doctor's and with friends.",
     duration: "15 min",
     sections: [
@@ -1418,8 +1418,8 @@ export const DE_B1_U34: Lesson[] = [
     slug: "b1-challenge-translation-relay",
     level: "DE-B1",
     number: 8,
-    title: "B1 Challenge: Translation Relay",
-    summary: "Translate English sentences that hit every B1 trap: when, if, for, by, to, but and one.",
+    title: "Intermediate Challenge: Translation Relay",
+    summary: "Translate English sentences that hit every Intermediate trap: when, if, for, by, to, but and one.",
     duration: "15 min",
     sections: [
       {
@@ -1637,7 +1637,7 @@ export const DE_B1_U34: Lesson[] = [
     slug: "b1-challenge-build-the-sentence",
     level: "DE-B1",
     number: 9,
-    title: "B1 Challenge: Build the Sentence",
+    title: "Intermediate Challenge: Build the Sentence",
     summary: "Build long sentences with several clauses and the right word order in each: main clauses, subordinate clauses, relative clauses and infinitives.",
     duration: "15 min",
     sections: [
@@ -1713,7 +1713,7 @@ export const DE_B1_U34: Lesson[] = [
         body: [
           "In subordinate clauses, the conjugated verb goes after all the other verb forms: \"..., weil ich arbeiten muss\", \"..., dass er angerufen hat\", \"..., weil das Haus renoviert wird\", \"..., dass die Straße gesperrt werden musste\".",
           "Separable verbs join up again at the end: \"..., wenn der Film anfängt\". And with zu: \"anzufangen\".",
-          "One exception you may meet: with two infinitives in the Perfekt (\"hat ... machen lassen\"), the auxiliary goes before them: \"..., weil ich mein Auto habe reparieren lassen.\" Recognise it; you don't need to produce it at B1.",
+          "One exception you may meet: with two infinitives in the Perfekt (\"hat ... machen lassen\"), the auxiliary goes before them: \"..., weil ich mein Auto habe reparieren lassen.\" Recognise it; you don't need to produce it at the Intermediate level.",
         ],
         examples: [
           { es: "Ich komme nicht, weil ich arbeiten muss.", en: "I'm not coming because I have to work." },

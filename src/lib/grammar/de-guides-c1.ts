@@ -10,8 +10,8 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       "How formal German packs clauses into noun phrases and how to unpack them again: deriving nouns and their genders, genitive vs von, left and right attributes, prepositions that come with the noun, and when nominal style helps or hurts.",
     level: "C1",
     intro: [
-      `At B2 you learned to turn "weil der Zug Verspätung hatte" into "wegen der Verspätung des Zuges". At C1 the task is to handle whole noun phrases that carry the information of two or three clauses: "die von der Regierung angekündigte schrittweise Senkung der Steuern für kleine Unternehmen".`,
-      `German academic, legal and administrative writing is built on such phrases. Verbalstil (verbal style) uses clauses and verbs; Nominalstil uses nouns, prepositions and the genitive. Good C1 writers switch deliberately between the two: nominal for headlines, abstracts and reports, verbal for explanation and speech.`,
+      `At the Upper-intermediate level you learned to turn "weil der Zug Verspätung hatte" into "wegen der Verspätung des Zuges". At the Advanced level the task is to handle whole noun phrases that carry the information of two or three clauses: "die von der Regierung angekündigte schrittweise Senkung der Steuern für kleine Unternehmen".`,
+      `German academic, legal and administrative writing is built on such phrases. Verbalstil (verbal style) uses clauses and verbs; Nominalstil uses nouns, prepositions and the genitive. Good Advanced writers switch deliberately between the two: nominal for headlines, abstracts and reports, verbal for explanation and speech.`,
     ],
     sections: [
       {
@@ -85,7 +85,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "der Lösung des Problems",
         right: "die Lösung des Problems",
-        why: `Nouns in "-ung" are always feminine. Gender errors in derived nouns are the most common C1 slip.`,
+        why: `Nouns in "-ung" are always feminine. Gender errors in derived nouns are the most common Advanced slip.`,
       },
       {
         wrong: "die Lieferung Waren",
@@ -253,10 +253,10 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
     slug: "complex-connectors",
     title: "Complex Connectors: Wie Auch Immer, Es Sei Denn, Zumal, Infolgedessen",
     description:
-      "C1 connectors of concession, restriction, cause and conclusion: wenngleich, wie ... auch, was auch immer, es sei denn, sofern, insofern als, zumal, infolgedessen, mithin, and where each one puts the verb.",
+      "Advanced connectors of concession, restriction, cause and conclusion: wenngleich, wie ... auch, was auch immer, es sei denn, sofern, insofern als, zumal, infolgedessen, mithin, and where each one puts the verb.",
     level: "C1",
     intro: [
-      `At C1, the difference between a good and an excellent text is often in the connections. "Obwohl" and "deshalb" get you through B2; C1 needs a wider range: concessions that generalise ("wie sehr er sich auch bemüht"), restrictions ("es sei denn", "sofern", "soweit ich weiß"), formal consequences ("infolgedessen", "mithin") and markers that structure a whole argument.`,
+      `At the Advanced level, the difference between a good and an excellent text is often in the connections. "Obwohl" and "deshalb" get you through the Upper-intermediate level; the Advanced level needs a wider range: concessions that generalise ("wie sehr er sich auch bemüht"), restrictions ("es sei denn", "sofern", "soweit ich weiß"), formal consequences ("infolgedessen", "mithin") and markers that structure a whole argument.`,
       `Each connector belongs to a word-order class. Get the class right and the word order follows automatically.`,
     ],
     sections: [
@@ -373,13 +373,13 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
   },
   {
     slug: "supposition-and-hearsay",
-    title: "Subjective Modals, Supposition and Hearsay at C1: Er Dürfte, Er Soll, Er Will",
+    title: "Subjective Modals, Supposition and Hearsay at the Advanced Level: Er Dürfte, Er Soll, Er Will",
     description:
-      "The full C1 toolkit for degrees of certainty and reported claims in German: the modal scale (muss, dürfte, müsste, kann, mag), the perfect infinitive, hearsay sollen, claim wollen, distancing words like angeblich and mutmaßlich, and objective vs subjective modals in the past.",
+      "The full Advanced toolkit for degrees of certainty and reported claims in German: the modal scale (muss, dürfte, müsste, kann, mag), the perfect infinitive, hearsay sollen, claim wollen, distancing words like angeblich and mutmaßlich, and objective vs subjective modals in the past.",
     level: "C1",
     intro: [
       `German gives a careful speaker a whole scale of certainty: "Er muss zu Hause sein", "er dürfte zu Hause sein", "er müsste zu Hause sein", "er kann / könnte zu Hause sein". It also has neat ways to say where information comes from: "er soll" (people say), "er will" (he says so himself), "angeblich", "mutmaßlich", "dem Vernehmen nach".`,
-      `This matters most when you read the press and police reports, and when you write cautiously in academic or professional contexts. The B2 guide on modal verbs of inference covers the basics; this one adds the fine distinctions.`,
+      `This matters most when you read the press and police reports, and when you write cautiously in academic or professional contexts. The Upper-intermediate guide on modal verbs of inference covers the basics; this one adds the fine distinctions.`,
     ],
     sections: [
       {
@@ -493,7 +493,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       "Advanced Konjunktiv II in German: synthetic forms (käme, ginge, wüsste), unreal comparisons with als ob and als + verb, near misses with fast and beinahe, zu ... als dass, conditions with sollte, and the polite Konjunktiv.",
     level: "C1",
     intro: [
-      `By C1 you know "wäre", "hätte", "würde" and the past "hätte gemacht". This guide covers the structures that make Konjunktiv II sound native: the short synthetic forms of common strong verbs ("käme", "ginge", "wüsste"), unreal comparisons ("als hätte er nichts gehört"), the near miss ("beinahe hätte ich den Zug verpasst") and the unreal result ("zu kalt, als dass wir hätten baden können").`,
+      `By the Advanced level you know "wäre", "hätte", "würde" and the past "hätte gemacht". This guide covers the structures that make Konjunktiv II sound native: the short synthetic forms of common strong verbs ("käme", "ginge", "wüsste"), unreal comparisons ("als hätte er nichts gehört"), the near miss ("beinahe hätte ich den Zug verpasst") and the unreal result ("zu kalt, als dass wir hätten baden können").`,
     ],
     sections: [
       {
@@ -613,7 +613,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
     slug: "participle-and-infinitive-constructions",
     title: "Participle and Infinitive Constructions: Im Büro Angekommen, Behauptet, Ihn Gesehen zu Haben",
     description:
-      "Non-finite structures at C1: participial phrases used as adverbials (Im Büro angekommen, rief sie an), fixed phrases like genau genommen, zu-infinitives in the past and passive, infinitives without zu, and the infinitive in instructions.",
+      "Non-finite structures at the Advanced level: participial phrases used as adverbials (Im Büro angekommen, rief sie an), fixed phrases like genau genommen, zu-infinitives in the past and passive, infinitives without zu, and the infinitive in instructions.",
     level: "C1",
     intro: [
       `English uses -ing forms and infinitives constantly: Having arrived at the office, she called. He claims to have seen him. German handles the same ideas with participial phrases and zu-infinitives, but with stricter rules about who the subject is, where the comma goes and which tense the infinitive takes.`,
@@ -734,11 +734,11 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
     slug: "impersonal-passive-constructions",
     title: "Impersonal and Subjectless Passive: Hier Wird Nicht Geraucht, Mir Wurde Geholfen",
     description:
-      "The C1 passive: all tenses and modal passives, worden vs geworden, the subjectless passive (es wird getanzt), the passive of dative verbs, the bekommen passive, impersonal es constructions and middle verbs (Das Buch liest sich leicht).",
+      "The Advanced passive: all tenses and modal passives, worden vs geworden, the subjectless passive (es wird getanzt), the passive of dative verbs, the bekommen passive, impersonal es constructions and middle verbs (Das Buch liest sich leicht).",
     level: "C1",
     intro: [
       `English passives need a subject: I was helped, the door was opened. German passives do not. "Hier wird nicht geraucht" (no smoking here, literally here is not smoked) has no subject at all, and "Mir wurde geholfen" (I was helped) keeps the dative. This is the single biggest difference between the English and German passive.`,
-      `At C1 you also need the passive in every tense and mood ("hätte früher informiert werden müssen"), the bekommen passive, a family of impersonal "es" constructions and the middle voice ("Das liest sich gut").`,
+      `At the Advanced level you also need the passive in every tense and mood ("hätte früher informiert werden müssen"), the bekommen passive, a family of impersonal "es" constructions and the middle voice ("Das liest sich gut").`,
     ],
     sections: [
       {
@@ -1104,7 +1104,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
     level: "C1",
     intro: [
       `A German dictionary looks huge, but much of it is built from a limited set of parts. "Stellen" gives "bestellen" (order), "verstellen" (adjust, disguise), "entstellen" (disfigure), "herstellen" (produce), "darstellen" (represent), "die Vorstellung" (performance, idea, introduction). Knowing the building blocks lets you guess new words and choose precise ones.`,
-      `Word formation is also the key to reading fast at C1 and C2: compounds are read from right to left, prefixes signal a type of change, and suffixes tell you the word class and gender.`,
+      `Word formation is also the key to reading fast at the Advanced and Mastery levels: compounds are read from right to left, prefixes signal a type of change, and suffixes tell you the word class and gender.`,
     ],
     sections: [
       {
@@ -1225,7 +1225,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
     level: "C1",
     intro: [
       `German has a clearer line between formal and informal than English, and it runs through grammar as well as vocabulary. The same message can be "Wir haben Ihr Schreiben erhalten", "Wir haben Ihren Brief bekommen" or "Hab deinen Brief gekriegt". All are correct; each fits a different situation.`,
-      `On top of that comes the choice between "du" and "Sie", which English lost centuries ago. Getting register right is one of the clearest signs of C1 competence.`,
+      `On top of that comes the choice between "du" and "Sie", which English lost centuries ago. Getting register right is one of the clearest signs of Advanced competence.`,
     ],
     sections: [
       {

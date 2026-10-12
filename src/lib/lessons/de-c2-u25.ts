@@ -418,7 +418,7 @@ export const DE_C2_U25: Lesson[] = [
         heading: "Degrees of certainty",
         body: [
           "Good historians show how sure they are. German has a precise scale: \"zweifellos\" / \"zweifelsohne\" (undoubtedly), \"offenbar\" / \"offensichtlich\" (evidently, apparently), \"wahrscheinlich\" / \"vermutlich\" (probably, presumably), \"möglicherweise\" (possibly), \"kaum\" (hardly). \"Mutmaßlich\" (alleged, presumed) is used for people and acts: \"der mutmaßliche Täter\", \"die mutmaßliche Urheberschaft\".",
-          "Watch \"scheinbar\" vs \"anscheinend\": \"anscheinend\" means apparently (and probably really so); \"scheinbar\" strictly means seemingly but not really: \"Die Lage war nur scheinbar ruhig.\" Many native speakers mix them up, but in a C2 text the difference is expected.",
+          "Watch \"scheinbar\" vs \"anscheinend\": \"anscheinend\" means apparently (and probably really so); \"scheinbar\" strictly means seemingly but not really: \"Die Lage war nur scheinbar ruhig.\" Many native speakers mix them up, but in a Mastery-level text the difference is expected.",
           "Formulas with \"es\": \"Es ist davon auszugehen, dass ...\" (it can be assumed that), \"Es spricht einiges dafür, dass ...\" (there is some evidence that), \"Es ist nicht auszuschließen, dass ...\" (it cannot be ruled out), \"Es lässt sich nicht mehr klären, ob ...\" (it can no longer be established whether).",
         ],
         examples: [
@@ -881,7 +881,7 @@ export const DE_C2_U25: Lesson[] = [
         body: [
           "\"Die Reichsgründung\" of 1871 (proclaimed on 18 January in the Hall of Mirrors at Versailles) creates \"das Deutsche Kaiserreich\" under Prussian leadership: a unification \"von oben\" (from above), achieved by Bismarck after three wars and excluding Austria (\"die kleindeutsche Lösung\"). Contrast 1848, which had tried unification \"von unten\" (from below).",
           "After defeat and \"die Novemberrevolution\" of 1918 comes \"die Weimarer Republik\" (1918/19-1933), Germany's first parliamentary democracy, named after the town where the National Assembly met in 1919. Standard phrases: \"die Hyperinflation von 1923\", \"die Goldenen Zwanziger\", \"die Präsidialkabinette\" from 1930 onwards, governing by emergency decree.",
-          "30 January 1933: two terms compete. \"Die Machtergreifung\" (seizure of power) was the Nazis' own word; it suggests a conquest. Many historians prefer \"die Machtübertragung\" (transfer of power), because Hindenburg appointed Hitler by constitutional means, or the neutral \"die Machtübernahme\" (takeover). In an essay, write \"die sogenannte Machtergreifung\" or put the word in quotation marks. This terminological awareness is exactly what marks a C2 text.",
+          "30 January 1933: two terms compete. \"Die Machtergreifung\" (seizure of power) was the Nazis' own word; it suggests a conquest. Many historians prefer \"die Machtübertragung\" (transfer of power), because Hindenburg appointed Hitler by constitutional means, or the neutral \"die Machtübernahme\" (takeover). In an essay, write \"die sogenannte Machtergreifung\" or put the word in quotation marks. This terminological awareness is exactly what marks a Mastery-level text.",
         ],
         examples: [
           { es: "Am 18. Januar 1871 wurde im Spiegelsaal von Versailles das Deutsche Kaiserreich proklamiert.", en: "On 18 January 1871 the German Empire was proclaimed in the Hall of Mirrors at Versailles." },
@@ -1995,7 +1995,7 @@ export const DE_C2_U25: Lesson[] = [
     slug: "c2-history-spiral-review",
     level: "DE-C2",
     number: 10,
-    title: "Spiral Review: Geschichte Erzählen mit dem Ganzen C2",
+    title: "Spiral Review: Geschichte Erzählen mit der Ganzen Grammatik",
     summary: "Recombine narrative tenses, causal connectors, hedging, citation and Konjunktiv II in a 300-word historical text on the building of the Berlin Wall in 1961.",
     duration: "20 min",
     sections: [
@@ -2230,7 +2230,7 @@ export const DE_C2_U25: Lesson[] = [
     slug: "c2-vocab-nuanced-emotions",
     level: "DE-C2",
     number: 11,
-    title: "C2 Vocabulary: Nuanced Emotions",
+    title: "Mastery Vocabulary: Nuanced Emotions",
     summary: "The emotions German names in one word: Wehmut, Sehnsucht, Fernweh, Weltschmerz, Torschlusspanik, Fremdscham, Schadenfreude, Genugtuung, Beklommenheit and Verbitterung.",
     duration: "15 min",
     sections: [

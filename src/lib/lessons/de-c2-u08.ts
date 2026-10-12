@@ -862,7 +862,7 @@ export const DE_C2_U08: Lesson[] = [
         body: [
           "German, too, has polite ways to say no. In a meeting, \"Das ist eine interessante Idee\" or \"Darüber müssten wir noch mal nachdenken\" often means no. \"Wir melden uns\" (we'll be in touch) after a job interview may mean you're out. \"Mal sehen\" (we'll see) from a parent means probably not. \"Schauen wir mal\" is similarly noncommittal.",
           "But German refusals are typically clearer than British ones. \"Das passt mir leider nicht\" (that doesn't suit me, I'm afraid) or \"Da muss ich leider absagen\" is a plain, polite no; it doesn't need three apologies. An English speaker's 'I'm not sure that's the best idea' may be taken literally in Germany: as genuine uncertainty that invites discussion, not as a polite no.",
-          "Equally, a German's \"Nein, das geht nicht\" is not rude; it is informative. Reading the tone right is a C2 skill in both directions.",
+          "Equally, a German's \"Nein, das geht nicht\" is not rude; it is informative. Reading the tone right is a Mastery-level skill in both directions.",
         ],
         examples: [
           { es: "Das ist eine interessante Idee.", en: "That's an interesting idea. (often: no)" },
@@ -1419,7 +1419,7 @@ export const DE_C2_U08: Lesson[] = [
     slug: "c2-vocab-false-friends-1",
     level: "DE-C2",
     number: 8,
-    title: "C2 Vocabulary: Advanced False Friends, Part 1 of 2",
+    title: "Mastery Vocabulary: Advanced False Friends, Part 1 of 2",
     summary: "eventuell, aktuell, sensibel, konsequent, Chef, also, bekommen, Gift, Rente, Provision, sympathisch, seriös: what they really mean and how to say the English word.",
     duration: "18 min",
     sections: [

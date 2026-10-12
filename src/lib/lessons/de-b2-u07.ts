@@ -15,7 +15,7 @@ export const DE_B2_U07: Lesson[] = [
         heading: "Participles are adjectives too",
         body: [
           "Every German verb has two participles. Partizip I is the infinitive + d: \"schlafen\" → \"schlafend\" (sleeping), \"steigen\" → \"steigend\" (rising). Partizip II is the one you know from the Perfekt: \"repariert\", \"geschrieben\", \"renoviert\".",
-          "Both can stand before a noun like any adjective, and then they take exactly the adjective endings you learned at B1: \"das schlafende Kind\", \"ein schlafendes Kind\", \"mit dem schlafenden Kind\"; \"die reparierte Brücke\", \"eine reparierte Brücke\", \"auf der reparierten Brücke\". No new endings to learn, just new words in the adjective slot.",
+          "Both can stand before a noun like any adjective, and then they take exactly the adjective endings you learned at the Intermediate level: \"das schlafende Kind\", \"ein schlafendes Kind\", \"mit dem schlafenden Kind\"; \"die reparierte Brücke\", \"eine reparierte Brücke\", \"auf der reparierten Brücke\". No new endings to learn, just new words in the adjective slot.",
           "The meaning differs: Partizip I is active and ongoing (the child is sleeping), Partizip II is usually passive or completed (the bridge has been repaired). \"Die lachenden Kinder\" are laughing; \"die renovierte Wohnung\" has been renovated. This is the same logic as English sleeping child vs repaired bridge, so far so easy.",
         ],
         examples: [
@@ -227,7 +227,7 @@ export const DE_B2_U07: Lesson[] = [
         body: [
           "The frame: article + extra information + Partizip II + ending + noun. The ending comes from the article and the case, exactly as for any adjective. After \"der/die/das\" in the nominative singular: -e (\"der gestern gekaufte Mantel\", \"die gestern gekaufte Jacke\", \"das gestern gekaufte Buch\"). Plural: -en (\"die gestern gekauften Schuhe\").",
           "Accusative: only the masculine changes: \"den gestern gekauften Mantel\". Feminine and neuter stay the same: \"die gestern gekaufte Jacke\", \"das gestern gekaufte Buch\".",
-          "With \"ein\" words the strong ending shows up on the participle where the article has none: \"ein gestern gekaufter Mantel\", \"ein gestern gekauftes Buch\". It's the B1 adjective table, nothing more.",
+          "With \"ein\" words the strong ending shows up on the participle where the article has none: \"ein gestern gekaufter Mantel\", \"ein gestern gekauftes Buch\". It's the Intermediate adjective table, nothing more.",
         ],
         examples: [
           { es: "Der gestern gekaufte Mantel ist zu klein.", en: "The coat I bought yesterday is too small." },

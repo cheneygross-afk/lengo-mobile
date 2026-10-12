@@ -51,7 +51,7 @@ export const DE_B1_U03: Lesson[] = [
         body: [
           "Use it when you're already telling something in the past and need to step one stage further back: \"Als ich am Bahnhof ankam, war der Zug schon abgefahren\" (When I got to the station, the train had already left). Two past events: the train leaving happened first.",
           "Typical companions: \"schon\" (already), \"noch nicht\" (not yet), \"vorher\" (before that), \"kurz davor\" (just before). The later event is in the Präteritum or Perfekt.",
-          "\"Als ich ankam\" (when I arrived) is a chunk you met at A2; Unit 4 explains \"als\" fully.",
+          "\"Als ich ankam\" (when I arrived) is a chunk you met at the Elementary level; Unit 4 explains \"als\" fully.",
         ],
         examples: [
           { es: "Als ich ankam, war der Zug schon abgefahren.", en: "When I arrived, the train had already left." },
@@ -280,7 +280,7 @@ export const DE_B1_U03: Lesson[] = [
         heading: "Spoken shortcuts",
         body: [
           "In everyday speech many Germans avoid \"nachdem\" and use \"nach\" + noun (\"nach dem Frühstück\") or two main clauses with \"danach\" or \"dann\": \"Ich habe gefrühstückt, und danach bin ich losgefahren.\" It's simpler and completely natural.",
-          "You'll compare \"nach\", \"nachdem\" and \"danach\" in Lesson 7. For writing and exams, \"nachdem\" with the correct tense shift shows real B1 control.",
+          "You'll compare \"nach\", \"nachdem\" and \"danach\" in Lesson 7. For writing and exams, \"nachdem\" with the correct tense shift shows real Intermediate control.",
         ],
         examples: [
           { es: "Nach dem Frühstück bin ich losgefahren.", en: "After breakfast I set off." },
@@ -728,14 +728,14 @@ export const DE_B1_U03: Lesson[] = [
     slug: "b1-vocabulary-practice-1",
     level: "DE-B1",
     number: 5,
-    title: "B1 Vocabulary Practice, Part 1 of 10",
-    summary: "High-frequency B1 verbs of daily life and travel, with their Präteritum and participle.",
+    title: "Intermediate Vocabulary Practice, Part 1 of 10",
+    summary: "High-frequency Intermediate verbs of daily life and travel, with their Präteritum and participle.",
     duration: "14 min",
     sections: [
       {
         heading: "Daily life",
         body: [
-          "Learn B1 verbs with three forms: infinitive, Präteritum, participle (with the auxiliary). \"Sich beeilen\" (to hurry: beeilte, hat sich beeilt), \"erledigen\" (to get done: erledigte, hat erledigt), \"aufräumen\" (to tidy: räumte auf, hat aufgeräumt), \"sich ausruhen\" (to rest: ruhte sich aus, hat sich ausgeruht), \"verbringen\" (to spend time: verbrachte, hat verbracht).",
+          "Learn Intermediate verbs with three forms: infinitive, Präteritum, participle (with the auxiliary). \"Sich beeilen\" (to hurry: beeilte, hat sich beeilt), \"erledigen\" (to get done: erledigte, hat erledigt), \"aufräumen\" (to tidy: räumte auf, hat aufgeräumt), \"sich ausruhen\" (to rest: ruhte sich aus, hat sich ausgeruht), \"verbringen\" (to spend time: verbrachte, hat verbracht).",
           "\"Verbringen\" is for time only: \"Wir verbrachten das Wochenende am See\". Spending money is \"ausgeben\" (gab aus, hat ausgegeben).",
         ],
         examples: [
@@ -801,7 +801,7 @@ export const DE_B1_U03: Lesson[] = [
       {
         heading: "Verbs with tricky forms",
         body: [
-          "Some B1 verbs need special care: \"vorschlagen\" (to suggest: schlug vor, hat vorgeschlagen), \"sich unterhalten\" (to chat: unterhielt sich, hat sich unterhalten: inseparable!), \"verlassen\" (to leave a place: verließ, hat verlassen, always with an object), \"vorbeikommen\" (to drop by: kam vorbei, ist vorbeigekommen).",
+          "Some Intermediate verbs need special care: \"vorschlagen\" (to suggest: schlug vor, hat vorgeschlagen), \"sich unterhalten\" (to chat: unterhielt sich, hat sich unterhalten: inseparable!), \"verlassen\" (to leave a place: verließ, hat verlassen, always with an object), \"vorbeikommen\" (to drop by: kam vorbei, ist vorbeigekommen).",
           "\"Verlassen\" vs \"weggehen\": \"Sie verließ das Haus\" (object) / \"Sie ging weg\" (no object).",
         ],
         examples: [
