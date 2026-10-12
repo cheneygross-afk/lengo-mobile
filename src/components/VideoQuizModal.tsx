@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Modal, View, Text, Pressable, ScrollView, Linking, StyleSheet } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
-import TapText, { voiceFor } from "@/components/TapText";
+import TapText, { isTargetText } from "@/components/TapText";
 import { speak, SPANISH_LANG } from "@/lib/speech";
 import { optionOrder } from "@/lib/grading";
 import { videoUrlFor, type LessonVideo } from "@/lib/lessons/lessonVideos";
@@ -62,7 +62,7 @@ function Quiz({ video, onClose }: { video: LessonVideo; onClose: () => void }) {
 
   function pick(i: number) {
     if (picked !== null || !q) return;
-    speak(q.options[i], voiceFor(q.options[i], LANG));
+    if (isTargetText(q.options[i], LANG)) speak(q.options[i], LANG);
     setPicked(i);
     if (i === q.answerIndex) setCorrect((c) => c + 1);
   }

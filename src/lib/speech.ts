@@ -145,11 +145,17 @@ export function setPronunciationEnabled(enabled: boolean): void {
   pronunciationEnabled = enabled;
   prefsLoaded = true;
   if (!enabled) {
-    currentPlayer?.remove();
-    currentPlayer = null;
+    stopPlayback();
     Speech.stop();
   }
 }
+
+// Start loading the settings when the app starts, not on the first tap.
+setTimeout(() => {
+  void loadPronunciationPrefs();
+  void loadSpanishVariety();
+  void ensureAudioMode();
+}, 0);
 
 function loadPronunciationPrefs(): Promise<void> {
   if (prefsLoaded) return Promise.resolve();
@@ -213,6 +219,44 @@ function deviceVoiceFor(lang: SpeechLang): Promise<string | undefined> {
 
 let currentPlayer: AudioPlayer | null = null;
 
+// Clips heard this session, kept loaded so tapping the same word again
+// plays at once instead of streaming it again. Oldest dropped first past
+// TAP_PLAYERS_SIZE.
+const TAP_PLAYERS_SIZE = 30;
+const tapPlayers = new Map<string, AudioPlayer>();
+// The kept player playing right now, if any (paused, not removed, to stop).
+let currentTap: AudioPlayer | null = null;
+
+function keepPlayer(url: string, player: AudioPlayer): void {
+  tapPlayers.delete(url);
+  tapPlayers.set(url, player);
+  for (const [oldUrl, old] of tapPlayers) {
+    if (tapPlayers.size <= TAP_PLAYERS_SIZE) break;
+    if (old === currentTap) continue;
+    tapPlayers.delete(oldUrl);
+    old.remove();
+  }
+}
+
+/** Plays a kept clip from the start; false when there isn't one. */
+function replayKept(url: string, rate: number): boolean {
+  const player = tapPlayers.get(url);
+  if (!player) return false;
+  currentTap = player;
+  player.setPlaybackRate(rate, "high");
+  void player.seekTo(0).then(() => {
+    if (currentTap === player) player.play();
+  });
+  return true;
+}
+
+function stopPlayback(): void {
+  currentPlayer?.remove();
+  currentPlayer = null;
+  currentTap?.pause();
+  currentTap = null;
+}
+
 // iOS mutes app audio while the ring/silent switch is on silent unless the
 // app opts out -- which left every Google clip silent on a phone in silent
 // mode (the device voice, which ignores the switch, still spoke). A
@@ -248,6 +292,7 @@ function tryPlayRemote(url: string, rate = 1): Promise<boolean> {
   return new Promise((resolve) => {
     let settled = false;
     let started = false;
+    let timedOut = false;
     const finish = (ok: boolean) => {
       if (settled) return;
       settled = true;
@@ -263,22 +308,66 @@ function tryPlayRemote(url: string, rate = 1): Promise<boolean> {
     currentPlayer = player;
     const sub = player.addListener("playbackStatusUpdate", (status: AudioStatus) => {
       if (status.error) {
+        if (currentPlayer === player) currentPlayer = null;
+        sub.remove();
+        try {
+          player.remove();
+        } catch {}
         finish(false);
         return;
       }
       if (status.isLoaded && !started) {
         started = true;
+        if (timedOut) {
+          // Too late for this tap (the device voice spoke): keep it
+          // loaded for the next one.
+          if (currentPlayer === player) currentPlayer = null;
+          keepPlayer(url, player);
+          return;
+        }
         // Pitch-corrected, so slowed-down speech doesn't sound deeper.
         if (rate !== 1) player.setPlaybackRate(rate, "high");
         player.play();
         finish(true);
       }
-      if (status.didJustFinish) {
-        player.remove();
-        sub.remove();
+      if (status.didJustFinish && currentPlayer === player) {
+        // Kept for the next tap on the same words.
+        currentPlayer = null;
+        keepPlayer(url, player);
       }
     });
-    setTimeout(() => finish(false), 4000);
+    // A clip that hasn't started in 0.7 s gives way to the device voice
+    // (it carries on loading for the next tap): a slow connection
+    // shouldn't leave a tap silent.
+    setTimeout(() => {
+      if (!started) timedOut = true;
+      finish(false);
+    }, 700);
+  });
+}
+
+// Stops and frees the clip that's loading or playing (its load may still
+// be in flight when the clip turns out not to exist).
+function dropCurrentPlayer(): void {
+  const player: AudioPlayer | null = currentPlayer;
+  player?.remove();
+  currentPlayer = null;
+}
+
+// Clips known to exist (played or checked this session): no need to ask
+// storage again before playing them.
+const knownClips = new Set<string>();
+// Clips being generated right now, so a second tap doesn't ask again.
+const generating = new Set<string>();
+
+/** Has the cloud clip made (the website's /api/pronounce) in the
+ * background, so the next tap on this text plays it at once. */
+function generateInBackground(text: string, lang: SpeechLang, voice: PronunciationVoice, url: string): void {
+  if (generating.has(url)) return;
+  generating.add(url);
+  void requestGeneration(text, lang, voice).then((generated) => {
+    generating.delete(url);
+    if (generated) knownClips.add(generated);
   });
 }
 
@@ -319,9 +408,10 @@ async function speakOnDevice(clean: string, lang: SpeechLang, rate = 1) {
 }
 
 // Speaks `text` in `lang`: plays the cached cloud recording when one
-// exists, generates it on the fly the first time this exact text is ever
-// requested anywhere, and falls back to the device's own voice if the
-// cloud path fails or isn't offered for this language. Cancels anything
+// exists; the first time this exact text is ever requested anywhere, says
+// it with the device's own voice at once and has the recording made in
+// the background for next time. The device voice also covers a failed
+// or slow clip and languages without a cloud voice. Cancels anything
 // already playing/speaking first so rapid taps (flipping through
 // flashcards, tapping several words) don't pile up overlapping audio.
 // `rate` below 1 slows playback down (dictation's "slow" replay).
@@ -330,15 +420,15 @@ export function speak(text: string, requestedLang: SpeechLang, rate = 1) {
   if (!clean) return;
 
   stopReadAloud();
-  currentPlayer?.remove();
-  currentPlayer = null;
+  stopPlayback();
   Speech.stop();
   // stopReadAloud() just bumped this; a later tap bumps it again, so a
   // tap still waiting on the network can tell it's been superseded.
   const run = readAloudRun;
 
   void (async () => {
-    await Promise.all([loadPronunciationPrefs(), loadSpanishVariety()]);
+    // Never waits on the account's settings: until they arrive, the
+    // defaults speak.
     if (!pronunciationEnabled) return;
     const lang = voiceLang(requestedLang);
 
@@ -350,12 +440,28 @@ export function speak(text: string, requestedLang: SpeechLang, rate = 1) {
     await ensureAudioMode();
     const voice = preferredVoice;
     const cachedUrl = audioUrl(clean, lang, voice);
-    const cached = await clipExists(cachedUrl);
     if (run !== readAloudRun) return;
-    if (cached && (await tryPlayRemote(cachedUrl, rate))) return;
-    const generatedUrl = await requestGeneration(clean, lang, voice);
-    if (run !== readAloudRun) return;
-    if (generatedUrl && (await tryPlayRemote(generatedUrl, rate))) return;
+    if (replayKept(cachedUrl, rate)) return;
+    // Start loading the clip straight away, and (unless it's known to
+    // exist) check in parallel that it's there: one round trip, not two.
+    const playing = tryPlayRemote(cachedUrl, rate);
+    if (!knownClips.has(cachedUrl)) {
+      const cached = await clipExists(cachedUrl);
+      if (run !== readAloudRun) return;
+      if (!cached) {
+        // Nobody has asked for this text yet. Making the clip takes a
+        // second or two, so speak it on the device now and have the clip
+        // made for next time.
+        dropCurrentPlayer();
+        generateInBackground(clean, lang, voice, cachedUrl);
+        void speakOnDevice(clean, lang, rate);
+        return;
+      }
+    }
+    if (await playing) {
+      knownClips.add(cachedUrl);
+      return;
+    }
     if (run !== readAloudRun) return;
     void speakOnDevice(clean, lang, rate);
   })();
@@ -378,8 +484,7 @@ export async function setRecordingMode(on: boolean): Promise<void> {
 
 export function stopSpeaking() {
   stopReadAloud();
-  currentPlayer?.remove();
-  currentPlayer = null;
+  stopPlayback();
   Speech.stop();
 }
 
@@ -533,8 +638,7 @@ export function readAloud(
   voices?: (PronunciationVoice | undefined)[]
 ): void {
   stopReadAloud();
-  currentPlayer?.remove();
-  currentPlayer = null;
+  stopPlayback();
   Speech.stop();
   const run = readAloudRun;
   void (async () => {

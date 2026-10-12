@@ -692,6 +692,7 @@ function TeachStep({
                 enabled={highlightsEnabled}
                 markColor={markColor}
                 lang={lang}
+                mixed
                 textStyle={s.teachBody}
                 style={s.teachBodyBlock}
                 onAdd={(start, end, selected) => onAddHighlight(blockKey, p, start, end, selected)}
@@ -723,7 +724,7 @@ function TeachStep({
                     highlights={highlightsFor(enKey)}
                     enabled={highlightsEnabled}
                     markColor={markColor}
-                    lang={ENGLISH_LANG}
+                    lang={null}
                     textStyle={s.exampleEn}
                     style={s.exampleEnBlock}
                     onAdd={(start, end, selected) => onAddHighlight(enKey, ex.en ?? "", start, end, selected)}

@@ -15,7 +15,7 @@ import {
 import type { DictationExercise, ListenChooseExercise, SpeakExercise, WriteExercise } from "@/lib/lessons/types";
 import { setRecordingMode, speak, stopSpeaking, type SpeechLang } from "@/lib/speech";
 import { AnswerCompare } from "@/components/AnswerCompare";
-import TapText, { voiceFor } from "@/components/TapText";
+import TapText, { isTargetText } from "@/components/TapText";
 import { dictationAnswer, gradeDictation, optionOrder } from "@/lib/grading";
 import { countWords, parseWritingFeedback, type WritingFeedback } from "@/lib/writingFeedback";
 import { supabase } from "@/lib/supabase/client";
@@ -74,7 +74,7 @@ export function ListenChoose({
               key={i}
               disabled={checked}
               onPress={() => {
-                speak(opt, voiceFor(opt, lang));
+                if (isTargetText(opt, lang)) speak(opt, lang);
                 setSelected(i);
               }}
               style={[
