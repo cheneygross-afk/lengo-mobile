@@ -29,3 +29,8 @@ export function isFrenchLevelPath(levelPath: string): boolean {
 export function isGermanLevelPath(levelPath: string): boolean {
   return levelPath === "de" || levelPath.startsWith("de/");
 }
+
+/** The course's language as an English name ("Spanish", "Japanese" ...). */
+export function courseName(course: CourseId): string {
+  return { es: "Spanish", fr: "French", de: "German", ja: "Japanese", zh: "Chinese", en: "English" }[course];
+}

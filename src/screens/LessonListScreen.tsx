@@ -18,6 +18,9 @@ import { LEVEL_WATCH_VIDEOS } from "@/lib/lessons/lessonVideos";
 import type { SpanishLevelPath } from "@/lib/lessons/levels";
 import { frenchLevelIfLoaded, frenchLevelInfo, loadFrenchLevel } from "@/lib/lessons/french";
 import { germanLevelIfLoaded, germanLevelInfo, loadGermanLevel } from "@/lib/lessons/german";
+import { planCovers, useAuth } from "@/lib/auth/AuthContext";
+import { courseOfLevelPath } from "@/lib/courses";
+import { freeSlugs } from "@/lib/freeLessons";
 
 // A French or German level, loaded on demand (lessons/french.ts, lessons/german.ts).
 type LazyLevelData = { levelPath: string; lessons: Lesson[]; units: ModuleUnit[] };
@@ -76,6 +79,14 @@ export default function LessonListScreen({ navigation, route }: Props) {
     return { levelPath: lazyInfo.levelPath, title: lazyInfo.label, lessons: lazyData?.lessons ?? [], units: lazyData?.units };
   }, [lazyInfo, moduleKey, lazyData]);
   // French and German lessons are opened with their levelPath (see LessonRunner).
+  // Without a plan for this course, only the free opening is open
+  // (lib/freeLessons.ts); the rest show a lock.
+  const { lessonsCourses } = useAuth();
+  const hasPlan = planCovers(lessonsCourses, courseOfLevelPath(source.levelPath));
+  const free = useMemo(
+    () => (hasPlan ? null : freeSlugs(source.levelPath, source.lessons, lazyInfo ? lazyData?.units : undefined)),
+    [hasPlan, source.levelPath, source.lessons, lazyInfo, lazyData?.units]
+  );
   const openLesson = (slug: string) =>
     navigation.navigate("LessonRunner", lazyInfo ? { slug, levelPath: source.levelPath } : { slug });
   const [completed, setCompleted] = useState<Record<string, boolean>>({});
@@ -252,6 +263,8 @@ export default function LessonListScreen({ navigation, route }: Props) {
         }}
         renderItem={({ item }) => {
           if (item.kind === "testout") {
+            // Testing out of a unit is part of the plan.
+            if (!hasPlan) return null;
             return (
               <View style={styles.testOutRow}>
                 <Text style={styles.testOutText}>Already know this? Test out to skip the unit.</Text>
@@ -280,6 +293,7 @@ export default function LessonListScreen({ navigation, route }: Props) {
           }
           const lesson = item.lesson;
           const done = !!completed[lesson.slug];
+          const locked = !!free && !free.has(lesson.slug);
           return (
             <Pressable
               style={[styles.row, units && styles.rowInUnit]}
@@ -291,12 +305,13 @@ export default function LessonListScreen({ navigation, route }: Props) {
               <View style={styles.rowBody}>
                 <Text style={styles.rowTitle}>{titles.get(lesson.slug)}</Text>
                 <Text style={styles.rowSummary} numberOfLines={2}>
+                  {free && !locked ? "Free · " : ""}
                   {lesson.optional ? "Optional · " : ""}
                   {lesson.unitReview ? "Unit review · " : ""}
                   {lesson.summary}
                 </Text>
               </View>
-              <Text style={styles.duration}>{lesson.duration}</Text>
+              <Text style={styles.duration}>{locked ? "🔒" : lesson.duration}</Text>
             </Pressable>
           );
         }}

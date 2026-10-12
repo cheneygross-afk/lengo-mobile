@@ -98,27 +98,18 @@ async function loadSummary(fromCloud: boolean): Promise<Summary> {
 }
 
 export default function HomeScreen({ navigation }: Props) {
-  const { session, hasJapaneseBetaAccess } = useAuth();
+  const { session } = useAuth();
   const [language, setLanguage] = useState<Language>("es");
 
   useFocusEffect(
     useCallback(() => {
       readJSON<Language>(LANGUAGE_STORAGE_KEY, "es").then((saved) => {
-        // An account without beta access (or one that's lost it) never
-        // sees Japanese, even if a previous session on this device had
-        // it selected. French and German are open to every account, like Spanish.
-        setLanguage(
-          (saved === "ja" || saved === "zh") && hasJapaneseBetaAccess ? saved : saved === "fr" || saved === "de" ? saved : "es"
-        );
+        // Every course is open to every account (lessons are gated one by
+        // one, with a free opening).
+        setLanguage(saved === "ja" || saved === "zh" || saved === "fr" || saved === "de" ? saved : "es");
       });
-    }, [hasJapaneseBetaAccess])
+    }, [])
   );
-
-  // Falls back to Spanish the moment access is lost mid-session too, not
-  // just on next focus.
-  useEffect(() => {
-    if ((language === "ja" || language === "zh") && !hasJapaneseBetaAccess) setLanguage("es");
-  }, [hasJapaneseBetaAccess, language]);
 
   const [summary, setSummary] = useState<Summary | null>(null);
   const syncedRef = useRef(false);
@@ -199,12 +190,8 @@ export default function HomeScreen({ navigation }: Props) {
             <LangPill label="Spanish" active={language === "es"} onPress={() => selectLanguage("es")} />
             <LangPill label="French" active={language === "fr"} onPress={() => selectLanguage("fr")} />
             <LangPill label="German" active={language === "de"} onPress={() => selectLanguage("de")} />
-            {hasJapaneseBetaAccess && (
-              <>
-                <LangPill label="Japanese (beta)" active={language === "ja"} onPress={() => selectLanguage("ja")} />
-                <LangPill label="Chinese (beta)" active={language === "zh"} onPress={() => selectLanguage("zh")} />
-              </>
-            )}
+            <LangPill label="Japanese" active={language === "ja"} onPress={() => selectLanguage("ja")} />
+            <LangPill label="Chinese" active={language === "zh"} onPress={() => selectLanguage("zh")} />
           </View>
 
           {summary && language === "es" && (

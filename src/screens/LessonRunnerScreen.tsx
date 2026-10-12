@@ -37,7 +37,10 @@ import {
   type MissedQuestion,
 } from "@/lib/lessons/missedQuestions";
 import { autoEnrollLessonVocabulary } from "@/lib/flashcards/store";
-import { useAuth } from "@/lib/auth/AuthContext";
+import { planCovers, useAuth } from "@/lib/auth/AuthContext";
+import { freeSlugs } from "@/lib/freeLessons";
+import { courseOfLevelPath } from "@/lib/courses";
+import PlanLock from "@/components/PlanLock";
 import { supabase } from "@/lib/supabase/client";
 import {
   deleteLessonHighlight,
@@ -262,8 +265,14 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   // is read from profiles.highlight_color once per session/account (same
   // table+column SettingsScreen writes to), and this lesson's saved
   // highlights are (re)loaded whenever the lesson or login state changes.
-  const { session } = useAuth();
+  const { session, lessonsCourses } = useAuth();
   const loggedIn = !!session?.user?.id;
+  // Free opening (lib/freeLessons.ts), or a plan covering the course.
+  const course = courseOfLevelPath(levelPath);
+  const allowed =
+    !lesson ||
+    planCovers(lessonsCourses, course) ||
+    freeSlugs(levelPath, trackLessons, lazyPath ? lazyData?.units : undefined).has(lesson.slug);
   const [highlightColor, setHighlightColor] = useState<string | null>(null);
   const [highlights, setHighlights] = useState<LessonHighlight[]>([]);
   const highlightMark = highlightMarkColor(highlightColor);
@@ -376,6 +385,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       </View>
     );
   }
+  if (!allowed) return <PlanLock title={shownTitle} course={course} />;
   if (steps.length === 0) return <View style={s.screen} />;
 
   async function finish() {

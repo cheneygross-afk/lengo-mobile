@@ -1,6 +1,6 @@
 import EmailPrefs from "@/components/EmailPrefs";
 import { useEffect, useState } from "react";
-import { View, Text, TextInput, Pressable, Switch, StyleSheet, Linking, ActivityIndicator, ScrollView, Alert } from "react-native";
+import { View, Text, TextInput, Pressable, Switch, StyleSheet, ActivityIndicator, ScrollView, Alert } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
@@ -16,6 +16,7 @@ import {
 import { setPreferredVoice, setPronunciationEnabled } from "@/lib/speech";
 import SpanishVarietyPicker from "@/components/SpanishVarietyPicker";
 import { syncPrefs, updatePrefs } from "@/lib/learnerPrefs";
+import { openPremium as openWebsitePlans } from "@/lib/premium";
 import {
   DAILY_GOAL_LABELS,
   DAILY_GOAL_OPTIONS,
@@ -26,14 +27,8 @@ import {
 } from "@/lib/learnerPlan";
 
 // Screen reached from Home's "Settings" link (previously a bare "Log
-// out" link there). "Get Premium" is a plain hyperlink out to the
-// website's own plan-purchase page (Stripe Checkout lives there, behind
-// SubscribeButton) -- deliberately NOT any in-app purchase flow, so no
-// purchase is ever made inside the app itself, and the app stays clear
-// of Apple/Google's in-app-purchase requirements for a subscription sold
-// this way.
-const PREMIUM_URL = "https://deependspanish.com/pricing";
-const HANDOFF_URL = "https://deependspanish.com/api/mobile/handoff";
+// out" link there). "Get Premium" opens the website's own plan-purchase
+// page (lib/premium.ts) -- deliberately NOT any in-app purchase flow.
 // Backs the "Delete account" link at the very bottom of this screen --
 // required by Apple for apps with sign-up (Guideline 5.1.1(v)). The
 // route cancels any Stripe subscription first, then deletes the user.
@@ -100,7 +95,7 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
   const [passwordJustChanged, setPasswordJustChanged] = useState(false);
 
   // The app's session lives in AsyncStorage, not cookies, so just
-  // opening PREMIUM_URL in the phone's browser would drop an
+  // opening the pricing page in the phone's browser would drop an
   // already-logged-in student on the website's login screen. Instead
   // this trades the app session's access token for a one-time sign-in
   // link scoped to that same account (see /api/mobile/handoff on the
@@ -110,25 +105,10 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
     if (openingPremium) return;
     setOpeningPremium(true);
     try {
-      const { data } = await supabase.auth.getSession();
-      const token = data.session?.access_token;
-      if (token) {
-        const res = await fetch(HANDOFF_URL, {
-          method: "POST",
-          headers: { Authorization: `Bearer ${token}` },
-        });
-        const json = await res.json();
-        if (json.ok && json.url) {
-          await Linking.openURL(json.url);
-          return;
-        }
-      }
-    } catch {
-      // fall through to the plain link below
+      await openWebsitePlans();
     } finally {
       setOpeningPremium(false);
     }
-    await Linking.openURL(PREMIUM_URL);
   }
 
   useEffect(() => {
@@ -402,8 +382,8 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
       <Pressable style={s.premiumBtn} onPress={openPremium} disabled={openingPremium}>
         <Text style={s.premiumBtnText}>{openingPremium ? "Opening…" : "Get Premium"}</Text>
         <Text style={s.premiumBtnSub}>
-          Focused Lessons: 2 months free, then $5/mo. Cancel anytime. Opens deependspanish.com in your browser,
-          already signed in.
+          Focused Lessons, one language: 2 months free, then $9/mo. All Access, every language: $15/mo. Cancel
+          anytime. Opens deependspanish.com in your browser, already signed in.
         </Text>
       </Pressable>
 
