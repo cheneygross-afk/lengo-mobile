@@ -353,6 +353,13 @@ export default function HomeScreen({ navigation }: Props) {
               </Pressable>
             )}
 
+            {/* Writing practice in every language, like the website's
+                Writing tile on each course page. */}
+            <Pressable style={styles.card} onPress={() => navigation.navigate("Writing", { lang: language })}>
+              <Text style={styles.cardTitle}>Writing</Text>
+              <Text style={styles.cardBody}>Write a few sentences or a couple of pages and get instant AI feedback at your level.</Text>
+            </Pressable>
+
             {/* Grammar guides, verb conjugation, DELE practice and the
                 glossary (Spanish only) -- grouped behind one card, like the
                 website's Study Tools menu entry. The placement test lives

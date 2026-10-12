@@ -115,6 +115,9 @@ export type AppStackParamList = {
   // course "fr": the DELF/DALF practice exams (src/lib/exams/fr); "de" the
   // Goethe-Zertifikat ones (src/lib/exams/de).
   Exams: { course?: ExamCourse } | undefined;
+  // Writing practice (the website's Writing page): open writing tasks per
+  // level, marked by the AI writing feedback.
+  Writing: { lang?: "es" | "fr" | "de" | "ja" | "zh" } | undefined;
   Exam: { slug: string; course?: ExamCourse };
   ExamPaper: { slug: string; paperId: string; course?: ExamCourse };
 };

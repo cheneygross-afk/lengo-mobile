@@ -40,6 +40,7 @@ import FrenchGlossaryScreen from "@/screens/FrenchGlossaryScreen";
 import GermanPlacementTestScreen from "@/screens/GermanPlacementTestScreen";
 import GermanConjugationScreen from "@/screens/GermanConjugationScreen";
 import GermanGlossaryScreen from "@/screens/GermanGlossaryScreen";
+import WritingScreen from "@/screens/WritingScreen";
 import StudyToolsScreen from "@/screens/StudyToolsScreen";
 import { withPlan } from "@/components/withPlan";
 import PlanLock from "@/components/PlanLock";
@@ -135,6 +136,7 @@ function AppNavigator() {
         })}
       />
       <AppStack.Screen name="StoryReader" component={StoryReaderScreen} options={{ title: "" }} />
+      <AppStack.Screen name="Writing" component={WritingScreen} options={{ title: "Writing" }} />
       <AppStack.Screen name="StudyTools" component={StudyToolsScreen} options={{ title: "Study tools" }} />
       <AppStack.Screen name="Grammar" component={GrammarListScreen} options={{ title: "Grammar" }} />
       <AppStack.Screen name="GrammarGuide" component={GrammarGuideScreen} options={{ title: "" }} />
