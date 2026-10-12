@@ -247,7 +247,7 @@ export const EN_B1_U10: Lesson[] = [
         examples: [
           { es: "If I weren't working, I'd come with you.", en: "Si no estuviera trabajando, iría contigo." },
           { es: "If it wasn't raining, we'd go for a walk.", en: "Si no estuviera lloviendo, saldríamos a pasear." },
-          { es: "If I were rich, I'd be lying on a beach right now.", en: "Si fuera rico, ahora estaría tumbado en una playa." },
+          { es: "If I were rich, I'd be lying on a beach right now.", en: "Si fuera rico, ahora estaría acostado en una playa." },
           { es: "If you were listening, you'd understand.", en: "Si estuvieras escuchando, lo entenderías." },
           { es: "What would you be doing now if you weren't here?", en: "¿Qué estarías haciendo ahora si no estuvieras aquí?" },
         ],
@@ -267,7 +267,7 @@ export const EN_B1_U10: Lesson[] = [
             sentence: "If I were rich, I ___ on a beach right now.",
             answer: "would be lying",
             altAnswers: ["'d be lying"],
-            en: "Si fuera rico, ahora [estaría tumbado] en una playa.",
+            en: "Si fuera rico, ahora [estaría acostado] en una playa.",
             explanation: "An imaginary action in progress: \"would be\" + -ing. \"Lie\" becomes \"lying\" (ie changes to y).",
           },
         ],
@@ -310,7 +310,7 @@ export const EN_B1_U10: Lesson[] = [
         examples: [
           { es: "I won't go unless you come.", en: "No iré a menos que vengas tú." },
           { es: "You can't come in unless you have a ticket.", en: "No puedes entrar si no tienes entrada." },
-          { es: "Unless it rains, we'll have lunch outside.", en: "A no ser que llueva, comeremos fuera." },
+          { es: "Unless it rains, we'll have lunch outside.", en: "A no ser que llueva, comeremos afuera." },
           { es: "She won't help you unless you ask her.", en: "No te ayudará a menos que se lo pidas." },
         ],
         checkpoint: [
@@ -335,8 +335,8 @@ export const EN_B1_U10: Lesson[] = [
         examples: [
           { es: "You can borrow my car as long as you're careful.", en: "Puedes usar mi carro siempre que tengas cuidado." },
           { es: "I'll lend you the money provided that you pay me back next week.", en: "Te prestaré el dinero con tal de que me lo devuelvas la semana que viene." },
-          { es: "Hurry up, otherwise we'll miss the train.", en: "Date prisa, si no perderemos el tren." },
-          { es: "Write it down, otherwise you'll forget.", en: "Apúntalo, que si no se te olvida." },
+          { es: "Hurry up, otherwise we'll miss the train.", en: "Apúrate, si no perderemos el tren." },
+          { es: "Write it down, otherwise you'll forget.", en: "Anótalo, que si no se te olvida." },
           { es: "As long as you're happy, I'm happy.", en: "Mientras tú seas feliz, yo soy feliz." },
         ],
         checkpoint: [
@@ -353,7 +353,7 @@ export const EN_B1_U10: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Date prisa, si no perderemos el tren.",
+            source: "Apúrate, si no perderemos el tren.",
             answer: "Hurry up, otherwise we'll miss the train.",
             altAnswers: ["Hurry up or we'll miss the train.", "Hurry, otherwise we'll miss the train.", "Hurry up, or else we'll miss the train.", "Hurry or we'll miss the train."],
             explanation: "«Si no» starting a new idea = \"otherwise\" (or \"or\"). «Perder el tren» = \"miss the train\", not \"lose\".",
@@ -395,7 +395,7 @@ export const EN_B1_U10: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Apúntalo, que si no se te olvida.",
+        source: "Anótalo, que si no se te olvida.",
         answer: "Write it down, otherwise you'll forget.",
         altAnswers: ["Write it down, otherwise you'll forget it.", "Write it down or you'll forget.", "Write it down or you'll forget it.", "Write it down, or else you'll forget."],
         explanation: "\"Otherwise\" = «si no», «de lo contrario». In English, \"forget\" has a person as subject: \"you'll forget\".",
@@ -431,7 +431,7 @@ export const EN_B1_U10: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "A no ser que llueva, comeremos fuera.",
+        source: "A no ser que llueva, comeremos afuera.",
         answer: "Unless it rains, we'll have lunch outside.",
         altAnswers: ["Unless it rains, we'll eat outside.", "We'll have lunch outside unless it rains.", "We'll eat outside unless it rains.", "Unless it rains, we'll have lunch outdoors.", "Unless it rains, we'll eat outdoors."],
         explanation: "«A no ser que» = \"unless\" + present: \"unless it rains\". The subject \"it\" is required.",
@@ -496,8 +496,8 @@ export const EN_B1_U10: Lesson[] = [
           "\"Couldn't\" in the past becomes \"could have\": \"I didn't have money, so I couldn't buy it\" → \"If I'd had money, I could have bought it\".",
         ],
         examples: [
-          { es: "I didn't study, so I failed.", en: "No estudié, así que suspendí." },
-          { es: "If I had studied, I wouldn't have failed.", en: "Si hubiera estudiado, no habría suspendido." },
+          { es: "I didn't study, so I failed.", en: "No estudié, así que reprobé." },
+          { es: "If I had studied, I wouldn't have failed.", en: "Si hubiera estudiado, no habría reprobado." },
           { es: "I missed the train, so I was late.", en: "Perdí el tren, así que llegué tarde." },
           { es: "If I hadn't missed the train, I wouldn't have been late.", en: "Si no hubiera perdido el tren, no habría llegado tarde." },
           { es: "If I'd had money, I could have bought it.", en: "Si hubiera tenido dinero, lo habría podido comprar." },
@@ -537,7 +537,7 @@ export const EN_B1_U10: Lesson[] = [
           { es: "Be careful or you'll fall.", en: "Ten cuidado, que te vas a caer." },
           { es: "If you aren't careful, you'll fall.", en: "Si no tienes cuidado, te caerás." },
           { es: "If you leave now, you'll arrive on time.", en: "Si sales ahora, llegarás a tiempo." },
-          { es: "Unless you hurry, you'll be late.", en: "Si no te das prisa, llegarás tarde." },
+          { es: "Unless you hurry, you'll be late.", en: "Si no te apuras, llegarás tarde." },
         ],
         checkpoint: [
           {
@@ -560,7 +560,7 @@ export const EN_B1_U10: Lesson[] = [
         ],
         examples: [
           { es: "If I had taken the job, I would be rich now.", en: "Si hubiera aceptado el trabajo, ahora sería rico." },
-          { es: "If I hadn't eaten so much, I wouldn't feel sick.", en: "Si no hubiera comido tanto, no me encontraría mal." },
+          { es: "If I hadn't eaten so much, I wouldn't feel sick.", en: "Si no hubiera comido tanto, no me sentiría mal." },
           { es: "If we had left earlier, we'd be there by now.", en: "Si hubiéramos salido antes, ya estaríamos allí." },
         ],
         checkpoint: [
@@ -590,10 +590,10 @@ export const EN_B1_U10: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si hubiera estudiado, no habría suspendido.",
+        source: "Si hubiera estudiado, no habría reprobado.",
         answer: "If I had studied, I wouldn't have failed.",
         altAnswers: ["If I had studied, I would have passed.", "If I had studied, I wouldn't have failed the exam.", "If he had studied, he wouldn't have failed.", "If she had studied, she wouldn't have failed."],
-        explanation: "Past fact reversed: \"If I had studied\" + \"wouldn't have failed\". «Suspender» = \"fail\".",
+        explanation: "Past fact reversed: \"If I had studied\" + \"wouldn't have failed\". «Reprobar» = \"fail\".",
       },
       {
         type: "multiple-choice",
@@ -659,7 +659,7 @@ export const EN_B1_U10: Lesson[] = [
         sentence: "If I hadn't eaten so much, I ___ sick.",
         answer: "wouldn't feel",
         altAnswers: ["would not feel"],
-        en: "Si no hubiera comido tanto, [no me encontraría] mal.",
+        en: "Si no hubiera comido tanto, [no me sentiría] mal.",
         explanation: "Mixed conditional: the past cause affects how you feel now, so \"wouldn't\" + verb, not \"wouldn't have\".",
       },
       {
@@ -796,7 +796,7 @@ export const EN_B1_U10: Lesson[] = [
           { es: "Take an umbrella in case it rains.", en: "Llévate un paraguas por si llueve." },
           { es: "I'll write down my number in case you need it.", en: "Te apunto mi número por si lo necesitas." },
           { es: "Call me if you need anything.", en: "Llámame si necesitas algo." },
-          { es: "You'll be late unless you hurry.", en: "Llegarás tarde a menos que te des prisa." },
+          { es: "You'll be late unless you hurry.", en: "Llegarás tarde a menos que te apures." },
         ],
         checkpoint: [
           {
@@ -859,7 +859,7 @@ export const EN_B1_U10: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "You'll be late ___ you hurry.",
         answer: "unless",
-        en: "Llegarás tarde [a menos que] te des prisa.",
+        en: "Llegarás tarde [a menos que] te apures.",
         explanation: "\"Unless\" + a positive verb: \"unless you hurry\", never *unless you don't hurry.",
       },
       {
@@ -1326,10 +1326,10 @@ export const EN_B1_U10: Lesson[] = [
         body: [
           "On advice forums, people describe a problem and ask for help. Here is a typical post: \"My roommate never cleans up and plays loud music until 2 a.m. I've talked to her twice, but nothing has changed. I can't afford to move out. What should I do?\"",
           "Before you reply, find the key facts: what the problem is, what the person has already tried, and what they can't change (here: money).",
-          "Useful words: \"roommate\" (US) or \"flatmate\" (UK) = «compañero de piso»; \"afford\" = «permitirse (pagar)»; \"move out\" = «irse de casa / mudarse».",
+          "Useful words: \"roommate\" (US) or \"flatmate\" (UK) = «compañero de departamento»; \"afford\" = «permitirse (pagar)»; \"move out\" = «irse de casa / mudarse».",
         ],
         examples: [
-          { es: "My roommate never cleans up.", en: "Mi compañera de piso nunca recoge." },
+          { es: "My roommate never cleans up.", en: "Mi compañera de departamento nunca ordena." },
           { es: "I've talked to her twice, but nothing has changed.", en: "He hablado con ella dos veces, pero no ha cambiado nada." },
           { es: "I can't afford to move out.", en: "No me puedo permitir mudarme." },
           { es: "What should I do?", en: "¿Qué debería hacer?" },
@@ -2024,7 +2024,7 @@ export const EN_B1_U10: Lesson[] = [
         body: [
           "\"Spend\" money ON something: \"I'd spend it on a boat\" (not *spend in). \"Save\" money = «ahorrar». \"Invest\" money IN something: \"invest in property\".",
           "\"Pay off\" a debt or a mortgage = pay it completely. \"Afford\" = have enough money for: \"We can't afford a new car\".",
-          "\"Give to charity\" = «donar a una ONG» or «dar a obras benéficas». \"The jackpot\" = «el bote», the biggest prize. A \"lottery ticket\" = «un billete / boleto de lotería».",
+          "\"Give to charity\" = «donar a una ONG» or «dar a obras benéficas». \"The jackpot\" = «el premio mayor», the biggest prize. A \"lottery ticket\" = «un boleto de lotería».",
         ],
         examples: [
           { es: "I'd spend some of it on a boat.", en: "Me gastaría una parte en un barco." },
@@ -2032,7 +2032,7 @@ export const EN_B1_U10: Lesson[] = [
           { es: "I'd invest in property.", en: "Invertiría en inmuebles." },
           { es: "I'd give half to charity.", en: "Daría la mitad a obras benéficas." },
           { es: "We can't afford a new car.", en: "No nos podemos permitir un carro nuevo." },
-          { es: "The jackpot is fifty million dollars.", en: "El bote es de cincuenta millones de dólares." },
+          { es: "The jackpot is fifty million dollars.", en: "El premio mayor es de cincuenta millones de dólares." },
         ],
         checkpoint: [
           {
@@ -2178,13 +2178,13 @@ export const EN_B1_U10: Lesson[] = [
         audio: "The jackpot is fifty million dollars.",
         question: "What did you hear?",
         options: [
-          "El bote es de cincuenta millones de dólares.",
+          "El premio mayor es de cincuenta millones de dólares.",
           "El premio es de quince millones de dólares.",
           "Gané cincuenta millones de dólares.",
-          "El billete cuesta cincuenta dólares.",
+          "El boleto cuesta cincuenta dólares.",
         ],
         correctIndex: 0,
-        explanation: "\"Jackpot\" = «el bote». Notice: \"fifty million\", with no -s on \"million\" after a number.",
+        explanation: "\"Jackpot\" = «el premio mayor». Notice: \"fifty million\", with no -s on \"million\" after a number.",
       },
       {
         type: "translate",

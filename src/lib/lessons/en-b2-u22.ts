@@ -146,7 +146,6 @@ export const EN_B2_U22: Lesson[] = [
           "What I hate most about my work is the meetings.",
           "What I hate most about my work are the meetings.",
           "The thing I hate most about my job is the meetings.",
-          "The thing I hate most about my job are the meetings.",
         ],
         explanation: "\"What I hate most about...\": \"most\" after the verb, and \"about\" for «de».",
       },
@@ -544,7 +543,7 @@ export const EN_B2_U22: Lesson[] = [
           { es: "The portions were huge.", en: "Las raciones eran enormes." },
           { es: "The soup was very tasty.", en: "La sopa estaba muy rica." },
           { es: "The dining room was absolutely freezing.", en: "El comedor estaba helado." },
-          { es: "The waiters were really friendly.", en: "Los camareros eran muy simpáticos." },
+          { es: "The waiters were really friendly.", en: "Los meseros eran muy simpáticos." },
         ],
         checkpoint: [
           {
@@ -590,7 +589,7 @@ export const EN_B2_U22: Lesson[] = [
         examples: [
           { es: "They serve such good food.", en: "Sirven una comida tan buena. (incorrecto: *such a good food)" },
           { es: "It was such a good meal.", en: "Fue una comida tan buena." },
-          { es: "The waiters were so friendly.", en: "Los camareros eran tan simpáticos. (incorrecto: *so much friendly)" },
+          { es: "The waiters were so friendly.", en: "Los meseros eran tan simpáticos. (incorrecto: *so much friendly)" },
           { es: "We ate so much food that we couldn't move.", en: "Comimos tanto que no nos podíamos mover." },
           { es: "The service was so slow.", en: "El servicio fue tan lento." },
         ],
@@ -766,7 +765,7 @@ export const EN_B2_U22: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¡Los camareros eran tan simpáticos!",
+        source: "¡Los meseros eran tan simpáticos!",
         answer: "The waiters were so friendly!",
         altAnswers: ["The waiters were so nice!", "The servers were so friendly!", "The servers were so nice!"],
         explanation: "«Tan» + adjective is \"so\" + adjective, never *so much friendly.",
@@ -1089,7 +1088,7 @@ export const EN_B2_U22: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Mi piso es un poco más grande que el tuyo.",
+            source: "Mi departamento es un poco más grande que el tuyo.",
             answer: "My apartment is a bit bigger than yours.",
             altAnswers: [
               "My apartment is a little bigger than yours.",
@@ -1287,9 +1286,9 @@ export const EN_B2_U22: Lesson[] = [
         examples: [
           { es: "I'm absolutely starving.", en: "Me muero de hambre." },
           { es: "This soup is really tasty.", en: "Esta sopa está muy rica. (incorrecto: *very rich)" },
-          { es: "That cheesecake is very rich.", en: "Esa tarta de queso es muy pesada (lleva mucha nata y mantequilla)." },
+          { es: "That cheesecake is very rich.", en: "Ese pastel de queso es muy pesado (lleva mucha crema y mantequilla)." },
           { es: "Paella is a typical Spanish dish.", en: "La paella es un plato típico español." },
-          { es: "For the main course I had fish.", en: "De segundo plato tomé pescado." },
+          { es: "For the main course I had fish.", en: "De plato principal pedí pescado." },
           { es: "The coffee was boiling.", en: "El café estaba ardiendo." },
         ],
         checkpoint: [
@@ -1476,7 +1475,7 @@ export const EN_B2_U22: Lesson[] = [
         instructions: "Match the English and the Spanish.",
         pairs: [
           { left: "a typical dish", right: "un plato típico" },
-          { left: "the main course", right: "el segundo plato" },
+          { left: "the main course", right: "el plato principal" },
           { left: "a paper plate", right: "un plato de papel" },
           { left: "a really tasty meal", right: "una comida muy rica" },
         ],
@@ -1649,7 +1648,7 @@ export const EN_B2_U22: Lesson[] = [
           { es: "Rent is high. On the other hand, salaries are better.", en: "El alquiler es caro. En cambio, los sueldos son mejores. (incorrecto: *in the other hand)" },
           { es: "Unlike my sister, I love the countryside.", en: "A diferencia de mi hermana, a mí me encanta el campo." },
           { es: "Although the village is quiet, it's a bit boring.", en: "Aunque el pueblo es tranquilo, es un poco aburrido." },
-          { es: "In the city you can walk everywhere, while in the country you need a car.", en: "En la ciudad puedes ir andando a todas partes, mientras que en el campo necesitas carro." },
+          { es: "In the city you can walk everywhere, while in the country you need a car.", en: "En la ciudad puedes ir caminando a todas partes, mientras que en el campo necesitas carro." },
         ],
         checkpoint: [
           {
@@ -2058,7 +2057,7 @@ export const EN_B2_U22: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The new apartment is ___ as big as the old one.",
         answer: "just",
-        en: "El piso nuevo es [igual de] grande que el antiguo.",
+        en: "El departamento nuevo es [igual de] grande que el antiguo.",
         explanation: "«Igual de... que» is \"just as... as\" when you stress that they are exactly the same.",
       },
       {
@@ -2144,7 +2143,7 @@ export const EN_B2_U22: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Los pisos son cada vez más pequeños.",
+            source: "Los departamentos son cada vez más pequeños.",
             answer: "Apartments are getting smaller and smaller.",
             altAnswers: [
               "Apartments are becoming smaller and smaller.",

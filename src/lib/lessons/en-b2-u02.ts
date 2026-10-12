@@ -119,7 +119,7 @@ export const EN_B2_U02: Lesson[] = [
           "A useful habit: before you answer, ask yourself three questions. What was going on? (past continuous) What had already happened? (past perfect) How long had it been going on? (past perfect continuous)",
         ],
         examples: [
-          { es: "I was walking to the station when I saw her.", en: "Iba andando a la estación cuando la vi." },
+          { es: "I was walking to the station when I saw her.", en: "Iba caminando a la estación cuando la vi." },
           { es: "I was exhausted because I had worked all night.", en: "Estaba agotado porque había trabajado toda la noche." },
           { es: "I had been waiting for nearly two hours when the train arrived.", en: "Llevaba casi dos horas esperando cuando llegó el tren." },
           { es: "By the end of the day, I had made a new friend.", en: "Al final del día, había hecho un nuevo amigo." },
@@ -175,7 +175,7 @@ export const EN_B2_U02: Lesson[] = [
         source: "¿Cuánto tiempo llevabas viviendo allí cuando lo conociste?",
         answer: "How long had you been living there when you met him?",
         altAnswers: ["How long had you lived there when you met him?"],
-        explanation: "«¿Cuánto tiempo llevabas + gerundio?» is \"How long had you been + -ing?\". «Conocer» to someone for the first time is \"meet\", not *know.",
+        explanation: "«¿Cuánto tiempo llevabas + gerundio?» is \"How long had you been + -ing?\". «Conocer» someone for the first time is \"meet\", not *know.",
       },
       {
         type: "word-order",
@@ -285,9 +285,9 @@ export const EN_B2_U02: Lesson[] = [
         examples: [
           { es: "When I was a child, I used to go to the beach every summer.", en: "De pequeño, iba a la playa todos los veranos." },
           { es: "We would play in the street until it got dark.", en: "Jugábamos en la calle hasta que oscurecía." },
-          { es: "My grandfather walked to work every day.", en: "Mi abuelo iba andando al trabajo todos los días." },
+          { es: "My grandfather walked to work every day.", en: "Mi abuelo iba caminando al trabajo todos los días." },
           { es: "She didn't use to eat vegetables.", en: "Antes no comía verdura." },
-          { es: "Did you use to wear glasses?", en: "¿Antes llevabas gafas?" },
+          { es: "Did you use to wear glasses?", en: "¿Antes usabas lentes?" },
         ],
         checkpoint: [
           {
@@ -835,7 +835,7 @@ export const EN_B2_U02: Lesson[] = [
           "When you listen, don't wait for a clear \"had\". Listen for the past participle: if you hear \"left\", \"gone\" or \"taken\" after the subject, there was probably a weak \"had\" in front of it.",
         ],
         examples: [
-          { es: "I was walking home when it started to rain.", en: "Volvía a casa andando cuando empezó a llover." },
+          { es: "I was walking home when it started to rain.", en: "Volvía a casa caminando cuando empezó a llover." },
           { es: "The train had left when we got there.", en: "El tren había salido cuando llegamos." },
           { es: "She was tired because she'd been working all day.", en: "Estaba cansada porque había estado trabajando todo el día." },
           { es: "Yes, I was.", en: "Sí, lo estaba." },
@@ -1224,7 +1224,7 @@ export const EN_B2_U02: Lesson[] = [
         examples: [
           { es: "She had been working there for ten years when the company closed.", en: "Llevaba diez años trabajando allí cuando cerró la empresa." },
           { es: "We had been driving for six hours, so we stopped for coffee.", en: "Llevábamos seis horas manejando, así que paramos a tomar un café." },
-          { es: "They had been dating for a year when they got engaged.", en: "Llevaban un año saliendo cuando se prometieron." },
+          { es: "They had been dating for a year when they got engaged.", en: "Llevaban un año saliendo cuando se comprometieron." },
           { es: "He had been studying since lunchtime.", en: "Llevaba estudiando desde la hora de comer." },
           { es: "I had been living in Boston for two months when I found a job.", en: "Llevaba dos meses viviendo en Boston cuando encontré trabajo." },
         ],
@@ -1242,8 +1242,8 @@ export const EN_B2_U02: Lesson[] = [
             type: "word-order",
             prompt: "Put the words in order.",
             words: ["They", "had", "been", "dating", "for", "a", "year", "when", "they", "got", "engaged."],
-            translation: "Llevaban un año saliendo cuando se prometieron.",
-            explanation: "Subject + had been + -ing + for + time, then \"when\" + past simple. «Prometerse» is \"get engaged\".",
+            translation: "Llevaban un año saliendo cuando se comprometieron.",
+            explanation: "Subject + had been + -ing + for + time, then \"when\" + past simple. «Comprometerse» is \"get engaged\".",
           },
         ],
       },
@@ -1371,7 +1371,7 @@ export const EN_B2_U02: Lesson[] = [
       {
         heading: "While or during?",
         body: [
-          "Spanish «durante» and «mientras» overlap a lot, but English is strict. \"During\" is a preposition: it goes before a noun (\"during the night\", \"during the meeting\", \"during my holidays\").",
+          "Spanish «durante» and «mientras» overlap a lot, but English is strict. \"During\" is a preposition: it goes before a noun (\"during the night\", \"during the meeting\", \"during my vacation\").",
           "\"While\" is a conjunction: it goes before a clause, with subject and verb (\"while I was sleeping\", \"while we were having dinner\"). *During I was sleeping is one of the most common errors Spanish speakers make.",
           "Quick test: is there a verb after it? Then you need \"while\".",
         ],
@@ -1611,13 +1611,13 @@ export const EN_B2_U02: Lesson[] = [
       {
         heading: "Used to: habits and states that have changed",
         body: [
-          "\"Used to\" + base form describes past habits and past states that are no longer true: \"I used to live in a village\", \"I used to have long hair\", \"We used to play football every afternoon\".",
+          "\"Used to\" + base form describes past habits and past states that are no longer true: \"I used to live in a village\", \"I used to have long hair\", \"We used to play soccer every afternoon\".",
           "In negatives and questions, \"did\" carries the past, so the form is \"use to\" (no -d): \"I didn't use to like fish\", \"Did you use to have a pet?\"",
           "There is no present form: for present habits, use the present simple with \"usually\". *I use to get up at seven is a very common mistake for «suelo levantarme a las siete»; say \"I usually get up at seven\".",
         ],
         examples: [
           { es: "I used to have long hair.", en: "Antes tenía el pelo largo." },
-          { es: "We used to play football every afternoon.", en: "Jugábamos al fútbol todas las tardes." },
+          { es: "We used to play soccer every afternoon.", en: "Jugábamos al fútbol todas las tardes." },
           { es: "I didn't use to like fish.", en: "Antes no me gustaba el pescado." },
           { es: "Did you use to have a pet?", en: "¿Tenías mascota de pequeño?" },
           { es: "I usually get up at seven.", en: "Suelo levantarme a las siete. (incorrecto: *I use to get up)" },

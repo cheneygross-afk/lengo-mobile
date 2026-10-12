@@ -1619,11 +1619,11 @@ export const EN_A2_U10: Lesson[] = [
       {
         heading: "El primer día: lo que tienes que hacer",
         body: [
-          "Es tu primer día en una oficina. Tu compañera Emma te explica las normas. Para las obligaciones usa \"have to\": \"You have to clock in at nine\" («tienes que fichar a las nueve» o «marcar la entrada»). \"Clock in\" es registrar la hora de entrada; \"clock out\", la de salida.",
+          "Es tu primer día en una oficina. Tu compañera Emma te explica las normas. Para las obligaciones usa \"have to\": \"You have to clock in at nine\" («tienes que marcar la entrada a las nueve»). \"Clock in\" es registrar la hora de entrada; \"clock out\", la de salida.",
           "Fíjate en que Emma no dice \"must\": cuando explicamos normas a alguien en una conversación, \"have to\" suena más natural.",
         ],
         examples: [
-          { es: "You have to clock in at nine.", en: "Tienes que fichar a las nueve." },
+          { es: "You have to clock in at nine.", en: "Tienes que marcar la entrada a las nueve." },
           { es: "You have to clock out before you leave.", en: "Tienes que marcar la salida antes de irte." },
           { es: "Everyone has to wear their ID badge.", en: "Todos tienen que llevar su credencial." },
           { es: "You have to ask your manager for days off.", en: "Tienes que pedirle los días libres a tu jefe." },
@@ -1636,7 +1636,7 @@ export const EN_A2_U10: Lesson[] = [
             source: "Tienes que registrar tu entrada a las nueve.",
             answer: "You have to clock in at nine.",
             altAnswers: ["You have to clock in at 9.", "You must clock in at nine.", "You have to clock in at nine o'clock.", "You have got to clock in at nine."],
-            explanation: "Para explicar normas en una conversación, \"have to\" es lo más natural. «Fichar» al entrar es \"clock in\".",
+            explanation: "Para explicar normas en una conversación, \"have to\" es lo más natural. «Marcar la entrada» es \"clock in\".",
           },
         ],
       },

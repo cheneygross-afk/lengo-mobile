@@ -612,14 +612,14 @@ export const EN_A2_U20: Lesson[] = [
         heading: "Hace poco, pronto y al final: \"recently\", \"lately\", \"soon\", \"eventually\"",
         body: [
           "\"Recently\" («hace poco», «recientemente») va con el pasado simple o con el presente perfecto: \"I recently moved\", \"Have you seen Tom recently?\". \"Lately\" («últimamente») va sobre todo con el presente perfecto: \"I've been very tired lately\".",
-          "«Pronto» tiene dos traducciones: \"soon\" (dentro de poco: \"See you soon\") y \"early\" (temprano: \"I get up early\"). Decir *I get up soon es un error típico.",
+          "No confundas \"soon\" (pronto, dentro de poco: \"See you soon\") con \"early\" (temprano: \"I get up early\"). Decir *I get up soon es un error típico.",
           "\"Eventually\" es un falso amigo: significa «al final» o «finalmente» (después de mucho tiempo o esfuerzo), no «eventualmente». \"We eventually found the hotel\" es «al final encontramos el hotel».",
         ],
         examples: [
           { es: "I recently changed jobs.", en: "Hace poco cambié de trabajo." },
           { es: "I've been very busy lately.", en: "Últimamente he estado muy ocupado." },
           { es: "See you soon!", en: "¡Hasta pronto!" },
-          { es: "I get up early on Mondays.", en: "Los lunes me levanto pronto (temprano)." },
+          { es: "I get up early on Mondays.", en: "Los lunes me levanto temprano." },
           { es: "We eventually found the hotel.", en: "Al final encontramos el hotel." },
           { es: "It rained for hours, but eventually it stopped.", en: "Llovió durante horas, pero al final paró." },
         ],
@@ -869,7 +869,7 @@ export const EN_A2_U20: Lesson[] = [
         ],
         examples: [
           { es: "My neighbor has three dogs.", en: "Mi vecino tiene tres perros." },
-          { es: "I live with two roommates.", en: "Vivo con dos compañeros de piso." },
+          { es: "I live with two roommates.", en: "Vivo con dos compañeros de cuarto." },
           { es: "This is my partner, Diego.", en: "Te presento a mi pareja, Diego." },
           { es: "They're a lovely couple.", en: "Son una pareja encantadora." },
           { es: "Her boyfriend is from Canada.", en: "Su novio es de Canadá." },
@@ -1005,7 +1005,7 @@ export const EN_A2_U20: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "¿Te llevas bien con tu compañero de piso?",
+        source: "¿Te llevas bien con tu compañero de cuarto?",
         answer: "Do you get along with your roommate?",
         altAnswers: [
           "Do you get along well with your roommate?",
@@ -1047,7 +1047,7 @@ export const EN_A2_U20: Lesson[] = [
         pairs: [
           { left: "relatives", right: "parientes" },
           { left: "parents", right: "padres" },
-          { left: "roommate", right: "compañero de piso" },
+          { left: "roommate", right: "compañero de cuarto" },
           { left: "partner", right: "pareja (la persona)" },
           { left: "couple", right: "pareja (dos personas)" },
         ],
@@ -1160,7 +1160,7 @@ export const EN_A2_U20: Lesson[] = [
             prompt: "Escribe en inglés las palabras en negrita.",
             sentence: "Hurry up or we'll ___ the plane!",
             answer: "miss",
-            en: "¡Date prisa o vamos a [perder] el avión!",
+            en: "¡Apúrate o vamos a [perder] el avión!",
             explanation: "Perder un transporte (no llegar a tiempo) es \"miss\". \"Lose\" es perder un objeto.",
           },
         ],
@@ -1665,7 +1665,7 @@ export const EN_A2_U20: Lesson[] = [
           { es: "She's very sensitive.", en: "Es muy sensible." },
           { es: "My friends were very sympathetic.", en: "Mis amigos fueron muy comprensivos." },
           { es: "Your sister is really nice.", en: "Tu hermana es muy simpática." },
-          { es: "I'm excited about my new job.", en: "Estoy ilusionado con mi nuevo trabajo." },
+          { es: "I'm excited about my new job.", en: "Estoy emocionado con mi nuevo trabajo." },
           { es: "It was an exciting game.", en: "Fue un partido emocionante." },
         ],
         checkpoint: [
@@ -1950,7 +1950,7 @@ export const EN_A2_U20: Lesson[] = [
       {
         heading: "Diálogo 2: en casa",
         body: [
-          "Ahora Sofia habla con Lucia, su compañera de piso (\"roommate\"). Fíjate en los verbos de todos los días: \"borrow\", \"attend\", \"remind\" y \"miss\".",
+          "Ahora Sofia habla con Lucia, su compañera de cuarto (\"roommate\"). Fíjate en los verbos de todos los días: \"borrow\", \"attend\", \"remind\" y \"miss\".",
           "Antes de seguir, piensa por qué se usa cada uno y no su pareja (\"lend\", \"assist\", \"remember\", \"lose\").",
         ],
         examples: [
@@ -1959,7 +1959,7 @@ export const EN_A2_U20: Lesson[] = [
           { es: "I'm attending a talk at the library.", en: "(Sofia) Voy a asistir a una charla en la biblioteca." },
           { es: "Can you buy some milk on your way back?", en: "(Lucia) ¿Puedes comprar leche a la vuelta?" },
           { es: "OK, but send me a message to remind me.", en: "(Sofia) De acuerdo, pero mándame un mensaje para recordármelo." },
-          { es: "Hurry up, or you'll miss the bus!", en: "(Lucia) ¡Date prisa o vas a perder el autobús!" },
+          { es: "Hurry up, or you'll miss the bus!", en: "(Lucia) ¡Apúrate o vas a perder el autobús!" },
         ],
         checkpoint: [
           {
@@ -1978,7 +1978,7 @@ export const EN_A2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "¿Cómo se dice «Date prisa o vas a perder el tren»?",
+            question: "¿Cómo se dice «Apúrate o vas a perder el tren»?",
             options: ["Hurry up or you'll miss the train.", "Hurry up or you'll lose the train.", "Hurry up or you'll lost the train.", "Hurry up or you'll miss to the train."],
             correctIndex: 0,
             explanation: "Perder un transporte es \"miss\", sin preposición: \"miss the train\".",
@@ -1994,7 +1994,7 @@ export const EN_A2_U20: Lesson[] = [
         examples: [
           { es: "Hi Emma,", en: "Hola, Emma:" },
           { es: "I'm currently living with my sister in Madrid.", en: "Actualmente vivo con mi hermana en Madrid." },
-          { es: "Actually, I'm really excited because I recently started a new job.", en: "La verdad es que estoy muy ilusionada porque hace poco empecé un trabajo nuevo." },
+          { es: "Actually, I'm really excited because I recently started a new job.", en: "La verdad es que estoy muy emocionada porque hace poco empecé un trabajo nuevo." },
           { es: "My coworkers are really nice, and I get along well with my boss.", en: "Mis compañeros son muy simpáticos y me llevo bien con mi jefe." },
           { es: "I miss you a lot. Are you coming to Spain this summer?", en: "Te extraño mucho. ¿Vienes a España este verano?" },
           { es: "I hope so! Write soon.", en: "¡Espero que sí! Escríbeme pronto." },
@@ -2015,13 +2015,13 @@ export const EN_A2_U20: Lesson[] = [
       {
         heading: "Corrige el mensaje de Carlos",
         body: [
-          "Carlos le escribió a un compañero de clase de Estados Unidos. Quería decir: «Actualmente vivo en Madrid. Ayer no fui a clase porque estaba constipado. Mis parientes de Texas nos están visitando. Son muy simpáticos. Estoy de acuerdo en que tenemos que realizar el proyecto pronto.»",
+          "Carlos le escribió a un compañero de clase de Estados Unidos. Quería decir: «Actualmente vivo en Madrid. Ayer no fui a clase porque estaba resfriado. Mis parientes de Texas nos están visitando. Son muy simpáticos. Estoy de acuerdo en que tenemos que realizar el proyecto pronto.»",
           "Pero escribió: *Actually I live in Madrid. Yesterday I didn't assist to class because I was constipated. My parents from Texas are visiting us. They are very sympathetic. I am agree that we must realize the project soon.",
           "Hay siete errores: \"actually\", *assist to, \"constipated\", \"parents\", \"sympathetic\", *am agree y \"realize\". Intenta corregirlos antes de mirar la versión buena en los ejemplos.",
         ],
         examples: [
           { es: "I currently live in Madrid.", en: "Actualmente vivo en Madrid." },
-          { es: "Yesterday I didn't go to class because I had a cold.", en: "Ayer no fui a clase porque estaba constipado." },
+          { es: "Yesterday I didn't go to class because I had a cold.", en: "Ayer no fui a clase porque estaba resfriado." },
           { es: "My relatives from Texas are visiting us.", en: "Mis parientes de Texas nos están visitando." },
           { es: "They are very nice.", en: "Son muy simpáticos." },
           { es: "I agree that we need to do the project soon.", en: "Estoy de acuerdo en que tenemos que realizar el proyecto pronto." },

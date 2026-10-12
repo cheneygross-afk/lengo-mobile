@@ -18,11 +18,11 @@ export const EN_A2_UNIT_WRITING: Record<string, WriteExercise> = {
     [
       "Al menos cinco verbos regulares en pasado (\"walked\", \"played\", \"watched\")",
       "\"was\" o \"were\" para decir dónde estabas o cómo fue algo",
-      "Una frase negativa con \"didn't\" + verbo en infinitivo",
+      "Una frase negativa con \"didn't\" + verbo en forma base",
       "Palabras de tiempo (\"last Saturday\", \"in the morning\", \"then\")",
     ],
-    "Last Saturday was a quiet day. In the morning I cleaned my room and I washed my car. Then I walked to the market with my sister. The weather was lovely and the streets were very busy. In the afternoon we watched a film at home. I didn't cook dinner because we ordered a pizza. I really enjoyed the day.",
-    "En pasado los verbos regulares terminan en \"-ed\" para todas las personas: \"I walked\", \"we watched\". En la negativa el pasado está en \"didn't\" y el verbo vuelve al infinitivo: \"I didn't cook\", no *I didn't cooked."
+    "Last Saturday was a quiet day. In the morning I cleaned my room and I washed my car. Then I walked to the market with my sister. The weather was lovely and the streets were very busy. In the afternoon we watched a movie at home. I didn't cook dinner because we ordered a pizza. I really enjoyed the day.",
+    "En pasado los verbos regulares terminan en \"-ed\" para todas las personas: \"I walked\", \"we watched\". En la negativa el pasado está en \"didn't\" y el verbo vuelve a la forma base: \"I didn't cook\", no *I didn't cooked."
   ),
   u02: t(
     "Cuenta un viaje o una excursión que hiciste. Di adónde fuiste, con quién, cómo llegaste, qué viste y qué compraste. Termina con una pregunta a un amigo sobre su último viaje.",
@@ -33,7 +33,7 @@ export const EN_A2_UNIT_WRITING: Record<string, WriteExercise> = {
       "Cuándo fue el viaje (\"last summer\", \"two years ago\")",
     ],
     "Last summer I went to London with my brother. We took the train from Paris and it was very fast. We saw Big Ben and we had lunch in a small cafe near the river. I bought some books and a red umbrella. We didn't go inside Buckingham Palace because it was closed. Where did you go on your last trip?",
-    "Los irregulares hay que aprenderlos de memoria: \"go\" > \"went\", \"see\" > \"saw\", \"buy\" > \"bought\". En preguntas y negativas se usa \"did\" con el infinitivo: \"Where did you go?\", no *Where did you went?"
+    "Los irregulares hay que aprenderlos de memoria: \"go\" > \"went\", \"see\" > \"saw\", \"buy\" > \"bought\". En preguntas y negativas se usa \"did\" con la forma base: \"Where did you go?\", no *Where did you went?"
   ),
   u03: t(
     "Cuenta algo que te pasó un día de camino al trabajo o a clase. Describe qué estabas haciendo y qué tiempo hacía, y después qué pasó de repente.",
@@ -54,8 +54,8 @@ export const EN_A2_UNIT_WRITING: Record<string, WriteExercise> = {
       "Conectores para ordenar la historia (\"first\", \"then\", \"after that\", \"in the end\")",
       "Pasado simple y pasado continuo en la anécdota",
     ],
-    "When I was a child, I used to live in a small town. I used to play football in the street every afternoon. I didn't use to like vegetables, but now I love them. One day I was playing with my friends when the ball broke a window. First we ran away. Then we felt bad, so we went back. In the end, my dad paid for the window.",
-    "\"used to\" + infinitivo expresa hábitos del pasado que ya no ocurren: \"I used to play\". En negativa y pregunta se escribe \"use to\", sin \"d\": \"I didn't use to like\"."
+    "When I was a child, I used to live in a small town. I used to play soccer in the street every afternoon. I didn't use to like vegetables, but now I love them. One day I was playing with my friends when the ball broke a window. First we ran away. Then we felt bad, so we went back. In the end, my dad paid for the window.",
+    "\"used to\" + forma base expresa hábitos del pasado que ya no ocurren: \"I used to play\". En negativa y pregunta se escribe \"use to\", sin \"d\": \"I didn't use to like\"."
   ),
   u05: t(
     "Escribe sobre tus experiencias: lugares que has visitado, cosas que has hecho y algo que nunca has hecho pero te gustaría hacer. Hazle una pregunta a un amigo con \"Have you ever...?\".",
@@ -120,7 +120,7 @@ export const EN_A2_UNIT_WRITING: Record<string, WriteExercise> = {
       "\"don't have to\" para lo que no es necesario",
       "\"should\" o \"shouldn't\" para consejos",
     ],
-    "Welcome to the school! Here are the main rules. You have to arrive before nine o'clock and you must sign in at reception. You mustn't use your phone in class. You don't have to wear a uniform, so you can wear normal clothes. On Fridays you don't have to bring books. You should talk to the teachers if you have a problem, and you shouldn't miss the first week.",
+    "Welcome to the school! Here are the main rules. You have to arrive before nine o'clock and you must sign in at the front office. You mustn't use your phone in class. You don't have to wear a uniform, so you can wear normal clothes. On Fridays you don't have to bring books. You should talk to the teachers if you have a problem, and you shouldn't miss the first week.",
     "Cuidado: \"mustn't\" significa «no debes, está prohibido», pero \"don't have to\" significa «no hace falta». Después de \"must\" y \"should\" va el infinitivo sin \"to\": \"You should talk\", no *You should to talk."
   ),
   u11: t(
@@ -164,7 +164,7 @@ export const EN_A2_UNIT_WRITING: Record<string, WriteExercise> = {
       "\"when\", \"as soon as\" o \"until\" con presente (\"when I finish\")",
       "Una frase de condicional cero para algo que siempre es verdad",
     ],
-    "This weekend depends on the weather. If it's sunny on Saturday, we'll go to the beach. If it rains, we'll stay home and watch films. If my sister doesn't come, I'll visit my grandmother. As soon as I finish work on Friday, I'll call my friends. When I get home, I'll pack my bag. If I don't sleep well, I always feel tired, so I won't go to bed late.",
+    "This weekend depends on the weather. If it's sunny on Saturday, we'll go to the beach. If it rains, we'll stay home and watch movies. If my sister doesn't come, I'll visit my grandmother. As soon as I finish work on Friday, I'll call my friends. When I get home, I'll pack my bag. If I don't sleep well, I always feel tired, so I won't go to bed late.",
     "Después de \"if\", \"when\" y \"as soon as\" se usa el presente aunque hablemos del futuro: \"If it rains, we'll stay home\", no *If it will rain. En español pasa algo parecido: «cuando llegue», no «cuando llegaré»."
   ),
   u15: t(
@@ -208,11 +208,11 @@ export const EN_A2_UNIT_WRITING: Record<string, WriteExercise> = {
       "\"What's it like?\" o \"How long / how often...?\"",
       "Una pregunta indirecta (\"Do you know where...?\") y una reacción como \"So do I\"",
     ],
-    "Hi Sam! Thanks for your message. You love jazz? So do I! You don't like football? Neither do I! I have some questions for you. Where are you from? What's your city like? How often do you go to concerts? Who taught you to play the guitar? What are you interested in? Do you know where I can find good jazz in your city?",
+    "Hi Sam! Thanks for your message. You love jazz? So do I! You don't like soccer? Neither do I! I have some questions for you. Where are you from? What's your city like? How often do you go to concerts? Who taught you to play the guitar? What are you interested in? Do you know where I can find good jazz in your city?",
     "Si la pregunta es sobre el sujeto, no lleva \"do\": \"Who taught you?\", no *Who did teach you? En las preguntas indirectas el orden es el de una afirmación: \"Do you know where I can find...?\", no *where can I find."
   ),
   u19: t(
-    "Escribe a un amigo sobre tus últimas vacaciones: el viaje, el alojamiento, el dinero que gastaste y lo que hiciste en tu tiempo libre. Si te pusiste enfermo o tuviste algún problema, cuéntalo también.",
+    "Escribe a un amigo sobre tus últimas vacaciones: el viaje, el alojamiento, el dinero que gastaste y lo que hiciste en tu tiempo libre. Si te enfermaste o tuviste algún problema, cuéntalo también.",
     [
       "Vocabulario de viajes (\"flight\", \"luggage\", \"book a room\", \"sightseeing\")",
       "Vocabulario de dinero (\"spend\", \"cheap\", \"pay by card\")",

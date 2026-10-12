@@ -51,7 +51,7 @@ export const EN_A1_U8_MORE: Lesson[] = [
         body: [
           "Para el precio de una cosa: \"How much is that one?\". Para varias cosas el verbo cambia a \"are\": \"How much are these?\", \"How much are those shoes?\".",
           "El error típico es mezclar singular y plural: *these shoes is. Si el demostrativo es plural, el verbo también: \"These shoes are nice\". Y la respuesta usa \"they\": \"They're forty dollars\".",
-          "Ojo con las prendas que en inglés son siempre plurales: \"pants\" (pantalones; en Reino Unido \"trousers\"), \"jeans\", \"shorts\" y \"glasses\" (gafas, lentes). «Este pantalón» es \"these pants\", nunca *this pants.",
+          "Ojo con las prendas que en inglés son siempre plurales: \"pants\" (pantalones; en Reino Unido \"trousers\"), \"jeans\", \"shorts\" y \"glasses\" (lentes). «Este pantalón» es \"these pants\", nunca *this pants.",
         ],
         examples: [
           { es: "How much is that one?", en: "¿Cuánto cuesta ese?" },
@@ -59,7 +59,7 @@ export const EN_A1_U8_MORE: Lesson[] = [
           { es: "How much are these?", en: "¿Cuánto cuestan estos?" },
           { es: "They're forty dollars.", en: "Cuestan cuarenta dólares." },
           { es: "These jeans are too big.", en: "Estos jeans son demasiado grandes." },
-          { es: "Those glasses are very nice.", en: "Esas gafas (esos lentes) son muy bonitas." },
+          { es: "Those glasses are very nice.", en: "Esos lentes son muy bonitos." },
         ],
         checkpoint: [
           {
@@ -178,10 +178,10 @@ export const EN_A1_U8_MORE: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Esas gafas son muy caras.",
+        source: "Esos lentes son muy caros.",
         answer: "Those glasses are very expensive.",
         altAnswers: ["Those glasses are really expensive."],
-        explanation: "\"Glasses\" (gafas, lentes) es siempre plural, así que va con \"those\" y \"are\".",
+        explanation: "\"Glasses\" (lentes) es siempre plural, así que va con \"those\" y \"are\".",
       },
       {
         type: "matching",
@@ -293,7 +293,7 @@ export const EN_A1_U8_MORE: Lesson[] = [
           { es: "I have a new car. I love it.", en: "Tengo un carro nuevo. Me encanta." },
           { es: "Where's my bag? I can't find it.", en: "¿Dónde está mi bolso? No lo encuentro." },
           { es: "This movie is good. Watch it!", en: "Esta película es buena. ¡Mírala!" },
-          { es: "Where are my glasses? I need them.", en: "¿Dónde están mis gafas? Las necesito." },
+          { es: "Where are my glasses? I need them.", en: "¿Dónde están mis lentes? Los necesito." },
           { es: "Ana is very nice. I like her.", en: "Ana es muy simpática. Me cae bien." },
         ],
         checkpoint: [
@@ -982,7 +982,7 @@ export const EN_A1_U8_MORE: Lesson[] = [
       {
         heading: "Los muebles",
         body: [
-          "Los muebles básicos: \"sofa\" o \"couch\" (sofá), \"table\" (mesa), \"chair\" (silla), \"bed\" (cama), \"fridge\" (nevera, refrigerador), \"shelf\" (estante; plural \"shelves\"), \"closet\" (armario; en Reino Unido \"wardrobe\") y \"lamp\" (lámpara).",
+          "Los muebles básicos: \"sofa\" o \"couch\" (sofá), \"table\" (mesa), \"chair\" (silla), \"bed\" (cama), \"fridge\" (refrigerador), \"shelf\" (estante; plural \"shelves\"), \"closet\" (armario; en Reino Unido \"wardrobe\") y \"lamp\" (lámpara).",
           "\"Furniture\" (muebles) es incontable: no tiene plural ni lleva \"a\". Se dice \"some furniture\" o \"a lot of furniture\", y para uno solo, \"a piece of furniture\". Nunca *a furniture ni *furnitures.",
           "Con \"there is\" y \"there are\" describes lo que hay: \"There's a sofa\", \"There are four chairs\".",
         ],
@@ -990,7 +990,7 @@ export const EN_A1_U8_MORE: Lesson[] = [
           { es: "There's a big sofa in the living room.", en: "Hay un sofá grande en la sala." },
           { es: "There are four chairs in the kitchen.", en: "Hay cuatro sillas en la cocina." },
           { es: "We don't have much furniture.", en: "No tenemos muchos muebles." },
-          { es: "The fridge is empty.", en: "La nevera (el refrigerador) está vacía." },
+          { es: "The fridge is empty.", en: "El refrigerador está vacío." },
           { es: "There are a lot of books on the shelves.", en: "Hay muchos libros en los estantes." },
         ],
         checkpoint: [
@@ -1015,10 +1015,10 @@ export const EN_A1_U8_MORE: Lesson[] = [
         heading: "¿Dónde está? In, on, under, next to",
         body: [
           "Para situar las cosas: \"in\" (dentro de), \"on\" (sobre, encima de), \"under\" (debajo de), \"next to\" (al lado de), \"behind\" (detrás de) y \"in front of\" (delante de).",
-          "En español «en» sirve para dentro y para encima; en inglés no. El teléfono está «en la mesa»: \"on the table\". La leche está «en la nevera»: \"in the fridge\".",
+          "En español «en» sirve para dentro y para encima; en inglés no. El teléfono está «en la mesa»: \"on the table\". La leche está «en el refrigerador»: \"in the fridge\".",
         ],
         examples: [
-          { es: "The milk is in the fridge.", en: "La leche está en la nevera." },
+          { es: "The milk is in the fridge.", en: "La leche está en el refrigerador." },
           { es: "Your phone is on the table.", en: "Tu teléfono está en la mesa." },
           { es: "The cat is under the bed.", en: "El gato está debajo de la cama." },
           { es: "The lamp is next to the sofa.", en: "La lámpara está al lado del sofá." },
@@ -1038,7 +1038,7 @@ export const EN_A1_U8_MORE: Lesson[] = [
             prompt: "Escribe en inglés las palabras en negrita.",
             sentence: "Is the juice ___ the fridge?",
             answer: "in",
-            en: "¿El jugo está [en] la nevera?",
+            en: "¿El jugo está [en] el refrigerador?",
             explanation: "Dentro de algo es \"in\": \"in the fridge\".",
           },
         ],
@@ -1046,7 +1046,7 @@ export const EN_A1_U8_MORE: Lesson[] = [
       {
         heading: "House, apartment y home",
         body: [
-          "\"House\" es el edificio: una casa. \"Apartment\" es un piso o departamento (en Reino Unido, \"flat\"). \"Home\" es tu hogar, sea casa o apartamento: el lugar donde vives.",
+          "\"House\" es el edificio: una casa. \"Apartment\" es un departamento (en Reino Unido, \"flat\"). \"Home\" es tu hogar, sea casa o apartamento: el lugar donde vives.",
           "Con \"home\" se dice \"at home\" (en casa) y \"go home\" (ir a casa), sin artículo y sin \"to\". Nunca *in the home para «en casa», ni *go to home.",
         ],
         examples: [

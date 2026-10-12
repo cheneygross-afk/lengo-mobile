@@ -108,7 +108,7 @@ export const EN_A1_U1_MORE: Lesson[] = [
             prompt: "Traduce al inglés.",
             source: "¿Son de Lima? —Sí.",
             answer: "Are they from Lima? Yes, they are.",
-            altAnswers: ["Are you from Lima? Yes, we are.", "Are they from Lima? Yes."],
+            altAnswers: ["Are you from Lima? Yes, we are."],
             explanation: "Pregunta con el verbo delante (\"Are they...?\") y respuesta corta sin contraer: \"Yes, they are\", nunca *Yes, they're.",
           },
         ],

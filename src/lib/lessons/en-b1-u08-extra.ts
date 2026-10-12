@@ -531,7 +531,7 @@ export const EN_B1_U08_EXTRA: Lesson[] = [
         examples: [
           { es: "If I win, I'll buy a boat.", en: "Si gano, me compraré un barco." },
           { es: "If I won, I'd buy a boat.", en: "Si ganara, me compraría un barco." },
-          { es: "If you don't hurry, you'll be late.", en: "Si no te das prisa, llegarás tarde." },
+          { es: "If you don't hurry, you'll be late.", en: "Si no te apuras, llegarás tarde." },
           { es: "If you lived here, you'd never be late.", en: "Si vivieras aquí, nunca llegarías tarde." },
         ],
         checkpoint: [

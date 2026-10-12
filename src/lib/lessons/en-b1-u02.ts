@@ -557,7 +557,7 @@ export const EN_B1_U02: Lesson[] = [
         heading: "With a finished time: went",
         body: [
           "When you say when, both meanings go back to the past simple \"went\": \"He went to Paris last year.\" Never *He has gone to Paris last year or *He has been to Paris last year.",
-          "And remember that \"gone\" and \"been\" need \"have\" or \"has\". \"I gone\" and \"I been to Paris\" are not standard English.",
+          "And remember that \"gone\" and \"been\" need \"have\" or \"has\". *I gone and *I been to Paris are not standard English.",
         ],
         examples: [
           { es: "He went to Paris last year.", en: "Fue a París el año pasado." },
@@ -1181,7 +1181,7 @@ export const EN_B1_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Correct this sentence: \"When have you arrived?\"",
+        question: "Correct this sentence: *When have you arrived?",
         options: ["When did you arrive?", "When have you arrive?", "When you arrived?", "When are you arrived?"],
         correctIndex: 0,
         explanation: "\"When\" questions take the past simple: \"did\" + base verb.",
@@ -1539,7 +1539,7 @@ export const EN_B1_U02: Lesson[] = [
         body: [
           "Many work milestones use \"get\": \"get a job\" («conseguir trabajo»), \"get promoted\" («ascender»), \"get fired\" («ser despedido»).",
           "\"Quit\" (quit, quit, quit) is to leave a job by choice, and \"retire\" is «jubilarse». \"Start a business\" is «montar un negocio».",
-          "With the present perfect they show news or experience: \"I've just got promoted!\" (American English also says \"I just got promoted!\"). With a date, use the past simple: \"My dad retired last year.\"",
+          "With the present perfect they show news or experience: \"I've just been promoted!\" (everyday American English: \"I just got promoted!\"). With a date, use the past simple: \"My dad retired last year.\"",
         ],
         examples: [
           { es: "I got a job in a bank.", en: "Conseguí trabajo en un banco." },
@@ -2079,10 +2079,10 @@ export const EN_B1_U02: Lesson[] = [
         type: "multiple-choice",
         question: "Which sentence is correct?",
         options: [
-          "I've known Lucia since we were at school.",
-          "I know Lucia since we were at school.",
-          "I've been knowing Lucia since we were at school.",
-          "I knew Lucia since we were at school.",
+          "I've known Lucia since we were in school.",
+          "I know Lucia since we were in school.",
+          "I've been knowing Lucia since we were in school.",
+          "I knew Lucia since we were in school.",
         ],
         correctIndex: 0,
         explanation: "\"Know\" is a state verb, so it takes the present perfect simple with \"since\", not the continuous.",
@@ -2122,8 +2122,8 @@ export const EN_B1_U02: Lesson[] = [
         audio: "Sorry I'm late. Have you been waiting long?",
         question: "What did you hear?",
         options: [
-          "Perdona el retraso. ¿Llevas mucho rato esperando?",
-          "Perdona el retraso. ¿Esperaste mucho ayer?",
+          "Perdón por la demora. ¿Llevas mucho rato esperando?",
+          "Perdón por la demora. ¿Esperaste mucho ayer?",
           "Perdona, llego tarde. ¿Vas a esperar mucho?",
           "Perdona, ¿cuánto tiempo esperaste el año pasado?",
         ],

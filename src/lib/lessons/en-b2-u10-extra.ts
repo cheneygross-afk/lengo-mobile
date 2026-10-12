@@ -166,7 +166,7 @@ export const EN_B2_U10_EXTRA: Lesson[] = [
         sentence: "Sorry about the noise. The apartment upstairs ___.",
         answer: "is being renovated",
         altAnswers: ["is being redone", "is being refurbished", "is being remodeled", "is being done up"],
-        en: "Perdón por el ruido. [Están reformando] el piso de arriba.",
+        en: "Perdón por el ruido. [Están remodelando] el departamento de arriba.",
         explanation: "Work in progress now: \"is being\" + participle. «Reformar» is \"renovate\" or \"remodel\", not *reform.",
       },
       {
@@ -247,7 +247,7 @@ export const EN_B2_U10_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "English is spoken in this hotel.", en: "En este hotel se habla inglés." },
-          { es: "How do you spell your surname?", en: "¿Cómo se escribe tu apellido?" },
+          { es: "How do you spell your last name?", en: "¿Cómo se escribe tu apellido?" },
           { es: "In Spain, people have dinner quite late.", en: "En España se cena bastante tarde." },
           { es: "They say it's going to snow.", en: "Se dice que va a nevar." },
           { es: "House for sale.", en: "Se vende casa." },
@@ -297,9 +297,9 @@ export const EN_B2_U10_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "En esta tienda se aceptan tarjetas.",
-        answer: "Cards are accepted in this shop.",
+        answer: "Cards are accepted in this store.",
         altAnswers: [
-          "Cards are accepted in this store.",
+          "Cards are accepted in this shop.",
           "Credit cards are accepted in this shop.",
           "Credit cards are accepted in this store.",
           "This shop accepts cards.",
@@ -368,7 +368,7 @@ export const EN_B2_U10_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate the sign into English.",
-        source: "Se necesitan camareros.",
+        source: "Se necesitan meseros.",
         answer: "Waiters wanted.",
         altAnswers: ["Waiters needed.", "Waiters are needed.", "We need waiters.", "Servers wanted.", "Servers needed.", "Waiting staff wanted.", "Waiting staff needed.", "We're looking for waiters."],
         explanation: "Job signs use \"wanted\" or \"needed\" after the noun: \"Waiters wanted\".",
@@ -773,7 +773,7 @@ export const EN_B2_U10_EXTRA: Lesson[] = [
           { es: "The hiker was attacked by a bear.", en: "Un oso atacó al excursionista." },
           { es: "The town was destroyed by an earthquake.", en: "El pueblo fue destruido por un terremoto." },
           { es: "The letter was written by hand.", en: "La carta estaba escrita a mano." },
-          { es: "The cake is made with fresh eggs.", en: "La tarta está hecha con huevos frescos." },
+          { es: "The cake is made with fresh eggs.", en: "El pastel está hecho con huevos frescos." },
         ],
         checkpoint: [
           {
@@ -841,7 +841,7 @@ export const EN_B2_U10_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is the most natural?",
-        options: ["English is spoken in this shop.", "English is spoken by people in this shop.", "English is spoken for people in this shop.", "In this shop is spoken English by people."],
+        options: ["English is spoken in this store.", "English is spoken by people in this store.", "English is spoken for people in this store.", "In this store is spoken English by people."],
         correctIndex: 0,
         explanation: "\"By people\" is empty information. Good English passives drop agents that say nothing.",
       },
@@ -1102,7 +1102,7 @@ export const EN_B2_U10_EXTRA: Lesson[] = [
         instructions: "Match each English phrase with its Spanish meaning.",
         pairs: [
           { left: "It needs cleaning.", right: "Hay que limpiarlo." },
-          { left: "He hates being photographed.", right: "Odia que le hagan fotos." },
+          { left: "He hates being photographed.", right: "Odia que le tomen fotos." },
           { left: "She expects to be promoted.", right: "Espera que la asciendan." },
           { left: "They avoided being seen.", right: "Evitaron que los vieran." },
         ],

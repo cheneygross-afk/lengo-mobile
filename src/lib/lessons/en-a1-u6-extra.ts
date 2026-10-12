@@ -630,7 +630,7 @@ export const EN_A1_U6_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "How old is your daughter? She's six.", en: "¿Cuántos años tiene tu hija? Tiene seis." },
-          { es: "How much is the ticket?", en: "¿Cuánto cuesta el billete?" },
+          { es: "How much is the ticket?", en: "¿Cuánto cuesta el boleto?" },
           { es: "How much sugar do you want?", en: "¿Cuánto azúcar quieres?" },
           { es: "How many people work here?", en: "¿Cuántas personas trabajan aquí?" },
           { es: "How tall is your brother?", en: "¿Cuánto mide tu hermano?" },
@@ -685,7 +685,7 @@ export const EN_A1_U6_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "¿Cuánto cuesta el billete?",
+        source: "¿Cuánto cuesta el boleto?",
         answer: "How much is the ticket?",
         altAnswers: ["How much does the ticket cost?"],
         explanation: "El precio: \"How much is...?\" o \"How much does ... cost?\".",

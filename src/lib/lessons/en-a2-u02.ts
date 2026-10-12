@@ -280,7 +280,7 @@ export const EN_A2_U02: Lesson[] = [
         body: [
           "\"buy\" → \"bought\" (comprar), \"eat\" → \"ate\" (comer), \"drink\" → \"drank\" (beber), \"find\" → \"found\" (encontrar).",
           "\"Bought\" se pronuncia /bɔt/: la \"gh\" no suena. \"Ate\" suena igual que el número \"eight\".",
-          "Atención con «encontrar»: si buscas algo y aparece, es \"find\" (\"I found my keys\"). Si quedas con una persona o te la cruzas, es \"meet\" (\"I met Ana at the station\"), que verás en la siguiente sección.",
+          "Atención con «encontrar»: si buscas algo y aparece, es \"find\" (\"I found my keys\"). Si te ves con una persona o te la cruzas, es \"meet\" (\"I met Ana at the station\"), que verás en la siguiente sección.",
         ],
         examples: [
           { es: "I bought a new phone.", en: "Compré un teléfono nuevo." },
@@ -313,7 +313,7 @@ export const EN_A2_U02: Lesson[] = [
       {
         heading: "Irse, conocer, saber",
         body: [
-          "\"leave\" → \"left\" (irse, salir de un lugar, y también dejar algo), \"meet\" → \"met\" (conocer a alguien por primera vez, o quedar con alguien), \"know\" → \"knew\" (saber, conocer).",
+          "\"leave\" → \"left\" (irse, salir de un lugar, y también dejar algo), \"meet\" → \"met\" (conocer a alguien por primera vez, o verse con alguien), \"know\" → \"knew\" (saber, conocer).",
           "Ojo con «conocer»: \"I met my wife in 2010\" es el momento en que la conociste; \"I knew him\" significa que ya lo conocías. Muchos hispanohablantes dicen \"I knew her at a party\", pero lo correcto es \"I met her at a party\".",
           "\"Left\" también significa «izquierda», pero el contexto lo aclara: \"She left at six\" («se fue a las seis»), \"I left my bag on the bus\" («dejé mi bolso en el autobús»). Y \"knew\" se pronuncia igual que \"new\": la \"k\" es muda.",
         ],
@@ -321,7 +321,7 @@ export const EN_A2_U02: Lesson[] = [
           { es: "We left at six.", en: "Nos fuimos a las seis." },
           { es: "I left my phone at home.", en: "Dejé el teléfono en casa." },
           { es: "I met Diego at a party.", en: "Conocí a Diego en una fiesta." },
-          { es: "We met at the cafe at five.", en: "Quedamos en la cafetería a las cinco." },
+          { es: "We met at the cafe at five.", en: "Nos vimos en la cafetería a las cinco." },
           { es: "I knew the answer.", en: "Sabía la respuesta." },
           { es: "She knew my brother.", en: "Conocía a mi hermano." },
         ],

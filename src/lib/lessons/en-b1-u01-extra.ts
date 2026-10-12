@@ -714,7 +714,7 @@ export const EN_B1_U01_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Desde cuándo tienes gafas?",
+        source: "¿Desde cuándo tienes lentes?",
         answer: "How long have you had glasses?",
         altAnswers: ["Since when have you had glasses?", "How long have you been wearing glasses?", "Since when have you worn glasses?", "Since when have you been wearing glasses?"],
         explanation: "The natural English question is \"How long have you had...?\". \"Since when...?\" exists but often sounds surprised or annoyed.",
@@ -739,7 +739,7 @@ export const EN_B1_U01_EXTRA: Lesson[] = [
         examples: [
           { es: "I've read three chapters today.", en: "Hoy he leído tres capítulos." },
           { es: "I've been reading since lunch.", en: "Llevo leyendo desde la comida." },
-          { es: "She's made five cakes.", en: "Ha hecho cinco tartas." },
+          { es: "She's made five cakes.", en: "Ha hecho cinco pasteles." },
           { es: "She's been baking all morning.", en: "Lleva toda la mañana horneando." },
           { es: "How many countries have you visited?", en: "¿Cuántos países has visitado?" },
           { es: "How long have you been waiting?", en: "¿Cuánto tiempo llevas esperando?" },
@@ -796,7 +796,7 @@ export const EN_B1_U01_EXTRA: Lesson[] = [
         sentence: "She ___ five cakes for the party.",
         answer: "has made",
         altAnswers: ["has baked"],
-        en: "[Ha hecho] cinco tartas para la fiesta.",
+        en: "[Ha hecho] cinco pasteles para la fiesta.",
         explanation: "Five cakes is a result, a quantity: present perfect simple, \"has made\".",
       },
       {

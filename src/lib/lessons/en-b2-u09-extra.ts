@@ -29,7 +29,7 @@ export const EN_B2_U09_EXTRA: Lesson[] = [
           { es: "They must have missed the bus.", en: "Deben de haber perdido el autobús." },
           { es: "You should have called me.", en: "Deberías haberme llamado." },
           { es: "We should have left earlier.", en: "Tendríamos que haber salido antes." },
-          { es: "I shouldn't have eaten that last slice of cake.", en: "No debería haberme comido el último trozo de tarta." },
+          { es: "I shouldn't have eaten that last slice of cake.", en: "No debería haberme comido el último pedazo de pastel." },
         ],
         checkpoint: [
           {
@@ -290,9 +290,9 @@ export const EN_B2_U09_EXTRA: Lesson[] = [
         examples: [
           { es: "He must have forgotten.", en: "Se le debe de haber olvidado." },
           { es: "She can't have seen me. She was looking the other way.", en: "No puede haberme visto. Miraba hacia el otro lado." },
-          { es: "They might have got lost.", en: "Puede que se hayan perdido." },
+          { es: "They might have gotten lost.", en: "Puede que se hayan perdido." },
           { es: "You could have told me!", en: "¡Me lo podrías haber dicho!" },
-          { es: "We needn't have hurried. The train was late.", en: "No hacía falta que nos diéramos prisa. El tren llegó tarde." },
+          { es: "We needn't have hurried. The train was late.", en: "No hacía falta que nos apuráramos. El tren llegó tarde." },
         ],
         checkpoint: [
           {
@@ -356,7 +356,7 @@ export const EN_B2_U09_EXTRA: Lesson[] = [
         sentence: "A: I failed my driving test. B: You ___ more. You only had two lessons!",
         answer: "should have practiced",
         altAnswers: ["ought to have practiced"],
-        en: "A: Suspendí el examen de manejar. B: [Deberías haber practicado] más. ¡Solo diste dos clases!",
+        en: "A: Reprobé el examen de manejo. B: [Deberías haber practicado] más. ¡Solo diste dos clases!",
         explanation: "Criticism of the past: \"should have\" + participle. \"Practice\" (American) and \"practise\" (British verb) are both accepted.",
       },
       {
@@ -398,9 +398,9 @@ export const EN_B2_U09_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "El ladrón debe de haber entrado por la ventana.",
-        answer: "The thief must have got in through the window.",
+        answer: "The thief must have gotten in through the window.",
         altAnswers: [
-          "The thief must have gotten in through the window.",
+          "The thief must have got in through the window.",
           "The thief must have come in through the window.",
           "The thief must have entered through the window.",
           "The thief must have broken in through the window.",
@@ -490,7 +490,7 @@ export const EN_B2_U09_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No pueden haberse comido toda la tarta.",
+        source: "No pueden haberse comido todo el pastel.",
         answer: "They can't have eaten the whole cake.",
         altAnswers: ["They can't have eaten all the cake.", "They can't have eaten all of the cake.", "They couldn't have eaten the whole cake.", "They couldn't have eaten all the cake."],
         explanation: "A confident negative deduction: \"can't have\" + \"eaten\" (eat, ate, eaten). *can't have ate is wrong.",

@@ -26,8 +26,8 @@ export const EN_A2_U04_EXTRA: Lesson[] = [  // ---------------------------------
           { es: "I used to play tennis.", en: "Antes jugaba al tenis. / Solía jugar al tenis." },
           { es: "She used to live in Lima.", en: "Ella vivía antes en Lima." },
           { es: "We didn't use to have a car.", en: "Antes no teníamos carro." },
-          { es: "Did you use to wear glasses?", en: "¿Antes llevabas gafas?" },
-          { es: "There used to be a cinema here.", en: "Aquí antes había un cine." },
+          { es: "Did you use to wear glasses?", en: "¿Antes usabas lentes?" },
+          { es: "There used to be a movie theater here.", en: "Aquí antes había un cine." },
         ],
         checkpoint: [
           {
@@ -55,8 +55,8 @@ export const EN_A2_U04_EXTRA: Lesson[] = [  // ---------------------------------
           "Si la costumbre sigue hoy, no uses \"used to\": \"I used to smoke\" significa que ya no fumas.",
         ],
         examples: [
-          { es: "I usually walk to work.", en: "Suelo ir andando al trabajo." },
-          { es: "I used to walk to work.", en: "Antes iba andando al trabajo (ya no)." },
+          { es: "I usually walk to work.", en: "Suelo ir caminando al trabajo." },
+          { es: "I used to walk to work.", en: "Antes iba caminando al trabajo (ya no)." },
           { es: "He used to smoke, but he stopped.", en: "Antes fumaba, pero lo dejó." },
         ],
         checkpoint: [
@@ -315,7 +315,7 @@ export const EN_A2_U04_EXTRA: Lesson[] = [  // ---------------------------------
       },
       {
         type: "multiple-choice",
-        question: "«Ella suele llevar gafas.»",
+        question: "«Ella suele usar lentes.»",
         options: ["She usually wears glasses.", "She use to wear glasses.", "She uses to wear glasses.", "She usually wear glasses."],
         correctIndex: 0,
         explanation: "Presente con \"usually\" y \"-s\" en tercera persona: \"wears\". *She uses to no existe.",
@@ -472,7 +472,7 @@ export const EN_A2_U04_EXTRA: Lesson[] = [  // ---------------------------------
           { es: "Before leaving, I turned off the lights.", en: "Antes de salir, apagué las luces." },
           { es: "Before I left, I turned off the lights.", en: "Antes de salir, apagué las luces." },
           { es: "After eating, we watched a movie.", en: "Después de comer, vimos una película." },
-          { es: "She went to bed after finishing her homework.", en: "Se acostó después de terminar los deberes." },
+          { es: "She went to bed after finishing her homework.", en: "Se acostó después de terminar la tarea." },
         ],
         checkpoint: [
           {
@@ -524,8 +524,7 @@ export const EN_A2_U04_EXTRA: Lesson[] = [  // ---------------------------------
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "After ___ the email, I closed my laptop.",
         answer: "sending",
-        altAnswers: ["writing"],
-        en: "Después de [enviar] el correo, cerré el portátil.",
+        en: "Después de [enviar] el correo, cerré la computadora.",
         explanation: "Detrás de \"after\" el verbo va en \"-ing\": \"sending\".",
       },
       {
@@ -592,7 +591,7 @@ export const EN_A2_U04_EXTRA: Lesson[] = [  // ---------------------------------
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Primero, compramos los billetes. Luego, subimos al tren.",
+        source: "Primero, compramos los boletos. Luego, subimos al tren.",
         answer: "First, we bought the tickets. Then, we got on the train.",
         altAnswers: [
           "First, we bought the tickets. Then we got on the train.",
@@ -701,9 +700,9 @@ export const EN_A2_U04_EXTRA: Lesson[] = [  // ---------------------------------
         type: "listen-choose",
         audio: "After finishing her homework, Sofia called her friend.",
         question: "¿Qué hizo Sofia primero?",
-        options: ["Terminó los deberes.", "Llamó a su amiga.", "Fue a casa de su amiga.", "Empezó los deberes con su amiga."],
+        options: ["Terminó la tarea.", "Llamó a su amiga.", "Fue a casa de su amiga.", "Empezó la tarea con su amiga."],
         correctIndex: 0,
-        explanation: "\"After finishing her homework\" = primero terminó los deberes; después llamó a su amiga.",
+        explanation: "\"After finishing her homework\" = primero terminó la tarea; después llamó a su amiga.",
       },
       {
         type: "dictation",

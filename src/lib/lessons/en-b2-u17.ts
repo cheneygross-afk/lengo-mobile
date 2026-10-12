@@ -23,8 +23,8 @@ export const EN_B2_U17: Lesson[] = [
           { es: "Although it was raining, we went for a walk.", en: "Aunque llovía, fuimos a dar un paseo." },
           { es: "She kept working although she was exhausted.", en: "Siguió trabajando aunque estaba agotada." },
           { es: "Even though I've lived here for years, I still get lost.", en: "Aunque llevo años viviendo aquí, todavía me pierdo." },
-          { es: "Although he tried hard, he failed the exam.", en: "Aunque se esforzó mucho, suspendió el examen. (incorrecto: *Although he tried hard, but he failed)" },
-          { es: "Though it's expensive, it's worth it.", en: "Aunque es caro, merece la pena." },
+          { es: "Although he tried hard, he failed the exam.", en: "Aunque se esforzó mucho, reprobó el examen. (incorrecto: *Although he tried hard, but he failed)" },
+          { es: "Though it's expensive, it's worth it.", en: "Aunque es caro, vale la pena." },
         ],
         checkpoint: [
           {
@@ -116,11 +116,11 @@ export const EN_B2_U17: Lesson[] = [
         body: [
           "\"However\" («sin embargo») links two separate sentences. It usually goes at the start of the second sentence, followed by a comma: \"The hotel was expensive. However, it was worth it.\"",
           "\"Nevertheless\" and \"nonetheless\" («no obstante») mean the same but are more formal. In conversation, people prefer \"even so\" or \"still\" («aun así»): \"It was expensive. Even so, we bought it.\"",
-          "\"However\" is not a conjunction like \"but\". In careful writing you cannot join two clauses with a comma and \"however\"; use a full stop or a semicolon: \"It was expensive; however, we bought it.\" You will practice this in the punctuation lesson.",
+          "\"However\" is not a conjunction like \"but\". In careful writing you cannot join two clauses with a comma and \"however\"; use a period or a semicolon: \"It was expensive; however, we bought it.\" You will practice this in the punctuation lesson.",
           "In speech, \"though\" at the end of a sentence does the same job: \"The food was great. The service was slow, though.\"",
         ],
         examples: [
-          { es: "The hotel was expensive. However, it was worth it.", en: "El hotel era caro. Sin embargo, mereció la pena." },
+          { es: "The hotel was expensive. However, it was worth it.", en: "El hotel era caro. Sin embargo, valió la pena." },
           { es: "The plan is risky. Nevertheless, we have decided to go ahead.", en: "El plan es arriesgado. No obstante, hemos decidido seguir adelante." },
           { es: "It was a long trip. Even so, the kids didn't complain.", en: "Fue un viaje largo. Aun así, los niños no se quejaron." },
           { es: "The food was great. The service was slow, though.", en: "La comida estaba buenísima. Eso sí, el servicio fue lento." },
@@ -170,13 +170,13 @@ export const EN_B2_U17: Lesson[] = [
       {
         heading: "Whereas and while: comparing two facts",
         body: [
-          "To compare two different facts side by side, use \"whereas\" or \"while\" («mientras que»): \"My brother loves football, whereas I prefer tennis.\"",
+          "To compare two different facts side by side, use \"whereas\" or \"while\" («mientras que»): \"My brother loves soccer, whereas I prefer tennis.\"",
           "Here \"while\" is not about time. It just shows a contrast between two facts. \"Whereas\" is a little more formal and is only used for this kind of comparison.",
           "Spanish speakers sometimes say \"meanwhile\" for «mientras que». \"Meanwhile\" means «mientras tanto», a time word, so it does not work for comparisons.",
           "Use a comma before \"whereas\" or \"while\" in the middle. If the sentence starts with \"while\", put the comma after the first clause: \"While Ana is very organized, her sister is a mess.\"",
         ],
         examples: [
-          { es: "My brother loves football, whereas I prefer tennis.", en: "A mi hermano le encanta el fútbol, mientras que yo prefiero el tenis." },
+          { es: "My brother loves soccer, whereas I prefer tennis.", en: "A mi hermano le encanta el fútbol, mientras que yo prefiero el tenis." },
           { es: "Some people work best in the morning, while others prefer the evening.", en: "Algunas personas rinden más por la mañana, mientras que otras prefieren la tarde." },
           { es: "While Ana is very organized, her sister is a mess.", en: "Mientras que Ana es muy organizada, su hermana es un desastre." },
           { es: "In Spain people have dinner late, whereas in the US they eat around six.", en: "En España se cena tarde, mientras que en Estados Unidos se cena hacia las seis." },
@@ -772,7 +772,7 @@ export const EN_B2_U17: Lesson[] = [
     level: "EN-B2",
     number: 3,
     title: "Contrast Clinic: although, despite or however?",
-    summary: "The grammar after the linker decides which one you can use. Practise turning one idea into three patterns: Although it rained..., Despite the rain..., It rained. However, ...",
+    summary: "The grammar after the linker decides which one you can use. Practice turning one idea into three patterns: Although it rained..., Despite the rain..., It rained. However, ...",
     duration: "10 min",
     sections: [
       {
@@ -1065,7 +1065,7 @@ export const EN_B2_U17: Lesson[] = [
         examples: [
           { es: "Even though it's raining, they're playing.", en: "Aunque llueve, están jugando." },
           { es: "Even though he's a millionaire, he takes the bus.", en: "Aunque es millonario, va en autobús." },
-          { es: "She failed the exam even though she studied a lot.", en: "Suspendió el examen aunque estudió mucho." },
+          { es: "She failed the exam even though she studied a lot.", en: "Reprobó el examen aunque estudió mucho." },
           { es: "Even though I was exhausted, I couldn't sleep.", en: "Aunque estaba agotado, no podía dormir." },
           { es: "We bought it even though it was expensive.", en: "Lo compramos aunque era caro." },
         ],
@@ -1406,7 +1406,7 @@ export const EN_B2_U17: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Aunque lo intentó varias veces, no aprobó el examen de manejar.",
+            source: "Aunque lo intentó varias veces, no aprobó el examen de manejo.",
             answer: "Although he tried several times, he didn't pass his driving test.",
             altAnswers: [
               "Although she tried several times, she didn't pass her driving test.",
@@ -1562,7 +1562,7 @@ export const EN_B2_U17: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Aunque el piso es pequeño, es muy luminoso.",
+        source: "Aunque el departamento es pequeño, es muy luminoso.",
         answer: "Although the apartment is small, it's very bright.",
         altAnswers: [
           "Although the flat is small, it's very bright.",
@@ -1580,7 +1580,7 @@ export const EN_B2_U17: Lesson[] = [
           "The apartment is very bright although it's small.",
           "The apartment is very bright even though it's small.",
         ],
-        explanation: "One linker: \"although\" + clause, then \"it's very bright\" with no \"but\". «Piso» is \"apartment\" (US) or \"flat\" (UK); «luminoso» is \"bright\".",
+        explanation: "One linker: \"although\" + clause, then \"it's very bright\" with no \"but\". «Departamento» is \"apartment\" (US) or \"flat\" (UK); «luminoso» is \"bright\".",
       },
       {
         type: "word-order",
@@ -1898,13 +1898,13 @@ export const EN_B2_U17: Lesson[] = [
     level: "EN-B2",
     number: 7,
     title: "Linkers and Punctuation",
-    summary: "Use full stops, semicolons and commas correctly with however, therefore, moreover and other linkers, and avoid the comma splice: two sentences joined only by a comma, which Spanish allows far more often than English.",
+    summary: "Use periods, semicolons and commas correctly with however, therefore, moreover and other linkers, and avoid the comma splice: two sentences joined only by a comma, which Spanish allows far more often than English.",
     duration: "11 min",
     sections: [
       {
-        heading: "Sentence linkers: full stop or semicolon",
+        heading: "Sentence linkers: period or semicolon",
         body: [
-          "\"However\", \"therefore\", \"nevertheless\", \"moreover\", \"as a result\" and \"in addition\" are sentence linkers (adverbs), not conjunctions. They connect two complete sentences, so the first sentence must end with a full stop or a semicolon.",
+          "\"However\", \"therefore\", \"nevertheless\", \"moreover\", \"as a result\" and \"in addition\" are sentence linkers (adverbs), not conjunctions. They connect two complete sentences, so the first sentence must end with a period or a semicolon.",
           "At the start of the second sentence they are followed by a comma: \"The plan was good. However, it was too expensive.\" With a semicolon: \"The plan was good; however, it was too expensive.\" The semicolon shows that the two ideas are closely linked.",
           "In Spanish you often see «..., sin embargo, ...» inside one long sentence. In English, *The plan was good, however it was too expensive is a mistake in formal writing.",
         ],
@@ -1912,7 +1912,7 @@ export const EN_B2_U17: Lesson[] = [
           { es: "The plan was good. However, it was too expensive.", en: "El plan era bueno. Sin embargo, era demasiado caro." },
           { es: "The plan was good; however, it was too expensive.", en: "El plan era bueno; sin embargo, era demasiado caro." },
           { es: "The roads were icy. Therefore, the school was closed.", en: "Las carreteras estaban heladas. Por lo tanto, se cerró la escuela." },
-          { es: "The flat is central; moreover, it's very cheap.", en: "El piso es céntrico; además, es muy barato." },
+          { es: "The apartment is central; moreover, it's very cheap.", en: "El departamento es céntrico; además, es muy barato." },
           { es: "He missed three deadlines. As a result, he lost the client.", en: "No cumplió tres plazos. Como resultado, perdió al cliente." },
         ],
         checkpoint: [
@@ -1926,7 +1926,7 @@ export const EN_B2_U17: Lesson[] = [
               "The hotel was lovely, however, the beach was dirty.",
             ],
             correctIndex: 0,
-            explanation: "\"However\" joins two complete sentences, so it needs a semicolon (or a full stop) before it and a comma after it.",
+            explanation: "\"However\" joins two complete sentences, so it needs a semicolon (or a period) before it and a comma after it.",
           },
         ],
       },
@@ -1934,7 +1934,7 @@ export const EN_B2_U17: Lesson[] = [
         heading: "The comma splice",
         body: [
           "A comma splice is two complete sentences joined only by a comma: *It was late, we went home. Spanish writing tolerates long chains of clauses separated by commas, so Spanish speakers produce this error a lot in English essays.",
-          "There are three easy fixes. A full stop: \"It was late. We went home.\" A semicolon: \"It was late; we went home.\" A conjunction after the comma: \"It was late, so we went home.\"",
+          "There are three easy fixes. A period: \"It was late. We went home.\" A semicolon: \"It was late; we went home.\" A conjunction after the comma: \"It was late, so we went home.\"",
           "The conjunctions that can join two sentences after a comma are \"and\", \"but\", \"so\", \"or\", \"yet\" (and \"for\", which is literary). Sentence linkers like \"however\" or \"therefore\" cannot do this job.",
         ],
         examples: [
@@ -1955,7 +1955,7 @@ export const EN_B2_U17: Lesson[] = [
               "I called him twice; he didn't answer.",
             ],
             correctIndex: 0,
-            explanation: "Two complete sentences joined only by a comma form a comma splice. Add \"but\", a full stop or a semicolon.",
+            explanation: "Two complete sentences joined only by a comma form a comma splice. Add \"but\", a period or a semicolon.",
           },
           {
             type: "translate",
@@ -2015,7 +2015,7 @@ export const EN_B2_U17: Lesson[] = [
         examples: [
           { es: "The course is cheap. Moreover, it's online.", en: "El curso es barato. Además, es online." },
           { es: "In addition to teaching, she writes books.", en: "Además de dar clases, escribe libros." },
-          { es: "Besides, I don't even like football.", en: "Además, ni siquiera me gusta el fútbol." },
+          { es: "Besides, I don't even like soccer.", en: "Además, ni siquiera me gusta el fútbol." },
           { es: "She also speaks German.", en: "También habla alemán." },
           { es: "Furthermore, the report contains several errors.", en: "Además, el informe contiene varios errores." },
         ],
@@ -2066,7 +2066,7 @@ export const EN_B2_U17: Lesson[] = [
           "The hotel was nice. Nevertheless, it was far from the center.",
           "The hotel was nice. It was, however, far from the center.",
         ],
-        explanation: "«Sin embargo» between two sentences: full stop (or semicolon) + \"However,\".",
+        explanation: "«Sin embargo» between two sentences: period (or semicolon) + \"However,\".",
       },
       {
         type: "multiple-choice",
@@ -2078,7 +2078,7 @@ export const EN_B2_U17: Lesson[] = [
           "The museum was closed, although we went to the park.",
         ],
         correctIndex: 0,
-        explanation: "After a comma, only a coordinating conjunction such as \"so\", \"but\" or \"and\" can join two sentences. \"However\" and \"therefore\" need a full stop or a semicolon.",
+        explanation: "After a comma, only a coordinating conjunction such as \"so\", \"but\" or \"and\" can join two sentences. \"However\" and \"therefore\" need a period or a semicolon.",
       },
       {
         type: "translate",
@@ -2170,16 +2170,16 @@ export const EN_B2_U17: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Rewrite this Spanish-style sentence as correct English (25 to 70 words), using full stops, semicolons and linkers where needed: *The city is beautiful, the food is great, however it is very expensive, therefore many young people leave, moreover the rents keep going up.",
+        prompt: "Rewrite this Spanish-style sentence as correct English (25 to 70 words), using periods, semicolons and linkers where needed: *The city is beautiful, the food is great, however it is very expensive, therefore many young people leave, moreover the rents keep going up.",
         minWords: 25,
         maxWords: 70,
         rubric: [
-          "No comma splices: complete sentences are separated by full stops, semicolons or a conjunction",
+          "No comma splices: complete sentences are separated by periods, semicolons or a conjunction",
           "\"However\" and \"therefore\" start a sentence or follow a semicolon, with a comma after them",
           "\"Moreover\" starts a new sentence",
         ],
         modelAnswer: "The city is beautiful, and the food is great. However, it is very expensive; therefore, many young people leave. Moreover, the rents keep going up.",
-        explanation: "Only coordinating conjunctions (and, but, so, or, yet) can join sentences after a comma. Sentence linkers need a full stop or a semicolon before them.",
+        explanation: "Only coordinating conjunctions (and, but, so, or, yet) can join sentences after a comma. Sentence linkers need a period or a semicolon before them.",
       },
       {
         type: "speak",
@@ -2209,7 +2209,7 @@ export const EN_B2_U17: Lesson[] = [
           { es: "You have a point there.", en: "En eso tienes razón." },
           { es: "That's true, although it depends on the city.", en: "Es verdad, aunque depende de la ciudad." },
           { es: "I see your point, but I'm not convinced.", en: "Entiendo lo que dices, pero no me convence." },
-          { es: "Fair enough, but what about the cost?", en: "Vale, de acuerdo, pero ¿y el coste?" },
+          { es: "Fair enough, but what about the cost?", en: "Está bien, pero ¿y el costo?" },
         ],
         checkpoint: [
           {
@@ -2243,7 +2243,7 @@ export const EN_B2_U17: Lesson[] = [
           "Another pattern is \"It's true that... but...\" or \"Admittedly,... but...\": \"Admittedly, cars are convenient, but they pollute a lot.\" Here \"but\" is correct because there is no \"although\".",
         ],
         examples: [
-          { es: "Public transport is cheap. Having said that, it's not very reliable.", en: "El transporte público es barato. Dicho esto, no es muy fiable." },
+          { es: "Public transport is cheap. Having said that, it's not very reliable.", en: "El transporte público es barato. Dicho esto, no es muy confiable." },
           { es: "That said, I think we should try it.", en: "Dicho esto, creo que deberíamos probarlo." },
           { es: "It's expensive. Even so, I think it's worth it.", en: "Es caro. Aun así, creo que vale la pena." },
           { es: "It's true that cars are convenient, but they pollute a lot.", en: "Es verdad que los carros son cómodos, pero contaminan mucho." },
@@ -2468,7 +2468,7 @@ export const EN_B2_U17: Lesson[] = [
         ],
         examples: [
           { es: "Although the hotel, which was near the beach, was cheap, it was always full.", en: "Aunque el hotel, que estaba cerca de la playa, era barato, siempre estaba lleno." },
-          { es: "He failed the exam, which surprised everyone.", en: "Suspendió el examen, lo cual sorprendió a todos." },
+          { es: "He failed the exam, which surprised everyone.", en: "Reprobó el examen, lo cual sorprendió a todos." },
           { es: "Madrid is inland, whereas Barcelona is on the coast.", en: "Madrid está en el interior, mientras que Barcelona está en la costa." },
           { es: "Despite the fact that the book, which I loved, was long, I finished it in two days.", en: "A pesar de que el libro, que me encantó, era largo, lo terminé en dos días." },
           { es: "The town where I grew up has changed a lot.", en: "El pueblo donde crecí ha cambiado mucho." },
@@ -2600,7 +2600,7 @@ export const EN_B2_U17: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Aunque el piso, que está en el centro, es pequeño, es muy caro.",
+        source: "Aunque el departamento, que está en el centro, es pequeño, es muy caro.",
         answer: "Although the apartment, which is in the center, is small, it is very expensive.",
         altAnswers: [
           "Although the flat, which is in the centre, is small, it is very expensive.",

@@ -56,7 +56,7 @@ export const EN_B1_U15: Lesson[] = [
           { es: "I had my car repaired.", en: "Me arreglaron el carro." },
           { es: "She has her windows cleaned every month.", en: "Le limpian las ventanas cada mes." },
           { es: "We had a new kitchen installed.", en: "Nos instalaron una cocina nueva." },
-          { es: "He had his photo taken for his passport.", en: "Se hizo la foto para el pasaporte." },
+          { es: "He had his photo taken for his passport.", en: "Se tomó la foto para el pasaporte." },
           { es: "They had the documents translated.", en: "Mandaron traducir los documentos." },
         ],
         checkpoint: [
@@ -249,7 +249,7 @@ export const EN_B1_U15: Lesson[] = [
         sentence: "They ___ for their passports.",
         answer: "had their photos taken",
         altAnswers: ["got their photos taken", "had their pictures taken", "got their pictures taken", "had their photographs taken"],
-        en: "[Se hicieron las fotos] para el pasaporte.",
+        en: "[Se tomaron las fotos] para el pasaporte.",
         explanation: "A photographer took them: \"had their photos taken\". \"Take\" is irregular: take - took - taken.",
       },
       {
@@ -285,7 +285,7 @@ export const EN_B1_U15: Lesson[] = [
           { es: "I need to get my car fixed.", en: "Tengo que llevar el carro a arreglar." },
           { es: "Where did you get your nails done?", en: "¿Dónde te hiciste las uñas?" },
           { es: "We finally got the washing machine fixed.", en: "Por fin nos arreglaron la lavadora." },
-          { es: "You should get that checked.", en: "Deberías hacértelo mirar." },
+          { es: "You should get that checked.", en: "Deberías hacer que te lo revisen." },
         ],
         checkpoint: [
           {
@@ -936,7 +936,7 @@ export const EN_B1_U15: Lesson[] = [
         sentence: "The beans are ___ until they turn brown.",
         answer: "roasted",
         altAnswers: ["toasted"],
-        en: "Los granos se [tuestan] hasta que se ponen marrones.",
+        en: "Los granos se [tuestan] hasta que se ponen color café.",
         explanation: "For coffee, «tostar» is \"roast\". Passive: \"are roasted\".",
       },
       {
@@ -1301,7 +1301,7 @@ export const EN_B1_U15: Lesson[] = [
         ],
         examples: [
           { es: "It is said that he is rich.", en: "Se dice que es rico." },
-          { es: "The cakes are made here.", en: "Las tartas se hacen aquí." },
+          { es: "The cakes are made here.", en: "Los pasteles se hacen aquí." },
           { es: "Coffee is grown in Colombia.", en: "El café se cultiva en Colombia." },
         ],
         checkpoint: [
@@ -1431,7 +1431,7 @@ export const EN_B1_U15: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Aquí se hacen las tartas.",
+        source: "Aquí se hacen los pasteles.",
         answer: "The cakes are made here.",
         altAnswers: ["Cakes are made here.", "We make the cakes here.", "We make cakes here.", "The cakes are baked here.", "Cakes are baked here."],
         explanation: "Subject first: \"The cakes are made here\", not *Here are made the cakes.",
@@ -1546,7 +1546,7 @@ export const EN_B1_U15: Lesson[] = [
           { es: "Could you take a look at the brakes?", en: "¿Podrían echar un vistazo a los frenos?" },
           { es: "Can you give me an estimate?", en: "¿Me pueden dar un presupuesto?" },
           { es: "How much will it cost?", en: "¿Cuánto costará?" },
-          { es: "We'll call you when it's done.", en: "Le llamaremos cuando esté listo." },
+          { es: "We'll call you when it's done.", en: "Lo llamaremos cuando esté listo." },
         ],
         checkpoint: [
           {
@@ -1672,7 +1672,7 @@ export const EN_B1_U15: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Le llamaremos cuando esté listo.",
+        source: "Lo llamaremos cuando esté listo.",
         answer: "We'll call you when it's ready.",
         altAnswers: [
           "We'll call you when it's done.",
@@ -1751,7 +1751,7 @@ export const EN_B1_U15: Lesson[] = [
         examples: [
           { es: "The kitchen has been painted.", en: "Han pintado la cocina." },
           { es: "New windows have been put in.", en: "Han puesto ventanas nuevas." },
-          { es: "The old carpet has been taken out.", en: "Han quitado la moqueta vieja." },
+          { es: "The old carpet has been taken out.", en: "Han quitado la alfombra vieja." },
           { es: "A wall has been knocked down.", en: "Han tirado un tabique." },
           { es: "The bathroom has been completely redone.", en: "Han reformado el baño por completo." },
         ],
@@ -1783,8 +1783,8 @@ export const EN_B1_U15: Lesson[] = [
         ],
         examples: [
           { es: "We've had new windows put in.", en: "Hemos puesto ventanas nuevas (nos las ha puesto una empresa)." },
-          { es: "We've painted the living room ourselves.", en: "Hemos pintado el salón nosotros mismos." },
-          { es: "We're having the floors replaced.", en: "Nos están cambiando los suelos." },
+          { es: "We've painted the living room ourselves.", en: "Hemos pintado la sala nosotros mismos." },
+          { es: "We're having the floors replaced.", en: "Nos están cambiando los pisos." },
           { es: "We're going to have a new kitchen put in.", en: "Vamos a poner una cocina nueva." },
           { es: "Have you had the heating fixed yet?", en: "¿Ya te arreglaron la calefacción?" },
         ],
@@ -1808,7 +1808,7 @@ export const EN_B1_U15: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Vamos a cambiar los suelos (lo hará una empresa).",
+            source: "Vamos a cambiar los pisos (lo hará una empresa).",
             answer: "We're going to have the floors replaced.",
             altAnswers: [
               "We're having the floors replaced.",
@@ -1831,9 +1831,9 @@ export const EN_B1_U15: Lesson[] = [
           "Careful with «reformar»: \"reform\" is for laws and systems. For a home, say \"renovate\", \"redo\" or \"remodel\".",
         ],
         examples: [
-          { es: "The living room used to be very dark.", en: "Antes el salón era muy oscuro." },
+          { es: "The living room used to be very dark.", en: "Antes la sala era muy oscura." },
           { es: "A wall has been knocked down, so now it's much bigger.", en: "Han tirado un tabique, así que ahora es mucho más grande." },
-          { es: "We're renovating our apartment.", en: "Estamos reformando el piso." },
+          { es: "We're renovating our apartment.", en: "Estamos remodelando el departamento." },
           { es: "The old tiles have been replaced.", en: "Han cambiado los azulejos viejos." },
         ],
         checkpoint: [
@@ -1910,7 +1910,7 @@ export const EN_B1_U15: Lesson[] = [
         sentence: "The old carpet ___ taken out.",
         answer: "has been",
         altAnswers: ["has just been", "was"],
-        en: "[Han quitado] la moqueta vieja.",
+        en: "[Han quitado] la alfombra vieja.",
         explanation: "Present perfect passive: \"has been\" + participle. \"Carpet\" is singular, so \"has\".",
       },
       {
@@ -1924,7 +1924,7 @@ export const EN_B1_U15: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["We're", "having", "the", "floors", "replaced."],
-        translation: "Nos están cambiando los suelos.",
+        translation: "Nos están cambiando los pisos.",
         explanation: "Present continuous causative: \"We're having\" + \"the floors\" + \"replaced\".",
       },
       {
@@ -1934,7 +1934,7 @@ export const EN_B1_U15: Lesson[] = [
           { left: "knock down a wall", right: "tirar un tabique" },
           { left: "put in", right: "instalar" },
           { left: "tiles", right: "azulejos" },
-          { left: "carpet", right: "moqueta" },
+          { left: "carpet", right: "alfombra" },
           { left: "renovate", right: "reformar" },
         ],
         explanation: "Watch the false friends: \"carpet\" is not «carpeta» and \"reform\" is not «reformar una casa».",
@@ -1958,10 +1958,10 @@ export const EN_B1_U15: Lesson[] = [
         audio: "We've had the whole apartment painted.",
         question: "What did you hear?",
         options: [
-          "Nos han pintado todo el piso.",
-          "Hemos pintado todo el piso nosotros mismos.",
-          "Vamos a pintar todo el piso.",
-          "Habíamos pintado todo el piso.",
+          "Nos han pintado todo el departamento.",
+          "Hemos pintado todo el departamento nosotros mismos.",
+          "Vamos a pintar todo el departamento.",
+          "Habíamos pintado todo el departamento.",
         ],
         correctIndex: 0,
         explanation: "\"Had\" + object + \"painted\": professionals did it for us.",
@@ -2153,8 +2153,8 @@ export const EN_B1_U15: Lesson[] = [
         sentence: "This form ___ in black ink.",
         answer: "must be filled out",
         altAnswers: ["must be filled in", "must be completed", "has to be filled out", "has to be filled in", "has to be completed"],
-        en: "Este formulario [debe rellenarse] con tinta negra.",
-        explanation: "Modal + \"be\" + participle. «Rellenar» a form is \"fill out\" (US) or \"fill in\" (UK).",
+        en: "Este formulario [debe llenarse] con tinta negra.",
+        explanation: "Modal + \"be\" + participle. «Llenar» a form is \"fill out\" (US) or \"fill in\" (UK).",
       },
       {
         type: "multiple-choice",
@@ -2263,14 +2263,14 @@ export const EN_B1_U15: Lesson[] = [
       {
         heading: "Returning things: refund, receipt, exchange",
         body: [
-          "If you take something back to a store, you can ask for \"a refund\" («que te devuelvan el dinero») or \"an exchange\" («un cambio»). You'll usually need \"the receipt\" («el tique de compra»).",
+          "If you take something back to a store, you can ask for \"a refund\" («que te devuelvan el dinero») or \"an exchange\" («un cambio»). You'll usually need \"the receipt\" («el recibo» or «el ticket»).",
           "The verb is \"return\" or \"take back\" («devolver»): \"I'd like to return this\". \"Exchange\" is also a verb: \"Can I exchange it for a smaller size?\".",
           "The \"p\" in \"receipt\" is silent: it sounds like \"ri-SEET\". And don't confuse it with \"recipe\" («receta de cocina»).",
         ],
         examples: [
           { es: "I'd like to return this jacket.", en: "Quería devolver esta chaqueta." },
           { es: "Can I get a refund?", en: "¿Me pueden devolver el dinero?" },
-          { es: "Do you have the receipt?", en: "¿Tiene el tique?" },
+          { es: "Do you have the receipt?", en: "¿Tiene el recibo?" },
           { es: "Can I exchange it for a smaller size?", en: "¿Puedo cambiarlo por una talla más pequeña?" },
           { es: "We don't give refunds on sale items.", en: "No devolvemos el dinero de los artículos rebajados." },
         ],
@@ -2298,7 +2298,7 @@ export const EN_B1_U15: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What is «el tique de compra» in English?",
+            question: "What is «el recibo» in English?",
             options: ["the receipt", "the recipe", "the ticket", "the reception"],
             correctIndex: 0,
             explanation: "\"Receipt\" is the paper that proves you paid. A \"recipe\" is for cooking, and a \"ticket\" is for a train, a concert or a movie.",
@@ -2359,7 +2359,7 @@ export const EN_B1_U15: Lesson[] = [
         examples: [
           { es: "Can I try this on?", en: "¿Me lo puedo probar?" },
           { es: "Where are the fitting rooms?", en: "¿Dónde están los probadores?" },
-          { es: "These jeans don't fit me.", en: "Estos vaqueros no me quedan bien de talla." },
+          { es: "These jeans don't fit me.", en: "Estos jeans no me quedan bien de talla." },
           { es: "That color really suits you.", en: "Ese color te favorece mucho." },
           { es: "Do you have it in a bigger size?", en: "¿Lo tiene en una talla más grande?" },
         ],
@@ -2451,7 +2451,7 @@ export const EN_B1_U15: Lesson[] = [
         instructions: "Match each English word or phrase with its meaning.",
         pairs: [
           { left: "refund", right: "reembolso" },
-          { left: "receipt", right: "tique de compra" },
+          { left: "receipt", right: "recibo" },
           { left: "bargain", right: "ganga" },
           { left: "out of stock", right: "agotado" },
           { left: "fitting room", right: "probador" },
@@ -2501,7 +2501,7 @@ export const EN_B1_U15: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "You can't return it without the ___.",
         answer: "receipt",
-        en: "No puede devolverlo sin el [tique].",
+        en: "No puede devolverlo sin el [recibo].",
         explanation: "The paper that proves you paid is the \"receipt\". The \"p\" is silent.",
       },
       {

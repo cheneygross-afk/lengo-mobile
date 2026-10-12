@@ -217,7 +217,7 @@ export const EN_B2_U30: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si no te das prisa, vas a perder el autobús.",
+        source: "Si no te apuras, vas a perder el autobús.",
         answer: "If you don't hurry, you're going to miss the bus.",
         altAnswers: [
           "If you don't hurry, you'll miss the bus.",
@@ -607,14 +607,14 @@ export const EN_B2_U30: Lesson[] = [
         body: [
           "A defining clause identifies which person or thing you mean, and has no commas: \"The woman who lives upstairs is a nurse\". A non-defining clause adds extra information and goes between commas: \"My sister, who lives in London, is a doctor\".",
           "In non-defining clauses you cannot use \"that\" and you cannot drop the pronoun. In defining clauses you can drop an object pronoun: \"The book (that) I'm reading\".",
-          "Spanish «lo que» has two translations. At the start of a noun phrase it is \"what\": \"What I need is a holiday\". When it refers back to a whole clause it is \", which\": \"He failed the exam, which surprised everyone\". Never \"that\" or \"what\" in that second case.",
+          "Spanish «lo que» has two translations. At the start of a noun phrase it is \"what\": \"What I need is a vacation\". When it refers back to a whole clause it is \", which\": \"He failed the exam, which surprised everyone\". Never \"that\" or \"what\" in that second case.",
         ],
         examples: [
           { es: "The woman who lives upstairs is a nurse.", en: "La mujer que vive arriba es enfermera." },
           { es: "My sister, who lives in London, is a doctor.", en: "Mi hermana, que vive en Londres, es médica." },
           { es: "The book I'm reading is fantastic.", en: "El libro que estoy leyendo es fantástico." },
           { es: "What I need is a vacation.", en: "Lo que necesito son unas vacaciones." },
-          { es: "He failed the exam, which surprised everyone.", en: "Suspendió el examen, lo que sorprendió a todos." },
+          { es: "He failed the exam, which surprised everyone.", en: "Reprobó el examen, lo que sorprendió a todos." },
           { es: "That's the man whose car was stolen.", en: "Ese es el hombre al que le robaron el carro." },
         ],
         checkpoint: [
@@ -689,7 +689,7 @@ export const EN_B2_U30: Lesson[] = [
               "Having losing my keys, I had to wait outside.",
             ],
             correctIndex: 0,
-            explanation: "The subject of the participle clause must be the subject of the main clause: I lost the keys and I waited. In the second option, the door lost the keys.",
+            explanation: "The subject of the participle clause must be the subject of the main clause: I lost the keys and I waited. In \"Having lost my keys, the door was locked\", the door lost the keys.",
           },
         ],
       },
@@ -941,7 +941,7 @@ export const EN_B2_U30: Lesson[] = [
           { es: "Remember to lock the door.", en: "Acuérdate de cerrar la puerta con llave." },
           { es: "I stopped smoking two years ago.", en: "Dejé de fumar hace dos años." },
           { es: "We stopped to have lunch.", en: "Paramos para comer." },
-          { es: "Try restarting the computer.", en: "Prueba a reiniciar el ordenador." },
+          { es: "Try restarting the computer.", en: "Intenta reiniciar la computadora." },
           { es: "We regret to inform you that the flight has been canceled.", en: "Lamentamos informarle de que el vuelo ha sido cancelado." },
         ],
         checkpoint: [
@@ -1158,7 +1158,7 @@ export const EN_B2_U30: Lesson[] = [
           { es: "There was heavy rain all night.", en: "Llovió muchísimo toda la noche." },
           { es: "It's highly unlikely that he'll come.", en: "Es muy poco probable que venga." },
           { es: "We managed to meet the deadline.", en: "Conseguimos cumplir el plazo." },
-          { es: "The campaign aims to raise awareness of the problem.", en: "La campaña pretende concienciar sobre el problema." },
+          { es: "The campaign aims to raise awareness of the problem.", en: "La campaña pretende concientizar sobre el problema." },
         ],
         checkpoint: [
           {
@@ -1227,7 +1227,7 @@ export const EN_B2_U30: Lesson[] = [
           { es: "Eventually, we found the hotel.", en: "Al final, encontramos el hotel." },
           { es: "I was so embarrassed!", en: "¡Qué vergüenza pasé!" },
           { es: "I attended a conference in Boston.", en: "Asistí a un congreso en Boston." },
-          { es: "The exam was a piece of cake.", en: "El examen estaba chupado." },
+          { es: "The exam was a piece of cake.", en: "El examen estaba facilísimo." },
           { es: "That jacket cost an arm and a leg.", en: "Esa chaqueta costó un ojo de la cara." },
         ],
         checkpoint: [
@@ -1265,7 +1265,7 @@ export const EN_B2_U30: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "We've ___ coffee. Can you buy some?",
         answer: "run out of",
-        en: "[Se nos ha acabado] el café. ¿Puedes comprar?",
+        en: "[Se nos ha acabado] el café. ¿Puedes comprar más?",
         explanation: "\"Run out of\" + noun: have none left. The Spanish «se nos» structure becomes a normal subject: \"We've run out of\".",
       },
       {
@@ -1305,7 +1305,7 @@ export const EN_B2_U30: Lesson[] = [
         instructions: "Match each idiom with its meaning.",
         pairs: [
           { left: "a piece of cake", right: "muy fácil" },
-          { left: "under the weather", right: "un poco pachucho" },
+          { left: "under the weather", right: "un poco indispuesto" },
           { left: "once in a blue moon", right: "muy de vez en cuando" },
           { left: "the last straw", right: "la gota que colma el vaso" },
           { left: "cost an arm and a leg", right: "costar un ojo de la cara" },
@@ -1652,7 +1652,7 @@ export const EN_B2_U30: Lesson[] = [
         body: [
           "Upper Intermediate exam writing tasks (an essay, an email, a review, a report) are marked on content, organization, language and register. The quickest way to lose marks is to start writing without a plan.",
           "An opinion essay has four or five paragraphs: an introduction that rephrases the question and gives your view, two or three body paragraphs that each start with a clear topic sentence, and a conclusion that sums up without adding new ideas.",
-          "Spanish academic style likes long sentences joined with commas. English prefers shorter sentences and one main idea per paragraph. A comma alone cannot join two complete sentences: use a full stop, a semicolon or a linker.",
+          "Spanish academic style likes long sentences joined with commas. English prefers shorter sentences and one main idea per paragraph. A comma alone cannot join two complete sentences: use a period, a semicolon or a linker.",
         ],
         examples: [
           { es: "It is often argued that social media does more harm than good.", en: "A menudo se dice que las redes sociales hacen más mal que bien." },
@@ -1688,7 +1688,7 @@ export const EN_B2_U30: Lesson[] = [
               "Many people work from home as a result, city centers are quieter.",
             ],
             correctIndex: 0,
-            explanation: "Two complete sentences cannot be joined with just a comma (the comma splice). Use a full stop or semicolon before \"As a result\".",
+            explanation: "Two complete sentences cannot be joined with just a comma (the comma splice). Use a period or semicolon before \"As a result\".",
           },
         ],
       },
@@ -1750,8 +1750,8 @@ export const EN_B2_U30: Lesson[] = [
         examples: [
           { es: "Furthermore, public transportation would become cheaper.", en: "Además, el transporte público sería más barato." },
           { es: "On the other hand, some jobs would disappear.", en: "Por otro lado, algunos empleos desaparecerían." },
-          { es: "Nevertheless, the plan is worth trying.", en: "Aun así, merece la pena probar el plan." },
-          { es: "Finally, we should consider the cost.", en: "Por último, debemos tener en cuenta el coste." },
+          { es: "Nevertheless, the plan is worth trying.", en: "Aun así, vale la pena probar el plan." },
+          { es: "Finally, we should consider the cost.", en: "Por último, debemos tener en cuenta el costo." },
           { es: "All things considered, I believe the ban is a good idea.", en: "Teniendo todo en cuenta, creo que la prohibición es una buena idea." },
         ],
         checkpoint: [
@@ -1825,7 +1825,7 @@ export const EN_B2_U30: Lesson[] = [
         sentence: "The apartment is close to the station. ___ , the rent is very reasonable.",
         answer: "Furthermore",
         altAnswers: ["Moreover", "In addition", "What is more", "Besides", "Also"],
-        en: "El piso está cerca de la estación. [Además], el alquiler es muy razonable.",
+        en: "El departamento está cerca de la estación. [Además], el alquiler es muy razonable.",
         explanation: "Adding a point in formal writing: \"Furthermore\", \"Moreover\" or \"In addition\", followed by a comma.",
       },
       {
@@ -2392,7 +2392,7 @@ export const EN_B2_U30: Lesson[] = [
     level: "EN-B2",
     number: 10,
     title: "Upper Intermediate Exit Test, Part 1 of 2",
-    summary: "Part one of the exit test for the Advanced level: tenses, hypotheticals, passives and clauses without hints. Aim for at least 80 percent before moving on.",
+    summary: "Part one of the Upper Intermediate exit test: tenses, hypotheticals, passives and clauses without hints. Aim for at least 80 percent before moving on.",
     duration: "12 min",
     sections: [
       {
@@ -2605,7 +2605,7 @@ export const EN_B2_U30: Lesson[] = [
         sentence: "We ___ by a professional photographer.",
         answer: "had our wedding photos taken",
         altAnswers: ["got our wedding photos taken", "had our wedding pictures taken", "got our wedding pictures taken"],
-        en: "[Nos hicieron las fotos de la boda] un fotógrafo profesional.",
+        en: "[Nos tomó las fotos de la boda] un fotógrafo profesional.",
         explanation: "A service done for us: causative \"have\" / \"get\" + object + participle.",
       },
       {
@@ -2676,7 +2676,7 @@ export const EN_B2_U30: Lesson[] = [
     level: "EN-B2",
     number: 11,
     title: "Upper Intermediate Exit Test, Part 2 of 2",
-    summary: "Part two of the exit test for the Advanced level: vocabulary, word formation, sentence transformations and translation without hints. Pass it and you are ready for the Advanced level.",
+    summary: "Part two of the Upper Intermediate exit test: vocabulary, word formation, sentence transformations and translation without hints. Pass it and you are ready for the Advanced level.",
     duration: "12 min",
     sections: [
       {
@@ -2749,7 +2749,7 @@ export const EN_B2_U30: Lesson[] = [
         examples: [
           { es: "Although she was tired, she went out. / Despite being tired, she went out.", en: "Aunque estaba cansada, salió." },
           { es: "I regret not studying more. / I wish I had studied more.", en: "Me arrepiento de no haber estudiado más." },
-          { es: "If you don't hurry, you'll be late. / Unless you hurry, you'll be late.", en: "Si no te das prisa, llegarás tarde." },
+          { es: "If you don't hurry, you'll be late. / Unless you hurry, you'll be late.", en: "Si no te apuras, llegarás tarde." },
         ],
         checkpoint: [
           {

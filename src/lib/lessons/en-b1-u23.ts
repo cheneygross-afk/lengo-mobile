@@ -326,7 +326,7 @@ export const EN_B1_U23: Lesson[] = [
         examples: [
           { es: "I wonder if it's going to rain.", en: "Me pregunto si va a llover." },
           { es: "I wonder where they are.", en: "Me pregunto dónde estarán." },
-          { es: "I wonder why she left so early.", en: "Me pregunto por qué se fue tan pronto." },
+          { es: "I wonder why she left so early.", en: "Me pregunto por qué se fue tan temprano." },
           { es: "I was wondering if you could help me.", en: "Me preguntaba si me podrías ayudar." },
           { es: "I was wondering if you were free on Friday.", en: "Quería saber si estabas libre el viernes." },
         ],
@@ -410,7 +410,7 @@ export const EN_B1_U23: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me pregunto por qué se fue tan pronto.",
+        source: "Me pregunto por qué se fue tan temprano.",
         answer: "I wonder why she left so early.",
         altAnswers: ["I wonder why he left so early.", "I wonder why she left so soon.", "I wonder why he left so soon."],
         explanation: "Not *why did she leave: after \"I wonder\", use the past form \"left\" with statement order.",
@@ -991,14 +991,14 @@ export const EN_B1_U23: Lesson[] = [
       {
         heading: "Imperatives and Let's",
         body: [
-          "After an imperative, the usual tag is \"will you?\": \"Close the door, will you?\". It makes an order softer, like «¿quieres?» or «¿vale?». \"Can you?\" and \"could you?\" are also possible: \"Help me with this, could you?\".",
+          "After an imperative, the usual tag is \"will you?\": \"Close the door, will you?\". It makes an order softer, like «¿quieres?» or «¿sí?». \"Can you?\" and \"could you?\" are also possible: \"Help me with this, could you?\".",
           "After a negative imperative, use \"will you?\": \"Don't be late, will you?\".",
           "After \"Let's...\", the tag is \"shall we?\": \"Let's go, shall we?\" = «Vamos, ¿no?». It's a friendly suggestion. In American English it can sound a bit formal; \"Let's go, okay?\" is also common.",
         ],
         examples: [
           { es: "Close the door, will you?", en: "Cierra la puerta, ¿quieres?" },
           { es: "Pass me the salt, could you?", en: "Pásame la sal, ¿puedes?" },
-          { es: "Don't be late, will you?", en: "No llegues tarde, ¿vale?" },
+          { es: "Don't be late, will you?", en: "No llegues tarde, ¿sí?" },
           { es: "Let's go, shall we?", en: "Vamos, ¿no?" },
           { es: "Let's order a pizza, shall we?", en: "Pedimos una pizza, ¿no?" },
         ],
@@ -1093,7 +1093,7 @@ export const EN_B1_U23: Lesson[] = [
         sentence: "Don't tell anyone, ___?",
         answer: "will you",
         altAnswers: ["okay", "ok"],
-        en: "No se lo digas a nadie, [¿vale?]",
+        en: "No se lo digas a nadie, [¿sí?]",
         explanation: "After a negative imperative, the tag is \"will you?\".",
       },
       {
@@ -1788,7 +1788,7 @@ export const EN_B1_U23: Lesson[] = [
           { es: "Could you tell me what time breakfast is served?", en: "¿Me podría decir a qué hora se sirve el desayuno?" },
           { es: "It's served from seven to ten in the restaurant.", en: "Se sirve de siete a diez en el restaurante." },
           { es: "And do you know if there's a gym in the hotel?", en: "¿Y sabe si hay gimnasio en el hotel?" },
-          { es: "Yes, it's on the second floor, next to the pool.", en: "Sí, está en la segunda planta, al lado de la piscina." },
+          { es: "Yes, it's on the second floor, next to the pool.", en: "Sí, está en el segundo piso, al lado de la piscina." },
           { es: "Can you tell me where the elevator is?", en: "¿Me puede decir dónde está el ascensor?" },
         ],
         checkpoint: [
@@ -2194,7 +2194,7 @@ export const EN_B1_U23: Lesson[] = [
           "*Lose a flight is wrong: you \"miss\" a flight («perder el vuelo»).",
         ],
         examples: [
-          { es: "We need to check in two hours before departure.", en: "Tenemos que facturar dos horas antes de la salida." },
+          { es: "We need to check in two hours before departure.", en: "Tenemos que documentar dos horas antes de la salida." },
           { es: "Our flight was delayed by two hours.", en: "Nuestro vuelo se retrasó dos horas." },
           { es: "The flight was canceled because of the storm.", en: "Cancelaron el vuelo por la tormenta." },
           { es: "Boarding starts at gate 12.", en: "El embarque empieza en la puerta 12." },
@@ -2298,7 +2298,7 @@ export const EN_B1_U23: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Hurry up or we'll ___ the train!",
         answer: "miss",
-        en: "¡Date prisa o vamos a [perder] el tren!",
+        en: "¡Apúrate o vamos a [perder] el tren!",
         explanation: "«Perder» a train = \"miss\". \"Lose\" is for things you can't find.",
       },
       {

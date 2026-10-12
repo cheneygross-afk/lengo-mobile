@@ -2228,7 +2228,7 @@ export const EN_B1_U22: Lesson[] = [
         sentence: "I've decided ___ my own business.",
         answer: "to start",
         altAnswers: ["to open", "to set up"],
-        en: "He decidido [montar] mi propio negocio.",
+        en: "He decidido [poner] mi propio negocio.",
         explanation: "\"Decide\" + to + verb.",
       },
       {

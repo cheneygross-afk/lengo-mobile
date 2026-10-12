@@ -292,7 +292,7 @@ export const EN_B1_U01: Lesson[] = [
         ],
         examples: [
           { es: "I haven't been sleeping well lately.", en: "Últimamente no duermo bien." },
-          { es: "She hasn't been feeling well.", en: "No se ha encontrado bien." },
+          { es: "She hasn't been feeling well.", en: "No se ha sentido bien." },
           { es: "We haven't been going out much recently.", en: "Últimamente no salimos mucho." },
           { es: "Have you been waiting long? No, I haven't.", en: "¿Llevas mucho esperando? No." },
         ],
@@ -462,7 +462,7 @@ export const EN_B1_U01: Lesson[] = [
         body: [
           "Spanish uses «llevar» for time: «llevo dos años aquí». English does not use \"carry\" for this. *I carry two years here means nothing to an English speaker.",
           "With \"be\", the English is \"I've been here for two years\". With other verbs, use \"have been\" + -ing: «llevo dos años trabajando aquí» is \"I've been working here for two years\".",
-          "And remember: «desde hace» is \"for\". \"Since two years\" is one of the most common mistakes Spanish speakers make.",
+          "And remember: «desde hace» is \"for\". *Since two years is one of the most common mistakes Spanish speakers make.",
         ],
         examples: [
           { es: "I've been here for two years.", en: "Llevo dos años aquí." },
@@ -1284,7 +1284,7 @@ export const EN_B1_U01: Lesson[] = [
           { es: "Ana! It's been ages! How are you?", en: "¡Ana! ¡Hace siglos! ¿Qué tal estás?" },
           { es: "I'm great. So, what have you been up to?", en: "Genial. Bueno, ¿qué es de tu vida?" },
           { es: "Oh, not much. I've been working a lot.", en: "Bah, poca cosa. He estado trabajando mucho." },
-          { es: "Same here. I've been really busy.", en: "Yo igual. He estado muy liado." },
+          { es: "Same here. I've been really busy.", en: "Yo igual. He estado muy ocupado." },
         ],
         checkpoint: [
           {
@@ -1380,7 +1380,7 @@ export const EN_B1_U01: Lesson[] = [
           "\"Keep in touch\" = «seguir en contacto». \"Catch up\" = «ponerse al día»: \"Let's get coffee and catch up\".",
         ],
         examples: [
-          { es: "It was great to see you!", en: "¡Me ha encantado verte!" },
+          { es: "It was great to see you!", en: "¡Me encantó verte!" },
           { es: "Let's get coffee and catch up.", en: "Tomemos un café y nos ponemos al día." },
           { es: "Let's keep in touch.", en: "Sigamos en contacto." },
         ],
@@ -1503,11 +1503,11 @@ export const EN_B1_U01: Lesson[] = [
         heading: "Four Spanish patterns, one English pattern",
         body: [
           "These Spanish patterns all become \"have been\" + -ing + \"for/since\" in English: «hace X que + presente», «llevo X + gerundio», «presente + desde hace X» and «presente + desde X».",
-          "So «hace un mes que busco piso», «llevo un mes buscando piso» and «busco piso desde hace un mes» are all \"I've been looking for an apartment for a month\".",
+          "So «hace un mes que busco departamento», «llevo un mes buscando departamento» and «busco departamento desde hace un mes» are all \"I've been looking for an apartment for a month\".",
           "With state verbs (know, have, be...) use the simple: «hace años que lo conozco» = \"I've known him for years\".",
         ],
         examples: [
-          { es: "I've been looking for an apartment for a month.", en: "Llevo un mes buscando piso." },
+          { es: "I've been looking for an apartment for a month.", en: "Llevo un mes buscando departamento." },
           { es: "She's been learning to drive since May.", en: "Aprende a manejar desde mayo." },
           { es: "I've known him for years.", en: "Hace años que lo conozco." },
           { es: "They've been arguing since lunch.", en: "Están discutiendo desde la comida." },
@@ -1517,7 +1517,7 @@ export const EN_B1_U01: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Hace un mes que busco piso.",
+            source: "Hace un mes que busco departamento.",
             answer: "I've been looking for an apartment for a month.",
             altAnswers: [
               "I've been looking for a flat for a month.",
@@ -1525,7 +1525,7 @@ export const EN_B1_U01: Lesson[] = [
               "I've been looking for a flat for one month.",
               "I've been looking for a place for a month.",
             ],
-            explanation: "«Hace + time + que + present» = \"have been\" + -ing + \"for\". «Piso» is \"apartment\" (American) or \"flat\" (British).",
+            explanation: "«Hace + time + que + present» = \"have been\" + -ing + \"for\". «Departamento» is \"apartment\" (American) or \"flat\" (British).",
           },
         ],
       },
@@ -1704,7 +1704,7 @@ export const EN_B1_U01: Lesson[] = [
         examples: [
           { es: "She's very reliable.", en: "Es muy de fiar." },
           { es: "My brother is really easy-going.", en: "Mi hermano es muy tranquilo." },
-          { es: "Don't be so stubborn!", en: "¡No seas tan cabezota!" },
+          { es: "Don't be so stubborn!", en: "¡No seas tan terco!" },
           { es: "He's been really moody lately.", en: "Últimamente está de muy mal humor." },
           { es: "Emma is outgoing, but her sister is shy.", en: "Emma es extrovertida, pero su hermana es tímida." },
           { es: "What's your boss like?", en: "¿Cómo es tu jefe?" },
@@ -1715,7 +1715,7 @@ export const EN_B1_U01: Lesson[] = [
             instructions: "Match each adjective with its meaning.",
             pairs: [
               { left: "reliable", right: "de fiar" },
-              { left: "stubborn", right: "terco, cabezota" },
+              { left: "stubborn", right: "terco, testarudo" },
               { left: "outgoing", right: "extrovertido" },
               { left: "easy-going", right: "tranquilo, de trato fácil" },
             ],
@@ -1773,7 +1773,7 @@ export const EN_B1_U01: Lesson[] = [
         body: [
           "Many opposites are made with a prefix: un- (\"unfriendly\", \"unkind\", \"unreliable\"), dis- (\"dishonest\", \"disorganized\") and in- (\"impatient\", \"immature\", \"irresponsible\").",
           "The prefix in- changes spelling: it becomes \"im-\" before p and m (impatient, immature, impolite) and \"ir-\" before r (irresponsible). Spanish does the same before p and r («impaciente», «irresponsable»), but not before m: «inmaduro» is \"immature\", with double m, never *inmature.",
-          "Some opposites are different words: \"hard-working\" / \"lazy\", \"generous\" / \"mean\" (American English also says \"stingy\"), \"outgoing\" / \"shy\".",
+          "Some opposites are different words: \"hard-working\" / \"lazy\", \"generous\" / \"mean\" (American English usually says \"stingy\"; in the US \"mean\" usually means «malo», «antipático»), \"outgoing\" / \"shy\".",
         ],
         examples: [
           { es: "unfriendly", en: "antipático" },
@@ -1798,7 +1798,7 @@ export const EN_B1_U01: Lesson[] = [
             sentence: "The new waiter is a bit ___.",
             answer: "unfriendly",
             altAnswers: ["unpleasant"],
-            en: "El camarero nuevo es un poco [antipático].",
+            en: "El mesero nuevo es un poco [antipático].",
             explanation: "«Antipático» = \"unfriendly\" (or \"not very nice\"). \"Antipathetic\" is not used for people.",
           },
         ],
@@ -1844,8 +1844,8 @@ export const EN_B1_U01: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Don't be so ___! Just listen to me.",
         answer: "stubborn",
-        en: "¡No seas tan [cabezota]! Escúchame.",
-        explanation: "\"Stubborn\" = «terco», «cabezota».",
+        en: "¡No seas tan [terco]! Escúchame.",
+        explanation: "\"Stubborn\" = «terco», «testarudo».",
       },
       {
         type: "translate",
@@ -1902,7 +1902,7 @@ export const EN_B1_U01: Lesson[] = [
           "Uses \"has been\" + -ing for recent activity",
           "No false friends (\"sympathetic\" for «simpático», \"sensible\" for «sensible»)",
         ],
-        modelAnswer: "I've known Diego since we were at school. He's very outgoing and easy-going, and he's always been reliable. He can be a bit stubborn, but he's also very sensitive. Lately he's been working at a new restaurant, and he's been learning to cook Japanese food.",
+        modelAnswer: "I've known Diego since we were in school. He's very outgoing and easy-going, and he's always been reliable. He can be a bit stubborn, but he's also very sensitive. Lately he's been working at a new restaurant, and he's been learning to cook Japanese food.",
         explanation: "Check the state verbs (\"I've known\", \"he's been\") and the false friends.",
       },
     ],
@@ -1969,9 +1969,9 @@ export const EN_B1_U01: Lesson[] = [
       {
         heading: "Don't lose the 've",
         body: [
-          "Because \"I've\" is so short, many learners don't hear it and write \"I been working\". That is not standard English. The /v/ is small, but it is there.",
+          "Because \"I've\" is so short, many learners don't hear it and write *I been working. That is not standard English. The /v/ is small, but it is there.",
           "The contraction is also important with \"we've\" and \"they've\": \"We've been\" sounds like /wiːv bɪn/. Practice joining the /v/ and the /b/: for /v/ your top teeth touch your bottom lip, then both lips close for /b/. Don't turn the /v/ into a /b/.",
-          "At the end of a sentence, the auxiliary is strong again: \"Have you been waiting long?\" \"Yes, I HAVE.\" Short answers are never contracted.",
+          "At the end of a sentence, the auxiliary is strong again: \"Have you been waiting long?\" \"Yes, I HAVE.\" Positive short answers are never contracted (\"Yes, I have\", not *Yes, I've); negative ones usually are (\"No, I haven't\").",
         ],
         examples: [
           { es: "We've been talking about you.", en: "Hemos estado hablando de ti." },
@@ -2044,7 +2044,7 @@ export const EN_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A learner wrote \"I been studying all day.\" What is missing?",
+        question: "A learner wrote *I been studying all day. What is missing?",
         options: ["'ve (I've)", "am (I am)", "was (I was)", "did (I did)"],
         correctIndex: 0,
         explanation: "The present perfect continuous needs \"have\": \"I've been studying\". The /v/ is short, but you must say and write it.",
@@ -2152,7 +2152,7 @@ export const EN_B1_U01: Lesson[] = [
           { es: "I started learning English five years ago.", en: "Empecé a aprender inglés hace cinco años." },
           { es: "I've been studying at this school since January.", en: "Estudio en esta escuela desde enero." },
           { es: "I've already passed two exams.", en: "Ya he aprobado dos exámenes." },
-          { es: "I was doing my homework when my teacher called.", en: "Estaba haciendo los deberes cuando llamó mi profesor." },
+          { es: "I was doing my homework when my teacher called.", en: "Estaba haciendo la tarea cuando llamó mi profesor." },
         ],
         checkpoint: [
           {
@@ -2187,7 +2187,7 @@ export const EN_B1_U01: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Have you finished your homework ___?",
         answer: "yet",
-        en: "¿[Ya] has terminado los deberes?",
+        en: "¿[Ya] has terminado la tarea?",
         explanation: "In questions, «ya» is \"yet\", at the end of the sentence.",
       },
       {

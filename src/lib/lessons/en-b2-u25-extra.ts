@@ -52,7 +52,7 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
           { es: "I can't connect to the internet.", en: "No me puedo conectar a internet. (incorrecto: *connect to Internet)" },
           { es: "Is there Wi-Fi in the hotel?", en: "¿Hay wifi en el hotel?" },
           { es: "My battery is running low.", en: "Me estoy quedando sin batería." },
-          { es: "Enter your password and click Next.", en: "Introduce tu contraseña y haz clic en Siguiente." },
+          { es: "Enter your password and click Next.", en: "Ingresa tu contraseña y haz clic en Siguiente." },
         ],
         checkpoint: [
           {
@@ -133,7 +133,7 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
         sentence: "Don't forget to ___ when you use a public computer.",
         answer: "log out",
         altAnswers: ["sign out", "log off"],
-        en: "No te olvides de [cerrar sesión] cuando uses un ordenador público.",
+        en: "No te olvides de [cerrar sesión] cuando uses una computadora pública.",
         explanation: "«Cerrar sesión» = \"log out\" / \"sign out\". The opposite is \"log in\" / \"sign in\".",
       },
       {
@@ -233,7 +233,7 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
           "«Periódico» is \"newspaper\" (or \"paper\"). *Periodic is an adjective meaning «periódico» in the sense of «que se repite». «Periodista» is \"journalist\" (or \"reporter\"), and «telediario / noticiario» is \"the news\".",
         ],
         examples: [
-          { es: "The news was on when I got home.", en: "Estaba puesto el telediario cuando llegué a casa." },
+          { es: "The news was on when I got home.", en: "Estaba puesto el noticiero cuando llegué a casa." },
           { es: "I have some news for you.", en: "Tengo una noticia para ti. (incorrecto: *a news)" },
           { es: "That's a great piece of news.", en: "Es una noticia estupenda." },
           { es: "My grandfather still reads the newspaper every morning.", en: "Mi abuelo todavía lee el periódico cada mañana. (incorrecto: *periodic)" },
@@ -253,12 +253,12 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
         heading: "Quick recap: talking about the media",
         body: [
           "A \"headline\" is the title of a story («titular»). \"Coverage\" is how much attention the media gives something («cobertura»): \"The election got a lot of coverage\". To \"broadcast\" is to show or transmit on TV or radio («emitir, retransmitir»); the past is also \"broadcast\".",
-          "A \"reliable\" source is one you can trust («fiable»). A \"biased\" report favors one side («parcial, tendencioso»); the opposite is \"objective\" or \"impartial\". \"Fake news\" is uncountable too: \"There's a lot of fake news\", not *many fake news.",
+          "A \"reliable\" source is one you can trust («confiable»). A \"biased\" report favors one side («parcial, tendencioso»); the opposite is \"objective\" or \"impartial\". \"Fake news\" is uncountable too: \"There's a lot of fake news\", not *many fake news.",
         ],
         examples: [
           { es: "The story made the headlines all over the world.", en: "La historia salió en los titulares de todo el mundo." },
-          { es: "The match will be broadcast live on Channel 4.", en: "El partido se emitirá en directo en el Canal 4." },
-          { es: "I don't think that website is a reliable source.", en: "No creo que esa web sea una fuente fiable." },
+          { es: "The game will be broadcast live on Channel 4.", en: "El partido se emitirá en directo en el Canal 4." },
+          { es: "I don't think that website is a reliable source.", en: "No creo que esa web sea una fuente confiable." },
           { es: "The article was completely biased.", en: "El artículo era totalmente tendencioso." },
           { es: "There's a lot of fake news about the vaccine.", en: "Hay muchas noticias falsas sobre la vacuna." },
         ],
@@ -352,7 +352,7 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
           { left: "coverage", right: "cobertura" },
           { left: "newspaper", right: "periódico" },
           { left: "journalist", right: "periodista" },
-          { left: "reliable", right: "fiable" },
+          { left: "reliable", right: "confiable" },
           { left: "biased", right: "tendencioso" },
         ],
         explanation: "Watch the false friend: «periódico» is \"newspaper\"; \"periodic\" means «que se repite cada cierto tiempo».",
@@ -377,10 +377,10 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Es una fuente fiable?",
+        source: "¿Es una fuente confiable?",
         answer: "Is it a reliable source?",
         altAnswers: ["Is that a reliable source?", "Is this a reliable source?", "Is it a trustworthy source?", "Is that a trustworthy source?"],
-        explanation: "«Fiable» = \"reliable\" or \"trustworthy\". English needs the subject \"it\".",
+        explanation: "«Confiable» = \"reliable\" or \"trustworthy\". English needs the subject \"it\".",
       },
       {
         type: "fill-blank",
@@ -403,7 +403,7 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["The", "news", "is", "on", "at", "nine"],
-        translation: "El telediario es a las nueve.",
+        translation: "El noticiero es a las nueve.",
         explanation: "\"The news is on\" = it is being shown on TV. Singular verb with \"news\".",
       },
       {
@@ -670,7 +670,7 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
         heading: "Quick recap: adjective suffixes",
         body: [
           "-ful means \"with\" and -less means \"without\": \"useful\" («útil») / \"useless\" («inútil»), \"careful\" / \"careless\", \"helpful\" / \"helpless\". Only one l in -ful: \"beautiful\", not *beautifull.",
-          "-ive often matches «-ivo»: \"creative\", \"expensive\", \"effective\". -able / -ible means \"can be done\": \"available\" («disponible»), \"comfortable\" («cómodo»), \"reliable\" («fiable»). Spanish «responsable» is \"responsible\" in English, with -ible: *responsable is a very common spelling slip.",
+          "-ive often matches «-ivo»: \"creative\", \"expensive\", \"effective\". -able / -ible means \"can be done\": \"available\" («disponible»), \"comfortable\" («cómodo»), \"reliable\" («confiable»). Spanish «responsable» is \"responsible\" in English, with -ible: *responsable is a very common spelling slip.",
         ],
         examples: [
           { es: "This website is really useful.", en: "Esta web es muy útil. (\"usable\" = que se puede usar)" },
@@ -819,7 +819,7 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Is", "this", "information", "reliable"],
-        translation: "¿Es fiable esta información?",
+        translation: "¿Es confiable esta información?",
         explanation: "\"Rely\" + -able = \"reliable\" (y becomes i). \"Information\" is singular: \"this information\".",
       },
       {
@@ -857,7 +857,7 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
         examples: [
           { es: "Can you turn the heating on?", en: "¿Puedes encender la calefacción?" },
           { es: "Plug the printer in and try again.", en: "Enchufa la impresora y vuelve a intentarlo." },
-          { es: "Shut down your computer before you leave.", en: "Apaga el ordenador antes de irte." },
+          { es: "Shut down your computer before you leave.", en: "Apaga la computadora antes de irte." },
           { es: "Scroll down to the bottom of the page.", en: "Baja hasta el final de la página." },
           { es: "Her new album comes out next Friday.", en: "Su nuevo disco sale el viernes que viene." },
         ],
@@ -902,7 +902,7 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "La radio está apagada. ¿La enciendo?",
-        answer: "The radio is off. Shall I turn it on?",
+        answer: "The radio is off. Should I turn it on?",
         altAnswers: ["The radio is off. Should I turn it on?", "The radio is off. Shall I switch it on?", "The radio is off. Should I switch it on?", "The radio's off. Shall I turn it on?", "The radio's off. Should I turn it on?"],
         explanation: "\"Off\" alone means «apagado». Pronoun in the middle: \"turn it on\", not *turn on it.",
       },
@@ -971,7 +971,7 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
           { left: "turn on", right: "encender" },
           { left: "turn down", right: "bajar (el volumen)" },
           { left: "plug in", right: "enchufar" },
-          { left: "shut down", right: "apagar (el ordenador)" },
+          { left: "shut down", right: "apagar (la computadora)" },
           { left: "look up", right: "buscar (información)" },
           { left: "come out", right: "salir, estrenarse" },
         ],
@@ -981,7 +981,7 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El ordenador se apagó de repente y perdí el documento.",
+        source: "La computadora se apagó de repente y perdí el documento.",
         answer: "The computer suddenly shut down and I lost the document.",
         altAnswers: ["The computer shut down suddenly and I lost the document.", "The computer suddenly shut down, and I lost the document.", "The computer suddenly turned off and I lost the document.", "The computer turned off suddenly and I lost the document.", "The computer suddenly switched off and I lost the document.", "My computer suddenly shut down and I lost the document."],
         explanation: "\"Shut down\" (past also \"shut down\") can be used without an object: the computer shuts down by itself.",
@@ -1008,7 +1008,7 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
         sentence: "Remember to ___ of your account on shared computers.",
         answer: "log out",
         altAnswers: ["sign out"],
-        en: "Acuérdate de [cerrar sesión] en tu cuenta en ordenadores compartidos.",
+        en: "Acuérdate de [cerrar sesión] en tu cuenta en computadoras compartidas.",
         explanation: "\"Log out of\" an account («cerrar sesión»). The opposite is \"log in to\".",
       },
       {

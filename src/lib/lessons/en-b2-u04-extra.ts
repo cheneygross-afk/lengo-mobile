@@ -18,12 +18,12 @@ export const EN_B2_U04_EXTRA: Lesson[] = [
       {
         heading: "Five Spanish futures, five English choices",
         body: [
-          "Spanish often uses the present for the future; English almost never does. A decision or promise made now takes \"will\" («te llamo luego» = \"I'll call you later\"), an offer takes \"Shall I...?\" («¿te ayudo?» = \"Shall I help you?\"), and a plan already arranged takes the present continuous («mañana trabajo» = \"I'm working tomorrow\").",
+          "Spanish often uses the present for the future; English almost never does. A decision or promise made now takes \"will\" («te llamo luego» = \"I'll call you later\"), an offer takes \"Should I...?\" («¿te ayudo?» = \"Should I help you?\"), and a plan already arranged takes the present continuous («mañana trabajo» = \"I'm working tomorrow\").",
           "«Ir a» + infinitive is usually \"going to\". And after «cuando», «en cuanto», «antes de que» and «hasta que», the Spanish subjunctive becomes the English present simple: «cuando llegues» = \"when you arrive\", never *when you will arrive.",
         ],
         examples: [
           { es: "I'll call you later.", en: "Te llamo luego." },
-          { es: "Shall I open the window?", en: "¿Abro la ventana?" },
+          { es: "Should I open the window?", en: "¿Abro la ventana?" },
           { es: "I'm working tomorrow.", en: "Mañana trabajo." },
           { es: "I'm going to repaint the living room.", en: "Voy a pintar el salón." },
           { es: "Call me when you arrive.", en: "Llámame cuando llegues." },
@@ -44,7 +44,7 @@ export const EN_B2_U04_EXTRA: Lesson[] = [
               "Do you want me to bring you a glass of water?",
               "Do you want me to get you a glass of water?",
             ],
-            explanation: "An offer in the Spanish present («¿te traigo?») is \"Shall I...?\" or \"Should I...?\" in English. *Do I bring you...? is a typical Spanish-speaker slip.",
+            explanation: "An offer in the Spanish present («¿te traigo?») is \"Should I...?\" (British \"Shall I...?\") in English. *Do I bring you...? is a typical Spanish-speaker slip.",
           },
           {
             type: "fill-blank",
@@ -252,7 +252,7 @@ export const EN_B2_U04_EXTRA: Lesson[] = [
           "Shall I help you with the bags?",
           "Should I help you with the suitcases?",
         ],
-        explanation: "An offer is \"Shall I...?\" (or \"Should I...?\", \"Can I...?\"), not *Do I help you...? The Spanish present is used for offers; English is not.",
+        explanation: "An offer is \"Should I...?\" (or \"Can I...?\"; British \"Shall I...?\"), not *Do I help you...? The Spanish present is used for offers; English is not.",
       },
       {
         type: "matching",
@@ -262,9 +262,9 @@ export const EN_B2_U04_EXTRA: Lesson[] = [
           { left: "I'm working tomorrow.", right: "Mañana trabajo." },
           { left: "It must be eight.", right: "Serán las ocho." },
           { left: "when you arrive", right: "cuando llegues" },
-          { left: "Shall I open the window?", right: "¿Abro la ventana?" },
+          { left: "Should I open the window?", right: "¿Abro la ventana?" },
         ],
-        explanation: "Each Spanish present, future or subjunctive maps onto a different English form: \"will\" for promises, the present continuous for plans, \"must\" for guesses, the present after \"when\", \"Shall I\" for offers.",
+        explanation: "Each Spanish present, future or subjunctive maps onto a different English form: \"will\" for promises, the present continuous for plans, \"must\" for guesses, the present after \"when\", \"Should I\" for offers.",
       },
       {
         type: "translate",

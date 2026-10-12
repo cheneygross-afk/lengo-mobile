@@ -24,7 +24,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
           { es: "I had my hair cut on Saturday.", en: "El sábado me corté el pelo (en la peluquería)." },
           { es: "I had my car repaired.", en: "Me arreglaron el carro." },
           { es: "She had her eyes tested.", en: "Se hizo una revisión de la vista." },
-          { es: "We had a new door fitted.", en: "Nos pusieron una puerta nueva." },
+          { es: "We had a new door installed.", en: "Nos pusieron una puerta nueva." },
           { es: "He has his shirts ironed at the dry cleaner's.", en: "Le planchan las camisas en la tintorería." },
         ],
         checkpoint: [
@@ -55,7 +55,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
         examples: [
           { es: "I'm having my teeth cleaned tomorrow.", en: "Mañana me hacen una limpieza dental." },
           { es: "We've just had the windows replaced.", en: "Acabamos de cambiar las ventanas." },
-          { es: "You should have that checked.", en: "Deberías hacer que te miren eso." },
+          { es: "You should have that checked.", en: "Deberías hacer que te revisen eso." },
           { es: "Did you have your bike repaired?", en: "¿Te arreglaron la bici?" },
           { es: "I'm going to have my jacket cleaned.", en: "Voy a llevar la chaqueta a limpiar." },
         ],
@@ -134,7 +134,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "We've just had the whole apartment ___.",
         answer: "painted",
-        en: "Acabamos de [pintar] todo el piso (nos lo han pintado).",
+        en: "Acabamos de [pintar] todo el departamento (nos lo han pintado).",
         explanation: "After \"had the whole apartment\" comes the participle \"painted\".",
       },
       {
@@ -227,7 +227,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me tengo que hacer una foto para el pasaporte.",
+        source: "Me tengo que tomar una foto para el pasaporte.",
         answer: "I have to have my passport photo taken.",
         altAnswers: [
           "I need to have my passport photo taken.",
@@ -265,10 +265,10 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
         audio: "We had the old carpet taken up and a wooden floor put down.",
         question: "What did you hear?",
         options: [
-          "Nos quitaron la moqueta vieja y nos pusieron suelo de madera.",
-          "Quitamos nosotros la moqueta vieja y pusimos suelo de madera.",
-          "Habíamos quitado la moqueta vieja para poner suelo de madera.",
-          "Vamos a quitar la moqueta vieja y poner suelo de madera.",
+          "Nos quitaron la alfombra vieja y nos pusieron piso de madera.",
+          "Quitamos nosotros la alfombra vieja y pusimos piso de madera.",
+          "Habíamos quitado la alfombra vieja para poner piso de madera.",
+          "Vamos a quitar la alfombra vieja y poner piso de madera.",
         ],
         correctIndex: 0,
         explanation: "\"Had the carpet taken up\" = someone did it for us. Note: \"carpet\" is «moqueta» or «alfombra», not «carpeta».",
@@ -460,7 +460,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Por qué no te haces mirar la rodilla?",
+        source: "¿Por qué no te haces revisar la rodilla?",
         answer: "Why don't you get your knee checked?",
         altAnswers: [
           "Why don't you have your knee checked?",
@@ -518,7 +518,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence means «Atracó un banco»?",
+        question: "Which sentence means «Asaltó un banco»?",
         options: ["He robbed a bank.", "He stole a bank.", "He got a bank robbed.", "He had a bank stolen."],
         correctIndex: 0,
         explanation: "You \"rob\" a place or a person and \"steal\" a thing. «Robar un banco» = \"rob a bank\".",
@@ -735,7 +735,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
           { left: "He is said to be rich.", right: "Se dice que es rico." },
           { left: "He is said to have been rich.", right: "Se dice que fue rico." },
           { left: "He says he is rich.", right: "Él dice que es rico." },
-          { left: "It says he is rich.", right: "Pone que es rico." },
+          { left: "It says he is rich.", right: "Dice que es rico." },
         ],
         explanation: "\"Is said\" = people in general say it. \"He says\" = he himself. \"It says\" = a text says it («pone» or «dice» en un papel).",
       },

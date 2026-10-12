@@ -237,13 +237,13 @@ export const EN_B2_U07: Lesson[] = [
     level: "EN-B2",
     number: 2,
     title: "Wishes and Regrets, Part 2 of 2",
-    summary: "Complain about other people's behaviour with \"I wish you would...\", criticise past actions with \"should have\" and \"ought to have\", and choose between \"hope\" and \"wish\".",
+    summary: "Complain about other people's behavior with \"I wish you would...\", criticize past actions with \"should have\" and \"ought to have\", and choose between \"hope\" and \"wish\".",
     duration: "12 min",
     sections: [
       {
         heading: "Complaints: wish + would",
         body: [
-          "\"Wish\" + \"would\" + verb expresses annoyance about someone else's behaviour, or about a situation you want to change but can't control: \"I wish you would stop interrupting\", \"I wish it would stop raining\".",
+          "\"Wish\" + \"would\" + verb expresses annoyance about someone else's behavior, or about a situation you want to change but can't control: \"I wish you would stop interrupting\", \"I wish it would stop raining\".",
           "Spanish often says this with «ojalá dejaras de...», «a ver si...» or «¿quieres dejar de...?». In English, \"I wish you would...\" is polite on the surface but clearly a complaint.",
           "The negative is \"wouldn't\": \"I wish he wouldn't leave his socks on the floor.\" This describes a habit that irritates you.",
         ],
@@ -310,9 +310,9 @@ export const EN_B2_U07: Lesson[] = [
         ],
       },
       {
-        heading: "Criticising the past: should have, ought to have",
+        heading: "Criticizing the past: should have, ought to have",
         body: [
-          "To say that a past action was a mistake, use \"should have\" + past participle: \"You should have called me.\" The negative \"shouldn't have\" criticises something that happened: \"I shouldn't have eaten so much.\"",
+          "To say that a past action was a mistake, use \"should have\" + past participle: \"You should have called me.\" The negative \"shouldn't have\" criticizes something that happened: \"I shouldn't have eaten so much.\"",
           "Spanish says «deberías haber llamado» or «no tendría que haber comido tanto». Watch the form: it is always \"have\" + past participle, never *should had or *should have call.",
           "\"Ought to have\" means the same as \"should have\" but is less common and a little more formal: \"You ought to have asked first.\"",
         ],
@@ -380,7 +380,7 @@ export const EN_B2_U07: Lesson[] = [
         source: "Ojalá dejaras de quejarte.",
         answer: "I wish you would stop complaining.",
         altAnswers: ["If only you would stop complaining.", "I wish you'd stop complaining."],
-        explanation: "Annoyance at someone's behaviour: \"wish\" + \"would\" + verb. After \"stop\", English uses the -ing form.",
+        explanation: "Annoyance at someone's behavior: \"wish\" + \"would\" + verb. After \"stop\", English uses the -ing form.",
       },
       {
         type: "translate",
@@ -393,7 +393,7 @@ export const EN_B2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your flatmate always leaves dirty dishes in the sink. What do you say?",
+        question: "Your roommate always leaves dirty dishes in the sink. What do you say?",
         options: ["I wish you wouldn't leave dirty dishes in the sink.", "I hope you don't leave dirty dishes in the sink.", "I wish I wouldn't leave dirty dishes in the sink.", "I wish you hadn't left dirty dishes in the sink every day."],
         correctIndex: 0,
         explanation: "A repeated habit of another person that annoys you: \"I wish you wouldn't...\".",
@@ -405,7 +405,7 @@ export const EN_B2_U07: Lesson[] = [
         answer: "should have booked",
         altAnswers: ["ought to have booked", "should have reserved", "ought to have reserved"],
         en: "[Deberíamos haber reservado] mesa. Ahora no hay dónde sentarse.",
-        explanation: "\"Should have\" + past participle criticises a past action that didn't happen.",
+        explanation: "\"Should have\" + past participle criticizes a past action that didn't happen.",
       },
       {
         type: "translate",
@@ -438,7 +438,7 @@ export const EN_B2_U07: Lesson[] = [
         words: ["I", "wish", "the", "neighbors", "would", "turn", "the", "music", "down."],
         translation: "A ver si los vecinos bajan la música.",
         altOrders: [["I", "wish", "the", "neighbors", "would", "turn", "down", "the", "music."]],
-        explanation: "\"Wish\" + someone + \"would\" + verb: a complaint about other people's behaviour. \"Turn down\" is separable.",
+        explanation: "\"Wish\" + someone + \"would\" + verb: a complaint about other people's behavior. \"Turn down\" is separable.",
       },
       {
         type: "matching",
@@ -565,9 +565,9 @@ export const EN_B2_U07: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: ["I hope you have a great holiday.", "I wish you have a great holiday.", "I wish you had a great holiday next week.", "I hope you will to have a great holiday."],
+            options: ["I hope you have a great vacation.", "I wish you have a great vacation.", "I wish you had a great vacation next week.", "I hope you will to have a great vacation."],
             correctIndex: 0,
-            explanation: "\"Wish\" + person needs a noun (\"I wish you a great holiday\"). With a verb, use \"hope\": \"I hope you have...\".",
+            explanation: "\"Wish\" + person needs a noun (\"I wish you a great vacation\"). With a verb, use \"hope\": \"I hope you have...\".",
           },
         ],
       },
@@ -868,7 +868,7 @@ export const EN_B2_U07: Lesson[] = [
         prompt: "Put the words in order.",
         words: ["You", "shouldn't", "have", "spent", "all", "your", "savings."],
         translation: "No deberías haberte gastado todos tus ahorros.",
-        explanation: "\"Shouldn't have\" + past participle criticises something that already happened.",
+        explanation: "\"Shouldn't have\" + past participle criticizes something that already happened.",
       },
       {
         type: "fill-blank",
@@ -900,12 +900,12 @@ export const EN_B2_U07: Lesson[] = [
         body: [
           "Read Lucia's diary: \"Monday. I wish I have a bigger apartment. My room is so small! I wish I would be rich, then I could move. I wish my roommate doesn't play loud music every night.\"",
           "There are three errors. After \"wish\", a present situation needs the past simple: \"I wish I had a bigger apartment.\" A state like \"be rich\" needs \"were\", not *would be: \"I wish I were rich.\"",
-          "The roommate's habit is someone else's behaviour, so the best form is \"would\": \"I wish my roommate wouldn't play loud music\" (\"didn't play\" is also correct).",
+          "The roommate's habit is someone else's behavior, so the best form is \"would\": \"I wish my roommate wouldn't play loud music\" (\"didn't play\" is also correct).",
         ],
         examples: [
-          { es: "I wish I had a bigger apartment.", en: "Ojalá tuviera un piso más grande. (incorrecto: *I wish I have)" },
+          { es: "I wish I had a bigger apartment.", en: "Ojalá tuviera un departamento más grande. (incorrecto: *I wish I have)" },
           { es: "I wish I were rich.", en: "Ojalá fuera rica. (incorrecto: *I wish I would be rich)" },
-          { es: "I wish my roommate wouldn't play loud music every night.", en: "Ojalá mi compañera de piso no pusiera música alta todas las noches." },
+          { es: "I wish my roommate wouldn't play loud music every night.", en: "Ojalá mi compañera de departamento no pusiera música alta todas las noches." },
         ],
         checkpoint: [
           {
@@ -1073,7 +1073,7 @@ export const EN_B2_U07: Lesson[] = [
           "Note the changes: \"is\" becomes \"were\", \"don't have\" becomes \"had\", and \"can't\" becomes \"could\".",
         ],
         examples: [
-          { es: "My apartment is tiny. I wish my apartment were bigger.", en: "Mi piso es diminuto. Ojalá fuera más grande." },
+          { es: "My apartment is tiny. I wish my apartment were bigger.", en: "Mi departamento es diminuto. Ojalá fuera más grande." },
           { es: "I don't have a car. I wish I had a car.", en: "No tengo carro. Ojalá tuviera carro." },
           { es: "I can't swim. I wish I could swim.", en: "No sé nadar. Ojalá supiera nadar." },
           { es: "I live far from work. I wish I didn't live so far from work.", en: "Vivo lejos del trabajo. Ojalá no viviera tan lejos." },
@@ -1134,7 +1134,7 @@ export const EN_B2_U07: Lesson[] = [
       {
         heading: "Other people's habits: wish + would",
         body: [
-          "When the complaint is about someone else's repeated behaviour, the transformation uses \"would\": \"My brother never helps\" becomes \"I wish my brother would help\". \"He always arrives late\" becomes \"I wish he wouldn't arrive late\" or \"I wish he would arrive on time\".",
+          "When the complaint is about someone else's repeated behavior, the transformation uses \"would\": \"My brother never helps\" becomes \"I wish my brother would help\". \"He always arrives late\" becomes \"I wish he wouldn't arrive late\" or \"I wish he would arrive on time\".",
           "Remember that \"would\" needs an action. If the fact is a state, use the past simple: \"He is so rude\" becomes \"I wish he weren't so rude\", not *I wish he wouldn't be.",
         ],
         examples: [
@@ -1151,7 +1151,7 @@ export const EN_B2_U07: Lesson[] = [
             source: "Mi hermano nunca ayuda. Ojalá ayudara.",
             answer: "My brother never helps. I wish he would help.",
             altAnswers: ["My brother never helps. I wish he would.", "My brother never helps. I wish he helped.", "My brother never helps. If only he would help.", "My brother never helps. If only he would."],
-            explanation: "Someone else's behaviour: \"I wish he would\" + verb. English needs the subject \"he\" again.",
+            explanation: "Someone else's behavior: \"I wish he would\" + verb. English needs the subject \"he\" again.",
           },
         ],
       },
@@ -1265,7 +1265,7 @@ export const EN_B2_U07: Lesson[] = [
         examples: [
           { es: "Emma: Well, that didn't go as planned.", en: "Emma: Bueno, eso no salió como esperábamos." },
           { es: "Carlos: No. We should have tested the app with real users.", en: "Carlos: No. Deberíamos haber probado la app con usuarios reales." },
-          { es: "Emma: I know. I wish we hadn't rushed the launch.", en: "Emma: Ya. Ojalá no hubiéramos lanzado con tantas prisas." },
+          { es: "Emma: I know. I wish we hadn't rushed the launch.", en: "Emma: Ya. Ojalá no hubiéramos lanzado tan apresuradamente." },
           { es: "Carlos: If we had waited a month, we would have fixed the bugs.", en: "Carlos: Si hubiéramos esperado un mes, habríamos arreglado los fallos." },
           { es: "Emma: And marketing could have helped us more.", en: "Emma: Y marketing podría habernos ayudado más." },
           { es: "Carlos: Honestly, I think it's time we changed the whole process.", en: "Carlos: Sinceramente, creo que ya es hora de que cambiemos todo el proceso." },
@@ -1331,7 +1331,7 @@ export const EN_B2_U07: Lesson[] = [
           { es: "I'd rather you didn't say that in the meeting.", en: "Prefiero que no lo digas en la reunión." },
           { es: "I'd rather you came on Monday.", en: "Preferiría que vinieras el lunes." },
           { es: "Can I smoke here? I'd rather you didn't.", en: "¿Puedo fumar aquí? Preferiría que no." },
-          { es: "Would you rather walk or take a taxi?", en: "¿Prefieres ir andando o tomar un taxi?" },
+          { es: "Would you rather walk or take a taxi?", en: "¿Prefieres ir caminando o tomar un taxi?" },
         ],
         checkpoint: [
           {
@@ -1367,7 +1367,7 @@ export const EN_B2_U07: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ojalá no hubiéramos lanzado el producto con tantas prisas.",
+        source: "Ojalá no hubiéramos lanzado el producto tan apresuradamente.",
         answer: "I wish we hadn't rushed the launch.",
         altAnswers: ["I wish we hadn't launched the product in such a rush.", "I wish we hadn't launched the product in such a hurry.", "I wish we hadn't launched the product so quickly.", "If only we hadn't rushed the launch.", "I wish we hadn't rushed the product launch.", "I wish we hadn't rushed to launch the product."],
         explanation: "Past regret: \"wish\" + past perfect. \"Rush\" is a natural verb for «hacer algo con prisas».",
@@ -1817,7 +1817,7 @@ export const EN_B2_U07: Lesson[] = [
       {
         heading: "Quick recap: wish and if only",
         body: [
-          "\"Wish\" / \"if only\" + past simple = unreal present (\"I wish I had\", \"I wish I were\"). + past perfect = past regret (\"I wish I had gone\"). + \"would\" = complaint about someone else's behaviour (\"I wish you would stop\").",
+          "\"Wish\" / \"if only\" + past simple = unreal present (\"I wish I had\", \"I wish I were\"). + past perfect = past regret (\"I wish I had gone\"). + \"would\" = complaint about someone else's behavior (\"I wish you would stop\").",
           "\"Hope\" is for real possibilities and keeps normal tenses: \"I hope you win.\"",
         ],
         examples: [
@@ -1879,7 +1879,7 @@ export const EN_B2_U07: Lesson[] = [
         source: "Ojalá dejaras de mirar el celular.",
         answer: "I wish you would stop looking at your phone.",
         altAnswers: ["I wish you would stop checking your phone.", "If only you would stop looking at your phone.", "I wish you would stop looking at your cell phone.", "I wish you would stop looking at your mobile.", "I wish you would stop staring at your phone."],
-        explanation: "Complaint about someone else's behaviour: \"wish\" + \"would\". After \"stop\", use -ing.",
+        explanation: "Complaint about someone else's behavior: \"wish\" + \"would\". After \"stop\", use -ing.",
       },
       {
         type: "multiple-choice",

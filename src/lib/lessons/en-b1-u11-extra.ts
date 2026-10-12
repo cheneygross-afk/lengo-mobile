@@ -251,7 +251,7 @@ export const EN_B1_U11_EXTRA: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "The train was canceled, so I ___ walk home.",
             answer: "had to",
-            en: "Cancelaron el tren, así que [tuve que] ir a casa andando.",
+            en: "Cancelaron el tren, así que [tuve que] ir a casa caminando.",
             explanation: "Past obligation = \"had to\" + base form. \"Must\" has no past, so never *musted or *must walked.",
           },
           {
@@ -494,7 +494,7 @@ export const EN_B1_U11_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Más vale que te des prisa o perderás el tren.",
+        source: "Más vale que te apures o perderás el tren.",
         answer: "You'd better hurry or you'll miss the train.",
         altAnswers: ["You had better hurry or you'll miss the train.", "You'd better hurry up or you'll miss the train.", "You had better hurry up or you'll miss the train.", "You'd better hurry, or you'll miss the train.", "You'd better hurry or you will miss the train."],
         explanation: "A warning with a consequence: \"had better\" + base form. «Perder» a train = \"miss\", not \"lose\".",
@@ -756,7 +756,7 @@ export const EN_B1_U11_EXTRA: Lesson[] = [
         sentence: "I failed the exam. I ___ harder.",
         answer: "should have studied",
         altAnswers: ["should've studied", "ought to have studied"],
-        en: "Suspendí el examen. [Debería haber estudiado] más.",
+        en: "Reprobé el examen. [Debería haber estudiado] más.",
         explanation: "Regret: \"should have\" + past participle \"studied\".",
       },
       {

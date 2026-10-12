@@ -20,7 +20,7 @@ export const EN_B1_U28: Lesson[] = [
           "In conversation and informal writing you can start a sentence with \"But\". In formal writing it is better to use \"However\" (see below).",
         ],
         examples: [
-          { es: "I like my job, but it's very tiring.", en: "Me gusta mi trabajo, pero es muy cansado." },
+          { es: "I like my job, but it's very tiring.", en: "Me gusta mi trabajo, pero es muy agotador." },
           { es: "The hotel was small but comfortable.", en: "El hotel era pequeño pero cómodo." },
           { es: "She studied a lot, but she didn't pass.", en: "Estudió mucho, pero no aprobó." },
           { es: "I called him, but he didn't answer.", en: "Lo llamé, pero no contestó." },
@@ -98,7 +98,7 @@ export const EN_B1_U28: Lesson[] = [
         examples: [
           { es: "The hotel was cheap. However, the rooms were very clean.", en: "El hotel era barato. Sin embargo, las habitaciones estaban muy limpias." },
           { es: "I studied hard; however, I failed the exam.", en: "Estudié mucho; sin embargo, suspendí el examen." },
-          { es: "The staff were friendly. The food, however, was terrible.", en: "El personal era amable. La comida, sin embargo, era malísima." },
+          { es: "The staff was friendly. The food, however, was terrible.", en: "El personal era amable. La comida, sin embargo, era malísima." },
           { es: "Prices have gone up. However, sales are still growing.", en: "Los precios han subido. No obstante, las ventas siguen creciendo." },
           { es: "The plan is good. It's very expensive, however.", en: "El plan es bueno. Sin embargo, es muy caro." },
         ],
@@ -296,7 +296,7 @@ export const EN_B1_U28: Lesson[] = [
           { es: "In spite of the rain, we played the match.", en: "A pesar de la lluvia, jugamos el partido." },
           { es: "She went to work despite her cold.", en: "Fue a trabajar a pesar del resfriado." },
           { es: "Despite his age, he runs every day.", en: "A pesar de su edad, corre todos los días." },
-          { es: "We had a great time in spite of the problems.", en: "Lo pasamos genial a pesar de los problemas." },
+          { es: "We had a great time in spite of the problems.", en: "La pasamos genial a pesar de los problemas." },
         ],
         checkpoint: [
           {
@@ -634,7 +634,7 @@ export const EN_B1_U28: Lesson[] = [
           { es: "The train is delayed due to a technical problem.", en: "El tren lleva retraso debido a un problema técnico." },
           { es: "Due to bad weather, the event has been postponed.", en: "Debido al mal tiempo, el evento se ha aplazado." },
           { es: "The store is closed due to illness.", en: "La tienda está cerrada por enfermedad." },
-          { es: "We were late due to the fact that the road was closed.", en: "Llegamos tarde debido a que la carretera estaba cortada." },
+          { es: "We were late due to the fact that the road was closed.", en: "Llegamos tarde debido a que la carretera estaba cerrada." },
         ],
         checkpoint: [
           {
@@ -1530,7 +1530,7 @@ export const EN_B1_U28: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El piso es pequeño. Sin embargo, tiene mucha luz.",
+        source: "El departamento es pequeño. Sin embargo, tiene mucha luz.",
         answer: "The apartment is small. However, it gets a lot of light.",
         altAnswers: [
           "The apartment is small. However, it has a lot of light.",
@@ -1542,7 +1542,7 @@ export const EN_B1_U28: Lesson[] = [
           "The apartment is small, but it's very bright.",
           "The apartment is small. Nevertheless, it gets a lot of light.",
         ],
-        explanation: "«Sin embargo» between sentences = \"However,\". «Piso» is \"apartment\" in American English and \"flat\" in British English.",
+        explanation: "«Sin embargo» between sentences = \"However,\". «Departamento» is \"apartment\" in American English and \"flat\" in British English.",
       },
       {
         type: "word-order",
@@ -1910,7 +1910,7 @@ export const EN_B1_U28: Lesson[] = [
         ],
         examples: [
           { es: "Guess what? I've got a new job!", en: "¿A que no sabes qué? ¡Tengo trabajo nuevo!" },
-          { es: "How's work? What about the new apartment?", en: "¿Qué tal el trabajo? ¿Y el piso nuevo?" },
+          { es: "How's work? What about the new apartment?", en: "¿Qué tal el trabajo? ¿Y el departamento nuevo?" },
           { es: "By the way, do you remember Diego?", en: "Por cierto, ¿te acuerdas de Diego?" },
           { es: "Anyway, I have to go now.", en: "Bueno, ahora tengo que irme." },
           { es: "Let me know if you're free next weekend.", en: "Dime si estás libre el fin de semana que viene." },
@@ -2182,7 +2182,7 @@ export const EN_B1_U28: Lesson[] = [
         examples: [
           { es: "I would be grateful if you could send me a brochure.", en: "Le agradecería que me enviara un folleto." },
           { es: "Could you please tell me when the course starts?", en: "¿Podría decirme cuándo empieza el curso?" },
-          { es: "I would like to know if there are any places left.", en: "Me gustaría saber si quedan plazas." },
+          { es: "I would like to know if there are any places left.", en: "Me gustaría saber si quedan lugares." },
           { es: "Please find attached my CV.", en: "Adjunto mi currículum." },
         ],
         checkpoint: [
@@ -2423,10 +2423,10 @@ export const EN_B1_U28: Lesson[] = [
             type: "multiple-choice",
             question: "Which sentence is correct?",
             options: [
-              "I agree that students should do more sport.",
-              "I am agree that students should do more sport.",
-              "According to me, students should do more sport.",
-              "In my opinion, I think students should do more sport.",
+              "I agree that students should play more sports.",
+              "I am agree that students should play more sports.",
+              "According to me, students should play more sports.",
+              "In my opinion, I think students should play more sports.",
             ],
             correctIndex: 0,
             explanation: "\"Agree\" is a verb: \"I agree\". *According to me is not used, and *In my opinion, I think is repetitive.",
@@ -2512,7 +2512,7 @@ export const EN_B1_U28: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "En mi opinión, los deberes son necesarios.",
+        source: "En mi opinión, la tarea es necesaria.",
         answer: "In my opinion, homework is necessary.",
         altAnswers: [
           "I think homework is necessary.",
@@ -2608,7 +2608,7 @@ export const EN_B1_U28: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write a short opinion essay: \"Should children have a mobile phone before the age of 12?\" Write four paragraphs: introduction, arguments for, arguments against and your conclusion.",
+        prompt: "Write a short opinion essay: \"Should children have a cell phone before the age of 12?\" Write four paragraphs: introduction, arguments for, arguments against and your conclusion.",
         minWords: 120,
         maxWords: 180,
         rubric: [
@@ -2618,7 +2618,7 @@ export const EN_B1_U28: Lesson[] = [
           "Contrast linkers (\"However\", \"On the other hand\", \"Although\") with correct punctuation.",
           "A conclusion starting with \"In conclusion,\" or \"To sum up,\" that repeats your opinion.",
         ],
-        modelAnswer: "Nowadays, many children have a mobile phone before they are twelve. Some parents think this is necessary, while others believe it is dangerous.\n\nOn the one hand, a phone can be very useful. Firstly, children can call their parents if there is a problem. In addition, some apps can help them with their homework.\n\nOn the other hand, there are serious disadvantages. For example, many children spend hours on social media instead of playing outside. What's more, they can see content that is not suitable for their age.\n\nIn conclusion, although phones have some advantages, I believe children under twelve should not have their own smartphone. In my opinion, a simple phone for calls is the best option.",
+        modelAnswer: "Nowadays, many children have a cell phone before they are twelve. Some parents think this is necessary, while others believe it is dangerous.\n\nOn the one hand, a phone can be very useful. Firstly, children can call their parents if there is a problem. In addition, some apps can help them with their homework.\n\nOn the other hand, there are serious disadvantages. For example, many children spend hours on social media instead of playing outside. What's more, they can see content that is not suitable for their age.\n\nIn conclusion, although phones have some advantages, I believe children under twelve should not have their own smartphone. In my opinion, a simple phone for calls is the best option.",
         explanation: "A clear essay: introduction, one side, the other side, and a conclusion with your opinion, all joined with linkers.",
       },
     ],
@@ -2667,10 +2667,10 @@ export const EN_B1_U28: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "\"When we got to the cinema, the film ___ already ___.\" Which fits?",
+            question: "\"When we got to the movie theater, the movie ___ already ___.\" Which fits?",
             options: ["had / started", "has / started", "was / starting", "did / start"],
             correctIndex: 0,
-            explanation: "The film started before we arrived, so the past perfect: \"had already started\".",
+            explanation: "The movie started before we arrived, so the past perfect: \"had already started\".",
           },
         ],
       },

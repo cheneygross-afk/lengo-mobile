@@ -330,7 +330,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
     level: "EN-B2",
     number: 2,
     title: "Extra Practice: however, whereas, while",
-    summary: "Drill \"however\" and \"nevertheless\" as sentence linkers (full stop or semicolon before, comma after) against \"whereas\" and \"while\", which join two clauses. No more comma splices with \"however\".",
+    summary: "Drill \"however\" and \"nevertheless\" as sentence linkers (period or semicolon before, comma after) against \"whereas\" and \"while\", which join two clauses. No more comma splices with \"however\".",
     duration: "10 min",
     sections: [
       {
@@ -401,7 +401,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
           "The movie was long, but I didn't get bored.",
           "The film was long, but I didn't get bored.",
         ],
-        explanation: "«Sin embargo» after a full stop is \"However,\". «Aburrirse» is \"get bored\" (or \"be bored\"), not *I didn't bore: that would mean «no aburrí a nadie».",
+        explanation: "«Sin embargo» after a period is \"However,\". «Aburrirse» is \"get bored\" (or \"be bored\"), not *I didn't bore: that would mean «no aburrí a nadie».",
       },
       {
         type: "fill-blank",
@@ -467,7 +467,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
           "We wanted to go to the concert, but the tickets had sold out.",
           "We wanted to go to the concert; unfortunately, the tickets were sold out.",
         ],
-        explanation: "A semicolon can replace the full stop before \"however\". «Estar agotadas» (entradas) is \"be sold out\".",
+        explanation: "A semicolon can replace the period before \"however\". «Estar agotadas» (entradas) is \"be sold out\".",
       },
       {
         type: "multiple-choice",
@@ -479,7 +479,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
           "Spain is hot in summer, while Ireland is mild.",
         ],
         correctIndex: 0,
-        explanation: "In the first sentence \"while\" means time («mientras»). \"Whereas\" only means contrast («mientras que»), so it fits the other three.",
+        explanation: "In \"While I was cooking, I listened to the radio\", \"while\" means time («mientras»). \"Whereas\" only means contrast («mientras que»), so it fits the other three.",
       },
       {
         type: "matching",
@@ -497,8 +497,8 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["The", "course", "is", "expensive.", "However,", "it", "is", "worth", "it."],
-        translation: "El curso es caro. Sin embargo, merece la pena.",
-        explanation: "Two sentences: a full stop, then \"However,\" with a comma. «Merecer la pena» is \"be worth it\".",
+        translation: "El curso es caro. Sin embargo, vale la pena.",
+        explanation: "Two sentences: a period, then \"However,\" with a comma. «Valer la pena» is \"be worth it\".",
       },
       {
         type: "translate",
@@ -537,7 +537,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
           "Prices went up, however, sales stayed the same.",
         ],
         correctIndex: 0,
-        explanation: "Between two complete sentences, \"however\" needs a semicolon (or full stop) before it and a comma after it.",
+        explanation: "Between two complete sentences, \"however\" needs a semicolon (or period) before it and a comma after it.",
       },
       {
         type: "translate",
@@ -626,7 +626,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "I went out to buy some bread.", en: "Salí para comprar pan. (incorrecto: *for to buy, *for buy)" },
-          { es: "I went out for some bread.", en: "Salí a por pan. («for» + sustantivo)" },
+          { es: "I went out for some bread.", en: "Salí por pan. («for» + sustantivo)" },
           { es: "She moved to London in order to study music.", en: "Se mudó a Londres para estudiar música." },
           { es: "I wrote it down so as not to forget it.", en: "Lo apunté para no olvidarlo." },
           { es: "This knife is for cutting bread.", en: "Este cuchillo es para cortar pan." },
@@ -758,7 +758,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Fuimos a la tienda a por pan.",
+        source: "Fuimos a la tienda por pan.",
         answer: "We went to the store for some bread.",
         altAnswers: [
           "We went to the store for bread.",
@@ -812,7 +812,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
           { left: "to buy", right: "para comprar" },
           { left: "so as not to buy", right: "para no comprar" },
           { left: "so that you can buy", right: "para que puedas comprar" },
-          { left: "for some milk", right: "a por leche" },
+          { left: "for some milk", right: "por leche" },
           { left: "with the aim of buying", right: "con el fin de comprar" },
         ],
         explanation: "Verb: \"to\". Negative: \"so as not to\". New subject: \"so that\". Noun: \"for\". Formal aim: \"with the aim of\" + -ing.",
@@ -862,7 +862,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
         sentence: "I'm calling ___ ask about the apartment.",
         answer: "to",
         altAnswers: ["in order to"],
-        en: "Llamo [para] preguntar por el piso.",
+        en: "Llamo [para] preguntar por el departamento.",
         explanation: "«Para» + verb is just \"to\". On the phone: \"I'm calling to ask about...\".",
       },
       {
@@ -939,12 +939,12 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: reason",
         body: [
-          "The same test as with contrast: what comes next? A clause takes \"because\", \"as\" or \"since\": \"We took a taxi because it was late.\" A noun takes \"because of\", \"due to\" or \"owing to\": \"The match was cancelled because of the rain.\" Spanish «por» and «porque» blur this, which causes *because of it was late and *due to it rained.",
+          "The same test as with contrast: what comes next? A clause takes \"because\", \"as\" or \"since\": \"We took a taxi because it was late.\" A noun takes \"because of\", \"due to\" or \"owing to\": \"The match was canceled because of the rain.\" Spanish «por» and «porque» blur this, which causes *because of it was late and *due to it rained.",
           "\"As\" and \"since\" usually go at the start of the sentence, for a reason the listener already knows («como», «ya que»): \"As it was late, we took a taxi.\" \"Due to\" and \"owing to\" are more formal, typical of announcements and reports. Before a clause, they need \"the fact that\": \"due to the fact that it rained\".",
         ],
         examples: [
           { es: "We took a taxi because it was late.", en: "Tomamos un taxi porque era tarde. (incorrecto: *because of it was late)" },
-          { es: "The match was cancelled because of the rain.", en: "Se suspendió el partido por la lluvia." },
+          { es: "The match was canceled because of the rain.", en: "Se suspendió el partido por la lluvia." },
           { es: "The train was delayed due to a technical problem.", en: "El tren se retrasó debido a un problema técnico." },
           { es: "Since you're here, you can help me.", en: "Ya que estás aquí, puedes ayudarme." },
           { es: "The event was postponed due to the fact that it was raining.", en: "El evento se aplazó debido a que llovía. (incorrecto: *due to it was raining)" },
@@ -952,12 +952,12 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Correct the learner: *The match was cancelled because of it was raining.",
+            question: "Correct the learner: *The match was canceled because of it was raining.",
             options: [
-              "The match was cancelled because it was raining.",
-              "The match was cancelled due to it was raining.",
-              "The match was cancelled because of raining.",
-              "The match was cancelled because for the rain.",
+              "The match was canceled because it was raining.",
+              "The match was canceled due to it was raining.",
+              "The match was canceled because of raining.",
+              "The match was canceled because for the rain.",
             ],
             correctIndex: 0,
             explanation: "\"It was raining\" is a clause, so plain \"because\". \"Because of\" needs a noun: \"because of the rain\".",
@@ -973,7 +973,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
         examples: [
           { es: "I missed the bus, so I was late.", en: "Perdí el autobús, así que llegué tarde." },
           { es: "I missed the bus. As a result, I was late for work.", en: "Perdí el autobús. Como consecuencia, llegué tarde al trabajo." },
-          { es: "There was no time; therefore, we cancelled the meeting.", en: "No había tiempo; por lo tanto, cancelamos la reunión." },
+          { es: "There was no time; therefore, we canceled the meeting.", en: "No había tiempo; por lo tanto, cancelamos la reunión." },
           { es: "She was ill. That's why she didn't come.", en: "Estaba enferma. Por eso no vino. (incorrecto: *For that she didn't come)" },
         ],
         checkpoint: [
@@ -1051,7 +1051,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The game was cancelled ___ the fact that it was snowing.",
+        sentence: "The game was canceled ___ the fact that it was snowing.",
         answer: "due to",
         altAnswers: ["owing to", "because of", "in view of"],
         en: "El partido se canceló [debido a] que nevaba.",
@@ -1145,7 +1145,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
           "I was exhausted, because of I went to bed early.",
         ],
         correctIndex: 0,
-        explanation: "\"Therefore\" can't join two clauses with a comma. Use \"so\" after a comma, or a full stop / semicolon before \"therefore\".",
+        explanation: "\"Therefore\" can't join two clauses with a comma. Use \"so\" after a comma, or a period / semicolon before \"therefore\".",
       },
       {
         type: "translate",
@@ -1224,7 +1224,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
           "Uses \"so\", \"as a result\" or \"therefore\" with correct punctuation.",
           "The story is clear and in the past tense.",
         ],
-        modelAnswer: "Last Saturday my friend Carlos missed his cousin's wedding. He was supposed to fly to Seville on Friday, but his flight was cancelled due to a storm. As there were no more flights that day, he tried to rent a car. However, all the cars had been booked because of a festival in the city. As a result, he spent the weekend at home, watching the ceremony on a video call.",
+        modelAnswer: "Last Saturday my friend Carlos missed his cousin's wedding. He was supposed to fly to Seville on Friday, but his flight was canceled due to a storm. As there were no more flights that day, he tried to rent a car. However, all the cars had been booked because of a festival in the city. As a result, he spent the weekend at home, watching the ceremony on a video call.",
         explanation: "Check each reason: noun after \"because of\" / \"due to\", clause after \"because\" / \"as\". Results: \"so\" after a comma, \"As a result,\" in a new sentence.",
       },
     ],
@@ -1491,7 +1491,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Even though the tickets were expensive, the concert was worth it.",
-        explanation: "\"Even though\" (two words) + a fact. \"Worth it\" = «merecer la pena».",
+        explanation: "\"Even though\" (two words) + a fact. \"Worth it\" = «valer la pena».",
       },
       {
         type: "speak",

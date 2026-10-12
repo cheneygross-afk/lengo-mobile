@@ -585,7 +585,7 @@ export const EN_A2_U22: Lesson[] = [
         ],
         examples: [
           { es: "If it rains, we'll stay home.", en: "Si llueve, nos quedaremos en casa." },
-          { es: "If you don't hurry, you'll miss the bus.", en: "Si no te das prisa, vas a perder el autobús." },
+          { es: "If you don't hurry, you'll miss the bus.", en: "Si no te apuras, vas a perder el autobús." },
           { es: "I'll call you when I get home.", en: "Te llamo cuando llegue a casa." },
           { es: "As soon as I finish, I'll help you.", en: "En cuanto termine, te ayudo." },
           { es: "If you heat ice, it melts.", en: "Si calientas hielo, se derrite." },
@@ -1413,7 +1413,7 @@ export const EN_A2_U22: Lesson[] = [
           { es: "We're very excited.", en: "Estamos muy ilusionados." },
           { es: "I don't know anything.", en: "No sé nada." },
           { es: "Nobody came.", en: "No vino nadie." },
-          { es: "I never eat meat.", en: "No como nunca carne." },
+          { es: "I never eat meat.", en: "Nunca como carne." },
         ],
         checkpoint: [
           {

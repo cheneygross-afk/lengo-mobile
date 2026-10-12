@@ -49,11 +49,11 @@ export const EN_B1_U05: Lesson[] = [
         heading: "The present continuous for arrangements",
         body: [
           "When a plan is fixed with another person, with a time and a place (a meeting, an appointment, a dinner, a flight you have booked), English usually uses the present continuous: \"I'm meeting Ana at six\".",
-          "This is what Spanish says with «he quedado con Ana a las seis» or simply «quedo con Ana a las seis». It is in your calendar: other people know about it.",
+          "This is what Spanish says with «quedé de verme con Ana a las seis» or simply «me veo con Ana a las seis». It is in your calendar: other people know about it.",
           "A typical mistake is \"I will see the dentist tomorrow\" for an appointment you already have. It is not wrong grammar, but it sounds like a prediction or a sudden decision. A native speaker says \"I'm seeing the dentist tomorrow\".",
         ],
         examples: [
-          { es: "I'm meeting Ana at six.", en: "He quedado con Ana a las seis." },
+          { es: "I'm meeting Ana at six.", en: "Me voy a ver con Ana a las seis." },
           { es: "I'm seeing the dentist tomorrow.", en: "Mañana tengo cita con el dentista." },
           { es: "We're having dinner with my parents on Friday.", en: "El viernes cenamos con mis padres." },
           { es: "She's flying to Lima next week.", en: "La semana que viene vuela a Lima." },
@@ -64,10 +64,10 @@ export const EN_B1_U05: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "He quedado con Ana a las seis.",
+            source: "Me voy a ver con Ana a las seis.",
             answer: "I'm meeting Ana at six.",
             altAnswers: ["I'm meeting Ana at six o'clock.", "I'm meeting up with Ana at six.", "I'm seeing Ana at six.", "I'm meeting with Ana at six."],
-            explanation: "A fixed arrangement with another person takes the present continuous: \"I'm meeting Ana\". «Quedar con» is usually \"meet\" or \"meet up with\".",
+            explanation: "A fixed arrangement with another person takes the present continuous: \"I'm meeting Ana\". «Verse con» is usually \"meet\" or \"meet up with\".",
           },
           {
             type: "fill-blank",
@@ -270,7 +270,7 @@ export const EN_B1_U05: Lesson[] = [
         heading: "Questions and negatives",
         body: [
           "Questions about timetables use \"do\" and \"does\", like any present simple question: \"What time does the bus leave?\", \"When does the store close?\".",
-          "Spanish speakers often forget \"does\" and say \"What time the bus leaves?\". English needs the auxiliary in the question.",
+          "Spanish speakers often forget \"does\" and say *What time the bus leaves? English needs the auxiliary in the question.",
           "The negative is \"doesn't\" or \"don't\" + base form: \"The bank doesn't open on Sundays\", \"The trains don't run after midnight\".",
         ],
         examples: [
@@ -310,7 +310,7 @@ export const EN_B1_U05: Lesson[] = [
           { es: "My train leaves at 8, so I'm leaving home at 7:30.", en: "Mi tren sale a las 8, así que salgo de casa a las 7:30." },
           { es: "The concert starts at nine.", en: "El concierto empieza a las nueve." },
           { es: "We're going to the concert tonight.", en: "Esta noche vamos al concierto." },
-          { es: "The class finishes at noon, and then I'm meeting Diego.", en: "La clase termina a mediodía y luego he quedado con Diego." },
+          { es: "The class finishes at noon, and then I'm meeting Diego.", en: "La clase termina a mediodía y luego me voy a ver con Diego." },
         ],
         checkpoint: [
           {
@@ -726,7 +726,7 @@ export const EN_B1_U05: Lesson[] = [
         examples: [
           { es: "When you arrive, I'll be cooking.", en: "Cuando llegues, estaré cocinando." },
           { es: "When the movie starts, we'll be sitting in the front row.", en: "Cuando empiece la película, estaremos sentados en la primera fila." },
-          { es: "At this time next week I'll be lying on a beach.", en: "La semana que viene a esta hora estaré tumbado en una playa." },
+          { es: "At this time next week I'll be lying on a beach.", en: "La semana que viene a esta hora estaré acostado en una playa." },
           { es: "I'll be studying all morning, so call me in the afternoon.", en: "Estaré estudiando toda la mañana, así que llámame por la tarde." },
         ],
         checkpoint: [
@@ -812,10 +812,10 @@ export const EN_B1_U05: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La semana que viene a esta hora estaré tumbado en una playa.",
+        source: "La semana que viene a esta hora estaré acostado en una playa.",
         answer: "This time next week I'll be lying on a beach.",
         altAnswers: ["I'll be lying on a beach this time next week.", "At this time next week I'll be lying on a beach.", "This time next week I'll be lying on the beach.", "I'll be lying on the beach this time next week."],
-        explanation: "\"Lie\" (estar tumbado) has the -ing form \"lying\". \"This time next week\" is «la semana que viene a esta hora».",
+        explanation: "\"Lie\" (estar acostado) has the -ing form \"lying\". \"This time next week\" is «la semana que viene a esta hora».",
       },
       {
         type: "word-order",
@@ -899,7 +899,7 @@ export const EN_B1_U05: Lesson[] = [
         ],
         examples: [
           { es: "Will you close the door, please?", en: "¿Puedes cerrar la puerta, por favor?" },
-          { es: "Will you be closing early today?", en: "¿Hoy van a cerrar pronto?" },
+          { es: "Will you be closing early today?", en: "¿Hoy van a cerrar temprano?" },
           { es: "Will you come with me?", en: "¿Vienes conmigo? (te lo pido)" },
           { es: "Will you be coming with us?", en: "¿Vienes con nosotros? (solo pregunto)" },
         ],
@@ -922,7 +922,7 @@ export const EN_B1_U05: Lesson[] = [
         ],
         examples: [
           { es: "I'll be seeing Tom at work tomorrow, so I can give him the message.", en: "Mañana veré a Tom en el trabajo, así que puedo darle el mensaje." },
-          { es: "I'll be passing the post office anyway, so I can mail your letter.", en: "De todas formas pasaré por correos, así que puedo enviar tu carta." },
+          { es: "I'll be passing the post office anyway, so I can mail your letter.", en: "De todas formas pasaré por la oficina de correos, así que puedo enviar tu carta." },
           { es: "We'll be landing in twenty minutes.", en: "Aterrizaremos dentro de veinte minutos." },
           { es: "The store will be closing in ten minutes.", en: "La tienda cerrará dentro de diez minutos." },
         ],
@@ -1003,7 +1003,7 @@ export const EN_B1_U05: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "De todas formas pasaré por correos, así que puedo enviar tu carta.",
+        source: "De todas formas pasaré por la oficina de correos, así que puedo enviar tu carta.",
         answer: "I'll be passing the post office anyway, so I can mail your letter.",
         altAnswers: [
           "I'll be passing the post office anyway, so I can send your letter.",
@@ -1344,7 +1344,7 @@ export const EN_B1_U05: Lesson[] = [
             sentence: "My class starts at five, so ___ Lucia at seven.",
             answer: "I'm meeting",
             altAnswers: ["I am meeting", "I'm meeting up with", "I'm seeing"],
-            en: "Mi clase empieza a las cinco, así que [he quedado con] Lucia a las siete.",
+            en: "Mi clase empieza a las cinco, así que [me voy a ver con] Lucia a las siete.",
             explanation: "The class is a timetable (present simple: \"starts\"); meeting Lucia is an arrangement (present continuous: \"I'm meeting\").",
           },
         ],
@@ -1811,7 +1811,7 @@ export const EN_B1_U05: Lesson[] = [
           { es: "Next year I'm going to take a cooking class.", en: "El año que viene voy a hacer un curso de cocina." },
           { es: "I'm planning to travel to Japan.", en: "Tengo pensado viajar a Japón." },
           { es: "I'm thinking of changing jobs.", en: "Estoy pensando en cambiar de trabajo." },
-          { es: "I might move to a new apartment.", en: "Puede que me mude a otro piso." },
+          { es: "I might move to a new apartment.", en: "Puede que me mude a otro departamento." },
         ],
         checkpoint: [
           {
@@ -2065,7 +2065,7 @@ export const EN_B1_U05: Lesson[] = [
         ],
         examples: [
           { es: "We might not need passwords in the future.", en: "Puede que en el futuro no necesitemos contraseñas." },
-          { es: "In ten years we'll be talking to our devices all the time.", en: "Dentro de diez años estaremos hablando con nuestros dispositivos todo el rato." },
+          { es: "In ten years we'll be talking to our devices all the time.", en: "Dentro de diez años estaremos hablando con nuestros dispositivos todo el tiempo." },
           { es: "By 2035 phones will have replaced wallets.", en: "Para 2035 los celulares habrán sustituido a las carteras." },
           { es: "Batteries will last much longer.", en: "Las baterías durarán mucho más." },
         ],
@@ -2121,7 +2121,7 @@ export const EN_B1_U05: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Dentro de diez años estaremos hablando con nuestros dispositivos todo el rato.",
+        source: "Dentro de diez años estaremos hablando con nuestros dispositivos todo el tiempo.",
         answer: "In ten years we'll be talking to our devices all the time.",
         altAnswers: ["In ten years' time we'll be talking to our devices all the time.", "We'll be talking to our devices all the time in ten years.", "In ten years we'll be talking with our devices all the time."],
         explanation: "How life will be at a future time: future continuous. «Todo el rato» is \"all the time\".",

@@ -22,11 +22,11 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         body: [
           "\"Will\" is for a decision you make at the moment of speaking, and for offers and promises: \"The phone's ringing. I'll get it\", \"I'll call you tomorrow, I promise\".",
           "\"Going to\" is for a plan you made before: \"I'm going to paint the kitchen this weekend. I've already bought the paint\".",
-          "Spanish uses the present for offers: «¿Te ayudo?», «Ya abro yo». English needs \"Shall I help you?\" or \"I'll get it\". *I help you? and *Do I open the door? are typical errors. After \"will\" comes the base verb: *I will to go is wrong.",
+          "Spanish uses the present for offers: «¿Te ayudo?», «Ya abro yo». English needs \"Should I help you?\" (British \"Shall I help you?\") or \"I'll get it\". *I help you? and *Do I open the door? are typical errors. After \"will\" comes the base verb: *I will to go is wrong.",
         ],
         examples: [
           { es: "The phone's ringing. I'll get it.", en: "Suena el teléfono. Ya contesto yo." },
-          { es: "Shall I help you with your bags?", en: "¿Te ayudo con las maletas? (incorrecto: *Do I help you)" },
+          { es: "Should I help you with your bags?", en: "¿Te ayudo con las maletas? (incorrecto: *Do I help you)" },
           { es: "I'll call you tomorrow, I promise.", en: "Te llamo mañana, te lo prometo." },
           { es: "I'm going to paint the kitchen this weekend.", en: "Voy a pintar la cocina este fin de semana." },
           { es: "We're going to visit my aunt next month.", en: "Vamos a visitar a mi tía el mes que viene." },
@@ -35,9 +35,9 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
           {
             type: "multiple-choice",
             question: "«¿Te ayudo con las maletas?» Which is correct?",
-            options: ["Shall I help you with your bags?", "Do I help you with your bags?", "I help you with your bags?", "Will I to help you with your bags?"],
+            options: ["Should I help you with your bags?", "Do I help you with your bags?", "I help you with your bags?", "Will I to help you with your bags?"],
             correctIndex: 0,
-            explanation: "An offer uses \"Shall I...?\" (or \"Should I...?\", \"I'll...\"). The Spanish present cannot be copied: *Do I help you? is not an offer in English.",
+            explanation: "An offer uses \"Should I...?\" (British \"Shall I...?\") or \"I'll...\". The Spanish present cannot be copied: *Do I help you? is not an offer in English.",
           },
         ],
       },
@@ -178,10 +178,10 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         pairs: [
           { left: "I'll get it.", right: "Ya voy yo (decisión del momento)." },
           { left: "I'm going to study law.", right: "Voy a estudiar derecho (plan decidido)." },
-          { left: "Shall I open the window?", right: "¿Abro la ventana?" },
+          { left: "Should I open the window?", right: "¿Abro la ventana?" },
           { left: "It's going to rain.", right: "Va a llover (hay señales)." },
         ],
-        explanation: "\"Will\" for decisions and offers made now; \"going to\" for earlier plans and evidence-based predictions; \"Shall I...?\" for offers.",
+        explanation: "\"Will\" for decisions and offers made now; \"going to\" for earlier plans and evidence-based predictions; \"Should I...?\" for offers.",
       },
       {
         type: "listen-choose",
@@ -257,10 +257,10 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         heading: "Quick recap: arrangements with the present continuous",
         body: [
           "For a personal arrangement, something already fixed with other people, with a time or place, English uses the present continuous: \"I'm meeting Ana on Friday\", \"We're flying to Lisbon on Saturday\".",
-          "Spanish often uses the simple present or the past for this («Mañana veo a Ana», «Quedé con Ana el viernes»). Copying it gives *I meet Ana tomorrow, which sounds wrong for a personal plan. Using \"will\" (\"I will meet Ana\") sounds like a decision you just made, not an arrangement.",
+          "Spanish often uses the simple present or the past for this («Mañana veo a Ana», «Quedé de verme con Ana el viernes»). Copying it gives *I meet Ana tomorrow, which sounds wrong for a personal plan. Using \"will\" (\"I will meet Ana\") sounds like a decision you just made, not an arrangement.",
         ],
         examples: [
-          { es: "I'm meeting Ana on Friday.", en: "Quedé con Ana el viernes. / He quedado con Ana el viernes." },
+          { es: "I'm meeting Ana on Friday.", en: "Quedé de verme con Ana el viernes. / Voy a verme con Ana el viernes." },
           { es: "We're flying to Lisbon on Saturday.", en: "Volamos a Lisboa el sábado." },
           { es: "My sister is getting married in June.", en: "Mi hermana se casa en junio." },
           { es: "What are you doing tonight?", en: "¿Qué haces esta noche?" },
@@ -310,7 +310,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Quedé con Ana el viernes.",
+        source: "Quedé de verme con Ana el viernes.",
         answer: "I'm meeting Ana on Friday.",
         altAnswers: [
           "I'm seeing Ana on Friday.",
@@ -320,7 +320,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
           "I'm meeting Ana Friday.",
           "I'm seeing Ana Friday.",
         ],
-        explanation: "«Quedé con» here describes a future arrangement, so English uses the present continuous: \"I'm meeting\". *I met Ana on Friday would describe the past.",
+        explanation: "«Quedé de verme con» here describes a future arrangement, so English uses the present continuous: \"I'm meeting\". *I met Ana on Friday would describe the past.",
       },
       {
         type: "translate",
@@ -345,7 +345,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         sentence: "We ___ to Lisbon on Saturday. We've already got the tickets.",
         answer: "are flying",
         altAnswers: ["are going", "are going to fly"],
-        en: "[Volamos] a Lisboa el sábado. Ya tenemos los billetes.",
+        en: "[Volamos] a Lisboa el sábado. Ya tenemos los boletos.",
         explanation: "The tickets show it is arranged: present continuous \"are flying\".",
       },
       {
@@ -406,7 +406,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         type: "matching",
         instructions: "Match each English sentence with its Spanish meaning.",
         pairs: [
-          { left: "I'm meeting Ana at six.", right: "He quedado con Ana a las seis." },
+          { left: "I'm meeting Ana at six.", right: "Voy a verme con Ana a las seis." },
           { left: "The bus leaves at six.", right: "El autobús sale a las seis (horario)." },
           { left: "I'll call Ana.", right: "Llamo a Ana (lo decido ahora)." },
           { left: "I'm going to call Ana.", right: "Voy a llamar a Ana (intención)." },
@@ -494,7 +494,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         sentence: "Hurry up! The last bus ___ in ten minutes.",
         answer: "leaves",
         altAnswers: ["goes", "departs"],
-        en: "¡Date prisa! El último autobús [sale] en diez minutos.",
+        en: "¡Apúrate! El último autobús [sale] en diez minutos.",
         explanation: "A bus timetable: present simple \"leaves\". «En diez minutos» meaning ten minutes from now is \"in ten minutes\".",
       },
     ],
@@ -822,7 +822,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Once I've finished, I'll call you.", en: "Cuando haya terminado, te llamo." },
-          { es: "When you've done your homework, you can play.", en: "Cuando hayas hecho los deberes, puedes jugar." },
+          { es: "When you've done your homework, you can play.", en: "Cuando hayas hecho la tarea, puedes jugar." },
           { es: "After we've eaten, we'll go for a walk.", en: "Después de comer, iremos a dar un paseo." },
           { es: "If it rains tomorrow, we won't go out.", en: "Si llueve mañana, no saldremos." },
         ],
@@ -833,8 +833,8 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
             sentence: "Once you ___ the form, send it to this address.",
             answer: "have filled out",
             altAnswers: ["fill out", "have filled in", "fill in", "have completed", "complete"],
-            en: "Una vez que [hayas rellenado] el formulario, envíalo a esta dirección.",
-            explanation: "«Hayas rellenado» (finished first) is \"have filled out\" after \"once\". The present simple \"fill out\" is also correct; \"will\" is not.",
+            en: "Una vez que [hayas llenado] el formulario, envíalo a esta dirección.",
+            explanation: "«Hayas llenado» (finished first) is \"have filled out\" after \"once\". The present simple \"fill out\" is also correct; \"will\" is not.",
           },
         ],
       },
@@ -977,7 +977,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Cuando hayas terminado los deberes, puedes salir a jugar.",
+        source: "Cuando hayas terminado la tarea, puedes salir a jugar.",
         answer: "When you've finished your homework, you can go out and play.",
         altAnswers: [
           "Once you've finished your homework, you can go out and play.",
@@ -989,7 +989,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
           "When you have finished your homework, you can go out and play.",
           "When you've finished your homework, you can go and play outside.",
         ],
-        explanation: "«Hayas terminado» (finished first) is \"you've finished\". «Los deberes» is \"homework\", uncountable, with \"your\".",
+        explanation: "«Hayas terminado» (finished first) is \"you've finished\". «La tarea» is \"homework\", uncountable, with \"your\".",
       },
       {
         type: "word-order",
@@ -1154,7 +1154,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         answer: "were going to",
         altAnswers: ["had planned to", "were planning to"],
         en: "[Íbamos a] ir a la playa, pero llovió todo el día.",
-        explanation: "A past plan that was cancelled: \"were going to\" + base verb.",
+        explanation: "A past plan that was canceled: \"were going to\" + base verb.",
       },
       {
         type: "translate",

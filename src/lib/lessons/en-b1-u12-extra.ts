@@ -30,7 +30,7 @@ export const EN_B1_U12_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Después de tres intentos, logré aprobar el examen de manejar.» Which is the best translation?",
+            question: "«Después de tres intentos, logré aprobar el examen de manejo.» Which is the best translation?",
             options: [
               "After three tries, I managed to pass my driving test.",
               "After three tries, I could pass my driving test.",
@@ -105,7 +105,7 @@ export const EN_B1_U12_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi abuela podía leer sin gafas a los noventa años.",
+        source: "Mi abuela podía leer sin lentes a los noventa años.",
         answer: "My grandmother could read without glasses at ninety.",
         altAnswers: ["My grandmother could read without glasses when she was ninety.", "My grandmother could read without glasses at the age of ninety.", "My grandma could read without glasses at ninety.", "My grandma could read without glasses when she was ninety.", "At ninety, my grandmother could read without glasses.", "My grandmother was able to read without glasses at ninety.", "My grandmother was able to read without glasses when she was ninety."],
         explanation: "A general ability at that time of her life: \"could\". «Gafas» = \"glasses\".",
@@ -939,7 +939,7 @@ export const EN_B1_U12_EXTRA: Lesson[] = [
         sentence: "Bring a sweater. It ___ cold in the mountains.",
         answer: "might be",
         altAnswers: ["may be", "could be"],
-        en: "Trae un jersey. [Puede que haga] frío en la montaña.",
+        en: "Trae un suéter. [Puede que haga] frío en la montaña.",
         explanation: "«Hace frío» = \"it's cold\", so «puede que haga frío» = \"it might be cold\".",
       },
       {

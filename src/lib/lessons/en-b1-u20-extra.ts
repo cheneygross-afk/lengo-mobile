@@ -573,7 +573,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
         sentence: "The flight attendant asked us ___ our seat belts.",
         answer: "to fasten",
         altAnswers: ["to put on"],
-        en: "La azafata nos pidió [que nos abrocháramos] los cinturones.",
+        en: "La aeromoza nos pidió [que nos abrocháramos] los cinturones.",
         explanation: "\"Asked us to fasten\": the person, then \"to\" + verb.",
       },
       {
@@ -628,7 +628,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
         sentence: "Carlos asked the waiter ___ the bill.",
         answer: "to bring",
         altAnswers: ["for"],
-        en: "Carlos le pidió al camarero [que trajera] la cuenta.",
+        en: "Carlos le pidió al mesero [que trajera] la cuenta.",
         explanation: "\"Asked the waiter to bring the bill\". (\"Asked the waiter for the bill\" is also natural: \"ask for\" + thing.)",
       },
       {
@@ -748,7 +748,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
           "\"Offer\" + to + verb is for doing something yourself (\"He offered to drive\"). \"Offer\" + person + thing is for giving: \"He offered me a drink\". Never *He offered me to drive.",
         ],
         examples: [
-          { es: "I recommend that you book early.", en: "Te recomiendo que reserves pronto." },
+          { es: "I recommend that you book early.", en: "Te recomiendo que reserves con anticipación." },
           { es: "She recommended a good restaurant.", en: "Recomendó un buen restaurante." },
           { es: "He offered to drive.", en: "Se ofreció a manejar." },
           { es: "He offered me a drink.", en: "Me ofreció algo de beber." },
@@ -860,7 +860,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ana sugirió quedar el viernes.",
+        source: "Ana sugirió verse el viernes.",
         answer: "Ana suggested meeting on Friday.",
         altAnswers: ["Ana suggested that we meet on Friday.", "Ana suggested we meet on Friday.", "Ana suggested meeting up on Friday.", "Ana suggested that we meet up on Friday.", "Ana suggested we meet up on Friday.", "Ana suggested getting together on Friday.", "Ana suggested that we should meet on Friday."],
         explanation: "\"Suggest\" + -ing, or \"suggest (that) we\" + base verb. Not *suggested to meet.",
@@ -919,13 +919,13 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
         audio: "He warned me not to walk home alone.",
         question: "What did you hear?",
         options: [
-          "Me advirtió que no volviera a casa andando solo.",
+          "Me advirtió que no volviera a casa caminando solo.",
           "Me prometió que no volvería a casa solo.",
-          "Me sugirió volver a casa andando.",
+          "Me sugirió volver a casa caminando.",
           "Me recordó que volviera a casa solo.",
         ],
         correctIndex: 0,
-        explanation: "\"Warned me not to walk\" is «me advirtió que no volviera andando».",
+        explanation: "\"Warned me not to walk\" is «me advirtió que no volviera caminando».",
       },
       {
         type: "dictation",
@@ -1082,7 +1082,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
         sentence: "The kids complained ___ too much homework.",
         answer: "about having",
         altAnswers: ["about getting"],
-        en: "Los niños se quejaron [de tener] demasiados deberes.",
+        en: "Los niños se quejaron [de tener] demasiada tarea.",
         explanation: "\"Complain about\" + -ing. «Deberes» is \"homework\", which is uncountable: \"too much homework\".",
       },
       {

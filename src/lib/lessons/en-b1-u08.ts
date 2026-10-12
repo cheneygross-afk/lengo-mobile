@@ -566,7 +566,7 @@ export const EN_B1_U08: Lesson[] = [
         examples: [
           { es: "If she calls, I'll tell her.", en: "Si llama, se lo diré." },
           { es: "If she called, I'd tell her.", en: "Si llamara, se lo diría." },
-          { es: "If you don't hurry, you'll miss the bus.", en: "Si no te das prisa, perderás el autobús." },
+          { es: "If you don't hurry, you'll miss the bus.", en: "Si no te apuras, perderás el autobús." },
           { es: "If I didn't have a job, I'd be bored.", en: "Si no tuviera trabajo, me aburriría." },
         ],
         checkpoint: [
@@ -633,7 +633,7 @@ export const EN_B1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Choose the correct translation of «Si no te das prisa, perderás el autobús».",
+        question: "Choose the correct translation of «Si no te apuras, perderás el autobús».",
         options: [
           "If you don't hurry, you'll miss the bus.",
           "If you didn't hurry, you'll miss the bus.",
@@ -1150,7 +1150,7 @@ export const EN_B1_U08: Lesson[] = [
         ],
         examples: [
           { es: "I would buy a new phone.", en: "Me compraría un teléfono nuevo." },
-          { es: "We could go to the cinema.", en: "Podríamos ir al cine." },
+          { es: "We could go to the movies.", en: "Podríamos ir al cine." },
           { es: "She might come with us.", en: "A lo mejor viene con nosotros." },
         ],
         checkpoint: [
@@ -1355,7 +1355,7 @@ export const EN_B1_U08: Lesson[] = [
         examples: [
           { es: "If you could live anywhere, where would you live?", en: "Si pudieras vivir en cualquier sitio, ¿dónde vivirías?" },
           { es: "I'd live in Italy because I could eat amazing food every day.", en: "Viviría en Italia porque podría comer comida increíble todos los días." },
-          { es: "If I lived abroad, I'd miss my family.", en: "Si viviera en el extranjero, echaría de menos a mi familia." },
+          { es: "If I lived abroad, I'd miss my family.", en: "Si viviera en el extranjero, extrañaría a mi familia." },
           { es: "I'd learn the language very quickly.", en: "Aprendería el idioma muy rápido." },
         ],
         checkpoint: [
@@ -1363,10 +1363,10 @@ export const EN_B1_U08: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Si viviera en el extranjero, echaría de menos a mi familia.",
+            source: "Si viviera en el extranjero, extrañaría a mi familia.",
             answer: "If I lived abroad, I would miss my family.",
             altAnswers: ["I would miss my family if I lived abroad.", "If I lived in another country, I would miss my family."],
-            explanation: "«En el extranjero» is just \"abroad\", with no \"in the\". «Echar de menos» is \"miss\".",
+            explanation: "«En el extranjero» is just \"abroad\", with no \"in the\". «Extrañar» is \"miss\".",
           },
         ],
       },
@@ -1374,7 +1374,7 @@ export const EN_B1_U08: Lesson[] = [
         heading: "Mission 3: you are invisible",
         body: [
           "Last one: \"What would you do if you were invisible for a day?\" Use \"were\" here: you're imagining something impossible.",
-          "You can ask follow-up questions with \"Would you...?\": \"Would you go into the cinema for free?\" \"Would you listen to your boss's conversations?\".",
+          "You can ask follow-up questions with \"Would you...?\": \"Would you sneak into the movies for free?\" \"Would you listen to your boss's conversations?\".",
           "Answer honestly and add how you'd feel: \"I'd feel a bit guilty\", \"It would be really fun\".",
         ],
         examples: [
@@ -1549,7 +1549,7 @@ export const EN_B1_U08: Lesson[] = [
           { es: "If I were you, I'd talk to him calmly.", en: "Yo que tú, hablaría con él con calma." },
           { es: "You could make a cleaning schedule together.", en: "Podrías hacer con él un horario de limpieza." },
           { es: "I wouldn't shout or leave angry notes.", en: "Yo no gritaría ni dejaría notas enojadas." },
-          { es: "You could ask him to use headphones.", en: "Podrías pedirle que use auriculares." },
+          { es: "You could ask him to use headphones.", en: "Podrías pedirle que use audífonos." },
           { es: "If it doesn't work, you could look for a new place.", en: "Si no funciona, podrías buscar otro sitio." },
         ],
         checkpoint: [
@@ -1558,7 +1558,7 @@ export const EN_B1_U08: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "___ ask him to use headphones.",
             answer: "You could",
-            en: "[Podrías] pedirle que use auriculares.",
+            en: "[Podrías] pedirle que use audífonos.",
             explanation: "\"You could\" + base form is a soft suggestion. English needs the subject \"you\".",
           },
           {
@@ -1759,7 +1759,7 @@ export const EN_B1_U08: Lesson[] = [
         examples: [
           { es: "If I saw my friend cheating on an exam, I'd talk to him later.", en: "Si viera a mi amigo copiando en un examen, hablaría con él después." },
           { es: "I wouldn't tell the teacher.", en: "No se lo diría al profesor." },
-          { es: "I'd feel terrible.", en: "Me sentiría fatal." },
+          { es: "I'd feel terrible.", en: "Me sentiría muy mal." },
           { es: "It wouldn't be fair to the other students.", en: "No sería justo para los demás estudiantes." },
           { es: "He cheated at cards.", en: "Hizo trampa a las cartas." },
         ],
@@ -1833,7 +1833,7 @@ export const EN_B1_U08: Lesson[] = [
         sentence: "If I saw my friend cheating, I ___ terrible.",
         answer: "would feel",
         altAnswers: ["'d feel"],
-        en: "Si viera a mi amigo copiando, [me sentiría] fatal.",
+        en: "Si viera a mi amigo copiando, [me sentiría] muy mal.",
         explanation: "«Sentirse» is \"feel\", with no \"myself\".",
       },
       {
@@ -1921,7 +1921,7 @@ export const EN_B1_U08: Lesson[] = [
     level: "EN-B1",
     number: 10,
     title: "Word Web: Money & Finance",
-    summary: "Save, spend, borrow and lend, owe, afford, loan, mortgage, budget and cash machine, with the Spanish-speaker traps: lend me (not borrow me) and can't afford.",
+    summary: "Save, spend, borrow and lend, owe, afford, loan, mortgage, budget and ATM, with the Spanish-speaker traps: lend me (not borrow me) and can't afford.",
     duration: "12 min",
     sections: [
       {
@@ -2026,13 +2026,13 @@ export const EN_B1_U08: Lesson[] = [
         heading: "Cash, cards and the bank",
         body: [
           "\"Cash\" is coins and bills (= «efectivo»): \"Can I pay in cash?\" or \"Can I pay by card?\". In the US paper money is \"bills\"; in the UK, \"notes\".",
-          "You get cash from a \"cash machine\" or \"ATM\" (= «cajero automático»). \"Withdraw\" money is «sacar dinero» (\"take out money\" in everyday speech).",
+          "You get cash from an \"ATM\" (British: \"cash machine\") (= «cajero automático»). \"Withdraw\" money is «sacar dinero» (\"take out money\" in everyday speech).",
           "Careful with \"pay for\": «pagar el café» is \"pay for the coffee\". Without \"for\", \"pay\" is used with the person or the bill: \"pay the waiter\", \"pay the bill\".",
         ],
         examples: [
           { es: "Can I pay in cash?", en: "¿Puedo pagar en efectivo?" },
           { es: "Can I pay by card?", en: "¿Puedo pagar con tarjeta?" },
-          { es: "Is there a cash machine near here?", en: "¿Hay un cajero automático por aquí?" },
+          { es: "Is there an ATM near here?", en: "¿Hay un cajero automático por aquí?" },
           { es: "I need to take out some money.", en: "Tengo que sacar dinero." },
           { es: "I'll pay for the coffee.", en: "Yo pago el café." },
           { es: "Could we have the check, please?", en: "¿Nos trae la cuenta, por favor?" },
@@ -2109,7 +2109,7 @@ export const EN_B1_U08: Lesson[] = [
           { left: "mortgage", right: "hipoteca" },
           { left: "loan", right: "préstamo" },
           { left: "budget", right: "presupuesto" },
-          { left: "cash machine", right: "cajero automático" },
+          { left: "ATM", right: "cajero automático" },
           { left: "cash", right: "efectivo" },
         ],
         explanation: "\"Mortgage\" has a silent \"t\": \"MOR-gij\".",

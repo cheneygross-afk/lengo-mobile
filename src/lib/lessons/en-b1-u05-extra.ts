@@ -26,7 +26,7 @@ export const EN_B1_U05_EXTRA: Lesson[] = [
           { es: "I think she'll win.", en: "Creo que ganará." },
           { es: "I'm going to learn Italian next year.", en: "El año que viene voy a aprender italiano." },
           { es: "Look out! He's going to fall.", en: "¡Cuidado! Se va a caer." },
-          { es: "I'm meeting Tom at six.", en: "He quedado con Tom a las seis." },
+          { es: "I'm meeting Tom at six.", en: "Me voy a ver con Tom a las seis." },
         ],
         checkpoint: [
           {
@@ -310,10 +310,10 @@ export const EN_B1_U05_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Yo friego los platos.",
+        source: "Yo lavo los platos.",
         answer: "I'll do the dishes.",
         altAnswers: ["I'll wash the dishes.", "I'll wash up.", "I'll do the washing-up.", "I'll do the washing up."],
-        explanation: "Offering to do a job now: \"I'll do the dishes\". The Spanish present «friego» becomes \"I'll\", never *I wash the dishes (that would be a habit).",
+        explanation: "Offering to do a job now: \"I'll do the dishes\". The Spanish present «lavo» becomes \"I'll\", never *I wash the dishes (that would be a habit).",
       },
       {
         type: "fill-blank",
@@ -460,7 +460,7 @@ export const EN_B1_U05_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "At ten tomorrow I'll be taking an exam.", en: "Mañana a las diez estaré haciendo un examen." },
-          { es: "This time next week we'll be lying on a beach.", en: "La semana que viene a esta hora estaremos tumbados en una playa." },
+          { es: "This time next week we'll be lying on a beach.", en: "La semana que viene a esta hora estaremos acostados en una playa." },
           { es: "I won't be working on Friday.", en: "El viernes no estaré trabajando." },
           { es: "Will you be working late tonight?", en: "¿Vas a estar trabajando hasta tarde esta noche?" },
           { es: "I'm flying tomorrow.", en: "Mañana vuelo. (plan, presente continuo)" },
@@ -602,8 +602,8 @@ export const EN_B1_U05_EXTRA: Lesson[] = [
         sentence: "At this time next week I ___ on a beach in Cancun.",
         answer: "will be lying",
         altAnswers: ["'ll be lying", "will be sitting", "'ll be sitting", "will be relaxing", "'ll be relaxing", "will be sunbathing", "'ll be sunbathing"],
-        en: "La semana que viene a esta hora [estaré tumbado] en una playa de Cancún.",
-        explanation: "«Estaré tumbado» = \"I'll be lying\" (the verb \"lie\", lying, for being flat on a beach). In progress at that future moment: future continuous.",
+        en: "La semana que viene a esta hora [estaré acostado] en una playa de Cancún.",
+        explanation: "«Estaré acostado» = \"I'll be lying\" (the verb \"lie\", lying, for being flat on a beach). In progress at that future moment: future continuous.",
       },
       {
         type: "translate",
@@ -863,7 +863,7 @@ export const EN_B1_U05_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Date prisa, para cuando lleguemos la película habrá empezado.",
+        source: "Apúrate, para cuando lleguemos la película habrá empezado.",
         answer: "Hurry up, by the time we get there the movie will have started.",
         altAnswers: ["Hurry up, the movie will have started by the time we get there.", "Hurry up, by the time we arrive the movie will have started.", "Hurry up, the movie will have started by the time we arrive.", "Hurry up, by the time we get there the film will have started.", "Hurry up, the film will have started by the time we arrive.", "Hurry up, by the time we get there the movie will have begun.", "Hurry, by the time we get there the movie will have started.", "Hurry up, by the time we arrive the film will have started."],
         explanation: "«Para cuando lleguemos» = \"by the time we get there\" or \"by the time we arrive\" (present, not \"will\"). The movie will already be running: future perfect.",

@@ -134,7 +134,7 @@ export const EN_B1_U18: Lesson[] = [
           "\"Will be\" + -ing is an action in progress at a future time (\"This time tomorrow I'll be flying to Rome\"), and \"will have\" + participle is an action completed before a deadline, usually with \"by\": \"By June I'll have finished my degree.\"",
         ],
         examples: [
-          { es: "I'm meeting Ana at six.", en: "He quedado con Ana a las seis." },
+          { es: "I'm meeting Ana at six.", en: "Voy a ver a Ana a las seis." },
           { es: "It's going to rain.", en: "Va a llover." },
           { es: "I'll carry your bag.", en: "Te llevo la bolsa." },
           { es: "The train leaves at eight.", en: "El tren sale a las ocho." },
@@ -236,7 +236,7 @@ export const EN_B1_U18: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["I'm", "meeting", "Ana", "at", "six", "tomorrow."],
-        translation: "Mañana he quedado con Ana a las seis.",
+        translation: "Mañana voy a ver a Ana a las seis.",
         altOrders: [
           ["Tomorrow", "I'm", "meeting", "Ana", "at", "six."],
           ["I'm", "meeting", "Ana", "tomorrow", "at", "six."],
@@ -513,7 +513,7 @@ export const EN_B1_U18: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "You ___ hurry, or you'll miss the train.",
         answer: "had better",
-        en: "[Más vale que] te des prisa o perderás el tren.",
+        en: "[Más vale que] te apures o perderás el tren.",
         explanation: "\"Had better\" (usually \"you'd better\") is a strong warning, with no \"to\" after it: \"You'd better hurry\".",
       },
       {
@@ -840,8 +840,8 @@ export const EN_B1_U18: Lesson[] = [
         heading: "Tense mistakes",
         body: [
           "These are the tense mistakes Spanish speakers make most often at the Independence level. *I live here since 2020 should be \"I've been living here since 2020\". *I have seen him yesterday should be \"I saw him yesterday\": with a finished time like \"yesterday\" or \"last week\", use the past simple.",
-          "\"I use to get up at seven\" should be \"I usually get up at seven\". \"Did you used to...?\" should be \"Did you use to...?\" (after \"did\", no -d). \"I'm used to work late\" should be \"I'm used to working late\".",
-          "\"Tomorrow I go to the dentist\" (a booked appointment) should be \"I'm going to the dentist tomorrow\". \"When I arrived, the train already left\" should be \"the train had already left\".",
+          "*I use to get up at seven should be \"I usually get up at seven\". *Did you used to...? should be \"Did you use to...?\" (after \"did\", no -d). *I'm used to work late should be \"I'm used to working late\".",
+          "*Tomorrow I go to the dentist (a booked appointment) should be \"I'm going to the dentist tomorrow\". *When I arrived, the train already left should be \"the train had already left\".",
         ],
         examples: [
           { es: "I've been living here since 2020.", en: "Vivo aquí desde 2020." },
@@ -876,8 +876,8 @@ export const EN_B1_U18: Lesson[] = [
       {
         heading: "Conditional and wish mistakes",
         body: [
-          "\"If I will see him, I'll tell him\" should be \"If I see him, I'll tell him\". \"If I would have money, I would travel\" should be \"If I had money, I would travel\". \"If I would have known\" should be \"If I had known\". The rule: no \"will\" or \"would\" after \"if\".",
-          "\"I wish I have more time\" should be \"I wish I had more time\". \"I wish I would have a car\" should be \"I wish I had a car\". \"I hope you had a good trip tomorrow\" should be \"I hope you have a good trip\". \"I would of gone\" should be \"I would have gone\".",
+          "*If I will see him, I'll tell him should be \"If I see him, I'll tell him\". *If I would have money, I would travel should be \"If I had money, I would travel\". *If I would have known should be \"If I had known\". The rule: no \"will\" or \"would\" after \"if\".",
+          "*I wish I have more time should be \"I wish I had more time\". *I wish I would have a car should be \"I wish I had a car\". *I hope you had a good trip tomorrow should be \"I hope you have a good trip\". *I would of gone should be \"I would have gone\".",
         ],
         examples: [
           { es: "If I see him, I'll tell him.", en: "Si lo veo, se lo diré." },
@@ -908,8 +908,8 @@ export const EN_B1_U18: Lesson[] = [
       {
         heading: "Modal mistakes",
         body: [
-          "\"You must to wear a helmet\" should be \"You must wear a helmet\". \"You should to rest\" should be \"You should rest\". Modals are followed by the infinitive without \"to\". And \"I will can come\" should be \"I'll be able to come\": two modals can't go together.",
-          "\"He mustn't be at home, the lights are off\" should be \"He can't be at home\": the opposite of \"must\" (deduction) is \"can't\". \"You mustn't pay, it's free\" should be \"You don't have to pay\". \"She must has gone\" should be \"She must have gone\".",
+          "*You must to wear a helmet should be \"You must wear a helmet\". *You should to rest should be \"You should rest\". Modals are followed by the infinitive without \"to\". And *I will can come should be \"I'll be able to come\": two modals can't go together.",
+          "*He mustn't be at home, the lights are off should be \"He can't be at home\": the opposite of \"must\" (deduction) is \"can't\". *You mustn't pay, it's free should be \"You don't have to pay\". *She must has gone should be \"She must have gone\".",
         ],
         examples: [
           { es: "You must wear a helmet.", en: "Tienes que llevar casco." },
@@ -943,8 +943,8 @@ export const EN_B1_U18: Lesson[] = [
       {
         heading: "Passive and relative mistakes",
         body: [
-          "\"The house was build in 1950\" should be \"was built\": the passive needs the participle. \"I cut my hair at the hairdresser's\" should be \"I had my hair cut\". \"I had stolen my bike\" should be \"I had my bike stolen\" or \"My bike was stolen\".",
-          "\"The man which lives next door\" should be \"the man who lives next door\". \"The movie that I saw it\" should be \"the movie that I saw\". \"My mother, that is a teacher, ...\" should be \"My mother, who is a teacher, ...\". \"I don't know that you mean\" should be \"I don't know what you mean\".",
+          "*The house was build in 1950 should be \"was built\": the passive needs the participle. *I cut my hair at the hairdresser's should be \"I had my hair cut\". *I had stolen my bike should be \"I had my bike stolen\" or \"My bike was stolen\".",
+          "*The man which lives next door should be \"the man who lives next door\". *The movie that I saw it should be \"the movie that I saw\". *My mother, that is a teacher, ... should be \"My mother, who is a teacher, ...\". *I don't know that you mean should be \"I don't know what you mean\".",
         ],
         examples: [
           { es: "The house was built in 1950.", en: "La casa se construyó en 1950." },
@@ -2124,7 +2124,7 @@ export const EN_B1_U18: Lesson[] = [
         examples: [
           { es: "The contestants were cooking when the lights went out.", en: "Los concursantes estaban cocinando cuando se fue la luz." },
           { es: "Diego realized he had forgotten the salt.", en: "Diego se dio cuenta de que se le había olvidado la sal." },
-          { es: "While Sofia was making the sauce, her oven broke.", en: "Mientras Sofia hacía la salsa, se le estropeó el horno." },
+          { es: "While Sofia was making the sauce, her oven broke.", en: "Mientras Sofia hacía la salsa, se le descompuso el horno." },
           { es: "By the time the judges arrived, Tom had finished his dessert.", en: "Cuando llegaron los jueces, Tom ya había terminado el postre." },
         ],
         checkpoint: [
@@ -2160,7 +2160,7 @@ export const EN_B1_U18: Lesson[] = [
         ],
         examples: [
           { es: "Sofia must be nervous. She's shaking.", en: "Sofia debe de estar nerviosa. Está temblando." },
-          { es: "Tom might win. His dessert looks amazing.", en: "Puede que gane Tom. Su postre tiene una pinta increíble." },
+          { es: "Tom might win. His dessert looks amazing.", en: "Puede que gane Tom. Su postre se ve increíble." },
           { es: "Diego can't win. His sauce burned.", en: "Diego no puede ganar. Se le quemó la salsa." },
           { es: "The judges must have loved the dessert.", en: "A los jueces les debe de haber encantado el postre." },
           { es: "She might have used too much salt.", en: "Puede que haya echado demasiada sal." },

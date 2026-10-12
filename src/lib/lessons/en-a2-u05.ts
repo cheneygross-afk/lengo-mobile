@@ -446,7 +446,7 @@ export const EN_A2_U05: Lesson[] = [
         examples: [
           { es: "I've been very busy.", en: "He estado muy ocupado." },
           { es: "She's gone home.", en: "Se ha ido a casa." },
-          { es: "I've done my homework.", en: "He hecho los deberes." },
+          { es: "I've done my homework.", en: "He hecho la tarea." },
           { es: "Have you seen my keys?", en: "¿Has visto mis llaves?" },
           { es: "We haven't done anything.", en: "No hemos hecho nada." },
         ],
@@ -464,8 +464,8 @@ export const EN_A2_U05: Lesson[] = [
             prompt: "Escribe en inglés las palabras en negrita.",
             sentence: "I've ___ my homework.",
             answer: "done",
-            en: "He [hecho] los deberes.",
-            explanation: "\"Do\" – \"did\" – \"done\". Los deberes se \"hacen\" con \"do\": \"do homework\".",
+            en: "He [hecho] la tarea.",
+            explanation: "\"Do\" – \"did\" – \"done\". La tarea se \"hace\" con \"do\": \"do homework\".",
           },
         ],
       },
@@ -511,7 +511,7 @@ export const EN_A2_U05: Lesson[] = [
           { es: "He's taken my umbrella.", en: "Se ha llevado mi paraguas." },
           { es: "They've given us a present.", en: "Nos han dado un regalo." },
           { es: "Have you spoken to Tom?", en: "¿Has hablado con Tom?" },
-          { es: "I've broken my glasses.", en: "Se me han roto las gafas. / He roto mis lentes." },
+          { es: "I've broken my glasses.", en: "Se me han roto los lentes. / He roto mis lentes." },
         ],
         checkpoint: [
           {
@@ -632,7 +632,7 @@ export const EN_A2_U05: Lesson[] = [
           { es: "have – had – had", en: "tener" },
           { es: "find – found – found", en: "encontrar" },
           { es: "leave – left – left", en: "irse / dejar" },
-          { es: "meet – met – met", en: "conocer / quedar con" },
+          { es: "meet – met – met", en: "conocer / verse con" },
           { es: "tell – told – told", en: "decir, contar" },
         ],
         checkpoint: [
@@ -666,7 +666,7 @@ export const EN_A2_U05: Lesson[] = [
           { es: "I've met her parents.", en: "He conocido a sus padres." },
           { es: "She's told me the truth.", en: "Me ha dicho la verdad." },
           { es: "We've found a good restaurant.", en: "Hemos encontrado un buen restaurante." },
-          { es: "He's left his bag here.", en: "Se ha dejado la bolsa aquí." },
+          { es: "He's left his bag here.", en: "Ha dejado su bolsa aquí." },
         ],
         checkpoint: [
           {
@@ -767,7 +767,7 @@ export const EN_A2_U05: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "He's ___ his bag here.",
         answer: "left",
-        en: "Se ha [dejado] la bolsa aquí.",
+        en: "Ha [dejado] su bolsa aquí.",
         explanation: "\"Leave\" – \"left\" – \"left\": «dejar» algo en un sitio, o «irse».",
       },
       {
@@ -1587,7 +1587,7 @@ export const EN_A2_U05: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Ella no ha hecho los deberes.",
+        source: "Ella no ha hecho la tarea.",
         answer: "She hasn't done her homework.",
         altAnswers: ["She hasn't done the homework."],
         explanation: "\"Hasn't\" + \"done\". En inglés se prefiere el posesivo: \"her homework\".",

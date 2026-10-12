@@ -239,7 +239,7 @@ export const EN_A1_U4_EXTRA: Lesson[] = [
         examples: [
           { es: "I drink coffee every morning.", en: "Bebo café todas las mañanas." },
           { es: "Today I'm drinking tea.", en: "Hoy estoy bebiendo té." },
-          { es: "He usually walks to school.", en: "Normalmente va andando al colegio." },
+          { es: "He usually walks to school.", en: "Normalmente va caminando al colegio." },
           { es: "Look! He's running.", en: "¡Mira! Está corriendo." },
           { es: "They play soccer on Mondays.", en: "Juegan al fútbol los lunes." },
         ],
@@ -369,7 +369,7 @@ export const EN_A1_U4_EXTRA: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "She usually ___ jeans, but today she is wearing a dress.",
         answer: "wears",
-        en: "Normalmente ella [lleva] pantalones vaqueros, pero hoy lleva un vestido.",
+        en: "Normalmente ella [lleva] jeans, pero hoy lleva un vestido.",
         explanation: "\"Usually\" marca el hábito: presente simple, \"wears\". Lo de hoy va en continuo: \"is wearing\".",
       },
       {
@@ -437,7 +437,7 @@ export const EN_A1_U4_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "He usually takes the train, but today he's driving.",
         question: "¿Cómo va hoy?",
-        options: ["En carro.", "En tren.", "Andando.", "En autobús."],
+        options: ["En carro.", "En tren.", "Caminando.", "En autobús."],
         correctIndex: 0,
         explanation: "\"Usually takes the train\" es lo habitual; \"today he's driving\" (hoy va manejando) es lo de hoy.",
       },
@@ -706,10 +706,10 @@ export const EN_A1_U4_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "She is wearing a red coat.", en: "Lleva un abrigo rojo." },
-          { es: "He is wearing blue jeans.", en: "Lleva unos vaqueros azules." },
+          { es: "He is wearing blue jeans.", en: "Lleva unos jeans azules." },
           { es: "The boy is wearing shorts and a T-shirt.", en: "El niño lleva pantalones cortos y una camiseta." },
           { es: "He is carrying a box.", en: "Lleva una caja (en las manos)." },
-          { es: "She is wearing glasses.", en: "Lleva gafas." },
+          { es: "She is wearing glasses.", en: "Lleva lentes." },
         ],
         checkpoint: [
           {
@@ -769,7 +769,7 @@ export const EN_A1_U4_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "En la foto, él lleva unos vaqueros azules.",
+        source: "En la foto, él lleva unos jeans azules.",
         answer: "In the photo, he is wearing blue jeans.",
         altAnswers: ["In the photo, he is wearing a pair of blue jeans.", "In the picture, he is wearing blue jeans.", "He is wearing blue jeans in the photo.", "He is wearing blue jeans in the picture."],
         explanation: "\"Jeans\" es siempre plural: no existe *a jean. Y el color no lleva \"-s\": \"blue jeans\".",
@@ -787,7 +787,7 @@ export const EN_A1_U4_EXTRA: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "These glasses ___ very expensive.",
         answer: "are",
-        en: "Estas gafas [son] muy caras.",
+        en: "Estos lentes [son] muy caros.",
         explanation: "\"Glasses\" es plural, así que va con \"are\".",
       },
       {

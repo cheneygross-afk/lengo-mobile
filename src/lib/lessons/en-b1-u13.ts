@@ -318,7 +318,7 @@ export const EN_B1_U13: Lesson[] = [
           { es: "Certainly.", en: "Por supuesto." },
           { es: "I'm afraid not.", en: "Me temo que no." },
           { es: "Sorry, you can't park here.", en: "Lo siento, aquí no se puede estacionar." },
-          { es: "I'm sorry, but you can't take photos in here.", en: "Lo siento, pero aquí dentro no se pueden hacer fotos." },
+          { es: "I'm sorry, but you can't take photos in here.", en: "Lo siento, pero aquí dentro no se pueden tomar fotos." },
         ],
         checkpoint: [
           {
@@ -395,11 +395,11 @@ export const EN_B1_U13: Lesson[] = [
         heading: "Permission in the past",
         body: [
           "For general permission in the past (something you could always do), use \"could\" or \"was/were allowed to\": \"When I was a child, I could stay up late on Saturdays\".",
-          "For rules in the past, especially negative ones, \"wasn't/weren't allowed to\" is very natural: \"We weren't allowed to wear jeans at school\" («en el colegio no nos dejaban llevar vaqueros»). With \"let\": \"My parents didn't let me go out at night\".",
+          "For rules in the past, especially negative ones, \"wasn't/weren't allowed to\" is very natural: \"We weren't allowed to wear jeans at school\" («en el colegio no nos dejaban usar jeans»). With \"let\": \"My parents didn't let me go out at night\".",
           "For permission on one specific occasion, use \"was/were allowed to\", not \"could\": \"The teacher was sick, so we were allowed to go home early\". In the negative, \"couldn't\" is fine in both cases.",
         ],
         examples: [
-          { es: "We weren't allowed to wear jeans at school.", en: "En el colegio no nos dejaban llevar vaqueros." },
+          { es: "We weren't allowed to wear jeans at school.", en: "En el colegio no nos dejaban usar jeans." },
           { es: "When I was a child, I could stay up late on Saturdays.", en: "De pequeño, los sábados podía acostarme tarde." },
           { es: "My parents didn't let me go out at night.", en: "Mis padres no me dejaban salir por la noche." },
           { es: "Were you allowed to have a phone at school?", en: "¿Te dejaban tener celular en el colegio?" },
@@ -411,7 +411,7 @@ export const EN_B1_U13: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "En el colegio no nos dejaban llevar vaqueros.",
+            source: "En el colegio no nos dejaban usar jeans.",
             answer: "We weren't allowed to wear jeans at school.",
             altAnswers: [
               "At school we weren't allowed to wear jeans.",
@@ -1793,7 +1793,7 @@ export const EN_B1_U13: Lesson[] = [
         ],
         examples: [
           { es: "You should've told me.", en: "Me lo deberías haber dicho." },
-          { es: "She must've left early.", en: "Se habrá ido pronto." },
+          { es: "She must've left early.", en: "Se habrá ido temprano." },
           { es: "They might've gotten lost.", en: "Puede que se hayan perdido." },
           { es: "I could've helped you.", en: "Te podría haber ayudado." },
           { es: "We shouldn't have waited.", en: "No deberíamos haber esperado." },
@@ -1991,7 +1991,7 @@ export const EN_B1_U13: Lesson[] = [
         examples: [
           { es: "Could you tell me when the course starts?", en: "¿Me podrías decir cuándo empieza el curso?" },
           { es: "I was wondering if you could let me know the price.", en: "Quería saber si podrías indicarme el precio." },
-          { es: "Could you let me know if there are any places left?", en: "¿Me podrías decir si quedan plazas?" },
+          { es: "Could you let me know if there are any places left?", en: "¿Me podrías decir si quedan lugares?" },
           { es: "Do you know if the meeting is still on Monday?", en: "¿Sabes si la reunión sigue siendo el lunes?" },
         ],
         checkpoint: [
@@ -2001,7 +2001,7 @@ export const EN_B1_U13: Lesson[] = [
             sentence: "Could you ___ if there are any places left?",
             answer: "let me know",
             altAnswers: ["tell me"],
-            en: "¿Me podrías [decir] si quedan plazas?",
+            en: "¿Me podrías [decir] si quedan lugares?",
             explanation: "\"Let me know\" is the natural email phrase for «dime / avísame».",
           },
           {
@@ -2231,7 +2231,7 @@ export const EN_B1_U13: Lesson[] = [
           { es: "You'd better check the weather.", en: "Más vale que mires el tiempo." },
           { es: "You don't have to bring a tent.", en: "No hace falta que traigas tienda." },
           { es: "We set up the tent next to the lake.", en: "Montamos la tienda junto al lago." },
-          { es: "Don't forget your flashlight.", en: "No te olvides la linterna." },
+          { es: "Don't forget your flashlight.", en: "No olvides la linterna." },
         ],
         checkpoint: [
           {
@@ -2484,17 +2484,17 @@ export const EN_B1_U13: Lesson[] = [
           { es: "We take turns taking out the trash.", en: "Nos turnamos para sacar la basura." },
           { es: "Guests aren't allowed to stay more than three nights.", en: "Los invitados no pueden quedarse más de tres noches." },
           { es: "You don't have to ask before you use the washing machine.", en: "No hace falta que preguntes antes de usar la lavadora." },
-          { es: "My roommate is from Canada.", en: "Mi compañero de piso es de Canadá." },
+          { es: "My roommate is from Canada.", en: "Mi compañero de cuarto es de Canadá." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Mi compañera de piso es de Canadá.",
+            source: "Mi compañera de cuarto es de Canadá.",
             answer: "My roommate is from Canada.",
             altAnswers: ["My flatmate is from Canada.", "My housemate is from Canada."],
-            explanation: "«Compañero de piso» is \"roommate\" (US) or \"flatmate\" (UK). English uses \"is from\" for origin.",
+            explanation: "«Compañero de cuarto» is \"roommate\" (US) or \"flatmate\" (UK). English uses \"is from\" for origin.",
           },
           {
             type: "fill-blank",
@@ -2557,7 +2557,7 @@ export const EN_B1_U13: Lesson[] = [
         examples: [
           { es: "I used to live alone.", en: "Antes vivía solo." },
           { es: "I didn't use to cook.", en: "Antes no cocinaba." },
-          { es: "Did you use to share an apartment?", en: "¿Antes compartías piso?" },
+          { es: "Did you use to share an apartment?", en: "¿Antes compartías departamento?" },
           { es: "I usually cook on Sundays.", en: "Suelo cocinar los domingos." },
           { es: "We used to argue about the dishes.", en: "Antes discutíamos por los platos." },
         ],
@@ -2576,7 +2576,7 @@ export const EN_B1_U13: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "I ___ live alone, but now I share an apartment.",
             answer: "used to",
-            en: "[Antes] vivía solo, pero ahora comparto piso.",
+            en: "[Antes] vivía solo, pero ahora comparto departamento.",
             explanation: "A past state that is not true now: \"used to\" + base verb.",
           },
         ],

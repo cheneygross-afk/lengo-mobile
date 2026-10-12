@@ -429,7 +429,7 @@ export const EN_B2_U13: Lesson[] = [
           { es: "Pass me the salt, would you?", en: "Pásame la sal, ¿podrías?" },
           { es: "Don't be late, will you?", en: "No llegues tarde, ¿eh?" },
           { es: "Let's take a break, shall we?", en: "Hagamos una pausa, ¿no?" },
-          { es: "Let's not argue, OK?", en: "No discutamos, ¿vale?" },
+          { es: "Let's not argue, OK?", en: "No discutamos, ¿sí?" },
           { es: "Nobody called, did they?", en: "No llamó nadie, ¿verdad?" },
         ],
         checkpoint: [
@@ -651,7 +651,7 @@ export const EN_B2_U13: Lesson[] = [
           { es: "Who has broken the window?", en: "¿Quién ha roto la ventana?" },
           { es: "What has Tom broken?", en: "¿Qué ha roto Tom?" },
           { es: "Who is coming tonight?", en: "¿Quién viene esta noche?" },
-          { es: "Who are you meeting tonight?", en: "¿Con quién has quedado esta noche?" },
+          { es: "Who are you meeting tonight?", en: "¿Con quién te vas a ver esta noche?" },
         ],
         checkpoint: [
           {
@@ -917,7 +917,7 @@ export const EN_B2_U13: Lesson[] = [
         heading: "Chat 4: tags and short replies",
         body: [
           "Finally, a hotel guest writes: \"You received my email, no?\" and \"The room has a balcony, isn't?\". Spanish uses «¿no?» for everything, but an English tag needs an auxiliary and a pronoun: \"You received my email, didn't you?\", \"The room has a balcony, doesn't it?\".",
-          "When the agent says \"We don't have your reservation\", the guest answers \"Me too\". That should be \"Me neither\" or \"Neither do I\": after a negative, \"too\" becomes \"neither\".",
+          "When another guest says \"I don't have the Wi-Fi code\", the guest answers \"Me too\". That should be \"Me neither\" or \"Neither do I\": after a negative, \"too\" becomes \"neither\".",
           "In writing, \"right?\" is a safe alternative to a tag in casual American English: \"You received my email, right?\". But never just *no?.",
         ],
         examples: [
@@ -1015,7 +1015,7 @@ export const EN_B2_U13: Lesson[] = [
           "Why my card was declined?",
         ],
         correctIndex: 0,
-        explanation: "Inside an indirect question, \"was\" goes after the subject: \"why my card was declined\". The last option is a direct question, so it would need inversion.",
+        explanation: "Inside an indirect question, \"was\" goes after the subject: \"why my card was declined\". \"Why my card was declined?\" is meant as a direct question, so it would need inversion: \"Why was my card declined?\"",
       },
       {
         type: "translate",
@@ -1812,7 +1812,7 @@ export const EN_B2_U13: Lesson[] = [
           { es: "How many hours a day do you spend on your phone?", en: "¿Cuántas horas al día pasas con el celular?" },
           { es: "How often do you check social media?", en: "¿Con qué frecuencia miras las redes sociales?" },
           { es: "Have you ever tried a digital detox?", en: "¿Alguna vez has probado una desintoxicación digital?" },
-          { es: "Would you rather give up your phone or your laptop for a week?", en: "¿Qué preferirías dejar una semana, el celular o el portátil?" },
+          { es: "Would you rather give up your phone or your laptop for a week?", en: "¿Qué preferirías dejar una semana, el celular o la laptop?" },
           { es: "Which do you prefer, reading on paper or on a screen?", en: "¿Qué prefieres, leer en papel o en pantalla?" },
         ],
         checkpoint: [

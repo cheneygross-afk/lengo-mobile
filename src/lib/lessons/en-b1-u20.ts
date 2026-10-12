@@ -268,7 +268,7 @@ export const EN_B1_U20: Lesson[] = [
           { es: "She asked me if I liked coffee.", en: "Me preguntó si me gustaba el café." },
           { es: "I asked him if he had a car.", en: "Le pregunté si tenía carro." },
           { es: "They asked us if we were tired.", en: "Nos preguntaron si estábamos cansados." },
-          { es: "The waiter asked if we wanted dessert.", en: "El camarero preguntó si queríamos postre." },
+          { es: "The waiter asked if we wanted dessert.", en: "El mesero preguntó si queríamos postre." },
         ],
         checkpoint: [
           {
@@ -398,7 +398,7 @@ export const EN_B1_U20: Lesson[] = [
         sentence: "The waiter asked ___ dessert.",
         answer: "if we wanted",
         altAnswers: ["whether we wanted"],
-        en: "El camarero preguntó [si queríamos] postre.",
+        en: "El mesero preguntó [si queríamos] postre.",
         explanation: "\"Do you want dessert?\" loses \"do\": \"if we wanted dessert\".",
       },
       {
@@ -533,7 +533,7 @@ export const EN_B1_U20: Lesson[] = [
           { es: "He told me not to touch it.", en: "Me dijo que no lo tocara." },
           { es: "She told us not to be late.", en: "Nos dijo que no llegáramos tarde." },
           { es: "My parents told me not to worry.", en: "Mis padres me dijeron que no me preocupara." },
-          { es: "The guide told them not to take photos.", en: "El guía les dijo que no hicieran fotos." },
+          { es: "The guide told them not to take photos.", en: "El guía les dijo que no tomaran fotos." },
         ],
         checkpoint: [
           {
@@ -1251,7 +1251,7 @@ export const EN_B1_U20: Lesson[] = [
         examples: [
           { es: "He refused to answer.", en: "Se negó a contestar." },
           { es: "She reminded me to call my mother.", en: "Me recordó que llamara a mi madre." },
-          { es: "They suggested meeting on Friday.", en: "Sugirieron quedar el viernes." },
+          { es: "They suggested meeting on Friday.", en: "Sugirieron verse el viernes." },
           { es: "He apologized for forgetting my birthday.", en: "Se disculpó por olvidar mi cumpleaños." },
         ],
         checkpoint: [
@@ -2024,7 +2024,7 @@ export const EN_B1_U20: Lesson[] = [
           "Cuando habló con su familia, dijo que estaba muy bien.",
         ],
         correctIndex: 0,
-        explanation: "\"When asked about\" is «cuando le preguntaron por», and \"missed them\" is «los/la echaba de menos».",
+        explanation: "\"When asked about\" is «cuando le preguntaron por», and \"missed them\" is «los/la extrañaba».",
       },
       {
         type: "dictation",
@@ -2101,7 +2101,7 @@ export const EN_B1_U20: Lesson[] = [
           { es: "It is said that the school will close in the summer.", en: "Se dice que el colegio cerrará en verano." },
           { es: "It is believed that the fire started in the kitchen.", en: "Se cree que el incendio empezó en la cocina." },
           { es: "The new teacher is said to be very strict.", en: "Se dice que el nuevo profesor es muy estricto." },
-          { es: "Apparently, the cafeteria is getting a new menu.", en: "Por lo visto, el comedor va a tener un menú nuevo." },
+          { es: "Apparently, the cafeteria is getting a new menu.", en: "Por lo visto, la cafetería va a tener un menú nuevo." },
         ],
         checkpoint: [
           {
@@ -2136,7 +2136,7 @@ export const EN_B1_U20: Lesson[] = [
         ],
         examples: [
           { es: "The student who won the prize is only fourteen.", en: "El alumno que ganó el premio solo tiene catorce años." },
-          { es: "The library, which opened in 1990, needs new computers.", en: "La biblioteca, que abrió en 1990, necesita ordenadores nuevos." },
+          { es: "The library, which opened in 1990, needs new computers.", en: "La biblioteca, que abrió en 1990, necesita computadoras nuevas." },
           { es: "Ana, whose father is a firefighter, organized the safety day.", en: "Ana, cuyo padre es bombero, organizó la jornada de seguridad." },
           { es: "This is the classroom where the fire started.", en: "Esta es el aula donde empezó el incendio." },
           { es: "Ms. Lopez, who has taught here for 30 years, is retiring.", en: "La señora Lopez, que lleva 30 años dando clase aquí, se jubila." },

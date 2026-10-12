@@ -264,7 +264,7 @@ export const EN_B1_U17_EXTRA: Lesson[] = [
         examples: [
           { es: "He didn't call, which was rude.", en: "No llamó, lo que fue de mala educación." },
           { es: "It rained all week, which was a shame.", en: "Llovió toda la semana, lo cual fue una pena." },
-          { es: "She passed her driving test, which surprised everyone.", en: "Aprobó el examen de manejar, lo que sorprendió a todos." },
+          { es: "She passed her driving test, which surprised everyone.", en: "Aprobó el examen de manejo, lo que sorprendió a todos." },
         ],
         checkpoint: [
           {

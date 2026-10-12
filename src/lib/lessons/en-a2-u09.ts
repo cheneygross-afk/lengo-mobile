@@ -50,14 +50,14 @@ export const EN_A2_U09: Lesson[] = [
         heading: "*I go to study no es «voy a estudiar»",
         body: [
           "Como «voy» es «I go», muchos hispanohablantes dicen \"I go to study\". Pero \"I go to study\" significa «voy (a algún sitio) para estudiar», normalmente como costumbre: \"I go to the library to study\". Para un plan futuro necesitas \"I'm going to study\".",
-          "Otro detalle: cuando el plan es ir a un sitio, el inglés suele decir solo \"I'm going to the cinema tonight\", sin repetir \"go\". \"I'm going to go to the cinema\" también es correcto, pero suena más largo y se oye menos.",
+          "Otro detalle: cuando el plan es ir a un sitio, el inglés suele decir solo \"I'm going to the movies tonight\", sin repetir \"go\". \"I'm going to go to the movies\" también es correcto, pero suena más largo y se oye menos.",
           "En la conversación rápida, \"going to\" se pronuncia muchas veces \"gonna\": \"I'm gonna call her\". Es normal al hablar, pero no lo escribas en un examen ni en un correo formal.",
         ],
         examples: [
           { es: "I'm going to study tonight.", en: "Voy a estudiar esta noche." },
           { es: "I go to the library to study.", en: "Voy a la biblioteca a estudiar (habitualmente)." },
-          { es: "I'm going to the cinema tonight.", en: "Esta noche voy al cine." },
-          { es: "I'm going to go to the cinema tonight.", en: "Esta noche voy a ir al cine." },
+          { es: "I'm going to the movies tonight.", en: "Esta noche voy al cine." },
+          { es: "I'm going to go to the movies tonight.", en: "Esta noche voy a ir al cine." },
           { es: "I'm gonna call her.", en: "La voy a llamar (habla informal)." },
         ],
         checkpoint: [
@@ -73,17 +73,17 @@ export const EN_A2_U09: Lesson[] = [
             direction: "es-en",
             prompt: "Traduce al inglés.",
             source: "Esta noche voy a ir al cine.",
-            answer: "I'm going to the cinema tonight.",
+            answer: "I'm going to the movies tonight.",
             altAnswers: [
               "I'm going to go to the cinema tonight.",
               "Tonight I'm going to the cinema.",
               "Tonight I'm going to go to the cinema.",
-              "I'm going to the movies tonight.",
+              "I'm going to the cinema tonight.",
               "I'm going to go to the movies tonight.",
               "Tonight I'm going to the movies.",
               "Tonight I'm going to go to the movies.",
             ],
-            explanation: "Con el verbo \"go\" lo más natural es \"I'm going to the cinema\", sin repetir \"go\". En Estados Unidos también se dice \"the movies\".",
+            explanation: "Con el verbo \"go\" lo más natural es \"I'm going to the movies\", sin repetir \"go\". En el Reino Unido se dice \"the cinema\".",
           },
         ],
       },
@@ -411,12 +411,12 @@ export const EN_A2_U09: Lesson[] = [
       {
         heading: "Planes con día, hora y lugar",
         body: [
-          "Ya conoces el presente continuo para lo que pasa ahora: \"I'm working\". El inglés también lo usa para el futuro cuando el plan está organizado: has quedado con alguien, tienes el billete, has reservado mesa. \"I'm meeting Ana at six.\"",
+          "Ya conoces el presente continuo para lo que pasa ahora: \"I'm working\". El inglés también lo usa para el futuro cuando el plan está organizado: tienes una cita con alguien, tienes el boleto, has reservado mesa. \"I'm meeting Ana at six.\"",
           "Normalmente va con una expresión de tiempo (\"tomorrow\", \"on Friday\", \"at six\") para que se entienda que hablas del futuro y no de ahora.",
           "Es exactamente lo que harías en tu agenda: si está apuntado, usa el presente continuo.",
         ],
         examples: [
-          { es: "I'm meeting Ana at six.", en: "He quedado con Ana a las seis." },
+          { es: "I'm meeting Ana at six.", en: "Me veo con Ana a las seis." },
           { es: "We're flying to Miami on Friday.", en: "El viernes volamos a Miami." },
           { es: "She's having dinner with her boss tonight.", en: "Esta noche cena con su jefe." },
           { es: "They're getting married in June.", en: "Se casan en junio." },
@@ -451,7 +451,7 @@ export const EN_A2_U09: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Ya tienes el billete. ¿Cómo dices «Mañana voy a Madrid»?",
+            question: "Ya tienes el boleto. ¿Cómo dices «Mañana voy a Madrid»?",
             options: ["I'm going to Madrid tomorrow.", "Tomorrow I go to Madrid.", "I go to Madrid tomorrow.", "Tomorrow I will to go to Madrid."],
             correctIndex: 0,
             explanation: "Plan organizado: presente continuo. El presente simple del español («voy») no se traduce como \"I go\" cuando hablas del futuro.",
@@ -475,7 +475,7 @@ export const EN_A2_U09: Lesson[] = [
           "Con \"go\" y \"come\" se prefiere el presente continuo para no repetir: \"I'm going to the beach\" mejor que \"I'm going to go to the beach\".",
         ],
         examples: [
-          { es: "I'm seeing Tom tomorrow.", en: "Mañana veo a Tom (ya hemos quedado)." },
+          { es: "I'm seeing Tom tomorrow.", en: "Mañana veo a Tom (ya lo acordamos)." },
           { es: "I'm going to see Tom tomorrow.", en: "Mañana voy a ver a Tom." },
           { es: "I'm going to learn Japanese one day.", en: "Algún día voy a aprender japonés." },
           { es: "My sister is coming on Sunday.", en: "Mi hermana viene el domingo." },
@@ -496,10 +496,10 @@ export const EN_A2_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "He quedado con Ana a las seis.",
+        source: "Me veo con Ana a las seis.",
         answer: "I'm meeting Ana at six.",
         altAnswers: ["I'm meeting Ana at six o'clock.", "I'm meeting Ana at 6.", "I'm seeing Ana at six."],
-        explanation: "«Quedar con alguien» es \"meet\" (o \"see\"), y la cita acordada va en presente continuo.",
+        explanation: "«Verse con alguien» es \"meet\" (o \"see\"), y la cita acordada va en presente continuo.",
       },
       {
         type: "translate",
@@ -835,7 +835,7 @@ export const EN_A2_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "En un restaurante, el camarero te pregunta qué quieres. ¿Qué dices?",
+            question: "En un restaurante, el mesero te pregunta qué quieres. ¿Qué dices?",
             options: ["I'll have the chicken, please.", "I have the chicken, please.", "I having the chicken, please.", "I will to have the chicken, please."],
             correctIndex: 0,
             explanation: "Pedir en un restaurante es una decisión del momento: \"I'll have...\". También es muy común \"Can I have...?\".",
@@ -1227,11 +1227,11 @@ export const EN_A2_U09: Lesson[] = [
         body: [
           "Resumen: \"going to\" para intenciones y predicciones con pruebas; el presente continuo para planes ya acordados con otras personas; \"will\" para opiniones, decisiones del momento, ofrecimientos y promesas; y el presente simple para horarios.",
           "El español usa el presente para casi todo esto («mañana voy», «te ayudo», «el tren sale»), así que la pista está en el contexto: ¿lo decidiste antes?, ¿está organizado?, ¿es un horario?, ¿lo decides ahora?",
-          "Compara: \"The train leaves at 6\" (horario). \"I'm catching the 6 o'clock train\" (plan organizado: ya tienes billete). \"I'm going to take the train\" (intención). \"I'll take the train, then\" (decisión del momento).",
+          "Compara: \"The train leaves at 6\" (horario). \"I'm catching the 6 o'clock train\" (plan organizado: ya tienes boleto). \"I'm going to take the train\" (intención). \"I'll take the train, then\" (decisión del momento).",
         ],
         examples: [
           { es: "The train leaves at 6.", en: "El tren sale a las 6 (horario)." },
-          { es: "I'm catching the 6 o'clock train.", en: "Tomo el tren de las 6 (ya tengo el billete)." },
+          { es: "I'm catching the 6 o'clock train.", en: "Tomo el tren de las 6 (ya tengo el boleto)." },
           { es: "I'm going to take the train.", en: "Voy a ir en tren (es mi intención)." },
           { es: "The bus is too slow? OK, I'll take the train, then.", en: "¿El autobús es muy lento? Bueno, entonces voy en tren." },
         ],
@@ -1346,10 +1346,10 @@ export const EN_A2_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "He quedado con Sofia en la estación.",
+        source: "Me veo con Sofia en la estación.",
         answer: "I'm meeting Sofia at the station.",
         altAnswers: ["I'm seeing Sofia at the station.", "I'm going to meet Sofia at the station."],
-        explanation: "Cita acordada: presente continuo. «Quedar con» es \"meet\".",
+        explanation: "Cita acordada: presente continuo. «Verse con» es \"meet\".",
       },
       {
         type: "word-order",
@@ -1588,7 +1588,7 @@ export const EN_A2_U09: Lesson[] = [
         ],
         examples: [
           { es: "I'm going to learn to swim.", en: "Voy a aprender a nadar." },
-          { es: "I'm meeting Tom at five.", en: "He quedado con Tom a las cinco." },
+          { es: "I'm meeting Tom at five.", en: "Me veo con Tom a las cinco." },
           { es: "The bus leaves at 7.", en: "El autobús sale a las 7." },
           { es: "I think you'll like it.", en: "Creo que te gustará." },
         ],
@@ -1774,7 +1774,7 @@ export const EN_A2_U09: Lesson[] = [
         ],
         examples: [
           { es: "Let's go to the beach on Saturday!", en: "¡Vamos a la playa el sábado!" },
-          { es: "We're meeting at the station at ten.", en: "Quedamos en la estación a las diez." },
+          { es: "We're meeting at the station at ten.", en: "Nos vemos en la estación a las diez." },
           { es: "The train leaves at 10:15.", en: "El tren sale a las 10:15." },
           { es: "OK, I'll bring the sandwiches.", en: "Bueno, yo llevo los sándwiches." },
           { es: "Are you coming, Diego?", en: "¿Vienes, Diego?" },
@@ -1830,10 +1830,10 @@ export const EN_A2_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Quedamos en la estación a las diez.",
+        source: "Nos vemos en la estación a las diez.",
         answer: "We're meeting at the station at ten.",
         altAnswers: ["We're meeting at the station at 10.", "We're meeting at the station at ten o'clock."],
-        explanation: "Plan acordado: presente continuo. «Quedar» es \"meet\".",
+        explanation: "Plan acordado: presente continuo. «Verse» es \"meet\".",
       },
       {
         type: "translate",

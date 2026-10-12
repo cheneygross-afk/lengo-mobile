@@ -51,7 +51,7 @@ export const EN_A2_U13_EXTRA: Lesson[] = [
         heading: "Los tres errores de siempre",
         body: [
           "Primero: *do a mistake. Un error es algo que produces, así que es \"make a mistake\". Segundo: *make homework o *make the shopping. Son tareas: \"do homework\", \"do the shopping\". Tercero: *make exercise o *make sport. Lo natural es el verbo directo: \"I exercise\", \"I play sports\"; \"do exercise\" también vale.",
-          "Y recuerda los que no son ni \"make\" ni \"do\": \"ask a question\" (hacer una pregunta), \"take a photo\" (hacer una foto), \"have a party\" (hacer una fiesta).",
+          "Y recuerda los que no son ni \"make\" ni \"do\": \"ask a question\" (hacer una pregunta), \"take a photo\" (tomar una foto), \"have a party\" (hacer una fiesta).",
         ],
         examples: [
           { es: "I made two mistakes.", en: "Cometí dos errores. (incorrecto: *I did two mistakes)" },
@@ -318,8 +318,8 @@ export const EN_A2_U13_EXTRA: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "Can you ___ a photo of us?",
         answer: "take",
-        en: "¿Nos puedes [hacer] una foto?",
-        explanation: "«Hacer» o «sacar una foto» es \"take a photo\", nunca *make a photo ni *do a photo.",
+        en: "¿Nos puedes [tomar] una foto?",
+        explanation: "«Tomar» o «sacar una foto» es \"take a photo\", nunca *make a photo ni *do a photo.",
       },
       {
         type: "multiple-choice",
@@ -396,7 +396,7 @@ export const EN_A2_U13_EXTRA: Lesson[] = [
         sentence: "We ___ a great time at the party.",
         answer: "had",
         en: "[Lo pasamos] genial en la fiesta.",
-        explanation: "«Pasarlo bien» es \"have a good time\" o \"have a great time\"; en pasado, \"had\".",
+        explanation: "«Pasarla bien» o «pasarlo bien» es \"have a good time\" o \"have a great time\"; en pasado, \"had\".",
       },
       {
         type: "word-order",
@@ -486,7 +486,7 @@ export const EN_A2_U13_EXTRA: Lesson[] = [
       {
         heading: "Recordatorio: «ponerse» no es \"put\"",
         body: [
-          "«Ponerse nervioso», «ponerse rojo», «ponerse enfermo» no se dicen con \"put\": \"get nervous\", \"get red\" (o \"blush\"), \"get sick\". Lo mismo con \"get wet\" (mojarse), \"get ready\" (prepararse), \"get old\" (envejecer), \"get better\" (mejorar) y \"get worse\" (empeorar).",
+          "«Ponerse nervioso», «ponerse rojo», «ponerse enfermo» no se dicen con \"put\": \"get nervous\", \"turn red\" (o \"blush\"), \"get sick\". Lo mismo con \"get wet\" (mojarse), \"get ready\" (prepararse), \"get old\" (envejecer), \"get better\" (mejorar) y \"get worse\" (empeorar).",
           "Y «llegar a» es \"get to\" o \"arrive at\" (un lugar) / \"arrive in\" (una ciudad o un país). Nunca *arrive to.",
         ],
         examples: [
@@ -1012,7 +1012,7 @@ export const EN_A2_U13_EXTRA: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "Dijo que no.",
         answer: "He said no.",
-        altAnswers: ["She said no.", "They said no."],
+        altAnswers: ["She said no."],
         explanation: "\"Say\" + lo que se dice, sin persona: \"said no\". *Told no no existe sin la persona.",
       },
       {

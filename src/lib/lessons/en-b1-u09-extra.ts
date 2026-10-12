@@ -283,7 +283,7 @@ export const EN_B1_U09_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "I missed the bus, so I was late. If I hadn't missed the bus, I wouldn't have been late.", en: "Perdí el autobús, así que llegué tarde. Si no lo hubiera perdido, no habría llegado tarde." },
-          { es: "She didn't study, so she failed. If she had studied, she would have passed.", en: "No estudió, así que suspendió. Si hubiera estudiado, habría aprobado." },
+          { es: "She didn't study, so she failed. If she had studied, she would have passed.", en: "No estudió, así que reprobó. Si hubiera estudiado, habría aprobado." },
           { es: "It rained, so we stayed home. If it hadn't rained, we would have gone out.", en: "Llovió, así que nos quedamos en casa. Si no hubiera llovido, habríamos salido." },
           { es: "He didn't call, so I didn't know. If he had called, I would have known.", en: "No llamó, así que no lo supe. Si hubiera llamado, lo habría sabido." },
         ],
@@ -468,7 +468,7 @@ export const EN_B1_U09_EXTRA: Lesson[] = [
         type: "matching",
         instructions: "Match each imaginary sentence with what really happened.",
         pairs: [
-          { left: "If I had studied, I would have passed.", right: "No estudié y suspendí." },
+          { left: "If I had studied, I would have passed.", right: "No estudié y reprobé." },
           { left: "If I hadn't studied, I would have failed.", right: "Estudié y aprobé." },
           { left: "If she had called, I would have answered.", right: "No llamó y no contesté." },
           { left: "If she hadn't called, I wouldn't have known.", right: "Llamó y me enteré." },

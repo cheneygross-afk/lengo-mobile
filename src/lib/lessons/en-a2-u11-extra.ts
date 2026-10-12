@@ -425,7 +425,7 @@ export const EN_A2_U11_EXTRA: Lesson[] = [
         heading: "Recordatorio: proponer un plan",
         body: [
           "\"Let's\" + verbo base: \"Let's go\", nunca *Let's to go. \"How about\" / \"What about\" + -ing (o + sustantivo): \"How about going out?\", nunca *How about go. \"Why don't we\" + verbo base: \"Why don't we take a break?\". \"Shall we\" / \"Should we\" + verbo base: \"Shall we start?\".",
-          "Para responder: \"Good idea!\", \"Sounds good!\", \"Sure, why not?\" o \"I'd rather not\" / \"I'm not sure\" si no te apetece.",
+          "Para responder: \"Good idea!\", \"Sounds good!\", \"Sure, why not?\" o \"I'd rather not\" / \"I'm not sure\" si no tienes ganas.",
         ],
         examples: [
           { es: "Let's order pizza tonight.", en: "Pidamos pizza esta noche. (incorrecto: *Let's to order)" },
@@ -482,7 +482,7 @@ export const EN_A2_U11_EXTRA: Lesson[] = [
         source: "¿Qué tal si nos vemos el sábado?",
         answer: "How about meeting on Saturday?",
         altAnswers: ["What about meeting on Saturday?", "How about meeting up on Saturday?", "What about meeting up on Saturday?", "How about getting together on Saturday?", "How about we meet on Saturday?"],
-        explanation: "\"How about\" + -ing: \"meeting\". «Verse» (quedar con alguien) es \"meet\" o \"meet up\".",
+        explanation: "\"How about\" + -ing: \"meeting\". «Verse» (con alguien) es \"meet\" o \"meet up\".",
       },
       {
         type: "translate",
@@ -599,7 +599,7 @@ export const EN_A2_U11_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Let's meet at the station at nine.",
-        explanation: "\"Let's\" + verbo base: \"Let's meet\". «Quedemos en la estación a las nueve».",
+        explanation: "\"Let's\" + verbo base: \"Let's meet\". «Veámonos en la estación a las nueve».",
       },
     ],
   },

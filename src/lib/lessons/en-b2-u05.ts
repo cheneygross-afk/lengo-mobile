@@ -727,7 +727,7 @@ export const EN_B2_U05: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write four sentences about your plans for the weekend or your last holiday: one first conditional, one second, one third and one mixed. After each one, write in brackets whether it is about now, the future or the past.",
+        prompt: "Write four sentences about your plans for the weekend or your last vacation: one first conditional, one second, one third and one mixed. After each one, write in brackets whether it is about now, the future or the past.",
         minWords: 40,
         maxWords: 100,
         rubric: [
@@ -759,8 +759,8 @@ export const EN_B2_U05: Lesson[] = [
         ],
         examples: [
           { es: "I won't go unless you come with me.", en: "No iré a menos que vengas conmigo." },
-          { es: "We'll miss the train unless we hurry.", en: "Perderemos el tren si no nos damos prisa." },
-          { es: "Unless it rains, we'll play outside.", en: "A menos que llueva, jugaremos fuera." },
+          { es: "We'll miss the train unless we hurry.", en: "Perderemos el tren si no nos apuramos." },
+          { es: "Unless it rains, we'll play outside.", en: "A menos que llueva, jugaremos afuera." },
           { es: "You can't come in unless you have a ticket.", en: "No puedes entrar si no tienes entrada." },
         ],
         checkpoint: [
@@ -870,7 +870,7 @@ export const EN_B2_U05: Lesson[] = [
           "In speech, \"or\" and \"or else\" do the same job: \"Hurry up, or we'll miss the train.\"",
         ],
         examples: [
-          { es: "Hurry up, otherwise we'll miss the train.", en: "Date prisa; si no, perderemos el tren." },
+          { es: "Hurry up, otherwise we'll miss the train.", en: "Apúrate; si no, perderemos el tren." },
           { es: "I wrote it down; otherwise I would have forgotten.", en: "Lo apunté; si no, lo habría olvidado." },
           { es: "Be careful, or you'll fall.", en: "Ten cuidado o te caerás." },
         ],
@@ -892,10 +892,10 @@ export const EN_B2_U05: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Perderemos el tren a menos que nos demos prisa.",
+        source: "Perderemos el tren a menos que nos apuremos.",
         answer: "We'll miss the train unless we hurry.",
         altAnswers: ["We'll miss the train unless we hurry up.", "We'll miss the train if we don't hurry.", "We'll miss the train if we don't hurry up.", "Unless we hurry, we'll miss the train."],
-        explanation: "«A menos que nos demos prisa» = \"unless we hurry\": affirmative verb, present simple.",
+        explanation: "«A menos que nos apuremos» = \"unless we hurry\": affirmative verb, present simple.",
       },
       {
         type: "fill-blank",
@@ -1068,8 +1068,8 @@ export const EN_B2_U05: Lesson[] = [
           "\"In case\" means «por si», not «si». *In case you need help, press the button should be \"If you need help, press the button.\"",
         ],
         examples: [
-          { es: "You'll miss the bus unless you hurry.", en: "Perderás el autobús si no te das prisa. (incorrecto: *unless you don't hurry)" },
-          { es: "If you need help, press the button.", en: "Si necesitas ayuda, pulsa el botón." },
+          { es: "You'll miss the bus unless you hurry.", en: "Perderás el autobús si no te apuras. (incorrecto: *unless you don't hurry)" },
+          { es: "If you need help, press the button.", en: "Si necesitas ayuda, presiona el botón." },
           { es: "I'll bring a sweater in case it gets cold.", en: "Traeré un suéter por si hace frío." },
         ],
         checkpoint: [
@@ -1077,7 +1077,7 @@ export const EN_B2_U05: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Perderás el autobús si no te das prisa.",
+            source: "Perderás el autobús si no te apuras.",
             answer: "You'll miss the bus if you don't hurry.",
             altAnswers: ["You'll miss the bus unless you hurry.", "You'll miss the bus if you don't hurry up.", "You'll miss the bus unless you hurry up."],
             explanation: "Either \"if you don't hurry\" or \"unless you hurry\". Never both negatives together: *unless you don't hurry.",
@@ -1295,7 +1295,7 @@ export const EN_B2_U05: Lesson[] = [
         ],
         examples: [
           { es: "If I had learned to drive, I could drive now.", en: "Si hubiera aprendido a manejar, ahora podría manejar." },
-          { es: "If I were taller, I would have made the basketball team.", en: "Si fuera más alto, habría entrado en el equipo de baloncesto." },
+          { es: "If I were taller, I would have made the basketball team.", en: "Si fuera más alto, habría entrado en el equipo de básquetbol." },
           { es: "If she didn't live so far away, she would have come.", en: "Si no viviera tan lejos, habría venido." },
           { es: "If we hadn't sold the house, we would have somewhere to stay.", en: "Si no hubiéramos vendido la casa, tendríamos dónde quedarnos." },
         ],
@@ -1583,7 +1583,7 @@ export const EN_B2_U05: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Should", "the", "train", "be", "late,", "we", "will", "call", "you."],
-        translation: "Si el tren llegara con retraso, le llamaremos.",
+        translation: "Si el tren llegara con retraso, lo llamaremos.",
         altOrders: [["We", "will", "call", "you", "should", "the", "train", "be", "late."]],
         explanation: "\"Should\" + subject + base form (\"be\"), with no \"if\".",
       },
@@ -1652,7 +1652,7 @@ export const EN_B2_U05: Lesson[] = [
     level: "EN-B2",
     number: 8,
     title: "Dialogue Lab: What If?",
-    summary: "Two friends talk about their life choices. Practise what-if questions with mixed conditionals and the natural spoken forms I'd've and wouldn't've.",
+    summary: "Two friends talk about their life choices. Practice what-if questions with mixed conditionals and the natural spoken forms I'd've and wouldn't've.",
     duration: "12 min",
     sections: [
       {
@@ -1755,7 +1755,7 @@ export const EN_B2_U05: Lesson[] = [
           { es: "Diego: Do you ever think you'd have liked London?", en: "Diego: ¿Alguna vez piensas que te habría gustado Londres?" },
           { es: "Sofia: Maybe. If I weren't so close to my family, I'd have gone with you.", en: "Sofia: Quizás. Si no estuviera tan unida a mi familia, me habría ido contigo." },
           { es: "Diego: And if you'd come, you'd be speaking English all day now!", en: "Diego: ¡Y si hubieras venido, ahora estarías hablando inglés todo el día!" },
-          { es: "Sofia: If I'd known you'd miss me so much, I would've thought about it more.", en: "Sofia: Si hubiera sabido que me echarías tanto de menos, lo habría pensado más." },
+          { es: "Sofia: If I'd known you'd miss me so much, I would've thought about it more.", en: "Sofia: Si hubiera sabido que me extrañarías tanto, lo habría pensado más." },
         ],
         checkpoint: [
           {
@@ -1812,7 +1812,7 @@ export const EN_B2_U05: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "If I'd known you'd miss me so much, I ___ about it more.",
         answer: "would have thought",
-        en: "Si hubiera sabido que me echarías tanto de menos, [lo habría pensado] más.",
+        en: "Si hubiera sabido que me extrañarías tanto, [lo habría pensado] más.",
         explanation: "Past result: \"would have\" + participle \"thought\". «Pensarlo» here is \"think about it\".",
       },
       {

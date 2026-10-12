@@ -1425,7 +1425,7 @@ export const EN_B2_U19: Lesson[] = [
           "For the new life, use \"be used to\" / \"get used to\" + -ing: \"I've gotten used to driving everywhere.\" In the negative, \"I'll never get used to...\" is a very common way to complain.",
         ],
         examples: [
-          { es: "Back home, I used to walk everywhere.", en: "En mi país, iba andando a todas partes." },
+          { es: "Back home, I used to walk everywhere.", en: "En mi país, iba caminando a todas partes." },
           { es: "On Sundays we would have lunch with my grandparents.", en: "Los domingos comíamos con mis abuelos." },
           { es: "I used to have a lot of friends there.", en: "Allí tenía muchos amigos." },
           { es: "I've gotten used to driving everywhere.", en: "Me he acostumbrado a ir en carro a todas partes." },
@@ -1509,7 +1509,7 @@ export const EN_B2_U19: Lesson[] = [
           { es: "I wish my family were here.", en: "Ojalá mi familia estuviera aquí." },
           { es: "I wish I had learned English earlier.", en: "Ojalá hubiera aprendido inglés antes." },
           { es: "I wish people would stop asking me where I'm from.", en: "Ojalá la gente dejara de preguntarme de dónde soy." },
-          { es: "If only I hadn't sold my apartment!", en: "¡Ojalá no hubiera vendido mi piso!" },
+          { es: "If only I hadn't sold my apartment!", en: "¡Ojalá no hubiera vendido mi departamento!" },
         ],
         checkpoint: [
           {
@@ -1691,7 +1691,7 @@ export const EN_B2_U19: Lesson[] = [
         examples: [
           { es: "Smoking is bad for you.", en: "Fumar es malo para la salud." },
           { es: "Eating vegetables is good for your health.", en: "Comer verdura es bueno para la salud." },
-          { es: "Walking to work helps me relax.", en: "Ir andando al trabajo me ayuda a relajarme." },
+          { es: "Walking to work helps me relax.", en: "Caminar al trabajo me ayuda a relajarme." },
           { es: "Not getting enough sleep is dangerous.", en: "No dormir lo suficiente es peligroso." },
           { es: "Checking your phone before bed keeps you awake.", en: "Mirar el celular antes de dormir te quita el sueño." },
         ],
@@ -1772,7 +1772,7 @@ export const EN_B2_U19: Lesson[] = [
         examples: [
           { es: "My grandfather would go for a walk every morning.", en: "Mi abuelo salía a pasear todas las mañanas." },
           { es: "I used to be very lazy.", en: "Antes era muy vago." },
-          { es: "We used to eat a lot of junk food.", en: "Antes comíamos mucha comida basura." },
+          { es: "We used to eat a lot of junk food.", en: "Antes comíamos mucha comida chatarra." },
           { es: "I quit smoking in 2019.", en: "Dejé de fumar en 2019." },
         ],
         checkpoint: [
@@ -2030,12 +2030,12 @@ export const EN_B2_U19: Lesson[] = [
         body: [
           "Make and let in the passive: \"They made me wait\" = \"I was made to wait\". \"They didn't let us leave\" = \"We weren't allowed to leave\".",
           "Finished habits: \"I used to smoke\" = \"I don't smoke any more\" = \"I no longer smoke\" = \"I've stopped smoking\".",
-          "Useful phrases with -ing: \"It's worth visiting\" («merece la pena visitarlo»), \"There's no point in waiting\" («no tiene sentido esperar»), \"It's no use complaining\" («no sirve de nada quejarse»), \"I can't help laughing\" («no puedo evitar reírme»).",
+          "Useful phrases with -ing: \"It's worth visiting\" («vale la pena visitarlo»), \"There's no point in waiting\" («no tiene sentido esperar»), \"It's no use complaining\" («no sirve de nada quejarse»), \"I can't help laughing\" («no puedo evitar reírme»).",
         ],
         examples: [
           { es: "We weren't allowed to leave.", en: "No nos dejaron irnos." },
           { es: "I no longer smoke.", en: "Ya no fumo." },
-          { es: "The museum is worth visiting.", en: "Merece la pena visitar el museo." },
+          { es: "The museum is worth visiting.", en: "Vale la pena visitar el museo." },
           { es: "It's no use complaining.", en: "No sirve de nada quejarse." },
           { es: "I couldn't help laughing.", en: "No pude evitar reírme." },
         ],
@@ -2056,7 +2056,7 @@ export const EN_B2_U19: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Merece la pena visitar el museo.",
+            source: "Vale la pena visitar el museo.",
             answer: "The museum is worth visiting.",
             altAnswers: ["It's worth visiting the museum.", "The museum is worth a visit.", "It is worth visiting the museum."],
             explanation: "\"Worth\" + -ing: \"worth visiting\". Not *worth to visit. Note there is no \"it\" at the end: not *worth visiting it.",
@@ -2069,7 +2069,7 @@ export const EN_B2_U19: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "A pesar de que estudió mucho, suspendió.",
+        source: "A pesar de que estudió mucho, reprobó.",
         answer: "Although he studied a lot, he failed.",
         altAnswers: [
           "Although she studied a lot, she failed.",

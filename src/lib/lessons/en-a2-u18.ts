@@ -1722,7 +1722,7 @@ export const EN_A2_U18: Lesson[] = [
         ],
         examples: [
           { es: "Who has seen my keys?", en: "¿Quién ha visto mis llaves?" },
-          { es: "Who is going to drive?", en: "¿Quién va a manejar? / ¿Quién va a manejar?" },
+          { es: "Who is going to drive?", en: "¿Quién va a manejar?" },
           { es: "Who can help me?", en: "¿Quién me puede ayudar?" },
           { es: "Do you know where she has gone?", en: "¿Sabes adónde ha ido?" },
           { es: "Can you tell me when the train will arrive?", en: "¿Me puede decir cuándo llegará el tren?" },

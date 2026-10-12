@@ -15,20 +15,20 @@ export const EN_B2_U28_EXTRA: Lesson[] = [
     level: "EN-B2",
     number: 1,
     title: "Extra Practice: Phrasal Verbs with get",
-    summary: "Drill get over, get along with, get by, get away with, get around to and get across, and stop translating «superar», «llevarse bien» or «apañárselas» word for word.",
+    summary: "Drill get over, get along with, get by, get away with, get around to and get across, and stop translating «superar», «llevarse bien» or «arreglárselas» word for word.",
     duration: "10 min",
     sections: [
       {
         heading: "Quick recap: six phrasal verbs with get",
         body: [
-          "\"Get over\" something is to recover from it («superar»): an illness, a breakup, a shock. \"Get along with\" (UK also \"get on with\") someone is «llevarse bien con». \"Get by\" is to manage with little money, time or language («apañárselas»).",
+          "\"Get over\" something is to recover from it («superar»): an illness, a breakup, a shock. \"Get along with\" (UK also \"get on with\") someone is «llevarse bien con». \"Get by\" is to manage with little money, time or language («arreglárselas»).",
           "\"Get away with\" something is to do something wrong and not be punished («salirse con la suya», «librarse»); it takes a noun, \"it\" or an -ing form. \"Get around to\" (UK \"get round to\") doing something is to finally find time for it. \"Get across\" an idea is to make people understand it.",
           "Spanish speakers often translate literally: *I superated the breakup, *I carry me well with him, *I arrange myself. Learn the English verb as a whole block.",
         ],
         examples: [
           { es: "It took her months to get over the breakup.", en: "Tardó meses en superar la ruptura. (incorrecto: *superate)" },
           { es: "Do you get along with your neighbors?", en: "¿Te llevas bien con tus vecinos?" },
-          { es: "We don't earn much, but we get by.", en: "No ganamos mucho, pero nos las apañamos." },
+          { es: "We don't earn much, but we get by.", en: "No ganamos mucho, pero nos las arreglamos." },
           { es: "He cheated and got away with it.", en: "Hizo trampa y se salió con la suya." },
           { es: "I finally got around to cleaning the garage.", en: "Por fin saqué tiempo para limpiar el garaje." },
           { es: "She used pictures to get her message across.", en: "Usó imágenes para transmitir su mensaje." },
@@ -83,18 +83,18 @@ export const EN_B2_U28_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Hablo suficiente inglés para apañármelas.",
+        source: "Hablo suficiente inglés para arreglármelas.",
         answer: "I speak enough English to get by.",
         altAnswers: [
           "I know enough English to get by.",
           "My English is good enough to get by.",
           "I can speak enough English to get by.",
         ],
-        explanation: "«Apañárselas» with limited resources is \"get by\". Not *arrange myself.",
+        explanation: "«Arreglárselas» with limited resources is \"get by\". Not *arrange myself.",
       },
       {
         type: "multiple-choice",
-        question: "«Rompió la ventana y no le castigaron.» Which is the natural English?",
+        question: "«Rompió la ventana y no lo castigaron.» Which is the natural English?",
         options: [
           "He broke the window and got away with it.",
           "He broke the window and got over it.",
@@ -208,7 +208,7 @@ export const EN_B2_U28_EXTRA: Lesson[] = [
         pairs: [
           { left: "get over", right: "superar, recuperarse de" },
           { left: "get along with", right: "llevarse bien con" },
-          { left: "get by", right: "apañárselas" },
+          { left: "get by", right: "arreglárselas" },
           { left: "get away with", right: "salirse con la suya" },
           { left: "get around to", right: "sacar tiempo para" },
           { left: "get across", right: "transmitir, hacer entender" },
@@ -219,7 +219,7 @@ export const EN_B2_U28_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Durante un año nos apañamos con un solo carro.",
+        source: "Durante un año nos arreglamos con un solo carro.",
         answer: "For a year we got by with just one car.",
         altAnswers: [
           "For a year we got by with only one car.",
@@ -318,12 +318,12 @@ export const EN_B2_U28_EXTRA: Lesson[] = [
         audio: "Money's tight this month, but we'll get by.",
         question: "What did you hear?",
         options: [
-          "Este mes vamos justos de dinero, pero nos las apañaremos.",
+          "Este mes vamos justos de dinero, pero nos las arreglaremos.",
           "Este mes nos han subido el sueldo, así que lo superaremos.",
           "Este mes no tenemos dinero y no podremos pasar.",
         ],
         correctIndex: 0,
-        explanation: "\"Money's tight\" is «vamos justos de dinero», and \"we'll get by\" is «nos las apañaremos».",
+        explanation: "\"Money's tight\" is «vamos justos de dinero», and \"we'll get by\" is «nos las arreglaremos».",
       },
       {
         type: "speak",
@@ -710,7 +710,7 @@ export const EN_B2_U28_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Who's going to look after the plants while we're away?", en: "¿Quién va a cuidar las plantas mientras estamos fuera?" },
-          { es: "I'm looking for my glasses. Have you seen them?", en: "Estoy buscando mis gafas. ¿Las has visto?" },
+          { es: "I'm looking for my glasses. Have you seen them?", en: "Estoy buscando mis lentes. ¿Los has visto?" },
           { es: "I came across this photo in a drawer.", en: "Me encontré esta foto en un cajón." },
           { es: "Don't worry, I'll deal with it.", en: "No te preocupes, yo me encargo. (incorrecto: *deal it with)" },
           { es: "I can't put up with it any more.", en: "Ya no lo aguanto más." },
@@ -1388,11 +1388,11 @@ export const EN_B2_U28_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: take and have",
         body: [
-          "English chooses the verb by the noun, and it often isn't the Spanish one. «Hacer una foto» is \"take a photo\" (or \"take a picture\"), never *make a photo. «Tomar asiento» is \"take a seat\", and «tomar una decisión» is usually \"make a decision\".",
+          "English chooses the verb by the noun, and it often isn't the Spanish one. «Tomar una foto» is \"take a photo\" (or \"take a picture\"), never *make a photo. «Tomar asiento» is \"take a seat\", and «tomar una decisión» is usually \"make a decision\".",
           "«Ducharse» is \"take a shower\" in American English and \"have a shower\" in British English; both are correct, and so is the verb \"shower\". Meals use \"have\": \"have breakfast\", \"have lunch\". *Take breakfast sounds wrong.",
         ],
         examples: [
-          { es: "Could you take a photo of us?", en: "¿Nos podrías hacer una foto? (incorrecto: *make a photo)" },
+          { es: "Could you take a photo of us?", en: "¿Nos podrías tomar una foto? (incorrecto: *make a photo)" },
           { es: "Please take a seat.", en: "Tome asiento, por favor." },
           { es: "I'll take a quick shower and then we can go.", en: "Me doy una ducha rápida y nos vamos." },
           { es: "We usually have lunch at two.", en: "Normalmente comemos a las dos." },
@@ -1762,7 +1762,7 @@ export const EN_B2_U28_EXTRA: Lesson[] = [
           { es: "Someone stole my phone at the concert.", en: "Me robaron el celular en el concierto." },
           { es: "Two men robbed a jewelry store downtown.", en: "Dos hombres atracaron una joyería en el centro." },
           { es: "Could you lend me your car this weekend?", en: "¿Me prestas el carro este fin de semana?" },
-          { es: "Can I borrow your pen for a second?", en: "¿Me dejas el boli un segundo?" },
+          { es: "Can I borrow your pen for a second?", en: "¿Me prestas la pluma un segundo?" },
           { es: "Nurses don't earn enough.", en: "Las enfermeras no ganan lo suficiente." },
         ],
         checkpoint: [

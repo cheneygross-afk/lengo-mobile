@@ -89,7 +89,7 @@ export const EN_B2_U03: Lesson[] = [
           "\"Going to\" is often possible too, but the present continuous sounds more fixed: the plan is already in the calendar.",
         ],
         examples: [
-          { es: "I'm meeting Ana on Friday.", en: "He quedado con Ana el viernes." },
+          { es: "I'm meeting Ana on Friday.", en: "Voy a verme con Ana el viernes." },
           { es: "We're flying to Cancun on Monday.", en: "Volamos a Cancún el lunes." },
           { es: "I'm playing tennis with Tom on Saturday.", en: "El sábado juego al tenis con Tom." },
           { es: "What are you doing tonight?", en: "¿Qué haces esta noche?" },
@@ -177,7 +177,7 @@ export const EN_B2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend asks: «¿Quedamos el jueves?» You already have plans with your sister. What do you say?",
+        question: "A friend asks: «¿Nos vemos el jueves?» You already have plans with your sister. What do you say?",
         options: [
           "Sorry, I'm seeing my sister on Thursday.",
           "Sorry, I see my sister on Thursday.",
@@ -225,7 +225,7 @@ export const EN_B2_U03: Lesson[] = [
         audio: "We're meeting them at the airport at ten.",
         question: "What did you hear?",
         options: [
-          "Hemos quedado con ellos en el aeropuerto a las diez.",
+          "Vamos a vernos con ellos en el aeropuerto a las diez.",
           "Nos vemos con ellos en el aeropuerto a las dos.",
           "Los conocimos en el aeropuerto a las diez.",
           "Vamos a reunirnos con ellos en la oficina a las diez.",
@@ -402,7 +402,7 @@ export const EN_B2_U03: Lesson[] = [
           "\"Be due to\" + base verb means something is scheduled or expected at a certain time: \"The plane is due to land at seven.\" With a time or date alone, just use \"due\": \"The baby is due in May\", \"The report is due on Monday.\"",
         ],
         examples: [
-          { es: "Hurry up! The movie is about to start.", en: "¡Date prisa! La película está a punto de empezar." },
+          { es: "Hurry up! The movie is about to start.", en: "¡Apúrate! La película está a punto de empezar." },
           { es: "I'm about to leave. Can I call you later?", en: "Estoy a punto de salir. ¿Te llamo luego?" },
           { es: "The plane is due to land at seven.", en: "Está previsto que el avión aterrice a las siete." },
           { es: "The baby is due in May.", en: "El bebé nacerá en mayo (fecha prevista)." },
@@ -506,7 +506,7 @@ export const EN_B2_U03: Lesson[] = [
         sentence: "Hurry up! The concert is ___ start.",
         answer: "about to",
         altAnswers: ["just about to"],
-        en: "¡Date prisa! El concierto está [a punto de] empezar.",
+        en: "¡Apúrate! El concierto está [a punto de] empezar.",
         explanation: "«A punto de» is \"about to\" + base verb.",
       },
       {
@@ -696,7 +696,7 @@ export const EN_B2_U03: Lesson[] = [
         ],
         examples: [
           { es: "Should I open the window?", en: "¿Abro la ventana?" },
-          { es: "I'll do the dishes.", en: "Yo friego los platos." },
+          { es: "I'll do the dishes.", en: "Yo lavo los platos." },
           { es: "Will you help me with this box?", en: "¿Me ayudas con esta caja?" },
           { es: "The car won't start.", en: "El carro no arranca." },
           { es: "He won't listen to me.", en: "No me hace caso." },
@@ -866,7 +866,7 @@ export const EN_B2_U03: Lesson[] = [
           { es: "I'll call you when I arrive.", en: "Te llamaré cuando llegue." },
           { es: "When I arrive, I'll call you.", en: "Cuando llegue, te llamaré." },
           { es: "When she finds out, she'll be furious.", en: "Cuando se entere, se pondrá furiosa." },
-          { es: "What will you do when you finish high school?", en: "¿Qué harás cuando termines el instituto?" },
+          { es: "What will you do when you finish high school?", en: "¿Qué harás cuando termines la preparatoria?" },
           { es: "We'll talk about it when you're older.", en: "Ya hablaremos de eso cuando seas mayor." },
         ],
         checkpoint: [
@@ -952,9 +952,9 @@ export const EN_B2_U03: Lesson[] = [
         ],
         examples: [
           { es: "I'll call you once I've finished.", en: "Te llamaré una vez que haya terminado." },
-          { es: "You can go out when you've done your homework.", en: "Puedes salir cuando hayas hecho los deberes." },
+          { es: "You can go out when you've done your homework.", en: "Puedes salir cuando hayas hecho la tarea." },
           { es: "As soon as I've saved enough, I'll buy a car.", en: "En cuanto haya ahorrado lo suficiente, me compraré un carro." },
-          { es: "Don't decide until you've seen the apartment.", en: "No decidas hasta que hayas visto el piso." },
+          { es: "Don't decide until you've seen the apartment.", en: "No decidas hasta que hayas visto el departamento." },
           { es: "After you've read it, give it back to me.", en: "Cuando lo hayas leído, devuélvemelo." },
         ],
         checkpoint: [
@@ -964,7 +964,7 @@ export const EN_B2_U03: Lesson[] = [
             sentence: "You can go out when you ___ your homework.",
             answer: "have done",
             altAnswers: ["have finished"],
-            en: "Puedes salir cuando [hayas hecho] los deberes.",
+            en: "Puedes salir cuando [hayas hecho] la tarea.",
             explanation: "«Hayas hecho» becomes the present perfect, \"have done\". Homework is \"done\", not *made.",
           },
           {
@@ -1088,7 +1088,7 @@ export const EN_B2_U03: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No decidas nada hasta que hayas visto el piso.",
+        source: "No decidas nada hasta que hayas visto el departamento.",
         answer: "Don't decide anything until you've seen the apartment.",
         altAnswers: [
           "Don't decide anything until you see the apartment.",
@@ -1098,7 +1098,7 @@ export const EN_B2_U03: Lesson[] = [
           "Don't make any decisions until you see the apartment.",
           "Don't make a decision until you've seen the apartment.",
         ],
-        explanation: "«Hasta que hayas visto» becomes \"until you've seen\" (or \"until you see\"). In American English «piso» is \"apartment\"; \"flat\" is British.",
+        explanation: "«Hasta que hayas visto» becomes \"until you've seen\" (or \"until you see\"). «Departamento» is \"apartment\" (British \"flat\").",
       },
       {
         type: "fill-blank",
@@ -1975,7 +1975,7 @@ export const EN_B2_U03: Lesson[] = [
         sentence: "I ___ you up at seven, OK?",
         answer: "will pick",
         altAnswers: ["can pick"],
-        en: "Te [recojo] a las siete, ¿vale?",
+        en: "Te [recojo] a las siete, ¿está bien?",
         explanation: "An offer: \"I'll pick you up\". \"I pick you up at seven\" is a direct copy of the Spanish present.",
       },
       {
@@ -2362,7 +2362,7 @@ export const EN_B2_U03: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«De niña iba al colegio andando.» Choose the correct translation.",
+            question: "«De niña iba al colegio caminando.» Choose the correct translation.",
             options: [
               "As a child, I used to walk to school.",
               "As a child, I was going to walk to school.",
@@ -2935,7 +2935,7 @@ export const EN_B2_U03: Lesson[] = [
         ],
         examples: [
           { es: "I'll help you.", en: "Te ayudo." },
-          { es: "I'm meeting Carlos at six.", en: "He quedado con Carlos a las seis." },
+          { es: "I'm meeting Carlos at six.", en: "Voy a verme con Carlos a las seis." },
           { es: "By Friday I'll have finished.", en: "Para el viernes habré terminado." },
           { es: "This time tomorrow I'll be driving to Boston.", en: "Mañana a esta hora estaré manejando hacia Boston." },
           { es: "I was going to call you.", en: "Iba a llamarte." },
@@ -3130,7 +3130,7 @@ export const EN_B2_U03: Lesson[] = [
         sentence: "The train is ___ leave. Hurry up!",
         answer: "about to",
         altAnswers: ["just about to"],
-        en: "El tren está [a punto de] salir. ¡Date prisa!",
+        en: "El tren está [a punto de] salir. ¡Apúrate!",
         explanation: "«A punto de» is \"about to\" + base verb.",
       },
       {

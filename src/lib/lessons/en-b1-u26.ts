@@ -92,7 +92,7 @@ export const EN_B1_U26: Lesson[] = [
         examples: [
           { es: "Can you pick me up from the airport?", en: "¿Me puedes recoger en el aeropuerto?" },
           { es: "He picked the phone up and said hello.", en: "Contestó el teléfono y dijo hola." },
-          { es: "Put your glasses on. You can't see anything.", en: "Ponte las gafas. No ves nada." },
+          { es: "Put your glasses on. You can't see anything.", en: "Ponte los lentes. No ves nada." },
           { es: "I'm wearing a jacket.", en: "Llevo una chaqueta puesta." },
           { es: "The plane took off at six.", en: "El avión despegó a las seis." },
         ],
@@ -197,7 +197,7 @@ export const EN_B1_U26: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["She", "took", "her", "glasses", "off."],
-        translation: "Se quitó las gafas.",
+        translation: "Se quitó los lentes.",
         altOrders: [["She", "took", "off", "her", "glasses."]],
         explanation: "With a noun object, both orders are fine: \"took her glasses off\" or \"took off her glasses\".",
       },
@@ -358,7 +358,7 @@ export const EN_B1_U26: Lesson[] = [
           { es: "I'm looking for it.", en: "Lo estoy buscando." },
           { es: "She got over it quickly.", en: "Lo superó rápido." },
           { es: "I can't put up with him.", en: "No lo aguanto." },
-          { es: "I'm looking forward to it.", en: "Tengo ganas. / Me hace mucha ilusión." },
+          { es: "I'm looking forward to it.", en: "Tengo ganas. / ¡Qué emoción!" },
         ],
         checkpoint: [
           {
@@ -522,21 +522,21 @@ export const EN_B1_U26: Lesson[] = [
         body: [
           "\"Tidy up\" is «ordenar» a room or a house. In American English people often say \"clean up\" or \"pick up\" for this: \"Pick up your toys!\" Use \"clean up\" when there's dirt or a mess: \"Clean up the kitchen after dinner.\"",
           "\"Throw away\" (or \"throw out\") is «tirar a la basura». It's separable: \"throw the old shoes away\", \"throw them away\". Don't say *throw it to the trash: \"throw it in the trash\" or simply \"throw it away\".",
-          "A small trap: \"wash up\" in British English is «fregar los platos», but in American English it means «lavarse las manos y la cara». For dishes, Americans say \"do the dishes\".",
+          "A small trap: \"wash up\" in British English is «lavar los platos», but in American English it means «lavarse las manos y la cara». For dishes, Americans say \"do the dishes\".",
         ],
         examples: [
           { es: "Please tidy up your room before your grandma arrives.", en: "Por favor, ordena tu cuarto antes de que llegue tu abuela." },
           { es: "Can you help me clean up the kitchen?", en: "¿Me ayudas a limpiar la cocina?" },
           { es: "I threw away all my old notes.", en: "Tiré todos mis apuntes viejos." },
           { es: "That milk is bad. Throw it out.", en: "Esa leche está mala. Tírala." },
-          { es: "I'll cook if you do the dishes.", en: "Yo cocino si tú friegas los platos." },
+          { es: "I'll cook if you do the dishes.", en: "Yo cocino si tú lavas los platos." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Este yogur está caducado. Tíralo.",
+            source: "Este yogur está vencido. Tíralo.",
             answer: "This yogurt is out of date. Throw it away.",
             altAnswers: [
               "This yogurt has expired. Throw it away.",
@@ -603,7 +603,7 @@ export const EN_B1_U26: Lesson[] = [
           "For a computer or phone, you'll also hear \"install\" (for programs) and \"configure\" (more technical). In everyday speech, \"set up\" is the most natural.",
         ],
         examples: [
-          { es: "We set up the tent next to the lake.", en: "Montamos la tienda junto al lago." },
+          { es: "We set up the tent next to the lake.", en: "Armamos la carpa junto al lago." },
           { es: "Can you help me set up my new phone?", en: "¿Me ayudas a configurar mi teléfono nuevo?" },
           { es: "She set up her own company at twenty-five.", en: "Montó su propia empresa a los veinticinco años." },
           { es: "I set it up last night.", en: "Lo instalé anoche." },
@@ -652,7 +652,7 @@ export const EN_B1_U26: Lesson[] = [
       {
         type: "multiple-choice",
         question: "An American friend says: \"I'm going to wash up before dinner.\" What does she mean?",
-        options: ["Se va a lavar las manos.", "Va a fregar los platos.", "Va a lavar la ropa.", "Va a ducharse."],
+        options: ["Se va a lavar las manos.", "Va a lavar los platos.", "Va a lavar la ropa.", "Va a ducharse."],
         correctIndex: 0,
         explanation: "In American English \"wash up\" is washing your hands and face. In British English it's doing the dishes.",
       },
@@ -862,7 +862,7 @@ export const EN_B1_U26: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "«Entregué los deberes tarde.» Which is correct?",
+            question: "«Entregué la tarea tarde.» Which is correct?",
             options: ["I handed in my homework late.", "I delivered my homework late.", "I handed my homeworks in late.", "I gave in my homework late."],
             correctIndex: 0,
             explanation: "\"Hand in\" (or \"turn in\") is the verb for giving work to a teacher. \"Deliver\" is for packages, and \"homework\" has no plural.",
@@ -875,7 +875,7 @@ export const EN_B1_U26: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Te llevas bien con tus compañeros de piso?",
+        source: "¿Te llevas bien con tus compañeros de departamento?",
         answer: "Do you get along with your roommates?",
         altAnswers: [
           "Do you get on with your roommates?",
@@ -886,7 +886,7 @@ export const EN_B1_U26: Lesson[] = [
           "Do you get on well with your flatmates?",
           "Do you get along well with your flatmates?",
         ],
-        explanation: "\"Get along with\" (AmE) or \"get on with\" (BrE). A «compañero de piso» is a \"roommate\" in the US and a \"flatmate\" in the UK.",
+        explanation: "\"Get along with\" (AmE) or \"get on with\" (BrE). A «compañero de departamento» is a \"roommate\" in the US and a \"flatmate\" in the UK.",
       },
       {
         type: "translate",
@@ -1007,7 +1007,7 @@ export const EN_B1_U26: Lesson[] = [
         ],
         examples: [
           { es: "I made a cake for her birthday.", en: "Hice un pastel para su cumpleaños." },
-          { es: "Have you done your homework?", en: "¿Has hecho los deberes?" },
+          { es: "Have you done your homework?", en: "¿Has hecho la tarea?" },
           { es: "I didn't do anything last weekend.", en: "No hice nada el fin de semana pasado." },
           { es: "Who does the cooking in your house?", en: "¿Quién cocina en tu casa?" },
           { es: "She's making dinner.", en: "Está haciendo la cena." },
@@ -1026,7 +1026,7 @@ export const EN_B1_U26: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "My dad ___ the best pancakes in the world.",
             answer: "makes",
-            en: "Mi padre [hace] las mejores tortitas del mundo.",
+            en: "Mi padre [hace] los mejores panqueques del mundo.",
             explanation: "Food is produced, so \"make\", with third-person -s: \"makes\".",
           },
         ],
@@ -1103,12 +1103,12 @@ export const EN_B1_U26: Lesson[] = [
       {
         heading: "When «hacer» is neither",
         body: [
-          "Many Spanish expressions with «hacer» use a different verb in English. «Hacer una foto» is \"take a photo\", not *make a photo. «Hacer una pregunta» is \"ask a question\". «Hacer una fiesta» is \"have a party\" or \"throw a party\".",
+          "Many Spanish expressions with «hacer» use a different verb in English. «Hacer una pregunta» is \"ask a question\". «Hacer una fiesta» is \"have a party\" or \"throw a party\".",
           "«Hacer deporte» is the trickiest. *Make sport is wrong. In American English say \"play sports\" or \"work out\" / \"exercise\"; in British English \"do sport\". «Hacer un viaje» is \"take a trip\" or \"go on a trip\".",
           "And weather and time: «hace frío» is \"it's cold\", «hace dos años» is \"two years ago\". No \"make\" or \"do\" at all.",
         ],
         examples: [
-          { es: "Can I take a photo?", en: "¿Puedo hacer una foto?" },
+          { es: "Can I take a photo?", en: "¿Puedo tomar una foto?" },
           { es: "Can I ask you a question?", en: "¿Te puedo hacer una pregunta?" },
           { es: "We're having a party on Saturday.", en: "Hacemos una fiesta el sábado." },
           { es: "I play a lot of sports. / I work out a lot.", en: "Hago mucho deporte." },
@@ -1118,10 +1118,10 @@ export const EN_B1_U26: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«¿Nos haces una foto?» Which is correct?",
+            question: "«¿Nos tomas una foto?» Which is correct?",
             options: ["Can you take a photo of us?", "Can you make a photo of us?", "Can you do us a photo?", "Can you make us a photo?"],
             correctIndex: 0,
-            explanation: "«Hacer una foto» is \"take a photo\" (or \"take a picture\"). *Make a photo is a direct translation.",
+            explanation: "«Tomar una foto» is \"take a photo\" (or \"take a picture\"). *Make a photo is a direct translation.",
           },
           {
             type: "translate",
@@ -1173,7 +1173,7 @@ export const EN_B1_U26: Lesson[] = [
         sentence: "Who ___ the dishes in your house?",
         answer: "does",
         altAnswers: ["washes"],
-        en: "¿Quién [friega] los platos en tu casa?",
+        en: "¿Quién [lava] los platos en tu casa?",
         explanation: "Housework takes \"do\": \"do the dishes\", \"do the laundry\". With \"who\" as subject there's no auxiliary: \"Who does...?\".",
       },
       {
@@ -1196,7 +1196,7 @@ export const EN_B1_U26: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Hicimos muchas fotos en Roma.",
+        source: "Tomamos muchas fotos en Roma.",
         answer: "We took a lot of photos in Rome.",
         altAnswers: ["We took lots of photos in Rome.", "We took a lot of pictures in Rome.", "We took lots of pictures in Rome.", "We took many photos in Rome.", "We took many pictures in Rome."],
         explanation: "Photos are \"taken\": take, took, taken. *We made photos sounds like you printed or created them.",
@@ -1207,7 +1207,7 @@ export const EN_B1_U26: Lesson[] = [
         pairs: [
           { left: "make an effort", right: "esforzarse" },
           { left: "make an appointment", right: "pedir cita" },
-          { left: "do the shopping", right: "hacer la compra" },
+          { left: "do the shopping", right: "hacer las compras" },
           { left: "do business", right: "hacer negocios" },
           { left: "make friends", right: "hacer amigos" },
         ],
@@ -1301,7 +1301,7 @@ export const EN_B1_U26: Lesson[] = [
         examples: [
           { es: "I get nervous before exams.", en: "Me pongo nervioso antes de los exámenes." },
           { es: "Don't get angry with me.", en: "No te enojes conmigo." },
-          { es: "It gets dark very early in winter.", en: "En invierno oscurece muy pronto." },
+          { es: "It gets dark very early in winter.", en: "En invierno oscurece muy temprano." },
           { es: "Your English is getting better and better.", en: "Tu inglés está mejorando cada vez más." },
           { es: "The kids got bored after an hour.", en: "Los niños se aburrieron después de una hora." },
         ],
@@ -1367,10 +1367,10 @@ export const EN_B1_U26: Lesson[] = [
           "\"Get\" + participle can work like an informal passive: \"He got fired\" = \"He was fired\". It often suggests something unexpected or bad.",
         ],
         examples: [
-          { es: "Hurry up and get dressed!", en: "¡Date prisa y vístete!" },
+          { es: "Hurry up and get dressed!", en: "¡Apúrate y vístete!" },
           { es: "They got married last summer.", en: "Se casaron el verano pasado." },
           { es: "She married a doctor.", en: "Se casó con un médico." },
-          { es: "We got lost in the old town.", en: "Nos perdimos en el casco antiguo." },
+          { es: "We got lost in the old town.", en: "Nos perdimos en el centro histórico." },
           { es: "He got fired for being late every day.", en: "Lo despidieron por llegar tarde todos los días." },
         ],
         checkpoint: [
@@ -1540,8 +1540,8 @@ export const EN_B1_U26: Lesson[] = [
           "What about decisions? \"Make a decision\" is the standard form in all varieties. \"Take a decision\" exists in British English, but \"make\" is always correct and is what you'll hear in the US.",
         ],
         examples: [
-          { es: "Can you take a picture of us?", en: "¿Nos puedes hacer una foto?" },
-          { es: "I'm taking my driving test on Monday.", en: "El lunes hago el examen de manejar." },
+          { es: "Can you take a picture of us?", en: "¿Nos puedes tomar una foto?" },
+          { es: "I'm taking my driving test on Monday.", en: "El lunes hago el examen de manejo." },
           { es: "Please take a seat.", en: "Siéntese, por favor." },
           { es: "It takes forty minutes to get to work.", en: "Se tarda cuarenta minutos en llegar al trabajo." },
           { es: "Thirty students took part in the competition.", en: "Treinta estudiantes participaron en el concurso." },
@@ -1768,7 +1768,7 @@ export const EN_B1_U26: Lesson[] = [
         examples: [
           { es: "I made a decision.", en: "He tomado una decisión." },
           { es: "She's doing a course.", en: "Está haciendo un curso." },
-          { es: "We took a lot of photos.", en: "Hicimos muchas fotos." },
+          { es: "We took a lot of photos.", en: "Tomamos muchas fotos." },
           { es: "They got married in June.", en: "Se casaron en junio." },
         ],
         checkpoint: [
@@ -1826,7 +1826,7 @@ export const EN_B1_U26: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi hermana está haciendo un máster en Londres.",
+        source: "Mi hermana está haciendo una maestría en Londres.",
         answer: "My sister is doing a master's in London.",
         altAnswers: ["My sister is doing a master's degree in London.", "My sister is studying for a master's in London.", "My sister is studying for a master's degree in London.", "My sister is getting a master's in London.", "My sister is getting her master's in London.", "My sister is doing her master's in London.", "My sister is doing a masters in London."],
         explanation: "Studies take \"do\": \"do a course\", \"do a master's\". Not *make a master.",
@@ -1851,7 +1851,7 @@ export const EN_B1_U26: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Ana y Tom se llevan fatal.» Which is correct?",
+        question: "«Ana y Tom se llevan muy mal.» Which is correct?",
         options: ["Ana and Tom don't get on at all.", "Ana and Tom carry very badly.", "Ana and Tom get on bad with.", "Ana and Tom don't put up at all."],
         correctIndex: 0,
         explanation: "\"Get on\" (or \"get along\") = «llevarse bien». Without an object, there's no \"with\".",
@@ -1892,7 +1892,7 @@ export const EN_B1_U26: Lesson[] = [
         type: "listen-choose",
         audio: "Could you do me a favor and take a photo of us?",
         question: "What does it mean?",
-        options: ["¿Me haces el favor de hacernos una foto?", "¿Me haces un favor y nos mandas una foto?", "¿Nos haces una foto de favor?", "¿Puedes hacerme una foto a mí?"],
+        options: ["¿Me haces el favor de tomarnos una foto?", "¿Me haces un favor y nos mandas una foto?", "¿Nos tomas una foto de favor?", "¿Puedes tomarme una foto a mí?"],
         correctIndex: 0,
         explanation: "\"Do me a favor\" + \"take a photo of us\": two collocations in one sentence.",
       },
@@ -1914,7 +1914,7 @@ export const EN_B1_U26: Lesson[] = [
         ],
         examples: [
           { es: "WRONG: I did a mistake. RIGHT: I made a mistake.", en: "Cometí un error." },
-          { es: "WRONG: She made a photo. RIGHT: She took a photo.", en: "Hizo una foto." },
+          { es: "WRONG: She made a photo. RIGHT: She took a photo.", en: "Tomó una foto." },
           { es: "WRONG: I make a lot of sport. RIGHT: I play a lot of sports.", en: "Hago mucho deporte." },
           { es: "WRONG: Can you make me a favor? RIGHT: Can you do me a favor?", en: "¿Me haces un favor?" },
           { es: "WRONG: Can I make you a question? RIGHT: Can I ask you a question?", en: "¿Te puedo hacer una pregunta?" },
@@ -2084,7 +2084,7 @@ export const EN_B1_U26: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["She", "took", "a", "photo", "and", "recorded", "a", "video."],
-        translation: "Hizo una foto y grabó un vídeo.",
+        translation: "Tomó una foto y grabó un vídeo.",
         altOrders: [["She", "recorded", "a", "video", "and", "took", "a", "photo."]],
         explanation: "Photos are \"taken\", not *made. «Grabar» a video is \"record\" (or \"make\" / \"shoot\").",
       },
@@ -2099,7 +2099,7 @@ export const EN_B1_U26: Lesson[] = [
     slug: "b1-dialogue-flatmates",
     level: "EN-B1",
     number: 10,
-    title: "Dialogue Lab: Sorting It Out with Flatmates",
+    title: "Dialogue Lab: Sorting It Out with Roommates",
     summary: "Three roommates have a house meeting about cleaning, shopping and noise. Follow the conversation and learn how phrasal verbs make a discussion sound natural.",
     duration: "11 min",
     sections: [
@@ -2144,11 +2144,11 @@ export const EN_B1_U26: Lesson[] = [
           "To propose a solution politely, English often uses \"Why don't we...?\" or \"How about...?\" + -ing.",
         ],
         examples: [
-          { es: "Tom: Fair enough. But we keep running out of things too.", en: "Vale, es justo. Pero también nos quedamos sin cosas todo el rato." },
+          { es: "Tom: Fair enough. But we keep running out of things too.", en: "Está bien, es justo. Pero también nos quedamos sin cosas todo el tiempo." },
           { es: "Tom: Someone used up all the milk and didn't buy more.", en: "Alguien se terminó toda la leche y no compró más." },
           { es: "Emma: Oops, that was me. Sorry.", en: "Uy, fui yo. Perdón." },
-          { es: "Tom: Why don't we set up a shared shopping list on our phones?", en: "¿Por qué no creamos una lista de la compra compartida en el celular?" },
-          { es: "Emma: Good idea. And we could take turns doing the shopping.", en: "Buena idea. Y podríamos turnarnos para hacer la compra." },
+          { es: "Tom: Why don't we set up a shared shopping list on our phones?", en: "¿Por qué no creamos una lista de compras compartida en el celular?" },
+          { es: "Emma: Good idea. And we could take turns doing the shopping.", en: "Buena idea. Y podríamos turnarnos para hacer las compras." },
         ],
         checkpoint: [
           {
@@ -2166,7 +2166,7 @@ export const EN_B1_U26: Lesson[] = [
             sentence: "We could ___ doing the shopping.",
             answer: "take turns",
             altAnswers: ["take it in turns"],
-            en: "Podríamos [turnarnos para] hacer la compra.",
+            en: "Podríamos [turnarnos para] hacer las compras.",
             explanation: "\"Take turns\" + -ing = «turnarse para». British speakers also say \"take it in turns\".",
           },
         ],
@@ -2182,7 +2182,7 @@ export const EN_B1_U26: Lesson[] = [
           { es: "Emma: Tom, your music kept me up until two last night.", en: "Tom, tu música no me dejó dormir hasta las dos anoche." },
           { es: "Emma: I can't put up with that every night.", en: "No puedo aguantar eso todas las noches." },
           { es: "Tom: You're right. I'll turn it down after eleven.", en: "Tienes razón. La bajaré a partir de las once." },
-          { es: "Tom: Or I'll put my headphones on.", en: "O me pondré los cascos." },
+          { es: "Tom: Or I'll put my headphones on.", en: "O me pondré los audífonos." },
         ],
         checkpoint: [
           {
@@ -2210,9 +2210,9 @@ export const EN_B1_U26: Lesson[] = [
           "\"Work out\" here means «resolver» or «encontrar una solución». Remember it also means «hacer ejercicio» without an object: \"I work out at the gym.\"",
         ],
         examples: [
-          { es: "Lucia: OK, so we've worked out a plan.", en: "Vale, pues ya tenemos un plan." },
+          { es: "Lucia: OK, so we've worked out a plan.", en: "Bueno, ya tenemos un plan." },
           { es: "Lucia: Everybody cleans up after themselves.", en: "Cada uno recoge lo suyo." },
-          { es: "Tom: And we'll fill in the shopping list when something runs out.", en: "Y apuntaremos en la lista de la compra cuando se acabe algo." },
+          { es: "Tom: And we'll add to the shopping list when something runs out.", en: "Y apuntaremos en la lista de compras cuando se acabe algo." },
           { es: "Emma: Let's carry on with this next week and see how it goes.", en: "Sigamos hablando de esto la semana que viene y vemos qué tal va." },
           { es: "Lucia: Thanks, guys. I knew we could sort it out.", en: "Gracias, chicos. Sabía que podíamos solucionarlo." },
         ],
@@ -2299,7 +2299,7 @@ export const EN_B1_U26: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Why", "don't", "we", "take", "turns", "doing", "the", "dishes?"],
-        translation: "¿Por qué no nos turnamos para fregar los platos?",
+        translation: "¿Por qué no nos turnamos para lavar los platos?",
         explanation: "\"Why don't we...?\" for suggestions, and \"take turns\" + -ing.",
       },
       {

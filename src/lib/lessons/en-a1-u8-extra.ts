@@ -612,7 +612,7 @@ export const EN_A1_U8_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "En un parque ves un cartel: «No pisar el césped». ¿Qué pone en inglés?",
+        question: "En un parque, le dices a un niño: «No pises el césped». ¿Qué dices en inglés?",
         options: ["Don't walk on the grass.", "No walk on the grass.", "Not walk on the grass.", "You don't walk on the grass."],
         correctIndex: 0,
         explanation: "Las prohibiciones usan \"don't\" + verbo. \"You don't walk\" es una descripción, no una orden.",

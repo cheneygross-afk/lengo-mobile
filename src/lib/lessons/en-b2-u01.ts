@@ -57,7 +57,7 @@ export const EN_B2_U01: Lesson[] = [
           { es: "We lived in a small apartment.", en: "Vivíamos en un apartamento pequeño." },
           { es: "He was very shy as a child.", en: "De niño era muy tímido." },
           { es: "At eight o'clock we were having dinner.", en: "A las ocho estábamos cenando." },
-          { es: "She always walked to work.", en: "Siempre iba andando al trabajo. (incorrecto: *She was always walking to work en este sentido)" },
+          { es: "She always walked to work.", en: "Siempre iba caminando al trabajo. (incorrecto: *She was always walking to work en este sentido)" },
         ],
         checkpoint: [
           {
@@ -144,7 +144,7 @@ export const EN_B2_U01: Lesson[] = [
           { es: "I didn't recognize him. He had changed a lot.", en: "No lo reconocí. Había cambiado mucho." },
           { es: "When I arrived, the film had already started.", en: "Cuando llegué, la película ya había empezado." },
           { es: "She was nervous because she had never flown before.", en: "Estaba nerviosa porque nunca había volado." },
-          { es: "After I finished my homework, I went out.", en: "Después de terminar los deberes, salí." },
+          { es: "After I finished my homework, I went out.", en: "Después de terminar la tarea, salí." },
           { es: "We realized we had taken the wrong train.", en: "Nos dimos cuenta de que habíamos tomado el tren equivocado." },
         ],
         checkpoint: [
@@ -705,7 +705,7 @@ export const EN_B2_U01: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The kids ___ in the pool all afternoon, so they were starving.",
         answer: "had been swimming",
-        altAnswers: ["had been playing"],
+        altAnswers: [],
         en: "Los niños [habían estado nadando] en la piscina toda la tarde, así que tenían un hambre tremenda.",
         explanation: "\"All afternoon\" plus a visible result (hunger): past perfect continuous.",
       },
@@ -1830,7 +1830,7 @@ export const EN_B2_U01: Lesson[] = [
         ],
         examples: [
           { es: "Laura admitted that she had taken the laptop.", en: "Laura admitió que se había llevado el portátil." },
-          { es: "Her own computer had been crashing all week.", en: "Su propio ordenador llevaba toda la semana colgándose." },
+          { es: "Her own computer had been crashing all week.", en: "Su propia computadora llevaba toda la semana colgándose." },
           { es: "The wind had blown the note under a cabinet.", en: "El viento había llevado la nota debajo de un armario." },
           { es: "He had been walking in the rain before work.", en: "Había estado caminando bajo la lluvia antes del trabajo." },
         ],
@@ -1900,7 +1900,7 @@ export const EN_B2_U01: Lesson[] = [
         sentence: "Her computer ___ all week.",
         answer: "had been crashing",
         altAnswers: ["had been freezing"],
-        en: "Su ordenador [llevaba] toda la semana [colgándose].",
+        en: "Su computadora [llevaba] toda la semana [colgándose].",
         explanation: "A repeated problem up to a past moment: past perfect continuous.",
       },
       {
@@ -2068,9 +2068,9 @@ export const EN_B2_U01: Lesson[] = [
           "So \"I've finished\" (before now), \"I had finished\" (before then, in the past) and \"I'll have finished\" (before a future point) are the same idea on three timelines.",
         ],
         examples: [
-          { es: "I've finished my homework.", en: "He terminado los deberes." },
-          { es: "I had finished my homework when she arrived.", en: "Había terminado los deberes cuando llegó." },
-          { es: "I'll have finished my homework by eight.", en: "Para las ocho habré terminado los deberes." },
+          { es: "I've finished my homework.", en: "He terminado la tarea." },
+          { es: "I had finished my homework when she arrived.", en: "Había terminado la tarea cuando llegó." },
+          { es: "I'll have finished my homework by eight.", en: "Para las ocho habré terminado la tarea." },
         ],
         checkpoint: [
           {
@@ -2223,7 +2223,7 @@ export const EN_B2_U01: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Todos los domingos mi abuela nos hacía tortitas.",
+            source: "Todos los domingos mi abuela nos hacía panqueques.",
             answer: "Every Sunday my grandmother would make us pancakes.",
             altAnswers: [
               "Every Sunday my grandmother used to make us pancakes.",

@@ -400,7 +400,7 @@ export const EN_B2_U08_EXTRA: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Correct the learner: *Can be that they got lost.",
-            options: ["They might have got lost.", "Can be they have got lost.", "They can have got lost.", "It can that they got lost."],
+            options: ["They might have gotten lost.", "Can be they have gotten lost.", "They can have gotten lost.", "It can that they got lost."],
             correctIndex: 0,
             explanation: "«Puede (ser) que» = \"might\" / \"may\" / \"could\" + \"have\" + participle. \"Maybe they got lost\" is also fine.",
           },
@@ -1101,7 +1101,7 @@ export const EN_B2_U08_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is NOT natural English?",
-        options: ["It can be that the shop is closed.", "The shop might be closed.", "It looks like the shop is closed.", "I bet the shop is closed."],
+        options: ["It can be that the store is closed.", "The store might be closed.", "It looks like the store is closed.", "I bet the store is closed."],
         correctIndex: 0,
         explanation: "*It can be that is a literal translation of «puede ser que». Use \"might\", \"may\", \"maybe\" or \"it's possible that\".",
       },

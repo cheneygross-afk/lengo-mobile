@@ -96,7 +96,7 @@ export const EN_B1_U16: Lesson[] = [
           { es: "The people that work here are very friendly.", en: "La gente que trabaja aquí es muy simpática." },
           { es: "Is this the bus that goes downtown?", en: "¿Es este el autobús que va al centro?" },
           { es: "I'm looking for a job that pays well.", en: "Busco un trabajo que pague bien." },
-          { es: "I need a phone that takes good photos.", en: "Necesito un teléfono que haga buenas fotos." },
+          { es: "I need a phone that takes good photos.", en: "Necesito un teléfono que tome buenas fotos." },
         ],
         checkpoint: [
           {
@@ -257,14 +257,14 @@ export const EN_B1_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Necesito un teléfono que haga buenas fotos.",
+        source: "Necesito un teléfono que tome buenas fotos.",
         answer: "I need a phone that takes good photos.",
         altAnswers: [
           "I need a phone which takes good photos.",
           "I need a phone that takes good pictures.",
           "I need a phone which takes good pictures.",
         ],
-        explanation: "«Hacer fotos» is \"take photos\". The Spanish subjunctive («haga») becomes a simple present: \"that takes\".",
+        explanation: "«Tomar fotos» is \"take photos\". The Spanish subjunctive («tome») becomes a simple present: \"that takes\".",
       },
       {
         type: "speak",
@@ -2084,7 +2084,7 @@ export const EN_B1_U16: Lesson[] = [
         ],
         examples: [
           { es: "Which one is your brother?", en: "¿Cuál es tu hermano?" },
-          { es: "The one who's wearing glasses.", en: "El que lleva gafas." },
+          { es: "The one who's wearing glasses.", en: "El que usa lentes." },
           { es: "The one with the beard.", en: "El de la barba." },
           { es: "The woman in the red dress is my aunt.", en: "La del vestido rojo es mi tía." },
           { es: "The guy who's laughing is my cousin.", en: "El que se está riendo es mi primo." },
@@ -2094,7 +2094,7 @@ export const EN_B1_U16: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "El que lleva gafas es mi hermano.",
+            source: "El que usa lentes es mi hermano.",
             answer: "The one who's wearing glasses is my brother.",
             altAnswers: [
               "The one with glasses is my brother.",
@@ -2375,7 +2375,7 @@ export const EN_B1_U16: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Un fontanero es alguien que arregla tuberías.",
+            source: "Un plomero es alguien que arregla tuberías.",
             answer: "A plumber is someone who fixes pipes.",
             altAnswers: [
               "A plumber is somebody who fixes pipes.",
@@ -2407,7 +2407,7 @@ export const EN_B1_U16: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Trabajo de camarero los fines de semana.",
+            source: "Trabajo de mesero los fines de semana.",
             answer: "I work as a waiter on weekends.",
             altAnswers: [
               "I work as a waiter at the weekend.",
@@ -2472,9 +2472,9 @@ export const EN_B1_U16: Lesson[] = [
         examples: [
           { es: "I work part-time in a bookstore.", en: "Trabajo a media jornada en una librería." },
           { es: "She works the night shift at the hospital.", en: "Hace el turno de noche en el hospital." },
-          { es: "He's self-employed: he has his own business.", en: "Es autónomo: tiene su propio negocio." },
+          { es: "He's self-employed: he has his own business.", en: "Trabaja por su cuenta: tiene su propio negocio." },
           { es: "My grandfather is retired.", en: "Mi abuelo está jubilado." },
-          { es: "I've been unemployed for three months.", en: "Llevo tres meses en paro (desempleado)." },
+          { es: "I've been unemployed for three months.", en: "Llevo tres meses desempleado." },
         ],
         checkpoint: [
           {
@@ -2533,7 +2533,7 @@ export const EN_B1_U16: Lesson[] = [
         type: "matching",
         instructions: "Match each word with its meaning.",
         pairs: [
-          { left: "self-employed", right: "autónomo" },
+          { left: "self-employed", right: "independiente" },
           { left: "retired", right: "jubilado" },
           { left: "unemployed", right: "desempleado" },
           { left: "shift", right: "turno" },
@@ -2592,13 +2592,13 @@ export const EN_B1_U16: Lesson[] = [
         audio: "I've been self-employed for five years.",
         question: "What did you hear?",
         options: [
-          "Llevo cinco años trabajando como autónomo.",
-          "Llevo cinco años en paro.",
+          "Llevo cinco años trabajando por mi cuenta.",
+          "Llevo cinco años desempleado.",
           "Trabajé cinco años en una empresa.",
           "Me jubilé hace cinco años.",
         ],
         correctIndex: 0,
-        explanation: "\"Self-employed\" = «autónomo», working for yourself.",
+        explanation: "\"Self-employed\" = «independiente» or «por cuenta propia», working for yourself.",
       },
       {
         type: "speak",

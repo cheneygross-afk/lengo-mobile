@@ -436,7 +436,7 @@ export const EN_B1_U18_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "A menos que te des prisa, perderás el autobús.",
+        source: "A menos que te apures, perderás el autobús.",
         answer: "Unless you hurry, you'll miss the bus.",
         altAnswers: ["Unless you hurry up, you'll miss the bus.", "Unless you hurry, you will miss the bus.", "If you don't hurry, you'll miss the bus.", "If you don't hurry up, you'll miss the bus."],
         explanation: "\"Unless\" = \"if not\", followed by the present. «Perder» a bus is \"miss\".",

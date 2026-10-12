@@ -29,7 +29,7 @@ export const EN_B1_U21_EXTRA: Lesson[] = [
           { es: "Would you mind waiting outside?", en: "¿Le importaría esperar fuera?" },
           { es: "He suggested ordering pizza.", en: "Propuso pedir pizza." },
           { es: "My phone keeps freezing.", en: "Mi teléfono no para de bloquearse." },
-          { es: "I'm considering moving to Canada.", en: "Me estoy planteando mudarme a Canadá." },
+          { es: "I'm considering moving to Canada.", en: "Estoy pensando en mudarme a Canadá." },
         ],
         checkpoint: [
           {
@@ -159,7 +159,7 @@ export const EN_B1_U21_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Echo de menos vivir en la ciudad.",
+        source: "Extraño vivir en la ciudad.",
         answer: "I miss living in the city.",
         altAnswers: ["I miss living in town.", "I miss living in a city."],
         explanation: "\"Miss\" + -ing: \"miss living\". «Echar de menos» + infinitive becomes \"miss\" + -ing.",
@@ -653,7 +653,7 @@ export const EN_B1_U21_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "Instead of taking the bus, we walked home.",
         question: "What did they do?",
-        options: ["Volvieron a casa andando.", "Tomaron el autobús.", "Esperaron el autobús y luego caminaron.", "Se quedaron en casa."],
+        options: ["Volvieron a casa caminando.", "Tomaron el autobús.", "Esperaron el autobús y luego caminaron.", "Se quedaron en casa."],
         correctIndex: 0,
         explanation: "\"Instead of taking the bus, we walked\" = «en lugar de tomar el autobús, caminamos». \"Instead of\" + -ing.",
       },
@@ -700,7 +700,7 @@ export const EN_B1_U21_EXTRA: Lesson[] = [
           { es: "We stopped for lunch.", en: "Paramos para comer." },
           { es: "He called to say thank you.", en: "Llamó para dar las gracias." },
           { es: "I came here for the music.", en: "Vine aquí por la música." },
-          { es: "I wrote it down so as not to forget.", en: "Lo apunté para no olvidarlo." },
+          { es: "I wrote it down so as not to forget.", en: "Lo anoté para no olvidarlo." },
         ],
         checkpoint: [
           {
@@ -829,7 +829,7 @@ export const EN_B1_U21_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Paramos en una gasolinera para echar gasolina.",
+        source: "Paramos en una gasolinera para cargar gasolina.",
         answer: "We stopped at a gas station to get gas.",
         altAnswers: ["We stopped at a gas station for gas.", "We stopped at a gas station to fill up.", "We stopped at a gas station to get some gas.", "We stopped at a petrol station to get petrol.", "We stopped at a gas station to buy gas."],
         explanation: "\"Stopped... to get gas\". Careful: \"stop to do\" = stop in order to do something.",

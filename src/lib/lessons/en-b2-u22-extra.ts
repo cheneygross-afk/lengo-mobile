@@ -140,7 +140,7 @@ export const EN_B2_U22_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No sabes lo difícil que es encontrar piso aquí.",
+        source: "No sabes lo difícil que es encontrar departamento aquí.",
         answer: "You don't know how difficult it is to find an apartment here.",
         altAnswers: [
           "You don't know how hard it is to find an apartment here.",
@@ -323,7 +323,7 @@ export const EN_B2_U22_EXTRA: Lesson[] = [
           { es: "The sequel is much worse than the original.", en: "La secuela es mucho peor que la original." },
           { es: "The rooms were far bigger than in the photos.", en: "Las habitaciones eran muchísimo más grandes que en las fotos." },
           { es: "It was by far the worst meal of the trip.", en: "Fue con diferencia la peor comida del viaje." },
-          { es: "The new menu is a bit cheaper.", en: "La carta nueva es un poco más barata." },
+          { es: "The new menu is a bit cheaper.", en: "El menú nuevo es un poco más barato." },
         ],
         checkpoint: [
           {

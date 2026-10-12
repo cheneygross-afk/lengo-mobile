@@ -407,7 +407,7 @@ export const EN_A2_U15: Lesson[] = [
           "The dog that barks all night is ours.",
         ],
         correctIndex: 0,
-        explanation: "Solo en la primera \"that\" es el objeto (mi mamá hizo el pastel): \"the cake my mom made\". En las otras es el sujeto del verbo.",
+        explanation: "Solo en la frase del pastel \"that\" es el objeto (mi mamá hizo el pastel): \"the cake my mom made\". En las otras es el sujeto del verbo.",
       },
       {
         type: "fill-blank",
@@ -1216,7 +1216,7 @@ export const EN_A2_U15: Lesson[] = [
       {
         type: "speak",
         text: "Would you like something to drink?",
-        tip: "\"Would you\" se une y suena casi como «wuyu». La \"l\" de \"would\" no se pronuncia.",
+        tip: "\"Would you\" se une y suena casi como «wudyu». La \"l\" de \"would\" no se pronuncia.",
         explanation: "Es la forma más educada de ofrecer algo de tomar.",
       },
     ],

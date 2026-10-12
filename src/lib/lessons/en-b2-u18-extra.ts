@@ -111,7 +111,7 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
         sentence: "I look forward to ___ you at the interview.",
         answer: "meeting",
         altAnswers: ["seeing"],
-        en: "Tengo muchas ganas de [conocerle] en la entrevista.",
+        en: "Tengo muchas ganas de [conocerlo] en la entrevista.",
         explanation: "In \"look forward to\", \"to\" is a preposition, so the verb takes -ing: \"to meeting\", never *to meet.",
       },
       {
@@ -313,7 +313,7 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
           "Closes with \"I look forward to hearing from you.\" and a formal sign-off.",
           "No contractions, slang or Spanish calques.",
         ],
-        modelAnswer: "Dear Sir or Madam,\n\nI am writing to ask about your intensive English course for adults. I am particularly interested in the four-week course in July.\n\nCould you please tell me the price of the course and the exact start and end dates? I would also be grateful if you could send me a brochure with information about accommodation.\n\nThank you for your time. I look forward to hearing from you.\n\nYours faithfully,\nDiego Herrera",
+        modelAnswer: "Dear Sir or Madam,\n\nI am writing to ask about your intensive English course for adults. I am particularly interested in the four-week course in July.\n\nCould you please tell me the price of the course and the exact start and end dates? I would also be grateful if you could send me a brochure with information about accommodation.\n\nThank you for your time. I look forward to hearing from you.\n\nSincerely,\nDiego Herrera",
         explanation: "Check the three fixed blocks: greeting + purpose, polite request, closing formula. Everything else should be clear and short.",
       },
     ],
@@ -646,7 +646,7 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
           "Calques to avoid: *According to me («según yo»: \"according to\" is only for other people or sources), *In the other hand (it's \"ON the other hand\"), *In conclusion of, *Resuming («resumiendo»: say \"To sum up\" or \"In short\"), *In first place (\"In the first place\" or \"Firstly\").",
         ],
         examples: [
-          { es: "In my view, homework should be optional.", en: "En mi opinión, los deberes deberían ser opcionales. (incorrecto: *According to me)" },
+          { es: "In my view, homework should be optional.", en: "En mi opinión, la tarea debería ser opcional. (incorrecto: *According to me)" },
           { es: "Firstly, public transport is cheaper than driving.", en: "En primer lugar, el transporte público es más barato que el carro." },
           { es: "On the other hand, buses are often slow.", en: "Por otro lado, los autobuses suelen ser lentos. (incorrecto: *In the other hand)" },
           { es: "According to a recent study, most teenagers sleep too little.", en: "Según un estudio reciente, la mayoría de los adolescentes duerme poco." },
@@ -856,7 +856,7 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Por último, hay que tener en cuenta el coste.",
+        source: "Por último, hay que tener en cuenta el costo.",
         answer: "Finally, we must take the cost into account.",
         altAnswers: [
           "Lastly, we must take the cost into account.",
@@ -924,9 +924,9 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
     duration: "10 min",
     sections: [
       {
-        heading: "Quick recap: one sentence, one full stop",
+        heading: "Quick recap: one sentence, one period",
         body: [
-          "Spanish happily joins several complete sentences with commas: «Llegué tarde, estaba cansado, me fui a la cama». In English this is a comma splice, and it looks like a mistake. Two complete sentences need a full stop, a semicolon, or a conjunction (\"and\", \"but\", \"so\", \"because\"): \"I got home late. I was tired, so I went to bed.\"",
+          "Spanish happily joins several complete sentences with commas: «Llegué tarde, estaba cansado, me fui a la cama». In English this is a comma splice, and it looks like a mistake. Two complete sentences need a period, a semicolon, or a conjunction (\"and\", \"but\", \"so\", \"because\"): \"I got home late. I was tired, so I went to bed.\"",
           "The opposite error is the run-on: two sentences with no punctuation at all (*We missed the bus we took a taxi). And remember the linkers from this unit: \"however\" and \"therefore\" can't join sentences with a comma either.",
         ],
         examples: [
@@ -946,7 +946,7 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
               "I love living in Madrid, that the people are so friendly.",
             ],
             correctIndex: 0,
-            explanation: "Two complete sentences joined by a comma = comma splice. Add a conjunction (\"because\") or use a full stop.",
+            explanation: "Two complete sentences joined by a comma = comma splice. Add a conjunction (\"because\") or use a period.",
           },
         ],
       },
@@ -1069,7 +1069,7 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
           "Yesterday I went to the beach with my friends, it was amazing; we swam all day.",
         ],
         correctIndex: 0,
-        explanation: "Three complete sentences need proper boundaries: a full stop after \"friends\" and \"and\" to join the last two. Removing all the commas only creates a run-on.",
+        explanation: "Three complete sentences need proper boundaries: a period after \"friends\" and \"and\" to join the last two. Removing all the commas only creates a run-on.",
       },
       {
         type: "translate",
@@ -1132,7 +1132,7 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
         prompt: "Put the words in order.",
         words: ["We", "missed", "the", "bus,", "so", "we", "took", "a", "taxi."],
         translation: "Perdimos el autobús, así que tomamos un taxi.",
-        explanation: "Comma + \"so\" between two complete sentences. Without \"so\" you would need a full stop.",
+        explanation: "Comma + \"so\" between two complete sentences. Without \"so\" you would need a period.",
       },
       {
         type: "translate",
@@ -1149,7 +1149,7 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
           "I don't know where Tom is. He could be at the gym.",
           "I don't know where Tom is. He might be in the gym.",
         ],
-        explanation: "Two complete sentences: full stop or semicolon, never just a comma. Indirect question order: \"where Tom is\", not *where is Tom.",
+        explanation: "Two complete sentences: period or semicolon, never just a comma. Indirect question order: \"where Tom is\", not *where is Tom.",
       },
       {
         type: "multiple-choice",
@@ -1170,17 +1170,17 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Rewrite this paragraph in correct English punctuation, adding capitals, full stops and conjunctions where needed (30-60 words): last monday i started an english course, the teacher is from ireland, she's very patient, its a small group, we meet on tuesdays and thursdays, I think ill learn a lot.",
+        prompt: "Rewrite this paragraph in correct English punctuation, adding capitals, periods and conjunctions where needed (30-60 words): last monday i started an english course, the teacher is from ireland, she's very patient, its a small group, we meet on tuesdays and thursdays, I think ill learn a lot.",
         minWords: 30,
         maxWords: 60,
         rubric: [
-          "No comma splices: every complete sentence ends with a full stop or is joined with a conjunction.",
+          "No comma splices: every complete sentence ends with a period or is joined with a conjunction.",
           "Capitals for \"Monday\", \"English\", \"Ireland\", \"Tuesdays\", \"Thursdays\" and \"I\".",
           "Apostrophes in \"it's\" (= \"it is\") and \"I'll\" (= \"I will\").",
           "The meaning of the original is kept.",
         ],
         modelAnswer: "Last Monday I started an English course. The teacher is from Ireland, and she's very patient. It's a small group, and we meet on Tuesdays and Thursdays. I think I'll learn a lot.",
-        explanation: "Count the complete sentences: each one needs its own full stop or a joining word such as \"and\" or \"so\".",
+        explanation: "Count the complete sentences: each one needs its own period or a joining word such as \"and\" or \"so\".",
       },
     ],
   },

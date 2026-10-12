@@ -308,7 +308,7 @@ export const EN_A2_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "¿Ya has terminado los deberes?",
+        source: "¿Ya has terminado la tarea?",
         answer: "Have you finished your homework yet?",
         altAnswers: ["Have you done your homework yet?", "Did you finish your homework yet?", "Did you do your homework yet?"],
         explanation: "Pregunta normal: \"yet\" al final. \"Homework\" es incontable: nunca *homeworks.",

@@ -255,7 +255,7 @@ export const EN_B2_U29: Lesson[] = [
           "Ends with a correct future form (will, going to or present continuous)",
           "Never omits the subject (it was raining, not was raining)",
         ],
-        modelAnswer: "Last winter I had an important job interview in the city center. It was snowing heavily and the buses were running late. I had been waiting at the stop for half an hour when I realized that I had left my CV at home. I ran back, grabbed it and took a taxi, but by the time I arrived, the interviewer had already gone to lunch. Luckily, she agreed to see me later, and I got the job. Next time I'm going to prepare everything the night before, and I'll leave much earlier.",
+        modelAnswer: "Last winter I had an important job interview in the city center. It was snowing heavily and the buses were running late. I had been waiting at the stop for half an hour when I realized that I had left my résumé at home. I ran back, grabbed it and took a taxi, but by the time I arrived, the interviewer had already gone to lunch. Luckily, she agreed to see me later, and I got the job. Next time I'm going to prepare everything the night before, and I'll leave much earlier.",
         explanation: "A good narrative mixes the tenses: past simple for events, past continuous for background, past perfect for what happened earlier.",
       },
     ],
@@ -694,7 +694,7 @@ export const EN_B2_U29: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "He failed the exam, ___ surprised everyone.",
             answer: "which",
-            en: "Suspendió el examen, [lo cual] sorprendió a todos.",
+            en: "Reprobó el examen, [lo cual] sorprendió a todos.",
             explanation: "«Lo cual / lo que» referring to a whole clause is \"which\", never \"what\".",
           },
         ],
@@ -810,7 +810,7 @@ export const EN_B2_U29: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Se espera que el presidente dimita.",
+        source: "Se espera que el presidente renuncie.",
         answer: "The president is expected to resign.",
         altAnswers: ["It is expected that the president will resign.", "The president is expected to step down.", "It is expected that the president will step down."],
         explanation: "\"Expect\" works in both impersonal patterns: \"It is expected that...\" or \"The president is expected to...\".",
@@ -873,8 +873,8 @@ export const EN_B2_U29: Lesson[] = [
             type: "multiple-choice",
             question: "How do you say «Ya me he acostumbrado a manejar por la izquierda»?",
             options: [
-              "I've got used to driving on the left.",
-              "I've got used to drive on the left.",
+              "I've gotten used to driving on the left.",
+              "I've gotten used to drive on the left.",
               "I used to drive on the left.",
               "I've got use to driving on the left.",
             ],
@@ -887,14 +887,14 @@ export const EN_B2_U29: Lesson[] = [
         heading: "Linkers and emphasis",
         body: [
           "\"Although\" and \"even though\" are followed by a clause (subject + verb). \"Despite\" and \"in spite of\" are followed by a noun or -ing: \"despite the rain\", \"despite being tired\". Never *despite of. \"However\" starts a new sentence and is followed by a comma; \"whereas\" and \"while\" contrast two facts in one sentence.",
-          "To emphasize, English often uses cleft sentences: \"What I need is a holiday\" («lo que necesito es...») and \"It was Ana who told me\" («fue Ana quien me lo dijo»).",
+          "To emphasize, English often uses cleft sentences: \"What I need is a vacation\" («lo que necesito es...») and \"It was Ana who told me\" («fue Ana quien me lo dijo»).",
           "The emphatic \"do/does/did\" is the English version of «sí que»: \"I did call you!\" means «¡Sí que te llamé!», and \"I do like it\" means «sí que me gusta».",
         ],
         examples: [
           { es: "Despite the rain, we went for a walk.", en: "A pesar de la lluvia, salimos a pasear." },
           { es: "Although she was tired, she kept working.", en: "Aunque estaba cansada, siguió trabajando." },
           { es: "The hotel was cheap. However, it was very clean.", en: "El hotel era barato. Sin embargo, estaba muy limpio." },
-          { es: "What I need is a long holiday.", en: "Lo que necesito son unas largas vacaciones." },
+          { es: "What I need is a long vacation.", en: "Lo que necesito son unas largas vacaciones." },
           { es: "It was Ana who told me.", en: "Fue Ana quien me lo dijo." },
           { es: "I did call you, but you didn't answer.", en: "Sí que te llamé, pero no contestaste." },
         ],
@@ -1102,7 +1102,7 @@ export const EN_B2_U29: Lesson[] = [
         ],
         examples: [
           { es: "I last saw Tom in 2019. I haven't seen Tom since 2019.", en: "La última vez que vi a Tom fue en 2019. No veo a Tom desde 2019." },
-          { es: "It's ages since I went to the cinema. I haven't been to the cinema for ages.", en: "Hace siglos que no voy al cine." },
+          { es: "It's been ages since I went to the movies. I haven't been to the movies in ages.", en: "Hace siglos que no voy al cine." },
           { es: "The film was so boring that we left. It was such a boring film that we left.", en: "La película era tan aburrida que nos fuimos." },
           { es: "I started learning English five years ago. I have been learning English for five years.", en: "Empecé a aprender inglés hace cinco años. Llevo cinco años aprendiendo inglés." },
         ],
@@ -1550,7 +1550,7 @@ export const EN_B2_U29: Lesson[] = [
         examples: [
           { es: "We need to make a decision today.", en: "Tenemos que tomar una decisión hoy." },
           { es: "Could you do me a favor?", en: "¿Me puedes hacer un favor?" },
-          { es: "Let's take a photo of the view.", en: "Vamos a hacer una foto del paisaje." },
+          { es: "Let's take a photo of the view.", en: "Vamos a tomar una foto del paisaje." },
           { es: "Please pay attention to the instructions.", en: "Por favor, presten atención a las instrucciones." },
           { es: "I think I've caught a cold.", en: "Creo que me he resfriado." },
           { es: "She always keeps her promises.", en: "Siempre cumple sus promesas." },
@@ -1577,7 +1577,7 @@ export const EN_B2_U29: Lesson[] = [
       {
         heading: "Phrasal verbs",
         body: [
-          "Intermedio alto texts use phrasal verbs where Spanish uses a single verb: put off («aplazar»), carry out («llevar a cabo»), come up with («ocurrírsele», «idear»), run out of («quedarse sin»), give up («dejar», «rendirse»), turn down («rechazar»), look into («investigar»), get over («superar»), set up («montar», «crear»), find out («averiguar»).",
+          "Upper Intermediate texts use phrasal verbs where Spanish uses a single verb: put off («aplazar»), carry out («llevar a cabo»), come up with («ocurrírsele», «idear»), run out of («quedarse sin»), give up («dejar», «rendirse»), turn down («rechazar»), look into («investigar»), get over («superar»), set up («montar», «crear»), find out («averiguar»).",
           "In a cloze, the particle is often the key: \"put off\", \"put on\", \"put up\" and \"put out\" all exist, but only one fits. Read the meaning of the whole sentence before you choose.",
         ],
         examples: [
@@ -1687,7 +1687,7 @@ export const EN_B2_U29: Lesson[] = [
         question: "Choose the word that fits: Excuse me, could you ___ a photo of us?",
         options: ["take", "make", "do", "have"],
         correctIndex: 0,
-        explanation: "\"Take a photo\". «Hacer una foto» is never *make a photo in English.",
+        explanation: "\"Take a photo\". «Tomar una foto» is never *make a photo in English.",
       },
       {
         type: "multiple-choice",
@@ -2195,7 +2195,7 @@ export const EN_B2_U29: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Me puedes hacer una foto?",
+        source: "¿Me puedes tomar una foto?",
         answer: "Can you take a photo of me?",
         altAnswers: [
           "Could you take a photo of me?",

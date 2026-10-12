@@ -17,7 +17,7 @@ export const EN_A2_U07_EXTRA: Lesson[] = [
       {
         heading: "Recordatorio: incontables que en español son contables",
         body: [
-          "Estas palabras son incontables en inglés aunque en español tengan plural: \"information\" (informaciones), \"advice\" (consejos), \"furniture\" (muebles), \"news\" (noticias), \"luggage\" (maletas), \"homework\" (deberes), \"money\", \"hair\", \"bread\".",
+          "Estas palabras son incontables en inglés aunque en español tengan plural: \"information\" (informaciones), \"advice\" (consejos), \"furniture\" (muebles), \"news\" (noticias), \"luggage\" (maletas), \"homework\" (tareas), \"money\", \"hair\", \"bread\".",
           "Tres consecuencias: no llevan \"a\" / \"an\" (*an advice), no tienen plural (*informations, *furnitures) y el verbo va en singular: \"The news is good\", \"Her hair is long\". Para «un, una» se usa \"some\" o \"a piece of\": \"some advice\", \"a piece of furniture\".",
         ],
         examples: [
@@ -26,7 +26,7 @@ export const EN_A2_U07_EXTRA: Lesson[] = [
           { es: "The news is good.", en: "Las noticias son buenas. (incorrecto: *The news are)" },
           { es: "We bought a piece of furniture.", en: "Compramos un mueble. (incorrecto: *a furniture)" },
           { es: "Her hair is very long.", en: "Su pelo es muy largo. / Tiene el pelo muy largo." },
-          { es: "I have a lot of homework.", en: "Tengo muchos deberes. (incorrecto: *many homeworks)" },
+          { es: "I have a lot of homework.", en: "Tengo muchas tareas. (incorrecto: *many homeworks)" },
         ],
         checkpoint: [
           {
@@ -102,7 +102,7 @@ export const EN_A2_U07_EXTRA: Lesson[] = [
         question: "¿Qué frase es correcta?",
         options: ["I have a lot of homework.", "I have a lot of homeworks.", "I have many homeworks.", "I have a homework."],
         correctIndex: 0,
-        explanation: "\"Homework\" es incontable: ni \"a\", ni \"-s\", ni \"many\". «Muchos deberes» es \"a lot of homework\".",
+        explanation: "\"Homework\" es incontable: ni \"a\", ni \"-s\", ni \"many\". «Muchas tareas» es \"a lot of homework\".",
       },
       {
         type: "translate",
@@ -171,8 +171,8 @@ export const EN_A2_U07_EXTRA: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "I don't have much ___ today.",
         answer: "homework",
-        en: "Hoy no tengo muchos [deberes].",
-        explanation: "«Deberes» es \"homework\", sin \"-s\". Por eso va con \"much\" y no con \"many\".",
+        en: "Hoy no tengo mucha [tarea].",
+        explanation: "«Tarea» es \"homework\", sin \"-s\". Por eso va con \"much\" y no con \"many\".",
       },
       {
         type: "multiple-choice",

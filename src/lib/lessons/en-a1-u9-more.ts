@@ -171,8 +171,6 @@ export const EN_A1_U9_MORE: Lesson[] = [
           "My son is 8 and he is always sleepy in the morning.",
           "My son is eight years old and he is always sleepy in the morning.",
           "My son is 8 years old and he is always sleepy in the morning.",
-          "My son is eight and he is always tired in the morning.",
-          "My son is 8 and he is always tired in the morning.",
           "My son is eight, and he's always sleepy in the morning.",
         ],
         explanation: "Edad y sueño con \"to be\". \"Always\" va detrás de \"is\", y hace falta el sujeto \"he\" en la segunda parte.",

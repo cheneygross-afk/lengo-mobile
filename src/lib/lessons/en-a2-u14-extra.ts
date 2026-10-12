@@ -23,7 +23,7 @@ export const EN_A2_U14_EXTRA: Lesson[] = [
         examples: [
           { es: "If it snows, we'll stay home.", en: "Si nieva, nos quedaremos en casa." },
           { es: "If she has time, she'll come.", en: "Si tiene tiempo, vendrá." },
-          { es: "If you don't hurry, you'll be late.", en: "Si no te das prisa, llegarás tarde." },
+          { es: "If you don't hurry, you'll be late.", en: "Si no te apuras, llegarás tarde." },
           { es: "If I see him, I'll tell him.", en: "Si lo veo, se lo diré." },
           { es: "If we leave now, we won't miss the train.", en: "Si salimos ahora, no perderemos el tren." },
         ],
@@ -152,7 +152,7 @@ export const EN_A2_U14_EXTRA: Lesson[] = [
         type: "matching",
         instructions: "Une cada frase con su significado.",
         pairs: [
-          { left: "If it snows, we won't drive.", right: "Si nieva, no conduciremos." },
+          { left: "If it snows, we won't drive.", right: "Si nieva, no manejaremos." },
           { left: "If you're hungry, I'll make a sandwich.", right: "Si tienes hambre, te haré un sándwich." },
           { left: "If they don't call, I'll call them.", right: "Si no llaman, los llamaré yo." },
           { left: "If I'm late, don't wait for me.", right: "Si llego tarde, no me esperes." },
@@ -273,7 +273,7 @@ export const EN_A2_U14_EXTRA: Lesson[] = [
           "El verbo después de \"unless\" va en presente, aunque el español use subjuntivo («a menos que llueva» = \"unless it rains\"). Si empiezas por \"unless\", pon coma al final de esa parte: \"Unless it rains, we'll go\".",
         ],
         examples: [
-          { es: "Unless you study, you'll fail.", en: "A menos que estudies, suspenderás. (= If you don't study...)" },
+          { es: "Unless you study, you'll fail.", en: "A menos que estudies, reprobarás. (= If you don't study...)" },
           { es: "I won't buy the car unless it's cheap.", en: "No compraré el carro a menos que sea barato." },
           { es: "We won't go out unless it stops raining.", en: "No saldremos a menos que deje de llover." },
           { es: "Don't open the door unless you know the person.", en: "No abras la puerta a menos que conozcas a la persona." },
@@ -462,8 +462,8 @@ export const EN_A2_U14_EXTRA: Lesson[] = [
         examples: [
           { es: "If it's sunny, we eat outside.", en: "Si hace sol, comemos afuera. (siempre)" },
           { es: "If it's sunny on Sunday, we'll eat outside.", en: "Si hace sol el domingo, comeremos afuera. (esta vez)" },
-          { es: "If I eat too much, I get sick.", en: "Si como demasiado, me pongo malo. (siempre)" },
-          { es: "If you eat all that cake, you'll get sick.", en: "Si te comes todo ese pastel, te pondrás malo. (esta vez)" },
+          { es: "If I eat too much, I get sick.", en: "Si como demasiado, me siento mal. (siempre)" },
+          { es: "If you eat all that cake, you'll get sick.", en: "Si te comes todo ese pastel, te vas a enfermar. (esta vez)" },
           { es: "If water gets very cold, it freezes.", en: "Si el agua se enfría mucho, se congela. (hecho)" },
         ],
         checkpoint: [
@@ -509,8 +509,8 @@ export const EN_A2_U14_EXTRA: Lesson[] = [
         sentence: "If I eat too much, I ___ sick.",
         answer: "get",
         altAnswers: ["feel"],
-        en: "Si como demasiado, [me pongo] malo.",
-        explanation: "Costumbre: presente. «Ponerse malo» es \"get sick\".",
+        en: "Si como demasiado, [me enfermo].",
+        explanation: "Costumbre: presente. «Enfermarse» es \"get sick\".",
       },
       {
         type: "fill-blank",
@@ -518,7 +518,7 @@ export const EN_A2_U14_EXTRA: Lesson[] = [
         sentence: "If you eat all that cake, you ___ sick tonight.",
         answer: "will be",
         altAnswers: ["'ll be", "will get", "'ll get", "will feel", "'ll feel"],
-        en: "Si te comes todo ese pastel, esta noche [te pondrás] malo.",
+        en: "Si te comes todo ese pastel, esta noche [te vas a enfermar].",
         explanation: "\"Tonight\" señala una ocasión concreta: primer condicional, \"you'll be sick\" o \"you'll get sick\".",
       },
       {
@@ -578,7 +578,7 @@ export const EN_A2_U14_EXTRA: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "If you press the red button, the machine ___.",
         answer: "stops",
-        en: "Si pulsas el botón rojo, la máquina [se para].",
+        en: "Si aprietas el botón rojo, la máquina [se detiene].",
         explanation: "Es lo que pasa siempre: presente con \"-s\". «Se para» es simplemente \"stops\", sin pronombre.",
       },
       {
@@ -865,7 +865,7 @@ export const EN_A2_U14_EXTRA: Lesson[] = [
         heading: "Recordatorio: quizá o seguro",
         body: [
           "\"If\" = «si»: algo que quizá pase. \"When\" = «cuando»: algo que sabes que va a pasar y solo falta el momento. Después de las dos va el presente, nunca \"will\": \"if I have time\", \"when I have time\".",
-          "Ojo con dos trampas. Una: usar \"when\" para todo, aunque no sea seguro (*When I win the lottery suena a que te va a tocar seguro). Otra: usar \"if\" para cosas que van a pasar sí o sí (*If I'm 18: vas a cumplirlos seguro).",
+          "Ojo con dos trampas. Una: usar \"when\" para todo, aunque no sea seguro (\"When I win the lottery\" suena a que te va a tocar seguro). Otra: usar \"if\" para cosas que van a pasar sí o sí (*If I'm 18: vas a cumplirlos seguro).",
         ],
         examples: [
           { es: "If I have time, I'll help you.", en: "Si tengo tiempo, te ayudaré. (quizá no tenga)" },
@@ -1063,7 +1063,7 @@ export const EN_A2_U14_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "When I finish work, I'll call you.",
-        tip: "\"When\" con la \"w\" de «huevo», no /güen/. \"I'll\" se dice /ail/, una sola sílaba.",
+        tip: "\"When\" empieza con una \"u\" muy breve, como /uen/, sin \"g\": no /güen/. \"I'll\" se dice /ail/, una sola sílaba.",
         explanation: "Terminar el trabajo es seguro: \"when\" + presente, y \"I'll call\" en la consecuencia.",
       },
     ],

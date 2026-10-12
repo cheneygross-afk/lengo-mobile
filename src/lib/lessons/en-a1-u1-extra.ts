@@ -132,8 +132,7 @@ export const EN_A1_U1_EXTRA: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "Es tarde y tengo sueño.",
         answer: "It is late and I am sleepy.",
-        altAnswers: ["It is late and I am tired."],
-        explanation: "Dos sujetos obligatorios: \"it\" para la hora y \"I\" para la persona. «Tener sueño» es \"be sleepy\" o \"be tired\".",
+        explanation: "Dos sujetos obligatorios: \"it\" para la hora y \"I\" para la persona. «Tener sueño» es \"be sleepy\"; \"tired\" es «cansado».",
       },
       {
         type: "multiple-choice",
@@ -484,7 +483,7 @@ export const EN_A1_U1_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "¿Mis gafas? Están en tu bolso.",
+        source: "¿Mis lentes? Están en tu bolso.",
         answer: "My glasses? They are in your bag.",
         altAnswers: ["My glasses? They are in your purse."],
         explanation: "\"Glasses\" es plural, así que el pronombre es \"they\" y el verbo \"are\".",

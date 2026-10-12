@@ -243,7 +243,7 @@ export const EN_A2_U06_EXTRA: Lesson[] = [
             prompt: "Escribe en inglés las palabras en negrita.",
             sentence: "They've been married ___ fifteen years.",
             answer: "for",
-            en: "Llevan casados [desde hace] quince años.",
+            en: "Están casados [desde hace] quince años.",
             explanation: "\"Fifteen years\" es una cantidad de tiempo, así que va con \"for\".",
           },
         ],
@@ -346,7 +346,7 @@ export const EN_A2_U06_EXTRA: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "We've been here ___ ages.",
         answer: "for",
-        en: "Llevamos aquí [desde hace] muchísimo tiempo.",
+        en: "Estamos aquí [desde hace] muchísimo tiempo.",
         explanation: "\"Ages\" («siglos», mucho tiempo) es una cantidad: \"for ages\".",
       },
       {

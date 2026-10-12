@@ -16,7 +16,7 @@ export const EN_B2_U23: Lesson[] = [
         heading: "Telling the story",
         body: [
           "This review brings together grammar from several Upper Intermediate units around one topic: a trip where everything went wrong. Start with the story itself. The past simple moves the action forward, the past continuous sets the scene, the past perfect jumps back to an earlier event, and the past perfect continuous says how long something had been happening before another past moment.",
-          "The past perfect continuous is the star of travel stories: \"We had been driving for six hours when the car broke down\". Spanish says «llevábamos seis horas manejando» or «hacía seis horas que conducíamos», so learners often produce *We were driving since six hours. A duration up to a moment in the past needs \"had been\" + -ing, with \"for\" before the length of time.",
+          "The past perfect continuous is the star of travel stories: \"We had been driving for six hours when the car broke down\". Spanish says «llevábamos seis horas manejando» or «hacía seis horas que manejábamos», so learners often produce *We were driving since six hours. A duration up to a moment in the past needs \"had been\" + -ing, with \"for\" before the length of time.",
           "And remember: not every Spanish imperfect becomes \"was\" + -ing. States and habits take the past simple: \"The hotel was awful\", \"We didn't have a map\".",
         ],
         examples: [
@@ -319,7 +319,7 @@ export const EN_B2_U23: Lesson[] = [
           "After \"when\", \"as soon as\", \"before\" and \"after\" English uses the present, not \"will\": «cuando termine el máster» is \"when I finish my master's\". Spanish uses a subjunctive there, and learners often say *when I will finish.",
         ],
         examples: [
-          { es: "I'm meeting the HR manager on Thursday.", en: "He quedado con la responsable de recursos humanos el jueves." },
+          { es: "I'm meeting the HR manager on Thursday.", en: "Tengo una reunión con la responsable de recursos humanos el jueves." },
           { es: "I'm going to take a course in data analysis.", en: "Voy a hacer un curso de análisis de datos." },
           { es: "This time next year I'll be working abroad.", en: "El año que viene a estas alturas estaré trabajando en el extranjero." },
           { es: "By June I will have finished my master's degree.", en: "Para junio habré terminado el máster." },
@@ -365,7 +365,7 @@ export const EN_B2_U23: Lesson[] = [
           "In the interview itself, use polite, indirect structures: \"Could you tell me what the salary range is?\" Note the word order: after \"Could you tell me\", the question becomes a statement (\"what the salary range is\", not *what is the salary range). In writing, \"I would like to apply for...\" and \"I look forward to hearing from you\" are the standard formal phrases.",
         ],
         examples: [
-          { es: "They offered to pay for my training.", en: "Se ofrecieron a pagarme la formación." },
+          { es: "They offered to pay for my training.", en: "Se ofrecieron a pagarme la capacitación." },
           { es: "She suggested that I update my resume.", en: "Me sugirió que actualizara mi currículum." },
           { es: "He explained to me that the contract was temporary.", en: "Me explicó que el contrato era temporal." },
           { es: "Could you tell me what the salary range is?", en: "¿Podría decirme cuál es la banda salarial?" },
@@ -856,7 +856,7 @@ export const EN_B2_U23: Lesson[] = [
         examples: [
           { es: "We used to be best friends.", en: "Antes éramos mejores amigos." },
           { es: "I'm used to living alone.", en: "Estoy acostumbrado a vivir solo." },
-          { es: "It took me months to get used to sharing an apartment.", en: "Me costó meses acostumbrarme a compartir piso." },
+          { es: "It took me months to get used to sharing an apartment.", en: "Me costó meses acostumbrarme a compartir departamento." },
           { es: "She didn't use to like my friends.", en: "Antes no le caían bien mis amigos." },
           { es: "I usually call my mom on Sundays.", en: "Suelo llamar a mi madre los domingos." },
         ],
@@ -1316,7 +1316,7 @@ export const EN_B2_U23: Lesson[] = [
           { es: "I stopped checking my email at night.", en: "Dejé de mirar el correo por la noche." },
           { es: "I stopped to check my email.", en: "Me paré para mirar el correo." },
           { es: "Remember to update the app.", en: "Acuérdate de actualizar la aplicación." },
-          { es: "Try turning it off and on again.", en: "Prueba a apagarlo y volver a encenderlo." },
+          { es: "Try turning it off and on again.", en: "Intenta apagarlo y volver a encenderlo." },
           { es: "She managed to recover all her photos.", en: "Consiguió recuperar todas sus fotos." },
         ],
         checkpoint: [
@@ -1360,7 +1360,7 @@ export const EN_B2_U23: Lesson[] = [
           { es: "The more time you spend online, the less you sleep.", en: "Cuanto más tiempo pasas en internet, menos duermes." },
           { es: "I'm trying to have less screen time and use fewer apps.", en: "Intento pasar menos tiempo frente a la pantalla y usar menos aplicaciones." },
           { es: "Few people read the terms and conditions.", en: "Poca gente lee los términos y condiciones." },
-          { es: "There's hardly any signal here.", en: "Aquí casi no hay cobertura." },
+          { es: "There's hardly any signal here.", en: "Aquí casi no hay señal." },
           { es: "Most people are on social media.", en: "La mayoría de la gente está en las redes sociales." },
         ],
         checkpoint: [
@@ -1571,7 +1571,7 @@ export const EN_B2_U23: Lesson[] = [
           { es: "You'd better see a doctor about that cough.", en: "Más vale que vayas al médico por esa tos." },
           { es: "If I were you, I'd get more sleep.", en: "Yo que tú, dormiría más." },
           { es: "Can I give you a piece of advice?", en: "¿Te puedo dar un consejo?" },
-          { es: "I have a terrible cold.", en: "Estoy muy constipado / resfriado." },
+          { es: "I have a terrible cold.", en: "Estoy muy resfriado (en España: constipado)." },
         ],
         checkpoint: [
           {
@@ -1754,7 +1754,7 @@ export const EN_B2_U23: Lesson[] = [
         type: "matching",
         instructions: "Match the English with its meaning. Watch the false friends.",
         pairs: [
-          { left: "I have a cold.", right: "Estoy constipado." },
+          { left: "I have a cold.", right: "Estoy resfriado." },
           { left: "I'm constipated.", right: "Estoy estreñido." },
           { left: "I'm embarrassed.", right: "Me da vergüenza." },
           { left: "She's pregnant.", right: "Está embarazada." },
@@ -1822,7 +1822,7 @@ export const EN_B2_U23: Lesson[] = [
         ],
         examples: [
           { es: "If I had studied medicine, I would be a doctor now.", en: "Si hubiera estudiado medicina, ahora sería médico." },
-          { es: "If I were more organized, I wouldn't have failed the exam.", en: "Si fuera más organizado, no habría suspendido el examen." },
+          { es: "If I were more organized, I wouldn't have failed the exam.", en: "Si fuera más organizado, no habría reprobado el examen." },
           { es: "If she hadn't moved to Canada, she wouldn't speak such good English.", en: "Si no se hubiera mudado a Canadá, no hablaría tan bien inglés." },
           { es: "I passed all my exams except chemistry.", en: "Aprobé todos los exámenes menos química." },
           { es: "He was suspended for fighting.", en: "Lo expulsaron unos días por pelearse." },
@@ -1846,7 +1846,7 @@ export const EN_B2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say «Aprobé el examen de manejar»?",
+            question: "How do you say «Aprobé el examen de manejo»?",
             options: ["I passed my driving test.", "I approved my driving test.", "I approved my driving license.", "I approved the driving exam."],
             correctIndex: 0,
             explanation: "«Aprobar un examen» = \"pass a test/exam\". \"Approve\" is for plans, proposals or budgets.",
@@ -1905,8 +1905,8 @@ export const EN_B2_U23: Lesson[] = [
           "Another false friend: \"career\" is your professional life; «la carrera» you study is a \"degree\" or a \"major\" (American English). «Estudio una carrera de Derecho» is \"I'm studying law\" or \"I'm doing a law degree\".",
         ],
         examples: [
-          { es: "Although she studied hard, she failed the exam.", en: "Aunque estudió mucho, suspendió el examen." },
-          { es: "Despite studying hard, she failed the exam.", en: "A pesar de estudiar mucho, suspendió el examen." },
+          { es: "Although she studied hard, she failed the exam.", en: "Aunque estudió mucho, reprobó el examen." },
+          { es: "Despite studying hard, she failed the exam.", en: "A pesar de estudiar mucho, reprobó el examen." },
           { es: "The course was expensive. However, it was worth it.", en: "El curso era caro. Sin embargo, valió la pena." },
           { es: "My brother loved math, whereas I preferred history.", en: "A mi hermano le encantaban las matemáticas, mientras que yo prefería la historia." },
           { es: "I'm doing a law degree.", en: "Estoy estudiando la carrera de Derecho." },
@@ -1955,8 +1955,8 @@ export const EN_B2_U23: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "I ___ math twice in high school.",
         answer: "failed",
-        en: "[Suspendí] matemáticas dos veces en el instituto.",
-        explanation: "«Suspender un examen o una asignatura» is \"fail\". \"Suspend\" means to exclude someone from school temporarily.",
+        en: "[Reprobé] matemáticas dos veces en la preparatoria.",
+        explanation: "«Reprobar (Spain: suspender) un examen o una asignatura» is \"fail\". \"Suspend\" means to exclude someone from school temporarily.",
       },
       {
         type: "multiple-choice",
@@ -1965,7 +1965,7 @@ export const EN_B2_U23: Lesson[] = [
           "Despite feeling sick, she took the exam.",
           "Despite of feeling sick, she took the exam.",
           "Despite she felt sick, she took the exam.",
-          "Although feeling sick, she took the exam.",
+          "In spite feeling sick, she took the exam.",
         ],
         correctIndex: 0,
         explanation: "\"Despite\" + -ing or noun, with no \"of\". \"Although\" needs a full clause: \"Although she felt sick\".",
@@ -2027,10 +2027,10 @@ export const EN_B2_U23: Lesson[] = [
         audio: "If I hadn't failed that exam, I wouldn't be here now.",
         question: "What did you hear?",
         options: [
-          "Si no hubiera suspendido ese examen, ahora no estaría aquí.",
-          "Si no suspendo ese examen, no estaré aquí.",
+          "Si no hubiera reprobado ese examen, ahora no estaría aquí.",
+          "Si no repruebo ese examen, no estaré aquí.",
           "Si hubiera aprobado ese examen, habría estado aquí.",
-          "Aunque suspendí ese examen, ahora estoy aquí.",
+          "Aunque reprobé ese examen, ahora estoy aquí.",
         ],
         correctIndex: 0,
         explanation: "Mixed conditional: past condition (\"hadn't failed\"), present result (\"wouldn't be here now\").",
@@ -2135,7 +2135,7 @@ export const EN_B2_U23: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "I ___ Lucia since we were in kindergarten.",
             answer: "have known",
-            en: "[Conozco] a Lucia desde que íbamos al jardín de infancia.",
+            en: "[Conozco] a Lucia desde que íbamos al kínder.",
             explanation: "\"Know\" is a state verb, so present perfect simple: \"have known\". Not *I know her since or *have been knowing.",
           },
         ],
@@ -2408,7 +2408,7 @@ export const EN_B2_U23: Lesson[] = [
         examples: [
           { es: "I'd rather stay home tonight.", en: "Prefiero quedarme en casa esta noche." },
           { es: "I'd rather you didn't tell anyone.", en: "Preferiría que no se lo dijeras a nadie." },
-          { es: "Would you rather walk or take a taxi?", en: "¿Prefieres ir andando o en taxi?" },
+          { es: "Would you rather walk or take a taxi?", en: "¿Prefieres ir caminando o en taxi?" },
           { es: "It's time we left.", en: "Ya es hora de que nos vayamos." },
           { es: "It's high time you found a job.", en: "Ya va siendo hora de que encuentres trabajo." },
           { es: "It's time to go.", en: "Es hora de irse." },
@@ -2582,7 +2582,7 @@ export const EN_B2_U23: Lesson[] = [
           { es: "The house has been sold.", en: "Han vendido la casa." },
           { es: "The contract must be signed by Friday.", en: "El contrato tiene que estar firmado antes del viernes." },
           { es: "I'm having my car fixed.", en: "Me están arreglando el carro." },
-          { es: "I had the plumber check the pipes.", en: "Hice que el fontanero revisara las tuberías." },
+          { es: "I had the plumber check the pipes.", en: "Hice que el plomero revisara las tuberías." },
           { es: "I got my brother to help me.", en: "Conseguí que mi hermano me ayudara." },
         ],
         checkpoint: [

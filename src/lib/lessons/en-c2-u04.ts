@@ -1308,7 +1308,7 @@ export const EN_C2_U04: Lesson[] = [
           { es: "I put my foot in it when I asked about his wife.", en: "Metí la pata al preguntarle por su mujer." },
           { es: "Sorry, what did you say? I was miles away.", en: "Perdona, ¿qué has dicho? Estaba en las nubes." },
           { es: "He's a nice guy, but he has his head in the clouds.", en: "Es buen chico, pero vive en las nubes." },
-          { es: "The driving test was a piece of cake.", en: "El examen de manejar fue pan comido." },
+          { es: "The driving test was a piece of cake.", en: "El examen de manejo fue pan comido." },
           { es: "For her, running a marathon is a walk in the park.", en: "Para ella, correr un maratón es pan comido." },
         ],
         checkpoint: [

@@ -684,7 +684,7 @@ export const EN_A2_U12_EXTRA: Lesson[] = [
         source: "El médico me dijo que no comiera sal.",
         answer: "The doctor told me not to eat salt.",
         altAnswers: ["The doctor told me not to eat any salt.", "My doctor told me not to eat salt."],
-        explanation: "La negativa va delante del \"to\": \"told me not to eat\". *Told me to not eat se entiende, pero \"not to\" es el orden habitual.",
+        explanation: "La negativa va delante del \"to\": \"told me not to eat\". \"Told me to not eat\" se entiende, pero \"not to\" es el orden habitual.",
       },
       {
         type: "translate",
@@ -962,7 +962,7 @@ export const EN_A2_U12_EXTRA: Lesson[] = [
         instructions: "Une cada principio con su final.",
         pairs: [
           { left: "I went to the store", right: "to buy some fruit." },
-          { left: "I went to the store", right: "for some fruit." },
+          { left: "We stopped at a cafe", right: "for a quick coffee." },
           { left: "This brush is", right: "for painting walls." },
           { left: "She called me", right: "to say thank you." },
         ],
@@ -997,7 +997,7 @@ export const EN_A2_U12_EXTRA: Lesson[] = [
     level: "EN-A2",
     number: 6,
     title: "Práctica extra: preposición + -ing",
-    summary: "Práctica del \"-ing\" después de preposiciones (\"interested in learning\", \"good at cooking\", \"before leaving\", \"thanks for coming\") y del \"-ing\" como sujeto (\"Swimming is good\"). Errores en el punto de mira: *interested in learn, *thank you for come y *To swim is good.",
+    summary: "Práctica del \"-ing\" después de preposiciones (\"interested in learning\", \"good at cooking\", \"before leaving\", \"thanks for coming\") y del \"-ing\" como sujeto (\"Swimming is good\"). Errores en el punto de mira: *interested in learn y *thank you for come.",
     duration: "10 min",
     sections: [
       {
@@ -1013,7 +1013,7 @@ export const EN_A2_U12_EXTRA: Lesson[] = [
           { es: "She's good at fixing things.", en: "Se le da bien arreglar cosas." },
           { es: "Brush your teeth before going to bed.", en: "Lávate los dientes antes de acostarte." },
           { es: "He left without saying goodbye.", en: "Se fue sin despedirse." },
-          { es: "Running is my favorite sport.", en: "Correr es mi deporte favorito. (incorrecto: *To run is)" },
+          { es: "Running is my favorite sport.", en: "Correr es mi deporte favorito. (más natural que \"To run is\")" },
         ],
         checkpoint: [
           {

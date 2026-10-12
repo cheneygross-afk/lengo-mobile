@@ -577,7 +577,7 @@ export const EN_B1_U19: Lesson[] = [
           { es: "What did he say to you?", en: "¿Qué te dijo?" },
           { es: "She said she was busy.", en: "Dijo que estaba ocupada." },
           { es: "He didn't say anything.", en: "No dijo nada." },
-          { es: "What does this sign say?", en: "¿Qué pone en este letrero?" },
+          { es: "What does this sign say?", en: "¿Qué dice este letrero?" },
         ],
         checkpoint: [
           {
@@ -880,7 +880,7 @@ export const EN_B1_U19: Lesson[] = [
         examples: [
           { es: "Tom just called. He said he's on his way.", en: "Acaba de llamar Tom. Dijo que viene de camino." },
           { es: "I told you I'm busy!", en: "¡Te he dicho que estoy ocupado!" },
-          { es: "The waiter said the kitchen is closed.", en: "El camarero dijo que la cocina está cerrada." },
+          { es: "The waiter said the kitchen is closed.", en: "El mesero dijo que la cocina está cerrada." },
           { es: "She said she'll be here in five minutes.", en: "Dijo que estará aquí en cinco minutos." },
         ],
         checkpoint: [
@@ -1211,7 +1211,7 @@ export const EN_B1_U19: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El camarero nos dijo que la cocina estaba cerrada.",
+        source: "El mesero nos dijo que la cocina estaba cerrada.",
         answer: "The waiter told us the kitchen was closed.",
         altAnswers: ["The waiter told us that the kitchen was closed.", "The waiter said the kitchen was closed.", "The waiter said that the kitchen was closed.", "The waiter said to us that the kitchen was closed."],
         explanation: "«Nos dijo» = \"told us\". \"Is closed\" moves back to \"was closed\".",
@@ -1749,8 +1749,8 @@ export const EN_B1_U19: Lesson[] = [
           "Careful: \"Good for her!\" is «¡Me alegro por ella!», not an ironic comment.",
         ],
         examples: [
-          { es: "No way!", en: "¡No me digas! / ¡Qué dices!" },
-          { es: "You're kidding!", en: "¡No me lo puedo creer! / ¡Estás de broma!" },
+          { es: "No way!", en: "¡No me digas! / ¡No puede ser!" },
+          { es: "You're kidding!", en: "¡No me lo puedo creer! / ¡Estás bromeando!" },
           { es: "Seriously?", en: "¿En serio?" },
           { es: "Good for her!", en: "¡Me alegro por ella!" },
           { es: "Poor thing!", en: "¡Pobrecito! / ¡Pobrecita!" },
@@ -1962,7 +1962,7 @@ export const EN_B1_U19: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Te ha llamado Tom. Quiere que le devuelvas la llamada.",
+            source: "Te llamó Tom. Quiere que le devuelvas la llamada.",
             answer: "Tom called. He wants you to call him back.",
             altAnswers: ["Tom called you. He wants you to call him back.", "Tom has called. He wants you to call him back.", "Tom called. He wants you to call back."],
             explanation: "«Querer que» + person is \"want\" + person + \"to\": \"He wants you to call\". Never *He wants that you call.",
@@ -2152,7 +2152,7 @@ export const EN_B1_U19: Lesson[] = [
         examples: [
           { es: "We had a nice chat.", en: "Charlamos un rato muy a gusto." },
           { es: "I was chatting with Ana.", en: "Estaba charlando con Ana." },
-          { es: "Stop gossiping about your neighbors!", en: "¡Deja de cotillear sobre tus vecinos!" },
+          { es: "Stop gossiping about your neighbors!", en: "¡Deja de chismear sobre tus vecinos!" },
           { es: "Have you heard any gossip?", en: "¿Te has enterado de algún chisme?" },
           { es: "I need to talk to you about the trip.", en: "Tengo que hablar contigo del viaje." },
         ],
@@ -2313,7 +2313,7 @@ export const EN_B1_U19: Lesson[] = [
           { left: "argue", right: "discutir (pelear)" },
           { left: "chat", right: "charlar" },
           { left: "complain", right: "quejarse" },
-          { left: "gossip", right: "cotillear" },
+          { left: "gossip", right: "chismear" },
         ],
         explanation: "These verbs describe different ways of talking. Remember: \"argue\" is a fight, not «argumentar».",
       },

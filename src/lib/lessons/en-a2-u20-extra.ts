@@ -28,7 +28,7 @@ export const EN_A2_U20_EXTRA: Lesson[] = [
           { es: "I'm currently looking for a job.", en: "Actualmente busco trabajo." },
           { es: "I realized I had the wrong number.", en: "Me di cuenta de que tenía el número equivocado." },
           { es: "I was so embarrassed at the party.", en: "Pasé mucha vergüenza en la fiesta." },
-          { es: "I think I have a cold.", en: "Creo que estoy constipado." },
+          { es: "I think I have a cold.", en: "Creo que estoy resfriado." },
           { es: "Be sensible and take a jacket.", en: "Sé sensato y llévate una chaqueta." },
         ],
         checkpoint: [

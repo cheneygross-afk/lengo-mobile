@@ -956,10 +956,10 @@ export const EN_B1_U02_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "I've lost my phone. I left it on the bus.", en: "He perdido el celular. Lo dejé en el autobús." },
-          { es: "Ana has passed her driving test. She took it on Tuesday.", en: "Ana ha aprobado el examen de manejar. Lo hizo el martes." },
+          { es: "Ana has passed her driving test. She took it on Tuesday.", en: "Ana ha aprobado el examen de manejo. Lo hizo el martes." },
           { es: "Police have arrested a man. They found him in a hotel.", en: "La policía ha detenido a un hombre. Lo encontraron en un hotel." },
           { es: "We've sold the car. A neighbor bought it last week.", en: "Hemos vendido el carro. Lo compró un vecino la semana pasada." },
-          { es: "I've found a new apartment. I saw it yesterday and I loved it.", en: "He encontrado un piso nuevo. Lo vi ayer y me encantó." },
+          { es: "I've found a new apartment. I saw it yesterday and I loved it.", en: "He encontrado un departamento nuevo. Lo vi ayer y me encantó." },
         ],
         checkpoint: [
           {
@@ -1093,7 +1093,7 @@ export const EN_B1_U02_EXTRA: Lesson[] = [
         type: "matching",
         instructions: "Match each English sentence with its meaning.",
         pairs: [
-          { left: "I've passed my driving test.", right: "He aprobado el examen de manejar." },
+          { left: "I've passed my driving test.", right: "He aprobado el examen de manejo." },
           { left: "I took it this morning.", right: "Lo hice esta mañana." },
           { left: "Police have found the missing dog.", right: "La policía ha encontrado al perro perdido." },
           { left: "A woman saw it in the park.", right: "Una mujer lo vio en el parque." },

@@ -146,14 +146,14 @@ export const EN_B2_U21: Lesson[] = [
         body: [
           "After \"than\" and \"as\", everyday English uses an object pronoun: \"She's taller than me\", \"He's as old as me\". In careful English people often use a full clause: \"She's taller than I am\". \"She's taller than I\" on its own sounds stiff.",
           "Spanish «que yo» pushes you toward \"than I\". Say \"than me\" or \"than I am / than I do\", and match the auxiliary to the verb: \"She runs faster than I do\", not *than I am.",
-          "\"Like\" + noun or pronoun compares: \"She sings like an angel\" («canta como un ángel»). \"As\" + noun gives a role or job: \"He works as a waiter\" («trabaja de camarero»). \"As\" + clause is the careful choice: \"As I said, ...\"; in casual American English \"like I said\" is also common.",
+          "\"Like\" + noun or pronoun compares: \"She sings like an angel\" («canta como un ángel»). \"As\" + noun gives a role or job: \"He works as a waiter\" («trabaja de mesero»). \"As\" + clause is the careful choice: \"As I said, ...\"; in casual American English \"like I said\" is also common.",
         ],
         examples: [
           { es: "My brother is taller than me.", en: "Mi hermano es más alto que yo." },
           { es: "My brother is taller than I am.", en: "Mi hermano es más alto que yo." },
           { es: "She speaks French better than I do.", en: "Habla francés mejor que yo." },
           { es: "You look like your mother.", en: "Te pareces a tu madre." },
-          { es: "He worked as a waiter for two years.", en: "Trabajó de camarero dos años." },
+          { es: "He worked as a waiter for two years.", en: "Trabajó de mesero dos años." },
           { es: "As I said, the meeting is at ten.", en: "Como dije, la reunión es a las diez." },
         ],
         checkpoint: [
@@ -242,7 +242,7 @@ export const EN_B2_U21: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Trabaja de profesora en un instituto.",
+        source: "Trabaja de profesora en una preparatoria.",
         answer: "She works as a teacher at a high school.",
         altAnswers: alts(
           "She works as a teacher at a high school.",
@@ -311,7 +311,7 @@ export const EN_B2_U21: Lesson[] = [
         ],
         examples: [
           { es: "Both of my parents are teachers.", en: "Mi padre y mi madre son profesores los dos." },
-          { es: "We can meet on either day.", en: "Podemos quedar cualquiera de los dos días." },
+          { es: "We can meet on either day.", en: "Podemos vernos cualquiera de los dos días." },
           { es: "Neither of them speaks Spanish.", en: "Ninguno de los dos habla español." },
           { es: "I don't like either of them.", en: "No me gusta ninguno de los dos." },
           { es: "Neither answer is correct.", en: "Ninguna de las dos respuestas es correcta." },
@@ -560,7 +560,7 @@ export const EN_B2_U21: Lesson[] = [
           { es: "I have a few questions.", en: "Tengo unas cuantas preguntas." },
           { es: "Can I have a little sugar?", en: "¿Me das un poco de azúcar?" },
           { es: "I only need a few dollars.", en: "Solo necesito unos pocos dólares." },
-          { es: "There's a little milk in the fridge.", en: "Hay un poco de leche en la nevera." },
+          { es: "There's a little milk in the fridge.", en: "Hay un poco de leche en el refrigerador." },
           { es: "We have a little time before the train leaves.", en: "Tenemos un poco de tiempo antes de que salga el tren." },
           { es: "They live in a little house by the sea.", en: "Viven en una casita junto al mar." },
         ],
@@ -1266,7 +1266,7 @@ export const EN_B2_U21: Lesson[] = [
     slug: "b2-comparatives-dialogue-choosing",
     level: "EN-B2",
     number: 6,
-    title: "Dialogue Lab: Choosing a Flat",
+    title: "Dialogue Lab: Choosing an Apartment",
     summary: "Emma and Diego are choosing an apartment (a \"flat\" in British English). Follow their conversation and learn the language people really use to compare options and make a decision.",
     duration: "10 min",
     sections: [
@@ -1438,6 +1438,7 @@ export const EN_B2_U21: Lesson[] = [
         altAnswers: alts(
           "Both of them are near the subway.",
           "{Both of them|They both|Both} are {near|close to} the {subway|metro|subway station|metro station|underground|tube}.",
+          "They are both {near|close to} the {subway|metro|subway station|metro station}.",
         ),
         explanation: "«Los dos» is \"both of them\" or \"they both\". Americans say \"subway\"; Londoners say \"the Underground\" or \"the Tube\".",
       },
@@ -1517,7 +1518,7 @@ export const EN_B2_U21: Lesson[] = [
             answer: "Both cities have good public transportation.",
             altAnswers: alts(
               "Both cities have good public transportation.",
-              "Both {cities|of the cities} have good public {transportation|transport}.",
+              "Both {cities|of the cities|the cities} have good public {transportation|transport}.",
               "The two cities both have good public {transportation|transport}.",
             ),
             explanation: "«Las dos ciudades» is \"both cities\" (\"both the cities\" and \"both of the cities\" are also correct). Americans say \"public transportation\"; the British say \"public transport\".",
@@ -1981,7 +1982,7 @@ export const EN_B2_U21: Lesson[] = [
           "Extreme adjectives don't normally have comparatives: you don't say *more huge or *more enormous. Use a normal adjective instead: \"bigger\", \"larger\".",
         ],
         examples: [
-          { es: "It's absolutely freezing outside.", en: "Hace un frío que pela." },
+          { es: "It's absolutely freezing outside.", en: "Hace un frío tremendo." },
           { es: "I'm absolutely exhausted.", en: "Estoy agotado." },
           { es: "The food was really delicious.", en: "La comida estaba buenísima." },
           { es: "Their new house is huge.", en: "Su casa nueva es enorme." },
@@ -2060,7 +2061,7 @@ export const EN_B2_U21: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Hacía un frío que pelaba.",
+        source: "Hacía un frío tremendo.",
         answer: "It was absolutely freezing.",
         altAnswers: alts("It was absolutely freezing.", "It was {absolutely|really} freezing{ cold|}.", "It was freezing{ cold|}."),
         explanation: "\"Freezing\" is extreme, so it takes \"absolutely\" or \"really\", not \"very\".",

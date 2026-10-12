@@ -152,7 +152,7 @@ export const EN_B2_U02_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi abuela siempre nos hacía tortitas los domingos.",
+        source: "Mi abuela siempre nos hacía panqueques los domingos.",
         answer: "My grandmother always made us pancakes on Sundays.",
         altAnswers: [
           "My grandmother would always make us pancakes on Sundays.",
@@ -167,7 +167,7 @@ export const EN_B2_U02_EXTRA: Lesson[] = [
           "On Sundays my grandmother always made us pancakes.",
           "On Sundays, my grandmother would always make us pancakes.",
         ],
-        explanation: "A repeated action in the past: past simple, \"used to\" or \"would\". «Hacer tortitas» is \"make pancakes\", not *do pancakes.",
+        explanation: "A repeated action in the past: past simple, \"used to\" or \"would\". «Hacer panqueques» is \"make pancakes\", not *do pancakes.",
       },
       {
         type: "translate",

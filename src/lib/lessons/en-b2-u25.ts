@@ -22,7 +22,7 @@ export const EN_B2_U25: Lesson[] = [
         examples: [
           { es: "My phone downloads updates automatically at night.", en: "Mi celular descarga las actualizaciones automáticamente por la noche." },
           { es: "You need to log in with your email address.", en: "Tienes que iniciar sesión con tu correo electrónico." },
-          { es: "Don't forget to log out on shared computers.", en: "No te olvides de cerrar sesión en los ordenadores compartidos." },
+          { es: "Don't forget to log out on shared computers.", en: "No te olvides de cerrar sesión en las computadoras compartidas." },
           { es: "I back up my photos to the cloud every week.", en: "Hago una copia de seguridad de mis fotos en la nube cada semana." },
           { es: "Please turn off all electronic devices.", en: "Por favor, apaguen todos los aparatos electrónicos." },
           { es: "There's a new update for this app.", en: "Hay una nueva actualización para esta aplicación." },
@@ -56,7 +56,7 @@ export const EN_B2_U25: Lesson[] = [
         ],
         examples: [
           { es: "My laptop crashed and I lost two hours of work.", en: "El portátil se colgó y perdí dos horas de trabajo." },
-          { es: "The screen froze, so I had to restart the computer.", en: "La pantalla se quedó congelada, así que tuve que reiniciar el ordenador." },
+          { es: "The screen froze, so I had to restart the computer.", en: "La pantalla se quedó congelada, así que tuve que reiniciar la computadora." },
           { es: "The bank's website has been down all morning.", en: "La web del banco lleva caída toda la mañana." },
           { es: "Sorry I didn't call you back. My phone died.", en: "Perdona que no te devolviera la llamada. Me quedé sin batería." },
           { es: "There's no signal in the mountains.", en: "En la montaña no hay cobertura." },
@@ -67,7 +67,7 @@ export const EN_B2_U25: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Se me ha quedado congelado el ordenador otra vez.",
+            source: "Se me volvió a congelar la computadora.",
             answer: "My computer has frozen again.",
             altAnswers: ["My computer froze again.", "My computer has crashed again.", "My computer crashed again.", "My laptop has frozen again.", "My laptop froze again.", "My computer's frozen again."],
             explanation: "A screen that stops responding \"freezes\" (\"froze\", \"frozen\"). English uses a simple subject, \"my computer\", where Spanish says «se me ha...».",
@@ -85,16 +85,16 @@ export const EN_B2_U25: Lesson[] = [
         heading: "Describing technology",
         body: [
           "\"User-friendly\" means easy to use: \"The app is very user-friendly\". \"Cutting-edge\" and \"state-of-the-art\" mean the most modern and advanced: \"cutting-edge technology\". The opposite is \"outdated\" or \"obsolete\".",
-          "\"Reliable\" means you can trust it to work, like Spanish «fiable», and \"wireless\" means without cables: \"wireless headphones\". \"High-tech\" describes anything that uses advanced technology: \"a high-tech company\".",
+          "\"Reliable\" means you can trust it to work, like Spanish «confiable», and \"wireless\" means without cables: \"wireless headphones\". \"High-tech\" describes anything that uses advanced technology: \"a high-tech company\".",
           "Remember that compound adjectives with a hyphen go before the noun without -s: \"a state-of-the-art hospital\", \"two user-friendly apps\". Adjectives never take a plural -s in English.",
         ],
         examples: [
           { es: "The new app is really user-friendly.", en: "La nueva aplicación es muy fácil de usar." },
-          { es: "The hospital uses cutting-edge technology.", en: "El hospital utiliza tecnología punta." },
+          { es: "The hospital uses cutting-edge technology.", en: "El hospital utiliza tecnología de punta." },
           { es: "They have a state-of-the-art laboratory.", en: "Tienen un laboratorio de última generación." },
           { es: "This software is completely outdated.", en: "Este programa está totalmente desfasado." },
-          { es: "I need a more reliable internet connection.", en: "Necesito una conexión a internet más fiable." },
-          { es: "I bought some wireless headphones.", en: "Me compré unos auriculares inalámbricos." },
+          { es: "I need a more reliable internet connection.", en: "Necesito una conexión a internet más confiable." },
+          { es: "I bought some wireless headphones.", en: "Me compré unos audífonos inalámbricos." },
         ],
         checkpoint: [
           {
@@ -247,7 +247,7 @@ export const EN_B2_U25: Lesson[] = [
         ],
         examples: [
           { es: "Artificial intelligence is developing very quickly.", en: "La inteligencia artificial está avanzando muy deprisa." },
-          { es: "The algorithm decides which videos you see.", en: "El algoritmo decide qué vídeos ves." },
+          { es: "The algorithm decides which videos you see.", en: "El algoritmo decide qué videos ves." },
           { es: "The company collects a lot of data about its users.", en: "La empresa recopila muchos datos sobre sus usuarios." },
           { es: "The data is stored on servers in Ireland.", en: "Los datos se almacenan en servidores en Irlanda." },
           { es: "Banks are automating many routine tasks.", en: "Los bancos están automatizando muchas tareas rutinarias." },
@@ -381,8 +381,8 @@ export const EN_B2_U25: Lesson[] = [
         sentence: "By the time you read this, the robots ___ the factory.",
         answer: "will have taken over",
         altAnswers: ["will've taken over", "will have taken control of"],
-        en: "Cuando leas esto, los robots ya [se habrán hecho con el control de] la fábrica.",
-        explanation: "«Se habrán hecho con el control» is the future perfect of \"take over\": \"will have taken over\".",
+        en: "Cuando leas esto, los robots ya [habrán tomado el control de] la fábrica.",
+        explanation: "«Habrán tomado el control» is the future perfect of \"take over\": \"will have taken over\".",
       },
       {
         type: "translate",
@@ -479,7 +479,7 @@ export const EN_B2_U25: Lesson[] = [
           { es: "The news is very worrying today.", en: "Las noticias de hoy son muy preocupantes." },
           { es: "I have some good news for you!", en: "¡Tengo una buena noticia para ti!" },
           { es: "That's the best piece of news I've heard all week.", en: "Es la mejor noticia que he oído en toda la semana." },
-          { es: "I saw it on the news last night.", en: "Lo vi en el telediario anoche." },
+          { es: "I saw it on the news last night.", en: "Lo vi en el noticiero anoche." },
           { es: "I read an interesting story in the newspaper.", en: "Leí una noticia interesante en el periódico." },
         ],
         checkpoint: [
@@ -547,7 +547,7 @@ export const EN_B2_U25: Lesson[] = [
         examples: [
           { es: "There's a lot of fake news on social media.", en: "Hay muchas noticias falsas en las redes sociales." },
           { es: "I think that newspaper is very biased.", en: "Creo que ese periódico es muy parcial." },
-          { es: "The video went viral in a few hours.", en: "El vídeo se hizo viral en pocas horas." },
+          { es: "The video went viral in a few hours.", en: "El video se hizo viral en pocas horas." },
           { es: "The match will be broadcast live.", en: "El partido se retransmitirá en directo." },
           { es: "Don't believe that headline. It's just clickbait.", en: "No te creas ese titular. Es solo un cebo para que hagas clic." },
         ],
@@ -556,7 +556,7 @@ export const EN_B2_U25: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Su vídeo se hizo viral.",
+            source: "Su video se hizo viral.",
             answer: "His video went viral.",
             altAnswers: ["Her video went viral.", "Their video went viral.", "Your video went viral.", "His video has gone viral.", "Her video has gone viral.", "Their video has gone viral.", "Your video has gone viral."],
             explanation: "«Hacerse viral» is \"go viral\" (\"went\", \"gone\"). «Su» can be \"his\", \"her\", \"their\" or \"your\": English needs to choose.",
@@ -735,7 +735,7 @@ export const EN_B2_U25: Lesson[] = [
         examples: [
           { es: "I'm addicted to scrolling through TikTok.", en: "Estoy enganchado a deslizar por TikTok." },
           { es: "He spends hours checking his notifications.", en: "Se pasa horas mirando las notificaciones." },
-          { es: "I can't stop watching these videos.", en: "No puedo dejar de ver estos vídeos." },
+          { es: "I can't stop watching these videos.", en: "No puedo dejar de ver estos videos." },
           { es: "I'm tired of seeing ads everywhere.", en: "Estoy harta de ver anuncios por todas partes." },
           { es: "She's obsessed with getting more likes.", en: "Está obsesionada con conseguir más me gusta." },
         ],
@@ -1452,7 +1452,7 @@ export const EN_B2_U25: Lesson[] = [
           { es: "Turn the volume down. It's too loud.", en: "Baja el volumen. Está demasiado alto." },
           { es: "Plug your laptop in before the battery dies.", en: "Enchufa el portátil antes de que se le acabe la batería." },
           { es: "I need to charge my phone.", en: "Tengo que cargar el celular." },
-          { es: "Shut down your computer before you leave.", en: "Apaga el ordenador antes de irte." },
+          { es: "Shut down your computer before you leave.", en: "Apaga la computadora antes de irte." },
         ],
         checkpoint: [
           {
@@ -1481,7 +1481,7 @@ export const EN_B2_U25: Lesson[] = [
           "Separable verbs in this lesson: \"turn on/off/up/down\", \"switch on/off\", \"plug in\", \"back up\", \"look up\" (find information), \"shut down\" (a computer), \"set up\" (prepare or install).",
         ],
         examples: [
-          { es: "I don't know that word. I'll look it up.", en: "No sé esa palabra. La buscaré." },
+          { es: "I don't know that word. I'll look it up.", en: "No conozco esa palabra. La buscaré." },
           { es: "The TV is still on. Can you turn it off?", en: "La tele sigue encendida. ¿La puedes apagar?" },
           { es: "These photos are important. Back them up!", en: "Estas fotos son importantes. ¡Haz una copia de seguridad!" },
           { es: "Where's the charger? I need to plug it in.", en: "¿Dónde está el cargador? Tengo que enchufarlo." },
@@ -1514,7 +1514,7 @@ export const EN_B2_U25: Lesson[] = [
           "Remember: the noun and adjective are often written as one word or with a hyphen (\"a login\", \"a sign-up form\", \"a backup\"), while the verb is two words (\"log in\", \"sign up\", \"back up\").",
         ],
         examples: [
-          { es: "I signed up for an online course.", en: "Me apunté a un curso en línea." },
+          { es: "I signed up for an online course.", en: "Me inscribí en un curso en línea." },
           { es: "Log in to your account to see your orders.", en: "Inicia sesión en tu cuenta para ver tus pedidos." },
           { es: "Scroll down to the bottom of the page.", en: "Baja hasta el final de la página." },
           { es: "Zoom in so we can see the map better.", en: "Amplía para que veamos mejor el mapa." },
@@ -1601,7 +1601,7 @@ export const EN_B2_U25: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Please", "shut", "down", "your", "computers", "before", "you", "leave."],
-        translation: "Por favor, apaguen los ordenadores antes de irse.",
+        translation: "Por favor, apaguen las computadoras antes de irse.",
         altOrders: [["Please", "shut", "your", "computers", "down", "before", "you", "leave."]],
         explanation: "\"Shut down\" is separable, so the noun can go after the particle or in the middle.",
       },
@@ -1642,7 +1642,7 @@ export const EN_B2_U25: Lesson[] = [
         examples: [
           { es: "The development of new technologies is very fast.", en: "El desarrollo de nuevas tecnologías es muy rápido." },
           { es: "There has been a big improvement in air quality.", en: "Ha habido una gran mejora en la calidad del aire." },
-          { es: "We need to raise awareness about climate change.", en: "Tenemos que concienciar sobre el cambio climático." },
+          { es: "We need to raise awareness about climate change.", en: "Tenemos que concientizar sobre el cambio climático." },
           { es: "Money doesn't buy happiness.", en: "El dinero no da la felicidad." },
           { es: "Protecting the planet is everyone's responsibility.", en: "Proteger el planeta es responsabilidad de todos." },
           { es: "Thanks for the explanation.", en: "Gracias por la explicación." },
@@ -1712,7 +1712,7 @@ export const EN_B2_U25: Lesson[] = [
         examples: [
           { es: "It's dangerous to use your phone while driving.", en: "Es peligroso usar el celular mientras manejas." },
           { es: "She's very ambitious.", en: "Es muy ambiciosa." },
-          { es: "Solar panels are more affordable than before.", en: "Las placas solares son más asequibles que antes." },
+          { es: "Solar panels are more affordable than before.", en: "Los paneles solares son más asequibles que antes." },
           { es: "The new model will be available next month.", en: "El nuevo modelo estará disponible el mes que viene." },
           { es: "That's a very sensible decision.", en: "Es una decisión muy sensata." },
           { es: "He's very sensitive to criticism.", en: "Es muy sensible a las críticas." },
@@ -1744,7 +1744,7 @@ export const EN_B2_U25: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "We need more ___ about the risks of AI.",
         answer: "awareness",
-        en: "Necesitamos más [concienciación] sobre los riesgos de la IA.",
+        en: "Necesitamos más [concientización] sobre los riesgos de la IA.",
         explanation: "\"Aware\" + \"-ness\" = \"awareness\" («conciencia», «concienciación»). \"Conscience\" is the moral sense, a different word.",
       },
       {
@@ -1877,7 +1877,7 @@ export const EN_B2_U25: Lesson[] = [
           { es: "I think social media will become even more important.", en: "Creo que las redes sociales serán todavía más importantes." },
           { es: "Look at the sky. There's going to be a storm.", en: "Mira el cielo. Va a haber tormenta." },
           { es: "We're launching the new app on Monday.", en: "Lanzamos la nueva aplicación el lunes." },
-          { es: "This time next year, I'll be working for a tech company.", en: "Dentro de un año a estas alturas estaré trabajando en una empresa tecnológica." },
+          { es: "This time next year, I'll be working for a tech company.", en: "El año que viene a estas alturas estaré trabajando en una empresa tecnológica." },
           { es: "Energy prices are bound to rise again.", en: "Seguro que los precios de la energía vuelven a subir." },
         ],
         checkpoint: [
@@ -1957,7 +1957,7 @@ export const EN_B2_U25: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Para el año que viene, habremos instalado placas solares en todos los colegios.",
+        source: "Para el año que viene, habremos instalado paneles solares en todas las escuelas.",
         answer: "By next year, we will have installed solar panels in all the schools.",
         altAnswers: ["By next year we will have installed solar panels in all the schools.", "By next year, we'll have installed solar panels in all the schools.", "By next year, we will have installed solar panels in every school.", "By next year, we'll have installed solar panels in every school.", "By next year, we will have installed solar panels in all schools.", "By next year, we'll have installed solar panels in all schools.", "We will have installed solar panels in all the schools by next year.", "We'll have installed solar panels in all the schools by next year.", "We'll have installed solar panels in every school by next year.", "By next year, we will have put solar panels in all the schools.", "By next year, we'll have put solar panels in every school.", "By next year, we will have installed solar panels on all the schools.", "By next year, we'll have installed solar panels on every school."],
         explanation: "«Habremos instalado» = \"will have installed\" (future perfect). «Para» + time = \"by\".",
@@ -1986,7 +1986,7 @@ export const EN_B2_U25: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El vídeo se ha compartido más de un millón de veces.",
+        source: "El video se ha compartido más de un millón de veces.",
         answer: "The video has been shared more than a million times.",
         altAnswers: ["The video has been shared over a million times.", "The video has been shared more than one million times.", "The video has been shared over one million times.", "The video has been shared more than 1 million times.", "The video has been shared over 1 million times."],
         explanation: "Present perfect passive: \"has been shared\". \"A million times\", with no \"of\".",
@@ -2064,7 +2064,7 @@ export const EN_B2_U25: Lesson[] = [
         ],
         examples: [
           { es: "The new model is much faster than the old one.", en: "El modelo nuevo es mucho más rápido que el viejo." },
-          { es: "Online news is less reliable than it used to be.", en: "Las noticias en internet son menos fiables que antes." },
+          { es: "Online news is less reliable than it used to be.", en: "Las noticias en internet son menos confiables que antes." },
           { es: "The more time you spend online, the less you sleep.", en: "Cuanto más tiempo pasas en internet, menos duermes." },
           { es: "The sooner you back up your files, the better.", en: "Cuanto antes hagas la copia de seguridad, mejor." },
           { es: "Phones are getting more and more expensive.", en: "Los celulares son cada vez más caros." },
@@ -2099,7 +2099,7 @@ export const EN_B2_U25: Lesson[] = [
           { es: "You've been online all night. You must be exhausted.", en: "Has estado conectado toda la noche. Debes de estar agotado." },
           { es: "That headline can't be true.", en: "Ese titular no puede ser verdad." },
           { es: "He hasn't replied. He must have blocked me.", en: "No me ha contestado. Seguro que me ha bloqueado." },
-          { es: "She can't have seen my message. It says unread.", en: "No puede haber visto mi mensaje. Pone que no está leído." },
+          { es: "She can't have seen my message. It says unread.", en: "No puede haber visto mi mensaje. Dice que no está leído." },
           { es: "The app might have crashed.", en: "Puede que la aplicación se haya colgado." },
         ],
         checkpoint: [
@@ -2138,7 +2138,7 @@ export const EN_B2_U25: Lesson[] = [
         sentence: "That video ___ fake. Look at the shadows!",
         answer: "must be",
         altAnswers: ["has to be", "is definitely"],
-        en: "Ese vídeo [tiene que ser] falso. ¡Mira las sombras!",
+        en: "Ese video [tiene que ser] falso. ¡Mira las sombras!",
         explanation: "A confident deduction about the present is \"must be\" (or \"has to be\").",
       },
       {

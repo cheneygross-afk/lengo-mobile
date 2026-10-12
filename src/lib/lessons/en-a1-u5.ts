@@ -586,7 +586,7 @@ export const EN_A1_U5: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "¿Cuántos años tienes?",
         answer: "How old are you?",
-        explanation: "Literalmente «¿cómo de viejo eres?». Nunca *How many years do you have?.",
+        explanation: "Literalmente «¿qué tan viejo eres?». Nunca *How many years do you have?.",
       },
       {
         type: "fill-blank",
@@ -1089,7 +1089,7 @@ export const EN_A1_U5: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Quedas con un amigo a las 8 de la noche. ¿Qué escribes?",
+        question: "Vas a verte con un amigo a las 8 de la noche. ¿Qué escribes?",
         options: ["See you at 8 p.m.", "See you at 8 a.m.", "See you at the 8 p.m.", "See you in 8 p.m."],
         correctIndex: 0,
         explanation: "\"P.m.\" es de mediodía a medianoche, y la hora va con \"at\", sin artículo.",

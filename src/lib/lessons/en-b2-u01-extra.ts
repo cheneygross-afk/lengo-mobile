@@ -26,7 +26,7 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
         examples: [
           { es: "It was raining when I left the office.", en: "Llovía cuando salí de la oficina." },
           { es: "I was driving home when my phone rang.", en: "Iba manejando a casa cuando sonó el teléfono." },
-          { es: "While we were talking, the waiter brought the bill.", en: "Mientras hablábamos, el camarero trajo la cuenta." },
+          { es: "While we were talking, the waiter brought the bill.", en: "Mientras hablábamos, el mesero trajo la cuenta." },
           { es: "The kids were watching TV, so the house was quiet.", en: "Los niños veían la tele, así que la casa estaba tranquila." },
           { es: "When she saw me, she smiled.", en: "Cuando me vio, sonrió." },
         ],
@@ -288,13 +288,13 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
         body: [
           "The past perfect (\"had\" + past participle) jumps back to an event that happened before another past event: \"When we got there, the film had started\". Without it, English tells the events in order: \"When we got there, the film started\" means it started as we arrived.",
           "The participle is the third form of the verb: \"had seen\", \"had gone\", \"had eaten\". *Had saw, *had went and *had ate are common mistakes; the second form (\"saw\", \"went\") is never used after \"had\".",
-          "Do not overuse it. If you tell events in the order they happened, the past simple is enough: \"I got up, had a shower and left\". «Ya» goes between \"had\" and the participle: \"had already left\".",
+          "Do not overuse it. If you tell events in the order they happened, the past simple is enough: \"I got up, took a shower and left\". «Ya» goes between \"had\" and the participle: \"had already left\".",
         ],
         examples: [
           { es: "When we got there, the film had already started.", en: "Cuando llegamos, la película ya había empezado." },
           { es: "She had already left when I called.", en: "Ya se había ido cuando la llamé." },
           { es: "I had never seen so much snow.", en: "Nunca había visto tanta nieve. (incorrecto: *I had never saw)" },
-          { es: "I got up, had a shower and left.", en: "Me levanté, me duché y me fui." },
+          { es: "I got up, took a shower and left.", en: "Me levanté, me duché y me fui." },
           { es: "By the time the police arrived, the thieves had escaped.", en: "Para cuando llegó la policía, los ladrones se habían escapado." },
         ],
         checkpoint: [
@@ -1284,14 +1284,14 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
         heading: "Quick recap: while, during, as soon as, by the time",
         body: [
           "\"During\" is a preposition: it goes before a noun (\"during the night\", \"during the meeting\"). \"While\" is a conjunction: it goes before a subject and verb (\"while I was sleeping\"). *During I was sleeping is a typical error, because «durante» and «mientras» get mixed up.",
-          "\"As soon as\" is «en cuanto, nada más»: \"As soon as I arrived, I called her\". \"By the time\" is «para cuando»: \"By the time we got there, the shop had closed\". \"Meanwhile\" is «mientras tanto» and starts a new sentence.",
+          "\"As soon as\" is «en cuanto, nada más»: \"As soon as I arrived, I called her\". \"By the time\" is «para cuando»: \"By the time we got there, the store had closed\". \"Meanwhile\" is «mientras tanto» and starts a new sentence.",
         ],
         examples: [
           { es: "I fell asleep during the movie.", en: "Me quedé dormido durante la película." },
           { es: "Someone called while I was sleeping.", en: "Alguien llamó mientras dormía. (incorrecto: *during I was sleeping)" },
           { es: "As soon as I arrived, I called her.", en: "En cuanto llegué, la llamé." },
-          { es: "By the time we got there, the shop had closed.", en: "Para cuando llegamos, la tienda había cerrado." },
-          { es: "I was cooking. Meanwhile, my son was doing his homework.", en: "Yo cocinaba. Mientras tanto, mi hijo hacía los deberes." },
+          { es: "By the time we got there, the store had closed.", en: "Para cuando llegamos, la tienda había cerrado." },
+          { es: "I was cooking. Meanwhile, my son was doing his homework.", en: "Yo cocinaba. Mientras tanto, mi hijo hacía la tarea." },
         ],
         checkpoint: [
           {
@@ -1419,7 +1419,7 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
           "First we had dinner and afterward we went to the movies.",
           "First we had dinner, and afterward we went to the movies.",
         ],
-        explanation: "«Después» on its own is \"afterwards\", \"after that\" or \"then\", not *after we went. «Ir al cine» is \"go to the movies\" (American) or \"go to the cinema\" (British).",
+        explanation: "«Después» on its own is \"afterwards\", \"after that\" or \"then\": *and after we went to the movies sounds unfinished, because \"after\" alone usually needs a noun or a clause. «Ir al cine» is \"go to the movies\" (American) or \"go to the cinema\" (British).",
       },
       {
         type: "multiple-choice",

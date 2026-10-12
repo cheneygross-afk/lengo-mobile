@@ -153,7 +153,7 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
       "\"Do you mind if I...?\" or \"I was wondering if...\"",
       "A polite opening and closing",
     ],
-    "Dear Mr. Brown,\n\nI hope you are well. I'm writing because I have a couple of small problems in the apartment. Could you send someone to look at the kitchen tap? It has been leaking for a week. Would you mind also checking the heating before the winter? It makes a strange noise at night.\n\nI also have a question. My sister is coming to stay for a month in November. Would it be OK if she stayed with me? I was wondering if I could also put a small table on the balcony.\n\nThank you very much for your help.\n\nBest regards,\nLucia Garcia",
+    "Dear Mr. Brown,\n\nI hope you are well. I'm writing because I have a couple of small problems in the apartment. Could you send someone to look at the kitchen faucet? It has been leaking for a week. Would you mind also checking the heating before the winter? It makes a strange noise at night.\n\nI also have a question. My sister is coming to stay for a month in November. Would it be OK if she stayed with me? I was wondering if I could also put a small table on the balcony.\n\nThank you very much for your help.\n\nBest regards,\nLucia Garcia",
     "\"Would you mind\" is followed by -ing (\"Would you mind checking\"), not by \"to\". Polite English often uses past forms to sound softer: \"I was wondering if I could...\" is more polite than \"I want...\"."
   ),
   u14: t(
@@ -172,7 +172,7 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
     [
       "\"have something done\" at least three times (\"I'm having my hair cut\")",
       "\"get something done\" at least once",
-      "Passive structures like \"it is said that\" or \"he is supposed to\"",
+      "Passive structures like \"it is said that\" or \"he is said to\"",
       "A contrast between what you do yourself and what others do for you",
     ],
     "My best friend's wedding is on Saturday, and I'm very busy! Yesterday I had my suit cleaned, and tomorrow I'm having my hair cut at a salon in the center. I also need to get my shoes repaired, because one of them is broken.\n\nI'm doing some things myself, too. I'm writing a speech, which is supposed to be funny. I'm a bit nervous, because it's said that the groom's family is very serious!\n\nThe couple are having the cake made by a famous baker, and they're having the photos taken by a professional. It's going to be a beautiful day.",
@@ -311,7 +311,7 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
     "\"bored\" describes how you feel and \"boring\" describes what causes the feeling: \"I was bored\", not *I was boring (unless you mean you were a dull person!). Opinion adjectives go before size, age, color and material: \"a lovely old stone house\"."
   ),
   u28: t(
-    "Write an opinion paragraph: \"Should children have a mobile phone before they are twelve?\" Give arguments for and against and finish with your own opinion. Link your ideas with connectors.",
+    "Write an opinion paragraph: \"Should children have a cell phone before they are twelve?\" Give arguments for and against and finish with your own opinion. Link your ideas with connectors.",
     [
       "Contrast: \"although\", \"despite\" / \"in spite of\", \"however\"",
       "Addition: \"moreover\", \"in addition\" or \"what's more\"",
@@ -362,7 +362,7 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
       "At least one quotation reported with \"said\" or \"told\"",
       "A headline and a neutral, factual tone",
     ],
-    "Local Team Wins the Cup\n\nOn Saturday afternoon, our town's football team won the regional cup for the first time in thirty years. The final was played at the city stadium in front of more than five thousand fans.\n\nThe only goal was scored by Lucas Moreno, a nineteen-year-old player, in the last minute of the match. The referee was criticized by the other team, who said the goal was offside.\n\nAfter the match, the coach told reporters that he was very proud of his players. The fans celebrated in the main square until midnight. The trophy will be shown at the town hall next week.",
+    "Local Team Wins the Cup\n\nOn Saturday afternoon, our town's soccer team won the regional cup for the first time in thirty years. The final was played at the city stadium in front of more than five thousand fans.\n\nThe only goal was scored by Lucas Moreno, a nineteen-year-old player, in the last minute of the match. The referee was criticized by the other team, who said the goal was offside.\n\nAfter the match, the coach told reporters that he was very proud of his players. The fans celebrated in the main square until midnight. The trophy will be shown at the town hall next week.",
     "News reports use the past simple and many passives, because the event matters more than who did it: \"The final was played at the stadium\". Reported speech keeps the tone neutral: \"the coach told reporters that he was proud\"."
   ),
   u33: t(

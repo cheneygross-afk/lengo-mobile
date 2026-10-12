@@ -67,7 +67,7 @@ export const EN_B1_U11: Lesson[] = [
             sentence: "Passengers ___ show their tickets.",
             answer: "must",
             altAnswers: ["have to"],
-            en: "Los pasajeros [deben] mostrar sus billetes.",
+            en: "Los pasajeros [deben] mostrar sus boletos.",
             explanation: "Written rules and signs typically use \"must\": \"Passengers must show their tickets.\" \"Have to\" is also correct.",
           },
           {
@@ -90,7 +90,7 @@ export const EN_B1_U11: Lesson[] = [
         ],
         examples: [
           { es: "I had to work late yesterday.", en: "Ayer tuve que trabajar hasta tarde." },
-          { es: "We had to walk home.", en: "Tuvimos que volver a casa andando." },
+          { es: "We had to walk home.", en: "Tuvimos que volver a casa caminando." },
           { es: "Did you have to pay for parking?", en: "¿Tuviste que pagar el estacionamiento?" },
           { es: "You'll have to wait a few minutes.", en: "Tendrás que esperar unos minutos." },
           { es: "She'll have to find a new job.", en: "Tendrá que buscar otro trabajo." },
@@ -133,7 +133,7 @@ export const EN_B1_U11: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "We ___ walk home because there were no taxis.",
         answer: "had to",
-        en: "[Tuvimos que] volver a casa andando porque no había taxis.",
+        en: "[Tuvimos que] volver a casa caminando porque no había taxis.",
         explanation: "The past of \"must\" and \"have to\" is \"had to\", the same for every person.",
       },
       {
@@ -272,7 +272,7 @@ export const EN_B1_U11: Lesson[] = [
           { es: "You don't have to bring anything.", en: "No hace falta que traigas nada." },
           { es: "You mustn't touch the wires.", en: "No toques los cables." },
           { es: "You don't have to take your shoes off.", en: "No hace falta que te quites los zapatos." },
-          { es: "You mustn't take photos in the museum.", en: "No se pueden hacer fotos en el museo." },
+          { es: "You mustn't take photos in the museum.", en: "No se pueden tomar fotos en el museo." },
         ],
         checkpoint: [
           {
@@ -524,7 +524,7 @@ export const EN_B1_U11: Lesson[] = [
           "When you translate «no tener que», «no poder» or «no hace falta», decide first which of these groups you need.",
         ],
         examples: [
-          { es: "You have to show your ID.", en: "Hay que enseñar el carnet." },
+          { es: "You have to show your ID.", en: "Hay que mostrar la identificación." },
           { es: "You don't need to print the ticket.", en: "No hace falta imprimir la entrada." },
           { es: "You aren't allowed to bring food.", en: "No se permite traer comida." },
           { es: "You can sit anywhere.", en: "Puedes sentarte donde quieras." },
@@ -704,12 +704,12 @@ export const EN_B1_U11: Lesson[] = [
       {
         heading: "Had better: strong advice with a warning",
         body: [
-          "\"Had better\" (almost always \"'d better\") is stronger than \"should\". It's advice with a warning: if you don't do it, something bad will happen. \"You'd better hurry or you'll miss the bus\" = «más vale que te des prisa».",
+          "\"Had better\" (almost always \"'d better\") is stronger than \"should\". It's advice with a warning: if you don't do it, something bad will happen. \"You'd better hurry or you'll miss the bus\" = «más vale que te apures».",
           "Even though it uses \"had\", it talks about now or the future, not the past. And there's no \"to\": \"You'd better go\", never *You had better to go.",
           "The negative is \"had better not\": \"You'd better not be late.\" Not *You hadn't better or *You'd better don't. It can sound like a threat, so be careful using it with your boss!",
         ],
         examples: [
-          { es: "You'd better hurry or you'll miss the bus.", en: "Más vale que te des prisa o perderás el autobús." },
+          { es: "You'd better hurry or you'll miss the bus.", en: "Más vale que te apures o perderás el autobús." },
           { es: "We'd better take an umbrella.", en: "Mejor llevamos paraguas." },
           { es: "You'd better not be late.", en: "Más te vale no llegar tarde." },
           { es: "I'd better go. It's late.", en: "Será mejor que me vaya. Es tarde." },
@@ -751,7 +751,7 @@ export const EN_B1_U11: Lesson[] = [
         sentence: "___ hurry or you'll miss the bus.",
         answer: "You'd better",
         altAnswers: ["You had better", "You should"],
-        en: "[Más vale que] te des prisa o perderás el autobús.",
+        en: "[Más vale que] te apures o perderás el autobús.",
         explanation: "Advice + warning («o perderás...») = \"had better\", usually \"you'd better\".",
       },
       {
@@ -1031,7 +1031,7 @@ export const EN_B1_U11: Lesson[] = [
         examples: [
           { es: "I have to finish this report today.", en: "Tengo que terminar este informe hoy." },
           { es: "We had to cancel the trip.", en: "Tuvimos que cancelar el viaje." },
-          { es: "You'll have to show your passport.", en: "Tendrás que enseñar el pasaporte." },
+          { es: "You'll have to show your passport.", en: "Tendrás que mostrar el pasaporte." },
           { es: "You don't need to print it.", en: "No hace falta que lo imprimas." },
         ],
         checkpoint: [
@@ -1054,7 +1054,7 @@ export const EN_B1_U11: Lesson[] = [
         ],
         examples: [
           { es: "You can't use your phone here.", en: "Aquí no se puede usar el celular." },
-          { es: "Are we allowed to take photos?", en: "¿Se pueden hacer fotos?" },
+          { es: "Are we allowed to take photos?", en: "¿Se pueden tomar fotos?" },
           { es: "You're supposed to wear a helmet.", en: "Se supone que hay que llevar casco." },
         ],
         checkpoint: [
@@ -1131,10 +1131,10 @@ export const EN_B1_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Se pueden hacer fotos?",
+        source: "¿Se pueden tomar fotos?",
         answer: "Are we allowed to take photos?",
         altAnswers: ["Can we take photos?", "Can we take pictures?", "Are we allowed to take pictures?", "Can I take photos?", "Can I take pictures?", "Am I allowed to take photos?", "Am I allowed to take pictures?", "Is it OK to take photos?", "Is it OK to take pictures?", "Are you allowed to take photos?", "Are you allowed to take pictures?", "Can you take photos?", "Can you take pictures?"],
-        explanation: "Asking about a rule: \"Are we allowed to...?\" or \"Can we...?\". English needs a subject where Spanish uses «se». «Hacer fotos» is \"take photos\", never *make photos.",
+        explanation: "Asking about a rule: \"Are we allowed to...?\" or \"Can we...?\". English needs a subject where Spanish uses «se». «Tomar fotos» is \"take photos\", never *make photos.",
       },
       {
         type: "fill-blank",
@@ -1149,7 +1149,7 @@ export const EN_B1_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Tendrás que enseñar el pasaporte.",
+        source: "Tendrás que mostrar el pasaporte.",
         answer: "You'll have to show your passport.",
         altAnswers: ["You will have to show your passport.", "You'll need to show your passport.", "You're going to have to show your passport."],
         explanation: "Future obligation: \"will have to\". *Will must doesn't exist.",
@@ -1397,14 +1397,14 @@ export const EN_B1_U11: Lesson[] = [
         body: [
           "You're going to share an apartment with three other people, or you're running a small hostel. Before anyone moves in, you need a clear list of house rules.",
           "Good rules use the whole toolkit from this unit: obligation (\"You have to\", \"Everyone must\"), prohibition (\"You can't\", \"You mustn't\", \"Guests aren't allowed to\"), no obligation (\"You don't have to\") and expectations (\"You're supposed to\").",
-          "Vocabulary note: Americans say \"apartment\" and \"roommate\"; British people say \"flat\" and \"flatmate\". A «piso compartido» is a \"shared apartment\" (US) or a \"flat share\" (UK).",
+          "Vocabulary note: Americans say \"apartment\" and \"roommate\"; British people say \"flat\" and \"flatmate\". A «departamento compartido» is a \"shared apartment\" (US) or a \"flat share\" (UK).",
         ],
         examples: [
           { es: "Everyone has to clean up after themselves.", en: "Cada uno tiene que recoger lo suyo." },
           { es: "You can't have parties on weeknights.", en: "No se pueden hacer fiestas entre semana." },
           { es: "You don't have to ask before using the washing machine.", en: "No hace falta pedir permiso para usar la lavadora." },
           { es: "You're supposed to take out the trash on Mondays.", en: "Se supone que hay que sacar la basura los lunes." },
-          { es: "My roommate never does the dishes.", en: "Mi compañero de piso nunca friega los platos." },
+          { es: "My roommate never does the dishes.", en: "Mi compañero de departamento nunca lava los platos." },
         ],
         checkpoint: [
           {
@@ -1422,7 +1422,7 @@ export const EN_B1_U11: Lesson[] = [
         heading: "Rules for a shared apartment",
         body: [
           "Start with the important obligations: rent, bills and cleaning. Then add what is prohibited, and finish with what people don't have to worry about.",
-          "Notice the useful expressions: \"take turns\" («turnarse»), \"do the dishes\" («fregar los platos»), \"take out the trash\" («sacar la basura»), \"split the bills\" («dividir los gastos»). Americans say \"trash\"; British people say \"rubbish\".",
+          "Notice the useful expressions: \"take turns\" («turnarse»), \"do the dishes\" («lavar los platos»), \"take out the trash\" («sacar la basura»), \"split the bills\" («dividir los gastos»). Americans say \"trash\"; British people say \"rubbish\".",
         ],
         examples: [
           { es: "Rent has to be paid by the 5th of each month.", en: "El alquiler hay que pagarlo antes del día 5 de cada mes." },
@@ -1463,7 +1463,7 @@ export const EN_B1_U11: Lesson[] = [
           { es: "Guests are not allowed to bring alcohol into the dorms.", en: "No se permite entrar alcohol en los dormitorios." },
           { es: "You're supposed to be quiet after 11 p.m.", en: "A partir de las 11 de la noche hay que guardar silencio." },
           { es: "You don't have to book in advance.", en: "No hace falta reservar con antelación." },
-          { es: "Lockers must be emptied before check-out.", en: "Las taquillas deben vaciarse antes de salir." },
+          { es: "Lockers must be emptied before check-out.", en: "Los casilleros deben vaciarse antes de salir." },
         ],
         checkpoint: [
           {
@@ -1636,11 +1636,11 @@ export const EN_B1_U11: Lesson[] = [
         body: [
           "PATIENT: \"I've had a sore throat and a fever since Monday, and I have a terrible cough.\" Notice the present perfect: \"I've had... since Monday\" = «tengo... desde el lunes». Don't say *I have a fever since Monday.",
           "Big false friend: \"constipated\" does NOT mean «constipado». It means «estreñido». If you have a cold, say \"I have a cold\" or \"I'm congested\" / \"I have a stuffy nose\". Saying \"I'm constipated\" to an American doctor will give you a very different treatment!",
-          "Other useful phrases: \"It hurts here\" («me duele aquí»), \"I feel dizzy\" («estoy mareado»), \"I feel sick\" («tengo náuseas», and in the US also «me encuentro mal»).",
+          "Other useful phrases: \"It hurts here\" («me duele aquí»), \"I feel dizzy\" («estoy mareado»), \"I feel sick\" («tengo náuseas», «me siento mal»).",
         ],
         examples: [
           { es: "I've had a fever since Monday.", en: "Tengo fiebre desde el lunes." },
-          { es: "I have a cold.", en: "Estoy constipado. / Estoy resfriado." },
+          { es: "I have a cold.", en: "Estoy resfriado. / Estoy constipado." },
           { es: "I'm congested.", en: "Tengo la nariz tapada." },
           { es: "It hurts here.", en: "Me duele aquí." },
           { es: "I feel dizzy.", en: "Estoy mareado." },
@@ -1676,7 +1676,7 @@ export const EN_B1_U11: Lesson[] = [
           { es: "Drink lots of fluids.", en: "Beba mucho líquido." },
           { es: "You'll have to take these twice a day.", en: "Tendrá que tomarse estas dos veces al día." },
           { es: "You mustn't drink alcohol while you're taking them.", en: "No debe beber alcohol mientras las esté tomando." },
-          { es: "You don't have to come back unless you feel worse.", en: "No hace falta que vuelva a menos que se encuentre peor." },
+          { es: "You don't have to come back unless you feel worse.", en: "No hace falta que vuelva a menos que se sienta peor." },
         ],
         checkpoint: [
           {
@@ -1747,7 +1747,7 @@ export const EN_B1_U11: Lesson[] = [
       {
         type: "multiple-choice",
         question: "What does the doctor mean? \"You don't have to come back unless you feel worse.\"",
-        options: ["Solo tienes que volver si te encuentras peor.", "No puedes volver aunque te encuentres peor.", "Tienes que volver aunque te encuentres mejor.", "Debes volver mañana."],
+        options: ["Solo tienes que volver si te sientes peor.", "No puedes volver aunque te sientas peor.", "Tienes que volver aunque te sientas mejor.", "Debes volver mañana."],
         correctIndex: 0,
         explanation: "\"Don't have to\" = not necessary; \"unless\" = «a menos que».",
       },
@@ -1888,7 +1888,7 @@ export const EN_B1_U11: Lesson[] = [
       {
         heading: "Injuries",
         body: [
-          "Common injuries: \"sprain\" («torcerse», «hacerse un esguince»), \"break\" («romperse»), \"cut\" («cortarse»), \"burn\" («quemarse»). There are also marks on the skin: \"a bruise\" («un moratón») and \"a rash\" («un sarpullido»).",
+          "Common injuries: \"sprain\" («torcerse», «hacerse un esguince»), \"break\" («romperse»), \"cut\" («cortarse»), \"burn\" («quemarse»). There are also marks on the skin: \"a bruise\" («un moretón») and \"a rash\" («un sarpullido»).",
           "Again, English uses the possessive, and no reflexive pronoun: «me rompí el brazo» = \"I broke my arm\", not *I broke me the arm. «Me torcí el tobillo» = \"I sprained my ankle\".",
         ],
         examples: [
@@ -1897,7 +1897,7 @@ export const EN_B1_U11: Lesson[] = [
           { es: "I cut my finger.", en: "Me corté el dedo." },
           { es: "He burned his hand.", en: "Se quemó la mano." },
           { es: "I have a rash on my back.", en: "Tengo un sarpullido en la espalda." },
-          { es: "Where did you get that bruise?", en: "¿Cómo te has hecho ese moratón?" },
+          { es: "Where did you get that bruise?", en: "¿Cómo te has hecho ese moretón?" },
         ],
         checkpoint: [
           {
@@ -1921,8 +1921,8 @@ export const EN_B1_U11: Lesson[] = [
         examples: [
           { es: "Take a painkiller.", en: "Tómate un analgésico." },
           { es: "She had an operation on her knee.", en: "La operaron de la rodilla." },
-          { es: "He needs surgery.", en: "Tienen que operarle." },
-          { es: "The surgeon operated on him yesterday.", en: "El cirujano le operó ayer." },
+          { es: "He needs surgery.", en: "Tienen que operarlo." },
+          { es: "The surgeon operated on him yesterday.", en: "El cirujano lo operó ayer." },
           { es: "I hope you get better soon.", en: "Espero que te mejores pronto." },
           { es: "Get well soon!", en: "¡Que te mejores!" },
         ],
@@ -2002,7 +2002,7 @@ export const EN_B1_U11: Lesson[] = [
         type: "matching",
         instructions: "Match the words with their meanings.",
         pairs: [
-          { left: "a bruise", right: "un moratón" },
+          { left: "a bruise", right: "un moretón" },
           { left: "a rash", right: "un sarpullido" },
           { left: "a prescription", right: "una receta" },
           { left: "a runny nose", right: "mocos" },

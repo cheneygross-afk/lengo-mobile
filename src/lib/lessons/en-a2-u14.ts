@@ -92,7 +92,7 @@ export const EN_A2_U14: Lesson[] = [
           "Decir \"If you study, you pass\" suena a regla general (eso lo veremos en el condicional cero). Para una predicción concreta, \"you'll pass\".",
         ],
         examples: [
-          { es: "If you don't hurry, you'll miss the train.", en: "Si no te das prisa, perderás el tren." },
+          { es: "If you don't hurry, you'll miss the train.", en: "Si no te apuras, perderás el tren." },
           { es: "If I see Emma, I'll give her the book.", en: "Si veo a Emma, le daré el libro." },
           { es: "If it's sunny on Saturday, we'll go to the beach.", en: "Si hace sol el sábado, vamos a la playa." },
         ],
@@ -165,7 +165,7 @@ export const EN_A2_U14: Lesson[] = [
         sentence: "If you don't hurry, you ___ the train.",
         answer: "will miss",
         altAnswers: ["'ll miss"],
-        en: "Si no te das prisa, [perderás] el tren.",
+        en: "Si no te apuras, [perderás] el tren.",
         explanation: "«Perder» un tren o un autobús es \"miss\", no \"lose\". La consecuencia lleva \"will\".",
       },
       {
@@ -240,7 +240,7 @@ export const EN_A2_U14: Lesson[] = [
         examples: [
           { es: "If you see her, tell her to call me.", en: "Si la ves, dile que me llame." },
           { es: "If you're tired, you should rest.", en: "Si estás cansado, deberías descansar." },
-          { es: "If you finish early, you can go home.", en: "Si terminas pronto, puedes irte a casa." },
+          { es: "If you finish early, you can go home.", en: "Si terminas temprano, puedes irte a casa." },
           { es: "If it's sunny, we might go to the beach.", en: "Si hace sol, puede que vayamos a la playa." },
           { es: "If you need anything, call me.", en: "Si necesitas algo, llámame." },
         ],
@@ -271,7 +271,7 @@ export const EN_A2_U14: Lesson[] = [
           "Cuidado: \"unless\" ya es negativo, así que el verbo que lo sigue va en afirmativo. El error típico es *unless you don't hurry, que dice lo contrario. Y aunque el español use subjuntivo («a menos que te des prisa»), en inglés va el presente simple: \"unless you hurry\".",
         ],
         examples: [
-          { es: "You'll miss the bus unless you hurry.", en: "Perderás el autobús si no te das prisa." },
+          { es: "You'll miss the bus unless you hurry.", en: "Perderás el autobús si no te apuras." },
           { es: "Unless it rains, we'll play outside.", en: "A menos que llueva, jugaremos afuera." },
           { es: "I won't go unless you come with me.", en: "No iré a menos que vengas conmigo." },
           { es: "Don't call me unless it's important.", en: "No me llames a menos que sea importante." },
@@ -356,7 +356,7 @@ export const EN_A2_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Perderás el autobús a menos que te des prisa.",
+        source: "Perderás el autobús a menos que te apures.",
         answer: "You will miss the bus unless you hurry.",
         altAnswers: ["Unless you hurry, you will miss the bus.", "You will miss the bus unless you hurry up.", "Unless you hurry up, you will miss the bus."],
         explanation: "\"Unless\" + presente afirmativo: \"unless you hurry\". \"Unless you don't hurry\" diría lo contrario.",
@@ -366,7 +366,7 @@ export const EN_A2_U14: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "If you finish early, you ___ go home.",
         answer: "can",
-        en: "Si terminas pronto, [puedes] irte a casa.",
+        en: "Si terminas temprano, [puedes] irte a casa.",
         explanation: "\"Can\" en la consecuencia da permiso. Va seguido del verbo sin \"to\".",
       },
       {
@@ -818,7 +818,7 @@ export const EN_A2_U14: Lesson[] = [
       {
         type: "speak",
         text: "When you arrive, call me.",
-        tip: "En \"arrive\" el acento va en la segunda sílaba: a-RRIVE, y la \"v\" se hace con los dientes sobre el labio, no como una «b».",
+        tip: "En \"arrive\" el acento va en la segunda sílaba: a-RAIV (r suave, sin vibrar), y la \"v\" se hace con los dientes sobre el labio, no como una «b».",
         explanation: "Recuerda: presente después de \"when\", aunque pienses en «llegues».",
       },
     ],
@@ -1032,10 +1032,10 @@ export const EN_A2_U14: Lesson[] = [
         heading: "Error 2: falta \"will\" en la consecuencia",
         body: [
           "El error contrario: quitar \"will\" de las dos partes. \"If you hurry, you catch the bus\" suena a regla general. Para una situación concreta del futuro: \"you'll catch the bus\".",
-          "Pasa mucho porque en español decimos «si te das prisa, alcanzas el autobús», con presente.",
+          "Pasa mucho porque en español decimos «si te apuras, alcanzas el autobús», con presente.",
         ],
         examples: [
-          { es: "If you hurry, you'll catch the bus.", en: "Si te das prisa, alcanzas el autobús." },
+          { es: "If you hurry, you'll catch the bus.", en: "Si te apuras, alcanzas el autobús." },
           { es: "If we don't leave now, we'll be late.", en: "Si no salimos ya, llegamos tarde." },
         ],
         checkpoint: [
@@ -1045,7 +1045,7 @@ export const EN_A2_U14: Lesson[] = [
             sentence: "If you hurry, you ___ the bus.",
             answer: "will catch",
             altAnswers: ["'ll catch"],
-            en: "Si te das prisa, [alcanzas] el autobús.",
+            en: "Si te apuras, [alcanzas] el autobús.",
             explanation: "Situación concreta del futuro: \"will catch\", aunque en español digamos «alcanzas». «Alcanzar» un autobús es \"catch\".",
           },
         ],
@@ -1057,7 +1057,7 @@ export const EN_A2_U14: Lesson[] = [
           "Con \"until\" pasa algo parecido: el «no» de «hasta que no llame» no se traduce. Se dice \"until he calls\".",
         ],
         examples: [
-          { es: "You'll be late unless you hurry.", en: "Llegarás tarde a menos que te des prisa." },
+          { es: "You'll be late unless you hurry.", en: "Llegarás tarde a menos que te apures." },
           { es: "I won't eat until he calls.", en: "No voy a comer hasta que (no) llame." },
           { es: "We can't start until everyone is here.", en: "No podemos empezar hasta que (no) estén todos." },
         ],
@@ -1163,7 +1163,7 @@ export const EN_A2_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Llegarás tarde a menos que te des prisa.",
+        source: "Llegarás tarde a menos que te apures.",
         answer: "You will be late unless you hurry.",
         altAnswers: ["Unless you hurry, you will be late.", "You will be late unless you hurry up.", "Unless you hurry up, you will be late."],
         explanation: "\"Unless you hurry\": afirmativo y en presente.",
@@ -1213,7 +1213,7 @@ export const EN_A2_U14: Lesson[] = [
           "Elige \"if\" para lo posible y \"when\" para lo seguro. Con \"unless\" y \"until\", el verbo va en afirmativo.",
         ],
         examples: [
-          { es: "Unless you hurry, we'll be late.", en: "A menos que te des prisa, llegaremos tarde." },
+          { es: "Unless you hurry, we'll be late.", en: "A menos que te apures, llegaremos tarde." },
           { es: "Text me before you leave.", en: "Mándame un mensaje antes de salir." },
         ],
         checkpoint: [
@@ -1347,7 +1347,7 @@ export const EN_A2_U14: Lesson[] = [
         heading: "El amigo que ve problemas en todo",
         body: [
           "Ana quiere ir a Boston el fin de semana. Su amigo Diego encuentra un problema en cada idea, y ella responde con soluciones. Los dos usan el primer condicional sin parar.",
-          "Para poner pegas se usa mucho \"if\" + consecuencia negativa: \"If we take the train, we'll arrive late\". Y para proponer: \"What if...?\" («¿y si...?»), que va seguido del presente: \"What if we take the bus?\".",
+          "Para poner peros se usa mucho \"if\" + consecuencia negativa: \"If we take the train, we'll arrive late\". Y para proponer: \"What if...?\" («¿y si...?»), que va seguido del presente: \"What if we take the bus?\".",
         ],
         examples: [
           { es: "Ana: Let's go to Boston this weekend!", en: "Ana: ¡Vamos a Boston este fin de semana!" },
@@ -1369,7 +1369,7 @@ export const EN_A2_U14: Lesson[] = [
         ],
       },
       {
-        heading: "Más pegas y más soluciones",
+        heading: "Más peros y más soluciones",
         body: [
           "Diego sigue: le preocupan el hotel y el tiempo. Ana usa \"unless\" y oraciones con \"as soon as\" para tranquilizarlo.",
           "Fíjate en \"Deal!\" («¡trato hecho!»), \"Fine by me\" («por mí, bien») y \"Don't worry\" («no te preocupes»): son frases muy útiles para cerrar un acuerdo.",
@@ -1506,7 +1506,7 @@ export const EN_A2_U14: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Un amigo te pone pegas a un plan (una excursión, una cena, un viaje). Escribe un pequeño diálogo entre ustedes dos. Usa al menos tres condicionales y una oración con \"when\" o \"as soon as\".",
+        prompt: "Un amigo le pone peros a un plan (una excursión, una cena, un viaje). Escribe un pequeño diálogo entre ustedes dos. Usa al menos tres condicionales y una oración con \"when\" o \"as soon as\".",
         minWords: 40,
         maxWords: 80,
         rubric: [
@@ -1517,7 +1517,7 @@ export const EN_A2_U14: Lesson[] = [
           "Termina con un acuerdo (\"Deal!\", \"Fine by me.\", \"OK\").",
         ],
         modelAnswer: "A: Let's have a picnic in the park on Sunday!\nB: If it rains, we'll get wet.\nA: What if we check the weather first? If it rains, we'll eat at my place.\nB: If we go in the afternoon, it will be too hot.\nA: Then let's go in the morning. I'll make sandwiches as soon as I get up.\nB: OK. Fine by me!",
-        explanation: "Para negociar: pegas con \"if\" + \"will\", propuestas con \"What if...?\" y un acuerdo final.",
+        explanation: "Para negociar: peros con \"if\" + \"will\", propuestas con \"What if...?\" y un acuerdo final.",
       },
     ],
   },
@@ -1540,7 +1540,7 @@ export const EN_A2_U14: Lesson[] = [
           { es: "I'm going to study medicine.", en: "Voy a estudiar medicina." },
           { es: "I'm meeting Lucia at six.", en: "Me reúno con Lucia a las seis (ya está organizado)." },
           { es: "It's heavy. I'll help you.", en: "Pesa mucho. Te ayudo." },
-          { es: "When I finish, I'm going to have a shower.", en: "Cuando termine, voy a ducharme." },
+          { es: "When I finish, I'm going to take a shower.", en: "Cuando termine, voy a ducharme." },
         ],
         checkpoint: [
           {

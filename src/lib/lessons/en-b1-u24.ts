@@ -62,7 +62,7 @@ export const EN_B1_U24: Lesson[] = [
           { es: "We arrived far too late.", en: "Llegamos tardísimo." },
           { es: "The music is way too loud.", en: "La música está altísima." },
           { es: "These pants are a bit too tight.", en: "Estos pantalones me quedan un poco demasiado ajustados." },
-          { es: "The room is a little too small for us.", en: "La habitación es un poco pequeña para nosotros." },
+          { es: "The room is a little too small for us.", en: "La habitación es un poco demasiado pequeña para nosotros." },
         ],
         checkpoint: [
           {
@@ -1600,7 +1600,7 @@ export const EN_B1_U24: Lesson[] = [
         examples: [
           { es: "Both of my sisters live abroad.", en: "Mis dos hermanas viven en el extranjero." },
           { es: "Neither of us was ready.", en: "Ninguno de los dos estaba listo." },
-          { es: "None of the shops were open.", en: "No había ninguna tienda abierta." },
+          { es: "None of the stores were open.", en: "No había ninguna tienda abierta." },
           { es: "Everybody likes her.", en: "Le cae bien a todo el mundo." },
         ],
         checkpoint: [
@@ -2018,12 +2018,12 @@ export const EN_B1_U24: Lesson[] = [
       {
         heading: "Saying what was great",
         body: [
-          "For praise, use \"so\" and \"such\": \"The staff were so friendly\", \"It was such a lovely place\", \"We had such a good time.\"",
+          "For praise, use \"so\" and \"such\": \"The staff was so friendly\", \"It was such a lovely place\", \"We had such a good time.\"",
           "\"Plenty of\" is perfect for positive details: \"There's plenty of space\", \"There are plenty of restaurants nearby.\"",
           "Don't use \"too\" for praise: *The food was too delicious sounds like a problem. Say \"The food was so delicious\" or \"absolutely delicious\".",
         ],
         examples: [
-          { es: "The staff were so friendly.", en: "El personal fue muy amable." },
+          { es: "The staff was so friendly.", en: "El personal fue muy amable." },
           { es: "It was such a lovely place.", en: "Era un lugar precioso." },
           { es: "We had such a good time.", en: "Nos divertimos muchísimo." },
           { es: "There are plenty of restaurants nearby.", en: "Hay muchos restaurantes cerca." },
@@ -2104,7 +2104,7 @@ export const EN_B1_U24: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The staff were ___ friendly.",
+        sentence: "The staff was ___ friendly.",
         answer: "so",
         altAnswers: ["very", "really"],
         en: "Los empleados fueron [tan] amables.",
@@ -2200,7 +2200,7 @@ export const EN_B1_U24: Lesson[] = [
         heading: "Cooking verbs",
         body: [
           "Ways of cooking with heat: \"boil\" («hervir», «cocer» in water), \"fry\" («freír»), \"bake\" («hornear»: bread, cakes, cookies), \"roast\" («asar» in the oven: meat, chicken, vegetables) and \"grill\" («asar a la parrilla»).",
-          "Preparing food: \"chop\" («picar», «cortar en trozos»), \"slice\" («cortar en rodajas o lonchas»), \"peel\" («pelar»), \"grate\" («rallar»), \"mix\" («mezclar») and \"stir\" («remover»).",
+          "Preparing food: \"chop\" («picar», «cortar en trozos»), \"slice\" («cortar en rodajas o rebanadas»), \"peel\" («pelar»), \"grate\" («rallar»), \"mix\" («mezclar») and \"stir\" («remover»).",
           "Careful with «cocer»: for pasta, eggs or potatoes in water, say \"boil\". And «asar» depends on how: \"roast\" in the oven, \"grill\" on a grill or barbecue.",
         ],
         examples: [
@@ -2209,7 +2209,7 @@ export const EN_B1_U24: Lesson[] = [
           { es: "I baked a chocolate cake.", en: "Hice un pastel de chocolate al horno." },
           { es: "We roasted a chicken with potatoes.", en: "Asamos un pollo con papas al horno." },
           { es: "Peel and chop the carrots.", en: "Pela y pica las zanahorias." },
-          { es: "Stir the sauce slowly.", en: "Remueve la salsa despacio." },
+          { es: "Stir the sauce slowly.", en: "Revuelve la salsa despacio." },
         ],
         checkpoint: [
           {
@@ -2219,7 +2219,7 @@ export const EN_B1_U24: Lesson[] = [
               { left: "peel", right: "pelar" },
               { left: "fry", right: "freír" },
               { left: "bake", right: "hornear" },
-              { left: "stir", right: "remover" },
+              { left: "stir", right: "revolver" },
               { left: "boil", right: "hervir" },
             ],
             explanation: "\"Bake\" is for bread and cakes; meat and vegetables in the oven are usually \"roasted\".",
@@ -2405,7 +2405,7 @@ export const EN_B1_U24: Lesson[] = [
         answer: "plates",
         altAnswers: ["dishes"],
         en: "¿Puedes lavar los [platos], por favor?",
-        explanation: "The objects are \"plates\". \"Wash the dishes\" («fregar los platos») is also very common.",
+        explanation: "The objects are \"plates\". \"Wash the dishes\" («lavar los platos») is also very common.",
       },
       {
         type: "matching",

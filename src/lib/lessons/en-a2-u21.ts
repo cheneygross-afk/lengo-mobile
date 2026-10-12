@@ -56,7 +56,7 @@ export const EN_A2_U21: Lesson[] = [
         ],
         examples: [
           { es: "Can I try it on?", en: "¿Me lo puedo probar?" },
-          { es: "Can I try these jeans on?", en: "¿Me puedo probar estos vaqueros?" },
+          { es: "Can I try these jeans on?", en: "¿Me puedo probar estos jeans?" },
           { es: "Can I try them on?", en: "¿Me los puedo probar?" },
           { es: "Where are the fitting rooms?", en: "¿Dónde están los probadores?" },
           { es: "The fitting rooms are over there.", en: "Los probadores están por allí." },
@@ -93,7 +93,7 @@ export const EN_A2_U21: Lesson[] = [
           { es: "It doesn't fit.", en: "No me queda bien (de talla)." },
           { es: "It fits perfectly.", en: "Me queda perfecto." },
           { es: "It's a bit tight.", en: "Me aprieta un poco." },
-          { es: "These jeans are too long.", en: "Estos vaqueros me quedan largos." },
+          { es: "These jeans are too long.", en: "Estos jeans me quedan largos." },
           { es: "That color looks good on you.", en: "Ese color te queda bien." },
           { es: "They're too big.", en: "Me quedan grandes." },
         ],
@@ -109,7 +109,7 @@ export const EN_A2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "¿Qué frase dice que el jersey es de tu talla?",
+            question: "¿Qué frase dice que el suéter es de tu talla?",
             options: ["It fits.", "It stays me well.", "It suits me the size.", "It's my measure."],
             correctIndex: 0,
             explanation: "\"Fit\" se refiere a la talla: \"It fits\" («me queda bien de talla»).",
@@ -528,7 +528,7 @@ export const EN_A2_U21: Lesson[] = [
         body: [
           "El médico suele empezar con \"What seems to be the problem?\" o \"What brings you in today?\" («¿qué le trae por aquí?»).",
           "Para decir dónde te duele, usa \"hurt\" con la parte del cuerpo como sujeto: \"My back hurts\", \"It hurts here\". Con \"my\", nunca con \"the\": no se dice *The back hurts me.",
-          "Otras frases útiles: \"I feel sick\" («me encuentro mal» o «tengo náuseas»), \"I feel dizzy\" («estoy mareado») y \"I can't sleep\".",
+          "Otras frases útiles: \"I feel sick\" («me siento mal» o «tengo náuseas»), \"I feel dizzy\" («estoy mareado») y \"I can't sleep\".",
         ],
         examples: [
           { es: "What seems to be the problem?", en: "¿Qué le pasa?" },
@@ -536,7 +536,7 @@ export const EN_A2_U21: Lesson[] = [
           { es: "It hurts here.", en: "Me duele aquí." },
           { es: "My knees hurt when I walk.", en: "Me duelen las rodillas al caminar." },
           { es: "I feel dizzy.", en: "Estoy mareado." },
-          { es: "I've felt sick since Monday.", en: "Me encuentro mal desde el lunes." },
+          { es: "I've felt sick since Monday.", en: "Me siento mal desde el lunes." },
         ],
         checkpoint: [
           {
@@ -569,7 +569,7 @@ export const EN_A2_U21: Lesson[] = [
           { es: "You shouldn't go to work tomorrow.", en: "No debería ir a trabajar mañana." },
           { es: "Take one twice a day.", en: "Tome una dos veces al día." },
           { es: "Drink lots of water.", en: "Beba mucha agua." },
-          { es: "Come back if you don't feel better.", en: "Vuelva si no se encuentra mejor." },
+          { es: "Come back if you don't feel better.", en: "Vuelva si no se siente mejor." },
           { es: "Could you write it down, please?", en: "¿Me lo puede escribir, por favor?" },
         ],
         checkpoint: [
@@ -695,9 +695,9 @@ export const EN_A2_U21: Lesson[] = [
           { es: "Hi, I'd like to check in.", en: "Hola, quería hacer el check-in." },
           { es: "I have a reservation under Garcia.", en: "Tengo una reserva a nombre de Garcia." },
           { es: "It's for three nights.", en: "Es para tres noches." },
-          { es: "Can I see your passport, please?", en: "¿Me enseña su pasaporte, por favor?" },
+          { es: "Can I see your passport, please?", en: "¿Me muestra su pasaporte, por favor?" },
           { es: "Here's your key card.", en: "Aquí tiene su tarjeta de la habitación." },
-          { es: "Your room is on the fifth floor.", en: "Su habitación está en la quinta planta." },
+          { es: "Your room is on the fifth floor.", en: "Su habitación está en el quinto piso." },
         ],
         checkpoint: [
           {
@@ -858,9 +858,9 @@ export const EN_A2_U21: Lesson[] = [
         type: "listen-choose",
         audio: "Your room is on the fifth floor.",
         question: "¿Dónde está tu habitación?",
-        options: ["En la quinta planta.", "En la planta quince.", "En la planta baja.", "En la cuarta planta."],
+        options: ["En el quinto piso.", "En el piso quince.", "En la planta baja.", "En el cuarto piso."],
         correctIndex: 0,
-        explanation: "\"Fifth\" es «quinto». Las plantas van con \"on\": \"on the fifth floor\".",
+        explanation: "\"Fifth\" es «quinto». Los pisos van con \"on\": \"on the fifth floor\".",
       },
       {
         type: "speak",
@@ -874,38 +874,38 @@ export const EN_A2_U21: Lesson[] = [
     slug: "a2-survival-transport",
     level: "EN-A2",
     number: 5,
-    title: "Supervivencia: billetes, autobuses y trenes",
-    summary: "Comprar billetes de ida y de ida y vuelta, preguntar qué autobús va a dónde y dónde bajarte: \"Does this bus go downtown?\".",
+    title: "Supervivencia: boletos, autobuses y trenes",
+    summary: "Comprar boletos de ida y de ida y vuelta, preguntar qué autobús va a dónde y dónde bajarte: \"Does this bus go downtown?\".",
     duration: "10 min",
     sections: [
       {
-        heading: "Comprar un billete",
+        heading: "Comprar un boleto",
         body: [
           "Un billete de transporte es \"a ticket\". No uses \"bill\": en Estados Unidos \"bill\" es un billete de dinero o una factura.",
           "«De ida» es \"one-way\" en Estados Unidos y \"single\" en Reino Unido. «De ida y vuelta» es \"round-trip\" en Estados Unidos y \"return\" en Reino Unido: \"A round-trip ticket to Boston, please\".",
           "Para preguntar el precio: \"How much is a ticket to Chicago?\". Y para el horario: \"What time is the next train to...?\".",
         ],
         examples: [
-          { es: "A one-way ticket to Boston, please.", en: "Un billete de ida a Boston, por favor." },
-          { es: "A round-trip ticket to New York, please.", en: "Un billete de ida y vuelta a Nueva York, por favor." },
-          { es: "A return ticket to Oxford, please.", en: "Un billete de ida y vuelta a Oxford, por favor. (británico)" },
-          { es: "How much is a ticket to Chicago?", en: "¿Cuánto cuesta un billete a Chicago?" },
+          { es: "A one-way ticket to Boston, please.", en: "Un boleto de ida a Boston, por favor." },
+          { es: "A round-trip ticket to New York, please.", en: "Un boleto de ida y vuelta a Nueva York, por favor." },
+          { es: "A return ticket to Oxford, please.", en: "Un boleto de ida y vuelta a Oxford, por favor. (británico)" },
+          { es: "How much is a ticket to Chicago?", en: "¿Cuánto cuesta un boleto a Chicago?" },
           { es: "What time is the next train to Philadelphia?", en: "¿A qué hora sale el próximo tren a Filadelfia?" },
-          { es: "Two tickets, please.", en: "Dos billetes, por favor." },
+          { es: "Two tickets, please.", en: "Dos boletos, por favor." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "Un billete de ida y vuelta a Miami, por favor.",
+            source: "Un boleto de ida y vuelta a Miami, por favor.",
             answer: "A round-trip ticket to Miami, please.",
             altAnswers: ["A return ticket to Miami, please.", "One round-trip ticket to Miami, please.", "One return ticket to Miami, please.", "A round trip ticket to Miami, please.", "A round-trip to Miami, please."],
-            explanation: "«Ida y vuelta» es \"round-trip\" (americano) o \"return\" (británico). El billete es \"ticket\", nunca \"bill\".",
+            explanation: "«Ida y vuelta» es \"round-trip\" (americano) o \"return\" (británico). El boleto es \"ticket\", nunca \"bill\".",
           },
           {
             type: "multiple-choice",
-            question: "En Estados Unidos, ¿cómo pides un billete solo de ida?",
+            question: "En Estados Unidos, ¿cómo pides un boleto solo de ida?",
             options: ["A one-way ticket, please.", "A go ticket, please.", "A only-going ticket, please.", "An ida ticket, please."],
             correctIndex: 0,
             explanation: "«De ida» es \"one-way\" en Estados Unidos y \"single\" en Reino Unido.",
@@ -989,10 +989,10 @@ export const EN_A2_U21: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "¿Cuánto cuesta un billete a Washington?",
+        source: "¿Cuánto cuesta un boleto a Washington?",
         answer: "How much is a ticket to Washington?",
         altAnswers: ["How much does a ticket to Washington cost?", "How much is a ticket for Washington?"],
-        explanation: "\"How much is...?\" o \"How much does... cost?\". El billete es \"ticket\".",
+        explanation: "\"How much is...?\" o \"How much does... cost?\". El boleto es \"ticket\".",
       },
       {
         type: "translate",
@@ -1023,7 +1023,7 @@ export const EN_A2_U21: Lesson[] = [
       {
         type: "multiple-choice",
         question: "En Estados Unidos, ¿qué significa \"a round-trip ticket\"?",
-        options: ["Un billete de ida y vuelta.", "Un billete de ida.", "Un billete para un tour.", "Un abono mensual."],
+        options: ["Un boleto de ida y vuelta.", "Un boleto de ida.", "Un boleto para un tour.", "Un abono mensual."],
         correctIndex: 0,
         explanation: "\"Round-trip\" es «ida y vuelta». En Reino Unido se dice \"return\".",
       },
@@ -1081,14 +1081,14 @@ export const EN_A2_U21: Lesson[] = [
         heading: "Reservar y llegar",
         body: [
           "Para reservar: \"I'd like to make a reservation for four people at eight o'clock\" (en Reino Unido, \"book a table\"). Al llegar sin reserva: \"A table for two, please\" o \"Do you have a table for two?\".",
-          "En Estados Unidos es normal esperar a que te sienten: verás un cartel que dice \"Please wait to be seated\". El camarero (\"server\" o \"waiter\") te preguntará \"How many?\" o \"Just two?\".",
+          "En Estados Unidos es normal esperar a que te sienten: verás un cartel que dice \"Please wait to be seated\". El mesero (\"server\" o \"waiter\") te preguntará \"How many?\" o \"Just two?\".",
         ],
         examples: [
           { es: "I'd like to make a reservation for four people.", en: "Quería reservar mesa para cuatro personas." },
           { es: "A table for two, please.", en: "Una mesa para dos, por favor." },
           { es: "We have a reservation at eight.", en: "Tenemos una reserva a las ocho." },
           { es: "Please wait to be seated.", en: "Por favor, espere a que le asignen mesa." },
-          { es: "Could we sit outside?", en: "¿Podemos sentarnos fuera?" },
+          { es: "Could we sit outside?", en: "¿Podemos sentarnos afuera?" },
         ],
         checkpoint: [
           {
@@ -1105,13 +1105,13 @@ export const EN_A2_U21: Lesson[] = [
       {
         heading: "Pedir sin sonar brusco",
         body: [
-          "\"I want a coffee\" es gramaticalmente correcto, pero a un camarero le suena brusco, como una orden. Lo natural es \"I'll have a coffee\", \"I'd like a coffee\" o, muy americano, \"Can I get a coffee?\".",
+          "\"I want a coffee\" es gramaticalmente correcto, pero a un mesero le suena brusco, como una orden. Lo natural es \"I'll have a coffee\", \"I'd like a coffee\" o, muy americano, \"Can I get a coffee?\".",
           "\"I'll have\" se usa al elegir del menú: \"I'll have the chicken, please\". Con platos concretos del menú se usa \"the\". Para pedir consejo: \"What do you recommend?\".",
           "El camarero preguntará \"Are you ready to order?\" y, después, \"Anything else?\" o \"Anything to drink?\". Si aún no has decidido: \"Could we have a few more minutes?\".",
         ],
         examples: [
           { es: "I'll have the chicken, please.", en: "Para mí, el pollo, por favor." },
-          { es: "Can I get a coffee, please?", en: "¿Me pone un café, por favor?" },
+          { es: "Can I get a coffee, please?", en: "¿Me da un café, por favor?" },
           { es: "I'd like a glass of water.", en: "Quería un vaso de agua." },
           { es: "What do you recommend?", en: "¿Qué nos recomienda?" },
           { es: "Are you ready to order?", en: "¿Ya saben qué van a pedir?" },
@@ -1166,8 +1166,8 @@ export const EN_A2_U21: Lesson[] = [
         heading: "La cuenta y las propinas",
         body: [
           "La cuenta es \"the check\" en Estados Unidos y \"the bill\" en Reino Unido. Nunca *the account: eso es una cuenta bancaria. Se pide con \"Could we have the check, please?\" o \"Can I get the check?\".",
-          "En Estados Unidos la propina (\"tip\") no es opcional en la práctica: se deja entre un 15 % y un 20 %, porque los camareros cobran poco sueldo. En Reino Unido a menudo ya viene incluida: pregunta \"Is service included?\".",
-          "Si sobra comida, puedes pedir \"Could I get a box for this?\" («¿me lo pone para llevar?»). Y en un local de comida rápida te preguntarán \"For here or to go?\" («¿para tomar aquí o para llevar?»).",
+          "En Estados Unidos la propina (\"tip\") no es opcional en la práctica: se deja entre un 15 % y un 20 %, porque los meseros cobran poco sueldo. En Reino Unido a menudo ya viene incluida: pregunta \"Is service included?\".",
+          "Si sobra comida, puedes pedir \"Could I get a box for this?\" («¿me lo puede poner para llevar?»). Y en un local de comida rápida te preguntarán \"For here or to go?\" («¿para tomar aquí o para llevar?»).",
         ],
         examples: [
           { es: "Could we have the check, please?", en: "¿Nos trae la cuenta, por favor?" },
@@ -1175,7 +1175,7 @@ export const EN_A2_U21: Lesson[] = [
           { es: "Is service included?", en: "¿El servicio está incluido?" },
           { es: "Can we pay separately?", en: "¿Podemos pagar por separado?" },
           { es: "For here or to go?", en: "¿Para tomar aquí o para llevar?" },
-          { es: "Could I get a box for this?", en: "¿Me pone esto para llevar?" },
+          { es: "Could I get a box for this?", en: "¿Me lo puede poner para llevar?" },
         ],
         checkpoint: [
           {
@@ -1202,7 +1202,7 @@ export const EN_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Qué significa \"Can you bring me the account?\" para un camarero?",
+        question: "¿Qué significa \"Can you bring me the account?\" para un mesero?",
         options: ["Suena raro: \"account\" es una cuenta bancaria.", "Es la forma normal de pedir la cuenta.", "Es la forma británica de pedir la cuenta.", "Significa «tráigame la carta»."],
         correctIndex: 0,
         explanation: "La cuenta del restaurante es \"the check\" o \"the bill\". \"Account\" es una cuenta de banco o de usuario.",
@@ -1257,7 +1257,7 @@ export const EN_A2_U21: Lesson[] = [
         question: "En un restaurante de Estados Unidos, ¿cuánta propina se suele dejar?",
         options: ["Entre un 15 % y un 20 %.", "Nada, nunca se deja.", "Solo las monedas sueltas.", "Un 50 %."],
         correctIndex: 0,
-        explanation: "En Estados Unidos se deja \"a tip\" del 15 al 20 %: forma parte del sueldo de los camareros.",
+        explanation: "En Estados Unidos se deja \"a tip\" del 15 al 20 %: forma parte del sueldo de los meseros.",
       },
       {
         type: "speak",
@@ -1475,14 +1475,14 @@ export const EN_A2_U21: Lesson[] = [
         body: [
           "En Estados Unidos el correo es \"mail\" y la oficina, \"the post office\". En Reino Unido se dice \"post\". Un paquete es \"a package\" (Estados Unidos) o \"a parcel\" (Reino Unido); una carta es \"a letter\" y un sello, \"a stamp\".",
           "Para mandar algo: \"I'd like to send this to Spain\" o \"I'd like to mail this to Mexico\". Para comprar sellos: \"Can I have three stamps for Europe, please?\".",
-          "Te preguntarán \"What's inside?\" («¿qué contiene?») y quizá te pidan \"fill out this form\" («rellene este formulario»; en Reino Unido, \"fill in\").",
+          "Te preguntarán \"What's inside?\" («¿qué contiene?») y quizá te pidan \"fill out this form\" («llene este formulario»; en Reino Unido, \"fill in\").",
         ],
         examples: [
           { es: "I'd like to send this to Spain.", en: "Quería mandar esto a España." },
           { es: "I'd like to mail this package to Mexico.", en: "Quería mandar este paquete a México." },
           { es: "Can I have three stamps, please?", en: "¿Me da tres sellos, por favor?" },
           { es: "What's inside?", en: "¿Qué contiene?" },
-          { es: "Please fill out this form.", en: "Por favor, rellene este formulario." },
+          { es: "Please fill out this form.", en: "Por favor, llene este formulario." },
           { es: "It's just some clothes and books.", en: "Es solo ropa y algunos libros." },
         ],
         checkpoint: [
@@ -1543,14 +1543,14 @@ export const EN_A2_U21: Lesson[] = [
         heading: "Recoger un paquete",
         body: [
           "Si no estabas en casa, te dejarán una nota: \"Sorry we missed you\". Ve a la oficina y di \"I'm here to pick up a package\" («vengo a recoger un paquete»). \"Pick up\" es «recoger».",
-          "Te pedirán \"Can I see some ID?\" («¿me enseña un documento de identidad?»). Para explicar que no estabas: \"I missed a delivery yesterday\".",
+          "Te pedirán \"Can I see some ID?\" («¿me muestra una identificación?»). Para explicar que no estabas: \"I missed a delivery yesterday\".",
         ],
         examples: [
           { es: "I'm here to pick up a package.", en: "Vengo a recoger un paquete." },
           { es: "I missed a delivery yesterday.", en: "Ayer no estaba cuando vinieron a entregar un paquete." },
           { es: "I got this note.", en: "Me dejaron esta nota." },
-          { es: "Can I see some ID?", en: "¿Me enseña un documento de identidad?" },
-          { es: "Can my roommate pick it up for me?", en: "¿Lo puede recoger mi compañero de piso por mí?" },
+          { es: "Can I see some ID?", en: "¿Me muestra una identificación?" },
+          { es: "Can my roommate pick it up for me?", en: "¿Lo puede recoger mi compañero de cuarto por mí?" },
         ],
         checkpoint: [
           {
@@ -1636,9 +1636,9 @@ export const EN_A2_U21: Lesson[] = [
         type: "listen-choose",
         audio: "Please fill out this form.",
         question: "¿Qué te piden?",
-        options: ["Que rellenes un formulario.", "Que firmes un paquete.", "Que pagues en efectivo.", "Que vuelvas mañana."],
+        options: ["Que llenes un formulario.", "Que firmes un paquete.", "Que pagues en efectivo.", "Que vuelvas mañana."],
         correctIndex: 0,
-        explanation: "\"Fill out a form\" (o \"fill in\" en Reino Unido) es «rellenar un formulario».",
+        explanation: "\"Fill out a form\" (o \"fill in\" en Reino Unido) es «llenar un formulario».",
       },
     ],
   },
@@ -1679,7 +1679,7 @@ export const EN_A2_U21: Lesson[] = [
         heading: "Proponer un plan",
         body: [
           "Hay muchas formas de invitar: \"Do you want to go to the movies?\" (informal), \"Would you like to come to dinner?\" (más educado), \"How about a coffee?\" y \"Why don't we go to the beach?\".",
-          "\"Let's\" + verbo propone hacer algo juntos: \"Let's go out tonight\". En Reino Unido también oirás \"Do you fancy...?\": \"Do you fancy a drink?\" («¿te apetece tomar algo?»).",
+          "\"Let's\" + verbo propone hacer algo juntos: \"Let's go out tonight\". En Reino Unido también oirás \"Do you fancy...?\": \"Do you fancy a drink?\" («¿se te antoja tomar algo?»).",
           "Ojo con «quedar»: «¿quedamos?» se dice \"Do you want to meet up?\" o \"Do you want to hang out?\". \"Stay\" significa «quedarse en un lugar».",
         ],
         examples: [
@@ -1688,8 +1688,8 @@ export const EN_A2_U21: Lesson[] = [
           { es: "How about a coffee?", en: "¿Qué tal un café?" },
           { es: "Why don't we go to the beach?", en: "¿Por qué no vamos a la playa?" },
           { es: "Let's go out tonight.", en: "Salgamos esta noche." },
-          { es: "Do you fancy a drink?", en: "¿Te apetece tomar algo? (británico)" },
-          { es: "Do you want to meet up this weekend?", en: "¿Quedamos este fin de semana?" },
+          { es: "Do you fancy a drink?", en: "¿Se te antoja tomar algo? (británico)" },
+          { es: "Do you want to meet up this weekend?", en: "¿Nos vemos este fin de semana?" },
         ],
         checkpoint: [
           {
@@ -1703,7 +1703,7 @@ export const EN_A2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "¿Cómo dices «¿quedamos el domingo?»?",
+            question: "¿Cómo dices «¿nos vemos el domingo?»?",
             options: ["Do you want to meet up on Sunday?", "Do we stay on Sunday?", "Shall we stay on Sunday?", "Do we date on Sunday?"],
             correctIndex: 0,
             explanation: "«Quedar» con alguien es \"meet up\" o \"meet\". \"Stay\" es «quedarse» en un sitio.",
@@ -1745,10 +1745,10 @@ export const EN_A2_U21: Lesson[] = [
           "Para despedirte: \"See you there!\" o \"See you on Saturday!\".",
         ],
         examples: [
-          { es: "What time should we meet?", en: "¿A qué hora quedamos?" },
-          { es: "Shall we meet at eight?", en: "¿Quedamos a las ocho?" },
-          { es: "Let's meet outside the movie theater.", en: "Quedemos en la puerta del cine." },
-          { es: "Where should we meet?", en: "¿Dónde quedamos?" },
+          { es: "What time should we meet?", en: "¿A qué hora nos vemos?" },
+          { es: "Shall we meet at eight?", en: "¿Nos vemos a las ocho?" },
+          { es: "Let's meet outside the movie theater.", en: "Veámonos en la puerta del cine." },
+          { es: "Where should we meet?", en: "¿Dónde nos vemos?" },
           { es: "See you on Saturday!", en: "¡Nos vemos el sábado!" },
         ],
         checkpoint: [
@@ -1756,7 +1756,7 @@ export const EN_A2_U21: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "¿A qué hora quedamos?",
+            source: "¿A qué hora nos vemos?",
             answer: "What time should we meet?",
             altAnswers: ["What time shall we meet?", "What time do we meet?", "What time are we meeting?", "When should we meet?", "When shall we meet?", "When are we meeting?", "What time should we meet up?", "What time shall we meet up?"],
             explanation: "«Quedar» es \"meet\". Para proponer o decidir juntos se usa \"should we\" o \"shall we\".",
@@ -1766,7 +1766,7 @@ export const EN_A2_U21: Lesson[] = [
             prompt: "Escribe en inglés las palabras en negrita.",
             sentence: "Let's meet at seven ___ Friday.",
             answer: "on",
-            en: "Quedemos a las siete [el] viernes.",
+            en: "Veámonos a las siete [el] viernes.",
             explanation: "\"At\" con la hora y \"on\" con los días. Recuerda que \"Friday\" no lleva \"the\".",
           },
         ],
@@ -1820,7 +1820,7 @@ export const EN_A2_U21: Lesson[] = [
         type: "word-order",
         prompt: "Ordena las palabras.",
         words: ["Shall", "we", "meet", "at", "eight?"],
-        translation: "¿Quedamos a las ocho?",
+        translation: "¿Nos vemos a las ocho?",
         explanation: "\"Shall we\" + verbo propone algo. En Estados Unidos es más común \"Should we\".",
       },
       {
@@ -1849,7 +1849,7 @@ export const EN_A2_U21: Lesson[] = [
         question: "¿Qué te proponen?",
         options: ["Tomar un café.", "Comprar una cafetera.", "Ir a una fiesta elegante.", "Pagar el café."],
         correctIndex: 0,
-        explanation: "\"Do you fancy...?\" es británico y significa «¿te apetece...?».",
+        explanation: "\"Do you fancy...?\" es británico y significa «¿se te antoja...?» o «¿tienes ganas de...?».",
       },
       {
         type: "write",

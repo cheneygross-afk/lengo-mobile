@@ -595,7 +595,7 @@ export const EN_B2_U12: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "We congratulated Lucia ___ her driving test.",
         answer: "on passing",
-        en: "Felicitamos a Lucia [por aprobar] el examen de manejar.",
+        en: "Felicitamos a Lucia [por aprobar] el examen de manejo.",
         explanation: "\"Congratulate someone on\" + -ing. Spanish «por» tempts learners to write \"for\", but the preposition is \"on\".",
       },
       {
@@ -1045,7 +1045,7 @@ export const EN_B2_U12: Lesson[] = [
           "To request an action, use \"ask someone to\" + verb: \"She asked me to close the door\". Negative: \"She asked me not to tell anyone\". And \"ask about\" means «preguntar por»: \"He asked about my family\".",
         ],
         examples: [
-          { es: "I asked the waiter for the check.", en: "Le pedí la cuenta al camarero." },
+          { es: "I asked the waiter for the check.", en: "Le pedí la cuenta al mesero." },
           { es: "She asked me to close the door.", en: "Me pidió que cerrara la puerta." },
           { es: "She asked me not to tell anyone.", en: "Me pidió que no se lo dijera a nadie." },
           { es: "He asked about my family.", en: "Me preguntó por mi familia." },
@@ -1211,7 +1211,7 @@ export const EN_B2_U12: Lesson[] = [
         sentence: "When the waiter came, we ___ the check.",
         answer: "asked for",
         altAnswers: ["asked him for", "asked her for"],
-        en: "Cuando vino el camarero, [pedimos] la cuenta.",
+        en: "Cuando vino el mesero, [pedimos] la cuenta.",
         explanation: "«Pedir» a thing is \"ask for\". Without \"for\", the meaning changes.",
       },
       {
@@ -1574,7 +1574,7 @@ export const EN_B2_U12: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "El camarero se ofreció a traernos otra botella.",
+            source: "El mesero se ofreció a traernos otra botella.",
             answer: "The waiter offered to bring us another bottle.",
             altAnswers: [
               "The waiter offered to bring us another one.",
@@ -1906,7 +1906,7 @@ export const EN_B2_U12: Lesson[] = [
           { es: "He wanted to know when she was leaving.", en: "Quería saber cuándo se iba." },
           { es: "I asked her what she was going to do there.", en: "Le pregunté qué iba a hacer allí." },
           { es: "She asked me whether I'd ever been to Portugal.", en: "Me preguntó si había estado alguna vez en Portugal." },
-          { es: "He was wondering if we could help him move.", en: "Se preguntaba si podríamos ayudarle con la mudanza." },
+          { es: "He was wondering if we could help him move.", en: "Se preguntaba si podríamos ayudarlo con la mudanza." },
         ],
         checkpoint: [
           {
@@ -2767,7 +2767,7 @@ export const EN_B2_U12: Lesson[] = [
         examples: [
           { es: "He offered to drive.", en: "Se ofreció a manejar." },
           { es: "She persuaded me to stay.", en: "Me convenció para que me quedara." },
-          { es: "They suggested meeting at six.", en: "Sugirieron quedar a las seis." },
+          { es: "They suggested meeting at six.", en: "Sugirieron vernos a las seis." },
           { es: "He apologized for interrupting.", en: "Se disculpó por interrumpir." },
         ],
         checkpoint: [

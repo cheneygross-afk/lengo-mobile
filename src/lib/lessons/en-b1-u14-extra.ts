@@ -234,7 +234,7 @@ export const EN_B1_U14_EXTRA: Lesson[] = [
           { es: "The road is being repaired.", en: "Están arreglando la carretera." },
           { es: "The house was being painted when we arrived.", en: "Estaban pintando la casa cuando llegamos." },
           { es: "All the tickets have been sold.", en: "Se han vendido todas las entradas." },
-          { es: "The cake had been eaten before the party.", en: "Se habían comido la tarta antes de la fiesta." },
+          { es: "The cake had been eaten before the party.", en: "Se habían comido el pastel antes de la fiesta." },
           { es: "A new school is being built near my house.", en: "Están construyendo un colegio nuevo cerca de mi casa." },
         ],
         checkpoint: [
@@ -267,7 +267,7 @@ export const EN_B1_U14_EXTRA: Lesson[] = [
           { es: "The old bridge is going to be replaced.", en: "Van a sustituir el puente viejo." },
           { es: "This form must be signed.", en: "Este formulario tiene que firmarse." },
           { es: "It can be done online.", en: "Se puede hacer por internet." },
-          { es: "Milk should be kept in the fridge.", en: "La leche se debe guardar en la nevera." },
+          { es: "Milk should be kept in the fridge.", en: "La leche se debe guardar en el refrigerador." },
           { es: "The flight might be canceled.", en: "Puede que cancelen el vuelo." },
         ],
         checkpoint: [
@@ -581,7 +581,7 @@ export const EN_B1_U14_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Se necesitan camareros.",
+        source: "Se necesitan meseros.",
         answer: "Waiters are needed.",
         altAnswers: ["Waiters wanted.", "We need waiters.", "Waiters needed.", "Servers needed.", "Servers wanted.", "Servers are needed.", "We're looking for waiters."],
         explanation: "On a sign, «Se necesitan» is often \"... wanted\" or \"... needed\". In a sentence: \"Waiters are needed\" (plural, so \"are\").",
