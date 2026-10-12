@@ -3,6 +3,7 @@ import { View, Text, Pressable, TextInput, StyleSheet, type StyleProp, type Text
 import type { Exercise } from "@/lib/lessons/types";
 import { speak, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
 import TapText, { isTargetText } from "@/components/TapText";
+import { isSpanishText } from "@/lib/spanishVoice";
 import {
   gradeFillBlank,
   gradeTranslate,
@@ -419,6 +420,7 @@ function Translate({
 }: SubProps<Extract<Exercise, { type: "translate" }>>) {
   const [value, setValue] = useState("");
   const sourceIsTarget = exercise.direction === "es-en";
+  const sourceIsSpanishTask = !sourceIsTarget && (lang === "es-ES" || lang === "es-US") && isSpanishText(exercise.source);
 
   // es-en: `source` IS the target-language phrase this drill question is
   // asking about, and it's on screen from the moment the question
@@ -448,6 +450,10 @@ function Translate({
           >
             {exercise.source}
           </Text>
+        ) : sourceIsSpanishTask ? (
+          // A correction task ("Corrige: ..."): its Spanish is tap-to-hear,
+          // word by word, so any English framing stays plain.
+          <TapText text={exercise.source} lang={lang} mode="mixed" style={s.sourceText} />
         ) : (
           <TapText text={exercise.source} lang={lang} mode="english" style={s.sourceText} />
         )}

@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import { Text, StyleSheet, type StyleProp, type TextStyle } from "react-native";
 import { speak, ENGLISH_LANG, type SpeechLang } from "@/lib/speech";
 import { targetSpans } from "@/lib/targetSpans";
+import { isSpanishText, spanishVoicer } from "@/lib/spanishVoice";
 
 // Makes every target-language word in a block of text tap-to-hear -- the
 // rule for lesson screens is that any word in the language being learned
@@ -57,6 +58,10 @@ function looksTargetWord(word: string, lang: SpeechLang): boolean {
 
 // The courses whose words share the English alphabet, so mixed text is
 // decided word by word.
+// The Spanish course decides word by word which words are Spanish
+// (lib/spanishVoice.ts), the same rule as the website.
+const isSpanishLang = (lang: SpeechLang) => lang === "es-ES" || lang === "es-US";
+
 const LATIN_SCRIPT_TARGETS: SpeechLang[] = ["es-ES", "fr-FR", "de-DE"];
 
 type Piece = { text: string; lang: SpeechLang | null; bold: boolean };
@@ -77,7 +82,8 @@ function pieces(text: string, lang: SpeechLang, mode: Mode, boldBrackets: boolea
       }
     }
   }
-  const spans = mode === "mixed" ? targetSpans(plain, lang) : [];
+  const spanishAt = mode === "mixed" && isSpanishLang(lang) ? spanishVoicer(plain) : null;
+  const spans = mode === "mixed" && !spanishAt ? targetSpans(plain, lang) : [];
   const out: Piece[] = [];
   let pos = 0;
   const push = (t: string, l: SpeechLang | null, start: number) => {
@@ -97,6 +103,7 @@ function pieces(text: string, lang: SpeechLang, mode: Mode, boldBrackets: boolea
     let wordLang: SpeechLang;
     if (mode === "target") wordLang = lang;
     else if (mode === "english") wordLang = ENGLISH_LANG;
+    else if (spanishAt) wordLang = spanishAt(start, start + word.length) ? lang : ENGLISH_LANG;
     else {
       const inSpan = spans.some((sp) => start >= sp.start && start < sp.end);
       wordLang =
@@ -114,6 +121,7 @@ function pieces(text: string, lang: SpeechLang, mode: Mode, boldBrackets: boolea
  * test for whether the word at [start, end) is in the target language,
  * by the same rule TapText's "mixed" mode uses. */
 export function targetWordTest(text: string, lang: SpeechLang): (start: number, end: number) => boolean {
+  if (isSpanishLang(lang)) return spanishVoicer(text);
   const spans = targetSpans(text, lang);
   return (start, end) =>
     spans.some((sp) => start < sp.end && end > sp.start) ||
@@ -123,6 +131,7 @@ export function targetWordTest(text: string, lang: SpeechLang): (start: number, 
 /** Which voice a whole short string (an answer option, a matching card)
  * should be read in; see isTargetText for whether to voice it at all. */
 export function voiceFor(text: string, lang: SpeechLang): SpeechLang {
+  if (isSpanishLang(lang)) return isSpanishText(text) ? lang : ENGLISH_LANG;
   if (targetSpans(text, lang).length > 0) return lang;
   return text.split(/\s+/).some((w) => looksTargetWord(w, lang)) ? lang : ENGLISH_LANG;
 }

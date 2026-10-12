@@ -22,6 +22,7 @@ import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
 import LessonVideoLink from "@/components/LessonVideoLink";
 import TapText from "@/components/TapText";
+import { isSpanishText } from "@/lib/spanishVoice";
 import { langForLevel, langForLevelPath, ENGLISH_LANG } from "@/lib/speech";
 import { markLessonCompleted } from "@/lib/lessons/completion";
 import { creditStudy } from "@/lib/studyDays";
@@ -640,7 +641,7 @@ function TeachStep({
   unitLabel,
 }: {
   unitLabel?: string;
-  lesson: { level: Lesson["level"]; slug: string; number: number; title: string; optional?: boolean; sections: { heading: string; body: string[]; examples?: { es: string; en?: string }[] }[] };
+  lesson: { level: Lesson["level"]; slug: string; number: number; title: string; summary?: string; optional?: boolean; sections: { heading: string; body: string[]; examples?: { es: string; en?: string }[] }[] };
   // Which section this screen teaches; null for a lesson with no sections
   // (a pure review), which just gets the title screen.
   sectionIndex: number | null;
@@ -656,6 +657,8 @@ function TeachStep({
   markColor: string;
 }) {
   const lang = langForLevel(lesson.level);
+  // Example glosses that may be Spanish definitions (B2 and up).
+  const spanishGlosses = (lang === "es-ES" || lang === "es-US") && !/^(A1|A2|B1)$/.test(lesson.level);
   return (
     <View>
       {first ? (
@@ -665,6 +668,7 @@ function TeachStep({
             {lesson.optional ? " · optional" : ""}
           </Text>
           <TapText text={lesson.title} lang={lang} style={s.introTitle} />
+          {lesson.summary ? <TapText text={lesson.summary} lang={lang} style={s.introSummary} /> : null}
           <LessonVideoLink level={lesson.level} slug={lesson.slug} />
           {note ? (
             <View style={s.noteBox}>
@@ -724,7 +728,13 @@ function TeachStep({
                     highlights={highlightsFor(enKey)}
                     enabled={highlightsEnabled}
                     markColor={markColor}
-                    lang={null}
+                    // The learner's own language, not voiced; but from B2 up
+                    // many Spanish-course glosses are Spanish definitions,
+                    // which are tap-to-hear like the body (word by word, so
+                    // English stays plain). Below B2 glosses are English by
+                    // design and short ones ("It's 3:10.") fool the detector.
+                    lang={spanishGlosses && isSpanishText(ex.en) ? lang : null}
+                    mixed
                     textStyle={s.exampleEn}
                     style={s.exampleEnBlock}
                     onAdd={(start, end, selected) => onAddHighlight(enKey, ex.en ?? "", start, end, selected)}
@@ -860,6 +870,7 @@ const s = StyleSheet.create({
 
   kicker: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#7A1F1F", marginBottom: 6 },
   introTitle: { fontSize: 24, fontWeight: "800", color: "#000", marginBottom: 18 },
+  introSummary: { fontSize: 15, color: "#555", marginTop: -8, marginBottom: 18 },
   introSection: { marginBottom: 22 },
   noteBox: {
     borderWidth: 1,
