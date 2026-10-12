@@ -3,7 +3,7 @@ import { View, Text, Pressable, StyleSheet, ScrollView, ActivityIndicator } from
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { READING_LEVELS } from "@/lib/stories/registry";
-import { frenchStoriesIfLoaded, loadFrenchStories, type FrenchStories } from "@/lib/stories/french";
+import { STORY_COURSES, type CourseStories, type StoryCourse } from "@/lib/stories/courseStories";
 
 type Props = NativeStackScreenProps<AppStackParamList, "ReadingLevels">;
 
@@ -11,7 +11,12 @@ type Props = NativeStackScreenProps<AppStackParamList, "ReadingLevels">;
 // each opening that level's ReadingsList (stories + book picks). Same
 // card layout as SpanishLevelsScreen.
 export default function ReadingLevelsScreen(props: Props) {
-  return props.route.params?.lang === "fr" ? <FrenchStoryLevels {...props} /> : <SpanishReadingLevels {...props} />;
+  const lang = props.route.params?.lang;
+  return lang === "fr" || lang === "de" ? (
+    <CourseStoryLevels {...props} course={lang} key={lang} />
+  ) : (
+    <SpanishReadingLevels {...props} />
+  );
 }
 
 function SpanishReadingLevels({ navigation }: Props) {
@@ -42,24 +47,26 @@ function SpanishReadingLevels({ navigation }: Props) {
   );
 }
 
-// The French course's stories (lib/stories/french.ts), level by level, as
-// on the website's /lessons/fr/stories: graded original stories with audio,
-// an English translation and glosses. No book picks for French.
-function FrenchStoryLevels({ navigation }: Props) {
-  const [data, setData] = useState<FrenchStories | null>(frenchStoriesIfLoaded);
+// The French or German course's stories (lib/stories/courseStories.ts),
+// level by level, as on the website's /lessons/fr/stories and
+// /lessons/de/stories: graded original stories with audio, an English
+// translation and glosses. No book picks for these courses.
+function CourseStoryLevels({ navigation, course }: Props & { course: StoryCourse }) {
+  const config = STORY_COURSES[course];
+  const [data, setData] = useState<CourseStories | null>(config.ifLoaded);
   useLayoutEffect(() => {
-    navigation.setOptions({ title: "French stories" });
-  }, [navigation]);
+    navigation.setOptions({ title: `${config.name} stories` });
+  }, [navigation, config.name]);
   useEffect(() => {
     if (data) return;
     let cancelled = false;
-    loadFrenchStories().then((d) => {
+    config.load().then((d) => {
       if (!cancelled) setData(d);
     });
     return () => {
       cancelled = true;
     };
-  }, [data]);
+  }, [data, config]);
 
   if (!data) {
     return (
@@ -71,14 +78,16 @@ function FrenchStoryLevels({ navigation }: Props) {
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <Text style={styles.subtitle}>
-        Original French stories for every level, with audio, an English translation and comprehension questions.
+        Original {config.name} stories for every level, with audio, an English translation and comprehension questions.
       </Text>
       <View style={styles.cards}>
         {data.levels.map((lvl) => (
           <Pressable
             key={lvl.path}
             style={styles.card}
-            onPress={() => navigation.navigate("ReadingsList", { frenchLevel: lvl.path })}
+            onPress={() =>
+              navigation.navigate("ReadingsList", course === "fr" ? { frenchLevel: lvl.path } : { germanLevel: lvl.path })
+            }
           >
             <View style={styles.cardTop}>
               <Text style={styles.cardCode}>{lvl.label}</Text>

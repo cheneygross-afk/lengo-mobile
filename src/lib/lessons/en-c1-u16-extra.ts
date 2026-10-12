@@ -22,7 +22,7 @@ export const EN_C1_U16_EXTRA: Lesson[] = [
           "The typical Advanced mistake is not choosing the wrong variety but mixing them: *We took the elevator to our flat. Pick one, as Spanish writers pick between «ordenador» and «computadora» for a given audience.",
         ],
         examples: [
-          { es: "We live in a flat near the city centre.", en: "Vivimos en un piso cerca del centro. (británico)" },
+          { es: "We live in a flat near the city centre.", en: "Vivimos en un departamento cerca del centro. (británico)" },
           { es: "We live in an apartment downtown.", en: "Vivimos en un apartamento en el centro. (americano)" },
           { es: "The colour of the logo was changed after we travelled to Paris.", en: "El color del logotipo se cambió después de nuestro viaje a París. (británico)" },
           { es: "The color of the logo was changed after we traveled to Paris.", en: "El color del logotipo se cambió después de nuestro viaje a París. (americano)" },
@@ -95,7 +95,7 @@ export const EN_C1_U16_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into British English.",
-        source: "Nuestro piso está al lado de una farmacia.",
+        source: "Nuestro departamento está al lado de una farmacia.",
         answer: "Our flat is next to a chemist's.",
         altAnswers: [
           "Our flat is next to a chemist.",
@@ -113,7 +113,7 @@ export const EN_C1_U16_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into American English.",
-        source: "Hice cola media hora para comprar las entradas.",
+        source: "Hice fila media hora para comprar las entradas.",
         answer: "I stood in line for half an hour to buy the tickets.",
         altAnswers: [
           "I stood in line for half an hour to get the tickets.",
@@ -249,7 +249,7 @@ export const EN_C1_U16_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into American English.",
-        source: "Aparca en el aparcamiento de detrás del cine.",
+        source: "Estaciona en el estacionamiento de detrás del cine.",
         answer: "Park in the parking lot behind the movie theater.",
         altAnswers: [
           "Park in the parking lot behind the theater.",

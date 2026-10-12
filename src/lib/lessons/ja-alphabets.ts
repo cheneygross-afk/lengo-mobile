@@ -31,13 +31,13 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
             "type": "multiple-choice",
             "question": "What makes hiragana easier than English spelling?",
             "options": [
-              "Each character has exactly one pronunciation, always",
+              "Each character has one fixed pronunciation (apart from a few particle spellings)",
               "It only has 10 characters total",
               "It's identical to the Latin alphabet",
               "It has no vowel sounds"
             ],
             "correctIndex": 0,
-            "explanation": "Hiragana is perfectly phonetic -- one character, one sound, every time."
+            "explanation": "Hiragana is almost perfectly phonetic -- one character, one sound. The only exceptions are the particles は (wa), へ (e), and を (o), covered below."
           }
         ]
       },
@@ -76,7 +76,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
         "heading": "あ い う え お",
         "body": [
           "あ = a (\"father\"). い = i (\"see,\" short). う = u (clipped \"oo,\" less rounded than English). え = e (\"bed\"). お = o (\"more,\" no glide into \"w\").",
-          "Say them in order a few times: a-i-u-e-o. Every other hiragana character is a consonant fused onto one of these five."
+          "Say them in order a few times: a-i-u-e-o. Almost every other hiragana character is a consonant fused onto one of these five (ん is the one exception)."
         ],
         "examples": [
           {
@@ -376,7 +376,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 4,
     "title": "Hiragana: K & S Rows, Part 1 of 2",
-    "summary": "か き く け こ and さ し す せ そ -- ten characters, one irregular reading to watch for.",
+    "summary": "You'll be able to read か き く け こ (ka ki ku ke ko) and simple words built from them, like かき.",
     "duration": "6 min",
     "sections": [
       {
@@ -474,15 +474,15 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "How is し pronounced?",
+        "question": "Which character is read \"ke\"?",
         "options": [
-          "shi",
-          "si",
-          "chi",
-          "shu"
+          "け",
+          "き",
+          "こ",
+          "く"
         ],
         "correctIndex": 0,
-        "explanation": "し is irregular: \"shi,\" not the expected \"si.\""
+        "explanation": "け = ke. き is ki, こ is ko, and く is ku."
       }
     ]
   },
@@ -491,7 +491,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 5,
     "title": "Hiragana: K & S Rows, Part 2 of 2",
-    "summary": "か き く け こ and さ し す せ そ -- ten characters, one irregular reading to watch for.",
+    "summary": "You'll be able to read さ し す せ そ, including the irregular し (shi), and combine them with the K row.",
     "duration": "6 min",
     "sections": [
       {
@@ -627,7 +627,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 6,
     "title": "Hiragana: T & N Rows, Part 1 of 2",
-    "summary": "た ち つ て と and な に ぬ ね の -- completes the first 25 characters, half the syllabary.",
+    "summary": "You'll be able to read た ち つ て と, including the irregular ち (chi) and つ (tsu).",
     "duration": "6 min",
     "sections": [
       {
@@ -714,10 +714,10 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Give the romaji reading for ねこ, a word meaning \"cat.\"",
-        "sentence": "ねこ means \"cat\" and is read ___.",
-        "answer": "neko",
-        "explanation": "ね (ne) + こ (ko) = neko."
+        "prompt": "Give the romaji reading for くつ, a word meaning \"shoes.\"",
+        "sentence": "くつ means \"shoes\" and is read ___.",
+        "answer": "kutsu",
+        "explanation": "く (ku) + つ (tsu) = kutsu."
       },
       {
         "type": "multi-select",
@@ -742,7 +742,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 7,
     "title": "Hiragana: T & N Rows, Part 2 of 2",
-    "summary": "た ち つ て と and な に ぬ ね の -- completes the first 25 characters, half the syllabary.",
+    "summary": "You'll be able to read な に ぬ ね の and words like いぬ and ねこ -- 25 characters, half the syllabary.",
     "duration": "6 min",
     "sections": [
       {
@@ -1106,7 +1106,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 10,
     "title": "Hiragana: H & M Rows, Part 1 of 2",
-    "summary": "は ひ ふ へ ほ and ま み む め も -- one more irregular reading, then a fully regular row.",
+    "summary": "You'll be able to read は ひ ふ へ ほ, including the irregular ふ (fu).",
     "duration": "6 min",
     "sections": [
       {
@@ -1218,7 +1218,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 11,
     "title": "Hiragana: H & M Rows, Part 2 of 2",
-    "summary": "は ひ ふ へ ほ and ま み む め も -- one more irregular reading, then a fully regular row.",
+    "summary": "You'll be able to read ま み む め も and combine them with the H row.",
     "duration": "6 min",
     "sections": [
       {
@@ -1350,7 +1350,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 12,
     "title": "Hiragana: Y, R, W Rows & ん, Part 1 of 2",
-    "summary": "や ゆ よ, ら り る れ ろ, わ を ん -- the last 11 characters complete the base 46.",
+    "summary": "You'll be able to read や ゆ よ and ら り る れ ろ.",
     "duration": "7 min",
     "sections": [
       {
@@ -1514,7 +1514,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 13,
     "title": "Hiragana: Y, R, W Rows & ん, Part 2 of 2",
-    "summary": "や ゆ よ, ら り る れ ろ, わ を ん -- the last 11 characters complete the base 46.",
+    "summary": "You'll be able to read わ を ん and recognize every one of the base 46 characters.",
     "duration": "5 min",
     "sections": [
       {
@@ -1581,7 +1581,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
           "It's the only one that isn't a consonant fused with a vowel",
           "It's the only vowel-only character",
           "It's only used in katakana",
-          "It has two different pronunciations"
+          "It's always silent"
         ],
         "correctIndex": 0,
         "explanation": "Every other hiragana is consonant + vowel (or a bare vowel). ん stands alone."
@@ -1830,7 +1830,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 16,
     "title": "Hiragana: Voiced Sounds & Combinations, Part 1 of 2",
-    "summary": "Four small marks and tricks that extend the base 46 into every remaining hiragana sound: dakuten, handakuten, combination sounds, long vowels, and the small っ.",
+    "summary": "You'll be able to read voiced sounds made with dakuten (が, ざ, だ, ば rows) and P sounds made with handakuten (ぱ row).",
     "duration": "7 min",
     "sections": [
       {
@@ -1946,10 +1946,10 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Give the romaji reading for しゃしん, a word meaning \"photo.\"",
-        "sentence": "しゃしん means \"photo\" and is read ___.",
-        "answer": "shashin",
-        "explanation": "しゃ (sha) + し (shi) + ん (n) = shashin."
+        "prompt": "Give the romaji reading for ごはん, a word meaning \"rice, meal.\"",
+        "sentence": "ごはん means \"rice, meal\" and is read ___.",
+        "answer": "gohan",
+        "explanation": "ご (go) + は (ha) + ん (n) = gohan."
       }
     ]
   },
@@ -1958,7 +1958,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 17,
     "title": "Hiragana: Voiced Sounds & Combinations, Part 2 of 2",
-    "summary": "Four small marks and tricks that extend the base 46 into every remaining hiragana sound: dakuten, handakuten, combination sounds, long vowels, and the small っ.",
+    "summary": "You'll be able to read combination sounds (きゃ, しゃ...), long vowels, and the small っ.",
     "duration": "9 min",
     "sections": [
       {
@@ -2272,7 +2272,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 20,
     "title": "Katakana: The Complete Syllabary, Part 1 of 2",
-    "summary": "Same 46+ sounds you already know, new shapes. Katakana moves fast precisely because you're not learning new pronunciation -- just new symbols for it.",
+    "summary": "You'll be able to read katakana vowels and the K, S, T, and N rows, matching each shape to a sound you already know.",
     "duration": "8 min",
     "sections": [
       {
@@ -2377,7 +2377,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 21,
     "title": "Katakana: The Complete Syllabary, Part 2 of 2",
-    "summary": "Same 46+ sounds you already know, new shapes. Katakana moves fast precisely because you're not learning new pronunciation -- just new symbols for it.",
+    "summary": "You'll be able to read the rest of the katakana base rows plus voiced and combination sounds.",
     "duration": "8 min",
     "sections": [
       {
@@ -2701,7 +2701,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 24,
     "title": "Katakana in Practice: Loanwords & Reading, Part 1 of 2",
-    "summary": "The long-vowel mark, extended sounds for foreign words, and real loanword reading practice -- the module's capstone.",
+    "summary": "You'll be able to read the katakana long-vowel mark ー and the extended sounds used for foreign words.",
     "duration": "7 min",
     "sections": [
       {
@@ -2797,7 +2797,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 25,
     "title": "Katakana in Practice: Loanwords & Reading, Part 2 of 2",
-    "summary": "The long-vowel mark, extended sounds for foreign words, and real loanword reading practice -- the module's capstone.",
+    "summary": "You'll be able to read real loanwords and mixed hiragana/katakana text on your own.",
     "duration": "7 min",
     "sections": [
       {

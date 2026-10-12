@@ -1722,7 +1722,7 @@ export const EN_A2_U18: Lesson[] = [
         ],
         examples: [
           { es: "Who has seen my keys?", en: "¿Quién ha visto mis llaves?" },
-          { es: "Who is going to drive?", en: "¿Quién va a manejar? / ¿Quién va a conducir?" },
+          { es: "Who is going to drive?", en: "¿Quién va a manejar? / ¿Quién va a manejar?" },
           { es: "Who can help me?", en: "¿Quién me puede ayudar?" },
           { es: "Do you know where she has gone?", en: "¿Sabes adónde ha ido?" },
           { es: "Can you tell me when the train will arrive?", en: "¿Me puede decir cuándo llegará el tren?" },
@@ -1778,7 +1778,7 @@ export const EN_A2_U18: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "Who ___ to drive?",
         answer: "is going",
-        en: "¿Quién [va] a conducir?",
+        en: "¿Quién [va] a manejar?",
         explanation: "Pregunta de sujeto con \"going to\": \"Who is going to drive?\", en el mismo orden que una afirmación.",
       },
       {

@@ -33,6 +33,9 @@ export type ExamAudio = {
   /** "Conversación 1", "Anuncio 3"... */
   label?: string;
   lines: ExamLine[];
+  /** How many times the recording may be played in timed mode (default 2,
+   * as in the DELE and DELF; some Goethe-Zertifikat parts are heard once). */
+  plays?: number;
 };
 
 export type ExamText = {

@@ -264,7 +264,7 @@ export const EN_B1_U17_EXTRA: Lesson[] = [
         examples: [
           { es: "He didn't call, which was rude.", en: "No llamó, lo que fue de mala educación." },
           { es: "It rained all week, which was a shame.", en: "Llovió toda la semana, lo cual fue una pena." },
-          { es: "She passed her driving test, which surprised everyone.", en: "Aprobó el examen de conducir, lo que sorprendió a todos." },
+          { es: "She passed her driving test, which surprised everyone.", en: "Aprobó el examen de manejar, lo que sorprendió a todos." },
         ],
         checkpoint: [
           {
@@ -477,8 +477,8 @@ export const EN_B1_U17_EXTRA: Lesson[] = [
         examples: [
           { es: "The students who studied passed the exam.", en: "Los estudiantes que estudiaron aprobaron (solo esos)." },
           { es: "The students, who studied, passed the exam.", en: "Los estudiantes, que estudiaron, aprobaron (todos)." },
-          { es: "The car I want is too expensive.", en: "El coche que quiero es demasiado caro." },
-          { es: "My car, which I love, is very old.", en: "Mi coche, al que adoro, es muy viejo." },
+          { es: "The car I want is too expensive.", en: "El carro que quiero es demasiado caro." },
+          { es: "My car, which I love, is very old.", en: "Mi carro, al que adoro, es muy viejo." },
         ],
         checkpoint: [
           {
@@ -711,7 +711,7 @@ export const EN_B1_U17_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El hombre que arregló mi coche era muy amable.",
+        source: "El hombre que arregló mi carro era muy amable.",
         answer: "The man who fixed my car was very nice.",
         altAnswers: [
           "The man that fixed my car was very nice.",
@@ -833,7 +833,7 @@ export const EN_B1_U17_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say «Llegó tarde, lo que me enfadó»?",
+        question: "How do you say «Llegó tarde, lo que me enojó»?",
         options: [
           "He arrived late, which made me angry.",
           "He arrived late, what made me angry.",

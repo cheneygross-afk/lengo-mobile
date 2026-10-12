@@ -551,8 +551,8 @@ export const EN_B2_U24: Lesson[] = [
           "A trick: look at the direction. If the money goes away from the subject, it's \"lend\". If it comes to the subject, it's \"borrow\". A bank lends you money; you borrow money from the bank, and that money is \"a loan\" («un préstamo»).",
         ],
         examples: [
-          { es: "Can you lend me your car this weekend?", en: "¿Me prestas tu coche este fin de semana?" },
-          { es: "Can I borrow your car this weekend?", en: "¿Me prestas tu coche este fin de semana? (lit. «¿puedo tomar prestado...?»)" },
+          { es: "Can you lend me your car this weekend?", en: "¿Me prestas tu carro este fin de semana?" },
+          { es: "Can I borrow your car this weekend?", en: "¿Me prestas tu carro este fin de semana? (lit. «¿puedo tomar prestado...?»)" },
           { es: "I borrowed fifty dollars from my brother.", en: "Le pedí prestados cincuenta dólares a mi hermano." },
           { es: "She lent me her notes.", en: "Me prestó sus apuntes." },
           { es: "We asked the bank for a loan.", en: "Pedimos un préstamo al banco." },
@@ -849,8 +849,8 @@ export const EN_B2_U24: Lesson[] = [
         examples: [
           { es: "That sweater was an impulse buy.", en: "Ese suéter fue una compra impulsiva." },
           { es: "Apple customers show strong brand loyalty.", en: "Los clientes de Apple son muy fieles a la marca." },
-          { es: "What brand is your phone?", en: "¿De qué marca es tu móvil?" },
-          { es: "It's worth shopping around for car insurance.", en: "Vale la pena comparar precios del seguro del coche." },
+          { es: "What brand is your phone?", en: "¿De qué marca es tu celular?" },
+          { es: "It's worth shopping around for car insurance.", en: "Vale la pena comparar precios del seguro del carro." },
           { es: "We went window-shopping downtown.", en: "Fuimos a mirar escaparates al centro." },
         ],
         checkpoint: [
@@ -952,7 +952,7 @@ export const EN_B2_U24: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Antes de comprar un coche, conviene comparar precios.",
+        source: "Antes de comprar un carro, conviene comparar precios.",
         answer: "Before you buy a car, it's a good idea to shop around.",
         altAnswers: [
           "Before buying a car, it's a good idea to shop around.",
@@ -1428,11 +1428,11 @@ export const EN_B2_U24: Lesson[] = [
         ],
         examples: [
           { es: "Someone stole my bike last night.", en: "Anoche alguien me robó la bici." },
-          { es: "My phone was stolen on the subway.", en: "Me robaron el móvil en el metro." },
+          { es: "My phone was stolen on the subway.", en: "Me robaron el celular en el metro." },
           { es: "Two men robbed a jewelry store downtown.", en: "Dos hombres atracaron una joyería en el centro." },
           { es: "I got robbed in Paris.", en: "Me robaron en París." },
           { es: "Burglars broke into our house while we were away.", en: "Unos ladrones entraron en casa mientras estábamos fuera." },
-          { es: "Car theft has gone down this year.", en: "El robo de coches ha bajado este año." },
+          { es: "Car theft has gone down this year.", en: "El robo de carros ha bajado este año." },
         ],
         checkpoint: [
           {
@@ -1473,7 +1473,7 @@ export const EN_B2_U24: Lesson[] = [
           { es: "Crime has increased in the area.", en: "La delincuencia ha aumentado en la zona." },
           { es: "She was accused of fraud.", en: "La acusaron de fraude." },
           { es: "Shoplifting is common before Christmas.", en: "Los hurtos en tiendas son frecuentes antes de Navidad." },
-          { es: "It's a crime to drive without insurance.", en: "Es delito conducir sin seguro." },
+          { es: "It's a crime to drive without insurance.", en: "Es delito manejar sin seguro." },
         ],
         checkpoint: [
           {
@@ -1496,7 +1496,7 @@ export const EN_B2_U24: Lesson[] = [
         examples: [
           { es: "The police arrested two suspects.", en: "La policía detuvo a dos sospechosos." },
           { es: "He was charged with murder.", en: "Lo acusaron formalmente de asesinato." },
-          { es: "A witness saw the car leave.", en: "Un testigo vio salir el coche." },
+          { es: "A witness saw the car leave.", en: "Un testigo vio salir el carro." },
           { es: "The trial starts on Monday.", en: "El juicio empieza el lunes." },
           { es: "She was sentenced to three years in prison.", en: "La condenaron a tres años de cárcel." },
           { es: "I got a fine for parking in the wrong place.", en: "Me pusieron una multa por estacionar mal." },
@@ -1526,7 +1526,7 @@ export const EN_B2_U24: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Le robaron el coche delante de su casa.",
+        source: "Le robaron el carro delante de su casa.",
         answer: "His car was stolen in front of his house.",
         altAnswers: [
           "Her car was stolen in front of her house.",
@@ -1740,7 +1740,7 @@ export const EN_B2_U24: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "Before buying a car, ___ some research online.",
             answer: "do",
-            en: "Antes de comprar un coche, [haz] un poco de investigación en internet.",
+            en: "Antes de comprar un carro, [haz] un poco de investigación en internet.",
             explanation: "\"Do research\". \"Research\" is uncountable, so \"some research\", not *a research.",
           },
         ],
@@ -2291,7 +2291,7 @@ export const EN_B2_U24: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Le pedí prestado el coche a mi hermana porque el mío estaba en el taller.",
+            source: "Le pedí prestado el carro a mi hermana porque el mío estaba en el taller.",
             answer: "I borrowed my sister's car because mine was at the garage.",
             altAnswers: [
               "I borrowed my sister's car because mine was in the shop.",
@@ -2517,7 +2517,7 @@ export const EN_B2_U24: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Es un coche muy económico: gasta muy poca gasolina.» Which word fits? \"It's a very ___ car.\"",
+            question: "«Es un carro muy económico: gasta muy poca gasolina.» Which word fits? \"It's a very ___ car.\"",
             options: ["economical", "economic", "economics", "economy"],
             correctIndex: 0,
             explanation: "\"Economical\" = cheap to run or use. \"Economic\" = related to the economy (\"economic crisis\").",

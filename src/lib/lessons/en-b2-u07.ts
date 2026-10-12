@@ -93,8 +93,8 @@ export const EN_B2_U07: Lesson[] = [
           { es: "I wish I hadn't said that.", en: "Ojalá no hubiera dicho eso." },
           { es: "I wish I had studied harder.", en: "Ojalá hubiera estudiado más." },
           { es: "I wish you had told me.", en: "Ojalá me lo hubieras dicho." },
-          { es: "She wishes she hadn't sold her car.", en: "Ella se arrepiente de haber vendido su coche." },
-          { es: "I wish we had taken the train.", en: "Ojalá hubiéramos cogido el tren." },
+          { es: "She wishes she hadn't sold her car.", en: "Ella se arrepiente de haber vendido su carro." },
+          { es: "I wish we had taken the train.", en: "Ojalá hubiéramos tomado el tren." },
           { es: "I wish I had known.", en: "Ojalá lo hubiera sabido." },
         ],
         checkpoint: [
@@ -253,7 +253,7 @@ export const EN_B2_U07: Lesson[] = [
           { es: "I wish he wouldn't leave his socks on the floor.", en: "Ojalá no dejara los calcetines en el suelo." },
           { es: "I wish the neighbors would turn the music down.", en: "A ver si los vecinos bajan la música." },
           { es: "I wish you would listen to me for once.", en: "Ojalá me escucharas por una vez." },
-          { es: "I wish people wouldn't drive so fast here.", en: "Ojalá la gente no condujera tan rápido aquí." },
+          { es: "I wish people wouldn't drive so fast here.", en: "Ojalá la gente no manejara tan rápido aquí." },
         ],
         checkpoint: [
           {
@@ -271,7 +271,7 @@ export const EN_B2_U07: Lesson[] = [
             sentence: "I wish you ___ your phone at dinner.",
             answer: "wouldn't use",
             altAnswers: ["would not use", "didn't use", "did not use"],
-            en: "Ojalá no [usaras] el móvil durante la cena.",
+            en: "Ojalá no [usaras] el celular durante la cena.",
             explanation: "A complaint about someone's habit: \"I wish you wouldn't...\". \"Didn't use\" is also possible, but \"wouldn't\" sounds more like a complaint.",
           },
         ],
@@ -287,7 +287,7 @@ export const EN_B2_U07: Lesson[] = [
           { es: "I wish I could stop eating chocolate.", en: "Ojalá pudiera dejar de comer chocolate. (incorrecto: *I wish I would stop)" },
           { es: "I wish I didn't spend so much money.", en: "Ojalá no gastara tanto dinero." },
           { es: "I wish I were rich.", en: "Ojalá fuera rico. (incorrecto: *I wish I would be rich)" },
-          { es: "I wish I had a car.", en: "Ojalá tuviera coche." },
+          { es: "I wish I had a car.", en: "Ojalá tuviera carro." },
           { es: "I wish you would call more often.", en: "Ojalá llamaras más a menudo." },
         ],
         checkpoint: [
@@ -712,7 +712,7 @@ export const EN_B2_U07: Lesson[] = [
           "The negative \"couldn't have\" means something was impossible: \"I couldn't have done it without you.\"",
         ],
         examples: [
-          { es: "We could have taken a taxi.", en: "Podríamos haber cogido un taxi." },
+          { es: "We could have taken a taxi.", en: "Podríamos haber tomado un taxi." },
           { es: "It could have been worse.", en: "Podría haber sido peor." },
           { es: "You could have warned me!", en: "¡Podrías haberme avisado!" },
           { es: "I couldn't have done it without you.", en: "No lo habría podido hacer sin ti." },
@@ -1008,7 +1008,7 @@ export const EN_B2_U07: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ojalá mi hermano no cogiera mis cosas sin preguntar.",
+        source: "Ojalá mi hermano no tomara mis cosas sin preguntar.",
         answer: "I wish my brother wouldn't take my things without asking.",
         altAnswers: ["I wish my brother didn't take my things without asking.", "If only my brother wouldn't take my things without asking.", "I wish my brother wouldn't take my stuff without asking.", "I wish my brother didn't take my stuff without asking."],
         explanation: "An annoying habit of someone else: \"wish\" + \"wouldn't\". After a preposition like \"without\", use the -ing form.",
@@ -1019,7 +1019,7 @@ export const EN_B2_U07: Lesson[] = [
         sentence: "If only I ___ my phone at home!",
         answer: "hadn't left",
         altAnswers: ["had not left", "hadn't forgotten", "had not forgotten"],
-        en: "¡Ojalá no [me hubiera dejado] el móvil en casa!",
+        en: "¡Ojalá no [me hubiera dejado] el celular en casa!",
         explanation: "A past regret: \"if only\" + past perfect. Not *If only I didn't leave.",
       },
       {
@@ -1074,7 +1074,7 @@ export const EN_B2_U07: Lesson[] = [
         ],
         examples: [
           { es: "My apartment is tiny. I wish my apartment were bigger.", en: "Mi piso es diminuto. Ojalá fuera más grande." },
-          { es: "I don't have a car. I wish I had a car.", en: "No tengo coche. Ojalá tuviera coche." },
+          { es: "I don't have a car. I wish I had a car.", en: "No tengo carro. Ojalá tuviera carro." },
           { es: "I can't swim. I wish I could swim.", en: "No sé nadar. Ojalá supiera nadar." },
           { es: "I live far from work. I wish I didn't live so far from work.", en: "Vivo lejos del trabajo. Ojalá no viviera tan lejos." },
           { es: "It's Monday. I wish it were Saturday.", en: "Es lunes. Ojalá fuera sábado." },
@@ -1108,7 +1108,7 @@ export const EN_B2_U07: Lesson[] = [
         examples: [
           { es: "I didn't save. I should have saved.", en: "No ahorré. Debería haber ahorrado." },
           { es: "I didn't save. I wish I had saved.", en: "No ahorré. Ojalá hubiera ahorrado." },
-          { es: "I sold my car. I wish I hadn't sold it.", en: "Vendí mi coche. Ojalá no lo hubiera vendido." },
+          { es: "I sold my car. I wish I hadn't sold it.", en: "Vendí mi carro. Ojalá no lo hubiera vendido." },
           { es: "I shouted at him. I shouldn't have shouted at him.", en: "Le grité. No debería haberle gritado." },
           { es: "We missed the beginning. We should have arrived earlier.", en: "Nos perdimos el principio. Deberíamos haber llegado antes." },
         ],
@@ -1117,7 +1117,7 @@ export const EN_B2_U07: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Vendí mi coche. Ojalá no lo hubiera vendido.",
+            source: "Vendí mi carro. Ojalá no lo hubiera vendido.",
             answer: "I sold my car. I wish I hadn't sold it.",
             altAnswers: ["I sold my car. If only I hadn't sold it.", "I sold my car. I wish I hadn't.", "I sold my car. I shouldn't have sold it."],
             explanation: "Flip and step back: \"sold\" becomes \"I wish I hadn't sold it\".",
@@ -1140,7 +1140,7 @@ export const EN_B2_U07: Lesson[] = [
         examples: [
           { es: "My brother never helps. I wish he would help.", en: "Mi hermano nunca ayuda. Ojalá ayudara." },
           { es: "He always arrives late. I wish he would arrive on time.", en: "Siempre llega tarde. Ojalá llegara puntual." },
-          { es: "You keep checking your phone. I wish you would put it away.", en: "No paras de mirar el móvil. A ver si lo guardas." },
+          { es: "You keep checking your phone. I wish you would put it away.", en: "No paras de mirar el celular. A ver si lo guardas." },
           { es: "He is so rude. I wish he weren't so rude.", en: "Es muy maleducado. Ojalá no fuera tan maleducado." },
         ],
         checkpoint: [
@@ -1331,7 +1331,7 @@ export const EN_B2_U07: Lesson[] = [
           { es: "I'd rather you didn't say that in the meeting.", en: "Prefiero que no lo digas en la reunión." },
           { es: "I'd rather you came on Monday.", en: "Preferiría que vinieras el lunes." },
           { es: "Can I smoke here? I'd rather you didn't.", en: "¿Puedo fumar aquí? Preferiría que no." },
-          { es: "Would you rather walk or take a taxi?", en: "¿Prefieres ir andando o coger un taxi?" },
+          { es: "Would you rather walk or take a taxi?", en: "¿Prefieres ir andando o tomar un taxi?" },
         ],
         checkpoint: [
           {
@@ -1742,7 +1742,7 @@ export const EN_B2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence means «Ojalá supiera conducir»?",
+        question: "Which sentence means «Ojalá supiera manejar»?",
         options: ["I wish I knew how to drive.", "I hope I know how to drive.", "I wish I had known how to drive.", "I wish I would know how to drive."],
         correctIndex: 0,
         explanation: "Unreal present: \"wish\" + past simple.",
@@ -1848,7 +1848,7 @@ export const EN_B2_U07: Lesson[] = [
         ],
         examples: [
           { es: "If I lived by the sea, I would swim every day.", en: "Si viviera junto al mar, nadaría todos los días." },
-          { es: "If we had left earlier, we would have caught the train.", en: "Si hubiéramos salido antes, habríamos cogido el tren." },
+          { es: "If we had left earlier, we would have caught the train.", en: "Si hubiéramos salido antes, habríamos tomado el tren." },
           { es: "If I had saved, I would be rich now.", en: "Si hubiera ahorrado, ahora sería rico." },
         ],
       },
@@ -1876,7 +1876,7 @@ export const EN_B2_U07: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ojalá dejaras de mirar el móvil.",
+        source: "Ojalá dejaras de mirar el celular.",
         answer: "I wish you would stop looking at your phone.",
         altAnswers: ["I wish you would stop checking your phone.", "If only you would stop looking at your phone.", "I wish you would stop looking at your cell phone.", "I wish you would stop looking at your mobile.", "I wish you would stop staring at your phone."],
         explanation: "Complaint about someone else's behaviour: \"wish\" + \"would\". After \"stop\", use -ing.",

@@ -12,7 +12,7 @@ export const EN_C2_U33: Lesson[] = [
     level: "EN-C2",
     number: 1,
     title: "Mastery comprehensive review, Part 1 of 3",
-    summary: "A mixed review of the first ten units: legal and contract English, medical English, idioms and proverbs, humour and figurative language, euphemism, emphasis and word building, and business idioms.",
+    summary: "A mixed review of the first ten units: legal and contract English, medical English, idioms and proverbs, humor and figurative language, euphemism, emphasis and word building, and business idioms.",
     duration: "12 min",
     sections: [
       {
@@ -20,7 +20,7 @@ export const EN_C2_U33: Lesson[] = [
         body: [
           "Legal English prefers \"shall\" for obligations, \"may\" for permissions and fixed formulas such as \"notwithstanding\", \"subject to\" and \"in breach of\". Remember that a party \"terminates\" a contract («rescindir»), \"is liable for\" damages («responder de») and \"waives\" a right («renunciar a»).",
           "In medical English, the false friends are the usual trap: «constipado» is \"have a cold\" (\"constipated\" means «estreñido»), a «receta» is a \"prescription\" and «intoxicación alimentaria» is \"food poisoning\". Patients \"are diagnosed with\" a condition, never *diagnosed of.",
-          "Both fields love the passive and nominalisation: \"Payment shall be made within thirty days\", \"The patient was admitted for observation.\"",
+          "Both fields love the passive and nominalization: \"Payment shall be made within thirty days\", \"The patient was admitted for observation.\"",
         ],
         examples: [
           { es: "The Tenant shall pay the rent on the first day of each month.", en: "El Arrendatario abonará la renta el primer día de cada mes." },
@@ -58,16 +58,16 @@ export const EN_C2_U33: Lesson[] = [
         ],
       },
       {
-        heading: "Idioms, proverbs, humour and figurative language",
+        heading: "Idioms, proverbs, humor and figurative language",
         body: [
           "Never translate a refrán word for word: find the English proverb that does the same job. «No vendas la piel del oso antes de cazarlo» is \"Don't count your chickens before they hatch\"; «A quien madruga, Dios le ayuda» is \"The early bird catches the worm\"; «Más vale pájaro en mano que ciento volando» is \"A bird in the hand is worth two in the bush\".",
           "Idioms carry pictures that differ from Spanish: «estar en las nubes» is \"have your head in the clouds\", «costar un ojo de la cara» is \"cost an arm and a leg\", «ser pan comido» is \"be a piece of cake\".",
-          "English humour leans on understatement and irony: \"It's a bit chilly\" in a snowstorm, \"Not bad at all\" for something excellent. Spotting understatement is a Mastery skill; producing it is even harder.",
+          "English humor leans on understatement and irony: \"It's a bit chilly\" in a snowstorm, \"Not bad at all\" for something excellent. Spotting understatement is a Mastery skill; producing it is even harder.",
         ],
         examples: [
           { es: "Don't count your chickens before they hatch.", en: "No vendas la piel del oso antes de cazarlo." },
           { es: "A bird in the hand is worth two in the bush.", en: "Más vale pájaro en mano que ciento volando." },
-          { es: "That new phone cost an arm and a leg.", en: "Ese móvil nuevo costó un ojo de la cara." },
+          { es: "That new phone cost an arm and a leg.", en: "Ese celular nuevo costó un ojo de la cara." },
           { es: "Losing that job was a blessing in disguise.", en: "Perder ese trabajo resultó ser una suerte; no hay mal que por bien no venga." },
           { es: "The exam was a piece of cake.", en: "El examen fue pan comido." },
           { es: "It's not the worst idea he's ever had.", en: "No fue la peor idea que ha tenido (ironía: fue bastante buena)." },
@@ -96,15 +96,15 @@ export const EN_C2_U33: Lesson[] = [
       {
         heading: "Euphemism, emphasis and word building",
         body: [
-          "Euphemisms soften: \"pass away\" for «fallecer», \"let someone go\" for «despedir», \"between jobs\" for «en paro», \"economical with the truth\" for «mentiroso». In corporate English, \"restructuring\" and \"downsizing\" usually mean job cuts.",
+          "Euphemisms soften: \"pass away\" for «fallecer», \"let someone go\" for «despedir», \"between jobs\" for «desempleado», \"economical with the truth\" for «mentiroso». In corporate English, \"restructuring\" and \"downsizing\" usually mean job cuts.",
           "For emphasis, English uses stressed auxiliaries (\"I do agree\"), cleft sentences (\"What worries me is the cost\") and inversion after negative adverbials (\"Never have I seen such chaos\"). Spanish often achieves the same with word order alone, which does not work in English.",
-          "Word building lets you say more with less: prefixes such as \"mis-\", \"over-\", \"under-\" and \"counter-\", and suffixes such as \"-ness\", \"-ity\", \"-ise\" and \"-ment\". \"Underestimate\", \"counterproductive\" and \"unaccountability\" are all built this way.",
+          "Word building lets you say more with less: prefixes such as \"mis-\", \"over-\", \"under-\" and \"counter-\", and suffixes such as \"-ness\", \"-ity\", \"-ize\" and \"-ment\". \"Underestimate\", \"counterproductive\" and \"unaccountability\" are all built this way.",
         ],
         examples: [
           { es: "His grandfather passed away last spring.", en: "Su abuelo falleció la primavera pasada." },
           { es: "Two hundred workers were let go.", en: "Despidieron a doscientos trabajadores." },
           { es: "I do understand your concerns.", en: "Entiendo perfectamente su preocupación." },
-          { es: "What worries me is the cost.", en: "Lo que me preocupa es el coste." },
+          { es: "What worries me is the cost.", en: "Lo que me preocupa es el costo." },
           { es: "Never have I seen such a mess.", en: "Jamás he visto semejante desastre." },
           { es: "We underestimated the risks.", en: "Subestimamos los riesgos." },
         ],
@@ -417,7 +417,7 @@ export const EN_C2_U33: Lesson[] = [
         examples: [
           { es: "As Smith points out, the data are incomplete.", en: "Como señala Smith, los datos están incompletos." },
           { es: "Jones contends that the policy has failed.", en: "Jones sostiene que la política ha fracasado." },
-          { es: "According to the report, unemployment has fallen.", en: "Según el informe, el paro ha bajado." },
+          { es: "According to the report, unemployment has fallen.", en: "Según el informe, el desempleo ha bajado." },
           { es: "In my view, the evidence is weak.", en: "En mi opinión, las pruebas son débiles." },
           { es: "The author claims to have solved the problem.", en: "El autor afirma haber resuelto el problema." },
         ],
@@ -556,14 +556,14 @@ export const EN_C2_U33: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Si ustedes se encargaran del transporte, podríamos cerrar el trato hoy.",
-        answer: "If you could take care of transport, we could close the deal today.",
+        answer: "If you could take care of transportation, we could close the deal today.",
         altAnswers: [
           "If you took care of transport, we could close the deal today.",
           "If you handled transport, we could close the deal today.",
           "If you could handle transport, we could close the deal today.",
           "If you took care of shipping, we could close the deal today.",
           "If you could take care of shipping, we could close the deal today.",
-          "If you could take care of transportation, we could close the deal today.",
+          "If you could take care of transport, we could close the deal today.",
           "If you took care of the transport, we could close the deal today.",
           "If you could cover transport, we could close the deal today.",
           "If you could take care of transport, we could seal the deal today.",
@@ -612,7 +612,7 @@ export const EN_C2_U33: Lesson[] = [
         prompt: "Translate into English.",
         source: "¿Quién podría culparlos?",
         answer: "Who could blame them?",
-        altAnswers: ["Who can blame them?", "Who could blame him?", "Who could blame her?", "Who can blame him?", "Who can blame her?", "Can you blame them?", "Can anyone blame them?", "Could anyone blame them?"],
+        altAnswers: ["Who can blame them?", "Who could blame you?", "Can you blame them?", "Can anyone blame them?", "Could anyone blame them?"],
         explanation: "A rhetorical question: the expected answer is \"nobody\". «Culpar a alguien» is \"blame someone\", with no preposition.",
       },
       {
@@ -900,10 +900,10 @@ export const EN_C2_U33: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the bold words in English.",
         sentence: "The government's policies ___ inflation.",
-        answer: "fuelled",
+        answer: "fueled",
         altAnswers: ["fueled", "drove up", "pushed up", "stoked", "fed", "drove", "have fuelled", "have fueled"],
         en: "Las políticas del gobierno [alimentaron] la inflación.",
-        explanation: "Inflation, speculation and fears are \"fuelled\": the image is adding fuel to a fire.",
+        explanation: "Inflation, speculation and fears are \"fueled\": the image is adding fuel to a fire.",
       },
       {
         type: "listen-choose",
@@ -1294,7 +1294,7 @@ export const EN_C2_U33: Lesson[] = [
           { es: "She was bitterly disappointed.", en: "Se llevó una amarga decepción." },
           { es: "We managed to meet the deadline.", en: "Conseguimos cumplir el plazo." },
           { es: "What conclusions can we draw from this?", en: "¿Qué conclusiones podemos sacar de esto?" },
-          { es: "He will be sorely missed.", en: "Se le echará mucho de menos." },
+          { es: "He will be sorely missed.", en: "Lo vamos a extrañar mucho." },
         ],
         checkpoint: [
           {
@@ -1371,8 +1371,8 @@ export const EN_C2_U33: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Más vale prevenir que curar.",
-        answer: "Prevention is better than cure.",
-        altAnswers: ["Better safe than sorry.", "An ounce of prevention is worth a pound of cure.", "It's better to be safe than sorry.", "Prevention is better than a cure."],
+        answer: "Better safe than sorry.",
+        altAnswers: ["Prevention is better than cure.", "An ounce of prevention is worth a pound of cure.", "It's better to be safe than sorry.", "Prevention is better than a cure."],
         explanation: "English has several equivalents: \"Prevention is better than cure\", \"Better safe than sorry\" and the American \"An ounce of prevention is worth a pound of cure\".",
       },
       {
@@ -1512,7 +1512,7 @@ export const EN_C2_U33: Lesson[] = [
       {
         heading: "One message, four voices",
         body: [
-          "The core message: the customer hasn't paid, and if they don't pay by Friday, the contract will be cancelled. A Mastery speaker can say this in any register without changing what it means.",
+          "The core message: the customer hasn't paid, and if they don't pay by Friday, the contract will be canceled. A Mastery speaker can say this in any register without changing what it means.",
           "Register is built from four levers: vocabulary (\"terminate\" or \"cancel\"), grammar (passive and nouns, or active verbs and phrasal verbs), distance (impersonal or personal) and tone (neutral, polite, blunt, friendly). Spanish shifts register mainly through «usted» and vocabulary; English has no «usted», so it relies on the other levers.",
         ],
         examples: [
@@ -1532,7 +1532,7 @@ export const EN_C2_U33: Lesson[] = [
               "Non-payment within the agreed period may lead to the cancellation of the contract.",
             ],
             correctIndex: 0,
-            explanation: "Contracts use \"shall\", nominalisations (\"failure to\", \"termination\") and capitalised defined terms (\"the Agreement\").",
+            explanation: "Contracts use \"shall\", nominalizations (\"failure to\", \"termination\") and capitalized defined terms (\"the Agreement\").",
           },
         ],
       },
@@ -1540,7 +1540,7 @@ export const EN_C2_U33: Lesson[] = [
         heading: "Legal and academic: distance and nouns",
         body: [
           "Legal English: \"shall\" for obligations, \"failure to\" + verb for «el incumplimiento de», \"terminate\" for «rescindir», \"hereby\", \"forthwith\" («de inmediato»), \"in accordance with\" («de conformidad con»). People become roles: \"the Customer\", \"the Supplier\".",
-          "Academic English hedges and depersonalises: \"may\", \"is likely to\", \"it could be argued that\", passives (\"it has been shown\") and nouns instead of verbs (\"the cancellation of\" rather than \"they cancel\"). It avoids contractions, phrasal verbs and \"you\".",
+          "Academic English hedges and depersonalizes: \"may\", \"is likely to\", \"it could be argued that\", passives (\"it has been shown\") and nouns instead of verbs (\"the cancellation of\" rather than \"they cancel\"). It avoids contractions, phrasal verbs and \"you\".",
         ],
         examples: [
           { es: "The Supplier shall deliver the goods in accordance with Schedule 2.", en: "El Proveedor entregará los bienes de conformidad con el Anexo 2." },
@@ -1596,7 +1596,7 @@ export const EN_C2_U33: Lesson[] = [
           { es: "We would be grateful if you could settle the invoice by Friday.", en: "Le agradeceríamos que abonara la factura antes del viernes." },
           { es: "I'm afraid we will have to cancel the contract.", en: "Me temo que tendremos que cancelar el contrato." },
           { es: "Just a heads up, the meeting's been moved to three.", en: "Te aviso: la reunión se ha cambiado a las tres." },
-          { es: "If he doesn't cough up by Friday, they'll pull the plug.", en: "Si no suelta la pasta antes del viernes, lo cancelan todo." },
+          { es: "If he doesn't cough up by Friday, they'll pull the plug.", en: "Si no suelta el dinero antes del viernes, lo cancelan todo." },
           { es: "You know they'll cancel it, right?", en: "Sabes que lo van a cancelar, ¿no?" },
         ],
         checkpoint: [
@@ -1639,7 +1639,7 @@ export const EN_C2_U33: Lesson[] = [
           { left: "remit", right: "abonar, remitir (un pago)" },
           { left: "forthwith", right: "de inmediato" },
           { left: "commence", right: "dar comienzo" },
-          { left: "endeavour", right: "procurar, esforzarse" },
+          { left: "endeavor", right: "procurar, esforzarse" },
         ],
         explanation: "Formal English uses Latinate single verbs; casual English prefers short Germanic words and phrasal verbs.",
       },
@@ -1752,7 +1752,7 @@ export const EN_C2_U33: Lesson[] = [
         maxWords: 100,
         rubric: [
           "Business version: polite request, \"we would be grateful\" or \"please note\", no slang",
-          "Legal version: \"shall\", defined parties, nominalisation (\"failure to deliver\")",
+          "Legal version: \"shall\", defined parties, nominalization (\"failure to deliver\")",
           "The meaning (deadline and consequence) is the same in both versions",
           "No mixing of registers inside each version",
         ],
@@ -1782,7 +1782,7 @@ export const EN_C2_U33: Lesson[] = [
           { es: "Admittedly, the plan has some merits.", en: "Hay que reconocer que el plan tiene algunos méritos." },
           { es: "It is arguably the best novel of the decade.", en: "Es posiblemente la mejor novela de la década." },
           { es: "Predictably, the talks collapsed.", en: "Como era de prever, las negociaciones fracasaron." },
-          { es: "Tellingly, the CEO did not attend.", en: "Significativamente, el consejero delegado no asistió." },
+          { es: "Tellingly, the CEO did not attend.", en: "Significativamente, el director general no asistió." },
           { es: "The so-called experts got it wrong again.", en: "Los supuestos expertos se equivocaron otra vez." },
           { es: "The reform is long overdue.", en: "La reforma debería haberse hecho hace tiempo." },
         ],
@@ -1870,7 +1870,7 @@ export const EN_C2_U33: Lesson[] = [
           "Fallacies are bad arguments dressed as good ones: \"ad hominem\" (attacking the person), \"straw man\" (attacking a distorted version), \"slippery slope\" (one step leads inevitably to disaster), \"false dilemma\" (only two options), \"appeal to authority\" and \"whataboutism\" (answering criticism with \"What about you?\").",
         ],
         examples: [
-          { es: "The company is rightsizing its workforce.", en: "La empresa está ajustando su plantilla (eufemismo de despidos)." },
+          { es: "The company is rightsizing its workforce.", en: "La empresa está ajustando su personal (eufemismo de despidos)." },
           { es: "The economy experienced negative growth.", en: "La economía tuvo un crecimiento negativo (eufemismo: se contrajo)." },
           { es: "You can't trust his data; he never finished college.", en: "No puedes fiarte de sus datos; ni siquiera terminó la carrera (falacia ad hominem)." },
           { es: "Either we cut taxes or the economy collapses.", en: "O bajamos los impuestos o la economía se hunde (falso dilema)." },
@@ -1986,7 +1986,7 @@ export const EN_C2_U33: Lesson[] = [
           "Que la reunión era a las once.",
         ],
         correctIndex: 0,
-        explanation: "\"Interesting ideas\" is ironic; arriving at eleven shows he does not practise what he preaches.",
+        explanation: "\"Interesting ideas\" is ironic; arriving at eleven shows he does not practice what he preaches.",
       },
       {
         type: "fill-blank",
@@ -2008,7 +2008,7 @@ export const EN_C2_U33: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La empresa habla de ajustar la plantilla, pero en realidad va a despedir a cientos de personas.",
+        source: "La empresa habla de ajustar el personal, pero en realidad va a despedir a cientos de personas.",
         answer: "The company talks about rightsizing, but it is actually going to lay off hundreds of people.",
         altAnswers: [
           "The company talks about rightsizing, but it's actually going to lay off hundreds of people.",
@@ -2058,14 +2058,14 @@ export const EN_C2_U33: Lesson[] = [
         heading: "Diminutives and the imperfecto",
         body: [
           "English has almost no productive diminutives, so «-ito» and «-illo» are translated by meaning: affection (\"poor thing\" for «pobrecito»), smallness (\"a little house\"), quickness or modesty (\"a quick coffee\" for «un cafecito»), or nothing at all. «Ahorita» depends on the country: \"right now\", \"in a minute\" or even \"later\".",
-          "The «imperfecto» has no single English form. For repeated past habits, use \"used to\" or \"would\" (\"We would spend every summer in the village\"); for background situations, the past continuous (\"It was raining\"); for states, the simple past or \"used to\" (\"She lived in Paris\", \"There used to be a cinema here\"). \"Would\" cannot describe past states: *I would live in Paris is wrong for «Vivía en París».",
+          "The «imperfecto» has no single English form. For repeated past habits, use \"used to\" or \"would\" (\"We would spend every summer in the village\"); for background situations, the past continuous (\"It was raining\"); for states, the simple past or \"used to\" (\"She lived in Paris\", \"There used to be a movie theater here\"). \"Would\" cannot describe past states: *I would live in Paris is wrong for «Vivía en París».",
         ],
         examples: [
           { es: "Shall we grab a quick coffee?", en: "¿Nos tomamos un cafecito?" },
           { es: "Poor thing, she's exhausted.", en: "Pobrecita, está agotada." },
           { es: "I'll do it in a minute.", en: "Ahorita lo hago." },
           { es: "When I was a child, we would spend every summer in the village.", en: "Cuando era niño, pasábamos todos los veranos en el pueblo." },
-          { es: "There used to be a cinema on this street.", en: "En esta calle había un cine." },
+          { es: "There used to be a movie theater on this street.", en: "En esta calle había un cine." },
           { es: "It was raining when we left.", en: "Llovía cuando salimos." },
         ],
         checkpoint: [
@@ -2124,7 +2124,7 @@ export const EN_C2_U33: Lesson[] = [
         heading: "Refranes and legal formulas",
         body: [
           "A refrán is translated by the English proverb with the same function, or, if none exists, by a plain paraphrase: «En casa de herrero, cuchillo de palo» is \"The shoemaker's children go barefoot\"; «Dime con quién andas y te diré quién eres» is \"A man is known by the company he keeps\" or, more naturally, \"Birds of a feather flock together\"; «A caballo regalado no le mires el diente» is \"Don't look a gift horse in the mouth\".",
-          "Spanish administrative and legal formulas often vanish or shrink in English. «Por medio de la presente» is \"I hereby\" (legal) or simply \"I am writing to\" (letters). «Sin otro particular, le saluda atentamente» is just \"Yours sincerely\" (or \"Sincerely\" in the US). «A los efectos oportunos» is \"for all relevant purposes\" or, in a letter, nothing at all.",
+          "Spanish administrative and legal formulas often vanish or shrink in English. «Por medio de la presente» is \"I hereby\" (legal) or simply \"I am writing to\" (letters). «Sin otro particular, le saluda atentamente» is just \"Sincerely\" (British: \"Yours sincerely\"). «A los efectos oportunos» is \"for all relevant purposes\" or, in a letter, nothing at all.",
         ],
         examples: [
           { es: "The shoemaker's children go barefoot.", en: "En casa de herrero, cuchillo de palo." },
@@ -2132,7 +2132,7 @@ export const EN_C2_U33: Lesson[] = [
           { es: "Don't look a gift horse in the mouth.", en: "A caballo regalado no le mires el diente." },
           { es: "I hereby certify that the above information is true.", en: "Por medio de la presente certifico que los datos anteriores son ciertos." },
           { es: "I am writing to request a refund.", en: "Por medio de la presente solicito un reembolso." },
-          { es: "Yours sincerely,", en: "Sin otro particular, le saluda atentamente," },
+          { es: "Sincerely,", en: "Sin otro particular, le saluda atentamente," },
         ],
         checkpoint: [
           {
@@ -2170,12 +2170,12 @@ export const EN_C2_U33: Lesson[] = [
       {
         heading: "Euphemisms and false friends",
         body: [
-          "Spanish euphemisms need English euphemisms of the same weight: «personas de la tercera edad» is \"older people\" or \"senior citizens\" (not *people of the third age); «interrupción voluntaria del embarazo» is \"termination of pregnancy\"; «estar en paro» can be softened as \"between jobs\".",
+          "Spanish euphemisms need English euphemisms of the same weight: «personas de la tercera edad» is \"older people\" or \"senior citizens\" (not *people of the third age); «interrupción voluntaria del embarazo» is \"termination of pregnancy\"; «estar desempleado» can be softened as \"between jobs\".",
           "False friends are the relay's hidden hurdles: «actual» (\"current\"), «eventual» (\"possible\"), «sensible» (\"sensitive\"), «compromiso» (\"commitment\"), «librería» (\"bookstore\"), «éxito» (\"success\"), «embarazada» (\"pregnant\"), «molestar» (\"bother\"), «introducir» (\"insert\" or \"enter\"), «realizar» (\"carry out\").",
         ],
         examples: [
           { es: "The center offers activities for older people.", en: "El centro ofrece actividades para personas de la tercera edad." },
-          { es: "He's between jobs at the moment.", en: "Ahora mismo está en paro." },
+          { es: "He's between jobs at the moment.", en: "Ahora mismo está desempleado." },
           { es: "The current situation is unsustainable.", en: "La situación actual es insostenible." },
           { es: "Thank you for your commitment to the project.", en: "Gracias por su compromiso con el proyecto." },
           { es: "Insert your card and enter your PIN.", en: "Introduzca la tarjeta y su PIN." },
@@ -2239,10 +2239,10 @@ export const EN_C2_U33: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "Do you fancy ___ before the meeting?",
+        sentence: "Do you want to grab ___ before the meeting?",
         answer: "a quick coffee",
         altAnswers: ["a coffee", "a quick cup of coffee", "a cup of coffee", "a little coffee"],
-        en: "¿Te apetece [un cafecito] antes de la reunión?",
+        en: "¿Se te antoja [un cafecito] antes de la reunión?",
         explanation: "The diminutive «cafecito» suggests something quick and friendly, so \"a quick coffee\" captures it best.",
       },
       {
@@ -2312,7 +2312,7 @@ export const EN_C2_U33: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ahora mismo mi hermano está en paro, pero tiene una entrevista el lunes.",
+        source: "Ahora mismo mi hermano está desempleado, pero tiene una entrevista el lunes.",
         answer: "My brother is between jobs at the moment, but he has an interview on Monday.",
         altAnswers: [
           "My brother is unemployed at the moment, but he has an interview on Monday.",
@@ -2329,19 +2329,19 @@ export const EN_C2_U33: Lesson[] = [
           "My brother is unemployed at the moment, but he's got an interview on Monday.",
           "My brother is out of a job at the moment, but he has an interview on Monday.",
         ],
-        explanation: "«Estar en paro» is \"be unemployed\" or \"be out of work\"; \"between jobs\" is the gentle euphemism. Never *in stop.",
+        explanation: "«Estar desempleado» (Spain: «estar en paro») is \"be unemployed\" or \"be out of work\"; \"between jobs\" is the gentle euphemism. Never *in stop.",
       },
       {
         type: "multiple-choice",
         question: "How do you close a formal English letter that in Spanish ends «Sin otro particular, le saluda atentamente»?",
         options: [
-          "Yours sincerely,",
+          "Sincerely,",
           "Without another particular, greets you attentively,",
           "Nothing more to add, attentively,",
           "With no other particular, sincerely yours greeting,",
         ],
         correctIndex: 0,
-        explanation: "The whole Spanish formula reduces to \"Yours sincerely\" (UK) or \"Sincerely\" (US). The other options are calques.",
+        explanation: "The whole Spanish formula reduces to \"Sincerely\" (US) or \"Yours sincerely\" (UK). The other options are calques.",
       },
       {
         type: "speak",
@@ -2629,7 +2629,7 @@ export const EN_C2_U33: Lesson[] = [
           "Uses at least one rhetorical device (tricolon, antithesis or rhetorical question)",
           "Ends with a memorable closing line",
         ],
-        modelAnswer: "Granted, banning private cars from city centers would inconvenience some residents, and local shops fear losing customers. That said, the evidence points firmly in the opposite direction. As studies of Pontevedra and Oslo demonstrate, car-free centers have seen footfall rise rather than fall, and businesses have, on the whole, adapted well. It is likely that some trades will need support during the transition, and that support should be generous.\n\nBut consider what we gain: cleaner air, safer streets and quieter neighborhoods. Children could walk to school; older people could cross the road without fear. The opposition conflates access with driving: everyone will still be able to reach the center, just not in a two-ton vehicle.\n\nSo the question is not whether we can afford to change our cities, but whether we can afford to leave them as they are. A city center is not a parking lot; it is a place to live.",
+        modelAnswer: "Granted, banning private cars from city centers would inconvenience some residents, and local shops fear losing customers. That said, the evidence points firmly in the opposite direction. As studies of Pontevedra and Oslo demonstrate, car-free centers have seen foot traffic rise rather than fall, and businesses have, on the whole, adapted well. It is likely that some trades will need support during the transition, and that support should be generous.\n\nBut consider what we gain: cleaner air, safer streets and quieter neighborhoods. Children could walk to school; older people could cross the road without fear. The opposition conflates access with driving: everyone will still be able to reach the center, just not in a two-ton vehicle.\n\nSo the question is not whether we can afford to change our cities, but whether we can afford to leave them as they are. A city center is not a parking lot; it is a place to live.",
         explanation: "The model concedes, rebuts with cited evidence, hedges once (\"It is likely that\"), uses a tricolon and an antithesis, and closes with a memorable line.",
       },
     ],
@@ -2641,8 +2641,8 @@ export const EN_C2_U33: Lesson[] = [
     slug: "c2-mastery-exam",
     level: "EN-C2",
     number: 10,
-    title: "Mastery mastery exam",
-    summary: "The final exit test of the English course: reading, listening-style comprehension, use of English, vocabulary and writing tasks covering the whole Mastery level. Passing it marks Mastery mastery.",
+    title: "Mastery final exam",
+    summary: "The final exit test of the English course: reading, listening-style comprehension, use of English, vocabulary and writing tasks covering the whole Mastery level. Passing it completes the Mastery level.",
     duration: "12 min",
     sections: [
       {
@@ -2654,7 +2654,7 @@ export const EN_C2_U33: Lesson[] = [
         examples: [
           { es: "It would be churlish to deny that the scheme has achieved something.", en: "Sería mezquino negar que el plan ha logrado algo." },
           { es: "The families have been priced out.", en: "Los precios han expulsado a las familias del barrio." },
-          { es: "The apartments are anything but affordable.", en: "Los pisos son de todo menos asequibles." },
+          { es: "The apartments are anything but affordable.", en: "Los departamentos son de todo menos asequibles." },
         ],
         checkpoint: [
           {
@@ -2933,7 +2933,7 @@ export const EN_C2_U33: Lesson[] = [
         minWords: 180,
         maxWords: 250,
         rubric: [
-          "Clear, consistent stance, signalled through vocabulary and stance adverbs",
+          "Clear, consistent stance, signaled through vocabulary and stance adverbs",
           "Concession and rebuttal of the strongest opposing argument",
           "At least one cited source or piece of evidence with an appropriate reporting verb",
           "A range of Mastery structures: inversion, cleft sentences, mixed conditionals, hedging",

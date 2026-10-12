@@ -415,7 +415,7 @@ export const EN_B2_U08_EXTRA: Lesson[] = [
         examples: [
           { es: "She could have hurt herself.", en: "Podría haberse hecho daño." },
           { es: "We could have won if we'd played better.", en: "Podríamos haber ganado si hubiéramos jugado mejor." },
-          { es: "He could have taken the train, but he drove.", en: "Podría haber ido en tren, pero fue en coche." },
+          { es: "He could have taken the train, but he drove.", en: "Podría haber ido en tren, pero fue en carro." },
           { es: "That might have been a disaster.", en: "Eso podría haber sido un desastre." },
         ],
         checkpoint: [
@@ -447,7 +447,7 @@ export const EN_B2_U08_EXTRA: Lesson[] = [
         sentence: "Sofia is late. She ___ the wrong bus.",
         answer: "might have taken",
         altAnswers: ["may have taken", "could have taken", "might have caught", "may have caught", "could have caught", "might have got", "might've taken"],
-        en: "Sofia llega tarde. [Puede que haya cogido] el autobús equivocado.",
+        en: "Sofia llega tarde. [Puede que haya tomado] el autobús equivocado.",
         explanation: "Past possibility: \"might\" / \"may\" / \"could have taken\".",
       },
       {
@@ -592,7 +592,7 @@ export const EN_B2_U08_EXTRA: Lesson[] = [
           { es: "They must be sleeping.", en: "Estarán durmiendo." },
           { es: "You must have been joking.", en: "Debías de estar bromeando." },
           { es: "He can't have been listening.", en: "No puede haber estado escuchando." },
-          { es: "She might have been driving too fast.", en: "Puede que fuera conduciendo demasiado rápido." },
+          { es: "She might have been driving too fast.", en: "Puede que fuera manejando demasiado rápido." },
           { es: "What could he be doing?", en: "¿Qué estará haciendo?" },
         ],
         checkpoint: [
@@ -704,7 +704,7 @@ export const EN_B2_U08_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Iría conduciendo demasiado rápido.",
+        source: "Iría manejando demasiado rápido.",
         answer: "He must have been driving too fast.",
         altAnswers: ["She must have been driving too fast.", "He was probably driving too fast.", "She was probably driving too fast.", "He might have been driving too fast.", "She might have been driving too fast.", "They must have been driving too fast.", "He must've been driving too fast."],
         explanation: "The conditional «iría» is a guess about the past: \"must have been driving\" or \"was probably driving\".",
@@ -839,7 +839,7 @@ export const EN_B2_U08_EXTRA: Lesson[] = [
         sentence: "My car broke down, so I ___ a taxi.",
         answer: "had to take",
         altAnswers: ["had to get", "had to call", "had to catch"],
-        en: "Se me averió el coche, así que [tuve que coger] un taxi.",
+        en: "Se me averió el carro, así que [tuve que tomar] un taxi.",
         explanation: "Past obligation: \"had to\" + base form.",
       },
       {

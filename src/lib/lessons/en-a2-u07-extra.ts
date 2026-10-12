@@ -604,7 +604,7 @@ export const EN_A2_U07_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "¿Cómo se dice «había demasiados coches»?",
+            question: "¿Cómo se dice «había demasiados carros»?",
             options: ["There were too many cars.", "There were too much cars.", "There were too cars.", "There was many too cars."],
             correctIndex: 0,
             explanation: "\"Cars\" es contable: \"too many cars\". \"Too\" solo (sin \"many\") va con adjetivos.",

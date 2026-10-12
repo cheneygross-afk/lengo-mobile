@@ -30,7 +30,7 @@ export const EN_B1_U22_EXTRA: Lesson[] = [
           { es: "I remember meeting him at a wedding.", en: "Recuerdo haberlo conocido en una boda." },
           { es: "I forgot to send the email.", en: "Se me olvidó enviar el correo." },
           { es: "I'll never forget seeing the ocean for the first time.", en: "Nunca olvidaré la primera vez que vi el mar." },
-          { es: "She regrets selling her car.", en: "Se arrepiente de haber vendido su coche." },
+          { es: "She regrets selling her car.", en: "Se arrepiente de haber vendido su carro." },
         ],
         checkpoint: [
           {
@@ -266,7 +266,7 @@ export const EN_B1_U22_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "We aren't allowed to use phones at work.", en: "No nos dejan usar el teléfono en el trabajo." },
-          { es: "She allowed her son to borrow the car.", en: "Dejó que su hijo usara el coche." },
+          { es: "She allowed her son to borrow the car.", en: "Dejó que su hijo usara el carro." },
           { es: "He was made to apologize.", en: "Lo obligaron a pedir perdón." },
           { es: "The storm forced us to cancel the trip.", en: "La tormenta nos obligó a cancelar el viaje." },
         ],
@@ -526,7 +526,7 @@ export const EN_B1_U22_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "A mi hermana no le gusta conducir de noche.",
+        source: "A mi hermana no le gusta manejar de noche.",
         answer: "My sister doesn't like driving at night.",
         altAnswers: ["My sister doesn't like to drive at night."],
         explanation: "General dislike = \"doesn't like\" + -ing. The subject is \"my sister\", not «a mi hermana» copied as *To my sister.",
@@ -790,7 +790,7 @@ export const EN_B1_U22_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Lucia no puede permitirse comprar un coche nuevo.",
+        source: "Lucia no puede permitirse comprar un carro nuevo.",
         answer: "Lucia can't afford to buy a new car.",
         altAnswers: ["Lucia can't afford a new car.", "Lucia cannot afford to buy a new car."],
         explanation: "\"Afford\" + \"to\" + verb, or \"afford\" + noun. After \"can't\" no \"to\": \"can't afford\".",

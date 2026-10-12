@@ -54,7 +54,7 @@ export const EN_A1_U7: Lesson[] = [
           { es: "She likes dogs.", en: "A ella le gustan los perros." },
           { es: "He likes chocolate.", en: "A él le gusta el chocolate." },
           { es: "Ana likes music.", en: "A Ana le gusta la música." },
-          { es: "My brother likes cars.", en: "A mi hermano le gustan los coches." },
+          { es: "My brother likes cars.", en: "A mi hermano le gustan los carros." },
           { es: "They like tea.", en: "A ellos les gusta el té." },
         ],
         checkpoint: [
@@ -539,7 +539,7 @@ export const EN_A1_U7: Lesson[] = [
           { es: "No, I can't.", en: "No (no sé)." },
           { es: "Can you help me?", en: "¿Puedes ayudarme?" },
           { es: "Can I open the window?", en: "¿Puedo abrir la ventana?" },
-          { es: "Can she drive?", en: "¿Sabe conducir?" },
+          { es: "Can she drive?", en: "¿Sabe manejar?" },
         ],
         checkpoint: [
           {
@@ -768,7 +768,7 @@ export const EN_A1_U7: Lesson[] = [
         ],
         examples: [
           { es: "I have two brothers.", en: "Tengo dos hermanos." },
-          { es: "She has a new car.", en: "Tiene un coche nuevo." },
+          { es: "She has a new car.", en: "Tiene un carro nuevo." },
           { es: "We don't have a garden.", en: "No tenemos jardín." },
           { es: "Does he have a dog?", en: "¿Tiene perro?" },
           { es: "I am 20.", en: "Tengo 20 años." },
@@ -894,7 +894,7 @@ export const EN_A1_U7: Lesson[] = [
         type: "listen-choose",
         audio: "There are three people in the car.",
         question: "¿Qué has oído?",
-        options: ["Hay tres personas en el coche.", "Tengo tres personas en el coche.", "Hay una persona en el coche.", "¿Hay tres personas en el coche?"],
+        options: ["Hay tres personas en el carro.", "Tengo tres personas en el carro.", "Hay una persona en el carro.", "¿Hay tres personas en el carro?"],
         correctIndex: 0,
         explanation: "\"There are\" es «hay» con un plural: \"three people\".",
       },
@@ -902,7 +902,7 @@ export const EN_A1_U7: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "¿Tu hermano tiene coche?",
+        source: "¿Tu hermano tiene carro?",
         answer: "Does your brother have a car?",
         altAnswers: ["Has your brother got a car?"],
         explanation: "Pregunta con \"does\" + sujeto + \"have\" (no \"has\"). En español no hace falta «un», pero en inglés sí: \"a car\".",

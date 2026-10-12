@@ -108,7 +108,7 @@ export const EN_B2_U22_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Llegué tarde otra vez, lo que enfadó a mi jefe.",
+        source: "Llegué tarde otra vez, lo que enojó a mi jefe.",
         answer: "I was late again, which made my boss angry.",
         altAnswers: [
           "I arrived late again, which made my boss angry.",
@@ -500,7 +500,7 @@ export const EN_B2_U22_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Había muy pocos sitios para aparcar.",
+        source: "Había muy pocos sitios para estacionar.",
         answer: "There were very few places to park.",
         altAnswers: [
           "There were very few parking spaces.",

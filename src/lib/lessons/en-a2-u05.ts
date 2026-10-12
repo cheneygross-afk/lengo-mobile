@@ -482,7 +482,7 @@ export const EN_A2_U05: Lesson[] = [
           { es: "give – gave – given", en: "dar" },
           { es: "speak – spoke – spoken", en: "hablar" },
           { es: "break – broke – broken", en: "romper" },
-          { es: "drive – drove – driven", en: "manejar / conducir" },
+          { es: "drive – drove – driven", en: "manejar" },
           { es: "know – knew – known", en: "conocer / saber" },
         ],
         checkpoint: [

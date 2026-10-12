@@ -266,7 +266,7 @@ export const EN_B1_U20: Lesson[] = [
         examples: [
           { es: "He asked if I was ready.", en: "Me preguntó si estaba listo." },
           { es: "She asked me if I liked coffee.", en: "Me preguntó si me gustaba el café." },
-          { es: "I asked him if he had a car.", en: "Le pregunté si tenía coche." },
+          { es: "I asked him if he had a car.", en: "Le pregunté si tenía carro." },
           { es: "They asked us if we were tired.", en: "Nos preguntaron si estábamos cansados." },
           { es: "The waiter asked if we wanted dessert.", en: "El camarero preguntó si queríamos postre." },
         ],
@@ -723,7 +723,7 @@ export const EN_B1_U20: Lesson[] = [
           { es: "He offered to help me.", en: "Se ofreció a ayudarme." },
           { es: "She offered to drive us to the airport.", en: "Se ofreció a llevarnos al aeropuerto." },
           { es: "I offered to pay for dinner.", en: "Me ofrecí a pagar la cena." },
-          { es: "They offered to lend us their car.", en: "Se ofrecieron a prestarnos su coche." },
+          { es: "They offered to lend us their car.", en: "Se ofrecieron a prestarnos su carro." },
         ],
         checkpoint: [
           {
@@ -864,7 +864,7 @@ export const EN_B1_U20: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "My parents ___ me a new phone.",
         answer: "agreed to buy",
-        en: "Mis padres [aceptaron comprarme] un móvil nuevo.",
+        en: "Mis padres [aceptaron comprarme] un celular nuevo.",
         explanation: "\"Agree to\" + verb is «aceptar» or «acceder a» do something.",
       },
       {
@@ -1036,7 +1036,7 @@ export const EN_B1_U20: Lesson[] = [
           { es: "He apologized for being late.", en: "Se disculpó por llegar tarde." },
           { es: "She accused me of lying.", en: "Me acusó de mentir." },
           { es: "He insisted on paying.", en: "Insistió en pagar." },
-          { es: "They accused him of stealing the car.", en: "Lo acusaron de robar el coche." },
+          { es: "They accused him of stealing the car.", en: "Lo acusaron de robar el carro." },
           { es: "I apologized for not calling.", en: "Pedí perdón por no llamar." },
         ],
         checkpoint: [
@@ -1129,7 +1129,7 @@ export const EN_B1_U20: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Lo acusaron de robar el coche.",
+        source: "Lo acusaron de robar el carro.",
         answer: "They accused him of stealing the car.",
         explanation: "\"Accuse\" + person + \"of\" + -ing. «Robar» a thing is \"steal\", not *rob.",
       },
@@ -1147,7 +1147,7 @@ export const EN_B1_U20: Lesson[] = [
         answer: "insisted on driving",
         altAnswers: ["insisted on taking"],
         en: "Mi padre [insistió en llevarme] a la estación.",
-        explanation: "\"Insist on\" + -ing. «Llevar en coche» is \"drive\" or \"take\".",
+        explanation: "\"Insist on\" + -ing. «Llevar en carro» is \"drive\" or \"take\".",
       },
       {
         type: "translate",
@@ -2278,7 +2278,7 @@ export const EN_B1_U20: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "While I ___ the interview, my phone rang.",
         answer: "was recording",
-        en: "Mientras [grababa] la entrevista, me sonó el móvil.",
+        en: "Mientras [grababa] la entrevista, me sonó el celular.",
         explanation: "Background action in progress: past continuous \"was recording\". The interruption is past simple: \"rang\".",
       },
       {

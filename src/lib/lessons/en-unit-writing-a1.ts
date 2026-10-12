@@ -66,7 +66,7 @@ export const EN_A1_UNIT_WRITING: Record<string, WriteExercise> = {
       "Una preposición de lugar (\"in\", \"on\", \"next to\")",
     ],
     "I get up at seven o'clock. I have breakfast at half past seven in the kitchen. My keys are on the table next to the door. I leave home at a quarter past eight. I go to work in my sister's car. Her car is small and red.",
-    "\"His\" y \"her\" dependen de quién es el dueño, no de la cosa: \"her car\" es el coche de ella. Para decir de quién es algo se usa \"'s\": \"my sister's car\", no *the car of my sister."
+    "\"His\" y \"her\" dependen de quién es el dueño, no de la cosa: \"her car\" es el carro de ella. Para decir de quién es algo se usa \"'s\": \"my sister's car\", no *the car of my sister."
   ),
   u6: t(
     "Escribe sobre tu familia y tu cumpleaños. Di la fecha de tu cumpleaños y quién hay en tu familia, y hazle a un amigo dos preguntas sobre la suya.",

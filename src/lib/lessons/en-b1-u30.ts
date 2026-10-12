@@ -1445,7 +1445,7 @@ export const EN_B1_U30: Lesson[] = [
           { es: "A return to Oxford, please.", en: "Un billete de ida y vuelta a Oxford, por favor." },
           { es: "How much is a round-trip ticket?", en: "¿Cuánto cuesta un billete de ida y vuelta?" },
           { es: "Is there a cheaper off-peak fare?", en: "¿Hay alguna tarifa más barata fuera de la hora punta?" },
-          { es: "I usually take the bus to work.", en: "Normalmente cojo el autobús para ir al trabajo." },
+          { es: "I usually take the bus to work.", en: "Normalmente tomo el autobús para ir al trabajo." },
           { es: "Get off at the next stop.", en: "Bájate en la próxima parada." },
         ],
         checkpoint: [
@@ -1605,10 +1605,10 @@ export const EN_B1_U30: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Normalmente cojo el metro para ir al trabajo.",
+        source: "Normalmente tomo el metro para ir al trabajo.",
         answer: "I usually take the subway to work.",
         altAnswers: ["I usually take the metro to work.", "I usually take the underground to work.", "I usually take the tube to work.", "I usually get the subway to work.", "I usually get the tube to work.", "I usually catch the subway to work.", "I usually take the subway to go to work.", "I usually go to work by subway.", "I usually go to work on the subway.", "I usually go to work by metro.", "I usually go to work on the tube."],
-        explanation: "«Coger» transport is \"take\", \"catch\" or \"get\". The metro is the \"subway\" in New York and the \"Underground\" or \"Tube\" in London. No \"go\" needed: \"take the subway to work\".",
+        explanation: "«Tomar» transport is \"take\", \"catch\" or \"get\". The metro is the \"subway\" in New York and the \"Underground\" or \"Tube\" in London. No \"go\" needed: \"take the subway to work\".",
       },
       {
         type: "dictation",
@@ -1867,7 +1867,7 @@ export const EN_B1_U30: Lesson[] = [
         heading: "Saying what happened",
         body: [
           "Describe people's condition with simple words: \"He's injured\" or \"He's hurt\" (= «está herido»), \"She's bleeding\" (= «está sangrando»), \"He's unconscious\" (= «está inconsciente»), \"She isn't breathing\" (= «no respira»), \"He's collapsed\" (= «se ha desmayado / se ha caído redondo»).",
-          "For crimes, be careful with \"rob\" and \"steal\". You \"steal\" a thing: \"Someone stole my phone\". You \"rob\" a person or a place: \"I've been robbed\", \"They robbed a bank\". Spanish «me han robado el móvil» is \"My phone has been stolen\" or \"Someone stole my phone\", never *They robbed my phone.",
+          "For crimes, be careful with \"rob\" and \"steal\". You \"steal\" a thing: \"Someone stole my phone\". You \"rob\" a person or a place: \"I've been robbed\", \"They robbed a bank\". Spanish «me han robado el celular» is \"My phone has been stolen\" or \"Someone stole my phone\", never *They robbed my phone.",
           "To report a crime, say: \"I'd like to report a theft\" (= «Quería denunciar un robo»). A house that has been entered is \"broken into\": \"Our apartment has been broken into\".",
         ],
         examples: [
@@ -1883,7 +1883,7 @@ export const EN_B1_U30: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Me han robado el móvil.",
+            source: "Me han robado el celular.",
             answer: "My phone has been stolen.",
             altAnswers: ["My phone's been stolen.", "My cell phone has been stolen.", "My mobile has been stolen.", "My mobile phone has been stolen.", "Someone has stolen my phone.", "Someone stole my phone.", "Somebody stole my phone.", "Somebody has stolen my phone.", "My phone was stolen.", "Someone's stolen my phone.", "Somebody's stolen my phone."],
             explanation: "Things are \"stolen\": \"My phone has been stolen\". *They robbed my phone is a typical mistake: you rob a person or a place.",

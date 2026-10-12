@@ -329,7 +329,7 @@ export const EN_A2_U11: Lesson[] = [
       {
         heading: "\"Was able to\": lo que conseguiste hacer",
         body: [
-          "\"Could\" habla de una habilidad general en el pasado. Pero para contar que conseguiste hacer algo concreto en un momento concreto, se usa \"was able to\" o \"were able to\": \"The car broke down, but I was able to fix it\" («el coche se averió, pero pude arreglarlo»).",
+          "\"Could\" habla de una habilidad general en el pasado. Pero para contar que conseguiste hacer algo concreto en un momento concreto, se usa \"was able to\" o \"were able to\": \"The car broke down, but I was able to fix it\" («el carro se averió, pero pude arreglarlo»).",
           "En español las dos ideas son «poder», y por eso muchos dicen \"I could fix it\" en este caso. En la afirmativa, para un logro puntual, lo natural es \"was able to\". También se oye \"managed to\" («logré»).",
           "En la negativa no hay problema: \"couldn't\" y \"wasn't able to\" sirven en los dos casos: \"I couldn't fix it\" o \"I wasn't able to fix it\".",
         ],
@@ -769,7 +769,7 @@ export const EN_A2_U11: Lesson[] = [
           { es: "Can I go to the party?", en: "¿Me dejas ir a la fiesta?" },
           { es: "Can I borrow your pen?", en: "¿Me prestas tu bolígrafo?" },
           { es: "Can you lend me your pen?", en: "¿Me prestas tu bolígrafo?" },
-          { es: "Can I borrow your car this weekend?", en: "¿Me prestas el coche este fin de semana?" },
+          { es: "Can I borrow your car this weekend?", en: "¿Me prestas el carro este fin de semana?" },
           { es: "Let me help you.", en: "Déjame ayudarte." },
         ],
         checkpoint: [
@@ -878,7 +878,7 @@ export const EN_A2_U11: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "Can I ___ your car this weekend?",
         answer: "borrow",
-        en: "¿Me [prestas] el coche este fin de semana?",
+        en: "¿Me [prestas] el carro este fin de semana?",
         explanation: "Con \"Can I...?\" el verbo es \"borrow\" («tomar prestado»). \"Lend\" se usa con \"Can you lend me...?\".",
       },
       {
@@ -1220,12 +1220,12 @@ export const EN_A2_U11: Lesson[] = [
       {
         heading: "Habilidad: \"can\" y \"could\"",
         body: [
-          "Cuando «poder» significa «saber» o «ser capaz», se usa \"can\" en presente y \"could\" en pasado: \"I can drive\" («sé manejar», «sé conducir»), \"I could drive when I was eighteen\".",
+          "Cuando «poder» significa «saber» o «ser capaz», se usa \"can\" en presente y \"could\" en pasado: \"I can drive\" («sé manejar»), \"I could drive when I was eighteen\".",
           "Para una habilidad que tendrás en el futuro se usa \"will be able to\": \"I'll be able to drive next year\" («podré manejar el año que viene»). Nunca *I'll can: dos modales no van juntos.",
           "Para planes concretos, en cambio, \"can\" sí habla del futuro: \"I can help you tomorrow\" («te puedo ayudar mañana»).",
         ],
         examples: [
-          { es: "I can drive.", en: "Sé manejar. / Sé conducir." },
+          { es: "I can drive.", en: "Sé manejar." },
           { es: "She can't swim.", en: "Ella no sabe nadar." },
           { es: "I could drive when I was eighteen.", en: "Sabía manejar a los dieciocho años." },
           { es: "I'll be able to drive next year.", en: "Podré manejar el año que viene." },

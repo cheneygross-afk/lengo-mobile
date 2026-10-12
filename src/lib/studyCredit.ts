@@ -54,8 +54,8 @@ function roundMinutes(m: number): number {
 /** A story: its words at the level's reading speed, plus its questions. */
 export function storyMinutes(paragraphs: string[], level: string, questionCount: number): number {
   const words = paragraphs.reduce((sum, p) => sum + countWords(p), 0);
-  // French-course stories ("FR-A1" ...) read at the same speeds by level.
-  const wpm = READING_WPM[level] ?? READING_WPM[level.replace(/^FR-/, "")] ?? 170;
+  // French- and German-course stories ("FR-A1", "DE-A1" ...) read at the same speeds by level.
+  const wpm = READING_WPM[level] ?? READING_WPM[level.replace(/^(FR|DE)-/, "")] ?? 170;
   return roundMinutes(Math.max(1, words / wpm + questionCount * QUESTION_MINUTES));
 }
 

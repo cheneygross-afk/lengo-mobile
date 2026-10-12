@@ -135,7 +135,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No fue hasta los treinta años cuando aprendió a conducir.",
+        source: "No fue hasta los treinta años cuando aprendió a manejar.",
         answer: "It wasn't until she was thirty that she learned to drive.",
         altAnswers: [
           "It wasn't until she turned thirty that she learned to drive.",
@@ -292,13 +292,13 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: What + clause + be + focus",
         body: [
-          "A wh-cleft builds suspense: it puts the known part first (\"What I need...\") and the new information last (\"...is a holiday\"). It translates Spanish «Lo que necesito es...» very directly, so the problems are small but frequent.",
+          "A wh-cleft builds suspense: it puts the known part first (\"What I need...\") and the new information last (\"...is a vacation\"). It translates Spanish «Lo que necesito es...» very directly, so the problems are small but frequent.",
           "Problem one: dropping the verb \"be\" between the two halves. *What I need a holiday has no main verb; you need \"What I need IS a holiday\".",
           "Problem two: «lo que» after a noun. After \"the thing\", \"the place\" or \"the reason\", English uses \"that\", \"where\", \"why\" or nothing, never \"what\": \"The thing I like is...\", not *The thing what I like.",
           "\"Be\" is usually singular (\"What we need is more volunteers\"), though \"are\" is also heard with a plural focus. \"What happened was (that)...\" introduces a whole story.",
         ],
         examples: [
-          { es: "What I need is a holiday.", en: "Lo que necesito son unas vacaciones." },
+          { es: "What I need is a vacation.", en: "Lo que necesito son unas vacaciones." },
           { es: "What happened was that the train broke down.", en: "Lo que pasó fue que se averió el tren." },
           { es: "What I like about her is her honesty.", en: "Lo que me gusta de ella es su sinceridad." },
           { es: "The thing I miss most is the food.", en: "Lo que más echo de menos es la comida." },
@@ -388,7 +388,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Lo que pasó fue que se nos averió el coche en la autopista.",
+        source: "Lo que pasó fue que se nos averió el carro en la autopista.",
         answer: "What happened was that our car broke down on the highway.",
         altAnswers: [
           "What happened was that our car broke down on the motorway.",
@@ -403,7 +403,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
           "What happened was the car broke down on the motorway.",
           "What happened was the car broke down on the freeway.",
         ],
-        explanation: "\"What happened was (that)...\" introduces the story. «Se nos averió el coche» becomes a normal subject + verb: \"our car broke down\".",
+        explanation: "\"What happened was (that)...\" introduces the story. «Se nos averió el carro» becomes a normal subject + verb: \"our car broke down\".",
       },
       {
         type: "fill-blank",
@@ -470,7 +470,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
           "The reason that I left is that they didn't pay me enough.",
           "The reason that I left was that they didn't pay me enough.",
         ],
-        explanation: "«La razón por la que» = \"The reason (why / that)\", never *The reason for which in everyday English. Then \"is that\" + clause.",
+        explanation: "«La razón por la que» = \"The reason (why / that)\", not the formal \"the reason for which\" in everyday English. Then \"is that\" + clause.",
       },
       {
         type: "multiple-choice",
@@ -622,7 +622,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
           "You can also front an object for contrast: \"That I can't accept\" («Eso no lo puedo aceptar»), \"This one I like; that one I don't\". Spanish repeats the object with a pronoun («eso LO...»); English never does: *That I can't accept it.",
         ],
         examples: [
-          { es: "Strange as it may seem, he has never used a computer.", en: "Por extraño que parezca, nunca ha usado un ordenador." },
+          { es: "Strange as it may seem, he has never used a computer.", en: "Por extraño que parezca, nunca ha usado una computadora." },
           { es: "Much as I admire her, I don't agree with her.", en: "Por mucho que la admire, no estoy de acuerdo con ella." },
           { es: "Try as she might, she couldn't open the window.", en: "Por más que lo intentó, no pudo abrir la ventana." },
           { es: "That I can't accept.", en: "Eso no lo puedo aceptar." },
@@ -763,7 +763,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Strange", "as", "it", "may", "seem,", "he", "has", "never", "used", "a", "computer."],
-        translation: "Por extraño que parezca, nunca ha usado un ordenador.",
+        translation: "Por extraño que parezca, nunca ha usado una computadora.",
         altOrders: [["He", "has", "never", "used", "a", "computer,", "strange", "as", "it", "may", "seem."]],
         explanation: "Adjective + \"as\" + subject + verb, then the main clause. The concessive clause can also go at the end.",
       },
@@ -780,14 +780,14 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Sí que fuimos a la fiesta, pero nos marchamos pronto.",
+        source: "Sí que fuimos a la fiesta, pero nos fuimos temprano.",
         answer: "We did go to the party, but we left early.",
         altAnswers: [
           "We did go to the party but left early.",
           "We did go to the party, but we didn't stay long.",
           "We did go to the party, but we went home early.",
         ],
-        explanation: "Emphatic \"did\" + base form: \"did go\", never *did went. «Pronto» here means \"early\".",
+        explanation: "Emphatic \"did\" + base form: \"did go\", never *did went. «Temprano» means \"early\".",
       },
       {
         type: "multiple-choice",
@@ -821,7 +821,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Por más que lo intentaron, no consiguieron arrancar el coche.",
+        source: "Por más que lo intentaron, no consiguieron arrancar el carro.",
         answer: "Try as they might, they couldn't start the car.",
         altAnswers: [
           "Try as they might, they couldn't get the car started.",

@@ -521,7 +521,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
           { es: "This time tomorrow I'll be flying to New York.", en: "Mañana a esta hora estaré volando a Nueva York." },
           { es: "Don't call at eight; we'll be having dinner.", en: "No llames a las ocho; estaremos cenando." },
           { es: "This time next week, we'll be lying on a beach.", en: "Dentro de una semana a esta hora, estaremos tumbados en una playa." },
-          { es: "Will you be using the car tonight?", en: "¿Vas a usar el coche esta noche?" },
+          { es: "Will you be using the car tonight?", en: "¿Vas a usar el carro esta noche?" },
         ],
         checkpoint: [
           {
@@ -645,7 +645,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Vas a usar el coche esta noche? Si no, me lo llevo yo.",
+        source: "¿Vas a usar el carro esta noche? Si no, me lo llevo yo.",
         answer: "Will you be using the car tonight? If not, I'll take it.",
         altAnswers: [
           "Are you going to use the car tonight? If not, I'll take it.",

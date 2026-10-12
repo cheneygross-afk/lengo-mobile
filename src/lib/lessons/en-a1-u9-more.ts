@@ -90,14 +90,14 @@ export const EN_A1_U9_MORE: Lesson[] = [
         body: [
           "«Su» puede ser \"his\" (de él), \"her\" (de ella), \"their\" (de ellos), \"its\" (de una cosa o un animal) o \"your\" (de usted o de ustedes). En inglés tienes que pensar a quién pertenece la cosa.",
           "El posesivo no cambia en plural: «sus libros» de ella es \"her books\", nunca *hers books.",
-          "Para «el coche de mi padre» se usa el genitivo 's: \"my father's car\". El dueño va primero.",
+          "Para «el carro de mi padre» se usa el genitivo 's: \"my father's car\". El dueño va primero.",
         ],
         examples: [
           { es: "Ana lives with her brother.", en: "Ana vive con su hermano." },
           { es: "Carlos loves his job.", en: "A Carlos le encanta su trabajo." },
           { es: "They love their house.", en: "Les encanta su casa." },
           { es: "Is this your bag, sir?", en: "¿Es esta su bolsa, señor?" },
-          { es: "It's my father's car.", en: "Es el coche de mi padre." },
+          { es: "It's my father's car.", en: "Es el carro de mi padre." },
         ],
         checkpoint: [
           {

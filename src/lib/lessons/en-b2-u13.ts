@@ -139,7 +139,7 @@ export const EN_B2_U13: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Sabes si Lucia tiene coche?",
+            source: "¿Sabes si Lucia tiene carro?",
             answer: "Do you know if Lucia has a car?",
             altAnswers: [
               "Do you know whether Lucia has a car?",
@@ -739,8 +739,8 @@ export const EN_B2_U13: Lesson[] = [
         pairs: [
           { left: "Who did Ana call?", right: "Ana llamó a Tom." },
           { left: "Who called Ana?", right: "Tom llamó a Ana." },
-          { left: "Whose car hit yours?", right: "El coche de mi vecino chocó con el mío." },
-          { left: "Whose car did you hit?", right: "Choqué con el coche de mi vecino." },
+          { left: "Whose car hit yours?", right: "El carro de mi vecino chocó con el mío." },
+          { left: "Whose car did you hit?", right: "Choqué con el carro de mi vecino." },
         ],
         explanation: "No auxiliary: the question word is the subject. With \"did\": the question word is the object.",
       },
@@ -923,7 +923,7 @@ export const EN_B2_U13: Lesson[] = [
         examples: [
           { es: "You received my email, didn't you?", en: "Recibieron mi correo, ¿no?" },
           { es: "The room has a balcony, doesn't it?", en: "La habitación tiene balcón, ¿verdad?" },
-          { es: "There's free parking, isn't there?", en: "Hay aparcamiento gratis, ¿no?" },
+          { es: "There's free parking, isn't there?", en: "Hay estacionamiento gratis, ¿no?" },
           { es: "Your agent didn't call me, did she?", en: "Su agente no me llamó, ¿verdad?" },
           { es: "I don't have the code. Neither do I.", en: "No tengo el código. Yo tampoco." },
         ],
@@ -1175,7 +1175,7 @@ export const EN_B2_U13: Lesson[] = [
           { es: "Do you know who won?", en: "¿Sabes quién ganó?" },
           { es: "Can you tell me what happened?", en: "¿Me puedes contar qué pasó?" },
           { es: "Do you remember what the name of that restaurant is?", en: "¿Te acuerdas de cómo se llama ese restaurante?" },
-          { es: "Do you know if I can park here?", en: "¿Sabe si puedo aparcar aquí?" },
+          { es: "Do you know if I can park here?", en: "¿Sabe si puedo estacionar aquí?" },
         ],
         checkpoint: [
           {
@@ -1376,7 +1376,7 @@ export const EN_B2_U13: Lesson[] = [
           { es: "You're checking out on Sunday, aren't you?", en: "Se va el domingo, ¿verdad?" },
           { es: "You'll need a taxi tomorrow, won't you?", en: "Mañana necesitará un taxi, ¿no?" },
           { es: "You haven't used the minibar, have you?", en: "No ha usado el minibar, ¿verdad?" },
-          { es: "There's a parking fee, isn't there?", en: "Hay que pagar el aparcamiento, ¿no?" },
+          { es: "There's a parking fee, isn't there?", en: "Hay que pagar el estacionamiento, ¿no?" },
           { es: "I'm in room 512, aren't I?", en: "Estoy en la habitación 512, ¿no?" },
           { es: "Breakfast was included, wasn't it?", en: "El desayuno estaba incluido, ¿no?" },
         ],
@@ -1573,7 +1573,7 @@ export const EN_B2_U13: Lesson[] = [
         examples: [
           { es: "Do you like sushi? Yes, I do.", en: "¿Te gusta el sushi? Sí, me gusta." },
           { es: "Have you finished? No, I haven't.", en: "¿Has terminado? No, todavía no." },
-          { es: "Can she drive? Yes, she can.", en: "¿Sabe conducir? Sí." },
+          { es: "Can she drive? Yes, she can.", en: "¿Sabe manejar? Sí." },
           { es: "Did they call? No, they didn't.", en: "¿Llamaron? No." },
           { es: "Are you ready? Yes, I am.", en: "¿Estás listo? Sí." },
           { es: "Will it rain tomorrow? I think so.", en: "¿Lloverá mañana? Creo que sí." },
@@ -1809,10 +1809,10 @@ export const EN_B2_U13: Lesson[] = [
         ],
         examples: [
           { es: "Would you mind answering a few quick questions?", en: "¿Le importaría responder unas preguntas rápidas?" },
-          { es: "How many hours a day do you spend on your phone?", en: "¿Cuántas horas al día pasas con el móvil?" },
+          { es: "How many hours a day do you spend on your phone?", en: "¿Cuántas horas al día pasas con el celular?" },
           { es: "How often do you check social media?", en: "¿Con qué frecuencia miras las redes sociales?" },
           { es: "Have you ever tried a digital detox?", en: "¿Alguna vez has probado una desintoxicación digital?" },
-          { es: "Would you rather give up your phone or your laptop for a week?", en: "¿Qué preferirías dejar una semana, el móvil o el portátil?" },
+          { es: "Would you rather give up your phone or your laptop for a week?", en: "¿Qué preferirías dejar una semana, el celular o el portátil?" },
           { es: "Which do you prefer, reading on paper or on a screen?", en: "¿Qué prefieres, leer en papel o en pantalla?" },
         ],
         checkpoint: [
@@ -1858,7 +1858,7 @@ export const EN_B2_U13: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Les pregunté si usaban el móvil en la cama.",
+            source: "Les pregunté si usaban el celular en la cama.",
             answer: "I asked them if they used their phones in bed.",
             altAnswers: [
               "I asked them whether they used their phones in bed.",
@@ -1892,8 +1892,8 @@ export const EN_B2_U13: Lesson[] = [
           "Vary your reporting verbs: \"said\", \"told me\" (with a person), \"admitted\", \"claimed\", \"explained\". \"Told\" needs an object: \"They told me\", not *They told that.",
         ],
         examples: [
-          { es: "Most people said they checked their phones first thing in the morning.", en: "La mayoría dijo que miraba el móvil nada más despertarse." },
-          { es: "Seven out of ten admitted they used their phones in bed.", en: "Siete de cada diez admitieron que usaban el móvil en la cama." },
+          { es: "Most people said they checked their phones first thing in the morning.", en: "La mayoría dijo que miraba el celular nada más despertarse." },
+          { es: "Seven out of ten admitted they used their phones in bed.", en: "Siete de cada diez admitieron que usaban el celular en la cama." },
           { es: "Only a few said they had ever turned off notifications.", en: "Solo unos pocos dijeron que alguna vez habían desactivado las notificaciones." },
           { es: "Nobody said they could live without the internet.", en: "Nadie dijo que pudiera vivir sin internet." },
           { es: "One person told me she had deleted all her social media apps.", en: "Una persona me dijo que había borrado todas sus redes sociales." },
@@ -1903,7 +1903,7 @@ export const EN_B2_U13: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "La mayoría de la gente dijo que nunca apagaba el móvil.",
+            source: "La mayoría de la gente dijo que nunca apagaba el celular.",
             answer: "Most people said they never turned off their phones.",
             altAnswers: [
               "Most people said that they never turned off their phones.",
@@ -1924,7 +1924,7 @@ export const EN_B2_U13: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Con qué frecuencia lees noticias en el móvil?",
+        source: "¿Con qué frecuencia lees noticias en el celular?",
         answer: "How often do you read the news on your phone?",
         altAnswers: ["How often do you read news on your phone?", "How often do you read the news on your cell phone?", "How often do you read the news on your mobile?"],
         explanation: "Direct survey question: \"How often\" + \"do\" + subject + verb. \"News\" is uncountable and singular.",
@@ -1950,7 +1950,7 @@ export const EN_B2_U13: Lesson[] = [
         sentence: "I asked them ___ ever forgotten their phone at home.",
         answer: "if they had",
         altAnswers: ["whether they had"],
-        en: "Les pregunté [si alguna vez habían] olvidado el móvil en casa.",
+        en: "Les pregunté [si alguna vez habían] olvidado el celular en casa.",
         explanation: "\"Have you ever...?\" becomes \"if they had ever...\" in a past report.",
       },
       {
@@ -1986,7 +1986,7 @@ export const EN_B2_U13: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Preferirías pasar un fin de semana sin móvil o sin internet?",
+        source: "¿Preferirías pasar un fin de semana sin celular o sin internet?",
         answer: "Would you rather spend a weekend without your phone or without the internet?",
         altAnswers: [
           "Would you rather spend a weekend without a phone or without the internet?",
@@ -2063,7 +2063,7 @@ export const EN_B2_U13: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Sabes dónde aparqué el coche?",
+            source: "¿Sabes dónde estacioné el carro?",
             answer: "Do you know where I parked the car?",
             altAnswers: ["Do you know where I parked my car?"],
             explanation: "No \"did\": \"where I parked\", with the verb in the past.",
@@ -2367,7 +2367,7 @@ export const EN_B2_U13: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No sé conducir. —¿Ah, no?",
+        source: "No sé manejar. —¿Ah, no?",
         answer: "I can't drive. Can't you?",
         altAnswers: ["I don't know how to drive. Don't you?", "I can't drive. Oh, can't you?", "I can't drive. Really?"],
         explanation: "A reply question keeps the negative: \"Can't you?\". «Saber» + infinitive for skills is usually \"can\".",

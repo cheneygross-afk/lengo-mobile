@@ -287,11 +287,11 @@ export const EN_B1_U16: Lesson[] = [
         heading: "Whose: possession",
         body: [
           "\"Whose\" shows possession. It replaces \"his\", \"her\", \"its\" or \"their\" inside the relative clause: \"I know a woman. Her car was stolen.\" becomes \"I know a woman whose car was stolen.\"",
-          "In Spanish this is «cuyo», but in everyday Spanish people usually avoid it and say «la mujer a la que le robaron el coche». That's why Spanish speakers often say \"the woman who her car was stolen\". In English, \"whose\" is normal in everyday conversation, not formal at all.",
+          "In Spanish this is «cuyo», but in everyday Spanish people usually avoid it and say «la mujer a la que le robaron el carro». That's why Spanish speakers often say \"the woman who her car was stolen\". In English, \"whose\" is normal in everyday conversation, not formal at all.",
           "\"Whose\" is always followed directly by a noun: \"whose car\", \"whose sister\", \"whose parents\".",
         ],
         examples: [
-          { es: "I know a woman whose car was stolen.", en: "Conozco a una mujer a la que le robaron el coche." },
+          { es: "I know a woman whose car was stolen.", en: "Conozco a una mujer a la que le robaron el carro." },
           { es: "That's the boy whose father is a pilot.", en: "Ese es el chico cuyo padre es piloto." },
           { es: "We have a neighbor whose dog never stops barking.", en: "Tenemos un vecino cuyo perro no para de ladrar." },
           { es: "The student whose phone rang had to leave the room.", en: "El estudiante al que le sonó el teléfono tuvo que salir de la clase." },
@@ -325,7 +325,7 @@ export const EN_B1_U16: Lesson[] = [
         body: [
           "\"Whose\" and \"who's\" sound exactly the same, but \"who's\" means \"who is\" or \"who has\". In writing, check: if you can say \"who is\" or \"who has\", write \"who's\". If it's possession, write \"whose\".",
           "\"Whose\" also works for things, companies and places: \"a house whose windows face the sea\", \"a company whose products are sold everywhere\". It sounds a little more formal than with people, but it's correct and common.",
-          "Don't put \"the\" after \"whose\": *the woman whose the car is wrong, just like «cuyo el coche» is wrong in Spanish.",
+          "Don't put \"the\" after \"whose\": *the woman whose the car is wrong, just like «cuyo el carro» is wrong in Spanish.",
         ],
         examples: [
           { es: "The woman who's talking is my boss.", en: "La mujer que está hablando es mi jefa." },
@@ -399,7 +399,7 @@ export const EN_B1_U16: Lesson[] = [
         ],
         examples: [
           { es: "the woman who called", en: "la mujer que llamó" },
-          { es: "the car that I want", en: "el coche que quiero" },
+          { es: "the car that I want", en: "el carro que quiero" },
           { es: "the town where I live", en: "el pueblo donde vivo" },
           { es: "the day when we met", en: "el día en que nos conocimos" },
           { es: "the man whose son is a doctor", en: "el hombre cuyo hijo es médico" },
@@ -424,10 +424,10 @@ export const EN_B1_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Conozco a una mujer a la que le robaron el coche.",
+        source: "Conozco a una mujer a la que le robaron el carro.",
         answer: "I know a woman whose car was stolen.",
         altAnswers: ["I know a woman who had her car stolen.", "I know a woman that had her car stolen."],
-        explanation: "«A la que le robaron el coche» is possession: \"whose car was stolen\". Never *who her car.",
+        explanation: "«A la que le robaron el carro» is possession: \"whose car was stolen\". Never *who her car.",
       },
       {
         type: "fill-blank",
@@ -1785,10 +1785,10 @@ export const EN_B1_U16: Lesson[] = [
         audio: "The man whose car was stolen is my uncle.",
         question: "What did you hear?",
         options: [
-          "El hombre al que le robaron el coche es mi tío.",
-          "El hombre que robó el coche es mi tío.",
-          "Mi tío le robó el coche a un hombre.",
-          "El coche de mi tío fue robado por un hombre.",
+          "El hombre al que le robaron el carro es mi tío.",
+          "El hombre que robó el carro es mi tío.",
+          "Mi tío le robó el carro a un hombre.",
+          "El carro de mi tío fue robado por un hombre.",
         ],
         correctIndex: 0,
         explanation: "\"Whose car was stolen\": the man is the victim, not the thief.",
@@ -1818,7 +1818,7 @@ export const EN_B1_U16: Lesson[] = [
           "Useful phrases: \"I don't know the word, but...\", \"How do you say...?\", \"It's like a..., but...\".",
         ],
         examples: [
-          { es: "It's someone who fixes cars.", en: "Es alguien que arregla coches." },
+          { es: "It's someone who fixes cars.", en: "Es alguien que arregla carros." },
           { es: "It's a person who helps you find a house.", en: "Es una persona que te ayuda a encontrar casa." },
           { es: "I don't know the word, but it's someone who cuts your hair.", en: "No sé la palabra, pero es alguien que te corta el pelo." },
           { es: "It's like a sofa, but you can sleep on it.", en: "Es como un sofá, pero puedes dormir en él." },
@@ -1835,7 +1835,7 @@ export const EN_B1_U16: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Es alguien que arregla coches.",
+            source: "Es alguien que arregla carros.",
             answer: "It's someone who fixes cars.",
             altAnswers: [
               "It's somebody who fixes cars.",

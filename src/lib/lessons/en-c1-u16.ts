@@ -21,9 +21,9 @@ export const EN_C1_U16: Lesson[] = [
           "Mixing is not a crime in conversation, but in a written text you should choose one standard and stick to it. A report that says \"colour\" in one paragraph and \"color\" in the next looks careless, just as a Spanish text that switches between «vosotros» and «ustedes» would look odd.",
         ],
         examples: [
-          { es: "We live in a flat near the city centre.", en: "Vivimos en un piso cerca del centro. (británico)" },
+          { es: "We live in a flat near the city centre.", en: "Vivimos en un departamento cerca del centro. (británico)" },
           { es: "We live in an apartment near downtown.", en: "Vivimos en un apartamento cerca del centro. (americano)" },
-          { es: "Take the lift to the third floor.", en: "Toma el ascensor hasta la tercera planta. (británico)" },
+          { es: "Take the lift to the third floor.", en: "Toma el ascensor hasta el tercer piso. (británico)" },
           { es: "Take the elevator to the third floor.", en: "Toma el elevador hasta el tercer piso. (americano)" },
           { es: "I'm going on holiday next week.", en: "Me voy de vacaciones la semana que viene. (británico)" },
           { es: "I'm going on vacation next week.", en: "Me voy de vacaciones la semana que viene. (americano)" },
@@ -33,7 +33,7 @@ export const EN_C1_U16: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into British English.",
-            source: "Vivimos en un piso de la tercera planta y el ascensor no funciona.",
+            source: "Vivimos en un departamento en el tercer piso y el ascensor no funciona.",
             answer: "We live in a flat on the third floor and the lift isn't working.",
             altAnswers: [
               "We live in a third-floor flat and the lift isn't working.",
@@ -75,7 +75,7 @@ export const EN_C1_U16: Lesson[] = [
           { es: "We had to wait in line for an hour.", en: "Tuvimos que hacer fila una hora. (americano)" },
           { es: "Could we have the bill, please?", en: "¿Nos trae la cuenta, por favor? (británico)" },
           { es: "Could we get the check, please?", en: "¿Nos trae la cuenta, por favor? (americano)" },
-          { es: "I left my mobile on the Tube.", en: "Me dejé el móvil en el metro (de Londres)." },
+          { es: "I left my mobile on the Tube.", en: "Me dejé el celular en el metro (de Londres)." },
           { es: "I left my cell phone on the subway.", en: "Dejé mi celular en el metro. (americano)" },
           { es: "The trees look beautiful in the fall.", en: "Los árboles están preciosos en otoño. (americano)" },
           { es: "Happy holidays!", en: "¡Felices fiestas! (americano)" },
@@ -122,10 +122,10 @@ export const EN_C1_U16: Lesson[] = [
         examples: [
           { es: "My favourite colour is grey.", en: "Mi color favorito es el gris. (ortografía británica)" },
           { es: "My favorite color is gray.", en: "Mi color favorito es el gris. (ortografía americana)" },
-          { es: "We met outside the theatre in the town centre.", en: "Quedamos delante del teatro, en el centro. (británico)" },
-          { es: "We met outside the theater downtown.", en: "Quedamos delante del teatro, en el centro. (americano)" },
+          { es: "We met outside the theatre in the town centre.", en: "Nos vimos frente al teatro, en el centro. (británico)" },
+          { es: "We met outside the theater downtown.", en: "Nos vimos frente al teatro, en el centro. (americano)" },
           { es: "I didn't realise how much he had to analyse.", en: "No me di cuenta de cuánto tenía que analizar. (británico)" },
-          { es: "She needs to renew her driving licence.", en: "Tiene que renovar el carné de conducir. (británico)" },
+          { es: "She needs to renew her driving licence.", en: "Tiene que renovar la licencia de manejar. (británico)" },
           { es: "She needs to renew her driver's license.", en: "Tiene que renovar su licencia de manejo. (americano)" },
         ],
         checkpoint: [
@@ -229,7 +229,7 @@ export const EN_C1_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into British English.",
-        source: "Me dejé el móvil en el metro.",
+        source: "Me dejé el celular en el metro.",
         answer: "I left my mobile on the Underground.",
         altAnswers: [
           "I left my mobile on the Tube.",
@@ -242,7 +242,7 @@ export const EN_C1_U16: Lesson[] = [
           "I've left my mobile phone on the Tube.",
           "I've left my mobile phone on the Underground.",
         ],
-        explanation: "British English: \"mobile\" (phone) and \"the Underground\", or in London simply \"the Tube\". Americans say \"cell phone\" and \"subway\". Note \"leave\", not *forget, when you say where something is: «me dejé el móvil en...».",
+        explanation: "British English: \"mobile\" (phone) and \"the Underground\", or in London simply \"the Tube\". Americans say \"cell phone\" and \"subway\". Note \"leave\", not *forget, when you say where something is: «me dejé el celular en...».",
       },
       {
         type: "fill-blank",
@@ -275,7 +275,7 @@ export const EN_C1_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into British English.",
-        source: "Compramos un billete de ida y vuelta, pero cancelaron el tren.",
+        source: "Compramos un boleto de ida y vuelta, pero cancelaron el tren.",
         answer: "We bought a return ticket, but the train was cancelled.",
         altAnswers: [
           "We got a return ticket, but the train was cancelled.",
@@ -353,7 +353,7 @@ export const EN_C1_U16: Lesson[] = [
           "What both varieties share is the core rule: a finished time expression (\"yesterday\", \"last year\", \"in 2019\") always takes the past simple. *I've seen him yesterday is wrong everywhere, even though Spanish from Spain says «Lo he visto esta mañana» and some regions say «lo he visto ayer».",
         ],
         examples: [
-          { es: "Have you finished your homework yet?", en: "¿Ya has terminado los deberes? (británico)" },
+          { es: "Have you finished your homework yet?", en: "¿Ya has terminado la tarea? (británico)" },
           { es: "Did you finish your homework yet?", en: "¿Ya terminaste la tarea? (americano coloquial)" },
           { es: "I've just spoken to her.", en: "Acabo de hablar con ella. (británico)" },
           { es: "I just spoke to her.", en: "Acabo de hablar con ella. (americano)" },
@@ -640,7 +640,7 @@ export const EN_C1_U16: Lesson[] = [
         prompt: "Put the words in order.",
         words: ["They", "insisted", "that", "he", "stay", "for", "dinner."],
         translation: "Insistieron en que se quedara a cenar.",
-        explanation: "After \"insist that\", American and formal British English use the bare infinitive (\"he stay\", not *he stays), just like the Spanish subjunctive «que se quedara».",
+        explanation: "After \"insist that\", American and formal British English use the bare infinitive (\"he stay\"; \"he stays\" is heard in everyday British English but is not the standard written form), just like the Spanish subjunctive «que se quedara».",
       },
       {
         type: "speak",
@@ -669,7 +669,7 @@ export const EN_C1_U16: Lesson[] = [
         examples: [
           { es: "Mr Davies has organised a meeting at the weekend.", en: "El Sr. Davies ha organizado una reunión el fin de semana. (pistas británicas: \"Mr\" sin punto, \"organised\", \"at the weekend\")" },
           { es: "Dr. Harris canceled her appointments for the rest of the week.", en: "La Dra. Harris canceló sus citas el resto de la semana. (pistas americanas: \"Dr.\", \"canceled\")" },
-          { es: "The flat is five minutes from the Tube and costs 1,200 pounds a month.", en: "El piso está a cinco minutos del metro y cuesta 1200 libras al mes. (británico)" },
+          { es: "The flat is five minutes from the Tube and costs 1,200 pounds a month.", en: "El departamento está a cinco minutos del metro y cuesta 1200 libras al mes. (británico)" },
           { es: "The apartment is two blocks from the subway and costs 2,000 dollars a month.", en: "El apartamento está a dos cuadras del metro y cuesta 2000 dólares al mes. (americano)" },
           { es: "Have you got any plans for the bank holiday?", en: "¿Tienes planes para el puente (festivo)? (británico)" },
         ],
@@ -733,9 +733,9 @@ export const EN_C1_U16: Lesson[] = [
           "Some things never change: quotations, names of people, places and organizations, and titles of books or films. \"The Lincoln Center\" stays \"Center\" in a British text, and a British character speaking in an American novel can still say \"mate\".",
         ],
         examples: [
-          { es: "We've got a lovely flat near the city centre.", en: "Tenemos un piso precioso cerca del centro. (británico)" },
+          { es: "We've got a lovely flat near the city centre.", en: "Tenemos un departamento precioso cerca del centro. (británico)" },
           { es: "We have a lovely apartment near downtown.", en: "Tenemos un apartamento precioso cerca del centro. (americano)" },
-          { es: "Her driving has got much better since the autumn.", en: "Conduce mucho mejor desde el otoño. (británico)" },
+          { es: "Her driving has got much better since the autumn.", en: "Maneja mucho mejor desde el otoño. (británico)" },
           { es: "Her driving has gotten much better since the fall.", en: "Maneja mucho mejor desde el otoño. (americano)" },
           { es: "The course starts on 12 September.", en: "El curso empieza el 12 de septiembre. (británico)" },
           { es: "The course starts on September 12.", en: "El curso empieza el 12 de septiembre. (americano)" },
@@ -833,7 +833,7 @@ export const EN_C1_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into British English.",
-        source: "Nuestro piso está en la planta baja, al lado de la farmacia.",
+        source: "Nuestro departamento está en la planta baja, al lado de la farmacia.",
         answer: "Our flat is on the ground floor, next to the chemist's.",
         altAnswers: [
           "Our flat's on the ground floor, next to the chemist's.",
@@ -1047,7 +1047,7 @@ export const EN_C1_U16: Lesson[] = [
         prompt: "Write the bold words in British English.",
         sentence: "Don't forget to take some ___ for the car before the motorway.",
         answer: "petrol",
-        en: "No olvides echar [gasolina] al coche antes de la autopista.",
+        en: "No olvides echar [gasolina] al carro antes de la autopista.",
         explanation: "British \"petrol\", American \"gas\" (short for \"gasoline\"). See Part 1.",
       },
       {
@@ -1176,7 +1176,7 @@ export const EN_C1_U16: Lesson[] = [
           "Whichever model you follow, the English r is never the Spanish trilled «rr» or the tapped «r» of «caro». The tongue curls back and does not touch the roof of the mouth. A trilled r is one of the strongest signs of a Spanish accent in English.",
         ],
         examples: [
-          { es: "The car is parked in the yard.", en: "El coche está aparcado en el patio. (en americano se oyen todas las r)" },
+          { es: "The car is parked in the yard.", en: "El carro está estacionado en el patio. (en americano se oyen todas las r)" },
           { es: "It's far away from here.", en: "Está lejos de aquí. (en británico la r de \"far\" se oye porque va seguida de vocal)" },
           { es: "My mother's a teacher.", en: "Mi madre es profesora. (en británico estándar, sin r al final de \"mother\" ni de \"teacher\")" },
           { es: "Where are you from?", en: "¿De dónde eres?" },
@@ -1274,7 +1274,7 @@ export const EN_C1_U16: Lesson[] = [
         ],
         examples: [
           { es: "What's your email address?", en: "¿Cuál es tu dirección de correo electrónico?" },
-          { es: "The car is in the garage.", en: "El coche está en el garaje." },
+          { es: "The car is in the garage.", en: "El carro está en el garaje." },
           { es: "She works in a laboratory.", en: "Trabaja en un laboratorio." },
           { es: "Let me check my schedule.", en: "Déjame mirar mi agenda." },
           { es: "Add some fresh herbs to the tomato sauce.", en: "Añade hierbas frescas a la salsa de tomate." },
@@ -1526,7 +1526,7 @@ export const EN_C1_U16: Lesson[] = [
           { es: "Thanks for the lift. No worries!", en: "Gracias por traerme. ¡De nada! (australiano)" },
           { es: "I reckon it'll rain later.", en: "Creo que lloverá más tarde." },
           { es: "There were heaps of people at the beach.", en: "Había muchísima gente en la playa. (australiano)" },
-          { es: "Don't forget your sunnies and your thongs.", en: "No olvides las gafas de sol y las chanclas. (australiano)" },
+          { es: "Don't forget your sunnies and your thongs.", en: "No olvides los lentes de sol y las chanclas. (australiano)" },
         ],
         checkpoint: [
           {
@@ -1558,7 +1558,7 @@ export const EN_C1_U16: Lesson[] = [
           { es: "We're going tramping in the mountains this weekend.", en: "Este fin de semana nos vamos de senderismo a la montaña. (neozelandés)" },
           { es: "Grab your togs and your jandals!", en: "¡Trae el traje de baño y las chanclas! (neozelandés)" },
           { es: "Put the drinks in the chilly bin.", en: "Pon las bebidas en la nevera portátil. (neozelandés)" },
-          { es: "I'll pop down to the dairy for some milk.", en: "Voy un momento a la tienda de la esquina a por leche. (neozelandés)" },
+          { es: "I'll pop down to the dairy for some milk.", en: "Voy un momento a la tienda de la esquina por leche. (neozelandés)" },
           { es: "Can you pick me up at eight? Sweet as.", en: "¿Me recoges a las ocho? Claro, sin problema. (neozelandés)" },
           { es: "Kia ora, everyone.", en: "Hola a todos. (saludo maorí usado en Nueva Zelanda)" },
         ],
@@ -1792,15 +1792,15 @@ export const EN_C1_U16: Lesson[] = [
               "Never",
             ],
             correctIndex: 0,
-            explanation: "In South African English \"just now\" means «luego», at some point later. For «ahora mismo», South Africans say \"now now\" (soon) or simply \"right now\".",
+            explanation: "In South African English \"just now\" means «luego», at some point later. For «ahora mismo» they say \"right now\"; \"now now\" means soon, sooner than \"just now\".",
           },
           {
             type: "translate",
             direction: "es-en",
             prompt: "Translate into standard English.",
             source: "Gira a la izquierda en el semáforo.",
-            answer: "Turn left at the traffic lights.",
-            altAnswers: ["Turn left at the traffic light.", "Turn left at the lights.", "Turn left at the light.", "Take a left at the traffic light.", "Take a left at the light.", "Take a left at the lights.", "Take a left at the traffic lights."],
+            answer: "Turn left at the traffic light.",
+            altAnswers: ["Turn left at the traffic lights.", "Turn left at the lights.", "Turn left at the light.", "Take a left at the traffic light.", "Take a left at the light.", "Take a left at the lights.", "Take a left at the traffic lights."],
             explanation: "Standard English says \"traffic lights\" (British) or \"traffic light\" / \"the light\" (American). In South Africa you would hear \"Turn left at the robot\".",
           },
         ],
@@ -1826,10 +1826,10 @@ export const EN_C1_U16: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into standard English.",
             source: "¿Podemos adelantar la reunión al lunes?",
-            answer: "Can we bring the meeting forward to Monday?",
+            answer: "Can we move the meeting up to Monday?",
             altAnswers: [
               "Could we bring the meeting forward to Monday?",
-              "Can we move the meeting up to Monday?",
+              "Can we bring the meeting forward to Monday?",
               "Could we move the meeting up to Monday?",
               "Can we move the meeting forward to Monday?",
               "Could we move the meeting forward to Monday?",
@@ -2196,9 +2196,9 @@ export const EN_C1_U16: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into standard English.",
         source: "Gracias por traerme. ¡De nada!",
-        answer: "Thanks for the lift. You're welcome!",
+        answer: "Thanks for the ride. You're welcome!",
         altAnswers: [
-          "Thanks for the ride. You're welcome!",
+          "Thanks for the lift. You're welcome!",
           "Thanks for the lift. No problem!",
           "Thanks for the ride. No problem!",
           "Thanks for the lift. No worries!",
@@ -2250,7 +2250,7 @@ export const EN_C1_U16: Lesson[] = [
           "\"Cheers\" is very British: it means thanks (\"Cheers for the help\"), goodbye at the end of a message, and of course «¡salud!» with a drink. In the US it is mainly used for the toast. Common greetings: British \"Alright?\" (= How are you?, and the answer is \"Alright\" or \"Yeah, not bad\"), American \"What's up?\" (answer: \"Not much\").",
         ],
         examples: [
-          { es: "Cheers, mate, see you tomorrow.", en: "Gracias, tío, hasta mañana. (británico)" },
+          { es: "Cheers, mate, see you tomorrow.", en: "Gracias, amigo, hasta mañana. (británico)" },
           { es: "Thanks, man, see you tomorrow.", en: "Gracias, amigo, hasta mañana. (americano)" },
           { es: "He's a really nice guy.", en: "Es un tipo muy simpático. (americano y británico)" },
           { es: "Are you guys coming tonight?", en: "¿Vienen esta noche? (americano)" },
@@ -2334,18 +2334,18 @@ export const EN_C1_U16: Lesson[] = [
         examples: [
           { es: "The concert was awesome!", en: "¡El concierto estuvo increíble! (americano)" },
           { es: "You've fixed it? Brilliant!", en: "¿Lo has arreglado? ¡Genial! (británico)" },
-          { es: "That website looks a bit dodgy.", en: "Esa web tiene pinta de ser un poco sospechosa. (británico)" },
+          { es: "That website looks a bit dodgy.", en: "Esa web parece un poco sospechosa. (británico)" },
           { es: "That neighborhood is kind of sketchy at night.", en: "Ese barrio es medio peligroso de noche. (americano)" },
           { es: "It only cost me twenty quid.", en: "Solo me costó veinte libras. (británico)" },
           { es: "Can you lend me ten bucks?", en: "¿Me prestas diez dólares? (americano)" },
-          { es: "I'm skint until payday.", en: "Estoy sin blanca hasta que cobre. (británico)" },
+          { es: "I'm skint until payday.", en: "Estoy sin un peso hasta que cobre. (británico)" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "es-en",
             prompt: "Translate into informal American English.",
-            source: "¿Me prestas veinte dólares? Estoy sin blanca.",
+            source: "¿Me prestas veinte dólares? Estoy sin un peso.",
             answer: "Can you lend me twenty bucks? I'm broke.",
             altAnswers: [
               "Could you lend me twenty bucks? I'm broke.",
@@ -2499,11 +2499,11 @@ export const EN_C1_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Gracias, tío. Te debo una.",
-        answer: "Cheers, mate. I owe you one.",
+        source: "Gracias, amigo. Te debo una.",
+        answer: "Thanks, man. I owe you one.",
         altAnswers: [
           "Thanks, mate. I owe you one.",
-          "Thanks, man. I owe you one.",
+          "Cheers, mate. I owe you one.",
           "Thanks, dude. I owe you one.",
           "Thanks, buddy. I owe you one.",
           "Cheers, man. I owe you one.",
@@ -2513,7 +2513,7 @@ export const EN_C1_U16: Lesson[] = [
           "Thanks man, I owe you one.",
           "Thanks dude, I owe you one.",
         ],
-        explanation: "«Tío» (or «güey», «che», «pana», «parce») is \"mate\" in British English and \"man\", \"dude\" or \"buddy\" in American English. \"I owe you one\" is the natural «te debo una».",
+        explanation: "«Amigo» (or «güey», «che», «pana», «parce», or Spain's «tío») is \"mate\" in British English and \"man\", \"dude\" or \"buddy\" in American English. \"I owe you one\" is the natural «te debo una».",
       },
       {
         type: "multiple-choice",
@@ -2565,7 +2565,7 @@ export const EN_C1_U16: Lesson[] = [
           { es: "He wore a vest under his shirt.", en: "Llevaba una camiseta interior debajo de la camisa. (británico)" },
           { es: "He wore a vest and a tie.", en: "Llevaba chaleco y corbata. (americano)" },
           { es: "She left her purse on the bus.", en: "Se dejó el bolso en el autobús. (americano) / el monedero (británico)" },
-          { es: "It's cold, take a jumper.", en: "Hace frío, llévate un jersey. (británico)" },
+          { es: "It's cold, take a jumper.", en: "Hace frío, llévate un suéter. (británico)" },
         ],
         checkpoint: [
           {
@@ -2597,14 +2597,14 @@ export const EN_C1_U16: Lesson[] = [
       {
         heading: "Food and sport: chips, biscuits, football",
         body: [
-          "British \"chips\" are American \"French fries\" («patatas fritas» cut in sticks), and American \"chips\" are British \"crisps\" (the ones in a bag). \"Fish and chips\" is British; a bag of \"potato chips\" is American.",
+          "British \"chips\" are American \"French fries\" («papas fritas» cut in sticks), and American \"chips\" are British \"crisps\" (the ones in a bag). \"Fish and chips\" is British; a bag of \"potato chips\" is American.",
           "A British \"biscuit\" is an American \"cookie\" (or cracker); an American \"biscuit\" is a soft, scone-like bread roll, often eaten with gravy. An \"entree\" is the main course in the US but a starter in traditional British and French usage.",
           "\"Football\" is soccer in Britain (and almost everywhere), but American football in the US, where the world's game is called \"soccer\". Saying \"soccer\" is not wrong in Britain, but it marks you as American.",
         ],
         examples: [
-          { es: "I'll have fish and chips, please.", en: "Pescado con patatas fritas, por favor. (británico)" },
-          { es: "Do you want fries with that?", en: "¿Lo quieres con patatas fritas? (americano)" },
-          { es: "There's a bag of crisps in the cupboard.", en: "Hay una bolsa de patatas fritas en el armario. (británico)" },
+          { es: "I'll have fish and chips, please.", en: "Pescado con papas fritas, por favor. (británico)" },
+          { es: "Do you want fries with that?", en: "¿Lo quieres con papas fritas? (americano)" },
+          { es: "There's a bag of crisps in the cupboard.", en: "Hay una bolsa de papas fritas en el armario. (británico)" },
           { es: "Grab a bag of chips for the game.", en: "Trae una bolsa de papas fritas para el partido. (americano)" },
           { es: "Would you like a biscuit with your tea?", en: "¿Quieres una galleta con el té? (británico)" },
           { es: "My son plays soccer every Saturday.", en: "Mi hijo juega al fútbol todos los sábados. (americano)" },
@@ -2683,13 +2683,13 @@ export const EN_C1_U16: Lesson[] = [
         heading: "Adjectives and adverbs: quite, mad",
         body: [
           "\"Quite\" is a subtle trap. In British English, \"quite good\" usually means fairly good, sometimes slightly disappointing (\"The film was quite good\" = «estuvo bien, sin más»). In American English, \"quite good\" means very good. With extreme adjectives, \"quite\" means completely in both: \"quite impossible\", \"quite right\".",
-          "\"Mad\" means crazy in British English (\"You're mad!\" = «¡Estás loco!») and angry in American English (\"She's mad at me\" = «Está enfadada conmigo»). \"Mad about\" means very keen on something in Britain: \"He's mad about football.\"",
+          "\"Mad\" means crazy in British English (\"You're mad!\" = «¡Estás loco!») and angry in American English (\"She's mad at me\" = «Está enojada conmigo»). \"Mad about\" means very keen on something in Britain: \"He's mad about football.\"",
           "Other false friends between the varieties: \"momentarily\" (UK for a moment / US in a moment), \"table a proposal\" (UK discuss it / US postpone it), \"homely\" (UK cozy / US plain, unattractive). The safe strategy: when it matters, choose an unambiguous word (\"very\", \"angry\", \"crazy\", \"in a moment\").",
         ],
         examples: [
           { es: "The hotel was quite nice.", en: "El hotel estaba bastante bien. (británico) / muy bien (americano)" },
           { es: "You're absolutely right.", en: "Tienes toda la razón." },
-          { es: "She's mad at me because I forgot her birthday.", en: "Está enfadada conmigo porque me olvidé de su cumpleaños. (americano)" },
+          { es: "She's mad at me because I forgot her birthday.", en: "Está enojada conmigo porque me olvidé de su cumpleaños. (americano)" },
           { es: "You're going swimming in January? You're mad!", en: "¿Vas a nadar en enero? ¡Estás loco! (británico)" },
           { es: "We'll be landing in a few minutes.", en: "Aterrizaremos dentro de unos minutos. (inequívoco)" },
         ],
@@ -2710,7 +2710,7 @@ export const EN_C1_U16: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English (so that anyone will understand).",
-            source: "Mi jefe está enfadado conmigo.",
+            source: "Mi jefe está enojado conmigo.",
             answer: "My boss is angry with me.",
             altAnswers: ["My boss is angry at me.", "My boss is annoyed with me.", "My boss is annoyed at me.", "My boss is upset with me.", "My boss's angry with me."],
             explanation: "\"Angry\" is clear everywhere. \"My boss is mad at me\" is natural American English, but in Britain \"mad\" suggests crazy.",
@@ -2735,7 +2735,7 @@ export const EN_C1_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into American English.",
-        source: "Una hamburguesa con patatas fritas, por favor.",
+        source: "Una hamburguesa con papas fritas, por favor.",
         answer: "A burger with fries, please.",
         altAnswers: [
           "A hamburger with fries, please.",
@@ -2793,7 +2793,7 @@ export const EN_C1_U16: Lesson[] = [
         sentence: "Take a ___; it gets cold in the evening.",
         answer: "jumper",
         altAnswers: ["sweater", "jersey", "pullover"],
-        en: "Llévate un [jersey]; refresca por la noche.",
+        en: "Llévate un [suéter]; refresca por la noche.",
         explanation: "\"Jumper\" is British for sweater; in American English a jumper is a sleeveless dress worn over a blouse.",
       },
       {
@@ -2911,7 +2911,7 @@ export const EN_C1_U16: Lesson[] = [
           { es: "Can you give me a rough estimate?", en: "¿Me puedes dar una cifra aproximada? (en lugar de \"a ballpark figure\")" },
           { es: "Let's get in touch next week.", en: "Hablemos la semana que viene. (en lugar de \"touch base\")" },
           { es: "The meeting has been postponed until Monday.", en: "La reunión se ha aplazado hasta el lunes. (en lugar de \"put off\")" },
-          { es: "The total cost is 5,000 US dollars.", en: "El coste total es de 5000 dólares estadounidenses. (en lugar de \"5K bucks\")" },
+          { es: "The total cost is 5,000 US dollars.", en: "El costo total es de 5000 dólares estadounidenses. (en lugar de \"5K bucks\")" },
           { es: "They keep changing the requirements.", en: "No paran de cambiar los requisitos. (en lugar de \"moving the goalposts\")" },
         ],
         checkpoint: [
@@ -2919,7 +2919,7 @@ export const EN_C1_U16: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into clear international English.",
-            source: "¿Nos puede dar una cifra aproximada del coste?",
+            source: "¿Nos puede dar una cifra aproximada del costo?",
             answer: "Could you give us a rough estimate of the cost?",
             altAnswers: [
               "Can you give us a rough estimate of the cost?",
@@ -3208,7 +3208,7 @@ export const EN_C1_U16: Lesson[] = [
         examples: [
           { es: "We need to analyse the behaviour of our customers.", en: "Tenemos que analizar el comportamiento de nuestros clientes. (británico)" },
           { es: "We need to analyze the behavior of our customers.", en: "Tenemos que analizar el comportamiento de nuestros clientes. (americano)" },
-          { es: "She travelled to the conference centre by car.", en: "Fue en coche al centro de congresos. (británico)" },
+          { es: "She travelled to the conference centre by car.", en: "Fue en carro al centro de congresos. (británico)" },
           { es: "The walls were painted gray, our favorite color.", en: "Las paredes se pintaron de gris, nuestro color favorito. (americano)" },
         ],
         checkpoint: [
@@ -3241,7 +3241,7 @@ export const EN_C1_U16: Lesson[] = [
           "Watch out for set phrases from one variety: \"take away\" / \"to go\", \"fill in\" / \"fill out\", \"bank holiday\" / \"public holiday\". They belong with the rest of their variety.",
         ],
         examples: [
-          { es: "I left my mobile in the flat and took the Tube to the city centre.", en: "Me dejé el móvil en el piso y fui en metro hasta el centro. (británico)" },
+          { es: "I left my mobile in the flat and took the Tube to the city centre.", en: "Me dejé el celular en el departamento y fui en metro hasta el centro. (británico)" },
           { es: "I left my cell phone in the apartment and took the subway downtown.", en: "Dejé el celular en el apartamento y tomé el metro al centro. (americano)" },
           { es: "We're going on holiday after the bank holiday.", en: "Nos vamos de vacaciones después del puente. (británico)" },
           { es: "We're going on vacation after the holiday weekend.", en: "Nos vamos de vacaciones después del fin de semana largo. (americano)" },
@@ -3251,7 +3251,7 @@ export const EN_C1_U16: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into British English.",
-            source: "Me dejé el móvil en el piso y tuve que volver.",
+            source: "Me dejé el celular en el departamento y tuve que volver.",
             answer: "I left my mobile in the flat and had to go back.",
             altAnswers: [
               "I left my mobile phone in the flat and had to go back.",
@@ -3386,7 +3386,7 @@ export const EN_C1_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into British English.",
-        source: "Nuestra oficina está en la planta baja, al lado del aparcamiento.",
+        source: "Nuestra oficina está en la planta baja, al lado del estacionamiento.",
         answer: "Our office is on the ground floor, next to the car park.",
         altAnswers: [
           "Our office is on the ground floor next to the car park.",
@@ -3472,7 +3472,7 @@ export const EN_C1_U16: Lesson[] = [
           "In this lesson you review Units 10 (idioms), 12 (register) and 16 (varieties) together, which is what real communication demands.",
         ],
         examples: [
-          { es: "Cheers for sorting that out, mate.", en: "Gracias por solucionarlo, tío. (británico, informal)" },
+          { es: "Cheers for sorting that out, mate.", en: "Gracias por solucionarlo, amigo. (británico, informal)" },
           { es: "Thanks for taking care of that.", en: "Gracias por encargarte de eso. (neutro)" },
           { es: "I would be grateful if you could deal with this matter.", en: "Le agradecería que se ocupara de este asunto. (formal)" },
           { es: "We're all in the same boat.", en: "Todos estamos en el mismo barco. (modismo que funciona en todas partes)" },
@@ -3619,7 +3619,7 @@ export const EN_C1_U16: Lesson[] = [
           { es: "This is just the tip of the iceberg.", en: "Esto es solo la punta del iceberg." },
           { es: "Let's make sure we're on the same page.", en: "Asegurémonos de que estamos de acuerdo." },
           { es: "The question came out of left field.", en: "La pregunta salió de la nada. (americano)" },
-          { es: "Add the eggs, stir, and Bob's your uncle!", en: "Añades los huevos, remueves, ¡y listo! (británico)" },
+          { es: "Add the eggs, stir, and Bob's your uncle!", en: "Añades los huevos, revuelves, ¡y listo! (británico)" },
           { es: "Are you pulling my leg?", en: "¿Me estás tomando el pelo?" },
         ],
         checkpoint: [
@@ -3685,7 +3685,7 @@ export const EN_C1_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into informal British English.",
-        source: "Gracias por solucionarlo, tío. Te debo una.",
+        source: "Gracias por solucionarlo, amigo. Te debo una.",
         answer: "Cheers for sorting that out, mate. I owe you one.",
         altAnswers: [
           "Cheers for sorting it out, mate. I owe you one.",
@@ -3797,7 +3797,7 @@ export const EN_C1_U16: Lesson[] = [
         heading: "In the kitchen",
         body: [
           "British/American: tap/faucet, cooker/stove (or range), hob/stovetop, washing-up liquid/dish soap, kitchen roll/paper towels, cling film/plastic wrap, tin/can, (rubbish) bin/trash can or garbage can. \"Fridge\", \"freezer\", \"oven\" and \"microwave\" are the same in both.",
-          "\"Do the washing-up\" is British for «fregar los platos»; Americans \"do the dishes\" (also common in Britain). Food words differ too: aubergine/eggplant, courgette/zucchini, coriander/cilantro, rocket/arugula, crisps/chips, sweets/candy, biscuit/cookie.",
+          "\"Do the washing-up\" is British for «lavar los platos»; Americans \"do the dishes\" (also common in Britain). Food words differ too: aubergine/eggplant, courgette/zucchini, coriander/cilantro, rocket/arugula, crisps/chips, sweets/candy, biscuit/cookie.",
         ],
         examples: [
           { es: "The tap in the kitchen is dripping.", en: "El grifo de la cocina gotea. (británico)" },
@@ -3805,7 +3805,7 @@ export const EN_C1_U16: Lesson[] = [
           { es: "Put the leftovers in the fridge and cover them with cling film.", en: "Mete las sobras en la nevera y tápalas con film transparente. (británico)" },
           { es: "Can you take out the trash?", en: "¿Puedes sacar la basura? (americano)" },
           { es: "Can you take the rubbish out?", en: "¿Puedes sacar la basura? (británico)" },
-          { es: "I'll do the washing-up.", en: "Yo friego los platos. (británico)" },
+          { es: "I'll do the washing-up.", en: "Yo lavo los platos. (británico)" },
           { es: "Chop the zucchini and the eggplant.", en: "Pica el calabacín y la berenjena. (americano)" },
         ],
         checkpoint: [
@@ -3919,7 +3919,7 @@ export const EN_C1_U16: Lesson[] = [
           "Americans give directions in blocks (\"two blocks down\"); the British usually count streets or landmarks (\"take the second left\").",
         ],
         examples: [
-          { es: "Is there a car park near the high street?", en: "¿Hay un aparcamiento cerca de la calle principal? (británico)" },
+          { es: "Is there a car park near the high street?", en: "¿Hay un estacionamiento cerca de la calle principal? (británico)" },
           { es: "Is there a parking lot near Main Street?", en: "¿Hay un estacionamiento cerca de la calle principal? (americano)" },
           { es: "Go straight on at the roundabout.", en: "Sigue recto en la rotonda. (británico)" },
           { es: "It's two blocks down, across from the gas station.", en: "Está dos cuadras más abajo, frente a la gasolinera. (americano)" },
@@ -3932,7 +3932,7 @@ export const EN_C1_U16: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into American English.",
-            source: "¿Hay un aparcamiento cerca de aquí?",
+            source: "¿Hay un estacionamiento cerca de aquí?",
             answer: "Is there a parking lot near here?",
             altAnswers: [
               "Is there a parking lot nearby?",
@@ -3976,7 +3976,7 @@ export const EN_C1_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into British English.",
-        source: "Tira esto a la basura y friega los platos, por favor.",
+        source: "Tira esto a la basura y lava los platos, por favor.",
         answer: "Put this in the bin and do the washing-up, please.",
         altAnswers: [
           "Throw this in the bin and do the washing-up, please.",
@@ -4067,7 +4067,7 @@ export const EN_C1_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into British English.",
-        source: "Hay una bolsa de patatas fritas y unas galletas en el armario de la cocina.",
+        source: "Hay una bolsa de papas fritas y unas galletas en el armario de la cocina.",
         answer: "There's a bag of crisps and some biscuits in the kitchen cupboard.",
         altAnswers: [
           "There is a bag of crisps and some biscuits in the kitchen cupboard.",

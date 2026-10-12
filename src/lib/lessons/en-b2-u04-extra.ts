@@ -206,7 +206,7 @@ export const EN_B2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence translates «¿Dónde estará mi móvil?»",
+        question: "Which sentence translates «¿Dónde estará mi celular?»",
         options: [
           "I wonder where my phone is.",
           "Where will be my phone?",

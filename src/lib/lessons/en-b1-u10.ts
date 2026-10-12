@@ -333,7 +333,7 @@ export const EN_B1_U10: Lesson[] = [
           "Again, use the present after \"as long as\" and \"provided\", not \"will\", and not a subjunctive-like form.",
         ],
         examples: [
-          { es: "You can borrow my car as long as you're careful.", en: "Puedes usar mi coche siempre que tengas cuidado." },
+          { es: "You can borrow my car as long as you're careful.", en: "Puedes usar mi carro siempre que tengas cuidado." },
           { es: "I'll lend you the money provided that you pay me back next week.", en: "Te prestaré el dinero con tal de que me lo devuelvas la semana que viene." },
           { es: "Hurry up, otherwise we'll miss the train.", en: "Date prisa, si no perderemos el tren." },
           { es: "Write it down, otherwise you'll forget.", en: "Apúntalo, que si no se te olvida." },
@@ -346,7 +346,7 @@ export const EN_B1_U10: Lesson[] = [
             sentence: "You can borrow my car ___ you're careful.",
             answer: "as long as",
             altAnswers: ["provided", "provided that", "providing", "so long as"],
-            en: "Puedes usar mi coche [siempre que] tengas cuidado.",
+            en: "Puedes usar mi carro [siempre que] tengas cuidado.",
             explanation: "«Siempre que» in the sense of a condition = \"as long as\" (or the more formal \"provided\"). It is followed by the present.",
           },
           {
@@ -469,8 +469,8 @@ export const EN_B1_U10: Lesson[] = [
           "\"Could\" is the past of \"can\", and in conditionals it means «podría». You don't need *would can (that doesn't exist).",
         ],
         examples: [
-          { es: "I don't have a car, so I can't visit you.", en: "No tengo coche, así que no puedo visitarte." },
-          { es: "If I had a car, I could visit you.", en: "Si tuviera coche, podría visitarte." },
+          { es: "I don't have a car, so I can't visit you.", en: "No tengo carro, así que no puedo visitarte." },
+          { es: "If I had a car, I could visit you.", en: "Si tuviera carro, podría visitarte." },
           { es: "She lives far away, so we don't see her much.", en: "Vive lejos, así que no la vemos mucho." },
           { es: "If she didn't live so far away, we'd see her more.", en: "Si no viviera tan lejos, la veríamos más." },
           { es: "I'm tired, so I won't go out.", en: "Estoy cansado, así que no voy a salir." },
@@ -481,10 +481,10 @@ export const EN_B1_U10: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Si tuviera coche, podría visitarte.",
+            source: "Si tuviera carro, podría visitarte.",
             answer: "If I had a car, I could visit you.",
             altAnswers: ["If I had a car, I would be able to visit you.", "I could visit you if I had a car."],
-            explanation: "«Podría» = \"could\" (never *would can). \"Car\" needs \"a\": English does not drop the article like «tener coche».",
+            explanation: "«Podría» = \"could\" (never *would can). \"Car\" needs \"a\": English does not drop the article like «tener carro».",
           },
         ],
       },
@@ -1111,7 +1111,7 @@ export const EN_B1_U10: Lesson[] = [
           { es: "What if you could live in any decade?", en: "¿Y si pudieras vivir en cualquier década?" },
           { es: "Imagine you could speak every language.", en: "Imagínate que pudieras hablar todos los idiomas." },
           { es: "Where would you live if you could choose?", en: "¿Dónde vivirías si pudieras elegir?" },
-          { es: "Suppose you lost your phone. What would you do?", en: "Supón que perdieras el móvil. ¿Qué harías?" },
+          { es: "Suppose you lost your phone. What would you do?", en: "Supón que perdieras el celular. ¿Qué harías?" },
         ],
         checkpoint: [
           {
@@ -1280,10 +1280,10 @@ export const EN_B1_U10: Lesson[] = [
         audio: "Suppose you lost your phone. What would you do?",
         question: "What did you hear?",
         options: [
-          "Supón que perdieras el móvil. ¿Qué harías?",
-          "Perdiste el móvil. ¿Qué hiciste?",
-          "Si pierdes el móvil, ¿qué harás?",
-          "Supón que hubieras perdido el móvil. ¿Qué habrías hecho?",
+          "Supón que perdieras el celular. ¿Qué harías?",
+          "Perdiste el celular. ¿Qué hiciste?",
+          "Si pierdes el celular, ¿qué harás?",
+          "Supón que hubieras perdido el celular. ¿Qué habrías hecho?",
         ],
         correctIndex: 0,
         explanation: "\"Suppose\" + past introduces an imaginary situation, then \"would\" for the result.",
@@ -1645,7 +1645,7 @@ export const EN_B1_U10: Lesson[] = [
         examples: [
           { es: "I WOULD help you, but I can't.", en: "Te ayudaría, de verdad, pero no puedo." },
           { es: "I DO want to come!", en: "¡Que sí quiero ir!" },
-          { es: "I didn't say SHE took it.", en: "Yo no dije que lo cogiera ella. (fue otra persona)" },
+          { es: "I didn't say SHE took it.", en: "Yo no dije que lo tomara ella. (fue otra persona)" },
           { es: "It wasn't MY idea.", en: "No fue idea mía." },
         ],
         checkpoint: [
@@ -1829,7 +1829,7 @@ export const EN_B1_U10: Lesson[] = [
         examples: [
           { es: "If we had left the hotel earlier, we wouldn't have missed the flight.", en: "Si hubiéramos salido del hotel antes, no habríamos perdido el vuelo." },
           { es: "If I hadn't packed my passport in my suitcase, I could have checked in.", en: "Si no hubiera metido el pasaporte en la maleta, habría podido facturar." },
-          { es: "If the taxi had come on time, we'd have caught the train.", en: "Si el taxi hubiera llegado a tiempo, habríamos cogido el tren." },
+          { es: "If the taxi had come on time, we'd have caught the train.", en: "Si el taxi hubiera llegado a tiempo, habríamos tomado el tren." },
           { es: "If we had checked the weather, we could have changed our plans.", en: "Si hubiéramos mirado el tiempo, podríamos haber cambiado los planes." },
         ],
         checkpoint: [
@@ -2031,7 +2031,7 @@ export const EN_B1_U10: Lesson[] = [
           { es: "I'd pay off my mortgage.", en: "Terminaría de pagar la hipoteca." },
           { es: "I'd invest in property.", en: "Invertiría en inmuebles." },
           { es: "I'd give half to charity.", en: "Daría la mitad a obras benéficas." },
-          { es: "We can't afford a new car.", en: "No nos podemos permitir un coche nuevo." },
+          { es: "We can't afford a new car.", en: "No nos podemos permitir un carro nuevo." },
           { es: "The jackpot is fifty million dollars.", en: "El bote es de cincuenta millones de dólares." },
         ],
         checkpoint: [
@@ -2123,7 +2123,7 @@ export const EN_B1_U10: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No nos podemos permitir un coche nuevo.",
+        source: "No nos podemos permitir un carro nuevo.",
         answer: "We can't afford a new car.",
         altAnswers: ["We cannot afford a new car."],
         explanation: "«Permitirse» (with money) = \"afford\". It takes a direct object: \"afford a car\".",

@@ -23,14 +23,14 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
         body: [
           "\"Download\" means bring a file from the internet to your device («descargar», «bajar»); \"upload\" is the opposite («subir»). You \"log in\" or \"sign in\" to an account you already have («iniciar sesión») and \"sign up\" to create one («registrarse»). \"Log out\" is «cerrar sesión».",
           "\"Back up\" (verb, two words) means make a copy of your files («hacer una copia de seguridad»); the noun is \"a backup\". \"Update\" a program or app means install the newest version («actualizar»).",
-          "A phone or laptop battery is \"charged\", never *loaded: \"I need to charge my phone\" («cargar el móvil»). \"Load\" is for pages and programs: \"The page won't load\" («no carga»).",
+          "A phone or laptop battery is \"charged\", never *loaded: \"I need to charge my phone\" («cargar el celular»). \"Load\" is for pages and programs: \"The page won't load\" («no carga»).",
         ],
         examples: [
           { es: "I downloaded the app last night.", en: "Me descargué la aplicación anoche." },
           { es: "She uploaded the photos to the cloud.", en: "Subió las fotos a la nube." },
           { es: "You need to sign up before you can log in.", en: "Tienes que registrarte antes de poder iniciar sesión." },
-          { es: "Do you back up your phone?", en: "¿Haces copias de seguridad del móvil?" },
-          { es: "My phone is dead. Can I charge it here?", en: "Me he quedado sin batería. ¿Puedo cargar el móvil aquí? (incorrecto: *load it)" },
+          { es: "Do you back up your phone?", en: "¿Haces copias de seguridad del celular?" },
+          { es: "My phone is dead. Can I charge it here?", en: "Me he quedado sin batería. ¿Puedo cargar el celular aquí? (incorrecto: *load it)" },
         ],
         checkpoint: [
           {
@@ -467,7 +467,7 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
           { es: "Solar power is a type of renewable energy.", en: "La energía solar es un tipo de energía renovable." },
           { es: "Don't waste water.", en: "No desperdicies agua." },
           { es: "We produce too much food waste.", en: "Producimos demasiados residuos alimentarios." },
-          { es: "Most cars still run on fossil fuels.", en: "La mayoría de los coches todavía funcionan con combustibles fósiles." },
+          { es: "Most cars still run on fossil fuels.", en: "La mayoría de los carros todavía funcionan con combustibles fósiles." },
         ],
         checkpoint: [
           {
@@ -617,7 +617,7 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "The town has cut its emissions by thirty percent since it switched to solar power.",
         question: "What happened in the town?",
-        options: ["Redujo sus emisiones un 30 % al pasarse a la energía solar.", "Sus emisiones subieron un 30 %.", "Cerró su central solar.", "Prohibió los coches de gasolina."],
+        options: ["Redujo sus emisiones un 30 % al pasarse a la energía solar.", "Sus emisiones subieron un 30 %.", "Cerró su central solar.", "Prohibió los carros de gasolina."],
         correctIndex: 0,
         explanation: "\"Cut its emissions by thirty percent\" = «redujo sus emisiones un 30 %». \"Switch to\" = «pasarse a».",
       },

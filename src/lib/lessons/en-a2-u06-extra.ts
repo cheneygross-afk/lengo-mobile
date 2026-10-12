@@ -564,7 +564,7 @@ export const EN_A2_U06_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Ordena las palabras.",
         words: ["How", "long", "have", "you", "had", "that", "car?"],
-        translation: "¿Cuánto tiempo hace que tienes ese coche?",
+        translation: "¿Cuánto tiempo hace que tienes ese carro?",
         explanation: "\"How long\" + \"have\" + sujeto + participio (\"had\").",
       },
       {

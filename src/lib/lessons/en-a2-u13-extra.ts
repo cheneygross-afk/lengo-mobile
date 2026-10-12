@@ -606,7 +606,7 @@ export const EN_A2_U13_EXTRA: Lesson[] = [
         source: "Se enojó conmigo.",
         answer: "He got angry with me.",
         altAnswers: ["She got angry with me.", "He got mad at me.", "She got mad at me.", "He got angry at me.", "She got angry at me."],
-        explanation: "«Enojarse» o «enfadarse» es \"get angry\" (o \"get mad\", más coloquial). «Conmigo» es \"with me\" o \"at me\".",
+        explanation: "«Enojarse» es \"get angry\" (o \"get mad\", más coloquial). «Conmigo» es \"with me\" o \"at me\".",
       },
       {
         type: "matching",
@@ -633,9 +633,9 @@ export const EN_A2_U13_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "She got a new job and got a car.",
         question: "¿Qué has oído?",
-        options: ["Consiguió un trabajo nuevo y se compró un coche.", "Consiguió un coche nuevo y un trabajo.", "Llegó al trabajo nuevo en coche.", "Perdió el trabajo y el coche."],
+        options: ["Consiguió un trabajo nuevo y se compró un carro.", "Consiguió un carro nuevo y un trabajo.", "Llegó al trabajo nuevo en carro.", "Perdió el trabajo y el carro."],
         correctIndex: 0,
-        explanation: "\"Got a job\" es «consiguió un trabajo» y \"got a car\" es «se compró un coche»: dos usos de \"get\".",
+        explanation: "\"Got a job\" es «consiguió un trabajo» y \"got a car\" es «se compró un carro»: dos usos de \"get\".",
       },
       {
         type: "dictation",

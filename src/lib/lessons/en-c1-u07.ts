@@ -20,7 +20,7 @@ export const EN_C1_U07: Lesson[] = [
           "These clauses belong mainly to written and formal English: stories, reports, the news. In conversation, a full clause with \"because\", \"when\" or \"so\" is usually more natural.",
         ],
         examples: [
-          { es: "Feeling tired, she went to bed early.", en: "Como estaba cansada, se fue pronto a la cama." },
+          { es: "Feeling tired, she went to bed early.", en: "Como estaba cansada, se fue temprano a la cama." },
           { es: "Opening the door, he saw a stranger in the hallway.", en: "Al abrir la puerta, vio a un desconocido en el pasillo." },
           { es: "Not knowing what to say, I kept quiet.", en: "Como no sabía qué decir, me quedé callado." },
           { es: "She walked out, slamming the door behind her.", en: "Salió dando un portazo." },
@@ -129,7 +129,7 @@ export const EN_C1_U07: Lesson[] = [
             sentence: "___ the instructions, I couldn't put the desk together.",
             answer: "Not having read",
             altAnswers: ["Having not read"],
-            en: "[Como no había leído] las instrucciones, no pude montar el escritorio.",
+            en: "[Como no había leído] las instrucciones, no pude armar el escritorio.",
             explanation: "A negative earlier action: \"Not having read\". \"Not\" normally goes at the very start of the clause.",
           },
         ],
@@ -404,7 +404,7 @@ export const EN_C1_U07: Lesson[] = [
             sentence: "With interest rates ___, buying a home is getting harder.",
             answer: "rising",
             altAnswers: ["going up", "increasing"],
-            en: "Con los tipos de interés [subiendo], comprar una vivienda es cada vez más difícil.",
+            en: "Con las tasas de interés [subiendo], comprar una vivienda es cada vez más difícil.",
             explanation: "\"With\" + noun + -ing: the interest rates are doing the action, so active -ing. No auxiliary: not *with interest rates are rising.",
           },
           {
@@ -486,7 +486,7 @@ export const EN_C1_U07: Lesson[] = [
         examples: [
           { es: "While waiting for the bus, I read the news.", en: "Mientras esperaba el autobús, leí las noticias." },
           { es: "Please switch off the lights before leaving.", en: "Por favor, apaguen las luces antes de salir." },
-          { es: "Once completed, the form should be returned to reception.", en: "Una vez cumplimentado, el formulario debe devolverse en recepción." },
+          { es: "Once completed, the form should be returned to reception.", en: "Una vez llenado, el formulario debe devolverse en recepción." },
           { es: "When asked about the deal, she refused to comment.", en: "Cuando le preguntaron por el acuerdo, se negó a hacer comentarios." },
           { es: "If necessary, we can postpone the launch.", en: "Si es necesario, podemos aplazar el lanzamiento." },
           { es: "Unless otherwise stated, all prices include tax.", en: "Salvo que se indique lo contrario, todos los precios incluyen impuestos." },
@@ -524,7 +524,7 @@ export const EN_C1_U07: Lesson[] = [
           "Having read the reviews, we decided to book the hotel.",
           "Having read the reviews, the hotel seemed perfect.",
           "Driving to work, a deer jumped in front of my car.",
-          "Being a rainy day, the match was cancelled.",
+          "Being a rainy day, the match was canceled.",
         ],
         correctIndex: 0,
         explanation: "Only in the first option is the subject (\"we\") the one who read. A hotel cannot read, a deer was not driving, and \"Being a rainy day\" needs \"It being a rainy day\" or \"As it was a rainy day\".",
@@ -533,7 +533,7 @@ export const EN_C1_U07: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Con el paro aumentando, el gobierno está bajo una gran presión.",
+        source: "Con el desempleo aumentando, el gobierno está bajo una gran presión.",
         answer: "With unemployment rising, the government is under a lot of pressure.",
         altAnswers: [
           "With unemployment rising, the government is under great pressure.",
@@ -546,7 +546,7 @@ export const EN_C1_U07: Lesson[] = [
           "With unemployment on the rise, the government is under great pressure.",
           "With unemployment rising, the government is coming under a lot of pressure.",
         ],
-        explanation: "\"With\" + noun + -ing gives the background reason. «Paro» is \"unemployment\" (uncountable, no article).",
+        explanation: "\"With\" + noun + -ing gives the background reason. «Desempleo» is \"unemployment\" (uncountable, no article).",
       },
       {
         type: "fill-blank",
@@ -577,10 +577,10 @@ export const EN_C1_U07: Lesson[] = [
         type: "multiple-choice",
         question: "Which sentence is correct?",
         options: [
-          "Judging by the queue, the restaurant must be good.",
-          "Judged by the queue, the restaurant must be good.",
-          "To judging by the queue, the restaurant must be good.",
-          "Judging for the queue, the restaurant must be good.",
+          "Judging by the line, the restaurant must be good.",
+          "Judged by the line, the restaurant must be good.",
+          "To judging by the line, the restaurant must be good.",
+          "Judging for the line, the restaurant must be good.",
         ],
         correctIndex: 0,
         explanation: "\"Judging by\" (or \"judging from\") is a fixed expression that may dangle: it refers to the speaker's judgment, not to the restaurant.",
@@ -755,11 +755,11 @@ export const EN_C1_U07: Lesson[] = [
         body: [
           "A participle clause does not say whether it means \"because\", \"when\", \"after\" or \"if\": the context decides. \"Turning the corner, I saw the sea\" = when I turned. \"Having no money, I walked home\" = because I had no money. \"Used carefully, this tool will last for years\" = if it is used carefully.",
           "When a text is dense, mentally rebuild the full clause: add the subject from the main clause and choose the conjunction that makes sense. This also helps you translate: Spanish often needs «como», «al», «si» or «después de» where English has only a participle.",
-          "Pay attention to the form: \"having\" + participle always means \"before\"; a past participle always means passive; \"being\" + participle means a passive reason (\"Being watched, he felt nervous\" = because he was being watched).",
+          "Pay attention to the form: \"having\" + participle marks an action completed before the main one; a past participle usually has a passive meaning; \"being\" + participle means a passive reason (\"Being watched, he felt nervous\" = because he was being watched).",
         ],
         examples: [
           { es: "Turning the corner, I saw the sea.", en: "Al doblar la esquina, vi el mar." },
-          { es: "Having no money, I walked home.", en: "Como no tenía dinero, volví a casa andando." },
+          { es: "Having no money, I walked home.", en: "Como no tenía dinero, volví a casa caminando." },
           { es: "Used carefully, this tool will last for years.", en: "Si se usa con cuidado, esta herramienta durará años." },
           { es: "Being watched, he felt nervous.", en: "Como lo estaban observando, se sentía nervioso." },
           { es: "Left alone, the dog starts barking.", en: "Cuando lo dejan solo, el perro se pone a ladrar." },
@@ -801,8 +801,8 @@ export const EN_C1_U07: Lesson[] = [
         ],
         examples: [
           { es: "As it was a holiday, the shops were closed.", en: "Como era festivo, las tiendas estaban cerradas." },
-          { es: "I missed the bus, so I had to walk.", en: "Perdí el autobús, así que tuve que ir andando." },
-          { es: "If damaged, the item will be replaced free of charge.", en: "Si está dañado, el artículo se sustituirá sin coste alguno." },
+          { es: "I missed the bus, so I had to walk.", en: "Perdí el autobús, así que tuve que irme caminando." },
+          { es: "If damaged, the item will be replaced free of charge.", en: "Si está dañado, el artículo se sustituirá sin costo alguno." },
           { es: "Because I didn't have my keys, I waited in the coffee shop.", en: "Como no tenía las llaves, esperé en la cafetería." },
         ],
         checkpoint: [
@@ -816,7 +816,7 @@ export const EN_C1_U07: Lesson[] = [
               "Being with a terrible headache, I stayed in.",
             ],
             correctIndex: 0,
-            explanation: "In a casual dialogue, a full clause with \"so\" is natural. The second option is correct but too formal; the third dangles; the fourth calques «estando con dolor de cabeza».",
+            explanation: "In a casual dialogue, a full clause with \"so\" is natural. \"Having had a terrible headache\" is correct but too formal; in \"Suffering from a terrible headache, staying in was best\" the participle dangles; \"Being with a terrible headache\" calques «estando con dolor de cabeza».",
           },
           {
             type: "translate",
@@ -867,7 +867,7 @@ export const EN_C1_U07: Lesson[] = [
           "Arrested on Monday, the trial will be held in March.",
         ],
         correctIndex: 0,
-        explanation: "The suspect was arrested (passive), so \"Arrested...\". In the last option the participle dangles: the trial was not arrested.",
+        explanation: "The suspect was arrested (passive), so \"Arrested...\". \"Arresting\" and \"Having arrested\" are active (the suspect did not arrest anyone), and in \"Arrested on Monday, the trial...\" the participle dangles: the trial was not arrested.",
       },
       {
         type: "fill-blank",
@@ -940,7 +940,7 @@ export const EN_C1_U07: Lesson[] = [
           "Being in a meeting with my phone off.",
         ],
         correctIndex: 0,
-        explanation: "Informal text: use full clauses. Options two and three dangle (the phone was not in a meeting), and the last one is not a sentence.",
+        explanation: "Informal text: use full clauses. \"Being in a meeting, my phone was off\" and \"Having been in a meeting, my phone was switched off\" dangle (the phone was not in a meeting), and \"Being in a meeting with my phone off\" is not a sentence.",
       },
       {
         type: "word-order",
@@ -1068,7 +1068,7 @@ export const EN_C1_U07: Lesson[] = [
               "Having caught a cold, my plan is to stay in.",
             ],
             correctIndex: 0,
-            explanation: "An informal text needs a full clause. Options two and four dangle, and option three calques «estando con un resfriado». Review Participle Clauses in Practice.",
+            explanation: "An informal text needs a full clause. \"Having a cold, staying in is my plan\" and \"Having caught a cold, my plan is to stay in\" dangle, and \"Being with a cold\" calques «estando con un resfriado». Review Participle Clauses in Practice.",
           },
         ],
       },
@@ -1265,10 +1265,10 @@ export const EN_C1_U07: Lesson[] = [
             type: "multiple-choice",
             question: "Which sentence is correct?",
             options: [
-              "The colleague with whom I share an office is on holiday.",
-              "The colleague with who I share an office is on holiday.",
-              "The colleague with that I share an office is on holiday.",
-              "The colleague with which I share an office is on holiday.",
+              "The colleague with whom I share an office is on vacation.",
+              "The colleague with who I share an office is on vacation.",
+              "The colleague with that I share an office is on vacation.",
+              "The colleague with which I share an office is on vacation.",
             ],
             correctIndex: 0,
             explanation: "After a preposition, use \"whom\" for people and \"which\" for things. \"Who\" and \"that\" cannot follow a preposition.",
@@ -1502,7 +1502,7 @@ export const EN_C1_U07: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["He", "has", "two", "cars,", "neither", "of", "which", "works."],
-        translation: "Tiene dos coches y no le funciona ninguno.",
+        translation: "Tiene dos carros y no le funciona ninguno.",
         explanation: "\"Neither of which\" = «ninguno de los cuales» for two things.",
       },
       {
@@ -1723,7 +1723,7 @@ export const EN_C1_U07: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El concierto se canceló a última hora, lo cual enfadó mucho a los fans.",
+        source: "El concierto se canceló a última hora, lo cual enojó mucho a los fans.",
         answer: "The concert was cancelled at the last minute, which made the fans very angry.",
         altAnswers: [
           "The concert was cancelled at the last minute, which really annoyed the fans.",
@@ -1886,7 +1886,7 @@ export const EN_C1_U07: Lesson[] = [
           { es: "Sales fell by 12%, which suggests that demand is weakening.", en: "Las ventas cayeron un 12 %, lo que indica que la demanda se está debilitando." },
           { es: "The study examines the extent to which social media affects sleep.", en: "El estudio analiza hasta qué punto las redes sociales afectan al sueño." },
           { es: "We need to rethink the way in which we train new staff.", en: "Tenemos que replantearnos la manera en que formamos al nuevo personal." },
-          { es: "Unemployment reached 9%, a figure which had not been seen since 2013.", en: "El paro llegó al 9 %, una cifra que no se veía desde 2013." },
+          { es: "Unemployment reached 9%, a figure which had not been seen since 2013.", en: "El desempleo llegó al 9 %, una cifra que no se veía desde 2013." },
         ],
         checkpoint: [
           {
@@ -1951,7 +1951,7 @@ export const EN_C1_U07: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "El piso tiene tres habitaciones, una de las cuales da al mar.",
+            source: "El departamento tiene tres habitaciones, una de las cuales da al mar.",
             answer: "The apartment has three bedrooms, one of which overlooks the sea.",
             altAnswers: [
               "The flat has three bedrooms, one of which overlooks the sea.",
@@ -1993,7 +1993,7 @@ export const EN_C1_U07: Lesson[] = [
               "That's the woman who I share an office with her.",
             ],
             correctIndex: 0,
-            explanation: "In conversation, the preposition goes at the end and the pronoun is dropped. The second option is correct but far too formal for a chat; the last two are wrong.",
+            explanation: "In conversation, the preposition goes at the end and the pronoun is dropped. \"with whom I share an office\" is correct but far too formal for a chat; \"with who\" is wrong after a preposition, and \"who I share an office with her\" repeats the pronoun.",
           },
           {
             type: "translate",
@@ -2083,7 +2083,7 @@ export const EN_C1_U07: Lesson[] = [
           "two of them have already answered me.",
         ],
         correctIndex: 0,
-        explanation: "In a chat, \"and\" + \"two of them\" is natural. Option two uses \"whom\" for jobs; option three is far too formal; option four is a comma splice.",
+        explanation: "In a chat, \"and\" + \"two of them\" is natural. \"two of whom\" uses \"whom\" for jobs; \"from two of which\" is far too formal; \"two of them have already answered me\" is a comma splice.",
       },
       {
         type: "translate",
@@ -2144,7 +2144,7 @@ export const EN_C1_U07: Lesson[] = [
           "Uses \"where\" or \"in which\" without a repeated preposition",
           "No resumptive pronouns (*that I visited it)",
         ],
-        modelAnswer: "Valverde is a small city in the north of Spain whose old town dates back to the twelfth century. It has around forty churches, most of which can be visited for free. The main square, where locals meet in the evenings, is surrounded by coffee shops and bookstores. Every August the city holds a music festival, which attracts thousands of visitors, many of whom come from abroad. It is a place in which history and modern life coexist surprisingly well.",
+        modelAnswer: "Valverde is a small city in the north of Spain whose old town dates back to the twelfth century. It has around forty churches, most of which can be visited for free. The main square, where locals meet in the evenings, is surrounded by coffee shops and bookstores. Every August the city holds a music festival, which means that its streets fill with thousands of visitors, many of whom come from abroad. It is a place in which history and modern life coexist surprisingly well.",
         explanation: "Check each relative: \"whom\" for people, \"which\" for things, a comma before non-defining clauses, and no extra pronoun inside the clause.",
       },
     ],
@@ -2186,7 +2186,7 @@ export const EN_C1_U07: Lesson[] = [
           "«Todo lo que» = \"everything (that)\"; \"whatever / whoever / whichever\" = «lo que / quien / el que sea». If you miss these, review Advanced Relative Clauses, Part 2.",
         ],
         examples: [
-          { es: "The shop closed early, which meant we couldn't buy anything.", en: "La tienda cerró pronto, lo que hizo que no pudiéramos comprar nada." },
+          { es: "The shop closed early, which meant we couldn't buy anything.", en: "La tienda cerró temprano, lo que hizo que no pudiéramos comprar nada." },
           { es: "There's an agreement whereby both countries share the data.", en: "Hay un acuerdo por el cual ambos países comparten los datos." },
           { es: "Everything he told me turned out to be false.", en: "Todo lo que me dijo resultó ser falso." },
         ],
@@ -2343,7 +2343,7 @@ export const EN_C1_U07: Lesson[] = [
           "He's the guy with who I play tennis.",
         ],
         correctIndex: 0,
-        explanation: "Casual speech: preposition at the end, no pronoun. Option two is correct but too formal. Review Advanced Relative Clauses in Practice.",
+        explanation: "Casual speech: preposition at the end, no pronoun. \"with whom I play tennis\" is correct but too formal; \"who I play tennis with him\" repeats the pronoun, and \"with who\" is wrong after a preposition. Review Advanced Relative Clauses in Practice.",
       },
       {
         type: "translate",
@@ -2550,7 +2550,7 @@ export const EN_C1_U07: Lesson[] = [
           { es: "I regret telling her the truth.", en: "Me arrepiento de haberle dicho la verdad." },
           { es: "We regret to inform you that your application has been unsuccessful.", en: "Lamentamos comunicarle que su solicitud no ha sido aceptada." },
           { es: "He stopped to buy some water.", en: "Se paró a comprar agua." },
-          { es: "Try restarting the computer.", en: "Prueba a reiniciar la computadora." },
+          { es: "Try restarting the computer.", en: "Intenta reiniciar la computadora." },
           { es: "I didn't mean to upset you.", en: "No era mi intención molestarte." },
           { es: "She went on to become a famous architect.", en: "Más adelante llegó a ser una arquitecta famosa." },
         ],
@@ -2615,7 +2615,7 @@ export const EN_C1_U07: Lesson[] = [
         sentence: "Nobody enjoys ___ in public.",
         answer: "being criticized",
         en: "A nadie le gusta [que lo critiquen] en público.",
-        altAnswers: ["being criticised", "being told off"],
+        altAnswers: ["being criticised"],
         explanation: "\"Enjoy\" takes a gerund; the subject receives the action, so passive gerund \"being criticized\".",
       },
       {
@@ -2635,12 +2635,12 @@ export const EN_C1_U07: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Me arrepiento de no haber estudiado más en la universidad.",
-        answer: "I regret not studying more at university.",
+        answer: "I regret not studying more in college.",
         altAnswers: [
           "I regret not having studied more at university.",
           "I regret not studying harder at university.",
           "I regret not having studied harder at university.",
-          "I regret not studying more in college.",
+          "I regret not studying more at university.",
           "I regret not having studied more in college.",
           "I regret not studying harder in college.",
           "I regret not having studied harder in college.",
@@ -2762,8 +2762,8 @@ export const EN_C1_U07: Lesson[] = [
         examples: [
           { es: "Who's the man sitting by the window?", en: "¿Quién es el hombre sentado junto a la ventana?" },
           { es: "People living near the airport complain about the noise.", en: "La gente que vive cerca del aeropuerto se queja del ruido." },
-          { es: "Take the road leading to the coast.", en: "Coge la carretera que lleva a la costa." },
-          { es: "The man who stole the car yesterday has been arrested.", en: "El hombre que robó el coche ayer ha sido detenido. (incorrecto: *the man stealing the car yesterday)" },
+          { es: "Take the road leading to the coast.", en: "Toma la carretera que lleva a la costa." },
+          { es: "The man who stole the car yesterday has been arrested.", en: "El hombre que robó el carro ayer ha sido detenido. (incorrecto: *the man stealing the car yesterday)" },
           { es: "Anyone wishing to attend should register by Friday.", en: "Quien desee asistir debe inscribirse antes del viernes." },
         ],
         checkpoint: [
@@ -2893,8 +2893,8 @@ export const EN_C1_U07: Lesson[] = [
           "In non-defining clauses, reduction is possible but formal: \"The report, which was published yesterday, ...\" > \"The report, published yesterday, ...\".",
         ],
         examples: [
-          { es: "The book I read on holiday was excellent.", en: "El libro que leí en vacaciones era excelente." },
-          { es: "We're looking for people who can drive.", en: "Buscamos personas que sepan conducir." },
+          { es: "The book I read on vacation was excellent.", en: "El libro que leí en vacaciones era excelente." },
+          { es: "We're looking for people who can drive.", en: "Buscamos personas que sepan manejar." },
           { es: "The students who will graduate in June must register now.", en: "Los alumnos que se gradúen en junio deben inscribirse ya." },
           { es: "The report, published yesterday, has caused controversy.", en: "El informe, publicado ayer, ha causado polémica." },
         ],
@@ -3019,7 +3019,7 @@ export const EN_C1_U07: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Las casas que se construirán junto al río serán de alquiler social.",
-        answer: "The houses to be built next to the river will be social housing.",
+        answer: "The houses to be built next to the river will be public housing.",
         altAnswers: [
           "The houses that will be built next to the river will be social housing.",
           "The houses which will be built next to the river will be social housing.",
@@ -3027,7 +3027,7 @@ export const EN_C1_U07: Lesson[] = [
           "The houses that will be built by the river will be social housing.",
           "The houses to be built along the river will be social housing.",
           "The houses to be built next to the river will be affordable rental housing.",
-          "The houses to be built next to the river will be public housing.",
+          "The houses to be built next to the river will be social housing.",
           "The homes to be built next to the river will be social housing.",
           "The houses to be built next to the river will be for social rent.",
           "The houses that will be built next to the river will be for social rent.",
@@ -3131,7 +3131,7 @@ export const EN_C1_U07: Lesson[] = [
         examples: [
           { es: "The book I read was boring.", en: "El libro que leí era aburrido." },
           { es: "The colleague I work with is Brazilian.", en: "La compañera con la que trabajo es brasileña." },
-          { es: "The friend whose car we borrowed is abroad.", en: "El amigo cuyo coche nos prestaron está en el extranjero." },
+          { es: "The friend whose car we borrowed is abroad.", en: "El amigo cuyo carro nos prestaron está en el extranjero." },
         ],
         checkpoint: [
           {
@@ -3177,7 +3177,7 @@ export const EN_C1_U07: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "We met several local artists, ___ invited us to their studios.",
             answer: "some of whom",
-            altAnswers: ["a few of whom", "several of whom", "one of whom", "most of whom"],
+            altAnswers: ["a few of whom", "several of whom"],
             en: "Conocimos a varios artistas locales, [algunos de los cuales] nos invitaron a sus talleres.",
             explanation: "People after \"of\": \"whom\". *Some of who is the error to avoid.",
           },
@@ -3289,7 +3289,7 @@ export const EN_C1_U07: Lesson[] = [
           "The club, which it was founded in 1890, is one of the oldest in the country.",
         ],
         correctIndex: 0,
-        explanation: "Option two dangles (\"they\" were not founded), option three uses \"that\" after a comma, and option four has an extra \"it\".",
+        explanation: "\"Founded in 1890, they built...\" dangles (\"they\" were not founded), \"The club, that was founded...\" uses \"that\" after a comma, and \"which it was founded\" has an extra \"it\".",
       },
       {
         type: "translate",
@@ -3319,7 +3319,7 @@ export const EN_C1_U07: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The colleague ___ I share a desk is on maternity leave.",
         answer: "with whom",
-        en: "La compañera [con la que] comparto mesa está de baja por maternidad.",
+        en: "La compañera [con la que] comparto mesa está de licencia por maternidad.",
         explanation: "Preposition + \"whom\" for people. *With who and *with that are wrong; informally, \"the colleague I share a desk with\".",
       },
       {
@@ -3374,7 +3374,7 @@ export const EN_C1_U07: Lesson[] = [
               "Built in the 12th century, they turned the castle into a hotel.",
             ],
             correctIndex: 0,
-            explanation: "Passive meaning: past participle. In the last option the participle dangles (\"they\" were not built).",
+            explanation: "Passive meaning: past participle. \"Building\" and \"Having built\" are active (the castle built nothing), and in \"Built in the 12th century, they turned...\" the participle dangles (\"they\" were not built).",
           },
           {
             type: "translate",
@@ -3442,7 +3442,7 @@ export const EN_C1_U07: Lesson[] = [
               "We tested ten apps, which none met our needs.",
             ],
             correctIndex: 0,
-            explanation: "Quantifier relative for things: \"none of which\". Option two is a comma splice; \"whom\" is for people.",
+            explanation: "Quantifier relative for things: \"none of which\". \"none of them met our needs\" is a comma splice; \"none of whom\" is for people; \"which none\" is not English.",
           },
           {
             type: "word-order",
@@ -3549,7 +3549,7 @@ export const EN_C1_U07: Lesson[] = [
           "The concert, which disappointed thousands of fans, was cancelled.",
         ],
         correctIndex: 0,
-        explanation: "\"This\" referred to the whole first sentence, so use comment \"which\". Option four changes the meaning: the concert itself disappointed the fans.",
+        explanation: "\"This\" referred to the whole first sentence, so use comment \"which\". \"what\" and \"that\" cannot introduce a comment clause after a comma, and \"The concert, which disappointed thousands of fans, was cancelled\" changes the meaning: the concert itself disappointed the fans.",
       },
       {
         type: "translate",
@@ -3639,8 +3639,8 @@ export const EN_C1_U07: Lesson[] = [
           "Commas can change the meaning: \"The students who passed got a certificate\" (only some passed) vs \"The students, who passed, got a certificate\" (all of them passed). Spanish makes the same distinction, so use your Spanish intuition about the commas.",
         ],
         examples: [
-          { es: "The car I bought last year has already broken down.", en: "El coche que compré el año pasado ya se ha averiado." },
-          { es: "My car, which I bought in 2020, still runs perfectly.", en: "Mi coche, que compré en 2020, sigue funcionando perfectamente." },
+          { es: "The car I bought last year has already broken down.", en: "El carro que compré el año pasado ya se ha averiado." },
+          { es: "My car, which I bought in 2020, still runs perfectly.", en: "Mi carro, que compré en 2020, sigue funcionando perfectamente." },
           { es: "The students who passed got a certificate.", en: "Los alumnos que aprobaron recibieron un certificado." },
           { es: "The students, who all passed, got a certificate.", en: "Los alumnos, que aprobaron todos, recibieron un certificado." },
         ],
@@ -3788,7 +3788,7 @@ export const EN_C1_U07: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "All the data ___ in this study is anonymous.",
         answer: "used",
-        altAnswers: ["collected", "that is used", "which is used", "that was used", "which was used"],
+        altAnswers: ["that is used", "which is used", "that was used", "which was used"],
         en: "Todos los datos [utilizados] en este estudio son anónimos.",
         explanation: "Reduced passive relative: \"the data (that is) used\". Spanish «utilizados» works exactly the same way.",
       },
@@ -4006,7 +4006,7 @@ export const EN_C1_U07: Lesson[] = [
         heading: "Waste and taking action",
         body: [
           "\"Landfill\" is a place where rubbish is buried («vertedero») and also the method itself: \"Most of our waste ends up in landfill.\" \"Waste\" (uncountable) is the general word for «residuos»: \"plastic waste\", \"food waste\", \"waste management\".",
-          "Collocations for action: \"take measures\" or \"take steps\" (not *make measures), \"tackle\" / \"combat\" / \"address\" climate change, \"raise awareness\" («concienciar»).",
+          "Collocations for action: \"take measures\" or \"take steps\" (not *make measures), \"tackle\" / \"combat\" / \"address\" climate change, \"raise awareness\" («concientizar»).",
           "\"Mitigate\" (formal) means to make something less severe («mitigar», «paliar»): \"mitigate the effects of climate change\". It is different from \"adapt to\": mitigation reduces the cause; adaptation helps us live with the consequences.",
         ],
         examples: [
@@ -4014,7 +4014,7 @@ export const EN_C1_U07: Lesson[] = [
           { es: "The government must take urgent measures.", en: "El gobierno debe tomar medidas urgentes." },
           { es: "We need a global plan to tackle climate change.", en: "Necesitamos un plan global para combatir el cambio climático." },
           { es: "Planting trees can help mitigate the effects of heatwaves.", en: "Plantar árboles puede ayudar a mitigar los efectos de las olas de calor." },
-          { es: "The campaign aims to raise awareness about food waste.", en: "La campaña pretende concienciar sobre el desperdicio de alimentos." },
+          { es: "The campaign aims to raise awareness about food waste.", en: "La campaña busca concientizar sobre el desperdicio de alimentos." },
         ],
         checkpoint: [
           {
@@ -4030,7 +4030,7 @@ export const EN_C1_U07: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Hay que concienciar a la gente sobre el desperdicio de alimentos.",
+            source: "Hay que concientizar a la gente sobre el desperdicio de alimentos.",
             answer: "We need to raise awareness about food waste.",
             altAnswers: [
               "We need to raise awareness of food waste.",
@@ -4146,8 +4146,8 @@ export const EN_C1_U07: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the bold words in English.",
         sentence: "Every year, millions of tons of plastic end up in ___.",
-        answer: "landfill",
-        altAnswers: ["landfills", "landfill sites", "the landfill"],
+        answer: "landfills",
+        altAnswers: ["landfill", "landfill sites", "the landfill"],
         en: "Cada año, millones de toneladas de plástico acaban en [vertederos].",
         explanation: "\"End up in landfill\" (British, uncountable) or \"in landfills\" (common in American English).",
       },
@@ -4327,7 +4327,7 @@ export const EN_C1_U07: Lesson[] = [
           { es: "Safety is our top priority.", en: "La seguridad es nuestra máxima prioridad." },
           { es: "We need to prioritize the most urgent cases.", en: "Tenemos que dar prioridad a los casos más urgentes." },
           { es: "Ana and Tom are 20 and 25, respectively.", en: "Ana y Tom tienen 20 y 25 años, respectivamente." },
-          { es: "They reached an agreement whereby both sides share the costs.", en: "Llegaron a un acuerdo por el cual ambas partes comparten los costes." },
+          { es: "They reached an agreement whereby both sides share the costs.", en: "Llegaron a un acuerdo por el cual ambas partes comparten los costos." },
         ],
         checkpoint: [
           {
@@ -4407,7 +4407,7 @@ export const EN_C1_U07: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La sanidad y la educación son los temas principales de la campaña.",
+        source: "La salud pública y la educación son los temas principales de la campaña.",
         answer: "Healthcare and education are the main issues of the campaign.",
         altAnswers: [
           "Healthcare and education are the main issues in the campaign.",
@@ -4426,7 +4426,7 @@ export const EN_C1_U07: Lesson[] = [
         type: "multiple-choice",
         question: "Which sentence uses \"notion\" correctly?",
         options: [
-          "Many people still believe the notion that we only use 10% of our brains.",
+          "Many people still cling to the notion that we only use 10% of our brains.",
           "I have some notions of Italian.",
           "She has good notions of cooking.",
           "We need basic notions of first aid to apply.",

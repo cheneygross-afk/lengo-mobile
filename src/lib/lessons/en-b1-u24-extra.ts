@@ -27,7 +27,7 @@ export const EN_B1_U24_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "This coat is too expensive.", en: "Este abrigo es demasiado caro." },
-          { es: "You're driving too fast.", en: "Estás conduciendo demasiado rápido." },
+          { es: "You're driving too fast.", en: "Estás manejando demasiado rápido." },
           { es: "There's too much salt in the soup.", en: "Hay demasiada sal en la sopa." },
           { es: "There are too many people here.", en: "Hay demasiada gente aquí." },
           { es: "He talks too much.", en: "Habla demasiado." },
@@ -53,7 +53,7 @@ export const EN_B1_U24_EXTRA: Lesson[] = [
           { es: "The room isn't big enough.", en: "La habitación no es lo bastante grande." },
           { es: "We don't have enough chairs.", en: "No tenemos suficientes sillas." },
           { es: "Is there enough time?", en: "¿Hay tiempo suficiente?" },
-          { es: "She's old enough to drive.", en: "Tiene edad suficiente para conducir." },
+          { es: "She's old enough to drive.", en: "Tiene edad suficiente para manejar." },
           { es: "It's too cold for me to swim.", en: "Hace demasiado frío para que yo nade." },
         ],
         checkpoint: [
@@ -138,9 +138,9 @@ export const EN_B1_U24_EXTRA: Lesson[] = [
         pairs: [
           { left: "too hot", right: "demasiado caliente" },
           { left: "too much traffic", right: "demasiado tráfico" },
-          { left: "too many cars", right: "demasiados coches" },
+          { left: "too many cars", right: "demasiados carros" },
           { left: "hot enough", right: "lo bastante caliente" },
-          { left: "enough cars", right: "suficientes coches" },
+          { left: "enough cars", right: "suficientes carros" },
         ],
         explanation: "\"Too\" + adjective, \"too much\" + uncountable, \"too many\" + plural; adjective + \"enough\", \"enough\" + noun.",
       },
@@ -310,7 +310,7 @@ export const EN_B1_U24_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Why are you ___ angry?",
         answer: "so",
-        en: "¿Por qué estás [tan] enfadado?",
+        en: "¿Por qué estás [tan] enojado?",
         explanation: "Adjective alone → \"so angry\".",
       },
       {
@@ -838,7 +838,7 @@ export const EN_B1_U24_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "___ of my parents can drive.",
         answer: "Neither",
-        en: "[Ninguno de] mis padres sabe conducir.",
+        en: "[Ninguno de] mis padres sabe manejar.",
         explanation: "Two people (parents) → \"Neither of\" + positive verb: \"Neither of my parents can drive\".",
       },
       {

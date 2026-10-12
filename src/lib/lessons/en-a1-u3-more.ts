@@ -27,7 +27,7 @@ export const EN_A1_U3_MORE: Lesson[] = [
           { es: "She wants a cup of tea.", en: "Ella quiere una taza de té." },
           { es: "We know the answer.", en: "Sabemos la respuesta." },
           { es: "He reads the news on his phone.", en: "Él lee las noticias en el teléfono." },
-          { es: "They listen to music in the car.", en: "Escuchan música en el coche." },
+          { es: "They listen to music in the car.", en: "Escuchan música en el carro." },
           { es: "My son plays the guitar.", en: "Mi hijo toca la guitarra." },
         ],
         checkpoint: [
@@ -1183,7 +1183,7 @@ export const EN_A1_U3_MORE: Lesson[] = [
           "\"I don't like my job\" pasa a \"She doesn't like her job\". \"Do you have a bike?\" pasa a \"Does he have a bike?\".",
         ],
         examples: [
-          { es: "I wash my car on Sundays. / He washes his car on Sundays.", en: "Lavo mi coche los domingos. / Él lava su coche los domingos." },
+          { es: "I wash my car on Sundays. / He washes his car on Sundays.", en: "Lavo mi carro los domingos. / Él lava su carro los domingos." },
           { es: "I don't like my job. / She doesn't like her job.", en: "No me gusta mi trabajo. / A ella no le gusta su trabajo." },
           { es: "Do you call your mother every day? / Does he call his mother every day?", en: "¿Llamas a tu madre todos los días? / ¿Él llama a su madre todos los días?" },
           { es: "I study with my friends. / She studies with her friends.", en: "Estudio con mis amigos. / Ella estudia con sus amigos." },
@@ -1214,7 +1214,7 @@ export const EN_A1_U3_MORE: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Mi hermana no tiene coche.",
+        source: "Mi hermana no tiene carro.",
         answer: "My sister doesn't have a car.",
         explanation: "\"Has\" pasa a \"doesn't have\". El inglés pone \"a\" delante de \"car\".",
       },

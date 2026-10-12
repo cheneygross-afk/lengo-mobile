@@ -481,7 +481,7 @@ export const EN_A2_U05_EXTRA: Lesson[] = [  // ---------------------------------
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "Have you ever ___ a truck?",
         answer: "driven",
-        en: "¿Alguna vez has [conducido] un camión?",
+        en: "¿Alguna vez has [manejado] un camión?",
         explanation: "\"Drive, drove, driven\": con \"have\" va \"driven\", no *drove.",
       },
       {
@@ -1143,7 +1143,7 @@ export const EN_A2_U05_EXTRA: Lesson[] = [  // ---------------------------------
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Mi coche se hizo en Japón.",
+        source: "Mi carro se hizo en Japón.",
         answer: "My car was made in Japan.",
         explanation: "Hecho terminado: \"was made\".",
       },

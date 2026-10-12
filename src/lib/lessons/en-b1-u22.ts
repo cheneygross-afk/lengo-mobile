@@ -546,7 +546,7 @@ export const EN_B1_U22: Lesson[] = [
         examples: [
           { es: "My parents let me go out on Fridays.", en: "Mis padres me dejaban salir los viernes." },
           { es: "Let me help you.", en: "Déjame ayudarte." },
-          { es: "She didn't let us use her car.", en: "No nos dejó usar su coche." },
+          { es: "She didn't let us use her car.", en: "No nos dejó usar su carro." },
           { es: "Let me know.", en: "Avísame." },
           { es: "The guard let us in.", en: "El guardia nos dejó entrar." },
         ],
@@ -1196,7 +1196,7 @@ export const EN_B1_U22: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "I'd rather ___ here than in the car.",
         answer: "wait",
-        en: "Prefiero [esperar] aquí que en el coche.",
+        en: "Prefiero [esperar] aquí que en el carro.",
         explanation: "\"Would rather\" + base verb, no \"to\": *I'd rather to wait is wrong.",
       },
       {

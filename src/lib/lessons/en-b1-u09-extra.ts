@@ -135,7 +135,7 @@ export const EN_B1_U09_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No habría comprado el coche si hubiera sabido que estaba roto.",
+        source: "No habría comprado el carro si hubiera sabido que estaba roto.",
         answer: "I wouldn't have bought the car if I had known it was broken.",
         altAnswers: ["I wouldn't have bought the car if I had known that it was broken.", "If I had known it was broken, I wouldn't have bought the car.", "I wouldn't have bought the car if I'd known it was broken."],
         explanation: "Negative result: \"wouldn't have bought\". «Que estaba roto» = \"(that) it was broken\"; the \"that\" is optional.",
@@ -524,7 +524,7 @@ export const EN_B1_U09_EXTRA: Lesson[] = [
           "With \"be\", \"were\" is correct for all persons (\"I wish I were taller\"); \"was\" is common in conversation. \"If only\" means the same as \"I wish\" but is stronger: \"If only I had more money!\"",
         ],
         examples: [
-          { es: "I wish I had a car.", en: "Ojalá tuviera coche. (no tengo)" },
+          { es: "I wish I had a car.", en: "Ojalá tuviera carro. (no tengo)" },
           { es: "I wish I lived near the beach.", en: "Ojalá viviera cerca de la playa." },
           { es: "I wish I weren't so tired.", en: "Ojalá no estuviera tan cansado." },
           { es: "She wishes she knew the answer.", en: "Ojalá supiera la respuesta. (dice ella)" },
@@ -1050,7 +1050,7 @@ export const EN_B1_U09_EXTRA: Lesson[] = [
         examples: [
           { es: "I wish I could get up earlier.", en: "Ojalá pudiera levantarme más temprano." },
           { es: "I wish I didn't eat so much sugar.", en: "Ojalá no comiera tanto azúcar." },
-          { es: "I wish you had a car.", en: "Ojalá tuvieras coche." },
+          { es: "I wish you had a car.", en: "Ojalá tuvieras carro." },
           { es: "I hope the rain stops soon.", en: "Ojalá deje de llover pronto." },
         ],
         checkpoint: [

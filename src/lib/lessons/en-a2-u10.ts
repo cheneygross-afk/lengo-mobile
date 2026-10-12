@@ -797,7 +797,7 @@ export const EN_A2_U10: Lesson[] = [
         source: "No debes manejar después de beber.",
         answer: "You mustn't drive after drinking.",
         altAnswers: ["You must not drive after drinking.", "You can't drive after drinking.", "You cannot drive after drinking.", "You shouldn't drive after drinking.", "You should not drive after drinking."],
-        explanation: "Es peligroso y está prohibido: \"mustn't\". «Manejar» o «conducir» es \"drive\".",
+        explanation: "Es peligroso y está prohibido: \"mustn't\". «Manejar» es \"drive\".",
       },
       {
         type: "multi-select",

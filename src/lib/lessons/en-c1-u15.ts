@@ -109,12 +109,12 @@ export const EN_C1_U15: Lesson[] = [
       {
         heading: "Keeping the meeting on track",
         body: [
-          "Good chairs stop side discussions without sounding rude. \"Let's park that for now\" means «dejemos eso aparcado de momento»: the point is valid but not for today. \"Can we take that offline?\" means «¿lo hablamos fuera de la reunión?».",
+          "Good chairs stop side discussions without sounding rude. \"Let's park that for now\" means «dejemos eso pendiente por ahora»: the point is valid but not for today. \"Can we take that offline?\" means «¿lo hablamos fuera de la reunión?».",
           "To return to the main topic: \"Getting back to the agenda...\", \"To get back to what we were saying...\", \"Let's not get sidetracked\". To move forward: \"Let's move on to the next item\", \"I think we've covered that\".",
           "To manage time: \"We're running short of time\" (or \"running out of time\"), \"Let's circle back to that at the end\". Avoid the literal *Let's return to the theme: in English a meeting has topics, issues or points, not «temas» translated as \"themes\".",
         ],
         examples: [
-          { es: "That's a good point, but let's park that for now.", en: "Es un buen punto, pero dejémoslo aparcado de momento." },
+          { es: "That's a good point, but let's park that for now.", en: "Es un buen punto, pero dejémoslo pendiente por ahora." },
           { es: "Can we take that offline?", en: "¿Lo hablamos fuera de la reunión?" },
           { es: "Getting back to the agenda, we still need to discuss hiring.", en: "Volviendo al orden del día, todavía tenemos que hablar de las contrataciones." },
           { es: "Let's not get sidetracked.", en: "No nos vayamos por las ramas." },
@@ -128,8 +128,8 @@ export const EN_C1_U15: Lesson[] = [
             sentence: "That's a good point, but let's ___ that for now.",
             answer: "park",
             altAnswers: ["put aside", "set aside", "leave"],
-            en: "Es un buen punto, pero [dejémoslo aparcado] de momento.",
-            explanation: "\"Park\" is the business idiom for postponing a topic, exactly like «aparcar» in Spanish. \"Put aside\" or \"set aside\" are also fine.",
+            en: "Es un buen punto, pero [dejémoslo pendiente] por ahora.",
+            explanation: "\"Park\" is the business idiom for postponing a topic («dejar pendiente»): like parking a car, you leave it and come back later. \"Put aside\" or \"set aside\" are also fine.",
           },
           {
             type: "translate",
@@ -278,12 +278,12 @@ export const EN_C1_U15: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Let's not get sidetracked.",
-        question: "¿Qué ha dicho la persona que preside la reunión?",
+        question: "What did the chair say?",
         options: [
           "No nos vayamos por las ramas.",
           "No nos saltemos ningún punto.",
           "No nos quedemos sin tiempo.",
-          "No dejemos el tema aparcado.",
+          "No dejemos el tema pendiente.",
         ],
         correctIndex: 0,
         explanation: "To \"get sidetracked\" is to be distracted from the main topic, «irse por las ramas».",
@@ -408,7 +408,7 @@ export const EN_C1_U15: Lesson[] = [
         body: [
           "A meeting is not over until everyone knows who is doing what. The chair summarises: \"So, to recap, ...\", \"Let me just sum up what we've agreed\", \"Let's run through the action points\".",
           "Action points use clear future forms and names: \"Diego will send the revised figures by Friday\", \"Emma's going to follow up with the client\". \"Follow up (with someone)\" means «hacer el seguimiento» or «volver a contactar». \"Who's going to take this on?\" asks for a volunteer.",
-          "Close with a check and a thank-you: \"Does that work for everyone?\", \"Is there any other business?\" (\"AOB\" on written agendas, «ruegos y preguntas»), \"Thanks, everyone. Let's wrap it up there\".",
+          "Close with a check and a thank-you: \"Does that work for everyone?\", \"Is there any other business?\" (\"AOB\" on written agendas, «asuntos varios»), \"Thanks, everyone. Let's wrap it up there\".",
         ],
         examples: [
           { es: "So, to recap, we've agreed to postpone the launch.", en: "Así que, para resumir, hemos acordado aplazar el lanzamiento." },
@@ -416,7 +416,7 @@ export const EN_C1_U15: Lesson[] = [
           { es: "Diego will send the revised figures by Friday.", en: "Diego enviará las cifras revisadas antes del viernes." },
           { es: "Emma's going to follow up with the client.", en: "Emma se encargará de hacer el seguimiento con el cliente." },
           { es: "Who's going to take this on?", en: "¿Quién se va a encargar de esto?" },
-          { es: "Is there any other business?", en: "¿Ruegos y preguntas?" },
+          { es: "Is there any other business?", en: "¿Algún otro asunto?" },
           { es: "Thanks, everyone. Let's wrap it up there.", en: "Gracias a todos. Lo dejamos aquí." },
         ],
         checkpoint: [
@@ -608,9 +608,9 @@ export const EN_C1_U15: Lesson[] = [
         examples: [
           { es: "Ha, I agree, but let's park that for now.", en: "Ja, estoy de acuerdo, pero dejémoslo de momento." },
           { es: "Getting back to the agenda, we need to decide on the trade fair.", en: "Volviendo al orden del día, tenemos que decidir lo de la feria." },
-          { es: "OK, that changes things. Let's deal with that first.", en: "Vale, eso lo cambia todo. Ocupémonos de eso primero." },
+          { es: "OK, that changes things. Let's deal with that first.", en: "Bueno, eso lo cambia todo. Ocupémonos de eso primero." },
           { es: "Let's put that at the top of the agenda.", en: "Pongamos eso en primer lugar." },
-          { es: "Can we come back to that under any other business?", en: "¿Podemos volver a eso en ruegos y preguntas?" },
+          { es: "Can we come back to that under any other business?", en: "¿Podemos volver a eso en asuntos varios?" },
         ],
         checkpoint: [
           {
@@ -658,7 +658,7 @@ export const EN_C1_U15: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "En principio me gusta la idea, pero me preocupa un poco el coste.",
+            source: "En principio me gusta la idea, pero me preocupa un poco el costo.",
             answer: "I like the idea in principle, but I'm a bit worried about the cost.",
             altAnswers: [
               "In principle I like the idea, but I'm a bit worried about the cost.",
@@ -808,7 +808,7 @@ export const EN_C1_U15: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Vale, eso lo cambia todo. Ocupémonos de eso primero.",
+        source: "Bueno, eso lo cambia todo. Ocupémonos de eso primero.",
         answer: "OK, that changes things. Let's deal with that first.",
         altAnswers: [
           "OK, that changes everything. Let's deal with that first.",
@@ -828,7 +828,7 @@ export const EN_C1_U15: Lesson[] = [
       {
         type: "listen-choose",
         audio: "That's a fair point, and I think we can build on it.",
-        question: "¿Qué actitud muestra la persona que habla?",
+        question: "What attitude does the speaker show?",
         options: [
           "Está de acuerdo y quiere desarrollar la idea.",
           "Rechaza la idea con educación.",
@@ -923,10 +923,10 @@ export const EN_C1_U15: Lesson[] = [
           "Avoid *Now I am going to pass to the second point (from «pasar a»). In English you \"move on to\" or \"turn to\" a point.",
         ],
         examples: [
-          { es: "I'll be looking at three areas: costs, staffing and timing.", en: "Voy a tratar tres aspectos: los costes, la plantilla y los plazos." },
+          { es: "I'll be looking at three areas: costs, staffing and timing.", en: "Voy a tratar tres aspectos: los costos, la plantilla y los plazos." },
           { es: "I've divided my talk into three parts.", en: "He dividido mi charla en tres partes." },
           { es: "First, I'll look at the problem, then I'll move on to possible solutions.", en: "Primero analizaré el problema y luego pasaré a las posibles soluciones." },
-          { es: "Moving on to costs...", en: "Pasando a los costes..." },
+          { es: "Moving on to costs...", en: "Pasando a los costos..." },
           { es: "That brings me to my next point.", en: "Esto me lleva a mi siguiente punto." },
           { es: "As I mentioned earlier, the market is changing fast.", en: "Como he mencionado antes, el mercado está cambiando rápidamente." },
           { es: "Let me turn to the question of staffing.", en: "Paso ahora a la cuestión de la plantilla." },
@@ -938,7 +938,7 @@ export const EN_C1_U15: Lesson[] = [
             sentence: "___ to costs, let's look at the first quarter.",
             answer: "Moving on",
             altAnswers: ["Turning"],
-            en: "[Pasando] a los costes, veamos el primer trimestre.",
+            en: "[Pasando] a los costos, veamos el primer trimestre.",
             explanation: "\"Moving on to\" or \"Turning to\" are the standard transitions. *Passing to is a literal translation of «pasando a».",
           },
           {
@@ -973,7 +973,7 @@ export const EN_C1_U15: Lesson[] = [
           { es: "As you can see from this graph, sales rose sharply in March.", en: "Como pueden ver en este gráfico, las ventas subieron mucho en marzo." },
           { es: "The vertical axis shows revenue in millions of dollars.", en: "El eje vertical muestra los ingresos en millones de dólares." },
           { es: "Sales rose by 10% to 2 million.", en: "Las ventas subieron un 10 %, hasta los 2 millones." },
-          { es: "Costs peaked in June and then levelled off.", en: "Los costes alcanzaron su punto máximo en junio y luego se estabilizaron." },
+          { es: "Costs peaked in June and then leveled off.", en: "Los costos alcanzaron su punto máximo en junio y luego se estabilizaron." },
           { es: "There was a slight dip in the summer.", en: "Hubo un ligero descenso en verano." },
           { es: "Profits stood at 1.8 million in January.", en: "Los beneficios se situaban en 1,8 millones en enero." },
         ],
@@ -1002,7 +1002,7 @@ export const EN_C1_U15: Lesson[] = [
             type: "multiple-choice",
             question: "Which sentence describes the chart correctly?",
             options: [
-              "Costs peaked in June and then levelled off.",
+              "Costs peaked in June and then leveled off.",
               "Costs arrived to the maximum in June and then stayed stable.",
               "Costs made a peak in June and then were stables.",
               "Costs touched the top in June and then stabilised them.",
@@ -1060,7 +1060,7 @@ export const EN_C1_U15: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Como pueden ver en este gráfico, los costes bajaron ligeramente en verano.",
+        source: "Como pueden ver en este gráfico, los costos bajaron ligeramente en verano.",
         answer: "As you can see from this graph, costs fell slightly in the summer.",
         altAnswers: [
           "As you can see from this graph, costs fell slightly in summer.",
@@ -1209,7 +1209,7 @@ export const EN_C1_U15: Lesson[] = [
         ],
         examples: [
           { es: "Thanks for raising that.", en: "Gracias por plantearlo." },
-          { es: "If I understand your question correctly, you're asking about the cost.", en: "Si entiendo bien su pregunta, me pregunta por el coste." },
+          { es: "If I understand your question correctly, you're asking about the cost.", en: "Si entiendo bien su pregunta, me pregunta por el costo." },
           { es: "I don't have the figures with me, but let me get back to you on that.", en: "No tengo las cifras aquí, pero lo consulto y le respondo." },
           { es: "I'm afraid that's outside the scope of today's talk.", en: "Me temo que eso queda fuera del alcance de la charla de hoy." },
           { es: "I'd be happy to discuss it afterwards.", en: "Con mucho gusto lo comentamos después." },
@@ -1249,7 +1249,7 @@ export const EN_C1_U15: Lesson[] = [
         ],
         examples: [
           { es: "Last year, we lost thirty percent of our customers.", en: "El año pasado perdimos el treinta por ciento de nuestros clientes." },
-          { es: "The cost of doing nothing is two million dollars.", en: "El coste de no hacer nada es de dos millones de dólares." },
+          { es: "The cost of doing nothing is two million dollars.", en: "El costo de no hacer nada es de dos millones de dólares." },
           { es: "We don't need more staff, we need better tools.", en: "No necesitamos más personal, necesitamos mejores herramientas." },
           { es: "This isn't a technical problem. It's a people problem.", en: "No es un problema técnico. Es un problema de personas." },
         ],
@@ -1323,7 +1323,7 @@ export const EN_C1_U15: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Gracias por plantearlo. Si entiendo bien su pregunta, me pregunta por el coste.",
+        source: "Gracias por plantearlo. Si entiendo bien su pregunta, me pregunta por el costo.",
         answer: "Thanks for raising that. If I understand your question correctly, you're asking about the cost.",
         altAnswers: [
           "Thank you for raising that. If I understand your question correctly, you're asking about the cost.",
@@ -1343,11 +1343,11 @@ export const EN_C1_U15: Lesson[] = [
         type: "matching",
         instructions: "Match each phrase with its function.",
         pairs: [
-          { left: "That's a good question.", right: "ganar tiempo" },
-          { left: "Let me get back to you on that.", right: "prometer una respuesta más tarde" },
-          { left: "Could you rephrase that?", right: "pedir que reformulen la pregunta" },
-          { left: "Does that answer your question?", right: "comprobar que la respuesta sirve" },
-          { left: "To wrap up...", right: "señalar el final" },
+          { left: "That's a good question.", right: "buy time" },
+          { left: "Let me get back to you on that.", right: "promise an answer later" },
+          { left: "Could you rephrase that?", right: "ask for the question to be rephrased" },
+          { left: "Does that answer your question?", right: "check the answer helped" },
+          { left: "To wrap up...", right: "signal the end" },
         ],
         explanation: "Each phrase has a clear function. Knowing the function helps you choose the right phrase under pressure.",
       },
@@ -1382,7 +1382,7 @@ export const EN_C1_U15: Lesson[] = [
       {
         type: "listen-choose",
         audio: "This isn't a technical problem. It's a people problem.",
-        question: "¿Qué quiere destacar el ponente?",
+        question: "What does the speaker want to stress?",
         options: [
           "Que el problema es de personas, no de tecnología.",
           "Que el problema técnico afecta a muchas personas.",
@@ -1433,7 +1433,7 @@ export const EN_C1_U15: Lesson[] = [
           { es: "Imagine losing a day of work every week to commuting.", en: "Imaginen perder un día de trabajo a la semana en desplazamientos." },
           { es: "Let me start with productivity.", en: "Empezaré por la productividad." },
           { es: "Finally, let me turn to wellbeing.", en: "Por último, paso al bienestar." },
-          { es: "So far, we've looked at productivity and costs.", en: "Hasta ahora hemos visto la productividad y los costes." },
+          { es: "So far, we've looked at productivity and costs.", en: "Hasta ahora hemos visto la productividad y los costos." },
         ],
         checkpoint: [
           {
@@ -1452,7 +1452,7 @@ export const EN_C1_U15: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Hasta ahora hemos visto la productividad y los costes.",
+            source: "Hasta ahora hemos visto la productividad y los costos.",
             answer: "So far, we've looked at productivity and costs.",
             altAnswers: [
               "So far we've looked at productivity and costs.",
@@ -1477,9 +1477,9 @@ export const EN_C1_U15: Lesson[] = [
           "Other useful focus phrases: \"The point I want to make is...\", \"The thing to remember is...\", \"The reason (why) this matters is that...\". Use one or two per presentation, for the messages that really matter. Overusing them sounds theatrical.",
         ],
         examples: [
-          { es: "What I'd like to stress is that the cost is fixed.", en: "Lo que me gustaría destacar es que el coste es fijo." },
+          { es: "What I'd like to stress is that the cost is fixed.", en: "Lo que me gustaría destacar es que el costo es fijo." },
           { es: "What really matters is the timing.", en: "Lo que de verdad importa es el momento." },
-          { es: "It's the timing, not the cost, that worries me.", en: "Es el momento, no el coste, lo que me preocupa." },
+          { es: "It's the timing, not the cost, that worries me.", en: "Es el momento, no el costo, lo que me preocupa." },
           { es: "The point I want to make is that we're not alone.", en: "Lo que quiero dejar claro es que no estamos solos." },
           { es: "The reason this matters is that our competitors are moving faster.", en: "Esto es importante porque nuestros competidores avanzan más rápido." },
         ],
@@ -1488,7 +1488,7 @@ export const EN_C1_U15: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Lo que me gustaría destacar es que el coste es fijo.",
+            source: "Lo que me gustaría destacar es que el costo es fijo.",
             answer: "What I'd like to stress is that the cost is fixed.",
             altAnswers: [
               "What I'd like to stress is the cost is fixed.",
@@ -1511,7 +1511,7 @@ export const EN_C1_U15: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "It's the timing, not the cost, ___ worries me.",
             answer: "that",
-            en: "Es el momento, no el coste, [lo que] me preocupa.",
+            en: "Es el momento, no el costo, [lo que] me preocupa.",
             explanation: "In an it-cleft, the second part starts with \"that\" (or \"who\" for people): \"It's X that...\". Never *what here.",
           },
         ],
@@ -1664,7 +1664,7 @@ export const EN_C1_U15: Lesson[] = [
         sentence: "___, we've looked at productivity and costs.",
         answer: "So far",
         altAnswers: ["Up to now", "Until now", "Thus far"],
-        en: "[Hasta ahora] hemos visto la productividad y los costes.",
+        en: "[Hasta ahora] hemos visto la productividad y los costos.",
         explanation: "\"So far\" with the present perfect marks a mini-summary in the middle of a talk.",
       },
       {
@@ -1708,7 +1708,7 @@ export const EN_C1_U15: Lesson[] = [
           { es: "If you could commit to a two-year contract, we'd be willing to reduce the price by 5%.", en: "Si pudieran comprometerse a un contrato de dos años, estaríamos dispuestos a bajar el precio un 5 %." },
           { es: "We can offer free delivery as long as you pay on time.", en: "Podemos ofrecer el envío gratuito siempre que paguen a tiempo." },
           { es: "Provided that the quality is the same, we'll switch suppliers.", en: "Siempre y cuando la calidad sea la misma, cambiaremos de proveedor." },
-          { es: "What if we were to split the cost?", en: "¿Y si nos repartiéramos el coste?" },
+          { es: "What if we were to split the cost?", en: "¿Y si nos repartiéramos el costo?" },
         ],
         checkpoint: [
           {
@@ -1956,7 +1956,7 @@ export const EN_C1_U15: Lesson[] = [
       {
         type: "listen-choose",
         audio: "That's not something we'd be able to agree to at this stage.",
-        question: "¿Qué quiere decir la persona?",
+        question: "What does the speaker mean?",
         options: [
           "Por ahora no puede aceptarlo, pero no lo descarta del todo.",
           "Acepta la propuesta inmediatamente.",
@@ -2113,7 +2113,7 @@ export const EN_C1_U15: Lesson[] = [
               "I appreciate you telling me. Would you be able to give me an example?",
               "I appreciate you telling me. Could you give me an example, please?",
             ],
-            explanation: "\"Appreciate\" takes an object + -ing (\"I appreciate you telling me\"), not *I appreciate you to tell me or *I appreciate you to tell me.",
+            explanation: "\"Appreciate\" takes an object + -ing (\"I appreciate you telling me\"), not *I appreciate you to tell me or *I appreciate that you tell me.",
           },
           {
             type: "fill-blank",
@@ -2253,7 +2253,7 @@ export const EN_C1_U15: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Thanks, that's really useful. I hadn't thought of it that way.",
-        question: "¿Cómo reacciona la persona ante la crítica?",
+        question: "How does the speaker react to the criticism?",
         options: [
           "La acepta y reconoce que le abre una nueva perspectiva.",
           "Se pone a la defensiva.",
@@ -2346,7 +2346,7 @@ export const EN_C1_U15: Lesson[] = [
           "On the phone, also learn: \"Who's calling, please?\", \"Could you hold on a moment?\" («no cuelgue»), \"I'll put you through\" («le paso»), \"Can I take a message?\" and \"I'll get her to call you back\".",
         ],
         examples: [
-          { es: "Sorry, I didn't catch that.", en: "Perdona, no lo he pillado." },
+          { es: "Sorry, I didn't catch that.", en: "Perdona, no te entendí." },
           { es: "Sorry, could you say that again?", en: "Perdona, ¿puedes repetirlo?" },
           { es: "Would you mind speaking a bit more slowly?", en: "¿Le importaría hablar un poco más despacio?" },
           { es: "Was that fifteen or fifty?", en: "¿Ha dicho quince o cincuenta?" },
@@ -2463,7 +2463,7 @@ export const EN_C1_U15: Lesson[] = [
         sentence: "Sorry, I didn't ___ that.",
         answer: "catch",
         altAnswers: ["get", "hear"],
-        en: "Perdona, no lo he [pillado].",
+        en: "Perdona, no te [entendí].",
         explanation: "\"I didn't catch that\" means you did not hear or understand something. It is softer than \"I didn't understand\".",
       },
       {
@@ -2581,14 +2581,14 @@ export const EN_C1_U15: Lesson[] = [
           { es: "Can I just come in here?", en: "¿Puedo intervenir un momento?" },
           { es: "I see where you're coming from, but I see it a bit differently.", en: "Entiendo tu punto de vista, pero yo lo veo de otra manera." },
           { es: "So, to recap: Ana will send the contract by Monday.", en: "Entonces, para resumir: Ana enviará el contrato antes del lunes." },
-          { es: "Sorry, I didn't catch that.", en: "Perdona, no lo he pillado." },
+          { es: "Sorry, I didn't catch that.", en: "Perdona, no te entendí." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Es un buen punto, pero dejémoslo aparcado y volvamos al orden del día.",
+            source: "Es un buen punto, pero dejémoslo pendiente y volvamos al orden del día.",
             answer: "That's a good point, but let's park it and get back to the agenda.",
             altAnswers: [
               "That's a good point, but let's park that and get back to the agenda.",
@@ -2616,7 +2616,7 @@ export const EN_C1_U15: Lesson[] = [
           "If you miss items here, revisit Presentations Parts 1 and 2, Presentations in Practice, Negotiating, or Giving and Receiving Feedback.",
         ],
         examples: [
-          { es: "Moving on to costs, let's look at the second quarter.", en: "Pasando a los costes, veamos el segundo trimestre." },
+          { es: "Moving on to costs, let's look at the second quarter.", en: "Pasando a los costos, veamos el segundo trimestre." },
           { es: "We might be able to meet you halfway.", en: "Quizá podamos llegar a un punto intermedio." },
           { es: "You might want to cut the introduction.", en: "Quizá te convendría quitar la introducción." },
         ],
@@ -2705,7 +2705,7 @@ export const EN_C1_U15: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Lo que me gustaría destacar es que los costes se han mantenido estables.",
+        source: "Lo que me gustaría destacar es que los costos se han mantenido estables.",
         answer: "What I'd like to stress is that costs have remained stable.",
         altAnswers: [
           "What I'd like to stress is that costs have stayed stable.",
@@ -2829,7 +2829,7 @@ export const EN_C1_U15: Lesson[] = [
           { es: "I attended the meeting yesterday.", en: "Asistí a la reunión ayer. (incorrecto: *assisted to the meeting)" },
           { es: "Could you assist me with the report?", en: "¿Me podrías ayudar con el informe?" },
           { es: "The current situation is difficult.", en: "La situación actual es difícil." },
-          { es: "The actual cost was much higher than the estimate.", en: "El coste real fue mucho mayor que el presupuestado." },
+          { es: "The actual cost was much higher than the estimate.", en: "El costo real fue mucho mayor que el presupuestado." },
           { es: "She's in charge of marketing.", en: "Es la responsable de marketing." },
           { es: "Who's responsible for the budget?", en: "¿Quién es el responsable del presupuesto?" },
         ],
@@ -2964,14 +2964,14 @@ export const EN_C1_U15: Lesson[] = [
         heading: "Register slips",
         body: [
           "Some errors are not grammatical but social. *I want that you send me the report is wrong grammatically (\"want\" + object + infinitive) and too direct. \"I want you to send me the report\" is correct but bossy. In a professional email: \"Could you send me the report?\" or \"Would you mind sending me the report?\".",
-          "Openings: \"Hi guys\" is fine with close colleagues, but not with a new client or a senior manager: use \"Hi Ms Smith\", \"Dear Mr Jones\" or \"Hi everyone\". \"Dear Sir\" with no name sounds old-fashioned today. Closings: \"Best regards\" or \"Kind regards\" in formal emails, \"Thanks\" or \"Best\" in internal ones.",
+          "Openings: \"Hi guys\" is fine with close colleagues, but not with a new client or a senior manager: use \"Hi Ms. Smith\", \"Dear Mr. Jones\" or \"Hi everyone\". \"Dear Sir\" with no name sounds old-fashioned today. Closings: \"Best regards\" or \"Kind regards\" in formal emails, \"Thanks\" or \"Best\" in internal ones.",
           "Over-formality is a slip too: \"I hereby inform you that the meeting is cancelled\" is legal language. \"Just to let you know, the meeting has been cancelled\" is the natural professional version.",
         ],
         examples: [
           { es: "Could you send me the report by Friday?", en: "¿Me podrías enviar el informe antes del viernes?" },
           { es: "Would you mind sending me the report?", en: "¿Te importaría enviarme el informe?" },
           { es: "Hi everyone, just to let you know, the meeting has been cancelled.", en: "Hola a todos: les comunico que se ha cancelado la reunión." },
-          { es: "Dear Ms Smith, thank you for your email.", en: "Estimada Sra. Smith: gracias por su correo." },
+          { es: "Dear Ms. Smith, thank you for your email.", en: "Estimada Sra. Smith: gracias por su correo." },
           { es: "Kind regards, Lucia", en: "Un saludo, Lucia" },
         ],
         checkpoint: [
@@ -3125,7 +3125,7 @@ export const EN_C1_U15: Lesson[] = [
           "How long have you been working in this department?",
           "How long have you worked in this department?",
           "How long have you been in this department?",
-          "How long have you been working in the team?",
+          
           "How long have you been working for the department?",
           "How long have you been with the department?",
         ],
@@ -3398,11 +3398,11 @@ export const EN_C1_U15: Lesson[] = [
         type: "matching",
         instructions: "Match each sentence with the structure it uses.",
         pairs: [
-          { left: "I was wondering if you could help.", right: "petición con distancia (pasado continuo)" },
-          { left: "It might be better if we waited.", right: "alternativa con condicional" },
-          { left: "I suggest that he contact HR.", right: "subjuntivo" },
-          { left: "Had we known, we'd have called.", right: "condicional con inversión" },
-          { left: "This would seem to suggest a problem.", right: "matización (hedging)" },
+          { left: "I was wondering if you could help.", right: "distanced request (past continuous)" },
+          { left: "It might be better if we waited.", right: "alternative with a conditional" },
+          { left: "I suggest that he contact HR.", right: "subjunctive" },
+          { left: "Had we known, we'd have called.", right: "inverted conditional" },
+          { left: "This would seem to suggest a problem.", right: "hedging" },
         ],
         explanation: "In real emails and meetings these structures are mixed. Recognising each one helps you choose the right one for each situation.",
       },
@@ -3638,7 +3638,7 @@ export const EN_C1_U15: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "«Es un coche muy económico: gasta muy poco.» Which word fits? \"It's a very ___ car.\"",
+            question: "«Es un carro muy económico: gasta muy poco.» Which word fits? \"It's a very ___ car.\"",
             options: ["economical", "economic", "economics", "economy"],
             correctIndex: 0,
             explanation: "\"Economical\" means it saves money. \"Economic\" refers to the economy (\"economic growth\"), and \"economics\" is the subject.",
@@ -3704,7 +3704,7 @@ export const EN_C1_U15: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Hemos decidido externalizar la atención al cliente para reducir costes.",
+        source: "Hemos decidido externalizar la atención al cliente para reducir costos.",
         answer: "We've decided to outsource customer service to cut costs.",
         altAnswers: [
           "We have decided to outsource customer service to cut costs.",
@@ -3772,7 +3772,7 @@ export const EN_C1_U15: Lesson[] = [
         sentence: "Our ___ fell to 8% because of rising costs.",
         answer: "profit margin",
         altAnswers: ["margin", "profit margins", "margins"],
-        en: "Nuestro [margen de beneficio] bajó al 8 % por el aumento de los costes.",
+        en: "Nuestro [margen de beneficio] bajó al 8 % por el aumento de los costos.",
         explanation: "\"Profit margin\" is profit as a percentage of revenue. «Beneficio» here is \"profit\", not \"benefit\".",
       },
       {

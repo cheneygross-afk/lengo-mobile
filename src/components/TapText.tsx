@@ -45,11 +45,19 @@ function looksSpanishWord(word: string): boolean {
 // letter is French. Same rule as the website's TapText.
 const FRENCH_LETTERS = /[àâæçéèêëîïôœùûüÿ]/i;
 
+// Likewise the letters only German uses. Same rule as the website's TapText.
+const GERMAN_LETTERS = /[äöüß]/i;
+
 /** Whether a word in mixed text is (probably) in the target language. */
 function looksTargetWord(word: string, lang: SpeechLang): boolean {
   if (lang === "fr-FR") return FRENCH_LETTERS.test(word);
+  if (lang === "de-DE") return GERMAN_LETTERS.test(word);
   return looksSpanishWord(word);
 }
+
+// The courses whose words share the English alphabet, so mixed text is
+// decided word by word.
+const LATIN_SCRIPT_TARGETS: SpeechLang[] = ["es-ES", "fr-FR", "de-DE"];
 
 type Piece = { text: string; lang: SpeechLang | null; bold: boolean };
 
@@ -92,7 +100,7 @@ function pieces(text: string, lang: SpeechLang, mode: Mode, boldBrackets: boolea
     else {
       const inSpan = spans.some((sp) => start >= sp.start && start < sp.end);
       wordLang =
-        inSpan || (lang !== ENGLISH_LANG && (lang === "es-ES" || lang === "fr-FR") && looksTargetWord(word, lang)) ? lang : ENGLISH_LANG;
+        inSpan || (LATIN_SCRIPT_TARGETS.includes(lang) && looksTargetWord(word, lang)) ? lang : ENGLISH_LANG;
     }
     // Only the language being learned is voiced.
     push(word, mode !== "english" && wordLang === lang ? wordLang : null, start);
@@ -109,7 +117,7 @@ export function targetWordTest(text: string, lang: SpeechLang): (start: number, 
   const spans = targetSpans(text, lang);
   return (start, end) =>
     spans.some((sp) => start < sp.end && end > sp.start) ||
-    ((lang === "es-ES" || lang === "fr-FR") && looksTargetWord(text.slice(start, end).replace(/[^A-Za-z\u00C0-\u024F'’-]/g, ""), lang));
+    (LATIN_SCRIPT_TARGETS.includes(lang) && looksTargetWord(text.slice(start, end).replace(/[^A-Za-z\u00C0-\u024F'’-]/g, ""), lang));
 }
 
 /** Which voice a whole short string (an answer option, a matching card)

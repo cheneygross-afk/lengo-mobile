@@ -311,7 +311,7 @@ export const EN_B2_U01: Lesson[] = [
           { es: "I had been waiting for two hours when the bus finally came.", en: "Llevaba dos horas esperando cuando por fin llegó el autobús." },
           { es: "They had been living in Madrid for ten years when they decided to move.", en: "Llevaban diez años viviendo en Madrid cuando decidieron mudarse." },
           { es: "She had been working there since 2015.", en: "Trabajaba allí desde 2015." },
-          { es: "How long had you been driving when the car broke down?", en: "¿Cuánto tiempo llevabas conduciendo cuando se averió el coche?" },
+          { es: "How long had you been driving when the car broke down?", en: "¿Cuánto tiempo llevabas manejando cuando se averió el carro?" },
           { es: "We had been talking for hours.", en: "Llevábamos horas hablando." },
         ],
         checkpoint: [
@@ -628,7 +628,7 @@ export const EN_B2_U01: Lesson[] = [
           { es: "I had cleaned the house, so it looked perfect.", en: "Había limpiado la casa, así que estaba perfecta." },
           { es: "I had been cleaning the house, so I was covered in dust.", en: "Había estado limpiando la casa, así que estaba lleno de polvo." },
           { es: "I couldn't get in. I had lost my keys.", en: "No podía entrar. Había perdido las llaves." },
-          { es: "He had owned that car since 1998.", en: "Tenía ese coche desde 1998." },
+          { es: "He had owned that car since 1998.", en: "Tenía ese carro desde 1998." },
         ],
         checkpoint: [
           {
@@ -829,7 +829,7 @@ export const EN_B2_U01: Lesson[] = [
           { es: "I had known him for years.", en: "Lo conocía desde hacía años. (incorrecto: *I was knowing him)" },
           { es: "We had known each other since school.", en: "Nos conocíamos desde el colegio." },
           { es: "I didn't understand what was happening.", en: "No entendía lo que estaba pasando." },
-          { es: "The car belonged to my uncle.", en: "El coche era de mi tío." },
+          { es: "The car belonged to my uncle.", en: "El carro era de mi tío." },
           { es: "She seemed worried.", en: "Parecía preocupada." },
         ],
         checkpoint: [

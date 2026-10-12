@@ -19,13 +19,13 @@ export const EN_C2_U08: Lesson[] = [
         heading: "Death and serious illness",
         body: [
           "English has a whole ladder of ways to say «morir». The neutral verb is \"die\", and it is perfectly acceptable in news reports, in medical contexts and in most conversation. When you speak to the bereaved, or about someone they loved, the gentler \"pass away\" is safer: \"Her father passed away last week\". \"Pass\" on its own (\"since my mother passed\") is common in American English, especially in the South and in African American usage, but sounds odd to many British speakers.",
-          "Spanish «la difunta» or «el difunto» before a name is \"the late\": \"the late Mr Harris\". «Lo perdimos el año pasado» works word for word: \"We lost him last year\", and \"I'm sorry for your loss\" is the standard response. \"Is no longer with us\" is another gentle option, though it can also mean that someone has left a company, so make sure the context is clear.",
+          "Spanish «la difunta» or «el difunto» before a name is \"the late\": \"the late Mr. Harris\". «Lo perdimos el año pasado» works word for word: \"We lost him last year\", and \"I'm sorry for your loss\" is the standard response. \"Is no longer with us\" is another gentle option, though it can also mean that someone has left a company, so make sure the context is clear.",
           "For illness, \"terminally ill\" is the standard phrase for «enfermo terminal» (note the adverb: never *terminal ill). Doctors and families also say someone \"is not expected to recover\", \"is receiving palliative care\" or \"is in a hospice\". A death after a long illness is often described as \"after a long illness\" or \"after a long battle with cancer\", even when the family prefers not to give details.",
         ],
         examples: [
           { es: "Her father passed away last week.", en: "Su padre falleció la semana pasada." },
           { es: "I'm so sorry for your loss.", en: "Lo siento mucho. / Te acompaño en el sentimiento." },
-          { es: "The late Mr Harris left the house to his nephew.", en: "El difunto señor Harris dejó la casa a su sobrino." },
+          { es: "The late Mr. Harris left the house to his nephew.", en: "El difunto señor Harris dejó la casa a su sobrino." },
           { es: "We lost my grandmother just before Christmas.", en: "Perdimos a mi abuela justo antes de Navidad." },
           { es: "He's terminally ill and is now receiving palliative care at home.", en: "Es un enfermo terminal y ahora recibe cuidados paliativos en casa." },
           { es: "She died peacefully after a long illness.", en: "Falleció en paz tras una larga enfermedad." },
@@ -76,7 +76,7 @@ export const EN_C2_U08: Lesson[] = [
         examples: [
           { es: "The center offers free classes for older adults.", en: "El centro ofrece clases gratuitas para personas mayores." },
           { es: "There's a ten percent discount for seniors.", en: "Hay un descuento del diez por ciento para jubilados." },
-          { es: "My grandfather is getting on a bit, but he still drives.", en: "Mi abuelo ya tiene sus años, pero todavía conduce." },
+          { es: "My grandfather is getting on a bit, but he still drives.", en: "Mi abuelo ya tiene sus años, pero todavía maneja." },
           { es: "She's a woman of a certain age.", en: "Es una mujer de cierta edad." },
           { es: "An elderly man was helped off the bus.", en: "Ayudaron a un anciano a bajar del autobús." },
         ],
@@ -87,7 +87,7 @@ export const EN_C2_U08: Lesson[] = [
             sentence: "The town has built new apartments for ___.",
             answer: "older people",
             altAnswers: ["seniors", "senior citizens", "the elderly", "older adults", "elderly people"],
-            en: "El ayuntamiento ha construido pisos nuevos para [personas mayores].",
+            en: "El ayuntamiento ha construido departamentos nuevos para [personas mayores].",
             explanation: "«Personas mayores» is \"older people\", \"older adults\" or \"seniors\". Do not write *major people or *old persons.",
           },
         ],
@@ -95,12 +95,12 @@ export const EN_C2_U08: Lesson[] = [
       {
         heading: "Money and work",
         body: [
-          "Unemployment and money are delicate too. Someone «en paro» is \"unemployed\" or \"out of work\"; if they are talking about themselves in a social setting they may say \"I'm between jobs\" or \"I'm looking for my next role\". Losing a job is blunt as \"I was fired\" (or British \"sacked\"); softer versions are \"I was let go\", \"I was laid off\" (US, for economic reasons, not your fault) and \"I was made redundant\" (UK).",
+          "Unemployment and money are delicate too. Someone «desempleado» or «sin trabajo» is \"unemployed\" or \"out of work\"; if they are talking about themselves in a social setting they may say \"I'm between jobs\" or \"I'm looking for my next role\". Losing a job is blunt as \"I was fired\" (or British \"sacked\"); softer versions are \"I was let go\", \"I was laid off\" (US, for economic reasons, not your fault) and \"I was made redundant\" (UK).",
           "For wealth, \"rich\" can sound boastful or envious, so people say \"well-off\", \"comfortably off\" or \"affluent\". The other end of the scale is \"of modest means\", \"on a tight budget\", \"struggling financially\" or \"going through a rough patch\". \"Poor\" is fine as a description of a country or a statistic, but people rarely use it about themselves.",
           "Spanish speakers sometimes translate «humilde» as *humble to mean «pobre». \"Humble origins\" or \"a humble background\" is fine, but \"humble\" about a person usually means «modesto», not short of money.",
         ],
         examples: [
-          { es: "I'm between jobs at the moment.", en: "Ahora mismo estoy en paro." },
+          { es: "I'm between jobs at the moment.", en: "Ahora mismo estoy sin trabajo." },
           { es: "He was let go after twenty years with the company.", en: "Lo despidieron después de veinte años en la empresa." },
           { es: "Two hundred workers were laid off when the factory closed.", en: "Despidieron a doscientos trabajadores cuando cerró la fábrica." },
           { es: "They're comfortably off, but they're not rich.", en: "Viven con holgura, pero no son ricos." },
@@ -112,7 +112,7 @@ export const EN_C2_U08: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Lo despidieron en marzo y desde entonces está en paro.",
+            source: "Lo despidieron en marzo y desde entonces está sin trabajo.",
             answer: "He was let go in March and he's been out of work ever since.",
             altAnswers: [
               "He was let go in March and has been out of work ever since.",
@@ -168,7 +168,7 @@ export const EN_C2_U08: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Perdone, ¿dónde están los servicios?",
+            source: "Disculpe, ¿dónde están los baños?",
             answer: "Excuse me, where's the restroom?",
             altAnswers: [
               "Excuse me, where is the restroom?",
@@ -206,7 +206,7 @@ export const EN_C2_U08: Lesson[] = [
         instructions: "Match each euphemism with its plain meaning.",
         pairs: [
           { left: "pass away", right: "morir" },
-          { left: "between jobs", right: "en paro" },
+          { left: "between jobs", right: "sin trabajo" },
           { left: "comfortably off", right: "con bastante dinero" },
           { left: "getting on a bit", right: "algo mayor" },
           { left: "expecting", right: "embarazada" },
@@ -219,10 +219,10 @@ export const EN_C2_U08: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Lamentamos comunicarles que el señor Ortega falleció anoche.",
-        answer: "We regret to inform you that Mr Ortega passed away last night.",
+        answer: "We regret to inform you that Mr. Ortega passed away last night.",
         altAnswers: [
           "We regret to inform you that Mr Ortega died last night.",
-          "We regret to inform you that Mr. Ortega passed away last night.",
+          "We regret to inform you that Mr Ortega passed away last night.",
           "We regret to inform you that Mr. Ortega died last night.",
           "We are sorry to inform you that Mr Ortega passed away last night.",
           "We are sorry to inform you that Mr Ortega died last night.",
@@ -266,7 +266,7 @@ export const EN_C2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You are writing a council leaflet about a new service. Which phrase is the most appropriate?",
+        question: "You are writing a city brochure about a new service. Which phrase is the most appropriate?",
         options: [
           "Free transport for older residents",
           "Free transport for old people",
@@ -322,7 +322,7 @@ export const EN_C2_U08: Lesson[] = [
           "He's put on some weight since he retired.",
           "She's put on some weight since she retired.",
         ],
-        explanation: "\"Put on (a bit of) weight\" describes the change gently, without labelling the person. Avoid *He has fattened, which is used for animals.",
+        explanation: "\"Put on (a bit of) weight\" describes the change gently, without labeling the person. Avoid *He has fattened, which is used for animals.",
       },
       {
         type: "listen-choose",
@@ -452,7 +452,7 @@ export const EN_C2_U08: Lesson[] = [
           { es: "The bank plans to reduce headcount by ten percent.", en: "El banco prevé reducir la plantilla un diez por ciento." },
           { es: "It has been a challenging quarter for the group.", en: "Ha sido un trimestre difícil para el grupo (es decir, ha perdido dinero)." },
           { es: "We have decided to sunset the app at the end of the year.", en: "Hemos decidido retirar la aplicación a finales de año." },
-          { es: "All our pre-owned vehicles come with a twelve-month warranty.", en: "Todos nuestros vehículos de ocasión tienen doce meses de garantía." },
+          { es: "All our pre-owned vehicles come with a twelve-month warranty.", en: "Todos nuestros vehículos seminuevos tienen doce meses de garantía." },
         ],
         checkpoint: [
           {
@@ -703,16 +703,16 @@ export const EN_C2_U08: Lesson[] = [
       {
         heading: "Direct in Spanish, indirect in English",
         body: [
-          "Spanish is comfortable with direct imperatives among equals and in service situations: «Ponme un café», «Pásame la sal», «Mándame el informe». Tone of voice and a «porfa» are enough to make them polite. In English, a bare imperative to a waiter or a colleague often sounds bossy, even with \"please\". English speakers wrap requests in questions and modal verbs: \"Could I get a coffee?\", \"Could you pass the salt?\", \"Would you mind sending me the report?\".",
+          "Spanish is comfortable with direct imperatives among equals and in service situations: «Dame un café», «Pásame la sal», «Mándame el informe». Tone of voice and a «porfa» are enough to make them polite. In English, a bare imperative to a waiter or a colleague often sounds bossy, even with \"please\". English speakers wrap requests in questions and modal verbs: \"Could I get a coffee?\", \"Could you pass the salt?\", \"Would you mind sending me the report?\".",
           "The bigger the favor, or the more senior the person, the more layers you add. A scale from direct to very indirect: \"Send me the report.\" / \"Can you send me the report?\" / \"Could you send me the report?\" / \"Would you mind sending me the report?\" / \"I was wondering if you could send me the report.\" / \"I don't suppose you could send me the report, could you?\".",
           "Note the grammar of the softest forms. \"Would you mind\" takes an -ing form, and the polite answer \"No, not at all\" means «sí, claro» (because you are answering \"do you mind?\"). \"I was wondering if\" uses the past to create distance, but it refers to the present.",
         ],
         examples: [
-          { es: "Could I get a coffee, please?", en: "¿Me pones un café?" },
+          { es: "Could I get a coffee, please?", en: "¿Me das un café?" },
           { es: "Could you pass the salt?", en: "¿Me pasas la sal?" },
           { es: "Would you mind sending me the report?", en: "¿Te importaría mandarme el informe?" },
           { es: "I was wondering if you could help me with the presentation.", en: "Quería preguntarte si podrías ayudarme con la presentación." },
-          { es: "I don't suppose you could lend me your car this weekend, could you?", en: "No podrías prestarme el coche este fin de semana, ¿verdad?" },
+          { es: "I don't suppose you could lend me your car this weekend, could you?", en: "No podrías prestarme el carro este fin de semana, ¿verdad?" },
           { es: "No, not at all. Here you go.", en: "Claro que no me importa. Aquí tienes." },
         ],
         checkpoint: [
@@ -764,12 +764,12 @@ export const EN_C2_U08: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Me encantaría, pero me temo que el sábado tengo un compromiso.",
-            answer: "I'd love to, but I'm afraid I've got something on on Saturday.",
+            answer: "I'd love to, but I'm afraid I have plans on Saturday.",
             altAnswers: [
               "I'd love to, but I'm afraid I have something on on Saturday.",
               "I'd love to, but I'm afraid I've got something on Saturday.",
               "I'd love to, but I'm afraid I have something on Saturday.",
-              "I'd love to, but I'm afraid I have plans on Saturday.",
+              "I'd love to, but I'm afraid I've got something on on Saturday.",
               "I'd love to, but I'm afraid I've got plans on Saturday.",
               "I'd love to, but I'm afraid I have plans for Saturday.",
               "I'd love to, but I'm afraid I've got plans for Saturday.",
@@ -878,9 +878,9 @@ export const EN_C2_U08: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "No podrías llevarme al aeropuerto mañana, ¿verdad?",
-        answer: "I don't suppose you could give me a lift to the airport tomorrow, could you?",
+        answer: "I don't suppose you could give me a ride to the airport tomorrow, could you?",
         altAnswers: [
-          "I don't suppose you could give me a ride to the airport tomorrow, could you?",
+          "I don't suppose you could give me a lift to the airport tomorrow, could you?",
           "I don't suppose you could take me to the airport tomorrow, could you?",
           "I don't suppose you could drive me to the airport tomorrow, could you?",
           "You couldn't give me a lift to the airport tomorrow, could you?",
@@ -978,7 +978,7 @@ export const EN_C2_U08: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "A colleague has asked you to take over her project while she is on holiday, but you are already overloaded. Write a short reply (40-70 words) that refuses politely without saying \"no\" directly, gives a reason and offers an alternative.",
+        prompt: "A colleague has asked you to take over her project while she is on vacation, but you are already overloaded. Write a short reply (40-70 words) that refuses politely without saying \"no\" directly, gives a reason and offers an alternative.",
         minWords: 40,
         maxWords: 70,
         rubric: [
@@ -1015,7 +1015,7 @@ export const EN_C2_U08: Lesson[] = [
           { es: "Lucia has a great deal of potential.", en: "Lucia tiene mucho potencial. (quizá: aún no ha rendido)" },
           { es: "He was always punctual and smartly dressed.", en: "Siempre fue puntual e iba bien vestido. (¿y su trabajo?)" },
           { es: "Communication remains an area for development.", en: "La comunicación sigue siendo un aspecto a mejorar." },
-          { es: "She would benefit from more training in project management.", en: "Le vendría bien más formación en gestión de proyectos." },
+          { es: "She would benefit from more training in project management.", en: "Le vendría bien más capacitación en gestión de proyectos." },
         ],
         checkpoint: [
           {
@@ -1093,10 +1093,10 @@ export const EN_C2_U08: Lesson[] = [
         body: [
           "A senior figure who resigns \"to spend more time with family\" or \"to pursue other opportunities\" has very often been pushed out. \"We have parted ways by mutual agreement\" frequently means the person was dismissed. \"He has stepped back from his duties\" may hide a scandal or an illness.",
           "Diplomatic reports have famous codes: \"a frank exchange of views\" means an argument; \"a full and candid discussion\" means sharp disagreement; \"constructive talks\" means some progress but no agreement; \"productive discussions are ongoing\" means there is no deal yet.",
-          "British news has its own: a person \"helping police with their inquiries\" is a suspect being questioned; \"tired and emotional\" (old-fashioned and humorous) means drunk. Spanish has parallel codes («ha dimitido por motivos personales», «se encuentra indispuesto»), so the skill transfers; you just need to learn the English versions.",
+          "British news has its own: a person \"helping police with their inquiries\" is a suspect being questioned; \"tired and emotional\" (old-fashioned and humorous) means drunk. Spanish has parallel codes («renunció por motivos personales», «se encuentra indispuesto»), so the skill transfers; you just need to learn the English versions.",
         ],
         examples: [
-          { es: "The chief executive is stepping down to spend more time with his family.", en: "El consejero delegado deja el cargo para pasar más tiempo con su familia." },
+          { es: "The chief executive is stepping down to spend more time with his family.", en: "El director ejecutivo deja el cargo para pasar más tiempo con su familia." },
           { es: "The club and the coach have parted ways by mutual agreement.", en: "El club y el entrenador han decidido separarse de mutuo acuerdo." },
           { es: "The two leaders had a frank exchange of views.", en: "Los dos líderes tuvieron un franco intercambio de opiniones. (discutieron)" },
           { es: "A man is helping police with their inquiries.", en: "Un hombre está colaborando con la policía en la investigación. (es sospechoso)" },
@@ -1123,7 +1123,7 @@ export const EN_C2_U08: Lesson[] = [
               "The club and the manager have decided to part ways by mutual agreement.",
               "The club and the coach have decided to separate by mutual agreement.",
             ],
-            explanation: "\"Part ways\" or \"part company\" by \"mutual agreement\" or \"mutual consent\" is the press-release formula, often covering a sacking. In British football the coach is usually \"the manager\".",
+            explanation: "\"Part ways\" or \"part company\" by \"mutual agreement\" or \"mutual consent\" is the press-release formula, often covering a firing. In British football the coach is usually \"the manager\".",
           },
         ],
       },
@@ -1207,7 +1207,7 @@ export const EN_C2_U08: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The minister has resigned ___.",
         answer: "for personal reasons",
-        en: "La ministra ha dimitido [por motivos personales].",
+        en: "La ministra renunció [por motivos personales].",
         explanation: "\"For personal reasons\" mirrors «por motivos personales», with the same convenient vagueness. Note \"reasons\", not *motives.",
       },
       {
@@ -1328,19 +1328,19 @@ export const EN_C2_U08: Lesson[] = [
         examples: [
           { es: "Her grandfather passed away in his sleep.", en: "Su abuelo falleció mientras dormía. (eufemismo)" },
           { es: "Her grandfather died in his sleep.", en: "Su abuelo murió mientras dormía. (neutro)" },
-          { es: "My old laptop has finally kicked the bucket.", en: "Mi portátil viejo por fin ha estirado la pata. (disfemismo humorístico)" },
+          { es: "My old laptop has finally kicked the bucket.", en: "Mi laptop vieja por fin estiró la pata. (disfemismo humorístico)" },
           { es: "He got the boot after only three weeks.", en: "Lo echaron a las tres semanas. (coloquial)" },
-          { es: "They were absolutely hammered by midnight.", en: "A medianoche iban como una cuba." },
+          { es: "They were absolutely hammered by midnight.", en: "A medianoche ya estaban bien borrachos." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
             question: "Which sentence would be inappropriate in a message to a friend whose mother has just died?",
             options: [
-              "I can't believe your mum kicked the bucket.",
-              "I was so sorry to hear your mum passed away.",
-              "I'm so sorry about your mum.",
-              "I just heard about your mum. I'm so sorry.",
+              "I can't believe your mom kicked the bucket.",
+              "I was so sorry to hear your mom passed away.",
+              "I'm so sorry about your mom.",
+              "I just heard about your mom. I'm so sorry.",
             ],
             correctIndex: 0,
             explanation: "\"Kicked the bucket\" is a dysphemism: fine for a broken phone, callous for a real death.",
@@ -1349,7 +1349,7 @@ export const EN_C2_U08: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English, keeping the humorous tone.",
-            source: "Mi coche viejo por fin ha estirado la pata.",
+            source: "Mi carro viejo por fin ha estirado la pata.",
             answer: "My old car has finally kicked the bucket.",
             altAnswers: [
               "My old car finally kicked the bucket.",
@@ -1378,7 +1378,7 @@ export const EN_C2_U08: Lesson[] = [
           { es: "The building is fully accessible to wheelchair users.", en: "El edificio está totalmente adaptado para usuarios de silla de ruedas." },
           { es: "The charity supports people with learning disabilities.", en: "La ONG ayuda a personas con discapacidad intelectual." },
           { es: "She has multiple sclerosis and uses a wheelchair.", en: "Tiene esclerosis múltiple y va en silla de ruedas." },
-          { es: "Accessible parking is available near the entrance.", en: "Hay aparcamiento para personas con movilidad reducida junto a la entrada." },
+          { es: "Accessible parking is available near the entrance.", en: "Hay estacionamiento para personas con movilidad reducida junto a la entrada." },
           { es: "He died by suicide in 2019.", en: "Se suicidó en 2019." },
           { es: "Many autistic adults prefer to be called autistic people.", en: "Muchos adultos autistas prefieren que se les llame «personas autistas»." },
         ],
@@ -1552,7 +1552,7 @@ export const EN_C2_U08: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English, using gender-neutral language.",
-        source: "Cada empleado debe traer su portátil a la formación.",
+        source: "Cada empleado debe traer su laptop a la capacitación.",
         answer: "Each employee should bring their laptop to the training.",
         altAnswers: [
           "Each employee must bring their laptop to the training.",
@@ -1579,11 +1579,11 @@ export const EN_C2_U08: Lesson[] = [
         options: [
           "Muy borracho, en tono coloquial.",
           "Muy cansado, en tono formal.",
-          "Muy enfadado, en tono neutro.",
+          "Muy enojado, en tono neutro.",
           "Herido en una pelea.",
         ],
         correctIndex: 0,
-        explanation: "\"Hammered\" is a colloquial, mildly dysphemistic word for very drunk, like Spanish «ir como una cuba».",
+        explanation: "\"Hammered\" is a colloquial, mildly dysphemistic word for very drunk, like Spanish «estar bien borracho» or «estar hasta atrás».",
       },
       {
         type: "speak",
@@ -1615,7 +1615,7 @@ export const EN_C2_U08: Lesson[] = [
           { es: "Unfortunately, we are unable to offer you the position.", en: "Lamentablemente, no podemos ofrecerle el puesto." },
           { es: "After careful consideration, we have made the difficult decision to close the Valencia office.", en: "Tras estudiarlo detenidamente, hemos tomado la difícil decisión de cerrar la oficina de Valencia." },
           { es: "We're sorry to let you know that your order has been delayed.", en: "Sentimos comunicarle que su pedido se ha retrasado." },
-          { es: "Prices will increase by five percent from 1 March.", en: "Los precios subirán un cinco por ciento a partir del 1 de marzo." },
+          { es: "Prices will increase by five percent starting March 1.", en: "Los precios subirán un cinco por ciento a partir del 1 de marzo." },
           { es: "Our HR team will be in touch to discuss the support available.", en: "Nuestro equipo de RR. HH. se pondrá en contacto con usted para hablar de las ayudas disponibles." },
         ],
         checkpoint: [
@@ -1645,7 +1645,7 @@ export const EN_C2_U08: Lesson[] = [
             type: "multiple-choice",
             question: "Which sentence is softened but still clear?",
             options: [
-              "We're sorry to tell you that your role will no longer exist after 30 June.",
+              "We're sorry to tell you that your role will no longer exist after June 30.",
               "Your future journey may be impacted by organizational changes.",
               "You're fired.",
               "Some positions could potentially be reviewed going forward.",
@@ -1658,12 +1658,12 @@ export const EN_C2_U08: Lesson[] = [
       {
         heading: "Rewriting blunt messages",
         body: [
-          "Price rises: blunt \"We're putting our prices up\" becomes \"To continue providing the quality you expect, we will be increasing our prices by 4% from 1 April\". Notice the reason comes first and the number is still there.",
+          "Price rises: blunt \"We're putting our prices up\" becomes \"To continue providing the quality you expect, we will be increasing our prices by 4% starting April 1\". Notice the reason comes first and the number is still there.",
           "Failed projects: \"The project failed\" becomes \"The project did not deliver the results we had hoped for, and we have decided to bring it to a close\". Layoffs: \"We are firing 50 people\" becomes \"We have made the difficult decision to reduce the size of our team by 50 roles\". Rejections: \"Your proposal is bad\" becomes \"Your proposal doesn't quite meet our needs at this stage\".",
           "Notice what these rewrites keep: the fact, the number and the date. What they add: a reason, regret, and future support. What they remove: blame and emotional words.",
         ],
         examples: [
-          { es: "We will be increasing our prices by four percent from 1 April.", en: "Subiremos nuestros precios un cuatro por ciento a partir del 1 de abril." },
+          { es: "We will be increasing our prices by four percent starting April 1.", en: "Subiremos nuestros precios un cuatro por ciento a partir del 1 de abril." },
           { es: "The project did not deliver the results we had hoped for.", en: "El proyecto no dio los resultados que esperábamos." },
           { es: "We have decided to bring the project to a close.", en: "Hemos decidido dar por terminado el proyecto." },
           { es: "Your proposal doesn't quite meet our needs at this stage.", en: "Su propuesta no se ajusta del todo a nuestras necesidades en este momento." },
@@ -1856,7 +1856,7 @@ export const EN_C2_U08: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Rewrite this blunt internal message diplomatically (50-80 words), keeping all the facts: \"The new app was a failure. We are stopping it on 31 May. The 6 people on the team will move to other projects.\"",
+        prompt: "Rewrite this blunt internal message diplomatically (50-80 words), keeping all the facts: \"The new app was a failure. We are stopping it on May 31. The 6 people on the team will move to other projects.\"",
         minWords: 50,
         maxWords: 80,
         rubric: [
@@ -1865,7 +1865,7 @@ export const EN_C2_U08: Lesson[] = [
           "Acknowledges the team's work.",
           "Remains clear: no reader could think the app is continuing.",
         ],
-        modelAnswer: "Dear all, after careful consideration, we have made the difficult decision to bring the new app to a close on 31 May. Despite the team's hard work and creativity, it has not delivered the results we had hoped for. All six members of the app team will be moving to other projects, and their managers will be in touch this week to discuss next steps. Thank you for everything you have put into it.",
+        modelAnswer: "Dear all, after careful consideration, we have made the difficult decision to bring the new app to a close on May 31. Despite the team's hard work and creativity, it has not delivered the results we had hoped for. All six members of the app team will be moving to other projects, and their managers will be in touch this week to discuss next steps. Thank you for everything you have put into it.",
         explanation: "Good diplomatic writing adds regret, reasons and recognition but never removes the facts.",
       },
       {
@@ -1885,7 +1885,7 @@ export const EN_C2_U08: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["We", "regret", "to", "inform", "you", "that", "the", "event", "has", "been", "cancelled."],
+        words: ["We", "regret", "to", "inform", "you", "that", "the", "event", "has", "been", "canceled."],
         translation: "Lamentamos comunicarle que el evento se ha cancelado.",
         explanation: "\"We regret to inform you that...\" is the formal regret frame for announcing bad news.",
       },
@@ -1971,15 +1971,15 @@ export const EN_C2_U08: Lesson[] = [
       {
         heading: "Asking for things in shops, bars and offices",
         body: [
-          "«Ponme una caña», «Dame un café» and «Quiero un billete» are normal service Spanish. In English, \"Give me a coffee\" and \"I want a ticket\" sound rude or childish, even with \"please\" added. Use a question or \"I'd like\": \"Could I have a coffee, please?\", \"Can I get a coffee?\" (very common in the US), \"I'll have the salmon, please\", \"I'd like a return ticket to Leeds, please\".",
+          "«Dame una cerveza», «Dame un café» and «Quiero un boleto» are normal service Spanish. In English, \"Give me a coffee\" and \"I want a ticket\" sound rude or childish, even with \"please\" added. Use a question or \"I'd like\": \"Could I have a coffee, please?\", \"Can I get a coffee?\" (very common in the US), \"I'll have the salmon, please\", \"I'd like a round-trip ticket to Leeds, please\".",
           "In offices, the same rule applies to colleagues. «Mándame el archivo» becomes \"Could you send me the file?\" or, in writing, \"Would you be able to send me the file?\". A direct imperative is acceptable for instructions that are clearly part of someone's job and in emergencies, but softeners (\"Just\", \"when you get a chance\") are still common.",
-          "Note that \"please\" does not turn an order into a request. \"Please send me the report today\" is still an order; it is polite in tone but leaves no choice. If you are asking a favour, use a question.",
+          "Note that \"please\" does not turn an order into a request. \"Please send me the report today\" is still an order; it is polite in tone but leaves no choice. If you are asking a favor, use a question.",
         ],
         examples: [
-          { es: "Could I have a black coffee, please?", en: "Ponme un café solo, por favor." },
+          { es: "Could I have a black coffee, please?", en: "Me da un café negro, por favor." },
           { es: "Can I get a large latte to go?", en: "Un café con leche grande para llevar. (US)" },
           { es: "I'll have the chicken salad, please.", en: "Para mí, la ensalada de pollo." },
-          { es: "I'd like a return ticket to Leeds, please.", en: "Quiero un billete de ida y vuelta a Leeds, por favor." },
+          { es: "I'd like a round-trip ticket to Leeds, please.", en: "Quiero un boleto de ida y vuelta a Leeds, por favor." },
           { es: "Could you send me the file when you get a chance?", en: "Mándame el archivo cuando puedas." },
         ],
         checkpoint: [
@@ -1987,7 +1987,7 @@ export const EN_C2_U08: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English, as a polite customer.",
-            source: "Ponme una cerveza y un agua sin gas, por favor.",
+            source: "Me da una cerveza y un agua sin gas, por favor.",
             answer: "Could I have a beer and a still water, please?",
             altAnswers: [
               "Could I have a beer and a still water please?",
@@ -2016,7 +2016,7 @@ export const EN_C2_U08: Lesson[] = [
           "Useful refusal phrases: \"I'm afraid I can't\", \"I'm not sure I can manage that\", \"I'll have to pass on this one\", \"That's not something I can do, unfortunately\", \"I'm going to have to say no this time\". For invitations, Americans often say \"Can I take a rain check?\" (another time, please).",
         ],
         examples: [
-          { es: "I'm afraid I can't take that on this week. I'm snowed under with the audit.", en: "Me temo que esta semana no puedo encargarme de eso. Estoy hasta arriba con la auditoría." },
+          { es: "I'm afraid I can't take that on this week. I'm snowed under with the audit.", en: "Me temo que esta semana no puedo encargarme de eso. Estoy hasta el cuello con la auditoría." },
           { es: "Could it wait until Monday?", en: "¿Puede esperar al lunes?" },
           { es: "Maybe Ana could help? She knows the client well.", en: "¿Quizá te pueda ayudar Ana? Conoce bien al cliente." },
           { es: "Thanks for thinking of me, but I'll have to pass on this one.", en: "Gracias por acordarte de mí, pero esta vez voy a tener que decir que no." },
@@ -2065,9 +2065,9 @@ export const EN_C2_U08: Lesson[] = [
       {
         heading: "Sorry, excuse me and pardon",
         body: [
-          "«Perdona» covers several English words. To get someone's attention or pass through a crowd: \"Excuse me\". To apologise: \"Sorry\" or \"I'm so sorry\". To ask someone to repeat: \"Sorry?\" (UK), \"Excuse me?\" or \"Pardon?\" (more formal, or used by older speakers). Note that \"Excuse me?\" with a sharp rising tone can mean \"How dare you say that?\".",
+          "«Perdona» covers several English words. To get someone's attention or pass through a crowd: \"Excuse me\". To apologize: \"Sorry\" or \"I'm so sorry\". To ask someone to repeat: \"Sorry?\" (UK), \"Excuse me?\" or \"Pardon?\" (more formal, or used by older speakers). Note that \"Excuse me?\" with a sharp rising tone can mean \"How dare you say that?\".",
           "\"Sorry\" also expresses sympathy, not guilt: \"I'm sorry to hear about your father\" means «siento lo de tu padre». And British speakers often say \"Sorry\" when someone else bumps into them; it is a social reflex, not an admission of fault.",
-          "Apologising for interrupting or troubling someone is a standard opening for requests: \"Sorry to bother you, but...\", \"Sorry to interrupt, but...\", \"I'm sorry, could you say that again?\". Spanish speakers often skip this and go straight to the request, which can feel abrupt to English ears.",
+          "Apologizing for interrupting or troubling someone is a standard opening for requests: \"Sorry to bother you, but...\", \"Sorry to interrupt, but...\", \"I'm sorry, could you say that again?\". Spanish speakers often skip this and go straight to the request, which can feel abrupt to English ears.",
         ],
         examples: [
           { es: "Excuse me, is this seat free?", en: "Perdona, ¿está libre este asiento?" },
@@ -2147,7 +2147,7 @@ export const EN_C2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which request is the most polite way to ask a senior colleague you don't know well for a favour?",
+        question: "Which request is the most polite way to ask a senior colleague you don't know well for a favor?",
         options: [
           "Sorry to bother you, but would you be able to look over my report before Friday?",
           "Please look over my report before Friday.",
@@ -2196,7 +2196,7 @@ export const EN_C2_U08: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Would you like some more cake? No, I'm fine, ___.",
         answer: "thanks",
-        en: "¿Quieres más tarta? No, estoy bien, [gracias].",
+        en: "¿Quieres más pastel? No, estoy bien, [gracias].",
         altAnswers: ["thank you"],
         explanation: "Refusing an offer, English adds \"thanks\": \"No, thanks\" or \"No, I'm fine, thanks\". A bare \"No\" sounds ungrateful.",
       },
@@ -2233,7 +2233,7 @@ export const EN_C2_U08: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Your manager asks you by email to organise the team's end-of-year dinner, on top of a heavy workload. You can't do it. Write a short reply that refuses politely, gives a brief reason and offers an alternative.",
+        prompt: "Your manager asks you by email to organize the team's end-of-year dinner, on top of a heavy workload. You can't do it. Write a short reply that refuses politely, gives a brief reason and offers an alternative.",
         minWords: 50,
         maxWords: 100,
         rubric: [
@@ -2242,7 +2242,7 @@ export const EN_C2_U08: Lesson[] = [
           "Offers a concrete alternative (another person, a later date, partial help).",
           "Avoids a bare no and keeps a warm, professional tone.",
         ],
-        modelAnswer: "Hi Sarah,\n\nThanks for thinking of me for the dinner, and I'd genuinely like to help. I'm afraid I can't take on the organising this time, though, as I'm snowed under with the year-end accounts until the 20th.\n\nWould it help if I booked the restaurant once someone has chosen a date? Alternatively, Diego mentioned he'd be happy to get involved, so he might be a good person to ask.\n\nBest,\nAna",
+        modelAnswer: "Hi Sarah,\n\nThanks for thinking of me for the dinner, and I'd genuinely like to help. I'm afraid I can't take on the organizing this time, though, as I'm snowed under with the year-end accounts until the 20th.\n\nWould it help if I booked the restaurant once someone has chosen a date? Alternatively, Diego mentioned he'd be happy to get involved, so he might be a good person to ask.\n\nBest,\nAna",
         explanation: "Appreciation, regret, a reason in one clause, two alternatives: the manager gets a no, but also a way forward.",
       },
     ],
@@ -2316,7 +2316,7 @@ export const EN_C2_U08: Lesson[] = [
         ],
         examples: [
           { es: "She was always so kind to me.", en: "Siempre fue muy cariñosa conmigo." },
-          { es: "He will be greatly missed.", en: "Lo echaremos mucho de menos." },
+          { es: "He will be greatly missed.", en: "Lo vamos a extrañar mucho." },
           { es: "I know how close you were to your grandmother.", en: "Sé lo unida que estabas a tu abuela." },
           { es: "If there's anything I can do, please let me know.", en: "Si puedo hacer algo, no dudes en decírmelo." },
           { es: "Please don't worry about work. Take all the time you need.", en: "No te preocupes por el trabajo. Tómate todo el tiempo que necesites." },
@@ -2352,8 +2352,8 @@ export const EN_C2_U08: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "Your mother was a wonderful woman. She will be greatly ___.",
             answer: "missed",
-            en: "Tu madre era una mujer maravillosa. La [echaremos] mucho [de menos].",
-            explanation: "\"She will be greatly missed\" is the standard phrase. «Echar de menos» is \"miss\".",
+            en: "Tu madre era una mujer maravillosa. La vamos a [extrañar] mucho.",
+            explanation: "\"She will be greatly missed\" is the standard phrase. «Extrañar» is \"miss\".",
           },
         ],
       },
@@ -2461,7 +2461,7 @@ export const EN_C2_U08: Lesson[] = [
           { left: "I'm so sorry for your loss.", right: "Te acompaño en el sentimiento." },
           { left: "My deepest condolences.", right: "Mi más sentido pésame." },
           { left: "Thinking of you.", right: "Te tengo muy presente." },
-          { left: "He will be greatly missed.", right: "Lo echaremos mucho de menos." },
+          { left: "He will be greatly missed.", right: "Lo vamos a extrañar mucho." },
           { left: "Sending you a big hug.", right: "Un fuerte abrazo." },
         ],
         explanation: "None of these formulas works word for word; each has its own fixed English form.",
@@ -2581,9 +2581,9 @@ export const EN_C2_U08: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "El difunto señor Wilson dejó toda su fortuna a una ONG.",
-        answer: "The late Mr Wilson left his entire fortune to a charity.",
+        answer: "The late Mr. Wilson left his entire fortune to a charity.",
         altAnswers: [
-          "The late Mr. Wilson left his entire fortune to a charity.",
+          "The late Mr Wilson left his entire fortune to a charity.",
           "The late Mr Wilson left his whole fortune to a charity.",
           "The late Mr. Wilson left his whole fortune to a charity.",
           "The late Mr Wilson left all his money to a charity.",
@@ -2605,7 +2605,7 @@ export const EN_C2_U08: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ahora mismo estoy en paro, pero tengo un par de entrevistas la semana que viene.",
+        source: "Ahora mismo estoy sin trabajo, pero tengo un par de entrevistas la semana que viene.",
         answer: "I'm between jobs at the moment, but I've got a couple of interviews next week.",
         altAnswers: [
           "I'm between jobs at the moment, but I have a couple of interviews next week.",
@@ -2626,7 +2626,7 @@ export const EN_C2_U08: Lesson[] = [
           "I'm between jobs at the moment, but I've got a couple of interviews lined up next week.",
           "I'm between jobs at the moment, but I've got a couple of interviews coming up next week.",
         ],
-        explanation: "Socially, \"between jobs\" is the gentlest option; \"out of work\" and \"unemployed\" are neutral. «En paro» is never *in the stop or *in unemployment.",
+        explanation: "Socially, \"between jobs\" is the gentlest option; \"out of work\" and \"unemployed\" are neutral. Avoid the calque *in unemployment.",
       },
       {
         type: "multiple-choice",
@@ -2730,7 +2730,7 @@ export const EN_C2_U08: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Sentí muchísimo enterarme de lo de tu abuelo. Lo echaremos mucho de menos.",
+        source: "Sentí muchísimo enterarme de lo de tu abuelo. Lo vamos a extrañar mucho.",
         answer: "I was so sorry to hear about your grandfather. He will be greatly missed.",
         altAnswers: [
           "I was so sorry to hear about your grandfather. He'll be greatly missed.",
@@ -2751,7 +2751,7 @@ export const EN_C2_U08: Lesson[] = [
           "I was so sorry to hear about your grandfather. He will be very much missed.",
           "I was so sorry to hear about your grandfather. He will be missed very much.",
         ],
-        explanation: "\"I was so sorry to hear about...\" plus \"He will be greatly missed\" is a complete, natural condolence. «Echar de menos» is \"miss\".",
+        explanation: "\"I was so sorry to hear about...\" plus \"He will be greatly missed\" is a complete, natural condolence. «Extrañar» is \"miss\".",
       },
       {
         type: "word-order",
@@ -2763,7 +2763,7 @@ export const EN_C2_U08: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Your company is raising its subscription price from 10 to 12 euros a month from 1 September. Write a short message to customers (50-80 words) that is tactful but clear: give the reason, the new price, the date and what customers can do.",
+        prompt: "Your company is raising its subscription price from 10 to 12 euros a month starting September 1. Write a short message to customers (50-80 words) that is tactful but clear: give the reason, the new price, the date and what customers can do.",
         minWords: 50,
         maxWords: 80,
         rubric: [
@@ -2772,7 +2772,7 @@ export const EN_C2_U08: Lesson[] = [
           "Tells customers what they can do (no action needed, how to cancel or change plan).",
           "Honest: no spin such as \"price optimization\" that hides the increase.",
         ],
-        modelAnswer: "Dear customer, to keep improving our service and cover rising costs, we will be increasing the price of your subscription from 10 to 12 euros a month from 1 September. We know nobody likes a price rise, and we have kept it as small as we can. You don't need to do anything to keep your subscription, but you can change your plan or cancel at any time in your account settings. Thank you for being with us.",
+        modelAnswer: "Dear customer, to keep improving our service and cover rising costs, we will be increasing the price of your subscription from 10 to 12 euros a month starting September 1. We know nobody likes a price rise, and we have kept it as small as we can. You don't need to do anything to keep your subscription, but you can change your plan or cancel at any time in your account settings. Thank you for being with us.",
         explanation: "Tactful corporate writing frames bad news with reasons and empathy, but keeps every fact the reader needs.",
       },
     ],

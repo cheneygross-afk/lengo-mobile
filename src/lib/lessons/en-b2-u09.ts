@@ -104,7 +104,7 @@ export const EN_B2_U09: Lesson[] = [
           { es: "I could have been killed.", en: "Me podría haber matado." },
           { es: "We could have missed the flight.", en: "Podríamos haber perdido el vuelo." },
           { es: "It could have been much worse.", en: "Podría haber sido mucho peor." },
-          { es: "If I hadn't braked in time, I would have hit the car in front.", en: "Si no hubiera frenado a tiempo, habría chocado con el coche de delante." },
+          { es: "If I hadn't braked in time, I would have hit the car in front.", en: "Si no hubiera frenado a tiempo, habría chocado con el carro de delante." },
           { es: "That was close!", en: "¡Por los pelos!" },
           { es: "I was lucky the ice didn't break.", en: "Tuve suerte de que el hielo no se rompiera." },
         ],
@@ -631,8 +631,8 @@ export const EN_B2_U09: Lesson[] = [
         ],
         examples: [
           { es: "You can't have heard what I really said.", en: "No puedes haber oído lo que dije de verdad. (incorrecto: *mustn't have heard)" },
-          { es: "You must be really angry with me.", en: "Debes de estar muy enfadada conmigo. (incorrecto: *must to be)" },
-          { es: "You must have been really angry.", en: "Debiste de enfadarte mucho." },
+          { es: "You must be really angry with me.", en: "Debes de estar muy enojada conmigo. (incorrecto: *must to be)" },
+          { es: "You must have been really angry.", en: "Debiste de enojarte mucho." },
           { es: "She couldn't have known.", en: "No podía saberlo." },
           { es: "You mustn't tell anyone.", en: "No debes decírselo a nadie. (prohibición)" },
         ],
@@ -678,7 +678,7 @@ export const EN_B2_U09: Lesson[] = [
           { es: "I should have called you on Sunday.", en: "Debería haberte llamado el domingo. (incorrecto: *should of)" },
           { es: "If I had known you were upset, I would have stayed.", en: "Si hubiera sabido que estabas disgustada, me habría quedado." },
           { es: "I should have written to you sooner.", en: "Debería haberte escrito antes." },
-          { es: "We should have taken a taxi.", en: "Deberíamos haber cogido un taxi." },
+          { es: "We should have taken a taxi.", en: "Deberíamos haber tomado un taxi." },
         ],
         checkpoint: [
           {
@@ -807,7 +807,7 @@ export const EN_B2_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si me lo hubieras dicho, no me habría enfadado.",
+        source: "Si me lo hubieras dicho, no me habría enojado.",
         answer: "If you had told me, I wouldn't have gotten angry.",
         altAnswers: [
           "If you had told me, I wouldn't have got angry.",
@@ -823,7 +823,7 @@ export const EN_B2_U09: Lesson[] = [
           "I wouldn't have been angry if you had told me.",
           "Had you told me, I wouldn't have gotten angry.",
         ],
-        explanation: "Third conditional: \"if\" + past perfect, \"would have\" + participle. «Enfadarse» is \"get angry\" (\"get mad\" in informal American English).",
+        explanation: "Third conditional: \"if\" + past perfect, \"would have\" + participle. «Enojarse» is \"get angry\" (\"get mad\" in informal American English).",
       },
       {
         type: "word-order",
@@ -966,8 +966,8 @@ export const EN_B2_U09: Lesson[] = [
           { es: "He should have called. I was worried.", en: "Debería haber llamado. Estaba preocupada." },
           { es: "She had to leave early.", en: "Tuvo que irse temprano." },
           { es: "She must have left early.", en: "Debe de haberse ido temprano." },
-          { es: "You could have taken the bus!", en: "¡Podrías haber cogido el autobús!" },
-          { es: "He could have taken the bus. I'm not sure.", en: "Puede que cogiera el autobús. No estoy seguro." },
+          { es: "You could have taken the bus!", en: "¡Podrías haber tomado el autobús!" },
+          { es: "He could have taken the bus. I'm not sure.", en: "Puede que tomara el autobús. No estoy seguro." },
         ],
         checkpoint: [
           {
@@ -1078,7 +1078,7 @@ export const EN_B2_U09: Lesson[] = [
         sentence: "Look at this traffic. We ___ the train.",
         answer: "should have taken",
         altAnswers: ["ought to have taken", "should have caught"],
-        en: "Mira este tráfico. [Deberíamos haber cogido] el tren.",
+        en: "Mira este tráfico. [Deberíamos haber tomado] el tren.",
         explanation: "A regret about a past choice: \"should have\" + participle.",
       },
       {
@@ -1141,7 +1141,7 @@ export const EN_B2_U09: Lesson[] = [
           { es: "She must have forgotten.", en: "Se le debe de haber olvidado." },
           { es: "She must have been busy.", en: "Estaría ocupada." },
           { es: "She must have gone home.", en: "Debe de haberse ido a casa." },
-          { es: "She must have taken a taxi.", en: "Debe de haber cogido un taxi." },
+          { es: "She must have taken a taxi.", en: "Debe de haber tomado un taxi." },
           { es: "She must have been sleeping.", en: "Estaría durmiendo." },
           { es: "She must have fallen.", en: "Debe de haberse caído." },
         ],
@@ -1234,7 +1234,7 @@ export const EN_B2_U09: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "No deberías haber conducido tan rápido.",
+            source: "No deberías haber manejado tan rápido.",
             answer: "You shouldn't have driven so fast.",
             altAnswers: ["You should not have driven so fast.", "You shouldn't have been driving so fast.", "You ought not to have driven so fast."],
             explanation: "Criticism: \"shouldn't have\" + participle; \"drive, drove, driven\".",
@@ -1273,7 +1273,7 @@ export const EN_B2_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Debe de haber perdido el móvil.",
+        source: "Debe de haber perdido el celular.",
         answer: "She must have lost her phone.",
         altAnswers: [
           "He must have lost his phone.",
@@ -1285,7 +1285,7 @@ export const EN_B2_U09: Lesson[] = [
           "He must have lost his mobile phone.",
           "I must have lost my phone.",
         ],
-        explanation: "\"Must have\" + participle. Spanish says «el móvil», but English uses the possessive with personal things: \"her phone\", \"his phone\".",
+        explanation: "\"Must have\" + participle. Spanish says «el celular», but English uses the possessive with personal things: \"her phone\", \"his phone\".",
       },
       {
         type: "translate",
@@ -1353,7 +1353,7 @@ export const EN_B2_U09: Lesson[] = [
           { left: "gone", right: "ido" },
           { left: "worn", right: "llevado puesto" },
           { left: "forgotten", right: "olvidado" },
-          { left: "driven", right: "conducido" },
+          { left: "driven", right: "manejado" },
           { left: "spent", right: "gastado" },
         ],
         explanation: "After modal + \"have\" you always need the past participle, so these irregular forms must be automatic.",
@@ -1382,7 +1382,7 @@ export const EN_B2_U09: Lesson[] = [
           "The negatives are very different: \"mustn't\" is a prohibition («no debes, está prohibido») and \"don't have to\" means it is not necessary («no hace falta»). Spanish speakers often say \"mustn't\" when they mean \"don't have to\".",
         ],
         examples: [
-          { es: "You mustn't park here.", en: "No puedes aparcar aquí. (prohibido)" },
+          { es: "You mustn't park here.", en: "No puedes estacionar aquí. (prohibido)" },
           { es: "You don't have to come if you don't want to.", en: "No hace falta que vengas si no quieres." },
           { es: "I had to work late yesterday.", en: "Ayer tuve que trabajar hasta tarde." },
           { es: "We didn't have to pay.", en: "No tuvimos que pagar." },
@@ -2202,7 +2202,7 @@ export const EN_B2_U09: Lesson[] = [
         ],
         examples: [
           { es: "I should have left earlier.", en: "Debería haber salido antes." },
-          { es: "If I had left earlier, I could have caught the bus.", en: "Si hubiera salido antes, podría haber cogido el autobús." },
+          { es: "If I had left earlier, I could have caught the bus.", en: "Si hubiera salido antes, podría haber tomado el autobús." },
           { es: "She must have forgotten our date.", en: "Debe de haberse olvidado de nuestra cita." },
           { es: "He can't have done it on purpose.", en: "No puede haberlo hecho a propósito." },
           { es: "They might have changed their plans.", en: "Puede que hayan cambiado de planes." },
@@ -2233,7 +2233,7 @@ export const EN_B2_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si tuviera coche, te llevaría al aeropuerto.",
+        source: "Si tuviera carro, te llevaría al aeropuerto.",
         answer: "If I had a car, I would take you to the airport.",
         altAnswers: [
           "If I had a car, I would drive you to the airport.",
@@ -2359,7 +2359,7 @@ export const EN_B2_U09: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["If", "I", "had", "left", "earlier,", "I", "would", "have", "caught", "the", "bus"],
-        translation: "Si hubiera salido antes, habría cogido el autobús.",
+        translation: "Si hubiera salido antes, habría tomado el autobús.",
         altOrders: [["I", "would", "have", "caught", "the", "bus", "if", "I", "had", "left", "earlier,"]],
         explanation: "Third conditional: \"if\" + past perfect, \"would have\" + participle. The two clauses can go in either order.",
       },

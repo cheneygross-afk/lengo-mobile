@@ -64,6 +64,15 @@ function looksEnglish(text: string): boolean {
   return words.some((w) => ENGLISH_FUNCTION_WORDS.has(w));
 }
 
+// English function words that are also everyday German words.
+const SHARED_WITH_GERMAN = new Set(["in", "was", "an", "so", "also", "will", "die", "war", "form", "best", "fill"]);
+
+function looksEnglishNotGerman(text: string): boolean {
+  if (/[äöüß]/i.test(text)) return false;
+  const words = text.toLowerCase().match(/[a-z]+/g) ?? [];
+  return words.some((w) => ENGLISH_FUNCTION_WORDS.has(w) && !SHARED_WITH_GERMAN.has(w));
+}
+
 // Returns the tappable target-language spans within `text`. For Japanese,
 // that's every run of Japanese script. For Spanish -- which shares a
 // script with the English framing text -- quoted spans first, or (when
@@ -94,6 +103,14 @@ export function targetSpans(text: string, lang: SpeechLang): Span[] {
     const quoted = quotedSpans(text);
     if (quoted.length > 0) return quoted;
     if (text.trim() && !looksEnglish(text)) return [{ start: 0, end: text.length, text }];
+    return [];
+  }
+  // German too, but German shares short words with English ("in", "was",
+  // "an", "will"), so only clearly English words count as framing.
+  if (lang === "de-DE") {
+    const quoted = quotedSpans(text);
+    if (quoted.length > 0) return quoted;
+    if (text.trim() && !looksEnglishNotGerman(text)) return [{ start: 0, end: text.length, text }];
     return [];
   }
   return [];

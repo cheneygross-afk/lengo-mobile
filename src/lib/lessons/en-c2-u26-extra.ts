@@ -72,10 +72,10 @@ export const EN_C2_U26_EXTRA: Lesson[] = [
             type: "multiple-choice",
             question: "Choose the correct sentence.",
             options: [
-              "It is known that bees can recognise faces.",
-              "Is known that bees can recognise faces.",
-              "It knows that bees can recognise faces.",
-              "Is known bees can recognise faces.",
+              "It is known that bees can recognize faces.",
+              "Is known that bees can recognize faces.",
+              "It knows that bees can recognize faces.",
+              "Is known bees can recognize faces.",
             ],
             correctIndex: 0,
             explanation: "The impersonal passive needs \"It\": \"It is known that...\". *It knows means the subject itself knows something.",
@@ -438,7 +438,7 @@ export const EN_C2_U26_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Se ha descubierto que la proteína desempeña un papel clave en el envejecimiento.",
-        answer: "The protein has been found to play a key role in ageing.",
+        answer: "The protein has been found to play a key role in aging.",
         altAnswers: [
           "The protein has been found to play a key role in aging.",
           "The protein has been found to play a key role in the ageing process.",

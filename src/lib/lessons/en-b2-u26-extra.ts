@@ -231,7 +231,7 @@ export const EN_B2_U26_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: the relationship verbs",
         body: [
-          "\"Get on (well) with\" someone = «llevarse bien con» (American English also says \"get along with\"). \"Fall out with\" someone = stop being friends after an argument («enfadarse, pelearse con»). \"Make up\" = become friends again («hacer las paces, reconciliarse»).",
+          "\"Get on (well) with\" someone = «llevarse bien con» (American English also says \"get along with\"). \"Fall out with\" someone = stop being friends after an argument («enojarse, pelearse con»). \"Make up\" = become friends again («hacer las paces, reconciliarse»).",
           "\"Go out with\" someone = have a romantic relationship («salir con»). \"Break up (with)\" = end it («cortar, romper con»). Then \"get engaged\" («prometerse») and \"get married\" («casarse»).",
         ],
         examples: [
@@ -681,7 +681,7 @@ export const EN_B2_U26_EXTRA: Lesson[] = [
           { es: "I'm afraid of flying.", en: "Me da miedo volar." },
           { es: "Are you interested in joining the club?", en: "¿Te interesa unirte al club?" },
           { es: "We're very proud of you.", en: "Estamos muy orgullosos de ti." },
-          { es: "Your phone is very similar to mine.", en: "Tu móvil se parece mucho al mío." },
+          { es: "Your phone is very similar to mine.", en: "Tu celular se parece mucho al mío." },
         ],
         checkpoint: [
           {
@@ -823,7 +823,7 @@ export const EN_B2_U26_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["She's", "scared", "of", "driving", "at", "night"],
-        translation: "Le da miedo conducir de noche.",
+        translation: "Le da miedo manejar de noche.",
         altOrders: [["At", "night", "she's", "scared", "of", "driving"]],
         explanation: "\"Scared of\" + -ing: \"scared of driving\". «De noche» = \"at night\".",
       },
@@ -907,7 +907,7 @@ export const EN_B2_U26_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La reparación del coche nos costó un ojo de la cara.",
+        source: "La reparación del carro nos costó un ojo de la cara.",
         answer: "The car repair cost us an arm and a leg.",
         altAnswers: ["Repairing the car cost us an arm and a leg.", "The repair on the car cost us an arm and a leg.", "Fixing the car cost us an arm and a leg.", "The car repairs cost us an arm and a leg."],
         explanation: "«Costar un ojo de la cara» = \"cost an arm and a leg\". \"Cost\" is irregular: cost, cost, cost.",
@@ -1019,7 +1019,7 @@ export const EN_B2_U26_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El examen de conducir no fue pan comido: suspendí dos veces.",
+        source: "El examen de manejar no fue pan comido: suspendí dos veces.",
         answer: "The driving test wasn't a piece of cake: I failed twice.",
         altAnswers: ["The driving test wasn't a piece of cake. I failed twice.", "The driving test was no piece of cake: I failed twice.", "The driving test was no piece of cake. I failed twice.", "The driving test wasn't a piece of cake: I failed it twice.", "The driving test wasn't a piece of cake. I failed it twice.", "My driving test wasn't a piece of cake: I failed twice.", "My driving test wasn't a piece of cake. I failed twice."],
         explanation: "\"A piece of cake\" works in the negative too. «Suspender» = \"fail\".",
@@ -1069,7 +1069,7 @@ export const EN_B2_U26_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "It's impossible to sleep with this noise.", en: "Es imposible dormir con este ruido. (incorrecto: *unpossible)" },
-          { es: "Parking here is illegal.", en: "Aparcar aquí es ilegal." },
+          { es: "Parking here is illegal.", en: "Estacionar aquí es ilegal." },
           { es: "That was a really irresponsible thing to do.", en: "Eso fue muy irresponsable. (incorrecto: *inresponsible)" },
           { es: "These shoes are really uncomfortable.", en: "Estos zapatos son muy incómodos." },
           { es: "I disagree with you.", en: "No estoy de acuerdo contigo." },
@@ -1125,7 +1125,7 @@ export const EN_B2_U26_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Leaving a child alone in the car is completely ___.",
         answer: "irresponsible",
-        en: "Dejar a un niño solo en el coche es totalmente [irresponsable].",
+        en: "Dejar a un niño solo en el carro es totalmente [irresponsable].",
         explanation: "\"Ir-\" before r: \"irresponsible\", with -ible.",
       },
       {

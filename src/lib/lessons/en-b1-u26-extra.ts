@@ -310,7 +310,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The car stopped because we ___ gas.",
         answer: "ran out of",
-        en: "El coche se paró porque [nos quedamos sin] gasolina.",
+        en: "El carro se paró porque [nos quedamos sin] gasolina.",
         explanation: "«Quedarse sin» is \"run out of\", with \"of\" before the noun. Americans say \"gas\"; the British say \"petrol\".",
       },
       {
@@ -611,14 +611,14 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         heading: "Quick recap: the meanings of get",
         body: [
           "\"Get\" is one of the most common verbs in spoken English. Its main meanings: receive (\"I got a message\"), obtain or buy (\"get some milk\"), arrive (\"get home\", \"get to work\"), become (\"get tired\", \"get dark\", \"get better\") and understand (\"I don't get it\").",
-          "Many Spanish reflexive verbs become get + adjective or participle: «ponerse nervioso» = \"get nervous\", «enfadarse» = \"get angry\", «casarse» = \"get married\", «perderse» = \"get lost\", «vestirse» = \"get dressed\".",
+          "Many Spanish reflexive verbs become get + adjective or participle: «ponerse nervioso» = \"get nervous\", «enojarse» = \"get angry\", «casarse» = \"get married\", «perderse» = \"get lost\", «vestirse» = \"get dressed\".",
           "Careful with arriving: \"get to\" + place, but \"get home\" with no \"to\".",
         ],
         examples: [
           { es: "I got a letter from the bank.", en: "Recibí una carta del banco." },
           { es: "Can you get some bread on your way home?", en: "¿Puedes comprar pan de camino a casa?" },
           { es: "What time did you get to the office?", en: "¿A qué hora llegaste a la oficina?" },
-          { es: "My mom gets angry when I'm late.", en: "Mi madre se enfada cuando llego tarde." },
+          { es: "My mom gets angry when I'm late.", en: "Mi madre se enoja cuando llego tarde." },
           { es: "Sorry, I don't get it.", en: "Perdona, no lo entiendo." },
         ],
         checkpoint: [
@@ -657,10 +657,10 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi padre se enfada cuando llego tarde.",
+        source: "Mi padre se enoja cuando llego tarde.",
         answer: "My father gets angry when I arrive late.",
         altAnswers: ["My dad gets angry when I arrive late.", "My father gets angry when I get home late.", "My dad gets angry when I get home late.", "My father gets angry when I'm late.", "My dad gets angry when I'm late.", "My father gets mad when I arrive late.", "My dad gets mad when I arrive late.", "My dad gets mad when I'm late.", "My father gets angry when I come home late.", "My dad gets angry when I come home late."],
-        explanation: "«Enfadarse» is \"get angry\" (US also \"get mad\"). Spanish reflexive verbs of feeling often become get + adjective.",
+        explanation: "«Enojarse» is \"get angry\" (US also \"get mad\"). Spanish reflexive verbs of feeling often become get + adjective.",
       },
       {
         type: "translate",
@@ -915,7 +915,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mañana hago el examen de conducir.",
+        source: "Mañana hago el examen de manejar.",
         answer: "I'm taking my driving test tomorrow.",
         altAnswers: ["Tomorrow I'm taking my driving test.", "I'm taking the driving test tomorrow.", "I'm taking my driver's test tomorrow.", "Tomorrow I'm taking my driver's test.", "I'm going to take my driving test tomorrow.", "Tomorrow I'm going to take my driving test.", "I take my driving test tomorrow.", "I have my driving test tomorrow.", "Tomorrow I have my driving test."],
         explanation: "«Hacer un examen» is usually \"take a test\" or \"take an exam\", never *make an exam.",

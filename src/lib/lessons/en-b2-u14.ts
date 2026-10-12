@@ -214,7 +214,7 @@ export const EN_B2_U14: Lesson[] = [
         question: "What does it mean?",
         options: [
           "El hombre que está esperando fuera es mi tío.",
-          "El hombre cuyo coche está fuera es mi tío.",
+          "El hombre cuyo carro está fuera es mi tío.",
           "El hombre que esperaba fuera era mi tío.",
           "El hombre al que esperas fuera es mi tío.",
         ],
@@ -627,7 +627,7 @@ export const EN_B2_U14: Lesson[] = [
           "With \"a/an\" or a general noun like \"people\", \"anyone\" or \"the man\", the clause is usually defining and has no commas: \"a friend who lives in Rome\", \"People who exercise sleep better\".",
         ],
         examples: [
-          { es: "My mother, who is 80, still drives.", en: "Mi madre, que tiene 80 años, todavía conduce." },
+          { es: "My mother, who is 80, still drives.", en: "Mi madre, que tiene 80 años, todavía maneja." },
           { es: "The Eiffel Tower, which was built in 1889, gets millions of visitors.", en: "La torre Eiffel, que se construyó en 1889, recibe millones de visitantes." },
           { es: "I have a friend who lives in Rome.", en: "Tengo un amigo que vive en Roma." },
           { es: "People who exercise sleep better.", en: "La gente que hace ejercicio duerme mejor." },
@@ -638,7 +638,7 @@ export const EN_B2_U14: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Mi madre, que tiene 80 años, todavía conduce.",
+            source: "Mi madre, que tiene 80 años, todavía maneja.",
             answer: "My mother, who is 80, still drives.",
             altAnswers: [
               "My mother, who is 80 years old, still drives.",
@@ -1326,7 +1326,7 @@ export const EN_B2_U14: Lesson[] = [
         ],
         examples: [
           { es: "I have a colleague who speaks six languages.", en: "Tengo una compañera que habla seis idiomas." },
-          { es: "This is the car I bought last month.", en: "Este es el coche que compré el mes pasado." },
+          { es: "This is the car I bought last month.", en: "Este es el carro que compré el mes pasado." },
           { es: "That's the woman whose son won the prize.", en: "Esa es la mujer cuyo hijo ganó el premio." },
           { es: "Lima, which is the capital of Peru, has about ten million people.", en: "Lima, que es la capital de Perú, tiene unos diez millones de habitantes." },
         ],
@@ -1413,7 +1413,7 @@ export const EN_B2_U14: Lesson[] = [
         ],
         examples: [
           { es: "My grandmother, who is 95, still lives alone.", en: "Mi abuela, que tiene 95 años, todavía vive sola." },
-          { es: "He didn't apologize, which made me angry.", en: "No se disculpó, lo que me enfadó." },
+          { es: "He didn't apologize, which made me angry.", en: "No se disculpó, lo que me enojó." },
           { es: "I invited twenty people, most of whom came.", en: "Invité a veinte personas, la mayoría de las cuales vinieron." },
           { es: "We visited three museums, one of which was closed.", en: "Visitamos tres museos, uno de los cuales estaba cerrado." },
           { es: "Toledo, where my parents got married, is near Madrid.", en: "Toledo, donde se casaron mis padres, está cerca de Madrid." },
@@ -1478,7 +1478,7 @@ export const EN_B2_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Este es el coche que compré el mes pasado.",
+        source: "Este es el carro que compré el mes pasado.",
         answer: "This is the car I bought last month.",
         altAnswers: ["This is the car that I bought last month.", "This is the car which I bought last month."],
         explanation: "\"I bought it\" becomes \"(that) I bought\": the pronoun replaces \"it\", so \"it\" disappears.",
@@ -2365,7 +2365,7 @@ export const EN_B2_U14: Lesson[] = [
           "And the classic mistakes: *He suggested me to go → \"He suggested (that) I go\" or \"He suggested going\". *She denied to take it → \"She denied taking it\".",
         ],
         examples: [
-          { es: "The man who denied stealing the car was arrested.", en: "El hombre que negó haber robado el coche fue detenido." },
+          { es: "The man who denied stealing the car was arrested.", en: "El hombre que negó haber robado el carro fue detenido." },
           { es: "The doctor, who advised me to rest, was right.", en: "La médica, que me aconsejó que descansara, tenía razón." },
           { es: "Tom, who had promised to help, never showed up.", en: "Tom, que había prometido ayudar, no apareció nunca." },
           { es: "She suggested going to the beach, which was a great idea.", en: "Propuso ir a la playa, lo que fue una gran idea." },
@@ -2376,7 +2376,7 @@ export const EN_B2_U14: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "El hombre que negó haber robado el coche fue detenido.",
+            source: "El hombre que negó haber robado el carro fue detenido.",
             answer: "The man who denied stealing the car was arrested.",
             altAnswers: [
               "The man who denied having stolen the car was arrested.",
@@ -2578,7 +2578,7 @@ export const EN_B2_U14: Lesson[] = [
         ],
         examples: [
           { es: "Lucia, who works in marketing, is coming to dinner.", en: "Lucia, que trabaja en marketing, viene a cenar." },
-          { es: "The guy whose car you scratched is really angry.", en: "El chico cuyo coche rayaste está muy enfadado." },
+          { es: "The guy whose car you scratched is really angry.", en: "El chico cuyo carro rayaste está muy enojado." },
           { es: "The report you asked for is on your desk.", en: "El informe que pediste está en tu mesa." },
         ],
         checkpoint: [
@@ -2621,7 +2621,7 @@ export const EN_B2_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El chico cuyo coche rayaste está muy enfadado.",
+        source: "El chico cuyo carro rayaste está muy enojado.",
         answer: "The guy whose car you scratched is really angry.",
         altAnswers: [
           "The guy whose car you scratched is very angry.",

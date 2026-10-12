@@ -15,7 +15,7 @@ export const EN_C1_U05: Lesson[] = [
       {
         heading: "Why English writers hedge",
         body: [
-          "Hedging means signalling how sure you are. In academic, professional and journalistic English, a bare claim like \"This policy reduces crime\" sounds like a proven fact. Unless you really have proof, a careful writer says \"This policy may reduce crime\" or \"This policy appears to have reduced crime\".",
+          "Hedging means signaling how sure you are. In academic, professional and journalistic English, a bare claim like \"This policy reduces crime\" sounds like a proven fact. Unless you really have proof, a careful writer says \"This policy may reduce crime\" or \"This policy appears to have reduced crime\".",
           "Spanish writing tolerates, and sometimes rewards, strong statements: «Esto demuestra que...», «Es evidente que...», «Sin duda...». Translated word for word, these sound over-assertive, even arrogant, to an English-speaking reviewer, manager or examiner.",
           "Hedging is not weakness. It shows you know the limits of your evidence, and it protects you from easy criticism. The skill at the Advanced level is to hedge exactly as much as the evidence requires: not too little, not too much.",
         ],
@@ -77,7 +77,7 @@ export const EN_C1_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "It ___ that the meeting has been cancelled.",
+            sentence: "It ___ that the meeting has been canceled.",
             answer: "would appear",
             altAnswers: ["would seem", "appears", "seems"],
             en: "[Al parecer] se ha cancelado la reunión.",
@@ -89,7 +89,7 @@ export const EN_C1_U05: Lesson[] = [
         heading: "Verbs that hedge: seem, appear, tend to, suggest, indicate",
         body: [
           "\"Seem\" and \"appear\" can take a clause (\"It seems that prices are falling\") or, more elegantly, an infinitive with the real subject first: \"Prices seem to be falling\". For the past, use a perfect infinitive: \"The fire appears to have started in the kitchen\".",
-          "\"Tend to\" is the natural translation of «suelen» or «tienden a» in generalisations: \"Older users tend to prefer email\". It turns a sweeping claim into a statement about a tendency.",
+          "\"Tend to\" is the natural translation of «suelen» or «tienden a» in generalizations: \"Older users tend to prefer email\". It turns a sweeping claim into a statement about a tendency.",
           "\"Suggest\" and \"indicate\" connect evidence to a conclusion without claiming proof: \"The data suggest that...\" (weaker), \"The data indicate that...\" (stronger). Never write *suggest to here, and remember that after \"suggest\" a clause follows: \"suggests that\".",
         ],
         examples: [
@@ -138,7 +138,7 @@ export const EN_C1_U05: Lesson[] = [
               "Young people generally get their news from social media.",
               "Young people tend to find out about the news through social media.",
                 ],
-            explanation: "«Suelen» in a generalisation is naturally \"tend to\", which hedges the claim. Note \"young people\" (plural, no article) and \"social media\" (no article).",
+            explanation: "«Suelen» in a generalization is naturally \"tend to\", which hedges the claim. Note \"young people\" (plural, no article) and \"social media\" (no article).",
           },
         ],
       },
@@ -151,7 +151,7 @@ export const EN_C1_U05: Lesson[] = [
         ],
         examples: [
           { es: "She is arguably the best player of her generation.", en: "Es posiblemente la mejor jugadora de su generación." },
-          { es: "Apparently, the CEO is resigning.", en: "Por lo visto, el consejero delegado va a dimitir." },
+          { es: "Apparently, the CEO is resigning.", en: "Por lo visto, el director general va a renunciar." },
           { es: "It was a seemingly simple problem.", en: "Era un problema aparentemente sencillo." },
           { es: "Presumably, they will appeal the decision.", en: "Es de suponer que recurrirán la decisión." },
           { es: "The project was largely successful.", en: "El proyecto tuvo éxito en gran medida." },
@@ -497,7 +497,7 @@ export const EN_C1_U05: Lesson[] = [
           { es: "The project will cost in the region of 2 million euros.", en: "El proyecto costará alrededor de 2 millones de euros." },
           { es: "Some 300 people attended the protest.", en: "Unas 300 personas asistieron a la protesta." },
           { es: "It took an hour or so.", en: "Tardó una hora más o menos." },
-          { es: "Something like half the staff are working from home.", en: "Algo así como la mitad de la plantilla trabaja desde casa." },
+          { es: "Something like half the staff are working from home.", en: "Algo así como la mitad del personal trabaja desde casa." },
           { es: "The festival attracts upwards of 10,000 visitors.", en: "El festival atrae a más de 10.000 visitantes." },
         ],
         checkpoint: [
@@ -675,7 +675,7 @@ export const EN_C1_U05: Lesson[] = [
           { es: "The data indicate a clear upward trend.", en: "Los datos muestran una clara tendencia al alza." },
           { es: "Most respondents were satisfied with the service.", en: "La mayoría de los encuestados estaba satisfecha con el servicio." },
           { es: "Poor sleep may contribute to weight gain.", en: "Dormir mal puede contribuir al aumento de peso." },
-          { es: "Smoking is associated with a higher risk of stroke.", en: "Fumar se asocia a un mayor riesgo de ictus." },
+          { es: "Smoking is associated with a higher risk of stroke.", en: "Fumar se asocia a un mayor riesgo de derrame cerebral." },
         ],
         checkpoint: [
           {
@@ -1358,7 +1358,7 @@ export const EN_C1_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "___ , the match will be cancelled.",
+            sentence: "___ , the match will be canceled.",
             answer: "In all likelihood",
             altAnswers: ["In all probability", "Most likely", "Very likely", "Chances are", "The odds are"],
             en: "[Con toda probabilidad], se suspenderá el partido.",
@@ -1584,14 +1584,14 @@ export const EN_C1_U05: Lesson[] = [
         body: [
           "\"Should\" does not only mean advice. It also expresses what we expect to be true if everything goes normally: \"They left at six, so they should be there by now\" («ya deberían de estar allí»). \"The package should arrive tomorrow\".",
           "Compare \"must\": \"must\" is a deduction from evidence (\"The lights are on, so they must be home\"), while \"should\" is an expectation based on plans or normal conditions. \"They must be there by now\" means you are almost sure; \"They should be there by now\" means they ought to be, if nothing went wrong.",
-          "The negative \"shouldn't\" works the same way: \"It shouldn't take long\" («no debería tardar mucho»). For the past: \"The parcel should have arrived yesterday\" (it was expected, and often it did not happen).",
+          "The negative \"shouldn't\" works the same way: \"It shouldn't take long\" («no debería tardar mucho»). For the past: \"The package should have arrived yesterday\" (it was expected, and often it did not happen).",
         ],
         examples: [
           { es: "They left at six, so they should be there by now.", en: "Salieron a las seis, así que ya deberían de estar allí." },
           { es: "The package should arrive tomorrow.", en: "El paquete debería llegar mañana." },
           { es: "It shouldn't take long.", en: "No debería tardar mucho." },
           { es: "The lights are on, so they must be home.", en: "Las luces están encendidas, así que deben de estar en casa." },
-          { es: "The parcel should have arrived yesterday.", en: "El paquete tendría que haber llegado ayer." },
+          { es: "The package should have arrived yesterday.", en: "El paquete tendría que haber llegado ayer." },
         ],
         checkpoint: [
           {
@@ -1675,7 +1675,7 @@ export const EN_C1_U05: Lesson[] = [
           { es: "It'll be about ten o'clock.", en: "Serán las diez, más o menos." },
           { es: "You'll be tired after the trip.", en: "Estarás cansado después del viaje." },
           { es: "She'll have arrived by now.", en: "Ya habrá llegado." },
-          { es: "He's not answering. He must be driving.", en: "No contesta. Estará conduciendo." },
+          { es: "He's not answering. He must be driving.", en: "No contesta. Estará manejando." },
           { es: "They'll be having dinner now.", en: "Ahora estarán cenando." },
         ],
         checkpoint: [
@@ -1908,8 +1908,8 @@ export const EN_C1_U05: Lesson[] = [
           { es: "Sales are expected to grow by around 5% next year.", en: "Se prevé que las ventas crezcan alrededor de un 5% el año que viene." },
           { es: "Growth is likely to be strongest in Asia.", en: "Lo más probable es que el crecimiento sea mayor en Asia." },
           { es: "European markets could well remain flat.", en: "Es bastante posible que los mercados europeos se mantengan estancados." },
-          { es: "The company is set to announce record profits.", en: "La empresa está a punto de anunciar beneficios récord." },
-          { es: "Unemployment is forecast to fall slightly.", en: "Se prevé que el paro baje ligeramente." },
+          { es: "The company is set to announce record profits.", en: "La empresa está a punto de anunciar ganancias récord." },
+          { es: "Unemployment is forecast to fall slightly.", en: "Se prevé que el desempleo baje ligeramente." },
         ],
         checkpoint: [
           {
@@ -2111,7 +2111,7 @@ export const EN_C1_U05: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Su coche no está; no puede estar en casa.",
+        source: "Su carro no está; no puede estar en casa.",
         answer: "Her car isn't there; she can't be at home.",
         altAnswers: [
           "His car isn't there; he can't be at home.",
@@ -2172,10 +2172,10 @@ export const EN_C1_U05: Lesson[] = [
         audio: "Unemployment is forecast to fall slightly, but a recession can't be ruled out.",
         question: "What did you hear?",
         options: [
-          "Se prevé que el paro baje un poco, pero no se puede descartar una recesión.",
-          "El paro bajará mucho y no habrá recesión.",
-          "Se prevé que el paro suba un poco y que haya una recesión.",
-          "El paro no bajará porque hay una recesión.",
+          "Se prevé que el desempleo baje un poco, pero no se puede descartar una recesión.",
+          "El desempleo bajará mucho y no habrá recesión.",
+          "Se prevé que el desempleo suba un poco y que haya una recesión.",
+          "El desempleo no bajará porque hay una recesión.",
         ],
         correctIndex: 0,
         explanation: "\"Is forecast to fall slightly\" + \"can't be ruled out\" («no se puede descartar»): a typical balanced forecast.",
@@ -2452,7 +2452,7 @@ export const EN_C1_U05: Lesson[] = [
           "The chances are against us.",
           "The odds are against us here.",
         ],
-        explanation: "\"The odds\" is the idiomatic word for probabilities in this sense; \"the probabilities\" would sound like a maths class.",
+        explanation: "\"The odds\" is the idiomatic word for probabilities in this sense; \"the probabilities\" would sound like a math class.",
       },
       {
         type: "speak",
@@ -2467,7 +2467,7 @@ export const EN_C1_U05: Lesson[] = [
     level: "EN-C1",
     number: 9,
     title: "Contrast: Precise Hedging vs Vague Writing",
-    summary: "Tell careful hedging (signalling real uncertainty) apart from vague, evasive writing, and make vague sentences precise while keeping appropriate caution.",
+    summary: "Tell careful hedging (signaling real uncertainty) apart from vague, evasive writing, and make vague sentences precise while keeping appropriate caution.",
     duration: "10 min",
     sections: [
       {
@@ -2481,7 +2481,7 @@ export const EN_C1_U05: Lesson[] = [
           { es: "Roughly 40% of respondents may have misunderstood question 3.", en: "Aproximadamente el 40% de los encuestados puede que no entendiera la pregunta 3." },
           { es: "The delay was probably caused by a supplier problem.", en: "El retraso probablemente se debió a un problema con un proveedor." },
           { es: "The new system appears to reduce errors by about a third.", en: "El nuevo sistema parece reducir los errores en un tercio, aproximadamente." },
-          { es: "The plan has two main weaknesses: cost and timing.", en: "El plan tiene dos puntos débiles principales: el coste y los plazos." },
+          { es: "The plan has two main weaknesses: cost and timing.", en: "El plan tiene dos puntos débiles principales: el costo y los plazos." },
         ],
         checkpoint: [
           {
@@ -2507,7 +2507,7 @@ export const EN_C1_U05: Lesson[] = [
         ],
         examples: [
           { es: "The layout and the loading speed need improving.", en: "Hay que mejorar el diseño y la velocidad de carga." },
-          { es: "Over half of the staff work remotely.", en: "Más de la mitad de la plantilla trabaja a distancia." },
+          { es: "Over half of the staff work remotely.", en: "Más de la mitad del personal trabaja a distancia." },
           { es: "The new rule affects the whole company.", en: "La nueva norma afecta a toda la empresa." },
           { es: "Personally, I found it very useful.", en: "A nivel personal, me resultó muy útil." },
           { es: "The software reduces errors by checking every entry twice.", en: "El programa reduce los errores comprobando cada entrada dos veces." },
@@ -2641,7 +2641,7 @@ export const EN_C1_U05: Lesson[] = [
         sentence: "The drug ___ blood pressure by blocking a specific hormone.",
         answer: "appears to lower",
         altAnswers: ["seems to lower", "appears to reduce", "seems to reduce", "may lower", "may reduce", "might lower", "might reduce"],
-        en: "El fármaco [parece bajar] la tensión bloqueando una hormona específica.",
+        en: "El fármaco [parece bajar] la presión arterial bloqueando una hormona específica.",
         explanation: "A precise claim (lowers blood pressure, by blocking a hormone) hedged only by \"appears to\".",
       },
       {
@@ -2800,9 +2800,9 @@ export const EN_C1_U05: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Seguro que gana el Madrid.",
-            answer: "Madrid are bound to win.",
+            answer: "Madrid is bound to win.",
             altAnswers: [
-              "Madrid is bound to win.",
+              "Madrid are bound to win.",
               "Madrid are sure to win.",
               "Madrid is sure to win.",
               "Madrid are certain to win.",
@@ -2920,7 +2920,7 @@ export const EN_C1_U05: Lesson[] = [
         sentence: "Look at their squad. They're ___ the league this year.",
         answer: "bound to win",
         altAnswers: ["sure to win", "certain to win", "going to win", "definitely going to win"],
-        en: "Mira qué plantilla tienen. [Seguro que ganan] la liga este año.",
+        en: "Mira qué equipo tienen. [Seguro que ganan] la liga este año.",
         explanation: "The speaker's prediction: \"bound to win\". \"They're sure that they'll win\" would describe the team's own confidence.",
       },
       {
@@ -3004,7 +3004,7 @@ export const EN_C1_U05: Lesson[] = [
       {
         heading: "LIKELY, BOUND, ODDS",
         body: [
-          "In a key-word transformation you rewrite a sentence with a given word, keeping the meaning exactly. Probability is a favourite topic because one idea has many forms. \"It's very likely that he'll be late\" can become \"He's BOUND to be late\", \"In all LIKELIHOOD he'll be late\" or \"The ODDS are that he'll be late\".",
+          "In a key-word transformation you rewrite a sentence with a given word, keeping the meaning exactly. Probability is a favorite topic because one idea has many forms. \"It's very likely that he'll be late\" can become \"He's BOUND to be late\", \"In all LIKELIHOOD he'll be late\" or \"The ODDS are that he'll be late\".",
           "Watch the grammar each word needs: \"likely\" takes \"to\" + infinitive in the personal pattern (\"is likely to win\"); \"bound\" always takes \"to\" + infinitive; \"odds\" takes \"are that\" + clause or \"are against\" + noun.",
           "Negative ideas need care: \"It's unlikely that she'll agree\" = \"She's not LIKELY to agree\" = \"The ODDS are against her agreeing\" = \"There's little CHANCE of her agreeing\".",
         ],
@@ -3139,7 +3139,7 @@ export const EN_C1_U05: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Hay pocas posibilidades de que la policía encuentre el coche.",
+        source: "Hay pocas posibilidades de que la policía encuentre el carro.",
         answer: "There's little chance of the police finding the car.",
         altAnswers: [
           "There's little chance that the police will find the car.",
@@ -3267,7 +3267,7 @@ export const EN_C1_U05: Lesson[] = [
           { es: "He can't have done it; he was in Paris.", en: "No puede haberlo hecho; estaba en París." },
           { es: "She might have taken the wrong exit.", en: "Puede que haya tomado la salida equivocada." },
           { es: "You should have told me.", en: "Me lo deberías haber dicho." },
-          { es: "The parcel should have arrived by now.", en: "El paquete ya tendría que haber llegado." },
+          { es: "The package should have arrived by now.", en: "El paquete ya tendría que haber llegado." },
         ],
         checkpoint: [
           {
@@ -3354,7 +3354,7 @@ export const EN_C1_U05: Lesson[] = [
           "A useful check: ask yourself WHEN (past, present, future) and HOW SURE (certain, expected, possible, unlikely, impossible). The two answers together point to the right form.",
         ],
         examples: [
-          { es: "He must be at work; his car isn't here.", en: "Estará en el trabajo; su coche no está." },
+          { es: "He must be at work; his car isn't here.", en: "Estará en el trabajo; su carro no está." },
           { es: "He may well have left already.", en: "Es muy posible que ya se haya ido." },
           { es: "He's unlikely to leave before six.", en: "Es poco probable que se vaya antes de las seis." },
           { es: "She'll have landed by now.", en: "Ya habrá aterrizado." },
@@ -3645,7 +3645,7 @@ export const EN_C1_U05: Lesson[] = [
         ],
         examples: [
           { es: "I'm feeling a bit under the weather today.", en: "Hoy no me encuentro muy bien." },
-          { es: "You look run-down. You need a holiday.", en: "Se te ve agotado. Necesitas unas vacaciones." },
+          { es: "You look run-down. You need a vacation.", en: "Se te ve agotado. Necesitas unas vacaciones." },
           { es: "I think I'm coming down with something.", en: "Creo que me estoy enfermando." },
           { es: "There has been an outbreak of measles in the area.", en: "Ha habido un brote de sarampión en la zona." },
           { es: "The disease is highly contagious.", en: "La enfermedad es muy contagiosa." },
@@ -3682,7 +3682,7 @@ export const EN_C1_U05: Lesson[] = [
           "Also: «resfriado» is \"a cold\" (to \"catch a cold\"), «gripe» is \"flu\", «receta» from a doctor is \"a prescription\" (a \"recipe\" is for cooking), and «herida» is \"an injury\" or \"a wound\".",
         ],
         examples: [
-          { es: "I've got a terrible cold.", en: "Tengo un constipado horrible." },
+          { es: "I've got a terrible cold.", en: "Tengo un resfriado horrible." },
           { es: "Half the guests got food poisoning.", en: "La mitad de los invitados sufrió una intoxicación alimentaria." },
           { es: "He was treated for carbon monoxide poisoning.", en: "Lo trataron por intoxicación por monóxido de carbono." },
           { es: "You need a prescription for these pills.", en: "Necesitas receta para estas pastillas." },
@@ -3704,7 +3704,7 @@ export const EN_C1_U05: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Medio equipo cogió una intoxicación alimentaria en el viaje.",
+        source: "Medio equipo sufrió una intoxicación alimentaria en el viaje.",
         answer: "Half the team got food poisoning on the trip.",
         altAnswers: [
           "Half of the team got food poisoning on the trip.",
@@ -3886,7 +3886,7 @@ export const EN_C1_U05: Lesson[] = [
           { es: "Timing is crucial in this kind of operation.", en: "El momento es clave en este tipo de operación." },
           { es: "Teachers play a crucial role in children's development.", en: "Los profesores desempeñan un papel fundamental en el desarrollo de los niños." },
           { es: "There are risks inherent in any investment.", en: "Toda inversión conlleva riesgos inherentes." },
-          { es: "Costs were substantially higher than expected.", en: "Los costes fueron bastante más altos de lo previsto." },
+          { es: "Costs were substantially higher than expected.", en: "Los costos fueron bastante más altos de lo previsto." },
         ],
         checkpoint: [
           {
@@ -4003,15 +4003,15 @@ export const EN_C1_U05: Lesson[] = [
         body: [
           "Three classic traps. \"Ultimately\" means in the end, or fundamentally: \"Ultimately, the decision is yours\". It does NOT mean «últimamente», which is \"lately\" or \"recently\": «últimamente duermo mal» is \"I haven't been sleeping well lately\".",
           "\"Eventually\" means after a long time, finally: \"He eventually found a job\". «Eventualmente» (possibly, if it happens) is \"possibly\", \"if necessary\" or \"should the need arise\". \"Eventual\" (adjective) means final: \"the eventual winner\" («el que acabó ganando»).",
-          "\"Actually\" means «en realidad» or «de hecho», not «actualmente», which is \"currently\" or \"at the moment\". «Actualmente vivo en Lima» is \"I currently live in Lima\". Likewise, \"actual\" means real: \"the actual cost\" («el coste real»).",
+          "\"Actually\" means «en realidad» or «de hecho», not «actualmente», which is \"currently\" or \"at the moment\". «Actualmente vivo en Lima» is \"I currently live in Lima\". Likewise, \"actual\" means real: \"the actual cost\" («el costo real»).",
         ],
         examples: [
           { es: "Ultimately, the decision is yours.", en: "En última instancia, la decisión es tuya." },
           { es: "I haven't been sleeping well lately.", en: "Últimamente duermo mal." },
           { es: "He eventually found a job.", en: "Al final encontró trabajo." },
-          { es: "Spain were the eventual winners.", en: "España acabó ganando." },
+          { es: "Spain was the eventual winner.", en: "España acabó ganando." },
           { es: "I currently live in Lima.", en: "Actualmente vivo en Lima." },
-          { es: "The actual cost was much higher.", en: "El coste real fue mucho más alto." },
+          { es: "The actual cost was much higher.", en: "El costo real fue mucho más alto." },
         ],
         checkpoint: [
           {
@@ -4134,7 +4134,7 @@ export const EN_C1_U05: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El coste real del proyecto fue aproximadamente el doble.",
+        source: "El costo real del proyecto fue aproximadamente el doble.",
         answer: "The actual cost of the project was approximately double.",
         altAnswers: [
           "The actual cost of the project was roughly double.",

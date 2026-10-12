@@ -557,7 +557,7 @@ export const EN_C2_U17_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The witness said she had seen the car ___ before, parked outside the bank.",
         answer: "the day",
-        en: "La testigo dijo que había visto el coche [el día] anterior, aparcado delante del banco.",
+        en: "La testigo dijo que había visto el carro [el día] anterior, estacionado delante del banco.",
         explanation: "\"Yesterday\" in direct speech becomes \"the day before\" or \"the previous day\" in a report.",
       },
       {

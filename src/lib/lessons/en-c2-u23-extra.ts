@@ -63,11 +63,11 @@ export const EN_C2_U23_EXTRA: Lesson[] = [
               "You ought to have rung me.",
               "You ought to have given me a call.",
             ],
-            explanation: "\"Should have\" + past participle criticises a past action. «Debería haber» is criticism, not deduction, so not *must have called me.",
+            explanation: "\"Should have\" + past participle criticizes a past action. «Debería haber» is criticism, not deduction, so not *must have called me.",
           },
           {
             type: "multiple-choice",
-            question: "Your colleague is not answering her phone, and her car is not in the car park. Which sentence is a deduction?",
+            question: "Your colleague is not answering her phone, and her car is not in the parking lot. Which sentence is a deduction?",
             options: [
               "She must have gone home.",
               "She should have gone home.",
@@ -186,9 +186,9 @@ export const EN_C2_U23_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Ya deberían haber llegado. Espero que no se hayan perdido.",
-        answer: "They should have arrived by now. I hope they haven't got lost.",
+        answer: "They should have arrived by now. I hope they haven't gotten lost.",
         altAnswers: [
-          "They should have arrived by now. I hope they haven't gotten lost.",
+          "They should have arrived by now. I hope they haven't got lost.",
           "They should have arrived already. I hope they haven't got lost.",
           "They should have arrived already. I hope they haven't gotten lost.",
           "They should have got here by now. I hope they haven't got lost.",
@@ -206,7 +206,7 @@ export const EN_C2_U23_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Habrá dejado el móvil en casa; nunca tarda tanto en contestar.",
+        source: "Habrá dejado el celular en casa; nunca tarda tanto en contestar.",
         answer: "She must have left her phone at home; she never takes this long to answer.",
         altAnswers: [
           "She must have left her phone at home; she never takes so long to answer.",
@@ -447,7 +447,7 @@ export const EN_C2_U23_EXTRA: Lesson[] = [
         question: "\"He ___ the email; he replied to it within minutes.\" Which form fits?",
         options: ["must have read", "should have read", "must read", "can't have read"],
         correctIndex: 0,
-        explanation: "The reply is evidence that he read it: a deduction, so \"must have\" + participle. \"Should have read\" would criticise him for not reading it.",
+        explanation: "The reply is evidence that he read it: a deduction, so \"must have\" + participle. \"Should have read\" would criticize him for not reading it.",
       },
       {
         type: "fill-blank",
@@ -455,7 +455,7 @@ export const EN_C2_U23_EXTRA: Lesson[] = [
         sentence: "The keys aren't here. I ___ left them in the car, but I'm not sure.",
         answer: "might have",
         altAnswers: ["may have", "could have"],
-        en: "Las llaves no están aquí. [Puede que me las haya] dejado en el coche, pero no estoy seguro.",
+        en: "Las llaves no están aquí. [Puede que me las haya] dejado en el carro, pero no estoy seguro.",
         explanation: "\"Might have\" / \"may have\" / \"could have\" + participle express a possibility about the past.",
       },
       {

@@ -16,8 +16,8 @@ import type { ExamAudio, ExamItem, ExamSpeakTask, ExamTask, ExamText, ExamWriteO
 import type { WriteExercise } from "@/lib/lessons/types";
 
 // The Spanish exams' language; components take theirs from the exam course
-// (useExamCourse, examCourse.ts), which is Spanish unless a French exam
-// screen says otherwise.
+// (useExamCourse, examCourse.ts), which is Spanish unless a French or German
+// exam screen says otherwise.
 export const LANG = SPANISH_LANG;
 export const BRAND = "#7A1F1F";
 export const EXAM_PLAYS = 2;
@@ -65,7 +65,9 @@ export function ExamAudioPlayer({
   const script = useMemo(() => audioScript(audio), [audio]);
   const [playing, setPlaying] = useState(false);
   const [plays, setPlays] = useState(0);
-  const used = limitPlays && plays >= EXAM_PLAYS;
+  // Some Goethe-Zertifikat recordings are heard only once (audio.plays).
+  const maxPlays = audio.plays ?? EXAM_PLAYS;
+  const used = limitPlays && plays >= maxPlays;
 
   useEffect(() => () => stopReadAloud(), []);
 
@@ -96,7 +98,7 @@ export function ExamAudioPlayer({
         )}
         {limitPlays ? (
           <Text style={s.muted}>
-            {Math.min(plays, EXAM_PLAYS)} of {EXAM_PLAYS} plays
+            {Math.min(plays, maxPlays)} of {maxPlays} {maxPlays === 1 ? "play" : "plays"}
           </Text>
         ) : null}
       </View>
@@ -361,6 +363,20 @@ export function SpeakTask({ task }: { task: ExamSpeakTask }) {
 
 // ---- marks and writing -------------------------------------------------
 
+// "English descriptor / the exam's own wording": the English part plain,
+// the target-language part tap-to-hear in the exam's language.
+function MarkHint({ hint }: { hint: string }) {
+  const exam = useExamCourse();
+  const cut = hint.indexOf(" / ");
+  if (cut < 0) return <TapText text={hint} lang={ENGLISH_LANG} mode="english" style={s.muted} />;
+  return (
+    <Text style={s.muted}>
+      <TapText text={hint.slice(0, cut + 3)} lang={ENGLISH_LANG} mode="english" style={s.muted} />
+      <TapText text={hint.slice(cut + 3)} lang={exam.lang} mode="target" style={s.muted} />
+    </Text>
+  );
+}
+
 export function MarkPicker({ value, onChange, suggested }: { value?: number; onChange: (m: number) => void; suggested?: number }) {
   const exam = useExamCourse();
   return (
@@ -375,7 +391,7 @@ export function MarkPicker({ value, onChange, suggested }: { value?: number; onC
           </Pressable>
         ))}
       </View>
-      {value ? <TapText text={exam.taskMarks[value - 1].hint} lang={ENGLISH_LANG} mode="english" style={s.muted} /> : null}
+      {value ? <MarkHint hint={exam.taskMarks[value - 1].hint} /> : null}
     </View>
   );
 }

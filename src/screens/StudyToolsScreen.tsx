@@ -7,11 +7,11 @@ type Props = NativeStackScreenProps<AppStackParamList, "StudyTools">;
 
 type Tool = { route: "Grammar" | "Conjugation" | "Exams" | "Glossary"; title: string; body: string };
 
-type FrenchTool = { title: string; body: string; open: (navigation: Props["navigation"]) => void };
+type CourseTool = { title: string; body: string; open: (navigation: Props["navigation"]) => void };
 
 // The French course's counterpart (the website's /lessons/fr/tools): the
 // same tools, for French.
-const FRENCH_TOOLS: FrenchTool[] = [
+const FRENCH_TOOLS: CourseTool[] = [
   {
     title: "Grammar Guides",
     body: "Short explanations of the grammar points learners get stuck on, from beginner to advanced.",
@@ -34,6 +34,30 @@ const FRENCH_TOOLS: FrenchTool[] = [
   },
 ];
 
+// The German course's (the website's /lessons/de/tools).
+const GERMAN_TOOLS: CourseTool[] = [
+  {
+    title: "Grammar Guides",
+    body: "Short explanations of the grammar points learners get stuck on, from beginner to advanced.",
+    open: (n) => n.navigate("Grammar", { lang: "de" }),
+  },
+  {
+    title: "Verb Conjugation",
+    body: "Full tables for any verb with the irregular forms marked, plus drills by tense.",
+    open: (n) => n.navigate("GermanConjugation"),
+  },
+  {
+    title: "Goethe-Zertifikat Exam Practice",
+    body: "Practice exams for every level from Goethe A1 to C2, in the format of the real exam.",
+    open: (n) => n.navigate("Exams", { course: "de" }),
+  },
+  {
+    title: "Glossary",
+    body: "Look up any word taught in the course, with its meaning and the lessons it comes from.",
+    open: (n) => n.navigate("GermanGlossary"),
+  },
+];
+
 // Mobile port of the website's /tools hub: the Spanish reference and
 // practice tools behind one "Study Tools" card on Home, plus the
 // placement test (most learners take it once, so it lives here and in
@@ -50,16 +74,24 @@ const TOOLS: Tool[] = [
 ];
 
 export default function StudyToolsScreen({ navigation, route }: Props) {
-  const french = route.params?.lang === "fr";
+  const lang = route.params?.lang;
+  const course =
+    lang === "fr"
+      ? { name: "French", tools: FRENCH_TOOLS, placement: "FrenchPlacement" as const }
+      : lang === "de"
+        ? { name: "German", tools: GERMAN_TOOLS, placement: "GermanPlacement" as const }
+        : null;
   useLayoutEffect(() => {
-    if (french) navigation.setOptions({ title: "French study tools" });
-  }, [navigation, french]);
-  if (french) {
+    if (course) navigation.setOptions({ title: `${course.name} study tools` });
+  }, [navigation, course?.name]);
+  if (course) {
     return (
       <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-        <Text style={styles.subtitle}>Reference and practice tools to use alongside your French lessons, whenever you need them.</Text>
+        <Text style={styles.subtitle}>
+          Reference and practice tools to use alongside your {course.name} lessons, whenever you need them.
+        </Text>
         <View style={styles.list}>
-          {FRENCH_TOOLS.map((t) => (
+          {course.tools.map((t) => (
             <Pressable key={t.title} style={styles.card} onPress={() => t.open(navigation)}>
               <Text style={styles.cardTitle}>{t.title}</Text>
               <Text style={styles.cardBody}>{t.body}</Text>
@@ -67,7 +99,7 @@ export default function StudyToolsScreen({ navigation, route }: Props) {
           ))}
         </View>
         <Text style={styles.sectionHeader}>YOUR LEVEL</Text>
-        <Pressable style={styles.card} onPress={() => navigation.navigate("FrenchPlacement")}>
+        <Pressable style={styles.card} onPress={() => navigation.navigate(course.placement)}>
           <Text style={styles.cardTitle}>Placement Test</Text>
           <Text style={styles.cardBody}>Find your level, retake anytime.</Text>
         </Pressable>

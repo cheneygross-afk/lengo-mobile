@@ -7,23 +7,27 @@ import type { Lesson } from "@/lib/lessons/types";
 import { ALL_LEVEL_PATHS, LESSON_SOURCES, findLessonBySlug, moduleKeyForLesson } from "@/lib/lessons/registry";
 import { getReviewSlugs, removeFromReview } from "@/lib/lessons/review";
 import { courseOfLevelPath } from "@/lib/courses";
-import { FRENCH_LEVELS, loadFrenchLevel } from "@/lib/lessons/french";
+import { FRENCH_LEVEL_PATHS } from "@/lib/lessons/french";
+import { GERMAN_LEVEL_PATHS } from "@/lib/lessons/german";
+import { loadLazyLevel } from "@/lib/lessons/lazyLevels";
 
 type Saved = { lesson: Lesson; levelPath: string };
 
 /** A course's saved lessons, with the levelPath each was saved under. */
 async function loadSaved(lang: string): Promise<Saved[]> {
-  if (lang === "fr") {
-    // French slugs can repeat a Spanish one, so each is looked up in its
-    // own level (loaded only when something there was saved).
-    const lists = await Promise.all(FRENCH_LEVELS.map((l) => getReviewSlugs(l.levelPath)));
+  if (lang === "fr" || lang === "de") {
+    // French and German slugs can repeat a Spanish one, so each is looked
+    // up in its own level (loaded only when something there was saved).
+    const levelPaths: string[] = lang === "fr" ? FRENCH_LEVEL_PATHS : GERMAN_LEVEL_PATHS;
+    const lists = await Promise.all(levelPaths.map((lp) => getReviewSlugs(lp)));
     const out: Saved[] = [];
-    for (const [i, level] of FRENCH_LEVELS.entries()) {
+    for (const [i, levelPath] of levelPaths.entries()) {
       if (!lists[i].length) continue;
-      const { lessons } = await loadFrenchLevel(level.key);
+      const data = await loadLazyLevel(levelPath);
+      if (!data) continue;
       for (const slug of lists[i]) {
-        const lesson = lessons.find((l) => l.slug === slug);
-        if (lesson) out.push({ lesson, levelPath: level.levelPath });
+        const lesson = data.lessons.find((l) => l.slug === slug);
+        if (lesson) out.push({ lesson, levelPath });
       }
     }
     return out;
@@ -93,7 +97,7 @@ export default function ReviewListScreen({ navigation, route }: Props) {
               onPress={() =>
                 navigation.navigate(
                   "LessonRunner",
-                  lang === "fr" ? { slug: item.lesson.slug, levelPath: item.levelPath } : { slug: item.lesson.slug }
+                  lang === "fr" || lang === "de" ? { slug: item.lesson.slug, levelPath: item.levelPath } : { slug: item.lesson.slug }
                 )
               }
             >

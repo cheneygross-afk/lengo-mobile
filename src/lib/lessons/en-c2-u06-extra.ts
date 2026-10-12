@@ -17,7 +17,7 @@ export const EN_C2_U06_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: homophones make puns",
         body: [
-          "Homophones sound the same but are spelt differently: \"bear\" / \"bare\", \"pain\" / \"pane\", \"knight\" / \"night\", \"flour\" / \"flower\", \"weight\" / \"wait\", \"sole\" / \"soul\", \"whole\" / \"hole\". Many puns play on these; others play on one word with two meanings (\"interest\", \"charge\", \"dough\").",
+          "Homophones sound the same but are spelled differently: \"bear\" / \"bare\", \"pain\" / \"pane\", \"knight\" / \"night\", \"flour\" / \"flower\", \"weight\" / \"wait\", \"sole\" / \"soul\", \"whole\" / \"hole\". Many puns play on these; others play on one word with two meanings (\"interest\", \"charge\", \"dough\").",
           "A pun usually hides the second meaning in a set phrase: \"a pain in the neck\" becomes \"a pane in the neck\" for a window cleaner. The listener hears the familiar phrase and then notices the new meaning.",
           "English speakers often answer a pun with a groan, and that counts as success. What kills a pun is explaining it, or pronouncing the key word so that it no longer sounds like its twin.",
         ],
@@ -61,7 +61,7 @@ export const EN_C2_U06_EXTRA: Lesson[] = [
           { es: "The ship carried a thousand sheep.", en: "El barco transportaba mil ovejas." },
           { es: "Did you leave the city, or do you still live there?", en: "¿Te fuiste de la ciudad o sigues viviendo allí?" },
           { es: "Only a fool would swim in a pool this full of leaves.", en: "Solo un tonto se bañaría en una piscina tan llena de hojas." },
-          { es: "We had chocolate cake for dessert after crossing the desert.", en: "Comimos tarta de chocolate de postre después de cruzar el desierto." },
+          { es: "We had chocolate cake for dessert after crossing the desert.", en: "Comimos pastel de chocolate de postre después de cruzar el desierto." },
         ],
         checkpoint: [
           {
@@ -162,7 +162,7 @@ export const EN_C2_U06_EXTRA: Lesson[] = [
           "/f/ and /v/, as in fan and van",
         ],
         correctIndex: 0,
-        explanation: "Spanish has a single «i», so the long /iː/ and short /ɪ/ of English tend to fall together. Practise minimal pairs: sheep/ship, leave/live, feel/fill.",
+        explanation: "Spanish has a single «i», so the long /iː/ and short /ɪ/ of English tend to fall together. Practice minimal pairs: sheep/ship, leave/live, feel/fill.",
       },
       {
         type: "translate",
@@ -186,7 +186,7 @@ export const EN_C2_U06_EXTRA: Lesson[] = [
         question: "Complete the joke: \"Why can't a bicycle stand up on its own? Because it's...\"",
         options: ["two-tired", "too sleepy", "two-wheeled", "tired of it"],
         correctIndex: 0,
-        explanation: "\"Two-tired\" (it has two tyres) sounds exactly like \"too tired\". The joke needs a word that works both ways.",
+        explanation: "\"Two-tired\" (it has two tires) sounds exactly like \"too tired\". The joke needs a word that works both ways.",
       },
       {
         type: "dictation",

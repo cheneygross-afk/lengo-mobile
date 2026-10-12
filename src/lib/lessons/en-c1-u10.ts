@@ -51,7 +51,7 @@ export const EN_C1_U10: Lesson[] = [
           { es: "He was going to quit his job, but he got cold feet.", en: "Iba a dejar el trabajo, pero se echó atrás." },
           { es: "Are you pulling my leg?", en: "¿Me estás tomando el pelo?" },
           { es: "Could you keep an eye on my bag for a minute?", en: "¿Me vigilas el bolso un momento?" },
-          { es: "That car must have cost an arm and a leg.", en: "Ese coche debe de haber costado un ojo de la cara." },
+          { es: "That car must have cost an arm and a leg.", en: "Ese carro debe de haber costado un ojo de la cara." },
           { es: "I'm keeping an eye on the situation.", en: "Estoy pendiente de la situación." },
         ],
         checkpoint: [
@@ -244,7 +244,7 @@ export const EN_C1_U10: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "We only go to the cinema once in a blue moon.",
+        audio: "We only go to the movies once in a blue moon.",
         question: "What does the speaker mean?",
         options: [
           "Casi nunca van al cine.",
@@ -283,7 +283,7 @@ export const EN_C1_U10: Lesson[] = [
           { es: "Let's make sure we're all on the same page.", en: "Asegurémonos de que todos estamos de acuerdo." },
           { es: "It's late. Let's call it a day.", en: "Es tarde. Dejémoslo por hoy." },
           { es: "We've made our offer, so the ball is in their court.", en: "Ya hemos hecho nuestra oferta, así que ahora les toca a ellos." },
-          { es: "I've sent you the proposal. The ball is in your court now.", en: "Te he mandado la propuesta. Ahora te toca mover ficha." },
+          { es: "I've sent you the proposal. The ball is in your court now.", en: "Te he mandado la propuesta. Ahora te toca a ti." },
         ],
         checkpoint: [
           {
@@ -328,7 +328,7 @@ export const EN_C1_U10: Lesson[] = [
           { es: "Many families are struggling to make ends meet.", en: "Muchas familias tienen dificultades para llegar a fin de mes." },
           { es: "Can you give me a ballpark figure?", en: "¿Me puedes dar una cifra aproximada?" },
           { es: "Just give me a ballpark figure.", en: "Dame solo una cifra aproximada." },
-          { es: "We need to sell 500 units to break even.", en: "Tenemos que vender 500 unidades para cubrir costes." },
+          { es: "We need to sell 500 units to break even.", en: "Tenemos que vender 500 unidades para cubrir costos." },
         ],
         checkpoint: [
           {
@@ -401,7 +401,7 @@ export const EN_C1_U10: Lesson[] = [
           "Finally, do not overuse sports metaphors like \"a ballpark figure\" or \"the ball is in your court\" with international colleagues: they are clear to Americans but can confuse other non-native speakers. More on this in the lesson on register.",
         ],
         examples: [
-          { es: "We need to cut costs without cutting corners.", en: "Tenemos que reducir costes sin escatimar en calidad." },
+          { es: "We need to cut costs without cutting corners.", en: "Tenemos que reducir costos sin escatimar en calidad." },
           { es: "They can barely make ends meet.", en: "Apenas llegan a fin de mes." },
           { es: "Let's call it a day.", en: "Dejémoslo por hoy. (incorrecto: *call it the day)" },
         ],
@@ -528,7 +528,7 @@ export const EN_C1_U10: Lesson[] = [
         sentence: "We caught the last train ___.",
         answer: "in the nick of time",
         altAnswers: ["just in time"],
-        en: "Cogimos el último tren [justo a tiempo].",
+        en: "Tomamos el último tren [justo a tiempo].",
         explanation: "\"In the nick of time\" means at the very last moment. \"Just in time\" is the neutral alternative.",
       },
       {
@@ -560,7 +560,7 @@ export const EN_C1_U10: Lesson[] = [
           "Do not translate the image. «Dejar caer la pelota» means nothing in Spanish; what matters is the function the idiom has in that situation.",
         ],
         examples: [
-          { es: "I really dropped the ball on that report.", en: "La fastidié con ese informe." },
+          { es: "I really dropped the ball on that report.", en: "Metí la pata con ese informe." },
           { es: "The plan didn't work, so it's back to the drawing board.", en: "El plan no funcionó, así que hay que empezar de cero." },
           { es: "Don't worry about the details. Let's play it by ear.", en: "No te preocupes por los detalles. Iremos improvisando." },
           { es: "She hit the nail on the head.", en: "Dio en el clavo." },
@@ -634,7 +634,7 @@ export const EN_C1_U10: Lesson[] = [
         ],
         examples: [
           { es: "It's pouring outside.", en: "Está diluviando." },
-          { es: "To be honest, I dropped the ball.", en: "Para ser sincero, la fastidié." },
+          { es: "To be honest, I dropped the ball.", en: "Para ser sincero, metí la pata." },
           { es: "We'll play it by ear.", en: "Ya veremos sobre la marcha." },
         ],
         checkpoint: [
@@ -704,7 +704,6 @@ export const EN_C1_U10: Lesson[] = [
           "You hit the nail on the head: the problem is communication.",
           "You've hit the nail on the head. The problem is communication.",
           "You hit the nail on the head. The problem is communication.",
-          "You've hit the nail on the head: the problem is the communication.",
           "You've hit the nail on the head - the problem is communication.",
           "You're spot on: the problem is communication.",
           "You've got it exactly: the problem is communication.",
@@ -837,10 +836,10 @@ export const EN_C1_U10: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Le pregunté cuándo nacía el bebé y no estaba embarazada. Metí la pata.",
-            answer: "I asked her when the baby was due and she wasn't pregnant. I put my foot in it.",
+            answer: "I asked her when the baby was due and she wasn't pregnant. I put my foot in my mouth.",
             altAnswers: [
               "I asked her when the baby was due, and she wasn't pregnant. I put my foot in it.",
-              "I asked her when the baby was due and she wasn't pregnant. I put my foot in my mouth.",
+              "I asked her when the baby was due and she wasn't pregnant. I put my foot in it.",
               "I asked her when the baby was due, and she wasn't pregnant. I put my foot in my mouth.",
               "I asked her when the baby was due, but she wasn't pregnant. I put my foot in it.",
               "I asked her when the baby was due, but she wasn't pregnant. I put my foot in my mouth.",
@@ -875,7 +874,7 @@ export const EN_C1_U10: Lesson[] = [
         examples: [
           { es: "Sorry, what did you say? I was miles away.", en: "Perdona, ¿qué has dicho? Estaba en las nubes." },
           { es: "You need to get your act together.", en: "Tienes que ponerte las pilas." },
-          { es: "The driving test was a breeze.", en: "El examen de conducir fue pan comido." },
+          { es: "The driving test was a breeze.", en: "El examen de manejo fue pan comido." },
           { es: "I'm fed up with this noise.", en: "Estoy hasta las narices de este ruido." },
           { es: "They ripped us off.", en: "Nos dieron gato por liebre." },
           { es: "Those two are joined at the hip.", en: "Esos dos son uña y carne." },
@@ -922,7 +921,7 @@ export const EN_C1_U10: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El arreglo del coche me costó un ojo de la cara.",
+        source: "El arreglo del carro me costó un ojo de la cara.",
         answer: "The car repair cost me an arm and a leg.",
         altAnswers: [
           "Fixing the car cost me an arm and a leg.",
@@ -1076,7 +1075,7 @@ export const EN_C1_U10: Lesson[] = [
           "Some binomials are idiomatic: \"by and large\" means «en general» and has nothing to do with size. \"Sick and tired\" means «harto», not ill.",
         ],
         examples: [
-          { es: "Let's weigh up the pros and cons.", en: "Sopesemos los pros y los contras." },
+          { es: "Let's weigh the pros and cons.", en: "Sopesemos los pros y los contras." },
           { es: "The children came home safe and sound.", en: "Los niños volvieron a casa sanos y salvos." },
           { es: "I'm sick and tired of waiting.", en: "Estoy harto de esperar." },
           { es: "By and large, the trip was a success.", en: "En general, el viaje fue un éxito." },
@@ -1200,10 +1199,10 @@ export const EN_C1_U10: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Antes de decidir, tenemos que sopesar los pros y los contras.",
-        answer: "Before we decide, we need to weigh up the pros and cons.",
+        answer: "Before we decide, we need to weigh the pros and cons.",
         altAnswers: [
           "Before deciding, we need to weigh up the pros and cons.",
-          "Before we decide, we need to weigh the pros and cons.",
+          "Before we decide, we need to weigh up the pros and cons.",
           "Before deciding, we need to weigh the pros and cons.",
           "Before we decide, we have to weigh up the pros and cons.",
           "Before we decide, we have to weigh the pros and cons.",
@@ -1377,7 +1376,7 @@ export const EN_C1_U10: Lesson[] = [
           { es: "Don't waste your time on that.", en: "No pierdas el tiempo con eso." },
           { es: "I'd like to spend more time with my kids.", en: "Me gustaría pasar más tiempo con mis hijos." },
           { es: "He was just trying to buy time.", en: "Solo intentaba ganar tiempo." },
-          { es: "It's not worth your while.", en: "No merece la pena." },
+          { es: "It's not worth your while.", en: "No vale la pena." },
           { es: "The new software saves us hours every week.", en: "El nuevo programa nos ahorra horas cada semana." },
           { es: "We lost two hours because of the traffic.", en: "Perdimos dos horas por el tráfico. (retraso)" },
         ],
@@ -1420,7 +1419,7 @@ export const EN_C1_U10: Lesson[] = [
           { es: "I need some time to digest the news.", en: "Necesito tiempo para digerir la noticia." },
           { es: "I'm not going to swallow that story.", en: "No me voy a tragar ese cuento." },
           { es: "Let me chew it over.", en: "Déjame pensármelo." },
-          { es: "Mixing alcohol and driving is a recipe for disaster.", en: "Mezclar alcohol y conducción es la receta del desastre." },
+          { es: "Mixing alcohol and driving is a recipe for disaster.", en: "Mezclar alcohol y volante es la receta del desastre." },
         ],
         checkpoint: [
           {
@@ -1513,7 +1512,7 @@ export const EN_C1_U10: Lesson[] = [
         sentence: "This plan is ___: nobody has thought about the costs.",
         answer: "half-baked",
         altAnswers: ["half baked", "poorly thought out", "badly thought out", "ill-conceived", "not thought through"],
-        en: "Este plan está [a medio cocer]: nadie ha pensado en los costes.",
+        en: "Este plan está [a medio cocer]: nadie ha pensado en los costos.",
         explanation: "\"Half-baked\" (ideas are food) describes a plan that has not been properly thought through.",
       },
       {
@@ -1643,7 +1642,7 @@ export const EN_C1_U10: Lesson[] = [
         ],
         examples: [
           { es: "She got cold feet.", en: "Se echó atrás." },
-          { es: "It'll pay off in the long run.", en: "A la larga merecerá la pena." },
+          { es: "It'll pay off in the long run.", en: "A la larga valdrá la pena." },
           { es: "We can barely make ends meet.", en: "Apenas llegamos a fin de mes." },
         ],
         checkpoint: [
@@ -1832,9 +1831,9 @@ export const EN_C1_U10: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Le pregunté por su ex delante de su nueva novia. Metí la pata hasta el fondo.",
-        answer: "I asked him about his ex in front of his new girlfriend. I really put my foot in it.",
+        answer: "I asked him about his ex in front of his new girlfriend. I really put my foot in my mouth.",
         altAnswers: [
-          "I asked him about his ex in front of his new girlfriend. I really put my foot in my mouth.",
+          "I asked him about his ex in front of his new girlfriend. I really put my foot in it.",
           "I asked him about his ex in front of his new girlfriend. I put my foot in it.",
           "I asked him about his ex in front of his new girlfriend. I put my foot in my mouth.",
           "I asked him about his ex in front of his new girlfriend. I really put my foot in it big time.",
@@ -1850,7 +1849,7 @@ export const EN_C1_U10: Lesson[] = [
         type: "listen-choose",
         audio: "He stayed as cool as a cucumber while everyone else was panicking.",
         question: "How did he react?",
-        options: ["Con total calma.", "Con mucho frío.", "Con pánico.", "Con enfado."],
+        options: ["Con total calma.", "Con mucho frío.", "Con pánico.", "Con enojo."],
         correctIndex: 0,
         explanation: "\"As cool as a cucumber\" means perfectly calm under pressure. (Binomials and Similes)",
       },
@@ -1910,7 +1909,7 @@ export const EN_C1_U10: Lesson[] = [
         examples: [
           { es: "Could you give us an approximate figure?", en: "¿Podría darnos una cifra aproximada? (formal)" },
           { es: "Many households struggle to cover basic living costs.", en: "Muchos hogares tienen dificultades para cubrir sus gastos básicos." },
-          { es: "The supplier compromised on quality to reduce costs.", en: "El proveedor sacrificó la calidad para reducir costes." },
+          { es: "The supplier compromised on quality to reduce costs.", en: "El proveedor sacrificó la calidad para reducir costos." },
           { es: "We look forward to your decision.", en: "Quedamos a la espera de su decisión." },
           { es: "Social media can be a double-edged sword.", en: "Las redes sociales pueden ser un arma de doble filo." },
         ],
@@ -2057,7 +2056,7 @@ export const EN_C1_U10: Lesson[] = [
         sentence: "The report concludes that the contractor ___ to reduce costs.",
         answer: "compromised on quality",
         altAnswers: ["sacrificed quality", "cut corners", "lowered its standards", "reduced quality"],
-        en: "El informe concluye que el contratista [sacrificó la calidad] para reducir costes.",
+        en: "El informe concluye que el contratista [sacrificó la calidad] para reducir costos.",
         explanation: "In a formal report, \"compromised on quality\" is the neutral phrasing; \"cut corners\" is more informal, though common in journalism.",
       },
       {
@@ -2898,7 +2897,7 @@ export const EN_C1_U10: Lesson[] = [
         examples: [
           { es: "The campaign ran out of steam after a month.", en: "La campaña perdió fuelle al cabo de un mes." },
           { es: "The deal fell through at the last minute.", en: "El acuerdo se vino abajo en el último momento." },
-          { es: "Our holiday plans fell through.", en: "Nuestros planes de vacaciones se fueron al traste." },
+          { es: "Our vacation plans fell through.", en: "Nuestros planes de vacaciones se fueron al traste." },
           { es: "The government played down the risks.", en: "El Gobierno restó importancia a los riesgos." },
           { es: "She played it down.", en: "Le quitó importancia." },
         ],
@@ -2907,10 +2906,10 @@ export const EN_C1_U10: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "La venta del piso se vino abajo en el último momento.",
-            answer: "The sale of the flat fell through at the last minute.",
+            source: "La venta del departamento se vino abajo en el último momento.",
+            answer: "The sale of the apartment fell through at the last minute.",
             altAnswers: [
-              "The sale of the apartment fell through at the last minute.",
+              "The sale of the flat fell through at the last minute.",
               "The sale of the flat fell through at the last moment.",
               "The sale of the apartment fell through at the last moment.",
               "The flat sale fell through at the last minute.",
@@ -2968,10 +2967,10 @@ export const EN_C1_U10: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Copió en el examen y no le pasó nada.",
-        answer: "He cheated in the exam and got away with it.",
+        answer: "He cheated on the exam and got away with it.",
         altAnswers: [
           "She cheated in the exam and got away with it.",
-          "He cheated on the exam and got away with it.",
+          "He cheated in the exam and got away with it.",
           "She cheated on the exam and got away with it.",
           "He cheated in the exam and he got away with it.",
           "She cheated in the exam and she got away with it.",
@@ -3190,7 +3189,7 @@ export const EN_C1_U10: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "She's nice to your face, but she's really ___.",
             answer: "two-faced",
-            altAnswers: ["two faced", "fake", "a hypocrite", "hypocritical", "false"],
+            altAnswers: ["two faced", "fake", "a hypocrite", "hypocritical"],
             en: "Es amable contigo cara a cara, pero en realidad es [una falsa].",
             explanation: "\"Two-faced\" is the natural word for «falso» about a person.",
           },

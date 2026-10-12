@@ -573,7 +573,7 @@ export const EN_C1_U18: Lesson[] = [
         sentence: "The manager insisted that every employee ___ the training session.",
         answer: "attend",
         altAnswers: ["should attend"],
-        en: "El jefe insistió en que todos los empleados [asistieran a] la sesión de formación.",
+        en: "El jefe insistió en que todos los empleados [asistieran a] la sesión de capacitación.",
         explanation: "Two traps: «asistir a» is \"attend\" (no preposition), not \"assist\"; and after \"insist that\" the bare subjunctive \"attend\" is used for every person.",
       },
       {
@@ -1009,7 +1009,7 @@ export const EN_C1_U18: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si no hubiera sido por tu ayuda, habría suspendido.",
+        source: "Si no hubiera sido por tu ayuda, habría reprobado.",
         answer: "If it hadn't been for your help, I would have failed.",
         altAnswers: [
           "Had it not been for your help, I would have failed.",
@@ -2174,7 +2174,7 @@ export const EN_C1_U18: Lesson[] = [
           },
           {
             es: "The first option is cheaper, whereas the second is more reliable.",
-            en: "La primera opción es más barata, mientras que la segunda es más fiable.",
+            en: "La primera opción es más barata, mientras que la segunda es más confiable.",
           },
           {
             es: "Admittedly, the plan has some weaknesses.",
@@ -2342,7 +2342,7 @@ export const EN_C1_U18: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mientras que la primera opción es más barata, la segunda es más fiable.",
+        source: "Mientras que la primera opción es más barata, la segunda es más confiable.",
         answer: "Whereas the first option is cheaper, the second is more reliable.",
         altAnswers: [
           "Whereas the first option is cheaper, the second one is more reliable.",
@@ -2451,7 +2451,7 @@ export const EN_C1_U18: Lesson[] = [
       {
         heading: "Idioms and binomials",
         body: [
-          "Idioms are fixed: you cannot change the words. \"Beat around the bush\" («andarse con rodeos»), \"cost an arm and a leg\" («costar un ojo de la cara»), \"be in the same boat\" («estar en el mismo barco»), \"the last straw\" («la gota que colmó el vaso»), \"once in a blue moon\" («de higos a brevas»), \"get cold feet\" («echarse atrás»).",
+          "Idioms are fixed: you cannot change the words. \"Beat around the bush\" («andarse con rodeos»), \"cost an arm and a leg\" («costar un ojo de la cara»), \"be in the same boat\" («estar en el mismo barco»), \"the last straw\" («la gota que colmó el vaso»), \"once in a blue moon\" («muy de vez en cuando»), \"get cold feet\" («echarse atrás»).",
           "Binomials are pairs in a fixed order: \"pros and cons\", \"by and large\", \"sooner or later\", \"safe and sound\", \"odds and ends\", \"peace and quiet\". Reversing them (*cons and pros) sounds wrong immediately.",
           "Use idioms sparingly and only in informal or neutral contexts. In a formal report, \"cost an arm and a leg\" should be \"was extremely expensive\".",
         ],
@@ -2492,7 +2492,7 @@ export const EN_C1_U18: Lesson[] = [
               },
               {
                 left: "once in a blue moon",
-                right: "de higos a brevas",
+                right: "muy de vez en cuando",
               },
               {
                 left: "the last straw",
@@ -2749,7 +2749,7 @@ export const EN_C1_U18: Lesson[] = [
           "She tried hard not to lose her temper.",
           "She tried hard not to lose her cool.",
         ],
-        explanation: "\"Make an effort\" (not *do an effort) and \"lose your temper\" («perder los nervios», «enfadarse»).",
+        explanation: "\"Make an effort\" (not *do an effort) and \"lose your temper\" («perder los nervios», «enojarse»).",
       },
       {
         type: "multiple-choice",
@@ -2866,7 +2866,7 @@ export const EN_C1_U18: Lesson[] = [
           },
           {
             es: "We need to raise awareness of the issue.",
-            en: "Tenemos que concienciar sobre el problema.",
+            en: "Tenemos que concientizar sobre el problema.",
           },
           {
             es: "Regular maintenance is essential.",
@@ -2901,7 +2901,7 @@ export const EN_C1_U18: Lesson[] = [
         examples: [
           {
             es: "It's a ten-minute walk from here.",
-            en: "Está a diez minutos andando de aquí.",
+            en: "Está a diez minutos caminando de aquí.",
           },
           {
             es: "She has a three-year-old daughter.",
@@ -3352,7 +3352,7 @@ export const EN_C1_U18: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Oye, ¿te viene bien quedar el jueves?",
+        source: "Oye, ¿te viene bien vernos el jueves?",
         answer: "Hey, does Thursday work for you?",
         altAnswers: [
           "Hey, is Thursday OK for you?",
@@ -3876,10 +3876,10 @@ export const EN_C1_U18: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Adjunto le envío mi currículum.",
-        answer: "Please find attached my CV.",
+        answer: "Please find attached my resume.",
         altAnswers: [
           "Please find my CV attached.",
-          "Please find attached my resume.",
+          "Please find attached my CV.",
           "Please find my resume attached.",
           "I have attached my CV.",
           "I have attached my resume.",
@@ -4052,7 +4052,7 @@ export const EN_C1_U18: Lesson[] = [
           "Firm but polite tone: no capitals, exclamation marks or threats.",
           "A specific request (partial refund) and a closing line that expects a reply.",
         ],
-        modelAnswer: "Dear Sir or Madam,\n\nI am writing to complain about my recent stay at the Hotel Marina from 12 to 15 June (booking reference 48213).\n\nHaving booked a double room with a sea view, I was disappointed to be given a small room facing the parking lot. Not only was the view not as advertised, but the air conditioning did not work either, which made it almost impossible to sleep. What concerns me most, however, is the attitude of your reception staff. Despite my repeated requests, nobody offered to move us or to have the air conditioning repaired.\n\nIn view of the above, I would be grateful if you could refund the difference between the room I paid for and the room I received, as well as one night of the stay.\n\nShould you require any further information, please do not hesitate to contact me. I look forward to hearing from you.\n\nYours faithfully,\nLucia Ortega",
+        modelAnswer: "Dear Sir or Madam,\n\nI am writing to complain about my recent stay at the Hotel Marina from June 12 to 15 (booking reference 48213).\n\nHaving booked a double room with a sea view, I was disappointed to be given a small room facing the parking lot. Not only was the view not as advertised, but the air conditioning did not work either, which made it almost impossible to sleep. What concerns me most, however, is the attitude of your reception staff. Despite my repeated requests, nobody offered to move us or to have the air conditioning repaired.\n\nIn view of the above, I would be grateful if you could refund the difference between the room I paid for and the room I received, as well as one night of the stay.\n\nShould you require any further information, please do not hesitate to contact me. I look forward to hearing from you.\n\nSincerely,\nLucia Ortega",
         explanation: "Check your email against the model: a participle clause (\"Having booked\"), a negative inversion (\"Not only was...\"), a cleft (\"What concerns me most\"), a conditional inversion (\"Should you require\") and a clear, polite request.",
       },
     ],
@@ -4086,7 +4086,7 @@ export const EN_C1_U18: Lesson[] = [
           },
           {
             es: "On balance, the benefits outweigh the costs.",
-            en: "En definitiva, los beneficios superan a los costes.",
+            en: "En definitiva, los beneficios superan a los costos.",
           },
         ],
         checkpoint: [
@@ -4610,7 +4610,7 @@ export const EN_C1_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "I ___ that the government should invest more in public transport.",
+        sentence: "I ___ that the government should invest more in public transportation.",
         answer: "would argue",
         altAnswers: ["would say", "believe", "firmly believe", "think"],
         en: "[Yo diría] que el gobierno debería invertir más en transporte público.",
@@ -4794,7 +4794,7 @@ export const EN_C1_U18: Lesson[] = [
         examples: [
           {
             es: "We had to wait in line for an hour.",
-            en: "Tuvimos que hacer cola durante una hora. (EE. UU.)",
+            en: "Tuvimos que hacer fila durante una hora. (EE. UU.)",
           },
           {
             es: "We had to queue for an hour.",
@@ -4802,7 +4802,7 @@ export const EN_C1_U18: Lesson[] = [
           },
           {
             es: "He called me from his cell phone.",
-            en: "Me llamó desde el móvil. (EE. UU.)",
+            en: "Me llamó desde el celular. (EE. UU.)",
           },
           {
             es: "The trash is collected on Mondays.",
@@ -4825,7 +4825,7 @@ export const EN_C1_U18: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Tuvimos que hacer cola durante una hora.",
+            source: "Tuvimos que hacer fila durante una hora.",
             answer: "We had to wait in line for an hour.",
             altAnswers: [
               "We had to stand in line for an hour.",
@@ -4881,7 +4881,7 @@ export const EN_C1_U18: Lesson[] = [
         examples: [
           {
             es: "Did you finish your homework yet?",
-            en: "¿Ya has terminado los deberes? (EE. UU.)",
+            en: "¿Ya terminaste la tarea? (EE. UU.)",
           },
           {
             es: "What are you doing on the weekend?",
@@ -4966,7 +4966,7 @@ export const EN_C1_U18: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me llamó desde el móvil.",
+        source: "Me llamó desde el celular.",
         answer: "He called me from his cell phone.",
         altAnswers: [
           "He called me from his cell.",
@@ -5148,7 +5148,7 @@ export const EN_C1_U18: Lesson[] = [
         heading: "Structures that don't map",
         body: [
           "Some Spanish structures have no direct English twin. «Hace falta» is \"need\" or \"is needed\". «Acabar de» is \"just\". «Volver a hacer» is \"do again\" or \"re-\". «Soler» is \"usually\" or \"tend to\" (present) and \"used to\" (past). «Por mucho que» is \"however much\" or \"no matter how (hard)\".",
-          "«Me cae bien» is \"I like\" or \"I get on (well) with\". «Se» in impersonal sentences usually becomes a passive or \"you\": «Aquí se come muy bien» is \"You can eat very well here\" or \"The food here is very good\".",
+          "«Me cae bien» is \"I like\" or \"I get along (well) with\". «Se» in impersonal sentences usually becomes a passive or \"you\": «Aquí se come muy bien» is \"You can eat very well here\" or \"The food here is very good\".",
         ],
         examples: [
           {
@@ -5157,7 +5157,7 @@ export const EN_C1_U18: Lesson[] = [
           },
           {
             es: "I've just realized that I left my keys at home.",
-            en: "Acabo de darme cuenta de que me he dejado las llaves en casa.",
+            en: "Acabo de darme cuenta de que dejé las llaves en casa.",
           },
           {
             es: "It usually rains a lot in November.",
@@ -5203,7 +5203,7 @@ export const EN_C1_U18: Lesson[] = [
       {
         heading: "Idiomatic rendering",
         body: [
-          "Many Spanish expressions need a completely different English phrase: «echar de menos» is \"miss\", «ponerse de acuerdo» is \"agree\" or \"reach an agreement\", «dar por sentado» is \"take for granted\" or \"assume\", «a la larga» is \"in the long run\", «darse cuenta» is \"realize\" or \"notice\".",
+          "Many Spanish expressions need a completely different English phrase: «extrañar» (Spain: «echar de menos») is \"miss\", «ponerse de acuerdo» is \"agree\" or \"reach an agreement\", «dar por sentado» is \"take for granted\" or \"assume\", «a la larga» is \"in the long run\", «darse cuenta» is \"realize\" or \"notice\".",
           "The test of a good translation is simple: would a native speaker say it? «No es tan fácil como parece» is \"It isn't as easy as it looks\", not a word-for-word copy.",
         ],
         examples: [
@@ -5221,7 +5221,7 @@ export const EN_C1_U18: Lesson[] = [
           },
           {
             es: "I really miss my family.",
-            en: "Echo mucho de menos a mi familia.",
+            en: "Extraño mucho a mi familia.",
           },
         ],
         checkpoint: [
@@ -5299,7 +5299,7 @@ export const EN_C1_U18: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Acabo de darme cuenta de que me he dejado las llaves en casa.",
+        source: "Acabo de darme cuenta de que dejé las llaves en casa.",
         answer: "I've just realized that I left my keys at home.",
         altAnswers: [
           "I've just realized that I 've left my keys at home.",
@@ -6487,7 +6487,7 @@ export const EN_C1_U18: Lesson[] = [
           "At least three Advanced structures: inversion, cleft, participle clause, nominalization or hedging.",
           "A specific request and a closing line (I look forward to hearing from you).",
         ],
-        modelAnswer: "Dear Mr. Harris,\n\nI am writing regarding the hotel booking made for me through your office for the Digital Health Conference, held from 4 to 6 March.\n\nOn arriving at the Hotel Central, I was informed that my reservation had been canceled. At no time had I been notified of this cancellation. Having no other option, I booked a room at a nearby hotel at a cost of 450 euros, which is considerably more than the original rate.\n\nWhat I find most disappointing is that nobody from the organizing team was available to help. It would appear that there was a communication problem between your office and the hotel.\n\nI would therefore be grateful if you could reimburse the additional cost. Please find attached the relevant receipts.\n\nI look forward to hearing from you.\n\nYours sincerely,\nDiego Martin",
+        modelAnswer: "Dear Mr. Harris,\n\nI am writing regarding the hotel booking made for me through your office for the Digital Health Conference, held from March 4 to 6.\n\nOn arriving at the Hotel Central, I was informed that my reservation had been canceled. At no time had I been notified of this cancellation. Having no other option, I booked a room at a nearby hotel at a cost of 450 euros, which is considerably more than the original rate.\n\nWhat I find most disappointing is that nobody from the organizing team was available to help. It would appear that there was a communication problem between your office and the hotel.\n\nI would therefore be grateful if you could reimburse the additional cost. Please find attached the relevant receipts.\n\nI look forward to hearing from you.\n\nSincerely,\nDiego Martin",
         explanation: "Check your email against the model: a negative inversion (\"At no time had I been notified\"), participle clauses (\"On arriving\", \"Having no other option\"), a cleft (\"What I find most disappointing\"), a hedge (\"It would appear\") and a clear formal request.",
       },
     ],
