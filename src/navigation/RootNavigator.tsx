@@ -1,7 +1,7 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { View, ActivityIndicator } from "react-native";
-import { useAuth } from "@/lib/auth/AuthContext";
+import { planCovers, useAuth } from "@/lib/auth/AuthContext";
 import type { AppStackParamList, AuthStackParamList } from "@/navigation/types";
 import LoginScreen from "@/screens/LoginScreen";
 import SignupScreen from "@/screens/SignupScreen";
@@ -41,7 +41,27 @@ import GermanPlacementTestScreen from "@/screens/GermanPlacementTestScreen";
 import GermanConjugationScreen from "@/screens/GermanConjugationScreen";
 import GermanGlossaryScreen from "@/screens/GermanGlossaryScreen";
 import StudyToolsScreen from "@/screens/StudyToolsScreen";
+import { withPlan } from "@/components/withPlan";
+import PlanLock from "@/components/PlanLock";
+import { courseOfLevelPath } from "@/lib/courses";
+import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { getReadingLevel } from "@/lib/stories/registry";
+
+// Study tools that come with a plan (withPlan.tsx): the conjugators and
+// glossaries. Everything in the app already needs an account.
+const ConjugationPaid = withPlan(ConjugationScreen, "es");
+const GlossaryPaid = withPlan(GlossaryScreen, "es");
+const FrenchConjugationPaid = withPlan(FrenchConjugationScreen, "fr");
+const FrenchGlossaryPaid = withPlan(FrenchGlossaryScreen, "fr");
+const GermanConjugationPaid = withPlan(GermanConjugationScreen, "de");
+const GermanGlossaryPaid = withPlan(GermanGlossaryScreen, "de");
+// Testing out of a unit is part of the plan for that unit's course.
+function UnitTestPaid(props: NativeStackScreenProps<AppStackParamList, "UnitTest">) {
+  const { lessonsCourses } = useAuth();
+  const course = courseOfLevelPath(props.route.params.levelPath);
+  if (!planCovers(lessonsCourses, course)) return <PlanLock course={course} />;
+  return <UnitTestScreen {...props} />;
+}
 
 const AuthStack = createNativeStackNavigator<AuthStackParamList>();
 const AppStack = createNativeStackNavigator<AppStackParamList>();
@@ -85,7 +105,7 @@ function AppNavigator() {
       <AppStack.Screen name="Review" component={ReviewListScreen} options={{ title: "Review" }} />
       <AppStack.Screen name="ReviewDrill" component={ReviewDrillScreen} options={{ title: "Review" }} />
       <AppStack.Screen name="TodayReview" component={TodayReviewScreen} options={{ title: "Today's review" }} />
-      <AppStack.Screen name="UnitTest" component={UnitTestScreen} options={{ title: "Test out" }} />
+      <AppStack.Screen name="UnitTest" component={UnitTestPaid} options={{ title: "Test out" }} />
       <AppStack.Screen name="Flashcards" component={FlashcardsScreen} options={{ title: "Flashcards" }} />
       <AppStack.Screen name="FrequencyDecks" component={FrequencyDecksScreen} options={{ title: "Frequency decks" }} />
       <AppStack.Screen name="Exams" component={ExamsScreen} options={{ title: "Exam practice" }} />
@@ -119,14 +139,14 @@ function AppNavigator() {
       <AppStack.Screen name="Grammar" component={GrammarListScreen} options={{ title: "Grammar" }} />
       <AppStack.Screen name="GrammarGuide" component={GrammarGuideScreen} options={{ title: "" }} />
       <AppStack.Screen name="Placement" component={PlacementTestScreen} options={{ title: "Placement test" }} />
-      <AppStack.Screen name="Conjugation" component={ConjugationScreen} options={{ title: "Verb conjugation" }} />
-      <AppStack.Screen name="Glossary" component={GlossaryScreen} options={{ title: "Glossary" }} />
+      <AppStack.Screen name="Conjugation" component={ConjugationPaid} options={{ title: "Verb conjugation" }} />
+      <AppStack.Screen name="Glossary" component={GlossaryPaid} options={{ title: "Glossary" }} />
       <AppStack.Screen name="FrenchPlacement" component={FrenchPlacementTestScreen} options={{ title: "French placement test" }} />
-      <AppStack.Screen name="FrenchConjugation" component={FrenchConjugationScreen} options={{ title: "French verb conjugation" }} />
-      <AppStack.Screen name="FrenchGlossary" component={FrenchGlossaryScreen} options={{ title: "French glossary" }} />
+      <AppStack.Screen name="FrenchConjugation" component={FrenchConjugationPaid} options={{ title: "French verb conjugation" }} />
+      <AppStack.Screen name="FrenchGlossary" component={FrenchGlossaryPaid} options={{ title: "French glossary" }} />
       <AppStack.Screen name="GermanPlacement" component={GermanPlacementTestScreen} options={{ title: "German placement test" }} />
-      <AppStack.Screen name="GermanConjugation" component={GermanConjugationScreen} options={{ title: "German verb conjugation" }} />
-      <AppStack.Screen name="GermanGlossary" component={GermanGlossaryScreen} options={{ title: "German glossary" }} />
+      <AppStack.Screen name="GermanConjugation" component={GermanConjugationPaid} options={{ title: "German verb conjugation" }} />
+      <AppStack.Screen name="GermanGlossary" component={GermanGlossaryPaid} options={{ title: "German glossary" }} />
     </AppStack.Navigator>
   );
 }
