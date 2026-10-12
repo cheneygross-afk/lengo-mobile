@@ -16,7 +16,7 @@ export const DE_B2_U03: Lesson[] = [
         body: [
           "When German newspapers, radio and official texts report what someone said, they use a special verb form, the Konjunktiv I: \"Der Minister sagt, die Lage sei ernst\" (the minister says the situation is serious). The form \"sei\" signals: this is his claim, I'm only passing it on.",
           "English does this with he says / according to him, or simply with the reporting verb. German marks it on the verb itself, which lets journalists write long passages of reported speech without repeating he said in every sentence: every \"sei\" or \"habe\" reminds the reader that this is still the minister talking.",
-          "In everyday conversation most people use the indicative (\"Er sagt, er ist krank\") or the Konjunktiv II (\"Er sagt, er wäre krank\"). But you need to recognise the Konjunktiv I in any news text, and to produce it in formal writing, emails reporting a meeting, and B2 exams.",
+          "In everyday conversation most people use the indicative (\"Er sagt, er ist krank\") or the Konjunktiv II (\"Er sagt, er wäre krank\"). But you need to recognise the Konjunktiv I in any news text, and to produce it in formal writing, emails reporting a meeting, and Upper-intermediate exams.",
         ],
         examples: [
           { es: "Der Minister sagt, die Lage sei ernst.", en: "The minister says the situation is serious." },
@@ -907,7 +907,7 @@ export const DE_B2_U03: Lesson[] = [
       {
         heading: "Choosing the right verb",
         body: [
-          "Choosing well is a big part of B2 writing. Compare: \"Der Chef sagt, die Firma habe Probleme\" (neutral), \"Der Chef gibt zu, die Firma habe Probleme\" (he admits it, reluctantly), \"Der Chef bestreitet, dass die Firma Probleme habe\" (he denies it), \"Der Chef behauptet, die Firma habe keine Probleme\" (he claims, but we doubt it).",
+          "Choosing well is a big part of Upper-intermediate writing. Compare: \"Der Chef sagt, die Firma habe Probleme\" (neutral), \"Der Chef gibt zu, die Firma habe Probleme\" (he admits it, reluctantly), \"Der Chef bestreitet, dass die Firma Probleme habe\" (he denies it), \"Der Chef behauptet, die Firma habe keine Probleme\" (he claims, but we doubt it).",
           "\"Versichern\" + dative: assure someone. \"Sie versicherte mir, alles sei in Ordnung.\" \"Mitteilen\" + dative: inform someone. \"Die Bank teilte uns mit, das Konto sei gesperrt.\"",
           "Word order with separable reporting verbs: \"Er gibt zu ...\", \"Sie teilt mit ...\" in main clauses; but \"..., dass er zugibt\" in subordinate ones.",
         ],

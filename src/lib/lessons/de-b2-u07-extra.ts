@@ -15,7 +15,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
       {
         heading: "Recap: participles take adjective endings",
         body: [
-          "A participle before a noun is an adjective, so it takes the B1 adjective endings. After der/die/das: -e in the nominative singular (and accusative feminine/neuter), -en everywhere else. After ein-words: the participle shows the gender where the article can't (\"ein geöffnetes Fenster\", \"ein reparierter Fernseher\"). Without an article: strong endings (\"frisch gepresster Saft\", \"mit frisch gemahlenem Kaffee\").",
+          "A participle before a noun is an adjective, so it takes the Intermediate adjective endings. After der/die/das: -e in the nominative singular (and accusative feminine/neuter), -en everywhere else. After ein-words: the participle shows the gender where the article can't (\"ein geöffnetes Fenster\", \"ein reparierter Fernseher\"). Without an article: strong endings (\"frisch gepresster Saft\", \"mit frisch gemahlenem Kaffee\").",
           "Ignore everything between the article and the noun when choosing the ending: \"mit dem seit Wochen angekündigten Konzert\" has the same ending as \"mit dem Konzert\" + adjective: -en.",
         ],
         examples: [

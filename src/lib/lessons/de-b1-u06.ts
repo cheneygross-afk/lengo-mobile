@@ -853,7 +853,7 @@ export const DE_B1_U06: Lesson[] = [
         heading: "Könnte, müsste, dürfte: Präteritum + umlaut",
         body: [
           "Modal verbs, like \"sein\" and \"haben\", form their own Konjunktiv II instead of using \"würde\". The recipe: take the Präteritum and add an umlaut if the infinitive has one. \"Konnte\" → \"könnte\" (could), \"musste\" → \"müsste\" (would have to), \"durfte\" → \"dürfte\" (would be allowed to; also probably is). The endings are those of the Präteritum: \"ich könnte, du könntest, wir könnten, ihr könntet\".",
-          "\"Möchte\" (would like), which you have used since A1, is in fact the Konjunktiv II of \"mögen\": \"mochte\" + umlaut. Now you know where it comes from.",
+          "\"Möchte\" (would like), which you have used since the Beginner level, is in fact the Konjunktiv II of \"mögen\": \"mochte\" + umlaut. Now you know where it comes from.",
           "The modal goes in position 2 and the infinitive to the end, as always: \"Wir könnten morgen ins Kino gehen\" (We could go to the cinema tomorrow). There is no \"würde\" in sight.",
         ],
         examples: [

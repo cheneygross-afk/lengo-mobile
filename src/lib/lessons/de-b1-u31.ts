@@ -7,14 +7,14 @@ export const DE_B1_U31: Lesson[] = [
     slug: "b1-vocabulary-practice-10",
     level: "DE-B1",
     number: 1,
-    title: "B1 Vocabulary Practice, Part 10 of 10",
+    title: "Intermediate Vocabulary Practice, Part 10 of 10",
     summary: "The last high-frequency words of the Goethe B1 list, from der Unterschied to der Zweifel, with their genders, plurals, principal parts and prepositions.",
     duration: "15 min",
     sections: [
       {
         heading: "Nouns from U to Z: gender and plural",
         body: [
-          "The end of the alphabet holds some of the most useful abstract nouns at B1, the words you need to compare, explain and argue: \"der Unterschied, die Unterschiede\" (difference), \"die Ursache, die Ursachen\" (cause), \"der Vorteil, die Vorteile\" and \"der Nachteil, die Nachteile\" (advantage, disadvantage), \"die Voraussetzung, die Voraussetzungen\" (requirement, precondition), \"der Zusammenhang, die Zusammenhänge\" (connection, context), \"der Zweifel, die Zweifel\" (doubt), \"die Wirkung, die Wirkungen\" (effect), \"das Ziel, die Ziele\" (goal) and \"die Zukunft\" (future, no plural).",
+          "The end of the alphabet holds some of the most useful abstract nouns at the Intermediate level, the words you need to compare, explain and argue: \"der Unterschied, die Unterschiede\" (difference), \"die Ursache, die Ursachen\" (cause), \"der Vorteil, die Vorteile\" and \"der Nachteil, die Nachteile\" (advantage, disadvantage), \"die Voraussetzung, die Voraussetzungen\" (requirement, precondition), \"der Zusammenhang, die Zusammenhänge\" (connection, context), \"der Zweifel, die Zweifel\" (doubt), \"die Wirkung, die Wirkungen\" (effect), \"das Ziel, die Ziele\" (goal) and \"die Zukunft\" (future, no plural).",
           "Learn each noun with its article and plural as one unit. Two patterns help: every noun in -ung is feminine and adds -en (\"die Voraussetzung, die Voraussetzungen\"), and masculine nouns in -el add nothing in the plural (\"der Zweifel, die Zweifel\"). Watch the umlaut in \"die Zusammenhänge\" and \"die Verträge\" (from \"der Vertrag\", contract).",
           "Several of these nouns come with a fixed preposition: \"der Unterschied zwischen\" + dative, \"die Ursache für\" + accusative, \"der Zweifel an\" + dative, \"die Wirkung auf\" + accusative. English says the difference between and the cause of; German says \"die Ursache für\", never *die Ursache von* in everyday use.",
         ],
@@ -24,7 +24,7 @@ export const DE_B1_U31: Lesson[] = [
           { es: "Das Leben auf dem Land hat viele Vorteile, aber auch ein paar Nachteile.", en: "Life in the country has lots of advantages, but a few disadvantages too." },
           { es: "Gute Deutschkenntnisse sind eine Voraussetzung für die Stelle.", en: "Good German is a requirement for the job." },
           { es: "Ich habe keine Zweifel an seiner Ehrlichkeit.", en: "I have no doubts about his honesty." },
-          { es: "Mein Ziel ist es, nächstes Jahr die B2-Prüfung zu machen.", en: "My goal is to take the B2 exam next year." },
+          { es: "Mein Ziel ist es, nächstes Jahr die Deutschprüfung zu machen.", en: "My goal is to take the German exam next year." },
         ],
         checkpoint: [
           {
@@ -55,7 +55,7 @@ export const DE_B1_U31: Lesson[] = [
       {
         heading: "Verbs: the principal parts you need",
         body: [
-          "Many of the last B1 verbs start with ver- or zu- and are strong, so their Präteritum and participle have to be learned: \"vergleichen, verglich, hat verglichen\" (compare), \"vermeiden, vermied, hat vermieden\" (avoid), \"verlassen, verließ, hat verlassen\" (leave a place or person), \"verzeihen, verzieh, hat verziehen\" (forgive), \"widersprechen, widersprach, hat widersprochen\" (contradict), \"zwingen, zwang, hat gezwungen\" (force).",
+          "Many of the last Intermediate verbs start with ver- or zu- and are strong, so their Präteritum and participle have to be learned: \"vergleichen, verglich, hat verglichen\" (compare), \"vermeiden, vermied, hat vermieden\" (avoid), \"verlassen, verließ, hat verlassen\" (leave a place or person), \"verzeihen, verzieh, hat verziehen\" (forgive), \"widersprechen, widersprach, hat widersprochen\" (contradict), \"zwingen, zwang, hat gezwungen\" (force).",
           "Ver- and wider- are inseparable prefixes: no ge- in the participle (\"verglichen\", not *gevergleicht*). Zu- is separable: \"zunehmen, nahm zu, hat zugenommen\" (put on weight, increase), \"zustimmen, stimmte zu, hat zugestimmt\" (agree to).",
           "Watch the case. \"Verzeihen\", \"widersprechen\" and \"zustimmen\" take the dative, where English has a plain object: \"Ich stimme dir zu\", \"Er hat seiner Chefin widersprochen\". \"Verlassen\" takes the accusative and always needs an object: \"Sie verließ das Haus um acht\". For leaving without an object, German says \"gehen\" or \"losfahren\".",
         ],
@@ -97,7 +97,7 @@ export const DE_B1_U31: Lesson[] = [
       {
         heading: "Adjectives with fixed prepositions",
         body: [
-          "B1 adjectives often bring a preposition with them, and it rarely matches English: \"verantwortlich für\" (responsible for), \"zuständig für\" (in charge of, the official word), \"zufrieden mit\" (happy with, satisfied), \"unabhängig von\" (independent of), \"überzeugt von\" (convinced of), \"verwandt mit\" (related to).",
+          "Intermediate adjectives often bring a preposition with them, and it rarely matches English: \"verantwortlich für\" (responsible for), \"zuständig für\" (in charge of, the official word), \"zufrieden mit\" (happy with, satisfied), \"unabhängig von\" (independent of), \"überzeugt von\" (convinced of), \"verwandt mit\" (related to).",
           "\"Zuständig\" is the word you hear in every German office: \"Wer ist dafür zuständig?\" (who's responsible for that?). \"Verantwortlich\" is more about blame or duty: \"Wer ist für den Schaden verantwortlich?\"",
           "As always with prepositional phrases, a thing as object becomes a da-compound and a question becomes a wo-compound: \"Ich bin damit zufrieden\", \"Womit bist du nicht zufrieden?\"",
         ],
@@ -483,7 +483,7 @@ export const DE_B1_U31: Lesson[] = [
         heading: "Immer wenn: the habits of a lifetime",
         body: [
           "The memoir continues: \"Immer wenn er spät nach Hause kam, brachte er uns etwas mit: ein Brötchen, eine Zeitung, einmal sogar einen kleinen Hund. Meine Mutter ärgerte sich jedes Mal darüber, aber wir Kinder freuten uns riesig.\"",
-          "Repeated events in the past take \"wenn\", usually strengthened to \"immer wenn\" or \"jedes Mal, wenn\": whenever. \"Als\" would mean one particular evening. This is the B1 rule English speakers most often get wrong: *Immer als er kam* doesn't exist.",
+          "Repeated events in the past take \"wenn\", usually strengthened to \"immer wenn\" or \"jedes Mal, wenn\": whenever. \"Als\" would mean one particular evening. This is the Intermediate rule English speakers most often get wrong: *Immer als er kam* doesn't exist.",
           "The emotion verbs follow their prepositions: \"sich ärgern über\" and \"sich freuen über\", both with the accusative or with \"darüber\" for the idea just mentioned.",
         ],
         examples: [
@@ -1317,7 +1317,7 @@ export const DE_B1_U31: Lesson[] = [
       {
         heading: "Answering: consequences and opinions",
         body: [
-          "A good B1 answer has three parts: the consequence, your opinion, a reason. \"Wenn es keine Autos gäbe, wäre die Luft viel besser. Ich fände das super, weil ich dann ruhiger schlafen könnte.\"",
+          "A good Intermediate answer has three parts: the consequence, your opinion, a reason. \"Wenn es keine Autos gäbe, wäre die Luft viel besser. Ich fände das super, weil ich dann ruhiger schlafen könnte.\"",
           "\"Ich fände\" (I would find) is the Konjunktiv II of \"finden\" and very common for opinions about imaginary situations: \"Ich fände es gut, wenn...\". \"Ich würde es gut finden\" means the same.",
           "Mix in the opinion phrases from this unit: \"Meiner Meinung nach wäre das...\", \"Ich bin nicht sicher, ob das funktionieren würde\", \"Einerseits hätten wir mehr Freizeit, andererseits würden wir weniger verdienen.\"",
         ],
@@ -1757,7 +1757,7 @@ export const DE_B1_U31: Lesson[] = [
             en: "I'm interested [in] nature.",
             sentence: "Ich interessiere mich ___ die Natur.",
             answer: "für",
-            explanation: "\"Sich interessieren für\" + accusative. *An* is the classic slip, because of interessiert an (B2) and English in.",
+            explanation: "\"Sich interessieren für\" + accusative. *An* is the classic slip, because of interessiert an (Upper-intermediate level) and English in.",
           },
           {
             type: "translate",

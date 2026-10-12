@@ -8,7 +8,7 @@ export const DE_B1_U01: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "The Past Tenses Together, Part 1 of 2",
-    summary: "Bring the A2 pasts back side by side: the Perfekt for telling what happened, and war, hatte and the modals for what it was like.",
+    summary: "Bring the Elementary pasts back side by side: the Perfekt for telling what happened, and war, hatte and the modals for what it was like.",
     duration: "15 min",
     sections: [
       {
@@ -489,7 +489,7 @@ export const DE_B1_U01: Lesson[] = [
       {
         heading: "Mixed verbs, and verbs with no ge-",
         body: [
-          "Mixed verbs change their vowel like strong verbs but end in -t like weak ones: \"bringen → gebracht\", \"denken → gedacht\", \"wissen → gewusst\", \"kennen → gekannt\", \"nennen → genannt\". The inventions *gebringt* and *gedenkt* are among the most common B1 errors.",
+          "Mixed verbs change their vowel like strong verbs but end in -t like weak ones: \"bringen → gebracht\", \"denken → gedacht\", \"wissen → gewusst\", \"kennen → gekannt\", \"nennen → genannt\". The inventions *gebringt* and *gedenkt* are among the most common Intermediate errors.",
           "No ge- at all: verbs with an inseparable prefix (be-, ver-, er-, ent-, emp-, ge-, zer-) and verbs in -ieren. \"Verlieren → verloren\", \"bekommen → bekommen\", \"vergessen → vergessen\", \"empfehlen → empfohlen\", \"studieren → studiert\", \"telefonieren → telefoniert\".",
           "\"Bekommen\" is a false friend: it means to get or receive, never to become (\"werden\"). Its participle looks exactly like the infinitive.",
         ],

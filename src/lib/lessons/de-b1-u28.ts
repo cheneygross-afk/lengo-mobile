@@ -835,7 +835,7 @@ export const DE_B1_U28: Lesson[] = [
       {
         heading: "Three pasts, two time conjunctions",
         body: [
-          "German has three main past tenses, and B1 means choosing between them. Perfekt: the default in speech (\"Ich habe ihn getroffen\"). Präteritum: written narratives, and \"war / hatte\" and the modals in speech too (\"Ich musste lange warten\"). Plusquamperfekt: one step further back (\"Ich hatte ihn schon getroffen\").",
+          "German has three main past tenses, and the Intermediate level means choosing between them. Perfekt: the default in speech (\"Ich habe ihn getroffen\"). Präteritum: written narratives, and \"war / hatte\" and the modals in speech too (\"Ich musste lange warten\"). Plusquamperfekt: one step further back (\"Ich hatte ihn schon getroffen\").",
           "\"Als\" links a clause to one past moment or period: \"Als ich ankam, regnete es.\" \"Nachdem\" puts one event before another and usually needs the Plusquamperfekt: \"Nachdem ich gegessen hatte, ging ich spazieren.\"",
           "\"Wenn\" in the past only means whenever: \"(Immer) wenn wir Oma besuchten, gab es Kuchen.\" Using \"wenn\" for a single past event is a typical mistake.",
         ],

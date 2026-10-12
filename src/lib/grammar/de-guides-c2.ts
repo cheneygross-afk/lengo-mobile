@@ -7,11 +7,11 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
     slug: "stylistic-registers",
     title: "Stylistic Registers: From Gehoben to Salopp",
     description:
-      "The full range of German style levels at C2: gehoben, bildungssprachlich, neutral, umgangssprachlich, salopp and vulgär; the grammar and vocabulary that mark each one, register shifts for effect, and moving a text from one level to another.",
+      "The full range of German style levels at the Mastery level: gehoben, bildungssprachlich, neutral, umgangssprachlich, salopp and vulgär; the grammar and vocabulary that mark each one, register shifts for effect, and moving a text from one level to another.",
     level: "C2",
     intro: [
-      `German dictionaries label words with style levels: "gehoben" (elevated), "bildungssprachlich" (educated, often Latin or Greek in origin), "umgangssprachlich" (colloquial), "salopp" (slangy) and "vulgär". A C2 speaker not only knows these labels but uses them deliberately: to sound authoritative in a report, warm in a speech, ironic in a column.`,
-      `The C1 guide on registers covers formal vs informal and du vs Sie. This guide covers the finer gradations, how grammar and vocabulary combine to create a style, and how to shift register on purpose.`,
+      `German dictionaries label words with style levels: "gehoben" (elevated), "bildungssprachlich" (educated, often Latin or Greek in origin), "umgangssprachlich" (colloquial), "salopp" (slangy) and "vulgär". A Mastery-level speaker not only knows these labels but uses them deliberately: to sound authoritative in a report, warm in a speech, ironic in a column.`,
+      `The Advanced guide on registers covers formal vs informal and du vs Sie. This guide covers the finer gradations, how grammar and vocabulary combine to create a style, and how to shift register on purpose.`,
     ],
     sections: [
       {
@@ -116,7 +116,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
     level: "C2",
     intro: [
       `In German, mood carries information that English expresses with words. A news report can run for a whole paragraph in Konjunktiv I without repeating "he said": the verb form alone tells the reader that every sentence is reported. A novelist can switch from indicative to Konjunktiv to move between what happened and what a character imagines.`,
-      `At C2 you need to read these signals instantly and produce them with control, especially in summaries, citations and reports.`,
+      `At the Mastery level you need to read these signals instantly and produce them with control, especially in summaries, citations and reports.`,
     ],
     sections: [
       {
@@ -223,7 +223,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
     level: "C2",
     intro: [
       `Modern German is full of fossils. You say "zu Hause" and "im Grunde" without noticing the old dative "-e". Fairy tales give you "des Kaisers neue Kleider", poems "Röslein rot", proverbs "Wer anderen eine Grube gräbt, fällt selbst hinein". Classic literature uses "ward" and "hülfe".`,
-      `You do not need to produce these forms in everyday German, but at C2 you must recognise them, understand their effect and use the frozen ones correctly.`,
+      `You do not need to produce these forms in everyday German, but at the Mastery level you must recognise them, understand their effect and use the frozen ones correctly.`,
     ],
     sections: [
       {
@@ -273,7 +273,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
         heading: `The grammar of proverbs`,
         body: [
           `Proverbs preserve older syntax. "Wer" without an antecedent and without a correlative "der": "Wer A sagt, muss auch B sagen", "Wer zuletzt lacht, lacht am besten". Missing articles: "Ende gut, alles gut", "Übung macht den Meister", "Morgenstund hat Gold im Mund". Inverted word order for rhyme or rhythm: "Was du heute kannst besorgen, das verschiebe nicht auf morgen."`,
-          `Germans often quote only the first half and let the listener complete it: "Wer anderen eine Grube gräbt ..." (falls into it himself). Recognising the half-quoted proverb is a C2 listening skill.`,
+          `Germans often quote only the first half and let the listener complete it: "Wer anderen eine Grube gräbt ..." (falls into it himself). Recognising the half-quoted proverb is a Mastery-level listening skill.`,
         ],
         examples: [
           { de: "Wer nicht wagt, der nicht gewinnt.", en: "Nothing ventured, nothing gained." },
@@ -338,7 +338,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
     level: "C2",
     intro: [
       `German has three equally correct standard varieties: German Standard German, Austrian Standard German and Swiss Standard German. "Jänner" in Vienna and "parkieren" in Zurich are not dialect or mistakes; they are standard in their countries and appear in newspapers, laws and school books.`,
-      `This course teaches Germany's standard. At C2 you should understand the other two effortlessly, recognise the main differences in grammar, spelling and vocabulary, and know when to adapt to them.`,
+      `This course teaches Germany's standard. At the Mastery level you should understand the other two effortlessly, recognise the main differences in grammar, spelling and vocabulary, and know when to adapt to them.`,
     ],
     sections: [
       {
@@ -454,7 +454,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
       "How German idioms work grammatically: frozen articles and prepositions, the dative of the person affected (jemandem auf den Keks gehen), idioms with reflexive and separable verbs, tense and passive restrictions, false friends with English idioms, and business phraseology.",
     level: "C2",
     intro: [
-      `German is rich in Redewendungen (idioms) and fixed phrases: "Ich drücke dir die Daumen" (I'll keep my fingers crossed for you), "Das ist nicht mein Bier" (that's not my problem), "Ich verstehe nur Bahnhof" (it's all Greek to me). At C2, idioms are no longer decoration: they are expected in natural speech and appear in every listening and reading text.`,
+      `German is rich in Redewendungen (idioms) and fixed phrases: "Ich drücke dir die Daumen" (I'll keep my fingers crossed for you), "Das ist nicht mein Bier" (that's not my problem), "Ich verstehe nur Bahnhof" (it's all Greek to me). At the Mastery level, idioms are no longer decoration: they are expected in natural speech and appear in every listening and reading text.`,
       `Phraseologie is the study of these fixed expressions. The key insight for learners: an idiom is a block. Its articles, prepositions, word order and sometimes even its tense are frozen, and changing them destroys the idiom.`,
     ],
     sections: [
@@ -571,7 +571,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
       "How to make German texts hang together and persuade: the structure of an Erörterung, connectors of order and refutation (Dem ist entgegenzuhalten, dass ...), Vorfeld choice and pronouns for cohesion, rhetorical questions, anaphora, tricolon and the inclusive wir.",
     level: "C2",
     intro: [
-      `At C2, correctness is assumed. What distinguishes a strong text or speech is cohesion (how sentences link) and rhetoric (how they persuade). German has its own conventions for both: the Erörterung as a model of argument, a large set of formal connectors, and a word order that lets you start each sentence exactly where the previous one ended.`,
+      `At the Mastery level, correctness is assumed. What distinguishes a strong text or speech is cohesion (how sentences link) and rhetoric (how they persuade). German has its own conventions for both: the Erörterung as a model of argument, a large set of formal connectors, and a word order that lets you start each sentence exactly where the previous one ended.`,
       `This guide brings together the structures from earlier levels (connectors, Vorfeld, clefts, Konjunktiv) and shows how they work at text level.`,
     ],
     sections: [
@@ -646,7 +646,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
     ],
     faqs: [
       {
-        q: `Is "meiner Meinung nach" too simple for C2?`,
+        q: `Is "meiner Meinung nach" too simple for the Mastery level?`,
         a: `It is fine, but vary it: "Meines Erachtens ...", "Ich vertrete die Auffassung, dass ...", "Aus meiner Sicht ...", "Ich halte es für erwiesen, dass ...".`,
       },
       {
@@ -911,7 +911,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
     level: "C2",
     intro: [
       `Germans have a reputation for directness, and in many situations it is deserved. But German also has a full toolkit for saying unpleasant things gently, or for not quite saying them at all: "Es wurden Fehler gemacht" (mistakes were made), "Das ist nicht ganz optimal" (that's bad), "Wir trennen uns von 200 Mitarbeitern" (we are firing 200 people).`,
-      `At C2 you need to decode this language in the press and at work, and to use the respectful forms yourself in condolences, feedback and delicate e-mails.`,
+      `At the Mastery level you need to decode this language in the press and at work, and to use the respectful forms yourself in condolences, feedback and delicate e-mails.`,
     ],
     sections: [
       {
@@ -963,7 +963,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
       {
         heading: `The coded language of job references`,
         body: [
-          `German employers must write references (Arbeitszeugnisse) that sound positive, so a code has developed. "Er hat sich stets bemüht" (he always tried) actually means he failed. "Zu unserer vollsten Zufriedenheit" is the top grade; "zu unserer Zufriedenheit" is only average. "Sie war wegen ihrer Geselligkeit beliebt" may hint at too much socialising. Recognising this code is part of professional C2 competence.`,
+          `German employers must write references (Arbeitszeugnisse) that sound positive, so a code has developed. "Er hat sich stets bemüht" (he always tried) actually means he failed. "Zu unserer vollsten Zufriedenheit" is the top grade; "zu unserer Zufriedenheit" is only average. "Sie war wegen ihrer Geselligkeit beliebt" may hint at too much socialising. Recognising this code is part of professional Mastery-level competence.`,
         ],
         examples: [
           { de: "Sie erledigte ihre Aufgaben stets zu unserer vollsten Zufriedenheit.", en: "She always performed her tasks to our complete satisfaction. (= excellent)" },
@@ -1027,7 +1027,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
         heading: `Präteritum vs Perfekt`,
         body: [
           `The Präteritum is the narrative tense of writing: it tells a sequence of past events with no link to the present. The Perfekt connects the past with now ("Die Mauer ist gefallen, und heute ...") and dominates in speech. In written narration, use the Präteritum consistently and switch to the Perfekt only in direct speech or in a commentary about present relevance.`,
-          `At C2 you need the Präteritum of all common strong verbs, including the less frequent ones: "verlor", "beschloss", "wich", "erlag", "schwor", "verbarg", "gedieh", "befahl".`,
+          `At the Mastery level you need the Präteritum of all common strong verbs, including the less frequent ones: "verlor", "beschloss", "wich", "erlag", "schwor", "verbarg", "gedieh", "befahl".`,
         ],
         examples: [
           { de: "1871 wurde in Versailles das Deutsche Kaiserreich proklamiert.", en: "In 1871 the German Empire was proclaimed at Versailles." },

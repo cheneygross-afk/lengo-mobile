@@ -503,7 +503,7 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
         heading: "Recap: what they really say",
         body: [
           "\"Das Glück ist mit den Dummen\" (fortune favours fools) is usually self-mocking or wry, not an insult: \"Ich hab ohne Lernen bestanden. Na ja, das Glück ist mit den Dummen.\" Said about someone else, though, it stings. \"Hochmut kommt vor dem Fall\" (pride goes before a fall, from the Bible) is about arrogance (\"Hochmut\"), not high spirits; \"Übermut\" (high spirits, recklessness) is a different word.",
-          "\"Der Klügere gibt nach\" (the wiser one gives way) is often used to end an argument while claiming the moral high ground, and the joke reply is \"..., bis er der Dumme ist\". \"Ausnahmen bestätigen die Regel\" (the exception proves the rule) is not logic: one exception does not prove anything, and saying so is a classic C2 debating move. \"Stille Wasser sind tief\" means quiet people have hidden depths, and often a hidden wild side. \"Getroffene Hunde bellen\" (hit dogs bark) claims that whoever protests loudly feels caught out; it is often misused to dismiss any objection.",
+          "\"Der Klügere gibt nach\" (the wiser one gives way) is often used to end an argument while claiming the moral high ground, and the joke reply is \"..., bis er der Dumme ist\". \"Ausnahmen bestätigen die Regel\" (the exception proves the rule) is not logic: one exception does not prove anything, and saying so is a classic Mastery-level debating move. \"Stille Wasser sind tief\" means quiet people have hidden depths, and often a hidden wild side. \"Getroffene Hunde bellen\" (hit dogs bark) claims that whoever protests loudly feels caught out; it is often misused to dismiss any objection.",
         ],
         examples: [
           { es: "Ich habe ohne Lernen bestanden. Na ja, das Glück ist mit den Dummen.", en: "I passed without studying. Well, fortune favours fools." },
@@ -525,7 +525,7 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Someone says \"Ausnahmen bestätigen die Regel\" to defend a weak generalisation. What is the best C2 reply?",
+            question: "Someone says \"Ausnahmen bestätigen die Regel\" to defend a weak generalisation. What is the best Mastery-level reply?",
             options: ["Eine Ausnahme beweist gar nichts, sie stellt die Regel eher in Frage.", "Ja, das Glück ist mit den Dummen.", "Stille Wasser sind tief.", "Da hast du völlig recht."],
             correctIndex: 0,
             explanation: "The proverb sounds logical but isn't: an exception calls a rule into question (\"in Frage stellen\").",

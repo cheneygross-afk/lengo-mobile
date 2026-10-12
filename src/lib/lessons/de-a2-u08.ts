@@ -8,7 +8,7 @@ export const DE_A2_U08: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "Mich, Dich, Ihn: Accusative Pronouns Revisited",
-    summary: "The accusative pronouns from A1 side by side with the new dative ones, and ihn as it for masculine things, not to be confused with ihm.",
+    summary: "The accusative pronouns from the Beginner level side by side with the new dative ones, and ihn as it for masculine things, not to be confused with ihm.",
     duration: "12 min",
     sections: [
       {

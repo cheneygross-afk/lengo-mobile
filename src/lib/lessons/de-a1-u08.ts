@@ -469,7 +469,7 @@ export const DE_A1_U08: Lesson[] = [
       {
         heading: "Das gefällt mir, das schmeckt gut",
         body: [
-          "Two chunks complete the picture. \"Das gefällt mir\" (I like it) is for things you see, hear or experience: a jacket, a city, a film. \"Das schmeckt gut\" (it tastes good) is for food and drink: \"Der Kuchen schmeckt gut!\" Learn them as fixed phrases; the grammar behind \"mir\" comes in A2.",
+          "Two chunks complete the picture. \"Das gefällt mir\" (I like it) is for things you see, hear or experience: a jacket, a city, a film. \"Das schmeckt gut\" (it tastes good) is for food and drink: \"Der Kuchen schmeckt gut!\" Learn them as fixed phrases; the grammar behind \"mir\" comes at the Elementary level.",
           "So in a café: \"Ich mag Kuchen\" (general taste), \"Ich esse gern Kuchen\" (I like eating cake), \"Ich möchte ein Stück Kuchen\" (order), \"Der Kuchen schmeckt gut!\" (it's tasty), \"Das Café gefällt mir\" (I like the café).",
         ],
         examples: [
@@ -1499,7 +1499,7 @@ export const DE_A1_U08: Lesson[] = [
         heading: "Der Abend: fernsehen, ins Bett gehen",
         body: [
           "The evening: \"kochen\", \"zu Abend essen\" (to have dinner), \"fernsehen\", \"lesen\", and \"ins Bett gehen\" (to go to bed: learn \"ins Bett\" as a chunk). \"Schlafen\" (a→ä: \"er schläft\") is to sleep.",
-          "Reflexive verbs such as getting dressed come in A2; for now you can describe your whole day without them.",
+          "Reflexive verbs such as getting dressed come at the Elementary level; for now you can describe your whole day without them.",
         ],
         examples: [
           { es: "Abends koche ich.", en: "In the evening I cook." },

@@ -786,7 +786,7 @@ export const DE_A2_U12: Lesson[] = [
       {
         heading: "Dieser, jeder, welcher work like der",
         body: [
-          "You know \"dieser\" (this), \"jeder\" (every) and \"welcher\" (which) from A1. Their endings copy the definite article: \"dieser\" like \"der\", \"diese\" like \"die\", \"dieses\" like \"das\", \"diesen\" like \"den\", \"diesem\" like \"dem\".",
+          "You know \"dieser\" (this), \"jeder\" (every) and \"welcher\" (which) from the Beginner level. Their endings copy the definite article: \"dieser\" like \"der\", \"diese\" like \"die\", \"dieses\" like \"das\", \"diesen\" like \"den\", \"diesem\" like \"dem\".",
           "Because they already show gender and case so clearly, the adjective after them takes exactly the same weak endings as after der/die/das: \"dieser neue Laptop\", \"diese neue Lampe\", \"dieses neue Handy\", \"diesen neuen Laptop\", \"mit diesem neuen Handy\".",
           "Drill the two endings as one sound: \"dieser neue\", \"diesen neuen\", \"diesem neuen\".",
         ],

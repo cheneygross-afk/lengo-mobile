@@ -14,7 +14,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         heading: "Process or state?",
         body: [
-          "You know the werden-passive from B1: \"Die Tür wird um 20 Uhr geschlossen\" (the door is closed at 8 pm, i.e. someone closes it then). This is the Vorgangspassiv, the passive of a process: something is being done.",
+          "You know the werden-passive from the Intermediate level: \"Die Tür wird um 20 Uhr geschlossen\" (the door is closed at 8 pm, i.e. someone closes it then). This is the Vorgangspassiv, the passive of a process: something is being done.",
           "German has a second passive for the result: sein + Partizip II. \"Die Tür ist geschlossen\" means the door is shut: the closing happened earlier and now we see the state. This is the Zustandspassiv (Zustand = state).",
           "English uses is closed for both, so it's ambiguous. German forces you to choose. Ask yourself: am I describing an action happening (at a time, by someone, regularly) or a situation I can see right now? Action → werden. State → sein.",
           "The participle in the Zustandspassiv behaves almost like an adjective: \"Das Geschäft ist geöffnet\" is close to \"Das Geschäft ist offen.\" That's a good test: if you could swap in an adjective (offen, zu, fertig, kaputt), you need sein.",

@@ -14,7 +14,7 @@ export const DE_C1_U19_WRITING: WriteExercise = {
     "Has a correct formal frame: subject line, \"Sehr geehrte Damen und Herren,\" with a lowercase continuation, and \"Mit freundlichen Grüßen\".",
   ],
   modelAnswer: "Ihr Artikel „Brauchen wir noch Stadtbibliotheken?“ vom 12. Oktober 2026\n\nSehr geehrte Damen und Herren,\n\nmit großem Interesse, aber auch mit einiger Verwunderung habe ich den oben genannten Artikel gelesen. Der Autor vertritt darin die Auffassung, Bibliotheken seien im digitalen Zeitalter überflüssig, da heute nahezu alle Informationen online verfügbar seien. Die Stadt könne durch eine Schließung jährlich rund zwei Millionen Euro einsparen.\n\nZwar ist nicht zu bestreiten, dass sich das Leseverhalten stark verändert hat. Daraus jedoch zu schließen, Bibliotheken würden nicht mehr gebraucht, greift meines Erachtens zu kurz. Allein im vergangenen Jahr wurde unsere Stadtbibliothek von über 200.000 Menschen besucht, darunter zahlreiche Schülerinnen und Schüler, die zu Hause weder einen ruhigen Arbeitsplatz noch einen eigenen Computer haben. Für viele ältere Menschen dürfte die Bibliothek zudem einer der wenigen Orte sein, an denen sie kostenlos Hilfe im Umgang mit digitalen Medien erhalten.\n\nWürde die Bibliothek tatsächlich geschlossen, träfe dies also gerade diejenigen, die ohnehin benachteiligt sind. Die vermeintliche Einsparung hätte somit einen hohen gesellschaftlichen Preis.\n\nStatt über eine Schließung nachzudenken, sollte die Stadt vielmehr in die Modernisierung der Bibliothek investieren. Ich würde mich freuen, wenn Ihre Zeitung auch diese Perspektive berücksichtigen könnte.\n\nMit freundlichen Grüßen\n\nJonas Weber, Kassel",
-  explanation: "The letter combines the whole C1 toolkit: Konjunktiv I to report the article (\"seien\", \"könne\"), a concession with \"Zwar ... nicht zu bestreiten\" (sein + zu), an infinitive clause as subject (\"Daraus jedoch zu schließen, ... greift zu kurz\"), the passive (\"wurde ... besucht\"), a hedge with \"dürfte\", a relative clause with a preposition (\"an denen\"), a verb-first unreal condition (\"Würde die Bibliothek ... geschlossen, träfe dies ...\"), the distancing \"vermeintlich\", \"statt ... zu\" and a polite Konjunktiv II request, all inside a correct formal frame.",
+  explanation: "The letter combines the whole Advanced toolkit: Konjunktiv I to report the article (\"seien\", \"könne\"), a concession with \"Zwar ... nicht zu bestreiten\" (sein + zu), an infinitive clause as subject (\"Daraus jedoch zu schließen, ... greift zu kurz\"), the passive (\"wurde ... besucht\"), a hedge with \"dürfte\", a relative clause with a preposition (\"an denen\"), a verb-first unreal condition (\"Würde die Bibliothek ... geschlossen, träfe dies ...\"), the distancing \"vermeintlich\", \"statt ... zu\" and a polite Konjunktiv II request, all inside a correct formal frame.",
 };
 
 export const DE_C1_U19: Lesson[] = [
@@ -23,7 +23,7 @@ export const DE_C1_U19: Lesson[] = [
     level: "DE-C1",
     number: 1,
     title: "Advanced Challenge: The Big Error Hunt",
-    summary: "A long report by a learner, Emma, full of C1 slips: cases after prepositions, fixed prepositions, the Konjunktiv, word order, adjective endings and register. Find them and fix them.",
+    summary: "A long report by a learner, Emma, full of Advanced slips: cases after prepositions, fixed prepositions, the Konjunktiv, word order, adjective endings and register. Find them and fix them.",
     duration: "20 min",
     sections: [
       {
@@ -31,7 +31,7 @@ export const DE_C1_U19: Lesson[] = [
         body: [
           "Emma, a British engineer, has written a report for her company's newsletter about her first year in the Leipzig office. Her first paragraph: \"Trotz dem schlechten Wetter bin ich im Januar nach Leipzig gezogen. Ich interessiere mich schon lange an der deutschen Kultur. Mit meinen neuen Kollegin habe ich sofort gut zusammengearbeitet, und ich bin sehr stolz für unser erstes Projekt.\"",
           "Four errors. \"Trotz\" takes the genitive in writing: \"trotz des schlechten Wetters\" (the dative is common in speech but a mistake in a report). Interested in is \"sich interessieren für\", not \"an\" (\"Interesse an\" is the noun). \"Mit\" + dative feminine singular: \"mit meiner neuen Kollegin\". Proud of is \"stolz auf\" + accusative.",
-          "The fixed prepositions of Unit 9 are the most frequent C1 errors because they rarely match English: \"stolz auf\" (proud of), \"abhängig von\" (dependent on), \"sich freuen über / auf\", \"Angst vor\" (afraid of), \"teilnehmen an\" (take part in), \"warten auf\" (wait for).",
+          "The fixed prepositions of Unit 9 are the most frequent Advanced errors because they rarely match English: \"stolz auf\" (proud of), \"abhängig von\" (dependent on), \"sich freuen über / auf\", \"Angst vor\" (afraid of), \"teilnehmen an\" (take part in), \"warten auf\" (wait for).",
         ],
         examples: [
           { es: "Trotz des schlechten Wetters bin ich im Januar nach Leipzig gezogen.", en: "Despite the bad weather I moved to Leipzig in January." },
@@ -896,7 +896,7 @@ export const DE_C1_U19: Lesson[] = [
         body: [
           "Every German connector belongs to one of three groups, and the group decides the word order. Position 0 (no effect on order): \"und\", \"aber\", \"oder\", \"denn\", \"sondern\": \"..., denn die Mieten sind gestiegen.\" Vorfeld adverbs (verb straight after): \"deshalb\", \"trotzdem\", \"zudem\", \"allerdings\", \"folglich\": \"Deshalb ziehen viele aufs Land.\" Subordinating conjunctions (verb at the end): \"weil\", \"da\", \"obwohl\", \"zumal\", \"sodass\": \"..., weil die Mieten gestiegen sind.\"",
           "Some adverbs can also sit in the middle field: \"Viele ziehen deshalb aufs Land.\" \"Das ist allerdings nicht alles.\" And \"nämlich\" can only stand there: \"Viele ziehen aufs Land. Die Mieten sind nämlich gestiegen.\"",
-          "The most frequent C1 error is mixing groups: \"*denn die Mieten sind gestiegen\" is right, \"*weil die Mieten sind gestiegen\" is spoken German only, \"*deshalb viele ziehen\" is always wrong.",
+          "The most frequent Advanced error is mixing groups: \"*denn die Mieten sind gestiegen\" is right, \"*weil die Mieten sind gestiegen\" is spoken German only, \"*deshalb viele ziehen\" is always wrong.",
         ],
         examples: [
           { es: "Viele Familien ziehen aufs Land, denn die Mieten sind gestiegen.", en: "Many families are moving to the countryside, because rents have gone up." },
@@ -2580,7 +2580,7 @@ export const DE_C1_U19: Lesson[] = [
     slug: "c1-exit-test",
     level: "DE-C1",
     number: 13,
-    title: "Advanced Exit Test: Ready for C2?",
+    title: "Advanced Exit Test: Ready for the Mastery Level?",
     summary: "A Goethe C1-style exit test: a reading text, a listening-style transcript, pieces of an Erörterung and a formal message, and grammar from across the whole level.",
     duration: "20 min",
     sections: [
@@ -2588,7 +2588,7 @@ export const DE_C1_U19: Lesson[] = [
         heading: "Lesen: a magazine text",
         body: [
           "Read the extract: \"Die Viertagewoche gilt vielen als Zukunftsmodell. Befürworter verweisen auf Pilotprojekte, in denen die Produktivität trotz kürzerer Arbeitszeit nicht gesunken sei. Kritiker halten dagegen, dass sich die Ergebnisse kaum auf Branchen wie die Pflege oder das Handwerk übertragen ließen. Zwar mögen zufriedene Beschäftigte seltener krank sein, doch gerade kleine Betriebe könnten den Ausfall eines ganzen Arbeitstages kaum verkraften. Ob sich das Modell durchsetzt, dürfte letztlich davon abhängen, wie flexibel es umgesetzt wird.\"",
-          "Notice how the text signals stance: the Konjunktiv I (\"sei\", \"ließen\") reports the two camps, \"zwar mögen ... doch\" concedes, \"dürfte\" hedges the conclusion, and \"letztlich\" marks the final judgement. Answer the questions without looking for single words: C1 reading tests check that you understand who says what, and how sure they are.",
+          "Notice how the text signals stance: the Konjunktiv I (\"sei\", \"ließen\") reports the two camps, \"zwar mögen ... doch\" concedes, \"dürfte\" hedges the conclusion, and \"letztlich\" marks the final judgement. Answer the questions without looking for single words: Advanced reading tests check that you understand who says what, and how sure they are.",
         ],
         examples: [
           { es: "Die Viertagewoche gilt vielen als Zukunftsmodell.", en: "Many people regard the four-day week as a model for the future." },
@@ -2627,7 +2627,7 @@ export const DE_C1_U19: Lesson[] = [
         heading: "Hören: a radio interview (transcript)",
         body: [
           "Transcript of a radio interview with an urban planner: \"Moderatorin: Frau Dr. Yilmaz, brauchen wir autofreie Innenstädte? Yilmaz: Nun, pauschal würde ich das nicht sagen. Aber die Erfahrungen aus Kopenhagen oder Wien zeigen schon, dass weniger Autos die Lebensqualität deutlich erhöhen. Moderatorin: Der Handel sieht das anders. Yilmaz: Das ist richtig, allerdings sind die befürchteten Umsatzeinbußen in den meisten Städten ausgeblieben. Entscheidend ist, dass man die Anwohner von Anfang an einbezieht.\"",
-          "In listening tasks at C1 you must catch the speaker's attitude: \"pauschal würde ich das nicht sagen\" (I wouldn't say that across the board) is a cautious no to the generalisation, \"zeigen schon\" (do show) is a concession, \"allerdings\" turns the argument, and \"Entscheidend ist\" introduces her key point.",
+          "In listening tasks at the Advanced level you must catch the speaker's attitude: \"pauschal würde ich das nicht sagen\" (I wouldn't say that across the board) is a cautious no to the generalisation, \"zeigen schon\" (do show) is a concession, \"allerdings\" turns the argument, and \"Entscheidend ist\" introduces her key point.",
         ],
         examples: [
           { es: "Pauschal würde ich das nicht sagen.", en: "I wouldn't say that across the board." },
@@ -2699,8 +2699,8 @@ export const DE_C1_U19: Lesson[] = [
       {
         heading: "Grammatik: the whole level",
         body: [
-          "The last section mixes the grammar of the whole C1 level: Konjunktiv I and II, concession, nominal style, participial attributes, passive and its substitutes, prepositions, particles, supposition and register. There are no hints: decide for yourself which structure each sentence needs.",
-          "If you can do most of the final review without looking back, you are ready for C2, where the focus moves from mastering structures to choosing between them with stylistic precision.",
+          "The last section mixes the grammar of the whole Advanced level: Konjunktiv I and II, concession, nominal style, participial attributes, passive and its substitutes, prepositions, particles, supposition and register. There are no hints: decide for yourself which structure each sentence needs.",
+          "If you can do most of the final review without looking back, you are ready for the Mastery level, where the focus moves from mastering structures to choosing between them with stylistic precision.",
         ],
         examples: [
           { es: "Die seit Monaten geplante Reform hätte längst umgesetzt werden müssen.", en: "The reform, which has been planned for months, should have been implemented long ago." },

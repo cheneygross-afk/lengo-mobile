@@ -423,7 +423,7 @@ export const DE_C2_U20: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Rhetorische Fragen und Emphase, Part 6 of 7",
-    summary: "Frame the central question of an essay (die Fragestellung): Es stellt sich die Frage, ob...; Inwiefern...?; Zu klären ist, ...; indirect questions with verb-final order, and the guiding question of a C2 essay.",
+    summary: "Frame the central question of an essay (die Fragestellung): Es stellt sich die Frage, ob...; Inwiefern...?; Zu klären ist, ...; indirect questions with verb-final order, and the guiding question of a Mastery-level essay.",
     duration: "18 min",
     sections: [
       {
@@ -462,7 +462,7 @@ export const DE_C2_U20: Lesson[] = [
       {
         heading: "Inwiefern? Zu klären ist...",
         body: [
-          "\"Inwiefern\" (to what extent, in what respect) and \"inwieweit\" (to what extent) are the C2 favourites for essay questions because they invite a nuanced answer rather than yes or no: \"Inwiefern ist Social Media eine Gefahr für die Demokratie?\" A good essay on that question answers \"in mancher Hinsicht\" (in some respects) and \"in anderer Hinsicht nicht\".",
+          "\"Inwiefern\" (to what extent, in what respect) and \"inwieweit\" (to what extent) are the Mastery-level favourites for essay questions because they invite a nuanced answer rather than yes or no: \"Inwiefern ist Social Media eine Gefahr für die Demokratie?\" A good essay on that question answers \"in mancher Hinsicht\" (in some respects) and \"in anderer Hinsicht nicht\".",
           "\"Sein\" + zu-infinitive frames the question impersonally: \"Zu klären ist, ...\" (what needs to be clarified is), \"Zu prüfen ist, ob...\", \"Zu fragen ist, ...\", \"Zu untersuchen bleibt, ...\". The fronted infinitive puts the task in focus.",
           "Other frames: \"Die vorliegende Arbeit geht der Frage nach, ...\", \"Leitfrage dieses Aufsatzes ist: ...\" (the guiding question of this essay is). \"Die Leitfrage\" (guiding question) is the term used in German schools and universities.",
         ],
@@ -501,7 +501,7 @@ export const DE_C2_U20: Lesson[] = [
         ],
       },
       {
-        heading: "The guiding question of a C2 essay",
+        heading: "The guiding question of a Mastery-level essay",
         body: [
           "In the Goethe C2 Schreiben, you often write an essay or commentary on a statement. A strong introduction moves from a hook to the Fragestellung: \"Kaum ein Thema wird derzeit so leidenschaftlich diskutiert wie das Tempolimit auf Autobahnen. Befürworter verweisen auf die Sicherheit, Gegner auf die Freiheit. Es stellt sich daher die Frage, ob ein generelles Tempolimit sinnvoll ist und, wenn ja, unter welchen Bedingungen.\"",
           "Then announce the structure: \"Im Folgenden werden zunächst die Argumente der Befürworter erläutert, anschließend die Einwände der Gegner geprüft, bevor abschließend eine eigene Position entwickelt wird.\"",
@@ -574,7 +574,7 @@ export const DE_C2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which Fragestellung best suits a C2 argumentative essay?",
+        question: "Which Fragestellung best suits a Mastery-level argumentative essay?",
         options: [
           "Es stellt sich die Frage, ob ein generelles Tempolimit sinnvoll ist und unter welchen Bedingungen.",
           "Tempolimit: ja oder nein?",
@@ -1038,7 +1038,7 @@ export const DE_C2_U20: Lesson[] = [
     slug: "c2-rhetorical-figures-spiral",
     level: "DE-C2",
     number: 6,
-    title: "Spiral Review: Die Rhetorischen Figuren der Stufe C2",
+    title: "Spiral Review: Die Rhetorischen Figuren",
     summary: "Recombine metaphor, anaphora, tricolon, rhetorical questions and emphasis by analysing a speech passage and then writing one of your own.",
     duration: "18 min",
     sections: [
@@ -1246,7 +1246,7 @@ export const DE_C2_U20: Lesson[] = [
     slug: "c2-vocab-economics-fine",
     level: "DE-C2",
     number: 7,
-    title: "C2 Vocabulary: Fine Economic Vocabulary",
+    title: "Mastery Vocabulary: Fine Economic Vocabulary",
     summary: "Talk about the economy with precision: Konjunktur, Aufschwung, Abschwung, Rezession, Kaufkraft, Inflation vs Teuerung, Wertschöpfung, Bruttoinlandsprodukt, Haushaltsdefizit and Schuldenbremse.",
     duration: "18 min",
     sections: [
@@ -1449,7 +1449,7 @@ export const DE_C2_U20: Lesson[] = [
     slug: "c2-vocab-scientific-method",
     level: "DE-C2",
     number: 8,
-    title: "C2 Vocabulary: The Scientific Method",
+    title: "Mastery Vocabulary: The Scientific Method",
     summary: "Describe research precisely: eine Hypothese aufstellen, überprüfen, verifizieren, falsifizieren, die Versuchsanordnung, die Stichprobe, die Kontrollgruppe, signifikant, Korrelation vs Kausalität, der Messfehler.",
     duration: "18 min",
     sections: [
@@ -1653,7 +1653,7 @@ export const DE_C2_U20: Lesson[] = [
 
 export const DE_C2_U20_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write the introduction and the conclusion of a C2 essay on the question of whether Germany should loosen its debt brake to invest more in schools and infrastructure. The introduction should open with a hook, frame a precise Fragestellung with an indirect question and announce the structure; the conclusion should answer the question, using emphatic word order and at most one or two rhetorical questions.",
+  prompt: "Write the introduction and the conclusion of a Mastery-level essay on the question of whether Germany should loosen its debt brake to invest more in schools and infrastructure. The introduction should open with a hook, frame a precise Fragestellung with an indirect question and announce the structure; the conclusion should answer the question, using emphatic word order and at most one or two rhetorical questions.",
   minWords: 250,
   maxWords: 400,
   rubric: [

@@ -7,14 +7,14 @@ export const DE_B2_U28: Lesson[] = [
     slug: "b2-challenge-konjunktiv-gauntlet",
     level: "DE-B2",
     number: 1,
-    title: "B2 Challenge: The Konjunktiv Gauntlet",
+    title: "Upper-Intermediate Challenge: The Konjunktiv Gauntlet",
     summary: "Konjunktiv II present and past, the double infinitive, Konjunktiv I and als ob: twelve decisions without hints.",
     duration: "16 min",
     sections: [
       {
         heading: "How the gauntlet works",
         body: [
-          "This unit tests the B2 level without scaffolding. Each gauntlet starts with two short warm-up sections and then runs a final round of twelve or more items with no hints in the prompts: you decide the structure yourself, and the explanation afterwards tells you what was being tested.",
+          "This unit tests the Upper-intermediate level without scaffolding. Each gauntlet starts with two short warm-up sections and then runs a final round of twelve or more items with no hints in the prompts: you decide the structure yourself, and the explanation afterwards tells you what was being tested.",
           "For the Konjunktiv, ask three questions before you write: Is it real or unreal? Is it about now or the past? Am I reporting someone else's words? Real → indicative. Unreal now → \"wäre / hätte / würde\". Unreal past → \"wäre / hätte\" + participle. With a modal in the past → double infinitive. Reporting → Konjunktiv I (or II when I looks like the indicative). Comparison → \"als ob\" + Konjunktiv II.",
         ],
         examples: [
@@ -196,7 +196,7 @@ export const DE_B2_U28: Lesson[] = [
     slug: "b2-challenge-passive-gauntlet",
     level: "DE-B2",
     number: 2,
-    title: "B2 Challenge: The Passive and Its Alternatives",
+    title: "Upper-Intermediate Challenge: The Passive and Its Alternatives",
     summary: "Vorgangspassiv, Zustandspassiv, man, sich lassen, sein + zu and -bar: choose and form the right structure.",
     duration: "16 min",
     sections: [
@@ -381,7 +381,7 @@ export const DE_B2_U28: Lesson[] = [
     slug: "b2-challenge-indirect-speech-gauntlet",
     level: "DE-B2",
     number: 3,
-    title: "B2 Challenge: Indirect Speech Gauntlet",
+    title: "Upper-Intermediate Challenge: Indirect Speech Gauntlet",
     summary: "Statements, questions, commands and claims: turn them into indirect speech, with soll and will for hearsay and claims.",
     duration: "16 min",
     sections: [
@@ -566,7 +566,7 @@ export const DE_B2_U28: Lesson[] = [
     slug: "b2-challenge-participles-nominal-gauntlet",
     level: "DE-B2",
     number: 4,
-    title: "B2 Challenge: Participles, Nominal Style and Funktionsverbgefüge",
+    title: "Upper-Intermediate Challenge: Participles, Nominal Style and Funktionsverbgefüge",
     summary: "The compact structures of written German: build them and unpack them.",
     duration: "16 min",
     sections: [
@@ -748,7 +748,7 @@ export const DE_B2_U28: Lesson[] = [
     slug: "b2-challenge-woche-in-hamburg-1",
     level: "DE-B2",
     number: 5,
-    title: "B2 Challenge: Eine Woche in Hamburg, Part 1 of 2",
+    title: "Upper-Intermediate Challenge: Eine Woche in Hamburg, Part 1 of 2",
     summary: "Jana, a journalist from Stuttgart, reports on housing and the port in Hamburg: follow her interviews and emails and answer comprehension and grammar questions.",
     duration: "18 min",
     sections: [
@@ -957,7 +957,7 @@ export const DE_B2_U28: Lesson[] = [
     slug: "b2-challenge-woche-in-hamburg-2",
     level: "DE-B2",
     number: 6,
-    title: "B2 Challenge: Eine Woche in Hamburg, Part 2 of 2",
+    title: "Upper-Intermediate Challenge: Eine Woche in Hamburg, Part 2 of 2",
     summary: "Jana's week ends: a storm surge warning, a published article and a farewell, with reported speech, regrets, Futur II and emphasis.",
     duration: "18 min",
     sections: [
@@ -1171,7 +1171,7 @@ export const DE_B2_U28: Lesson[] = [
     slug: "b2-challenge-schreiben",
     level: "DE-B2",
     number: 7,
-    title: "B2 Challenge: Forumsbeitrag und Formelle Nachricht",
+    title: "Upper-Intermediate Challenge: Forumsbeitrag und Formelle Nachricht",
     summary: "Write a Goethe B2-style forum post on short-term holiday rentals and a formal message to a landlord, with concession, formal connectors and the right register.",
     duration: "20 min",
     sections: [
@@ -1389,8 +1389,8 @@ export const DE_B2_U28: Lesson[] = [
     slug: "b2-exit-test",
     level: "DE-B2",
     number: 8,
-    title: "B2 Exit Test: Ready for C1?",
-    summary: "The final B2 test in Goethe-Zertifikat B2 format: reading and listening comprehension, grammar and vocabulary, a written forum post and a spoken presentation.",
+    title: "Upper-Intermediate Exit Test: Ready for the Advanced Level?",
+    summary: "The final Upper-intermediate test in Goethe-Zertifikat B2 format: reading and listening comprehension, grammar and vocabulary, a written forum post and a spoken presentation.",
     duration: "20 min",
     sections: [
       {
@@ -1474,7 +1474,7 @@ export const DE_B2_U28: Lesson[] = [
       {
         heading: "Sprachbausteine, Schreiben und Sprechen",
         body: [
-          "Grammar and vocabulary items test the B2 forms directly: mood, connector, preposition and case, relative pronoun, passive. Then you write a forum post (about 150 words, see the previous lesson) and a formal message (about 100 words).",
+          "Grammar and vocabulary items test the Upper-intermediate forms directly: mood, connector, preposition and case, relative pronoun, passive. Then you write a forum post (about 150 words, see the previous lesson) and a formal message (about 100 words).",
           "In Sprechen, part 1 is a short presentation (\"Vortrag\") of about four minutes on a topic you choose from two: introduce the topic, describe the situation in your country, give pros and cons, your opinion, a conclusion. Part 2 is a discussion with a partner: you exchange opinions, react (\"Da stimme ich dir zu\", \"Da muss ich widersprechen\") and reach a conclusion together.",
           "Useful presentation phrases: \"In meinem Vortrag geht es um ...\", \"Zunächst möchte ich ...\", \"Ein wichtiger Vorteil ist ...\", \"Abschließend möchte ich sagen, dass ...\", \"Vielen Dank für Ihre Aufmerksamkeit.\"",
         ],
@@ -1640,7 +1640,7 @@ export const DE_B2_U28: Lesson[] = [
           "Asks politely with Konjunktiv II (\"Ich wäre Ihnen dankbar, wenn ...\", \"Könnten Sie ...?\").",
           "Suggests an alternative and mentions a consequence (\"Andernfalls müsste ich ...\").",
         ],
-        modelAnswer: "Sehr geehrte Frau Schneider,\n\nich besuche seit Januar den Abendkurs B2 an Ihrer Schule. Leider wurde der Kurs letzte Woche ohne vorherige Ankündigung von 18 auf 17 Uhr verlegt. Da ich bis 17.30 Uhr arbeite, kann ich zu dieser Zeit nicht teilnehmen.\n\nIch wäre Ihnen dankbar, wenn Sie prüfen könnten, ob ich in einen anderen Kurs auf dem gleichen Niveau wechseln kann. Ein Kurs am Samstagvormittag würde mir zum Beispiel gut passen. Andernfalls müsste ich Sie leider um eine anteilige Erstattung der Kursgebühr bitten.\n\nVielen Dank im Voraus für Ihre Antwort.\n\nMit freundlichen Grüßen\nDaniel Clarke",
+        modelAnswer: "Sehr geehrte Frau Schneider,\n\nich besuche seit Januar den Abendkurs für Fortgeschrittene an Ihrer Schule. Leider wurde der Kurs letzte Woche ohne vorherige Ankündigung von 18 auf 17 Uhr verlegt. Da ich bis 17.30 Uhr arbeite, kann ich zu dieser Zeit nicht teilnehmen.\n\nIch wäre Ihnen dankbar, wenn Sie prüfen könnten, ob ich in einen anderen Kurs auf dem gleichen Niveau wechseln kann. Ein Kurs am Samstagvormittag würde mir zum Beispiel gut passen. Andernfalls müsste ich Sie leider um eine anteilige Erstattung der Kursgebühr bitten.\n\nVielen Dank im Voraus für Ihre Antwort.\n\nMit freundlichen Grüßen\nDaniel Clarke",
         explanation: "The problem is stated with the Präteritum passive (\"wurde ... verlegt\") and a \"da\"-clause; the request uses \"Ich wäre Ihnen dankbar, wenn ... könnten\"; \"Andernfalls müsste ich\" adds a polite but firm consequence.",
       },
     ],
@@ -1649,15 +1649,15 @@ export const DE_B2_U28: Lesson[] = [
 
 export const DE_B2_U28_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You've just finished the B2 level. Write a blog post about your journey: what was harder than you expected, what you would have done differently (and what you should have done), what your teacher or friends said about your progress, and what you will have achieved by the time you reach C1.",
+  prompt: "You've just finished the Upper-intermediate level. Write a blog post about your journey: what was harder than you expected, what you would have done differently (and what you should have done), what your teacher or friends said about your progress, and what you will have achieved by the time you reach the Advanced level.",
   minWords: 120,
   maxWords: 220,
   rubric: [
     "Uses the unreal past and the double infinitive for regrets (\"Hätte ich ... , wäre ...\", \"Ich hätte ... sollen\").",
     "Reports what others said in Konjunktiv I (\"Meine Lehrerin meinte, ich habe ...\").",
     "Uses Futur II for future achievements (\"Bis ... werde ich ... gemacht haben\").",
-    "Connects ideas with B2 connectors and at least one participle attribute or passive (\"zwar ... aber\", \"trotzdem\", \"die mühsam gelernten Endungen\").",
+    "Connects ideas with Upper-intermediate connectors and at least one participle attribute or passive (\"zwar ... aber\", \"trotzdem\", \"die mühsam gelernten Endungen\").",
   ],
-  modelAnswer: "Mein Weg zu B2: ein Rückblick\n\nAls ich vor drei Jahren mit Deutsch angefangen habe, dachte ich, die Grammatik wäre das größte Problem. Zwar haben mich die Adjektivendungen lange gequält, aber am schwierigsten war eigentlich das Hörverstehen. Gerade die schnellen Gespräche in der Kantine habe ich anfangs kaum verstanden.\n\nIm Nachhinein hätte ich viel früher deutsche Podcasts hören sollen. Hätte ich nicht so lange nur mit dem Lehrbuch gearbeitet, wäre ich schneller vorangekommen. Trotzdem bereue ich nichts: Die mühsam gelernten Endungen sitzen jetzt.\n\nMeine Lehrerin meinte letzte Woche, ich habe mich besonders beim Schreiben enorm verbessert, und meine Kollegen sagen, ich spreche inzwischen, als hätte ich schon jahrelang in Köln gewohnt. Das ist natürlich übertrieben, aber es motiviert mich.\n\nMein nächstes Ziel ist C1. Bis zum nächsten Sommer werde ich hoffentlich zwei Romane auf Deutsch gelesen und die C1-Prüfung bestanden haben. Und wer weiß: Vielleicht schreibe ich diesen Blog dann ganz ohne Wörterbuch.",
-  explanation: "Regrets use the double infinitive (\"hätte ... hören sollen\") and an unreal past without \"wenn\" (\"Hätte ich ..., wäre ich ... vorangekommen\"). The teacher's comment is in Konjunktiv I (\"ich habe mich ... verbessert\", \"ich spreche\"), followed by \"als hätte ich ... gewohnt\". Futur II (\"werde ... gelesen und ... bestanden haben\") looks ahead, and \"zwar ... aber\", \"trotzdem\", \"gerade\" and the participle attribute \"die mühsam gelernten Endungen\" give the text B2 texture.",
+  modelAnswer: "Mein Weg bis hierher: ein Rückblick\n\nAls ich vor drei Jahren mit Deutsch angefangen habe, dachte ich, die Grammatik wäre das größte Problem. Zwar haben mich die Adjektivendungen lange gequält, aber am schwierigsten war eigentlich das Hörverstehen. Gerade die schnellen Gespräche in der Kantine habe ich anfangs kaum verstanden.\n\nIm Nachhinein hätte ich viel früher deutsche Podcasts hören sollen. Hätte ich nicht so lange nur mit dem Lehrbuch gearbeitet, wäre ich schneller vorangekommen. Trotzdem bereue ich nichts: Die mühsam gelernten Endungen sitzen jetzt.\n\nMeine Lehrerin meinte letzte Woche, ich habe mich besonders beim Schreiben enorm verbessert, und meine Kollegen sagen, ich spreche inzwischen, als hätte ich schon jahrelang in Köln gewohnt. Das ist natürlich übertrieben, aber es motiviert mich.\n\nMein nächstes Ziel ist das Goethe-Zertifikat C1. Bis zum nächsten Sommer werde ich hoffentlich zwei Romane auf Deutsch gelesen und die Prüfung bestanden haben. Und wer weiß: Vielleicht schreibe ich diesen Blog dann ganz ohne Wörterbuch.",
+  explanation: "Regrets use the double infinitive (\"hätte ... hören sollen\") and an unreal past without \"wenn\" (\"Hätte ich ..., wäre ich ... vorangekommen\"). The teacher's comment is in Konjunktiv I (\"ich habe mich ... verbessert\", \"ich spreche\"), followed by \"als hätte ich ... gewohnt\". Futur II (\"werde ... gelesen und ... bestanden haben\") looks ahead, and \"zwar ... aber\", \"trotzdem\", \"gerade\" and the participle attribute \"die mühsam gelernten Endungen\" give the text Upper-intermediate texture.",
 };

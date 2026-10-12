@@ -101,7 +101,7 @@ export const DE_C2_U29: Lesson[] = [
         body: [
           "German often describes inner states with an impersonal subject and the person in the dative or accusative. \"Mir ist mulmig zumute\" (I feel uneasy), \"Mir ist schwer ums Herz\" (my heart is heavy), \"Mir ist nicht nach Feiern zumute\" (I'm not in the mood to celebrate). No \"ich\" in the nominative: the feeling happens to you.",
           "With \"es\" as subject: \"Es graut mir vor der Prüfung\" (I dread the exam), \"Es reut mich\" (I regret it; formal and old-fashioned), \"Es tut mir weh, das zu sehen\". When another element comes first, the \"es\" usually disappears: \"Mir graut vor der Prüfung.\" \"Vor\" + dative names what you dread.",
-          "These constructions sound more literary and more intimate than \"ich fühle mich ...\". They are common in letters, fiction and careful speech, and an essential tool for describing feelings at C2.",
+          "These constructions sound more literary and more intimate than \"ich fühle mich ...\". They are common in letters, fiction and careful speech, and an essential tool for describing feelings at the Mastery level.",
         ],
         examples: [
           { es: "Mir ist mulmig zumute, wenn ich an morgen denke.", en: "I feel uneasy when I think about tomorrow." },
@@ -756,7 +756,7 @@ export const DE_C2_U29: Lesson[] = [
         body: [
           "\"Die Sehnsucht\" (longing, yearning) is one of the Romantic key words. It takes \"nach\" + dative: \"Sehnsucht nach dem Meer\", \"Sehnsucht nach Geborgenheit\". The verb is \"sich sehnen nach\": \"Ich sehne mich nach Ruhe.\"",
           "\"Das Heimweh\" is homesickness, longing for home; \"das Fernweh\" is its mirror image: longing for faraway places, the urge to travel. Both are neuter and take \"nach\": \"Heimweh nach Bayern haben\". \"Fernweh\" usually stands alone: \"Bei diesen Fotos bekomme ich Fernweh.\"",
-          "Ranking by intensity is part of C2 precision: \"Ich vermisse dich\" (I miss you) < \"Ich sehne mich nach dir\" (I long for you) < \"Ich verzehre mich nach dir\" (I'm consumed by longing for you; literary, almost theatrical).",
+          "Ranking by intensity is part of Mastery-level precision: \"Ich vermisse dich\" (I miss you) < \"Ich sehne mich nach dir\" (I long for you) < \"Ich verzehre mich nach dir\" (I'm consumed by longing for you; literary, almost theatrical).",
         ],
         examples: [
           { es: "Ich sehne mich nach Ruhe.", en: "I long for peace and quiet." },
@@ -1529,7 +1529,7 @@ export const DE_C2_U29: Lesson[] = [
     slug: "c2-vocab-reflexive-verbs-prepositions",
     level: "DE-C2",
     number: 8,
-    title: "C2 Vocabulary: Reflexive Verbs and Their Prepositions",
+    title: "Mastery Vocabulary: Reflexive Verbs and Their Prepositions",
     summary: "The reflexive verbs of feeling and attitude that come welded to a preposition (sich sehnen nach, sich abfinden mit, sich hüten vor...), the da- and wo-compounds they need, and when the reflexive pronoun is dative rather than accusative.",
     duration: "17 min",
     sections: [
@@ -1769,8 +1769,8 @@ export const DE_C2_U29: Lesson[] = [
     slug: "c2-vocab-registers-regional-words",
     level: "DE-C2",
     number: 9,
-    title: "C2 Vocabulary: One Concept, Three Registers, Three Countries",
-    summary: "The same feeling or thing said three ways: colloquial, neutral and elevated (stinksauer, verärgert, erzürnt), plus the Austrian and Swiss words that a C2 speaker should recognise (grantig, muff, Jänner, Paradeiser, Velo, parkieren).",
+    title: "Mastery Vocabulary: One Concept, Three Registers, Three Countries",
+    summary: "The same feeling or thing said three ways: colloquial, neutral and elevated (stinksauer, verärgert, erzürnt), plus the Austrian and Swiss words that a Mastery-level speaker should recognise (grantig, muff, Jänner, Paradeiser, Velo, parkieren).",
     duration: "16 min",
     sections: [
       {
@@ -1778,7 +1778,7 @@ export const DE_C2_U29: Lesson[] = [
         body: [
           "German emotion vocabulary comes in layers. For anger: colloquial \"sauer\" or \"stinksauer\" (pissed off, furious), neutral \"verärgert\" or \"wütend\", elevated \"erzürnt\" or \"empört\" (outraged). A colleague in an email is \"verärgert\"; your friend about a parking ticket is \"stinksauer\"; a nineteenth-century novel's father is \"erzürnt\".",
           "The same for fear: \"Schiss haben\" (vulgar-colloquial), \"Bammel haben\" (colloquial, playful), \"Angst haben\" (neutral), \"sich fürchten\" (slightly more formal), \"von Furcht ergriffen\" (literary). For sadness: \"down sein\" or \"geknickt\" (colloquial), \"traurig\" (neutral), \"betrübt\" (elevated, often ironic today).",
-          "Choosing the wrong layer is a C2-level mistake: \"Ich bin erzürnt über die Verspätung\" in a chat sounds like a parody; \"Ich bin stinksauer\" in a complaint to your landlord is too crude. Match the register to the medium and the relationship.",
+          "Choosing the wrong layer is a Mastery-level mistake: \"Ich bin erzürnt über die Verspätung\" in a chat sounds like a parody; \"Ich bin stinksauer\" in a complaint to your landlord is too crude. Match the register to the medium and the relationship.",
         ],
         examples: [
           { es: "Ich bin stinksauer, die haben mir schon wieder einen Strafzettel verpasst!", en: "I'm livid, they've given me a parking ticket again!" },
@@ -1812,7 +1812,7 @@ export const DE_C2_U29: Lesson[] = [
         body: [
           "German is a pluricentric language: Austrian and Swiss Standard German are standard varieties in their own right, not dialects. Emotion words: \"grantig\" (grumpy, irritable) is typical of Bavaria and Austria, and \"der Grant\" is the famous Viennese bad mood; \"angefressen sein\" (Austrian colloquial) means to be annoyed.",
           "Everyday Austrian standard words appear in newspapers and on menus: \"der Jänner\" (January), \"der Paradeiser\" (tomato; Germany: \"die Tomate\"), \"die Erdäpfel\" (potatoes), \"die Marille\" (apricot), \"der Topfen\" (quark), \"das Sackerl\" (bag), \"heuer\" (this year). Several are official in the EU as Austrian terms.",
-          "Recognising them matters more than using them: a German who says \"Paradeiser\" in Hamburg sounds affected, but a C2 reader of \"Der Standard\" or a Viennese menu has to understand them.",
+          "Recognising them matters more than using them: a German who says \"Paradeiser\" in Hamburg sounds affected, but a Mastery-level reader of \"Der Standard\" or a Viennese menu has to understand them.",
         ],
         examples: [
           { es: "Der Chef ist heute wieder grantig.", en: "The boss is grumpy again today." },
@@ -1851,7 +1851,7 @@ export const DE_C2_U29: Lesson[] = [
         body: [
           "Swiss Standard German (\"Schweizerhochdeutsch\") has its own vocabulary, much of it borrowed from French: \"das Velo\" (bicycle), \"parkieren\" (to park; Germany: \"parken\"), \"das Trottoir\" (pavement), \"die Glace\" (ice cream), \"merci\" (thanks), \"das Spital\" (hospital, also Austrian). Swiss written German also uses no ß at all, so watch for that in Swiss texts.",
           "Emotion words: \"muff\" (Swiss colloquial) means grumpy, sulky; \"hässig\" (Swiss German) means irritated, angry. Swiss speakers also say \"Es ist mir verleidet\" (I've got fed up with it).",
-          "Between Swiss German dialects (\"Schwiizerdütsch\") and Swiss Standard German there is a real gap: the Swiss speak dialect in daily life and write standard. At C2 you are expected to understand Swiss Standard German in the news and to recognise the Helvetisms, not to speak dialect.",
+          "Between Swiss German dialects (\"Schwiizerdütsch\") and Swiss Standard German there is a real gap: the Swiss speak dialect in daily life and write standard. At the Mastery level you are expected to understand Swiss Standard German in the news and to recognise the Helvetisms, not to speak dialect.",
         ],
         examples: [
           { es: "Ich fahre jeden Tag mit dem Velo zur Arbeit.", en: "I cycle to work every day. (Swiss)" },
@@ -1953,7 +1953,7 @@ export const DE_C2_U29: Lesson[] = [
           { left: "muff", right: "sulky (Switzerland)" },
           { left: "verärgert", right: "annoyed (neutral, written)" },
         ],
-        explanation: "A C2 speaker knows not only what a word means but where and with whom it fits.",
+        explanation: "A Mastery-level speaker knows not only what a word means but where and with whom it fits.",
       },
       {
         type: "word-order",

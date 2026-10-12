@@ -88,7 +88,7 @@ export const DE_C2_U21: Lesson[] = [
       {
         heading: "Telling your career story: Perfekt, Präteritum and seit",
         body: [
-          "Your answer to \"Erzählen Sie etwas über sich\" is spoken, so the default past tense is the Perfekt: \"Ich habe in Leipzig Betriebswirtschaft studiert\", \"Danach habe ich drei Jahre bei Siemens gearbeitet.\" But a few verbs are used in the Präteritum even in speech: \"war\", \"hatte\" and the modals (\"musste\", \"konnte\"). That gives the typical C2 mix: \"Ich war dort als Projektleiterin tätig und habe ein Team von acht Leuten geleitet.\"",
+          "Your answer to \"Erzählen Sie etwas über sich\" is spoken, so the default past tense is the Perfekt: \"Ich habe in Leipzig Betriebswirtschaft studiert\", \"Danach habe ich drei Jahre bei Siemens gearbeitet.\" But a few verbs are used in the Präteritum even in speech: \"war\", \"hatte\" and the modals (\"musste\", \"konnte\"). That gives the typical Mastery-level mix: \"Ich war dort als Projektleiterin tätig und habe ein Team von acht Leuten geleitet.\"",
           "\"Tätig sein als\" (to work as) and \"beschäftigt sein bei\" (to be employed at) are the formal verbs of career talk: \"Ich war vier Jahre als Controller bei der Allianz tätig.\" Note: no article after \"als\" before a job title.",
           "The classic English trap is the present perfect for something that is still going on. I have been working at Bosch since 2021 is the present in German: \"Ich arbeite seit 2021 bei Bosch\", or more formally \"Seit 2021 bin ich bei Bosch beschäftigt.\" \"Ich habe seit 2021 bei Bosch gearbeitet\" sounds as if you no longer work there. For finished stretches use \"von ... bis\" or \"... lang\": \"Von 2018 bis 2021 war ich in München.\"",
           "Structure the story: start with the present (\"Zurzeit bin ich ... \"), go back briefly (\"Studiert habe ich ...\", \"Danach ...\"), and end with why you are here (\"Jetzt möchte ich ... \"). Two minutes, not ten.",
@@ -496,7 +496,7 @@ export const DE_C2_U21: Lesson[] = [
         body: [
           "On the CV itself German uses nominal style, not sentences: \"Leitung eines Teams von zehn Mitarbeitern\", \"Einführung eines neuen CRM-Systems\", \"Betreuung von Großkunden\", \"Verantwortung für ein Budget von 2 Mio. Euro\". The verb becomes a noun in -ung (\"leiten\" → \"die Leitung\", \"einführen\" → \"die Einführung\") and its object becomes a genitive or a \"von\" phrase.",
           "Genitive or \"von\"? With an article or adjective, use the genitive: \"Leitung eines Teams\", \"Betreuung internationaler Kunden\". With a bare plural that would show no genitive ending, German switches to \"von\": \"Betreuung von Kunden\", not \"Betreuung Kunden\".",
-          "In the interview you turn the nominal style back into verbs: the CV says \"Einführung eines neuen CRM-Systems\", you say \"Ich habe ein neues CRM-System eingeführt.\" Being able to switch both ways is exactly what C2 means here.",
+          "In the interview you turn the nominal style back into verbs: the CV says \"Einführung eines neuen CRM-Systems\", you say \"Ich habe ein neues CRM-System eingeführt.\" Being able to switch both ways is exactly what the Mastery level means here.",
         ],
         examples: [
           { es: "Leitung eines Teams von zehn Mitarbeitenden", en: "Leading a team of ten employees" },
@@ -861,7 +861,7 @@ export const DE_C2_U21: Lesson[] = [
       {
         heading: "Narrating: Präteritum, als and nachdem",
         body: [
-          "Competency answers are stories, and at C2 you can tell them in a mix: Perfekt for most verbs in speech, but the Präteritum for \"sein\", \"haben\", modals and, in a more polished narrative, many other verbs too (\"Ich stellte fest, dass ...\", \"Wir entschieden uns, ...\"). In a structured interview a crisp Präteritum sounds organised.",
+          "Competency answers are stories, and at the Mastery level you can tell them in a mix: Perfekt for most verbs in speech, but the Präteritum for \"sein\", \"haben\", modals and, in a more polished narrative, many other verbs too (\"Ich stellte fest, dass ...\", \"Wir entschieden uns, ...\"). In a structured interview a crisp Präteritum sounds organised.",
           "\"Als\" introduces a single past event or period: \"Als ich das Projekt übernahm, lag es drei Monate hinter dem Zeitplan.\" Never \"wenn\" for a one-off past event (\"wenn\" is for repeated events: \"Immer wenn ...\") and never \"wann\" (a question word).",
           "\"Nachdem\" needs a tense shift: the nachdem clause is one step further back. Main clause in Präteritum or Perfekt, nachdem clause in Plusquamperfekt: \"Nachdem wir die Ursache gefunden hatten, entwickelten wir einen Plan.\" Nachdem + Präteritum in both clauses is a common error even among native speakers, but it is wrong in careful German.",
         ],

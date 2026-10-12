@@ -843,7 +843,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Mixed Konjunktiv Circuit",
-    summary: "Indicative, Konjunktiv I or Konjunktiv II? Every use from B1 to C1 in mixed sentences.",
+    summary: "Indicative, Konjunktiv I or Konjunktiv II? Every use from the Intermediate to the Advanced level in mixed sentences.",
     duration: "15 min",
     sections: [
       {

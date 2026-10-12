@@ -465,7 +465,7 @@ export const DE_C2_U09: Lesson[] = [
         heading: "Doch: contradicting a negative",
         body: [
           "English answers 'yes' to contradict a negative question ('Aren't you coming?' – 'Yes, I am'), which is ambiguous. German has a special word: \"doch\". \"Kommst du nicht mit?\" – \"Doch!\" (Yes, I am coming). \"Ja\" here would be confusing, and \"nein\" confirms the negative: \"Nein, ich komme nicht mit.\"",
-          "\"Doch\" also contradicts a negative statement: \"Das stimmt nicht.\" – \"Doch, das stimmt!\" Stronger and childish: \"Doch, doch!\", \"Und ob!\" (You bet!). \"Doch\" with stress always contradicts; unstressed \"doch\" in the middle of a sentence is a modal particle (Unit 6 of C1), a different word in function.",
+          "\"Doch\" also contradicts a negative statement: \"Das stimmt nicht.\" – \"Doch, das stimmt!\" Stronger and childish: \"Doch, doch!\", \"Und ob!\" (You bet!). \"Doch\" with stress always contradicts; unstressed \"doch\" in the middle of a sentence is a modal particle (Unit 6 of the Advanced level), a different word in function.",
         ],
         examples: [
           { es: "Kommst du nicht mit? – Doch!", en: "Aren't you coming? – Yes, I am!" },
@@ -1059,7 +1059,7 @@ export const DE_C2_U09: Lesson[] = [
     slug: "c2-vocab-false-friends-2",
     level: "DE-C2",
     number: 6,
-    title: "C2 Vocabulary: Advanced False Friends and Calques, Part 2 of 2",
+    title: "Mastery Vocabulary: Advanced False Friends and Calques, Part 2 of 2",
     summary: "More false friends (fatal, genial, ordinär, pathetisch, Präservativ, spenden, Billion) and the anglicisms purists debate: Sinn machen, in 2025, einmal mehr.",
     duration: "18 min",
     sections: [
@@ -1145,7 +1145,7 @@ export const DE_C2_U09: Lesson[] = [
         body: [
           "Some English structures have entered German, and purists object. \"Das macht Sinn\" (calque of makes sense) is now everywhere and accepted by Duden, but careful writers prefer \"Das ergibt Sinn\", \"Das hat Sinn\" or \"Das ist sinnvoll\". In formal writing, choose the traditional form.",
           "\"In 2025\" (calque of in 2025) is considered wrong in standard German: say \"2025\" alone or \"im Jahr 2025\". \"Einmal mehr\" (once more, again) is a calque of once more but widely used; \"wieder einmal\" or \"erneut\" are the traditional alternatives. \"Das erste Mal ever\" is jokey Denglisch; standard is \"zum ersten Mal überhaupt\".",
-          "Knowing the debate matters at C2: Goethe-C2 graders and German editors notice. Use the traditional forms in formal writing, and recognise the calques in speech.",
+          "Knowing the debate matters at the Mastery level: Goethe-C2 graders and German editors notice. Use the traditional forms in formal writing, and recognise the calques in speech.",
         ],
         examples: [
           { es: "Das ergibt keinen Sinn.", en: "That doesn't make sense." },

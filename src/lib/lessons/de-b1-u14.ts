@@ -83,7 +83,7 @@ export const DE_B1_U14: Lesson[] = [
       {
         heading: "Werden, not sein",
         body: [
-          "The great trap for English speakers: English builds the passive with be (is built), so they reach for \"sein\". But *Das Haus ist gebaut* means something else: the house is finished, a state (you'll meet this Zustandspassiv at B2). For the process, the action happening, German uses \"werden\": \"Das Haus wird gebaut\".",
+          "The great trap for English speakers: English builds the passive with be (is built), so they reach for \"sein\". But *Das Haus ist gebaut* means something else: the house is finished, a state (you'll meet this Zustandspassiv at the Upper-intermediate level). For the process, the action happening, German uses \"werden\": \"Das Haus wird gebaut\".",
           "A quick test: if you could add right now or every day, it's an action: \"werden\". \"Die Tür wird um acht geschlossen\" (the door is closed at eight: someone closes it) vs \"Die Tür ist geschlossen\" (the door is closed: a state).",
         ],
         examples: [

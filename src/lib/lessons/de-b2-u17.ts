@@ -1645,7 +1645,7 @@ export const DE_B2_U17: Lesson[] = [
         body: [
           "\"Insofern ... als\" limits a statement to one respect: \"Das Projekt war insofern ein Erfolg, als wir viel gelernt haben\" (The project was a success in so far as we learned a lot, i.e. only in that respect). \"Insofern\" sits in the main clause, \"als\" opens a subordinate clause with the verb at the end.",
           "Alone, \"insofern\" means in that respect, to that extent: \"Insofern hast du recht\" (To that extent you're right). It's often used to concede only part of an argument.",
-          "Don't confuse it with \"sofern\" (provided that) from B1: \"Wir kommen, sofern es nicht regnet.\"",
+          "Don't confuse it with \"sofern\" (provided that) from the Intermediate level: \"Wir kommen, sofern es nicht regnet.\"",
         ],
         examples: [
           { es: "Das Projekt war insofern ein Erfolg, als wir viel gelernt haben.", en: "The project was a success in so far as we learned a lot." },

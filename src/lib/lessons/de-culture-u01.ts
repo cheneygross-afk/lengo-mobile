@@ -1042,7 +1042,7 @@ export const DE_CULTURE_U01: Lesson[] = [
     level: "DE-Culture",
     number: 6,
     title: "Real-World Mission: Explain a Fest to a Foreigner",
-    summary: "Put an English-speaking friend right about the Oktoberfest and German Unity Day, using the C1 phrases for explaining origins and history: Das geht auf ... zurück, ursprünglich, es handelt sich um.",
+    summary: "Put an English-speaking friend right about the Oktoberfest and German Unity Day, using the Advanced phrases for explaining origins and history: Das geht auf ... zurück, ursprünglich, es handelt sich um.",
     duration: "18 min",
     sections: [
       {
@@ -1121,7 +1121,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         body: [
           "\"Am 9. November 1989 ist die Mauer gefallen. Das war aber noch nicht die Wiedervereinigung: Bei der Deutschen Einheit handelt es sich um den Beitritt der DDR zur Bundesrepublik, und der wurde erst am 3. Oktober 1990 vollzogen. Deshalb ist der 3. Oktober der Nationalfeiertag.\"",
           "\"Wichtig dabei ist, dass der 9. November in der deutschen Geschichte auch ein dunkles Datum ist: 1938 fanden die Novemberpogrome gegen die jüdische Bevölkerung statt. Deshalb wäre er als fröhlicher Feiertag ungeeignet. Man nennt ihn manchmal den Schicksalstag der Deutschen, weil auch 1918 an diesem Tag die Republik ausgerufen wurde.\"",
-          "The structuring phrases: \"Es handelt sich um\" defines precisely, \"Wichtig dabei ist, dass ...\" highlights the key point, and \"Deshalb ...\" draws the conclusion. With these three you can explain almost any custom clearly at C1.",
+          "The structuring phrases: \"Es handelt sich um\" defines precisely, \"Wichtig dabei ist, dass ...\" highlights the key point, and \"Deshalb ...\" draws the conclusion. With these three you can explain almost any custom clearly at the Advanced level.",
         ],
         examples: [
           { es: "Am 9. November 1989 ist die Mauer gefallen.", en: "The Wall fell on 9 November 1989." },

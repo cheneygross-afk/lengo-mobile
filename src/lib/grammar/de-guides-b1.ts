@@ -252,7 +252,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
     level: "B1",
     intro: [
       `English uses when for three different jobs, and German uses three different words. "Als" is for a single event or period in the past. "Wenn" is for repeated events (whenever) and for the present or future (when, if). "Wann" is for questions, direct or indirect.`,
-      `Getting this right is one of the clearest signs of a confident B1 speaker, and "wenn" where "als" belongs is one of the most frequent errors in Goethe B1 writing.`,
+      `Getting this right is one of the clearest signs of a confident Intermediate speaker, and "wenn" where "als" belongs is one of the most frequent errors in Goethe B1 writing.`,
     ],
     sections: [
       {
@@ -1102,7 +1102,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
       "Which German masculine nouns add -n or -en in every case except the nominative singular, how to recognise them, and the irregular der Name and das Herz.",
     level: "B1",
     intro: [
-      `A group of masculine nouns adds "-n" or "-en" in every form except the nominative singular: "der Student" but "den Studenten", "dem Studenten", "des Studenten". This is the n-declension (also called weak masculine nouns). Forgetting the ending is one of the most common errors at B1, and examiners notice it.`,
+      `A group of masculine nouns adds "-n" or "-en" in every form except the nominative singular: "der Student" but "den Studenten", "dem Studenten", "des Studenten". This is the n-declension (also called weak masculine nouns). Forgetting the ending is one of the most common errors at the Intermediate level, and examiners notice it.`,
       `The good news: the group is easy to recognise from its form and meaning, and almost all of them are male people or animals.`,
     ],
     sections: [

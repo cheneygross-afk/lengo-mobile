@@ -798,7 +798,7 @@ export const DE_C1_U11: Lesson[] = [
     level: "DE-C1",
     number: 5,
     title: "Emphasis and Focus, Part 3 of 6",
-    summary: "Modal particles at C1: ja, doch, eben, halt, wohl, schon, denn, bloß, nur, etwa, ruhig, and how they combine.",
+    summary: "Modal particles at the Advanced level: ja, doch, eben, halt, wohl, schon, denn, bloß, nur, etwa, ruhig, and how they combine.",
     duration: "20 min",
     sections: [
       {

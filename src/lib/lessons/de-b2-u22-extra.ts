@@ -330,7 +330,7 @@ export const DE_B2_U22_EXTRA: Lesson[] = [
     duration: "12 min",
     sections: [
       {
-        heading: "Recap: the B2 toolbox so far",
+        heading: "Recap: the Upper-intermediate toolbox so far",
         body: [
           "Nominal style turns clauses into noun phrases (\"weil es regnete\" → \"wegen des Regens\"); Funktionsverbgefüge add formality (\"in Kraft treten\"). Clauses: \"obwohl\", \"da\", \"zumal\", \"sodass\", \"indem\", \"als ob\". Subjective modals: \"muss\", \"dürfte\", \"soll\", \"will\" + perfect infinitive for the past. Futur II for completed future or guesses.",
           "Connectors in position 1 take the verb next (\"jedoch\", \"folglich\", \"zudem\"); \"nämlich\" never starts a clause. In the Mittelfeld, pronouns come first, then time, cause, manner, place.",

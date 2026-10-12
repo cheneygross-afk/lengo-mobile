@@ -793,7 +793,7 @@ export const DE_A1_U10: Lesson[] = [
       {
         heading: "Word order slips",
         body: [
-          "The most common error in all of A1 is *Heute ich arbeite. English allows Today I work; German insists on the verb in second place, so the subject moves after it: \"Heute arbeite ich.\"",
+          "The most common error in all of the Beginner level is *Heute ich arbeite. English allows Today I work; German insists on the verb in second place, so the subject moves after it: \"Heute arbeite ich.\"",
           "Next come the end-of-sentence rules. A separable prefix goes to the end (*Ich aufstehe um sieben → \"Ich stehe um sieben auf\"), and after a modal the whole infinitive goes there (*Ich muss früh stehe auf → \"Ich muss früh aufstehen\"; *Ich kann schwimmen gut → \"Ich kann gut schwimmen\").",
           "In W-questions, the verb comes straight after the question word: *Wo du wohnst? → \"Wo wohnst du?\"",
         ],

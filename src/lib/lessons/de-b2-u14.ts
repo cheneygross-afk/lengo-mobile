@@ -1280,7 +1280,7 @@ export const DE_B2_U14: Lesson[] = [
     level: "DE-B2",
     number: 8,
     title: "Upper-Intermediate Vocabulary Practice, Part 6 of 10",
-    summary: "Test the B2 vocabulary from Units 13 and 14: appearances and impressions, films and series, rumours and claims, crime and investigation.",
+    summary: "Test the Upper-intermediate vocabulary from Units 13 and 14: appearances and impressions, films and series, rumours and claims, crime and investigation.",
     duration: "15 min",
     sections: [
       {

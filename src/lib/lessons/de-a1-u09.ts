@@ -786,7 +786,7 @@ export const DE_A1_U09: Lesson[] = [
         question: "Which sentence is correct for: Do you know him?",
         options: ["Kennst du ihn?", "Kennst du er?", "Kennst du ihm?", "Kennst du es?"],
         correctIndex: 0,
-        explanation: "The object form of \"er\" is \"ihn\". \"Ihm\" is a dative form you'll meet in A2.",
+        explanation: "The object form of \"er\" is \"ihn\". \"Ihm\" is a dative form you'll meet at the Elementary level.",
       },
       {
         type: "translate",
@@ -848,7 +848,7 @@ export const DE_A1_U09: Lesson[] = [
         body: [
           "The plural object pronouns: \"wir\" → \"uns\" (us), \"ihr\" → \"euch\" (you, to several friends), \"sie\" → \"sie\" (them), and polite \"Sie\" → \"Sie\". The full set is now: mich, dich, ihn, sie, es, uns, euch, sie, Sie.",
           "\"Euch\" is the one to practise: \"Ich rufe euch morgen an\" (I'll call you tomorrow, to two friends). It has nothing to do with English you, so say it often: the eu rhymes with English boy.",
-          "You already know two other forms from set phrases: \"Wie geht es dir?\" and \"Wie geht es Ihnen?\". \"Dir\" and \"Ihnen\" are dative forms, which you'll learn properly in A2. For now, keep them in those phrases and use \"dich\" and \"Sie\" after verbs like sehen, besuchen and kennen: \"Ich besuche Sie morgen\", never *Ich besuche Ihnen.",
+          "You already know two other forms from set phrases: \"Wie geht es dir?\" and \"Wie geht es Ihnen?\". \"Dir\" and \"Ihnen\" are dative forms, which you'll learn properly at the Elementary level. For now, keep them in those phrases and use \"dich\" and \"Sie\" after verbs like sehen, besuchen and kennen: \"Ich besuche Sie morgen\", never *Ich besuche Ihnen.",
         ],
         examples: [
           { es: "Besuchst du uns am Wochenende?", en: "Are you visiting us at the weekend?" },
@@ -1234,7 +1234,7 @@ export const DE_A1_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "Mehmet is in the kitchen.",
         answer: "Mehmet ist in der Küche.",
-        explanation: "\"Die Küche\" → \"in der Küche\". *In die Küche would mean into the kitchen, which comes in A2.",
+        explanation: "\"Die Küche\" → \"in der Küche\". *In die Küche would mean into the kitchen, which comes at the Elementary level.",
       },
       {
         type: "listen-choose",
@@ -1715,7 +1715,7 @@ export const DE_A1_U09: Lesson[] = [
         heading: "Rot, blau, schwarz: colours",
         body: [
           "The colours: \"rot\" (red), \"blau\" (blue), \"grün\" (green), \"gelb\" (yellow), \"schwarz\" (black), \"weiß\" (white), \"grau\" (grey), \"braun\" (brown), \"rosa\" (pink), \"lila\" (purple), and \"bunt\" (colourful).",
-          "After \"sein\" a colour is a predicate adjective, so it takes no ending, for any gender or number: \"Der Rock ist rot\", \"Die Schuhe sind schwarz\". Before a noun there are endings (ein roter Rock), which come in A2.",
+          "After \"sein\" a colour is a predicate adjective, so it takes no ending, for any gender or number: \"Der Rock ist rot\", \"Die Schuhe sind schwarz\". Before a noun there are endings (ein roter Rock), which come at the Elementary level.",
           "To ask about colour: \"Welche Farbe hat dein Mantel?\" (What colour is your coat?) — \"Er ist grau.\" As a noun, a colour is capitalised: \"in Blau\" (in blue).",
         ],
         examples: [

@@ -688,7 +688,7 @@ export const DE_B1_U07: Lesson[] = [
       {
         heading: "Talking about your own hopes and wishes",
         body: [
-          "Use both patterns to talk about yourself: work (\"Ich hoffe, dass ich bald eine feste Stelle finde\"), family (\"Ich wünschte, meine Eltern wohnten näher\"), your German (\"Ich hoffe, dass ich nächstes Jahr die B1-Prüfung mache\").",
+          "Use both patterns to talk about yourself: work (\"Ich hoffe, dass ich bald eine feste Stelle finde\"), family (\"Ich wünschte, meine Eltern wohnten näher\"), your German (\"Ich hoffe, dass ich nächstes Jahr die Deutschprüfung mache\").",
           "Ask others: \"Was hoffst du für das nächste Jahr?\", \"Was wünschst du dir?\", \"Was würdest du gern ändern?\" Notice the moods again: hoping and wishing for real things in the indicative, imagining change in the Konjunktiv.",
           "Encouraging answers: \"Das schaffst du!\" (you can do it), \"Ich drücke dir die Daumen!\" (I'll keep my fingers crossed).",
         ],
@@ -891,7 +891,7 @@ export const DE_B1_U07: Lesson[] = [
         body: [
           "A few common problems and natural answers: noise (\"Ich würde mal freundlich klingeln\"), money (\"Du könntest nach einer Gehaltserhöhung fragen\"), stress (\"Du solltest öfter Pausen machen\"), loneliness (\"Wie wäre es mit einem Sportverein?\").",
           "Start with a sympathetic phrase: \"Oh, das ist ja blöd!\", \"Das kenne ich\", \"Das tut mir leid\". Then the advice. Then, ideally, the reason.",
-          "\"Gehaltserhöhung\" (pay rise), \"klingeln\" (ring the doorbell), \"Verein\" (club) are good B1 words for these situations.",
+          "\"Gehaltserhöhung\" (pay rise), \"klingeln\" (ring the doorbell), \"Verein\" (club) are good Intermediate words for these situations.",
         ],
         examples: [
           { es: "Das kenne ich. Ich würde mal freundlich bei ihm klingeln.", en: "I know that feeling. I'd ring his doorbell and be friendly." },
@@ -1014,8 +1014,8 @@ export const DE_B1_U07: Lesson[] = [
     slug: "b1-vocabulary-practice-3",
     level: "DE-B1",
     number: 6,
-    title: "B1 Vocabulary Practice, Part 3 of 10",
-    summary: "High-frequency B1 vocabulary for feelings, relationships and personal problems, used in Konjunktiv advice and wishes.",
+    title: "Intermediate Vocabulary Practice, Part 3 of 10",
+    summary: "High-frequency Intermediate vocabulary for feelings, relationships and personal problems, used in Konjunktiv advice and wishes.",
     duration: "15 min",
     sections: [
       {

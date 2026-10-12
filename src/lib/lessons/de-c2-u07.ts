@@ -222,7 +222,7 @@ export const DE_C2_U07: Lesson[] = [
         body: [
           "Each step removes an explicit link. Simile: \"Die Schulden sind hoch wie ein Berg.\" Metaphor: \"Die Schulden sind ein Berg.\" Verb metaphor: \"Die Schulden türmen sich auf.\" Compound: \"der Schuldenberg\". The further you go, the more compressed and, usually, the more conventional the image becomes.",
           "When you transform, watch the grammar ripple. Adjective + wie (\"hoch wie\") disappears; the image noun becomes the predicate (\"sind ein Berg\") or the head of a compound, which takes over the gender: \"die Schulden\" (plural) + \"der Berg\" = \"der Schuldenberg\" (masculine, from Berg). The first element often gets a linking -n-, -s- or -es- (\"Schulden-berg\", \"Hoffnungs-schimmer\", \"Lebens-abend\").",
-          "Verb metaphors are a C2 resource: instead of a noun image, put the image into the verb. \"Die Preise explodieren\", \"Die Gerüchte keimen\" (rumours sprout), \"Die Stimmung kippt\" (the mood tips over).",
+          "Verb metaphors are a Mastery-level resource: instead of a noun image, put the image into the verb. \"Die Preise explodieren\", \"Die Gerüchte keimen\" (rumours sprout), \"Die Stimmung kippt\" (the mood tips over).",
         ],
         examples: [
           { es: "Die Schulden sind hoch wie ein Berg.", en: "The debts are as high as a mountain." },
@@ -1000,7 +1000,7 @@ export const DE_C2_U07: Lesson[] = [
         body: [
           "Three image fields dominate German political language. Water: \"die Flüchtlingswelle\", \"der Flüchtlingsstrom\", \"die Flut\", \"Dämme brechen\", \"überschwemmen\". War: \"der Kampf gegen das Virus\", \"an vorderster Front\" (on the front line), \"die Corona-Front\", \"Preiskrieg\", \"aufrüsten\". Illness: \"der kranke Mann Europas\" (Germany in the late 1990s, earlier the Ottoman Empire), \"die Wirtschaft erholt sich\" (recovers), \"ein Geschwür\" (a tumour), \"gesundschrumpfen\" (to shrink back to health).",
           "These images are not neutral. Water turns people into a natural disaster to be held back with dams; war turns opponents into enemies and justifies emergency measures; illness suggests that something must be cut out. Critical linguists (and the jury of the \"Unwort des Jahres\") point this out regularly.",
-          "Alternatives exist: \"die Zuwanderung\", \"die Fluchtbewegung\", \"die Ankunft vieler Geflüchteter\" instead of a wave; \"Maßnahmen gegen\" instead of \"Kampf gegen\"; \"die Wirtschaft wächst wieder\" instead of a recovery. Choosing between them is a political act, and C2 readers should notice it.",
+          "Alternatives exist: \"die Zuwanderung\", \"die Fluchtbewegung\", \"die Ankunft vieler Geflüchteter\" instead of a wave; \"Maßnahmen gegen\" instead of \"Kampf gegen\"; \"die Wirtschaft wächst wieder\" instead of a recovery. Choosing between them is a political act, and Mastery-level readers should notice it.",
         ],
         examples: [
           { es: "Die Zeitung sprach von einer Flüchtlingswelle.", en: "The newspaper spoke of a wave of refugees." },
@@ -1378,7 +1378,7 @@ export const DE_C2_U07: Lesson[] = [
     slug: "c2-vocab-abstract-nouns",
     level: "DE-C2",
     number: 8,
-    title: "C2 Vocabulary: Precise Abstract Nouns",
+    title: "Mastery Vocabulary: Precise Abstract Nouns",
     summary: "Sachverhalt, Gegebenheit, Umstand, Tragweite, Anliegen, Belang, Beschaffenheit, Gesinnung, Hintergrund, Zusammenhang: gender, meaning and the verbs they go with.",
     duration: "18 min",
     sections: [

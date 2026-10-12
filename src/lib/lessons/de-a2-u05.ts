@@ -394,7 +394,7 @@ export const DE_A2_U05: Lesson[] = [
         body: [
           "Open a novel, a newspaper report or a children's book and the picture flips: the Präteritum is now the normal tense for every verb. \"Es war einmal ein König\" (Once upon a time there was a king) is how every fairy tale begins, and the story goes on with \"er ging\", \"sie kam\", \"er sah\", \"sie fand\".",
           "This is the tense of narration: it tells a chain of events at a distance, like a story being read aloud. The Perfekt feels closer and more personal, which is why it rules conversation. Writing about yourself in a chat or a postcard is closer to speech, so the Perfekt is fine there too.",
-          "At A2 you only need to recognise these forms; you'll produce them yourself at B1. When you meet one, translate it to the Perfekt in your head: \"er ging\" = \"er ist gegangen\".",
+          "At the Elementary level you only need to recognise these forms; you'll produce them yourself at the Intermediate level. When you meet one, translate it to the Perfekt in your head: \"er ging\" = \"er ist gegangen\".",
         ],
         examples: [
           { es: "Es war einmal eine arme Frau.", en: "Once upon a time there was a poor woman." },

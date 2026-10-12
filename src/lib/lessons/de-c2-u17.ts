@@ -929,7 +929,7 @@ export const DE_C2_U17: Lesson[] = [
         heading: "Harvard or footnotes? Disciplines differ",
         body: [
           "The Harvard system (\"die Harvard-Zitierweise\", also \"amerikanische Zitierweise\") puts the short reference in brackets in the text: \"(Hartmann 2019: 45)\" or \"(Hartmann 2019, S. 45)\". It dominates in the social sciences, psychology, economics and linguistics. History, law and much of the humanities stick to footnotes (\"die deutsche Zitierweise\").",
-          "Law has its own conventions: citing statutes (\"§ 823 Abs. 1 BGB\"), court decisions (\"BGH NJW 2015, 1234\") and commentaries (\"Palandt/Sprau, § 823 Rn. 5\": Rn. = Randnummer, margin number). You won't write these at C2, but you should be able to read them.",
+          "Law has its own conventions: citing statutes (\"§ 823 Abs. 1 BGB\"), court decisions (\"BGH NJW 2015, 1234\") and commentaries (\"Palandt/Sprau, § 823 Rn. 5\": Rn. = Randnummer, margin number). You won't write these at the Mastery level, but you should be able to read them.",
           "The golden rule of every German Leitfaden (style guide): consistency (\"Einheitlichkeit\"). Whatever system your department prescribes, apply it throughout. \"Sich an eine Vorgabe halten\" (to stick to a requirement) is the phrase supervisors use.",
         ],
         examples: [

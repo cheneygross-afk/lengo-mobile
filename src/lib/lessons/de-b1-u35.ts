@@ -7,7 +7,7 @@ export const DE_B1_U35: Lesson[] = [
     slug: "b1-challenge-word-order-no-hints",
     level: "DE-B1",
     number: 1,
-    title: "B1 Challenge: Word Order Without Hints",
+    title: "Intermediate Challenge: Word Order Without Hints",
     summary: "Place every verb yourself: verb second after adverbs and fronted clauses, verb last in subordinate and relative clauses, zu-infinitives, je...desto, and modal and passive clusters.",
     duration: "15 min",
     sections: [
@@ -215,7 +215,7 @@ export const DE_B1_U35: Lesson[] = [
     slug: "b1-challenge-pasts-and-passive",
     level: "DE-B1",
     number: 2,
-    title: "B1 Challenge: Pasts and the Passive",
+    title: "Intermediate Challenge: Pasts and the Passive",
     summary: "Narrate and reorder events with the Perfekt, Präteritum and Plusquamperfekt, and the passive in three tenses, without hints.",
     duration: "15 min",
     sections: [
@@ -419,7 +419,7 @@ export const DE_B1_U35: Lesson[] = [
     slug: "b1-challenge-cases-and-endings",
     level: "DE-B1",
     number: 3,
-    title: "B1 Challenge: Cases and Endings of Every Kind",
+    title: "Intermediate Challenge: Cases and Endings of Every Kind",
     summary: "Articles, adjective endings, n-declension, relative pronouns, prepositions and the genitive in one set of tasks, without hints.",
     duration: "15 min",
     sections: [
@@ -630,7 +630,7 @@ export const DE_B1_U35: Lesson[] = [
     slug: "b1-challenge-a-week-in-hamburg-1",
     level: "DE-B1",
     number: 4,
-    title: "B1 Challenge: A Week in Hamburg, Part 1 of 2",
+    title: "Intermediate Challenge: A Week in Hamburg, Part 1 of 2",
     summary: "Arriving and settling in: booking by phone, viewing a flat, opening a bank account and registering at the Bürgeramt, with reading and listening tasks in Goethe B1 style.",
     duration: "15 min",
     sections: [
@@ -842,7 +842,7 @@ export const DE_B1_U35: Lesson[] = [
     slug: "b1-challenge-a-week-in-hamburg-2",
     level: "DE-B1",
     number: 5,
-    title: "B1 Challenge: A Week in Hamburg, Part 2 of 2",
+    title: "Intermediate Challenge: A Week in Hamburg, Part 2 of 2",
     summary: "Living there: a doctor's visit, a faulty purchase, meeting the neighbours, and telling a friend about the week in spoken German.",
     duration: "15 min",
     sections: [
@@ -1047,7 +1047,7 @@ export const DE_B1_U35: Lesson[] = [
     slug: "b1-challenge-schreiben",
     level: "DE-B1",
     number: 6,
-    title: "B1 Challenge: Schreiben",
+    title: "Intermediate Challenge: Schreiben",
     summary: "The three Goethe B1 writing tasks: an informal email (about 80 words), a forum opinion post (about 80 words) and a short formal email of apology or complaint (about 40 words).",
     duration: "15 min",
     sections: [
@@ -1255,7 +1255,7 @@ export const DE_B1_U35: Lesson[] = [
     slug: "b1-challenge-sprechen-stadt-oder-land",
     level: "DE-B1",
     number: 7,
-    title: "B1 Challenge: Sprechen, Stadt oder Land?",
+    title: "Intermediate Challenge: Sprechen, Stadt oder Land?",
     summary: "The Goethe B1 speaking tasks: plan an event with a partner, present City or countryside? in five steps, and answer the examiner's and your partner's questions.",
     duration: "15 min",
     sections: [
@@ -1464,7 +1464,7 @@ export const DE_B1_U35: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Intermediate Exit Test: Ready for Upper-Intermediate?",
-    summary: "A Goethe B1-style exit test of all four skills and every B1 grammar area: pass it and you're ready for B2.",
+    summary: "A Goethe B1-style exit test of all four skills and every Intermediate grammar area: pass it and you're ready for the Upper-intermediate level.",
     duration: "20 min",
     sections: [
       {
@@ -1553,7 +1553,7 @@ export const DE_B1_U35: Lesson[] = [
         body: [
           "Schreiben: write to the task (all points covered), in the right register (du / Sie, greeting and closing), with connectors and correct word order. Examiners reward clear, correct sentences over long, risky ones.",
           "Sprechen: suggest and react in Teil 1, structure your presentation in Teil 2, answer and ask in Teil 3. Fluency matters: keep going, correct yourself briefly (\"äh, ich meine...\"), and use fillers (\"also\", \"na ja\").",
-          "The grammar the examiners notice most at B1: verb position, the right past tense, cases after prepositions, and connectors. If you can do these without thinking, you're ready for B2.",
+          "The grammar the examiners notice most at the Intermediate level: verb position, the right past tense, cases after prepositions, and connectors. If you can do these without thinking, you're ready for the Upper-intermediate level.",
         ],
         examples: [
           { es: "Vielen Dank für Ihre schnelle Antwort.", en: "Thank you for your quick reply." },

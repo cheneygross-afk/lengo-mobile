@@ -1592,8 +1592,8 @@ export const DE_B1_U11: Lesson[] = [
     slug: "b1-vocabulary-practice-4",
     level: "DE-B1",
     number: 9,
-    title: "B1 Vocabulary Practice, Part 4 of 10",
-    summary: "High-frequency B1 words for leisure, sport and clubs, plus the verbs that most often open a zu-infinitive.",
+    title: "Intermediate Vocabulary Practice, Part 4 of 10",
+    summary: "High-frequency Intermediate words for leisure, sport and clubs, plus the verbs that most often open a zu-infinitive.",
     duration: "12 min",
     sections: [
       {
@@ -1751,7 +1751,7 @@ export const DE_B1_U11: Lesson[] = [
           { left: "der Wettkampf", right: "competition" },
           { left: "der Mitgliedsbeitrag", right: "membership fee" },
         ],
-        explanation: "All six are core B1 leisure words; note the genders: der Verein, die Mannschaft, der Ausflug, die Ausstellung, der Wettkampf, der Mitgliedsbeitrag.",
+        explanation: "All six are core Intermediate leisure words; note the genders: der Verein, die Mannschaft, der Ausflug, die Ausstellung, der Wettkampf, der Mitgliedsbeitrag.",
       },
       {
         type: "multiple-choice",

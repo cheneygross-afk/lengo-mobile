@@ -7,8 +7,8 @@ export const DE_B1_U18: Lesson[] = [
     slug: "b1-vocabulary-practice-7",
     level: "DE-B1",
     number: 1,
-    title: "B1 Vocabulary Practice, Part 7 of 10",
-    summary: "High-frequency B1 vocabulary for travel, hotels and complaining about service.",
+    title: "Intermediate Vocabulary Practice, Part 7 of 10",
+    summary: "High-frequency Intermediate vocabulary for travel, hotels and complaining about service.",
     duration: "14 min",
     sections: [
       {

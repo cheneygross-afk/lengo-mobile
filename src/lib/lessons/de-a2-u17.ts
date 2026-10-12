@@ -508,7 +508,7 @@ export const DE_A2_U17: Lesson[] = [
       {
         heading: "Könnte ich noch eine Gabel haben?",
         body: [
-          "For small extra requests during the meal, \"Könnte ich noch ... haben?\" (Could I have another...?) is the polite chunk; the full Konjunktiv II comes at B1, so for now learn it as a phrase. The thing you want sits in the middle in the accusative, and \"haben\" goes to the end: \"Könnte ich noch eine Serviette haben?\"",
+          "For small extra requests during the meal, \"Könnte ich noch ... haben?\" (Could I have another...?) is the polite chunk; the full Konjunktiv II comes at the Intermediate level, so for now learn it as a phrase. The thing you want sits in the middle in the accusative, and \"haben\" goes to the end: \"Könnte ich noch eine Serviette haben?\"",
           "The table: \"das Messer\" (knife), \"die Gabel\" (fork), \"der Löffel\" (spoon), \"der Teller\" (plate), \"das Glas\" (glass), \"die Serviette\" (napkin), \"das Salz\" and \"der Pfeffer\". Masculine ones change: \"einen Löffel\", \"einen Teller\".",
           "To ask the waiter to bring something, use \"Könnten Sie mir bitte ... bringen?\" with the dative \"mir\" for the person and the accusative for the thing: \"Könnten Sie mir bitte einen Löffel bringen?\"",
         ],

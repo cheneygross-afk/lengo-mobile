@@ -545,7 +545,7 @@ export const DE_B1_U04: Lesson[] = [
         heading: "The whole clause is position 1",
         body: [
           "A German main clause has its verb in position 2. When a subordinate clause starts the sentence, that whole clause counts as position 1, so the main verb comes straight after the comma: \"Als ich nach Hause kam, war niemand da.\" Two verbs meet at the comma: \"kam, war\".",
-          "English keeps subject-verb order (When I came home, nobody was there), and copying it gives *Als ich nach Hause kam, niemand war da*. This is one of the most common B1 errors.",
+          "English keeps subject-verb order (When I came home, nobody was there), and copying it gives *Als ich nach Hause kam, niemand war da*. This is one of the most common Intermediate errors.",
           "The same applies to every subordinate clause: \"Wenn ich Zeit habe, rufe ich dich an\", \"Weil es regnete, blieben wir zu Hause\", \"Nachdem er gegessen hatte, ging er\".",
         ],
         examples: [

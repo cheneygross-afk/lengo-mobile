@@ -1056,7 +1056,7 @@ export const DE_A2_U06: Lesson[] = [
         heading: "Reading a Zeitungsmeldung",
         body: [
           "A \"Meldung\" is a short news item, the kind you find in the local paper or on a city news website. It answers the W-questions: \"Was ist passiert?\" (what), \"wann?\" (when), \"wo?\" (where), \"wer?\" (who) and what happened next.",
-          "News items often open in the Perfekt, to announce the news (\"Gestern Abend ist in der Hauptstraße ein Unfall passiert\"), and then continue in the Präteritum, the written storytelling tense (\"Ein Radfahrer stürzte\"). At A2, recognise both; when you write your own, the Perfekt plus war / hatte is fine.",
+          "News items often open in the Perfekt, to announce the news (\"Gestern Abend ist in der Hauptstraße ein Unfall passiert\"), and then continue in the Präteritum, the written storytelling tense (\"Ein Radfahrer stürzte\"). At the Elementary level, recognise both; when you write your own, the Perfekt plus war / hatte is fine.",
           "Key vocabulary: \"der Unfall\" (accident), \"der Radfahrer\" (cyclist), \"stürzen\" (to fall, crash: \"ist gestürzt\"), \"verletzt\" (injured), \"leicht / schwer verletzt\" (slightly / seriously injured), \"die Feuerwehr\" (fire brigade), \"die Polizei\", \"das Krankenhaus\" (hospital), \"der Zeuge / die Zeugin\" (witness).",
         ],
         examples: [
@@ -1089,7 +1089,7 @@ export const DE_A2_U06: Lesson[] = [
         heading: "The order of a report",
         body: [
           "A report follows a clear sequence, using the connectors from this unit: \"zuerst\", \"dann\", \"danach\", \"später\", \"schließlich\". Each connector is position 1, so the verb follows: \"Dann kam die Feuerwehr\", \"Schließlich ist die Straße wieder frei gewesen\".",
-          "Time and place come early. German likes the order time, then manner, then place: \"Ein Auto ist gestern Nachmittag mit hoher Geschwindigkeit gegen einen Baum gefahren\". At A2, keep it simple: time phrase in position 1, place later.",
+          "Time and place come early. German likes the order time, then manner, then place: \"Ein Auto ist gestern Nachmittag mit hoher Geschwindigkeit gegen einen Baum gefahren\". At the Elementary level, keep it simple: time phrase in position 1, place later.",
           "Our second report: a kitchen fire. Read it as a chain of events.",
         ],
         examples: [

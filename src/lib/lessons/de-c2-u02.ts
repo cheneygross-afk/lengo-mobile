@@ -1551,14 +1551,14 @@ export const DE_C2_U02: Lesson[] = [
     slug: "c2-vocab-precise-verbs-machen",
     level: "DE-C2",
     number: 8,
-    title: "C2 Vocabulary: Precise Verbs Instead of Machen",
+    title: "Mastery Vocabulary: Precise Verbs Instead of Machen",
     summary: "Replace machen with the exact verb a noun demands: einen Fehler begehen, eine Prüfung ablegen, einen Vorschlag unterbreiten, eine Reise unternehmen, Fortschritte erzielen.",
     duration: "16 min",
     sections: [
       {
-        heading: "Why machen sounds flat at C2",
+        heading: "Why machen sounds flat at the Mastery level",
         body: [
-          "\"Machen\" is perfectly correct in many everyday phrases: \"einen Fehler machen\", \"eine Prüfung machen\", \"einen Vorschlag machen\", \"eine Reise machen\". At C2, though, written German expects the precise verb that collocates with each noun, and some combinations with \"machen\" are simply wrong.",
+          "\"Machen\" is perfectly correct in many everyday phrases: \"einen Fehler machen\", \"eine Prüfung machen\", \"einen Vorschlag machen\", \"eine Reise machen\". At the Mastery level, though, written German expects the precise verb that collocates with each noun, and some combinations with \"machen\" are simply wrong.",
           "Formal equivalents: \"einen Fehler begehen\" (commit an error; also \"ein Verbrechen begehen\"), \"eine Prüfung ablegen\" (take an exam; \"bestehen\" = pass, \"durchfallen\" = fail), \"einen Vorschlag unterbreiten\" (submit a proposal, formal) or \"vorlegen\", \"eine Reise unternehmen\" (undertake a journey), \"einen Antrag stellen\" (submit an application).",
           "Notice that \"begehen\", \"unterbreiten\" and \"unternehmen\" are inseparable (no ge- in the participle: \"begangen\", \"unterbreitet\", \"unternommen\"), while \"ablegen\" is separable: \"Sie hat die Prüfung abgelegt.\"",
         ],
@@ -1636,7 +1636,7 @@ export const DE_C2_U02: Lesson[] = [
         body: [
           "Don't overcorrect. In speech, \"Ich mache nächste Woche meine Führerscheinprüfung\" and \"Wir machen eine Reise\" are completely natural; \"Ich lege nächste Woche meine Führerscheinprüfung ab\" sounds like an email to HR. The precise verbs are for formal writing, reports, applications and presentations.",
           "A few combinations with \"machen\" are standard in every register: \"Urlaub machen\", \"Sport machen\", \"Hausaufgaben machen\", \"einen Spaziergang machen\", \"Feierabend machen\", \"Platz machen\", \"sich Sorgen machen\". Replacing these would be strange.",
-          "The C2 skill is choosing: the same speaker might say \"Da hab ich einen Fehler gemacht\" to a friend and write \"Bei der Abrechnung ist uns ein Fehler unterlaufen\" to a client. \"Jemandem unterläuft ein Fehler\" (a mistake slips in) is the polite, face-saving formal phrase.",
+          "The Mastery-level skill is choosing: the same speaker might say \"Da hab ich einen Fehler gemacht\" to a friend and write \"Bei der Abrechnung ist uns ein Fehler unterlaufen\" to a client. \"Jemandem unterläuft ein Fehler\" (a mistake slips in) is the polite, face-saving formal phrase.",
         ],
         examples: [
           { es: "Ich mache nächste Woche meine Führerscheinprüfung.", en: "I'm taking my driving test next week. (spoken)" },
@@ -2189,14 +2189,14 @@ export const DE_C2_U02: Lesson[] = [
     slug: "c2-spiral-legal-grammar",
     level: "DE-C2",
     number: 11,
-    title: "Spiral Review: Legal Style with C1 Grammar",
-    summary: "Recombine C1 grammar in legal and administrative texts: nominalisation, participial phrases, passive alternatives (sein + zu, -bar, sich lassen) and the Konjunktiv I.",
+    title: "Spiral Review: Legal Style with Advanced Grammar",
+    summary: "Recombine Advanced grammar in legal and administrative texts: nominalisation, participial phrases, passive alternatives (sein + zu, -bar, sich lassen) and the Konjunktiv I.",
     duration: "18 min",
     sections: [
       {
         heading: "Passive alternatives: ist zu, -bar, lässt sich",
         body: [
-          "Three structures from C1 that legal texts use constantly, all with a passive meaning plus a modal nuance. \"Sein + zu\" = must or can be done: \"Die Frist ist einzuhalten\", \"Das ist nicht zu ändern\". The suffix \"-bar\" = can be done: \"Der Bescheid ist anfechtbar\" (can be challenged), \"Die Kosten sind steuerlich absetzbar\" (tax-deductible), \"Der Vertrag ist jederzeit kündbar\".",
+          "Three structures from the Advanced level that legal texts use constantly, all with a passive meaning plus a modal nuance. \"Sein + zu\" = must or can be done: \"Die Frist ist einzuhalten\", \"Das ist nicht zu ändern\". The suffix \"-bar\" = can be done: \"Der Bescheid ist anfechtbar\" (can be challenged), \"Die Kosten sind steuerlich absetzbar\" (tax-deductible), \"Der Vertrag ist jederzeit kündbar\".",
           "\"Sich lassen\" + infinitive = can be done: \"Der Fehler lässt sich leicht beheben\", \"Das lässt sich nicht beweisen\". It is more neutral than \"sein + zu\", which in rules always tilts towards must.",
           "Choosing among them: \"-bar\" for a stable property (\"unpfändbar\", \"vererbbar\"), \"sein + zu\" for an obligation in a rule, \"sich lassen\" for a possibility described in a text or in speech.",
         ],
@@ -2276,7 +2276,7 @@ export const DE_C2_U02: Lesson[] = [
         body: [
           "The densest legal sentences combine both: \"Die Erstattung der vom Antragsteller bereits entrichteten Gebühren erfolgt nach Prüfung der eingereichten Unterlagen.\" Unpacked: \"Wenn wir die Unterlagen geprüft haben, die Sie eingereicht haben, erstatten wir Ihnen die Gebühren, die Sie bereits bezahlt haben.\"",
           "To produce such sentences yourself (for a formal letter or report), start with the plain version and compress in steps: verb → noun (\"erstatten\" → \"die Erstattung\"), relative clause → participial attribute (\"die Gebühren, die bezahlt wurden\" → \"die bezahlten Gebühren\"), temporal clause → preposition + noun (\"wenn wir geprüft haben\" → \"nach Prüfung\").",
-          "And remember the C2 balance: you should be able to write this, but choose it only where the genre expects it.",
+          "And remember the Mastery-level balance: you should be able to write this, but choose it only where the genre expects it.",
         ],
         examples: [
           { es: "Die Erstattung der bereits entrichteten Gebühren erfolgt nach Prüfung der Unterlagen.", en: "The fees already paid will be refunded after the documents have been checked." },
@@ -2405,7 +2405,7 @@ export const DE_C2_U02: Lesson[] = [
     slug: "c2-vocab-precise-verbs-sagen",
     level: "DE-C2",
     number: 12,
-    title: "C2 Vocabulary: Precise Verbs Instead of Sagen",
+    title: "Mastery Vocabulary: Precise Verbs Instead of Sagen",
     summary: "äußern, behaupten, betonen, einräumen, erwähnen, darlegen, anmerken, versichern, beteuern, zu bedenken geben: what each implies about the speaker's stance, and which take dass or a noun.",
     duration: "18 min",
     sections: [

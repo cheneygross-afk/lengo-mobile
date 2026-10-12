@@ -98,7 +98,7 @@ export const DE_C1_U10: Lesson[] = [
         heading: "Zum einen... zum anderen vs einerseits... andererseits",
         body: [
           "\"Zum einen... zum anderen\" lists two reasons or aspects that point in the same direction: for one thing... for another. \"Ich ziehe um: zum einen ist die Wohnung zu klein, zum anderen ist mein Arbeitsweg zu lang.\"",
-          "\"Einerseits... andererseits\" (on the one hand... on the other hand) contrasts two sides that point in opposite directions: \"Einerseits verdiene ich gut, andererseits habe ich keine Freizeit.\" Using \"zum anderen\" for on the other hand is a frequent C1 mistake: it sounds as if you're adding, not contrasting.",
+          "\"Einerseits... andererseits\" (on the one hand... on the other hand) contrasts two sides that point in opposite directions: \"Einerseits verdiene ich gut, andererseits habe ich keine Freizeit.\" Using \"zum anderen\" for on the other hand is a frequent Advanced mistake: it sounds as if you're adding, not contrasting.",
           "To contrast with a single adverb: \"dagegen\" / \"hingegen\" (by contrast). Both work in the Vorfeld or Mittelfeld: \"Hamburg ist teuer, Leipzig dagegen ist günstig.\"",
         ],
         examples: [
@@ -802,7 +802,7 @@ export const DE_C1_U10: Lesson[] = [
         heading: "Cause: da, zumal, angesichts",
         body: [
           "\"Weil\" is the everyday because. In formal writing \"da\" (since, as) is preferred, especially when the reason is already known or comes first: \"Da die Nachfrage gesunken ist, reduzieren wir die Produktion.\" Both send the verb to the end.",
-          "\"Zumal\" (all the more since, especially as) adds a reason that strengthens a claim already made: \"Ich bleibe heute zu Hause, zumal es regnet.\" It always comes second, after the main clause, and also sends the verb to the end. It's elegant and very C1.",
+          "\"Zumal\" (all the more since, especially as) adds a reason that strengthens a claim already made: \"Ich bleibe heute zu Hause, zumal es regnet.\" It always comes second, after the main clause, and also sends the verb to the end. It's elegant and very Advanced.",
           "With a noun instead of a clause, use \"angesichts\" + genitive (in view of, given): \"Angesichts der hohen Kosten verzichten wir auf das Projekt.\" Other formal ones from Unit 7: \"aufgrund\", \"infolge\", \"wegen\".",
         ],
         examples: [

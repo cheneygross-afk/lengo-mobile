@@ -588,7 +588,7 @@ export const DE_A2_U14: Lesson[] = [
         heading: "Perfekt: the auxiliary goes last",
         body: [
           "In a main clause the Perfekt is a bracket: \"Er hat angerufen\". In a subordinate clause the conjugated verb, which is the auxiliary \"hat\" or \"ist\", jumps to the very end, behind the participle: \"dass er angerufen hat\", \"weil sie nach Hause gegangen ist\".",
-          "Learners often leave the auxiliary in second place (*dass er hat angerufen). Think of it as a rule with no exceptions at A2: the conjugated verb is the last word of the clause.",
+          "Learners often leave the auxiliary in second place (*dass er hat angerufen). Think of it as a rule with no exceptions at the Elementary level: the conjugated verb is the last word of the clause.",
         ],
         examples: [
           { es: "Ich weiß, dass er gestern angerufen hat.", en: "I know he called yesterday." },

@@ -1660,7 +1660,7 @@ export const DE_B2_U04: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Upper-Intermediate Vocabulary Practice, Part 1 of 10",
-    summary: "Test the B2 vocabulary from Units 1-3: missed chances, regrets and apologies, press and reporting verbs.",
+    summary: "Test the Upper-intermediate vocabulary from Units 1-3: missed chances, regrets and apologies, press and reporting verbs.",
     duration: "14 min",
     sections: [
       {

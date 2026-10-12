@@ -1254,7 +1254,7 @@ export const DE_B2_U26: Lesson[] = [
     slug: "b2-spiral-quick-round-b2-in-ten-seconds",
     level: "DE-B2",
     number: 7,
-    title: "Spiral Review: B2 in Ten Seconds",
+    title: "Spiral Review: Upper-Intermediate in Ten Seconds",
     summary: "One fast decision per item across the whole level: mood, connector, auxiliary, relative pronoun and preposition case.",
     duration: "12 min",
     sections: [
@@ -1493,7 +1493,7 @@ export const DE_B2_U26: Lesson[] = [
     level: "DE-B2",
     number: 8,
     title: "Spiral Review: Fix the Paragraph: Der Letzte Aufsatz",
-    summary: "Correct a B2 essay with mistakes in connectors, word order, the Konjunktiv and genitive prepositions.",
+    summary: "Correct an Upper-intermediate essay with mistakes in connectors, word order, the Konjunktiv and genitive prepositions.",
     duration: "15 min",
     sections: [
       {
@@ -1923,7 +1923,7 @@ export const DE_B2_U26: Lesson[] = [
     level: "DE-B2",
     number: 10,
     title: "Spiral Review: The Final Cumulative Circuit",
-    summary: "A rotating drill of the core B2 structures: Konjunktiv I and II, passive alternatives, participles, modals and connectors.",
+    summary: "A rotating drill of the core Upper-intermediate structures: Konjunktiv I and II, passive alternatives, participles, modals and connectors.",
     duration: "15 min",
     sections: [
       {

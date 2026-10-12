@@ -230,7 +230,7 @@ export const DE_A2_U11: Lesson[] = [
       {
         heading: "Im and am: in dem, an dem",
         body: [
-          "In everyday German, \"in dem\" and \"an dem\" almost always shrink: \"im\" and \"am\". \"Ich bin im Kino\", \"Wir treffen uns am Bahnhof\". You've used \"im Juli\" and \"am Montag\" since A1: same contractions.",
+          "In everyday German, \"in dem\" and \"an dem\" almost always shrink: \"im\" and \"am\". \"Ich bin im Kino\", \"Wir treffen uns am Bahnhof\". You've used \"im Juli\" and \"am Montag\" since the Beginner level: same contractions.",
           "The full form \"in dem\" survives only when \"dem\" is stressed and means that one: \"In dem Haus da wohnt Lena\" (in that house there).",
           "Feminine \"in der\" and \"an der\" never contract: \"in der Küche\", \"an der Haltestelle\".",
         ],

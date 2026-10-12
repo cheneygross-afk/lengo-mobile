@@ -837,7 +837,7 @@ export const DE_C2_U18: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Zitieren und Belegen, Part 8 of 8",
-    summary: "Paraphrase like a C2 writer: change the word class (nominalise and verbalise), use synonyms, restructure sentences, keep distance with Konjunktiv I, and handle the Goethe C2 task of reformulating a text.",
+    summary: "Paraphrase like a Mastery-level writer: change the word class (nominalise and verbalise), use synonyms, restructure sentences, keep distance with Konjunktiv I, and handle the Goethe C2 task of reformulating a text.",
     duration: "20 min",
     sections: [
       {
@@ -1247,7 +1247,7 @@ export const DE_C2_U18: Lesson[] = [
     slug: "c2-vocab-politics",
     level: "DE-C2",
     number: 7,
-    title: "C2 Vocabulary: The Language of Politics",
+    title: "Mastery Vocabulary: The Language of Politics",
     summary: "Talk about German politics precisely: Bundestag and Bundesrat, Koalitionsvertrag, Fraktion, Misstrauensvotum, Erst- and Zweitstimme, Gesetzentwurf, Lesung, Opposition and Regierungserklärung.",
     duration: "18 min",
     sections: [
@@ -1540,7 +1540,7 @@ export const DE_C2_U18: Lesson[] = [
         body: [
           "\"Das Gehalt\" (plural \"die Gehälter\") is a salary; \"der Gehalt\" (plural \"die Gehalte\") is content or proportion: \"der Alkoholgehalt\", \"der Vitamingehalt\", and figuratively \"der Wahrheitsgehalt\" (how much truth something contains).",
           "\"Der Verdienst\" is earnings, income (\"Der Verdienst ist gering\"); \"das Verdienst\" is merit, credit for an achievement (\"Es ist ihr Verdienst, dass...\": it's thanks to her that...; \"sich Verdienste erwerben um\", to render great services to).",
-          "These two pairs are the ones C2 exams test, because both meanings occur in the same kinds of texts: a business report can mention \"das Gehalt\" and \"der Fettgehalt\", \"der Verdienst\" and \"das Verdienst\" of a founder.",
+          "These two pairs are the ones Mastery-level exams test, because both meanings occur in the same kinds of texts: a business report can mention \"das Gehalt\" and \"der Fettgehalt\", \"der Verdienst\" and \"das Verdienst\" of a founder.",
         ],
         examples: [
           { es: "Das Gehalt wird am Monatsende überwiesen.", en: "The salary is transferred at the end of the month." },

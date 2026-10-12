@@ -15,7 +15,7 @@ export const DE_A2_U23: Lesson[] = [
         heading: "Monday: arriving and texting",
         body: [
           "Jonas, from Freiburg, is spending a week in Berlin. His first message to his sister Mia: \"Hi Mia! Bin gut angekommen! Der Zug hatte eine Stunde Verspätung, aber egal. Ich wohne bei meinem Kumpel Leon in Kreuzberg. Heute Abend gehen wir in eine Kneipe. LG Jonas\"",
-          "Text-message German drops the subject \"ich\" in short sentences (\"Bin gut angekommen\" for \"Ich bin gut angekommen\"), and uses abbreviations: \"LG\" = \"Liebe Grüße\", \"VG\" = \"Viele Grüße\", \"HDL\" = \"Hab dich lieb\". \"Kumpel\" is a casual word for mate. In your own writing at A2, keep the full sentences.",
+          "Text-message German drops the subject \"ich\" in short sentences (\"Bin gut angekommen\" for \"Ich bin gut angekommen\"), and uses abbreviations: \"LG\" = \"Liebe Grüße\", \"VG\" = \"Viele Grüße\", \"HDL\" = \"Hab dich lieb\". \"Kumpel\" is a casual word for mate. In your own writing at the Elementary level, keep the full sentences.",
           "Notice the grammar inside: \"bei\" + dative for staying at someone's place (\"bei meinem Kumpel\"), \"in eine Kneipe\" (direction, accusative), and the present for tonight's plan.",
         ],
         examples: [
@@ -678,7 +678,7 @@ export const DE_A2_U23: Lesson[] = [
         heading: "Gate 3: speech or writing?",
         body: [
           "The same event, two registers. Spoken (to a friend): \"Gestern bin ich in die Stadt gefahren und habe mir Schuhe gekauft. Die waren total günstig.\" Written (a story or a report): \"Gestern fuhr ich in die Stadt und kaufte mir Schuhe. Sie waren sehr günstig.\"",
-          "At A2 you produce the Perfekt plus war/hatte/modals, and recognise the full Präteritum of other verbs when you read: \"ging\" (gehen), \"kam\" (kommen), \"sah\" (sehen), \"fuhr\" (fahren), \"nahm\" (nehmen), \"fand\" (finden), \"gab\" (geben).",
+          "At the Elementary level you produce the Perfekt plus war/hatte/modals, and recognise the full Präteritum of other verbs when you read: \"ging\" (gehen), \"kam\" (kommen), \"sah\" (sehen), \"fuhr\" (fahren), \"nahm\" (nehmen), \"fand\" (finden), \"gab\" (geben).",
         ],
         examples: [
           { es: "Gestern bin ich in die Stadt gefahren.", en: "Yesterday I went into town. (spoken)" },
@@ -886,7 +886,7 @@ export const DE_A2_U23: Lesson[] = [
       {
         heading: "Wenn, ob and the double-verb ending",
         body: [
-          "A full A2 sentence can combine all three: \"Wenn das Wetter besser wird, werden wir öfter mit dem Fahrrad fahren.\" The wenn-clause (verb last) is position 1, so \"werden\" comes straight after the comma.",
+          "A full Elementary sentence can combine all three: \"Wenn das Wetter besser wird, werden wir öfter mit dem Fahrrad fahren.\" The wenn-clause (verb last) is position 1, so \"werden\" comes straight after the comma.",
           "\"Ob\" vs \"wenn\" once more: \"Ich weiß nicht, ob es besser wird\" (whether) vs \"Wenn es besser wird, ...\" (if / when, a condition). And \"werden\" + comparative = to get ...er: \"Es wird kälter\", \"Die Mieten werden immer teurer\".",
         ],
         examples: [
@@ -1216,14 +1216,14 @@ export const DE_A2_U23: Lesson[] = [
     level: "DE-A2",
     number: 7,
     title: "Final Drill: Are You Ready for the Intermediate Level?",
-    summary: "A last mixed drill of the twenty structures most needed at B1, with targeted feedback.",
+    summary: "A last mixed drill of the twenty structures most needed at the Intermediate level, with targeted feedback.",
     duration: "15 min",
     sections: [
       {
         heading: "Structures 1-7: verbs and tenses",
         body: [
-          "B1 builds directly on these, so check you're solid: (1) verb second in main clauses; (2) verb last after \"weil, dass, wenn, ob, als\"; (3) Perfekt with the right auxiliary; (4) strong and mixed participles; (5) Präteritum of sein, haben and the modals; (6) separable verbs in every tense; (7) \"werden\" for the future and for become.",
-          "If any of these still trips you up, revisit the unit before moving on: at B1 you'll meet the Konjunktiv II, the passive and relative clauses, and all of them assume these seven are automatic.",
+          "The Intermediate level builds directly on these, so check you're solid: (1) verb second in main clauses; (2) verb last after \"weil, dass, wenn, ob, als\"; (3) Perfekt with the right auxiliary; (4) strong and mixed participles; (5) Präteritum of sein, haben and the modals; (6) separable verbs in every tense; (7) \"werden\" for the future and for become.",
+          "If any of these still trips you up, revisit the unit before moving on: at the Intermediate level you'll meet the Konjunktiv II, the passive and relative clauses, and all of them assume these seven are automatic.",
         ],
         examples: [
           { es: "Morgen fahre ich nach Bremen.", en: "Tomorrow I'm going to Bremen." },
@@ -1287,7 +1287,7 @@ export const DE_A2_U23: Lesson[] = [
         heading: "Structures 15-20: sentence building",
         body: [
           "(15) comparatives with \"als\" and \"so ... wie\"; (16) superlatives; (17) reflexive verbs; (18) imperatives for du, ihr and Sie; (19) connectors in position 1 (\"deshalb, trotzdem, dann\") vs position 0 (\"und, aber, denn\"); (20) time expressions: \"seit\" + present, \"vor\" = ago, years without *in*.",
-          "The last test of readiness: can you tell a short story about your last holiday and plan the next one, in German, without stopping? If yes, you're ready for B1.",
+          "The last test of readiness: can you tell a short story about your last holiday and plan the next one, in German, without stopping? If yes, you're ready for the Intermediate level.",
         ],
         examples: [
           { es: "Das war der schönste Urlaub meines Lebens.", en: "That was the best holiday of my life." },
@@ -1409,8 +1409,8 @@ export const DE_A2_U23: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Ich lerne seit zwei Jahren Deutsch und ich bin bereit für B1.",
-        prompt: "Say it in German: I've been learning German for two years and I'm ready for B1.",
+        text: "Ich lerne seit zwei Jahren Deutsch und ich bin bereit für die nächste Stufe.",
+        prompt: "Say it in German: I've been learning German for two years and I'm ready for the next level.",
         explanation: "\"Seit\" + present tense; \"bereit für\" + accusative.",
       },
     ],

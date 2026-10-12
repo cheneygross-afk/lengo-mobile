@@ -1043,7 +1043,7 @@ export const DE_B2_U11: Lesson[] = [
         heading: "Round 3: wenn ... auch, and the full circuit",
         body: [
           "A more literary variant splits the two words: \"wenn\" opens the clause and \"auch\" sits inside it: \"Wenn er auch reich ist, glücklich ist er nicht\" (rich as he may be, he isn't happy). The main clause often starts with \"so\" or contains \"doch\": \"Wenn das Hotel auch teuer war, so war es doch wunderschön.\"",
-          "You'll mostly read this in essays and reviews; in speech people prefer \"zwar ... aber\". It's good to recognise, and a nice touch in a B2 essay.",
+          "You'll mostly read this in essays and reviews; in speech people prefer \"zwar ... aber\". It's good to recognise, and a nice touch in an Upper-intermediate essay.",
           "Now rotate: one situation, four ways. Fact: the hotel was expensive; it was beautiful. → \"Das Hotel war zwar teuer, aber wunderschön.\" → \"Auch wenn das Hotel teuer war, war es wunderschön.\" → \"Wenn das Hotel auch teuer war, so war es doch wunderschön.\" → \"Obwohl das Hotel teuer war, war es wunderschön.\"",
         ],
         examples: [
@@ -1424,7 +1424,7 @@ export const DE_B2_U11: Lesson[] = [
         body: [
           "Ayşe, a commuter from Göttingen: \"Ich fahre jeden Tag 80 Kilometer. Obwohl ich nie schneller als 130 fahre, werde ich ständig bedrängt.\" Klaus, a lorry driver: \"Trotz aller Diskussionen ändert sich nichts. Das ist zwar frustrierend, aber typisch.\"",
           "The host sums up: \"Die beiden Seiten sind sich zwar nicht einig geworden, aber in einem Punkt stimmen sie überein: Die Verkehrssicherheit ist wichtig. Auch wenn die Debatte weitergeht, ...\"",
-          "Notice how the whole programme runs on concession: every speaker grants something before disagreeing. That's the polite, persuasive style German debates value, and it's exactly what B2 exams want in your own discussions.",
+          "Notice how the whole programme runs on concession: every speaker grants something before disagreeing. That's the polite, persuasive style German debates value, and it's exactly what Upper-intermediate exams want in your own discussions.",
         ],
         examples: [
           { es: "Obwohl ich nie schneller als 130 fahre, werde ich ständig bedrängt.", en: "Although I never drive faster than 130, I'm constantly tailgated." },
@@ -1739,7 +1739,7 @@ export const DE_B2_U11: Lesson[] = [
       {
         heading: "Step 1: the argument",
         body: [
-          "Freiburg's city council is discussing whether to make the whole old town car-free (\"eine autofreie Innenstadt\"). You'll build one balanced paragraph, the kind B2 exams ask for in an Erörterung (discussion essay). The skeleton: claim, concession, counter-argument, conclusion.",
+          "Freiburg's city council is discussing whether to make the whole old town car-free (\"eine autofreie Innenstadt\"). You'll build one balanced paragraph, the kind Upper-intermediate exams ask for in an Erörterung (discussion essay). The skeleton: claim, concession, counter-argument, conclusion.",
           "Start with the main argument for it, stated clearly: \"Eine autofreie Innenstadt hätte viele Vorteile.\" Then give reasons: \"Die Luft wäre sauberer, und es gäbe mehr Platz für Fußgänger, Radfahrer und Cafés.\" The Konjunktiv II is natural here because the measure doesn't exist yet.",
           "Useful phrases: \"Dafür spricht, dass ...\" (in favour of it is the fact that ...), \"Ein wichtiges Argument ist ...\", \"der Vorteil / der Nachteil\", \"die Anwohner\" (residents), \"der Einzelhandel\" (retail).",
         ],
@@ -1810,7 +1810,7 @@ export const DE_B2_U11: Lesson[] = [
         body: [
           "End with your own view, ideally with one more concession that shows balance: \"Trotz einiger Nachteile halte ich eine autofreie Innenstadt für sinnvoll.\" \"Insgesamt überwiegen meiner Meinung nach die Vorteile, auch wenn die Umstellung Zeit braucht.\"",
           "Here's the full paragraph: \"Eine autofreie Innenstadt hätte viele Vorteile. Dafür spricht vor allem, dass die Luft sauberer wäre und es mehr Platz für Fußgänger gäbe. Zwar befürchten viele Händler Umsatzeinbußen, aber in anderen Städten kaufen Fußgänger sogar häufiger ein. Dagegen spricht, dass Lieferungen schwieriger würden. Für Touristen ist die Idee attraktiv, für Pendler hingegen bedeutet sie längere Wege. Trotz dieser Nachteile halte ich das Projekt für sinnvoll, auch wenn die Umstellung Zeit braucht.\"",
-          "Count the tools: \"zwar ... aber\", \"hingegen\", \"trotz\", \"auch wenn\". Four different structures, no repetition. That variety is what makes B2 writing sound mature.",
+          "Count the tools: \"zwar ... aber\", \"hingegen\", \"trotz\", \"auch wenn\". Four different structures, no repetition. That variety is what makes Upper-intermediate writing sound mature.",
         ],
         examples: [
           { es: "Trotz einiger Nachteile halte ich eine autofreie Innenstadt für sinnvoll.", en: "Despite some disadvantages I think a car-free centre makes sense." },

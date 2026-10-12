@@ -212,7 +212,7 @@ export const DE_B1_U30: Lesson[] = [
         body: [
           "A German complaint is direct but factual. Open with \"Ich möchte mich über ... beschweren\" (sich beschweren über + accusative) or the softer \"Ich habe leider ein Problem mit...\". \"Leider\" (unfortunately) is the most useful word in any complaint: it signals a problem without attacking anyone.",
           "Then describe the facts in the past: \"Ich habe am 3. März einen Tisch bestellt, aber er ist beschädigt angekommen.\"",
-          "\"Ich hätte erwartet, dass...\" (I would have expected that...) is a fixed phrase for disappointment; use it as it is, without worrying about the grammar behind it, which you'll study at B2.",
+          "\"Ich hätte erwartet, dass...\" (I would have expected that...) is a fixed phrase for disappointment; use it as it is, without worrying about the grammar behind it, which you'll study at the Upper-intermediate level.",
         ],
         examples: [
           { es: "Ich möchte mich über den Service beschweren.", en: "I'd like to complain about the service." },
@@ -1740,13 +1740,13 @@ export const DE_B1_U30: Lesson[] = [
     level: "DE-B1",
     number: 10,
     title: "Quick Round: The Intermediate Level in Ten Seconds",
-    summary: "One rapid item for each main B1 structure: the pasts, time clauses, Konjunktiv II, relatives, zu-infinitives, the passive, prepositional verbs, connectors and particles.",
+    summary: "One rapid item for each main Intermediate structure: the pasts, time clauses, Konjunktiv II, relatives, zu-infinitives, the passive, prepositional verbs, connectors and particles.",
     duration: "14 min",
     sections: [
       {
         heading: "Verbs and tenses",
         body: [
-          "This round touches every big B1 topic once. Work fast, then read the explanation. First, verb forms: Perfekt with \"haben\" or \"sein\", Präteritum in writing, Plusquamperfekt for the earlier past, the Konjunktiv II, and the passive in its tenses.",
+          "This round touches every big Intermediate topic once. Work fast, then read the explanation. First, verb forms: Perfekt with \"haben\" or \"sein\", Präteritum in writing, Plusquamperfekt for the earlier past, the Konjunktiv II, and the passive in its tenses.",
         ],
         examples: [
           { es: "Wir sind gestern nach Dresden gefahren.", en: "We went to Dresden yesterday." },

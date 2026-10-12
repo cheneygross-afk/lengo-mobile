@@ -431,7 +431,7 @@ export const DE_B2_U13: Lesson[] = [
       {
         heading: "The trap: als + verb at the end means when",
         body: [
-          "If you drop \"ob\" but leave the verb at the end, you get a completely different sentence: \"als er müde war\" is a time clause meaning when he was tired (B1: \"als\" for a single past event).",
+          "If you drop \"ob\" but leave the verb at the end, you get a completely different sentence: \"als er müde war\" is a time clause meaning when he was tired (Intermediate level: \"als\" for a single past event).",
           "So: \"als ob er müde wäre\" (as if he were tired), \"als wäre er müde\" (as if he were tired), but \"als er müde war\" (when he was tired). The position of the verb and the Konjunktiv carry the meaning.",
           "\"*Als er müde wäre\" with the verb at the end is simply wrong; don't mix the two.",
         ],

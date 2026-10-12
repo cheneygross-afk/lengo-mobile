@@ -7,7 +7,7 @@ export const DE_C2_U10: Lesson[] = [
     slug: "c2-vocab-latin-phrases",
     level: "DE-C2",
     number: 1,
-    title: "C2 Vocabulary: Latin Phrases in Educated German",
+    title: "Mastery Vocabulary: Latin Phrases in Educated German",
     summary: "ad hoc, a priori, de facto, per se, pro forma, sine qua non, status quo, quid pro quo, in medias res, nota bene, cum grano salis, ceteris paribus: meaning, German pronunciation and use in sentences.",
     duration: "18 min",
     sections: [
@@ -208,14 +208,14 @@ export const DE_C2_U10: Lesson[] = [
     slug: "c2-vocab-greek-learned-words",
     level: "DE-C2",
     number: 2,
-    title: "C2 Vocabulary: Greek-Origin and Learned Words",
+    title: "Mastery Vocabulary: Greek-Origin and Learned Words",
     summary: "Paradigma, Diskrepanz, Ambivalenz, Prämisse, Synergie, Analogie, Hypothese, Dichotomie, Phänomen, Kriterium, Thema: gender, plural traps and collocations.",
     duration: "18 min",
     sections: [
       {
         heading: "Plural traps: Kriterien, Themen, Paradigmen",
         body: [
-          "Many learned words keep Greek or Latin plurals, and these are classic C2 errors. \"Das Kriterium\" → \"die Kriterien\" (never *Kriteriums); \"das Thema\" → \"die Themen\" (also \"Themata\" in old texts); \"das Paradigma\" → \"die Paradigmen\" (also \"Paradigmata\"); \"das Dogma\" → \"die Dogmen\"; \"das Schema\" → \"die Schemata\" or \"Schemas\"; \"das Phänomen\" → \"die Phänomene\"; \"das Museum\" → \"die Museen\"; \"das Studium\" → \"die Studien\".",
+          "Many learned words keep Greek or Latin plurals, and these are classic Mastery-level errors. \"Das Kriterium\" → \"die Kriterien\" (never *Kriteriums); \"das Thema\" → \"die Themen\" (also \"Themata\" in old texts); \"das Paradigma\" → \"die Paradigmen\" (also \"Paradigmata\"); \"das Dogma\" → \"die Dogmen\"; \"das Schema\" → \"die Schemata\" or \"Schemas\"; \"das Phänomen\" → \"die Phänomene\"; \"das Museum\" → \"die Museen\"; \"das Studium\" → \"die Studien\".",
           "Gender: words in \"-ma\" from Greek are neuter (\"das Thema\", \"das Dogma\", \"das Klima\", \"das Drama\", \"das Charisma\"); words in \"-ie\", \"-enz\", \"-anz\", \"-ese\" are feminine (\"die Synergie\", \"die Analogie\", \"die Ambivalenz\", \"die Diskrepanz\", \"die Hypothese\", \"die Prämisse\").",
         ],
         examples: [
@@ -1588,7 +1588,7 @@ export const DE_C2_U10: Lesson[] = [
     slug: "c2-vocab-learned-locutions",
     level: "DE-C2",
     number: 9,
-    title: "C2 Vocabulary: Learned Phrases",
+    title: "Mastery Vocabulary: Learned Phrases",
     summary: "Formal connectors and prepositions for written German: in Anbetracht, im Hinblick auf, mithin, gleichwohl, nichtsdestotrotz, zumal, insofern als, ungeachtet, nicht zuletzt, des Weiteren. Register and position in the sentence.",
     duration: "20 min",
     sections: [

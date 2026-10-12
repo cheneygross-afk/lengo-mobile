@@ -51,7 +51,7 @@ export const DE_A2_U04: Lesson[] = [
         body: [
           "\"Haben\" in the Präteritum: \"ich hatte\", \"du hattest\", \"er/sie/es hatte\", \"wir hatten\", \"ihr hattet\", \"sie/Sie hatten\". The stem is \"hatt-\", with a double t, then the endings -e, -est, -e, -en, -et, -en.",
           "\"Ich hatte keine Zeit\" (I didn't have time), \"Wir hatten Glück\" (we were lucky). Again, \"ich habe ... gehabt\" exists but is much less common in everyday speech.",
-          "Remember the haben-phrases from A1: \"Hunger haben\", \"Durst haben\", \"Angst haben\", \"Lust haben\". They all go into the past with \"hatte\": \"Ich hatte Hunger.\"",
+          "Remember the haben-phrases from the Beginner level: \"Hunger haben\", \"Durst haben\", \"Angst haben\", \"Lust haben\". They all go into the past with \"hatte\": \"Ich hatte Hunger.\"",
         ],
         examples: [
           { es: "Ich hatte keine Zeit.", en: "I didn't have time." },
@@ -255,7 +255,7 @@ export const DE_A2_U04: Lesson[] = [
         heading: "Hatte through every person",
         body: [
           "ich hatte, du hattest, er/sie/es hatte, wir hatten, ihr hattet, sie/Sie hatten. Stem \"hatt-\" + the endings -e, -est, -e, -en, -et, -en.",
-          "Don't drop a t: *hate*, *hatest* are spelling slips. And don't confuse \"hatte\" (had) with \"hätte\" (would have), which you'll meet at B1.",
+          "Don't drop a t: *hate*, *hatest* are spelling slips. And don't confuse \"hatte\" (had) with \"hätte\" (would have), which you'll meet at the Intermediate level.",
         ],
         examples: [
           { es: "Ich hatte einen Hund.", en: "I had a dog." },
@@ -425,7 +425,7 @@ export const DE_A2_U04: Lesson[] = [
       {
         heading: "Es gab: there was, there were",
         body: [
-          "\"Es gibt\" (there is/are) from A1 becomes \"es gab\" in the past. It never changes for singular or plural: \"Es gab ein Problem\" (there was a problem), \"Es gab viele Leute\" (there were lots of people).",
+          "\"Es gibt\" (there is/are) from the Beginner level becomes \"es gab\" in the past. It never changes for singular or plural: \"Es gab ein Problem\" (there was a problem), \"Es gab viele Leute\" (there were lots of people).",
           "Like \"es gibt\", it's followed by the accusative: \"Es gab keinen Kuchen\" (there was no cake), \"Es gab einen Unfall\" (there was an accident).",
           "Don't translate there was with *da war* in these sentences: \"es gab\" is the standard. (\"Da war...\" does exist for pointing to something specific in a story, but it's not the general there was.)",
         ],
@@ -491,7 +491,7 @@ export const DE_A2_U04: Lesson[] = [
         heading: "Es war kalt, wie war...?",
         body: [
           "Weather and impressions use \"es war\": \"Es war kalt\", \"Es war schön\", \"Es war langweilig\" (boring), \"Es war super!\" And the classic question: \"Wie war der Urlaub?\", \"Wie war die Party?\", \"Wie war's?\"",
-          "Careful with feeling cold: \"Es war kalt\" (the weather/room was cold) vs \"Mir war kalt\" (I felt cold, chunk from A1). *Ich war kalt* would mean your personality was cold.",
+          "Careful with feeling cold: \"Es war kalt\" (the weather/room was cold) vs \"Mir war kalt\" (I felt cold, chunk from the Beginner level). *Ich war kalt* would mean your personality was cold.",
         ],
         examples: [
           { es: "Es war sehr kalt.", en: "It was very cold." },
@@ -631,7 +631,7 @@ export const DE_A2_U04: Lesson[] = [
         heading: "Drop the umlaut, add -te",
         body: [
           "The modal verbs also use the Präteritum in everyday speech. The recipe: take the infinitive, drop the umlaut if there is one, and add -te: \"können\" → \"konnte\", \"müssen\" → \"musste\", \"dürfen\" → \"durfte\". \"Wollen\" and \"sollen\" have no umlaut: \"wollte\", \"sollte\". \"Mögen\" is a little odd: \"mochte\".",
-          "Losing the umlaut is essential: \"ich musste\" (I had to) vs \"ich müsste\" (I would have to, B1). One dot changes the meaning.",
+          "Losing the umlaut is essential: \"ich musste\" (I had to) vs \"ich müsste\", I would have to, which comes at the Intermediate level. One dot changes the meaning.",
           "Endings: \"ich konnte\", \"du konntest\", \"er konnte\", \"wir konnten\", \"ihr konntet\", \"sie konnten\". Like \"hatte\": ich = er, no ending.",
         ],
         examples: [

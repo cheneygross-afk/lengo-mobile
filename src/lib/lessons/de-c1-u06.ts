@@ -30,7 +30,7 @@ export const DE_C1_U06: Lesson[] = [
         heading: "Perfekt in speech, Präteritum on the page",
         body: [
           "In conversation, especially in the south, Germans tell the past in the Perfekt: \"Gestern bin ich in die Stadt gegangen und habe Mehmet getroffen.\" Novels, short stories, newspaper reports, biographies and fairy tales use the Präteritum: \"Am nächsten Morgen ging sie in die Stadt und traf Mehmet.\" It is the narrative tense of written German.",
-          "In northern Germany the Präteritum is also more common in speech than in Bavaria or Austria, and some verbs are almost always in the Präteritum even in speech: \"war\", \"hatte\", the modals (\"konnte\", \"musste\"), \"gab es\", \"ging es\", \"wusste\", \"fand\" (thought). At B1 you met mostly the 3rd person (\"er ging\"); in a story you need every person.",
+          "In northern Germany the Präteritum is also more common in speech than in Bavaria or Austria, and some verbs are almost always in the Präteritum even in speech: \"war\", \"hatte\", the modals (\"konnte\", \"musste\"), \"gab es\", \"ging es\", \"wusste\", \"fand\" (thought). At the Intermediate level you met mostly the 3rd person (\"er ging\"); in a story you need every person.",
           "The Präteritum doesn't mean a different time from the Perfekt; it means a different mode of telling. Switching from Perfekt to Präteritum is like switching from telling a friend to writing a book.",
         ],
         examples: [
@@ -2688,13 +2688,13 @@ export const DE_C1_U06: Lesson[] = [
     level: "DE-C1",
     number: 14,
     title: "Spiral Review: Narrating and Reporting",
-    summary: "Recombine B2 indirect speech with Konjunktiv I and its tense shifts with this unit's literary tenses and erlebte Rede.",
+    summary: "Recombine Upper-intermediate indirect speech with Konjunktiv I and its tense shifts with this unit's literary tenses and erlebte Rede.",
     duration: "19 min",
     sections: [
       {
         heading: "Indirect speech in a story",
         body: [
-          "At B2 you learnt indirect speech: Konjunktiv I in the 3rd person singular (\"er sei\", \"er habe\", \"er komme\"), Konjunktiv II where Konjunktiv I looks like the indicative (\"sie hätten\", \"sie kämen\"), and three time levels: present (\"er komme\"), past (\"er sei gekommen\", \"er habe gesehen\"), future (\"er werde kommen\").",
+          "At the Upper-intermediate level you learnt indirect speech: Konjunktiv I in the 3rd person singular (\"er sei\", \"er habe\", \"er komme\"), Konjunktiv II where Konjunktiv I looks like the indicative (\"sie hätten\", \"sie kämen\"), and three time levels: present (\"er komme\"), past (\"er sei gekommen\", \"er habe gesehen\"), future (\"er werde kommen\").",
           "In a story the tense of the reporting verb doesn't change the Konjunktiv: \"Sie sagt / sagte / hatte gesagt, er sei krank.\" Only the relation in time matters: \"er sei krank\" (at that moment), \"er sei krank gewesen\" (before), \"er werde kommen\" (after).",
           "Questions use \"ob\" or the question word: \"Er fragte, ob sie mitkomme\", \"Sie wollte wissen, wann der Zug fahre.\" Commands use \"sollen\" or \"mögen\": \"Er sagte, sie solle warten\" / \"..., sie möge Platz nehmen\" (more polite).",
         ],
@@ -2767,7 +2767,7 @@ export const DE_C1_U06: Lesson[] = [
         body: [
           "A short passage combining the unit: \"Als Jonas am Bahnhof ankam, war der Zug schon abgefahren. Der Mann am Schalter sagte, der nächste fahre erst in zwei Stunden. Zwei Stunden! Was sollte er so lange machen? Kaum hatte er sich auf eine Bank gesetzt, als sein Handy klingelte.\"",
           "Count the tools: Präteritum (\"ankam\") with Plusquamperfekt (\"war abgefahren\"); indirect speech with Konjunktiv I (\"fahre\"); erlebte Rede (\"Zwei Stunden! Was sollte er so lange machen?\"); inversion with \"kaum\" (\"Kaum hatte er..., als...\").",
-          "Your goal at C1 is to choose among them consciously, so that every verb form tells the reader something about time and voice.",
+          "Your goal at the Advanced level is to choose among them consciously, so that every verb form tells the reader something about time and voice.",
         ],
         examples: [
           { es: "Als Jonas am Bahnhof ankam, war der Zug schon abgefahren.", en: "When Jonas got to the station, the train had already left." },

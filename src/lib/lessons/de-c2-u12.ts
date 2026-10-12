@@ -489,7 +489,7 @@ export const DE_C2_U12: Lesson[] = [
         body: [
           "Many wrong answers come from missing a negation that isn't \"nicht\" or \"kein\". \"Kaum\" means hardly or barely: \"Kaum jemand hat das bemerkt\" = almost nobody noticed. \"Keineswegs\" and \"keinesfalls\" mean by no means: \"Das ist keineswegs sicher\". \"Nicht einmal\" (colloquially \"nicht mal\") means not even.",
           "Others: \"weder ... noch\" (neither ... nor), \"nirgends\" / \"nirgendwo\" (nowhere), \"niemals\", \"mitnichten\" (elevated: not at all), \"alles andere als\" (anything but: \"alles andere als einfach\" = far from easy), and the prefix \"un-\" or suffix \"-los\".",
-          "Also watch for double negatives that make a positive in formal style: \"nicht unwahrscheinlich\" (quite likely), \"nicht ohne Grund\" (with good reason). They are typical C2 traps.",
+          "Also watch for double negatives that make a positive in formal style: \"nicht unwahrscheinlich\" (quite likely), \"nicht ohne Grund\" (with good reason). They are typical Mastery-level traps.",
         ],
         examples: [
           { es: "Kaum jemand hat die Änderung bemerkt.", en: "Hardly anyone noticed the change." },
@@ -743,7 +743,7 @@ export const DE_C2_U12: Lesson[] = [
       {
         heading: "Switching under time pressure",
         body: [
-          "In the exam you switch modes constantly. A practical routine for a C2 reading task: read the questions first (so you know what to scan for), skim the text globally once, then for each question scan for the key word or a synonym, and read only that passage in detail.",
+          "In the exam you switch modes constantly. A practical routine for a Mastery-level reading task: read the questions first (so you know what to scan for), skim the text globally once, then for each question scan for the key word or a synonym, and read only that passage in detail.",
           "Synonyms are the main obstacle in the scanning step: the question says \"gefällt\", the text says \"mussten weichen\" or \"fielen ... zum Opfer\"; the question says \"Kosten\", the text says \"Ausgaben\" or \"finanzieller Aufwand\". Expect paraphrase, never identical wording.",
         ],
         examples: [
@@ -1724,14 +1724,14 @@ export const DE_C2_U12: Lesson[] = [
     slug: "c2-vocab-verb-noun-collocations",
     level: "DE-C2",
     number: 9,
-    title: "C2 Vocabulary: Verb and Noun Collocations",
+    title: "Mastery Vocabulary: Verb and Noun Collocations",
     summary: "The fixed verb-noun pairs of educated German: Maßnahmen ergreifen, Bedenken äußern, Kritik üben, Einfluss nehmen, Stellung beziehen, Bilanz ziehen, Anspruch erheben, Verantwortung tragen.",
     duration: "17 min",
     sections: [
       {
         heading: "Acting and deciding",
         body: [
-          "At C2 your German is judged as much by collocations as by grammar. Many nouns choose a specific verb, and the English one is usually wrong: you don't \"machen\" measures, you \"ergreifen\" them (literally seize). Learn the pair as one unit.",
+          "At the Mastery level your German is judged as much by collocations as by grammar. Many nouns choose a specific verb, and the English one is usually wrong: you don't \"machen\" measures, you \"ergreifen\" them (literally seize). Learn the pair as one unit.",
           "Acting and deciding: \"Maßnahmen ergreifen\" (take measures), \"eine Entscheidung treffen\" (make a decision; never *\"machen\"), \"Verantwortung tragen\" (bear responsibility; \"für\" + accusative) or \"übernehmen\" (take on), \"Bilanz ziehen\" (take stock, literally draw the balance), \"einen Beschluss fassen\" (pass a resolution), \"Schritte einleiten\" (initiate steps).",
           "\"Eine Entscheidung machen\" is a common anglicism that sounds wrong to most Germans. \"Bilanz ziehen\" is used for any review of results: \"Nach einem Jahr zieht die Stadt eine positive Bilanz.\"",
         ],

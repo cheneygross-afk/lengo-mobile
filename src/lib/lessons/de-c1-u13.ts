@@ -29,7 +29,7 @@ export const DE_C1_U13: Lesson[] = [
       {
         heading: "Three layers of vocabulary",
         body: [
-          "German dictionaries label words by register: \"gehoben\" (elevated, formal writing), unmarked (neutral, fine everywhere), \"umgangssprachlich\" (colloquial, among friends), \"salopp\" or \"derb\" (very casual, crude) and \"vulgär\". At C1 you already know the neutral word; what you need now is to recognise the layers above and below it and to choose deliberately.",
+          "German dictionaries label words by register: \"gehoben\" (elevated, formal writing), unmarked (neutral, fine everywhere), \"umgangssprachlich\" (colloquial, among friends), \"salopp\" or \"derb\" (very casual, crude) and \"vulgär\". At the Advanced level you already know the neutral word; what you need now is to recognise the layers above and below it and to choose deliberately.",
           "The classic triplets: \"speisen / essen / futtern\" (dine / eat / scoff), \"erhalten / bekommen / kriegen\" (receive / get / get), \"sich begeben / gehen / abhauen\" (proceed / go / clear off). \"Speisen\" is what a restaurant menu or a wedding invitation says; \"futtern\" is what you say about kids raiding the fridge. Use the neutral middle word whenever you are unsure: it is never wrong.",
           "The formal words are not just fancier synonyms: they come with formal grammar. \"Sich begeben\" wants a direction phrase (\"Bitte begeben Sie sich zu Gate B12\"), \"erhalten\" lives in letters and the passive-like \"Sie erhalten ...\", and \"kriegen\" is so colloquial that it sounds wrong in a cover letter, however common it is in speech.",
           "Trap for English speakers: \"bekommen\" means to get or receive, never to become (that is \"werden\"). And \"abhauen\" is not just to leave: it implies escaping or leaving abruptly, often with a hint of rudeness (\"Hau ab!\" = Get lost!).",
@@ -115,7 +115,7 @@ export const DE_C1_U13: Lesson[] = [
         body: [
           "Some words are formal but also old-fashioned. \"Die Gattin\" and \"der Gatte\" (spouse) appear in obituaries, formal invitations and ironic speech (\"Und wie geht es der werten Gattin?\"); in normal life a man says \"meine Frau\" and a woman \"mein Mann\". \"Die Gemahlin\" is even more elevated, almost aristocratic.",
           "Other words have slid downwards. \"Das Weib\" was once neutral (it survives in \"weiblich\") but today is pejorative or deliberately crude. \"Das Fräulein\" for an unmarried woman is obsolete as a form of address. Using such words unknowingly makes a learner sound either rude or like a character from a 1950s film.",
-          "A useful habit at C1: when you meet a new word, check its dictionary label (Duden marks \"gehoben\", \"umgangssprachlich\", \"veraltend\", \"abwertend\"). The label tells you as much as the meaning does.",
+          "A useful habit at the Advanced level: when you meet a new word, check its dictionary label (Duden marks \"gehoben\", \"umgangssprachlich\", \"veraltend\", \"abwertend\"). The label tells you as much as the meaning does.",
         ],
         examples: [
           { es: "Darf ich Ihnen meine Frau vorstellen?", en: "May I introduce my wife?" },
@@ -1075,7 +1075,7 @@ export const DE_C1_U13: Lesson[] = [
         heading: "Pointing things out and giving notice",
         body: [
           "Official letters use a second family of formulas to inform or remind without sounding aggressive: \"Ich erlaube mir, Sie darauf hinzuweisen, dass ...\" (I take the liberty of pointing out that ...), \"Wir möchten Sie darauf aufmerksam machen, dass ...\", \"Wir weisen darauf hin, dass ...\", \"Ich darf Sie daran erinnern, dass ...\".",
-          "\"Ich erlaube mir\" sounds polite but is often a sign of irritation: it is how a landlord or an authority reminds you of a deadline you missed. Recognising the tone behind the formula is part of C1 reading.",
+          "\"Ich erlaube mir\" sounds polite but is often a sign of irritation: it is how a landlord or an authority reminds you of a deadline you missed. Recognising the tone behind the formula is part of Advanced reading.",
           "Note the prepositional adverbs: \"hinweisen auf\" → \"darauf hinweisen, dass\", \"erinnern an\" → \"daran erinnern, dass\", \"aufmerksam machen auf\" → \"darauf aufmerksam machen, dass\". The da-word prepares the dass-clause.",
         ],
         examples: [

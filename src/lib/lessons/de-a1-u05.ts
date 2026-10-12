@@ -247,7 +247,7 @@ export const DE_A1_U05: Lesson[] = [
         heading: "Warum: asking why",
         body: [
           "\"Warum\" means why: \"Warum lernst du Deutsch?\", \"Warum kommt Mia nicht?\". \"Wieso\" means the same and is very common in speech.",
-          "The answer often starts with \"weil\" (because), and here German does something new: the verb jumps to the end. \"Weil ich in Berlin arbeite.\" \"Weil sie krank ist.\" You'll learn the rule properly at A2; for now, copy the pattern as a chunk. A short answer with no verb is also fine: \"Für die Arbeit.\" (For work.)",
+          "The answer often starts with \"weil\" (because), and here German does something new: the verb jumps to the end. \"Weil ich in Berlin arbeite.\" \"Weil sie krank ist.\" You'll learn the rule properly at the Elementary level; for now, copy the pattern as a chunk. A short answer with no verb is also fine: \"Für die Arbeit.\" (For work.)",
         ],
         examples: [
           { es: "Warum lernst du Deutsch?", en: "Why are you learning German?" },

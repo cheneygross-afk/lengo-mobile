@@ -1888,7 +1888,7 @@ export const DE_B2_U15: Lesson[] = [
     level: "DE-B2",
     number: 12,
     title: "Spiral Review: Timeline: Als, Nachdem, Bevor, Seitdem",
-    summary: "Review the B1 time clauses with the Plusquamperfekt and apply them to the life of Marlene Dietrich.",
+    summary: "Review the Intermediate time clauses with the Plusquamperfekt and apply them to the life of Marlene Dietrich.",
     duration: "14 min",
     sections: [
       {

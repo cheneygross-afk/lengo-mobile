@@ -1392,7 +1392,7 @@ export const DE_B1_U27: Lesson[] = [
         heading: "Fast speech: recognise it, use it with friends",
         body: [
           "Put together, the reductions of fast speech can make a sentence hard to recognise: \"Haste mal 'nen Moment?\" (Hast du mal einen Moment?), \"Ich hab's dir doch gesagt\", \"Das is nich mein Problem\" (Das ist nicht mein Problem), \"Wie war's?\".",
-          "Your job at B1: understand them all, use some with friends (\"ich hab\", \"gibt's noch\", \"'n\", tags), and keep them out of formal emails, applications and exams. In a Goethe B1 letter to a stranger, write \"Ich habe\", not \"Ich hab\".",
+          "Your job at the Intermediate level: understand them all, use some with friends (\"ich hab\", \"gibt's noch\", \"'n\", tags), and keep them out of formal emails, applications and exams. In a Goethe B1 letter to a stranger, write \"Ich habe\", not \"Ich hab\".",
         ],
         examples: [
           { es: "Haste mal 'nen Moment?", en: "Have you got a moment?" },

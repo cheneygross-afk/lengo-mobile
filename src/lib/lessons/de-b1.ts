@@ -86,7 +86,7 @@ const UNITS: GermanUnitDef[] = [
   { id: "u32", title: "Word Webs: Kitchen, Money & News", description: "Talk about cooking, money matters, education, life experiences and the news.", lessons: DE_B1_U32, writing: DE_B1_U32_WRITING },
   { id: "u33", title: "Word Webs: City & Work", description: "Talk about city life and the world of work with confidence.", lessons: DE_B1_U33, writing: DE_B1_U33_WRITING },
   { id: "u34", title: "Intermediate Review", description: "Review the whole level and test yourself in demanding mixed tasks.", lessons: DE_B1_U34, writing: DE_B1_U34_WRITING },
-  { id: "u35", title: "Intermediate Challenges & Exit Test", description: "Show you are ready for B2: use word order, the pasts, cases and endings without hints, and complete Goethe B1-style tasks.", lessons: DE_B1_U35, writing: DE_B1_U35_WRITING },
+  { id: "u35", title: "Intermediate Challenges & Exit Test", description: "Show you are ready for the Upper-intermediate level: use word order, the pasts, cases and endings without hints, and complete Goethe B1-style tasks.", lessons: DE_B1_U35, writing: DE_B1_U35_WRITING },
 ];
 
 const LEVEL = buildGermanLevel("B1", UNITS);

@@ -16,7 +16,7 @@ export const DE_C2_U24: Lesson[] = [
         body: [
           "In written German, history is told in the Präteritum. A textbook, a Wikipedia article, a biography: \"Bismarck wurde 1862 preußischer Ministerpräsident. Er führte drei Kriege und gründete 1871 das Deutsche Reich.\" The Perfekt, which dominates spoken German, sounds chatty and out of place in written narration: \"Bismarck hat drei Kriege geführt\" is what you'd say to a friend.",
           "The reason is not only register. The Präteritum presents events as a closed chain in the past, seen from a distance, which is exactly what narration needs. The Perfekt links the past to the present (\"Die Mauer ist gefallen\" implies: and that matters now), so it is used in speech and in news headlines about recent events.",
-          "In spoken history (a museum guide, a podcast, a lecture), speakers mix: Perfekt for most verbs, Präteritum for \"war\", \"hatte\", modals and many common verbs. At C2 you should be able to switch cleanly: Präteritum in writing, natural mix in speech.",
+          "In spoken history (a museum guide, a podcast, a lecture), speakers mix: Perfekt for most verbs, Präteritum for \"war\", \"hatte\", modals and many common verbs. At the Mastery level you should be able to switch cleanly: Präteritum in writing, natural mix in speech.",
         ],
         examples: [
           { es: "Bismarck wurde 1862 preußischer Ministerpräsident.", en: "Bismarck became Prussian prime minister in 1862." },
@@ -419,7 +419,7 @@ export const DE_C2_U24: Lesson[] = [
         body: [
           "\"Nachdem\" shifts the tense one step back: Präteritum in the main clause, Plusquamperfekt in the nachdem clause. \"Nachdem die Alliierten die Währungsreform durchgeführt hatten, verhängte die Sowjetunion die Berlin-Blockade.\" Both clauses describe completed events, but the nachdem clause comes first in time.",
           "\"Kaum dass\" (hardly had ... when) compresses the gap: \"Kaum dass der Krieg beendet war, begannen die Spannungen zwischen den Siegermächten.\" The same meaning with inversion: \"Kaum war der Krieg beendet, (da) begannen die Spannungen ...\" (with \"kaum\" in position one, verb second). Both are very written.",
-          "Common error: \"Nachdem er ankam, ...\" (same tense in both clauses). In careful German, and certainly in a C2 exam: \"Nachdem er angekommen war, ...\". If you want the same time level, use \"als\" instead.",
+          "Common error: \"Nachdem er ankam, ...\" (same tense in both clauses). In careful German, and certainly in a Mastery-level exam: \"Nachdem er angekommen war, ...\". If you want the same time level, use \"als\" instead.",
         ],
         examples: [
           { es: "Nachdem die Alliierten die Währungsreform durchgeführt hatten, verhängte die Sowjetunion die Berlin-Blockade.", en: "After the Allies had carried out the currency reform, the Soviet Union imposed the Berlin Blockade." },

@@ -1110,7 +1110,7 @@ export const DE_B1_U02: Lesson[] = [
       {
         heading: "Being somewhere vs putting something somewhere",
         body: [
-          "You know the pairs from A2: \"liegen\" (to lie, be lying) vs \"legen\" (to lay, put flat); \"sitzen\" vs \"setzen\"; \"stehen\" vs \"stellen\". The position verbs are strong, the placing verbs are weak, and that shows clearly in the past.",
+          "You know the pairs from the Elementary level: \"liegen\" (to lie, be lying) vs \"legen\" (to lay, put flat); \"sitzen\" vs \"setzen\"; \"stehen\" vs \"stellen\". The position verbs are strong, the placing verbs are weak, and that shows clearly in the past.",
           "Position (strong, wo? + dative): \"liegen → lag\", \"sitzen → saß\", \"stehen → stand\". Placing (weak, wohin? + accusative): \"legen → legte\", \"setzen → setzte\", \"stellen → stellte\".",
           "So: \"Das Buch lag auf dem Tisch\" (where it was) vs \"Sie legte das Buch auf den Tisch\" (what she did with it). The case after the preposition flips too.",
         ],

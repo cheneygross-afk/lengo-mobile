@@ -1077,7 +1077,7 @@ export const DE_B2_U25: Lesson[] = [
     level: "DE-B2",
     number: 6,
     title: "Spiral Review: Translation Relay",
-    summary: "Translate short English messages and paragraphs into German, choosing the right B2 structure for each sentence.",
+    summary: "Translate short English messages and paragraphs into German, choosing the right Upper-intermediate structure for each sentence.",
     duration: "15 min",
     sections: [
       {

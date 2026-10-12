@@ -405,7 +405,7 @@ export const DE_C2_U04: Lesson[] = [
         body: [
           "Most idioms are casual. \"Das ist mir Wurst\" is fine at a family dinner; in a meeting say \"Das ist für mich zweitrangig\"; in a formal letter \"Das ist für mich nicht von Belang\" (of no relevance). The meaning is the same, the register decides.",
           "Some idioms are neutral enough for the office and even the press: \"den Nagel auf den Kopf treffen\", \"eine Rolle spielen\", \"auf der Hand liegen\" (to be obvious), \"etwas unter den Teppich kehren\" (to sweep under the carpet). Others are strictly casual: \"auf den Keks gehen\", \"Schwein haben\", \"einen Vogel haben\".",
-          "Rule of thumb: the more physical or comic the image, the more casual the idiom. If you are unsure, use the neutral paraphrase. At C2, choosing not to use an idiom is also a sign of mastery.",
+          "Rule of thumb: the more physical or comic the image, the more casual the idiom. If you are unsure, use the neutral paraphrase. At the Mastery level, choosing not to use an idiom is also a sign of mastery.",
         ],
         examples: [
           { es: "Das ist mir Wurst.", en: "I don't care. (casual)" },
@@ -787,7 +787,7 @@ export const DE_C2_U04: Lesson[] = [
         heading: "Blended idioms: two halves that do not belong together",
         body: [
           "A blend (\"Kontamination\") mixes two idioms: *den Nagel auf den Punkt bringen combines \"den Nagel auf den Kopf treffen\" (hit the nail on the head) and \"etwas auf den Punkt bringen\" (to sum something up precisely). Choose one: \"Sie hat es auf den Punkt gebracht\" or \"Sie hat den Nagel auf den Kopf getroffen.\"",
-          "Other frequent blends and slips: *ins Fettnäpfchen fallen (correct: treten), *Tomaten in den Augen haben (correct: auf den Augen), *das Kind mit dem Bade ausgießen (correct: ausschütten; it means to throw the baby out with the bathwater), *auf dem Holzweg gehen (correct: sein). Native speakers make blends too, but at C2 they are noticed.",
+          "Other frequent blends and slips: *ins Fettnäpfchen fallen (correct: treten), *Tomaten in den Augen haben (correct: auf den Augen), *das Kind mit dem Bade ausgießen (correct: ausschütten; it means to throw the baby out with the bathwater), *auf dem Holzweg gehen (correct: sein). Native speakers make blends too, but at the Mastery level they are noticed.",
         ],
         examples: [
           { es: "Sie hat das Problem auf den Punkt gebracht.", en: "She summed up the problem precisely." },
@@ -1183,7 +1183,7 @@ export const DE_C2_U04: Lesson[] = [
     slug: "c2-vocab-verbs-of-change",
     level: "DE-C2",
     number: 7,
-    title: "C2 Vocabulary: Verbs That Weaken, Strengthen or Correct",
+    title: "Mastery Vocabulary: Verbs That Weaken, Strengthen or Correct",
     summary: "abschwächen, mildern, verschärfen, steigern, verstärken, berichtigen, korrigieren, revidieren, nachbessern and relativieren, with their typical objects and contexts.",
     duration: "17 min",
     sections: [

@@ -50,7 +50,7 @@ export const DE_B2_U12: Lesson[] = [
         body: [
           "\"Zumal\" adds an extra, reinforcing reason on top of something you've already said: \"Ich bleibe heute zu Hause, zumal ich auch noch erkältet bin\" (I'm staying at home today, especially since I've got a cold too). It's a subordinating conjunction: verb at the end.",
           "English equivalents: especially as, particularly since, all the more so because. A zumal-clause almost always comes second, after the main statement, because it builds on it. The particle \"auch\" or \"ja\" often appears inside: \"zumal es ja auch regnet\".",
-          "\"Zumal\" sounds educated but not stiff; it's used in conversation by many Germans. It's a great B2 word to show off in speaking exams.",
+          "\"Zumal\" sounds educated but not stiff; it's used in conversation by many Germans. It's a great Upper-intermediate word to show off in speaking exams.",
         ],
         examples: [
           { es: "Ich bleibe heute zu Hause, zumal ich erkältet bin.", en: "I'm staying at home today, especially as I've got a cold." },
@@ -605,7 +605,7 @@ export const DE_B2_U12: Lesson[] = [
         heading: "Ohne ... zu vs ohne dass",
         body: [
           "The rule is about subjects. If the person in both parts is the same, German uses an infinitive with \"zu\": \"Er ging, ohne sich zu verabschieden\" (He left without saying goodbye: he left, he didn't say goodbye). If the subjects differ, you need a full clause with \"dass\": \"Er ging, ohne dass wir es merkten\" (he left, we didn't notice).",
-          "The infinitive construction is what you learned at B1 for \"um ... zu\". Same shape: \"ohne\" at the start, \"zu\" + infinitive at the end, and with separable verbs \"zu\" goes inside: \"ohne anzurufen\", \"ohne aufzuräumen\".",
+          "The infinitive construction is what you learned at the Intermediate level for \"um ... zu\". Same shape: \"ohne\" at the start, \"zu\" + infinitive at the end, and with separable verbs \"zu\" goes inside: \"ohne anzurufen\", \"ohne aufzuräumen\".",
           "English has one form for both (without saying goodbye / without us noticing), so English speakers tend to use \"ohne dass\" for everything. Using \"ohne ... zu\" for the same subject sounds much more natural.",
         ],
         examples: [

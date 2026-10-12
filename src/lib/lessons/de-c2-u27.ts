@@ -1554,7 +1554,7 @@ export const DE_C2_U27: Lesson[] = [
     slug: "c2-vocab-sound-light-verbs",
     level: "DE-C2",
     number: 8,
-    title: "C2 Vocabulary: Verbs of Sound and Light",
+    title: "Mastery Vocabulary: Verbs of Sound and Light",
     summary: "Precise verbs for sounds and light: rauschen, knistern, knarren, plätschern, summen, dröhnen, flüstern; glänzen, schimmern, funkeln, flackern, glühen, blenden and dämmern, with their figurative uses.",
     duration: "16 min",
     sections: [

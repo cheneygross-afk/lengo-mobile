@@ -3,9 +3,9 @@
 // readings ("a1" ... "c1c2") are under /readings; the English for Spanish
 // speakers beta's ("en/a1" ... "en/c1c2", see ./en) under /lessons/en/stories,
 // gated with the rest of that course; the French course's ("fr/a1" ...
-// "fr/c2", see ./fr, free like the Spanish ones) under /lessons/fr/stories; the German beta's ("de/a1" ...) under
-// /lessons/de/stories. Data-free, so client
-// components can use it.
+// "fr/c2", see ./fr, free like the Spanish ones) under /lessons/fr/stories;
+// the German course's ("de/a1" ... "de/c2", see ./de, free too) under
+// /lessons/de/stories. Data-free, so client components can use it.
 
 /** True for an English-course story levelPath ("en/a1"). */
 export function isEnglishStoryPath(levelPath: string): boolean {

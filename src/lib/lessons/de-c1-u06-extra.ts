@@ -503,7 +503,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Indirect Speech in Narration",
-    summary: "Move between direct and indirect speech at C1 level: Konjunktiv I, replacement forms, time shifts and reported questions and commands.",
+    summary: "Move between direct and indirect speech at the Advanced level: Konjunktiv I, replacement forms, time shifts and reported questions and commands.",
     duration: "15 min",
     sections: [
       {

@@ -658,7 +658,7 @@ export const DE_C2_U22: Lesson[] = [
         heading: "Kenntnisse: grading your languages and skills",
         body: [
           "\"Die Kenntnisse\" (plural) are your skills and knowledge on paper: \"EDV-Kenntnisse\" or \"Computerkenntnisse\", \"Sprachkenntnisse\", \"Grundkenntnisse\" (basic), \"gute Kenntnisse\", \"sehr gute Kenntnisse\", \"fundierte Kenntnisse\".",
-          "For languages, German CVs use a fixed scale: \"Muttersprache\" (native), \"verhandlungssicher\" (business fluent, literally safe to negotiate in), \"fließend\" (fluent), \"gute Kenntnisse\", \"Grundkenntnisse\". Many now add CEFR levels: \"Deutsch (C2)\". Be careful: \"verhandlungssicher\" is a strong claim and may be tested in the interview.",
+          "For languages, German CVs use a fixed scale: \"Muttersprache\" (native), \"verhandlungssicher\" (business fluent, literally safe to negotiate in), \"fließend\" (fluent), \"gute Kenntnisse\", \"Grundkenntnisse\". Many also name a certificate: \"Goethe-Zertifikat C2\". Be careful: \"verhandlungssicher\" is a strong claim and may be tested in the interview.",
           "Other key nouns: \"die Referenzen\" (references; more common in German are \"Arbeitszeugnisse\", and named referees are less usual), \"die Stellenausschreibung\" or \"Stellenanzeige\" (job ad), \"die Initiativbewerbung\" (speculative application, when no job is advertised), \"die Zusage\" (acceptance, offer) and \"die Absage\" (rejection).",
         ],
         examples: [
@@ -1219,7 +1219,7 @@ export const DE_C2_U22: Lesson[] = [
     slug: "c2-vocab-everyday-civil-law",
     level: "DE-C2",
     number: 7,
-    title: "C2 Vocabulary: Everyday Civil Law",
+    title: "Mastery Vocabulary: Everyday Civil Law",
     summary: "The civil-law words of daily life: Kaufvertrag, Gewährleistung vs Garantie, Widerrufsrecht, Mängelrüge, Schadensersatz, Haftpflichtversicherung, Mahnverfahren, Schlichtung.",
     duration: "16 min",
     sections: [
@@ -1433,7 +1433,7 @@ export const DE_C2_U22: Lesson[] = [
       {
         heading: "In the interview: a little goes a long way",
         body: [
-          "Educated German uses Latin phrases more than English does, and recognising them is essential at C2. Using them is another matter: in an interview one well-placed phrase sounds educated, three sound like showing off. The safest are the ones that have become everyday German: \"ad hoc\" (on the spot), \"de facto\" (in fact), \"per se\" (in itself), \"pro forma\" (as a formality).",
+          "Educated German uses Latin phrases more than English does, and recognising them is essential at the Mastery level. Using them is another matter: in an interview one well-placed phrase sounds educated, three sound like showing off. The safest are the ones that have become everyday German: \"ad hoc\" (on the spot), \"de facto\" (in fact), \"per se\" (in itself), \"pro forma\" (as a formality).",
           "Examples in interview answers: \"Ich musste die Präsentation ad hoc übernehmen\", \"Ich war de facto die Teamleitung, auch wenn das nicht im Vertrag stand\", \"Homeoffice ist für mich per se kein Muss.\" Note that they behave like adverbs or uninflected adjectives: \"eine Ad-hoc-Entscheidung\" (as a compound with hyphens), \"die De-facto-Leitung\".",
           "Avoid them where they sound condescending: \"Das ist conditio sine qua non\" to an interviewer, or \"in medias res\" as an announcement before your own answer. Plain German (\"unbedingt erforderlich\", \"kommen wir gleich zur Sache\") is better there.",
         ],

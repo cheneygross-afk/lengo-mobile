@@ -640,7 +640,7 @@ export const DE_C1_U12: Lesson[] = [
         heading: "Scene 2: Grading the guesses",
         body: [
           "Mia: \"Das dürfte der Stau sein. Ich hab's im Radio gehört: Unfall vor dem Elbtunnel.\" Lena: \"Aber er hätte doch anrufen können!\" Leon: \"Vielleicht ist sein Akku leer. Er kann doch nicht schon wieder sein Handy vergessen haben!\"",
-          "Mia's \"Das dürfte... sein\" is a confident guess with evidence. Lena reproaches with \"hätte... anrufen können\" (could have called: B2 Konjunktiv II past). Leon's \"Er kann doch nicht schon wieder... vergessen haben!\" uses \"kann nicht\" + perfect infinitive with \"doch\" for disbelief: he can't have forgotten again, surely!",
+          "Mia's \"Das dürfte... sein\" is a confident guess with evidence. Lena reproaches with \"hätte... anrufen können\" (could have called: the Upper-intermediate Konjunktiv II past). Leon's \"Er kann doch nicht schon wieder... vergessen haben!\" uses \"kann nicht\" + perfect infinitive with \"doch\" for disbelief: he can't have forgotten again, surely!",
         ],
         examples: [
           { es: "Das dürfte der Stau sein.", en: "That's very probably the traffic." },
@@ -2121,14 +2121,14 @@ export const DE_C1_U12: Lesson[] = [
     level: "DE-C1",
     number: 12,
     title: "Spiral Review: Supposition, Konjunktiv and Regrets",
-    summary: "Recombine supposition and hearsay with B2 regrets (hätte... sollen) and Konjunktiv II conditions in everyday mysteries.",
+    summary: "Recombine supposition and hearsay with Upper-intermediate regrets (hätte... sollen) and Konjunktiv II conditions in everyday mysteries.",
     duration: "18 min",
     sections: [
       {
         heading: "Guessing and regretting",
         body: [
           "Everyday mysteries mix guesses about what happened with regrets about what we should have done. Guess: \"Ich muss den Schlüssel im Büro liegen gelassen haben.\" Regret: \"Ich hätte besser aufpassen sollen\" (I should have been more careful). Unreal condition: \"Wenn ich ihn eingesteckt hätte, stünde ich jetzt nicht vor der Tür.\"",
-          "Watch the two 'should have' ideas: \"Er müsste angekommen sein\" (he should have arrived by now: expectation) vs \"Er hätte früher losfahren sollen\" (he should have left earlier: criticism, B2).",
+          "Watch the two 'should have' ideas: \"Er müsste angekommen sein\" (he should have arrived by now: expectation) vs \"Er hätte früher losfahren sollen\" (he should have left earlier: criticism, Upper-intermediate level).",
         ],
         examples: [
           { es: "Ich muss den Schlüssel im Büro liegen gelassen haben.", en: "I must have left the key at the office." },

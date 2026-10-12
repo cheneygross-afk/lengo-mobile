@@ -30,7 +30,7 @@ export const DE_C1_U08: Lesson[] = [
         heading: "Mir ist kalt: sensations in the dative",
         body: [
           "Physical and emotional states that happen to you are expressed with the dative and \"sein\": \"Mir ist kalt\" (I'm cold), \"Mir ist schlecht\" (I feel sick), \"Mir ist schwindelig\" (I feel dizzy), \"Mir ist langweilig\" (I'm bored), \"Ihm ist heiß\".",
-          "With the nominative the meaning changes: \"Ich bin kalt\" describes your character (I'm a cold person), \"Er ist langweilig\" means he is boring. This is one of the classic C1 traps.",
+          "With the nominative the meaning changes: \"Ich bin kalt\" describes your character (I'm a cold person), \"Er ist langweilig\" means he is boring. This is one of the classic Advanced traps.",
           "Related: \"Mir ist nicht nach Feiern\" (I don't feel like partying), \"Mir ist, als ob ...\" (I feel as if ...).",
         ],
         examples: [
@@ -253,7 +253,7 @@ export const DE_C1_U08: Lesson[] = [
         body: [
           "\"Recht haben\" = to be right (\"Du hast recht\", never \"*Du bist richtig\"). \"Etwas gegen jemanden haben\" = to have something against someone. \"Nichts davon haben\" = to get nothing out of it. \"Nichts zu tun haben mit\" = to have nothing to do with.",
           "\"Etwas vorhaben\" = to have plans: \"Hast du am Wochenende schon was vor?\" \"Was hast du denn?\" = What's wrong with you? (asked when someone seems upset or unwell).",
-          "Recap from B2: \"haben + zu\" expresses obligation: \"Sie haben die Gebühr bis Montag zu zahlen\" (you have to pay).",
+          "Recap from the Upper-intermediate level: \"haben + zu\" expresses obligation: \"Sie haben die Gebühr bis Montag zu zahlen\" (you have to pay).",
         ],
         examples: [
           { es: "Du hast recht, ich habe mich geirrt.", en: "You're right, I was wrong." },
@@ -1121,7 +1121,7 @@ export const DE_C1_U08: Lesson[] = [
       {
         heading: "Sich lassen: it can be done",
         body: [
-          "B2 recap: \"sich lassen\" + infinitive expresses possibility, like a passive with \"können\": \"Das Fenster lässt sich nicht öffnen\" (the window can't be opened), \"Das lässt sich machen\" (that can be done).",
+          "Upper-intermediate recap: \"sich lassen\" + infinitive expresses possibility, like a passive with \"können\": \"Das Fenster lässt sich nicht öffnen\" (the window can't be opened), \"Das lässt sich machen\" (that can be done).",
           "Impersonal: \"Hier lässt es sich gut leben\" (it's a good place to live), \"Darüber lässt sich streiten\" (that's debatable).",
         ],
         examples: [
@@ -1559,7 +1559,7 @@ export const DE_C1_U08: Lesson[] = [
       {
         heading: "Same meaning, different core verb",
         body: [
-          "At C1 you should be able to say the same thing in two or three ways and choose by register. Progress: \"Ich bin beim Kochen\" = \"Ich bin am Kochen\" (spoken) = \"Ich bin dabei zu kochen\" = \"Ich koche gerade\".",
+          "At the Advanced level you should be able to say the same thing in two or three ways and choose by register. Progress: \"Ich bin beim Kochen\" = \"Ich bin am Kochen\" (spoken) = \"Ich bin dabei zu kochen\" = \"Ich koche gerade\".",
           "Being right: \"Er hat recht\" = \"Er liegt richtig\" (spoken) = \"Er hat mit seiner Einschätzung recht\". Being wrong: \"Er irrt sich\" = \"Er liegt falsch\" = \"Er hat unrecht\".",
           "Causatives: \"Ich lasse das Auto reparieren\" = \"Ich bringe das Auto in die Werkstatt\". \"Das lässt sich nicht ändern\" = \"Das kann man nicht ändern\" = \"Das ist nicht zu ändern\".",
         ],
@@ -2193,7 +2193,7 @@ export const DE_C1_U08: Lesson[] = [
     slug: "c1-spiral-core-verbs-c1",
     level: "DE-C1",
     number: 14,
-    title: "Spiral Review: Core Verbs at C1 Level",
+    title: "Spiral Review: Core Verbs at the Advanced Level",
     summary: "Recombines sein, haben, machen and lassen idioms with the passive, impersonal es and sich lassen.",
     duration: "18 min",
     sections: [
